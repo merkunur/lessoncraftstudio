@@ -99949,7 +99949,7 @@
      "href": "colorear-por-numeros"
     },
     {
-     "label": "Laberinto para niños: del animal de la salida a la meta",
+     "label": "Laberinto para niños: traza el camino de la salida a la meta",
      "href": "laberintos-infantil"
     }
    ],
@@ -99987,7 +99987,7 @@
      "href": "colorear-por-numeros"
     },
     {
-     "label": "Laberinto para niños: del animal de la salida a la meta",
+     "label": "Laberinto para niños: traza el camino de la salida a la meta",
      "href": "laberintos-infantil"
     },
     {
@@ -100016,7 +100016,7 @@
     "animales",
     "preescolar"
    ],
-   "p1": "En esta ficha de recortar y pegar el trabajo empieza por las tijeras: en la parte de abajo hay una tira de dibujos de animales que el niño recorta uno a uno. Después viene la parte de pensar: mirar cada animal, decidir a qué grupo pertenece y pegarlo en la casilla rotulada que le corresponde. Tijeras, pegamento y una decisión por dibujo: una actividad completa en una sola hoja.",
+   "p1": "En esta ficha de recortar y pegar el trabajo empieza por las tijeras: en la parte de abajo hay una tira de dibujos de animales que el niño recorta uno a uno. Después viene la parte de pensar: mirar cada animal, decidir a qué grupo pertenece y pegarlo en la casilla que lleva arriba el dibujo modelo de ese grupo, sobre uno de los huecos punteados que esperan dentro. Tijeras, pegamento y una decisión por dibujo: una actividad completa en una sola hoja.",
    "p2": "Recortar por la línea es uno de los mejores ejercicios de motricidad fina que existen: pide sujetar bien las tijeras, girar el papel con la otra mano y controlar la fuerza. Y clasificar es, a la vez, el primer pensamiento lógico de verdad: observar, comparar y agrupar por lo que los dibujos tienen en común. Esta ficha junta las dos cosas, de modo que la mano y la cabeza trabajan al mismo tiempo.",
    "p3": "La ficha se imprime gratis en PDF; solo hacen falta tijeras y pegamento. Para seguir moviendo la mano con precisión, el laberinto de animales y los trazos de grafomotricidad son compañeros perfectos de esta actividad, cada uno con su propio tipo de control del lápiz. Y guarda las fichas terminadas en una carpeta: ver crecer el montón de trabajos bien hechos es, para muchos niños, el mejor motivo para pedir otra.",
    "canonicalDeckSlug": "recortar-y-pegar-animales-k240",
@@ -100026,7 +100026,7 @@
      "href": "colorear-por-numeros"
     },
     {
-     "label": "Laberinto para niños: del animal de la salida a la meta",
+     "label": "Laberinto para niños: traza el camino de la salida a la meta",
      "href": "laberintos-infantil"
     },
     {
@@ -100064,7 +100064,7 @@
    "canonicalDeckSlug": "colorear-por-numeros-k241",
    "carousel": [
     {
-     "label": "Laberinto para niños: del animal de la salida a la meta",
+     "label": "Laberinto para niños: traza el camino de la salida a la meta",
      "href": "laberintos-infantil"
     },
     {
@@ -100093,14 +100093,14 @@
     "level": "preescolar"
    },
    "eyebrow": "Ficha de laberinto",
-   "h1": "Laberinto para niños: del animal de la salida a la meta",
+   "h1": "Laberinto para niños: traza el camino de la salida a la meta",
    "strand": "Planificación visual y trazo",
    "slotTokens": [
     "laberintos",
     "juguetes",
     "preescolar"
    ],
-   "p1": "En esta ficha hay un único laberinto grande, de esos que dan ganas de resolver. En la salida, arriba, espera un animal; la meta está abajo del todo, y la hoja viste el reto con un tema de juguetes que la hace aún más apetecible. El niño estudia el laberinto, elige por dónde ir y traza el camino con el lápiz, esquivando los callejones sin salida hasta llegar a la meta.",
+   "p1": "En esta ficha hay un único laberinto grande, de esos que dan ganas de resolver. En la salida, arriba a la izquierda, espera un juguete, y otro juguete marca la meta, abajo del todo: dos dibujos del mismo tema que ponen principio y final al recorrido y lo hacen aún más apetecible. El niño estudia el laberinto, elige por dónde ir y traza el camino con el lápiz, esquivando los callejones sin salida hasta llegar a la meta.",
    "p2": "Un laberinto parece solo un juego, pero por dentro es puro entrenamiento: los ojos exploran antes de que el lápiz se mueva, la mano mantiene la línea dentro de los pasillos y, cuando un camino se cierra, hay que volver atrás y probar otro sin frustrarse. Planificación visual, control del trazo y paciencia para resolver problemas: tres destrezas que después aparecen en la escritura y en las matemáticas. Además, terminar un laberinto grande de una sola pieza da una sensación de logro que las tareas pequeñas y troceadas casi nunca consiguen.",
    "p3": "La ficha se imprime gratis en PDF, perfecta para un rato tranquilo de concentración. Como continuación natural, los trazos de grafomotricidad afinan el mismo control del lápiz por caminos guiados, y la ficha de recortar, clasificar y pegar da a las manos otro tipo de trabajo de precisión.",
    "canonicalDeckSlug": "laberintos-juguetes-k242",
@@ -100123,7 +100123,7 @@
     }
    ],
    "title": "Laberintos para Kínder – trazo y atención | para imprimir PDF",
-   "metaDescription": "Laberinto grande para infantil: un animal espera en la salida y hay que trazar el camino hasta la meta. Atención y control del lápiz. PDF gratis para imprimir."
+   "metaDescription": "Laberinto grande para infantil: un dibujo en la salida, otro en la meta y un camino que trazar en medio. Atención y control del lápiz. PDF gratis para imprimir."
   },
   {
    "slug": "amigos-del-10",
@@ -101762,6 +101762,3080 @@
    ],
    "title": "Tabla del 4 – el doble de la tabla del 2 | para imprimir PDF",
    "metaDescription": "La tabla del 4 completa, del 1 × 4 al 10 × 4, con casillas para el resultado: cada producto es el doble de la tabla del 2, medio camino ya hecho. PDF gratis."
+  },
+  {
+   "slug": "grafomotricidad-rectas-y-zigzag",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pre-writing",
+    "mode": null,
+    "theme": "animals",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de grafomotricidad",
+   "h1": "Grafomotricidad de rectas y zigzag: trazos con esquinas",
+   "strand": "Grafomotricidad y motricidad fina",
+   "slotTokens": [
+    "grafomotricidad",
+    "animales",
+    "preescolar"
+   ],
+   "p1": "Esta ficha reúne los trazos con esquinas: líneas rectas, zigzags, picos de montaña y almenas de castillo. Cada carril arranca en su punto naranja, la flecha marca hacia dónde ir y al final del camino espera un animal como premio. El niño apoya el lápiz, avanza en recto y, al llegar a cada esquina, se detiene un instante y cambia de dirección sin despegar la punta del papel.",
+   "p2": "Los trazos angulares enseñan algo muy distinto de las curvas: a frenar. En un zigzag o en una almena el lápiz no fluye, sino que va, para y gira, y ese pequeño freno es puro control motor. Es exactamente el gesto que después piden las letras de palo recto, la E, la M, la Z o el 4 y el 7 de los números. Los niños que solo han practicado ondas suelen redondear las esquinas; esta ficha trabaja justo ese punto débil, carril a carril, hasta que la esquina sale limpia y con intención.",
+   "p3": "La ficha se imprime gratis en PDF, lista para el aula o para casa. Su pareja natural es la lámina de ondas y curvas, que entrena el gesto contrario, el que fluye sin frenar; con las dos hechas, el repaso de todos los trazos permite comprobar que ambos movimientos ya conviven en la misma mano.",
+   "canonicalDeckSlug": "grafomotricidad-animales-k244",
+   "carousel": [
+    {
+     "label": "Grafomotricidad de ondas y curvas: trazos que fluyen",
+     "href": "grafomotricidad-ondas-y-curvas"
+    },
+    {
+     "label": "Bucles, espirales y ochos tumbados: el grafismo clásico",
+     "href": "bucles-espirales-y-ochos"
+    },
+    {
+     "label": "Grafomotricidad avanzada: la mezcla más difícil de trazos",
+     "href": "grafomotricidad-avanzada"
+    },
+    {
+     "label": "Repaso de todos los trazos: cinco carriles en una ficha",
+     "href": "repaso-de-trazos"
+    }
+   ],
+   "title": "Grafomotricidad: rectas y zigzag – Kínder | para imprimir PDF",
+   "metaDescription": "Ficha de trazos angulares: rectas, zigzags, picos y almenas, con punto de salida naranja y un animal al final de cada carril. PDF gratis para imprimir."
+  },
+  {
+   "slug": "grafomotricidad-ondas-y-curvas",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pre-writing",
+    "mode": null,
+    "theme": "fruits",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de grafomotricidad",
+   "h1": "Grafomotricidad de ondas y curvas: trazos que fluyen",
+   "strand": "Grafomotricidad y motricidad fina",
+   "slotTokens": [
+    "grafomotricidad",
+    "frutas",
+    "preescolar"
+   ],
+   "p1": "Aquí todos los caminos son redondos: ondas, montañitas como arcoíris, copas abiertas hacia arriba y lazos cursivos. Cada carril empieza en el punto naranja y termina en una fruta que espera al final del recorrido. El niño coloca el lápiz en la salida, sigue la flecha y deja que la línea suba y baje suavemente, sin esquinas ni paradas, hasta llegar a su premio.",
+   "p2": "El trazo curvo pide una muñeca suelta y un ritmo constante, y eso no se enseña con palabras: se consigue repitiendo el gesto muchas veces con caminos amplios como estos. Es la preparación directa de las letras redondas, la o, la a, la c y la e, que son la mayoría de las que el niño escribirá. Si el lápiz aprieta demasiado, la curva sale temblona; esta ficha es el sitio perfecto para practicar esa presión justa, con un movimiento amplio y agradable que casi se parece a dibujar olas.",
+   "p3": "Imprime la ficha gratis en PDF y deja que la mano coja ritmo. Después de las curvas, la lámina de rectas y zigzag entrena las esquinas, el gesto opuesto; y cuando los dos salgan con soltura, los bucles, espirales y ochos llevan este mismo movimiento redondo un paso más lejos, hacia el grafismo clásico.",
+   "canonicalDeckSlug": "grafomotricidad-frutas-k245",
+   "carousel": [
+    {
+     "label": "Bucles, espirales y ochos tumbados: el grafismo clásico",
+     "href": "bucles-espirales-y-ochos"
+    },
+    {
+     "label": "Grafomotricidad avanzada: la mezcla más difícil de trazos",
+     "href": "grafomotricidad-avanzada"
+    },
+    {
+     "label": "Repaso de todos los trazos: cinco carriles en una ficha",
+     "href": "repaso-de-trazos"
+    },
+    {
+     "label": "Grafomotricidad de rectas y zigzag: trazos con esquinas",
+     "href": "grafomotricidad-rectas-y-zigzag"
+    }
+   ],
+   "title": "Grafomotricidad: ondas y curvas – Kínder | para imprimir PDF",
+   "metaDescription": "Ondas, montañitas redondas, copas y lazos cursivos para repasar con el lápiz, con una fruta al final de cada camino. Ficha en PDF gratis para imprimir."
+  },
+  {
+   "slug": "bucles-espirales-y-ochos",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pre-writing",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de grafomotricidad",
+   "h1": "Bucles, espirales y ochos tumbados: el grafismo clásico",
+   "strand": "Grafomotricidad y motricidad fina",
+   "slotTokens": [
+    "grafomotricidad",
+    "vehiculos",
+    "preescolar"
+   ],
+   "p1": "Esta ficha recoge los motivos clásicos del grafismo escolar: bucles encadenados, ochos tumbados como el símbolo del infinito, espirales que giran hacia dentro y ondas que enlazan un giro con el siguiente. El tema es de vehículos: al final de cada carril espera un coche, un avión o un barco. Punto naranja, flecha, y a girar sin levantar el lápiz.",
+   "p2": "Lo especial de estos trazos es que no terminan: el bucle engancha con el siguiente y el ocho vuelve siempre sobre sí mismo. Ese giro continuo es el motor de la letra ligada, donde una letra entra en la otra sin cortes. El ocho tumbado tiene además un mérito propio: obliga a la mano a cruzar la línea media del cuerpo, un cruce que a muchos niños de infantil todavía les cuesta y que conviene practicar con gestos grandes antes de pedirlo en pequeño. Espirales y bucles, por su parte, entrenan el giro en ambos sentidos, el mismo que diferencia una b de una d.",
+   "p3": "La ficha está lista para imprimir gratis en PDF. Si las esquinas aún bailan, la lámina de rectas y zigzag las trabaja aparte; y quien domine estos giros puede atreverse con la grafomotricidad avanzada, donde bucles, ochos y espirales aparecen mezclados en una misma hoja.",
+   "canonicalDeckSlug": "grafomotricidad-vehiculos-k246",
+   "carousel": [
+    {
+     "label": "Grafomotricidad avanzada: la mezcla más difícil de trazos",
+     "href": "grafomotricidad-avanzada"
+    },
+    {
+     "label": "Repaso de todos los trazos: cinco carriles en una ficha",
+     "href": "repaso-de-trazos"
+    },
+    {
+     "label": "Grafomotricidad de rectas y zigzag: trazos con esquinas",
+     "href": "grafomotricidad-rectas-y-zigzag"
+    },
+    {
+     "label": "Grafomotricidad de ondas y curvas: trazos que fluyen",
+     "href": "grafomotricidad-ondas-y-curvas"
+    }
+   ],
+   "title": "Bucles, espirales y ochos – Kínder | para imprimir PDF",
+   "metaDescription": "Los motivos clásicos del grafismo: bucles, ochos tumbados, espirales y ondas, con un vehículo esperando al final de cada carril. PDF gratis para imprimir."
+  },
+  {
+   "slug": "grafomotricidad-avanzada",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pre-writing",
+    "mode": null,
+    "theme": "toys",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de grafomotricidad",
+   "h1": "Grafomotricidad avanzada: la mezcla más difícil de trazos",
+   "strand": "Grafomotricidad y motricidad fina",
+   "slotTokens": [
+    "grafomotricidad",
+    "juguetes",
+    "preescolar"
+   ],
+   "p1": "Esta es la ficha más exigente de la serie: cinco carriles que mezclan almenas, espirales, ochos tumbados, picos y bucles, cada uno con su punto naranja de salida, su flecha y un juguete esperando al final. Nada se repite: cada carril pide un gesto distinto, y el niño tiene que cambiar de movimiento al pasar de una fila a la siguiente, de frenar en las esquinas a girar sin parar.",
+   "p2": "Ese cambio constante es justo lo que la hace valiosa. Repetir un mismo trazo diez veces crea soltura; cambiar de trazo en cada fila crea control de verdad, porque la mano ya no puede funcionar en automático. Para el adulto es además una radiografía estupenda: basta mirar la hoja terminada para ver qué gesto sale seguro y cuál todavía tiembla, y volver entonces a la lámina específica de ese trazo. Muchos maestros la usan así, como pequeña prueba amable antes de empezar con las letras.",
+   "p3": "Descarga la ficha gratis en PDF y proponla cuando las láminas de un solo trazo ya salgan con soltura. Si algún carril se resiste, las fichas de rectas y zigzag o de ondas y curvas permiten volver a ese gesto concreto; y el repaso de todos los trazos es la compañera perfecta para consolidar lo conseguido.",
+   "canonicalDeckSlug": "grafomotricidad-juguetes-k247",
+   "carousel": [
+    {
+     "label": "Repaso de todos los trazos: cinco carriles en una ficha",
+     "href": "repaso-de-trazos"
+    },
+    {
+     "label": "Grafomotricidad de rectas y zigzag: trazos con esquinas",
+     "href": "grafomotricidad-rectas-y-zigzag"
+    },
+    {
+     "label": "Grafomotricidad de ondas y curvas: trazos que fluyen",
+     "href": "grafomotricidad-ondas-y-curvas"
+    },
+    {
+     "label": "Bucles, espirales y ochos tumbados: el grafismo clásico",
+     "href": "bucles-espirales-y-ochos"
+    }
+   ],
+   "title": "Grafomotricidad avanzada – 5 carriles | para imprimir PDF",
+   "metaDescription": "Cinco carriles con los trazos más exigentes: almenas, espirales, ochos, picos y bucles, con tema de juguetes. Grafomotricidad avanzada en PDF gratis."
+  },
+  {
+   "slug": "repaso-de-trazos",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pre-writing",
+    "mode": null,
+    "theme": "animals",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de grafomotricidad",
+   "h1": "Repaso de todos los trazos: cinco carriles en una ficha",
+   "strand": "Grafomotricidad y motricidad fina",
+   "slotTokens": [
+    "grafomotricidad",
+    "animales",
+    "preescolar"
+   ],
+   "p1": "Esta ficha de repaso reúne en una sola hoja los cinco trazos fundamentales: la línea recta, la onda, el zigzag, las copas y las montañitas redondas. Cinco carriles, cinco gestos, y al final de cada camino un animal que espera. El niño recorre la hoja de arriba abajo, empezando cada carril en su punto naranja y siguiendo la flecha hasta la meta.",
+   "p2": "El repaso espaciado funciona con la mano igual que con la memoria: un trazo practicado hoy se afianza de verdad cuando vuelve a aparecer días después, mezclado con otros. Por eso esta lámina rinde tanto al final de una quincena de grafomotricidad, como cierre de lo trabajado. Un truco de maestra que funciona: guardar la primera hoja de trazos del trimestre y ponerla al lado de esta; la diferencia entre las dos suele ser tan visible que el propio niño la señala, y pocas cosas motivan más que ver el propio progreso con los ojos.",
+   "p3": "Imprime la ficha gratis en PDF, perfecta para cerrar la serie o para retomarla tras las vacaciones. Desde aquí, el salto natural son los números punteados del 0 al 4 y las letras punteadas de la A a la D, donde estos mismos gestos, rectas, curvas y giros, empiezan por fin a formar cifras y letras de verdad.",
+   "canonicalDeckSlug": "grafomotricidad-animales-k248",
+   "carousel": [
+    {
+     "label": "Grafomotricidad de rectas y zigzag: trazos con esquinas",
+     "href": "grafomotricidad-rectas-y-zigzag"
+    },
+    {
+     "label": "Grafomotricidad de ondas y curvas: trazos que fluyen",
+     "href": "grafomotricidad-ondas-y-curvas"
+    },
+    {
+     "label": "Bucles, espirales y ochos tumbados: el grafismo clásico",
+     "href": "bucles-espirales-y-ochos"
+    },
+    {
+     "label": "Grafomotricidad avanzada: la mezcla más difícil de trazos",
+     "href": "grafomotricidad-avanzada"
+    }
+   ],
+   "title": "Repaso de trazos de grafomotricidad | para imprimir PDF",
+   "metaDescription": "Ficha de repaso con cinco carriles: recta, onda, zigzag, copas y montañitas, cada camino con su animal al final. Grafomotricidad en PDF gratis para imprimir."
+  },
+  {
+   "slug": "palabras-frecuentes-lista-2",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sight-words",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de palabras frecuentes",
+   "h1": "Palabras frecuentes, lista 2: de, que, en y es",
+   "strand": "Lectoescritura inicial",
+   "standard": "RF.K.3.c",
+   "slotTokens": [
+    "palabras-de-uso-frecuente",
+    "preescolar"
+   ],
+   "p1": "La lista 2 de palabras de uso frecuente trabaja cuatro palabras cortas y constantes: de, que, en y es. Cada una ocupa su fila con los tres pasos de siempre: primero se lee la palabra modelo, después se repasa sobre el trazo punteado y por último el niño la escribe solo en la línea vacía. Cuatro filas, cuatro palabras, y una hoja que se termina en un rato tranquilo de mesa.",
+   "p2": "Estas cuatro son palabras pegamento: no se pueden dibujar ni explicar con una imagen, y sin embargo aparecen en casi todas las frases que el niño va a leer. Precisamente por eso hay que aprenderlas de vista, como una foto completa, y no letra a letra. Cuando de, que, en y es se reconocen de un golpe de ojo, las frases dejan de ser una carrera de obstáculos: el esfuerzo se reserva para las palabras largas e interesantes, y el resto se lee solo. Es una inversión pequeña con un efecto enorme en la fluidez.",
+   "p3": "Imprime la ficha gratis en PDF y trabaja una fila cada vez, sin prisa. Esta lista continúa la primera ficha de palabras de uso frecuente, y cuando estas cuatro estén bien fijadas, la lista 3 espera con las siguientes: yo, mi, no y sí, palabras que el niño dice a todas horas.",
+   "canonicalDeckSlug": "palabras-de-uso-frecuente-k259",
+   "carousel": [
+    {
+     "label": "Palabras frecuentes, lista 3: yo, mi, no y sí",
+     "href": "palabras-frecuentes-lista-3"
+    },
+    {
+     "label": "Palabras frecuentes, lista 4: los, las, me y te",
+     "href": "palabras-frecuentes-lista-4"
+    },
+    {
+     "label": "Palabras frecuentes, lista 5: se, con, por y para",
+     "href": "palabras-frecuentes-lista-5"
+    },
+    {
+     "label": "Palabras frecuentes, lista 6: más, casa, mamá y papá",
+     "href": "palabras-frecuentes-lista-6"
+    }
+   ],
+   "title": "Palabras frecuentes: lista 2 – Kínder | para imprimir PDF",
+   "metaDescription": "Segunda lista de palabras de uso frecuente: de, que, en y es. Leer la palabra, repasar el punteado y escribirla en la línea. Ficha en PDF gratis para imprimir."
+  },
+  {
+   "slug": "palabras-frecuentes-lista-3",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sight-words",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de palabras frecuentes",
+   "h1": "Palabras frecuentes, lista 3: yo, mi, no y sí",
+   "strand": "Lectoescritura inicial",
+   "standard": "RF.K.3.c",
+   "slotTokens": [
+    "palabras-de-uso-frecuente",
+    "preescolar"
+   ],
+   "p1": "La lista 3 trae cuatro palabras que el niño usa desde que habla: yo, mi, no y sí. La mecánica es la conocida: leer la palabra en su versión modelo, repasarla sobre el punteado y escribirla después sin ayuda en la línea. Son palabras de dos letras, cortas y rotundas, y una de ellas, sí, estrena algo nuevo: una tilde que también hay que escribir.",
+   "p2": "Trabajar justo estas palabras tiene una ventaja emocional que las maestras conocen bien: son las palabras del propio niño. Yo, mi, no y sí llevan años en su boca; verlas ahora escritas y poder escribirlas él mismo convierte la lectura en algo personal, casi en una firma. Ese puente entre lo que se dice y lo que se escribe es de los más motivadores de toda la lectoescritura inicial. Y de paso aparece la primera conversación sobre la tilde: sí lleva una rayita arriba, y ponerla también es escribir bien la palabra.",
+   "p3": "La ficha se imprime gratis en PDF para casa o para el aula. Viene de la lista 2, con de, que, en y es, y continúa en la lista 4, donde llegan los, las, me y te; paso a paso, el banco de palabras que el niño reconoce de un vistazo se va haciendo grande.",
+   "canonicalDeckSlug": "palabras-de-uso-frecuente-k260",
+   "carousel": [
+    {
+     "label": "Palabras frecuentes, lista 4: los, las, me y te",
+     "href": "palabras-frecuentes-lista-4"
+    },
+    {
+     "label": "Palabras frecuentes, lista 5: se, con, por y para",
+     "href": "palabras-frecuentes-lista-5"
+    },
+    {
+     "label": "Palabras frecuentes, lista 6: más, casa, mamá y papá",
+     "href": "palabras-frecuentes-lista-6"
+    },
+    {
+     "label": "Palabras frecuentes, lista 2: de, que, en y es",
+     "href": "palabras-frecuentes-lista-2"
+    }
+   ],
+   "title": "Palabras frecuentes: lista 3 – Kínder | para imprimir PDF",
+   "metaDescription": "Tercera lista de palabras frecuentes: yo, mi, no y sí. Tres pasos por palabra: leer, repasar el punteado y escribir en la línea. PDF gratis para imprimir."
+  },
+  {
+   "slug": "palabras-frecuentes-lista-4",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sight-words",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de palabras frecuentes",
+   "h1": "Palabras frecuentes, lista 4: los, las, me y te",
+   "strand": "Lectoescritura inicial",
+   "standard": "RF.K.3.c",
+   "slotTokens": [
+    "palabras-de-uso-frecuente",
+    "preescolar"
+   ],
+   "p1": "En la lista 4 trabajamos los, las, me y te, cuatro palabras breves que aparecen sin parar en los cuentos. Cada palabra tiene su fila con los tres encuentros habituales: se lee la versión modelo, se repasa el trazo punteado con el lápiz y se escribe después en la línea vacía, ya sin guía. Al acabar la fila, la palabra ha pasado por los ojos, por la mano guiada y por la mano sola.",
+   "p2": "Esta lista esconde un pequeño descubrimiento gramatical. Los y las son los hermanos en plural de el y la, que el niño ya conoce de la primera lista: la misma palabra con una s al final que significa muchos. Señalar ese parecido, ponerlas juntas y compararlas, es una primera lección de cómo funciona nuestra lengua, sin necesidad de nombrar ninguna regla. Me y te, por su parte, se distinguen solo por la letra inicial, así que obligan a mirar con lupa: dos palabras casi gemelas que entrenan la precisión visual que la lectura exige.",
+   "p3": "Descarga la ficha gratis en PDF y repásala en un par de sesiones cortas. Después de esta lista, la 5 sube un peldaño con se, con, por y para; y si alguna letra todavía baila al escribirla, las letras punteadas del abecedario son el refuerzo perfecto en paralelo.",
+   "canonicalDeckSlug": "palabras-de-uso-frecuente-k261",
+   "carousel": [
+    {
+     "label": "Palabras frecuentes, lista 5: se, con, por y para",
+     "href": "palabras-frecuentes-lista-5"
+    },
+    {
+     "label": "Palabras frecuentes, lista 6: más, casa, mamá y papá",
+     "href": "palabras-frecuentes-lista-6"
+    },
+    {
+     "label": "Palabras frecuentes, lista 2: de, que, en y es",
+     "href": "palabras-frecuentes-lista-2"
+    },
+    {
+     "label": "Palabras frecuentes, lista 3: yo, mi, no y sí",
+     "href": "palabras-frecuentes-lista-3"
+    }
+   ],
+   "title": "Palabras frecuentes: lista 4 – Kínder | para imprimir PDF",
+   "metaDescription": "Cuarta lista de palabras de uso frecuente: los, las, me y te. Leer, repasar sobre el punteado y escribir en la línea vacía. Ficha en PDF gratis para imprimir."
+  },
+  {
+   "slug": "palabras-frecuentes-lista-5",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sight-words",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de palabras frecuentes",
+   "h1": "Palabras frecuentes, lista 5: se, con, por y para",
+   "strand": "Lectoescritura inicial",
+   "standard": "RF.K.3.c",
+   "slotTokens": [
+    "palabras-de-uso-frecuente",
+    "preescolar"
+   ],
+   "p1": "La lista 5 reúne se, con, por y para: las palabras pequeñas que enlazan todo lo demás. El trabajo por fila es el de toda la serie: leer la palabra modelo, repasarla sobre el trazo punteado y escribirla por última vez en la línea, ya de memoria. Con esta hoja el niño pasa de las palabras de dos letras a otras de tres y cuatro, un pasito más de largo y de atención.",
+   "p2": "Aquí conviene detenerse en una pareja traviesa: por y para. Empiezan igual, se usan a todas horas y en la lectura rápida se confunden con facilidad; ponerlas en la misma hoja es deliberado, porque obliga a mirar la palabra hasta el final antes de decidir cuál es. Ese hábito de no adivinar por la primera sílaba, sino comprobar la palabra entera, es una de las mejores vacunas contra los errores de lectura apresurada que aparecen en primero. Y escribirlas, letra a letra, es la forma más segura de fijar la diferencia.",
+   "p3": "Imprime la ficha gratis en PDF y dedícale un rato sin prisas. Con la lista 4 ya dominada, esta quinta entrega deja casi completo el banco de palabras; la lista 6 cierra la serie con más, casa, mamá y papá, las palabras más queridas del mundo del niño.",
+   "canonicalDeckSlug": "palabras-de-uso-frecuente-k262",
+   "carousel": [
+    {
+     "label": "Palabras frecuentes, lista 6: más, casa, mamá y papá",
+     "href": "palabras-frecuentes-lista-6"
+    },
+    {
+     "label": "Palabras frecuentes, lista 2: de, que, en y es",
+     "href": "palabras-frecuentes-lista-2"
+    },
+    {
+     "label": "Palabras frecuentes, lista 3: yo, mi, no y sí",
+     "href": "palabras-frecuentes-lista-3"
+    },
+    {
+     "label": "Palabras frecuentes, lista 4: los, las, me y te",
+     "href": "palabras-frecuentes-lista-4"
+    }
+   ],
+   "title": "Palabras frecuentes: lista 5 – Kínder | para imprimir PDF",
+   "metaDescription": "Quinta lista de palabras frecuentes: se, con, por y para. Leerlas, repasarlas sobre el punteado y escribirlas en la línea. PDF gratis listo para imprimir."
+  },
+  {
+   "slug": "palabras-frecuentes-lista-6",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sight-words",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de palabras frecuentes",
+   "h1": "Palabras frecuentes, lista 6: más, casa, mamá y papá",
+   "strand": "Lectoescritura inicial",
+   "standard": "RF.K.3.c",
+   "slotTokens": [
+    "palabras-de-uso-frecuente",
+    "preescolar"
+   ],
+   "p1": "La lista 6 cierra la serie con las palabras más cercanas de todas: más, casa, mamá y papá. Como siempre, cada palabra se trabaja tres veces: se lee en su versión modelo, se repasa sobre el punteado y se escribe sola en la línea final. Tres de las cuatro llevan tilde, así que esta hoja tiene una novedad: la rayita inclinada también se repasa y también se escribe.",
+   "p2": "Que las primeras palabras con tilde sean mamá y papá no es casualidad: son las palabras que el niño más ganas tiene de escribir, y esa motivación es el mejor momento para presentar la tilde como parte de la palabra, no como un adorno que se añade si sobra tiempo. Mamá sin su tilde está incompleta, igual que un dibujo sin terminar. Sembrar ese cuidado ahora, con palabras que importan, evita después la pelea eterna con los acentos. Y casa, sin tilde, sirve de contraste perfecto: hay palabras que la llevan y palabras que no.",
+   "p3": "La ficha se imprime gratis en PDF y es un cierre precioso para la serie: muchas familias enmarcan la hoja donde el niño escribió mamá y papá por primera vez. Completadas las seis listas, la comprensión lectora con cuentos y preguntas es el siguiente puerto, donde todas estas palabras aparecen por fin dentro de historias de verdad.",
+   "canonicalDeckSlug": "palabras-de-uso-frecuente-k263",
+   "carousel": [
+    {
+     "label": "Palabras frecuentes, lista 2: de, que, en y es",
+     "href": "palabras-frecuentes-lista-2"
+    },
+    {
+     "label": "Palabras frecuentes, lista 3: yo, mi, no y sí",
+     "href": "palabras-frecuentes-lista-3"
+    },
+    {
+     "label": "Palabras frecuentes, lista 4: los, las, me y te",
+     "href": "palabras-frecuentes-lista-4"
+    },
+    {
+     "label": "Palabras frecuentes, lista 5: se, con, por y para",
+     "href": "palabras-frecuentes-lista-5"
+    }
+   ],
+   "title": "Palabras frecuentes: lista 6 – Kínder | para imprimir PDF",
+   "metaDescription": "Última lista de palabras frecuentes: más, casa, mamá y papá, las primeras con tilde. Leer, repasar y escribir en la línea. Ficha en PDF gratis para imprimir."
+  },
+  {
+   "slug": "recorta-y-pega-en-dos-grupos",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cutting-practice",
+    "mode": null,
+    "theme": "animals",
+    "level": "preescolar"
+   },
+   "eyebrow": "Recortar y pegar",
+   "h1": "Recorta y pega en dos grupos: ocho dibujos, dos casillas",
+   "strand": "Motricidad fina y clasificación",
+   "standard": "K.MD.B.3",
+   "slotTokens": [
+    "recortar-y-pegar",
+    "animales",
+    "preescolar"
+   ],
+   "p1": "En esta ficha el niño encuentra ocho dibujos repartidos en dos tiras de recortar y, arriba, solo dos casillas, cada una encabezada por un dibujo modelo y con cuatro huecos punteados esperando dentro. Primero trabajan las tijeras, tira a tira y dibujo a dibujo; después toca mirar cada recorte y decidir: ¿a cuál de los dos grupos pertenece? La lámina existe en dos ediciones, una de animales y otra de vehículos, con la misma mecánica y distinto mundo que ordenar.",
+   "p2": "Clasificar en solo dos grupos es la mejor puerta de entrada al pensamiento lógico: con dos opciones, el criterio queda clarísimo y cada decisión es un sí o un no rotundo. Eso permite al niño trabajar solo, sin dudas que lo atasquen, y verbalizar su elección si un adulto pregunta por qué. Las dos tiras, además, duplican el trabajo de tijera respecto a una sola: más cortes, más giros de papel, más músculo fino. Ocho decisiones y ocho recortes después, la hoja queda ordenada y la satisfacción se ve.",
+   "p3": "Imprime la edición que prefieras gratis en PDF; solo hacen falta tijeras y pegamento. Cuando los dos grupos salgan sin dudar, la ficha clásica de recortar, clasificar y pegar añade más categorías a la vez, y el laberinto fácil de frutas ofrece a esas mismas manos un descanso divertido que sigue entrenando el control fino.",
+   "canonicalDeckSlug": "recortar-y-pegar-animales-k264",
+   "collapseSiblings": [
+    "recortar-y-pegar-vehiculos-k264"
+   ],
+   "carousel": [
+    {
+     "label": "Recortar y pegar vehículos: cada uno en su casilla",
+     "href": "recortar-y-pegar-vehiculos"
+    },
+    {
+     "label": "Recortar y pegar frutas: clasifica y pega en su casilla",
+     "href": "recortar-y-pegar-frutas"
+    },
+    {
+     "label": "Recortar y pegar juguetes: ordena cada uno en su grupo",
+     "href": "recortar-y-pegar-juguetes"
+    },
+    {
+     "label": "Colorea según la figura: cada forma con su color",
+     "href": "colorear-segun-la-figura"
+    }
+   ],
+   "title": "Recorta y pega en dos grupos – Kínder | para imprimir PDF",
+   "metaDescription": "Ocho dibujos en dos tiras para recortar y clasificar bajo dos dibujos modelo. Hay edición de animales y de vehículos. Ficha en PDF gratis para imprimir."
+  },
+  {
+   "slug": "recortar-y-pegar-vehiculos",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cutting-practice",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "preescolar"
+   },
+   "eyebrow": "Recortar y pegar",
+   "h1": "Recortar y pegar vehículos: cada uno en su casilla",
+   "strand": "Motricidad fina y clasificación",
+   "standard": "K.MD.B.3",
+   "slotTokens": [
+    "recortar-y-pegar",
+    "vehiculos",
+    "preescolar"
+   ],
+   "p1": "Esta edición de recortar y pegar está dedicada a los vehículos: en la tira inferior esperan coches, aviones, barcos y otros medios de transporte que el niño recorta uno a uno. Después llega la parte de pensar: observar cada vehículo, decidir a qué grupo pertenece y pegarlo en la casilla que lleva arriba el dibujo modelo de su grupo, sobre uno de los huecos punteados. Tijeras, pegamento y una flota entera por ordenar.",
+   "p2": "El tema no es un adorno: es una mina de vocabulario. Mientras las manos recortan, la conversación va sola: cómo se llama este, por dónde se mueve, quién lo conduce, cuál has visto tú. Clasificar vehículos invita de forma natural a hablar de tierra, agua y aire, y ese hablar mientras se hace es una de las maneras más eficaces de fijar palabras nuevas a esta edad. La ficha rinde así por partida doble: motricidad fina en las tijeras y lenguaje en la charla que la acompaña.",
+   "p3": "La lámina se imprime gratis en PDF, lista para un rato de mesa con tijeras. Si los vehículos gustan en casa, el laberinto difícil de vehículos es el compañero perfecto para otro día; y la edición de frutas de esta misma ficha cambia de mundo manteniendo el mismo buen trabajo de manos.",
+   "canonicalDeckSlug": "recortar-y-pegar-vehiculos-k240",
+   "carousel": [
+    {
+     "label": "Recortar y pegar frutas: clasifica y pega en su casilla",
+     "href": "recortar-y-pegar-frutas"
+    },
+    {
+     "label": "Recortar y pegar juguetes: ordena cada uno en su grupo",
+     "href": "recortar-y-pegar-juguetes"
+    },
+    {
+     "label": "Recorta y pega en dos grupos: ocho dibujos, dos casillas",
+     "href": "recorta-y-pega-en-dos-grupos"
+    },
+    {
+     "label": "Colorea según la figura: cada forma con su color",
+     "href": "colorear-segun-la-figura"
+    }
+   ],
+   "title": "Recortar y pegar vehículos – Kínder | para imprimir PDF",
+   "metaDescription": "Ficha de recortar y pegar con vehículos: recorta la tira de dibujos, decide el grupo de cada vehículo y pégalo bajo su dibujo modelo. PDF gratis para imprimir."
+  },
+  {
+   "slug": "recortar-y-pegar-frutas",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cutting-practice",
+    "mode": null,
+    "theme": "fruits",
+    "level": "preescolar"
+   },
+   "eyebrow": "Recortar y pegar",
+   "h1": "Recortar y pegar frutas: clasifica y pega en su casilla",
+   "strand": "Motricidad fina y clasificación",
+   "standard": "K.MD.B.3",
+   "slotTokens": [
+    "recortar-y-pegar",
+    "frutas",
+    "preescolar"
+   ],
+   "p1": "En esta edición de la ficha de recortar y pegar, la tira inferior está llena de frutas: el niño las recorta una a una, las observa y pega cada una en la casilla encabezada por el dibujo modelo de su grupo, sobre uno de los huecos punteados. El trabajo completo cabe en una hoja: primero las tijeras siguiendo la línea, luego la decisión fruta a fruta y por último el pegamento, con la satisfacción de ver el frutero bien ordenado.",
+   "p2": "Trabajar con frutas tiene una ventaja que las maestras aprovechan siempre: son objetos de la vida diaria del niño. Las ha visto en la cocina, en el mercado y en el almuerzo, así que puede apoyar cada decisión en su propia experiencia y no solo en el dibujo. Eso abre conversaciones estupendas mientras se recorta: cuál es dulce, cuál tiene piel que se pela, cuál crece en un árbol. La clasificación se llena de contenido real, y de paso se cuela en la mesa una charla amable sobre comer fruta.",
+   "p3": "Imprime la ficha gratis en PDF; con tijeras y pegamento hay actividad para un buen rato. Para seguir en el mismo mundo, el laberinto de frutas propone otro reto con los mismos protagonistas, y la edición de juguetes de esta ficha repite la mecánica con el tema favorito de cualquier niño.",
+   "canonicalDeckSlug": "recortar-y-pegar-frutas-k240",
+   "carousel": [
+    {
+     "label": "Recortar y pegar juguetes: ordena cada uno en su grupo",
+     "href": "recortar-y-pegar-juguetes"
+    },
+    {
+     "label": "Recorta y pega en dos grupos: ocho dibujos, dos casillas",
+     "href": "recorta-y-pega-en-dos-grupos"
+    },
+    {
+     "label": "Recortar y pegar vehículos: cada uno en su casilla",
+     "href": "recortar-y-pegar-vehiculos"
+    },
+    {
+     "label": "Colorea según la figura: cada forma con su color",
+     "href": "colorear-segun-la-figura"
+    }
+   ],
+   "title": "Recortar y pegar frutas – Kínder | para imprimir PDF",
+   "metaDescription": "Ficha de recortar y pegar con frutas: el niño recorta la tira de dibujos, clasifica cada fruta y la pega bajo su dibujo modelo. PDF gratis para imprimir."
+  },
+  {
+   "slug": "recortar-y-pegar-juguetes",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cutting-practice",
+    "mode": null,
+    "theme": "toys",
+    "level": "preescolar"
+   },
+   "eyebrow": "Recortar y pegar",
+   "h1": "Recortar y pegar juguetes: ordena cada uno en su grupo",
+   "strand": "Motricidad fina y clasificación",
+   "standard": "K.MD.B.3",
+   "slotTokens": [
+    "recortar-y-pegar",
+    "juguetes",
+    "preescolar"
+   ],
+   "p1": "Esta edición de recortar y pegar pone sobre la mesa lo que más quiere un niño: juguetes. En la tira de abajo esperan pelotas, muñecos, cochecitos y otros tesoros de dibujo; hay que recortarlos uno a uno, mirarlos bien y pegar cada juguete en la casilla que lleva arriba el dibujo modelo de su grupo, sobre uno de los huecos punteados. Tijeras, pegamento y un cuarto de juegos de papel por ordenar.",
+   "p2": "Cuando el tema toca tan de cerca, la actividad se defiende sola: no hace falta convencer a nadie para clasificar juguetes. Ese interés extra se puede invertir en calidad, pidiendo cortes más finos por la línea y pegado bien centrado en la casilla, cosas que con un tema neutro costarían protestas. Y la ficha deja un regalo para la vida diaria: ordenar por grupos es exactamente lo que hacemos al recoger la habitación, cada cosa en su caja. Más de una familia descubre que después de esta lámina el recogemos por tipos suena mucho menos raro.",
+   "p3": "La ficha se imprime gratis en PDF y funciona igual de bien en el aula que una tarde en casa. El laberinto gigante de juguetes continúa el tema con un reto de concentración, y la versión de dos grupos de recortar y pegar simplifica la mecánica para los que empiezan.",
+   "canonicalDeckSlug": "recortar-y-pegar-juguetes-k240",
+   "carousel": [
+    {
+     "label": "Recorta y pega en dos grupos: ocho dibujos, dos casillas",
+     "href": "recorta-y-pega-en-dos-grupos"
+    },
+    {
+     "label": "Recortar y pegar vehículos: cada uno en su casilla",
+     "href": "recortar-y-pegar-vehiculos"
+    },
+    {
+     "label": "Recortar y pegar frutas: clasifica y pega en su casilla",
+     "href": "recortar-y-pegar-frutas"
+    },
+    {
+     "label": "Colorea según la figura: cada forma con su color",
+     "href": "colorear-segun-la-figura"
+    }
+   ],
+   "title": "Recortar y pegar juguetes – Kínder | para imprimir PDF",
+   "metaDescription": "Ficha de recortar y pegar con juguetes: recortar la tira de dibujos, clasificar cada juguete y pegarlo bajo su dibujo modelo. PDF gratis para imprimir."
+  },
+  {
+   "slug": "colorear-segun-la-figura",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Colorear por código",
+   "h1": "Colorea según la figura: cada forma con su color",
+   "strand": "Cálculo inicial y atención",
+   "standard": "K.G.A.2",
+   "slotTokens": [
+    "colorear-por-numeros",
+    "preescolar"
+   ],
+   "p1": "En esta lámina el código no lleva números, sino formas: la leyenda dice, por ejemplo, que todos los triángulos van de rojo y todos los círculos de azul, cada color con su nombre escrito en palabra. El niño recorre la hoja figura a figura, reconoce cada forma, consulta el código y la pinta con el color que le toca, hasta que todas las figuras de la hoja quedan pintadas según la regla.",
+   "p2": "Aquí se entrena geometría de la buena: distinguir un triángulo de un cuadrado, y un círculo de un óvalo, de un solo vistazo y sin ponerse a contar lados. Esa es justo la dificultad honesta de la ficha, porque muchos niños reconocen la figura cuando está sola en la página y dudan en cuanto la ven mezclada entre otras parecidas. Buscar todos los círculos de la hoja convierte la lámina en una pequeña cacería visual que fija los nombres de las figuras mejor que cualquier repetición en voz alta. Y como no hay ninguna operación, es la entrada perfecta al colorear por código para quienes aún no calculan.",
+   "p3": "Imprime la ficha gratis en PDF y deja la geometría pintada a la vista. Como continuación, el colorear por números clásico cambia las formas por cifras del 1 al 6, y más adelante el colorear con restas añade el primer cálculo de verdad al mismo juego de códigos y colores.",
+   "canonicalDeckSlug": "colorear-por-numeros-k265",
+   "carousel": [
+    {
+     "label": "Colorea con restas: resuelve y pinta según el código",
+     "href": "colorear-con-restas"
+    },
+    {
+     "label": "Colorea con sumas y restas mezcladas: mira bien el signo",
+     "href": "colorear-sumas-y-restas"
+    },
+    {
+     "label": "Colorea con sumas hasta 20: resultados de 11 a 20",
+     "href": "colorear-sumas-hasta-20"
+    },
+    {
+     "label": "Laberinto fácil de frutas: el primero de todos",
+     "href": "laberinto-facil-frutas"
+    }
+   ],
+   "title": "Colorear según la figura – Kínder | para imprimir PDF",
+   "metaDescription": "Código de figuras: todos los triángulos de un color, todos los círculos de otro. Reconocer formas geométricas y colorear con atención. PDF gratis para imprimir."
+  },
+  {
+   "slug": "colorear-con-restas",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Colorear por código",
+   "h1": "Colorea con restas: resuelve y pinta según el código",
+   "strand": "Cálculo inicial y atención",
+   "standard": "K.OA.A.2",
+   "slotTokens": [
+    "colorear-por-numeros",
+    "preescolar"
+   ],
+   "p1": "En esta lámina cada figura esconde una resta sencilla. El niño la resuelve, busca el resultado en la leyenda, donde cada número va unido a su color escrito en palabra, y pinta la figura con el color correspondiente. Resta a resta, la hoja se va llenando de color, y el dibujo terminado es la prueba de que las cuentas han salido.",
+   "p2": "La resta suele llegar después de la suma y con menos entusiasmo: quitar cuesta más que juntar, y por eso necesita más práctica de la que suele recibir. Este formato la disfraza de juego de colorear y consigue las repeticiones sin que se noten. Tiene además una virtud pedagógica seria: el error se hace visible. Si una resta sale mal, el color no encaja en el dibujo, y el propio niño puede rastrear qué cuenta le engañó y corregirla. Esa autocorrección tranquila, sin bolígrafo rojo de por medio, vale más que muchas explicaciones.",
+   "p3": "Descarga la lámina gratis en PDF y deja que las restas se pinten solas. Su pareja natural es el colorear con sumas y restas mezcladas, que añade la lectura del signo; y para los que ya van sobrados, el colorear con sumas hasta 20 sube los números sin cambiar el juego.",
+   "canonicalDeckSlug": "colorear-por-numeros-k267",
+   "carousel": [
+    {
+     "label": "Colorea con sumas y restas mezcladas: mira bien el signo",
+     "href": "colorear-sumas-y-restas"
+    },
+    {
+     "label": "Colorea con sumas hasta 20: resultados de 11 a 20",
+     "href": "colorear-sumas-hasta-20"
+    },
+    {
+     "label": "Colorea según la figura: cada forma con su color",
+     "href": "colorear-segun-la-figura"
+    },
+    {
+     "label": "Laberinto fácil de frutas: el primero de todos",
+     "href": "laberinto-facil-frutas"
+    }
+   ],
+   "title": "Colorear con restas – Kínder | para imprimir PDF",
+   "metaDescription": "Cada figura esconde una resta: resolverla, buscar el resultado en el código de colores y pintar. La práctica de restas se corrige sola. PDF gratis para imprimir."
+  },
+  {
+   "slug": "colorear-sumas-y-restas",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Colorear por código",
+   "h1": "Colorea con sumas y restas mezcladas: mira bien el signo",
+   "strand": "Cálculo inicial y atención",
+   "standard": "K.OA.A.2",
+   "slotTokens": [
+    "colorear-por-numeros",
+    "preescolar"
+   ],
+   "p1": "Aquí las figuras esconden operaciones de los dos tipos: en una hay una suma, en la siguiente una resta, y nada avisa de cuál toca. El niño tiene que mirar primero el signo, calcular después y buscar el resultado en la leyenda de colores, donde cada número va con su color escrito en palabra. Figura a figura, signo a signo, la lámina entera se colorea según el código.",
+   "p2": "El protagonista secreto de esta ficha es el signo. Cuando todas las cuentas de una hoja son sumas, muchos niños dejan de mirarlo y suman en automático; al mezclar las dos operaciones, ese piloto automático se apaga y cada cuenta empieza por una pregunta: ¿esto es más o es menos? Ese pequeño alto antes de calcular es uno de los hábitos más valiosos que se pueden sembrar en el cálculo inicial, y ahorra los despistes clásicos de primero, donde media clase suma la resta por pura inercia. La lámina lo entrena sin sermones: el dibujo solo queda bien si el signo se ha leído.",
+   "p3": "Imprime la ficha gratis en PDF y obsérvale la mirada: verás cómo aprende a detenerse en el signo. Si conviene afianzar antes cada operación por separado, el colorear con restas es el paso previo ideal, y el colorear con sumas hasta 20 espera a los que quieran números más grandes.",
+   "canonicalDeckSlug": "colorear-por-numeros-k268",
+   "carousel": [
+    {
+     "label": "Colorea con sumas hasta 20: resultados de 11 a 20",
+     "href": "colorear-sumas-hasta-20"
+    },
+    {
+     "label": "Colorea según la figura: cada forma con su color",
+     "href": "colorear-segun-la-figura"
+    },
+    {
+     "label": "Colorea con restas: resuelve y pinta según el código",
+     "href": "colorear-con-restas"
+    },
+    {
+     "label": "Laberinto fácil de frutas: el primero de todos",
+     "href": "laberinto-facil-frutas"
+    }
+   ],
+   "title": "Colorear sumas y restas – Kínder | para imprimir PDF",
+   "metaDescription": "Sumas y restas mezcladas dentro de las figuras: primero mirar el signo, luego calcular y colorear según el código de colores. Ficha en PDF gratis para imprimir."
+  },
+  {
+   "slug": "colorear-sumas-hasta-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Colorear por código",
+   "h1": "Colorea con sumas hasta 20: resultados de 11 a 20",
+   "strand": "Cálculo inicial y atención",
+   "slotTokens": [
+    "colorear-por-numeros",
+    "preescolar"
+   ],
+   "p1": "Esta lámina sube los números: dentro de cada figura hay una suma cuyo resultado cae siempre entre 11 y 20. El niño resuelve la operación, localiza el resultado en la leyenda, donde cada número está unido a su color escrito en palabra, y pinta la figura con ese color. Las cuentas ya pasan de la decena, pero el juego es el mismo de siempre: calcular, buscar y colorear.",
+   "p2": "Cruzar el diez es la primera frontera seria del cálculo: 8 más 5 exige un pasito mental que 3 más 2 no pedía, sea contando desde el ocho o partiendo el cinco para llegar al diez y seguir. Esta ficha da a ese salto lo que más necesita: repeticiones tranquilas y con premio visible. El formato de colorear quita todo el dramatismo, porque cada resultado encontrado se convierte en una zona pintada, y trabajar con resultados de la segunda decena familiariza al niño con los números del 11 al 20, que también hay que leer bien en la leyenda para no confundir el 12 con el 21.",
+   "p3": "Descarga la lámina gratis en PDF para los calculadores que piden más. Detrás de ella, los amigos del 10 explican el truco de apoyarse en la decena con esquemas visuales, y el colorear con sumas y restas mezcladas mantiene el desafío por el lado de la atención.",
+   "canonicalDeckSlug": "colorear-por-numeros-k269",
+   "carousel": [
+    {
+     "label": "Colorea según la figura: cada forma con su color",
+     "href": "colorear-segun-la-figura"
+    },
+    {
+     "label": "Colorea con restas: resuelve y pinta según el código",
+     "href": "colorear-con-restas"
+    },
+    {
+     "label": "Colorea con sumas y restas mezcladas: mira bien el signo",
+     "href": "colorear-sumas-y-restas"
+    },
+    {
+     "label": "Laberinto fácil de frutas: el primero de todos",
+     "href": "laberinto-facil-frutas"
+    }
+   ],
+   "title": "Colorear sumas hasta 20 – Kínder | para imprimir PDF",
+   "metaDescription": "Colorear por código con sumas mayores: todos los resultados caen entre 11 y 20, cruzando la decena. Calcular, buscar el color y pintar. PDF gratis para imprimir."
+  },
+  {
+   "slug": "laberinto-facil-frutas",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mazes",
+    "mode": null,
+    "theme": "fruits",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de laberinto",
+   "h1": "Laberinto fácil de frutas: el primero de todos",
+   "strand": "Planificación visual y trazo",
+   "slotTokens": [
+    "laberintos",
+    "frutas",
+    "preescolar"
+   ],
+   "p1": "Este es el laberinto para empezar: una cuadrícula pequeña, pasillos anchos y pocas bifurcaciones, con una fruta esperando en la salida y la meta a una distancia amable. El niño mira el dibujo, apoya el lápiz arriba y traza su camino hacia abajo, con alguna decisión que tomar pero sin bosques de callejones donde perderse. Es un laberinto pensado para terminarse bien a la primera o a la segunda.",
+   "p2": "En los laberintos, la puerta de entrada importa: un niño que se atasca en su primer laberinto decide rápidamente que eso no es lo suyo, y uno que lo resuelve pide otro. Este formato fácil está calculado para ese primer éxito: el reto existe, porque hay que elegir camino y algún desvío engaña, pero la meta llega antes de que la paciencia se acabe. Con dos o tres victorias de este tamaño, la confianza queda lista para retos mayores. Para los más pequeños es además un primer contacto estupendo con seguir un camino sin tocar las paredes, puro control de lápiz disfrazado de juego.",
+   "p3": "Imprime la ficha gratis en PDF, ideal para los primeros laberintos de la clase o para llevar de viaje. Cuando este tamaño sepa a poco, el laberinto difícil de vehículos sube el reto de verdad, y el laberinto de animales ofrece otra aventura del mismo nivel amable.",
+   "canonicalDeckSlug": "laberintos-frutas-k270",
+   "carousel": [
+    {
+     "label": "Laberinto difícil de vehículos: un reto de verdad",
+     "href": "laberinto-dificil-vehiculos"
+    },
+    {
+     "label": "Laberinto gigante de juguetes: el más grande",
+     "href": "laberinto-gigante-juguetes"
+    },
+    {
+     "label": "Laberinto de animales: lleva al animal hasta la meta",
+     "href": "laberinto-de-animales"
+    },
+    {
+     "label": "Laberinto de frutas: un camino dulce hasta la meta",
+     "href": "laberinto-de-frutas"
+    }
+   ],
+   "title": "Laberinto fácil de frutas – Kínder | para imprimir PDF",
+   "metaDescription": "Laberinto pequeño y fácil con tema de frutas: pocos pasillos, una decisión cada vez y la meta a un paso. Ideal como primer laberinto. PDF gratis para imprimir."
+  },
+  {
+   "slug": "laberinto-dificil-vehiculos",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mazes",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de laberinto",
+   "h1": "Laberinto difícil de vehículos: un reto de verdad",
+   "strand": "Planificación visual y trazo",
+   "slotTokens": [
+    "laberintos",
+    "vehiculos",
+    "preescolar"
+   ],
+   "p1": "Este laberinto va en serio: una cuadrícula grande con tema de vehículos, muchas bifurcaciones y callejones sin salida colocados justo donde uno confiaba en pasar. En la salida espera un vehículo; la meta está lejos, abajo, y entre ambos hay un buen territorio que explorar con los ojos y con el lápiz. Aquí ya compensa mirar antes de trazar, porque el primer camino que se ve casi nunca es el bueno.",
+   "p2": "Lo que este nivel enseña de verdad es a equivocarse bien. En un laberinto difícil los callejones sin salida no son un fallo del niño: son parte del juego, y encontrarse con uno significa volver atrás con calma y probar otra ruta. Ese ciclo de intento, error y nueva estrategia, repetido sin drama en un papel, es exactamente la actitud que luego hace falta ante un problema de matemáticas que no sale a la primera. Además, el tamaño obliga a levantar la vista y planificar tramos enteros, no paso a paso: los ojos van por delante del lápiz, que es la marca del buen resolvedor.",
+   "p3": "La ficha se imprime gratis en PDF para un rato largo de concentración. Quien llegue a la meta con hambre de más tiene esperando el laberinto gigante de juguetes, el mayor de la colección; y el fácil de frutas queda como calentamiento perfecto para hermanos pequeños.",
+   "canonicalDeckSlug": "laberintos-vehiculos-k271",
+   "carousel": [
+    {
+     "label": "Laberinto gigante de juguetes: el más grande",
+     "href": "laberinto-gigante-juguetes"
+    },
+    {
+     "label": "Laberinto de animales: lleva al animal hasta la meta",
+     "href": "laberinto-de-animales"
+    },
+    {
+     "label": "Laberinto de frutas: un camino dulce hasta la meta",
+     "href": "laberinto-de-frutas"
+    },
+    {
+     "label": "Laberinto fácil de frutas: el primero de todos",
+     "href": "laberinto-facil-frutas"
+    }
+   ],
+   "title": "Laberinto difícil de vehículos | para imprimir PDF",
+   "metaDescription": "Laberinto grande y difícil con tema de vehículos: más bifurcaciones, más callejones sin salida y una meta que hay que ganarse. PDF gratis para imprimir."
+  },
+  {
+   "slug": "laberinto-gigante-juguetes",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mazes",
+    "mode": null,
+    "theme": "toys",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de laberinto",
+   "h1": "Laberinto gigante de juguetes: el más grande",
+   "strand": "Planificación visual y trazo",
+   "slotTokens": [
+    "laberintos",
+    "juguetes",
+    "preescolar"
+   ],
+   "p1": "Este es el laberinto gigante: la cuadrícula más grande de toda la colección, con un juguete esperando en la salida y la meta al otro extremo de un mar de pasillos. No es un reto para un minuto: el niño va a estar un buen rato explorando, retrocediendo y avanzando hasta encontrar el único camino que cruza la hoja entera. Precisamente ahí está su gracia.",
+   "p2": "Lo que se entrena aquí, más que la vista, es el aguante. Sostener la atención sobre una misma tarea durante diez o quince minutos es una capacidad que los niños de infantil están construyendo, y que pocas actividades ejercitan tan bien como un laberinto largo: el juego engancha lo suficiente para que la concentración no se caiga, y el formato en papel deja fuera cualquier distracción con pantalla. Muchas maestras lo reservan como actividad de calma, ese momento en que la clase necesita bajar revoluciones y cada uno se pierde en su laberinto en silencio. Terminarlo, además, tiene sabor a hazaña: es el grande, y el niño lo sabe.",
+   "p3": "Imprime la ficha gratis en PDF y busca un rato tranquilo, que lo merece. Como escalera completa, el laberinto fácil de frutas y el difícil de vehículos preparan el camino hasta este gigante; y después de tanto pasillo, la ficha de recortar y pegar juguetes cambia el lápiz por las tijeras sin salir del tema.",
+   "canonicalDeckSlug": "laberintos-juguetes-k272",
+   "carousel": [
+    {
+     "label": "Laberinto de animales: lleva al animal hasta la meta",
+     "href": "laberinto-de-animales"
+    },
+    {
+     "label": "Laberinto de frutas: un camino dulce hasta la meta",
+     "href": "laberinto-de-frutas"
+    },
+    {
+     "label": "Laberinto fácil de frutas: el primero de todos",
+     "href": "laberinto-facil-frutas"
+    },
+    {
+     "label": "Laberinto difícil de vehículos: un reto de verdad",
+     "href": "laberinto-dificil-vehiculos"
+    }
+   ],
+   "title": "Laberinto gigante de juguetes | para imprimir PDF",
+   "metaDescription": "El laberinto más grande de la colección, con tema de juguetes: una cuadrícula enorme para un buen rato de concentración en silencio. PDF gratis para imprimir."
+  },
+  {
+   "slug": "laberinto-de-animales",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mazes",
+    "mode": null,
+    "theme": "animals",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de laberinto",
+   "h1": "Laberinto de animales: lleva al animal hasta la meta",
+   "strand": "Planificación visual y trazo",
+   "slotTokens": [
+    "laberintos",
+    "animales",
+    "preescolar"
+   ],
+   "p1": "En este laberinto la aventura tiene protagonista: un animal espera en la salida, arriba, y necesita que alguien le encuentre el camino hasta la meta. El niño estudia la cuadrícula, elige por dónde ir y traza la ruta con su lápiz, esquivando los callejones sin salida hasta completar el viaje. Un laberinto de buen tamaño, con un animal en la casilla de salida y otro esperando en la de llegada.",
+   "p2": "Ese pequeño cuento, ayudar al animal a llegar, cambia por completo la actitud ante la tarea: ya no se resuelve un ejercicio, se rescata a un amigo. A esta edad, darle un porqué a la actividad multiplica las ganas y el tiempo que el niño le dedica, y las maestras lo saben: por eso los laberintos con historia funcionan tan bien como actividad para quienes terminan pronto, como premio que no interrumpe la clase o como propuesta de mesa tranquila. Mientras tanto, el trabajo serio ocurre igual: ojos que exploran rutas por delante del lápiz y una línea que aprende a quedarse dentro de los pasillos.",
+   "p3": "La ficha se imprime gratis en PDF, lista para la carpeta de terminan pronto o para una tarde en casa. Su gemelo de frutas propone el mismo nivel con otro decorado, y quien quiera más desafío tiene el laberinto difícil de vehículos un peldaño más arriba.",
+   "canonicalDeckSlug": "laberintos-animales-k242",
+   "carousel": [
+    {
+     "label": "Laberinto de frutas: un camino dulce hasta la meta",
+     "href": "laberinto-de-frutas"
+    },
+    {
+     "label": "Laberinto fácil de frutas: el primero de todos",
+     "href": "laberinto-facil-frutas"
+    },
+    {
+     "label": "Laberinto difícil de vehículos: un reto de verdad",
+     "href": "laberinto-dificil-vehiculos"
+    },
+    {
+     "label": "Laberinto gigante de juguetes: el más grande",
+     "href": "laberinto-gigante-juguetes"
+    }
+   ],
+   "title": "Laberinto de animales – Kínder | para imprimir PDF",
+   "metaDescription": "Laberinto infantil con tema de animales: un animal espera en la salida y el lápiz debe llevarlo hasta la meta esquivando los callejones. PDF gratis para imprimir."
+  },
+  {
+   "slug": "laberinto-de-frutas",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mazes",
+    "mode": null,
+    "theme": "fruits",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de laberinto",
+   "h1": "Laberinto de frutas: un camino dulce hasta la meta",
+   "strand": "Planificación visual y trazo",
+   "slotTokens": [
+    "laberintos",
+    "frutas",
+    "preescolar"
+   ],
+   "p1": "Este laberinto lleva dos frutas y nada más: una espera en la casilla de salida, arriba, y otra marca la meta, al fondo de la cuadrícula. El niño recorre primero el dibujo con la mirada, tantea rutas, y cuando cree tener el camino, lo traza con el lápiz de principio a fin, sorteando los desvíos que no llevan a ninguna parte. Un buen laberinto de tamaño medio, ni trampa fácil ni selva imposible.",
+   "p2": "Antes de que el lápiz toque el papel, aquí trabajan los ojos: seguir un pasillo con la mirada, sin ayuda del dedo, es un ejercicio de rastreo visual finísimo, el mismo movimiento ocular ordenado que la lectura exigirá dentro de poco para no saltarse renglones. Por eso vale la pena animar al niño a explorar el laberinto visualmente primero y trazar después: la ficha entrena entonces dos veces, primero la vista y luego la mano. Y si la ruta elegida acaba en callejón, no pasa nada: media vuelta con la mirada y a probar otra, que de eso va el juego.",
+   "p3": "Imprime la ficha gratis en PDF para un rato de calma y concentración. En el mismo mundo, la lámina de recortar y pegar frutas da trabajo a las tijeras; y el laberinto fácil de frutas es la versión suave para los que se estrenan con los laberintos.",
+   "canonicalDeckSlug": "laberintos-frutas-k242",
+   "carousel": [
+    {
+     "label": "Laberinto fácil de frutas: el primero de todos",
+     "href": "laberinto-facil-frutas"
+    },
+    {
+     "label": "Laberinto difícil de vehículos: un reto de verdad",
+     "href": "laberinto-dificil-vehiculos"
+    },
+    {
+     "label": "Laberinto gigante de juguetes: el más grande",
+     "href": "laberinto-gigante-juguetes"
+    },
+    {
+     "label": "Laberinto de animales: lleva al animal hasta la meta",
+     "href": "laberinto-de-animales"
+    }
+   ],
+   "title": "Laberinto de frutas – Kínder | para imprimir PDF",
+   "metaDescription": "Laberinto infantil con tema de frutas: estudiar el dibujo, elegir el camino y trazarlo hasta la meta con el lápiz. Ficha en PDF gratis lista para imprimir."
+  },
+  {
+   "slug": "amigos-del-5",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-bonds",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Amigos del 5",
+   "h1": "Amigos del 5: descomposición con puntos para contar",
+   "strand": "Sentido numérico",
+   "standard": "K.OA.A.5",
+   "slotTokens": [
+    "descomposicion-de-numeros",
+    "preescolar"
+   ],
+   "p1": "Esta ficha de los amigos del 5 trae seis esquemas de parte y todo con puntos para contar dentro de cada parte. En el círculo principal vive el 5; de él salen dos partes, y una espera vacía con su círculo de puntos. La ayuda está a la vista: la parte conocida muestra sus puntos dibujados, así que el niño los cuenta, sigue contando hasta llegar a cinco y escribe en el hueco cuántos ha añadido. Las parejas del 5 caben en una mano: 1 y 4, 2 y 3, 0 y 5.",
+   "p2": "Los puntos son mucho más que un adorno: son el puente entre contar y calcular. A esta edad muchos niños todavía necesitan ver las cantidades para operar con ellas, y este formato se lo permite sin renunciar al esquema de parte y todo que usarán durante años. Con cantidades tan pequeñas ocurre además algo precioso: el niño empieza a reconocer los grupos de un vistazo, sin contar de uno en uno, y ese golpe de vista —tres puntos son tres, sin más— es una de las bases silenciosas de todo el sentido numérico.",
+   "p3": "Imprime la ficha gratis en PDF y deja que los dedos de una mano hagan de comprobación oficial: cinco dedos, dos grupos, ¿cuántos escondidos? Cuando las parejas del 5 salgan solas, los amigos del 10 con puntos repiten el mismo juego con el doble de terreno, y la descomposición de números hasta 10 quita el apoyo visual para dar el siguiente paso.",
+   "canonicalDeckSlug": "descomposicion-de-numeros-k273",
+   "carousel": [
+    {
+     "label": "Descomposición de números hasta 10: cada esquema, un todo distinto",
+     "href": "descomposicion-hasta-10"
+    },
+    {
+     "label": "Amigos del 20: parejas que suman veinte",
+     "href": "amigos-del-20"
+    },
+    {
+     "label": "Las partes y el todo: ahora falta el número de arriba",
+     "href": "las-partes-y-el-todo"
+    },
+    {
+     "label": "Amigos del 10 con puntos para contar",
+     "href": "amigos-del-10-con-puntos"
+    }
+   ],
+   "title": "Amigos del 5 con puntos – Kínder | para imprimir PDF",
+   "metaDescription": "Amigos del 5: seis esquemas de parte y todo con puntos para contar en cada parte. El niño cuenta, halla lo que falta hasta 5 y lo escribe. PDF gratis."
+  },
+  {
+   "slug": "descomposicion-hasta-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-bonds",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Descomposición de números",
+   "h1": "Descomposición de números hasta 10: cada esquema, un todo distinto",
+   "strand": "Sentido numérico",
+   "standard": "K.OA.A.3",
+   "slotTokens": [
+    "descomposicion-de-numeros",
+    "preescolar"
+   ],
+   "p1": "Esta ficha de descomposición de números mezcla seis esquemas de parte y todo con totales distintos entre el 5 y el 10. En cada esquema, el número grande ocupa el círculo principal y una de sus dos partes está en blanco; el niño lee primero qué todo le ha tocado —aquí un 7, allá un 9— y escribe la parte que falta para completarlo. Ningún esquema repite la respuesta del anterior.",
+   "p2": "La mezcla es justo lo que hace valiosa esta página. Cuando todos los esquemas comparten el mismo total, el niño puede acomodarse y responder en automático; cuando el todo cambia en cada esquema, no queda más remedio que mirar, leer y pensar cada caso desde el principio. Ese pequeño gesto —comprobar primero de qué número hablamos— es un hábito de atención que luego se agradece en cada problema. Y de paso el niño descubre que la descomposición no es una propiedad del 10, sino algo que todos los números saben hacer.",
+   "p3": "La ficha se imprime gratis en PDF y rinde mucho como repaso corto de la semana. Si algún esquema se atasca, los amigos del 5 con sus puntos para contar ofrecen la versión con apoyo visual; y cuando los seis salgan seguidos, la ficha de las partes y el todo da la vuelta al juego: allí lo que se esconde no es una parte, sino el todo entero.",
+   "canonicalDeckSlug": "descomposicion-de-numeros-k274",
+   "carousel": [
+    {
+     "label": "Amigos del 20: parejas que suman veinte",
+     "href": "amigos-del-20"
+    },
+    {
+     "label": "Las partes y el todo: ahora falta el número de arriba",
+     "href": "las-partes-y-el-todo"
+    },
+    {
+     "label": "Amigos del 10 con puntos para contar",
+     "href": "amigos-del-10-con-puntos"
+    },
+    {
+     "label": "Amigos del 5: descomposición con puntos para contar",
+     "href": "amigos-del-5"
+    }
+   ],
+   "title": "Descomposición de números hasta 10 – Kínder | para imprimir PDF",
+   "metaDescription": "Descomposición de números hasta 10: seis esquemas de parte y todo con totales variados entre 5 y 10. Escribe la parte que falta en cada uno. PDF gratis."
+  },
+  {
+   "slug": "amigos-del-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-bonds",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Amigos del 20",
+   "h1": "Amigos del 20: parejas que suman veinte",
+   "strand": "Sentido numérico",
+   "slotTokens": [
+    "descomposicion-de-numeros",
+    "preescolar"
+   ],
+   "p1": "Esta ficha de los amigos del 20 propone seis esquemas de parte y todo con el 20 como número principal. De cada 20 salen dos partes; una está escrita y la otra espera en su círculo de puntos. El niño mira la parte conocida —un 12, un 5, un 17— y escribe cuánto falta para llegar a veinte. Seis esquemas, seis parejas que suman 20.",
+   "p2": "El secreto de esta página es que casi todo el trabajo ya está hecho. Quien domina los amigos del 10 tiene aquí un descubrimiento esperándole: si 3 y 7 son amigos del 10, entonces 13 y 7 son amigos del 20. La estructura se repite una decena más arriba, y verlo con los propios ojos es una primera lección de cómo funciona nuestro sistema de numeración. Por eso conviene resolver la ficha conversando: ¿a qué pareja del 10 te recuerda esta? Esa conexión vale más que las seis respuestas juntas.",
+   "p3": "Descarga la ficha gratis en PDF y úsala cuando los amigos del 10 ya estén firmes; antes de tiempo se convierte en cuenta larga, a tiempo se convierte en revelación. Después, el cálculo mental hasta 20 pone estas parejas a trabajar en velocidad, y las casitas de operaciones hasta 20 les enseñan a funcionar también en las restas.",
+   "canonicalDeckSlug": "descomposicion-de-numeros-k275",
+   "carousel": [
+    {
+     "label": "Las partes y el todo: ahora falta el número de arriba",
+     "href": "las-partes-y-el-todo"
+    },
+    {
+     "label": "Amigos del 10 con puntos para contar",
+     "href": "amigos-del-10-con-puntos"
+    },
+    {
+     "label": "Amigos del 5: descomposición con puntos para contar",
+     "href": "amigos-del-5"
+    },
+    {
+     "label": "Descomposición de números hasta 10: cada esquema, un todo distinto",
+     "href": "descomposicion-hasta-10"
+    }
+   ],
+   "title": "Amigos del 20 para Kínder – descomposición | para imprimir PDF",
+   "metaDescription": "Amigos del 20: seis esquemas de parte y todo con el 20 como total. El niño escribe la parte que falta en cada pareja que suma veinte. Ficha en PDF gratis."
+  },
+  {
+   "slug": "las-partes-y-el-todo",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-bonds",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Las partes y el todo",
+   "h1": "Las partes y el todo: ahora falta el número de arriba",
+   "strand": "Sentido numérico",
+   "standard": "K.OA.A.3",
+   "slotTokens": [
+    "descomposicion-de-numeros",
+    "preescolar"
+   ],
+   "p1": "En esta ficha de las partes y el todo, el hueco cambia de sitio: las dos partes están escritas y es el todo —el círculo principal, entre el 6 y el 10— el que aparece vacío con su borde de puntos. El niño junta las dos partes, calcula cuánto forman entre las dos y escribe el total arriba. Seis esquemas, y en todos la pregunta es la misma: ¿qué número forman estas dos partes?",
+   "p2": "Darle la vuelta al esquema no es un capricho: es la otra mitad de la idea. Hasta ahora el niño abría un número en dos trozos; aquí hace el camino contrario y comprueba que los trozos vuelven a cerrarse en un todo. Quien recorre la relación en ambos sentidos entiende de verdad qué es una suma, y tiene medio camino andado para entender qué es una resta. Además, el formato desmonta un error muy común: el de creer que el resultado siempre va al final. Aquí el resultado vive arriba, y hay que pensarlo, no colocarlo por costumbre.",
+   "p3": "Imprime la ficha gratis en PDF y compárala en voz alta con la de descomposición de números hasta 10: mismas casillas, pregunta contraria, y esa conversación es oro. Como continuación natural, las casitas de operaciones hasta 10 convierten esta relación de partes y todo en las cuatro operaciones de una familia completa.",
+   "canonicalDeckSlug": "descomposicion-de-numeros-k276",
+   "carousel": [
+    {
+     "label": "Amigos del 10 con puntos para contar",
+     "href": "amigos-del-10-con-puntos"
+    },
+    {
+     "label": "Amigos del 5: descomposición con puntos para contar",
+     "href": "amigos-del-5"
+    },
+    {
+     "label": "Descomposición de números hasta 10: cada esquema, un todo distinto",
+     "href": "descomposicion-hasta-10"
+    },
+    {
+     "label": "Amigos del 20: parejas que suman veinte",
+     "href": "amigos-del-20"
+    }
+   ],
+   "title": "Las partes y el todo para Kínder | para imprimir PDF",
+   "metaDescription": "Las partes y el todo: seis esquemas donde las dos partes están escritas y el todo aparece vacío. El niño junta las partes y escribe el total. PDF gratis."
+  },
+  {
+   "slug": "amigos-del-10-con-puntos",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-bonds",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Amigos del 10",
+   "h1": "Amigos del 10 con puntos para contar",
+   "strand": "Sentido numérico",
+   "standard": "K.OA.A.4",
+   "slotTokens": [
+    "descomposicion-de-numeros",
+    "preescolar"
+   ],
+   "p1": "Esta ficha trabaja los amigos del 10 con cuatro esquemas grandes de parte y todo, cada uno con puntos para contar dentro de sus partes. El 10 preside cada esquema; abajo, la parte conocida enseña sus puntos y la parte vacía espera su número. El niño cuenta los puntos que ve, sigue hasta diez con los que le faltan y escribe la respuesta. Al ser solo cuatro esquemas, cada uno viene en tamaño extragrande, con espacio de sobra para contar señalando con el dedo.",
+   "p2": "Esta es la versión con andamio de la página clásica de los amigos del 10, y en el aula cumple una función muy concreta: atender a la vez a quien ya calcula y a quien todavía cuenta. No todos los niños llegan el mismo día a soltar el apoyo visual, y obligarles a saltar sin red solo produce respuestas al azar. Con los puntos delante, el niño que aún los necesita trabaja las mismas parejas del 10 que sus compañeros, con la misma dignidad y el mismo esquema, y va soltando la cuenta a su ritmo.",
+   "p3": "Descarga la ficha gratis en PDF; si viene bien empezar aún más abajo, los amigos del 5 con puntos usan el mismo formato con cantidades de una mano. Y el día que los puntos sobren, la ficha de amigos del 10 sin apoyo visual espera con seis esquemas: mismo juego, red retirada, memoria en marcha.",
+   "canonicalDeckSlug": "descomposicion-de-numeros-k277",
+   "carousel": [
+    {
+     "label": "Amigos del 5: descomposición con puntos para contar",
+     "href": "amigos-del-5"
+    },
+    {
+     "label": "Descomposición de números hasta 10: cada esquema, un todo distinto",
+     "href": "descomposicion-hasta-10"
+    },
+    {
+     "label": "Amigos del 20: parejas que suman veinte",
+     "href": "amigos-del-20"
+    },
+    {
+     "label": "Las partes y el todo: ahora falta el número de arriba",
+     "href": "las-partes-y-el-todo"
+    }
+   ],
+   "title": "Amigos del 10 con puntos para contar | para imprimir PDF",
+   "metaDescription": "Amigos del 10 con puntos para contar: cuatro esquemas grandes de parte y todo con apoyo visual en cada parte. Halla cuánto falta hasta 10. PDF gratis."
+  },
+  {
+   "slug": "calculo-mental-hasta-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mental-math",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Ficha de cálculo mental",
+   "h1": "Cálculo mental hasta 10: las cuentas de cada día",
+   "strand": "Cálculo y operaciones",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "calculo-mental",
+    "primer-grado"
+   ],
+   "p1": "Esta ficha de cálculo mental se queda dentro del 10: doce operaciones pequeñas, sumas y restas mezcladas, cada una con su casilla para el resultado. El niño las resuelve de cabeza, sin dibujos ni material, y anota la respuesta. Son las cuentas de andar por casa —4 + 3, 9 − 5, 6 + 2— presentadas en tarjetas limpias y grandes, tres por fila.",
+   "p2": "Estas doce cuentas diminutas son, literalmente, los átomos del cálculo. Cada operación grande que llegue después —el 8 + 7, la resta con llevadas, la tabla del 2— se apoya en combinaciones dentro del 10, y por eso merecen su propia ficha antes de mezclarse con números mayores. El objetivo aquí no es que salgan, que saldrán, sino que salgan al instante: cuando 3 + 4 deja de pensarse y simplemente se sabe, la cabeza queda libre para lo verdaderamente nuevo. Esa automatización temprana es de las inversiones más rentables de primero.",
+   "p3": "Imprime la ficha gratis en PDF y úsala como calentamiento de dos minutos antes de la tarea seria; a esta edad, corto y frecuente gana siempre a largo y ocasional. Cuando las doce salgan del tirón, el cálculo mental hasta 20 amplía el terreno de juego, y los amigos del 10 explican el truco que hace fáciles las cuentas que vienen.",
+   "canonicalDeckSlug": "calculo-mental-g1214",
+   "carousel": [
+    {
+     "label": "El número que falta: ecuaciones con hueco hasta 20",
+     "href": "el-numero-que-falta-hasta-20"
+    },
+    {
+     "label": "Sumas mentales hasta 20: dobles y pasos por el diez",
+     "href": "sumas-mentales-hasta-20"
+    },
+    {
+     "label": "Restas mentales hasta 20: la operación que pide más práctica",
+     "href": "restas-mentales-hasta-20"
+    },
+    {
+     "label": "El número que falta hasta 10: primeras ecuaciones con hueco",
+     "href": "el-numero-que-falta-hasta-10"
+    }
+   ],
+   "title": "Cálculo mental hasta 10 – 1.º de primaria | para imprimir PDF",
+   "metaDescription": "Cálculo mental hasta 10: doce sumas y restas pequeñas para resolver de cabeza y escribir en la casilla. La base de toda la soltura posterior. PDF gratis."
+  },
+  {
+   "slug": "el-numero-que-falta-hasta-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mental-math",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Ficha de cálculo mental",
+   "h1": "El número que falta: ecuaciones con hueco hasta 20",
+   "strand": "Cálculo y operaciones",
+   "standard": "1.OA.D.8",
+   "slotTokens": [
+    "calculo-mental",
+    "primer-grado"
+   ],
+   "p1": "Esta ficha del número que falta propone doce operaciones hasta 20 en las que el hueco no está al final: falta un término de la propia cuenta, al estilo de ☐ + 3 = 8 o 12 − ☐ = 5. El niño lee la igualdad completa, piensa qué número la hace verdadera y lo escribe en la casilla vacía. El resultado ya está impreso; lo que se busca es la pieza escondida.",
+   "p2": "Este formato ataca de frente el malentendido más extendido de primero: creer que el signo igual significa «aquí va la respuesta». Cuando el hueco se muda al principio o al medio, esa lectura deja de funcionar y el niño descubre lo que el igual dice de verdad: que los dos lados valen lo mismo, como una balanza en equilibrio. Es su primer contacto real con el pensamiento algebraico, años antes de oír esa palabra, y los estudios de didáctica coinciden en que cuanto antes se instala esta lectura del igual, menos tropiezos llegan después.",
+   "p3": "Descarga la ficha gratis en PDF y acompaña las primeras con la pregunta mágica: ¿cuánto le falta a este número para llegar al otro? Si el nivel aprieta, el número que falta hasta 10 ofrece la misma gimnasia con cantidades amables; y las casitas del número escondido enseñan el mismo misterio dentro de una familia de operaciones.",
+   "canonicalDeckSlug": "calculo-mental-g1215",
+   "carousel": [
+    {
+     "label": "Sumas mentales hasta 20: dobles y pasos por el diez",
+     "href": "sumas-mentales-hasta-20"
+    },
+    {
+     "label": "Restas mentales hasta 20: la operación que pide más práctica",
+     "href": "restas-mentales-hasta-20"
+    },
+    {
+     "label": "El número que falta hasta 10: primeras ecuaciones con hueco",
+     "href": "el-numero-que-falta-hasta-10"
+    },
+    {
+     "label": "Cálculo mental hasta 10: las cuentas de cada día",
+     "href": "calculo-mental-hasta-10"
+    }
+   ],
+   "title": "El número que falta hasta 20 – cálculo | para imprimir PDF",
+   "metaDescription": "El número que falta hasta 20: doce operaciones con un hueco en lugar de un término. El niño piensa qué número hace cierta la igualdad y lo escribe. PDF gratis."
+  },
+  {
+   "slug": "sumas-mentales-hasta-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mental-math",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Ficha de cálculo mental",
+   "h1": "Sumas mentales hasta 20: dobles y pasos por el diez",
+   "strand": "Cálculo y operaciones",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "calculo-mental",
+    "primer-grado"
+   ],
+   "p1": "Esta ficha reúne doce sumas mentales hasta 20 y nada más que sumas: ni una resta se cuela entre las tarjetas. El niño resuelve cada una de cabeza y escribe el resultado en su casilla. Al no cambiar el signo, toda la atención se concentra en la operación reina de primero: sumar dentro del 20, con casos que cruzan la decena y casos que se quedan cómodamente por debajo.",
+   "p2": "Una página de solo sumas tiene una virtud didáctica muy concreta: permite practicar estrategias a propósito. Aquí se puede cazar dobles —6 + 6, 8 + 8—, reconocer casi dobles y, sobre todo, ensayar el paso por el diez: para 8 + 5, llevar el 8 hasta 10 con dos y añadir los tres que quedan. Cuando sumas y restas van mezcladas, el niño está pendiente del signo; cuando todo es suma, puede fijarse en cómo suma, y ese cómo es lo que distingue al que calcula del que cuenta con los dedos por debajo de la mesa.",
+   "p3": "Imprime la ficha gratis en PDF y pide de vez en cuando la estrategia en voz alta, no solo el resultado: se aprende mucho oyendo pensar. Su gemela de restas mentales hasta 20 cubre la otra mitad del entrenamiento, y el cálculo mental hasta 20 con signos mezclados es el examen final natural de las dos.",
+   "canonicalDeckSlug": "calculo-mental-g1216",
+   "carousel": [
+    {
+     "label": "Restas mentales hasta 20: la operación que pide más práctica",
+     "href": "restas-mentales-hasta-20"
+    },
+    {
+     "label": "El número que falta hasta 10: primeras ecuaciones con hueco",
+     "href": "el-numero-que-falta-hasta-10"
+    },
+    {
+     "label": "Cálculo mental hasta 10: las cuentas de cada día",
+     "href": "calculo-mental-hasta-10"
+    },
+    {
+     "label": "El número que falta: ecuaciones con hueco hasta 20",
+     "href": "el-numero-que-falta-hasta-20"
+    }
+   ],
+   "title": "Sumas mentales hasta 20 – 1.º de primaria | para imprimir PDF",
+   "metaDescription": "Sumas mentales hasta 20: doce sumas para resolver de cabeza, sin restas de por medio. Perfecta para practicar dobles y el paso por el diez. PDF gratis."
+  },
+  {
+   "slug": "restas-mentales-hasta-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mental-math",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Ficha de cálculo mental",
+   "h1": "Restas mentales hasta 20: la operación que pide más práctica",
+   "strand": "Cálculo y operaciones",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "calculo-mental",
+    "primer-grado"
+   ],
+   "p1": "Esta ficha se dedica por entero a las restas mentales hasta 20: doce restas, sin sumas de por medio, cada una con su casilla para el resultado. El niño resuelve de cabeza cuentas como 14 − 6, 17 − 9 o 11 − 4 y anota la respuesta. Tarjetas grandes, tres por fila, y un único signo del principio al final.",
+   "p2": "La resta es la eterna segundona del cálculo: en cualquier cuaderno hay el doble de sumas, y luego nos sorprende que 13 − 7 tartamudee donde 7 + 6 sale volando. Esta página existe para corregir ese desequilibrio. Con solo restas delante, el niño puede comparar sus dos caminos —contar hacia atrás desde el 13, o pensar al revés cuánto hay que sumarle al 7 para llegar a 13— y descubrir que el segundo, pensar la resta como suma, suele ser más rápido y falla menos. Elegir estrategia según la cuenta es exactamente la flexibilidad que queremos sembrar en primero.",
+   "p3": "Descarga la ficha gratis en PDF y alterna semanas: una de sumas mentales hasta 20, otra de restas, y el cálculo mental mezclado como reencuentro. Si alguna resta se resiste una y otra vez, las casitas de operaciones enseñan la trampa buena: toda resta esconde una suma que el niño probablemente ya se sabe.",
+   "canonicalDeckSlug": "calculo-mental-g1217",
+   "carousel": [
+    {
+     "label": "El número que falta hasta 10: primeras ecuaciones con hueco",
+     "href": "el-numero-que-falta-hasta-10"
+    },
+    {
+     "label": "Cálculo mental hasta 10: las cuentas de cada día",
+     "href": "calculo-mental-hasta-10"
+    },
+    {
+     "label": "El número que falta: ecuaciones con hueco hasta 20",
+     "href": "el-numero-que-falta-hasta-20"
+    },
+    {
+     "label": "Sumas mentales hasta 20: dobles y pasos por el diez",
+     "href": "sumas-mentales-hasta-20"
+    }
+   ],
+   "title": "Restas mentales hasta 20 – 1.º de primaria | para imprimir PDF",
+   "metaDescription": "Restas mentales hasta 20: doce restas para resolver de cabeza y escribir en la casilla. La operación que menos se practica, con página propia. PDF gratis."
+  },
+  {
+   "slug": "el-numero-que-falta-hasta-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mental-math",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Ficha de cálculo mental",
+   "h1": "El número que falta hasta 10: primeras ecuaciones con hueco",
+   "strand": "Cálculo y operaciones",
+   "standard": "1.OA.D.8",
+   "slotTokens": [
+    "calculo-mental",
+    "primer-grado"
+   ],
+   "p1": "Esta ficha del número que falta trabaja dentro del 10: doce operaciones pequeñas en las que uno de los términos se ha escondido —☐ + 2 = 7, 9 − ☐ = 4— y el resultado está a la vista. El niño averigua qué número hace cierta cada igualdad y lo escribe en el hueco. Sumas y restas alternan, pero todas las cantidades caben en dos manos.",
+   "p2": "Aquí los números pequeños son una decisión pedagógica, no una comodidad. Lo difícil de esta ficha no es calcular, sino entender la pregunta: acostumbrarse a que el hueco pueda estar en cualquier sitio y a leer la igualdad entera antes de responder. Al mantener las cantidades dentro del 10, toda la energía del niño se va a ese aprendizaje nuevo y ninguna a pelearse con la cuenta. Es la manera limpia de estrenar una idea: cambiar una sola dificultad cada vez. Quien domina los amigos del 10 reconocerá aquí a viejos conocidos con disfraz de ecuación.",
+   "p3": "Imprime la ficha gratis en PDF como puerta de entrada suave al formato; en cuanto el niño encuentre los huecos sin ayuda, el número que falta hasta 20 sube la apuesta con las mismas reglas. Y para ver esta idea vivir dentro de una familia completa de operaciones, las casitas del número escondido son la continuación perfecta.",
+   "canonicalDeckSlug": "calculo-mental-g1218",
+   "carousel": [
+    {
+     "label": "Cálculo mental hasta 10: las cuentas de cada día",
+     "href": "calculo-mental-hasta-10"
+    },
+    {
+     "label": "El número que falta: ecuaciones con hueco hasta 20",
+     "href": "el-numero-que-falta-hasta-20"
+    },
+    {
+     "label": "Sumas mentales hasta 20: dobles y pasos por el diez",
+     "href": "sumas-mentales-hasta-20"
+    },
+    {
+     "label": "Restas mentales hasta 20: la operación que pide más práctica",
+     "href": "restas-mentales-hasta-20"
+    }
+   ],
+   "title": "El número que falta hasta 10 – 1.º | para imprimir PDF",
+   "metaDescription": "El número que falta hasta 10: doce operaciones pequeñas con un hueco en un término. La primera ficha de ecuaciones, con números amables. PDF gratis."
+  },
+  {
+   "slug": "casitas-de-operaciones-hasta-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "fact-families",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Familias de operaciones",
+   "h1": "Casitas de operaciones hasta 10: cuatro familias para empezar",
+   "strand": "Operaciones y relaciones numéricas",
+   "standard": "1.OA.B.4",
+   "slotTokens": [
+    "familias-de-operaciones",
+    "primer-grado"
+   ],
+   "p1": "Esta ficha de casitas de operaciones trae cuatro casitas con números hasta el 10. En cada tejado triangular viven tres números que forman familia —pongamos 2, 5 y 7— y dentro de la casa esperan las cuatro operaciones por completar: 2 + 5, 5 + 2, 7 − 2 y 7 − 5. El niño escribe los cuatro resultados y comprueba que todo encaja con los mismos tres números del tejado.",
+   "p2": "Con números tan pequeños, esta ficha permite lo más valioso de todo: hablar. Al terminar cada casita conviene pedir la frase completa —«como dos más cinco es siete, siete menos cinco tiene que ser dos»— porque verbalizar la relación es lo que la convierte en herramienta y no en casualidad. Dentro del 10 el niño puede comprobar cada afirmación con los dedos, así que la conversación nunca se queda en fe: se demuestra. Cuatro casitas dan justo para eso, para pensar cada familia despacio en lugar de rellenar ocho a toda prisa.",
+   "p3": "Descarga la ficha gratis en PDF y remátala con el juego del inventor: que el niño proponga su propio trío y compruebe si forma familia de verdad. Después, las casitas de operaciones hasta 20 llevan la idea a números mayores, y la página de más casitas de sumas y restas ofrece ración extra para asentar.",
+   "canonicalDeckSlug": "familias-de-operaciones-g1219",
+   "carousel": [
+    {
+     "label": "Casitas de operaciones hasta 20: seis familias completas",
+     "href": "casitas-de-operaciones-hasta-20"
+    },
+    {
+     "label": "Más casitas de sumas y restas: ración extra de práctica",
+     "href": "mas-casitas-de-sumas-y-restas"
+    },
+    {
+     "label": "Casitas: el número escondido en cada operación",
+     "href": "casitas-el-numero-escondido"
+    },
+    {
+     "label": "Familias de multiplicar y dividir: casitas con × y ÷",
+     "href": "familias-de-multiplicar-y-dividir"
+    }
+   ],
+   "title": "Casitas de operaciones hasta 10 – 1.º | para imprimir PDF",
+   "metaDescription": "Casitas de operaciones hasta 10: cuatro casitas con tres números en el tejado y cuatro cuentas por completar. Números pequeños para entender. PDF gratis."
+  },
+  {
+   "slug": "casitas-de-operaciones-hasta-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "fact-families",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Familias de operaciones",
+   "h1": "Casitas de operaciones hasta 20: seis familias completas",
+   "strand": "Operaciones y relaciones numéricas",
+   "standard": "1.OA.B.4",
+   "slotTokens": [
+    "familias-de-operaciones",
+    "primer-grado"
+   ],
+   "p1": "Esta ficha de casitas de operaciones sube el listón: seis casitas por página y tríos que llegan hasta el 20. Cada tejado presenta sus tres números —8, 6 y 14, por ejemplo— y la casa pide las cuatro operaciones de la familia: dos sumas y dos restas con esos mismos números. Veinticuatro resultados en total, todos emparentados de cuatro en cuatro.",
+   "p2": "Es más allá del 10 donde la familia de operaciones enseña su verdadero poder. Un 14 − 6 pelado invita a contar hacia atrás con los dedos, camino lento y traicionero; dentro de la casita, ese mismo 14 − 6 vive pegado al 6 + 8, y la respuesta llega por parentesco, no por conteo. El niño que ha entendido esto deja de tratar cada resta difícil como territorio hostil: la reescribe como la suma que ya domina. Seis casitas seguidas dan además el rodaje necesario para que ese reflejo se instale y se quede.",
+   "p3": "Imprime la ficha gratis en PDF, y si veinticuatro huecos son mucho para una tarde, pártela en dos sesiones de tres casitas: rinde más. Como pareja de entrenamiento, el cálculo mental hasta 20 pone velocidad a estas mismas relaciones; y las casitas del número escondido, un punto más retorcidas, son el siguiente desafío natural.",
+   "canonicalDeckSlug": "familias-de-operaciones-g1220",
+   "carousel": [
+    {
+     "label": "Más casitas de sumas y restas: ración extra de práctica",
+     "href": "mas-casitas-de-sumas-y-restas"
+    },
+    {
+     "label": "Casitas: el número escondido en cada operación",
+     "href": "casitas-el-numero-escondido"
+    },
+    {
+     "label": "Familias de multiplicar y dividir: casitas con × y ÷",
+     "href": "familias-de-multiplicar-y-dividir"
+    },
+    {
+     "label": "Casitas de operaciones hasta 10: cuatro familias para empezar",
+     "href": "casitas-de-operaciones-hasta-10"
+    }
+   ],
+   "title": "Casitas de operaciones hasta 20 – 1.º | para imprimir PDF",
+   "metaDescription": "Casitas de operaciones hasta 20: seis casitas con tríos hasta veinte y cuatro operaciones por casa. La relación suma-resta a pleno rendimiento. PDF gratis."
+  },
+  {
+   "slug": "mas-casitas-de-sumas-y-restas",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "fact-families",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Familias de operaciones",
+   "h1": "Más casitas de sumas y restas: ración extra de práctica",
+   "strand": "Operaciones y relaciones numéricas",
+   "standard": "1.OA.B.4",
+   "slotTokens": [
+    "familias-de-operaciones",
+    "primer-grado"
+   ],
+   "p1": "Esta ficha de más casitas de sumas y restas es exactamente lo que promete: seis casitas nuevas con números hasta el 10, para quien terminó las primeras y quiere seguir. Cada tejado trae un trío fresco y cada casa sus cuatro operaciones por completar, dos sumas y dos restas del mismo clan. Mismo formato querido, tríos distintos, media docena de familias por resolver.",
+   "p2": "En el aprendizaje del cálculo, la segunda ración importa tanto como la primera. Una idea recién entendida es todavía frágil: funciona el martes y duda el viernes. Lo que la vuelve permanente es reencontrarla varias veces con material nuevo, y para eso está esta página: los tríos cambian, la estructura se repite, y en esa repetición con variedad la relación entre suma y resta pasa de descubrimiento a costumbre. Como rutina funciona de maravilla: una casita al empezar la clase, cinco minutos, y la familia del día queda resuelta y comentada.",
+   "p3": "Descarga la ficha gratis en PDF y tenla a mano como recambio: hay semanas que piden repaso y no novedad. Cuando estas seis salgan con soltura, las casitas de operaciones hasta 20 amplían el territorio, y las casitas del número escondido dan la vuelta al formato para comprobar quién entendió de verdad.",
+   "canonicalDeckSlug": "familias-de-operaciones-g1221",
+   "carousel": [
+    {
+     "label": "Casitas: el número escondido en cada operación",
+     "href": "casitas-el-numero-escondido"
+    },
+    {
+     "label": "Familias de multiplicar y dividir: casitas con × y ÷",
+     "href": "familias-de-multiplicar-y-dividir"
+    },
+    {
+     "label": "Casitas de operaciones hasta 10: cuatro familias para empezar",
+     "href": "casitas-de-operaciones-hasta-10"
+    },
+    {
+     "label": "Casitas de operaciones hasta 20: seis familias completas",
+     "href": "casitas-de-operaciones-hasta-20"
+    }
+   ],
+   "title": "Más casitas de sumas y restas – 1.º | para imprimir PDF",
+   "metaDescription": "Más casitas de sumas y restas: seis casitas nuevas con números hasta 10 para consolidar las familias de operaciones con tríos frescos. PDF gratis."
+  },
+  {
+   "slug": "casitas-el-numero-escondido",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "fact-families",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Familias de operaciones",
+   "h1": "Casitas: el número escondido en cada operación",
+   "strand": "Operaciones y relaciones numéricas",
+   "standard": "1.OA.D.8",
+   "slotTokens": [
+    "familias-de-operaciones",
+    "primer-grado"
+   ],
+   "p1": "En esta ficha de casitas, el hueco cambia de lugar: cada casa muestra sus cuatro operaciones con el resultado ya impreso, pero a cada cuenta le falta el número de en medio —7 + ☐ = 12, 12 − ☐ = 5—. Son cuatro casitas con tríos hasta el 20, y el trabajo del niño es recuperar en cada línea el número escondido usando los tres del tejado como pista.",
+   "p2": "Este giro convierte la casita en otra cosa: ya no se trata de producir resultados, sino de reconstruir la operación desde el resultado, que es un paso cognitivo distinto y más profundo. Rellenar 7 + 5 = ☐ puede hacerse contando; completar 7 + ☐ = 12 obliga a pensar la relación entera entre los tres números. Es, de hecho, la prueba del algodón de las familias de operaciones: quien las entendió encuentra el hueco al instante mirando el tejado, y quien las rellenaba mecánicamente se descubre aquí, a tiempo de reforzarlo, que para eso está la ficha.",
+   "p3": "Imprime la ficha gratis en PDF como colofón del trabajo con casitas, tras las de operaciones hasta 10 y hasta 20. Y si el formato del hueco engancha, la ficha del número que falta hasta 20 ofrece la misma caza del término perdido en cuentas sueltas, sin tejado que sople la respuesta.",
+   "canonicalDeckSlug": "familias-de-operaciones-g1222",
+   "carousel": [
+    {
+     "label": "Familias de multiplicar y dividir: casitas con × y ÷",
+     "href": "familias-de-multiplicar-y-dividir"
+    },
+    {
+     "label": "Casitas de operaciones hasta 10: cuatro familias para empezar",
+     "href": "casitas-de-operaciones-hasta-10"
+    },
+    {
+     "label": "Casitas de operaciones hasta 20: seis familias completas",
+     "href": "casitas-de-operaciones-hasta-20"
+    },
+    {
+     "label": "Más casitas de sumas y restas: ración extra de práctica",
+     "href": "mas-casitas-de-sumas-y-restas"
+    }
+   ],
+   "title": "Casitas: el número escondido – 1.º | para imprimir PDF",
+   "metaDescription": "Casitas del número escondido: cuatro casitas donde cada operación muestra su resultado pero esconde un término. Escribe el número que falta. PDF gratis."
+  },
+  {
+   "slug": "familias-de-multiplicar-y-dividir",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "fact-families",
+    "mode": null,
+    "theme": "",
+    "level": "tercer-grado"
+   },
+   "eyebrow": "Familias de operaciones",
+   "h1": "Familias de multiplicar y dividir: casitas con × y ÷",
+   "strand": "Operaciones y relaciones numéricas",
+   "standard": "3.OA.B.6",
+   "slotTokens": [
+    "familias-de-operaciones",
+    "tercer-grado"
+   ],
+   "p1": "Esta ficha de familias de multiplicar y dividir trae cuatro casitas de tejado triangular, ahora en versión de tercero: en cada tejado viven dos factores y su producto —pongamos 4, 7 y 28— y dentro de la casa esperan las cuatro operaciones emparentadas: 4 × 7, 7 × 4, 28 ÷ 4 y 28 ÷ 7. El niño completa los cuatro resultados y comprueba que el trío del tejado los sostiene todos.",
+   "p2": "Las casitas que en primero unieron la suma con la resta vuelven aquí para hacer el mismo favor con la división. Dividir 28 entre 4 asusta mientras parece materia nueva; deja de asustar en cuanto se lee como la pregunta «¿4 por cuánto da 28?», y ese es exactamente el giro que la casita hace visible. Quien tiene las tablas a medio asentar encuentra además un empujón doble: cada familia repasa una multiplicación en sus dos órdenes y la convierte acto seguido en dos divisiones, de modo que un solo trío bien entendido rinde por cuatro.",
+   "p3": "Descarga la ficha gratis en PDF; es el complemento perfecto de las tablas, empezando por la tabla del 2 y sus vecinas, porque transforma la memoria de las tablas en divisiones sin esfuerzo aparente. Y si algún alumno pregunta de dónde viene el formato, las casitas de sumas y restas de primero son el álbum familiar: misma casa, inquilinos nuevos.",
+   "canonicalDeckSlug": "familias-de-operaciones-g3369",
+   "carousel": [
+    {
+     "label": "Casitas de operaciones hasta 10: cuatro familias para empezar",
+     "href": "casitas-de-operaciones-hasta-10"
+    },
+    {
+     "label": "Casitas de operaciones hasta 20: seis familias completas",
+     "href": "casitas-de-operaciones-hasta-20"
+    },
+    {
+     "label": "Más casitas de sumas y restas: ración extra de práctica",
+     "href": "mas-casitas-de-sumas-y-restas"
+    },
+    {
+     "label": "Casitas: el número escondido en cada operación",
+     "href": "casitas-el-numero-escondido"
+    }
+   ],
+   "title": "Familias de multiplicar y dividir – 3.º | para imprimir PDF",
+   "metaDescription": "Familias de multiplicar y dividir: cuatro casitas con dos factores y su producto en el tejado, y cuatro operaciones con × y ÷ por completar. PDF gratis."
+  },
+  {
+   "slug": "numeros-en-letras-hasta-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-words",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Números en letras",
+   "h1": "Números en letras hasta 20: los nombres más traicioneros",
+   "strand": "Numeración",
+   "standard": "2.NBT.A.3",
+   "slotTokens": [
+    "numeros-en-letras",
+    "primer-grado"
+   ],
+   "p1": "Esta ficha de números en letras se concentra en el tramo del 3 al 20: seis números en cifra bien grandes y, junto a cada uno, tres nombres escritos en palabras de los que solo uno es el verdadero. El niño lee el número, lee las tres opciones y rodea con el lápiz la correcta. En este rango viven once, doce, trece y toda la pandilla del dieci-, así que las opciones falsas se parecen lo suyo.",
+   "p2": "El tramo hasta el 20 es donde el español guarda sus nombres más irregulares. Once, doce, trece, catorce y quince no se parecen a nada y solo se aprenden de trato; a partir de dieciséis los nombres se vuelven compuestos y hay que leerlos enteros para no confundir dieciséis con diecisiete de un vistazo. Por eso esta página trabaja tanto lectura como matemática: obliga a mirar la palabra completa, sílaba a sílaba, en lugar de adivinar por la primera letra. Ese hábito de lectura atenta es justo lo que pedirán después los enunciados de los problemas.",
+   "p3": "Descarga la ficha gratis en PDF; funciona de lujo como repaso exprés de cinco minutos. Cuando este tramo esté dominado, los números en letras hasta 50 estrenan los compuestos con «y», y la ficha de unir números con palabras cambia el formato para repasar sin escribir nada.",
+   "canonicalDeckSlug": "numeros-en-letras-g1223",
+   "carousel": [
+    {
+     "label": "Las decenas en letras: que no se crucen catorce y cuarenta",
+     "href": "las-decenas-en-letras"
+    },
+    {
+     "label": "Une números con palabras: cada cifra busca su nombre",
+     "href": "une-numeros-con-palabras"
+    },
+    {
+     "label": "Números en letras hasta 50: compuestos con «y» en medio",
+     "href": "numeros-en-letras-hasta-50"
+    },
+    {
+     "label": "Escribe los números en letras con banco de palabras",
+     "href": "escribe-los-numeros-en-letras"
+    }
+   ],
+   "title": "Números en letras hasta 20 – 1.º | para imprimir PDF",
+   "metaDescription": "Números en letras hasta 20: seis números en cifra y tres nombres escritos por cada uno. Rodea la palabra correcta: once, doce, dieciséis… PDF gratis."
+  },
+  {
+   "slug": "las-decenas-en-letras",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-words",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Números en letras",
+   "h1": "Las decenas en letras: que no se crucen catorce y cuarenta",
+   "strand": "Numeración",
+   "standard": "2.NBT.A.3",
+   "slotTokens": [
+    "numeros-en-letras",
+    "primer-grado"
+   ],
+   "p1": "Esta ficha de las decenas en letras recorre las decenas redondas del 10 al 100: seis números terminados en cero, cada uno con tres nombres en palabras entre los que rodear el correcto. Y las opciones falsas no son inocentes: junto a cuarenta acecha catorce, junto a cincuenta ronda quince, porque son exactamente esas parejas las que se cruzan en la cabeza de medio primero de primaria.",
+   "p2": "La confusión catorce-cuarenta no es un despiste cualquiera: es el error de numeración más persistente del idioma, y sobrevive hasta tercero si nadie lo trabaja a propósito. Las dos palabras comparten arranque y se distinguen por el interior —ca-TOR-ce contra cua-REN-ta—, así que la única defensa es leer más allá de la primera sílaba. Esta página está construida para forzar precisamente esa lectura fina: cada decena aparece junto a su doble traicionero, y rodear bien exige haber mirado de verdad. Dominar las decenas de palabra, además, es media tabla del 100 aprendida.",
+   "p3": "Imprime la ficha gratis en PDF y remata con un dictado cruzado de viva voz: catorce, cuarenta, quince, cincuenta, a ver quién no pestañea. Los números en letras hasta 50 mezclan después decenas y unidades en compuestos completos, y la ficha de escribir los números en letras pasa de reconocer nombres a producirlos.",
+   "canonicalDeckSlug": "numeros-en-letras-g1224",
+   "carousel": [
+    {
+     "label": "Une números con palabras: cada cifra busca su nombre",
+     "href": "une-numeros-con-palabras"
+    },
+    {
+     "label": "Números en letras hasta 50: compuestos con «y» en medio",
+     "href": "numeros-en-letras-hasta-50"
+    },
+    {
+     "label": "Escribe los números en letras con banco de palabras",
+     "href": "escribe-los-numeros-en-letras"
+    },
+    {
+     "label": "Números en letras hasta 20: los nombres más traicioneros",
+     "href": "numeros-en-letras-hasta-20"
+    }
+   ],
+   "title": "Las decenas en letras del 10 al 100 | para imprimir PDF",
+   "metaDescription": "Las decenas en letras del 10 al 100: rodea el nombre correcto de cada decena redonda y aprende a no cruzar catorce con cuarenta ni quince con cincuenta. PDF gratis."
+  },
+  {
+   "slug": "une-numeros-con-palabras",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-words",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Números en letras",
+   "h1": "Une números con palabras: cada cifra busca su nombre",
+   "strand": "Numeración",
+   "standard": "2.NBT.A.3",
+   "slotTokens": [
+    "numeros-en-letras",
+    "primer-grado"
+   ],
+   "p1": "Esta ficha de unir números con palabras presenta dos columnas: a la izquierda, cinco números en cifra entre el 13 y el 100; a la derecha, sus cinco nombres escritos en letras, pero barajados. El niño lee cada cifra, localiza su nombre y los une trazando una línea con la regla o a pulso. Cinco líneas después, cada número ha encontrado el suyo.",
+   "p2": "El formato de unir tiene sus propias virtudes, distintas de las de rodear o escribir. La primera es que enseña estrategia: el niño listo une primero las parejas seguras y deja las dudosas para el final, donde el descarte le echa una mano —y descartar con lógica también es matemática—. La segunda es que el propio sistema avisa de los errores: si al final sobra un nombre que no cuadra con la cifra que queda, algo falló antes, y hay que volver sobre las líneas. Esa comprobación de cierre, hecha por uno mismo sin que nadie corrija, es un pequeño entrenamiento de autonomía.",
+   "p3": "Descarga la ficha gratis en PDF; como no exige escribir palabras, viene perfecta para días de poca energía o como estación rápida de un circuito de repaso. Sus compañeras naturales son la de los números en letras hasta 50, para ampliar rango, y la de escribir los números en letras, cuando toque producir los nombres de puño y letra.",
+   "canonicalDeckSlug": "numeros-en-letras-g1225",
+   "carousel": [
+    {
+     "label": "Números en letras hasta 50: compuestos con «y» en medio",
+     "href": "numeros-en-letras-hasta-50"
+    },
+    {
+     "label": "Escribe los números en letras con banco de palabras",
+     "href": "escribe-los-numeros-en-letras"
+    },
+    {
+     "label": "Números en letras hasta 20: los nombres más traicioneros",
+     "href": "numeros-en-letras-hasta-20"
+    },
+    {
+     "label": "Las decenas en letras: que no se crucen catorce y cuarenta",
+     "href": "las-decenas-en-letras"
+    }
+   ],
+   "title": "Une números con palabras – 1.º de primaria | para imprimir PDF",
+   "metaDescription": "Une números con palabras: cinco cifras a la izquierda, cinco nombres desordenados a la derecha y líneas que trazar entre ellos. Ficha en PDF gratis."
+  },
+  {
+   "slug": "numeros-en-letras-hasta-50",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-words",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Números en letras",
+   "h1": "Números en letras hasta 50: compuestos con «y» en medio",
+   "strand": "Numeración",
+   "standard": "2.NBT.A.3",
+   "slotTokens": [
+    "numeros-en-letras",
+    "primer-grado"
+   ],
+   "p1": "Esta ficha de números en letras avanza hasta el 50: seis números de dos cifras entre el 13 y el 50, cada uno escoltado por tres nombres en palabras de los que solo uno es exacto. Aquí aparecen los compuestos de verdad —veintiocho pegado en una sola palabra, treinta y cuatro desplegado en tres— y las opciones falsas juegan a bailar la decena o la unidad para pescar al lector apresurado.",
+   "p2": "Entre el 20 y el 50 el español cambia dos veces de norma, y eso hay que verlo escrito: los veintis van soldados (veintitrés, veintinueve), pero del treinta en adelante el número se abre en tres palabras con la «y» de bisagra: treinta y cuatro, cuarenta y siete. Ningún niño deduce solo esa frontera ortográfica; se aprende encontrándosela muchas veces, y esta página se la sirve en bandeja. De regalo, leer «cuarenta y siete» pieza a pieza —cuarenta, y, siete— es puro valor posicional pronunciado: primero las decenas, después las unidades.",
+   "p3": "Imprime la ficha gratis en PDF como paso intermedio entre el tramo del 20 y los números grandes. Las decenas en letras conviene tenerlas firmes antes, porque son el esqueleto de todos estos compuestos; y después, la ficha de escribir los números en letras pone al niño a redactar estos mismos nombres sin opciones entre las que elegir.",
+   "canonicalDeckSlug": "numeros-en-letras-g1226",
+   "carousel": [
+    {
+     "label": "Escribe los números en letras con banco de palabras",
+     "href": "escribe-los-numeros-en-letras"
+    },
+    {
+     "label": "Números en letras hasta 20: los nombres más traicioneros",
+     "href": "numeros-en-letras-hasta-20"
+    },
+    {
+     "label": "Las decenas en letras: que no se crucen catorce y cuarenta",
+     "href": "las-decenas-en-letras"
+    },
+    {
+     "label": "Une números con palabras: cada cifra busca su nombre",
+     "href": "une-numeros-con-palabras"
+    }
+   ],
+   "title": "Números en letras hasta 50 – 1.º | para imprimir PDF",
+   "metaDescription": "Números en letras hasta 50: seis números de dos cifras y tres nombres cada uno. Rodea el correcto entre veintiocho, treinta y cuatro y parecidos. PDF gratis."
+  },
+  {
+   "slug": "escribe-los-numeros-en-letras",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-words",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Números en letras",
+   "h1": "Escribe los números en letras con banco de palabras",
+   "strand": "Numeración",
+   "standard": "2.NBT.A.3",
+   "slotTokens": [
+    "numeros-en-letras",
+    "primer-grado"
+   ],
+   "p1": "Esta ficha de escribir los números en letras da el salto a la producción: seis números en cifra hasta el 20, cada uno con una línea en blanco al lado, y arriba del todo un banco de palabras con los seis nombres desordenados. El niño lee la cifra, busca su nombre en el banco y lo escribe entero en la línea, con todas sus letras.",
+   "p2": "Reconocer un nombre entre tres opciones y escribirlo son destrezas de peso muy distinto, y esta es la página del peso pesado. Al escribir, el niño repara en cosas que rodeando pasan de largo: que dieciséis lleva tilde, que quince acaba en e, cuántas sílabas tiene catorce. El banco de palabras está ahí como red ortográfica —copiar bien también se entrena—, de modo que el esfuerzo se reparte entre elegir el nombre correcto y transcribirlo sin erratas. Es, además, el ensayo general perfecto para los dictados de números, donde ya no habrá banco del que tirar.",
+   "p3": "Descarga la ficha gratis en PDF y, para cerrar el círculo, dicta después esos mismos números en el cuaderno, ya sin ayuda visual. Como preparación funcionan de maravilla los números en letras hasta 20, que fijan el reconocimiento, y la de unir números con palabras, que repasa las parejas sin coste de escritura.",
+   "canonicalDeckSlug": "numeros-en-letras-g1227",
+   "carousel": [
+    {
+     "label": "Números en letras hasta 20: los nombres más traicioneros",
+     "href": "numeros-en-letras-hasta-20"
+    },
+    {
+     "label": "Las decenas en letras: que no se crucen catorce y cuarenta",
+     "href": "las-decenas-en-letras"
+    },
+    {
+     "label": "Une números con palabras: cada cifra busca su nombre",
+     "href": "une-numeros-con-palabras"
+    },
+    {
+     "label": "Números en letras hasta 50: compuestos con «y» en medio",
+     "href": "numeros-en-letras-hasta-50"
+    }
+   ],
+   "title": "Escribe los números en letras – 1.º | para imprimir PDF",
+   "metaDescription": "Escribe los números en letras: seis cifras con su línea en blanco y un banco de palabras arriba para copiar el nombre correcto de cada una. PDF gratis."
+  },
+  {
+   "slug": "contar-monedas-primeros-pasos",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Ficha de dinero",
+   "h1": "Contar monedas, primeros pasos: pocas monedas y bien grandes",
+   "strand": "Medida y dinero",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "contar-dinero",
+    "primer-grado"
+   ],
+   "p1": "Esta ficha de contar monedas está pensada para el primer día: cuatro monederos, cada uno con solo dos o tres monedas, y únicamente las de 1, 2 y 5 céntimos, dibujadas en tamaño extragrande para que se distingan sin esfuerzo. El niño mira las monedas del monedero, suma sus valores —cantidades minúsculas, de céntimo en céntimo— y escribe el total en la casilla.",
+   "p2": "Empezar con poco es la manera seria de empezar con el dinero. Antes de contar deprisa hay que resolver algo previo: que cada moneda se reconozca y que quede claro que una sola moneda puede valer más de uno, la idea que separa contar monedas de contar canicas. Con dos o tres piezas por monedero, el niño tiene tiempo de mirar cada moneda, decir su valor y sumarlo con calma, sin que la cantidad lo desborde. Cuatro totales pequeños bien entendidos construyen aquí más que veinte contados a medias.",
+   "p3": "Imprime la ficha gratis en PDF y, si puedes, pon las monedas de verdad encima de sus dibujos: la equivalencia entre el papel y el metal se entiende al tacto. Como continuación, la ficha de monedas de 1 y 2 céntimos afina el conteo de dos en dos, y la de contar con todas las monedas abre el monedero completo.",
+   "canonicalDeckSlug": "contar-dinero-g1228",
+   "carousel": [
+    {
+     "label": "Contar con todas las monedas: el monedero completo",
+     "href": "contar-con-todas-las-monedas"
+    },
+    {
+     "label": "Práctica de contar monedas: ocho monederos seguidos",
+     "href": "practica-de-contar-monedas"
+    },
+    {
+     "label": "Monedas de 1 y 2 céntimos: contar de uno en uno y de dos en dos",
+     "href": "monedas-de-1-y-2-centimos"
+    },
+    {
+     "label": "¿Qué monedero tiene más dinero? Más monedas no es más dinero",
+     "href": "que-monedero-tiene-mas-dinero"
+    }
+   ],
+   "title": "Contar monedas: primeros pasos – euros | para imprimir PDF",
+   "metaDescription": "Contar monedas, primeros pasos: cuatro monederos con solo 2 o 3 monedas de 1, 2 y 5 céntimos dibujadas en grande. Escribe cada total. PDF gratis."
+  },
+  {
+   "slug": "contar-con-todas-las-monedas",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Ficha de dinero",
+   "h1": "Contar con todas las monedas: el monedero completo",
+   "strand": "Medida y dinero",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "contar-dinero",
+    "primer-grado"
+   ],
+   "p1": "En esta ficha el monedero se abre del todo: las seis monedas de céntimo —1, 2, 5, 10, 20 y 50— pueden aparecer en cualquiera de los seis monederos, y cada uno trae entre cinco y siete piezas revueltas. El niño cuenta el contenido de cada monedero y escribe el total en su casilla. Es la página donde el surtido completo entra en juego por primera vez.",
+   "p2": "Con todas las monedas sobre la mesa, contar bien se convierte en cuestión de método. El orden ingenuo —sumar las monedas según caen— funciona con tres piezas y naufraga con siete; el orden experto arranca por las monedas de más valor y va bajando: cincuenta, sesenta, sesenta y cinco, sesenta y seis. Esta ficha existe para instalar ese reflejo de ordenar antes de contar, que es organización del pensamiento pura y dura. Y de propina obliga a cambiar de marcha a mitad de cuenta: de diez en diez, luego de cinco en cinco, luego de uno en uno, según toque.",
+   "p3": "Descarga la ficha gratis en PDF y pide que cada total se compruebe contando en otro orden: si sale lo mismo dos veces, es que está bien. Cuando el método esté asentado, la práctica de contar monedas ofrece ocho monederos de rodaje, y la de qué monedero tiene más dinero convierte lo aprendido en comparaciones con miga.",
+   "canonicalDeckSlug": "contar-dinero-g1229",
+   "carousel": [
+    {
+     "label": "Práctica de contar monedas: ocho monederos seguidos",
+     "href": "practica-de-contar-monedas"
+    },
+    {
+     "label": "Monedas de 1 y 2 céntimos: contar de uno en uno y de dos en dos",
+     "href": "monedas-de-1-y-2-centimos"
+    },
+    {
+     "label": "¿Qué monedero tiene más dinero? Más monedas no es más dinero",
+     "href": "que-monedero-tiene-mas-dinero"
+    },
+    {
+     "label": "Contar monedas, primeros pasos: pocas monedas y bien grandes",
+     "href": "contar-monedas-primeros-pasos"
+    }
+   ],
+   "title": "Contar con todas las monedas de euro | para imprimir PDF",
+   "metaDescription": "Contar con todas las monedas de céntimo, de la de 1 a la de 50: seis monederos con 5 a 7 monedas variadas para calcular y escribir el total. PDF gratis."
+  },
+  {
+   "slug": "practica-de-contar-monedas",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Ficha de dinero",
+   "h1": "Práctica de contar monedas: ocho monederos seguidos",
+   "strand": "Medida y dinero",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "contar-dinero",
+    "primer-grado"
+   ],
+   "p1": "Esta ficha de práctica de contar monedas es la más nutrida de la familia: ocho monederos en una sola página, cada uno con entre tres y cinco monedas de 1, 2, 5 y 10 céntimos. El niño recorre monedero a monedero, cuenta cada puñado y escribe los ocho totales en sus casillas. Los valores se mantienen amables a propósito; lo que crece aquí es la cantidad de práctica.",
+   "p2": "Entre entender cómo se cuenta y contar con seguridad media un buen número de repeticiones, y esta página está construida para dárselas. Ocho monederos seguidos permiten que el método —ordenar de mayor a menor, sumar de corrido, apuntar— se repita hasta rodar solo, que es cuando de verdad queda aprendido. Para el maestro, además, ocho respuestas son una radiografía estupenda: si los fallos se concentran en los monederos con moneda de 10, o en los de más piezas, el repaso siguiente ya viene con diagnóstico incluido.",
+   "p3": "Imprime la ficha gratis en PDF y, si el niño disfruta con el reto, proponle superar su propia marca de aciertos en la siguiente tanda: es la comparación sana, la de uno consigo mismo. De ahí, el camino sigue en contar con todas las monedas, que suma las piezas grandes, y en el duelo final de qué monedero tiene más dinero.",
+   "canonicalDeckSlug": "contar-dinero-g1230",
+   "carousel": [
+    {
+     "label": "Monedas de 1 y 2 céntimos: contar de uno en uno y de dos en dos",
+     "href": "monedas-de-1-y-2-centimos"
+    },
+    {
+     "label": "¿Qué monedero tiene más dinero? Más monedas no es más dinero",
+     "href": "que-monedero-tiene-mas-dinero"
+    },
+    {
+     "label": "Contar monedas, primeros pasos: pocas monedas y bien grandes",
+     "href": "contar-monedas-primeros-pasos"
+    },
+    {
+     "label": "Contar con todas las monedas: el monedero completo",
+     "href": "contar-con-todas-las-monedas"
+    }
+   ],
+   "title": "Práctica de contar monedas – 8 monederos | para imprimir PDF",
+   "metaDescription": "Práctica de contar monedas: ocho monederos con 3 a 5 monedas de hasta 10 céntimos cada uno. Página de rodaje para ganar seguridad contando. PDF gratis."
+  },
+  {
+   "slug": "monedas-de-1-y-2-centimos",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Ficha de dinero",
+   "h1": "Monedas de 1 y 2 céntimos: contar de uno en uno y de dos en dos",
+   "strand": "Medida y dinero",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "contar-dinero",
+    "primer-grado"
+   ],
+   "p1": "Esta ficha se queda con las dos monedas más pequeñas del euro: la de 1 y la de 2 céntimos, las cobrizas. Seis monederos traen entre dos y cuatro de estas piezas en distintas combinaciones, y el niño calcula cada total —cantidades diminutas, siempre por debajo de la decena— y lo escribe en la casilla. Dos únicas monedas en juego, para mirarlas de cerca y aprendérselas de una vez.",
+   "p2": "Limitar la página a dos monedas tiene su porqué aritmético: con solo unos y doses, contar dinero se convierte en el mejor ejercicio de conteo de dos en dos que existe, con el aliciente de que aquí el dos es una moneda que se puede tener en la mano. El niño practica la mezcla —dos, cuatro, cinco, seis— y de paso interioriza la diferencia física entre ambas piezas, casi gemelas de color y distintas de tamaño. Es también la página que dignifica el céntimo: entender lo más pequeño del sistema es lo que después da sentido a todo lo grande.",
+   "p3": "Descarga la ficha gratis en PDF; con monedas reales sobre la mesa se convierte en un juego de tienda improvisado. Como pasos siguientes, contar monedas: primeros pasos añade la moneda de 5 sin perder la calma, y la práctica de contar monedas pone el método a rodar en ocho monederos.",
+   "canonicalDeckSlug": "contar-dinero-g1231",
+   "carousel": [
+    {
+     "label": "¿Qué monedero tiene más dinero? Más monedas no es más dinero",
+     "href": "que-monedero-tiene-mas-dinero"
+    },
+    {
+     "label": "Contar monedas, primeros pasos: pocas monedas y bien grandes",
+     "href": "contar-monedas-primeros-pasos"
+    },
+    {
+     "label": "Contar con todas las monedas: el monedero completo",
+     "href": "contar-con-todas-las-monedas"
+    },
+    {
+     "label": "Práctica de contar monedas: ocho monederos seguidos",
+     "href": "practica-de-contar-monedas"
+    }
+   ],
+   "title": "Monedas de 1 y 2 céntimos – contar | para imprimir PDF",
+   "metaDescription": "Monedas de 1 y 2 céntimos: seis monederos solo con las dos monedas cobrizas más pequeñas del euro. Cuenta de dos en dos y escribe el total. PDF gratis."
+  },
+  {
+   "slug": "que-monedero-tiene-mas-dinero",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Ficha de dinero",
+   "h1": "¿Qué monedero tiene más dinero? Más monedas no es más dinero",
+   "strand": "Medida y dinero",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "contar-dinero",
+    "primer-grado"
+   ],
+   "p1": "Esta ficha plantea tres duelos de monederos: tres filas, y en cada una dos monederos frente a frente, con entre dos y cinco monedas de hasta 10 céntimos cada uno. El niño cuenta el dinero del monedero de la izquierda, cuenta el de la derecha y rodea el que guarda más. Y ojo, que las parejas vienen con trampa amable: a menudo el monedero con más monedas es el que menos dinero lleva.",
+   "p2": "Aquí se combate una de las confusiones más humanas de todo primero: la de que un montón más grande vale más. Cinco monedas de un céntimo abultan más que una de diez, y sin embargo pierden el duelo, y descubrirlo por las propias cuentas —no porque lo diga un adulto— es de esas sorpresas que reorganizan la cabeza. La ficha pide además dos destrezas encadenadas: primero contar con precisión dos totales, después compararlos. Contar y comparar son músculos distintos, y este formato los entrena juntos, que es como trabajarán en la vida real.",
+   "p3": "Imprime la ficha gratis en PDF y remata cada duelo con la pregunta incómoda: ¿cuál abultaba más? ¿y cuál valía más? Ahí está toda la lección. Antes conviene rodar con contar con todas las monedas; después, los problemas de suma y resta llevan estas comparaciones a pequeñas historias con dinero y frutas.",
+   "canonicalDeckSlug": "contar-dinero-g1232",
+   "carousel": [
+    {
+     "label": "Contar monedas, primeros pasos: pocas monedas y bien grandes",
+     "href": "contar-monedas-primeros-pasos"
+    },
+    {
+     "label": "Contar con todas las monedas: el monedero completo",
+     "href": "contar-con-todas-las-monedas"
+    },
+    {
+     "label": "Práctica de contar monedas: ocho monederos seguidos",
+     "href": "practica-de-contar-monedas"
+    },
+    {
+     "label": "Monedas de 1 y 2 céntimos: contar de uno en uno y de dos en dos",
+     "href": "monedas-de-1-y-2-centimos"
+    }
+   ],
+   "title": "¿Qué monedero tiene más dinero? – 1.º | para imprimir PDF",
+   "metaDescription": "¿Qué monedero tiene más dinero? Tres parejas de monederos: cuenta los dos totales y rodea el que tiene más. Más monedas no siempre es más dinero. PDF gratis."
+  },
+  {
+   "slug": "dibujar-las-agujas-en-punto",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "telling-time",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Ficha del reloj",
+   "h1": "Dibujar las agujas del reloj: solo horas en punto",
+   "strand": "Medida: el tiempo",
+   "standard": "1.MD.B.3",
+   "slotTokens": [
+    "aprender-la-hora",
+    "primer-grado"
+   ],
+   "p1": "En esta ficha del reloj todas las horas son en punto: 3:00, 7:00, 11:00, sin un solo minuto suelto. Junto a cada esfera vacía hay una etiqueta con la hora en formato digital, y el niño tiene que dibujar las dos agujas donde corresponde. La larga cae siempre en el 12, sin excepción; la corta señala el número que dice la etiqueta. Cuatro relojes que empiezan desnudos y terminan marcando una hora exacta que se puede leer de un vistazo.",
+   "p2": "Esta es la primera hoja de la serie del reloj, y lo es a propósito: fija una de las dos agujas para que el niño solo tenga que pensar en la otra. Mientras la aguja larga se queda quieta en el 12, toda la atención va a distinguir cuál de las dos agujas es la de las horas —la corta, la gruesa, la que va despacio— y a colocarla en su número. Aprender el reloj entero de golpe suele acabar en agujas idénticas y confusión; empezar por las horas en punto asienta el primer hábito antes de añadir la segunda variable.",
+   "p3": "Imprime la ficha gratis en PDF y aprovecha el reloj de la clase para comprobar cada esfera. Cuando las horas en punto salgan solas, la ficha de dibujar las agujas y media añade el primer medio paso, y el repaso de las horas del reloj mezcla después todos los casos. Preguntar «¿y a esa hora qué estamos haciendo?» ancla cada esfera en el día real del niño.",
+   "canonicalDeckSlug": "aprender-la-hora-g1233",
+   "carousel": [
+    {
+     "label": "Dibujar las agujas del reloj: las horas y media",
+     "href": "dibujar-las-agujas-y-media"
+    },
+    {
+     "label": "Dibujar las agujas: y cuarto y menos cuarto",
+     "href": "dibujar-las-agujas-y-cuarto"
+    },
+    {
+     "label": "Dibujar las agujas de 5 en 5 minutos",
+     "href": "dibujar-las-agujas-de-5-en-5"
+    },
+    {
+     "label": "Repaso de las horas: dibuja las agujas de cada reloj",
+     "href": "repaso-de-las-horas-del-reloj"
+    }
+   ],
+   "title": "Dibujar las agujas: horas en punto | para imprimir PDF",
+   "metaDescription": "Dibujar las agujas del reloj con horas en punto: esferas vacías y etiqueta digital al lado para empezar la serie del reloj. Ficha en PDF gratis."
+  },
+  {
+   "slug": "dibujar-las-agujas-y-media",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "telling-time",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Ficha del reloj",
+   "h1": "Dibujar las agujas del reloj: las horas y media",
+   "strand": "Medida: el tiempo",
+   "standard": "1.MD.B.3",
+   "slotTokens": [
+    "aprender-la-hora",
+    "primer-grado"
+   ],
+   "p1": "Todas las horas de esta ficha terminan en treinta minutos: 4:30, 9:30, 1:30. En cada tarjeta hay una esfera vacía y su etiqueta digital, y el niño dibuja la aguja larga apuntando al 6 —la media vuelta completa— y la corta en la hora que toca. Son cuatro relojes seguidos con el mismo patrón de minutos, para que la posición del 6 se quede grabada antes de que aparezcan otros repartos del círculo.",
+   "p2": "Aquí surge el error más repetido de toda la unidad del reloj, y por eso conviene provocarlo en el papel: en las siete y media la aguja corta no señala al 7, sino que se queda a medio camino entre el 7 y el 8, porque media hora es media casilla recorrida. El niño que dibuja la corta clavada en el número está leyendo el reloj como si fuera digital, con cada aguja independiente. Mostrarle que las dos agujas avanzan a la vez, una despacio y otra deprisa, es el salto conceptual de esta hoja.",
+   "p3": "Descarga la ficha gratis en PDF y corrige mirando primero la aguja corta: ahí está la información. Después de las horas en punto, esta es la continuación natural, y las horas y cuarto y menos cuarto parten el círculo en cuatro trozos en la siguiente hoja. Girar despacio las agujas de un reloj de juguete mientras se dibuja ayuda muchísimo.",
+   "canonicalDeckSlug": "aprender-la-hora-g1234",
+   "carousel": [
+    {
+     "label": "Dibujar las agujas: y cuarto y menos cuarto",
+     "href": "dibujar-las-agujas-y-cuarto"
+    },
+    {
+     "label": "Dibujar las agujas de 5 en 5 minutos",
+     "href": "dibujar-las-agujas-de-5-en-5"
+    },
+    {
+     "label": "Repaso de las horas: dibuja las agujas de cada reloj",
+     "href": "repaso-de-las-horas-del-reloj"
+    },
+    {
+     "label": "Dibujar las agujas del reloj: solo horas en punto",
+     "href": "dibujar-las-agujas-en-punto"
+    }
+   ],
+   "title": "Dibujar las agujas: y media | para imprimir PDF",
+   "metaDescription": "Dibujar las agujas del reloj en las horas y media: todas las etiquetas acaban en :30 y la aguja corta queda a medio camino. Ficha en PDF gratis."
+  },
+  {
+   "slug": "dibujar-las-agujas-y-cuarto",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "telling-time",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Ficha del reloj",
+   "h1": "Dibujar las agujas: y cuarto y menos cuarto",
+   "strand": "Medida: el tiempo",
+   "standard": "1.MD.B.3",
+   "slotTokens": [
+    "aprender-la-hora",
+    "primer-grado"
+   ],
+   "p1": "Esta ficha trabaja los cuartos de hora: las etiquetas digitales marcan y quince o y cuarenta y cinco, y el niño coloca la aguja larga en el 3 cuando es y cuarto y en el 9 cuando faltan quince minutos. La aguja corta acompaña, un poco pasada del número en el primer caso y casi llegando al siguiente en el segundo. Cuatro esferas vacías que parten el círculo del reloj en cuatro trozos iguales.",
+   "p2": "El interés añadido en español está en cómo lo decimos: las 7:15 son las siete y cuarto, pero las 7:45 son las ocho menos cuarto, y de repente el número que se pronuncia ya no es el que aparece en la etiqueta. Ese cambio de hora al hablar desconcierta a muchos niños de primero, y verlo dibujado —la aguja corta a punto de alcanzar el 8— es la mejor explicación posible. Conviene decir en voz alta las dos formas, la digital y la de siempre, mientras se dibuja cada reloj.",
+   "p3": "La ficha se imprime gratis en PDF y da mucho juego leyéndola en voz alta entre dos. Viene después de las horas y media y prepara el terreno para dibujar las agujas de 5 en 5 minutos, donde el círculo se divide ya en doce tramos. Dibujar con lápiz de color el cuarto de esfera que se ha recorrido hace visible de dónde viene la palabra cuarto.",
+   "canonicalDeckSlug": "aprender-la-hora-g1235",
+   "carousel": [
+    {
+     "label": "Dibujar las agujas de 5 en 5 minutos",
+     "href": "dibujar-las-agujas-de-5-en-5"
+    },
+    {
+     "label": "Repaso de las horas: dibuja las agujas de cada reloj",
+     "href": "repaso-de-las-horas-del-reloj"
+    },
+    {
+     "label": "Dibujar las agujas del reloj: solo horas en punto",
+     "href": "dibujar-las-agujas-en-punto"
+    },
+    {
+     "label": "Dibujar las agujas del reloj: las horas y media",
+     "href": "dibujar-las-agujas-y-media"
+    }
+   ],
+   "title": "Dibujar las agujas: y cuarto y menos cuarto | para imprimir PDF",
+   "metaDescription": "Dibujar las agujas del reloj en los cuartos de hora: etiquetas en :15 y :45 para colocar la aguja larga en el 3 y en el 9. Ficha en PDF gratis."
+  },
+  {
+   "slug": "dibujar-las-agujas-de-5-en-5",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "telling-time",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Ficha del reloj",
+   "h1": "Dibujar las agujas de 5 en 5 minutos",
+   "strand": "Medida: el tiempo",
+   "standard": "2.MD.C.7",
+   "slotTokens": [
+    "aprender-la-hora",
+    "primer-grado"
+   ],
+   "p1": "Aquí las horas ya no son redondas: las etiquetas digitales dicen 8:20, 3:55, 11:35, y el niño debe llevar la aguja larga a cualquiera de los doce números de la esfera. Cada número del reloj vale cinco minutos, así que colocar la aguja larga significa contar de cinco en cinco alrededor del círculo —cinco, diez, quince, veinte— hasta dar con el sitio. La corta, mientras tanto, se sitúa entre dos números según lo avanzada que vaya la hora.",
+   "p2": "Esta hoja es donde el reloj se encuentra con el conteo salteado: sin la serie del cinco dominada, la esfera es un jeroglífico. Por eso funciona tan bien encadenarla con el trabajo de tablas y series numéricas, y por eso conviene numerar en voz alta el círculo antes de empezar a dibujar. Es también la ficha que enseña de una vez para siempre que el reloj tiene dos escalas superpuestas sobre los mismos doce números: la de las horas y la de los minutos, y que cada aguja lee la suya.",
+   "p3": "Imprime la ficha gratis en PDF y ten cerca un reloj de pared para comparar. Llega después de las horas y cuarto y menos cuarto, y el repaso de las horas del reloj es el cierre lógico de toda la serie. Como puente, el cálculo mental hasta 20 mantiene ágil ese contar de cinco en cinco que la esfera reclama todo el rato.",
+   "canonicalDeckSlug": "aprender-la-hora-g1236",
+   "carousel": [
+    {
+     "label": "Repaso de las horas: dibuja las agujas de cada reloj",
+     "href": "repaso-de-las-horas-del-reloj"
+    },
+    {
+     "label": "Dibujar las agujas del reloj: solo horas en punto",
+     "href": "dibujar-las-agujas-en-punto"
+    },
+    {
+     "label": "Dibujar las agujas del reloj: las horas y media",
+     "href": "dibujar-las-agujas-y-media"
+    },
+    {
+     "label": "Dibujar las agujas: y cuarto y menos cuarto",
+     "href": "dibujar-las-agujas-y-cuarto"
+    }
+   ],
+   "title": "Dibujar las agujas de 5 en 5 minutos | para imprimir PDF",
+   "metaDescription": "Dibujar las agujas del reloj de cinco en cinco minutos: etiquetas como 8:20 o 3:55 para colocar la aguja larga en cualquier número. PDF gratis."
+  },
+  {
+   "slug": "repaso-de-las-horas-del-reloj",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "telling-time",
+    "mode": null,
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Ficha del reloj",
+   "h1": "Repaso de las horas: dibuja las agujas de cada reloj",
+   "strand": "Medida: el tiempo",
+   "standard": "1.MD.B.3",
+   "slotTokens": [
+    "aprender-la-hora",
+    "primer-grado"
+   ],
+   "p1": "Esta ficha mezcla en una sola hoja todo lo trabajado: horas en punto, horas y media, cuartos y minutos de cinco en cinco, sin avisar de cuál toca en cada tarjeta. El niño lee la etiqueta digital, decide qué tipo de hora tiene delante y dibuja las dos agujas en la esfera vacía, con la corta colocada según lo avanzada que esté la hora. Cuatro relojes que ya no siguen ningún patrón previsible.",
+   "p2": "En clase, esta hoja funciona como termómetro más que como práctica. Cuando cada tipo de hora se entrena por separado, el niño acierta por inercia: sabe que hoy toca poner la larga en el 6 y ni siquiera mira la etiqueta. Al mezclarlas, esa inercia desaparece y lo que queda es comprensión real o su ausencia. Los fallos son además muy informativos: si todos se concentran en la aguja corta, falta trabajo de horas y media; si se atascan los minutos raros, hay que volver al contar de cinco en cinco.",
+   "p3": "Descarga la ficha gratis en PDF y úsala como cierre de la unidad del tiempo, o como repaso al volver de vacaciones. Si algún reloj se resiste, la hoja de dibujar las agujas y media o la de los cuartos de hora son el lugar exacto al que regresar. Para seguir midiendo el mundo, la ficha de capacidad y masa cambia de magnitud sin cambiar de destreza: leer una escala con atención.",
+   "canonicalDeckSlug": "aprender-la-hora-g1237",
+   "carousel": [
+    {
+     "label": "Dibujar las agujas del reloj: solo horas en punto",
+     "href": "dibujar-las-agujas-en-punto"
+    },
+    {
+     "label": "Dibujar las agujas del reloj: las horas y media",
+     "href": "dibujar-las-agujas-y-media"
+    },
+    {
+     "label": "Dibujar las agujas: y cuarto y menos cuarto",
+     "href": "dibujar-las-agujas-y-cuarto"
+    },
+    {
+     "label": "Dibujar las agujas de 5 en 5 minutos",
+     "href": "dibujar-las-agujas-de-5-en-5"
+    }
+   ],
+   "title": "Repaso de las horas del reloj 1.º | para imprimir PDF",
+   "metaDescription": "Repaso del reloj para 1.º: cuatro esferas vacías con horas en punto, y media, cuartos y minutos mezclados para dibujar las agujas. PDF gratis."
+  },
+  {
+   "slug": "problemas-de-sumas-con-dibujos",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Ficha de problemas",
+   "h1": "Problemas de sumas con dibujos de frutas",
+   "strand": "Resolución de problemas",
+   "standard": "1.OA.A.1",
+   "slotTokens": [
+    "problemas-de-suma-y-resta",
+    "frutas",
+    "primer-grado"
+   ],
+   "p1": "En esta ficha todas las historias piden lo mismo: juntar. Son problemas de sumas protagonizados por frutas —manzanas, fresas, plátanos— con su escena dibujada y, debajo, una tira de iconos que repite la operación en imágenes para poder contarla. El niño lee el enunciado, se apoya en los dibujos, hace la cuenta en el panel de cuadrícula de puntos y escribe el resultado en la casilla. Al no haber restas por medio, el trabajo se concentra en entender lo que cuenta la historia.",
+   "p2": "Que todos los problemas sean de suma tiene una ventaja y un riesgo, y merece la pena conocer los dos. La ventaja es que el niño puede dedicar toda su energía a comprender el enunciado en lugar de a elegir operación. El riesgo es el automatismo: si nunca hay que decidir, se acaba sumando sin leer. Por eso conviene pedir siempre que cuente con sus palabras qué ha pasado en la historia antes de escribir nada, y usar esta hoja como paso intermedio, nunca como dieta única.",
+   "p3": "Imprime la ficha gratis en PDF y léela en voz alta la primera vez. Los problemas de restas con dibujos son su pareja exacta, y la hoja de problemas hasta 10 baja los números cuando el texto ya cuesta bastante por sí solo. Inventar entre los dos un problema nuevo con las mismas frutas, al terminar, vale por media hoja más.",
+   "canonicalDeckSlug": "problemas-de-suma-y-resta-frutas-g1238",
+   "carousel": [
+    {
+     "label": "Problemas de restas con dibujos de frutas",
+     "href": "problemas-de-restas-con-dibujos"
+    },
+    {
+     "label": "Problemas de sumas y restas hasta 10 con dibujos",
+     "href": "problemas-hasta-10"
+    },
+    {
+     "label": "Tres problemas con dibujos en una sola hoja",
+     "href": "tres-problemas-con-dibujos"
+    },
+    {
+     "label": "Problemas de suma y resta con dibujos de animales",
+     "href": "problemas-con-dibujos-de-animales"
+    }
+   ],
+   "title": "Problemas de sumas con dibujos | para imprimir PDF",
+   "metaDescription": "Problemas de sumas con dibujos de frutas: historias cortas con tira de iconos y cuadrícula para calcular y escribir la respuesta. Ficha en PDF gratis."
+  },
+  {
+   "slug": "problemas-de-restas-con-dibujos",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Ficha de problemas",
+   "h1": "Problemas de restas con dibujos de frutas",
+   "strand": "Resolución de problemas",
+   "standard": "1.OA.A.1",
+   "slotTokens": [
+    "problemas-de-suma-y-resta",
+    "frutas",
+    "primer-grado"
+   ],
+   "p1": "Todas las historias de esta ficha terminan en resta: alguien se come, regala, pierde o tiene menos fruta que otro. Cada problema trae su escena dibujada y una tira de iconos debajo que permite contar la situación en imágenes. El niño lee el enunciado, decide cuántas frutas quedan, hace la cuenta en el panel de cuadrícula de puntos y escribe la respuesta en su casilla, con el número acompañado de lo que representa.",
+   "p2": "La resta no es una sola idea, sino tres que llegan mezcladas en los enunciados de primero: quitar algo de un conjunto, comparar dos cantidades para ver cuántas hay de diferencia y averiguar cuánto falta para llegar a un total. Las tres se resuelven con la misma cuenta, pero se imaginan de forma muy distinta, y ahí está la dificultad real de estos problemas: el niño que solo ha visto restas de quitar se bloquea ante un cuántos más tiene. Trabajarlas juntas, con los dibujos delante, es lo que evita ese bloqueo.",
+   "p3": "La ficha se imprime gratis en PDF y admite muy bien resolverla dibujando encima. Después de los problemas de sumas con dibujos, esta hoja completa el par; y la ficha de problemas con dibujos de animales vuelve a mezclar ambas operaciones en otro escenario. Tachar en la tira de iconos las frutas que desaparecen hace visible la resta antes de escribirla.",
+   "canonicalDeckSlug": "problemas-de-suma-y-resta-frutas-g1239",
+   "carousel": [
+    {
+     "label": "Problemas de sumas y restas hasta 10 con dibujos",
+     "href": "problemas-hasta-10"
+    },
+    {
+     "label": "Tres problemas con dibujos en una sola hoja",
+     "href": "tres-problemas-con-dibujos"
+    },
+    {
+     "label": "Problemas de suma y resta con dibujos de animales",
+     "href": "problemas-con-dibujos-de-animales"
+    },
+    {
+     "label": "Problemas de sumas con dibujos de frutas",
+     "href": "problemas-de-sumas-con-dibujos"
+    }
+   ],
+   "title": "Problemas de restas con dibujos | para imprimir PDF",
+   "metaDescription": "Problemas de restas con dibujos de frutas: historias de quitar y comparar con tira de iconos y cuadrícula de trabajo. Ficha de 1.º en PDF gratis."
+  },
+  {
+   "slug": "problemas-hasta-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Ficha de problemas",
+   "h1": "Problemas de sumas y restas hasta 10 con dibujos",
+   "strand": "Resolución de problemas",
+   "standard": "1.OA.A.1",
+   "slotTokens": [
+    "problemas-de-suma-y-resta",
+    "frutas",
+    "primer-grado"
+   ],
+   "p1": "Todos los números de esta ficha se quedan por debajo del diez. Son problemas cortos de sumar y restar con dibujos de frutas, con su tira de iconos debajo de cada escena y el panel de cuadrícula de puntos para trabajar. El niño lee la historia, se apoya en las imágenes si lo necesita y escribe la respuesta en la casilla. Cantidades tan pequeñas que casi siempre se pueden comprobar contando con el dedo sobre los propios dibujos.",
+   "p2": "Bajar el rango numérico es la mejor manera de dejar a la vista dónde está de verdad la dificultad. En un problema, el niño tiene que hacer dos cosas a la vez: comprender lo que le cuentan y calcular; si el cálculo consume toda su atención, la comprensión se queda sin sitio y aparece el clásico sumar todos los números que salgan. Con cantidades hasta diez, calcular deja de ser un obstáculo y el niño puede dedicarse a lo que esta ficha entrena en realidad: entender la historia.",
+   "p3": "Descarga la ficha gratis en PDF; es un buen punto de partida en cuanto empiezan los problemas escritos. Cuando el enunciado ya no asuste, los problemas de sumas con dibujos y los de restas suben el listón por separado, y la hoja de tres problemas con dibujos añade cantidad. Contar las frutas de la tira en voz alta antes de escribir es un hábito que ahorra muchos errores.",
+   "canonicalDeckSlug": "problemas-de-suma-y-resta-frutas-g1240",
+   "carousel": [
+    {
+     "label": "Tres problemas con dibujos en una sola hoja",
+     "href": "tres-problemas-con-dibujos"
+    },
+    {
+     "label": "Problemas de suma y resta con dibujos de animales",
+     "href": "problemas-con-dibujos-de-animales"
+    },
+    {
+     "label": "Problemas de sumas con dibujos de frutas",
+     "href": "problemas-de-sumas-con-dibujos"
+    },
+    {
+     "label": "Problemas de restas con dibujos de frutas",
+     "href": "problemas-de-restas-con-dibujos"
+    }
+   ],
+   "title": "Problemas de sumas y restas hasta 10 | para imprimir PDF",
+   "metaDescription": "Problemas hasta 10 con dibujos de frutas: enunciados cortos con números pequeños, tira de iconos y casilla de respuesta. Ficha de 1.º en PDF gratis."
+  },
+  {
+   "slug": "tres-problemas-con-dibujos",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Ficha de problemas",
+   "h1": "Tres problemas con dibujos en una sola hoja",
+   "strand": "Resolución de problemas",
+   "standard": "1.OA.A.1",
+   "slotTokens": [
+    "problemas-de-suma-y-resta",
+    "frutas",
+    "primer-grado"
+   ],
+   "p1": "Esta ficha aprieta tres problemas en la misma hoja en lugar de dos. Los enunciados son de suma y de resta, con frutas como protagonistas, y cada uno conserva su escena dibujada y su tira de iconos, aunque en formato más compacto para que quepan los tres. El niño resuelve uno detrás de otro, usa la cuadrícula de puntos para las cuentas y escribe cada respuesta en su casilla. Una historia más de lo habitual, y eso cambia la hoja más de lo que parece.",
+   "p2": "El tercer problema es un ejercicio de resistencia, no de dificultad. Muchos niños de primero resuelven bien un problema, aceptablemente el segundo y abandonan la lectura en el tercero: leen por encima, buscan números y operan al azar. Esta ficha existe justamente para entrenar ese tramo final, que es el que decide cómo irá una prueba de varias páginas. Conviene dejarla para un momento de energía, no para el último rato de la tarde, y valorar en voz alta el esfuerzo de haber leído los tres enunciados enteros.",
+   "p3": "Imprime la ficha gratis en PDF y déjala como cierre semanal de la resolución de problemas. Si la lectura se atasca, la hoja de problemas hasta 10 alivia el cálculo, y los problemas con dibujos de animales cambian de escenario para que la práctica no se vuelva rutina. Marcar con lápiz la pregunta de cada enunciado antes de calcular ordena mucho el trabajo.",
+   "canonicalDeckSlug": "problemas-de-suma-y-resta-frutas-g1241",
+   "carousel": [
+    {
+     "label": "Problemas de suma y resta con dibujos de animales",
+     "href": "problemas-con-dibujos-de-animales"
+    },
+    {
+     "label": "Problemas de sumas con dibujos de frutas",
+     "href": "problemas-de-sumas-con-dibujos"
+    },
+    {
+     "label": "Problemas de restas con dibujos de frutas",
+     "href": "problemas-de-restas-con-dibujos"
+    },
+    {
+     "label": "Problemas de sumas y restas hasta 10 con dibujos",
+     "href": "problemas-hasta-10"
+    }
+   ],
+   "title": "Tres problemas con dibujos – 1.º | para imprimir PDF",
+   "metaDescription": "Tres problemas con dibujos de frutas en una hoja: enunciados compactos de suma y resta con iconos y casilla de respuesta. Ficha de 1.º en PDF gratis."
+  },
+  {
+   "slug": "problemas-con-dibujos-de-animales",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "animals",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Ficha de problemas",
+   "h1": "Problemas de suma y resta con dibujos de animales",
+   "strand": "Resolución de problemas",
+   "standard": "1.OA.A.1",
+   "slotTokens": [
+    "problemas-de-suma-y-resta",
+    "animales",
+    "primer-grado"
+   ],
+   "p1": "Esta edición de la ficha de problemas cambia la fruta por los animales: patos, gatos, elefantes y compañía protagonizan dos historias cortas de suma y resta. Cada problema llega con su escena dibujada y, debajo, una tira de iconos que vuelve a contar la operación en imágenes, animal a animal. El niño lee el enunciado, se apoya en los dibujos, calcula en el panel de cuadrícula de puntos y escribe la respuesta en la casilla correspondiente.",
+   "p2": "Cambiar el contexto de un problema no es un adorno: es una comprobación. Un niño puede resolver diez hojas de frutas y estar respondiendo de memoria a un formato conocido más que a la historia que lee. Cuando los mismos números aparecen con animales, se ve enseguida si la comprensión viaja o se queda pegada al escenario original. Además, los animales suelen enganchar más a esta edad, y un enunciado que apetece leer se lee entero, que es la mitad del trabajo en resolución de problemas.",
+   "p3": "La ficha se imprime gratis en PDF y funciona muy bien alternada con la versión de frutas. Los problemas de sumas con dibujos y los de restas separan las operaciones cuando conviene aislar una, y la hoja de tres problemas con dibujos añade una historia más. Preguntar al final «¿te lo has imaginado?» revela más que revisar el resultado.",
+   "canonicalDeckSlug": "problemas-de-suma-y-resta-animales-g1213",
+   "carousel": [
+    {
+     "label": "Problemas de sumas con dibujos de frutas",
+     "href": "problemas-de-sumas-con-dibujos"
+    },
+    {
+     "label": "Problemas de restas con dibujos de frutas",
+     "href": "problemas-de-restas-con-dibujos"
+    },
+    {
+     "label": "Problemas de sumas y restas hasta 10 con dibujos",
+     "href": "problemas-hasta-10"
+    },
+    {
+     "label": "Tres problemas con dibujos en una sola hoja",
+     "href": "tres-problemas-con-dibujos"
+    }
+   ],
+   "title": "Problemas con dibujos de animales | para imprimir PDF",
+   "metaDescription": "Problemas de suma y resta con dibujos de animales: dos historias con escena, tira de iconos y cuadrícula de trabajo. Ficha de 1.º en PDF gratis."
+  },
+  {
+   "slug": "sumas-sin-llevar-de-dos-cifras",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "segundo-grado"
+   },
+   "eyebrow": "Cálculo en columnas",
+   "h1": "Sumas sin llevar de dos cifras en columnas",
+   "strand": "Cálculo escrito",
+   "standard": "2.NBT.B.5",
+   "slotTokens": [
+    "sumas-y-restas-en-columna",
+    "segundo-grado"
+   ],
+   "p1": "Esta ficha contiene solo sumas, todas de dos cifras y todas sin llevar: 34 más 25, 51 más 16. Las seis operaciones vienen montadas sobre casillas de valor posicional, una columna para las unidades y otra para las decenas, con cada cifra en su lugar exacto. El niño suma primero la columna de la derecha, escribe ese resultado en su casilla, pasa a las decenas y anota el total debajo de la raya. Nada se desborda, nada viaja de columna.",
+   "p2": "Ninguna suma de esta hoja pasa de nueve en la columna de las unidades, y eso está calculado. Es la primera vez que el niño escribe una operación en vertical, y el aprendizaje real de esta ficha no está en el resultado sino en la coreografía: colocar las cifras alineadas, empezar por la derecha, resolver cada columna como si fuera una suma independiente y bajar el resultado a su casilla. Cuando ese gesto se automatiza sin la complicación añadida de las llevadas, el algoritmo completo llega después sin sustos.",
+   "p3": "Descarga la ficha gratis en PDF y deja que el método se convierta en costumbre. Las restas sin llevar de dos cifras presentan la operación hermana con la misma estructura, y las sumas sin llevar de tres cifras estiran el procedimiento una columna más. Leer el resultado completo en voz alta —cincuenta y nueve, no cinco nueve— confirma de paso que el valor posicional se ha entendido.",
+   "canonicalDeckSlug": "sumas-y-restas-en-columna-g2255",
+   "carousel": [
+    {
+     "label": "Restas sin llevar de dos cifras en columnas",
+     "href": "restas-sin-llevar-de-dos-cifras"
+    },
+    {
+     "label": "Sumas y restas de tres cifras sin llevar",
+     "href": "sumas-y-restas-de-tres-cifras-sin-llevar"
+    },
+    {
+     "label": "Sumas sin llevar de tres cifras: entra la centena",
+     "href": "sumas-sin-llevar-de-tres-cifras"
+    },
+    {
+     "label": "Repaso de cuentas sin llevar: dos y tres cifras",
+     "href": "repaso-de-cuentas-sin-llevar"
+    }
+   ],
+   "title": "Sumas sin llevar de dos cifras | para imprimir PDF",
+   "metaDescription": "Sumas sin llevar de dos cifras: seis operaciones en columnas con casillas de valor posicional para unidades y decenas. Ficha de 2.º en PDF gratis."
+  },
+  {
+   "slug": "restas-sin-llevar-de-dos-cifras",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "segundo-grado"
+   },
+   "eyebrow": "Cálculo en columnas",
+   "h1": "Restas sin llevar de dos cifras en columnas",
+   "strand": "Cálculo escrito",
+   "standard": "2.NBT.B.5",
+   "slotTokens": [
+    "sumas-y-restas-en-columna",
+    "segundo-grado"
+   ],
+   "p1": "Aquí solo hay restas de dos cifras, y en ninguna hace falta pedir prestado: la cifra de arriba siempre puede con la de abajo, tanto en las unidades como en las decenas. Las seis operaciones están escritas en columnas sobre casillas de valor posicional. El niño resta primero las unidades, escribe la diferencia en su casilla, pasa a las decenas y completa el resultado bajo la raya, con las cifras bien alineadas.",
+   "p2": "La resta escrita tiene una trampa que la suma no tiene: no da igual el orden. En cada columna hay que quitar la cifra de abajo a la de arriba, y no al revés, aunque la de abajo sea mayor. Como en esta hoja eso nunca ocurre, el niño puede instalar el orden correcto sin que el préstamo lo distraiga, y llegará mucho mejor preparado al día en que sí ocurra: en ese momento sabrá que el problema no se arregla dando la vuelta a las cifras. Restar de arriba abajo, siempre.",
+   "p3": "Imprime la ficha gratis en PDF y comprueba los resultados sumando al revés: la diferencia más el número de abajo debe devolver el de arriba. Las sumas sin llevar de dos cifras son su pareja natural, y cuando el préstamo entre en escena, las restas con llevadas continúan justo donde esta hoja termina.",
+   "canonicalDeckSlug": "sumas-y-restas-en-columna-g2256",
+   "carousel": [
+    {
+     "label": "Sumas y restas de tres cifras sin llevar",
+     "href": "sumas-y-restas-de-tres-cifras-sin-llevar"
+    },
+    {
+     "label": "Sumas sin llevar de tres cifras: entra la centena",
+     "href": "sumas-sin-llevar-de-tres-cifras"
+    },
+    {
+     "label": "Repaso de cuentas sin llevar: dos y tres cifras",
+     "href": "repaso-de-cuentas-sin-llevar"
+    },
+    {
+     "label": "Sumas sin llevar de dos cifras en columnas",
+     "href": "sumas-sin-llevar-de-dos-cifras"
+    }
+   ],
+   "title": "Restas sin llevar de dos cifras | para imprimir PDF",
+   "metaDescription": "Restas sin llevar de dos cifras: seis operaciones en columnas con casillas de valor posicional, sin pedir prestado. Ficha de 2.º en PDF gratis."
+  },
+  {
+   "slug": "sumas-y-restas-de-tres-cifras-sin-llevar",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "segundo-grado"
+   },
+   "eyebrow": "Cálculo en columnas",
+   "h1": "Sumas y restas de tres cifras sin llevar",
+   "strand": "Cálculo escrito",
+   "standard": "2.NBT.B.7",
+   "slotTokens": [
+    "sumas-y-restas-en-columna",
+    "segundo-grado"
+   ],
+   "p1": "Esta ficha mezcla sumas y restas, todas de tres cifras y ninguna con llevada. Cada operación ocupa tres columnas de casillas —unidades, decenas y centenas— y el signo cambia de una a otra, así que lo primero que hay que hacer en cada cuenta es mirarlo. El niño resuelve columna a columna empezando por las unidades y escribe cada cifra del resultado en su casilla, hasta completar los seis cálculos de la hoja.",
+   "p2": "Mezclar los dos signos añade una decisión pequeña pero decisiva antes de cada operación. Practicadas por separado, las sumas y las restas salen en piloto automático; juntas, obligan a leer la cuenta antes de lanzarse, que es exactamente lo que después pedirá cualquier examen y cualquier problema. Y al hacerlo con tres cifras, la centena entra en juego como una columna más: el niño descubre que el método no cambia por añadir posiciones, solo se alarga. Esa idea es la que hace escalable todo el cálculo escrito.",
+   "p3": "La ficha se imprime gratis en PDF y sirve muy bien como control rápido de mitad de tema. Las sumas sin llevar de tres cifras aíslan la operación si la mezcla resulta todavía confusa, y el repaso de cuentas sin llevar reúne los dos tamaños de número en una sola hoja. Revisar que la coma de las columnas esté recta evita la mitad de los errores de esta edad.",
+   "canonicalDeckSlug": "sumas-y-restas-en-columna-g2257",
+   "carousel": [
+    {
+     "label": "Sumas sin llevar de tres cifras: entra la centena",
+     "href": "sumas-sin-llevar-de-tres-cifras"
+    },
+    {
+     "label": "Repaso de cuentas sin llevar: dos y tres cifras",
+     "href": "repaso-de-cuentas-sin-llevar"
+    },
+    {
+     "label": "Sumas sin llevar de dos cifras en columnas",
+     "href": "sumas-sin-llevar-de-dos-cifras"
+    },
+    {
+     "label": "Restas sin llevar de dos cifras en columnas",
+     "href": "restas-sin-llevar-de-dos-cifras"
+    }
+   ],
+   "title": "Sumas y restas de tres cifras sin llevar | para imprimir PDF",
+   "metaDescription": "Sumas y restas de tres cifras sin llevar: seis operaciones mezcladas en columnas con unidades, decenas y centenas. Ficha de 2.º en PDF gratis."
+  },
+  {
+   "slug": "sumas-sin-llevar-de-tres-cifras",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "segundo-grado"
+   },
+   "eyebrow": "Cálculo en columnas",
+   "h1": "Sumas sin llevar de tres cifras: entra la centena",
+   "strand": "Cálculo escrito",
+   "standard": "2.NBT.B.7",
+   "slotTokens": [
+    "sumas-y-restas-en-columna",
+    "segundo-grado"
+   ],
+   "p1": "Las seis operaciones de esta ficha son sumas de tres cifras sin llevada: 342 más 215, 506 más 273. Cada una se escribe sobre tres columnas de casillas de valor posicional, con las centenas a la izquierda, las decenas en medio y las unidades a la derecha. El niño suma columna a columna de derecha a izquierda y va escribiendo cada cifra del total en su sitio, sin que ninguna columna se desborde en ningún momento.",
+   "p2": "El salto a las tres cifras es sobre todo un salto de lectura del número. Un niño puede sumar 342 más 215 perfectamente y a la vez no tener ni idea de qué tamaño tiene el resultado, porque los números de tres cifras aún se le presentan como filas de dígitos sueltos. Conviene aprovechar la hoja para nombrar en voz alta lo que se está sumando —trescientos más doscientos son quinientos— y así unir el algoritmo con el sentido numérico, que es lo que después permite detectar un resultado imposible de un vistazo.",
+   "p3": "Imprime la ficha gratis en PDF y añade una estimación rápida antes de cada cuenta. Viene de las sumas sin llevar de dos cifras y desemboca en las sumas y restas de tres cifras sin llevar, donde el signo ya no está garantizado. Cuando las llevadas lleguen, las sumas con llevadas de tres cifras retomarán este mismo formato de columnas.",
+   "canonicalDeckSlug": "sumas-y-restas-en-columna-g2258",
+   "carousel": [
+    {
+     "label": "Repaso de cuentas sin llevar: dos y tres cifras",
+     "href": "repaso-de-cuentas-sin-llevar"
+    },
+    {
+     "label": "Sumas sin llevar de dos cifras en columnas",
+     "href": "sumas-sin-llevar-de-dos-cifras"
+    },
+    {
+     "label": "Restas sin llevar de dos cifras en columnas",
+     "href": "restas-sin-llevar-de-dos-cifras"
+    },
+    {
+     "label": "Sumas y restas de tres cifras sin llevar",
+     "href": "sumas-y-restas-de-tres-cifras-sin-llevar"
+    }
+   ],
+   "title": "Sumas sin llevar de tres cifras | para imprimir PDF",
+   "metaDescription": "Sumas sin llevar de tres cifras: seis operaciones en columnas con casillas de unidades, decenas y centenas. Ficha de 2.º de primaria en PDF gratis."
+  },
+  {
+   "slug": "repaso-de-cuentas-sin-llevar",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "segundo-grado"
+   },
+   "eyebrow": "Cálculo en columnas",
+   "h1": "Repaso de cuentas sin llevar: dos y tres cifras",
+   "strand": "Cálculo escrito",
+   "standard": "2.NBT.B.5",
+   "slotTokens": [
+    "sumas-y-restas-en-columna",
+    "segundo-grado"
+   ],
+   "p1": "Esta hoja reúne todo lo anterior: sumas y restas mezcladas, unas de dos cifras y otras de tres, ninguna con llevada. Las operaciones se presentan en columnas sobre casillas de valor posicional, y el ancho cambia de una a otra, de modo que el niño tiene que fijarse en cuántas columnas ocupa cada cuenta antes de empezar. Lee el signo, resuelve de derecha a izquierda y escribe el resultado alineado debajo de la raya.",
+   "p2": "En clase, esta ficha se usa como diagnóstico previo a las llevadas más que como práctica. Antes de introducir el préstamo y el uno que viaja, conviene comprobar que la base está limpia: cifras alineadas, orden de derecha a izquierda, signo leído, resultado en su casilla. Si algo de eso falla aquí, con cuentas fáciles, fallará mucho más cuando el algoritmo se complique, y el error se atribuirá por equivocación a las llevadas. Media hoja de repaso ahorra semanas de confusión posterior.",
+   "p3": "Descarga la ficha gratis en PDF y guarda el resultado como punto de partida del siguiente tema. Si alguna cuenta se resiste, las sumas sin llevar de dos cifras y las restas sin llevar de dos cifras son el sitio al que volver; si todo sale limpio, las sumas con llevadas de dos cifras abren el escalón siguiente del cálculo escrito.",
+   "canonicalDeckSlug": "sumas-y-restas-en-columna-g2259",
+   "carousel": [
+    {
+     "label": "Sumas sin llevar de dos cifras en columnas",
+     "href": "sumas-sin-llevar-de-dos-cifras"
+    },
+    {
+     "label": "Restas sin llevar de dos cifras en columnas",
+     "href": "restas-sin-llevar-de-dos-cifras"
+    },
+    {
+     "label": "Sumas y restas de tres cifras sin llevar",
+     "href": "sumas-y-restas-de-tres-cifras-sin-llevar"
+    },
+    {
+     "label": "Sumas sin llevar de tres cifras: entra la centena",
+     "href": "sumas-sin-llevar-de-tres-cifras"
+    }
+   ],
+   "title": "Repaso de cuentas sin llevar – 2.º | para imprimir PDF",
+   "metaDescription": "Repaso de cuentas sin llevar: sumas y restas mezcladas de dos y tres cifras en columnas, con casillas de valor posicional. Ficha de 2.º en PDF gratis."
+  },
+  {
+   "slug": "leer-jarras-medidoras-ml",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "measurement",
+    "mode": null,
+    "theme": "",
+    "level": "segundo-grado"
+   },
+   "eyebrow": "Ficha de medida",
+   "h1": "Leer jarras medidoras: cuántos mililitros hay",
+   "strand": "Medida",
+   "standard": "3.MD.A.2",
+   "slotTokens": [
+    "medicion",
+    "segundo-grado"
+   ],
+   "p1": "Esta ficha se dedica por entero a la capacidad: seis jarras medidoras, sin balanzas de por medio, llenas de líquido hasta niveles distintos. Cada jarra lleva su escala graduada en mililitros dibujada en el lateral, y el niño debe leer hasta dónde llega el líquido y escribir la cantidad con su unidad: tantos ml. Seis lecturas seguidas del mismo instrumento, para que la mirada se acostumbre a buscar siempre la raya donde termina el líquido.",
+   "p2": "Leer una escala no es contar, y esa diferencia se aprende con repetición del mismo instrumento. Hay que localizar la superficie del líquido, ver entre qué dos números cae y averiguar cuánto vale cada raya intermedia, que casi nunca es de uno en uno. Ese último paso es donde tropiezan la mayoría de los niños de segundo: leen la rayita como si valiera una unidad. Trabajar seis jarras seguidas permite descubrir la regla en la primera y aplicarla con seguridad en las cinco siguientes.",
+   "p3": "Imprime la ficha gratis en PDF y ten a mano una jarra de cocina de verdad; comparar ambas escalas es media clase de medida. La hoja de la balanza en gramos trabaja la otra magnitud con el mismo gesto, y las jarras grandes hasta 2000 ml suben el rango de la escala. Servir agua hasta una cantidad pedida convierte la lectura en acción.",
+   "canonicalDeckSlug": "medicion-g2260",
+   "carousel": [
+    {
+     "label": "Leer la balanza en gramos: cuánto pesa cada vehículo",
+     "href": "leer-la-balanza-en-gramos"
+    },
+    {
+     "label": "Escalas finas: leer marcas de 50 en 50",
+     "href": "escalas-con-marcas-de-50-ml"
+    },
+    {
+     "label": "Jarras medidoras grandes: leer hasta 2000 ml",
+     "href": "jarras-medidoras-hasta-2000-ml"
+    },
+    {
+     "label": "Capacidad y masa con animales en la balanza",
+     "href": "capacidad-y-masa-con-animales"
+    }
+   ],
+   "title": "Leer jarras medidoras en ml | para imprimir PDF",
+   "metaDescription": "Leer jarras medidoras en mililitros: seis jarras llenas hasta distintos niveles para leer la escala y escribir la cantidad. Ficha de 2.º en PDF gratis."
+  },
+  {
+   "slug": "leer-la-balanza-en-gramos",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "measurement",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "segundo-grado"
+   },
+   "eyebrow": "Ficha de medida",
+   "h1": "Leer la balanza en gramos: cuánto pesa cada vehículo",
+   "strand": "Medida",
+   "standard": "3.MD.A.2",
+   "slotTokens": [
+    "medicion",
+    "vehiculos",
+    "segundo-grado"
+   ],
+   "p1": "Toda la hoja es de balanzas: seis, sin ninguna jarra, cada una con un vehículo sobre el platillo —un camión, un coche, una moto, un autobús— y su aguja marcando una posición distinta en la escala. El niño lee dónde señala la aguja y escribe cuántos gramos pesa el objeto, con la unidad al lado. Seis pesadas seguidas del mismo tipo de instrumento, cambiando solo el vehículo y la cantidad.",
+   "p2": "El vocabulario de esta magnitud merece cuidado desde segundo. En el lenguaje de casa todo pesa, pero lo que la balanza mide es la masa, y la unidad es el gramo; conviene ir usando las dos palabras con naturalidad, sin convertirlo en una lección de física. Igual de útil es construir referencias: un paquete de galletas ronda los doscientos gramos, un litro de leche pasa del kilo. Con esas anclas, el niño detecta enseguida cuándo una lectura suya es imposible, que es la mejor forma de corregirse solo.",
+   "p3": "La ficha se imprime gratis en PDF y pide a gritos una balanza de cocina al lado. Las jarras medidoras en mililitros son la hoja gemela para la capacidad, y la ficha de escalas con marcas de 50 ml afina la lectura de ambos instrumentos. Pesar dos objetos de casa y ordenarlos antes de mirar el número entrena la estimación.",
+   "canonicalDeckSlug": "medicion-vehiculos-g2261",
+   "carousel": [
+    {
+     "label": "Escalas finas: leer marcas de 50 en 50",
+     "href": "escalas-con-marcas-de-50-ml"
+    },
+    {
+     "label": "Jarras medidoras grandes: leer hasta 2000 ml",
+     "href": "jarras-medidoras-hasta-2000-ml"
+    },
+    {
+     "label": "Capacidad y masa con animales en la balanza",
+     "href": "capacidad-y-masa-con-animales"
+    },
+    {
+     "label": "Leer jarras medidoras: cuántos mililitros hay",
+     "href": "leer-jarras-medidoras-ml"
+    }
+   ],
+   "title": "Leer la balanza en gramos | para imprimir PDF",
+   "metaDescription": "Leer la balanza en gramos: seis balanzas con vehículos en los platillos para interpretar la escala y escribir la masa en g. Ficha de 2.º en PDF gratis."
+  },
+  {
+   "slug": "escalas-con-marcas-de-50-ml",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "measurement",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "segundo-grado"
+   },
+   "eyebrow": "Ficha de medida",
+   "h1": "Escalas finas: leer marcas de 50 en 50",
+   "strand": "Medida",
+   "standard": "3.MD.A.2",
+   "slotTokens": [
+    "medicion",
+    "vehiculos",
+    "segundo-grado"
+   ],
+   "p1": "Esta ficha mezcla jarras medidoras y balanzas con vehículos, pero con una diferencia importante: la graduación es mucho más fina. Entre número y número aparecen marcas intermedias que van de cincuenta en cincuenta, de modo que el nivel del líquido o la aguja de la balanza caen muchas veces en una rayita sin número escrito. El niño tiene que averiguar cuánto vale esa marca y escribir la cantidad exacta con su unidad, ml o g.",
+   "p2": "Aquí está el corazón de toda lectura de instrumentos: interpretar las divisiones que nadie ha numerado. El razonamiento es siempre el mismo —si entre el 200 y el 300 hay una sola raya, esa raya vale 250— y una vez comprendido sirve para el termómetro, la regla, el vaso medidor y el velocímetro del coche. Es también el punto en el que la medida se cruza con el conteo salteado: leer estas escalas es contar de cincuenta en cincuenta con los ojos, y quien no tenga esa serie automatizada irá a ciegas.",
+   "p3": "Descarga la ficha gratis en PDF y pide que señale con el dedo las rayas mientras cuenta. Viene de las jarras medidoras en mililitros y de la balanza en gramos, donde cada instrumento se trabajó por separado, y desemboca en las jarras grandes hasta 2000 ml, que llevan la misma lectura a números mayores.",
+   "canonicalDeckSlug": "medicion-vehiculos-g2262",
+   "carousel": [
+    {
+     "label": "Jarras medidoras grandes: leer hasta 2000 ml",
+     "href": "jarras-medidoras-hasta-2000-ml"
+    },
+    {
+     "label": "Capacidad y masa con animales en la balanza",
+     "href": "capacidad-y-masa-con-animales"
+    },
+    {
+     "label": "Leer jarras medidoras: cuántos mililitros hay",
+     "href": "leer-jarras-medidoras-ml"
+    },
+    {
+     "label": "Leer la balanza en gramos: cuánto pesa cada vehículo",
+     "href": "leer-la-balanza-en-gramos"
+    }
+   ],
+   "title": "Escalas con marcas de 50 ml | para imprimir PDF",
+   "metaDescription": "Escalas con marcas pequeñas: jarras y balanzas graduadas de 50 en 50 para leer con precisión y escribir la cantidad con su unidad. PDF gratis."
+  },
+  {
+   "slug": "jarras-medidoras-hasta-2000-ml",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "measurement",
+    "mode": null,
+    "theme": "",
+    "level": "segundo-grado"
+   },
+   "eyebrow": "Ficha de medida",
+   "h1": "Jarras medidoras grandes: leer hasta 2000 ml",
+   "strand": "Medida",
+   "standard": "3.MD.A.2",
+   "slotTokens": [
+    "medicion",
+    "segundo-grado"
+   ],
+   "p1": "Las seis jarras de esta ficha son grandes: su escala llega hasta los dos mil mililitros, así que las cantidades que hay que leer suben mucho más que en las hojas anteriores. El niño mira hasta dónde llega el líquido en cada jarra, interpreta la graduación y escribe la cantidad en mililitros. Aparecen números de cuatro cifras, con sus ceros al final, que hay que escribir completos y bien leídos.",
+   "p2": "Trabajar con números grandes es también trabajar el sentido de la magnitud. Mil quinientos mililitros es una cifra fácil de copiar y difícil de imaginar, y ahí es donde entra la relación que esta ficha deja preparada: mil mililitros son un litro, la botella grande de agua de la nevera. Cuando la jarra pasa del 1000, conviene decirlo en las dos formas —mil doscientos mililitros, un litro y doscientos— porque ese cambio de unidad es el contenido de medida que llegará justo después de esta hoja.",
+   "p3": "Imprime la ficha gratis en PDF y compárala con las botellas de casa, que traen su capacidad impresa. Es la continuación natural de las jarras medidoras en mililitros y de las escalas con marcas de 50 ml, y la ficha de capacidad y masa con animales vuelve a juntar los dos instrumentos cuando la lectura ya no ofrece dudas.",
+   "canonicalDeckSlug": "medicion-g2263",
+   "carousel": [
+    {
+     "label": "Capacidad y masa con animales en la balanza",
+     "href": "capacidad-y-masa-con-animales"
+    },
+    {
+     "label": "Leer jarras medidoras: cuántos mililitros hay",
+     "href": "leer-jarras-medidoras-ml"
+    },
+    {
+     "label": "Leer la balanza en gramos: cuánto pesa cada vehículo",
+     "href": "leer-la-balanza-en-gramos"
+    },
+    {
+     "label": "Escalas finas: leer marcas de 50 en 50",
+     "href": "escalas-con-marcas-de-50-ml"
+    }
+   ],
+   "title": "Jarras medidoras hasta 2000 ml | para imprimir PDF",
+   "metaDescription": "Jarras medidoras hasta 2000 ml: seis jarras grandes con la escala en mililitros para leer cantidades de cuatro cifras. Ficha de 2.º en PDF gratis."
+  },
+  {
+   "slug": "capacidad-y-masa-con-animales",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "measurement",
+    "mode": null,
+    "theme": "animals",
+    "level": "segundo-grado"
+   },
+   "eyebrow": "Ficha de medida",
+   "h1": "Capacidad y masa con animales en la balanza",
+   "strand": "Medida",
+   "standard": "3.MD.A.2",
+   "slotTokens": [
+    "medicion",
+    "animales",
+    "segundo-grado"
+   ],
+   "p1": "Esta edición de la ficha de medida pone animales sobre los platillos: un gato, un pato, un conejo esperando a que el niño averigüe su masa. Arriba de la hoja hay tres jarras medidoras con su escala en mililitros; abajo, tres balanzas con los animales encima y la aguja marcando su posición. En los seis casos hay que leer la escala y escribir la cantidad con su unidad correspondiente, ml para las jarras y g para las balanzas.",
+   "p2": "El cambio de objeto invita a una conversación que la versión de vehículos no provoca igual: ¿cuánto pesa de verdad un gato? Comparar la lectura de la hoja con lo que el niño cree saber de los animales activa la estimación, que es la otra mitad de la competencia de medir. Un resultado en gramos que suene raro para un elefante o para un pato lleva directamente a revisar la escala, y ese ir y venir entre el número leído y el sentido común es lo que convierte una lectura mecánica en medida comprendida.",
+   "p3": "La ficha se imprime gratis en PDF y funciona muy bien alternada con la edición de vehículos. Si conviene aislar una magnitud, las jarras medidoras en mililitros y la balanza en gramos la trabajan por separado, y los problemas con dibujos de animales continúan con los mismos protagonistas en otra área.",
+   "canonicalDeckSlug": "medicion-animales-g2252",
+   "carousel": [
+    {
+     "label": "Leer jarras medidoras: cuántos mililitros hay",
+     "href": "leer-jarras-medidoras-ml"
+    },
+    {
+     "label": "Leer la balanza en gramos: cuánto pesa cada vehículo",
+     "href": "leer-la-balanza-en-gramos"
+    },
+    {
+     "label": "Escalas finas: leer marcas de 50 en 50",
+     "href": "escalas-con-marcas-de-50-ml"
+    },
+    {
+     "label": "Jarras medidoras grandes: leer hasta 2000 ml",
+     "href": "jarras-medidoras-hasta-2000-ml"
+    }
+   ],
+   "title": "Capacidad y masa con animales | para imprimir PDF",
+   "metaDescription": "Capacidad y masa con animales: tres jarras medidoras en ml y tres balanzas con animales en el platillo para leer los gramos. PDF gratis para imprimir."
+  },
+  {
+   "slug": "simetria-en-cuadricula-facil",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "symmetry",
+    "mode": null,
+    "theme": "",
+    "level": "segundo-grado"
+   },
+   "eyebrow": "Ficha de simetría",
+   "h1": "Simetría en cuadrícula fácil: figuras sencillas",
+   "strand": "Geometría",
+   "slotTokens": [
+    "simetria",
+    "segundo-grado"
+   ],
+   "p1": "Las cuatro figuras de esta ficha son las más sencillas de la serie: dibujos de cuadraditos con pocas casillas coloreadas y formas compactas, fáciles de abarcar de un vistazo. Cada uno está a medias, con la línea coral marcando el eje, y el niño colorea al otro lado los cuadrados que faltan hasta que las dos mitades quedan idénticas. Poco que contar en cada fila y un resultado limpio en pocos minutos.",
+   "p2": "Empezar por figuras sencillas no es rebajar el contenido, es aislarlo. La idea que hay que instalar aquí es una sola: cada cuadrado pintado tiene su gemelo al otro lado del eje, a la misma distancia de la línea. Con figuras muy pobladas, el niño se pierde contando y el error de conteo tapa el concepto; con figuras pequeñas, la relación espejo queda a la vista fila por fila y se puede comprobar sin esfuerzo. Es la hoja ideal para la primera toma de contacto con la simetría en cuadrícula.",
+   "p3": "Imprime la ficha gratis en PDF y anima a colorear con cuidado, sin salirse de la casilla. Cuando estas figuras salgan sin dudar, la simetría en cuadrícula difícil aumenta el número de cuadrados, y la ficha de simetría con corazón y mariposa introduce dibujos reconocibles. Doblar la hoja por la línea coral y mirarla al trasluz comprueba el trabajo al instante.",
+   "canonicalDeckSlug": "simetria-g2264",
+   "carousel": [
+    {
+     "label": "Simetría en cuadrícula difícil: figuras con más detalle",
+     "href": "simetria-en-cuadricula-dificil"
+    },
+    {
+     "label": "Simetría: corazón, mariposa, muñeco de nieve y árbol",
+     "href": "simetria-corazon-y-mariposa"
+    },
+    {
+     "label": "Simetría: casa, corona, seta y manzana",
+     "href": "simetria-casa-y-corona"
+    },
+    {
+     "label": "Simetría con eje horizontal: colorea debajo de la línea",
+     "href": "simetria-con-eje-horizontal"
+    }
+   ],
+   "title": "Simetría en cuadrícula fácil | para imprimir PDF",
+   "metaDescription": "Simetría en cuadrícula fácil: cuatro figuras sencillas de pocos cuadrados para completar al otro lado del eje coral. Ficha de 2.º en PDF gratis."
+  },
+  {
+   "slug": "simetria-en-cuadricula-dificil",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "symmetry",
+    "mode": null,
+    "theme": "",
+    "level": "segundo-grado"
+   },
+   "eyebrow": "Ficha de simetría",
+   "h1": "Simetría en cuadrícula difícil: figuras con más detalle",
+   "strand": "Geometría",
+   "slotTokens": [
+    "simetria",
+    "segundo-grado"
+   ],
+   "p1": "Las figuras de esta ficha tienen bastantes más cuadrados coloreados y contornos irregulares, con entrantes y salientes que no se pueden reproducir de memoria. Cada dibujo aparece solo por una mitad, con su eje coral, y el niño debe completar el reflejo casilla a casilla hasta que las dos partes coincidan exactamente. Aquí ya no vale mirar y copiar la impresión general: hay que contar.",
+   "p2": "Cuando la figura se complica, aparece la necesidad de un método, y ese es el verdadero contenido de esta hoja. Los niños que van casilla suelta acaban con dibujos torcidos; los que trabajan fila por fila, contando desde el eje hacia fuera —una casilla a la izquierda, una casilla a la derecha— terminan sin errores. Merece la pena hacer explícita esa estrategia antes de empezar, porque es la misma que servirá después para copiar figuras en cuadrícula, hacer ampliaciones y leer coordenadas.",
+   "p3": "Descarga la ficha gratis en PDF y sugiere marcar con un punto la fila que se está reflejando. Llega después de la simetría en cuadrícula fácil y prepara para la simetría con eje horizontal, que es el caso realmente exigente de la serie. Revisar el resultado fila a fila, en lugar de mirar el dibujo entero, encuentra los fallos mucho más deprisa.",
+   "canonicalDeckSlug": "simetria-g2265",
+   "carousel": [
+    {
+     "label": "Simetría: corazón, mariposa, muñeco de nieve y árbol",
+     "href": "simetria-corazon-y-mariposa"
+    },
+    {
+     "label": "Simetría: casa, corona, seta y manzana",
+     "href": "simetria-casa-y-corona"
+    },
+    {
+     "label": "Simetría con eje horizontal: colorea debajo de la línea",
+     "href": "simetria-con-eje-horizontal"
+    },
+    {
+     "label": "Simetría en cuadrícula fácil: figuras sencillas",
+     "href": "simetria-en-cuadricula-facil"
+    }
+   ],
+   "title": "Simetría en cuadrícula difícil | para imprimir PDF",
+   "metaDescription": "Simetría en cuadrícula difícil: cuatro figuras con muchos cuadrados y contornos irregulares para reflejar al otro lado del eje coral. PDF gratis."
+  },
+  {
+   "slug": "simetria-corazon-y-mariposa",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "symmetry",
+    "mode": null,
+    "theme": "",
+    "level": "segundo-grado"
+   },
+   "eyebrow": "Ficha de simetría",
+   "h1": "Simetría: corazón, mariposa, muñeco de nieve y árbol",
+   "strand": "Geometría",
+   "slotTokens": [
+    "simetria",
+    "segundo-grado"
+   ],
+   "p1": "Los cuatro dibujos de esta ficha son figuras que el niño reconoce enseguida: un corazón, una mariposa, un muñeco de nieve y un árbol, todos construidos con cuadraditos. Cada uno está partido por la línea coral y solo tiene pintada una mitad; el niño colorea los cuadrados reflejados hasta que la figura aparece completa y se reconoce del todo. La mariposa, con sus alas, es el ejemplo más elocuente de la hoja.",
+   "p2": "Estas cuatro figuras no están elegidas al azar: son objetos que en la vida real también son simétricos. La mariposa es el ejemplo clásico de simetría en la naturaleza, y el corazón y el muñeco de nieve enseñan que muchas cosas que dibujamos las hacemos iguales por los dos lados casi sin pensarlo. Aprovechar la ficha para buscar más ejemplos alrededor —una hoja de árbol, una cara, la fachada de una casa— convierte un ejercicio de cuadrícula en una manera de mirar el mundo.",
+   "p3": "La ficha se imprime gratis en PDF y queda muy bien coloreada del todo para decorar la clase. La simetría en cuadrícula difícil entrena la precisión cuando la figura no ayuda tanto, y la ficha con casa y corona ofrece otro cuarteto reconocible. Dibujar en la parte de atrás una figura propia y pedir a otro que la refleje alarga la actividad.",
+   "canonicalDeckSlug": "simetria-g2266",
+   "carousel": [
+    {
+     "label": "Simetría: casa, corona, seta y manzana",
+     "href": "simetria-casa-y-corona"
+    },
+    {
+     "label": "Simetría con eje horizontal: colorea debajo de la línea",
+     "href": "simetria-con-eje-horizontal"
+    },
+    {
+     "label": "Simetría en cuadrícula fácil: figuras sencillas",
+     "href": "simetria-en-cuadricula-facil"
+    },
+    {
+     "label": "Simetría en cuadrícula difícil: figuras con más detalle",
+     "href": "simetria-en-cuadricula-dificil"
+    }
+   ],
+   "title": "Simetría: corazón y mariposa | para imprimir PDF",
+   "metaDescription": "Simetría en cuadrícula con corazón, mariposa, muñeco de nieve y árbol: cuatro figuras reconocibles para completar al otro lado del eje. PDF gratis."
+  },
+  {
+   "slug": "simetria-casa-y-corona",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "symmetry",
+    "mode": null,
+    "theme": "",
+    "level": "segundo-grado"
+   },
+   "eyebrow": "Ficha de simetría",
+   "h1": "Simetría: casa, corona, seta y manzana",
+   "strand": "Geometría",
+   "slotTokens": [
+    "simetria",
+    "segundo-grado"
+   ],
+   "p1": "Esta ficha reúne otras cuatro figuras de cuadraditos con nombre propio: una casa, una corona, una seta y una manzana. Todas están dibujadas solo por una mitad, con la línea coral marcando el eje vertical, y el niño completa el otro lado coloreando las casillas espejo. La corona, con sus picos, y la seta, con su sombrero ancho, obligan a contar con más cuidado que las siluetas lisas de otras hojas.",
+   "p2": "En clase, este tipo de figuras da mucho juego más allá del ejercicio. Sirven para trabajo autónomo en el rincón de matemáticas, porque el niño sabe cuándo ha terminado bien sin preguntar: si el dibujo no se reconoce, algo falla. Sirven también para parejas, con un compañero coloreando y otro comprobando fila a fila. Y como cada figura queda terminada por separado, la hoja se puede dejar a medias y retomar sin perder el hilo, algo poco frecuente en las fichas de matemáticas.",
+   "p3": "Imprime la ficha gratis en PDF y deja los lápices de colores cerca para rematar los dibujos. Es hermana de la ficha con corazón y mariposa, que reúne otras cuatro siluetas reconocibles, y la simetría con eje horizontal cambia después la dirección del espejo, que es el paso más exigente de toda la serie de geometría. Nombrar cada figura en voz alta antes de empezar ayuda a anticipar cómo quedará terminada.",
+   "canonicalDeckSlug": "simetria-g2267",
+   "carousel": [
+    {
+     "label": "Simetría con eje horizontal: colorea debajo de la línea",
+     "href": "simetria-con-eje-horizontal"
+    },
+    {
+     "label": "Simetría en cuadrícula fácil: figuras sencillas",
+     "href": "simetria-en-cuadricula-facil"
+    },
+    {
+     "label": "Simetría en cuadrícula difícil: figuras con más detalle",
+     "href": "simetria-en-cuadricula-dificil"
+    },
+    {
+     "label": "Simetría: corazón, mariposa, muñeco de nieve y árbol",
+     "href": "simetria-corazon-y-mariposa"
+    }
+   ],
+   "title": "Simetría: casa y corona | para imprimir PDF",
+   "metaDescription": "Simetría en cuadrícula con casa, corona, seta y manzana: cuatro figuras a medias para completar cuadrado a cuadrado al otro lado del eje. PDF gratis."
+  },
+  {
+   "slug": "simetria-con-eje-horizontal",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "symmetry",
+    "mode": null,
+    "theme": "",
+    "level": "segundo-grado"
+   },
+   "eyebrow": "Ficha de simetría",
+   "h1": "Simetría con eje horizontal: colorea debajo de la línea",
+   "strand": "Geometría",
+   "slotTokens": [
+    "simetria",
+    "segundo-grado"
+   ],
+   "p1": "En esta ficha la línea coral no está de pie, sino tumbada: el eje es horizontal y el reflejo va hacia abajo. Las cuatro figuras —un cohete, una flecha, un helado y un robot— aparecen dibujadas de lado, con su mitad superior coloreada, y el niño debe pintar los cuadrados que faltan debajo de la línea, contando hacia abajo la misma distancia que hay hacia arriba. Un giro pequeño en el papel y muy grande en la cabeza.",
+   "p2": "Casi todas las fichas de simetría usan un eje vertical, y por eso muchos niños acaban creyendo que simetría significa izquierda y derecha. Esta hoja rompe esa idea a propósito: la relación espejo es la misma, pero ahora se mide arriba y abajo, y las figuras están colocadas de lado para que ni siquiera la posición habitual del objeto sirva de ayuda. El error más común es reflejar por costumbre hacia el lado en vez de hacia abajo; conviene señalar el eje con el dedo antes de empezar y no soltarlo.",
+   "p3": "Descarga la ficha gratis en PDF y dobla la hoja por la línea horizontal al terminar: las dos mitades deben encajar. Viene después de la simetría en cuadrícula difícil, que asienta el método de contar desde el eje, y cierra la serie que empezó en la simetría en cuadrícula fácil. Girar la hoja noventa grados y mirarla de nuevo suele provocar un pequeño y muy útil descubrimiento.",
+   "canonicalDeckSlug": "simetria-g2268",
+   "carousel": [
+    {
+     "label": "Simetría en cuadrícula fácil: figuras sencillas",
+     "href": "simetria-en-cuadricula-facil"
+    },
+    {
+     "label": "Simetría en cuadrícula difícil: figuras con más detalle",
+     "href": "simetria-en-cuadricula-dificil"
+    },
+    {
+     "label": "Simetría: corazón, mariposa, muñeco de nieve y árbol",
+     "href": "simetria-corazon-y-mariposa"
+    },
+    {
+     "label": "Simetría: casa, corona, seta y manzana",
+     "href": "simetria-casa-y-corona"
+    }
+   ],
+   "title": "Simetría con eje horizontal | para imprimir PDF",
+   "metaDescription": "Simetría con eje horizontal: cohete, flecha, helado y robot dibujados de lado para reflejar hacia abajo de la línea coral. Ficha de 2.º en PDF gratis."
   }
  ]
 }

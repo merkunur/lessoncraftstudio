@@ -172784,7 +172784,7 @@
      "href": "color-by-code"
     },
     {
-     "label": "Maze Worksheet: Help the Animal Reach the Toy",
+     "label": "Maze Worksheet: Find the Path from Toy to Toy",
      "href": "maze-worksheet"
     }
    ],
@@ -172822,7 +172822,7 @@
      "href": "color-by-code"
     },
     {
-     "label": "Maze Worksheet: Help the Animal Reach the Toy",
+     "label": "Maze Worksheet: Find the Path from Toy to Toy",
      "href": "maze-worksheet"
     },
     {
@@ -172851,8 +172851,8 @@
     "animals",
     "kindergarten"
    ],
-   "p1": "This Kindergarten cut and paste worksheet ends with glue on fingers and a big smile. Along the bottom of the page runs a strip of animal pictures. The child cuts the strip apart, looks closely at each animal, decides which of the labeled boxes it belongs in, and glues it into place. Cutting, sorting, and pasting — three of childhood's favorite jobs, all on one page, with animals doing the starring roles.",
-   "p2": "There is real learning hiding inside the fun. Steering scissors along a line is one of the best fine-motor workouts a young hand can get, building the same control that pencil work needs. And the sorting is early classification thinking: to place each animal, the child has to notice its features, compare it with the category labels, and commit to a decision. That look-compare-decide loop is the root of the grouping children later do in math and science.",
+   "p1": "This Kindergarten cut and paste worksheet ends with glue on fingers and a big smile. Along the bottom of the page runs a strip of animal pictures. The child cuts the strip apart, looks closely at each animal, decides which box it belongs in — every box is headed by a model picture, not a word — and glues it onto one of the dashed squares waiting inside. Cutting, sorting, and pasting — three of childhood's favorite jobs, all on one page, with animals doing the starring roles.",
+   "p2": "There is real learning hiding inside the fun. Steering scissors along a line is one of the best fine-motor workouts a young hand can get, building the same control that pencil work needs. And the sorting is early classification thinking: to place each animal, the child has to notice its features, compare it with the model picture heading each box, and commit to a decision. That look-compare-decide loop is the root of the grouping children later do in math and science.",
    "p3": "The worksheet prints free as a PDF — worth remembering, since a cut-up page can hardly be reused. When the scissors go back in the drawer, a color by code picture keeps the careful-looking practice going with crayons instead, and a maze offers the same happy mix of pencil control and puzzle.",
    "canonicalDeckSlug": "cutting-practice-animals-k240",
    "carousel": [
@@ -172861,7 +172861,7 @@
      "href": "color-by-code"
     },
     {
-     "label": "Maze Worksheet: Help the Animal Reach the Toy",
+     "label": "Maze Worksheet: Find the Path from Toy to Toy",
      "href": "maze-worksheet"
     },
     {
@@ -172874,7 +172874,7 @@
     }
    ],
    "title": "Cut and Paste Sorting for Kindergarten | Free Printable PDF",
-   "metaDescription": "Cut and paste sorting worksheet: cut out the animal pictures, sort them and glue each one into its labeled box. Free printable kindergarten PDF."
+   "metaDescription": "Cut and paste sorting worksheet: cut out the animal pictures, sort them and glue each one into the box headed by its matching picture. Free printable kindergarten PDF."
   },
   {
    "slug": "color-by-code",
@@ -172899,7 +172899,7 @@
    "canonicalDeckSlug": "color-by-number-k241",
    "carousel": [
     {
-     "label": "Maze Worksheet: Help the Animal Reach the Toy",
+     "label": "Maze Worksheet: Find the Path from Toy to Toy",
      "href": "maze-worksheet"
     },
     {
@@ -172928,14 +172928,14 @@
     "level": "kindergarten"
    },
    "eyebrow": "Maze Worksheet",
-   "h1": "Maze Worksheet: Help the Animal Reach the Toy",
+   "h1": "Maze Worksheet: Find the Path from Toy to Toy",
    "strand": "Visual Perception & Pencil Control",
    "slotTokens": [
     "mazes",
     "toys",
     "kindergarten"
    ],
-   "p1": "This Kindergarten maze worksheet is one big puzzle with a story built in: a friendly animal waits at the top of the maze, and its goal — a toy from the toy-themed artwork — sits at the bottom. The child starts at the animal and draws one continuous path through the corridors, backing out of dead ends and trying a new turn until the pencil finally arrives at the prize. One page, one maze, one very satisfying finish.",
+   "p1": "This Kindergarten maze worksheet is one big puzzle with a story built in: a toy waits in the top corner of the maze, and a second toy — its destination — sits in the far bottom corner. Nothing else decorates the route: two pictures, one puzzle. The child starts at the first toy and draws one continuous path through the corridors, backing out of dead ends and trying a new turn until the pencil finally arrives at the prize. One page, one maze, one very satisfying finish.",
    "p2": "A good maze is patience training disguised as play. The child has to look ahead before committing the pencil, hold a plan in mind while drawing, and recover cheerfully when a corridor closes — which is problem solving in its purest early form. At the same time, steering a line through narrow passages without touching the walls is first-rate pencil control, the very same steadiness that handwriting will soon demand.",
    "p3": "The maze prints free as a PDF, so a wrong turn is never a tragedy — just print another. Children who enjoy the journey usually love pre-writing tracing lanes, which offer the same travel-the-path feeling with loops and waves, while a color by code picture rewards the same careful looking with crayons.",
    "canonicalDeckSlug": "mazes-toys-k242",
@@ -172958,7 +172958,7 @@
     }
    ],
    "title": "Maze Worksheet for Kindergarten | Free Printable PDF",
-   "metaDescription": "Printable maze worksheet: guide the animal from the top of the big maze down to the toy at the goal. Pencil control and planning. Free kindergarten PDF."
+   "metaDescription": "Printable maze worksheet: start at the toy in the top corner and draw a path through the maze to the toy at the goal. Pencil control and planning. Free kindergarten PDF."
   },
   {
    "slug": "number-bonds-to-10",
@@ -174597,6 +174597,3080 @@
    ],
    "title": "Times Table of 4 Worksheet | Free Printable PDF",
    "metaDescription": "Times table of 4 worksheet: the full ladder from 1×4 up to 10×4 with answer boxes — every fact is just a 2s fact doubled. Free printable Grade 3 math PDF."
+  },
+  {
+   "slug": "tracing-zigzag-lines",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pre-writing",
+    "mode": null,
+    "theme": "animals",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Pre-Writing Worksheet",
+   "h1": "Tracing Zigzag and Straight Lines: Sharp Corners Ahead",
+   "strand": "Fine Motor & Pre-Writing",
+   "slotTokens": [
+    "pre-writing",
+    "animals",
+    "kindergarten"
+   ],
+   "p1": "This pre-writing worksheet is the angular one: every stroke on it turns with a snap. Four trace lanes cross the page — a straight line, a zigzag, a row of mountain peaks, and a battlement path that climbs, runs flat along the top, and drops down again like the wall of a castle. The child puts their pencil on the orange start dot, follows the arrow, and steers around every corner until they reach the little animal waiting at the end of each lane.",
+   "p2": "Corners teach something curves never can: stopping. To turn a sharp angle, the pencil must halt completely, pivot, and set off in a new direction — the same stop-and-go control that later makes a crisp E, a pointed M, and a 7 with a real corner instead of a droop. Children who race learn fast that a zigzag drawn at speed loses its points, so this page quietly rewards a slower, more deliberate hand. It is worth watching for the classic error, rounding the corners; a gentle reminder to stop at the point, then turn, fixes it.",
+   "p3": "The page prints free as a PDF, so corners can be practiced as often as they need. Wavy lines and curves is its natural partner sheet — the soft, flowing opposite of these angles — and once both feel easy, the mixed advanced pencil paths page brings sharp and round strokes together on one sheet.",
+   "canonicalDeckSlug": "pre-writing-animals-k244",
+   "carousel": [
+    {
+     "label": "Tracing Wavy Lines: Waves, Bumps, Cups and Loops",
+     "href": "tracing-wavy-lines"
+    },
+    {
+     "label": "Tracing Loops, Lying Eights and Spirals",
+     "href": "tracing-loops-and-spirals"
+    },
+    {
+     "label": "Advanced Pre-Writing: Five Tricky Trace Lanes",
+     "href": "advanced-pre-writing-practice"
+    },
+    {
+     "label": "Pre-Writing Review: Five Lanes, Every Core Stroke",
+     "href": "pre-writing-review"
+    }
+   ],
+   "title": "Zigzag Line Tracing Worksheet | Free Printable PDF",
+   "metaDescription": "Pre-writing worksheet with angular strokes: trace straight lines, zigzags, peaks and battlements from the orange start dot. Free printable PDF."
+  },
+  {
+   "slug": "tracing-wavy-lines",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pre-writing",
+    "mode": null,
+    "theme": "fruits",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Pre-Writing Worksheet",
+   "h1": "Tracing Wavy Lines: Waves, Bumps, Cups and Loops",
+   "strand": "Fine Motor & Pre-Writing",
+   "slotTokens": [
+    "pre-writing",
+    "fruits",
+    "kindergarten"
+   ],
+   "p1": "Nothing on this pre-writing worksheet has a corner. Its four trace lanes are all soft movement: a rolling wave, a row of rainbow bumps, a line of open cups, and a chain of round loops. The child starts each lane at the orange dot, follows the arrow, and lets the pencil rise and fall all the way across the page to the piece of fruit waiting at the finish — an apple here, a pear there — one smooth line per lane.",
+   "p2": "Curved strokes are where handwriting gets its flow. Bumps and cups are the raw material of m, n, u and h; the wave rehearses the gentle joins between letters; and loops are a first taste of the movement cursive will one day ask for. What matters most here is rhythm: the goal is not a perfect copy but an even, relaxed rise and fall, with the wrist and fingers doing the steering rather than the whole arm. A child who hums while tracing these lanes is doing it exactly right.",
+   "p3": "Print the PDF free and keep a few copies handy — smoothness comes from repetition, not from one careful attempt. Straight lines and zigzags offers the opposite workout, all stops and corners, and loops, eights and spirals is the next step up in swing for a hand that has found its rhythm.",
+   "canonicalDeckSlug": "pre-writing-fruits-k245",
+   "carousel": [
+    {
+     "label": "Tracing Loops, Lying Eights and Spirals",
+     "href": "tracing-loops-and-spirals"
+    },
+    {
+     "label": "Advanced Pre-Writing: Five Tricky Trace Lanes",
+     "href": "advanced-pre-writing-practice"
+    },
+    {
+     "label": "Pre-Writing Review: Five Lanes, Every Core Stroke",
+     "href": "pre-writing-review"
+    },
+    {
+     "label": "Tracing Zigzag and Straight Lines: Sharp Corners Ahead",
+     "href": "tracing-zigzag-lines"
+    }
+   ],
+   "title": "Wavy Line Tracing Worksheet | Free Printable PDF",
+   "metaDescription": "Pre-writing worksheet with curved strokes: trace waves, rainbow bumps, cups and loops in smooth lanes to the fruit at the end. Free printable PDF."
+  },
+  {
+   "slug": "tracing-loops-and-spirals",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pre-writing",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Pre-Writing Worksheet",
+   "h1": "Tracing Loops, Lying Eights and Spirals",
+   "strand": "Fine Motor & Pre-Writing",
+   "slotTokens": [
+    "pre-writing",
+    "vehicles",
+    "kindergarten"
+   ],
+   "p1": "This worksheet gathers the classic pre-writing motifs that teachers everywhere swear by: chains of loops, lying eights that cross themselves in the middle, spirals that wind tighter and tighter, and a rolling wave to finish. Four lanes, each starting at an orange dot with an arrow showing the way, each ending at a little vehicle — a car here, a plane there — waiting for the pencil to arrive. The child traces every lane in one continuous motion, without lifting the pencil.",
+   "p2": "These particular shapes have earned their place in every pre-writing tradition for a reason. A lying eight makes the hand cross its own path and swing in both directions, which is superb preparation for letters that change rotation midway, like s and g. Spirals demand that the movement stay controlled while the space keeps shrinking. And continuous loops are the direct ancestor of cursive writing. Together they build the relaxed, circular wrist motion that separates flowing handwriting from stiff, drawn letters.",
+   "p3": "The sheet prints free as a PDF for as many rounds as the hand needs. It sits naturally after wavy lines and curves, and when all these swings feel easy, advanced pencil paths mixes them with sharp corners for a real graduation test — five lanes, every kind of stroke.",
+   "canonicalDeckSlug": "pre-writing-vehicles-k246",
+   "carousel": [
+    {
+     "label": "Advanced Pre-Writing: Five Tricky Trace Lanes",
+     "href": "advanced-pre-writing-practice"
+    },
+    {
+     "label": "Pre-Writing Review: Five Lanes, Every Core Stroke",
+     "href": "pre-writing-review"
+    },
+    {
+     "label": "Tracing Zigzag and Straight Lines: Sharp Corners Ahead",
+     "href": "tracing-zigzag-lines"
+    },
+    {
+     "label": "Tracing Wavy Lines: Waves, Bumps, Cups and Loops",
+     "href": "tracing-wavy-lines"
+    }
+   ],
+   "title": "Loops and Spirals Tracing Worksheet | Free Printable PDF",
+   "metaDescription": "Trace loops, lying eights, spirals and waves — the classic pre-writing motifs — in four lanes with start dots and arrows. Free printable tracing PDF."
+  },
+  {
+   "slug": "advanced-pre-writing-practice",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pre-writing",
+    "mode": null,
+    "theme": "toys",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Pre-Writing Worksheet",
+   "h1": "Advanced Pre-Writing: Five Tricky Trace Lanes",
+   "strand": "Fine Motor & Pre-Writing",
+   "slotTokens": [
+    "pre-writing",
+    "toys",
+    "kindergarten"
+   ],
+   "p1": "This is the hardest page in the pre-writing series, and it looks the part: five trace lanes instead of four, filled with the trickiest strokes of all — battlement lines with their square ups and downs, tightening spirals, lying eights, sharp mountain peaks and chains of loops. Each lane begins at an orange start dot with an arrow, and at the end of every one a toy from the toy-themed artwork waits as the prize. The child works lane by lane down the page.",
+   "p2": "Mixing strokes is a real cognitive step up from repeating them. On earlier pages the hand settles into one rhythm per sheet; here the child must read each new lane, recognize what kind of movement it asks for, and switch — from square stops to round swings to crossing eights — five times in a row. That read-then-adjust habit is exactly what writing across a line of different letters demands. Five lanes also stretch stamina: finishing the whole page without the line wandering is an achievement worth naming.",
+   "p3": "Print it free as a PDF and treat it as a challenge page rather than a starting point. If some lanes wobble, a return visit to loops, eights and spirals or straight lines and zigzags tightens the weak stroke, and the pre-writing review page makes a calmer follow-up sheet.",
+   "canonicalDeckSlug": "pre-writing-toys-k247",
+   "carousel": [
+    {
+     "label": "Pre-Writing Review: Five Lanes, Every Core Stroke",
+     "href": "pre-writing-review"
+    },
+    {
+     "label": "Tracing Zigzag and Straight Lines: Sharp Corners Ahead",
+     "href": "tracing-zigzag-lines"
+    },
+    {
+     "label": "Tracing Wavy Lines: Waves, Bumps, Cups and Loops",
+     "href": "tracing-wavy-lines"
+    },
+    {
+     "label": "Tracing Loops, Lying Eights and Spirals",
+     "href": "tracing-loops-and-spirals"
+    }
+   ],
+   "title": "Advanced Pre-Writing Worksheet | Free Printable PDF",
+   "metaDescription": "The hardest pre-writing page: five lanes mixing battlements, spirals, eights, peaks and loops for hands ready for a challenge. Free printable PDF."
+  },
+  {
+   "slug": "pre-writing-review",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pre-writing",
+    "mode": null,
+    "theme": "animals",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Pre-Writing Worksheet",
+   "h1": "Pre-Writing Review: Five Lanes, Every Core Stroke",
+   "strand": "Fine Motor & Pre-Writing",
+   "slotTokens": [
+    "pre-writing",
+    "animals",
+    "kindergarten"
+   ],
+   "p1": "This review worksheet walks back through the whole pre-writing journey on a single page: five lanes holding a straight line, a wave, a zigzag, a row of cups and a row of bumps — the core strokes from the earlier sheets, gathered for one final pass. As always, every lane opens with an orange start dot and an arrow, and a friendly animal waits at the far end of each one. The child traces all five, one steady line per lane.",
+   "p2": "A review page earns its keep in two ways. For the child, it is a confidence lap: strokes that once felt new now feel familiar, and finishing five different lanes cleanly is visible proof of progress. For the adult, it is a quick, honest assessment — one glance shows which strokes flow smoothly and which still wobble, without any test-like pressure. Many teachers keep dated copies of exactly this kind of sheet: two versions a few weeks apart tell the story of a maturing pencil grip better than any checklist.",
+   "p3": "It prints free as a PDF, so there is no reason not to repeat it monthly. When all five lanes look confident, the hand is ready for its first real symbols — number tracing 0 to 4 and the big first letters A, B, C and D are the natural next pages.",
+   "canonicalDeckSlug": "pre-writing-animals-k248",
+   "carousel": [
+    {
+     "label": "Tracing Zigzag and Straight Lines: Sharp Corners Ahead",
+     "href": "tracing-zigzag-lines"
+    },
+    {
+     "label": "Tracing Wavy Lines: Waves, Bumps, Cups and Loops",
+     "href": "tracing-wavy-lines"
+    },
+    {
+     "label": "Tracing Loops, Lying Eights and Spirals",
+     "href": "tracing-loops-and-spirals"
+    },
+    {
+     "label": "Advanced Pre-Writing: Five Tricky Trace Lanes",
+     "href": "advanced-pre-writing-practice"
+    }
+   ],
+   "title": "Pre-Writing Review Worksheet | Free Printable PDF",
+   "metaDescription": "Pre-writing review worksheet: five lanes with line, wave, zigzag, cups and bumps to check every core stroke on one page. Free printable PDF."
+  },
+  {
+   "slug": "sight-words-set-2",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sight-words",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Sight Words Worksheet",
+   "h1": "Sight Words Set 2: Can, Play, Look, Said",
+   "strand": "Foundational Reading Skills",
+   "standard": "RF.K.3.c",
+   "slotTokens": [
+    "sight-words",
+    "kindergarten"
+   ],
+   "p1": "This sight words worksheet holds set 2 of the series: can, play, look and said. Each of the four words gets its own row with three jobs on it — first read the word, then trace it over the dashed model on the handwriting lines, then write it again on the empty line with no help at all. The words are printed big on real school lines, so the writing practice is genuine, not squeezed. Four words, three steps each, and the page is done.",
+   "p2": "Set 2 is where sight-word work starts to pay off in real books. Can and play power the sentences beginning readers meet first — 'I can play' is practically a rite of passage — while said is a famous rule-breaker: no amount of sounding out produces its actual pronunciation, so it simply has to be known. Working in sets of four keeps the memory load honest; a child can genuinely own four words in a week, where a list of twenty produces only a blur.",
+   "p3": "Print the free PDF and let the set live on the fridge or the word wall for the week. The read, trace and write starter page comes before this one, and set 3 with here, come, little and down is waiting as soon as these four feel instant.",
+   "canonicalDeckSlug": "sight-words-k259",
+   "carousel": [
+    {
+     "label": "Sight Words Set 3: Here, Come, Little, Down",
+     "href": "sight-words-set-3"
+    },
+    {
+     "label": "Sight Words Set 4: We, Was, Not, For",
+     "href": "sight-words-set-4"
+    },
+    {
+     "label": "Sight Words Set 5: Big, Went, Are, She",
+     "href": "sight-words-set-5"
+    },
+    {
+     "label": "Sight Words Set 6: Have, They, With, This",
+     "href": "sight-words-set-6"
+    }
+   ],
+   "title": "Sight Words Set 2 Worksheet | Free Printable PDF",
+   "metaDescription": "Sight words worksheet, set 2: read, trace and write can, play, look and said on handwriting lines, one word per row. Free printable kindergarten PDF."
+  },
+  {
+   "slug": "sight-words-set-3",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sight-words",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Sight Words Worksheet",
+   "h1": "Sight Words Set 3: Here, Come, Little, Down",
+   "strand": "Foundational Reading Skills",
+   "standard": "RF.K.3.c",
+   "slotTokens": [
+    "sight-words",
+    "kindergarten"
+   ],
+   "p1": "Set 3 of the sight-word series brings four new words to read, trace and write: here, come, little and down. The routine on the page stays reassuringly the same — each word sits on its own row of handwriting lines, printed once in dashed letters for tracing and followed by an empty line where the child writes it from memory — because by set 3, it is the words that should feel new, not the job.",
+   "p2": "These four are movement-and-place words, and they unlock a huge share of early picture-book text: come here, little dog, sit down. Two of them are also phonics traps — come refuses to rhyme with home, and here refuses to match her — which makes them perfect candidates for whole-word memory. A useful trick at this stage: after the writing, ask the child to hunt for today's words in any book on the shelf. Finding little in the wild, unprompted, is the moment a sight word becomes real.",
+   "p3": "The PDF prints free, so a fresh copy for tomorrow costs nothing, and four words repay a second pass more than most pages do. If set 2 with can, play, look and said has not gone in yet, start there; afterwards set 4 carries the series on with we, was, not and for.",
+   "canonicalDeckSlug": "sight-words-k260",
+   "carousel": [
+    {
+     "label": "Sight Words Set 4: We, Was, Not, For",
+     "href": "sight-words-set-4"
+    },
+    {
+     "label": "Sight Words Set 5: Big, Went, Are, She",
+     "href": "sight-words-set-5"
+    },
+    {
+     "label": "Sight Words Set 6: Have, They, With, This",
+     "href": "sight-words-set-6"
+    },
+    {
+     "label": "Sight Words Set 2: Can, Play, Look, Said",
+     "href": "sight-words-set-2"
+    }
+   ],
+   "title": "Sight Words Set 3 Worksheet | Free Printable PDF",
+   "metaDescription": "Sight words set 3 worksheet: here, come, little and down to read, trace and write on school lines. Free printable kindergarten sight word PDF."
+  },
+  {
+   "slug": "sight-words-set-4",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sight-words",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Sight Words Worksheet",
+   "h1": "Sight Words Set 4: We, Was, Not, For",
+   "strand": "Foundational Reading Skills",
+   "standard": "RF.K.3.c",
+   "slotTokens": [
+    "sight-words",
+    "kindergarten"
+   ],
+   "p1": "The four words on this page — we, was, not and for — make up set 4 of the sight-word series. They are short, plain and stubbornly important. Each one is printed on its own row of school handwriting lines: the child reads it aloud, traces the dashed version, then proves ownership by writing it unaided on the blank line at the end of the row. Short words, but real handwriting practice all the same.",
+   "p2": "Set 4 is the glue-word set. None of these four can be drawn or pictured — there is no picture of 'for' — which is exactly why they must become automatic: they hold sentences together while the interesting words do the storytelling. Was deserves special watching, because beginning readers love to flip it into saw; if that swap appears, have the child touch the w and say the word before reading on. Not is the set's gift to comprehension, since spotting it instantly is what keeps 'do not run' from reading as 'do run'.",
+   "p3": "Print it free as a PDF and keep the routine short and daily rather than long and rare. Set 3 — here, come, little, down — comes before this page, and set 5 steps up next with big, went, are and she.",
+   "canonicalDeckSlug": "sight-words-k261",
+   "carousel": [
+    {
+     "label": "Sight Words Set 5: Big, Went, Are, She",
+     "href": "sight-words-set-5"
+    },
+    {
+     "label": "Sight Words Set 6: Have, They, With, This",
+     "href": "sight-words-set-6"
+    },
+    {
+     "label": "Sight Words Set 2: Can, Play, Look, Said",
+     "href": "sight-words-set-2"
+    },
+    {
+     "label": "Sight Words Set 3: Here, Come, Little, Down",
+     "href": "sight-words-set-3"
+    }
+   ],
+   "title": "Sight Words Set 4 Worksheet | Free Printable PDF",
+   "metaDescription": "Sight words set 4 worksheet: the glue words we, was, not and for — read, trace, then write each one from memory. Free printable kindergarten PDF."
+  },
+  {
+   "slug": "sight-words-set-5",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sight-words",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Sight Words Worksheet",
+   "h1": "Sight Words Set 5: Big, Went, Are, She",
+   "strand": "Foundational Reading Skills",
+   "standard": "RF.K.3.c",
+   "slotTokens": [
+    "sight-words",
+    "kindergarten"
+   ],
+   "p1": "Set 5 of the sight-word series puts big, went, are and she on the handwriting lines. The page keeps the familiar three-beat rhythm — read the word, trace it over the dashed model, write it once more on the empty line — and by this point in the series many children run the routine themselves, word by word, without being told what comes next. That independence is part of the design, and worth praising out loud.",
+   "p2": "This set quietly introduces grammar through the back door. Went is many children's first irregular past tense — nobody 'goed' anywhere in a storybook — and meeting it as a sight word saves a lot of puzzling later. Are and she are the engine parts of a thousand simple sentences, and big is the rare sight word a child can actually illustrate, which makes it a good confidence anchor for the set. Together the four words let a young reader build honest sentences at last: she went, we are big.",
+   "p3": "As always the page prints free as a PDF. Sets 2 through 4 supply the earlier words if any are still shaky, and set 6 — have, they, with, this — closes out the series and rounds the collection up to twenty-four words, enough for genuinely fluent little sentences.",
+   "canonicalDeckSlug": "sight-words-k262",
+   "carousel": [
+    {
+     "label": "Sight Words Set 6: Have, They, With, This",
+     "href": "sight-words-set-6"
+    },
+    {
+     "label": "Sight Words Set 2: Can, Play, Look, Said",
+     "href": "sight-words-set-2"
+    },
+    {
+     "label": "Sight Words Set 3: Here, Come, Little, Down",
+     "href": "sight-words-set-3"
+    },
+    {
+     "label": "Sight Words Set 4: We, Was, Not, For",
+     "href": "sight-words-set-4"
+    }
+   ],
+   "title": "Sight Words Set 5 Worksheet | Free Printable PDF",
+   "metaDescription": "Sight words set 5 worksheet: big, went, are and she on handwriting lines — read each word, trace it, then write it yourself. Free printable kindergarten PDF."
+  },
+  {
+   "slug": "sight-words-set-6",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sight-words",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Sight Words Worksheet",
+   "h1": "Sight Words Set 6: Have, They, With, This",
+   "strand": "Foundational Reading Skills",
+   "standard": "RF.K.3.c",
+   "slotTokens": [
+    "sight-words",
+    "kindergarten"
+   ],
+   "p1": "This page closes the sight-word series: set 6 brings have, they, with and this, the last four words of the twenty-four-word collection. Each word takes a row of handwriting lines — read it, trace the dashed model, then write it alone on the empty line. Children who have traveled the whole series will recognize every part of the page; only the words themselves are new, and after this sheet, none are left.",
+   "p2": "These final four are heavy lifters. They and this do the pointing work of English — every conversation leans on them — while have and with appear in so many written sentences that a reader who hesitates on them hesitates constantly. Th is also the star sound of the set: three of the four words open with it, so the page doubles as quiet digraph practice without a single phonics drill. When these four are instant, the child owns a core vocabulary that carries a surprising share of any beginner book.",
+   "p3": "Print the free PDF, finish the series, and celebrate a little — twenty-four words is a real milestone. The natural next stop is connected text: a short read-and-answer story like The Red Kite lets the child meet all their hard-won words doing real work in real sentences.",
+   "canonicalDeckSlug": "sight-words-k263",
+   "carousel": [
+    {
+     "label": "Sight Words Set 2: Can, Play, Look, Said",
+     "href": "sight-words-set-2"
+    },
+    {
+     "label": "Sight Words Set 3: Here, Come, Little, Down",
+     "href": "sight-words-set-3"
+    },
+    {
+     "label": "Sight Words Set 4: We, Was, Not, For",
+     "href": "sight-words-set-4"
+    },
+    {
+     "label": "Sight Words Set 5: Big, Went, Are, She",
+     "href": "sight-words-set-5"
+    }
+   ],
+   "title": "Sight Words Set 6 Worksheet | Free Printable PDF",
+   "metaDescription": "The final sight words page: set 6 with have, they, with and this completes the 24-word series. Read, trace, write. Free printable kindergarten PDF."
+  },
+  {
+   "slug": "cut-and-paste-two-groups",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cutting-practice",
+    "mode": null,
+    "theme": "animals",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Cut and Paste Worksheet",
+   "h1": "Cut and Paste: Eight Pictures, Two Big Groups",
+   "strand": "Fine Motor & Classification",
+   "standard": "K.MD.B.3",
+   "slotTokens": [
+    "cutting-practice",
+    "animals",
+    "kindergarten"
+   ],
+   "p1": "This cut and paste worksheet doubles the workload in the happiest possible way: eight pictures arrive on two cutting strips instead of one, and every picture must find its home in one of two big groups, each headed by a model picture rather than a word. It comes in two editions — one starring animals, one starring vehicles — and the job is identical in both: cut the strips apart, study each picture, decide which group it belongs to, and glue it into place.",
+   "p2": "Two groups may sound easier than three, but a clean either-or is actually the purest sorting there is: every picture forces a real decision, with no soft middle category to hide in. Eight pieces also stretch the task — more cutting per sitting, more gluing, and a genuine sequence to manage, since loose strips have a way of migrating across the table. Letting the child cut both strips before any sorting begins, then sort all eight before the glue comes out, turns the page into a small lesson in organizing work as well as in classification.",
+   "p3": "It prints free as a PDF — kind to a worksheet that ends its life in pieces. The original cut, sort and paste page is the gentler starting point, and the themed fruit and toy cutting pages keep scissor hands busy once both editions here are conquered.",
+   "canonicalDeckSlug": "cutting-practice-animals-k264",
+   "collapseSiblings": [
+    "cutting-practice-vehicles-k264"
+   ],
+   "carousel": [
+    {
+     "label": "Cut and Paste Vehicles: Sort Them into Their Boxes",
+     "href": "cut-and-paste-vehicles"
+    },
+    {
+     "label": "Cut and Paste Fruits: Snip, Sort and Glue",
+     "href": "cut-and-paste-fruits"
+    },
+    {
+     "label": "Cut and Paste Toys: Every Toy in Its Place",
+     "href": "cut-and-paste-toys"
+    },
+    {
+     "label": "Color by Shape: Every Triangle Red",
+     "href": "color-by-shape-code"
+    }
+   ],
+   "title": "Cut and Paste Two Groups Worksheet | Free Printable PDF",
+   "metaDescription": "Cut and paste worksheet with eight pictures on two strips: sort animals or vehicles into two big picture-headed groups and glue. Free printable kindergarten PDF."
+  },
+  {
+   "slug": "cut-and-paste-vehicles",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cutting-practice",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Cut and Paste Worksheet",
+   "h1": "Cut and Paste Vehicles: Sort Them into Their Boxes",
+   "strand": "Fine Motor & Classification",
+   "standard": "K.MD.B.3",
+   "slotTokens": [
+    "cutting-practice",
+    "vehicles",
+    "kindergarten"
+   ],
+   "p1": "This edition of the cut and paste worksheet hands everything over to vehicles. Along the bottom of the page runs a strip of vehicle pictures — the child cuts the strip apart, looks hard at each machine, decides which of the picture-headed boxes it belongs in, and glues it down onto a dashed square. A glue stick and child-safe scissors are the only equipment. Cutting, deciding, pasting: the same beloved routine as the animal page, but with wheels and wings doing the persuading.",
+   "p2": "For a certain kind of four-year-old, vehicles are simply the strongest magnet there is, and this page borrows that pull shamelessly. The sorting is also a touch more abstract than it looks: a truck and a plane do not differ the way a cow and a fish do, so the child has to reason about what things do and where they go — road or sky, big or small — rather than just what they look like. That shift from appearance to function is a genuine step in early classification thinking, smuggled in under the fun.",
+   "p3": "Print the PDF free; scissors pages rarely survive to a second use. The fruit and toy editions offer fresh sorting with the same routine, and the two big groups page raises the count to eight pictures for a longer, prouder sit-down job.",
+   "canonicalDeckSlug": "cutting-practice-vehicles-k240",
+   "carousel": [
+    {
+     "label": "Cut and Paste Fruits: Snip, Sort and Glue",
+     "href": "cut-and-paste-fruits"
+    },
+    {
+     "label": "Cut and Paste Toys: Every Toy in Its Place",
+     "href": "cut-and-paste-toys"
+    },
+    {
+     "label": "Cut and Paste: Eight Pictures, Two Big Groups",
+     "href": "cut-and-paste-two-groups"
+    },
+    {
+     "label": "Color by Shape: Every Triangle Red",
+     "href": "color-by-shape-code"
+    }
+   ],
+   "title": "Vehicles Cut and Paste Worksheet | Free Printable PDF",
+   "metaDescription": "Vehicles cut and paste worksheet: cut out the vehicle pictures, sort them into the picture-headed boxes and glue each one down. Free printable kindergarten PDF."
+  },
+  {
+   "slug": "cut-and-paste-fruits",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cutting-practice",
+    "mode": null,
+    "theme": "fruits",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Cut and Paste Worksheet",
+   "h1": "Cut and Paste Fruits: Snip, Sort and Glue",
+   "strand": "Fine Motor & Classification",
+   "standard": "K.MD.B.3",
+   "slotTokens": [
+    "cutting-practice",
+    "fruits",
+    "kindergarten"
+   ],
+   "p1": "In this edition of the cut and paste worksheet, the cutting strip at the bottom of the page is full of fruit. The child snips the strip into single pictures, considers each one — apple, banana, berry by berry — and glues every fruit into the box headed by its matching picture. It is the classic snip-sort-stick routine, dressed in the friendliest, most familiar subject matter a kitchen table can offer.",
+   "p2": "Familiar subjects are exactly what early sorting thrives on. Because the child already knows these fruits from lunchboxes and market trips, all their attention can go to the actual skills: steering the scissors along the line, comparing each picture with the model picture heading each box, and committing to a choice. The page also feeds language beautifully — naming every fruit while sorting builds vocabulary at no extra cost, and a quick 'which of these have you tasted?' turns the worksheet into a conversation. Fine motor work, categories and talk, all from one strip of paper.",
+   "p3": "The PDF prints free, which suits a page that ends in happy shreds. The vehicle and toy editions are ready when this one is glued shut, and cut and paste with two big groups makes a bigger challenge with eight pictures and two rival teams to fill.",
+   "canonicalDeckSlug": "cutting-practice-fruits-k240",
+   "carousel": [
+    {
+     "label": "Cut and Paste Toys: Every Toy in Its Place",
+     "href": "cut-and-paste-toys"
+    },
+    {
+     "label": "Cut and Paste: Eight Pictures, Two Big Groups",
+     "href": "cut-and-paste-two-groups"
+    },
+    {
+     "label": "Cut and Paste Vehicles: Sort Them into Their Boxes",
+     "href": "cut-and-paste-vehicles"
+    },
+    {
+     "label": "Color by Shape: Every Triangle Red",
+     "href": "color-by-shape-code"
+    }
+   ],
+   "title": "Fruits Cut and Paste Worksheet | Free Printable PDF",
+   "metaDescription": "Fruits cut and paste worksheet: snip the fruit pictures apart, sort them into the picture-headed boxes and glue them in place. Free printable kindergarten PDF."
+  },
+  {
+   "slug": "cut-and-paste-toys",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cutting-practice",
+    "mode": null,
+    "theme": "toys",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Cut and Paste Worksheet",
+   "h1": "Cut and Paste Toys: Every Toy in Its Place",
+   "strand": "Fine Motor & Classification",
+   "standard": "K.MD.B.3",
+   "slotTokens": [
+    "cutting-practice",
+    "toys",
+    "kindergarten"
+   ],
+   "p1": "This cut and paste worksheet turns tidying up into a puzzle: the strip along the bottom holds a row of toy pictures, and the child cuts them free, studies each one, and glues every toy into the box headed by its matching picture. Snip, sort, stick — the routine children already love, applied to the one category of objects they know better than anyone else in the house: their own toys, named, known and firmly opinionated about.",
+   "p2": "Sorting toys on paper rehearses something delightfully practical — every playroom cleanup is, at heart, a classification task — but the deeper work is in the deciding. Toys are a wonderfully mixed category, so the child has to slow down, look at features, and defend a choice, which is the look-compare-commit loop that underpins later math sorting. The scissor work matters too: short cuts across a narrow strip are the perfect difficulty for young hands, demanding real steering without ever feeling impossible. A page like this earns its glue-stained keep twice over.",
+   "p3": "It prints free as a PDF for guilt-free cutting. When the toys are all boxed, the animal original and the fruit and vehicle editions carry the routine forward, and the maze pages reward the same careful looking with a pencil instead of scissors.",
+   "canonicalDeckSlug": "cutting-practice-toys-k240",
+   "carousel": [
+    {
+     "label": "Cut and Paste: Eight Pictures, Two Big Groups",
+     "href": "cut-and-paste-two-groups"
+    },
+    {
+     "label": "Cut and Paste Vehicles: Sort Them into Their Boxes",
+     "href": "cut-and-paste-vehicles"
+    },
+    {
+     "label": "Cut and Paste Fruits: Snip, Sort and Glue",
+     "href": "cut-and-paste-fruits"
+    },
+    {
+     "label": "Color by Shape: Every Triangle Red",
+     "href": "color-by-shape-code"
+    }
+   ],
+   "title": "Toys Cut and Paste Worksheet | Free Printable PDF",
+   "metaDescription": "Toys cut and paste worksheet: cut out the toy pictures, decide where each belongs and glue it into its box. Free printable kindergarten sorting PDF."
+  },
+  {
+   "slug": "color-by-shape-code",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Color by Code Worksheet",
+   "h1": "Color by Shape: Every Triangle Red",
+   "strand": "Geometry & Shape Recognition",
+   "standard": "K.G.A.2",
+   "slotTokens": [
+    "color-by-number",
+    "kindergarten"
+   ],
+   "p1": "This color by code worksheet runs entirely on shapes — no sums, no numerals, just geometry. Twelve outline shapes are scattered across the page, and the legend at the top gives the rule: every triangle red, every circle blue, and so on through four shape-and-color pairs. The child looks at each shape, decides what kind it is, checks the code, and colors it to match until the whole page is done.",
+   "p2": "Naming a shape from a flashcard is one thing; picking that same kind out of a scattered crowd of twelve, over and over without losing track, is the real Kindergarten skill, and that is exactly what this page drills. A triangle among stars and circles still has to be spotted as a triangle, and the coloring only comes out right if every one of them is. Because each entry in the code shows the shape beside a color swatch and the color word, a pre-reader can work from the swatch alone while a beginning reader gets the word for free — and learning to use a legend is itself a skill worth growing.",
+   "p3": "Print the free PDF and let the crayons check the learning. The classic color by number page swaps shapes for numerals as the code, and the subtraction color by code raises the stakes when the child is ready to earn each color with a little math.",
+   "canonicalDeckSlug": "color-by-number-k265",
+   "carousel": [
+    {
+     "label": "Subtraction Color by Code: Take Away, Then Color",
+     "href": "subtraction-color-by-code"
+    },
+    {
+     "label": "Add and Subtract Color by Code: Watch the Sign",
+     "href": "add-and-subtract-color-by-code"
+    },
+    {
+     "label": "Color by Code: Sums from 11 to 20",
+     "href": "color-by-code-sums-to-20"
+    },
+    {
+     "label": "Easy Maze: A First Little Labyrinth",
+     "href": "easy-maze"
+    }
+   ],
+   "title": "Color by Shape Worksheet | Free Printable PDF",
+   "metaDescription": "Color by shape worksheet: every triangle red, every circle blue — read the shape code and color all twelve shapes. No math needed. Free printable PDF."
+  },
+  {
+   "slug": "subtraction-color-by-code",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Color by Code Worksheet",
+   "h1": "Subtraction Color by Code: Take Away, Then Color",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "K.OA.A.2",
+   "slotTokens": [
+    "color-by-number",
+    "kindergarten"
+   ],
+   "p1": "On this color by code worksheet, every color has to be earned by taking away. Twelve outline shapes each hold a small take-away problem with a starting number up to 12 — 7 minus 3, 12 minus 5 and their friends. The child works the problem, finds the answer in the four-color legend, and colors the shape accordingly. Twelve little subtractions later, every shape on the page is colored and the math has quietly happened.",
+   "p2": "Subtraction usually gets far less playful practice than addition, which is precisely why this page exists. Take-away facts up to 12 need the same instant familiarity as their addition cousins, and a dozen repetitions with a crayon reward attached is a much easier sell than a column of bare problems. The legend adds a self-checking twist: an answer that is not in the code at all sends the child straight back to the problem, no adult needed. Watching which shapes get colored confidently and which cause a pause tells a teacher exactly which facts still need work.",
+   "p3": "It prints free as a PDF whenever the crayon box is ready. The add and subtract mixed page is the natural next step — same crayon reward, but now the operation sign has to be read before every move — and the original color by code covers the addition side of the family.",
+   "canonicalDeckSlug": "color-by-number-k267",
+   "carousel": [
+    {
+     "label": "Add and Subtract Color by Code: Watch the Sign",
+     "href": "add-and-subtract-color-by-code"
+    },
+    {
+     "label": "Color by Code: Sums from 11 to 20",
+     "href": "color-by-code-sums-to-20"
+    },
+    {
+     "label": "Color by Shape: Every Triangle Red",
+     "href": "color-by-shape-code"
+    },
+    {
+     "label": "Easy Maze: A First Little Labyrinth",
+     "href": "easy-maze"
+    }
+   ],
+   "title": "Subtraction Color by Code Worksheet | Free Printable PDF",
+   "metaDescription": "Subtraction color by code worksheet: solve the take-away fact in each shape, check the legend and color to match. Free printable kindergarten math PDF."
+  },
+  {
+   "slug": "add-and-subtract-color-by-code",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Color by Code Worksheet",
+   "h1": "Add and Subtract Color by Code: Watch the Sign",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "K.OA.A.2",
+   "slotTokens": [
+    "color-by-number",
+    "kindergarten"
+   ],
+   "p1": "This color by code worksheet refuses to let anyone settle into autopilot: its twelve shapes mix addition and subtraction on the same page — sums stay within 10, while a take-away can start as high as 12. One shape asks 4 plus 3, the next 11 minus 2, and the only way to color them all correctly is to read each operation sign before computing, then match the answer to the four-color legend and fill the shape in with the matching crayon.",
+   "p2": "Mixing operations targets the single most common error in early arithmetic — answering the sign you expected instead of the sign that is printed. Children who breeze through a page of pure addition will often add everything on a mixed page too, and this sheet makes that habit visible immediately, because a wrong operation produces a wrong color. The fix it teaches is small and mighty: touch the sign, say 'plus' or 'minus' out loud, then compute. Twelve shapes of that discipline builds the flexible switching that real math depends on.",
+   "p3": "Print the PDF free and let the colors do the correcting. If subtraction alone still feels wobbly, the subtraction color by code page isolates it first; when this mixed page is easy, the sums from 11 to 20 page pushes the addition facts past ten.",
+   "canonicalDeckSlug": "color-by-number-k268",
+   "carousel": [
+    {
+     "label": "Color by Code: Sums from 11 to 20",
+     "href": "color-by-code-sums-to-20"
+    },
+    {
+     "label": "Color by Shape: Every Triangle Red",
+     "href": "color-by-shape-code"
+    },
+    {
+     "label": "Subtraction Color by Code: Take Away, Then Color",
+     "href": "subtraction-color-by-code"
+    },
+    {
+     "label": "Easy Maze: A First Little Labyrinth",
+     "href": "easy-maze"
+    }
+   ],
+   "title": "Add and Subtract Coloring Worksheet | Free Printable PDF",
+   "metaDescription": "Mixed color by code worksheet: read the sign, add within 10 or take away from as much as 12, then color each shape by the legend. Free printable kindergarten math PDF."
+  },
+  {
+   "slug": "color-by-code-sums-to-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Color by Code Worksheet",
+   "h1": "Color by Code: Sums from 11 to 20",
+   "strand": "Operations & Algebraic Thinking",
+   "slotTokens": [
+    "color-by-number",
+    "kindergarten"
+   ],
+   "p1": "This color by code worksheet crosses the big bridge past ten: each of its twelve shapes holds an addition problem whose sum lands between 11 and 20. The child adds, finds the answer among the teen numbers in the four-color legend, and colors the shape to match — a dozen sums, a dozen careful legend checks, one finished picture at the end of it, earned entirely with math.",
+   "p2": "Sums beyond ten are where addition stops being countable on fingers and starts leaning on strategy — making ten first, counting on from the larger number, or simply knowing the fact cold. This page gives those strategies a friendly workout with a built-in reason to be accurate. The teen answers also sharpen numeral reading: 13 and 15 sitting in the same legend punish a careless glance, so the child learns to read two-digit answers with real attention. It is a genuine stretch inside a familiar, crayon-friendly format, which is exactly what a confident young mathematician wants.",
+   "p3": "The PDF prints free for as many pictures as the practice needs. The mixed add and subtract page is its within-10 companion, and number bonds work makes a strong partner routine for children who like to see exactly how the teen sums come apart.",
+   "canonicalDeckSlug": "color-by-number-k269",
+   "carousel": [
+    {
+     "label": "Color by Shape: Every Triangle Red",
+     "href": "color-by-shape-code"
+    },
+    {
+     "label": "Subtraction Color by Code: Take Away, Then Color",
+     "href": "subtraction-color-by-code"
+    },
+    {
+     "label": "Add and Subtract Color by Code: Watch the Sign",
+     "href": "add-and-subtract-color-by-code"
+    },
+    {
+     "label": "Easy Maze: A First Little Labyrinth",
+     "href": "easy-maze"
+    }
+   ],
+   "title": "Color by Code Sums 11-20 Worksheet | Free Printable PDF",
+   "metaDescription": "Color by code worksheet with sums from 11 to 20: add past ten, find the teen answer in the legend and color to match. Free printable math coloring PDF."
+  },
+  {
+   "slug": "easy-maze",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mazes",
+    "mode": null,
+    "theme": "fruits",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Maze Worksheet",
+   "h1": "Easy Maze: A First Little Labyrinth",
+   "strand": "Visual Perception & Pencil Control",
+   "slotTokens": [
+    "mazes",
+    "fruits",
+    "kindergarten"
+   ],
+   "p1": "This is the gentlest maze in the series: a small seven-by-eight grid, wide corridors, and a short path between start and finish. A piece of fruit waits at the top as the starting picture, its partner sits at the goal below, and the child draws one line through the little labyrinth to bring them together. Small grid, quick win — a first maze that ends in success rather than frustration.",
+   "p2": "First mazes have one job: to convince a child that mazes are solvable. A small grid means fewer decision points, so the whole route can almost be seen at a glance, and the pencil reaches the fruit before patience runs out. That early success matters more than the challenge, because it buys the willingness to attempt the harder grids later. Even at this size the real skills are working — looking ahead before drawing, holding a direction in mind, steering between walls without touching them — just in a dose sized kindly for a beginner's attention span.",
+   "p3": "Print it free as a PDF, and print two — the second run is always smoother, and children love proving it. When this size feels easy twice in a row, the hard maze with its bigger grid is ready and waiting, and the giant maze after that.",
+   "canonicalDeckSlug": "mazes-fruits-k270",
+   "carousel": [
+    {
+     "label": "Hard Maze: A Bigger Grid for Sharp Eyes",
+     "href": "hard-maze"
+    },
+    {
+     "label": "Giant Maze: The Biggest Puzzle on the Page",
+     "href": "giant-maze"
+    },
+    {
+     "label": "Animal Maze: Help One Friend Find the Other",
+     "href": "animal-maze"
+    },
+    {
+     "label": "Fruit Maze: Find the Way to the Fruit",
+     "href": "fruit-maze"
+    }
+   ],
+   "title": "Easy Maze Worksheet for Preschool | Free Printable PDF",
+   "metaDescription": "Easy maze worksheet: a small grid with wide corridors and a fruit waiting at the goal — a first maze that ends in success. Free printable kindergarten PDF."
+  },
+  {
+   "slug": "hard-maze",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mazes",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Maze Worksheet",
+   "h1": "Hard Maze: A Bigger Grid for Sharp Eyes",
+   "strand": "Visual Perception & Pencil Control",
+   "slotTokens": [
+    "mazes",
+    "vehicles",
+    "kindergarten"
+   ],
+   "p1": "This maze means business: an eleven-by-thirteen grid with narrow corridors, long false trails and plenty of dead ends. A vehicle sits at the entrance up top, its destination waits at the goal below, and the child threads a single pencil line through the whole tangle to get it there. It is a proper puzzle — the kind that takes a few honest wrong turns before it finally gives in and lets the line through.",
+   "p2": "The step up from an easy maze is mostly a step up in planning. With this many junctions, charging ahead stops working; the eye has to scout a corridor before the pencil commits, and a good dead end teaches the cheapest lesson in problem solving there is — back up, breathe, try the other way, no harm done. That recover-and-continue habit transfers far beyond mazes. Meanwhile the pencil work is real too: keeping a line inside narrow passages for this long is a genuine test of the steadiness that handwriting depends on.",
+   "p3": "The maze prints free as a PDF, so a hopeless tangle can simply be restarted on a fresh copy. Children not quite ready for this grid can warm up on the easy maze, and champions who solve it clean should be pointed straight at the giant maze.",
+   "canonicalDeckSlug": "mazes-vehicles-k271",
+   "carousel": [
+    {
+     "label": "Giant Maze: The Biggest Puzzle on the Page",
+     "href": "giant-maze"
+    },
+    {
+     "label": "Animal Maze: Help One Friend Find the Other",
+     "href": "animal-maze"
+    },
+    {
+     "label": "Fruit Maze: Find the Way to the Fruit",
+     "href": "fruit-maze"
+    },
+    {
+     "label": "Easy Maze: A First Little Labyrinth",
+     "href": "easy-maze"
+    }
+   ],
+   "title": "Hard Maze Worksheet | Free Printable PDF",
+   "metaDescription": "Hard maze worksheet: a big grid full of dead ends — guide the vehicle from the entrance to its goal with one careful pencil line. Free printable PDF."
+  },
+  {
+   "slug": "giant-maze",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mazes",
+    "mode": null,
+    "theme": "toys",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Maze Worksheet",
+   "h1": "Giant Maze: The Biggest Puzzle on the Page",
+   "strand": "Visual Perception & Pencil Control",
+   "slotTokens": [
+    "mazes",
+    "toys",
+    "kindergarten"
+   ],
+   "p1": "The giant maze is the biggest challenge in the series: a thirteen-by-fifteen grid that fills the page with corridors. At the top stands a toy from the toy-themed artwork; far below, at the goal, its partner waits. Between them lies the longest path any of these mazes asks a child to find, drawn as one continuous pencil line through turn after turn, with no shortcut anywhere.",
+   "p2": "A maze this size is less a puzzle than an expedition, and stamina is the skill it grows best. Staying with one problem for whole minutes — scanning, choosing, recovering from dead ends, keeping the goal in mind the entire time — is sustained attention of a kind few worksheets ever demand, and children finish it visibly proud. There is a strategy lesson hiding in it too: many solvers discover on their own that peeking backward from the goal can rescue a stuck route, which is a genuinely clever piece of thinking to invent at five.",
+   "p3": "It prints free as a PDF — generous, for a page offering this many minutes of quiet. The hard maze is the right training ground if the giant proves too much, and the themed animal and fruit mazes offer friendlier grids without shrinking the fun one bit.",
+   "canonicalDeckSlug": "mazes-toys-k272",
+   "carousel": [
+    {
+     "label": "Animal Maze: Help One Friend Find the Other",
+     "href": "animal-maze"
+    },
+    {
+     "label": "Fruit Maze: Find the Way to the Fruit",
+     "href": "fruit-maze"
+    },
+    {
+     "label": "Easy Maze: A First Little Labyrinth",
+     "href": "easy-maze"
+    },
+    {
+     "label": "Hard Maze: A Bigger Grid for Sharp Eyes",
+     "href": "hard-maze"
+    }
+   ],
+   "title": "Giant Maze Worksheet | Free Printable PDF",
+   "metaDescription": "Giant maze worksheet: the biggest grid in the series, with a toy at the start and its partner at the goal far below. Free printable kindergarten maze PDF."
+  },
+  {
+   "slug": "animal-maze",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mazes",
+    "mode": null,
+    "theme": "animals",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Maze Worksheet",
+   "h1": "Animal Maze: Help One Friend Find the Other",
+   "strand": "Visual Perception & Pencil Control",
+   "slotTokens": [
+    "mazes",
+    "animals",
+    "kindergarten"
+   ],
+   "p1": "In this edition of the maze worksheet, the story is all animals: one animal stands at the entrance at the top of the maze, a second waits at the goal below, and the child's pencil is what reunites them. Draw one continuous path through the corridors, back out of the dead ends, and bring the two friends together — that is the whole warm-hearted job, start to finish.",
+   "p2": "A maze gains a surprising amount of power from a reason. 'Help the rabbit reach its friend' recruits empathy, and a child who cares about the outcome will persist noticeably longer through wrong turns than one solving an abstract grid. Under the story, the classic maze benefits run at full strength: scanning ahead before committing, holding a plan while the pencil moves, and steering cleanly between the walls. The animal pair also invites a little storytelling afterward — who they are, why they were apart — which turns one worksheet into ten minutes of rich language.",
+   "p3": "Print the free PDF and let the reunion happen as often as it is requested. The fruit maze offers the same journey with a snack at the end, and the easy, hard and giant mazes ladder the challenge up for animal rescuers who want more.",
+   "canonicalDeckSlug": "mazes-animals-k242",
+   "carousel": [
+    {
+     "label": "Fruit Maze: Find the Way to the Fruit",
+     "href": "fruit-maze"
+    },
+    {
+     "label": "Easy Maze: A First Little Labyrinth",
+     "href": "easy-maze"
+    },
+    {
+     "label": "Hard Maze: A Bigger Grid for Sharp Eyes",
+     "href": "hard-maze"
+    },
+    {
+     "label": "Giant Maze: The Biggest Puzzle on the Page",
+     "href": "giant-maze"
+    }
+   ],
+   "title": "Animal Maze Worksheet | Free Printable PDF",
+   "metaDescription": "Animal maze worksheet: draw one path through the maze to bring the animal at the top to its friend waiting at the goal. Free printable kindergarten PDF."
+  },
+  {
+   "slug": "fruit-maze",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mazes",
+    "mode": null,
+    "theme": "fruits",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Maze Worksheet",
+   "h1": "Fruit Maze: Find the Way to the Fruit",
+   "strand": "Visual Perception & Pencil Control",
+   "slotTokens": [
+    "mazes",
+    "fruits",
+    "kindergarten"
+   ],
+   "p1": "This maze worksheet puts fruit at both ends of the journey: one piece marks the entrance at the top, another marks the goal at the bottom, and everything between is corridor. The child sets a pencil at the starting fruit and draws a single unbroken path through the maze — around corners, out of dead ends — until the line arrives at the fruit waiting patiently below.",
+   "p2": "The quiet virtue of a themed maze is focus. The fruit at the goal gives the eye a fixed target, and young solvers check back to it again and again, which is precisely the keep-the-goal-in-mind habit that maze work is meant to build. The rest of the training comes standard: planning a route before drawing it, controlling the pencil through narrow spaces, and treating every dead end as information rather than failure. It is problem solving at picture-book scale, and it feels like a game from the first pencil line to the last.",
+   "p3": "The page prints free as a PDF, ready whenever a quiet ten minutes is needed at the table. The animal maze tells the same story with two friends instead of fruit, and the graded easy, hard and giant mazes are there when the appetite for corridors grows.",
+   "canonicalDeckSlug": "mazes-fruits-k242",
+   "carousel": [
+    {
+     "label": "Easy Maze: A First Little Labyrinth",
+     "href": "easy-maze"
+    },
+    {
+     "label": "Hard Maze: A Bigger Grid for Sharp Eyes",
+     "href": "hard-maze"
+    },
+    {
+     "label": "Giant Maze: The Biggest Puzzle on the Page",
+     "href": "giant-maze"
+    },
+    {
+     "label": "Animal Maze: Help One Friend Find the Other",
+     "href": "animal-maze"
+    }
+   ],
+   "title": "Fruit Maze Worksheet | Free Printable PDF",
+   "metaDescription": "Fruit maze worksheet: start at the fruit at the top and draw one unbroken path through the corridors to the fruit below. Free printable kindergarten PDF."
+  },
+  {
+   "slug": "number-bonds-to-5",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-bonds",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Number Bonds Worksheet",
+   "h1": "Number Bonds to 5: The First Part-Part-Whole Page",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "K.OA.A.5",
+   "slotTokens": [
+    "number-bonds",
+    "kindergarten"
+   ],
+   "p1": "Every bond on this Kindergarten worksheet has the same whole: 5. Six part-part-whole diagrams fill the page, each one a large whole circle joined to two smaller part circles, and beneath the numeral in the whole circle runs a row of five counting dots. One part is printed; the other is a dashed, empty circle. The child counts the dots, sees how many of them the printed part already accounts for, and writes the number that finishes five.",
+   "p2": "Five is the right whole for a first bond page because it can still be held in the hand and taken in at a glance. A child who cannot yet recall that 3 and 2 make 5 is not stuck here: they count the dots, cover the printed part with a finger, and count what is left, so the picture does the teaching while the number knowledge catches up. That bridge from counting to knowing is the entire purpose of the dots. It is also why five comes before ten — there are only two pairs to meet, they come round again and again, and most children start finishing the bonds from memory within a page or two.",
+   "p3": "Print the PDF free and let the counting happen out loud; it fades on its own once the pairs are known. When the bonds of five arrive without a pause, number bonds within 10 widens the range one whole at a time, and the make ten page brings the dots back for the pairs every first grader eventually needs by heart.",
+   "canonicalDeckSlug": "number-bonds-k273",
+   "carousel": [
+    {
+     "label": "Number Bonds Within 10: A Different Whole Every Time",
+     "href": "number-bonds-within-10"
+    },
+    {
+     "label": "Number Bonds to 20: Part-Part-Whole Past Ten",
+     "href": "number-bonds-to-20"
+    },
+    {
+     "label": "Number Bonds: Find the Missing Whole",
+     "href": "number-bonds-missing-whole"
+    },
+    {
+     "label": "Make Ten: Number Bonds with Counting Dots",
+     "href": "make-ten-number-bonds"
+    }
+   ],
+   "title": "Number Bonds to 5 for Kindergarten | Free Printable PDF",
+   "metaDescription": "Number bonds to 5 worksheet: six part-part-whole bonds with counting dots in the whole. Write the missing part in the dashed circle. Free kindergarten PDF."
+  },
+  {
+   "slug": "number-bonds-within-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-bonds",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Number Bonds Worksheet",
+   "h1": "Number Bonds Within 10: A Different Whole Every Time",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "K.OA.A.3",
+   "slotTokens": [
+    "number-bonds",
+    "kindergarten"
+   ],
+   "p1": "The six bonds on this Kindergarten page do not share a whole. One card asks about 7, the next about 9, the next about 5 — any whole from 5 to 10 can turn up, and there are no counting dots to lean on this time. Each bond prints the whole and one of its parts, and the child writes the missing part into the dashed circle. Six bonds, six fresh starts, no two the same.",
+   "p2": "Mixing the wholes is a deliberately awkward choice, and that is exactly where its value lies. On a single-whole page a child can answer the second card without really reading it, because the number at the top never changes; here the first thing to check is which whole this particular bond is about. Teachers spot the tell immediately — a child who writes a partner for 10 on a card whose whole is 8 has been running on autopilot rather than reading. A mixed page catches that habit early, while it is still cheap to fix, and it pushes the child toward genuinely holding several different decompositions at once instead of one rehearsed set.",
+   "p3": "The sheet prints free as a PDF and takes only a few minutes. It follows naturally after number bonds to 5, where the dots still do some of the work, and once these feel comfortable, number bonds to 20 carries the very same picture past the ten barrier.",
+   "canonicalDeckSlug": "number-bonds-k274",
+   "carousel": [
+    {
+     "label": "Number Bonds to 20: Part-Part-Whole Past Ten",
+     "href": "number-bonds-to-20"
+    },
+    {
+     "label": "Number Bonds: Find the Missing Whole",
+     "href": "number-bonds-missing-whole"
+    },
+    {
+     "label": "Make Ten: Number Bonds with Counting Dots",
+     "href": "make-ten-number-bonds"
+    },
+    {
+     "label": "Number Bonds to 5: The First Part-Part-Whole Page",
+     "href": "number-bonds-to-5"
+    }
+   ],
+   "title": "Number Bonds Within 10 for Kindergarten | Free Printable PDF",
+   "metaDescription": "Number bonds within 10 worksheet: six bonds with wholes from 5 to 10 and no counting dots. Write the missing part in the dashed circle. Free kindergarten PDF."
+  },
+  {
+   "slug": "number-bonds-to-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-bonds",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Number Bonds Worksheet",
+   "h1": "Number Bonds to 20: Part-Part-Whole Past Ten",
+   "strand": "Operations & Algebraic Thinking",
+   "slotTokens": [
+    "number-bonds",
+    "kindergarten"
+   ],
+   "p1": "Every one of the six bonds on this page has 20 sitting in the whole circle. The diagram is unchanged — one whole joined to two parts, one of them dashed and empty — but the numbers are bigger: the child reads 20 and a part such as 13, and has to work out the partner that completes twenty. There are no counting dots and no counters printed anywhere, just the bond and the thinking that fills it.",
+   "p2": "Bonds of twenty are where the picture starts earning its keep as a strategy tool rather than a puzzle. Most children solve them by leaning on what they already know about ten: twenty is ten and ten, thirteen uses one ten and three more, so seven are left. Watching which route a child takes is genuinely informative — counting on by ones from thirteen says the ten structure has not landed yet, while an answer that arrives whole says it has. Either way, the pairs that make twenty are the facts sitting underneath two-digit addition a year or two later.",
+   "p3": "Print it free as a PDF and ask how each answer was found; the method matters more here than the six numbers do. Children who wobble can drop back to number bonds within 10 for a page, and those who fly through are ready for mental math within 20, where the same pairs reappear stripped of their circles.",
+   "canonicalDeckSlug": "number-bonds-k275",
+   "carousel": [
+    {
+     "label": "Number Bonds: Find the Missing Whole",
+     "href": "number-bonds-missing-whole"
+    },
+    {
+     "label": "Make Ten: Number Bonds with Counting Dots",
+     "href": "make-ten-number-bonds"
+    },
+    {
+     "label": "Number Bonds to 5: The First Part-Part-Whole Page",
+     "href": "number-bonds-to-5"
+    },
+    {
+     "label": "Number Bonds Within 10: A Different Whole Every Time",
+     "href": "number-bonds-within-10"
+    }
+   ],
+   "title": "Number Bonds to 20 for Kindergarten | Free Printable PDF",
+   "metaDescription": "Number bonds to 20 worksheet: six part-part-whole bonds that all make twenty. Write the missing part in the dashed circle. Free printable kindergarten PDF."
+  },
+  {
+   "slug": "number-bonds-missing-whole",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-bonds",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Number Bonds Worksheet",
+   "h1": "Number Bonds: Find the Missing Whole",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "K.OA.A.3",
+   "slotTokens": [
+    "number-bonds",
+    "kindergarten"
+   ],
+   "p1": "This Kindergarten number bonds worksheet turns the usual task around. On all six bonds the two parts are printed and the big circle at the top — the whole — is the dashed, empty one. The child reads the two parts, puts them together, and writes the total into the whole. The answers run from 6 to 10, so the numbers stay friendly while the direction of the thinking quietly flips.",
+   "p2": "Reversing the blank changes the operation without changing the picture. Finding a missing part is subtraction wearing a friendly diagram; finding the missing whole is plain addition — and children who have only ever seen one of the two often assume that every bond means take away. Working both directions on the same shape is what makes the part-whole relationship flexible rather than a memorized procedure, and it is the same insight that fact families formalize a year later. Expect a few children to subtract out of habit on the first card. One question usually settles it for good: are we putting these together, or breaking something apart?",
+   "p3": "The page prints free as a PDF and pairs beautifully with number bonds within 10, which keeps the blank down in a part, so a child can meet both directions in a single sitting. After that, fact families to 10 gives the same three numbers a house of their own to live in.",
+   "canonicalDeckSlug": "number-bonds-k276",
+   "carousel": [
+    {
+     "label": "Make Ten: Number Bonds with Counting Dots",
+     "href": "make-ten-number-bonds"
+    },
+    {
+     "label": "Number Bonds to 5: The First Part-Part-Whole Page",
+     "href": "number-bonds-to-5"
+    },
+    {
+     "label": "Number Bonds Within 10: A Different Whole Every Time",
+     "href": "number-bonds-within-10"
+    },
+    {
+     "label": "Number Bonds to 20: Part-Part-Whole Past Ten",
+     "href": "number-bonds-to-20"
+    }
+   ],
+   "title": "Number Bonds: Find the Whole | Free Printable PDF",
+   "metaDescription": "Number bonds worksheet with the whole missing: both parts are printed and the child writes the total in the dashed top circle. Free printable kindergarten PDF."
+  },
+  {
+   "slug": "make-ten-number-bonds",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-bonds",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Number Bonds Worksheet",
+   "h1": "Make Ten: Number Bonds with Counting Dots",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "K.OA.A.4",
+   "slotTokens": [
+    "number-bonds",
+    "kindergarten"
+   ],
+   "p1": "Four large number bonds fill this Kindergarten page, and every one of them makes ten. Beneath the numeral in the whole circle runs a row of ten counting dots; one part is printed and the other waits as a dashed circle. Because there are only four bonds and each is drawn big, the page is unhurried — the child counts the dots, reads the part that is given, and writes the partner that completes ten.",
+   "p2": "Four large cards instead of a dense grid is a classroom decision as much as a design one. A page like this works on a table between two children, under a document camera, or in a small pull-out group where every dot has to be visible from across the table — and the dots give the group something concrete to point at while they argue their way to an answer. The pairs that make ten deserve that much attention, because they are the facts behind bridging strategies, mental addition, and eventually every column method the child will ever meet.",
+   "p3": "Print the PDF free and keep a copy for the group table. Children who need a smaller whole first can start with number bonds to 5, where the dots do the same job at half the size, and once ten is secure, number bonds to 20 is the natural step up.",
+   "canonicalDeckSlug": "number-bonds-k277",
+   "carousel": [
+    {
+     "label": "Number Bonds to 5: The First Part-Part-Whole Page",
+     "href": "number-bonds-to-5"
+    },
+    {
+     "label": "Number Bonds Within 10: A Different Whole Every Time",
+     "href": "number-bonds-within-10"
+    },
+    {
+     "label": "Number Bonds to 20: Part-Part-Whole Past Ten",
+     "href": "number-bonds-to-20"
+    },
+    {
+     "label": "Number Bonds: Find the Missing Whole",
+     "href": "number-bonds-missing-whole"
+    }
+   ],
+   "title": "Make Ten Number Bonds with Dots | Free Printable PDF",
+   "metaDescription": "Make ten worksheet: four large number bonds of 10 with counting dots in the whole. Write the missing part in the dashed circle. Free printable kindergarten PDF."
+  },
+  {
+   "slug": "mental-math-within-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mental-math",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Mental Math Worksheet",
+   "h1": "Mental Math Within 10: Twelve Quick Facts",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "mental-math",
+    "grade-1"
+   ],
+   "p1": "Twelve bare number sentences sit in a tidy grid on this Grade 1 page, and every one of them stays within 10 — some add, some subtract, all of them answered in the head. There is nothing to decode: no pictures, no story, no space for working. The child reads a fact, thinks, and writes the answer in the box at the end. Plus-one and minus-one facts are kept off the page on purpose, so all twelve are worth solving, and the whole sheet takes two or three minutes.",
+   "p2": "Within 10 is the band where fluency has to be built first, because everything above it borrows from here. A child who still counts on fingers for 7 minus 3 will count on fingers for 17 minus 3 as well, and later for 47 minus 3, spending on retrieval the attention that the real problem needs. Keeping the numbers small makes the actual goal visible: not correctness, which most first graders can reach eventually by counting, but speed and calm. That is why a short page done often beats a long page done once.",
+   "p3": "The worksheet prints free as a PDF and makes an ideal daily warm-up. Children whose facts are still fragile can rebuild them on number bonds to 10, where the same pairs appear as a picture, and once ten feels easy, mental math within 20 raises the ceiling without changing the routine at all.",
+   "canonicalDeckSlug": "mental-math-g1214",
+   "carousel": [
+    {
+     "label": "Missing Number Equations to 20",
+     "href": "missing-number-equations-to-20"
+    },
+    {
+     "label": "Addition Facts to 20: Twelve Sums, No Subtraction",
+     "href": "addition-facts-to-20"
+    },
+    {
+     "label": "Subtraction Facts to 20: A Whole Page of Take-Away",
+     "href": "subtraction-facts-to-20"
+    },
+    {
+     "label": "Missing Number Equations to 10",
+     "href": "missing-number-equations-to-10"
+    }
+   ],
+   "title": "Mental Math Within 10 for Grade 1 | Free Printable PDF",
+   "metaDescription": "Mental math within 10 worksheet: twelve mixed addition and subtraction facts to solve in the head, one answer box each. Free printable Grade 1 PDF."
+  },
+  {
+   "slug": "missing-number-equations-to-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mental-math",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Mental Math Worksheet",
+   "h1": "Missing Number Equations to 20",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.D.8",
+   "slotTokens": [
+    "mental-math",
+    "grade-1"
+   ],
+   "p1": "Twelve equations within 20 fill this Grade 1 page, and the empty box moves around. On some cards it sits where you would expect, after the equals sign; on others it stands at the front or in the middle, so the child meets sentences shaped like a box plus 3 equals 8, or 14 minus a box equals 6, mixed in among ordinary ones. There is no working space and nothing to draw — the child reasons it out mentally and writes one number in the box.",
+   "p2": "This format quietly rewrites what the equals sign means. Most first graders read it as an instruction — now write the answer — and a page like this refuses to cooperate, because on many cards the answer is already printed. To fill the box the child has to see the sentence as a balance: something plus three is eight, so the something must be five. That shift is the beginning of algebraic thinking, and the classic error is beautifully diagnostic. A child who writes 11 where a box plus 3 equals 8 has added the two numbers they could see rather than read the sentence at all.",
+   "p3": "Print the PDF free and read the first equation aloud together, saying the box as the word something; that single habit clears up most of the confusion. Missing number equations to 10 offers a gentler version of exactly the same idea, and fact family houses to 20 shows why the flipped equations work.",
+   "canonicalDeckSlug": "mental-math-g1215",
+   "carousel": [
+    {
+     "label": "Addition Facts to 20: Twelve Sums, No Subtraction",
+     "href": "addition-facts-to-20"
+    },
+    {
+     "label": "Subtraction Facts to 20: A Whole Page of Take-Away",
+     "href": "subtraction-facts-to-20"
+    },
+    {
+     "label": "Missing Number Equations to 10",
+     "href": "missing-number-equations-to-10"
+    },
+    {
+     "label": "Mental Math Within 10: Twelve Quick Facts",
+     "href": "mental-math-within-10"
+    }
+   ],
+   "title": "Missing Number Equations to 20 | Free Printable PDF",
+   "metaDescription": "Missing number equations to 20 worksheet: twelve problems where the box moves to the front, middle or end. Solve mentally. Free printable Grade 1 PDF."
+  },
+  {
+   "slug": "addition-facts-to-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mental-math",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Mental Math Worksheet",
+   "h1": "Addition Facts to 20: Twelve Sums, No Subtraction",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "mental-math",
+    "grade-1"
+   ],
+   "p1": "Every one of the twelve problems on this Grade 1 page is an addition, and all of them stay within 20. The sums are printed as bare facts in a grid, each ending in a box for the answer — nothing to count, nothing to color, and no subtraction slipped in to break the rhythm. Both addends are at least two, so there are no free plus-one facts padding the page. The child adds in their head and fills twelve boxes.",
+   "p2": "A single-operation page is worth having on the shelf even though mixed practice is the long-term goal. When every problem adds, the child can settle into one strategy and actually rehearse it — bridging through ten for 8 plus 5, leaning on a known double for 7 plus 6, counting on from the larger number for 9 plus 2 — instead of switching mental gears between one line and the next. That is how a strategy turns into a habit. Once it has, mixing the operations back in becomes the honest test of whether it really stuck.",
+   "p3": "The page prints free as a PDF and works well as the first half of a pair: run it one day and subtraction facts to 20 the next, so both directions get a clean session of their own. Fact families to 10 then shows the two operations as one relationship rather than two jobs.",
+   "canonicalDeckSlug": "mental-math-g1216",
+   "carousel": [
+    {
+     "label": "Subtraction Facts to 20: A Whole Page of Take-Away",
+     "href": "subtraction-facts-to-20"
+    },
+    {
+     "label": "Missing Number Equations to 10",
+     "href": "missing-number-equations-to-10"
+    },
+    {
+     "label": "Mental Math Within 10: Twelve Quick Facts",
+     "href": "mental-math-within-10"
+    },
+    {
+     "label": "Missing Number Equations to 20",
+     "href": "missing-number-equations-to-20"
+    }
+   ],
+   "title": "Addition Facts to 20 for Grade 1 | Free Printable PDF",
+   "metaDescription": "Addition facts to 20 worksheet: twelve addition-only problems with an answer box each, solved mentally. Free printable Grade 1 PDF for fact fluency."
+  },
+  {
+   "slug": "subtraction-facts-to-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mental-math",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Mental Math Worksheet",
+   "h1": "Subtraction Facts to 20: A Whole Page of Take-Away",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "mental-math",
+    "grade-1"
+   ],
+   "p1": "Twelve subtraction facts within 20 are laid out in a grid on this Grade 1 page, each with an answer box beside it. No additions appear anywhere, and there is no room for written working — the child reads a fact such as 15 minus 8, works it out mentally, and writes the difference. Both the number taken away and the answer are always at least two, so no card is solved for free.",
+   "p2": "Subtraction lags behind addition for most first graders, and a page devoted to it is the fastest way to find out why. There are two good routes to 15 minus 8 — counting back eight, or counting up from 8 to 15 — and they are not equally efficient. Children who only ever count back struggle badly once the gap grows, and they lose their place around ten. Watching which route a child takes on the harder facts tells you far more than the number of ticks does, and it points straight at the strategy that needs teaching next.",
+   "p3": "Print the PDF free and ask a child to explain one answer out loud, because that is where the strategy shows itself. Addition facts to 20 makes the natural companion sheet, and children who need the ideas underneath can spend a page on number bonds within 10 before coming back.",
+   "canonicalDeckSlug": "mental-math-g1217",
+   "carousel": [
+    {
+     "label": "Missing Number Equations to 10",
+     "href": "missing-number-equations-to-10"
+    },
+    {
+     "label": "Mental Math Within 10: Twelve Quick Facts",
+     "href": "mental-math-within-10"
+    },
+    {
+     "label": "Missing Number Equations to 20",
+     "href": "missing-number-equations-to-20"
+    },
+    {
+     "label": "Addition Facts to 20: Twelve Sums, No Subtraction",
+     "href": "addition-facts-to-20"
+    }
+   ],
+   "title": "Subtraction Facts to 20 for Grade 1 | Free Printable PDF",
+   "metaDescription": "Subtraction facts to 20 worksheet: twelve subtraction-only problems with an answer box each, solved in the head. Free printable Grade 1 PDF."
+  },
+  {
+   "slug": "missing-number-equations-to-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mental-math",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Mental Math Worksheet",
+   "h1": "Missing Number Equations to 10",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.D.8",
+   "slotTokens": [
+    "mental-math",
+    "grade-1"
+   ],
+   "p1": "This Grade 1 page holds twelve equations that all stay within 10, and in each one an empty box stands where a number should be. Sometimes it sits at the end, sometimes at the front, sometimes in the middle: 4 plus a box equals 9, or a box minus 2 equals 5. Additions and subtractions are mixed together throughout. The child works out what belongs in the box mentally and writes it — one number per problem, twelve small pieces of detective work.",
+   "p2": "Small numbers make this a genuinely gentle introduction to a difficult idea. Missing-number work asks a child to think backwards, and if the arithmetic is demanding at the same time, the reasoning gets buried under the calculation. Within 10 the facts are usually already known, so all the effort lands where it belongs — on understanding what the sentence is actually asking. It also makes an unusually good partner activity: two children and one page produce far more talk than either would generate alone, because an empty box invites a guess and then a check.",
+   "p3": "The worksheet prints free as a PDF and slots neatly into small-group time. Children who find the boxes puzzling can meet the same idea drawn as a picture on number bonds within 10, and once the format feels familiar, missing number equations to 20 is the next rung on the ladder.",
+   "canonicalDeckSlug": "mental-math-g1218",
+   "carousel": [
+    {
+     "label": "Mental Math Within 10: Twelve Quick Facts",
+     "href": "mental-math-within-10"
+    },
+    {
+     "label": "Missing Number Equations to 20",
+     "href": "missing-number-equations-to-20"
+    },
+    {
+     "label": "Addition Facts to 20: Twelve Sums, No Subtraction",
+     "href": "addition-facts-to-20"
+    },
+    {
+     "label": "Subtraction Facts to 20: A Whole Page of Take-Away",
+     "href": "subtraction-facts-to-20"
+    }
+   ],
+   "title": "Missing Number Equations to 10 | Free Printable PDF",
+   "metaDescription": "Missing number equations to 10 worksheet: twelve add and subtract problems with the box in a different place each time. Free printable Grade 1 PDF."
+  },
+  {
+   "slug": "fact-families-to-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "fact-families",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Fact Family Worksheet",
+   "h1": "Fact Families to 10: Four Houses, Small Numbers",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.B.4",
+   "slotTokens": [
+    "fact-families",
+    "grade-1"
+   ],
+   "p1": "Four fact family houses stand on this Grade 1 page. Three numbers sit on each triangular roof — a trio such as 3, 4 and 7 — and underneath them the four facts that trio makes are already printed: two additions and two subtractions, each ending in an empty box. The child reads the roof and completes all four, filling sixteen boxes across the page. Every number stays within 10, and no house uses a double.",
+   "p2": "Keeping the numbers small on a first fact family page is deliberate. The idea being taught here is structural — the same three numbers rearrange into four different sentences — and that idea is hard to notice if the child is busy working out whether 8 and 9 make 17. With every sum inside ten the arithmetic is nearly free, so the child's attention lands on the pattern instead: one trio, two orders for the addition, two starting points for the subtraction. Once a child has genuinely seen it, that pattern transfers to any numbers at all.",
+   "p3": "The page prints free as a PDF, and four houses make a comfortable first sitting. When the shape of the task is familiar, fact house practice to 10 offers more of the same easy numbers for fluency, and fact family houses to 20 raises the size of the trios.",
+   "canonicalDeckSlug": "fact-families-g1219",
+   "carousel": [
+    {
+     "label": "Fact Family Houses to 20: Six Roofs to Fill",
+     "href": "fact-family-houses-to-20"
+    },
+    {
+     "label": "Fact House Practice to 10: Six Houses for Fluency",
+     "href": "fact-house-practice-to-10"
+    },
+    {
+     "label": "Fact Families: The Missing Partner",
+     "href": "fact-families-missing-partner"
+    },
+    {
+     "label": "Multiplication and Division Fact Families",
+     "href": "multiplication-and-division-fact-families"
+    }
+   ],
+   "title": "Fact Families to 10 for Grade 1 | Free Printable PDF",
+   "metaDescription": "Fact families to 10 worksheet: four houses, each with three roof numbers and four related facts to complete. Free printable Grade 1 PDF for addition and subtraction."
+  },
+  {
+   "slug": "fact-family-houses-to-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "fact-families",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Fact Family Worksheet",
+   "h1": "Fact Family Houses to 20: Six Roofs to Fill",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.B.4",
+   "slotTokens": [
+    "fact-families",
+    "grade-1"
+   ],
+   "p1": "Six houses fill this Grade 1 page, and the trios on their roofs now reach into the teens — 9, 8 and 17, or 6, 14 and 20. Beneath each roof stand the four facts those three numbers make, two additions and two subtractions, every line ending in an empty box. Six houses means twenty-four answers on a single sheet, and the numbers are large enough that none of them can be guessed at a glance.",
+   "p2": "This is the progression page, and both of the things that changed matter. Larger numbers push the child past the facts they can simply see and into the teens, where addition and subtraction genuinely have to be worked out; six houses instead of four turns the exercise from a demonstration into practice with real volume behind it. That combination is what moves fact families from something we did in a lesson to a tool the child actually reaches for. It also rehearses crossing ten, over and over, inside a task that never once mentions it.",
+   "p3": "Print it free as a PDF. Children meeting the format for the first time will do better starting on fact families to 10, where the arithmetic stays out of the way, and once these six houses feel routine, mental math within 20 puts the very same facts to work without any scaffolding at all.",
+   "canonicalDeckSlug": "fact-families-g1220",
+   "carousel": [
+    {
+     "label": "Fact House Practice to 10: Six Houses for Fluency",
+     "href": "fact-house-practice-to-10"
+    },
+    {
+     "label": "Fact Families: The Missing Partner",
+     "href": "fact-families-missing-partner"
+    },
+    {
+     "label": "Multiplication and Division Fact Families",
+     "href": "multiplication-and-division-fact-families"
+    },
+    {
+     "label": "Fact Families to 10: Four Houses, Small Numbers",
+     "href": "fact-families-to-10"
+    }
+   ],
+   "title": "Fact Family Houses to 20 | Free Printable PDF",
+   "metaDescription": "Fact family houses to 20 worksheet: six houses with teen trios on the roof and four related addition and subtraction facts each. Free printable Grade 1 PDF."
+  },
+  {
+   "slug": "fact-house-practice-to-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "fact-families",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Fact Family Worksheet",
+   "h1": "Fact House Practice to 10: Six Houses for Fluency",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.B.4",
+   "slotTokens": [
+    "fact-families",
+    "grade-1"
+   ],
+   "p1": "Six fact family houses, every trio within 10, are printed on this Grade 1 page. Each roof carries three numbers, and each house holds the same four facts underneath — add them both ways, subtract them both ways — with an empty box at the end of every line. The format is the one children already know from earlier houses; what has changed is the quantity: six roofs, twenty-four boxes, and small friendly numbers the whole way down.",
+   "p2": "This one is built for the routine slot rather than the teaching slot. The concept has already been introduced, the numbers stay easy, and the point is repetition — the sort of page that works as morning work, as an early-finisher task, or in a folder a child can pick up without any instruction from an adult. Fluency in fact families is worth that kind of drip-feed: the children who write the four facts quickly and confidently are the ones who later meet 13 minus 5 and simply recall the addition that answers it.",
+   "p3": "The sheet prints free as a PDF, and running it a few times across a term costs nothing at all. Fact families to 10 is the shorter introduction if a child is meeting houses for the first time, while fact families with a missing partner takes the same easy trios and hides a different number instead.",
+   "canonicalDeckSlug": "fact-families-g1221",
+   "carousel": [
+    {
+     "label": "Fact Families: The Missing Partner",
+     "href": "fact-families-missing-partner"
+    },
+    {
+     "label": "Multiplication and Division Fact Families",
+     "href": "multiplication-and-division-fact-families"
+    },
+    {
+     "label": "Fact Families to 10: Four Houses, Small Numbers",
+     "href": "fact-families-to-10"
+    },
+    {
+     "label": "Fact Family Houses to 20: Six Roofs to Fill",
+     "href": "fact-family-houses-to-20"
+    }
+   ],
+   "title": "Fact House Practice to 10 | Free Printable PDF",
+   "metaDescription": "Fact house practice worksheet: six fact family houses with trios within 10 and four related facts to complete in each. Free printable Grade 1 PDF."
+  },
+  {
+   "slug": "fact-families-missing-partner",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "fact-families",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Fact Family Worksheet",
+   "h1": "Fact Families: The Missing Partner",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.D.8",
+   "slotTokens": [
+    "fact-families",
+    "grade-1"
+   ],
+   "p1": "Four houses stand on this Grade 1 page, and the facts underneath them have moved their gap. Each line reads something like 7 plus a box equals 12, or 12 minus a box equals 5: the result is printed at the end, and the number missing is the one in the middle. Using the three numbers on the roof, the child works out which partner belongs in each box — four facts per house, sixteen boxes in all, with every trio inside twenty.",
+   "p2": "Giving the child the roof and the results, but not the middle number, changes what the page actually tests. Instead of generating four facts from scratch, the child has to match: to look at 12 minus a box equals 5 and recognize which member of the trio is doing the work. That is much closer to how fact knowledge gets used in the wild, where a number is missing, the relationship is known, and the child reasons from what is in front of them. It also catches the child who has been copying roof numbers into the lines by position, without ever reading what the sentence says.",
+   "p3": "Print the PDF free and treat a wrong box as a conversation rather than a correction. Fact family houses to 20 is the version where the child produces every answer themselves, and missing number equations to 20 strips the houses away entirely and leaves the same reasoning standing bare.",
+   "canonicalDeckSlug": "fact-families-g1222",
+   "carousel": [
+    {
+     "label": "Multiplication and Division Fact Families",
+     "href": "multiplication-and-division-fact-families"
+    },
+    {
+     "label": "Fact Families to 10: Four Houses, Small Numbers",
+     "href": "fact-families-to-10"
+    },
+    {
+     "label": "Fact Family Houses to 20: Six Roofs to Fill",
+     "href": "fact-family-houses-to-20"
+    },
+    {
+     "label": "Fact House Practice to 10: Six Houses for Fluency",
+     "href": "fact-house-practice-to-10"
+    }
+   ],
+   "title": "Fact Families: Missing Partner | Free Printable PDF",
+   "metaDescription": "Fact families missing partner worksheet: the result is printed and the middle number is blank in every fact. Four houses to complete. Free printable Grade 1 PDF."
+  },
+  {
+   "slug": "multiplication-and-division-fact-families",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "fact-families",
+    "mode": null,
+    "theme": "",
+    "level": "grade-3"
+   },
+   "eyebrow": "Fact Family Worksheet",
+   "h1": "Multiplication and Division Fact Families",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "3.OA.B.6",
+   "slotTokens": [
+    "fact-families",
+    "grade-3"
+   ],
+   "p1": "Four houses fill this Grade 3 page, and the trios on their roofs are not addition families. Each roof carries a factor, a factor and their product — 6, 7 and 42, say — and underneath it the four related facts are printed with an empty box at the end of each: 6 × 7, 7 × 6, 42 ÷ 6 and 42 ÷ 7. Sixteen boxes, four families, factors between 2 and 9, and never the same factor twice in one house.",
+   "p2": "The house is familiar from first grade, and reusing it here is precisely the point: multiplication and division undo one another exactly as addition and subtraction do. What makes this version powerful is what it does to division. A child who reads 42 ÷ 6 as how many sixes fit inside forty-two is counting groups; a child who sees the house behind it thinks six times what makes forty-two, and simply recalls a fact they already own. That unknown-factor view is the single most useful idea in third-grade division, and it is worth far more than any division algorithm taught early.",
+   "p3": "The page prints free as a PDF and makes an excellent follow-up to table work, once the facts themselves are reasonably secure. The times table of 5 and the times table of 3 supply the raw recall these houses depend on, and fact families to 10 is where the same structure first appeared with plus and minus.",
+   "canonicalDeckSlug": "fact-families-g3369",
+   "carousel": [
+    {
+     "label": "Fact Families to 10: Four Houses, Small Numbers",
+     "href": "fact-families-to-10"
+    },
+    {
+     "label": "Fact Family Houses to 20: Six Roofs to Fill",
+     "href": "fact-family-houses-to-20"
+    },
+    {
+     "label": "Fact House Practice to 10: Six Houses for Fluency",
+     "href": "fact-house-practice-to-10"
+    },
+    {
+     "label": "Fact Families: The Missing Partner",
+     "href": "fact-families-missing-partner"
+    }
+   ],
+   "title": "Multiply and Divide Fact Families | Free Printable PDF",
+   "metaDescription": "Multiplication and division fact families worksheet: four houses, each with a factor-factor-product roof and four related facts to complete. Free Grade 3 PDF."
+  },
+  {
+   "slug": "number-words-to-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-words",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Number Words Worksheet",
+   "h1": "Number Words to 20: Circle the Matching Word",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "2.NBT.A.3",
+   "slotTokens": [
+    "number-words",
+    "grade-1"
+   ],
+   "p1": "Six numerals between 3 and 20 are printed down this Grade 1 page, and beside each one stand three written number words on rounded chips. Only one of the three matches the numeral, and the near misses are close neighbors — a number one or two away, or ten apart — so a glance at the first letter is never enough. The child reads all three and circles the right one. Nothing has to be spelled or written: the whole task is reading, six times over.",
+   "p2": "The range matters more than it looks. Between three and twenty sit almost all of English's awkward number words: one, two and eight give the reader no help at all, eleven and twelve follow no pattern whatsoever, and thirteen and fifteen hide the roots they came from. These are words a child cannot decode their way into — they have to be known on sight, much the way sight words are — and a multiple-choice page is a low-stress way to build that recognition, because a near miss can be rejected without the child ever having to produce the correct spelling.",
+   "p3": "The sheet prints free as a PDF and takes about five minutes. Once these words are reliable, number words to 50 extends the range into the two-part compound numbers, and write the number words asks the child to produce the same words instead of picking them out of a line-up.",
+   "canonicalDeckSlug": "number-words-g1223",
+   "carousel": [
+    {
+     "label": "Tens in Words: Ten, Twenty, Thirty up to One Hundred",
+     "href": "tens-in-words-to-100"
+    },
+    {
+     "label": "Match Numbers to Number Words with a Line",
+     "href": "match-numbers-to-number-words"
+    },
+    {
+     "label": "Number Words to 50: Reading Two-Part Numbers",
+     "href": "number-words-to-50"
+    },
+    {
+     "label": "Write the Number Words with a Word Bank",
+     "href": "write-the-number-words"
+    }
+   ],
+   "title": "Number Words to 20 for Grade 1 | Free Printable PDF",
+   "metaDescription": "Number words to 20 worksheet: six numerals, three written words beside each, circle the one that matches. Free printable Grade 1 PDF for reading numbers."
+  },
+  {
+   "slug": "tens-in-words-to-100",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-words",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Number Words Worksheet",
+   "h1": "Tens in Words: Ten, Twenty, Thirty up to One Hundred",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "2.NBT.A.3",
+   "slotTokens": [
+    "number-words",
+    "grade-1"
+   ],
+   "p1": "This Grade 1 page keeps strictly to the round tens. Six numerals — 10, 20, 30 and their neighbors on up to 100 — are each printed with three written number words beside them, and the child circles the word that matches. Every numeral on the sheet is a multiple of ten, so the words in play are ten, twenty, thirty, forty, fifty, sixty, seventy, eighty, ninety and one hundred, and the wrong choices are drawn from the same family.",
+   "p2": "This is the page where the classic English confusion gets confronted head-on. For every ten from thirty to ninety, one of the two decoy words is its teen twin: forty against fourteen, sixty against sixteen, ninety against nineteen. The two families sound alike, look alike on the page, and mean wildly different amounts, and children who blur them make place-value errors that look like carelessness but are really vocabulary. Isolating the tens is what makes the difference audible — say the options out loud and the stressed ending gives the answer away. The odd spellings deserve a mention too, since forty loses the u that four keeps, and no rule explains it.",
+   "p3": "Print the PDF free and read the choices aloud as you go; the ear catches those endings faster than the eye ever will. Number words to 20 covers the teen half of the same confusion, and match numbers to number words puts both families side by side on one page.",
+   "canonicalDeckSlug": "number-words-g1224",
+   "carousel": [
+    {
+     "label": "Match Numbers to Number Words with a Line",
+     "href": "match-numbers-to-number-words"
+    },
+    {
+     "label": "Number Words to 50: Reading Two-Part Numbers",
+     "href": "number-words-to-50"
+    },
+    {
+     "label": "Write the Number Words with a Word Bank",
+     "href": "write-the-number-words"
+    },
+    {
+     "label": "Number Words to 20: Circle the Matching Word",
+     "href": "number-words-to-20"
+    }
+   ],
+   "title": "Tens in Words: 10 to 100 | Free Printable PDF",
+   "metaDescription": "Tens in words worksheet: six round tens from 10 to 100, circle the matching written word. Fixes the forty-versus-fourteen mix-up. Free printable Grade 1 PDF."
+  },
+  {
+   "slug": "match-numbers-to-number-words",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-words",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Number Words Worksheet",
+   "h1": "Match Numbers to Number Words with a Line",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "2.NBT.A.3",
+   "slotTokens": [
+    "number-words",
+    "grade-1"
+   ],
+   "p1": "This Grade 1 page drops the multiple-choice format entirely. Five numerals stand in a column down the left, five written number words in a column down the right, and the child draws a line from each number to its word. The words are deliberately scrambled — no word sits opposite its own number — and the values run from the teens up toward one hundred, so the teen words and the tens words end up competing for the same lines.",
+   "p2": "Matching behaves differently from circling, and it is worth having both on hand. On a multiple-choice page every item is decided on its own; here the five pairs form one puzzle, so a wrong line makes a second one impossible, and children quickly discover the strategy of doing the certain ones first and reasoning out whatever is left. That process of elimination is genuine mathematical thinking rather than word recognition alone. It also means a single mistake becomes visible immediately — to the child as much as to the teacher — which makes the page unusually self-correcting.",
+   "p3": "Print the PDF free and encourage a light pencil line, because matching pages reward the child who is willing to change their mind. Number words to 20 and tens in words are the two pages that feed it, and write the number words is the harder step where nothing is offered to choose from.",
+   "canonicalDeckSlug": "number-words-g1225",
+   "carousel": [
+    {
+     "label": "Number Words to 50: Reading Two-Part Numbers",
+     "href": "number-words-to-50"
+    },
+    {
+     "label": "Write the Number Words with a Word Bank",
+     "href": "write-the-number-words"
+    },
+    {
+     "label": "Number Words to 20: Circle the Matching Word",
+     "href": "number-words-to-20"
+    },
+    {
+     "label": "Tens in Words: Ten, Twenty, Thirty up to One Hundred",
+     "href": "tens-in-words-to-100"
+    }
+   ],
+   "title": "Match Numbers to Number Words | Free Printable PDF",
+   "metaDescription": "Matching worksheet for number words: five numerals in one column, five written words scrambled in the other, joined with a pencil line. Free printable Grade 1 PDF."
+  },
+  {
+   "slug": "number-words-to-50",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-words",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Number Words Worksheet",
+   "h1": "Number Words to 50: Reading Two-Part Numbers",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "2.NBT.A.3",
+   "slotTokens": [
+    "number-words",
+    "grade-1"
+   ],
+   "p1": "The six numerals on this Grade 1 page run from 13 up to 50, each printed with three written number words for the child to choose between. What changes at this range is the shape of the words themselves: above twenty they arrive in two parts joined by a hyphen — twenty-six, thirty-one, forty-eight — so the child is now reading a small structure rather than recalling a single memorized word.",
+   "p2": "Two-part number words are where reading and place value meet. Twenty-six is not an arbitrary label; it says twenty and six, in that order, and a child who reads it that way is reading the number's structure straight off the page. The decoys on this sheet make that necessary, because one of them is often the same digits reversed — thirty-two lurking beside twenty-three — and options that share a first part or a second part cannot be told apart by glancing at the beginning. It is also the natural moment to mention the hyphen, which English uses on every compound number word from twenty-one to ninety-nine.",
+   "p3": "The page prints free as a PDF and makes a good five-minute station once the teen words are secure. Number words to 20 is the place to be solid before starting here, and tens in words handles the round numbers that form the first half of every compound word on this sheet.",
+   "canonicalDeckSlug": "number-words-g1226",
+   "carousel": [
+    {
+     "label": "Write the Number Words with a Word Bank",
+     "href": "write-the-number-words"
+    },
+    {
+     "label": "Number Words to 20: Circle the Matching Word",
+     "href": "number-words-to-20"
+    },
+    {
+     "label": "Tens in Words: Ten, Twenty, Thirty up to One Hundred",
+     "href": "tens-in-words-to-100"
+    },
+    {
+     "label": "Match Numbers to Number Words with a Line",
+     "href": "match-numbers-to-number-words"
+    }
+   ],
+   "title": "Number Words to 50 for Grade 1 | Free Printable PDF",
+   "metaDescription": "Number words to 50 worksheet: six numerals from 13 to 50 with three written words each, circle the match. Compound hyphenated words. Free printable Grade 1 PDF."
+  },
+  {
+   "slug": "write-the-number-words",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-words",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Number Words Worksheet",
+   "h1": "Write the Number Words with a Word Bank",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "2.NBT.A.3",
+   "slotTokens": [
+    "number-words",
+    "grade-1"
+   ],
+   "p1": "A word bank runs across the top of this Grade 1 page, and beneath it six numerals wait, each printed above its own writing line. For every numeral the child finds the matching word in the bank and writes it out. The bank holds exactly the six words needed, shuffled out of order, and the numbers stay between 3 and 20 — words children already meet daily, except that this time nothing is circled and every letter has to be copied correctly.",
+   "p2": "Recognizing a word and producing it are two different skills, and the gap between them is where number-word work usually stalls. A child who circles fourteen without hesitation may still write it as forteen the moment the choice disappears. The word bank keeps this page honest rather than punishing: the correct spelling is right there to copy, so the child practises the act of writing the word — the letter order, the length, the look of the thing — with a model available. Because the bank holds six words for six numerals, it is also self-checking; a leftover word at the end means something above it went wrong.",
+   "p3": "Print the PDF free and expect it to take longer than the circling pages, since writing is slower and that is entirely fine. Number words to 20 is the recognition page that comes first, and match numbers to number words sits neatly between the two in difficulty.",
+   "canonicalDeckSlug": "number-words-g1227",
+   "carousel": [
+    {
+     "label": "Number Words to 20: Circle the Matching Word",
+     "href": "number-words-to-20"
+    },
+    {
+     "label": "Tens in Words: Ten, Twenty, Thirty up to One Hundred",
+     "href": "tens-in-words-to-100"
+    },
+    {
+     "label": "Match Numbers to Number Words with a Line",
+     "href": "match-numbers-to-number-words"
+    },
+    {
+     "label": "Number Words to 50: Reading Two-Part Numbers",
+     "href": "number-words-to-50"
+    }
+   ],
+   "title": "Write the Number Words | Free Printable PDF",
+   "metaDescription": "Write the number words worksheet: a shuffled word bank at the top and six numerals, each above a writing line. Find the word and copy it. Free Grade 1 PDF."
+  },
+  {
+   "slug": "counting-coins-first-steps",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Money Worksheet",
+   "h1": "Counting Coins: First Steps with Small Handfuls",
+   "strand": "Measurement & Data",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "money",
+    "grade-1"
+   ],
+   "p1": "Four purses are printed on this Grade 1 page, and each one holds only two or three coins. The coins come from the three smallest kinds — pennies, nickels and dimes — so no quarter appears anywhere on the sheet. The child counts what is in each purse and writes the total in cents in the box beside it. Four purses, four totals, and never more than three coins to keep track of at a time.",
+   "p2": "A first money page should be about the coins themselves, not about the counting. Before a child can add money at all, they have to know that this small silver disc is worth five while the slightly smaller one beside it is worth ten — a genuinely strange idea, since size and value openly disagree, and one that plenty of first graders quietly get wrong for months. Holding each handful to three coins leaves attention free for exactly that recognition work, and the missing quarter is deliberate too, because twenty-five is the value that turns simple counting into a real chain.",
+   "p3": "Print the PDF free, and if you have real coins nearby, lay them straight onto the pictures as you go. Counting pennies and nickels narrows the job even further to two coin kinds, while counting money with all the coins brings the quarter in as soon as the child is ready for it.",
+   "canonicalDeckSlug": "money-g1228",
+   "carousel": [
+    {
+     "label": "Counting Money: All Four Coins in Every Purse",
+     "href": "counting-money-all-coins"
+    },
+    {
+     "label": "Coin Counting Practice: Eight Purses on One Page",
+     "href": "coin-counting-practice"
+    },
+    {
+     "label": "Counting Pennies and Nickels: Two-Coin Purses",
+     "href": "counting-pennies-and-nickels"
+    },
+    {
+     "label": "Which Purse Has More Money? Compare and Circle",
+     "href": "which-purse-has-more-money"
+    }
+   ],
+   "title": "Counting Coins: First Steps | Free Printable PDF",
+   "metaDescription": "Beginner counting coins worksheet: four purses holding only two or three pennies, nickels and dimes. Write each total in cents. Free printable Grade 1 money PDF."
+  },
+  {
+   "slug": "counting-money-all-coins",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Money Worksheet",
+   "h1": "Counting Money: All Four Coins in Every Purse",
+   "strand": "Measurement & Data",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "money",
+    "grade-1"
+   ],
+   "p1": "Six purses, five to seven coins in each, and every kind of coin in play — pennies, nickels, dimes and quarters can all turn up in the same handful on this Grade 1 page. The child works out the value of each purse and writes the total in cents in the box beside it. It is the fullest version of the coin-counting task and comfortably the busiest sheet in the money family.",
+   "p2": "With seven mixed coins in front of them, a child needs a method rather than good luck. The one worth teaching is order: sort the coins from the largest value down to the smallest, count the quarters first, then count on in tens, then fives, then ones. Children who instead work left to right across the picture lose their place constantly. The classic error also shows up here more than anywhere else — counting the number of coins rather than their values, so a purse holding six coins gets reported as six cents. Both habits are plainly visible in the answers.",
+   "p3": "The sheet prints free as a PDF and makes a fair end-of-unit check. Coin counting practice offers the same four coins in smaller handfuls for warming up first, and mental math within 20 sharpens the adding that every total on this page depends on.",
+   "canonicalDeckSlug": "money-g1229",
+   "carousel": [
+    {
+     "label": "Coin Counting Practice: Eight Purses on One Page",
+     "href": "coin-counting-practice"
+    },
+    {
+     "label": "Counting Pennies and Nickels: Two-Coin Purses",
+     "href": "counting-pennies-and-nickels"
+    },
+    {
+     "label": "Which Purse Has More Money? Compare and Circle",
+     "href": "which-purse-has-more-money"
+    },
+    {
+     "label": "Counting Coins: First Steps with Small Handfuls",
+     "href": "counting-coins-first-steps"
+    }
+   ],
+   "title": "Counting Money: All the Coins | Free Printable PDF",
+   "metaDescription": "Counting money worksheet with all four coins: six purses holding five to seven pennies, nickels, dimes and quarters. Write each total. Free printable Grade 1 PDF."
+  },
+  {
+   "slug": "coin-counting-practice",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Money Worksheet",
+   "h1": "Coin Counting Practice: Eight Purses on One Page",
+   "strand": "Measurement & Data",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "money",
+    "grade-1"
+   ],
+   "p1": "Eight purses are packed onto this Grade 1 page — the longest sheet in the money family — with three to five coins in each and all four coin kinds in circulation. For every purse the child adds up the values and writes the total in cents in the box. The handfuls themselves are moderate and no two purses hold the same combination; it is the sheer number of purses that turns this page into a workout.",
+   "p2": "Volume is the whole design here. Coin counting improves the way any counting skill improves — through repetition spread out over time rather than crammed into one lesson — and eight purses on a single page give a child enough repetitions in one sitting for the routine to start running by itself: recognize the coin, put the biggest first, count on. It also makes an honest progress check across a term. Run the same page in September and again in January and the difference in speed is obvious to the child, not only to the teacher.",
+   "p3": "Print it free as a PDF and use it more than once, since the coins are generated fresh every time you download the sheet. Counting money with all the coins is the harder cousin, with bigger handfuls and quarters throughout, and counting coins first steps is the gentle entry point if eight purses feels like a lot.",
+   "canonicalDeckSlug": "money-g1230",
+   "carousel": [
+    {
+     "label": "Counting Pennies and Nickels: Two-Coin Purses",
+     "href": "counting-pennies-and-nickels"
+    },
+    {
+     "label": "Which Purse Has More Money? Compare and Circle",
+     "href": "which-purse-has-more-money"
+    },
+    {
+     "label": "Counting Coins: First Steps with Small Handfuls",
+     "href": "counting-coins-first-steps"
+    },
+    {
+     "label": "Counting Money: All Four Coins in Every Purse",
+     "href": "counting-money-all-coins"
+    }
+   ],
+   "title": "Coin Counting Practice for Grade 1 | Free Printable PDF",
+   "metaDescription": "Coin counting practice worksheet: eight purses with three to five coins each, all four coin kinds. Write every total in cents. Free printable Grade 1 money PDF."
+  },
+  {
+   "slug": "counting-pennies-and-nickels",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Money Worksheet",
+   "h1": "Counting Pennies and Nickels: Two-Coin Purses",
+   "strand": "Measurement & Data",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "money",
+    "grade-1"
+   ],
+   "p1": "Only two kinds of coin appear on this Grade 1 page: pennies and nickels. Six purses each hold between two and four of them, and the child counts the value and writes the total in cents in the box beside it. With one-cent and five-cent coins alone, every total on the sheet stays small and every count follows the same simple two-step shape.",
+   "p2": "Restricting the coins isolates the strategy all money counting is built on: count the bigger coin first in fives, then add the ones on top. Five, ten, eleven, twelve — said out loud, that is exactly the rhythm the child will later use with dimes and quarters, and it is far easier to learn when only two values sit on the table. Pennies and nickels also make the value-versus-size lesson unmistakable, because the nickel is the fatter coin and worth five of the small ones. That contradiction is one children need to meet early, and often.",
+   "p3": "The page prints free as a PDF and suits a small group where the counting can be done aloud together. Counting coins first steps adds the dime to the mix, and once three coin kinds feel easy, counting money with all the coins brings in the quarter as well.",
+   "canonicalDeckSlug": "money-g1231",
+   "carousel": [
+    {
+     "label": "Which Purse Has More Money? Compare and Circle",
+     "href": "which-purse-has-more-money"
+    },
+    {
+     "label": "Counting Coins: First Steps with Small Handfuls",
+     "href": "counting-coins-first-steps"
+    },
+    {
+     "label": "Counting Money: All Four Coins in Every Purse",
+     "href": "counting-money-all-coins"
+    },
+    {
+     "label": "Coin Counting Practice: Eight Purses on One Page",
+     "href": "coin-counting-practice"
+    }
+   ],
+   "title": "Counting Pennies and Nickels | Free Printable PDF",
+   "metaDescription": "Pennies and nickels worksheet: six purses holding two to four one-cent and five-cent coins. Count in fives, then ones. Free printable Grade 1 money PDF."
+  },
+  {
+   "slug": "which-purse-has-more-money",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Money Worksheet",
+   "h1": "Which Purse Has More Money? Compare and Circle",
+   "strand": "Measurement & Data",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "money",
+    "grade-1"
+   ],
+   "p1": "This Grade 1 page shows three rows, and each row holds two purses side by side. The child counts the money in both, decides which one is worth more, and circles it — no totals have to be written down, though most children write them anyway. The two purses in a row never hold the same amount, and they rarely hold the same number of coins, which is exactly where the interest lies.",
+   "p2": "Comparing is where the biggest money misconception surfaces. Asked which is more, five pennies or one dime, a great many first graders confidently choose the five: more coins looks like more money, and nothing in their everyday counting has ever contradicted them. A page that deliberately sets a small pile of valuable coins against a large pile of cheap ones forces that question into the open. Once a child has been surprised by it two or three times, the idea that value and quantity are genuinely different things tends to stay put for good.",
+   "p3": "Print the PDF free and ask for the reason rather than just the circle, because how do you know is the whole lesson here. Coin counting practice builds the adding that this comparison rests on, and counting money with all the coins is the page to visit next once totals come quickly and reliably.",
+   "canonicalDeckSlug": "money-g1232",
+   "carousel": [
+    {
+     "label": "Counting Coins: First Steps with Small Handfuls",
+     "href": "counting-coins-first-steps"
+    },
+    {
+     "label": "Counting Money: All Four Coins in Every Purse",
+     "href": "counting-money-all-coins"
+    },
+    {
+     "label": "Coin Counting Practice: Eight Purses on One Page",
+     "href": "coin-counting-practice"
+    },
+    {
+     "label": "Counting Pennies and Nickels: Two-Coin Purses",
+     "href": "counting-pennies-and-nickels"
+    }
+   ],
+   "title": "Which Purse Has More Money? | Free Printable PDF",
+   "metaDescription": "Comparing money worksheet: three rows of two purses, count both and circle the one worth more. Value versus number of coins. Free printable Grade 1 PDF."
+  },
+  {
+   "slug": "draw-clock-hands-to-the-hour",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "telling-time",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Telling Time Worksheet",
+   "h1": "Draw the Clock Hands: O'Clock Times",
+   "strand": "Measurement & Data",
+   "standard": "1.MD.B.3",
+   "slotTokens": [
+    "telling-time",
+    "grade-1"
+   ],
+   "p1": "Every time on this Grade 1 page is a whole hour — 3:00, 7:00, 11:00 — and every clock face is empty. The child reads the digital chip under a face, then draws two hands: the long minute hand straight up to the twelve, and the short hour hand pointing squarely at the number the chip names. Four faces, four whole hours, no minutes to work out anywhere. It is the first rung of the drawing-the-hands ladder, and deliberately the plainest one on it.",
+   "p2": "Starting at o'clock isolates one idea: the two hands are not the same. Children who have only ever read clocks often draw both hands the same length, or push the hour hand right out to the rim because it looks tidier there. On this page the difference between them is the answer — a long hand to twelve and a distinctly shorter one to the hour — so it gets rehearsed a dozen times before minutes complicate anything. Ask which hand goes in first every single time; that habit is what sticks.",
+   "p3": "Print it free as a PDF and keep a spare copy for the day a child needs an easy win. Once whole hours are drawn confidently, half past clocks are the natural next step, and the mixed times page is where all the steps finally meet. Reading a clock face is the companion skill worth practising alongside it.",
+   "canonicalDeckSlug": "telling-time-g1233",
+   "carousel": [
+    {
+     "label": "Draw the Clock Hands: Half Past",
+     "href": "draw-clock-hands-half-past"
+    },
+    {
+     "label": "Draw the Clock Hands: Quarter Past and Quarter To",
+     "href": "draw-clock-hands-quarter-hours"
+    },
+    {
+     "label": "Draw the Clock Hands to Five Minutes",
+     "href": "draw-clock-hands-to-five-minutes"
+    },
+    {
+     "label": "Draw the Clock Hands: Mixed Times Review",
+     "href": "draw-clock-hands-mixed-times"
+    }
+   ],
+   "title": "Draw Clock Hands to the Hour | Free Printable PDF",
+   "metaDescription": "Draw the clock hands worksheet: four empty faces and four whole hours. Long hand to the twelve, short hand to the number. Free printable Grade 1 PDF."
+  },
+  {
+   "slug": "draw-clock-hands-half-past",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "telling-time",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Telling Time Worksheet",
+   "h1": "Draw the Clock Hands: Half Past",
+   "strand": "Measurement & Data",
+   "standard": "1.MD.B.3",
+   "slotTokens": [
+    "telling-time",
+    "grade-1"
+   ],
+   "p1": "Every chip on this Grade 1 page reads half past — 2:30, 6:30, 9:30 — and every clock face is waiting to be filled in. The child draws the long minute hand straight down to the six, then places the short hour hand not on a number at all, but exactly between the hour just gone and the hour coming next. Four faces, all of them at :30, so the single new idea gets repeated rather than met once and lost.",
+   "p2": "This page exists because of one very stubborn mistake. Asked for half past four, most children plant the hour hand firmly on the 4, where it has always gone before, and produce a clock that reads roughly four o'clock. The hour hand moves continuously; by half past it has crawled halfway toward the next number. Drawing four of these in a row, with someone asking where the hour hand has got to each time, is what converts that idea from something heard into something the child has actually done.",
+   "p3": "The sheet prints free as a PDF, which makes it easy to hand out again a week later — this one rewards revisiting. Whole-hour clock faces are the gentler page to start from, quarter past and quarter to is where the same halfway thinking gets finer, and number words to 20 helps with reading the times themselves.",
+   "canonicalDeckSlug": "telling-time-g1234",
+   "carousel": [
+    {
+     "label": "Draw the Clock Hands: Quarter Past and Quarter To",
+     "href": "draw-clock-hands-quarter-hours"
+    },
+    {
+     "label": "Draw the Clock Hands to Five Minutes",
+     "href": "draw-clock-hands-to-five-minutes"
+    },
+    {
+     "label": "Draw the Clock Hands: Mixed Times Review",
+     "href": "draw-clock-hands-mixed-times"
+    },
+    {
+     "label": "Draw the Clock Hands: O'Clock Times",
+     "href": "draw-clock-hands-to-the-hour"
+    }
+   ],
+   "title": "Draw Clock Hands: Half Past | Free Printable PDF",
+   "metaDescription": "Half past worksheet: every digital chip ends in :30 and the child draws both hands. Minute hand to the six, hour hand halfway. Free Grade 1 PDF."
+  },
+  {
+   "slug": "draw-clock-hands-quarter-hours",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "telling-time",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Telling Time Worksheet",
+   "h1": "Draw the Clock Hands: Quarter Past and Quarter To",
+   "strand": "Measurement & Data",
+   "standard": "1.MD.B.3",
+   "slotTokens": [
+    "telling-time",
+    "grade-1"
+   ],
+   "p1": "The four times on this Grade 1 page land on the quarters — :15 and :45, quarter past and quarter to. The child reads each digital chip and draws the minute hand out to the three or to the nine, then judges where the short hour hand has crept to: a quarter of the way past the hour, or three quarters of the way toward the next one. The faces are entirely empty, so both hands are the child's decision.",
+   "p2": "Quarter hours are where clock language starts pulling against the numbers on the chip. Quarter to eight is written 7:45, and the hour hand ends up nearly at the eight — so a child who has learned to match the spoken hour to the drawn hour hand finally meets a case where the words and the picture agree with each other but not with the digits. Drawing it settles that confusion far better than explaining it does. Say each time aloud in both forms while the pencil is still moving.",
+   "p3": "Print the PDF free; a quiet ten minutes is all it asks for. Half past clocks are the page underneath this one and five-minute times the page above it, while the mixed review is where the quarters get tested against everything else the clock can say.",
+   "canonicalDeckSlug": "telling-time-g1235",
+   "carousel": [
+    {
+     "label": "Draw the Clock Hands to Five Minutes",
+     "href": "draw-clock-hands-to-five-minutes"
+    },
+    {
+     "label": "Draw the Clock Hands: Mixed Times Review",
+     "href": "draw-clock-hands-mixed-times"
+    },
+    {
+     "label": "Draw the Clock Hands: O'Clock Times",
+     "href": "draw-clock-hands-to-the-hour"
+    },
+    {
+     "label": "Draw the Clock Hands: Half Past",
+     "href": "draw-clock-hands-half-past"
+    }
+   ],
+   "title": "Draw Clock Hands: Quarter Hours | Free Printable PDF",
+   "metaDescription": "Quarter hours worksheet: quarter past and quarter to times drawn on empty clock faces, minute hand to the three or the nine. Free Grade 1 PDF."
+  },
+  {
+   "slug": "draw-clock-hands-to-five-minutes",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "telling-time",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Telling Time Worksheet",
+   "h1": "Draw the Clock Hands to Five Minutes",
+   "strand": "Measurement & Data",
+   "standard": "2.MD.C.7",
+   "slotTokens": [
+    "telling-time",
+    "grade-1"
+   ],
+   "p1": "Times on this Grade 1 page step in fives — 1:20, 4:35, 8:55 — and every clock face starts blank. To place the minute hand the child counts round the dial in fives, five for the one, ten for the two, fifteen for the three, until the count reaches the number the chip asks for. Then the short hour hand goes in, somewhere between two numerals rather than on one. Four faces, four five-minute times, and a lot of counting round the rim.",
+   "p2": "This is the page where the clock face stops being a ring of hour numbers and becomes two scales at once. The 5 on the dial means five o'clock to one hand and twenty-five minutes to the other, and nobody reads a real clock until that double duty feels ordinary. Counting the dial aloud in fives while drawing is the whole method, and it doubles as skip-counting practice that pays off in multiplication later. Expect the counting to be slow at first and noticeably quicker by the fourth face.",
+   "p3": "The worksheet prints free as a PDF, so a second copy costs nothing when the counting needs another run. Quarter hours make a gentler stop on the way here, mixed times are the natural page afterwards, and Grade 2 telling time carries the same five-minute reading into next year.",
+   "canonicalDeckSlug": "telling-time-g1236",
+   "carousel": [
+    {
+     "label": "Draw the Clock Hands: Mixed Times Review",
+     "href": "draw-clock-hands-mixed-times"
+    },
+    {
+     "label": "Draw the Clock Hands: O'Clock Times",
+     "href": "draw-clock-hands-to-the-hour"
+    },
+    {
+     "label": "Draw the Clock Hands: Half Past",
+     "href": "draw-clock-hands-half-past"
+    },
+    {
+     "label": "Draw the Clock Hands: Quarter Past and Quarter To",
+     "href": "draw-clock-hands-quarter-hours"
+    }
+   ],
+   "title": "Draw Clock Hands to Five Minutes | Free Printable PDF",
+   "metaDescription": "Five-minute clock worksheet: read times like 4:25 and draw both hands on an empty face. Count the dial round in fives. Free printable Grade 1 PDF."
+  },
+  {
+   "slug": "draw-clock-hands-mixed-times",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "telling-time",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Telling Time Worksheet",
+   "h1": "Draw the Clock Hands: Mixed Times Review",
+   "strand": "Measurement & Data",
+   "standard": "1.MD.B.3",
+   "slotTokens": [
+    "telling-time",
+    "grade-1"
+   ],
+   "p1": "This Grade 1 page mixes everything the clock has offered so far. One chip might read 6:00, the next 2:30, the one after 9:45 or 3:20 — so the child never settles into a single routine, because every face asks a slightly different question. They read the digital time, work out where the minute hand belongs, and then place the short hour hand accordingly: on a number, halfway between two, or somewhere in between the two.",
+   "p2": "Mixing the times is what turns practice into a check. On a page where every clock says half past, a child can succeed without ever really reading the chip; here they cannot. Interleaving the four cases forces a decision before every stroke, which is harder and far more informative — an adult can see at a glance whether the hour hand is still being parked on numerals, or whether the fives are being counted or merely guessed. It works well as a Friday page, or as a quick check before Grade 2 time work begins.",
+   "p3": "Print it free as a PDF and keep the finished sheets; two of them a month apart make progress visible. If one case wobbles, the single-focus pages are still there — whole hours, half past, quarter hours, five minutes — and reading a clock face rounds out the same skill from the other direction.",
+   "canonicalDeckSlug": "telling-time-g1237",
+   "carousel": [
+    {
+     "label": "Draw the Clock Hands: O'Clock Times",
+     "href": "draw-clock-hands-to-the-hour"
+    },
+    {
+     "label": "Draw the Clock Hands: Half Past",
+     "href": "draw-clock-hands-half-past"
+    },
+    {
+     "label": "Draw the Clock Hands: Quarter Past and Quarter To",
+     "href": "draw-clock-hands-quarter-hours"
+    },
+    {
+     "label": "Draw the Clock Hands to Five Minutes",
+     "href": "draw-clock-hands-to-five-minutes"
+    }
+   ],
+   "title": "Draw Clock Hands: Mixed Times | Free Printable PDF",
+   "metaDescription": "Mixed clock times worksheet: whole hours, half past, quarter hours and five-minute times together on four empty faces. Free printable Grade 1 PDF."
+  },
+  {
+   "slug": "addition-word-problems-with-pictures",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "grade-1"
+   },
+   "eyebrow": "Word Problems Worksheet",
+   "h1": "Addition Word Problems with Pictures",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.A.1",
+   "slotTokens": [
+    "word-problems",
+    "fruits",
+    "grade-1"
+   ],
+   "p1": "Every story on this Grade 1 page adds. Someone picks a few apples and then picks a few more; someone brings pears to the table and a friend brings some too. Under each story sits a strip of fruit pictures showing exactly what the words describe, and beside it a dot-grid panel for working. The child reads, counts the fruit if they need to, jots or draws on the grid, and writes the total in the answer box.",
+   "p2": "Keeping every story on this page an addition story is a deliberate simplification. A word problem asks a child to do two hard things at once — decide what is happening, then compute — and beginners often fail at the first while being perfectly capable of the second. With the operation fixed, all the attention goes to modelling the story: who had what, what arrived, what the question actually wants. Addition also turns up in more than one shape here, joining and putting together, which is worth naming aloud while the pictures are still in front of them.",
+   "p3": "The page prints free as a PDF, and it reads aloud beautifully for children still building fluency. Subtraction stories are the obvious companion sheet, the mixed picture word problems put the two operations back together, and mental math within 20 keeps the totals quick.",
+   "canonicalDeckSlug": "word-problems-fruits-g1238",
+   "carousel": [
+    {
+     "label": "Subtraction Word Problems with Pictures",
+     "href": "subtraction-word-problems-with-pictures"
+    },
+    {
+     "label": "Word Problems Within 10: Small Numbers, Real Stories",
+     "href": "word-problems-within-10"
+    },
+    {
+     "label": "Word Problem Practice: Three Stories on One Page",
+     "href": "word-problem-practice-three-stories"
+    },
+    {
+     "label": "Animal Word Problems with Pictures",
+     "href": "animal-word-problems-with-pictures"
+    }
+   ],
+   "title": "Addition Word Problems Grade 1 | Free Printable PDF",
+   "metaDescription": "Addition word problems with fruit pictures: two stories, a picture strip to count and a dot-grid work space. Free printable Grade 1 math PDF."
+  },
+  {
+   "slug": "subtraction-word-problems-with-pictures",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "grade-1"
+   },
+   "eyebrow": "Word Problems Worksheet",
+   "h1": "Subtraction Word Problems with Pictures",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.A.1",
+   "slotTokens": [
+    "word-problems",
+    "fruits",
+    "grade-1"
+   ],
+   "p1": "Both stories on this Grade 1 page take something away. A basket of oranges loses a few to a hungry family; a plate of strawberries is shared out and some get eaten. A picture strip underneath restates the situation in fruit icons the child can count and cross off, and a dot-grid panel gives room to work. They read the story, lean on the pictures as much as they like, and write what is left in the answer box.",
+   "p2": "Subtraction stories are quietly harder than they look, because taking away is only one of their shapes. The same minus sign covers what is left over, how many more one person has than another, and how many are missing — and children who learn the shortcut of grabbing the two numbers and subtracting the smaller from the larger get away with it for a while, then abruptly stop getting away with it. Picture support is the antidote: it is difficult to misread a story you can physically count and cross out.",
+   "p3": "Print the PDF free and ask the child to point at what disappeared before they write anything down. Addition stories make the natural pairing, fact family houses show why the two operations are really one relationship, and word problems within 10 is the gentler edition when the reading still feels heavy.",
+   "canonicalDeckSlug": "word-problems-fruits-g1239",
+   "carousel": [
+    {
+     "label": "Word Problems Within 10: Small Numbers, Real Stories",
+     "href": "word-problems-within-10"
+    },
+    {
+     "label": "Word Problem Practice: Three Stories on One Page",
+     "href": "word-problem-practice-three-stories"
+    },
+    {
+     "label": "Animal Word Problems with Pictures",
+     "href": "animal-word-problems-with-pictures"
+    },
+    {
+     "label": "Addition Word Problems with Pictures",
+     "href": "addition-word-problems-with-pictures"
+    }
+   ],
+   "title": "Subtraction Word Problems Grade 1 | Free Printable PDF",
+   "metaDescription": "Subtraction word problems with fruit pictures: two take-away stories with picture support and a dot-grid work space. Free printable Grade 1 PDF."
+  },
+  {
+   "slug": "word-problems-within-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "grade-1"
+   },
+   "eyebrow": "Word Problems Worksheet",
+   "h1": "Word Problems Within 10: Small Numbers, Real Stories",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.A.1",
+   "slotTokens": [
+    "word-problems",
+    "fruits",
+    "grade-1"
+   ],
+   "p1": "Every number on this Grade 1 page stays inside ten. The stories still add and subtract, still come with a strip of fruit pictures and a dot-grid panel to work on, but nothing ever climbs past a total the child can hold on two hands. Read the story, count the pictures, work it out on the grid, write the answer in the box — with the arithmetic small enough that nobody gets lost halfway through a sentence.",
+   "p2": "Small numbers here are a reading decision rather than a mathematical one. A first grader working through an unfamiliar sentence is already spending most of their attention on the words; if the calculation waiting at the end is also demanding, the whole thing collapses and the child quietly concludes they are bad at word problems. Keeping every total within ten frees that attention for comprehension, which is the part actually being taught. That makes this a good page for children new to the language of the classroom, and a good first page of the year for everyone else.",
+   "p3": "It prints free as a PDF and works well read aloud in pairs, one child reading while the other solves. When the reading feels easy, addition stories and subtraction stories raise the numbers, and the compact three-story page is the next step up in stamina.",
+   "canonicalDeckSlug": "word-problems-fruits-g1240",
+   "carousel": [
+    {
+     "label": "Word Problem Practice: Three Stories on One Page",
+     "href": "word-problem-practice-three-stories"
+    },
+    {
+     "label": "Animal Word Problems with Pictures",
+     "href": "animal-word-problems-with-pictures"
+    },
+    {
+     "label": "Addition Word Problems with Pictures",
+     "href": "addition-word-problems-with-pictures"
+    },
+    {
+     "label": "Subtraction Word Problems with Pictures",
+     "href": "subtraction-word-problems-with-pictures"
+    }
+   ],
+   "title": "Word Problems Within 10 | Free Printable PDF",
+   "metaDescription": "Word problems within 10 for Grade 1: short picture stories with totals no higher than ten, plus a dot-grid work space. Free printable math PDF."
+  },
+  {
+   "slug": "word-problem-practice-three-stories",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "grade-1"
+   },
+   "eyebrow": "Word Problems Worksheet",
+   "h1": "Word Problem Practice: Three Stories on One Page",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.A.1",
+   "slotTokens": [
+    "word-problems",
+    "fruits",
+    "grade-1"
+   ],
+   "p1": "Three stories fit on this Grade 1 page instead of the usual two, each trimmed a little to keep everything readable — a short story, a picture strip, a smaller work space, an answer box. The mix adds and subtracts, so every story opens with a decision before any counting starts. It is the same task the other word problem pages set, packed slightly tighter and asked one more time.",
+   "p2": "Three problems in a row is a small test of endurance, and endurance matters more in word problems than in any other kind of arithmetic. A child who solves the first story carefully, the second hastily and the third by guessing is telling you something useful, and it is not that they cannot subtract. Because the layout is compact and the instructions never change, this page also runs well as homework or as an early-finisher sheet — nobody needs it explained twice, and it can be marked in under a minute.",
+   "p3": "Print the PDF free, and consider timing nothing at all: careful beats quick at this stage. Addition stories and subtraction stories are the single-operation pages to fall back on, while animal word problems tell the same kind of story with a completely different picture bank.",
+   "canonicalDeckSlug": "word-problems-fruits-g1241",
+   "carousel": [
+    {
+     "label": "Animal Word Problems with Pictures",
+     "href": "animal-word-problems-with-pictures"
+    },
+    {
+     "label": "Addition Word Problems with Pictures",
+     "href": "addition-word-problems-with-pictures"
+    },
+    {
+     "label": "Subtraction Word Problems with Pictures",
+     "href": "subtraction-word-problems-with-pictures"
+    },
+    {
+     "label": "Word Problems Within 10: Small Numbers, Real Stories",
+     "href": "word-problems-within-10"
+    }
+   ],
+   "title": "Grade 1 Word Problem Practice | Free Printable PDF",
+   "metaDescription": "Word problem practice for Grade 1: three compact picture stories on one page, mixing addition and subtraction, each with an answer box. Free PDF."
+  },
+  {
+   "slug": "animal-word-problems-with-pictures",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "animals",
+    "level": "grade-1"
+   },
+   "eyebrow": "Word Problems Worksheet",
+   "h1": "Animal Word Problems with Pictures",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.A.1",
+   "slotTokens": [
+    "word-problems",
+    "animals",
+    "grade-1"
+   ],
+   "p1": "This Grade 1 word problems page runs on animals. Two short stories — ducks arriving at a pond, rabbits disappearing into the grass, a farmer counting sheep — sit above a strip of animal pictures showing exactly what the words describe, plus a dot-grid panel for working out. The child reads, counts the animals if that helps, and writes the answer in the box. The mathematics matches the fruit edition exactly; only the cast has changed.",
+   "p2": "Changing the pictures is not decoration. Children who meet the same story structure only ever with apples can quietly conclude that the method belongs to apples, and then stumble the first time a problem is about ducks. Re-running identical structures across different nouns is how a strategy becomes portable — and animals happen to carry more story with them, which loosens up the retelling that is such a good check on understanding. The vocabulary is a bonus for children still building the everyday nouns of their school language.",
+   "p3": "The sheet prints free as a PDF, and animals invite a good follow-up: make up one more story about the same picture. The fruit edition of these picture word problems is the sibling to run alongside it, and word problems within 10 keeps the numbers small while the reading grows.",
+   "canonicalDeckSlug": "word-problems-animals-g1213",
+   "carousel": [
+    {
+     "label": "Addition Word Problems with Pictures",
+     "href": "addition-word-problems-with-pictures"
+    },
+    {
+     "label": "Subtraction Word Problems with Pictures",
+     "href": "subtraction-word-problems-with-pictures"
+    },
+    {
+     "label": "Word Problems Within 10: Small Numbers, Real Stories",
+     "href": "word-problems-within-10"
+    },
+    {
+     "label": "Word Problem Practice: Three Stories on One Page",
+     "href": "word-problem-practice-three-stories"
+    }
+   ],
+   "title": "Animal Word Problems Grade 1 | Free Printable PDF",
+   "metaDescription": "Animal word problems for Grade 1: two picture stories about ducks, rabbits and friends, with counting icons and a dot-grid work space. Free PDF."
+  },
+  {
+   "slug": "2-digit-column-addition",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Column Arithmetic Worksheet",
+   "h1": "2-Digit Column Addition Without Regrouping",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "2.NBT.B.5",
+   "slotTokens": [
+    "column-arithmetic",
+    "grade-2"
+   ],
+   "p1": "Six two-digit additions stand in columns down this Grade 2 page, each digit in its own place-value box: 34 + 25, 61 + 17, and four more of the same shape. No column ever totals more than nine, so nothing is ever carried anywhere on the sheet. The child adds the ones, writes that digit in its box, moves left, adds the tens, and writes that one — the same four moves, six times over.",
+   "p2": "The habit being built here is physical as much as mathematical. Start at the right, work one column at a time, keep one digit per box, and never let the pencil drift leftwards before the ones are finished. Left to right feels natural to a child who reads that way, and it works perfectly well until the first carry, at which point it stops working at all — so the direction is worth insisting on now, while insisting costs nothing. The boxes do quiet work too: crooked columns cause more early errors than faulty adding does.",
+   "p3": "The page prints free as a PDF and suits a short daily run more than a long weekly one. Two-digit column subtraction is the matching sheet, three-digit column addition widens the same routine, and addition with carrying is where this method finally earns its keep.",
+   "canonicalDeckSlug": "column-arithmetic-g2255",
+   "carousel": [
+    {
+     "label": "2-Digit Column Subtraction Without Regrouping",
+     "href": "2-digit-column-subtraction"
+    },
+    {
+     "label": "3-Digit Numbers in Columns: Add and Subtract",
+     "href": "3-digit-column-addition-and-subtraction"
+    },
+    {
+     "label": "3-Digit Column Addition Without Regrouping",
+     "href": "3-digit-column-addition"
+    },
+    {
+     "label": "Column Method Review: Mixed Widths and Operations",
+     "href": "column-method-review"
+    }
+   ],
+   "title": "2-Digit Column Addition | Free Printable PDF",
+   "metaDescription": "2-digit column addition worksheet without regrouping: six stacked sums with place-value boxes, starting at the ones. Free printable Grade 2 PDF."
+  },
+  {
+   "slug": "2-digit-column-subtraction",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Column Arithmetic Worksheet",
+   "h1": "2-Digit Column Subtraction Without Regrouping",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "2.NBT.B.5",
+   "slotTokens": [
+    "column-arithmetic",
+    "grade-2"
+   ],
+   "p1": "Six two-digit subtractions run down this Grade 2 page in columns, ones under ones and tens under tens: 68 − 24, 95 − 51, and four more built the same way. In every problem the top digit is the larger one in both columns, so nothing is ever borrowed. The child subtracts the ones, writes the digit in its box, moves across to the tens, and does exactly the same thing again.",
+   "p2": "This is the right moment to name a habit that will cause trouble later. Because the top digit is always the bigger one here, a child can answer every problem correctly while believing the rule is take the small one from the big one — and that belief survives happily until the first problem where it is wrong. Say out loud, on this easy page, that we take the bottom number from the top one, and that a case is coming where the top is too small and something will have to be exchanged. Groundwork laid now saves a difficult week later on.",
+   "p3": "Print it free as a PDF for regular short practice. Two-digit column addition is the partner sheet, the column method review interleaves both operations, and subtraction with borrowing is the step this page is quietly preparing the ground for.",
+   "canonicalDeckSlug": "column-arithmetic-g2256",
+   "carousel": [
+    {
+     "label": "3-Digit Numbers in Columns: Add and Subtract",
+     "href": "3-digit-column-addition-and-subtraction"
+    },
+    {
+     "label": "3-Digit Column Addition Without Regrouping",
+     "href": "3-digit-column-addition"
+    },
+    {
+     "label": "Column Method Review: Mixed Widths and Operations",
+     "href": "column-method-review"
+    },
+    {
+     "label": "2-Digit Column Addition Without Regrouping",
+     "href": "2-digit-column-addition"
+    }
+   ],
+   "title": "2-Digit Column Subtraction | Free Printable PDF",
+   "metaDescription": "2-digit column subtraction worksheet without borrowing: six stacked problems with place-value boxes, start with the ones. Free Grade 2 math PDF."
+  },
+  {
+   "slug": "3-digit-column-addition-and-subtraction",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Column Arithmetic Worksheet",
+   "h1": "3-Digit Numbers in Columns: Add and Subtract",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "2.NBT.B.7",
+   "slotTokens": [
+    "column-arithmetic",
+    "grade-2"
+   ],
+   "p1": "Three columns now — hundreds, tens and ones — and the six problems on this Grade 2 page mix addition with subtraction, so the sign has to be read before anything else happens: 342 + 215 sits beside 687 − 143. There is no carrying and no borrowing anywhere on the page. The child checks the sign, starts at the ones, and works leftward through all three places, one digit per box.",
+   "p2": "Mixing the two operations changes what the page is really testing. On a sheet of pure additions the sign becomes wallpaper and children stop looking at it; here the very first move is a decision, and the classic error is a subtraction carried out as an addition simply because the previous problem was one. Pausing to read the sign aloud before the pencil moves is a habit worth a fortnight of nagging. It is also the habit that makes mixed test papers survivable in the years ahead.",
+   "p3": "The worksheet prints free as a PDF and makes a solid mid-week check, since it takes only a few minutes to mark. Two-digit column addition and two-digit column subtraction are the narrower pages behind it, three-digit column addition keeps the width without the switching, and the column method review is the fuller mixed set to reach for once three digits stop feeling new.",
+   "canonicalDeckSlug": "column-arithmetic-g2257",
+   "carousel": [
+    {
+     "label": "3-Digit Column Addition Without Regrouping",
+     "href": "3-digit-column-addition"
+    },
+    {
+     "label": "Column Method Review: Mixed Widths and Operations",
+     "href": "column-method-review"
+    },
+    {
+     "label": "2-Digit Column Addition Without Regrouping",
+     "href": "2-digit-column-addition"
+    },
+    {
+     "label": "2-Digit Column Subtraction Without Regrouping",
+     "href": "2-digit-column-subtraction"
+    }
+   ],
+   "title": "3-Digit Column Add & Subtract | Free Printable PDF",
+   "metaDescription": "3-digit column arithmetic without regrouping: six mixed addition and subtraction problems with hundreds, tens and ones boxes. Free Grade 2 PDF."
+  },
+  {
+   "slug": "3-digit-column-addition",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Column Arithmetic Worksheet",
+   "h1": "3-Digit Column Addition Without Regrouping",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "2.NBT.B.7",
+   "slotTokens": [
+    "column-arithmetic",
+    "grade-2"
+   ],
+   "p1": "Six additions into the hundreds fill this Grade 2 page — 415 + 132, 623 + 254 and their like — each stacked in place-value boxes three columns wide. Every column adds to nine or less, so no carrying is needed anywhere on the sheet. Ones first, then tens, then hundreds, one digit written into each box as the child works steadily leftward.",
+   "p2": "The useful discovery on this page is that a third column adds no new mathematics whatsoever. A child who can run the routine over two places runs it over three by doing exactly the same thing once more, and noticing that is worth more than the six answers are. It is also where place value gets a workout: the 4 in 415 is four hundreds, and the column it sits in is the only reason the digit means that. Bigger numbers, identical method, is a genuinely encouraging thing for a seven-year-old to find out.",
+   "p3": "Print the PDF free — one a week is plenty at this width, and the answers can be checked in a minute. Two-digit column addition is the shorter version to warm up on, the three-digit mixed page drops subtraction into the same layout, and three-digit addition with carrying is where the hundreds finally start to bite.",
+   "canonicalDeckSlug": "column-arithmetic-g2258",
+   "carousel": [
+    {
+     "label": "Column Method Review: Mixed Widths and Operations",
+     "href": "column-method-review"
+    },
+    {
+     "label": "2-Digit Column Addition Without Regrouping",
+     "href": "2-digit-column-addition"
+    },
+    {
+     "label": "2-Digit Column Subtraction Without Regrouping",
+     "href": "2-digit-column-subtraction"
+    },
+    {
+     "label": "3-Digit Numbers in Columns: Add and Subtract",
+     "href": "3-digit-column-addition-and-subtraction"
+    }
+   ],
+   "title": "3-Digit Column Addition | Free Printable PDF",
+   "metaDescription": "3-digit column addition worksheet without carrying: six stacked sums into the hundreds, each with place-value boxes. Free printable Grade 2 PDF."
+  },
+  {
+   "slug": "column-method-review",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Column Arithmetic Worksheet",
+   "h1": "Column Method Review: Mixed Widths and Operations",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "2.NBT.B.5",
+   "slotTokens": [
+    "column-arithmetic",
+    "grade-2"
+   ],
+   "p1": "This Grade 2 review page shuffles everything the column method has covered so far. Two-digit problems sit beside three-digit ones, additions beside subtractions, and all six are still free of carrying and borrowing. Nothing on the page is new; what is new is that no two problems in a row necessarily ask the same thing, so each one has to be read properly before the child starts at the ones column.",
+   "p2": "A review like this is best used as a gate. Regrouping is genuinely difficult, and it goes badly for children whose underlying routine is still shaky — every carried digit lands on top of an existing wobble. Six mixed problems answered accurately, with no prompting about where to start or which way to work, is a fair sign that the method itself is secure and the next difficulty can safely be added. Six problems with two careless slips is a sign to spend another week here instead, which is not a setback at all.",
+   "p3": "The sheet prints free as a PDF and doubles neatly as a short assessment. The single-focus pages behind it — two-digit addition, two-digit subtraction, three-digit addition — are still there for anything that wobbles, and addition and subtraction with regrouping is what this page is clearing the way for.",
+   "canonicalDeckSlug": "column-arithmetic-g2259",
+   "carousel": [
+    {
+     "label": "2-Digit Column Addition Without Regrouping",
+     "href": "2-digit-column-addition"
+    },
+    {
+     "label": "2-Digit Column Subtraction Without Regrouping",
+     "href": "2-digit-column-subtraction"
+    },
+    {
+     "label": "3-Digit Numbers in Columns: Add and Subtract",
+     "href": "3-digit-column-addition-and-subtraction"
+    },
+    {
+     "label": "3-Digit Column Addition Without Regrouping",
+     "href": "3-digit-column-addition"
+    }
+   ],
+   "title": "Column Method Review Grade 2 | Free Printable PDF",
+   "metaDescription": "Column method review for Grade 2: six problems mixing 2-digit and 3-digit addition and subtraction, still without regrouping. Free printable PDF."
+  },
+  {
+   "slug": "reading-measuring-jugs",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "measurement",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Measurement Worksheet",
+   "h1": "Reading Measuring Jugs in Milliliters",
+   "strand": "Measurement & Data",
+   "standard": "3.MD.A.2",
+   "slotTokens": [
+    "measurement",
+    "grade-2"
+   ],
+   "p1": "Six measuring jugs, and nothing else, fill this Grade 2 page. Each one holds liquid to a different level, and each carries a scale with labelled marks and unlabelled ticks in between them. The child works out what a single tick is worth, follows the surface of the liquid to the nearest line, and writes the amount in milliliters underneath. Six readings, one unit, and no balance scales competing for attention.",
+   "p2": "Giving capacity a page of its own lets one method be taught properly. Look at two labelled marks, count how many gaps lie between them, divide — now every tick has a value and the jug can be read rather than guessed at. Children who skip that step write down the number nearest the liquid and are routinely fifty milliliters out. It pairs beautifully with a real jug at the sink: pour to a line, predict the reading, then check. Ten minutes of that makes the printed jugs look obvious.",
+   "p3": "The page prints free as a PDF, and a spare copy is handy for the child who wants to check a real measuring cup against it. Balance scales in grams is the mass half of the same skill, the jugs to 2000 ml page takes the numbers higher, and the combined capacity and mass sheet puts jugs and scales back on one page.",
+   "canonicalDeckSlug": "measurement-g2260",
+   "carousel": [
+    {
+     "label": "Balance Scales in Grams: Read the Mass",
+     "href": "balance-scales-in-grams"
+    },
+    {
+     "label": "Reading Scales in Small Steps: 50 ml Marks",
+     "href": "reading-scales-in-50-ml-steps"
+    },
+    {
+     "label": "Measuring Jugs to 2000 ml: Reading Bigger Scales",
+     "href": "measuring-jugs-to-2000-ml"
+    },
+    {
+     "label": "Capacity and Mass with Animals: Jugs and Scales",
+     "href": "capacity-and-mass-with-animals"
+    }
+   ],
+   "title": "Reading Measuring Jugs in ml | Free Printable PDF",
+   "metaDescription": "Measuring jugs worksheet: six jugs filled to different levels, read each scale and write the amount in milliliters. Free printable Grade 2 PDF."
+  },
+  {
+   "slug": "balance-scales-in-grams",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "measurement",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "grade-2"
+   },
+   "eyebrow": "Measurement Worksheet",
+   "h1": "Balance Scales in Grams: Read the Mass",
+   "strand": "Measurement & Data",
+   "standard": "3.MD.A.2",
+   "slotTokens": [
+    "measurement",
+    "vehicles",
+    "grade-2"
+   ],
+   "p1": "Six balance scales share this Grade 2 page, and a little vehicle sits on one pan of each — a truck, a bus, a tractor — with gram weights stacked on the other pan until the two sides level out. The child adds up the weights and writes the vehicle's mass in grams underneath. No jugs here and no milliliters: six balances and a single unit for the whole page.",
+   "p2": "A pan balance teaches something a bathroom scale never can. It does not display a number; it makes a statement — these two sides are equal — and the child has to add the known weights in order to discover the unknown one. That is an equation in physical form, and it is the same idea that later turns into the missing number in 40 + ☐ = 65. It also makes mass concrete in a way that pictures of dials do not: 500 grams becomes a thing you would feel in your hand rather than a label to copy out.",
+   "p3": "Print it free as a PDF and, if there is a balance in the school cupboard, weigh something real afterwards — nothing beats the actual object. Measuring jugs in milliliters is the capacity twin, the mixed page with fine 50 ml marks sharpens the reading further, and column addition keeps the adding of weights quick.",
+   "canonicalDeckSlug": "measurement-vehicles-g2261",
+   "carousel": [
+    {
+     "label": "Reading Scales in Small Steps: 50 ml Marks",
+     "href": "reading-scales-in-50-ml-steps"
+    },
+    {
+     "label": "Measuring Jugs to 2000 ml: Reading Bigger Scales",
+     "href": "measuring-jugs-to-2000-ml"
+    },
+    {
+     "label": "Capacity and Mass with Animals: Jugs and Scales",
+     "href": "capacity-and-mass-with-animals"
+    },
+    {
+     "label": "Reading Measuring Jugs in Milliliters",
+     "href": "reading-measuring-jugs"
+    }
+   ],
+   "title": "Balance Scales in Grams | Free Printable PDF",
+   "metaDescription": "Balance scales worksheet: six pan balances with a vehicle on one side and gram weights on the other. Add the weights, write the mass. Free PDF."
+  },
+  {
+   "slug": "reading-scales-in-50-ml-steps",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "measurement",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "grade-2"
+   },
+   "eyebrow": "Measurement Worksheet",
+   "h1": "Reading Scales in Small Steps: 50 ml Marks",
+   "strand": "Measurement & Data",
+   "standard": "3.MD.A.2",
+   "slotTokens": [
+    "measurement",
+    "vehicles",
+    "grade-2"
+   ],
+   "p1": "The jugs and balances on this Grade 2 page are marked far more finely than usual: the ticks step in fifties, so a reading of 250 ml or 350 ml sits between the labelled hundreds rather than on one of them. Vehicles ride the balance pans as before. The child still reads each scale and writes the amount with its unit, but now the answer often lands on an unlabelled line and has to be worked out rather than simply seen.",
+   "p2": "Fine scales are where scale reading turns into a real skill. Shown a level halfway between 200 and 300, a child who has only ever met labelled marks writes 200, or 300, or occasionally 250 by lucky guess. Counting the gaps, dividing, and naming the tick value is the method that survives every scale they will ever meet — thermometers, rulers, measuring spoons, the pointer on a kitchen dial. It rewards slowing down, which is precisely what measurement work should be teaching at this age.",
+   "p3": "The worksheet prints free as a PDF, and it is worth reading one jug together aloud before letting the child loose on the rest. The plain measuring jugs page is the gentler starting point, balance scales in grams isolates the mass side, and the big jugs to 2000 ml take the same careful reading up into larger numbers.",
+   "canonicalDeckSlug": "measurement-vehicles-g2262",
+   "carousel": [
+    {
+     "label": "Measuring Jugs to 2000 ml: Reading Bigger Scales",
+     "href": "measuring-jugs-to-2000-ml"
+    },
+    {
+     "label": "Capacity and Mass with Animals: Jugs and Scales",
+     "href": "capacity-and-mass-with-animals"
+    },
+    {
+     "label": "Reading Measuring Jugs in Milliliters",
+     "href": "reading-measuring-jugs"
+    },
+    {
+     "label": "Balance Scales in Grams: Read the Mass",
+     "href": "balance-scales-in-grams"
+    }
+   ],
+   "title": "Reading Scales in 50 ml Steps | Free Printable PDF",
+   "metaDescription": "Fine-scale measurement worksheet: jugs and balances marked in small 50 ml steps, so readings land between the labelled numbers. Free Grade 2 PDF."
+  },
+  {
+   "slug": "measuring-jugs-to-2000-ml",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "measurement",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Measurement Worksheet",
+   "h1": "Measuring Jugs to 2000 ml: Reading Bigger Scales",
+   "strand": "Measurement & Data",
+   "standard": "3.MD.A.2",
+   "slotTokens": [
+    "measurement",
+    "grade-2"
+   ],
+   "p1": "The jugs on this Grade 2 page are the big ones, scaled all the way to 2000 ml, and the six readings run into the hundreds and thousands rather than the tens. Each jug shows labelled marks with ticks between them, and the child works out the tick value, reads the liquid level, and writes the amount in milliliters. Exactly the same method as the small jugs; considerably larger numbers to write down.",
+   "p2": "Working up to 2000 ml is where capacity starts connecting to the world outside the page. A liter is a carton of milk, two liters is the big bottle of water, and 1500 ml is neither of those but sits sensibly between them — and that sense of size is exactly what is missing when a child cheerfully writes 30 ml for a bucket. Estimating before reading is the habit to build here: look at the jug, guess, then read and compare. Being wrong by a little and noticing it is worth more than being right by accident.",
+   "p3": "It prints free as a PDF and goes well with a two-liter bottle standing on the table for comparison. The standard measuring jugs page is the smaller-numbers version, the 50 ml step page trains the finer reading, and capacity and mass together brings the balance scales back alongside.",
+   "canonicalDeckSlug": "measurement-g2263",
+   "carousel": [
+    {
+     "label": "Capacity and Mass with Animals: Jugs and Scales",
+     "href": "capacity-and-mass-with-animals"
+    },
+    {
+     "label": "Reading Measuring Jugs in Milliliters",
+     "href": "reading-measuring-jugs"
+    },
+    {
+     "label": "Balance Scales in Grams: Read the Mass",
+     "href": "balance-scales-in-grams"
+    },
+    {
+     "label": "Reading Scales in Small Steps: 50 ml Marks",
+     "href": "reading-scales-in-50-ml-steps"
+    }
+   ],
+   "title": "Measuring Jugs to 2000 ml | Free Printable PDF",
+   "metaDescription": "Big measuring jugs worksheet: six large jugs scaled up to 2000 ml, read each liquid level and write the amount in milliliters. Free Grade 2 PDF."
+  },
+  {
+   "slug": "capacity-and-mass-with-animals",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "measurement",
+    "mode": null,
+    "theme": "animals",
+    "level": "grade-2"
+   },
+   "eyebrow": "Measurement Worksheet",
+   "h1": "Capacity and Mass with Animals: Jugs and Scales",
+   "strand": "Measurement & Data",
+   "standard": "3.MD.A.2",
+   "slotTokens": [
+    "measurement",
+    "animals",
+    "grade-2"
+   ],
+   "p1": "This Grade 2 measurement page splits itself between capacity and mass, with animals sitting on the balance pans. Three measuring jugs hold liquid at different levels for the child to read in milliliters; three balances weigh a duck, a hedgehog, a cat against gram weights for the child to read in grams. Six readings altogether, each one written down together with its unit.",
+   "p2": "Animals on the pans invite a question that a page of boxes never does: which one is heavier, and by how much? That single follow-up turns a reading exercise into comparison, subtraction and a small science conversation — how heavy might a real hedgehog be, is a duck heavier than a cat, would any of them actually sit still on a school balance. Measurement lives in that talk at least as much as in the writing down, and a themed page gives a class something to argue about while the units and tick marks quietly do their work.",
+   "p3": "Print the PDF free and keep the comparison questions coming after the last box is filled. The vehicles edition of capacity and mass is the sibling sheet, reading measuring jugs isolates the capacity half, and balance scales in grams does the same for mass.",
+   "canonicalDeckSlug": "measurement-animals-g2252",
+   "carousel": [
+    {
+     "label": "Reading Measuring Jugs in Milliliters",
+     "href": "reading-measuring-jugs"
+    },
+    {
+     "label": "Balance Scales in Grams: Read the Mass",
+     "href": "balance-scales-in-grams"
+    },
+    {
+     "label": "Reading Scales in Small Steps: 50 ml Marks",
+     "href": "reading-scales-in-50-ml-steps"
+    },
+    {
+     "label": "Measuring Jugs to 2000 ml: Reading Bigger Scales",
+     "href": "measuring-jugs-to-2000-ml"
+    }
+   ],
+   "title": "Capacity and Mass with Animals | Free Printable PDF",
+   "metaDescription": "Animal measurement worksheet: three jugs to read in milliliters and three balance scales weighing animals in grams. Free printable Grade 2 PDF."
+  },
+  {
+   "slug": "easy-symmetry-drawing",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "symmetry",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Symmetry Worksheet",
+   "h1": "Easy Symmetry Drawing: First Mirror Pictures",
+   "strand": "Geometry",
+   "slotTokens": [
+    "symmetry",
+    "grade-2"
+   ],
+   "p1": "The four pictures on this Grade 2 page are the small, forgiving ones: a handful of colored squares each, sitting close to the coral mirror line down the middle. Half of every picture is already drawn; the child colors the missing half, square by square, until the two sides match. Short distances from the line and simple outlines make this the gentlest page in the whole symmetry set.",
+   "p2": "Easy figures deserve a page of their own because they let the method be taught rather than merely survived. Put a finger on a colored square, count the steps sideways to the line, count the same number of steps out the other side, color it in. On a small figure that count is one or two, so the routine is learned before it has to carry any weight — and a child who finishes four pictures that genuinely look right arrives at the harder sheet believing they can do this, which matters more than most of the geometry does.",
+   "p3": "The page prints free as a PDF and the finished pictures are cheerful enough to keep. Hard symmetry drawing is the step up once the counting flows, mirror pictures of hearts and butterflies dress the same skill in recognisable shapes, and color by code offers more of this careful coloring.",
+   "canonicalDeckSlug": "symmetry-g2264",
+   "carousel": [
+    {
+     "label": "Hard Symmetry Drawing: Bigger Mirror Pictures",
+     "href": "hard-symmetry-drawing"
+    },
+    {
+     "label": "Mirror Pictures: Heart, Butterfly, Snowman, Tree",
+     "href": "mirror-pictures-heart-and-butterfly"
+    },
+    {
+     "label": "Mirror Pictures: House, Crown, Mushroom, Apple",
+     "href": "mirror-pictures-house-and-crown"
+    },
+    {
+     "label": "Mirror Below the Line: Horizontal Symmetry",
+     "href": "symmetry-mirror-below-the-line"
+    }
+   ],
+   "title": "Easy Symmetry Drawing Grade 2 | Free Printable PDF",
+   "metaDescription": "Easy symmetry worksheet: four small pixel-grid pictures, half drawn, to mirror across the coral line square by square. Free printable Grade 2 PDF."
+  },
+  {
+   "slug": "hard-symmetry-drawing",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "symmetry",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Symmetry Worksheet",
+   "h1": "Hard Symmetry Drawing: Bigger Mirror Pictures",
+   "strand": "Geometry",
+   "slotTokens": [
+    "symmetry",
+    "grade-2"
+   ],
+   "p1": "The four figures on this Grade 2 page carry many more squares than the easy set, and plenty of them sit well away from the coral mirror line. Half of each picture is given; the child completes the other half square by square. Longer counts, more colors to keep track of, and figures whose edges step in and out instead of running straight down the grid.",
+   "p2": "Once a figure holds thirty squares, guesswork collapses and a system is needed. The reliable one is to work a row at a time: take one row, count each colored square's distance from the line, mark its partner, finish the row, and only then move down. Children who instead hop about the picture coloring whatever catches the eye lose their place and end up with a half that is nearly right, which in symmetry is simply wrong. Learning to be systematic on a picture is a lesson that transfers a long way beyond geometry.",
+   "p3": "Print it free as a PDF, and let a checking pass be part of the job — folding the page along the line settles any dispute. Easy symmetry drawing is the sheet to drop back to if the counting slips, and the horizontal mirror line page is the genuinely tricky variant to try next.",
+   "canonicalDeckSlug": "symmetry-g2265",
+   "carousel": [
+    {
+     "label": "Mirror Pictures: Heart, Butterfly, Snowman, Tree",
+     "href": "mirror-pictures-heart-and-butterfly"
+    },
+    {
+     "label": "Mirror Pictures: House, Crown, Mushroom, Apple",
+     "href": "mirror-pictures-house-and-crown"
+    },
+    {
+     "label": "Mirror Below the Line: Horizontal Symmetry",
+     "href": "symmetry-mirror-below-the-line"
+    },
+    {
+     "label": "Easy Symmetry Drawing: First Mirror Pictures",
+     "href": "easy-symmetry-drawing"
+    }
+   ],
+   "title": "Hard Symmetry Drawing Grade 2 | Free Printable PDF",
+   "metaDescription": "Challenging symmetry worksheet: four detailed pixel-grid figures to complete across the mirror line, with squares far from the axis. Free Grade 2 PDF."
+  },
+  {
+   "slug": "mirror-pictures-heart-and-butterfly",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "symmetry",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Symmetry Worksheet",
+   "h1": "Mirror Pictures: Heart, Butterfly, Snowman, Tree",
+   "strand": "Geometry",
+   "slotTokens": [
+    "symmetry",
+    "grade-2"
+   ],
+   "p1": "Four recognisable pictures wait half-finished on this Grade 2 page: a heart, a butterfly, a snowman and a tree, each drawn in colored squares on a grid with the coral mirror line down the middle. The child completes the missing half of every one, square by square. Because the shapes are familiar, the child knows what the picture is supposed to become long before it actually becomes it.",
+   "p2": "A named picture checks itself. A butterfly with one fat wing and one thin one looks wrong immediately, even to a child who has not yet spotted which square went astray — so the drawing becomes its own feedback and errors get found without anyone pointing at them. These four also make the natural point that symmetry is not a school invention: butterflies and trees and the human face are built this way, and once children start looking they find mirror lines everywhere between the classroom and home.",
+   "p3": "The sheet prints free as a PDF and the results are worth pinning up, four to a wall in a row. Mirror pictures of a house and crown are the man-made counterpart to these, easy symmetry drawing is the simpler warm-up for a child who is still counting slowly, and the horizontal mirror line page turns the whole idea on its side.",
+   "canonicalDeckSlug": "symmetry-g2266",
+   "carousel": [
+    {
+     "label": "Mirror Pictures: House, Crown, Mushroom, Apple",
+     "href": "mirror-pictures-house-and-crown"
+    },
+    {
+     "label": "Mirror Below the Line: Horizontal Symmetry",
+     "href": "symmetry-mirror-below-the-line"
+    },
+    {
+     "label": "Easy Symmetry Drawing: First Mirror Pictures",
+     "href": "easy-symmetry-drawing"
+    },
+    {
+     "label": "Hard Symmetry Drawing: Bigger Mirror Pictures",
+     "href": "hard-symmetry-drawing"
+    }
+   ],
+   "title": "Mirror Pictures: Heart & Butterfly | Free Printable PDF",
+   "metaDescription": "Symmetry picture worksheet: complete a heart, a butterfly, a snowman and a tree on the pixel grid across the mirror line. Free printable Grade 2 PDF."
+  },
+  {
+   "slug": "mirror-pictures-house-and-crown",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "symmetry",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Symmetry Worksheet",
+   "h1": "Mirror Pictures: House, Crown, Mushroom, Apple",
+   "strand": "Geometry",
+   "slotTokens": [
+    "symmetry",
+    "grade-2"
+   ],
+   "p1": "A house, a crown, a mushroom and an apple sit half-drawn on this Grade 2 page, each built from colored squares on either side of a coral mirror line. The child completes the missing half of every picture, counting each square out from the line. The crown's points and the roof of the house make for edges that step in and out, so the counting has to stay honest the whole way up.",
+   "p2": "Where the heart-and-butterfly set borrows its shapes from nature, this one borrows from design, and the distinction is worth mentioning aloud: people build things symmetrically on purpose, because balanced things look right and often work better. Houses, crowns, plates, chairs and letters are all drawn to a mirror line by choice. The stepped diagonals of a roof or a crown point are also the hardest thing on the page technically — every step has to be matched exactly, and a single square slipped shows up as a lopsided castle.",
+   "p3": "It prints free as a PDF and finishes nicely with crayons rather than pencils. The heart and butterfly set is the natural companion page, hard symmetry drawing raises the square count, and drawing the clock hands asks for the same steady, careful hand.",
+   "canonicalDeckSlug": "symmetry-g2267",
+   "carousel": [
+    {
+     "label": "Mirror Below the Line: Horizontal Symmetry",
+     "href": "symmetry-mirror-below-the-line"
+    },
+    {
+     "label": "Easy Symmetry Drawing: First Mirror Pictures",
+     "href": "easy-symmetry-drawing"
+    },
+    {
+     "label": "Hard Symmetry Drawing: Bigger Mirror Pictures",
+     "href": "hard-symmetry-drawing"
+    },
+    {
+     "label": "Mirror Pictures: Heart, Butterfly, Snowman, Tree",
+     "href": "mirror-pictures-heart-and-butterfly"
+    }
+   ],
+   "title": "Mirror Pictures: House & Crown | Free Printable PDF",
+   "metaDescription": "Symmetry worksheet with four objects: house, crown, mushroom and apple, half drawn on a pixel grid to mirror square by square. Free Grade 2 PDF."
+  },
+  {
+   "slug": "symmetry-mirror-below-the-line",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "symmetry",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Symmetry Worksheet",
+   "h1": "Mirror Below the Line: Horizontal Symmetry",
+   "strand": "Geometry",
+   "slotTokens": [
+    "symmetry",
+    "grade-2"
+   ],
+   "p1": "The mirror line on this Grade 2 page runs across the page instead of down it, and the four figures — a rocket, an arrow, an ice cream and a robot, all drawn lying on their side — are complete above the line and empty below. The child mirrors each one downward, square by square: a square three rows above the line is copied three rows below, so up and down swap places while left and right stay exactly where they were.",
+   "p2": "This page exists to break a rule children invent for themselves. After a few vertical-line sheets, most of them conclude that symmetry means the left side matches the right — and then a horizontal axis arrives and their rule produces nonsense. Reflecting downward is also perceptually harder: our eyes compare side by side far more comfortably than they compare top to bottom, so counting has to take over from looking. Expect this sheet to take longer than the others, and treat that as the point of it rather than a problem with it.",
+   "p3": "Print the PDF free, and rotate the page a quarter turn if a child gets truly stuck — the familiar left-right view often unlocks it. Easy symmetry drawing and hard symmetry drawing are the vertical-line pages behind this one, and the complete-the-mirror-picture sheet is where the whole family begins.",
+   "canonicalDeckSlug": "symmetry-g2268",
+   "carousel": [
+    {
+     "label": "Easy Symmetry Drawing: First Mirror Pictures",
+     "href": "easy-symmetry-drawing"
+    },
+    {
+     "label": "Hard Symmetry Drawing: Bigger Mirror Pictures",
+     "href": "hard-symmetry-drawing"
+    },
+    {
+     "label": "Mirror Pictures: Heart, Butterfly, Snowman, Tree",
+     "href": "mirror-pictures-heart-and-butterfly"
+    },
+    {
+     "label": "Mirror Pictures: House, Crown, Mushroom, Apple",
+     "href": "mirror-pictures-house-and-crown"
+    }
+   ],
+   "title": "Symmetry: Mirror Below the Line | Free Printable PDF",
+   "metaDescription": "Horizontal symmetry worksheet: the mirror line runs across the page and the child colors below it — rocket, arrow, ice cream and robot. Free PDF."
   }
  ]
 }

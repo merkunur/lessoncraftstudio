@@ -112,7 +112,14 @@ for (const id of ORDER) {
   if (!/^[a-z0-9-]+$/.test(e.slug)) errs.push(`${id}: slug not ascii-kebab "${e.slug}"`);
   if (newSlugs.has(e.slug)) errs.push(`${id}: duplicate slug among the 20`);
   newSlugs.add(e.slug);
-  if (existingSlugs.has(e.slug)) errs.push(`${id}: slug collides with existing landing "${e.slug}"`);
+  // a collision is only an error when the existing landing is a DIFFERENT page
+  // (different deck) — re-applying our own entry after a copy fix is idempotent
+  if (existingSlugs.has(e.slug)) {
+    const existing = content.landings.find((l) => l.slug === e.slug);
+    if (existing && existing.canonicalDeckSlug !== deckSlugFor(id)) {
+      errs.push(`${id}: slug collides with existing landing "${e.slug}" (deck ${existing.canonicalDeckSlug})`);
+    }
+  }
   const words = wordCount(e.p1) + wordCount(e.p2) + wordCount(e.p3);
   if (words < 200) errs.push(`${id}: body ${words} words < 200`);
   if (e.metaDescription && (e.metaDescription.length < 120 || e.metaDescription.length > 175)) {

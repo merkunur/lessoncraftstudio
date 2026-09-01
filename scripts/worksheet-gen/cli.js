@@ -2,7 +2,7 @@
 /**
  * cli.js — generate a wave of printable deck ZIPs ready for publish-wave.js.
  *
- *   node scripts/worksheet-gen/cli.js generate --wave waves/wave-001.json [--dry-run] [--force] [--limit N]
+ *   node scripts/worksheet-gen/cli.js generate --wave waves/wave-001.json [--dry-run] [--force] [--limit N] [--types=K-238,K-239]
  *
  * Per instance: skip-if-ZIP-exists (idempotent resume) → renderInstance
  * (persistent browser page) → QA gate (lints + per-type verify must be empty;
@@ -33,6 +33,7 @@ function parseArgs(argv) {
     else if (a === '--force') args.force = true;
     else if (a === '--wave') args.wave = argv[++i];
     else if (a === '--limit') args.limit = Number(argv[++i]);
+    else if (a.startsWith('--types=')) args.types = a.slice(8).split(',').map((t) => t.trim()).filter(Boolean);
     else args._.push(a);
   }
   return args;
@@ -42,9 +43,24 @@ async function generate(args) {
   if (!args.wave) throw new Error('cli: --wave waves/wave-NNN.json is required');
   const plan = JSON.parse(fs.readFileSync(path.resolve(__dirname, args.wave), 'utf8'));
   const { instances, skipped } = enumerate(plan);
-  const list = args.limit ? instances.slice(0, args.limit) : instances;
+  // --types narrows a wave to a subset WITHOUT changing the wave id. deckId is
+  // `wsg-<waveShort>-<variant>-<theme>-d<n>-<locale>` (enumerate.js), so
+  // regenerating a few types under a NEW wave file would mint new deckIds —
+  // new decks, not replacements — while re-running the whole original wave
+  // would churn every unrelated type in it. This is how a fix reaches exactly
+  // the decks it is meant to.
+  let selected = instances;
+  if (args.types) {
+    const want = new Set(args.types);
+    selected = instances.filter((it) => want.has(it.typeId));
+    const missing = args.types.filter((t) => !instances.some((it) => it.typeId === t));
+    if (missing.length) throw new Error('cli: --types not in this wave: ' + missing.join(', '));
+    if (!selected.length) throw new Error('cli: --types matched no instances');
+  }
+  const list = args.limit ? selected.slice(0, args.limit) : selected;
 
   console.log('[wave ' + plan.id + '] ' + instances.length + ' instances enumerated' +
+    (args.types ? ' -> ' + selected.length + ' after --types=' + args.types.join(',') : '') +
     (args.limit ? ' (limit ' + args.limit + ')' : '') +
     (skipped.length ? '; ' + skipped.length + ' types skipped' : ''));
   skipped.forEach((s) => console.log('  SKIP-TYPE ' + s.typeId + ': ' + s.reason));

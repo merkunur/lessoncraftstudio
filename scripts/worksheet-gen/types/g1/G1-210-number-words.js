@@ -78,15 +78,18 @@ module.exports = {
     if (d.mode === 'write') {
       const ns = Array.from({ length: d.cards }, pickN);
       const bank = rng.shuffle(ns.slice());
-      const bankHtml = `<div class="ws-scene-banner" style="gap:18px;flex-wrap:wrap" data-lcs-bank>` +
+      // compact chips + card metrics — long number words (es diecisiete,
+      // pt dezessete) wrap the bank to three rows and overflow the page at
+      // the roomier first-cut sizes
+      const bankHtml = `<div class="ws-scene-banner" style="gap:12px;flex-wrap:wrap" data-lcs-bank>` +
         bank.map((v) =>
-          `<span style="font-family:'Nunito';font-weight:800;font-size:18px;color:#3A3530;background:#FFFFFF;` +
-          `border:2px solid #F0E4CB;border-radius:18px;padding:5px 16px" data-lcs-bank-word="${v}">${numberWord(v, loc)}</span>`).join('') +
+          `<span style="font-family:'Nunito';font-weight:800;font-size:16px;color:#3A3530;background:#FFFFFF;` +
+          `border:2px solid #F0E4CB;border-radius:16px;padding:4px 12px" data-lcs-bank-word="${v}">${numberWord(v, loc)}</span>`).join('') +
         `</div>`;
       const cards = ns.map((n) =>
-        `<div class="ws-card-stage" style="flex-direction:column;gap:14px;justify-content:center" data-lcs-write="${n}">` +
-        NUMERAL(n, 64) +
-        `<div style="width:82%;height:60px;border-bottom:2.5px solid #8A8276"></div></div>`);
+        `<div class="ws-card-stage" style="flex-direction:column;gap:12px;justify-content:center" data-lcs-write="${n}">` +
+        NUMERAL(n, 56) +
+        `<div style="width:82%;height:50px;border-bottom:2.5px solid #8A8276"></div></div>`);
       return {
         bodyHtml: bankHtml + `<div style="margin-top:10px">${cardGrid({ cards, cols: d.cols, rows: d.rows })}</div>`,
         meta: {},

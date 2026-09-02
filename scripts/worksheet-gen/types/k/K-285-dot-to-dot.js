@@ -37,7 +37,12 @@ module.exports = {
     const rng = ctx.rng;
     const figure = d.figure ? DOT_FIGURES.find((f) => f.key === d.figure) : rng.pick(DOT_FIGURES);
     if (!figure) throw new Error(`K-285: unknown figure ${d.figure}`);
-    const fig = dotFigure({ figure, count: d.count, step: 1, startAt: d.startAt, window: d.window, size: 560 });
+    // step comes from the CONFIG. `dotFigure` has always accepted it, has always
+    // stamped `data-lcs-step`, and verify() has always checked both the figure
+    // labels and the strip chips against `start + i*step` — the only thing pinning
+    // this whole family to counting by ones was this literal. Defaulting to 1 keeps
+    // every shipped coordinate byte-identical (b2-baseline: 0 drift).
+    const fig = dotFigure({ figure, count: d.count, step: d.step || 1, startAt: d.startAt, window: d.window, size: 560 });
     const values = fig.labels;
     const strip = numberStrip({ values, chip: d.chip });
     return {

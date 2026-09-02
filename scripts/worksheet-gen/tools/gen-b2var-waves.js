@@ -61,6 +61,23 @@ const THEME = {
   // multiplication-only says "4 rows of 5", which is fine for animals.
   'G3-371': 'animals', 'G3-372': 'fruits', 'G3-373': 'toys',
   'G3-374': 'fruits', 'G3-375': 'animals', 'G3-376': 'toys',
+
+  // ── wave 2 ───────────────────────────────────────────────────────────────
+  'K-311': 'animals', 'K-312': 'fruits',              // K-284 word-tracing
+  'G1-284': 'animals',                                // G1-245 alphabetical-order (d2 needs SIX distinct first letters — biggest pool)
+  'G1-286': 'toys',                                   // G1-247 doubles-halves
+  'G1-290': 'fruits', 'G1-291': 'animals',            // G1-244 write-the-word
+  // G2-306 rides ANIMALS deliberately, repeating G2-281's theme rather than
+  // varying it: the fix frames include "{name} feeds the {noun}", which has no
+  // animacy gate (it rendered "tom feeds the skateboard" last batch), and the
+  // note above records that every frame is safe on animals. A face whose whole
+  // subject is names needs name-bearing frames, so this is not the place to
+  // gamble on theme variety.
+  'G2-306': 'animals',                                // G2-274 capitals-punctuation
+  'G2-309': 'vehicles',                               // G2-278 picture-writing
+  // G3-377 is mul+SHARE, so it carries a division op and must not ride vehicles
+  // for the bags-and-boxes reason above.
+  'G3-377': 'fruits',                                 // G3-370 word-problems
 };
 
 // locale -> id -> replacement theme (each one measured, see the docblock)
@@ -80,6 +97,8 @@ const THEMELESS = [
   'G1-278', 'G1-279', 'G1-280', 'G1-281',
   'G2-296', 'G2-297', 'G2-298',                    // calendar
   'G2-302', 'G2-303',                              // grid-coordinates
+  // ── wave 2 ───────────────────────────────────────────────────────────────
+  'K-308', 'G1-285', 'G1-294', 'G2-304',           // dot-to-dot (step knob)
 ];
 
 const TYPES = [...Object.keys(THEME), ...THEMELESS].sort();

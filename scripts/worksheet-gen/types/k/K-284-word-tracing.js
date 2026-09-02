@@ -60,8 +60,15 @@ module.exports = {
           `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${e.vocabKey}" style="width:${d.pic}px;height:${d.pic}px;transform:rotate(${rot}deg)"></div>`;
       }
       // d1/d2: model + trace + empty · d3: trace + empty + empty (caption is the model)
+      // traceLane:false removes the dashed lane from the CAPTION variant, leaving
+      // caption-model + two empty rails — copying from a model rather than tracing
+      // over one, which is the next handwriting stage. verify() needs no change:
+      // expectTrios = reps + emptySlot falls to 1, its `j < reps` loop never runs,
+      // and data-lcs-empty-slot is still set. Undefined everywhere else, so every
+      // shipped coordinate is byte-identical.
+      const capReps = d.traceLane === false ? 0 : 1;
       const lane = d.caption
-        ? strokeWordLane({ text: e.word, w: laneW, h: d.laneH, glyphH: d.glyphH, reps: 1, stack: true, modelless: true, emptyLast: true, padLeft: 10 })
+        ? strokeWordLane({ text: e.word, w: laneW, h: d.laneH, glyphH: d.glyphH, reps: capReps, stack: true, modelless: true, emptyLast: true, padLeft: 10 })
         : strokeWordLane({ text: e.word, w: laneW, h: d.laneH, glyphH: d.glyphH, reps: d.reps, stack: true, emptyLast: true, padLeft: 10 });
       const extraEmpty = d.caption
         ? strokeWordLane({ text: e.word, w: laneW, h: d.laneH, glyphH: d.glyphH, reps: 0, stack: true, emptyLast: true, padLeft: 10 }).svg

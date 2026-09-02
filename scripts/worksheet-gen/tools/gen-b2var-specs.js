@@ -264,6 +264,59 @@ const ROWS = [
   // story, which is the whole point of the mixed face.
   ['g3', 'G3-376', 'multiplication-and-division-word-problems-mixed', 'G3-370-muldiv-word-problems.js', 3, { icon: 13, font: 14, dots: 20, slotH: 26 },
     'Multiplication and Division: Mixed Problems', 'Three stories. Decide what each one asks before you answer.'],
+
+  // ── nt20-B-VAR wave 2 ────────────────────────────────────────────────────
+  // Designed by a pedagogy panel that read every base module's build() AND
+  // verify() plus the data files feeding them, and REFUSED 14 of the 38 slots
+  // it was asked to fill (a size interpolation is not a face; an all-questions
+  // capitals page cannot be built because pt/it have 2 question frames and fi
+  // has 0; read-and-color has exactly one teaching move). Honest 93, not 100.
+
+  // dot-to-dot: `step` is one line in K-285.build. dotFigure has always taken it
+  // and verify has always checked labels AND strip chips against start + i*step.
+  ['k',  'K-308', 'dot-to-dot-count-back-from-10', 'K-285-dot-to-dot.js', 1, { startAt: 10, step: -1 },
+    'Dot-to-Dot: Count Back from 10', 'Start at the orange dot and count backwards, 10, 9, 8, down to 1.'],
+  ['g1', 'G1-285', 'dot-to-dot-count-by-twos', 'K-285-dot-to-dot.js', 1, { startAt: 2, step: 2 },
+    'Dot-to-Dot: Count by Twos', 'Join the dots counting in twos: 2, 4, 6, up to 20.'],
+  ['g1', 'G1-294', 'dot-to-dot-count-back-from-20', 'K-285-dot-to-dot.js', 1, { startAt: 20, step: -1, window: null },
+    'Dot-to-Dot: Count Back from 20', 'Count backwards the whole way, 20, 19, 18, down to 1.'],
+  ['g2', 'G2-304', 'dot-to-dot-count-by-fives', 'K-285-dot-to-dot.js', 1, { startAt: 5, step: 5 },
+    'Dot-to-Dot: Count by Fives', 'Join the dots counting in fives: 5, 10, 15, up to 50.'],
+
+  // word-tracing: traceLane:false drops the dashed lane from the caption variant.
+  ['k',  'K-311', 'word-tracing-copy-the-word', 'K-284-word-tracing.js', 3, { traceLane: false },
+    'Copy the Word', 'There are no dashed letters. Look at the word on the card and copy it twice.'],
+  ['k',  'K-312', 'word-tracing-medium-words', 'K-284-word-tracing.js', 2, {},
+    'Trace Words of Middle Length', 'Longer words than the first page, with the word still printed on the line above.'],
+
+  // PARAM faces on levels the waves have never published.
+  ['g1', 'G1-284', 'alphabetical-order-six-words', 'G1-245-alphabetical-order.js', 2, {},
+    'ABC Order: Six Words', 'Six words to put in order, and some letters sit right next to each other.'],
+  ['g2', 'G2-306', 'fix-the-sentence-names-need-capitals', 'G2-274-fix-the-sentence.js', 1,
+    { needCaps: 3, lanes: 3, chips: ['capital', 'name', 'end'], ends: ['.'] },
+    'Fix the Sentence: Every Sentence Has a Name', 'Every sentence names somebody. Find both capitals, not just the first.'],
+  ['g2', 'G2-309', 'write-about-the-picture-tell-the-story', 'G2-278-write-about-the-picture.js', 2, {},
+    'Write About the Picture: Tell the Story', 'Start with the story openers and tell what happened in the picture.'],
+  ['g3', 'G3-377', 'multiplication-and-sharing-word-problems', 'G3-370-muldiv-word-problems.js', 2, {},
+    'Multiply and Share: Word Problems', 'One story builds equal groups, the other shares them out fairly.'],
+  ['g1', 'G1-290', 'write-the-word-letter-boxes', 'G1-244-write-the-word.js', 2, {},
+    'Write the Word: One Box for Each Letter', 'A dashed box for every letter shows how long the word is. No word bank.'],
+  ['g1', 'G1-291', 'write-the-word-first-letter-only', 'G1-244-write-the-word.js', 1,
+    { bank: false, starter: true, cards: 6, maxLetters: 12, pic: 80, glyphH: 30, rulingW: 214 },
+    'Write the Word: Only the First Letter', 'No word bank. The first letter is on the line to start you off.'],
+  ['g1', 'G1-286', 'doubles-and-halves-pictures-to-20', 'G1-247-doubles-halves.js', 2,
+    { cards: 4, cols: 1, rows: 4, dMin: 5, dMax: 10, hMin: 5, hMax: 10, icon: 24, perRow: 5, numeric: false },
+    // TWO measured constraints, and they pull against each other.
+    // (1) THE CARD COUNT MUST BE EVEN: `const half = d.cards / 2` in G1-247.build,
+    //     so cards:3 renders a phantom fourth card and verify reports "answer NaN".
+    // (2) At icon 32 the last card's equation row lands at bottom 954 against a
+    //     945 page. The card BOX reports 184 while its content measures 217, so
+    //     the spill is invisible to any card-height arithmetic and only the
+    //     page-box lint sees it. icon 24 reclaims two picture-row heights on the
+    //     doubles stage and one on the halves stage.
+    // cols:1 is load-bearing separately: the halves stage is a single
+    // non-wrapping flex row, and ten icons cannot fit a half-width card.
+    'Doubles and Halves with Pictures to 20', 'Count the bigger groups, double them, and halve them.'],
 ];
 
 function emit(row) {
@@ -272,7 +325,15 @@ function emit(row) {
   const lines = [];
   lines.push('/** ' + id + ' — ' + title + '. nt20-B-VAR variation of ' + baseId + '. */');
   lines.push("'use strict';");
-  lines.push("const base = require('./" + baseFile + "');");
+  // The base may live in a DIFFERENT band directory. Six wave-2 faces take an id
+  // from the band their CONTENT belongs to rather than their family's usual one
+  // — dot-to-dot is a K family, but counting by twos to 20 is G1 and by fives to
+  // 50 is G2 — so `./<baseFile>` is wrong for them and the module throws
+  // MODULE_NOT_FOUND at load. Resolve the base's directory from its own id.
+  const baseDir = { K: 'k', G1: 'g1', G2: 'g2', G3: 'g3' }[baseId.split('-')[0]];
+  if (!baseDir) throw new Error('gen-b2var-specs: cannot resolve band dir for base ' + baseId);
+  const rel = baseDir === dir ? './' + baseFile : '../' + baseDir + '/' + baseFile;
+  lines.push("const base = require('" + rel + "');");
   lines.push('// One object for all three levels: the waves ship d2 only, so a face must');
   lines.push('// render identically whichever level is asked for. Spreading the base entry');
   lines.push('// (not a JSON literal) carries function-valued params through intact.');

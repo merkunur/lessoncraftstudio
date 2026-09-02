@@ -207,7 +207,12 @@ const ROWS = [
     'Division Word Problems: Two Ways', 'One story shares out, the other makes groups. Both are division.'],
   ['g3', 'G3-375', 'multiplication-and-grouping-word-problems', 'G3-370-muldiv-word-problems.js', 2, { ops: ['mul', 'group'] },
     'Multiply and Group: Word Problems', 'One story builds groups, the other breaks them up.'],
-  ['g3', 'G3-376', 'multiplication-and-division-word-problems-mixed', 'G3-370-muldiv-word-problems.js', 3, {},
+  // Tightened from the base d3. Three stories on one page fits in English but
+  // OVERFLOWS the page box in French, which runs longer — and the base d3 has
+  // never shipped (the waves emit d2), so nothing had ever built it in a long
+  // locale. Smaller icons, font and dot panel buy the room without dropping a
+  // story, which is the whole point of the mixed face.
+  ['g3', 'G3-376', 'multiplication-and-division-word-problems-mixed', 'G3-370-muldiv-word-problems.js', 3, { icon: 18, font: 15, dots: 26, slotH: 28 },
     'Multiplication and Division: Mixed Problems', 'Three stories. Decide what each one asks before you answer.'],
 ];
 

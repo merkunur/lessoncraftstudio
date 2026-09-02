@@ -1510,5 +1510,261 @@
   "G3-370": {
     "title": "Problemas de multiplicação e divisão",
     "instruction": "Leia cada historinha e use a figura para ajudar. Escreva a resposta no quadradinho e complete a frase-resposta."
+  },
+  "K-289": {
+    "title": "Palavras pontilhadas: primeiras palavras",
+    "instruction": "Cubra o pontilhado e escreva estas três palavras curtinhas."
+  },
+  "K-290": {
+    "title": "Palavras pontilhadas: cubra uma vez, escreva duas",
+    "instruction": "Cubra a palavra uma vez e depois escreva duas vezes sozinho."
+  },
+  "K-291": {
+    "title": "Palavras pontilhadas compridas",
+    "instruction": "Cubra devagar estas três palavras compridas e escreva duas vezes."
+  },
+  "K-294": {
+    "title": "Ligue os pontos de 1 a 10",
+    "instruction": "Comece no ponto laranja e ligue os dez pontos, de 1 até 10."
+  },
+  "K-295": {
+    "title": "Ligue os pontos de 11 a 20",
+    "instruction": "A contagem começa no 11 e vai até o 20: ligue os dez pontos."
+  },
+  "K-296": {
+    "title": "Ligue os pontos de 11 a 30",
+    "instruction": "Continue contando do 11 até o 30 e ligue os vinte pontos."
+  },
+  "K-298": {
+    "title": "Copie o desenho na malha de 6 por 6",
+    "instruction": "Conte os quadradinhos da malha 6 por 6, sem letras nem números."
+  },
+  "K-299": {
+    "title": "Copie o desenho usando letras e números",
+    "instruction": "Use as coordenadas, como B2, para pintar a malha 6 por 6."
+  },
+  "K-300": {
+    "title": "Copie o desenho na malha de 8 por 8",
+    "instruction": "Nesta malha maior, de 8 por 8, ache cada quadradinho pela letra."
+  },
+  "K-302": {
+    "title": "Singular e plural: primeiras palavras",
+    "instruction": "Duas figuras: cubra o plural destas três palavras curtinhas."
+  },
+  "K-303": {
+    "title": "Singular e plural: palavras compridas",
+    "instruction": "Duas ou três figuras: cubra o plural de quatro palavras compridas."
+  },
+  "K-306": {
+    "title": "O ou a? Quatro figuras",
+    "instruction": "Fale o nome das quatro figuras e circule o artigo certo."
+  },
+  "K-307": {
+    "title": "O ou a? Oito figuras",
+    "instruction": "Agora são oito figuras: circule o artigo certo em cada uma."
+  },
+  "G1-251": {
+    "title": "Leia e pinte: quatro frases",
+    "instruction": "Leia as quatro frases e pinte duas ou três figuras em cada quadro."
+  },
+  "G1-252": {
+    "title": "Leia e pinte: página cheia",
+    "instruction": "São seis frases, mais cores e de três a cinco figuras para pintar."
+  },
+  "G1-255": {
+    "title": "O número do dia: de 11 a 19",
+    "instruction": "O número fica entre 11 e 19: mostre nos quadros de dez."
+  },
+  "G1-256": {
+    "title": "O número do dia: 10 a mais, 10 a menos",
+    "instruction": "Calcule 10 a mais e 10 a menos e desenhe o número com blocos."
+  },
+  "G1-257": {
+    "title": "O número do dia: até 99",
+    "instruction": "Agora o número vai até 99: separe em dezenas e unidades."
+  },
+  "G1-258": {
+    "title": "Escreva o nome com banco de palavras",
+    "instruction": "A primeira letra já está ali: complete as seis palavras curtas."
+  },
+  "G1-259": {
+    "title": "Escreva o nome: escolha no banco de palavras",
+    "instruction": "Escolha no banco a palavra certa para cada uma das oito figuras."
+  },
+  "G1-260": {
+    "title": "Escreva o nome sem banco de palavras",
+    "instruction": "Sem banco de palavras: escreva sozinho o nome das oito figuras."
+  },
+  "G1-262": {
+    "title": "Ordem alfabética: numere as palavras",
+    "instruction": "Aqui você só numera de 1 a 4, olhando a primeira letra."
+  },
+  "G1-263": {
+    "title": "Ordem alfabética com quatro palavras",
+    "instruction": "Numere as quatro palavras e depois copie na ordem nas linhas."
+  },
+  "G1-264": {
+    "title": "Ordem alfabética: mesma letra inicial",
+    "instruction": "Duas duplas começam igual: olhe a segunda letra para numerar."
+  },
+  "G1-266": {
+    "title": "Pirâmide de números até 10",
+    "instruction": "Três andares: some os tijolos até um topo que não passa de 10."
+  },
+  "G1-267": {
+    "title": "Pirâmide de números com quatro andares",
+    "instruction": "Agora são quatro andares: some par por par até chegar ao topo."
+  },
+  "G1-268": {
+    "title": "Pirâmide de números com tijolo escondido",
+    "instruction": "Um tijolo da base sumiu: use o andar de cima para descobrir."
+  },
+  "G1-270": {
+    "title": "Dobro e metade com figuras",
+    "instruction": "Conte as figuras: o dobro e a metade vão até 8."
+  },
+  "G1-271": {
+    "title": "Dobro e metade até 20",
+    "instruction": "Sem figuras: calcule oito dobros e metades com números até 20."
+  },
+  "G1-274": {
+    "title": "Reta numérica de 0 a 10",
+    "instruction": "Só o 0, o 5 e o 10 estão escritos: descubra onde a seta aponta."
+  },
+  "G1-275": {
+    "title": "Reta numérica até 20 com poucos números",
+    "instruction": "Só o 0, o 10 e o 20 aparecem: conte de um em um até cada seta."
+  },
+  "G1-276": {
+    "title": "Reta numérica de 0 a 30",
+    "instruction": "Cada tracinho vale 1 e os números vão de 5 em 5 até 30."
+  },
+  "G1-277": {
+    "title": "Reta numérica de 0 a 50",
+    "instruction": "Cada tracinho vale 1 e só as dezenas estão escritas, até 50."
+  },
+  "G1-278": {
+    "title": "Reta numérica até 50 de 5 em 5",
+    "instruction": "Agora cada tracinho vale 5: conte de cinco em cinco até a seta."
+  },
+  "G1-279": {
+    "title": "Reta numérica até 100 de 5 em 5",
+    "instruction": "Cada tracinho vale 5 e um sim, outro não, está escrito até 100."
+  },
+  "G1-280": {
+    "title": "Reta numérica até 100 de 10 em 10",
+    "instruction": "Cada tracinho vale 10: conte de dez em dez até cada seta."
+  },
+  "G1-281": {
+    "title": "Reta numérica de 0 a 120",
+    "instruction": "Esta reta passa do 100: conte de dez em dez até chegar a 120."
+  },
+  "G1-282": {
+    "title": "Ordene a frase com pistas",
+    "instruction": "A maiúscula e o ponto mostram o começo e o fim das três frases."
+  },
+  "G1-283": {
+    "title": "Ordene a frase sem pistas",
+    "instruction": "Sem maiúscula nem ponto: ache a ordem certa das quatro frases."
+  },
+  "G2-281": {
+    "title": "Letra maiúscula e ponto final",
+    "instruction": "Reescreva as quatro frases com maiúscula no começo e ponto no fim."
+  },
+  "G2-282": {
+    "title": "Escolha o sinal de pontuação certo",
+    "instruction": "Cinco frases: escolha ponto, interrogação ou exclamação no fim."
+  },
+  "G2-285": {
+    "title": "Substantivo, verbo e adjetivo: nove palavras",
+    "instruction": "Separe nove palavras, três em cada coluna; algumas têm figura."
+  },
+  "G2-286": {
+    "title": "Substantivo, verbo e adjetivo sem figuras",
+    "instruction": "Agora são doze palavras e nenhuma figura para ajudar."
+  },
+  "G2-287": {
+    "title": "Substantivo, verbo e adjetivo: quinze palavras",
+    "instruction": "Quinze palavras mais difíceis, sem figuras: leia com atenção."
+  },
+  "G2-289": {
+    "title": "Vamos às compras: duas situações-problema",
+    "instruction": "Duas historinhas: uma pede o total, a outra se o dinheiro dá."
+  },
+  "G2-290": {
+    "title": "Vamos às compras: quatro perguntas",
+    "instruction": "Quatro cartões: total, troco, se o dinheiro dá e quanto a mais."
+  },
+  "G2-291": {
+    "title": "Vamos às compras: some o que está na cesta",
+    "instruction": "Nos três cartões, some o preço de dois produtos."
+  },
+  "G2-292": {
+    "title": "Vamos às compras: cestas maiores",
+    "instruction": "Em dois cartões você soma três preços; no outro, dois."
+  },
+  "G2-293": {
+    "title": "Vamos às compras: quanto é o troco?",
+    "instruction": "Veja as moedas entregues e descubra quanto volta de troco."
+  },
+  "G2-294": {
+    "title": "Vamos às compras: o dinheiro dá?",
+    "instruction": "Compare o dinheiro com o preço dos dois produtos e responda."
+  },
+  "G2-295": {
+    "title": "Vamos às compras: quanto a mais?",
+    "instruction": "Dois cartões pedem a diferença entre dois preços; um pede o total."
+  },
+  "G2-296": {
+    "title": "Leitura de calendário: quatro perguntas",
+    "instruction": "Leia o mês e responda a quatro perguntas sobre datas e dias."
+  },
+  "G2-297": {
+    "title": "Leitura de calendário: um mês cheio",
+    "instruction": "Mês de seis semanas, três marcações e seis perguntas para responder."
+  },
+  "G2-298": {
+    "title": "Leitura de calendário: dias da semana",
+    "instruction": "As quatro perguntas são sobre os dias da semana: leia as colunas."
+  },
+  "G2-299": {
+    "title": "Produção de texto: escreva o que você vê",
+    "instruction": "Quatro palavras no banco e começos de frase prontos para continuar."
+  },
+  "G2-300": {
+    "title": "Produção de texto com suas próprias palavras",
+    "instruction": "Sem começos de frase: escreva sua historinha com seis palavras."
+  },
+  "G2-302": {
+    "title": "Coordenadas na malha de 6 por 6",
+    "instruction": "Pinte os quadradinhos da lista, como B2, na malha 6 por 6."
+  },
+  "G2-303": {
+    "title": "Coordenadas na malha de 10 por 10",
+    "instruction": "Malha maior, de A até J e de 1 até 10: siga a lista com calma."
+  },
+  "G3-371": {
+    "title": "Problemas de multiplicação até 20",
+    "instruction": "Duas historinhas com grupos iguais: multiplique até 20."
+  },
+  "G3-372": {
+    "title": "Problemas de divisão: repartir igualmente",
+    "instruction": "Reparta as figuras nas caixinhas e escreva quanto ficou em cada."
+  },
+  "G3-373": {
+    "title": "Problemas de divisão: formar grupos",
+    "instruction": "Circule os grupos na figura e escreva quantos grupos deram."
+  },
+  "G3-374": {
+    "title": "Problemas de divisão dos dois jeitos",
+    "instruction": "Uma historinha reparte, a outra forma grupos: as duas são divisão."
+  },
+  "G3-375": {
+    "title": "Problemas de multiplicar e formar grupos",
+    "instruction": "A primeira junta grupos iguais; a segunda separa o total em grupos."
+  },
+  "G3-376": {
+    "title": "Problemas de multiplicação e divisão misturados",
+    "instruction": "Três historinhas: descubra se cada uma multiplica ou divide."
   }
 }

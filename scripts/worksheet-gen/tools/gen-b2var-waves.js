@@ -54,8 +54,13 @@ const THEME = {
   // G2-278 picture-writing (base ships vehicles)
   'G2-299': 'animals', 'G2-300': 'fruits',
   // G3-370 word-problems (base ships fruits)
-  'G3-371': 'animals', 'G3-372': 'vehicles', 'G3-373': 'toys',
-  'G3-374': 'fruits', 'G3-375': 'animals', 'G3-376': 'vehicles',
+  // The share/group frames put things in BAGS and BOXES ("range 15 X dans des
+  // boîtes de 3"), which needs small countable objects. On vehicles that renders
+  // "15 ferries in boxes of 3" — absurd for an 8-year-old. The two faces that
+  // carry a division op ride fruits/toys instead; G3-371 keeps animals because
+  // multiplication-only says "4 rows of 5", which is fine for animals.
+  'G3-371': 'animals', 'G3-372': 'fruits', 'G3-373': 'toys',
+  'G3-374': 'fruits', 'G3-375': 'animals', 'G3-376': 'toys',
 };
 
 // locale -> id -> replacement theme (each one measured, see the docblock)

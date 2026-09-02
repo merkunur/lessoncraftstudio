@@ -1510,5 +1510,261 @@
   "G3-370": {
     "title": "Multiplication and Division Word Problems",
     "instruction": "Read each story. Use the picture to help you. Write the answer in the box, then finish the answer sentence."
+  },
+  "K-289": {
+    "title": "Trace Your First Words",
+    "instruction": "Trace the dashed word, then write it on the empty line."
+  },
+  "K-290": {
+    "title": "Trace Once, Write It Twice",
+    "instruction": "Trace the word once, then write it twice on your own."
+  },
+  "K-291": {
+    "title": "Trace the Longer Words",
+    "instruction": "These words are long. Trace each one, then write it yourself."
+  },
+  "K-294": {
+    "title": "Dot-to-Dot 1 to 10",
+    "instruction": "Start at the orange dot. Join the dots from 1 to 10 to finish the picture."
+  },
+  "K-295": {
+    "title": "Dot-to-Dot: Teen Numbers",
+    "instruction": "Start at the orange dot. Join the dots from 11 to 20 to finish the picture."
+  },
+  "K-296": {
+    "title": "Dot-to-Dot: Count On from 11",
+    "instruction": "Count on from 11 to 30 to find the hidden picture."
+  },
+  "K-298": {
+    "title": "Copy the Grid Picture: First Steps",
+    "instruction": "A small grid to start. Color the same squares on the empty grid."
+  },
+  "K-299": {
+    "title": "Copy the Picture Using Letters and Numbers",
+    "instruction": "Use the letter and number of each square to copy the picture."
+  },
+  "K-300": {
+    "title": "Copy the Picture on an 8x8 Grid",
+    "instruction": "A bigger grid: find each square by its letter and number, then copy."
+  },
+  "K-302": {
+    "title": "One and Many: First Words",
+    "instruction": "One or many? Trace the word that names more than one."
+  },
+  "K-303": {
+    "title": "One and Many: Longer Words",
+    "instruction": "These words are longer. Trace the word that names many."
+  },
+  "K-306": {
+    "title": "Circle the Right Word: Four Pictures",
+    "instruction": "Say each picture word, then circle the word that belongs with it."
+  },
+  "K-307": {
+    "title": "Circle the Right Word: Eight Pictures",
+    "instruction": "Eight pictures this time. Circle the word that belongs with each."
+  },
+  "G1-251": {
+    "title": "Read and Color: Four Sentences",
+    "instruction": "Read each sentence, then color exactly what it asks for."
+  },
+  "G1-252": {
+    "title": "Read and Color: A Busy Page",
+    "instruction": "More pictures and more colors. Read each sentence carefully."
+  },
+  "G1-255": {
+    "title": "Number of the Day: Teen Numbers",
+    "instruction": "Look at the big number. Fill in every box on the page for that number."
+  },
+  "G1-256": {
+    "title": "Number of the Day: Ten More, Ten Less",
+    "instruction": "Find ten more and ten less than the number of the day."
+  },
+  "G1-257": {
+    "title": "Number of the Day: Up to 99",
+    "instruction": "Show a two-digit number in tens and ones, then fill every box."
+  },
+  "G1-258": {
+    "title": "Write the Word: With a Word Bank",
+    "instruction": "Use the word bank. The first letter is written to start you off."
+  },
+  "G1-259": {
+    "title": "Write the Word: Choose from the Word Bank",
+    "instruction": "Every word is in the bank. Write the right one by each picture."
+  },
+  "G1-260": {
+    "title": "Write the Word on Plain Lines",
+    "instruction": "No word bank this time. Write each picture word on the lines."
+  },
+  "G1-262": {
+    "title": "ABC Order: Number the Words",
+    "instruction": "Number the four cards to put the words in ABC order."
+  },
+  "G1-263": {
+    "title": "ABC Order: Number Them, Then Write Them",
+    "instruction": "Number the cards, then copy the words onto the lines in order."
+  },
+  "G1-264": {
+    "title": "ABC Order: When Two Words Start the Same",
+    "instruction": "Two words start alike. Use the second letter to order them."
+  },
+  "G1-266": {
+    "title": "Number Walls to 10",
+    "instruction": "Each brick is the sum of the two bricks under it. Build every wall to the top."
+  },
+  "G1-267": {
+    "title": "Number Walls: Four Rows High",
+    "instruction": "Four rows and no gaps. Add each pair of bricks up to the top."
+  },
+  "G1-268": {
+    "title": "Number Walls: Find the Missing Brick",
+    "instruction": "A bottom brick is missing. Use the brick above to find it."
+  },
+  "G1-270": {
+    "title": "Doubles and Halves: First Steps",
+    "instruction": "Double the group, then halve it. Small numbers to start."
+  },
+  "G1-271": {
+    "title": "Doubles and Halves to 20",
+    "instruction": "Numbers only this time. Work out each double and half up to 20."
+  },
+  "G1-274": {
+    "title": "Where on the Number Line? 0 to 10",
+    "instruction": "Write the number each arrow points to, from 0 to 10."
+  },
+  "G1-275": {
+    "title": "Number Line to 20: Fewer Labels",
+    "instruction": "Only 0, 10 and 20 are printed. Count on to each arrow."
+  },
+  "G1-276": {
+    "title": "Where on the Number Line? 0 to 30",
+    "instruction": "Count on to 30. Write the number each arrow points to."
+  },
+  "G1-277": {
+    "title": "Where on the Number Line? 0 to 50",
+    "instruction": "Count on to 50. Every tenth number is printed to help you."
+  },
+  "G1-278": {
+    "title": "Number Line to 50: Counting in Fives",
+    "instruction": "Count on in fives from 0, 25 or 50 to reach each arrow."
+  },
+  "G1-279": {
+    "title": "Number Line to 100: Counting in Fives",
+    "instruction": "Each tick is five, up to 100. Which number is each arrow on?"
+  },
+  "G1-280": {
+    "title": "Number Line to 100: Counting in Tens",
+    "instruction": "Each tick is ten. Count on in tens to reach each arrow."
+  },
+  "G1-281": {
+    "title": "Where on the Number Line? 0 to 120",
+    "instruction": "This line goes past 100. Count on in tens to each arrow."
+  },
+  "G1-282": {
+    "title": "Unscramble the Sentence: With Clues",
+    "instruction": "The capital letter and the end mark show where each sentence begins."
+  },
+  "G1-283": {
+    "title": "Unscramble the Sentence: No Clues",
+    "instruction": "No capital, no full stop. Find the one order that works."
+  },
+  "G2-281": {
+    "title": "Fix the Sentence: Capital and Full Stop",
+    "instruction": "Rewrite each sentence with a capital letter and a full stop."
+  },
+  "G2-282": {
+    "title": "Fix the Sentence: Choose the End Mark",
+    "instruction": "Fix the capital letters and the names, and choose the right end mark."
+  },
+  "G2-285": {
+    "title": "Word Classes: Sort Nine Words",
+    "instruction": "Read each word chip. Write it in the bin where it belongs."
+  },
+  "G2-286": {
+    "title": "Word Classes: Without Pictures",
+    "instruction": "No pictures to help. Read each word and sort it into a bin."
+  },
+  "G2-287": {
+    "title": "Word Classes: Sort Fifteen Words",
+    "instruction": "Fifteen words and no pictures. Sort each one into its bin."
+  },
+  "G2-289": {
+    "title": "Shopping Math: Two Stories",
+    "instruction": "Read each story and use the shelf prices to answer it."
+  },
+  "G2-290": {
+    "title": "Shopping Math: Four Questions",
+    "instruction": "Four cards, four different shopping questions to answer."
+  },
+  "G2-291": {
+    "title": "Shopping Math: Add Up the Basket",
+    "instruction": "Every card asks for a total. Add the prices together."
+  },
+  "G2-292": {
+    "title": "Shopping Math: Buying Three Things",
+    "instruction": "Each basket holds three things. Add all three prices."
+  },
+  "G2-293": {
+    "title": "Shopping Math: How Much Change?",
+    "instruction": "Count the coins paid, then work out the change."
+  },
+  "G2-294": {
+    "title": "Shopping Math: Is There Enough Money?",
+    "instruction": "Compare the money with the price. Circle yes or no, then write the total."
+  },
+  "G2-295": {
+    "title": "Shopping Math: How Much More?",
+    "instruction": "Compare two prices and work out the difference between them."
+  },
+  "G2-296": {
+    "title": "Read the Calendar: Four Questions",
+    "instruction": "Look at the month. Answer each question by reading the calendar."
+  },
+  "G2-297": {
+    "title": "Read the Calendar: A Busy Month",
+    "instruction": "This month is full. Read the calendar carefully to answer every question."
+  },
+  "G2-298": {
+    "title": "Read the Calendar: Days of the Week",
+    "instruction": "Every question is about the days. Read down the columns."
+  },
+  "G2-299": {
+    "title": "Write About the Picture: What You See",
+    "instruction": "Sentence starters help you begin. The word bank names everything."
+  },
+  "G2-300": {
+    "title": "Write About the Picture: Your Own Words",
+    "instruction": "No sentence starters. Write your own story about the picture."
+  },
+  "G2-302": {
+    "title": "Grid Coordinates on a 6x6 Grid",
+    "instruction": "Find each square by its letter and number. Color it to reveal the picture."
+  },
+  "G2-303": {
+    "title": "Grid Coordinates on a 10x10 Grid",
+    "instruction": "A bigger grid with more squares. Work through the list carefully."
+  },
+  "G3-371": {
+    "title": "Multiplication Word Problems",
+    "instruction": "The picture shows the equal groups. Write each answer in the box."
+  },
+  "G3-372": {
+    "title": "Division Word Problems: Sharing",
+    "instruction": "Each story shares things out. Deal them into the boxes."
+  },
+  "G3-373": {
+    "title": "Division Word Problems: Making Groups",
+    "instruction": "Ring the equal groups in the picture, then write the answer."
+  },
+  "G3-374": {
+    "title": "Division Word Problems: Two Ways",
+    "instruction": "One story shares out, the other makes groups. Both are division."
+  },
+  "G3-375": {
+    "title": "Multiply and Group: Word Problems",
+    "instruction": "One story builds groups, the other breaks them up."
+  },
+  "G3-376": {
+    "title": "Multiplication and Division: Mixed Problems",
+    "instruction": "Three stories. Decide what each one asks before you answer."
   }
 }

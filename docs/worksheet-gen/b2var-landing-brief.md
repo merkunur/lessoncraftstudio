@@ -47,8 +47,16 @@ Exactly the ids you are assigned, nothing else. Nine string fields each, no extr
 4. `slug` ASCII-kebab (`^[a-z0-9-]+$`), unique within your batch and against the whole live
    corpus. Fold accents the way your locale already does in `<locale>.json`
    (da ø→oe å→aa æ→ae; no ø→o; sv/fi ä→a ö→o).
-5. A **slot token** must appear in `p1` — the family slug, the theme slug, or the level key. The
-   composer warns if the theme word is not obviously there.
+5. A **slot token** should appear in `p1` — the family slug, the theme slug, or the level key,
+   VERBATIM in its slug form. The English house style puts the hyphenated family slug straight
+   into the first sentence ("This 1st grade number-of-the-day worksheet prints..."), and naming
+   the theme ("animals", "fruits") or the level ("kindergarten") also satisfies it.
+   ⚠ In accented languages this is often UNSATISFIABLE without writing something no teacher
+   would say — Spanish prose says "recta numérica" where the token is `recta-numerica` — and the
+   shipped corpus reflects that: measured, 306 of 2,408 Spanish and 315 of 3,938 English landings
+   already fail this check. **Satisfy it where it reads naturally and ignore it where it does
+   not.** Never distort the language for it. The checks that actually matter are the word floor,
+   the meta band, slug uniqueness, the banned phrases and cross-page similarity.
 
 ## What makes these pages worth publishing
 

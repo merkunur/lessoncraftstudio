@@ -132061,6 +132061,1367 @@
    ],
    "title": "Droite graduée 0 à 30 CP | à imprimer PDF gratuit",
    "metaDescription": "Quatre droites de 0 à 30, une étiquette toutes les cinq graduations et trois flèches par droite, parfois voisines. Fiche CP gratuite à imprimer en PDF."
+  },
+  {
+   "slug": "droite-graduee-de-0-a-50",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche droite graduée",
+   "h1": "Droite graduée de 0 à 50 : lire les nombres entre les dizaines",
+   "strand": "Nombres et calculs",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "droite-numerique",
+    "cp"
+   ],
+   "p1": "Cinquante unités d'un bout à l'autre de chaque ligne, et six nombres seulement écrits dessous sur cette fiche de CP : 0, 10, 20, 30, 40 et 50. Entre deux étiquettes, neuf petits traits restent muets, et chacun vaut une unité. Les quatre droites occupent chacune leur cadre, et trois flèches orange descendent vers des graduations sans nom, avec une case vide au-dessus de chaque flèche. L'enfant repère la dizaine la plus proche, compte les traits qui l'en séparent, en avançant ou en reculant, puis écrit le nombre trouvé. Les flèches d'une même droite sont toujours séparées d'au moins trois graduations.",
+   "p2": "Passer de la vingtaine à la cinquantaine change moins le calcul que la méthode. Compter un par un depuis zéro devient impraticable : trente-sept traits, personne ne les suit sans se perdre. La page force donc l'appui sur la dizaine, seul repère écrit, et l'enfant apprend à dire trente-sept, c'est sept après trente, ou trois avant quarante. Ce second geste, reculer depuis la dizaine suivante, est celui que l'adulte guette : il montre que la dizaine est devenue un point d'ancrage et non une simple étape de la comptine. Les nombres de cette fiche ont l'avantage d'être réguliers en français, trente-deux, quarante-trois, ce qui laisse toute l'attention à la lecture des traits. Les programmes officiels du cycle 2 demandent au CP de situer un nombre sur une droite graduée et d'étendre la connaissance des nombres jusqu'à cent.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; un crayon fin est utile, les graduations étant serrées. Quatre droites et douze flèches font une séance d'un quart d'heure. Dans la même série, la fiche de 0 à 30 garde une étiquette toutes les cinq graduations et reste plus rassurante ; la fiche de 5 en 5 jusqu'à 50 conserve la même longueur de droite mais donne aux traits une autre valeur, ce qui est un exercice différent. Le nombre du jour reprend ensuite la droite graduée dans un rituel plus large.",
+   "canonicalDeckSlug": "droite-numerique-g1277",
+   "carousel": [
+    {
+     "label": "Droite graduée jusqu'à 50 : un trait vaut cinq",
+     "href": "droite-graduee-de-5-en-5-jusqu-a-50"
+    },
+    {
+     "label": "Droite graduée jusqu'à 100 : le trait du milieu vaut cinq",
+     "href": "droite-graduee-de-5-en-5-jusqu-a-100"
+    },
+    {
+     "label": "Droite graduée jusqu'à 100 : compter de dix en dix",
+     "href": "droite-graduee-de-10-en-10-jusqu-a-100"
+    },
+    {
+     "label": "Droite graduée de 0 à 120 : franchir la centaine",
+     "href": "droite-graduee-de-0-a-120"
+    }
+   ],
+   "title": "Droite graduée 0 à 50 CP | à imprimer PDF gratuit",
+   "metaDescription": "Quatre droites de 0 à 50, un trait par unité et une étiquette toutes les dizaines : trois flèches par droite à nommer. Fiche CP gratuite en PDF."
+  },
+  {
+   "slug": "droite-graduee-de-5-en-5-jusqu-a-50",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche droite graduée",
+   "h1": "Droite graduée jusqu'à 50 : un trait vaut cinq",
+   "strand": "Nombres et calculs",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "droite-numerique",
+    "cp"
+   ],
+   "p1": "Un trait ne vaut plus une unité : il vaut cinq. C'est le seul changement de cette fiche de CP, et il change tout. Trois droites se suivent, chacune de 0 à 50, avec onze graduations seulement et trois nombres écrits, 0 au départ, 25 au milieu, 50 à l'arrivée. Deux flèches orange par droite pointent vers des graduations sans nom, surmontées d'une case vide. L'enfant ne peut plus compter les traits un par un : il doit sauter de cinq en cinq depuis 0, depuis 25 ou depuis 50, et écrire le nombre atteint. Toutes les réponses sont des multiples de cinq.",
+   "p2": "L'erreur que cette page provoque volontairement est la plus instructive de la série : l'enfant qui compte trois traits après 0 écrit 3 au lieu de 15. Il n'a pas mal compté, il a mal lu l'échelle, et c'est exactement la notion visée, un trait porte une valeur et cette valeur se lit ailleurs sur la ligne. La comptine de cinq en cinq, apprise à l'oral dès le CP, prend ici un support visuel : chaque saut de la voix correspond à un saut du doigt. Le repère de 25, au milieu, permet aussi de partir de la droite et de reculer, 40, c'est deux traits avant 50. Les programmes officiels du cycle 2 associent au CP le comptage de cinq en cinq et la lecture d'une droite dont toutes les graduations ne sont pas nommées.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; faire dire à voix haute cinq, dix, quinze en pointant les traits fixe la règle avant d'écrire. Trois droites et six flèches suffisent pour dix minutes. La suite naturelle est la fiche de 5 en 5 jusqu'à 100, qui garde la même valeur de trait mais écrit toutes les dizaines ; celle de 10 en 10 monte encore d'un cran. Pour revenir à des traits qui valent un, la fiche de 0 à 50 propose quatre droites et douze flèches.",
+   "canonicalDeckSlug": "droite-numerique-g1278",
+   "carousel": [
+    {
+     "label": "Droite graduée de 0 à 50 : lire les nombres entre les dizaines",
+     "href": "droite-graduee-de-0-a-50"
+    },
+    {
+     "label": "Droite graduée jusqu'à 100 : le trait du milieu vaut cinq",
+     "href": "droite-graduee-de-5-en-5-jusqu-a-100"
+    },
+    {
+     "label": "Droite graduée jusqu'à 100 : compter de dix en dix",
+     "href": "droite-graduee-de-10-en-10-jusqu-a-100"
+    },
+    {
+     "label": "Droite graduée de 0 à 120 : franchir la centaine",
+     "href": "droite-graduee-de-0-a-120"
+    }
+   ],
+   "title": "Droite graduée de 5 en 5 jusqu'à 50 CP | à imprimer PDF gratuit",
+   "metaDescription": "Trois droites de 0 à 50 où chaque trait vaut cinq, avec 0, 25 et 50 pour seuls repères : six flèches à nommer. Fiche CP gratuite à imprimer en PDF."
+  },
+  {
+   "slug": "droite-graduee-de-5-en-5-jusqu-a-100",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche droite graduée",
+   "h1": "Droite graduée jusqu'à 100 : le trait du milieu vaut cinq",
+   "strand": "Nombres et calculs",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "droite-numerique",
+    "cp"
+   ],
+   "p1": "Toutes les dizaines sont écrites sur cette fiche de CP, de 0 à 100, et entre deux étiquettes voisines il n'y a qu'un seul petit trait : il vaut cinq. Quatre droites remplissent la page, chacune dans son cadre, et deux flèches orange par droite désignent une graduation sans nom. La réponse se trouve donc toujours à mi-chemin entre deux dizaines, 45 entre 40 et 50, 85 entre 80 et 90. L'enfant lit les deux étiquettes qui encadrent la flèche, dit le nombre du milieu, puis l'écrit dans la case. Huit flèches, huit multiples de cinq à retrouver sur toute la centaine.",
+   "p2": "La centaine entière tient sur une ligne, et c'est le premier intérêt de la page : l'enfant voit d'un coup d'oeil que 15 est tout au début et que 85 est presque au bout, ce qu'aucune liste de nombres ne montre aussi vite. Le second intérêt tient au trait unique entre deux dizaines : la position ne se compte pas, elle se déduit, c'est le nombre du milieu. Ce raisonnement est une première approche de l'ordre de grandeur, celle qui servira plus tard pour encadrer et arrondir. L'adulte surveille l'inversion classique du CP, écrire 54 pour quarante-cinq, que la place de la flèche dément immédiatement. Les programmes officiels du cycle 2 demandent au CP de situer un nombre sur une droite graduée et de connaître les nombres jusqu'à cent.",
+   "p3": "La fiche s'imprime gratuitement en PDF et se refait avec d'autres flèches à chaque tirage. Quatre droites, huit réponses, une dizaine de minutes. La fiche de 5 en 5 jusqu'à 50 est la marche d'avant : la droite y est deux fois plus courte et les repères plus rares, 0, 25 et 50 seulement. La fiche de 10 en 10 jusqu'à 100 garde la même longueur mais un trait y vaut dix, ce qui supprime le calcul du milieu. Le nombre du jour place ensuite un nombre à deux chiffres sur une droite semblable.",
+   "canonicalDeckSlug": "droite-numerique-g1279",
+   "carousel": [
+    {
+     "label": "Droite graduée de 0 à 50 : lire les nombres entre les dizaines",
+     "href": "droite-graduee-de-0-a-50"
+    },
+    {
+     "label": "Droite graduée jusqu'à 50 : un trait vaut cinq",
+     "href": "droite-graduee-de-5-en-5-jusqu-a-50"
+    },
+    {
+     "label": "Droite graduée jusqu'à 100 : compter de dix en dix",
+     "href": "droite-graduee-de-10-en-10-jusqu-a-100"
+    },
+    {
+     "label": "Droite graduée de 0 à 120 : franchir la centaine",
+     "href": "droite-graduee-de-0-a-120"
+    }
+   ],
+   "title": "Droite graduée de 5 en 5 jusqu'à 100 CP | à imprimer PDF gratuit",
+   "metaDescription": "Quatre droites de 0 à 100, toutes les dizaines écrites et un seul trait entre elles : la flèche tombe toujours sur le nombre du milieu. Fiche CP en PDF gratuit."
+  },
+  {
+   "slug": "droite-graduee-de-10-en-10-jusqu-a-100",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche droite graduée",
+   "h1": "Droite graduée jusqu'à 100 : compter de dix en dix",
+   "strand": "Nombres et calculs",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "droite-numerique",
+    "cp"
+   ],
+   "p1": "Dix intervalles d'un bout à l'autre, et trois nombres écrits seulement : 0, 50 et 100. Chaque trait de cette fiche de CP vaut dix. Les trois droites occupent chacune leur cadre, largement espacées, et deux flèches orange par droite pointent vers une graduation sans nom, avec une case vide au-dessus. L'enfant compte de dix en dix depuis 0, ou depuis 50 quand la flèche se trouve dans la seconde moitié, puis écrit la dizaine trouvée. Toutes les réponses sont des dizaines entières, et le repère central partage la ligne en deux moitiés faciles à parcourir.",
+   "p2": "Compter de dix en dix jusqu'à cent est un objectif de CP à part entière, et le français y ajoute une difficulté que d'autres langues n'ont pas : après soixante, la comptine cesse d'être régulière, soixante-dix, quatre-vingts, quatre-vingt-dix. Une flèche posée dans la seconde moitié de la droite oblige donc à dire ces nombres, et pas seulement à les reconnaître. Le repère de 50 est là pour cela : il évite de repartir de zéro à chaque fois et permet de dire soixante-dix, c'est deux traits après cinquante. L'adulte écoute autant qu'il regarde, car l'hésitation se produit à l'oral, avant l'écriture. Les programmes officiels du cycle 2 demandent au CP de compter de dix en dix et de connaître les dizaines jusqu'à cent.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; trois droites et six flèches en font la plus courte des fiches allant jusqu'à cent. Elle prépare directement la fiche de 0 à 120, construite de la même façon mais qui dépasse la centaine. La fiche de 5 en 5 jusqu'à 100 est plus exigeante à longueur égale, puisque le nombre cherché tombe entre deux dizaines. Les pyramides de nombres et le nombre du jour entretiennent les additions de dizaines que ces sauts supposent.",
+   "canonicalDeckSlug": "droite-numerique-g1280",
+   "carousel": [
+    {
+     "label": "Droite graduée de 0 à 50 : lire les nombres entre les dizaines",
+     "href": "droite-graduee-de-0-a-50"
+    },
+    {
+     "label": "Droite graduée jusqu'à 50 : un trait vaut cinq",
+     "href": "droite-graduee-de-5-en-5-jusqu-a-50"
+    },
+    {
+     "label": "Droite graduée jusqu'à 100 : le trait du milieu vaut cinq",
+     "href": "droite-graduee-de-5-en-5-jusqu-a-100"
+    },
+    {
+     "label": "Droite graduée de 0 à 120 : franchir la centaine",
+     "href": "droite-graduee-de-0-a-120"
+    }
+   ],
+   "title": "Droite graduée de 10 en 10 jusqu'à 100 CP | à imprimer PDF gratuit",
+   "metaDescription": "Trois droites de 0 à 100 où chaque trait vaut dix, avec 0, 50 et 100 pour seuls repères : six dizaines à retrouver. Fiche CP gratuite à imprimer en PDF."
+  },
+  {
+   "slug": "droite-graduee-de-0-a-120",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche droite graduée",
+   "h1": "Droite graduée de 0 à 120 : franchir la centaine",
+   "strand": "Nombres et calculs",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "droite-numerique",
+    "cp"
+   ],
+   "p1": "La droite ne s'arrête plus à cent. Elle continue de deux graduations, jusqu'à 120, sur chacune des trois lignes de cette fiche de CP. Les nombres écrits sont 0, 50 et 100 ; les traits, eux, valent dix. Deux flèches orange par droite désignent une graduation sans nom, parfois avant la centaine, parfois après, et l'enfant écrit la dizaine trouvée dans la case vide. Le passage de 100 à 110 puis à 120 se fait exactement comme celui de 80 à 90, ce que la ligne montre sans avoir à le dire.",
+   "p2": "Beaucoup d'enfants entendent cent comme un point d'arrivée, parce que toutes les fiches s'y arrêtent. Prolonger la ligne de deux traits suffit à défaire cette idée : après cent viennent cent-dix et cent-vingt, comme après quatre-vingts vient quatre-vingt-dix. La régularité revient d'ailleurs au-delà de la centaine, ce qui rend cette zone plus simple à dire que les soixante-dix et les quatre-vingt-dix qui la précèdent, et cela mérite d'être remarqué à voix haute. La droite reste la meilleure image pour cela, parce qu'elle ne comporte aucune rupture visible à l'endroit de la centaine. Les programmes officiels du cycle 2 demandent au CP de connaître les nombres jusqu'à cent, la centaine étant ensuite travaillée pour elle-même au CE1.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; elle vient plutôt en fin de CP, quand les dizaines jusqu'à cent sont assurées. Trois droites et six flèches, un quart d'heure au plus. La fiche de 10 en 10 jusqu'à 100 est la même page sans le dépassement et se prend avant celle-ci ; la fiche de 5 en 5 jusqu'à 100 travaille au contraire la valeur du trait. Les pyramides de nombres prolongent le calcul sur les dizaines.",
+   "canonicalDeckSlug": "droite-numerique-g1281",
+   "carousel": [
+    {
+     "label": "Droite graduée de 0 à 50 : lire les nombres entre les dizaines",
+     "href": "droite-graduee-de-0-a-50"
+    },
+    {
+     "label": "Droite graduée jusqu'à 50 : un trait vaut cinq",
+     "href": "droite-graduee-de-5-en-5-jusqu-a-50"
+    },
+    {
+     "label": "Droite graduée jusqu'à 100 : le trait du milieu vaut cinq",
+     "href": "droite-graduee-de-5-en-5-jusqu-a-100"
+    },
+    {
+     "label": "Droite graduée jusqu'à 100 : compter de dix en dix",
+     "href": "droite-graduee-de-10-en-10-jusqu-a-100"
+    }
+   ],
+   "title": "Droite graduée 0 à 120 CP | à imprimer PDF gratuit",
+   "metaDescription": "Trois droites qui ne s'arrêtent pas à 100 : les traits valent dix et la ligne continue jusqu'à 120, six flèches à nommer. Fiche CP gratuite en PDF."
+  },
+  {
+   "slug": "phrases-melangees-avec-majuscule-et-point",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sentence-building",
+    "mode": null,
+    "theme": "fruits",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche phrases mélangées",
+   "h1": "Phrases mélangées avec indices : la majuscule et le point sont donnés",
+   "strand": "Étude de la langue",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "phrases-melangees",
+    "fruits",
+    "cp"
+   ],
+   "p1": "Deux indices restent visibles sur les étiquettes de cette fiche de CP : la majuscule du premier mot et le signe de ponctuation collé au dernier. Trois phrases occupent chacune leur cadre, avec un fruit dessiné à gauche, et les mots sont donnés en désordre sur des étiquettes encadrées, trois à cinq par phrase. L'enfant repère l'étiquette qui porte la majuscule, puis celle qui porte le point ou le point d'interrogation : il connaît déjà le début et la fin de sa phrase. Il ne lui reste qu'à ordonner ce qui se trouve entre les deux, puis à recopier la phrase entière sur la ligne d'écriture, sous les étiquettes.",
+   "p2": "Fixer les deux extrémités d'une phrase réduit beaucoup le travail, et c'est volontaire : au premier trimestre du CP, remettre quatre mots dans l'ordre sans aucun point d'appui décourage vite. L'enfant apprend ici ce que signifient ces deux marques, une majuscule ouvre, un point ferme, et il les utilise comme des outils avant d'avoir à les produire. Certaines phrases se terminent par un point d'interrogation, ce qui impose un tout autre ordre, une question ne se construit pas comme une affirmation. Le test reste le même : une phrase juste se lit d'un trait à voix haute, une phrase fausse accroche. Les programmes officiels du cycle 2 attendent au CP la production de phrases simples correctement construites et ponctuées.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; les étiquettes peuvent être découpées et déplacées sur la table avant l'écriture, ce qui évite les ratures. Trois phrases courtes tiennent en dix minutes. La fiche sans majuscule ni point est la marche suivante : mêmes étiquettes, mais toutes en minuscules et sans ponctuation, avec une phrase de plus et jusqu'à six mots. La fiche corriger la phrase, au CE1, demande ensuite de réparer des phrases déjà dans l'ordre, et la production d'écrit d'en inventer.",
+   "canonicalDeckSlug": "phrases-melangees-fruits-g1282",
+   "carousel": [
+    {
+     "label": "Phrases mélangées sans indice : trouver le seul ordre possible",
+     "href": "phrases-melangees-sans-majuscule-ni-point"
+    },
+    {
+     "label": "Corriger la phrase : la majuscule et le signe final",
+     "href": "corriger-la-phrase-majuscule-et-point"
+    },
+    {
+     "label": "Corriger la phrase : point, point d'interrogation ou point d'exclamation ?",
+     "href": "corriger-la-phrase-choisir-le-signe-final"
+    },
+    {
+     "label": "Nature des mots : trier neuf étiquettes, les noms illustrés",
+     "href": "nature-des-mots-neuf-etiquettes-avec-images"
+    }
+   ],
+   "title": "Phrases mélangées CP avec majuscule et point | à imprimer PDF gratuit",
+   "metaDescription": "Trois phrases en désordre où la majuscule et le signe final restent imprimés sur les étiquettes : le début et la fin sont donnés. Fiche CP gratuite en PDF."
+  },
+  {
+   "slug": "phrases-melangees-sans-majuscule-ni-point",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sentence-building",
+    "mode": null,
+    "theme": "animals",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche phrases mélangées",
+   "h1": "Phrases mélangées sans indice : trouver le seul ordre possible",
+   "strand": "Étude de la langue",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "phrases-melangees",
+    "animaux",
+    "cp"
+   ],
+   "p1": "Aucune étiquette ne porte de majuscule, aucune ne porte de point : sur cette fiche de CP, tous les mots sont écrits en minuscules, y compris les prénoms. Quatre phrases se succèdent, chacune dans son cadre avec un animal dessiné à gauche, et chacune est donnée sous forme de quatre à six étiquettes en désordre. L'enfant doit trouver le seul ordre qui fasse une phrase, puis l'écrire sur la ligne en ajoutant lui-même la majuscule au premier mot et le signe qui convient à la fin. Les phrases sont construites pour n'avoir qu'une solution, sans complément déplaçable ni ambiguïté à départager.",
+   "p2": "Retirer les deux indices déplace la tâche. Tant que la majuscule était imprimée, le premier mot était donné ; ici, il faut le déduire du sens, et c'est une véritable analyse de la phrase, même si l'enfant n'en possède pas encore le vocabulaire. La fin est plus délicate encore, parce que le signe dépend du type de phrase : les étiquettes peuvent former une question, et rien ne le signale avant que la phrase ne soit reconstituée. Le prénom écrit en minuscules est le troisième piège, volontaire lui aussi, car la majuscule d'un nom propre ne dépend pas de sa place. L'adulte relit la ligne écrite plutôt que les étiquettes déplacées, c'est là que se voit ce qui a été compris. Les programmes officiels du cycle 2 attendent au CP l'usage de la majuscule et du point dans les phrases écrites.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; on peut demander à l'enfant de dire sa phrase avant de l'écrire, l'oreille tranche souvent plus vite que l'oeil. Quatre phrases un peu plus longues, jusqu'à six mots, en font la plus exigeante des deux fiches de phrases mélangées ; celle avec indices garde la majuscule et le signe final sur les étiquettes et n'en propose que trois. La fiche corriger la phrase, au CE1, travaille les mêmes marques sur des phrases déjà ordonnées, et la dictée muette entraîne l'orthographe des noms d'animaux utilisés ici.",
+   "canonicalDeckSlug": "phrases-melangees-animaux-g1283",
+   "carousel": [
+    {
+     "label": "Phrases mélangées avec indices : la majuscule et le point sont donnés",
+     "href": "phrases-melangees-avec-majuscule-et-point"
+    },
+    {
+     "label": "Corriger la phrase : la majuscule et le signe final",
+     "href": "corriger-la-phrase-majuscule-et-point"
+    },
+    {
+     "label": "Corriger la phrase : point, point d'interrogation ou point d'exclamation ?",
+     "href": "corriger-la-phrase-choisir-le-signe-final"
+    },
+    {
+     "label": "Nature des mots : trier neuf étiquettes, les noms illustrés",
+     "href": "nature-des-mots-neuf-etiquettes-avec-images"
+    }
+   ],
+   "title": "Phrases mélangées CP sans majuscule ni point | à imprimer PDF gratuit",
+   "metaDescription": "Quatre phrases en désordre, toutes les étiquettes en minuscules et sans ponctuation : l'enfant ajoute lui-même la majuscule et le signe final. Fiche CP en PDF."
+  },
+  {
+   "slug": "corriger-la-phrase-majuscule-et-point",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "capitals-punctuation",
+    "mode": null,
+    "theme": "animals",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche majuscules et ponctuation",
+   "h1": "Corriger la phrase : la majuscule et le signe final",
+   "strand": "Étude de la langue",
+   "standard": "L.1.2.b",
+   "slotTokens": [
+    "majuscules-et-ponctuation",
+    "animaux",
+    "ce1"
+   ],
+   "p1": "Deux pastilles seulement en haut de la page, Majuscule et Ponctuation : c'est tout ce que l'enfant doit vérifier. Cette fiche de CE1 propose trois phrases sur le thème des animaux, chacune dans son cadre avec sa petite illustration. Chaque phrase est imprimée en minuscules et sans signe final, par exemple je vois trois renards ou où sont les girafes. Aucun prénom n'apparaît : la majuscule à trouver est toujours celle du premier mot. L'enfant réécrit la phrase entière et correcte sur la ligne d'écriture, en ajoutant la majuscule et en choisissant le signe qui convient. Une des trois phrases au moins est une question.",
+   "p2": "C'est la plus douce des fiches de correction, et son intérêt tient à ce qu'elle enlève. Sans prénom à repérer, il ne reste que deux gestes, ouvrir la phrase et la fermer, ce qui convient à un début de CE1 ou à une reprise après les vacances. Le choix du signe final n'est pourtant pas mécanique : il faut avoir lu la phrase en entier pour savoir si elle interroge ou si elle affirme, et un enfant qui pose un point partout se trahit dès la phrase interrogative. Réécrire la phrase complète, plutôt que de corriger par-dessus, fait aussi travailler la copie soignée et l'espacement des mots. Les programmes officiels du cycle 2 fixent au CE1 l'usage assuré de la majuscule et du point, ainsi que la reconnaissance de la phrase interrogative.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; trois phrases seulement, c'est un exercice de dix minutes ou un rituel de début de journée. La fiche quel signe final ajoute deux phrases, les prénoms à repérer et le point d'exclamation, avec trois pastilles au bandeau au lieu de deux : c'est la suite directe de celle-ci. Les phrases mélangées, au CP, demandent d'abord de remettre les mots dans l'ordre, et la production d'écrit fait écrire des phrases neuves qui devront porter ces mêmes marques.",
+   "canonicalDeckSlug": "majuscules-et-ponctuation-animaux-g2281",
+   "carousel": [
+    {
+     "label": "Corriger la phrase : point, point d'interrogation ou point d'exclamation ?",
+     "href": "corriger-la-phrase-choisir-le-signe-final"
+    },
+    {
+     "label": "Nature des mots : trier neuf étiquettes, les noms illustrés",
+     "href": "nature-des-mots-neuf-etiquettes-avec-images"
+    },
+    {
+     "label": "Nature des mots : douze étiquettes, sans aucune image",
+     "href": "nature-des-mots-douze-etiquettes-sans-images"
+    },
+    {
+     "label": "Nature des mots : quinze étiquettes à trier",
+     "href": "nature-des-mots-quinze-etiquettes"
+    }
+   ],
+   "title": "Corriger la phrase CE1 : majuscule et point | à imprimer PDF gratuit",
+   "metaDescription": "Trois phrases sans majuscule ni signe final, aucun prénom à repérer et une question au moins : deux choses à vérifier. Fiche CE1 gratuite à imprimer en PDF."
+  },
+  {
+   "slug": "corriger-la-phrase-choisir-le-signe-final",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "capitals-punctuation",
+    "mode": null,
+    "theme": "fruits",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche majuscules et ponctuation",
+   "h1": "Corriger la phrase : point, point d'interrogation ou point d'exclamation ?",
+   "strand": "Étude de la langue",
+   "standard": "L.1.2.b",
+   "slotTokens": [
+    "majuscules-et-ponctuation",
+    "fruits",
+    "ce1"
+   ],
+   "p1": "Cinq phrases à réparer, sur le thème des fruits, et trois choses à vérifier dans chacune : la bande de rappel affiche Majuscule, Prénoms et Ponctuation. Cette fiche de CE1 imprime chaque phrase en minuscules et sans signe final, dans un cadre orné d'une illustration, par exemple emma adore les kiwis ou est-ce que léa voit les poires. Trois phrases au moins contiennent un prénom, et deux au moins sont des questions. L'enfant réécrit chaque phrase sur la ligne d'écriture avec sa majuscule initiale, la majuscule du prénom et le signe qui convient, point, point d'interrogation ou point d'exclamation.",
+   "p2": "Le choix entre trois signes est ce qui sépare cette page de sa voisine. Un point d'interrogation se devine souvent au premier mot, où, que, est-ce que ; le point d'exclamation, lui, ne se voit nulle part dans la phrase, il s'entend, et c'est le seul signe que l'enfant doit décider en se relisant à voix haute. La règle typographique française s'invite au passage, puisque le point d'interrogation et le point d'exclamation sont précédés d'une espace, contrairement au point. Les prénoms glissés au milieu des phrases rappellent enfin que la majuscule ne marque pas seulement le début, et ce sont ces majuscules internes que l'adulte regarde en premier, un enfant pouvant ouvrir correctement sa phrase et écrire son prénom en minuscules. Les programmes officiels du cycle 2 attendent au CE1 la maîtrise de la ponctuation de fin de phrase et de la majuscule des noms propres.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; entourer au crayon les endroits à corriger avant de recopier évite d'en oublier un. Cinq phrases demandent une vingtaine de minutes, écriture soignée comprise. La fiche majuscule et signe final est plus courte et plus simple, trois phrases sans prénom et deux signes possibles : prenez-la d'abord si la copie est encore lente. La fiche nature des mots examine ensuite ces mots un par un, et la production d'écrit demande d'en écrire de nouvelles.",
+   "canonicalDeckSlug": "majuscules-et-ponctuation-fruits-g2282",
+   "carousel": [
+    {
+     "label": "Corriger la phrase : la majuscule et le signe final",
+     "href": "corriger-la-phrase-majuscule-et-point"
+    },
+    {
+     "label": "Nature des mots : trier neuf étiquettes, les noms illustrés",
+     "href": "nature-des-mots-neuf-etiquettes-avec-images"
+    },
+    {
+     "label": "Nature des mots : douze étiquettes, sans aucune image",
+     "href": "nature-des-mots-douze-etiquettes-sans-images"
+    },
+    {
+     "label": "Nature des mots : quinze étiquettes à trier",
+     "href": "nature-des-mots-quinze-etiquettes"
+    }
+   ],
+   "title": "Corriger la phrase CE1 : quel signe final ? | à imprimer PDF gratuit",
+   "metaDescription": "Cinq phrases à réécrire avec leur majuscule, la majuscule des prénoms et le bon signe final parmi trois possibles. Fiche CE1 gratuite à imprimer en PDF."
+  },
+  {
+   "slug": "nature-des-mots-neuf-etiquettes-avec-images",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-classes",
+    "mode": null,
+    "theme": "animals",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche nature des mots",
+   "h1": "Nature des mots : trier neuf étiquettes, les noms illustrés",
+   "strand": "Étude de la langue",
+   "standard": "L.2.1.e",
+   "slotTokens": [
+    "nature-des-mots",
+    "animaux",
+    "ce1"
+   ],
+   "p1": "Neuf étiquettes seulement, disposées en désordre en haut de la page : trois noms, trois verbes et trois adjectifs. Sur cette fiche de CE1, les noms sont ceux d'animaux et chacun porte sa petite image, un dauphin, une girafe, une mouette ; les verbes et les adjectifs sont écrits seuls. Dessous, trois grandes boîtes ouvertes portent chacune un symbole et leur nom en bas, Noms, Verbes, Adjectifs, avec quatre lignes pointillées pour écrire. L'enfant lit un mot, décide de sa nature, puis le recopie dans la boîte qui convient. Chaque boîte reçoit exactement trois mots, ce que l'enfant peut vérifier tout seul à la fin.",
+   "p2": "Trois mots par catégorie, c'est la plus courte des fiches de nature des mots, et c'est ce qui en fait la porte d'entrée. L'image posée sur chaque nom n'est pas une décoration : elle donne la définition la plus concrète possible, un nom désigne quelque chose que l'on peut dessiner, alors qu'un verbe à l'infinitif et un adjectif ne s'illustrent pas. L'enfant qui hésite dispose donc d'un indice visible, et l'adulte voit immédiatement si le tri repose sur l'image ou sur le sens. Recopier le mot dans la boîte, plutôt que le relier d'un trait, fixe au passage son orthographe. Les petits tests oraux aident, on peut dire un ou une devant un nom, je vais devant un verbe, très devant un adjectif. Les programmes officiels du cycle 2 introduisent au CE1 ces trois classes de mots.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; le tri peut se faire collectivement à l'oral avant l'écrit individuel. Neuf mots tiennent en un quart d'heure. Quand les images ne sont plus nécessaires, la fiche de douze étiquettes retire tous les dessins ; celle de quinze étiquettes ajoute encore un mot par boîte et puise dans un vocabulaire moins courant. La fiche corriger la phrase remet ces mots dans des phrases entières, et l'ordre alphabétique, au CP, est l'autre façon de classer des mots que l'enfant connaît déjà.",
+   "canonicalDeckSlug": "nature-des-mots-animaux-g2285",
+   "carousel": [
+    {
+     "label": "Nature des mots : douze étiquettes, sans aucune image",
+     "href": "nature-des-mots-douze-etiquettes-sans-images"
+    },
+    {
+     "label": "Nature des mots : quinze étiquettes à trier",
+     "href": "nature-des-mots-quinze-etiquettes"
+    },
+    {
+     "label": "Problèmes de monnaie : deux histoires, un total et une comparaison",
+     "href": "problemes-de-monnaie-deux-histoires"
+    },
+    {
+     "label": "Problèmes de monnaie : quatre questions différentes sur une page",
+     "href": "problemes-de-monnaie-quatre-questions"
+    }
+   ],
+   "title": "Nature des mots CE1 : neuf mots avec images | à imprimer PDF gratuit",
+   "metaDescription": "Neuf étiquettes à trier en trois boîtes, Noms, Verbes, Adjectifs, avec une petite image sur chaque nom pour aider. Fiche CE1 gratuite à imprimer en PDF."
+  },
+  {
+   "slug": "nature-des-mots-douze-etiquettes-sans-images",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-classes",
+    "mode": null,
+    "theme": "fruits",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche nature des mots",
+   "h1": "Nature des mots : douze étiquettes, sans aucune image",
+   "strand": "Étude de la langue",
+   "standard": "L.2.1.e",
+   "slotTokens": [
+    "nature-des-mots",
+    "fruits",
+    "ce1"
+   ],
+   "p1": "Aucune image sur les étiquettes de cette fiche de CE1 : douze mots sont écrits en désordre, quatre noms, quatre verbes et quatre adjectifs, et rien ne dit lequel est lequel. Les noms sont des fruits, mais ils ne se distinguent des autres mots que par le sens, jamais par un dessin. Sous les étiquettes, les trois boîtes habituelles, Noms, Verbes, Adjectifs, offrent cinq lignes pointillées chacune. L'enfant lit chaque mot, décide seul de sa nature et le recopie dans la bonne boîte. Chaque boîte doit contenir quatre mots à la fin, ce qui donne une vérification simple.",
+   "p2": "Retirer les images est le seul changement par rapport à la fiche de neuf étiquettes, et il suffit à changer la nature de l'exercice. Tant qu'un dessin accompagnait les noms, le tri pouvait se faire sans vraiment lire ; ici, il faut passer par le mot, donc par le sens, et souvent par un petit test intérieur. C'est le moment où les élèves se séparent : certains reconnaissent un adjectif à ce qu'il apporte au nom, d'autres continuent de chercher ce que le mot montre. Les noms choisis sont des mots familiers et déjà bien orthographiés sur l'étiquette, ce qui laisse toute l'attention à la classification. L'adulte peut demander de justifier deux ou trois choix à l'oral. Les programmes officiels du cycle 2 attendent au CE1 le repérage du nom, du verbe et de l'adjectif hors du contexte de la phrase.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; douze mots à recopier demandent une vingtaine de minutes. Elle se place entre les deux autres fiches de la série : celle de neuf étiquettes garde les images sur les noms, celle de quinze étiquettes ajoute un mot par boîte et un vocabulaire plus rare. Après ce tri, la fiche corriger la phrase remet ces natures au travail dans des phrases complètes, et la production d'écrit demande d'employer noms, verbes et adjectifs ensemble.",
+   "canonicalDeckSlug": "nature-des-mots-fruits-g2286",
+   "carousel": [
+    {
+     "label": "Nature des mots : trier neuf étiquettes, les noms illustrés",
+     "href": "nature-des-mots-neuf-etiquettes-avec-images"
+    },
+    {
+     "label": "Nature des mots : quinze étiquettes à trier",
+     "href": "nature-des-mots-quinze-etiquettes"
+    },
+    {
+     "label": "Problèmes de monnaie : deux histoires, un total et une comparaison",
+     "href": "problemes-de-monnaie-deux-histoires"
+    },
+    {
+     "label": "Problèmes de monnaie : quatre questions différentes sur une page",
+     "href": "problemes-de-monnaie-quatre-questions"
+    }
+   ],
+   "title": "Nature des mots CE1 : douze mots sans image | à imprimer PDF gratuit",
+   "metaDescription": "Douze étiquettes sans dessin à répartir en trois boîtes, Noms, Verbes, Adjectifs : le tri passe par le sens seul. Fiche CE1 gratuite à imprimer en PDF."
+  },
+  {
+   "slug": "nature-des-mots-quinze-etiquettes",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-classes",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche nature des mots",
+   "h1": "Nature des mots : quinze étiquettes à trier",
+   "strand": "Étude de la langue",
+   "standard": "L.2.1.e",
+   "slotTokens": [
+    "nature-des-mots",
+    "vehicules",
+    "ce1"
+   ],
+   "p1": "Quinze étiquettes, réparties sur deux rangées, ouvrent cette fiche de CE1 : cinq noms de véhicules, cinq verbes et cinq adjectifs, sans aucune image pour aider. C'est la page la plus longue de la série. Les trois boîtes ouvertes, Noms, Verbes, Adjectifs, portent chacune six lignes pointillées, de quoi écrire cinq mots sans se serrer. L'enfant lit, décide, recopie, et le compte final donne cinq mots par boîte. Le vocabulaire est plus large que sur les fiches précédentes : on y trouve des adjectifs moins courants et des verbes qui ne se devinent pas au premier coup d'oeil.",
+   "p2": "Quinze mots changent la difficulté par le volume autant que par le vocabulaire. Un enfant qui trie sans méthode relit la liste entière à chaque étiquette et s'épuise ; la page invite donc à s'organiser, par exemple à placer d'abord tous les mots dont on est certain, puis à revenir sur les trois ou quatre qui résistent. C'est une compétence de travail autant qu'une compétence de grammaire, et elle se voit à l'ordre dans lequel les boîtes se remplissent. Les mots moins fréquents sont là pour obliger au raisonnement plutôt qu'à la reconnaissance : lorsque le mot n'est pas familier, il ne reste que le test, un ou une devant, je vais devant, très devant. Les programmes officiels du cycle 2 attendent au CE1 le classement des mots selon leur nature.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; prévoyez une demi-heure, ou coupez la page en deux séances. C'est la plus difficile des trois fiches de nature des mots ; celle de douze étiquettes est identique en plus court, et celle de neuf étiquettes garde une image sur chaque nom pour démarrer. Une fois ce tri assuré, la fiche corriger la phrase et la production d'écrit remettent ces mots au travail dans des phrases entières.",
+   "canonicalDeckSlug": "nature-des-mots-vehicules-g2287",
+   "carousel": [
+    {
+     "label": "Nature des mots : trier neuf étiquettes, les noms illustrés",
+     "href": "nature-des-mots-neuf-etiquettes-avec-images"
+    },
+    {
+     "label": "Nature des mots : douze étiquettes, sans aucune image",
+     "href": "nature-des-mots-douze-etiquettes-sans-images"
+    },
+    {
+     "label": "Problèmes de monnaie : deux histoires, un total et une comparaison",
+     "href": "problemes-de-monnaie-deux-histoires"
+    },
+    {
+     "label": "Problèmes de monnaie : quatre questions différentes sur une page",
+     "href": "problemes-de-monnaie-quatre-questions"
+    }
+   ],
+   "title": "Nature des mots CE1 : quinze mots à trier | à imprimer PDF gratuit",
+   "metaDescription": "Quinze étiquettes sans image, cinq par boîte : la plus longue des fiches de nature des mots, avec un vocabulaire plus large. Fiche CE1 gratuite en PDF."
+  },
+  {
+   "slug": "problemes-de-monnaie-deux-histoires",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "animals",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche problèmes de monnaie",
+   "h1": "Problèmes de monnaie : deux histoires, un total et une comparaison",
+   "strand": "Grandeurs et mesures",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "compter-la-monnaie",
+    "animaux",
+    "ce1"
+   ],
+   "p1": "Quatre articles sur l'étagère, deux problèmes en dessous : c'est la plus courte des fiches de problèmes de monnaie. En haut de cette page de CE1, quatre animaux sont posés sur une étagère verte, chacun avec son étiquette de prix en centimes, 20 c, 15 c, 10 c, 25 c. Le premier problème demande un total, un enfant met deux articles dans son panier, combien cela coûte-t-il en tout. Le second demande une comparaison, un enfant a 40 c, est-ce assez pour acheter deux articles, on entoure oui ou non puis on écrit le total. Les images sont grandes et un large cadre pointé sert de brouillon.",
+   "p2": "Deux questions suffisent lorsque l'enjeu est ailleurs : ici, l'essentiel est d'aller chercher les prix sur l'étagère. Les articles ne sont pas nommés dans les énoncés, ils y sont dessinés, et l'enfant doit retrouver chaque image en haut de la page pour lire son prix. C'est ce va-et-vient qui fait la difficulté réelle du problème de monnaie au CE1, bien plus que l'addition elle-même, qui porte sur des nombres ronds, multiples de cinq. La seconde carte demande deux réponses, un choix entouré et un total écrit, précisément pour que le oui ou non ne soit pas deviné, et l'adulte lit le total avant de regarder le cercle. Les programmes officiels du cycle 2 placent les prix et la monnaie dans les grandeurs et mesures, dès le début du cycle.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; quelques pièces de 5, 10 et 20 centimes posées sur la table rendent l'étagère concrète. Deux problèmes tiennent en un quart d'heure, ce qui en fait une bonne entrée dans la série. Les autres pages fixent chacune un type de question, le total, le rendu de monnaie, la différence de prix, tandis que la fiche à quatre questions les réunit toutes. La marchande, la fiche de base, en propose trois avec cinq articles.",
+   "canonicalDeckSlug": "compter-la-monnaie-animaux-g2289",
+   "carousel": [
+    {
+     "label": "Problèmes de monnaie : quatre questions différentes sur une page",
+     "href": "problemes-de-monnaie-quatre-questions"
+    },
+    {
+     "label": "Problèmes de monnaie : trois totaux à calculer",
+     "href": "problemes-de-monnaie-calculer-le-total"
+    },
+    {
+     "label": "Problèmes de monnaie : additionner trois prix",
+     "href": "problemes-de-monnaie-trois-articles"
+    },
+    {
+     "label": "Problèmes de monnaie : compter les pièces, puis rendre la monnaie",
+     "href": "problemes-de-monnaie-rendre-la-monnaie"
+    }
+   ],
+   "title": "Problèmes de monnaie CE1 : deux histoires | à imprimer PDF gratuit",
+   "metaDescription": "Quatre articles sur l'étagère et deux problèmes seulement, un total à calculer et une somme à comparer : la plus courte de la série. Fiche CE1 en PDF gratuit."
+  },
+  {
+   "slug": "problemes-de-monnaie-quatre-questions",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche problèmes de monnaie",
+   "h1": "Problèmes de monnaie : quatre questions différentes sur une page",
+   "strand": "Grandeurs et mesures",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "compter-la-monnaie",
+    "vehicules",
+    "ce1"
+   ],
+   "p1": "Quatre cartes, et quatre questions qui ne se ressemblent pas : cette fiche de CE1 réunit sur une seule page les quatre gestes du commerce. L'étagère du haut présente cinq véhicules avec leur prix en centimes. La première carte demande le total de trois articles, la deuxième la monnaie à rendre après un paiement avec la pièce dessinée dans l'énoncé, la troisième si la somme dont on dispose suffit pour deux articles, oui ou non, avec le total à écrire, la quatrième la différence de prix entre deux articles. Les cartes sont plus basses que sur les autres fiches, avec chacune son brouillon pointé et sa case réponse suivie de l'unité.",
+   "p2": "Une page où chaque carte pose une question différente demande quelque chose que les pages à question unique ne demandent pas : lire avant de calculer. L'enfant ne peut pas installer une routine, additionner par exemple, et la dérouler quatre fois ; il doit à chaque fois identifier ce qui est cherché, et l'erreur typique consiste à additionner deux prix là où l'énoncé demande un écart. C'est le meilleur usage de cette fiche, en fin de séquence ou en évaluation, quand les quatre types ont déjà été travaillés séparément. Les nombres restent simples, multiples de cinq, pour que l'attention aille au choix de l'opération. Les programmes officiels du cycle 2 attendent au CE1 la résolution de problèmes de prix relevant de l'addition, de la soustraction et de la comparaison.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; c'est la plus dense de la série, prévoyez une demi-heure. Si les quatre types ne sont pas encore installés, les fiches spécialisées valent mieux : le total, les trois articles, rendre la monnaie, est-ce assez, la différence de prix, chacune ne posant qu'une seule sorte de question. La fiche deux histoires est la plus légère, avec quatre articles seulement. Les problèmes de multiplication et division, au CE2, prolongent cette lecture d'énoncés.",
+   "canonicalDeckSlug": "compter-la-monnaie-vehicules-g2290",
+   "carousel": [
+    {
+     "label": "Problèmes de monnaie : deux histoires, un total et une comparaison",
+     "href": "problemes-de-monnaie-deux-histoires"
+    },
+    {
+     "label": "Problèmes de monnaie : trois totaux à calculer",
+     "href": "problemes-de-monnaie-calculer-le-total"
+    },
+    {
+     "label": "Problèmes de monnaie : additionner trois prix",
+     "href": "problemes-de-monnaie-trois-articles"
+    },
+    {
+     "label": "Problèmes de monnaie : compter les pièces, puis rendre la monnaie",
+     "href": "problemes-de-monnaie-rendre-la-monnaie"
+    }
+   ],
+   "title": "Problèmes de monnaie CE1 : quatre questions | à imprimer PDF gratuit",
+   "metaDescription": "Quatre cartes et quatre questions différentes, le total, la monnaie à rendre, assez ou pas assez, la différence de prix. Fiche CE1 gratuite en PDF."
+  },
+  {
+   "slug": "problemes-de-monnaie-calculer-le-total",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "toys",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche problèmes de monnaie",
+   "h1": "Problèmes de monnaie : trois totaux à calculer",
+   "strand": "Grandeurs et mesures",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "compter-la-monnaie",
+    "jouets",
+    "ce1"
+   ],
+   "p1": "Les trois cartes de cette fiche de CE1 posent la même question, formulée de trois façons : combien cela coûte-t-il en tout. En haut, cinq jouets sont alignés sur l'étagère avec leur prix en centimes ; en dessous, trois problèmes demandent chacun le total de deux articles achetés ensemble. Les objets concernés sont rappelés par leur image dans l'énoncé, jamais par leur nom, si bien qu'il faut retourner sur l'étagère pour lire les deux prix. Un cadre pointé sert à poser l'addition, et la réponse s'écrit dans une case suivie de l'unité c.",
+   "p2": "Répéter le même type de question trois fois de suite a un intérêt précis : l'enfant n'a plus à se demander ce qu'on lui demande, et toute son attention passe à la recherche des prix puis à l'addition. C'est la fiche à donner en premier dans la série, ou juste après une leçon sur l'addition posée. Les prix étant des multiples de cinq, les totaux tombent sur des nombres ronds et se contrôlent facilement, en comptant de cinq en cinq. La variété vient des formulations, achète, met dans son panier, veut, qui ne changent rien au calcul mais entraînent la lecture. L'adulte regarde le brouillon autant que la case, on y voit tout de suite si les deux bons prix ont été relevés. Les programmes officiels du cycle 2 attendent au CE1 la résolution de problèmes de prix par l'addition.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; trois additions se font en une quinzaine de minutes. La fiche trois articles est la suite immédiate, avec un troisième prix à ajouter sur chaque carte. Pour changer d'opération, la fiche rendre la monnaie passe à la soustraction et la fiche la différence de prix à la comparaison. La fiche quatre questions mélange enfin les quatre types sur une même page.",
+   "canonicalDeckSlug": "compter-la-monnaie-jouets-g2291",
+   "carousel": [
+    {
+     "label": "Problèmes de monnaie : deux histoires, un total et une comparaison",
+     "href": "problemes-de-monnaie-deux-histoires"
+    },
+    {
+     "label": "Problèmes de monnaie : quatre questions différentes sur une page",
+     "href": "problemes-de-monnaie-quatre-questions"
+    },
+    {
+     "label": "Problèmes de monnaie : additionner trois prix",
+     "href": "problemes-de-monnaie-trois-articles"
+    },
+    {
+     "label": "Problèmes de monnaie : compter les pièces, puis rendre la monnaie",
+     "href": "problemes-de-monnaie-rendre-la-monnaie"
+    }
+   ],
+   "title": "Problèmes de monnaie CE1 : calculer le total | à imprimer PDF gratuit",
+   "metaDescription": "Trois cartes qui posent toutes la même question, combien cela coûte-t-il en tout : deux prix à relever sur l'étagère et à additionner. Fiche CE1 en PDF gratuit."
+  },
+  {
+   "slug": "problemes-de-monnaie-trois-articles",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "fruits",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche problèmes de monnaie",
+   "h1": "Problèmes de monnaie : additionner trois prix",
+   "strand": "Grandeurs et mesures",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "compter-la-monnaie",
+    "fruits",
+    "ce1"
+   ],
+   "p1": "Chaque panier de cette fiche de CE1 contient trois articles, et il faut donc additionner trois prix. Cinq fruits sont exposés en haut de la page sur l'étagère, chacun avec son étiquette en centimes ; les trois problèmes en dessous nomment un enfant, montrent trois articles par leur image et demandent le total. L'enfant relève les trois prix sur l'étagère, les additionne dans le cadre pointé, puis écrit la somme dans la case suivie de l'unité. Les trois cartes ont la même structure, seuls les objets et les prénoms changent d'une carte à l'autre.",
+   "p2": "Passer de deux à trois termes est un vrai saut, et pas seulement parce qu'il y a un nombre de plus. Avec deux prix, l'addition se fait souvent de tête ; avec trois, il faut choisir un ordre, garder un résultat intermédiaire et ne pas oublier le dernier terme, ce qui est la première expérience d'un calcul en plusieurs étapes. Les prix étant des multiples de cinq, l'enfant peut regrouper astucieusement, par exemple additionner d'abord les deux prix qui font une dizaine ronde, et c'est exactement la stratégie que l'adulte cherche à faire émerger en lisant le brouillon. Trois oublis sur trois cartes signalent en général un problème de relevé, pas de calcul. Les programmes officiels du cycle 2 attendent au CE1 le calcul de sommes de plusieurs termes dans des problèmes de prix.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; comptez une vingtaine de minutes pour les trois paniers. La fiche calculer le total est la marche d'avant, avec deux articles par carte ; la fiche quatre questions ajoute au contraire les autres types de questions. Pour travailler le sens de la soustraction, la fiche rendre la monnaie et la fiche la différence de prix prennent le relais. Le nombre du jour entretient les additions de dizaines que ces totaux mobilisent.",
+   "canonicalDeckSlug": "compter-la-monnaie-fruits-g2292",
+   "carousel": [
+    {
+     "label": "Problèmes de monnaie : deux histoires, un total et une comparaison",
+     "href": "problemes-de-monnaie-deux-histoires"
+    },
+    {
+     "label": "Problèmes de monnaie : quatre questions différentes sur une page",
+     "href": "problemes-de-monnaie-quatre-questions"
+    },
+    {
+     "label": "Problèmes de monnaie : trois totaux à calculer",
+     "href": "problemes-de-monnaie-calculer-le-total"
+    },
+    {
+     "label": "Problèmes de monnaie : compter les pièces, puis rendre la monnaie",
+     "href": "problemes-de-monnaie-rendre-la-monnaie"
+    }
+   ],
+   "title": "Problèmes de monnaie CE1 : trois articles | à imprimer PDF gratuit",
+   "metaDescription": "Trois paniers de trois articles chacun : relever trois prix sur l'étagère et les additionner, premier calcul en plusieurs étapes. Fiche CE1 gratuite en PDF."
+  },
+  {
+   "slug": "problemes-de-monnaie-rendre-la-monnaie",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "animals",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche problèmes de monnaie",
+   "h1": "Problèmes de monnaie : compter les pièces, puis rendre la monnaie",
+   "strand": "Grandeurs et mesures",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "compter-la-monnaie",
+    "animaux",
+    "ce1"
+   ],
+   "p1": "Une pièce est dessinée au milieu de l'énoncé, avec sa valeur écrite dessus : c'est ce qui distingue cette fiche de CE1 de toutes les autres de la série. Cinq animaux occupent l'étagère du haut avec leur prix en centimes. Les deux problèmes, hauts et largement espacés, racontent le même geste : un enfant achète un article et paie avec la pièce montrée, le plus souvent une pièce de 50 centimes, quelle somme faut-il lui rendre. L'enfant lit la valeur de la pièce, retrouve le prix de l'article sur l'étagère, puis cherche l'écart entre les deux dans le grand cadre pointé avant d'écrire sa réponse.",
+   "p2": "Rendre la monnaie est la soustraction la plus concrète du cycle 2, et c'est la seule question de cette série où le calcul ne porte pas sur deux prix. Comme le paiement se fait avec une seule pièce, la question devient un complément : que faut-il ajouter au prix pour atteindre 50 centimes. Beaucoup d'enfants procèdent d'ailleurs ainsi, en comptant vers le haut depuis le prix jusqu'à la valeur de la pièce, plutôt qu'en posant une soustraction ; les deux méthodes sont recevables et le brouillon pointé les distingue, ce qui rend cette fiche particulièrement lisible pour l'adulte. Les compléments à 50 et à 20 y reviennent souvent, et ce sont des repères utiles bien au-delà de la monnaie. Deux problèmes seulement, mais chacun demande une trace écrite, et c'est pourquoi la page ne va pas au-delà. Les programmes officiels du cycle 2 attendent au CE1 la résolution de problèmes de monnaie comportant un rendu, et le calcul de compléments.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; de vraies pièces de 5, 10 et 20 centimes posées à côté permettent de rejouer la scène et de rendre la monnaie pour de bon avant d'écrire. Deux problèmes bien détaillés occupent facilement vingt minutes. La fiche est-ce assez travaille la comparaison sans rendu, et la fiche la différence de prix la soustraction seule ; la fiche calculer le total reste du côté de l'addition. La fiche quatre questions réunit les quatre types pour une révision.",
+   "canonicalDeckSlug": "compter-la-monnaie-animaux-g2293",
+   "carousel": [
+    {
+     "label": "Problèmes de monnaie : deux histoires, un total et une comparaison",
+     "href": "problemes-de-monnaie-deux-histoires"
+    },
+    {
+     "label": "Problèmes de monnaie : quatre questions différentes sur une page",
+     "href": "problemes-de-monnaie-quatre-questions"
+    },
+    {
+     "label": "Problèmes de monnaie : trois totaux à calculer",
+     "href": "problemes-de-monnaie-calculer-le-total"
+    },
+    {
+     "label": "Problèmes de monnaie : additionner trois prix",
+     "href": "problemes-de-monnaie-trois-articles"
+    }
+   ],
+   "title": "Problèmes de monnaie CE1 : rendre la monnaie | à imprimer PDF gratuit",
+   "metaDescription": "Deux problèmes de rendu de monnaie : lire la valeur de la pièce, le prix sur l'étagère, puis chercher le complément. Fiche CE1 gratuite en PDF à imprimer."
+  },
+  {
+   "slug": "problemes-de-monnaie-est-ce-assez",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche problèmes de monnaie",
+   "h1": "Problèmes de monnaie : est-ce que cette somme suffit ?",
+   "strand": "Grandeurs et mesures",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "compter-la-monnaie",
+    "vehicules",
+    "ce1"
+   ],
+   "p1": "Deux ovales à entourer, oui ou non, et une case pour le total : les deux cartes de cette fiche de CE1 demandent la même décision. Cinq véhicules sont posés sur l'étagère avec leur prix en centimes. Chaque problème donne une somme, par exemple 45 c, montre deux articles par leur image et demande si cette somme suffit pour les acheter tous les deux. L'enfant additionne les deux prix dans le cadre pointé, compare le total à la somme annoncée, entoure oui ou non, puis écrit le total dans la case. Les deux réponses sont exigées, le cercle et le nombre.",
+   "p2": "Une question fermée est un piège dès qu'elle est seule : une chance sur deux de tomber juste sans rien calculer. C'est pourquoi la page demande aussi le total, et c'est lui que l'adulte lit en premier, le cercle ne valant que s'il s'appuie sur un nombre écrit. La comparaison elle-même est un geste mathématique à part entière, différent de l'addition qui la précède : il faut confronter deux nombres et conclure, ce que les enfants expriment souvent mieux à l'oral, il manque 5 centimes. Les prix étant des multiples de cinq, l'écart est facile à dire. Les programmes officiels du cycle 2 attendent au CE1 la comparaison de prix et l'emploi du vocabulaire assez, pas assez, il manque, il reste.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; demandez à l'enfant de dire combien il manque, ou combien il reste, même quand la question ne le demande pas, c'est la meilleure vérification. Deux problèmes, un quart d'heure. La fiche la différence de prix pose directement cette question de l'écart, et la fiche rendre la monnaie la transforme en rendu de pièces. Pour l'addition seule, la fiche calculer le total et la fiche trois articles sont plus simples ; la fiche quatre questions rassemble tous les types.",
+   "canonicalDeckSlug": "compter-la-monnaie-vehicules-g2294",
+   "carousel": [
+    {
+     "label": "Problèmes de monnaie : deux histoires, un total et une comparaison",
+     "href": "problemes-de-monnaie-deux-histoires"
+    },
+    {
+     "label": "Problèmes de monnaie : quatre questions différentes sur une page",
+     "href": "problemes-de-monnaie-quatre-questions"
+    },
+    {
+     "label": "Problèmes de monnaie : trois totaux à calculer",
+     "href": "problemes-de-monnaie-calculer-le-total"
+    },
+    {
+     "label": "Problèmes de monnaie : additionner trois prix",
+     "href": "problemes-de-monnaie-trois-articles"
+    }
+   ],
+   "title": "Problèmes de monnaie CE1 : est-ce assez ? | à imprimer PDF gratuit",
+   "metaDescription": "Deux problèmes où l'on compare une somme au prix de deux articles : entourer oui ou non, puis écrire le total qui justifie la réponse. Fiche CE1 en PDF gratuit."
+  },
+  {
+   "slug": "problemes-de-monnaie-la-difference-de-prix",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "toys",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche problèmes de monnaie",
+   "h1": "Problèmes de monnaie : combien coûte-t-il de plus ?",
+   "strand": "Grandeurs et mesures",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "compter-la-monnaie",
+    "jouets",
+    "ce1"
+   ],
+   "p1": "Aucune addition sur cette fiche de CE1 : les trois cartes comparent deux prix et demandent l'écart. Cinq jouets sont exposés sur l'étagère du haut avec leur étiquette en centimes. Les énoncés se présentent de deux façons, combien tel objet coûte-t-il de plus que tel autre, ou quelle est la différence de prix entre les deux, ce qui oblige à reconnaître la même question sous deux formulations. L'enfant relève les deux prix sur l'étagère, pose la soustraction dans le cadre pointé et écrit la différence dans la case suivie de l'unité.",
+   "p2": "La différence est la plus difficile des quatre questions de monnaie, parce que rien n'y est enlevé. Dans un rendu de monnaie, une somme part et une somme revient, l'histoire porte la soustraction ; ici, les deux objets restent sur l'étagère et le calcul ne sert qu'à comparer. C'est le sens de la soustraction comme écart, celui que les enfants installent le plus tard, et la formulation combien de plus les entraîne souvent à additionner. L'adulte peut faire dessiner les deux prix comme deux barres, l'une plus longue que l'autre, pour rendre l'écart visible. Les prix étant des multiples de cinq, la différence tombe toujours sur un nombre rond, ce qui permet de vérifier en comptant de cinq en cinq. Les programmes officiels du cycle 2 attendent au CE1 la résolution de problèmes de comparaison avec recherche de l'écart.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; trois comparaisons demandent une vingtaine de minutes. La fiche est-ce assez pose la même comparaison sous forme de décision, oui ou non, et la fiche rendre la monnaie donne à la soustraction une histoire concrète, ce qui la rend plus facile ; l'une comme l'autre peuvent précéder celle-ci. La fiche quatre questions mélange les quatre types, et les problèmes de multiplication et division, au CE2, poursuivent le travail sur les énoncés.",
+   "canonicalDeckSlug": "compter-la-monnaie-jouets-g2295",
+   "carousel": [
+    {
+     "label": "Problèmes de monnaie : deux histoires, un total et une comparaison",
+     "href": "problemes-de-monnaie-deux-histoires"
+    },
+    {
+     "label": "Problèmes de monnaie : quatre questions différentes sur une page",
+     "href": "problemes-de-monnaie-quatre-questions"
+    },
+    {
+     "label": "Problèmes de monnaie : trois totaux à calculer",
+     "href": "problemes-de-monnaie-calculer-le-total"
+    },
+    {
+     "label": "Problèmes de monnaie : additionner trois prix",
+     "href": "problemes-de-monnaie-trois-articles"
+    }
+   ],
+   "title": "Problèmes de monnaie CE1 : la différence | à imprimer PDF gratuit",
+   "metaDescription": "Trois cartes qui comparent deux prix et demandent l'écart, sous deux formulations : combien de plus, ou quelle est la différence. Fiche CE1 gratuite en PDF."
+  },
+  {
+   "slug": "lire-le-calendrier-quatre-questions",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "calendar",
+    "mode": null,
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche lire le calendrier",
+   "h1": "Lire le calendrier : quatre premières questions sur le mois",
+   "strand": "Grandeurs et mesures",
+   "slotTokens": [
+    "lire-le-calendrier",
+    "ce1"
+   ],
+   "p1": "Un mois entier, deux vignettes et quatre questions : c'est la plus simple des fiches de lecture de calendrier. Cette page de CE1 affiche un vrai calendrier à sept colonnes commençant le lundi, avec les jours abrégés et des cases hautes, faciles à suivre du doigt. Deux dates portent une petite image. Sous le tableau, quatre questions courtes se présentent sur deux colonnes, chacune avec sa case de réponse : quel jour de la semaine est le 6, combien y a-t-il de jeudis dans ce mois, quelle date est marquée par telle vignette, combien de jours compte ce mois. Chaque réponse se lit dans le tableau.",
+   "p2": "Ces quatre questions correspondent aux quatre lectures élémentaires d'un calendrier, et il n'y en a pas d'autre à ce stade : remonter d'une date à sa colonne pour nommer le jour, parcourir une colonne pour compter les occurrences d'un jour, retrouver une case repérée par un dessin, et lire la dernière case pour connaître la longueur du mois. Aucune ne demande de calcul, toutes demandent une lecture précise, et c'est exactement le contenu visé au CE1. Le mois change à chaque impression, si bien que la réponse n'est jamais mémorisable. L'adulte vérifie surtout que le doigt reste sur le tableau : un enfant qui répond de mémoire, en pensant au mois en cours, se trompe forcément. Les programmes officiels du cycle 2 rangent le repérage dans le temps, jours, semaines et mois, dans les grandeurs et mesures.",
+   "p3": "La fiche s'imprime gratuitement en PDF et se refait avec un autre mois à chaque tirage, l'année, le mois et les vignettes changeant. Quatre questions font un rituel de dix minutes, en début de journée par exemple. La fiche les jours de la semaine garde ce format court mais consacre ses quatre questions aux colonnes ; la fiche une semaine plus tard en ajoute une cinquième et demande de compter les jours entre deux vignettes. Les problèmes de monnaie proposent une autre lecture de données hors énoncé.",
+   "canonicalDeckSlug": "lire-le-calendrier-g2296",
+   "carousel": [
+    {
+     "label": "Lire le calendrier : une semaine plus tard, et les jours entre deux vignettes",
+     "href": "lire-le-calendrier-une-semaine-plus-tard"
+    },
+    {
+     "label": "Lire le calendrier : les jours de la semaine, colonne par colonne",
+     "href": "lire-le-calendrier-les-jours-de-la-semaine"
+    },
+    {
+     "label": "Production d'écrit : décrire l'image avec trois débuts de phrase",
+     "href": "production-d-ecrit-decrire-l-image"
+    },
+    {
+     "label": "Production d'écrit : six lignes vierges, à toi d'écrire",
+     "href": "production-d-ecrit-sans-debut-de-phrase"
+    }
+   ],
+   "title": "Lire le calendrier CE1 : quatre questions | à imprimer PDF gratuit",
+   "metaDescription": "Un mois entier, deux vignettes et quatre questions de lecture : le jour d'une date, le nombre de jeudis, une vignette, la longueur du mois. Fiche CE1 en PDF."
+  },
+  {
+   "slug": "lire-le-calendrier-une-semaine-plus-tard",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "calendar",
+    "mode": null,
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche lire le calendrier",
+   "h1": "Lire le calendrier : une semaine plus tard, et les jours entre deux vignettes",
+   "strand": "Grandeurs et mesures",
+   "slotTokens": [
+    "lire-le-calendrier",
+    "ce1"
+   ],
+   "p1": "Deux questions que l'on ne trouve nulle part ailleurs dans la série font toute la valeur de cette fiche de CE1 : quelle date tombe une semaine après le 10, et combien de jours séparent deux vignettes. Le mois est affiché en entier, sept colonnes à partir du lundi, et trois dates portent une petite image. Cinq questions figurent sous le tableau, chacune avec sa case de réponse : le jour de la semaine d'une date, le nombre de lundis du mois, la date marquée par une vignette, la date une semaine plus tard, et l'écart en jours entre les deux autres vignettes.",
+   "p2": "Les trois premières questions se lisent, les deux dernières se calculent, et c'est ce mélange qui distingue la page. Chercher la date une semaine après revient à descendre d'une case dans la même colonne : l'enfant qui l'a compris n'ajoute pas sept, il regarde en dessous, et c'est cette découverte que la question provoque. Compter les jours entre deux vignettes est plus exigeant encore, parce qu'il faut décider si l'on compte le jour de départ, et l'énoncé tranche, combien de jours après, donc les jours écoulés. Cinq questions restent tenables sur une page, et la grille n'est plus choisie exprès pour occuper six semaines, ce qui laisse la place aux cartes. Les programmes officiels du cycle 2 attendent au CE1 le calcul de durées simples en jours et en semaines.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; comptez un bon quart d'heure, les deux dernières questions demandant une trace écrite au brouillon. C'est la plus complète des trois fiches de calendrier ; les deux autres n'en posent que quatre et restent dans la lecture pure, la fiche quatre questions couvrant les lectures de base et la fiche les jours de la semaine les colonnes. La droite graduée entraîne le même geste, avancer d'un nombre fixe de cases à partir d'un repère.",
+   "canonicalDeckSlug": "lire-le-calendrier-g2297",
+   "carousel": [
+    {
+     "label": "Lire le calendrier : quatre premières questions sur le mois",
+     "href": "lire-le-calendrier-quatre-questions"
+    },
+    {
+     "label": "Lire le calendrier : les jours de la semaine, colonne par colonne",
+     "href": "lire-le-calendrier-les-jours-de-la-semaine"
+    },
+    {
+     "label": "Production d'écrit : décrire l'image avec trois débuts de phrase",
+     "href": "production-d-ecrit-decrire-l-image"
+    },
+    {
+     "label": "Production d'écrit : six lignes vierges, à toi d'écrire",
+     "href": "production-d-ecrit-sans-debut-de-phrase"
+    }
+   ],
+   "title": "Lire le calendrier CE1 : une semaine après | à imprimer PDF gratuit",
+   "metaDescription": "Cinq questions sur un mois bien rempli, dont deux calculs de durée : la date une semaine après, et les jours qui séparent deux vignettes. Fiche CE1 en PDF."
+  },
+  {
+   "slug": "lire-le-calendrier-les-jours-de-la-semaine",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "calendar",
+    "mode": null,
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche lire le calendrier",
+   "h1": "Lire le calendrier : les jours de la semaine, colonne par colonne",
+   "strand": "Grandeurs et mesures",
+   "slotTokens": [
+    "lire-le-calendrier",
+    "ce1"
+   ],
+   "p1": "Les quatre questions de cette fiche de CE1 portent toutes sur les jours de la semaine, jamais sur les dates ni sur les durées. Le calendrier occupe le haut de la page, sept colonnes à partir du lundi, avec des cases hautes. Deux vignettes décorent des dates du mois, mais aucune question ne les concerne : elles sont là comme sur un calendrier de classe. Sous le tableau, l'enfant doit dire quel jour de la semaine tombe une date donnée, combien de mercredis compte le mois, quel jour est le premier du mois et quel jour en est le dernier.",
+   "p2": "Une colonne de calendrier, c'est un jour de la semaine qui revient tous les sept jours, et cette page ne travaille que cela. Les deux dernières questions sont les plus instructives : le premier et le dernier jour du mois se lisent aux deux extrémités du tableau, souvent dans une ligne incomplète, ce qui oblige à repérer où le mois commence réellement et où il s'arrête. Compter les mercredis demande de descendre une colonne du regard, geste que l'on croit acquis et qui se révèle fragile quand la première case de la colonne est vide. Comme le mois change à chaque impression, le nombre d'occurrences varie, quatre ou cinq, et ne peut pas se deviner. Les programmes officiels du cycle 2 attendent au CE1 la connaissance des jours de la semaine et leur repérage dans le mois.",
+   "p3": "La fiche s'imprime gratuitement en PDF et se refait avec un autre mois à chaque tirage. Quatre questions, dix minutes ; les cases hautes conviennent bien aux élèves qui suivent encore les lignes avec le doigt. La fiche quatre questions couvre au contraire les quatre lectures de base, dont la longueur du mois et les vignettes ; la fiche une semaine plus tard ajoute le calcul de durées. Les vignettes de cette page peuvent servir de support oral, on demande simplement quel jour elles tombent.",
+   "canonicalDeckSlug": "lire-le-calendrier-g2298",
+   "carousel": [
+    {
+     "label": "Lire le calendrier : quatre premières questions sur le mois",
+     "href": "lire-le-calendrier-quatre-questions"
+    },
+    {
+     "label": "Lire le calendrier : une semaine plus tard, et les jours entre deux vignettes",
+     "href": "lire-le-calendrier-une-semaine-plus-tard"
+    },
+    {
+     "label": "Production d'écrit : décrire l'image avec trois débuts de phrase",
+     "href": "production-d-ecrit-decrire-l-image"
+    },
+    {
+     "label": "Production d'écrit : six lignes vierges, à toi d'écrire",
+     "href": "production-d-ecrit-sans-debut-de-phrase"
+    }
+   ],
+   "title": "Lire le calendrier CE1 : les jours du mois | à imprimer PDF gratuit",
+   "metaDescription": "Quatre questions qui portent toutes sur les jours de la semaine, y compris le premier et le dernier jour du mois. Fiche CE1 gratuite à imprimer en PDF."
+  },
+  {
+   "slug": "production-d-ecrit-decrire-l-image",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-writing",
+    "mode": null,
+    "theme": "animals",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche de production d'écrit",
+   "h1": "Production d'écrit : décrire l'image avec trois débuts de phrase",
+   "strand": "Écriture",
+   "standard": "W.2.2",
+   "slotTokens": [
+    "production-d-ecrit",
+    "animaux",
+    "ce1"
+   ],
+   "p1": "Trois lignes sur quatre commencent déjà : Je vois, Il y a, Sur l'image, il y a. Cette fiche de CE1 présente d'abord une grande scène d'animaux dessinés sur un sol clair, quatre animaux différents dont un apparaît deux fois. Juste en dessous, une boîte à mots encadrée d'orange donne les quatre noms avec leur image, correctement orthographiés. Viennent enfin quatre lignes d'écriture à interlignes, dont trois portent une amorce imprimée et la dernière reste entièrement vide. L'enfant observe la scène et écrit ce qu'il voit, en s'appuyant sur les débuts de phrase et sur les mots donnés.",
+   "p2": "Décrire n'est pas raconter, et cette page choisit la description. Les trois amorces sont toutes présentatives, elles ouvrent une phrase qui dit ce qui est là, et non ce qui arrive ; l'enfant n'a donc pas à inventer d'événement, ce qui lève l'obstacle principal de la production d'écrit au CE1. Le vocabulaire étant donné dans la boîte à mots, avec l'image à côté du mot, l'orthographe ne consomme plus l'attention, qui peut aller à la construction de la phrase et à sa ponctuation. La quatrième ligne, sans amorce, est la seule marche autonome de la page, et c'est elle que l'adulte lit en premier. Les programmes officiels du cycle 2 attendent au CE1 la rédaction de quelques phrases cohérentes, avec des aides au vocabulaire.",
+   "p3": "La fiche s'imprime gratuitement en PDF et se refait avec une autre scène, les objets dessinés et leur disposition changeant à chaque tirage. Quatre lignes conviennent à une séance de vingt minutes. La fiche à toi d'écrire est la marche suivante, six mots, six lignes et aucune amorce ; la fiche de base propose une voie intermédiaire, avec deux amorces de récit, Un jour et Ensuite, qui font raconter plutôt que décrire. La fiche corriger la phrase entraîne séparément les majuscules et les points que ce texte doit porter.",
+   "canonicalDeckSlug": "production-d-ecrit-animaux-g2299",
+   "carousel": [
+    {
+     "label": "Production d'écrit : six lignes vierges, à toi d'écrire",
+     "href": "production-d-ecrit-sans-debut-de-phrase"
+    },
+    {
+     "label": "Pixel art sur quadrillage 6 x 6 : les premiers codes",
+     "href": "pixel-art-quadrillage-6x6"
+    },
+    {
+     "label": "Pixel art sur quadrillage 10 x 10 : un dessin décalé dans la grille",
+     "href": "pixel-art-quadrillage-10x10"
+    },
+    {
+     "label": "Problèmes de multiplication : des groupes égaux dessinés",
+     "href": "problemes-de-multiplication-en-images"
+    }
+   ],
+   "title": "Production d'écrit CE1 : décrire l'image | à imprimer PDF gratuit",
+   "metaDescription": "Une scène, une boîte à mots illustrée et quatre lignes dont trois amorcées par Je vois, Il y a, Sur l'image, il y a. Fiche CE1 gratuite à imprimer en PDF."
+  },
+  {
+   "slug": "production-d-ecrit-sans-debut-de-phrase",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-writing",
+    "mode": null,
+    "theme": "fruits",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche de production d'écrit",
+   "h1": "Production d'écrit : six lignes vierges, à toi d'écrire",
+   "strand": "Écriture",
+   "standard": "W.2.3",
+   "slotTokens": [
+    "production-d-ecrit",
+    "fruits",
+    "ce1"
+   ],
+   "p1": "Six lignes d'écriture, et pas une seule amorce imprimée : cette fiche de CE1 laisse l'enfant ouvrir son texte tout seul. La page commence par une grande scène de fruits, six fruits différents dessinés à des tailles variées sur un sol clair, puis par une boîte à mots encadrée d'orange qui donne les six noms avec leur image et leur orthographe. En dessous, six lignes à interlignes attendent, entièrement vides. L'enfant regarde l'image, choisit ce qu'il veut en dire, description ou petite histoire, et écrit son texte en s'aidant des mots de la boîte.",
+   "p2": "Retirer les amorces est le plus grand écart de la série, parce que la première phrase est la plus difficile à écrire. Tant qu'un début était imprimé, la forme de la phrase était donnée ; ici, l'enfant doit décider seul de son entrée, et c'est aussi ce qui rend le texte personnel. Six lignes changent également la nature de l'exercice : il ne s'agit plus d'écrire des phrases isolées mais de les enchaîner, donc de ne pas répéter le même début six fois, difficulté bien connue au CE1. La boîte à mots reste la seule aide, volontairement, et elle ne dit rien de la syntaxe. L'adulte lit d'abord la cohérence de l'ensemble, puis la ponctuation, chaque phrase a-t-elle sa majuscule et son point. Les programmes officiels du cycle 2 attendent en fin de cycle un court texte cohérent, écrit avec une aide limitée.",
+   "p3": "La fiche s'imprime gratuitement en PDF et se refait avec une autre scène à chaque tirage. Six lignes demandent une bonne demi-heure, relecture comprise ; on peut aussi n'en exiger que trois et garder la page pour une seconde séance. La fiche décrire l'image est la marche d'avant, quatre lignes dont trois amorcées, et la fiche de base propose deux amorces de récit. La fiche corriger la phrase et la fiche nature des mots travaillent séparément ce que ce texte doit mettre en oeuvre.",
+   "canonicalDeckSlug": "production-d-ecrit-fruits-g2300",
+   "carousel": [
+    {
+     "label": "Production d'écrit : décrire l'image avec trois débuts de phrase",
+     "href": "production-d-ecrit-decrire-l-image"
+    },
+    {
+     "label": "Pixel art sur quadrillage 6 x 6 : les premiers codes",
+     "href": "pixel-art-quadrillage-6x6"
+    },
+    {
+     "label": "Pixel art sur quadrillage 10 x 10 : un dessin décalé dans la grille",
+     "href": "pixel-art-quadrillage-10x10"
+    },
+    {
+     "label": "Problèmes de multiplication : des groupes égaux dessinés",
+     "href": "problemes-de-multiplication-en-images"
+    }
+   ],
+   "title": "Production d'écrit CE1 : lignes vierges | à imprimer PDF gratuit",
+   "metaDescription": "Six lignes entièrement vides, une scène à observer et une boîte à mots de six noms illustrés : aucune amorce imprimée. Fiche CE1 gratuite en PDF à imprimer."
+  },
+  {
+   "slug": "pixel-art-quadrillage-6x6",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "grid-coordinates",
+    "mode": null,
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche pixel art",
+   "h1": "Pixel art sur quadrillage 6 x 6 : les premiers codes",
+   "strand": "Espace et géométrie",
+   "slotTokens": [
+    "pixel-art",
+    "ce1"
+   ],
+   "p1": "Trente-six cases, six colonnes de A à F et six lignes de 1 à 6 : c'est le plus petit quadrillage de la série. Cette fiche de CE1 présente la grille vide au centre de la page et, à droite, un mini quadrillage d'exemple où la case B2 est coloriée, pour rappeler l'ordre de lecture, la lettre donne la colonne, le nombre donne la ligne. En bas, une légende range les codes par couleur, chacun dans sa petite étiquette. L'enfant lit un code, pose un doigt sur la colonne et l'autre sur la ligne, colorie la case au croisement, puis passe au suivant ; le dessin apparaît quand la liste est terminée.",
+   "p2": "Sur une grille de six sur six, le dessin occupe tout l'espace disponible, et cela change la difficulté : les cases à colorier sont nombreuses par rapport au total, si bien que les erreurs se voient vite et se corrigent aussi vite. C'est la bonne taille pour une première rencontre avec le repérage par lettre et nombre, où l'essentiel est d'installer l'ordre de lecture. L'erreur la plus fréquente consiste à inverser les deux, à colorier C2 au lieu de B3, et elle se repère à l'oeil nu sur une petite grille, ce qui permet de la corriger dans la séance même. Les codes ne dépassent jamais F6, ce qui limite la lecture à des repères familiers. Les programmes officiels du cycle 2 placent ce repérage dans l'espace et la géométrie, avec le codage de positions sur un quadrillage.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; cocher chaque code de la légende une fois la case coloriée évite d'en sauter. Une trentaine de cases se colorient en un quart d'heure, feutres compris. La fiche de quadrillage 10 x 10 est la suite : la grille est plus grande, les codes vont jusqu'à J10 et le dessin, plus petit que la grille, y est décalé, si bien qu'il devient impossible de deviner où colorier. La reproduction sur quadrillage, en maternelle, prépare ce travail sans aucun code.",
+   "canonicalDeckSlug": "pixel-art-g2302",
+   "carousel": [
+    {
+     "label": "Pixel art sur quadrillage 10 x 10 : un dessin décalé dans la grille",
+     "href": "pixel-art-quadrillage-10x10"
+    },
+    {
+     "label": "Problèmes de multiplication : des groupes égaux dessinés",
+     "href": "problemes-de-multiplication-en-images"
+    },
+    {
+     "label": "Problèmes de division : partager en parts égales",
+     "href": "problemes-de-division-partage"
+    },
+    {
+     "label": "Problèmes de division : entourer des groupes égaux",
+     "href": "problemes-de-division-groupement"
+    }
+   ],
+   "title": "Pixel art CE1 : quadrillage 6 x 6 | à imprimer PDF gratuit",
+   "metaDescription": "Trente-six cases, des colonnes de A à F et des lignes de 1 à 6 : l'enfant lit chaque code, colorie la case et le dessin apparaît. Fiche CE1 gratuite en PDF."
+  },
+  {
+   "slug": "pixel-art-quadrillage-10x10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "grid-coordinates",
+    "mode": null,
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche pixel art",
+   "h1": "Pixel art sur quadrillage 10 x 10 : un dessin décalé dans la grille",
+   "strand": "Espace et géométrie",
+   "slotTokens": [
+    "pixel-art",
+    "ce1"
+   ],
+   "p1": "Cent cases, dix colonnes de A à J et dix lignes de 1 à 10 : cette fiche de CE1 propose la plus grande grille de la série, et la plus longue liste de codes. Le quadrillage vide occupe le centre de la page, l'exemple de la case B2 reste affiché à droite, et la légende du bas range les codes en deux groupes de couleur. Le dessin, qui mesure huit cases de côté, n'occupe pas toute la grille et se trouve décalé, si bien qu'aucune case ne peut être devinée. L'enfant lit chaque code, repère le croisement de la lettre et du nombre, colorie, puis raye le code déjà traité.",
+   "p2": "Deux choses changent d'un coup sur cette page, et elles ne vont pas dans le même sens. La grille s'agrandit, donc les repères sont plus éloignés et le doigt doit tenir sa ligne sur toute la largeur ; c'est là que se produisent les décalages d'une case, invisibles jusqu'à ce que le dessin se déforme. Mais surtout, le motif est décalé dans la grille, ce qui supprime toute stratégie d'anticipation : sur une petite grille remplie, un enfant devine parfois la suite du dessin et cesse de lire les codes, alors qu'ici il faut lire jusqu'au bout. Les codes à deux caractères deviennent aussi des codes à trois, D10, J10, ce qui demande de ne pas confondre la lettre et le nombre. Les programmes officiels du cycle 2 attendent au CE1 le repérage et le codage de cases sur un quadrillage.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; prévoyez une demi-heure, ou deux séances, une par couleur. Barrer les codes au fur et à mesure devient indispensable à cette longueur. La fiche de quadrillage 6 x 6 est la marche d'avant, avec un dessin qui remplit la grille et des codes qui s'arrêtent à F6. Les points à relier, en maternelle, offrent une autre image révélée par la lecture de nombres, et la reproduction sur quadrillage travaille la même grille sans codes.",
+   "canonicalDeckSlug": "pixel-art-g2303",
+   "carousel": [
+    {
+     "label": "Pixel art sur quadrillage 6 x 6 : les premiers codes",
+     "href": "pixel-art-quadrillage-6x6"
+    },
+    {
+     "label": "Problèmes de multiplication : des groupes égaux dessinés",
+     "href": "problemes-de-multiplication-en-images"
+    },
+    {
+     "label": "Problèmes de division : partager en parts égales",
+     "href": "problemes-de-division-partage"
+    },
+    {
+     "label": "Problèmes de division : entourer des groupes égaux",
+     "href": "problemes-de-division-groupement"
+    }
+   ],
+   "title": "Pixel art CE1 : quadrillage 10 x 10 | à imprimer PDF gratuit",
+   "metaDescription": "Cent cases, des colonnes de A à J et une longue liste de codes : le dessin est décalé dans la grille, impossible à deviner. Fiche CE1 gratuite en PDF."
+  },
+  {
+   "slug": "problemes-de-multiplication-en-images",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "animals",
+    "level": "ce2"
+   },
+   "eyebrow": "Fiche problèmes multiplier et diviser",
+   "h1": "Problèmes de multiplication : des groupes égaux dessinés",
+   "strand": "Nombres et calculs",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "petits-problemes",
+    "animaux",
+    "ce2"
+   ],
+   "p1": "Les deux problèmes de cette fiche de CE2 sont des multiplications, et rien d'autre. Chaque énoncé raconte des groupes égaux d'animaux, trois boîtes de deux, quatre groupes de quatre, et l'image placée dessous montre exactement ces groupes : autant de cadres que de boîtes, autant d'icônes dans chaque cadre que l'énoncé l'indique. Sous l'image, un cadre pointé sert de brouillon, une case reçoit le résultat, et une ligne d'écriture attend la phrase réponse. Les produits ne dépassent pas vingt, ce qui maintient le calcul dans les premières tables.",
+   "p2": "Une multiplication au CE2 se lit d'abord dans les groupes, avant de se lire dans une table. L'image ne donne pas la réponse, elle donne la structure, et l'enfant peut compter les icônes une à une s'il en a besoin ; c'est justement ce recours qui doit disparaître au fil de l'année, remplacé par un calcul, quatre fois quatre. L'adulte regarde donc le brouillon : des petits traits comptés un par un, une addition répétée ou une multiplication écrite ne disent pas le même degré de maîtrise, et tous trois donnent la bonne réponse. La phrase réponse est exigée parce qu'un nombre seul ne dit pas de quoi l'on parle. Les programmes officiels du cycle 2 attendent au CE2 la résolution de problèmes relevant de la multiplication, appuyés sur des groupements égaux.",
+   "p3": "La fiche s'imprime gratuitement en PDF et se refait avec d'autres nombres et d'autres images à chaque tirage. Deux problèmes, une vingtaine de minutes avec la rédaction. C'est la plus simple des six fiches de problèmes, la seule à ne poser que des multiplications ; la fiche multiplier puis grouper y ajoute une division, et la fiche mélangée en réunit trois sortes. Pour la division seule, les fiches partager et grouper prennent le relais. Les doubles et moitiés, au CP, sont la première multiplication rencontrée.",
+   "canonicalDeckSlug": "petits-problemes-animaux-g3371",
+   "carousel": [
+    {
+     "label": "Problèmes de division : partager en parts égales",
+     "href": "problemes-de-division-partage"
+    },
+    {
+     "label": "Problèmes de division : entourer des groupes égaux",
+     "href": "problemes-de-division-groupement"
+    },
+    {
+     "label": "Problèmes de division : partage ou groupement, deux situations",
+     "href": "problemes-de-division-partage-ou-groupement"
+    },
+    {
+     "label": "Problèmes : une multiplication et une division de groupement",
+     "href": "problemes-multiplier-puis-grouper"
+    }
+   ],
+   "title": "Problèmes de multiplication CE2 en images | à imprimer PDF gratuit",
+   "metaDescription": "Deux multiplications seulement, avec les groupes égaux dessinés sous l'énoncé, un brouillon, une case résultat et la phrase réponse. Fiche CE2 en PDF gratuit."
+  },
+  {
+   "slug": "problemes-de-division-partage",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "ce2"
+   },
+   "eyebrow": "Fiche problèmes multiplier et diviser",
+   "h1": "Problèmes de division : partager en parts égales",
+   "strand": "Nombres et calculs",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "petits-problemes",
+    "fruits",
+    "ce2"
+   ],
+   "p1": "Des boîtes vides en pointillés sous une bande de fruits dessinés : voilà l'image que propose chacun des deux problèmes de cette fiche de CE2. L'énoncé raconte un partage, vingt objets rangés en cinq groupes égaux, dix objets en deux rangées, et demande combien il y en a dans chaque part. Tous les objets sont dessinés en haut du cadre, et autant de boîtes pointillées qu'il y a de parts sont tracées en dessous, entièrement vides. L'enfant peut distribuer au crayon, un objet par boîte à tour de rôle, avant d'écrire son calcul, son résultat et sa phrase réponse. Les totaux vont jusqu'à trente-six.",
+   "p2": "Partager, c'est connaître le nombre de parts et chercher la valeur d'une part, et c'est la première des deux divisions que rencontre l'enfant. Les boîtes vides sont l'outil décisif de cette page : elles matérialisent les parts et rendent la distribution possible avec un simple crayon, exactement comme on distribue des cartes. Cette procédure lente est légitime au début, puis l'enfant s'aperçoit qu'il peut chercher directement quel nombre multiplié par cinq donne vingt, et c'est ce passage que l'adulte guette dans le brouillon. La formulation en parts égales, autant dans chaque, est répétée dans les énoncés parce qu'elle est la condition même de la division. Les programmes officiels du cycle 2 attendent au CE2 la résolution de problèmes de partage, avec le sens de la division installé.",
+   "p3": "La fiche s'imprime gratuitement en PDF et se refait avec d'autres nombres et d'autres images à chaque tirage. Deux partages tiennent en une vingtaine de minutes. La fiche grouper pose l'autre question de la division, avec des groupes dont on connaît la taille et non le nombre, et la fiche partager ou grouper met les deux situations côte à côte, ce qui est l'étape suivante. Les problèmes de monnaie, au CE1, entraînent la lecture d'énoncés que ces pages supposent acquise.",
+   "canonicalDeckSlug": "petits-problemes-fruits-g3372",
+   "carousel": [
+    {
+     "label": "Problèmes de multiplication : des groupes égaux dessinés",
+     "href": "problemes-de-multiplication-en-images"
+    },
+    {
+     "label": "Problèmes de division : entourer des groupes égaux",
+     "href": "problemes-de-division-groupement"
+    },
+    {
+     "label": "Problèmes de division : partage ou groupement, deux situations",
+     "href": "problemes-de-division-partage-ou-groupement"
+    },
+    {
+     "label": "Problèmes : une multiplication et une division de groupement",
+     "href": "problemes-multiplier-puis-grouper"
+    }
+   ],
+   "title": "Problèmes de division CE2 : partager | à imprimer PDF gratuit",
+   "metaDescription": "Deux partages en parts égales, avec la quantité totale dessinée au-dessus de boîtes pointillées vides à remplir au crayon. Fiche CE2 gratuite en PDF à imprimer."
+  },
+  {
+   "slug": "problemes-de-division-groupement",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "toys",
+    "level": "ce2"
+   },
+   "eyebrow": "Fiche problèmes multiplier et diviser",
+   "h1": "Problèmes de division : entourer des groupes égaux",
+   "strand": "Nombres et calculs",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "petits-problemes",
+    "jouets",
+    "ce2"
+   ],
+   "p1": "Aucune boîte n'est imprimée sur cette fiche de CE2 : les jouets sont simplement alignés en une bande, et c'est l'enfant qui doit entourer lui-même les groupes. Les deux énoncés racontent le même geste, huit objets rassemblés par quatre, huit objets rassemblés par deux, et demandent combien de groupes on obtient. La bande d'icônes tient sur une seule ligne, ce qui permet d'y découper les paquets au crayon sans se tromper. Sous l'image, un cadre pointé, une case pour le résultat et une ligne pour la phrase réponse. Les quantités ne dépassent pas vingt.",
+   "p2": "C'est la seconde division, celle où l'on connaît la taille des groupes et où l'on cherche leur nombre, et elle est plus difficile que le partage pour une raison simple : la réponse n'est pas le contenu d'une part, c'est un nombre de paquets. L'absence de boîtes est délibérée. Sur la fiche de partage, les parts sont dessinées et il n'y a plus qu'à distribuer ; ici, rien n'indique où couper, et l'enfant doit créer lui-même la structure en entourant, ce qui est exactement le geste mathématique demandé. On voit d'ailleurs immédiatement si les groupes entourés sont égaux. La bande étant sur une seule ligne, le nombre de groupes se compte sans ambiguïté. Les programmes officiels du cycle 2 attendent au CE2 la résolution de problèmes de groupement autant que de partage.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; un crayon à papier vaut mieux qu'un feutre, les premiers regroupements se refaisant souvent. Deux problèmes, un quart d'heure. La fiche partager donne au contraire les parts sous forme de boîtes vides et se prend avant celle-ci ; la fiche partager ou grouper réunit ensuite les deux situations sur une même page, et c'est là que la distinction se joue vraiment. La fiche mélangée y ajoute une multiplication.",
+   "canonicalDeckSlug": "petits-problemes-jouets-g3373",
+   "carousel": [
+    {
+     "label": "Problèmes de multiplication : des groupes égaux dessinés",
+     "href": "problemes-de-multiplication-en-images"
+    },
+    {
+     "label": "Problèmes de division : partager en parts égales",
+     "href": "problemes-de-division-partage"
+    },
+    {
+     "label": "Problèmes de division : partage ou groupement, deux situations",
+     "href": "problemes-de-division-partage-ou-groupement"
+    },
+    {
+     "label": "Problèmes : une multiplication et une division de groupement",
+     "href": "problemes-multiplier-puis-grouper"
+    }
+   ],
+   "title": "Problèmes de division CE2 : grouper | à imprimer PDF gratuit",
+   "metaDescription": "Deux problèmes de groupement : aucune boîte n'est imprimée, l'enfant entoure lui-même les paquets dans la bande d'objets. Fiche CE2 gratuite en PDF."
+  },
+  {
+   "slug": "problemes-de-division-partage-ou-groupement",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "ce2"
+   },
+   "eyebrow": "Fiche problèmes multiplier et diviser",
+   "h1": "Problèmes de division : partage ou groupement, deux situations",
+   "strand": "Nombres et calculs",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "petits-problemes",
+    "fruits",
+    "ce2"
+   ],
+   "p1": "Deux divisions, mais pas la même question : cette fiche de CE2 place un partage et un groupement l'un sous l'autre, sur le thème des fruits. Le premier problème donne le nombre de parts et demande combien d'objets vont dans chacune ; son image montre la quantité totale au-dessus de boîtes pointillées vides, à remplir au crayon. Le second donne la taille des groupes et demande combien de groupes on obtient ; son image ne montre qu'une bande d'objets, sans aucune boîte, et l'enfant entoure lui-même. Chaque problème dispose d'un brouillon pointé, d'une case résultat et d'une ligne pour la phrase réponse.",
+   "p2": "Mettre les deux divisions côte à côte est la seule façon de les distinguer, et c'est le but de la page. Les deux énoncés se ressemblent, deux nombres et une idée de répartition, mais ce qui est cherché n'est pas de même nature : une valeur de part d'un côté, un nombre de paquets de l'autre. Le calcul, lui, est identique, ce qui déroute souvent, car douze divisé par deux répond aux deux questions alors que la phrase réponse n'est pas la même, six objets dans chaque groupe ou six groupes en tout. C'est pourquoi la rédaction compte ici plus qu'ailleurs, et c'est elle que l'adulte lit en premier. Les images, différentes pour chaque situation, sont le meilleur appui pour installer la distinction. Les programmes officiels du cycle 2 attendent au CE2 la résolution des deux types de problèmes de division.",
+   "p3": "La fiche s'imprime gratuitement en PDF et se refait avec d'autres nombres à chaque tirage. Deux problèmes, une vingtaine de minutes. Prenez d'abord les fiches partager et grouper, qui ne posent chacune qu'un seul type ; celle-ci vient ensuite, quand chaque situation est comprise séparément. La fiche multiplier puis grouper associe au contraire une multiplication et une division, et la fiche mélangée réunit les trois sortes de problèmes sur une même page.",
+   "canonicalDeckSlug": "petits-problemes-fruits-g3374",
+   "carousel": [
+    {
+     "label": "Problèmes de multiplication : des groupes égaux dessinés",
+     "href": "problemes-de-multiplication-en-images"
+    },
+    {
+     "label": "Problèmes de division : partager en parts égales",
+     "href": "problemes-de-division-partage"
+    },
+    {
+     "label": "Problèmes de division : entourer des groupes égaux",
+     "href": "problemes-de-division-groupement"
+    },
+    {
+     "label": "Problèmes : une multiplication et une division de groupement",
+     "href": "problemes-multiplier-puis-grouper"
+    }
+   ],
+   "title": "Problèmes de division CE2 : partage ou groupement | à imprimer PDF gratuit",
+   "metaDescription": "Un partage et un groupement sur la même page, avec deux images différentes : boîtes pointillées d'un côté, bande à entourer de l'autre. Fiche CE2 en PDF."
+  },
+  {
+   "slug": "problemes-multiplier-puis-grouper",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "animals",
+    "level": "ce2"
+   },
+   "eyebrow": "Fiche problèmes multiplier et diviser",
+   "h1": "Problèmes : une multiplication et une division de groupement",
+   "strand": "Nombres et calculs",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "petits-problemes",
+    "animaux",
+    "ce2"
+   ],
+   "p1": "Une histoire construit des groupes, l'autre les défait : cette fiche de CE2 associe une multiplication et une division de groupement, sur le thème des animaux. Le premier problème montre plusieurs cadres contenant chacun le même nombre d'objets et demande le total ; le second aligne tous les objets en une bande et demande combien de groupes d'une taille donnée on peut y former, sans imprimer la moindre boîte. Chaque cadre comporte un brouillon pointé, une case réponse et une ligne d'écriture pour la phrase réponse. Les quantités restent inférieures à vingt.",
+   "p2": "Multiplication et division de groupement sont les deux sens d'un même mouvement, et les placer sur une page en fait une démonstration plutôt qu'une leçon. Trois rangées de cinq font quinze ; quinze objets en groupes de cinq font trois groupes. Le même triplet de nombres sert dans les deux cas, et l'enfant qui le remarque tient la relation qui structure toute la fin du cycle 2. Les images sont volontairement différentes, des cadres tout prêts d'un côté, une bande à découper du regard de l'autre, pour que la ressemblance ne soit pas seulement graphique. L'adulte peut demander, une fois les deux problèmes finis, d'écrire les deux calculs l'un sous l'autre. Les programmes officiels du cycle 2 attendent au CE2 le lien entre multiplication et division.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; deux problèmes, un bon quart d'heure. Elle suppose que la multiplication en images et le groupement ont déjà été travaillés séparément, chacun sur sa propre fiche. La fiche partager ou grouper oppose de son côté les deux divisions, et la fiche mélangée, la plus complète, réunit multiplication, partage et groupement sur trois histoires. Les problèmes de monnaie, au CE1, restent la première rencontre avec la lecture d'énoncés.",
+   "canonicalDeckSlug": "petits-problemes-animaux-g3375",
+   "carousel": [
+    {
+     "label": "Problèmes de multiplication : des groupes égaux dessinés",
+     "href": "problemes-de-multiplication-en-images"
+    },
+    {
+     "label": "Problèmes de division : partager en parts égales",
+     "href": "problemes-de-division-partage"
+    },
+    {
+     "label": "Problèmes de division : entourer des groupes égaux",
+     "href": "problemes-de-division-groupement"
+    },
+    {
+     "label": "Problèmes de division : partage ou groupement, deux situations",
+     "href": "problemes-de-division-partage-ou-groupement"
+    }
+   ],
+   "title": "Problèmes CE2 : multiplier puis grouper | à imprimer PDF gratuit",
+   "metaDescription": "Une histoire construit des groupes égaux, l'autre les défait : la multiplication et le groupement mis face à face sur une page. Fiche CE2 gratuite en PDF."
+  },
+  {
+   "slug": "problemes-mixtes-multiplication-et-division",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "toys",
+    "level": "ce2"
+   },
+   "eyebrow": "Fiche problèmes multiplier et diviser",
+   "h1": "Problèmes mélangés : trois histoires, trois opérations à reconnaître",
+   "strand": "Nombres et calculs",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "petits-problemes",
+    "jouets",
+    "ce2"
+   ],
+   "p1": "Trois histoires sur une seule page, et rien ne dit laquelle demande quoi : cette fiche de CE2 est la plus complète de la série. Sur le thème des jouets, la première raconte des rangées égales et appelle une multiplication ; la deuxième un partage entre plusieurs amis, avec ses boîtes pointillées vides sous la quantité totale ; la troisième un groupement, une simple bande d'objets à entourer. La mise en page est resserrée, les images plus petites, pour que les trois cadres tiennent avec leur brouillon, leur case réponse et leur ligne de phrase réponse. Les nombres vont jusqu'à trente-six.",
+   "p2": "Reconnaître l'opération est la compétence visée, et elle ne peut se travailler que sur une page mélangée. Tant que tous les problèmes d'une fiche appellent le même calcul, l'enfant applique une routine sans lire vraiment ; ici, il doit repérer ce qui est connu et ce qui est cherché avant de poser quoi que ce soit. Les trois structures sont proches, des groupes égaux à chaque fois, et c'est précisément ce qui rend le tri instructif. L'image aide sans donner la réponse, et elle diffère selon la situation, cadres remplis, boîtes vides, bande libre. Cette fiche convient bien en fin de séquence ou en évaluation. Les programmes officiels du cycle 2 attendent au CE2 la résolution de problèmes relevant de la multiplication et de la division, avec identification de l'opération.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; trois problèmes rédigés demandent une bonne demi-heure. Si la reconnaissance n'est pas encore installée, les fiches spécialisées valent mieux, multiplication en images, partager, grouper, chacune ne posant qu'un seul type de question. Les fiches partager ou grouper et multiplier puis grouper constituent les deux étapes intermédiaires. Après celle-ci, les problèmes de monnaie et le nombre du jour entretiennent le calcul mobilisé.",
+   "canonicalDeckSlug": "petits-problemes-jouets-g3376",
+   "carousel": [
+    {
+     "label": "Problèmes de multiplication : des groupes égaux dessinés",
+     "href": "problemes-de-multiplication-en-images"
+    },
+    {
+     "label": "Problèmes de division : partager en parts égales",
+     "href": "problemes-de-division-partage"
+    },
+    {
+     "label": "Problèmes de division : entourer des groupes égaux",
+     "href": "problemes-de-division-groupement"
+    },
+    {
+     "label": "Problèmes de division : partage ou groupement, deux situations",
+     "href": "problemes-de-division-partage-ou-groupement"
+    }
+   ],
+   "title": "Problèmes mixtes CE2 : multiplier et diviser | à imprimer PDF gratuit",
+   "metaDescription": "Trois histoires sur une page, une multiplication, un partage et un groupement : il faut reconnaître l'opération avant de calculer. Fiche CE2 gratuite en PDF."
   }
  ]
 }

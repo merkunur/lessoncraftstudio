@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-296',
   slug: 'dot-to-dot-count-on-11-to-30',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Dot-to-Dot: Count On from 11", instruction: "Count on from 11 to 30 to find the hidden picture." } },
+  i18n: { en: { title: "Dot-to-Dot: Count On from 11", instruction: "Start at the orange dot. Count on from 11 to 30 to find the picture." } },
 };

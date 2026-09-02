@@ -76,7 +76,14 @@ function validate(loc, draft) {
       if (loc !== 'en' && norm(title) === norm(f.enTitle)) E(`types.${f.id}: title is byte-identical to the English (untranslated leak): "${title}"`);
       const band = bandOf(f.id);
       const taken = takenByBand[band];
-      if (taken && taken.has(norm(title))) E(`types.${f.id}: title collides in band ${band} with the shipped ${taken.get(norm(title))}: "${title}"`);
+      // A face re-issuing its OWN shipped title is not a collision. Once a draft
+      // has been applied, strings.<loc>.json carries these very ids, so a
+      // self-match made every unchanged title read as a band clash and the gate
+      // failed 64/64 on a correct draft. Only a DIFFERENT id is a collision.
+      // Poison-tested both ways in validate-b2var-draft.test.js: a clash with
+      // another shipped id must still fire, a self-title must stay clean.
+      const owner = taken && taken.get(norm(title));
+      if (owner && owner !== f.id) E(`types.${f.id}: title collides in band ${band} with the shipped ${owner}: "${title}"`);
       const seen = (seenByBand[band] = seenByBand[band] || new Map());
       if (seen.has(norm(title))) E(`types.${f.id}: title collides in band ${band} with ${seen.get(norm(title))} in this draft: "${title}"`);
       else seen.set(norm(title), f.id);

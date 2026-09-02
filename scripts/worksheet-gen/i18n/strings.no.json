@@ -1668,8 +1668,8 @@
     "instruction": "Ingen stor bokstav, ingen punktum. Finn rekkefølgen selv."
   },
   "G2-281": {
-    "title": "Stor bokstav og punktum i hver setning",
-    "instruction": "Skriv hver setning på nytt med stor bokstav og punktum."
+    "title": "Stor bokstav og riktig skilletegn",
+    "instruction": "Skriv setningene på nytt med stor bokstav og riktig skilletegn."
   },
   "G2-282": {
     "title": "Stor bokstav, navn og skilletegn",

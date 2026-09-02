@@ -1668,8 +1668,8 @@
     "instruction": "Nada de maiúscula ou sinal final: ache a ordem."
   },
   "G2-281": {
-    "title": "Maiúscula e ponto no fim",
-    "instruction": "Reescreva as quatro frases com maiúscula e ponto."
+    "title": "Maiúscula e sinal final",
+    "instruction": "Reescreva as três frases: maiúscula e sinal final."
   },
   "G2-282": {
     "title": "Escolha o sinal de pontuação",

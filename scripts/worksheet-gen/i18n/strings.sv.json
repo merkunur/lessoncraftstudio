@@ -1668,12 +1668,12 @@
     "instruction": "Inga ledtrådar. Hitta den enda ordföljd som fungerar."
   },
   "G2-281": {
-    "title": "Stor bokstav och punkt",
-    "instruction": "I varje mening saknas stor bokstav och punkt. Skriv om den."
+    "title": "Punkt eller frågetecken?",
+    "instruction": "Varje mening ska ha stor bokstav och rätt skiljetecken."
   },
   "G2-282": {
     "title": "Stor bokstav, namn och skiljetecken",
-    "instruction": "Välj själv punkt eller frågetecken i slutet."
+    "instruction": "Välj själv rätt skiljetecken i slutet."
   },
   "G2-285": {
     "title": "Ordklasser: sortera nio ord",

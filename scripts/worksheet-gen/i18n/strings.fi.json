@@ -1668,8 +1668,8 @@
     "instruction": "Ei vihjeitä. Etsi ainoa järjestys, joka toimii."
   },
   "G2-281": {
-    "title": "Korjaa lause: piste lopussa",
-    "instruction": "Lisää jokaiseen lauseeseen iso alkukirjain ja piste."
+    "title": "Korjaa kolme lausetta: välimerkit",
+    "instruction": "Lisää iso alkukirjain ja piste tai kysymysmerkki."
   },
   "G2-282": {
     "title": "Korjaa lause: lopetusmerkki",

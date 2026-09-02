@@ -1,336 +1,312 @@
 {
-  "locale": "de",
-  "types": {
-    "K-289": {
-      "title": "Kurze Wörter nachspuren",
-      "instruction": "Spure drei kurze Wörter nach und schreibe sie auf."
-    },
-    "K-290": {
-      "title": "Zweimal selbst schreiben",
-      "instruction": "Spure das Wort einmal nach, schreibe es zweimal."
-    },
-    "K-291": {
-      "title": "Lange Wörter nachspuren",
-      "instruction": "Diese Wörter sind lang: spure sie langsam nach."
-    },
-    "K-294": {
-      "title": "Von Punkt zu Punkt: 1 bis 10",
-      "instruction": "Verbinde die Punkte von 1 bis 10, die Zahlenreihe hilft."
-    },
-    "K-295": {
-      "title": "Von Punkt zu Punkt: 11 bis 20",
-      "instruction": "Zähle von 11 bis 20 weiter und verbinde die Punkte."
-    },
-    "K-296": {
-      "title": "Von Punkt zu Punkt: 11 bis 30",
-      "instruction": "Zähle ab 11 weiter, bis du bei 30 angekommen bist."
-    },
-    "K-298": {
-      "title": "Gitterbilder abzeichnen: 6x6",
-      "instruction": "Male im leeren 6x6-Gitter genau dieselben Kästchen an."
-    },
-    "K-299": {
-      "title": "Gitterbilder mit Buchstabe und Zahl",
-      "instruction": "Finde jedes Kästchen über Buchstabe und Zahl."
-    },
-    "K-300": {
-      "title": "Gitterbilder abzeichnen: 8x8",
-      "instruction": "Im 8x8-Gitter ist mehr zu tun: arbeite Reihe für Reihe."
-    },
-    "K-302": {
-      "title": "Einzahl und Mehrzahl: kurze Wörter",
-      "instruction": "Bei zwei Bildern heißt das Wort anders."
-    },
-    "K-303": {
-      "title": "Einzahl und Mehrzahl: lange Wörter",
-      "instruction": "Drei Bilder: spure die Mehrzahl nach."
-    },
-    "K-306": {
-      "title": "Der, die oder das? Vier Bilder",
-      "instruction": "Kreise bei den vier Bildern den Artikel ein."
-    },
-    "K-307": {
-      "title": "Der, die oder das? Acht Bilder",
-      "instruction": "Kreise bei acht Bildern den Artikel ein."
-    },
-    "G1-251": {
-      "title": "Lesen und Malen: vier Sätze",
-      "instruction": "Lies vier Sätze und male so viele Bilder an wie genannt."
-    },
-    "G1-252": {
-      "title": "Lesen und Malen: sechs Sätze",
-      "instruction": "Sechs Sätze und sechs Farben: lies jeden Satz ganz genau."
-    },
-    "G1-255": {
-      "title": "Zahl des Tages: 11 bis 19",
-      "instruction": "Zeige eine Zahl von 11 bis 19 als Zehnerfeld und Strichliste."
-    },
-    "G1-256": {
-      "title": "Zahl des Tages: 10 mehr, 10 weniger",
-      "instruction": "Rechne zu deiner Zahl 10 dazu und ziehe 10 ab."
-    },
-    "G1-257": {
-      "title": "Zahl des Tages: Zahlen bis 99",
-      "instruction": "Zerlege eine Zahl bis 99 in Zehner und Einer, dann rechne."
-    },
-    "G1-258": {
-      "title": "Bilder beschriften mit Wortspeicher",
-      "instruction": "Der erste Buchstabe steht schon für dich da."
-    },
-    "G1-259": {
-      "title": "Bilder beschriften: Wort wählen",
-      "instruction": "Wähle für jedes Bild das passende Wort aus."
-    },
-    "G1-260": {
-      "title": "Bilder beschriften ohne Wortspeicher",
-      "instruction": "Schreibe diesmal ohne Wortspeicher."
-    },
-    "G1-262": {
-      "title": "Alphabetisch ordnen: nummerieren",
-      "instruction": "Nur nummerieren: vier Karten von 1 bis 4."
-    },
-    "G1-263": {
-      "title": "Alphabetisch ordnen und abschreiben",
-      "instruction": "Nummeriere, dann schreibe geordnet ab."
-    },
-    "G1-264": {
-      "title": "Alphabetisch ordnen: zweiter Buchstabe",
-      "instruction": "Der zweite Buchstabe entscheidet."
-    },
-    "G1-266": {
-      "title": "Zahlenmauern bis 10",
-      "instruction": "Addiere immer zwei Steine; der oberste bleibt unter 10."
-    },
-    "G1-267": {
-      "title": "Zahlenmauern mit vier Reihen",
-      "instruction": "Vier Reihen hoch: rechne dich bis zum Deckstein hinauf."
-    },
-    "G1-268": {
-      "title": "Zahlenmauern: fehlender Grundstein",
-      "instruction": "Unten fehlt ein Stein – rechne ihn von oben zurück."
-    },
-    "G1-270": {
-      "title": "Verdoppeln und Halbieren mit Bildern",
-      "instruction": "Zähle die Bilder, verdopple und halbiere."
-    },
-    "G1-271": {
-      "title": "Verdoppeln und Halbieren bis 20",
-      "instruction": "Ohne Bilder: verdopple und halbiere bis 20."
-    },
-    "G1-274": {
-      "title": "Zahlenstrahl ablesen bis 10",
-      "instruction": "Lies am Zahlenstrahl bis 10 ab, wohin jeder Pfeil zeigt."
-    },
-    "G1-275": {
-      "title": "Zahlenstrahl bis 20 mit wenigen Zahlen",
-      "instruction": "Nur 0, 10 und 20 stehen da: zähle in Einern."
-    },
-    "G1-276": {
-      "title": "Zahlenstrahl ablesen bis 30",
-      "instruction": "Jeder Strich ist eine Eins: zähle bis 30 zum Pfeil weiter."
-    },
-    "G1-277": {
-      "title": "Zahlenstrahl ablesen bis 50",
-      "instruction": "Jeder Strich ist eine Eins, jeder zehnte trägt eine Zahl."
-    },
-    "G1-278": {
-      "title": "Zahlenstrahl bis 50 in Fünferschritten",
-      "instruction": "Jeder Strich ist eine Fünf bis hinauf zur 50."
-    },
-    "G1-279": {
-      "title": "Zahlenstrahl bis 100 in Fünferschritten",
-      "instruction": "Jeder Strich ist fünf, jede Zehnerzahl steht da."
-    },
-    "G1-280": {
-      "title": "Zahlenstrahl bis 100 in Zehnerschritten",
-      "instruction": "Jeder Strich ist ein Zehner bis zur 100."
-    },
-    "G1-281": {
-      "title": "Zahlenstrahl ablesen bis 120",
-      "instruction": "Dieser Strahl geht über 100 hinaus: zähle in Zehnern."
-    },
-    "G1-282": {
-      "title": "Schüttelsätze mit Hilfen",
-      "instruction": "Großbuchstabe und Satzzeichen zeigen Anfang und Ende."
-    },
-    "G1-283": {
-      "title": "Schüttelsätze ohne Hilfen",
-      "instruction": "Ohne Hilfen: ordne die Wörter und schreibe den Satz."
-    },
-    "G2-281": {
-      "title": "Drei Sätze berichtigen",
-      "instruction": "Schreibe jeden Satz groß und mit Satzzeichen neu."
-    },
-    "G2-282": {
-      "title": "Punkt oder Fragezeichen setzen",
-      "instruction": "Manche Sätze sind Fragen – wähle das Zeichen."
-    },
-    "G2-285": {
-      "title": "Wortarten sortieren: neun Wörter",
-      "instruction": "Sortiere neun Wörter; die Bilder helfen dir."
-    },
-    "G2-286": {
-      "title": "Wortarten sortieren ohne Bilder",
-      "instruction": "Zwölf Wörter, keine Bilder: sortiere sie."
-    },
-    "G2-287": {
-      "title": "Wortarten sortieren: fünfzehn Wörter",
-      "instruction": "Fünfzehn Wörter und keine Bilder mehr."
-    },
-    "G2-289": {
-      "title": "Einkaufen: zwei Aufgaben",
-      "instruction": "Lies die Preise am Regal und löse zwei Aufgaben."
-    },
-    "G2-290": {
-      "title": "Einkaufen: vier verschiedene Fragen",
-      "instruction": "Jede der vier Karten fragt anders."
-    },
-    "G2-291": {
-      "title": "Einkaufen: Preise addieren",
-      "instruction": "Jede Karte fragt nach dem Gesamtpreis im Korb."
-    },
-    "G2-292": {
-      "title": "Einkaufen: mehrere Waren im Korb",
-      "instruction": "Meistens liegen drei Waren im Einkaufskorb."
-    },
-    "G2-293": {
-      "title": "Einkaufen: Wie viel Rückgeld?",
-      "instruction": "Zähle die Münzen und rechne das Rückgeld aus."
-    },
-    "G2-294": {
-      "title": "Einkaufen: Reicht das Geld?",
-      "instruction": "Reicht das Geld? Kreise dann ja oder nein ein."
-    },
-    "G2-295": {
-      "title": "Einkaufen: Wie viel teurer?",
-      "instruction": "Rechne aus, wie viel teurer die eine Ware ist."
-    },
-    "G2-296": {
-      "title": "Kalender lesen: vier Fragen",
-      "instruction": "Beantworte vier Fragen zum Monat mit dem Kalender."
-    },
-    "G2-297": {
-      "title": "Kalender lesen: fünf Fragen",
-      "instruction": "Rechne eine Woche weiter und zähle Tage von Bild zu Bild."
-    },
-    "G2-298": {
-      "title": "Kalender lesen: die Wochentage",
-      "instruction": "Alle Fragen drehen sich um die Wochentage im Monat."
-    },
-    "G2-299": {
-      "title": "Schreiben zum Bild: Was siehst du?",
-      "instruction": "Satzanfänge und Wortkasten helfen dir."
-    },
-    "G2-300": {
-      "title": "Schreiben zum Bild: eigene Worte",
-      "instruction": "Ohne Satzanfänge: sechs Linien nur für dich."
-    },
-    "G2-302": {
-      "title": "Koordinaten im 6x6-Gitter",
-      "instruction": "Suche jedes Feld wie B2 und male es in seiner Farbe an."
-    },
-    "G2-303": {
-      "title": "Koordinaten im 10x10-Gitter",
-      "instruction": "100 Felder: arbeite die lange Liste von oben nach unten ab."
-    },
-    "G3-371": {
-      "title": "Sachaufgaben zum Malnehmen",
-      "instruction": "Die Bilder zeigen gleich große Gruppen: rechne mal."
-    },
-    "G3-372": {
-      "title": "Sachaufgaben zum Verteilen",
-      "instruction": "Verteile alles gerecht in die leeren Kästen."
-    },
-    "G3-373": {
-      "title": "Sachaufgaben: Gruppen bilden",
-      "instruction": "Kreise gleich große Gruppen ein und zähle sie."
-    },
-    "G3-374": {
-      "title": "Sachaufgaben: Teilen auf zwei Wegen",
-      "instruction": "Einmal verteilen, einmal Gruppen bilden."
-    },
-    "G3-375": {
-      "title": "Sachaufgaben: Mal und Gruppen",
-      "instruction": "Erst Gruppen aufbauen, dann eine Menge teilen."
-    },
-    "G3-376": {
-      "title": "Sachaufgaben: drei gemischte Aufgaben",
-      "instruction": "Drei Geschichten: mal oder geteilt?"
-    },
-    "K-308": {
-      "title": "Von Punkt zu Punkt: rückwärts von 10",
-      "instruction": "Verbinde die Punkte rückwärts von 10 bis 1."
-    },
-    "G1-285": {
-      "title": "Von Punkt zu Punkt in Zweierschritten",
-      "instruction": "Zähle in Zweierschritten: 2, 4, 6 ... bis zur 20."
-    },
-    "G1-294": {
-      "title": "Von Punkt zu Punkt: rückwärts von 20",
-      "instruction": "Der ganze Weg rückwärts: von 20 bis zur 1."
-    },
-    "G2-304": {
-      "title": "Von Punkt zu Punkt in Fünferschritten",
-      "instruction": "Zähle in Fünferschritten: 5, 10 ... bis zur 50."
-    },
-    "K-311": {
-      "title": "Wörter abschreiben",
-      "instruction": "Nichts ist gestrichelt: schreibe das Wort zweimal ab."
-    },
-    "K-312": {
-      "title": "Mittellange Wörter nachspuren",
-      "instruction": "Etwas längere Wörter: spure sie genau nach."
-    },
-    "G1-284": {
-      "title": "Sechs Wörter alphabetisch ordnen",
-      "instruction": "Die Anfangsbuchstaben liegen im ABC näher."
-    },
-    "G2-306": {
-      "title": "Satzanfang, Name und Satzzeichen",
-      "instruction": "Auch der Name im Satz wird großgeschrieben."
-    },
-    "G2-309": {
-      "title": "Zum Bild eine Geschichte schreiben",
-      "instruction": "Eines Tages ... und dann? Erzähle weiter."
-    },
-    "G3-377": {
-      "title": "Sachaufgaben: Malnehmen und Verteilen",
-      "instruction": "Erst malnehmen, dann gerecht verteilen."
-    },
-    "G1-290": {
-      "title": "Bilder beschriften mit Kästchen",
-      "instruction": "Ein Kästchen je Buchstabe zeigt die Wortlänge."
-    },
-    "G1-291": {
-      "title": "Bilder beschriften: erster Buchstabe",
-      "instruction": "Ohne Wortspeicher: nur der Anfang steht da."
-    },
-    "G1-286": {
-      "title": "Bilder verdoppeln und halbieren",
-      "instruction": "Größere Mengen: die Bilder reichen bis 20."
-    }
+ "locale": "de",
+ "types": {
+  "K-289": {
+   "title": "Kurze Wörter nachspuren",
+   "instruction": "Spure drei kurze Wörter nach und schreibe sie auf."
   },
-  "enAudit": [
-    "G2-292 'Shopping Math: Buying Three Things' — the title AND the instruction ('These baskets hold three things. Add all three prices to find each total.') are false for one card in three. The config is kinds:['total3','total','total3'], so card 2 is a plain two-item total; the fruits render shows mango + kiwi only. Either drop the middle 'total' or reword to 'up to three things'.",
-    "G2-295 'Shopping Math: How Much More?' — the same class. kinds:['diff','total','diff'], so card 2 asks for a total, not a difference, while the instruction promises 'Compare two prices and work out the difference between them.' The toys render confirms: card 2 reads 'Emma wants [slide] and [rocket]. How much is that altogether?'",
-    "G2-294 'Is There Enough Money?' — the instruction 'Count the coins, then compare them with the price.' describes a control the page does not have. There are NO coins on this face: every card states the amount in numerals ('Anna has 45 c'). G2-293 is the face that actually draws coin discs. Suggest 'Read how much money there is, then compare it with the price.'",
-    "G1-263 'ABC Order: Four Words' — the title names an attribute it SHARES with its sibling G1-262: both are base difficulty[1], i.e. four cards. The real difference is the writing lines (G1-262 sets rulings:false, G1-263 keeps them), and that distinguisher is unnamed, so the two faces compete on the same promise. Suggest 'ABC Order: Number Them, Then Write Them'.",
-    "G1-282 'Unscramble the Sentence: With Clues' — the instruction says 'The capital letter and the full stop show you where the sentence starts and ends', but the frame set includes questions and the fruits render's first card ends in a question mark ('Is this your pomegranate?'). 'Full stop' is wrong there; use 'end mark', which is what G2-281's own legend chip already calls it.",
-    "G2-281 — one page, two names for one thing: the legend chip reads 'End mark' while the title ('Capital and Full Stop') and instruction ('a capital letter and a full stop') say full stop. Pick one term across the capitals-punctuation family.",
-    "data/b2/sentences.js frame s2 '{name} feeds the {noun}.' has NO animacy restriction and is applied to inanimate themes. G1-283 card 4 ships the chips feeds / tom / skateboard / the — no order of those words means anything, yet the instruction promises 'the only order that works'. s2 carries uses:['unscramble','fix'], so it can also reach the capitals-punctuation faces G2-281/282. Gate s2 (and any other animate-object frame) to animal/person themes.",
-    "vocab key 'crane' is the BIRD in German (image-vocabulary.js de: Kranich / Kraniche) but the artwork at 'image library/vehicles/crane.png' is the construction machine, and the vehicles theme is exactly what these faces ship. It reaches G2-287 (word chip 'crane' beside car, bulldozer, airplane, motorcycle), G2-294 (a shelf item with a price tag) and G3-376 ('Ben lines up 30 cranes in 6 equal rows'). German pages will print 'Kranich' among bulldozers. MEMORY.md records this split for es/no/da/sv/fi — de is affected too and is not on that list; the vehicles sense needs its own key (de 'Kran').",
-    "G2-298 'Days of the Week' — the render draws two calendar stickers, but this face's question set is ['dayOfDate','countWeekday','firstDay','lastDay'] with no stickerDate, so no question refers to them. They are decorative dead elements here, unlike every other face in the calendar family. Either set stickers:0 or keep one sticker question.",
-    "G1-271 'Doubles and Halves to 20' — 'There are no pictures this time' is true of the GIVEN pictures, but difficulty[3] sets numeric:true, which swaps the picture panel for an empty dotPanel on every card, and nothing on the page tells the child what that box is for. Name it ('draw the dots yourself') or remove it.",
-    "K-296 'Dot-to-Dot: Count On from 11' — does not state its range while both siblings do (K-294 '1 to 10', K-295 'Teen Numbers'). The page runs 11 to 30. Suggest 'Dot-to-Dot: 11 to 30'.",
-    "G1-281 'Where on the Number Line? 0 to 120' — 120 is never printed on the line: with tick:10 and label:5 the printed labels stop at 100. The title names a number the page does not show. Either label the endpoint or retitle.",
-    "Shop frames on the animals theme (G2-289, G2-293) put wild animals on a shop shelf with price tags — 'Emma puts [tiger] and [raccoon] in the basket', 'Mia pays for [fish]'. Mechanically fine, but it reads as buying wild animals. Consider excluding wild-animal themes from the shopping frame, as the sellable-item filter already excludes some nouns.",
-    "SUSPECTED, not confirmed — G2-300 (fruits) labels one word-bank picture 'cranberry' while the artwork reads as a small red apple with a leaf, and 'plum' as a dark red round fruit. Worth checking 'image library/fruits/' against image-vocabulary.js; flagged as a check, not a defect.",
-    "FIVE of the thirteen new faces are the SHIPPED BASE FACE AGAIN. K-312, G1-284, G1-290, G2-309 and G3-377 each spread `base.difficulty[2]` with an EMPTY override, and waves/wave-b2-de.json ships `difficulties:[2]` for every base type — so their resolved config is byte-identical to K-284, G1-245, G1-244, G2-278 and G3-370 respectively (measured by comparing the resolved difficulty[2] objects; the other 75 faces in ROWS are clean). Only the theme and the seed differ. They are second SEO surfaces for a page that already exists, and the English copy invents a distinction the render does not carry: K-312 'Trace Words of Middle Length' vs the base's bare 'Trace and Write the Words', G1-284 'Six Words' vs a base that also shows six, G3-377 'Multiply and Share' vs a base that is already mul+share. Either give each of the five a real config override or drop them from the wave.",
-    "G2-306 'Find both capitals, not just the first' is falsifiable twice over. (a) The `fix`+simple frame pool contains a TWO-NAME frame — en '{name} draws two {noun} for {name}.', de '{name} malt {noun} fuer {name}.' — and with needCaps:3 over lanes:3 the selector must pick three name-bearing frames out of six (en) / eight (de) candidates, so that frame can land and the page then wants THREE capitals. (b) lib/sentence-bank.js `corrupt()` lowercases the WHOLE sentence, so in German every Nomen loses its capital too and the child restores four or five per line, never 'both'. Suggest 'Every sentence names somebody, so more than the first word needs a capital.'",
-    "G1-286 'Count the bigger groups, double them, and halve them.' describes an operation no card asks for. cards:4 renders two `data-lcs-op=double` cards and two `data-lcs-op=half` cards, each carrying its own pill; no card asks for both. On a doubles card the mirror group is ALREADY drawn and the printed strip is `n + n = box`, so the group the child counts is n (5-10), not 'the bigger' one. Suggest 'Some cards ask you to double a group of pictures, others to halve one — now up to 20.'",
-    "G1-290 'One Box for Each Letter' is false for any hyphenated or apostrophised noun. `letterBoxes({ n: [...word.replace(/[ ]/g,'')].length })` strips spaces only, while the G1-244 pool filter admits `'`, `’` and `-`, so de 'U-Boot' would draw six boxes for five letters. de G1-290 ships on `fruits`, which has no such noun, so this face is safe as configured — but the same d2 config reaches the base G1-244 and the vehicles/animals themes (de 'U-Boot', 'U-Bahn', 'Orang-Utan'). Strip the separators in the box count as well, or the title stops being true.",
-    "PROCESS, not English: out/b2var-faces.json is STALE — 64 rows against 80 in tools/gen-b2var-specs.js ROWS — and out/b2var-sweep holds 64 PNGs, none of them for these thirteen ids. The file's own docblock says 'RE-RUN THIS AFTER EVERY CHANGE TO THE SPECS OR THE WAVES' and warns that a panel briefed from a stale table is briefed from prose, which is the failure it exists to prevent. This panel worked from the spec modules and each base's build() instead; re-run gen-b2var-faces.js and the sweep before the next slice.",
-    "K-312 'Longer words than the first page' names no page. Its siblings are K-289 (<=5 letters) and K-291 (8-12), so 'the first page' could be either, and per the first finding K-312 is itself the base face. Name the comparison or drop it.",
-    "CHECKED AND CLEAN, recorded so nobody re-files it: K-308, G1-285 and G2-304 inherit `window:10` from K-285.difficulty[1], so they number only TEN of the twenty dots and pre-print the rest in light ink. All four dot-to-dot ranges in the English are therefore correct (10..1, 2..20, 5..50, and G1-294's full 20..1 with window:null). K-285.verify() also does NOT fail on them: dot-figure stamps `data-lcs-count = labelled`, not the requested count, and the already-shipped K-294/K-295 carry the same window:10 config."
-  ]
+  "K-290": {
+   "title": "Zweimal selbst schreiben",
+   "instruction": "Spure das Wort einmal nach, schreibe es zweimal."
+  },
+  "K-291": {
+   "title": "Lange Wörter nachspuren",
+   "instruction": "Diese Wörter sind lang: spure sie langsam nach."
+  },
+  "K-294": {
+   "title": "Von Punkt zu Punkt: 1 bis 10",
+   "instruction": "Verbinde die Punkte von 1 bis 10, die Zahlenreihe hilft."
+  },
+  "K-295": {
+   "title": "Von Punkt zu Punkt: 11 bis 20",
+   "instruction": "Zähle von 11 bis 20 weiter und verbinde die Punkte."
+  },
+  "K-296": {
+   "title": "Von Punkt zu Punkt: 11 bis 30",
+   "instruction": "Zähle ab 11 weiter, bis du bei 30 angekommen bist."
+  },
+  "K-298": {
+   "title": "Gitterbilder abzeichnen: 6x6",
+   "instruction": "Male im leeren 6x6-Gitter genau dieselben Kästchen an."
+  },
+  "K-299": {
+   "title": "Gitterbilder mit Buchstabe und Zahl",
+   "instruction": "Finde jedes Kästchen über Buchstabe und Zahl."
+  },
+  "K-300": {
+   "title": "Gitterbilder abzeichnen: 8x8",
+   "instruction": "Im 8x8-Gitter ist mehr zu tun: arbeite Reihe für Reihe."
+  },
+  "K-302": {
+   "title": "Einzahl und Mehrzahl: kurze Wörter",
+   "instruction": "Bei zwei Bildern heißt das Wort anders."
+  },
+  "K-303": {
+   "title": "Einzahl und Mehrzahl: lange Wörter",
+   "instruction": "Drei Bilder: spure die Mehrzahl nach."
+  },
+  "K-306": {
+   "title": "Der, die oder das? Vier Bilder",
+   "instruction": "Kreise bei den vier Bildern den Artikel ein."
+  },
+  "K-307": {
+   "title": "Der, die oder das? Acht Bilder",
+   "instruction": "Kreise bei acht Bildern den Artikel ein."
+  },
+  "G1-251": {
+   "title": "Lesen und Malen: vier Sätze",
+   "instruction": "Lies vier Sätze und male so viele Bilder an wie genannt."
+  },
+  "G1-252": {
+   "title": "Lesen und Malen: sechs Sätze",
+   "instruction": "Sechs Sätze und sechs Farben: lies jeden Satz ganz genau."
+  },
+  "G1-255": {
+   "title": "Zahl des Tages: 11 bis 19",
+   "instruction": "Zeige eine Zahl von 11 bis 19 als Zehnerfeld und Strichliste."
+  },
+  "G1-256": {
+   "title": "Zahl des Tages: 10 mehr, 10 weniger",
+   "instruction": "Rechne zu deiner Zahl 10 dazu und ziehe 10 ab."
+  },
+  "G1-257": {
+   "title": "Zahl des Tages: Zahlen bis 99",
+   "instruction": "Zerlege eine Zahl bis 99 in Zehner und Einer, dann rechne."
+  },
+  "G1-258": {
+   "title": "Bilder beschriften mit Wortspeicher",
+   "instruction": "Der erste Buchstabe steht schon für dich da."
+  },
+  "G1-259": {
+   "title": "Bilder beschriften: Wort wählen",
+   "instruction": "Wähle für jedes Bild das passende Wort aus."
+  },
+  "G1-260": {
+   "title": "Bilder beschriften ohne Wortspeicher",
+   "instruction": "Schreibe diesmal ohne Wortspeicher."
+  },
+  "G1-262": {
+   "title": "Alphabetisch ordnen: nummerieren",
+   "instruction": "Nur nummerieren: vier Karten von 1 bis 4."
+  },
+  "G1-263": {
+   "title": "Alphabetisch ordnen und abschreiben",
+   "instruction": "Nummeriere, dann schreibe geordnet ab."
+  },
+  "G1-264": {
+   "title": "Alphabetisch ordnen: zweiter Buchstabe",
+   "instruction": "Der zweite Buchstabe entscheidet."
+  },
+  "G1-266": {
+   "title": "Zahlenmauern bis 10",
+   "instruction": "Addiere immer zwei Steine; der oberste bleibt unter 10."
+  },
+  "G1-267": {
+   "title": "Zahlenmauern mit vier Reihen",
+   "instruction": "Vier Reihen hoch: rechne dich bis zum Deckstein hinauf."
+  },
+  "G1-268": {
+   "title": "Zahlenmauern: fehlender Grundstein",
+   "instruction": "Unten fehlt ein Stein – rechne ihn von oben zurück."
+  },
+  "G1-270": {
+   "title": "Verdoppeln und Halbieren mit Bildern",
+   "instruction": "Zähle die Bilder, verdopple und halbiere."
+  },
+  "G1-271": {
+   "title": "Verdoppeln und Halbieren bis 20",
+   "instruction": "Ohne Bilder: verdopple und halbiere bis 20."
+  },
+  "G1-274": {
+   "title": "Zahlenstrahl ablesen bis 10",
+   "instruction": "Lies am Zahlenstrahl bis 10 ab, wohin jeder Pfeil zeigt."
+  },
+  "G1-275": {
+   "title": "Zahlenstrahl bis 20 mit wenigen Zahlen",
+   "instruction": "Nur 0, 10 und 20 stehen da: zähle in Einern."
+  },
+  "G1-276": {
+   "title": "Zahlenstrahl ablesen bis 30",
+   "instruction": "Jeder Strich ist eine Eins: zähle bis 30 zum Pfeil weiter."
+  },
+  "G1-277": {
+   "title": "Zahlenstrahl ablesen bis 50",
+   "instruction": "Jeder Strich ist eine Eins, jeder zehnte trägt eine Zahl."
+  },
+  "G1-278": {
+   "title": "Zahlenstrahl bis 50 in Fünferschritten",
+   "instruction": "Jeder Strich ist eine Fünf bis hinauf zur 50."
+  },
+  "G1-279": {
+   "title": "Zahlenstrahl bis 100 in Fünferschritten",
+   "instruction": "Jeder Strich ist fünf, jede Zehnerzahl steht da."
+  },
+  "G1-280": {
+   "title": "Zahlenstrahl bis 100 in Zehnerschritten",
+   "instruction": "Jeder Strich ist ein Zehner bis zur 100."
+  },
+  "G1-281": {
+   "title": "Zahlenstrahl ablesen bis 120",
+   "instruction": "Dieser Strahl geht über 100 hinaus: zähle in Zehnern."
+  },
+  "G1-282": {
+   "title": "Schüttelsätze mit Hilfen",
+   "instruction": "Großbuchstabe und Satzzeichen zeigen Anfang und Ende."
+  },
+  "G1-283": {
+   "title": "Schüttelsätze ohne Hilfen",
+   "instruction": "Ohne Hilfen: ordne die Wörter und schreibe den Satz."
+  },
+  "G2-281": {
+   "title": "Drei Sätze berichtigen",
+   "instruction": "Schreibe jeden Satz groß und mit Satzzeichen neu."
+  },
+  "G2-282": {
+   "title": "Punkt oder Fragezeichen setzen",
+   "instruction": "Manche Sätze sind Fragen – wähle das Zeichen."
+  },
+  "G2-285": {
+   "title": "Wortarten sortieren: neun Wörter",
+   "instruction": "Sortiere neun Wörter; die Bilder helfen dir."
+  },
+  "G2-286": {
+   "title": "Wortarten sortieren ohne Bilder",
+   "instruction": "Zwölf Wörter, keine Bilder: sortiere sie."
+  },
+  "G2-287": {
+   "title": "Wortarten sortieren: fünfzehn Wörter",
+   "instruction": "Fünfzehn Wörter und keine Bilder mehr."
+  },
+  "G2-289": {
+   "title": "Einkaufen: zwei Aufgaben",
+   "instruction": "Lies die Preise am Regal und löse zwei Aufgaben."
+  },
+  "G2-290": {
+   "title": "Einkaufen: vier verschiedene Fragen",
+   "instruction": "Jede der vier Karten fragt anders."
+  },
+  "G2-291": {
+   "title": "Einkaufen: Preise addieren",
+   "instruction": "Jede Karte fragt nach dem Gesamtpreis im Korb."
+  },
+  "G2-292": {
+   "title": "Einkaufen: mehrere Waren im Korb",
+   "instruction": "Meistens liegen drei Waren im Einkaufskorb."
+  },
+  "G2-293": {
+   "title": "Einkaufen: Wie viel Rückgeld?",
+   "instruction": "Zähle die Münzen und rechne das Rückgeld aus."
+  },
+  "G2-294": {
+   "title": "Einkaufen: Reicht das Geld?",
+   "instruction": "Reicht das Geld? Kreise dann ja oder nein ein."
+  },
+  "G2-295": {
+   "title": "Einkaufen: Wie viel teurer?",
+   "instruction": "Rechne aus, wie viel teurer die eine Ware ist."
+  },
+  "G2-296": {
+   "title": "Kalender lesen: vier Fragen",
+   "instruction": "Beantworte vier Fragen zum Monat mit dem Kalender."
+  },
+  "G2-297": {
+   "title": "Kalender lesen: fünf Fragen",
+   "instruction": "Rechne eine Woche weiter und zähle Tage von Bild zu Bild."
+  },
+  "G2-298": {
+   "title": "Kalender lesen: die Wochentage",
+   "instruction": "Alle Fragen drehen sich um die Wochentage im Monat."
+  },
+  "G2-299": {
+   "title": "Schreiben zum Bild: Was siehst du?",
+   "instruction": "Satzanfänge und Wortkasten helfen dir."
+  },
+  "G2-300": {
+   "title": "Schreiben zum Bild: eigene Worte",
+   "instruction": "Ohne Satzanfänge: sechs Linien nur für dich."
+  },
+  "G2-302": {
+   "title": "Koordinaten im 6x6-Gitter",
+   "instruction": "Suche jedes Feld wie B2 und male es in seiner Farbe an."
+  },
+  "G2-303": {
+   "title": "Koordinaten im 10x10-Gitter",
+   "instruction": "100 Felder: arbeite die lange Liste von oben nach unten ab."
+  },
+  "G3-371": {
+   "title": "Sachaufgaben zum Malnehmen",
+   "instruction": "Die Bilder zeigen gleich große Gruppen: rechne mal."
+  },
+  "G3-372": {
+   "title": "Sachaufgaben zum Verteilen",
+   "instruction": "Verteile alles gerecht in die leeren Kästen."
+  },
+  "G3-373": {
+   "title": "Sachaufgaben: Gruppen bilden",
+   "instruction": "Kreise gleich große Gruppen ein und zähle sie."
+  },
+  "G3-374": {
+   "title": "Sachaufgaben: Teilen auf zwei Wegen",
+   "instruction": "Einmal verteilen, einmal Gruppen bilden."
+  },
+  "G3-375": {
+   "title": "Sachaufgaben: Mal und Gruppen",
+   "instruction": "Erst Gruppen aufbauen, dann eine Menge teilen."
+  },
+  "G3-376": {
+   "title": "Sachaufgaben: drei gemischte Aufgaben",
+   "instruction": "Drei Geschichten: mal oder geteilt?"
+  },
+  "K-308": {
+   "title": "Von Punkt zu Punkt: rückwärts von 10",
+   "instruction": "Verbinde die Punkte rückwärts von 10 bis 1."
+  },
+  "G1-285": {
+   "title": "Von Punkt zu Punkt in Zweierschritten",
+   "instruction": "Zähle in Zweierschritten: 2, 4, 6 ... bis zur 20."
+  },
+  "G1-294": {
+   "title": "Von Punkt zu Punkt: rückwärts von 20",
+   "instruction": "Der ganze Weg rückwärts: von 20 bis zur 1."
+  },
+  "G2-304": {
+   "title": "Von Punkt zu Punkt in Fünferschritten",
+   "instruction": "Zähle in Fünferschritten: 5, 10 ... bis zur 50."
+  },
+  "K-311": {
+   "title": "Wörter abschreiben",
+   "instruction": "Nichts ist gestrichelt: schreibe das Wort zweimal ab."
+  },
+  "G1-291": {
+   "title": "Bilder beschriften: erster Buchstabe",
+   "instruction": "Ohne Wortspeicher: nur der Anfang steht da."
+  },
+  "G1-286": {
+   "title": "Bilder verdoppeln und halbieren",
+   "instruction": "Größere Mengen: die Bilder reichen bis 20."
+  }
+ },
+ "enAudit": [
+  "G2-292 'Shopping Math: Buying Three Things' — the title AND the instruction ('These baskets hold three things. Add all three prices to find each total.') are false for one card in three. The config is kinds:['total3','total','total3'], so card 2 is a plain two-item total; the fruits render shows mango + kiwi only. Either drop the middle 'total' or reword to 'up to three things'.",
+  "G2-295 'Shopping Math: How Much More?' — the same class. kinds:['diff','total','diff'], so card 2 asks for a total, not a difference, while the instruction promises 'Compare two prices and work out the difference between them.' The toys render confirms: card 2 reads 'Emma wants [slide] and [rocket]. How much is that altogether?'",
+  "G2-294 'Is There Enough Money?' — the instruction 'Count the coins, then compare them with the price.' describes a control the page does not have. There are NO coins on this face: every card states the amount in numerals ('Anna has 45 c'). G2-293 is the face that actually draws coin discs. Suggest 'Read how much money there is, then compare it with the price.'",
+  "G1-263 'ABC Order: Four Words' — the title names an attribute it SHARES with its sibling G1-262: both are base difficulty[1], i.e. four cards. The real difference is the writing lines (G1-262 sets rulings:false, G1-263 keeps them), and that distinguisher is unnamed, so the two faces compete on the same promise. Suggest 'ABC Order: Number Them, Then Write Them'.",
+  "G1-282 'Unscramble the Sentence: With Clues' — the instruction says 'The capital letter and the full stop show you where the sentence starts and ends', but the frame set includes questions and the fruits render's first card ends in a question mark ('Is this your pomegranate?'). 'Full stop' is wrong there; use 'end mark', which is what G2-281's own legend chip already calls it.",
+  "G2-281 — one page, two names for one thing: the legend chip reads 'End mark' while the title ('Capital and Full Stop') and instruction ('a capital letter and a full stop') say full stop. Pick one term across the capitals-punctuation family.",
+  "data/b2/sentences.js frame s2 '{name} feeds the {noun}.' has NO animacy restriction and is applied to inanimate themes. G1-283 card 4 ships the chips feeds / tom / skateboard / the — no order of those words means anything, yet the instruction promises 'the only order that works'. s2 carries uses:['unscramble','fix'], so it can also reach the capitals-punctuation faces G2-281/282. Gate s2 (and any other animate-object frame) to animal/person themes.",
+  "vocab key 'crane' is the BIRD in German (image-vocabulary.js de: Kranich / Kraniche) but the artwork at 'image library/vehicles/crane.png' is the construction machine, and the vehicles theme is exactly what these faces ship. It reaches G2-287 (word chip 'crane' beside car, bulldozer, airplane, motorcycle), G2-294 (a shelf item with a price tag) and G3-376 ('Ben lines up 30 cranes in 6 equal rows'). German pages will print 'Kranich' among bulldozers. MEMORY.md records this split for es/no/da/sv/fi — de is affected too and is not on that list; the vehicles sense needs its own key (de 'Kran').",
+  "G2-298 'Days of the Week' — the render draws two calendar stickers, but this face's question set is ['dayOfDate','countWeekday','firstDay','lastDay'] with no stickerDate, so no question refers to them. They are decorative dead elements here, unlike every other face in the calendar family. Either set stickers:0 or keep one sticker question.",
+  "G1-271 'Doubles and Halves to 20' — 'There are no pictures this time' is true of the GIVEN pictures, but difficulty[3] sets numeric:true, which swaps the picture panel for an empty dotPanel on every card, and nothing on the page tells the child what that box is for. Name it ('draw the dots yourself') or remove it.",
+  "K-296 'Dot-to-Dot: Count On from 11' — does not state its range while both siblings do (K-294 '1 to 10', K-295 'Teen Numbers'). The page runs 11 to 30. Suggest 'Dot-to-Dot: 11 to 30'.",
+  "G1-281 'Where on the Number Line? 0 to 120' — 120 is never printed on the line: with tick:10 and label:5 the printed labels stop at 100. The title names a number the page does not show. Either label the endpoint or retitle.",
+  "Shop frames on the animals theme (G2-289, G2-293) put wild animals on a shop shelf with price tags — 'Emma puts [tiger] and [raccoon] in the basket', 'Mia pays for [fish]'. Mechanically fine, but it reads as buying wild animals. Consider excluding wild-animal themes from the shopping frame, as the sellable-item filter already excludes some nouns.",
+  "SUSPECTED, not confirmed — G2-300 (fruits) labels one word-bank picture 'cranberry' while the artwork reads as a small red apple with a leaf, and 'plum' as a dark red round fruit. Worth checking 'image library/fruits/' against image-vocabulary.js; flagged as a check, not a defect.",
+  "FIVE of the thirteen new faces are the SHIPPED BASE FACE AGAIN. K-312, G1-284, G1-290, G2-309 and G3-377 each spread `base.difficulty[2]` with an EMPTY override, and waves/wave-b2-de.json ships `difficulties:[2]` for every base type — so their resolved config is byte-identical to K-284, G1-245, G1-244, G2-278 and G3-370 respectively (measured by comparing the resolved difficulty[2] objects; the other 75 faces in ROWS are clean). Only the theme and the seed differ. They are second SEO surfaces for a page that already exists, and the English copy invents a distinction the render does not carry: K-312 'Trace Words of Middle Length' vs the base's bare 'Trace and Write the Words', G1-284 'Six Words' vs a base that also shows six, G3-377 'Multiply and Share' vs a base that is already mul+share. Either give each of the five a real config override or drop them from the wave.",
+  "G2-306 'Find both capitals, not just the first' is falsifiable twice over. (a) The `fix`+simple frame pool contains a TWO-NAME frame — en '{name} draws two {noun} for {name}.', de '{name} malt {noun} fuer {name}.' — and with needCaps:3 over lanes:3 the selector must pick three name-bearing frames out of six (en) / eight (de) candidates, so that frame can land and the page then wants THREE capitals. (b) lib/sentence-bank.js `corrupt()` lowercases the WHOLE sentence, so in German every Nomen loses its capital too and the child restores four or five per line, never 'both'. Suggest 'Every sentence names somebody, so more than the first word needs a capital.'",
+  "G1-286 'Count the bigger groups, double them, and halve them.' describes an operation no card asks for. cards:4 renders two `data-lcs-op=double` cards and two `data-lcs-op=half` cards, each carrying its own pill; no card asks for both. On a doubles card the mirror group is ALREADY drawn and the printed strip is `n + n = box`, so the group the child counts is n (5-10), not 'the bigger' one. Suggest 'Some cards ask you to double a group of pictures, others to halve one — now up to 20.'",
+  "G1-290 'One Box for Each Letter' is false for any hyphenated or apostrophised noun. `letterBoxes({ n: [...word.replace(/[ ]/g,'')].length })` strips spaces only, while the G1-244 pool filter admits `'`, `’` and `-`, so de 'U-Boot' would draw six boxes for five letters. de G1-290 ships on `fruits`, which has no such noun, so this face is safe as configured — but the same d2 config reaches the base G1-244 and the vehicles/animals themes (de 'U-Boot', 'U-Bahn', 'Orang-Utan'). Strip the separators in the box count as well, or the title stops being true.",
+  "PROCESS, not English: out/b2var-faces.json is STALE — 64 rows against 80 in tools/gen-b2var-specs.js ROWS — and out/b2var-sweep holds 64 PNGs, none of them for these thirteen ids. The file's own docblock says 'RE-RUN THIS AFTER EVERY CHANGE TO THE SPECS OR THE WAVES' and warns that a panel briefed from a stale table is briefed from prose, which is the failure it exists to prevent. This panel worked from the spec modules and each base's build() instead; re-run gen-b2var-faces.js and the sweep before the next slice.",
+  "K-312 'Longer words than the first page' names no page. Its siblings are K-289 (<=5 letters) and K-291 (8-12), so 'the first page' could be either, and per the first finding K-312 is itself the base face. Name the comparison or drop it.",
+  "CHECKED AND CLEAN, recorded so nobody re-files it: K-308, G1-285 and G2-304 inherit `window:10` from K-285.difficulty[1], so they number only TEN of the twenty dots and pre-print the rest in light ink. All four dot-to-dot ranges in the English are therefore correct (10..1, 2..20, 5..50, and G1-294's full 20..1 with window:null). K-285.verify() also does NOT fail on them: dot-figure stamps `data-lcs-count = labelled`, not the requested count, and the already-shipped K-294/K-295 carry the same window:10 config."
+ ]
 }

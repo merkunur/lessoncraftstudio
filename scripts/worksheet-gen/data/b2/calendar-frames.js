@@ -181,6 +181,74 @@ const CALENDAR_FRAMES = {
       "lördagar"
     ],
     "ordinalStyle": "sv"
+  },
+  "da": {
+    "frames": {
+      "dayOfDate": "Hvilken ugedag er den {date} i denne måned?",
+      "countWeekday": "Hvor mange {dayPlural} er der i denne måned?",
+      "stickerDate": "Hvilken dato sidder {sticker} på?",
+      "weekLater": "I dag er det den {date} Hvilken dato er det præcis en uge senere?",
+      "daysInMonth": "Hvor mange dage har denne måned?",
+      "firstDay": "Hvilken ugedag er den første dag i måneden?",
+      "lastDay": "Hvilken ugedag er den sidste dag i måneden?",
+      "after": "Hvor mange dage efter {stickerA} kommer {stickerB}?"
+    },
+    "weekStart": 1,
+    "dayPlural": [
+      "søndage",
+      "mandage",
+      "tirsdage",
+      "onsdage",
+      "torsdage",
+      "fredage",
+      "lørdage"
+    ],
+    "ordinalStyle": "dot"
+  },
+  "no": {
+    "frames": {
+      "dayOfDate": "Hvilken ukedag er den {date} i denne måneden?",
+      "countWeekday": "Hvor mange {dayPlural} er det i denne måneden?",
+      "stickerDate": "Hvilken dato står {sticker} på?",
+      "weekLater": "I dag er det den {date} i måneden. Hvilken dato er det nøyaktig én uke senere?",
+      "daysInMonth": "Hvor mange dager har denne måneden?",
+      "firstDay": "Hvilken ukedag er den første dagen i måneden?",
+      "lastDay": "Hvilken ukedag er den siste dagen i måneden?",
+      "after": "Hvor mange dager etter {stickerA} kommer {stickerB}?"
+    },
+    "weekStart": 1,
+    "dayPlural": [
+      "søndager",
+      "mandager",
+      "tirsdager",
+      "onsdager",
+      "torsdager",
+      "fredager",
+      "lørdager"
+    ],
+    "ordinalStyle": "dot"
+  },
+  "fi": {
+    "frames": {
+      "dayOfDate": "Mikä viikonpäivä on kuukauden {date} päivä?",
+      "countWeekday": "Montako {dayPlural} tässä kuussa on?",
+      "stickerDate": "Minä päivänä kalenterissa on {sticker}?",
+      "weekLater": "Tänään on kuukauden {date} päivä. Mikä päivämäärä on tasan viikon päästä?",
+      "daysInMonth": "Montako päivää tässä kuussa on?",
+      "firstDay": "Mikä viikonpäivä on kuukauden ensimmäinen päivä?",
+      "lastDay": "Mikä viikonpäivä on kuukauden viimeinen päivä?",
+      "after": "Montako päivää on merkistä {stickerA} merkkiin {stickerB}?"
+    },
+    "weekStart": 1,
+    "dayPlural": [
+      "sunnuntaita",
+      "maanantaita",
+      "tiistaita",
+      "keskiviikkoja",
+      "torstaita",
+      "perjantaita",
+      "lauantaita"
+    ]
   }
 };
 

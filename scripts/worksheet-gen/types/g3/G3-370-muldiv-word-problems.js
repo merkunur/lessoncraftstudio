@@ -12,7 +12,8 @@
 'use strict';
 const { answerBox } = require('../../templates/components.js');
 const { dotPanel, equalGroups, rulingBlock } = require('../../templates/components-b2.js');
-const { labelSafeNouns, fileUri, labels } = require('../../image-cache/resolve.js');
+const { fileUri, labels } = require('../../image-cache/resolve.js');
+const { safeNouns } = require('../../lib/b2-common.js');
 const { WP_MULDIV } = require('../../data/b2/wp-muldiv-frames.js');
 
 function fillFrame(tpl, slots) { return tpl.replace(/\{(name|n1|n2|noun)\}/g, (_, k) => String(slots[k])); }
@@ -43,7 +44,7 @@ module.exports = {
     const bank = WP_MULDIV[loc];
     if (!bank) throw new Error(`G3-370: no frame bank for ${loc}`);
     // invariant-plural nouns (dice, chess, lego) never enter a counted slot
-    const countablePool = labelSafeNouns(theme).filter((n) => { const l = labels(n.vocabKey, loc); return l && l[0] && l[1] && l[1].trim().toLocaleLowerCase() !== l[0].trim().toLocaleLowerCase(); });
+    const countablePool = safeNouns(theme, loc).filter((n) => { const l = labels(n.vocabKey, loc); return l && l[0] && l[1] && l[1].trim().toLocaleLowerCase() !== l[0].trim().toLocaleLowerCase(); });
     if (countablePool.length < d.ops.length) throw new Error(`G3-370: theme ${theme}/${loc} has ${countablePool.length} countable nouns < ${d.ops.length}`);
     const nouns = rng.sample(countablePool, d.ops.length);
     const usedFrames = new Set();

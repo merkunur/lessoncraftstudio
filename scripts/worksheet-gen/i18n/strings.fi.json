@@ -1430,5 +1430,85 @@
   "K-283": {
     "title": "Ensimmäiset pienet kirjaimet: a b c d",
     "instruction": "Kirjoita pienet kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kokeile sitten itse tyhjälle viivalle."
+  },
+  "K-284": {
+    "title": "Sanojen jäljentäminen",
+    "instruction": "Sano kuvan sana ääneen. Kirjoita sana ensin katkoviivoja pitkin ja sitten itse tyhjille viivoille."
+  },
+  "K-285": {
+    "title": "Yhdistä pisteet 1–20",
+    "instruction": "Aloita oranssista pisteestä. Yhdistä pisteet numerojärjestyksessä, niin piilokuva tulee näkyviin."
+  },
+  "K-286": {
+    "title": "Piirrä mallin mukaan ruudukkoon",
+    "instruction": "Katso vasemmanpuoleista kuvaa. Väritä samat ruudut tyhjään ruudukkoon, niin kuva syntyy uudelleen."
+  },
+  "K-287": {
+    "title": "Yksikkö ja monikko",
+    "instruction": "Lue sana, joka tarkoittaa yhtä. Kirjoita monikko ensin katkoviivoja pitkin ja sitten itse tyhjälle viivalle."
+  },
+  "K-288": {
+    "title": "Yksi vai monta?",
+    "instruction": "Laske, montako kuvassa on. Ympyröi sana, joka sopii kuvaan: yksi vai monta."
+  },
+  "G1-242": {
+    "title": "Lue ja väritä",
+    "instruction": "Lue jokainen lause tarkasti. Väritä vain ne kuvat, jotka lause käskee värittää."
+  },
+  "G1-243": {
+    "title": "Päivän luku",
+    "instruction": "Katso päivän lukua. Täytä jokainen laatikko sivulla tämän luvun mukaan."
+  },
+  "G1-244": {
+    "title": "Kirjoita kuvan sana",
+    "instruction": "Sano kuvan nimi ääneen. Kirjoita sana viivalle."
+  },
+  "G1-245": {
+    "title": "Aakkosjärjestys",
+    "instruction": "Käytä aakkosjanaa apuna. Numeroi kuvien sanat 1–6 aakkosjärjestykseen ja kirjoita ne sitten järjestyksessä viivoille."
+  },
+  "G1-246": {
+    "title": "Lukupyramidi",
+    "instruction": "Jokainen tiili on kahden alla olevan tiilen summa. Täydennä puuttuvat luvut."
+  },
+  "G1-247": {
+    "title": "Tuplaa ja puolita",
+    "instruction": "Laske jokaisesta ryhmästä tupla tai puolet. Kirjoita luvut laatikoihin."
+  },
+  "G1-248": {
+    "title": "Mikä luku on lukusuoralla?",
+    "instruction": "Jokainen nuoli osoittaa lukusuoran viivaa. Laske eteenpäin edellisestä luvusta ja kirjoita luku laatikkoon."
+  },
+  "G1-249": {
+    "title": "Järjestä sanat lauseeksi",
+    "instruction": "Sanat ovat sekaisin. Järjestä ne lauseeksi ja kirjoita lause viivalle. Muista iso alkukirjain ja piste."
+  },
+  "G2-274": {
+    "title": "Iso alkukirjain ja piste",
+    "instruction": "Lauseesta puuttuvat iso alkukirjain ja lopetusmerkki. Kirjoita lause uudelleen oikein viivalle."
+  },
+  "G2-275": {
+    "title": "Substantiivi, verbi vai adjektiivi?",
+    "instruction": "Lue jokainen sana. Onko se substantiivi, verbi vai adjektiivi? Kirjoita sana oikeaan laatikkoon."
+  },
+  "G2-276": {
+    "title": "Rahalaskut kaupassa",
+    "instruction": "Etsi jokainen tuote hyllystä ja lue sen hinta. Vastaa sitten rahakysymyksiin."
+  },
+  "G2-277": {
+    "title": "Kalenterin lukeminen",
+    "instruction": "Katso kalenteria. Vastaa sen avulla jokaiseen kysymykseen."
+  },
+  "G2-278": {
+    "title": "Kirjoita kuvasta",
+    "instruction": "Katso kuvaa. Kirjoita, mitä kuvassa näkyy ja tapahtuu. Käytä sanapankin sanoja apuna."
+  },
+  "G2-279": {
+    "title": "Koordinaatit ruudukossa",
+    "instruction": "Etsi jokainen ruutu kirjaimen ja numeron avulla, esimerkiksi B2. Väritä ruutu ryhmänsä värillä, niin kuva paljastuu."
+  },
+  "G3-370": {
+    "title": "Sanalliset kerto- ja jakolaskut",
+    "instruction": "Lue tarina. Käytä kuvaa apuna. Kirjoita vastaus laatikkoon ja täydennä sitten vastauslause."
   }
 }

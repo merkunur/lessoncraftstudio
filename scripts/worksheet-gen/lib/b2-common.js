@@ -20,9 +20,19 @@ function displayWord(word, loc, mode) {
 }
 
 /** Label-safe nouns of a theme with singular/plural/gender for `loc`. */
+/**
+ * Vocab entries a page must not use in a locale: the stored word is wrong for the picture
+ * (`crane` = the BIRD in es/no/da/sv/fi; da toys-bw `tank`/`loader` mislabelled). The
+ * vocabulary file is operator-locked (§10.3) — this is the batch-side guard, reported for the fix.
+ */
+const B2_EXCLUDE = { crane: ['es', 'no', 'da', 'sv', 'fi'], tank: ['da'], loader: ['da'], lego: ['no'] };
+function excluded(vocabKey, loc) { const l = B2_EXCLUDE[String(vocabKey).toLowerCase()]; return !!(l && l.includes(loc)); }
+/** labelSafeNouns minus the locale's exclusions — every b2 type that picks nouns goes through this. */
+function safeNouns(theme, loc) { return labelSafeNouns(theme).filter((n) => !excluded(n.vocabKey, loc)); }
+
 function entriesFor(theme, loc) {
   const v = vocab();
-  return labelSafeNouns(theme).map((n) => {
+  return safeNouns(theme, loc).map((n) => {
     const e = v[n.vocabKey] && v[n.vocabKey][loc];
     if (!e || !e[0]) return null;
     return { noun: n.noun, vocabKey: n.vocabKey, px: n.px, singular: e[0], plural: e[1] || '', gender: e[2] || null };
@@ -49,4 +59,4 @@ function sampleEntries(rng, entries, n, who) {
   return rng.sample(entries, n);
 }
 
-module.exports = { countable, vocab, entriesFor, displayWord, traceable, distinctByWord, sampleEntries, labels, fileUri, KEEP_CASE };
+module.exports = { countable, excluded, safeNouns, vocab, entriesFor, displayWord, traceable, distinctByWord, sampleEntries, labels, fileUri, KEEP_CASE };

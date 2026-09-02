@@ -2190,6 +2190,787 @@ const WORD_CLASSES = {
       "gunga",
       "val"
     ]
+  },
+  "da": {
+    "terms": {
+      "noun": "Navneord",
+      "verb": "Udsagnsord",
+      "adj": "Tillægsord"
+    },
+    "chipCase": "lower",
+    "chipCaseD3": "lower",
+    "verbs": [
+      {
+        "w": "løbe",
+        "tier": 1
+      },
+      {
+        "w": "hoppe",
+        "tier": 1
+      },
+      {
+        "w": "sove",
+        "tier": 1
+      },
+      {
+        "w": "spise",
+        "tier": 1
+      },
+      {
+        "w": "synge",
+        "tier": 1
+      },
+      {
+        "w": "læse",
+        "tier": 1
+      },
+      {
+        "w": "svømme",
+        "tier": 1
+      },
+      {
+        "w": "lege",
+        "tier": 1
+      },
+      {
+        "w": "sidde",
+        "tier": 1
+      },
+      {
+        "w": "drikke",
+        "tier": 1
+      },
+      {
+        "w": "klatre",
+        "tier": 2
+      },
+      {
+        "w": "grine",
+        "tier": 2
+      },
+      {
+        "w": "tegne",
+        "tier": 2
+      },
+      {
+        "w": "vaske",
+        "tier": 2
+      },
+      {
+        "w": "skubbe",
+        "tier": 2
+      },
+      {
+        "w": "trække",
+        "tier": 2
+      },
+      {
+        "w": "kaste",
+        "tier": 2
+      },
+      {
+        "w": "gribe",
+        "tier": 2
+      },
+      {
+        "w": "danse",
+        "tier": 2
+      },
+      {
+        "w": "gemme",
+        "tier": 2
+      },
+      {
+        "w": "lede",
+        "tier": 2
+      },
+      {
+        "w": "hviske",
+        "tier": 3
+      },
+      {
+        "w": "vandre",
+        "tier": 3
+      },
+      {
+        "w": "fnise",
+        "tier": 3
+      },
+      {
+        "w": "samle",
+        "tier": 3
+      },
+      {
+        "w": "lytte",
+        "tier": 3
+      },
+      {
+        "w": "bære",
+        "tier": 3
+      },
+      {
+        "w": "bygge",
+        "tier": 3
+      },
+      {
+        "w": "råbe",
+        "tier": 3
+      },
+      {
+        "w": "bage",
+        "tier": 3
+      }
+    ],
+    "adjectives": [
+      {
+        "w": "stor",
+        "tier": 1
+      },
+      {
+        "w": "lille",
+        "tier": 1
+      },
+      {
+        "w": "rød",
+        "tier": 1
+      },
+      {
+        "w": "blå",
+        "tier": 1
+      },
+      {
+        "w": "varm",
+        "tier": 1
+      },
+      {
+        "w": "kold",
+        "tier": 1
+      },
+      {
+        "w": "blød",
+        "tier": 1
+      },
+      {
+        "w": "lang",
+        "tier": 1
+      },
+      {
+        "w": "våd",
+        "tier": 1
+      },
+      {
+        "w": "glad",
+        "tier": 1
+      },
+      {
+        "w": "hurtig",
+        "tier": 1
+      },
+      {
+        "w": "langsom",
+        "tier": 1
+      },
+      {
+        "w": "gul",
+        "tier": 1
+      },
+      {
+        "w": "grøn",
+        "tier": 1
+      },
+      {
+        "w": "ny",
+        "tier": 1
+      },
+      {
+        "w": "rolig",
+        "tier": 2
+      },
+      {
+        "w": "blank",
+        "tier": 2
+      },
+      {
+        "w": "nuttet",
+        "tier": 2
+      },
+      {
+        "w": "tung",
+        "tier": 2
+      },
+      {
+        "w": "sød",
+        "tier": 2
+      },
+      {
+        "w": "lillebitte",
+        "tier": 2
+      },
+      {
+        "w": "høj",
+        "tier": 2
+      },
+      {
+        "w": "modig",
+        "tier": 2
+      },
+      {
+        "w": "rund",
+        "tier": 2
+      },
+      {
+        "w": "venlig",
+        "tier": 3
+      },
+      {
+        "w": "nysgerrig",
+        "tier": 3
+      },
+      {
+        "w": "træt",
+        "tier": 3
+      },
+      {
+        "w": "klog",
+        "tier": 3
+      },
+      {
+        "w": "ujævn",
+        "tier": 3
+      },
+      {
+        "w": "sjov",
+        "tier": 3
+      }
+    ],
+    "nounExclude": [
+      "kort",
+      "lime",
+      "gynge",
+      "drage",
+      "får",
+      "tog",
+      "grib",
+      "abe",
+      "krabbe",
+      "kaki",
+      "fisk"
+    ]
+  },
+  "no": {
+    "terms": {
+      "noun": "Substantiv",
+      "verb": "Verb",
+      "adj": "Adjektiv"
+    },
+    "chipCase": "lower",
+    "chipCaseD3": "lower",
+    "verbs": [
+      {
+        "w": "løpe",
+        "tier": 1
+      },
+      {
+        "w": "hoppe",
+        "tier": 1
+      },
+      {
+        "w": "sove",
+        "tier": 1
+      },
+      {
+        "w": "spise",
+        "tier": 1
+      },
+      {
+        "w": "synge",
+        "tier": 1
+      },
+      {
+        "w": "lese",
+        "tier": 1
+      },
+      {
+        "w": "svømme",
+        "tier": 1
+      },
+      {
+        "w": "leke",
+        "tier": 1
+      },
+      {
+        "w": "sitte",
+        "tier": 1
+      },
+      {
+        "w": "drikke",
+        "tier": 1
+      },
+      {
+        "w": "fly",
+        "tier": 1
+      },
+      {
+        "w": "klatre",
+        "tier": 2
+      },
+      {
+        "w": "le",
+        "tier": 2
+      },
+      {
+        "w": "tegne",
+        "tier": 2
+      },
+      {
+        "w": "vaske",
+        "tier": 2
+      },
+      {
+        "w": "dytte",
+        "tier": 2
+      },
+      {
+        "w": "dra",
+        "tier": 2
+      },
+      {
+        "w": "kaste",
+        "tier": 2
+      },
+      {
+        "w": "fange",
+        "tier": 2
+      },
+      {
+        "w": "danse",
+        "tier": 2
+      },
+      {
+        "w": "gjemme",
+        "tier": 2
+      },
+      {
+        "w": "lete",
+        "tier": 2
+      },
+      {
+        "w": "hviske",
+        "tier": 3
+      },
+      {
+        "w": "vandre",
+        "tier": 3
+      },
+      {
+        "w": "fnise",
+        "tier": 3
+      },
+      {
+        "w": "samle",
+        "tier": 3
+      },
+      {
+        "w": "lytte",
+        "tier": 3
+      },
+      {
+        "w": "bære",
+        "tier": 3
+      },
+      {
+        "w": "bygge",
+        "tier": 3
+      },
+      {
+        "w": "rope",
+        "tier": 3
+      },
+      {
+        "w": "bake",
+        "tier": 3
+      }
+    ],
+    "adjectives": [
+      {
+        "w": "stor",
+        "tier": 1
+      },
+      {
+        "w": "liten",
+        "tier": 1
+      },
+      {
+        "w": "rød",
+        "tier": 1
+      },
+      {
+        "w": "blå",
+        "tier": 1
+      },
+      {
+        "w": "varm",
+        "tier": 1
+      },
+      {
+        "w": "kald",
+        "tier": 1
+      },
+      {
+        "w": "myk",
+        "tier": 1
+      },
+      {
+        "w": "lang",
+        "tier": 1
+      },
+      {
+        "w": "våt",
+        "tier": 1
+      },
+      {
+        "w": "glad",
+        "tier": 1
+      },
+      {
+        "w": "rask",
+        "tier": 1
+      },
+      {
+        "w": "langsom",
+        "tier": 1
+      },
+      {
+        "w": "gul",
+        "tier": 1
+      },
+      {
+        "w": "grønn",
+        "tier": 1
+      },
+      {
+        "w": "lilla",
+        "tier": 1
+      },
+      {
+        "w": "kort",
+        "tier": 1
+      },
+      {
+        "w": "stille",
+        "tier": 2
+      },
+      {
+        "w": "blank",
+        "tier": 2
+      },
+      {
+        "w": "lodden",
+        "tier": 2
+      },
+      {
+        "w": "tung",
+        "tier": 2
+      },
+      {
+        "w": "søt",
+        "tier": 2
+      },
+      {
+        "w": "høy",
+        "tier": 2
+      },
+      {
+        "w": "modig",
+        "tier": 2
+      },
+      {
+        "w": "rund",
+        "tier": 2
+      },
+      {
+        "w": "lett",
+        "tier": 2
+      },
+      {
+        "w": "snill",
+        "tier": 3
+      },
+      {
+        "w": "nysgjerrig",
+        "tier": 3
+      },
+      {
+        "w": "trøtt",
+        "tier": 3
+      },
+      {
+        "w": "klok",
+        "tier": 3
+      },
+      {
+        "w": "humpete",
+        "tier": 3
+      },
+      {
+        "w": "morsom",
+        "tier": 3
+      }
+    ],
+    "nounExclude": [
+      "fly",
+      "kort",
+      "lime",
+      "huske",
+      "drage",
+      "sel"
+    ]
+  },
+  "fi": {
+    "terms": {
+      "noun": "Substantiivit",
+      "verb": "Verbit",
+      "adj": "Adjektiivit"
+    },
+    "chipCase": "lower",
+    "chipCaseD3": "lower",
+    "verbs": [
+      {
+        "w": "juosta",
+        "tier": 1
+      },
+      {
+        "w": "hyppiä",
+        "tier": 1
+      },
+      {
+        "w": "nukkua",
+        "tier": 1
+      },
+      {
+        "w": "syödä",
+        "tier": 1
+      },
+      {
+        "w": "laulaa",
+        "tier": 1
+      },
+      {
+        "w": "lukea",
+        "tier": 1
+      },
+      {
+        "w": "uida",
+        "tier": 1
+      },
+      {
+        "w": "leikkiä",
+        "tier": 1
+      },
+      {
+        "w": "istua",
+        "tier": 1
+      },
+      {
+        "w": "juoda",
+        "tier": 1
+      },
+      {
+        "w": "kiivetä",
+        "tier": 2
+      },
+      {
+        "w": "nauraa",
+        "tier": 2
+      },
+      {
+        "w": "piirtää",
+        "tier": 2
+      },
+      {
+        "w": "pestä",
+        "tier": 2
+      },
+      {
+        "w": "työntää",
+        "tier": 2
+      },
+      {
+        "w": "vetää",
+        "tier": 2
+      },
+      {
+        "w": "heittää",
+        "tier": 2
+      },
+      {
+        "w": "napata",
+        "tier": 2
+      },
+      {
+        "w": "tanssia",
+        "tier": 2
+      },
+      {
+        "w": "piiloutua",
+        "tier": 2
+      },
+      {
+        "w": "kuiskata",
+        "tier": 3
+      },
+      {
+        "w": "vaeltaa",
+        "tier": 3
+      },
+      {
+        "w": "kikattaa",
+        "tier": 3
+      },
+      {
+        "w": "kerätä",
+        "tier": 3
+      },
+      {
+        "w": "kuunnella",
+        "tier": 3
+      },
+      {
+        "w": "kantaa",
+        "tier": 3
+      },
+      {
+        "w": "rakentaa",
+        "tier": 3
+      },
+      {
+        "w": "huutaa",
+        "tier": 3
+      },
+      {
+        "w": "maalata",
+        "tier": 2
+      },
+      {
+        "w": "kävellä",
+        "tier": 1
+      }
+    ],
+    "adjectives": [
+      {
+        "w": "iso",
+        "tier": 1
+      },
+      {
+        "w": "pieni",
+        "tier": 1
+      },
+      {
+        "w": "punainen",
+        "tier": 1
+      },
+      {
+        "w": "sininen",
+        "tier": 1
+      },
+      {
+        "w": "kuuma",
+        "tier": 1
+      },
+      {
+        "w": "kylmä",
+        "tier": 1
+      },
+      {
+        "w": "pehmeä",
+        "tier": 1
+      },
+      {
+        "w": "pitkä",
+        "tier": 1
+      },
+      {
+        "w": "märkä",
+        "tier": 1
+      },
+      {
+        "w": "iloinen",
+        "tier": 1
+      },
+      {
+        "w": "nopea",
+        "tier": 1
+      },
+      {
+        "w": "hidas",
+        "tier": 1
+      },
+      {
+        "w": "hiljainen",
+        "tier": 2
+      },
+      {
+        "w": "kiiltävä",
+        "tier": 2
+      },
+      {
+        "w": "pörröinen",
+        "tier": 2
+      },
+      {
+        "w": "painava",
+        "tier": 2
+      },
+      {
+        "w": "makea",
+        "tier": 2
+      },
+      {
+        "w": "pikkuruinen",
+        "tier": 2
+      },
+      {
+        "w": "kovaääninen",
+        "tier": 2
+      },
+      {
+        "w": "rohkea",
+        "tier": 2
+      },
+      {
+        "w": "pyöreä",
+        "tier": 2
+      },
+      {
+        "w": "lempeä",
+        "tier": 3
+      },
+      {
+        "w": "utelias",
+        "tier": 3
+      },
+      {
+        "w": "uninen",
+        "tier": 3
+      },
+      {
+        "w": "fiksu",
+        "tier": 3
+      },
+      {
+        "w": "kuoppainen",
+        "tier": 3
+      },
+      {
+        "w": "pirteä",
+        "tier": 3
+      },
+      {
+        "w": "violetti",
+        "tier": 1
+      }
+    ],
+    "nounExclude": []
   }
 };
 

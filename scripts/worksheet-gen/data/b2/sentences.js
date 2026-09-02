@@ -1636,6 +1636,791 @@ const SENTENCES = {
         ]
       }
     ]
+  },
+  "da": {
+    "nounCase": "lower",
+    "endSpace": false,
+    "names": [
+      "Ida",
+      "William",
+      "Freja",
+      "Oscar",
+      "Alma",
+      "Noah",
+      "Clara",
+      "Emil"
+    ],
+    "colorWords": {
+      "red": "røde",
+      "blue": "blå",
+      "yellow": "gule",
+      "green": "grønne",
+      "orange": "orange",
+      "purple": "lilla",
+      "brown": "brune",
+      "pink": "lyserøde"
+    },
+    "nounForms": {},
+    "fixLabels": {
+      "capital": "Stort bogstav",
+      "name": "Navne",
+      "end": "Tegn til sidst"
+    },
+    "frames": [
+      {
+        "id": "c1",
+        "kind": "color",
+        "text": "Farv {n} {noun} {color}.",
+        "noun": "pl"
+      },
+      {
+        "id": "c2",
+        "kind": "color",
+        "text": "Find {n} {noun}, og farv dem {color}.",
+        "noun": "pl"
+      },
+      {
+        "id": "c3",
+        "kind": "color",
+        "text": "Farvelæg {n} {noun} {color}.",
+        "noun": "pl"
+      },
+      {
+        "id": "c4",
+        "kind": "color",
+        "text": "Tæl {n} {noun}, og farv dem {color}.",
+        "noun": "pl"
+      },
+      {
+        "id": "s1",
+        "kind": "simple",
+        "text": "{name} ser tre {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s2",
+        "kind": "simple",
+        "text": "{name} har mange {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s3",
+        "kind": "simple",
+        "text": "Hvor er alle {noun}?",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s4",
+        "kind": "simple",
+        "text": "{name} tæller alle {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s5",
+        "kind": "simple",
+        "text": "Kan du finde to {noun}?",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s6",
+        "kind": "simple",
+        "text": "{name} og {name} kigger på {noun}.",
+        "noun": "pl",
+        "uses": [
+          "fix"
+        ]
+      },
+      {
+        "id": "s7",
+        "kind": "simple",
+        "text": "{name} kan godt lide {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s8",
+        "kind": "simple",
+        "text": "Sikke nogle flotte {noun}!",
+        "noun": "pl",
+        "uses": [
+          "fix"
+        ],
+        "exclaimStrict": true
+      },
+      {
+        "id": "s9",
+        "kind": "simple",
+        "text": "{name} ønsker sig fem {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s10",
+        "kind": "simple",
+        "text": "Har du set mine {noun}?",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s11",
+        "kind": "simple",
+        "text": "{name} tegner tre {noun} til {name}.",
+        "noun": "pl",
+        "uses": [
+          "fix"
+        ]
+      },
+      {
+        "id": "s12",
+        "kind": "simple",
+        "text": "Mine {noun} er rigtig flotte.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s13",
+        "kind": "simple",
+        "text": "{name} finder to {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s14",
+        "kind": "simple",
+        "text": "Alle {noun} er store.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s15",
+        "kind": "simple",
+        "text": "Hvem har flest {noun}?",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s16",
+        "kind": "simple",
+        "text": "{name} leder efter {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      }
+    ]
+  },
+  "no": {
+    "nounCase": "lower",
+    "endSpace": false,
+    "names": [
+      "Nora",
+      "Jakob",
+      "Emma",
+      "Oliver",
+      "Ella",
+      "Aksel",
+      "Sofie",
+      "Theodor"
+    ],
+    "colorWords": {
+      "red": "røde",
+      "blue": "blå",
+      "yellow": "gule",
+      "green": "grønne",
+      "orange": "oransje",
+      "purple": "lilla",
+      "brown": "brune",
+      "pink": "rosa"
+    },
+    "nounForms": {},
+    "fixLabels": {
+      "capital": "Stor bokstav",
+      "name": "Navn",
+      "end": "Skilletegn"
+    },
+    "frames": [
+      {
+        "id": "c1",
+        "kind": "color",
+        "text": "Fargelegg {n} {noun} {color}.",
+        "noun": "pl"
+      },
+      {
+        "id": "c2",
+        "kind": "color",
+        "text": "Finn {n} {noun} og fargelegg dem {color}.",
+        "noun": "pl"
+      },
+      {
+        "id": "c3",
+        "kind": "color",
+        "text": "Mal {n} {noun} {color}.",
+        "noun": "pl"
+      },
+      {
+        "id": "c4",
+        "kind": "color",
+        "text": "Let etter {n} {noun} og fargelegg dem {color}.",
+        "noun": "pl"
+      },
+      {
+        "id": "s1",
+        "kind": "simple",
+        "text": "{name} ser tre {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s2",
+        "kind": "simple",
+        "text": "{name} har mange {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s3",
+        "kind": "simple",
+        "text": "Hvor er alle {noun}?",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s4",
+        "kind": "simple",
+        "text": "{name} teller alle {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s5",
+        "kind": "simple",
+        "text": "Kan du finne to {noun}?",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s6",
+        "kind": "simple",
+        "text": "{name} og {name} leter etter {noun}.",
+        "noun": "pl",
+        "uses": [
+          "fix"
+        ]
+      },
+      {
+        "id": "s7",
+        "kind": "simple",
+        "text": "{name} liker {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s8",
+        "kind": "simple",
+        "text": "For noen fine {noun}!",
+        "noun": "pl",
+        "uses": [
+          "fix"
+        ],
+        "exclaimStrict": true
+      },
+      {
+        "id": "s9",
+        "kind": "simple",
+        "text": "{name} vil ha fem {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s10",
+        "kind": "simple",
+        "text": "Har du sett noen {noun}?",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s11",
+        "kind": "simple",
+        "text": "{name} tegner tre {noun} til {name}.",
+        "noun": "pl",
+        "uses": [
+          "fix"
+        ]
+      },
+      {
+        "id": "s12",
+        "kind": "simple",
+        "text": "Vi ser mange {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s13",
+        "kind": "simple",
+        "text": "{name} finner to {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s14",
+        "kind": "simple",
+        "text": "{name} ønsker seg to {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s15",
+        "kind": "simple",
+        "text": "Hvem har flest {noun}?",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      }
+    ]
+  },
+  "fi": {
+    "nounCase": "lower",
+    "endSpace": false,
+    "names": [
+      "Aino",
+      "Eeli",
+      "Sofia",
+      "Onni",
+      "Aada",
+      "Väinö",
+      "Helmi",
+      "Leo"
+    ],
+    "colorWords": {
+      "red": "punaiseksi",
+      "blue": "siniseksi",
+      "yellow": "keltaiseksi",
+      "green": "vihreäksi",
+      "orange": "oranssiksi",
+      "purple": "violetiksi",
+      "brown": "ruskeaksi",
+      "pink": "vaaleanpunaiseksi"
+    },
+    "nounForms": {
+      "partitive": {
+        "avocado": "avokadoa",
+        "apricot": "aprikoosia",
+        "banana": "banaania",
+        "apple": "omenaa",
+        "blackberry": "karhunvatukkaa",
+        "blueberry": "mustikkaa",
+        "cherry": "kirsikkaa",
+        "clementine": "klementiiniä",
+        "coconut": "kookospähkinää",
+        "fig": "viikunaa",
+        "cranberry": "karpaloa",
+        "grapefruit": "greippiä",
+        "kiwi": "kiiviä",
+        "lemon": "sitruunaa",
+        "lime": "limettiä",
+        "mango": "mangoa",
+        "orange": "appelsiinia",
+        "papaya": "papaijaa",
+        "peach": "persikkaa",
+        "nectarine": "nektariinia",
+        "pear": "päärynää",
+        "persimmon": "persimonia",
+        "pineapple": "ananasta",
+        "plum": "luumua",
+        "pomegranate": "granaattiomenaa",
+        "watermelon": "vesimelonia",
+        "strawberry": "mansikkaa",
+        "raspberry": "vadelmaa",
+        "durian": "duriota",
+        "grapes": "viinirypälettä",
+        "airplane": "lentokonetta",
+        "ambulance": "ambulanssia",
+        "bicycle": "polkupyörää",
+        "boat": "venettä",
+        "bulldozer": "puskutraktoria",
+        "bus": "bussia",
+        "car": "autoa",
+        "canoe": "kanoottia",
+        "crane": "kurkea",
+        "excavator": "kaivinkonetta",
+        "ferry": "lauttaa",
+        "forklift": "trukkia",
+        "helicopter": "helikopteria",
+        "jet": "suihkukonetta",
+        "jeep": "maasturia",
+        "motorcycle": "moottoripyörää",
+        "rocket": "rakettia",
+        "sailboat": "purjevenettä",
+        "scooter": "potkulautaa",
+        "ship": "laivaa",
+        "skateboard": "rullalautaa",
+        "submarine": "sukellusvenettä",
+        "subway": "metroa",
+        "taxi": "taksia",
+        "tractor": "traktoria",
+        "train": "junaa",
+        "truck": "kuorma-autoa",
+        "van": "pakettiautoa",
+        "yacht": "jahtia",
+        "baby": "vauvaa",
+        "ball": "palloa",
+        "balloon": "ilmapalloa",
+        "blocks": "palikkaa",
+        "bucket": "ämpäriä",
+        "cards": "korttia",
+        "crayons": "värikynää",
+        "chess": "shakkia",
+        "dice": "noppaa",
+        "dinosaur": "dinosaurusta",
+        "doll": "nukkea",
+        "domino": "dominoa",
+        "girl": "tyttöä",
+        "kite": "leijaa",
+        "lego": "legoa",
+        "robot": "robottia",
+        "sandbox": "hiekkalaatikkoa",
+        "shovel": "lapiota",
+        "slide": "liukumäkeä",
+        "swing": "keinua",
+        "cactus": "kaktusta",
+        "drum": "rumpua",
+        "guitar": "kitaraa",
+        "loader": "pyöräkuormaajaa",
+        "tank": "panssarivaunua",
+        "trumpet": "trumpettia",
+        "ufo": "ufoa",
+        "antelope": "antilooppia",
+        "bat": "lepakkoa",
+        "camel": "kamelia",
+        "cat": "kissaa",
+        "dog": "koiraa",
+        "dolphin": "delfiiniä",
+        "donkey": "aasia",
+        "duck": "ankkaa",
+        "elephant": "norsua",
+        "fox": "kettua",
+        "fish": "kalaa",
+        "giraffe": "kirahvia",
+        "hippopotamus": "virtahepoa",
+        "horse": "hevosta",
+        "iguana": "iguaania",
+        "jaguar": "jaguaaria",
+        "koala": "koalaa",
+        "leopard": "leopardia",
+        "moose": "hirveä",
+        "orangutan": "orankia",
+        "owl": "pöllöä",
+        "panda": "pandaa",
+        "penguin": "pingviiniä",
+        "pig": "sikaa",
+        "raccoon": "pesukarhua",
+        "rabbit": "kania",
+        "reindeer": "poroa",
+        "sheep": "lammasta",
+        "seagull": "lokkia",
+        "swan": "joutsenta",
+        "tiger": "tiikeriä",
+        "turtle": "kilpikonnaa",
+        "vulture": "korppikotkaa",
+        "whale": "valasta",
+        "wolf": "sutta",
+        "woodpecker": "tikkaa",
+        "zebra": "seepraa",
+        "alligator": "alligaattoria",
+        "bear": "karhua",
+        "bison": "biisonia",
+        "beaver": "majavaa",
+        "bull": "härkää",
+        "capybara": "kapybaraa",
+        "chameleon": "kameleonttia",
+        "cow": "lehmää",
+        "crab": "rapua",
+        "dragon": "lohikäärmettä",
+        "frog": "sammakkoa",
+        "goat": "vuohta",
+        "kangaroo": "kengurua",
+        "lion": "leijonaa",
+        "llama": "laamaa",
+        "meerkat": "mangustia",
+        "octopus": "mustekalaa",
+        "ostrich": "strutsia",
+        "otter": "saukkoa",
+        "parrot": "papukaijaa",
+        "piglet": "porsasta",
+        "mouse": "hiirtä",
+        "rooster": "kukkoa",
+        "rhinoceros": "sarvikuonoa",
+        "seahorse": "merihevosta",
+        "seal": "hyljettä",
+        "sloth": "laiskiaista",
+        "snail": "etanaa",
+        "squirrel": "oravaa",
+        "unicorn": "yksisarvista",
+        "monkey": "apinaa",
+        "alpaca": "alpakkaa",
+        "bee": "mehiläistä",
+        "chicken": "kanaa",
+        "pigeon": "kyyhkystä",
+        "pony": "ponia",
+        "turkey": "kalkkunaa",
+        "yak": "jakkia"
+      }
+    },
+    "fixLabels": {
+      "capital": "Iso alkukirjain",
+      "name": "Nimet",
+      "end": "Lopetusmerkki"
+    },
+    "frames": [
+      {
+        "id": "c1",
+        "kind": "color",
+        "text": "Väritä {n} {noun} {color}.",
+        "noun": "partitive"
+      },
+      {
+        "id": "c2",
+        "kind": "color",
+        "text": "Etsi {n} {noun} ja väritä ne {color}.",
+        "noun": "partitive"
+      },
+      {
+        "id": "c3",
+        "kind": "color",
+        "text": "{name} värittää {n} {noun} {color}.",
+        "noun": "partitive"
+      },
+      {
+        "id": "c4",
+        "kind": "color",
+        "text": "Väritä kuvista {n} {noun} {color}.",
+        "noun": "partitive"
+      },
+      {
+        "id": "s1",
+        "kind": "simple",
+        "text": "{name} syöttää {noun}.",
+        "noun": "partitive",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s2",
+        "kind": "simple",
+        "text": "{name} katsoo pientä {noun}.",
+        "noun": "partitive",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s3",
+        "kind": "simple",
+        "text": "{name} piirtää kaksi {noun}.",
+        "noun": "partitive",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s4",
+        "kind": "simple",
+        "text": "{name} etsii {noun}.",
+        "noun": "partitive",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s5",
+        "kind": "simple",
+        "text": "{name} ja {name} katsovat isoa {noun}.",
+        "noun": "partitive",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s6",
+        "kind": "simple",
+        "text": "{name} piirtää {noun}.",
+        "noun": "partitive",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s7",
+        "kind": "simple",
+        "text": "{name} pesee {noun}.",
+        "noun": "partitive",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s8",
+        "kind": "simple",
+        "text": "{name} kantaa {noun}.",
+        "noun": "partitive",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s9",
+        "kind": "simple",
+        "text": "Minä näen kaksi {noun}.",
+        "noun": "partitive",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s10",
+        "kind": "simple",
+        "text": "{name} löytää kolme {noun}.",
+        "noun": "partitive",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s11",
+        "kind": "simple",
+        "text": "Nämä {noun} ovat isoja.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s12",
+        "kind": "simple",
+        "text": "Missä {noun} on?",
+        "noun": "sg",
+        "uses": [
+          "fix"
+        ]
+      },
+      {
+        "id": "s13",
+        "kind": "simple",
+        "text": "Kenen {noun} tämä on?",
+        "noun": "sg",
+        "uses": [
+          "fix"
+        ]
+      },
+      {
+        "id": "s14",
+        "kind": "simple",
+        "text": "Onko {noun} laatikossa?",
+        "noun": "sg",
+        "uses": [
+          "fix"
+        ]
+      },
+      {
+        "id": "s15",
+        "kind": "simple",
+        "text": "Onpa hieno {noun}!",
+        "noun": "sg",
+        "uses": [
+          "fix"
+        ],
+        "exclaimStrict": true
+      }
+    ]
   }
 };
 

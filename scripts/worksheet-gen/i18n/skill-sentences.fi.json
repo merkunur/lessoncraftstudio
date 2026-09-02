@@ -190,5 +190,73 @@
   "lowercase-letter-tracing": {
     "full": "Pienten kirjainten jäljentäminen viivastolle harjoittaa keskikorkeutta sekä ylä- ja alapidennyksiä, jotka ylittävät ja alittavat rivin.",
     "short": "Vahvistaa pienten kirjainten kirjoittamista."
+  },
+  "word-tracing": {
+    "full": "Kuvan sanan jäljentäminen kirjain kirjaimelta ja sen kirjoittaminen itse yhdistävät esineen, sen nimen ja kirjoitusasun yhdellä silmäyksellä.",
+    "short": "Vahvistaa sanojen kirjoittamista kuvien avulla."
+  },
+  "dot-to-dot": {
+    "full": "Numeroitujen pisteiden yhdistäminen järjestyksessä paljastaa kuvan ja harjoittaa lukujonoa jokaisella kynänvedolla.",
+    "short": "Harjoittaa lukujonoa ja kynän hallintaa."
+  },
+  "grid-copy": {
+    "full": "Kuvan kopioiminen ruutu ruudulta tyhjään ruudukkoon harjoittaa tarkkaa katsomista, sijainnin hahmottamista ja huolellista piirtämistä.",
+    "short": "Harjoittaa hahmottamista ja kopiointia ruudukossa."
+  },
+  "singular-plural": {
+    "full": "Yhden kuvan näkeminen monen rinnalla ja monikon kirjoittaminen opettaa sanan päätteet, jotka lapsi kuulee mutta harvoin kirjoittaa.",
+    "short": "Vahvistaa yksikön ja monikon muotoja."
+  },
+  "articles": {
+    "full": "Kuvien laskeminen ja oikean sanamuodon ympyröiminen opettaa erottamaan yksikön ja monikon, joihin jokainen myöhempi lause nojaa.",
+    "short": "Vahvistaa yksikön ja monikon tunnistamista."
+  },
+  "read-and-color": {
+    "full": "Lyhyen lauseen lukeminen ja juuri sen kuvien värittäminen muuttaa lukemisen ymmärtämiseksi, jonka lapsi voi itse tarkistaa.",
+    "short": "Harjoittaa luetun ymmärtämistä värittämällä."
+  },
+  "number-of-the-day": {
+    "full": "Yhden luvun esittäminen lukusanana, kymppeinä ja ykkösinä, naapurilukuina ja lukusuoralla rakentaa vahvan lukukäsityksen.",
+    "short": "Rakentaa lukukäsitystä monella esitystavalla."
+  },
+  "write-the-word": {
+    "full": "Kuvan nimen kirjoittaminen viivalle sanapankin avulla tai ilman harjoittaa kirjoittamista äänteistä kirjaimiin.",
+    "short": "Harjoittaa sanojen kirjoittamista kuvista."
+  },
+  "alphabetical-order": {
+    "full": "Kuvien sanojen järjestäminen aakkosjärjestykseen harjoittaa aakkosten järjestyksen muistamista ja sanakirjan käytön taitoja.",
+    "short": "Harjoittaa aakkosjärjestystä."
+  },
+  "number-walls": {
+    "full": "Jokaisen tiilen täyttäminen kahden alla olevan tiilen summalla harjoittaa yhteenlaskun sujuvuutta ja puuttuvan luvun päättelyä samassa pulmassa.",
+    "short": "Harjoittaa yhteenlaskua lukupyramideissa."
+  },
+  "doubles-halves": {
+    "full": "Ryhmän tuplaaminen ja toisen puolittaminen opettaa tuplalaskut, jotka avaavat tietä parillisiin lukuihin ja kertolaskun alkeisiin.",
+    "short": "Harjoittaa tuplia ja puolia."
+  },
+  "sentence-building": {
+    "full": "Sekaisin olevien sanalappujen järjestäminen lauseeksi harjoittaa sanajärjestystä, isoa alkukirjainta ja kokonaisen ajatuksen tajua.",
+    "short": "Harjoittaa lauseen sanajärjestystä."
+  },
+  "capitals-punctuation": {
+    "full": "Lauseen kirjoittaminen uudelleen isolla alkukirjaimella ja lopetusmerkillä vakiinnuttaa tavat, jotka tekevät tekstistä luettavaa.",
+    "short": "Vahvistaa isoa alkukirjainta ja lopetusmerkkejä."
+  },
+  "word-classes": {
+    "full": "Sanojen lajittelu substantiiveihin, verbeihin ja adjektiiveihin opettaa kieliopin luokat, joilla lapsi voi puhua kielestä.",
+    "short": "Harjoittaa sanaluokkien tunnistamista."
+  },
+  "calendar": {
+    "full": "Päivämäärien, viikonpäivien ja viikkojen lukeminen oikeasta kuukausiruudukosta harjoittaa kalenteritaitoja, joita lapsi tarvitsee joka päivä.",
+    "short": "Harjoittaa kalenterin lukemista."
+  },
+  "picture-writing": {
+    "full": "Kuvasta kirjoittaminen sanapankin ja lauseen aloitusten avulla muuttaa tyhjän sivun ensimmäiseksi omaksi tarinaksi.",
+    "short": "Harjoittaa kirjoittamista kuvan pohjalta."
+  },
+  "grid-coordinates": {
+    "full": "Nimettyjen ruutujen värittäminen kirjaimin ja numeroin merkityssä ruudukossa harjoittaa koordinaattien lukemista ja paljastaa piilokuvan.",
+    "short": "Harjoittaa koordinaattien lukemista."
   }
 }

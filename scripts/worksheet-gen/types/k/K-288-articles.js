@@ -45,7 +45,8 @@ module.exports = {
     if (A.refuse) throw new Error(`K-288: locale ${loc} refuses this type`);
     const level = d.level3 ? 3 : difficulty;
     const chips = (d.level3 && A.chipsD3) ? A.chipsD3 : A.chips;
-    let pool = distinctByWord(entriesFor(theme, loc).filter(countable), (e) => e.singular.toLocaleLowerCase(loc));
+    const refuse = new Set((A.refuseKeys || []).map((k) => String(k).toLowerCase()));
+    let pool = distinctByWord(entriesFor(theme, loc).filter(countable).filter((e) => !refuse.has(String(e.vocabKey).toLowerCase())), (e) => e.singular.toLocaleLowerCase(loc));
     // fi form mode: each card shows 1 or 3 pictures; chips = [singular, plural]
     const isForm = A.mode === 'form';
     let cardsData = null, guard = 0, relaxed = false;

@@ -40,7 +40,7 @@ function numberWall({ base, blanks = [], brick = { w: 88, h: 52 }, radius = 8 })
       const isBlank = blankSet.has(key);
       const v = values[r][c];
       const rect = roundedRect({
-        x: x + 1, y: y + 1, w: brick.w - 2, h: brick.h - 2, r: radius,
+        x: x + 3, y: y + 3, w: brick.w - 6, h: brick.h - 6, r: radius,
         fill: t.color.white,
         strokeColor: isBlank ? t.color.coral : t.color.teal, strokeWidth: 2.5,
         dash: isBlank ? '6 5' : undefined,

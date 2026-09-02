@@ -72,8 +72,7 @@ module.exports = {
     let mid, right;
     if (d.frames) {
       mid = cell(L.tenFrames, `<div style="display:flex;flex-direction:column;gap:6px">${tenFrame({ a: 0, cell: 32 }).svg}${tenFrame({ a: 0, cell: 32 }).svg}</div>`, 220, 'data-lcs-cell="frames"');
-      right = cell(L.tally, `<div style="position:relative;width:190px;height:140px;background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px" data-lcs-open>` +
-        `<div style="position:absolute;right:8px;bottom:6px;opacity:0.7">${tally({ n: 5, strokeH: 22, gap: 6, groupGap: 10 }).svg}</div></div>`, 210, 'data-lcs-cell="tally"');
+      right = cell(L.tally, `<div style="position:relative;width:190px;height:140px;background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px" data-lcs-open></div>`, 210, 'data-lcs-cell="tally"');
     } else {
       mid = cell(L.drawIt, `<div style="width:190px;height:150px" data-lcs-open>${dotPanel({ w: 190, h: 150 })}</div>`, 220, 'data-lcs-cell="draw"');
       const eq = (op, k, ans) => `<span style="display:flex;align-items:center;gap:8px;font-family:'Baloo 2';font-weight:700;font-size:24px;color:#3A3530"><span>${N} ${op} ${k} =</span>${answerBox({ w: 60, h: 48, answer: ans })}</span>`;

@@ -99,10 +99,10 @@ function dotFigure({ figure, count, step = 1, startAt = 1, window = null, size =
   // detail marks (ink) — drawn under the dots
   const marks = figure.marks || [];
   const markParts = marks.map((m) => {
-    if (m.type === 'dot') return circle({ cx: m.x * scale + PAD, cy: m.y * scale + PAD, r: m.r * scale, fill: t.color.ink });
+    if (m.type === 'dot') return circle({ cx: m.x * scale + PAD, cy: m.y * scale + PAD, r: Math.min(m.r * scale, 5), fill: t.color.white, strokeColor: t.color.grid, strokeWidth: 2 });
     if (m.type === 'square') {
       const s = m.s * scale;
-      return el('rect', { x: m.x * scale + PAD - s / 2, y: m.y * scale + PAD - s / 2, width: s, height: s, fill: 'none', stroke: t.color.ink, 'stroke-width': 2, rx: 2 });
+      return el('rect', { x: m.x * scale + PAD - s / 2, y: m.y * scale + PAD - s / 2, width: s, height: s, fill: 'none', stroke: t.color.grid, 'stroke-width': 2, rx: 2 });
     }
     return el('polyline', {
       points: m.pts.map(([x, y]) => `${(x * scale + PAD).toFixed(1)},${(y * scale + PAD).toFixed(1)}`).join(' '),

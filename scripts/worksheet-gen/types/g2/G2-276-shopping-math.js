@@ -20,6 +20,9 @@ const { FRAMES } = require('../../data/word-problems/frames.js');
 
 const NBSP = ' ';
 
+// a shop never sells a person: the toys theme carries baby/girl/boy/doll art that renders as a child
+const PERSON_KEYS = new Set(['baby', 'girl', 'boy', 'doll', 'child', 'kid', 'man', 'woman', 'mother', 'father', 'grandma', 'grandpa', 'teacher', 'nurse', 'doctor', 'police officer', 'firefighter', 'king', 'queen', 'prince', 'princess', 'pirate', 'clown', 'astronaut', 'knight', 'fairy', 'elf', 'santa']);
+
 module.exports = {
   id: 'G2-276',
   slug: 'shopping-math',
@@ -49,7 +52,9 @@ module.exports = {
     const names = (FRAMES[loc] && FRAMES[loc].names) || bank.names;
     if (!names) throw new Error(`G2-276: no names for ${loc}`);
     const scale = cur.unit === 'kr' || cur.unit === 'kr.' ? 2 : 5;
-    const nouns = rng.sample(labelSafeNouns(theme), d.items);
+    const shopPool = labelSafeNouns(theme).filter((n) => !PERSON_KEYS.has(String(n.vocabKey).toLowerCase()) && !PERSON_KEYS.has(String(n.noun).toLowerCase().replace(/\s*\d+$/, '')));
+    if (shopPool.length < d.items) throw new Error(`G2-276: theme ${theme} has ${shopPool.length} sellable items < ${d.items}`);
+    const nouns = rng.sample(shopPool, d.items);
     const bases = rng.sample([2, 3, 4, 5, 6, 7, 8, 9].filter((b) => b <= d.baseMax), d.items);
     const items = nouns.map((n, i) => ({ noun: n.noun, vocabKey: n.vocabKey, src: fileUri(theme, n.noun), price: bases[i] * scale, unit: cur.unit }));
     const coinVals = cur.sub.map((s) => s.v).sort((a, b) => b - a);

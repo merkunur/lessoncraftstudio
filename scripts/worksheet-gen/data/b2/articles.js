@@ -22,6 +22,10 @@
 'use strict';
 
 // en: words whose SPELLING contradicts the vowel-sound rule. 0 = a, 1 = an.
+// en: nouns whose PICTURE has a common synonym with the OTHER initial sound
+// (cherry/apple, peach/apricot, jet/airplane, digger/excavator) — the a/an
+// key is undecidable from the picture, so the noun is REFUSED (critic 2026-09-02).
+const EN_AMBIGUOUS = new Set(['cherry', 'cherries', 'peach', 'apricot', 'nectarine', 'plum', 'mandarin', 'tangerine', 'clementine', 'airplane', 'aeroplane', 'plane', 'jet', 'excavator', 'digger', 'bulldozer', 'ship', 'boat', 'auto', 'automobile', 'car', 'eggplant', 'aubergine', 'zucchini', 'courgette', 'octopus', 'squid', 'eagle', 'hawk', 'ape', 'monkey', 'alligator', 'crocodile', 'donkey', 'ass', 'oven', 'stove']);
 const EN_EXCEPTIONS = {
   unicorn: 0, uniform: 0, unicycle: 0, university: 0, ukulele: 0, one: 0, eucalyptus: 0, ewe: 0, european: 0, user: 0, unit: 0,
   hour: 1, heir: 1, honest: 1, herb: 1, honor: 1, honour: 1,
@@ -61,6 +65,7 @@ const ARTICLES = {
     mode: 'article', chips: ['a', 'an'],
     keyFor: (e) => {
       const w = e.singular.toLowerCase();
+      if (EN_AMBIGUOUS.has(w) || EN_AMBIGUOUS.has(String(e.key || '').toLowerCase())) return null;
       if (EN_EXCEPTIONS[w] != null) return EN_EXCEPTIONS[w];
       if (/^[eiou]/.test(w)) return 1;
       if (/^a/.test(w)) return 1;
@@ -75,4 +80,10 @@ const ARTICLES = {
   },
 };
 
-module.exports = { ARTICLES, EN_EXCEPTIONS };
+// panel rulings (refuse / chip notes) are GENERATED into articles-overrides.js
+try {
+  const { ARTICLE_OVERRIDES } = require('./articles-overrides.js');
+  for (const [loc, o] of Object.entries(ARTICLE_OVERRIDES || {})) if (ARTICLES[loc] && o) Object.assign(ARTICLES[loc], o);
+} catch (e) { /* no overrides yet */ }
+
+module.exports = { ARTICLES, EN_EXCEPTIONS, EN_AMBIGUOUS };

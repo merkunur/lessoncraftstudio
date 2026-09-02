@@ -23,7 +23,7 @@ module.exports = {
   exerciseType: 'picture-writing',
   themeAxis: { applicable: true, minNouns: 6, excludeBw: true },
   difficulty: {
-    1: { nouns: 4, repeats: 1, sceneH: 290, rows: 3, rowH: 72, glyphH: 28, starters: 'd1' },
+    1: { nouns: 4, repeats: 1, sceneH: 290, rows: 4, rowH: 72, glyphH: 28, starters: 'd1' },
     2: { nouns: 6, repeats: 2, sceneH: 260, rows: 5, rowH: 62, glyphH: 24, starters: 'd2' },
     3: { nouns: 6, repeats: 1, sceneH: 230, rows: 6, rowH: 58, glyphH: 24, starters: null },
   },

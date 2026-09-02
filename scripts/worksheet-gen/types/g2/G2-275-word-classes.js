@@ -21,9 +21,9 @@ module.exports = {
   exerciseType: 'word-classes',
   themeAxis: { applicable: true, minNouns: 6, excludeBw: true },
   difficulty: {
-    1: { per: 3, pics: true, tiers: [1], font: 20, lines: 3, binH: 250 },
-    2: { per: 4, pics: true, tiers: [1, 2], font: 17, lines: 4, binH: 290 },
-    3: { per: 5, pics: false, tiers: [1, 2, 3], font: 16, lines: 5, binH: 310 },
+    1: { per: 3, pics: true, tiers: [1], font: 20, lines: 4, binH: 400 },
+    2: { per: 4, pics: true, tiers: [1, 2], font: 17, lines: 5, binH: 400 },
+    3: { per: 5, pics: false, tiers: [1, 2, 3], font: 16, lines: 6, binH: 380 },
   },
   i18n: {
     en: {
@@ -66,9 +66,9 @@ module.exports = {
         `<span style="font-family:'Nunito';font-weight:800;font-size:16px;color:#146B5E" data-lcs-term="${cls}">${W.terms[cls]}</span></div>`;
     };
     return {
-      bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;justify-content:flex-start;gap:44px;padding-top:12px" data-ws-content>` +
-        `<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:12px;padding:6px 0" data-lcs-chips>${chipHtml}</div>` +
-        `<div style="display:flex;justify-content:space-between;padding:0 10px">${bin('noun')}${bin('verb')}${bin('adj')}</div></div>`,
+      bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;justify-content:flex-start;gap:24px;padding-top:4px" data-ws-content>` +
+        `<div style="flex:0 0 auto;display:flex;flex-wrap:wrap;justify-content:center;gap:12px;padding:6px 0" data-lcs-chips>${chipHtml}</div>` +
+        `<div style="flex:0 0 auto;display:flex;justify-content:space-between;padding:0 10px">${bin('noun')}${bin('verb')}${bin('adj')}</div></div>`,
       meta: {},
     };
   },

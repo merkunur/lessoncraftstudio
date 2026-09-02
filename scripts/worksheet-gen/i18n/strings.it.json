@@ -1766,5 +1766,57 @@
   "G3-376": {
     "title": "Tre problemi misti: per e diviso",
     "instruction": "Tre storie: cosa chiede ognuna?"
+  },
+  "K-308": {
+    "title": "Unisci i puntini contando all'indietro da 10",
+    "instruction": "Dal 10 fino a 1, completa il disegno."
+  },
+  "K-311": {
+    "title": "Ricopia la parola dal modello",
+    "instruction": "Niente tratteggio: copia dal cartellino."
+  },
+  "K-312": {
+    "title": "Ricalca e scrivi: parole di media lunghezza",
+    "instruction": "Parole più lunghe da ricalcare."
+  },
+  "G1-284": {
+    "title": "Ordine alfabetico: sei parole",
+    "instruction": "Qui le iniziali possono essere vicine."
+  },
+  "G1-285": {
+    "title": "Unisci i puntini di due in due",
+    "instruction": "Salta un numero ogni volta: 2, 4, 6… fino a 20."
+  },
+  "G1-286": {
+    "title": "Doppio e metà fino a 20 con le immagini",
+    "instruction": "Conta i gruppi più grandi."
+  },
+  "G1-290": {
+    "title": "Dettato muto con le caselle",
+    "instruction": "Nessuna scatola: una casella per lettera."
+  },
+  "G1-291": {
+    "title": "Dettato muto senza scatola",
+    "instruction": "C'è già la prima lettera: continua da lì."
+  },
+  "G1-294": {
+    "title": "Unisci i puntini contando all'indietro da 20",
+    "instruction": "Qui sono numerati tutti i puntini."
+  },
+  "G2-304": {
+    "title": "Unisci i puntini di cinque in cinque",
+    "instruction": "Salti di cinque: 5, 10, 15… fino a 50."
+  },
+  "G2-306": {
+    "title": "Maiuscole: un nome in ogni frase",
+    "instruction": "Ogni frase ha un nome di persona."
+  },
+  "G2-309": {
+    "title": "Guarda e scrivi: racconta una storia",
+    "instruction": "Comincia da «Un giorno,»."
+  },
+  "G3-377": {
+    "title": "Problemi: moltiplicare e ripartire",
+    "instruction": "Uno forma i gruppi, l'altro divide."
   }
 }

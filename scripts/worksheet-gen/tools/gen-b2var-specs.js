@@ -286,21 +286,8 @@ const ROWS = [
   // word-tracing: traceLane:false drops the dashed lane from the caption variant.
   ['k',  'K-311', 'word-tracing-copy-the-word', 'K-284-word-tracing.js', 3, { traceLane: false },
     'Copy the Word', 'There are no dashed letters. Look at the word on the card and copy it twice.'],
-  ['k',  'K-312', 'word-tracing-medium-words', 'K-284-word-tracing.js', 2, {},
-    'Trace Words of Middle Length', 'Longer words than the first page, with the word still printed on the line above.'],
 
   // PARAM faces on levels the waves have never published.
-  ['g1', 'G1-284', 'alphabetical-order-six-words', 'G1-245-alphabetical-order.js', 2, {},
-    'ABC Order: Six Words', 'Six words to put in order, and some letters sit right next to each other.'],
-  ['g2', 'G2-306', 'fix-the-sentence-names-need-capitals', 'G2-274-fix-the-sentence.js', 1,
-    { needCaps: 3, lanes: 3, chips: ['capital', 'name', 'end'], ends: ['.'] },
-    'Fix the Sentence: Every Sentence Has a Name', 'Every sentence names somebody. Find both capitals, not just the first.'],
-  ['g2', 'G2-309', 'write-about-the-picture-tell-the-story', 'G2-278-write-about-the-picture.js', 2, {},
-    'Write About the Picture: Tell the Story', 'Start with the story openers and tell what happened in the picture.'],
-  ['g3', 'G3-377', 'multiplication-and-sharing-word-problems', 'G3-370-muldiv-word-problems.js', 2, {},
-    'Multiply and Share: Word Problems', 'One story builds equal groups, the other shares them out fairly.'],
-  ['g1', 'G1-290', 'write-the-word-letter-boxes', 'G1-244-write-the-word.js', 2, {},
-    'Write the Word: One Box for Each Letter', 'A dashed box for every letter shows how long the word is. No word bank.'],
   ['g1', 'G1-291', 'write-the-word-first-letter-only', 'G1-244-write-the-word.js', 1,
     { bank: false, starter: true, cards: 6, maxLetters: 12, pic: 80, glyphH: 30, rulingW: 214 },
     'Write the Word: Only the First Letter', 'No word bank. The first letter is on the line to start you off.'],

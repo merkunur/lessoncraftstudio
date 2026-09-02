@@ -182,7 +182,7 @@ function sceneStage({ theme, nouns, w = 660, h = 270, rng, heroIndex = 0, repeat
 }
 
 /* ---------- equal groups pictures (G3-370) ---------- */
-function equalGroups({ op, a, b, iconSrc, iconPx = 22, w = 600 }) {
+function equalGroups({ op, a, b, iconSrc, iconPx = 22, w = 600, slotH = 44 }) {
   const icon = (extra) => `<img class="ws-icon" src="${iconSrc}" alt="" style="width:${iconPx}px;height:${iconPx}px"${extra || ''}>`;
   if (op === 'mul') {
     const boxW = Math.min(120, Math.floor((w - (a - 1) * 10) / a));
@@ -193,11 +193,14 @@ function equalGroups({ op, a, b, iconSrc, iconPx = 22, w = 600 }) {
     }
     return `<div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap" data-lcs-picture="mul">${boxes.join('')}</div>`;
   }
-  const strip = `<div style="display:flex;gap:4px;justify-content:center;flex-wrap:wrap" data-lcs-picture-strip>` +
-    Array.from({ length: a }, () => icon(' data-lcs-g1="1"')).join('') + `</div>`;
+  // the strip is laid out in rows of TEN (never a wrap-dependent 24 + 6): ten is the
+  // neutral base, so the row count never restates the quotient
+  const rowsOf = [];
+  for (let k = 0; k < a; k += 10) rowsOf.push(`<div style="display:flex;gap:4px;justify-content:center">${Array.from({ length: Math.min(10, a - k) }, () => icon(' data-lcs-g1="1"')).join('')}</div>`);
+  const strip = `<div style="display:flex;flex-direction:column;gap:4px;align-items:center" data-lcs-picture-strip>${rowsOf.join('')}</div>`;
   if (op === 'share') {
     const slotW = Math.floor((w - (b - 1) * 10) / b);
-    const slots = Array.from({ length: b }, (_, i) => `<div class="ws-groupbox ws-groupbox--empty" style="width:${slotW}px;height:44px" data-lcs-slot="${i + 1}"></div>`).join('');
+    const slots = Array.from({ length: b }, (_, i) => `<div class="ws-groupbox ws-groupbox--empty" style="width:${slotW}px;height:${slotH}px" data-lcs-slot="${i + 1}"></div>`).join('');
     return `<div style="display:flex;flex-direction:column;gap:8px" data-lcs-picture="share">${strip}<div style="display:flex;gap:10px;justify-content:center">${slots}</div></div>`;
   }
   return `<div data-lcs-picture="group">${strip}</div>`;

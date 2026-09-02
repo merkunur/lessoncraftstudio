@@ -101,7 +101,16 @@ const FRAMES = {
   },
 };
 
+// the 10 non-EN frame banks (+ any name/weekStart override a panel ruled) are
+// GENERATED into calendar-frames.js by tools/apply-b2-locale.js
+let GENERATED = {};
+try { GENERATED = require('./calendar-frames.js').CALENDAR_FRAMES || {}; } catch (e) { GENERATED = {}; }
+
 const CALENDAR = {};
-for (const [loc, n] of Object.entries(NAMES)) CALENDAR[loc] = { ...n, frames: FRAMES[loc] || null };
+for (const [loc, n] of Object.entries(NAMES)) {
+  const g = GENERATED[loc] || {};
+  const { frames: gFrames, ...overrides } = g;
+  CALENDAR[loc] = { ...n, ...overrides, frames: gFrames || FRAMES[loc] || null };
+}
 
 module.exports = { CALENDAR, NAMES, FRAMES, ordinal };

@@ -63,11 +63,11 @@ module.exports = {
       return `<div class="ws-card" style="flex-direction:row;height:${d.rowH}px;padding:10px;gap:12px;align-items:center" ` +
         `data-lcs-row data-lcs-vocab="${e.vocabKey}" data-lcs-singular="${e.sing}" data-lcs-plural="${e.plur}" data-lcs-n="${n}">` +
         `<div style="width:176px;display:flex;flex-direction:column;align-items:center;gap:6px;position:relative" data-lcs-side="one">` +
-        `<div style="position:relative">${countBadge(1)}<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${e.vocabKey}" style="width:${d.picSingle}px;height:${d.picSingle}px"></div>` +
+        `<div style="position:relative;margin:10px 0 0 10px">${countBadge(1)}<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${e.vocabKey}" style="width:${d.picSingle}px;height:${d.picSingle}px"></div>` +
         `${single.svg}</div>` +
         `<div style="width:2px;align-self:stretch;border-left:2px dashed #C8BFAE"></div>` +
         `<div style="flex:1;display:flex;flex-direction:column;align-items:flex-start;gap:4px;position:relative" data-lcs-side="many">` +
-        `<div style="position:relative;display:flex;gap:8px;align-items:flex-end;padding-left:22px">${countBadge(n)}${clones}</div>` +
+        `<div style="position:relative;display:flex;gap:8px;align-items:flex-end;padding-left:22px;margin-top:10px">${countBadge(n)}${clones}</div>` +
         `<div class="ws-trace-lane">${plural.svg}</div></div></div>`;
     });
     const head = `<div style="display:flex;justify-content:space-between;padding:0 24px 0 44px" data-lcs-heads>` +

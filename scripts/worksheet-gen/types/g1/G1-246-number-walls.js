@@ -19,9 +19,9 @@ module.exports = {
   exerciseType: 'number-walls',
   themeAxis: { applicable: false },
   difficulty: {
-    1: { walls: 4, cols: 2, rows: 2, courses: 3, baseMin: 1, baseMax: 4, topMax: 10, brick: { w: 100, h: 60 }, gap: false },
-    2: { walls: 6, cols: 2, rows: 3, courses: 3, baseMin: 1, baseMax: 9, topMax: 20, brick: { w: 88, h: 52 }, gap: false },
-    3: { walls: 4, cols: 2, rows: 2, courses: 4, baseMin: 1, baseMax: 5, topMax: 20, brick: { w: 78, h: 48 }, gap: true },
+    1: { walls: 4, cols: 2, rows: 2, courses: 3, baseMin: 1, baseMax: 4, topMax: 10, brick: { w: 100, h: 88 }, gap: false },
+    2: { walls: 6, cols: 2, rows: 3, courses: 3, baseMin: 1, baseMax: 9, topMax: 20, brick: { w: 88, h: 68 }, gap: false },
+    3: { walls: 4, cols: 2, rows: 2, courses: 4, baseMin: 1, baseMax: 5, topMax: 20, brick: { w: 78, h: 70 }, gap: true },
   },
   i18n: {
     en: {

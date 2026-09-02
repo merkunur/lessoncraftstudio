@@ -51,7 +51,7 @@ module.exports = {
       const rot = (rng.next() * 8 - 4).toFixed(1);
       let card;
       if (d.caption) {
-        const cap = strokeWordLane({ text: e.word, w: d.cardW - 12, h: 32, glyphH: 24, reps: 1, stack: true, align: 'center', padLeft: 0 });
+        const cap = strokeWordLane({ text: e.word, w: d.cardW - 12, h: 32, glyphH: [...e.word].length >= 9 ? 18 : 24, reps: 1, stack: true, align: 'center', padLeft: 0 });
         card = `<div class="ws-card" style="width:${d.cardW}px;height:${d.rowH}px;flex:0 0 auto;align-items:center;justify-content:center;gap:6px;padding:8px">` +
           `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${e.vocabKey}" style="width:${d.pic}px;height:${d.pic}px;transform:rotate(${rot}deg)">` +
           `<div data-lcs-caption>${cap.svg}</div></div>`;

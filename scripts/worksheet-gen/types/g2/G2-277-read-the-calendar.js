@@ -25,7 +25,7 @@ module.exports = {
   exerciseType: 'calendar',
   themeAxis: { applicable: false },
   difficulty: {
-    1: { questions: ['dayOfDate', 'countWeekday', 'stickerDate', 'daysInMonth'], stickers: 2, cols: 2 },
+    1: { questions: ['dayOfDate', 'countWeekday', 'stickerDate', 'daysInMonth'], stickers: 2, cols: 2, cellH: 72 },
     2: { questions: ['dayOfDate', 'countWeekday', 'stickerDate', 'weekLater', 'daysInMonth', 'firstDay'], stickers: 3, cols: 2 },
     3: { questions: ['dayOfDate', 'countWeekday', 'stickerDate', 'weekLater', 'after', 'lastDay'], stickers: 3, cols: 2, sixRows: true },
   },
@@ -62,7 +62,7 @@ module.exports = {
     }
     stickerDays.sort((a, b) => a - b);
     const stickers = nouns.map((n, i) => ({ day: stickerDays[i], href: fileUri(STICKER_THEME, n.noun), key: n.vocabKey, noun: n.noun }));
-    const cal = calendar({ year, month, weekStart: C.weekStart, dayAbbr: C.dayAbbr, stickers, cellW: 88, cellH: d.sixRows || meta.rows === 6 ? 54 : 58 });
+    const cal = calendar({ year, month, weekStart: C.weekStart, dayAbbr: C.dayAbbr, stickers, cellW: 88, cellH: d.cellH || (d.sixRows || meta.rows === 6 ? 54 : 58) });
     const weekday = (day) => calendar.weekdayOf(year, month, day);
     const dayName = (day) => C.dayNames[weekday(day)];
     const inline = (s) => `<img class="ws-icon" src="${s.href}" alt="" data-lcs-sticker-ref="${s.key}" style="width:26px;height:26px;vertical-align:middle;margin:0 2px">`;
@@ -89,13 +89,13 @@ module.exports = {
       return { kind, text, answer, slot, arg };
     });
     const qHtml = qs.map((q, i) =>
-      `<div class="ws-card" style="flex-direction:row;align-items:center;gap:10px;padding:8px 10px;min-height:76px" data-lcs-q="${q.kind}" data-lcs-arg="${q.arg}" data-lcs-answer="${q.answer}" data-lcs-slot="${q.slot}">` +
-      `<span style="flex:0 0 26px;width:26px;height:26px;border-radius:50%;background:#146B5E;color:#FFFFFF;font-family:'Baloo 2';font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center">${i + 1}</span>` +
+      `<div class="ws-card" style="flex-direction:column;align-items:stretch;gap:6px;padding:8px 10px;min-height:96px" data-lcs-q="${q.kind}" data-lcs-arg="${q.arg}" data-lcs-answer="${q.answer}" data-lcs-slot="${q.slot}">` +
+      `<div style="display:flex;gap:10px;align-items:flex-start"><span style="flex:0 0 26px;width:26px;height:26px;border-radius:50%;background:#146B5E;color:#FFFFFF;font-family:'Baloo 2';font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center">${i + 1}</span>` +
       `<p style="flex:1;margin:0;font-family:'Nunito';font-weight:800;font-size:15px;line-height:1.35;color:#3A3530" data-lcs-qtext>${q.text}</p>` +
-      `<span style="flex:0 0 auto">${answerBox({ w: q.slot === 'word' ? 150 : 60, h: 40, answer: q.answer })}</span></div>`).join('');
+      `</div><div style="display:flex;justify-content:flex-end">${answerBox({ w: q.slot === 'word' ? 150 : 60, h: 40, answer: q.answer })}</div></div>`).join('');
     const monthBar = `<div style="font-family:'Baloo 2';font-weight:700;font-size:24px;color:#146B5E;text-align:center" data-lcs-monthbar data-lcs-month="${month}" data-lcs-year="${year}">${C.monthNames[month]} ${year}</div>`;
     return {
-      bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;gap:12px;justify-content:space-evenly;align-items:center" data-ws-content>` +
+      bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;gap:14px;justify-content:flex-start;align-items:center;padding-top:4px" data-ws-content>` +
         `${monthBar}${cal.svg}<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px 12px;width:660px">${qHtml}</div></div>`,
       meta: { year, month, stickers: stickers.map((s) => [s.key, s.day]) },
     };

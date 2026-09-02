@@ -47,6 +47,8 @@ const SENTENCES = {
       { id: 's12', kind: 'simple', text: '{name} draws a {noun} for {name}.', noun: 'sg', uses: ['fix'] },
       { id: 's13', kind: 'simple', text: 'My {noun} is very small.', noun: 'sg', uses: ['unscramble', 'fix'] },
       { id: 's14', kind: 'simple', text: 'What a funny {noun}!', noun: 'sg', uses: ['fix'], exclaimStrict: true },
+      { id: 's15', kind: 'simple', text: '{name} likes the red {noun}.', noun: 'sg', uses: ['unscramble', 'fix'] },
+      { id: 's16', kind: 'simple', text: 'Did {name} see the {noun}?', noun: 'sg', uses: ['fix'] },
     ],
   },
 };

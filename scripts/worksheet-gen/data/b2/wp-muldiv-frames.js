@@ -26,13 +26,13 @@ const WP_MULDIV = {
       mul: [
         '{name} has {n1} boxes. There are {n2} {noun} in each box. How many {noun} does {name} have in all?',
         '{name} fills {n1} bags with {n2} {noun} each. How many {noun} is that altogether?',
-        'There are {n1} shelves. Each shelf holds {n2} {noun}. How many {noun} are on the shelves?',
+        '{name} has {n1} shelves. Each shelf holds {n2} {noun}. How many {noun} are on the shelves?',
         '{name} sees {n1} rows of {noun}. Each row has {n2} {noun}. How many {noun} are there?',
       ],
       share: [
         '{name} shares {n1} {noun} equally among {n2} friends. How many {noun} does each friend get?',
-        '{name} puts {n1} {noun} equally onto {n2} plates. How many {noun} are on each plate?',
-        '{n1} {noun} are packed equally into {n2} boxes. How many {noun} go in each box?',
+        '{name} puts {n1} {noun} equally into {n2} bags. How many {noun} are in each bag?',
+        '{name} packs {n1} {noun} equally into {n2} boxes. How many {noun} go in each box?',
       ],
       group: [
         '{name} has {n1} {noun}. {name} puts {n2} {noun} in each bag. How many bags does {name} fill?',

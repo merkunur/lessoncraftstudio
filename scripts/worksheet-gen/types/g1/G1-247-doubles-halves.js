@@ -10,7 +10,7 @@
 'use strict';
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { answerBox } = require('../../templates/components.js');
-const { mirrorGroups } = require('../../templates/components-b2.js');
+const { mirrorGroups, dotPanel } = require('../../templates/components-b2.js');
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
 const { LABELS } = require('../../data/b2/labels.js');
 
@@ -52,11 +52,11 @@ module.exports = {
     const cards = [];
     for (let i = 0; i < half; i++) {
       const n = doubles[i];
-      const stage = d.numeric ? '' : `<div style="background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:10px;width:100%">${mirrorGroups({ src, n, iconPx: d.icon, perRow: d.perRow })}</div>`;
+      const stage = d.numeric ? dotPanel({ w: 250, h: 56 }) : `<div style="background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:10px;width:100%">${mirrorGroups({ src, n, iconPx: d.icon, perRow: d.perRow })}</div>`;
       cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:8px;justify-content:space-evenly" data-lcs-op="double" data-lcs-n="${n}">${pill('double')}${stage}` +
         `<div style="display:flex;align-items:center;gap:8px" data-lcs-strip>${NUM(n)}${OP('+')}${NUM(n)}${OP('=')}${answerBox({ w: 64, h: 48, answer: 2 * n })}</div></div>`);
       const m = halves[i];
-      let hstage = '';
+      let hstage = d.numeric ? dotPanel({ w: 250, h: 56 }) : '';
       if (!d.numeric) {
         const row = () => `<div style="display:flex;gap:6px" data-lcs-row>${Array.from({ length: m }, () => `<img class="ws-icon" src="${src}" alt="" style="width:${d.icon}px;height:${d.icon}px">`).join('')}</div>`;
         const w = m * d.icon + (m - 1) * 6;

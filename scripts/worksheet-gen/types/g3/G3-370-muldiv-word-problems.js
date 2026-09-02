@@ -26,8 +26,8 @@ module.exports = {
   themeAxis: { applicable: true, minNouns: 3, excludeBw: true },
   difficulty: {
     1: { ops: ['mul', 'mul'], n1: [2, 4], n2: [2, 5], max: 20, icon: 24, font: 18, dots: 80, ruling: true, compact: false },
-    2: { ops: ['mul', 'share'], n1: [2, 6], n2: [2, 6], max: 36, icon: 22, font: 18, dots: 92, ruling: true, compact: false },
-    3: { ops: ['mul', 'share', 'group'], n1: [2, 6], n2: [2, 6], max: 36, icon: 20, font: 16, dots: 56, ruling: false, compact: true },
+    2: { ops: ['mul', 'share'], n1: [2, 6], n2: [2, 6], max: 36, icon: 22, font: 18, dots: 76, ruling: true, compact: false },
+    3: { ops: ['mul', 'share', 'group'], n1: [2, 6], n2: [2, 6], max: 36, icon: 20, font: 16, dots: 36, ruling: true, compact: true, slotH: 32 },
   },
   i18n: {
     en: {
@@ -61,9 +61,9 @@ module.exports = {
       usedFrames.add(frame);
       const name = rng.pick(bank.names);
       const sentence = fillFrame(frame, { name, n1, n2, noun: nounText });
-      const picture = equalGroups({ op, a: n1, b: n2, iconSrc: fileUri(theme, noun.noun), iconPx: d.icon, w: 600 });
-      const ruling = d.ruling ? rulingBlock({ rows: 1, w: 600, h: 44, glyphH: 24 }) : '';
-      return `<div class="ws-card-stage" style="flex:0 0 auto;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:${d.compact ? 8 : 12}px;background:#FBF3E4;border:2px solid #F0E4CB;border-radius:14px;padding:${d.compact ? '12px 16px' : '18px 20px'}" ` +
+      const picture = equalGroups({ op, a: n1, b: n2, iconSrc: fileUri(theme, noun.noun), iconPx: d.icon, w: 600, slotH: d.slotH });
+      const ruling = d.ruling ? rulingBlock({ rows: 1, w: 600, h: d.compact ? 30 : 44, glyphH: d.compact ? 18 : 24 }) : '';
+      return `<div class="ws-card-stage" style="flex:0 0 auto;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:${d.compact ? 6 : 12}px;background:#FBF3E4;border:2px solid #F0E4CB;border-radius:14px;padding:${d.compact ? '8px 14px' : '18px 20px'}" ` +
         `data-lcs-problem data-lcs-op="${op}" data-lcs-a="${n1}" data-lcs-b="${n2}">` +
         `<p style="font-family:'Nunito';font-weight:800;font-size:${d.font}px;line-height:1.45;color:#3A3530;margin:0" data-lcs-sentence>${sentence}</p>` +
         `<div style="background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:10px 14px">${picture}</div>` +
@@ -71,7 +71,7 @@ module.exports = {
         (ruling ? `<div data-lcs-sentenceline>${ruling}</div>` : '') + `</div>`;
     });
     return {
-      bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;gap:${d.compact ? 14 : 26}px;justify-content:space-evenly">${blocks.join('')}</div>`,
+      bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;gap:${d.compact ? 8 : 18}px;justify-content:space-evenly">${blocks.join('')}</div>`,
       meta: {},
     };
   },

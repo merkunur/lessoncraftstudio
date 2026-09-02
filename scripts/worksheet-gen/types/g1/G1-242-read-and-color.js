@@ -19,7 +19,9 @@ const { COLOR_WORDS } = require('../../data/color-words.js');
 const SB = require('../../lib/sentence-bank.js');
 
 const COLOR_KEYS = ['red', 'blue', 'yellow', 'green', 'orange', 'purple', 'brown', 'pink'];
-const CONFUSABLES = [['cat', 'kitten'], ['bull', 'cow', 'calf'], ['dog', 'puppy'], ['duck', 'duckling'], ['hen', 'chicken', 'chick', 'rooster'], ['sheep', 'lamb'], ['horse', 'foal', 'pony'], ['goat', 'kid'], ['pig', 'piglet']];
+// in LINE ART the round fruits are one silhouette; a distractor must never be a lookalike of the target
+const OPAQUE_ASSETS = new Set(['seal']); // animals bw seal@3x.webp has no alpha (measured 2026-09-02)
+const CONFUSABLES = [['apple', 'orange', 'peach', 'apricot', 'nectarine', 'plum', 'cherry', 'cherries', 'tomato', 'mandarin', 'tangerine', 'clementine', 'lime', 'grapefruit', 'pomegranate', 'coconut', 'melon', 'onion'], ['lemon', 'mango', 'papaya', 'pear', 'fig', 'avocado'], ['blueberry', 'blueberries', 'grape', 'grapes', 'blackberry', 'blackberries', 'raspberry', 'raspberries'], ['cat', 'kitten'], ['bull', 'cow', 'calf'], ['dog', 'puppy'], ['duck', 'duckling'], ['hen', 'chicken', 'chick', 'rooster'], ['sheep', 'lamb'], ['horse', 'foal', 'pony'], ['goat', 'kid'], ['pig', 'piglet']];
 
 module.exports = {
   id: 'G1-242',
@@ -50,7 +52,7 @@ module.exports = {
     const words = COLOR_WORDS[loc];
     if (!words) throw new Error(`G1-242: no colour words for ${loc}`);
     const colorKeys = rng.shuffle(COLOR_KEYS.slice(0, d.colors)).slice(0, d.cards);
-    const entries = entriesFor(theme, loc).filter((e) => e.plural);
+    const entries = entriesFor(theme, loc).filter((e) => e.plural && !OPAQUE_ASSETS.has(String(e.vocabKey).toLowerCase()));
     if (entries.length < d.cards + 2) throw new Error(`G1-242: theme ${theme}/${loc} has ${entries.length} nouns < ${d.cards + 2}`);
     const targets = rng.sample(entries, d.cards);
     const frames = SB.pickFrames(bank, { kind: 'color', count: 1, rng });

@@ -23,7 +23,7 @@ module.exports = {
   exerciseType: 'alphabetical-order',
   themeAxis: { applicable: true, minNouns: 10, excludeBw: true },
   difficulty: {
-    1: { cards: 4, cols: 2, rows: 2, cardW: 200, cardH: 176, pic: 100, font: 20, gap: 3, pairs: 0, rulings: false },
+    1: { cards: 4, cols: 2, rows: 2, cardW: 200, cardH: 176, pic: 100, font: 20, gap: 3, pairs: 0, rulings: true },
     2: { cards: 6, cols: 3, rows: 2, cardW: 168, cardH: 148, pic: 76, font: 17, gap: 1, pairs: 0, rulings: true },
     3: { cards: 6, cols: 3, rows: 2, cardW: 168, cardH: 148, pic: 76, font: 17, gap: 1, pairs: 2, rulings: true },
   },

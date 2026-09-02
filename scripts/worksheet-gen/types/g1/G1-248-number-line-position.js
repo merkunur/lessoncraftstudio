@@ -20,7 +20,7 @@ module.exports = {
   difficulty: {
     1: { lines: 3, max: 10, tick: 1, label: 5, pointers: 2, gap: 2 },
     2: { lines: 4, max: 20, tick: 1, label: 5, pointers: 3, gap: 3 },
-    3: { lines: 4, max: 100, tick: 5, label: 10, pointers: 3, gap: 3 },
+    3: { lines: 4, max: 100, tick: 5, label: 2, pointers: 3, gap: 3 },
   },
   i18n: {
     en: {

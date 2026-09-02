@@ -441,7 +441,7 @@ html, body {
   background: #FFFFFF; border: 2.5px solid #DDEBE8; border-radius: 10px; min-height: 44px; box-sizing: border-box;
 }
 .ws-groupbox--empty { border: 2.5px dashed #F2784B; background: #FFFFFF; }
-.ws-countbadge { position: absolute; left: -4px; top: -4px; }
+.ws-countbadge { position: absolute; left: -8px; top: -8px; }
 .ws-blankbox {
   display: inline-block; background: #FFFFFF; border: 2.5px dashed #F2784B; border-radius: 10px; vertical-align: middle;
 }

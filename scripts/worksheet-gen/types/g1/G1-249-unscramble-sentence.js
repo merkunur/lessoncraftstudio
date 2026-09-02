@@ -31,7 +31,7 @@ module.exports = {
   i18n: {
     en: {
       title: 'Unscramble the Sentence',
-      instruction: 'The words are mixed up. Put them in order and write the sentence on the line.',
+      instruction: 'The words are mixed up. Put them in order and write the sentence on the line with a capital letter and an end mark.',
     },
   },
 

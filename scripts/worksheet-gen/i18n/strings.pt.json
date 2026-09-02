@@ -1700,8 +1700,8 @@
     "instruction": "Some o preço dos dois produtos da cesta."
   },
   "G2-292": {
-    "title": "Vamos às compras: cestas variadas",
-    "instruction": "Dois cartões pedem três preços; um, dois."
+    "title": "Vamos às compras: três produtos",
+    "instruction": "Some os três preços de cada uma das cestas."
   },
   "G2-293": {
     "title": "Vamos às compras: o troco",
@@ -1713,15 +1713,15 @@
   },
   "G2-295": {
     "title": "Vamos às compras: a diferença",
-    "instruction": "Dois pedem a diferença; um pede o total."
+    "instruction": "Ache a diferença de preço em cada cartão."
   },
   "G2-296": {
     "title": "Leitura de calendário com quatro perguntas",
     "instruction": "Leia o mês e responda a quatro perguntas."
   },
   "G2-297": {
-    "title": "Leitura de calendário: mês cheio",
-    "instruction": "Leia: seis semanas, três marcações, seis perguntas."
+    "title": "Leitura de calendário: um mês cheio",
+    "instruction": "Cinco perguntas e três marcações: conte os dias."
   },
   "G2-298": {
     "title": "Leitura de calendário: dias da semana",

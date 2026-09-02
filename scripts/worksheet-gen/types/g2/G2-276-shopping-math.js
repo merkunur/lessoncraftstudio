@@ -73,6 +73,17 @@ module.exports = {
     const pick2 = () => rng.sample(items.map((_, i) => i), 2);
     const cards = [];
     const kinds = d.kinds.slice();
+    // Every question a page has already asked, keyed on kind + the SORTED item
+    // set + the answer. Two cards drawing the same basket in a different order
+    // are the same question to the child, and the ordering is an artefact of
+    // the draw. A variation that repeats a kind -- G2-292 ships
+    // ['total3','total','total3'] -- samples independently and can land the
+    // same three items twice, which is exactly what shipped in ALL ELEVEN
+    // locales: cards 2 and 3 asking for the identical basket.
+    const asked = new Set();
+    const askedKey = (kind, refs, answer) =>
+      kind + '|' + refs.slice().sort((a, b) => a - b).join(',') + '|' + answer;
+    let redraws = 0;
     for (let k = 0; k < d.cards; k++) {
       const kind = kinds[k % kinds.length];
       const name = rng.pick(names);
@@ -130,6 +141,17 @@ module.exports = {
       if (html.includes('{coins}')) { html = html.replace('{coins}', extra); extra = ''; }
       html = glueInline(html).replace(/\.\s*\.(?=\s|$)/g, '.'); // "6 kr.." → "6 kr."
       if (/\{/.test(html)) throw new Error(`G2-276: unfilled slot in "${sentence}"`);
+      // Redraw rather than ship a repeat. Bounded, and a page that genuinely
+      // cannot produce distinct questions is a spec defect worth surfacing --
+      // so this throws rather than quietly shipping the duplicate the scanner
+      // was blind to. Consumes no RNG when there is no collision, which is why
+      // b2-baseline still reports 0 drift across every shipped coordinate.
+      if (asked.has(askedKey(kind, refs, answer))) {
+        if (++redraws > 80) throw new Error(`G2-276: d${difficulty} cannot draw ${d.cards} distinct questions from ${items.length} items (kinds ${d.kinds.join(',')})`);
+        k--; continue;
+      }
+      asked.add(askedKey(kind, refs, answer));
+
       cards.push(`<div class="ws-card" style="padding:${d.pad || '12px 18px'};gap:${d.gap === 10 ? 5 : 8}px;min-height:${d.cardH}px" data-lcs-problem data-lcs-qtype="${kind}" data-lcs-refs="${refs.join(',')}" data-lcs-answer="${answer}">` +
         `<span class="ws-card-badge">${k + 1}</span>` +
         `<p style="font-family:'Nunito';font-weight:800;font-size:${d.font}px;line-height:1.45;color:#3A3530;margin:0;padding-left:22px" data-lcs-sentence>${html}</p>${extra}` +
@@ -162,6 +184,7 @@ module.exports = {
       });
       const problems = [...document.querySelectorAll('[data-lcs-problem]')];
       if (problems.length < 2) fails.push('too few problems');
+      const seenQ = new Set();
       problems.forEach((p, i) => {
         const kind = p.dataset.lcsQtype, refs = p.dataset.lcsRefs.split(',').map(Number), ans = +p.dataset.lcsAnswer;
         const sentence = p.querySelector('[data-lcs-sentence]');
@@ -169,6 +192,11 @@ module.exports = {
         if (imgs.join(',') !== refs.join(',')) fails.push(`p${i + 1}: inline pictures ${imgs} != refs ${refs}`);
         imgs.forEach((r) => { const im = sentence.querySelector(`img[data-lcs-ref="${r}"]`); const sh = shelfItems[r] && shelfItems[r].querySelector('img'); if (!sh || im.getAttribute('src') !== sh.getAttribute('src')) fails.push(`p${i + 1}: picture ${r} != shelf picture`); });
         if (new Set(refs).size !== refs.length) fails.push(`p${i + 1}: repeated item`);
+        // Two cards asking the same question is a defect the child sees. Keyed
+        // on the SORTED refs, because the draw order is not part of the question.
+        const qk = kind + '|' + refs.slice().sort((a, b) => a - b).join(',') + '|' + ans;
+        if (seenQ.has(qk)) fails.push(`p${i + 1}: same question as an earlier card (${qk})`);
+        seenQ.add(qk);
         let expect;
         if (kind === 'total' || kind === 'total3') expect = refs.reduce((s, r) => s + prices[r], 0);
         else if (kind === 'change') {

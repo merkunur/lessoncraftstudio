@@ -64,7 +64,16 @@ async function scanLocale(loc) {
     pagesWithCards++;
     const seen = new Map();
     probs.forEach((p, i) => {
-      const key = p.qtype + '|' + p.refs + '|' + p.answer;
+      // refs is SORTED before it enters the key. It arrives in the order the
+      // card happens to draw its items, so a card asking for {0,2,3} and a card
+      // asking for {3,2,0} are the SAME question -- same basket, same total --
+      // and keying on the raw string made that duplicate invisible. Measured on
+      // the shipped Finnish G2-292, 10 of 20 variants collide exactly this way
+      // and this scanner reported CLEAN; the English render shows it too.
+      // A duplicate-detector whose key preserves an irrelevant ordering is not
+      // a duplicate-detector, it is an exact-string check wearing the name.
+      const refsKey = String(p.refs).split(',').map((x) => x.trim()).sort().join(',');
+      const key = p.qtype + '|' + refsKey + '|' + p.answer;
       if (seen.has(key)) findings.push({ loc, id, a: seen.get(key) + 1, b: i + 1, key });
       else seen.set(key, i);
     });

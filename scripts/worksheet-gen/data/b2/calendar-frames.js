@@ -244,7 +244,7 @@ const CALENDAR_FRAMES = {
       "sunnuntaita",
       "maanantaita",
       "tiistaita",
-      "keskiviikkoja",
+      "keskiviikkoa",
       "torstaita",
       "perjantaita",
       "lauantaita"

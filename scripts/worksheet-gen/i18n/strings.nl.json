@@ -1430,5 +1430,85 @@
   "K-283": {
     "title": "Mijn eerste kleine letters: a b c d",
     "instruction": "Trek elke kleine letter na. Begin bij de oranje stip en volg de pijltjes. Schrijf er daarna zelf één op de lege regel."
+  },
+  "K-284": {
+    "title": "Woorden overtrekken",
+    "instruction": "Zeg het woord bij het plaatje hardop. Trek de stippellijnletters na en schrijf het woord daarna zelf op de lege regels."
+  },
+  "K-285": {
+    "title": "Van stip naar stip",
+    "instruction": "Begin bij de oranje stip. Verbind de stippen op volgorde van de getallen. Welk plaatje zie je?"
+  },
+  "K-286": {
+    "title": "Natekenen op ruitjes",
+    "instruction": "Kijk goed naar het plaatje links. Kleur dezelfde hokjes in het lege rooster, zodat het plaatje nog een keer verschijnt."
+  },
+  "K-287": {
+    "title": "Enkelvoud en meervoud",
+    "instruction": "Lees het woord voor één. Trek daarna het woord voor meer na en schrijf het zelf op de lege regel."
+  },
+  "K-288": {
+    "title": "De of het?",
+    "instruction": "Zeg het woord bij het plaatje hardop. Omcirkel het woordje dat ervoor hoort: de of het."
+  },
+  "G1-242": {
+    "title": "Lees en kleur",
+    "instruction": "Lees elke zin goed. Kleur precies de plaatjes die in de zin staan, in de juiste kleur."
+  },
+  "G1-243": {
+    "title": "Getal van de dag",
+    "instruction": "Kijk naar het grote getal. Vul alle vakken op het blad in bij dat getal."
+  },
+  "G1-244": {
+    "title": "Schrijf het woord",
+    "instruction": "Zeg de naam van elk plaatje hardop. Schrijf het woord erbij."
+  },
+  "G1-245": {
+    "title": "Alfabetische volgorde",
+    "instruction": "Gebruik de letterstrook. Nummer de woorden van 1 tot 6 op alfabetische volgorde en schrijf ze daarna op volgorde op de regels."
+  },
+  "G1-246": {
+    "title": "Rekenpiramide",
+    "instruction": "Elke steen is de som van de twee stenen eronder. Vul de ontbrekende getallen in."
+  },
+  "G1-247": {
+    "title": "Verdubbelen en halveren",
+    "instruction": "Verdubbel de ene groep en halveer de andere. Schrijf de getallen in de vakjes."
+  },
+  "G1-248": {
+    "title": "Waar op de getallenlijn?",
+    "instruction": "Elke pijl wijst naar een streepje. Tel verder vanaf het getal ervoor en schrijf het getal in het vakje."
+  },
+  "G1-249": {
+    "title": "Husselzinnen",
+    "instruction": "De woorden staan door elkaar. Zet ze in de goede volgorde en schrijf de zin op de regel met een hoofdletter en een leesteken."
+  },
+  "G2-274": {
+    "title": "Hoofdletters en leestekens",
+    "instruction": "In elke zin ontbreken de hoofdletters en het leesteken. Schrijf de zin goed over op de regel."
+  },
+  "G2-275": {
+    "title": "Woordsoorten",
+    "instruction": "Lees elk woord. Is het een zelfstandig naamwoord, een werkwoord of een bijvoeglijk naamwoord? Schrijf het in de juiste bak."
+  },
+  "G2-276": {
+    "title": "Boodschappen doen",
+    "instruction": "Zoek elk ding in het winkelrek en lees de prijs. Beantwoord daarna de vragen over het geld."
+  },
+  "G2-277": {
+    "title": "Kalender lezen",
+    "instruction": "Kijk goed naar de kalender. Beantwoord met de kalender alle vragen."
+  },
+  "G2-278": {
+    "title": "Schrijven bij een plaatje",
+    "instruction": "Kijk goed naar het plaatje. Gebruik de woorden uit het woordvak en schrijf op wat je ziet en wat er gebeurt."
+  },
+  "G2-279": {
+    "title": "Coördinaten in het rooster",
+    "instruction": "Zoek elk hokje met de letter en het cijfer, zoals B2. Kleur het in de kleur van zijn groep. Welk plaatje verschijnt er?"
+  },
+  "G3-370": {
+    "title": "Verhaaltjessommen: keer en delen",
+    "instruction": "Lees elk verhaaltje. Het plaatje helpt je. Schrijf het antwoord in het vakje en maak daarna de antwoordzin af."
   }
 }

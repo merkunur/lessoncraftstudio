@@ -15,6 +15,15 @@ const { answerBox } = require('../../templates/components.js');
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
 const { CALENDAR, ordinal } = require('../../data/b2/calendar.js');
 
+
+/** Inline-picture typography: a picture followed by punctuation loses its right margin (no " ." gap),
+ *  and a picture + the next short token never break across lines (no lone "?" / "eingetragen?"). */
+function glueInline(html) {
+  html = html.replace(/(<img\b[^>]*?style=")([^"]*)("[^>]*>)\s*(?=[.,;:?!¿¡])/g, (m, a, st, b) => a + st.replace(/margin:0 (\d+)px/, 'margin:0 0 0 $1px') + b);
+  html = html.replace(/(<img\b[^>]*>)([ \u00a0]?)([^\s<]{1,14})(?=\s|$|<)/g, '<span style="white-space:nowrap">$1$2$3</span>');
+  return html;
+}
+
 const STICKER_THEME = 'toys';
 
 module.exports = {
@@ -85,6 +94,7 @@ module.exports = {
       else if (kind === 'firstDay') { answer = dayName(1); slot = 'word'; }
       else if (kind === 'lastDay') { answer = dayName(days); slot = 'word'; }
       else if (kind === 'after') { const a = stickers[0], b = stickers[stickers.length - 1]; text = f.replace('{stickerA}', inline(a)).replace('{stickerB}', inline(b)); answer = b.day - a.day; arg = `${a.key},${b.key}`; }
+      text = glueInline(text);
       if (/\{/.test(text)) throw new Error(`G2-277: unfilled slot in ${kind}`);
       return { kind, text, answer, slot, arg };
     });

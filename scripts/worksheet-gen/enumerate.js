@@ -147,6 +147,13 @@ function enumerate(plan) {
       for (let k = 0; k < Math.min(themesPerType, ok.length); k++) {
         themeList.push(ok[(idx + k) % ok.length]);
       }
+      // per-type override (plan.themeOverrides[typeId] = cache theme): a locale whose vocab
+      // cannot satisfy a type on the round-robin theme names the theme that can
+      const override = plan.themeOverrides && plan.themeOverrides[spec.id];
+      if (override) {
+        if (!ok.includes(override)) throw new Error('enumerate: themeOverrides ' + spec.id + ' → "' + override + '" is not an eligible wave theme');
+        themeList = [override];
+      }
     } else {
       themeList = [null];
     }

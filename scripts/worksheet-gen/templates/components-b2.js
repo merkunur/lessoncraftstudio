@@ -284,11 +284,12 @@ function mirrorGroups({ src, n, iconPx = 40, gap = 6, perRow = 3 }) {
   const rows = [];
   let left = n;
   while (left > 0) { const take = Math.min(perRow, left); rows.push(take); left -= take; }
-  const group = (tag) => `<div style="display:flex;flex-direction:column;gap:${gap}px;align-items:flex-start" ${tag}>` +
+  const group = (tag) => `<div style="display:flex;flex-direction:column;gap:${gap}px;align-items:center" ${tag}>` +
     rows.map((take) => `<div style="display:flex;gap:${gap}px">${Array.from({ length: take }, () => `<img class="ws-icon" src="${src}" alt="" style="width:${iconPx}px;height:${iconPx}px">`).join('')}</div>`).join('') + `</div>`;
-  const mirrorLine = svgRoot({ width: 14, height: rows.length * (iconPx + gap), label: 'mirror' },
-    line({ x1: 7, y1: 4, x2: 7, y2: rows.length * (iconPx + gap) - 4, strokeColor: T.teal, strokeWidth: 2, dash: '7 5' }) +
-    circle({ cx: 7, cy: 4, r: 3, fill: T.teal }) + circle({ cx: 7, cy: rows.length * (iconPx + gap) - 4, r: 3, fill: T.teal }), { 'aria-hidden': 'true' });
+  const lineH = Math.max(rows.length * (iconPx + gap), iconPx + 24);
+  const mirrorLine = svgRoot({ width: 14, height: lineH, label: 'mirror' },
+    line({ x1: 7, y1: 4, x2: 7, y2: lineH - 4, strokeColor: T.teal, strokeWidth: 2.5, dash: '7 5' }) +
+    circle({ cx: 7, cy: 4, r: 3.5, fill: T.teal }) + circle({ cx: 7, cy: lineH - 4, r: 3.5, fill: T.teal }), { 'aria-hidden': 'true' });
   return `<div style="display:flex;align-items:center;gap:8px;justify-content:center">${group('data-lcs-g1')}${mirrorLine}` +
     `<div style="transform:scaleX(-1)" data-lcs-g2 data-lcs-mirror="1">${group('')}</div></div>`;
 }

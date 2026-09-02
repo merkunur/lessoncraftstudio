@@ -190,5 +190,73 @@
   "lowercase-letter-tracing": {
     "full": "Ricalcare le lettere minuscole sulle righe insegna il corpo della lettera, le aste che salgono e le code che scendono sotto il rigo.",
     "short": "Consolida la forma delle lettere minuscole."
+  },
+  "word-tracing": {
+    "full": "Ricalcare il nome di una figura lettera dopo lettera e poi scriverlo da soli lega in un colpo d'occhio l'oggetto, il suo nome e la sua ortografia.",
+    "short": "Avvia la scrittura delle parole partendo dalle figure."
+  },
+  "dot-to-dot": {
+    "full": "Unire i puntini numerati in ordine fa comparire un disegno e ripassa la sequenza dei numeri a ogni tratto di matita.",
+    "short": "Allena la sequenza dei numeri e il controllo della matita."
+  },
+  "grid-copy": {
+    "full": "Copiare un disegno quadretto per quadretto su una griglia vuota allena l'osservazione attenta, l'orientamento nello spazio e la precisione del tratto.",
+    "short": "Sviluppa la riproduzione di figure sui quadretti."
+  },
+  "singular-plural": {
+    "full": "Vedere una figura accanto a tante e scrivere il plurale fissa le desinenze che i bambini sentono ogni giorno ma scrivono di rado.",
+    "short": "Allena il singolare e il plurale dei nomi."
+  },
+  "articles": {
+    "full": "Cerchiare l'articolo giusto accanto a ogni figura fissa il genere dei nomi e l'accordo su cui poggia ogni frase che i bambini scriveranno.",
+    "short": "Fissa il genere dei nomi e gli articoli determinativi."
+  },
+  "read-and-color": {
+    "full": "Leggere una frase breve e colorare esattamente ciò che dice trasforma la lettura in una comprensione vera che il bambino può controllare da solo.",
+    "short": "Sviluppa la comprensione della lettura colorando."
+  },
+  "number-of-the-day": {
+    "full": "Rappresentare lo stesso numero in lettere, in decine e unità, con i numeri vicini e sulla linea dei numeri costruisce un senso del numero profondo.",
+    "short": "Costruisce il senso del numero con più rappresentazioni."
+  },
+  "write-the-word": {
+    "full": "Scrivere il nome di ogni figura sulla riga, con l'aiuto della lista, delle caselle per le lettere o senza aiuti, costruisce l'ortografia dai suoni alle lettere.",
+    "short": "Allena l'ortografia con il dettato muto."
+  },
+  "alphabetical-order": {
+    "full": "Mettere le parole illustrate in ordine alfabetico fissa la sequenza delle lettere e prepara l'uso del dizionario di cui ogni lettore ha bisogno.",
+    "short": "Allena l'ordine alfabetico."
+  },
+  "number-walls": {
+    "full": "Riempire ogni mattone con la somma dei due sotto di lui allena il calcolo delle addizioni e la ricerca dell'addendo mancante in un unico gioco.",
+    "short": "Allena le addizioni con le piramidi di numeri."
+  },
+  "doubles-halves": {
+    "full": "Calcolare il doppio di un gruppo e la metà di un altro costruisce i doppi che aprono la strada ai numeri pari e alle prime moltiplicazioni.",
+    "short": "Costruisce il doppio e la metà."
+  },
+  "sentence-building": {
+    "full": "Rimettere in ordine le parole di una frase mescolata allena l'ordine delle parole, la maiuscola iniziale e il senso di una frase completa.",
+    "short": "Allena l'ordine delle parole nella frase."
+  },
+  "capitals-punctuation": {
+    "full": "Riscrivere ogni frase con la maiuscola iniziale e il segno di punteggiatura finale fissa le abitudini che rendono leggibile ogni testo.",
+    "short": "Fissa maiuscole e punteggiatura finale."
+  },
+  "word-classes": {
+    "full": "Classificare le parole in nomi, verbi e aggettivi costruisce le categorie grammaticali che servono ai bambini per parlare della lingua.",
+    "short": "Allena a riconoscere nomi, verbi e aggettivi."
+  },
+  "calendar": {
+    "full": "Leggere date, giorni della settimana e settimane su un mese vero costruisce le abilità con il calendario che i bambini usano ogni giorno.",
+    "short": "Insegna a leggere il calendario."
+  },
+  "picture-writing": {
+    "full": "Scrivere partendo da un'immagine, con le parole della scatola e gli inizi di frase, trasforma la pagina bianca in una prima storia scritta con sicurezza.",
+    "short": "Avvia la produzione scritta da un'immagine."
+  },
+  "grid-coordinates": {
+    "full": "Colorare ogni casella indicata su una griglia con lettere e numeri insegna a leggere le coordinate e fa comparire un disegno nascosto.",
+    "short": "Insegna a leggere le coordinate sulla griglia."
   }
 }

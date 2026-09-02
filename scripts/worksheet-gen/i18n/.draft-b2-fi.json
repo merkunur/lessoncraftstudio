@@ -1,0 +1,300 @@
+{
+  "locale": "fi",
+  "types": {
+    "K-284": { "title": "Sanojen jäljentäminen", "instruction": "Sano kuvan sana ääneen. Kirjoita sana ensin katkoviivoja pitkin ja sitten itse tyhjille viivoille." },
+    "K-285": { "title": "Yhdistä pisteet 1–20", "instruction": "Aloita oranssista pisteestä. Yhdistä pisteet numerojärjestyksessä, niin piilokuva tulee näkyviin." },
+    "K-286": { "title": "Piirrä mallin mukaan ruudukkoon", "instruction": "Katso vasemmanpuoleista kuvaa. Väritä samat ruudut tyhjään ruudukkoon, niin kuva syntyy uudelleen." },
+    "K-287": { "title": "Yksikkö ja monikko", "instruction": "Lue sana, joka tarkoittaa yhtä. Kirjoita monikko ensin katkoviivoja pitkin ja sitten itse tyhjälle viivalle." },
+    "K-288": { "title": "Yksi vai monta?", "instruction": "Laske, montako kuvassa on. Ympyröi sana, joka sopii kuvaan: yksi vai monta." },
+    "G1-242": { "title": "Lue ja väritä", "instruction": "Lue jokainen lause tarkasti. Väritä vain ne kuvat, jotka lause käskee värittää." },
+    "G1-243": { "title": "Päivän luku", "instruction": "Katso päivän lukua. Täytä jokainen laatikko sivulla tämän luvun mukaan." },
+    "G1-244": { "title": "Kirjoita kuvan sana", "instruction": "Sano kuvan nimi ääneen. Kirjoita sana viivalle." },
+    "G1-245": { "title": "Aakkosjärjestys", "instruction": "Käytä aakkosjanaa apuna. Numeroi kuvien sanat 1–6 aakkosjärjestykseen ja kirjoita ne sitten järjestyksessä viivoille." },
+    "G1-246": { "title": "Lukupyramidi", "instruction": "Jokainen tiili on kahden alla olevan tiilen summa. Täydennä puuttuvat luvut." },
+    "G1-247": { "title": "Tuplaa ja puolita", "instruction": "Laske jokaisesta ryhmästä tupla tai puolet. Kirjoita luvut laatikoihin." },
+    "G1-248": { "title": "Mikä luku on lukusuoralla?", "instruction": "Jokainen nuoli osoittaa lukusuoran viivaa. Laske eteenpäin edellisestä luvusta ja kirjoita luku laatikkoon." },
+    "G1-249": { "title": "Järjestä sanat lauseeksi", "instruction": "Sanat ovat sekaisin. Järjestä ne lauseeksi ja kirjoita lause viivalle. Muista iso alkukirjain ja piste." },
+    "G2-274": { "title": "Iso alkukirjain ja piste", "instruction": "Lauseesta puuttuvat iso alkukirjain ja lopetusmerkki. Kirjoita lause uudelleen oikein viivalle." },
+    "G2-275": { "title": "Substantiivi, verbi vai adjektiivi?", "instruction": "Lue jokainen sana. Onko se substantiivi, verbi vai adjektiivi? Kirjoita sana oikeaan laatikkoon." },
+    "G2-276": { "title": "Rahalaskut kaupassa", "instruction": "Etsi jokainen tuote hyllystä ja lue sen hinta. Vastaa sitten rahakysymyksiin." },
+    "G2-277": { "title": "Kalenterin lukeminen", "instruction": "Katso kalenteria. Vastaa sen avulla jokaiseen kysymykseen." },
+    "G2-278": { "title": "Kirjoita kuvasta", "instruction": "Katso kuvaa. Kirjoita, mitä kuvassa näkyy ja tapahtuu. Käytä sanapankin sanoja apuna." },
+    "G2-279": { "title": "Koordinaatit ruudukossa", "instruction": "Etsi jokainen ruutu kirjaimen ja numeron avulla, esimerkiksi B2. Väritä ruutu ryhmänsä värillä, niin kuva paljastuu." },
+    "G3-370": { "title": "Sanalliset kerto- ja jakolaskut", "instruction": "Lue tarina. Käytä kuvaa apuna. Kirjoita vastaus laatikkoon ja täydennä sitten vastauslause." }
+  },
+  "families": {
+    "word-tracing": { "slug": "sanojen-jaljentaminen", "name": "Sanojen jäljentäminen" },
+    "dot-to-dot": { "slug": "pisteesta-pisteeseen", "name": "Pisteestä pisteeseen" },
+    "grid-copy": { "slug": "piirra-mallin-mukaan", "name": "Piirrä mallin mukaan" },
+    "singular-plural": { "slug": "yksikko-ja-monikko", "name": "Yksikkö ja monikko" },
+    "articles": { "slug": "yksi-vai-monta", "name": "Yksi vai monta" },
+    "read-and-color": { "slug": "lue-ja-varita", "name": "Lue ja väritä" },
+    "number-of-the-day": { "slug": "paivan-luku", "name": "Päivän luku" },
+    "write-the-word": { "slug": "kirjoita-kuvan-sana", "name": "Kirjoita kuvan sana" },
+    "alphabetical-order": { "slug": "aakkosjarjestys", "name": "Aakkosjärjestys" },
+    "number-walls": { "slug": "lukupyramidit", "name": "Lukupyramidit" },
+    "doubles-halves": { "slug": "kaksinkertainen-ja-puolet", "name": "Kaksinkertainen ja puolet" },
+    "sentence-building": { "slug": "lauseen-rakentaminen", "name": "Lauseen rakentaminen" },
+    "capitals-punctuation": { "slug": "iso-alkukirjain-ja-valimerkit", "name": "Iso alkukirjain ja välimerkit" },
+    "word-classes": { "slug": "sanaluokat", "name": "Sanaluokat" },
+    "calendar": { "slug": "kalenteri", "name": "Kalenteri" },
+    "picture-writing": { "slug": "kuvasta-kirjoittaminen", "name": "Kuvasta kirjoittaminen" },
+    "grid-coordinates": { "slug": "koordinaatit", "name": "Koordinaatit" }
+  },
+  "skills": {
+    "word-tracing": { "full": "Kuvan sanan jäljentäminen kirjain kirjaimelta ja sen kirjoittaminen itse yhdistävät esineen, sen nimen ja kirjoitusasun yhdellä silmäyksellä.", "short": "Vahvistaa sanojen kirjoittamista kuvien avulla." },
+    "dot-to-dot": { "full": "Numeroitujen pisteiden yhdistäminen järjestyksessä paljastaa kuvan ja harjoittaa lukujonoa jokaisella kynänvedolla.", "short": "Harjoittaa lukujonoa ja kynän hallintaa." },
+    "grid-copy": { "full": "Kuvan kopioiminen ruutu ruudulta tyhjään ruudukkoon harjoittaa tarkkaa katsomista, sijainnin hahmottamista ja huolellista piirtämistä.", "short": "Harjoittaa hahmottamista ja kopiointia ruudukossa." },
+    "singular-plural": { "full": "Yhden kuvan näkeminen monen rinnalla ja monikon kirjoittaminen opettaa sanan päätteet, jotka lapsi kuulee mutta harvoin kirjoittaa.", "short": "Vahvistaa yksikön ja monikon muotoja." },
+    "articles": { "full": "Kuvien laskeminen ja oikean sanamuodon ympyröiminen opettaa erottamaan yksikön ja monikon, joihin jokainen myöhempi lause nojaa.", "short": "Vahvistaa yksikön ja monikon tunnistamista." },
+    "read-and-color": { "full": "Lyhyen lauseen lukeminen ja juuri sen kuvien värittäminen muuttaa lukemisen ymmärtämiseksi, jonka lapsi voi itse tarkistaa.", "short": "Harjoittaa luetun ymmärtämistä värittämällä." },
+    "number-of-the-day": { "full": "Yhden luvun esittäminen lukusanana, kymppeinä ja ykkösinä, naapurilukuina ja lukusuoralla rakentaa vahvan lukukäsityksen.", "short": "Rakentaa lukukäsitystä monella esitystavalla." },
+    "write-the-word": { "full": "Kuvan nimen kirjoittaminen viivalle sanapankin avulla tai ilman harjoittaa kirjoittamista äänteistä kirjaimiin.", "short": "Harjoittaa sanojen kirjoittamista kuvista." },
+    "alphabetical-order": { "full": "Kuvien sanojen järjestäminen aakkosjärjestykseen harjoittaa aakkosten järjestyksen muistamista ja sanakirjan käytön taitoja.", "short": "Harjoittaa aakkosjärjestystä." },
+    "number-walls": { "full": "Jokaisen tiilen täyttäminen kahden alla olevan tiilen summalla harjoittaa yhteenlaskun sujuvuutta ja puuttuvan luvun päättelyä samassa pulmassa.", "short": "Harjoittaa yhteenlaskua lukupyramideissa." },
+    "doubles-halves": { "full": "Ryhmän tuplaaminen ja toisen puolittaminen opettaa tuplalaskut, jotka avaavat tietä parillisiin lukuihin ja kertolaskun alkeisiin.", "short": "Harjoittaa tuplia ja puolia." },
+    "sentence-building": { "full": "Sekaisin olevien sanalappujen järjestäminen lauseeksi harjoittaa sanajärjestystä, isoa alkukirjainta ja kokonaisen ajatuksen tajua.", "short": "Harjoittaa lauseen sanajärjestystä." },
+    "capitals-punctuation": { "full": "Lauseen kirjoittaminen uudelleen isolla alkukirjaimella ja lopetusmerkillä vakiinnuttaa tavat, jotka tekevät tekstistä luettavaa.", "short": "Vahvistaa isoa alkukirjainta ja lopetusmerkkejä." },
+    "word-classes": { "full": "Sanojen lajittelu substantiiveihin, verbeihin ja adjektiiveihin opettaa kieliopin luokat, joilla lapsi voi puhua kielestä.", "short": "Harjoittaa sanaluokkien tunnistamista." },
+    "calendar": { "full": "Päivämäärien, viikonpäivien ja viikkojen lukeminen oikeasta kuukausiruudukosta harjoittaa kalenteritaitoja, joita lapsi tarvitsee joka päivä.", "short": "Harjoittaa kalenterin lukemista." },
+    "picture-writing": { "full": "Kuvasta kirjoittaminen sanapankin ja lauseen aloitusten avulla muuttaa tyhjän sivun ensimmäiseksi omaksi tarinaksi.", "short": "Harjoittaa kirjoittamista kuvan pohjalta." },
+    "grid-coordinates": { "full": "Nimettyjen ruutujen värittäminen kirjaimin ja numeroin merkityssä ruudukossa harjoittaa koordinaattien lukemista ja paljastaa piilokuvan.", "short": "Harjoittaa koordinaattien lukemista." }
+  },
+  "topicMeta": {
+    "word-tracing": "Sanojen jäljentämistä kuvien avulla: katso kuvaa, kirjoita sana katkoviivoja pitkin ja sitten itse viivastolle. Ilmaiset tulostettavat PDF-tiedostot.",
+    "dot-to-dot": "Pisteestä pisteeseen -piilokuvia: yhdistä numeroidut pisteet järjestyksessä 1–20 ja laske eteenpäin. Ilmaiset tulostettavat PDF-tiedostot.",
+    "grid-copy": "Piirrä mallin mukaan ruudukkoon: väritä samat ruudut tyhjään ruudukkoon ja kopioi kuva. Ilmaiset tulostettavat PDF-tiedostot.",
+    "singular-plural": "Yksikkö ja monikko: yksi kuva, monta kuvaa. Jäljennä ja kirjoita sanan monikkomuoto. Ilmaiset tulostettavat PDF-tiedostot.",
+    "articles": "Yksi vai monta: laske kuvat ja ympyröi oikea sanamuoto, yksikkö tai monikko. Ilmaiset tulostettavat PDF-tiedostot.",
+    "read-and-color": "Lue ja väritä: lue lause ja väritä kuvat juuri niin kuin lause sanoo. Ilmaiset tulostettavat PDF-tiedostot.",
+    "number-of-the-day": "Päivän luku: lukusana, kympit ja ykköset, edellinen ja seuraava luku sekä lukusuora yhdellä sivulla. Ilmaiset tulostettavat PDF-tiedostot.",
+    "write-the-word": "Kirjoita kuvan sana: kirjoita jokaisen kuvan nimi viivalle sanapankin avulla tai kokonaan itse. Ilmaiset tulostettavat PDF-tiedostot.",
+    "alphabetical-order": "Aakkosjärjestys: järjestä kuvien sanat aakkosjärjestykseen aakkosjanan avulla. Ilmaiset tulostettavat PDF-tiedostot.",
+    "number-walls": "Lukupyramidit: jokainen tiili on kahden alla olevan tiilen summa. Täydennä puuttuvat luvut. Ilmaiset tulostettavat PDF-tiedostot.",
+    "doubles-halves": "Kaksinkertainen ja puolet: tuplaa ryhmä, puolita ryhmä ja kirjoita luku. Ilmaiset tulostettavat PDF-tiedostot.",
+    "sentence-building": "Lauseen rakentaminen: järjestä sekaisin olevat sanat lauseeksi ja kirjoita lause viivalle. Ilmaiset tulostettavat PDF-tiedostot.",
+    "capitals-punctuation": "Iso alkukirjain ja välimerkit: kirjoita lause uudelleen isolla alkukirjaimella ja pisteellä tai kysymysmerkillä. Ilmaiset tulostettavat PDF-tiedostot.",
+    "word-classes": "Sanaluokat: lajittele sanat substantiiveihin, verbeihin ja adjektiiveihin. Ilmaiset tulostettavat PDF-tiedostot.",
+    "calendar": "Kalenterin lukeminen: lue kuukausiruudukkoa ja vastaa kysymyksiin päivämääristä, viikonpäivistä ja viikoista. Ilmaiset tulostettavat PDF-tiedostot.",
+    "picture-writing": "Kuvasta kirjoittaminen: kirjoita kuvasta sanapankin ja lauseen aloitusten avulla. Ilmaiset tulostettavat PDF-tiedostot.",
+    "grid-coordinates": "Koordinaatit ruudukossa: väritä nimetyt ruudut, esimerkiksi B2, ja paljasta piilokuva. Ilmaiset tulostettavat PDF-tiedostot."
+  },
+  "colorWords": { "orange": "oranssi", "purple": "violetti", "brown": "ruskea", "pink": "vaaleanpunainen" },
+  "figureNames": {
+    "star": "tähti", "house": "talo", "boat": "vene", "rocket": "raketti", "fish": "kala", "kite": "leija", "heart": "sydän", "butterfly": "perhonen",
+    "tree": "puu", "car": "auto", "cat": "kissa", "ice-cream": "jäätelö", "umbrella": "sateenvarjo", "whale": "valas", "sailboat": "purjevene", "crown": "kruunu",
+    "duck": "ankka", "flag": "lippu", "cup": "kuppi", "boot": "saapas", "key": "avain", "cherries": "kirsikat", "elephant": "norsu", "bird": "lintu", "giraffe": "kirahvi"
+  },
+  "labels": {
+    "numberOfDay": {
+      "numberWord": "Kirjoita lukusana",
+      "tensOnes": "Kympit ja ykköset",
+      "tens": "kympit",
+      "ones": "ykköset",
+      "tenFrames": "Näytä kymppiruuduissa",
+      "tally": "Tukkimiehen kirjanpito",
+      "beforeAfter": "Edellinen ja seuraava",
+      "numberLine": "Etsi lukusuoralta",
+      "drawIt": "Piirrä palikoilla",
+      "tenMoreLess": "10 enemmän, 10 vähemmän",
+      "oneMoreLess": "1 enemmän, 1 vähemmän",
+      "countOn": "Laske eteenpäin",
+      "countBack": "Laske taaksepäin",
+      "countOnTens": "Laske kymmenittäin"
+    },
+    "doublesHalves": { "double": "tupla", "half": "puolet" },
+    "singularPlural": { "one": "yksi", "many": "monta" },
+    "pictureWriting": { "d1": ["Kuvassa on", "Näen", "Tässä on"], "d2": ["Eräänä päivänä", "Sitten"] },
+    "fixChecklist": { "capital": "Iso alkukirjain", "name": "Nimet", "end": "Lopetusmerkki" },
+    "articles": { "title": "Yksi vai monta?" },
+    "calendar": { "monthTitle": "{month} {year}" }
+  },
+  "calendar": {
+    "weekStart": 1,
+    "dayPlural": ["sunnuntaita", "maanantaita", "tiistaita", "keskiviikkoja", "torstaita", "perjantaita", "lauantaita"],
+    "frames": {
+      "dayOfDate": "Mikä viikonpäivä on kuukauden {date} päivä?",
+      "countWeekday": "Montako {dayPlural} tässä kuussa on?",
+      "stickerDate": "Minä päivänä kalenterissa on {sticker}?",
+      "weekLater": "Tänään on kuukauden {date} päivä. Mikä päivämäärä on tasan viikon päästä?",
+      "daysInMonth": "Montako päivää tässä kuussa on?",
+      "firstDay": "Mikä viikonpäivä on kuukauden ensimmäinen päivä?",
+      "lastDay": "Mikä viikonpäivä on kuukauden viimeinen päivä?",
+      "after": "Montako päivää on merkistä {stickerA} merkkiin {stickerB}?"
+    }
+  },
+  "sentences": {
+    "nounCase": "lower",
+    "endSpace": false,
+    "names": ["Aino", "Eeli", "Sofia", "Onni", "Aada", "Väinö", "Helmi", "Leo"],
+    "colorWords": { "red": "punaiseksi", "blue": "siniseksi", "yellow": "keltaiseksi", "green": "vihreäksi", "orange": "oranssiksi", "purple": "violetiksi", "brown": "ruskeaksi", "pink": "vaaleanpunaiseksi" },
+    "nounForms": {
+      "partitive": {
+        "avocado": "avokadoa", "apricot": "aprikoosia", "banana": "banaania", "apple": "omenaa", "blackberry": "karhunvatukkaa", "blueberry": "mustikkaa",
+        "cherry": "kirsikkaa", "clementine": "klementiiniä", "coconut": "kookospähkinää", "fig": "viikunaa", "cranberry": "karpaloa", "grapefruit": "greippiä",
+        "kiwi": "kiiviä", "lemon": "sitruunaa", "lime": "limettiä", "mango": "mangoa", "orange": "appelsiinia", "papaya": "papaijaa", "peach": "persikkaa",
+        "nectarine": "nektariinia", "pear": "päärynää", "persimmon": "persimonia", "pineapple": "ananasta", "plum": "luumua", "pomegranate": "granaattiomenaa",
+        "watermelon": "vesimelonia", "strawberry": "mansikkaa", "raspberry": "vadelmaa", "durian": "duriota", "grapes": "viinirypälettä",
+        "airplane": "lentokonetta", "ambulance": "ambulanssia", "bicycle": "polkupyörää", "boat": "venettä", "bulldozer": "puskutraktoria", "bus": "bussia",
+        "car": "autoa", "canoe": "kanoottia", "crane": "kurkea", "excavator": "kaivinkonetta", "ferry": "lauttaa", "forklift": "trukkia", "helicopter": "helikopteria",
+        "jet": "suihkukonetta", "jeep": "maasturia", "motorcycle": "moottoripyörää", "rocket": "rakettia", "sailboat": "purjevenettä", "scooter": "potkulautaa",
+        "ship": "laivaa", "skateboard": "rullalautaa", "submarine": "sukellusvenettä", "subway": "metroa", "taxi": "taksia", "tractor": "traktoria", "train": "junaa",
+        "truck": "kuorma-autoa", "van": "pakettiautoa", "yacht": "jahtia",
+        "baby": "vauvaa", "ball": "palloa", "balloon": "ilmapalloa", "blocks": "palikkaa", "bucket": "ämpäriä", "cards": "korttia", "crayons": "värikynää",
+        "chess": "shakkia", "dice": "noppaa", "dinosaur": "dinosaurusta", "doll": "nukkea", "domino": "dominoa", "girl": "tyttöä", "kite": "leijaa", "lego": "legoa",
+        "robot": "robottia", "sandbox": "hiekkalaatikkoa", "shovel": "lapiota", "slide": "liukumäkeä", "swing": "keinua",
+        "cactus": "kaktusta", "drum": "rumpua", "guitar": "kitaraa", "loader": "pyöräkuormaajaa", "tank": "panssarivaunua", "trumpet": "trumpettia", "ufo": "ufoa",
+        "antelope": "antilooppia", "bat": "lepakkoa", "camel": "kamelia", "cat": "kissaa", "dog": "koiraa", "dolphin": "delfiiniä", "donkey": "aasia", "duck": "ankkaa",
+        "elephant": "norsua", "fox": "kettua", "fish": "kalaa", "giraffe": "kirahvia", "hippopotamus": "virtahepoa", "horse": "hevosta", "iguana": "iguaania",
+        "jaguar": "jaguaaria", "koala": "koalaa", "leopard": "leopardia", "moose": "hirveä", "orangutan": "orankia", "owl": "pöllöä", "panda": "pandaa",
+        "penguin": "pingviiniä", "pig": "sikaa", "raccoon": "pesukarhua", "rabbit": "kania", "reindeer": "poroa", "sheep": "lammasta", "seagull": "lokkia",
+        "swan": "joutsenta", "tiger": "tiikeriä", "turtle": "kilpikonnaa", "vulture": "korppikotkaa", "whale": "valasta", "wolf": "sutta", "woodpecker": "tikkaa", "zebra": "seepraa",
+        "alligator": "alligaattoria", "bear": "karhua", "bison": "biisonia", "beaver": "majavaa", "bull": "härkää", "capybara": "kapybaraa", "chameleon": "kameleonttia",
+        "cow": "lehmää", "crab": "rapua", "dragon": "lohikäärmettä", "frog": "sammakkoa", "goat": "vuohta", "kangaroo": "kengurua", "lion": "leijonaa", "llama": "laamaa",
+        "meerkat": "mangustia", "octopus": "mustekalaa", "ostrich": "strutsia", "otter": "saukkoa", "parrot": "papukaijaa", "piglet": "porsasta", "mouse": "hiirtä",
+        "rooster": "kukkoa", "rhinoceros": "sarvikuonoa", "seahorse": "merihevosta", "seal": "hyljettä", "sloth": "laiskiaista", "snail": "etanaa", "squirrel": "oravaa",
+        "unicorn": "yksisarvista", "monkey": "apinaa",
+        "alpaca": "alpakkaa", "bee": "mehiläistä", "chicken": "kanaa", "pigeon": "kyyhkystä", "pony": "ponia", "turkey": "kalkkunaa", "yak": "jakkia"
+      }
+    },
+    "fixLabels": { "capital": "Iso alkukirjain", "name": "Nimet", "end": "Lopetusmerkki" },
+    "frames": [
+      { "id": "c1", "kind": "color", "text": "Väritä {n} {noun} {color}.", "noun": "partitive" },
+      { "id": "c2", "kind": "color", "text": "Etsi {n} {noun} ja väritä ne {color}.", "noun": "partitive" },
+      { "id": "c3", "kind": "color", "text": "{name} värittää {n} {noun} {color}.", "noun": "partitive" },
+      { "id": "c4", "kind": "color", "text": "Väritä kuvista {n} {noun} {color}.", "noun": "partitive" },
+      { "id": "s1", "kind": "simple", "text": "{name} syöttää {noun}.", "noun": "partitive", "uses": ["unscramble", "fix"] },
+      { "id": "s2", "kind": "simple", "text": "{name} katsoo pientä {noun}.", "noun": "partitive", "uses": ["unscramble", "fix"] },
+      { "id": "s3", "kind": "simple", "text": "{name} piirtää kaksi {noun}.", "noun": "partitive", "uses": ["unscramble", "fix"] },
+      { "id": "s4", "kind": "simple", "text": "{name} etsii {noun}.", "noun": "partitive", "uses": ["unscramble", "fix"] },
+      { "id": "s5", "kind": "simple", "text": "{name} ja {name} katsovat isoa {noun}.", "noun": "partitive", "uses": ["unscramble", "fix"] },
+      { "id": "s6", "kind": "simple", "text": "{name} piirtää {noun}.", "noun": "partitive", "uses": ["unscramble", "fix"] },
+      { "id": "s7", "kind": "simple", "text": "{name} pesee {noun}.", "noun": "partitive", "uses": ["unscramble", "fix"] },
+      { "id": "s8", "kind": "simple", "text": "{name} kantaa {noun}.", "noun": "partitive", "uses": ["unscramble", "fix"] },
+      { "id": "s9", "kind": "simple", "text": "Minä näen kaksi {noun}.", "noun": "partitive", "uses": ["unscramble", "fix"] },
+      { "id": "s10", "kind": "simple", "text": "{name} löytää kolme {noun}.", "noun": "partitive", "uses": ["unscramble", "fix"] },
+      { "id": "s11", "kind": "simple", "text": "Nämä {noun} ovat isoja.", "noun": "pl", "uses": ["unscramble", "fix"] },
+      { "id": "s12", "kind": "simple", "text": "Missä {noun} on?", "noun": "sg", "uses": ["fix"] },
+      { "id": "s13", "kind": "simple", "text": "Kenen {noun} tämä on?", "noun": "sg", "uses": ["fix"] },
+      { "id": "s14", "kind": "simple", "text": "Onko {noun} laatikossa?", "noun": "sg", "uses": ["fix"] },
+      { "id": "s15", "kind": "simple", "text": "Onpa hieno {noun}!", "noun": "sg", "uses": ["fix"], "exclaimStrict": true }
+    ]
+  },
+  "wordClasses": {
+    "terms": { "noun": "Substantiivit", "verb": "Verbit", "adj": "Adjektiivit" },
+    "chipCase": "lower",
+    "chipCaseD3": "lower",
+    "verbs": [
+      { "w": "juosta", "tier": 1 }, { "w": "hyppiä", "tier": 1 }, { "w": "nukkua", "tier": 1 }, { "w": "syödä", "tier": 1 }, { "w": "laulaa", "tier": 1 },
+      { "w": "lukea", "tier": 1 }, { "w": "uida", "tier": 1 }, { "w": "leikkiä", "tier": 1 }, { "w": "istua", "tier": 1 }, { "w": "juoda", "tier": 1 },
+      { "w": "kiivetä", "tier": 2 }, { "w": "nauraa", "tier": 2 }, { "w": "piirtää", "tier": 2 }, { "w": "pestä", "tier": 2 }, { "w": "työntää", "tier": 2 },
+      { "w": "vetää", "tier": 2 }, { "w": "heittää", "tier": 2 }, { "w": "napata", "tier": 2 }, { "w": "tanssia", "tier": 2 }, { "w": "piiloutua", "tier": 2 },
+      { "w": "kuiskata", "tier": 3 }, { "w": "vaeltaa", "tier": 3 }, { "w": "kikattaa", "tier": 3 }, { "w": "kerätä", "tier": 3 }, { "w": "kuunnella", "tier": 3 },
+      { "w": "kantaa", "tier": 3 }, { "w": "rakentaa", "tier": 3 }, { "w": "huutaa", "tier": 3 }, { "w": "maalata", "tier": 2 }, { "w": "kävellä", "tier": 1 }
+    ],
+    "adjectives": [
+      { "w": "iso", "tier": 1 }, { "w": "pieni", "tier": 1 }, { "w": "punainen", "tier": 1 }, { "w": "sininen", "tier": 1 }, { "w": "kuuma", "tier": 1 },
+      { "w": "kylmä", "tier": 1 }, { "w": "pehmeä", "tier": 1 }, { "w": "pitkä", "tier": 1 }, { "w": "märkä", "tier": 1 }, { "w": "iloinen", "tier": 1 },
+      { "w": "nopea", "tier": 1 }, { "w": "hidas", "tier": 1 }, { "w": "hiljainen", "tier": 2 }, { "w": "kiiltävä", "tier": 2 }, { "w": "pörröinen", "tier": 2 },
+      { "w": "painava", "tier": 2 }, { "w": "makea", "tier": 2 }, { "w": "pikkuruinen", "tier": 2 }, { "w": "kovaääninen", "tier": 2 }, { "w": "rohkea", "tier": 2 },
+      { "w": "pyöreä", "tier": 2 }, { "w": "lempeä", "tier": 3 }, { "w": "utelias", "tier": 3 }, { "w": "uninen", "tier": 3 }, { "w": "fiksu", "tier": 3 },
+      { "w": "kuoppainen", "tier": 3 }, { "w": "pirteä", "tier": 3 }, { "w": "violetti", "tier": 1 }
+    ],
+    "nounExclude": []
+  },
+  "shopFrames": {
+    "yes": "kyllä",
+    "no": "ei",
+    "frames": {
+      "total": [
+        "{name} on kaupassa. Korissa on {item1} ja {item2}. Paljonko {name} maksaa yhteensä?",
+        "{name} vie kassalle nämä: {item1} ja {item2}. Paljonko ostokset maksavat yhteensä?",
+        "{name} haluaa nämä: {item1} ja {item2}. Paljonko ne maksavat yhdessä?"
+      ],
+      "total3": [
+        "{name} on kaupassa. Korissa on {item1}, {item2} ja {item3}. Paljonko {name} maksaa yhteensä?",
+        "{name} vie kassalle nämä: {item1}, {item2} ja {item3}. Paljonko ostokset maksavat yhteensä?"
+      ],
+      "change": [
+        "Kassalla on {item1}. {name} maksaa näillä kolikoilla: {coins} Paljonko rahaa {name} saa takaisin?",
+        "{name} ostaa tämän: {item1}. {name} antaa kassalle nämä kolikot: {coins} Paljonko {name} saa takaisin?"
+      ],
+      "canBuy": [
+        "{name} saa {money}. Riittääkö raha näihin: {item1} ja {item2}? Ympyröi kyllä tai ei ja kirjoita yhteishinta.",
+        "Riittääkö {money}, kun {name} haluaa ostaa nämä: {item1} ja {item2}? Ympyröi kyllä tai ei ja kirjoita yhteishinta."
+      ],
+      "diff": [
+        "Paljonko enemmän {item1} maksaa kuin {item2}?",
+        "{item1} on kalliimpi kuin {item2}. Paljonko kalliimpi?"
+      ]
+    }
+  },
+  "wpMulDiv": {
+    "nounForm": "partitive",
+    "nounCase": "lower",
+    "nounForms": {
+      "avocado": "avokadoa", "apricot": "aprikoosia", "banana": "banaania", "apple": "omenaa", "blackberry": "karhunvatukkaa", "blueberry": "mustikkaa",
+      "cherry": "kirsikkaa", "clementine": "klementiiniä", "coconut": "kookospähkinää", "fig": "viikunaa", "cranberry": "karpaloa", "grapefruit": "greippiä",
+      "kiwi": "kiiviä", "lemon": "sitruunaa", "lime": "limettiä", "mango": "mangoa", "orange": "appelsiinia", "papaya": "papaijaa", "peach": "persikkaa",
+      "nectarine": "nektariinia", "pear": "päärynää", "persimmon": "persimonia", "pineapple": "ananasta", "plum": "luumua", "pomegranate": "granaattiomenaa",
+      "watermelon": "vesimelonia", "strawberry": "mansikkaa", "raspberry": "vadelmaa", "durian": "duriota", "grapes": "viinirypälettä",
+      "airplane": "lentokonetta", "ambulance": "ambulanssia", "bicycle": "polkupyörää", "boat": "venettä", "bulldozer": "puskutraktoria", "bus": "bussia",
+      "car": "autoa", "canoe": "kanoottia", "crane": "kurkea", "excavator": "kaivinkonetta", "ferry": "lauttaa", "forklift": "trukkia", "helicopter": "helikopteria",
+      "jet": "suihkukonetta", "jeep": "maasturia", "motorcycle": "moottoripyörää", "rocket": "rakettia", "sailboat": "purjevenettä", "scooter": "potkulautaa",
+      "ship": "laivaa", "skateboard": "rullalautaa", "submarine": "sukellusvenettä", "subway": "metroa", "taxi": "taksia", "tractor": "traktoria", "train": "junaa",
+      "truck": "kuorma-autoa", "van": "pakettiautoa", "yacht": "jahtia",
+      "baby": "vauvaa", "ball": "palloa", "balloon": "ilmapalloa", "blocks": "palikkaa", "bucket": "ämpäriä", "cards": "korttia", "crayons": "värikynää",
+      "chess": "shakkia", "dice": "noppaa", "dinosaur": "dinosaurusta", "doll": "nukkea", "domino": "dominoa", "girl": "tyttöä", "kite": "leijaa", "lego": "legoa",
+      "robot": "robottia", "sandbox": "hiekkalaatikkoa", "shovel": "lapiota", "slide": "liukumäkeä", "swing": "keinua",
+      "cactus": "kaktusta", "drum": "rumpua", "guitar": "kitaraa", "loader": "pyöräkuormaajaa", "tank": "panssarivaunua", "trumpet": "trumpettia", "ufo": "ufoa",
+      "antelope": "antilooppia", "bat": "lepakkoa", "camel": "kamelia", "cat": "kissaa", "dog": "koiraa", "dolphin": "delfiiniä", "donkey": "aasia", "duck": "ankkaa",
+      "elephant": "norsua", "fox": "kettua", "fish": "kalaa", "giraffe": "kirahvia", "hippopotamus": "virtahepoa", "horse": "hevosta", "iguana": "iguaania",
+      "jaguar": "jaguaaria", "koala": "koalaa", "leopard": "leopardia", "moose": "hirveä", "orangutan": "orankia", "owl": "pöllöä", "panda": "pandaa",
+      "penguin": "pingviiniä", "pig": "sikaa", "raccoon": "pesukarhua", "rabbit": "kania", "reindeer": "poroa", "sheep": "lammasta", "seagull": "lokkia",
+      "swan": "joutsenta", "tiger": "tiikeriä", "turtle": "kilpikonnaa", "vulture": "korppikotkaa", "whale": "valasta", "wolf": "sutta", "woodpecker": "tikkaa", "zebra": "seepraa",
+      "alligator": "alligaattoria", "bear": "karhua", "bison": "biisonia", "beaver": "majavaa", "bull": "härkää", "capybara": "kapybaraa", "chameleon": "kameleonttia",
+      "cow": "lehmää", "crab": "rapua", "dragon": "lohikäärmettä", "frog": "sammakkoa", "goat": "vuohta", "kangaroo": "kengurua", "lion": "leijonaa", "llama": "laamaa",
+      "meerkat": "mangustia", "octopus": "mustekalaa", "ostrich": "strutsia", "otter": "saukkoa", "parrot": "papukaijaa", "piglet": "porsasta", "mouse": "hiirtä",
+      "rooster": "kukkoa", "rhinoceros": "sarvikuonoa", "seahorse": "merihevosta", "seal": "hyljettä", "sloth": "laiskiaista", "snail": "etanaa", "squirrel": "oravaa",
+      "unicorn": "yksisarvista", "monkey": "apinaa",
+      "alpaca": "alpakkaa", "bee": "mehiläistä", "chicken": "kanaa", "pigeon": "kyyhkystä", "pony": "ponia", "turkey": "kalkkunaa", "yak": "jakkia"
+    },
+    "names": ["Aino", "Eeli", "Sofia", "Onni", "Aada", "Väinö", "Helmi", "Leo"],
+    "frames": {
+      "mul": [
+        "{name} tekee {n1} ryhmää. Jokaisessa ryhmässä on {n2} {noun}. Kuinka monta {noun} {name} laittaa ryhmiin yhteensä?",
+        "Pöydällä on {n1} riviä. Jokaisessa rivissä on {n2} {noun}. Kuinka monta {noun} {name} laskee yhteensä?",
+        "{name} avaa {n1} laatikkoa. Jokaisessa laatikossa on {n2} {noun}. Kuinka monta {noun} laatikoissa on kaikkiaan?",
+        "{name} näkee {n1} riviä. Joka rivissä on {n2} {noun}. Kuinka monta {noun} {name} näkee?"
+      ],
+      "share": [
+        "{name} jakaa {n1} {noun} tasan {n2} kaverille. Kuinka monta {noun} jokainen kaveri saa?",
+        "{name} lajittelee {n1} {noun} tasan {n2} laatikkoon. Kuinka monta {noun} jokaiseen laatikkoon tulee?",
+        "{name} asettaa {n1} {noun} {n2} yhtä pitkään riviin. Kuinka monta {noun} jokaisessa rivissä on?"
+      ],
+      "group": [
+        "{name} saa {n1} {noun}. {name} laittaa {n2} {noun} jokaiseen pussiin. Kuinka monta pussia {name} tarvitsee?",
+        "Korissa on {n1} {noun}. {name} tekee niistä ryhmiä, joissa on {n2} {noun}. Kuinka monta ryhmää syntyy?",
+        "{name} järjestää {n1} {noun} riveihin. Jokaiseen riviin tulee {n2} {noun}. Kuinka monta riviä {name} saa?"
+      ]
+    }
+  },
+  "articles": {
+    "refuse": false,
+    "note": "fi mode:'form' (yksikkö/monikko keyed by picture count) SHIPS. It is a genuine esikoulu/1.-luokka staple ('yksi vai monta', 'yksikkö ja monikko') and pairs with K-287: K-288 is the recognition step (circle the form), K-287 the production step (write the plural). Chips show the stored nominative singular/plural — correct for every wave noun. Panel request for the generator: refuse (keyFor → null) toys entries whose stored singular is already a plural or a mass/game noun — blocks 'Palikat', cards 'Kortit', crayons 'Värikynät', dice 'Nopat', chess 'Shakki', lego 'Lego', domino 'Domino' — the two chips would be identical or both wrong (the existing plural!==singular guard already catches the identical-chip ones; chess/lego/domino still need a guard). Keep the wave order fruits/vehicles/toys before animals."
+  },
+  "enAudit": [
+    "vehicles theme, fi vocab: key 'crane' is stored as 'Kurki' (the BIRD); the vehicle is 'nosturi'. Every fi page that draws a crane picture labels it 'kurki'. The partitive table carries 'kurkea' so the pipeline does not break, but the vocab entry needs fixing (image-vocabulary.js, operator-approved edit).",
+    "G3-370 EN mul frame 'sees 2 rows of oranges. Each row has 5 oranges' renders with the picture showing 2 boxed GROUPS (4+1 clusters), not rows — the story says 'rows' while the apparatus draws groups; use 'groups'/'boxes' for that frame or draw real rows.",
+    "G1-242 EN c3 'Make {n} {noun} {color}.' is not natural English for a colouring instruction ('Make 4 apples orange'); 'Color' is the verb children are taught — keep c1/c2/c4 shapes.",
+    "G1-242 EN instruction 'color exactly the pictures it tells you to' is awkward; 'color only the pictures it tells you to' is what the task means.",
+    "G1-248 EN instruction 'Count on from the number before it' — 'the labelled number before it' is what the child must do (the line labels every 5).",
+    "G2-276 EN 'diff' frame '{item1} costs more than {item2}. How much more?' asserts a fact; it is only true if the generator orders item1 as the dearer one — confirm the generator guarantees price(item1) > price(item2) for every diff frame in every locale (the fi frames make the same assumption).",
+    "G2-276 EN coin row: the 25 coin renders as a bare '25' while the price tags read '25 ¢'; the coin should carry the unit or the tag should not, for consistency on the same page.",
+    "G2-277 EN 'after' frame 'How many days after the {stickerA} is the {stickerB}?' — 'the' before an inline picture reads oddly; drop the articles ('How many days after {stickerA} is {stickerB}?').",
+    "G2-275 EN adjective list mixes 'purple' (tier 1) with 'red'/'blue' but the nounExclude carries 'orange' — 'purple' is fine, but 'light' and 'fast' are both in play as adjectives/nouns; 'fast' (tier 1 adjective) is also a verb/noun and should be in nounExclude if any vocab theme ships 'fast' — currently harmless.",
+    "sentences EN s8 '{name} and I like the {noun}.' and s12 '{name} draws two {noun} for {name}.' are fix-only — correct — but s10 'The {noun} are so big.' is unscramble-eligible with a plural noun and no article on the tile beyond 'The'; fine. No unscramble defect found in EN.",
+    "K-288 EN keyFor: /^a/ → 'an' is right only for vowel-sounding a-words; 'a unicorn'/'a one-…' are handled by EN_EXCEPTIONS — make sure 'uniform', 'unicycle', 'ewe', 'European' style words are listed if any theme carries them (only 'unicorn' is in the wave themes).",
+    "labels EN numberOfDay.tally 'Tally it' and drawIt 'Draw it with blocks' are fine; 'Ten more, ten less' is rendered for d1 N∈11..19 where N−10 is a single digit — correct but the count-back/count-on cells and the ten-less cell overlap in content for N=11..13 (11−10=1, count back 10,9,8) — harmless."
+  ]
+}

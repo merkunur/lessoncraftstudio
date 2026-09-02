@@ -2791,14 +2791,20 @@
           "de": "woerter-nachspuren",
           "es": "palabras-punteadas",
           "fr": "ecriture-des-mots",
-          "pt": "palavras-pontilhadas"
+          "pt": "palavras-pontilhadas",
+          "it": "parole-tratteggiate",
+          "nl": "woorden-overtrekken",
+          "sv": "spara-ord"
         },
         "name": {
           "en": "Word Tracing",
           "de": "Wörter nachspuren",
           "es": "Palabras punteadas",
           "fr": "Écriture des mots",
-          "pt": "Palavras pontilhadas"
+          "pt": "Palavras pontilhadas",
+          "it": "Parole tratteggiate",
+          "nl": "Woorden overtrekken",
+          "sv": "Spåra ord"
         }
       },
       "dot-to-dot": {
@@ -2807,14 +2813,20 @@
           "de": "punkt-zu-punkt",
           "es": "unir-los-puntos",
           "fr": "points-a-relier",
-          "pt": "ligue-os-pontos"
+          "pt": "ligue-os-pontos",
+          "it": "unisci-i-puntini",
+          "nl": "van-stip-naar-stip",
+          "sv": "prick-till-prick"
         },
         "name": {
           "en": "Dot-to-Dot",
           "de": "Punkt zu Punkt",
           "es": "Unir los puntos",
           "fr": "Points à relier",
-          "pt": "Ligue os pontos"
+          "pt": "Ligue os pontos",
+          "it": "Unisci i puntini",
+          "nl": "Van stip naar stip",
+          "sv": "Prick till prick"
         }
       },
       "grid-copy": {
@@ -2823,14 +2835,20 @@
           "de": "gitterbilder",
           "es": "copiar-en-cuadricula",
           "fr": "reproduction-sur-quadrillage",
-          "pt": "copia-na-malha-quadriculada"
+          "pt": "copia-na-malha-quadriculada",
+          "it": "riproduzione-sui-quadretti",
+          "nl": "natekenen-op-ruitjes",
+          "sv": "rita-av-i-rutnat"
         },
         "name": {
           "en": "Copy the Grid Picture",
           "de": "Gitterbilder",
           "es": "Copiar en cuadrícula",
           "fr": "Reproduction sur quadrillage",
-          "pt": "Cópia na malha quadriculada"
+          "pt": "Cópia na malha quadriculada",
+          "it": "Riproduzione sui quadretti",
+          "nl": "Natekenen op ruitjes",
+          "sv": "Rita av i rutnät"
         }
       },
       "singular-plural": {
@@ -2839,14 +2857,20 @@
           "de": "einzahl-und-mehrzahl",
           "es": "singular-y-plural",
           "fr": "singulier-et-pluriel",
-          "pt": "singular-e-plural"
+          "pt": "singular-e-plural",
+          "it": "singolare-e-plurale",
+          "nl": "enkelvoud-en-meervoud",
+          "sv": "singular-och-plural"
         },
         "name": {
           "en": "Singular and Plural",
           "de": "Einzahl und Mehrzahl",
           "es": "Singular y plural",
           "fr": "Singulier et pluriel",
-          "pt": "Singular e plural"
+          "pt": "Singular e plural",
+          "it": "Singolare e plurale",
+          "nl": "Enkelvoud en meervoud",
+          "sv": "Singular och plural"
         }
       },
       "articles": {
@@ -2855,14 +2879,20 @@
           "de": "der-die-das",
           "es": "articulos-el-la",
           "fr": "le-ou-la",
-          "pt": "artigos-o-e-a"
+          "pt": "artigos-o-e-a",
+          "it": "articoli-determinativi",
+          "nl": "de-of-het",
+          "sv": "en-eller-ett"
         },
         "name": {
           "en": "Articles",
           "de": "Der, die, das",
           "es": "Artículos: el o la",
           "fr": "Le ou la",
-          "pt": "Artigos o e a"
+          "pt": "Artigos o e a",
+          "it": "Articoli determinativi",
+          "nl": "De of het",
+          "sv": "En eller ett"
         }
       },
       "read-and-color": {
@@ -2871,14 +2901,20 @@
           "de": "lese-mal-blaetter",
           "es": "leer-y-colorear",
           "fr": "lis-et-colorie",
-          "pt": "leia-e-pinte"
+          "pt": "leia-e-pinte",
+          "it": "leggi-e-colora",
+          "nl": "lees-en-kleur",
+          "sv": "las-och-mala"
         },
         "name": {
           "en": "Read and Color",
           "de": "Lese-Mal-Blätter",
           "es": "Leer y colorear",
           "fr": "Lis et colorie",
-          "pt": "Leia e pinte"
+          "pt": "Leia e pinte",
+          "it": "Leggi e colora",
+          "nl": "Lees en kleur",
+          "sv": "Läs och måla"
         }
       },
       "number-of-the-day": {
@@ -2887,14 +2923,20 @@
           "de": "zahl-des-tages",
           "es": "el-numero-del-dia",
           "fr": "nombre-du-jour",
-          "pt": "numero-do-dia"
+          "pt": "numero-do-dia",
+          "it": "il-numero-del-giorno",
+          "nl": "getal-van-de-dag",
+          "sv": "dagens-tal"
         },
         "name": {
           "en": "Number of the Day",
           "de": "Zahl des Tages",
           "es": "El número del día",
           "fr": "Le nombre du jour",
-          "pt": "Número do dia"
+          "pt": "Número do dia",
+          "it": "Il numero del giorno",
+          "nl": "Getal van de dag",
+          "sv": "Dagens tal"
         }
       },
       "write-the-word": {
@@ -2903,14 +2945,20 @@
           "de": "bilder-beschriften",
           "es": "escribir-la-palabra",
           "fr": "dictee-muette",
-          "pt": "escreva-o-nome-da-figura"
+          "pt": "escreva-o-nome-da-figura",
+          "it": "dettato-muto",
+          "nl": "schrijf-het-woord",
+          "sv": "skriv-ordet"
         },
         "name": {
           "en": "Write the Word",
           "de": "Bilder beschriften",
           "es": "Escribir la palabra",
           "fr": "Dictée muette",
-          "pt": "Escreva o nome da figura"
+          "pt": "Escreva o nome da figura",
+          "it": "Dettato muto",
+          "nl": "Schrijf het woord",
+          "sv": "Skriv ordet"
         }
       },
       "alphabetical-order": {
@@ -2919,14 +2967,20 @@
           "de": "alphabetisch-ordnen",
           "es": "orden-alfabetico",
           "fr": "ordre-alphabetique",
-          "pt": "ordem-alfabetica"
+          "pt": "ordem-alfabetica",
+          "it": "ordine-alfabetico",
+          "nl": "alfabetische-volgorde",
+          "sv": "alfabetisk-ordning"
         },
         "name": {
           "en": "Alphabetical Order",
           "de": "Alphabetisch ordnen",
           "es": "Orden alfabético",
           "fr": "Ordre alphabétique",
-          "pt": "Ordem alfabética"
+          "pt": "Ordem alfabética",
+          "it": "Ordine alfabetico",
+          "nl": "Alfabetische volgorde",
+          "sv": "Alfabetisk ordning"
         }
       },
       "number-walls": {
@@ -2935,14 +2989,20 @@
           "de": "zahlenmauern",
           "es": "piramides-numericas",
           "fr": "pyramides-de-nombres",
-          "pt": "piramide-de-numeros"
+          "pt": "piramide-de-numeros",
+          "it": "piramidi-di-numeri",
+          "nl": "rekenpiramides",
+          "sv": "talpyramider"
         },
         "name": {
           "en": "Number Walls",
           "de": "Zahlenmauern",
           "es": "Pirámides numéricas",
           "fr": "Pyramides de nombres",
-          "pt": "Pirâmide de números"
+          "pt": "Pirâmide de números",
+          "it": "Piramidi di numeri",
+          "nl": "Rekenpiramides",
+          "sv": "Talpyramider"
         }
       },
       "doubles-halves": {
@@ -2951,14 +3011,20 @@
           "de": "verdoppeln-und-halbieren",
           "es": "dobles-y-mitades",
           "fr": "doubles-et-moities",
-          "pt": "dobro-e-metade"
+          "pt": "dobro-e-metade",
+          "it": "doppio-e-meta",
+          "nl": "verdubbelen-en-halveren",
+          "sv": "dubbelt-och-halften"
         },
         "name": {
           "en": "Doubles and Halves",
           "de": "Verdoppeln und Halbieren",
           "es": "Dobles y mitades",
           "fr": "Doubles et moitiés",
-          "pt": "Dobro e metade"
+          "pt": "Dobro e metade",
+          "it": "Doppio e metà",
+          "nl": "Verdubbelen en halveren",
+          "sv": "Dubbelt och hälften"
         }
       },
       "sentence-building": {
@@ -2967,14 +3033,20 @@
           "de": "schuettelsaetze",
           "es": "ordenar-frases",
           "fr": "phrases-melangees",
-          "pt": "frases-embaralhadas"
+          "pt": "frases-embaralhadas",
+          "it": "frasi-in-disordine",
+          "nl": "husselzinnen",
+          "sv": "meningsbyggnad"
         },
         "name": {
           "en": "Sentence Building",
           "de": "Schüttelsätze",
           "es": "Ordenar frases",
           "fr": "Phrases mélangées",
-          "pt": "Frases embaralhadas"
+          "pt": "Frases embaralhadas",
+          "it": "Frasi in disordine",
+          "nl": "Husselzinnen",
+          "sv": "Meningsbyggnad"
         }
       },
       "capitals-punctuation": {
@@ -2983,14 +3055,20 @@
           "de": "satzanfang-und-satzzeichen",
           "es": "mayusculas-y-puntuacion",
           "fr": "majuscules-et-ponctuation",
-          "pt": "maiuscula-e-pontuacao"
+          "pt": "maiuscula-e-pontuacao",
+          "it": "maiuscole-e-punteggiatura",
+          "nl": "hoofdletters-en-leestekens",
+          "sv": "stor-bokstav-och-skiljetecken"
         },
         "name": {
           "en": "Capital Letters and Punctuation",
           "de": "Satzanfang und Satzzeichen",
           "es": "Mayúsculas y puntuación",
           "fr": "Majuscules et ponctuation",
-          "pt": "Maiúscula e pontuação"
+          "pt": "Maiúscula e pontuação",
+          "it": "Maiuscole e punteggiatura",
+          "nl": "Hoofdletters en leestekens",
+          "sv": "Stor bokstav och skiljetecken"
         }
       },
       "word-classes": {
@@ -2999,14 +3077,20 @@
           "de": "wortarten",
           "es": "clases-de-palabras",
           "fr": "nature-des-mots",
-          "pt": "classes-de-palavras"
+          "pt": "classes-de-palavras",
+          "it": "nomi-verbi-e-aggettivi",
+          "nl": "woordsoorten",
+          "sv": "ordklasser"
         },
         "name": {
           "en": "Word Classes",
           "de": "Wortarten",
           "es": "Clases de palabras",
           "fr": "Nature des mots",
-          "pt": "Classes de palavras"
+          "pt": "Classes de palavras",
+          "it": "Nomi, verbi e aggettivi",
+          "nl": "Woordsoorten",
+          "sv": "Ordklasser"
         }
       },
       "calendar": {
@@ -3015,14 +3099,20 @@
           "de": "kalender",
           "es": "el-calendario",
           "fr": "lire-le-calendrier",
-          "pt": "calendario"
+          "pt": "calendario",
+          "it": "il-calendario",
+          "nl": "kalender-lezen",
+          "sv": "kalendern"
         },
         "name": {
           "en": "Calendar",
           "de": "Kalender",
           "es": "El calendario",
           "fr": "Lire le calendrier",
-          "pt": "Calendário"
+          "pt": "Calendário",
+          "it": "Il calendario",
+          "nl": "Kalender lezen",
+          "sv": "Kalendern"
         }
       },
       "picture-writing": {
@@ -3031,14 +3121,20 @@
           "de": "schreiben-zum-bild",
           "es": "escribir-sobre-la-imagen",
           "fr": "production-d-ecrit",
-          "pt": "producao-de-texto-com-imagem"
+          "pt": "producao-de-texto-com-imagem",
+          "it": "produzione-scritta",
+          "nl": "schrijven-bij-een-plaatje",
+          "sv": "skriv-till-bilden"
         },
         "name": {
           "en": "Picture Writing Prompts",
           "de": "Schreiben zum Bild",
           "es": "Escribir sobre la imagen",
           "fr": "Production d'écrit",
-          "pt": "Produção de texto com imagem"
+          "pt": "Produção de texto com imagem",
+          "it": "Produzione scritta",
+          "nl": "Schrijven bij een plaatje",
+          "sv": "Skriv till bilden"
         }
       },
       "grid-coordinates": {
@@ -3047,14 +3143,20 @@
           "de": "koordinaten-im-gitter",
           "es": "coordenadas-en-cuadricula",
           "fr": "pixel-art",
-          "pt": "coordenadas-na-malha"
+          "pt": "coordenadas-na-malha",
+          "it": "coordinate-sulla-griglia",
+          "nl": "coordinaten-in-het-rooster",
+          "sv": "koordinater-i-rutnat"
         },
         "name": {
           "en": "Grid Coordinates",
           "de": "Koordinaten im Gitter",
           "es": "Coordenadas en cuadrícula",
           "fr": "Pixel art",
-          "pt": "Coordenadas na malha"
+          "pt": "Coordenadas na malha",
+          "it": "Coordinate sulla griglia",
+          "nl": "Coördinaten in het rooster",
+          "sv": "Koordinater i rutnät"
         }
       }
     },

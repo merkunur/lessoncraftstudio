@@ -50,7 +50,7 @@
       "instruction": "Chaque flèche montre une graduation. Pars du nombre le plus proche, compte, puis écris le nombre dans la case."
     },
     "G1-249": {
-      "title": "Phrases mélangées : remets les mots dans l'ordre",
+      "title": "Phrases mélangées",
       "instruction": "Les mots sont mélangés. Remets-les dans l'ordre et écris la phrase sur la ligne, avec une majuscule et un point."
     },
     "G2-274": {
@@ -78,7 +78,7 @@
       "instruction": "Repère chaque case grâce à sa lettre et à son nombre, comme B2. Colorie-la avec la couleur de son groupe pour faire apparaître le dessin."
     },
     "G3-370": {
-      "title": "Problèmes de multiplication et de division",
+      "title": "Problèmes : multiplier et diviser",
       "instruction": "Lis chaque histoire. Aide-toi de l'image. Écris la réponse dans la case, puis complète la phrase réponse."
     }
   },

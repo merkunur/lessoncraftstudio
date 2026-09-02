@@ -1430,5 +1430,85 @@
   "K-283": {
     "title": "Mina första små bokstäver: a b c d",
     "instruction": "Spåra varje liten bokstav och skriv sedan en egen på den tomma raden. Börja vid den orangea pricken och följ pilarna."
+  },
+  "K-284": {
+    "title": "Spåra och skriv ord",
+    "instruction": "Säg ordet till bilden. Spåra de streckade bokstäverna och skriv sedan ordet själv på de tomma raderna."
+  },
+  "K-285": {
+    "title": "Prick till prick",
+    "instruction": "Börja vid den orangea pricken. Dra streck från prick till prick i rätt ordning tills bilden kommer fram."
+  },
+  "K-286": {
+    "title": "Rita av i rutnätet",
+    "instruction": "Titta noga på bilden till vänster. Färglägg samma rutor i det tomma rutnätet så att bilden blir likadan."
+  },
+  "K-287": {
+    "title": "Singular och plural",
+    "instruction": "Läs ordet för en. Spåra sedan ordet för flera och skriv det själv på den tomma raden."
+  },
+  "K-288": {
+    "title": "En eller ett?",
+    "instruction": "Säg ordet till bilden högt. Ringa in det ord som passar framför: en eller ett."
+  },
+  "G1-242": {
+    "title": "Läs och måla",
+    "instruction": "Läs varje mening noga. Måla sedan precis de bilder som meningen säger – i rätt färg."
+  },
+  "G1-243": {
+    "title": "Dagens tal",
+    "instruction": "Titta på dagens tal. Fyll i varje ruta på sidan med hjälp av talet."
+  },
+  "G1-244": {
+    "title": "Skriv ordet till bilden",
+    "instruction": "Säg vad bilden föreställer. Skriv ordet på raden."
+  },
+  "G1-245": {
+    "title": "Alfabetisk ordning",
+    "instruction": "Ta hjälp av alfabetet högst upp. Numrera bildorden från 1 till 6 i alfabetisk ordning och skriv dem sedan i rätt ordning på raderna."
+  },
+  "G1-246": {
+    "title": "Talpyramider",
+    "instruction": "Varje sten är summan av de två stenarna under den. Fyll i talen som saknas."
+  },
+  "G1-247": {
+    "title": "Dubbelt och hälften",
+    "instruction": "Titta på lappen över varje grupp: dubbelt eller hälften. Räkna ut och skriv talen i rutorna."
+  },
+  "G1-248": {
+    "title": "Läs av tallinjen",
+    "instruction": "Varje pil pekar på ett streck. Räkna vidare från talet före pilen och skriv talet i rutan."
+  },
+  "G1-249": {
+    "title": "Ordna orden till en mening",
+    "instruction": "Orden har hamnat huller om buller. Ordna dem och skriv meningen på raden med stor bokstav och punkt eller frågetecken."
+  },
+  "G2-274": {
+    "title": "Stor bokstav och skiljetecken",
+    "instruction": "I varje mening saknas stor bokstav och skiljetecken. Skriv meningen rätt på raden."
+  },
+  "G2-275": {
+    "title": "Substantiv, verb och adjektiv",
+    "instruction": "Läs varje ord. Är det ett substantiv, ett verb eller ett adjektiv? Skriv ordet i rätt låda."
+  },
+  "G2-276": {
+    "title": "Räkna med pengar",
+    "instruction": "Hitta varje vara på hyllan och läs priset. Svara sedan på frågorna om pengarna."
+  },
+  "G2-277": {
+    "title": "Läs kalendern",
+    "instruction": "Titta på kalendern. Använd den för att svara på alla frågor."
+  },
+  "G2-278": {
+    "title": "Skriv till bilden",
+    "instruction": "Titta noga på bilden. Ta hjälp av ordbanken och skriv vad du ser och vad som händer."
+  },
+  "G2-279": {
+    "title": "Koordinater i rutnät",
+    "instruction": "Hitta varje ruta med hjälp av bokstav och siffra, till exempel B2. Måla den i gruppens färg tills bilden kommer fram."
+  },
+  "G3-370": {
+    "title": "Räknehändelser: multiplikation och division",
+    "instruction": "Läs varje räknehändelse. Ta hjälp av bilden. Skriv svaret i rutan och skriv sedan färdigt svarsmeningen."
   }
 }

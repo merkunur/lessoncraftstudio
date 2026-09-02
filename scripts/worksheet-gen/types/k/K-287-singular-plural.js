@@ -14,9 +14,16 @@ const { countBadge } = require('../../templates/components-b2.js');
 const { entriesFor, displayWord, traceable, distinctByWord, fileUri } = require('../../lib/b2-common.js');
 const { LABELS } = require('../../data/b2/labels.js');
 
+// en: the L.K.1.c prefix rule (cat→cats, box→boxes). Other locales: the locale's own
+// default pattern — the stem (all but the last letter, diacritics folded) carries over
+// and only the ending changes (it mela→mele, de Apfel→Äpfel, fi kissa→kissat).
 function isRegular(sing, plur, loc) {
   const s = sing.toLocaleLowerCase(loc), p = plur.toLocaleLowerCase(loc);
-  return p !== s && p.startsWith(s);
+  if (p === s) return false;
+  if (loc === 'en') return p.startsWith(s);
+  const fold = (w) => w.normalize('NFD').replace(/[̀-ͯ]/g, '');
+  const stem = fold(s).slice(0, Math.max(2, [...s].length - 1));
+  return fold(p).startsWith(stem);
 }
 
 module.exports = {
@@ -27,9 +34,9 @@ module.exports = {
   exerciseType: 'singular-plural',
   themeAxis: { applicable: true, minNouns: 8, excludeBw: true },
   difficulty: {
-    1: { rows: 3, clones: [2], rowH: 224, picSingle: 96, picClone: 76, glyphSing: 34, glyphPlur: 48, laneH: 62, minLetters: 0, maxLetters: 7 },
-    2: { rows: 4, clones: [2, 3], rowH: 168, picSingle: 80, picClone: 62, glyphSing: 30, glyphPlur: 40, laneH: 52, minLetters: 0, maxLetters: 10 },
-    3: { rows: 4, clones: [2, 3], rowH: 168, picSingle: 76, picClone: 58, glyphSing: 28, glyphPlur: 38, laneH: 50, minLetters: 5, maxLetters: 12 },
+    1: { rows: 3, clones: [2], rowH: 232, picSingle: 96, picClone: 70, glyphSing: 34, glyphPlur: 46, laneH: 58, minLetters: 0, maxLetters: 7 },
+    2: { rows: 4, clones: [2, 3], rowH: 172, picSingle: 80, picClone: 50, glyphSing: 30, glyphPlur: 36, laneH: 46, minLetters: 0, maxLetters: 10 },
+    3: { rows: 4, clones: [2, 3], rowH: 172, picSingle: 76, picClone: 48, glyphSing: 28, glyphPlur: 34, laneH: 44, minLetters: 5, maxLetters: 12 },
   },
   i18n: {
     en: {
@@ -60,7 +67,7 @@ module.exports = {
         const rot = ((k - (n - 1) / 2) * 6).toFixed(1);
         return `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${e.vocabKey}" style="width:${d.picClone}px;height:${d.picClone}px;transform:rotate(${rot}deg)">`;
       }).join('');
-      return `<div class="ws-card" style="flex-direction:row;height:${d.rowH}px;padding:10px;gap:12px;align-items:center" ` +
+      return `<div class="ws-card" style="flex-direction:row;height:${d.rowH}px;padding:8px 10px;gap:12px;align-items:center" ` +
         `data-lcs-row data-lcs-vocab="${e.vocabKey}" data-lcs-singular="${e.sing}" data-lcs-plural="${e.plur}" data-lcs-n="${n}">` +
         `<div style="width:176px;display:flex;flex-direction:column;align-items:center;gap:6px;position:relative" data-lcs-side="one">` +
         `<div style="position:relative;margin:10px 0 0 10px">${countBadge(1)}<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${e.vocabKey}" style="width:${d.picSingle}px;height:${d.picSingle}px"></div>` +
@@ -91,7 +98,9 @@ module.exports = {
         if (seen.has(row.dataset.lcsVocab)) fails.push(`row ${i + 1}: duplicate noun`);
         seen.add(row.dataset.lcsVocab);
         if (s === p) fails.push(`row ${i + 1}: plural equals singular`);
-        if (!p.toLocaleLowerCase(lang).startsWith(s.toLocaleLowerCase(lang))) fails.push(`row ${i + 1}: "${p}" is not a regular (prefix) plural of "${s}"`);
+        const fold = (w) => w.toLocaleLowerCase(lang).normalize('NFD').replace(/[̀-ͯ]/g, '');
+        const stem = lang === 'en' ? s.toLocaleLowerCase(lang) : fold(s).slice(0, Math.max(2, [...s].length - 1));
+        if (!(lang === 'en' ? p.toLocaleLowerCase(lang) : fold(p)).startsWith(stem)) fails.push(`row ${i + 1}: "${p}" is not a regular plural of "${s}"`);
         if (n < 2 || n > 3) fails.push(`row ${i + 1}: ${n} clones`);
         const oneImgs = row.querySelectorAll('[data-lcs-side="one"] img');
         const manyImgs = row.querySelectorAll('[data-lcs-side="many"] img');

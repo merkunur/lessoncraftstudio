@@ -1027,6 +1027,615 @@ const SENTENCES = {
         ]
       }
     ]
+  },
+  "it": {
+    "nounCase": "lower",
+    "endSpace": false,
+    "names": [
+      "Sofia",
+      "Leonardo",
+      "Giulia",
+      "Francesco",
+      "Aurora",
+      "Lorenzo",
+      "Alice",
+      "Matteo"
+    ],
+    "colorWords": null,
+    "nounForms": {},
+    "fixLabels": {
+      "capital": "Maiuscola",
+      "name": "Nomi propri",
+      "end": "Punteggiatura"
+    },
+    "frames": [
+      {
+        "id": "c1",
+        "kind": "color",
+        "text": "Colora {n} {noun} di {color}.",
+        "noun": "pl"
+      },
+      {
+        "id": "c2",
+        "kind": "color",
+        "text": "Cerca {n} {noun} da colorare di {color}.",
+        "noun": "pl"
+      },
+      {
+        "id": "c3",
+        "kind": "color",
+        "text": "Colora di {color} solo {n} {noun}.",
+        "noun": "pl"
+      },
+      {
+        "id": "c4",
+        "kind": "color",
+        "text": "Ci sono {n} {noun} da colorare di {color}.",
+        "noun": "pl"
+      },
+      {
+        "id": "s1",
+        "kind": "simple",
+        "text": "{name} vede tre {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s2",
+        "kind": "simple",
+        "text": "{name} conta cinque {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s3",
+        "kind": "simple",
+        "text": "Chi vede tre {noun}?",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s4",
+        "kind": "simple",
+        "text": "Ci sono quattro {noun} nella scatola.",
+        "noun": "pl",
+        "uses": [
+          "fix"
+        ]
+      },
+      {
+        "id": "s5",
+        "kind": "simple",
+        "text": "{name} disegna quattro {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s6",
+        "kind": "simple",
+        "text": "{name} ha sei {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s7",
+        "kind": "simple",
+        "text": "Io vedo cinque {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s8",
+        "kind": "simple",
+        "text": "{name} e {name} contano sei {noun}.",
+        "noun": "pl",
+        "uses": [
+          "fix"
+        ]
+      },
+      {
+        "id": "s9",
+        "kind": "simple",
+        "text": "Ecco tre {noun}!",
+        "noun": "pl",
+        "uses": [
+          "fix"
+        ],
+        "exclaimStrict": true
+      },
+      {
+        "id": "s10",
+        "kind": "simple",
+        "text": "{name} cerca tre {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s11",
+        "kind": "simple",
+        "text": "Chi ha quattro {noun}?",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s12",
+        "kind": "simple",
+        "text": "{name} regala tre {noun} a {name}.",
+        "noun": "pl",
+        "uses": [
+          "fix"
+        ]
+      },
+      {
+        "id": "s13",
+        "kind": "simple",
+        "text": "{name} vuole sei {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s14",
+        "kind": "simple",
+        "text": "{name} trova cinque {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s15",
+        "kind": "simple",
+        "text": "Chi regala tre {noun} a {name}?",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s16",
+        "kind": "simple",
+        "text": "Chi disegna quattro {noun} per {name}?",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      }
+    ]
+  },
+  "nl": {
+    "nounCase": "lower",
+    "endSpace": false,
+    "names": [
+      "Emma",
+      "Daan",
+      "Julia",
+      "Sem",
+      "Tess",
+      "Finn",
+      "Lotte",
+      "Luuk"
+    ],
+    "colorWords": null,
+    "nounForms": {},
+    "fixLabels": {
+      "capital": "Hoofdletter",
+      "name": "Namen",
+      "end": "Leesteken"
+    },
+    "frames": [
+      {
+        "id": "c1",
+        "kind": "color",
+        "text": "Kleur {n} {noun} {color}.",
+        "noun": "pl"
+      },
+      {
+        "id": "c2",
+        "kind": "color",
+        "text": "Zoek {n} {noun} en kleur ze {color}.",
+        "noun": "pl"
+      },
+      {
+        "id": "c3",
+        "kind": "color",
+        "text": "Geef {n} {noun} de kleur {color}.",
+        "noun": "pl"
+      },
+      {
+        "id": "c4",
+        "kind": "color",
+        "text": "Tel {n} {noun} en kleur ze {color}.",
+        "noun": "pl"
+      },
+      {
+        "id": "c5",
+        "kind": "color",
+        "text": "Omcirkel {n} {noun} en kleur ze {color}.",
+        "noun": "pl"
+      },
+      {
+        "id": "s1",
+        "kind": "simple",
+        "text": "{name} ziet drie {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s2",
+        "kind": "simple",
+        "text": "{name} telt de {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s3",
+        "kind": "simple",
+        "text": "Waar zijn de {noun}?",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s4",
+        "kind": "simple",
+        "text": "{name} heeft twee {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s5",
+        "kind": "simple",
+        "text": "De {noun} zijn heel groot.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s6",
+        "kind": "simple",
+        "text": "Zie jij de {noun}?",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s7",
+        "kind": "simple",
+        "text": "Zijn dit jouw {noun}?",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s8",
+        "kind": "simple",
+        "text": "{name} zoekt de {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s9",
+        "kind": "simple",
+        "text": "{name} houdt van {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s10",
+        "kind": "simple",
+        "text": "Hoeveel {noun} zie jij?",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s11",
+        "kind": "simple",
+        "text": "De {noun} zijn heel klein.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s12",
+        "kind": "simple",
+        "text": "{name} vindt de {noun} mooi.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s13",
+        "kind": "simple",
+        "text": "{name} en ik zien de {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s14",
+        "kind": "simple",
+        "text": "{name} tekent twee {noun} voor {name}.",
+        "noun": "pl",
+        "uses": [
+          "fix"
+        ]
+      },
+      {
+        "id": "s15",
+        "kind": "simple",
+        "text": "Heeft {name} de {noun} gezien?",
+        "noun": "pl",
+        "uses": [
+          "fix"
+        ]
+      }
+    ]
+  },
+  "sv": {
+    "nounCase": "lower",
+    "endSpace": false,
+    "names": [
+      "Elsa",
+      "Hugo",
+      "Alma",
+      "Liam",
+      "Maja",
+      "Oscar",
+      "Vera",
+      "Elias"
+    ],
+    "colorWords": {
+      "red": "röda",
+      "blue": "blå",
+      "yellow": "gula",
+      "green": "gröna",
+      "orange": "orange",
+      "purple": "lila",
+      "brown": "bruna",
+      "pink": "rosa"
+    },
+    "nounForms": {},
+    "fixLabels": {
+      "capital": "Stor bokstav",
+      "name": "Namn",
+      "end": "Skiljetecken"
+    },
+    "frames": [
+      {
+        "id": "c1",
+        "kind": "color",
+        "text": "Måla {n} {noun} {color}.",
+        "noun": "pl"
+      },
+      {
+        "id": "c2",
+        "kind": "color",
+        "text": "Hitta {n} {noun} och måla dem {color}.",
+        "noun": "pl"
+      },
+      {
+        "id": "c3",
+        "kind": "color",
+        "text": "Färglägg {n} {noun} {color}.",
+        "noun": "pl"
+      },
+      {
+        "id": "c4",
+        "kind": "color",
+        "text": "Leta upp {n} {noun} och måla dem {color}.",
+        "noun": "pl"
+      },
+      {
+        "id": "s1",
+        "kind": "simple",
+        "text": "{name} ser tre {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s2",
+        "kind": "simple",
+        "text": "{name} har många {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s3",
+        "kind": "simple",
+        "text": "Var är alla {noun}?",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s4",
+        "kind": "simple",
+        "text": "{name} räknar alla {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s5",
+        "kind": "simple",
+        "text": "Kan du hitta två {noun}?",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s6",
+        "kind": "simple",
+        "text": "{name} och {name} tittar på {noun}.",
+        "noun": "pl",
+        "uses": [
+          "fix"
+        ]
+      },
+      {
+        "id": "s7",
+        "kind": "simple",
+        "text": "{name} tycker om {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s8",
+        "kind": "simple",
+        "text": "Vilka fina {noun}!",
+        "noun": "pl",
+        "uses": [
+          "fix"
+        ],
+        "exclaimStrict": true
+      },
+      {
+        "id": "s9",
+        "kind": "simple",
+        "text": "{name} vill ha fem {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s10",
+        "kind": "simple",
+        "text": "Har du sett några {noun}?",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s11",
+        "kind": "simple",
+        "text": "{name} ritar tre {noun} till {name}.",
+        "noun": "pl",
+        "uses": [
+          "fix"
+        ]
+      },
+      {
+        "id": "s12",
+        "kind": "simple",
+        "text": "Mina {noun} är jättefina.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s13",
+        "kind": "simple",
+        "text": "{name} hittar två {noun}.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s14",
+        "kind": "simple",
+        "text": "Alla {noun} är stora.",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      },
+      {
+        "id": "s15",
+        "kind": "simple",
+        "text": "Vem har flest {noun}?",
+        "noun": "pl",
+        "uses": [
+          "unscramble",
+          "fix"
+        ]
+      }
+    ]
   }
 };
 

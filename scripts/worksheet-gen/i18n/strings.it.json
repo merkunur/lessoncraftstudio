@@ -1430,5 +1430,85 @@
   "K-283": {
     "title": "Le prime minuscole: a b c d",
     "instruction": "Ripassa ogni lettera minuscola, poi prova a scriverla tu sulla riga vuota. Parti dal punto arancione e segui le frecce."
+  },
+  "K-284": {
+    "title": "Ricalca e scrivi le parole",
+    "instruction": "Di' il nome della figura. Ripassa le lettere tratteggiate, poi scrivi tu la parola sulle righe vuote."
+  },
+  "K-285": {
+    "title": "Unisci i puntini",
+    "instruction": "Parti dal punto arancione. Unisci i puntini seguendo l'ordine dei numeri e scopri il disegno nascosto."
+  },
+  "K-286": {
+    "title": "Copia il disegno sui quadretti",
+    "instruction": "Guarda il disegno a sinistra. Colora gli stessi quadretti nella griglia vuota per riprodurlo uguale."
+  },
+  "K-287": {
+    "title": "Singolare e plurale",
+    "instruction": "Leggi la parola al singolare. Poi ripassa la parola al plurale e scrivila tu sulla riga vuota."
+  },
+  "K-288": {
+    "title": "Gli articoli determinativi",
+    "instruction": "Di' ad alta voce il nome della figura. Cerchia l'articolo giusto da mettere davanti al nome."
+  },
+  "G1-242": {
+    "title": "Leggi e colora",
+    "instruction": "Leggi bene ogni frase. Poi colora solo le figure che dice la frase, con il colore giusto."
+  },
+  "G1-243": {
+    "title": "Il numero del giorno",
+    "instruction": "Guarda il numero grande. Rappresentalo in tutti i riquadri della pagina."
+  },
+  "G1-244": {
+    "title": "Dettato muto: scrivi la parola",
+    "instruction": "Di' il nome di ogni figura. Scrivi la parola sulla riga."
+  },
+  "G1-245": {
+    "title": "Ordine alfabetico",
+    "instruction": "Usa la striscia dell'alfabeto. Numera le parole da 1 a 6 in ordine alfabetico, poi scrivile in ordine sulle righe."
+  },
+  "G1-246": {
+    "title": "Piramidi di numeri",
+    "instruction": "Ogni mattone è la somma dei due mattoni sotto di lui. Scrivi i numeri che mancano."
+  },
+  "G1-247": {
+    "title": "Doppio e metà",
+    "instruction": "Trova il doppio dei gruppi con la scritta «doppio» e la metà dei gruppi con la scritta «metà». Scrivi i numeri nei riquadri."
+  },
+  "G1-248": {
+    "title": "La linea dei numeri",
+    "instruction": "Ogni freccia indica una tacca. Parti dal numero scritto più vicino, conta in avanti e scrivi il numero nel riquadro."
+  },
+  "G1-249": {
+    "title": "Riordina la frase",
+    "instruction": "Le parole sono in disordine. Riordinale e scrivi la frase sulla riga, con la maiuscola all'inizio e il segno giusto alla fine."
+  },
+  "G2-274": {
+    "title": "Maiuscole e punteggiatura",
+    "instruction": "Ogni frase ha perso la lettera maiuscola e il segno di punteggiatura finale. Riscrivila correttamente sulla riga."
+  },
+  "G2-275": {
+    "title": "Nome, verbo o aggettivo?",
+    "instruction": "Leggi ogni parola. È un nome, un verbo o un aggettivo? Scrivila nella scatola giusta."
+  },
+  "G2-276": {
+    "title": "Andiamo a fare la spesa",
+    "instruction": "Cerca ogni prodotto sullo scaffale e leggi il prezzo. Poi rispondi alle domande sui soldi."
+  },
+  "G2-277": {
+    "title": "Leggere il calendario",
+    "instruction": "Guarda il calendario e usalo per rispondere a tutte le domande."
+  },
+  "G2-278": {
+    "title": "Scrivi guardando l'immagine",
+    "instruction": "Guarda l'immagine. Aiutati con le parole della scatola e con gli inizi di frase per scrivere quello che vedi o una piccola storia."
+  },
+  "G2-279": {
+    "title": "Coordinate sulla griglia",
+    "instruction": "Trova ogni casella con la sua lettera e il suo numero, come B2. Colorala con il colore del suo gruppo e scopri il disegno."
+  },
+  "G3-370": {
+    "title": "Problemi di moltiplicazione e divisione",
+    "instruction": "Leggi ogni problema. Aiutati con il disegno. Scrivi la risposta nel riquadro e completa la frase di risposta."
   }
 }

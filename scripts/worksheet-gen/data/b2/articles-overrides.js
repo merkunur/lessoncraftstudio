@@ -29,6 +29,31 @@ const ARTICLE_OVERRIDES = {
       "dice",
       "chess"
     ]
+  },
+  "it": {
+    "refuse": false,
+    "note": "it il/la keyed off the vocab gender is exactly the classe prima drill. keyFor audited: f → la (vowel-initial f → l' only at d3, else refused), m consonant → il, m s-impura/z/gn/ps/pn/x/y/i+vowel → lo at d3 (refused at d1/d2), vowel-initial m → l' at d3 (refused at d1/d2). Correct for every wave noun (lo skateboard, lo yacht, il jet, la jeep, la gru, l'ananas, l'elefante, l'anatra, l'ape). Two guards to add before the page is extended beyond the wave themes: (1) h-initial loanwords (hamburger, hotel) → l' in current usage, so refuse /^h/; (2) invariant-plural and pluralia-tantum entries (kiwi, lime, cachi, ananas, autobus, taxi, camion, blocchi, carte, dadi, scacchi, pastelli, lego, domino, robot) are already refused by the plural === singular rule — keep it, 'i/gli/le' are never on the chips."
+  },
+  "nl": {
+    "refuse": false,
+    "refuseKeys": [
+      "blocks",
+      "cards",
+      "crayons",
+      "chess"
+    ],
+    "note": "de/het keyed off the vocab gender (d = de-woord, h = het-woord); the wave themes are well mixed (vehicles: het vliegtuig / het schip / het busje / het jacht / het skateboard; animals: het paard / het varken / het konijn / het schaap / het rendier / het nijlpaard; every diminutive is 'het'), so the two-chip card is a genuine groep 3-4 lidwoord drill. RULING: refuse the toy entries whose stored singular is really a plural or a verb — blocks 'Blokken', cards 'Kaarten', crayons 'Kleurpotloden' (chip 'het' + a plural is wrong; the singular would be 'het kleurpotlood') and chess 'Schaken' (a verb; the noun is 'het schaakspel'). Title 'De of het?' is the exact phrase Dutch teachers search."
+  },
+  "sv": {
+    "refuse": false,
+    "refuseKeys": [
+      "blocks",
+      "crayons",
+      "chess",
+      "lego",
+      "domino"
+    ],
+    "note": "en/ett keyed off the vocab gender (n = en-ord → 'en', t = ett-ord → 'ett'); this IS the F-klass/åk 1 drill 'en eller ett?'. Title 'En eller ett?' is the genre phrase. REFUSE (keyFor → null) the toys entries whose stored singular is a plural or a mass/game noun: blocks 'Klossar', crayons 'Kritor' (a lone 'en' before a plural is wrong), chess 'Schack' (a game — 'ett schackspel', never 'ett schack'), lego 'Lego' (mass noun) and domino 'Domino' (the piece is 'en dominobricka'). The wave rule (fruits/vehicles/toys before animals) is necessary but not sufficient for sv: the colour animals theme has ONE ett-noun (får) in 37, so a 6-card animals page is 'en' six times and teaches nothing — the panel asks the generator to refuse a theme for sv when it cannot place ≥ 2 ett-nouns on the page. Fruits (äpple, päron, plommon, fikon, hallon, körsbär, blåbär, granatäpple), vehicles (flygplan, jetplan, skepp, tåg) and toys (flygplan, kort, tåg) all key cleanly."
   }
 };
 

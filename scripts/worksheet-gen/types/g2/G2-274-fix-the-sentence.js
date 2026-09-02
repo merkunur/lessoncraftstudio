@@ -52,7 +52,14 @@ module.exports = {
       const qs = cand.filter((f) => SB.endMark(f.text) === '?').length;
       if (withName < d.needCaps) continue;
       if (d.needQ && qs < d.needQ) continue;
-      if (difficulty === 1 && cand.some((f) => /\{name\}/.test(f.text))) continue;
+      // Keyed on the CONFIG, not the difficulty index. A page whose checklist has
+      // no Names chip must not print a name, and `needCaps === 0` is exactly the
+      // config that omits that chip. Keying on `difficulty === 1` let a variation
+      // that re-points the d1 config at d2 slip through: G2-281 shipped
+      // "anna has a big fox" under a two-chip banner that never mentions names.
+      // The nt20-B-VAR convention replicates one config across d1/d2/d3, so any
+      // future face inherits the hole unless the guard reads the config.
+      if (d.needCaps === 0 && cand.some((f) => /\{name\}/.test(f.text))) continue;
       frames = cand;
     }
     if (!frames) throw new Error(`G2-274: bank ${loc} cannot satisfy d${difficulty} (fix frames: ${pool.length})`);

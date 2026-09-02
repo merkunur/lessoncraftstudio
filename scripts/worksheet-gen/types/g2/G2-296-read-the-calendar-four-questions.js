@@ -1,4 +1,4 @@
-/** G2-296 — Read the Calendar: Four Questions. nt20-B-VAR variation of G2-277. */
+/** G2-296 — Read the Calendar: A First Look. nt20-B-VAR variation of G2-277. */
 'use strict';
 const base = require('./G2-277-read-the-calendar.js');
 // One object for all three levels: the waves ship d2 only, so a face must
@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-296',
   slug: 'read-the-calendar-four-questions',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Read the Calendar: Four Questions", instruction: "Look at the month. Answer each question by reading the calendar." } },
+  i18n: { en: { title: "Read the Calendar: A First Look", instruction: "Look at the month. Answer each question by reading the calendar." } },
 };

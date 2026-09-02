@@ -1510,5 +1510,261 @@
   "G3-370": {
     "title": "Regnehistorier med gange og division",
     "instruction": "Læs hver regnehistorie. Brug billedet som hjælp. Skriv svaret i feltet, og gør derefter svarsætningen færdig."
+  },
+  "K-289": {
+    "title": "Skriv de første ord efter",
+    "instruction": "Skriv oven i det stiplede ord, og skriv det selv på linjen."
+  },
+  "K-290": {
+    "title": "Skriv ordet efter, og skriv det to gange",
+    "instruction": "Skriv ordet efter, og skriv det derefter to gange."
+  },
+  "K-291": {
+    "title": "Skriv de lange ord efter",
+    "instruction": "Ordene her er lange. Skriv hvert ord efter, og skriv det så selv."
+  },
+  "K-294": {
+    "title": "Prik til prik fra 1 til 10",
+    "instruction": "Start ved den orange prik, og forbind prikkerne fra 1 til 10."
+  },
+  "K-295": {
+    "title": "Prik til prik fra 11 til 20",
+    "instruction": "Start ved den orange prik, og forbind prikkerne fra 11 til 20."
+  },
+  "K-296": {
+    "title": "Prik til prik: tæl videre fra 11 til 30",
+    "instruction": "Tæl videre fra 11 til 30, og find det skjulte billede."
+  },
+  "K-298": {
+    "title": "Tegn efter i kvadratnet: nem start",
+    "instruction": "Et lille kvadratnet til at starte med: farvelæg de samme felter."
+  },
+  "K-299": {
+    "title": "Tegn efter i kvadratnet med bogstav og tal",
+    "instruction": "Brug bogstav og tal på hvert felt, og tegn billedet efter."
+  },
+  "K-300": {
+    "title": "Tegn efter i et 8x8-kvadratnet",
+    "instruction": "Et større kvadratnet: find hvert felt, og farvelæg det ens."
+  },
+  "K-302": {
+    "title": "Ental og flertal: de første ord",
+    "instruction": "Én eller flere? Skriv oven i det ord, der betyder flere."
+  },
+  "K-303": {
+    "title": "Ental og flertal: længere ord",
+    "instruction": "Ordene her er længere. Skriv oven i ordet, der betyder flere."
+  },
+  "K-306": {
+    "title": "En eller et: fire billeder",
+    "instruction": "Sig ordet til hvert billede, og sæt ring om en eller et."
+  },
+  "K-307": {
+    "title": "En eller et: otte billeder",
+    "instruction": "Sæt ring om en eller et ved hvert af de otte billeder."
+  },
+  "G1-251": {
+    "title": "Læs og farvelæg: fire sætninger",
+    "instruction": "Læs hver af de fire sætninger, og farvelæg præcis det, der står."
+  },
+  "G1-252": {
+    "title": "Læs og farvelæg: seks sætninger",
+    "instruction": "Seks sætninger og seks farver: læs grundigt, før du farvelægger."
+  },
+  "G1-255": {
+    "title": "Dagens tal: tallene fra 11 til 20",
+    "instruction": "Dagens tal er mellem 11 og 20. Udfyld alle felterne på siden."
+  },
+  "G1-256": {
+    "title": "Dagens tal: 10 mere og 10 mindre",
+    "instruction": "Find 10 mere og 10 mindre end dagens tal, og udfyld resten."
+  },
+  "G1-257": {
+    "title": "Dagens tal: tocifrede tal op til 99",
+    "instruction": "Vis et tocifret tal i tiere og enere, og udfyld hvert felt."
+  },
+  "G1-258": {
+    "title": "Skriv ordet med ordbank og første bogstav",
+    "instruction": "Brug ordbanken. Det første bogstav står allerede på linjen."
+  },
+  "G1-259": {
+    "title": "Skriv ordet: vælg fra ordbanken",
+    "instruction": "Alle ordene står i ordbanken. Skriv det rigtige ved hvert billede."
+  },
+  "G1-260": {
+    "title": "Skriv ordet uden ordbank",
+    "instruction": "Der er ingen ordbank. Skriv selv ordet til hvert billede."
+  },
+  "G1-262": {
+    "title": "Alfabetisk rækkefølge: nummerér fire ord",
+    "instruction": "Nummerér de fire kort fra 1 til 4 i alfabetisk rækkefølge."
+  },
+  "G1-263": {
+    "title": "Alfabetisk rækkefølge: nummerér og skriv",
+    "instruction": "Nummerér kortene, og skriv så ordene i rækkefølge."
+  },
+  "G1-264": {
+    "title": "Alfabetisk rækkefølge: samme første bogstav",
+    "instruction": "Nogle ord begynder ens. Se på det andet bogstav."
+  },
+  "G1-266": {
+    "title": "Talpyramider op til 10",
+    "instruction": "Hver sten er summen af de to under den. Byg pyramiderne til 10."
+  },
+  "G1-267": {
+    "title": "Talpyramider med fire rækker",
+    "instruction": "Pyramiderne har fire rækker. Læg hvert par sten sammen hele vejen op."
+  },
+  "G1-268": {
+    "title": "Talpyramider: find den manglende sten",
+    "instruction": "En sten i bunden mangler. Brug stenen ovenover til at finde den."
+  },
+  "G1-270": {
+    "title": "Det dobbelte og det halve: nem start",
+    "instruction": "Se mærkaten over hver gruppe, og find det dobbelte eller det halve."
+  },
+  "G1-271": {
+    "title": "Det dobbelte og det halve op til 20",
+    "instruction": "Nu er der kun tal. Find det dobbelte og det halve op til 20."
+  },
+  "G1-274": {
+    "title": "Aflæs tallinjen fra 0 til 10",
+    "instruction": "Skriv det tal, hver pil peger på, på tallinjen fra 0 til 10."
+  },
+  "G1-275": {
+    "title": "Aflæs tallinjen til 20 med få tal",
+    "instruction": "Kun 0, 10 og 20 står på linjen. Tæl videre hen til hver pil."
+  },
+  "G1-276": {
+    "title": "Aflæs tallinjen fra 0 til 30",
+    "instruction": "Tæl videre op til 30, og skriv det tal, hver pil peger på."
+  },
+  "G1-277": {
+    "title": "Aflæs tallinjen fra 0 til 50",
+    "instruction": "Hvert tiende tal står på linjen. Tæl videre op til 50."
+  },
+  "G1-278": {
+    "title": "Aflæs tallinjen til 50: tæl med femmere",
+    "instruction": "Tæl med femmere fra 0, 25 eller 50 hen til hver pil."
+  },
+  "G1-279": {
+    "title": "Aflæs tallinjen til 100: tæl med femmere",
+    "instruction": "Hver streg er fem op til 100. Hvilket tal peger pilen på?"
+  },
+  "G1-280": {
+    "title": "Aflæs tallinjen til 100: tæl med tiere",
+    "instruction": "Hver streg er ti. Tæl med tiere hen til hver pil op til 100."
+  },
+  "G1-281": {
+    "title": "Aflæs tallinjen fra 0 til 120",
+    "instruction": "Tallinjen går forbi 100. Tæl med tiere hen til hver pil."
+  },
+  "G1-282": {
+    "title": "Sæt ordene i rækkefølge: med hjælp",
+    "instruction": "Brug det store bogstav og tegnet til at finde sætningen."
+  },
+  "G1-283": {
+    "title": "Sæt ordene i rækkefølge: uden hjælp",
+    "instruction": "Der er hverken stort bogstav eller punktum. Find selv rækkefølgen."
+  },
+  "G2-281": {
+    "title": "Stort bogstav og punktum: fire sætninger",
+    "instruction": "Skriv de fire sætninger om med stort bogstav og punktum."
+  },
+  "G2-282": {
+    "title": "Stort bogstav, navne og tegn til sidst",
+    "instruction": "Ret det store bogstav og navnene, og vælg tegnet til sidst."
+  },
+  "G2-285": {
+    "title": "Ordklasser: sortér ni ord",
+    "instruction": "Læs hvert af de ni ordkort, og skriv det i den kasse, det hører til."
+  },
+  "G2-286": {
+    "title": "Ordklasser: sortér ord uden billeder",
+    "instruction": "Der er ingen billeder. Læs hvert ord, og sortér det i en kasse."
+  },
+  "G2-287": {
+    "title": "Ordklasser: sortér femten ord",
+    "instruction": "Femten ord og ingen billeder. Sortér hvert ord i den rigtige kasse."
+  },
+  "G2-289": {
+    "title": "Købmandsregning: to opgaver",
+    "instruction": "Læs de to opgaver, og brug priserne på hylden til at svare."
+  },
+  "G2-290": {
+    "title": "Købmandsregning: fire slags spørgsmål",
+    "instruction": "Fire kort med fire forskellige spørgsmål om priser og penge."
+  },
+  "G2-291": {
+    "title": "Købmandsregning: hvad koster det i alt?",
+    "instruction": "Hvert kort spørger om prisen i alt. Læg priserne sammen."
+  },
+  "G2-292": {
+    "title": "Købmandsregning: tre varer i kurven",
+    "instruction": "Der er tre varer i hver kurv. Læg alle tre priser sammen."
+  },
+  "G2-293": {
+    "title": "Købmandsregning: hvor meget får du tilbage?",
+    "instruction": "Tæl de mønter, der betales med, og find pengene tilbage."
+  },
+  "G2-294": {
+    "title": "Købmandsregning: er der penge nok?",
+    "instruction": "Sammenlign pengene med prisen. Sæt ring om ja eller nej."
+  },
+  "G2-295": {
+    "title": "Købmandsregning: hvor meget dyrere?",
+    "instruction": "Sammenlign to priser. Hvor meget dyrere er den ene?"
+  },
+  "G2-296": {
+    "title": "Læs kalenderen: fire spørgsmål",
+    "instruction": "Se på måneden, og svar på de fire spørgsmål ved at læse kalenderen."
+  },
+  "G2-297": {
+    "title": "Læs kalenderen: en travl måned",
+    "instruction": "Måneden er fuld af aftaler. Læs kalenderen grundigt, og svar på alt."
+  },
+  "G2-298": {
+    "title": "Læs kalenderen: ugedagene",
+    "instruction": "Alle spørgsmålene handler om ugedagene. Læs nedad i søjlerne."
+  },
+  "G2-299": {
+    "title": "Skriv til billedet med sætningsstartere",
+    "instruction": "Sætningsstarterne og ordbanken hjælper dig i gang."
+  },
+  "G2-300": {
+    "title": "Skriv til billedet med dine egne ord",
+    "instruction": "Der er ingen sætningsstartere. Skriv din egen historie."
+  },
+  "G2-302": {
+    "title": "Koordinater i et 6x6-kvadratnet",
+    "instruction": "Find hvert felt ud fra bogstav og tal, og farvelæg det i kvadratnettet."
+  },
+  "G2-303": {
+    "title": "Koordinater i et 10x10-kvadratnet",
+    "instruction": "Et større net med flere felter. Arbejd omhyggeligt hele listen igennem."
+  },
+  "G3-371": {
+    "title": "Regnehistorier med gange",
+    "instruction": "Billedet viser de lige store grupper. Skriv svaret i feltet."
+  },
+  "G3-372": {
+    "title": "Regnehistorier med division: del ligeligt",
+    "instruction": "Hver historie deler ud. Fordel tingene i kasserne."
+  },
+  "G3-373": {
+    "title": "Regnehistorier med division: lav grupper",
+    "instruction": "Sæt ring om de lige store grupper, og skriv svaret."
+  },
+  "G3-374": {
+    "title": "Regnehistorier med division på to måder",
+    "instruction": "Den ene historie deler ud, den anden laver grupper."
+  },
+  "G3-375": {
+    "title": "Regnehistorier med gange og grupper",
+    "instruction": "Den ene historie bygger grupper, den anden deler dem op igen."
+  },
+  "G3-376": {
+    "title": "Regnehistorier: tre blandede opgaver",
+    "instruction": "Tre historier. Find ud af, hvad hver enkelt spørger om."
   }
 }

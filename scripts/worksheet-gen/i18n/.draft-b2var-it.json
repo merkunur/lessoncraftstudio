@@ -1,0 +1,276 @@
+{
+  "locale": "it",
+  "types": {
+    "K-289": {
+      "title": "Ricalca e scrivi: le prime parole",
+      "instruction": "Ripassa le lettere tratteggiate e riscrivi."
+    },
+    "K-290": {
+      "title": "Ricalca e scrivi due volte",
+      "instruction": "Ripassa la parola, poi scrivila due volte da te."
+    },
+    "K-291": {
+      "title": "Ricalca e scrivi: parole lunghe",
+      "instruction": "Parole lunghe: ricalca piano, poi scrivi."
+    },
+    "K-294": {
+      "title": "Unisci i puntini da 1 a 10",
+      "instruction": "Parti dal punto arancione e unisci i puntini dall'1 al 10."
+    },
+    "K-295": {
+      "title": "Unisci i puntini da 11 a 20",
+      "instruction": "Parti dal punto arancione e unisci i numeri dall'11 al 20."
+    },
+    "K-296": {
+      "title": "Unisci i puntini contando da 11 a 30",
+      "instruction": "Conta in avanti da 11 a 30 e scopri il disegno."
+    },
+    "K-298": {
+      "title": "Copia sui quadretti: primi passi",
+      "instruction": "Una griglia piccola: colora gli stessi quadretti."
+    },
+    "K-299": {
+      "title": "Copia sui quadretti con lettere e numeri",
+      "instruction": "Usa la lettera e il numero di ogni casella."
+    },
+    "K-300": {
+      "title": "Copia sui quadretti: griglia 8x8",
+      "instruction": "Griglia più grande: trova ogni casella e copiala."
+    },
+    "K-302": {
+      "title": "Singolare e plurale: le prime parole",
+      "instruction": "Uno o tanti? Ricalca la parola giusta."
+    },
+    "K-303": {
+      "title": "Singolare e plurale: parole lunghe",
+      "instruction": "Parole più lunghe: ricalca il plurale."
+    },
+    "K-306": {
+      "title": "Gli articoli: il o la?",
+      "instruction": "Guarda la figura, di' il nome e cerchia il o la."
+    },
+    "K-307": {
+      "title": "Gli articoli: il, lo, la o l'?",
+      "instruction": "Cerchia l'articolo giusto: il, lo, la o l'."
+    },
+    "G1-251": {
+      "title": "Leggi e colora: quattro frasi",
+      "instruction": "Leggi ogni frase e colora solo quello che chiede."
+    },
+    "G1-252": {
+      "title": "Leggi e colora: una pagina piena",
+      "instruction": "Più figure e più colori: leggi con attenzione."
+    },
+    "G1-255": {
+      "title": "Il numero del giorno: da 11 a 19",
+      "instruction": "Il numero va da 11 a 19: riempi ogni riquadro."
+    },
+    "G1-256": {
+      "title": "Il numero del giorno: 10 in più, 10 in meno",
+      "instruction": "Trova dieci in più e dieci in meno."
+    },
+    "G1-257": {
+      "title": "Il numero del giorno: fino a 99",
+      "instruction": "Scomponi in decine e unità, poi completa tutto."
+    },
+    "G1-258": {
+      "title": "Dettato muto con l'iniziale",
+      "instruction": "La prima lettera è già scritta: continua."
+    },
+    "G1-259": {
+      "title": "Dettato muto: scegli la parola",
+      "instruction": "Scegli dalla scatola la parola giusta."
+    },
+    "G1-260": {
+      "title": "Dettato muto: senza aiuti",
+      "instruction": "Nessun aiuto: scrivi tu la parola giusta."
+    },
+    "G1-262": {
+      "title": "Numera in ordine alfabetico",
+      "instruction": "Numera le quattro parole: non riscriverle."
+    },
+    "G1-263": {
+      "title": "Ordine alfabetico: numera e scrivi",
+      "instruction": "Numera le parole, poi riscrivile."
+    },
+    "G1-264": {
+      "title": "Ordine alfabetico: stesse iniziali",
+      "instruction": "Guarda anche la seconda lettera."
+    },
+    "G1-266": {
+      "title": "Piramidi di numeri fino a 10",
+      "instruction": "Ogni mattone è la somma dei due che stanno sotto."
+    },
+    "G1-267": {
+      "title": "Piramidi di numeri a quattro piani",
+      "instruction": "Quattro piani da riempire: parti dal basso."
+    },
+    "G1-268": {
+      "title": "Piramidi di numeri: il mattone mancante",
+      "instruction": "Manca un mattone in basso: guarda sopra."
+    },
+    "G1-270": {
+      "title": "Doppio e metà con le immagini",
+      "instruction": "Leggi l'etichetta: doppio o metà."
+    },
+    "G1-271": {
+      "title": "Doppio e metà fino a 20",
+      "instruction": "Senza immagini: calcola i doppi e le metà."
+    },
+    "G1-274": {
+      "title": "La linea dei numeri da 0 a 10",
+      "instruction": "Ogni tacca vale 1: scrivi il numero della freccia."
+    },
+    "G1-275": {
+      "title": "La linea dei numeri fino a 20",
+      "instruction": "Sono scritti solo 0, 10 e 20: conta in avanti."
+    },
+    "G1-276": {
+      "title": "La linea dei numeri fino a 30",
+      "instruction": "Ogni tacca vale 1: conta in avanti fino a 30."
+    },
+    "G1-277": {
+      "title": "La linea dei numeri fino a 50",
+      "instruction": "È scritto un numero ogni dieci: conta in avanti."
+    },
+    "G1-278": {
+      "title": "La linea dei numeri: salti di 5 fino a 50",
+      "instruction": "Ogni tacca vale 5: conta di 5 in 5."
+    },
+    "G1-279": {
+      "title": "La linea dei numeri: salti di 5 fino a 100",
+      "instruction": "Ogni tacca vale 5 e si arriva a 100."
+    },
+    "G1-280": {
+      "title": "La linea dei numeri: salti di 10 fino a 100",
+      "instruction": "Ogni tacca vale 10: salta di dieci."
+    },
+    "G1-281": {
+      "title": "La linea dei numeri da 0 a 120",
+      "instruction": "Questa linea supera il 100: conta di 10 in 10."
+    },
+    "G1-282": {
+      "title": "Riordina la frase: con gli indizi",
+      "instruction": "La maiuscola e il segno ti aiutano."
+    },
+    "G1-283": {
+      "title": "Riordina la frase: senza indizi",
+      "instruction": "Nessun aiuto: trova tu l'unico ordine."
+    },
+    "G2-281": {
+      "title": "Maiuscola e punto finale",
+      "instruction": "Riscrivi ogni frase con maiuscola e punto."
+    },
+    "G2-282": {
+      "title": "Maiuscole nei nomi e segno finale",
+      "instruction": "Correggi maiuscole e segno finale."
+    },
+    "G2-285": {
+      "title": "Analisi grammaticale: 9 parole",
+      "instruction": "Alcune parole hanno l'immagine."
+    },
+    "G2-286": {
+      "title": "Analisi grammaticale senza immagini",
+      "instruction": "Senza immagini: leggi e ordina."
+    },
+    "G2-287": {
+      "title": "Analisi grammaticale: 15 parole",
+      "instruction": "Quindici parole e nessuna immagine."
+    },
+    "G2-289": {
+      "title": "Fare la spesa: due problemi",
+      "instruction": "Leggi le storie e usa i prezzi esposti."
+    },
+    "G2-290": {
+      "title": "Fare la spesa: quattro domande",
+      "instruction": "Quattro domande diverse sulla spesa."
+    },
+    "G2-291": {
+      "title": "Fare la spesa: quanto in tutto?",
+      "instruction": "Somma i prezzi dei due prodotti."
+    },
+    "G2-292": {
+      "title": "Fare la spesa: tre prodotti",
+      "instruction": "Ogni cesto ha tre prodotti da sommare."
+    },
+    "G2-293": {
+      "title": "Fare la spesa: quanto resto?",
+      "instruction": "Conta le monete, poi calcola il resto."
+    },
+    "G2-294": {
+      "title": "Fare la spesa: bastano i soldi?",
+      "instruction": "Bastano i soldi? Cerchia sì o no."
+    },
+    "G2-295": {
+      "title": "Fare la spesa: quanto in più?",
+      "instruction": "Quanta differenza c'è tra i prezzi?"
+    },
+    "G2-296": {
+      "title": "Leggere il calendario: quattro domande",
+      "instruction": "Rispondi alle quattro domande sul mese."
+    },
+    "G2-297": {
+      "title": "Leggere il calendario: un mese pieno",
+      "instruction": "Un mese pieno: rispondi a sei domande."
+    },
+    "G2-298": {
+      "title": "Leggere il calendario: i giorni",
+      "instruction": "Le domande sono sui giorni della settimana."
+    },
+    "G2-299": {
+      "title": "Guarda e scrivi: inizi di frase",
+      "instruction": "Usa gli inizi di frase e le parole."
+    },
+    "G2-300": {
+      "title": "Guarda e scrivi: con parole tue",
+      "instruction": "Nessun inizio di frase: racconta tu."
+    },
+    "G2-302": {
+      "title": "Coordinate sulla griglia 6x6",
+      "instruction": "Colora ogni casella indicata con il suo colore."
+    },
+    "G2-303": {
+      "title": "Coordinate sulla griglia 10x10",
+      "instruction": "Griglia più grande: segui l'elenco con ordine."
+    },
+    "G3-371": {
+      "title": "Problemi di moltiplicazione",
+      "instruction": "Guarda i gruppi uguali e scrivi il totale."
+    },
+    "G3-372": {
+      "title": "Problemi di divisione: ripartizione",
+      "instruction": "Distribuisci tutto nei riquadri."
+    },
+    "G3-373": {
+      "title": "Problemi di divisione: contenenza",
+      "instruction": "Cerchia i gruppi nel disegno."
+    },
+    "G3-374": {
+      "title": "Problemi di divisione: i due modi",
+      "instruction": "Una distribuisce, l'altra raggruppa."
+    },
+    "G3-375": {
+      "title": "Problemi: moltiplicare e raggruppare",
+      "instruction": "Prima moltiplichi, poi dividi."
+    },
+    "G3-376": {
+      "title": "Tre problemi misti: per e diviso",
+      "instruction": "Tre storie: cosa chiede ognuna?"
+    }
+  },
+  "enAudit": [
+    "NEW — G1-270: the instruction \"Double the group, then halve it. Small numbers to start.\" describes a two-step operation on one group, but the render is four INDEPENDENT cards, each carrying its own label (double / half) and its own different set of foxes (3+3, half of 6, 2+2, half of 2). The child never halves a group they doubled. This is a flow the page does not have; the honest sentence is \"read the label on each card: double or half\".",
+    "NEW — K-299: the title \"Copy the Picture Using Letters and Numbers\" names a property it SHARES with K-300, which is also labelled (A-H / 1-8). Same defect class as the already-fixed G1-263. Against K-298 the true delta is the labels; against K-300 it is the smaller 6x6 grid, and only one of those is in the title.",
+    "NEW — G1-258 / G1-259: the same shared-property class again. \"With a Word Bank\" and \"Choose from the Word Bank\" both name the bank, which BOTH pages have (bank:true). The real delta is starter:true — G1-258 prints the first letter of every word and G1-259 does not. The instructions do carry it; the titles do not, so the two pages are indistinguishable in a SERP.",
+    "NEW — G2-294: every card on this page is a canBuy, and in two independently seeded renders ALL THREE answers were \"no\" (45 vs 35+15=50, 40 vs 35+30=65, 50 vs 40+35=75). A three-card yes/no page whose answers are identical can be completed correctly by writing one word three times, with no arithmetic. The generator needs a mixed-verdict constraint, the way the sum-ceiling checks constrain the number ranges.",
+    "NEW — G2-285: the instruction never mentions that some word chips carry a supporting picture (pics:true — dolphin, seagull, giraffe are illustrated). That picture support is the ONLY thing separating this face from G2-286, whose instruction DOES say \"No pictures to help\". The contrast is stated on one side of the pair only, so G2-285 reads as the generic face of the family.",
+    "NEW — G1-268: \"A bottom brick is missing. Use the brick above to find it.\" describes only the one missing bottom brick, but every other brick in all four walls is also empty and has to be built. The instruction under-describes the task a child actually faces; \"then build the rest of the wall\" is missing.",
+    "NEW — G1-256: the number of the day is drawn from 11-19, so \"ten more\" is always 21-29 — OUTSIDE the 0-20 number line printed on the same page (line.max = 20). Not wrong, but the page supplies a number line that cannot be used to check the very answer the page asks for. Either the line should run to 30 or the ten-more box belongs on the up-to-99 face.",
+    "NEW — G2-300: the title \"Your Own Words\" and the instruction \"No sentence starters\" overclaim. A word bank of six labelled nouns is still printed on the page (nouns:6). The real delta against G2-299 is the absence of the sentence starters (starters:null), not the absence of supplied vocabulary. \"No sentence starters this time\" alone would be honest; \"your own words\" is not.",
+    "NEW — G2-293: beyond the duplicated card already reported, EVERY card on the page is paid with the same two 25c coins, so the tendered amount is 50 on all three. \"Count the coins paid\" is therefore never a real sub-task — the child counts the identical pair three times. Also card 1 asks \"How much money does Mia get back?\" while cards 2 and 3 ask \"How much change does X get?\" — two registers for one question type on one page.",
+    "KNOWN (seen, corroborating) — G1-264: \"Two words start alike\" over a page of SIX words in TWO pairs (baby/boat and scooter/swing). Both pairs need the second letter; the singular framing describes one.",
+    "KNOWN (seen, corroborating) — G2-281: the same names-need-capitals gap that was fixed in G2-282. Two of the four sentences begin with a lowercase proper name (\"anna has a big fox\", \"ben likes the little donkey\"), but needCaps is 0, the legend carries only \"Capital letter\" and \"End mark\", and the instruction says only \"a capital letter and a full stop\". A child who capitalises just the first word has not finished the sentence.",
+    "KNOWN (seen, corroborating) — the G3 grouping stories state the arrangement as already done while the strip is drawn ungrouped, in rows of ten: G3-373 (\"Ben makes groups of 5\" over a flat strip), G3-374 card 2 (\"arranges 10 cranberries in rows of 5\" drawn as one row of 10), G3-375 card 2 (\"20 koalas in rows of 5\" drawn as 2 rows of 10) and G3-376 card 3. The rows-of-ten layout is deliberate (it must not restate the quotient), so the fix belongs in the story wording, not the picture.",
+    "DATA (fixed by the regeneration, recorded) — the first out/b2var-faces.json I read carried three stale themes (G1-283, G3-372, G3-376 all said vehicles) and a sweep path g1283-vehicles.png that did not exist on disk, while loadType(id).i18n.en already held the corrected English. The generator, not the exported table, is the source of truth; a panel briefed only from the table would have named three themes wrongly."
+  ]
+}

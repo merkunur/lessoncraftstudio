@@ -1510,5 +1510,261 @@
   "G3-370": {
     "title": "Sanalliset kerto- ja jakolaskut",
     "instruction": "Lue tarina. Käytä kuvaa apuna. Kirjoita vastaus laatikkoon ja täydennä sitten vastauslause."
+  },
+  "K-289": {
+    "title": "Jäljennä lyhyet sanat",
+    "instruction": "Lue valmis sana. Jäljennä katkoviivat ja kirjoita sana itse."
+  },
+  "K-290": {
+    "title": "Jäljennä ja kirjoita kahdesti",
+    "instruction": "Jäljennä sana kerran ja kirjoita se sitten kahdesti."
+  },
+  "K-291": {
+    "title": "Jäljennä pitkät sanat",
+    "instruction": "Nämä sanat ovat pitkiä. Jäljennä ja kirjoita ne itse."
+  },
+  "K-294": {
+    "title": "Yhdistä pisteet 1–10",
+    "instruction": "Aloita oranssista pisteestä. Yhdistä pisteet 1–10 järjestyksessä."
+  },
+  "K-295": {
+    "title": "Yhdistä pisteet 11–20",
+    "instruction": "Aloita oranssista pisteestä. Yhdistä pisteet 11–20 järjestyksessä."
+  },
+  "K-296": {
+    "title": "Yhdistä pisteet 11–30",
+    "instruction": "Aloita pisteestä 11. Laske eteenpäin 30:een ja yhdistä pisteet."
+  },
+  "K-298": {
+    "title": "Piirrä ruudukkoon: helppo aloitus",
+    "instruction": "Ruudukossa ei ole kirjaimia. Väritä samat ruudut viereen."
+  },
+  "K-299": {
+    "title": "Piirrä ruudukkoon: A–F ja 1–6",
+    "instruction": "Etsi ruutu kirjaimen ja numeron avulla. Väritä samat ruudut."
+  },
+  "K-300": {
+    "title": "Piirrä ruudukkoon: 8×8-ruudukko",
+    "instruction": "Isompi ruudukko: etsi ruudut kirjaimen ja numeron avulla."
+  },
+  "K-302": {
+    "title": "Yksikkö ja monikko: lyhyet sanat",
+    "instruction": "Sanat ovat lyhyitä. Jäljennä monikkomuoto viivalle."
+  },
+  "K-303": {
+    "title": "Yksikkö ja monikko: pitkät sanat",
+    "instruction": "Sanat ovat pitkiä. Jäljennä monikko viivalle."
+  },
+  "K-306": {
+    "title": "Yksi vai monta: neljä kuvaa",
+    "instruction": "Neljä kuvaa. Ympyröi sana, joka sopii kuvan määrään."
+  },
+  "K-307": {
+    "title": "Yksi vai monta: kahdeksan kuvaa",
+    "instruction": "Kahdeksan kuvaa. Ympyröi kuvaan sopiva muoto."
+  },
+  "G1-251": {
+    "title": "Lue ja väritä: neljä lausetta",
+    "instruction": "Neljä lausetta ja neljä väriä. Väritä juuri lauseen mukaan."
+  },
+  "G1-252": {
+    "title": "Lue ja väritä: kiireinen sivu",
+    "instruction": "Enemmän lauseita ja värejä. Lue jokainen lause tarkasti loppuun."
+  },
+  "G1-255": {
+    "title": "Päivän luku 11–19",
+    "instruction": "Täytä kymppiruudut, tukkimiehet ja muut ruudut päivän luvun mukaan."
+  },
+  "G1-256": {
+    "title": "Päivän luku: 10 enemmän, 10 vähemmän",
+    "instruction": "Etsi 10 enemmän ja 10 vähemmän kuin päivän luku."
+  },
+  "G1-257": {
+    "title": "Päivän luku: kaksinumeroiset luvut",
+    "instruction": "Päivän luku on 21–99. Näytä se kymppeinä ja ykkösinä."
+  },
+  "G1-258": {
+    "title": "Kirjoita sana: alkukirjain valmiina",
+    "instruction": "Sanapankki auttaa. Alkukirjain on jo viivalla."
+  },
+  "G1-259": {
+    "title": "Kirjoita sana sanapankin avulla",
+    "instruction": "Kaikki sanat ovat pankissa. Kirjoita oikea sana."
+  },
+  "G1-260": {
+    "title": "Kirjoita sana ilman sanapankkia",
+    "instruction": "Nyt ei ole sanapankkia. Kirjoita sana itse viivalle."
+  },
+  "G1-262": {
+    "title": "Aakkosjärjestys: numeroi kortit",
+    "instruction": "Numeroi neljä korttia aakkosjärjestykseen."
+  },
+  "G1-263": {
+    "title": "Aakkosjärjestys: numeroi ja kirjoita",
+    "instruction": "Numeroi kortit ja kirjoita sanat viivoille."
+  },
+  "G1-264": {
+    "title": "Aakkosjärjestys: sama alkukirjain",
+    "instruction": "Kahdella parilla on sama alkukirjain. Katso toista."
+  },
+  "G1-266": {
+    "title": "Lukupyramidi 10:een",
+    "instruction": "Ylin tiili on alempien summa. Rakenna pyramidit 10:een."
+  },
+  "G1-267": {
+    "title": "Lukupyramidi: neljä kerrosta",
+    "instruction": "Pyramideissa on neljä kerrosta. Laske pareittain ylöspäin."
+  },
+  "G1-268": {
+    "title": "Lukupyramidi: puuttuva tiili",
+    "instruction": "Yksi alin tiili puuttuu. Käytä yläpuolen tiiliä apuna."
+  },
+  "G1-270": {
+    "title": "Tuplaa ja puolita kuvien avulla",
+    "instruction": "Kortit näyttävät ryhmät. Tuplaa tai puolita ne."
+  },
+  "G1-271": {
+    "title": "Tuplaa ja puolita 20:een",
+    "instruction": "Nyt vain luvut. Laske tuplat ja puolet 20:een asti."
+  },
+  "G1-274": {
+    "title": "Lukusuora 0–10",
+    "instruction": "Kirjoita luku, jota jokainen nuoli osoittaa lukusuoralla 0–10."
+  },
+  "G1-275": {
+    "title": "Lukusuora 0–20: vähän merkintöjä",
+    "instruction": "Vain 0, 10 ja 20 on merkitty. Laske eteenpäin nuoleen."
+  },
+  "G1-276": {
+    "title": "Lukusuora 0–30",
+    "instruction": "Laske eteenpäin 30:een. Kirjoita nuolten osoittamat luvut."
+  },
+  "G1-277": {
+    "title": "Lukusuora 0–50",
+    "instruction": "Joka kymmenes luku on merkitty. Laske eteenpäin 50:een."
+  },
+  "G1-278": {
+    "title": "Lukusuora 0–50: viiden välein",
+    "instruction": "Laske viiden välein 0:sta, 25:stä tai 50:stä nuoleen."
+  },
+  "G1-279": {
+    "title": "Lukusuora 0–100: viiden välein",
+    "instruction": "Joka viiva on viisi. Millä luvulla jokainen nuoli on?"
+  },
+  "G1-280": {
+    "title": "Lukusuora 0–100: kymmenen välein",
+    "instruction": "Joka viiva on kymmenen. Laske kymmenittäin nuoleen asti."
+  },
+  "G1-281": {
+    "title": "Lukusuora 0–120",
+    "instruction": "Lukusuora jatkuu yli sadan. Laske kymmenittäin nuoleen."
+  },
+  "G1-282": {
+    "title": "Järjestä lause: vihjeet mukana",
+    "instruction": "Iso alkukirjain ja piste näyttävät lauseen rajat."
+  },
+  "G1-283": {
+    "title": "Järjestä lause ilman vihjeitä",
+    "instruction": "Ei vihjeitä. Etsi ainoa järjestys, joka toimii."
+  },
+  "G2-281": {
+    "title": "Korjaa lause: piste lopussa",
+    "instruction": "Lisää jokaiseen lauseeseen iso alkukirjain ja piste."
+  },
+  "G2-282": {
+    "title": "Korjaa lause: lopetusmerkki",
+    "instruction": "Korjaa alkukirjaimet ja nimet. Valitse lopetusmerkki."
+  },
+  "G2-285": {
+    "title": "Sanaluokat: yhdeksän sanaa",
+    "instruction": "Substantiiveissa on kuva apuna. Lajittele yhdeksän sanaa."
+  },
+  "G2-286": {
+    "title": "Sanaluokat ilman kuvia",
+    "instruction": "Nyt ilman kuvia. Lue sana ja vie se oikeaan laatikkoon."
+  },
+  "G2-287": {
+    "title": "Sanaluokat: viisitoista sanaa",
+    "instruction": "Viisitoista sanaa, ei kuvia. Lajittele laatikoihin."
+  },
+  "G2-289": {
+    "title": "Rahalaskut: kaksi kysymystä",
+    "instruction": "Lue molemmat tarinat. Käytä hyllyn hintoja apuna."
+  },
+  "G2-290": {
+    "title": "Rahalaskut: neljä eri kysymystä",
+    "instruction": "Neljä korttia ja neljä erilaista kysymystä."
+  },
+  "G2-291": {
+    "title": "Rahalaskut: laske ostokset yhteen",
+    "instruction": "Jokaisessa kortissa lasketaan kahden tavaran hinta."
+  },
+  "G2-292": {
+    "title": "Rahalaskut: kolme tavaraa korissa",
+    "instruction": "Korissa on kolme tavaraa. Laske hinnat yhteen."
+  },
+  "G2-293": {
+    "title": "Rahalaskut: paljonko takaisin?",
+    "instruction": "Laske maksetut kolikot. Paljonko rahaa saa takaisin?"
+  },
+  "G2-294": {
+    "title": "Rahalaskut: riittääkö raha?",
+    "instruction": "Vertaa rahaa ja hintaa. Ympyröi kyllä tai ei."
+  },
+  "G2-295": {
+    "title": "Rahalaskut: paljonko enemmän?",
+    "instruction": "Vertaa kahta hintaa. Laske, paljonko on erotus."
+  },
+  "G2-296": {
+    "title": "Kalenterin lukeminen: neljä kysymystä",
+    "instruction": "Katso kuukautta. Vastaa neljään kysymykseen."
+  },
+  "G2-297": {
+    "title": "Kalenterin lukeminen: kiireinen kuukausi",
+    "instruction": "Kuukausi on täynnä. Lue kalenteria tarkasti."
+  },
+  "G2-298": {
+    "title": "Kalenteri ja viikonpäivät",
+    "instruction": "Kaikki kysymykset koskevat viikonpäiviä."
+  },
+  "G2-299": {
+    "title": "Kirjoita kuvasta aloitusten avulla",
+    "instruction": "Aloituslauseet auttavat. Sanapankissa ovat sanat."
+  },
+  "G2-300": {
+    "title": "Kirjoita kuvasta omin sanoin",
+    "instruction": "Ei aloituslauseita. Kirjoita kuvasta omin sanoin."
+  },
+  "G2-302": {
+    "title": "Koordinaatit 6×6-ruudukossa",
+    "instruction": "Etsi jokainen ruutu kirjaimen ja numeron avulla."
+  },
+  "G2-303": {
+    "title": "Koordinaatit 10×10-ruudukossa",
+    "instruction": "Isompi ruudukko. Käy värilista huolellisesti läpi."
+  },
+  "G3-371": {
+    "title": "Sanalliset kertolaskut",
+    "instruction": "Kuva näyttää yhtä suuret ryhmät. Kirjoita vastaus."
+  },
+  "G3-372": {
+    "title": "Sanalliset jakolaskut: jaa tasan",
+    "instruction": "Jokaisessa tarinassa jaetaan tasan laatikoihin."
+  },
+  "G3-373": {
+    "title": "Sanalliset jakolaskut: tee ryhmiä",
+    "instruction": "Ympyröi kuvasta yhtä suuret ryhmät ja laske ne."
+  },
+  "G3-374": {
+    "title": "Jakolaskut kahdella tavalla",
+    "instruction": "Toisessa jaetaan tasan, toisessa tehdään ryhmiä."
+  },
+  "G3-375": {
+    "title": "Kertolasku ja ryhmiin jako",
+    "instruction": "Toisessa kootaan ryhmiä, toisessa puretaan niitä."
+  },
+  "G3-376": {
+    "title": "Sekalaiset kerto- ja jakolaskut",
+    "instruction": "Kolme tarinaa. Mieti ensin, mitä kussakin kysytään."
   }
 }

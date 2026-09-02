@@ -1668,8 +1668,8 @@
     "instruction": "No capital, no full stop. Find the one order that works."
   },
   "G2-281": {
-    "title": "Fix the Sentence: Capital and Full Stop",
-    "instruction": "Rewrite each sentence with a capital letter and a full stop."
+    "title": "Fix the Sentence: Capital and End Mark",
+    "instruction": "Rewrite each sentence with a capital letter and the right end mark."
   },
   "G2-282": {
     "title": "Fix the Sentence: Choose the End Mark",

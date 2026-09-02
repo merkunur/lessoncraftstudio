@@ -147,8 +147,17 @@ const ROWS = [
     'Unscramble the Sentence: No Clues', 'No capital, no full stop. Find the one order that works.'],
 
   // ---------------- G2-274 capitals-punctuation ----------------
-  ['g2', 'G2-281', 'fix-the-sentence-capital-and-full-stop', 'G2-274-fix-the-sentence.js', 1, {},
-    'Fix the Sentence: Capital and Full Stop', 'Rewrite each sentence with a capital letter and a full stop.'],
+  // ends widened from the base d1's full-stop-only set. This face's axis is that
+  // it carries NO NAMES (its checklist has two chips, not three), and the guard
+  // in G2-274 now enforces that from the config. Restricting it to full stops as
+  // well leaves too small a pool: measured, only en (5), de and fr (4) have four
+  // name-free frames ending in a period - es and pt have 3, it/nl/sv/da/fi 2, no 1.
+  // Allowing the question mark lifts every locale to at least 5, and three lanes
+  // (one fewer than the base d1) leave the sampler room to find a set in it and
+  // da, whose name-free pools are the smallest. It is the gentlest of the three
+  // fix-the-sentence faces, which suits the entry step.
+  ['g2', 'G2-281', 'fix-the-sentence-capital-and-end-mark', 'G2-274-fix-the-sentence.js', 1, { ends: ['.', '?'], lanes: 3 },
+    'Fix the Sentence: Capital and End Mark', 'Rewrite each sentence with a capital letter and the right end mark.'],
   ['g2', 'G2-282', 'fix-the-sentence-choose-the-end-mark', 'G2-274-fix-the-sentence.js', 3, {},
     'Fix the Sentence: Choose the End Mark', 'Fix the capital letters and the names, and choose the right end mark.'],
 

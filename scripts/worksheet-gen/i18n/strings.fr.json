@@ -1512,259 +1512,259 @@
     "instruction": "Lis chaque histoire. Aide-toi de l'image. Écris la réponse dans la case, puis complète la phrase réponse."
   },
   "K-289": {
-    "title": "Repasser et écrire : mes premiers mots courts",
-    "instruction": "Repasse ces mots très courts, puis écris-les sur la ligne vide."
+    "title": "Repasser et écrire les mots courts",
+    "instruction": "Mots courts : repasse et écris."
   },
   "K-290": {
     "title": "Repasser une fois, écrire deux fois",
-    "instruction": "Repasse le mot une fois, puis écris-le deux fois tout seul."
+    "instruction": "Écris le mot deux fois."
   },
   "K-291": {
     "title": "Repasser et écrire les mots longs",
-    "instruction": "Repasse ces mots de 8 à 12 lettres, puis écris-les deux fois."
+    "instruction": "Mots longs : repasse lentement."
   },
   "K-294": {
     "title": "Points à relier de 1 à 10",
-    "instruction": "Relie les points de 1 à 10 en partant du point orange."
+    "instruction": "Pars du point orange et compte jusqu'à 10."
   },
   "K-295": {
     "title": "Points à relier de 11 à 20",
-    "instruction": "Le comptage commence à 11 : relie les points jusqu'à 20."
+    "instruction": "Le comptage commence à 11 et finit à 20."
   },
   "K-296": {
     "title": "Points à relier de 11 à 30",
-    "instruction": "Pars de 11 et relie les points en comptant jusqu'à 30."
+    "instruction": "Pars de 11 et compte jusqu'à 30 sans t'arrêter."
   },
   "K-298": {
     "title": "Reproduction sur quadrillage 6 x 6",
-    "instruction": "Colorie les mêmes cases sur le quadrillage vide de 6 sur 6."
+    "instruction": "Quadrillage de 6 sur 6 : reproduis-le."
   },
   "K-299": {
-    "title": "Reproduction sur quadrillage avec lettres et nombres",
-    "instruction": "Repère chaque case par sa lettre et son nombre, comme B2."
+    "title": "Reproduction sur quadrillage codé",
+    "instruction": "Chaque case a un code, comme B2."
   },
   "K-300": {
     "title": "Reproduction sur quadrillage 8 x 8",
-    "instruction": "Le quadrillage passe à 8 cases sur 8 : repère-les et recopie."
+    "instruction": "Repère les cases par leur code, 8 sur 8."
   },
   "K-302": {
-    "title": "Singulier et pluriel : mes premiers mots",
-    "instruction": "Trois mots courts : repasse le pluriel, puis écris-le."
+    "title": "Singulier et pluriel : mots courts",
+    "instruction": "Repasse le mot au pluriel."
   },
   "K-303": {
-    "title": "Singulier et pluriel : les mots longs",
-    "instruction": "Quatre mots longs : repasse le pluriel, puis écris-le."
+    "title": "Singulier et pluriel : mots longs",
+    "instruction": "Le pluriel est plus long ici."
   },
   "K-306": {
     "title": "Le ou la : entoure le bon article",
-    "instruction": "Entoure « le » ou « la » devant chacune des quatre images."
+    "instruction": "Entoure « le » ou « la »."
   },
   "K-307": {
     "title": "Un ou une : entoure le bon article",
-    "instruction": "Entoure « un » ou « une » devant chacune des huit images."
+    "instruction": "Entoure « un » ou « une »."
   },
   "G1-251": {
     "title": "Lis et colorie : quatre phrases",
-    "instruction": "Quatre phrases, quatre couleurs : colorie ce qui est demandé."
+    "instruction": "Quatre phrases et quatre couleurs : lis puis colorie."
   },
   "G1-252": {
     "title": "Lis et colorie : la page bien remplie",
-    "instruction": "Six phrases et six couleurs : lis bien avant de colorier."
+    "instruction": "Six couleurs ici : lis chaque phrase en entier."
   },
   "G1-255": {
     "title": "Le nombre du jour : de 11 à 19",
-    "instruction": "Le nombre du jour est entre 11 et 19 : remplis chaque case."
+    "instruction": "Le nombre du jour est entre 11 et 19 : remplis tout."
   },
   "G1-256": {
     "title": "Le nombre du jour : 10 de plus, 10 de moins",
-    "instruction": "Dessine le nombre en blocs, puis 10 de plus et 10 de moins."
+    "instruction": "Calcule 10 de plus et 10 de moins."
   },
   "G1-257": {
     "title": "Le nombre du jour : jusqu'à 99",
-    "instruction": "Jusqu'à 99 : décompose en dizaines et unités, puis calcule."
+    "instruction": "Décompose en dizaines et unités, jusqu'à 99."
   },
   "G1-258": {
-    "title": "Dictée muette avec liste de mots et lettre de départ",
-    "instruction": "La première lettre est donnée : complète avec la liste."
+    "title": "Dictée muette avec lettre de départ",
+    "instruction": "La première lettre est déjà écrite."
   },
   "G1-259": {
-    "title": "Dictée muette : choisis dans la liste de mots",
-    "instruction": "Huit images, huit mots dans la liste, aucune lettre donnée."
+    "title": "Dictée muette : choisis dans la liste",
+    "instruction": "Ici, aucune lettre n'est donnée."
   },
   "G1-260": {
     "title": "Dictée muette sans liste de mots",
-    "instruction": "Aucune liste : écris toi-même le nom des huit images."
+    "instruction": "Aucune liste : écris les mots tout seul."
   },
   "G1-262": {
-    "title": "Ordre alphabétique : numérote les étiquettes",
-    "instruction": "Numérote les quatre étiquettes de 1 à 4, sans rien recopier."
+    "title": "Ordre alphabétique : numéroter",
+    "instruction": "Numérote les étiquettes, sans recopier."
   },
   "G1-263": {
-    "title": "Ordre alphabétique : quatre mots à recopier",
-    "instruction": "Numérote les quatre étiquettes, puis recopie-les dans l'ordre."
+    "title": "Ordre alphabétique : quatre mots",
+    "instruction": "Numérote, puis recopie dans l'ordre."
   },
   "G1-264": {
-    "title": "Ordre alphabétique : deux mots, même lettre",
-    "instruction": "Deux mots ont la même initiale : regarde la deuxième lettre."
+    "title": "Ordre alphabétique : même initiale",
+    "instruction": "Des mots commencent par la même lettre."
   },
   "G1-266": {
     "title": "Pyramides de nombres jusqu'à 10",
-    "instruction": "Pyramides de trois étages : additionne les briques jusqu'à 10."
+    "instruction": "Additionne les deux briques du dessous : jusqu'à 10."
   },
   "G1-267": {
     "title": "Pyramides de nombres à quatre étages",
-    "instruction": "Quatre étages à remplir : additionne chaque paire de briques."
+    "instruction": "Ces pyramides comptent quatre étages."
   },
   "G1-268": {
-    "title": "Pyramides de nombres : la brique qui manque",
-    "instruction": "Une brique du bas est vide : trouve-la grâce à celle du dessus."
+    "title": "Pyramides de nombres : la brique manquante",
+    "instruction": "Une brique du bas est restée vide."
   },
   "G1-270": {
     "title": "Doubles et moitiés jusqu'à 8",
-    "instruction": "Double ou partage les groupes d'images, jusqu'à 8."
+    "instruction": "Double ou partage les groupes d'images."
   },
   "G1-271": {
-    "title": "Doubles et moitiés jusqu'à 20 sans images",
-    "instruction": "Sans image : trouve les doubles et les moitiés jusqu'à 20."
+    "title": "Doubles et moitiés jusqu'à 20",
+    "instruction": "Sans image cette fois : calcule les nombres."
   },
   "G1-274": {
     "title": "Droite graduée de 0 à 10",
-    "instruction": "Trois droites de 0 à 10 : écris le nombre de chaque flèche."
+    "instruction": "Écris le nombre montré par chaque flèche, de 0 à 10."
   },
   "G1-275": {
     "title": "Droite graduée jusqu'à 20 : peu de repères",
-    "instruction": "Seuls 0, 10 et 20 sont écrits : avance de 1 en 1."
+    "instruction": "Seuls 0, 10 et 20 sont écrits sur la droite."
   },
   "G1-276": {
     "title": "Droite graduée de 0 à 30",
-    "instruction": "Chaque trait vaut 1 : trouve les nombres jusqu'à 30."
+    "instruction": "Chaque trait vaut 1 : compte jusqu'à la flèche, de 0 à 30."
   },
   "G1-277": {
     "title": "Droite graduée de 0 à 50",
-    "instruction": "Chaque trait vaut 1 et seules les dizaines sont écrites."
+    "instruction": "Quatre droites de 0 à 50 : seules les dizaines sont écrites."
   },
   "G1-278": {
     "title": "Droite graduée de 5 en 5 jusqu'à 50",
-    "instruction": "Chaque trait vaut 5 : compte de cinq en cinq jusqu'à 50."
+    "instruction": "Ici chaque trait vaut 5, pas 1 : compte par cinq."
   },
   "G1-279": {
     "title": "Droite graduée de 5 en 5 jusqu'à 100",
-    "instruction": "Compte de cinq en cinq jusqu'à chaque flèche, jusqu'à 100."
+    "instruction": "Chaque trait vaut 5 et la droite va jusqu'à 100."
   },
   "G1-280": {
-    "title": "Droite graduée de 10 en 10 jusqu'à 100",
+    "title": "Droite graduée de 10 en 10",
     "instruction": "Chaque trait vaut 10 : compte de dix en dix jusqu'à 100."
   },
   "G1-281": {
     "title": "Droite graduée de 0 à 120",
-    "instruction": "La droite dépasse 100 : compte de dix en dix jusqu'à 120."
+    "instruction": "Cette droite ne s'arrête pas à 100 : elle va à 120."
   },
   "G1-282": {
-    "title": "Phrases mélangées : la majuscule et le point aident",
-    "instruction": "La majuscule et le point te montrent le début et la fin."
+    "title": "Phrases mélangées avec indices",
+    "instruction": "Deux indices : la majuscule et le signe final."
   },
   "G1-283": {
     "title": "Phrases mélangées sans majuscule ni point",
-    "instruction": "Ni majuscule ni point : trouve l'ordre qui fait une phrase."
+    "instruction": "Ni majuscule ni point pour t'aider."
   },
   "G2-281": {
-    "title": "Corrige la phrase : la majuscule et le point",
-    "instruction": "Réécris chaque phrase avec une majuscule et un point final."
+    "title": "Corrige la phrase : majuscule et point",
+    "instruction": "Il manque la majuscule et le point."
   },
   "G2-282": {
-    "title": "Corrige la phrase : point ou point d'interrogation ?",
-    "instruction": "Certaines phrases sont des questions : choisis le signe final."
+    "title": "Corrige la phrase : quel signe à la fin ?",
+    "instruction": "Pense aux majuscules des prénoms."
   },
   "G2-285": {
-    "title": "Nature des mots : neuf étiquettes à trier",
-    "instruction": "Neuf étiquettes, avec images : nom, verbe ou adjectif ?"
+    "title": "Nature des mots : neuf étiquettes",
+    "instruction": "Neuf mots, avec des images pour t'aider."
   },
   "G2-286": {
-    "title": "Nature des mots : douze mots sans image",
-    "instruction": "Douze mots sans image : classe-les dans la bonne boîte."
+    "title": "Nature des mots : douze étiquettes",
+    "instruction": "Douze mots à classer, sans aucune image."
   },
   "G2-287": {
-    "title": "Nature des mots : quinze mots à classer",
-    "instruction": "Quinze mots sans image : relis bien avant de les classer."
+    "title": "Nature des mots : quinze étiquettes",
+    "instruction": "Quinze mots : la page la plus longue."
   },
   "G2-289": {
-    "title": "Problèmes de monnaie : deux petites histoires",
-    "instruction": "Deux histoires : un total, puis assez d'argent ou non."
+    "title": "Problèmes de monnaie : deux histoires",
+    "instruction": "Deux histoires : lis les prix d'abord."
   },
   "G2-290": {
-    "title": "Problèmes de monnaie : quatre questions différentes",
-    "instruction": "Quatre cartes : total, monnaie rendue, assez ou non, différence."
+    "title": "Problèmes de monnaie : quatre questions",
+    "instruction": "Ici, chaque carte est différente."
   },
   "G2-291": {
-    "title": "Problèmes de monnaie : le total du panier",
-    "instruction": "Sur chaque carte, additionne les prix des deux objets achetés."
+    "title": "Problèmes de monnaie : le total",
+    "instruction": "Additionne les prix des deux objets achetés."
   },
   "G2-292": {
-    "title": "Problèmes de monnaie : trois articles dans le panier",
-    "instruction": "Additionne tout le panier : deux cartes en ont trois, une en a deux."
+    "title": "Problèmes de monnaie : trois articles",
+    "instruction": "Additionne les prix des trois articles."
   },
   "G2-293": {
-    "title": "Problèmes de monnaie : combien rend la marchande ?",
-    "instruction": "Regarde les pièces données et calcule la monnaie à rendre."
+    "title": "Problèmes de monnaie : rendre la monnaie",
+    "instruction": "Compte les pièces, puis la monnaie."
   },
   "G2-294": {
-    "title": "Problèmes de monnaie : y a-t-il assez d'argent ?",
-    "instruction": "Compare la somme au prix, entoure oui ou non, puis écris le total."
+    "title": "Problèmes de monnaie : est-ce assez ?",
+    "instruction": "Entoure oui ou non, puis le total."
   },
   "G2-295": {
-    "title": "Problèmes de monnaie : combien de plus ?",
-    "instruction": "Deux cartes demandent la différence, la troisième un total."
+    "title": "Problèmes de monnaie : la différence",
+    "instruction": "Cherche la différence entre deux prix."
   },
   "G2-296": {
     "title": "Lire le calendrier : quatre questions",
-    "instruction": "Quatre questions à résoudre en lisant le mois du calendrier."
+    "instruction": "Réponds aux quatre questions sur ce mois."
   },
   "G2-297": {
     "title": "Lire le calendrier : un mois bien rempli",
-    "instruction": "Six questions : dates, écarts et une semaine plus tard."
+    "instruction": "Six questions sur un mois bien rempli."
   },
   "G2-298": {
-    "title": "Lire le calendrier : les jours de la semaine",
-    "instruction": "Quatre questions sur les jours : lis les colonnes du mois."
+    "title": "Lire le calendrier : les jours",
+    "instruction": "Quatre questions sur les jours de la semaine."
   },
   "G2-299": {
-    "title": "Production d'écrit : les débuts de phrase",
-    "instruction": "Complète les trois débuts de phrase avec la boîte à mots."
+    "title": "Production d'écrit : débuts de phrase",
+    "instruction": "Complète les trois débuts de phrase."
   },
   "G2-300": {
-    "title": "Production d'écrit : écris avec tes propres mots",
-    "instruction": "Sans début de phrase : invente ton histoire avec les six mots."
+    "title": "Production d'écrit : à toi d'écrire",
+    "instruction": "Aucun début de phrase : à toi d'écrire."
   },
   "G2-302": {
-    "title": "Pixel art sur quadrillage 6 x 6",
-    "instruction": "Six cases sur six : repère-les par leur code, comme B2, et colorie."
+    "title": "Pixel art : quadrillage 6 x 6",
+    "instruction": "Repère chaque case par son code, comme B2, puis colorie."
   },
   "G2-303": {
     "title": "Pixel art sur quadrillage 10 x 10",
-    "instruction": "Dix cases sur dix : la liste de codes est bien plus longue."
+    "instruction": "Plus grand : 10 sur 10, et bien plus de codes."
   },
   "G3-371": {
     "title": "Problèmes de multiplication en images",
-    "instruction": "Deux multiplications : compte les groupes égaux de l'image."
+    "instruction": "Deux multiplications avec des images."
   },
   "G3-372": {
-    "title": "Problèmes de division : partager en parts égales",
-    "instruction": "Distribue les objets un par un dans les boîtes en pointillés."
+    "title": "Problèmes de division : partager",
+    "instruction": "Distribue les objets dans les boîtes."
   },
   "G3-373": {
-    "title": "Problèmes de division : faire des groupes égaux",
-    "instruction": "Entoure les paquets de même taille, puis compte-les."
+    "title": "Problèmes de division : grouper",
+    "instruction": "Entoure des paquets de la même taille."
   },
   "G3-374": {
     "title": "Problèmes de division : partager ou grouper",
-    "instruction": "Une histoire partage, l'autre groupe : les deux sont des divisions."
+    "instruction": "Partage, puis forme des paquets."
   },
   "G3-375": {
     "title": "Problèmes : multiplier puis grouper",
-    "instruction": "La première réunit des groupes égaux, la seconde les défait."
+    "instruction": "Multiplie, puis forme des paquets égaux."
   },
   "G3-376": {
-    "title": "Problèmes : multiplications et divisions mélangées",
-    "instruction": "Trois histoires : multiplication, partage et groupement mêlés."
+    "title": "Problèmes mélangés : multiplier et diviser",
+    "instruction": "Choisis la bonne opération."
   }
 }

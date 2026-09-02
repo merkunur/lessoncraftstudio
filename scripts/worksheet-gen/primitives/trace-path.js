@@ -594,8 +594,55 @@ function strokeLetterLane({ text, w, h, glyphH, reps = 4, emptyLast = false, low
  * instruction promises reading and tracing, not stroke order.
  * { text, w, h, glyphH, reps } -> { svg }
  */
-function strokeWordLane({ text, w, h, glyphH, reps = 2, label: lbl }) {
+function strokeWordLane({ text, w, h, glyphH, reps = 2, label: lbl, stack = false, modelless = false, emptyLast = false, padLeft = 10, align = 'left' }) {
   const { items, width } = letterStrokes.textGlyphs(text);
+  const strokeCount = items.reduce((n, it) => n + it.strokes.length, 0);
+
+  if (stack) {
+    // nt20-B stacked lane (K-284 / K-287 / G1-244): every rep gets the FULL
+    // lane width on its OWN school-line trio, stacked vertically and
+    // left-aligned so letter columns line up as a copying scaffold. A
+    // side-by-side lane caps a long fi/de noun at glyphH ≈ 25 px; stacking
+    // keeps K tracing size for every wave noun. `h` here is the height of ONE
+    // trio; `emptyLast` appends a blank trio; `modelless` draws rep 0 dashed
+    // (the solid model lives elsewhere on the row, e.g. K-287's singular).
+    const trioGap = 2;
+    const trios = reps + (emptyLast ? 1 : 0);
+    let { scale, yBase } = textLaneGeometry({
+      h, glyphH, heightUnits: LM.base - LM.ascender,
+      inkTop: LM.ascender, inkBottom: LM.desc,
+    });
+    const maxW = w - padLeft - 8;
+    if (width * scale > maxW) scale = maxW / width;
+    const gW = width * scale;
+    const yTop = yBase - (LM.base - LM.ascender) * scale;
+    const yMid = yBase - (LM.base - LM.xTop) * scale;
+    const x0 = align === 'center' ? (w - gW) / 2 : padLeft;
+    const parts = [];
+    for (let i = 0; i < trios; i++) {
+      const dy = i * (h + trioGap);
+      const trio = [schoolLines({ w, yTop, yBase, yMid })];
+      if (i < reps) {
+        trio.push(renderTextRep({
+          items, x0, yBase, scale,
+          isModel: !modelless && i === 0, showGuides: false, badges: false,
+        }).rep);
+      }
+      // each trio is its own <g> so verify() can count reps as `:scope > g`
+      parts.push(el('g', { transform: `translate(0 ${dy})`, ...(i < reps ? {} : { 'data-lcs-empty-trio': '1' }) }, trio.join('')));
+    }
+    const H = trios * h + (trios - 1) * trioGap;
+    return {
+      svg: svgRoot({ width: w, height: H, label: lbl || `trace word ${text}` }, parts.join(''),
+        { 'data-lcs-prim': 'trace-word', 'data-lcs-text': text,
+          'data-lcs-reps': reps, 'data-lcs-strokes': strokeCount,
+          'data-lcs-letters': items.length, 'data-lcs-stack': '1',
+          ...(modelless ? { 'data-lcs-modelless': '1' } : {}),
+          ...(emptyLast ? { 'data-lcs-empty-slot': '1' } : {}) }),
+      width: w, height: H,
+    };
+  }
+
   const segW = w / reps;
   let { scale, yBase } = textLaneGeometry({
     h, glyphH, heightUnits: LM.base - LM.ascender,
@@ -615,7 +662,6 @@ function strokeWordLane({ text, w, h, glyphH, reps = 2, label: lbl }) {
       isModel: i === 0, showGuides: false, badges: false,
     }).rep);
   }
-  const strokeCount = items.reduce((n, it) => n + it.strokes.length, 0);
   return {
     svg: svgRoot({ width: w, height: h, label: lbl || `trace word ${text}` }, parts.join(''),
       { 'data-lcs-prim': 'trace-word', 'data-lcs-text': text,
@@ -663,5 +709,5 @@ function escText(s) {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-module.exports = { STROKES, strokeLane, glyphLane, strokeGlyphLane, strokeGlyphPairLane,
+module.exports = { STROKES, strokeLane, glyphLane, strokeGlyphLane, strokeGlyphPairLane, textLaneGeometry, LM,
   strokeLetterLane, strokeWordLane, writingRow, schoolLines, renderPath, arrowHead };

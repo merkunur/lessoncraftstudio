@@ -1,0 +1,125 @@
+/**
+ * K-287 — Singular and Plural (nt20-B; `singular-plural`, K, L.K.1.c).
+ * ONE → MANY story rows: one picture with its word printed solid on the
+ * left; the same picture cloned two or three times on the right with the
+ * PLURAL in dashed strokes under the crowd and an empty writing trio. Count
+ * badges (1 · 3) make the row legible without reading. Regular (prefix)
+ * plurals ONLY at every level (L.K.1.c is regular plurals; irregulars are
+ * L.2.1.b) — a locale/theme short of regular plurals refuses.
+ * d1: 3 rows, 2 clones · d2: 4 rows · d3: 4 rows, longer words.
+ */
+'use strict';
+const { strokeWordLane } = require('../../primitives/trace-path.js');
+const { countBadge } = require('../../templates/components-b2.js');
+const { entriesFor, displayWord, traceable, distinctByWord, fileUri } = require('../../lib/b2-common.js');
+const { LABELS } = require('../../data/b2/labels.js');
+
+function isRegular(sing, plur, loc) {
+  const s = sing.toLocaleLowerCase(loc), p = plur.toLocaleLowerCase(loc);
+  return p !== s && p.startsWith(s);
+}
+
+module.exports = {
+  id: 'K-287',
+  slug: 'singular-and-plural',
+  gradeBand: 'K',
+  assetClass: 'icon-placement',
+  exerciseType: 'singular-plural',
+  themeAxis: { applicable: true, minNouns: 8, excludeBw: true },
+  difficulty: {
+    1: { rows: 3, clones: [2], rowH: 224, picSingle: 96, picClone: 76, glyphSing: 34, glyphPlur: 48, laneH: 62, minLetters: 0, maxLetters: 7 },
+    2: { rows: 4, clones: [2, 3], rowH: 168, picSingle: 80, picClone: 62, glyphSing: 30, glyphPlur: 40, laneH: 52, minLetters: 0, maxLetters: 10 },
+    3: { rows: 4, clones: [2, 3], rowH: 168, picSingle: 76, picClone: 58, glyphSing: 28, glyphPlur: 38, laneH: 50, minLetters: 5, maxLetters: 12 },
+  },
+  i18n: {
+    en: {
+      title: 'One and Many: Singular and Plural',
+      instruction: 'Read the word for one. Then trace the word for many and write it yourself on the empty line.',
+    },
+  },
+
+  build({ theme, difficulty, locale }, ctx) {
+    const d = this.difficulty[difficulty];
+    const rng = ctx.rng;
+    const loc = (locale || 'en').slice(0, 2);
+    const L = LABELS[loc] && LABELS[loc].singularPlural;
+    if (!L) throw new Error(`K-287: no labels for locale ${loc}`);
+    let pool = entriesFor(theme, loc)
+      .filter((e) => e.plural && isRegular(e.singular, e.plural, loc))
+      .map((e) => ({ ...e, sing: displayWord(e.singular, loc), plur: displayWord(e.plural, loc) }))
+      .filter((e) => traceable(e.sing) && traceable(e.plur))
+      .filter((e) => [...e.plur].length >= d.minLetters && [...e.plur].length <= d.maxLetters);
+    pool = distinctByWord(pool, (e) => e.sing);
+    if (pool.length < d.rows) throw new Error(`K-287: theme ${theme}/${loc} has ${pool.length} regular traceable plurals < ${d.rows}`);
+    const picks = rng.sample(pool, d.rows);
+    const rows = picks.map((e) => {
+      const n = rng.pick(d.clones);
+      const single = strokeWordLane({ text: e.sing, w: 160, h: d.glyphSing + 14, glyphH: d.glyphSing, reps: 1, stack: true, align: 'center', padLeft: 0 });
+      const plural = strokeWordLane({ text: e.plur, w: 440, h: d.laneH, glyphH: d.glyphPlur, reps: 1, stack: true, modelless: true, emptyLast: true, padLeft: 8 });
+      const clones = Array.from({ length: n }, (_, k) => {
+        const rot = ((k - (n - 1) / 2) * 6).toFixed(1);
+        return `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${e.vocabKey}" style="width:${d.picClone}px;height:${d.picClone}px;transform:rotate(${rot}deg)">`;
+      }).join('');
+      return `<div class="ws-card" style="flex-direction:row;height:${d.rowH}px;padding:10px;gap:12px;align-items:center" ` +
+        `data-lcs-row data-lcs-vocab="${e.vocabKey}" data-lcs-singular="${e.sing}" data-lcs-plural="${e.plur}" data-lcs-n="${n}">` +
+        `<div style="width:176px;display:flex;flex-direction:column;align-items:center;gap:6px;position:relative" data-lcs-side="one">` +
+        `<div style="position:relative">${countBadge(1)}<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${e.vocabKey}" style="width:${d.picSingle}px;height:${d.picSingle}px"></div>` +
+        `${single.svg}</div>` +
+        `<div style="width:2px;align-self:stretch;border-left:2px dashed #C8BFAE"></div>` +
+        `<div style="flex:1;display:flex;flex-direction:column;align-items:flex-start;gap:4px;position:relative" data-lcs-side="many">` +
+        `<div style="position:relative;display:flex;gap:8px;align-items:flex-end;padding-left:22px">${countBadge(n)}${clones}</div>` +
+        `<div class="ws-trace-lane">${plural.svg}</div></div></div>`;
+    });
+    const head = `<div style="display:flex;justify-content:space-between;padding:0 24px 0 44px" data-lcs-heads>` +
+      `<span class="ws-pill" style="font-size:18px;padding:2px 18px" data-lcs-head="one">1 · ${L.one}</span>` +
+      `<span class="ws-pill" style="font-size:18px;padding:2px 18px" data-lcs-head="many">2 · 3 · ${L.many}</span></div>`;
+    return {
+      bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly;gap:10px">${head}${rows.join('')}</div>`,
+      meta: { pairs: picks.map((e) => [e.sing, e.plur]) },
+    };
+  },
+
+  async verify(page) {
+    return page.evaluate(() => {
+      const fails = [];
+      const lang = (document.documentElement.lang || 'en').slice(0, 2);
+      const rows = [...document.querySelectorAll('[data-lcs-row]')];
+      if (rows.length < 3) fails.push(`only ${rows.length} rows`);
+      const seen = new Set();
+      rows.forEach((row, i) => {
+        const s = row.dataset.lcsSingular, p = row.dataset.lcsPlural, n = +row.dataset.lcsN;
+        if (seen.has(row.dataset.lcsVocab)) fails.push(`row ${i + 1}: duplicate noun`);
+        seen.add(row.dataset.lcsVocab);
+        if (s === p) fails.push(`row ${i + 1}: plural equals singular`);
+        if (!p.toLocaleLowerCase(lang).startsWith(s.toLocaleLowerCase(lang))) fails.push(`row ${i + 1}: "${p}" is not a regular (prefix) plural of "${s}"`);
+        if (n < 2 || n > 3) fails.push(`row ${i + 1}: ${n} clones`);
+        const oneImgs = row.querySelectorAll('[data-lcs-side="one"] img');
+        const manyImgs = row.querySelectorAll('[data-lcs-side="many"] img');
+        if (oneImgs.length !== 1) fails.push(`row ${i + 1}: ${oneImgs.length} single pictures`);
+        if (manyImgs.length !== n) fails.push(`row ${i + 1}: ${manyImgs.length} clones, want ${n}`);
+        const srcs = new Set([...oneImgs, ...manyImgs].map((im) => im.getAttribute('src')));
+        if (srcs.size !== 1) fails.push(`row ${i + 1}: pictures differ`);
+        const badges = [...row.querySelectorAll('[data-lcs-count-badge]')].map((b) => +b.dataset.lcsCountBadge);
+        if (badges.join(',') !== `1,${n}`) fails.push(`row ${i + 1}: badges ${badges.join(',')}`);
+        const lanes = [...row.querySelectorAll('[data-lcs-prim="trace-word"]')];
+        const sLane = lanes.find((l) => l.dataset.lcsText === s), pLane = lanes.find((l) => l.dataset.lcsText === p);
+        if (!sLane || !pLane) { fails.push(`row ${i + 1}: lanes missing`); return; }
+        const sPaths = [...sLane.querySelectorAll('path')];
+        if (!sPaths.length || sPaths.some((x) => x.getAttribute('stroke-dasharray'))) fails.push(`row ${i + 1}: singular not solid`);
+        const pPaths = [...pLane.querySelectorAll('path')];
+        if (!pPaths.length || pPaths.some((x) => !x.getAttribute('stroke-dasharray'))) fails.push(`row ${i + 1}: plural has a solid stroke`);
+        if (!pLane.dataset.lcsEmptySlot) fails.push(`row ${i + 1}: no empty writing trio`);
+        const trios = pLane.querySelectorAll(':scope > g');
+        if (trios.length !== 2) fails.push(`row ${i + 1}: ${trios.length} trios, want 2`);
+        if (trios[1] && trios[1].querySelectorAll('path').length) fails.push(`row ${i + 1}: empty trio has strokes`);
+        if (row.querySelectorAll('[data-lcs-prim="trace-word"] text').length) fails.push(`row ${i + 1}: word printed as <text>`);
+        // the plural never appears as visible text on the row
+        const txt = row.textContent;
+        if (txt.includes(p)) fails.push(`row ${i + 1}: plural printed as text`);
+      });
+      const heads = document.querySelectorAll('[data-lcs-head]');
+      if (heads.length !== 2) fails.push('column heads missing');
+      return fails;
+    });
+  },
+};

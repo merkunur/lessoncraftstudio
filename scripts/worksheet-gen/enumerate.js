@@ -70,6 +70,8 @@ function hasBwSibling(cacheTheme) {
 function eligibleThemes(spec, waveThemes) {
   return waveThemes.filter((t) => {
     if (spec.themeAxis.excludeBw && isBwTheme(t)) return false;
+    // nt20-B: a colouring page needs LINE ART — only BW themes are eligible
+    if (spec.themeAxis.bwOnly && !isBwTheme(t)) return false;
     if (spec.themeAxis.needsBwSibling && !hasBwSibling(t)) return false;
     let nouns;
     try { nouns = resolve.labelSafeNouns(t); }

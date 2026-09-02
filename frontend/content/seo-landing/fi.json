@@ -136956,6 +136956,1357 @@
    ],
    "title": "Sanalliset kerto- ja jakolaskut 3. luokka | tulostettava PDF ilmainen",
    "metaDescription": "Sanalliset kerto- ja jakolaskut: kaksi hedelmätarinaa, yhtä suurten ryhmien kertolasku ja tasan jakaminen, kuvineen ja vastauslauseen rivillä. Ilmainen 3. luokan PDF."
+  },
+  {
+   "slug": "jaljenna-lyhyet-sanat-hedelmat",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-tracing",
+    "mode": null,
+    "theme": "fruits",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Lyhyiden sanojen jäljennysmoniste",
+   "h1": "Jäljennä lyhyet sanat: kolme hedelmän nimeä malliriviltä",
+   "strand": "Kirjoittaminen",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "sanojen-jaljentaminen",
+    "hedelmat",
+    "esikoulu"
+   ],
+   "p1": "Kolme hedelmää, kolme lyhyttä sanaa. Jokaisella rivillä on vasemmalla iso kuva kermanvärisellä kortilla ja oikealla koko rivin levyinen kirjoitusalue. Ylimmällä rivillä sana on painettu kokonaisena vihreällä koulukäsialalla, sen alla sama sana on katkoviivoin ja alin rivi jää tyhjäksi. Mukaan valikoituvat vain korkeintaan viisikirjaimiset hedelmien nimet, esimerkiksi omena, kiivi, mango ja luumu, joten yksi sana mahtuu riville isokokoisena eikä käsi ehdi väsyä kesken. Lapsi sanoo kuvan nimen ääneen, jäljentää katkoviivat ja kirjoittaa saman sanan lopuksi itse tyhjälle riville.",
+   "p2": "Sivun oma asia on kirjainmäärä ja se, että malli on aivan katkoviivojen yläpuolella. Viisikirjaiminen sana on juuri niin pitkä, että lapsen on pidettävä kirjainjono mielessä alusta loppuun, mutta ei niin pitkä, että jono ehtisi katketa. Rivit ovat koulukirjoitusviivastoa katkoviivaisine keskiviivoineen, joten pienten kirjainten korkeus asettuu itsestään ja alapidennykset saavat oman tilansa. OPS 2014 kuvaa esiopetuksen tehtäväksi kiinnostuksen herättämisen kirjoitettuun kieleen ja kirjoittamisen valmiuksien harjoittelun leikinomaisesti, ja kokonaisen sanan kopioiminen mallista on tämän harjoittelun ensimmäinen käsin tehtävä askel. Opettaja vertaa jäljennettyä ja itse kirjoitettua sanaa keskenään: jos jälkimmäisestä puuttuu kirjain tai kirjaimet vaihtavat paikkaa, sana on vielä katsomisen varassa eikä muistissa.",
+   "p3": "Tulosta PDF ilmaiseksi ja anna teroitettu lyijykynä, jotta katkoviiva näkyy vielä oman kirjoituksen alta. Sisarsivuista Jäljennä ja kirjoita kahdesti siirtää mallisanan kuvakortin alle ja pyytää kirjoittamaan sanan kahdesti omin päin, ja Jäljennä pitkät sanat nostaa sanat kahdeksasta kahteentoista kirjaimeen. Tämä sivu on niistä ensimmäinen: ota se käyttöön silloin, kun lapsi muodostaa jo yksittäiset kirjaimet mutta ei ole vielä kirjoittanut kokonaista sanaa itse. Kolme riviä riittää yhdeksi tuokioksi, ja sivun voi tulostaa uudelleen toisilla hedelmillä.",
+   "canonicalDeckSlug": "sanojen-jaljentaminen-hedelmat-k289",
+   "carousel": [
+    {
+     "label": "Jäljennä kerran, kirjoita kahdesti: neljä ajoneuvon nimeä",
+     "href": "jaljenna-kerran-kirjoita-kahdesti-ajoneuvot"
+    },
+    {
+     "label": "Jäljennä pitkät sanat: kolme monitavuista lelun nimeä",
+     "href": "jaljenna-pitkat-sanat-lelut"
+    },
+    {
+     "label": "Yhdistä pisteet 1–10: loppu kuvasta on jo paperilla",
+     "href": "yhdista-pisteet-1-10"
+    },
+    {
+     "label": "Yhdistä pisteet 11–20: numerointi alkaa yhdestätoista",
+     "href": "yhdista-pisteet-11-20"
+    }
+   ],
+   "title": "Jäljennä lyhyet sanat esikoulu – hedelmät | tulostettava PDF ilmainen",
+   "metaDescription": "Jäljennä lyhyet sanat: kolme hedelmää, joiden nimessä on korkeintaan viisi kirjainta, valmis malli, katkoviivarivi ja tyhjä rivi. Ilmainen esikoulun PDF."
+  },
+  {
+   "slug": "jaljenna-kerran-kirjoita-kahdesti-ajoneuvot",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-tracing",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Jäljennä ja kirjoita kahdesti -moniste",
+   "h1": "Jäljennä kerran, kirjoita kahdesti: neljä ajoneuvon nimeä",
+   "strand": "Kirjoittaminen",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "sanojen-jaljentaminen",
+    "ajoneuvot",
+    "esikoulu"
+   ],
+   "p1": "Mallisana on siirretty pois kirjoitusriviltä: se on painettu kuvakortin alareunaan kuvatekstiksi. Neljällä rivillä on kullakin yksi ajoneuvo, esimerkiksi lentokone, kaivinkone, traktori tai kanootti, ja sen nimi kortin alla vihreällä koulukäsialalla. Rivin oikealla puolella on kirjoitusalue, jonka ylimmällä rivillä sana on katkoviivoin ja jonka kaksi alinta riviä ovat tyhjiä. Lapsi jäljentää sanan yhden kerran ja kirjoittaa sen sitten kahdesti ilman katkoviivoja, mallia kortista vilkaisten. Yksi jäljennys, kaksi omaa kirjoitusta, neljä ajoneuvon nimeä.",
+   "p2": "Kahden tyhjän rivin idea on toisto ilman uutta mallia. Ensimmäinen oma kirjoituskerta menee usein hyvin, koska katkoviiva on juuri jäänyt näkyviin muistiin. Toisella kerralla lapsen on haettava kirjainjono uudestaan, ja juuri siinä näkyy, siirtyikö sana käteen vai ei. Ajoneuvojen nimet ovat suomeksi useimmiten yhdyssanoja, joissa on viidestä yhteentoista kirjainta, ja niiden kirjoittaminen kahdesti peräkkäin harjoittaa tasaista kirjainkokoa ja rivillä pysymistä pidemmän matkan ajan kuin lyhyt sana. OPS 2014 pitää esiopetuksen kirjoittamisen tavoitteena harjaantumista käsin kirjoittamiseen ja kiinnostusta kirjoitettuun kieleen, ja tämä sivu antaa siihen saman sanan kolmesti. Opettaja katsoo nimenomaan alinta riviä: siinä näkyy, mitä lapsi osaa ilman apua. Malli kortin alla pysyy näkyvissä koko työskentelyn ajan, joten lapsi voi tarkistaa kirjoitusasun ilman että katse palaa katkoviivariville, ja tarkistaminen on tällöin hänen oma tekonsa eikä aikuisen muistutus.",
+   "p3": "Tulosta PDF ilmaiseksi ja pyydä lasta sanomaan sana ääneen ennen jokaista kirjoituskertaa, niin toisto ei muutu mekaaniseksi. Jäljennä lyhyet sanat on tätä helpompi sivu, jolla malli on suoraan katkoviivojen yläpuolella ja tyhjiä rivejä on vain yksi. Jäljennä pitkät sanat käyttää samaa kolmen rivin rakennetta mutta pisimpiä sanoja ja isompaa kuvakorttia. Kun neljä ajoneuvon nimeä sujuu ilman mallin tarkistamista, Kirjoita kuvan sana -sivu poistaa mallin kokonaan ja pyytää kirjoittamaan nimen pelkän kuvan perusteella.",
+   "canonicalDeckSlug": "sanojen-jaljentaminen-ajoneuvot-k290",
+   "carousel": [
+    {
+     "label": "Jäljennä lyhyet sanat: kolme hedelmän nimeä malliriviltä",
+     "href": "jaljenna-lyhyet-sanat-hedelmat"
+    },
+    {
+     "label": "Jäljennä pitkät sanat: kolme monitavuista lelun nimeä",
+     "href": "jaljenna-pitkat-sanat-lelut"
+    },
+    {
+     "label": "Yhdistä pisteet 1–10: loppu kuvasta on jo paperilla",
+     "href": "yhdista-pisteet-1-10"
+    },
+    {
+     "label": "Yhdistä pisteet 11–20: numerointi alkaa yhdestätoista",
+     "href": "yhdista-pisteet-11-20"
+    }
+   ],
+   "title": "Jäljennä ja kirjoita kahdesti – ajoneuvot | tulostettava PDF ilmainen",
+   "metaDescription": "Jäljennä ja kirjoita kahdesti: neljä ajoneuvoa, sana kuvakortin alla mallina, yksi katkoviivarivi ja kaksi tyhjää riviä omalle kirjoitukselle. Ilmainen PDF."
+  },
+  {
+   "slug": "jaljenna-pitkat-sanat-lelut",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-tracing",
+    "mode": null,
+    "theme": "toys",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Pitkien sanojen jäljennysmoniste",
+   "h1": "Jäljennä pitkät sanat: kolme monitavuista lelun nimeä",
+   "strand": "Kirjoittaminen",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "sanojen-jaljentaminen",
+    "lelut",
+    "esikoulu"
+   ],
+   "p1": "Lyhin sana tällä sivulla on kahdeksan kirjaimen mittainen ja pisin kaksitoista. Kolmella rivillä on kullakin leveä kuvakortti, jonka alla lelun nimi on painettu kokonaisena, ja oikealla kirjoitusalue: yksi katkoviivarivi ja kaksi tyhjää riviä. Sanoiksi kelpaavat vain pitkät lelujen ja kulkuvälineiden nimet, esimerkiksi dinosaurus, helikopteri, rullalauta, ilmapallo tai polkupyörä. Kortti on tavallista suurempi, jotta pitkä sana mahtuu sen alle luettavan kokoisena, ja kirjoitusalue vie loput rivin leveydestä. Lapsi jäljentää sanan kerran ja kirjoittaa sen sitten kahdesti itse.",
+   "p2": "Pitkä sana on eri tehtävä kuin lyhyt. Kymmenkirjaimisessa sanassa kirjaimet on jaettava tasaisesti koko rivin matkalle, kirjainkoon on pysyttävä samana loppuun asti ja jonon keskeltä on helppo pudota. Suomen pitkissä sanoissa toistuvat lisäksi kaksoiskonsonantit ja pitkät vokaalit, kuten helikopterin ja rullalaudan kohdalla, ja niiden merkitseminen näkyviin on esiopetuksen kirjoittamisen ydinasia. Kolme riviä neljän sijaan on tarkoituksellinen: pitkä sana vie oman aikansa, eikä sivusta saa tulla urakkaa. OPS 2014 kuvaa esiopetuksen kielikasvatuksessa sanojen rakenteen havainnointia, ja pitkä sana antaa siihen luontevan aiheen, kun sen voi taputtaa tavuiksi ennen kirjoittamista. Opettaja seuraa, pysyykö kirjainkoko samana rivin loppuun asti. Kuvakortti on levennetty juuri siksi, että kahdentoista kirjaimen sana mahtuu sen alle katkeamatta kahdelle riville.",
+   "p3": "Tulosta PDF ilmaiseksi ja anna lapsen taputtaa jokainen sana tavuiksi ennen kynään tarttumista, niin pitkä jono jakautuu hallittaviin osiin. Aloita mieluummin Jäljennä lyhyet sanat -sivusta, jos kokonainen sana on vielä uusi asia, ja käytä Jäljennä ja kirjoita kahdesti -sivua välivaiheena: siinä on neljä riviä ja hieman lyhyemmät sanat. Tämä sivu on perheen vaativin, ja se sopii esiopetusvuoden loppupuolelle tai ensimmäisen luokan alkuun kertaukseksi ennen kuin sanat kirjoitetaan ilman mallia. Kolme riviä on lyhyt sivu mutta ei nopea: pitkän sanan kirjoittaminen kolmesti vie saman ajan kuin neljä lyhyttä.",
+   "canonicalDeckSlug": "sanojen-jaljentaminen-lelut-k291",
+   "carousel": [
+    {
+     "label": "Jäljennä lyhyet sanat: kolme hedelmän nimeä malliriviltä",
+     "href": "jaljenna-lyhyet-sanat-hedelmat"
+    },
+    {
+     "label": "Jäljennä kerran, kirjoita kahdesti: neljä ajoneuvon nimeä",
+     "href": "jaljenna-kerran-kirjoita-kahdesti-ajoneuvot"
+    },
+    {
+     "label": "Yhdistä pisteet 1–10: loppu kuvasta on jo paperilla",
+     "href": "yhdista-pisteet-1-10"
+    },
+    {
+     "label": "Yhdistä pisteet 11–20: numerointi alkaa yhdestätoista",
+     "href": "yhdista-pisteet-11-20"
+    }
+   ],
+   "title": "Jäljennä pitkät sanat esikoulu – lelut | tulostettava PDF ilmainen",
+   "metaDescription": "Jäljennä pitkät sanat: kolme lelua, joiden nimessä on kahdeksasta kahteentoista kirjainta, katkoviivarivi ja kaksi tyhjää riviä. Ilmainen esikoulun PDF."
+  },
+  {
+   "slug": "yhdista-pisteet-1-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "dot-to-dot",
+    "mode": null,
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Pisteestä pisteeseen 1–10 -moniste",
+   "h1": "Yhdistä pisteet 1–10: loppu kuvasta on jo paperilla",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "K.CC.A.1",
+   "slotTokens": [
+    "pisteesta-pisteeseen",
+    "esikoulu"
+   ],
+   "p1": "Osa kuvasta on jo paperilla. Suurella kermanvärisellä alustalla on numeroidut pisteet 1–10, ja loppu piilokuvan ääriviivasta on painettu vaalealla harmaalla valmiiksi. Piste 1 on ympyröity oranssilla, joten aloituskohta löytyy ilman ohjettakin. Lapsi vetää suoran viivan pisteestä 1 pisteeseen 2, sieltä kolmoseen ja niin edelleen kymmeneen asti, jolloin oma viiva liittyy valmiiseen ääriviivaan ja kuvio sulkeutuu. Sivun alareunassa kulkee lukujono 1–10 pieninä ympyröinä tarkistusta varten. Kymmenen pistettä on koko laskettava matka.",
+   "p2": "Kymmenen ensimmäistä lukua ovat esiopetuksen lukujonon perusta, ja tämä sivu harjoittaa niitä ilman että kuvasta tulee vajaa. Valmiiksi painettu osa ääriviivasta on nimenomaan tuki: kymmenen pistettä ei riittäisi kokonaiseen kuvioon, ja lapsi saisi vaivastaan puolikkaan. Nyt lyhyt lukujono tuottaa yhtä valmiin kuvan kuin pidempikin. OPS 2014 nimeää esiopetuksen matematiikan sisällöiksi lukujonotaidot sekä lukumäärän ja lukusanan yhteyden, ja pisteiden yhdistäminen tekee lukujonosta jotain, minkä kynä piirtää näkyviin. Yli hypätty luku näkyy heti viivana, joka leikkaa kuvion poikki, joten sivu tarkistaa itsensä. Opettaja katsoo, etsiikö lapsi seuraavan luvun katseella vai luetteleeko hän lukujonoa alusta joka kerta.",
+   "p3": "Tulosta PDF ilmaiseksi ja anna lapsen värittää valmis kuva, sillä oikean laskemisen palkinnon on hyvä näkyä. Tämä on pisteperheen helpoin sivu. Yhdistä pisteet 11–20 käyttää samaa vaaleaa apuääriviivaa mutta aloittaa numeroinnin yhdestätoista, ja Yhdistä pisteet 11–30 poistaa apuviivan kokonaan ja jättää kaksikymmentä numeroitua pistettä. Perussivu Yhdistä pisteet 1–20 on tämän ja niiden välissä. Jos kynä pysähtyy jo tällä sivulla, kannattaa palata laskemaan kymmeneen esineillä ennen seuraavaa monistetta. Piilokuva arvotaan joka tulostuksella erikseen, joten saman sivun voi antaa uudelleen ilman että lapsi tunnistaa kuvion etukäteen.",
+   "canonicalDeckSlug": "pisteesta-pisteeseen-k294",
+   "carousel": [
+    {
+     "label": "Yhdistä pisteet 11–20: numerointi alkaa yhdestätoista",
+     "href": "yhdista-pisteet-11-20"
+    },
+    {
+     "label": "Yhdistä pisteet 11–30: kaksikymmentä pistettä ilman apuviivaa",
+     "href": "yhdista-pisteet-11-30"
+    },
+    {
+     "label": "Piirrä ruudukkoon 6×6: helppo aloitus ilman kirjaimia",
+     "href": "piirra-ruudukkoon-6x6"
+    },
+    {
+     "label": "Piirrä ruudukkoon kirjaimin ja numeroin: A–F ja 1–6 molemmissa ruudukoissa",
+     "href": "piirra-ruudukkoon-kirjaimet-ja-numerot"
+    }
+   ],
+   "title": "Yhdistä pisteet 1–10 esikoulu | tulostettava PDF ilmainen",
+   "metaDescription": "Yhdistä pisteet 1–10: vain kymmenen pistettä on numeroitu ja loppu ääriviivasta on painettu vaaleana valmiiksi, joten kuva valmistuu. Ilmainen esikoulun PDF."
+  },
+  {
+   "slug": "yhdista-pisteet-11-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "dot-to-dot",
+    "mode": null,
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Pisteestä pisteeseen 11–20 -moniste",
+   "h1": "Yhdistä pisteet 11–20: numerointi alkaa yhdestätoista",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "K.CC.A.2",
+   "slotTokens": [
+    "pisteesta-pisteeseen",
+    "esikoulu"
+   ],
+   "p1": "Numerointi alkaa yhdestätoista. Oranssilla ympyröity aloituspiste kantaa numeroa 11, ja siitä eteenpäin pisteet on numeroitu kahteenkymmeneen. Muu osa piilokuvan ääriviivasta on painettu vaalealla harmaalla valmiiksi, joten kymmenen pisteen matka riittää kokonaiseen kuvioon. Lapsi vetää viivan pisteestä 11 pisteeseen 12, sieltä kolmeentoista ja niin edelleen, kunnes kuva sulkeutuu. Alareunan lukujono näyttää luvut 11–20 pieninä ympyröinä, ja siitä voi tarkistaa järjestyksen sormella ennen kuin etsii seuraavan pisteen paperilta.",
+   "p2": "Toinen kymmenluku on suomen lukujonon horjuvin kohta. Lukusanat yksitoista, kaksitoista ja kolmetoista ovat pitkiä yhdyssanoja, joissa jälkiosa toistuu samanlaisena, ja moni lapsi laskee sujuvasti kymmeneen mutta epäröi heti sen jälkeen. Sivu keskittyy juuri tuohon kohtaan eikä käytä aikaa lukuihin, jotka ovat jo varmoja. Samalla se harjoittaa laskemisen aloittamista muusta luvusta kuin ykkösestä, mikä on eri taito kuin lukujonon luetteleminen alusta. OPS 2014 nostaa lukujonotaidot esiopetuksen matematiikan keskeiseksi sisällöksi, ja tämä on niistä se osa, joka jää tavallisesti vähimmälle harjoitukselle. Opettaja kuulee virheen usein ennen kuin näkee sen: lapsi sanoo yhdeksäntoista ja piirtää kahteenkymmeneen tai päinvastoin. Pisteitä on yhtä monta kuin helpoimmalla sivulla, joten uutta on vain aloituskohta ja lukusanojen pituus.",
+   "p3": "Tulosta PDF ilmaiseksi ja anna lapsen lukea alareunan lukujono kerran ääneen ennen aloittamista. Yhdistä pisteet 1–10 on sama sivu ensimmäisellä kymmenluvulla, jos aloituskohta yhdestätoista tuntuu vielä vieraalta. Yhdistä pisteet 11–30 jatkaa tästä: siinä numeroituja pisteitä on kaksikymmentä eikä valmista apuääriviivaa ole lainkaan. Perussivu Yhdistä pisteet 1–20 vetää saman matkan yhdestä kahteenkymmeneen yhtenä jonona. Valmiin kuvan värittäminen kannattaa jättää lapselle palkinnoksi. Kymmenen pisteen matka sopii lyhyeen tuokioon, ja sivun voi tulostaa uudelleen toisella piilokuvalla.",
+   "canonicalDeckSlug": "pisteesta-pisteeseen-k295",
+   "carousel": [
+    {
+     "label": "Yhdistä pisteet 1–10: loppu kuvasta on jo paperilla",
+     "href": "yhdista-pisteet-1-10"
+    },
+    {
+     "label": "Yhdistä pisteet 11–30: kaksikymmentä pistettä ilman apuviivaa",
+     "href": "yhdista-pisteet-11-30"
+    },
+    {
+     "label": "Piirrä ruudukkoon 6×6: helppo aloitus ilman kirjaimia",
+     "href": "piirra-ruudukkoon-6x6"
+    },
+    {
+     "label": "Piirrä ruudukkoon kirjaimin ja numeroin: A–F ja 1–6 molemmissa ruudukoissa",
+     "href": "piirra-ruudukkoon-kirjaimet-ja-numerot"
+    }
+   ],
+   "title": "Yhdistä pisteet 11–20 esikoulu | tulostettava PDF ilmainen",
+   "metaDescription": "Yhdistä pisteet 11–20: kymmenen numeroitua pistettä alkaen luvusta 11, muu ääriviiva painettu vaaleana ja lukujono 11–20 alareunassa. Ilmainen esikoulun PDF."
+  },
+  {
+   "slug": "yhdista-pisteet-11-30",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "dot-to-dot",
+    "mode": null,
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Pisteestä pisteeseen 11–30 -moniste",
+   "h1": "Yhdistä pisteet 11–30: kaksikymmentä pistettä ilman apuviivaa",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "K.CC.A.2",
+   "slotTokens": [
+    "pisteesta-pisteeseen",
+    "esikoulu"
+   ],
+   "p1": "Valmista ääriviivaa ei tällä sivulla ole lainkaan. Alustalla on pelkästään kaksikymmentä numeroitua pistettä, luvut 11–30, ja koko piilokuva syntyy lapsen omasta viivasta. Aloituspiste 11 on ympyröity oranssilla. Lapsi laskee eteenpäin yhdestätoista, etsii jokaisen seuraavan luvun yhdeksäntoista muun pisteen joukosta ja vetää suoran viivan sinne, kunnes kuvio sulkeutuu kolmessakymmenessä. Alareunassa on lukujono 11–30 pieninä ympyröinä. Muuta tukea ei ole, joten jokainen viiva on lapsen oman laskemisen tulos.",
+   "p2": "Kahden asian yhtäaikaisuus tekee sivusta perheen vaativimman. Lukujono jatkuu yli kahdenkymmenen, jolloin lukusanat vaihtavat rakennetta kahdestakymmenestäyhdestä eteenpäin, ja samalla kuvasta ei ole mitään valmiina, joten yksikin ohitettu luku näkyy vinona viivana keskellä kuviota. Laskemisen aloittaminen muusta luvusta kuin ykkösestä on tässä pakko, ei valinta. OPS 2014 kuvaa esiopetuksen lukujonotaitoihin laskemisen eteenpäin ja taaksepäin annetusta luvusta, ja kahdenkymmenen ylittäminen on juuri se kohta, jossa lukusanojen säännönmukaisuus tulee ensimmäisen kerran näkyviin. Opettaja seuraa, huomaako lapsi itse virheen kuviosta ja palaako hän taaksepäin korjaamaan sen. Sivun tarkoitus on, että virhe näkyy eikä sitä tarvitse kertoa.",
+   "p3": "Tulosta PDF ilmaiseksi ja varaa tähän enemmän aikaa kuin kymmenen pisteen sivuihin. Jos lukujono katkeaa kahdenkymmenen kohdalla, palaa Yhdistä pisteet 11–20 -sivuun, jolla apuääriviiva on painettu valmiiksi ja matka on puolet lyhyempi. Yhdistä pisteet 1–10 on perheen helpoin, ja perussivulla Yhdistä pisteet 1–20 lasketaan kokonainen jono ykkösestä. Tämän jälkeen luontevia jatkoja ovat Päivän luku, jolla yksi luku puretaan osiin, ja Lukusuora 0–30, jolla samat luvut paikannetaan viivalta. Sivu sopii esiopetusvuoden kevääseen tai ensimmäisen luokan alkuun, jolloin lukualue laajenee kahdenkymmenen yli myös muussa työskentelyssä.",
+   "canonicalDeckSlug": "pisteesta-pisteeseen-k296",
+   "carousel": [
+    {
+     "label": "Yhdistä pisteet 1–10: loppu kuvasta on jo paperilla",
+     "href": "yhdista-pisteet-1-10"
+    },
+    {
+     "label": "Yhdistä pisteet 11–20: numerointi alkaa yhdestätoista",
+     "href": "yhdista-pisteet-11-20"
+    },
+    {
+     "label": "Piirrä ruudukkoon 6×6: helppo aloitus ilman kirjaimia",
+     "href": "piirra-ruudukkoon-6x6"
+    },
+    {
+     "label": "Piirrä ruudukkoon kirjaimin ja numeroin: A–F ja 1–6 molemmissa ruudukoissa",
+     "href": "piirra-ruudukkoon-kirjaimet-ja-numerot"
+    }
+   ],
+   "title": "Yhdistä pisteet 11–30 esikoulu | tulostettava PDF ilmainen",
+   "metaDescription": "Yhdistä pisteet 11–30: kaksikymmentä numeroitua pistettä, ei valmiiksi painettua ääriviivaa lainkaan, ja lukujono 11–30 alareunassa. Ilmainen esikoulun PDF."
+  },
+  {
+   "slug": "piirra-ruudukkoon-6x6",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "grid-copy",
+    "mode": null,
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Ruutupiirtämisen aloitusmoniste",
+   "h1": "Piirrä ruudukkoon 6×6: helppo aloitus ilman kirjaimia",
+   "strand": "Hienomotoriikka",
+   "slotTokens": [
+    "piirra-mallin-mukaan",
+    "esikoulu"
+   ],
+   "p1": "Ruudukossa ei ole yhtään kirjainta eikä numeroa. Sivulla on kaksi kuvaparia allekkain, ja kummassakin on vasemmalla kuuden kertaa kuuden ruudun ruudukko, jonka osa ruuduista on väritetty tummanvihreiksi yksinkertaiseksi kuvioksi. Oikealla on samankokoinen tyhjä ruudukko ja niiden välissä oranssi nuoli. Lapsi katsoo täytettyä ruudukkoa, laskee ruudut vaaka- ja pystysuunnassa ja värittää samat ruudut tyhjään ruudukkoon. Kuusi ruutua sivullaan on pienin ruudukko tässä perheessä, joten ruudut ovat suuria ja värittäminen pysyy siistinä myös paksulla puuvärillä.",
+   "p2": "Ilman merkintöjä kopioiminen nojaa pelkkään katseeseen ja laskemiseen. Lapsen on ratkaistava jokaisen värillisen ruudun kohdalla, monesko se on vasemmalta ja monesko ylhäältä, ja toistettava molemmat laskut toisessa ruudukossa. Se on kahden suunnan pitämistä mielessä yhtä aikaa, ja siitä rakentuu myöhemmin taulukon, kartan ja satataulun lukeminen. Jokainen kuvio on valittu niin, ettei se ole symmetrinen minkään peilauksen suhteen, joten peilikuvaksi kääntynyt kopio näkyy heti vääränä eikä mene läpi sattumalta. OPS 2014 kuvaa esiopetuksessa avaruudellisen hahmottamisen ja hienomotoriikan harjoittelua, ja tämä sivu tekee molempia yhdellä kynällä. Opettaja näkee yhdellä silmäyksellä, siirtääkö lapsi ruutuja yksitellen vai yrittääkö hän piirtää muodon ulkomuistista.",
+   "p3": "Tulosta PDF ilmaiseksi ja anna lapselle yksi ainoa värikynä, jotta huomio pysyy ruudun paikassa eikä värin valinnassa. Kaksi kuvaparia samalla sivulla antaa toisen yrityksen heti, jos ensimmäinen kuvio meni vinoon. Kun kopioiminen sujuu, Piirrä ruudukkoon kirjaimin ja numeroin lisää samankokoiseen ruudukkoon reunamerkinnät A–F ja 1–6, jolloin ruudun voi nimetä ennen värittämistä, ja Piirrä ruudukkoon 8×8 kasvattaa ruudukon kahdeksaan ruutuun sivullaan. Perussivu käyttää seitsemän ruudun ruudukkoa. Kuviot arvotaan joka tulostuksella uudelleen, joten sama sivu ei toistu samanlaisena, vaikka sen antaisi uudestaan seuraavalla viikolla.",
+   "canonicalDeckSlug": "piirra-mallin-mukaan-k298",
+   "carousel": [
+    {
+     "label": "Piirrä ruudukkoon kirjaimin ja numeroin: A–F ja 1–6 molemmissa ruudukoissa",
+     "href": "piirra-ruudukkoon-kirjaimet-ja-numerot"
+    },
+    {
+     "label": "Piirrä ruudukkoon 8×8: isompi ruudukko, merkinnät A–H ja 1–8",
+     "href": "piirra-ruudukkoon-8x8"
+    },
+    {
+     "label": "Yksikkö ja monikko lyhyillä sanoilla: yksi eläin ja kaksi eläintä",
+     "href": "yksikko-ja-monikko-lyhyet-sanat"
+    },
+    {
+     "label": "Yksikkö ja monikko pitkillä sanoilla: ajoneuvojen nimet monikossa",
+     "href": "yksikko-ja-monikko-pitkat-sanat"
+    }
+   ],
+   "title": "Piirrä mallin mukaan ruudukkoon 6×6 | tulostettava PDF ilmainen",
+   "metaDescription": "Piirrä ruudukkoon 6×6: kaksi kuvaparia, vasemmalla väritetty malli ja oikealla tyhjä ruudukko, ei kirjaimia eikä numeroita. Ilmainen esikoulun PDF."
+  },
+  {
+   "slug": "piirra-ruudukkoon-kirjaimet-ja-numerot",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "grid-copy",
+    "mode": null,
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Ruutupiirtäminen kirjaimin ja numeroin",
+   "h1": "Piirrä ruudukkoon kirjaimin ja numeroin: A–F ja 1–6 molemmissa ruudukoissa",
+   "strand": "Avaruudellinen hahmottaminen",
+   "slotTokens": [
+    "piirra-mallin-mukaan",
+    "esikoulu"
+   ],
+   "p1": "Molempien ruudukoiden yläreunassa ovat kirjaimet A–F ja sivussa numerot 1–6. Sivulla on kaksi kuvaparia allekkain: vasemmalla kuuden kertaa kuuden ruudun ruudukko, jonka väritetyt ruudut muodostavat yksinkertaisen kuvion, ja oikealla samanlainen tyhjä ruudukko, jonka reunamerkinnät ovat täsmälleen samat. Lapsi etsii värillisen ruudun kirjaimen ja numeron, sanoo ne ääneen, esimerkiksi C3, ja värittää saman ruudun toiseen ruudukkoon. Kuva syntyy uudelleen ruutu kerrallaan, ja jokaisella ruudulla on nyt nimi.",
+   "p2": "Reunamerkinnät muuttavat tehtävän luonteen. Ilman niitä lapsi laskee ruudut joka kerta uudelleen molemmista suunnista; kirjaimen ja numeron kanssa hän voi nimetä ruudun kerran ja etsiä saman nimen toisesta ruudukosta. Sama ruutu, kaksi suuntaa, yksi nimi. Tämä on ensimmäinen kerta, kun paikka saa esiopetuksessa osoitteen, ja siitä on suora tie karttaruudukkoon, laivanupotukseen ja myöhempään koordinaatistoon. Kuviot ovat epäsymmetrisiä kaikkien peilausten suhteen, joten väärään suuntaan kopioitu kuva paljastuu itsestään. OPS 2014 kuvaa esiopetuksen matematiikassa sijainnin ja suunnan käsitteiden harjoittelua, ja rivin ja sarakkeen nimeäminen on juuri sitä. Opettaja kuuntelee, sanooko lapsi kirjaimen ja numeron aina samassa järjestyksessä; vakiintunut järjestys on osa taitoa.",
+   "p3": "Tulosta PDF ilmaiseksi ja pyydä lasta lukemaan jokainen ruutu ääneen ennen värittämistä, niin osoite jää kuuloon. Ruudukko on tässä yhtä pieni kuin helpoimmalla sivulla, joten uutta on vain merkintätapa. Piirrä ruudukkoon 6×6 on sama tehtävä ilman kirjaimia ja numeroita, jos merkinnät vielä sekoittavat, ja Piirrä ruudukkoon 8×8 vie saman merkintätavan isompaan ruudukkoon A–H ja 1–8. Tästä sivusta pääsee suoraan Koordinaatit ruudukossa -sivulle, jolla ruudut luetaan pelkistä koodeista. Ruudun nimeäminen ääneen sopii myös parityöhön, jossa toinen lukee osoitteen ja toinen värittää sen omaan ruudukkoonsa.",
+   "canonicalDeckSlug": "piirra-mallin-mukaan-k299",
+   "carousel": [
+    {
+     "label": "Piirrä ruudukkoon 6×6: helppo aloitus ilman kirjaimia",
+     "href": "piirra-ruudukkoon-6x6"
+    },
+    {
+     "label": "Piirrä ruudukkoon 8×8: isompi ruudukko, merkinnät A–H ja 1–8",
+     "href": "piirra-ruudukkoon-8x8"
+    },
+    {
+     "label": "Yksikkö ja monikko lyhyillä sanoilla: yksi eläin ja kaksi eläintä",
+     "href": "yksikko-ja-monikko-lyhyet-sanat"
+    },
+    {
+     "label": "Yksikkö ja monikko pitkillä sanoilla: ajoneuvojen nimet monikossa",
+     "href": "yksikko-ja-monikko-pitkat-sanat"
+    }
+   ],
+   "title": "Piirrä ruudukkoon: kirjaimet ja numerot | tulostettava PDF ilmainen",
+   "metaDescription": "Piirrä ruudukkoon kirjaimin ja numeroin: kuuden ruudun ruudukot, joiden reunoissa ovat A–F ja 1–6, joten ruudun voi nimetä ennen värittämistä. Ilmainen PDF."
+  },
+  {
+   "slug": "piirra-ruudukkoon-8x8",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "grid-copy",
+    "mode": null,
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Ison ruudukon piirtämismoniste",
+   "h1": "Piirrä ruudukkoon 8×8: isompi ruudukko, merkinnät A–H ja 1–8",
+   "strand": "Avaruudellinen hahmottaminen",
+   "slotTokens": [
+    "piirra-mallin-mukaan",
+    "esikoulu"
+   ],
+   "p1": "Ruudukko kasvaa kahdeksaan ruutuun kummallakin sivulla, eli ruutuja on kuusikymmentäneljä kolmenkymmenenkuuden sijasta. Sivulla on kaksi kuvaparia allekkain, ja jokaisessa parissa vasemmalla on väritetty malli ja oikealla tyhjä ruudukko. Molempien yläreunassa ovat kirjaimet A–H ja sivussa numerot 1–8. Lapsi nimeää värillisen ruudun kirjaimella ja numerolla ja värittää saman ruudun tyhjään ruudukkoon. Ruudut ovat pienempiä kuin kuuden ruudun sivuilla, ja kuvioissa on enemmän yksityiskohtia, joten kopioiminen vaatii pidemmän keskittymisen.",
+   "p2": "Isompi ruudukko ei ole vain pidempi tehtävä vaan myös tarkempi. Kun sarakkeita on kahdeksan, ruudun paikkaa ei enää arvaa silmämääräisesti, vaan reunamerkinnät on todella luettava, ja yhden ruudun heitto näkyy kuviossa selvästi. Samalla kahdeksan ruudun ruudukko lähestyy sitä kokoa, jossa lapsi alkaa käsitellä ruudukkoa taulukkona eikä kuvana. Kuviot ovat epäsymmetrisiä kaikkien kolmen peilauksen suhteen, joten käännetty kopio ei voi mennä vahingossa oikein. OPS 2014 nimeää esiopetuksen matematiikkaan sijainnin, suunnan ja hahmottamisen harjoittelun, ja tämä on perheen laajin sovellus siitä. Opettaja katsoo, pitääkö lapsi järjestyksen: rivi kerrallaan tai sarake kerrallaan eteneminen tuottaa lähes aina ehjän kuvan, satunnainen poimiminen harvoin. Kaksi kuvaa tällä ruudukkokoolla tarkoittaa yli sataa tarkistettavaa ruutua, joten sivu mittaa myös keskittymisen kestoa eikä pelkkää hahmottamista.",
+   "p3": "Tulosta PDF ilmaiseksi ja varaa aikaa: kaksi kuvaa tällä koolla on kokonainen työskentelytuokio. Yksi värikynä riittää, ja kynän kärjen kannattaa olla ohut, jotta ruudun reuna pysyy näkyvissä. Piirrä ruudukkoon kirjaimin ja numeroin harjoittaa samaa merkintätapaa pienemmässä kuuden ruudun ruudukossa, ja Piirrä ruudukkoon 6×6 jättää merkinnät kokonaan pois. Kun tämä sivu sujuu, Koordinaatit ruudukossa on seuraava askel: siellä ruudut annetaan pelkkinä koodeina eikä valmista mallikuvaa ole.",
+   "canonicalDeckSlug": "piirra-mallin-mukaan-k300",
+   "carousel": [
+    {
+     "label": "Piirrä ruudukkoon 6×6: helppo aloitus ilman kirjaimia",
+     "href": "piirra-ruudukkoon-6x6"
+    },
+    {
+     "label": "Piirrä ruudukkoon kirjaimin ja numeroin: A–F ja 1–6 molemmissa ruudukoissa",
+     "href": "piirra-ruudukkoon-kirjaimet-ja-numerot"
+    },
+    {
+     "label": "Yksikkö ja monikko lyhyillä sanoilla: yksi eläin ja kaksi eläintä",
+     "href": "yksikko-ja-monikko-lyhyet-sanat"
+    },
+    {
+     "label": "Yksikkö ja monikko pitkillä sanoilla: ajoneuvojen nimet monikossa",
+     "href": "yksikko-ja-monikko-pitkat-sanat"
+    }
+   ],
+   "title": "Piirrä mallin mukaan ruudukkoon 8×8 | tulostettava PDF ilmainen",
+   "metaDescription": "Piirrä ruudukkoon 8×8: kaksi kuvaparia kahdeksan ruudun ruudukoissa, reunoissa kirjaimet A–H ja numerot 1–8, mallista kopioiden. Ilmainen esikoulun PDF."
+  },
+  {
+   "slug": "yksikko-ja-monikko-lyhyet-sanat",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "singular-plural",
+    "mode": null,
+    "theme": "animals",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Yksikön ja monikon moniste lyhyillä sanoilla",
+   "h1": "Yksikkö ja monikko lyhyillä sanoilla: yksi eläin ja kaksi eläintä",
+   "strand": "Kielen rakenteet",
+   "standard": "L.K.1.c",
+   "slotTokens": [
+    "yksikko-ja-monikko",
+    "elaimet",
+    "esikoulu"
+   ],
+   "p1": "Rivejä on kolme ja jokaisella niistä kaksi eläintä oikealla puolella. Rivin vasemmassa reunassa on yksi eläin, esimerkiksi kissa, koira, poro tai pöllö, sen alla sana painettuna ja kuvan yläkulmassa vihreä merkki, jossa lukee 1. Katkoviivainen väliviiva erottaa oikean puolen, jossa sama eläin on kahtena kappaleena ja merkki näyttää kuvien määrän. Kuvien alla on monikkomuoto katkoviivoin ja sen alla tyhjä rivi. Lapsi lukee yhtä tarkoittavan sanan, jäljentää monikon ja kirjoittaa sen vielä kerran itse.",
+   "p2": "Sanat on rajattu lyhyisiin: monikkomuodossa on korkeintaan seitsemän kirjainta, joten koko sana mahtuu riville isolla kirjoituskoolla ja päätteen näkee yhdellä silmäyksellä. Monikon tunnus on nominatiivissa t, ja useimmiten muuta ei tapahdu: kissa ja kissat, poro ja porot. Osassa sanoja vartalo muuttuu hieman ennen päätettä, kuten hirvi ja hirvet tai valas ja valaat, ja lyhyissä sanoissa tuon muutoksen näkee helpommin kuin pitkissä. OPS 2014 kuvaa esiopetuksen kielikasvatuksessa kielen havainnointia ja sanojen muotojen tutkimista leikinomaisesti, ja monikon t on yleensä ensimmäinen pääte, jonka lapsi oppii tietoisesti näkemään kirjoitettuna. Opettaja odottaa hetkeä, jolloin lapsi kirjoittaa monikon tyhjälle riville katsomatta enää katkoviivamalliin.",
+   "p3": "Tulosta PDF ilmaiseksi ja anna lapsen sanoa jokainen pari ääneen ennen kirjoittamista: yksi kissa, kaksi kissaa. Kolme riviä on lyhyt tuokio, ja sivu sopii perheen ensimmäiseksi. Yksikkö ja monikko pitkillä sanoilla käyttää neljää riviä ja huomattavasti pidempiä sanoja, joissa pääte tulee vasta kymmenen kirjaimen jälkeen. Perussivu Yksikkö ja monikko on näiden välissä. Jos kokonaisen sanan kirjoittaminen on vielä työlästä, Sanojen jäljentäminen on hyvä lämmittely, ja Yksi vai monta -sivulla saman eron tunnistaa ilman kirjoittamista.",
+   "canonicalDeckSlug": "yksikko-ja-monikko-elaimet-k302",
+   "carousel": [
+    {
+     "label": "Yksikkö ja monikko pitkillä sanoilla: ajoneuvojen nimet monikossa",
+     "href": "yksikko-ja-monikko-pitkat-sanat"
+    },
+    {
+     "label": "Yksi vai monta? Neljä isoa eläinkorttia ja kaksi sanaa kussakin",
+     "href": "yksi-vai-monta-nelja-kuvakorttia"
+    },
+    {
+     "label": "Yksi vai monta? Kahdeksan ajoneuvokorttia yhdellä sivulla",
+     "href": "yksi-vai-monta-kahdeksan-kuvakorttia"
+    },
+    {
+     "label": "Lue ja väritä: neljä lausetta ja neljä väriä",
+     "href": "lue-ja-varita-nelja-lausetta"
+    }
+   ],
+   "title": "Yksikkö ja monikko: lyhyet sanat, eläimet | tulostettava PDF ilmainen",
+   "metaDescription": "Yksikkö ja monikko lyhyillä sanoilla: kolme riviä, vasemmalla yksi eläin, oikealla kaksi, monikko katkoviivoin ja tyhjä rivi. Ilmainen esikoulun PDF."
+  },
+  {
+   "slug": "yksikko-ja-monikko-pitkat-sanat",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "singular-plural",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Yksikön ja monikon moniste pitkillä sanoilla",
+   "h1": "Yksikkö ja monikko pitkillä sanoilla: ajoneuvojen nimet monikossa",
+   "strand": "Kielen rakenteet",
+   "standard": "L.K.1.c",
+   "slotTokens": [
+    "yksikko-ja-monikko",
+    "ajoneuvot",
+    "esikoulu"
+   ],
+   "p1": "Sanat ovat tällä sivulla pitkiä: monikkomuodossa on viidestä kahteentoista kirjainta. Neljällä rivillä on kullakin vasemmalla yksi ajoneuvo, esimerkiksi lentokone, helikopteri, polkupyörä tai kaivinkone, ja sen nimi painettuna kuvan alle. Oikealla sama ajoneuvo toistuu kahdesti tai kolmesti, ja kuvien alla on monikkomuoto katkoviivoin sekä sen alla tyhjä kirjoitusrivi. Vihreät merkit kuvien yläkulmissa kertovat määrän ilman lukemista. Lapsi lukee yksikkömuodon, jäljentää monikon katkoviivoja pitkin ja kirjoittaa sen sitten itse.",
+   "p2": "Pitkä sana tekee päätteestä vaikeamman huomata. Kun sanan alussa on jo yhdeksän tai kymmenen kirjainta, viimeinen t katoaa helposti näkyvistä, ja juuri siksi näitä sanoja kannattaa harjoitella erikseen. Suomen ajoneuvosanat ovat lisäksi usein yhdyssanoja, joissa monikon pääte kiinnittyy vain jälkiosaan: lentokone ja lentokoneet, kaivinkone ja kaivinkoneet. Moni sana venyttää vartalon vokaalin ennen päätettä, kuten vene ja veneet, ja se on lapselle näkyvä esimerkki siitä, että sanan loppu elää. OPS 2014 kuvaa esiopetuksessa kielen rakenteiden havainnointia lasta kiinnostavien sanojen avulla, ja pitkät kulkuvälineiden nimet ovat monelle juuri niitä. Opettaja katsoo tyhjää riviä: onko pääte mukana ja onko pitkä sana kirjoitettu loppuun asti samankokoisin kirjaimin.",
+   "p3": "Tulosta PDF ilmaiseksi ja pyydä lasta taputtamaan pitkä sana tavuiksi ennen kirjoittamista, niin jono jakautuu osiin. Aloita Yksikkö ja monikko lyhyillä sanoilla -sivusta, jos pääte ei vielä pysy mukana; siinä on kolme riviä ja korkeintaan seitsemänkirjaimiset monikot. Perussivu Yksikkö ja monikko käyttää keskipituisia sanoja neljällä rivillä. Yksi vai monta -sivulla saman eron tunnistaa ympyröimällä ilman kirjoittamista, ja Kirjoita kuvan sana vie samat ajoneuvot pelkän kuvan perusteella kirjoitettaviksi. Neljä riviä ja pitkät sanat tekevät sivusta tämän perheen työläimmän, joten sille kannattaa varata oma tuokionsa eikä liittää sitä toisen tehtävän perään.",
+   "canonicalDeckSlug": "yksikko-ja-monikko-ajoneuvot-k303",
+   "carousel": [
+    {
+     "label": "Yksikkö ja monikko lyhyillä sanoilla: yksi eläin ja kaksi eläintä",
+     "href": "yksikko-ja-monikko-lyhyet-sanat"
+    },
+    {
+     "label": "Yksi vai monta? Neljä isoa eläinkorttia ja kaksi sanaa kussakin",
+     "href": "yksi-vai-monta-nelja-kuvakorttia"
+    },
+    {
+     "label": "Yksi vai monta? Kahdeksan ajoneuvokorttia yhdellä sivulla",
+     "href": "yksi-vai-monta-kahdeksan-kuvakorttia"
+    },
+    {
+     "label": "Lue ja väritä: neljä lausetta ja neljä väriä",
+     "href": "lue-ja-varita-nelja-lausetta"
+    }
+   ],
+   "title": "Yksikkö ja monikko: pitkät sanat, ajoneuvot | tulostettava PDF ilmainen",
+   "metaDescription": "Yksikkö ja monikko pitkillä sanoilla: neljä riviä ajoneuvoja, monikko katkoviivoin ja tyhjä rivi, monikossa jopa kaksitoista kirjainta. Ilmainen esikoulun PDF."
+  },
+  {
+   "slug": "yksi-vai-monta-nelja-kuvakorttia",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "articles",
+    "mode": null,
+    "theme": "animals",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Yksi vai monta -moniste neljällä kortilla",
+   "h1": "Yksi vai monta? Neljä isoa eläinkorttia ja kaksi sanaa kussakin",
+   "strand": "Kielen rakenteet",
+   "slotTokens": [
+    "yksi-vai-monta",
+    "elaimet",
+    "esikoulu"
+   ],
+   "p1": "Neljä isoa eläinkorttia täyttää sivun kahtena rivinä, ja kortit ovat suurimmat koko perheessä. Kussakin kortissa on joko yksi eläin tai kolme samanlaista eläintä, esimerkiksi yksi kettu tai kolme kirahvia, ja kuvan alla kaksi valkoista sanalaattaa: sama sana yksikössä ja monikossa, kuten kettu ja ketut. Lapsi laskee kuvat, sanoo määrän ääneen ja ympyröi sen sanan, joka sopii kortin kuvaan. Sivulla ei kirjoiteta mitään, ja molemmat muodot ovat mukana neljän kortin joukossa.",
+   "p2": "Neljä korttia on tarkoituksellisen vähän. Kuvat ovat isoja, sanalaatat leveitä ja kirjasinkoko suurin mahdollinen, joten sivu käy myös lapselle, joka vasta tunnistaa kirjaimia ja tarvitsee aikaa sanan lopun katsomiseen. Ero yhden ja kolmen välillä on niin selvä, ettei laskeminen ole koskaan tehtävän vaikea osa; ratkaisu tehdään sanan perusteella. Osassa eläinten nimiä vartalo muuttuu monikossa, kuten kettu ja ketut tai lepakko ja lepakot, joten lapsi näkee, että monikon tunnistaa lopusta vaikka sanan keskellä tapahtuisi muutakin. OPS 2014 nimeää esiopetuksen tavoitteiksi sekä lukumäärän havaitsemisen että kielen muotojen tutkimisen, ja tämä sivu tekee molempia yhdellä valinnalla. Opettaja kuuntelee, sanooko lapsi lukumäärän ennen ympyröimistä.",
+   "p3": "Tulosta PDF ilmaiseksi ja käytä sivua ensin lyhyenä yhteisenä tuokiona, sillä ääneen sanominen on tässä olennaista. Neljä korttia sopii esiopetusvuoden alkuun ja pienryhmään, jossa jokaisen kortin ehtii käydä läpi puhuen. Perussivu Yksi vai monta käyttää kuutta korttia, ja Yksi vai monta kahdeksalla kortilla levittää saman tehtävän koko sivulle pienempinä kortteina. Kun tunnistaminen on varmaa, Yksikkö ja monikko -sivulla monikon pääte myös kirjoitetaan katkoviivoja pitkin ja tyhjälle riville. Kortit ovat niin isoja, että sivun voi näyttää koko ryhmälle ja ympyröidä ensimmäisen vastauksen yhdessä ennen kuin jokainen saa oman monisteensa.",
+   "canonicalDeckSlug": "yksi-vai-monta-elaimet-k306",
+   "carousel": [
+    {
+     "label": "Yksi vai monta? Kahdeksan ajoneuvokorttia yhdellä sivulla",
+     "href": "yksi-vai-monta-kahdeksan-kuvakorttia"
+    },
+    {
+     "label": "Lue ja väritä: neljä lausetta ja neljä väriä",
+     "href": "lue-ja-varita-nelja-lausetta"
+    },
+    {
+     "label": "Lue ja väritä: kiireinen sivu, enemmän kuvia ja enemmän värejä",
+     "href": "lue-ja-varita-kiireinen-sivu"
+    },
+    {
+     "label": "Päivän luku 11–19: kymppiruudut ja tukkimiehen kirjanpito",
+     "href": "paivan-luku-11-19"
+    }
+   ],
+   "title": "Yksi vai monta: neljä kuvaa, eläimet | tulostettava PDF ilmainen",
+   "metaDescription": "Yksi vai monta neljällä kortilla: kussakin joko yksi tai kolme eläintä ja alla kaksi sanalaattaa, yksikkö ja monikko. Ympyröi oikea. Ilmainen esikoulun PDF."
+  },
+  {
+   "slug": "yksi-vai-monta-kahdeksan-kuvakorttia",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "articles",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Yksi vai monta -moniste kahdeksalla kortilla",
+   "h1": "Yksi vai monta? Kahdeksan ajoneuvokorttia yhdellä sivulla",
+   "strand": "Kielen rakenteet",
+   "slotTokens": [
+    "yksi-vai-monta",
+    "ajoneuvot",
+    "esikoulu"
+   ],
+   "p1": "Kahdeksan ajoneuvokorttia asettuu kahteen sarakkeeseen ja neljään riviin. Joka kortissa on joko yksi ajoneuvo tai kolme samanlaista, esimerkiksi yksi lautta tai kolme kanoottia, ja kuvan alla kaksi valkoista sanalaattaa: yksikkö ja monikko, kuten lautta ja lautat. Lapsi laskee kuvat ja ympyröi sen sanan, joka sopii kortin määrään. Kortit ja laatat ovat pienempiä kuin neljän kortin sivulla, ja molempia muotoja on sivulla vähintään kaksi, joten sama vastaus ei toistu koko sivun läpi.",
+   "p2": "Kahdeksan korttia muuttaa sivun luonteen tuokiosta itsenäiseksi työksi. Kun kortteja on kaksi kertaa enemmän, lapsi ei enää muista edellistä vastausta vaan joutuu ratkaisemaan jokaisen kortin erikseen, ja pienempi kirjasinkoko pakottaa katsomaan sanan loppua tarkemmin. Vastausten jakauma on rakennettu niin, ettei kumpikaan muoto jää yhden kortin varaan, mikä estää arvaamisen kaavalla. Ajoneuvojen nimissä monikon pääte kiinnittyy pitkän yhdyssanan loppuun, kuten suihkukone ja suihkukoneet, joten sanan loppuun katsominen on tässä oikeasti tarpeen. OPS 2014 kuvaa esiopetuksessa kielen havainnointia ja lukumäärän hahmottamista, ja kahdeksan toistoa riittää näyttämään, onko sääntö ymmärretty vai osuiko lapsi oikeaan sattumalta. Opettaja katsoo, kasautuvatko virheet toisen muodon kohdalle. Kortit ovat pienempiä myös käytännön syystä: kahdeksan korttia mahtuu yhdelle sivulle vain, jos kuvat ja sanalaatat kutistuvat, ja pienempi teksti on osa tehtävän vaativuutta.",
+   "p3": "Tulosta PDF ilmaiseksi ja anna sivu itsenäiseksi työksi vasta, kun neljän kortin versio on käyty yhdessä läpi puhuen. Yksi vai monta neljällä kortilla käyttää isoja kortteja ja isoa kirjasinkokoa, ja perussivu Yksi vai monta on näiden välissä kuudella kortilla. Tämä on perheen laajin sivu ja sopii esiopetusvuoden loppuun tai ensimmäisen luokan alkuun. Seuraava askel on Yksikkö ja monikko, jolla monikko myös kirjoitetaan, ja sen pitkien sanojen versio käyttää samoja ajoneuvoja.",
+   "canonicalDeckSlug": "yksi-vai-monta-ajoneuvot-k307",
+   "carousel": [
+    {
+     "label": "Yksi vai monta? Neljä isoa eläinkorttia ja kaksi sanaa kussakin",
+     "href": "yksi-vai-monta-nelja-kuvakorttia"
+    },
+    {
+     "label": "Lue ja väritä: neljä lausetta ja neljä väriä",
+     "href": "lue-ja-varita-nelja-lausetta"
+    },
+    {
+     "label": "Lue ja väritä: kiireinen sivu, enemmän kuvia ja enemmän värejä",
+     "href": "lue-ja-varita-kiireinen-sivu"
+    },
+    {
+     "label": "Päivän luku 11–19: kymppiruudut ja tukkimiehen kirjanpito",
+     "href": "paivan-luku-11-19"
+    }
+   ],
+   "title": "Yksi vai monta: kahdeksan kuvaa, ajoneuvot | tulostettava PDF ilmainen",
+   "metaDescription": "Yksi vai monta kahdeksalla kortilla: joka kortissa yksi tai kolme ajoneuvoa ja kaksi sanalaattaa, molempia muotoja vähintään kaksi. Ilmainen esikoulun PDF."
+  },
+  {
+   "slug": "lue-ja-varita-nelja-lausetta",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "read-and-color",
+    "mode": null,
+    "theme": "animals_bw",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Lue ja väritä -moniste neljällä lauseella",
+   "h1": "Lue ja väritä: neljä lausetta ja neljä väriä",
+   "strand": "Lukeminen",
+   "standard": "RF.1.4",
+   "slotTokens": [
+    "lue-ja-varita",
+    "elaimet-mv",
+    "1-luokka"
+   ],
+   "p1": "Neljä lausetta, neljä väriä ja neljä eläinriviä. Sivun yläreunassa on värikartta, jossa neljän värin nimen vieressä on värimalli. Sen alla on neljä korttia kahdessa rivissä, ja jokaisessa kortissa on yksi lyhyt lause sekä sen alla rivi mustavalkoisia ääriviivaeläimiä. Lause voi olla Väritä 2 kirahvia siniseksi tai Etsi 3 papukaijaa ja väritä ne punaiseksi, ja rivillä on lauseen nimeämien eläinten lisäksi yksi ylimääräinen eläin. Lapsi lukee lauseen, poimii oikeat eläimet ja värittää juuri ne.",
+   "p2": "Jokainen kortti pyytää lukemaan kolme asiaa yhtä aikaa: eläimen nimen, lukusanan ja värin. Ylimääräinen eläin rivillä tekee silmäilystä hyödytöntä, koska määrä ei täsmää, jos lasketaan kaikki kuvat. Lukumäärät pysyvät tällä sivulla kahdessa tai kolmessa ja harhauttajia on vain yksi, joten sivu sopii lukuvuoden alkuun ja lapselle, joka lukee vielä hitaasti mutta ymmärtää lukemansa. Suomessa lukusanan jälkeen tulee partitiivi, kaksi kirahvia, kolme papukaijaa, ja värin nimi on lauseessa translatiivissa, siniseksi ja punaiseksi, kun kartta näyttää perusmuodon sen rinnalla. OPS 2014 kuvaa ensimmäisen luokan lukemista niin, että oppilas lukee lyhyitä tekstejä ja toimii luetun mukaan. Opettaja näkee ymmärtämisen luokan toiselta puolelta: väärä väri tai väärä määrä kertoo tarinan heti.",
+   "p3": "Tulosta PDF ilmaiseksi tavalliselle paperille, jotta sekä puuvärit että tussit toimivat. Neljä korttia on lyhyt tehtävä, joka ehtii tunnin loppuun. Perussivu Lue ja väritä käyttää kuutta korttia ja kuutta väriä, ja Lue ja väritä: kiireinen sivu nostaa lukumäärät viiteen asti ja lisää toisen harhauttajan. Kun lauseiden mukaan toimiminen sujuu, Järjestä sanat lauseeksi -sivulla lauseita ei enää seurata vaan rakennetaan, ja Kirjoita kuvan sana siirtää samat eläimet lukemisesta kirjoittamiseen.",
+   "canonicalDeckSlug": "lue-ja-varita-elaimet-mv-g1251",
+   "carousel": [
+    {
+     "label": "Lue ja väritä: kiireinen sivu, enemmän kuvia ja enemmän värejä",
+     "href": "lue-ja-varita-kiireinen-sivu"
+    },
+    {
+     "label": "Päivän luku 11–19: kymppiruudut ja tukkimiehen kirjanpito",
+     "href": "paivan-luku-11-19"
+    },
+    {
+     "label": "Päivän luku: 10 enemmän ja 10 vähemmän yhtenä laskuna",
+     "href": "paivan-luku-10-enemman-ja-10-vahemman"
+    },
+    {
+     "label": "Päivän luku 99:ään asti: kaksinumeroinen luku kymppeinä ja ykkösinä",
+     "href": "paivan-luku-99-asti"
+    }
+   ],
+   "title": "Lue ja väritä: neljä lausetta – eläimet | tulostettava PDF ilmainen",
+   "metaDescription": "Lue ja väritä neljällä lauseella: kortissa yksi lause, rivi ääriviivaeläimiä ja yksi harhauttaja. Neljän värin kartta yläreunassa. Ilmainen 1. luokan PDF."
+  },
+  {
+   "slug": "lue-ja-varita-kiireinen-sivu",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "read-and-color",
+    "mode": null,
+    "theme": "toys_bw",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Lue ja väritä -moniste tiheällä sivulla",
+   "h1": "Lue ja väritä: kiireinen sivu, enemmän kuvia ja enemmän värejä",
+   "strand": "Luetun ymmärtäminen",
+   "standard": "RF.1.4",
+   "slotTokens": [
+    "lue-ja-varita",
+    "lelut-mv",
+    "1-luokka"
+   ],
+   "p1": "Sivu on täysi. Kuudessa kortissa on kussakin yksi lause ja sen alla tiheä rivi mustavalkoisia ääriviivakuvia leluista ja kulkuvälineistä. Lause voi olla Etsi 5 traktoria ja väritä ne oranssiksi tai Väritä 4 ämpäriä punaiseksi, ja väritettäviä kuvia on kolmesta viiteen. Rivillä on lisäksi kaksi tai kolme harhauttajaa, jotka ovat kahden eri lelun kuvia, joten pelkkä samannäköisen etsiminen ei riitä. Yläreunan värikartta nimeää kuusi väriä, yhden jokaista korttia kohti, ja värit on poimittu kahdeksan värin joukosta.",
+   "p2": "Tiheys on tämän sivun koko asia. Kun rivillä on jopa kahdeksan kuvaa ja niistä viisi on väritettävä, lapsen on pidettävä lukusana mielessä koko poimimisen ajan ja laskettava kuvat kahdesti: kerran etsiessään ja kerran tarkistaessaan. Kaksi eri harhauttajalajia estää sen, että lapsi ratkaisisi kortin katsomalla vain, mikä kuva toistuu useimmin. Suomen partitiivi näkyy tässä selvästi, koska lukusanat ovat isompia: viisi traktoria, neljä ämpäriä. OPS 2014 nimeää ensimmäisen luokan tavoitteeksi luetun ymmärtämisen ja ohjeen mukaan toimimisen, ja kuusi korttia riittää näyttämään, pitääkö tarkkuus loppuun asti vai herpaantuuko se sivun puolivälissä. Opettaja katsoo viimeisiä kortteja: siellä väsymys näkyy ensimmäisenä.",
+   "p3": "Tulosta PDF ilmaiseksi ja anna lapsen merkitä oikeat kuvat kevyellä pisteellä ennen värittämistä, niin lukumäärä ei unohdu kesken työn. Aloita Lue ja väritä: neljä lausetta -sivusta, jos lukeminen on vielä hidasta; siinä on neljä korttia, neljä väriä ja yksi harhauttaja. Perussivu Lue ja väritä on näiden välissä. Tämä on perheen vaativin sivu ja toimii hyvin ensimmäisen luokan kevätlukukaudella tai eriyttävänä tehtävänä nopeille lukijoille. Kuusi väriä tarkoittaa, että jokaisella kortilla on oma värinsä eikä sama väri toistu sivulla kahdesti, joten värikartta on luettava kokonaan.",
+   "canonicalDeckSlug": "lue-ja-varita-lelut-mv-g1252",
+   "carousel": [
+    {
+     "label": "Lue ja väritä: neljä lausetta ja neljä väriä",
+     "href": "lue-ja-varita-nelja-lausetta"
+    },
+    {
+     "label": "Päivän luku 11–19: kymppiruudut ja tukkimiehen kirjanpito",
+     "href": "paivan-luku-11-19"
+    },
+    {
+     "label": "Päivän luku: 10 enemmän ja 10 vähemmän yhtenä laskuna",
+     "href": "paivan-luku-10-enemman-ja-10-vahemman"
+    },
+    {
+     "label": "Päivän luku 99:ään asti: kaksinumeroinen luku kymppeinä ja ykkösinä",
+     "href": "paivan-luku-99-asti"
+    }
+   ],
+   "title": "Lue ja väritä: kiireinen sivu – lelut | tulostettava PDF ilmainen",
+   "metaDescription": "Lue ja väritä tiheällä sivulla: kuusi korttia, kuusi väriä, jopa viisi väritettävää lelua riviä kohti ja kaksi harhauttajaa. Ilmainen 1. luokan PDF."
+  },
+  {
+   "slug": "paivan-luku-11-19",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-of-the-day",
+    "mode": null,
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Päivän luku -moniste 11–19",
+   "h1": "Päivän luku 11–19: kymppiruudut ja tukkimiehen kirjanpito",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "1.NBT.B.2",
+   "slotTokens": [
+    "paivan-luku",
+    "1-luokka"
+   ],
+   "p1": "Päivän luku on tällä sivulla aina yhdentoista ja yhdeksäntoista väliltä. Luku on painettu suurena valkoiseen korttiin vasempaan yläkulmaan, ja loppu sivusta on laatikoita, jotka pyytävät saman luvun eri muodossa. Lapsi kirjoittaa lukusanan riville, täydentää edellisen ja seuraavan luvun, jakaa luvun kymppeihin ja ykkösiin, värittää sen kahteen kymppiruudukkoon, merkitsee sen tukkimiehen kirjanpidolla, etsii sen lukusuoralta 0–20 ja laskee lopuksi kolme askelta eteenpäin ja kolme taaksepäin. Kahdeksan laatikkoa, yksi luku.",
+   "p2": "Toinen kymmenluku on erikoinen: se on lapsen ensimmäinen kohtaaminen kymmenen ja jonkin verran -rakenteen kanssa, mutta suomen lukusanat piilottavat sen. Neljätoista ei kuulosta neljältä ja kympiltä, vaikka juuri sitä se on. Siksi tällä sivulla ovat mukana kymppiruudukot ja tukkimiehen kirjanpito, joita muissa perheen sivuissa ei ole: molemmat näyttävät kympin täytenä ryhmänä ja loput irrallisina, ja lukumäärä on nähtävissä ilman laskemista. OPS 2014 nimeää ensimmäisen luokan sisällöiksi lukukäsitteen, lukujen hajottamisen ja kymmenjärjestelmän periaatteen, ja teini-ikäiset luvut ovat se kohta, jossa periaate on helpoin näyttää ja vaikein sanoa. Opettaja vertaa kymppiruudukoita ja kympit ja ykköset -laatikkoa: niiden pitäisi kertoa sama asia.",
+   "p3": "Tulosta PDF ilmaiseksi ja käytä sitä aamun avaajana: sama sivu, uusi luku, viisi minuuttia. Tämä on perheen helpoin sivu ja sopii ensimmäisen luokan syksyyn. Päivän luku: 10 enemmän, 10 vähemmän käyttää samaa lukualuetta mutta korvaa kymppiruudut kahdella laskulla ja lukusuoralla 0–30, ja Päivän luku 99:ään asti nousee kaksinumeroisiin lukuihin ja lukusuoraan 0–100. Perussivu Päivän luku käyttää lukuja 21–49. Lukusuora-sivut harjoittavat samaa paikantamista erikseen. Kymppiruudukot ja tukkimiehen kirjanpito esiintyvät tässä perheessä vain tällä sivulla, joten ne kannattaa ottaa käyttöön juuri teini-ikäisten lukujen kohdalla.",
+   "canonicalDeckSlug": "paivan-luku-g1255",
+   "carousel": [
+    {
+     "label": "Päivän luku: 10 enemmän ja 10 vähemmän yhtenä laskuna",
+     "href": "paivan-luku-10-enemman-ja-10-vahemman"
+    },
+    {
+     "label": "Päivän luku 99:ään asti: kaksinumeroinen luku kymppeinä ja ykkösinä",
+     "href": "paivan-luku-99-asti"
+    },
+    {
+     "label": "Kirjoita sana, kun alkukirjain on valmiina: sanapankki ja kuusi eläintä",
+     "href": "kirjoita-sana-alkukirjain-valmiina"
+    },
+    {
+     "label": "Kirjoita sana sanapankin avulla: kahdeksan ajoneuvoa, ei alkukirjainta",
+     "href": "kirjoita-sana-sanapankin-avulla"
+    }
+   ],
+   "title": "Päivän luku 11–19 1. luokka | tulostettava PDF ilmainen",
+   "metaDescription": "Päivän luku 11–19: lukusana, edellinen ja seuraava, kympit ja ykköset, kaksi kymppiruudukkoa, tukkimiehen kirjanpito ja lukusuora 0–20. Ilmainen 1. luokan PDF."
+  },
+  {
+   "slug": "paivan-luku-10-enemman-ja-10-vahemman",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-of-the-day",
+    "mode": null,
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Päivän luku -moniste kympin hypyillä",
+   "h1": "Päivän luku: 10 enemmän ja 10 vähemmän yhtenä laskuna",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "1.NBT.C.5",
+   "slotTokens": [
+    "paivan-luku",
+    "1-luokka"
+   ],
+   "p1": "Yksi laatikko erottaa tämän sivun muista päivän luvun sivuista: siinä lukee kaksi valmista laskua, esimerkiksi 14 + 10 = ja 14 − 10 =, ja vastauslaatikot ovat tyhjät. Päivän luku on yhdentoista ja yhdeksäntoista väliltä ja painettu suurena vasempaan yläkulmaan. Muut laatikot pyytävät lukusanan, edellisen ja seuraavan luvun, kympit ja ykköset, luvun piirtämisen kymmen- ja ykköspalikoilla pisteruudukkoon sekä sen paikan lukusuoralta, joka ulottuu tällä sivulla kolmeenkymmeneen. Lopuksi lasketaan kolme askelta eteenpäin ja kolme taaksepäin.",
+   "p2": "Kympin lisääminen teini-ikäiseen lukuun vie vastauksen toiselle kymmenluvulle, ja juuri siksi tehtävä on eri luokkaa kuin ykkösten lisääminen. Neljästätoista tulee kaksikymmentäneljä: ykkösten määrä ei muutu lainkaan, vain kymppien. Kun sama luku on samalla sivulla myös kympeiksi ja ykkösiksi jaettuna ja palikoiksi piirrettynä, yhteys on nähtävissä eikä vain sanottavissa. Kympin vähentäminen vie takaisin yksinumeroiseen lukuun, joten molemmat suunnat tulevat harjoiteltua. Lukusuora on venytetty kolmeenkymmeneen, jotta vastaus mahtuu sille. OPS 2014 kuvaa ensimmäisen luokan sisällöiksi kymmenjärjestelmän periaatteen ja lukujen välisiä suhteita. Opettaja katsoo kympit ja ykköset -laatikkoa ja laskulaatikkoa yhdessä: lapsi, joka laskee kympin lisäämisen ykkösittäin, ei ole vielä yhdistänyt niitä.",
+   "p3": "Tulosta PDF ilmaiseksi ja pyydä lasta merkitsemään molemmat vastaukset myös lukusuoralle, niin kympin hyppy näkyy matkana eikä vain lukuna. Päivän luku 11–19 käyttää samaa lukualuetta ilman laskuja mutta kymppiruutujen ja tukkimiehen kirjanpidon kanssa. Perussivu Päivän luku työskentelee luvuilla 21–49, ja Päivän luku 99:ään asti lisää mukaan myös yhden enemmän ja yhden vähemmän. Lukupyramidi ja Tuplaa ja puolita vievät samat luvut yhteenlaskuihin. Lukusuora on tällä sivulla venytetty kolmeenkymmeneen juuri siksi, että kympin lisääminen veisi vastauksen muuten suoran ulkopuolelle.",
+   "canonicalDeckSlug": "paivan-luku-g1256",
+   "carousel": [
+    {
+     "label": "Päivän luku 11–19: kymppiruudut ja tukkimiehen kirjanpito",
+     "href": "paivan-luku-11-19"
+    },
+    {
+     "label": "Päivän luku 99:ään asti: kaksinumeroinen luku kymppeinä ja ykkösinä",
+     "href": "paivan-luku-99-asti"
+    },
+    {
+     "label": "Kirjoita sana, kun alkukirjain on valmiina: sanapankki ja kuusi eläintä",
+     "href": "kirjoita-sana-alkukirjain-valmiina"
+    },
+    {
+     "label": "Kirjoita sana sanapankin avulla: kahdeksan ajoneuvoa, ei alkukirjainta",
+     "href": "kirjoita-sana-sanapankin-avulla"
+    }
+   ],
+   "title": "Päivän luku: 10 enemmän, 10 vähemmän | tulostettava PDF ilmainen",
+   "metaDescription": "Päivän luku kympin hypyillä: laatikossa laskut 14 + 10 ja 14 − 10, lisäksi lukusana, kympit ja ykköset, palikat ja lukusuora 0–30. Ilmainen 1. luokan PDF."
+  },
+  {
+   "slug": "paivan-luku-99-asti",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-of-the-day",
+    "mode": null,
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Päivän luku -moniste kaksinumeroisilla luvuilla",
+   "h1": "Päivän luku 99:ään asti: kaksinumeroinen luku kymppeinä ja ykkösinä",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "1.NBT.B.2",
+   "slotTokens": [
+    "paivan-luku",
+    "1-luokka"
+   ],
+   "p1": "Päivän luku voi tällä sivulla olla mikä tahansa kahdenkymmenenyhden ja yhdeksänkymmenenyhdeksän väliltä, esimerkiksi 79. Laskulaatikossa on neljä laskua eikä kahta: kymmenen enemmän, kymmenen vähemmän, yksi enemmän ja yksi vähemmän. Muut laatikot pyytävät lukusanan, edellisen ja seuraavan luvun, kympit ja ykköset sekä luvun piirtämisen palikoilla. Lukusuora ulottuu sataan ja on merkitty kympeittäin. Alareunan laatikoista ensimmäinen pyytää laskemaan eteenpäin kymmenittäin ja toinen taaksepäin, joten kympin askel toistuu sivulla kolmesti.",
+   "p2": "Kahdessa laskuparissa on koko sivun ajatus: kymppi muuttaa vain vasenta numeroa ja ykkönen vain oikeaa. Kun molemmat ovat samassa laatikossa allekkain, ero on nähtävissä eikä sitä tarvitse selittää. Suuremmat luvut tekevät myös lukusanasta pitkän yhdyssanan, seitsemänkymmentäyhdeksän, ja sille on varattu koko laatikon levyinen rivi, koska suomen lukusanaa ei saa katkaista kahdelle riville. Sadan mittainen lukusuora tarkoittaa, että luku on paikannettava kymppimerkintöjen väliin eikä yksittäisiä viivoja laskemalla. OPS 2014 nimeää ensimmäisen luokan keskeiseksi sisällöksi kymmenjärjestelmän periaatteen ja lukualueen laajentamisen, ja tämä sivu on perheen laajin sovellus siitä. Opettaja katsoo, laskeeko lapsi kymmenittäin todella kymppeinä vai ykkönen kerrallaan. Neljä laskua yhdessä laatikossa on myös enemmän kirjoitettavaa kuin muilla perheen sivuilla, joten sivu vie oman aikansa.",
+   "p3": "Tulosta PDF ilmaiseksi ja käytä sivua vasta, kun teini-ikäisten lukujen versiot ovat tuttuja. Päivän luku 11–19 on perheen helpoin ja käyttää kymppiruutuja ja tukkimiehen kirjanpitoa, ja Päivän luku: 10 enemmän, 10 vähemmän harjoittaa kympin hyppyä samalla lukualueella. Perussivu Päivän luku työskentelee luvuilla 21–49 ja lukusuoralla 0–50. Tämän jälkeen Lukusuora-sivut keskittyvät pelkkään paikantamiseen ja Lukupyramidi samojen lukujen yhteenlaskuun. Sivu sopii ensimmäisen luokan kevääseen ja toisen luokan alkuun, jolloin kaksinumeroiset luvut ovat päivittäistä työtä.",
+   "canonicalDeckSlug": "paivan-luku-g1257",
+   "carousel": [
+    {
+     "label": "Päivän luku 11–19: kymppiruudut ja tukkimiehen kirjanpito",
+     "href": "paivan-luku-11-19"
+    },
+    {
+     "label": "Päivän luku: 10 enemmän ja 10 vähemmän yhtenä laskuna",
+     "href": "paivan-luku-10-enemman-ja-10-vahemman"
+    },
+    {
+     "label": "Kirjoita sana, kun alkukirjain on valmiina: sanapankki ja kuusi eläintä",
+     "href": "kirjoita-sana-alkukirjain-valmiina"
+    },
+    {
+     "label": "Kirjoita sana sanapankin avulla: kahdeksan ajoneuvoa, ei alkukirjainta",
+     "href": "kirjoita-sana-sanapankin-avulla"
+    }
+   ],
+   "title": "Päivän luku 99:ään asti 1. luokka | tulostettava PDF ilmainen",
+   "metaDescription": "Päivän luku 99:ään asti: luku 21–99 kympeiksi ja ykkösiksi, neljä laskua, lukusuora 0–100 kympittäin merkittynä ja laskeminen kymmenittäin. Ilmainen PDF."
+  },
+  {
+   "slug": "kirjoita-sana-alkukirjain-valmiina",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "write-the-word",
+    "mode": null,
+    "theme": "animals",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Kirjoita kuvan sana -moniste alkukirjaimella",
+   "h1": "Kirjoita sana, kun alkukirjain on valmiina: sanapankki ja kuusi eläintä",
+   "strand": "Kirjoittaminen",
+   "slotTokens": [
+    "kirjoita-kuvan-sana",
+    "elaimet",
+    "1-luokka"
+   ],
+   "p1": "Sivulla on kaksi tukea kerralla. Yläreunassa on sanapankki, jossa kuusi eläimen nimeä on aakkosjärjestyksessä, ja jokaisen kuvan viereen on painettu kirjoitusrivin alkuun sanan ensimmäinen kirjain vihreällä koulukäsialalla. Kuusi vaakasuoraa korttia täyttää sivun kahdessa sarakkeessa: vasemmalla eläimen kuva, oikealla kirjoitusrivi. Sanat ovat lyhyitä, korkeintaan kuusi kirjainta, esimerkiksi kissa, kettu, norsu tai koala. Lapsi sanoo kuvan nimen, etsii sen pankista ja kirjoittaa sanan loppuun alkukirjaimen perään.",
+   "p2": "Alkukirjain tekee kaksi asiaa yhtä aikaa. Se kertoo, mistä pankin sanasta on kyse, jolloin oikean sanan valinta ei jää arvauksen varaan, ja se antaa kirjoittamiselle valmiin aloituksen, mikä on ratkaisevaa lapselle, joka epäröi ensimmäistä kirjainta. Pankki on aakkosjärjestyksessä nimenomaan siksi, ettei sanojen järjestys vastaisi kuvien järjestystä ja paljastaisi vastauksia. Kopiointi pankista on tässä sallittua ja tarkoitettua: sivu harjoittaa oikeinkirjoitusta ja käsialaa, ei äänteiden erottelua. OPS 2014 kuvaa ensimmäisen luokan kirjoittamista sanojen ja lyhyiden tekstien tuottamisena sekä käsin kirjoittamisen harjoitteluna, ja mallin kanssa kirjoittaminen on tämän ensimmäinen vaihe. Opettaja katsoo, kopioiko lapsi sanan kirjain kirjaimelta vai muistaako hän sen katsottuaan pankkia kerran. Kuusi korttia kahdessa sarakkeessa jättää sekä kuvalle että riville reilusti tilaa, joten kirjaimet mahtuvat isoiksi eikä käsiala kärsi ahtaudesta.",
+   "p3": "Tulosta PDF ilmaiseksi ja peitä sanapankki paperisuikaleella, jos haluat tehdä sivusta vaativamman ilman uutta tulostetta. Kirjoita sana sanapankin avulla poistaa alkukirjaimen ja kasvattaa korttien määrän kahdeksaan, ja Kirjoita sana ilman sanapankkia jättää pelkät viivat. Perussivu Kirjoita kuvan sana käyttää katkoviivaisia kirjainruutuja, yhtä jokaista kirjainta kohti. Sanojen jäljentäminen on tätä edeltävä sivu, jos lapsi tarvitsee vielä kokonaisen mallin jokaisesta sanasta.",
+   "canonicalDeckSlug": "kirjoita-kuvan-sana-elaimet-g1258",
+   "carousel": [
+    {
+     "label": "Kirjoita sana sanapankin avulla: kahdeksan ajoneuvoa, ei alkukirjainta",
+     "href": "kirjoita-sana-sanapankin-avulla"
+    },
+    {
+     "label": "Kirjoita sana ilman sanapankkia: kahdeksan lelua ja pelkät viivat",
+     "href": "kirjoita-sana-ilman-sanapankkia"
+    },
+    {
+     "label": "Aakkosjärjestys: numeroi neljä hedelmäkorttia 1–4",
+     "href": "aakkosjarjestys-numeroi-kortit"
+    },
+    {
+     "label": "Aakkosjärjestys: numeroi neljä ajoneuvokorttia ja kirjoita sanat riveille",
+     "href": "aakkosjarjestys-numeroi-ja-kirjoita"
+    }
+   ],
+   "title": "Kirjoita sana: alkukirjain valmiina – eläimet | tulostettava PDF ilmainen",
+   "metaDescription": "Kirjoita kuvan sana kahdella tuella: sanapankki sivun yläreunassa ja jokaisen kuvan viereen jo painettu alkukirjain. Kuusi eläintä. Ilmainen 1. luokan PDF."
+  },
+  {
+   "slug": "kirjoita-sana-sanapankin-avulla",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "write-the-word",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Kirjoita kuvan sana -moniste sanapankilla",
+   "h1": "Kirjoita sana sanapankin avulla: kahdeksan ajoneuvoa, ei alkukirjainta",
+   "strand": "Kirjoittaminen",
+   "slotTokens": [
+    "kirjoita-kuvan-sana",
+    "ajoneuvot",
+    "1-luokka"
+   ],
+   "p1": "Kaikki sanat ovat yläreunan pankissa, mutta kirjoitusriville ei ole painettu yhtään kirjainta valmiiksi. Kahdeksan vaakasuoraa korttia täyttää sivun kahdessa sarakkeessa: kuva vasemmalla, tyhjä kirjoitusrivi oikealla. Ajoneuvojen nimet ovat pankissa aakkosjärjestyksessä, ja mukana on jopa kaksitoistakirjaimisia sanoja, esimerkiksi polkupyörä, helikopteri, kaivinkone ja sukellusvene. Lapsi katsoo kuvaa, päättää itse, mikä pankin sanoista siihen kuuluu, ja kirjoittaa koko sanan riville alusta loppuun.",
+   "p2": "Pankki kertoo, mitkä sanat sivulla ovat, mutta ei sitä, mikä niistä kuuluu mihinkin kuvaan. Kun alkukirjainta ei ole annettu, lapsen on luettava pankin sanat, tunnistettava kuva ja yhdistettävä ne itse, ja vasta sen jälkeen alkaa kirjoittaminen. Yhdistäminen on tässä lukemista: moni ajoneuvon nimi alkaa suomeksi samalla kirjaimella tai on pitkä yhdyssana, joten sanaa on katsottava pidemmälle kuin ensimmäiseen kirjaimeen. Kahdeksan korttia ja pitkät sanat tekevät sivusta kokonaisen työskentelyjakson. OPS 2014 kuvaa ensimmäisen luokan tavoitteeksi sanojen kirjoittamisen ja oikeinkirjoituksen perusasioiden harjoittelun, ja tarkka kopioiminen pankista on niistä ensimmäinen. Opettaja katsoo pitkien yhdyssanojen loppuja: siellä kaksoiskonsonantit ja pitkät vokaalit yleensä karkaavat.",
+   "p3": "Tulosta PDF ilmaiseksi ja anna lapsen vetää kevyt viiva pankin sanan yli aina, kun se on käytetty, niin jäljellä olevat vaihtoehdot vähenevät ja työ pysyy järjestyksessä. Kirjoita sana, kun alkukirjain on valmiina käyttää kuutta korttia, lyhyempiä sanoja ja valmista aloituskirjainta. Kirjoita sana ilman sanapankkia poistaa pankin kokonaan. Perussivu Kirjoita kuvan sana antaa katkoviivaisen ruudun jokaista kirjainta kohti, mikä on eri tuki kuin pankki: se kertoo kirjainten määrän mutta ei sanaa. Kahdeksan pitkää sanaa on oppitunnin mittainen työ, joten sivu kannattaa varata omaksi tehtäväkseen eikä lisätehtäväksi toisen perään.",
+   "canonicalDeckSlug": "kirjoita-kuvan-sana-ajoneuvot-g1259",
+   "carousel": [
+    {
+     "label": "Kirjoita sana, kun alkukirjain on valmiina: sanapankki ja kuusi eläintä",
+     "href": "kirjoita-sana-alkukirjain-valmiina"
+    },
+    {
+     "label": "Kirjoita sana ilman sanapankkia: kahdeksan lelua ja pelkät viivat",
+     "href": "kirjoita-sana-ilman-sanapankkia"
+    },
+    {
+     "label": "Aakkosjärjestys: numeroi neljä hedelmäkorttia 1–4",
+     "href": "aakkosjarjestys-numeroi-kortit"
+    },
+    {
+     "label": "Aakkosjärjestys: numeroi neljä ajoneuvokorttia ja kirjoita sanat riveille",
+     "href": "aakkosjarjestys-numeroi-ja-kirjoita"
+    }
+   ],
+   "title": "Kirjoita sana sanapankin avulla – ajoneuvot | tulostettava PDF ilmainen",
+   "metaDescription": "Kirjoita kuvan sana sanapankin avulla: kaikki kahdeksan ajoneuvon nimeä ovat yläreunan pankissa, mutta viivalla ei ole yhtään kirjainta valmiina. Ilmainen PDF."
+  },
+  {
+   "slug": "kirjoita-sana-ilman-sanapankkia",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "write-the-word",
+    "mode": null,
+    "theme": "toys",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Kirjoita kuvan sana -moniste ilman tukea",
+   "h1": "Kirjoita sana ilman sanapankkia: kahdeksan lelua ja pelkät viivat",
+   "strand": "Kirjoittaminen",
+   "standard": "L.1.2.d",
+   "slotTokens": [
+    "kirjoita-kuvan-sana",
+    "lelut",
+    "1-luokka"
+   ],
+   "p1": "Sanapankkia ei ole eikä kirjainruutuja: jokaisen kuvan vieressä on pelkkä kirjoitusrivi. Kahdeksan vaakasuoraa korttia täyttää sivun kahdessa sarakkeessa, ja kuvat ovat leluja ja pihaleikin välineitä, esimerkiksi keinu, robotti, ilmapallo, liukumäki tai potkulauta. Sanat ovat viidestä kahteentoista kirjaimeen. Lapsi sanoo lelun nimen ääneen, kuuntelee äänteet järjestyksessä ja kirjoittaa sanan riville itse. Mikään sivulla ei kerro, montako kirjainta on odotettavissa, eikä sana esiinny missään kohtaa valmiina.",
+   "p2": "Tämä on perheen ainoa sivu, jolla kirjoitusasu tulee kokonaan lapselta. Suomessa äänne ja kirjain vastaavat toisiaan lähes aina, joten tehtävä on kuunnella tarkasti ja kirjoittaa kuulemansa, ja juuri siksi virheet kasautuvat pitkiin äänteisiin: yksi vai kaksi l-kirjainta sanassa pallo, kuinka pitkä ää sanassa ämpäri. Ilman kirjainruutuja lapsi ei saa vihjettä siitä, että jokin puuttuu, vaan hänen on tarkistettava itse lukemalla kirjoittamansa ääneen. OPS 2014 kuvaa ensimmäisen luokan kirjoittamista äänne–kirjain-vastaavuuden ja tavurakenteen harjoitteluna, ja pitkien äänteiden merkitseminen kahdella kirjaimella on suomen oikeinkirjoituksen ensimmäinen kynnys. Opettaja saa kahdeksasta sanasta selvän kuvan siitä, toistuuko sama virhe vai onko kyse yksittäisestä sanasta. Kahdeksan korttia ilman mitään tukea tekee sivusta myös käyttökelpoisen arviointisivun, koska mikään paperilla ei ohjaa lasta oikeaan vastaukseen.",
+   "p3": "Tulosta PDF ilmaiseksi ja pyydä lasta venyttämään jokainen sana ääneen äänne kerrallaan ennen kynään tarttumista. Käytä sivua vasta, kun tuetut versiot sujuvat: Kirjoita sana, kun alkukirjain on valmiina antaa sanapankin ja aloituskirjaimen, Kirjoita sana sanapankin avulla jättää pelkän pankin, ja perussivu Kirjoita kuvan sana antaa katkoviivaisen ruudun jokaista kirjainta kohti. Tästä eteenpäin Aakkosjärjestys ei enää pyydä kirjoittamaan sanoja kuvasta vaan järjestämään ne.",
+   "canonicalDeckSlug": "kirjoita-kuvan-sana-lelut-g1260",
+   "carousel": [
+    {
+     "label": "Kirjoita sana, kun alkukirjain on valmiina: sanapankki ja kuusi eläintä",
+     "href": "kirjoita-sana-alkukirjain-valmiina"
+    },
+    {
+     "label": "Kirjoita sana sanapankin avulla: kahdeksan ajoneuvoa, ei alkukirjainta",
+     "href": "kirjoita-sana-sanapankin-avulla"
+    },
+    {
+     "label": "Aakkosjärjestys: numeroi neljä hedelmäkorttia 1–4",
+     "href": "aakkosjarjestys-numeroi-kortit"
+    },
+    {
+     "label": "Aakkosjärjestys: numeroi neljä ajoneuvokorttia ja kirjoita sanat riveille",
+     "href": "aakkosjarjestys-numeroi-ja-kirjoita"
+    }
+   ],
+   "title": "Kirjoita sana ilman sanapankkia – lelut | tulostettava PDF ilmainen",
+   "metaDescription": "Kirjoita kuvan sana ilman tukea: kahdeksan lelua, ei sanapankkia eikä kirjainruutuja, pelkkä kirjoitusrivi jokaisen kuvan vieressä. Ilmainen 1. luokan PDF."
+  },
+  {
+   "slug": "aakkosjarjestys-numeroi-kortit",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "alphabetical-order",
+    "mode": null,
+    "theme": "fruits",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Aakkosjärjestyksen moniste ilman kirjoittamista",
+   "h1": "Aakkosjärjestys: numeroi neljä hedelmäkorttia 1–4",
+   "strand": "Kielen rakenteet",
+   "slotTokens": [
+    "aakkosjarjestys",
+    "hedelmat",
+    "1-luokka"
+   ],
+   "p1": "Tällä sivulla ei kirjoiteta yhtään sanaa. Ylimpänä kulkee koko suomen aakkosjana a:sta ö:hön sävytettyihin ruutuihin painettuna, ja sen alla on neljä hieman vinoon aseteltua hedelmäkorttia. Jokaisessa kortissa on kuva, hedelmän nimi painettuna ja kulmassa pieni katkoviivainen ympyrä. Lapsi etsii jokaisen sanan ensimmäisen kirjaimen janalta, kirjoittaa ympyrään numeron 1 sen sanan kohdalle, joka tulee ensimmäisenä, ja jatkaa neljään asti. Sanojen alkukirjaimet ovat kaukana toisistaan aakkosissa.",
+   "p2": "Ympyröiden numerointi ilman kirjoitusrivejä erottaa järjestämisen käsialasta. Lapsi, joka muuttaa mieltään, voi yliviivata numeron ja kirjoittaa uuden, eikä koko rivi mene uusiksi, ja sivu valmistuu muutamassa minuutissa. Kun alkukirjaimet on valittu kaukaa toisistaan, ratkaisu tehdään yhdellä kirjaimella eikä toista kirjainta tarvitse katsoa lainkaan. Aakkosjana on paperilla juuri siksi, ettei kenenkään tarvitse luetella aakkosia alusta saadakseen selville, tuleeko k ennen m:ää: riittää, että katsoo. Suomen janan lopussa ovat å, ä ja ö, ja niiden paikan näkeminen on osa ensimmäisen luokan kielitietoa, jossa OPS 2014 mainitsee aakkosjärjestyksen. Opettaja näkee tuloksen yhdellä silmäyksellä, koska vastaus on neljä numeroa.",
+   "p3": "Tulosta PDF ilmaiseksi ja pyydä lasta koskettamaan jokaisen sanan alkukirjainta janalla ja sanomaan se ääneen ennen numeroimista. Tämä on perheen kevyin sivu ja sopii ensimmäiseksi tutustumiseksi aakkostamiseen. Aakkosjärjestys: numeroi ja kirjoita lisää samaan neljän kortin tehtävään neljä numeroitua riviä, joille sanat kopioidaan järjestyksessä. Aakkosjärjestys: sama alkukirjain nostaa korttien määrän kuuteen ja vaatii toisen kirjaimen katsomista. Perussivu Aakkosjärjestys käyttää kuutta korttia ja rivejä. Kirjoitusrivejä ei ole lainkaan, joten sivu toimii myös lapselle, jolle käsin kirjoittaminen on vielä hidasta ja veisi kaiken huomion.",
+   "canonicalDeckSlug": "aakkosjarjestys-hedelmat-g1262",
+   "carousel": [
+    {
+     "label": "Aakkosjärjestys: numeroi neljä ajoneuvokorttia ja kirjoita sanat riveille",
+     "href": "aakkosjarjestys-numeroi-ja-kirjoita"
+    },
+    {
+     "label": "Aakkosjärjestys, kun sanat alkavat samalla kirjaimella: katso toista kirjainta",
+     "href": "aakkosjarjestys-sama-alkukirjain"
+    },
+    {
+     "label": "Lukupyramidi 10:een asti: neljä matalaa muuria, huippu pysyy kymmenessä",
+     "href": "lukupyramidi-10-asti"
+    },
+    {
+     "label": "Lukupyramidi neljässä kerroksessa: kymmenen tiiltä, ei yhtään aukkoa",
+     "href": "lukupyramidi-nelja-kerrosta"
+    }
+   ],
+   "title": "Aakkosjärjestys: numeroi kortit – hedelmät | tulostettava PDF ilmainen",
+   "metaDescription": "Aakkosjärjestys ilman kirjoittamista: aakkosjana yläreunassa ja neljä hedelmäkorttia, joiden ympyröihin merkitään järjestysnumerot 1–4. Ilmainen 1. luokan PDF."
+  },
+  {
+   "slug": "aakkosjarjestys-numeroi-ja-kirjoita",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "alphabetical-order",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Aakkosjärjestyksen moniste numeroiden ja kirjoittaen",
+   "h1": "Aakkosjärjestys: numeroi neljä ajoneuvokorttia ja kirjoita sanat riveille",
+   "strand": "Kielen rakenteet",
+   "slotTokens": [
+    "aakkosjarjestys",
+    "ajoneuvot",
+    "1-luokka"
+   ],
+   "p1": "Neljä korttia ja neljä numeroitua riviä. Sivun yläreunassa on koko aakkosjana a:sta ö:hön, ja sen alla neljä hieman vinoon aseteltua ajoneuvokorttia, joissa kussakin on kuva, nimi ja katkoviivainen ympyrä kulmassa. Lapsi numeroi ympyrät aakkosjärjestykseen yhdestä neljään ja kopioi sitten ajoneuvojen nimet siinä järjestyksessä alareunan numeroiduille riveille. Sanojen alkukirjaimet ovat kaukana toisistaan aakkosissa, joten järjestys ratkeaa ensimmäisellä kirjaimella, mutta kirjoitusasu on kopioitava kortista tarkasti.",
+   "p2": "Kaksi vaihetta erottaa ajattelun ja käsialan toisistaan. Ympyrät ratkaisevat järjestyksen, rivit todistavat sen, ja opettaja näkee heti kumpi vaihe tuotti virheen: jos numerot ovat oikein mutta rivit väärässä järjestyksessä, ongelma on kopioimisessa eikä aakkostamisessa. Kirjoittaminen tuo mukaan myös oikeinkirjoituksen, sillä ajoneuvojen nimet ovat suomessa usein pitkiä yhdyssanoja, joissa on kaksoiskonsonantteja ja pitkiä vokaaleja. Aakkosjana on paperilla siksi, että sitä katsotaan eikä luetella: sama katsominen on myöhemmin taito, jolla löydetään sana sanakirjasta tai nimi luokan listasta. OPS 2014 mainitsee aakkosjärjestyksen ensimmäisen luokan kielitiedon sisällöissä. Neljä sanaa on vähän, joten rivit tulevat täyteen eikä sivusta tule pitkä. Kortit ovat vinossa tarkoituksella: niiden asettelu sivulla ei vihjaa järjestystä, joten aakkosjana on ainoa apu.",
+   "p3": "Tulosta PDF ilmaiseksi ja pyydä lasta tarkistamaan lopuksi, että riveillä olevat sanat on kirjoitettu täsmälleen kortin mukaan. Aakkosjärjestys: numeroi kortit on sama tehtävä ilman rivejä, jos kirjoittaminen vie vielä kaiken huomion. Aakkosjärjestys: sama alkukirjain käyttää kuutta korttia, joista kaksi paria alkaa samalla kirjaimella. Perussivu Aakkosjärjestys järjestää kuusi sanaa. Kirjoita kuvan sana -sivu antaa ne kirjoitusasut, joihin nämä kortit nojaavat. Neljä riviä täyttyy nopeasti, joten sivu ehtii hyvin oppitunnin loppuosaan.",
+   "canonicalDeckSlug": "aakkosjarjestys-ajoneuvot-g1263",
+   "carousel": [
+    {
+     "label": "Aakkosjärjestys: numeroi neljä hedelmäkorttia 1–4",
+     "href": "aakkosjarjestys-numeroi-kortit"
+    },
+    {
+     "label": "Aakkosjärjestys, kun sanat alkavat samalla kirjaimella: katso toista kirjainta",
+     "href": "aakkosjarjestys-sama-alkukirjain"
+    },
+    {
+     "label": "Lukupyramidi 10:een asti: neljä matalaa muuria, huippu pysyy kymmenessä",
+     "href": "lukupyramidi-10-asti"
+    },
+    {
+     "label": "Lukupyramidi neljässä kerroksessa: kymmenen tiiltä, ei yhtään aukkoa",
+     "href": "lukupyramidi-nelja-kerrosta"
+    }
+   ],
+   "title": "Aakkosjärjestys: numeroi ja kirjoita – ajoneuvot | tulostettava PDF",
+   "metaDescription": "Aakkosjärjestys neljällä kortilla: numeroi ajoneuvojen nimet aakkosjanan avulla ja kopioi ne sitten järjestyksessä neljälle riville. Ilmainen 1. luokan PDF."
+  },
+  {
+   "slug": "aakkosjarjestys-sama-alkukirjain",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "alphabetical-order",
+    "mode": null,
+    "theme": "toys",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Aakkosjärjestyksen moniste toisella kirjaimella",
+   "h1": "Aakkosjärjestys, kun sanat alkavat samalla kirjaimella: katso toista kirjainta",
+   "strand": "Kielen rakenteet",
+   "slotTokens": [
+    "aakkosjarjestys",
+    "lelut",
+    "1-luokka"
+   ],
+   "p1": "Kaksi korttiparia alkaa samalla kirjaimella. Sivulla on aakkosjana yläreunassa, kuusi vinoon aseteltua lelukorttia keskellä ja kuusi numeroitua riviä alhaalla. Jokaisessa kortissa on kuva, lelun nimi ja katkoviivainen ympyrä. Neljässä kortissa alkukirjain ratkaisee järjestyksen tavalliseen tapaan, mutta kahdessa parissa se ei riitä: kun molemmat sanat alkavat esimerkiksi p:llä, on katsottava toista kirjainta. Lapsi numeroi ympyrät yhdestä kuuteen ja kirjoittaa sanat sitten järjestyksessä riveille.",
+   "p2": "Toisen kirjaimen katsominen on aakkostamisen todellinen sääntö, ja se opitaan vasta silloin, kun ensimmäinen kirjain lakkaa riittämästä. Siihen asti moni lapsi ajattelee aakkostamista alkukirjaimen etsimisenä; nyt hänen on ymmärrettävä, että sanoja verrataan kirjain kerrallaan, kunnes ne eroavat toisistaan. Kaksi paria kuuden kortin joukossa on oikea määrä: sääntöä tarvitaan varmasti, mutta neljä korttia ratkeaa yhä helposti ja pitää työn liikkeellä. Suomen aakkosjana päättyy å:han, ä:hän ja ö:hön, ja jos pari osuu näihin, jana on ainoa luotettava tarkistus. OPS 2014 mainitsee aakkosjärjestyksen ensimmäisen luokan kielitiedon sisältönä. Opettaja katsoo nimenomaan parien keskinäistä järjestystä: muut neljä korttia menevät yleensä oikein. Kuusi korttia ja kuusi riviä tekevät sivusta myös perheen pisimmän kirjoitettavan.",
+   "p3": "Tulosta PDF ilmaiseksi ja pyydä lasta kirjoittamaan parin molemmat sanat allekkain paperin reunaan, jos järjestys ei ratkea katsomalla; allekkain ero näkyy kirjain kerrallaan. Tämä on perheen vaativin sivu. Aakkosjärjestys: numeroi kortit on kevyin, ilman kirjoitusrivejä ja neljällä kaukana toisistaan olevalla alkukirjaimella, ja Aakkosjärjestys: numeroi ja kirjoita lisää siihen rivit. Perussivu Aakkosjärjestys käyttää kuutta korttia, joilla kaikilla on eri alkukirjain. Sivu sopii siihen vaiheeseen, jossa aakkosjärjestystä aletaan käyttää hakemistojen ja sanakirjan kanssa.",
+   "canonicalDeckSlug": "aakkosjarjestys-lelut-g1264",
+   "carousel": [
+    {
+     "label": "Aakkosjärjestys: numeroi neljä hedelmäkorttia 1–4",
+     "href": "aakkosjarjestys-numeroi-kortit"
+    },
+    {
+     "label": "Aakkosjärjestys: numeroi neljä ajoneuvokorttia ja kirjoita sanat riveille",
+     "href": "aakkosjarjestys-numeroi-ja-kirjoita"
+    },
+    {
+     "label": "Lukupyramidi 10:een asti: neljä matalaa muuria, huippu pysyy kymmenessä",
+     "href": "lukupyramidi-10-asti"
+    },
+    {
+     "label": "Lukupyramidi neljässä kerroksessa: kymmenen tiiltä, ei yhtään aukkoa",
+     "href": "lukupyramidi-nelja-kerrosta"
+    }
+   ],
+   "title": "Aakkosjärjestys: sama alkukirjain – lelut | tulostettava PDF ilmainen",
+   "metaDescription": "Aakkosjärjestys, kun kahdella parilla on sama alkukirjain: kuusi lelukorttia numeroidaan 1–6 ja järjestys ratkeaa toisesta kirjaimesta. Ilmainen 1. luokan PDF."
+  },
+  {
+   "slug": "lukupyramidi-10-asti",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-walls",
+    "mode": null,
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Lukupyramidien moniste 10:een asti",
+   "h1": "Lukupyramidi 10:een asti: neljä matalaa muuria, huippu pysyy kymmenessä",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "lukupyramidit",
+    "1-luokka"
+   ],
+   "p1": "Huippu ei nouse tällä sivulla kymmentä suuremmaksi. Neljässä isossa tiilimuurissa on kussakin kolme kerrosta: alin rivi on painettu valmiiksi kolmella luvulla, jotka ovat yhden ja neljän väliltä, ja kaksi keskimmäistä tiiltä sekä huipputiili on merkitty oranssilla katkoviivalla ja jätetty tyhjiksi. Sääntö on kirjoitettu sivun alkuun kerran: jokainen tiili on kahden alla olevan tiilen summa. Lapsi laskee kaksi alinta paria, sitten niiden summan huipulle, ja siirtyy seuraavaan pyramidiin. Tiilet ovat perheen suurimmat.",
+   "p2": "Lukualue on rajattu tarkoituksella kymmeneen, joten jokainen yhteenlasku pysyy siinä lukualueessa, jonka ensimmäisen luokan oppilas hallitsee sormin tai muistista. Rakenne on silti sama kuin isommilla pyramideilla: kolme laskua, joista kaksi alinta ratkaisee kolmannen, ja keskimmäinen alatiili lasketaan mukaan kahdesti, kerran vasemmalle ja kerran oikealle. Tuo jaettu tiili yllättää lapset ensimmäisellä kerralla, ja pienet luvut antavat tilaa keskittyä siihen eikä laskemiseen. OPS 2014 nimeää ensimmäisen luokan sisällöiksi yhteenlaskun ja lukujen hajottamisen kymmenen alueella, ja pyramidi näyttää saman lukuparin kahdesta suunnasta. Alimman rivin virhe kulkee ylöspäin ja paljastuu huipussa, joten sivu opettaa tarkistamaan matkan varrella. Lukupyramidit tunnetaan monessa luokassa myös laskumuureina.",
+   "p3": "Tulosta PDF ilmaiseksi ja anna lapsen käyttää laskuhelmiä tai lukusuoraa ensimmäisessä pyramidissa ja kokeilla loput ilman. Neljä pyramidia on lyhyt tehtävä ja sopii tunnin aloitukseksi. Lukupyramidi: neljä kerrosta kasvattaa muurin kymmeneen tiileen, ja Lukupyramidi: puuttuva tiili poistaa yhden alimman tiilen, jolloin sen löytäminen vaatii vähennyslaskua. Perussivu Lukupyramidi 20:een asti käyttää kuutta kolmikerroksista muuria. Tuplaa ja puolita harjoittaa samaa lukualuetta toisesta suunnasta. Tiilet ovat perheen suurimmat, joten luku mahtuu niihin selvästi myös paksulla kynällä kirjoitettuna.",
+   "canonicalDeckSlug": "lukupyramidit-g1266",
+   "carousel": [
+    {
+     "label": "Lukupyramidi neljässä kerroksessa: kymmenen tiiltä, ei yhtään aukkoa",
+     "href": "lukupyramidi-nelja-kerrosta"
+    },
+    {
+     "label": "Lukupyramidi: yksi alimman rivin tiili puuttuu, etsi se vähentämällä",
+     "href": "lukupyramidi-puuttuva-tiili"
+    },
+    {
+     "label": "Tuplaa ja puolita kuvien avulla: neljä korttia, ryhmät eläinkuvina",
+     "href": "tuplaa-ja-puolita-kuvien-avulla"
+    },
+    {
+     "label": "Tuplaa ja puolita 20:een asti: kahdeksan laskua ilman kuvia",
+     "href": "tuplaa-ja-puolita-20-asti"
+    }
+   ],
+   "title": "Lukupyramidi 10:een asti 1. luokka | tulostettava PDF ilmainen",
+   "metaDescription": "Lukupyramidi 10:een asti: neljä kolmikerroksista muuria, alin rivi annettu pienillä luvuilla ja kolme tiiltä täytettävänä. Ilmainen 1. luokan PDF ilmaiseksi."
+  },
+  {
+   "slug": "lukupyramidi-nelja-kerrosta",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-walls",
+    "mode": null,
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Lukupyramidien moniste neljällä kerroksella",
+   "h1": "Lukupyramidi neljässä kerroksessa: kymmenen tiiltä, ei yhtään aukkoa",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "lukupyramidit",
+    "1-luokka"
+   ],
+   "p1": "Kerroksia on neljä, ei kolme. Jokaisessa neljästä muurista on alin rivi painettu valmiiksi neljällä luvulla, jotka ovat yhden ja kolmen väliltä, ja niiden yläpuolella on kuusi tyhjää tiiltä: kolme, kaksi ja lopuksi yksi huipputiili. Kaikki tyhjät tiilet on merkitty oranssilla katkoviivalla, eikä yhtään lukua ole annettu alinta riviä ylempää. Lapsi laskee kolme paria alimmalta riviltä, sitten kaksi paria niiden tuloksista ja lopuksi huipun. Kymmenen tiiltä muuria kohti, yhdeksän laskua neljässä muurissa.",
+   "p2": "Neljäs kerros muuttaa tehtävän pituuden lisäksi sen luonteen: nyt lapsi laskee myös omilla vastauksillaan. Kolmikerroksisessa muurissa vain huippu perustuu laskettuihin lukuihin, nelikerroksisessa koko kaksi ylintä kerrosta, joten yksi virhe alhaalla ei enää siirry yhteen tiileen vaan koko yläosaan. Siksi alimman rivin luvut on rajattu kolmeen asti: yhdeksän laskua on jo paljon, eivätkä ne saa olla myös vaikeita. Summat pysyvät kahdessakymmenessä, joka on OPS 2014:n ensimmäisen luokan yhteenlaskun sujuvuusalue. Opettaja katsoo, eteneekö lapsi kerros kerrallaan vasemmalta oikealle vai hyppiikö hän muurissa; järjestelmällinen eteneminen tuottaa lähes aina oikean huipun. Lukupyramidi tunnetaan monessa luokassa myös laskumuurina.",
+   "p3": "Tulosta PDF ilmaiseksi ja anna lapsen tarkistaa jokainen muuri lopuksi ylhäältä alaspäin: huipun pitää olla alimman rivin kahden keskimmäisen luvun ja reunalukujen mukainen. Lukupyramidi 10:een asti on matalampi ja pienemmillä luvuilla, jos yhdeksän laskua tuntuu pitkältä. Lukupyramidi: puuttuva tiili käyttää samaa neljän kerroksen muotoa mutta jättää yhden alimman tiilen tyhjäksi. Perussivu Lukupyramidi 20:een asti on kolmikerroksinen ja kuuden muurin mittainen. Päivän luku käyttää samoja lukuja toisella tavalla. Neljä muuria ja kuusi tyhjää tiiltä kussakin tarkoittaa kahtakymmentäneljää täytettävää tiiltä, joten sivu on kokonainen työskentelyjakso eikä lämmittely.",
+   "canonicalDeckSlug": "lukupyramidit-g1267",
+   "carousel": [
+    {
+     "label": "Lukupyramidi 10:een asti: neljä matalaa muuria, huippu pysyy kymmenessä",
+     "href": "lukupyramidi-10-asti"
+    },
+    {
+     "label": "Lukupyramidi: yksi alimman rivin tiili puuttuu, etsi se vähentämällä",
+     "href": "lukupyramidi-puuttuva-tiili"
+    },
+    {
+     "label": "Tuplaa ja puolita kuvien avulla: neljä korttia, ryhmät eläinkuvina",
+     "href": "tuplaa-ja-puolita-kuvien-avulla"
+    },
+    {
+     "label": "Tuplaa ja puolita 20:een asti: kahdeksan laskua ilman kuvia",
+     "href": "tuplaa-ja-puolita-20-asti"
+    }
+   ],
+   "title": "Lukupyramidi: neljä kerrosta 1. luokka | tulostettava PDF ilmainen",
+   "metaDescription": "Lukupyramidi neljässä kerroksessa: neljä muuria, alin rivi neljä annettua lukua ja kuusi tyhjää tiiltä, jotka lasketaan pareittain ylös. Ilmainen 1. luokan PDF."
+  },
+  {
+   "slug": "lukupyramidi-puuttuva-tiili",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-walls",
+    "mode": null,
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Lukupyramidien moniste puuttuvalla tiilellä",
+   "h1": "Lukupyramidi: yksi alimman rivin tiili puuttuu, etsi se vähentämällä",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "1.OA.D.8",
+   "slotTokens": [
+    "lukupyramidit",
+    "1-luokka"
+   ],
+   "p1": "Yksi alimman rivin tiili on tyhjä. Neljässä nelikerroksisessa muurissa alin rivi on painettu valmiiksi, mutta yhdestä kohdasta luku puuttuu, ja juuri sen tiilen yläpuolelle toiselle riville on annettu valmis luku, esimerkiksi 7 tai 4. Se on ainoa sisäänpääsy muuriin: lapsi vähentää annetusta tiilestä sen viereisen alatiilen luvun ja saa puuttuvan luvun. Kun alin rivi on täysi, muuri rakennetaan tavalliseen tapaan ylöspäin pareittain laskien. Muut tiilet ovat tyhjiä ja oranssilla katkoviivalla merkittyjä.",
+   "p2": "Tämä on perheen ainoa sivu, jolla lasketaan alaspäin ennen kuin lasketaan ylöspäin. Puuttuvan yhteenlaskettavan etsiminen on sama asia kuin kysyä, mikä luku ja tämä luku ovat yhteensä annettu luku, ja siihen päästään vähennyslaskulla. OPS 2014 kuvaa ensimmäisen luokan sisältöihin yhteen- ja vähennyslaskun yhteyden, ja pyramidi tekee sen yhteyden näkyväksi: sama kolmen luvun kolmikko luetaan kerran ylöspäin ja kerran alaspäin. Jokainen muuri on rakennettu niin, että ratkaisu on yksikäsitteinen, joten arvaamalla ei pääse maaliin eikä kahta oikeaa vastausta ole olemassa. Opettaja katsoo, tunnistaako lapsi annetun tiilen tehtävän aloituskohdaksi vai yrittääkö hän aloittaa vasemmalta niin kuin muilla sivuilla.",
+   "p3": "Tulosta PDF ilmaiseksi ja pyydä lasta ympyröimään annettu ylätiili ennen aloittamista, niin sisäänpääsy löytyy joka muurista. Käytä sivua vasta, kun tavalliset muurit sujuvat: Lukupyramidi 10:een asti on matalin ja pienimmillä luvuilla, Lukupyramidi: neljä kerroksta on saman korkuinen mutta ilman aukkoa, ja perussivu Lukupyramidi 20:een asti on kolmikerroksinen. Tästä eteenpäin puuttuvan yhteenlaskettavan etsiminen jatkuu Päivän luku -sivun laskulaatikoissa ja Tuplaa ja puolita -sivun puolituksissa. Neljä muuria riittää siihen, että vähennyslaskun idea ehtii toistua ja vakiintua saman sivun aikana.",
+   "canonicalDeckSlug": "lukupyramidit-g1268",
+   "carousel": [
+    {
+     "label": "Lukupyramidi 10:een asti: neljä matalaa muuria, huippu pysyy kymmenessä",
+     "href": "lukupyramidi-10-asti"
+    },
+    {
+     "label": "Lukupyramidi neljässä kerroksessa: kymmenen tiiltä, ei yhtään aukkoa",
+     "href": "lukupyramidi-nelja-kerrosta"
+    },
+    {
+     "label": "Tuplaa ja puolita kuvien avulla: neljä korttia, ryhmät eläinkuvina",
+     "href": "tuplaa-ja-puolita-kuvien-avulla"
+    },
+    {
+     "label": "Tuplaa ja puolita 20:een asti: kahdeksan laskua ilman kuvia",
+     "href": "tuplaa-ja-puolita-20-asti"
+    }
+   ],
+   "title": "Lukupyramidi: puuttuva tiili 1. luokka | tulostettava PDF ilmainen",
+   "metaDescription": "Lukupyramidi puuttuvalla tiilellä: neljä nelikerroksista muuria, joissa alimmasta rivistä puuttuu yksi luku ja sen yläpuolinen tiili on annettu. Ilmainen PDF."
+  },
+  {
+   "slug": "tuplaa-ja-puolita-kuvien-avulla",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "doubles-halves",
+    "mode": null,
+    "theme": "animals",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Tuplaa ja puolita -moniste kuvien avulla",
+   "h1": "Tuplaa ja puolita kuvien avulla: neljä korttia, ryhmät eläinkuvina",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "kaksinkertainen-ja-puolet",
+    "elaimet",
+    "1-luokka"
+   ],
+   "p1": "Kortit on rakennettu eläinkuvista, ja niitä on neljä kahdessa sarakkeessa. Vasemman sarakkeen korteissa lukee tupla: valkoisessa laatikossa on pieni eläinryhmä ja sen peilikuva katkoviivan toisella puolella, ja alla on lasku kuten 3 + 3 = ja tyhjä vastauslaatikko. Oikean sarakkeen korteissa lukee puolet: parillinen ryhmä, kahdesta kahdeksaan eläintä, on jaettu oranssilla katkoviivalla kahteen yhtä suureen osaan, ja alla lapsi täydentää laskun 6 = ▢ + ▢. Ryhmät ovat pieniä ja kuvat isoja.",
+   "p2": "Kaikki luvut pysyvät neljässä ja kaikki puolitettavat kahdeksassa, joten jokaisen kortin voi ratkaista laskemalla kuvat sormella. Se on tarkoitus: tupla ei ole tällä sivulla vielä muistettava lasku vaan nähtävä asia, ja peilikuva näyttää sen ilman sanoja. Puolikorteissa katkoviiva näyttää, että puolet on tasajako eikä vain pienempi luku. Kun molemmat ovat vierekkäin, yhteys on selvä: tupla kolmesta on kuusi, ja puolet kuudesta on kolme ja kolme. Suomeksi tästä puhutaan myös kaksinkertaistamisena ja puolittamisena. OPS 2014 kuvaa ensimmäisen luokan yhteenlaskun strategioita, joihin tuplat kuuluvat, ja puolittaminen valmistaa jakolaskun ajatukseen ennen kuin sitä nimetään. Opettaja katsoo, tuleeko puolikorttien molempiin laatikoihin sama luku.",
+   "p3": "Tulosta PDF ilmaiseksi ja anna lapsen vetää sormi jokaisen tuplaryhmän keskiviivalle ennen laskemista, niin peilikuva tulee huomatuksi. Neljä korttia on lyhyt tehtävä ja sopii perheen ensimmäiseksi sivuksi. Tuplaa ja puolita 20:een asti poistaa kuvat kokonaan ja nostaa tuplat kymmeneen ja puolitukset kahteenkymmeneen. Perussivu Tuplaa ja puolita käyttää kuutta korttia keskikokoisilla ryhmillä. Lukupyramidi harjoittaa samoja summia pyramidin sisällä, ja Päivän luku kääntelee yhtä lukua monesta suunnasta. Kuvat ovat isoja ja ryhmät pieniä, joten sivu käy myös lapselle, joka laskee vielä sormella osoittaen.",
+   "canonicalDeckSlug": "kaksinkertainen-ja-puolet-elaimet-g1270",
+   "carousel": [
+    {
+     "label": "Tuplaa ja puolita 20:een asti: kahdeksan laskua ilman kuvia",
+     "href": "tuplaa-ja-puolita-20-asti"
+    },
+    {
+     "label": "Lukusuora 0–10: kolme suoraa ja kaksi nuolta kussakin",
+     "href": "lukusuora-0-10-mika-luku"
+    },
+    {
+     "label": "Lukusuora 0–20 harvoilla merkinnöillä: vain 0, 10 ja 20 on painettu",
+     "href": "lukusuora-0-20-vahan-merkintoja"
+    },
+    {
+     "label": "Lukusuora 0–30: laskeminen jatkuu yli kahdenkymmenen",
+     "href": "lukusuora-0-30-mika-luku"
+    }
+   ],
+   "title": "Tuplaa ja puolita kuvien avulla – eläimet | tulostettava PDF ilmainen",
+   "metaDescription": "Tuplaa ja puolita kuvien avulla: neljä korttia, joissa pienet eläinryhmät ja niiden peilikuvat, laskut 3 + 3 = ja 6 = ▢ + ▢. Ilmainen 1. luokan PDF."
+  },
+  {
+   "slug": "tuplaa-ja-puolita-20-asti",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "doubles-halves",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Tuplaa ja puolita -moniste pelkillä luvuilla",
+   "h1": "Tuplaa ja puolita 20:een asti: kahdeksan laskua ilman kuvia",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "kaksinkertainen-ja-puolet",
+    "ajoneuvot",
+    "1-luokka"
+   ],
+   "p1": "Kuvia ei ole lainkaan. Kahdeksassa kortissa on kussakin pilkullinen tyhjä laatikko, jonka voi halutessaan täyttää omilla merkeillä, ja sen alla pelkkä lasku. Vasemman sarakkeen korteissa lukee tupla ja niissä on laskut kuten 8 + 8 = tai 10 + 10 = tyhjine vastauslaatikoineen. Oikean sarakkeen korteissa lukee puolet ja niissä laskut kuten 16 = ▢ + ▢ tai 12 = ▢ + ▢. Tuplattavat luvut ovat viidestä kymmeneen ja puolitettavat kymmenestä kahteenkymmeneen. Neljä tuplaa, neljä puolitusta.",
+   "p2": "Tyhjä laatikko jokaisen laskun yläpuolella on tarkoituksellinen: se ei kerro vastausta, mutta lapsi saa piirtää siihen pisteitä tai viivoja, jos haluaa tarkistaa laskun itse. Muuten sivu vaatii, että tuplat ovat jo muistissa tai johdettavissa. Juuri nämä tuplat, viidestä kymmeneen, ovat ne, joista ensimmäisen luokan oppilas johtaa lähituplat kuten 6 + 7, ja puolitukset kahteenkymmeneen ovat samat laskut takaperin luettuina. Lasku 16 = ▢ + ▢ on kirjoitettu yhtäsuuruusmerkki edellä tarkoituksella: lapsi tottuu siihen, että yhtäsuuruus on väite kahden puolen samuudesta eikä nuoli vastaukseen. OPS 2014 kuvaa ensimmäisen luokan yhteenlaskun sujuvuusalueeksi kahdenkymmenen, ja tämä sivu asettuu sen ylärajalle. Opettaja katsoo, laskeeko lapsi vastauksen vai muistaako hän sen.",
+   "p3": "Tulosta PDF ilmaiseksi ja käytä sivua vasta, kun tuplat kuvien kanssa sujuvat. Tuplaa ja puolita kuvien avulla on perheen helpoin sivu: neljä korttia, pienet ryhmät ja peilikuva näkyvissä. Perussivu Tuplaa ja puolita on näiden välissä kuudella kortilla ja keskikokoisilla ryhmillä. Tämä sivu sopii ensimmäisen luokan kevääseen ja lyhyeksi kertaukseksi toisen luokan alussa. Lukupyramidi käyttää samoja summia pyramidin sisällä, ja Päivän luku 99:ään asti vie luvut kahteen numeroon.",
+   "canonicalDeckSlug": "kaksinkertainen-ja-puolet-ajoneuvot-g1271",
+   "carousel": [
+    {
+     "label": "Tuplaa ja puolita kuvien avulla: neljä korttia, ryhmät eläinkuvina",
+     "href": "tuplaa-ja-puolita-kuvien-avulla"
+    },
+    {
+     "label": "Lukusuora 0–10: kolme suoraa ja kaksi nuolta kussakin",
+     "href": "lukusuora-0-10-mika-luku"
+    },
+    {
+     "label": "Lukusuora 0–20 harvoilla merkinnöillä: vain 0, 10 ja 20 on painettu",
+     "href": "lukusuora-0-20-vahan-merkintoja"
+    },
+    {
+     "label": "Lukusuora 0–30: laskeminen jatkuu yli kahdenkymmenen",
+     "href": "lukusuora-0-30-mika-luku"
+    }
+   ],
+   "title": "Tuplaa ja puolita 20:een asti 1. luokka | tulostettava PDF ilmainen",
+   "metaDescription": "Tuplaa ja puolita 20:een asti: kahdeksan korttia pelkillä luvuilla, tuplat viidestä kymmeneen ja puolitukset kymmenestä kahteenkymmeneen. Ilmainen 1. luokan PDF."
+  },
+  {
+   "slug": "lukusuora-0-10-mika-luku",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Lukusuoran moniste 0–10",
+   "h1": "Lukusuora 0–10: kolme suoraa ja kaksi nuolta kussakin",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "lukusuora",
+    "1-luokka"
+   ],
+   "p1": "Lukusuora ulottuu tällä sivulla vain kymmeneen. Sivulla on kolme lukusuoraa, yksi kussakin kortissa, ja jokaiselle on merkitty vain luvut 0, 5 ja 10. Niiden välissä on merkkiviiva jokaista lukua kohti. Kullakin suoralla kaksi oranssia nuolta osoittaa alaspäin merkitsemättömiin viivoihin, ja jokaisen nuolen yläpuolella on tyhjä katkoviivainen laatikko. Lapsi etsii lähimmän painetun luvun, laskee siitä viiva kerrallaan nuoleen ja kirjoittaa luvun laatikkoon. Kuusi nuolta sivulla, eikä mikään niistä osoita samaan lukuun kuin toinen.",
+   "p2": "Kymmenen mittainen suora ja vain kaksi nuolta riviä kohti tekevät tästä perheen aloitussivun. Viivat ovat harvassa ja isoja, nuolet kaukana toisistaan, ja kiintopisteitä on kolme, joten laskettava matka on korkeintaan neljä askelta. Silti tehtävä on sama kuin pidemmillä suorilla: lapsen on päätettävä, mistä kiintopisteestä hän aloittaa ja kumpaan suuntaan laskee. Moni aloittaa aina nollasta, mikä toimii mutta on hidasta; sivun tarkoitus on saada lapsi siirtymään lähimpään merkintään. OPS 2014 kuvaa ensimmäisen luokan lukukäsitteen sisällöiksi lukujonon, lukujen järjestyksen ja lukusuoralla liikkumisen. Opettaja näkee kynän liikkeestä, kumpaa tapaa lapsi käyttää, ja kolme suoraa antaa tilaa vaihtaa tapaa saman sivun aikana.",
+   "p3": "Tulosta PDF ilmaiseksi ja pyydä lasta kirjoittamaan laatikon viereen se luku, josta laskeminen alkoi; silloin tapa tulee näkyviin. Perussivu Lukusuora 0–20 pidentää suoran kahteenkymmeneen ja lisää nuolet kolmeen suoraa kohti. Lukusuora 0–20: vähän merkintöjä jättää painetuiksi vain luvut 0, 10 ja 20, jolloin laskettava matka pitenee, ja Lukusuora 0–30 venyttää suoran kolmeenkymmeneen. Päivän luku -sivulla lukusuora on yhtenä laatikkona muiden joukossa. Kolme lyhyttä suoraa on nopea tehtävä, joka ehtii oppitunnin alkuun lämmittelyksi ennen pidempää työskentelyä.",
+   "canonicalDeckSlug": "lukusuora-g1274",
+   "carousel": [
+    {
+     "label": "Lukusuora 0–20 harvoilla merkinnöillä: vain 0, 10 ja 20 on painettu",
+     "href": "lukusuora-0-20-vahan-merkintoja"
+    },
+    {
+     "label": "Lukusuora 0–30: laskeminen jatkuu yli kahdenkymmenen",
+     "href": "lukusuora-0-30-mika-luku"
+    },
+    {
+     "label": "Jäljennä lyhyet sanat: kolme hedelmän nimeä malliriviltä",
+     "href": "jaljenna-lyhyet-sanat-hedelmat"
+    },
+    {
+     "label": "Jäljennä kerran, kirjoita kahdesti: neljä ajoneuvon nimeä",
+     "href": "jaljenna-kerran-kirjoita-kahdesti-ajoneuvot"
+    }
+   ],
+   "title": "Lukusuora 0–10: mikä luku puuttuu | tulostettava PDF ilmainen",
+   "metaDescription": "Lukusuora 0–10: kolme suoraa, joille on merkitty 0, 5 ja 10, ja jokaisella kaksi oranssia nuolta nimettömiin viivoihin nimettäväksi. Ilmainen 1. luokan PDF."
+  },
+  {
+   "slug": "lukusuora-0-20-vahan-merkintoja",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Lukusuoran moniste harvoilla merkinnöillä",
+   "h1": "Lukusuora 0–20 harvoilla merkinnöillä: vain 0, 10 ja 20 on painettu",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "lukusuora",
+    "1-luokka"
+   ],
+   "p1": "Lukusuoralle on painettu vain kolme lukua: 0, 10 ja 20. Sivulla on neljä lukusuoraa, yksi kussakin kortissa, ja jokaisella on merkkiviiva jokaista lukua kohti mutta merkintä vain kymmenen välein. Kolme oranssia nuolta osoittaa alaspäin merkitsemättömiin viivoihin, ja jokaisen yläpuolella on tyhjä katkoviivainen laatikko. Lapsi valitsee lähimmän painetun luvun, laskee siitä eteen- tai taaksepäin ja kirjoittaa luvun laatikkoon. Kaksitoista nuolta sivulla, eikä mikään osoita samaan lukuun kuin toinen.",
+   "p2": "Perussivulla merkintöjä on viiden välein, tällä kymmenen, ja ero on suurempi kuin miltä se kuulostaa. Kun lähin kiintopiste voi olla viiden viivan päässä, laskeminen yksi kerrallaan käy hitaaksi ja lapsi alkaa etsiä oikoteitä: hän huomaa, että puoliväli kymmenen ja kahdenkymmenen välillä on viisitoista, tai laskee taaksepäin kahdestakymmenestä, kun nuoli on lähempänä loppua. Juuri se on sivun tarkoitus. Sama päättely tekee myöhemmin arvioinnin ja pyöristämisen mahdolliseksi. OPS 2014 kuvaa ensimmäisen luokan lukukäsitteeseen lukujen järjestyksen ja suuruusvertailun, ja harvaan merkitty suora pakottaa vertailemaan eikä vain laskemaan. Opettaja katsoo, laskeeko lapsi aina nollasta vai valitseeko hän lähimmän merkinnän kummalta puolelta tahansa. Kaksitoista nuolta on riittävästi näyttämään, vakiintuuko uusi tapa saman sivun aikana vai palaako lapsi nollasta laskemiseen viimeisilläkin suorilla.",
+   "p3": "Tulosta PDF ilmaiseksi ja anna lapsen merkitä ensin kynällä viisi ja viisitoista omiksi kiintopisteikseen, jos matka tuntuu pitkältä; se on hyvä välivaihe eikä huono ratkaisu. Lukusuora 0–10 on perheen helpoin: kolme suoraa, kaksi nuolta ja merkinnät viiden välein. Perussivu Lukusuora 0–20 pitää saman lukualueen mutta merkitsee joka viidennen luvun. Lukusuora 0–30 venyttää suoran pidemmäksi viiden välein merkittynä. Päivän luku käyttää samaa lukusuoraa yhtenä laatikkona.",
+   "canonicalDeckSlug": "lukusuora-g1275",
+   "carousel": [
+    {
+     "label": "Lukusuora 0–10: kolme suoraa ja kaksi nuolta kussakin",
+     "href": "lukusuora-0-10-mika-luku"
+    },
+    {
+     "label": "Lukusuora 0–30: laskeminen jatkuu yli kahdenkymmenen",
+     "href": "lukusuora-0-30-mika-luku"
+    },
+    {
+     "label": "Jäljennä lyhyet sanat: kolme hedelmän nimeä malliriviltä",
+     "href": "jaljenna-lyhyet-sanat-hedelmat"
+    },
+    {
+     "label": "Jäljennä kerran, kirjoita kahdesti: neljä ajoneuvon nimeä",
+     "href": "jaljenna-kerran-kirjoita-kahdesti-ajoneuvot"
+    }
+   ],
+   "title": "Lukusuora 0–20: vähän merkintöjä | tulostettava PDF ilmainen",
+   "metaDescription": "Lukusuora 0–20 harvoilla merkinnöillä: neljä suoraa, joilla vain 0, 10 ja 20 on painettu, ja kolme nuolta kullakin nimettäväksi. Ilmainen 1. luokan PDF."
+  },
+  {
+   "slug": "lukusuora-0-30-mika-luku",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Lukusuoran moniste 0–30",
+   "h1": "Lukusuora 0–30: laskeminen jatkuu yli kahdenkymmenen",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "lukusuora",
+    "1-luokka"
+   ],
+   "p1": "Lukusuora jatkuu kolmeenkymmeneen. Sivulla on neljä lukusuoraa, ja jokaiselle on merkitty joka viides luku: 0, 5, 10, 15, 20, 25 ja 30. Merkkiviiva on jokaista lukua kohti, ja kolme oranssia nuolta osoittaa alaspäin merkitsemättömiin viivoihin, kukin tyhjän katkoviivaisen laatikon alapuolella. Lapsi etsii lähimmän painetun luvun, laskee siitä viiva kerrallaan nuoleen ja kirjoittaa luvun laatikkoon. Kaksitoista nuolta sivulla, eikä mikään niistä osoita samaan lukuun kuin toinen. Viivat ovat tiheämmässä kuin lyhyemmillä suorilla.",
+   "p2": "Kahdenkymmenen ylittäminen on tässä koko asia. Lukusanat muuttuvat kahdestakymmenestäyhdestä eteenpäin rakenteeltaan säännöllisiksi, kaksikymmentäyksi, kaksikymmentäkaksi, ja moni ensimmäisen luokan oppilas osaa laskea kahteenkymmeneen sujuvasti mutta epäröi heti sen jälkeen. Kun sama suora jatkuu tutun alueen yli, lapsi näkee, ettei kahdenkymmenen kohdalla tapahdu mitään erityistä: viivat jatkuvat samanlaisina ja merkinnät tulevat viiden välein niin kuin ennenkin. Se on lukualueen laajentamista, jonka OPS 2014 nimeää ensimmäisen luokan sisällöksi. Opettaja katsoo nuolia, jotka osuvat kahdenkymmenen ja kolmenkymmenen väliin: ne ratkeavat viimeisinä, ja niissä näkyy, onko lukujono varma vai laskeeko lapsi vielä pienin askelin. Merkkiviivat ovat tiheämmässä kuin lyhyemmillä suorilla, joten laskettavat viivat on erotettava toisistaan tarkemmin.",
+   "p3": "Tulosta PDF ilmaiseksi ja pyydä lasta lukemaan merkinnät ääneen viisi kerrallaan ennen aloittamista, niin kolmenkymmenen alue tulee tutuksi. Lukusuora 0–10 on perheen lyhyin ja Lukusuora 0–20: vähän merkintöjä vaativin merkintöjen puolesta. Perussivu Lukusuora 0–20 on tämän suora edeltäjä samalla merkintätiheydellä. Yhdistä pisteet 11–30 harjoittaa samaa lukualuetta piirtäen, ja Päivän luku 99:ään asti vie lukusuoran sataan asti. Neljä suoraa ja kaksitoista nuolta tekevät sivusta yhtä laajan kuin perussivu, joten se sopii suoraksi jatkoksi sille.",
+   "canonicalDeckSlug": "lukusuora-g1276",
+   "carousel": [
+    {
+     "label": "Lukusuora 0–10: kolme suoraa ja kaksi nuolta kussakin",
+     "href": "lukusuora-0-10-mika-luku"
+    },
+    {
+     "label": "Lukusuora 0–20 harvoilla merkinnöillä: vain 0, 10 ja 20 on painettu",
+     "href": "lukusuora-0-20-vahan-merkintoja"
+    },
+    {
+     "label": "Jäljennä lyhyet sanat: kolme hedelmän nimeä malliriviltä",
+     "href": "jaljenna-lyhyet-sanat-hedelmat"
+    },
+    {
+     "label": "Jäljennä kerran, kirjoita kahdesti: neljä ajoneuvon nimeä",
+     "href": "jaljenna-kerran-kirjoita-kahdesti-ajoneuvot"
+    }
+   ],
+   "title": "Lukusuora 0–30: mikä luku puuttuu | tulostettava PDF ilmainen",
+   "metaDescription": "Lukusuora 0–30: neljä suoraa, joille on merkitty joka viides luku nollasta kolmeenkymmeneen, ja kolme nuolta kullakin nimettäväksi. Ilmainen 1. luokan PDF."
   }
  ]
 }

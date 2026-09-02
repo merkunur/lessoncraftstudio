@@ -225,51 +225,95 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
     },
     {
       "base": "trace-and-write-words-kindergarten",
-      "variations": []
+      "variations": [
+        "trace-and-write-first-words-fruits",
+        "trace-once-write-it-twice",
+        "trace-long-words-kindergarten"
+      ]
     },
     {
       "base": "dot-to-dot-1-20",
-      "variations": []
+      "variations": [
+        "dot-to-dot-1-10",
+        "dot-to-dot-11-20",
+        "dot-to-dot-count-on-11-to-30"
+      ]
     },
     {
       "base": "copy-the-grid-picture",
-      "variations": []
+      "variations": [
+        "copy-the-grid-picture-6x6",
+        "grid-copy-with-letters-and-numbers",
+        "copy-the-grid-picture-8x8"
+      ]
     },
     {
       "base": "singular-and-plural-kindergarten",
-      "variations": []
+      "variations": [
+        "singular-and-plural-first-words",
+        "singular-and-plural-longer-words"
+      ]
     },
     {
       "base": "a-or-an-worksheet",
-      "variations": []
+      "variations": [
+        "a-or-an-four-picture-cards",
+        "a-or-an-eight-picture-cards"
+      ]
     },
     {
       "base": "read-and-color-1st-grade",
-      "variations": []
+      "variations": [
+        "read-and-color-four-sentences",
+        "read-and-color-six-colors"
+      ]
     },
     {
       "base": "number-of-the-day-1st-grade",
-      "variations": []
+      "variations": [
+        "number-of-the-day-teen-numbers",
+        "number-of-the-day-ten-more-ten-less",
+        "number-of-the-day-to-99"
+      ]
     },
     {
       "base": "write-the-word-picture-spelling",
-      "variations": []
+      "variations": [
+        "write-the-word-first-letter-given",
+        "write-the-word-with-a-word-bank",
+        "write-the-word-no-word-bank"
+      ]
     },
     {
       "base": "abc-order-1st-grade",
-      "variations": []
+      "variations": [
+        "abc-order-four-words",
+        "abc-order-number-then-write",
+        "abc-order-same-first-letter"
+      ]
     },
     {
       "base": "number-walls-addition-pyramids",
-      "variations": []
+      "variations": [
+        "number-walls-to-10",
+        "number-walls-four-rows",
+        "number-walls-missing-brick"
+      ]
     },
     {
       "base": "doubles-and-halves-1st-grade",
-      "variations": []
+      "variations": [
+        "doubles-and-halves-with-pictures",
+        "doubles-and-halves-to-20"
+      ]
     },
     {
       "base": "missing-numbers-on-a-number-line",
-      "variations": []
+      "variations": [
+        "number-line-to-10",
+        "number-line-to-20-fewer-labels",
+        "number-line-to-30"
+      ]
     },
     {
       "base": "unscramble-the-sentence-1st-grade",
@@ -516,51 +560,95 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
     },
     {
       "base": "woerter-nachspuren-tiere-vorschule",
-      "variations": []
+      "variations": [
+        "woerter-nachspuren-kurze-woerter-fruechte",
+        "woerter-nachspuren-zweimal-selbst-schreiben-fahrzeuge",
+        "woerter-nachspuren-lange-woerter-spielzeug"
+      ]
     },
     {
       "base": "von-punkt-zu-punkt-bis-20",
-      "variations": []
+      "variations": [
+        "von-punkt-zu-punkt-bis-10",
+        "von-punkt-zu-punkt-11-bis-20",
+        "von-punkt-zu-punkt-11-bis-30"
+      ]
     },
     {
       "base": "gitterbilder-abzeichnen-vorschule",
-      "variations": []
+      "variations": [
+        "gitterbilder-abzeichnen-6x6",
+        "gitterbilder-mit-buchstabe-und-zahl",
+        "gitterbilder-abzeichnen-8x8"
+      ]
     },
     {
       "base": "einzahl-mehrzahl-fruechte-vorschule",
-      "variations": []
+      "variations": [
+        "einzahl-und-mehrzahl-kurze-woerter-tiere",
+        "einzahl-und-mehrzahl-lange-woerter-fahrzeuge"
+      ]
     },
     {
       "base": "der-die-das-tiere-vorschule",
-      "variations": []
+      "variations": [
+        "der-die-das-vier-bilder-tiere",
+        "der-die-das-acht-bilder-fahrzeuge"
+      ]
     },
     {
       "base": "lese-mal-blatt-fruechte-1-klasse",
-      "variations": []
+      "variations": [
+        "lese-mal-blatt-vier-saetze-tiere",
+        "lese-mal-blatt-sechs-saetze-spielzeug"
+      ]
     },
     {
       "base": "zahl-des-tages-1-klasse",
-      "variations": []
+      "variations": [
+        "zahl-des-tages-11-bis-19",
+        "zahl-des-tages-zehn-mehr-zehn-weniger",
+        "zahl-des-tages-bis-99"
+      ]
     },
     {
       "base": "bilder-beschriften-fruechte-1-klasse",
-      "variations": []
+      "variations": [
+        "bilder-beschriften-erster-buchstabe-tiere",
+        "bilder-beschriften-mit-wortspeicher-fahrzeuge",
+        "bilder-beschriften-ohne-wortspeicher-spielzeug"
+      ]
     },
     {
       "base": "alphabetisch-ordnen-tiere-1-klasse",
-      "variations": []
+      "variations": [
+        "alphabetisch-ordnen-nummerieren-fruechte",
+        "alphabetisch-ordnen-und-abschreiben-fahrzeuge",
+        "alphabetisch-ordnen-zweiter-buchstabe-spielzeug"
+      ]
     },
     {
       "base": "zahlenmauern-bis-20-1-klasse",
-      "variations": []
+      "variations": [
+        "zahlenmauern-bis-10",
+        "zahlenmauern-mit-vier-reihen",
+        "zahlenmauern-fehlender-grundstein"
+      ]
     },
     {
       "base": "verdoppeln-und-halbieren-1-klasse",
-      "variations": []
+      "variations": [
+        "verdoppeln-und-halbieren-mit-bildern-tiere",
+        "verdoppeln-und-halbieren-bis-20"
+      ]
     },
     {
       "base": "zahlenstrahl-ablesen-bis-20",
-      "variations": []
+      "variations": [
+        "zahlenstrahl-ablesen-bis-10",
+        "zahlenstrahl-bis-20-wenige-zahlen",
+        "zahlenstrahl-ablesen-bis-30"
+      ]
     },
     {
       "base": "schuettelsaetze-tiere-1-klasse",
@@ -807,51 +895,95 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
     },
     {
       "base": "repasar-y-escribir-palabras-preescolar",
-      "variations": []
+      "variations": [
+        "repasar-y-escribir-palabras-cortas-preescolar",
+        "repasar-una-vez-y-escribir-dos-veces-preescolar",
+        "repasar-y-escribir-palabras-largas-preescolar"
+      ]
     },
     {
       "base": "unir-los-puntos-del-1-al-20-preescolar",
-      "variations": []
+      "variations": [
+        "unir-los-puntos-del-1-al-10-preescolar",
+        "unir-los-puntos-del-11-al-20-preescolar",
+        "unir-los-puntos-del-11-al-30-preescolar"
+      ]
     },
     {
       "base": "copiar-en-la-cuadricula-preescolar",
-      "variations": []
+      "variations": [
+        "copiar-en-la-cuadricula-6x6-preescolar",
+        "copiar-en-la-cuadricula-con-letras-y-numeros-preescolar",
+        "copiar-en-la-cuadricula-8x8-preescolar"
+      ]
     },
     {
       "base": "singular-y-plural-preescolar",
-      "variations": []
+      "variations": [
+        "singular-y-plural-palabras-cortas-preescolar",
+        "singular-y-plural-palabras-largas-preescolar"
+      ]
     },
     {
       "base": "el-o-la-articulos-preescolar",
-      "variations": []
+      "variations": [
+        "el-o-la-cuatro-dibujos-preescolar",
+        "el-o-la-ocho-dibujos-preescolar"
+      ]
     },
     {
       "base": "lee-y-colorea-primer-grado",
-      "variations": []
+      "variations": [
+        "lee-y-colorea-cuatro-frases-primer-grado",
+        "lee-y-colorea-cantidades-hasta-5-primer-grado"
+      ]
     },
     {
       "base": "el-numero-del-dia-primer-grado",
-      "variations": []
+      "variations": [
+        "el-numero-del-dia-del-11-al-19-primer-grado",
+        "el-numero-del-dia-10-mas-y-10-menos-primer-grado",
+        "el-numero-del-dia-numeros-de-dos-cifras-primer-grado"
+      ]
     },
     {
       "base": "dictado-mudo-escribe-la-palabra-primer-grado",
-      "variations": []
+      "variations": [
+        "dictado-mudo-con-la-primera-letra-primer-grado",
+        "dictado-mudo-con-banco-de-palabras-primer-grado",
+        "dictado-mudo-sin-banco-de-palabras-primer-grado"
+      ]
     },
     {
       "base": "orden-alfabetico-primer-grado",
-      "variations": []
+      "variations": [
+        "orden-alfabetico-numera-las-tarjetas-primer-grado",
+        "orden-alfabetico-numera-y-copia-primer-grado",
+        "orden-alfabetico-misma-letra-inicial-primer-grado"
+      ]
     },
     {
       "base": "piramides-numericas-primer-grado",
-      "variations": []
+      "variations": [
+        "piramides-numericas-hasta-10-primer-grado",
+        "piramides-numericas-de-cuatro-pisos-primer-grado",
+        "piramides-numericas-falta-un-ladrillo-primer-grado"
+      ]
     },
     {
       "base": "dobles-y-mitades-primer-grado",
-      "variations": []
+      "variations": [
+        "dobles-y-mitades-hasta-8-primer-grado",
+        "dobles-y-mitades-hasta-20-primer-grado"
+      ]
     },
     {
       "base": "recta-numerica-primer-grado",
-      "variations": []
+      "variations": [
+        "recta-numerica-del-0-al-10-primer-grado",
+        "recta-numerica-del-0-al-20-con-pocas-etiquetas-primer-grado",
+        "recta-numerica-del-0-al-30-primer-grado"
+      ]
     },
     {
       "base": "ordena-la-frase-primer-grado",
@@ -1389,51 +1521,95 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
     },
     {
       "base": "palavras-pontilhadas-animais-educacao-infantil",
-      "variations": []
+      "variations": [
+        "palavras-pontilhadas-curtas-frutas-educacao-infantil",
+        "palavras-pontilhadas-cobrir-uma-vez-escrever-duas",
+        "palavras-pontilhadas-longas-brinquedos-educacao-infantil"
+      ]
     },
     {
       "base": "ligue-os-pontos-1-a-20-educacao-infantil",
-      "variations": []
+      "variations": [
+        "ligue-os-pontos-de-1-a-10-educacao-infantil",
+        "ligue-os-pontos-de-11-a-20-educacao-infantil",
+        "ligue-os-pontos-de-11-a-30-educacao-infantil"
+      ]
     },
     {
       "base": "copie-o-desenho-na-malha-quadriculada",
-      "variations": []
+      "variations": [
+        "copie-o-desenho-malha-6-por-6-sem-coordenadas",
+        "copie-o-desenho-com-letras-e-numeros",
+        "copie-o-desenho-malha-8-por-8"
+      ]
     },
     {
       "base": "singular-e-plural-frutas-educacao-infantil",
-      "variations": []
+      "variations": [
+        "singular-e-plural-palavras-curtas-animais",
+        "singular-e-plural-palavras-longas-veiculos"
+      ]
     },
     {
       "base": "o-ou-a-artigo-animais-educacao-infantil",
-      "variations": []
+      "variations": [
+        "o-ou-a-quatro-figuras-animais",
+        "o-ou-a-oito-figuras-veiculos"
+      ]
     },
     {
       "base": "leia-e-pinte-frutas-1o-ano",
-      "variations": []
+      "variations": [
+        "leia-e-pinte-quatro-frases-animais-1o-ano",
+        "leia-e-pinte-seis-frases-brinquedos-1o-ano"
+      ]
     },
     {
       "base": "numero-do-dia-1o-ano",
-      "variations": []
+      "variations": [
+        "numero-do-dia-de-11-a-19-1o-ano",
+        "numero-do-dia-10-a-mais-10-a-menos",
+        "numero-do-dia-ate-99-1o-ano"
+      ]
     },
     {
       "base": "escreva-o-nome-das-figuras-frutas-1o-ano",
-      "variations": []
+      "variations": [
+        "escreva-o-nome-com-banco-e-primeira-letra",
+        "escreva-o-nome-com-banco-de-palavras-veiculos",
+        "escreva-o-nome-sem-banco-brinquedos"
+      ]
     },
     {
       "base": "ordem-alfabetica-animais-1o-ano",
-      "variations": []
+      "variations": [
+        "ordem-alfabetica-numere-quatro-palavras-frutas",
+        "ordem-alfabetica-numere-e-copie-veiculos",
+        "ordem-alfabetica-mesma-letra-inicial-brinquedos"
+      ]
     },
     {
       "base": "piramide-de-numeros-1o-ano",
-      "variations": []
+      "variations": [
+        "piramide-de-numeros-ate-10-1o-ano",
+        "piramide-de-numeros-quatro-andares",
+        "piramide-de-numeros-tijolo-que-falta"
+      ]
     },
     {
       "base": "dobro-e-metade-frutas-1o-ano",
-      "variations": []
+      "variations": [
+        "dobro-e-metade-com-figuras-animais",
+        "dobro-e-metade-ate-20-so-com-numeros"
+      ]
     },
     {
       "base": "reta-numerica-ate-20-1o-ano",
-      "variations": []
+      "variations": [
+        "reta-numerica-ate-10-1o-ano",
+        "reta-numerica-ate-20-menos-numeros",
+        "reta-numerica-ate-30-1o-ano"
+      ]
     },
     {
       "base": "ordene-a-frase-animais-1o-ano",

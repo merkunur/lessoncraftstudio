@@ -146283,6 +146283,1367 @@
    ],
    "title": "Reta numérica de 0 a 30 – 1º ano para imprimir PDF grátis",
    "metaDescription": "Quatro retas de 0 a 30 com etiquetas de cinco em cinco e três setas em cada uma: doze números para achar, inclusive depois do 20. 1º ano, PDF grátis."
+  },
+  {
+   "slug": "reta-numerica-ate-50-1o-ano",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "1o-ano"
+   },
+   "eyebrow": "Reta numérica: de 0 a 50",
+   "h1": "Reta numérica até 50 com etiquetas só nas dezenas",
+   "strand": "Números",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "reta-numerica",
+    "1o-ano"
+   ],
+   "p1": "Cinquenta tracinhos numa linha só, e quatro vezes na mesma folha: é isso que esta atividade de reta numérica do 1º ano coloca na frente da criança. São quatro retas de 0 a 50, uma embaixo da outra, cada uma com um tracinho para cada número e apenas as dezenas escritas embaixo, 0, 10, 20, 30, 40 e 50. Três setas laranja por reta apontam para tracinhos sem nome, com um quadradinho tracejado acima de cada uma. São doze números para descobrir, e nenhum deles aparece impresso em lugar nenhum da página.",
+   "p2": "Tirar as etiquetas de cinco em cinco muda o tamanho do passo. Com âncoras só nas dezenas, o trecho entre dois números escritos guarda nove tracinhos sem nome, e a seta pode cair bem no meio dele. Contar de um em um desde o zero deixa de funcionar: a criança precisa escolher a dezena mais próxima e caminhar dali, para a frente ou para trás. É esse movimento que transforma a reta numa ferramenta de cálculo. Aparece aqui também a leitura de números maiores, trinta e sete, quarenta e três, que a criança até então dizia mais do que escrevia. A professora observa de onde parte a contagem: quem volta sempre ao 0 ainda não usa as âncoras. Contar até pelo menos cem e localizar números na reta é o que a BNCC descreve para o 1º ano.",
+   "p3": "Imprima o PDF e comece pela seta mais próxima de uma etiqueta, para a criança sentir o caminho curto antes do longo. Se ela se perder no meio de uma dezena, peça que aponte primeiro a dezena e conte em voz alta a partir dali. Na série, a reta de 0 a 30 vem antes e ainda deixa contar tracinho por tracinho do começo ao fim. Esta é a última folha em que o tracinho ainda vale um.",
+   "canonicalDeckSlug": "reta-numerica-g1277",
+   "carousel": [
+    {
+     "label": "Reta numérica até 50 em que cada tracinho vale cinco",
+     "href": "reta-numerica-ate-50-de-5-em-5"
+    },
+    {
+     "label": "Reta numérica até 100 de cinco em cinco, com as dezenas escritas",
+     "href": "reta-numerica-ate-100-de-5-em-5"
+    },
+    {
+     "label": "Reta numérica até 100 com um tracinho para cada dezena",
+     "href": "reta-numerica-ate-100-de-10-em-10"
+    },
+    {
+     "label": "Reta numérica de 0 a 120: contar depois da centena",
+     "href": "reta-numerica-ate-120-1o-ano"
+    }
+   ],
+   "title": "Reta numérica até 50 – 1º ano para imprimir PDF grátis",
+   "metaDescription": "Quatro retas de 0 a 50 com um tracinho para cada número e só as dezenas escritas: doze setas para nomear. 1º ano, PDF grátis para imprimir."
+  },
+  {
+   "slug": "reta-numerica-ate-50-de-5-em-5",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "1o-ano"
+   },
+   "eyebrow": "Reta numérica: de cinco em cinco",
+   "h1": "Reta numérica até 50 em que cada tracinho vale cinco",
+   "strand": "Números",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "reta-numerica",
+    "1o-ano"
+   ],
+   "p1": "O tracinho muda de valor nesta folha de reta numérica do 1º ano, e essa é a única novidade. São três retas de 0 a 50, cada uma com onze tracinhos apenas, um a cada cinco números, e três etiquetas escritas embaixo: 0, 25 e 50. Duas setas laranja por reta apontam para tracinhos sem nome, com um quadradinho tracejado acima. São seis números para descobrir, e todos terminam em zero ou em cinco, porque nenhum outro número ganhou tracinho nesta reta.",
+   "p2": "A criança que só sabe contar de um em um responde errado aqui, e o erro é útil: ela conta os riscos e escreve quatro onde está o 20. O trabalho da folha é justamente separar a quantidade de tracinhos da quantidade de números. Dizendo cinco, dez, quinze a partir do 0, ou voltando do 25, a contagem em saltos ganha apoio visual, e é ela que sustenta a tabuada do 5 mais tarde. As três etiquetas foram escolhidas para caber: entre o 0 e o 25 há quatro tracinhos, distância suficiente para o salto valer a pena e curta o bastante para não se perder. A professora observa se a criança conta os riscos ou os cincos. Contar de cinco em cinco está entre as contagens que a BNCC pede no 1º ano.",
+   "p3": "Imprima o PDF e peça que a criança toque cada tracinho dizendo o número em voz alta antes de responder à primeira seta; ouvir a sequência cinco, dez, quinze resolve a folha inteira. Um lápis de cor marcando o 25 ajuda quem prefere partir do meio. A reta de 0 a 50 com todos os tracinhos valendo um é o degrau anterior; depois desta vêm as retas até 100.",
+   "canonicalDeckSlug": "reta-numerica-g1278",
+   "carousel": [
+    {
+     "label": "Reta numérica até 50 com etiquetas só nas dezenas",
+     "href": "reta-numerica-ate-50-1o-ano"
+    },
+    {
+     "label": "Reta numérica até 100 de cinco em cinco, com as dezenas escritas",
+     "href": "reta-numerica-ate-100-de-5-em-5"
+    },
+    {
+     "label": "Reta numérica até 100 com um tracinho para cada dezena",
+     "href": "reta-numerica-ate-100-de-10-em-10"
+    },
+    {
+     "label": "Reta numérica de 0 a 120: contar depois da centena",
+     "href": "reta-numerica-ate-120-1o-ano"
+    }
+   ],
+   "title": "Reta numérica até 50 de 5 em 5 – 1º ano imprimir PDF grátis",
+   "metaDescription": "Três retas de 0 a 50 com tracinhos de cinco em cinco e só o 0, o 25 e o 50 escritos: seis setas para nomear em saltos. 1º ano, PDF grátis."
+  },
+  {
+   "slug": "reta-numerica-ate-100-de-5-em-5",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "1o-ano"
+   },
+   "eyebrow": "Reta numérica: até a centena",
+   "h1": "Reta numérica até 100 de cinco em cinco, com as dezenas escritas",
+   "strand": "Números",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "reta-numerica",
+    "1o-ano"
+   ],
+   "p1": "Chegar ao 100 numa folha de papel exige que o tracinho valha cinco, e é assim que esta atividade de reta numérica do 1º ano funciona. Quatro retas de 0 a 100 trazem vinte e um tracinhos cada uma, e todas as dezenas aparecem escritas embaixo, do 0 ao 100. Sobram sem nome apenas os tracinhos do meio, o 5, o 15, o 25 e assim por diante. Duas setas laranja por reta apontam para eles, com um quadradinho tracejado acima de cada uma, o que dá oito números para descobrir na folha.",
+   "p2": "Toda seta desta página está a um único tracinho de um número escrito, e essa regularidade é proposital: a pergunta deixa de ser quanto contar e passa a ser quanto vale um tracinho. Quem entendeu que o passo é cinco responde 45 olhando para o 40 à esquerda ou para o 50 à direita, e os dois caminhos se encontram. Quem ainda soma um erra por quatro, e esse erro é fácil de conversar. Ver o 100 inteiro numa linha também dá à criança uma imagem do tamanho da centena, com as dezenas espaçadas por igual, base da estimativa dos anos seguintes. A professora observa se a criança usa a dezena da direita quando ela está mais perto. A contagem até cem e a localização de números na reta são do 1º ano na BNCC.",
+   "p3": "Imprima o PDF e peça que a criança leia em voz alta as dezenas de uma reta inteira antes de responder; o ritmo da leitura já sugere o número do meio. Quem escrever números terminados em 3 ou em 7 está contando tracinhos como se valessem um, e vale voltar à reta de 0 a 50. A reta com tracinhos de dez em dez é o passo seguinte.",
+   "canonicalDeckSlug": "reta-numerica-g1279",
+   "carousel": [
+    {
+     "label": "Reta numérica até 50 com etiquetas só nas dezenas",
+     "href": "reta-numerica-ate-50-1o-ano"
+    },
+    {
+     "label": "Reta numérica até 50 em que cada tracinho vale cinco",
+     "href": "reta-numerica-ate-50-de-5-em-5"
+    },
+    {
+     "label": "Reta numérica até 100 com um tracinho para cada dezena",
+     "href": "reta-numerica-ate-100-de-10-em-10"
+    },
+    {
+     "label": "Reta numérica de 0 a 120: contar depois da centena",
+     "href": "reta-numerica-ate-120-1o-ano"
+    }
+   ],
+   "title": "Reta numérica até 100 de 5 em 5 – 1º ano imprimir PDF grátis",
+   "metaDescription": "Quatro retas de 0 a 100 com tracinhos de cinco em cinco e todas as dezenas escritas: cada seta cai entre duas dezenas. 1º ano, PDF grátis."
+  },
+  {
+   "slug": "reta-numerica-ate-100-de-10-em-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "1o-ano"
+   },
+   "eyebrow": "Reta numérica: de dez em dez",
+   "h1": "Reta numérica até 100 com um tracinho para cada dezena",
+   "strand": "Números",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "reta-numerica",
+    "1o-ano"
+   ],
+   "p1": "Onze tracinhos cobrem cem números nesta atividade de reta numérica do 1º ano. São três retas de 0 a 100, cada tracinho valendo uma dezena inteira, e só três números impressos embaixo: 0, 50 e 100. Duas setas laranja por reta apontam para tracinhos sem nome, com o quadradinho tracejado acima de cada uma. São seis respostas na folha, todas elas dezenas exatas, e a seta mais distante de uma etiqueta fica a quatro saltos de dez.",
+   "p2": "É a reta mais vazia da série e, por isso, a que mais exige da contagem em saltos. Não há nada para contar de um em um: a criança precisa dizer dez, vinte, trinta a partir do 0, ou descer do 50 e do 100, e cada salto vale uma dezena. Duas coisas aparecem juntas aqui, a sequência das dezenas e a ideia de que a posição na reta carrega o valor. Com o 50 no meio, a folha ainda oferece um segundo ponto de partida: para achar o 70 é mais curto sair do 50 do que do 0, e perceber isso é o começo da estratégia. A professora observa quem conta sempre desde o zero. Contar de dez em dez e localizar números na reta é o que a BNCC coloca no 1º ano.",
+   "p3": "Imprima o PDF e deixe a criança escrever a lápis, embaixo dos tracinhos, as dezenas que faltam antes de responder; a reta preenchida vira gabarito dela mesma. Vale comparar esta folha com a de cinco em cinco, que tem o dobro de tracinhos para o mesmo alcance: as duas mostram 100, e a diferença está no que cada risco significa. A reta de 0 a 120 é a continuação natural.",
+   "canonicalDeckSlug": "reta-numerica-g1280",
+   "carousel": [
+    {
+     "label": "Reta numérica até 50 com etiquetas só nas dezenas",
+     "href": "reta-numerica-ate-50-1o-ano"
+    },
+    {
+     "label": "Reta numérica até 50 em que cada tracinho vale cinco",
+     "href": "reta-numerica-ate-50-de-5-em-5"
+    },
+    {
+     "label": "Reta numérica até 100 de cinco em cinco, com as dezenas escritas",
+     "href": "reta-numerica-ate-100-de-5-em-5"
+    },
+    {
+     "label": "Reta numérica de 0 a 120: contar depois da centena",
+     "href": "reta-numerica-ate-120-1o-ano"
+    }
+   ],
+   "title": "Reta numérica até 100 de 10 em 10 – 1º ano imprimir PDF grátis",
+   "metaDescription": "Três retas de 0 a 100 com apenas onze tracinhos, um por dezena, e só o 0, o 50 e o 100 escritos: seis setas em saltos de dez. PDF grátis."
+  },
+  {
+   "slug": "reta-numerica-ate-120-1o-ano",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "1o-ano"
+   },
+   "eyebrow": "Reta numérica: além do 100",
+   "h1": "Reta numérica de 0 a 120: contar depois da centena",
+   "strand": "Números",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "reta-numerica",
+    "1o-ano"
+   ],
+   "p1": "A reta desta folha do 1º ano não para no 100. São três retas de 0 a 120, com um tracinho a cada dez números, treze tracinhos por linha, e apenas o 0, o 50 e o 100 escritos embaixo. Os dois últimos tracinhos de cada reta ficam depois da última etiqueta, sem nada impresso à direita para servir de apoio. Duas setas laranja por reta apontam para tracinhos sem nome, com um quadradinho tracejado acima: seis respostas na folha, todas dezenas exatas.",
+   "p2": "Passar do 100 é uma virada de nome, não de procedimento. A criança que conta cem, cento e dez, cento e vinte continua fazendo exatamente o que fazia antes, e é isso que a folha quer mostrar: a centena não fecha a contagem, apenas dá nome novo às dezenas seguintes. As setas colocadas depois do 100 são as que revelam quem entendeu, porque ali não existe etiqueta à direita para conferir e a contagem precisa avançar sozinha. Quem trava costuma repetir a faixa anterior e escrever noventa no lugar de cento e dez. Dizer esses números por extenso na conversa ajuda mais do que corrigir o quadradinho. Contar até pelo menos cem, e além, e localizar números na reta é a expectativa da BNCC para o 1º ano.",
+   "p3": "Imprima o PDF e comece pelas setas da direita, que são as que interessam; as da esquerda servem para confirmar que o procedimento está firme. Se a criança hesitar, cubra com uma folha a parte da reta até o 100 e peça que conte só o que sobrou. É a última folha da série de retas numéricas e o degrau que leva ao trabalho com dezenas e unidades do 2º ano.",
+   "canonicalDeckSlug": "reta-numerica-g1281",
+   "carousel": [
+    {
+     "label": "Reta numérica até 50 com etiquetas só nas dezenas",
+     "href": "reta-numerica-ate-50-1o-ano"
+    },
+    {
+     "label": "Reta numérica até 50 em que cada tracinho vale cinco",
+     "href": "reta-numerica-ate-50-de-5-em-5"
+    },
+    {
+     "label": "Reta numérica até 100 de cinco em cinco, com as dezenas escritas",
+     "href": "reta-numerica-ate-100-de-5-em-5"
+    },
+    {
+     "label": "Reta numérica até 100 com um tracinho para cada dezena",
+     "href": "reta-numerica-ate-100-de-10-em-10"
+    }
+   ],
+   "title": "Reta numérica de 0 a 120 – 1º ano para imprimir PDF grátis",
+   "metaDescription": "Três retas de 0 a 120 em saltos de dez, com só o 0, o 50 e o 100 escritos: os últimos tracinhos ficam depois da última etiqueta. PDF grátis."
+  },
+  {
+   "slug": "ordene-a-frase-com-pistas-frutas",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sentence-building",
+    "mode": null,
+    "theme": "fruits",
+    "level": "1o-ano"
+   },
+   "eyebrow": "Ordenar a frase: com pistas",
+   "h1": "Ordene a frase com as pistas da maiúscula e do sinal final",
+   "strand": "Análise linguística/semiótica",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "frases-embaralhadas",
+    "frutas",
+    "1o-ano"
+   ],
+   "p1": "Nesta folha de ordenar a frase do 1º ano, três faixas trazem, cada uma, a figura de uma fruta e quatro ou cinco fichas de palavras fora de ordem. Duas fichas de cada faixa já vêm marcadas: uma começa com letra maiúscula e outra termina com o sinal de pontuação colado na palavra, ponto ou interrogação. A criança lê as fichas, descobre onde a frase começa e onde termina, encontra a ordem que faz sentido e copia a frase inteira nas linhas de caligrafia embaixo, duas linhas por faixa.",
+   "p2": "As duas pistas transformam um quebra-cabeça aberto num problema com bordas. Sabendo qual palavra abre e qual fecha, sobram duas ou três fichas no meio para organizar, e é aí que a criança testa em voz alta e ouve o que soa certo. O sinal colado na última ficha também entrega o tipo de frase antes da leitura: quem vê a interrogação já lê a tira como pergunta e organiza as palavras de outro jeito. A figura da fruta dá sentido, não ordem. A professora observa se a criança usa as marcas ou se continua tentando combinações no escuro, e se copia a maiúscula no começo e não no meio da linha. Escrever frases com maiúscula inicial e pontuação final é o que a BNCC espera no 1º ano.",
+   "p3": "Imprima o PDF e peça que a criança numere as fichas a lápis, o 1 na que tem maiúscula e o último número na que tem o sinal, antes de escrever. Recortar as fichas de uma segunda cópia deixa a montagem física, o que ajuda quem ainda escreve devagar. A folha seguinte da série tira as duas pistas: as fichas vêm todas em minúscula e sem pontuação nenhuma.",
+   "canonicalDeckSlug": "frases-embaralhadas-frutas-g1282",
+   "carousel": [
+    {
+     "label": "Ordene a frase sem maiúscula e sem sinal de pontuação",
+     "href": "ordene-a-frase-sem-pistas-animais"
+    },
+    {
+     "label": "Reescreva a frase com maiúscula inicial e sinal de pontuação",
+     "href": "maiuscula-e-sinal-final-tres-frases"
+    },
+    {
+     "label": "Escolha o sinal do fim: ponto ou interrogação em cinco frases",
+     "href": "escolha-o-sinal-de-pontuacao-frutas"
+    },
+    {
+     "label": "Substantivo, verbo e adjetivo: nove palavras, três em cada quadro",
+     "href": "classes-de-palavras-nove-palavras"
+    }
+   ],
+   "title": "Ordene a frase com pistas – 1º ano para imprimir PDF grátis",
+   "metaDescription": "Três faixas com frutas e fichas embaralhadas em que a maiúscula e o sinal final já vêm colados: a criança acha a ordem e copia. PDF grátis."
+  },
+  {
+   "slug": "ordene-a-frase-sem-pistas-animais",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sentence-building",
+    "mode": null,
+    "theme": "animals",
+    "level": "1o-ano"
+   },
+   "eyebrow": "Ordenar a frase: sem pistas",
+   "h1": "Ordene a frase sem maiúscula e sem sinal de pontuação",
+   "strand": "Análise linguística/semiótica",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "frases-embaralhadas",
+    "animais",
+    "1o-ano"
+   ],
+   "p1": "O que falta nesta folha de ordenar a frase do 1º ano é toda a pontuação. Quatro faixas trazem a figura de um animal e quatro ou cinco fichas de palavras embaralhadas, todas em letra minúscula, inclusive os nomes de pessoa, e nenhuma delas carrega ponto ou interrogação. Nada indica qual palavra abre a frase nem qual a fecha. A criança precisa achar a única ordem que faz sentido, escrever a frase nas linhas de caligrafia e acrescentar por conta própria a letra maiúscula no começo e o sinal certo no fim.",
+   "p2": "Sem as marcas, a única pista é a gramática, e é exatamente isso que a folha treina. A criança monta a frase pelo que soa possível, quem faz e o que faz, e depois relê para decidir se aquilo afirma ou pergunta. As tiras que começam por um verbo só revelam a pergunta na leitura em voz alta, e algumas parecem aceitar duas ordens até que a entonação resolva. Os nomes próprios em minúscula acrescentam uma segunda decisão, a maiúscula no meio da frase, que a folha anterior entregava pronta. A professora observa três coisas na cópia: a ordem, a maiúscula inicial e o sinal final escolhido. Escrever frases segmentadas, com maiúscula e pontuação, é a expectativa da BNCC para o fim do 1º ano.",
+   "p3": "Imprima o PDF e peça que a criança leia cada tentativa em voz alta antes de escrever; o ouvido resolve o que a vista não resolve. Se a frase aceitar mais de uma ordem, as duas valem, desde que a pontuação combine com a leitura escolhida. É a folha mais exigente da série e leva direto à de letra maiúscula e pontuação do 2º ano, em que as frases já vêm prontas, mas escritas erradas de propósito.",
+   "canonicalDeckSlug": "frases-embaralhadas-animais-g1283",
+   "carousel": [
+    {
+     "label": "Ordene a frase com as pistas da maiúscula e do sinal final",
+     "href": "ordene-a-frase-com-pistas-frutas"
+    },
+    {
+     "label": "Reescreva a frase com maiúscula inicial e sinal de pontuação",
+     "href": "maiuscula-e-sinal-final-tres-frases"
+    },
+    {
+     "label": "Escolha o sinal do fim: ponto ou interrogação em cinco frases",
+     "href": "escolha-o-sinal-de-pontuacao-frutas"
+    },
+    {
+     "label": "Substantivo, verbo e adjetivo: nove palavras, três em cada quadro",
+     "href": "classes-de-palavras-nove-palavras"
+    }
+   ],
+   "title": "Ordene a frase sem pistas – 1º ano para imprimir PDF grátis",
+   "metaDescription": "Quatro faixas com animais e fichas todas em minúscula, sem ponto nem interrogação: só o sentido diz onde a frase começa e termina. PDF grátis."
+  },
+  {
+   "slug": "maiuscula-e-sinal-final-tres-frases",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "capitals-punctuation",
+    "mode": null,
+    "theme": "animals",
+    "level": "2o-ano"
+   },
+   "eyebrow": "Maiúscula e sinal final",
+   "h1": "Reescreva a frase com maiúscula inicial e sinal de pontuação",
+   "strand": "Análise linguística/semiótica",
+   "standard": "L.1.2.b",
+   "slotTokens": [
+    "maiuscula-e-pontuacao",
+    "animais",
+    "2o-ano"
+   ],
+   "p1": "Esta folha de letra maiúscula e pontuação do 2º ano pede duas correções, e só essas duas. No alto da página, uma faixa tracejada lembra o que conferir com apenas dois itens, a letra maiúscula e o sinal do fim; não há a ficha dos nomes próprios que as outras folhas da série trazem. Abaixo, três frases sobre animais aparecem em caixas brancas, cada uma ao lado de uma figurinha do bicho, escritas sem maiúscula no começo e sem nada no fim. A criança reescreve as três nas linhas de caligrafia, uma por faixa.",
+   "p2": "Reduzir a lista a dois itens muda o que a criança precisa segurar na cabeça de uma vez. Nenhuma das frases traz nome de pessoa, então a maiúscula tem um lugar só, o começo, e a regra fica limpa. O trabalho real fica com o sinal final, porque entre as frases há afirmação e pergunta, e a folha não avisa qual é qual: a criança lê, percebe se a frase conta ou pergunta e escolhe entre o ponto e a interrogação. Copiar a frase inteira, e não apenas marcar o erro, treina de quebra o traçado e o espaço entre as palavras. A professora observa se o ponto aparece de fato, e não só a maiúscula, que é o esquecimento mais comum quando a criança corrige de memória. Revisar as convenções da escrita é o que a BNCC propõe para o 2º ano.",
+   "p3": "Imprima o PDF e peça que a criança leia a frase em voz alta antes de escrever; a voz sobe no fim da pergunta e o sinal se decide sozinho. Três frases cabem numa aula curta ou numa tarefa de casa. A folha da série com cinco frases acrescenta os nomes próprios e a terceira ficha na lista do alto, e é o passo seguinte para quem já acerta as duas correções desta página.",
+   "canonicalDeckSlug": "maiuscula-e-pontuacao-animais-g2281",
+   "carousel": [
+    {
+     "label": "Escolha o sinal do fim: ponto ou interrogação em cinco frases",
+     "href": "escolha-o-sinal-de-pontuacao-frutas"
+    },
+    {
+     "label": "Substantivo, verbo e adjetivo: nove palavras, três em cada quadro",
+     "href": "classes-de-palavras-nove-palavras"
+    },
+    {
+     "label": "Substantivo, verbo e adjetivo: doze palavras e nenhuma figura",
+     "href": "classes-de-palavras-sem-figuras"
+    },
+    {
+     "label": "Substantivo, verbo e adjetivo: quinze palavras, cinco por quadro",
+     "href": "classes-de-palavras-quinze-palavras"
+    }
+   ],
+   "title": "Maiúscula e sinal final – 2º ano para imprimir PDF grátis",
+   "metaDescription": "Três frases sobre animais sem maiúscula e sem pontuação, com uma lista de dois itens no alto: a criança reescreve cada uma correta. PDF grátis."
+  },
+  {
+   "slug": "escolha-o-sinal-de-pontuacao-frutas",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "capitals-punctuation",
+    "mode": null,
+    "theme": "fruits",
+    "level": "2o-ano"
+   },
+   "eyebrow": "Escolher o sinal de pontuação",
+   "h1": "Escolha o sinal do fim: ponto ou interrogação em cinco frases",
+   "strand": "Análise linguística/semiótica",
+   "standard": "L.1.2.b",
+   "slotTokens": [
+    "maiuscula-e-pontuacao",
+    "frutas",
+    "2o-ano"
+   ],
+   "p1": "O sinal do fim é uma escolha de verdade nesta folha de letra maiúscula e pontuação do 2º ano. Cinco frases sobre frutas vêm escritas erradas de propósito, cada uma numa caixa branca ao lado de uma figurinha, e entre elas há perguntas e afirmações misturadas. No alto, uma faixa tracejada lista os três itens a conferir: letra maiúscula, nomes e sinal do fim. Faltam a maiúscula do começo, a maiúscula dos nomes de pessoa e a pontuação final. A criança reescreve cada frase, correta, nas linhas de caligrafia abaixo.",
+   "p2": "Uma frase que pergunta e uma frase que conta podem ter quase as mesmas palavras, e a diferença mora na ordem e na entonação. Ao misturar os dois tipos na mesma página, a folha impede que a criança carimbe o ponto final em tudo, que é o que acontece quando todas as frases do exercício afirmam. Ela precisa ler cada uma perguntando a si mesma o que aquela frase faz. As maiúsculas continuam presentes em dois papéis, o de abrir a frase e o de marcar o nome de pessoa, que pode cair no meio, e ver os dois usos lado a lado separa a regra decorada da regra entendida. A professora observa a correspondência entre o sinal escolhido e o tipo de frase, e não apenas se algum sinal foi posto. É a revisão de convenções da escrita da BNCC no 2º ano.",
+   "p3": "Imprima o PDF e proponha que a criança leia as cinco frases em voz alta antes de escrever qualquer uma; separar as que perguntam das que contam já resolve metade da folha. Sublinhar o que vai mudar em cada frase deixa a correção visível para conferir depois. A folha com três frases e só duas correções é o degrau anterior; depois desta, a de substantivo, verbo e adjetivo olha para dentro dessas mesmas frases.",
+   "canonicalDeckSlug": "maiuscula-e-pontuacao-frutas-g2282",
+   "carousel": [
+    {
+     "label": "Reescreva a frase com maiúscula inicial e sinal de pontuação",
+     "href": "maiuscula-e-sinal-final-tres-frases"
+    },
+    {
+     "label": "Substantivo, verbo e adjetivo: nove palavras, três em cada quadro",
+     "href": "classes-de-palavras-nove-palavras"
+    },
+    {
+     "label": "Substantivo, verbo e adjetivo: doze palavras e nenhuma figura",
+     "href": "classes-de-palavras-sem-figuras"
+    },
+    {
+     "label": "Substantivo, verbo e adjetivo: quinze palavras, cinco por quadro",
+     "href": "classes-de-palavras-quinze-palavras"
+    }
+   ],
+   "title": "Escolha o sinal de pontuação – 2º ano para imprimir PDF grátis",
+   "metaDescription": "Cinco frases sobre frutas, umas que perguntam e outras que contam: a criança arruma maiúsculas, nomes próprios e escolhe o sinal do fim."
+  },
+  {
+   "slug": "classes-de-palavras-nove-palavras",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-classes",
+    "mode": null,
+    "theme": "animals",
+    "level": "2o-ano"
+   },
+   "eyebrow": "Classes de palavras: nove palavras",
+   "h1": "Substantivo, verbo e adjetivo: nove palavras, três em cada quadro",
+   "strand": "Análise linguística/semiótica",
+   "standard": "L.2.1.e",
+   "slotTokens": [
+    "classes-de-palavras",
+    "animais",
+    "2o-ano"
+   ],
+   "p1": "Esta folha de substantivo, verbo e adjetivo do 2º ano trabalha com nove fichas, três para cada quadro. As fichas ficam espalhadas no alto da página: as três que dão nome a animais trazem uma figurinha ao lado, e as outras seis, as ações e as qualidades, vêm só com a palavra escrita. Embaixo, três quadros altos com linhas pontilhadas, cada um com um ícone na tampa e o nome da classe no rodapé: substantivos, verbos e adjetivos. A criança lê cada ficha, decide a que classe pertence e escreve a palavra no quadro certo.",
+   "p2": "Nove palavras é o tamanho em que a folha ainda cabe numa conversa com a sala inteira. Com três por quadro, a criança percebe rápido que os quadros se enchem por igual, e essa simetria funciona como conferência: sobrando quatro palavras num quadro, alguma coisa foi para o lugar errado. As figuras ao lado dos nomes de animais deixam a classe mais fácil de reconhecer sem entregar nada, porque as ações e as qualidades continuam sem apoio visual. A pergunta que a folha propõe é a que a criança do 2º ano consegue usar: a palavra dá nome, mostra uma ação ou diz como algo é. Escrever a palavra em vez de ligá-la com uma seta obriga a olhá-la mais uma vez e treina a grafia. Reconhecer as classes pelo papel que exercem é a análise linguística da BNCC no 2º ano.",
+   "p3": "Imprima o PDF e peça que a criança diga uma frase com cada palavra antes de escrevê-la no quadro; a frase revela a classe melhor do que qualquer definição. É a folha de entrada da série: as seguintes sobem para doze e para quinze fichas e tiram as figuras dos substantivos, deixando a leitura sem apoio. Boa para o primeiro contato com os três quadros.",
+   "canonicalDeckSlug": "classes-de-palavras-animais-g2285",
+   "carousel": [
+    {
+     "label": "Substantivo, verbo e adjetivo: doze palavras e nenhuma figura",
+     "href": "classes-de-palavras-sem-figuras"
+    },
+    {
+     "label": "Substantivo, verbo e adjetivo: quinze palavras, cinco por quadro",
+     "href": "classes-de-palavras-quinze-palavras"
+    },
+    {
+     "label": "Vamos às compras: um total e uma pergunta de dá ou não dá",
+     "href": "vamos-as-compras-duas-perguntas"
+    },
+    {
+     "label": "Vamos às compras: quatro cartões, quatro perguntas diferentes",
+     "href": "vamos-as-compras-quatro-perguntas"
+    }
+   ],
+   "title": "Classes de palavras: nove palavras – 2º ano imprimir PDF grátis",
+   "metaDescription": "Nove fichas para separar em três quadros, com figura ao lado dos nomes de animais: três substantivos, três verbos e três adjetivos. PDF grátis."
+  },
+  {
+   "slug": "classes-de-palavras-sem-figuras",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-classes",
+    "mode": null,
+    "theme": "fruits",
+    "level": "2o-ano"
+   },
+   "eyebrow": "Classes de palavras: sem figuras",
+   "h1": "Substantivo, verbo e adjetivo: doze palavras e nenhuma figura",
+   "strand": "Análise linguística/semiótica",
+   "standard": "L.2.1.e",
+   "slotTokens": [
+    "classes-de-palavras",
+    "frutas",
+    "2o-ano"
+   ],
+   "p1": "O que sai desta folha de substantivo, verbo e adjetivo do 2º ano são as figuras. As doze fichas espalhadas no alto da página trazem apenas a palavra escrita, e as que nomeiam frutas não têm mais a figurinha ao lado que a folha anterior da série oferecia. Embaixo ficam os três quadros altos de sempre, com o ícone na tampa e o nome da classe no rodapé, quatro linhas pontilhadas em cada um. A criança lê ficha por ficha, decide a classe e escreve a palavra no quadro certo, quatro em cada.",
+   "p2": "Sem a figura, o nome deixa de se reconhecer pela imagem e passa a se reconhecer pela leitura, e é essa a diferença que a folha quer produzir. A criança precisa decodificar a palavra antes de classificá-la, e as duas coisas competem pela atenção. É também aqui que aparecem os enganos mais interessantes: uma qualidade pode ir para os substantivos porque a criança pensa numa coisa que tem aquela qualidade, e uma ação pode virar nome porque lembra o acontecimento. Cada um desses erros vale uma conversa curta e rende mais do que o acerto rápido. Os quadros com quatro linhas continuam mostrando quantas palavras cabem, o que ajuda a conferir no fim. Reconhecer substantivos, verbos e adjetivos pelo papel que fazem na frase é o que a BNCC descreve para o 2º ano.",
+   "p3": "Imprima o PDF e, se a leitura ainda for lenta, leia as doze fichas em voz alta uma vez com a turma antes de começar; o exercício é de classificação, não de decodificação. Quem terminar rápido pode escrever uma frase usando uma palavra de cada quadro. A folha com nove fichas e figuras nos substantivos é o degrau anterior; a de quinze fichas, com cinco por quadro, é o seguinte.",
+   "canonicalDeckSlug": "classes-de-palavras-frutas-g2286",
+   "carousel": [
+    {
+     "label": "Substantivo, verbo e adjetivo: nove palavras, três em cada quadro",
+     "href": "classes-de-palavras-nove-palavras"
+    },
+    {
+     "label": "Substantivo, verbo e adjetivo: quinze palavras, cinco por quadro",
+     "href": "classes-de-palavras-quinze-palavras"
+    },
+    {
+     "label": "Vamos às compras: um total e uma pergunta de dá ou não dá",
+     "href": "vamos-as-compras-duas-perguntas"
+    },
+    {
+     "label": "Vamos às compras: quatro cartões, quatro perguntas diferentes",
+     "href": "vamos-as-compras-quatro-perguntas"
+    }
+   ],
+   "title": "Classes de palavras sem figuras – 2º ano imprimir PDF grátis",
+   "metaDescription": "Doze fichas escritas sem nenhuma figura de apoio: a criança lê cada palavra e a escreve no quadro dos substantivos, verbos ou adjetivos."
+  },
+  {
+   "slug": "classes-de-palavras-quinze-palavras",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-classes",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "2o-ano"
+   },
+   "eyebrow": "Classes de palavras: quinze palavras",
+   "h1": "Substantivo, verbo e adjetivo: quinze palavras, cinco por quadro",
+   "strand": "Análise linguística/semiótica",
+   "standard": "L.2.1.e",
+   "slotTokens": [
+    "classes-de-palavras",
+    "veiculos",
+    "2o-ano"
+   ],
+   "p1": "Quinze fichas, cinco por quadro e nenhuma figura: esta é a folha mais cheia da série de substantivo, verbo e adjetivo do 2º ano. As palavras ocupam duas fileiras no alto da página, todas escritas, e entre elas estão cinco nomes ligados ao tema dos veículos, cinco ações e cinco qualidades. Os três quadros altos embaixo trazem cinco linhas pontilhadas cada um, com o ícone na tampa e o nome da classe no rodapé. A criança lê cada ficha, decide se a palavra dá nome, mostra ação ou diz uma qualidade, e a escreve no quadro certo.",
+   "p2": "O que sobe de dificuldade aqui não é só a quantidade. As qualidades desta folha saem do terreno seguro da cor e do tamanho e entram no que se ouve e no que se sente, e essas palavras não têm imagem óbvia na cabeça da criança: precisam ser testadas dentro de uma frase. Quinze fichas também obrigam a organizar o trabalho, porque não dá para segurar todas de uma vez; a criança que risca a ficha já usada ou que trabalha quadro por quadro termina, e a que pula de uma para outra se perde. Cinco linhas por quadro mantêm a conferência de sempre. A professora observa a estratégia tanto quanto o resultado. Reconhecer as classes de palavras pelo papel que cumprem é a análise linguística que a BNCC propõe no 2º ano.",
+   "p3": "Imprima o PDF e sugira que a criança comece pelos nomes, que são os mais fáceis de identificar, e deixe as qualidades por último, quando restarem poucas fichas. Uma frase dita em voz alta com a palavra duvidosa resolve quase todos os casos. É a última folha da série: quem termina esta já classifica sem apoio de figura, e a produção de texto com imagem pede que ela escolha as próprias palavras das três classes.",
+   "canonicalDeckSlug": "classes-de-palavras-veiculos-g2287",
+   "carousel": [
+    {
+     "label": "Substantivo, verbo e adjetivo: nove palavras, três em cada quadro",
+     "href": "classes-de-palavras-nove-palavras"
+    },
+    {
+     "label": "Substantivo, verbo e adjetivo: doze palavras e nenhuma figura",
+     "href": "classes-de-palavras-sem-figuras"
+    },
+    {
+     "label": "Vamos às compras: um total e uma pergunta de dá ou não dá",
+     "href": "vamos-as-compras-duas-perguntas"
+    },
+    {
+     "label": "Vamos às compras: quatro cartões, quatro perguntas diferentes",
+     "href": "vamos-as-compras-quatro-perguntas"
+    }
+   ],
+   "title": "Classes de palavras: quinze palavras – 2º ano imprimir PDF grátis",
+   "metaDescription": "Quinze fichas sem figura para separar em três quadros de cinco: nomes ligados aos veículos, ações e qualidades mais abstratas. PDF grátis."
+  },
+  {
+   "slug": "vamos-as-compras-duas-perguntas",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "animals",
+    "level": "2o-ano"
+   },
+   "eyebrow": "Problemas com dinheiro: duas perguntas",
+   "h1": "Vamos às compras: um total e uma pergunta de dá ou não dá",
+   "strand": "Grandezas e medidas",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "sistema-monetario",
+    "animais",
+    "2o-ano"
+   ],
+   "p1": "A prateleira desta folha de problemas com dinheiro do 2º ano tem quatro produtos com tema de animais, cada um com sua etiqueta de preço em centavos, apoiados numa prancha. Abaixo vêm dois problemas grandes, cada um com um painel pontilhado largo para rascunhar a conta e um quadradinho para a resposta em centavos. O primeiro pede o total de dois produtos que uma criança coloca na cesta. O segundo dá uma quantia e pergunta se ela dá para levar dois produtos: a criança circula sim ou não e ainda escreve o total.",
+   "p2": "Dois problemas e quatro preços é a menor montagem possível da série, e é isso que a torna a porta de entrada. A criança tem pouca coisa para procurar na prateleira, então a leitura da etiqueta, primeiro passo de qualquer compra, ainda cabe com folga na atenção. As duas perguntas são de tipos diferentes de propósito: uma pede um número, a outra pede uma decisão. A segunda é a mais rica, porque o sim ou não pode sair de um palpite e o total escrito ao lado mostra se houve conta de verdade. Os preços são múltiplos de cinco, para que a soma aconteça de cabeça e a atenção fique na situação. Resolver problemas com valores do sistema monetário brasileiro é o que a BNCC propõe no 2º ano.",
+   "p3": "Imprima o PDF e, se houver moedas de brinquedo, deixe a criança montar a compra na mesa antes de escrever; o painel pontilhado é grande justamente para caber desenho, e não só conta armada. As outras folhas da série sobem a partir daqui: uma pede só totais, outra só o troco, outra só a diferença, e uma reúne os quatro tipos de pergunta em quatro cartões. Esta é a primeira delas.",
+   "canonicalDeckSlug": "sistema-monetario-animais-g2289",
+   "carousel": [
+    {
+     "label": "Vamos às compras: quatro cartões, quatro perguntas diferentes",
+     "href": "vamos-as-compras-quatro-perguntas"
+    },
+    {
+     "label": "Vamos às compras: três cestas para somar dois preços",
+     "href": "vamos-as-compras-some-a-cesta"
+    },
+    {
+     "label": "Vamos às compras: somar três preços em cada cesta",
+     "href": "vamos-as-compras-tres-produtos"
+    },
+    {
+     "label": "Vamos às compras: conte as moedas e descubra o troco",
+     "href": "vamos-as-compras-quanto-de-troco"
+    }
+   ],
+   "title": "Vamos às compras: duas perguntas – 2º ano imprimir PDF grátis",
+   "metaDescription": "Uma prateleira com quatro produtos e preços em centavos, e dois problemas: somar dois preços e decidir se o dinheiro dá para comprar."
+  },
+  {
+   "slug": "vamos-as-compras-quatro-perguntas",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "2o-ano"
+   },
+   "eyebrow": "Problemas com dinheiro: quatro tipos",
+   "h1": "Vamos às compras: quatro cartões, quatro perguntas diferentes",
+   "strand": "Grandezas e medidas",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "sistema-monetario",
+    "veiculos",
+    "2o-ano"
+   ],
+   "p1": "Esta é a folha completa da série de problemas com dinheiro do 2º ano: quatro cartões, um para cada tipo de pergunta. Na prateleira do alto, cinco produtos com tema de veículos trazem etiquetas de preço em centavos. No primeiro cartão, uma criança compra três produtos e a pergunta é quanto paga. No segundo, paga com duas moedas desenhadas e a pergunta é o troco. No terceiro, tem uma quantia e precisa decidir se dá para levar dois produtos, circulando sim ou não. No quarto, a pergunta é quanto um produto custa a mais que outro.",
+   "p2": "Reunir os quatro tipos numa página só muda a natureza da tarefa. Nas outras folhas da série, descoberto o procedimento no primeiro cartão, os demais o repetem; aqui cada cartão obriga a criança a reler e a decidir de novo qual conta fazer. É o que acontece numa compra de verdade: ninguém avisa se é soma, subtração ou comparação. As quatro perguntas cobrem os dois sentidos da subtração, o troco, que tira de uma quantia dada, e a diferença, que compara dois preços, e essa distinção costuma ser a mais difícil do ano. As moedas desenhadas no cartão do troco poupam a criança de imaginar com o que se paga. A professora observa se ela volta à prateleira a cada cartão. Resolver problemas do sistema monetário é da BNCC no 2º ano.",
+   "p3": "Imprima o PDF depois das folhas de um tipo só, como fechamento do assunto ou como avaliação leve. Um bom pedido é que a criança escreva ao lado de cada cartão, antes de calcular, se vai juntar, tirar ou comparar; a classificação errada aparece na hora e vale mais que o resultado. Cabe numa aula inteira, ou em dois momentos de dois cartões cada.",
+   "canonicalDeckSlug": "sistema-monetario-veiculos-g2290",
+   "carousel": [
+    {
+     "label": "Vamos às compras: um total e uma pergunta de dá ou não dá",
+     "href": "vamos-as-compras-duas-perguntas"
+    },
+    {
+     "label": "Vamos às compras: três cestas para somar dois preços",
+     "href": "vamos-as-compras-some-a-cesta"
+    },
+    {
+     "label": "Vamos às compras: somar três preços em cada cesta",
+     "href": "vamos-as-compras-tres-produtos"
+    },
+    {
+     "label": "Vamos às compras: conte as moedas e descubra o troco",
+     "href": "vamos-as-compras-quanto-de-troco"
+    }
+   ],
+   "title": "Vamos às compras: quatro perguntas – 2º ano imprimir PDF grátis",
+   "metaDescription": "Cinco veículos com preço e quatro cartões: total de três produtos, troco de duas moedas, o dinheiro dá e quanto um custa a mais que outro."
+  },
+  {
+   "slug": "vamos-as-compras-some-a-cesta",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "toys",
+    "level": "2o-ano"
+   },
+   "eyebrow": "Problemas com dinheiro: somar",
+   "h1": "Vamos às compras: três cestas para somar dois preços",
+   "strand": "Grandezas e medidas",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "sistema-monetario",
+    "brinquedos",
+    "2o-ano"
+   ],
+   "p1": "Todos os cartões desta folha de problemas com dinheiro do 2º ano pedem a mesma coisa: o total. Na prateleira do alto, cinco produtos com tema de brinquedos exibem etiquetas de preço em centavos. Nos três cartões abaixo, uma criança leva dois produtos e a pergunta é sempre quanto custa tudo junto, formulada de três maneiras diferentes, quanto é ao todo, qual é o total, quanto ela paga. Cada cartão tem um painel pontilhado para a conta e um quadradinho para o resultado em centavos.",
+   "p2": "Repetir a mesma pergunta três vezes é uma escolha, não uma economia. Quando a operação está fixa, a criança para de gastar energia decidindo o que fazer e passa a treinar aquilo que ainda não é automático: encontrar o produto na prateleira, ler a etiqueta certa e somar dois números de dois algarismos. É a folha para usar quando a soma ainda está insegura e os problemas variados atrapalham mais do que ajudam. As três formulações diferentes impedem que a leitura vire piloto automático: a criança continua lendo a frase, mesmo sabendo o que ela vai pedir. Os preços são múltiplos de cinco, e vários pares fecham em dezena exata, o que dá um resultado fácil de conferir. Resolver problemas com o sistema monetário brasileiro é do 2º ano na BNCC.",
+   "p3": "Imprima o PDF e peça que a criança escreva a conta no painel pontilhado antes do resultado; nesta folha o interesse está no registro, já que a resposta muitas vezes sai de cabeça. Duas cópias cobrem uma semana de aquecimento de aula. Depois desta, a folha em que cada cesta tem três produtos acrescenta a terceira parcela, e a de troco muda a operação.",
+   "canonicalDeckSlug": "sistema-monetario-brinquedos-g2291",
+   "carousel": [
+    {
+     "label": "Vamos às compras: um total e uma pergunta de dá ou não dá",
+     "href": "vamos-as-compras-duas-perguntas"
+    },
+    {
+     "label": "Vamos às compras: quatro cartões, quatro perguntas diferentes",
+     "href": "vamos-as-compras-quatro-perguntas"
+    },
+    {
+     "label": "Vamos às compras: somar três preços em cada cesta",
+     "href": "vamos-as-compras-tres-produtos"
+    },
+    {
+     "label": "Vamos às compras: conte as moedas e descubra o troco",
+     "href": "vamos-as-compras-quanto-de-troco"
+    }
+   ],
+   "title": "Vamos às compras: some a cesta – 2º ano imprimir PDF grátis",
+   "metaDescription": "Três cartões e a mesma pergunta em todos: quanto custam os dois produtos juntos. Cinco brinquedos com preço em centavos na prateleira."
+  },
+  {
+   "slug": "vamos-as-compras-tres-produtos",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "fruits",
+    "level": "2o-ano"
+   },
+   "eyebrow": "Problemas com dinheiro: três produtos",
+   "h1": "Vamos às compras: somar três preços em cada cesta",
+   "strand": "Grandezas e medidas",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "sistema-monetario",
+    "frutas",
+    "2o-ano"
+   ],
+   "p1": "A cesta ganha um terceiro produto nesta folha de problemas com dinheiro do 2º ano. A prateleira do alto mostra cinco frutas com etiquetas de preço em centavos, e cada um dos três cartões conta uma compra de três produtos, sempre com a mesma pergunta: quanto essa criança paga. Os produtos aparecem como figurinhas dentro da frase, e não como palavras, então a leitura não trava em nomes difíceis. Cada cartão traz um painel pontilhado largo para a conta e um quadradinho para o total em centavos.",
+   "p2": "Somar três parcelas não é somar duas mais uma vez. A criança precisa guardar um resultado parcial enquanto procura o terceiro preço na prateleira, e é aí que a conta se perde. Duas estratégias aparecem nesta folha e vale reparar em qual delas a criança usa: somar na ordem em que a frase apresenta, ou reagrupar procurando o par que fecha uma dezena e juntar o que sobra no fim. A segunda é a que interessa, porque é propriedade da adição em ação, e a folha oferece preços múltiplos de cinco justamente para que ela seja possível. Escrever a conta no painel deixa de ser opcional com três parcelas. A professora observa se a criança confere se usou os três preços. Resolver problemas do sistema monetário brasileiro em situações de compra é o que a BNCC propõe no 2º ano.",
+   "p3": "Imprima o PDF e peça que a criança circule na prateleira, a lápis, os três produtos do cartão antes de somar; a maior parte dos erros vem de um preço esquecido, e não da soma. A folha com cestas de dois produtos é o degrau anterior e serve de aquecimento no mesmo dia. Depois desta, as folhas de troco e de diferença mudam a operação.",
+   "canonicalDeckSlug": "sistema-monetario-frutas-g2292",
+   "carousel": [
+    {
+     "label": "Vamos às compras: um total e uma pergunta de dá ou não dá",
+     "href": "vamos-as-compras-duas-perguntas"
+    },
+    {
+     "label": "Vamos às compras: quatro cartões, quatro perguntas diferentes",
+     "href": "vamos-as-compras-quatro-perguntas"
+    },
+    {
+     "label": "Vamos às compras: três cestas para somar dois preços",
+     "href": "vamos-as-compras-some-a-cesta"
+    },
+    {
+     "label": "Vamos às compras: conte as moedas e descubra o troco",
+     "href": "vamos-as-compras-quanto-de-troco"
+    }
+   ],
+   "title": "Vamos às compras: três produtos – 2º ano imprimir PDF grátis",
+   "metaDescription": "Três cartões e três produtos em cada cesta: a criança soma três preços em centavos lidos numa prateleira de cinco frutas. 2º ano, PDF grátis."
+  },
+  {
+   "slug": "vamos-as-compras-quanto-de-troco",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "animals",
+    "level": "2o-ano"
+   },
+   "eyebrow": "Problemas com dinheiro: o troco",
+   "h1": "Vamos às compras: conte as moedas e descubra o troco",
+   "strand": "Grandezas e medidas",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "sistema-monetario",
+    "animais",
+    "2o-ano"
+   ],
+   "p1": "Duas moedas, um produto e uma pergunta só: quanto volta. A prateleira do alto desta folha de problemas com dinheiro do 2º ano traz cinco produtos com tema de animais e suas etiquetas de preço em centavos, e os dois cartões embaixo pedem troco, e só troco. Em cada cartão, uma criança compra um produto e paga com duas moedas desenhadas dentro da própria frase, com o valor impresso na moeda. A pergunta é quanto ela recebe de volta. Os dois cartões são grandes, com painéis pontilhados amplos e um quadradinho de resposta em centavos ao lado.",
+   "p2": "O troco é uma subtração escondida atrás de duas leituras. Antes de subtrair, a criança precisa somar as moedas para saber com quanto pagou, e precisa achar o preço do produto na prateleira: nenhum dos dois números vem pronto na frase. É essa dupla leitura que faz do troco o problema mais difícil da série, e é por isso que a folha traz apenas dois cartões, com bastante espaço para desenhar. Muitas crianças resolvem sem subtrair, contando para a frente a partir do preço até chegar à quantia paga, e essa estratégia é legítima e vale ser mostrada à turma. As moedas desenhadas tornam a situação concreta e ligam a folha ao manuseio de dinheiro de verdade. Resolver situações de compra e venda com o sistema monetário brasileiro é o que a BNCC coloca no 2º ano.",
+   "p3": "Imprima o PDF e, se houver moedas de brinquedo na sala, monte a compra na mesa: entregue as moedas do cartão, retire o preço e conte o que sobra. Duas questões cabem em quinze minutos e deixam tempo para a conversa sobre os dois caminhos, tirar ou contar para a frente. A folha em que todos os cartões pedem o total é a preparação; a de quatro perguntas coloca o troco ao lado dos outros tipos.",
+   "canonicalDeckSlug": "sistema-monetario-animais-g2293",
+   "carousel": [
+    {
+     "label": "Vamos às compras: um total e uma pergunta de dá ou não dá",
+     "href": "vamos-as-compras-duas-perguntas"
+    },
+    {
+     "label": "Vamos às compras: quatro cartões, quatro perguntas diferentes",
+     "href": "vamos-as-compras-quatro-perguntas"
+    },
+    {
+     "label": "Vamos às compras: três cestas para somar dois preços",
+     "href": "vamos-as-compras-some-a-cesta"
+    },
+    {
+     "label": "Vamos às compras: somar três preços em cada cesta",
+     "href": "vamos-as-compras-tres-produtos"
+    }
+   ],
+   "title": "Vamos às compras: quanto de troco – 2º ano imprimir PDF grátis",
+   "metaDescription": "Dois cartões grandes com moedas desenhadas dentro da frase: a criança soma o que foi pago, tira o preço do produto e escreve o troco."
+  },
+  {
+   "slug": "vamos-as-compras-o-dinheiro-da",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "2o-ano"
+   },
+   "eyebrow": "Problemas com dinheiro: dá para comprar",
+   "h1": "Vamos às compras: o dinheiro dá? Circule sim ou não",
+   "strand": "Grandezas e medidas",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "sistema-monetario",
+    "veiculos",
+    "2o-ano"
+   ],
+   "p1": "A resposta desta folha de problemas com dinheiro do 2º ano não é um número: é sim ou não, com o número ao lado para provar. Na prateleira do alto, cinco produtos com tema de veículos trazem etiquetas de preço em centavos. Cada um dos dois cartões dá uma quantia a uma criança e pergunta se ela consegue levar dois produtos indicados por figurinhas. A criança circula sim ou não em dois botões impressos e escreve o total dos dois preços no quadradinho ao lado, também em centavos.",
+   "p2": "Comparar é uma operação diferente de calcular, e as duas convivem neste cartão. Só é possível responder depois de somar os dois preços, mas a soma não é a resposta: ela serve para ser posta ao lado da quantia disponível. O quadradinho do total é o que impede o palpite, porque um sim sem conta se desfaz assim que o número aparece escrito. Vale reparar nos casos em que a resposta é não por pouco, porque é ali que a criança percebe que faltou uma quantia pequena, e não que faltou dinheiro em geral. Situações de compra em que se decide se a quantia é suficiente são a forma mais próxima da vida real que a série apresenta. Resolver problemas com valores do sistema monetário brasileiro é o que a BNCC propõe para o 2º ano.",
+   "p3": "Imprima o PDF e proponha uma segunda pergunta oral em cada cartão: se não deu, quanto faltou; se deu, quanto sobrou. A folha traz apenas dois cartões e sobra espaço no painel pontilhado para essa conta extra. A folha de somar a cesta prepara o total que este exercício exige, e a de quatro perguntas traz este tipo ao lado do troco e da diferença.",
+   "canonicalDeckSlug": "sistema-monetario-veiculos-g2294",
+   "carousel": [
+    {
+     "label": "Vamos às compras: um total e uma pergunta de dá ou não dá",
+     "href": "vamos-as-compras-duas-perguntas"
+    },
+    {
+     "label": "Vamos às compras: quatro cartões, quatro perguntas diferentes",
+     "href": "vamos-as-compras-quatro-perguntas"
+    },
+    {
+     "label": "Vamos às compras: três cestas para somar dois preços",
+     "href": "vamos-as-compras-some-a-cesta"
+    },
+    {
+     "label": "Vamos às compras: somar três preços em cada cesta",
+     "href": "vamos-as-compras-tres-produtos"
+    }
+   ],
+   "title": "Vamos às compras: o dinheiro dá – 2º ano imprimir PDF grátis",
+   "metaDescription": "Dois cartões em que a criança compara uma quantia com o preço de dois produtos, circula sim ou não e escreve o total que justifica a resposta."
+  },
+  {
+   "slug": "vamos-as-compras-quanto-a-mais",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "toys",
+    "level": "2o-ano"
+   },
+   "eyebrow": "Problemas com dinheiro: a diferença",
+   "h1": "Vamos às compras: quanto um produto custa a mais que o outro",
+   "strand": "Grandezas e medidas",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "sistema-monetario",
+    "brinquedos",
+    "2o-ano"
+   ],
+   "p1": "Os três cartões desta folha de problemas com dinheiro do 2º ano comparam preços. Na prateleira do alto, cinco produtos com tema de brinquedos mostram etiquetas em centavos. Em cada cartão, dois produtos aparecem como figurinhas dentro da frase e a pergunta é sempre a mesma: quanto um custa a mais que o outro. A formulação muda de cartão para cartão, ora perguntando quanto a mais custa determinado produto, ora afirmando que um custa mais e pedindo quanto. Cada cartão tem painel pontilhado e quadradinho de resposta em centavos.",
+   "p2": "A diferença é a subtração que menos parece subtração. Nada é tirado de ninguém e ninguém paga nada: os dois preços continuam onde estavam, e a pergunta é sobre a distância entre eles. Crianças que já resolvem troco com facilidade travam aqui, porque procuram uma ação na história e não encontram nenhuma. Duas representações ajudam, e as duas cabem no painel pontilhado: desenhar duas barras lado a lado e olhar o pedaço que sobra numa delas, ou contar para a frente do preço menor até o maior. Repetir a mesma pergunta três vezes deixa a criança consolidar a ideia antes de encontrá-la misturada com outras. A professora observa quem subtrai na ordem errada. Resolver problemas do sistema monetário brasileiro é do 2º ano na BNCC.",
+   "p3": "Imprima o PDF e comece pedindo que a criança aponte, na prateleira, qual dos dois produtos é o mais caro antes de calcular; quem aponta errado vai subtrair ao contrário. Comparar as etiquetas na própria prateleira, sem ler o cartão, é um bom aquecimento oral. A folha de troco trabalha o outro sentido da subtração, e a de quatro perguntas coloca os dois lado a lado.",
+   "canonicalDeckSlug": "sistema-monetario-brinquedos-g2295",
+   "carousel": [
+    {
+     "label": "Vamos às compras: um total e uma pergunta de dá ou não dá",
+     "href": "vamos-as-compras-duas-perguntas"
+    },
+    {
+     "label": "Vamos às compras: quatro cartões, quatro perguntas diferentes",
+     "href": "vamos-as-compras-quatro-perguntas"
+    },
+    {
+     "label": "Vamos às compras: três cestas para somar dois preços",
+     "href": "vamos-as-compras-some-a-cesta"
+    },
+    {
+     "label": "Vamos às compras: somar três preços em cada cesta",
+     "href": "vamos-as-compras-tres-produtos"
+    }
+   ],
+   "title": "Vamos às compras: quanto a mais – 2º ano imprimir PDF grátis",
+   "metaDescription": "Três cartões com a mesma pergunta: quanto um produto custa a mais que outro. Cinco brinquedos com preço em centavos na prateleira do alto."
+  },
+  {
+   "slug": "leitura-de-calendario-quatro-perguntas",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "calendar",
+    "mode": null,
+    "theme": "",
+    "level": "2o-ano"
+   },
+   "eyebrow": "Leitura de calendário: as primeiras perguntas",
+   "h1": "Leitura de calendário: quatro perguntas sobre um mês inteiro",
+   "strand": "Grandezas e medidas",
+   "slotTokens": [
+    "calendario",
+    "2o-ano"
+   ],
+   "p1": "Esta folha de leitura de calendário do 2º ano começa pelo essencial: quatro perguntas, nem uma a mais. A página mostra um mês inteiro numa grade de sete colunas que abre no domingo, como nos calendários de parede brasileiros, com as casas fora do mês deixadas em bege. Dois dias trazem uma figurinha, como se fossem compromissos marcados. Embaixo, quatro quadros de pergunta em duas colunas, cada um com espaço para a resposta: que dia da semana cai determinada data, quantos dias de certo dia da semana o mês tem, em que dia do mês está a figurinha e quantos dias tem o mês.",
+   "p2": "As quatro perguntas foram escolhidas para cobrir os quatro movimentos básicos de leitura de uma tabela, sem repetir nenhum. Uma pede o caminho da casa até o topo da coluna. Outra pede descer uma coluna contando as casas. A terceira pede localizar uma marca e ler o número ao lado dela. A quarta pede olhar a grade inteira e achar o último número. Duas figurinhas apenas mantêm o mês limpo, o que importa quando a criança ainda está aprendendo a não se perder entre as linhas. As casas em bege antes do primeiro e depois do último dia ensinam, sem dizer, que o mês não começa necessariamente no domingo. A professora observa o gesto: dedo que sobe pela coluna ou olho que conta números soltos. Reconhecer dia, semana e mês como medidas de tempo e ler o calendário é o que a BNCC coloca no 2º ano.",
+   "p3": "Imprima o PDF e peça que a criança circule o dia 1 e o último dia antes de responder; duas das quatro perguntas ficam resolvidas por esse gesto. Fica bem ao lado do calendário real da sala, para comparar o mês da folha com o mês de hoje. As outras folhas da série sobem a partir daqui: uma reúne cinco perguntas e três marcações, e outra concentra tudo nos dias da semana.",
+   "canonicalDeckSlug": "calendario-g2296",
+   "carousel": [
+    {
+     "label": "Leitura de calendário: cinco perguntas e três compromissos marcados",
+     "href": "leitura-de-calendario-mes-cheio"
+    },
+    {
+     "label": "Leitura de calendário: quatro perguntas sobre os dias da semana",
+     "href": "leitura-de-calendario-dias-da-semana"
+    },
+    {
+     "label": "Produção de texto com imagem: três frases já começadas",
+     "href": "producao-de-texto-o-que-voce-ve"
+    },
+    {
+     "label": "Produção de texto com imagem: seis linhas em branco e um banco de palavras",
+     "href": "producao-de-texto-suas-proprias-palavras"
+    }
+   ],
+   "title": "Leitura de calendário: quatro perguntas – 2º ano PDF grátis",
+   "metaDescription": "Um mês inteiro em grade de sete colunas, duas figuras marcadas e quatro perguntas: dia da semana, contagem de dias e quantos dias tem o mês."
+  },
+  {
+   "slug": "leitura-de-calendario-mes-cheio",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "calendar",
+    "mode": null,
+    "theme": "",
+    "level": "2o-ano"
+   },
+   "eyebrow": "Leitura de calendário: mês cheio",
+   "h1": "Leitura de calendário: cinco perguntas e três compromissos marcados",
+   "strand": "Grandezas e medidas",
+   "slotTokens": [
+    "calendario",
+    "2o-ano"
+   ],
+   "p1": "O mês desta folha de leitura de calendário do 2º ano está cheio. Três dias trazem figurinhas de compromisso espalhadas pela grade de sete colunas, e as cinco perguntas embaixo pedem leituras cada vez mais longas: que dia da semana cai uma data, quantos dias de certo dia da semana o mês tem, em que dia está uma das figuras, qual é a data uma semana depois de determinado dia e quantos dias separam uma figura da outra. Cada pergunta ocupa um quadro com espaço para escrever a resposta.",
+   "p2": "As duas últimas perguntas são o motivo desta folha existir. A da semana seguinte pode ser respondida somando sete ou descendo exatamente uma linha na grade, e os dois caminhos dão o mesmo número: é a demonstração mais direta de que uma linha do calendário vale uma semana. A dos dias entre duas figuras exige contar através da virada de linha, o que derruba quem só sabe contar dentro de uma fileira, e obriga a decidir se o dia da primeira figura entra na conta. Três marcações espalhadas também aumentam a busca visual, o que é parte da tarefa. A professora observa se a criança usa a estrutura da grade ou conta número por número. Ler o calendário e reconhecer dia, semana e mês como medidas de tempo está no 2º ano da BNCC.",
+   "p3": "Imprima o PDF e resolva a pergunta da semana seguinte junto com a turma, pelos dois caminhos, antes de deixar a folha nas mãos das crianças; ver os dois resultados coincidirem vale mais que a resposta. Para a última pergunta, sugira marcar as duas figuras com o dedo e contar as casas em voz alta. A folha de quatro perguntas é o degrau anterior, e a de dias da semana trabalha só as colunas.",
+   "canonicalDeckSlug": "calendario-g2297",
+   "carousel": [
+    {
+     "label": "Leitura de calendário: quatro perguntas sobre um mês inteiro",
+     "href": "leitura-de-calendario-quatro-perguntas"
+    },
+    {
+     "label": "Leitura de calendário: quatro perguntas sobre os dias da semana",
+     "href": "leitura-de-calendario-dias-da-semana"
+    },
+    {
+     "label": "Produção de texto com imagem: três frases já começadas",
+     "href": "producao-de-texto-o-que-voce-ve"
+    },
+    {
+     "label": "Produção de texto com imagem: seis linhas em branco e um banco de palavras",
+     "href": "producao-de-texto-suas-proprias-palavras"
+    }
+   ],
+   "title": "Leitura de calendário: mês cheio – 2º ano imprimir PDF grátis",
+   "metaDescription": "Um mês com três figuras marcadas e cinco perguntas, incluindo a data uma semana depois e quantos dias separam uma marcação da outra."
+  },
+  {
+   "slug": "leitura-de-calendario-dias-da-semana",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "calendar",
+    "mode": null,
+    "theme": "",
+    "level": "2o-ano"
+   },
+   "eyebrow": "Leitura de calendário: dias da semana",
+   "h1": "Leitura de calendário: quatro perguntas sobre os dias da semana",
+   "strand": "Grandezas e medidas",
+   "slotTokens": [
+    "calendario",
+    "2o-ano"
+   ],
+   "p1": "Todas as perguntas desta folha de leitura de calendário do 2º ano tratam do mesmo assunto: os dias da semana. As quatro perguntas embaixo da grade pedem que dia da semana cai determinada data, quantos dias de certo dia da semana o mês tem, em que dia da semana o mês começa e em que dia da semana ele termina. O mês aparece completo, em sete colunas, com as casas mais altas que nas outras folhas da série, e duas figurinhas marcam dias na grade sem que nenhuma pergunta se refira a elas.",
+   "p2": "Concentrar as quatro perguntas num único eixo muda o gesto da leitura. Em vez de saltar entre linha e coluna conforme a pergunta, a criança trabalha sempre no mesmo sentido, subindo da casa até o cabeçalho ou descendo a coluna toda, e a repetição consolida o que a grade significa. As perguntas do primeiro e do último dia são as mais reveladoras: obrigam a encontrar as bordas do mês entre as casas em bege e a ler o cabeçalho da coluna correspondente, duas coisas que a criança costuma pular. As figurinhas que não entram em pergunta nenhuma ficam ali como parte do calendário, e vale dizer isso à turma: nem tudo o que está na página é pergunta. Reconhecer dia, semana e mês como medidas de tempo é o que a BNCC descreve no 2º ano.",
+   "p3": "Imprima o PDF e comece com a turma inteira lendo o cabeçalho em voz alta, de domingo a sábado, apontando cada coluna. Uma boa continuação é pedir que a criança diga que dia da semana será o primeiro dia do mês seguinte, contando a partir do último dia deste. As folhas de quatro e de cinco perguntas da série misturam os eixos de leitura, com datas, contagens e intervalos.",
+   "canonicalDeckSlug": "calendario-g2298",
+   "carousel": [
+    {
+     "label": "Leitura de calendário: quatro perguntas sobre um mês inteiro",
+     "href": "leitura-de-calendario-quatro-perguntas"
+    },
+    {
+     "label": "Leitura de calendário: cinco perguntas e três compromissos marcados",
+     "href": "leitura-de-calendario-mes-cheio"
+    },
+    {
+     "label": "Produção de texto com imagem: três frases já começadas",
+     "href": "producao-de-texto-o-que-voce-ve"
+    },
+    {
+     "label": "Produção de texto com imagem: seis linhas em branco e um banco de palavras",
+     "href": "producao-de-texto-suas-proprias-palavras"
+    }
+   ],
+   "title": "Leitura de calendário: dias da semana – 2º ano PDF grátis",
+   "metaDescription": "Todas as perguntas desta folha tratam dos dias da semana: que dia cai uma data, quantos há no mês e em que dia o mês começa e termina."
+  },
+  {
+   "slug": "producao-de-texto-o-que-voce-ve",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-writing",
+    "mode": null,
+    "theme": "animals",
+    "level": "2o-ano"
+   },
+   "eyebrow": "Produção de texto: o que se vê",
+   "h1": "Produção de texto com imagem: três frases já começadas",
+   "strand": "Produção de textos",
+   "standard": "W.2.2",
+   "slotTokens": [
+    "producao-de-texto-com-imagem",
+    "animais",
+    "2o-ano"
+   ],
+   "p1": "A criança nunca começa do zero nesta folha de produção de texto com imagem do 2º ano. No alto, uma cena reúne alguns animais soltos num fundo branco. Logo abaixo, um banco com quatro fichas mostra a figura e o nome escrito de cada bicho, para a grafia não virar obstáculo. Depois vêm quatro linhas de caligrafia largas: três delas já trazem, em cinza, o começo da frase, e a quarta fica inteiramente livre. A criança olha a cena, completa cada começo com o que enxerga e escreve a última frase por conta própria.",
+   "p2": "Os começos desta folha são descritivos, e essa escolha define o texto que sai dela. Eles convidam a criança a nomear o que vê e a dizer como as coisas são, que é o gesto de descrever, e não o de narrar. Para quem ainda escreve devagar, começar uma frase é a parte mais cara: com três linhas já iniciadas, a energia vai para a continuação, e a folha entrega três frases completas onde antes sairia uma. A quarta linha, sem apoio, é o teste: quem consegue escrever ali sozinho está pronto para a folha sem nenhum começo. O banco de palavras nomeia cada figura da cena, então a criança não precisa perguntar como se escreve nada. A professora observa se cada frase termina com ponto. Produzir textos curtos a partir de uma imagem, com apoio, é o que a BNCC propõe para o 2º ano.",
+   "p3": "Imprima o PDF e converse dois minutos sobre a cena antes de escrever, perguntando o que cada bicho está fazendo; o texto fica mais rico quando foi falado antes. Ler em voz alta as três frases prontas no fim mostra à criança que ela escreveu um pequeno parágrafo. A folha da série sem nenhum começo, com seis linhas em branco, é o passo seguinte.",
+   "canonicalDeckSlug": "producao-de-texto-com-imagem-animais-g2299",
+   "carousel": [
+    {
+     "label": "Produção de texto com imagem: seis linhas em branco e um banco de palavras",
+     "href": "producao-de-texto-suas-proprias-palavras"
+    },
+    {
+     "label": "Coordenadas na malha 6 por 6: pinte as casas e veja a figura",
+     "href": "coordenadas-malha-6-por-6"
+    },
+    {
+     "label": "Coordenadas na malha 10 por 10: uma lista longa para pintar",
+     "href": "coordenadas-malha-10-por-10"
+    },
+    {
+     "label": "Problemas de multiplicação com os grupos já desenhados",
+     "href": "problemas-de-multiplicacao-3o-ano"
+    }
+   ],
+   "title": "Produção de texto: o que você vê – 2º ano imprimir PDF grátis",
+   "metaDescription": "Uma cena com animais, um banco de quatro palavras com figura e quatro linhas, três delas já começadas em cinza para a criança continuar."
+  },
+  {
+   "slug": "producao-de-texto-suas-proprias-palavras",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-writing",
+    "mode": null,
+    "theme": "fruits",
+    "level": "2o-ano"
+   },
+   "eyebrow": "Produção de texto: sem começos prontos",
+   "h1": "Produção de texto com imagem: seis linhas em branco e um banco de palavras",
+   "strand": "Produção de textos",
+   "standard": "W.2.3",
+   "slotTokens": [
+    "producao-de-texto-com-imagem",
+    "frutas",
+    "2o-ano"
+   ],
+   "p1": "Nada nesta folha de produção de texto com imagem do 2º ano diz por onde começar. A cena do alto reúne várias frutas de tamanhos diferentes, e o banco logo abaixo traz seis fichas, cada uma com a figura e o nome escrito. Depois vêm seis linhas de caligrafia estreitas, todas vazias, sem nenhuma palavra em cinza para continuar. A criança observa a cena, decide o que vai contar e escreve o texto inteiro, do começo ao fim, usando as palavras do banco quando precisar.",
+   "p2": "Tirar os começos muda o autor do texto. Com uma frase já iniciada, a página decide o assunto e a criança preenche; com a linha em branco, ela decide se vai descrever a cena, contar uma história com as frutas ou escrever o que faria com elas. Textos diferentes saem da mesma folha, e comparar dois deles em voz alta é a melhor parte da atividade. Seis linhas estreitas cabem bem mais do que as quatro linhas largas da folha anterior, e o espaço é um convite: quem escreveu três frases olha para o que sobrou. O banco de palavras continua ali, porque a dúvida de grafia trava o texto mesmo de quem tem o que dizer. A professora observa se há uma sequência, e não uma lista. Produzir textos a partir de uma imagem é o que a BNCC descreve para o 2º ano.",
+   "p3": "Imprima o PDF e ofereça uma pergunta oral antes de escrever, do tipo o que aconteceu antes desta cena; quem não sabe começar quase sempre destrava com uma pergunta, e não com um exemplo. Se a criança parar na segunda linha, peça que leia o que escreveu e continue de onde a leitura terminou. A folha com três começos em cinza é o degrau anterior.",
+   "canonicalDeckSlug": "producao-de-texto-com-imagem-frutas-g2300",
+   "carousel": [
+    {
+     "label": "Produção de texto com imagem: três frases já começadas",
+     "href": "producao-de-texto-o-que-voce-ve"
+    },
+    {
+     "label": "Coordenadas na malha 6 por 6: pinte as casas e veja a figura",
+     "href": "coordenadas-malha-6-por-6"
+    },
+    {
+     "label": "Coordenadas na malha 10 por 10: uma lista longa para pintar",
+     "href": "coordenadas-malha-10-por-10"
+    },
+    {
+     "label": "Problemas de multiplicação com os grupos já desenhados",
+     "href": "problemas-de-multiplicacao-3o-ano"
+    }
+   ],
+   "title": "Produção de texto sem começos prontos – 2º ano PDF grátis",
+   "metaDescription": "Uma cena com frutas, um banco de seis palavras com figura e seis linhas totalmente em branco: a criança escreve o texto do próprio jeito."
+  },
+  {
+   "slug": "coordenadas-malha-6-por-6",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "grid-coordinates",
+    "mode": null,
+    "theme": "",
+    "level": "2o-ano"
+   },
+   "eyebrow": "Coordenadas: malha de 6 por 6",
+   "h1": "Coordenadas na malha 6 por 6: pinte as casas e veja a figura",
+   "strand": "Geometria",
+   "slotTokens": [
+    "coordenadas-na-malha",
+    "2o-ano"
+   ],
+   "p1": "Esta folha de coordenadas na malha quadriculada do 2º ano usa uma malha pequena: seis colunas, de A a F, e seis linhas, de 1 a 6, com trinta e seis casas vazias. Ao lado da malha grande, uma malha miniatura de exemplo mostra a casa B2 pintada, com a legenda embaixo, para a criança ver a ordem de leitura sem precisar de explicação. No rodapé, a lista de coordenadas vem separada por cor, cada casa escrita como uma letra seguida de um número. A criança procura cada casa, pinta com a cor do grupo e vê a figura aparecer.",
+   "p2": "Trinta e seis casas é uma malha que a criança abraça com os olhos. Como as linhas e as colunas cabem todas no campo de visão, o dedo encontra o cruzamento sem escorregar, e o esforço fica onde deve estar: entender que a letra vem antes do número e que E2 não é o mesmo que 2E. O exemplo do B2 ao lado fixa essa ordem em silêncio, sem regra escrita. A figura escondida faz o papel de gabarito: uma casa pintada fora do lugar não se encaixa no desenho e salta aos olhos, então a criança confere sozinha. A segunda cor aparece em poucas casas e marca um detalhe do desenho, o que mostra que a mesma lista pode ter grupos. Localizar e descrever posições numa malha quadriculada é o que a BNCC coloca em geometria no 2º ano.",
+   "p3": "Imprima o PDF e ofereça lápis nas cores da lista; peça que a criança risque cada coordenada depois de pintar, para não perder o lugar na sequência. Quem terminar pode desenhar a própria figura numa malha vazia e escrever a lista de casas para um colega descobrir. A folha com a malha de dez por dez é o passo seguinte, com mais casas e coordenadas de dois algarismos.",
+   "canonicalDeckSlug": "coordenadas-na-malha-g2302",
+   "carousel": [
+    {
+     "label": "Coordenadas na malha 10 por 10: uma lista longa para pintar",
+     "href": "coordenadas-malha-10-por-10"
+    },
+    {
+     "label": "Problemas de multiplicação com os grupos já desenhados",
+     "href": "problemas-de-multiplicacao-3o-ano"
+    },
+    {
+     "label": "Problemas de divisão por repartição: distribua nas caixas",
+     "href": "problemas-de-divisao-repartir"
+    },
+    {
+     "label": "Problemas de divisão por formação de grupos: circule e conte",
+     "href": "problemas-de-divisao-formar-grupos"
+    }
+   ],
+   "title": "Coordenadas na malha 6 por 6 – 2º ano imprimir PDF grátis",
+   "metaDescription": "Uma malha de A a F e de 1 a 6, um exemplo com a casa B2 pintada e uma lista de casas em duas cores para revelar a figura escondida."
+  },
+  {
+   "slug": "coordenadas-malha-10-por-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "grid-coordinates",
+    "mode": null,
+    "theme": "",
+    "level": "2o-ano"
+   },
+   "eyebrow": "Coordenadas: malha de 10 por 10",
+   "h1": "Coordenadas na malha 10 por 10: uma lista longa para pintar",
+   "strand": "Geometria",
+   "slotTokens": [
+    "coordenadas-na-malha",
+    "2o-ano"
+   ],
+   "p1": "A malha desta folha de coordenadas do 2º ano tem cem casas: dez colunas, de A a J, e dez linhas, de 1 a 10. A malha miniatura de exemplo, com a casa B2 pintada, continua ao lado para lembrar a ordem de leitura. No rodapé, a lista traz quase trinta casas separadas em duas cores, e algumas delas, as da última linha, aparecem com dois algarismos depois da letra. A criança localiza cada casa na malha, pinta com a cor indicada e, ao terminar a lista, encontra a figura escondida no meio do quadriculado.",
+   "p2": "Uma malha de dez por dez cobra organização antes de cobrar geometria. As colunas do meio, longe das duas bordas, são as que mais enganam, e a criança que não acompanha o cabeçalho com o dedo pinta a casa ao lado da certa sem perceber. As coordenadas de dois algarismos acrescentam uma leitura nova: é preciso ver a letra e depois o número inteiro, e não o primeiro algarismo dele, o que separa D1 de D10. A lista longa também exige método, porque ninguém guarda trinta casas de memória; quem risca o que já pintou termina, quem não risca repete e pula. A figura escondida continua sendo a conferência, e nesta malha ela tem mais detalhe. Localizar e descrever a posição de objetos numa malha quadriculada é a expectativa da BNCC no 2º ano.",
+   "p3": "Imprima o PDF e reserve um tempo maior do que o da malha de seis por seis; esta folha rende uma atividade inteira e sossegada. Se a criança errar uma casa, não apague tudo: peça que compare a região com o desenho que está se formando e ache sozinha o ponto fora do lugar. Um bom passo seguinte é ela criar a própria figura na malha e escrever a lista, dividida em duas cores, para outra criança pintar.",
+   "canonicalDeckSlug": "coordenadas-na-malha-g2303",
+   "carousel": [
+    {
+     "label": "Coordenadas na malha 6 por 6: pinte as casas e veja a figura",
+     "href": "coordenadas-malha-6-por-6"
+    },
+    {
+     "label": "Problemas de multiplicação com os grupos já desenhados",
+     "href": "problemas-de-multiplicacao-3o-ano"
+    },
+    {
+     "label": "Problemas de divisão por repartição: distribua nas caixas",
+     "href": "problemas-de-divisao-repartir"
+    },
+    {
+     "label": "Problemas de divisão por formação de grupos: circule e conte",
+     "href": "problemas-de-divisao-formar-grupos"
+    }
+   ],
+   "title": "Coordenadas na malha 10 por 10 – 2º ano imprimir PDF grátis",
+   "metaDescription": "Uma malha de A a J e de 1 a 10, com cem casas e uma lista longa em duas cores: aqui a linha pode ter dois algarismos, como D10. PDF grátis."
+  },
+  {
+   "slug": "problemas-de-multiplicacao-3o-ano",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "animals",
+    "level": "3o-ano"
+   },
+   "eyebrow": "Problemas de multiplicação",
+   "h1": "Problemas de multiplicação com os grupos já desenhados",
+   "strand": "Números",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "situacoes-problema",
+    "animais",
+    "3o-ano"
+   ],
+   "p1": "Nenhuma divisão nesta folha do 3º ano: as duas historinhas com animais são de multiplicação, cada uma num quadro grande. Em cada quadro, a figura já mostra os grupos iguais separados em molduras, tantas molduras quantas o enunciado diz e a mesma quantidade de bichinhos dentro de cada uma. Abaixo da figura vêm um painel pontilhado para rascunhar, um quadradinho para o número e uma linha de caligrafia para escrever a frase-resposta inteira. Os totais desta folha não passam de vinte.",
+   "p2": "A folha resolve um problema de cada vez, e o problema aqui é enxergar a multiplicação como grupos iguais. Como a figura já vem agrupada, a criança não precisa formar nada: ela conta quantas molduras existem, conta quantos bichinhos há dentro de uma e reconhece que a mesma quantidade se repete. Daí saem os dois caminhos legítimos deste ano, contar de tantos em tantos ao longo das molduras ou usar o fato multiplicativo que já sabe de cor, e os dois chegam ao mesmo número. Manter os totais dentro de vinte é proposital: a criança pode conferir contando um a um quando duvidar, e essa conferência é o que constrói a confiança na tabuada. A frase-resposta obriga a voltar à pergunta. Resolver problemas de multiplicação com a ideia de grupos iguais é o que a BNCC descreve para o 3º ano.",
+   "p3": "Imprima o PDF e peça que a criança reconte a historinha com as próprias palavras antes de calcular; quem reconta já sabe qual operação usar. Cobrir a figura com a mão depois da primeira leitura é um bom desafio para quem já resolve rápido. As outras folhas da série viram a operação: uma reparte, outra forma grupos e a última mistura tudo em três historinhas.",
+   "canonicalDeckSlug": "situacoes-problema-animais-g3371",
+   "carousel": [
+    {
+     "label": "Problemas de divisão por repartição: distribua nas caixas",
+     "href": "problemas-de-divisao-repartir"
+    },
+    {
+     "label": "Problemas de divisão por formação de grupos: circule e conte",
+     "href": "problemas-de-divisao-formar-grupos"
+    },
+    {
+     "label": "Problemas de divisão: uma historinha reparte, a outra forma grupos",
+     "href": "problemas-de-divisao-de-dois-jeitos"
+    },
+    {
+     "label": "Problemas de multiplicar e de formar grupos na mesma folha",
+     "href": "problemas-de-multiplicar-e-agrupar"
+    }
+   ],
+   "title": "Problemas de multiplicação – 3º ano para imprimir PDF grátis",
+   "metaDescription": "Duas historinhas de grupos iguais com a figura já agrupada em molduras: a criança conta os grupos, multiplica e escreve a frase-resposta."
+  },
+  {
+   "slug": "problemas-de-divisao-repartir",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "3o-ano"
+   },
+   "eyebrow": "Divisão: repartir em partes iguais",
+   "h1": "Problemas de divisão por repartição: distribua nas caixas",
+   "strand": "Números",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "situacoes-problema",
+    "frutas",
+    "3o-ano"
+   ],
+   "p1": "Repartir em partes iguais é o que as duas historinhas com frutas desta folha do 3º ano pedem. Em cada quadro grande, o enunciado diz quantas coisas há ao todo e em quantas partes iguais elas serão repartidas. A figura mostra todas as coisas juntas na parte de cima e, logo abaixo, caixas tracejadas vazias, uma para cada parte, esperando a distribuição. Vêm ainda o painel pontilhado para rascunho, o quadradinho da resposta e a linha para a frase-resposta. As quantidades desta folha chegam a mais de trinta.",
+   "p2": "As caixas vazias são o coração da página. Elas convidam ao gesto que dá nome a esta divisão, distribuir um a um, um para cada caixa, e de novo, até acabar; é a partilha como a criança a conhece da vida, dividir bala entre amigos. Ao terminar, ela olha uma caixa qualquer e lê ali a resposta, que é quanto coube em cada parte. Muitas crianças abandonam a distribuição no meio, quando percebem qual fato multiplicativo resolve o problema, e essa passagem do desenho para o cálculo é exatamente o que se espera ver no 3º ano. As quantidades maiores desta folha tornam a distribuição um a um trabalhosa o bastante para que o atalho valha a pena. Resolver problemas de divisão com a ideia de repartição em partes iguais é o que a BNCC propõe para o 3º ano.",
+   "p3": "Imprima o PDF e deixe a criança marcar as figuras com riscos de cores diferentes ao distribuir, uma cor por caixa; o registro do caminho vale tanto quanto o resultado. Se ela travar, comece a distribuição junto, dando uma volta completa pelas caixas, e depois deixe continuar sozinha. A folha em que a criança forma grupos, sem caixas prontas, mostra a outra cara da divisão.",
+   "canonicalDeckSlug": "situacoes-problema-frutas-g3372",
+   "carousel": [
+    {
+     "label": "Problemas de multiplicação com os grupos já desenhados",
+     "href": "problemas-de-multiplicacao-3o-ano"
+    },
+    {
+     "label": "Problemas de divisão por formação de grupos: circule e conte",
+     "href": "problemas-de-divisao-formar-grupos"
+    },
+    {
+     "label": "Problemas de divisão: uma historinha reparte, a outra forma grupos",
+     "href": "problemas-de-divisao-de-dois-jeitos"
+    },
+    {
+     "label": "Problemas de multiplicar e de formar grupos na mesma folha",
+     "href": "problemas-de-multiplicar-e-agrupar"
+    }
+   ],
+   "title": "Problemas de divisão: repartir – 3º ano imprimir PDF grátis",
+   "metaDescription": "Duas historinhas de partilha com as figuras todas juntas em cima e caixas tracejadas vazias embaixo, uma por parte, para a criança distribuir."
+  },
+  {
+   "slug": "problemas-de-divisao-formar-grupos",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "toys",
+    "level": "3o-ano"
+   },
+   "eyebrow": "Divisão: quantos grupos",
+   "h1": "Problemas de divisão por formação de grupos: circule e conte",
+   "strand": "Números",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "situacoes-problema",
+    "brinquedos",
+    "3o-ano"
+   ],
+   "p1": "As caixas sumiram nesta folha de problemas de divisão do 3º ano. As duas historinhas, com brinquedos, dizem quantas coisas existem e de que tamanho será cada grupo, e a pergunta é quantos grupos se formam. A figura traz todas as coisas numa fila única, sem nenhuma moldura, nenhuma caixa tracejada e nenhuma separação: é a criança que precisa circular os grupos a lápis na própria fila. Abaixo de cada figura ficam o painel pontilhado, o quadradinho da resposta e a linha da frase-resposta.",
+   "p2": "Esta é a divisão mais difícil de reconhecer, porque a pergunta não é quanto cada um recebe, e sim quantas vezes cabe. A criança que aprendeu divisão só como partilha tenta distribuir e não encontra caixas para onde distribuir, e é justamente esse desconforto que a folha produz de propósito. Circular na fila resolve: ela marca o primeiro grupo do tamanho pedido, depois o segundo, e conta os círculos no fim. A fila cabe numa linha só, para que os grupos circulados não se percam numa quebra de linha e o desenho continue coerente com a pergunta. Quem já enxerga a operação pode responder sem circular, mas convém pedir o desenho na primeira historinha. Resolver problemas de divisão pela ideia de medida, de quantos grupos cabem, é o que a BNCC coloca no 3º ano.",
+   "p3": "Imprima o PDF e peça o lápis para circular, não a caneta: os grupos costumam sair tortos na primeira tentativa. Contar em voz alta os círculos ao terminar evita o erro mais comum, que é responder o tamanho do grupo em vez da quantidade de grupos. A folha de repartição, com as caixas prontas, é o degrau anterior; a folha de dois jeitos põe as duas divisões lado a lado.",
+   "canonicalDeckSlug": "situacoes-problema-brinquedos-g3373",
+   "carousel": [
+    {
+     "label": "Problemas de multiplicação com os grupos já desenhados",
+     "href": "problemas-de-multiplicacao-3o-ano"
+    },
+    {
+     "label": "Problemas de divisão por repartição: distribua nas caixas",
+     "href": "problemas-de-divisao-repartir"
+    },
+    {
+     "label": "Problemas de divisão: uma historinha reparte, a outra forma grupos",
+     "href": "problemas-de-divisao-de-dois-jeitos"
+    },
+    {
+     "label": "Problemas de multiplicar e de formar grupos na mesma folha",
+     "href": "problemas-de-multiplicar-e-agrupar"
+    }
+   ],
+   "title": "Problemas de divisão: formar grupos – 3º ano PDF grátis",
+   "metaDescription": "Duas historinhas em que a figura vem numa fila única, sem caixas: a criança circula os grupos do tamanho pedido e conta quantos formou."
+  },
+  {
+   "slug": "problemas-de-divisao-de-dois-jeitos",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "3o-ano"
+   },
+   "eyebrow": "Divisão: os dois jeitos",
+   "h1": "Problemas de divisão: uma historinha reparte, a outra forma grupos",
+   "strand": "Números",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "situacoes-problema",
+    "frutas",
+    "3o-ano"
+   ],
+   "p1": "As duas historinhas desta folha do 3º ano, ambas com frutas, são de divisão, e nenhuma se parece com a outra. A primeira reparte um total em partes iguais e mostra as figuras em cima com caixas tracejadas vazias embaixo, uma por parte, para distribuir. A segunda diz de que tamanho é cada grupo e pergunta quantos grupos saem: a figura vem numa fila única, sem caixa nenhuma, e a criança circula. Cada quadro tem painel pontilhado, quadradinho de resposta e linha de caligrafia para a frase-resposta.",
+   "p2": "Colocar os dois sentidos da divisão na mesma página é o objetivo, e não uma economia de espaço. A criança que só conhece a partilha lê a segunda historinha e procura caixas; a que só sabe formar grupos lê a primeira e não sabe de que tamanho fazê-los. Ver as duas juntas mostra que a mesma operação responde a duas perguntas diferentes, e que o desenho muda conforme a pergunta. Vale reparar em qual das duas a criança resolve primeiro, porque a escolha diz qual sentido ela já domina. As quantidades ficam dentro de vinte para que a comparação entre as historinhas não seja atrapalhada pelo tamanho do cálculo. Resolver problemas de divisão nos significados de repartição e de medida é o que a BNCC descreve para o 3º ano.",
+   "p3": "Imprima o PDF e, depois de resolvidas as duas, faça a pergunta que fecha a folha: o que essas historinhas têm em comum. Ouvir a criança dizer que as duas dividem, com desenhos diferentes, vale mais do que os dois resultados. As folhas de um sentido só, com caixas ou com fila, preparam esta; a folha mista, com três historinhas, acrescenta a multiplicação ao jogo.",
+   "canonicalDeckSlug": "situacoes-problema-frutas-g3374",
+   "carousel": [
+    {
+     "label": "Problemas de multiplicação com os grupos já desenhados",
+     "href": "problemas-de-multiplicacao-3o-ano"
+    },
+    {
+     "label": "Problemas de divisão por repartição: distribua nas caixas",
+     "href": "problemas-de-divisao-repartir"
+    },
+    {
+     "label": "Problemas de divisão por formação de grupos: circule e conte",
+     "href": "problemas-de-divisao-formar-grupos"
+    },
+    {
+     "label": "Problemas de multiplicar e de formar grupos na mesma folha",
+     "href": "problemas-de-multiplicar-e-agrupar"
+    }
+   ],
+   "title": "Problemas de divisão de dois jeitos – 3º ano PDF grátis",
+   "metaDescription": "Duas historinhas de divisão com desenhos diferentes: uma traz caixas tracejadas para distribuir, a outra uma fila para circular em grupos."
+  },
+  {
+   "slug": "problemas-de-multiplicar-e-agrupar",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "animals",
+    "level": "3o-ano"
+   },
+   "eyebrow": "Multiplicar e agrupar",
+   "h1": "Problemas de multiplicar e de formar grupos na mesma folha",
+   "strand": "Números",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "situacoes-problema",
+    "animais",
+    "3o-ano"
+   ],
+   "p1": "Uma historinha junta e a outra separa, e é esse o par que esta folha do 3º ano põe lado a lado. Na primeira, com animais, a figura já mostra os grupos iguais dentro de molduras e a pergunta é o total. Na segunda, o total já existe, aparece numa fila única sem moldura nenhuma, e a pergunta é quantos grupos daquele tamanho cabem ali. Cada quadro traz painel pontilhado para rascunhar, quadradinho de resposta e linha de caligrafia para a frase-resposta. As quantidades ficam dentro de vinte nas duas historinhas.",
+   "p2": "Multiplicação e divisão são a mesma relação lida em dois sentidos, e esta folha coloca os dois sentidos um embaixo do outro para que a criança veja. Numa, ela conhece o número de grupos e o tamanho deles e procura o total; na outra, conhece o total e o tamanho e procura o número de grupos. O desenho acompanha essa inversão: molduras prontas na primeira, fila solta na segunda. A criança que percebe a ligação começa a usar a multiplicação que sabe para responder à divisão, que é o atalho que o 3º ano precisa construir. A que não percebe trata as duas como assuntos separados, e é isso que a folha revela. Resolver problemas de multiplicação e de divisão pela ideia de grupos iguais é o que a BNCC propõe para o 3º ano.",
+   "p3": "Imprima o PDF e, terminadas as duas, escreva no quadro as duas sentenças matemáticas uma sob a outra e pergunte o que elas têm de parecido; a proximidade dos números costuma surpreender a turma. Se a segunda historinha travar, peça que a criança pense em quantas vezes o grupo cabe no total. A folha só de multiplicação é o aquecimento; a mista, com três historinhas, é o fechamento da série.",
+   "canonicalDeckSlug": "situacoes-problema-animais-g3375",
+   "carousel": [
+    {
+     "label": "Problemas de multiplicação com os grupos já desenhados",
+     "href": "problemas-de-multiplicacao-3o-ano"
+    },
+    {
+     "label": "Problemas de divisão por repartição: distribua nas caixas",
+     "href": "problemas-de-divisao-repartir"
+    },
+    {
+     "label": "Problemas de divisão por formação de grupos: circule e conte",
+     "href": "problemas-de-divisao-formar-grupos"
+    },
+    {
+     "label": "Problemas de divisão: uma historinha reparte, a outra forma grupos",
+     "href": "problemas-de-divisao-de-dois-jeitos"
+    }
+   ],
+   "title": "Problemas de multiplicar e agrupar – 3º ano PDF grátis",
+   "metaDescription": "Duas historinhas opostas: uma junta grupos iguais para achar o total, a outra parte de um total e pergunta quantos grupos se formam ali."
+  },
+  {
+   "slug": "problemas-mistos-de-multiplicacao-e-divisao",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "toys",
+    "level": "3o-ano"
+   },
+   "eyebrow": "Multiplicação e divisão misturadas",
+   "h1": "Três historinhas na mesma folha: multiplicar, repartir e agrupar",
+   "strand": "Números",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "situacoes-problema",
+    "brinquedos",
+    "3o-ano"
+   ],
+   "p1": "Três historinhas, uma de cada tipo, e nenhum aviso de qual é qual: é assim que esta folha do 3º ano fecha a série. Na primeira, com brinquedos, os grupos iguais aparecem dentro de molduras e a pergunta é o total. Na segunda, o total vem em cima e caixas tracejadas vazias embaixo pedem a repartição em partes iguais. Na terceira, a figura vem numa fila única e a pergunta é quantos grupos de certo tamanho cabem ali. Os quadros são mais compactos que os das outras folhas, com figuras menores, mas cada um mantém o painel de rascunho, o quadradinho e a linha da frase-resposta.",
+   "p2": "A tarefa desta página não é calcular: é decidir. Quando todas as historinhas de uma folha pedem a mesma operação, a criança descobre o procedimento no primeiro quadro e repete nos outros sem ler direito. Com três tipos misturados, ela precisa ler cada enunciado até o fim e perguntar o que está sendo procurado, o total, o tamanho de cada parte ou o número de partes. O desenho ajuda, mas não entrega: molduras, caixas e fila são pistas que só significam alguma coisa para quem já viu as folhas anteriores da série. É por isso que esta vem por último. Resolver problemas de multiplicação e de divisão em seus diferentes significados é o que a BNCC descreve para o 3º ano, e é aqui que se vê se a criança os distingue.",
+   "p3": "Imprima o PDF e peça que a criança escreva ao lado de cada quadro, antes de calcular, uma palavra que diga o que a historinha pede; a classificação errada aparece na hora e vale mais que o resultado. Serve bem como fechamento de uma sequência ou como avaliação leve, porque mostra num só olhar o que ficou. As folhas de um tipo só, de multiplicação, de repartição e de formação de grupos, são as que preparam esta.",
+   "canonicalDeckSlug": "situacoes-problema-brinquedos-g3376",
+   "carousel": [
+    {
+     "label": "Problemas de multiplicação com os grupos já desenhados",
+     "href": "problemas-de-multiplicacao-3o-ano"
+    },
+    {
+     "label": "Problemas de divisão por repartição: distribua nas caixas",
+     "href": "problemas-de-divisao-repartir"
+    },
+    {
+     "label": "Problemas de divisão por formação de grupos: circule e conte",
+     "href": "problemas-de-divisao-formar-grupos"
+    },
+    {
+     "label": "Problemas de divisão: uma historinha reparte, a outra forma grupos",
+     "href": "problemas-de-divisao-de-dois-jeitos"
+    }
+   ],
+   "title": "Problemas mistos de multiplicação e divisão – imprimir PDF grátis",
+   "metaDescription": "Três historinhas numa página: uma de multiplicação, uma de partilha e uma de formação de grupos, para a criança decidir o que cada uma pede."
   }
  ]
 }

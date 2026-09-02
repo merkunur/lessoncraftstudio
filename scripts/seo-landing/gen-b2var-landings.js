@@ -102,7 +102,12 @@ for (const r of ROWS) {
   TYPES[id] = { family: t.exerciseType, band: id.split('-')[0], standard: STANDARD[id] };
   if (!(id in STANDARD)) fail('no STANDARD entry for ' + id);
 }
-const ORDER = Object.keys(TYPES);
+// Only the ids this prose file actually carries. 64 faces is too much prose for
+// one panel pass, so a locale is written in two halves and each half composes
+// independently; the merge below is by slug and idempotent, so the halves can
+// land in either order and be re-applied after a copy fix. An id in the file
+// that is not a known face is still an error.
+let ORDER = Object.keys(TYPES);
 
 // the shipped theme comes from the wave — the single source of truth
 const wavePath = path.join(WSG, 'waves', 'wave-b2var-' + locale + '.json');
@@ -115,6 +120,12 @@ const shippedTheme = (id) => {
 
 const prose = JSON.parse(fs.readFileSync(prosePath, 'utf8'));
 if (prose.locale !== locale) fail(`prose.locale ${prose.locale} != ${locale}`);
+
+const present = Object.keys((prose && prose.landings) || {});
+const unknown = present.filter((k) => !TYPES[k]);
+if (unknown.length) fail('unknown face id(s) in the prose file: ' + unknown.join(', '));
+if (!present.length) fail('prose file carries no landings');
+ORDER = ORDER.filter((k) => present.includes(k));
 
 const contentPath = path.join(ROOT, 'frontend', 'content', 'seo-landing', locale + '.json');
 const content = JSON.parse(fs.readFileSync(contentPath, 'utf8'));
@@ -212,7 +223,7 @@ entries.forEach((e) => { delete e._family; });
 
 if (DRY) {
   console.log(JSON.stringify(entries[0], null, 1));
-  console.log(`dry-run ok: ${entries.length} entries for ${locale}; existing corpus ${content.landings.length}`);
+  console.log(`dry-run ok: ${entries.length} of ${Object.keys(TYPES).length} faces for ${locale}; existing corpus ${content.landings.length}`);
   process.exit(0);
 }
 

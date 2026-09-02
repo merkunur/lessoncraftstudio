@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-300',
   slug: 'write-about-the-picture-your-own-words',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Write About the Picture: Your Own Words", instruction: "There are no sentence starters this time. Write your own story about the picture." } },
+  i18n: { en: { title: "Write About the Picture: Your Own Words", instruction: "No sentence starters. Write your own story about the picture." } },
 };

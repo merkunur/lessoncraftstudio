@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-291',
   slug: 'shopping-math-add-up-the-basket',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Shopping Math: Add Up the Basket", instruction: "Every card asks for a total. Add the prices of the things that were bought." } },
+  i18n: { en: { title: "Shopping Math: Add Up the Basket", instruction: "Every card asks for a total. Add the prices together." } },
 };

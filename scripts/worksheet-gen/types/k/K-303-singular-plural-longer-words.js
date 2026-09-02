@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-303',
   slug: 'singular-plural-longer-words',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "One and Many: Longer Words", instruction: "Look at how the word changes when there is more than one. Trace the word for many." } },
+  i18n: { en: { title: "One and Many: Longer Words", instruction: "These words are longer. Trace the word that names many." } },
 };

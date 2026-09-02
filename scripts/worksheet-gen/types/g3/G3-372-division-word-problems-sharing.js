@@ -10,5 +10,5 @@ module.exports = {
   id: 'G3-372',
   slug: 'division-word-problems-sharing',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Division Word Problems: Sharing", instruction: "Each story shares things out equally. Deal them into the boxes, then write the answer." } },
+  i18n: { en: { title: "Division Word Problems: Sharing", instruction: "Each story shares things out. Deal them into the boxes." } },
 };

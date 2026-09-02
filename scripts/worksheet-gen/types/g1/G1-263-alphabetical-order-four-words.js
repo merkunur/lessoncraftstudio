@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-263',
   slug: 'alphabetical-order-four-words',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "ABC Order: Four Words", instruction: "Number the cards in ABC order. Then copy the words onto the lines in that order." } },
+  i18n: { en: { title: "ABC Order: Four Words", instruction: "Number the cards, then copy the words in ABC order." } },
 };

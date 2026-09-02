@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-264',
   slug: 'alphabetical-order-same-first-letter',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "ABC Order: When Two Words Start the Same", instruction: "Some words start with the same letter. Look at the second letter to decide which comes first." } },
+  i18n: { en: { title: "ABC Order: When Two Words Start the Same", instruction: "Two words start alike. Use the second letter to order them." } },
 };

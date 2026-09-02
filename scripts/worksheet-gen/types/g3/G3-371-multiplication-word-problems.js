@@ -10,5 +10,5 @@ module.exports = {
   id: 'G3-371',
   slug: 'multiplication-word-problems',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Multiplication Word Problems", instruction: "Read each story. The picture shows the equal groups. Write the answer in the box." } },
+  i18n: { en: { title: "Multiplication Word Problems", instruction: "The picture shows the equal groups. Write each answer in the box." } },
 };

@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-294',
   slug: 'shopping-math-is-there-enough-money',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Shopping Math: Is There Enough Money?", instruction: "Count the coins, then compare them with the price. Circle yes or no." } },
+  i18n: { en: { title: "Shopping Math: Is There Enough Money?", instruction: "Count the coins and compare with the price. Circle yes or no." } },
 };

@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-290',
   slug: 'word-tracing-trace-and-write-twice',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Trace Once, Write It Twice", instruction: "Look at the word under the picture. Trace it once, then write it twice on your own." } },
+  i18n: { en: { title: "Trace Once, Write It Twice", instruction: "Trace the word once, then write it twice on your own." } },
 };

@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-281',
   slug: 'fix-the-sentence-capital-and-full-stop',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Fix the Sentence: Capital and Full Stop", instruction: "Every sentence is missing something. Rewrite it with a capital letter and a full stop." } },
+  i18n: { en: { title: "Fix the Sentence: Capital and Full Stop", instruction: "Rewrite each sentence with a capital letter and a full stop." } },
 };

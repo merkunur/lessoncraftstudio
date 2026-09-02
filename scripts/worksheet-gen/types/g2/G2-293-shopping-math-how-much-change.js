@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-293',
   slug: 'shopping-math-how-much-change',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Shopping Math: How Much Change?", instruction: "Look at the coins that were handed over. Work out how much change comes back." } },
+  i18n: { en: { title: "Shopping Math: How Much Change?", instruction: "Count the coins paid, then work out the change." } },
 };

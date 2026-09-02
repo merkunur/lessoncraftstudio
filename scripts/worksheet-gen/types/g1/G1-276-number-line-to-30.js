@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-276',
   slug: 'number-line-to-30',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Where on the Number Line? 0 to 30", instruction: "Every tick is one step. Count on from the nearest number to find each arrow." } },
+  i18n: { en: { title: "Where on the Number Line? 0 to 30", instruction: "Count on to 30. Write the number each arrow points to." } },
 };

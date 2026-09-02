@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-280',
   slug: 'number-line-to-100-counting-in-tens',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Number Line to 100: Counting in Tens", instruction: "Each tick is ten. Count on in tens from the nearest number to find each arrow." } },
+  i18n: { en: { title: "Number Line to 100: Counting in Tens", instruction: "Each tick is ten. Count on in tens to reach each arrow." } },
 };

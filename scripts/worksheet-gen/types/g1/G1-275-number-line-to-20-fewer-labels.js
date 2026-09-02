@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-275',
   slug: 'number-line-to-20-fewer-labels',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Number Line to 20: Fewer Labels", instruction: "Only a few numbers are printed. Count on from the nearest one to find each arrow." } },
+  i18n: { en: { title: "Number Line to 20: Fewer Labels", instruction: "Only 0, 10 and 20 are printed. Count on to each arrow." } },
 };

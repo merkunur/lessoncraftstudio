@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-277',
   slug: 'number-line-to-50',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Where on the Number Line? 0 to 50", instruction: "Every tick is one step and every tenth tick is printed. Find the number at each arrow." } },
+  i18n: { en: { title: "Where on the Number Line? 0 to 50", instruction: "Count on to 50. Every tenth number is printed to help you." } },
 };

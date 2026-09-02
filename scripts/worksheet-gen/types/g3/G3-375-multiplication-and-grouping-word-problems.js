@@ -10,5 +10,5 @@ module.exports = {
   id: 'G3-375',
   slug: 'multiplication-and-grouping-word-problems',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Multiply and Group: Word Problems", instruction: "One story builds equal groups. The other breaks a set into groups. Write both answers." } },
+  i18n: { en: { title: "Multiply and Group: Word Problems", instruction: "One story builds groups, the other breaks them up." } },
 };

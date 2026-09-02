@@ -10,5 +10,5 @@ module.exports = {
   id: 'G3-373',
   slug: 'division-word-problems-grouping',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Division Word Problems: Making Groups", instruction: "Each story makes equal groups. Ring the groups in the picture, then write the answer." } },
+  i18n: { en: { title: "Division Word Problems: Making Groups", instruction: "Ring the equal groups in the picture, then write the answer." } },
 };

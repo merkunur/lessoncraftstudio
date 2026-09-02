@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-274',
   slug: 'number-line-to-10',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Where on the Number Line? 0 to 10", instruction: "An arrow points at a tick. Write the number that belongs in the box above it." } },
+  i18n: { en: { title: "Where on the Number Line? 0 to 10", instruction: "Write the number each arrow points to, from 0 to 10." } },
 };

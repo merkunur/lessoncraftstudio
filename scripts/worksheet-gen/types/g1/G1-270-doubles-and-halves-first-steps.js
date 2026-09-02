@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-270',
   slug: 'doubles-and-halves-first-steps',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Doubles and Halves: First Steps", instruction: "Doubling makes two equal groups. Halving splits a group into two equal parts." } },
+  i18n: { en: { title: "Doubles and Halves: First Steps", instruction: "Double the group, then halve it. Small numbers to start." } },
 };

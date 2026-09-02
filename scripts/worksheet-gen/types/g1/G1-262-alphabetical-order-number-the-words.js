@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-262',
   slug: 'alphabetical-order-number-the-words',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "ABC Order: Number the Words", instruction: "Use the alphabet strip at the top. Number the cards to put the words in ABC order." } },
+  i18n: { en: { title: "ABC Order: Number the Words", instruction: "Number the four cards to put the words in ABC order." } },
 };

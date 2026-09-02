@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-256',
   slug: 'number-of-the-day-ten-more-ten-less',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Number of the Day: Ten More, Ten Less", instruction: "Look at the big number. Work out ten more and ten less, and fill in every box." } },
+  i18n: { en: { title: "Number of the Day: Ten More, Ten Less", instruction: "Find ten more and ten less than the number of the day." } },
 };

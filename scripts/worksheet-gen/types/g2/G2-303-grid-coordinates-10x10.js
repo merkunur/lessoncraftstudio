@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-303',
   slug: 'grid-coordinates-10x10',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Grid Coordinates on a 10x10 Grid", instruction: "This grid is bigger and there are more squares to find. Work through the list carefully." } },
+  i18n: { en: { title: "Grid Coordinates on a 10x10 Grid", instruction: "A bigger grid with more squares. Work through the list carefully." } },
 };

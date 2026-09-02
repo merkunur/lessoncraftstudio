@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-283',
   slug: 'unscramble-the-sentence-no-clues',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Unscramble the Sentence: No Clues", instruction: "There are no capitals and no full stop to help. Put the words in the only order that works." } },
+  i18n: { en: { title: "Unscramble the Sentence: No Clues", instruction: "No capital, no full stop. Find the one order that works." } },
 };

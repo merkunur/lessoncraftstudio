@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-300',
   slug: 'grid-copy-8x8',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Copy the Picture on an 8x8 Grid", instruction: "This grid is bigger. Find each colored square by its letter and number, then copy it." } },
+  i18n: { en: { title: "Copy the Picture on an 8x8 Grid", instruction: "A bigger grid: find each square by its letter and number, then copy." } },
 };

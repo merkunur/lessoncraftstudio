@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-298',
   slug: 'read-the-calendar-days-of-the-week',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Read the Calendar: Days of the Week", instruction: "Every question is about the days of the week. Read down the columns to answer them." } },
+  i18n: { en: { title: "Read the Calendar: Days of the Week", instruction: "Every question is about the days. Read down the columns." } },
 };

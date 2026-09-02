@@ -40,7 +40,7 @@
     "G1-281": { "title": "Lukusuora 0–120", "instruction": "Lukusuora jatkuu yli sadan. Laske kymmenittäin nuoleen." },
     "G1-282": { "title": "Järjestä lause: vihjeet mukana", "instruction": "Iso alkukirjain ja piste näyttävät lauseen rajat." },
     "G1-283": { "title": "Järjestä lause ilman vihjeitä", "instruction": "Ei vihjeitä. Etsi ainoa järjestys, joka toimii." },
-    "G2-281": { "title": "Korjaa lause: piste lopussa", "instruction": "Lisää jokaiseen lauseeseen iso alkukirjain ja piste." },
+    "G2-281": { "title": "Korjaa kolme lausetta: välimerkit", "instruction": "Lisää iso alkukirjain ja piste tai kysymysmerkki." },
     "G2-282": { "title": "Korjaa lause: lopetusmerkki", "instruction": "Korjaa alkukirjaimet ja nimet. Valitse lopetusmerkki." },
     "G2-285": { "title": "Sanaluokat: yhdeksän sanaa", "instruction": "Substantiiveissa on kuva apuna. Lajittele yhdeksän sanaa." },
     "G2-286": { "title": "Sanaluokat ilman kuvia", "instruction": "Nyt ilman kuvia. Lue sana ja vie se oikeaan laatikkoon." },

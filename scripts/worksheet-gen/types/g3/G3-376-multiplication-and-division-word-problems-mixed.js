@@ -4,7 +4,7 @@ const base = require('./G3-370-muldiv-word-problems.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[3], ...{"icon":15,"font":15,"dots":26,"slotH":28} };
+const D = { ...base.difficulty[3], ...{"icon":13,"font":14,"dots":20,"slotH":26} };
 module.exports = {
   ...base,
   id: 'G3-376',

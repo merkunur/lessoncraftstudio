@@ -158,8 +158,8 @@
       "instruction": "Nada de maiúscula ou sinal final: ache a ordem."
     },
     "G2-281": {
-      "title": "Maiúscula e ponto no fim",
-      "instruction": "Reescreva as quatro frases com maiúscula e ponto."
+      "title": "Maiúscula e sinal final",
+      "instruction": "Reescreva as três frases: maiúscula e sinal final."
     },
     "G2-282": {
       "title": "Escolha o sinal de pontuação",
@@ -268,7 +268,7 @@
     "G1-271 doubles-and-halves-to-20 — the instruction opens 'There are no pictures this time', but every card carries a dot-grid working panel (render g1271-vehicles.png). 'No pictures' reads to a six-year-old as 'nothing to look at'; the true difference is that there are no COUNTERS to count, so the numbers must be worked from. Suggest 'No counters this time — work each double and half out from the numbers.'",
     "K-289 word-tracing first-words — this is the only word-tracing face with caption:false, so the model word sits ON the writing lane rather than under the picture, and there is exactly ONE empty lane after the trace (K-290/K-291 have two). The instruction says 'write the word on the empty lines', plural, which over-promises the space. Minor, but it is the one face in the family whose lane structure differs.",
     "G1-263 alphabetical-order-four-words — the title 'ABC Order: Four Words' names the card count, which is the one property it does NOT differ on: G1-262 also has cards:4. The real difference is rulings:true vs rulings:false, i.e. G1-263 also copies the words onto lines. Two sibling faces where the title names a shared property and hides the distinguishing one; a searcher cannot tell them apart.",
-    "G2-281 capitals-punctuation capital-and-full-stop — ends:['.'] only, so the page genuinely is full-stop-only, but its legend chip reads the generic 'End mark' while the title says 'Full Stop'. On this face the chip could read 'Full stop' and be exact; leaving it generic makes the title look like it is promising something narrower than the page.",
+    "G2-281 capitals-punctuation — RESOLVED upstream, recorded for the trail: this face used to be ends:[\".\"] with a generic \"End mark\" legend chip, and I cleared \"full stop\" as honest on that basis. It is now lanes:3 / needCaps:0 / ends:[\".\",\"?\"] / needQ:1, so a question is GUARANTEED on every page and the concrete mark is wrong here too. pt now uses the generic \"sinal final\" on all three capitals-punctuation/sentence-building faces (G1-282, G1-283, G2-281). LESSON WORTH KEEPING: an honesty clearance is only valid against the spec at the moment it was checked — re-read loadType() rather than trusting a previous round's verdict, and note the sweep PNG for this face is STALE (it predates the widening).",
     "G3-373 division-word-problems-grouping — the instruction says 'Ring the groups in the picture, then write the answer', but unlike the sharing faces (G3-372, G3-374 card 1) this face draws NO dashed group boxes: the items sit in one plain strip (render g3373-toys.png). The child is being asked to draw the rings freehand, which is fine, but the instruction reads as though the rings are already there to be traced. Worth one word: 'Draw a ring round each group.'",
     "NOT a defect, checked and cleared (recording so the next panel does not re-file them): G3-376 story 2 really does show 30 cranes (3 rows of 10) against six boxes; G1-252 declares colors:8 but correctly renders 6, because colorKeys slices the palette down to the card count; G1-264 really does contain two same-first-letter pairs (pairs:2 is enforced by the generator, so it holds per locale, not only in English)."
   ]

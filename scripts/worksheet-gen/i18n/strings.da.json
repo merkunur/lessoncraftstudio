@@ -1668,8 +1668,8 @@
     "instruction": "Der er hverken stort bogstav eller punktum. Find selv rækkefølgen."
   },
   "G2-281": {
-    "title": "Stort bogstav og punktum: fire sætninger",
-    "instruction": "Skriv de fire sætninger om med stort bogstav og punktum."
+    "title": "Stort bogstav og tegn til sidst",
+    "instruction": "Skriv de tre sætninger om, og vælg punktum eller spørgsmålstegn."
   },
   "G2-282": {
     "title": "Stort bogstav, navne og tegn til sidst",

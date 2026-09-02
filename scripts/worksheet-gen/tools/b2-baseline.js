@@ -29,12 +29,20 @@ const TYPES = [
   'G2-251','G2-252','G2-253','G2-254','G3-357','G3-358',
   // nt20-VAR faces on shared surfaces
   'K-259','K-265','K-266','K-267','K-269','K-277','G1-227','G1-232','G1-238','G1-241','G2-268','G2-269','G3-369',
+  // nt20-B base 20 (2026-09-02) - LIVE; this batch edits shared b2 surfaces
+  'K-284','K-285','K-286','K-287','K-288',
+  'G1-242','G1-243','G1-244','G1-245','G1-246','G1-247','G1-248','G1-249',
+  'G2-274','G2-275','G2-276','G2-277','G2-278','G2-279','G3-370',
   // lowercase family
   'K-278','K-283',
   // legacy consumers of components/lanes/color-words/coins/number-line
   'K-004','K-014','G1-118','G1-120','G1-129','G2-235','G3-317','K-042','K-225','K-231',
 ];
 const THEMES = ['animals', 'fruits'];
+// bwOnly specs (G1-242 read-and-color) refuse colour themes: colour art cannot be
+// coloured in. Give them BW themes so they are genuinely hashed rather than
+// recorded as a stable ERR, which would hide drift in the live deck.
+const BW_THEMES = ['animals bw', 'fruits bw'];
 const LOCALES = ['en', 'de', 'fi'];
 const DIFFS = [1, 2, 3];
 
@@ -42,7 +50,8 @@ async function computeAll() {
   const res = {};
   for (const id of TYPES) {
     const type = loadType(id);
-    const themes = type.themeAxis && type.themeAxis.applicable ? THEMES : [null];
+    const ax = type.themeAxis || {};
+    const themes = ax.applicable ? (ax.bwOnly ? BW_THEMES : THEMES) : [null];
     for (const theme of themes) for (const difficulty of DIFFS) for (const locale of LOCALES) {
       const key = `${id}|${theme || 'nothm'}|d${difficulty}|${locale}`;
       try {

@@ -222,6 +222,86 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "lowercase-vowel-tracing",
         "first-small-letters-tracing"
       ]
+    },
+    {
+      "base": "trace-and-write-words-kindergarten",
+      "variations": []
+    },
+    {
+      "base": "dot-to-dot-1-20",
+      "variations": []
+    },
+    {
+      "base": "copy-the-grid-picture",
+      "variations": []
+    },
+    {
+      "base": "singular-and-plural-kindergarten",
+      "variations": []
+    },
+    {
+      "base": "a-or-an-worksheet",
+      "variations": []
+    },
+    {
+      "base": "read-and-color-1st-grade",
+      "variations": []
+    },
+    {
+      "base": "number-of-the-day-1st-grade",
+      "variations": []
+    },
+    {
+      "base": "write-the-word-picture-spelling",
+      "variations": []
+    },
+    {
+      "base": "abc-order-1st-grade",
+      "variations": []
+    },
+    {
+      "base": "number-walls-addition-pyramids",
+      "variations": []
+    },
+    {
+      "base": "doubles-and-halves-1st-grade",
+      "variations": []
+    },
+    {
+      "base": "missing-numbers-on-a-number-line",
+      "variations": []
+    },
+    {
+      "base": "unscramble-the-sentence-1st-grade",
+      "variations": []
+    },
+    {
+      "base": "capital-letters-and-punctuation-fix-the-sentence",
+      "variations": []
+    },
+    {
+      "base": "nouns-verbs-adjectives-sort",
+      "variations": []
+    },
+    {
+      "base": "shopping-math-money-word-problems",
+      "variations": []
+    },
+    {
+      "base": "reading-a-calendar-2nd-grade",
+      "variations": []
+    },
+    {
+      "base": "picture-writing-prompt-2nd-grade",
+      "variations": []
+    },
+    {
+      "base": "grid-coordinates-color-the-squares",
+      "variations": []
+    },
+    {
+      "base": "multiplication-and-division-word-problems-3rd-grade",
+      "variations": []
     }
   ],
   "de": [
@@ -433,6 +513,86 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "umlaute-und-ss-nachspuren",
         "erste-kleinbuchstaben"
       ]
+    },
+    {
+      "base": "woerter-nachspuren-tiere-vorschule",
+      "variations": []
+    },
+    {
+      "base": "von-punkt-zu-punkt-bis-20",
+      "variations": []
+    },
+    {
+      "base": "gitterbilder-abzeichnen-vorschule",
+      "variations": []
+    },
+    {
+      "base": "einzahl-mehrzahl-fruechte-vorschule",
+      "variations": []
+    },
+    {
+      "base": "der-die-das-tiere-vorschule",
+      "variations": []
+    },
+    {
+      "base": "lese-mal-blatt-fruechte-1-klasse",
+      "variations": []
+    },
+    {
+      "base": "zahl-des-tages-1-klasse",
+      "variations": []
+    },
+    {
+      "base": "bilder-beschriften-fruechte-1-klasse",
+      "variations": []
+    },
+    {
+      "base": "alphabetisch-ordnen-tiere-1-klasse",
+      "variations": []
+    },
+    {
+      "base": "zahlenmauern-bis-20-1-klasse",
+      "variations": []
+    },
+    {
+      "base": "verdoppeln-und-halbieren-1-klasse",
+      "variations": []
+    },
+    {
+      "base": "zahlenstrahl-ablesen-bis-20",
+      "variations": []
+    },
+    {
+      "base": "schuettelsaetze-tiere-1-klasse",
+      "variations": []
+    },
+    {
+      "base": "satzanfang-und-satzzeichen-2-klasse",
+      "variations": []
+    },
+    {
+      "base": "wortarten-nomen-verben-adjektive-2-klasse",
+      "variations": []
+    },
+    {
+      "base": "einkaufen-und-bezahlen-2-klasse",
+      "variations": []
+    },
+    {
+      "base": "kalender-lesen-2-klasse",
+      "variations": []
+    },
+    {
+      "base": "schreiben-zum-bild-fahrzeuge-2-klasse",
+      "variations": []
+    },
+    {
+      "base": "koordinaten-im-gitter-2-klasse",
+      "variations": []
+    },
+    {
+      "base": "sachaufgaben-malnehmen-und-teilen-3-klasse",
+      "variations": []
     }
   ],
   "es": [
@@ -644,6 +804,86 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "letra-n-minuscula-punteada",
         "primeras-minusculas-punteadas"
       ]
+    },
+    {
+      "base": "repasar-y-escribir-palabras-preescolar",
+      "variations": []
+    },
+    {
+      "base": "unir-los-puntos-del-1-al-20-preescolar",
+      "variations": []
+    },
+    {
+      "base": "copiar-en-la-cuadricula-preescolar",
+      "variations": []
+    },
+    {
+      "base": "singular-y-plural-preescolar",
+      "variations": []
+    },
+    {
+      "base": "el-o-la-articulos-preescolar",
+      "variations": []
+    },
+    {
+      "base": "lee-y-colorea-primer-grado",
+      "variations": []
+    },
+    {
+      "base": "el-numero-del-dia-primer-grado",
+      "variations": []
+    },
+    {
+      "base": "dictado-mudo-escribe-la-palabra-primer-grado",
+      "variations": []
+    },
+    {
+      "base": "orden-alfabetico-primer-grado",
+      "variations": []
+    },
+    {
+      "base": "piramides-numericas-primer-grado",
+      "variations": []
+    },
+    {
+      "base": "dobles-y-mitades-primer-grado",
+      "variations": []
+    },
+    {
+      "base": "recta-numerica-primer-grado",
+      "variations": []
+    },
+    {
+      "base": "ordena-la-frase-primer-grado",
+      "variations": []
+    },
+    {
+      "base": "mayusculas-y-puntuacion-segundo-grado",
+      "variations": []
+    },
+    {
+      "base": "sustantivo-verbo-adjetivo-segundo-grado",
+      "variations": []
+    },
+    {
+      "base": "problemas-con-dinero-segundo-grado",
+      "variations": []
+    },
+    {
+      "base": "lee-el-calendario-segundo-grado",
+      "variations": []
+    },
+    {
+      "base": "escribe-sobre-la-imagen-segundo-grado",
+      "variations": []
+    },
+    {
+      "base": "coordenadas-en-la-cuadricula-segundo-grado",
+      "variations": []
+    },
+    {
+      "base": "problemas-de-multiplicacion-y-division-tercer-grado",
+      "variations": []
     }
   ],
   "fr": [
@@ -855,6 +1095,86 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "ecriture-des-minuscules-accentuees",
         "premieres-minuscules"
       ]
+    },
+    {
+      "base": "repasser-et-ecrire-les-mots-animaux",
+      "variations": []
+    },
+    {
+      "base": "points-a-relier-1-a-20-maternelle",
+      "variations": []
+    },
+    {
+      "base": "reproduction-sur-quadrillage-maternelle",
+      "variations": []
+    },
+    {
+      "base": "singulier-et-pluriel-maternelle-fruits",
+      "variations": []
+    },
+    {
+      "base": "le-ou-la-entoure-l-article-animaux",
+      "variations": []
+    },
+    {
+      "base": "lis-et-colorie-cp-fruits",
+      "variations": []
+    },
+    {
+      "base": "le-nombre-du-jour-cp",
+      "variations": []
+    },
+    {
+      "base": "dictee-muette-cp-fruits",
+      "variations": []
+    },
+    {
+      "base": "ordre-alphabetique-cp-animaux",
+      "variations": []
+    },
+    {
+      "base": "pyramides-de-nombres-cp",
+      "variations": []
+    },
+    {
+      "base": "doubles-et-moities-cp-fruits",
+      "variations": []
+    },
+    {
+      "base": "droite-graduee-quel-nombre-cp",
+      "variations": []
+    },
+    {
+      "base": "phrases-melangees-cp-animaux",
+      "variations": []
+    },
+    {
+      "base": "majuscules-et-ponctuation-ce1-vehicules",
+      "variations": []
+    },
+    {
+      "base": "nature-des-mots-nom-verbe-adjectif-ce1",
+      "variations": []
+    },
+    {
+      "base": "problemes-de-monnaie-la-marchande-ce1",
+      "variations": []
+    },
+    {
+      "base": "lire-le-calendrier-ce1",
+      "variations": []
+    },
+    {
+      "base": "production-d-ecrit-a-partir-d-une-image-ce1",
+      "variations": []
+    },
+    {
+      "base": "pixel-art-reperage-sur-quadrillage-ce1",
+      "variations": []
+    },
+    {
+      "base": "problemes-de-multiplication-et-division-ce2",
+      "variations": []
     }
   ],
   "pt": [
@@ -1066,6 +1386,86 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "minusculas-k-w-y-pontilhadas",
         "primeiras-minusculas-pontilhadas"
       ]
+    },
+    {
+      "base": "palavras-pontilhadas-animais-educacao-infantil",
+      "variations": []
+    },
+    {
+      "base": "ligue-os-pontos-1-a-20-educacao-infantil",
+      "variations": []
+    },
+    {
+      "base": "copie-o-desenho-na-malha-quadriculada",
+      "variations": []
+    },
+    {
+      "base": "singular-e-plural-frutas-educacao-infantil",
+      "variations": []
+    },
+    {
+      "base": "o-ou-a-artigo-animais-educacao-infantil",
+      "variations": []
+    },
+    {
+      "base": "leia-e-pinte-frutas-1o-ano",
+      "variations": []
+    },
+    {
+      "base": "numero-do-dia-1o-ano",
+      "variations": []
+    },
+    {
+      "base": "escreva-o-nome-das-figuras-frutas-1o-ano",
+      "variations": []
+    },
+    {
+      "base": "ordem-alfabetica-animais-1o-ano",
+      "variations": []
+    },
+    {
+      "base": "piramide-de-numeros-1o-ano",
+      "variations": []
+    },
+    {
+      "base": "dobro-e-metade-frutas-1o-ano",
+      "variations": []
+    },
+    {
+      "base": "reta-numerica-ate-20-1o-ano",
+      "variations": []
+    },
+    {
+      "base": "ordene-a-frase-animais-1o-ano",
+      "variations": []
+    },
+    {
+      "base": "letra-maiuscula-e-pontuacao-2o-ano",
+      "variations": []
+    },
+    {
+      "base": "substantivo-verbo-adjetivo-brinquedos-2o-ano",
+      "variations": []
+    },
+    {
+      "base": "problemas-com-dinheiro-vamos-as-compras-2o-ano",
+      "variations": []
+    },
+    {
+      "base": "leitura-de-calendario-2o-ano",
+      "variations": []
+    },
+    {
+      "base": "producao-de-texto-com-imagem-veiculos-2o-ano",
+      "variations": []
+    },
+    {
+      "base": "coordenadas-na-malha-quadriculada-2o-ano",
+      "variations": []
+    },
+    {
+      "base": "problemas-de-multiplicacao-e-divisao-3o-ano",
+      "variations": []
     }
   ],
   "it": [
@@ -1277,6 +1677,86 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "vocali-minuscole-tratteggiate",
         "prime-minuscole-tratteggiate"
       ]
+    },
+    {
+      "base": "ricalca-e-scrivi-le-parole-animali",
+      "variations": []
+    },
+    {
+      "base": "unisci-i-puntini-1-20",
+      "variations": []
+    },
+    {
+      "base": "riproduci-il-disegno-sui-quadretti",
+      "variations": []
+    },
+    {
+      "base": "singolare-e-plurale-frutta",
+      "variations": []
+    },
+    {
+      "base": "il-o-la-articoli-determinativi",
+      "variations": []
+    },
+    {
+      "base": "leggi-e-colora-frutta",
+      "variations": []
+    },
+    {
+      "base": "il-numero-del-giorno-classe-prima",
+      "variations": []
+    },
+    {
+      "base": "dettato-muto-frutta",
+      "variations": []
+    },
+    {
+      "base": "ordine-alfabetico-animali",
+      "variations": []
+    },
+    {
+      "base": "piramidi-di-numeri-fino-a-20",
+      "variations": []
+    },
+    {
+      "base": "doppio-e-meta-classe-prima",
+      "variations": []
+    },
+    {
+      "base": "linea-dei-numeri-fino-a-20",
+      "variations": []
+    },
+    {
+      "base": "riordina-la-frase-animali",
+      "variations": []
+    },
+    {
+      "base": "maiuscole-e-punteggiatura-classe-seconda",
+      "variations": []
+    },
+    {
+      "base": "nome-verbo-aggettivo-classe-seconda",
+      "variations": []
+    },
+    {
+      "base": "problemi-con-i-soldi-la-spesa",
+      "variations": []
+    },
+    {
+      "base": "leggere-il-calendario-classe-seconda",
+      "variations": []
+    },
+    {
+      "base": "scrivi-guardando-l-immagine-veicoli",
+      "variations": []
+    },
+    {
+      "base": "coordinate-sulla-griglia-pixel-art",
+      "variations": []
+    },
+    {
+      "base": "problemi-di-moltiplicazione-e-divisione-classe-terza",
+      "variations": []
     }
   ],
   "nl": [
@@ -1488,6 +1968,86 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "kleine-ij-overtrekken",
         "eerste-kleine-letters"
       ]
+    },
+    {
+      "base": "woorden-overtrekken-dieren-kleuters",
+      "variations": []
+    },
+    {
+      "base": "van-stip-naar-stip-1-tot-20",
+      "variations": []
+    },
+    {
+      "base": "natekenen-op-ruitjes-kleuters",
+      "variations": []
+    },
+    {
+      "base": "enkelvoud-en-meervoud-fruit",
+      "variations": []
+    },
+    {
+      "base": "de-of-het-dieren-kleuters",
+      "variations": []
+    },
+    {
+      "base": "lees-en-kleur-fruit-groep-3",
+      "variations": []
+    },
+    {
+      "base": "getal-van-de-dag-groep-3",
+      "variations": []
+    },
+    {
+      "base": "schrijf-het-woord-bij-het-plaatje-fruit",
+      "variations": []
+    },
+    {
+      "base": "alfabetische-volgorde-dieren-groep-3",
+      "variations": []
+    },
+    {
+      "base": "rekenpiramide-tot-20-groep-3",
+      "variations": []
+    },
+    {
+      "base": "verdubbelen-en-halveren-groep-3",
+      "variations": []
+    },
+    {
+      "base": "getallenlijn-tot-20-groep-3",
+      "variations": []
+    },
+    {
+      "base": "husselzinnen-dieren-groep-3",
+      "variations": []
+    },
+    {
+      "base": "hoofdletters-en-leestekens-groep-4",
+      "variations": []
+    },
+    {
+      "base": "woordsoorten-groep-4-speelgoed",
+      "variations": []
+    },
+    {
+      "base": "rekenen-met-geld-boodschappen-groep-4",
+      "variations": []
+    },
+    {
+      "base": "kalender-lezen-groep-4",
+      "variations": []
+    },
+    {
+      "base": "schrijven-bij-een-plaatje-voertuigen",
+      "variations": []
+    },
+    {
+      "base": "coordinaten-in-het-rooster-groep-4",
+      "variations": []
+    },
+    {
+      "base": "verhaaltjessommen-vermenigvuldigen-en-delen",
+      "variations": []
     }
   ],
   "sv": [
@@ -1699,6 +2259,86 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "spara-a-ring-a-prickar-o",
         "mina-forsta-sma-bokstaver"
       ]
+    },
+    {
+      "base": "spara-och-skriv-ord-djur",
+      "variations": []
+    },
+    {
+      "base": "prick-till-prick-1-20",
+      "variations": []
+    },
+    {
+      "base": "rita-av-i-rutnatet",
+      "variations": []
+    },
+    {
+      "base": "singular-och-plural-frukter",
+      "variations": []
+    },
+    {
+      "base": "en-eller-ett-frukter",
+      "variations": []
+    },
+    {
+      "base": "las-och-mala-frukter",
+      "variations": []
+    },
+    {
+      "base": "dagens-tal-ak-1",
+      "variations": []
+    },
+    {
+      "base": "skriv-ordet-till-bilden-frukter",
+      "variations": []
+    },
+    {
+      "base": "alfabetisk-ordning-djur",
+      "variations": []
+    },
+    {
+      "base": "talpyramider-till-20",
+      "variations": []
+    },
+    {
+      "base": "dubbelt-och-halften-frukter",
+      "variations": []
+    },
+    {
+      "base": "las-av-tallinjen-0-20",
+      "variations": []
+    },
+    {
+      "base": "ordna-orden-till-en-mening-djur",
+      "variations": []
+    },
+    {
+      "base": "stor-bokstav-och-skiljetecken-fordon",
+      "variations": []
+    },
+    {
+      "base": "ordklasser-substantiv-verb-adjektiv",
+      "variations": []
+    },
+    {
+      "base": "rakna-med-pengar-kronor-frukter",
+      "variations": []
+    },
+    {
+      "base": "las-kalendern-ak-2",
+      "variations": []
+    },
+    {
+      "base": "skriv-till-bilden-fordon",
+      "variations": []
+    },
+    {
+      "base": "koordinater-i-rutnat-mala-rutorna",
+      "variations": []
+    },
+    {
+      "base": "raknehandelser-multiplikation-och-division",
+      "variations": []
     }
   ],
   "da": [
@@ -1910,6 +2550,86 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "sma-bogstaver-ae-oe-aa",
         "mine-forste-sma-bogstaver"
       ]
+    },
+    {
+      "base": "skriv-ordene-efter-boernehaveklasse",
+      "variations": []
+    },
+    {
+      "base": "prik-til-prik-1-20",
+      "variations": []
+    },
+    {
+      "base": "tegn-efter-i-kvadratnet",
+      "variations": []
+    },
+    {
+      "base": "ental-og-flertal-boernehaveklasse",
+      "variations": []
+    },
+    {
+      "base": "en-eller-et-boernehaveklasse",
+      "variations": []
+    },
+    {
+      "base": "laes-og-farvelaeg-1-klasse",
+      "variations": []
+    },
+    {
+      "base": "dagens-tal-1-klasse",
+      "variations": []
+    },
+    {
+      "base": "skriv-ordet-til-billedet-1-klasse",
+      "variations": []
+    },
+    {
+      "base": "alfabetisk-raekkefoelge-1-klasse",
+      "variations": []
+    },
+    {
+      "base": "talpyramider-1-klasse",
+      "variations": []
+    },
+    {
+      "base": "det-dobbelte-og-det-halve-1-klasse",
+      "variations": []
+    },
+    {
+      "base": "tallinjen-0-20-1-klasse",
+      "variations": []
+    },
+    {
+      "base": "saet-ordene-i-raekkefoelge-1-klasse",
+      "variations": []
+    },
+    {
+      "base": "stort-bogstav-og-punktum-2-klasse",
+      "variations": []
+    },
+    {
+      "base": "ordklasser-navneord-udsagnsord-tillaegsord",
+      "variations": []
+    },
+    {
+      "base": "koebmandsregning-2-klasse",
+      "variations": []
+    },
+    {
+      "base": "laes-kalenderen-2-klasse",
+      "variations": []
+    },
+    {
+      "base": "skriv-til-billedet-2-klasse",
+      "variations": []
+    },
+    {
+      "base": "koordinater-i-kvadratnet-2-klasse",
+      "variations": []
+    },
+    {
+      "base": "regnehistorier-gange-og-division-3-klasse",
+      "variations": []
     }
   ],
   "no": [
@@ -2121,6 +2841,86 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "sma-bokstaver-ae-oe-aa",
         "mine-forste-sma-bokstaver"
       ]
+    },
+    {
+      "base": "spor-og-skriv-ordene-dyr",
+      "variations": []
+    },
+    {
+      "base": "prikk-til-prikk-1-20",
+      "variations": []
+    },
+    {
+      "base": "tegn-etter-i-rutenett",
+      "variations": []
+    },
+    {
+      "base": "entall-og-flertall-frukt",
+      "variations": []
+    },
+    {
+      "base": "en-eller-et-frukt",
+      "variations": []
+    },
+    {
+      "base": "les-og-fargelegg-frukt",
+      "variations": []
+    },
+    {
+      "base": "dagens-tall-2-trinn",
+      "variations": []
+    },
+    {
+      "base": "skriv-ordet-til-bildet-frukt",
+      "variations": []
+    },
+    {
+      "base": "alfabetisk-rekkefolge-dyr",
+      "variations": []
+    },
+    {
+      "base": "tallpyramider-2-trinn",
+      "variations": []
+    },
+    {
+      "base": "det-dobbelte-og-halvparten",
+      "variations": []
+    },
+    {
+      "base": "les-av-tallinjen-0-20",
+      "variations": []
+    },
+    {
+      "base": "sett-ordene-i-riktig-rekkefolge",
+      "variations": []
+    },
+    {
+      "base": "stor-bokstav-og-punktum",
+      "variations": []
+    },
+    {
+      "base": "substantiv-verb-og-adjektiv",
+      "variations": []
+    },
+    {
+      "base": "regne-med-penger-3-trinn",
+      "variations": []
+    },
+    {
+      "base": "les-kalenderen",
+      "variations": []
+    },
+    {
+      "base": "skriv-til-bildet-kjoretoy",
+      "variations": []
+    },
+    {
+      "base": "koordinater-i-rutenett",
+      "variations": []
+    },
+    {
+      "base": "regnefortellinger-gange-og-dele",
+      "variations": []
     }
   ],
   "fi": [
@@ -2332,6 +3132,86 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "pienet-aakkoset-a-o",
         "ensimmaiset-pienet-kirjaimet"
       ]
+    },
+    {
+      "base": "sanojen-jaljentaminen-esikoulu",
+      "variations": []
+    },
+    {
+      "base": "yhdista-pisteet-1-20",
+      "variations": []
+    },
+    {
+      "base": "piirra-mallin-mukaan-ruudukkoon",
+      "variations": []
+    },
+    {
+      "base": "yksikko-ja-monikko-esikoulu",
+      "variations": []
+    },
+    {
+      "base": "yksi-vai-monta",
+      "variations": []
+    },
+    {
+      "base": "lue-ja-varita-1-luokka",
+      "variations": []
+    },
+    {
+      "base": "paivan-luku-1-luokka",
+      "variations": []
+    },
+    {
+      "base": "kirjoita-kuvan-sana",
+      "variations": []
+    },
+    {
+      "base": "aakkosjarjestys-1-luokka",
+      "variations": []
+    },
+    {
+      "base": "lukupyramidi-20-asti",
+      "variations": []
+    },
+    {
+      "base": "tuplaa-ja-puolita",
+      "variations": []
+    },
+    {
+      "base": "lukusuora-0-20-mika-luku",
+      "variations": []
+    },
+    {
+      "base": "jarjesta-sanat-lauseeksi",
+      "variations": []
+    },
+    {
+      "base": "iso-alkukirjain-ja-piste",
+      "variations": []
+    },
+    {
+      "base": "substantiivi-verbi-vai-adjektiivi",
+      "variations": []
+    },
+    {
+      "base": "rahalaskut-kaupassa",
+      "variations": []
+    },
+    {
+      "base": "kalenterin-lukeminen",
+      "variations": []
+    },
+    {
+      "base": "kirjoita-kuvasta-ajoneuvot",
+      "variations": []
+    },
+    {
+      "base": "koordinaatit-ruudukossa",
+      "variations": []
+    },
+    {
+      "base": "sanalliset-kerto-ja-jakolaskut",
+      "variations": []
     }
   ]
 };

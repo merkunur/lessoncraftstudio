@@ -1,0 +1,43 @@
+{
+  "id": "wave-b2-no",
+  "seedEpoch": 1,
+  "locales": [
+    "no"
+  ],
+  "themes": [
+    "fruits",
+    "vehicles",
+    "toys",
+    "animals",
+    "animals bw",
+    "fruits bw",
+    "farm animals bw",
+    "toys bw"
+  ],
+  "themesPerType": 1,
+  "difficulties": [
+    2
+  ],
+  "types": [
+    "K-284",
+    "K-285",
+    "K-286",
+    "K-287",
+    "K-288",
+    "G1-242",
+    "G1-243",
+    "G1-244",
+    "G1-245",
+    "G1-246",
+    "G1-247",
+    "G1-248",
+    "G1-249",
+    "G2-274",
+    "G2-275",
+    "G2-276",
+    "G2-277",
+    "G2-278",
+    "G2-279",
+    "G3-370"
+  ]
+}

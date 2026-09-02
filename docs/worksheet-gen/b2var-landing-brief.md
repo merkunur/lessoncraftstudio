@@ -64,9 +64,30 @@ Exactly the ids you are assigned, nothing else. Nine string fields each, no extr
   distinguishing element and own that query instead — a number range, a scaffold level, a
   sub-skill, a grade. Never write a variation whose title is just the family head; that is the
   base's query and duplicating it is the one fatal case.
-- **No two siblings may open the same way.** These pages sit next to each other in one family; if
-  three of them begin "This worksheet helps children…" they compete with each other and with the
-  base. Vary the opening, the structure and the emphasis.
+- **No two siblings may open the same way — and the BASE is the nearest sibling of all.** These
+  pages sit next to each other in one family; if three of them begin "This worksheet helps
+  children…" they compete with each other and with the base. Vary the opening, the structure and
+  the emphasis. ⚠ The Swedish panel found twelve of its own openings mirroring their own family
+  base almost word for word, because the rule as first written named only siblings — read the base
+  landing and open somewhere else. Target: 3-gram Jaccard under ~0.10 sibling-to-sibling and under
+  ~0.25 against your base.
+
+- **⚠ THE SWEEP IS ONE DRAW FROM A POOL, AND ENGLISH'S DRAW AT THAT.** Two things follow.
+  (1) Anything locale-shaped in the picture is a claim about the WRONG page: the English calendar
+  sweep starts the week on Sunday while `calendar-frames.js` sets `weekStart: 1` for the European
+  locales, and the English money sweep shows two 25-cent coins while `CURRENCIES.fr` and
+  `CURRENCIES.it` make the multi-coin path unreachable — those sheets print exactly one coin.
+  Read the generator for YOUR locale, never the English picture.
+  (2) A range-shaped claim must be checked against the pool that generates it, not the instance.
+  An Italian panel filed a defect against "up to four colours" from a two-colour render; the
+  figure pool at that size genuinely reaches four, and the copy was right.
+
+- **The family BASE landing is frequently wrong about its own variations, and you are the only
+  reader who will notice.** Panels on this batch have found a base describing a left/right card
+  layout that does not exist, a base claiming the hardest level drops its answer line when all
+  three levels print one, and three bases describing panels their variation does not have. If you
+  find one, say so in your reply with the source line that refutes it — do not silently repeat it,
+  and do not quietly fix a page outside your ids.
 - Write for the **teacher deciding whether to print it**: what is on the page, what the child
   does, what it teaches, when you would use it. p3 is the place for the practical note — how it
   prints, how it differs from its siblings, what to do next.

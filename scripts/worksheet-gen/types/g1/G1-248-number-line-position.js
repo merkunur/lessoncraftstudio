@@ -20,7 +20,7 @@ module.exports = {
   difficulty: {
     1: { lines: 3, max: 10, tick: 1, label: 5, pointers: 2, gap: 2 },
     2: { lines: 4, max: 20, tick: 1, label: 5, pointers: 3, gap: 3 },
-    3: { lines: 4, max: 100, tick: 5, label: 2, pointers: 3, gap: 3 },
+    3: { lines: 4, max: 100, tick: 5, label: 2, pointers: 2, gap: 3 },
   },
   i18n: {
     en: {
@@ -39,7 +39,8 @@ module.exports = {
       for (let v = 0; v <= d.max; v += d.tick) if ((v / d.tick) % d.label !== 0 && v !== 0 && v !== d.max) ticks.push(v);
       let picks = null, guard = 0;
       while (!picks && guard++ < 200) {
-        const cand = rng.sample(ticks.filter((v) => !usedPage.has(v)), d.pointers).sort((a, b) => a - b);
+        const fresh = ticks.filter((v) => !usedPage.has(v));
+        const cand = rng.sample(fresh.length >= d.pointers * 2 ? fresh : ticks, d.pointers).sort((a, b) => a - b);
         if (cand.length < d.pointers) break;
         if (cand.some((v, k) => k && (v - cand[k - 1]) / d.tick < d.gap)) continue;
         picks = cand;

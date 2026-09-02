@@ -25,26 +25,26 @@ const TAX = require(path.join(ROOT, 'frontend', 'config', 'topics-taxonomy.json'
 
 // id → { family, theme (cache key|null), band, standard (EN CCSS or null=readiness) }
 const TYPES = {
-  'K-284': { family: 'word-tracing', theme: 'fruits', band: 'K', standard: 'L.K.1.a' },
+  'K-284': { family: 'word-tracing', theme: 'animals', band: 'K', standard: 'L.K.1.a' },
   'K-285': { family: 'dot-to-dot', theme: null, band: 'K', standard: 'K.CC.A.1' },
   'K-286': { family: 'grid-copy', theme: null, band: 'K', standard: null },
-  'K-287': { family: 'singular-plural', theme: 'animals', band: 'K', standard: 'L.K.1.c' },
-  'K-288': { family: 'articles', theme: 'fruits', band: 'K', standard: null }, // per-locale grammar; no CCSS code (pedagogue ruling)
+  'K-287': { family: 'singular-plural', theme: 'fruits', band: 'K', standard: 'L.K.1.c' },
+  'K-288': { family: 'articles', theme: 'animals', band: 'K', standard: null }, // per-locale grammar; no CCSS code (pedagogue ruling)
   'G1-242': { family: 'read-and-color', theme: 'fruits_bw', band: 'G1', standard: 'RF.1.4' },
   'G1-243': { family: 'number-of-the-day', theme: null, band: 'G1', standard: '1.NBT.B.2' },
-  'G1-244': { family: 'write-the-word', theme: 'animals', band: 'G1', standard: 'L.1.2.d' },
-  'G1-245': { family: 'alphabetical-order', theme: 'fruits', band: 'G1', standard: null }, // L.2.2.e is a grade-2 code — readiness at G1
+  'G1-244': { family: 'write-the-word', theme: 'fruits', band: 'G1', standard: 'L.1.2.d' },
+  'G1-245': { family: 'alphabetical-order', theme: 'animals', band: 'G1', standard: null }, // L.2.2.e is a grade-2 code — readiness at G1
   'G1-246': { family: 'number-walls', theme: null, band: 'G1', standard: '1.OA.C.6' },
-  'G1-247': { family: 'doubles-halves', theme: 'toys', band: 'G1', standard: '1.OA.C.6' },
+  'G1-247': { family: 'doubles-halves', theme: 'fruits', band: 'G1', standard: '1.OA.C.6' },
   'G1-248': { family: 'number-lines', theme: null, band: 'G1', standard: '1.NBT.A.1' },
-  'G1-249': { family: 'sentence-building', theme: 'fruits', band: 'G1', standard: 'L.1.1.j' },
+  'G1-249': { family: 'sentence-building', theme: 'animals', band: 'G1', standard: 'L.1.1.j' },
   'G2-274': { family: 'capitals-punctuation', theme: 'vehicles', band: 'G2', standard: 'L.1.2.b' },
   'G2-275': { family: 'word-classes', theme: 'toys', band: 'G2', standard: 'L.2.1.e' },
-  'G2-276': { family: 'money', theme: 'animals', band: 'G2', standard: '2.MD.C.8' },
+  'G2-276': { family: 'money', theme: 'fruits', band: 'G2', standard: '2.MD.C.8' },
   'G2-277': { family: 'calendar', theme: null, band: 'G2', standard: null },
   'G2-278': { family: 'picture-writing', theme: 'vehicles', band: 'G2', standard: 'W.2.3' },
   'G2-279': { family: 'grid-coordinates', theme: null, band: 'G2', standard: null },
-  'G3-370': { family: 'word-problems', theme: 'animals', band: 'G3', standard: '3.OA.A.3' },
+  'G3-370': { family: 'word-problems', theme: 'fruits', band: 'G3', standard: '3.OA.A.3' },
 };
 
 // per-locale coordinate.level keys (must match the locale corpus' existing keys)

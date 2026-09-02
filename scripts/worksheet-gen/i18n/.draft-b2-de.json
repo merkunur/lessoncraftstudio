@@ -1,0 +1,240 @@
+{
+  "locale": "de",
+  "types": {
+    "K-284": {"title": "Wörter nachspuren", "instruction": "Sprich das Bildwort laut. Spure die gestrichelten Buchstaben nach und schreibe das Wort dann selbst auf die leeren Linien."},
+    "K-285": {"title": "Von Punkt zu Punkt", "instruction": "Beginne am orangen Punkt. Verbinde die Punkte der Reihe nach, bis das versteckte Bild erscheint."},
+    "K-286": {"title": "Gitterbilder abzeichnen", "instruction": "Schau dir das Bild links genau an. Male im leeren Gitter dieselben Kästchen an, damit das Bild noch einmal entsteht."},
+    "K-287": {"title": "Einzahl und Mehrzahl", "instruction": "Lies das Wort für eins. Spure dann das Wort für viele nach und schreibe es selbst auf die leere Linie."},
+    "K-288": {"title": "Der, die oder das?", "instruction": "Sprich das Bildwort laut. Kreise den Artikel ein, der davor passt: der, die oder das."},
+    "G1-242": {"title": "Lesen und Malen", "instruction": "Lies jeden Satz genau. Male dann genau die Bilder an, die im Satz stehen – in der richtigen Farbe."},
+    "G1-243": {"title": "Zahl des Tages", "instruction": "Schau dir die große Zahl an. Stelle sie in jedem Kästchen auf dem Blatt dar."},
+    "G1-244": {"title": "Bilder beschriften", "instruction": "Sprich den Namen jedes Bildes laut. Schreibe das Wort auf die Linie."},
+    "G1-245": {"title": "Alphabetisch ordnen", "instruction": "Nimm die ABC-Leiste zu Hilfe. Nummeriere die Bildwörter von 1 bis 6 nach dem Alphabet und schreibe sie geordnet auf die Linien."},
+    "G1-246": {"title": "Zahlenmauern", "instruction": "Jeder Stein ist die Summe der beiden Steine darunter. Trage die fehlenden Zahlen ein."},
+    "G1-247": {"title": "Verdoppeln und Halbieren", "instruction": "Verdopple die eine Menge und halbiere die andere. Schreibe die Zahlen in die Kästchen."},
+    "G1-248": {"title": "Zahlenstrahl ablesen", "instruction": "Jeder Pfeil zeigt auf einen Strich. Zähle von der Zahl davor weiter und schreibe die Zahl in das Kästchen."},
+    "G1-249": {"title": "Schüttelsätze", "instruction": "Die Wörter sind durcheinander. Ordne sie und schreibe den Satz mit großem Satzanfang und Satzzeichen auf die Linie."},
+    "G2-274": {"title": "Satzanfang und Satzzeichen", "instruction": "In jedem Satz fehlen die Großbuchstaben und das Satzzeichen. Schreibe ihn richtig auf die Linie."},
+    "G2-275": {"title": "Nomen, Verben und Adjektive", "instruction": "Lies jedes Wort. Ist es ein Nomen, ein Verb oder ein Adjektiv? Schreibe es in den richtigen Kasten."},
+    "G2-276": {"title": "Einkaufen und Bezahlen", "instruction": "Suche jede Ware im Regal und lies den Preis. Beantworte dann die Fragen zum Geld."},
+    "G2-277": {"title": "Kalender lesen", "instruction": "Schau dir den Kalender an. Beantworte damit alle Fragen."},
+    "G2-278": {"title": "Schreiben zum Bild", "instruction": "Schau dir das Bild genau an. Schreibe mit Hilfe des Wortkastens auf, was du siehst und was passiert."},
+    "G2-279": {"title": "Koordinaten im Gitter", "instruction": "Finde jedes Feld mit Buchstabe und Zahl, zum Beispiel B2. Male es in der Farbe seiner Gruppe an, bis das Bild erscheint."},
+    "G3-370": {"title": "Sachaufgaben: Malnehmen und Teilen", "instruction": "Lies jede Rechengeschichte. Das Bild hilft dir. Schreibe die Antwort in das Kästchen und vervollständige dann den Antwortsatz."}
+  },
+  "families": {
+    "word-tracing": {"slug": "woerter-nachspuren", "name": "Wörter nachspuren"},
+    "dot-to-dot": {"slug": "punkt-zu-punkt", "name": "Punkt zu Punkt"},
+    "grid-copy": {"slug": "gitterbilder", "name": "Gitterbilder"},
+    "singular-plural": {"slug": "einzahl-und-mehrzahl", "name": "Einzahl und Mehrzahl"},
+    "articles": {"slug": "der-die-das", "name": "Der, die, das"},
+    "read-and-color": {"slug": "lese-mal-blaetter", "name": "Lese-Mal-Blätter"},
+    "number-of-the-day": {"slug": "zahl-des-tages", "name": "Zahl des Tages"},
+    "write-the-word": {"slug": "bilder-beschriften", "name": "Bilder beschriften"},
+    "alphabetical-order": {"slug": "alphabetisch-ordnen", "name": "Alphabetisch ordnen"},
+    "number-walls": {"slug": "zahlenmauern", "name": "Zahlenmauern"},
+    "doubles-halves": {"slug": "verdoppeln-und-halbieren", "name": "Verdoppeln und Halbieren"},
+    "sentence-building": {"slug": "schuettelsaetze", "name": "Schüttelsätze"},
+    "capitals-punctuation": {"slug": "satzanfang-und-satzzeichen", "name": "Satzanfang und Satzzeichen"},
+    "word-classes": {"slug": "wortarten", "name": "Wortarten"},
+    "calendar": {"slug": "kalender", "name": "Kalender"},
+    "picture-writing": {"slug": "schreiben-zum-bild", "name": "Schreiben zum Bild"},
+    "grid-coordinates": {"slug": "koordinaten-im-gitter", "name": "Koordinaten im Gitter"}
+  },
+  "skills": {
+    "word-tracing": {"full": "Ein Bildwort auf der Schreiblinie nachzuspuren und dann allein zu schreiben verbindet Bild, Wort und Schreibweise in einem einzigen Schritt.", "short": "Übt erstes Wörterschreiben nach Bildern."},
+    "dot-to-dot": {"full": "Die nummerierten Punkte der Reihe nach zu verbinden übt die Zahlenfolge und die Stiftführung, bis am Ende ein Bild erscheint.", "short": "Übt Zahlenreihe und Stiftführung."},
+    "grid-copy": {"full": "Ein Bild Kästchen für Kästchen in ein leeres Gitter zu übertragen schult genaues Schauen, räumliche Orientierung und sauberes Zeichnen.", "short": "Schult genaues Abzeichnen im Gitter."},
+    "singular-plural": {"full": "Neben einem Bild viele zu sehen und die Mehrzahl zu schreiben festigt die Pluralendungen, die Kinder zwar hören, aber selten schreiben.", "short": "Übt Einzahl und Mehrzahl der Nomen."},
+    "articles": {"full": "Zu jedem Bild den passenden Artikel einzukreisen verankert der, die und das – die Grundlage, auf der jeder spätere Satz aufbaut.", "short": "Übt die Artikel der, die und das."},
+    "read-and-color": {"full": "Einen kurzen Satz zu lesen und genau das anzumalen, was darin steht, macht aus dem Entziffern echtes und überprüfbares Verstehen.", "short": "Übt Leseverstehen durch Anmalen."},
+    "number-of-the-day": {"full": "Eine Zahl als Zahlwort, in Zehnern und Einern, am Zahlenstrahl und mit ihren Nachbarzahlen darzustellen baut ein tiefes Zahlverständnis auf.", "short": "Übt Zahlverständnis in vielen Darstellungen."},
+    "write-the-word": {"full": "Den Namen jedes Bildes auf die Linie zu schreiben, mit oder ohne Wortkasten, übt das lautgetreue Schreiben Laut für Laut.", "short": "Übt lautgetreues Schreiben nach Bildern."},
+    "alphabetical-order": {"full": "Bildwörter alphabetisch zu ordnen festigt die Buchstabenfolge und übt das Nachschlagen, das jedes Wörterbuch verlangt.", "short": "Übt das alphabetische Ordnen."},
+    "number-walls": {"full": "Jeden Stein mit der Summe der beiden Steine darunter zu füllen übt sicheres Addieren und das Finden fehlender Summanden in einem Rätsel.", "short": "Übt Addieren mit Zahlenmauern."},
+    "doubles-halves": {"full": "Eine Menge zu verdoppeln und eine andere zu halbieren festigt die Verdopplungsaufgaben, die Nachbaraufgaben und das Einmaleins vorbereiten.", "short": "Übt Verdoppeln und Halbieren."},
+    "sentence-building": {"full": "Durcheinandergeratene Wortkarten wieder zu einem Satz zu ordnen übt Satzbau, Großschreibung und das Gefühl für einen vollständigen Satz.", "short": "Übt den Satzbau mit Wortkarten."},
+    "capitals-punctuation": {"full": "Jeden Satz mit großem Satzanfang, großen Nomen und Satzzeichen neu zu schreiben festigt die Regeln, die einen Text lesbar machen.", "short": "Übt Großschreibung und Satzzeichen."},
+    "word-classes": {"full": "Wörter in Nomen, Verben und Adjektive zu sortieren baut die Wortarten auf, mit denen Kinder über Sprache sprechen können.", "short": "Übt das Erkennen der Wortarten."},
+    "calendar": {"full": "Daten, Wochentage und Wochen von einem echten Monatskalender abzulesen übt genau das, was Kinder jeden Tag im Alltag brauchen.", "short": "Übt das Lesen im Kalender."},
+    "picture-writing": {"full": "Mit Wortkasten und Satzanfängen zu einem Bild zu schreiben macht aus der leeren Seite eine erste eigene kleine Geschichte.", "short": "Übt erstes Schreiben zum Bild."},
+    "grid-coordinates": {"full": "Jedes Feld im Gitter über Buchstabe und Zahl zu finden und anzumalen übt das Lesen von Koordinaten und enthüllt ein verstecktes Bild.", "short": "Übt das Lesen von Gitterkoordinaten."}
+  },
+  "topicMeta": {
+    "word-tracing": "Wörter nachspuren: das Bild anschauen, das Wort auf der Schreiblinie nachspuren und dann selbst schreiben. Kostenlose PDFs zum Ausdrucken.",
+    "dot-to-dot": "Von Punkt zu Punkt: die nummerierten Punkte der Reihe nach verbinden, bis das Bild erscheint – Zahlen bis 20 und darüber hinaus. Kostenlose PDFs zum Ausdrucken.",
+    "grid-copy": "Gitterbilder abzeichnen: das Bild Kästchen für Kästchen in das leere Gitter übertragen. Kostenlose PDFs zum Ausdrucken.",
+    "singular-plural": "Einzahl und Mehrzahl: ein Bild, viele Bilder – die Mehrzahl jedes Nomens nachspuren und selbst schreiben. Kostenlose PDFs zum Ausdrucken.",
+    "articles": "Der, die oder das: zu jedem Bild den richtigen Artikel einkreisen – Artikel üben in der Grundschule. Kostenlose PDFs zum Ausdrucken.",
+    "read-and-color": "Lese-Mal-Blätter: jeden Satz lesen und die Bilder genau so anmalen, wie es dort steht. Kostenlose PDFs zum Ausdrucken.",
+    "number-of-the-day": "Zahl des Tages: eine Zahl als Zahlwort, in Zehnern und Einern, am Zahlenstrahl und mit Nachbarzahlen darstellen. Kostenlose PDFs zum Ausdrucken.",
+    "write-the-word": "Bilder beschriften: den Namen jedes Bildes auf die Linie schreiben – mit Wortkasten, Buchstabenkästchen oder ganz frei. Kostenlose PDFs zum Ausdrucken.",
+    "alphabetical-order": "Alphabetisch ordnen: Bildwörter mit Hilfe der ABC-Leiste in die richtige Reihenfolge bringen. Kostenlose PDFs zum Ausdrucken.",
+    "number-walls": "Zahlenmauern: jeden Stein mit der Summe der beiden Steine darunter füllen – Addieren bis 20. Kostenlose PDFs zum Ausdrucken.",
+    "doubles-halves": "Verdoppeln und Halbieren: die Menge verdoppeln, die Menge halbieren und die Zahl aufschreiben. Kostenlose PDFs zum Ausdrucken.",
+    "sentence-building": "Schüttelsätze: die Wortkarten in die richtige Reihenfolge bringen und den Satz auf die Linie schreiben. Kostenlose PDFs zum Ausdrucken.",
+    "capitals-punctuation": "Satzanfang, Nomen und Satzzeichen: jeden Satz mit Großbuchstaben und Satzzeichen richtig neu schreiben. Kostenlose PDFs zum Ausdrucken.",
+    "word-classes": "Wortarten üben: Wörter in Nomen, Verben und Adjektive sortieren. Kostenlose PDFs zum Ausdrucken.",
+    "calendar": "Kalender lesen: den Monatskalender anschauen und Fragen zu Datum, Wochentagen und Wochen beantworten. Kostenlose PDFs zum Ausdrucken.",
+    "picture-writing": "Schreiben zum Bild: mit Wortkasten und Satzanfängen einen eigenen kleinen Text zum Bild schreiben. Kostenlose PDFs zum Ausdrucken.",
+    "grid-coordinates": "Koordinaten im Gitter: die benannten Felder wie B2 anmalen, bis das versteckte Pixelbild erscheint. Kostenlose PDFs zum Ausdrucken."
+  },
+  "colorWords": {"orange": "orange", "purple": "lila", "brown": "braun", "pink": "rosa"},
+  "figureNames": {
+    "star": "Stern", "house": "Haus", "boat": "Boot", "rocket": "Rakete", "fish": "Fisch", "kite": "Drachen", "heart": "Herz", "butterfly": "Schmetterling",
+    "tree": "Baum", "car": "Auto", "cat": "Katze", "ice-cream": "Eis", "umbrella": "Regenschirm", "whale": "Wal", "sailboat": "Segelboot", "crown": "Krone",
+    "duck": "Ente", "flag": "Fahne", "cup": "Tasse", "boot": "Stiefel", "key": "Schlüssel", "cherries": "Kirschen", "elephant": "Elefant", "bird": "Vogel", "giraffe": "Giraffe"
+  },
+  "labels": {
+    "numberOfDay": {
+      "numberWord": "Schreibe das Zahlwort", "tensOnes": "Zehner und Einer", "tens": "Zehner", "ones": "Einer",
+      "tenFrames": "Zeige sie im Zehnerfeld", "tally": "Strichliste", "beforeAfter": "Vorgänger und Nachfolger",
+      "numberLine": "Finde sie auf dem Zahlenstrahl", "drawIt": "Zeichne Zehner und Einer",
+      "tenMoreLess": "10 mehr, 10 weniger", "oneMoreLess": "1 mehr, 1 weniger",
+      "countOn": "Weiterzählen", "countBack": "Rückwärtszählen", "countOnTens": "In Zehnerschritten weiter"
+    },
+    "doublesHalves": {"double": "Verdoppeln", "half": "Halbieren"},
+    "singularPlural": {"one": "Einzahl", "many": "Mehrzahl"},
+    "pictureWriting": {
+      "d1": ["Ich sehe", "Das ist", "Da ist"],
+      "d2": ["Eines Tages", "Dann"]
+    },
+    "fixChecklist": {"capital": "Satzanfang", "name": "Namen", "end": "Satzzeichen"},
+    "articles": {"title": "der, die oder das?"},
+    "calendar": {"monthTitle": "{month} {year}"}
+  },
+  "calendar": {
+    "weekStart": 1,
+    "ordinalStyle": "dot",
+    "dayPlural": ["Sonntage", "Montage", "Dienstage", "Mittwoche", "Donnerstage", "Freitage", "Samstage"],
+    "frames": {
+      "dayOfDate": "Welcher Wochentag ist der {date} in diesem Monat?",
+      "countWeekday": "Wie viele {dayPlural} hat dieser Monat?",
+      "stickerDate": "An welchem Datum ist {sticker} eingetragen?",
+      "weekLater": "Heute ist der {date} Welches Datum ist genau eine Woche später?",
+      "daysInMonth": "Wie viele Tage hat dieser Monat?",
+      "firstDay": "Auf welchen Wochentag fällt der erste Tag des Monats?",
+      "lastDay": "Auf welchen Wochentag fällt der letzte Tag des Monats?",
+      "after": "Wie viele Tage nach {stickerA} kommt {stickerB}?"
+    }
+  },
+  "sentences": {
+    "nounCase": "keep",
+    "endSpace": false,
+    "names": ["Emma", "Ben", "Mia", "Finn", "Lina", "Paul", "Lea", "Noah"],
+    "colorWords": null,
+    "nounForms": {},
+    "fixLabels": {"capital": "Satzanfang", "name": "Namen", "end": "Satzzeichen"},
+    "frames": [
+      {"id": "c1", "kind": "color", "text": "Male {n} {noun} {color} an.", "noun": "pl"},
+      {"id": "c2", "kind": "color", "text": "Finde {n} {noun} und male sie {color} an.", "noun": "pl"},
+      {"id": "c3", "kind": "color", "text": "{name} malt {n} {noun} {color} an.", "noun": "pl"},
+      {"id": "c4", "kind": "color", "text": "Suche {n} {noun} und male sie {color} an.", "noun": "pl"},
+      {"id": "s1", "kind": "simple", "text": "Die {noun} sind sehr klein.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s2", "kind": "simple", "text": "{name} zählt die {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s3", "kind": "simple", "text": "Wo sind die {noun}?", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s4", "kind": "simple", "text": "{name} sieht zwei {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s5", "kind": "simple", "text": "{name} hat drei {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s6", "kind": "simple", "text": "Die {noun} sind im Karton.", "noun": "pl", "uses": ["fix"]},
+      {"id": "s7", "kind": "simple", "text": "Siehst du die {noun}?", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s8", "kind": "simple", "text": "{name} und ich mögen die {noun}.", "noun": "pl", "uses": ["fix"]},
+      {"id": "s9", "kind": "simple", "text": "Was für schöne {noun}!", "noun": "pl", "uses": ["fix"], "exclaimStrict": true},
+      {"id": "s10", "kind": "simple", "text": "Die {noun} sind bunt.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s11", "kind": "simple", "text": "Sind das deine {noun}?", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s12", "kind": "simple", "text": "{name} malt {noun} für {name}.", "noun": "pl", "uses": ["fix"]},
+      {"id": "s13", "kind": "simple", "text": "Meine {noun} sind ganz neu.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s14", "kind": "simple", "text": "{name} mag die kleinen {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s15", "kind": "simple", "text": "Hat {name} die {noun} gesehen?", "noun": "pl", "uses": ["fix"]},
+      {"id": "s16", "kind": "simple", "text": "{name} sucht die {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]}
+    ]
+  },
+  "wordClasses": {
+    "terms": {"noun": "Nomen", "verb": "Verben", "adj": "Adjektive"},
+    "chipCase": "keep",
+    "chipCaseD3": "lower",
+    "verbs": [
+      {"w": "laufen", "tier": 1}, {"w": "springen", "tier": 1}, {"w": "schlafen", "tier": 1}, {"w": "essen", "tier": 1}, {"w": "singen", "tier": 1}, {"w": "lesen", "tier": 1},
+      {"w": "schwimmen", "tier": 1}, {"w": "spielen", "tier": 1}, {"w": "hüpfen", "tier": 1}, {"w": "sitzen", "tier": 1}, {"w": "klettern", "tier": 2}, {"w": "lachen", "tier": 2},
+      {"w": "malen", "tier": 2}, {"w": "waschen", "tier": 2}, {"w": "schieben", "tier": 2}, {"w": "ziehen", "tier": 2}, {"w": "werfen", "tier": 2}, {"w": "fangen", "tier": 2},
+      {"w": "flüstern", "tier": 3}, {"w": "wandern", "tier": 3}, {"w": "kichern", "tier": 3}, {"w": "sammeln", "tier": 3}, {"w": "zuhören", "tier": 3}, {"w": "tragen", "tier": 3},
+      {"w": "bauen", "tier": 3}, {"w": "tanzen", "tier": 2}, {"w": "rufen", "tier": 3}, {"w": "suchen", "tier": 2}, {"w": "backen", "tier": 3}, {"w": "trinken", "tier": 1}
+    ],
+    "adjectives": [
+      {"w": "groß", "tier": 1}, {"w": "klein", "tier": 1}, {"w": "rot", "tier": 1}, {"w": "blau", "tier": 1}, {"w": "heiß", "tier": 1}, {"w": "kalt", "tier": 1},
+      {"w": "weich", "tier": 1}, {"w": "lang", "tier": 1}, {"w": "nass", "tier": 1}, {"w": "fröhlich", "tier": 1}, {"w": "leise", "tier": 2}, {"w": "glänzend", "tier": 2},
+      {"w": "flauschig", "tier": 2}, {"w": "schwer", "tier": 2}, {"w": "süß", "tier": 2}, {"w": "winzig", "tier": 2}, {"w": "laut", "tier": 2}, {"w": "mutig", "tier": 2},
+      {"w": "sanft", "tier": 3}, {"w": "neugierig", "tier": 3}, {"w": "müde", "tier": 3}, {"w": "schlau", "tier": 3}, {"w": "holprig", "tier": 3}, {"w": "lustig", "tier": 3},
+      {"w": "lila", "tier": 1}, {"w": "rund", "tier": 2}, {"w": "schnell", "tier": 1}, {"w": "langsam", "tier": 1}, {"w": "gelb", "tier": 1}, {"w": "grün", "tier": 1}
+    ],
+    "nounExclude": ["orange"]
+  },
+  "shopFrames": {
+    "yes": "ja", "no": "nein",
+    "frames": {
+      "total": [
+        "{name} kauft {item1} und {item2}. Wie viel muss {name} bezahlen?",
+        "{name} legt {item1} und {item2} in den Korb. Wie viel kostet das zusammen?",
+        "{name} möchte {item1} und {item2}. Wie viel kostet das insgesamt?"
+      ],
+      "total3": [
+        "{name} kauft {item1}, {item2} und {item3}. Wie viel muss {name} bezahlen?",
+        "{name} nimmt {item1}, {item2} und {item3}. Wie viel kostet das zusammen?"
+      ],
+      "change": [
+        "{name} kauft {item1} und bezahlt mit {coins} Wie viel Geld bekommt {name} zurück?",
+        "{name} bezahlt {item1} mit {coins} Wie viel Rückgeld bekommt {name}?"
+      ],
+      "canBuy": [
+        "{name} hat {money}. Reicht das Geld für {item1} und {item2}? Kreise ja oder nein ein. Schreibe den Gesamtpreis auf.",
+        "{name} hat {money}. Kann {name} {item1} und {item2} kaufen? Kreise ja oder nein ein. Schreibe auf, was beides zusammen kostet."
+      ],
+      "diff": [
+        "Um wie viel ist {item1} teurer als {item2}?",
+        "{item1} kostet mehr als {item2}. Wie viel mehr?"
+      ]
+    }
+  },
+  "wpMulDiv": {
+    "nounForm": "plural",
+    "nounCase": "keep",
+    "names": ["Emma", "Ben", "Mia", "Finn", "Lina", "Paul", "Lea", "Noah"],
+    "frames": {
+      "mul": [
+        "{name} hat {n1} Kisten. In jeder Kiste sind {n2} {noun}. Wie viele {noun} hat {name} insgesamt?",
+        "{name} füllt {n1} Tüten mit je {n2} {noun}. Wie viele {noun} sind das zusammen?",
+        "{name} hat {n1} Regale. In jedem Regal sind {n2} {noun}. Wie viele {noun} sind das insgesamt?",
+        "{name} sieht {n1} Reihen mit je {n2} {noun}. Wie viele {noun} sind das zusammen?"
+      ],
+      "share": [
+        "{name} verteilt {n1} {noun} gerecht an {n2} Kinder. Wie viele {noun} bekommt jedes Kind?",
+        "{name} packt {n1} {noun} gleichmäßig in {n2} Tüten. Wie viele {noun} sind in jeder Tüte?",
+        "{name} legt {n1} {noun} gleichmäßig in {n2} Kisten. Wie viele {noun} kommen in jede Kiste?"
+      ],
+      "group": [
+        "{name} hat {n1} {noun}. {name} packt immer {n2} {noun} in eine Tüte. Wie viele Tüten braucht {name}?",
+        "Es gibt {n1} {noun}. {name} bildet Gruppen mit je {n2} {noun}. Wie viele Gruppen sind das?",
+        "{name} packt {n1} {noun} in Kisten mit je {n2} {noun}. Wie viele Kisten braucht {name}?"
+      ]
+    }
+  },
+  "articles": {
+    "refuse": false,
+    "note": "der/die/das keyed off the vocab gender (m/f/n) with the Grundschule colour dots blau/rot/grün; no refusals. Nouns whose singular equals the plural (Kaninchen, Mädchen) still key cleanly by gender. Title 'Der, die oder das?' is the genre phrase teachers search."
+  },
+  "enAudit": [
+    "K-285 title 'Dot-to-Dot 1 to 20' is only true at d2: d1 is the 1…10 window (remainder pre-printed) and d3 is the 11…30 counting-on window, so the title lies on two of three levels — make the range a subtitle or drop it.",
+    "en topicMeta.dot-to-dot still promises 'counting to 20 and skip counting' — skip-counting was removed by the design amendment (d3 = counting-on 11…30, NOT skip by 2).",
+    "en topicMeta.write-the-word promises 'with a word bank to help' — the bank ships at d1 ONLY (d2 = letter boxes, d3 = plain ruling); the spec itself says titles/copy must not promise a bank.",
+    "G1-244 d2 render shows BOTH the three-line ruling AND the dashed letter-count boxes under each picture, so the child has two places to write; the amendment describes the boxes as the writing surface — one of the two should go, and the instruction 'Write the word on the line' contradicts the boxes.",
+    "G1-242 frame c4 '{name} colors {n} {noun} {color}.' is a statement about Mia, not an instruction to the child — on a read-and-DO page a child can reasonably read it and colour nothing; the same shape is a plain statement in every locale, so every panel is forced to author an instruction-shaped alternative.",
+    "G1-242/G1-249/G2-274 en bank has no theme gating: s1 'The {noun} sleeps on the bed.' and s10 'The {noun} are red.' render 'The banana sleeps on the bed.' / 'The bananas are red.' on the fruit and vehicle waves — nonsense or false sentences on a comprehension page; keep sentence verbs theme-neutral (see/count/have/like) or gate frames per theme.",
+    "G1-247 instruction hard-codes 'the group on the LEFT … on the RIGHT' — position-dependent copy (the nt20 K-242 top/bottom lesson); the pills already say double/half, so the instruction should name the pill, not the column.",
+    "G1-248 instruction 'Count on from the nearest number' is wrong when the nearest LABELLED number is above the arrow (arrow at 14 → nearest label 15, counting on gives 16); it must say the labelled number BEFORE the arrow.",
+    "G2-275 instruction says 'naming word, doing word, describing word' while the three bins are labelled Nouns / Verbs / Adjectives — two terminologies on one page that the child has to map; use one.",
+    "G2-276 diff frame '{item1} costs more than {item2}. How much more?' presupposes price(item1) > price(item2) — verify the generator orders the pair (and that total/change never produce a negative change); the frame text cannot recover if it does not.",
+    "G2-278 instruction 'write about what you see' is descriptive at every level, but d2/d3 rows open with the narrative starters 'One day,' / 'Then' — the instruction and the starters ask for two different text types; the instruction should mention telling what happens.",
+    "G3-370 mul/share frames carry plural containers ('{n1} boxes', '{n2} friends') with no guard against n1 = 1 or n2 = 1 ('1 boxes') — verify the generator's factor range is ≥ 2 on both slots; every locale's plural container inherits the risk.",
+    "G1-243 instruction 'Show it in every box' does not fit the 'Before and after', 'Ten more, ten less' and 'Count on/back' cells, which ask for OTHER numbers, not a representation of N.",
+    "K-287 title 'One and Many: Singular and Plural' wraps onto two lines in the header at the rendered width (and so do K-288, G2-275, G2-279, G3-370) — titles of ~30+ chars push the Name/Date field down; a shorter genre name keeps the header one line."
+  ]
+}

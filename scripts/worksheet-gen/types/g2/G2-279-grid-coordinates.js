@@ -28,7 +28,7 @@ module.exports = {
   },
   i18n: {
     en: {
-      title: 'Grid Coordinates: Color the Squares',
+      title: 'Grid Coordinates',
       instruction: 'Find each square by its letter and number, like B2. Color it with the color of its group to reveal the picture.',
     },
   },

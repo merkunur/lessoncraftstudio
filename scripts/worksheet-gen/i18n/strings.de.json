@@ -1430,5 +1430,85 @@
   "K-283": {
     "title": "Meine ersten Kleinbuchstaben: a, b, c, d",
     "instruction": "Spure jeden kleinen Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann allein auf die leere Linie."
+  },
+  "K-284": {
+    "title": "Wörter nachspuren",
+    "instruction": "Sprich das Bildwort laut. Spure die gestrichelten Buchstaben nach und schreibe das Wort dann selbst auf die leeren Linien."
+  },
+  "K-285": {
+    "title": "Von Punkt zu Punkt",
+    "instruction": "Beginne am orangen Punkt. Verbinde die Punkte der Reihe nach, bis das versteckte Bild erscheint."
+  },
+  "K-286": {
+    "title": "Gitterbilder abzeichnen",
+    "instruction": "Schau dir das Bild links genau an. Male im leeren Gitter dieselben Kästchen an, damit das Bild noch einmal entsteht."
+  },
+  "K-287": {
+    "title": "Einzahl und Mehrzahl",
+    "instruction": "Lies das Wort für eins. Spure dann das Wort für viele nach und schreibe es selbst auf die leere Linie."
+  },
+  "K-288": {
+    "title": "Der, die oder das?",
+    "instruction": "Sprich das Bildwort laut. Kreise den Artikel ein, der davor passt: der, die oder das."
+  },
+  "G1-242": {
+    "title": "Lesen und Malen",
+    "instruction": "Lies jeden Satz genau. Male dann genau die Bilder an, die im Satz stehen – in der richtigen Farbe."
+  },
+  "G1-243": {
+    "title": "Zahl des Tages",
+    "instruction": "Schau dir die große Zahl an. Stelle sie in jedem Kästchen auf dem Blatt dar."
+  },
+  "G1-244": {
+    "title": "Bilder beschriften",
+    "instruction": "Sprich den Namen jedes Bildes laut. Schreibe das Wort auf die Linie."
+  },
+  "G1-245": {
+    "title": "Alphabetisch ordnen",
+    "instruction": "Nimm die ABC-Leiste zu Hilfe. Nummeriere die Bildwörter von 1 bis 6 nach dem Alphabet und schreibe sie geordnet auf die Linien."
+  },
+  "G1-246": {
+    "title": "Zahlenmauern",
+    "instruction": "Jeder Stein ist die Summe der beiden Steine darunter. Trage die fehlenden Zahlen ein."
+  },
+  "G1-247": {
+    "title": "Verdoppeln und Halbieren",
+    "instruction": "Verdopple die eine Menge und halbiere die andere. Schreibe die Zahlen in die Kästchen."
+  },
+  "G1-248": {
+    "title": "Zahlenstrahl ablesen",
+    "instruction": "Jeder Pfeil zeigt auf einen Strich. Zähle von der Zahl davor weiter und schreibe die Zahl in das Kästchen."
+  },
+  "G1-249": {
+    "title": "Schüttelsätze",
+    "instruction": "Die Wörter sind durcheinander. Ordne sie und schreibe den Satz mit großem Satzanfang und Satzzeichen auf die Linie."
+  },
+  "G2-274": {
+    "title": "Satzanfang und Satzzeichen",
+    "instruction": "In jedem Satz fehlen die Großbuchstaben und das Satzzeichen. Schreibe ihn richtig auf die Linie."
+  },
+  "G2-275": {
+    "title": "Nomen, Verben und Adjektive",
+    "instruction": "Lies jedes Wort. Ist es ein Nomen, ein Verb oder ein Adjektiv? Schreibe es in den richtigen Kasten."
+  },
+  "G2-276": {
+    "title": "Einkaufen und Bezahlen",
+    "instruction": "Suche jede Ware im Regal und lies den Preis. Beantworte dann die Fragen zum Geld."
+  },
+  "G2-277": {
+    "title": "Kalender lesen",
+    "instruction": "Schau dir den Kalender an. Beantworte damit alle Fragen."
+  },
+  "G2-278": {
+    "title": "Schreiben zum Bild",
+    "instruction": "Schau dir das Bild genau an. Schreibe mit Hilfe des Wortkastens auf, was du siehst und was passiert."
+  },
+  "G2-279": {
+    "title": "Koordinaten im Gitter",
+    "instruction": "Finde jedes Feld mit Buchstabe und Zahl, zum Beispiel B2. Male es in der Farbe seiner Gruppe an, bis das Bild erscheint."
+  },
+  "G3-370": {
+    "title": "Sachaufgaben: Malnehmen und Teilen",
+    "instruction": "Lies jede Rechengeschichte. Das Bild hilft dir. Schreibe die Antwort in das Kästchen und vervollständige dann den Antwortsatz."
   }
 }

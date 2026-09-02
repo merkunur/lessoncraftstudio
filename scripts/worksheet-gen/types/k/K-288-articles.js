@@ -14,7 +14,7 @@
 'use strict';
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { articleChips } = require('../../templates/components-b2.js');
-const { entriesFor, displayWord, distinctByWord, fileUri } = require('../../lib/b2-common.js');
+const { entriesFor, displayWord, distinctByWord, fileUri, countable } = require('../../lib/b2-common.js');
 const { ARTICLES } = require('../../data/b2/articles.js');
 
 module.exports = {
@@ -31,7 +31,7 @@ module.exports = {
   },
   i18n: {
     en: {
-      title: 'A or An? Circle the Right Word',
+      title: 'A or An?',
       instruction: 'Say the picture word out loud. Circle the word that goes in front of it.',
     },
   },
@@ -45,7 +45,7 @@ module.exports = {
     if (A.refuse) throw new Error(`K-288: locale ${loc} refuses this type`);
     const level = d.level3 ? 3 : difficulty;
     const chips = (d.level3 && A.chipsD3) ? A.chipsD3 : A.chips;
-    let pool = distinctByWord(entriesFor(theme, loc), (e) => e.singular.toLocaleLowerCase(loc));
+    let pool = distinctByWord(entriesFor(theme, loc).filter(countable), (e) => e.singular.toLocaleLowerCase(loc));
     // fi form mode: each card shows 1 or 3 pictures; chips = [singular, plural]
     const isForm = A.mode === 'form';
     let cardsData = null, guard = 0;

@@ -38,7 +38,7 @@ module.exports = {
   i18n: {
     en: {
       title: 'Number of the Day',
-      instruction: 'Look at the big number. Show it in every box on the page.',
+      instruction: 'Look at the big number. Fill in every box on the page for that number.',
     },
   },
 

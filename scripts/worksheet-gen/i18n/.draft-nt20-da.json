@@ -1,0 +1,153 @@
+{
+  "locale": "da",
+  "types": {
+    "K-236": {"title": "Skriveforberedende øvelser", "instruction": "Følg hver linje med din blyant. Start ved den orange prik, og følg pilen."},
+    "K-237": {"title": "Skriv tallene fra 0 til 9", "instruction": "Skriv oven i hvert tal. Start ved den orange prik, og følg pilene."},
+    "K-238": {"title": "Skriv de store bogstaver", "instruction": "Skriv oven i hvert bogstav, og prøv derefter selv på den tomme linje."},
+    "K-239": {"title": "Hyppige ord: læs og skriv", "instruction": "Læs ordet. Skriv oven i det, og skriv det derefter selv på den tomme linje."},
+    "K-240": {"title": "Klip, sortér og klistre", "instruction": "Klip billederne nederst på siden ud. Sortér dem, og lim hvert billede ind i den rigtige kasse."},
+    "K-241": {"title": "Regn og farvelæg", "instruction": "Regn stykket ud i hver figur. Farvelæg figuren med den farve, der passer til svaret."},
+    "K-242": {"title": "Find vej i labyrinten", "instruction": "Start øverst. Tegn en vej gennem labyrinten, til du når målet nederst."},
+    "K-243": {"title": "Tiervenner op til 10", "instruction": "Find det tal, der mangler, og skriv det i den stiplede cirkel. De to dele skal tilsammen give det store tal."},
+    "G1-208": {"title": "Hovedregning op til 20", "instruction": "Regn hvert stykke i hovedet, og skriv det manglende tal i kassen."},
+    "G1-209": {"title": "Talfamilier i huset", "instruction": "Brug de tre tal på taget, og gør de fire regnestykker under taget færdige."},
+    "G1-210": {"title": "Tal og talord", "instruction": "Læs det store tal. Sæt en ring om det ord, der passer til tallet."},
+    "G1-211": {"title": "Tæl mønterne", "instruction": "Tæl mønterne i hver pung. Start med den største mønt, og skriv det samlede beløb i kassen."},
+    "G1-212": {"title": "Tegn viserne på uret", "instruction": "Læs klokkeslættet. Tegn den lille viser og den store viser på uret."},
+    "G1-213": {"title": "Regnehistorier med billeder", "instruction": "Læs hver regnehistorie. Brug billederne som hjælp, og skriv svaret i kassen."},
+    "G2-251": {"title": "Plus og minus med opstilling", "instruction": "Regn hvert stykke i opstillingen. Regn først enerne og derefter tierne."},
+    "G2-252": {"title": "Målebægre og vægte", "instruction": "Aflæs hvert målebæger og hver vægt. Skriv svaret med den rigtige enhed."},
+    "G2-253": {"title": "Tegn spejlbilledet færdigt", "instruction": "Billedet er kun halvt færdigt. Farvelæg felterne på den anden side af linjen, så billedet bliver symmetrisk."},
+    "G2-254": {"title": "Læs og svar", "instruction": "Læs historien grundigt. Sæt derefter en ring om det rigtige svar til hvert spørgsmål."},
+    "G3-357": {"title": "Plus og minus med tierovergang", "instruction": "Regn hvert stykke med opstilling. Husk at veksle, når enerne går over ni, eller når du ikke kan trække fra."},
+    "G3-358": {"title": "Øv den lille tabel", "instruction": "Gang de to tal med hinanden, og skriv resultatet i kassen. Øv dig, til du kan dem udenad."}
+  },
+  "families": {
+    "pre-writing": {"slug": "skriveforberedende-oevelser", "name": "Skriveforberedende øvelser"},
+    "number-tracing": {"slug": "skrive-tal", "name": "Skrive tal"},
+    "letter-tracing": {"slug": "bogstavtraening", "name": "Bogstavtræning"},
+    "sight-words": {"slug": "hyppige-ord", "name": "De hyppigste ord"},
+    "cutting-practice": {"slug": "klip-og-klistre", "name": "Klip og klistre"},
+    "color-by-number": {"slug": "regn-og-farvelaeg", "name": "Regn og farvelæg"},
+    "mazes": {"slug": "labyrinter", "name": "Labyrinter"},
+    "number-bonds": {"slug": "tiervenner", "name": "Tiervenner"},
+    "mental-math": {"slug": "hovedregning", "name": "Hovedregning"},
+    "fact-families": {"slug": "talfamilier", "name": "Talfamilier"},
+    "number-words": {"slug": "talord", "name": "Talord"},
+    "money": {"slug": "regne-med-penge", "name": "Regne med penge"},
+    "word-problems": {"slug": "regnehistorier", "name": "Regnehistorier"},
+    "column-arithmetic": {"slug": "regne-med-opstilling", "name": "Regne med opstilling"},
+    "symmetry": {"slug": "spejling", "name": "Spejling og symmetri"},
+    "reading-comprehension": {"slug": "laeseforstaaelse", "name": "Læseforståelse"},
+    "multiplication-tables": {"slug": "gangetabeller", "name": "Gangetabeller"}
+  },
+  "skills": {
+    "pre-writing": {"full": "Når barnet tegner sløjfer, bølger og zigzaglinjer, trænes den blyantkontrol, som alle bogstaver og tal bygger videre på.", "short": "Træner blyantkontrol og skriveforberedende motorik."},
+    "number-tracing": {"full": "At skrive oven i hvert tal med startprik og pile lærer barnet den rigtige skrivevej for tallene helt fra begyndelsen.", "short": "Træner den rigtige skrivevej for tallene 0-9."},
+    "letter-tracing": {"full": "At skrive oven i de store bogstaver på skrivelinjer bygger sikre bogstavformer og en rolig, stabil håndskrift op.", "short": "Træner formen på de store bogstaver."},
+    "sight-words": {"full": "Når barnet læser, skriver oven i og selv skriver de hyppigste ord, genkendes de på et øjeblik, så læsningen glider lettere.", "short": "Opbygger hurtig genkendelse af de hyppigste ord."},
+    "cutting-practice": {"full": "At klippe billeder ud og lime dem ind i den rigtige gruppe træner både saksestyring og den første sortering på én gang.", "short": "Træner saksefærdigheder og tidlig sortering."},
+    "color-by-number": {"full": "At regne små stykker og farvelægge efter koden forvandler omhyggelig kiggen og de første regnefakta til et flot billede.", "short": "Træner regnefakta gennem farvelægning."},
+    "mazes": {"full": "At finde den ene rigtige vej gennem labyrinten træner overblik, blyantkontrol og tålmodig problemløsning.", "short": "Træner visuelt overblik og blyantkontrol."},
+    "number-bonds": {"full": "Når barnet finder de manglende tiervenner, ser det, hvordan tal kan deles op – grundlaget for sikker hovedregning.", "short": "Opbygger talforståelse og opdeling op til 10."},
+    "mental-math": {"full": "At lægge sammen og trække fra op til 20 i hovedet giver den paratviden, som alle skriftlige metoder senere bygger på.", "short": "Træner plus og minus i hovedet op til 20."},
+    "fact-families": {"full": "Når alle fire regnestykker laves ud fra de samme tre tal, ser barnet, hvordan plus og minus hænger sammen.", "short": "Viser sammenhængen mellem plus og minus."},
+    "number-words": {"full": "At forbinde tal med de rigtige talord styrker læsningen af tal og forebygger, at cifrene bliver byttet om.", "short": "Træner sikker læsning af tal og talord."},
+    "money": {"full": "At tælle mønternes værdi fra den største til den mindste opbygger den pengeforståelse, børn bruger i hverdagen.", "short": "Træner møntregning og pengeforståelse."},
+    "word-problems": {"full": "At læse en lille historie, se på billedet og skrive svaret gør regning til rigtig problemløsning i hverdagen.", "short": "Træner regnehistorier med billedstøtte."},
+    "column-arithmetic": {"full": "At regne én plads ad gangen med opstilling opbygger den sikre skriftlige metode til større og større tal.", "short": "Træner den skriftlige metode med opstilling."},
+    "symmetry": {"full": "At tegne billedets spejlede halvdel felt for felt opbygger forståelse for symmetri og præcis rumlig tegning.", "short": "Træner spejling og rumlig forståelse."},
+    "reading-comprehension": {"full": "At læse en kort historie og svare på spørgsmål om den opbygger den grundige læseforståelse, al læring hviler på.", "short": "Træner grundig læseforståelse af korte tekster."},
+    "multiplication-tables": {"full": "At øve den lille tabel i stiger og blandede stykker giver den paratviden, der gør sværere matematik let.", "short": "Træner den lille tabel til paratviden."}
+  },
+  "topicMeta": {
+    "pre-writing": "Skriveforberedende opgaver: sløjfer, bølger og zigzaglinjer, der træner blyantkontrol før de første bogstaver. Gratis PDF'er til print.",
+    "number-tracing": "Opgaver med at skrive tal: skriv oven i tallene 0-9 med startprik og pile, og lær den rigtige skrivevej. Gratis PDF'er til print.",
+    "letter-tracing": "Bogstavtræning: skriv oven i de store bogstaver på skrivelinjer, og øv derefter formen selv. Gratis PDF'er til print.",
+    "sight-words": "Opgaver med de hyppigste ord: læs, skriv oven i og skriv selv de ord, børn møder oftest i læsningen. Gratis PDF'er til print.",
+    "cutting-practice": "Klip og klistre-opgaver: klip billeder ud, sortér dem, og lim dem ind i den rigtige kasse. Gratis PDF'er til print.",
+    "color-by-number": "Regn og farvelæg: regn de små stykker, og farvelæg figurerne efter koden. Gratis PDF'er til print.",
+    "mazes": "Labyrinter for børn: find den rigtige vej fra start til mål med blyanten. Gratis PDF'er til print.",
+    "number-bonds": "Opgaver med tiervenner: find det manglende tal, og se, hvordan tallene kan deles op. Gratis PDF'er til print.",
+    "mental-math": "Hovedregning op til 20: plus- og minusstykker, der træner hurtig og sikker regning i hovedet. Gratis PDF'er til print.",
+    "fact-families": "Talfamilier: brug de tre tal på taget, og skriv alle fire plus- og minusstykker færdige. Gratis PDF'er til print.",
+    "number-words": "Opgaver med talord: læs tallet, og sæt ring om det ord, der passer til. Gratis PDF'er til print.",
+    "money": "Regn med penge: tæl mønterne i pungen, og skriv beløbet i kroner. Gratis PDF'er til print.",
+    "word-problems": "Regnehistorier med billeder: læs den lille historie, og skriv svaret i kassen. Gratis PDF'er til print.",
+    "column-arithmetic": "Regn med opstilling: plus og minus med tocifrede tal, én plads ad gangen. Gratis PDF'er til print.",
+    "symmetry": "Opgaver med spejling: farvelæg den anden halvdel af billedet, så det bliver symmetrisk. Gratis PDF'er til print.",
+    "reading-comprehension": "Læseforståelse: korte historier med spørgsmål, hvor barnet sætter ring om det rigtige svar. Gratis PDF'er til print.",
+    "multiplication-tables": "Gangetabeller: øv den lille tabel med korte stykker, og få styr på paratviden. Gratis PDF'er til print.",
+    "science-sort": "Naturfaglige sorteringsopgaver: sortér billeder i grupper som levende og ikke-levende eller land, vand og luft. Gratis PDF'er til print.",
+    "science-sequence": "Naturfaglige rækkefølgeopgaver: sæt naturens kredsløb i den rigtige rækkefølge. Gratis PDF'er til print.",
+    "science-match": "Naturfaglige matchopgaver: par dyreunger, hverdagens hjælpere og andre ting, der hører sammen. Gratis PDF'er til print.",
+    "beginning-sounds": "Opgaver med forlyde: sig ordet for hvert billede, og skriv eller sortér den første lyd. Gratis PDF'er til print.",
+    "letter-knowledge": "Opgaver med bogstavkendskab: par store og små bogstaver, find bogstaver, og gør alfabetet færdigt. Gratis PDF'er til print.",
+    "word-building": "Opgaver med at bygge ord: skriv den manglende lyd, og byg små ord bogstav for bogstav. Gratis PDF'er til print.",
+    "picture-vocabulary": "Ordforråd med billeder: par ord og billeder, og sortér dem efter kategori. Gratis PDF'er til print.",
+    "phonological-awareness": "Opgaver med sproglig opmærksomhed: slutlyde, midterlyde, rimpar og stavelser. Gratis PDF'er til print."
+  },
+  "figureNames": {
+    "heart": "Hjerte", "butterfly": "Sommerfugl", "rocket": "Raket", "tree": "Træ",
+    "house": "Hus", "crown": "Krone", "star": "Stjerne", "arrow": "Pil",
+    "flower": "Blomst", "mushroom": "Svamp", "cat": "Kat", "robot": "Robot",
+    "apple": "Æble", "diamond": "Diamant", "ice-cream": "Is", "snowman": "Snemand"
+  },
+  "sightWords": ["og", "jeg", "det", "er", "en", "til", "den", "han", "hun", "var", "ikke", "med"],
+  "readingPassages": [
+    {
+      "id": "da-frejas-kat",
+      "title": "Frejas kat",
+      "text": "Freja har en lille grå kat, der hedder Musse. Hver eftermiddag sover Musse i vindueskarmen, hvor solen varmer ham. Om aftenen giver Freja ham fisk og en stor skål mælk.",
+      "questions": [
+        {"q": "Hvad hedder Frejas kat?", "choices": ["Misse", "Musse", "Mille"], "correct": 1},
+        {"q": "Hvad får Musse om aftenen?", "choices": ["Fisk og mælk", "Brød og vand", "Kød og ost"], "correct": 0},
+        {"q": "Hvorfor ligger Musse i vindueskarmen?", "choices": ["Fordi der er koldt på gulvet", "Fordi solen varmer der", "Fordi Freja siger, han skal"], "correct": 1}
+      ]
+    },
+    {
+      "id": "da-william-og-cyklen",
+      "title": "William og cyklen",
+      "text": "William har fået en ny rød cykel af sin farfar. Hver dag efter skole cykler han en tur rundt om søen sammen med sin ven Noah. I dag har de en pose boller med i kurven. De sætter sig på en bænk og deler bollerne, mens ænderne kigger på. Til sidst cykler de hjem, inden det bliver mørkt.",
+      "questions": [
+        {"q": "Hvem har William fået cyklen af?", "choices": ["Sin farfar", "Sin mor", "Sin ven Noah"], "correct": 0},
+        {"q": "Hvad har drengene med i kurven?", "choices": ["En pose æbler", "En pose boller", "En flaske saft"], "correct": 1},
+        {"q": "Hvorfor cykler drengene hjem til sidst?", "choices": ["Fordi det snart bliver mørkt", "Fordi det begynder at regne", "Fordi de er sultne"], "correct": 0}
+      ]
+    },
+    {
+      "id": "da-almas-have",
+      "title": "Almas have",
+      "text": "Alma hjælper sin bedstemor i den store have hver lørdag. I foråret sår de gulerødder og ærter i de lange bede. Alma vander de små planter med sin grønne vandkande. En dag ser hun, at der er kommet grønne spirer op af jorden. Hun råber glad på bedstemor, som kommer løbende med det samme. Til sommer skal de høste grøntsagerne og lave en stor gryde suppe sammen.",
+      "questions": [
+        {"q": "Hvad sår Alma og bedstemor i foråret?", "choices": ["Gulerødder og ærter", "Kartofler og løg", "Tomater og agurker"], "correct": 0},
+        {"q": "Hvilken farve har Almas vandkande?", "choices": ["Rød", "Gul", "Grøn"], "correct": 2},
+        {"q": "Hvorfor råber Alma på sin bedstemor?", "choices": ["Fordi hun har slået sig", "Fordi hun er glad for spirerne", "Fordi hun vil hjem nu"], "correct": 1}
+      ]
+    }
+  ],
+  "wordProblems": {
+    "nounCase": "lower",
+    "names": ["Ida", "William", "Freja", "Oscar", "Alma", "Noah", "Clara", "Emil"],
+    "frames": {
+      "add": [
+        "{name} har {n1} {noun}. {name} får {n2} {noun} til. Hvor mange {noun} har {name} nu i alt?",
+        "{name} ser {n1} {noun}. Så ser {name} {n2} {noun} til. Hvor mange {noun} ser {name} i alt?",
+        "Der er {n1} {noun} i en kasse. {name} lægger {n2} {noun} ned i kassen. Hvor mange {noun} er der nu i kassen?",
+        "{name} har {n1} {noun}. En ven giver {name} {n2} {noun}. Hvor mange {noun} har {name} nu?"
+      ],
+      "sub": [
+        "{name} har {n1} {noun}. {name} giver {n2} {noun} væk. Hvor mange {noun} har {name} tilbage?",
+        "{name} har {n1} {noun}. {name} mister {n2} {noun}. Hvor mange {noun} er der tilbage?",
+        "Der er {n1} {noun} i en kurv. {name} tager {n2} {noun} op af kurven. Hvor mange {noun} er der tilbage i kurven?"
+      ]
+    }
+  },
+  "audits": {
+    "colorWords": "OK — rød, blå, gul, grøn med småt i legenden.",
+    "currency": "OK — mønter 1, 2, 5, 10, 20 kr.; enheden 'kr.' MED punktum og mellemrum ('12 kr.'); hele kroner ≤ 50, aldrig ører/decimaler i indskolingen.",
+    "numberWords": "OK alle 10 vigesimalformer (femoghalvtreds, tooghalvfems...); hundrede uden 'et'. DIGIT FORMS: 1 med opstreg, 7 UDEN tværstreg (applied: da → dutch variant). GLYPH: '·' bekræftet dansk skolestandard.",
+    "englishSource": "K-241 EN misses the solve step; G3-357 vague; K-243 EN instruction lacks the part-part-whole explanation the da version makes explicit."
+  },
+  "notes": "[NSR-FLAG][da] grammatisk komma inkl. startkomma. tiervenner (ét ord) valgt som slug/navn; talfamilier = fact families (regnehistorier er ALTID word problems); opstilling + tierovergang + veksle = Fælles Mål-registeret; tracing-verbet er 'skrive oven i' (ikke 'spore'); d3-siden skal have Æ Ø Å; ur-visere 'den lille viser'/'den store viser'. Slugs ASCII-foldet dansk (oevelser, traening, farvelaeg, laeseforstaaelse)."
+}

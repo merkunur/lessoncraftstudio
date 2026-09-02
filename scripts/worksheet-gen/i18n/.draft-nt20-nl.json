@@ -1,0 +1,153 @@
+{
+  "locale": "nl",
+  "types": {
+    "K-236": {"title": "Schrijfpatronen oefenen", "instruction": "Trek elke lijn na met je potlood. Begin bij de oranje stip en volg de pijl."},
+    "K-237": {"title": "Cijfers schrijven 0 tot 9", "instruction": "Trek elk cijfer na. Begin bij de oranje stip en volg de pijltjes."},
+    "K-238": {"title": "Hoofdletters overtrekken", "instruction": "Trek elke letter na. Schrijf er daarna zelf één op de lege regel."},
+    "K-239": {"title": "Flitswoorden lezen en schrijven", "instruction": "Lees het woord. Trek het na. Schrijf het daarna zelf op de lege regel."},
+    "K-240": {"title": "Knippen, sorteren en plakken", "instruction": "Knip de plaatjes onderaan uit. Sorteer ze en plak elk plaatje in het goede vak."},
+    "K-241": {"title": "Kleuren op code", "instruction": "Kijk goed naar de code. Kleur elke vorm met de kleur die erbij hoort."},
+    "K-242": {"title": "Door het doolhof", "instruction": "Begin bij de start bovenaan. Teken een weg door het doolhof naar de finish onderaan."},
+    "K-243": {"title": "Splitsen tot 10", "instruction": "Kijk naar elke splitsing. Schrijf het getal dat mist in de lege cirkel."},
+    "G1-208": {"title": "Hoofdrekenen tot 20", "instruction": "Reken elke som uit je hoofd uit. Schrijf het antwoord in het vakje."},
+    "G1-209": {"title": "Rekenhuisjes", "instruction": "Gebruik de drie getallen op het dak. Maak de vier sommen eronder af."},
+    "G1-210": {"title": "Getallen in woorden", "instruction": "Lees het getal in het vakje. Omcirkel het woord dat erbij hoort."},
+    "G1-211": {"title": "Munten tellen", "instruction": "Tel de munten in elke portemonnee. Schrijf het totaal in het vakje."},
+    "G1-212": {"title": "Teken de wijzers", "instruction": "Lees de tijd onder de klok. Teken de kleine wijzer en de grote wijzer."},
+    "G1-213": {"title": "Verhaaltjessommen met plaatjes", "instruction": "Lees elk verhaaltje. De plaatjes helpen je. Schrijf het antwoord in het vakje."},
+    "G2-251": {"title": "Sommen onder elkaar", "instruction": "Reken elke som kolom voor kolom uit: eerst de eenheden, dan de tientallen."},
+    "G2-252": {"title": "Maatbekers en weegschalen", "instruction": "Lees elke maatbeker en weegschaal af. Schrijf het antwoord op met de juiste eenheid."},
+    "G2-253": {"title": "Maak de spiegeltekening af", "instruction": "Elk plaatje is half af. Kleur de vakjes aan de andere kant van de spiegellijn precies na."},
+    "G2-254": {"title": "Begrijpend lezen", "instruction": "Lees het verhaaltje goed. Omcirkel daarna bij elke vraag het beste antwoord."},
+    "G3-357": {"title": "Sommen met onthouden en lenen", "instruction": "Reken elke som kolom voor kolom uit. Onthoud of leen als dat nodig is."},
+    "G3-358": {"title": "Tafels oefenen", "instruction": "Reken elke keersom uit je hoofd uit. Schrijf het antwoord in het vakje."}
+  },
+  "families": {
+    "pre-writing": {"slug": "schrijfpatronen", "name": "Schrijfpatronen"},
+    "number-tracing": {"slug": "cijfers-schrijven", "name": "Cijfers schrijven"},
+    "letter-tracing": {"slug": "letters-overtrekken", "name": "Letters overtrekken"},
+    "sight-words": {"slug": "flitswoorden", "name": "Flitswoorden"},
+    "cutting-practice": {"slug": "knipoefeningen", "name": "Knipoefeningen"},
+    "color-by-number": {"slug": "kleuren-op-code", "name": "Kleuren op code"},
+    "mazes": {"slug": "doolhoven", "name": "Doolhoven"},
+    "number-bonds": {"slug": "splitsen", "name": "Splitsen"},
+    "mental-math": {"slug": "hoofdrekenen", "name": "Hoofdrekenen"},
+    "fact-families": {"slug": "sommenfamilies", "name": "Sommenfamilies"},
+    "number-words": {"slug": "getallen-in-woorden", "name": "Getallen in woorden"},
+    "money": {"slug": "rekenen-met-geld", "name": "Rekenen met geld"},
+    "word-problems": {"slug": "verhaaltjessommen", "name": "Verhaaltjessommen"},
+    "column-arithmetic": {"slug": "sommen-onder-elkaar", "name": "Sommen onder elkaar"},
+    "symmetry": {"slug": "spiegelen", "name": "Spiegelen en symmetrie"},
+    "reading-comprehension": {"slug": "begrijpend-lezen", "name": "Begrijpend lezen"},
+    "multiplication-tables": {"slug": "tafels-oefenen", "name": "Tafels oefenen"}
+  },
+  "skills": {
+    "pre-writing": {"full": "Lussen, golven en zigzaglijnen natrekken traint de fijne motoriek en de pengreep waar elke letter en elk cijfer op voortbouwt.", "short": "Oefent pengreep en voorbereidend schrijven."},
+    "number-tracing": {"full": "Elk cijfer natrekken vanaf de startstip en langs de pijltjes leert kinderen vanaf de eerste keer de juiste schrijfrichting aan.", "short": "Oefent de juiste schrijfwijze van cijfers."},
+    "letter-tracing": {"full": "Hoofdletters natrekken op schrijfregels traint het letterbeeld en de vaste halen die zelfverzekerd leren schrijven mogelijk maken.", "short": "Oefent het schrijven van hoofdletters."},
+    "sight-words": {"full": "Veelvoorkomende woordjes lezen, natrekken en zelf schrijven zorgt dat kinderen ze flitsend herkennen en vlotter gaan lezen.", "short": "Oefent het vlot herkennen van flitswoorden."},
+    "cutting-practice": {"full": "Plaatjes uitknippen en in de juiste groep plakken traint de schaarvaardigheid en het eerste ordenen in één gezellige opdracht.", "short": "Oefent knippen, plakken en sorteren."},
+    "color-by-number": {"full": "Elke code bij de juiste kleur zoeken maakt van goed kijken en kleine sommetjes een tekening om trots op te zijn.", "short": "Oefent kleine sommetjes en zorgvuldig kleuren."},
+    "mazes": {"full": "De ene juiste weg door het doolhof vinden traint vooruitkijken, potloodbeheersing en geduldig doorzetten bij het puzzelen.", "short": "Oefent overzicht en potloodbeheersing."},
+    "number-bonds": {"full": "Splitsingen aanvullen laat zien hoe getallen uit elkaar vallen en legt de basis voor vlot hoofdrekenen tot 10.", "short": "Oefent het splitsen van getallen tot 10."},
+    "mental-math": {"full": "Optellen en aftrekken tot 20 uit het hoofd geeft de vlotte rekenvaardigheid waar al het latere cijferen op steunt.", "short": "Oefent vlot optellen en aftrekken tot 20."},
+    "fact-families": {"full": "Alle vier de sommen bij één drietal getallen maken laat zien hoe optellen en aftrekken elkaars omgekeerde zijn.", "short": "Oefent het verband tussen plus en min."},
+    "number-words": {"full": "Getallen koppelen aan hun geschreven getalwoord versterkt het getalbegrip en voorkomt het omdraaien van cijfers.", "short": "Oefent getallen lezen in woorden."},
+    "money": {"full": "Munten tellen van groot naar klein geeft kinderen het geldinzicht dat ze elke dag in de winkel kunnen gebruiken.", "short": "Oefent munten tellen en rekenen met geld."},
+    "word-problems": {"full": "Een kort verhaaltje lezen, het plaatje bekijken en het antwoord opschrijven maakt van rekenen echt problemen oplossen.", "short": "Oefent verhaaltjessommen met plaatjeshulp."},
+    "column-arithmetic": {"full": "Kolom voor kolom rekenen, eerst de eenheden en dan de tientallen, legt de basis voor het rekenen met steeds grotere getallen.", "short": "Oefent optellen en aftrekken onder elkaar."},
+    "symmetry": {"full": "De spiegelhelft van een tekening vakje voor vakje afmaken traint ruimtelijk inzicht en heel precies werken op papier.", "short": "Oefent spiegelen en ruimtelijk inzicht."},
+    "reading-comprehension": {"full": "Een kort verhaaltje lezen en er vragen over beantwoorden traint het begrijpend lezen waar al het verdere leren op steunt.", "short": "Oefent begrijpend lezen van korte verhaaltjes."},
+    "multiplication-tables": {"full": "De tafels oefenen in rijtjes en door elkaar zorgt voor het vlotte opzeggen dat moeilijker rekenwerk makkelijk maakt.", "short": "Oefent het vlot opzeggen van de tafels."}
+  },
+  "topicMeta": {
+    "pre-writing": "Werkbladen met schrijfpatronen voor kleuters: lussen, golven en zigzaglijnen natrekken als voorbereiding op het leren schrijven. Gratis printbare pdf's.",
+    "number-tracing": "Cijfers schrijven oefenen: trek de cijfers 0 tot en met 9 na met startstip en pijltjes. Gratis printbare pdf's.",
+    "letter-tracing": "Letters overtrekken: hoofdletters natrekken op schrijfregels en daarna zelf schrijven. Gratis printbare pdf's.",
+    "sight-words": "Flitswoorden oefenen: veelvoorkomende woordjes lezen, natrekken en zelf schrijven. Gratis printbare pdf's.",
+    "cutting-practice": "Knipoefeningen voor kleuters: plaatjes uitknippen, sorteren en in het juiste vak plakken. Gratis printbare pdf's.",
+    "color-by-number": "Kleuren op code en rekenkleurplaten: reken de sommetjes uit en kleur elke vorm in de juiste kleur. Gratis printbare pdf's.",
+    "mazes": "Doolhoven voor kinderen: teken de weg van start naar finish en train overzicht en potloodbeheersing. Gratis printbare pdf's.",
+    "number-bonds": "Splitsen tot 10: vul de splitsingen en splitshuisjes aan en leg de basis voor vlot hoofdrekenen. Gratis printbare pdf's.",
+    "mental-math": "Hoofdrekenen tot 20: sommen om vlot uit het hoofd op te tellen en af te trekken. Gratis printbare pdf's.",
+    "fact-families": "Sommenfamilies: maak met drie getallen de vier bijbehorende plus- en minsommen. Gratis printbare pdf's.",
+    "number-words": "Getallen in woorden: lees het getal en omcirkel het juiste getalwoord. Gratis printbare pdf's.",
+    "money": "Rekenen met geld: euromunten tellen en het totaal opschrijven, net als in de winkel. Gratis printbare pdf's.",
+    "word-problems": "Verhaaltjessommen met plaatjes: lees het verhaaltje, bekijk het plaatje en schrijf het antwoord op. Gratis printbare pdf's.",
+    "column-arithmetic": "Sommen onder elkaar: optellen en aftrekken kolom voor kolom, netjes in vakjes. Gratis printbare pdf's.",
+    "symmetry": "Spiegelen en symmetrie: maak de andere helft van elke tekening af, vakje voor vakje. Gratis printbare pdf's.",
+    "reading-comprehension": "Begrijpend lezen: korte verhaaltjes met vragen voor groep 3 en groep 4. Gratis printbare pdf's.",
+    "multiplication-tables": "Tafels oefenen: keersommen uit de tafels van 1 tot en met 10, in rijtjes en door elkaar. Gratis printbare pdf's.",
+    "science-sort": "Sorteren bij natuuronderwijs: plaatjes indelen in groepen zoals levend en niet-levend of land, water en lucht. Gratis printbare pdf's.",
+    "science-sequence": "Volgorde in de natuur: zet de stappen van natuurlijke kringlopen in de juiste volgorde. Gratis printbare pdf's.",
+    "science-match": "Zoek bij elkaar wat bij elkaar hoort: dieren en hun jongen, beroepen en hun spullen. Gratis printbare pdf's.",
+    "beginning-sounds": "Beginklanken oefenen: zeg elk plaatje hardop en schrijf of sorteer de eerste letter. Gratis printbare pdf's.",
+    "letter-knowledge": "Letterkennis: hoofdletters en kleine letters bij elkaar zoeken, letters vinden en het alfabet afmaken. Gratis printbare pdf's.",
+    "word-building": "Woorden bouwen: schrijf de ontbrekende klank en bouw korte woordjes letter voor letter. Gratis printbare pdf's.",
+    "picture-vocabulary": "Woordenschat met plaatjes: woorden bij plaatjes zoeken en sorteren per categorie. Gratis printbare pdf's.",
+    "phonological-awareness": "Fonemisch bewustzijn: eindklanken, middenklanken, rijmparen en lettergrepen oefenen. Gratis printbare pdf's."
+  },
+  "figureNames": {
+    "heart": "hart", "butterfly": "vlinder", "rocket": "raket", "tree": "boom",
+    "house": "huis", "crown": "kroon", "star": "ster", "arrow": "pijl",
+    "flower": "bloem", "mushroom": "paddenstoel", "cat": "kat", "robot": "robot",
+    "apple": "appel", "diamond": "ruit", "ice-cream": "ijsje", "snowman": "sneeuwpop"
+  },
+  "sightWords": ["ik", "de", "het", "een", "en", "is", "in", "op", "van", "dat", "niet", "jij"],
+  "readingPassages": [
+    {
+      "id": "nl-poes-van-tess",
+      "title": "De poes van Tess",
+      "text": "Tess heeft een grijze poes. De poes heet Moos en hij slaapt graag in de zon op de vensterbank. Als Tess uit school komt, geeft ze Moos altijd eerst een aai.",
+      "questions": [
+        {"q": "Hoe heet de poes van Tess?", "choices": ["Max", "Moos", "Mees"], "correct": 1},
+        {"q": "Waar slaapt Moos graag?", "choices": ["In de zon op de vensterbank", "Onder het bed van Tess", "In een mand in de keuken"], "correct": 0},
+        {"q": "Waarom ligt Moos graag op de vensterbank?", "choices": ["Omdat hij daar eten krijgt", "Omdat hij bang is voor Tess", "Omdat het daar lekker warm is"], "correct": 2}
+      ]
+    },
+    {
+      "id": "nl-daan-bakt-pannenkoeken",
+      "title": "Daan bakt pannenkoeken",
+      "text": "Daan mag zaterdag helpen in de keuken. Samen met papa bakt hij pannenkoeken voor het hele gezin. Daan doet het meel en de melk in de kom en roert heel goed. De eerste pannenkoek mislukt een beetje, maar de tweede is precies goed. Iedereen aan tafel wil er nog een.",
+      "questions": [
+        {"q": "Wat bakken Daan en papa?", "choices": ["Koekjes", "Pannenkoeken", "Een taart"], "correct": 1},
+        {"q": "Wat doet Daan in de kom?", "choices": ["Suiker en boter", "Eieren en zout", "Meel en melk"], "correct": 2},
+        {"q": "Hoe weet je dat de pannenkoeken lekker zijn?", "choices": ["Iedereen wil er nog een", "De eerste pannenkoek mislukt", "Daan roert niet zo goed"], "correct": 0}
+      ]
+    },
+    {
+      "id": "nl-dagje-naar-het-strand",
+      "title": "Een dagje naar het strand",
+      "text": "Op zondag gaat Lotte met opa en oma naar het strand. Ze neemt haar emmer en haar schep mee. Eerst bouwt Lotte een groot zandkasteel met twee torens. Dan zoekt ze schelpen langs de zee en vindt er wel tien. Opa koopt voor iedereen een ijsje, want het is warm. Aan het einde van de dag valt Lotte moe maar blij in slaap in de auto.",
+      "questions": [
+        {"q": "Met wie gaat Lotte naar het strand?", "choices": ["Met papa en mama", "Met opa en oma", "Met haar vriendin"], "correct": 1},
+        {"q": "Hoeveel schelpen vindt Lotte?", "choices": ["Wel tien", "Precies twee", "Wel honderd"], "correct": 0},
+        {"q": "Waarom koopt opa voor iedereen een ijsje?", "choices": ["Omdat Lotte jarig is", "Omdat het regent", "Omdat het warm is"], "correct": 2}
+      ]
+    }
+  ],
+  "wordProblems": {
+    "nounCase": "lower",
+    "names": ["Emma", "Daan", "Julia", "Sem", "Tess", "Finn", "Lotte", "Luuk"],
+    "frames": {
+      "add": [
+        "{name} heeft {n1} {noun}. {name} krijgt er nog {n2} bij. Hoeveel {noun} heeft {name} nu?",
+        "{name} ziet {n1} {noun}. Dan ziet {name} nog {n2} {noun}. Hoeveel {noun} ziet {name} in totaal?",
+        "{name} vindt {n1} {noun}. Daarna vindt {name} nog {n2} {noun}. Hoeveel {noun} vindt {name} bij elkaar?",
+        "{name} telt {n1} {noun}. Even later telt {name} nog {n2} {noun}. Hoeveel {noun} zijn dat samen?"
+      ],
+      "sub": [
+        "{name} heeft {n1} {noun}. {name} geeft {n2} {noun} weg. Hoeveel {noun} heeft {name} nog over?",
+        "{name} heeft {n1} {noun}. {name} verliest er {n2}. Hoeveel {noun} heeft {name} nu nog?",
+        "Er zijn {n1} {noun}. {name} pakt er {n2} weg. Hoeveel {noun} zijn er nog over?"
+      ]
+    }
+  },
+  "audits": {
+    "colorWords": "OK: rood, blauw, geel, groen — kleine letters in de legenda.",
+    "currency": "OK: geen 1/2-cent in NL; set 5/10/20/50 cent klopt; 'ct' bevestigd. Suggestie later: €1/€2 voor groep 4.",
+    "numberWords": "OK alle 10; trema-regel klopt (tweeëntwintig, tweeënnegentig).",
+    "englishSource": "Frame slot rule needs n1+n2 ≤ 20 enforcement (generator already does); G3-357 vague EN idiom; K-242 hard-codes top/bottom."
+  },
+  "notes": "nl digit forms = 'dutch' variant (short lead-in 1, UNCROSSED 7 — Pennenstreken model; applied by integrator). K-238 d3 features the IJ digraph (two capitals together; applied to letter-sets). figureNames deliberately lowercase (Dutch worksheet caption convention). Bands: K = kleuters (groep 1-2), G1 = groep 3, G2 = groep 4, G3 = groep 5. G2-251 named 'sommen onder elkaar' (groep 4 honest term; cijferend rekenen is groep 5+). Clock: kleine wijzer = uur, grote wijzer = minuten. Multiplication glyph × ('keer')."
+}

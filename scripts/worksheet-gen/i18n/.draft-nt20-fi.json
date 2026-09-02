@@ -1,0 +1,452 @@
+{
+  "locale": "fi",
+  "types": {
+    "K-236": {
+      "title": "Kynäharjoitukset: viivat ja silmukat",
+      "instruction": "Piirrä viivaa pitkin kynällä. Aloita oranssista pisteestä ja seuraa nuolta."
+    },
+    "K-237": {
+      "title": "Numeroiden kirjoitusharjoitus 0–9",
+      "instruction": "Kirjoita numerot viivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia."
+    },
+    "K-238": {
+      "title": "Isojen kirjainten kirjoitusharjoitus",
+      "instruction": "Kirjoita kirjaimet katkoviivoja pitkin. Kokeile sitten itse tyhjälle viivalle."
+    },
+    "K-239": {
+      "title": "Yleiset sanat: lue, jäljennä, kirjoita",
+      "instruction": "Lue sana. Kirjoita se ensin katkoviivojen päälle ja sitten itse tyhjälle viivalle."
+    },
+    "K-240": {
+      "title": "Leikkaa, lajittele ja liimaa",
+      "instruction": "Leikkaa kuvat irti sivun alareunasta. Lajittele ne ja liimaa jokainen omaan laatikkoonsa."
+    },
+    "K-241": {
+      "title": "Väritä koodin mukaan",
+      "instruction": "Katso värikoodia. Väritä jokainen kuvio koodin mukaisella värillä."
+    },
+    "K-242": {
+      "title": "Labyrintti",
+      "instruction": "Aloita ylhäältä. Piirrä reitti labyrintin läpi maaliin asti."
+    },
+    "K-243": {
+      "title": "Lukujen hajotelmat 10:een",
+      "instruction": "Katso hajotelmaa. Kirjoita puuttuva luku tyhjään ympyrään."
+    },
+    "G1-208": {
+      "title": "Päässälaskut 0–20",
+      "instruction": "Laske jokainen tehtävä päässäsi ja kirjoita vastaus laatikkoon."
+    },
+    "G1-209": {
+      "title": "Laskuperheet",
+      "instruction": "Katso katon kolmea lukua. Täydennä neljä laskua, jotka kuuluvat samaan laskuperheeseen."
+    },
+    "G1-210": {
+      "title": "Lukusanat",
+      "instruction": "Lue numero huolellisesti ja ympyröi lukusana, joka tarkoittaa samaa lukua."
+    },
+    "G1-211": {
+      "title": "Rahalaskut: eurot ja sentit",
+      "instruction": "Laske kukkaron kolikot yhteen. Kirjoita rahasumma laatikkoon."
+    },
+    "G1-212": {
+      "title": "Piirrä kellon viisarit",
+      "instruction": "Lue aika kellon alta. Piirrä kelloon tuntiviisari ja minuuttiviisari."
+    },
+    "G1-213": {
+      "title": "Sanalliset tehtävät kuvien avulla",
+      "instruction": "Lue tarina rauhassa. Katso kuvia avuksi ja kirjoita vastaus laatikkoon."
+    },
+    "G2-251": {
+      "title": "Yhteen- ja vähennyslasku allekkain",
+      "instruction": "Laske yksi numeropaikka kerrallaan. Aloita ykkösistä."
+    },
+    "G2-252": {
+      "title": "Tilavuus ja massa",
+      "instruction": "Lue mitta-astian ja vaa'an lukema. Kirjoita vastaus ja yksikkö laatikkoon."
+    },
+    "G2-253": {
+      "title": "Täydennä peilikuva",
+      "instruction": "Kuvasta on valmiina vain puolet. Väritä ruudut viivan toiselle puolelle niin, että kuvasta tulee symmetrinen."
+    },
+    "G2-254": {
+      "title": "Lue ja vastaa",
+      "instruction": "Lue tarina huolellisesti. Ympyröi sitten jokaiseen kysymykseen oikea vastaus."
+    },
+    "G3-357": {
+      "title": "Allekkain laskeminen kymmenylityksellä",
+      "instruction": "Laske tehtävät allekkain. Muista muistinumero yhteenlaskussa ja lainaaminen vähennyslaskussa."
+    },
+    "G3-358": {
+      "title": "Kertotauluharjoitus",
+      "instruction": "Laske kertolaskut ja kirjoita jokainen vastaus omaan laatikkoonsa."
+    }
+  },
+  "families": {
+    "pre-writing": {
+      "slug": "kynaharjoitukset",
+      "name": "Kynäharjoitukset"
+    },
+    "number-tracing": {
+      "slug": "numeroiden-kirjoittaminen",
+      "name": "Numeroiden kirjoittaminen"
+    },
+    "letter-tracing": {
+      "slug": "kirjainten-kirjoittaminen",
+      "name": "Kirjainten kirjoittaminen"
+    },
+    "sight-words": {
+      "slug": "yleiset-sanat",
+      "name": "Yleiset sanat"
+    },
+    "cutting-practice": {
+      "slug": "leikkaa-ja-liimaa",
+      "name": "Leikkaa ja liimaa"
+    },
+    "color-by-number": {
+      "slug": "varityslaskut",
+      "name": "Värityslaskut"
+    },
+    "mazes": {
+      "slug": "labyrintit",
+      "name": "Labyrintit"
+    },
+    "number-bonds": {
+      "slug": "lukujen-hajotelmat",
+      "name": "Lukujen hajotelmat"
+    },
+    "mental-math": {
+      "slug": "paassalaskut",
+      "name": "Päässälaskut"
+    },
+    "fact-families": {
+      "slug": "laskuperheet",
+      "name": "Laskuperheet"
+    },
+    "number-words": {
+      "slug": "lukusanat",
+      "name": "Lukusanat"
+    },
+    "money": {
+      "slug": "rahalaskut",
+      "name": "Rahalaskut"
+    },
+    "word-problems": {
+      "slug": "sanalliset-tehtavat",
+      "name": "Sanalliset tehtävät"
+    },
+    "column-arithmetic": {
+      "slug": "allekkain-laskeminen",
+      "name": "Allekkain laskeminen"
+    },
+    "symmetry": {
+      "slug": "symmetria",
+      "name": "Symmetria"
+    },
+    "reading-comprehension": {
+      "slug": "luetun-ymmartaminen",
+      "name": "Luetun ymmärtäminen"
+    },
+    "multiplication-tables": {
+      "slug": "kertotaulut",
+      "name": "Kertotaulut"
+    }
+  },
+  "skills": {
+    "pre-writing": {
+      "full": "Silmukoiden, aaltojen ja sahalaitojen jäljentäminen vahvistaa kynänhallintaa, jolle kaikki kirjaimet ja numerot rakentuvat.",
+      "short": "Vahvistaa kynänhallintaa ja hienomotoriikkaa."
+    },
+    "number-tracing": {
+      "full": "Numeroiden jäljentäminen aloituspisteen ja nuolten avulla opettaa oikean piirtosuunnan heti ensimmäisestä yrityksestä alkaen.",
+      "short": "Opettaa numeroiden oikean kirjoitustavan."
+    },
+    "letter-tracing": {
+      "full": "Isojen kirjainten jäljentäminen viivastolle vahvistaa kirjainmuotojen muistamista ja varmoja kynänvetoja kirjoittamisen pohjaksi.",
+      "short": "Vahvistaa isojen kirjainten kirjoittamista."
+    },
+    "sight-words": {
+      "full": "Yleisten sanojen lukeminen, jäljentäminen ja kirjoittaminen sujuvoittaa lukemista, jolloin huomio riittää tekstin merkitykseen.",
+      "short": "Sujuvoittaa yleisten sanojen lukemista."
+    },
+    "cutting-practice": {
+      "full": "Kuvien leikkaaminen ja liimaaminen oikeaan ryhmään harjoittaa saksien käyttöä ja luokittelun alkeita samalla kertaa.",
+      "short": "Harjoittaa saksien käyttöä ja luokittelua."
+    },
+    "color-by-number": {
+      "full": "Koodin ja värin yhdistäminen muuttaa tarkan katsomisen ja pienet laskut kuvaksi, jonka lapsi haluaa saada valmiiksi.",
+      "short": "Vahvistaa laskusujuvuutta värittämällä."
+    },
+    "mazes": {
+      "full": "Ainoan oikean reitin etsiminen labyrintista kehittää hahmottamista, kynänhallintaa ja kärsivällistä ongelmanratkaisua.",
+      "short": "Kehittää hahmottamista ja kynänhallintaa."
+    },
+    "number-bonds": {
+      "full": "Hajotelmien täydentäminen näyttää, miten luku jakautuu osiin, ja rakentaa perustan sujuvalle päässälaskulle.",
+      "short": "Vahvistaa lukujen hajottamista kymmeneen."
+    },
+    "mental-math": {
+      "full": "Yhteen- ja vähennyslaskut päässä lukualueella 0–20 rakentavat laskusujuvuuden, jonka varaan kirjalliset laskutavat perustuvat.",
+      "short": "Vahvistaa laskusujuvuutta lukualueella 0–20."
+    },
+    "fact-families": {
+      "full": "Saman lukukolmikon neljän laskun täydentäminen näyttää, miten yhteen- ja vähennyslasku ovat toistensa käänteisiä toimituksia.",
+      "short": "Opettaa käänteisten laskutoimitusten yhteyden."
+    },
+    "number-words": {
+      "full": "Numeron ja lukusanan yhdistäminen vahvistaa lukujen lukemista ja ehkäisee numeroiden paikkojen sekoittumista.",
+      "short": "Vahvistaa lukusanojen lukemista."
+    },
+    "money": {
+      "full": "Kolikoiden arvojen laskeminen suurimmasta pienimpään harjaannuttaa rahan käyttöä, jota lapsi tarvitsee jokapäiväisessä arjessa.",
+      "short": "Harjaannuttaa rahan laskemista kolikoilla."
+    },
+    "word-problems": {
+      "full": "Lyhyen tarinan lukeminen, kuvan tutkiminen ja vastauksen kirjoittaminen tekevät laskemisesta todellista ongelmanratkaisua.",
+      "short": "Harjoittaa sanallisten tehtävien ratkaisemista."
+    },
+    "column-arithmetic": {
+      "full": "Laskeminen allekkain yksi numeropaikka kerrallaan opettaa huolellisen kirjallisen laskutavan yhä suuremmille luvuille.",
+      "short": "Opettaa allekkain laskemisen taidon."
+    },
+    "symmetry": {
+      "full": "Peilikuvan täydentäminen ruutu ruudulta kehittää symmetrian ymmärtämistä ja tarkkaa avaruudellista hahmottamista.",
+      "short": "Kehittää symmetrian ymmärtämistä."
+    },
+    "reading-comprehension": {
+      "full": "Lyhyen tarinan lukeminen ja kysymyksiin vastaaminen kehittävät luetun ymmärtämistä, jonka varassa kaikki oppiminen lepää.",
+      "short": "Kehittää luetun ymmärtämistä."
+    },
+    "multiplication-tables": {
+      "full": "Kertotaulujen harjoittelu sarjoina ja sekaisin rakentaa nopean muistamisen, joka tekee vaativammastakin matematiikasta helpompaa.",
+      "short": "Vahvistaa kertotaulujen osaamista."
+    }
+  },
+  "topicMeta": {
+    "pre-writing": "Kynäharjoituksia eskariin ja esiopetukseen: silmukoita, aaltoja ja sahalaitoja, jotka valmistavat kättä kirjoittamaan. Ilmaiset tulostettavat PDF-tiedostot.",
+    "number-tracing": "Numeroiden kirjoitusharjoituksia: jäljennä numerot 0–9 aloituspisteen ja nuolten avulla. Ilmaiset tulostettavat PDF-tiedostot.",
+    "letter-tracing": "Kirjainten kirjoitusharjoituksia: jäljennä isot kirjaimet viivastolle ja kirjoita sitten itse. Ilmaiset tulostettavat PDF-tiedostot.",
+    "sight-words": "Yleisten sanojen harjoituksia lukusujuvuuteen: lue, jäljennä ja kirjoita tavallisimpia sanoja. Ilmaiset tulostettavat PDF-tiedostot.",
+    "cutting-practice": "Leikkaa ja liimaa -tehtäviä: leikkaa kuvat, lajittele ne ryhmiin ja liimaa paikoilleen. Ilmaiset tulostettavat PDF-tiedostot.",
+    "color-by-number": "Värityslaskuja: laske pieni lasku, katso värikoodia ja väritä kuva oikeilla väreillä. Ilmaiset tulostettavat PDF-tiedostot.",
+    "mazes": "Labyrintteja lapsille: etsi reitti sokkelon läpi ja vahvista samalla kynänhallintaa. Ilmaiset tulostettavat PDF-tiedostot.",
+    "number-bonds": "Lukujen hajotelmia: täydennä puuttuva osa ja opi, miten luvut jakautuvat osiin. Ilmaiset tulostettavat PDF-tiedostot.",
+    "mental-math": "Päässälaskuja lukualueella 0–20: yhteen- ja vähennyslaskuja sujuvuuden harjoitteluun. Ilmaiset tulostettavat PDF-tiedostot.",
+    "fact-families": "Laskuperheitä: täydennä saman lukukolmikon neljä yhteen- ja vähennyslaskua. Ilmaiset tulostettavat PDF-tiedostot.",
+    "number-words": "Lukusanatehtäviä: lue numero ja yhdistä se oikeaan lukusanaan. Ilmaiset tulostettavat PDF-tiedostot.",
+    "money": "Rahalaskuja euroilla ja senteillä: laske kukkaron kolikot yhteen. Ilmaiset tulostettavat PDF-tiedostot.",
+    "word-problems": "Sanallisia tehtäviä kuvien tuella: lue tarina, laske ja kirjoita vastaus. Ilmaiset tulostettavat PDF-tiedostot.",
+    "column-arithmetic": "Allekkain laskemisen harjoituksia: yhteen- ja vähennyslaskuja numeropaikka kerrallaan. Ilmaiset tulostettavat PDF-tiedostot.",
+    "symmetry": "Symmetriatehtäviä: väritä kuvan peilikuvapuoli ruutu ruudulta valmiiksi. Ilmaiset tulostettavat PDF-tiedostot.",
+    "reading-comprehension": "Luetun ymmärtämisen tehtäviä: lue lyhyt tarina ja vastaa kysymyksiin. Ilmaiset tulostettavat PDF-tiedostot.",
+    "multiplication-tables": "Kertotauluharjoituksia: harjoittele kertolaskuja, kunnes vastaukset muistuvat mieleen heti. Ilmaiset tulostettavat PDF-tiedostot.",
+    "science-sort": "Luonnontiedon lajittelutehtäviä: lajittele kuvat ryhmiin, kuten elollinen ja eloton tai maa, vesi ja ilma. Ilmaiset tulostettavat PDF-tiedostot.",
+    "science-sequence": "Luonnontiedon järjestämistehtäviä: laita luonnon kiertokulkujen vaiheet oikeaan järjestykseen. Ilmaiset tulostettavat PDF-tiedostot.",
+    "science-match": "Luonnontiedon yhdistämistehtäviä: yhdistä eläinten poikaset, ammattilaiset ja muut parit. Ilmaiset tulostettavat PDF-tiedostot.",
+    "beginning-sounds": "Alkuäännetehtäviä: sano kuvan sana ääneen ja kirjoita tai lajittele sen ensimmäinen kirjain. Ilmaiset tulostettavat PDF-tiedostot.",
+    "letter-knowledge": "Kirjaintuntemuksen tehtäviä: yhdistä isot ja pienet kirjaimet, etsi kirjaimia ja täydennä aakkoset. Ilmaiset tulostettavat PDF-tiedostot.",
+    "word-building": "Sananrakennustehtäviä: kirjoita puuttuva kirjain ja kokoa lyhyitä sanoja kirjain kirjaimelta. Ilmaiset tulostettavat PDF-tiedostot.",
+    "picture-vocabulary": "Kuvasanastotehtäviä: yhdistä sanat kuviin ja lajittele ne aihepiireittäin. Ilmaiset tulostettavat PDF-tiedostot.",
+    "phonological-awareness": "Kielellisen tietoisuuden tehtäviä: loppuäänteet, keskiäänteet, riimiparit ja tavut. Ilmaiset tulostettavat PDF-tiedostot."
+  },
+  "figureNames": {
+    "heart": "sydän",
+    "butterfly": "perhonen",
+    "rocket": "raketti",
+    "tree": "puu",
+    "house": "talo",
+    "crown": "kruunu",
+    "star": "tähti",
+    "arrow": "nuoli",
+    "flower": "kukka",
+    "mushroom": "sieni",
+    "cat": "kissa",
+    "robot": "robotti",
+    "apple": "omena",
+    "diamond": "vinoneliö",
+    "ice-cream": "jäätelö",
+    "snowman": "lumiukko"
+  },
+  "sightWords": [
+    "ja",
+    "on",
+    "ei",
+    "se",
+    "minä",
+    "sinä",
+    "hän",
+    "me",
+    "tämä",
+    "mikä",
+    "äiti",
+    "isä"
+  ],
+  "readingPassages": [
+    {
+      "id": "fi-r0",
+      "title": "Ainon kissa",
+      "text": "Ainolla on harmaa kissa nimeltä Viiru. Aamulla Viiru hyppää Ainon sängylle ja herättää hänet hiljaa naukumalla. Aino antaa Viirulle ruokaa ja silittää sitä, ennen kuin lähtee kouluun.",
+      "questions": [
+        {
+          "q": "Minkä värinen Ainon kissa on?",
+          "choices": [
+            "musta",
+            "harmaa",
+            "valkoinen"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Miten Viiru herättää Ainon?",
+          "choices": [
+            "naukumalla hiljaa",
+            "haukkumalla kovaa",
+            "raapimalla ovea"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Mihin aikaan päivästä tarina tapahtuu?",
+          "choices": [
+            "illalla",
+            "yöllä",
+            "aamulla"
+          ],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "id": "fi-r1",
+      "title": "Onnin pyöräretki",
+      "text": "Onni ja hänen isänsä lähtivät sunnuntaina pyöräretkelle. He ajoivat kapeaa metsätietä pitkin järven rantaan ja pysähtyivät syömään eväitä. Onni löysi rannalta sileän kiven ja pisti sen taskuunsa muistoksi. Kotimatkalla alkoi sataa, ja he polkivat kovaa vauhtia kotiin. Perillä äiti keitti heille lämmintä kaakaota.",
+      "questions": [
+        {
+          "q": "Minne Onni ja isä ajoivat pyörillä?",
+          "choices": [
+            "järven rantaan",
+            "kauppaan",
+            "mummolaan"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Mitä Onni löysi rannalta?",
+          "choices": [
+            "simpukan",
+            "kiven",
+            "kävyn"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Miksi Onni ja isä polkivat kotimatkalla kovaa vauhtia?",
+          "choices": [
+            "koska alkoi sataa",
+            "koska he olivat myöhässä",
+            "koska heitä paleli"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": "fi-r2",
+      "title": "Helmin leipomispäivä",
+      "text": "Helmi ja mummo päättivät leipoa pullaa lauantaina. Helmi mittasi jauhot kulhoon, ja mummo lisäsi hiivan ja maidon. Taikina sai kohota keittiön lämmössä, ja odottaessaan Helmi piirsi kuvan mummolle. Sitten he pyörittivät taikinasta pieniä pullia ja ripottelivat päälle sokeria. Kun pullat paistuivat uunissa, koko keittiö tuoksui niin ihanalta, että Helmin vatsa kurni. Illalla Helmi vei kaksi pullaa naapurin Väinölle, joka kiitti ja hymyili leveästi.",
+      "questions": [
+        {
+          "q": "Mitä Helmi ja mummo leipoivat?",
+          "choices": [
+            "leipää",
+            "piirakkaa",
+            "pullaa"
+          ],
+          "correct": 2
+        },
+        {
+          "q": "Mitä Helmi teki, kun taikina kohosi?",
+          "choices": [
+            "piirsi kuvan mummolle",
+            "luki kirjaa",
+            "leikki pihalla"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Miltä Väinöstä tuntui, kun hän sai pullat?",
+          "choices": [
+            "surulliselta",
+            "iloiselta",
+            "väsyneeltä"
+          ],
+          "correct": 1
+        }
+      ]
+    }
+  ],
+  "wordProblems": {
+    "nounCase": "lower",
+    "nounForm": "partitive",
+    "names": [
+      "Aino",
+      "Eeli",
+      "Sofia",
+      "Onni",
+      "Aada",
+      "Väinö",
+      "Helmi",
+      "Leo"
+    ],
+    "frames": {
+      "add": [
+        "{name} saa aamulla {n1} {noun} ja iltapäivällä vielä {n2} {noun}. Kuinka monta {noun} {name} saa yhteensä?",
+        "{name} löytää ensin {n1} {noun} ja sitten vielä {n2} {noun}. Kuinka monta {noun} {name} löytää kaikkiaan?",
+        "Korissa on {n1} {noun}. {name} laittaa koriin vielä {n2} {noun}. Kuinka monta {noun} korissa on nyt?",
+        "{name} näkee kuvassa {n1} {noun} ja toisessa kuvassa {n2} {noun}. Kuinka monta {noun} {name} näkee yhteensä?"
+      ],
+      "sub": [
+        "Korissa on {n1} {noun}. {name} ottaa niistä pois {n2}. Kuinka monta {noun} koriin jää?",
+        "{name} saa {n1} {noun} ja antaa niistä pois {n2}. Kuinka monta {noun} jää jäljelle?",
+        "{name} kantaa {n1} {noun}. Matkalla niistä putoaa {n2}. Kuinka monta {noun} {name} kantaa perille?"
+      ]
+    },
+    "nounForms": {
+      "avocado": "avokadoa",
+      "apricot": "aprikoosia",
+      "banana": "banaania",
+      "apple": "omenaa",
+      "blackberry": "karhunvatukkaa",
+      "blueberry": "mustikkaa",
+      "cherry": "kirsikkaa",
+      "clementine": "klementiiniä",
+      "coconut": "kookospähkinää",
+      "fig": "viikunaa",
+      "cranberry": "karpaloa",
+      "grapefruit": "greippiä",
+      "kiwi": "kiiviä",
+      "lemon": "sitruunaa",
+      "lime": "limettiä",
+      "mango": "mangoa",
+      "orange": "appelsiinia",
+      "papaya": "papaijaa",
+      "peach": "persikkaa",
+      "nectarine": "nektariinia",
+      "pear": "päärynää",
+      "persimmon": "persimonia",
+      "pineapple": "ananasta",
+      "plum": "luumua",
+      "pomegranate": "granaattiomenaa",
+      "watermelon": "vesimelonia",
+      "strawberry": "mansikkaa",
+      "raspberry": "vadelmaa"
+    }
+  },
+  "audits": {
+    "colorWords": "OK — punainen, sininen, keltainen, vihreä; pienellä alkukirjaimella legendassa.",
+    "currency": "OK — kolikot 5/10/20/50 snt (ei 1/2 snt Suomessa); KAIKKI summat 5:llä jaollisia (coin set guarantees this); 'snt' on oikea koulumuoto; summat alle euron.",
+    "numberWords": "OK kaikki 10, yhteen kirjoitettuina. DIGIT FORMS: ukorsattu 7 + lyhyt aloitusviiva 1 (applied: fi → dutch variant). GLYPH: '·' vahvistettu.",
+    "englishSource": "K-238 empty-line mismatch (fixed by integrator); K-241 type/family naming inconsistency; G3-357 vague idiom; the plural-after-digit premise is not universal — partitive support added."
+  },
+  "notes": "[NSR-FLAG][fi] {name} stays strictly NOMINATIVE in every frame (case suffixes vary by vowel harmony); {noun} = curated partitive singular; n1/n2 must be ≥2 (generator already enforces); 'Kuinka monta' governs the same partitive. Letter d3: Ä Ö featured (Å near-absent natively). 'vinoneliö' = school term for diamond. Slugs ASCII-folded (kynaharjoitukset, varityslaskut, paassalaskut, sanalliset-tehtavat, luetun-ymmartaminen)."
+}

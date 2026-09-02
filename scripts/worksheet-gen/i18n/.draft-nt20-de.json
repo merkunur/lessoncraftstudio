@@ -1,0 +1,153 @@
+{
+  "locale": "de",
+  "types": {
+    "K-236": {"title": "Schwungübungen", "instruction": "Spure jede Linie mit dem Stift nach. Beginne am orangen Punkt und folge dem Pfeil."},
+    "K-237": {"title": "Zahlen schreiben lernen", "instruction": "Spure jede Zahl nach. Beginne am orangen Punkt und folge den Pfeilen."},
+    "K-238": {"title": "Großbuchstaben nachspuren", "instruction": "Spure jeden Buchstaben nach. Schreibe ihn dann allein auf die leere Linie."},
+    "K-239": {"title": "Lernwörter üben", "instruction": "Lies das Wort. Spure es nach. Schreibe es dann selbst auf die leere Linie."},
+    "K-240": {"title": "Ausschneiden und Aufkleben", "instruction": "Schneide die Bilder unten aus. Ordne sie und klebe jedes in sein Kästchen."},
+    "K-241": {"title": "Rechnen und Ausmalen", "instruction": "Schau genau auf den Farbcode. Male jede Form in der passenden Farbe aus."},
+    "K-242": {"title": "Durch das Labyrinth", "instruction": "Starte oben. Zeichne einen Weg durch das Labyrinth bis zum Ziel unten."},
+    "K-243": {"title": "Zahlzerlegung bis 10", "instruction": "Schau dir jede Zahlzerlegung an. Schreibe die fehlende Zahl in den gestrichelten Kreis."},
+    "G1-208": {"title": "Kopfrechnen bis 20", "instruction": "Rechne jede Aufgabe im Kopf. Schreibe die fehlende Zahl in das Kästchen."},
+    "G1-209": {"title": "Aufgabenfamilien üben", "instruction": "Nimm die drei Zahlen auf dem Dach. Vervollständige die vier Aufgaben, die dazugehören."},
+    "G1-210": {"title": "Zahlwörter lesen", "instruction": "Lies die große Zahl. Kreise das Zahlwort ein, das genau dazu passt."},
+    "G1-211": {"title": "Rechnen mit Geld", "instruction": "Zähle die Münzen in jedem Geldbeutel. Schreibe den Betrag in das Kästchen."},
+    "G1-212": {"title": "Uhrzeiger einzeichnen", "instruction": "Lies die Uhrzeit. Zeichne den Stundenzeiger und den Minutenzeiger in die Uhr ein."},
+    "G1-213": {"title": "Rechengeschichten mit Bildern", "instruction": "Lies jede Rechengeschichte. Die Bilder helfen dir. Schreibe die Antwort in das Kästchen."},
+    "G2-251": {"title": "Schriftlich rechnen ohne Übertrag", "instruction": "Rechne jede Aufgabe Stelle für Stelle: zuerst die Einer, dann die Zehner."},
+    "G2-252": {"title": "Messbecher und Waagen ablesen", "instruction": "Lies jeden Messbecher und jede Waage genau ab. Schreibe die Menge mit ihrer Einheit auf."},
+    "G2-253": {"title": "Spiegelbilder vervollständigen", "instruction": "Jedes Bild ist nur halb fertig. Male die Kästchen auf der anderen Seite der Spiegelachse an."},
+    "G2-254": {"title": "Lesetext mit Fragen", "instruction": "Lies die Geschichte genau. Kreise dann bei jeder Frage die richtige Antwort ein."},
+    "G3-357": {"title": "Schriftlich rechnen mit Übertrag", "instruction": "Rechne jede Aufgabe schriftlich Stelle für Stelle. Vergiss den Übertrag nicht."},
+    "G3-358": {"title": "Einmaleins üben", "instruction": "Rechne jede Malaufgabe. Schreibe das Ergebnis in das Kästchen."}
+  },
+  "families": {
+    "pre-writing": {"slug": "schwunguebungen", "name": "Schwungübungen"},
+    "number-tracing": {"slug": "zahlen-schreiben-lernen", "name": "Zahlen schreiben lernen"},
+    "letter-tracing": {"slug": "buchstaben-nachspuren", "name": "Buchstaben nachspuren"},
+    "sight-words": {"slug": "lernwoerter", "name": "Lernwörter"},
+    "cutting-practice": {"slug": "schneideuebungen", "name": "Schneideübungen"},
+    "color-by-number": {"slug": "rechnen-und-ausmalen", "name": "Rechnen und Ausmalen"},
+    "mazes": {"slug": "labyrinthe", "name": "Labyrinthe"},
+    "number-bonds": {"slug": "zahlzerlegung", "name": "Zahlzerlegung"},
+    "mental-math": {"slug": "kopfrechnen", "name": "Kopfrechnen"},
+    "fact-families": {"slug": "aufgabenfamilien", "name": "Aufgabenfamilien"},
+    "number-words": {"slug": "zahlwoerter", "name": "Zahlwörter"},
+    "money": {"slug": "rechnen-mit-geld", "name": "Rechnen mit Geld"},
+    "word-problems": {"slug": "sachaufgaben", "name": "Sachaufgaben"},
+    "column-arithmetic": {"slug": "schriftlich-rechnen", "name": "Schriftlich rechnen"},
+    "symmetry": {"slug": "symmetrie", "name": "Symmetrie"},
+    "reading-comprehension": {"slug": "leseverstaendnis", "name": "Leseverständnis"},
+    "multiplication-tables": {"slug": "kleines-einmaleins", "name": "Kleines Einmaleins"}
+  },
+  "skills": {
+    "pre-writing": {"full": "Schleifen, Wellen und Zickzacklinien nachzuspuren trainiert die Stiftführung und die Feinmotorik, auf der jeder Buchstabe aufbaut.", "short": "Trainiert Stiftführung und Feinmotorik."},
+    "number-tracing": {"full": "Jede Ziffer mit Startpunkt und Pfeilen nachzuspuren übt von Anfang an den richtigen Bewegungsablauf beim Zahlenschreiben.", "short": "Übt das richtige Schreiben der Ziffern."},
+    "letter-tracing": {"full": "Großbuchstaben auf Schreiblinien nachzuspuren prägt die Buchstabenformen ein und macht die ersten Schreibversuche sicher.", "short": "Prägt die Formen der Großbuchstaben ein."},
+    "sight-words": {"full": "Häufige Wörter zu lesen, nachzuspuren und zu schreiben verankert sie im Gedächtnis, damit Lesen und Schreiben leichter werden.", "short": "Verankert häufige Lernwörter im Gedächtnis."},
+    "cutting-practice": {"full": "Bilder ausschneiden, sortieren und aufkleben schult die Scherenführung und das erste Ordnen nach Gruppen in einer Aufgabe.", "short": "Schult Scherenführung und erstes Sortieren."},
+    "color-by-number": {"full": "Wer jeden Code seiner Farbe zuordnet, übt genaues Schauen und erste Rechenaufgaben, bis ein fertiges Bild entsteht.", "short": "Übt Rechnen und genaues Schauen beim Ausmalen."},
+    "mazes": {"full": "Den einen Weg durch das Labyrinth zu finden schult vorausschauendes Denken, Stiftführung und geduldiges Probieren.", "short": "Schult Auge, Stiftführung und Geduld."},
+    "number-bonds": {"full": "Die Zerlegung in Teil, Teil und Ganzes zeigt, wie Zahlen auseinandergehen, und legt die Basis für sicheres Kopfrechnen.", "short": "Übt die Zerlegung der Zahlen bis 10."},
+    "mental-math": {"full": "Plus- und Minusaufgaben bis 20 im Kopf zu lösen schafft die Rechensicherheit, auf der alle schriftlichen Verfahren aufbauen.", "short": "Übt sicheres Plus- und Minusrechnen bis 20."},
+    "fact-families": {"full": "Aus einem Zahlentrio alle vier Aufgaben zu bilden zeigt, wie Plus und Minus zusammengehören und sich gegenseitig umkehren.", "short": "Zeigt, wie Plus und Minus zusammengehören."},
+    "number-words": {"full": "Zahlen ihren Zahlwörtern zuzuordnen festigt das Lesen von Zahlen und beugt dem Verdrehen der Ziffern sicher vor.", "short": "Festigt das sichere Lesen der Zahlwörter."},
+    "money": {"full": "Münzwerte der Größe nach zu zählen baut das Verständnis für Geld auf, das Kinder im Alltag jeden Tag brauchen.", "short": "Übt das Zählen von Münzen und Geldbeträgen."},
+    "word-problems": {"full": "Eine kurze Geschichte lesen, das Bild prüfen und die Antwort schreiben — so wird aus dem Rechnen echtes Problemlösen.", "short": "Übt Sachaufgaben mit Bildern als Hilfe."},
+    "column-arithmetic": {"full": "Stelle für Stelle untereinander zu rechnen übt das sorgfältige schriftliche Verfahren für immer größere Zahlen.", "short": "Übt das schriftliche Rechnen Stelle für Stelle."},
+    "symmetry": {"full": "Die Spiegelhälfte eines Bildes Kästchen für Kästchen zu ergänzen schult Symmetrieverständnis und genaues räumliches Zeichnen.", "short": "Schult Symmetrie und genaues Zeichnen."},
+    "reading-comprehension": {"full": "Eine kurze Geschichte lesen und Fragen dazu beantworten übt das genaue Verstehen, auf dem alles Lernen aufbaut.", "short": "Übt genaues Lesen und sicheres Verstehen."},
+    "multiplication-tables": {"full": "Einmaleinsreihen und gemischte Aufgaben zu üben führt zum blitzschnellen Abrufen, das schwerere Mathematik leicht macht.", "short": "Übt das Einmaleins bis zum sicheren Abruf."}
+  },
+  "topicMeta": {
+    "pre-writing": "Schwungübungen zum Nachspuren: Schleifen, Wellen und Zickzacklinien machen die Hand fürs Schreiben stark. Kostenlose PDFs zum Ausdrucken.",
+    "number-tracing": "Zahlen schreiben lernen: Ziffern von 0 bis 9 mit Startpunkt und Pfeilen nachspuren. Kostenlose PDFs zum Ausdrucken.",
+    "letter-tracing": "Buchstaben nachspuren: Großbuchstaben von A bis Z und Ä, Ö, Ü auf Schreiblinien üben. Kostenlose PDFs zum Ausdrucken.",
+    "sight-words": "Lernwörter üben: häufige Wörter lesen, nachspuren und selbst schreiben. Kostenlose PDFs zum Ausdrucken.",
+    "cutting-practice": "Schneideübungen: Bilder ausschneiden, sortieren und aufkleben — Scherenführung Schritt für Schritt. Kostenlose PDFs zum Ausdrucken.",
+    "color-by-number": "Rechnen und Ausmalen: Aufgabe lösen, Farbe finden und das Bild fertig ausmalen. Kostenlose PDFs zum Ausdrucken.",
+    "mazes": "Labyrinthe für Kinder: den Weg vom Start bis zum Ziel finden und dabei ganz genau schauen. Kostenlose PDFs zum Ausdrucken.",
+    "number-bonds": "Zahlzerlegung: Zahlen bis 10 in Teil und Teil zerlegen und die verliebten Zahlen sicher üben. Kostenlose PDFs zum Ausdrucken.",
+    "mental-math": "Kopfrechnen bis 20: Plus- und Minusaufgaben ohne Anschreiben sicher lösen. Kostenlose PDFs zum Ausdrucken.",
+    "fact-families": "Aufgabenfamilien: aus drei Zahlen alle vier Plus- und Minusaufgaben bilden — mit Tausch- und Umkehraufgaben. Kostenlose PDFs zum Ausdrucken.",
+    "number-words": "Zahlwörter lesen und den Zahlen zuordnen: von null bis hundert sicher werden. Kostenlose PDFs zum Ausdrucken.",
+    "money": "Rechnen mit Geld: Euro- und Cent-Münzen zählen und Beträge aufschreiben. Kostenlose PDFs zum Ausdrucken.",
+    "word-problems": "Sachaufgaben und Rechengeschichten mit Bildern: lesen, verstehen und die Antwort finden. Kostenlose PDFs zum Ausdrucken.",
+    "column-arithmetic": "Schriftlich rechnen: Addition und Subtraktion Stelle für Stelle — ohne und mit Übertrag. Kostenlose PDFs zum Ausdrucken.",
+    "symmetry": "Symmetrie und Spiegeln: halbe Bilder an der Spiegelachse Kästchen für Kästchen vervollständigen. Kostenlose PDFs zum Ausdrucken.",
+    "reading-comprehension": "Lesetexte mit Fragen: kurze Geschichten lesen und Fragen zum Text beantworten. Kostenlose PDFs zum Ausdrucken.",
+    "multiplication-tables": "Einmaleins üben: Malaufgaben aus allen Reihen von 1 bis 10 lösen und sicher werden. Kostenlose PDFs zum Ausdrucken.",
+    "science-sort": "Sortieren im Sachunterricht: Bilder in Gruppen ordnen, zum Beispiel lebendig und nicht lebendig oder Land, Wasser und Luft. Kostenlose PDFs zum Ausdrucken.",
+    "science-sequence": "Reihenfolgen im Sachunterricht: die Schritte natürlicher Kreisläufe in die richtige Ordnung bringen. Kostenlose PDFs zum Ausdrucken.",
+    "science-match": "Zuordnen im Sachunterricht: Tierkinder, Berufe und ihre Paare verbinden. Kostenlose PDFs zum Ausdrucken.",
+    "beginning-sounds": "Anlaute üben: jedes Bild benennen und den Anfangsbuchstaben schreiben oder zuordnen. Kostenlose PDFs zum Ausdrucken.",
+    "letter-knowledge": "Buchstaben kennenlernen: Groß- und Kleinbuchstaben zuordnen, Buchstaben finden und das Alphabet vervollständigen. Kostenlose PDFs zum Ausdrucken.",
+    "word-building": "Wörter bauen: den fehlenden Laut schreiben und kurze Wörter Buchstabe für Buchstabe zusammensetzen. Kostenlose PDFs zum Ausdrucken.",
+    "picture-vocabulary": "Bildwortschatz: Wörter den Bildern zuordnen und nach Themen sortieren. Kostenlose PDFs zum Ausdrucken.",
+    "phonological-awareness": "Phonologische Bewusstheit: Endlaute, Mittellaute, Reimpaare und Silben üben. Kostenlose PDFs zum Ausdrucken."
+  },
+  "figureNames": {
+    "heart": "Herz", "butterfly": "Schmetterling", "rocket": "Rakete", "tree": "Baum",
+    "house": "Haus", "crown": "Krone", "star": "Stern", "arrow": "Pfeil",
+    "flower": "Blume", "mushroom": "Pilz", "cat": "Katze", "robot": "Roboter",
+    "apple": "Apfel", "diamond": "Raute", "ice-cream": "Eis", "snowman": "Schneemann"
+  },
+  "sightWords": ["und", "der", "die", "das", "ich", "ist", "wir", "sie", "mit", "auf", "auch", "haben"],
+  "readingPassages": [
+    {
+      "id": "de-p1",
+      "title": "Emmas Kater",
+      "text": "Emma hat einen Kater. Er heißt Moritz und schläft am liebsten auf dem roten Sofa. Heute versteckt sich Moritz in einem Karton, und Emma sucht ihn im ganzen Haus.",
+      "questions": [
+        {"q": "Wie heißt Emmas Kater?", "choices": ["Max", "Moritz", "Felix"], "correct": 1},
+        {"q": "Wo schläft Moritz am liebsten?", "choices": ["Auf dem roten Sofa", "Im Karton", "Im Garten"], "correct": 0},
+        {"q": "Warum sucht Emma im ganzen Haus?", "choices": ["Sie hat ihren Ranzen verloren.", "Sie kann Moritz nicht finden.", "Sie sucht ihre Mama."], "correct": 1}
+      ]
+    },
+    {
+      "id": "de-p2",
+      "title": "Ben backt Brötchen",
+      "text": "Am Samstag backt Ben mit Papa Brötchen. Ben knetet den Teig und formt kleine Kugeln. Papa schiebt das Blech in den Ofen, und bald duftet die ganze Küche. Als die Brötchen fertig sind, sind sie außen knusprig und innen weich. Ben bringt Oma zwei Brötchen, weil sie Brötchen so gern mag.",
+      "questions": [
+        {"q": "Wann backt Ben mit Papa?", "choices": ["Am Montag", "Am Sonntag", "Am Samstag"], "correct": 2},
+        {"q": "Wer schiebt das Blech in den Ofen?", "choices": ["Papa", "Ben", "Oma"], "correct": 0},
+        {"q": "Warum bringt Ben Oma zwei Brötchen?", "choices": ["Oma hat Geburtstag.", "Oma mag Brötchen sehr gern.", "Oma hat keinen Ofen."], "correct": 1}
+      ]
+    },
+    {
+      "id": "de-p3",
+      "title": "Mia und das Fahrrad",
+      "text": "Mia hat zum Geburtstag ein neues Fahrrad bekommen. Es ist blau und hat eine helle Klingel am Lenker. Jeden Nachmittag übt Mia auf dem Hof, und ihr großer Bruder Finn läuft neben ihr her. Am Anfang wackelt das Fahrrad noch sehr, und Mia muss oft anhalten. Nach einer Woche fährt sie schon ganz allein bis zum Tor und wieder zurück. Finn klatscht in die Hände, und Mia strahlt vor Stolz.",
+      "questions": [
+        {"q": "Welche Farbe hat Mias Fahrrad?", "choices": ["Blau", "Rot", "Grün"], "correct": 0},
+        {"q": "Wer läuft neben Mia her?", "choices": ["Ihre Mama", "Ihre Freundin", "Ihr Bruder Finn"], "correct": 2},
+        {"q": "Warum strahlt Mia am Ende?", "choices": ["Sie bekommt ein Eis.", "Sie kann jetzt allein Fahrrad fahren.", "Sie hat ein Wettrennen gewonnen."], "correct": 1}
+      ]
+    }
+  ],
+  "wordProblems": {
+    "nounCase": "keep",
+    "names": ["Emma", "Ben", "Mia", "Finn", "Lina", "Paul", "Lea", "Noah"],
+    "frames": {
+      "add": [
+        "{name} hat {n1} {noun}. Dann bekommt {name} noch {n2} {noun}. Wie viele {noun} hat {name} jetzt?",
+        "{name} findet {n1} {noun}. Danach findet {name} noch {n2} {noun}. Wie viele {noun} sind es zusammen?",
+        "{name} sieht {n1} {noun}. Dann kommen noch {n2} {noun} dazu. Wie viele {noun} sind es jetzt?",
+        "{name} hat {n1} {noun}. {name} kauft noch {n2} {noun}. Wie viele {noun} hat {name} zusammen?"
+      ],
+      "sub": [
+        "{name} hat {n1} {noun}. {name} verschenkt {n2} {noun}. Wie viele {noun} bleiben übrig?",
+        "{name} hat {n1} {noun}. {name} verliert {n2} {noun}. Wie viele {noun} hat {name} noch?",
+        "{name} hat {n1} {noun}. {name} gibt {n2} {noun} ab. Wie viele {noun} hat {name} jetzt noch?"
+      ]
+    }
+  },
+  "audits": {
+    "colorWords": "OK — rot, blau, gelb, grün lowercase (Grundschul-Standard).",
+    "currency": "OK — EUR 1,2,5,10,20,50 Cent; 'ct' nach dem Betrag ist der Grundschulbuch-Standard.",
+    "numberWords": "Alle 10 Stichproben OK; 'hundert' ist die Schulform; gehakte 1 + durchgestrichene 7 korrekt für de.",
+    "englishSource": "3 EN defects: G2-251 instruction claims the child writes the numbers into columns (they are pre-printed); G3-357 'comes up short' too vague; K-242 hard-codes top/bottom; K-241 circular color...color phrasing."
+  },
+  "notes": "Malpunkt '·' required for de multiplication (renderer already does this). 'Schriftlich rechnen ohne Übertrag' chosen as search-strong Vorstufe naming though schriftliche Verfahren formally start Klasse 3. Frames repeat {name} (pronoun gender underivable); all frames accusative-safe. 'Raute' is the school term for diamond."
+}

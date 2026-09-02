@@ -190,5 +190,73 @@
   "lowercase-letter-tracing": {
     "full": "Kleinbuchstaben auf Schreiblinien nachzuspuren übt die Mittelhöhe, in der die meisten Buchstaben sitzen, dazu Ober- und Unterlängen.",
     "short": "Prägt die Formen der Kleinbuchstaben ein."
+  },
+  "word-tracing": {
+    "full": "Ein Bildwort auf der Schreiblinie nachzuspuren und dann allein zu schreiben verbindet Bild, Wort und Schreibweise in einem einzigen Schritt.",
+    "short": "Übt erstes Wörterschreiben nach Bildern."
+  },
+  "dot-to-dot": {
+    "full": "Die nummerierten Punkte der Reihe nach zu verbinden übt die Zahlenfolge und die Stiftführung, bis am Ende ein Bild erscheint.",
+    "short": "Übt Zahlenreihe und Stiftführung."
+  },
+  "grid-copy": {
+    "full": "Ein Bild Kästchen für Kästchen in ein leeres Gitter zu übertragen schult genaues Schauen, räumliche Orientierung und sauberes Zeichnen.",
+    "short": "Schult genaues Abzeichnen im Gitter."
+  },
+  "singular-plural": {
+    "full": "Neben einem Bild viele zu sehen und die Mehrzahl zu schreiben festigt die Pluralendungen, die Kinder zwar hören, aber selten schreiben.",
+    "short": "Übt Einzahl und Mehrzahl der Nomen."
+  },
+  "articles": {
+    "full": "Zu jedem Bild den passenden Artikel einzukreisen verankert der, die und das – die Grundlage, auf der jeder spätere Satz aufbaut.",
+    "short": "Übt die Artikel der, die und das."
+  },
+  "read-and-color": {
+    "full": "Einen kurzen Satz zu lesen und genau das anzumalen, was darin steht, macht aus dem Entziffern echtes und überprüfbares Verstehen.",
+    "short": "Übt Leseverstehen durch Anmalen."
+  },
+  "number-of-the-day": {
+    "full": "Eine Zahl als Zahlwort, in Zehnern und Einern, am Zahlenstrahl und mit ihren Nachbarzahlen darzustellen baut ein tiefes Zahlverständnis auf.",
+    "short": "Übt Zahlverständnis in vielen Darstellungen."
+  },
+  "write-the-word": {
+    "full": "Den Namen jedes Bildes auf die Linie zu schreiben, mit oder ohne Wortkasten, übt das lautgetreue Schreiben Laut für Laut.",
+    "short": "Übt lautgetreues Schreiben nach Bildern."
+  },
+  "alphabetical-order": {
+    "full": "Bildwörter alphabetisch zu ordnen festigt die Buchstabenfolge und übt das Nachschlagen, das jedes Wörterbuch verlangt.",
+    "short": "Übt das alphabetische Ordnen."
+  },
+  "number-walls": {
+    "full": "Jeden Stein mit der Summe der beiden Steine darunter zu füllen übt sicheres Addieren und das Finden fehlender Summanden in einem Rätsel.",
+    "short": "Übt Addieren mit Zahlenmauern."
+  },
+  "doubles-halves": {
+    "full": "Eine Menge zu verdoppeln und eine andere zu halbieren festigt die Verdopplungsaufgaben, die Nachbaraufgaben und das Einmaleins vorbereiten.",
+    "short": "Übt Verdoppeln und Halbieren."
+  },
+  "sentence-building": {
+    "full": "Durcheinandergeratene Wortkarten wieder zu einem Satz zu ordnen übt Satzbau, Großschreibung und das Gefühl für einen vollständigen Satz.",
+    "short": "Übt den Satzbau mit Wortkarten."
+  },
+  "capitals-punctuation": {
+    "full": "Jeden Satz mit großem Satzanfang, großen Nomen und Satzzeichen neu zu schreiben festigt die Regeln, die einen Text lesbar machen.",
+    "short": "Übt Großschreibung und Satzzeichen."
+  },
+  "word-classes": {
+    "full": "Wörter in Nomen, Verben und Adjektive zu sortieren baut die Wortarten auf, mit denen Kinder über Sprache sprechen können.",
+    "short": "Übt das Erkennen der Wortarten."
+  },
+  "calendar": {
+    "full": "Daten, Wochentage und Wochen von einem echten Monatskalender abzulesen übt genau das, was Kinder jeden Tag im Alltag brauchen.",
+    "short": "Übt das Lesen im Kalender."
+  },
+  "picture-writing": {
+    "full": "Mit Wortkasten und Satzanfängen zu einem Bild zu schreiben macht aus der leeren Seite eine erste eigene kleine Geschichte.",
+    "short": "Übt erstes Schreiben zum Bild."
+  },
+  "grid-coordinates": {
+    "full": "Jedes Feld im Gitter über Buchstabe und Zahl zu finden und anzumalen übt das Lesen von Koordinaten und enthüllt ein verstecktes Bild.",
+    "short": "Übt das Lesen von Gitterkoordinaten."
   }
 }

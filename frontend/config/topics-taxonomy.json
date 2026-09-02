@@ -2787,138 +2787,274 @@
       },
       "word-tracing": {
         "slug": {
-          "en": "word-tracing"
+          "en": "word-tracing",
+          "de": "woerter-nachspuren",
+          "es": "palabras-punteadas",
+          "fr": "ecriture-des-mots",
+          "pt": "palavras-pontilhadas"
         },
         "name": {
-          "en": "Word Tracing"
+          "en": "Word Tracing",
+          "de": "Wörter nachspuren",
+          "es": "Palabras punteadas",
+          "fr": "Écriture des mots",
+          "pt": "Palavras pontilhadas"
         }
       },
       "dot-to-dot": {
         "slug": {
-          "en": "dot-to-dot"
+          "en": "dot-to-dot",
+          "de": "punkt-zu-punkt",
+          "es": "unir-los-puntos",
+          "fr": "points-a-relier",
+          "pt": "ligue-os-pontos"
         },
         "name": {
-          "en": "Dot-to-Dot"
+          "en": "Dot-to-Dot",
+          "de": "Punkt zu Punkt",
+          "es": "Unir los puntos",
+          "fr": "Points à relier",
+          "pt": "Ligue os pontos"
         }
       },
       "grid-copy": {
         "slug": {
-          "en": "grid-copy"
+          "en": "grid-copy",
+          "de": "gitterbilder",
+          "es": "copiar-en-cuadricula",
+          "fr": "reproduction-sur-quadrillage",
+          "pt": "copia-na-malha-quadriculada"
         },
         "name": {
-          "en": "Copy the Grid Picture"
+          "en": "Copy the Grid Picture",
+          "de": "Gitterbilder",
+          "es": "Copiar en cuadrícula",
+          "fr": "Reproduction sur quadrillage",
+          "pt": "Cópia na malha quadriculada"
         }
       },
       "singular-plural": {
         "slug": {
-          "en": "singular-plural"
+          "en": "singular-plural",
+          "de": "einzahl-und-mehrzahl",
+          "es": "singular-y-plural",
+          "fr": "singulier-et-pluriel",
+          "pt": "singular-e-plural"
         },
         "name": {
-          "en": "Singular and Plural"
+          "en": "Singular and Plural",
+          "de": "Einzahl und Mehrzahl",
+          "es": "Singular y plural",
+          "fr": "Singulier et pluriel",
+          "pt": "Singular e plural"
         }
       },
       "articles": {
         "slug": {
-          "en": "articles"
+          "en": "articles",
+          "de": "der-die-das",
+          "es": "articulos-el-la",
+          "fr": "le-ou-la",
+          "pt": "artigos-o-e-a"
         },
         "name": {
-          "en": "Articles"
+          "en": "Articles",
+          "de": "Der, die, das",
+          "es": "Artículos: el o la",
+          "fr": "Le ou la",
+          "pt": "Artigos o e a"
         }
       },
       "read-and-color": {
         "slug": {
-          "en": "read-and-color"
+          "en": "read-and-color",
+          "de": "lese-mal-blaetter",
+          "es": "leer-y-colorear",
+          "fr": "lis-et-colorie",
+          "pt": "leia-e-pinte"
         },
         "name": {
-          "en": "Read and Color"
+          "en": "Read and Color",
+          "de": "Lese-Mal-Blätter",
+          "es": "Leer y colorear",
+          "fr": "Lis et colorie",
+          "pt": "Leia e pinte"
         }
       },
       "number-of-the-day": {
         "slug": {
-          "en": "number-of-the-day"
+          "en": "number-of-the-day",
+          "de": "zahl-des-tages",
+          "es": "el-numero-del-dia",
+          "fr": "nombre-du-jour",
+          "pt": "numero-do-dia"
         },
         "name": {
-          "en": "Number of the Day"
+          "en": "Number of the Day",
+          "de": "Zahl des Tages",
+          "es": "El número del día",
+          "fr": "Le nombre du jour",
+          "pt": "Número do dia"
         }
       },
       "write-the-word": {
         "slug": {
-          "en": "write-the-word"
+          "en": "write-the-word",
+          "de": "bilder-beschriften",
+          "es": "escribir-la-palabra",
+          "fr": "dictee-muette",
+          "pt": "escreva-o-nome-da-figura"
         },
         "name": {
-          "en": "Write the Word"
+          "en": "Write the Word",
+          "de": "Bilder beschriften",
+          "es": "Escribir la palabra",
+          "fr": "Dictée muette",
+          "pt": "Escreva o nome da figura"
         }
       },
       "alphabetical-order": {
         "slug": {
-          "en": "alphabetical-order"
+          "en": "alphabetical-order",
+          "de": "alphabetisch-ordnen",
+          "es": "orden-alfabetico",
+          "fr": "ordre-alphabetique",
+          "pt": "ordem-alfabetica"
         },
         "name": {
-          "en": "Alphabetical Order"
+          "en": "Alphabetical Order",
+          "de": "Alphabetisch ordnen",
+          "es": "Orden alfabético",
+          "fr": "Ordre alphabétique",
+          "pt": "Ordem alfabética"
         }
       },
       "number-walls": {
         "slug": {
-          "en": "number-walls"
+          "en": "number-walls",
+          "de": "zahlenmauern",
+          "es": "piramides-numericas",
+          "fr": "pyramides-de-nombres",
+          "pt": "piramide-de-numeros"
         },
         "name": {
-          "en": "Number Walls"
+          "en": "Number Walls",
+          "de": "Zahlenmauern",
+          "es": "Pirámides numéricas",
+          "fr": "Pyramides de nombres",
+          "pt": "Pirâmide de números"
         }
       },
       "doubles-halves": {
         "slug": {
-          "en": "doubles-halves"
+          "en": "doubles-halves",
+          "de": "verdoppeln-und-halbieren",
+          "es": "dobles-y-mitades",
+          "fr": "doubles-et-moities",
+          "pt": "dobro-e-metade"
         },
         "name": {
-          "en": "Doubles and Halves"
+          "en": "Doubles and Halves",
+          "de": "Verdoppeln und Halbieren",
+          "es": "Dobles y mitades",
+          "fr": "Doubles et moitiés",
+          "pt": "Dobro e metade"
         }
       },
       "sentence-building": {
         "slug": {
-          "en": "sentence-building"
+          "en": "sentence-building",
+          "de": "schuettelsaetze",
+          "es": "ordenar-frases",
+          "fr": "phrases-melangees",
+          "pt": "frases-embaralhadas"
         },
         "name": {
-          "en": "Sentence Building"
+          "en": "Sentence Building",
+          "de": "Schüttelsätze",
+          "es": "Ordenar frases",
+          "fr": "Phrases mélangées",
+          "pt": "Frases embaralhadas"
         }
       },
       "capitals-punctuation": {
         "slug": {
-          "en": "capitals-punctuation"
+          "en": "capitals-punctuation",
+          "de": "satzanfang-und-satzzeichen",
+          "es": "mayusculas-y-puntuacion",
+          "fr": "majuscules-et-ponctuation",
+          "pt": "maiuscula-e-pontuacao"
         },
         "name": {
-          "en": "Capital Letters and Punctuation"
+          "en": "Capital Letters and Punctuation",
+          "de": "Satzanfang und Satzzeichen",
+          "es": "Mayúsculas y puntuación",
+          "fr": "Majuscules et ponctuation",
+          "pt": "Maiúscula e pontuação"
         }
       },
       "word-classes": {
         "slug": {
-          "en": "word-classes"
+          "en": "word-classes",
+          "de": "wortarten",
+          "es": "clases-de-palabras",
+          "fr": "nature-des-mots",
+          "pt": "classes-de-palavras"
         },
         "name": {
-          "en": "Word Classes"
+          "en": "Word Classes",
+          "de": "Wortarten",
+          "es": "Clases de palabras",
+          "fr": "Nature des mots",
+          "pt": "Classes de palavras"
         }
       },
       "calendar": {
         "slug": {
-          "en": "calendar"
+          "en": "calendar",
+          "de": "kalender",
+          "es": "el-calendario",
+          "fr": "lire-le-calendrier",
+          "pt": "calendario"
         },
         "name": {
-          "en": "Calendar"
+          "en": "Calendar",
+          "de": "Kalender",
+          "es": "El calendario",
+          "fr": "Lire le calendrier",
+          "pt": "Calendário"
         }
       },
       "picture-writing": {
         "slug": {
-          "en": "picture-writing"
+          "en": "picture-writing",
+          "de": "schreiben-zum-bild",
+          "es": "escribir-sobre-la-imagen",
+          "fr": "production-d-ecrit",
+          "pt": "producao-de-texto-com-imagem"
         },
         "name": {
-          "en": "Picture Writing Prompts"
+          "en": "Picture Writing Prompts",
+          "de": "Schreiben zum Bild",
+          "es": "Escribir sobre la imagen",
+          "fr": "Production d'écrit",
+          "pt": "Produção de texto com imagem"
         }
       },
       "grid-coordinates": {
         "slug": {
-          "en": "grid-coordinates"
+          "en": "grid-coordinates",
+          "de": "koordinaten-im-gitter",
+          "es": "coordenadas-en-cuadricula",
+          "fr": "pixel-art",
+          "pt": "coordenadas-na-malha"
         },
         "name": {
-          "en": "Grid Coordinates"
+          "en": "Grid Coordinates",
+          "de": "Koordinaten im Gitter",
+          "es": "Coordenadas en cuadrícula",
+          "fr": "Pixel art",
+          "pt": "Coordenadas na malha"
         }
       }
     },

@@ -190,5 +190,73 @@
   "lowercase-letter-tracing": {
     "full": "Repasar las minúsculas sobre pauta enseña la altura media de la letra, los rasgos que suben y los que bajan de la línea de base.",
     "short": "Afianza el trazo de las letras minúsculas."
+  },
+  "word-tracing": {
+    "full": "Repasar el nombre de un dibujo letra a letra y escribirlo después sin ayuda une la cosa, su nombre y su ortografía en una sola mirada.",
+    "short": "Inicia la escritura de palabras a partir de dibujos."
+  },
+  "dot-to-dot": {
+    "full": "Unir los puntos numerados en orden hace aparecer un dibujo y repasa la serie numérica con cada trazo del lápiz.",
+    "short": "Trabaja la serie numérica y el control del lápiz."
+  },
+  "grid-copy": {
+    "full": "Copiar un dibujo cuadrado a cuadrado en una cuadrícula vacía entrena la observación atenta, la orientación espacial y la precisión del trazo.",
+    "short": "Desarrolla la copia espacial en cuadrícula."
+  },
+  "singular-plural": {
+    "full": "Ver un dibujo junto a varios y escribir la forma del plural fija las terminaciones que los niños oyen a diario pero rara vez escriben.",
+    "short": "Trabaja el singular y el plural de los sustantivos."
+  },
+  "articles": {
+    "full": "Rodear el artículo correcto junto a cada dibujo afianza el género de los sustantivos y la concordancia de la que dependerá cada frase escrita.",
+    "short": "Afianza el género y los artículos el y la."
+  },
+  "read-and-color": {
+    "full": "Leer una frase corta y colorear exactamente lo que dice convierte la lectura mecánica en comprensión real que el propio niño puede comprobar.",
+    "short": "Desarrolla la comprensión lectora coloreando."
+  },
+  "number-of-the-day": {
+    "full": "Representar un mismo número en letras, en decenas y unidades, en marcos de diez, con marcas y en la recta numérica construye un sentido numérico profundo.",
+    "short": "Construye el sentido numérico con varias representaciones."
+  },
+  "write-the-word": {
+    "full": "Escribir el nombre de cada dibujo, con banco de palabras, con casillas por letra o sin ninguna ayuda, construye la ortografía desde los sonidos hasta las letras.",
+    "short": "Trabaja la ortografía a partir de dibujos."
+  },
+  "alphabetical-order": {
+    "full": "Ordenar palabras con dibujo por orden alfabético fija la secuencia de las letras y prepara el uso del diccionario que todo lector necesita.",
+    "short": "Trabaja el orden alfabético."
+  },
+  "number-walls": {
+    "full": "Completar cada ladrillo con la suma de los dos de abajo da soltura en la suma y enseña a buscar el sumando que falta en un solo rompecabezas.",
+    "short": "Da soltura en la suma con pirámides numéricas."
+  },
+  "doubles-halves": {
+    "full": "Calcular el doble de un grupo y la mitad de otro construye los dobles que abren paso a los casi dobles, los números pares y la primera multiplicación.",
+    "short": "Construye los dobles y las mitades."
+  },
+  "sentence-building": {
+    "full": "Volver a ordenar las palabras desordenadas de una frase trabaja el orden de las palabras, la mayúscula inicial y la sensación de una idea completa.",
+    "short": "Trabaja el orden de las palabras en la frase."
+  },
+  "capitals-punctuation": {
+    "full": "Reescribir cada frase con su mayúscula inicial y su signo final fija los hábitos de puntuación que hacen legible cualquier texto.",
+    "short": "Fija la mayúscula inicial y los signos finales."
+  },
+  "word-classes": {
+    "full": "Clasificar palabras en sustantivos, verbos y adjetivos construye las categorías gramaticales que los niños necesitan para hablar de la lengua.",
+    "short": "Trabaja sustantivos, verbos y adjetivos."
+  },
+  "calendar": {
+    "full": "Leer fechas, días de la semana y semanas en un mes real construye las destrezas de calendario que los niños usan cada día en clase y en casa.",
+    "short": "Enseña a leer el calendario."
+  },
+  "picture-writing": {
+    "full": "Escribir sobre una imagen con banco de palabras y comienzos de frase convierte una página en blanco en un primer cuento escrito con seguridad.",
+    "short": "Inicia la escritura a partir de una imagen."
+  },
+  "grid-coordinates": {
+    "full": "Colorear cada casilla indicada en una cuadrícula con letras y números enseña a leer coordenadas y hace aparecer un dibujo escondido.",
+    "short": "Enseña a leer coordenadas en una cuadrícula."
   }
 }

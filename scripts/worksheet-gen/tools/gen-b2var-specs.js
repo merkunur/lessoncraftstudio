@@ -214,7 +214,15 @@ const ROWS = [
   // ---------------- G2-277 calendar ----------------
   ['g2', 'G2-296', 'read-the-calendar-four-questions', 'G2-277-read-the-calendar.js', 1, {},
     'Read the Calendar: A First Look', 'Look at the month. Answer each question by reading the calendar.'],
-  ['g2', 'G2-297', 'read-the-calendar-a-busy-month', 'G2-277-read-the-calendar.js', 3, {},
+  // FIVE questions, not the base d3's six. Six question cards overflow the page in
+  // German and Norwegian, whose question wording is the longest of the eleven, and
+  // the base d3 has never shipped so no long locale had ever built it. Shrinking
+  // the calendar cells was the wrong lever — it is the CARDS that overflow, not
+  // the grid. Five still separates this face from its two four-question siblings,
+  // and it keeps the two question kinds unique to it (a week later, and how many
+  // days after one sticker the other falls). sixRows is off for the same reason:
+  // a six-week grid is taller and leaves Norwegian no room for its cards.
+  ['g2', 'G2-297', 'read-the-calendar-a-busy-month', 'G2-277-read-the-calendar.js', 3, { questions: ['dayOfDate', 'countWeekday', 'stickerDate', 'weekLater', 'after'], sixRows: false },
     'Read the Calendar: A Busy Month', 'This month is full. Read the calendar carefully to answer every question.'],
   ['g2', 'G2-298', 'read-the-calendar-days-of-the-week', 'G2-277-read-the-calendar.js', 1, { questions: ['dayOfDate', 'countWeekday', 'firstDay', 'lastDay'], stickers: 2, cellH: 72 },
     'Read the Calendar: Days of the Week', 'Every question is about the days. Read down the columns.'],
@@ -254,7 +262,7 @@ const ROWS = [
   // never shipped (the waves emit d2), so nothing had ever built it in a long
   // locale. Smaller icons, font and dot panel buy the room without dropping a
   // story, which is the whole point of the mixed face.
-  ['g3', 'G3-376', 'multiplication-and-division-word-problems-mixed', 'G3-370-muldiv-word-problems.js', 3, { icon: 15, font: 15, dots: 26, slotH: 28 },
+  ['g3', 'G3-376', 'multiplication-and-division-word-problems-mixed', 'G3-370-muldiv-word-problems.js', 3, { icon: 13, font: 14, dots: 20, slotH: 26 },
     'Multiplication and Division: Mixed Problems', 'Three stories. Decide what each one asks before you answer.'],
 ];
 

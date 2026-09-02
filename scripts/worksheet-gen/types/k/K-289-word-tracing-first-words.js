@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-289',
   slug: 'word-tracing-first-words',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Trace Your First Words", instruction: "Trace the dashed word, then write it on the empty lines." } },
+  i18n: { en: { title: "Trace Your First Words", instruction: "Trace the dashed word, then write it on the empty line." } },
 };

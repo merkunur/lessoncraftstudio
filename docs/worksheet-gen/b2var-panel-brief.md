@@ -71,17 +71,27 @@ All 64 ids, exactly as listed in `out/b2var-faces.json`. Nothing else.
 
 ## Hard rules for `instruction`
 
-1. ⭐ **ONE SHORT SENTENCE, 60-75 characters.** 150 is a hard ceiling, not a target.
+1. ⭐ **ONE SENTENCE, sized to hit a WINDOW — not a ceiling.** 150 is a hard cap, never a target.
    This is measured, not a style preference. The Google meta description is assembled as
    `"Free printable {TITLE} Worksheet for {LEVEL}. {MIDDLE}. Download the free PDF."`
    and the engine picks the **longest** candidate for `{MIDDLE}` that still fits inside 170
    characters. Your instruction is one candidate; the family's generic skill sentence is
-   another. **An instruction that is too long overflows, is discarded, and the generic sentence
-   wins — so every sibling in the family ends up with the same description.** Measured on the
-   first English build: instructions of 55-78 chars won, 68-103 chars lost, depending on how
-   much of the budget the title had already eaten. Languages that run longer than English
-   (de, fi, fr, es, pt) feel this harder.
-   It is also simply better for a 5-8 year old: one short imperative beats two long clauses.
+   another. Because it takes the **longest** one that fits, your instruction can fail in BOTH
+   directions: **too long and it overflows 170 and is discarded; too short and the generic
+   sentence is longer than it and wins anyway.** Either way every sibling ends up sharing one
+   description.
+   **So measure your own window — do not trust a character count from this brief.** The lead is
+   per-locale and includes the title, so a long title eats the instruction's room. Measured for
+   Spanish: the lead costs ~88 chars + title + ~13 for a theme, giving a budget of roughly
+   `80 - titleLen` themeless and `67 - titleLen` themed. The Spanish panel's first pass wrote
+   everything at 58 chars and only **3 of 64** carried their own instruction; after measuring
+   they reached **64 of 64** — partly by SHORTENING EIGHT TITLES to buy budget, which is
+   legitimate and better in the SERP anyway.
+   To measure: require `scripts/publish-cli/build-seo-head.js` and simulate, or build your
+   locale's wave and read `<meta name="description">` from the staged ZIPs, then check per face
+   whether it carries YOUR instruction or the generic family sentence.
+   If a face cannot fit without damaging the language, leave it — a good page beats a good
+   description — but say which ones. One clear imperative is also better for a 5-8 year old.
 2. ⭐ **It must say what is different about THIS page** — the range, the scaffold, the step.
    A short *generic* instruction is worse than a long *specific* one. If a page genuinely needs
    more words for the child to understand the task, prioritise the child and accept the longer

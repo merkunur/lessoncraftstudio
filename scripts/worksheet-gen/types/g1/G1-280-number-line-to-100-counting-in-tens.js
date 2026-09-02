@@ -1,0 +1,14 @@
+/** G1-280 — Number Line to 100: Counting in Tens. nt20-B-VAR variation of G1-248. */
+'use strict';
+const base = require('./G1-248-number-line-position.js');
+// One object for all three levels: the waves ship d2 only, so a face must
+// render identically whichever level is asked for. Spreading the base entry
+// (not a JSON literal) carries function-valued params through intact.
+const D = { ...base.difficulty[3], ...{"lines":3,"max":100,"tick":10,"label":5,"pointers":2,"gap":2} };
+module.exports = {
+  ...base,
+  id: 'G1-280',
+  slug: 'number-line-to-100-counting-in-tens',
+  difficulty: { 1: D, 2: D, 3: D },
+  i18n: { en: { title: "Number Line to 100: Counting in Tens", instruction: "Each tick is ten. Count on in tens from the nearest number to find each arrow." } },
+};

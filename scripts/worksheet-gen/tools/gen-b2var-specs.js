@@ -1,0 +1,247 @@
+/**
+ * gen-b2var-specs.js — nt20-B-VAR: emits the thin variation spec modules for the
+ * second batch of 20 printable types (nt20-B, shipped 2026-09-02).
+ *
+ * Each emitted file spreads its base spec and overrides {id, slug, difficulty,
+ * i18n} only — the same shape as the 113 shipped nt20-VAR files, none of which
+ * overrides `build`. That is what makes a PARAM face near-zero-risk.
+ *
+ * Difficulty is emitted as `{...base.difficulty[SRC], ...overrides}` rather than
+ * a JSON literal, for two reasons: it keeps the diff to the keys that actually
+ * change, and it carries FUNCTION-valued params through untouched (G1-243's
+ * `exclude` is a function, which a JSON literal would silently stringify).
+ * All three levels get the same object, per the VAR convention: the waves ship
+ * d2 only, so a face must render identically whichever level is asked for.
+ *
+ * This file emits the PARAM faces only. The CODE faces — those needing an
+ * additive knob on a base `build` plus a `verify` branch — are hand-written.
+ *
+ * Idempotent: re-running overwrites exactly its own files.
+ */
+'use strict';
+const fs = require('fs');
+const path = require('path');
+const ROOT = path.join(__dirname, '..');
+
+// dir · id · fileSlug · baseFile · srcLevel · overrides · EN title · EN instruction
+const ROWS = [
+  // ---------------- K-284 word-tracing ----------------
+  ['k', 'K-289', 'word-tracing-first-words', 'K-284-word-tracing.js', 1, {},
+    'Trace Your First Words', 'Say the picture word out loud. Trace the dashed letters, then write the word on the empty lines.'],
+  ['k', 'K-290', 'word-tracing-trace-and-write-twice', 'K-284-word-tracing.js', 3, {},
+    'Trace Once, Write It Twice', 'Look at the word under the picture. Trace it once, then write it twice on your own.'],
+  // cardW widened to 210 and maxLetters pulled back to 12: the caption under the
+  // picture does not shrink to fit, so at the base's cardW 150 a 10+ letter word
+  // ("skateboard", "dinosaur") rendered outside its own card. Caught by reading
+  // the render - nothing in the gate suite measures caption containment.
+  ['k', 'K-291', 'word-tracing-long-words', 'K-284-word-tracing.js', 3, { rows: 3, minLetters: 8, maxLetters: 12, glyphH: 42, laneH: 54, pic: 104, cardW: 210, rowH: 218 },
+    'Trace the Longer Words', 'These words are long. Trace each one slowly, then write it on the empty lines.'],
+
+  // ---------------- K-285 dot-to-dot ----------------
+  ['k', 'K-294', 'dot-to-dot-1-to-10', 'K-285-dot-to-dot.js', 1, {},
+    'Dot-to-Dot 1 to 10', 'Start at the orange dot. Join the dots from 1 to 10 to finish the picture.'],
+  ['k', 'K-295', 'dot-to-dot-teen-numbers', 'K-285-dot-to-dot.js', 1, { startAt: 11 },
+    'Dot-to-Dot: Teen Numbers', 'Start at the orange dot. Join the dots from 11 to 20 to finish the picture.'],
+  ['k', 'K-296', 'dot-to-dot-count-on-11-to-30', 'K-285-dot-to-dot.js', 3, {},
+    'Dot-to-Dot: Count On from 11', 'Start at the orange dot. Count on from 11 all the way to 30 to find the hidden picture.'],
+
+  // ---------------- K-286 grid-copy ----------------
+  ['k', 'K-298', 'grid-copy-6x6', 'K-286-grid-copy.js', 1, {},
+    'Copy the Picture on a 6x6 Grid', 'Look at the picture on the left. Color the same squares on the empty grid.'],
+  ['k', 'K-299', 'grid-copy-with-letters-and-numbers', 'K-286-grid-copy.js', 1, { labels: true },
+    'Copy the Picture Using Letters and Numbers', 'Each square has a letter and a number. Use them to color the same squares on the empty grid.'],
+  ['k', 'K-300', 'grid-copy-8x8', 'K-286-grid-copy.js', 3, {},
+    'Copy the Picture on an 8x8 Grid', 'This grid is bigger. Find each colored square by its letter and number, then copy it.'],
+
+  // ---------------- K-287 singular-plural ----------------
+  ['k', 'K-302', 'singular-plural-first-words', 'K-287-singular-plural.js', 1, {},
+    'One and Many: First Words', 'One picture, one word. Many pictures, a new word. Trace the word for many.'],
+  ['k', 'K-303', 'singular-plural-longer-words', 'K-287-singular-plural.js', 3, {},
+    'One and Many: Longer Words', 'Look at how the word changes when there is more than one. Trace the word for many.'],
+
+  // ---------------- K-288 articles ----------------
+  ['k', 'K-306', 'articles-four-pictures', 'K-288-articles.js', 1, {},
+    'Circle the Right Word: Four Pictures', 'Say the word for each picture out loud. Then circle the little word that belongs with it.'],
+  ['k', 'K-307', 'articles-eight-pictures', 'K-288-articles.js', 3, {},
+    'Circle the Right Word: Eight Pictures', 'Say each picture word out loud. Circle the little word that belongs with it.'],
+
+  // ---------------- G1-242 read-and-color ----------------
+  ['g1', 'G1-251', 'read-and-color-four-sentences', 'G1-242-read-and-color.js', 1, {},
+    'Read and Color: Four Sentences', 'Read each sentence. It tells you what to color and how many. Use the color key to help you.'],
+  ['g1', 'G1-252', 'read-and-color-busy-page', 'G1-242-read-and-color.js', 3, {},
+    'Read and Color: A Busy Page', 'Read every sentence carefully. There are more pictures and more colors on this page.'],
+
+  // ---------------- G1-243 number-of-the-day ----------------
+  ['g1', 'G1-255', 'number-of-the-day-teen-numbers', 'G1-243-number-of-the-day.js', 1, {},
+    'Number of the Day: Teen Numbers', 'Look at the big number. Fill in every box on the page for that number.'],
+  ['g1', 'G1-256', 'number-of-the-day-ten-more-ten-less', 'G1-243-number-of-the-day.js', 1, { frames: false, tenMore: true },
+    'Number of the Day: Ten More, Ten Less', 'Look at the big number. Work out ten more and ten less, and fill in every box.'],
+  // line.tick forced to 1. The base's d3 carries {max:100, tick:5} while N ranges
+  // over 21..99 excluding multiples of 10, so 64 of the 79 possible numbers have
+  // no tick to sit on and verify's "N has no tick" fires - a latent defect in a
+  // level that has never shipped. Every unit ticked, every tenth tick labelled.
+  ['g1', 'G1-257', 'number-of-the-day-to-99', 'G1-243-number-of-the-day.js', 3, { line: { max: 100, tick: 1, label: 10 } },
+    'Number of the Day: Up to 99', 'Look at the big number. Show it in tens and ones, then fill in every box on the page.'],
+
+  // ---------------- G1-244 write-the-word ----------------
+  ['g1', 'G1-258', 'write-the-word-with-a-word-bank', 'G1-244-write-the-word.js', 1, {},
+    'Write the Word: With a Word Bank', 'Find each picture word in the word bank. The first letter is already there to start you off.'],
+  ['g1', 'G1-259', 'write-the-word-word-bank-only', 'G1-244-write-the-word.js', 1, { cards: 8, rows: 4, starter: false, pic: 80, glyphH: 30, rulingW: 214, maxLetters: 12 },
+    'Write the Word: Choose from the Word Bank', 'Every word you need is in the word bank. Write the right one next to each picture.'],
+  ['g1', 'G1-260', 'write-the-word-on-plain-lines', 'G1-244-write-the-word.js', 3, {},
+    'Write the Word on Plain Lines', 'There is no word bank this time. Say each picture word, then write it on the lines.'],
+
+  // ---------------- G1-245 alphabetical-order ----------------
+  ['g1', 'G1-262', 'alphabetical-order-number-the-words', 'G1-245-alphabetical-order.js', 1, { rulings: false },
+    'ABC Order: Number the Words', 'Use the alphabet strip at the top. Number the cards to put the words in ABC order.'],
+  ['g1', 'G1-263', 'alphabetical-order-four-words', 'G1-245-alphabetical-order.js', 1, {},
+    'ABC Order: Four Words', 'Number the cards in ABC order. Then copy the words onto the lines in that order.'],
+  ['g1', 'G1-264', 'alphabetical-order-same-first-letter', 'G1-245-alphabetical-order.js', 3, {},
+    'ABC Order: When Two Words Start the Same', 'Some words start with the same letter. Look at the second letter to decide which comes first.'],
+
+  // ---------------- G1-246 number-walls ----------------
+  ['g1', 'G1-266', 'number-walls-to-10', 'G1-246-number-walls.js', 1, {},
+    'Number Walls to 10', 'Each brick is the sum of the two bricks under it. Build every wall to the top.'],
+  ['g1', 'G1-267', 'number-walls-four-courses', 'G1-246-number-walls.js', 3, { gap: false, walls: 4, courses: 4, baseMin: 1, baseMax: 3, topMax: 20 },
+    'Number Walls: Four Rows High', 'These walls have four rows. Add each pair of bricks and work your way to the top.'],
+  ['g1', 'G1-268', 'number-walls-missing-brick', 'G1-246-number-walls.js', 3, {},
+    'Number Walls: Find the Missing Brick', 'One brick at the bottom is empty. Use the brick above it to work out what is missing.'],
+
+  // ---------------- G1-247 doubles-halves ----------------
+  ['g1', 'G1-270', 'doubles-and-halves-first-steps', 'G1-247-doubles-halves.js', 1, {},
+    'Doubles and Halves: First Steps', 'Doubling makes two equal groups. Halving splits a group into two equal parts.'],
+  ['g1', 'G1-271', 'doubles-and-halves-to-20', 'G1-247-doubles-halves.js', 3, {},
+    'Doubles and Halves to 20', 'There are no pictures this time. Work out each double and each half from the numbers.'],
+
+  // ---------------- G1-248 number-lines ----------------
+  ['g1', 'G1-274', 'number-line-to-10', 'G1-248-number-line-position.js', 1, {},
+    'Where on the Number Line? 0 to 10', 'An arrow points at a tick. Write the number that belongs in the box above it.'],
+  ['g1', 'G1-275', 'number-line-to-20-fewer-labels', 'G1-248-number-line-position.js', 2, { label: 10 },
+    'Number Line to 20: Fewer Labels', 'Only a few numbers are printed. Count on from the nearest one to find each arrow.'],
+  ['g1', 'G1-276', 'number-line-to-30', 'G1-248-number-line-position.js', 2, { max: 30 },
+    'Where on the Number Line? 0 to 30', 'Every tick is one step. Count on from the nearest number to find each arrow.'],
+  ['g1', 'G1-277', 'number-line-to-50', 'G1-248-number-line-position.js', 2, { max: 50, label: 10 },
+    'Where on the Number Line? 0 to 50', 'Every tick is one step and every tenth tick is printed. Find the number at each arrow.'],
+  // 0-50 in steps of 5 leaves exactly 11 ticks. Labelling every 2nd tick leaves
+  // only 5 unlabelled candidates (5,15,25,35,45) and pointers may not repeat a
+  // value across the page - but verify also requires >=2 pointers per line, so
+  // fewer pointers is not available. Labelling every 5th tick (0, 25, 50) lifts
+  // the pool to 8 and lets 3 lines x 2 pointers fit with room to spare.
+  ['g1', 'G1-278', 'number-line-to-50-counting-in-fives', 'G1-248-number-line-position.js', 2, { max: 50, tick: 5, label: 5, lines: 3, pointers: 2, gap: 2 },
+    'Number Line to 50: Counting in Fives', 'This time each tick is five. Count in fives to find the number at each arrow.'],
+  ['g1', 'G1-279', 'number-line-to-100-counting-in-fives', 'G1-248-number-line-position.js', 3, {},
+    'Number Line to 100: Counting in Fives', 'Each tick is five and every second tick is printed. Find the number at each arrow.'],
+  ['g1', 'G1-280', 'number-line-to-100-counting-in-tens', 'G1-248-number-line-position.js', 3, { lines: 3, max: 100, tick: 10, label: 5, pointers: 2, gap: 2 },
+    'Number Line to 100: Counting in Tens', 'Each tick is ten. Count on in tens from the nearest number to find each arrow.'],
+  ['g1', 'G1-281', 'number-line-to-120', 'G1-248-number-line-position.js', 3, { lines: 3, max: 120, tick: 10, label: 5, pointers: 2, gap: 2 },
+    'Where on the Number Line? 0 to 120', 'This line goes past 100. Count on in tens to find the number at each arrow.'],
+
+  // ---------------- G1-249 sentence-building ----------------
+  ['g1', 'G1-282', 'unscramble-the-sentence-with-clues', 'G1-249-unscramble-sentence.js', 1, {},
+    'Unscramble the Sentence: With Clues', 'The capital letter and the full stop show you where the sentence starts and ends.'],
+  // minTok/maxTok widened back to the d2 band on purpose: this face's axis is
+  // CLUES (no capital, no end mark), not sentence length. At d3's 5-7 tokens the
+  // frame pool is too thin to build - de has 3 qualifying frames and fi has 1,
+  // which is why the base d3 has never been shippable in those locales.
+  ['g1', 'G1-283', 'unscramble-the-sentence-no-clues', 'G1-249-unscramble-sentence.js', 3, { minTok: 4, maxTok: 6 },
+    'Unscramble the Sentence: No Clues', 'There are no capitals and no full stop to help. Put the words in the only order that works.'],
+
+  // ---------------- G2-274 capitals-punctuation ----------------
+  ['g2', 'G2-281', 'fix-the-sentence-capital-and-full-stop', 'G2-274-fix-the-sentence.js', 1, {},
+    'Fix the Sentence: Capital and Full Stop', 'Every sentence is missing something. Rewrite it with a capital letter and a full stop.'],
+  ['g2', 'G2-282', 'fix-the-sentence-choose-the-end-mark', 'G2-274-fix-the-sentence.js', 3, {},
+    'Fix the Sentence: Choose the End Mark', 'Some sentences ask a question. Rewrite each one and choose the right mark for the end.'],
+
+  // ---------------- G2-275 word-classes ----------------
+  ['g2', 'G2-285', 'word-classes-nine-words', 'G2-275-word-classes.js', 1, {},
+    'Word Classes: Sort Nine Words', 'Read each word chip. Write it in the bin where it belongs.'],
+  ['g2', 'G2-286', 'word-classes-without-pictures', 'G2-275-word-classes.js', 2, { pics: false },
+    'Word Classes: Without Pictures', 'This time the words have no pictures to help. Read each one and sort it into the right bin.'],
+  ['g2', 'G2-287', 'word-classes-fifteen-words', 'G2-275-word-classes.js', 3, {},
+    'Word Classes: Sort Fifteen Words', 'There are more words and no pictures. Read each one carefully before you sort it.'],
+
+  // ---------------- G2-276 money ----------------
+  ['g2', 'G2-289', 'shopping-math-two-stories', 'G2-276-shopping-math.js', 1, {},
+    'Shopping Math: Two Stories', 'Look at the prices on the shelf. Read each story and work out the answer.'],
+  ['g2', 'G2-290', 'shopping-math-four-questions', 'G2-276-shopping-math.js', 3, {},
+    'Shopping Math: Four Questions', 'Use the shelf prices. Each card asks a different question about shopping.'],
+  ['g2', 'G2-291', 'shopping-math-add-up-the-basket', 'G2-276-shopping-math.js', 2, { kinds: ['total', 'total', 'total'] },
+    'Shopping Math: Add Up the Basket', 'Every card asks for a total. Add the prices of the things that were bought.'],
+  ['g2', 'G2-292', 'shopping-math-three-things', 'G2-276-shopping-math.js', 2, { kinds: ['total3', 'total', 'total3'] },
+    'Shopping Math: Buying Three Things', 'These baskets hold three things. Add all three prices to find each total.'],
+  ['g2', 'G2-293', 'shopping-math-how-much-change', 'G2-276-shopping-math.js', 2, { kinds: ['change', 'change', 'change'] },
+    'Shopping Math: How Much Change?', 'Look at the coins that were handed over. Work out how much change comes back.'],
+  ['g2', 'G2-294', 'shopping-math-is-there-enough-money', 'G2-276-shopping-math.js', 2, { kinds: ['canBuy', 'canBuy', 'canBuy'] },
+    'Shopping Math: Is There Enough Money?', 'Count the coins, then compare them with the price. Circle yes or no.'],
+  ['g2', 'G2-295', 'shopping-math-how-much-more', 'G2-276-shopping-math.js', 2, { kinds: ['diff', 'total', 'diff'] },
+    'Shopping Math: How Much More?', 'Compare two prices and work out the difference between them.'],
+
+  // ---------------- G2-277 calendar ----------------
+  ['g2', 'G2-296', 'read-the-calendar-four-questions', 'G2-277-read-the-calendar.js', 1, {},
+    'Read the Calendar: Four Questions', 'Look at the month. Answer each question by reading the calendar.'],
+  ['g2', 'G2-297', 'read-the-calendar-a-busy-month', 'G2-277-read-the-calendar.js', 3, {},
+    'Read the Calendar: A Busy Month', 'This month is full. Read the calendar carefully to answer every question.'],
+  ['g2', 'G2-298', 'read-the-calendar-days-of-the-week', 'G2-277-read-the-calendar.js', 1, { questions: ['dayOfDate', 'countWeekday', 'firstDay', 'lastDay'], stickers: 2, cellH: 72 },
+    'Read the Calendar: Days of the Week', 'Every question is about the days of the week. Read down the columns to answer them.'],
+
+  // ---------------- G2-278 picture-writing ----------------
+  ['g2', 'G2-299', 'write-about-the-picture-what-you-see', 'G2-278-write-about-the-picture.js', 1, {},
+    'Write About the Picture: What You See', 'Look at the picture. The word bank names everything in it. Write about what you see.'],
+  ['g2', 'G2-300', 'write-about-the-picture-your-own-words', 'G2-278-write-about-the-picture.js', 3, {},
+    'Write About the Picture: Your Own Words', 'There are no sentence starters this time. Write your own story about the picture.'],
+
+  // ---------------- G2-279 grid-coordinates ----------------
+  ['g2', 'G2-302', 'grid-coordinates-6x6', 'G2-279-grid-coordinates.js', 1, {},
+    'Grid Coordinates on a 6x6 Grid', 'Find each square by its letter and number. Color it to reveal the picture.'],
+  ['g2', 'G2-303', 'grid-coordinates-10x10', 'G2-279-grid-coordinates.js', 3, {},
+    'Grid Coordinates on a 10x10 Grid', 'This grid is bigger and there are more squares to find. Work through the list carefully.'],
+
+  // ---------------- G3-370 word-problems ----------------
+  ['g3', 'G3-371', 'multiplication-word-problems', 'G3-370-muldiv-word-problems.js', 1, {},
+    'Multiplication Word Problems', 'Read each story. The picture shows the equal groups. Write the answer in the box.'],
+  ['g3', 'G3-372', 'division-word-problems-sharing', 'G3-370-muldiv-word-problems.js', 2, { ops: ['share', 'share'] },
+    'Division Word Problems: Sharing', 'Each story shares things out equally. Deal them into the boxes, then write the answer.'],
+  ['g3', 'G3-373', 'division-word-problems-grouping', 'G3-370-muldiv-word-problems.js', 2, { ops: ['group', 'group'] },
+    'Division Word Problems: Making Groups', 'Each story makes equal groups. Ring the groups in the picture, then write the answer.'],
+  ['g3', 'G3-374', 'division-word-problems-two-ways', 'G3-370-muldiv-word-problems.js', 2, { ops: ['share', 'group'] },
+    'Division Word Problems: Two Ways', 'One story shares things out. The other makes equal groups. Both of them are division.'],
+  ['g3', 'G3-375', 'multiplication-and-grouping-word-problems', 'G3-370-muldiv-word-problems.js', 2, { ops: ['mul', 'group'] },
+    'Multiply and Group: Word Problems', 'One story builds equal groups. The other breaks a set into groups. Write both answers.'],
+  ['g3', 'G3-376', 'multiplication-and-division-word-problems-mixed', 'G3-370-muldiv-word-problems.js', 3, {},
+    'Multiplication and Division: Mixed Problems', 'Three stories, three pictures. Decide what each one asks before you answer.'],
+];
+
+function emit(row) {
+  const [dir, id, slug, baseFile, src, over, title, instr, extra] = row;
+  const baseId = baseFile.replace(/^([A-Z0-9]+-[0-9]+)-.*$/, '$1');
+  const lines = [];
+  lines.push('/** ' + id + ' — ' + title + '. nt20-B-VAR variation of ' + baseId + '. */');
+  lines.push("'use strict';");
+  lines.push("const base = require('./" + baseFile + "');");
+  lines.push('// One object for all three levels: the waves ship d2 only, so a face must');
+  lines.push('// render identically whichever level is asked for. Spreading the base entry');
+  lines.push('// (not a JSON literal) carries function-valued params through intact.');
+  lines.push('const D = { ...base.difficulty[' + src + '], ...' + JSON.stringify(over || {}) + ' };');
+  lines.push('module.exports = {');
+  lines.push('  ...base,');
+  lines.push("  id: '" + id + "',");
+  lines.push("  slug: '" + slug + "',");
+  lines.push('  difficulty: { 1: D, 2: D, 3: D },');
+  const ins = instr === null ? '' : ', instruction: ' + JSON.stringify(instr);
+  lines.push('  i18n: { en: { title: ' + JSON.stringify(title) + ins + ' } },');
+  if (extra) for (const k of Object.keys(extra)) lines.push('  ' + k + ': ' + JSON.stringify(extra[k]) + ',');
+  lines.push('};');
+  const file = path.join(ROOT, 'types', dir, id + '-' + slug + '.js');
+  fs.writeFileSync(file, lines.join('\n') + '\n');
+  return file;
+}
+
+const ids = new Set(), slugs = new Set();
+for (const r of ROWS) {
+  if (ids.has(r[1])) throw new Error('duplicate id ' + r[1]);
+  if (slugs.has(r[2])) throw new Error('duplicate slug ' + r[2]);
+  ids.add(r[1]); slugs.add(r[2]);
+}
+for (const r of ROWS) emit(r);
+console.log('gen-b2var-specs: emitted ' + ROWS.length + ' PARAM variation specs');
+module.exports = { ROWS };

@@ -137063,6 +137063,1367 @@
    ],
    "title": "Les av tallinjen 0-30 – 2. trinn | til utskrift PDF gratis",
    "metaDescription": "Fire tallinjer fra 0 til 30 med navn på hver femte strek. Tre piler per linje peker på streker uten tall, og barnet teller videre forbi tjue. Gratis PDF."
+  },
+  {
+   "slug": "les-av-tallinjen-0-50",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Tallinje-oppgaveark 0-50",
+   "h1": "Les av tallinjen fra 0 til 50: tolv piler, og bare tierne står skrevet",
+   "strand": "Tall og tallforståelse",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "tallinje",
+    "2-trinn"
+   ],
+   "p1": "Femti er en lang vei for et barn på 2. trinn, og denne tallinjen korter den ned ved å skrive hvert tiende tall: 0, 10, 20, 30, 40 og 50. Mellom dem står det en strek for hvert eneste tall, tett i tett. Fire slike linjer ligger under hverandre på arket, og på hver av dem peker tre oransje piler ned på streker uten navn, med en tom, stiplet rute rett over. Tolv ruter til sammen. Barnet finner tieren nærmest pilen og teller streker derfra: tre streker etter 20 er 23, to streker før 40 er 38.",
+   "p2": "Det nye på dette arket er avstanden mellom holdepunktene. På en kort linje kan et barn telle fra null uten å miste tråden, men over femti streker blir den tellingen tung, og da må merket som ligger nærmest tas i bruk. Noen barn teller framover fra tieren under pilen, andre teller bakover fra tieren over, og begge veier er riktige. Læreren ser hvilken vei barnet velger, og om det tør å gå bakover. Pilene er plassert med minst tre strekers mellomrom, så ingen av dem kan gjettes ut fra naboen. LK20 ber om at eleven skal plassere tall på tallinja og bruke den som modell for regning, og her er tierne selve modellen.",
+   "p3": "Skriv ut PDF-en gratis, og la barnet legge fingeren på det nærmeste skrevne tallet og telle høyt før blyanten kommer fram. Trenger dere et lettere ark, går søskenarket bare til 20 og har tall på hver femte strek. Skal dere videre, finnes den samme linjen opp til 100, der hver strek er fem i stedet for én.",
+   "canonicalDeckSlug": "tallinje-g1277",
+   "carousel": [
+    {
+     "label": "Tallinje til 50 der hver strek er fem: tell med femmere fram til pilen",
+     "href": "tallinje-til-50-tell-med-femmere"
+    },
+    {
+     "label": "Tallinje til 100 med femmere: hvert svar ligger midt mellom to tiere",
+     "href": "tallinje-til-100-tell-med-femmere"
+    },
+    {
+     "label": "Tallinje til 100 med tiere: ti streker fra ende til annen, tre tall skrevet",
+     "href": "tallinje-til-100-tell-med-tiere"
+    },
+    {
+     "label": "Les av tallinjen fra 0 til 120: linja fortsetter to streker forbi hundre",
+     "href": "les-av-tallinjen-0-120"
+    }
+   ],
+   "title": "Les av tallinjen 0-50 – 2. trinn | til utskrift PDF gratis",
+   "metaDescription": "Tallinje 0-50 med en strek for hvert tall, men bare 0, 10, 20, 30, 40 og 50 skrevet. Fire linjer og tolv piler å lese av. Gratis PDF for 2. trinn."
+  },
+  {
+   "slug": "tallinje-til-50-tell-med-femmere",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Tallinje-oppgaveark: femmere til 50",
+   "h1": "Tallinje til 50 der hver strek er fem: tell med femmere fram til pilen",
+   "strand": "Tall og tallforståelse",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "tallinje",
+    "2-trinn"
+   ],
+   "p1": "Strekene har fått luft mellom seg: på denne tallinja er hver strek fem, ikke én. Ti streker dekker hele veien fra 0 til 50, og bare tre av dem har fått et tall under seg – 0, 25 og 50. Tre linjer ligger under hverandre, hver med to piler som peker på en navnløs strek, og over hver pil venter en tom, stiplet rute. Seks svar på hele arket. Alle svarene er femmere: 5, 10, 15, 20 og oppover, aldri et tall som 23 eller 38.",
+   "p2": "Å telle med femmere er noe barnet har gjort muntlig lenge før det møter det på papir, og her får rekka en plass å stå på. Fra 25 er det to streker til 35, og den avstanden ser barnet med øyet lenge før det klarer å regne den ut. Det vanskeligste valget er retningen: står pilen nærmere 25 eller nærmere 50? Læreren ser på svarene om barnet har begynt å bruke 25 som midtpunkt, eller om det fremdeles starter på null hver gang. Femmerrekka er den første tellerekka etter én om gangen i LK20, og på tallinja blir den til noe barnet kan peke på og ikke bare ramse opp.",
+   "p3": "Skriv ut PDF-en gratis. Be barnet peke og si tallene høyt – tjuefem, tretti, trettifem – før det skriver noe. Arket med en strek for hvert tall opp til 50 er den roligere inngangen, og tallinja til 100 med femmere tar den samme tellingen dobbelt så langt.",
+   "canonicalDeckSlug": "tallinje-g1278",
+   "carousel": [
+    {
+     "label": "Les av tallinjen fra 0 til 50: tolv piler, og bare tierne står skrevet",
+     "href": "les-av-tallinjen-0-50"
+    },
+    {
+     "label": "Tallinje til 100 med femmere: hvert svar ligger midt mellom to tiere",
+     "href": "tallinje-til-100-tell-med-femmere"
+    },
+    {
+     "label": "Tallinje til 100 med tiere: ti streker fra ende til annen, tre tall skrevet",
+     "href": "tallinje-til-100-tell-med-tiere"
+    },
+    {
+     "label": "Les av tallinjen fra 0 til 120: linja fortsetter to streker forbi hundre",
+     "href": "les-av-tallinjen-0-120"
+    }
+   ],
+   "title": "Tallinje til 50 – tell med femmere, 2. trinn | til utskrift PDF gratis",
+   "metaDescription": "Tre tallinjer til 50 der hver strek er fem og bare 0, 25 og 50 står skrevet. Barnet teller med femmere fram til hver pil. Gratis PDF for 2. trinn."
+  },
+  {
+   "slug": "tallinje-til-100-tell-med-femmere",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Tallinje-oppgaveark: femmere til 100",
+   "h1": "Tallinje til 100 med femmere: hvert svar ligger midt mellom to tiere",
+   "strand": "Tall og tallforståelse",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "tallinje",
+    "2-trinn"
+   ],
+   "p1": "Femtifem, sekstifem, nittifem: hvert eneste svar på dette arket ender på fem. Linja går fra 0 til 100, hver strek er fem, og annenhver strek har fått et tall – 0, 10, 20 og videre opp til 100. Da er det bare de umerkede strekene igjen å peke på, og de ligger alle midt mellom to tiere. Fire linjer, to piler på hver, åtte tomme ruter. Barnet ser tieren til venstre for pilen, tar ett hopp på fem, og har svaret.",
+   "p2": "Nettopp fordi alle svarene er femmere, blir arket en øvelse i én bestemt tanke: halvveis mellom to tiere. Et barn som har den tanken på plass, svarer nesten uten å telle. Et barn som ikke har den, teller streker fra 0 og bruker lang tid på den siste linja. Begge deler er lov, og forskjellen er lett å se når arket kommer inn. Tierne som står skrevet, gjør at tallene over femti ikke blir uoversiktlige – barnet leser 80 rett av og trenger bare det ene hoppet videre. Slik knytter arket sammen tierrekka og femmerrekka, som LK20 behandler som to sider av den samme tallforståelsen.",
+   "p3": "Skriv ut PDF-en gratis, og la gjerne barnet skrive tallet det starter fra, over på linja med blyant først. Er hundre for mye ennå, gjør søskenarket det samme arbeidet opp til 50 med bare tre trykte tall. Skal hoppene bli større, teller arket ved siden av ti om gangen i stedet.",
+   "canonicalDeckSlug": "tallinje-g1279",
+   "carousel": [
+    {
+     "label": "Les av tallinjen fra 0 til 50: tolv piler, og bare tierne står skrevet",
+     "href": "les-av-tallinjen-0-50"
+    },
+    {
+     "label": "Tallinje til 50 der hver strek er fem: tell med femmere fram til pilen",
+     "href": "tallinje-til-50-tell-med-femmere"
+    },
+    {
+     "label": "Tallinje til 100 med tiere: ti streker fra ende til annen, tre tall skrevet",
+     "href": "tallinje-til-100-tell-med-tiere"
+    },
+    {
+     "label": "Les av tallinjen fra 0 til 120: linja fortsetter to streker forbi hundre",
+     "href": "les-av-tallinjen-0-120"
+    }
+   ],
+   "title": "Tallinje til 100 – tell med femmere, 2. trinn | til utskrift PDF gratis",
+   "metaDescription": "Fire tallinjer til 100 der hver strek er fem og tierne står skrevet. Alle svarene ender på fem, ett hopp fra et trykt tall. Gratis PDF for 2. trinn."
+  },
+  {
+   "slug": "tallinje-til-100-tell-med-tiere",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Tallinje-oppgaveark: tiere til 100",
+   "h1": "Tallinje til 100 med tiere: ti streker fra ende til annen, tre tall skrevet",
+   "strand": "Tall og tallforståelse",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "tallinje",
+    "2-trinn"
+   ],
+   "p1": "Ti om gangen, hele veien fra 0 til 100. Denne tallinja har bare ti streker, én for hver tier, og tre av dem har fått et tall: 0, 50 og 100. Resten står tomme, og det er dem pilene peker på. Tre linjer ligger under hverandre, hver med to piler og to stiplede ruter, altså seks svar på arket. Alle svarene er hele tiere – 10, 20, 30 og videre – så barnet skal aldri telle enkeltstreker, bare hoppe fra tier til tier.",
+   "p2": "Med bare tre trykte tall er halvveispunktet det viktigste barnet har. Ligger pilen til venstre for 50, teller de fleste framover fra null; ligger den til høyre, er den korteste veien å telle framover fra 50 eller bakover fra 100. Det er akkurat det valget arket er laget for å framkalle. Tierrekka sitter muntlig hos de fleste på 2. trinn, men å plassere den langs en linje er noe annet enn å ramse den opp, og her ser læreren hvem som fremdeles må starte på null hver gang. Å bruke tallinja som modell for tierne står sentralt i LK20 på småtrinnet, og dette arket er den reneste utgaven av det.",
+   "p3": "Skriv ut PDF-en gratis, og la barnet skrive tierne inn på de tomme strekene med lys blyant første gang; andre gang klarer de fleste seg uten. Femmerutgaven av den samme linja er et hakk vanskeligere, og arket som går forbi 100, tar tierne videre til 120.",
+   "canonicalDeckSlug": "tallinje-g1280",
+   "carousel": [
+    {
+     "label": "Les av tallinjen fra 0 til 50: tolv piler, og bare tierne står skrevet",
+     "href": "les-av-tallinjen-0-50"
+    },
+    {
+     "label": "Tallinje til 50 der hver strek er fem: tell med femmere fram til pilen",
+     "href": "tallinje-til-50-tell-med-femmere"
+    },
+    {
+     "label": "Tallinje til 100 med femmere: hvert svar ligger midt mellom to tiere",
+     "href": "tallinje-til-100-tell-med-femmere"
+    },
+    {
+     "label": "Les av tallinjen fra 0 til 120: linja fortsetter to streker forbi hundre",
+     "href": "les-av-tallinjen-0-120"
+    }
+   ],
+   "title": "Tallinje til 100 – tell med tiere, 2. trinn | til utskrift PDF gratis",
+   "metaDescription": "Tre tallinjer fra 0 til 100 der hver strek er ti og bare 0, 50 og 100 står skrevet. Barnet teller med tiere fram til pilen. Gratis PDF for 2. trinn."
+  },
+  {
+   "slug": "les-av-tallinjen-0-120",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Tallinje-oppgaveark 0-120",
+   "h1": "Les av tallinjen fra 0 til 120: linja fortsetter to streker forbi hundre",
+   "strand": "Tall og tallforståelse",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "tallinje",
+    "2-trinn"
+   ],
+   "p1": "Linja slutter ikke ved 100. Den fortsetter to streker til, og det er hele poenget med dette arket. Hver strek er ti, og bare tre tall er skrevet: 0, 50 og 100. Etter hundre er det ingen ledetråder igjen, bare to tomme streker som barnet må navngi selv. Tre linjer ligger under hverandre, hver med to piler og en stiplet rute over, seks svar i alt. En pil kan lande på 110, men aldri helt ytterst på linja.",
+   "p2": "Overgangen fra 99 til over hundre er et av de stedene tallrekka virkelig kan glippe på 2. trinn. Mange barn sier hundre og ti uten problemer, men nøler når de skal skrive tallet, og noen skriver 10010. Her får de se hvor det hører hjemme: én tier etter hundre, like langt fra 100 som 10 er fra 0. At linja fortsetter forbi det siste trykte tallet, er ubehagelig på den nyttige måten – barnet kan ikke lene seg på en endestasjon, men må telle videre selv. Det er tallforståelse forbi hundre slik LK20 legger opp til mot slutten av 2. trinn, i den enkleste formen den finnes i.",
+   "p3": "Skriv ut PDF-en gratis, og snakk om de to strekene etter 100 før barnet begynner. Er spranget for stort, holder søskenarket seg innenfor 100 med de samme tierne. Arket der hver strek er fem, øver den andre tellerekka på en like lang linje.",
+   "canonicalDeckSlug": "tallinje-g1281",
+   "carousel": [
+    {
+     "label": "Les av tallinjen fra 0 til 50: tolv piler, og bare tierne står skrevet",
+     "href": "les-av-tallinjen-0-50"
+    },
+    {
+     "label": "Tallinje til 50 der hver strek er fem: tell med femmere fram til pilen",
+     "href": "tallinje-til-50-tell-med-femmere"
+    },
+    {
+     "label": "Tallinje til 100 med femmere: hvert svar ligger midt mellom to tiere",
+     "href": "tallinje-til-100-tell-med-femmere"
+    },
+    {
+     "label": "Tallinje til 100 med tiere: ti streker fra ende til annen, tre tall skrevet",
+     "href": "tallinje-til-100-tell-med-tiere"
+    }
+   ],
+   "title": "Les av tallinjen 0-120 – 2. trinn | til utskrift PDF gratis",
+   "metaDescription": "Tre tallinjer fra 0 til 120 der hver strek er ti. Linja går forbi 100, og barnet må telle videre til 110 uten flere trykte tall. Gratis PDF, 2. trinn."
+  },
+  {
+   "slug": "sett-ordene-i-rekkefolge-med-hjelp",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sentence-building",
+    "mode": null,
+    "theme": "fruits",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Setningsbygging: ordene i rekkefølge, med hjelp",
+   "h1": "Sett ordene i rekkefølge med hjelp: stor bokstav og punktum står på kortene",
+   "strand": "Språket som system",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "setningsbygging",
+    "frukter",
+    "2-trinn"
+   ],
+   "p1": "To spor er igjen på kortene, og det er akkurat de sporene et barn trenger først: ett ord har stor forbokstav, og ett ord bærer punktum eller spørsmålstegn. Tre felt ligger under hverandre på arket, hvert med et bilde av en frukt til venstre – et granateple, et blåbær, en banan – og tre til fem ordkort som ser ut som om de er klippet fra hverandre og strødd utover. Barnet leser kortene, ser hvilket ord som skal stå først og hvilket som skal stå sist, og skriver hele setningen på skrivelinja under.",
+   "p2": "Med begge sporene synlige er oppgaven i praksis todelt: ytterpunktene er gitt, og det er ordene i midten som skal plasseres. Det gjør arket til den riktige inngangen for et barn som ennå ikke leser flytende, for det finnes alltid et sted å begynne. Setningene er korte, tre til fem kort, og hver av dem har nøyaktig én rekkefølge som gir mening, så oppgaven har ett svar. Noen av setningene er spørsmål, og da bærer det siste kortet et spørsmålstegn i stedet for punktum. Læreren ser om barnet får med seg setningstegnet over på linja, eller glemmer det i det ordene faller på plass. Setningsbygging med stor bokstav og punktum hører til det LK20 venter etter 2. trinn.",
+   "p3": "Skriv ut PDF-en gratis. Mange barn har god nytte av å klippe kortene ut og flytte dem fysisk før de skriver noe. Neste steg er søskenarket uten hjelp, der ingen kort har stor bokstav eller punktum og barnet må avgjøre begge deler selv.",
+   "canonicalDeckSlug": "setningsbygging-frukter-g1282",
+   "carousel": [
+    {
+     "label": "Sett ordene i rekkefølge uten hjelp: ingen kort har stor bokstav eller punktum",
+     "href": "sett-ordene-i-rekkefolge-uten-hjelp"
+    },
+    {
+     "label": "Stor bokstav og riktig skilletegn: tre setninger om dyr, punktum eller spørsmålstegn",
+     "href": "stor-bokstav-og-riktig-skilletegn"
+    },
+    {
+     "label": "Stor bokstav, navn og skilletegn: fem setninger om frukt med tre feil å finne",
+     "href": "stor-bokstav-navn-og-skilletegn"
+    },
+    {
+     "label": "Substantiv, verb og adjektiv: ni ordkort, og substantivene har bilde",
+     "href": "substantiv-verb-og-adjektiv-9-ord"
+    }
+   ],
+   "title": "Sett ordene i rekkefølge med hjelp – frukt | til utskrift PDF gratis",
+   "metaDescription": "Tre setninger om frukt klippet opp i ordkort. Stor bokstav og punktum står på kortene og viser hvor setningen begynner og slutter. Gratis PDF, 2. trinn."
+  },
+  {
+   "slug": "sett-ordene-i-rekkefolge-uten-hjelp",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sentence-building",
+    "mode": null,
+    "theme": "animals",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Setningsbygging: ordene i rekkefølge, uten hjelp",
+   "h1": "Sett ordene i rekkefølge uten hjelp: ingen kort har stor bokstav eller punktum",
+   "strand": "Språket som system",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "setningsbygging",
+    "dyr",
+    "2-trinn"
+   ],
+   "p1": "Alle kortene er skrevet med små bokstaver, også de som er navn, og ingen av dem har punktum. Fire felt fyller arket, hvert med et dyr til venstre – en kamel, en flaggspett, en pingvin, en sjiraff – og fire til seks ordkort i tilfeldig orden. Ingenting røper hvor setningen begynner eller slutter. Barnet må lese alle kortene, prøve rekkefølger i hodet til én av dem høres ut som noe man faktisk sier, og skrive setningen på linja med stor bokstav og riktig setningstegn lagt til på egen hånd.",
+   "p2": "Uten spor blir oppgaven en helt annen enn med dem. Barnet kan ikke lene seg på formen, bare på meningen, og det er meningen som avgjør: de samme kortene kan si at Emma mater kamelen eller at kamelen mater Emma, men bare det ene er sannsynlig. Setningene er lengre her, opptil seks ord, så antallet mulige rekkefølger er stort nok til at prøving og feiling ikke fører fram alene. To ting skal legges til av barnet og finnes ingen steder på arket: den store forbokstaven og punktumet eller spørsmålstegnet. Læreren ser med én gang hvem som husker begge, hvem som husker det ene, og hvem som setter ordene riktig, men uten tegn. Det er skriving av hele setninger slik LK20 beskriver det for 2. trinn.",
+   "p3": "Skriv ut PDF-en gratis, og la barnet lese setningen sin høyt til slutt – hører den riktig ut, er rekkefølgen som regel riktig. Utgaven med hjelp har tre kortere setninger der stor bokstav og punktum står trykt på kortene. Stor-bokstav-arket på 3. trinn tar det samme videre med ferdige setninger som er skrevet feil.",
+   "canonicalDeckSlug": "setningsbygging-dyr-g1283",
+   "carousel": [
+    {
+     "label": "Sett ordene i rekkefølge med hjelp: stor bokstav og punktum står på kortene",
+     "href": "sett-ordene-i-rekkefolge-med-hjelp"
+    },
+    {
+     "label": "Stor bokstav og riktig skilletegn: tre setninger om dyr, punktum eller spørsmålstegn",
+     "href": "stor-bokstav-og-riktig-skilletegn"
+    },
+    {
+     "label": "Stor bokstav, navn og skilletegn: fem setninger om frukt med tre feil å finne",
+     "href": "stor-bokstav-navn-og-skilletegn"
+    },
+    {
+     "label": "Substantiv, verb og adjektiv: ni ordkort, og substantivene har bilde",
+     "href": "substantiv-verb-og-adjektiv-9-ord"
+    }
+   ],
+   "title": "Sett ordene i rekkefølge uten hjelp – dyr | til utskrift PDF gratis",
+   "metaDescription": "Fire setninger om dyr i uorden, og ingen av ordkortene har stor bokstav eller punktum. Barnet finner rekkefølgen helt selv. Gratis PDF for 2. trinn."
+  },
+  {
+   "slug": "stor-bokstav-og-riktig-skilletegn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "capitals-punctuation",
+    "mode": null,
+    "theme": "animals",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: stor bokstav og skilletegn",
+   "h1": "Stor bokstav og riktig skilletegn: tre setninger om dyr, punktum eller spørsmålstegn",
+   "strand": "Språket som system",
+   "standard": "L.1.2.b",
+   "slotTokens": [
+    "stor-bokstav-og-punktum",
+    "dyr",
+    "3-trinn"
+   ],
+   "p1": "Tre setninger står på arket, og ingen av dem inneholder et navn. Det er med vilje: huskelista øverst har bare to merker, ett for stor bokstav og ett for skilletegn, og da skal det ikke dukke opp navn i teksten heller. Hver setning handler om et dyr, står i en hvit boks med små bokstaver fra første til siste ord, og har mistet tegnet sitt. Ved siden av ligger et lite bilde av dyret, og under boksen en skrivelinje der setningen skal skrives om igjen, riktig. Minst én av de tre er et spørsmål.",
+   "p2": "To feil av gangen er nok når stor bokstav og skilletegn er ferskt. Ved å holde navnene helt utenfor kan barnet gå gjennom setningen med bare to spørsmål: hvor begynner den, og hvordan slutter den? Det siste er det interessante her, for tegnet er ikke gitt. En setning som spør om noe, krever spørsmålstegn; en som forteller, krever punktum, og forskjellen hører barnet bare hvis det leser setningen med stemme. Læreren ser raskt hvem som setter punktum overalt av gammel vane. Å lese gjennom og rette sin egen tekst er den arbeidsmåten LK20 legger vekt på fra 3. trinn, og her er teksten kort nok til at rettingen faktisk blir gjort.",
+   "p3": "Skriv ut PDF-en gratis, og be barnet lese hver setning høyt før det velger tegn – stemmen går opp i et spørsmål. Søskenarket med fem setninger legger navnene til og gir en tredje merkelapp på huskelista. Arket der ordene skal settes i rekkefølge, øver det samme et trinn tidligere.",
+   "canonicalDeckSlug": "stor-bokstav-og-punktum-dyr-g2281",
+   "carousel": [
+    {
+     "label": "Stor bokstav, navn og skilletegn: fem setninger om frukt med tre feil å finne",
+     "href": "stor-bokstav-navn-og-skilletegn"
+    },
+    {
+     "label": "Substantiv, verb og adjektiv: ni ordkort, og substantivene har bilde",
+     "href": "substantiv-verb-og-adjektiv-9-ord"
+    },
+    {
+     "label": "Substantiv, verb og adjektiv uten bilder: tolv ordkort som ser helt like ut",
+     "href": "substantiv-verb-og-adjektiv-uten-bilder"
+    },
+    {
+     "label": "Substantiv, verb og adjektiv: femten ordkort, fem i hver boks",
+     "href": "substantiv-verb-og-adjektiv-15-ord"
+    }
+   ],
+   "title": "Stor bokstav og riktig skilletegn – dyr | til utskrift PDF gratis",
+   "metaDescription": "Tre setninger om dyr skrevet med små bokstaver og uten skilletegn. Barnet skriver dem riktig og velger punktum eller spørsmålstegn. Gratis PDF, 3. trinn."
+  },
+  {
+   "slug": "stor-bokstav-navn-og-skilletegn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "capitals-punctuation",
+    "mode": null,
+    "theme": "fruits",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: stor bokstav, navn og skilletegn",
+   "h1": "Stor bokstav, navn og skilletegn: fem setninger om frukt med tre feil å finne",
+   "strand": "Språket som system",
+   "standard": "L.1.2.b",
+   "slotTokens": [
+    "stor-bokstav-og-punktum",
+    "frukter",
+    "3-trinn"
+   ],
+   "p1": "Fem setninger om frukt står skrevet med små bokstaver fra ende til annen, og i minst tre av dem gjemmer det seg et navn. Huskelista øverst har tre merker – stor bokstav, navn og skilletegn – og barnet må gjennom setningen tre ganger med hvert sitt blikk. Ved hver setning ligger et lite fruktbilde og en skrivelinje. Minst to av de fem er spørsmål, og skilletegnet er ikke gitt på forhånd: punktum, spørsmålstegn og av og til utropstegn må velges ut fra hva setningen faktisk sier.",
+   "p2": "Navnene er den vanskelige delen. Et navn ser ut som alle andre småord når det står midt i en setning med liten forbokstav, og barnet må kjenne det igjen som navn før det kan rette det – ordet i seg selv gir ingen hjelp. Samtidig får det første ordet stor bokstav bare fordi setningen begynner der, og forskjellen mellom de to grunnene til stor bokstav er verdt en samtale i klassen. Skilletegnet krever en tredje avgjørelse. Læreren ser hvilken av de tre merkelappene barnet glemmer, og det er som oftest den midterste. Det er nettopp den gjennomlesingen av egen tekst LK20 ber om på 3. og 4. trinn, i en kort og tydelig form.",
+   "p3": "Skriv ut PDF-en gratis, og la barnet ringe rundt feilene i den gale setningen med farge før den riktige skrives. Er tre feiltyper for mye på én gang, har søskenarket tre setninger uten navn og bare to merker på lista. Ordklassearket er neste steg i å se på hva ordene i setningen faktisk er.",
+   "canonicalDeckSlug": "stor-bokstav-og-punktum-frukter-g2282",
+   "carousel": [
+    {
+     "label": "Stor bokstav og riktig skilletegn: tre setninger om dyr, punktum eller spørsmålstegn",
+     "href": "stor-bokstav-og-riktig-skilletegn"
+    },
+    {
+     "label": "Substantiv, verb og adjektiv: ni ordkort, og substantivene har bilde",
+     "href": "substantiv-verb-og-adjektiv-9-ord"
+    },
+    {
+     "label": "Substantiv, verb og adjektiv uten bilder: tolv ordkort som ser helt like ut",
+     "href": "substantiv-verb-og-adjektiv-uten-bilder"
+    },
+    {
+     "label": "Substantiv, verb og adjektiv: femten ordkort, fem i hver boks",
+     "href": "substantiv-verb-og-adjektiv-15-ord"
+    }
+   ],
+   "title": "Stor bokstav, navn og skilletegn – frukt | til utskrift PDF gratis",
+   "metaDescription": "Fem setninger om frukt uten stor bokstav, med navn i små bokstaver og uten skilletegn. Tre merker på huskelista, og tegnet må velges. Gratis PDF, 3. trinn."
+  },
+  {
+   "slug": "substantiv-verb-og-adjektiv-9-ord",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-classes",
+    "mode": null,
+    "theme": "animals",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Ordklasser-oppgaveark: ni ord",
+   "h1": "Substantiv, verb og adjektiv: ni ordkort, og substantivene har bilde",
+   "strand": "Språket som system",
+   "standard": "L.2.1.e",
+   "slotTokens": [
+    "ordklasser",
+    "dyr",
+    "3-trinn"
+   ],
+   "p1": "Ni ordkort ligger øverst på arket, tre av hvert slag, og de tre substantivene har et lite bilde av et dyr ved siden av seg. Verbene og adjektivene står som rene ord uten noe bilde. Under kortene er det tre høye, åpne bokser med hvert sitt symbol på lokket og ordklassens navn under: Substantiv, Verb, Adjektiv. Barnet leser ett kort av gangen og skriver ordet på en linje i riktig boks. Tre ord i hver boks når arket er ferdig, og det er fire linjer å skrive på, så plassen er rommelig.",
+   "p2": "Ni avgjørelser er akkurat nok til den første timen om ordklasser. Bildene ved substantivene er et støttehjul: barnet ser at dyret er en ting, og trenger ikke lese seg fram til det. Verbene og adjektivene står uten bilde og må avgjøres på ordet alene, og det er der tvilen kommer. Boksene tvinger fram et valg, for et ord kan ikke stå to steder. Læreren ser hvilke to bokser barnet blander, og på dette nivået er det nesten alltid verb og adjektiv. Ordklasser som system er noe LK20 legger til 3. og 4. trinn, og ni ord er en trygg start på det – kort nok til at hele klassen kommer i mål i samme økt.",
+   "p3": "Skriv ut PDF-en gratis, og la barnet si en kort setning med hvert ord før det sorteres; ordet viser da som regel selv hvor det hører hjemme. Neste steg er søskenarket med tolv ord uten bilder, og etter det femtenordsarket, der også verbene og adjektivene blir sjeldnere.",
+   "canonicalDeckSlug": "ordklasser-dyr-g2285",
+   "carousel": [
+    {
+     "label": "Substantiv, verb og adjektiv uten bilder: tolv ordkort som ser helt like ut",
+     "href": "substantiv-verb-og-adjektiv-uten-bilder"
+    },
+    {
+     "label": "Substantiv, verb og adjektiv: femten ordkort, fem i hver boks",
+     "href": "substantiv-verb-og-adjektiv-15-ord"
+    },
+    {
+     "label": "Regne med penger med to oppgaver: fire varer i hylla og god plass til å regne",
+     "href": "regne-med-penger-to-oppgaver"
+    },
+    {
+     "label": "Regne med penger med fire spørsmål: sum, vekslepenger, rekker det, og hvor mye mer",
+     "href": "regne-med-penger-fire-sporsmal"
+    }
+   ],
+   "title": "Substantiv, verb og adjektiv: 9 ord – dyr | til utskrift PDF gratis",
+   "metaDescription": "Ni ordkort om dyr, tre av hvert slag, og substantivene har et lite bilde. Barnet skriver hvert ord i boksen for riktig ordklasse. Gratis PDF, 3. trinn."
+  },
+  {
+   "slug": "substantiv-verb-og-adjektiv-uten-bilder",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-classes",
+    "mode": null,
+    "theme": "fruits",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Ordklasser-oppgaveark uten bilder",
+   "h1": "Substantiv, verb og adjektiv uten bilder: tolv ordkort som ser helt like ut",
+   "strand": "Språket som system",
+   "standard": "L.2.1.e",
+   "slotTokens": [
+    "ordklasser",
+    "frukter",
+    "3-trinn"
+   ],
+   "p1": "Kortene ser like ut nå. Tolv rene ord ligger øverst på arket, fire substantiv om frukt, fire verb og fire adjektiv, og ikke ett av dem har et bilde som røper hva slags ord det er. Under står de tre kjente boksene med symbol på lokket og navnet under: Substantiv, Verb, Adjektiv. Barnet leser ordet, avgjør ordklassen og skriver det på en av de fem linjene i riktig boks. Fire ord ender i hver boks, og oppgaven er den samme tolv ganger.",
+   "p2": "Å ta bort bildene er en større endring enn antallet kort skulle tilsi. Med bilde er substantivet avgjort før barnet har lest ferdig; uten bilde må alle tolv ordene behandles likt, og da er det først og fremst en leseoppgave. Et fruktnavn er fremdeles lett å kjenne igjen som en ting, men nå må barnet lese det for å komme dit. Ordene er hentet fra to vanskegrader, så noen av verbene og adjektivene er mindre hverdagslige enn på nybegynnerarket. Læreren ser hvem som fortsatt trenger et bilde å støtte seg til. Å beskrive og bruke ordklasser i samtale om språk er en av forventningene i LK20 for 3. og 4. trinn.",
+   "p3": "Skriv ut PDF-en gratis. Et godt triks er å sette en liten artikkel foran ordet: det som tåler en eller et, er som regel substantivet. Nybegynnerarket har ni ord og bilde ved substantivene, mens femtenordsarket øker antallet og henter inn de sjeldneste ordene.",
+   "canonicalDeckSlug": "ordklasser-frukter-g2286",
+   "carousel": [
+    {
+     "label": "Substantiv, verb og adjektiv: ni ordkort, og substantivene har bilde",
+     "href": "substantiv-verb-og-adjektiv-9-ord"
+    },
+    {
+     "label": "Substantiv, verb og adjektiv: femten ordkort, fem i hver boks",
+     "href": "substantiv-verb-og-adjektiv-15-ord"
+    },
+    {
+     "label": "Regne med penger med to oppgaver: fire varer i hylla og god plass til å regne",
+     "href": "regne-med-penger-to-oppgaver"
+    },
+    {
+     "label": "Regne med penger med fire spørsmål: sum, vekslepenger, rekker det, og hvor mye mer",
+     "href": "regne-med-penger-fire-sporsmal"
+    }
+   ],
+   "title": "Substantiv, verb og adjektiv uten bilder – frukt | PDF gratis",
+   "metaDescription": "Tolv ordkort om frukt uten et eneste bilde. Alle kortene ser like ut, og barnet må avgjøre ordklassen ut fra ordet alene. Gratis PDF for 3. trinn."
+  },
+  {
+   "slug": "substantiv-verb-og-adjektiv-15-ord",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-classes",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Ordklasser-oppgaveark: femten ord",
+   "h1": "Substantiv, verb og adjektiv: femten ordkort, fem i hver boks",
+   "strand": "Språket som system",
+   "standard": "L.2.1.e",
+   "slotTokens": [
+    "ordklasser",
+    "kjoretoy",
+    "3-trinn"
+   ],
+   "p1": "Femten ordkort fyller to rader øverst på arket: fem substantiv om kjøretøy, fem verb og fem adjektiv, alle uten bilde. Under ligger de tre boksene med symbol på lokket og ordklassens navn under, hver med seks skrivelinjer. Barnet leser hvert kort, avgjør ordklassen og skriver ordet inn, til fem ord står i hver boks og ingen kort er igjen. Dette er den lengste utgaven i familien, og den er ment å ta en hel økt.",
+   "p2": "Antallet gjør noe med oppgaven. Med femten kort holder det ikke å kjenne igjen noen få opplagte ord; barnet må ha en arbeidsmåte, og de fleste finner den selv – ta substantivene først, så verbene, og la det som blir igjen, være adjektiv. Ordene er hentet fra alle tre vanskegradene i banken, så her dukker det opp verb og adjektiv som ikke er hverdagslige, og de må avgjøres på formen og på hvordan ordet brukes. Læreren ser hvem som har en strategi og hvem som gjetter. Det er ordklasser brukt som system, slik LK20 beskriver dem på 3. og 4. trinn, og et naturlig sluttpunkt før klassen går videre til setningen.",
+   "p3": "Skriv ut PDF-en gratis, og la gjerne to barn sortere sammen og begrunne hvert kort for hverandre. Er femten for mange, gjør tolvordsarket det samme uten bilder, og nybegynnerarket ni ord med bilde ved substantivene.",
+   "canonicalDeckSlug": "ordklasser-kjoretoy-g2287",
+   "carousel": [
+    {
+     "label": "Substantiv, verb og adjektiv: ni ordkort, og substantivene har bilde",
+     "href": "substantiv-verb-og-adjektiv-9-ord"
+    },
+    {
+     "label": "Substantiv, verb og adjektiv uten bilder: tolv ordkort som ser helt like ut",
+     "href": "substantiv-verb-og-adjektiv-uten-bilder"
+    },
+    {
+     "label": "Regne med penger med to oppgaver: fire varer i hylla og god plass til å regne",
+     "href": "regne-med-penger-to-oppgaver"
+    },
+    {
+     "label": "Regne med penger med fire spørsmål: sum, vekslepenger, rekker det, og hvor mye mer",
+     "href": "regne-med-penger-fire-sporsmal"
+    }
+   ],
+   "title": "Substantiv, verb og adjektiv: 15 ord – kjøretøy | PDF gratis",
+   "metaDescription": "Femten ordkort om kjøretøy uten bilder, fem substantiv, fem verb og fem adjektiv. Seks skrivelinjer i hver boks. Gratis PDF for 3. trinn."
+  },
+  {
+   "slug": "regne-med-penger-to-oppgaver",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "animals",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: regne med penger, to oppgaver",
+   "h1": "Regne med penger med to oppgaver: fire varer i hylla og god plass til å regne",
+   "strand": "Tall og tallforståelse",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "regne-med-penger",
+    "dyr",
+    "3-trinn"
+   ],
+   "p1": "Hylla er kort på dette arket: fire dyr står på rekke med hver sin papirlapp under, og prisene er hele kroner mellom 4 og 12 kr – ingen ører noe sted. Under hylla ligger bare to regnefortellinger, og begge har et stort prikkefelt å regne i. I den første legger et barn to av varene i kurven, og spørsmålet er hva det koster til sammen. I den andre har noen et bestemt beløp og skal avgjøre om det rekker: barnet setter ring rundt ja eller nei og skriver summen i ruten med kr bak.",
+   "p2": "To oppgaver på en hel side er et bevisst valg. Et barn som møter penger for første gang, trenger plass – både til å lete i hylla og til å skrive regnestykket sitt et sted. Varene er tegnet inn i setningen som bilder og ikke skrevet med ord, så prisen finnes ingen andre steder enn på lappen i hylla, og barnet må gå tilbake dit for hvert tall. Ja-eller-nei-oppgaven er den vanskeligste av de to, for der må barnet regne ut summen først og sammenligne etterpå, og mange svarer før de har regnet. Det er addisjon og sammenligning brukt i en praktisk situasjon, slik LK20 beskriver regning på småtrinnet.",
+   "p3": "Skriv ut PDF-en gratis, og legg gjerne ekte mynter på bordet ved siden av; kronene i hylla er tall barn kjenner igjen fra butikken. Når disse to sitter, finnes det ark med tre og fire kort, og egne ark for vekslepenger, prisforskjeller og kurver med tre varer.",
+   "canonicalDeckSlug": "regne-med-penger-dyr-g2289",
+   "carousel": [
+    {
+     "label": "Regne med penger med fire spørsmål: sum, vekslepenger, rekker det, og hvor mye mer",
+     "href": "regne-med-penger-fire-sporsmal"
+    },
+    {
+     "label": "Regne med penger: tre kort som alle spør hva to varer koster til sammen",
+     "href": "regne-med-penger-hva-koster-det-til-sammen"
+    },
+    {
+     "label": "Regne med penger og kjøpe tre ting: tre priser skal legges sammen på hvert kort",
+     "href": "regne-med-penger-kjope-tre-ting"
+    },
+    {
+     "label": "Regne med penger og vekslepenger: tell myntene som betales, og finn resten",
+     "href": "regne-med-penger-hvor-mye-far-du-igjen"
+    }
+   ],
+   "title": "Regne med penger: to oppgaver – dyr | til utskrift PDF gratis",
+   "metaDescription": "Butikkhylle med fire dyr og prislapper i hele kroner, og to regnefortellinger: hva koster det til sammen, og er pengene nok? Gratis PDF, 3. trinn."
+  },
+  {
+   "slug": "regne-med-penger-fire-sporsmal",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: regne med penger, fire spørsmål",
+   "h1": "Regne med penger med fire spørsmål: sum, vekslepenger, rekker det, og hvor mye mer",
+   "strand": "Tall og tallforståelse",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "regne-med-penger",
+    "kjoretoy",
+    "3-trinn"
+   ],
+   "p1": "Fire kort under hylla, og de spør ikke om det samme. Øverst står fem kjøretøy på rekke med prislapper i hele kroner. Første kort ber om summen av tre varer. Andre kort viser myntene noen betaler med, tegnet rett inn i setningen, og spør hvor mye vedkommende får igjen. Tredje kort gir et beløp og spør om det rekker til to varer – ring rundt ja eller nei, og skriv summen. Fjerde kort sammenligner to priser og spør hvor mye dyrere den ene er. Fire spørsmål, fire ulike regnemåter.",
+   "p2": "Dette er det tetteste arket i familien, og det er laget for barn som allerede har møtt hver oppgavetype for seg. Verdien ligger i at de nå kommer om hverandre: barnet kan ikke sette maskinen i addisjon og la den gå, men må lese hvert kort og avgjøre hva som spørres om. To av kortene krever addisjon, ett krever subtraksjon fra det som er betalt, og ett krever en sammenligning. Prikkefeltene er mindre her enn på nybegynnerarket, så regningen må være ryddig. Læreren ser hvilket av de fire kortene som stopper barnet, og det pleier å være vekslepengene. Ingen sum går over 50 kr.",
+   "p3": "Skriv ut PDF-en gratis, og la barnet lese alle fire kortene før det begynner å regne; da blir det tydelig at spørsmålene er forskjellige. Vil du øve én type av gangen, finnes egne ark for summer, for kurver med tre varer, for vekslepenger, for ja-eller-nei og for prisforskjeller.",
+   "canonicalDeckSlug": "regne-med-penger-kjoretoy-g2290",
+   "carousel": [
+    {
+     "label": "Regne med penger med to oppgaver: fire varer i hylla og god plass til å regne",
+     "href": "regne-med-penger-to-oppgaver"
+    },
+    {
+     "label": "Regne med penger: tre kort som alle spør hva to varer koster til sammen",
+     "href": "regne-med-penger-hva-koster-det-til-sammen"
+    },
+    {
+     "label": "Regne med penger og kjøpe tre ting: tre priser skal legges sammen på hvert kort",
+     "href": "regne-med-penger-kjope-tre-ting"
+    },
+    {
+     "label": "Regne med penger og vekslepenger: tell myntene som betales, og finn resten",
+     "href": "regne-med-penger-hvor-mye-far-du-igjen"
+    }
+   ],
+   "title": "Regne med penger: fire spørsmål – kjøretøy | PDF gratis",
+   "metaDescription": "Fem kjøretøy i hylla og fire kort som spør om fire ulike ting: summen av tre varer, vekslepenger, om pengene rekker, og prisforskjellen. Gratis PDF, 3. trinn."
+  },
+  {
+   "slug": "regne-med-penger-hva-koster-det-til-sammen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "toys",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: legg sammen prisene",
+   "h1": "Regne med penger: tre kort som alle spør hva to varer koster til sammen",
+   "strand": "Tall og tallforståelse",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "regne-med-penger",
+    "leker",
+    "3-trinn"
+   ],
+   "p1": "Alle tre kortene spør om det samme: hva koster det til sammen? Øverst står fem leker i hylla med hver sin prislapp i hele kroner, og under ligger tre regnefortellinger der et barn kjøper, tar eller vil ha to av varene. Lekene er tegnet inn i setningen som bilder, så prisen må hentes fra lappen i hylla hver gang. Barnet regner i prikkefeltet og skriver summen i ruten med kr bak. Ingen vekslepenger, ingen ja eller nei – bare pluss, tre ganger.",
+   "p2": "Når spørsmålet er det samme på alle kortene, flyttes hele arbeidet over på det som faktisk skal øves: å finne riktig vare og lese riktig pris. Det er der de fleste feilene oppstår på et pengeark, ikke i selve addisjonen. Barnet må se på bildet i setningen, kjenne igjen leken i hylla, lese tallet på lappen og gjøre det to ganger før det legger sammen. Prisene er hele kroner, og summene holder seg godt innenfor femti, så regnestykket i seg selv er noe et barn på 3. trinn kan fra før. Det er addisjon i en praktisk situasjon, som LK20 ber om, med tyngdepunktet på lesingen av hylla.",
+   "p3": "Skriv ut PDF-en gratis, og be barnet skrive de to prisene ned i prikkefeltet før det legger sammen; da blir feilen synlig hvis feil vare er valgt. Arket med tre varer i kurven gjør det samme med ett tall til, og arket med fire spørsmål blander addisjonen med de andre oppgavetypene.",
+   "canonicalDeckSlug": "regne-med-penger-leker-g2291",
+   "carousel": [
+    {
+     "label": "Regne med penger med to oppgaver: fire varer i hylla og god plass til å regne",
+     "href": "regne-med-penger-to-oppgaver"
+    },
+    {
+     "label": "Regne med penger med fire spørsmål: sum, vekslepenger, rekker det, og hvor mye mer",
+     "href": "regne-med-penger-fire-sporsmal"
+    },
+    {
+     "label": "Regne med penger og kjøpe tre ting: tre priser skal legges sammen på hvert kort",
+     "href": "regne-med-penger-kjope-tre-ting"
+    },
+    {
+     "label": "Regne med penger og vekslepenger: tell myntene som betales, og finn resten",
+     "href": "regne-med-penger-hvor-mye-far-du-igjen"
+    }
+   ],
+   "title": "Regne med penger: hva koster det til sammen? | PDF gratis",
+   "metaDescription": "Fem leker i hylla og tre kort som alle spør om det samme: hva koster de to varene til sammen? Ren addisjon i hele kroner. Gratis PDF for 3. trinn."
+  },
+  {
+   "slug": "regne-med-penger-kjope-tre-ting",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "fruits",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: tre varer i kurven",
+   "h1": "Regne med penger og kjøpe tre ting: tre priser skal legges sammen på hvert kort",
+   "strand": "Tall og tallforståelse",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "regne-med-penger",
+    "frukter",
+    "3-trinn"
+   ],
+   "p1": "Tre varer i hver kurv, ikke to. Øverst i arket står fem frukter på rekke med prislapper i hele kroner, og under ligger tre regnefortellinger der et barn kjøper eller tar tre av dem. Fruktene er tegnet inn i setningen som bilder, tre stykker i rekke, og barnet må finne hver av dem i hylla og lese prisen før noe kan legges sammen. Utregningen gjøres i prikkefeltet, og summen skrives i ruten med kr bak. Ingen av summene går over 50 kr.",
+   "p2": "Spranget fra to til tre tall er større enn det ser ut. Med to priser klarer mange barn hoderegningen; med tre må de fleste skrive noe ned, og da kommer arbeidsmåten fram: legger barnet sammen de to første og så den tredje, eller leter det etter to som gir et rundt tall? Begge deler er gode strategier, og prikkefeltet er stort nok til at valget blir synlig for læreren. Samtidig er det tre oppslag i hylla per kort i stedet for to, så lesingen av prislappene teller mer. Å legge sammen flere tall i en praktisk situasjon er nettopp det LK20 beskriver som regning på 3. trinn.",
+   "p3": "Skriv ut PDF-en gratis, og la barnet krysse av fruktene i hylla etter hvert som prisen er lest, så ingen blir glemt. Arket med to varer per kort er den roligere utgaven, og arket med fire spørsmål setter tre-varers-kurven ved siden av vekslepenger og prisforskjeller.",
+   "canonicalDeckSlug": "regne-med-penger-frukter-g2292",
+   "carousel": [
+    {
+     "label": "Regne med penger med to oppgaver: fire varer i hylla og god plass til å regne",
+     "href": "regne-med-penger-to-oppgaver"
+    },
+    {
+     "label": "Regne med penger med fire spørsmål: sum, vekslepenger, rekker det, og hvor mye mer",
+     "href": "regne-med-penger-fire-sporsmal"
+    },
+    {
+     "label": "Regne med penger: tre kort som alle spør hva to varer koster til sammen",
+     "href": "regne-med-penger-hva-koster-det-til-sammen"
+    },
+    {
+     "label": "Regne med penger og vekslepenger: tell myntene som betales, og finn resten",
+     "href": "regne-med-penger-hvor-mye-far-du-igjen"
+    }
+   ],
+   "title": "Regne med penger: kjøpe tre ting – frukt | til utskrift PDF gratis",
+   "metaDescription": "Fem frukter i hylla og tre kort der kurven inneholder tre varer, ikke to. Barnet legger sammen tre priser i hele kroner. Gratis PDF for 3. trinn."
+  },
+  {
+   "slug": "regne-med-penger-hvor-mye-far-du-igjen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "animals",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: vekslepenger",
+   "h1": "Regne med penger og vekslepenger: tell myntene som betales, og finn resten",
+   "strand": "Tall og tallforståelse",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "regne-med-penger",
+    "dyr",
+    "3-trinn"
+   ],
+   "p1": "Mynter er tegnet rett inn i setningen på dette arket. Fem dyr står i hylla med prislapper i hele kroner, og på hvert av de to kortene under kjøper noen én av varene og betaler med mynter som er tegnet i teksten, med beløpet skrevet inne i mynten. Spørsmålet er hvor mye vedkommende får igjen. Barnet må først telle opp det som er betalt, så lese prisen på lappen i hylla, og til slutt trekke det ene fra det andre i det store prikkefeltet før svaret skrives i ruten med kr bak.",
+   "p2": "Vekslepenger er den første subtraksjonen mange barn synes har en grunn, og den er vanskeligere enn en oppstilling med to tall, fordi barnet selv må finne det ene av dem. Myntene i setningen skal telles, ikke leses som ett tall, og prisen ligger et helt annet sted på arket. Først når begge tallene er hentet, er regnestykket klart. Bare to kort på siden gir plass til at hele utregningen kan stå. Læreren ser om barnet trekker prisen fra det betalte, eller snur regnestykket. Dette er subtraksjon brukt i en praktisk situasjon, slik LK20 beskriver regning på småtrinnet, og butikken er den situasjonen alle kjenner.",
+   "p3": "Skriv ut PDF-en gratis, og legg ekte mynter på bordet ved siden av arket – de fleste barn regner vekslepenger raskere med hendene enn med blyanten første gang. Arket med bare summer er et hakk enklere, og arket med fire spørsmål setter vekslepengene sammen med de andre oppgavetypene.",
+   "canonicalDeckSlug": "regne-med-penger-dyr-g2293",
+   "carousel": [
+    {
+     "label": "Regne med penger med to oppgaver: fire varer i hylla og god plass til å regne",
+     "href": "regne-med-penger-to-oppgaver"
+    },
+    {
+     "label": "Regne med penger med fire spørsmål: sum, vekslepenger, rekker det, og hvor mye mer",
+     "href": "regne-med-penger-fire-sporsmal"
+    },
+    {
+     "label": "Regne med penger: tre kort som alle spør hva to varer koster til sammen",
+     "href": "regne-med-penger-hva-koster-det-til-sammen"
+    },
+    {
+     "label": "Regne med penger og kjøpe tre ting: tre priser skal legges sammen på hvert kort",
+     "href": "regne-med-penger-kjope-tre-ting"
+    }
+   ],
+   "title": "Regne med penger: hvor mye får du igjen? | til utskrift PDF gratis",
+   "metaDescription": "To kort der noen betaler med mynter tegnet inn i setningen, og barnet regner ut hvor mye det får igjen. Fem dyr i hylla. Gratis PDF for 3. trinn."
+  },
+  {
+   "slug": "regne-med-penger-er-det-nok",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: rekker pengene?",
+   "h1": "Regne med penger og «er det nok?»: ring rundt ja eller nei, og skriv summen",
+   "strand": "Tall og tallforståelse",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "regne-med-penger",
+    "kjoretoy",
+    "3-trinn"
+   ],
+   "p1": "Her skal barnet svare ja eller nei, men ikke før det har regnet. Fem kjøretøy står i hylla med prislapper i hele kroner, og på hvert av de to kortene har noen et bestemt beløp i lomma og vil kjøpe to av varene. Ved siden av det store prikkefeltet ligger to brikker med ja og nei, og en rute til summen med kr bak. Barnet finner de to kjøretøyene i hylla, legger prisene sammen, sammenligner med beløpet i teksten, og ringer rundt det ene ordet.",
+   "p2": "Oppgaven har to svar som må stemme overens, og det er hele poenget: en ring rundt ja betyr ingenting hvis summen i ruten er større enn beløpet i setningen. Beløpet ligger alltid noen få kroner over eller under summen, så det er ikke mulig å se svaret på lang avstand – forskjellen er liten nok til at den må regnes ut. Læreren ser med én gang hvem som gjetter først og regner etterpå, for da spriker ringen og ruten. Å sammenligne to tall og bruke sammenligningen til å ta en avgjørelse er en av de praktiske regnesituasjonene LK20 trekker fram på småtrinnet.",
+   "p3": "Skriv ut PDF-en gratis, og be barnet dekke til ja og nei med fingeren til summen står i ruten. Arket der alle kortene bare spør om summen, er det naturlige forarbeidet, og arket med fire spørsmål setter ja-eller-nei ved siden av vekslepenger og prisforskjeller.",
+   "canonicalDeckSlug": "regne-med-penger-kjoretoy-g2294",
+   "carousel": [
+    {
+     "label": "Regne med penger med to oppgaver: fire varer i hylla og god plass til å regne",
+     "href": "regne-med-penger-to-oppgaver"
+    },
+    {
+     "label": "Regne med penger med fire spørsmål: sum, vekslepenger, rekker det, og hvor mye mer",
+     "href": "regne-med-penger-fire-sporsmal"
+    },
+    {
+     "label": "Regne med penger: tre kort som alle spør hva to varer koster til sammen",
+     "href": "regne-med-penger-hva-koster-det-til-sammen"
+    },
+    {
+     "label": "Regne med penger og kjøpe tre ting: tre priser skal legges sammen på hvert kort",
+     "href": "regne-med-penger-kjope-tre-ting"
+    }
+   ],
+   "title": "Regne med penger: er det nok? – kjøretøy | PDF gratis",
+   "metaDescription": "To kort der noen har et bestemt beløp og skal kjøpe to kjøretøy. Barnet ringer rundt ja eller nei og skriver hva varene koster. Gratis PDF, 3. trinn."
+  },
+  {
+   "slug": "regne-med-penger-hvor-mye-mer",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "toys",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: prisforskjell",
+   "h1": "Regne med penger: hvor mye mer koster den ene leken enn den andre?",
+   "strand": "Tall og tallforståelse",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "regne-med-penger",
+    "leker",
+    "3-trinn"
+   ],
+   "p1": "Ingen kjøper noe på dette arket, og ingen barn er nevnt ved navn. Øverst står fem leker i hylla med hver sin prislapp i hele kroner, og de tre kortene under stiller det samme spørsmålet i to former: hvor mye dyrere er den ene leken enn den andre? Lekene er tegnet inn i setningen som bilder, aldri skrevet med ord. Barnet finner begge prisene i hylla, regner ut forskjellen i prikkefeltet og skriver den i ruten med kr bak. Svaret er aldri null – prisene er alltid ulike.",
+   "p2": "Å finne en differanse er den subtraksjonen barn møter sist, fordi ingenting blir tatt bort. Begge tallene finnes fortsatt, og barnet skal si hvor langt det er mellom dem. Noen teller oppover fra den billigste til den dyreste, andre trekker fra, og på et pengeark er begge veier like gyldige. Rekkefølgen i setningen er alltid den samme – den dyre varen nevnes først – så barnet slipper å avgjøre hvilken vei subtraksjonen går, og kan bruke oppmerksomheten på selve forskjellen. Læreren ser hvem som teller og hvem som regner. Det er sammenligning av tall i en praktisk situasjon, slik LK20 beskriver den på 3. trinn.",
+   "p3": "Skriv ut PDF-en gratis, og la barnet peke på de to prislappene samtidig og si tallene høyt før det regner. Arket med vekslepenger øver den andre subtraksjonen, der noe faktisk blir betalt, og arket med fire spørsmål blander prisforskjellen med resten.",
+   "canonicalDeckSlug": "regne-med-penger-leker-g2295",
+   "carousel": [
+    {
+     "label": "Regne med penger med to oppgaver: fire varer i hylla og god plass til å regne",
+     "href": "regne-med-penger-to-oppgaver"
+    },
+    {
+     "label": "Regne med penger med fire spørsmål: sum, vekslepenger, rekker det, og hvor mye mer",
+     "href": "regne-med-penger-fire-sporsmal"
+    },
+    {
+     "label": "Regne med penger: tre kort som alle spør hva to varer koster til sammen",
+     "href": "regne-med-penger-hva-koster-det-til-sammen"
+    },
+    {
+     "label": "Regne med penger og kjøpe tre ting: tre priser skal legges sammen på hvert kort",
+     "href": "regne-med-penger-kjope-tre-ting"
+    }
+   ],
+   "title": "Regne med penger: hvor mye mer? – leker | til utskrift PDF gratis",
+   "metaDescription": "Tre kort som sammenligner to priser: hvor mye dyrere er den ene leken enn den andre? Fem leker i hylla med prislapper. Gratis PDF for 3. trinn."
+  },
+  {
+   "slug": "les-kalenderen-fire-sporsmal",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "calendar",
+    "mode": null,
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Kalender-oppgaveark: fire spørsmål",
+   "h1": "Les kalenderen med fire spørsmål: ukedag, antall, dato og dager i måneden",
+   "strand": "Måling og geometri",
+   "slotTokens": [
+    "kalenderen",
+    "3-trinn"
+   ],
+   "p1": "En månedsside og fire spørsmål – ikke flere. Kalenderen fyller øverste halvdel av arket med man, tir, ons, tor, fre, lør og søn i en mørk stripe øverst, akkurat slik en kalender på veggen ser ut i Norge, og datoene i store, luftige ruter under. På to av datoene ligger et lite bilde. Under kalenderen står fire spørsmål med hver sin svarrute: hvilken ukedag en bestemt dato er, hvor mange det er av én ukedag i måneden, hvilken dato bildet står på, og hvor mange dager måneden har.",
+   "p2": "Fire spørsmål er den korteste veien inn i en tabell med to retninger. Kolonnen sier ukedag, raden sier uke, og hvert av spørsmålene krever én bestemt bevegelse: opp til overskriften for å finne ukedagen, nedover en kolonne for å telle, og fra bilde til tall for å finne datoen. Rutene er høye på dette arket, så det er lett å følge en kolonne uten å skli over i naboen. Ingen av spørsmålene krever regning – alle svarene står å lese i kalenderen, hvis barnet vet hvor det skal se. Å lese av kalender og ukedager hører til det LK20 kaller måling av tid.",
+   "p3": "Skriv ut PDF-en gratis, og heng arket ved siden av klassens egen kalender, så barnet kan sammenligne oppbygningen. De to andre arkene i familien går videre: det ene spør bare om ukedager, det andre legger til å finne datoen én uke senere og telle dagene mellom to bilder.",
+   "canonicalDeckSlug": "kalenderen-g2296",
+   "carousel": [
+    {
+     "label": "Les kalenderen én uke senere: finn datoen sju dager fram og tell dagene mellom bildene",
+     "href": "les-kalenderen-en-uke-senere"
+    },
+    {
+     "label": "Les kalenderen og ukedagene: fire spørsmål som alle besvares med en ukedag",
+     "href": "les-kalenderen-ukedagene"
+    },
+    {
+     "label": "Skriv til bildet der begynnelsen er gitt: fire linjer, og tre av dem er begynt",
+     "href": "skriv-til-bildet-begynnelsen-er-gitt"
+    },
+    {
+     "label": "Skriv til bildet med egne ord: seks blanke linjer og ingen setningsstart",
+     "href": "skriv-til-bildet-med-egne-ord"
+    }
+   ],
+   "title": "Les kalenderen: fire spørsmål – 3. trinn | til utskrift PDF gratis",
+   "metaDescription": "En hel månedsside som starter på mandag, to små bilder på bestemte datoer og fire spørsmål som bare kan besvares ved å lese kalenderen. Gratis PDF, 3. trinn."
+  },
+  {
+   "slug": "les-kalenderen-en-uke-senere",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "calendar",
+    "mode": null,
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Kalender-oppgaveark: én uke senere",
+   "h1": "Les kalenderen én uke senere: finn datoen sju dager fram og tell dagene mellom bildene",
+   "strand": "Måling og geometri",
+   "slotTokens": [
+    "kalenderen",
+    "3-trinn"
+   ],
+   "p1": "Fem spørsmål står under kalenderen, og de to siste er de eneste i familien som krever telling. Månedssiden øverst starter på mandag og har tre små bilder liggende på hver sin dato. De tre første spørsmålene leses rett av: hvilken ukedag en dato er, hvor mange det er av én ukedag, og hvilken dato et av bildene står på. Så kommer spørsmålet om hvilken dato det er nøyaktig én uke senere, og til slutt hvor mange dager det er fra det ene bildet til det andre.",
+   "p2": "Sju dager fram i en kalender er ikke en telleoppgave, det er et sprang rett nedover i tabellen – samme kolonne, én rad lenger ned. Mange barn teller sju ruter bortover i stedet og lander på feil dato, og nettopp derfor er dette spørsmålet verdt en samtale i klassen. Det siste spørsmålet må derimot telles, for de to bildene ligger sjelden i samme kolonne, og da må barnet gå ute i radene og holde tellingen. De to oppgavene ser like ut og løses helt ulikt. Å bruke kalenderen til å regne med dager og uker er det LK20 legger til måling av tid på småtrinnet.",
+   "p3": "Skriv ut PDF-en gratis, og la barnet trekke en blyantstrek rett ned fra datoen til raden under – da blir én uke senere synlig én gang for alle. Arket med fire spørsmål er den rolige inngangen, og ukedagsarket øver kolonnene for seg.",
+   "canonicalDeckSlug": "kalenderen-g2297",
+   "carousel": [
+    {
+     "label": "Les kalenderen med fire spørsmål: ukedag, antall, dato og dager i måneden",
+     "href": "les-kalenderen-fire-sporsmal"
+    },
+    {
+     "label": "Les kalenderen og ukedagene: fire spørsmål som alle besvares med en ukedag",
+     "href": "les-kalenderen-ukedagene"
+    },
+    {
+     "label": "Skriv til bildet der begynnelsen er gitt: fire linjer, og tre av dem er begynt",
+     "href": "skriv-til-bildet-begynnelsen-er-gitt"
+    },
+    {
+     "label": "Skriv til bildet med egne ord: seks blanke linjer og ingen setningsstart",
+     "href": "skriv-til-bildet-med-egne-ord"
+    }
+   ],
+   "title": "Les kalenderen: én uke senere – 3. trinn | til utskrift PDF gratis",
+   "metaDescription": "Fem spørsmål til en hel månedsside med tre små bilder. Barnet finner datoen én uke senere og teller dagene mellom to av bildene. Gratis PDF, 3. trinn."
+  },
+  {
+   "slug": "les-kalenderen-ukedagene",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "calendar",
+    "mode": null,
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Kalender-oppgaveark: ukedagene",
+   "h1": "Les kalenderen og ukedagene: fire spørsmål som alle besvares med en ukedag",
+   "strand": "Måling og geometri",
+   "slotTokens": [
+    "kalenderen",
+    "3-trinn"
+   ],
+   "p1": "Nesten hvert svar på dette arket er en ukedag. Månedssiden øverst starter på mandag, med man, tir, ons, tor, fre, lør og søn i stripen over datorutene. De fire spørsmålene under handler om dagene og ikke om datoene: hvilken ukedag en bestemt dato faller på, hvor mange det er av én ukedag i måneden, hvilken ukedag måneden begynner på, og hvilken den slutter på. To små bilder ligger på datoer i kalenderen, men ingen av spørsmålene handler om dem.",
+   "p2": "Å lese nedover i kolonnene er en annen bevegelse enn å lese bortover i radene, og dette arket øver bare den ene. Alle fire spørsmålene besvares i kolonneretningen: én kolonne er én ukedag, og alle datoene i den kolonnen deler den dagen. Den første og den siste dagen i måneden er de nyttigste å finne, for de ligger i hver sin ende av tabellen og tvinger barnet til å lese både øverste og nederste rad. Rutene er høye, så kolonnen er lett å følge. Læreren ser hvem som teller ruter i stedet for å lese overskriften. Det hører til det LK20 kaller måling av tid.",
+   "p3": "Skriv ut PDF-en gratis, og la barnet fargelegge én kolonne lett med blyant før det svarer; da blir det tydelig at alle datoene i kolonnen er samme ukedag. Arket med fire blandede spørsmål tar også med datoer og antall dager, og arket om én uke senere går videre til å regne med dagene.",
+   "canonicalDeckSlug": "kalenderen-g2298",
+   "carousel": [
+    {
+     "label": "Les kalenderen med fire spørsmål: ukedag, antall, dato og dager i måneden",
+     "href": "les-kalenderen-fire-sporsmal"
+    },
+    {
+     "label": "Les kalenderen én uke senere: finn datoen sju dager fram og tell dagene mellom bildene",
+     "href": "les-kalenderen-en-uke-senere"
+    },
+    {
+     "label": "Skriv til bildet der begynnelsen er gitt: fire linjer, og tre av dem er begynt",
+     "href": "skriv-til-bildet-begynnelsen-er-gitt"
+    },
+    {
+     "label": "Skriv til bildet med egne ord: seks blanke linjer og ingen setningsstart",
+     "href": "skriv-til-bildet-med-egne-ord"
+    }
+   ],
+   "title": "Les kalenderen: ukedagene – 3. trinn | til utskrift PDF gratis",
+   "metaDescription": "Fire spørsmål om ukedager til en hel månedsside: hvilken dag en dato er, hvor mange det er av én dag, og hvilken dag måneden begynner og slutter på. Gratis PDF."
+  },
+  {
+   "slug": "skriv-til-bildet-begynnelsen-er-gitt",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-writing",
+    "mode": null,
+    "theme": "animals",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Skriv-til-bildet-oppgaveark med startord",
+   "h1": "Skriv til bildet der begynnelsen er gitt: fire linjer, og tre av dem er begynt",
+   "strand": "Skriving",
+   "standard": "W.2.2",
+   "slotTokens": [
+    "skriv-til-bildet",
+    "dyr",
+    "3-trinn"
+   ],
+   "p1": "Tre av de fire skrivelinjene har fått et startord. Øverst ligger en rolig scene med dyr satt ut på en flate – ett stort dyr foran, mindre bakover i bildet, og ett av dem to ganger, så det er noe å telle. Under scenen står en ordbank i stiplet ramme med fire små bilder og ordet under hvert, nøyaktig de dyrene som finnes i bildet. Nederst ligger fire skrivelinjer, og de tre første begynner allerede: «Jeg ser», «Her er», «Det er». Den fjerde er tom.",
+   "p2": "Startordene gjør at et barn som ikke vet hvordan det skal begynne, likevel kommer i gang, og de styrer skrivingen mot det som er der: dette arket ber om en beskrivelse, ikke en fortelling. «Jeg ser» og «Her er» inviterer til å navngi og telle, mens den siste, tomme linja er barnets egen. Ordbanken tar bort stavevansken, for dyrenavnene står skrevet ved siden av bildet sitt. Det finnes ingen fasit her; læreren ser etter tre ting: om ordene fra banken brukes riktig i egne setninger, om barnet setter stor bokstav og punktum uten å bli bedt om det, og om den siste linja blir skrevet. Det er begynnende skriving slik LK20 beskriver den på 3. trinn.",
+   "p3": "Skriv ut PDF-en gratis, og snakk om bildet før skrivingen: hvor mange er det av hvert dyr, hvem står nærmest? Søskenarket har seks ord i banken og seks helt blanke linjer uten startord, og er det naturlige neste steget når disse fire går lett.",
+   "canonicalDeckSlug": "skriv-til-bildet-dyr-g2299",
+   "carousel": [
+    {
+     "label": "Skriv til bildet med egne ord: seks blanke linjer og ingen setningsstart",
+     "href": "skriv-til-bildet-med-egne-ord"
+    },
+    {
+     "label": "Koordinater i rutenett på 6 x 6: A til F, 1 til 6, og bildet dekker hele nettet",
+     "href": "koordinater-i-rutenett-6x6"
+    },
+    {
+     "label": "Koordinater i rutenett på 10 x 10: hundre ruter, A til J, og et bilde inne i nettet",
+     "href": "koordinater-i-rutenett-10x10"
+    },
+    {
+     "label": "Regnefortellinger med gange: to fortellinger der bildet viser de like gruppene",
+     "href": "regnefortellinger-gange"
+    }
+   ],
+   "title": "Skriv til bildet: begynnelsen er gitt – dyr | PDF gratis",
+   "metaDescription": "En scene med dyr, en ordbank med fire bilder og fire skrivelinjer der tre allerede er begynt med Jeg ser, Her er og Det er. Gratis PDF for 3. trinn."
+  },
+  {
+   "slug": "skriv-til-bildet-med-egne-ord",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-writing",
+    "mode": null,
+    "theme": "fruits",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Skriv-til-bildet-oppgaveark uten startord",
+   "h1": "Skriv til bildet med egne ord: seks blanke linjer og ingen setningsstart",
+   "strand": "Skriving",
+   "standard": "W.2.3",
+   "slotTokens": [
+    "skriv-til-bildet",
+    "frukter",
+    "3-trinn"
+   ],
+   "p1": "Seks linjer, og ikke ett eneste ord er skrevet på forhånd. Øverst ligger en scene med frukt satt ut på en flate, ett stort bær foran og mindre frukter bakover i bildet, med én av dem to ganger. Under står ordbanken i stiplet ramme: seks små bilder med ordet under hvert, nøyaktig de fruktene som finnes i scenen og ingen flere. Resten av arket er skrivelinjer med skolelinjer, seks av dem, alle tomme. Barnet bestemmer selv hvordan teksten skal begynne og hvor den skal ende.",
+   "p2": "Uten startord flyttes hele ansvaret for formen over til barnet. Det må avgjøre om teksten skal beskrive eller fortelle, om den skal ha en rekkefølge, og hvordan setningene skal henge sammen – valg som er tatt på forhånd på arket med startlinjer. Ordbanken står igjen som den eneste støtten, og den gjelder stavingen, ikke innholdet. Seks linjer er nok til en liten fortelling med begynnelse og slutt, og det er den lengden LK20 sikter mot når eleven skal skrive sammenhengende tekster på 3. og 4. trinn. Læreren ser om barnet holder seg til bildet, om setningene faktisk er setninger, og om stor bokstav og punktum kommer av seg selv.",
+   "p3": "Skriv ut PDF-en gratis, og gi gjerne to minutter til å se på bildet og si noen setninger høyt før blyanten kommer fram. Trenger barnet en åpning, har søskenarket fire linjer der tre er begynt. Stor-bokstav-arket er en rask oppvarming rett før skrivingen.",
+   "canonicalDeckSlug": "skriv-til-bildet-frukter-g2300",
+   "carousel": [
+    {
+     "label": "Skriv til bildet der begynnelsen er gitt: fire linjer, og tre av dem er begynt",
+     "href": "skriv-til-bildet-begynnelsen-er-gitt"
+    },
+    {
+     "label": "Koordinater i rutenett på 6 x 6: A til F, 1 til 6, og bildet dekker hele nettet",
+     "href": "koordinater-i-rutenett-6x6"
+    },
+    {
+     "label": "Koordinater i rutenett på 10 x 10: hundre ruter, A til J, og et bilde inne i nettet",
+     "href": "koordinater-i-rutenett-10x10"
+    },
+    {
+     "label": "Regnefortellinger med gange: to fortellinger der bildet viser de like gruppene",
+     "href": "regnefortellinger-gange"
+    }
+   ],
+   "title": "Skriv til bildet med egne ord – frukt | til utskrift PDF gratis",
+   "metaDescription": "En scene med frukt, en ordbank med seks bilder og seks helt blanke skrivelinjer uten startord. Hele teksten er barnets egen. Gratis PDF for 3. trinn."
+  },
+  {
+   "slug": "koordinater-i-rutenett-6x6",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "grid-coordinates",
+    "mode": null,
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: koordinater i rutenett 6 x 6",
+   "h1": "Koordinater i rutenett på 6 x 6: A til F, 1 til 6, og bildet dekker hele nettet",
+   "strand": "Måling og geometri",
+   "slotTokens": [
+    "koordinater-i-rutenett",
+    "3-trinn"
+   ],
+   "p1": "Seks kolonner, seks rader, trettiseks ruter – og det skjulte bildet dekker hele rutenettet. Bokstavene A til F står over kolonnene og tallene 1 til 6 nedover langs radene. Ved siden av ligger en liten forklaring uten ord: et rutenett på tre ganger tre der én rute er fylt, og koden B2 under. Nederst står nøkkelen med en fargeflekk og fargeordet, og under den en rekke koder som B1, D5 og E4, sortert i grupper etter farge. Barnet finner hver rute, fargelegger den, og bildet trer fram.",
+   "p2": "Trettiseks ruter er lite nok til at bokstaven og tallet fortsatt kan finnes med to fingre, én på hver kant, og det er den arbeidsmåten arket skal lære bort. Kodene i nøkkelen er stokket og ikke sortert rad for rad, så barnet kan ikke fargelegge nedover en kolonne av vane – hver kode er sin egen lille avlesning. Fordi figuren fyller hele nettet, er nesten hver rute i bruk, og en feilplassert farge blir synlig med én gang. Læreren ser om barnet holder rekkefølgen bokstav først, så tall, konsekvent, og det er den vanen som senere gjør kart og koordinatsystem lesbare. LK20 plasserer dette under geometri på småtrinnet.",
+   "p3": "Skriv ut PDF-en gratis, og bruk fargeblyanter som fyller ruten helt; en halvfylt rute gjør bildet vanskelig å lese. Neste steg er søskenarket på ti ganger ti, der bildet er større og ligger et sted inne i nettet. Tegn-etter-i-rutenett-arket øver det samme uten koder.",
+   "canonicalDeckSlug": "koordinater-i-rutenett-g2302",
+   "carousel": [
+    {
+     "label": "Koordinater i rutenett på 10 x 10: hundre ruter, A til J, og et bilde inne i nettet",
+     "href": "koordinater-i-rutenett-10x10"
+    },
+    {
+     "label": "Regnefortellinger med gange: to fortellinger der bildet viser de like gruppene",
+     "href": "regnefortellinger-gange"
+    },
+    {
+     "label": "Regnefortellinger med å dele likt: tomme rammer å fordele tingene i",
+     "href": "regnefortellinger-dele-likt"
+    },
+    {
+     "label": "Regnefortellinger med å lage like grupper: ring inn selv, ingen rammer er tegnet",
+     "href": "regnefortellinger-lage-like-grupper"
+    }
+   ],
+   "title": "Koordinater i rutenett 6 x 6 – 3. trinn | til utskrift PDF gratis",
+   "metaDescription": "Et tomt rutenett på seks ganger seks med A til F over kolonnene og 1 til 6 nedover. Barnet fargelegger rutene etter koder som B4. Gratis PDF, 3. trinn."
+  },
+  {
+   "slug": "koordinater-i-rutenett-10x10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "grid-coordinates",
+    "mode": null,
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: koordinater i rutenett 10 x 10",
+   "h1": "Koordinater i rutenett på 10 x 10: hundre ruter, A til J, og et bilde inne i nettet",
+   "strand": "Måling og geometri",
+   "slotTokens": [
+    "koordinater-i-rutenett",
+    "3-trinn"
+   ],
+   "p1": "Rutenettet har vokst til hundre ruter, og bildet fyller dem ikke lenger alle. Bokstavene går fra A til J over kolonnene og tallene fra 1 til 10 nedover, rutene er mindre enn på nybegynnerarket, og figuren ligger et sted inne i nettet med tomme ruter rundt. Ved siden av står den samme lille forklaringen: tre ganger tre ruter, én av dem fylt, og koden B2 under. Nederst ligger kodelisten, gruppert etter farge, og den er lang – godt over tjue ruter skal fargelegges før bildet er ferdig.",
+   "p2": "To ting blir vanskeligere samtidig. Kolonnene er tettere, så fingeren må følges nøyaktig fra bokstaven i kanten og ned; og fordi figuren ikke fyller nettet, finnes det ingen ytre ramme å orientere seg etter – en rute plassert én kolonne feil ser like sannsynlig ut som den riktige, helt til bildet begynner å ta form. Listen er lang nok til at barnet må holde orden på hvor det er, og de fleste finner selv ut at det lønner seg å krysse av kodene etter hvert. Læreren ser hvem som fremdeles teller kolonner fra A hver gang. Det er posisjon og rutenett slik LK20 beskriver geometri på småtrinnet, i den mest krevende utgaven i familien.",
+   "p3": "Skriv ut PDF-en gratis, og la barnet stryke over hver kode i lista når ruten er farget; det er den eneste måten å unngå å hoppe over én. Arket på seks ganger seks har færre koder og et bilde som fyller hele nettet, og er stedet å begynne.",
+   "canonicalDeckSlug": "koordinater-i-rutenett-g2303",
+   "carousel": [
+    {
+     "label": "Koordinater i rutenett på 6 x 6: A til F, 1 til 6, og bildet dekker hele nettet",
+     "href": "koordinater-i-rutenett-6x6"
+    },
+    {
+     "label": "Regnefortellinger med gange: to fortellinger der bildet viser de like gruppene",
+     "href": "regnefortellinger-gange"
+    },
+    {
+     "label": "Regnefortellinger med å dele likt: tomme rammer å fordele tingene i",
+     "href": "regnefortellinger-dele-likt"
+    },
+    {
+     "label": "Regnefortellinger med å lage like grupper: ring inn selv, ingen rammer er tegnet",
+     "href": "regnefortellinger-lage-like-grupper"
+    }
+   ],
+   "title": "Koordinater i rutenett 10 x 10 – 3. trinn | til utskrift PDF gratis",
+   "metaDescription": "Et tomt rutenett på ti ganger ti med A til J over kolonnene og 1 til 10 nedover, og en lang kodeliste sortert etter farge. Gratis PDF for 3. trinn."
+  },
+  {
+   "slug": "regnefortellinger-gange",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "animals",
+    "level": "4-trinn"
+   },
+   "eyebrow": "Regnefortellinger: gange",
+   "h1": "Regnefortellinger med gange: to fortellinger der bildet viser de like gruppene",
+   "strand": "Tall og tallforståelse",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "regnefortellinger",
+    "dyr",
+    "4-trinn"
+   ],
+   "p1": "Begge fortellingene på dette arket bygger like grupper, og begge løses med gange. Den første kan lyde slik: noen setter opp 3 rader med 2 dyr i hver rad – hvor mange dyr er det i alt? Under teksten står bildet som forteller det samme, tre små rammer med to dyr i hver, så barnet kan telle seg fram hvis tallene ennå ikke sitter. Under bildet ligger et prikkefelt til utregningen, en rute til svaret og en skrivelinje til svarsetningen. Alle produktene holder seg innenfor 20.",
+   "p2": "Å møte to gangefortellinger etter hverandre gjør noe nyttig: barnet slipper å avgjøre regneart og kan bruke all oppmerksomhet på hva like grupper er. Rammene i bildet er selve poenget – tre rader med to i hver er 3 · 2 lenge før tegnet er innført, og barnet kan telle, legge sammen eller gange, alt etter hvor det er i utviklingen. Fortellingene gjentar navnet i stedet for å bruke pronomen, så det aldri er tvil om hvem det handler om, og tallene står som sifre. Læreren ser om barnet bruker bildet eller regner utenat, og om svarsetningen får med enheten. Det er overgangen fra addisjon til multiplikasjon som LK20 legger til 3. og 4. trinn.",
+   "p3": "Skriv ut PDF-en gratis, og la barnet ringe rundt hver ramme i bildet og telle høyt før noe skrives. Når gangen sitter, tar delearkene over: ett der ting deles likt i tomme rammer, ett der barnet lager grupper selv, og til slutt et blandet ark med tre fortellinger.",
+   "canonicalDeckSlug": "regnefortellinger-dyr-g3371",
+   "carousel": [
+    {
+     "label": "Regnefortellinger med å dele likt: tomme rammer å fordele tingene i",
+     "href": "regnefortellinger-dele-likt"
+    },
+    {
+     "label": "Regnefortellinger med å lage like grupper: ring inn selv, ingen rammer er tegnet",
+     "href": "regnefortellinger-lage-like-grupper"
+    },
+    {
+     "label": "Regnefortellinger med deling på to måter: én med rammer, én uten",
+     "href": "regnefortellinger-dele-pa-to-mater"
+    },
+    {
+     "label": "Regnefortellinger med gange og gruppering: den ene samler, den andre deler opp",
+     "href": "regnefortellinger-gange-og-lage-grupper"
+    }
+   ],
+   "title": "Regnefortellinger: gange – dyr, 4. trinn | til utskrift PDF gratis",
+   "metaDescription": "To regnefortellinger om dyr, begge med gange. Bildet under teksten viser radene eller gruppene, og svaret skrives i ruten. Gratis PDF for 4. trinn."
+  },
+  {
+   "slug": "regnefortellinger-dele-likt",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "4-trinn"
+   },
+   "eyebrow": "Regnefortellinger: dele likt",
+   "h1": "Regnefortellinger med å dele likt: tomme rammer å fordele tingene i",
+   "strand": "Tall og tallforståelse",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "regnefortellinger",
+    "frukter",
+    "4-trinn"
+   ],
+   "p1": "Under hver fortelling ligger tomme, stiplede rammer, og det er dem barnet skal dele ut i. Begge kortene handler om å dele likt: noen sorterer 20 frukter likt i 5 grupper – hvor mange ligger det i hver? Over rammene står alle fruktene i en stripe, og under rammene ligger prikkefeltet, svarruten og en skrivelinje til svarsetningen. Rammene er tegnet opp på forhånd, en for hver gruppe, så barnet kan tegne én frukt i hver ramme etter tur til stripen er tom.",
+   "p2": "Dette er delingsdivisjon, og den er lettest å forstå med hendene: alle vet hvordan man deler ut kort rundt et bord, én til hver, om igjen og om igjen. Rammene på arket er nettopp det bordet, og fordi de er tegnet opp, vet barnet fra start hvor mange grupper det skal bli – det ukjente er hvor mange som havner i hver. Det er den ene av to måter å dele på, og på dette arket er det bare den. Tallene er valgt så delingen alltid går opp, og svaret aldri er lik ett av tallene i teksten. Læreren ser om barnet deler ut én om gangen eller gjetter et antall og prøver. LK20 knytter dette til like grupper på 3. og 4. trinn.",
+   "p3": "Skriv ut PDF-en gratis, og legg gjerne knapper eller klosser på bordet ved siden av den første fortellingen. Søskenarket der barnet lager grupper selv, har ingen rammer tegnet opp og er den andre måten å dele på. Arket med begge måtene setter dem side om side.",
+   "canonicalDeckSlug": "regnefortellinger-frukter-g3372",
+   "carousel": [
+    {
+     "label": "Regnefortellinger med gange: to fortellinger der bildet viser de like gruppene",
+     "href": "regnefortellinger-gange"
+    },
+    {
+     "label": "Regnefortellinger med å lage like grupper: ring inn selv, ingen rammer er tegnet",
+     "href": "regnefortellinger-lage-like-grupper"
+    },
+    {
+     "label": "Regnefortellinger med deling på to måter: én med rammer, én uten",
+     "href": "regnefortellinger-dele-pa-to-mater"
+    },
+    {
+     "label": "Regnefortellinger med gange og gruppering: den ene samler, den andre deler opp",
+     "href": "regnefortellinger-gange-og-lage-grupper"
+    }
+   ],
+   "title": "Regnefortellinger: dele likt – frukt, 4. trinn | PDF gratis",
+   "metaDescription": "To regnefortellinger om frukt der ting deles likt. Under hver tekst ligger en stripe med frukter og tomme, stiplede rammer å dele dem ut i. Gratis PDF, 4. trinn."
+  },
+  {
+   "slug": "regnefortellinger-lage-like-grupper",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "toys",
+    "level": "4-trinn"
+   },
+   "eyebrow": "Regnefortellinger: lage like grupper",
+   "h1": "Regnefortellinger med å lage like grupper: ring inn selv, ingen rammer er tegnet",
+   "strand": "Tall og tallforståelse",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "regnefortellinger",
+    "leker",
+    "4-trinn"
+   ],
+   "p1": "Ingen rammer er tegnet opp på dette arket. Under hver av de to fortellingene ligger bare en stripe med leker på rekke, og barnet må selv ringe inn like store grupper med blyanten. Fortellingen kan lyde slik: det er 8 leker, og noen legger 2 i hver pose – hvor mange poser blir det? Under stripen står prikkefeltet, svarruten og skrivelinja til svarsetningen. Tallene holder seg innenfor 20, så stripen er alltid kort nok til at hele gruppen får plass på én linje.",
+   "p2": "Dette er den andre måten å dele på, og den er vanskeligere enn å dele likt ut, selv om regnestykket ser likt ut. Nå er det antallet i hver gruppe som er kjent, og antallet grupper som er svaret – barnet ringer inn to og to til stripen er tom, og teller ringene. Fordi arket ikke tegner opp noen rammer, må inndelingen komme fra barnet selv, og det synes med én gang på papiret om gruppene faktisk er like store. Læreren ser om barnet ringer nøyaktig eller lar en ring gli over i den neste. Å dele i like grupper hører til multiplikasjon og divisjon slik LK20 beskriver dem på 3. og 4. trinn.",
+   "p3": "Skriv ut PDF-en gratis, og be barnet telle ringene til slutt og skrive tallet før det ser på svarruten. Arket der rammene er tegnet opp på forhånd, er den enklere delingen, og arket med begge måtene på én side viser forskjellen mellom dem tydeligst.",
+   "canonicalDeckSlug": "regnefortellinger-leker-g3373",
+   "carousel": [
+    {
+     "label": "Regnefortellinger med gange: to fortellinger der bildet viser de like gruppene",
+     "href": "regnefortellinger-gange"
+    },
+    {
+     "label": "Regnefortellinger med å dele likt: tomme rammer å fordele tingene i",
+     "href": "regnefortellinger-dele-likt"
+    },
+    {
+     "label": "Regnefortellinger med deling på to måter: én med rammer, én uten",
+     "href": "regnefortellinger-dele-pa-to-mater"
+    },
+    {
+     "label": "Regnefortellinger med gange og gruppering: den ene samler, den andre deler opp",
+     "href": "regnefortellinger-gange-og-lage-grupper"
+    }
+   ],
+   "title": "Regnefortellinger: lage like grupper – leker | PDF gratis",
+   "metaDescription": "To regnefortellinger om leker der barnet lager grupper selv: en stripe med leker uten rammer, og spørsmålet er hvor mange grupper det blir. Gratis PDF, 4. trinn."
+  },
+  {
+   "slug": "regnefortellinger-dele-pa-to-mater",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "4-trinn"
+   },
+   "eyebrow": "Regnefortellinger: to måter å dele på",
+   "h1": "Regnefortellinger med deling på to måter: én med rammer, én uten",
+   "strand": "Tall og tallforståelse",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "regnefortellinger",
+    "frukter",
+    "4-trinn"
+   ],
+   "p1": "Det ene bildet har rammer, det andre har ingen – og det er den eneste synlige forskjellen mellom de to fortellingene på arket. Begge handler om frukt, og begge er divisjon. På det første kortet deles fruktene likt i et bestemt antall grupper, og under stripen ligger tomme, stiplede rammer å fordele dem i. På det andre kortet er det antallet i hver gruppe som er oppgitt, stripen står uten rammer, og barnet ringer inn gruppene selv. Hvert kort har prikkefelt, svarrute og en linje til svarsetningen.",
+   "p2": "De to fortellingene har samme regnestykke og helt ulik handling, og å møte dem ved siden av hverandre er nettopp poenget. I den første vet barnet hvor mange grupper det skal bli og leter etter hvor mange som havner i hver; i den andre vet det hvor mange som skal i hver gruppe og leter etter antallet grupper. Bildene sier hvilken av delene det er snakk om før teksten er lest ferdig, og det er en god grunn til å se på bildet først. Læreren ser om barnet merker forskjellen, eller behandler begge kortene likt. Divisjon som like grupper på to måter er kjernen i det LK20 legger til 3. og 4. trinn.",
+   "p3": "Skriv ut PDF-en gratis, og la barnet fortelle med egne ord hva forskjellen er mellom de to kortene før det regner. Trenger dere én måte av gangen, finnes egne ark for hver av dem, og det blandede arket legger gange til som en tredje fortelling.",
+   "canonicalDeckSlug": "regnefortellinger-frukter-g3374",
+   "carousel": [
+    {
+     "label": "Regnefortellinger med gange: to fortellinger der bildet viser de like gruppene",
+     "href": "regnefortellinger-gange"
+    },
+    {
+     "label": "Regnefortellinger med å dele likt: tomme rammer å fordele tingene i",
+     "href": "regnefortellinger-dele-likt"
+    },
+    {
+     "label": "Regnefortellinger med å lage like grupper: ring inn selv, ingen rammer er tegnet",
+     "href": "regnefortellinger-lage-like-grupper"
+    },
+    {
+     "label": "Regnefortellinger med gange og gruppering: den ene samler, den andre deler opp",
+     "href": "regnefortellinger-gange-og-lage-grupper"
+    }
+   ],
+   "title": "Regnefortellinger: dele på to måter – frukt | PDF gratis",
+   "metaDescription": "To delefortellinger om frukt på samme ark: den ene deles likt i tomme rammer, den andre ringes inn i like grupper. Begge er divisjon. Gratis PDF, 4. trinn."
+  },
+  {
+   "slug": "regnefortellinger-gange-og-lage-grupper",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "animals",
+    "level": "4-trinn"
+   },
+   "eyebrow": "Regnefortellinger: gange og gruppering",
+   "h1": "Regnefortellinger med gange og gruppering: den ene samler, den andre deler opp",
+   "strand": "Tall og tallforståelse",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "regnefortellinger",
+    "dyr",
+    "4-trinn"
+   ],
+   "p1": "Den ene fortellingen samler, den andre deler opp. På det første kortet ser noen et antall rader med like mange dyr i hver, og bildet viser radene som små rammer med dyr inni – barnet ganger og skriver totalen. På det andre kortet ligger dyrene i én lang stripe uten rammer, antallet i hver gruppe er oppgitt, og spørsmålet er hvor mange grupper det blir. Under hvert kort er det et prikkefelt, en svarrute og en skrivelinje til svarsetningen. Tallene holder seg innenfor 20.",
+   "p2": "De to kortene er hverandres motsatte, og det er derfor de står sammen. Gangefortellingen bygger opp et antall fra like grupper; grupperingsfortellingen tar et antall og bryter det ned i like grupper. Bildene viser den forskjellen uten et eneste ord: rammer som allerede er fylt mot en stripe som ennå ikke er delt. For et barn som nettopp har lært gange, er dette den første anledningen til å se at deling er den motsatte handlingen og ikke et helt nytt regnestykke. Læreren ser om barnet leser hva som spørres om, eller ganger begge kortene av vane. Sammenhengen mellom multiplikasjon og divisjon står sentralt i LK20 på 3. og 4. trinn.",
+   "p3": "Skriv ut PDF-en gratis, og la barnet peke på de like gruppene i begge bildene og si hva som er kjent og hva som er ukjent. Vil du øve én ting av gangen, finnes egne ark for gange, for å dele likt og for å lage grupper, og det blandede arket har alle tre på én side.",
+   "canonicalDeckSlug": "regnefortellinger-dyr-g3375",
+   "carousel": [
+    {
+     "label": "Regnefortellinger med gange: to fortellinger der bildet viser de like gruppene",
+     "href": "regnefortellinger-gange"
+    },
+    {
+     "label": "Regnefortellinger med å dele likt: tomme rammer å fordele tingene i",
+     "href": "regnefortellinger-dele-likt"
+    },
+    {
+     "label": "Regnefortellinger med å lage like grupper: ring inn selv, ingen rammer er tegnet",
+     "href": "regnefortellinger-lage-like-grupper"
+    },
+    {
+     "label": "Regnefortellinger med deling på to måter: én med rammer, én uten",
+     "href": "regnefortellinger-dele-pa-to-mater"
+    }
+   ],
+   "title": "Regnefortellinger: gange og lage grupper – dyr | PDF gratis",
+   "metaDescription": "To regnefortellinger om dyr på ett ark: den ene bygger like grupper og ganges, den andre deler en stripe opp i grupper. Gratis PDF for 4. trinn."
+  },
+  {
+   "slug": "regnefortellinger-blandede-oppgaver",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "toys",
+    "level": "4-trinn"
+   },
+   "eyebrow": "Regnefortellinger: gange og dele blandet",
+   "h1": "Regnefortellinger med gange og dele blandet: tre kort som spør om hver sin ting",
+   "strand": "Tall og tallforståelse",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "regnefortellinger",
+    "leker",
+    "4-trinn"
+   ],
+   "p1": "Tre kort på ett ark, og de spør ikke om det samme. Det første er gange: et antall rader med like mange leker i hver, tegnet som rammer under teksten. Det andre deler likt, med en stripe leker over et sett tomme, stiplede rammer å fordele dem i. Det tredje ber barnet lage gruppene selv i en stripe uten rammer. Kortene er tettere enn på arkene med to fortellinger, men hvert av dem har fortsatt prikkefelt, svarrute og en skrivelinje til svarsetningen. Produktene går opp mot 36.",
+   "p2": "Dette er sluttarket i familien, og verdien ligger i at regnearten ikke er gitt på forhånd. Barnet må lese hver fortelling og avgjøre hva som er kjent og hva som er ukjent før det begynner å regne, og det er en annen ferdighet enn å regne riktig. Bildene hjelper – rammer som er fylt betyr at noe skal samles, tomme rammer at noe skal deles ut, og en stripe uten rammer at gruppene må lages – men de svarer ikke på spørsmålet. Med tre kort blir siden tettere, så utregningen må være ryddig. Læreren ser hvem som leser og hvem som ganger alt. Det er nettopp den vurderingen LK20 ber om på 4. trinn.",
+   "p3": "Skriv ut PDF-en gratis, og la barnet lese alle tre fortellingene før blyanten kommer fram, og si høyt hva hvert kort spør om. Trenger dere å øve én type av gangen, finnes egne ark for gange, for å dele likt, for å lage grupper og for de to delemåtene sammen.",
+   "canonicalDeckSlug": "regnefortellinger-leker-g3376",
+   "carousel": [
+    {
+     "label": "Regnefortellinger med gange: to fortellinger der bildet viser de like gruppene",
+     "href": "regnefortellinger-gange"
+    },
+    {
+     "label": "Regnefortellinger med å dele likt: tomme rammer å fordele tingene i",
+     "href": "regnefortellinger-dele-likt"
+    },
+    {
+     "label": "Regnefortellinger med å lage like grupper: ring inn selv, ingen rammer er tegnet",
+     "href": "regnefortellinger-lage-like-grupper"
+    },
+    {
+     "label": "Regnefortellinger med deling på to måter: én med rammer, én uten",
+     "href": "regnefortellinger-dele-pa-to-mater"
+    }
+   ],
+   "title": "Regnefortellinger: gange og dele blandet – leker | PDF gratis",
+   "metaDescription": "Tre regnefortellinger om leker på ett ark: én gange, én der noe deles likt i rammer og én der barnet lager grupper selv. Gratis PDF for 4. trinn."
   }
  ]
 }

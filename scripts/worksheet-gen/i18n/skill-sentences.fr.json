@@ -190,5 +190,73 @@
   "lowercase-letter-tracing": {
     "full": "Repasser les minuscules sur des lignes d'écriture apprend le corps de la lettre, les hampes qui montent et les jambages qui descendent.",
     "short": "Fixe le tracé des lettres minuscules."
+  },
+  "word-tracing": {
+    "full": "Repasser le nom d'une image lettre après lettre, puis l'écrire seul, relie en un coup d'œil la chose, son nom et son orthographe.",
+    "short": "Installe l'écriture des premiers mots à partir d'images."
+  },
+  "dot-to-dot": {
+    "full": "Relier les points numérotés dans l'ordre fait apparaître un dessin et répète la comptine numérique à chaque trait de crayon.",
+    "short": "Travaille la suite des nombres et la maîtrise du crayon."
+  },
+  "grid-copy": {
+    "full": "Reproduire un dessin case par case sur un quadrillage vide développe l'observation, le repérage dans l'espace et la précision du geste.",
+    "short": "Développe le repérage et la reproduction sur quadrillage."
+  },
+  "singular-plural": {
+    "full": "Voir une image puis plusieurs et écrire le mot au pluriel fixe la marque du pluriel, que l'on n'entend pas mais qu'il faut écrire.",
+    "short": "Installe la marque du pluriel des noms."
+  },
+  "articles": {
+    "full": "Entourer le bon article devant chaque image ancre le genre des noms et l'accord de l'article, dont toutes les phrases dépendront.",
+    "short": "Travaille le genre des noms et le choix de l'article."
+  },
+  "read-and-color": {
+    "full": "Lire une phrase courte et colorier exactement ce qu'elle dit transforme le déchiffrage en une vraie compréhension que l'enfant peut vérifier.",
+    "short": "Développe la compréhension de lecture en coloriant."
+  },
+  "number-of-the-day": {
+    "full": "Représenter un même nombre en lettres, en dizaines et unités, en cubes et sur la droite graduée construit un sens du nombre solide.",
+    "short": "Construit le sens du nombre par plusieurs représentations."
+  },
+  "write-the-word": {
+    "full": "Écrire le nom de chaque image sur la ligne, avec ou sans liste de mots, construit l'orthographe à partir des sons que l'on entend.",
+    "short": "Construit l'orthographe des mots à partir d'images."
+  },
+  "alphabetical-order": {
+    "full": "Ranger des mots illustrés dans l'ordre alphabétique fixe la suite des lettres et prépare l'usage du dictionnaire.",
+    "short": "Travaille l'ordre alphabétique."
+  },
+  "number-walls": {
+    "full": "Compléter chaque brique avec la somme des deux briques du dessous entraîne l'addition et la recherche du terme manquant dans un seul jeu.",
+    "short": "Automatise l'addition avec des pyramides de nombres."
+  },
+  "doubles-halves": {
+    "full": "Doubler un groupe et partager l'autre en deux moitiés fixe les doubles, qui ouvrent la porte aux presque-doubles et aux premières multiplications.",
+    "short": "Automatise les doubles et les moitiés."
+  },
+  "sentence-building": {
+    "full": "Remettre les étiquettes-mots dans l'ordre pour reformer la phrase construit l'ordre des mots, la majuscule et le sens de la phrase complète.",
+    "short": "Construit l'ordre des mots dans la phrase."
+  },
+  "capitals-punctuation": {
+    "full": "Réécrire chaque phrase avec sa majuscule et son point installe les réflexes de ponctuation qui rendent un texte lisible.",
+    "short": "Installe la majuscule et la ponctuation de fin de phrase."
+  },
+  "word-classes": {
+    "full": "Classer les mots en noms, verbes et adjectifs construit les catégories de grammaire dont les enfants ont besoin pour parler de la langue.",
+    "short": "Travaille la reconnaissance du nom, du verbe et de l'adjectif."
+  },
+  "calendar": {
+    "full": "Lire des dates, des jours et des semaines sur un vrai mois de calendrier construit des repères de temps utiles chaque jour de classe.",
+    "short": "Apprend à lire le calendrier."
+  },
+  "picture-writing": {
+    "full": "Écrire à partir d'une image, avec une boîte à mots et des débuts de phrase, transforme la page blanche en une première histoire réussie.",
+    "short": "Initie à la production d'écrit à partir d'une image."
+  },
+  "grid-coordinates": {
+    "full": "Colorier chaque case nommée sur un quadrillage à lettres et à nombres entraîne le repérage par coordonnées et fait apparaître un dessin caché.",
+    "short": "Travaille le repérage par coordonnées sur quadrillage."
   }
 }

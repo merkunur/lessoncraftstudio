@@ -28,7 +28,7 @@ module.exports = {
   i18n: {
     en: {
       title: 'Nouns, Verbs, and Adjectives',
-      instruction: 'Read every word. Is it a naming word, a doing word, or a describing word? Write it in the right bin.',
+      instruction: 'Read every word. Is it a noun (naming word), a verb (doing word), or an adjective (describing word)? Write it in the right bin.',
     },
   },
 

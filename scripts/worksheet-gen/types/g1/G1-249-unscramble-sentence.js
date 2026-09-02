@@ -12,7 +12,7 @@
  */
 'use strict';
 const { wordTiles, rulingBlock } = require('../../templates/components-b2.js');
-const { entriesFor, displayWord, fileUri } = require('../../lib/b2-common.js');
+const { entriesFor, displayWord, fileUri, countable } = require('../../lib/b2-common.js');
 const { SENTENCES } = require('../../data/b2/sentences.js');
 const SB = require('../../lib/sentence-bank.js');
 
@@ -41,7 +41,8 @@ module.exports = {
     const loc = (locale || 'en').slice(0, 2);
     const bank = SENTENCES[loc];
     if (!bank) throw new Error(`G1-249: no sentence bank for ${loc}`);
-    const entries = entriesFor(theme, loc).filter((e) => e.singular && e.plural);
+    const entries = entriesFor(theme, loc).filter(countable).filter((e) => !/\s/.test(e.singular.trim()) && !/\s/.test(e.plural.trim()));
+    if (entries.length < d.lanes) throw new Error(`G1-249: theme ${theme}/${loc} has ${entries.length} single-word countable nouns < ${d.lanes}`);
     const frames = SB.pickFrames(bank, { kind: 'simple', use: 'unscramble', count: d.lanes, rng,
       filter: (f) => { const n = SB.tokenize(f.text).length; return n >= d.minTok && n <= d.maxTok; } });
     const nouns = rng.sample(entries, d.lanes);

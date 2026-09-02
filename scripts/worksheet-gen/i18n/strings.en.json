@@ -588,11 +588,11 @@
     "instruction": "Look at the picture on the left. Color the same squares on the empty grid so the picture appears again."
   },
   "K-287": {
-    "title": "One and Many: Singular and Plural",
+    "title": "Singular and Plural",
     "instruction": "Read the word for one. Then trace the word for many and write it yourself on the empty line."
   },
   "K-288": {
-    "title": "A or An? Circle the Right Word",
+    "title": "A or An?",
     "instruction": "Say the picture word out loud. Circle the word that goes in front of it."
   },
   "G1-101": {
@@ -953,7 +953,7 @@
   },
   "G1-243": {
     "title": "Number of the Day",
-    "instruction": "Look at the big number. Show it in every box on the page."
+    "instruction": "Look at the big number. Fill in every box on the page for that number."
   },
   "G1-244": {
     "title": "Write the Word",
@@ -969,11 +969,11 @@
   },
   "G1-247": {
     "title": "Doubles and Halves",
-    "instruction": "Double the group on the left. Halve the group on the right. Write the numbers in the boxes."
+    "instruction": "Find the double of each group and the half of each group. Write the numbers in the boxes."
   },
   "G1-248": {
     "title": "Where on the Number Line?",
-    "instruction": "Each arrow points to a tick mark. Count on from the nearest number and write the number in the box."
+    "instruction": "Each arrow points to a tick mark. Count on from the number before it and write the number in the box."
   },
   "G1-249": {
     "title": "Unscramble the Sentence",
@@ -1257,7 +1257,7 @@
   },
   "G2-275": {
     "title": "Nouns, Verbs, and Adjectives",
-    "instruction": "Read every word. Is it a naming word, a doing word, or a describing word? Write it in the right bin."
+    "instruction": "Read every word. Is it a noun (naming word), a verb (doing word), or an adjective (describing word)? Write it in the right bin."
   },
   "G2-276": {
     "title": "Shopping Math",
@@ -1272,7 +1272,7 @@
     "instruction": "Look at the picture. Use the word bank to help you write about what you see."
   },
   "G2-279": {
-    "title": "Grid Coordinates: Color the Squares",
+    "title": "Grid Coordinates",
     "instruction": "Find each square by its letter and number, like B2. Color it with the color of its group to reveal the picture."
   },
   "G3-301": {

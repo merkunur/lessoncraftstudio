@@ -1,0 +1,153 @@
+{
+  "locale": "no",
+  "types": {
+    "K-236": {"title": "Blyantløyper", "instruction": "Spor hver linje med blyanten. Start på den oransje prikken og følg pilen."},
+    "K-237": {"title": "Spor tallene fra 0 til 9", "instruction": "Spor hvert tall. Start på den oransje prikken og følg pilene."},
+    "K-238": {"title": "Spor de store bokstavene", "instruction": "Spor hver bokstav, og prøv å skrive en selv på den tomme linjen."},
+    "K-239": {"title": "Høyfrekvente ord: les, spor, skriv", "instruction": "Les ordet. Spor det. Skriv det så selv på den tomme linjen."},
+    "K-240": {"title": "Klipp, sorter og lim", "instruction": "Klipp ut bildene nederst. Sorter dem og lim hvert bilde i riktig boks."},
+    "K-241": {"title": "Regn og fargelegg", "instruction": "Se på koden øverst. Regn ut, og fargelegg hver figur med fargen som passer."},
+    "K-242": {"title": "Labyrint", "instruction": "Start øverst. Tegn en vei gjennom labyrinten helt frem til målet nederst."},
+    "K-243": {"title": "Tiervenner", "instruction": "Finn tiervennene. Skriv tallet som mangler i den stiplede sirkelen."},
+    "G1-208": {"title": "Hoderegning til 20", "instruction": "Regn ut hvert stykke i hodet. Skriv tallet som mangler i ruten."},
+    "G1-209": {"title": "Regnefamilier", "instruction": "Bruk de tre tallene på taket. Fullfør de fire regnestykkene som hører sammen."},
+    "G1-210": {"title": "Tallord", "instruction": "Les tallet i ruten. Sett ring rundt tallordet som passer til det."},
+    "G1-211": {"title": "Telle mynter", "instruction": "Tell myntene i hver pung. Skriv hvor mye det er til sammen i ruten."},
+    "G1-212": {"title": "Tegn viserne på klokka", "instruction": "Les klokkeslettet. Tegn timeviseren og minuttviseren på klokka."},
+    "G1-213": {"title": "Regnefortellinger med bilder", "instruction": "Les hver fortelling. Bruk bildene til hjelp. Skriv svaret i ruten."},
+    "G2-251": {"title": "Oppstilt addisjon og subtraksjon", "instruction": "Regn ut hvert stykke i oppstillingen, én plass om gangen. Begynn med enerne."},
+    "G2-252": {"title": "Litermål og skålvekt", "instruction": "Les av hvert litermål og hver skålvekt. Skriv svaret med riktig enhet."},
+    "G2-253": {"title": "Fullfør symmetribildet", "instruction": "Hvert bilde er bare halvferdig. Fargelegg rutene på den andre siden av streken, slik at bildet blir symmetrisk."},
+    "G2-254": {"title": "Les og svar", "instruction": "Les fortellingen nøye. Sett ring rundt det svaret som passer best til hvert spørsmål."},
+    "G3-357": {"title": "Addisjon og subtraksjon med tierovergang", "instruction": "Regn ut hvert stykke. Husk minnetall når du legger sammen, og veksling når du trekker fra."},
+    "G3-358": {"title": "Den lille gangetabellen", "instruction": "Regn ut hvert gangestykke, og skriv svaret i ruten."}
+  },
+  "families": {
+    "pre-writing": {"slug": "skriveforberedende-ovelser", "name": "Skriveforberedende øvelser"},
+    "number-tracing": {"slug": "tallskriving", "name": "Tallskriving"},
+    "letter-tracing": {"slug": "bokstavskriving", "name": "Bokstavskriving"},
+    "sight-words": {"slug": "hoyfrekvente-ord", "name": "Høyfrekvente ord"},
+    "cutting-practice": {"slug": "klipp-og-lim", "name": "Klipp og lim"},
+    "color-by-number": {"slug": "fargelegg-etter-tall", "name": "Fargelegg etter tall"},
+    "mazes": {"slug": "labyrinter", "name": "Labyrinter"},
+    "number-bonds": {"slug": "tiervenner", "name": "Tiervenner"},
+    "mental-math": {"slug": "hoderegning", "name": "Hoderegning"},
+    "fact-families": {"slug": "regnefamilier", "name": "Regnefamilier"},
+    "number-words": {"slug": "tallord", "name": "Tallord"},
+    "money": {"slug": "regne-med-penger", "name": "Regne med penger"},
+    "word-problems": {"slug": "regnefortellinger", "name": "Regnefortellinger"},
+    "column-arithmetic": {"slug": "oppstilt-addisjon-og-subtraksjon", "name": "Oppstilt addisjon og subtraksjon"},
+    "symmetry": {"slug": "symmetri", "name": "Symmetri"},
+    "reading-comprehension": {"slug": "leseforstaelse", "name": "Leseforståelse"},
+    "multiplication-tables": {"slug": "gangetabellen", "name": "Gangetabellen"}
+  },
+  "skills": {
+    "pre-writing": {"full": "Å spore løkker, bølger og sikksakklinjer trener blyantgrepet og håndmotorikken som all bokstavskriving bygger på.", "short": "Trener blyantgrep og finmotorikk før skriving."},
+    "number-tracing": {"full": "Å spore hvert tall fra startprikken og langs pilene gir riktig tallforming helt fra det aller første forsøket.", "short": "Trener riktig forming av tallene 0 til 9."},
+    "letter-tracing": {"full": "Å spore store bokstaver på skrivelinjer bygger bokstavminne og de trygge strøkene som god håndskrift hviler på.", "short": "Trener riktig forming av de store bokstavene."},
+    "sight-words": {"full": "Å lese, spore og skrive høyfrekvente ord gjør at barnet kjenner dem igjen på et blunk og kan bruke kreftene på innholdet.", "short": "Gir rask gjenkjenning av de vanligste ordene."},
+    "cutting-practice": {"full": "Å klippe ut bilder og lime hvert bilde i riktig gruppe trener saksegrep og tidlig sortering i én og samme hyggelige oppgave.", "short": "Trener sakseferdigheter og sortering."},
+    "color-by-number": {"full": "Når hver kode får riktig farge, blir nøye titting og små regnestykker til et bilde det er gøy å gjøre helt ferdig.", "short": "Øver regneferdigheter gjennom fargelegging."},
+    "mazes": {"full": "Å finne den ene veien gjennom labyrinten trener øyet til å planlegge, hånden til å styre blyanten og hodet til å prøve igjen.", "short": "Trener visuell planlegging og blyantkontroll."},
+    "number-bonds": {"full": "Å fullføre hele-og-deler-diagrammer viser hvordan tall kan deles opp, og gir tiervennene som all hoderegning bygger på.", "short": "Trener oppdeling av tall opp til 10."},
+    "mental-math": {"full": "Å løse addisjon og subtraksjon opp til 20 i hodet gir den regneflyten som senere skriftlige metoder står trygt på.", "short": "Trener pluss og minus i hodet opp til 20."},
+    "fact-families": {"full": "Å fullføre alle fire regnestykkene fra samme talltrio viser hvordan addisjon og subtraksjon opphever hverandre.", "short": "Viser sammenhengen mellom pluss og minus."},
+    "number-words": {"full": "Å koble tall til riktig tallord styrker lesing av tall og hjelper barnet å unngå å bytte om på sifrene.", "short": "Trener lesing og skriving av tallord."},
+    "money": {"full": "Å telle myntverdier fra størst til minst gir den pengeforståelsen barna trenger i hverdagen sin.", "short": "Trener telling av mynter og pengeforståelse."},
+    "word-problems": {"full": "Å lese en liten fortelling, se på bildet og skrive svaret gjør regning om til ekte problemløsing.", "short": "Trener problemløsing med regnefortellinger."},
+    "column-arithmetic": {"full": "Å regne én plass om gangen i oppstilte stykker gir den sikre skriftlige metoden som virker for større og større tall.", "short": "Trener oppstilt addisjon og subtraksjon."},
+    "symmetry": {"full": "Å fullføre speilhalvdelen av et bilde rute for rute bygger forståelse for symmetri og nøyaktig romlig tegning.", "short": "Trener symmetri og nøyaktig speiling."},
+    "reading-comprehension": {"full": "Å lese en kort fortelling og svare på spørsmål om den trener den nøye leseforståelsen all læring hviler på.", "short": "Trener leseforståelse av korte tekster."},
+    "multiplication-tables": {"full": "Å øve på gangestykker om og om igjen gir den raske gjenkallingen som gjør vanskeligere matematikk mye lettere.", "short": "Gir flyt i den lille gangetabellen."}
+  },
+  "topicMeta": {
+    "pre-writing": "Skriveforberedende oppgaveark: spor løkker, bølger og sikksakklinjer og gjør hånden klar til å skrive bokstaver. Gratis PDF-er til utskrift.",
+    "number-tracing": "Oppgaveark med tallskriving: spor tallene 0–9 med startprikk og piler, og øv på riktig tallforming. Gratis PDF-er til utskrift.",
+    "letter-tracing": "Oppgaveark med bokstavskriving: spor store bokstaver på skrivelinjer, med Æ, Ø og Å. Gratis PDF-er til utskrift.",
+    "sight-words": "Oppgaveark med høyfrekvente ord: les, spor og skriv de vanligste ordene i norsk. Gratis PDF-er til utskrift.",
+    "cutting-practice": "Klipp-og-lim-ark: klipp ut bilder, sorter dem og lim hvert bilde i riktig boks. Gratis PDF-er til utskrift.",
+    "color-by-number": "Fargelegg etter tall og kode: regn ut, finn riktig farge og fullfør bildet. Gratis PDF-er til utskrift.",
+    "mazes": "Labyrinter for barn: finn veien fra start til mål og tren blyantkontroll og planlegging. Gratis PDF-er til utskrift.",
+    "number-bonds": "Oppgaveark med tiervenner: fyll inn tallet som mangler i hele-og-deler-diagrammene. Gratis PDF-er til utskrift.",
+    "mental-math": "Oppgaveark i hoderegning: pluss og minus opp til 20, regnet i hodet. Gratis PDF-er til utskrift.",
+    "fact-families": "Oppgaveark med regnefamilier: bruk tre tall og fullfør de fire regnestykkene som hører sammen. Gratis PDF-er til utskrift.",
+    "number-words": "Oppgaveark med tallord: les tallet og finn ordet som passer. Gratis PDF-er til utskrift.",
+    "money": "Oppgaveark med penger: tell norske mynter og skriv hvor mange kroner det blir til sammen. Gratis PDF-er til utskrift.",
+    "word-problems": "Regnefortellinger med bilder: les, regn og skriv svaret i ruten. Gratis PDF-er til utskrift.",
+    "column-arithmetic": "Oppgaveark med oppstilt addisjon og subtraksjon: regn ut én plass om gangen. Gratis PDF-er til utskrift.",
+    "symmetry": "Symmetriark: fargelegg speilhalvdelen rute for rute og gjør bildet helt. Gratis PDF-er til utskrift.",
+    "reading-comprehension": "Oppgaveark i leseforståelse: les en kort fortelling og svar på spørsmålene. Gratis PDF-er til utskrift.",
+    "multiplication-tables": "Oppgaveark med gangetabellen: øv på den lille gangetabellen til svarene sitter. Gratis PDF-er til utskrift.",
+    "science-sort": "Naturfagsark med sortering: sorter bilder i grupper som levende og ikke-levende eller land, vann og luft. Gratis PDF-er til utskrift.",
+    "science-sequence": "Naturfagsark med rekkefølge: sett stegene i naturens kretsløp i riktig rekkefølge. Gratis PDF-er til utskrift.",
+    "science-match": "Naturfagsark med par: koble dyreunger, yrker og andre par som hører sammen. Gratis PDF-er til utskrift.",
+    "beginning-sounds": "Oppgaveark med første lyd: si hva bildet viser, og skriv eller sorter den første bokstavlyden. Gratis PDF-er til utskrift.",
+    "letter-knowledge": "Oppgaveark med bokstavkunnskap: koble store og små bokstaver, finn bokstaver og fullfør alfabetet. Gratis PDF-er til utskrift.",
+    "word-building": "Oppgaveark med ordbygging: skriv lyden som mangler, og bygg korte ord bokstav for bokstav. Gratis PDF-er til utskrift.",
+    "picture-vocabulary": "Oppgaveark med bildeordforråd: koble ord til bilder og sorter dem etter kategori. Gratis PDF-er til utskrift.",
+    "phonological-awareness": "Oppgaveark i fonologisk bevissthet: sluttlyder, lyder inne i ordet, rimpar og stavelser. Gratis PDF-er til utskrift."
+  },
+  "figureNames": {
+    "heart": "Hjerte", "butterfly": "Sommerfugl", "rocket": "Rakett", "tree": "Tre",
+    "house": "Hus", "crown": "Krone", "star": "Stjerne", "arrow": "Pil",
+    "flower": "Blomst", "mushroom": "Sopp", "cat": "Katt", "robot": "Robot",
+    "apple": "Eple", "diamond": "Diamant", "ice-cream": "Iskrem", "snowman": "Snømann"
+  },
+  "sightWords": ["og", "jeg", "det", "er", "på", "som", "en", "vi", "har", "ikke", "til", "den"],
+  "readingPassages": [
+    {
+      "id": "pus-i-vinduskarmen",
+      "title": "Pus i vinduskarmen",
+      "text": "Nora har en katt som heter Pus. Pus liker å sove i vinduskarmen når sola skinner. I dag hopper Pus ned og leker med et rødt garnnøste på gulvet.",
+      "questions": [
+        {"q": "Hva heter katten til Nora?", "choices": ["Pus", "Findus", "Mons"], "correct": 0},
+        {"q": "Hvor liker Pus å sove?", "choices": ["I sengen til Nora", "I vinduskarmen", "Under bordet"], "correct": 1},
+        {"q": "Hvorfor hopper Pus ned fra vinduskarmen?", "choices": ["Fordi han vil leke", "Fordi han er sulten", "Fordi han er redd"], "correct": 0}
+      ]
+    },
+    {
+      "id": "oliver-laerer-a-sykle",
+      "title": "Oliver lærer å sykle",
+      "text": "Oliver har fått en blå sykkel av bestefar. Hver dag øver han i bakgården sammen med pappa. Først vingler sykkelen, og Oliver må sette ned foten mange ganger. Men Oliver gir seg ikke, og han prøver igjen og igjen. På lørdag sykler han helt rundt huset uten å stoppe!",
+      "questions": [
+        {"q": "Hvilken farge har sykkelen til Oliver?", "choices": ["Rød", "Grønn", "Blå"], "correct": 2},
+        {"q": "Hvor øver Oliver på å sykle?", "choices": ["I bakgården", "I parken", "På skolen"], "correct": 0},
+        {"q": "Hva viser fortellingen om Oliver?", "choices": ["Han gir seg fort", "Han øver til han får det til", "Han liker ikke sykkelen"], "correct": 1}
+      ]
+    },
+    {
+      "id": "tur-til-fjaera",
+      "title": "Tur til fjæra",
+      "text": "Klassen til Sofie skal på tur til fjæra en solskinnsdag i mai. Alle barna har med seg sekk, matpakke og støvler. Nede ved vannet viser læreren dem en liten krabbe som gjemmer seg under en stein. Sofie finner et blankt skjell som hun legger forsiktig i sekken sin. Etterpå sitter hele klassen på et stort svaberg og spiser matpakkene sine. På veien hjem bestemmer Sofie seg for å gi skjellet til mormor, som samler på fine ting.",
+      "questions": [
+        {"q": "Hva viser læreren barna ved vannet?", "choices": ["Et skjell", "En liten krabbe", "En sjøstjerne"], "correct": 1},
+        {"q": "Hvor spiser barna matpakkene sine?", "choices": ["På bussen", "Nede i sanden", "På et stort svaberg"], "correct": 2},
+        {"q": "Hvorfor vil Sofie gi skjellet til mormor?", "choices": ["Fordi mormor samler på fine ting", "Fordi hun ikke liker skjellet", "Fordi læreren sier det"], "correct": 0}
+      ]
+    }
+  ],
+  "wordProblems": {
+    "nounCase": "lower",
+    "names": ["Nora", "Jakob", "Emma", "Oliver", "Ella", "Aksel", "Sofie", "Theodor"],
+    "frames": {
+      "add": [
+        "{name} har {n1} {noun}. {name} får {n2} {noun} til. Hvor mange {noun} har {name} nå?",
+        "{name} finner {n1} {noun}. Etterpå finner {name} {n2} {noun} til. Hvor mange {noun} finner {name} til sammen?",
+        "{name} ser {n1} {noun}. Så ser {name} {n2} {noun} til. Hvor mange {noun} ser {name} i alt?",
+        "{name} har {n1} {noun} i en kurv og {n2} {noun} i en pose. Hvor mange {noun} har {name} til sammen?"
+      ],
+      "sub": [
+        "{name} har {n1} {noun}. {name} gir bort {n2} {noun}. Hvor mange {noun} har {name} igjen?",
+        "{name} har {n1} {noun}. {name} mister {n2} {noun}. Hvor mange {noun} har {name} igjen?",
+        "{name} har {n1} {noun}. {n2} {noun} blir borte. Hvor mange {noun} er igjen?"
+      ]
+    }
+  },
+  "audits": {
+    "colorWords": "OK — rød, blå, gul, grønn lowercase.",
+    "currency": "OK — mynter 1, 5, 10, 20 kr; 'kr' etter tallet med mellomrom; hele kroner ≤ 50.",
+    "numberWords": "OK alle 10; RULING: 'sju' (konsistent post-reform skoleform). DIGIT FORMS: ukorset 7 + enkel 1 med kort startflagg (applied: no → dutch variant). GLYPH: '·' bekreftet.",
+    "englishSource": "G3-357 vague idiom; K-240 sorting criterion carried by the bin icons (page self-evident)."
+  },
+  "notes": "[NSR-FLAG] bokmål; klokka (not klokken); frames repeat {name} (gender-safe); slugs ASCII-folded (skriveforberedende-ovelser, hoyfrekvente-ord, leseforstaelse)."
+}

@@ -29,6 +29,9 @@ function entriesFor(theme, loc) {
   }).filter(Boolean);
 }
 
+/** True when the entry has a distinct plural — an invariant-plural noun (dice, chess, lego; es dados/ajedrez) never enters a counted sentence slot. */
+function countable(e) { return !!(e && e.singular && e.plural && e.plural.trim().toLocaleLowerCase() !== e.singular.trim().toLocaleLowerCase()); }
+
 /** True when every code point of `word` has centreline stroke data. */
 function traceable(word) {
   try { for (const ch of String(word)) letterStrokes.glyphFor(ch); return true; } catch (e) { return false; }
@@ -46,4 +49,4 @@ function sampleEntries(rng, entries, n, who) {
   return rng.sample(entries, n);
 }
 
-module.exports = { vocab, entriesFor, displayWord, traceable, distinctByWord, sampleEntries, labels, fileUri, KEEP_CASE };
+module.exports = { countable, vocab, entriesFor, displayWord, traceable, distinctByWord, sampleEntries, labels, fileUri, KEEP_CASE };

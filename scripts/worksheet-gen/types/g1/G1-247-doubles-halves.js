@@ -32,7 +32,7 @@ module.exports = {
   i18n: {
     en: {
       title: 'Doubles and Halves',
-      instruction: 'Double the group on the left. Halve the group on the right. Write the numbers in the boxes.',
+      instruction: 'Find the double of each group and the half of each group. Write the numbers in the boxes.',
     },
   },
 
@@ -52,7 +52,7 @@ module.exports = {
     const cards = [];
     for (let i = 0; i < half; i++) {
       const n = doubles[i];
-      const stage = d.numeric ? dotPanel({ w: 250, h: 56 }) : `<div style="background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:10px;width:100%">${mirrorGroups({ src, n, iconPx: d.icon, perRow: d.perRow })}</div>`;
+      const stage = d.numeric ? dotPanel({ w: 250, h: 56 }) : `<div style="background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:10px;width:100%">${mirrorGroups({ src, n, iconPx: d.icon, perRow: Math.ceil(n / Math.ceil(n / d.perRow)) })}</div>`;
       cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:8px;justify-content:space-evenly" data-lcs-op="double" data-lcs-n="${n}">${pill('double')}${stage}` +
         `<div style="display:flex;align-items:center;gap:8px" data-lcs-strip>${NUM(n)}${OP('+')}${NUM(n)}${OP('=')}${answerBox({ w: 64, h: 48, answer: 2 * n })}</div></div>`);
       const m = halves[i];

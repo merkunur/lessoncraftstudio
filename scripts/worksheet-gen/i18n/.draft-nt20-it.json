@@ -1,0 +1,153 @@
+{
+  "locale": "it",
+  "types": {
+    "K-236": {"title": "Percorsi di pregrafismo", "instruction": "Ripassa ogni linea con la matita. Parti dal punto arancione e segui la freccia."},
+    "K-237": {"title": "Numeri tratteggiati da 0 a 9", "instruction": "Ripassa ogni numero. Parti dal punto arancione e segui le frecce."},
+    "K-238": {"title": "Lettere maiuscole tratteggiate", "instruction": "Ripassa ogni lettera, poi prova a scriverla tu sulla riga vuota."},
+    "K-239": {"title": "Parole frequenti", "instruction": "Leggi la parola. Ripassala. Poi scrivila tu sulla riga vuota."},
+    "K-240": {"title": "Ritaglia e incolla", "instruction": "Ritaglia le figure in basso. Incolla ogni figura nel riquadro del suo gruppo."},
+    "K-241": {"title": "Colora in base al risultato", "instruction": "Guarda la legenda. Risolvi il calcolo e colora ogni figura con il colore giusto."},
+    "K-242": {"title": "Labirinto degli animali", "instruction": "Parti dall'alto e traccia la strada nel labirinto fino ad arrivare al traguardo."},
+    "K-243": {"title": "Amici del 10", "instruction": "Guarda ogni schema. Scrivi il numero che manca nel cerchio tratteggiato."},
+    "G1-208": {"title": "Calcolo mentale fino a 20", "instruction": "Risolvi ogni operazione a mente e scrivi il risultato nel riquadro."},
+    "G1-209": {"title": "Famiglie di operazioni", "instruction": "Usa i tre numeri sul tetto e completa le quattro operazioni della famiglia."},
+    "G1-210": {"title": "Numeri in lettere", "instruction": "Leggi il numero in cifre e cerchia il numero in lettere che gli corrisponde."},
+    "G1-211": {"title": "Contare le monete", "instruction": "Conta le monete di ogni borsellino. Scrivi il totale nel riquadro."},
+    "G1-212": {"title": "Disegna le lancette", "instruction": "Leggi l'ora scritta sotto. Disegna la lancetta delle ore e quella dei minuti sull'orologio."},
+    "G1-213": {"title": "Problemi illustrati", "instruction": "Leggi ogni storia con calma. Aiutati con le figure e scrivi la risposta nel riquadro."},
+    "G2-251": {"title": "Operazioni in colonna senza cambio", "instruction": "Calcola una cifra alla volta, partendo sempre dalle unità."},
+    "G2-252": {"title": "Capacità e peso", "instruction": "Leggi ogni caraffa graduata e ogni bilancia. Scrivi la quantità con l'unità di misura."},
+    "G2-253": {"title": "Simmetria sui quadretti", "instruction": "Ogni disegno è fatto solo a metà. Colora i quadretti dall'altra parte della linea per renderlo simmetrico."},
+    "G2-254": {"title": "Comprensione del testo", "instruction": "Leggi il racconto con attenzione. Poi cerchia la risposta giusta per ogni domanda."},
+    "G3-357": {"title": "Operazioni in colonna con il cambio", "instruction": "Risolvi ogni operazione in colonna. Usa il riporto o il prestito quando serve."},
+    "G3-358": {"title": "Tabelline", "instruction": "Risolvi le moltiplicazioni e scrivi ogni risultato nel riquadro."}
+  },
+  "families": {
+    "pre-writing": {"slug": "pregrafismo", "name": "Pregrafismo"},
+    "number-tracing": {"slug": "numeri-tratteggiati", "name": "Numeri tratteggiati"},
+    "letter-tracing": {"slug": "lettere-tratteggiate", "name": "Lettere tratteggiate"},
+    "sight-words": {"slug": "parole-frequenti", "name": "Parole frequenti"},
+    "cutting-practice": {"slug": "ritaglia-e-incolla", "name": "Ritaglia e incolla"},
+    "color-by-number": {"slug": "conta-e-colora", "name": "Conta e colora"},
+    "mazes": {"slug": "labirinti", "name": "Labirinti"},
+    "number-bonds": {"slug": "amici-del-10", "name": "Amici del 10"},
+    "mental-math": {"slug": "calcolo-mentale", "name": "Calcolo mentale"},
+    "fact-families": {"slug": "famiglie-di-operazioni", "name": "Famiglie di operazioni"},
+    "number-words": {"slug": "numeri-in-lettere", "name": "Numeri in lettere"},
+    "money": {"slug": "contare-le-monete", "name": "Contare le monete"},
+    "word-problems": {"slug": "problemi-con-addizioni-e-sottrazioni", "name": "Problemi con addizioni e sottrazioni"},
+    "column-arithmetic": {"slug": "operazioni-in-colonna", "name": "Operazioni in colonna"},
+    "symmetry": {"slug": "simmetria", "name": "Simmetria"},
+    "reading-comprehension": {"slug": "comprensione-del-testo", "name": "Comprensione del testo"},
+    "multiplication-tables": {"slug": "tabelline", "name": "Tabelline"}
+  },
+  "skills": {
+    "pre-writing": {"full": "Ripassare onde, zigzag e ponticelli allena il controllo della matita e prepara la mano a scrivere lettere e numeri.", "short": "Allena il controllo della matita e il pregrafismo."},
+    "number-tracing": {"full": "Ricalcare ogni cifra seguendo il punto di partenza e le frecce insegna fin dall'inizio la forma corretta dei numeri.", "short": "Insegna la scrittura corretta delle cifre."},
+    "letter-tracing": {"full": "Ricalcare le lettere maiuscole sulle righe fissa nella memoria la forma delle lettere e prepara una scrittura sicura.", "short": "Consolida la forma delle lettere maiuscole."},
+    "sight-words": {"full": "Leggere, ricalcare e scrivere le parole più frequenti le fissa nella memoria e rende la lettura sempre più fluida.", "short": "Fissa nella memoria le parole più frequenti."},
+    "cutting-practice": {"full": "Ritagliare le figure e incollarle nel gruppo giusto allena l'uso delle forbici e le prime classificazioni.", "short": "Allena l'uso delle forbici e le classificazioni."},
+    "color-by-number": {"full": "Abbinare ogni codice al suo colore unisce l'osservazione attenta e i primi calcoli in un disegno tutto da completare.", "short": "Consolida i primi calcoli colorando."},
+    "mazes": {"full": "Trovare l'unica strada giusta nel labirinto sviluppa l'attenzione visiva, il controllo della matita e la pazienza.", "short": "Sviluppa attenzione visiva e controllo della matita."},
+    "number-bonds": {"full": "Completare gli schemi di scomposizione mostra come i numeri si dividono in parti e prepara il calcolo mentale.", "short": "Insegna la scomposizione dei numeri fino a 10."},
+    "mental-math": {"full": "Risolvere a mente addizioni e sottrazioni entro il 20 costruisce la sicurezza su cui poggia tutto il calcolo scritto.", "short": "Rende sicuri nel calcolo a mente entro il 20."},
+    "fact-families": {"full": "Completare le quattro operazioni di una stessa terna di numeri mostra come addizione e sottrazione siano operazioni inverse.", "short": "Fa capire che addizione e sottrazione sono inverse."},
+    "number-words": {"full": "Abbinare i numeri in cifre ai numeri in lettere rafforza la lettura dei numeri ed evita le inversioni tra le cifre.", "short": "Allena la lettura dei numeri in lettere."},
+    "money": {"full": "Contare il valore delle monete dalla più grande alla più piccola costruisce la confidenza con l'euro di tutti i giorni.", "short": "Insegna a contare le monete dell'euro."},
+    "word-problems": {"full": "Leggere una breve storia, osservare la figura e scrivere la risposta trasforma il calcolo in un vero problema da risolvere.", "short": "Allena a risolvere problemi con l'aiuto delle figure."},
+    "column-arithmetic": {"full": "Calcolare una colonna alla volta, dalle unità in su, costruisce il metodo scritto per affrontare numeri sempre più grandi.", "short": "Costruisce il metodo del calcolo in colonna."},
+    "symmetry": {"full": "Completare la metà speculare di un disegno, quadretto dopo quadretto, sviluppa il senso della simmetria e la precisione.", "short": "Sviluppa simmetria e precisione nel disegno."},
+    "reading-comprehension": {"full": "Leggere un breve racconto e rispondere alle domande costruisce la comprensione attenta su cui si basa ogni apprendimento.", "short": "Sviluppa la comprensione del testo."},
+    "multiplication-tables": {"full": "Ripetere le tabelline in scalette ed esercizi misti costruisce il ricordo immediato che rende facile la matematica.", "short": "Rende automatico il ricordo delle tabelline."}
+  },
+  "topicMeta": {
+    "pre-writing": "Schede di pregrafismo: onde, zigzag, ponticelli e percorsi da ripassare con la matita per prepararsi alla scrittura. PDF gratuiti da stampare.",
+    "number-tracing": "Schede con i numeri tratteggiati da 0 a 9: punto di partenza, frecce e righe per imparare a scrivere le cifre. PDF gratuiti da stampare.",
+    "letter-tracing": "Schede con le lettere maiuscole tratteggiate da ricalcare e riscrivere sulle righe. PDF gratuiti da stampare.",
+    "sight-words": "Schede con le parole più frequenti: leggi, ricalca e scrivi ogni parola sulla riga. PDF gratuiti da stampare.",
+    "cutting-practice": "Schede ritaglia e incolla: ritaglia le figure, mettile nel gruppo giusto e incollale. PDF gratuiti da stampare.",
+    "color-by-number": "Schede conta e colora: risolvi i calcoli e colora ogni figura seguendo la legenda. PDF gratuiti da stampare.",
+    "mazes": "Labirinti per bambini: trova la strada giusta dall'ingresso al traguardo. PDF gratuiti da stampare.",
+    "number-bonds": "Schede sugli amici del 10 e la scomposizione dei numeri: completa gli schemi parte-parte-tutto. PDF gratuiti da stampare.",
+    "mental-math": "Schede di calcolo mentale entro il 20: addizioni e sottrazioni da risolvere a mente. PDF gratuiti da stampare.",
+    "fact-families": "Schede sulle famiglie di operazioni: con tre numeri completa le quattro operazioni collegate. PDF gratuiti da stampare.",
+    "number-words": "Schede sui numeri in lettere: leggi il numero in cifre e cerchia la parola giusta. PDF gratuiti da stampare.",
+    "money": "Schede sull'euro: conta le monete in ogni borsellino e scrivi il totale. PDF gratuiti da stampare.",
+    "word-problems": "Problemi con addizioni e sottrazioni: brevi storie illustrate con la risposta da scrivere. PDF gratuiti da stampare.",
+    "column-arithmetic": "Schede di operazioni in colonna: addizioni e sottrazioni senza e con il cambio. PDF gratuiti da stampare.",
+    "symmetry": "Schede sulla simmetria: completa la metà speculare di ogni disegno sui quadretti. PDF gratuiti da stampare.",
+    "reading-comprehension": "Schede di comprensione del testo: brevi racconti con domande a scelta multipla. PDF gratuiti da stampare.",
+    "multiplication-tables": "Schede sulle tabelline: moltiplicazioni da risolvere per imparare le tabelline a memoria. PDF gratuiti da stampare.",
+    "science-sort": "Schede di scienze per classificare: dividi le figure in gruppi come viventi e non viventi o terra, acqua e aria. PDF gratuiti da stampare.",
+    "science-sequence": "Schede di scienze sulle sequenze: metti in ordine le fasi dei cicli della natura. PDF gratuiti da stampare.",
+    "science-match": "Schede di scienze con abbinamenti: collega i cuccioli agli animali, i mestieri e le altre coppie. PDF gratuiti da stampare.",
+    "beginning-sounds": "Schede sui suoni iniziali: pronuncia il nome di ogni figura e scrivi o raggruppa la lettera iniziale. PDF gratuiti da stampare.",
+    "letter-knowledge": "Schede sulle lettere: abbina maiuscole e minuscole, trova le lettere e completa l'alfabeto. PDF gratuiti da stampare.",
+    "word-building": "Schede per costruire le parole: scrivi il suono che manca e forma parole brevi, lettera dopo lettera. PDF gratuiti da stampare.",
+    "picture-vocabulary": "Schede di vocabolario illustrato: abbina le parole alle figure e raggruppale per categoria. PDF gratuiti da stampare.",
+    "phonological-awareness": "Schede di consapevolezza fonologica: suoni finali, suoni in mezzo, rime e sillabe. PDF gratuiti da stampare."
+  },
+  "figureNames": {
+    "heart": "Cuore", "butterfly": "Farfalla", "rocket": "Razzo", "tree": "Albero",
+    "house": "Casa", "crown": "Corona", "star": "Stella", "arrow": "Freccia",
+    "flower": "Fiore", "mushroom": "Fungo", "cat": "Gatto", "robot": "Robot",
+    "apple": "Mela", "diamond": "Rombo", "ice-cream": "Gelato", "snowman": "Pupazzo di neve"
+  },
+  "sightWords": ["io", "noi", "non", "che", "con", "per", "sono", "come", "anche", "qui", "più", "bene"],
+  "readingPassages": [
+    {
+      "id": "it-gatto-romeo",
+      "title": "Il gatto Romeo",
+      "text": "Giulia ha un gatto che si chiama Romeo. Ogni mattina Romeo salta sul letto e le fa il solletico con i baffi. Giulia ride e gli dà una carezza prima di andare a scuola.",
+      "questions": [
+        {"q": "Come si chiama il gatto di Giulia?", "choices": ["Leo", "Romeo", "Micio"], "correct": 1},
+        {"q": "Che cosa fa Romeo ogni mattina?", "choices": ["Salta sul letto", "Dorme in giardino", "Mangia il pesce"], "correct": 0},
+        {"q": "Che cosa prova Giulia per Romeo?", "choices": ["Ne ha paura", "È arrabbiata con lui", "Gli vuole bene"], "correct": 2}
+      ]
+    },
+    {
+      "id": "it-torta-nonna",
+      "title": "La torta di nonna Anna",
+      "text": "Sabato Matteo va dalla nonna Anna. Insieme preparano una torta di mele per la festa della mamma. Matteo mescola l'impasto e la nonna taglia le mele a fettine sottili. Mentre la torta cuoce, un buon profumo riempie tutta la cucina. Alla fine Matteo scrive un biglietto colorato per la mamma.",
+      "questions": [
+        {"q": "Che torta preparano Matteo e la nonna?", "choices": ["Una torta di mele", "Una torta al cioccolato", "Una torta di fragole"], "correct": 0},
+        {"q": "Che cosa fa Matteo mentre la nonna taglia le mele?", "choices": ["Scrive un biglietto", "Mescola l'impasto", "Apparecchia la tavola"], "correct": 1},
+        {"q": "Per chi è la torta?", "choices": ["Per il nonno", "Per la maestra", "Per la mamma"], "correct": 2}
+      ]
+    },
+    {
+      "id": "it-giornata-mare",
+      "title": "Una giornata al mare",
+      "text": "Domenica Aurora e Lorenzo vanno al mare con il papà. Sulla spiaggia costruiscono un grande castello di sabbia con tre torri. Lorenzo trova una conchiglia bianca e la mette nel suo secchiello. A mezzogiorno mangiano i panini all'ombra dell'ombrellone insieme al papà. Nel pomeriggio arriva un'onda alta che bagna il castello. I due fratelli ridono e ne costruiscono subito un altro, ancora più grande.",
+      "questions": [
+        {"q": "Quante torri ha il castello di sabbia?", "choices": ["Due", "Quattro", "Tre"], "correct": 2},
+        {"q": "Che cosa trova Lorenzo sulla spiaggia?", "choices": ["Una conchiglia bianca", "Un granchio", "Una stella marina"], "correct": 0},
+        {"q": "Come si sentono i fratelli quando l'onda bagna il castello?", "choices": ["Sono arrabbiati", "Sono allegri", "Hanno paura"], "correct": 1}
+      ]
+    }
+  ],
+  "wordProblems": {
+    "nounCase": "lower",
+    "names": ["Sofia", "Leonardo", "Giulia", "Francesco", "Aurora", "Lorenzo", "Alice", "Matteo"],
+    "frames": {
+      "add": [
+        "{name} ha {n1} {noun}. Poi ne trova ancora {n2}. Qual è il totale?",
+        "{name} vede {n1} {noun}. Più tardi ne vede ancora {n2}. Qual è il totale?",
+        "{name} ha {n1} {noun}. Un amico gliene regala {n2}. Qual è il totale adesso?",
+        "{name} mette {n1} {noun} nel cesto. Poi ne aggiunge ancora {n2}. Qual è il totale?"
+      ],
+      "sub": [
+        "{name} ha {n1} {noun}. Ne regala {n2} a un amico. Qual è il totale adesso?",
+        "{name} ha {n1} {noun}. Ne perde {n2} al parco. Qual è il totale alla fine?",
+        "{name} conta {n1} {noun}. Ne dà via {n2}. Qual è il totale che resta?"
+      ]
+    }
+  },
+  "audits": {
+    "colorWords": "OK: rosso, blu, giallo, verde minuscolo.",
+    "currency": "CORRECTION applied: unit label 'cent' (on the coins + textbooks), never bare 'c'.",
+    "numberWords": "OK all 10; elision + ventitré accent model correct.",
+    "englishSource": "K-241 type/family naming inconsistency (cosmetic); G3-357 idiom; K-238 empty line (fixed by integrator)."
+  },
+  "notes": "it digit forms = continental (crossed 7, hooked 1) — confirmed. Multiplication glyph × for it. 21-letter alphabet confirmed; d3 page uses ordinary letters (no accented capitals tradition). Word-problem questions use invariant 'Qual è il totale...?' because quanti/quante + ne agreement cannot survive arbitrary nouns — do not change. G1-212 title amended by integrator to 'Disegna le lancette' (the drawing task; avoids echoing the telling-time family name)."
+}

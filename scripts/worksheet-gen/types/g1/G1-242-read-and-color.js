@@ -13,7 +13,7 @@
 'use strict';
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { colorLegend } = require('../../templates/components-b2.js');
-const { entriesFor, fileUri } = require('../../lib/b2-common.js');
+const { entriesFor, fileUri, countable } = require('../../lib/b2-common.js');
 const { SENTENCES } = require('../../data/b2/sentences.js');
 const { COLOR_WORDS } = require('../../data/color-words.js');
 const SB = require('../../lib/sentence-bank.js');
@@ -52,7 +52,7 @@ module.exports = {
     const words = COLOR_WORDS[loc];
     if (!words) throw new Error(`G1-242: no colour words for ${loc}`);
     const colorKeys = rng.shuffle(COLOR_KEYS.slice(0, d.colors)).slice(0, d.cards);
-    const entries = entriesFor(theme, loc).filter((e) => e.plural && !OPAQUE_ASSETS.has(String(e.vocabKey).toLowerCase()));
+    const entries = entriesFor(theme, loc).filter((e) => countable(e) && !OPAQUE_ASSETS.has(String(e.vocabKey).toLowerCase()));
     if (entries.length < d.cards + 2) throw new Error(`G1-242: theme ${theme}/${loc} has ${entries.length} nouns < ${d.cards + 2}`);
     const targets = rng.sample(entries, d.cards);
     const frames = SB.pickFrames(bank, { kind: 'color', count: 1, rng });

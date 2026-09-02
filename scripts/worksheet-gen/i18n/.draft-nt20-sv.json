@@ -1,0 +1,153 @@
+{
+  "locale": "sv",
+  "types": {
+    "K-236": {"title": "Spåra linjer", "instruction": "Följ varje linje med pennan. Börja vid den orangea pricken och följ pilen."},
+    "K-237": {"title": "Spåra siffrorna 0 till 9", "instruction": "Spåra varje siffra. Börja vid den orangea pricken och följ pilarna."},
+    "K-238": {"title": "Spåra stora bokstäver", "instruction": "Spåra varje bokstav och skriv sedan en egen på den tomma raden."},
+    "K-239": {"title": "Ordbilder: läs, spåra, skriv", "instruction": "Läs ordet. Spåra det. Skriv sedan ordet själv på den tomma raden."},
+    "K-240": {"title": "Klipp, sortera och klistra", "instruction": "Klipp ut bilderna längst ner. Sortera dem och klistra in varje bild i rätt ruta."},
+    "K-241": {"title": "Måla efter kod", "instruction": "Titta på koden. Räkna ut talet i varje fält och färglägg med rätt färg."},
+    "K-242": {"title": "Hitta vägen i labyrinten", "instruction": "Börja högst upp. Rita en väg genom labyrinten ända fram till målet längst ner."},
+    "K-243": {"title": "Tiokompisar", "instruction": "Vilken tiokompis saknas? Skriv talet som fattas i den streckade cirkeln."},
+    "G1-208": {"title": "Huvudräkning till 20", "instruction": "Räkna ut varje tal i huvudet. Skriv talet som saknas i rutan."},
+    "G1-209": {"title": "Räknefamiljer", "instruction": "Använd de tre talen på taket. Skriv färdigt de fyra uppgifter som hör ihop."},
+    "G1-210": {"title": "Tal med bokstäver", "instruction": "Läs talet med siffror. Ringa in ordet som betyder samma tal."},
+    "G1-211": {"title": "Räkna pengar", "instruction": "Räkna mynten i varje börs. Skriv hur många kronor det blir i rutan."},
+    "G1-212": {"title": "Rita klockans visare", "instruction": "Läs tiden på lappen. Rita timvisaren och minutvisaren på klockan."},
+    "G1-213": {"title": "Räknehändelser med bilder", "instruction": "Läs varje räknehändelse. Ta hjälp av bilderna och skriv svaret i rutan."},
+    "G2-251": {"title": "Uppställning utan växling", "instruction": "Räkna ut svaret i uppställningen, en talsort i taget. Börja med entalen."},
+    "G2-252": {"title": "Volym och vikt", "instruction": "Läs av varje mätkanna och våg. Skriv svaret med rätt enhet."},
+    "G2-253": {"title": "Rita färdigt spegelbilden", "instruction": "Bilden är bara till hälften klar. Färglägg rutorna på andra sidan linjen så att bilden blir symmetrisk."},
+    "G2-254": {"title": "Läs och svara", "instruction": "Läs berättelsen noga. Ringa in det bästa svaret på varje fråga."},
+    "G3-357": {"title": "Uppställning med växling", "instruction": "Räkna ut varje uppgift med uppställning. Kom ihåg att växla när det behövs."},
+    "G3-358": {"title": "Träna multiplikationstabellerna", "instruction": "Multiplicera talen i varje uppgift. Skriv produkten i rutan."}
+  },
+  "families": {
+    "pre-writing": {"slug": "spara-linjer", "name": "Spåra linjer"},
+    "number-tracing": {"slug": "spara-siffror", "name": "Spåra siffror"},
+    "letter-tracing": {"slug": "spara-bokstaver", "name": "Spåra bokstäver"},
+    "sight-words": {"slug": "hogfrekventa-ord", "name": "Högfrekventa ord"},
+    "cutting-practice": {"slug": "klippovningar", "name": "Klippövningar"},
+    "color-by-number": {"slug": "mala-efter-siffror", "name": "Måla efter siffror"},
+    "mazes": {"slug": "labyrinter", "name": "Labyrinter"},
+    "number-bonds": {"slug": "tiokompisar", "name": "Tiokompisar"},
+    "mental-math": {"slug": "huvudrakning", "name": "Huvudräkning"},
+    "fact-families": {"slug": "raknefamiljer", "name": "Räknefamiljer"},
+    "number-words": {"slug": "tal-med-bokstaver", "name": "Tal med bokstäver"},
+    "money": {"slug": "rakna-pengar", "name": "Räkna pengar"},
+    "word-problems": {"slug": "raknehandelser", "name": "Räknehändelser"},
+    "column-arithmetic": {"slug": "uppstallning", "name": "Uppställning"},
+    "symmetry": {"slug": "symmetri", "name": "Symmetri"},
+    "reading-comprehension": {"slug": "lasforstaelse", "name": "Läsförståelse"},
+    "multiplication-tables": {"slug": "multiplikationstabeller", "name": "Multiplikationstabeller"}
+  },
+  "skills": {
+    "pre-writing": {"full": "Att spåra öglor, vågor och sicksacklinjer tränar den pennkontroll och handstyrka som alla bokstäver och siffror bygger på.", "short": "Tränar pennkontroll och finmotorik inför skrivandet."},
+    "number-tracing": {"full": "Att spåra varje siffra längs sin väg, med startprick och pilar, ger rätt sifferform redan från början.", "short": "Tränar att forma siffrorna på rätt sätt."},
+    "letter-tracing": {"full": "Att spåra stora bokstäver på skrivlinjer bygger upp bokstavsformerna och de säkra pennrörelser som tidigt skrivande vilar på.", "short": "Tränar att forma stora bokstäver rätt."},
+    "sight-words": {"full": "Att läsa, spåra och skriva högfrekventa ord gör dem till säkra ordbilder, så att läsningen kan handla om innehållet.", "short": "Tränar snabb igenkänning av vanliga ord."},
+    "cutting-practice": {"full": "Att klippa ut bilder och klistra in dem i rätt grupp tränar saxgrepp, precision och tidigt sorteringstänkande i en och samma uppgift.", "short": "Tränar saxvana, precision och sortering."},
+    "color-by-number": {"full": "När varje kod får sin färg blir noggrant tittande och enkla tal en bild som är rolig att göra färdig.", "short": "Tränar taluppfattning genom färgläggning."},
+    "mazes": {"full": "Att hitta den enda vägen genom labyrinten tränar visuell planering, pennkontroll och tålmodig problemlösning.", "short": "Tränar visuell planering och pennkontroll."},
+    "number-bonds": {"full": "Att fylla i tiokompisar och talkamrater visar hur tal kan delas upp och ger de uppdelningar som huvudräkningen bygger på.", "short": "Tränar talens uppdelning upp till 10."},
+    "mental-math": {"full": "Att räkna addition och subtraktion upp till 20 i huvudet ger den säkerhet som de skriftliga metoderna sedan vilar på.", "short": "Tränar huvudräkning med tal upp till 20."},
+    "fact-families": {"full": "Att skriva alla fyra uppgifter ur samma taltrio visar hur addition och subtraktion hänger ihop och tar ut varandra.", "short": "Tränar sambandet mellan addition och subtraktion."},
+    "number-words": {"full": "Att para ihop siffror med tal skrivna med bokstäver stärker talläsningen och skyddar mot omkastade siffror.", "short": "Tränar att läsa och skriva tal med bokstäver."},
+    "money": {"full": "Att räkna mynt från störst till minst värde bygger den pengakänsla barn har nytta av i vardagen.", "short": "Tränar myntens värde och att räkna pengar."},
+    "word-problems": {"full": "Att läsa en kort räknehändelse, ta hjälp av bilden och skriva svaret gör matematiken till verklig problemlösning.", "short": "Tränar räknehändelser med stöd av bilder."},
+    "column-arithmetic": {"full": "Att räkna en talsort i taget i uppställning ger den noggranna skriftliga metod som fungerar för allt större tal.", "short": "Tränar skriftlig räkning med uppställning."},
+    "symmetry": {"full": "Att färglägga spegelbildens andra halva ruta för ruta bygger förståelse för symmetri och noggrant rumsligt tänkande.", "short": "Tränar symmetri, spegelbilder och rumsuppfattning."},
+    "reading-comprehension": {"full": "Att läsa en kort text och svara på frågor om den bygger den noggranna läsförståelse som allt lärande vilar på.", "short": "Tränar läsförståelse med korta texter."},
+    "multiplication-tables": {"full": "Att träna multiplikationstabellerna om och om igen ger den snabba tabellkunskap som gör svårare matematik lätt.", "short": "Tränar multiplikationstabellerna till säkerhet."}
+  },
+  "topicMeta": {
+    "pre-writing": "Arbetsblad med spårövningar: öglor, vågor och sicksacklinjer som tränar pennkontroll och finmotorik inför skrivandet. Gratis PDF:er att skriva ut.",
+    "number-tracing": "Arbetsblad för att spåra siffrorna 0–9 med startprick och pilar, så att siffrorna formas rätt från början. Gratis PDF:er att skriva ut.",
+    "letter-tracing": "Arbetsblad för att spåra stora bokstäver på skrivlinjer – hela vägen från A till Ö. Gratis PDF:er att skriva ut.",
+    "sight-words": "Arbetsblad med högfrekventa ord: läs, spåra och skriv de vanligaste orden i den tidiga läsningen. Gratis PDF:er att skriva ut.",
+    "cutting-practice": "Klippövningar för barn: klipp ut bilderna, sortera dem och klistra in dem i rätt ruta. Gratis PDF:er att skriva ut.",
+    "color-by-number": "Måla efter siffror och koder: räkna ut talet och färglägg bilden med rätt färg. Gratis PDF:er att skriva ut.",
+    "mazes": "Labyrinter för barn: hitta vägen från start till mål och träna pennkontroll och visuell planering. Gratis PDF:er att skriva ut.",
+    "number-bonds": "Arbetsblad med tiokompisar och talkamrater: skriv talet som saknas och lär dig talens uppdelning. Gratis PDF:er att skriva ut.",
+    "mental-math": "Arbetsblad i huvudräkning: addition och subtraktion med tal upp till 20. Gratis PDF:er att skriva ut.",
+    "fact-families": "Arbetsblad med räknefamiljer: tre tal på taket och fyra uppgifter som visar sambandet mellan addition och subtraktion. Gratis PDF:er att skriva ut.",
+    "number-words": "Arbetsblad med tal skrivna med bokstäver: läs talet och ringa in rätt ord. Gratis PDF:er att skriva ut.",
+    "money": "Arbetsblad för att räkna pengar: räkna svenska mynt i kronor och skriv summan. Gratis PDF:er att skriva ut.",
+    "word-problems": "Arbetsblad med räknehändelser: korta lästal med bildstöd där barnet läser, räknar och skriver svaret. Gratis PDF:er att skriva ut.",
+    "column-arithmetic": "Arbetsblad med uppställning: addition och subtraktion, med och utan växling. Gratis PDF:er att skriva ut.",
+    "symmetry": "Arbetsblad med symmetri: färglägg spegelbildens andra halva ruta för ruta. Gratis PDF:er att skriva ut.",
+    "reading-comprehension": "Arbetsblad i läsförståelse: korta berättelser med frågor att ringa in, för tidiga läsare. Gratis PDF:er att skriva ut.",
+    "multiplication-tables": "Arbetsblad med multiplikationstabellerna: träna tabellerna tills de sitter. Gratis PDF:er att skriva ut.",
+    "science-sort": "Arbetsblad i NO – sortering: sortera bilder i grupper som levande och icke-levande eller land, vatten och luft. Gratis PDF:er att skriva ut.",
+    "science-sequence": "Arbetsblad i NO – ordningsföljd: lägg naturens kretslopp i rätt ordning, steg för steg. Gratis PDF:er att skriva ut.",
+    "science-match": "Arbetsblad i NO – para ihop: matcha djurungar med sina föräldrar och yrken med sina redskap. Gratis PDF:er att skriva ut.",
+    "beginning-sounds": "Arbetsblad med första ljudet: säg vad bilden föreställer och skriv eller sortera bokstaven för det första ljudet. Gratis PDF:er att skriva ut.",
+    "letter-knowledge": "Arbetsblad om bokstäver: para ihop stora och små bokstäver, hitta bokstäver och fyll i alfabetet. Gratis PDF:er att skriva ut.",
+    "word-building": "Arbetsblad för att bygga ord: skriv ljudet som saknas och bygg korta ord bokstav för bokstav. Gratis PDF:er att skriva ut.",
+    "picture-vocabulary": "Arbetsblad med ord och bilder: para ihop ord med rätt bild och sortera dem efter kategori. Gratis PDF:er att skriva ut.",
+    "phonological-awareness": "Arbetsblad i fonologisk medvetenhet: sista ljud, ljud i mitten, rimpar och stavelser. Gratis PDF:er att skriva ut."
+  },
+  "figureNames": {
+    "heart": "Hjärta", "butterfly": "Fjäril", "rocket": "Raket", "tree": "Träd",
+    "house": "Hus", "crown": "Krona", "star": "Stjärna", "arrow": "Pil",
+    "flower": "Blomma", "mushroom": "Svamp", "cat": "Katt", "robot": "Robot",
+    "apple": "Äpple", "diamond": "Romb", "ice-cream": "Glass", "snowman": "Snögubbe"
+  },
+  "sightWords": ["och", "jag", "det", "är", "en", "vi", "på", "har", "kan", "ser", "här", "inte"],
+  "readingPassages": [
+    {
+      "id": "sv-katt",
+      "title": "Majas katt",
+      "text": "Maja har en liten grå katt som heter Smulan. Smulan tycker mest om att sova i den varma tvättkorgen i hallen. På kvällen ger Maja henne mat och Smulan spinner högt.",
+      "questions": [
+        {"q": "Vad heter Majas katt?", "choices": ["Smulan", "Missan", "Tussan"], "correct": 0},
+        {"q": "Var tycker Smulan om att sova?", "choices": ["I Majas säng", "I tvättkorgen", "På soffan"], "correct": 1},
+        {"q": "Varför spinner Smulan på kvällen?", "choices": ["Hon är arg", "Hon är rädd", "Hon trivs och är nöjd"], "correct": 2}
+      ]
+    },
+    {
+      "id": "sv-cykel",
+      "title": "Hugo lär sig cykla",
+      "text": "Hugo har fått en ny blå cykel av farmor. Första dagen övar han på gården med pappa som håller i pakethållaren. Plötsligt släpper pappa taget, men Hugo märker det inte och cyklar vidare helt själv. När han stannar jublar pappa och klappar i händerna. Hugo ler stort och vill genast cykla en gång till.",
+      "questions": [
+        {"q": "Vem har Hugo fått cykeln av?", "choices": ["Av pappa", "Av farmor", "Av sin bror"], "correct": 1},
+        {"q": "Var övar Hugo på att cykla?", "choices": ["På gården", "I parken", "På vägen"], "correct": 0},
+        {"q": "Varför jublar pappa?", "choices": ["Det är Hugos födelsedag", "Cykeln är ny", "Hugo cyklar helt själv"], "correct": 2}
+      ]
+    },
+    {
+      "id": "sv-utflykt",
+      "title": "Utflykten till skogen",
+      "text": "Klass 2A ska på utflykt till skogen en solig dag i september. Alla barn har ryggsäck med matsäck och regnkläder. Vera hittar en stor svamp under en gran och ropar på fröken. Fröken säger att de bara får titta, inte plocka, för ingen vet om svampen är giftig. Vid elden grillar barnen korv och dricker varm choklad. På vägen hem sjunger hela klassen så att det hörs långt bort.",
+      "questions": [
+        {"q": "Vad hittar Vera under granen?", "choices": ["En kotte", "En stor svamp", "En sten"], "correct": 1},
+        {"q": "Vad äter barnen vid elden?", "choices": ["Pannkakor", "Smörgåsar", "Korv"], "correct": 2},
+        {"q": "Hur känner sig barnen på vägen hem?", "choices": ["Glada", "Ledsna", "Arga"], "correct": 0}
+      ]
+    }
+  ],
+  "wordProblems": {
+    "nounCase": "lower",
+    "names": ["Elsa", "Hugo", "Alma", "Liam", "Maja", "Oscar", "Vera", "Elias"],
+    "frames": {
+      "add": [
+        "{name} har {n1} {noun} och får {n2} {noun} till. Hur många {noun} har {name} nu?",
+        "{name} ser först {n1} {noun} och sedan {n2} {noun} till. Hur många {noun} ser {name} sammanlagt?",
+        "{name} räknar {n1} {noun}. {name} hittar {n2} {noun} till. Hur många {noun} blir det tillsammans?",
+        "{name} har {n1} {noun}. En kompis ger {name} {n2} {noun}. Hur många {noun} har {name} då?"
+      ],
+      "sub": [
+        "{name} har {n1} {noun} och ger bort {n2} {noun}. Hur många {noun} har {name} kvar?",
+        "{name} har {n1} {noun}. {name} tappar bort {n2} {noun}. Hur många {noun} finns kvar?",
+        "{name} räknar {n1} {noun}. Sedan försvinner {n2} {noun}. Hur många {noun} är kvar?"
+      ]
+    }
+  },
+  "audits": {
+    "colorWords": "OK — röd, blå, gul, grön lowercase i legend.",
+    "currency": "OK — mynt 1, 2, 5, 10 kronor; 'kr' efter talet med mellanslag; hela kronor ≤ 50.",
+    "numberWords": "OK alla 10; tjugoett är rätt räkneform; hundra (inte etthundra). DIGIT FORMS: OKORSAD 7 + enkel 1 med kort startflagga (applied: sv → dutch variant). GLYPH: '·' bekräftad.",
+    "englishSource": "K-241 EN misses the solve step; G3-357 vague idiom; K-243 EN uses the adult term 'number bond' toward the child."
+  },
+  "notes": "[NSR-FLAG] tiokompisar hard-codes 10 → d2 is bonds-of-10 only (type change applied batch-wide). 'orangea' accepted inflection. Romb = school term for the diamond shape. Slugs ASCII-folded per house convention (spara-linjer, huvudrakning, lasforstaelse...)."
+}

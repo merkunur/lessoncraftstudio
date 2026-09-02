@@ -11,7 +11,7 @@
  */
 'use strict';
 const { rulingBlock, fixChecklist } = require('../../templates/components-b2.js');
-const { entriesFor, displayWord, fileUri } = require('../../lib/b2-common.js');
+const { entriesFor, displayWord, fileUri, countable } = require('../../lib/b2-common.js');
 const { SENTENCES } = require('../../data/b2/sentences.js');
 const SB = require('../../lib/sentence-bank.js');
 
@@ -40,7 +40,7 @@ module.exports = {
     const loc = (locale || 'en').slice(0, 2);
     const bank = SENTENCES[loc];
     if (!bank) throw new Error(`G2-274: no sentence bank for ${loc}`);
-    const entries = entriesFor(theme, loc).filter((e) => e.singular && e.plural);
+    const entries = entriesFor(theme, loc).filter(countable);
     const pool = bank.frames.filter((f) => f.kind === 'simple' && (f.uses || []).includes('fix'))
       .filter((f) => { const end = SB.endMark(f.text); if (!d.ends.includes(end)) return false; if (end === '!' && !f.exclaimStrict) return false; return true; });
     // choose frames: ≥ needCaps with a {name} (a capital inside), ≥ needQ questions at d3

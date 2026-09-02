@@ -1,0 +1,153 @@
+{
+  "locale": "es",
+  "types": {
+    "K-236": {"title": "Trazos de grafomotricidad", "instruction": "Repasa cada línea con el lápiz. Empieza en el punto naranja y sigue la flecha."},
+    "K-237": {"title": "Números punteados del 0 al 9", "instruction": "Repasa cada número. Empieza en el punto naranja y sigue las flechas."},
+    "K-238": {"title": "Letras mayúsculas punteadas", "instruction": "Repasa cada letra con el lápiz. Después, escríbela tú en la línea vacía."},
+    "K-239": {"title": "Palabras de uso frecuente", "instruction": "Lee la palabra. Repásala con el lápiz y luego escríbela tú en la línea."},
+    "K-240": {"title": "Recorta, clasifica y pega", "instruction": "Recorta los dibujos de abajo. Clasifícalos y pega cada uno en su casilla."},
+    "K-241": {"title": "Colorea según el resultado", "instruction": "Mira el código. Colorea cada figura con el color que le corresponde."},
+    "K-242": {"title": "Laberinto de animales", "instruction": "Empieza arriba. Traza el camino por el laberinto hasta llegar a la meta."},
+    "K-243": {"title": "Amigos del 10", "instruction": "Mira cada esquema. Escribe el número que falta en el círculo de puntos."},
+    "G1-208": {"title": "Cálculo mental hasta 20", "instruction": "Resuelve cada operación mentalmente. Escribe el resultado en la casilla."},
+    "G1-209": {"title": "Casitas de sumas y restas", "instruction": "Usa los tres números del tejado. Completa las cuatro operaciones de la familia."},
+    "G1-210": {"title": "Números en letras", "instruction": "Lee el número grande y rodea con tu lápiz la palabra que le corresponde."},
+    "G1-211": {"title": "Contamos monedas", "instruction": "Cuenta las monedas de cada monedero. Escribe el total en la casilla."},
+    "G1-212": {"title": "Dibuja las agujas del reloj", "instruction": "Lee la hora. Dibuja la aguja de las horas y la de los minutos en el reloj."},
+    "G1-213": {"title": "Problemas con dibujos", "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en la casilla."},
+    "G2-251": {"title": "Sumas y restas sin llevar", "instruction": "Suma o resta en columnas, empezando siempre por las unidades."},
+    "G2-252": {"title": "Capacidad y masa", "instruction": "Lee cada jarra medidora y cada balanza. Escribe la cantidad con su unidad."},
+    "G2-253": {"title": "Simetría en cuadrícula", "instruction": "Cada dibujo está a medias. Colorea los cuadrados del otro lado de la línea para completarlo igual."},
+    "G2-254": {"title": "Comprensión lectora", "instruction": "Lee el cuento con atención. Después, rodea la respuesta correcta de cada pregunta."},
+    "G3-357": {"title": "Sumas y restas con llevadas", "instruction": "Resuelve cada operación en columnas. Recuerda las llevadas cuando haga falta."},
+    "G3-358": {"title": "Las tablas de multiplicar", "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."}
+  },
+  "families": {
+    "pre-writing": {"slug": "grafomotricidad", "name": "Grafomotricidad"},
+    "number-tracing": {"slug": "numeros-punteados", "name": "Números punteados"},
+    "letter-tracing": {"slug": "abecedario-punteado", "name": "Abecedario punteado"},
+    "sight-words": {"slug": "palabras-de-uso-frecuente", "name": "Palabras de uso frecuente"},
+    "cutting-practice": {"slug": "recortar-y-pegar", "name": "Recortar y pegar"},
+    "color-by-number": {"slug": "colorear-por-numeros", "name": "Colorear por números"},
+    "mazes": {"slug": "laberintos", "name": "Laberintos"},
+    "number-bonds": {"slug": "descomposicion-de-numeros", "name": "Descomposición de números"},
+    "mental-math": {"slug": "calculo-mental", "name": "Cálculo mental"},
+    "fact-families": {"slug": "familias-de-operaciones", "name": "Familias de operaciones"},
+    "number-words": {"slug": "numeros-en-letras", "name": "Números en letras"},
+    "money": {"slug": "contar-dinero", "name": "Contar dinero"},
+    "word-problems": {"slug": "problemas-de-suma-y-resta", "name": "Problemas de suma y resta"},
+    "column-arithmetic": {"slug": "sumas-y-restas-en-columna", "name": "Sumas y restas en columna"},
+    "symmetry": {"slug": "simetria", "name": "Simetría"},
+    "reading-comprehension": {"slug": "comprension-lectora", "name": "Comprensión lectora"},
+    "multiplication-tables": {"slug": "tablas-de-multiplicar", "name": "Tablas de multiplicar"}
+  },
+  "skills": {
+    "pre-writing": {"full": "Repasar bucles, ondas y zigzags entrena el control del lápiz y la fuerza de la mano sobre las que se apoyará cada letra y cada número.", "short": "Desarrolla el control del lápiz y la grafomotricidad."},
+    "number-tracing": {"full": "Repasar cada cifra siguiendo su trazo, con punto de inicio y flechas, enseña la escritura correcta de los números desde el primer intento.", "short": "Enseña el trazo correcto de los números."},
+    "letter-tracing": {"full": "Repasar las mayúsculas sobre pauta de escritura fija la forma de cada letra y da seguridad a los primeros trazos de la escritura.", "short": "Afianza el trazo de las letras mayúsculas."},
+    "sight-words": {"full": "Leer, repasar y escribir palabras de uso frecuente las lleva a la memoria inmediata y deja libre la atención para comprender lo leído.", "short": "Fija las palabras frecuentes en la memoria."},
+    "cutting-practice": {"full": "Recortar dibujos y pegar cada uno en su grupo entrena el manejo de las tijeras y el primer pensamiento de clasificación en una sola actividad.", "short": "Entrena las tijeras y la clasificación."},
+    "color-by-number": {"full": "Relacionar cada código con su color convierte la observación atenta y los primeros cálculos en un dibujo que da gusto terminar.", "short": "Refuerza el cálculo mientras se colorea."},
+    "mazes": {"full": "Encontrar el único camino del laberinto desarrolla la planificación visual, el control del lápiz y la paciencia para resolver problemas.", "short": "Desarrolla la planificación visual y el trazo."},
+    "number-bonds": {"full": "Completar esquemas parte-todo muestra cómo se descomponen los números y construye los amigos del 10 que sostienen el cálculo mental.", "short": "Trabaja la descomposición de números hasta 10."},
+    "mental-math": {"full": "Resolver sumas y restas hasta 20 con la cabeza da la soltura de cálculo sobre la que se apoyan después las operaciones escritas.", "short": "Da soltura en sumas y restas hasta 20."},
+    "fact-families": {"full": "Completar las cuatro operaciones de un mismo trío de números muestra cómo la suma y la resta se deshacen la una a la otra.", "short": "Muestra la relación entre suma y resta."},
+    "number-words": {"full": "Relacionar cada cifra con su nombre escrito refuerza la lectura de números y evita confusiones al leerlos y escribirlos.", "short": "Refuerza la lectura de números en letras."},
+    "money": {"full": "Contar el valor de las monedas de mayor a menor construye el sentido del dinero que los niños usan en su vida diaria.", "short": "Enseña a contar monedas con seguridad."},
+    "word-problems": {"full": "Leer una historia corta, mirar el dibujo y escribir la respuesta convierte el cálculo en verdadera resolución de problemas.", "short": "Trabaja los problemas con apoyo visual."},
+    "column-arithmetic": {"full": "Operar columna a columna, empezando por las unidades, asienta el método escrito que servirá para números cada vez mayores.", "short": "Asienta el cálculo escrito en columnas."},
+    "symmetry": {"full": "Completar la mitad reflejada de un dibujo, cuadrado a cuadrado, trabaja la comprensión de la simetría y la precisión espacial.", "short": "Trabaja la simetría y el dibujo preciso."},
+    "reading-comprehension": {"full": "Leer un cuento corto y responder preguntas sobre él construye la comprensión atenta de la que depende todo el aprendizaje.", "short": "Desarrolla la comprensión lectora."},
+    "multiplication-tables": {"full": "Practicar las tablas de multiplicar en series y repasos mezclados logra la respuesta inmediata que hace fácil todo el cálculo.", "short": "Automatiza las tablas de multiplicar."}
+  },
+  "topicMeta": {
+    "pre-writing": "Fichas de grafomotricidad: bucles, ondas y zigzags para ganar control del lápiz antes de escribir. PDF gratis para imprimir.",
+    "number-tracing": "Fichas de números punteados: repasa las cifras del 0 al 9 con punto de inicio y flechas. PDF gratis para imprimir.",
+    "letter-tracing": "Fichas de abecedario punteado: repasa las letras mayúsculas sobre pauta y escríbelas tú. PDF gratis para imprimir.",
+    "sight-words": "Fichas de palabras de uso frecuente: leer, repasar y escribir las palabras más comunes. PDF gratis para imprimir.",
+    "cutting-practice": "Fichas de recortar y pegar: recorta los dibujos, clasifícalos y pégalos en su grupo. PDF gratis para imprimir.",
+    "color-by-number": "Fichas de colorear por números: resuelve el código y colorea cada figura con su color. PDF gratis para imprimir.",
+    "mazes": "Laberintos para niños: encuentra con el lápiz el camino de la entrada a la meta. PDF gratis para imprimir.",
+    "number-bonds": "Fichas de descomposición de números: esquemas parte-todo y amigos del 10 para el cálculo mental. PDF gratis para imprimir.",
+    "mental-math": "Fichas de cálculo mental: sumas y restas hasta 20 para resolver con la cabeza. PDF gratis para imprimir.",
+    "fact-families": "Fichas de familias de operaciones: completa las cuatro operaciones de cada trío de números. PDF gratis para imprimir.",
+    "number-words": "Fichas de números en letras: lee cada cifra y rodea su nombre escrito. PDF gratis para imprimir.",
+    "money": "Fichas para contar dinero: cuenta monedas de céntimo y escribe el total de cada monedero. PDF gratis para imprimir.",
+    "word-problems": "Fichas de problemas de suma y resta: historias cortas con dibujos que ayudan a resolver. PDF gratis para imprimir.",
+    "column-arithmetic": "Fichas de sumas y restas en columna: sin llevar y con llevadas, paso a paso. PDF gratis para imprimir.",
+    "symmetry": "Fichas de simetría: completa la mitad reflejada de cada dibujo en la cuadrícula. PDF gratis para imprimir.",
+    "reading-comprehension": "Fichas de comprensión lectora: lecturas cortas con preguntas para rodear la respuesta correcta. PDF gratis para imprimir.",
+    "multiplication-tables": "Fichas de las tablas de multiplicar: practica cada tabla y haz repasos mezclados. PDF gratis para imprimir.",
+    "science-sort": "Fichas de clasificación de ciencias: agrupa dibujos en categorías como seres vivos e inertes o tierra, agua y aire. PDF gratis para imprimir.",
+    "science-sequence": "Fichas de secuencias de ciencias: ordena las etapas de los ciclos de la naturaleza. PDF gratis para imprimir.",
+    "science-match": "Fichas de emparejar de ciencias: une los animales con sus crías y los oficios con sus parejas. PDF gratis para imprimir.",
+    "beginning-sounds": "Fichas de sonido inicial: di el nombre de cada dibujo y escribe o clasifica su primera letra. PDF gratis para imprimir.",
+    "letter-knowledge": "Fichas de conocimiento de las letras: une mayúsculas y minúsculas, busca letras y completa el abecedario. PDF gratis para imprimir.",
+    "word-building": "Fichas de formar palabras: escribe el sonido que falta y construye palabras cortas letra a letra. PDF gratis para imprimir.",
+    "picture-vocabulary": "Fichas de vocabulario con dibujos: une cada palabra con su imagen y clasifícalas por categorías. PDF gratis para imprimir.",
+    "phonological-awareness": "Fichas de conciencia fonológica: sonidos finales, sonidos del medio, rimas y sílabas. PDF gratis para imprimir."
+  },
+  "figureNames": {
+    "heart": "Corazón", "butterfly": "Mariposa", "rocket": "Cohete", "tree": "Árbol",
+    "house": "Casa", "crown": "Corona", "star": "Estrella", "arrow": "Flecha",
+    "flower": "Flor", "mushroom": "Seta", "cat": "Gato", "robot": "Robot",
+    "apple": "Manzana", "diamond": "Rombo", "ice-cream": "Helado", "snowman": "Muñeco de nieve"
+  },
+  "sightWords": ["el", "la", "un", "una", "de", "que", "en", "es", "yo", "mi", "no", "sí"],
+  "readingPassages": [
+    {
+      "id": "es-r0",
+      "title": "El gato de Lucía",
+      "text": "Lucía tiene un gato blanco que se llama Nube. Por la mañana, Nube duerme al sol en la ventana. Por la tarde, juega con una pelota roja en el patio.",
+      "questions": [
+        {"q": "¿Cómo se llama el gato de Lucía?", "choices": ["Nube", "Luna", "Copo"], "correct": 0},
+        {"q": "¿Con qué juega Nube por la tarde?", "choices": ["Con un ratón de juguete", "Con un ovillo de lana", "Con una pelota roja"], "correct": 2},
+        {"q": "¿Por qué duerme Nube en la ventana por la mañana?", "choices": ["Porque no le gusta jugar", "Porque allí da el sol", "Porque busca a Lucía"], "correct": 1}
+      ]
+    },
+    {
+      "id": "es-r1",
+      "title": "El mercado",
+      "text": "El sábado por la mañana, Mateo va al mercado con su abuela. Compran fresas, pan y un queso pequeño para la cena. La abuela deja que Mateo pague las fresas con una moneda. El frutero le da las gracias y le regala una cereza roja. Mateo vuelve a casa muy contento con su bolsa.",
+      "questions": [
+        {"q": "¿Con quién va Mateo al mercado?", "choices": ["Con su abuela", "Con su papá", "Con su hermana"], "correct": 0},
+        {"q": "¿Qué le regala el frutero a Mateo?", "choices": ["Una fresa", "Un trozo de pan", "Una cereza roja"], "correct": 2},
+        {"q": "¿Por qué está contento Mateo?", "choices": ["Porque llueve mucho", "Porque ha pagado él las fresas", "Porque ha perdido su bolsa"], "correct": 1}
+      ]
+    },
+    {
+      "id": "es-r2",
+      "title": "La bici de Diego",
+      "text": "Diego aprendió este verano a montar en bici de dos ruedas. Al principio, su papá sujetaba el sillín y corría a su lado. Un día, Diego pedaleó muy fuerte y su papá lo soltó sin decir nada. Diego llegó él solo hasta la fuente grande del parque. Cuando miró atrás, vio a su papá aplaudiendo desde lejos. Ahora Diego monta en bici todos los días después del cole.",
+      "questions": [
+        {"q": "¿Quién ayudaba a Diego al principio?", "choices": ["Su papá", "Su abuela", "Su hermano"], "correct": 0},
+        {"q": "¿Hasta dónde llegó Diego él solo?", "choices": ["Hasta el cole", "Hasta la fuente del parque", "Hasta su casa"], "correct": 1},
+        {"q": "¿Por qué aplaudía el papá de Diego?", "choices": ["Porque quería que Diego parara", "Porque había ganado una carrera", "Porque estaba orgulloso de Diego"], "correct": 2}
+      ]
+    }
+  ],
+  "wordProblems": {
+    "nounCase": "lower",
+    "names": ["Sofía", "Mateo", "Lucía", "Diego", "Valentina", "Hugo", "Camila", "Martín"],
+    "frames": {
+      "add": [
+        "{name} tiene {n1} {noun}. Le regalan {n2} {noun} más. ¿Cuál es el total de {noun} que tiene ahora?",
+        "{name} cuenta {n1} {noun}. Su amiga cuenta {n2} {noun} más. ¿Cuál es el total de {noun}?",
+        "{name} guarda {n1} {noun} en una caja. Después mete {n2} {noun} más. ¿Cuál es el total de {noun} en la caja?",
+        "{name} dibuja {n1} {noun}. Luego dibuja {n2} {noun} más. ¿Cuál es el total de {noun} en su dibujo?"
+      ],
+      "sub": [
+        "{name} tiene {n1} {noun}. Regala {n2} {noun}. ¿Qué cantidad de {noun} le queda?",
+        "{name} tiene {n1} {noun}. Pierde {n2} {noun}. ¿Qué cantidad de {noun} le queda?",
+        "{name} tiene {n1} {noun} en una cesta. Saca {n2} {noun}. ¿Qué cantidad de {noun} queda en la cesta?"
+      ]
+    }
+  },
+  "audits": {
+    "colorWords": "OK: rojo, azul, amarillo, verde, minúscula en leyenda.",
+    "currency": "CORRECTION: 'ct' is not Spanish school usage — use 'cts' (textbook abbreviation).",
+    "numberWords": "OK all 10; 'veintiuno' correct standalone (apocope veintiún only pre-masculine-noun, not our case).",
+    "englishSource": "K-241 K-band sums borderline for infantil (suggest ≤5 at K); G3-357 'comes up short' vague."
+  },
+  "notes": "Cross-Atlantic forms chosen (rodea, agujas, seta flagged as peninsular). Gender-safe question devices: 'el total de {noun}' / 'qué cantidad de {noun}' because cuántos/cuántas cannot agree with an unknown noun. 'Rombo' is the school geometry term. DIGITS: es = plain forms (simple 1, UNCROSSED 7 — school caligraphy model both Spain and LatAm); integrator applied FORM_BY_LOCALE.es='plain'. G2-251 instruction amended by integrator per the de-panel finding (numbers are pre-printed)."
+}

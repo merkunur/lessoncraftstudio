@@ -33,7 +33,7 @@ module.exports = {
   },
   i18n: {
     en: {
-      title: 'One and Many: Singular and Plural',
+      title: 'Singular and Plural',
       instruction: 'Read the word for one. Then trace the word for many and write it yourself on the empty line.',
     },
   },

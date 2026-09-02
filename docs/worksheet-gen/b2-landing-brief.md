@@ -20,26 +20,26 @@ Each of the 20 new worksheet types gets ONE landing page per locale at `/<locale
 ## The 20 coordinates (theme + band + standard are FIXED — the composer stamps them)
 | id | family key | theme | band | CCSS |
 |---|---|---|---|---|
-| K-284 | word-tracing | fruits | K | L.K.1.a |
+| K-284 | word-tracing | animals | K | L.K.1.a |
 | K-285 | dot-to-dot | — | K | K.CC.A.1 |
 | K-286 | grid-copy | — | K | readiness |
-| K-287 | singular-plural | animals | K | L.K.1.c |
-| K-288 | articles | fruits | K | readiness (per-locale grammar) |
+| K-287 | singular-plural | fruits | K | L.K.1.c |
+| K-288 | articles | animals | K | readiness (per-locale grammar) |
 | G1-242 | read-and-color | fruits (B&W line art) | G1 | RF.1.4 |
 | G1-243 | number-of-the-day | — | G1 | 1.NBT.B.2 |
-| G1-244 | write-the-word | animals | G1 | L.1.2.d |
-| G1-245 | alphabetical-order | fruits | G1 | readiness |
+| G1-244 | write-the-word | fruits | G1 | L.1.2.d |
+| G1-245 | alphabetical-order | animals | G1 | readiness |
 | G1-246 | number-walls | — | G1 | 1.OA.C.6 |
-| G1-247 | doubles-halves | toys | G1 | 1.OA.C.6 |
+| G1-247 | doubles-halves | fruits | G1 | 1.OA.C.6 |
 | G1-248 | number-lines | — | G1 | 1.NBT.A.1 |
-| G1-249 | sentence-building | fruits | G1 | L.1.1.j |
+| G1-249 | sentence-building | animals | G1 | L.1.1.j |
 | G2-274 | capitals-punctuation | vehicles | G2 | L.1.2.b |
 | G2-275 | word-classes | toys | G2 | L.2.1.e |
-| G2-276 | money | animals | G2 | 2.MD.C.8 |
+| G2-276 | money | fruits | G2 | 2.MD.C.8 |
 | G2-277 | calendar | — | G2 | readiness |
 | G2-278 | picture-writing | vehicles | G2 | W.2.3 |
 | G2-279 | grid-coordinates | — | G2 | readiness |
-| G3-370 | word-problems | animals | G3 | 3.OA.A.3 |
+| G3-370 | word-problems | fruits | G3 | 3.OA.A.3 |
 
 Band → the level your locale's corpus uses: en kindergarten/grade-1/grade-2/grade-3 · de vorschule/1-klasse/2-klasse/3-klasse · es preescolar/primer-grado/segundo-grado/tercer-grado · fr maternelle/cp/ce1/ce2 · pt educacao-infantil/1o-ano/2o-ano/3o-ano · it infanzia/classe-prima/classe-seconda/classe-terza · nl kleuters/groep-3/groep-4/groep-5 · sv forskola/ak-1/ak-2/ak-3 · da boernehaveklasse/1-klasse/2-klasse/3-klasse · no 1-trinn/2-trinn/3-trinn/4-trinn · fi esikoulu/1-luokka/2-luokka/3-luokka. Name the school level in prose the way your country says it (Vorschule / maternelle / educação infantil …); the CCSS code is machine-only — non-EN prose names the NATIONAL framework, never "Common Core" (de Lehrplan · fr programmes officiels · es currículo · pt BNCC · it Indicazioni nazionali · nl SLO kerndoelen · sv Lgr22 · da Fælles Mål · no LK20 · fi OPS 2014) and never invents a national code.
 

@@ -1430,5 +1430,85 @@
   "K-283": {
     "title": "Mes premières minuscules : a b c d",
     "instruction": "Repasse chaque lettre minuscule, puis essaie de l'écrire sur la ligne vide. Pars du point orange et suis les flèches."
+  },
+  "K-284": {
+    "title": "Repasser et écrire les mots",
+    "instruction": "Dis le nom de l'image. Repasse les lettres en pointillés, puis écris le mot tout seul sur les lignes vides."
+  },
+  "K-285": {
+    "title": "Points à relier",
+    "instruction": "Pars du point orange. Relie les points dans l'ordre des nombres pour découvrir le dessin caché."
+  },
+  "K-286": {
+    "title": "Reproduction sur quadrillage",
+    "instruction": "Observe le dessin de gauche. Colorie les mêmes cases sur le quadrillage vide pour le reproduire."
+  },
+  "K-287": {
+    "title": "Singulier et pluriel : un ou plusieurs",
+    "instruction": "Lis le mot au singulier. Repasse le mot au pluriel, puis écris-le tout seul sur la ligne vide."
+  },
+  "K-288": {
+    "title": "Le ou la, un ou une : entoure l'article",
+    "instruction": "Dis le nom de l'image à voix haute. Entoure l'article qui se place devant ce nom."
+  },
+  "G1-242": {
+    "title": "Lis et colorie",
+    "instruction": "Lis bien chaque phrase. Puis colorie exactement les images qu'elle te demande."
+  },
+  "G1-243": {
+    "title": "Le nombre du jour",
+    "instruction": "Regarde le grand nombre. Représente-le dans chaque case de la page."
+  },
+  "G1-244": {
+    "title": "Dictée muette : écris le nom de l'image",
+    "instruction": "Dis le nom de chaque image, puis écris le mot sur la ligne."
+  },
+  "G1-245": {
+    "title": "Ranger dans l'ordre alphabétique",
+    "instruction": "Aide-toi de la bande alphabétique. Numérote les mots de 1 à 6 dans l'ordre alphabétique, puis recopie-les dans l'ordre sur les lignes."
+  },
+  "G1-246": {
+    "title": "Pyramides de nombres",
+    "instruction": "Chaque brique est la somme des deux briques qui sont dessous. Complète les nombres qui manquent."
+  },
+  "G1-247": {
+    "title": "Doubles et moitiés",
+    "instruction": "À gauche, trouve le double du groupe. À droite, partage le groupe en deux moitiés. Écris les nombres dans les cases."
+  },
+  "G1-248": {
+    "title": "Droite graduée : quel nombre ?",
+    "instruction": "Chaque flèche montre une graduation. Pars du nombre le plus proche, compte, puis écris le nombre dans la case."
+  },
+  "G1-249": {
+    "title": "Phrases mélangées : remets les mots dans l'ordre",
+    "instruction": "Les mots sont mélangés. Remets-les dans l'ordre et écris la phrase sur la ligne, avec une majuscule et un point."
+  },
+  "G2-274": {
+    "title": "Majuscules et ponctuation : corrige la phrase",
+    "instruction": "Chaque phrase a perdu sa majuscule et sa ponctuation. Réécris-la correctement sur la ligne."
+  },
+  "G2-275": {
+    "title": "Nature des mots : nom, verbe, adjectif",
+    "instruction": "Lis chaque mot. Est-ce un nom, un verbe ou un adjectif ? Écris-le dans la bonne boîte."
+  },
+  "G2-276": {
+    "title": "Problèmes de monnaie : la marchande",
+    "instruction": "Retrouve chaque objet sur l'étagère et lis son prix. Puis réponds aux questions sur la monnaie."
+  },
+  "G2-277": {
+    "title": "Lire le calendrier",
+    "instruction": "Observe le calendrier. Utilise-le pour répondre à chaque question."
+  },
+  "G2-278": {
+    "title": "Production d'écrit : écrire à partir d'une image",
+    "instruction": "Observe l'image. Aide-toi de la boîte à mots et des débuts de phrase pour écrire ce que tu vois ou une petite histoire."
+  },
+  "G2-279": {
+    "title": "Pixel art : repérage sur quadrillage",
+    "instruction": "Repère chaque case grâce à sa lettre et à son nombre, comme B2. Colorie-la avec la couleur de son groupe pour faire apparaître le dessin."
+  },
+  "G3-370": {
+    "title": "Problèmes de multiplication et de division",
+    "instruction": "Lis chaque histoire. Aide-toi de l'image. Écris la réponse dans la case, puis complète la phrase réponse."
   }
 }

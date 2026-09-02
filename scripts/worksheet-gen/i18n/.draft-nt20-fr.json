@@ -1,0 +1,153 @@
+{
+  "locale": "fr",
+  "types": {
+    "K-236": {"title": "Graphisme : les chemins du crayon", "instruction": "Repasse chaque ligne avec ton crayon. Pars du point orange et suis la flèche."},
+    "K-237": {"title": "Écriture des chiffres de 0 à 9", "instruction": "Repasse chaque chiffre. Pars du point orange et suis les flèches."},
+    "K-238": {"title": "Écriture des lettres capitales", "instruction": "Repasse chaque lettre, puis essaie de l'écrire sur la ligne vide."},
+    "K-239": {"title": "Mots-outils : lire et écrire", "instruction": "Lis le mot. Repasse-le. Puis écris-le sur la ligne vide."},
+    "K-240": {"title": "Découper, trier et coller", "instruction": "Découpe les images en bas de la page. Trie-les et colle chaque image dans sa case."},
+    "K-241": {"title": "Coloriage magique", "instruction": "Regarde bien le code. Colorie chaque forme avec la couleur qui correspond."},
+    "K-242": {"title": "Le labyrinthe", "instruction": "Pars de l'entrée en haut. Trace le chemin dans le labyrinthe pour rejoindre l'arrivée en bas."},
+    "K-243": {"title": "Les compléments à 10", "instruction": "Observe chaque schéma. Écris le nombre qui manque dans le rond en pointillés."},
+    "G1-208": {"title": "Calcul mental jusqu'à 20", "instruction": "Calcule chaque opération dans ta tête. Écris le résultat dans la case."},
+    "G1-209": {"title": "Les familles d'opérations", "instruction": "Utilise les trois nombres du toit. Complète les quatre opérations de la famille."},
+    "G1-210": {"title": "Les nombres en lettres", "instruction": "Lis le nombre écrit en chiffres. Entoure le mot qui lui correspond."},
+    "G1-211": {"title": "Compter la monnaie", "instruction": "Compte les pièces de chaque porte-monnaie. Écris le total dans la case."},
+    "G1-212": {"title": "Dessiner les aiguilles de l'horloge", "instruction": "Lis l'heure sur l'étiquette. Dessine la petite aiguille et la grande aiguille sur l'horloge."},
+    "G1-213": {"title": "Petits problèmes en images", "instruction": "Lis chaque histoire. Aide-toi des images. Écris la réponse dans la case."},
+    "G2-251": {"title": "Additions et soustractions posées", "instruction": "Additionne ou soustrais, colonne par colonne. Commence par les unités."},
+    "G2-252": {"title": "Masses et contenances", "instruction": "Lis chaque verre doseur et chaque balance. Écris la mesure avec son unité."},
+    "G2-253": {"title": "Symétrie sur quadrillage", "instruction": "Chaque dessin est à moitié terminé. Colorie les cases de l'autre côté de l'axe pour le rendre symétrique."},
+    "G2-254": {"title": "Lecture et compréhension", "instruction": "Lis bien l'histoire. Puis entoure la bonne réponse à chaque question."},
+    "G3-357": {"title": "Additions et soustractions avec retenue", "instruction": "Calcule chaque opération posée. N'oublie pas la retenue quand tu en as besoin."},
+    "G3-358": {"title": "Les tables de multiplication", "instruction": "Multiplie les deux nombres. Écris chaque résultat dans la case."}
+  },
+  "families": {
+    "pre-writing": {"slug": "graphisme", "name": "Graphisme"},
+    "number-tracing": {"slug": "ecriture-des-chiffres", "name": "Écriture des chiffres"},
+    "letter-tracing": {"slug": "ecriture-des-lettres", "name": "Écriture des lettres"},
+    "sight-words": {"slug": "mots-outils", "name": "Mots-outils"},
+    "cutting-practice": {"slug": "decoupage-collage", "name": "Découpage et collage"},
+    "color-by-number": {"slug": "coloriage-magique", "name": "Coloriage magique"},
+    "mazes": {"slug": "labyrinthes", "name": "Labyrinthes"},
+    "number-bonds": {"slug": "complements-a-10", "name": "Compléments à 10"},
+    "mental-math": {"slug": "calcul-mental", "name": "Calcul mental"},
+    "fact-families": {"slug": "familles-d-operations", "name": "Familles d'opérations"},
+    "number-words": {"slug": "nombres-en-lettres", "name": "Nombres en lettres"},
+    "money": {"slug": "compter-la-monnaie", "name": "Compter la monnaie"},
+    "word-problems": {"slug": "petits-problemes", "name": "Petits problèmes"},
+    "column-arithmetic": {"slug": "operations-posees", "name": "Opérations posées"},
+    "symmetry": {"slug": "symetrie", "name": "Symétrie"},
+    "reading-comprehension": {"slug": "lecture-comprehension", "name": "Lecture et compréhension"},
+    "multiplication-tables": {"slug": "tables-de-multiplication", "name": "Tables de multiplication"}
+  },
+  "skills": {
+    "pre-writing": {"full": "Repasser des boucles, des vagues et des zigzags développe la tenue du crayon et le geste sûr dont toutes les lettres auront besoin.", "short": "Développe la tenue du crayon et le geste d'écriture."},
+    "number-tracing": {"full": "Repasser chaque chiffre en partant du point de départ et en suivant les flèches installe le bon geste d'écriture dès le premier essai.", "short": "Installe le bon tracé des chiffres."},
+    "letter-tracing": {"full": "Repasser les lettres capitales sur des lignes d'écriture fixe la forme des lettres et prépare une écriture sûre et régulière.", "short": "Fixe le tracé des lettres capitales."},
+    "sight-words": {"full": "Lire, repasser puis écrire les mots-outils les fait entrer dans la mémoire, pour lire plus vite et se concentrer sur le sens.", "short": "Automatise la lecture des mots-outils."},
+    "cutting-practice": {"full": "Découper des images puis coller chacune dans sa famille exerce, en une seule activité, le maniement des ciseaux et les premiers tris.", "short": "Exerce le découpage et le tri."},
+    "color-by-number": {"full": "Associer chaque code à sa couleur transforme l'observation attentive et les premiers calculs en un joli dessin à terminer.", "short": "Travaille le calcul en coloriant."},
+    "mazes": {"full": "Trouver le seul bon chemin du labyrinthe développe le repérage visuel, la maîtrise du crayon et la patience pour chercher.", "short": "Développe le repérage et la précision du geste."},
+    "number-bonds": {"full": "Compléter les schémas parties-tout montre comment les nombres se décomposent et prépare les premiers calculs de tête.", "short": "Travaille les décompositions jusqu'à 10."},
+    "mental-math": {"full": "Calculer de tête des additions et des soustractions jusqu'à 20 construit la fluidité sur laquelle s'appuieront les opérations posées.", "short": "Automatise l'addition et la soustraction jusqu'à 20."},
+    "fact-families": {"full": "Compléter les quatre opérations d'une même famille montre comment l'addition et la soustraction sont liées l'une à l'autre.", "short": "Relie l'addition et la soustraction."},
+    "number-words": {"full": "Associer chaque nombre à son écriture en lettres renforce la lecture des nombres et évite les confusions entre les chiffres.", "short": "Travaille la lecture des nombres en lettres."},
+    "money": {"full": "Compter les pièces de la plus grande à la plus petite valeur construit le sens de la monnaie utile dans la vie de tous les jours.", "short": "Apprend à compter les pièces et la monnaie."},
+    "word-problems": {"full": "Lire une petite histoire, s'aider de l'image et écrire la réponse transforme le calcul en une vraie résolution de problème.", "short": "Initie à la résolution de problèmes."},
+    "column-arithmetic": {"full": "Calculer colonne par colonne installe la technique des opérations posées qui servira pour des nombres de plus en plus grands.", "short": "Installe la technique des opérations posées."},
+    "symmetry": {"full": "Compléter la moitié miroir d'un dessin, case après case, construit la notion de symétrie et la précision du repérage sur quadrillage.", "short": "Travaille la symétrie sur quadrillage."},
+    "reading-comprehension": {"full": "Lire un petit texte puis répondre à des questions construit la compréhension fine dont dépendent tous les apprentissages.", "short": "Développe la compréhension de lecture."},
+    "multiplication-tables": {"full": "S'entraîner régulièrement sur les tables de multiplication construit les automatismes qui rendent tous les calculs plus faciles.", "short": "Automatise les tables de multiplication."}
+  },
+  "topicMeta": {
+    "pre-writing": "Fiches de graphisme : boucles, vagues, zigzags et créneaux à repasser pour préparer la main à l'écriture. PDF gratuits à imprimer.",
+    "number-tracing": "Fiches d'écriture des chiffres de 0 à 9 : modèles, points de départ et flèches pour un bon tracé. PDF gratuits à imprimer.",
+    "letter-tracing": "Fiches d'écriture des lettres capitales : modèles à repasser sur des lignes, puis lettres à écrire sans aide. PDF gratuits à imprimer.",
+    "sight-words": "Fiches de mots-outils : lire, repasser puis écrire les mots les plus fréquents de la langue. PDF gratuits à imprimer.",
+    "cutting-practice": "Fiches de découpage et collage : découper des images, les trier et les coller dans la bonne case. PDF gratuits à imprimer.",
+    "color-by-number": "Coloriages magiques : un code, des couleurs et des petits calculs cachés dans un joli dessin. PDF gratuits à imprimer.",
+    "mazes": "Labyrinthes pour enfants : tracer le chemin de l'entrée jusqu'à l'arrivée sans se tromper. PDF gratuits à imprimer.",
+    "number-bonds": "Fiches de compléments à 10 : des schémas parties-tout à compléter pour décomposer les nombres. PDF gratuits à imprimer.",
+    "mental-math": "Fiches de calcul mental : additions et soustractions jusqu'à 20 à calculer de tête. PDF gratuits à imprimer.",
+    "fact-families": "Fiches de familles d'opérations : trois nombres sur le toit, quatre calculs liés à compléter. PDF gratuits à imprimer.",
+    "number-words": "Fiches sur les nombres en lettres : lire chaque nombre et entourer le mot qui correspond. PDF gratuits à imprimer.",
+    "money": "Fiches sur la monnaie : compter les pièces en euros et en centimes et écrire le total. PDF gratuits à imprimer.",
+    "word-problems": "Petits problèmes illustrés : lire l'histoire, s'aider de l'image et écrire la réponse. PDF gratuits à imprimer.",
+    "column-arithmetic": "Fiches d'opérations posées : additions et soustractions colonne par colonne, avec ou sans retenue. PDF gratuits à imprimer.",
+    "symmetry": "Fiches de symétrie sur quadrillage : compléter la moitié du dessin de l'autre côté de l'axe. PDF gratuits à imprimer.",
+    "reading-comprehension": "Fiches de lecture compréhension : petits textes et questions à choix multiples pour bien comprendre. PDF gratuits à imprimer.",
+    "multiplication-tables": "Fiches sur les tables de multiplication : des calculs à compléter pour mémoriser toutes les tables. PDF gratuits à imprimer.",
+    "science-sort": "Fiches de tri en sciences : classer des images en groupes, comme vivant et non vivant ou terre, eau et air. PDF gratuits à imprimer.",
+    "science-sequence": "Fiches de sciences : remettre dans l'ordre les étapes des grands cycles de la nature. PDF gratuits à imprimer.",
+    "science-match": "Fiches d'association en sciences : relier les bébés animaux, les métiers et leurs paires. PDF gratuits à imprimer.",
+    "beginning-sounds": "Fiches sur les sons d'attaque : dire le nom de chaque image et écrire ou trier sa première lettre. PDF gratuits à imprimer.",
+    "letter-knowledge": "Fiches sur les lettres : associer les capitales aux minuscules, retrouver des lettres et compléter l'alphabet. PDF gratuits à imprimer.",
+    "word-building": "Fiches pour construire des mots : écrire le son qui manque et former des mots courts, lettre à lettre. PDF gratuits à imprimer.",
+    "picture-vocabulary": "Fiches de vocabulaire en images : associer les mots aux images et les classer par catégorie. PDF gratuits à imprimer.",
+    "phonological-awareness": "Fiches de conscience phonologique : sons de fin, sons du milieu, rimes et syllabes. PDF gratuits à imprimer."
+  },
+  "figureNames": {
+    "heart": "Cœur", "butterfly": "Papillon", "rocket": "Fusée", "tree": "Arbre",
+    "house": "Maison", "crown": "Couronne", "star": "Étoile", "arrow": "Flèche",
+    "flower": "Fleur", "mushroom": "Champignon", "cat": "Chat", "robot": "Robot",
+    "apple": "Pomme", "diamond": "Losange", "ice-cream": "Glace", "snowman": "Bonhomme de neige"
+  },
+  "sightWords": ["le", "la", "les", "un", "une", "et", "est", "dans", "avec", "sur", "pour", "mais"],
+  "readingPassages": [
+    {
+      "id": "fr-p1",
+      "title": "Le chat de Léa",
+      "text": "Léa a un petit chat gris qui s'appelle Mimi. Chaque matin, Mimi boit son lait dans un bol bleu, près de la fenêtre de la cuisine. Ensuite, il va dormir sur le canapé du salon.",
+      "questions": [
+        {"q": "Comment s'appelle le chat de Léa ?", "choices": ["Mimi", "Gribouille", "Minou"], "correct": 0},
+        {"q": "Où Mimi boit-il son lait ?", "choices": ["Dans le jardin", "Près de la fenêtre de la cuisine", "Sous le lit"], "correct": 1},
+        {"q": "Que peut-on dire de Mimi ?", "choices": ["Il aime le lait", "Il n'aime pas dormir", "Il vit dehors"], "correct": 0}
+      ]
+    },
+    {
+      "id": "fr-p2",
+      "title": "Le vélo de Hugo",
+      "text": "Hugo a reçu un vélo rouge pour son anniversaire. Samedi, il va au parc avec son papa pour s'entraîner. Au début, Hugo tombe deux fois dans l'herbe. Son papa tient la selle et l'encourage. À la fin de l'après-midi, Hugo roule tout seul et il est très fier.",
+      "questions": [
+        {"q": "De quelle couleur est le vélo de Hugo ?", "choices": ["Bleu", "Vert", "Rouge"], "correct": 2},
+        {"q": "Combien de fois Hugo tombe-t-il dans l'herbe ?", "choices": ["Deux fois", "Trois fois", "Une seule fois"], "correct": 0},
+        {"q": "Pourquoi Hugo est-il fier à la fin ?", "choices": ["Parce qu'il a gagné une course", "Parce qu'il roule sans aide", "Parce qu'il a un nouveau casque"], "correct": 1}
+      ]
+    },
+    {
+      "id": "fr-p3",
+      "title": "La tarte aux pommes",
+      "text": "Dimanche, Chloé prépare une tarte aux pommes avec sa mamie. Chloé lave les pommes, et mamie les coupe en petits morceaux. Ensuite, elles étalent la pâte dans le grand plat jaune. Chloé range joliment les morceaux de pomme sur la pâte. La tarte cuit pendant trente minutes, et toute la maison sent bon. Le soir, toute la famille se régale au dessert.",
+      "questions": [
+        {"q": "Avec qui Chloé prépare-t-elle la tarte ?", "choices": ["Avec son papa", "Avec sa mamie", "Avec sa sœur"], "correct": 1},
+        {"q": "Combien de temps la tarte cuit-elle ?", "choices": ["Trente minutes", "Dix minutes", "Une heure"], "correct": 0},
+        {"q": "Que peut-on dire de la tarte ?", "choices": ["Elle est brûlée", "Elle est trop salée", "Elle est réussie"], "correct": 2}
+      ]
+    }
+  ],
+  "wordProblems": {
+    "nounCase": "lower",
+    "names": ["Léa", "Hugo", "Chloé", "Louis", "Emma", "Nathan", "Inès", "Jules"],
+    "frames": {
+      "add": [
+        "{name} a {n1} {noun}. {name} trouve encore {n2} {noun}. Combien cela fait-il en tout ?",
+        "{name} voit {n1} {noun}. Puis {name} voit encore {n2} {noun}. Combien y en a-t-il en tout ?",
+        "{name} a {n1} {noun}. Un ami donne {n2} {noun} à {name}. Combien y en a-t-il en tout ?",
+        "Dans un panier, il y a {n1} {noun}. {name} ajoute {n2} {noun}. Combien y en a-t-il maintenant ?"
+      ],
+      "sub": [
+        "{name} a {n1} {noun}. {name} en donne {n2}. Combien en reste-t-il ?",
+        "Il y a {n1} {noun} sur la table. {name} en prend {n2}. Combien en reste-t-il sur la table ?",
+        "{name} a {n1} {noun}. {name} en perd {n2} en chemin. Combien en reste-t-il ?"
+      ]
+    }
+  },
+  "audits": {
+    "colorWords": "OK: rouge, bleu, jaune, vert, minuscules en légende.",
+    "currency": "OK: 'c' est l'usage des manuels français (« 50 c ») — jamais 'ct'.",
+    "numberWords": "OK toutes les 10; orthographe traditionnelle (vingt et un) = choix correct pour le primaire.",
+    "englishSource": "Maze EN hard-codes top/bottom (fixed layout so acceptable); G3-357 'comes up short' vague; G2-252 'amount' awkward across ml and g."
+  },
+  "notes": "Titles are genre keywords (graphisme, coloriage magique, opérations posées...). K-238 framed honestly around capitales d'imprimerie (school hand is cursive). Frames use the pronoun 'en' in questions — elision-proof for any noun; {name} repeated to stay gender-safe. petite aiguille = hours, grande = minutes (CP order). Straight apostrophes throughout. fr multiplication glyph is × (default — correct). G2-251 instruction amended by integrator per the de-panel pre-printed-numbers finding."
+}

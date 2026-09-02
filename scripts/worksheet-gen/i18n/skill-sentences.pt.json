@@ -190,5 +190,73 @@
   "lowercase-letter-tracing": {
     "full": "Cobrir letras minúsculas nas linhas de caligrafia ensina o corpo da letra, as hastes que sobem e as caudas que descem abaixo da linha.",
     "short": "Ensina o traçado das letras minúsculas."
+  },
+  "word-tracing": {
+    "full": "Cobrir o nome da figura letra por letra e depois escrever a palavra sem ajuda liga o objeto, o nome e a escrita em um só olhar.",
+    "short": "Desenvolve a escrita das primeiras palavras."
+  },
+  "dot-to-dot": {
+    "full": "Ligar os pontos numerados na ordem certa revela uma figura e treina a sequência dos números a cada traço do lápis.",
+    "short": "Treina a sequência numérica e o controle do lápis."
+  },
+  "grid-copy": {
+    "full": "Copiar um desenho quadradinho por quadradinho na malha vazia treina a observação, a noção de posição e a precisão do traço.",
+    "short": "Desenvolve a cópia na malha e a percepção espacial."
+  },
+  "singular-plural": {
+    "full": "Ver uma figura ao lado de várias e escrever a palavra no plural fixa as terminações que a criança ouve, mas raramente escreve.",
+    "short": "Ensina o singular e o plural dos substantivos."
+  },
+  "articles": {
+    "full": "Circular o artigo certo ao lado de cada figura fixa a concordância de gênero que toda frase escrita vai precisar depois.",
+    "short": "Ensina os artigos o e a e o gênero das palavras."
+  },
+  "read-and-color": {
+    "full": "Ler cada frase curta e pintar exatamente o que ela pede transforma a decodificação em compreensão que a própria criança confere.",
+    "short": "Desenvolve a compreensão leitora por meio da pintura."
+  },
+  "number-of-the-day": {
+    "full": "Mostrar um mesmo número por extenso, em dezenas e unidades, no quadro de dez, em tracinhos e na reta numérica constrói o senso numérico.",
+    "short": "Desenvolve o senso numérico com várias representações."
+  },
+  "write-the-word": {
+    "full": "Escrever o nome de cada figura na linha, com ou sem banco de palavras, constrói a ortografia a partir dos sons e das letras.",
+    "short": "Desenvolve a escrita a partir das figuras."
+  },
+  "alphabetical-order": {
+    "full": "Colocar palavras com figuras em ordem alfabética fixa a sequência das letras e prepara o uso do dicionário e da lista de chamada.",
+    "short": "Ensina a ordem alfabética."
+  },
+  "number-walls": {
+    "full": "Preencher cada tijolo com a soma dos dois de baixo treina a adição e o raciocínio de descobrir a parcela que está faltando.",
+    "short": "Treina a adição com pirâmides de números."
+  },
+  "doubles-halves": {
+    "full": "Dobrar um grupo e dividir outro ao meio fixa os fatos do dobro que abrem caminho para os números pares e a multiplicação.",
+    "short": "Fixa o dobro e a metade dos números."
+  },
+  "sentence-building": {
+    "full": "Colocar as palavras embaralhadas na ordem certa desenvolve a estrutura da frase, a letra maiúscula e a noção de ideia completa.",
+    "short": "Desenvolve a ordem das palavras na frase."
+  },
+  "capitals-punctuation": {
+    "full": "Reescrever cada frase com letra maiúscula e sinal de pontuação cria o hábito que deixa a escrita clara para quem vai ler.",
+    "short": "Fixa a letra maiúscula e a pontuação final."
+  },
+  "word-classes": {
+    "full": "Separar as palavras em substantivos, verbos e adjetivos constrói as categorias gramaticais que a criança precisa para falar da língua.",
+    "short": "Ensina substantivo, verbo e adjetivo."
+  },
+  "calendar": {
+    "full": "Ler datas, dias da semana e semanas em um mês de verdade desenvolve a leitura de calendário que a criança usa todos os dias.",
+    "short": "Desenvolve a leitura de calendário."
+  },
+  "picture-writing": {
+    "full": "Escrever sobre uma imagem com banco de palavras e começos de frase transforma a página em branco na primeira historinha da criança.",
+    "short": "Desenvolve a produção de texto a partir de imagem."
+  },
+  "grid-coordinates": {
+    "full": "Pintar cada quadradinho indicado na malha de letras e números ensina a ler coordenadas e revela uma figura escondida.",
+    "short": "Ensina a leitura de coordenadas na malha."
   }
 }

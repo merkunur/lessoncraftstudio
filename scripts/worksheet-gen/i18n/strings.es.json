@@ -1430,5 +1430,85 @@
   "K-283": {
     "title": "Mis primeras minúsculas: a b c d",
     "instruction": "Repasa cada letra minúscula con el lápiz. Empieza en el punto naranja y sigue las flechas. Después, escríbela tú en la línea vacía."
+  },
+  "K-284": {
+    "title": "Repasa y escribe la palabra",
+    "instruction": "Di el nombre del dibujo. Repasa las letras punteadas y después escríbela tú en las líneas vacías."
+  },
+  "K-285": {
+    "title": "Une los puntos del 1 al 20",
+    "instruction": "Empieza en el punto naranja. Une los puntos siguiendo el orden de los números y descubre el dibujo escondido."
+  },
+  "K-286": {
+    "title": "Copia el dibujo en la cuadrícula",
+    "instruction": "Mira el dibujo de la izquierda. Colorea los mismos cuadrados en la cuadrícula vacía para que aparezca el mismo dibujo."
+  },
+  "K-287": {
+    "title": "Singular y plural: uno y muchos",
+    "instruction": "Lee la palabra de uno. Después repasa la palabra de muchos y escríbela tú en la línea vacía."
+  },
+  "K-288": {
+    "title": "¿El o la? Rodea el artículo",
+    "instruction": "Di en voz alta el nombre del dibujo. Rodea el artículo que va delante: el o la."
+  },
+  "G1-242": {
+    "title": "Lee y colorea",
+    "instruction": "Lee cada frase con atención. Después colorea solo los dibujos que dice la frase, del color que indica."
+  },
+  "G1-243": {
+    "title": "El número del día",
+    "instruction": "Mira el número grande. Represéntalo en todas las casillas de la página."
+  },
+  "G1-244": {
+    "title": "Dictado mudo: escribe la palabra",
+    "instruction": "Di el nombre de cada dibujo. Escribe la palabra en la línea."
+  },
+  "G1-245": {
+    "title": "Orden alfabético",
+    "instruction": "Usa la tira del abecedario. Numera las palabras del 1 al 6 en orden alfabético y escríbelas en orden en las líneas."
+  },
+  "G1-246": {
+    "title": "Pirámides numéricas",
+    "instruction": "Cada ladrillo es la suma de los dos ladrillos de abajo. Completa los números que faltan."
+  },
+  "G1-247": {
+    "title": "Dobles y mitades",
+    "instruction": "Calcula el doble del grupo de la izquierda y la mitad del grupo de la derecha. Escribe los números en las casillas."
+  },
+  "G1-248": {
+    "title": "La recta numérica: ¿qué número es?",
+    "instruction": "Cada flecha señala una marca de la recta. Cuenta desde el número más cercano y escribe el número en la casilla."
+  },
+  "G1-249": {
+    "title": "Ordena la frase",
+    "instruction": "Las palabras están desordenadas. Ordénalas y escribe la frase en la línea, con mayúscula al principio y su signo al final."
+  },
+  "G2-274": {
+    "title": "Mayúsculas y puntuación: corrige la frase",
+    "instruction": "Cada frase ha perdido la mayúscula y el signo del final. Escríbela otra vez correctamente en la línea."
+  },
+  "G2-275": {
+    "title": "Sustantivo, verbo y adjetivo",
+    "instruction": "Lee cada palabra. ¿Nombra algo, indica una acción o dice cómo es? Escríbela en la caja que le corresponde."
+  },
+  "G2-276": {
+    "title": "Problemas con dinero: vamos de compras",
+    "instruction": "Busca cada producto en el estante y lee su precio. Después responde a las preguntas sobre el dinero."
+  },
+  "G2-277": {
+    "title": "Lee el calendario",
+    "instruction": "Mira el calendario y úsalo para responder a todas las preguntas."
+  },
+  "G2-278": {
+    "title": "Escribe sobre la imagen",
+    "instruction": "Mira la imagen. Ayúdate del banco de palabras para escribir lo que ves."
+  },
+  "G2-279": {
+    "title": "Coordenadas en la cuadrícula",
+    "instruction": "Busca cada casilla por su letra y su número, como B2. Coloréala con el color de su grupo y descubre el dibujo."
+  },
+  "G3-370": {
+    "title": "Problemas de multiplicación y división",
+    "instruction": "Lee cada problema. Ayúdate del dibujo. Escribe la respuesta en la casilla y completa la frase de respuesta."
   }
 }

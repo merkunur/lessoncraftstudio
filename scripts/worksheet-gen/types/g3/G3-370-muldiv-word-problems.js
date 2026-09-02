@@ -42,7 +42,10 @@ module.exports = {
     const loc = (locale || 'en').slice(0, 2);
     const bank = WP_MULDIV[loc];
     if (!bank) throw new Error(`G3-370: no frame bank for ${loc}`);
-    const nouns = rng.sample(labelSafeNouns(theme), d.ops.length);
+    // invariant-plural nouns (dice, chess, lego) never enter a counted slot
+    const countablePool = labelSafeNouns(theme).filter((n) => { const l = labels(n.vocabKey, loc); return l && l[0] && l[1] && l[1].trim().toLocaleLowerCase() !== l[0].trim().toLocaleLowerCase(); });
+    if (countablePool.length < d.ops.length) throw new Error(`G3-370: theme ${theme}/${loc} has ${countablePool.length} countable nouns < ${d.ops.length}`);
+    const nouns = rng.sample(countablePool, d.ops.length);
     const usedFrames = new Set();
     const blocks = d.ops.map((op, i) => {
       const noun = nouns[i];

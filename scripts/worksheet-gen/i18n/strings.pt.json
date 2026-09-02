@@ -1430,5 +1430,85 @@
   "K-283": {
     "title": "Primeiras minúsculas: a, b, c, d",
     "instruction": "Cubra cada letra minúscula pontilhada. Comece no ponto laranja e siga as setas. Depois escreva uma letra na linha vazia."
+  },
+  "K-284": {
+    "title": "Palavras pontilhadas com figuras",
+    "instruction": "Fale o nome da figura. Cubra as letras pontilhadas e depois escreva a palavra nas linhas vazias."
+  },
+  "K-285": {
+    "title": "Ligue os pontos e descubra a figura",
+    "instruction": "Comece no ponto laranja. Ligue os pontos na ordem dos números e descubra a figura escondida."
+  },
+  "K-286": {
+    "title": "Copie o desenho na malha quadriculada",
+    "instruction": "Observe o desenho da esquerda. Pinte os mesmos quadradinhos na malha vazia para o desenho aparecer de novo."
+  },
+  "K-287": {
+    "title": "Singular e plural: um e muitos",
+    "instruction": "Leia a palavra de um só. Depois cubra a palavra de muitos e escreva na linha vazia."
+  },
+  "K-288": {
+    "title": "O ou a? Circule o artigo certo",
+    "instruction": "Fale o nome da figura em voz alta. Circule a palavrinha que vem antes dela: o ou a."
+  },
+  "G1-242": {
+    "title": "Leia e pinte as figuras",
+    "instruction": "Leia cada frase com atenção. Depois pinte só as figuras que a frase manda pintar."
+  },
+  "G1-243": {
+    "title": "O número do dia",
+    "instruction": "Observe o número grande. Mostre esse número em todos os quadros da página."
+  },
+  "G1-244": {
+    "title": "Escreva o nome das figuras",
+    "instruction": "Fale o nome de cada figura. Escreva a palavra na linha."
+  },
+  "G1-245": {
+    "title": "Ordem alfabética",
+    "instruction": "Use a faixa do alfabeto. Numere as palavras de 1 a 6 em ordem alfabética e depois escreva na ordem certa nas linhas."
+  },
+  "G1-246": {
+    "title": "Pirâmide de números",
+    "instruction": "Cada tijolo é a soma dos dois tijolos que estão embaixo dele. Complete os números que faltam."
+  },
+  "G1-247": {
+    "title": "Dobro e metade",
+    "instruction": "Dobre o grupo da esquerda. Divida o grupo da direita ao meio. Escreva os números nos quadradinhos."
+  },
+  "G1-248": {
+    "title": "Onde está na reta numérica?",
+    "instruction": "Cada seta aponta para um tracinho. Conte a partir do número mais próximo e escreva o número no quadradinho."
+  },
+  "G1-249": {
+    "title": "Ordene a frase embaralhada",
+    "instruction": "As palavras estão fora de ordem. Coloque em ordem e escreva a frase na linha, com letra maiúscula e o sinal de pontuação no final."
+  },
+  "G2-274": {
+    "title": "Letra maiúscula e pontuação",
+    "instruction": "Cada frase perdeu a letra maiúscula e o sinal de pontuação. Escreva a frase de novo, do jeito certo, na linha."
+  },
+  "G2-275": {
+    "title": "Substantivo, verbo e adjetivo",
+    "instruction": "Leia cada palavra. Ela dá nome a algo, mostra uma ação ou diz uma qualidade? Escreva a palavra no quadro certo."
+  },
+  "G2-276": {
+    "title": "Vamos às compras",
+    "instruction": "Encontre cada produto na prateleira e leia o preço. Depois responda às perguntas sobre o dinheiro."
+  },
+  "G2-277": {
+    "title": "Leitura de calendário",
+    "instruction": "Observe o calendário com atenção e use as informações dele para responder a todas as perguntas."
+  },
+  "G2-278": {
+    "title": "Produção de texto: escreva sobre a imagem",
+    "instruction": "Observe a imagem. Use o banco de palavras para ajudar a escrever sobre o que você vê."
+  },
+  "G2-279": {
+    "title": "Coordenadas na malha quadriculada",
+    "instruction": "Encontre cada quadradinho pela letra e pelo número, como B2. Pinte com a cor do seu grupo e descubra a figura."
+  },
+  "G3-370": {
+    "title": "Problemas de multiplicação e divisão",
+    "instruction": "Leia cada historinha e use a figura para ajudar. Escreva a resposta no quadradinho e complete a frase-resposta."
   }
 }

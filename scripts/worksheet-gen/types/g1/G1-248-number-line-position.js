@@ -25,7 +25,7 @@ module.exports = {
   i18n: {
     en: {
       title: 'Where on the Number Line?',
-      instruction: 'Each arrow points to a tick mark. Count on from the nearest number and write the number in the box.',
+      instruction: 'Each arrow points to a tick mark. Count on from the number before it and write the number in the box.',
     },
   },
 

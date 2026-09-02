@@ -1,0 +1,153 @@
+{
+  "locale": "pt",
+  "types": {
+    "K-236": {"title": "Grafismo e traçados", "instruction": "Cubra cada linha com o lápis. Comece no ponto laranja e siga a seta."},
+    "K-237": {"title": "Números pontilhados de 0 a 9", "instruction": "Cubra cada número com o lápis. Comece no ponto laranja e siga as setas."},
+    "K-238": {"title": "Letras maiúsculas pontilhadas", "instruction": "Cubra cada letra pontilhada. Depois escreva uma letra na linha vazia."},
+    "K-239": {"title": "Palavras frequentes", "instruction": "Leia a palavra. Cubra o pontilhado e depois escreva a palavra na linha."},
+    "K-240": {"title": "Recorte e colagem", "instruction": "Recorte as figuras da parte de baixo, separe em grupos e cole cada uma no seu quadro."},
+    "K-241": {"title": "Pinte conforme o resultado", "instruction": "Resolva a continha, procure o resultado na legenda e pinte com a cor certa."},
+    "K-242": {"title": "Labirinto", "instruction": "Comece em cima. Desenhe o caminho pelo labirinto até chegar ao final."},
+    "K-243": {"title": "Amigos do 10", "instruction": "Observe cada esquema e escreva o número que falta no círculo pontilhado."},
+    "G1-208": {"title": "Cálculo mental até 20", "instruction": "Resolva cada continha de cabeça e escreva a resposta no quadradinho."},
+    "G1-209": {"title": "Família de fatos", "instruction": "Use os três números do telhado e complete as quatro continhas da casinha."},
+    "G1-210": {"title": "Números por extenso", "instruction": "Leia o número e circule como ele se escreve por extenso."},
+    "G1-211": {"title": "Contando moedas", "instruction": "Conte as moedas de cada carteira e escreva o total no quadradinho."},
+    "G1-212": {"title": "Desenhe os ponteiros", "instruction": "Leia a hora no visor e desenhe o ponteiro das horas e o ponteiro dos minutos."},
+    "G1-213": {"title": "Situações problema com figuras", "instruction": "Leia cada historinha, use as figuras para ajudar e escreva a resposta no quadrinho."},
+    "G2-251": {"title": "Continhas armadas", "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."},
+    "G2-252": {"title": "Medidas de capacidade e massa", "instruction": "Leia cada jarra e cada balança. Escreva a quantidade com a unidade certa."},
+    "G2-253": {"title": "Complete a figura simétrica", "instruction": "Pinte os quadradinhos do outro lado da linha para deixar a figura igual dos dois lados."},
+    "G2-254": {"title": "Interpretação de texto", "instruction": "Leia o texto com atenção e circule a melhor resposta para cada pergunta."},
+    "G3-357": {"title": "Continhas com reagrupamento", "instruction": "Resolva cada conta armada. Reagrupe quando precisar: vai um na adição, empresta na subtração."},
+    "G3-358": {"title": "Tabuada", "instruction": "Multiplique e escreva cada resultado no quadradinho."}
+  },
+  "families": {
+    "pre-writing": {"slug": "grafismo", "name": "Grafismo e traçados"},
+    "number-tracing": {"slug": "numeros-pontilhados", "name": "Números pontilhados"},
+    "letter-tracing": {"slug": "alfabeto-pontilhado", "name": "Alfabeto pontilhado"},
+    "sight-words": {"slug": "palavras-frequentes", "name": "Palavras frequentes"},
+    "cutting-practice": {"slug": "recorte-e-colagem", "name": "Recorte e colagem"},
+    "color-by-number": {"slug": "pinte-conforme-o-resultado", "name": "Pinte conforme o resultado"},
+    "mazes": {"slug": "labirintos", "name": "Labirintos"},
+    "number-bonds": {"slug": "decomposicao-de-numeros", "name": "Decomposição de números"},
+    "mental-math": {"slug": "calculo-mental", "name": "Cálculo mental"},
+    "fact-families": {"slug": "familia-de-fatos", "name": "Família de fatos"},
+    "number-words": {"slug": "numeros-por-extenso", "name": "Números por extenso"},
+    "money": {"slug": "sistema-monetario", "name": "Sistema monetário"},
+    "word-problems": {"slug": "situacoes-problema", "name": "Situações problema"},
+    "column-arithmetic": {"slug": "continhas-armadas", "name": "Continhas armadas"},
+    "symmetry": {"slug": "simetria", "name": "Simetria"},
+    "reading-comprehension": {"slug": "interpretacao-de-texto", "name": "Interpretação de texto"},
+    "multiplication-tables": {"slug": "tabuada", "name": "Tabuada"}
+  },
+  "skills": {
+    "pre-writing": {"full": "Cobrir laços, ondas e ziguezagues treina o controle do lápis e a firmeza da mão que toda letra e todo número vão precisar.", "short": "Desenvolve o controle do lápis e a coordenação motora."},
+    "number-tracing": {"full": "Cobrir cada número seguindo o ponto de partida e as setas ensina o traçado correto desde a primeira tentativa.", "short": "Ensina o traçado correto dos números."},
+    "letter-tracing": {"full": "Cobrir letras maiúsculas nas linhas de caligrafia grava a forma de cada letra e firma o traçado da escrita inicial.", "short": "Ensina o traçado das letras maiúsculas."},
+    "sight-words": {"full": "Ler, cobrir e escrever palavras frequentes leva essas palavras para a memória e libera a atenção para o sentido do texto.", "short": "Fixa a leitura rápida de palavras frequentes."},
+    "cutting-practice": {"full": "Recortar figuras e colar cada uma no seu grupo treina o uso da tesoura e o raciocínio de classificação em uma só atividade.", "short": "Treina o recorte e a classificação em grupos."},
+    "color-by-number": {"full": "Ligar cada resultado à sua cor transforma atenção e continhas simples em um desenho que dá orgulho de terminar.", "short": "Fixa as continhas por meio da pintura."},
+    "mazes": {"full": "Encontrar o único caminho do labirinto desenvolve o planejamento visual, o controle do lápis e a paciência para resolver problemas.", "short": "Desenvolve planejamento visual e atenção."},
+    "number-bonds": {"full": "Completar esquemas parte-parte-todo mostra como os números se decompõem e prepara o cálculo mental com os amigos do 10.", "short": "Ensina a decomposição de números até 10."},
+    "mental-math": {"full": "Resolver adições e subtrações até 20 de cabeça constrói a rapidez de cálculo que as contas armadas vão exigir depois.", "short": "Desenvolve o cálculo mental até 20."},
+    "fact-families": {"full": "Completar os quatro fatos da mesma família mostra como a adição e a subtração são operações inversas.", "short": "Mostra a relação entre adição e subtração."},
+    "number-words": {"full": "Ligar cada número à sua escrita por extenso reforça a leitura dos números e evita trocas entre os algarismos.", "short": "Treina a escrita dos números por extenso."},
+    "money": {"full": "Contar moedas começando pelas de maior valor desenvolve a noção de dinheiro que a criança usa no dia a dia.", "short": "Treina a contagem de moedas e centavos."},
+    "word-problems": {"full": "Ler a historinha, conferir a figura e registrar a resposta transforma a continha em verdadeira resolução de problemas.", "short": "Desenvolve a resolução de situações problema."},
+    "column-arithmetic": {"full": "Resolver uma ordem de cada vez, das unidades para as dezenas, constrói o método da conta armada usado com números cada vez maiores.", "short": "Ensina o método da conta armada por ordens."},
+    "symmetry": {"full": "Completar a metade espelhada quadradinho por quadradinho desenvolve a noção de simetria e a precisão no desenho.", "short": "Desenvolve simetria e percepção espacial."},
+    "reading-comprehension": {"full": "Ler um texto curto e responder às perguntas desenvolve a compreensão leitora que sustenta toda a aprendizagem.", "short": "Desenvolve a interpretação de texto."},
+    "multiplication-tables": {"full": "Praticar a tabuada em sequências e desafios misturados constrói a memorização que deixa a matemática muito mais leve.", "short": "Fixa a tabuada para o cálculo rápido."}
+  },
+  "topicMeta": {
+    "pre-writing": "Atividades de grafismo para a educação infantil: laços, ondas e ziguezagues pontilhados para treinar o traçado. PDFs grátis para imprimir.",
+    "number-tracing": "Números pontilhados de 0 a 9 com ponto de partida e setas para aprender o traçado certo. PDFs grátis para imprimir.",
+    "letter-tracing": "Alfabeto pontilhado com letras maiúsculas para cobrir e escrever nas linhas de caligrafia. PDFs grátis para imprimir.",
+    "sight-words": "Palavras frequentes para ler, cobrir e escrever, fixando a leitura das palavras mais usadas. PDFs grátis para imprimir.",
+    "cutting-practice": "Atividades de recorte e colagem: recortar figuras, separar por grupos e colar no lugar certo. PDFs grátis para imprimir.",
+    "color-by-number": "Atividades de pinte conforme o resultado: resolva a continha e pinte cada parte com a cor do código. PDFs grátis para imprimir.",
+    "mazes": "Labirintos para crianças: encontre o caminho da entrada até a chegada com muita atenção. PDFs grátis para imprimir.",
+    "number-bonds": "Decomposição de números com esquemas parte-parte-todo e os amigos do 10. PDFs grátis para imprimir.",
+    "mental-math": "Atividades de cálculo mental: continhas de adição e subtração até 20 para resolver de cabeça. PDFs grátis para imprimir.",
+    "fact-families": "Família de fatos: use os três números do telhado e complete as quatro continhas relacionadas. PDFs grátis para imprimir.",
+    "number-words": "Números por extenso: leia o número e encontre como ele se escreve com palavras. PDFs grátis para imprimir.",
+    "money": "Sistema monetário para crianças: conte moedas de centavos e escreva o total de cada carteira. PDFs grátis para imprimir.",
+    "word-problems": "Situações problema de matemática com apoio de figuras para ler, pensar e responder. PDFs grátis para imprimir.",
+    "column-arithmetic": "Continhas armadas de adição e subtração, com e sem reagrupamento, para resolver ordem por ordem. PDFs grátis para imprimir.",
+    "symmetry": "Atividades de simetria: complete a metade espelhada de cada figura na malha quadriculada. PDFs grátis para imprimir.",
+    "reading-comprehension": "Interpretação de texto com historinhas curtas e perguntas de múltipla escolha. PDFs grátis para imprimir.",
+    "multiplication-tables": "Tabuada de multiplicação para praticar e memorizar com desafios variados. PDFs grátis para imprimir.",
+    "science-sort": "Atividades de ciências para classificar figuras em grupos, como seres vivos e não vivos ou terra, água e ar. PDFs grátis para imprimir.",
+    "science-sequence": "Atividades de ciências para colocar as etapas dos ciclos da natureza na ordem certa. PDFs grátis para imprimir.",
+    "science-match": "Atividades de ciências para ligar filhotes aos animais, profissões e seus pares. PDFs grátis para imprimir.",
+    "beginning-sounds": "Atividades de som inicial: fale o nome de cada figura e escreva ou separe a letra do começo. PDFs grátis para imprimir.",
+    "letter-knowledge": "Atividades com letras: ligue maiúsculas e minúsculas, encontre letras e complete o alfabeto. PDFs grátis para imprimir.",
+    "word-building": "Atividades de formar palavras: escreva o som que falta e monte palavrinhas letra por letra. PDFs grátis para imprimir.",
+    "picture-vocabulary": "Atividades de vocabulário: ligue palavras às figuras e separe por categorias. PDFs grátis para imprimir.",
+    "phonological-awareness": "Atividades de consciência fonológica: sons finais, sons do meio, rimas e sílabas. PDFs grátis para imprimir."
+  },
+  "figureNames": {
+    "heart": "Coração", "butterfly": "Borboleta", "rocket": "Foguete", "tree": "Árvore",
+    "house": "Casa", "crown": "Coroa", "star": "Estrela", "arrow": "Flecha",
+    "flower": "Flor", "mushroom": "Cogumelo", "cat": "Gato", "robot": "Robô",
+    "apple": "Maçã", "diamond": "Losango", "ice-cream": "Sorvete", "snowman": "Boneco de neve"
+  },
+  "sightWords": ["de", "que", "não", "uma", "para", "com", "ele", "ela", "você", "tem", "foi", "aqui"],
+  "readingPassages": [
+    {
+      "id": "gato-pipoca",
+      "title": "O gato da Sofia",
+      "text": "Sofia tem um gato chamado Pipoca. Todo dia, Pipoca dorme na janela da sala, no lugar mais quente da casa. Quando Sofia chega da escola, ele corre para brincar com ela.",
+      "questions": [
+        {"q": "Qual é o nome do gato de Sofia?", "choices": ["Pipoca", "Bolinha", "Mingau"], "correct": 0},
+        {"q": "Onde Pipoca dorme todo dia?", "choices": ["No sofá", "Na janela da sala", "Na cama de Sofia"], "correct": 1},
+        {"q": "Por que Pipoca corre quando Sofia chega?", "choices": ["Porque ele está com medo", "Porque ele quer comida", "Porque ele gosta de Sofia"], "correct": 2}
+      ]
+    },
+    {
+      "id": "feira-vovo",
+      "title": "A feira com o vovô",
+      "text": "No sábado, Miguel foi à feira com o vovô. Eles compraram bananas, laranjas e um abacaxi bem grande. O vovô deixou Miguel escolher uma fruta para levar na lancheira. Miguel escolheu uma maçã vermelha e brilhante. No caminho de casa, os dois tomaram suco de laranja e conversaram sobre a escola.",
+      "questions": [
+        {"q": "Com quem Miguel foi à feira?", "choices": ["Com a mamãe", "Com o vovô", "Com a professora"], "correct": 1},
+        {"q": "Qual fruta Miguel escolheu para a lancheira?", "choices": ["Uma banana", "Um abacaxi", "Uma maçã"], "correct": 2},
+        {"q": "Como Miguel se sentiu no passeio com o vovô?", "choices": ["Feliz", "Com sono", "Bravo"], "correct": 0}
+      ]
+    },
+    {
+      "id": "chuva-na-escola",
+      "title": "O dia de chuva na escola",
+      "text": "Na quarta-feira, choveu muito na escola da Helena. As crianças não puderam brincar no pátio na hora do recreio. A professora Ana teve uma ideia: montar uma cabana de lençóis dentro da sala. Cada criança trouxe um livro e uma almofada para dentro da cabana. Helena leu uma história de dragões para os colegas. No fim do dia, ninguém queria que a chuva parasse.",
+      "questions": [
+        {"q": "Por que as crianças não brincaram no pátio?", "choices": ["Porque estava chovendo", "Porque o pátio estava sujo", "Porque era dia de prova"], "correct": 0},
+        {"q": "O que a professora Ana montou na sala?", "choices": ["Um castelo de blocos", "Uma cabana de lençóis", "Uma barraca de acampamento"], "correct": 1},
+        {"q": "Por que ninguém queria que a chuva parasse?", "choices": ["Porque queriam ir embora", "Porque estavam com frio", "Porque estavam se divertindo na cabana"], "correct": 2}
+      ]
+    }
+  ],
+  "wordProblems": {
+    "nounCase": "lower",
+    "names": ["Sofia", "Miguel", "Alice", "Davi", "Laura", "Pedro", "Helena", "Lucas"],
+    "frames": {
+      "add": [
+        "{name} tem {n1} {noun} e ganha mais {n2} {noun}. Qual é o total de {noun}?",
+        "{name} vê {n1} {noun} e depois vê mais {n2} {noun}. Qual é o total de {noun} agora?",
+        "{name} desenha {n1} {noun} e depois desenha mais {n2} {noun}. Qual é o total de {noun}?",
+        "{name} conta {n1} {noun} e um amigo conta mais {n2} {noun}. Qual é o total de {noun} dos dois juntos?"
+      ],
+      "sub": [
+        "{name} tem {n1} {noun} e dá {n2} {noun} para um amigo. Qual é o total de {noun} que sobra?",
+        "{name} tem {n1} {noun} e perde {n2} {noun}. Qual é o total de {noun} agora?",
+        "{name} conta {n1} {noun} e tira {n2} {noun}. Qual é o total de {noun} que resta?"
+      ]
+    }
+  },
+  "audits": {
+    "colorWords": "OK — vermelho, azul, amarelo, verde lowercase.",
+    "currency": "OK — 5/10/25/50 centavos; print 'centavos' spelled out (never ¢ or R$ 0,75 at this band).",
+    "numberWords": "OK all 10; quatorze is the BR default for 14.",
+    "englishSource": "K-241 EN could name the solve step; G3-357 vague 'comes up short'; K-238 promised empty line missing on the page (FIXED by integrator: emptyLast slot added)."
+  },
+  "notes": "Gender-safe question device 'Qual é o total de {noun}?' — NEVER change to Quantos/Quantas. Digit forms pt = PLAIN (applied). K-238 d3 features K W Y (applied to letter-sets). Multiplication glyph × for BR (default, correct). Clock H:MM chip fine."
+}

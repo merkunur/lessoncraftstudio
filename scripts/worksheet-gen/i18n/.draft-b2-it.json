@@ -1,0 +1,247 @@
+{
+  "locale": "it",
+  "types": {
+    "K-284": {"title": "Ricalca e scrivi le parole", "instruction": "Di' il nome della figura. Ripassa le lettere tratteggiate, poi scrivi tu la parola sulle righe vuote."},
+    "K-285": {"title": "Unisci i puntini", "instruction": "Parti dal punto arancione. Unisci i puntini seguendo l'ordine dei numeri e scopri il disegno nascosto."},
+    "K-286": {"title": "Copia il disegno sui quadretti", "instruction": "Guarda il disegno a sinistra. Colora gli stessi quadretti nella griglia vuota per riprodurlo uguale."},
+    "K-287": {"title": "Singolare e plurale", "instruction": "Leggi la parola al singolare. Poi ripassa la parola al plurale e scrivila tu sulla riga vuota."},
+    "K-288": {"title": "Gli articoli determinativi", "instruction": "Di' ad alta voce il nome della figura. Cerchia l'articolo giusto da mettere davanti al nome."},
+    "G1-242": {"title": "Leggi e colora", "instruction": "Leggi bene ogni frase. Poi colora solo le figure che dice la frase, con il colore giusto."},
+    "G1-243": {"title": "Il numero del giorno", "instruction": "Guarda il numero grande. Rappresentalo in tutti i riquadri della pagina."},
+    "G1-244": {"title": "Dettato muto: scrivi la parola", "instruction": "Di' il nome di ogni figura. Scrivi la parola sulla riga."},
+    "G1-245": {"title": "Ordine alfabetico", "instruction": "Usa la striscia dell'alfabeto. Numera le parole da 1 a 6 in ordine alfabetico, poi scrivile in ordine sulle righe."},
+    "G1-246": {"title": "Piramidi di numeri", "instruction": "Ogni mattone è la somma dei due mattoni sotto di lui. Scrivi i numeri che mancano."},
+    "G1-247": {"title": "Doppio e metà", "instruction": "Trova il doppio dei gruppi con la scritta «doppio» e la metà dei gruppi con la scritta «metà». Scrivi i numeri nei riquadri."},
+    "G1-248": {"title": "La linea dei numeri", "instruction": "Ogni freccia indica una tacca. Parti dal numero scritto più vicino, conta in avanti e scrivi il numero nel riquadro."},
+    "G1-249": {"title": "Riordina la frase", "instruction": "Le parole sono in disordine. Riordinale e scrivi la frase sulla riga, con la maiuscola all'inizio e il segno giusto alla fine."},
+    "G2-274": {"title": "Maiuscole e punteggiatura", "instruction": "Ogni frase ha perso la lettera maiuscola e il segno di punteggiatura finale. Riscrivila correttamente sulla riga."},
+    "G2-275": {"title": "Nome, verbo o aggettivo?", "instruction": "Leggi ogni parola. È un nome, un verbo o un aggettivo? Scrivila nella scatola giusta."},
+    "G2-276": {"title": "Andiamo a fare la spesa", "instruction": "Cerca ogni prodotto sullo scaffale e leggi il prezzo. Poi rispondi alle domande sui soldi."},
+    "G2-277": {"title": "Leggere il calendario", "instruction": "Guarda il calendario e usalo per rispondere a tutte le domande."},
+    "G2-278": {"title": "Scrivi guardando l'immagine", "instruction": "Guarda l'immagine. Aiutati con le parole della scatola e con gli inizi di frase per scrivere quello che vedi o una piccola storia."},
+    "G2-279": {"title": "Coordinate sulla griglia", "instruction": "Trova ogni casella con la sua lettera e il suo numero, come B2. Colorala con il colore del suo gruppo e scopri il disegno."},
+    "G3-370": {"title": "Problemi di moltiplicazione e divisione", "instruction": "Leggi ogni problema. Aiutati con il disegno. Scrivi la risposta nel riquadro e completa la frase di risposta."}
+  },
+  "families": {
+    "word-tracing": {"slug": "parole-tratteggiate", "name": "Parole tratteggiate"},
+    "dot-to-dot": {"slug": "unisci-i-puntini", "name": "Unisci i puntini"},
+    "grid-copy": {"slug": "riproduzione-sui-quadretti", "name": "Riproduzione sui quadretti"},
+    "singular-plural": {"slug": "singolare-e-plurale", "name": "Singolare e plurale"},
+    "articles": {"slug": "articoli-determinativi", "name": "Articoli determinativi"},
+    "read-and-color": {"slug": "leggi-e-colora", "name": "Leggi e colora"},
+    "number-of-the-day": {"slug": "il-numero-del-giorno", "name": "Il numero del giorno"},
+    "write-the-word": {"slug": "dettato-muto", "name": "Dettato muto"},
+    "alphabetical-order": {"slug": "ordine-alfabetico", "name": "Ordine alfabetico"},
+    "number-walls": {"slug": "piramidi-di-numeri", "name": "Piramidi di numeri"},
+    "doubles-halves": {"slug": "doppio-e-meta", "name": "Doppio e metà"},
+    "sentence-building": {"slug": "frasi-in-disordine", "name": "Frasi in disordine"},
+    "capitals-punctuation": {"slug": "maiuscole-e-punteggiatura", "name": "Maiuscole e punteggiatura"},
+    "word-classes": {"slug": "nomi-verbi-e-aggettivi", "name": "Nomi, verbi e aggettivi"},
+    "calendar": {"slug": "il-calendario", "name": "Il calendario"},
+    "picture-writing": {"slug": "produzione-scritta", "name": "Produzione scritta"},
+    "grid-coordinates": {"slug": "coordinate-sulla-griglia", "name": "Coordinate sulla griglia"}
+  },
+  "skills": {
+    "word-tracing": {"full": "Ricalcare il nome di una figura lettera dopo lettera e poi scriverlo da soli lega in un colpo d'occhio l'oggetto, il suo nome e la sua ortografia.", "short": "Avvia la scrittura delle parole partendo dalle figure."},
+    "dot-to-dot": {"full": "Unire i puntini numerati in ordine fa comparire un disegno e ripassa la sequenza dei numeri a ogni tratto di matita.", "short": "Allena la sequenza dei numeri e il controllo della matita."},
+    "grid-copy": {"full": "Copiare un disegno quadretto per quadretto su una griglia vuota allena l'osservazione attenta, l'orientamento nello spazio e la precisione del tratto.", "short": "Sviluppa la riproduzione di figure sui quadretti."},
+    "singular-plural": {"full": "Vedere una figura accanto a tante e scrivere il plurale fissa le desinenze che i bambini sentono ogni giorno ma scrivono di rado.", "short": "Allena il singolare e il plurale dei nomi."},
+    "articles": {"full": "Cerchiare l'articolo giusto accanto a ogni figura fissa il genere dei nomi e l'accordo su cui poggia ogni frase che i bambini scriveranno.", "short": "Fissa il genere dei nomi e gli articoli determinativi."},
+    "read-and-color": {"full": "Leggere una frase breve e colorare esattamente ciò che dice trasforma la lettura in una comprensione vera che il bambino può controllare da solo.", "short": "Sviluppa la comprensione della lettura colorando."},
+    "number-of-the-day": {"full": "Rappresentare lo stesso numero in lettere, in decine e unità, con i numeri vicini e sulla linea dei numeri costruisce un senso del numero profondo.", "short": "Costruisce il senso del numero con più rappresentazioni."},
+    "write-the-word": {"full": "Scrivere il nome di ogni figura sulla riga, con l'aiuto della lista, delle caselle per le lettere o senza aiuti, costruisce l'ortografia dai suoni alle lettere.", "short": "Allena l'ortografia con il dettato muto."},
+    "alphabetical-order": {"full": "Mettere le parole illustrate in ordine alfabetico fissa la sequenza delle lettere e prepara l'uso del dizionario di cui ogni lettore ha bisogno.", "short": "Allena l'ordine alfabetico."},
+    "number-walls": {"full": "Riempire ogni mattone con la somma dei due sotto di lui allena il calcolo delle addizioni e la ricerca dell'addendo mancante in un unico gioco.", "short": "Allena le addizioni con le piramidi di numeri."},
+    "doubles-halves": {"full": "Calcolare il doppio di un gruppo e la metà di un altro costruisce i doppi che aprono la strada ai numeri pari e alle prime moltiplicazioni.", "short": "Costruisce il doppio e la metà."},
+    "sentence-building": {"full": "Rimettere in ordine le parole di una frase mescolata allena l'ordine delle parole, la maiuscola iniziale e il senso di una frase completa.", "short": "Allena l'ordine delle parole nella frase."},
+    "capitals-punctuation": {"full": "Riscrivere ogni frase con la maiuscola iniziale e il segno di punteggiatura finale fissa le abitudini che rendono leggibile ogni testo.", "short": "Fissa maiuscole e punteggiatura finale."},
+    "word-classes": {"full": "Classificare le parole in nomi, verbi e aggettivi costruisce le categorie grammaticali che servono ai bambini per parlare della lingua.", "short": "Allena a riconoscere nomi, verbi e aggettivi."},
+    "calendar": {"full": "Leggere date, giorni della settimana e settimane su un mese vero costruisce le abilità con il calendario che i bambini usano ogni giorno.", "short": "Insegna a leggere il calendario."},
+    "picture-writing": {"full": "Scrivere partendo da un'immagine, con le parole della scatola e gli inizi di frase, trasforma la pagina bianca in una prima storia scritta con sicurezza.", "short": "Avvia la produzione scritta da un'immagine."},
+    "grid-coordinates": {"full": "Colorare ogni casella indicata su una griglia con lettere e numeri insegna a leggere le coordinate e fa comparire un disegno nascosto.", "short": "Insegna a leggere le coordinate sulla griglia."}
+  },
+  "topicMeta": {
+    "word-tracing": "Schede con le parole tratteggiate: guarda la figura, ricalca il suo nome sulle righe e poi scrivi la parola da solo. PDF gratuiti da stampare.",
+    "dot-to-dot": "Schede unisci i puntini: collega i puntini numerati in ordine, da 1 a 10, da 1 a 20 e da 11 a 30, e scopri il disegno nascosto. PDF gratuiti da stampare.",
+    "grid-copy": "Schede di riproduzione sui quadretti: colora quadretto per quadretto la griglia vuota fino a copiare il disegno. PDF gratuiti da stampare.",
+    "singular-plural": "Schede sul singolare e il plurale: una figura e tante figure; ripassa e scrivi il plurale di ogni nome. PDF gratuiti da stampare.",
+    "articles": "Schede sugli articoli determinativi: cerchia il, lo, la o l' davanti al nome di ogni figura. PDF gratuiti da stampare.",
+    "read-and-color": "Schede leggi e colora: leggi ogni frase e colora le figure esattamente come dice. PDF gratuiti da stampare.",
+    "number-of-the-day": "Schede sul numero del giorno: scrivilo in lettere, in decine e unità, con il prima e il dopo, 10 in più e 10 in meno e sulla linea dei numeri. PDF gratuiti da stampare.",
+    "write-the-word": "Schede di dettato muto: scrivi il nome di ogni figura sulla riga, con la lista di parole, con le caselle delle lettere o senza aiuti. PDF gratuiti da stampare.",
+    "alphabetical-order": "Schede sull'ordine alfabetico: metti in ordine le parole illustrate con l'aiuto della striscia dell'alfabeto. PDF gratuiti da stampare.",
+    "number-walls": "Schede con le piramidi di numeri: riempi ogni mattone con la somma dei due mattoni sotto. PDF gratuiti da stampare.",
+    "doubles-halves": "Schede su doppio e metà: calcola il doppio di un gruppo, la metà di un altro e scrivi il numero. PDF gratuiti da stampare.",
+    "sentence-building": "Schede con le frasi in disordine: rimetti le parole in ordine e scrivi la frase sulla riga. PDF gratuiti da stampare.",
+    "capitals-punctuation": "Schede su maiuscole e punteggiatura: riscrivi ogni frase con la maiuscola iniziale e il segno finale. PDF gratuiti da stampare.",
+    "word-classes": "Schede su nomi, verbi e aggettivi: classifica ogni parola nella scatola giusta, i primi passi dell'analisi grammaticale. PDF gratuiti da stampare.",
+    "calendar": "Schede sul calendario: leggi il mese e rispondi alle domande su date, giorni della settimana e settimane. PDF gratuiti da stampare.",
+    "picture-writing": "Schede di produzione scritta: scrivi guardando l'immagine, con le parole della scatola e gli inizi di frase. PDF gratuiti da stampare.",
+    "grid-coordinates": "Schede sulle coordinate: colora le caselle indicate con lettera e numero e scopri il disegno nascosto in pixel art. PDF gratuiti da stampare."
+  },
+  "colorWords": {"orange": "arancione", "purple": "viola", "brown": "marrone", "pink": "rosa"},
+  "figureNames": {
+    "star": "Stella", "house": "Casa", "boat": "Barca", "rocket": "Razzo", "fish": "Pesce", "kite": "Aquilone", "heart": "Cuore", "butterfly": "Farfalla",
+    "tree": "Albero", "car": "Macchina", "cat": "Gatto", "ice-cream": "Gelato", "umbrella": "Ombrello", "whale": "Balena", "sailboat": "Barca a vela", "crown": "Corona",
+    "duck": "Anatra", "flag": "Bandiera", "cup": "Tazza", "boot": "Stivale", "key": "Chiave", "cherries": "Ciliegie", "elephant": "Elefante", "bird": "Uccellino", "giraffe": "Giraffa"
+  },
+  "labels": {
+    "numberOfDay": {
+      "numberWord": "Scrivi il numero in lettere", "tensOnes": "Decine e unità", "tens": "decine", "ones": "unità",
+      "tenFrames": "Mostralo nelle tabelle del 10", "tally": "Segna con le stanghette", "beforeAfter": "Prima e dopo",
+      "numberLine": "Trovalo sulla linea dei numeri", "drawIt": "Disegnalo con i blocchi",
+      "tenMoreLess": "10 in più, 10 in meno", "oneMoreLess": "1 in più, 1 in meno",
+      "countOn": "Conta in avanti", "countBack": "Conta all'indietro", "countOnTens": "Conta di 10 in 10"
+    },
+    "doublesHalves": {"double": "il doppio", "half": "la metà"},
+    "singularPlural": {"one": "uno", "many": "tanti"},
+    "pictureWriting": {
+      "d1": ["Io vedo", "Nell'immagine vedo", "Mi piace"],
+      "d2": ["Un giorno,", "Poi"]
+    },
+    "fixChecklist": {"capital": "Maiuscola", "name": "Nomi propri", "end": "Punteggiatura"},
+    "articles": {"title": "Quale articolo?"},
+    "calendar": {"monthTitle": "{month} {year}"}
+  },
+  "calendar": {
+    "weekStart": 1,
+    "dayAbbr": ["dom", "lun", "mar", "mer", "gio", "ven", "sab"],
+    "dayPlural": ["domeniche", "lunedì", "martedì", "mercoledì", "giovedì", "venerdì", "sabati"],
+    "frames": {
+      "dayOfDate": "Che giorno della settimana è il {date}?",
+      "countWeekday": "Quanti giorni di questo mese sono {dayPlural}?",
+      "stickerDate": "In quale giorno del mese c'è {sticker}?",
+      "weekLater": "Che data è una settimana dopo il {date}?",
+      "daysInMonth": "Quanti giorni ha questo mese?",
+      "firstDay": "Che giorno della settimana è il primo giorno del mese?",
+      "lastDay": "Che giorno della settimana è l'ultimo giorno del mese?",
+      "after": "Quanti giorni dopo {stickerA} c'è {stickerB}?"
+    }
+  },
+  "sentences": {
+    "nounCase": "lower",
+    "endSpace": false,
+    "names": ["Sofia", "Leonardo", "Giulia", "Francesco", "Aurora", "Lorenzo", "Alice", "Matteo"],
+    "colorWords": null,
+    "nounForms": {},
+    "fixLabels": {"capital": "Maiuscola", "name": "Nomi propri", "end": "Punteggiatura"},
+    "frames": [
+      {"id": "c1", "kind": "color", "text": "Colora {n} {noun} di {color}.", "noun": "pl"},
+      {"id": "c2", "kind": "color", "text": "Cerca {n} {noun} da colorare di {color}.", "noun": "pl"},
+      {"id": "c3", "kind": "color", "text": "Colora di {color} solo {n} {noun}.", "noun": "pl"},
+      {"id": "c4", "kind": "color", "text": "Ci sono {n} {noun} da colorare di {color}.", "noun": "pl"},
+      {"id": "s1", "kind": "simple", "text": "{name} vede tre {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s2", "kind": "simple", "text": "{name} conta cinque {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s3", "kind": "simple", "text": "Chi vede tre {noun}?", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s4", "kind": "simple", "text": "Ci sono quattro {noun} nella scatola.", "noun": "pl", "uses": ["fix"]},
+      {"id": "s5", "kind": "simple", "text": "{name} disegna quattro {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s6", "kind": "simple", "text": "{name} ha sei {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s7", "kind": "simple", "text": "Io vedo cinque {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s8", "kind": "simple", "text": "{name} e {name} contano sei {noun}.", "noun": "pl", "uses": ["fix"]},
+      {"id": "s9", "kind": "simple", "text": "Ecco tre {noun}!", "noun": "pl", "uses": ["fix"], "exclaimStrict": true},
+      {"id": "s10", "kind": "simple", "text": "{name} cerca tre {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s11", "kind": "simple", "text": "Chi ha quattro {noun}?", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s12", "kind": "simple", "text": "{name} regala tre {noun} a {name}.", "noun": "pl", "uses": ["fix"]},
+      {"id": "s13", "kind": "simple", "text": "{name} vuole sei {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s14", "kind": "simple", "text": "{name} trova cinque {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s15", "kind": "simple", "text": "Chi regala tre {noun} a {name}?", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s16", "kind": "simple", "text": "Chi disegna quattro {noun} per {name}?", "noun": "pl", "uses": ["unscramble", "fix"]}
+    ]
+  },
+  "wordClasses": {
+    "terms": {"noun": "Nomi", "verb": "Verbi", "adj": "Aggettivi"},
+    "chipCase": "lower",
+    "chipCaseD3": "lower",
+    "verbs": [
+      {"w": "correre", "tier": 1}, {"w": "saltare", "tier": 1}, {"w": "dormire", "tier": 1}, {"w": "mangiare", "tier": 1}, {"w": "cantare", "tier": 1}, {"w": "leggere", "tier": 1},
+      {"w": "nuotare", "tier": 1}, {"w": "giocare", "tier": 1}, {"w": "bere", "tier": 1}, {"w": "scrivere", "tier": 1}, {"w": "camminare", "tier": 1}, {"w": "ridere", "tier": 2},
+      {"w": "disegnare", "tier": 2}, {"w": "lavare", "tier": 2}, {"w": "spingere", "tier": 2}, {"w": "tirare", "tier": 2}, {"w": "lanciare", "tier": 2}, {"w": "prendere", "tier": 2},
+      {"w": "ballare", "tier": 2}, {"w": "nascondere", "tier": 2}, {"w": "volare", "tier": 2}, {"w": "aprire", "tier": 2}, {"w": "chiudere", "tier": 2}, {"w": "sussurrare", "tier": 3},
+      {"w": "passeggiare", "tier": 3}, {"w": "costruire", "tier": 3}, {"w": "gridare", "tier": 3}, {"w": "ascoltare", "tier": 3}, {"w": "raccogliere", "tier": 3}, {"w": "condividere", "tier": 3}
+    ],
+    "adjectives": [
+      {"w": "grande", "tier": 1}, {"w": "piccolo", "tier": 1}, {"w": "rosso", "tier": 1}, {"w": "blu", "tier": 1}, {"w": "caldo", "tier": 1}, {"w": "freddo", "tier": 1},
+      {"w": "morbido", "tier": 1}, {"w": "alto", "tier": 1}, {"w": "bagnato", "tier": 1}, {"w": "felice", "tier": 1}, {"w": "veloce", "tier": 1}, {"w": "lento", "tier": 1},
+      {"w": "pulito", "tier": 1}, {"w": "nuovo", "tier": 1}, {"w": "tranquillo", "tier": 2}, {"w": "lucente", "tier": 2}, {"w": "soffice", "tier": 2}, {"w": "pesante", "tier": 2},
+      {"w": "dolce", "tier": 2}, {"w": "minuscolo", "tier": 2}, {"w": "rumoroso", "tier": 2}, {"w": "coraggioso", "tier": 2}, {"w": "rotondo", "tier": 2}, {"w": "viola", "tier": 2},
+      {"w": "gentile", "tier": 3}, {"w": "curioso", "tier": 3}, {"w": "assonnato", "tier": 3}, {"w": "furbo", "tier": 3}, {"w": "ruvido", "tier": 3}, {"w": "allegro", "tier": 3}
+    ],
+    "nounExclude": ["viola", "rosa", "dolce", "pesca", "lima", "arancia", "vela", "pianta", "sale", "canto", "vino", "corona", "pila", "coda", "banco", "gru", "lama", "cocco", "fico", "mora", "mango", "cachi", "pera", "mela"]
+  },
+  "shopFrames": {
+    "yes": "sì",
+    "no": "no",
+    "frames": {
+      "total": [
+        "{name} compra {item1} e {item2}. Quanto paga {name}?",
+        "{name} mette {item1} e {item2} nel cestino. Quanto costano in tutto?",
+        "{name} vuole {item1} e {item2}. Quanto spende in tutto {name}?"
+      ],
+      "total3": [
+        "{name} compra {item1}, {item2} e {item3}. Quanto paga {name}?",
+        "{name} prende {item1}, {item2} e {item3}. Quanto costano in tutto?"
+      ],
+      "change": [
+        "{name} compra {item1} e paga con {coins}. Quanto resto riceve {name}?",
+        "{name} paga {item1} con {coins}. Quanti soldi riceve di resto {name}?"
+      ],
+      "canBuy": [
+        "{name} ha {money}. {name} può comprare {item1} e {item2}? Cerchia sì o no. Scrivi il totale.",
+        "{name} ha {money}. I soldi bastano per {item1} e {item2}? Cerchia sì o no. Scrivi il totale."
+      ],
+      "diff": [
+        "Quanto costa in più {item1} rispetto a {item2}?",
+        "{item1} costa più di {item2}. Quanto di più?"
+      ]
+    }
+  },
+  "wpMulDiv": {
+    "nounForm": "plural",
+    "nounCase": "lower",
+    "names": ["Sofia", "Leonardo", "Giulia", "Francesco", "Aurora", "Lorenzo", "Alice", "Matteo"],
+    "frames": {
+      "mul": [
+        "{name} forma {n1} gruppi di {noun}. In ogni gruppo ci sono {n2} {noun}. Qual è il totale di {noun}?",
+        "{name} sistema {n1} file di {noun} con {n2} {noun} in ogni fila. Qual è il totale di {noun}?",
+        "{name} conta {n1} gruppi di {noun}. Ogni gruppo ha {n2} {noun}. Qual è il totale di {noun}?",
+        "{name} vede {n1} file di {noun}. In ogni fila ci sono {n2} {noun}. Qual è il totale di {noun}?"
+      ],
+      "share": [
+        "{name} divide {n1} {noun} in parti uguali fra {n2} amici. Qual è il numero di {noun} di ogni amico?",
+        "{name} mette {n1} {noun} in {n2} scatole, con lo stesso numero in ogni scatola. Qual è il numero di {noun} in ogni scatola?",
+        "{name} forma {n2} gruppi uguali con {n1} {noun}. Qual è il numero di {noun} in ogni gruppo?"
+      ],
+      "group": [
+        "{name} ha {n1} {noun}. {name} mette {n2} {noun} in ogni scatola. Quante scatole riempie {name}?",
+        "Ci sono {n1} {noun}. {name} forma gruppi di {n2} {noun}. Quanti gruppi forma {name}?",
+        "{name} sistema {n1} {noun} in file di {n2} {noun}. Quante file forma {name}?"
+      ]
+    }
+  },
+  "articles": {
+    "refuse": false,
+    "note": "it il/la keyed off the vocab gender is exactly the classe prima drill. keyFor audited: f → la (vowel-initial f → l' only at d3, else refused), m consonant → il, m s-impura/z/gn/ps/pn/x/y/i+vowel → lo at d3 (refused at d1/d2), vowel-initial m → l' at d3 (refused at d1/d2). Correct for every wave noun (lo skateboard, lo yacht, il jet, la jeep, la gru, l'ananas, l'elefante, l'anatra, l'ape). Two guards to add before the page is extended beyond the wave themes: (1) h-initial loanwords (hamburger, hotel) → l' in current usage, so refuse /^h/; (2) invariant-plural and pluralia-tantum entries (kiwi, lime, cachi, ananas, autobus, taxi, camion, blocchi, carte, dadi, scacchi, pastelli, lego, domino, robot) are already refused by the plural === singular rule — keep it, 'i/gli/le' are never on the chips."
+  },
+  "enAudit": [
+    "K-285 title 'Dot-to-Dot 1 to 20' is only true at d2 (amendment #2: d1 = 1…10, d3 = 11…30). it drops the range ('Unisci i puntini'); the en title lies at two of three levels.",
+    "sentences.en c4 '{name} colors {n} {noun} {color}.' (rendered 'Mia colors 4 cherries yellow.' and 'Mia colors 4 bananas red.' on G1-242 fruits bw d2) is a statement about Mia, not an instruction — on a read-and-do page the child does not know whether to color. it keeps every color frame imperative or impersonal ('Ci sono 3 mele da colorare di rosso').",
+    "G1-242 en d2 render, card 6: 'Mia colors 4 bananas red' — a hard-wired colour that contradicts the fruit (also 'Make 4 apples orange', 'Color 2 lemons green'). Acceptable as a following-instructions task, but the legend swatches (red/green/orange) then match real fruit colours only by accident; consider keeping the count/colour independent of the theme or drawing the colour from the legend words the picture cannot contradict.",
+    "G1-243 en d2 render: 'Draw it with blocks' offers a 6×5 dot grid (30 dots) for the number 46; a child drawing one block per dot cannot represent 46 (or 99 at d3). The cell needs room for tens rods + ones or a caption that says so.",
+    "G1-247 en d2 render is inconsistent between cards: cards 1 and 3 ('double') draw a dashed vertical divider between the two equal halves, card 5 ('double', 3 + 3) shows six kiwis in one row with only a small gap and no divider — the double structure is invisible on exactly the card where it matters most.",
+    "G1-249 en render keeps the canonical capital on the first-word tile ('Where', 'Can') while the instruction asks the child to add the capital: the capitalised non-name tile gives the sentence start away. Lowercase every tile except names (names keep their capital by the checklist rule).",
+    "G2-274 en d2 render, card 1: 'anna and i like the submarine' — the pronoun I (L.K.2.a) has no chip in the checklist (Capital letter / Names / End mark), so the child is asked to restore something the page never names. Keep I-frames out of 'fix' or add a chip.",
+    "G2-275 en instruction says 'noun (naming word), verb (doing word), adjective (describing word)' while the bins are labelled Nouns / Verbs / Adjectives — two vocabularies on one page. it uses the school terms (nome / verbo / aggettivo) on both.",
+    "G2-275 en toys d2 render puts 'girl' and 'baby' among the noun chips: the toys theme contains persons (girl, baby) and playground fixtures (slide, swing, sandbox). They are not toys and they break every 'buy/pack/share' frame ('Max packs 30 girls into boxes'). Exclude person nouns from the sentence, shop and word-problem pages.",
+    "G2-276 en change frame renders the coin row with a stray space before the full stop: '…pays for [papaya] with (25) . How much money…' — the split-at-{coins} contract leaves ' . ' as a separate run. Either trim the space or let the frame end the sentence before {coins}.",
+    "G3-370 en fruits d2 render, problem 1: the story says '2 rows of oranges. Each row has 5 oranges' but the picture draws two boxed GROUPS of 4 + 1 (a box with a fifth orange below), not rows. Use 'groups' in the frame or draw the picture as rows.",
+    "G2-278 en instruction says 'write about what you see' (descriptive) while the d2 starters are narrative ('One day,' / 'Then') per amendment #18 — the instruction should invite a little story at d2/d3. it adds '…o una piccola storia'.",
+    "labels.en calendar.monthTitle '{month} {year}' renders the month name as stored; it/es/fr/pt/nl/sv/da/no store month names in lowercase, so the calendar heading prints 'marzo 2027'. The engine must capitalise the first letter of the month title (or the locales must give a Capitalised monthNames set for the title only).",
+    "calendar {date} at day 1: the plain ordinal style gives 'il 1' in Italian, which must be 'il 1º' (il primo). The code should special-case day 1 → '1º' for it (dayOfDate + weekLater); every other day is a bare cardinal ('il 15'), which is correct.",
+    "frontend/messages/en.json topicMeta.dot-to-dot still says 'counting to 20 and skip counting' — amendment #2 replaced skip counting with the 11…30 counting-on window; stale.",
+    "G3-370 has no family of its own and joins 'word-problems', whose it family name/slug (from nt20) is 'Problemi con addizioni e sottrazioni' / problemi-con-addizioni-e-sottrazioni — multiplication/division problems will be listed under a hub that names addition and subtraction. Either broaden the it family name to 'Problemi illustrati' or give ×/÷ problems their own family (same risk in every locale that named the family after +/−).",
+    "sentence-bank tokenize() splits a multi-word vocab noun into separate tiles on G1-249: it has 'barca a vela', 'carrello elevatore', 'mirtilli rossi', 'cavalluccio marino', 'pala caricatrice', 'carro armato' — the child gets extra fungible tiles ('a', 'vela') and no single natural order. Bind a multi-word {noun} into ONE tile (NBSP) or filter to single-token nouns on the unscramble page.",
+    "vocab (it, seen while proving the frames): animals 'iguana' is stored with plural 'Iguana' — the Italian plural is 'iguane'; fruits bw 'grapes' is stored 'Uva/Uva' (a mass noun: 'Colora 3 uva di rosso' is ungrammatical) — store 'grappolo d'uva/grappoli d'uva' or exclude it from every counted frame; toys 'Lego/Lego' and 'Domino/Domino' read badly after a numeral ('tre lego'); toys 'Bambino' (baby) and 'Ragazza' (girl) are persons.",
+    "vocab (it register, not a defect): 'Automobile' is the dictionary word but every Italian six-year-old says 'macchina'; 'Cocco' is fine colloquially (the fruit is 'noce di cocco'). Landing copy should not claim the picture-word register is the classroom one.",
+    "articles.en: 'Iguana' card on the K-288 animals d2 render is correct ('an'), but the 'hour/unicorn/one' exceptions live in a hand list; 'y' nouns (yacht, yak) key to 'a' only via the final fallback — document it or add /^y/ explicitly."
+  ]
+}

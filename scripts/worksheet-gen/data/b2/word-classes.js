@@ -1380,6 +1380,816 @@ const WORD_CLASSES = {
       "jato",
       "grou"
     ]
+  },
+  "it": {
+    "terms": {
+      "noun": "Nomi",
+      "verb": "Verbi",
+      "adj": "Aggettivi"
+    },
+    "chipCase": "lower",
+    "chipCaseD3": "lower",
+    "verbs": [
+      {
+        "w": "correre",
+        "tier": 1
+      },
+      {
+        "w": "saltare",
+        "tier": 1
+      },
+      {
+        "w": "dormire",
+        "tier": 1
+      },
+      {
+        "w": "mangiare",
+        "tier": 1
+      },
+      {
+        "w": "cantare",
+        "tier": 1
+      },
+      {
+        "w": "leggere",
+        "tier": 1
+      },
+      {
+        "w": "nuotare",
+        "tier": 1
+      },
+      {
+        "w": "giocare",
+        "tier": 1
+      },
+      {
+        "w": "bere",
+        "tier": 1
+      },
+      {
+        "w": "scrivere",
+        "tier": 1
+      },
+      {
+        "w": "camminare",
+        "tier": 1
+      },
+      {
+        "w": "ridere",
+        "tier": 2
+      },
+      {
+        "w": "disegnare",
+        "tier": 2
+      },
+      {
+        "w": "lavare",
+        "tier": 2
+      },
+      {
+        "w": "spingere",
+        "tier": 2
+      },
+      {
+        "w": "tirare",
+        "tier": 2
+      },
+      {
+        "w": "lanciare",
+        "tier": 2
+      },
+      {
+        "w": "prendere",
+        "tier": 2
+      },
+      {
+        "w": "ballare",
+        "tier": 2
+      },
+      {
+        "w": "nascondere",
+        "tier": 2
+      },
+      {
+        "w": "volare",
+        "tier": 2
+      },
+      {
+        "w": "aprire",
+        "tier": 2
+      },
+      {
+        "w": "chiudere",
+        "tier": 2
+      },
+      {
+        "w": "sussurrare",
+        "tier": 3
+      },
+      {
+        "w": "passeggiare",
+        "tier": 3
+      },
+      {
+        "w": "costruire",
+        "tier": 3
+      },
+      {
+        "w": "gridare",
+        "tier": 3
+      },
+      {
+        "w": "ascoltare",
+        "tier": 3
+      },
+      {
+        "w": "raccogliere",
+        "tier": 3
+      },
+      {
+        "w": "condividere",
+        "tier": 3
+      }
+    ],
+    "adjectives": [
+      {
+        "w": "grande",
+        "tier": 1
+      },
+      {
+        "w": "piccolo",
+        "tier": 1
+      },
+      {
+        "w": "rosso",
+        "tier": 1
+      },
+      {
+        "w": "blu",
+        "tier": 1
+      },
+      {
+        "w": "caldo",
+        "tier": 1
+      },
+      {
+        "w": "freddo",
+        "tier": 1
+      },
+      {
+        "w": "morbido",
+        "tier": 1
+      },
+      {
+        "w": "alto",
+        "tier": 1
+      },
+      {
+        "w": "bagnato",
+        "tier": 1
+      },
+      {
+        "w": "felice",
+        "tier": 1
+      },
+      {
+        "w": "veloce",
+        "tier": 1
+      },
+      {
+        "w": "lento",
+        "tier": 1
+      },
+      {
+        "w": "pulito",
+        "tier": 1
+      },
+      {
+        "w": "nuovo",
+        "tier": 1
+      },
+      {
+        "w": "tranquillo",
+        "tier": 2
+      },
+      {
+        "w": "lucente",
+        "tier": 2
+      },
+      {
+        "w": "soffice",
+        "tier": 2
+      },
+      {
+        "w": "pesante",
+        "tier": 2
+      },
+      {
+        "w": "dolce",
+        "tier": 2
+      },
+      {
+        "w": "minuscolo",
+        "tier": 2
+      },
+      {
+        "w": "rumoroso",
+        "tier": 2
+      },
+      {
+        "w": "coraggioso",
+        "tier": 2
+      },
+      {
+        "w": "rotondo",
+        "tier": 2
+      },
+      {
+        "w": "viola",
+        "tier": 2
+      },
+      {
+        "w": "gentile",
+        "tier": 3
+      },
+      {
+        "w": "curioso",
+        "tier": 3
+      },
+      {
+        "w": "assonnato",
+        "tier": 3
+      },
+      {
+        "w": "furbo",
+        "tier": 3
+      },
+      {
+        "w": "ruvido",
+        "tier": 3
+      },
+      {
+        "w": "allegro",
+        "tier": 3
+      }
+    ],
+    "nounExclude": [
+      "viola",
+      "rosa",
+      "dolce",
+      "pesca",
+      "lima",
+      "arancia",
+      "vela",
+      "pianta",
+      "sale",
+      "canto",
+      "vino",
+      "corona",
+      "pila",
+      "coda",
+      "banco",
+      "gru",
+      "lama",
+      "cocco",
+      "fico",
+      "mora",
+      "mango",
+      "cachi",
+      "pera",
+      "mela"
+    ]
+  },
+  "nl": {
+    "terms": {
+      "noun": "Zelfstandig naamwoord",
+      "verb": "Werkwoord",
+      "adj": "Bijvoeglijk naamwoord"
+    },
+    "chipCase": "lower",
+    "chipCaseD3": "lower",
+    "verbs": [
+      {
+        "w": "lopen",
+        "tier": 1
+      },
+      {
+        "w": "springen",
+        "tier": 1
+      },
+      {
+        "w": "slapen",
+        "tier": 1
+      },
+      {
+        "w": "eten",
+        "tier": 1
+      },
+      {
+        "w": "zingen",
+        "tier": 1
+      },
+      {
+        "w": "lezen",
+        "tier": 1
+      },
+      {
+        "w": "zwemmen",
+        "tier": 1
+      },
+      {
+        "w": "spelen",
+        "tier": 1
+      },
+      {
+        "w": "huppelen",
+        "tier": 1
+      },
+      {
+        "w": "zitten",
+        "tier": 1
+      },
+      {
+        "w": "drinken",
+        "tier": 1
+      },
+      {
+        "w": "rennen",
+        "tier": 1
+      },
+      {
+        "w": "klimmen",
+        "tier": 2
+      },
+      {
+        "w": "lachen",
+        "tier": 2
+      },
+      {
+        "w": "tekenen",
+        "tier": 2
+      },
+      {
+        "w": "wassen",
+        "tier": 2
+      },
+      {
+        "w": "duwen",
+        "tier": 2
+      },
+      {
+        "w": "trekken",
+        "tier": 2
+      },
+      {
+        "w": "gooien",
+        "tier": 2
+      },
+      {
+        "w": "vangen",
+        "tier": 2
+      },
+      {
+        "w": "dansen",
+        "tier": 2
+      },
+      {
+        "w": "zoeken",
+        "tier": 2
+      },
+      {
+        "w": "bouwen",
+        "tier": 2
+      },
+      {
+        "w": "fluisteren",
+        "tier": 3
+      },
+      {
+        "w": "wandelen",
+        "tier": 3
+      },
+      {
+        "w": "giechelen",
+        "tier": 3
+      },
+      {
+        "w": "verzamelen",
+        "tier": 3
+      },
+      {
+        "w": "luisteren",
+        "tier": 3
+      },
+      {
+        "w": "dragen",
+        "tier": 3
+      },
+      {
+        "w": "roepen",
+        "tier": 3
+      },
+      {
+        "w": "bakken",
+        "tier": 3
+      },
+      {
+        "w": "verstoppen",
+        "tier": 3
+      }
+    ],
+    "adjectives": [
+      {
+        "w": "groot",
+        "tier": 1
+      },
+      {
+        "w": "klein",
+        "tier": 1
+      },
+      {
+        "w": "rood",
+        "tier": 1
+      },
+      {
+        "w": "blauw",
+        "tier": 1
+      },
+      {
+        "w": "heet",
+        "tier": 1
+      },
+      {
+        "w": "koud",
+        "tier": 1
+      },
+      {
+        "w": "zacht",
+        "tier": 1
+      },
+      {
+        "w": "lang",
+        "tier": 1
+      },
+      {
+        "w": "nat",
+        "tier": 1
+      },
+      {
+        "w": "blij",
+        "tier": 1
+      },
+      {
+        "w": "geel",
+        "tier": 1
+      },
+      {
+        "w": "groen",
+        "tier": 1
+      },
+      {
+        "w": "paars",
+        "tier": 1
+      },
+      {
+        "w": "snel",
+        "tier": 1
+      },
+      {
+        "w": "langzaam",
+        "tier": 1
+      },
+      {
+        "w": "stil",
+        "tier": 2
+      },
+      {
+        "w": "glanzend",
+        "tier": 2
+      },
+      {
+        "w": "pluizig",
+        "tier": 2
+      },
+      {
+        "w": "zwaar",
+        "tier": 2
+      },
+      {
+        "w": "zoet",
+        "tier": 2
+      },
+      {
+        "w": "piepklein",
+        "tier": 2
+      },
+      {
+        "w": "luid",
+        "tier": 2
+      },
+      {
+        "w": "dapper",
+        "tier": 2
+      },
+      {
+        "w": "rond",
+        "tier": 2
+      },
+      {
+        "w": "lief",
+        "tier": 3
+      },
+      {
+        "w": "nieuwsgierig",
+        "tier": 3
+      },
+      {
+        "w": "slaperig",
+        "tier": 3
+      },
+      {
+        "w": "slim",
+        "tier": 3
+      },
+      {
+        "w": "hobbelig",
+        "tier": 3
+      },
+      {
+        "w": "vrolijk",
+        "tier": 3
+      }
+    ],
+    "nounExclude": [
+      "schaken",
+      "vissen",
+      "vliegen",
+      "bellen",
+      "boren",
+      "kussen",
+      "schoppen",
+      "step"
+    ]
+  },
+  "sv": {
+    "terms": {
+      "noun": "Substantiv",
+      "verb": "Verb",
+      "adj": "Adjektiv"
+    },
+    "chipCase": "lower",
+    "chipCaseD3": "lower",
+    "verbs": [
+      {
+        "w": "springa",
+        "tier": 1
+      },
+      {
+        "w": "hoppa",
+        "tier": 1
+      },
+      {
+        "w": "sova",
+        "tier": 1
+      },
+      {
+        "w": "äta",
+        "tier": 1
+      },
+      {
+        "w": "sjunga",
+        "tier": 1
+      },
+      {
+        "w": "läsa",
+        "tier": 1
+      },
+      {
+        "w": "simma",
+        "tier": 1
+      },
+      {
+        "w": "leka",
+        "tier": 1
+      },
+      {
+        "w": "sitta",
+        "tier": 1
+      },
+      {
+        "w": "dricka",
+        "tier": 1
+      },
+      {
+        "w": "klättra",
+        "tier": 2
+      },
+      {
+        "w": "skratta",
+        "tier": 2
+      },
+      {
+        "w": "rita",
+        "tier": 2
+      },
+      {
+        "w": "tvätta",
+        "tier": 2
+      },
+      {
+        "w": "knuffa",
+        "tier": 2
+      },
+      {
+        "w": "dra",
+        "tier": 2
+      },
+      {
+        "w": "kasta",
+        "tier": 2
+      },
+      {
+        "w": "fånga",
+        "tier": 2
+      },
+      {
+        "w": "dansa",
+        "tier": 2
+      },
+      {
+        "w": "gömma",
+        "tier": 2
+      },
+      {
+        "w": "leta",
+        "tier": 2
+      },
+      {
+        "w": "viska",
+        "tier": 3
+      },
+      {
+        "w": "vandra",
+        "tier": 3
+      },
+      {
+        "w": "fnissa",
+        "tier": 3
+      },
+      {
+        "w": "samla",
+        "tier": 3
+      },
+      {
+        "w": "lyssna",
+        "tier": 3
+      },
+      {
+        "w": "bära",
+        "tier": 3
+      },
+      {
+        "w": "bygga",
+        "tier": 3
+      },
+      {
+        "w": "ropa",
+        "tier": 3
+      },
+      {
+        "w": "baka",
+        "tier": 3
+      }
+    ],
+    "adjectives": [
+      {
+        "w": "stor",
+        "tier": 1
+      },
+      {
+        "w": "liten",
+        "tier": 1
+      },
+      {
+        "w": "röd",
+        "tier": 1
+      },
+      {
+        "w": "blå",
+        "tier": 1
+      },
+      {
+        "w": "varm",
+        "tier": 1
+      },
+      {
+        "w": "kall",
+        "tier": 1
+      },
+      {
+        "w": "mjuk",
+        "tier": 1
+      },
+      {
+        "w": "lång",
+        "tier": 1
+      },
+      {
+        "w": "blöt",
+        "tier": 1
+      },
+      {
+        "w": "glad",
+        "tier": 1
+      },
+      {
+        "w": "snabb",
+        "tier": 1
+      },
+      {
+        "w": "långsam",
+        "tier": 1
+      },
+      {
+        "w": "gul",
+        "tier": 1
+      },
+      {
+        "w": "grön",
+        "tier": 1
+      },
+      {
+        "w": "lila",
+        "tier": 1
+      },
+      {
+        "w": "tyst",
+        "tier": 2
+      },
+      {
+        "w": "blank",
+        "tier": 2
+      },
+      {
+        "w": "fluffig",
+        "tier": 2
+      },
+      {
+        "w": "tung",
+        "tier": 2
+      },
+      {
+        "w": "söt",
+        "tier": 2
+      },
+      {
+        "w": "pytteliten",
+        "tier": 2
+      },
+      {
+        "w": "hög",
+        "tier": 2
+      },
+      {
+        "w": "modig",
+        "tier": 2
+      },
+      {
+        "w": "rund",
+        "tier": 2
+      },
+      {
+        "w": "snäll",
+        "tier": 3
+      },
+      {
+        "w": "nyfiken",
+        "tier": 3
+      },
+      {
+        "w": "trött",
+        "tier": 3
+      },
+      {
+        "w": "klok",
+        "tier": 3
+      },
+      {
+        "w": "gropig",
+        "tier": 3
+      },
+      {
+        "w": "rolig",
+        "tier": 3
+      }
+    ],
+    "nounExclude": [
+      "får",
+      "kort",
+      "ren",
+      "gunga",
+      "val"
+    ]
   }
 };
 

@@ -190,5 +190,73 @@
   "lowercase-letter-tracing": {
     "full": "Kleine letters natrekken op schrijfregels oefent de romphoogte, de stokken die omhoog gaan en de staarten die onder de regel duiken.",
     "short": "Oefent het schrijven van kleine letters."
+  },
+  "word-tracing": {
+    "full": "Een woord bij een plaatje eerst natrekken en daarna zelf schrijven koppelt het ding, zijn naam en de spelling in één oogopslag aan elkaar.",
+    "short": "Oefent de eerste woorden schrijven bij plaatjes."
+  },
+  "dot-to-dot": {
+    "full": "De genummerde stippen op volgorde verbinden laat een plaatje verschijnen en oefent bij elke streep de telrij en de potloodbeheersing.",
+    "short": "Oefent de telrij en de potloodbeheersing."
+  },
+  "grid-copy": {
+    "full": "Een plaatje hokje voor hokje overnemen in een leeg rooster traint goed kijken, ruimtelijk inzicht en heel precies tekenen.",
+    "short": "Oefent precies natekenen op ruitjes."
+  },
+  "singular-plural": {
+    "full": "Eén plaatje naast meer plaatjes zien en het meervoud schrijven zet de uitgangen -en en -s vast die kinderen wel horen, maar zelden spellen.",
+    "short": "Oefent enkelvoud en meervoud van zelfstandige naamwoorden."
+  },
+  "articles": {
+    "full": "Bij elk plaatje de of het omcirkelen bouwt de lidwoordkennis op waar elke latere zin, elke verbuiging en elk verkleinwoord op steunt.",
+    "short": "Oefent de lidwoorden de en het."
+  },
+  "read-and-color": {
+    "full": "Een korte zin lezen en precies inkleuren wat er staat, maakt van het ontsleutelen van letters echt begrijpend lezen dat het kind zelf kan nakijken.",
+    "short": "Oefent begrijpend lezen door te kleuren."
+  },
+  "number-of-the-day": {
+    "full": "Eén getal laten zien in woorden, in tientallen en eenheden, met de buurgetallen en op de getallenlijn bouwt een stevig getalbegrip op.",
+    "short": "Oefent getalbegrip op allerlei manieren."
+  },
+  "write-the-word": {
+    "full": "De naam van elk plaatje op de regel schrijven, met of zonder woordvak, oefent het spellen van klank naar letter, woord voor woord.",
+    "short": "Oefent spellen bij plaatjes."
+  },
+  "alphabetical-order": {
+    "full": "Woorden bij plaatjes op alfabetische volgorde zetten oefent de letterrij en de zoekvaardigheid die elk woordenboek en elke lijst vraagt.",
+    "short": "Oefent op alfabet zetten."
+  },
+  "number-walls": {
+    "full": "Elke steen vullen met de som van de twee stenen eronder oefent vlot optellen en het zoeken naar een ontbrekend getal in één puzzel.",
+    "short": "Oefent optellen met rekenpiramides."
+  },
+  "doubles-halves": {
+    "full": "Een groep verdubbelen en een andere groep halveren zet de dubbelen vast waar de bijna-dubbelen, de even getallen en de tafels op voortbouwen.",
+    "short": "Oefent verdubbelen en halveren."
+  },
+  "sentence-building": {
+    "full": "Door elkaar gehusselde woordkaartjes weer tot een zin maken oefent de woordvolgorde, de hoofdletter en het gevoel voor een hele zin.",
+    "short": "Oefent de woordvolgorde in een zin."
+  },
+  "capitals-punctuation": {
+    "full": "Elke zin opnieuw schrijven met een hoofdletter en een leesteken zet de gewoontes vast die een tekst voor anderen leesbaar maken.",
+    "short": "Oefent hoofdletters en leestekens."
+  },
+  "word-classes": {
+    "full": "Woorden sorteren in zelfstandige naamwoorden, werkwoorden en bijvoeglijke naamwoorden geeft kinderen de woordsoorten om over taal te praten.",
+    "short": "Oefent het herkennen van woordsoorten."
+  },
+  "calendar": {
+    "full": "Datums, weekdagen en weken aflezen van een echte maandkalender oefent precies de kalendervaardigheid die kinderen elke dag nodig hebben.",
+    "short": "Oefent het aflezen van de kalender."
+  },
+  "picture-writing": {
+    "full": "Schrijven bij een plaatje met een woordvak en zinsbeginnen maakt van een lege bladzijde een eerste eigen verhaaltje om trots op te zijn.",
+    "short": "Oefent het eerste schrijven bij een plaatje."
+  },
+  "grid-coordinates": {
+    "full": "Elk hokje in het rooster opzoeken met een letter en een cijfer en inkleuren oefent het lezen van coördinaten en onthult een verborgen plaatje.",
+    "short": "Oefent coördinaten lezen in het rooster."
   }
 }

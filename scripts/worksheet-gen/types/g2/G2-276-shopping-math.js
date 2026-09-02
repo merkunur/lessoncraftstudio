@@ -18,6 +18,15 @@ const { CURRENCIES } = require('../../data/money/currencies.js');
 const { SHOP_FRAMES } = require('../../data/b2/shop-frames.js');
 const { FRAMES } = require('../../data/word-problems/frames.js');
 
+
+/** Inline-picture typography: a picture followed by punctuation loses its right margin (no " ." gap),
+ *  and a picture + the next short token never break across lines (no lone "?" / "eingetragen?"). */
+function glueInline(html) {
+  html = html.replace(/(<img\b[^>]*?style=")([^"]*)("[^>]*>)\s*(?=[.,;:?!¿¡])/g, (m, a, st, b) => a + st.replace(/margin:0 (\d+)px/, 'margin:0 0 0 $1px') + b);
+  html = html.replace(/(<img\b[^>]*>)([ \u00a0]?)([^\s<]{1,14})(?=\s|$|<)/g, '<span style="white-space:nowrap">$1$2$3</span>');
+  return html;
+}
+
 const NBSP = ' ';
 
 // a shop never sells a person: the toys theme carries baby/girl/boy/doll art that renders as a child
@@ -112,10 +121,13 @@ module.exports = {
         if (answer === 0) { k--; continue; }
         sentence = rng.pick(bank.frames.diff);
       }
+      // a change frame authored without an end mark after the coin row gets its period ("… mit (20) Wie viel" → "… mit (20). Wie viel")
+      sentence = sentence.replace(/\{coins\}\s+(?=[\p{Lu}¿¡])/u, '{coins}. ');
       let html = sentence.replace(/\{name\}/g, name);
       refs.forEach((r, i) => { html = html.replace(`{item${i + 1}}`, icon(r)); });
       // the coins render INLINE at the {coins} slot
       if (html.includes('{coins}')) { html = html.replace('{coins}', extra); extra = ''; }
+      html = glueInline(html);
       if (/\{/.test(html)) throw new Error(`G2-276: unfilled slot in "${sentence}"`);
       cards.push(`<div class="ws-card" style="padding:${d.pad || '12px 18px'};gap:${d.gap === 10 ? 5 : 8}px;min-height:${d.cardH}px" data-lcs-problem data-lcs-qtype="${kind}" data-lcs-refs="${refs.join(',')}" data-lcs-answer="${answer}">` +
         `<span class="ws-card-badge">${k + 1}</span>` +

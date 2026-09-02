@@ -1,0 +1,241 @@
+{
+  "locale": "sv",
+  "types": {
+    "K-284": {"title": "Spåra och skriv ord", "instruction": "Säg ordet till bilden. Spåra de streckade bokstäverna och skriv sedan ordet själv på de tomma raderna."},
+    "K-285": {"title": "Prick till prick", "instruction": "Börja vid den orangea pricken. Dra streck från prick till prick i rätt ordning tills bilden kommer fram."},
+    "K-286": {"title": "Rita av i rutnätet", "instruction": "Titta noga på bilden till vänster. Färglägg samma rutor i det tomma rutnätet så att bilden blir likadan."},
+    "K-287": {"title": "Singular och plural", "instruction": "Läs ordet för en. Spåra sedan ordet för flera och skriv det själv på den tomma raden."},
+    "K-288": {"title": "En eller ett?", "instruction": "Säg ordet till bilden högt. Ringa in det ord som passar framför: en eller ett."},
+    "G1-242": {"title": "Läs och måla", "instruction": "Läs varje mening noga. Måla sedan precis de bilder som meningen säger – i rätt färg."},
+    "G1-243": {"title": "Dagens tal", "instruction": "Titta på dagens tal. Fyll i varje ruta på sidan med hjälp av talet."},
+    "G1-244": {"title": "Skriv ordet till bilden", "instruction": "Säg vad bilden föreställer. Skriv ordet på raden."},
+    "G1-245": {"title": "Alfabetisk ordning", "instruction": "Ta hjälp av alfabetet högst upp. Numrera bildorden från 1 till 6 i alfabetisk ordning och skriv dem sedan i rätt ordning på raderna."},
+    "G1-246": {"title": "Talpyramider", "instruction": "Varje sten är summan av de två stenarna under den. Fyll i talen som saknas."},
+    "G1-247": {"title": "Dubbelt och hälften", "instruction": "Titta på lappen över varje grupp: dubbelt eller hälften. Räkna ut och skriv talen i rutorna."},
+    "G1-248": {"title": "Läs av tallinjen", "instruction": "Varje pil pekar på ett streck. Räkna vidare från talet före pilen och skriv talet i rutan."},
+    "G1-249": {"title": "Ordna orden till en mening", "instruction": "Orden har hamnat huller om buller. Ordna dem och skriv meningen på raden med stor bokstav och punkt eller frågetecken."},
+    "G2-274": {"title": "Stor bokstav och skiljetecken", "instruction": "I varje mening saknas stor bokstav och skiljetecken. Skriv meningen rätt på raden."},
+    "G2-275": {"title": "Substantiv, verb och adjektiv", "instruction": "Läs varje ord. Är det ett substantiv, ett verb eller ett adjektiv? Skriv ordet i rätt låda."},
+    "G2-276": {"title": "Räkna med pengar", "instruction": "Hitta varje vara på hyllan och läs priset. Svara sedan på frågorna om pengarna."},
+    "G2-277": {"title": "Läs kalendern", "instruction": "Titta på kalendern. Använd den för att svara på alla frågor."},
+    "G2-278": {"title": "Skriv till bilden", "instruction": "Titta noga på bilden. Ta hjälp av ordbanken och skriv vad du ser och vad som händer."},
+    "G2-279": {"title": "Koordinater i rutnät", "instruction": "Hitta varje ruta med hjälp av bokstav och siffra, till exempel B2. Måla den i gruppens färg tills bilden kommer fram."},
+    "G3-370": {"title": "Räknehändelser: multiplikation och division", "instruction": "Läs varje räknehändelse. Ta hjälp av bilden. Skriv svaret i rutan och skriv sedan färdigt svarsmeningen."}
+  },
+  "families": {
+    "word-tracing": {"slug": "spara-ord", "name": "Spåra ord"},
+    "dot-to-dot": {"slug": "prick-till-prick", "name": "Prick till prick"},
+    "grid-copy": {"slug": "rita-av-i-rutnat", "name": "Rita av i rutnät"},
+    "singular-plural": {"slug": "singular-och-plural", "name": "Singular och plural"},
+    "articles": {"slug": "en-eller-ett", "name": "En eller ett"},
+    "read-and-color": {"slug": "las-och-mala", "name": "Läs och måla"},
+    "number-of-the-day": {"slug": "dagens-tal", "name": "Dagens tal"},
+    "write-the-word": {"slug": "skriv-ordet", "name": "Skriv ordet"},
+    "alphabetical-order": {"slug": "alfabetisk-ordning", "name": "Alfabetisk ordning"},
+    "number-walls": {"slug": "talpyramider", "name": "Talpyramider"},
+    "doubles-halves": {"slug": "dubbelt-och-halften", "name": "Dubbelt och hälften"},
+    "sentence-building": {"slug": "meningsbyggnad", "name": "Meningsbyggnad"},
+    "capitals-punctuation": {"slug": "stor-bokstav-och-skiljetecken", "name": "Stor bokstav och skiljetecken"},
+    "word-classes": {"slug": "ordklasser", "name": "Ordklasser"},
+    "calendar": {"slug": "kalendern", "name": "Kalendern"},
+    "picture-writing": {"slug": "skriv-till-bilden", "name": "Skriv till bilden"},
+    "grid-coordinates": {"slug": "koordinater-i-rutnat", "name": "Koordinater i rutnät"}
+  },
+  "skills": {
+    "word-tracing": {"full": "Att spåra ordet till en bild längs bokstävernas linjer och sedan skriva det själv knyter ihop sak, ord och stavning i ett enda steg.", "short": "Tränar att skriva de första orden efter bild."},
+    "dot-to-dot": {"full": "Att dra streck mellan prickarna i rätt ordning tränar talföljden och pennkontrollen tills en bild kommer fram.", "short": "Tränar talföljd och pennkontroll."},
+    "grid-copy": {"full": "Att rita av en bild ruta för ruta i ett tomt rutnät tränar noggrant seende, rumsuppfattning och ett stadigt handlag.", "short": "Tränar att rita av noggrant i rutnät."},
+    "singular-plural": {"full": "Att se en bild bredvid flera och skriva pluralformen befäster de ändelser som barn hör varje dag men sällan skriver.", "short": "Tränar singular och plural av substantiv."},
+    "articles": {"full": "Att ringa in en eller ett till varje bild bygger den känsla för ordens genus som varje senare mening vilar på.", "short": "Tränar en-ord och ett-ord."},
+    "read-and-color": {"full": "Att läsa en kort mening och måla precis det som står gör avkodningen till verklig läsförståelse som barnet själv kan kontrollera.", "short": "Tränar läsförståelse genom att måla."},
+    "number-of-the-day": {"full": "Att visa ett tal med bokstäver, i tiotal och ental, på tallinjen och med talen före och efter bygger en djup taluppfattning.", "short": "Tränar taluppfattning på många sätt."},
+    "write-the-word": {"full": "Att skriva ordet till varje bild på raden, med eller utan ordbank, tränar ljudenlig stavning från ljud till bokstav.", "short": "Tränar stavning efter bilder."},
+    "alphabetical-order": {"full": "Att ordna bildord i alfabetisk ordning befäster bokstavsföljden och tränar den slagning som varje ordlista kräver.", "short": "Tränar alfabetisk ordning."},
+    "number-walls": {"full": "Att fylla varje sten med summan av de två stenarna under tränar säker addition och att hitta den term som saknas.", "short": "Tränar addition med talpyramider."},
+    "doubles-halves": {"full": "Att räkna dubbelt av en grupp och hälften av en annan befäster dubblorna som öppnar för nära dubblor, jämna tal och multiplikation.", "short": "Tränar dubbelt och hälften."},
+    "sentence-building": {"full": "Att ordna omkastade ordkort till en mening tränar ordföljd, stor bokstav och känslan för när en mening är hel.", "short": "Tränar ordföljd och meningsbyggnad."},
+    "capitals-punctuation": {"full": "Att skriva om varje mening med stor bokstav och rätt skiljetecken befäster de regler som gör en text läsbar.", "short": "Tränar stor bokstav och skiljetecken."},
+    "word-classes": {"full": "Att sortera ord i substantiv, verb och adjektiv bygger de ordklasser som barn behöver för att kunna tala om språket.", "short": "Tränar att känna igen ordklasserna."},
+    "calendar": {"full": "Att läsa av datum, veckodagar och veckor i en riktig månadskalender tränar precis det barn behöver i vardagen.", "short": "Tränar att läsa kalendern."},
+    "picture-writing": {"full": "Att skriva till en bild med ordbank och meningsstarter gör den tomma raden till en första egen liten berättelse.", "short": "Tränar att skriva till en bild."},
+    "grid-coordinates": {"full": "Att hitta varje ruta med bokstav och siffra och måla den tränar att läsa koordinater och avslöjar en dold bild.", "short": "Tränar att läsa koordinater i rutnät."}
+  },
+  "topicMeta": {
+    "word-tracing": "Arbetsblad för att spåra och skriva ord: titta på bilden, spåra ordet på skrivraden och skriv det sedan själv. Gratis PDF:er att skriva ut.",
+    "dot-to-dot": "Prick till prick för barn: dra streck mellan prickarna i rätt ordning tills bilden kommer fram – tal till 20 och vidare. Gratis PDF:er att skriva ut.",
+    "grid-copy": "Arbetsblad för att rita av i rutnät: färglägg bilden ruta för ruta i det tomma rutnätet. Gratis PDF:er att skriva ut.",
+    "singular-plural": "Arbetsblad med singular och plural: en bild, flera bilder – spåra och skriv pluralformen av varje substantiv. Gratis PDF:er att skriva ut.",
+    "articles": "Arbetsblad med en eller ett: ringa in rätt ord framför varje bildord och träna en-ord och ett-ord. Gratis PDF:er att skriva ut.",
+    "read-and-color": "Läs och måla: läs varje mening och måla bilderna precis som det står, i rätt färg. Gratis PDF:er att skriva ut.",
+    "number-of-the-day": "Arbetsblad med dagens tal: skriv talet med bokstäver, i tiotal och ental, före och efter, 10 mer och 10 mindre och på tallinjen. Gratis PDF:er att skriva ut.",
+    "write-the-word": "Arbetsblad för att skriva ordet till bilden: från ordbank och bokstavsrutor till att skriva hela ordet själv. Gratis PDF:er att skriva ut.",
+    "alphabetical-order": "Arbetsblad med alfabetisk ordning: sortera bildorden i bokstavsordning med hjälp av alfabetet. Gratis PDF:er att skriva ut.",
+    "number-walls": "Arbetsblad med talpyramider: fyll varje sten med summan av de två stenarna under – addition upp till 20. Gratis PDF:er att skriva ut.",
+    "doubles-halves": "Arbetsblad med dubbelt och hälften: räkna dubbelt av gruppen, hälften av gruppen och skriv talet. Gratis PDF:er att skriva ut.",
+    "sentence-building": "Arbetsblad med meningsbyggnad: ordna ordkorten i rätt ordning och skriv meningen på raden. Gratis PDF:er att skriva ut.",
+    "capitals-punctuation": "Arbetsblad med stor bokstav och skiljetecken: skriv om varje mening med stor bokstav och punkt eller frågetecken. Gratis PDF:er att skriva ut.",
+    "word-classes": "Arbetsblad med ordklasser: sortera orden i substantiv, verb och adjektiv. Gratis PDF:er att skriva ut.",
+    "calendar": "Arbetsblad med kalendern: läs av månadskalendern och svara på frågor om datum, veckodagar och veckor. Gratis PDF:er att skriva ut.",
+    "picture-writing": "Skriv till bilden: skrivuppgifter med ordbank och meningsstarter där barnet skriver en egen liten text till bilden. Gratis PDF:er att skriva ut.",
+    "grid-coordinates": "Arbetsblad med koordinater i rutnät: måla rutorna som anges med bokstav och siffra, som B2, tills den dolda bilden kommer fram. Gratis PDF:er att skriva ut."
+  },
+  "colorWords": {"orange": "orange", "purple": "lila", "brown": "brun", "pink": "rosa"},
+  "figureNames": {
+    "star": "Stjärna", "house": "Hus", "boat": "Båt", "rocket": "Raket", "fish": "Fisk", "kite": "Drake", "heart": "Hjärta", "butterfly": "Fjäril",
+    "tree": "Träd", "car": "Bil", "cat": "Katt", "ice-cream": "Glass", "umbrella": "Paraply", "whale": "Val", "sailboat": "Segelbåt", "crown": "Krona",
+    "duck": "Anka", "flag": "Flagga", "cup": "Kopp", "boot": "Stövel", "key": "Nyckel", "cherries": "Körsbär", "elephant": "Elefant", "bird": "Fågel", "giraffe": "Giraff"
+  },
+  "labels": {
+    "numberOfDay": {
+      "numberWord": "Skriv talet med bokstäver", "tensOnes": "Tiotal och ental", "tens": "tiotal", "ones": "ental",
+      "tenFrames": "Visa talet i tiorutor", "tally": "Räknestreck", "beforeAfter": "Före och efter",
+      "numberLine": "Hitta talet på tallinjen", "drawIt": "Rita med tiotal och ental",
+      "tenMoreLess": "10 mer, 10 mindre", "oneMoreLess": "1 mer, 1 mindre",
+      "countOn": "Räkna vidare", "countBack": "Räkna bakåt", "countOnTens": "Räkna vidare med tiotal"
+    },
+    "doublesHalves": {"double": "dubbelt", "half": "hälften"},
+    "singularPlural": {"one": "singular", "many": "plural"},
+    "pictureWriting": {
+      "d1": ["Jag ser", "Här är", "Det finns"],
+      "d2": ["En dag", "Sedan"]
+    },
+    "fixChecklist": {"capital": "Stor bokstav", "name": "Namn", "end": "Skiljetecken"},
+    "articles": {"title": "en eller ett?"},
+    "calendar": {"monthTitle": "{month} {year}"}
+  },
+  "calendar": {
+    "weekStart": 1,
+    "ordinalStyle": "sv",
+    "dayPlural": ["söndagar", "måndagar", "tisdagar", "onsdagar", "torsdagar", "fredagar", "lördagar"],
+    "frames": {
+      "dayOfDate": "Vilken veckodag är den {date} i den här månaden?",
+      "countWeekday": "Hur många {dayPlural} finns det i den här månaden?",
+      "stickerDate": "På vilket datum sitter {sticker}?",
+      "weekLater": "I dag är det den {date}. Vilket datum är det exakt en vecka senare?",
+      "daysInMonth": "Hur många dagar har den här månaden?",
+      "firstDay": "Vilken veckodag är den första dagen i månaden?",
+      "lastDay": "Vilken veckodag är den sista dagen i månaden?",
+      "after": "Hur många dagar efter {stickerA} kommer {stickerB}?"
+    }
+  },
+  "sentences": {
+    "nounCase": "lower",
+    "endSpace": false,
+    "names": ["Elsa", "Hugo", "Alma", "Liam", "Maja", "Oscar", "Vera", "Elias"],
+    "colorWords": {"red": "röda", "blue": "blå", "yellow": "gula", "green": "gröna", "orange": "orange", "purple": "lila", "brown": "bruna", "pink": "rosa"},
+    "nounForms": {},
+    "fixLabels": {"capital": "Stor bokstav", "name": "Namn", "end": "Skiljetecken"},
+    "frames": [
+      {"id": "c1", "kind": "color", "text": "Måla {n} {noun} {color}.", "noun": "pl"},
+      {"id": "c2", "kind": "color", "text": "Hitta {n} {noun} och måla dem {color}.", "noun": "pl"},
+      {"id": "c3", "kind": "color", "text": "Färglägg {n} {noun} {color}.", "noun": "pl"},
+      {"id": "c4", "kind": "color", "text": "Leta upp {n} {noun} och måla dem {color}.", "noun": "pl"},
+      {"id": "s1", "kind": "simple", "text": "{name} ser tre {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s2", "kind": "simple", "text": "{name} har många {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s3", "kind": "simple", "text": "Var är alla {noun}?", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s4", "kind": "simple", "text": "{name} räknar alla {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s5", "kind": "simple", "text": "Kan du hitta två {noun}?", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s6", "kind": "simple", "text": "{name} och {name} tittar på {noun}.", "noun": "pl", "uses": ["fix"]},
+      {"id": "s7", "kind": "simple", "text": "{name} tycker om {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s8", "kind": "simple", "text": "Vilka fina {noun}!", "noun": "pl", "uses": ["fix"], "exclaimStrict": true},
+      {"id": "s9", "kind": "simple", "text": "{name} vill ha fem {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s10", "kind": "simple", "text": "Har du sett några {noun}?", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s11", "kind": "simple", "text": "{name} ritar tre {noun} till {name}.", "noun": "pl", "uses": ["fix"]},
+      {"id": "s12", "kind": "simple", "text": "Mina {noun} är jättefina.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s13", "kind": "simple", "text": "{name} hittar två {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s14", "kind": "simple", "text": "Alla {noun} är stora.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s15", "kind": "simple", "text": "Vem har flest {noun}?", "noun": "pl", "uses": ["unscramble", "fix"]}
+    ]
+  },
+  "wordClasses": {
+    "terms": {"noun": "Substantiv", "verb": "Verb", "adj": "Adjektiv"},
+    "chipCase": "lower",
+    "chipCaseD3": "lower",
+    "verbs": [
+      {"w": "springa", "tier": 1}, {"w": "hoppa", "tier": 1}, {"w": "sova", "tier": 1}, {"w": "äta", "tier": 1}, {"w": "sjunga", "tier": 1}, {"w": "läsa", "tier": 1},
+      {"w": "simma", "tier": 1}, {"w": "leka", "tier": 1}, {"w": "sitta", "tier": 1}, {"w": "dricka", "tier": 1}, {"w": "klättra", "tier": 2}, {"w": "skratta", "tier": 2},
+      {"w": "rita", "tier": 2}, {"w": "tvätta", "tier": 2}, {"w": "knuffa", "tier": 2}, {"w": "dra", "tier": 2}, {"w": "kasta", "tier": 2}, {"w": "fånga", "tier": 2},
+      {"w": "dansa", "tier": 2}, {"w": "gömma", "tier": 2}, {"w": "leta", "tier": 2}, {"w": "viska", "tier": 3}, {"w": "vandra", "tier": 3}, {"w": "fnissa", "tier": 3},
+      {"w": "samla", "tier": 3}, {"w": "lyssna", "tier": 3}, {"w": "bära", "tier": 3}, {"w": "bygga", "tier": 3}, {"w": "ropa", "tier": 3}, {"w": "baka", "tier": 3}
+    ],
+    "adjectives": [
+      {"w": "stor", "tier": 1}, {"w": "liten", "tier": 1}, {"w": "röd", "tier": 1}, {"w": "blå", "tier": 1}, {"w": "varm", "tier": 1}, {"w": "kall", "tier": 1},
+      {"w": "mjuk", "tier": 1}, {"w": "lång", "tier": 1}, {"w": "blöt", "tier": 1}, {"w": "glad", "tier": 1}, {"w": "snabb", "tier": 1}, {"w": "långsam", "tier": 1},
+      {"w": "gul", "tier": 1}, {"w": "grön", "tier": 1}, {"w": "lila", "tier": 1}, {"w": "tyst", "tier": 2}, {"w": "blank", "tier": 2}, {"w": "fluffig", "tier": 2},
+      {"w": "tung", "tier": 2}, {"w": "söt", "tier": 2}, {"w": "pytteliten", "tier": 2}, {"w": "hög", "tier": 2}, {"w": "modig", "tier": 2}, {"w": "rund", "tier": 2},
+      {"w": "snäll", "tier": 3}, {"w": "nyfiken", "tier": 3}, {"w": "trött", "tier": 3}, {"w": "klok", "tier": 3}, {"w": "gropig", "tier": 3}, {"w": "rolig", "tier": 3}
+    ],
+    "nounExclude": ["får", "kort", "ren", "gunga", "val"]
+  },
+  "shopFrames": {
+    "yes": "ja", "no": "nej",
+    "frames": {
+      "total": [
+        "{name} köper {item1} och {item2}. Hur mycket ska {name} betala?",
+        "{name} lägger {item1} och {item2} i korgen. Hur mycket kostar det tillsammans?",
+        "{name} vill ha {item1} och {item2}. Hur mycket kostar det sammanlagt?"
+      ],
+      "total3": [
+        "{name} köper {item1}, {item2} och {item3}. Hur mycket ska {name} betala?",
+        "{name} tar {item1}, {item2} och {item3}. Hur mycket kostar det tillsammans?"
+      ],
+      "change": [
+        "{name} köper {item1} och betalar med {coins} Hur mycket får {name} tillbaka?",
+        "{name} betalar för {item1} med {coins} Hur mycket får {name} tillbaka i växel?"
+      ],
+      "canBuy": [
+        "{name} har {money}. Räcker pengarna till {item1} och {item2}? Ringa in ja eller nej. Skriv vad det kostar tillsammans.",
+        "{name} har {money}. Kan {name} köpa {item1} och {item2}? Ringa in ja eller nej. Skriv summan."
+      ],
+      "diff": [
+        "Hur mycket dyrare är {item1} än {item2}?",
+        "{item1} kostar mer än {item2}. Hur mycket mer?"
+      ]
+    }
+  },
+  "wpMulDiv": {
+    "nounForm": "plural",
+    "nounCase": "lower",
+    "names": ["Elsa", "Hugo", "Alma", "Liam", "Maja", "Oscar", "Vera", "Elias"],
+    "frames": {
+      "mul": [
+        "{name} har {n1} lådor. I varje låda ligger {n2} {noun}. Hur många {noun} har {name} sammanlagt?",
+        "{name} fyller {n1} påsar med {n2} {noun} i varje påse. Hur många {noun} blir det tillsammans?",
+        "{name} ställer upp {n1} rader med {n2} {noun} i varje rad. Hur många {noun} är det sammanlagt?",
+        "{name} ser {n1} grupper med {n2} {noun} i varje grupp. Hur många {noun} ser {name}?"
+      ],
+      "share": [
+        "{name} delar {n1} {noun} lika mellan {n2} kompisar. Hur många {noun} får varje kompis?",
+        "{name} lägger {n1} {noun} i {n2} lådor, lika många i varje. Hur många {noun} ligger i varje låda?",
+        "{name} ställer {n1} {noun} i {n2} lika långa rader. Hur många {noun} står i varje rad?"
+      ],
+      "group": [
+        "{name} har {n1} {noun}. {name} lägger {n2} {noun} i varje påse. Hur många påsar blir det?",
+        "Det finns {n1} {noun}. {name} gör grupper med {n2} {noun} i varje. Hur många grupper blir det?",
+        "{name} ställer {n1} {noun} i rader med {n2} {noun} i varje rad. Hur många rader blir det?"
+      ]
+    }
+  },
+  "articles": {
+    "refuse": false,
+    "refuseKeys": ["blocks", "crayons", "chess", "lego", "domino"],
+    "note": "en/ett keyed off the vocab gender (n = en-ord → 'en', t = ett-ord → 'ett'); this IS the F-klass/åk 1 drill 'en eller ett?'. Title 'En eller ett?' is the genre phrase. REFUSE (keyFor → null) the toys entries whose stored singular is a plural or a mass/game noun: blocks 'Klossar', crayons 'Kritor' (a lone 'en' before a plural is wrong), chess 'Schack' (a game — 'ett schackspel', never 'ett schack'), lego 'Lego' (mass noun) and domino 'Domino' (the piece is 'en dominobricka'). The wave rule (fruits/vehicles/toys before animals) is necessary but not sufficient for sv: the colour animals theme has ONE ett-noun (får) in 37, so a 6-card animals page is 'en' six times and teaches nothing — the panel asks the generator to refuse a theme for sv when it cannot place ≥ 2 ett-nouns on the page. Fruits (äpple, päron, plommon, fikon, hallon, körsbär, blåbär, granatäpple), vehicles (flygplan, jetplan, skepp, tåg) and toys (flygplan, kort, tåg) all key cleanly."
+  },
+  "enAudit": [
+    "calendar.js ordinal('sv') emits '1:e', '2:e', '21:e', '22:e', '31:e' — Swedish ordinals ending in 1 or 2 take ':a' (1:a, 2:a, 21:a, 22:a, 31:a; only 11:e and 12:e keep ':e'). The dayOfDate/weekLater frames render a wrong date on 5 of 31 days until the 'sv' branch special-cases n % 10 ∈ {1,2} with n % 100 ∉ {11,12}. CODE fix, not a draft fix.",
+    "Calendar month heading renders monthNames[m] verbatim as '{month} {year}', and 9 of 11 locales store lowercase month names (sv 'mars 2027', fr 'mars 2027', es 'marzo 2027', nl, it, pt, da, no, fi) — a lowercase page heading is a visible defect in every one of them. monthTitle needs a capitalise-first flag (or the renderer upper-cases the first letter of the heading); EN and DE hide it because their month names are capitalised nouns.",
+    "sv vocab, vehicles: 'crane' is stored as 'Trana/Tranor' — that is the BIRD (Grus grus); the vehicle is 'lyftkran/lyftkranar' (or 'kran/kranar'). Every sv page that draws the vehicles theme (K-284 tracing, G1-244 write-the-word, G1-245 ABC order, G2-278 word bank, G3-370) can label a crane truck 'trana'. Vocab SoT defect — operator-approved edit needed (§10.3).",
+    "sv vocab, toys: 'baby' plural is stored as 'Babies' — that is the English plural; Swedish is 'bebisar' (SAOL) or 'babyer'. K-287's regular-plural filter accepts it (prefix match) so 'baby → babies' can ship as a Swedish plural to trace. Same vocab defect class as 'Trana'.",
+    "sv vocab, toys: 'girl' = 'Flicka/Flickor' sits in a TOYS theme (a child is not a toy); on G2-275 d1/d2 the chip carries a girl picture beside 'skateboard' and 'dinosaur' as a noun — harmless grammatically, odd pedagogically; consider dropping the entry from the toys theme in every locale.",
+    "G1-243 EN instruction 'Fill in every box on the page for that number' contradicts the 'Before and after', 'Ten more, ten less', 'Count on' and 'Count back' cells, which ask for OTHER numbers — the child is told to write 46 in boxes that want 36, 56, 45, 47 … The sv instruction says 'fyll i varje ruta med hjälp av talet' (using the number) for that reason.",
+    "G2-276 render: the end mark after an inline picture floats — 'Emma buys [pear] and [fig] . How much' and 'with (25) . How much'; the inline-image span carries a trailing margin so the '.' is separated from the image by a visible gap. Either the renderer trims the right margin before punctuation or every locale keeps dropping the period after {coins} (de/es/fr already do). The sv change frames follow de and omit it.",
+    "G1-242 EN c3 'Make {n} {noun} {color}.' is not a colouring instruction a 6-year-old reads as 'colour' ('Make 4 apples orange' asks the child to do what?); c4 '{name} colors {n} {noun} {color}.' is a statement about Mia, not an instruction — on a read-and-DO page a child can read it and colour nothing. The sv bank authors all four colour frames as imperatives (Måla / Färglägg / Hitta … och måla / Leta upp … och måla).",
+    "G1-249 / G2-274 EN simple frames are theme-blind: s2 '{name} feeds the {noun}.' renders 'Ben feeds the bicycle.' / 'feeds the banana' on the vehicles/fruits waves, and s6 'The {noun} is in the box.' shipped as 'the forklift is in the box' on the G2-274 vehicles probe (visible in the render). Keep the verbs theme-neutral (see / count / have / like / find) — the sv bank does (ser, har, räknar, tycker om, hittar, vill ha, tittar på).",
+    "G1-244 d2 render shows BOTH the three-line ruling AND the dashed letter-count boxes under each picture, so the child has two places to write while the instruction says 'write the word on the line'; the amendment describes the boxes as the writing surface at d2 — one of the two should go, and the instruction should name whichever stays.",
+    "G3-370 EN share/group frames carry plural containers ('{n2} friends', '{n1} boxes') with no guard against a factor of 1 ('1 friends'); verify the factor range is ≥ 2 on BOTH slots — every locale's plural container ('kompisar', 'lådor', 'påsar' in sv) inherits the risk.",
+    "G2-275 d3 relies on nounExclude, but the validator only checks homographs of the panel's OWN verb/adjective lists against vocab singulars — it cannot see that a vocab noun is a homograph of a Swedish verb/adjective the panel did NOT list (sv 'får' = sheep / gets, 'kort' = cards / short, 'ren' = reindeer / clean, 'gunga' = swing / to swing, 'val' = whale / choice). The sv nounExclude lists those five by hand; the check that would catch them structurally is 'vocab singular ∈ a per-locale function-word/verb list', not 'vocab singular ∈ the panel's chips'.",
+    "K-285 EN title 'Dot-to-Dot 1 to 20' is true only at d2 (d1 = window 1…10 with the rest pre-printed, d3 = 11…30) — the range should be a level subtitle, not the family title. sv title is the bare genre name 'Prick till prick'.",
+    "K-287 EN pills '1 · one' / '2 · 3 · many' and the title 'Singular and Plural' use two vocabularies on one page (one/many vs singular/plural); sv uses the school terms on both title and pills ('singular' / 'plural') and lets the numerals 1 / 2 · 3 carry the meaning.",
+    "Two-line titles: 'Nouns, Verbs, and Adjectives' and 'Multiplication and Division Word Problems' wrap in the header and push the Name/Date field down (visible in both renders). sv 'Substantiv, verb och adjektiv' (29) and 'Räknehändelser: multiplikation och division' (43) will wrap the same way — either the header shrinks long titles or the family names get a short form for the page header."
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "locale": "da",
+  "types": {
+    "K-284": {"title": "Skriv ordene efter", "instruction": "Sig ordet til billedet. Skriv oven i de stiplede bogstaver, og skriv derefter ordet selv på de tomme linjer."},
+    "K-285": {"title": "Prik til prik", "instruction": "Start ved den orange prik. Tegn streger fra prik til prik i den rigtige rækkefølge, til billedet kommer frem."},
+    "K-286": {"title": "Tegn efter i kvadratnet", "instruction": "Se godt på billedet til venstre. Farvelæg de samme felter i det tomme kvadratnet, så billedet bliver magen til."},
+    "K-287": {"title": "Ental og flertal", "instruction": "Læs ordet for én. Skriv derefter oven i ordet for flere, og skriv det selv på den tomme linje."},
+    "K-288": {"title": "En eller et?", "instruction": "Sig ordet til billedet højt. Sæt en ring om det ord, der passer foran: en eller et."},
+    "G1-242": {"title": "Læs og farvelæg", "instruction": "Læs hver sætning grundigt. Farvelæg derefter præcis de billeder, sætningen siger – i den rigtige farve."},
+    "G1-243": {"title": "Dagens tal", "instruction": "Se på dagens tal. Udfyld hvert felt på siden ved hjælp af tallet."},
+    "G1-244": {"title": "Skriv ordet til billedet", "instruction": "Sig, hvad billedet forestiller. Skriv ordet på linjen."},
+    "G1-245": {"title": "Alfabetisk rækkefølge", "instruction": "Brug alfabetet øverst. Nummerér billedordene fra 1 til 6 i alfabetisk rækkefølge, og skriv dem derefter i rækkefølge på linjerne."},
+    "G1-246": {"title": "Talpyramider", "instruction": "Hver sten er summen af de to sten under den. Skriv de tal, der mangler."},
+    "G1-247": {"title": "Det dobbelte og det halve", "instruction": "Se på mærkaten over hver gruppe: det dobbelte eller det halve. Regn ud, og skriv tallene i felterne."},
+    "G1-248": {"title": "Aflæs tallinjen", "instruction": "Hver pil peger på en streg. Tæl videre fra tallet før pilen, og skriv tallet i feltet."},
+    "G1-249": {"title": "Sæt ordene i rækkefølge", "instruction": "Ordene er blandet sammen. Sæt dem i den rigtige rækkefølge, og skriv sætningen på linjen med stort bogstav og punktum eller spørgsmålstegn."},
+    "G2-274": {"title": "Stort bogstav og punktum", "instruction": "I hver sætning mangler det store bogstav og tegnet til sidst. Skriv sætningen rigtigt på linjen."},
+    "G2-275": {"title": "Navneord, udsagnsord og tillægsord", "instruction": "Læs hvert ord. Er det et navneord, et udsagnsord eller et tillægsord? Skriv ordet i den rigtige kasse."},
+    "G2-276": {"title": "Købmandsregning", "instruction": "Find hver vare på hylden, og læs prisen. Svar derefter på spørgsmålene om pengene."},
+    "G2-277": {"title": "Læs kalenderen", "instruction": "Se på kalenderen. Brug den til at svare på alle spørgsmålene."},
+    "G2-278": {"title": "Skriv til billedet", "instruction": "Se godt på billedet. Brug ordbanken, og skriv, hvad du ser, og hvad der sker."},
+    "G2-279": {"title": "Koordinater i kvadratnet", "instruction": "Find hvert felt ved hjælp af bogstav og tal, for eksempel B2. Farvelæg det i gruppens farve, til billedet kommer frem."},
+    "G3-370": {"title": "Regnehistorier med gange og division", "instruction": "Læs hver regnehistorie. Brug billedet som hjælp. Skriv svaret i feltet, og gør derefter svarsætningen færdig."}
+  },
+  "families": {
+    "word-tracing": {"slug": "skriv-ordene-efter", "name": "Skriv ordene efter"},
+    "dot-to-dot": {"slug": "prik-til-prik", "name": "Prik til prik"},
+    "grid-copy": {"slug": "tegn-efter-i-kvadratnet", "name": "Tegn efter i kvadratnet"},
+    "singular-plural": {"slug": "ental-og-flertal", "name": "Ental og flertal"},
+    "articles": {"slug": "en-eller-et", "name": "En eller et"},
+    "read-and-color": {"slug": "laes-og-farvelaeg", "name": "Læs og farvelæg"},
+    "number-of-the-day": {"slug": "dagens-tal", "name": "Dagens tal"},
+    "write-the-word": {"slug": "skriv-ordet", "name": "Skriv ordet"},
+    "alphabetical-order": {"slug": "alfabetisk-raekkefoelge", "name": "Alfabetisk rækkefølge"},
+    "number-walls": {"slug": "talpyramider", "name": "Talpyramider"},
+    "doubles-halves": {"slug": "det-dobbelte-og-det-halve", "name": "Det dobbelte og det halve"},
+    "sentence-building": {"slug": "byg-saetninger", "name": "Byg sætninger"},
+    "capitals-punctuation": {"slug": "stort-bogstav-og-punktum", "name": "Stort bogstav og punktum"},
+    "word-classes": {"slug": "ordklasser", "name": "Ordklasser"},
+    "calendar": {"slug": "kalenderen", "name": "Kalenderen"},
+    "picture-writing": {"slug": "skriv-til-billedet", "name": "Skriv til billedet"},
+    "grid-coordinates": {"slug": "koordinater-i-kvadratnet", "name": "Koordinater i kvadratnet"}
+  },
+  "skills": {
+    "word-tracing": {"full": "At skrive oven i ordet til et billede og derefter skrive det selv binder ting, ord og stavemåde sammen i ét greb – de første hele ord.", "short": "Træner at skrive de første ord efter billede."},
+    "dot-to-dot": {"full": "At tegne streger fra prik til prik i den rigtige rækkefølge træner talrækken og blyantkontrollen, til et billede kommer frem.", "short": "Træner talrækken og blyantkontrol."},
+    "grid-copy": {"full": "At tegne et billede efter felt for felt i et tomt kvadratnet træner nøjagtigt syn, rumopfattelse og en rolig, sikker hånd.", "short": "Træner at tegne nøjagtigt efter i kvadratnet."},
+    "singular-plural": {"full": "At se ét billede ved siden af flere og skrive flertalsformen fæstner de endelser, børn hører hver dag, men sjældent skriver.", "short": "Træner ental og flertal af navneord."},
+    "articles": {"full": "At sætte ring om en eller et til hvert billede opbygger den fornemmelse for ordenes køn, som alle senere sætninger hviler på.", "short": "Træner en-ord og et-ord."},
+    "read-and-color": {"full": "At læse en kort sætning og farvelægge præcis det, der står, gør afkodning til rigtig læseforståelse, barnet selv kan tjekke.", "short": "Træner læseforståelse gennem farvelægning."},
+    "number-of-the-day": {"full": "At vise ét tal med bogstaver, i tiere og enere, på tallinjen og med tallene før og efter opbygger en dyb talforståelse.", "short": "Træner talforståelse på mange måder."},
+    "write-the-word": {"full": "At skrive ordet til hvert billede på linjen, med eller uden ordbank, træner lydret stavning fra lyd til bogstav.", "short": "Træner stavning efter billeder."},
+    "alphabetical-order": {"full": "At ordne billedord i alfabetisk rækkefølge fæstner bogstavrækken og træner det opslag, som enhver ordbog kræver.", "short": "Træner alfabetisk rækkefølge."},
+    "number-walls": {"full": "At fylde hver sten med summen af de to sten under den træner sikker addition og at finde det tal, der mangler.", "short": "Træner addition med talpyramider."},
+    "doubles-halves": {"full": "At finde det dobbelte af én gruppe og det halve af en anden fæstner de dobbelte, der åbner for nabotal, lige tal og gange.", "short": "Træner det dobbelte og det halve."},
+    "sentence-building": {"full": "At ordne blandede ordkort til en sætning træner ordstilling, stort bogstav og fornemmelsen for, hvornår en sætning er hel.", "short": "Træner ordstilling og sætningsbygning."},
+    "capitals-punctuation": {"full": "At skrive hver sætning om med stort bogstav og det rigtige tegn til sidst fæstner de regler, der gør en tekst læselig.", "short": "Træner stort bogstav og punktum."},
+    "word-classes": {"full": "At sortere ord i navneord, udsagnsord og tillægsord opbygger de ordklasser, børn skal bruge for at kunne tale om sproget.", "short": "Træner at kende ordklasserne."},
+    "calendar": {"full": "At aflæse datoer, ugedage og uger i en rigtig månedskalender træner præcis det, børn har brug for i hverdagen.", "short": "Træner at læse kalenderen."},
+    "picture-writing": {"full": "At skrive til et billede med ordbank og sætningsstartere gør den tomme linje til en første lille fortælling, barnet selv har lavet.", "short": "Træner at skrive til et billede."},
+    "grid-coordinates": {"full": "At finde hvert felt ud fra bogstav og tal og farvelægge det træner at læse koordinater og afslører et skjult billede.", "short": "Træner at læse koordinater i kvadratnet."}
+  },
+  "topicMeta": {
+    "word-tracing": "Skriv ordene efter: se på billedet, skriv oven i ordet på skrivelinjen, og skriv det derefter selv. Gratis PDF'er til print.",
+    "dot-to-dot": "Prik til prik for børn: tegn streger mellem prikkerne i den rigtige rækkefølge, til billedet kommer frem – tal til 20 og videre. Gratis PDF'er til print.",
+    "grid-copy": "Tegn efter i kvadratnet: farvelæg billedet felt for felt i det tomme kvadratnet. Gratis PDF'er til print.",
+    "singular-plural": "Opgaver med ental og flertal: ét billede, flere billeder – skriv oven i og skriv selv flertalsformen af hvert navneord. Gratis PDF'er til print.",
+    "articles": "Opgaver med en eller et: sæt ring om det rigtige ord foran hvert billedord, og træn en-ord og et-ord. Gratis PDF'er til print.",
+    "read-and-color": "Læs og farvelæg: læs hver sætning, og farvelæg billederne præcis, som der står, i den rigtige farve. Gratis PDF'er til print.",
+    "number-of-the-day": "Dagens tal: skriv tallet med bogstaver, i tiere og enere, før og efter, 10 mere og 10 mindre og på tallinjen. Gratis PDF'er til print.",
+    "write-the-word": "Skriv ordet til billedet: fra ordbank og bogstavfelter til at skrive hele ordet selv. Gratis PDF'er til print.",
+    "alphabetical-order": "Opgaver med alfabetisk rækkefølge: sortér billedordene efter alfabetet ved hjælp af bogstavrækken. Gratis PDF'er til print.",
+    "number-walls": "Talpyramider: fyld hver sten med summen af de to sten under den – plus op til 20. Gratis PDF'er til print.",
+    "doubles-halves": "Det dobbelte og det halve: find det dobbelte af gruppen, det halve af gruppen, og skriv tallet. Gratis PDF'er til print.",
+    "sentence-building": "Byg sætninger: sæt ordkortene i den rigtige rækkefølge, og skriv sætningen på linjen. Gratis PDF'er til print.",
+    "capitals-punctuation": "Stort bogstav og punktum: skriv hver sætning om med stort begyndelsesbogstav og punktum eller spørgsmålstegn. Gratis PDF'er til print.",
+    "word-classes": "Ordklasser: sortér ordene i navneord, udsagnsord og tillægsord. Gratis PDF'er til print.",
+    "calendar": "Læs kalenderen: aflæs månedskalenderen, og svar på spørgsmål om datoer, ugedage og uger. Gratis PDF'er til print.",
+    "picture-writing": "Skriv til billedet: skriveopgaver med ordbank og sætningsstartere, hvor barnet skriver sin egen lille tekst til billedet. Gratis PDF'er til print.",
+    "grid-coordinates": "Koordinater i kvadratnet: farvelæg felterne ud fra bogstav og tal, som B2, til det skjulte billede kommer frem. Gratis PDF'er til print."
+  },
+  "colorWords": {"orange": "orange", "purple": "lilla", "brown": "brun", "pink": "lyserød"},
+  "figureNames": {
+    "star": "Stjerne", "house": "Hus", "boat": "Båd", "rocket": "Raket", "fish": "Fisk", "kite": "Drage", "heart": "Hjerte", "butterfly": "Sommerfugl",
+    "tree": "Træ", "car": "Bil", "cat": "Kat", "ice-cream": "Is", "umbrella": "Paraply", "whale": "Hval", "sailboat": "Sejlbåd", "crown": "Krone",
+    "duck": "And", "flag": "Flag", "cup": "Kop", "boot": "Støvle", "key": "Nøgle", "cherries": "Kirsebær", "elephant": "Elefant", "bird": "Fugl", "giraffe": "Giraf"
+  },
+  "labels": {
+    "numberOfDay": {
+      "numberWord": "Skriv tallet med bogstaver", "tensOnes": "Tiere og enere", "tens": "tiere", "ones": "enere",
+      "tenFrames": "Vis tallet i tierrammer", "tally": "Tællestreger", "beforeAfter": "Før og efter",
+      "numberLine": "Find tallet på tallinjen", "drawIt": "Tegn tiere og enere",
+      "tenMoreLess": "10 mere, 10 mindre", "oneMoreLess": "1 mere, 1 mindre",
+      "countOn": "Tæl videre", "countBack": "Tæl tilbage", "countOnTens": "Tæl videre med tiere"
+    },
+    "doublesHalves": {"double": "det dobbelte", "half": "det halve"},
+    "singularPlural": {"one": "ental", "many": "flertal"},
+    "pictureWriting": {
+      "d1": ["Jeg ser", "Her er", "Der er"],
+      "d2": ["En dag", "Så"]
+    },
+    "fixChecklist": {"capital": "Stort bogstav", "name": "Navne", "end": "Tegn til sidst"},
+    "articles": {"title": "en eller et?"},
+    "calendar": {"monthTitle": "{month} {year}"}
+  },
+  "calendar": {
+    "weekStart": 1,
+    "ordinalStyle": "dot",
+    "dayPlural": ["søndage", "mandage", "tirsdage", "onsdage", "torsdage", "fredage", "lørdage"],
+    "frames": {
+      "dayOfDate": "Hvilken ugedag er den {date} i denne måned?",
+      "countWeekday": "Hvor mange {dayPlural} er der i denne måned?",
+      "stickerDate": "Hvilken dato sidder {sticker} på?",
+      "weekLater": "I dag er det den {date} Hvilken dato er det præcis en uge senere?",
+      "daysInMonth": "Hvor mange dage har denne måned?",
+      "firstDay": "Hvilken ugedag er den første dag i måneden?",
+      "lastDay": "Hvilken ugedag er den sidste dag i måneden?",
+      "after": "Hvor mange dage efter {stickerA} kommer {stickerB}?"
+    }
+  },
+  "sentences": {
+    "nounCase": "lower",
+    "endSpace": false,
+    "names": ["Ida", "William", "Freja", "Oscar", "Alma", "Noah", "Clara", "Emil"],
+    "colorWords": {"red": "røde", "blue": "blå", "yellow": "gule", "green": "grønne", "orange": "orange", "purple": "lilla", "brown": "brune", "pink": "lyserøde"},
+    "nounForms": {},
+    "fixLabels": {"capital": "Stort bogstav", "name": "Navne", "end": "Tegn til sidst"},
+    "frames": [
+      {"id": "c1", "kind": "color", "text": "Farv {n} {noun} {color}.", "noun": "pl"},
+      {"id": "c2", "kind": "color", "text": "Find {n} {noun}, og farv dem {color}.", "noun": "pl"},
+      {"id": "c3", "kind": "color", "text": "Farvelæg {n} {noun} {color}.", "noun": "pl"},
+      {"id": "c4", "kind": "color", "text": "Tæl {n} {noun}, og farv dem {color}.", "noun": "pl"},
+      {"id": "s1", "kind": "simple", "text": "{name} ser tre {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s2", "kind": "simple", "text": "{name} har mange {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s3", "kind": "simple", "text": "Hvor er alle {noun}?", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s4", "kind": "simple", "text": "{name} tæller alle {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s5", "kind": "simple", "text": "Kan du finde to {noun}?", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s6", "kind": "simple", "text": "{name} og {name} kigger på {noun}.", "noun": "pl", "uses": ["fix"]},
+      {"id": "s7", "kind": "simple", "text": "{name} kan godt lide {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s8", "kind": "simple", "text": "Sikke nogle flotte {noun}!", "noun": "pl", "uses": ["fix"], "exclaimStrict": true},
+      {"id": "s9", "kind": "simple", "text": "{name} ønsker sig fem {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s10", "kind": "simple", "text": "Har du set mine {noun}?", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s11", "kind": "simple", "text": "{name} tegner tre {noun} til {name}.", "noun": "pl", "uses": ["fix"]},
+      {"id": "s12", "kind": "simple", "text": "Mine {noun} er rigtig flotte.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s13", "kind": "simple", "text": "{name} finder to {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s14", "kind": "simple", "text": "Alle {noun} er store.", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s15", "kind": "simple", "text": "Hvem har flest {noun}?", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s16", "kind": "simple", "text": "{name} leder efter {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]}
+    ]
+  },
+  "wordClasses": {
+    "terms": {"noun": "Navneord", "verb": "Udsagnsord", "adj": "Tillægsord"},
+    "chipCase": "lower",
+    "chipCaseD3": "lower",
+    "verbs": [
+      {"w": "løbe", "tier": 1}, {"w": "hoppe", "tier": 1}, {"w": "sove", "tier": 1}, {"w": "spise", "tier": 1}, {"w": "synge", "tier": 1}, {"w": "læse", "tier": 1},
+      {"w": "svømme", "tier": 1}, {"w": "lege", "tier": 1}, {"w": "sidde", "tier": 1}, {"w": "drikke", "tier": 1}, {"w": "klatre", "tier": 2}, {"w": "grine", "tier": 2},
+      {"w": "tegne", "tier": 2}, {"w": "vaske", "tier": 2}, {"w": "skubbe", "tier": 2}, {"w": "trække", "tier": 2}, {"w": "kaste", "tier": 2}, {"w": "gribe", "tier": 2},
+      {"w": "danse", "tier": 2}, {"w": "gemme", "tier": 2}, {"w": "lede", "tier": 2}, {"w": "hviske", "tier": 3}, {"w": "vandre", "tier": 3}, {"w": "fnise", "tier": 3},
+      {"w": "samle", "tier": 3}, {"w": "lytte", "tier": 3}, {"w": "bære", "tier": 3}, {"w": "bygge", "tier": 3}, {"w": "råbe", "tier": 3}, {"w": "bage", "tier": 3}
+    ],
+    "adjectives": [
+      {"w": "stor", "tier": 1}, {"w": "lille", "tier": 1}, {"w": "rød", "tier": 1}, {"w": "blå", "tier": 1}, {"w": "varm", "tier": 1}, {"w": "kold", "tier": 1},
+      {"w": "blød", "tier": 1}, {"w": "lang", "tier": 1}, {"w": "våd", "tier": 1}, {"w": "glad", "tier": 1}, {"w": "hurtig", "tier": 1}, {"w": "langsom", "tier": 1},
+      {"w": "gul", "tier": 1}, {"w": "grøn", "tier": 1}, {"w": "ny", "tier": 1}, {"w": "rolig", "tier": 2}, {"w": "blank", "tier": 2}, {"w": "nuttet", "tier": 2},
+      {"w": "tung", "tier": 2}, {"w": "sød", "tier": 2}, {"w": "lillebitte", "tier": 2}, {"w": "høj", "tier": 2}, {"w": "modig", "tier": 2}, {"w": "rund", "tier": 2},
+      {"w": "venlig", "tier": 3}, {"w": "nysgerrig", "tier": 3}, {"w": "træt", "tier": 3}, {"w": "klog", "tier": 3}, {"w": "ujævn", "tier": 3}, {"w": "sjov", "tier": 3}
+    ],
+    "nounExclude": ["kort", "lime", "gynge", "drage", "får", "tog", "grib", "abe", "krabbe", "kaki", "fisk"]
+  },
+  "shopFrames": {
+    "yes": "ja", "no": "nej",
+    "frames": {
+      "total": [
+        "{name} køber {item1} og {item2}. Hvor meget skal {name} betale?",
+        "{name} lægger {item1} og {item2} i kurven. Hvor meget koster det tilsammen?",
+        "{name} vil have {item1} og {item2}. Hvor meget koster det i alt?"
+      ],
+      "total3": [
+        "{name} køber {item1}, {item2} og {item3}. Hvor meget skal {name} betale?",
+        "{name} tager {item1}, {item2} og {item3}. Hvor meget koster det tilsammen?"
+      ],
+      "change": [
+        "{name} køber {item1} og betaler med {coins} Hvor meget får {name} tilbage?",
+        "{name} betaler for {item1} med {coins} Hvor mange penge får {name} tilbage?"
+      ],
+      "canBuy": [
+        "{name} har {money} i pungen. Er der penge nok til {item1} og {item2}? Sæt ring om ja eller nej. Skriv, hvad det koster tilsammen.",
+        "{name} har {money} med. Kan {name} købe {item1} og {item2}? Sæt ring om ja eller nej. Skriv prisen i alt."
+      ],
+      "diff": [
+        "Hvor meget dyrere er {item1} end {item2}?",
+        "{item1} koster mere end {item2}. Hvor meget mere?"
+      ]
+    }
+  },
+  "wpMulDiv": {
+    "nounForm": "plural",
+    "nounCase": "lower",
+    "names": ["Ida", "William", "Freja", "Oscar", "Alma", "Noah", "Clara", "Emil"],
+    "frames": {
+      "mul": [
+        "{name} har {n1} kasser. I hver kasse er der {n2} {noun}. Hvor mange {noun} har {name} i alt?",
+        "{name} fylder {n1} poser med {n2} {noun} i hver pose. Hvor mange {noun} er det tilsammen?",
+        "{name} stiller {n1} rækker med {n2} {noun} i hver række. Hvor mange {noun} er der i alt?",
+        "{name} ser {n1} grupper med {n2} {noun} i hver gruppe. Hvor mange {noun} ser {name}?"
+      ],
+      "share": [
+        "{name} deler {n1} {noun} ligeligt mellem {n2} venner. Hvor mange {noun} får hver ven?",
+        "{name} lægger {n1} {noun} i {n2} kasser med lige mange i hver. Hvor mange {noun} er der i hver kasse?",
+        "{name} stiller {n1} {noun} i {n2} lige lange rækker. Hvor mange {noun} står der i hver række?"
+      ],
+      "group": [
+        "{name} har {n1} {noun}. {name} lægger {n2} {noun} i hver pose. Hvor mange poser bliver det?",
+        "Der er {n1} {noun}. {name} laver grupper med {n2} {noun} i hver. Hvor mange grupper bliver det?",
+        "{name} stiller {n1} {noun} i rækker med {n2} {noun} i hver række. Hvor mange rækker bliver det?"
+      ]
+    }
+  },
+  "articles": {
+    "refuse": false,
+    "refuseKeys": ["blocks", "crayons", "chess", "lego", "domino", "dice"],
+    "note": "en/et keyed off the vocab gender (n = fælleskøn → 'en', t = intetkøn → 'et'); this IS the børnehaveklasse/1. klasse drill 'en eller et?'. Title 'En eller et?' is the genre phrase Danish teachers search. REFUSE (keyFor → null) the toys entries whose stored singular is a plural or a mass/game noun: blocks 'Klodser' and dice 'Terninger' (a lone 'en' before a plural is wrong — both are vocab defects, see enAudit), chess 'Skak' (a game — 'et skakspil', never 'en skak'), lego 'Lego' (mass noun), domino 'Domino' (the piece is 'en dominobrik'), crayons 'Farvekridt' (the picture shows several crayons; 'et farvekridt' would name one). The wave rule (fruits/vehicles/toys before animals) is necessary but not sufficient for da: the colour animals theme has TWO et-nouns (får, rensdyr) in 37, so a 6-card animals page is 'en' six times and teaches nothing — the panel asks the generator to refuse a theme for da when it cannot place ≥ 2 et-nouns on the page. Fruits (æble, granatæble and all the -bær nouns: brombær, blåbær, kirsebær, tranebær, jordbær, hindbær = 8 et-nouns), vehicles (jetfly, løbehjul, skib, skateboard, tog = 5) and toys (kort, løbehjul, skateboard, tog = 4 after the refusals) all key cleanly."
+  },
+  "enAudit": [
+    "Calendar month heading renders monthNames[m] verbatim as '{month} {year}', and da stores lowercase month names (as do sv/fr/es/nl/it/pt/no/fi) — 'marts 2027' as a page heading is a visible defect; monthTitle needs a capitalise-first flag (or the renderer upper-cases the heading's first letter). EN/DE hide it because their month names are capitalised nouns.",
+    "da vocab, vehicles: 'crane' is stored as 'Trane/Traner' — that is the BIRD (Grus grus); the vehicle is 'kran/kraner' (a mobile crane = 'mobilkran'). Same defect as the sv 'Trana' finding; every da page drawing the vehicles theme (K-284, G1-244, G1-245, G2-278 word bank, G3-370) can label a crane truck 'trane'. Vocab SoT defect — operator-approved edit needed (§10.3).",
+    "da vocab, toys: 'dice' is stored as 'Terninger/Terningere' — the stored SINGULAR is already the plural, and 'terningere' is not a Danish word. Correct = 'terning/terninger'. K-287's prefix filter accepts it, so 'terninger → terningere' can ship as a plural to trace; K-288 would print 'en' before a plural. The da draft refuses the key on K-288; the vocab needs the fix.",
+    "da vocab, toys: 'blocks' is stored as 'Klodser/Klodser' — plural as singular (correct 'klods/klodser'). K-287 skips it (plural === singular) and the da K-288 note refuses it, but G1-244 / G2-275 / G2-278 print 'klodser' beside a single-item picture card. Vocab fix.",
+    "da vocab, vehicles + toys: 'scooter' = 'Løbehjul' (a KICK scooter) but the picture is a Vespa-style motor scooter — visible three times on the G2-278 vehicles render and in its word bank. Danish for that picture is 'scooter/scootere'. Picture-word mismatch in the vocab SoT.",
+    "da vocab, toys bw: 'tank' = 'Tank/Tanke' — to a Danish child the toy is a 'kampvogn'; 'tank' is a fuel tank and the plural 'tanke' is also 'thoughts'. 'loader' = 'Læsser/Læssere' names a PERSON who loads; the machine is 'gummiged' (or 'læssemaskine'). Both are B&W-theme-only, so only G1-242 read-and-color draws them, but they should be corrected in the vocab. [NSR-FLAG] on 'gummiged' vs 'læssemaskine' preference.",
+    "da vocab, toys: 'girl' = 'Pige/Piger' sits in a TOYS theme (a child is not a toy) — on G2-275 d1/d2 the chip carries a girl picture beside 'skateboard' and 'dinosaur' as a noun; consider dropping the entry from the toys theme in every locale (the sv panel found the same).",
+    "CURRENCIES.da.unit is 'kr.' WITH the abbreviation period, so '{money}' renders '6 kr.' — any frame that places a sentence period straight after the slot yields 'kr..' (Danish writes one period when an abbreviation ends a sentence). The EN/DE/SV canBuy frames all have '{money}.' — a direct port would ship 'kr..' in every da canBuy line. The da draft restructures both frames ('har {money} i pungen. …' / 'har {money} med. …'); the renderer's answer-box chrome must likewise never append '.' after the unit. The validator cannot see this (it only checks slots), so it is recorded here.",
+    "calendar.js ordinalStyle 'dot' makes '{date}' render '15.' for da — the same double-period trap: a frame ending a sentence right after {date} needs NO extra period (the da weekLater frame follows the de pattern 'I dag er det den {date} Hvilken dato …'). Worth a validator check for the dot-style locales (de/da/no/fi): reject '{date}.' in a frame.",
+    "G1-243 EN instruction 'Fill in every box on the page for that number' contradicts the 'Before and after', 'Ten more, ten less', 'Count on' and 'Count back' cells, which ask for OTHER numbers. The da instruction says 'Udfyld hvert felt på siden ved hjælp af tallet' (using the number) for that reason.",
+    "G1-247 EN instruction 'Find the double of each group and the half of each group' — every group is EITHER double OR half (the pill above it says which); 'each group … and … each group' tells the child to do both to every group. The da instruction points at the pill: 'Se på mærkaten over hver gruppe: det dobbelte eller det halve.'",
+    "G2-276 render: the end mark after an inline picture floats — 'Emma buys [pear] and [fig] . How much' and 'with (25) . How much'; the inline-image span carries a trailing margin so the '.' is separated from the image by a visible gap. Either the renderer trims the right margin before punctuation or every locale keeps dropping the period after {coins} (de/sv already do; the da change frames follow them).",
+    "G1-242 EN c3 'Make {n} {noun} {color}.' is not a colouring instruction a 6-year-old reads as 'colour', and c4 '{name} colors {n} {noun} {color}.' is a statement about Mia, not an instruction — on a read-and-DO page a child can read it and colour nothing. The da bank authors all four colour frames as imperatives (Farv / Farvelæg / Find … og farv / Tæl … og farv).",
+    "G1-249 / G2-274 EN simple frames are theme-blind: s2 '{name} feeds the {noun}.' renders 'Ben feeds the bicycle.' on the vehicles wave, and s6 'The {noun} is in the box.' shipped as 'the forklift is in the box' on the G2-274 vehicles probe (visible in the render). The da bank keeps every verb theme-neutral (ser, har, tæller, finder, kan godt lide, ønsker sig, kigger på, leder efter).",
+    "G1-244 d2 render shows BOTH the three-line ruling AND the dashed letter-count boxes under each picture, so the child has two places to write while the instruction says 'write the word on the line'; the amendment describes the boxes as the writing surface at d2 — one of the two should go, and the instruction should name whichever stays.",
+    "G3-370 EN mul frame 'Leo sees 2 rows of oranges. Each row has 5 oranges.' is drawn as two GROUP boxes each holding 4 + 1 oranges (fruits render) — not rows. Either the 'rows' frames get a row layout or they should say 'groups'; the da mul frames keep 'rækker' only where the picture is honest (the same generic group art will contradict 'rækker' too — the renderer should pick row art for row frames).",
+    "G3-370 EN share/group frames carry plural containers ('{n2} friends', '{n1} boxes') with no guard against a factor of 1 ('1 friends'); verify the factor range is ≥ 2 on BOTH slots — every locale's plural container ('venner', 'kasser', 'poser' in da) inherits the risk.",
+    "G2-275 d3 relies on nounExclude, but the validator only checks homographs of the panel's OWN verb/adjective chips against vocab singulars — it cannot see that a vocab noun is a homograph of a Danish verb/adjective the panel did NOT list (da 'kort' = cards / short, 'lime' = lime / to glue, 'gynge' = swing / to swing, 'drage' = kite / to travel, 'får' = sheep / gets, 'tog' = train / took, 'grib' = vulture / grab!, 'abe' = monkey / to ape, 'krabbe' = crab / to crawl, 'kaki' = persimmon / khaki). The da nounExclude lists all ten by hand; the structural check would be 'vocab singular ∈ a per-locale function-word/verb/adjective list'.",
+    "K-285 EN title 'Dot-to-Dot 1 to 20' is true only at d2 (d1 = window 1…10 with the rest pre-printed, d3 = 11…30) — the range should be a level subtitle, not the family title. da title is the bare genre name 'Prik til prik'.",
+    "K-287 EN pills '1 · one' / '2 · 3 · many' and the title 'Singular and Plural' use two vocabularies on one page (one/many vs singular/plural); da uses the school terms on both title and pills ('ental' / 'flertal') and lets the numerals 1 / 2 · 3 carry the meaning.",
+    "Two-line titles: 'Nouns, Verbs, and Adjectives' and 'Multiplication and Division Word Problems' wrap in the header and push the Name/Date field down (visible in both renders). da 'Navneord, udsagnsord og tillægsord' (34) and 'Regnehistorier med gange og division' (36) will wrap the same way — either the header shrinks long titles or the family names get a short form for the page header.",
+    "G2-279 render: the second colour group holds ONE coordinate (yellow D3) against 24 blue — a one-cell colour group is a legend entry without a shape and looks like a mistake on the page. When a pixel figure's secondary colour has fewer than ~3 cells, merge it into the main colour or pick a figure with a real second colour.",
+    "G2-274 EN checklist chip 'Names' is shown on every page, but only the frames carrying {name} test it; on a page where the picked frames have no name the chip asks the child to check something absent. Minor — either pick ≥ 1 name frame per page or hide the chip when none is present.",
+    "K-284 EN instruction promises 'the empty lines' (plural) — at d2 the render shows one traced line + two empty rulings, fine; at d1 (if only one empty line ships) the plural is wrong. The da instruction says 'de tomme linjer' too — verify d1 ships ≥ 2 empty lanes or make the instruction number-neutral."
+  ]
+}

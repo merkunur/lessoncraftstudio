@@ -104,6 +104,83 @@ const CALENDAR_FRAMES = {
       "sextas-feiras",
       "sábados"
     ]
+  },
+  "it": {
+    "frames": {
+      "dayOfDate": "Che giorno della settimana è il {date}?",
+      "countWeekday": "Quanti giorni di questo mese sono {dayPlural}?",
+      "stickerDate": "In quale giorno del mese c'è {sticker}?",
+      "weekLater": "Che data è una settimana dopo il {date}?",
+      "daysInMonth": "Quanti giorni ha questo mese?",
+      "firstDay": "Che giorno della settimana è il primo giorno del mese?",
+      "lastDay": "Che giorno della settimana è l'ultimo giorno del mese?",
+      "after": "Quanti giorni dopo {stickerA} c'è {stickerB}?"
+    },
+    "weekStart": 1,
+    "dayAbbr": [
+      "dom",
+      "lun",
+      "mar",
+      "mer",
+      "gio",
+      "ven",
+      "sab"
+    ],
+    "dayPlural": [
+      "domeniche",
+      "lunedì",
+      "martedì",
+      "mercoledì",
+      "giovedì",
+      "venerdì",
+      "sabati"
+    ]
+  },
+  "nl": {
+    "frames": {
+      "dayOfDate": "Welke dag van de week is de {date}?",
+      "countWeekday": "Hoeveel {dayPlural} heeft deze maand?",
+      "stickerDate": "Op welke datum staat {sticker}?",
+      "weekLater": "Welke datum is het een week na de {date}?",
+      "daysInMonth": "Hoeveel dagen heeft deze maand?",
+      "firstDay": "Op welke dag van de week valt de eerste dag van de maand?",
+      "lastDay": "Op welke dag van de week valt de laatste dag van de maand?",
+      "after": "Hoeveel dagen na {stickerA} komt {stickerB}?"
+    },
+    "weekStart": 1,
+    "dayPlural": [
+      "zondagen",
+      "maandagen",
+      "dinsdagen",
+      "woensdagen",
+      "donderdagen",
+      "vrijdagen",
+      "zaterdagen"
+    ],
+    "ordinalStyle": "nl"
+  },
+  "sv": {
+    "frames": {
+      "dayOfDate": "Vilken veckodag är den {date} i den här månaden?",
+      "countWeekday": "Hur många {dayPlural} finns det i den här månaden?",
+      "stickerDate": "På vilket datum sitter {sticker}?",
+      "weekLater": "I dag är det den {date}. Vilket datum är det exakt en vecka senare?",
+      "daysInMonth": "Hur många dagar har den här månaden?",
+      "firstDay": "Vilken veckodag är den första dagen i månaden?",
+      "lastDay": "Vilken veckodag är den sista dagen i månaden?",
+      "after": "Hur många dagar efter {stickerA} kommer {stickerB}?"
+    },
+    "weekStart": 1,
+    "dayPlural": [
+      "söndagar",
+      "måndagar",
+      "tisdagar",
+      "onsdagar",
+      "torsdagar",
+      "fredagar",
+      "lördagar"
+    ],
+    "ordinalStyle": "sv"
   }
 };
 

@@ -166,6 +166,102 @@ const WP_MULDIV = {
         "{name} guarda {n1} {noun} em caixas de {n2} {noun}. De quantas caixas {name} precisa?"
       ]
     }
+  },
+  "it": {
+    "nounForm": "plural",
+    "nounCase": "lower",
+    "names": [
+      "Sofia",
+      "Leonardo",
+      "Giulia",
+      "Francesco",
+      "Aurora",
+      "Lorenzo",
+      "Alice",
+      "Matteo"
+    ],
+    "frames": {
+      "mul": [
+        "{name} forma {n1} gruppi di {noun}. In ogni gruppo ci sono {n2} {noun}. Qual è il totale di {noun}?",
+        "{name} sistema {n1} file di {noun} con {n2} {noun} in ogni fila. Qual è il totale di {noun}?",
+        "{name} conta {n1} gruppi di {noun}. Ogni gruppo ha {n2} {noun}. Qual è il totale di {noun}?",
+        "{name} vede {n1} file di {noun}. In ogni fila ci sono {n2} {noun}. Qual è il totale di {noun}?"
+      ],
+      "share": [
+        "{name} divide {n1} {noun} in parti uguali fra {n2} amici. Qual è il numero di {noun} di ogni amico?",
+        "{name} mette {n1} {noun} in {n2} scatole, con lo stesso numero in ogni scatola. Qual è il numero di {noun} in ogni scatola?",
+        "{name} forma {n2} gruppi uguali con {n1} {noun}. Qual è il numero di {noun} in ogni gruppo?"
+      ],
+      "group": [
+        "{name} ha {n1} {noun}. {name} mette {n2} {noun} in ogni scatola. Quante scatole riempie {name}?",
+        "Ci sono {n1} {noun}. {name} forma gruppi di {n2} {noun}. Quanti gruppi forma {name}?",
+        "{name} sistema {n1} {noun} in file di {n2} {noun}. Quante file forma {name}?"
+      ]
+    }
+  },
+  "nl": {
+    "nounForm": "plural",
+    "nounCase": "lower",
+    "names": [
+      "Emma",
+      "Daan",
+      "Julia",
+      "Sem",
+      "Tess",
+      "Finn",
+      "Lotte",
+      "Luuk"
+    ],
+    "frames": {
+      "mul": [
+        "{name} heeft {n1} dozen. In elke doos zitten {n2} {noun}. Hoeveel {noun} heeft {name} in totaal?",
+        "{name} maakt {n1} groepjes van {n2} {noun}. Hoeveel {noun} zijn dat bij elkaar?",
+        "{name} ziet {n1} rijen met {n2} {noun}. Hoeveel {noun} zijn dat samen?",
+        "{name} vult {n1} zakken met elk {n2} {noun}. Hoeveel {noun} zijn dat in totaal?"
+      ],
+      "share": [
+        "{name} verdeelt {n1} {noun} eerlijk over {n2} kinderen. Hoeveel {noun} krijgt elk kind?",
+        "{name} doet {n1} {noun} eerlijk in {n2} dozen. Hoeveel {noun} komen er in elke doos?",
+        "{name} maakt van {n1} {noun} precies {n2} gelijke groepjes. Hoeveel {noun} zitten er in elk groepje?"
+      ],
+      "group": [
+        "{name} heeft {n1} {noun}. {name} doet {n2} {noun} in elke doos. Hoeveel dozen heeft {name} nodig?",
+        "Er zijn {n1} {noun}. {name} maakt groepjes van {n2} {noun}. Hoeveel groepjes zijn dat?",
+        "{name} zet {n1} {noun} in rijen van {n2} {noun}. Hoeveel rijen maakt {name}?"
+      ]
+    }
+  },
+  "sv": {
+    "nounForm": "plural",
+    "nounCase": "lower",
+    "names": [
+      "Elsa",
+      "Hugo",
+      "Alma",
+      "Liam",
+      "Maja",
+      "Oscar",
+      "Vera",
+      "Elias"
+    ],
+    "frames": {
+      "mul": [
+        "{name} har {n1} lådor. I varje låda ligger {n2} {noun}. Hur många {noun} har {name} sammanlagt?",
+        "{name} fyller {n1} påsar med {n2} {noun} i varje påse. Hur många {noun} blir det tillsammans?",
+        "{name} ställer upp {n1} rader med {n2} {noun} i varje rad. Hur många {noun} är det sammanlagt?",
+        "{name} ser {n1} grupper med {n2} {noun} i varje grupp. Hur många {noun} ser {name}?"
+      ],
+      "share": [
+        "{name} delar {n1} {noun} lika mellan {n2} kompisar. Hur många {noun} får varje kompis?",
+        "{name} lägger {n1} {noun} i {n2} lådor, lika många i varje. Hur många {noun} ligger i varje låda?",
+        "{name} ställer {n1} {noun} i {n2} lika långa rader. Hur många {noun} står i varje rad?"
+      ],
+      "group": [
+        "{name} har {n1} {noun}. {name} lägger {n2} {noun} i varje påse. Hur många påsar blir det?",
+        "Det finns {n1} {noun}. {name} gör grupper med {n2} {noun} i varje. Hur många grupper blir det?",
+        "{name} ställer {n1} {noun} i rader med {n2} {noun} i varje rad. Hur många rader blir det?"
+      ]
+    }
   }
 };
 

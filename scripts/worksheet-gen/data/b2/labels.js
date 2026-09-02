@@ -246,6 +246,150 @@ const LABELS = {
     "calendar": {
       "monthTitle": "{month} de {year}"
     }
+  },
+  "it": {
+    "numberOfDay": {
+      "numberWord": "Scrivi il numero in lettere",
+      "tensOnes": "Decine e unità",
+      "tens": "decine",
+      "ones": "unità",
+      "tenFrames": "Mostralo nelle tabelle del 10",
+      "tally": "Segna con le stanghette",
+      "beforeAfter": "Prima e dopo",
+      "numberLine": "Trovalo sulla linea dei numeri",
+      "drawIt": "Disegnalo con i blocchi",
+      "tenMoreLess": "10 in più, 10 in meno",
+      "oneMoreLess": "1 in più, 1 in meno",
+      "countOn": "Conta in avanti",
+      "countBack": "Conta all'indietro",
+      "countOnTens": "Conta di 10 in 10"
+    },
+    "doublesHalves": {
+      "double": "il doppio",
+      "half": "la metà"
+    },
+    "singularPlural": {
+      "one": "uno",
+      "many": "tanti"
+    },
+    "pictureWriting": {
+      "d1": [
+        "Io vedo",
+        "Nell'immagine vedo",
+        "Mi piace"
+      ],
+      "d2": [
+        "Un giorno,",
+        "Poi"
+      ]
+    },
+    "fixChecklist": {
+      "capital": "Maiuscola",
+      "name": "Nomi propri",
+      "end": "Punteggiatura"
+    },
+    "articles": {
+      "title": "Quale articolo?"
+    },
+    "calendar": {
+      "monthTitle": "{month} {year}"
+    }
+  },
+  "nl": {
+    "numberOfDay": {
+      "numberWord": "Schrijf het getal in woorden",
+      "tensOnes": "Tientallen en eenheden",
+      "tens": "tientallen",
+      "ones": "eenheden",
+      "tenFrames": "Laat het zien in tienramen",
+      "tally": "Turf het",
+      "beforeAfter": "Ervoor en erna",
+      "numberLine": "Zoek het op de getallenlijn",
+      "drawIt": "Teken het met blokjes",
+      "tenMoreLess": "10 meer, 10 minder",
+      "oneMoreLess": "1 meer, 1 minder",
+      "countOn": "Tel verder",
+      "countBack": "Tel terug",
+      "countOnTens": "Tel verder met tientallen"
+    },
+    "doublesHalves": {
+      "double": "verdubbelen",
+      "half": "halveren"
+    },
+    "singularPlural": {
+      "one": "enkelvoud",
+      "many": "meervoud"
+    },
+    "pictureWriting": {
+      "d1": [
+        "Ik zie",
+        "Dit is",
+        "Er is"
+      ],
+      "d2": [
+        "Op een dag",
+        "Toen"
+      ]
+    },
+    "fixChecklist": {
+      "capital": "Hoofdletter",
+      "name": "Namen",
+      "end": "Leesteken"
+    },
+    "articles": {
+      "title": "de of het?"
+    },
+    "calendar": {
+      "monthTitle": "{month} {year}"
+    }
+  },
+  "sv": {
+    "numberOfDay": {
+      "numberWord": "Skriv talet med bokstäver",
+      "tensOnes": "Tiotal och ental",
+      "tens": "tiotal",
+      "ones": "ental",
+      "tenFrames": "Visa talet i tiorutor",
+      "tally": "Räknestreck",
+      "beforeAfter": "Före och efter",
+      "numberLine": "Hitta talet på tallinjen",
+      "drawIt": "Rita med tiotal och ental",
+      "tenMoreLess": "10 mer, 10 mindre",
+      "oneMoreLess": "1 mer, 1 mindre",
+      "countOn": "Räkna vidare",
+      "countBack": "Räkna bakåt",
+      "countOnTens": "Räkna vidare med tiotal"
+    },
+    "doublesHalves": {
+      "double": "dubbelt",
+      "half": "hälften"
+    },
+    "singularPlural": {
+      "one": "singular",
+      "many": "plural"
+    },
+    "pictureWriting": {
+      "d1": [
+        "Jag ser",
+        "Här är",
+        "Det finns"
+      ],
+      "d2": [
+        "En dag",
+        "Sedan"
+      ]
+    },
+    "fixChecklist": {
+      "capital": "Stor bokstav",
+      "name": "Namn",
+      "end": "Skiljetecken"
+    },
+    "articles": {
+      "title": "en eller ett?"
+    },
+    "calendar": {
+      "monthTitle": "{month} {year}"
+    }
   }
 };
 

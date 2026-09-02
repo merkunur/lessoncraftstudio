@@ -190,5 +190,73 @@
   "lowercase-letter-tracing": {
     "full": "Att spåra små bokstäver på skrivlinjer tränar mittenhöjden, staplarna som går upp och svansarna som går under raden.",
     "short": "Tränar att forma små bokstäver rätt."
+  },
+  "word-tracing": {
+    "full": "Att spåra ordet till en bild längs bokstävernas linjer och sedan skriva det själv knyter ihop sak, ord och stavning i ett enda steg.",
+    "short": "Tränar att skriva de första orden efter bild."
+  },
+  "dot-to-dot": {
+    "full": "Att dra streck mellan prickarna i rätt ordning tränar talföljden och pennkontrollen tills en bild kommer fram.",
+    "short": "Tränar talföljd och pennkontroll."
+  },
+  "grid-copy": {
+    "full": "Att rita av en bild ruta för ruta i ett tomt rutnät tränar noggrant seende, rumsuppfattning och ett stadigt handlag.",
+    "short": "Tränar att rita av noggrant i rutnät."
+  },
+  "singular-plural": {
+    "full": "Att se en bild bredvid flera och skriva pluralformen befäster de ändelser som barn hör varje dag men sällan skriver.",
+    "short": "Tränar singular och plural av substantiv."
+  },
+  "articles": {
+    "full": "Att ringa in en eller ett till varje bild bygger den känsla för ordens genus som varje senare mening vilar på.",
+    "short": "Tränar en-ord och ett-ord."
+  },
+  "read-and-color": {
+    "full": "Att läsa en kort mening och måla precis det som står gör avkodningen till verklig läsförståelse som barnet själv kan kontrollera.",
+    "short": "Tränar läsförståelse genom att måla."
+  },
+  "number-of-the-day": {
+    "full": "Att visa ett tal med bokstäver, i tiotal och ental, på tallinjen och med talen före och efter bygger en djup taluppfattning.",
+    "short": "Tränar taluppfattning på många sätt."
+  },
+  "write-the-word": {
+    "full": "Att skriva ordet till varje bild på raden, med eller utan ordbank, tränar ljudenlig stavning från ljud till bokstav.",
+    "short": "Tränar stavning efter bilder."
+  },
+  "alphabetical-order": {
+    "full": "Att ordna bildord i alfabetisk ordning befäster bokstavsföljden och tränar den slagning som varje ordlista kräver.",
+    "short": "Tränar alfabetisk ordning."
+  },
+  "number-walls": {
+    "full": "Att fylla varje sten med summan av de två stenarna under tränar säker addition och att hitta den term som saknas.",
+    "short": "Tränar addition med talpyramider."
+  },
+  "doubles-halves": {
+    "full": "Att räkna dubbelt av en grupp och hälften av en annan befäster dubblorna som öppnar för nära dubblor, jämna tal och multiplikation.",
+    "short": "Tränar dubbelt och hälften."
+  },
+  "sentence-building": {
+    "full": "Att ordna omkastade ordkort till en mening tränar ordföljd, stor bokstav och känslan för när en mening är hel.",
+    "short": "Tränar ordföljd och meningsbyggnad."
+  },
+  "capitals-punctuation": {
+    "full": "Att skriva om varje mening med stor bokstav och rätt skiljetecken befäster de regler som gör en text läsbar.",
+    "short": "Tränar stor bokstav och skiljetecken."
+  },
+  "word-classes": {
+    "full": "Att sortera ord i substantiv, verb och adjektiv bygger de ordklasser som barn behöver för att kunna tala om språket.",
+    "short": "Tränar att känna igen ordklasserna."
+  },
+  "calendar": {
+    "full": "Att läsa av datum, veckodagar och veckor i en riktig månadskalender tränar precis det barn behöver i vardagen.",
+    "short": "Tränar att läsa kalendern."
+  },
+  "picture-writing": {
+    "full": "Att skriva till en bild med ordbank och meningsstarter gör den tomma raden till en första egen liten berättelse.",
+    "short": "Tränar att skriva till en bild."
+  },
+  "grid-coordinates": {
+    "full": "Att hitta varje ruta med bokstav och siffra och måla den tränar att läsa koordinater och avslöjar en dold bild.",
+    "short": "Tränar att läsa koordinater i rutnät."
   }
 }

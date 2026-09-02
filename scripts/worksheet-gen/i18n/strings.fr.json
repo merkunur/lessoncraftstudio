@@ -1721,7 +1721,7 @@
   },
   "G2-297": {
     "title": "Lire le calendrier : un mois bien rempli",
-    "instruction": "Six questions sur un mois bien rempli."
+    "instruction": "Trouve la date une semaine après, et l'écart."
   },
   "G2-298": {
     "title": "Lire le calendrier : les jours",

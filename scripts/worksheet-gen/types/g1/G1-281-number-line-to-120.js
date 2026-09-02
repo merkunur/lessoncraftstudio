@@ -1,0 +1,14 @@
+/** G1-281 — Where on the Number Line? 0 to 120. nt20-B-VAR variation of G1-248. */
+'use strict';
+const base = require('./G1-248-number-line-position.js');
+// One object for all three levels: the waves ship d2 only, so a face must
+// render identically whichever level is asked for. Spreading the base entry
+// (not a JSON literal) carries function-valued params through intact.
+const D = { ...base.difficulty[3], ...{"lines":3,"max":120,"tick":10,"label":5,"pointers":2,"gap":2} };
+module.exports = {
+  ...base,
+  id: 'G1-281',
+  slug: 'number-line-to-120',
+  difficulty: { 1: D, 2: D, 3: D },
+  i18n: { en: { title: "Where on the Number Line? 0 to 120", instruction: "This line goes past 100. Count on in tens to find the number at each arrow." } },
+};

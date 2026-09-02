@@ -312,40 +312,80 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "number-line-to-10",
         "number-line-to-20-fewer-labels",
-        "number-line-to-30"
+        "number-line-to-30",
+        "number-line-to-50",
+        "number-line-to-50-counting-in-fives",
+        "number-line-to-100-counting-in-fives",
+        "number-line-to-100-counting-in-tens",
+        "number-line-to-120"
       ]
     },
     {
       "base": "unscramble-the-sentence-1st-grade",
-      "variations": []
+      "variations": [
+        "unscramble-the-sentence-with-clues",
+        "unscramble-the-sentence-no-clues"
+      ]
     },
     {
       "base": "capital-letters-and-punctuation-fix-the-sentence",
-      "variations": []
+      "variations": [
+        "fix-the-sentence-capital-and-end-mark",
+        "fix-the-sentence-choose-the-end-mark"
+      ]
     },
     {
       "base": "nouns-verbs-adjectives-sort",
-      "variations": []
+      "variations": [
+        "word-classes-sort-nine-words",
+        "word-classes-sort-twelve-words",
+        "word-classes-sort-fifteen-words"
+      ]
     },
     {
       "base": "shopping-math-money-word-problems",
-      "variations": []
+      "variations": [
+        "shopping-math-two-stories",
+        "shopping-math-four-questions",
+        "shopping-math-add-up-the-basket",
+        "shopping-math-buying-three-things",
+        "shopping-math-how-much-change",
+        "shopping-math-is-there-enough-money",
+        "shopping-math-how-much-more"
+      ]
     },
     {
       "base": "reading-a-calendar-2nd-grade",
-      "variations": []
+      "variations": [
+        "read-the-calendar-four-questions",
+        "read-the-calendar-a-busy-month",
+        "read-the-calendar-days-of-the-week"
+      ]
     },
     {
       "base": "picture-writing-prompt-2nd-grade",
-      "variations": []
+      "variations": [
+        "write-about-the-picture-what-you-see",
+        "write-about-the-picture-your-own-words"
+      ]
     },
     {
       "base": "grid-coordinates-color-the-squares",
-      "variations": []
+      "variations": [
+        "grid-coordinates-6x6",
+        "grid-coordinates-10x10"
+      ]
     },
     {
       "base": "multiplication-and-division-word-problems-3rd-grade",
-      "variations": []
+      "variations": [
+        "multiplication-word-problems-3rd-grade",
+        "division-word-problems-sharing",
+        "division-word-problems-making-groups",
+        "division-word-problems-two-ways",
+        "multiply-and-group-word-problems",
+        "multiplication-and-division-word-problems-mixed"
+      ]
     }
   ],
   "de": [
@@ -647,40 +687,80 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "zahlenstrahl-ablesen-bis-10",
         "zahlenstrahl-bis-20-wenige-zahlen",
-        "zahlenstrahl-ablesen-bis-30"
+        "zahlenstrahl-ablesen-bis-30",
+        "zahlenstrahl-ablesen-bis-50",
+        "zahlenstrahl-bis-50-in-fuenferschritten",
+        "zahlenstrahl-bis-100-in-fuenferschritten",
+        "zahlenstrahl-bis-100-in-zehnerschritten",
+        "zahlenstrahl-ablesen-bis-120"
       ]
     },
     {
       "base": "schuettelsaetze-tiere-1-klasse",
-      "variations": []
+      "variations": [
+        "schuettelsaetze-mit-hilfen",
+        "schuettelsaetze-ohne-hilfen"
+      ]
     },
     {
       "base": "satzanfang-und-satzzeichen-2-klasse",
-      "variations": []
+      "variations": [
+        "drei-saetze-berichtigen-2-klasse",
+        "punkt-oder-fragezeichen-setzen"
+      ]
     },
     {
       "base": "wortarten-nomen-verben-adjektive-2-klasse",
-      "variations": []
+      "variations": [
+        "wortarten-sortieren-neun-woerter",
+        "wortarten-sortieren-ohne-bilder",
+        "wortarten-sortieren-fuenfzehn-woerter"
+      ]
     },
     {
       "base": "einkaufen-und-bezahlen-2-klasse",
-      "variations": []
+      "variations": [
+        "einkaufen-zwei-aufgaben",
+        "einkaufen-vier-verschiedene-fragen",
+        "gesamtpreis-berechnen-zwei-waren",
+        "einkaufen-drei-waren-im-korb",
+        "rueckgeld-berechnen-2-klasse",
+        "reicht-das-geld-ja-oder-nein",
+        "preise-vergleichen-wie-viel-teurer"
+      ]
     },
     {
       "base": "kalender-lesen-2-klasse",
-      "variations": []
+      "variations": [
+        "kalender-lesen-vier-fragen",
+        "kalender-lesen-sechs-wochen",
+        "wochentage-im-kalender-finden"
+      ]
     },
     {
       "base": "schreiben-zum-bild-fahrzeuge-2-klasse",
-      "variations": []
+      "variations": [
+        "schreiben-zum-bild-mit-satzanfaengen",
+        "schreiben-zum-bild-ohne-satzanfaenge"
+      ]
     },
     {
       "base": "koordinaten-im-gitter-2-klasse",
-      "variations": []
+      "variations": [
+        "koordinaten-im-6x6-gitter",
+        "koordinaten-im-10x10-gitter"
+      ]
     },
     {
       "base": "sachaufgaben-malnehmen-und-teilen-3-klasse",
-      "variations": []
+      "variations": [
+        "sachaufgaben-zum-malnehmen-3-klasse",
+        "sachaufgaben-zum-verteilen-3-klasse",
+        "sachaufgaben-gruppen-bilden-3-klasse",
+        "sachaufgaben-teilen-auf-zwei-wegen",
+        "sachaufgaben-malnehmen-und-gruppen-bilden",
+        "sachaufgaben-mal-und-geteilt-gemischt"
+      ]
     }
   ],
   "es": [
@@ -982,40 +1062,80 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "recta-numerica-del-0-al-10-primer-grado",
         "recta-numerica-del-0-al-20-con-pocas-etiquetas-primer-grado",
-        "recta-numerica-del-0-al-30-primer-grado"
+        "recta-numerica-del-0-al-30-primer-grado",
+        "recta-numerica-del-0-al-50-primer-grado",
+        "recta-numerica-de-5-en-5-hasta-50-primer-grado",
+        "recta-numerica-de-5-en-5-hasta-100-primer-grado",
+        "recta-numerica-de-10-en-10-hasta-100-primer-grado",
+        "recta-numerica-del-0-al-120-primer-grado"
       ]
     },
     {
       "base": "ordena-la-frase-primer-grado",
-      "variations": []
+      "variations": [
+        "ordena-la-frase-con-pistas-primer-grado",
+        "ordena-la-frase-sin-pistas-primer-grado"
+      ]
     },
     {
       "base": "mayusculas-y-puntuacion-segundo-grado",
-      "variations": []
+      "variations": [
+        "corrige-la-frase-mayuscula-y-signo-final-segundo-grado",
+        "corrige-la-frase-elige-el-signo-final-segundo-grado"
+      ]
     },
     {
       "base": "sustantivo-verbo-adjetivo-segundo-grado",
-      "variations": []
+      "variations": [
+        "sustantivo-verbo-adjetivo-nueve-palabras-segundo-grado",
+        "sustantivo-verbo-adjetivo-sin-dibujos-segundo-grado",
+        "sustantivo-verbo-adjetivo-quince-palabras-segundo-grado"
+      ]
     },
     {
       "base": "problemas-con-dinero-segundo-grado",
-      "variations": []
+      "variations": [
+        "problemas-con-dinero-dos-problemas-segundo-grado",
+        "problemas-con-dinero-cuatro-preguntas-segundo-grado",
+        "problemas-con-dinero-el-total-de-la-cesta-segundo-grado",
+        "problemas-con-dinero-suma-tres-precios-segundo-grado",
+        "problemas-con-dinero-cuanto-devuelven-segundo-grado",
+        "problemas-con-dinero-te-llega-el-dinero-segundo-grado",
+        "problemas-con-dinero-cuanto-mas-cuesta-segundo-grado"
+      ]
     },
     {
       "base": "lee-el-calendario-segundo-grado",
-      "variations": []
+      "variations": [
+        "lee-el-calendario-cuatro-preguntas-segundo-grado",
+        "lee-el-calendario-un-mes-ocupado-segundo-grado",
+        "lee-el-calendario-los-dias-de-la-semana-segundo-grado"
+      ]
     },
     {
       "base": "escribe-sobre-la-imagen-segundo-grado",
-      "variations": []
+      "variations": [
+        "escribe-sobre-la-imagen-lo-que-ves-segundo-grado",
+        "escribe-sobre-la-imagen-con-tus-palabras-segundo-grado"
+      ]
     },
     {
       "base": "coordenadas-en-la-cuadricula-segundo-grado",
-      "variations": []
+      "variations": [
+        "coordenadas-en-la-cuadricula-de-6x6-segundo-grado",
+        "coordenadas-en-la-cuadricula-de-10x10-segundo-grado"
+      ]
     },
     {
       "base": "problemas-de-multiplicacion-y-division-tercer-grado",
-      "variations": []
+      "variations": [
+        "problemas-de-multiplicacion-tercer-grado",
+        "problemas-de-division-repartir-tercer-grado",
+        "problemas-de-division-hacer-grupos-tercer-grado",
+        "problemas-de-division-repartir-y-agrupar-tercer-grado",
+        "problemas-de-multiplicar-y-agrupar-tercer-grado",
+        "problemas-mixtos-de-multiplicar-y-dividir-tercer-grado"
+      ]
     }
   ],
   "fr": [
@@ -1230,83 +1350,167 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
     },
     {
       "base": "repasser-et-ecrire-les-mots-animaux",
-      "variations": []
+      "variations": [
+        "repasser-et-ecrire-les-mots-courts-fruits",
+        "repasser-une-fois-ecrire-deux-fois-vehicules",
+        "repasser-et-ecrire-les-mots-longs-jouets"
+      ]
     },
     {
       "base": "points-a-relier-1-a-20-maternelle",
-      "variations": []
+      "variations": [
+        "points-a-relier-1-a-10-maternelle",
+        "points-a-relier-11-a-20-maternelle",
+        "points-a-relier-11-a-30-compter-a-partir-de-11"
+      ]
     },
     {
       "base": "reproduction-sur-quadrillage-maternelle",
-      "variations": []
+      "variations": [
+        "reproduction-sur-quadrillage-6x6",
+        "reproduction-sur-quadrillage-avec-lettres-et-nombres",
+        "reproduction-sur-quadrillage-8x8"
+      ]
     },
     {
       "base": "singulier-et-pluriel-maternelle-fruits",
-      "variations": []
+      "variations": [
+        "singulier-et-pluriel-mots-courts-animaux",
+        "singulier-et-pluriel-mots-longs-vehicules"
+      ]
     },
     {
       "base": "le-ou-la-entoure-l-article-animaux",
-      "variations": []
+      "variations": [
+        "le-ou-la-quatre-images-animaux",
+        "un-ou-une-huit-images-vehicules"
+      ]
     },
     {
       "base": "lis-et-colorie-cp-fruits",
-      "variations": []
+      "variations": [
+        "lis-et-colorie-quatre-phrases-animaux",
+        "lis-et-colorie-page-chargee-jouets"
+      ]
     },
     {
       "base": "le-nombre-du-jour-cp",
-      "variations": []
+      "variations": [
+        "le-nombre-du-jour-de-11-a-19",
+        "le-nombre-du-jour-10-de-plus-10-de-moins",
+        "le-nombre-du-jour-jusqu-a-99"
+      ]
     },
     {
       "base": "dictee-muette-cp-fruits",
-      "variations": []
+      "variations": [
+        "dictee-muette-avec-lettre-de-depart-animaux",
+        "dictee-muette-avec-liste-de-mots-vehicules",
+        "dictee-muette-sans-liste-jouets"
+      ]
     },
     {
       "base": "ordre-alphabetique-cp-animaux",
-      "variations": []
+      "variations": [
+        "ordre-alphabetique-numeroter-les-etiquettes-fruits",
+        "ordre-alphabetique-quatre-mots-vehicules",
+        "ordre-alphabetique-meme-initiale-jouets"
+      ]
     },
     {
       "base": "pyramides-de-nombres-cp",
-      "variations": []
+      "variations": [
+        "pyramides-de-nombres-jusqu-a-10",
+        "pyramides-de-nombres-a-quatre-etages",
+        "pyramides-de-nombres-brique-manquante"
+      ]
     },
     {
       "base": "doubles-et-moities-cp-fruits",
-      "variations": []
+      "variations": [
+        "doubles-et-moities-jusqu-a-8-animaux",
+        "doubles-et-moities-jusqu-a-20-sans-images"
+      ]
     },
     {
       "base": "droite-graduee-quel-nombre-cp",
-      "variations": []
+      "variations": [
+        "droite-graduee-de-0-a-10",
+        "droite-graduee-jusqu-a-20-peu-de-reperes",
+        "droite-graduee-de-0-a-30",
+        "droite-graduee-de-0-a-50",
+        "droite-graduee-de-5-en-5-jusqu-a-50",
+        "droite-graduee-de-5-en-5-jusqu-a-100",
+        "droite-graduee-de-10-en-10-jusqu-a-100",
+        "droite-graduee-de-0-a-120"
+      ]
     },
     {
       "base": "phrases-melangees-cp-animaux",
-      "variations": []
+      "variations": [
+        "phrases-melangees-avec-majuscule-et-point",
+        "phrases-melangees-sans-majuscule-ni-point"
+      ]
     },
     {
       "base": "majuscules-et-ponctuation-ce1-vehicules",
-      "variations": []
+      "variations": [
+        "corriger-la-phrase-majuscule-et-point",
+        "corriger-la-phrase-choisir-le-signe-final"
+      ]
     },
     {
       "base": "nature-des-mots-nom-verbe-adjectif-ce1",
-      "variations": []
+      "variations": [
+        "nature-des-mots-neuf-etiquettes-avec-images",
+        "nature-des-mots-douze-etiquettes-sans-images",
+        "nature-des-mots-quinze-etiquettes"
+      ]
     },
     {
       "base": "problemes-de-monnaie-la-marchande-ce1",
-      "variations": []
+      "variations": [
+        "problemes-de-monnaie-deux-histoires",
+        "problemes-de-monnaie-quatre-questions",
+        "problemes-de-monnaie-calculer-le-total",
+        "problemes-de-monnaie-trois-articles",
+        "problemes-de-monnaie-rendre-la-monnaie",
+        "problemes-de-monnaie-est-ce-assez",
+        "problemes-de-monnaie-la-difference-de-prix"
+      ]
     },
     {
       "base": "lire-le-calendrier-ce1",
-      "variations": []
+      "variations": [
+        "lire-le-calendrier-quatre-questions",
+        "lire-le-calendrier-une-semaine-plus-tard",
+        "lire-le-calendrier-les-jours-de-la-semaine"
+      ]
     },
     {
       "base": "production-d-ecrit-a-partir-d-une-image-ce1",
-      "variations": []
+      "variations": [
+        "production-d-ecrit-decrire-l-image",
+        "production-d-ecrit-sans-debut-de-phrase"
+      ]
     },
     {
       "base": "pixel-art-reperage-sur-quadrillage-ce1",
-      "variations": []
+      "variations": [
+        "pixel-art-quadrillage-6x6",
+        "pixel-art-quadrillage-10x10"
+      ]
     },
     {
       "base": "problemes-de-multiplication-et-division-ce2",
-      "variations": []
+      "variations": [
+        "problemes-de-multiplication-en-images",
+        "problemes-de-division-partage",
+        "problemes-de-division-groupement",
+        "problemes-de-division-partage-ou-groupement",
+        "problemes-multiplier-puis-grouper",
+        "problemes-mixtes-multiplication-et-division"
+      ]
     }
   ],
   "pt": [
@@ -1608,40 +1812,80 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "reta-numerica-ate-10-1o-ano",
         "reta-numerica-ate-20-menos-numeros",
-        "reta-numerica-ate-30-1o-ano"
+        "reta-numerica-ate-30-1o-ano",
+        "reta-numerica-ate-50-1o-ano",
+        "reta-numerica-ate-50-de-5-em-5",
+        "reta-numerica-ate-100-de-5-em-5",
+        "reta-numerica-ate-100-de-10-em-10",
+        "reta-numerica-ate-120-1o-ano"
       ]
     },
     {
       "base": "ordene-a-frase-animais-1o-ano",
-      "variations": []
+      "variations": [
+        "ordene-a-frase-com-pistas-frutas",
+        "ordene-a-frase-sem-pistas-animais"
+      ]
     },
     {
       "base": "letra-maiuscula-e-pontuacao-2o-ano",
-      "variations": []
+      "variations": [
+        "maiuscula-e-sinal-final-tres-frases",
+        "escolha-o-sinal-de-pontuacao-frutas"
+      ]
     },
     {
       "base": "substantivo-verbo-adjetivo-brinquedos-2o-ano",
-      "variations": []
+      "variations": [
+        "classes-de-palavras-nove-palavras",
+        "classes-de-palavras-sem-figuras",
+        "classes-de-palavras-quinze-palavras"
+      ]
     },
     {
       "base": "problemas-com-dinheiro-vamos-as-compras-2o-ano",
-      "variations": []
+      "variations": [
+        "vamos-as-compras-duas-perguntas",
+        "vamos-as-compras-quatro-perguntas",
+        "vamos-as-compras-some-a-cesta",
+        "vamos-as-compras-tres-produtos",
+        "vamos-as-compras-quanto-de-troco",
+        "vamos-as-compras-o-dinheiro-da",
+        "vamos-as-compras-quanto-a-mais"
+      ]
     },
     {
       "base": "leitura-de-calendario-2o-ano",
-      "variations": []
+      "variations": [
+        "leitura-de-calendario-quatro-perguntas",
+        "leitura-de-calendario-mes-cheio",
+        "leitura-de-calendario-dias-da-semana"
+      ]
     },
     {
       "base": "producao-de-texto-com-imagem-veiculos-2o-ano",
-      "variations": []
+      "variations": [
+        "producao-de-texto-o-que-voce-ve",
+        "producao-de-texto-suas-proprias-palavras"
+      ]
     },
     {
       "base": "coordenadas-na-malha-quadriculada-2o-ano",
-      "variations": []
+      "variations": [
+        "coordenadas-malha-6-por-6",
+        "coordenadas-malha-10-por-10"
+      ]
     },
     {
       "base": "problemas-de-multiplicacao-e-divisao-3o-ano",
-      "variations": []
+      "variations": [
+        "problemas-de-multiplicacao-3o-ano",
+        "problemas-de-divisao-repartir",
+        "problemas-de-divisao-formar-grupos",
+        "problemas-de-divisao-de-dois-jeitos",
+        "problemas-de-multiplicar-e-agrupar",
+        "problemas-mistos-de-multiplicacao-e-divisao"
+      ]
     }
   ],
   "it": [
@@ -1856,83 +2100,167 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
     },
     {
       "base": "ricalca-e-scrivi-le-parole-animali",
-      "variations": []
+      "variations": [
+        "ricalca-e-scrivi-parole-corte-frutta",
+        "ricalca-una-volta-e-scrivi-due-volte",
+        "ricalca-e-scrivi-parole-lunghe"
+      ]
     },
     {
       "base": "unisci-i-puntini-1-20",
-      "variations": []
+      "variations": [
+        "unisci-i-puntini-1-10",
+        "unisci-i-puntini-11-20",
+        "unisci-i-puntini-11-30"
+      ]
     },
     {
       "base": "riproduci-il-disegno-sui-quadretti",
-      "variations": []
+      "variations": [
+        "riproduci-il-disegno-griglia-6x6",
+        "riproduci-il-disegno-con-lettere-e-numeri",
+        "riproduci-il-disegno-griglia-8x8"
+      ]
     },
     {
       "base": "singolare-e-plurale-frutta",
-      "variations": []
+      "variations": [
+        "singolare-e-plurale-parole-corte-animali",
+        "singolare-e-plurale-parole-lunghe"
+      ]
     },
     {
       "base": "il-o-la-articoli-determinativi",
-      "variations": []
+      "variations": [
+        "articoli-il-o-la-quattro-carte",
+        "articoli-il-lo-la-otto-carte"
+      ]
     },
     {
       "base": "leggi-e-colora-frutta",
-      "variations": []
+      "variations": [
+        "leggi-e-colora-quattro-frasi-animali",
+        "leggi-e-colora-sei-frasi-sei-colori"
+      ]
     },
     {
       "base": "il-numero-del-giorno-classe-prima",
-      "variations": []
+      "variations": [
+        "il-numero-del-giorno-da-11-a-19",
+        "il-numero-del-giorno-dieci-in-piu-dieci-in-meno",
+        "il-numero-del-giorno-fino-a-99"
+      ]
     },
     {
       "base": "dettato-muto-frutta",
-      "variations": []
+      "variations": [
+        "dettato-muto-prima-lettera-data",
+        "dettato-muto-con-banca-delle-parole",
+        "dettato-muto-senza-aiuti"
+      ]
     },
     {
       "base": "ordine-alfabetico-animali",
-      "variations": []
+      "variations": [
+        "ordine-alfabetico-quattro-parole-da-numerare",
+        "ordine-alfabetico-numera-e-riscrivi",
+        "ordine-alfabetico-stessa-iniziale"
+      ]
     },
     {
       "base": "piramidi-di-numeri-fino-a-20",
-      "variations": []
+      "variations": [
+        "piramidi-di-numeri-fino-a-10",
+        "piramidi-di-numeri-quattro-piani",
+        "piramidi-di-numeri-mattone-mancante"
+      ]
     },
     {
       "base": "doppio-e-meta-classe-prima",
-      "variations": []
+      "variations": [
+        "doppio-e-meta-primi-passi",
+        "doppio-e-meta-fino-a-20"
+      ]
     },
     {
       "base": "linea-dei-numeri-fino-a-20",
-      "variations": []
+      "variations": [
+        "linea-dei-numeri-fino-a-10",
+        "linea-dei-numeri-fino-a-20-poche-etichette",
+        "linea-dei-numeri-fino-a-30",
+        "linea-dei-numeri-fino-a-50",
+        "linea-dei-numeri-salti-di-5-fino-a-50",
+        "linea-dei-numeri-salti-di-5-fino-a-100",
+        "linea-dei-numeri-salti-di-10-fino-a-100",
+        "linea-dei-numeri-da-0-a-120"
+      ]
     },
     {
       "base": "riordina-la-frase-animali",
-      "variations": []
+      "variations": [
+        "riordina-la-frase-con-gli-indizi",
+        "riordina-la-frase-senza-indizi"
+      ]
     },
     {
       "base": "maiuscole-e-punteggiatura-classe-seconda",
-      "variations": []
+      "variations": [
+        "maiuscola-e-segno-finale",
+        "maiuscole-nei-nomi-propri-e-segno-finale"
+      ]
     },
     {
       "base": "nome-verbo-aggettivo-classe-seconda",
-      "variations": []
+      "variations": [
+        "nome-verbo-aggettivo-nove-parole",
+        "nome-verbo-aggettivo-dodici-parole-senza-immagini",
+        "nome-verbo-aggettivo-quindici-parole"
+      ]
     },
     {
       "base": "problemi-con-i-soldi-la-spesa",
-      "variations": []
+      "variations": [
+        "problemi-con-i-soldi-due-domande",
+        "problemi-con-i-soldi-quattro-domande",
+        "problemi-con-i-soldi-quanto-in-tutto",
+        "problemi-con-i-soldi-tre-prodotti",
+        "problemi-con-i-soldi-quanto-resto",
+        "problemi-con-i-soldi-bastano-i-soldi",
+        "problemi-con-i-soldi-quanto-in-piu"
+      ]
     },
     {
       "base": "leggere-il-calendario-classe-seconda",
-      "variations": []
+      "variations": [
+        "leggere-il-calendario-quattro-domande",
+        "leggere-il-calendario-una-settimana-dopo",
+        "leggere-il-calendario-i-giorni-della-settimana"
+      ]
     },
     {
       "base": "scrivi-guardando-l-immagine-veicoli",
-      "variations": []
+      "variations": [
+        "scrivi-guardando-l-immagine-inizi-di-frase",
+        "scrivi-guardando-l-immagine-con-parole-tue"
+      ]
     },
     {
       "base": "coordinate-sulla-griglia-pixel-art",
-      "variations": []
+      "variations": [
+        "coordinate-sulla-griglia-6x6",
+        "coordinate-sulla-griglia-10x10"
+      ]
     },
     {
       "base": "problemi-di-moltiplicazione-e-divisione-classe-terza",
-      "variations": []
+      "variations": [
+        "problemi-di-moltiplicazione-classe-terza",
+        "problemi-di-divisione-per-ripartizione",
+        "problemi-di-divisione-per-contenenza",
+        "problemi-di-divisione-i-due-modi",
+        "problemi-moltiplicare-e-raggruppare",
+        "tre-problemi-misti-per-e-diviso"
+      ]
     }
   ],
   "nl": [
@@ -2147,83 +2475,167 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
     },
     {
       "base": "woorden-overtrekken-dieren-kleuters",
-      "variations": []
+      "variations": [
+        "woorden-overtrekken-eerste-woordjes",
+        "woorden-overtrekken-twee-keer-schrijven",
+        "woorden-overtrekken-lange-woorden"
+      ]
     },
     {
       "base": "van-stip-naar-stip-1-tot-20",
-      "variations": []
+      "variations": [
+        "van-stip-naar-stip-1-tot-10",
+        "van-stip-naar-stip-11-tot-20",
+        "van-stip-naar-stip-11-tot-30"
+      ]
     },
     {
       "base": "natekenen-op-ruitjes-kleuters",
-      "variations": []
+      "variations": [
+        "natekenen-op-ruitjes-6-bij-6",
+        "natekenen-op-ruitjes-met-letters-en-cijfers",
+        "natekenen-op-ruitjes-8-bij-8"
+      ]
     },
     {
       "base": "enkelvoud-en-meervoud-fruit",
-      "variations": []
+      "variations": [
+        "enkelvoud-en-meervoud-dieren",
+        "enkelvoud-en-meervoud-lange-woorden"
+      ]
     },
     {
       "base": "de-of-het-dieren-kleuters",
-      "variations": []
+      "variations": [
+        "de-of-het-vier-plaatjes",
+        "de-of-het-acht-plaatjes"
+      ]
     },
     {
       "base": "lees-en-kleur-fruit-groep-3",
-      "variations": []
+      "variations": [
+        "lees-en-kleur-vier-zinnen",
+        "lees-en-kleur-zes-kleuren"
+      ]
     },
     {
       "base": "getal-van-de-dag-groep-3",
-      "variations": []
+      "variations": [
+        "getal-van-de-dag-tienergetallen",
+        "getal-van-de-dag-tien-meer-tien-minder",
+        "getal-van-de-dag-tot-99"
+      ]
     },
     {
       "base": "schrijf-het-woord-bij-het-plaatje-fruit",
-      "variations": []
+      "variations": [
+        "schrijf-het-woord-met-de-beginletter",
+        "schrijf-het-woord-met-woordbank",
+        "schrijf-het-woord-zonder-woordbank"
+      ]
     },
     {
       "base": "alfabetische-volgorde-dieren-groep-3",
-      "variations": []
+      "variations": [
+        "alfabetische-volgorde-vier-kaartjes-nummeren",
+        "alfabetische-volgorde-nummeren-en-opschrijven",
+        "alfabetische-volgorde-tweede-letter"
+      ]
     },
     {
       "base": "rekenpiramide-tot-20-groep-3",
-      "variations": []
+      "variations": [
+        "rekenpiramide-tot-10",
+        "rekenpiramide-vier-lagen",
+        "rekenpiramide-ontbrekende-steen"
+      ]
     },
     {
       "base": "verdubbelen-en-halveren-groep-3",
-      "variations": []
+      "variations": [
+        "verdubbelen-en-halveren-met-plaatjes",
+        "verdubbelen-en-halveren-tot-20"
+      ]
     },
     {
       "base": "getallenlijn-tot-20-groep-3",
-      "variations": []
+      "variations": [
+        "getallenlijn-tot-10",
+        "getallenlijn-tot-20-minder-getallen",
+        "getallenlijn-tot-30",
+        "getallenlijn-tot-50",
+        "getallenlijn-tot-50-met-vijftallen",
+        "getallenlijn-tot-100-met-vijftallen",
+        "getallenlijn-tot-100-met-tientallen",
+        "getallenlijn-tot-120"
+      ]
     },
     {
       "base": "husselzinnen-dieren-groep-3",
-      "variations": []
+      "variations": [
+        "husselzinnen-met-hulp",
+        "husselzinnen-zonder-hulp"
+      ]
     },
     {
       "base": "hoofdletters-en-leestekens-groep-4",
-      "variations": []
+      "variations": [
+        "hoofdletters-en-leestekens-punt-of-vraagteken",
+        "hoofdletters-namen-en-leestekens"
+      ]
     },
     {
       "base": "woordsoorten-groep-4-speelgoed",
-      "variations": []
+      "variations": [
+        "woordsoorten-negen-woorden",
+        "woordsoorten-zonder-plaatjes",
+        "woordsoorten-vijftien-woorden"
+      ]
     },
     {
       "base": "rekenen-met-geld-boodschappen-groep-4",
-      "variations": []
+      "variations": [
+        "rekenen-met-geld-twee-vragen",
+        "rekenen-met-geld-vier-soorten-vragen",
+        "rekenen-met-geld-totaal-uitrekenen",
+        "rekenen-met-geld-drie-prijzen-optellen",
+        "rekenen-met-geld-wisselgeld-uitrekenen",
+        "rekenen-met-geld-genoeg-geld",
+        "rekenen-met-geld-prijzen-vergelijken"
+      ]
     },
     {
       "base": "kalender-lezen-groep-4",
-      "variations": []
+      "variations": [
+        "kalender-lezen-vier-vragen",
+        "kalender-lezen-een-volle-maand",
+        "kalender-lezen-dagen-van-de-week"
+      ]
     },
     {
       "base": "schrijven-bij-een-plaatje-voertuigen",
-      "variations": []
+      "variations": [
+        "schrijven-bij-een-plaatje-startzinnen",
+        "schrijven-bij-een-plaatje-eigen-woorden"
+      ]
     },
     {
       "base": "coordinaten-in-het-rooster-groep-4",
-      "variations": []
+      "variations": [
+        "coordinaten-in-het-rooster-6-bij-6",
+        "coordinaten-in-het-rooster-10-bij-10"
+      ]
     },
     {
       "base": "verhaaltjessommen-vermenigvuldigen-en-delen",
-      "variations": []
+      "variations": [
+        "verhaaltjessommen-keersommen",
+        "verhaaltjessommen-eerlijk-verdelen",
+        "verhaaltjessommen-groepjes-maken",
+        "verhaaltjessommen-twee-soorten-delen",
+        "verhaaltjessommen-keer-en-groepjes",
+        "verhaaltjessommen-alles-door-elkaar"
+      ]
     }
   ],
   "sv": [
@@ -2438,83 +2850,167 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
     },
     {
       "base": "spara-och-skriv-ord-djur",
-      "variations": []
+      "variations": [
+        "spara-och-skriv-forsta-orden",
+        "spara-en-gang-skriv-tva-ganger",
+        "spara-och-skriv-langa-ord"
+      ]
     },
     {
       "base": "prick-till-prick-1-20",
-      "variations": []
+      "variations": [
+        "prick-till-prick-1-10",
+        "prick-till-prick-11-20",
+        "prick-till-prick-11-30"
+      ]
     },
     {
       "base": "rita-av-i-rutnatet",
-      "variations": []
+      "variations": [
+        "rita-av-i-rutnat-utan-bokstaver",
+        "rita-av-i-rutnat-med-bokstaver-och-siffror",
+        "rita-av-i-rutnat-8x8"
+      ]
     },
     {
       "base": "singular-och-plural-frukter",
-      "variations": []
+      "variations": [
+        "singular-och-plural-korta-ord",
+        "singular-och-plural-langre-ord"
+      ]
     },
     {
       "base": "en-eller-ett-frukter",
-      "variations": []
+      "variations": [
+        "en-eller-ett-fyra-bilder",
+        "en-eller-ett-atta-bilder"
+      ]
     },
     {
       "base": "las-och-mala-frukter",
-      "variations": []
+      "variations": [
+        "las-och-mala-fyra-meningar",
+        "las-och-mala-sex-farger"
+      ]
     },
     {
       "base": "dagens-tal-ak-1",
-      "variations": []
+      "variations": [
+        "dagens-tal-11-20",
+        "dagens-tal-10-mer-och-10-mindre",
+        "dagens-tal-upp-till-99"
+      ]
     },
     {
       "base": "skriv-ordet-till-bilden-frukter",
-      "variations": []
+      "variations": [
+        "skriv-ordet-forsta-bokstaven-given",
+        "skriv-ordet-med-ordbank",
+        "skriv-ordet-utan-ordbank"
+      ]
     },
     {
       "base": "alfabetisk-ordning-djur",
-      "variations": []
+      "variations": [
+        "alfabetisk-ordning-numrera-korten",
+        "alfabetisk-ordning-numrera-och-skriv",
+        "alfabetisk-ordning-andra-bokstaven"
+      ]
     },
     {
       "base": "talpyramider-till-20",
-      "variations": []
+      "variations": [
+        "talpyramider-till-10",
+        "talpyramider-fyra-rader",
+        "talpyramider-stenen-som-saknas"
+      ]
     },
     {
       "base": "dubbelt-och-halften-frukter",
-      "variations": []
+      "variations": [
+        "dubbelt-och-halften-med-bilder",
+        "dubbelt-och-halften-till-20"
+      ]
     },
     {
       "base": "las-av-tallinjen-0-20",
-      "variations": []
+      "variations": [
+        "las-av-tallinjen-0-10",
+        "tallinjen-till-20-med-fa-tal",
+        "las-av-tallinjen-0-30",
+        "las-av-tallinjen-0-50",
+        "tallinjen-till-50-med-steg-om-5",
+        "tallinjen-till-100-med-steg-om-5",
+        "tallinjen-till-100-med-steg-om-10",
+        "tallinjen-till-120"
+      ]
     },
     {
       "base": "ordna-orden-till-en-mening-djur",
-      "variations": []
+      "variations": [
+        "ordna-orden-med-ledtradar",
+        "ordna-orden-utan-ledtradar"
+      ]
     },
     {
       "base": "stor-bokstav-och-skiljetecken-fordon",
-      "variations": []
+      "variations": [
+        "punkt-eller-fragetecken",
+        "valj-ratt-skiljetecken"
+      ]
     },
     {
       "base": "ordklasser-substantiv-verb-adjektiv",
-      "variations": []
+      "variations": [
+        "ordklasser-nio-ord",
+        "ordklasser-utan-bildstod",
+        "ordklasser-femton-ord"
+      ]
     },
     {
       "base": "rakna-med-pengar-kronor-frukter",
-      "variations": []
+      "variations": [
+        "rakna-med-pengar-tva-raknehandelser",
+        "rakna-med-pengar-fyra-fragor",
+        "rakna-med-pengar-lagg-ihop-priserna",
+        "rakna-med-pengar-tre-varor",
+        "rakna-med-pengar-vaxel",
+        "rakna-med-pengar-racker-pengarna",
+        "rakna-med-pengar-hur-mycket-dyrare"
+      ]
     },
     {
       "base": "las-kalendern-ak-2",
-      "variations": []
+      "variations": [
+        "las-kalendern-fyra-fragor",
+        "las-kalendern-en-vecka-senare",
+        "las-kalendern-veckans-dagar"
+      ]
     },
     {
       "base": "skriv-till-bilden-fordon",
-      "variations": []
+      "variations": [
+        "skriv-till-bilden-meningsstarter",
+        "skriv-till-bilden-egna-ord"
+      ]
     },
     {
       "base": "koordinater-i-rutnat-mala-rutorna",
-      "variations": []
+      "variations": [
+        "koordinater-i-rutnat-6-x-6",
+        "koordinater-i-rutnat-10-x-10"
+      ]
     },
     {
       "base": "raknehandelser-multiplikation-och-division",
-      "variations": []
+      "variations": [
+        "raknehandelser-multiplikation",
+        "raknehandelser-dela-lika",
+        "raknehandelser-bilda-grupper",
+        "raknehandelser-division-pa-tva-satt",
+        "raknehandelser-ganger-och-grupper",
+        "raknehandelser-tre-blandade-uppgifter"
+      ]
     }
   ],
   "da": [
@@ -2729,83 +3225,167 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
     },
     {
       "base": "skriv-ordene-efter-boernehaveklasse",
-      "variations": []
+      "variations": [
+        "skriv-ordene-efter-korte-ord",
+        "skriv-ordene-efter-og-skriv-to-gange",
+        "skriv-ordene-efter-lange-ord"
+      ]
     },
     {
       "base": "prik-til-prik-1-20",
-      "variations": []
+      "variations": [
+        "prik-til-prik-1-10",
+        "prik-til-prik-11-20",
+        "prik-til-prik-11-30"
+      ]
     },
     {
       "base": "tegn-efter-i-kvadratnet",
-      "variations": []
+      "variations": [
+        "tegn-efter-i-kvadratnet-uden-bogstaver",
+        "tegn-efter-i-kvadratnet-bogstav-og-tal",
+        "tegn-efter-i-kvadratnet-8x8"
+      ]
     },
     {
       "base": "ental-og-flertal-boernehaveklasse",
-      "variations": []
+      "variations": [
+        "ental-og-flertal-korte-ord",
+        "ental-og-flertal-laengere-ord"
+      ]
     },
     {
       "base": "en-eller-et-boernehaveklasse",
-      "variations": []
+      "variations": [
+        "en-eller-et-fire-billeder",
+        "en-eller-et-otte-billeder"
+      ]
     },
     {
       "base": "laes-og-farvelaeg-1-klasse",
-      "variations": []
+      "variations": [
+        "laes-og-farvelaeg-fire-saetninger",
+        "laes-og-farvelaeg-seks-saetninger"
+      ]
     },
     {
       "base": "dagens-tal-1-klasse",
-      "variations": []
+      "variations": [
+        "dagens-tal-11-20",
+        "dagens-tal-10-mere-10-mindre",
+        "dagens-tal-op-til-99"
+      ]
     },
     {
       "base": "skriv-ordet-til-billedet-1-klasse",
-      "variations": []
+      "variations": [
+        "skriv-ordet-foerste-bogstav-givet",
+        "skriv-ordet-med-ordbank",
+        "skriv-ordet-uden-ordbank"
+      ]
     },
     {
       "base": "alfabetisk-raekkefoelge-1-klasse",
-      "variations": []
+      "variations": [
+        "alfabetisk-raekkefoelge-nummerer-fire-ord",
+        "alfabetisk-raekkefoelge-nummerer-og-skriv",
+        "alfabetisk-raekkefoelge-samme-foerste-bogstav"
+      ]
     },
     {
       "base": "talpyramider-1-klasse",
-      "variations": []
+      "variations": [
+        "talpyramider-op-til-10",
+        "talpyramider-fire-raekker",
+        "talpyramider-manglende-sten"
+      ]
     },
     {
       "base": "det-dobbelte-og-det-halve-1-klasse",
-      "variations": []
+      "variations": [
+        "det-dobbelte-og-det-halve-med-billeder",
+        "det-dobbelte-og-det-halve-op-til-20"
+      ]
     },
     {
       "base": "tallinjen-0-20-1-klasse",
-      "variations": []
+      "variations": [
+        "tallinjen-0-10",
+        "tallinjen-0-20-faa-tal",
+        "tallinjen-0-30",
+        "tallinjen-0-50",
+        "tallinjen-til-50-med-femmere",
+        "tallinjen-til-100-med-femmere",
+        "tallinjen-til-100-med-tiere",
+        "tallinjen-0-120"
+      ]
     },
     {
       "base": "saet-ordene-i-raekkefoelge-1-klasse",
-      "variations": []
+      "variations": [
+        "saet-ordene-i-raekkefoelge-med-hjaelp",
+        "saet-ordene-i-raekkefoelge-uden-hjaelp"
+      ]
     },
     {
       "base": "stort-bogstav-og-punktum-2-klasse",
-      "variations": []
+      "variations": [
+        "stort-bogstav-og-tegn-til-sidst",
+        "stort-bogstav-navne-og-tegn"
+      ]
     },
     {
       "base": "ordklasser-navneord-udsagnsord-tillaegsord",
-      "variations": []
+      "variations": [
+        "ordklasser-ni-ord-med-billeder",
+        "ordklasser-tolv-ord-uden-billeder",
+        "ordklasser-femten-ord"
+      ]
     },
     {
       "base": "koebmandsregning-2-klasse",
-      "variations": []
+      "variations": [
+        "koebmandsregning-to-opgaver",
+        "koebmandsregning-fire-spoergsmaal",
+        "koebmandsregning-hvad-koster-det-i-alt",
+        "koebmandsregning-tre-varer-i-kurven",
+        "koebmandsregning-penge-tilbage",
+        "koebmandsregning-er-der-penge-nok",
+        "koebmandsregning-hvor-meget-dyrere"
+      ]
     },
     {
       "base": "laes-kalenderen-2-klasse",
-      "variations": []
+      "variations": [
+        "laes-kalenderen-fire-spoergsmaal",
+        "laes-kalenderen-en-travl-maaned",
+        "laes-kalenderen-ugedagene"
+      ]
     },
     {
       "base": "skriv-til-billedet-2-klasse",
-      "variations": []
+      "variations": [
+        "skriv-til-billedet-med-saetningsstartere",
+        "skriv-til-billedet-med-egne-ord"
+      ]
     },
     {
       "base": "koordinater-i-kvadratnet-2-klasse",
-      "variations": []
+      "variations": [
+        "koordinater-i-kvadratnet-6x6",
+        "koordinater-i-kvadratnet-10x10"
+      ]
     },
     {
       "base": "regnehistorier-gange-og-division-3-klasse",
-      "variations": []
+      "variations": [
+        "regnehistorier-med-gange",
+        "regnehistorier-med-division-del-ligeligt",
+        "regnehistorier-med-division-lav-grupper",
+        "regnehistorier-med-division-paa-to-maader",
+        "regnehistorier-med-gange-og-grupper",
+        "regnehistorier-tre-blandede-opgaver"
+      ]
     }
   ],
   "no": [
@@ -3020,83 +3600,167 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
     },
     {
       "base": "spor-og-skriv-ordene-dyr",
-      "variations": []
+      "variations": [
+        "spor-og-skriv-korte-ord",
+        "spor-en-gang-skriv-to-ganger",
+        "spor-og-skriv-lange-ord"
+      ]
     },
     {
       "base": "prikk-til-prikk-1-20",
-      "variations": []
+      "variations": [
+        "prikk-til-prikk-1-10",
+        "prikk-til-prikk-11-20",
+        "prikk-til-prikk-tell-videre-til-30"
+      ]
     },
     {
       "base": "tegn-etter-i-rutenett",
-      "variations": []
+      "variations": [
+        "tegn-etter-i-rutenett-6x6",
+        "tegn-etter-i-rutenett-bokstaver-og-tall",
+        "tegn-etter-i-rutenett-8x8"
+      ]
     },
     {
       "base": "entall-og-flertall-frukt",
-      "variations": []
+      "variations": [
+        "entall-og-flertall-korte-ord",
+        "entall-og-flertall-lange-ord"
+      ]
     },
     {
       "base": "en-eller-et-frukt",
-      "variations": []
+      "variations": [
+        "en-eller-et-fire-bilder",
+        "en-eller-et-atte-bilder"
+      ]
     },
     {
       "base": "les-og-fargelegg-frukt",
-      "variations": []
+      "variations": [
+        "les-og-fargelegg-fire-setninger",
+        "les-og-fargelegg-travel-side"
+      ]
     },
     {
       "base": "dagens-tall-2-trinn",
-      "variations": []
+      "variations": [
+        "dagens-tall-11-til-20",
+        "dagens-tall-ti-mer-ti-mindre",
+        "dagens-tall-til-99"
+      ]
     },
     {
       "base": "skriv-ordet-til-bildet-frukt",
-      "variations": []
+      "variations": [
+        "skriv-ordet-forste-bokstav-gitt",
+        "skriv-ordet-med-ordbank",
+        "skriv-ordet-uten-ordbank"
+      ]
     },
     {
       "base": "alfabetisk-rekkefolge-dyr",
-      "variations": []
+      "variations": [
+        "alfabetisk-rekkefolge-nummerer-kortene",
+        "alfabetisk-rekkefolge-nummerer-og-skriv",
+        "alfabetisk-rekkefolge-samme-forbokstav"
+      ]
     },
     {
       "base": "tallpyramider-2-trinn",
-      "variations": []
+      "variations": [
+        "tallpyramider-til-10",
+        "tallpyramider-fire-etasjer",
+        "tallpyramider-finn-steinen-som-mangler"
+      ]
     },
     {
       "base": "det-dobbelte-og-halvparten",
-      "variations": []
+      "variations": [
+        "det-dobbelte-og-halvparten-sma-tall",
+        "det-dobbelte-og-halvparten-til-20"
+      ]
     },
     {
       "base": "les-av-tallinjen-0-20",
-      "variations": []
+      "variations": [
+        "les-av-tallinjen-0-10",
+        "tallinje-til-20-faerre-tall",
+        "les-av-tallinjen-0-30",
+        "les-av-tallinjen-0-50",
+        "tallinje-til-50-tell-med-femmere",
+        "tallinje-til-100-tell-med-femmere",
+        "tallinje-til-100-tell-med-tiere",
+        "les-av-tallinjen-0-120"
+      ]
     },
     {
       "base": "sett-ordene-i-riktig-rekkefolge",
-      "variations": []
+      "variations": [
+        "sett-ordene-i-rekkefolge-med-hjelp",
+        "sett-ordene-i-rekkefolge-uten-hjelp"
+      ]
     },
     {
       "base": "stor-bokstav-og-punktum",
-      "variations": []
+      "variations": [
+        "stor-bokstav-og-riktig-skilletegn",
+        "stor-bokstav-navn-og-skilletegn"
+      ]
     },
     {
       "base": "substantiv-verb-og-adjektiv",
-      "variations": []
+      "variations": [
+        "substantiv-verb-og-adjektiv-9-ord",
+        "substantiv-verb-og-adjektiv-uten-bilder",
+        "substantiv-verb-og-adjektiv-15-ord"
+      ]
     },
     {
       "base": "regne-med-penger-3-trinn",
-      "variations": []
+      "variations": [
+        "regne-med-penger-to-oppgaver",
+        "regne-med-penger-fire-sporsmal",
+        "regne-med-penger-hva-koster-det-til-sammen",
+        "regne-med-penger-kjope-tre-ting",
+        "regne-med-penger-hvor-mye-far-du-igjen",
+        "regne-med-penger-er-det-nok",
+        "regne-med-penger-hvor-mye-mer"
+      ]
     },
     {
       "base": "les-kalenderen",
-      "variations": []
+      "variations": [
+        "les-kalenderen-fire-sporsmal",
+        "les-kalenderen-en-uke-senere",
+        "les-kalenderen-ukedagene"
+      ]
     },
     {
       "base": "skriv-til-bildet-kjoretoy",
-      "variations": []
+      "variations": [
+        "skriv-til-bildet-begynnelsen-er-gitt",
+        "skriv-til-bildet-med-egne-ord"
+      ]
     },
     {
       "base": "koordinater-i-rutenett",
-      "variations": []
+      "variations": [
+        "koordinater-i-rutenett-6x6",
+        "koordinater-i-rutenett-10x10"
+      ]
     },
     {
       "base": "regnefortellinger-gange-og-dele",
-      "variations": []
+      "variations": [
+        "regnefortellinger-gange",
+        "regnefortellinger-dele-likt",
+        "regnefortellinger-lage-like-grupper",
+        "regnefortellinger-dele-pa-to-mater",
+        "regnefortellinger-gange-og-lage-grupper",
+        "regnefortellinger-blandede-oppgaver"
+      ]
     }
   ],
   "fi": [
@@ -3311,83 +3975,167 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
     },
     {
       "base": "sanojen-jaljentaminen-esikoulu",
-      "variations": []
+      "variations": [
+        "jaljenna-lyhyet-sanat-hedelmat",
+        "jaljenna-kerran-kirjoita-kahdesti-ajoneuvot",
+        "jaljenna-pitkat-sanat-lelut"
+      ]
     },
     {
       "base": "yhdista-pisteet-1-20",
-      "variations": []
+      "variations": [
+        "yhdista-pisteet-1-10",
+        "yhdista-pisteet-11-20",
+        "yhdista-pisteet-11-30"
+      ]
     },
     {
       "base": "piirra-mallin-mukaan-ruudukkoon",
-      "variations": []
+      "variations": [
+        "piirra-ruudukkoon-6x6",
+        "piirra-ruudukkoon-kirjaimet-ja-numerot",
+        "piirra-ruudukkoon-8x8"
+      ]
     },
     {
       "base": "yksikko-ja-monikko-esikoulu",
-      "variations": []
+      "variations": [
+        "yksikko-ja-monikko-lyhyet-sanat",
+        "yksikko-ja-monikko-pitkat-sanat"
+      ]
     },
     {
       "base": "yksi-vai-monta",
-      "variations": []
+      "variations": [
+        "yksi-vai-monta-nelja-kuvakorttia",
+        "yksi-vai-monta-kahdeksan-kuvakorttia"
+      ]
     },
     {
       "base": "lue-ja-varita-1-luokka",
-      "variations": []
+      "variations": [
+        "lue-ja-varita-nelja-lausetta",
+        "lue-ja-varita-kiireinen-sivu"
+      ]
     },
     {
       "base": "paivan-luku-1-luokka",
-      "variations": []
+      "variations": [
+        "paivan-luku-11-19",
+        "paivan-luku-10-enemman-ja-10-vahemman",
+        "paivan-luku-99-asti"
+      ]
     },
     {
       "base": "kirjoita-kuvan-sana",
-      "variations": []
+      "variations": [
+        "kirjoita-sana-alkukirjain-valmiina",
+        "kirjoita-sana-sanapankin-avulla",
+        "kirjoita-sana-ilman-sanapankkia"
+      ]
     },
     {
       "base": "aakkosjarjestys-1-luokka",
-      "variations": []
+      "variations": [
+        "aakkosjarjestys-numeroi-kortit",
+        "aakkosjarjestys-numeroi-ja-kirjoita",
+        "aakkosjarjestys-sama-alkukirjain"
+      ]
     },
     {
       "base": "lukupyramidi-20-asti",
-      "variations": []
+      "variations": [
+        "lukupyramidi-10-asti",
+        "lukupyramidi-nelja-kerrosta",
+        "lukupyramidi-puuttuva-tiili"
+      ]
     },
     {
       "base": "tuplaa-ja-puolita",
-      "variations": []
+      "variations": [
+        "tuplaa-ja-puolita-kuvien-avulla",
+        "tuplaa-ja-puolita-20-asti"
+      ]
     },
     {
       "base": "lukusuora-0-20-mika-luku",
-      "variations": []
+      "variations": [
+        "lukusuora-0-10-mika-luku",
+        "lukusuora-0-20-vahan-merkintoja",
+        "lukusuora-0-30-mika-luku",
+        "lukusuora-0-50-mika-luku",
+        "lukusuora-0-50-viiden-valein",
+        "lukusuora-0-100-viiden-valein",
+        "lukusuora-0-100-kymmenen-valein",
+        "lukusuora-0-120-yli-sadan"
+      ]
     },
     {
       "base": "jarjesta-sanat-lauseeksi",
-      "variations": []
+      "variations": [
+        "jarjesta-lause-vihjeet-mukana",
+        "jarjesta-lause-ilman-vihjeita"
+      ]
     },
     {
       "base": "iso-alkukirjain-ja-piste",
-      "variations": []
+      "variations": [
+        "korjaa-lause-iso-alkukirjain-ja-lopetusmerkki",
+        "korjaa-lause-valitse-lopetusmerkki"
+      ]
     },
     {
       "base": "substantiivi-verbi-vai-adjektiivi",
-      "variations": []
+      "variations": [
+        "sanaluokat-yhdeksan-sanaa",
+        "sanaluokat-ilman-kuvia",
+        "sanaluokat-viisitoista-sanaa"
+      ]
     },
     {
       "base": "rahalaskut-kaupassa",
-      "variations": []
+      "variations": [
+        "rahalaskut-kaksi-kysymysta",
+        "rahalaskut-nelja-eri-kysymysta",
+        "rahalaskut-kahden-tavaran-yhteishinta",
+        "rahalaskut-kolme-tavaraa-korissa",
+        "rahalaskut-paljonko-takaisin",
+        "rahalaskut-riittaako-raha",
+        "rahalaskut-paljonko-enemman"
+      ]
     },
     {
       "base": "kalenterin-lukeminen",
-      "variations": []
+      "variations": [
+        "kalenterin-lukeminen-nelja-kysymysta",
+        "kalenterin-lukeminen-kiireinen-kuukausi",
+        "kalenteri-ja-viikonpaivat"
+      ]
     },
     {
       "base": "kirjoita-kuvasta-ajoneuvot",
-      "variations": []
+      "variations": [
+        "kirjoita-kuvasta-aloitusten-avulla",
+        "kirjoita-kuvasta-omin-sanoin"
+      ]
     },
     {
       "base": "koordinaatit-ruudukossa",
-      "variations": []
+      "variations": [
+        "koordinaatit-6x6-ruudukossa",
+        "koordinaatit-10x10-ruudukossa"
+      ]
     },
     {
       "base": "sanalliset-kerto-ja-jakolaskut",
-      "variations": []
+      "variations": [
+        "sanalliset-kertolaskut",
+        "sanalliset-jakolaskut-jaa-tasan",
+        "sanalliset-jakolaskut-tee-ryhmia",
+        "jakolaskut-kahdella-tavalla",
+        "kertolasku-ja-ryhmiin-jako",
+        "sekalaiset-kerto-ja-jakolaskut"
+      ]
     }
   ]
 };

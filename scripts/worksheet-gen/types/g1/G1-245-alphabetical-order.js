@@ -15,6 +15,22 @@ const { alphabetStrip } = require('../../templates/components-b2.js');
 const { entriesFor, displayWord, distinctByWord, fileUri } = require('../../lib/b2-common.js');
 const { COLLATION, compare, firstIndex, sortKey } = require('../../data/b2/collation.js');
 
+/**
+ * The word's first letter must be on the PRINTED alphabet strip, not merely in
+ * the collation alphabet. Italian sorts with all 26 letters but prints only its
+ * own 21 (no j k w x y), so `firstIndex` accepted "kiwi" and "jet" while
+ * verify() then failed with "first letter not on the strip" — a child cannot
+ * alphabetise against a letter the page does not show. Removes only words that
+ * verify would reject anyway, so a locale whose strip is complete is unchanged.
+ */
+function onStrip(word, loc) {
+  const i = firstIndex(word, loc);
+  if (i < 0) return false;
+  const col = COLLATION[loc];
+  const letter = col.alphabet[i];
+  return col.strip.some((c) => String(c).toLowerCase() === String(letter).toLowerCase());
+}
+
 module.exports = {
   id: 'G1-245',
   slug: 'alphabetical-order',
@@ -41,7 +57,7 @@ module.exports = {
     const col = COLLATION[loc];
     if (!col) throw new Error(`G1-245: no collation for ${loc}`);
     let pool = distinctByWord(entriesFor(theme, loc).map((e) => ({ ...e, word: displayWord(e.singular, loc) }))
-      .filter((e) => /^[\p{L}]+$/u.test(e.word) && [...e.word].length <= 12 && firstIndex(e.word, loc) >= 0), (e) => e.word);
+      .filter((e) => /^[\p{L}]+$/u.test(e.word) && [...e.word].length <= 12 && onStrip(e.word, loc)), (e) => e.word);
     let picks = null, guard = 0;
     while (!picks && guard++ < 300) {
       const cand = rng.sample(pool, Math.min(pool.length, d.cards));

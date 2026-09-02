@@ -1,0 +1,277 @@
+{
+  "locale": "es",
+  "types": {
+    "K-289": {
+      "title": "Repasa y escribe: primeras palabras",
+      "instruction": "Palabras cortas: repasa y escribe."
+    },
+    "K-290": {
+      "title": "Repasa una vez y escribe dos veces",
+      "instruction": "La palabra está debajo del dibujo."
+    },
+    "K-291": {
+      "title": "Repasa y escribe palabras largas",
+      "instruction": "Palabras largas: repasa despacio."
+    },
+    "K-294": {
+      "title": "Une los puntos del 1 al 10",
+      "instruction": "Solo hay diez puntos: únelos en orden, del 1 al 10."
+    },
+    "K-295": {
+      "title": "Une los puntos del 11 al 20",
+      "instruction": "No empiezas en el 1: une los puntos del 11 al 20."
+    },
+    "K-296": {
+      "title": "Une los puntos del 11 al 30",
+      "instruction": "Cuenta desde el 11 hasta el 30 sin saltarte ninguno."
+    },
+    "K-298": {
+      "title": "Copia el dibujo en una cuadrícula de 6x6",
+      "instruction": "Cuadrícula de 6x6, sin letras ni números."
+    },
+    "K-299": {
+      "title": "Copia el dibujo con letras y números",
+      "instruction": "Cada casilla tiene una letra y un número: B2."
+    },
+    "K-300": {
+      "title": "Copia el dibujo en una cuadrícula de 8x8",
+      "instruction": "Cuadrícula más grande: 8x8, con letras."
+    },
+    "K-302": {
+      "title": "Singular y plural: palabras cortas",
+      "instruction": "Palabras cortas: repasa el plural."
+    },
+    "K-303": {
+      "title": "Singular y plural: palabras largas",
+      "instruction": "Fíjate en el final de cada plural."
+    },
+    "K-306": {
+      "title": "¿El o la? Cuatro dibujos",
+      "instruction": "Cuatro dibujos: di el nombre y rodea el o la."
+    },
+    "K-307": {
+      "title": "¿El o la? Ocho dibujos",
+      "instruction": "Ocho dibujos: rodea el artículo de cada uno."
+    },
+    "G1-251": {
+      "title": "Lee y colorea: cuatro frases",
+      "instruction": "Cuatro frases y cuatro colores en la clave."
+    },
+    "G1-252": {
+      "title": "Lee y colorea: seis frases",
+      "instruction": "Seis frases y seis colores: lee con atención."
+    },
+    "G1-255": {
+      "title": "El número del día: números del 11 al 19",
+      "instruction": "El número de hoy está entre el 11 y el 19."
+    },
+    "G1-256": {
+      "title": "El número del día: 10 más y 10 menos",
+      "instruction": "Calcula 10 más y 10 menos del número de hoy."
+    },
+    "G1-257": {
+      "title": "El número del día: hasta el 99",
+      "instruction": "Hoy el número llega hasta 99: decenas y unidades."
+    },
+    "G1-258": {
+      "title": "Dictado mudo: con la primera letra",
+      "instruction": "La primera letra ya está escrita."
+    },
+    "G1-259": {
+      "title": "Dictado mudo: con banco de palabras",
+      "instruction": "Elige la palabra correcta del banco."
+    },
+    "G1-260": {
+      "title": "Dictado mudo sin banco de palabras",
+      "instruction": "Sin banco de palabras ni pistas."
+    },
+    "G1-262": {
+      "title": "Orden alfabético: numera las tarjetas",
+      "instruction": "Aquí solo numeras las tarjetas."
+    },
+    "G1-263": {
+      "title": "Orden alfabético: numera y copia",
+      "instruction": "Numera y después copia las palabras."
+    },
+    "G1-264": {
+      "title": "Orden alfabético: misma letra inicial",
+      "instruction": "Mira la segunda letra para decidir."
+    },
+    "G1-266": {
+      "title": "Pirámides numéricas hasta 10",
+      "instruction": "Pirámides de tres pisos: ningún resultado pasa de 10."
+    },
+    "G1-267": {
+      "title": "Pirámides numéricas de cuatro pisos",
+      "instruction": "Estas pirámides tienen cuatro pisos de altura."
+    },
+    "G1-268": {
+      "title": "Pirámides numéricas: falta un ladrillo",
+      "instruction": "Falta un ladrillo abajo: resta para averiguarlo."
+    },
+    "G1-270": {
+      "title": "Dobles y mitades con dibujos",
+      "instruction": "Con dibujos para ver el doble y la mitad."
+    },
+    "G1-271": {
+      "title": "Dobles y mitades hasta 20",
+      "instruction": "Sin dibujos: calcula solo con los números."
+    },
+    "G1-274": {
+      "title": "La recta numérica del 0 al 10",
+      "instruction": "La recta llega al 10 y marca el 0, el 5 y el 10."
+    },
+    "G1-275": {
+      "title": "La recta numérica del 0 al 20",
+      "instruction": "Solo están escritos el 0, el 10 y el 20: cuenta."
+    },
+    "G1-276": {
+      "title": "La recta numérica del 0 al 30",
+      "instruction": "Cada marca vale 1 y la recta llega hasta el 30."
+    },
+    "G1-277": {
+      "title": "La recta numérica del 0 al 50",
+      "instruction": "Llega hasta el 50 y solo se escriben las decenas."
+    },
+    "G1-278": {
+      "title": "La recta numérica de 5 en 5 hasta 50",
+      "instruction": "Ojo: cada marca vale 5. Cuenta de cinco en cinco."
+    },
+    "G1-279": {
+      "title": "La recta numérica de 5 en 5 hasta 100",
+      "instruction": "Cada marca vale 5 y la recta llega hasta el 100."
+    },
+    "G1-280": {
+      "title": "La recta numérica de 10 en 10 hasta 100",
+      "instruction": "Cada marca vale 10, no 1: cuenta de 10 en 10."
+    },
+    "G1-281": {
+      "title": "La recta numérica del 0 al 120",
+      "instruction": "Esta recta pasa del 100 y llega hasta el 120."
+    },
+    "G1-282": {
+      "title": "Ordena la frase con pistas",
+      "instruction": "La mayúscula y el signo final son las pistas."
+    },
+    "G1-283": {
+      "title": "Ordena la frase sin pistas",
+      "instruction": "Aquí no hay mayúscula ni signo final de ayuda."
+    },
+    "G2-281": {
+      "title": "Corrige la frase: mayúscula y punto",
+      "instruction": "Le falta la mayúscula y el punto final."
+    },
+    "G2-282": {
+      "title": "Corrige la frase: ¿punto o interrogación?",
+      "instruction": "Si pregunta algo, usa interrogación."
+    },
+    "G2-285": {
+      "title": "Sustantivo, verbo y adjetivo: nueve palabras",
+      "instruction": "Nueve palabras y tres cajas."
+    },
+    "G2-286": {
+      "title": "Sustantivo, verbo y adjetivo: sin dibujos",
+      "instruction": "Ninguna palabra lleva dibujo."
+    },
+    "G2-287": {
+      "title": "Sustantivo, verbo y adjetivo: quince palabras",
+      "instruction": "Quince palabras, sin dibujos."
+    },
+    "G2-289": {
+      "title": "Problemas con dinero: dos problemas",
+      "instruction": "Solo dos problemas: total y un sí o no."
+    },
+    "G2-290": {
+      "title": "Problemas con dinero: cuatro preguntas",
+      "instruction": "Cada tarjeta pregunta algo distinto."
+    },
+    "G2-291": {
+      "title": "Problemas con dinero: el total de la cesta",
+      "instruction": "Todas piden el total de la cesta."
+    },
+    "G2-292": {
+      "title": "Problemas con dinero: suma varios precios",
+      "instruction": "Cestas de hasta tres productos."
+    },
+    "G2-293": {
+      "title": "Problemas con dinero: ¿cuánto devuelven?",
+      "instruction": "Paga con monedas y halla el cambio."
+    },
+    "G2-294": {
+      "title": "Problemas con dinero: ¿te llega el dinero?",
+      "instruction": "Compara el dinero con el precio."
+    },
+    "G2-295": {
+      "title": "Problemas con dinero: ¿cuánto más cuesta?",
+      "instruction": "Calcula la diferencia de precio."
+    },
+    "G2-296": {
+      "title": "Lee el calendario: cuatro preguntas",
+      "instruction": "Cuatro preguntas sobre fechas y días."
+    },
+    "G2-297": {
+      "title": "Lee el calendario: un mes muy ocupado",
+      "instruction": "Seis preguntas y varios días marcados."
+    },
+    "G2-298": {
+      "title": "Lee el calendario: los días de la semana",
+      "instruction": "Lee las columnas de arriba abajo."
+    },
+    "G2-299": {
+      "title": "Escribe sobre la imagen: lo que ves",
+      "instruction": "Las frases ya están empezadas."
+    },
+    "G2-300": {
+      "title": "Escribe sobre la imagen con tus palabras",
+      "instruction": "Sin frases empezadas: escribe tú."
+    },
+    "G2-302": {
+      "title": "Coordenadas en una cuadrícula de 6x6",
+      "instruction": "Cuadrícula de 6x6: colorea casilla a casilla."
+    },
+    "G2-303": {
+      "title": "Coordenadas en una cuadrícula de 10x10",
+      "instruction": "Cuadrícula de 10 por 10 y muchas más casillas."
+    },
+    "G3-371": {
+      "title": "Problemas de multiplicación",
+      "instruction": "Los dos problemas son de multiplicar grupos."
+    },
+    "G3-372": {
+      "title": "Problemas de división: repartir",
+      "instruction": "Reparte los dibujos en las cajas de abajo."
+    },
+    "G3-373": {
+      "title": "Problemas de división: hacer grupos",
+      "instruction": "No se reparte: se forman grupos iguales."
+    },
+    "G3-374": {
+      "title": "Problemas de división: repartir y agrupar",
+      "instruction": "Uno reparte y el otro forma grupos."
+    },
+    "G3-375": {
+      "title": "Problemas de multiplicar y agrupar",
+      "instruction": "Uno se multiplica; el otro forma grupos."
+    },
+    "G3-376": {
+      "title": "Problemas mixtos de multiplicar y dividir",
+      "instruction": "Decide si multiplicas o divides."
+    }
+  },
+  "enAudit": [
+    "G2-292 'Shopping Math: Buying Three Things' — DISHONEST TITLE + INSTRUCTION. The instruction reads 'These baskets hold three things', but on the rendered fruits page card 2 buys only TWO items ('Emma puts mango and kiwi in the basket'). Either constrain the generator so every basket in this variation holds exactly three items, or rename the face. The es title was deliberately written as 'suma varios precios' (add several prices) rather than 'tres' to stay honest.",
+    "G2-295 'Shopping Math: How Much More?' — INSTRUCTION FALSE FOR ONE CARD. It says 'Compare two prices and work out the difference between them', but card 2 on the rendered toys page asks 'Emma wants slide and rocket. How much is that altogether?' — a total, not a difference. Either filter the card mix for this variation to difference-only, or soften the instruction. The es title/instruction were kept generic ('¿cuánto más cuesta?' / 'Calcula la diferencia de precio.') so they do not assert something card 2 contradicts.",
+    "G2-294 'Shopping Math: Is There Enough Money?' — INSTRUCTION DESCRIBES SOMETHING THAT IS NOT ON THE PAGE. It says 'Count the coins, then compare them with the price', but there are NO coin images anywhere on this render: the money each child has is given as a plain numeral ('Anna has 45 ¢'). Contrast G2-293, which really does print coin tokens. This is the 'instruction describing a control that isn't there' class exactly. The es instruction was rewritten to 'compara el dinero con el precio'.",
+    "G1-263 'ABC Order: Four Words' — THE TITLE NAMES THE WRONG DISTINGUISHING FEATURE. G1-262 ('Number the Words') also has exactly FOUR cards, so 'Four Words' does not distinguish anything. The real difference is the scaffold: G1-262 is number-the-cards ONLY (no writing lines on the page at all), while G1-263 adds four numbered lines to copy the words onto. Suggest 'ABC Order: Number, Then Copy'. The es pair was written as 'numera las tarjetas' vs 'numera y copia' to carry the true difference.",
+    "G1-282 'Unscramble the Sentence: With Clues' — WRONG PUNCTUATION NAMED. The instruction says 'The capital letter and the full stop show you where the sentence starts and ends', but card 1 on the rendered fruits page ends in 'pomegranate?' — a question mark, not a full stop. Use 'end mark' / 'the mark at the end'.",
+    "K-298 'Copy the Picture on a 6x6 Grid' — THE TITLE HIDES THE REAL VARIATION. Within this family the size is not the interesting axis: K-298 prints a grid with NO row/column labels at all, while K-299 (also 6x6) and K-300 (8x8) both print A-F / 1-6 labels. So 6x6-vs-8x8 reads as the difference when the actual scaffold jump is unlabelled-grid -> coordinate-grid. Suggest 'Copy the Picture on a Plain 6x6 Grid'. (The es set carries the distinction in the instructions: 'sin letras ni números' vs 'como B2'.)",
+    "G3-373 'Division Word Problems: Making Groups' — INSTRUCTION OVER-PROMISES AN AFFORDANCE. It says 'Ring the groups in the picture', but unlike its sibling G3-372 (sharing), which prints dashed group boxes to deal into, this page prints the objects in one plain row with no printed grouping affordance at all. A child can draw rings with a pencil, but a teacher scanning the page sees nothing to ring. Either print faint group boxes or say 'draw a ring around each group of N'.",
+    "G2-289 'Shopping Math: Two Stories' — WEAK, NON-DIFFERENTIATING INSTRUCTION (the meta-description class the brief warns about). 'Read each story and work out the answer' would fit any of the seven money faces. The actual per-face facts are: only TWO cards, and one of them is a yes/no 'can X buy A and B?' question rather than a total. The es instruction names both.",
+    "G1-271 'Doubles and Halves to 20' — the instruction 'There are no pictures this time' is accurate, but each card still prints an empty dotted rectangle where the picture used to be, which reads as a rendering fault rather than as workspace. Consider either labelling it as jotting space or removing it in this variation.",
+    "es LOCALIZATION RISK (not an English defect, but it will ship wrong if unchecked): G2-282 'Choose the End Mark'. Spanish requires the OPENING sign as well — '¿...?' and '¡...!', not just a terminal '?'. If the generator only appends a terminal mark to the es sentences, the modelled answer is orthographically wrong for Spain and the page teaches an error. Please verify the es render of this face before ship; the es instruction was written as 'usa interrogación' rather than naming a single terminal mark.",
+    "es LOCALIZATION RISK: K-306/K-307 'Circle the Right Word' renders 'a / an' in English. The es base face is already published as '¿El o la? Rodea el artículo', so the es pair must emit 'el / la' (gender), not an a/an calque — a/an has no Spanish equivalent and the task would be meaningless. Worth confirming the es render picks the gender variant, since the sweep only shows the en one.",
+    "es LOCALIZATION RISK: G2-289..G2-295 (money) render prices with the cent sign '¢'. For Spain this must be '€' / 'céntimos'; '¢' is not used in Spanish classrooms and does not appear on any Spanish coin. The G1 band already ships 'Contamos monedas' faces, so the currency convention exists — check the money family follows it.",
+    "MEASURED, and it applies to every locale in this batch: the meta description picks the LONGEST candidate that lands in 120-170, and the instruction is only one candidate alongside the family skill sentence. In es the lead ('Ficha imprimible gratis: {TITLE} Hoja de ejercicios ({tema}) para {NIVEL}.' + 'Descargar el PDF gratis.') costs 88 chars plus the title plus ~13 for a theme, so the instruction budget is roughly 80 - titleLen (themeless) or 67 - titleLen (themed). That is a WINDOW, not a ceiling: too SHORT and the generic family sentence outranks it, too long and it overflows. With the first draft (58-char instructions) only 3 of 64 won. Two consequences worth pushing upstream: (a) es titles must be held near 26-40 chars or the instruction is squeezed to nothing - eight of my titles were shortened purely to buy instruction budget; (b) for a themed face with a long theme name there may be NO length that wins, so the family sentence is structurally unavoidable. Consider shortening the es lead (e.g. drop 'Ficha imprimible gratis:' to 'Gratis:') if per-face descriptions matter across the corpus.",
+    "The 64 en instructions have the same problem in the same direction and it is worth re-measuring them: several en instructions are TWO sentences (e.g. K-299, G1-258, G2-299), which the composer can only use whole, so they overshoot 170 and the family sentence wins for the entire family. bandedDescription does have a first-sentence fallback, but only when NOTHING else bands - if the bare core or the skill sentence bands, the two-sentence instruction is simply discarded."
+  ]
+}

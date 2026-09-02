@@ -1,4 +1,4 @@
-/** G2-286 — Word Classes: Without Pictures. nt20-B-VAR variation of G2-275. */
+/** G2-286 — Word Classes: Sort Twelve Words. nt20-B-VAR variation of G2-275. */
 'use strict';
 const base = require('./G2-275-word-classes.js');
 // One object for all three levels: the waves ship d2 only, so a face must
@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-286',
   slug: 'word-classes-without-pictures',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Word Classes: Without Pictures", instruction: "No pictures to help. Read each word and sort it into a bin." } },
+  i18n: { en: { title: "Word Classes: Sort Twelve Words", instruction: "No pictures to help. Read each word and sort it into a bin." } },
 };

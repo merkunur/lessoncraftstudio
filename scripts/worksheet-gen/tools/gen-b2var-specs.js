@@ -41,13 +41,13 @@ const ROWS = [
   ['k', 'K-294', 'dot-to-dot-1-to-10', 'K-285-dot-to-dot.js', 1, {},
     'Dot-to-Dot 1 to 10', 'Start at the orange dot. Join the dots from 1 to 10 to finish the picture.'],
   ['k', 'K-295', 'dot-to-dot-teen-numbers', 'K-285-dot-to-dot.js', 1, { startAt: 11 },
-    'Dot-to-Dot: Teen Numbers', 'Start at the orange dot. Join the dots from 11 to 20 to finish the picture.'],
+    'Dot-to-Dot 11 to 20', 'Start at the orange dot. Join the dots from 11 to 20 to finish the picture.'],
   ['k', 'K-296', 'dot-to-dot-count-on-11-to-30', 'K-285-dot-to-dot.js', 3, {},
     'Dot-to-Dot: Count On from 11', 'Start at the orange dot. Count on from 11 to 30 to find the picture.'],
 
   // ---------------- K-286 grid-copy ----------------
   ['k', 'K-298', 'grid-copy-6x6', 'K-286-grid-copy.js', 1, {},
-    'Copy the Grid Picture: First Steps', 'A small grid to start. Color the same squares on the empty grid.'],
+    'Copy the Grid Picture: First Steps', 'No letters or numbers here. Color the same squares on the empty grid.'],
   ['k', 'K-299', 'grid-copy-with-letters-and-numbers', 'K-286-grid-copy.js', 1, { labels: true },
     'Copy the Picture Using Letters and Numbers', 'Use the letter and number of each square to copy the picture.'],
   ['k', 'K-300', 'grid-copy-8x8', 'K-286-grid-copy.js', 3, {},
@@ -97,13 +97,13 @@ const ROWS = [
   ['g1', 'G1-263', 'alphabetical-order-four-words', 'G1-245-alphabetical-order.js', 1, {},
     'ABC Order: Number Them, Then Write Them', 'Number the cards, then copy the words onto the lines in order.'],
   ['g1', 'G1-264', 'alphabetical-order-same-first-letter', 'G1-245-alphabetical-order.js', 3, {},
-    'ABC Order: When Two Words Start the Same', 'Two words start alike. Use the second letter to order them.'],
+    'ABC Order: When Words Start the Same', 'Two pairs start with the same letter. Use the second letter to order them.'],
 
   // ---------------- G1-246 number-walls ----------------
   ['g1', 'G1-266', 'number-walls-to-10', 'G1-246-number-walls.js', 1, {},
     'Number Walls to 10', 'Each brick is the sum of the two bricks under it. Build every wall to the top.'],
   ['g1', 'G1-267', 'number-walls-four-courses', 'G1-246-number-walls.js', 3, { gap: false, walls: 4, courses: 4, baseMin: 1, baseMax: 3, topMax: 20 },
-    'Number Walls: Four Rows High', 'Four rows and no gaps. Add each pair of bricks up to the top.'],
+    'Number Walls: Build Every Row', 'Four rows and no gaps. Add each pair of bricks up to the top.'],
   ['g1', 'G1-268', 'number-walls-missing-brick', 'G1-246-number-walls.js', 3, {},
     'Number Walls: Find the Missing Brick', 'One bottom brick is missing. Find it, then build the whole wall.'],
 
@@ -156,12 +156,20 @@ const ROWS = [
   ['g2', 'G2-285', 'word-classes-nine-words', 'G2-275-word-classes.js', 1, {},
     'Word Classes: Sort Nine Words', 'Each noun chip has a picture to help. Sort every word into a bin.'],
   ['g2', 'G2-286', 'word-classes-without-pictures', 'G2-275-word-classes.js', 2, { pics: false },
-    'Word Classes: Without Pictures', 'No pictures to help. Read each word and sort it into a bin.'],
+    'Word Classes: Sort Twelve Words', 'No pictures to help. Read each word and sort it into a bin.'],
   ['g2', 'G2-287', 'word-classes-fifteen-words', 'G2-275-word-classes.js', 3, {},
     'Word Classes: Sort Fifteen Words', 'Fifteen words and no pictures. Sort each one into its bin.'],
 
   // ---------------- G2-276 money ----------------
-  // items/icon tuned so that no two cards on a page ask the SAME question. Each
+  // TWO cards, not three. Each card is drawn independently with rng.pick and
+  // nothing dedupes, which is harmless while a page mixes kinds and stops being
+  // harmless once a face pins every card to one kind: three cards drawn from five
+  // items collide about half the time, and the English "How Much Change?" page
+  // really did render cards 1 and 3 as the same problem. Raising the shelf to
+  // eight items fixed the collision and then OVERFLOWED the page in Spanish and
+  // Italian, whose currency words are long — so the shelf cannot grow. Searching
+  // items<=6 across all ELEVEN locales, two cards is the only shape that is clean
+  // everywhere; the taller card keeps the page from reading sparse. Each
   // card is drawn independently with rng.pick and nothing dedupes, which is
   // harmless while a page mixes kinds and stops being harmless once a face pins
   // every card to one kind: three cards drawn from five items collide about half
@@ -184,16 +192,16 @@ const ROWS = [
     'Shopping Math: Add Up the Basket', 'Every card asks for a total. Add the prices together.'],
   ['g2', 'G2-292', 'shopping-math-three-things', 'G2-276-shopping-math.js', 2, { kinds: ['total3', 'total3', 'total3'] },
     'Shopping Math: Buying Three Things', 'Each basket holds three things. Add all three prices.'],
-  ['g2', 'G2-293', 'shopping-math-how-much-change', 'G2-276-shopping-math.js', 2, { kinds: ['change', 'change', 'change'], items: 8, icon: 52 },
+  ['g2', 'G2-293', 'shopping-math-how-much-change', 'G2-276-shopping-math.js', 2, { kinds: ['change', 'change'], cards: 2, items: 5, cardH: 240, dots: 100 },
     'Shopping Math: How Much Change?', 'Count the coins paid, then work out the change.'],
-  ['g2', 'G2-294', 'shopping-math-is-there-enough-money', 'G2-276-shopping-math.js', 2, { kinds: ['canBuy', 'canBuy', 'canBuy'], items: 8, icon: 52 },
+  ['g2', 'G2-294', 'shopping-math-is-there-enough-money', 'G2-276-shopping-math.js', 2, { kinds: ['canBuy', 'canBuy'], cards: 2, items: 5, cardH: 240, dots: 100 },
     'Shopping Math: Is There Enough Money?', 'Compare the money with the price. Circle yes or no, then write the total.'],
   ['g2', 'G2-295', 'shopping-math-how-much-more', 'G2-276-shopping-math.js', 2, { kinds: ['diff', 'diff', 'diff'] },
     'Shopping Math: How Much More?', 'Compare two prices and work out the difference between them.'],
 
   // ---------------- G2-277 calendar ----------------
   ['g2', 'G2-296', 'read-the-calendar-four-questions', 'G2-277-read-the-calendar.js', 1, {},
-    'Read the Calendar: Four Questions', 'Look at the month. Answer each question by reading the calendar.'],
+    'Read the Calendar: A First Look', 'Look at the month. Answer each question by reading the calendar.'],
   ['g2', 'G2-297', 'read-the-calendar-a-busy-month', 'G2-277-read-the-calendar.js', 3, {},
     'Read the Calendar: A Busy Month', 'This month is full. Read the calendar carefully to answer every question.'],
   ['g2', 'G2-298', 'read-the-calendar-days-of-the-week', 'G2-277-read-the-calendar.js', 1, { questions: ['dayOfDate', 'countWeekday', 'firstDay', 'lastDay'], stickers: 2, cellH: 72 },

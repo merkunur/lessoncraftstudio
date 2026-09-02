@@ -1528,16 +1528,16 @@
     "instruction": "Start at the orange dot. Join the dots from 1 to 10 to finish the picture."
   },
   "K-295": {
-    "title": "Dot-to-Dot: Teen Numbers",
+    "title": "Dot-to-Dot 11 to 20",
     "instruction": "Start at the orange dot. Join the dots from 11 to 20 to finish the picture."
   },
   "K-296": {
     "title": "Dot-to-Dot: Count On from 11",
-    "instruction": "Count on from 11 to 30 to find the hidden picture."
+    "instruction": "Start at the orange dot. Count on from 11 to 30 to find the picture."
   },
   "K-298": {
     "title": "Copy the Grid Picture: First Steps",
-    "instruction": "A small grid to start. Color the same squares on the empty grid."
+    "instruction": "No letters or numbers here. Color the same squares on the empty grid."
   },
   "K-299": {
     "title": "Copy the Picture Using Letters and Numbers",
@@ -1584,11 +1584,11 @@
     "instruction": "Show a two-digit number in tens and ones, then fill every box."
   },
   "G1-258": {
-    "title": "Write the Word: With a Word Bank",
-    "instruction": "Use the word bank. The first letter is written to start you off."
+    "title": "Write the Word: The First Letter Is Given",
+    "instruction": "Use the word bank. The first letter is already on the line to start you off."
   },
   "G1-259": {
-    "title": "Write the Word: Choose from the Word Bank",
+    "title": "Write the Word: Word Bank, No First Letter",
     "instruction": "Every word is in the bank. Write the right one by each picture."
   },
   "G1-260": {
@@ -1604,24 +1604,24 @@
     "instruction": "Number the cards, then copy the words onto the lines in order."
   },
   "G1-264": {
-    "title": "ABC Order: When Two Words Start the Same",
-    "instruction": "Two words start alike. Use the second letter to order them."
+    "title": "ABC Order: When Words Start the Same",
+    "instruction": "Two pairs start with the same letter. Use the second letter to order them."
   },
   "G1-266": {
     "title": "Number Walls to 10",
     "instruction": "Each brick is the sum of the two bricks under it. Build every wall to the top."
   },
   "G1-267": {
-    "title": "Number Walls: Four Rows High",
+    "title": "Number Walls: Build Every Row",
     "instruction": "Four rows and no gaps. Add each pair of bricks up to the top."
   },
   "G1-268": {
     "title": "Number Walls: Find the Missing Brick",
-    "instruction": "A bottom brick is missing. Use the brick above to find it."
+    "instruction": "One bottom brick is missing. Find it, then build the whole wall."
   },
   "G1-270": {
     "title": "Doubles and Halves: First Steps",
-    "instruction": "Double the group, then halve it. Small numbers to start."
+    "instruction": "Some cards ask you to double a group. Others ask you to halve one."
   },
   "G1-271": {
     "title": "Doubles and Halves to 20",
@@ -1661,7 +1661,7 @@
   },
   "G1-282": {
     "title": "Unscramble the Sentence: With Clues",
-    "instruction": "The capital letter and the end mark show where each sentence begins."
+    "instruction": "The capital letter and the end mark show where a sentence begins and ends."
   },
   "G1-283": {
     "title": "Unscramble the Sentence: No Clues",
@@ -1677,10 +1677,10 @@
   },
   "G2-285": {
     "title": "Word Classes: Sort Nine Words",
-    "instruction": "Read each word chip. Write it in the bin where it belongs."
+    "instruction": "Each noun chip has a picture to help. Sort every word into a bin."
   },
   "G2-286": {
-    "title": "Word Classes: Without Pictures",
+    "title": "Word Classes: Sort Twelve Words",
     "instruction": "No pictures to help. Read each word and sort it into a bin."
   },
   "G2-287": {
@@ -1716,7 +1716,7 @@
     "instruction": "Compare two prices and work out the difference between them."
   },
   "G2-296": {
-    "title": "Read the Calendar: Four Questions",
+    "title": "Read the Calendar: A First Look",
     "instruction": "Look at the month. Answer each question by reading the calendar."
   },
   "G2-297": {
@@ -1733,7 +1733,7 @@
   },
   "G2-300": {
     "title": "Write About the Picture: Your Own Words",
-    "instruction": "No sentence starters. Write your own story about the picture."
+    "instruction": "No sentence starters this time. Use the word bank and write your own story."
   },
   "G2-302": {
     "title": "Grid Coordinates on a 6x6 Grid",

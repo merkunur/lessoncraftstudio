@@ -4,7 +4,7 @@ const base = require('./G2-276-shopping-math.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"kinds":["canBuy","canBuy","canBuy"],"items":8,"icon":52} };
+const D = { ...base.difficulty[2], ...{"kinds":["canBuy","canBuy"],"cards":2,"items":5,"cardH":240,"dots":100} };
 module.exports = {
   ...base,
   id: 'G2-294',

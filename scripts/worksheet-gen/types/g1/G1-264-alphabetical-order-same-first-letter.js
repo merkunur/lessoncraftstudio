@@ -1,4 +1,4 @@
-/** G1-264 — ABC Order: When Two Words Start the Same. nt20-B-VAR variation of G1-245. */
+/** G1-264 — ABC Order: When Words Start the Same. nt20-B-VAR variation of G1-245. */
 'use strict';
 const base = require('./G1-245-alphabetical-order.js');
 // One object for all three levels: the waves ship d2 only, so a face must
@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-264',
   slug: 'alphabetical-order-same-first-letter',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "ABC Order: When Two Words Start the Same", instruction: "Two words start alike. Use the second letter to order them." } },
+  i18n: { en: { title: "ABC Order: When Words Start the Same", instruction: "Two pairs start with the same letter. Use the second letter to order them." } },
 };

@@ -1668,8 +1668,8 @@
     "instruction": "Ohne Hilfen: ordne die Wörter und schreibe den Satz."
   },
   "G2-281": {
-    "title": "Satzanfang und Punkt berichtigen",
-    "instruction": "Schreibe die vier Sätze groß und mit Punkt neu."
+    "title": "Drei Sätze berichtigen",
+    "instruction": "Schreibe jeden Satz groß und mit Satzzeichen neu."
   },
   "G2-282": {
     "title": "Punkt oder Fragezeichen setzen",

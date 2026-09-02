@@ -103,6 +103,41 @@ const GROUPS = {
   'K-278': [['K-279', 'lowercase-letter-tracing', null], ['K-280', 'lowercase-letter-tracing', null], ['K-281', 'lowercase-letter-tracing', null], ['K-282', 'lowercase-letter-tracing', null], ['K-283', 'lowercase-letter-tracing', null]],
 };
 
+/* ---- nt20-B-VAR: the 64 variation faces, DERIVED, not hand-listed -----------
+ * Each of the 20 nt20-B bases gains its variation faces as chips. The rows come
+ * straight from tools/gen-b2var-specs.js and the spec modules, so this cannot
+ * drift from what was actually built — a hand-maintained list is exactly what
+ * went stale in the panel face table earlier in this batch. The theme is left
+ * null here and resolved per locale through b2ThemeFor above, because two faces
+ * ride a different theme in sv/da.
+ */
+(() => {
+  const WSG = path.join(ROOT, 'scripts', 'worksheet-gen');
+  let ROWS, loadType;
+  try {
+    ({ ROWS } = require(path.join(WSG, 'tools', 'gen-b2var-specs.js')));
+    ({ loadType } = require(path.join(WSG, 'lib', 'load-types.js')));
+  } catch (e) { return; }                       // batch not present: leave GROUPS as-is
+  const BASE_OF = {
+    'K-284-word-tracing.js': 'K-284', 'K-285-dot-to-dot.js': 'K-285',
+    'K-286-grid-copy.js': 'K-286', 'K-287-singular-plural.js': 'K-287',
+    'K-288-articles.js': 'K-288', 'G1-242-read-and-color.js': 'G1-242',
+    'G1-243-number-of-the-day.js': 'G1-243', 'G1-244-write-the-word.js': 'G1-244',
+    'G1-245-alphabetical-order.js': 'G1-245', 'G1-246-number-walls.js': 'G1-246',
+    'G1-247-doubles-halves.js': 'G1-247', 'G1-248-number-line-position.js': 'G1-248',
+    'G1-249-unscramble-sentence.js': 'G1-249', 'G2-274-fix-the-sentence.js': 'G2-274',
+    'G2-275-word-classes.js': 'G2-275', 'G2-276-shopping-math.js': 'G2-276',
+    'G2-277-read-the-calendar.js': 'G2-277', 'G2-278-write-about-the-picture.js': 'G2-278',
+    'G2-279-grid-coordinates.js': 'G2-279', 'G3-370-muldiv-word-problems.js': 'G3-370',
+  };
+  for (const r of ROWS) {
+    const id = r[1], baseId = BASE_OF[r[3]];
+    if (!baseId) continue;
+    const fam = loadType(id).exerciseType;
+    (GROUPS[baseId] = GROUPS[baseId] || []).push([id, fam, null]);
+  }
+})();
+
 /* ---- MORE_TYPE_GROUPS: the legacy families stranded off hub page 1 ----------
  * frontend/lib/worksheets-catalog.ts: interleaveByAxis orders type buckets by
  * SIZE DESC and WORKSHEETS_PAGE_SIZE is 24, so hub page 1 is exactly one
@@ -151,12 +186,20 @@ for (const loc of LOCALES) {
   const themeSlug = (t) => (TAX.axes.theme[t].slug[loc] || TAX.axes.theme[t].slug.en);
   const deckSlug = (id, fam, theme) => famSlug(fam) + (theme ? '-' + themeSlug(theme) : '') + '-' + id.toLowerCase().replace('-', '');
 
-  // nt20-B bases: a locale's wave may override the theme (sv/da/no K-288 → fruits); read the wave file
+  // A locale's wave may override a type's theme (sv/da/no ship K-288 and K-306 on
+  // fruits because their animals vocabulary is gender-degenerate). The wave file
+  // is the single source of truth, so read it rather than re-deriving: a theme
+  // taken from a global map produces a deck slug that does not exist and the card
+  // is then silently dropped for that locale. Both the nt20-B and the nt20-B-VAR
+  // waves are consulted; the VAR wave pins EVERY themed face.
   const b2ThemeFor = (id, theme) => {
-    const wp = path.join(ROOT, 'scripts', 'worksheet-gen', 'waves', 'wave-b2-' + loc + '.json');
-    if (!fs.existsSync(wp)) return theme;
-    const ov = (JSON.parse(fs.readFileSync(wp, 'utf8')).themeOverrides || {})[id];
-    return ov ? ov.replace(/ /g, '_') : theme;
+    for (const w of ['wave-b2-', 'wave-b2var-']) {
+      const wp = path.join(ROOT, 'scripts', 'worksheet-gen', 'waves', w + loc + '.json');
+      if (!fs.existsSync(wp)) continue;
+      const ov = (JSON.parse(fs.readFileSync(wp, 'utf8')).themeOverrides || {})[id];
+      if (ov) return ov.replace(/ /g, '_');
+    }
+    return theme;
   };
   const groups = [];
   for (const [baseId, b] of Object.entries(BASES)) {
@@ -164,8 +207,8 @@ for (const loc of LOCALES) {
     if (!baseLanding) { console.warn(`${loc}: no base landing for ${baseId}`); continue; }
     const seen = new Set();
     const variations = [];
-    for (const [id, fam, theme] of (GROUPS[baseId] || [])) { // nt20-B bases have no variations yet
-      const slug = byDeck.get(deckSlug(id, fam, theme));
+    for (const [id, fam, theme] of (GROUPS[baseId] || [])) {
+      const slug = byDeck.get(deckSlug(id, fam, b2ThemeFor(id, theme)));
       if (slug && slug !== baseLanding && !seen.has(slug)) { seen.add(slug); variations.push(slug); }
     }
     groups.push({ base: baseLanding, variations });

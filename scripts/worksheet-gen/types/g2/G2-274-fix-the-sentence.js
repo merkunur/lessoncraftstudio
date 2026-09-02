@@ -77,7 +77,15 @@ module.exports = {
         `<div style="background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:5px 14px;font-family:'Nunito';font-weight:700;font-size:${d.font}px;color:#3A3530" data-lcs-broken>${broken}</div>` +
         rulingBlock({ rows: 1, w: 660 - d.icon - 12 - 28, h: d.rulH, glyphH: d.glyphH }) + `</div></div>`;
     });
-    const glyphs = { capital: 'A', name: 'Aa', end: difficulty === 3 ? '.?!' : '.' };
+    // Keyed on the CONFIG, not the difficulty index -- the same hole as the
+    // name guard above, in the one line that guard did not cover. G2-281
+    // re-points the d1 config but overrides `ends: ['.','?']` with `needQ: 1`,
+    // so at least one sentence needs a question mark while the banner showed a
+    // bare '.', telling the child to look for the wrong thing. Byte-identical
+    // for every shipped base coordinate (d1 and d2 are ['.'], d3 is ['.','?','!']),
+    // so b2-baseline reports 0 drift; only G2-281 changes, and it changes to
+    // the truth. Found by the Norwegian panel reading the source, not a gate.
+    const glyphs = { capital: 'A', name: 'Aa', end: d.ends.join('') };
     const chips = fixChecklist({ chips: d.chips.map((k) => ({ key: k, glyph: glyphs[k], label: bank.fixLabels[k] })) });
     return {
       bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;gap:10px;justify-content:space-evenly" data-ws-content>${chips}${lanes.join('')}</div>`,

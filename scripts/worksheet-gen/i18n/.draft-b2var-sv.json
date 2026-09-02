@@ -1,276 +1,276 @@
 {
- "locale": "sv",
- "types": {
-  "K-289": {
-   "title": "Spåra dina första ord",
-   "instruction": "Spåra det streckade ordet och skriv det själv."
+  "locale": "sv",
+  "types": {
+    "K-289": {
+      "title": "Spåra dina första ord",
+      "instruction": "Spåra det streckade ordet och skriv det själv."
+    },
+    "K-290": {
+      "title": "Spåra och skriv två gånger",
+      "instruction": "Spåra ordet en gång och skriv det två gånger."
+    },
+    "K-291": {
+      "title": "Spåra och skriv långa ord",
+      "instruction": "Orden är långa. Spåra dem och skriv dem själv."
+    },
+    "K-294": {
+      "title": "Prick till prick: 1 till 10",
+      "instruction": "Börja vid den orangea pricken. Dra streck från 1 till 10."
+    },
+    "K-295": {
+      "title": "Prick till prick: 11 till 20",
+      "instruction": "Börja vid den orangea pricken. Dra streck från 11 till 20."
+    },
+    "K-296": {
+      "title": "Prick till prick: 11 till 30",
+      "instruction": "Räkna vidare från 11 till 30 så kommer bilden fram."
+    },
+    "K-298": {
+      "title": "Rita av i rutnätet: första stegen",
+      "instruction": "Ett litet rutnät. Färglägg samma rutor till höger."
+    },
+    "K-299": {
+      "title": "Rita av med bokstäver och siffror",
+      "instruction": "Varje ruta har en bokstav och en siffra att följa."
+    },
+    "K-300": {
+      "title": "Rita av i ett större rutnät",
+      "instruction": "Rutnätet är större. Sök varje ruta med bokstav och siffra."
+    },
+    "K-302": {
+      "title": "Singular och plural: korta ord",
+      "instruction": "En bild eller flera? Spåra ordet för flera."
+    },
+    "K-303": {
+      "title": "Singular och plural: längre ord",
+      "instruction": "Orden är längre här. Spåra ordet för flera."
+    },
+    "K-306": {
+      "title": "En eller ett? Fyra bilder",
+      "instruction": "Säg ordet till varje bild. Ringa in en eller ett."
+    },
+    "K-307": {
+      "title": "En eller ett? Åtta bilder",
+      "instruction": "Åtta bilder. Ringa in en eller ett till varje bild."
+    },
+    "G1-251": {
+      "title": "Läs och måla: fyra meningar",
+      "instruction": "Läs varje mening och måla precis det som meningen säger."
+    },
+    "G1-252": {
+      "title": "Läs och måla: fler meningar och färger",
+      "instruction": "Fler bilder och fler färger. Läs varje mening noga."
+    },
+    "G1-255": {
+      "title": "Dagens tal: 11 till 20",
+      "instruction": "Dagens tal ligger mellan 11 och 20. Fyll i alla rutor på sidan."
+    },
+    "G1-256": {
+      "title": "Dagens tal: 10 mer och 10 mindre",
+      "instruction": "Räkna ut tio mer och tio mindre än dagens tal."
+    },
+    "G1-257": {
+      "title": "Dagens tal upp till 99",
+      "instruction": "Visa det tvåsiffriga talet i tiotal och ental. Fyll i varje ruta."
+    },
+    "G1-258": {
+      "title": "Skriv ordet: första bokstaven",
+      "instruction": "Orden finns i ordbanken. Första bokstaven är given."
+    },
+    "G1-259": {
+      "title": "Skriv ordet: välj från ordbanken",
+      "instruction": "Varje ord du behöver står i ordbanken."
+    },
+    "G1-260": {
+      "title": "Skriv ordet utan ordbank",
+      "instruction": "Ingen ordbank. Säg ordet och skriv det på raden."
+    },
+    "G1-262": {
+      "title": "Alfabetisk ordning: numrera korten",
+      "instruction": "Ta hjälp av alfabetet och numrera korten."
+    },
+    "G1-263": {
+      "title": "Alfabetisk ordning: skriv om orden",
+      "instruction": "Numrera korten och skriv orden på raderna."
+    },
+    "G1-264": {
+      "title": "Alfabetisk ordning: andra bokstaven",
+      "instruction": "Två par börjar lika. Se på andra bokstaven."
+    },
+    "G1-266": {
+      "title": "Talpyramider till 10",
+      "instruction": "Varje sten är summan av de två stenarna under den."
+    },
+    "G1-267": {
+      "title": "Talpyramider med fyra rader",
+      "instruction": "Fyra rader. Addera två stenar i taget upp till toppen."
+    },
+    "G1-268": {
+      "title": "Talpyramider: stenen som saknas",
+      "instruction": "En sten längst ner saknas. Räkna ut den och bygg klart."
+    },
+    "G1-270": {
+      "title": "Dubbelt och hälften med bilder",
+      "instruction": "Bilderna hjälper dig med dubbelt och hälften."
+    },
+    "G1-271": {
+      "title": "Dubbelt och hälften upp till 20",
+      "instruction": "Inga bilder nu. Räkna ut dubbelt och hälften."
+    },
+    "G1-274": {
+      "title": "Läs av tallinjen 0 till 10",
+      "instruction": "En pil pekar på ett streck. Skriv talet mellan 0 och 10."
+    },
+    "G1-275": {
+      "title": "Tallinjen till 20 med få tal",
+      "instruction": "Bara 0, 10 och 20 står utsatta. Räkna vidare därifrån."
+    },
+    "G1-276": {
+      "title": "Läs av tallinjen 0 till 30",
+      "instruction": "Varje streck är ett steg. Räkna vidare ända till 30."
+    },
+    "G1-277": {
+      "title": "Läs av tallinjen 0 till 50",
+      "instruction": "Vart tionde tal är utsatt. Räkna vidare till varje pil."
+    },
+    "G1-278": {
+      "title": "Tallinjen till 50 med steg om 5",
+      "instruction": "Varje streck är 5. Räkna med femmor fram till varje pil."
+    },
+    "G1-279": {
+      "title": "Tallinjen till 100 med steg om 5",
+      "instruction": "Varje streck är 5 och vartannat tal står utsatt."
+    },
+    "G1-280": {
+      "title": "Tallinjen till 100 med steg om 10",
+      "instruction": "Varje streck är 10. Räkna med tiotal till varje pil."
+    },
+    "G1-281": {
+      "title": "Tallinjen förbi 100 till 120",
+      "instruction": "Linjen fortsätter förbi 100. Räkna med tiotal."
+    },
+    "G1-282": {
+      "title": "Ordna orden med ledtrådar",
+      "instruction": "Stor bokstav visar början, skiljetecknet visar slutet."
+    },
+    "G1-283": {
+      "title": "Ordna orden utan ledtrådar",
+      "instruction": "Inga ledtrådar. Hitta den enda ordföljd som fungerar."
+    },
+    "G2-281": {
+      "title": "Punkt eller frågetecken?",
+      "instruction": "Varje mening ska ha stor bokstav och rätt skiljetecken."
+    },
+    "G2-282": {
+      "title": "Stor bokstav, namn och skiljetecken",
+      "instruction": "Välj själv rätt skiljetecken i slutet."
+    },
+    "G2-285": {
+      "title": "Ordklasser: sortera nio ord",
+      "instruction": "Läs varje ordkort och skriv ordet i rätt låda."
+    },
+    "G2-286": {
+      "title": "Ordklasser utan bildstöd",
+      "instruction": "Inga bilder till hjälp. Läs ordet och sortera det."
+    },
+    "G2-287": {
+      "title": "Ordklasser: sortera femton ord",
+      "instruction": "Femton ord och inga bilder. Läs varje ord noga."
+    },
+    "G2-289": {
+      "title": "Pengar: två räknehändelser",
+      "instruction": "Läs de två räknehändelserna och priserna på hyllan."
+    },
+    "G2-290": {
+      "title": "Pengar: fyra olika frågor",
+      "instruction": "Fyra kort med fyra olika frågor. Läs priserna på hyllan."
+    },
+    "G2-291": {
+      "title": "Pengar: räkna ihop priset",
+      "instruction": "Varje kort frågar efter en summa. Lägg ihop priserna."
+    },
+    "G2-292": {
+      "title": "Pengar: tre saker i korgen",
+      "instruction": "I varje korg ligger tre saker. Lägg ihop priserna."
+    },
+    "G2-293": {
+      "title": "Pengar: hur mycket tillbaka?",
+      "instruction": "Titta på mynten. Räkna ut hur mycket du får tillbaka."
+    },
+    "G2-294": {
+      "title": "Pengar: räcker de till?",
+      "instruction": "Jämför pengarna med priset. Ringa in ja eller nej."
+    },
+    "G2-295": {
+      "title": "Pengar: hur mycket dyrare?",
+      "instruction": "Jämför två priser och räkna ut skillnaden mellan dem."
+    },
+    "G2-296": {
+      "title": "Läs kalendern: fyra frågor",
+      "instruction": "Titta på månaden i kalendern och svara på de fyra frågorna."
+    },
+    "G2-297": {
+      "title": "Läs kalendern: en vecka senare",
+      "instruction": "Fem frågor. Räkna också ut dagarna mellan bilderna."
+    },
+    "G2-298": {
+      "title": "Läs kalendern: veckans dagar",
+      "instruction": "Alla frågor handlar om veckodagar. Läs nedåt i kolumnerna."
+    },
+    "G2-299": {
+      "title": "Skriv till bilden: meningsstarter",
+      "instruction": "Meningsstarterna hjälper dig igång med skrivandet."
+    },
+    "G2-300": {
+      "title": "Skriv till bilden med egna ord",
+      "instruction": "Inga meningsstarter. Skriv en egen text om bilden."
+    },
+    "G2-302": {
+      "title": "Koordinater i rutnät: 6 x 6",
+      "instruction": "Hitta varje ruta med bokstav och siffra och måla den."
+    },
+    "G2-303": {
+      "title": "Koordinater i rutnät: 10 x 10",
+      "instruction": "Rutnätet är större. Arbeta dig igenom hela listan."
+    },
+    "G3-371": {
+      "title": "Multiplikation i räknehändelser",
+      "instruction": "Bilden visar de lika stora grupperna i uppgiften."
+    },
+    "G3-372": {
+      "title": "Räknehändelser: dela lika",
+      "instruction": "Fördela sakerna i lådorna och skriv sedan svaret."
+    },
+    "G3-373": {
+      "title": "Räknehändelser: bilda grupper",
+      "instruction": "Ringa in de lika stora grupperna och skriv svaret."
+    },
+    "G3-374": {
+      "title": "Division på två sätt",
+      "instruction": "En uppgift delar lika, den andra bildar grupper."
+    },
+    "G3-375": {
+      "title": "Gånger och delat blandat",
+      "instruction": "En uppgift bygger lika grupper, den andra delar upp dem."
+    },
+    "G3-376": {
+      "title": "Tre blandade räknehändelser",
+      "instruction": "Tre uppgifter. Avgör vad var och en frågar efter."
+    }
   },
-  "K-290": {
-   "title": "Spåra och skriv två gånger",
-   "instruction": "Spåra ordet en gång och skriv det två gånger."
-  },
-  "K-291": {
-   "title": "Spåra och skriv långa ord",
-   "instruction": "Orden är långa. Spåra dem och skriv dem själv."
-  },
-  "K-294": {
-   "title": "Prick till prick: 1 till 10",
-   "instruction": "Börja vid den orangea pricken. Dra streck från 1 till 10."
-  },
-  "K-295": {
-   "title": "Prick till prick: 11 till 20",
-   "instruction": "Börja vid den orangea pricken. Dra streck från 11 till 20."
-  },
-  "K-296": {
-   "title": "Prick till prick: 11 till 30",
-   "instruction": "Räkna vidare från 11 till 30 så kommer bilden fram."
-  },
-  "K-298": {
-   "title": "Rita av i rutnätet: första stegen",
-   "instruction": "Ett litet rutnät. Färglägg samma rutor till höger."
-  },
-  "K-299": {
-   "title": "Rita av med bokstäver och siffror",
-   "instruction": "Varje ruta har en bokstav och en siffra att följa."
-  },
-  "K-300": {
-   "title": "Rita av i ett större rutnät",
-   "instruction": "Rutnätet är större. Sök varje ruta med bokstav och siffra."
-  },
-  "K-302": {
-   "title": "Singular och plural: korta ord",
-   "instruction": "En bild eller flera? Spåra ordet för flera."
-  },
-  "K-303": {
-   "title": "Singular och plural: längre ord",
-   "instruction": "Orden är längre här. Spåra ordet för flera."
-  },
-  "K-306": {
-   "title": "En eller ett? Fyra bilder",
-   "instruction": "Säg ordet till varje bild. Ringa in en eller ett."
-  },
-  "K-307": {
-   "title": "En eller ett? Åtta bilder",
-   "instruction": "Åtta bilder. Ringa in en eller ett till varje bild."
-  },
-  "G1-251": {
-   "title": "Läs och måla: fyra meningar",
-   "instruction": "Läs varje mening och måla precis det som meningen säger."
-  },
-  "G1-252": {
-   "title": "Läs och måla: fler meningar och färger",
-   "instruction": "Fler bilder och fler färger. Läs varje mening noga."
-  },
-  "G1-255": {
-   "title": "Dagens tal: 11 till 20",
-   "instruction": "Dagens tal ligger mellan 11 och 20. Fyll i alla rutor på sidan."
-  },
-  "G1-256": {
-   "title": "Dagens tal: 10 mer och 10 mindre",
-   "instruction": "Räkna ut tio mer och tio mindre än dagens tal."
-  },
-  "G1-257": {
-   "title": "Dagens tal upp till 99",
-   "instruction": "Visa det tvåsiffriga talet i tiotal och ental. Fyll i varje ruta."
-  },
-  "G1-258": {
-   "title": "Skriv ordet: första bokstaven",
-   "instruction": "Orden finns i ordbanken. Första bokstaven är given."
-  },
-  "G1-259": {
-   "title": "Skriv ordet: välj från ordbanken",
-   "instruction": "Varje ord du behöver står i ordbanken."
-  },
-  "G1-260": {
-   "title": "Skriv ordet utan ordbank",
-   "instruction": "Ingen ordbank. Säg ordet och skriv det på raden."
-  },
-  "G1-262": {
-   "title": "Alfabetisk ordning: numrera korten",
-   "instruction": "Ta hjälp av alfabetet och numrera korten."
-  },
-  "G1-263": {
-   "title": "Alfabetisk ordning: skriv om orden",
-   "instruction": "Numrera korten och skriv orden på raderna."
-  },
-  "G1-264": {
-   "title": "Alfabetisk ordning: andra bokstaven",
-   "instruction": "Två par börjar lika. Se på andra bokstaven."
-  },
-  "G1-266": {
-   "title": "Talpyramider till 10",
-   "instruction": "Varje sten är summan av de två stenarna under den."
-  },
-  "G1-267": {
-   "title": "Talpyramider med fyra rader",
-   "instruction": "Fyra rader. Addera två stenar i taget upp till toppen."
-  },
-  "G1-268": {
-   "title": "Talpyramider: stenen som saknas",
-   "instruction": "En sten längst ner saknas. Räkna ut den och bygg klart."
-  },
-  "G1-270": {
-   "title": "Dubbelt och hälften med bilder",
-   "instruction": "Bilderna hjälper dig med dubbelt och hälften."
-  },
-  "G1-271": {
-   "title": "Dubbelt och hälften upp till 20",
-   "instruction": "Inga bilder nu. Räkna ut dubbelt och hälften."
-  },
-  "G1-274": {
-   "title": "Läs av tallinjen 0 till 10",
-   "instruction": "En pil pekar på ett streck. Skriv talet mellan 0 och 10."
-  },
-  "G1-275": {
-   "title": "Tallinjen till 20 med få tal",
-   "instruction": "Bara 0, 10 och 20 står utsatta. Räkna vidare därifrån."
-  },
-  "G1-276": {
-   "title": "Läs av tallinjen 0 till 30",
-   "instruction": "Varje streck är ett steg. Räkna vidare ända till 30."
-  },
-  "G1-277": {
-   "title": "Läs av tallinjen 0 till 50",
-   "instruction": "Vart tionde tal är utsatt. Räkna vidare till varje pil."
-  },
-  "G1-278": {
-   "title": "Tallinjen till 50 med steg om 5",
-   "instruction": "Varje streck är 5. Räkna med femmor fram till varje pil."
-  },
-  "G1-279": {
-   "title": "Tallinjen till 100 med steg om 5",
-   "instruction": "Varje streck är 5 och vartannat tal står utsatt."
-  },
-  "G1-280": {
-   "title": "Tallinjen till 100 med steg om 10",
-   "instruction": "Varje streck är 10. Räkna med tiotal till varje pil."
-  },
-  "G1-281": {
-   "title": "Tallinjen förbi 100 till 120",
-   "instruction": "Linjen fortsätter förbi 100. Räkna med tiotal."
-  },
-  "G1-282": {
-   "title": "Ordna orden med ledtrådar",
-   "instruction": "Stor bokstav visar början, skiljetecknet visar slutet."
-  },
-  "G1-283": {
-   "title": "Ordna orden utan ledtrådar",
-   "instruction": "Inga ledtrådar. Hitta den enda ordföljd som fungerar."
-  },
-  "G2-281": {
-   "title": "Punkt eller frågetecken?",
-   "instruction": "Varje mening ska ha stor bokstav och rätt skiljetecken."
-  },
-  "G2-282": {
-   "title": "Stor bokstav, namn och skiljetecken",
-   "instruction": "Välj själv rätt skiljetecken i slutet."
-  },
-  "G2-285": {
-   "title": "Ordklasser: sortera nio ord",
-   "instruction": "Läs varje ordkort och skriv ordet i rätt låda."
-  },
-  "G2-286": {
-   "title": "Ordklasser utan bildstöd",
-   "instruction": "Inga bilder till hjälp. Läs ordet och sortera det."
-  },
-  "G2-287": {
-   "title": "Ordklasser: sortera femton ord",
-   "instruction": "Femton ord och inga bilder. Läs varje ord noga."
-  },
-  "G2-289": {
-   "title": "Pengar: två räknehändelser",
-   "instruction": "Läs de två räknehändelserna och priserna på hyllan."
-  },
-  "G2-290": {
-   "title": "Pengar: fyra olika frågor",
-   "instruction": "Fyra kort med fyra olika frågor. Läs priserna på hyllan."
-  },
-  "G2-291": {
-   "title": "Pengar: räkna ihop priset",
-   "instruction": "Varje kort frågar efter en summa. Lägg ihop priserna."
-  },
-  "G2-292": {
-   "title": "Pengar: tre saker i korgen",
-   "instruction": "I varje korg ligger tre saker. Lägg ihop priserna."
-  },
-  "G2-293": {
-   "title": "Pengar: hur mycket tillbaka?",
-   "instruction": "Titta på mynten. Räkna ut hur mycket du får tillbaka."
-  },
-  "G2-294": {
-   "title": "Pengar: räcker de till?",
-   "instruction": "Jämför pengarna med priset. Ringa in ja eller nej."
-  },
-  "G2-295": {
-   "title": "Pengar: hur mycket dyrare?",
-   "instruction": "Jämför två priser och räkna ut skillnaden mellan dem."
-  },
-  "G2-296": {
-   "title": "Läs kalendern: fyra frågor",
-   "instruction": "Titta på månaden i kalendern och svara på de fyra frågorna."
-  },
-  "G2-297": {
-   "title": "Läs kalendern: sex frågor",
-   "instruction": "Sex frågor om samma månad. Läs kalendern noga innan du svarar."
-  },
-  "G2-298": {
-   "title": "Läs kalendern: veckans dagar",
-   "instruction": "Alla frågor handlar om veckodagar. Läs nedåt i kolumnerna."
-  },
-  "G2-299": {
-   "title": "Skriv till bilden: meningsstarter",
-   "instruction": "Meningsstarterna hjälper dig igång med skrivandet."
-  },
-  "G2-300": {
-   "title": "Skriv till bilden med egna ord",
-   "instruction": "Inga meningsstarter. Skriv en egen text om bilden."
-  },
-  "G2-302": {
-   "title": "Koordinater i rutnät: 6 x 6",
-   "instruction": "Hitta varje ruta med bokstav och siffra och måla den."
-  },
-  "G2-303": {
-   "title": "Koordinater i rutnät: 10 x 10",
-   "instruction": "Rutnätet är större. Arbeta dig igenom hela listan."
-  },
-  "G3-371": {
-   "title": "Multiplikation i räknehändelser",
-   "instruction": "Bilden visar de lika stora grupperna i uppgiften."
-  },
-  "G3-372": {
-   "title": "Räknehändelser: dela lika",
-   "instruction": "Fördela sakerna i lådorna och skriv sedan svaret."
-  },
-  "G3-373": {
-   "title": "Räknehändelser: bilda grupper",
-   "instruction": "Ringa in de lika stora grupperna och skriv svaret."
-  },
-  "G3-374": {
-   "title": "Division på två sätt",
-   "instruction": "En uppgift delar lika, den andra bildar grupper."
-  },
-  "G3-375": {
-   "title": "Gånger och delat blandat",
-   "instruction": "En uppgift bygger lika grupper, den andra delar upp dem."
-  },
-  "G3-376": {
-   "title": "Tre blandade räknehändelser",
-   "instruction": "Tre uppgifter. Avgör vad var och en frågar efter."
-  }
- },
- "enAudit": [
-  "NEW — G1-282: the instruction reads \"The capital letter and the end mark show where each sentence begins.\" The end mark shows where the sentence ENDS. This is a different defect from the already-fixed full-stop/end-mark wording: the sentence as written tells the child both clues mark the START, which makes the end mark useless as a clue. (Swedish ships the corrected split: capital = start, mark = end.)",
-  "NEW — G1-268: the instruction is \"A bottom brick is missing. Use the brick above to find it.\" On the render only ONE bottom brick is missing but every brick in the three rows above is also empty, so the child must build the whole wall — which the instruction never asks for. Its siblings G1-266 and G1-267 both say \"to the top\". Suggest: \"A bottom brick is missing. Work it out, then build the wall to the top.\"",
-  "NEW — G1-270: the instruction is \"Double the group, then halve it.\" No card asks for both. Each card carries a single chip reading either \"double\" or \"half\" (the render is 2 doubles + 2 halves), so nothing on the page is doubled and then halved. Suggest: \"Double the group on some cards and halve it on others.\"",
-  "NEW — G1-252: card 2 reads \"Make 4 ufos purple.\" The acronym is lowercased; it should be \"UFOs\". Same page, card 6 uses the Latin plural \"cacti\" in a Grade-1 read-and-do sentence where \"cactuses\" is the register a 6-7 year old decodes.",
-  "NEW — G1-251 and G1-252: the sentence frames mix declaratives with imperatives on one page. \"Tom colors 2 giraffes blue.\" (G1-251 card 1) and \"Max colors 3 helicopters blue.\" (G1-252 card 3) sit beside \"Color 3 parrots red.\" and \"Find 2 roosters and color them green.\" A declarative about a third party is not an instruction the child can act on unless they infer they are Tom. Every card on a read-and-do page should be addressed to the reader.",
-  "NEW — G2-297: the title \"A Busy Month\" and the instruction \"This month is full.\" both promise a fuller calendar than the render shows. What actually differs from G2-296 is the number of QUESTIONS (six vs four); the calendar itself carries one extra picture event (three vs two), which no child would read as \"full\". The honest distinguishing element is the question count, and that is what the Swedish title ships.",
-  "NEW — K-296: unlike its siblings K-294 and K-295, the instruction never mentions the orange start dot, although the render draws one at 11 exactly as they do. A child who has just done K-294/K-295 is told where to begin and here is not.",
-  "NEW — G2-299: the instruction claims \"The word bank names everything.\" The bank names every distinct KIND in the scene (four), but the scene draws five animals because the raccoon appears twice. For a child who counts objects rather than kinds the claim is false. Suggest \"The word bank names each animal you see.\"",
-  "SHARPENS the known G3 grouping item — the defect is the WRAP, and it can display the wrong answer. G3-375 card 2 says \"Lily arranges 20 koalas in rows of 5. How many rows does Lily make?\" and the picture wraps the 20 objects into 2 visible rows of 10. The answer is 4, the picture shows 2. Same wrap on G3-374 card 2 (10 objects in one row of 10, story says rows of 5), G3-376 card 1 (\"3 rows of legos\" drawn as 3 boxes side by side in ONE row) and G3-376 card 3. Wrapping the pile to a multiple of the stated group size would fix all of them.",
-  "CORROBORATES the known G1-264 item, with the count: the page shows six words in TWO pairs (baby/boat, scooter/swing) while the instruction says \"Two words start alike.\" Four words do. The Swedish ships \"Two pairs start alike\".",
-  "CORROBORATES the known G2-293 duplicate: on the three-card render, card 1 and card 3 are the SAME problem — both buy the 40-unit fish, both pay with two 25 coins, both are Mia. All three cards also pay with the identical 25+25, so nothing on the page varies the coin reading.",
-  "CORROBORATES the known G2-281 names gap: the render carries \"anna has a big fox\" and \"ben likes the little donkey\", but the key strip lists only \"Capital letter\" and \"End mark\" — the \"Names\" chip that was added to G2-282 is missing here, so the proper nouns are silently required and never cued.",
-  "LOCALE-CONFIG (sv, not the English source): the Swedish meta description reads \"Gratis utskrivbart arbetsblad: {TITLE} Arbetsblad (Frukter) för Förskoleklass.\" — the word arbetsblad appears twice, because seo.words.free_printable in frontend/messages/sv.json is \"Gratis utskrivbart arbetsblad:\" while the engine appends worksheet=\"Arbetsblad\" after the title. Every Swedish deck description in the catalog carries the duplication. The fix is to set free_printable to \"Gratis utskrivbart\" (or drop the appended word for sv); it is outside this draft and affects far more than these 64 faces."
- ]
+  "enAudit": [
+    "NEW — G1-282: the instruction reads \"The capital letter and the end mark show where each sentence begins.\" The end mark shows where the sentence ENDS. This is a different defect from the already-fixed full-stop/end-mark wording: the sentence as written tells the child both clues mark the START, which makes the end mark useless as a clue. (Swedish ships the corrected split: capital = start, mark = end.)",
+    "NEW — G1-268: the instruction is \"A bottom brick is missing. Use the brick above to find it.\" On the render only ONE bottom brick is missing but every brick in the three rows above is also empty, so the child must build the whole wall — which the instruction never asks for. Its siblings G1-266 and G1-267 both say \"to the top\". Suggest: \"A bottom brick is missing. Work it out, then build the wall to the top.\"",
+    "NEW — G1-270: the instruction is \"Double the group, then halve it.\" No card asks for both. Each card carries a single chip reading either \"double\" or \"half\" (the render is 2 doubles + 2 halves), so nothing on the page is doubled and then halved. Suggest: \"Double the group on some cards and halve it on others.\"",
+    "NEW — G1-252: card 2 reads \"Make 4 ufos purple.\" The acronym is lowercased; it should be \"UFOs\". Same page, card 6 uses the Latin plural \"cacti\" in a Grade-1 read-and-do sentence where \"cactuses\" is the register a 6-7 year old decodes.",
+    "NEW — G1-251 and G1-252: the sentence frames mix declaratives with imperatives on one page. \"Tom colors 2 giraffes blue.\" (G1-251 card 1) and \"Max colors 3 helicopters blue.\" (G1-252 card 3) sit beside \"Color 3 parrots red.\" and \"Find 2 roosters and color them green.\" A declarative about a third party is not an instruction the child can act on unless they infer they are Tom. Every card on a read-and-do page should be addressed to the reader.",
+    "NEW — G2-297: the title \"A Busy Month\" and the instruction \"This month is full.\" both promise a fuller calendar than the render shows. What actually differs from G2-296 is the number of QUESTIONS (six vs four); the calendar itself carries one extra picture event (three vs two), which no child would read as \"full\". The honest distinguishing element is the question count, and that is what the Swedish title ships.",
+    "NEW — K-296: unlike its siblings K-294 and K-295, the instruction never mentions the orange start dot, although the render draws one at 11 exactly as they do. A child who has just done K-294/K-295 is told where to begin and here is not.",
+    "NEW — G2-299: the instruction claims \"The word bank names everything.\" The bank names every distinct KIND in the scene (four), but the scene draws five animals because the raccoon appears twice. For a child who counts objects rather than kinds the claim is false. Suggest \"The word bank names each animal you see.\"",
+    "SHARPENS the known G3 grouping item — the defect is the WRAP, and it can display the wrong answer. G3-375 card 2 says \"Lily arranges 20 koalas in rows of 5. How many rows does Lily make?\" and the picture wraps the 20 objects into 2 visible rows of 10. The answer is 4, the picture shows 2. Same wrap on G3-374 card 2 (10 objects in one row of 10, story says rows of 5), G3-376 card 1 (\"3 rows of legos\" drawn as 3 boxes side by side in ONE row) and G3-376 card 3. Wrapping the pile to a multiple of the stated group size would fix all of them.",
+    "CORROBORATES the known G1-264 item, with the count: the page shows six words in TWO pairs (baby/boat, scooter/swing) while the instruction says \"Two words start alike.\" Four words do. The Swedish ships \"Two pairs start alike\".",
+    "CORROBORATES the known G2-293 duplicate: on the three-card render, card 1 and card 3 are the SAME problem — both buy the 40-unit fish, both pay with two 25 coins, both are Mia. All three cards also pay with the identical 25+25, so nothing on the page varies the coin reading.",
+    "CORROBORATES the known G2-281 names gap: the render carries \"anna has a big fox\" and \"ben likes the little donkey\", but the key strip lists only \"Capital letter\" and \"End mark\" — the \"Names\" chip that was added to G2-282 is missing here, so the proper nouns are silently required and never cued.",
+    "LOCALE-CONFIG (sv, not the English source): the Swedish meta description reads \"Gratis utskrivbart arbetsblad: {TITLE} Arbetsblad (Frukter) för Förskoleklass.\" — the word arbetsblad appears twice, because seo.words.free_printable in frontend/messages/sv.json is \"Gratis utskrivbart arbetsblad:\" while the engine appends worksheet=\"Arbetsblad\" after the title. Every Swedish deck description in the catalog carries the duplication. The fix is to set free_printable to \"Gratis utskrivbart\" (or drop the appended word for sv); it is outside this draft and affects far more than these 64 faces."
+  ]
 }

@@ -4,7 +4,7 @@ const base = require('./G1-243-number-of-the-day.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[1], ...{"frames":false,"tenMore":true} };
+const D = { ...base.difficulty[1], ...{"frames":false,"tenMore":true,"line":{"max":30,"tick":1,"label":5}} };
 module.exports = {
   ...base,
   id: 'G1-256',

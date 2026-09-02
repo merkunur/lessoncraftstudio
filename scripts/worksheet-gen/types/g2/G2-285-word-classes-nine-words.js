@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-285',
   slug: 'word-classes-nine-words',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Word Classes: Sort Nine Words", instruction: "Read each word chip. Write it in the bin where it belongs." } },
+  i18n: { en: { title: "Word Classes: Sort Nine Words", instruction: "Each noun chip has a picture to help. Sort every word into a bin." } },
 };

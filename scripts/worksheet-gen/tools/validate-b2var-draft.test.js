@@ -47,12 +47,30 @@ check('title collides inside the draft', mutate((d) => { d.types[ID2].title = d.
 // used "Woerter nachspuren" where the shipped German is "Wörter nachspuren", so
 // the poison missed and looked like a hole in the check. The poison was wrong,
 // not the check — never loosen a correct comparison to satisfy a bad example.
+// ...and it must belong to an id that is NOT one of the 64 draft faces, or the
+// self-title exemption below would legitimately swallow it and this poison
+// would be testing nothing.
+const draftIds = new Set(faces().map((f) => f.id));
 const shippedK = (() => {
   const all = require('../i18n/strings.de.json');
-  const hit = Object.entries(all).find(([id, v]) => id.startsWith('K-') && v && v.title);
+  const hit = Object.entries(all).find(([id, v]) => id.startsWith('K-') && !draftIds.has(id) && v && v.title);
   return hit[1].title;
 })();
 check('title collides with a shipped title', mutate((d) => { d.types[ID].title = shippedK; }), /collides in band K with the shipped/);
+
+// BOTH DIRECTIONS. Once a draft is applied, strings.<loc>.json holds these ids,
+// and a face re-issuing its OWN shipped title must stay clean — otherwise the
+// gate fails every unchanged title and teaches the panel to churn good French
+// to satisfy it. must-fire is the case above; this is the must-pass twin.
+(() => {
+  const all = require('../i18n/strings.de.json');
+  const self = Object.entries(all).find(([id, v]) => draftIds.has(id) && id.startsWith('K-') && v && v.title);
+  if (!self) { console.log('  SKIP   self-title exemption (no applied K face in strings.de.json)'); return; }
+  const d = mutate((x) => { x.types[self[0]].title = self[1].title; });
+  const errs = validate('de', d).filter((e) => /collides in band .* with the shipped/.test(e));
+  if (errs.length) { fail++; console.log('  MISSED self-title must NOT collide  (' + errs[0] + ')'); }
+  else { pass++; console.log('  CLEAN  self-title must NOT collide (' + self[0] + ')'); }
+})();
 check('empty instruction', mutate((d) => { d.types[ID].instruction = ''; }), /empty instruction/);
 check('instruction too long', mutate((d) => { d.types[ID].instruction = 'x'.repeat(151); }), /instruction 151 >/);
 check('duplicate instruction within a family',

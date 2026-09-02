@@ -1,4 +1,4 @@
-/** G1-259 — Write the Word: Choose from the Word Bank. nt20-B-VAR variation of G1-244. */
+/** G1-259 — Write the Word: Word Bank, No First Letter. nt20-B-VAR variation of G1-244. */
 'use strict';
 const base = require('./G1-244-write-the-word.js');
 // One object for all three levels: the waves ship d2 only, so a face must
@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-259',
   slug: 'write-the-word-word-bank-only',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Write the Word: Choose from the Word Bank", instruction: "Every word is in the bank. Write the right one by each picture." } },
+  i18n: { en: { title: "Write the Word: Word Bank, No First Letter", instruction: "Every word is in the bank. Write the right one by each picture." } },
 };

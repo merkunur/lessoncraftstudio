@@ -1510,5 +1510,261 @@
   "G3-370": {
     "title": "Räknehändelser: multiplikation och division",
     "instruction": "Läs varje räknehändelse. Ta hjälp av bilden. Skriv svaret i rutan och skriv sedan färdigt svarsmeningen."
+  },
+  "K-289": {
+    "title": "Spåra dina första ord",
+    "instruction": "Spåra det streckade ordet och skriv det själv."
+  },
+  "K-290": {
+    "title": "Spåra och skriv två gånger",
+    "instruction": "Spåra ordet en gång och skriv det två gånger."
+  },
+  "K-291": {
+    "title": "Spåra och skriv långa ord",
+    "instruction": "Orden är långa. Spåra dem och skriv dem själv."
+  },
+  "K-294": {
+    "title": "Prick till prick: 1 till 10",
+    "instruction": "Börja vid den orangea pricken. Dra streck från 1 till 10."
+  },
+  "K-295": {
+    "title": "Prick till prick: 11 till 20",
+    "instruction": "Börja vid den orangea pricken. Dra streck från 11 till 20."
+  },
+  "K-296": {
+    "title": "Prick till prick: 11 till 30",
+    "instruction": "Räkna vidare från 11 till 30 så kommer bilden fram."
+  },
+  "K-298": {
+    "title": "Rita av i rutnätet: första stegen",
+    "instruction": "Ett litet rutnät. Färglägg samma rutor till höger."
+  },
+  "K-299": {
+    "title": "Rita av med bokstäver och siffror",
+    "instruction": "Varje ruta har en bokstav och en siffra att följa."
+  },
+  "K-300": {
+    "title": "Rita av i ett större rutnät",
+    "instruction": "Rutnätet är större. Sök varje ruta med bokstav och siffra."
+  },
+  "K-302": {
+    "title": "Singular och plural: korta ord",
+    "instruction": "En bild eller flera? Spåra ordet för flera."
+  },
+  "K-303": {
+    "title": "Singular och plural: längre ord",
+    "instruction": "Orden är längre här. Spåra ordet för flera."
+  },
+  "K-306": {
+    "title": "En eller ett? Fyra bilder",
+    "instruction": "Säg ordet till varje bild. Ringa in en eller ett."
+  },
+  "K-307": {
+    "title": "En eller ett? Åtta bilder",
+    "instruction": "Åtta bilder. Ringa in en eller ett till varje bild."
+  },
+  "G1-251": {
+    "title": "Läs och måla: fyra meningar",
+    "instruction": "Läs varje mening och måla precis det som meningen säger."
+  },
+  "G1-252": {
+    "title": "Läs och måla: fler meningar och färger",
+    "instruction": "Fler bilder och fler färger. Läs varje mening noga."
+  },
+  "G1-255": {
+    "title": "Dagens tal: 11 till 20",
+    "instruction": "Dagens tal ligger mellan 11 och 20. Fyll i alla rutor på sidan."
+  },
+  "G1-256": {
+    "title": "Dagens tal: 10 mer och 10 mindre",
+    "instruction": "Räkna ut tio mer och tio mindre än dagens tal."
+  },
+  "G1-257": {
+    "title": "Dagens tal upp till 99",
+    "instruction": "Visa det tvåsiffriga talet i tiotal och ental. Fyll i varje ruta."
+  },
+  "G1-258": {
+    "title": "Skriv ordet: första bokstaven",
+    "instruction": "Orden finns i ordbanken. Första bokstaven är given."
+  },
+  "G1-259": {
+    "title": "Skriv ordet: välj från ordbanken",
+    "instruction": "Varje ord du behöver står i ordbanken."
+  },
+  "G1-260": {
+    "title": "Skriv ordet utan ordbank",
+    "instruction": "Ingen ordbank. Säg ordet och skriv det på raden."
+  },
+  "G1-262": {
+    "title": "Alfabetisk ordning: numrera korten",
+    "instruction": "Ta hjälp av alfabetet och numrera korten."
+  },
+  "G1-263": {
+    "title": "Alfabetisk ordning: skriv om orden",
+    "instruction": "Numrera korten och skriv orden på raderna."
+  },
+  "G1-264": {
+    "title": "Alfabetisk ordning: andra bokstaven",
+    "instruction": "Två par börjar lika. Se på andra bokstaven."
+  },
+  "G1-266": {
+    "title": "Talpyramider till 10",
+    "instruction": "Varje sten är summan av de två stenarna under den."
+  },
+  "G1-267": {
+    "title": "Talpyramider med fyra rader",
+    "instruction": "Fyra rader. Addera två stenar i taget upp till toppen."
+  },
+  "G1-268": {
+    "title": "Talpyramider: stenen som saknas",
+    "instruction": "En sten längst ner saknas. Räkna ut den och bygg klart."
+  },
+  "G1-270": {
+    "title": "Dubbelt och hälften med bilder",
+    "instruction": "Bilderna hjälper dig med dubbelt och hälften."
+  },
+  "G1-271": {
+    "title": "Dubbelt och hälften upp till 20",
+    "instruction": "Inga bilder nu. Räkna ut dubbelt och hälften."
+  },
+  "G1-274": {
+    "title": "Läs av tallinjen 0 till 10",
+    "instruction": "En pil pekar på ett streck. Skriv talet mellan 0 och 10."
+  },
+  "G1-275": {
+    "title": "Tallinjen till 20 med få tal",
+    "instruction": "Bara 0, 10 och 20 står utsatta. Räkna vidare därifrån."
+  },
+  "G1-276": {
+    "title": "Läs av tallinjen 0 till 30",
+    "instruction": "Varje streck är ett steg. Räkna vidare ända till 30."
+  },
+  "G1-277": {
+    "title": "Läs av tallinjen 0 till 50",
+    "instruction": "Vart tionde tal är utsatt. Räkna vidare till varje pil."
+  },
+  "G1-278": {
+    "title": "Tallinjen till 50 med steg om 5",
+    "instruction": "Varje streck är 5. Räkna med femmor fram till varje pil."
+  },
+  "G1-279": {
+    "title": "Tallinjen till 100 med steg om 5",
+    "instruction": "Varje streck är 5 och vartannat tal står utsatt."
+  },
+  "G1-280": {
+    "title": "Tallinjen till 100 med steg om 10",
+    "instruction": "Varje streck är 10. Räkna med tiotal till varje pil."
+  },
+  "G1-281": {
+    "title": "Tallinjen förbi 100 till 120",
+    "instruction": "Linjen fortsätter förbi 100. Räkna med tiotal."
+  },
+  "G1-282": {
+    "title": "Ordna orden med ledtrådar",
+    "instruction": "Stor bokstav visar början, skiljetecknet visar slutet."
+  },
+  "G1-283": {
+    "title": "Ordna orden utan ledtrådar",
+    "instruction": "Inga ledtrådar. Hitta den enda ordföljd som fungerar."
+  },
+  "G2-281": {
+    "title": "Stor bokstav och punkt",
+    "instruction": "I varje mening saknas stor bokstav och punkt. Skriv om den."
+  },
+  "G2-282": {
+    "title": "Stor bokstav, namn och skiljetecken",
+    "instruction": "Välj själv punkt eller frågetecken i slutet."
+  },
+  "G2-285": {
+    "title": "Ordklasser: sortera nio ord",
+    "instruction": "Läs varje ordkort och skriv ordet i rätt låda."
+  },
+  "G2-286": {
+    "title": "Ordklasser utan bildstöd",
+    "instruction": "Inga bilder till hjälp. Läs ordet och sortera det."
+  },
+  "G2-287": {
+    "title": "Ordklasser: sortera femton ord",
+    "instruction": "Femton ord och inga bilder. Läs varje ord noga."
+  },
+  "G2-289": {
+    "title": "Pengar: två räknehändelser",
+    "instruction": "Läs de två räknehändelserna och priserna på hyllan."
+  },
+  "G2-290": {
+    "title": "Pengar: fyra olika frågor",
+    "instruction": "Fyra kort med fyra olika frågor. Läs priserna på hyllan."
+  },
+  "G2-291": {
+    "title": "Pengar: räkna ihop priset",
+    "instruction": "Varje kort frågar efter en summa. Lägg ihop priserna."
+  },
+  "G2-292": {
+    "title": "Pengar: tre saker i korgen",
+    "instruction": "I varje korg ligger tre saker. Lägg ihop priserna."
+  },
+  "G2-293": {
+    "title": "Pengar: hur mycket tillbaka?",
+    "instruction": "Titta på mynten. Räkna ut hur mycket du får tillbaka."
+  },
+  "G2-294": {
+    "title": "Pengar: räcker de till?",
+    "instruction": "Jämför pengarna med priset. Ringa in ja eller nej."
+  },
+  "G2-295": {
+    "title": "Pengar: hur mycket dyrare?",
+    "instruction": "Jämför två priser och räkna ut skillnaden mellan dem."
+  },
+  "G2-296": {
+    "title": "Läs kalendern: fyra frågor",
+    "instruction": "Titta på månaden i kalendern och svara på de fyra frågorna."
+  },
+  "G2-297": {
+    "title": "Läs kalendern: sex frågor",
+    "instruction": "Sex frågor om samma månad. Läs kalendern noga innan du svarar."
+  },
+  "G2-298": {
+    "title": "Läs kalendern: veckans dagar",
+    "instruction": "Alla frågor handlar om veckodagar. Läs nedåt i kolumnerna."
+  },
+  "G2-299": {
+    "title": "Skriv till bilden: meningsstarter",
+    "instruction": "Meningsstarterna hjälper dig igång med skrivandet."
+  },
+  "G2-300": {
+    "title": "Skriv till bilden med egna ord",
+    "instruction": "Inga meningsstarter. Skriv en egen text om bilden."
+  },
+  "G2-302": {
+    "title": "Koordinater i rutnät: 6 x 6",
+    "instruction": "Hitta varje ruta med bokstav och siffra och måla den."
+  },
+  "G2-303": {
+    "title": "Koordinater i rutnät: 10 x 10",
+    "instruction": "Rutnätet är större. Arbeta dig igenom hela listan."
+  },
+  "G3-371": {
+    "title": "Multiplikation i räknehändelser",
+    "instruction": "Bilden visar de lika stora grupperna i uppgiften."
+  },
+  "G3-372": {
+    "title": "Räknehändelser: dela lika",
+    "instruction": "Fördela sakerna i lådorna och skriv sedan svaret."
+  },
+  "G3-373": {
+    "title": "Räknehändelser: bilda grupper",
+    "instruction": "Ringa in de lika stora grupperna och skriv svaret."
+  },
+  "G3-374": {
+    "title": "Division på två sätt",
+    "instruction": "En uppgift delar lika, den andra bildar grupper."
+  },
+  "G3-375": {
+    "title": "Gånger och delat blandat",
+    "instruction": "En uppgift bygger lika grupper, den andra delar upp dem."
+  },
+  "G3-376": {
+    "title": "Tre blandade räknehändelser",
+    "instruction": "Tre uppgifter. Avgör vad var och en frågar efter."
   }
 }

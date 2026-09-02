@@ -43,7 +43,7 @@ const ROWS = [
   ['k', 'K-295', 'dot-to-dot-teen-numbers', 'K-285-dot-to-dot.js', 1, { startAt: 11 },
     'Dot-to-Dot: Teen Numbers', 'Start at the orange dot. Join the dots from 11 to 20 to finish the picture.'],
   ['k', 'K-296', 'dot-to-dot-count-on-11-to-30', 'K-285-dot-to-dot.js', 3, {},
-    'Dot-to-Dot: Count On from 11', 'Count on from 11 to 30 to find the hidden picture.'],
+    'Dot-to-Dot: Count On from 11', 'Start at the orange dot. Count on from 11 to 30 to find the picture.'],
 
   // ---------------- K-286 grid-copy ----------------
   ['k', 'K-298', 'grid-copy-6x6', 'K-286-grid-copy.js', 1, {},
@@ -74,7 +74,7 @@ const ROWS = [
   // ---------------- G1-243 number-of-the-day ----------------
   ['g1', 'G1-255', 'number-of-the-day-teen-numbers', 'G1-243-number-of-the-day.js', 1, {},
     'Number of the Day: Teen Numbers', 'Look at the big number. Fill in every box on the page for that number.'],
-  ['g1', 'G1-256', 'number-of-the-day-ten-more-ten-less', 'G1-243-number-of-the-day.js', 1, { frames: false, tenMore: true },
+  ['g1', 'G1-256', 'number-of-the-day-ten-more-ten-less', 'G1-243-number-of-the-day.js', 1, { frames: false, tenMore: true, line: { max: 30, tick: 1, label: 5 } },
     'Number of the Day: Ten More, Ten Less', 'Find ten more and ten less than the number of the day.'],
   // line.tick forced to 1. The base's d3 carries {max:100, tick:5} while N ranges
   // over 21..99 excluding multiples of 10, so 64 of the 79 possible numbers have
@@ -85,9 +85,9 @@ const ROWS = [
 
   // ---------------- G1-244 write-the-word ----------------
   ['g1', 'G1-258', 'write-the-word-with-a-word-bank', 'G1-244-write-the-word.js', 1, {},
-    'Write the Word: With a Word Bank', 'Use the word bank. The first letter is written to start you off.'],
+    'Write the Word: The First Letter Is Given', 'Use the word bank. The first letter is already on the line to start you off.'],
   ['g1', 'G1-259', 'write-the-word-word-bank-only', 'G1-244-write-the-word.js', 1, { cards: 8, rows: 4, starter: false, pic: 80, glyphH: 30, rulingW: 214, maxLetters: 12 },
-    'Write the Word: Choose from the Word Bank', 'Every word is in the bank. Write the right one by each picture.'],
+    'Write the Word: Word Bank, No First Letter', 'Every word is in the bank. Write the right one by each picture.'],
   ['g1', 'G1-260', 'write-the-word-on-plain-lines', 'G1-244-write-the-word.js', 3, {},
     'Write the Word on Plain Lines', 'No word bank this time. Write each picture word on the lines.'],
 
@@ -105,11 +105,11 @@ const ROWS = [
   ['g1', 'G1-267', 'number-walls-four-courses', 'G1-246-number-walls.js', 3, { gap: false, walls: 4, courses: 4, baseMin: 1, baseMax: 3, topMax: 20 },
     'Number Walls: Four Rows High', 'Four rows and no gaps. Add each pair of bricks up to the top.'],
   ['g1', 'G1-268', 'number-walls-missing-brick', 'G1-246-number-walls.js', 3, {},
-    'Number Walls: Find the Missing Brick', 'A bottom brick is missing. Use the brick above to find it.'],
+    'Number Walls: Find the Missing Brick', 'One bottom brick is missing. Find it, then build the whole wall.'],
 
   // ---------------- G1-247 doubles-halves ----------------
   ['g1', 'G1-270', 'doubles-and-halves-first-steps', 'G1-247-doubles-halves.js', 1, {},
-    'Doubles and Halves: First Steps', 'Double the group, then halve it. Small numbers to start.'],
+    'Doubles and Halves: First Steps', 'Some cards ask you to double a group. Others ask you to halve one.'],
   ['g1', 'G1-271', 'doubles-and-halves-to-20', 'G1-247-doubles-halves.js', 3, {},
     'Doubles and Halves to 20', 'Numbers only this time. Work out each double and half up to 20.'],
 
@@ -138,7 +138,7 @@ const ROWS = [
 
   // ---------------- G1-249 sentence-building ----------------
   ['g1', 'G1-282', 'unscramble-the-sentence-with-clues', 'G1-249-unscramble-sentence.js', 1, {},
-    'Unscramble the Sentence: With Clues', 'The capital letter and the end mark show where each sentence begins.'],
+    'Unscramble the Sentence: With Clues', 'The capital letter and the end mark show where a sentence begins and ends.'],
   // minTok/maxTok widened back to the d2 band on purpose: this face's axis is
   // CLUES (no capital, no end mark), not sentence length. At d3's 5-7 tokens the
   // frame pool is too thin to build - de has 3 qualifying frames and fi has 1,
@@ -154,24 +154,39 @@ const ROWS = [
 
   // ---------------- G2-275 word-classes ----------------
   ['g2', 'G2-285', 'word-classes-nine-words', 'G2-275-word-classes.js', 1, {},
-    'Word Classes: Sort Nine Words', 'Read each word chip. Write it in the bin where it belongs.'],
+    'Word Classes: Sort Nine Words', 'Each noun chip has a picture to help. Sort every word into a bin.'],
   ['g2', 'G2-286', 'word-classes-without-pictures', 'G2-275-word-classes.js', 2, { pics: false },
     'Word Classes: Without Pictures', 'No pictures to help. Read each word and sort it into a bin.'],
   ['g2', 'G2-287', 'word-classes-fifteen-words', 'G2-275-word-classes.js', 3, {},
     'Word Classes: Sort Fifteen Words', 'Fifteen words and no pictures. Sort each one into its bin.'],
 
   // ---------------- G2-276 money ----------------
+  // items/icon tuned so that no two cards on a page ask the SAME question. Each
+  // card is drawn independently with rng.pick and nothing dedupes, which is
+  // harmless while a page mixes kinds and stops being harmless once a face pins
+  // every card to one kind: three cards drawn from five items collide about half
+  // the time, and the English "How Much Change?" page really did render cards 1
+  // and 3 as the same problem. These values are the first that
+  // tools/scan-duplicate-problems.js reports CLEAN in all ELEVEN locales - the
+  // frame banks differ per locale, so the rng stream does too, and a combination
+  // clean in English can still collide in German.
   ['g2', 'G2-289', 'shopping-math-two-stories', 'G2-276-shopping-math.js', 1, {},
     'Shopping Math: Two Stories', 'Read each story and use the shelf prices to answer it.'],
-  ['g2', 'G2-290', 'shopping-math-four-questions', 'G2-276-shopping-math.js', 3, {},
+  // Five shelf items, not the base d3's six. Six fit in English and OVERFLOW the
+  // page box in Portuguese, whose currency sub-unit is spelled out in full
+  // ("centavos" per the nt20 currency ruling) so every price tag is wide; the
+  // shelf is a fixed 640px row, so shrinking the icon does not help — the tag
+  // text is what overflows. Four question cards is this face's axis and is kept.
+  // The base d3 has never shipped, so no long locale had ever built it.
+  ['g2', 'G2-290', 'shopping-math-four-questions', 'G2-276-shopping-math.js', 3, { items: 5 },
     'Shopping Math: Four Questions', 'Four cards, four different shopping questions to answer.'],
   ['g2', 'G2-291', 'shopping-math-add-up-the-basket', 'G2-276-shopping-math.js', 2, { kinds: ['total', 'total', 'total'] },
     'Shopping Math: Add Up the Basket', 'Every card asks for a total. Add the prices together.'],
   ['g2', 'G2-292', 'shopping-math-three-things', 'G2-276-shopping-math.js', 2, { kinds: ['total3', 'total3', 'total3'] },
     'Shopping Math: Buying Three Things', 'Each basket holds three things. Add all three prices.'],
-  ['g2', 'G2-293', 'shopping-math-how-much-change', 'G2-276-shopping-math.js', 2, { kinds: ['change', 'change', 'change'] },
+  ['g2', 'G2-293', 'shopping-math-how-much-change', 'G2-276-shopping-math.js', 2, { kinds: ['change', 'change', 'change'], items: 8, icon: 52 },
     'Shopping Math: How Much Change?', 'Count the coins paid, then work out the change.'],
-  ['g2', 'G2-294', 'shopping-math-is-there-enough-money', 'G2-276-shopping-math.js', 2, { kinds: ['canBuy', 'canBuy', 'canBuy'] },
+  ['g2', 'G2-294', 'shopping-math-is-there-enough-money', 'G2-276-shopping-math.js', 2, { kinds: ['canBuy', 'canBuy', 'canBuy'], items: 8, icon: 52 },
     'Shopping Math: Is There Enough Money?', 'Compare the money with the price. Circle yes or no, then write the total.'],
   ['g2', 'G2-295', 'shopping-math-how-much-more', 'G2-276-shopping-math.js', 2, { kinds: ['diff', 'diff', 'diff'] },
     'Shopping Math: How Much More?', 'Compare two prices and work out the difference between them.'],
@@ -188,7 +203,7 @@ const ROWS = [
   ['g2', 'G2-299', 'write-about-the-picture-what-you-see', 'G2-278-write-about-the-picture.js', 1, {},
     'Write About the Picture: What You See', 'Sentence starters help you begin. The word bank names everything.'],
   ['g2', 'G2-300', 'write-about-the-picture-your-own-words', 'G2-278-write-about-the-picture.js', 3, {},
-    'Write About the Picture: Your Own Words', 'No sentence starters. Write your own story about the picture.'],
+    'Write About the Picture: Your Own Words', 'No sentence starters this time. Use the word bank and write your own story.'],
 
   // ---------------- G2-279 grid-coordinates ----------------
   ['g2', 'G2-302', 'grid-coordinates-6x6', 'G2-279-grid-coordinates.js', 1, {},
@@ -197,22 +212,29 @@ const ROWS = [
     'Grid Coordinates on a 10x10 Grid', 'A bigger grid with more squares. Work through the list carefully.'],
 
   // ---------------- G3-370 word-problems ----------------
+  // Group-op faces carry a smaller icon and a lower product ceiling so the strip
+  // the child rings into groups fits on ONE line. At the base size a 20-icon
+  // strip wrapped into two visible rows under a story reading "20 koalas in rows
+  // of 5", so the picture showed 2 rows while the answer was 4 - the apparatus
+  // contradicted the question. Reported by the Swedish panel, reproduced in
+  // English. (The story's "rows" wording on a strip is a separate frame-bank
+  // issue in all 11 locales and is recorded, not fixed here.)
   ['g3', 'G3-371', 'multiplication-word-problems', 'G3-370-muldiv-word-problems.js', 1, {},
     'Multiplication Word Problems', 'The picture shows the equal groups. Write each answer in the box.'],
   ['g3', 'G3-372', 'division-word-problems-sharing', 'G3-370-muldiv-word-problems.js', 2, { ops: ['share', 'share'] },
     'Division Word Problems: Sharing', 'Each story shares things out. Deal them into the boxes.'],
-  ['g3', 'G3-373', 'division-word-problems-grouping', 'G3-370-muldiv-word-problems.js', 2, { ops: ['group', 'group'] },
+  ['g3', 'G3-373', 'division-word-problems-grouping', 'G3-370-muldiv-word-problems.js', 2, { ops: ['group', 'group'], n1: [2, 4], n2: [2, 5], max: 20, icon: 16 },
     'Division Word Problems: Making Groups', 'Ring the equal groups in the picture, then write the answer.'],
-  ['g3', 'G3-374', 'division-word-problems-two-ways', 'G3-370-muldiv-word-problems.js', 2, { ops: ['share', 'group'] },
+  ['g3', 'G3-374', 'division-word-problems-two-ways', 'G3-370-muldiv-word-problems.js', 2, { ops: ['share', 'group'], n1: [2, 4], n2: [2, 5], max: 20, icon: 16 },
     'Division Word Problems: Two Ways', 'One story shares out, the other makes groups. Both are division.'],
-  ['g3', 'G3-375', 'multiplication-and-grouping-word-problems', 'G3-370-muldiv-word-problems.js', 2, { ops: ['mul', 'group'] },
+  ['g3', 'G3-375', 'multiplication-and-grouping-word-problems', 'G3-370-muldiv-word-problems.js', 2, { ops: ['mul', 'group'], n1: [2, 4], n2: [2, 5], max: 20, icon: 16 },
     'Multiply and Group: Word Problems', 'One story builds groups, the other breaks them up.'],
   // Tightened from the base d3. Three stories on one page fits in English but
   // OVERFLOWS the page box in French, which runs longer — and the base d3 has
   // never shipped (the waves emit d2), so nothing had ever built it in a long
   // locale. Smaller icons, font and dot panel buy the room without dropping a
   // story, which is the whole point of the mixed face.
-  ['g3', 'G3-376', 'multiplication-and-division-word-problems-mixed', 'G3-370-muldiv-word-problems.js', 3, { icon: 18, font: 15, dots: 26, slotH: 28 },
+  ['g3', 'G3-376', 'multiplication-and-division-word-problems-mixed', 'G3-370-muldiv-word-problems.js', 3, { icon: 15, font: 15, dots: 26, slotH: 28 },
     'Multiplication and Division: Mixed Problems', 'Three stories. Decide what each one asks before you answer.'],
 ];
 

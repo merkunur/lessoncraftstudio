@@ -1510,5 +1510,261 @@
   "G3-370": {
     "title": "Verhaaltjessommen: keer en delen",
     "instruction": "Lees elk verhaaltje. Het plaatje helpt je. Schrijf het antwoord in het vakje en maak daarna de antwoordzin af."
+  },
+  "K-289": {
+    "title": "Woorden overtrekken: eerste woordjes",
+    "instruction": "Zeg het woord hardop, trek het na en schrijf het zelf op."
+  },
+  "K-290": {
+    "title": "Woorden overtrekken: twee keer zelf",
+    "instruction": "Trek het woord één keer na. Schrijf het dan twee keer."
+  },
+  "K-291": {
+    "title": "Woorden overtrekken: lange woorden",
+    "instruction": "Deze woorden zijn lang. Trek na en schrijf ze daarna zelf."
+  },
+  "K-294": {
+    "title": "Van stip naar stip: 1 tot 10",
+    "instruction": "Begin bij de oranje stip en verbind de stippen 1 tot en met 10 op volgorde."
+  },
+  "K-295": {
+    "title": "Van stip naar stip: 11 tot 20",
+    "instruction": "Begin bij de oranje stip. Verbind de stippen 11 tot en met 20 op volgorde."
+  },
+  "K-296": {
+    "title": "Van stip naar stip: 11 tot 30",
+    "instruction": "Begin bij de oranje stip. Tel verder van 11 tot en met 30 en verbind ze."
+  },
+  "K-298": {
+    "title": "Natekenen op ruitjes: eerste stapjes",
+    "instruction": "Kijk goed en kleur dezelfde hokjes in het lege rooster van 6 bij 6."
+  },
+  "K-299": {
+    "title": "Natekenen met letters en cijfers",
+    "instruction": "Elk hokje heeft een letter en een cijfer. Kleur dezelfde hokjes na."
+  },
+  "K-300": {
+    "title": "Natekenen op ruitjes: 8 bij 8",
+    "instruction": "Dit rooster is groter: 8 bij 8. Zoek elk hokje met letter en cijfer."
+  },
+  "K-302": {
+    "title": "Enkelvoud en meervoud: eerste woordjes",
+    "instruction": "Trek het woord voor meer na en schrijf het op de regel."
+  },
+  "K-303": {
+    "title": "Enkelvoud en meervoud: lange woorden",
+    "instruction": "Deze woorden zijn langer. Trek het woord voor meer na."
+  },
+  "K-306": {
+    "title": "De of het? Vier plaatjes",
+    "instruction": "Zeg het woord bij elk van de vier plaatjes en omcirkel de of het."
+  },
+  "K-307": {
+    "title": "De of het? Acht plaatjes",
+    "instruction": "Acht plaatjes deze keer. Omcirkel bij elk woord het goede lidwoord."
+  },
+  "G1-251": {
+    "title": "Lees en kleur: vier zinnen",
+    "instruction": "Lees elke zin en kleur precies wat erin staat. Gebruik de kleurenbalk erboven."
+  },
+  "G1-252": {
+    "title": "Lees en kleur: zes zinnen, zes kleuren",
+    "instruction": "Zes zinnen en zes kleuren: lees elke zin extra goed voor je kleurt."
+  },
+  "G1-255": {
+    "title": "Getal van de dag: tienergetallen",
+    "instruction": "Vul alle vakken in bij het tienergetal: in woord, tientallen en tellen."
+  },
+  "G1-256": {
+    "title": "Getal van de dag: 10 meer, 10 minder",
+    "instruction": "Vul alle vakken in en zoek tien meer en tien minder dan het getal."
+  },
+  "G1-257": {
+    "title": "Getal van de dag: tot 99",
+    "instruction": "Vul alle vakken in bij een getal tot 99: tientallen, eenheden, tellen en meer."
+  },
+  "G1-258": {
+    "title": "Schrijf het woord met de beginletter",
+    "instruction": "De beginletter staat er al. Zoek het woord in de woordbank."
+  },
+  "G1-259": {
+    "title": "Schrijf het woord: kies uit de woordbank",
+    "instruction": "Alle woorden staan in de woordbank. Schrijf ze op."
+  },
+  "G1-260": {
+    "title": "Schrijf het woord: zonder woordbank",
+    "instruction": "Geen woordbank: zeg elk plaatje en schrijf het woord op."
+  },
+  "G1-262": {
+    "title": "Alfabetische volgorde: nummeren",
+    "instruction": "Gebruik de letterstrook en nummer de vier kaartjes op volgorde."
+  },
+  "G1-263": {
+    "title": "Alfabetische volgorde: schrijf ze op",
+    "instruction": "Nummer de kaartjes en schrijf de woorden op volgorde."
+  },
+  "G1-264": {
+    "title": "Alfabetische volgorde: tweede letter",
+    "instruction": "Beginnen twee woorden gelijk? Kijk naar de tweede letter."
+  },
+  "G1-266": {
+    "title": "Rekenpiramide tot 10",
+    "instruction": "Elke steen is de som van de twee stenen eronder. Bouw elke piramide tot de top."
+  },
+  "G1-267": {
+    "title": "Rekenpiramide met vier lagen",
+    "instruction": "Deze piramides hebben vier lagen. Tel steeds twee stenen bij elkaar op."
+  },
+  "G1-268": {
+    "title": "Rekenpiramide: welke steen ontbreekt?",
+    "instruction": "Er ontbreekt een steen onderin. Zoek hem met de steen erboven."
+  },
+  "G1-270": {
+    "title": "Verdubbelen en halveren met plaatjes",
+    "instruction": "Verdubbel de groep en halveer hem daarna. Kleine getallen."
+  },
+  "G1-271": {
+    "title": "Verdubbelen en halveren tot 20",
+    "instruction": "Nu zonder plaatjes: verdubbel en halveer de getallen tot 20."
+  },
+  "G1-274": {
+    "title": "Getallenlijn tot 10",
+    "instruction": "Elke pijl wijst naar een streepje op de lijn van 0 tot 10. Schrijf het getal."
+  },
+  "G1-275": {
+    "title": "Getallenlijn tot 20: minder getallen",
+    "instruction": "Alleen 0, 10 en 20 staan er. Tel verder tot je bij de pijl bent."
+  },
+  "G1-276": {
+    "title": "Getallenlijn tot 30",
+    "instruction": "Elk streepje is één. Tel verder tot 30 en schrijf het getal bij elke pijl."
+  },
+  "G1-277": {
+    "title": "Getallenlijn tot 50",
+    "instruction": "Elk tiende getal staat erbij. Tel verder tot 50 en schrijf elk getal op."
+  },
+  "G1-278": {
+    "title": "Getallenlijn tot 50: met vijftallen",
+    "instruction": "Elk streepje is vijf. Tel met vijftallen naar elke pijl toe."
+  },
+  "G1-279": {
+    "title": "Getallenlijn tot 100: met vijftallen",
+    "instruction": "Elk streepje is vijf, en elk tweede getal staat er al bij."
+  },
+  "G1-280": {
+    "title": "Getallenlijn tot 100: met tientallen",
+    "instruction": "Elk streepje is tien. Tel met tientallen verder naar elke pijl."
+  },
+  "G1-281": {
+    "title": "Getallenlijn tot 120",
+    "instruction": "Deze lijn loopt door tot voorbij 100. Tel met tientallen naar elke pijl."
+  },
+  "G1-282": {
+    "title": "Husselzinnen met hulp",
+    "instruction": "De hoofdletter en het leesteken laten zien waar de zin begint en eindigt."
+  },
+  "G1-283": {
+    "title": "Husselzinnen zonder hulp",
+    "instruction": "Geen hoofdletter en geen leesteken: zoek zelf de goede volgorde."
+  },
+  "G2-281": {
+    "title": "Hoofdletters en leestekens: de punt",
+    "instruction": "Schrijf elke zin over met een hoofdletter en een punt."
+  },
+  "G2-282": {
+    "title": "Hoofdletters, namen en leestekens",
+    "instruction": "Let op de hoofdletters en de namen. Kies het juiste leesteken."
+  },
+  "G2-285": {
+    "title": "Woordsoorten: negen woorden",
+    "instruction": "Lees de negen woordkaartjes en schrijf elk woord in de goede bak."
+  },
+  "G2-286": {
+    "title": "Woordsoorten zonder plaatjes",
+    "instruction": "Geen plaatjes om te helpen: lees elk woord en sorteer het zelf."
+  },
+  "G2-287": {
+    "title": "Woordsoorten: vijftien woorden",
+    "instruction": "Vijftien woorden en geen plaatjes. Lees elk woord extra goed."
+  },
+  "G2-289": {
+    "title": "Boodschappen doen: twee verhaaltjes",
+    "instruction": "Lees de twee verhaaltjes en gebruik de prijzen uit het rek."
+  },
+  "G2-290": {
+    "title": "Boodschappen doen: vier vragen",
+    "instruction": "Vier kaarten met vier verschillende vragen over de prijzen."
+  },
+  "G2-291": {
+    "title": "Boodschappen doen: samen betalen",
+    "instruction": "Elke kaart vraagt een totaal. Tel de prijzen bij elkaar op."
+  },
+  "G2-292": {
+    "title": "Boodschappen doen: drie dingen kopen",
+    "instruction": "In elk mandje zitten drie dingen. Tel de drie prijzen op."
+  },
+  "G2-293": {
+    "title": "Boodschappen doen: hoeveel geld terug?",
+    "instruction": "Tel de munten die betaald zijn en zoek het wisselgeld."
+  },
+  "G2-294": {
+    "title": "Boodschappen doen: genoeg geld?",
+    "instruction": "Vergelijk het geld met de prijs en omcirkel ja of nee."
+  },
+  "G2-295": {
+    "title": "Boodschappen doen: hoeveel duurder?",
+    "instruction": "Vergelijk telkens twee prijzen en reken het verschil uit."
+  },
+  "G2-296": {
+    "title": "Kalender lezen: vier vragen",
+    "instruction": "Kijk naar de maand op de kalender en beantwoord de vier vragen ermee."
+  },
+  "G2-297": {
+    "title": "Kalender lezen: een volle maand",
+    "instruction": "Deze maand is vol. Lees de kalender goed en beantwoord elke vraag."
+  },
+  "G2-298": {
+    "title": "Kalender lezen: dagen van de week",
+    "instruction": "Alle vragen gaan over de dagen. Lees de kolommen van boven naar beneden."
+  },
+  "G2-299": {
+    "title": "Schrijven bij een plaatje: startzinnen",
+    "instruction": "De startzinnen helpen je op weg. Het woordvak noemt alles."
+  },
+  "G2-300": {
+    "title": "Schrijven bij een plaatje: eigen woorden",
+    "instruction": "Geen startzinnen: bedenk zelf een verhaal erbij."
+  },
+  "G2-302": {
+    "title": "Coördinaten in het rooster: 6 bij 6",
+    "instruction": "Zoek elk hokje met de letter en het cijfer erbij en kleur het in."
+  },
+  "G2-303": {
+    "title": "Coördinaten in het rooster: 10 bij 10",
+    "instruction": "Dit rooster is groter. Werk de lijst met hokjes rustig af."
+  },
+  "G3-371": {
+    "title": "Verhaaltjessommen: keersommen",
+    "instruction": "Het plaatje laat de gelijke groepen zien. Schrijf het antwoord op."
+  },
+  "G3-372": {
+    "title": "Verhaaltjessommen: eerlijk verdelen",
+    "instruction": "Verdeel de dingen eerlijk over de vakken. Schrijf het aantal."
+  },
+  "G3-373": {
+    "title": "Verhaaltjessommen: groepjes maken",
+    "instruction": "Omcirkel de gelijke groepjes en schrijf daarna het antwoord."
+  },
+  "G3-374": {
+    "title": "Verhaaltjessommen: twee soorten delen",
+    "instruction": "Het ene verhaaltje verdeelt, het andere maakt groepjes."
+  },
+  "G3-375": {
+    "title": "Verhaaltjessommen: keer en groepjes",
+    "instruction": "Het ene verhaaltje maakt groepen, het andere splitst ze."
+  },
+  "G3-376": {
+    "title": "Verhaaltjessommen: alles door elkaar",
+    "instruction": "Drie verhaaltjes: bedenk eerst wat elk verhaaltje vraagt."
   }
 }

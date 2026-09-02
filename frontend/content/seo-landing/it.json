@@ -122652,6 +122652,1367 @@
    ],
    "title": "La linea dei numeri fino a 30 – Classe prima da stampare PDF gratis",
    "metaDescription": "Scheda della linea dei numeri per la classe prima: quattro rette da 0 a 30, una tacca per ogni unità, etichette ogni cinque e tre frecce per retta. PDF gratis."
+  },
+  {
+   "slug": "linea-dei-numeri-fino-a-50",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda della linea dei numeri · fino a 50",
+   "h1": "La linea dei numeri fino a 50: i numeri scritti solo di dieci in dieci",
+   "strand": "Numeri",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "linea-dei-numeri",
+    "classe-prima"
+   ],
+   "p1": "Su questa pagina la scala arriva a cinquanta: quattro rette una sotto l'altra, con una tacca per ogni unità e i numeri stampati soltanto di dieci in dieci, 0, 10, 20, 30, 40 e 50. Su ogni retta scendono tre frecce arancioni, ciascuna su una tacca senza etichetta e ciascuna con una casella tratteggiata sopra la punta. L'alunno cerca l'etichetta più vicina, conta le tacche in avanti fino alla freccia e scrive il numero nella casella. Dodici frecce in tutto, e nessuna risposta è già scritta da qualche parte sulla retta.",
+   "p2": "Con un riferimento ogni dieci tacche il conteggio si allunga: fra il 40 e la freccia possono esserci sette o otto passi, abbastanza perché contare uno a uno diventi faticoso e convenga contare a gruppi. È il momento in cui molti bambini scoprono da soli che si può anche partire dall'etichetta successiva e tornare indietro. Le Indicazioni nazionali per la classe prima chiedono di collocare i numeri sulla retta e di contare in senso progressivo e regressivo: questa pagina chiede tutte e due le cose sulla stessa freccia. Chi corregge distingue l'errore di uno, cioè l'etichetta contata come prima tacca, dall'errore di dieci, cioè il riferimento sbagliato.",
+   "p3": "Il PDF si stampa gratis e il dito appoggiato sulla retta resta il metodo più sicuro. Rispetto alla versione fino a 20 cambia solo la lunghezza della scala: le tacche valgono ancora uno, quindi si conta allo stesso modo, più a lungo. Se i conteggi lunghi si perdono, la versione fino a 30 tiene le etichette ogni cinque; se invece contare uno a uno è ormai lento, la retta con i salti di cinque fino a 50 cambia proprio il valore della tacca.",
+   "canonicalDeckSlug": "linea-dei-numeri-g1277",
+   "carousel": [
+    {
+     "label": "La linea dei numeri con i salti di 5 fino a 50: ogni tacca vale cinque",
+     "href": "linea-dei-numeri-salti-di-5-fino-a-50"
+    },
+    {
+     "label": "La linea dei numeri con i salti di 5 fino a 100: le frecce cadono sui cinque",
+     "href": "linea-dei-numeri-salti-di-5-fino-a-100"
+    },
+    {
+     "label": "La linea dei numeri con i salti di 10 fino a 100: la retta delle decine",
+     "href": "linea-dei-numeri-salti-di-10-fino-a-100"
+    },
+    {
+     "label": "La linea dei numeri da 0 a 120: la retta che supera il centinaio",
+     "href": "linea-dei-numeri-da-0-a-120"
+    }
+   ],
+   "title": "La linea dei numeri fino a 50 – Classe prima da stampare PDF gratis",
+   "metaDescription": "Scheda della linea dei numeri per la classe prima: quattro rette da 0 a 50, una tacca per ogni unità, numeri ogni dieci e dodici frecce da contare. PDF gratis."
+  },
+  {
+   "slug": "linea-dei-numeri-salti-di-5-fino-a-50",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda della linea dei numeri · salti di 5",
+   "h1": "La linea dei numeri con i salti di 5 fino a 50: ogni tacca vale cinque",
+   "strand": "Numeri",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "linea-dei-numeri",
+    "classe-prima"
+   ],
+   "p1": "Qui le tacche non valgono più uno. Le tre rette di questa pagina arrivano a cinquanta con dieci intervalli soltanto, e i numeri stampati sono tre: 0 all'inizio, 25 nel mezzo, 50 alla fine. Due frecce per retta indicano una tacca senza etichetta, con la casella tratteggiata sopra. Per rispondere non si contano più le unità: si parte da uno dei tre numeri scritti e si conta di cinque in cinque, 5, 10, 15, finché si arriva alla freccia. Sei risposte in tutto, tutte multipli di cinque.",
+   "p2": "Cambiare il valore della tacca è un passaggio più grande di quanto sembri: la retta ha lo stesso aspetto di prima, ma contare uno a uno adesso porta alla risposta sbagliata. È il primo incontro con una scala, cioè con l'idea che un intervallo di disegno rappresenta una quantità decisa. Il 25 al centro offre un secondo punto di partenza per le frecce della metà destra, così i salti restano corti. Le Indicazioni nazionali per la classe prima chiedono di contare per salti e di collocare i numeri sulla retta. Chi corregge riconosce subito chi ha contato le tacche come unità: la risposta è un quinto di quella giusta.",
+   "p3": "Il PDF si stampa gratis. Conviene far dire ad alta voce la sequenza dei cinque prima di scrivere, perché l'errore nasce quasi sempre a voce e non con la matita. La versione fino a 100 con la stessa tacca da cinque tiene i numeri ogni dieci, quindi allunga la scala ma dà più punti d'appoggio; quella con i salti di dieci fino a 100 fa un passo ancora più lungo. Per tornare al conteggio a uno, la retta fino a 50 con i numeri ogni dieci è la compagna diretta di questa.",
+   "canonicalDeckSlug": "linea-dei-numeri-g1278",
+   "carousel": [
+    {
+     "label": "La linea dei numeri fino a 50: i numeri scritti solo di dieci in dieci",
+     "href": "linea-dei-numeri-fino-a-50"
+    },
+    {
+     "label": "La linea dei numeri con i salti di 5 fino a 100: le frecce cadono sui cinque",
+     "href": "linea-dei-numeri-salti-di-5-fino-a-100"
+    },
+    {
+     "label": "La linea dei numeri con i salti di 10 fino a 100: la retta delle decine",
+     "href": "linea-dei-numeri-salti-di-10-fino-a-100"
+    },
+    {
+     "label": "La linea dei numeri da 0 a 120: la retta che supera il centinaio",
+     "href": "linea-dei-numeri-da-0-a-120"
+    }
+   ],
+   "title": "Linea dei numeri, salti di 5 fino a 50 – Classe prima PDF gratis",
+   "metaDescription": "Scheda della linea dei numeri per la classe prima: tre rette fino a 50 con la tacca da cinque, i numeri 0, 25 e 50 e sei frecce da contare per salti. PDF gratis."
+  },
+  {
+   "slug": "linea-dei-numeri-salti-di-5-fino-a-100",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda della linea dei numeri · salti di 5 fino a 100",
+   "h1": "La linea dei numeri con i salti di 5 fino a 100: le frecce cadono sui cinque",
+   "strand": "Numeri",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "linea-dei-numeri",
+    "classe-prima"
+   ],
+   "p1": "Cento sta dentro una riga sola: venti intervalli, ognuno da cinque, e i numeri stampati di dieci in dieci, da 0 a 100. Le rette sono quattro e ognuna porta due frecce arancioni con la casella tratteggiata sopra. Le frecce cadono sempre su una tacca senza numero, cioè su un multiplo di cinque che non è multiplo di dieci: 15, 45, 85. L'alunno legge il numero scritto più vicino e fa un solo salto di cinque, in avanti o all'indietro. Otto risposte in tutto, tutte con il cinque finale.",
+   "p2": "La struttura rende questa pagina più facile di quanto il cento faccia temere: ogni freccia dista un solo salto da un numero scritto, quindi il lavoro non è contare a lungo ma leggere una scala fitta senza sbagliare tacca. In compenso i numeri in gioco sono grandi, e dire novantacinque guardando la tacca giusta è già un risultato. Le Indicazioni nazionali per la classe prima chiedono di leggere e collocare sulla retta i numeri entro il cento; qui il centinaio compare tutto insieme, con la sua struttura a decine ben visibile. Chi corregge guarda come finisce la risposta: una risposta che finisce per zero o per tre viene da una tacca contata male.",
+   "p3": "Il PDF si stampa gratis. Le tacche sono più vicine che nelle versioni corte, quindi conviene tenere il foglio dritto e usare il dito. La versione con i salti di dieci fino a 100 elimina i cinque e lascia solo le decine; quella con i salti di cinque fino a 50 usa la stessa tacca su una scala dimezzata, con tre soli numeri scritti. Quando il centinaio si legge senza esitare, la retta da 0 a 120 esce dal centinaio.",
+   "canonicalDeckSlug": "linea-dei-numeri-g1279",
+   "carousel": [
+    {
+     "label": "La linea dei numeri fino a 50: i numeri scritti solo di dieci in dieci",
+     "href": "linea-dei-numeri-fino-a-50"
+    },
+    {
+     "label": "La linea dei numeri con i salti di 5 fino a 50: ogni tacca vale cinque",
+     "href": "linea-dei-numeri-salti-di-5-fino-a-50"
+    },
+    {
+     "label": "La linea dei numeri con i salti di 10 fino a 100: la retta delle decine",
+     "href": "linea-dei-numeri-salti-di-10-fino-a-100"
+    },
+    {
+     "label": "La linea dei numeri da 0 a 120: la retta che supera il centinaio",
+     "href": "linea-dei-numeri-da-0-a-120"
+    }
+   ],
+   "title": "Linea dei numeri, salti di 5 fino a 100 – Classe prima PDF gratis",
+   "metaDescription": "Scheda della linea dei numeri per la classe prima: quattro rette fino a 100 con la tacca da cinque, i numeri ogni dieci e otto frecce da leggere. PDF gratis."
+  },
+  {
+   "slug": "linea-dei-numeri-salti-di-10-fino-a-100",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda della linea dei numeri · salti di 10",
+   "h1": "La linea dei numeri con i salti di 10 fino a 100: la retta delle decine",
+   "strand": "Numeri",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "linea-dei-numeri",
+    "classe-prima"
+   ],
+   "p1": "Tre rette, dieci intervalli ciascuna e un solo numero ogni cinque tacche: sono stampati 0, 50 e 100. Ogni tacca vale dieci, quindi la retta intera è la sequenza delle decine. Due frecce per retta scendono su una tacca senza etichetta, il 20, il 30, il 70, l'80, ciascuna con la casella tratteggiata sopra la punta. Si parte da 0, da 50 o da 100 e si conta di dieci in dieci, in avanti o all'indietro, fino alla freccia. Sei risposte, tutte decine tonde.",
+   "p2": "Contare di dieci in dieci su una retta è la stessa abilità che serve a leggere le decine di un numero, e qui si vede: la distanza fra due tacche è sempre uguale e vale sempre dieci, quindi la posizione dice il numero senza bisogno di leggerlo. Il 50 al centro permette di contare all'indietro per le frecce della metà destra, che è la parte più utile e meno praticata. Le Indicazioni nazionali per la classe prima chiedono di contare per salti e di raggruppare in decine; questa pagina unisce le due richieste in un gesto solo. Chi corregge guarda le risposte oltre la metà: chi scrive 60 dove la freccia indica 70 ha contato dal 50 dimenticando un salto.",
+   "p3": "Il PDF si stampa gratis; sono sei risposte, quindi è una pagina corta, adatta a un ripasso di dieci minuti. Rispetto alla retta con i salti di cinque fino a 100, qui i punti sono la metà e i salti il doppio, quindi si arriva prima ma si sbaglia di dieci invece che di cinque. Chi ha bisogno di più appoggi trova nella versione fino a 50 con i numeri ogni dieci una scala più corta; chi è pronto ad andare oltre trova la retta da 0 a 120.",
+   "canonicalDeckSlug": "linea-dei-numeri-g1280",
+   "carousel": [
+    {
+     "label": "La linea dei numeri fino a 50: i numeri scritti solo di dieci in dieci",
+     "href": "linea-dei-numeri-fino-a-50"
+    },
+    {
+     "label": "La linea dei numeri con i salti di 5 fino a 50: ogni tacca vale cinque",
+     "href": "linea-dei-numeri-salti-di-5-fino-a-50"
+    },
+    {
+     "label": "La linea dei numeri con i salti di 5 fino a 100: le frecce cadono sui cinque",
+     "href": "linea-dei-numeri-salti-di-5-fino-a-100"
+    },
+    {
+     "label": "La linea dei numeri da 0 a 120: la retta che supera il centinaio",
+     "href": "linea-dei-numeri-da-0-a-120"
+    }
+   ],
+   "title": "Linea dei numeri, salti di 10 fino a 100 – Classe prima PDF gratis",
+   "metaDescription": "Scheda della linea dei numeri per la classe prima: tre rette fino a 100 con la tacca da dieci, i numeri 0, 50 e 100 e sei frecce da contare a decine. PDF gratis."
+  },
+  {
+   "slug": "linea-dei-numeri-da-0-a-120",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda della linea dei numeri · oltre il cento",
+   "h1": "La linea dei numeri da 0 a 120: la retta che supera il centinaio",
+   "strand": "Numeri",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "linea-dei-numeri",
+    "classe-prima"
+   ],
+   "p1": "La retta non si ferma a cento. Le tre rette di questa pagina arrivano a centoventi, con una tacca ogni dieci e i numeri stampati solo a 0, a 50 e a 100: le tacche dopo il centinaio restano senza etichetta, e una freccia può cadere proprio lì. Due frecce per retta, ciascuna con la casella tratteggiata sopra la punta. Si parte dal numero scritto più vicino e si conta di dieci in dieci fino alla freccia. Sei risposte in tutto, qualcuna oltre il cento.",
+   "p2": "Superare il centinaio contando è diverso dal leggerlo scritto: centodieci viene dopo cento come venti viene dopo dieci, ma la parola è lunga e la sequenza si inceppa. La retta rende visibile che oltre il cento la struttura non cambia, perché le tacche restano alla stessa distanza e valgono ancora dieci. Le Indicazioni nazionali per la classe prima fissano il cento come traguardo del primo anno, e questa pagina lo attraversa con prudenza, aggiungendo poche tacche oltre il limite. Chi corregge chiede di leggere la risposta ad alta voce: dire centoventi davanti alla tacca del centodieci è un errore di conta, non di lettura.",
+   "p3": "Il PDF si stampa gratis. È la versione più avanzata della famiglia e ha senso dopo che le decine entro il cento sono sicure. La retta con i salti di dieci fino a 100 ha la stessa tacca e la stessa struttura, ma si ferma al centinaio; quella con i salti di cinque fino a 100 lavora sulla stessa scala con passi più corti. Dopo questa pagina, il numero del giorno colloca un singolo numero sulla retta insieme ad altre rappresentazioni.",
+   "canonicalDeckSlug": "linea-dei-numeri-g1281",
+   "carousel": [
+    {
+     "label": "La linea dei numeri fino a 50: i numeri scritti solo di dieci in dieci",
+     "href": "linea-dei-numeri-fino-a-50"
+    },
+    {
+     "label": "La linea dei numeri con i salti di 5 fino a 50: ogni tacca vale cinque",
+     "href": "linea-dei-numeri-salti-di-5-fino-a-50"
+    },
+    {
+     "label": "La linea dei numeri con i salti di 5 fino a 100: le frecce cadono sui cinque",
+     "href": "linea-dei-numeri-salti-di-5-fino-a-100"
+    },
+    {
+     "label": "La linea dei numeri con i salti di 10 fino a 100: la retta delle decine",
+     "href": "linea-dei-numeri-salti-di-10-fino-a-100"
+    }
+   ],
+   "title": "La linea dei numeri da 0 a 120 – Classe prima da stampare PDF gratis",
+   "metaDescription": "Scheda della linea dei numeri per la classe prima: tre rette da 0 a 120 con la tacca da dieci, i numeri 0, 50 e 100 e sei frecce, anche oltre il cento. PDF gratis."
+  },
+  {
+   "slug": "riordina-la-frase-con-gli-indizi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sentence-building",
+    "mode": null,
+    "theme": "fruits",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda riordina la frase · con gli indizi",
+   "h1": "Riordina la frase con gli indizi: maiuscola e segno finale già sulle tessere",
+   "strand": "Riflessione sulla lingua",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "frasi-in-disordine",
+    "frutta",
+    "classe-prima"
+   ],
+   "p1": "Le tessere di questa scheda portano già due indizi: la maiuscola su una parola e il segno di punteggiatura attaccato a un'altra. Le corsie sono tre, ognuna con un frutto disegnato a sinistra, perché la frutta è il tema della pagina, una fila di tre, quattro o cinque tessere in disordine e le righe di scrittura sotto. La tessera con la maiuscola dice dove comincia la frase, quella con il punto o il punto interrogativo dice dove finisce: in mezzo l'alunno decide l'ordine, poi riscrive tutta la frase sulla riga.",
+   "p2": "Avere gli estremi fissati riduce il problema alla parte centrale, ed è esattamente l'aiuto che serve la prima volta che si affronta una frase smontata: la struttura resta da ricostruire, ma il punto di partenza non si può sbagliare. Con tre o quattro tessere le combinazioni possibili sono poche e la lettura ad alta voce basta a scegliere. Le Indicazioni nazionali per la classe prima chiedono di produrre frasi semplici e complete rispettando le convenzioni di scrittura conosciute; qui la convenzione è mostrata e va rimessa al posto giusto. Chi corregge guarda la riga scritta, non le tessere: l'ordine può essere giusto e la maiuscola dimenticata nella copia.",
+   "p3": "Il PDF si stampa gratis; le righe hanno l'altezza adatta a una mano di classe prima. Questa è la versione d'ingresso della famiglia. La sorella senza indizi toglie sia la maiuscola sia il segno finale e porta le corsie a quattro, con tessere fino a sei. Se anche con gli indizi le tessere restano ferme, conviene ritagliarle davvero e spostarle sul banco prima di scrivere. Poi la scheda maiuscole e punteggiatura della classe seconda dà frasi già in ordine ma tutte da correggere.",
+   "canonicalDeckSlug": "frasi-in-disordine-frutta-g1282",
+   "carousel": [
+    {
+     "label": "Riordina la frase senza indizi: nessuna maiuscola, nessun segno finale",
+     "href": "riordina-la-frase-senza-indizi"
+    },
+    {
+     "label": "Maiuscola e segno finale: tre frasi da riscrivere con due sole correzioni",
+     "href": "maiuscola-e-segno-finale"
+    },
+    {
+     "label": "Maiuscole nei nomi propri e segno finale: cinque frasi da correggere",
+     "href": "maiuscole-nei-nomi-propri-e-segno-finale"
+    },
+    {
+     "label": "Nome, verbo o aggettivo con nove parole: i nomi hanno la figura accanto",
+     "href": "nome-verbo-aggettivo-nove-parole"
+    }
+   ],
+   "title": "Riordina la frase con gli indizi – Frutta, classe prima PDF gratis",
+   "metaDescription": "Scheda riordina la frase per la classe prima: tre frasi sulla frutta con la maiuscola e il segno finale già stampati sulle tessere, da rimettere in fila. PDF gratis."
+  },
+  {
+   "slug": "riordina-la-frase-senza-indizi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sentence-building",
+    "mode": null,
+    "theme": "animals",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda riordina la frase · senza indizi",
+   "h1": "Riordina la frase senza indizi: nessuna maiuscola, nessun segno finale",
+   "strand": "Riflessione sulla lingua",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "frasi-in-disordine",
+    "animali",
+    "classe-prima"
+   ],
+   "p1": "Nessuna tessera comincia con la maiuscola e nessuna porta il punto: in questa scheda le quattro frasi sugli animali sono scritte tutte in minuscolo e senza segno finale. Ogni corsia ha un animale disegnato a sinistra, da quattro a sei tessere in disordine e le righe di scrittura sotto. L'unico appiglio è il senso: fra tutti gli ordini possibili ce n'è uno solo che dà una frase italiana. L'alunno lo trova e poi riscrive la frase mettendo lui la maiuscola all'inizio e scegliendo lui il punto o il punto interrogativo.",
+   "p2": "Togliere gli indizi cambia il compito: non si cerca più dove sta l'inizio, si capisce di che frase si tratta. Anche le tessere con i nomi di persona sono in minuscolo, quindi bisogna accorgersi che sono nomi propri e ridare loro la maiuscola pure quando non stanno all'inizio. Il segno finale non è dato: una frase che comincia con chi o con quanti chiede il punto interrogativo, le altre il punto. Le Indicazioni nazionali per la classe prima chiedono di riconoscere i principali segni di punteggiatura e di scrivere frasi corrette; qui le due richieste arrivano insieme, alla fine dello stesso lavoro. Chi corregge conta le correzioni attese su ogni riga: sono almeno due, spesso tre.",
+   "p3": "Il PDF si stampa gratis. È la versione più difficile della famiglia e conviene proporla quando quella con gli indizi esce senza esitazioni. Con sei tessere la lettura ad alta voce diventa l'unico metodo affidabile: si prova un ordine, si ascolta, si cambia. Chi ha bisogno di un passo intermedio trova nella versione con gli indizi la maiuscola e il segno già stampati, e la scheda maiuscole e punteggiatura della classe seconda continua lo stesso lavoro su frasi già ordinate.",
+   "canonicalDeckSlug": "frasi-in-disordine-animali-g1283",
+   "carousel": [
+    {
+     "label": "Riordina la frase con gli indizi: maiuscola e segno finale già sulle tessere",
+     "href": "riordina-la-frase-con-gli-indizi"
+    },
+    {
+     "label": "Maiuscola e segno finale: tre frasi da riscrivere con due sole correzioni",
+     "href": "maiuscola-e-segno-finale"
+    },
+    {
+     "label": "Maiuscole nei nomi propri e segno finale: cinque frasi da correggere",
+     "href": "maiuscole-nei-nomi-propri-e-segno-finale"
+    },
+    {
+     "label": "Nome, verbo o aggettivo con nove parole: i nomi hanno la figura accanto",
+     "href": "nome-verbo-aggettivo-nove-parole"
+    }
+   ],
+   "title": "Riordina la frase senza indizi – Animali, classe prima PDF gratis",
+   "metaDescription": "Scheda riordina la frase per la classe prima: quattro frasi sugli animali tutte in minuscolo e senza segno finale, da riordinare e riscrivere. PDF gratis."
+  },
+  {
+   "slug": "maiuscola-e-segno-finale",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "capitals-punctuation",
+    "mode": null,
+    "theme": "animals",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda maiuscole e punteggiatura · due correzioni",
+   "h1": "Maiuscola e segno finale: tre frasi da riscrivere con due sole correzioni",
+   "strand": "Riflessione sulla lingua",
+   "standard": "L.1.2.b",
+   "slotTokens": [
+    "maiuscole-e-punteggiatura",
+    "animali",
+    "classe-seconda"
+   ],
+   "p1": "In alto una lista di controllo con due sole voci, maiuscola e punteggiatura: sono le uniche due cose da sistemare. Sotto ci sono tre corsie sugli animali, ognuna con un animale disegnato a sinistra e una frase dentro una cornice bianca, scritta tutta in minuscolo e senza segno alla fine. Almeno una delle tre è una domanda. L'alunno la riconosce leggendo, poi riscrive la frase per intero sulle righe di scrittura, con la maiuscola all'inizio e il punto o il punto interrogativo alla fine.",
+   "p2": "Due correzioni per frase, non di più: in questa versione non compare nessun nome di persona, quindi la maiuscola è sempre e solo quella iniziale. Il lavoro si concentra su una sola domanda, che tipo di frase è questa, e la risposta si sente rileggendo ad alta voce. Le Indicazioni nazionali per la classe seconda chiedono di applicare le convenzioni ortografiche e di usare i principali segni di punteggiatura; con tre frasi la pagina resta breve e si può correggere subito, tutti insieme. Chi corregge legge la frase riscritta con l'intonazione della domanda: se non suona come una domanda, il punto interrogativo è di troppo.",
+   "p3": "Il PDF si stampa gratis; le corsie sono tre e larghe, quindi c'è spazio per una scrittura ancora grande. È la versione d'ingresso della famiglia. La sorella più difficile aggiunge la terza voce alla lista di controllo, i nomi propri, e porta le frasi a cinque, con almeno due domande. Quando le tre righe escono complete, la scheda riordina la frase della classe prima resta utile per rivedere l'ordine delle parole, e la produzione scritta chiede le stesse convenzioni su frasi inventate.",
+   "canonicalDeckSlug": "maiuscole-e-punteggiatura-animali-g2281",
+   "carousel": [
+    {
+     "label": "Maiuscole nei nomi propri e segno finale: cinque frasi da correggere",
+     "href": "maiuscole-nei-nomi-propri-e-segno-finale"
+    },
+    {
+     "label": "Nome, verbo o aggettivo con nove parole: i nomi hanno la figura accanto",
+     "href": "nome-verbo-aggettivo-nove-parole"
+    },
+    {
+     "label": "Nome, verbo o aggettivo senza immagini: dodici parole da leggere e smistare",
+     "href": "nome-verbo-aggettivo-dodici-parole-senza-immagini"
+    },
+    {
+     "label": "Nome, verbo o aggettivo con quindici parole: cinque per ogni scatola",
+     "href": "nome-verbo-aggettivo-quindici-parole"
+    }
+   ],
+   "title": "Maiuscola e segno finale – Animali, classe seconda PDF gratis",
+   "metaDescription": "Scheda di maiuscole e punteggiatura per la classe seconda: tre frasi sugli animali senza maiuscola e senza segno finale, da riscrivere corrette. PDF gratis."
+  },
+  {
+   "slug": "maiuscole-nei-nomi-propri-e-segno-finale",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "capitals-punctuation",
+    "mode": null,
+    "theme": "fruits",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda maiuscole e punteggiatura · tre correzioni",
+   "h1": "Maiuscole nei nomi propri e segno finale: cinque frasi da correggere",
+   "strand": "Riflessione sulla lingua",
+   "standard": "L.1.2.b",
+   "slotTokens": [
+    "maiuscole-e-punteggiatura",
+    "frutta",
+    "classe-seconda"
+   ],
+   "p1": "Questa versione mette in gioco anche i nomi propri: la lista di controllo in alto ha tre voci, maiuscola, nomi propri e punteggiatura. Le corsie sono cinque, ognuna con un frutto disegnato a sinistra, e ogni frase sta in una cornice bianca, tutta in minuscolo e senza segno finale. Almeno due delle cinque sono domande. L'alunno riscrive ciascuna frase sulle righe sotto, mettendo la maiuscola all'inizio, la maiuscola a ogni nome di persona e scegliendo alla fine il punto o il punto interrogativo.",
+   "p2": "Tre correzioni sulla stessa riga sono una cosa diversa da tre esercizi separati: bisogna tenerle tutte a mente mentre la mano scrive, ed è per questo che la lista di controllo sta in alto e non dentro l'istruzione. Il nome proprio in mezzo alla frase è la correzione che si dimentica più spesso, perché la maiuscola non coincide con l'inizio. Le Indicazioni nazionali per la classe seconda chiedono di applicare le convenzioni ortografiche e di usare i segni di punteggiatura in modo appropriato: le due richieste convivono in ogni corsia. Chi corregge conta le maiuscole prima di leggere; se sono meno dei nomi propri della frase, ne manca una.",
+   "p3": "Il PDF si stampa gratis. Cinque frasi sono una pagina intera di lavoro, quindi conviene dividerla in due momenti se la scrittura è ancora lenta. La versione più semplice ha tre corsie, nessun nome di persona e una lista di controllo con due sole voci. Quando le cinque righe escono corrette, la scheda nome, verbo o aggettivo sposta l'attenzione dalla forma della frase alle categorie delle parole, e la produzione scritta chiede le stesse convenzioni su frasi proprie.",
+   "canonicalDeckSlug": "maiuscole-e-punteggiatura-frutta-g2282",
+   "carousel": [
+    {
+     "label": "Maiuscola e segno finale: tre frasi da riscrivere con due sole correzioni",
+     "href": "maiuscola-e-segno-finale"
+    },
+    {
+     "label": "Nome, verbo o aggettivo con nove parole: i nomi hanno la figura accanto",
+     "href": "nome-verbo-aggettivo-nove-parole"
+    },
+    {
+     "label": "Nome, verbo o aggettivo senza immagini: dodici parole da leggere e smistare",
+     "href": "nome-verbo-aggettivo-dodici-parole-senza-immagini"
+    },
+    {
+     "label": "Nome, verbo o aggettivo con quindici parole: cinque per ogni scatola",
+     "href": "nome-verbo-aggettivo-quindici-parole"
+    }
+   ],
+   "title": "Maiuscole nei nomi propri e segno finale – Classe seconda PDF gratis",
+   "metaDescription": "Scheda di maiuscole e punteggiatura per la classe seconda: cinque frasi sulla frutta da riscrivere con la maiuscola, i nomi propri e il segno finale. PDF gratis."
+  },
+  {
+   "slug": "nome-verbo-aggettivo-nove-parole",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-classes",
+    "mode": null,
+    "theme": "animals",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda nome, verbo o aggettivo · nove parole",
+   "h1": "Nome, verbo o aggettivo con nove parole: i nomi hanno la figura accanto",
+   "strand": "Riflessione sulla lingua",
+   "standard": "L.2.1.e",
+   "slotTokens": [
+    "nomi-verbi-e-aggettivi",
+    "animali",
+    "classe-seconda"
+   ],
+   "p1": "Nove parole in tessere bianche, sparse in alto, e tre soltanto hanno accanto una piccola figura: sono i nomi, e vengono dal tema degli animali. Le altre sei sono verbi e aggettivi, senza figura. Sotto ci sono tre scatole alte, con un'icona sul coperchio e l'etichetta in fondo, nomi, verbi, aggettivi, e alcune righe punteggiate su cui scrivere. L'alunno legge ogni parola, decide che cosa è e la copia nella scatola giusta. Tre parole per scatola: chi ne mette quattro da una parte sa già di avere sbagliato.",
+   "p2": "La figura accanto ai nomi non è una decorazione ma un ponte: rende il nome riconoscibile prima ancora di leggerlo e lascia tutta l'attenzione alla distinzione fra verbi e aggettivi, che è la difficoltà vera. Gli aggettivi scelti a questo livello sono i più concreti, colori e grandezze, quindi la domanda com'è funziona sempre. Le Indicazioni nazionali per la classe seconda chiedono di riconoscere le principali parti del discorso; qui il riconoscimento si fa smistando, cioè con un gesto, non con una definizione da ripetere. Chi corregge guarda la scatola dei verbi: una parola in più lì viene quasi sempre da un aggettivo scambiato per un'azione.",
+   "p3": "Il PDF si stampa gratis. È la versione d'ingresso della famiglia, quella da usare la prima volta che si nominano le tre categorie. La versione da dodici parole toglie tutte le figure e alza il livello degli aggettivi; quella da quindici ne mette cinque per scatola. Quando le tre scatole si riempiono senza ripensamenti, la scheda maiuscole e punteggiatura fa ritrovare nomi e verbi dentro frasi da correggere.",
+   "canonicalDeckSlug": "nomi-verbi-e-aggettivi-animali-g2285",
+   "carousel": [
+    {
+     "label": "Nome, verbo o aggettivo senza immagini: dodici parole da leggere e smistare",
+     "href": "nome-verbo-aggettivo-dodici-parole-senza-immagini"
+    },
+    {
+     "label": "Nome, verbo o aggettivo con quindici parole: cinque per ogni scatola",
+     "href": "nome-verbo-aggettivo-quindici-parole"
+    },
+    {
+     "label": "Problemi con i soldi: due domande su uno scaffale di quattro prodotti",
+     "href": "problemi-con-i-soldi-due-domande"
+    },
+    {
+     "label": "Problemi con i soldi: quattro domande diverse sullo stesso scaffale",
+     "href": "problemi-con-i-soldi-quattro-domande"
+    }
+   ],
+   "title": "Nome, verbo o aggettivo con nove parole – Classe seconda PDF gratis",
+   "metaDescription": "Scheda di analisi grammaticale per la classe seconda: nove parole da smistare in tre scatole, con la figura accanto ai nomi degli animali. PDF gratis."
+  },
+  {
+   "slug": "nome-verbo-aggettivo-dodici-parole-senza-immagini",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-classes",
+    "mode": null,
+    "theme": "fruits",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda nome, verbo o aggettivo · senza immagini",
+   "h1": "Nome, verbo o aggettivo senza immagini: dodici parole da leggere e smistare",
+   "strand": "Riflessione sulla lingua",
+   "standard": "L.2.1.e",
+   "slotTokens": [
+    "nomi-verbi-e-aggettivi",
+    "frutta",
+    "classe-seconda"
+   ],
+   "p1": "Dodici parole, nessuna figura. Le tessere in alto sono tutte uguali e vanno lette: quattro sono nomi presi dal tema della frutta, quattro sono verbi, quattro sono aggettivi. Sotto, le tre scatole con l'icona sul coperchio e l'etichetta in fondo aspettano quattro parole ciascuna, su righe punteggiate. Senza l'immagine accanto, anche riconoscere il nome diventa un compito di lettura: l'alunno legge, decide e scrive nella scatola giusta.",
+   "p2": "Togliere le figure cambia il punto d'appoggio. Nella versione illustrata il nome si vede; qui va riconosciuto per quello che è, cioè una parola che indica una cosa, e i nomi della frutta non aiutano più di quanto aiutino i verbi. Anche gli aggettivi salgono di livello e non sono più soltanto colori: entrano qualità come la forma o la consistenza, che si riconoscono solo con la domanda giusta. Le Indicazioni nazionali per la classe seconda chiedono di riconoscere le parti del discorso e di ampliare il patrimonio lessicale; questa pagina fa le due cose insieme. Chi corregge conta le righe piene: quattro per scatola, sempre.",
+   "p3": "Il PDF si stampa gratis. Conviene far leggere le dodici tessere ad alta voce prima di scrivere, così la classificazione parte dalla parola sentita e non dalla parola guardata. La versione da nove parole rimette le figure accanto ai nomi ed è il passo indietro giusto se le scatole si riempiono a caso; quella da quindici parole aggiunge una parola per scatola e gli aggettivi più astratti. Poi la scheda riordina la frase mostra le stesse categorie al lavoro dentro una frase.",
+   "canonicalDeckSlug": "nomi-verbi-e-aggettivi-frutta-g2286",
+   "carousel": [
+    {
+     "label": "Nome, verbo o aggettivo con nove parole: i nomi hanno la figura accanto",
+     "href": "nome-verbo-aggettivo-nove-parole"
+    },
+    {
+     "label": "Nome, verbo o aggettivo con quindici parole: cinque per ogni scatola",
+     "href": "nome-verbo-aggettivo-quindici-parole"
+    },
+    {
+     "label": "Problemi con i soldi: due domande su uno scaffale di quattro prodotti",
+     "href": "problemi-con-i-soldi-due-domande"
+    },
+    {
+     "label": "Problemi con i soldi: quattro domande diverse sullo stesso scaffale",
+     "href": "problemi-con-i-soldi-quattro-domande"
+    }
+   ],
+   "title": "Nome, verbo o aggettivo senza immagini – Classe seconda PDF gratis",
+   "metaDescription": "Scheda di analisi grammaticale per la classe seconda: dodici parole senza figure, quattro per scatola, fra nomi della frutta, verbi e aggettivi. PDF gratis."
+  },
+  {
+   "slug": "nome-verbo-aggettivo-quindici-parole",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-classes",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda nome, verbo o aggettivo · quindici parole",
+   "h1": "Nome, verbo o aggettivo con quindici parole: cinque per ogni scatola",
+   "strand": "Riflessione sulla lingua",
+   "standard": "L.2.1.e",
+   "slotTokens": [
+    "nomi-verbi-e-aggettivi",
+    "veicoli",
+    "classe-seconda"
+   ],
+   "p1": "Quindici tessere in alto, cinque nomi, cinque verbi e cinque aggettivi, tutte senza figura: è la versione più lunga della famiglia. I nomi vengono dal tema dei veicoli e sono parole anche lunghe, da leggere per intero prima di decidere. Le tre scatole sotto hanno l'icona sul coperchio, l'etichetta in fondo e righe punteggiate sufficienti per cinque parole ciascuna. L'alunno smista tutte e quindici le parole, senza lasciarne fuori nessuna.",
+   "p2": "Con cinque parole per categoria la pagina smette di essere un esercizio di riconoscimento e diventa un esercizio di tenuta: bisogna mantenere lo stesso criterio per quindici decisioni di fila. Gli aggettivi arrivano al livello più astratto della raccolta, quelli che in una figura non si vedrebbero, e alcuni verbi si possono confondere con nomi se non si prova a metterli dopo un soggetto. Le Indicazioni nazionali per la classe seconda chiedono di riconoscere le principali parti del discorso; qui la quantità serve a rendere stabile ciò che è già stato capito. Chi corregge guarda la distribuzione finale, cinque, cinque e cinque: una scatola con sei parole indica esattamente dove cercare.",
+   "p3": "Il PDF si stampa gratis. È una pagina da proporre dopo le versioni da nove e da dodici parole, e regge bene anche come verifica. Se quindici decisioni sono troppe in una volta, si può coprire una scatola e lavorare per categorie. La versione da nove parole tiene le figure accanto ai nomi; quella da dodici sta nel mezzo. Dopo, la scheda maiuscole e punteggiatura mette parole dello stesso tipo dentro frasi da riscrivere.",
+   "canonicalDeckSlug": "nomi-verbi-e-aggettivi-veicoli-g2287",
+   "carousel": [
+    {
+     "label": "Nome, verbo o aggettivo con nove parole: i nomi hanno la figura accanto",
+     "href": "nome-verbo-aggettivo-nove-parole"
+    },
+    {
+     "label": "Nome, verbo o aggettivo senza immagini: dodici parole da leggere e smistare",
+     "href": "nome-verbo-aggettivo-dodici-parole-senza-immagini"
+    },
+    {
+     "label": "Problemi con i soldi: due domande su uno scaffale di quattro prodotti",
+     "href": "problemi-con-i-soldi-due-domande"
+    },
+    {
+     "label": "Problemi con i soldi: quattro domande diverse sullo stesso scaffale",
+     "href": "problemi-con-i-soldi-quattro-domande"
+    }
+   ],
+   "title": "Nome, verbo o aggettivo con quindici parole – Classe seconda PDF gratis",
+   "metaDescription": "Scheda di analisi grammaticale per la classe seconda: quindici parole senza figure, con i nomi dei veicoli, cinque per ogni scatola da riempire. PDF gratis."
+  },
+  {
+   "slug": "problemi-con-i-soldi-due-domande",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "animals",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda problemi con i soldi · due domande",
+   "h1": "Problemi con i soldi: due domande su uno scaffale di quattro prodotti",
+   "strand": "Misure",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "contare-le-monete",
+    "animali",
+    "classe-seconda"
+   ],
+   "p1": "Lo scaffale in alto ha quattro animali, ciascuno con il suo cartellino del prezzo in cent: i prezzi vanno da 10 a 30 e sono tutti multipli di cinque. Sotto ci sono due sole domande, alte e spaziose. Nella prima un bambino mette due animali nel cestino e bisogna scrivere quanto costano in tutto; nella seconda ha una certa somma e bisogna cerchiare sì oppure no per dire se i soldi bastano, scrivendo comunque il totale. Ogni domanda ha un ampio pannello a puntini per i conti e un riquadro per la risposta in cent.",
+   "p2": "Il prezzo non è scritto nella domanda: la frase mostra la figura dell'animale, e il numero va cercato sul cartellino dello scaffale. Questo passaggio in più è ciò che rende la pagina un problema e non un'addizione già pronta. Le due domande sono di tipo diverso: una chiede una somma, l'altra un confronto fra i soldi che si hanno e la spesa da fare, e il totale va scritto anche quando la risposta è no. Le Indicazioni nazionali per la classe seconda chiedono di risolvere problemi con le operazioni conosciute e di usare il denaro come contesto di misura. Chi corregge guarda il sì o il no insieme al totale: le due risposte devono raccontare la stessa cosa.",
+   "p3": "Il PDF si stampa gratis. Con due sole domande e due carte grandi è la versione d'ingresso della famiglia, adatta anche a chi scrive ancora largo. Le sorelle cambiano una cosa alla volta: una chiede solo totali, una solo il resto, una solo il quanto in più; la versione da quattro domande le mette tutte insieme su uno scaffale da cinque prodotti. Qualche moneta vera sul banco permette di rifare la seconda domanda con le mani.",
+   "canonicalDeckSlug": "contare-le-monete-animali-g2289",
+   "carousel": [
+    {
+     "label": "Problemi con i soldi: quattro domande diverse sullo stesso scaffale",
+     "href": "problemi-con-i-soldi-quattro-domande"
+    },
+    {
+     "label": "Problemi con i soldi: quanto costa in tutto, tre volte di seguito",
+     "href": "problemi-con-i-soldi-quanto-in-tutto"
+    },
+    {
+     "label": "Problemi con i soldi: tre prodotti nel cestino e una somma a tre addendi",
+     "href": "problemi-con-i-soldi-tre-prodotti"
+    },
+    {
+     "label": "Problemi con i soldi: quanto resto, pagando con una sola moneta",
+     "href": "problemi-con-i-soldi-quanto-resto"
+    }
+   ],
+   "title": "Problemi con i soldi: due domande – Classe seconda PDF gratis",
+   "metaDescription": "Scheda di problemi con i soldi per la classe seconda: quattro animali sullo scaffale con i prezzi in cent e due domande, il totale e se i soldi bastano. PDF gratis."
+  },
+  {
+   "slug": "problemi-con-i-soldi-quattro-domande",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda problemi con i soldi · quattro domande",
+   "h1": "Problemi con i soldi: quattro domande diverse sullo stesso scaffale",
+   "strand": "Misure",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "contare-le-monete",
+    "veicoli",
+    "classe-seconda"
+   ],
+   "p1": "Quattro domande diverse sullo stesso scaffale: è la versione completa della famiglia. In alto cinque veicoli con i cartellini del prezzo in cent, da 10 a 45. Poi, una sotto l'altra, quattro carte: la prima chiede il totale di tre veicoli, la seconda il resto dopo aver pagato con una moneta, la terza se i soldi bastano per due veicoli, con sì e no da cerchiare, la quarta quanto costa in più un veicolo rispetto a un altro. Ogni carta ha il pannello a puntini e il riquadro della risposta in cent.",
+   "p2": "Le quattro domande usano gli stessi cinque prezzi e chiedono quattro operazioni diverse: addizione di tre addendi, sottrazione dal denaro dato, confronto fra ciò che si ha e ciò che serve, differenza fra due prezzi. È questo che allena davvero, perché la prima cosa da decidere non è come si calcola ma che cosa viene chiesto. Le Indicazioni nazionali per la classe seconda chiedono di risolvere problemi con le operazioni conosciute e di riconoscere le situazioni problematiche; una pagina con quattro richieste diverse è il modo più diretto di esercitarlo. Chi corregge guarda l'operazione scritta nel pannello a puntini, prima ancora del risultato.",
+   "p3": "Il PDF si stampa gratis; le carte sono più fitte che nelle altre versioni, quindi conviene una stampa a piena pagina e non ridotta. Se quattro tipi di domanda insieme sono troppi, ogni tipo esiste anche da solo: la versione dei totali, quella del resto, quella del bastano o no, quella del quanto in più. La versione da due domande resta la più semplice di tutte. Dopo, i problemi di moltiplicazione e divisione della classe terza portano storie simili su gruppi uguali.",
+   "canonicalDeckSlug": "contare-le-monete-veicoli-g2290",
+   "carousel": [
+    {
+     "label": "Problemi con i soldi: due domande su uno scaffale di quattro prodotti",
+     "href": "problemi-con-i-soldi-due-domande"
+    },
+    {
+     "label": "Problemi con i soldi: quanto costa in tutto, tre volte di seguito",
+     "href": "problemi-con-i-soldi-quanto-in-tutto"
+    },
+    {
+     "label": "Problemi con i soldi: tre prodotti nel cestino e una somma a tre addendi",
+     "href": "problemi-con-i-soldi-tre-prodotti"
+    },
+    {
+     "label": "Problemi con i soldi: quanto resto, pagando con una sola moneta",
+     "href": "problemi-con-i-soldi-quanto-resto"
+    }
+   ],
+   "title": "Problemi con i soldi: quattro domande – Classe seconda PDF gratis",
+   "metaDescription": "Scheda di problemi con i soldi per la classe seconda: cinque veicoli con i prezzi in cent e quattro domande su totale, resto, confronto e differenza. PDF gratis."
+  },
+  {
+   "slug": "problemi-con-i-soldi-quanto-in-tutto",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "toys",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda problemi con i soldi · solo il totale",
+   "h1": "Problemi con i soldi: quanto costa in tutto, tre volte di seguito",
+   "strand": "Misure",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "contare-le-monete",
+    "giocattoli",
+    "classe-seconda"
+   ],
+   "p1": "Ogni carta chiede la stessa cosa: quanto costa in tutto. Lo scaffale in alto ha cinque giocattoli con i prezzi in cent, e sotto ci sono tre domande in cui un bambino compra o mette nel cestino due oggetti. Le figure dei due oggetti compaiono dentro la frase al posto dei loro nomi, così il prezzo va cercato ogni volta sullo scaffale. Il pannello a puntini serve a incolonnare l'addizione, il riquadro finale accoglie il totale, con l'unità già stampata accanto.",
+   "p2": "Ripetere la stessa domanda tre volte non è una ripetizione inutile: cambiano i prezzi, e quindi cambia il tipo di somma. Venti più quindici si fa a mente, quarantacinque più venticinque chiede il passaggio della decina, e nella stessa pagina l'alunno incontra entrambe. La costanza della domanda libera l'attenzione per il calcolo e per la lettura dei cartellini, che sono le due difficoltà vere. Le Indicazioni nazionali per la classe seconda chiedono di eseguire addizioni con i numeri naturali e di risolvere problemi legati all'uso del denaro. Chi corregge controlla per prima cosa i due prezzi copiati: un totale sbagliato con l'addizione giusta è un errore di lettura, non di calcolo.",
+   "p3": "Il PDF si stampa gratis. È la versione da usare quando si vuole allenare solo l'addizione con i soldi, senza il resto e senza i confronti. La sorella con tre prodotti per cestino aggiunge un addendo; quella con quattro domande diverse mescola tutte le richieste; quella del resto passa alla sottrazione. Con le monete vere ogni carta si può anche pagare davvero prima di scrivere la risposta.",
+   "canonicalDeckSlug": "contare-le-monete-giocattoli-g2291",
+   "carousel": [
+    {
+     "label": "Problemi con i soldi: due domande su uno scaffale di quattro prodotti",
+     "href": "problemi-con-i-soldi-due-domande"
+    },
+    {
+     "label": "Problemi con i soldi: quattro domande diverse sullo stesso scaffale",
+     "href": "problemi-con-i-soldi-quattro-domande"
+    },
+    {
+     "label": "Problemi con i soldi: tre prodotti nel cestino e una somma a tre addendi",
+     "href": "problemi-con-i-soldi-tre-prodotti"
+    },
+    {
+     "label": "Problemi con i soldi: quanto resto, pagando con una sola moneta",
+     "href": "problemi-con-i-soldi-quanto-resto"
+    }
+   ],
+   "title": "Problemi con i soldi: quanto in tutto – Classe seconda PDF gratis",
+   "metaDescription": "Scheda di problemi con i soldi per la classe seconda: cinque giocattoli con i prezzi in cent e tre domande che chiedono sempre il totale di due. PDF gratis."
+  },
+  {
+   "slug": "problemi-con-i-soldi-tre-prodotti",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "fruits",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda problemi con i soldi · tre prodotti",
+   "h1": "Problemi con i soldi: tre prodotti nel cestino e una somma a tre addendi",
+   "strand": "Misure",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "contare-le-monete",
+    "frutta",
+    "classe-seconda"
+   ],
+   "p1": "Tre frutti per cestino, tre volte. Lo scaffale in alto porta cinque frutti con il prezzo in cent stampato sul cartellino, e ognuna delle tre carte mostra dentro la frase le figure di tre di loro, chiedendo quanto si paga in tutto. Le figure sostituiscono i nomi, quindi ogni prezzo va ritrovato sullo scaffale prima di poter cominciare. Sotto ogni domanda ci sono il pannello a puntini per la somma e il riquadro della risposta in cent.",
+   "p2": "Con tre addendi cambia la strategia: sommare in ordine è la via più lenta, mentre cercare prima due prezzi che formano una decina tonda accorcia tutto. È il primo posto in cui conviene parlarne, perché con due addendi la scelta non esisteva. Anche l'ordine di lettura conta: tre figure nella stessa frase vanno associate una a una al cartellino giusto senza perderne nessuna. Le Indicazioni nazionali per la classe seconda chiedono di eseguire addizioni anche con più addendi e di risolvere problemi con il denaro. Chi corregge controlla che i prezzi trascritti siano tre e siano quelli giusti, prima di guardare il risultato.",
+   "p3": "Il PDF si stampa gratis. Rispetto alla versione con due prodotti cambia soltanto il numero di addendi, quindi è il passo immediatamente successivo. Chi trova lunga la somma può scrivere i tre prezzi in colonna nel pannello a puntini prima di calcolare. Le altre sorelle isolano il resto, il confronto o la differenza, e la versione da quattro domande le mette tutte insieme sulla stessa pagina.",
+   "canonicalDeckSlug": "contare-le-monete-frutta-g2292",
+   "carousel": [
+    {
+     "label": "Problemi con i soldi: due domande su uno scaffale di quattro prodotti",
+     "href": "problemi-con-i-soldi-due-domande"
+    },
+    {
+     "label": "Problemi con i soldi: quattro domande diverse sullo stesso scaffale",
+     "href": "problemi-con-i-soldi-quattro-domande"
+    },
+    {
+     "label": "Problemi con i soldi: quanto costa in tutto, tre volte di seguito",
+     "href": "problemi-con-i-soldi-quanto-in-tutto"
+    },
+    {
+     "label": "Problemi con i soldi: quanto resto, pagando con una sola moneta",
+     "href": "problemi-con-i-soldi-quanto-resto"
+    }
+   ],
+   "title": "Problemi con i soldi: tre prodotti – Classe seconda PDF gratis",
+   "metaDescription": "Scheda di problemi con i soldi per la classe seconda: cinque frutti con i prezzi in cent e tre domande che chiedono il totale di tre prodotti. PDF gratis."
+  },
+  {
+   "slug": "problemi-con-i-soldi-quanto-resto",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "animals",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda problemi con i soldi · il resto",
+   "h1": "Problemi con i soldi: quanto resto, pagando con una sola moneta",
+   "strand": "Misure",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "contare-le-monete",
+    "animali",
+    "classe-seconda"
+   ],
+   "p1": "Due sole domande, entrambe sul resto. Lo scaffale in alto ha cinque animali con il prezzo in cent; in ogni carta un bambino compra un animale e paga con una moneta disegnata dentro la frase, una da 20 o una da 50 cent secondo il prezzo, e bisogna dire quanto riceve indietro. Il pannello a puntini è grande, di tre righe, perché qui la sottrazione ha bisogno di spazio. Il riquadro della risposta sta alla fine, con l'unità già stampata accanto.",
+   "p2": "Il resto è una sottrazione con un motivo, e la moneta disegnata fornisce il numero di partenza senza scriverlo in cifre: bisogna riconoscere il valore della moneta prima di poter calcolare. È il passaggio che distingue questa pagina da una sottrazione qualsiasi. Una sola moneta per volta tiene il conto pulito e mette al centro la domanda giusta, quanto manca dal prezzo fino alla moneta. Le Indicazioni nazionali per la classe seconda chiedono di eseguire sottrazioni con i numeri naturali e di usare il denaro nelle situazioni problematiche. Chi corregge guarda se è stato tolto il prezzo dalla moneta o la moneta dal prezzo: l'ordine è la difficoltà principale.",
+   "p3": "Il PDF si stampa gratis. Con due carte grandi è una pagina breve, adatta a un lavoro guidato. Chi fatica può contare in avanti dal prezzo fino al valore della moneta, che è il modo con cui il resto si dà davvero al banco. La sorella dei totali resta sull'addizione, quella del bastano o no sul confronto, quella del quanto in più sulla differenza fra due prezzi; la versione da quattro domande mette il resto accanto agli altri tipi.",
+   "canonicalDeckSlug": "contare-le-monete-animali-g2293",
+   "carousel": [
+    {
+     "label": "Problemi con i soldi: due domande su uno scaffale di quattro prodotti",
+     "href": "problemi-con-i-soldi-due-domande"
+    },
+    {
+     "label": "Problemi con i soldi: quattro domande diverse sullo stesso scaffale",
+     "href": "problemi-con-i-soldi-quattro-domande"
+    },
+    {
+     "label": "Problemi con i soldi: quanto costa in tutto, tre volte di seguito",
+     "href": "problemi-con-i-soldi-quanto-in-tutto"
+    },
+    {
+     "label": "Problemi con i soldi: tre prodotti nel cestino e una somma a tre addendi",
+     "href": "problemi-con-i-soldi-tre-prodotti"
+    }
+   ],
+   "title": "Problemi con i soldi: quanto resto – Classe seconda PDF gratis",
+   "metaDescription": "Scheda di problemi con i soldi per la classe seconda: due domande sul resto, con il prezzo sullo scaffale e una moneta da 20 o 50 cent disegnata. PDF gratis."
+  },
+  {
+   "slug": "problemi-con-i-soldi-bastano-i-soldi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda problemi con i soldi · bastano o no",
+   "h1": "Problemi con i soldi: bastano i soldi? Cerchia sì o no e scrivi il totale",
+   "strand": "Misure",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "contare-le-monete",
+    "veicoli",
+    "classe-seconda"
+   ],
+   "p1": "In ogni carta un bambino ha una somma scritta in cent e vuole comprare due veicoli: la domanda è se i soldi bastano. Si cerchia sì oppure no fra due pastiglie stampate e si scrive comunque il totale nel riquadro accanto, perché la risposta va sostenuta da un numero. Lo scaffale in alto ha cinque veicoli con i cartellini del prezzo; le carte sono due, ciascuna con un pannello a puntini ampio sotto la frase.",
+   "p2": "Rispondere sì o no senza calcolare riesce solo per caso, ed è per questo che il totale va scritto in ogni caso: è la prova della risposta. La somma da confrontare è sempre vicina ai soldi disponibili, cinque o dieci cent sopra o sotto, così la scelta non si può fare a occhio. Il confronto fra due numeri che significano la stessa cosa, quanto ho e quanto serve, è una delle prime forme di stima con il denaro. Le Indicazioni nazionali per la classe seconda chiedono di confrontare numeri e di risolvere problemi con il denaro. Chi corregge cerca le coppie contraddittorie: un totale maggiore dei soldi con il sì cerchiato è una risposta data prima del conto.",
+   "p3": "Il PDF si stampa gratis. Due carte e una decisione ciascuna: è una pagina corta, che si presta al lavoro a coppie, dove uno calcola e l'altro controlla. La sorella del resto tiene la sottrazione senza il confronto, quella dei totali resta sull'addizione pura, quella del quanto in più chiede la differenza fra due prezzi. La versione da quattro domande riunisce tutti i tipi su un solo scaffale.",
+   "canonicalDeckSlug": "contare-le-monete-veicoli-g2294",
+   "carousel": [
+    {
+     "label": "Problemi con i soldi: due domande su uno scaffale di quattro prodotti",
+     "href": "problemi-con-i-soldi-due-domande"
+    },
+    {
+     "label": "Problemi con i soldi: quattro domande diverse sullo stesso scaffale",
+     "href": "problemi-con-i-soldi-quattro-domande"
+    },
+    {
+     "label": "Problemi con i soldi: quanto costa in tutto, tre volte di seguito",
+     "href": "problemi-con-i-soldi-quanto-in-tutto"
+    },
+    {
+     "label": "Problemi con i soldi: tre prodotti nel cestino e una somma a tre addendi",
+     "href": "problemi-con-i-soldi-tre-prodotti"
+    }
+   ],
+   "title": "Problemi con i soldi: bastano i soldi? – Classe seconda PDF gratis",
+   "metaDescription": "Scheda di problemi con i soldi per la classe seconda: due domande in cui si confrontano i soldi con il prezzo di due veicoli, con sì o no da cerchiare. PDF gratis."
+  },
+  {
+   "slug": "problemi-con-i-soldi-quanto-in-piu",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "toys",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda problemi con i soldi · la differenza",
+   "h1": "Problemi con i soldi: quanto costa in più, tre confronti fra due prezzi",
+   "strand": "Misure",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "contare-le-monete",
+    "giocattoli",
+    "classe-seconda"
+   ],
+   "p1": "Tre domande, tutte di confronto: quanto costa in più un giocattolo rispetto a un altro. Lo scaffale in alto ha cinque giocattoli con i prezzi in cent, e in ogni carta due figure compaiono dentro la frase al posto dei nomi. La differenza è sempre positiva, perché il giocattolo più caro viene nominato per primo, e non è mai zero. Sotto ogni domanda ci sono il pannello a puntini e il riquadro della risposta, con l'unità già stampata accanto.",
+   "p2": "La differenza è la sottrazione nella sua veste più difficile da riconoscere: non si toglie niente a nessuno, si confrontano due quantità che restano dove sono. Per questo la domanda è formulata sempre con in più e mai con togli, e per questo conviene affiancare i due cartellini con il dito prima di scrivere. Tre domande dello stesso tipo permettono di consolidare l'idea invece di incontrarla una volta sola. Le Indicazioni nazionali per la classe seconda chiedono di risolvere problemi con le operazioni conosciute e di confrontare quantità. Chi corregge guarda il ragionamento nel pannello: chi somma i due prezzi ha letto in tutto dove c'era scritto in più.",
+   "p3": "Il PDF si stampa gratis. È la versione da usare quando la sottrazione come differenza va isolata dal resto e dal totale. Le sorelle coprono le altre domande una alla volta, e quella da quattro domande le mette insieme, con il quanto in più come ultima carta. Con le monete vere si possono formare i due prezzi in due mucchietti e togliere le monete uguali: quello che avanza è la risposta.",
+   "canonicalDeckSlug": "contare-le-monete-giocattoli-g2295",
+   "carousel": [
+    {
+     "label": "Problemi con i soldi: due domande su uno scaffale di quattro prodotti",
+     "href": "problemi-con-i-soldi-due-domande"
+    },
+    {
+     "label": "Problemi con i soldi: quattro domande diverse sullo stesso scaffale",
+     "href": "problemi-con-i-soldi-quattro-domande"
+    },
+    {
+     "label": "Problemi con i soldi: quanto costa in tutto, tre volte di seguito",
+     "href": "problemi-con-i-soldi-quanto-in-tutto"
+    },
+    {
+     "label": "Problemi con i soldi: tre prodotti nel cestino e una somma a tre addendi",
+     "href": "problemi-con-i-soldi-tre-prodotti"
+    }
+   ],
+   "title": "Problemi con i soldi: quanto in più – Classe seconda PDF gratis",
+   "metaDescription": "Scheda di problemi con i soldi per la classe seconda: cinque giocattoli con i prezzi in cent e tre domande sulla differenza fra due prezzi. PDF gratis."
+  },
+  {
+   "slug": "leggere-il-calendario-quattro-domande",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "calendar",
+    "mode": null,
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda leggere il calendario · quattro domande",
+   "h1": "Leggere il calendario: quattro domande e le caselle grandi",
+   "strand": "Misure",
+   "slotTokens": [
+    "il-calendario",
+    "classe-seconda"
+   ],
+   "p1": "La pagina mostra un mese intero, con le colonne da lunedì a domenica come nei calendari italiani, le caselle più alte del solito e due piccole figure incollate su due date, come adesivi. Sotto, quattro domande disposte a due a due: che giorno della settimana è una certa data, quanti giorni di un tipo ha il mese, in quale giorno del mese si trova uno dei due adesivi, quanti giorni ha il mese in tutto. Ogni domanda ha il suo riquadro tratteggiato per la risposta.",
+   "p2": "Sono le quattro letture di base di una tabella a doppia entrata: incrociare riga e colonna, contare lungo una colonna, cercare un simbolo e dirne la data, contare tutte le caselle piene. Le celle sono più alte che nelle altre versioni, quindi il dito ci sta comodo e la riga non si perde. Il mese non comincia quasi mai di lunedì, e questo basta a rendere la prima domanda una lettura vera e non un calcolo a memoria. Le Indicazioni nazionali collocano il tempo fra le grandezze da misurare nella scuola primaria, e la settimana è la prima unità che si impara a leggere in tabella. Chi corregge chiede di indicare con il dito la casella usata: la risposta giusta trovata nella casella sbagliata capita più spesso di quanto sembri.",
+   "p3": "Il PDF si stampa gratis. È la versione d'ingresso della famiglia, con quattro domande e nessun calcolo di date. La versione sui giorni della settimana chiede solo nomi di giorni, compreso il primo e l'ultimo del mese; quella più difficile aggiunge la data di una settimana dopo e i giorni che passano fra due adesivi. Un calendario vero appeso in classe permette di rifare le stesse quattro domande sul mese in corso.",
+   "canonicalDeckSlug": "il-calendario-g2296",
+   "carousel": [
+    {
+     "label": "Leggere il calendario: una settimana dopo e i giorni fra due adesivi",
+     "href": "leggere-il-calendario-una-settimana-dopo"
+    },
+    {
+     "label": "Leggere il calendario: quattro domande sui giorni della settimana",
+     "href": "leggere-il-calendario-i-giorni-della-settimana"
+    },
+    {
+     "label": "Scrivi guardando l'immagine: tre inizi di frase già stampati",
+     "href": "scrivi-guardando-l-immagine-inizi-di-frase"
+    },
+    {
+     "label": "Scrivi guardando l'immagine con parole tue: sei righe tutte vuote",
+     "href": "scrivi-guardando-l-immagine-con-parole-tue"
+    }
+   ],
+   "title": "Leggere il calendario: quattro domande – Classe seconda PDF gratis",
+   "metaDescription": "Scheda per leggere il calendario in classe seconda: un mese da lunedì a domenica con due adesivi e quattro domande di lettura diretta. PDF gratis."
+  },
+  {
+   "slug": "leggere-il-calendario-una-settimana-dopo",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "calendar",
+    "mode": null,
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda leggere il calendario · una settimana dopo",
+   "h1": "Leggere il calendario: una settimana dopo e i giorni fra due adesivi",
+   "strand": "Misure",
+   "slotTokens": [
+    "il-calendario",
+    "classe-seconda"
+   ],
+   "p1": "Cinque domande su un mese pieno, con tre figure incollate su tre date diverse. Le prime tre si leggono direttamente nella tabella: il giorno della settimana di una data, quante volte compare un certo giorno, in quale data si trova il primo adesivo. Le ultime due chiedono un calcolo: che data è una settimana dopo una data indicata e quanti giorni passano fra il primo e l'ultimo adesivo. Le colonne vanno da lunedì a domenica e ogni domanda ha sotto il suo riquadro per la risposta.",
+   "p2": "Una settimana dopo si può trovare in due modi, contando sette caselle in avanti oppure scendendo di una riga nella stessa colonna, ed è il secondo motivo per cui la settimana si legge bene proprio su un calendario. La domanda sugli adesivi chiede invece una differenza fra due date, che spesso attraversa più righe. Sono le due domande che trasformano la tabella da elenco a strumento per misurare il tempo. Le Indicazioni nazionali chiedono di misurare grandezze, il tempo compreso, e di risolvere problemi con le unità di misura. Chi corregge confronta i due metodi: chi conta le caselle una a una si ferma spesso a sei, chi usa la colonna arriva sempre a sette.",
+   "p3": "Il PDF si stampa gratis. È la versione più impegnativa della famiglia e conviene dopo che la lettura diretta della tabella è sicura. Se il mese occupa sei righe, la domanda sui giorni fra i due adesivi diventa la più lunga della pagina e vale la pena lasciarla per ultima. La versione con quattro domande resta sulla sola lettura, quella sui giorni della settimana lavora soltanto sui nomi dei giorni. Dopo, la scheda per leggere l'ora porta la misura del tempo dentro la giornata.",
+   "canonicalDeckSlug": "il-calendario-g2297",
+   "carousel": [
+    {
+     "label": "Leggere il calendario: quattro domande e le caselle grandi",
+     "href": "leggere-il-calendario-quattro-domande"
+    },
+    {
+     "label": "Leggere il calendario: quattro domande sui giorni della settimana",
+     "href": "leggere-il-calendario-i-giorni-della-settimana"
+    },
+    {
+     "label": "Scrivi guardando l'immagine: tre inizi di frase già stampati",
+     "href": "scrivi-guardando-l-immagine-inizi-di-frase"
+    },
+    {
+     "label": "Scrivi guardando l'immagine con parole tue: sei righe tutte vuote",
+     "href": "scrivi-guardando-l-immagine-con-parole-tue"
+    }
+   ],
+   "title": "Leggere il calendario: una settimana dopo – Classe seconda PDF gratis",
+   "metaDescription": "Scheda per leggere il calendario in classe seconda: cinque domande su un mese pieno, con la data di una settimana dopo e i giorni fra due adesivi. PDF gratis."
+  },
+  {
+   "slug": "leggere-il-calendario-i-giorni-della-settimana",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "calendar",
+    "mode": null,
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda leggere il calendario · i giorni della settimana",
+   "h1": "Leggere il calendario: quattro domande sui giorni della settimana",
+   "strand": "Misure",
+   "slotTokens": [
+    "il-calendario",
+    "classe-seconda"
+   ],
+   "p1": "Tutte e quattro le domande di questa versione chiedono un giorno della settimana o quante volte compare: che giorno è una certa data, quanti giorni di un certo tipo ha il mese, che giorno della settimana è il primo del mese, che giorno è l'ultimo. Tre risposte su quattro sono parole, e infatti i riquadri sono larghi. Il calendario in alto ha le caselle alte e due figure incollate su due date, che qui restano una decorazione: nessuna domanda le riguarda.",
+   "p2": "Le colonne del calendario sono i giorni della settimana, quindi tutte le domande si risolvono muovendosi in verticale: si trova la casella e si sale in cima alla colonna, oppure si scorre una colonna dall'alto in basso contando. È una lettura diversa da quella per date e va allenata a parte, perché la risposta non è un numero ma un nome. Il primo e l'ultimo giorno del mese sono i due casi che cadono nelle righe incomplete, dove le caselle vuote possono ingannare. Le Indicazioni nazionali per la scuola primaria chiedono di orientarsi nel tempo e di usare gli strumenti che lo misurano. Chi corregge guarda anche l'ortografia: i nomi dei giorni si scrivono in minuscolo e mercoledì porta l'accento.",
+   "p3": "Il PDF si stampa gratis; i riquadri larghi bastano per scrivere mercoledì per esteso. Questa versione è utile subito dopo aver imparato i nomi dei giorni, anche prima di lavorare sulle date. La versione con quattro domande miste aggiunge la ricerca di un adesivo e il numero di giorni del mese, quella più difficile chiede la data di una settimana dopo. Il calendario appeso in classe permette di ripetere le stesse quattro domande ogni mese.",
+   "canonicalDeckSlug": "il-calendario-g2298",
+   "carousel": [
+    {
+     "label": "Leggere il calendario: quattro domande e le caselle grandi",
+     "href": "leggere-il-calendario-quattro-domande"
+    },
+    {
+     "label": "Leggere il calendario: una settimana dopo e i giorni fra due adesivi",
+     "href": "leggere-il-calendario-una-settimana-dopo"
+    },
+    {
+     "label": "Scrivi guardando l'immagine: tre inizi di frase già stampati",
+     "href": "scrivi-guardando-l-immagine-inizi-di-frase"
+    },
+    {
+     "label": "Scrivi guardando l'immagine con parole tue: sei righe tutte vuote",
+     "href": "scrivi-guardando-l-immagine-con-parole-tue"
+    }
+   ],
+   "title": "Il calendario: i giorni della settimana – Classe seconda PDF gratis",
+   "metaDescription": "Scheda per leggere il calendario in classe seconda: quattro domande sui giorni della settimana, dal giorno di una data al primo e all'ultimo del mese. PDF gratis."
+  },
+  {
+   "slug": "scrivi-guardando-l-immagine-inizi-di-frase",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-writing",
+    "mode": null,
+    "theme": "animals",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda di produzione scritta · con gli inizi di frase",
+   "h1": "Scrivi guardando l'immagine: tre inizi di frase già stampati",
+   "strand": "Scrittura",
+   "standard": "W.2.2",
+   "slotTokens": [
+    "produzione-scritta",
+    "animali",
+    "classe-seconda"
+   ],
+   "p1": "La scena in alto raccoglie cinque animali su uno sfondo chiaro, uno grande in primo piano e gli altri più piccoli dietro, con una figura ripetuta perché ci sia qualcosa da contare. Sotto, la scatola delle parole con quattro tessere illustrate dà il nome esatto di ciascun animale. Poi quattro righe di scrittura: le prime tre cominciano già, stampate in grigio chiaro, con Io vedo, Nell'immagine vedo e Mi piace; l'ultima è vuota. L'alunno completa i tre inizi e aggiunge una frase sua.",
+   "p2": "Gli inizi di frase stampati fanno due cose: tolgono il momento più difficile, cioè la prima parola, e impongono una struttura descrittiva, perché tutti e tre chiedono che cosa c'è nell'immagine. La scatola delle parole toglie il problema dell'ortografia dei nomi degli animali e lascia l'energia per la frase. La quarta riga senza appoggio è la più importante, perché è lì che si vede se il modello è stato capito. Le Indicazioni nazionali per la classe seconda chiedono di produrre semplici testi legati a immagini ed esperienze, rispettando le convenzioni ortografiche. Chi corregge guarda se ogni riga finisce con il punto e se le parole copiate dalla scatola sono scritte giuste.",
+   "p3": "Il PDF si stampa gratis; le righe hanno l'altezza giusta per una mano di classe seconda. È la versione guidata della famiglia. La sorella senza inizi di frase ha sei righe libere, sei parole nella scatola e una scena più affollata, e chiede di raccontare invece di descrivere. Chi scrive ancora una frase alla volta può fermarsi alle tre righe con l'inizio stampato e lasciare la quarta per un altro giorno.",
+   "canonicalDeckSlug": "produzione-scritta-animali-g2299",
+   "carousel": [
+    {
+     "label": "Scrivi guardando l'immagine con parole tue: sei righe tutte vuote",
+     "href": "scrivi-guardando-l-immagine-con-parole-tue"
+    },
+    {
+     "label": "Coordinate sulla griglia 6×6: trentasei caselle e la prima pixel art",
+     "href": "coordinate-sulla-griglia-6x6"
+    },
+    {
+     "label": "Coordinate sulla griglia 10×10: cento caselle e le sigle a due cifre",
+     "href": "coordinate-sulla-griglia-10x10"
+    },
+    {
+     "label": "Problemi di moltiplicazione: due storie con i gruppi uguali già disegnati",
+     "href": "problemi-di-moltiplicazione-classe-terza"
+    }
+   ],
+   "title": "Scrivi guardando l'immagine: inizi di frase – Classe seconda PDF gratis",
+   "metaDescription": "Scheda di produzione scritta per la classe seconda: una scena con gli animali, quattro parole illustrate e tre inizi di frase già stampati. PDF gratis."
+  },
+  {
+   "slug": "scrivi-guardando-l-immagine-con-parole-tue",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-writing",
+    "mode": null,
+    "theme": "fruits",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda di produzione scritta · testo libero",
+   "h1": "Scrivi guardando l'immagine con parole tue: sei righe tutte vuote",
+   "strand": "Scrittura",
+   "standard": "W.2.3",
+   "slotTokens": [
+    "produzione-scritta",
+    "frutta",
+    "classe-seconda"
+   ],
+   "p1": "Nessun inizio di frase: le sei righe di questa versione sono tutte vuote. In alto una scena con sette frutti, uno grande davanti e gli altri disposti dietro, e sotto la scatola delle parole con sei tessere illustrate, una per ogni frutto della scena. L'alunno decide da solo come cominciare, che cosa raccontare e dove fermarsi. Le parole della scatola servono solo come garanzia ortografica: quale usare e in quale ordine lo sceglie chi scrive.",
+   "p2": "Passare da un testo guidato a un testo libero è il salto vero della produzione scritta, e succede tutto nella prima riga. Senza un attacco stampato in grigio bisogna decidere se si descrive o si racconta, e la scena, con un frutto in primo piano e gli altri sullo sfondo, lascia aperte entrambe le strade. Sei righe sono abbastanza per un testo breve con un inizio e una fine, e poche abbastanza da non spaventare. Le Indicazioni nazionali per la classe seconda chiedono di produrre testi narrativi e descrittivi legati a esperienze e a immagini. Chi corregge legge se c'è un filo fra la prima e l'ultima riga, oltre alle maiuscole e ai punti.",
+   "p3": "Il PDF si stampa gratis. È la versione più libera della famiglia e conviene quando gli inizi di frase non servono più. Chi si blocca può usare la scatola delle parole come scaletta, mettendo le sei parole in ordine prima di scrivere. La sorella con gli inizi di frase stampa tre attacchi descrittivi e lascia una sola riga libera. Dopo, la scheda maiuscole e punteggiatura fa rivedere le stesse convenzioni su frasi scritte da altri.",
+   "canonicalDeckSlug": "produzione-scritta-frutta-g2300",
+   "carousel": [
+    {
+     "label": "Scrivi guardando l'immagine: tre inizi di frase già stampati",
+     "href": "scrivi-guardando-l-immagine-inizi-di-frase"
+    },
+    {
+     "label": "Coordinate sulla griglia 6×6: trentasei caselle e la prima pixel art",
+     "href": "coordinate-sulla-griglia-6x6"
+    },
+    {
+     "label": "Coordinate sulla griglia 10×10: cento caselle e le sigle a due cifre",
+     "href": "coordinate-sulla-griglia-10x10"
+    },
+    {
+     "label": "Problemi di moltiplicazione: due storie con i gruppi uguali già disegnati",
+     "href": "problemi-di-moltiplicazione-classe-terza"
+    }
+   ],
+   "title": "Scrivi guardando l'immagine con parole tue – Classe seconda PDF gratis",
+   "metaDescription": "Scheda di produzione scritta per la classe seconda: una scena con la frutta, sei parole illustrate e sei righe libere, senza inizi di frase. PDF gratis."
+  },
+  {
+   "slug": "coordinate-sulla-griglia-6x6",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "grid-coordinates",
+    "mode": null,
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda coordinate sulla griglia · 6×6",
+   "h1": "Coordinate sulla griglia 6×6: trentasei caselle e la prima pixel art",
+   "strand": "Spazio e figure",
+   "slotTokens": [
+    "coordinate-sulla-griglia",
+    "classe-seconda"
+   ],
+   "p1": "La griglia di questa versione è di sei per sei: le lettere da A a F in alto, i numeri da 1 a 6 lungo il lato sinistro e tutte le caselle vuote. Accanto, un piccolo esempio di tre per tre mostra che cosa vuol dire B2, con la casella colorata al posto giusto e la sigla scritta sotto. In fondo alla pagina la legenda elenca le sigle divise per colore, un elenco lungo e uno cortissimo. L'alunno legge una sigla, trova la casella, la colora, e va avanti finché compare la figura.",
+   "p2": "Trentasei caselle sono poche abbastanza da poterle percorrere con lo sguardo e tante abbastanza da richiedere il metodo giusto: prima la lettera in alto, poi il numero a sinistra, e l'incrocio. Su una griglia piccola l'errore si vede subito, perché la figura è grande rispetto al reticolo e una casella fuori posto salta all'occhio. Le sigle nella legenda non sono in ordine, quindi ogni riga è una ricerca nuova e non il proseguimento della precedente. Le Indicazioni nazionali per la classe seconda chiedono di localizzare oggetti nello spazio e di eseguire percorsi su un reticolo. Chi corregge guarda la casella fuori figura: uno scambio di lettera sposta in orizzontale, uno scambio di numero sposta in verticale.",
+   "p3": "Il PDF si stampa gratis; bastano i pastelli dei colori indicati nella legenda. Conviene barrare ogni sigla appena la casella è colorata. È la versione d'ingresso della famiglia: la griglia da otto per otto allarga il reticolo e la figura, quella da dieci per dieci porta le sigle a due cifre nelle righe più basse. Dopo, la scheda leggere il calendario fa incrociare righe e colonne su una tabella di tipo diverso.",
+   "canonicalDeckSlug": "coordinate-sulla-griglia-g2302",
+   "carousel": [
+    {
+     "label": "Coordinate sulla griglia 10×10: cento caselle e le sigle a due cifre",
+     "href": "coordinate-sulla-griglia-10x10"
+    },
+    {
+     "label": "Problemi di moltiplicazione: due storie con i gruppi uguali già disegnati",
+     "href": "problemi-di-moltiplicazione-classe-terza"
+    },
+    {
+     "label": "Problemi di divisione per ripartizione: distribuire nei riquadri vuoti",
+     "href": "problemi-di-divisione-per-ripartizione"
+    },
+    {
+     "label": "Problemi di divisione per contenenza: cerchia i gruppi e contali",
+     "href": "problemi-di-divisione-per-contenenza"
+    }
+   ],
+   "title": "Coordinate sulla griglia 6×6 – Classe seconda da stampare PDF gratis",
+   "metaDescription": "Scheda di coordinate sulla griglia per la classe seconda: reticolo 6×6 con lettere e numeri, un esempio di B2 e le sigle da colorare per colore. PDF gratis."
+  },
+  {
+   "slug": "coordinate-sulla-griglia-10x10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "grid-coordinates",
+    "mode": null,
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda coordinate sulla griglia · 10×10",
+   "h1": "Coordinate sulla griglia 10×10: cento caselle e le sigle a due cifre",
+   "strand": "Spazio e figure",
+   "slotTokens": [
+    "coordinate-sulla-griglia",
+    "classe-seconda"
+   ],
+   "p1": "Cento caselle: le lettere arrivano fino alla J e i numeri fino al 10, quindi alcune sigle hanno due cifre, come D10 o C10. La griglia occupa quasi tutta la larghezza della pagina e le caselle sono più piccole. A destra resta il piccolo esempio con B2, che spiega la notazione senza bisogno di una frase. Sotto, la legenda divide le sigle per colore in due elenchi, uno molto lungo e uno breve. La figura che compare è più fitta e più riconoscibile di quelle delle griglie corte.",
+   "p2": "Con dieci colonne la lettera giusta non si trova più a colpo d'occhio e bisogna scorrere l'intestazione con il dito: è esattamente la difficoltà che questa versione aggiunge. Le sigle a due cifre chiedono attenzione in più, perché D1 e D10 stanno nella stessa colonna ma agli estremi opposti. La lista è lunga, quindi il metodo conta più della velocità e barrare le sigle già fatte diventa quasi indispensabile. Le Indicazioni nazionali per la classe seconda chiedono di eseguire percorsi e localizzazioni su un reticolo usando termini adeguati. Chi corregge guarda se gli errori sono sparsi o allineati: errori allineati su una colonna indicano una lettera letta male fin dall'inizio.",
+   "p3": "Il PDF si stampa gratis; con caselle così piccole conviene una matita colorata ben appuntita e non un pennarello. È la versione più lunga della famiglia e regge bene come lavoro autonomo di venti minuti. La griglia da sei per sei ha le stesse regole su un reticolo che si abbraccia con lo sguardo, quella da otto per otto sta nel mezzo. La scheda riproduci il disegno sui quadretti allena la stessa lettura per righe e colonne senza usare le coordinate.",
+   "canonicalDeckSlug": "coordinate-sulla-griglia-g2303",
+   "carousel": [
+    {
+     "label": "Coordinate sulla griglia 6×6: trentasei caselle e la prima pixel art",
+     "href": "coordinate-sulla-griglia-6x6"
+    },
+    {
+     "label": "Problemi di moltiplicazione: due storie con i gruppi uguali già disegnati",
+     "href": "problemi-di-moltiplicazione-classe-terza"
+    },
+    {
+     "label": "Problemi di divisione per ripartizione: distribuire nei riquadri vuoti",
+     "href": "problemi-di-divisione-per-ripartizione"
+    },
+    {
+     "label": "Problemi di divisione per contenenza: cerchia i gruppi e contali",
+     "href": "problemi-di-divisione-per-contenenza"
+    }
+   ],
+   "title": "Coordinate sulla griglia 10×10 – Classe seconda da stampare PDF gratis",
+   "metaDescription": "Scheda di coordinate sulla griglia per la classe seconda: reticolo 10×10 con le lettere fino alla J, sigle come D10 e una figura più fitta da colorare. PDF gratis."
+  },
+  {
+   "slug": "problemi-di-moltiplicazione-classe-terza",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "animals",
+    "level": "classe-terza"
+   },
+   "eyebrow": "Scheda di problemi · moltiplicazione",
+   "h1": "Problemi di moltiplicazione: due storie con i gruppi uguali già disegnati",
+   "strand": "Numeri",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "problemi-con-addizioni-e-sottrazioni",
+    "animali",
+    "classe-terza"
+   ],
+   "p1": "Due problemi di sola moltiplicazione, uno sotto l'altro, con gli animali. In ciascuno un bambino sistema alcune file o alcuni gruppi con lo stesso numero di animali dentro, e la domanda chiede il totale. Il disegno sotto la storia la ripete: tanti riquadri quante sono le file, e in ogni riquadro lo stesso numero di animali, così i gruppi uguali si vedono prima di essere calcolati. Poi ci sono il pannello a puntini per i conti, il riquadro del risultato e una riga per completare la frase di risposta. I totali restano entro il venti.",
+   "p2": "La moltiplicazione nasce come addizione ripetuta, e il disegno a riquadri è la sua immagine più onesta: si può contare tutto uno a uno, si possono sommare le file, oppure si può moltiplicare, e le tre strade danno lo stesso numero. Tenere i totali entro il venti permette il controllo per conteggio anche a chi non sa ancora tutte le tabelline, quindi il problema resta risolvibile mentre la strategia migliora. Le Indicazioni nazionali per la classe terza chiedono di risolvere problemi con la moltiplicazione e la divisione e di rappresentarli con schemi. Chi corregge legge la frase di risposta: un risultato giusto con la parola sbagliata dice che la domanda non è stata riletta.",
+   "p3": "Il PDF si stampa gratis. È la versione d'ingresso della raccolta: solo moltiplicazioni, numeri piccoli, due storie. Le sorelle passano alla divisione, prima per ripartizione, con i riquadri vuoti in cui distribuire, poi per contenenza, dove i gruppi vanno cerchiati nel disegno. La versione mista mette insieme le due direzioni sulla stessa pagina. Quando i due problemi escono con la frase di risposta completa, la scheda delle tabelline dà scioltezza ai prodotti che qui compaiono.",
+   "canonicalDeckSlug": "problemi-con-addizioni-e-sottrazioni-animali-g3371",
+   "carousel": [
+    {
+     "label": "Problemi di divisione per ripartizione: distribuire nei riquadri vuoti",
+     "href": "problemi-di-divisione-per-ripartizione"
+    },
+    {
+     "label": "Problemi di divisione per contenenza: cerchia i gruppi e contali",
+     "href": "problemi-di-divisione-per-contenenza"
+    },
+    {
+     "label": "Problemi di divisione nei due modi: distribuire e raggruppare a confronto",
+     "href": "problemi-di-divisione-i-due-modi"
+    },
+    {
+     "label": "Problemi per moltiplicare e raggruppare: costruire i gruppi e poi smontarli",
+     "href": "problemi-moltiplicare-e-raggruppare"
+    }
+   ],
+   "title": "Problemi di moltiplicazione – Classe terza da stampare PDF gratis",
+   "metaDescription": "Scheda di problemi di moltiplicazione per la classe terza: due storie con gli animali, i gruppi uguali disegnati, il riquadro e la frase di risposta. PDF gratis."
+  },
+  {
+   "slug": "problemi-di-divisione-per-ripartizione",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "classe-terza"
+   },
+   "eyebrow": "Scheda di problemi · divisione per ripartizione",
+   "h1": "Problemi di divisione per ripartizione: distribuire nei riquadri vuoti",
+   "strand": "Numeri",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "problemi-con-addizioni-e-sottrazioni",
+    "frutta",
+    "classe-terza"
+   ],
+   "p1": "Due problemi di divisione, tutti e due per ripartizione: un certo numero di frutti va diviso in parti uguali fra alcuni amici, alcune scatole o alcuni gruppi, e la domanda chiede quanti ne tocchino a ciascuno. Il disegno mostra tutti i frutti in fila, sciolti, e sotto tanti riquadri tratteggiati vuoti quanti sono i gruppi. L'alunno li distribuisce, un segno per volta, finché la fila si esaurisce. Poi ci sono il pannello a puntini, il riquadro del risultato e la riga per la frase di risposta.",
+   "p2": "Distribuire è il gesto che dà senso alla divisione prima del simbolo: si conoscono il totale e il numero delle parti, e si cerca quanto contiene ciascuna parte. I riquadri vuoti non sono un abbellimento, sono lo spazio in cui la divisione avviene davvero, e chi disegna un segno per ogni frutto arriva alla risposta anche senza sapere la tabellina. La distribuzione a giro, uno per scatola e poi si ricomincia, è la strategia che conviene mostrare per prima. Le Indicazioni nazionali per la classe terza chiedono di risolvere problemi con la divisione e di rappresentarli con disegni e schemi. Chi corregge conta i segni dentro i riquadri: devono essere in numero uguale, e in totale quanti i frutti della fila.",
+   "p3": "Il PDF si stampa gratis; i riquadri sono abbastanza grandi da disegnarci dentro senza fatica. Questa versione isola la ripartizione, cioè uno solo dei due significati della divisione. La sorella per contenenza chiede invece quanti gruppi si formano, e il suo disegno non ha riquadri: i gruppi vanno cerchiati. La versione con i due modi le mette una accanto all'altra sulla stessa pagina, ed è il passo successivo naturale quando la distribuzione è sicura.",
+   "canonicalDeckSlug": "problemi-con-addizioni-e-sottrazioni-frutta-g3372",
+   "carousel": [
+    {
+     "label": "Problemi di moltiplicazione: due storie con i gruppi uguali già disegnati",
+     "href": "problemi-di-moltiplicazione-classe-terza"
+    },
+    {
+     "label": "Problemi di divisione per contenenza: cerchia i gruppi e contali",
+     "href": "problemi-di-divisione-per-contenenza"
+    },
+    {
+     "label": "Problemi di divisione nei due modi: distribuire e raggruppare a confronto",
+     "href": "problemi-di-divisione-i-due-modi"
+    },
+    {
+     "label": "Problemi per moltiplicare e raggruppare: costruire i gruppi e poi smontarli",
+     "href": "problemi-moltiplicare-e-raggruppare"
+    }
+   ],
+   "title": "Problemi di divisione per ripartizione – Classe terza PDF gratis",
+   "metaDescription": "Scheda di problemi di divisione per la classe terza: due storie con la frutta da dividere in parti uguali, con i riquadri vuoti in cui distribuire. PDF gratis."
+  },
+  {
+   "slug": "problemi-di-divisione-per-contenenza",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "toys",
+    "level": "classe-terza"
+   },
+   "eyebrow": "Scheda di problemi · divisione per contenenza",
+   "h1": "Problemi di divisione per contenenza: cerchia i gruppi e contali",
+   "strand": "Numeri",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "problemi-con-addizioni-e-sottrazioni",
+    "giocattoli",
+    "classe-terza"
+   ],
+   "p1": "In questi due problemi il numero dei gruppi non è dato: si sa quanti giocattoli ci sono in tutto e quanti ne vanno in ogni gruppo, e bisogna dire quanti gruppi vengono. Il disegno mostra una sola fila di giocattoli, senza riquadri: è l'alunno che con la matita cerchia i gruppi della dimensione richiesta e poi conta quanti cerchi ha fatto. Sotto ci sono il pannello a puntini, il riquadro del risultato e la riga per completare la frase di risposta. I totali restano entro il venti.",
+   "p2": "È l'altro significato della divisione, quello di contenenza: quante volte una quantità sta dentro un'altra. La differenza rispetto alla ripartizione non sta nel calcolo, che è lo stesso, ma nella domanda, e i bambini che hanno imparato solo a distribuire qui si fermano. L'assenza dei riquadri è voluta: nessuno può sapere in anticipo quanti gruppi verranno, perché è proprio quello il risultato cercato. Le Indicazioni nazionali per la classe terza chiedono di risolvere problemi con la divisione riconoscendone i diversi significati. Chi corregge guarda i cerchi disegnati: se l'ultimo contiene meno pezzi degli altri, il conteggio della fila è andato storto.",
+   "p3": "Il PDF si stampa gratis. Conviene proporla dopo la versione per ripartizione, così i due significati arrivano in ordine e si possono confrontare. Chi cerchia con difficoltà può contare i pezzi a gruppi ad alta voce, due, quattro, sei, alzando un dito per ogni gruppo. La versione con i due modi mette una storia per ciascun significato sulla stessa pagina, quella mista aggiunge anche la moltiplicazione.",
+   "canonicalDeckSlug": "problemi-con-addizioni-e-sottrazioni-giocattoli-g3373",
+   "carousel": [
+    {
+     "label": "Problemi di moltiplicazione: due storie con i gruppi uguali già disegnati",
+     "href": "problemi-di-moltiplicazione-classe-terza"
+    },
+    {
+     "label": "Problemi di divisione per ripartizione: distribuire nei riquadri vuoti",
+     "href": "problemi-di-divisione-per-ripartizione"
+    },
+    {
+     "label": "Problemi di divisione nei due modi: distribuire e raggruppare a confronto",
+     "href": "problemi-di-divisione-i-due-modi"
+    },
+    {
+     "label": "Problemi per moltiplicare e raggruppare: costruire i gruppi e poi smontarli",
+     "href": "problemi-moltiplicare-e-raggruppare"
+    }
+   ],
+   "title": "Problemi di divisione per contenenza – Classe terza PDF gratis",
+   "metaDescription": "Scheda di problemi di divisione per la classe terza: due storie con i giocattoli in cui si cerchiano i gruppi uguali per scoprire quanti sono. PDF gratis."
+  },
+  {
+   "slug": "problemi-di-divisione-i-due-modi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "classe-terza"
+   },
+   "eyebrow": "Scheda di problemi · le due divisioni",
+   "h1": "Problemi di divisione nei due modi: distribuire e raggruppare a confronto",
+   "strand": "Numeri",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "problemi-con-addizioni-e-sottrazioni",
+    "frutta",
+    "classe-terza"
+   ],
+   "p1": "Una pagina, due problemi, due divisioni diverse. Nel primo un certo numero di frutti viene diviso in parti uguali fra alcuni gruppi e si chiede quanti ne tocchino a ciascuno: sotto la storia ci sono la fila dei frutti e i riquadri tratteggiati vuoti in cui distribuirli. Nel secondo si sa quanti frutti stanno in ogni fila e si chiede quante file vengano: qui il disegno è una fila sola, senza riquadri, da cerchiare a gruppi. Entrambi hanno il pannello a puntini, il riquadro del risultato e la riga della frase di risposta.",
+   "p2": "Mettere le due domande sulla stessa pagina è il modo più rapido per far vedere che la divisione ha due facce. Il calcolo può essere identico, dodici diviso tre, ma la domanda no: nel primo caso si cerca la dimensione delle parti, nel secondo il numero delle parti. Il disegno lo dice prima delle parole, perché dove ci sono i riquadri vuoti si distribuisce e dove non ci sono si cerchia. Le Indicazioni nazionali per la classe terza chiedono di riconoscere i diversi significati delle operazioni e di risolvere problemi rappresentandoli. Chi corregge chiede a voce che cosa si stava cercando: la risposta a questa domanda vale più del numero scritto nel riquadro.",
+   "p3": "Il PDF si stampa gratis. È la versione da usare quando ripartizione e contenenza sono già state incontrate separatamente e vanno confrontate. Le sorelle isolano ciascuna un solo significato, con due problemi dello stesso tipo. La versione con moltiplicazione e raggruppamento affianca invece l'operazione diretta a quella inversa, e i tre problemi misti chiedono di riconoscere il tipo prima ancora di calcolare.",
+   "canonicalDeckSlug": "problemi-con-addizioni-e-sottrazioni-frutta-g3374",
+   "carousel": [
+    {
+     "label": "Problemi di moltiplicazione: due storie con i gruppi uguali già disegnati",
+     "href": "problemi-di-moltiplicazione-classe-terza"
+    },
+    {
+     "label": "Problemi di divisione per ripartizione: distribuire nei riquadri vuoti",
+     "href": "problemi-di-divisione-per-ripartizione"
+    },
+    {
+     "label": "Problemi di divisione per contenenza: cerchia i gruppi e contali",
+     "href": "problemi-di-divisione-per-contenenza"
+    },
+    {
+     "label": "Problemi per moltiplicare e raggruppare: costruire i gruppi e poi smontarli",
+     "href": "problemi-moltiplicare-e-raggruppare"
+    }
+   ],
+   "title": "Problemi di divisione: i due modi – Classe terza PDF gratis",
+   "metaDescription": "Scheda di problemi di divisione per la classe terza: due storie con la frutta, una da distribuire nei riquadri e una da cerchiare a gruppi. PDF gratis."
+  },
+  {
+   "slug": "problemi-moltiplicare-e-raggruppare",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "animals",
+    "level": "classe-terza"
+   },
+   "eyebrow": "Scheda di problemi · moltiplicare e raggruppare",
+   "h1": "Problemi per moltiplicare e raggruppare: costruire i gruppi e poi smontarli",
+   "strand": "Numeri",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "problemi-con-addizioni-e-sottrazioni",
+    "animali",
+    "classe-terza"
+   ],
+   "p1": "I due problemi di questa pagina vanno in direzioni opposte. Il primo costruisce: alcune file di animali con lo stesso numero in ciascuna, e si chiede il totale; il disegno mostra i riquadri già pieni, uno per fila. Il secondo smonta: si sa quanti animali ci sono in tutto e quanti ne vanno in ogni gruppo, e si chiede quanti gruppi si formano; il disegno è una fila sola da cerchiare. Sotto ciascuna storia ci sono il pannello a puntini, il riquadro del risultato e la riga per la frase di risposta.",
+   "p2": "La moltiplicazione e la divisione per contenenza sono la stessa relazione letta nei due versi, e su una pagina sola la cosa si vede: nel primo problema si conoscono i gruppi e si cerca il totale, nel secondo si conosce il totale e si cerca il numero dei gruppi. Anche il disegno segue questa logica, riquadri già formati contro fila ancora da raggruppare. È l'accostamento che prepara a usare la moltiplicazione per controllare una divisione. Le Indicazioni nazionali per la classe terza chiedono di riconoscere il rapporto fra moltiplicazione e divisione e di risolvere problemi con entrambe. Chi corregge propone la verifica al contrario: il numero dei gruppi per quanti ce ne sono in ognuno deve ridare il totale.",
+   "p3": "Il PDF si stampa gratis; i numeri restano entro il venti, così la verifica si può fare anche contando. Questa versione ha senso dopo che la moltiplicazione è sicura e la contenenza è stata incontrata almeno una volta. La versione con i due modi mette invece a confronto le due divisioni, quella di sola moltiplicazione resta il passo indietro, e i tre problemi misti chiedono di scegliere fra tutte le possibilità.",
+   "canonicalDeckSlug": "problemi-con-addizioni-e-sottrazioni-animali-g3375",
+   "carousel": [
+    {
+     "label": "Problemi di moltiplicazione: due storie con i gruppi uguali già disegnati",
+     "href": "problemi-di-moltiplicazione-classe-terza"
+    },
+    {
+     "label": "Problemi di divisione per ripartizione: distribuire nei riquadri vuoti",
+     "href": "problemi-di-divisione-per-ripartizione"
+    },
+    {
+     "label": "Problemi di divisione per contenenza: cerchia i gruppi e contali",
+     "href": "problemi-di-divisione-per-contenenza"
+    },
+    {
+     "label": "Problemi di divisione nei due modi: distribuire e raggruppare a confronto",
+     "href": "problemi-di-divisione-i-due-modi"
+    }
+   ],
+   "title": "Problemi: moltiplicare e raggruppare – Classe terza PDF gratis",
+   "metaDescription": "Scheda di problemi per la classe terza: due storie con gli animali, una moltiplicazione con le file disegnate e una divisione con i gruppi da cerchiare. PDF gratis."
+  },
+  {
+   "slug": "tre-problemi-misti-per-e-diviso",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "toys",
+    "level": "classe-terza"
+   },
+   "eyebrow": "Scheda di problemi · tre tipi in una pagina",
+   "h1": "Tre problemi misti: moltiplicazione, ripartizione e contenenza insieme",
+   "strand": "Numeri",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "problemi-con-addizioni-e-sottrazioni",
+    "giocattoli",
+    "classe-terza"
+   ],
+   "p1": "Tre problemi in una pagina, uno per ogni tipo: una moltiplicazione con le file di giocattoli già disegnate nei riquadri, una divisione per ripartizione con la fila di pezzi e i riquadri vuoti sotto, una divisione per contenenza con una fila sola da cerchiare. Le carte sono più compatte che nelle altre versioni e i risultati arrivano fino a trentasei. Ogni problema ha il suo pannello a puntini, il riquadro del risultato e la riga per completare la frase di risposta.",
+   "p2": "Quando i tipi di problema sono mescolati, la prima operazione da fare non è un calcolo ma una decisione: che cosa si conosce e che cosa si cerca. Il disegno resta l'indizio più affidabile, perché i riquadri pieni, i riquadri vuoti e la fila nuda corrispondono ai tre casi. Con i risultati fino a trentasei il conteggio uno a uno diventa scomodo, e le tabelline cominciano a convenire davvero. Le Indicazioni nazionali per la classe terza chiedono di risolvere problemi con le quattro operazioni riconoscendo la situazione; questa pagina è la forma breve di quella richiesta. Chi corregge guarda l'operazione scritta nel pannello: un risultato giusto ottenuto contando i disegni non dice ancora se il tipo è stato riconosciuto.",
+   "p3": "Il PDF si stampa gratis; le tre carte stanno in una pagina sola, quindi conviene una stampa a piena pagina e non ridotta. È la versione conclusiva della raccolta e funziona bene anche come verifica. Le sorelle isolano un tipo alla volta, la sola moltiplicazione, la sola ripartizione, la sola contenenza, oppure mettono a confronto le due divisioni. Dopo, i problemi con i soldi della classe seconda restano un ripasso di addizioni e sottrazioni dentro storie brevi.",
+   "canonicalDeckSlug": "problemi-con-addizioni-e-sottrazioni-giocattoli-g3376",
+   "carousel": [
+    {
+     "label": "Problemi di moltiplicazione: due storie con i gruppi uguali già disegnati",
+     "href": "problemi-di-moltiplicazione-classe-terza"
+    },
+    {
+     "label": "Problemi di divisione per ripartizione: distribuire nei riquadri vuoti",
+     "href": "problemi-di-divisione-per-ripartizione"
+    },
+    {
+     "label": "Problemi di divisione per contenenza: cerchia i gruppi e contali",
+     "href": "problemi-di-divisione-per-contenenza"
+    },
+    {
+     "label": "Problemi di divisione nei due modi: distribuire e raggruppare a confronto",
+     "href": "problemi-di-divisione-i-due-modi"
+    }
+   ],
+   "title": "Tre problemi misti di moltiplicazione e divisione – Classe terza PDF gratis",
+   "metaDescription": "Scheda di problemi per la classe terza: tre storie con i giocattoli, una per ogni tipo, con i risultati fino a trentasei e la frase di risposta. PDF gratis."
   }
  ]
 }

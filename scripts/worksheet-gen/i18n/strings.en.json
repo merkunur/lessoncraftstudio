@@ -1720,8 +1720,8 @@
     "instruction": "Look at the month. Answer each question by reading the calendar."
   },
   "G2-297": {
-    "title": "Read the Calendar: A Busy Month",
-    "instruction": "This month is full. Read the calendar carefully to answer every question."
+    "title": "Read the Calendar: A Week Later",
+    "instruction": "Find the date one week later, and count the days between the stickers."
   },
   "G2-298": {
     "title": "Read the Calendar: Days of the Week",

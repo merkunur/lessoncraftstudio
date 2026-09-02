@@ -177923,6 +177923,854 @@
    ],
    "title": "First Lowercase Letters a b c d | Free Printable Tracing PDF",
    "metaDescription": "Large lowercase tracing worksheet: just four letters, a to d, at extra size on three-line paper for a first handwriting lesson. Free printable PDF."
+  },
+  {
+   "slug": "trace-and-write-words-kindergarten",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-tracing",
+    "mode": null,
+    "theme": "animals",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Word Tracing Worksheet",
+   "h1": "Trace and Write Words: Animal Names on Handwriting Lines",
+   "strand": "Reading: Foundational Skills",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "word-tracing",
+    "animals",
+    "kindergarten"
+   ],
+   "p1": "This Kindergarten trace and write words worksheet puts four animals down the left edge of the page — a vulture, an owl, a wolf, a horse — and beside each one a block of three handwriting lines. The top line shows the animal name in solid teal print, the middle line repeats it in dashed letters for tracing, and the bottom line is empty. The child says the picture word aloud, traces the dashed copy, then writes the whole word from the model on the empty line. Four animals, four words, twelve lines.",
+   "p2": "The page keeps the word whole. A child who has been forming single letters now has to string them together in the right order and at the right size, with real spacing between them, on real lines. Having the solid model directly above the dashed copy means the eye can check against a correct version at every stroke, and the dashed letters carry the shape while the hand learns it. What a teacher watches for here is not speed but whether the traced word and the written word look like each other — same letter heights, same left-to-right flow, no dropped letters. Saying the word first ties the letter string to a name the child already knows.",
+   "p3": "Print the PDF free and hand it out with a sharpened pencil rather than a marker, so the dashed lines stay visible under the child's strokes. The easier version uses three short animal names of three to five letters, owl and wolf rather than vulture, on taller lines; the harder version drops the solid model and asks for two independent writes after one trace. Once the child copies animal words comfortably, the write the word page removes the model altogether and asks for spelling from the picture alone, and the singular and plural page adds an ending to words the child can already write.",
+   "canonicalDeckSlug": "word-tracing-animals-k284",
+   "carousel": [
+    {
+     "label": "Dot to Dot 1-20: Connect the Dots to Find the Hidden Picture",
+     "href": "dot-to-dot-1-20"
+    },
+    {
+     "label": "Copy the Grid Picture: Color the Same Squares on the Empty Grid",
+     "href": "copy-the-grid-picture"
+    },
+    {
+     "label": "Singular and Plural: One Fruit and Many Fruits",
+     "href": "singular-and-plural-kindergarten"
+    },
+    {
+     "label": "A or An? Circle the Right Word for Each Animal",
+     "href": "a-or-an-worksheet"
+    }
+   ],
+   "title": "Trace and Write Words for Kindergarten – Animals | Free Printable PDF",
+   "metaDescription": "Trace and write words worksheet: four animal pictures, each with a solid model word, a dashed copy to trace, and an empty line to write it alone. Free Kindergarten PDF."
+  },
+  {
+   "slug": "dot-to-dot-1-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "dot-to-dot",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Dot-to-Dot Worksheet",
+   "h1": "Dot to Dot 1-20: Connect the Dots to Find the Hidden Picture",
+   "strand": "Counting & Cardinality",
+   "standard": "K.CC.A.1",
+   "slotTokens": [
+    "dot-to-dot",
+    "kindergarten"
+   ],
+   "p1": "This Kindergarten dot to dot 1-20 worksheet hides one picture inside twenty numbered dots spread across a large cream panel. Only dot 1 is ringed in orange, so the child knows exactly where to place the pencil. From there the job is to draw a straight line to 2, then to 3, and on up to 20, at which point the outline closes and the hidden figure — a heart, a star, a rocket — is suddenly there on the page. Along the bottom runs a counting strip, 1 to 20 in little circles, that the child can touch to find the next number before hunting for it among the dots.",
+   "p2": "Connecting dots in order is counting made physical. The child has to know which number comes next, find it visually among nineteen others, and steer a pencil to it — three small tasks that reinforce each other, and the picture only appears when the counting sequence is right. A skipped number shows up immediately as a line cutting across the shape, which makes the page self-checking without any adult marking. A teacher watching the child work sees at once which stretch of the count is shaky; the teens are where the pencil usually pauses. The counting strip is there so the child can rehearse the sequence rather than guess it.",
+   "p3": "Print the PDF free and let the child color the finished picture; the reward for correct counting should be visible. The easier level numbers only the dots 1 to 10 and pre-prints the rest of the outline, so short counters still get a complete picture. The harder level starts the count at 11 and runs to 30, asking the child to count on from a number other than one. When the sequence to 20 is solid, the copy the grid picture page moves the same careful pencil work onto squares, and the number of the day page takes a single number apart.",
+   "canonicalDeckSlug": "dot-to-dot-k285",
+   "carousel": [
+    {
+     "label": "Copy the Grid Picture: Color the Same Squares on the Empty Grid",
+     "href": "copy-the-grid-picture"
+    },
+    {
+     "label": "Singular and Plural: One Fruit and Many Fruits",
+     "href": "singular-and-plural-kindergarten"
+    },
+    {
+     "label": "A or An? Circle the Right Word for Each Animal",
+     "href": "a-or-an-worksheet"
+    },
+    {
+     "label": "Read and Color: Read the Sentence, Color the Right Fruits",
+     "href": "read-and-color-1st-grade"
+    }
+   ],
+   "title": "Dot to Dot 1-20 for Kindergarten | Free Printable PDF",
+   "metaDescription": "Dot to dot 1-20 worksheet: start at the orange dot, join twenty numbered dots in counting order and a hidden picture appears. Free printable Kindergarten PDF."
+  },
+  {
+   "slug": "copy-the-grid-picture",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "grid-copy",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Grid Drawing Worksheet",
+   "h1": "Copy the Grid Picture: Color the Same Squares on the Empty Grid",
+   "strand": "Fine Motor & Visual-Spatial",
+   "slotTokens": [
+    "grid-copy",
+    "kindergarten"
+   ],
+   "p1": "This Kindergarten copy the grid picture worksheet shows two pixel pictures, one above the other. Each is a seven-by-seven grid on the left with some squares filled solid teal so that a simple figure appears — a duck, a boat, a flower — and an identical empty grid on the right. The child studies the filled grid, finds the matching square on the blank one by counting across and down, and colors it, square by square, until the picture has been copied exactly. There is no key and no hint: the picture on the left is the whole instruction.",
+   "p2": "Copying a grid picture trains the child to hold a position in two directions at once. To place a single square correctly the child has to count how far across it sits and how far down, then reproduce both counts on the other grid, and a mistake of one square in either direction is visible the moment the picture bends. That is the same row-and-column thinking that later underpins reading a table, a map, or a hundreds chart. Because both grids are the same size and sit side by side, the teacher can see at a glance whether the child is transferring squares one at a time or trying to draw the shape from memory, which is where errors creep in.",
+   "p3": "Print the PDF free and offer one colored pencil; a single color keeps the focus on position rather than on decorating. The easier version uses a six-by-six grid with fewer filled squares, and the harder version moves to eight-by-eight with letters along the top and numbers down the side of both grids, so the child can name each square before coloring it. That labeled grid is the direct lead-in to the grid coordinates page, where the child reads codes like B2 to build a picture, and the dot to dot page offers a different hidden-picture reveal with counting instead of copying.",
+   "canonicalDeckSlug": "grid-copy-k286",
+   "carousel": [
+    {
+     "label": "Singular and Plural: One Fruit and Many Fruits",
+     "href": "singular-and-plural-kindergarten"
+    },
+    {
+     "label": "A or An? Circle the Right Word for Each Animal",
+     "href": "a-or-an-worksheet"
+    },
+    {
+     "label": "Read and Color: Read the Sentence, Color the Right Fruits",
+     "href": "read-and-color-1st-grade"
+    },
+    {
+     "label": "Number of the Day: Show One Number Eight Ways",
+     "href": "number-of-the-day-1st-grade"
+    }
+   ],
+   "title": "Copy the Grid Picture Drawing for Kindergarten | Free Printable PDF",
+   "metaDescription": "Grid drawing worksheet: look at a pixel picture on the left and color the same squares on the empty grid to the right. Two 7×7 pictures per page. Free Kindergarten PDF."
+  },
+  {
+   "slug": "singular-and-plural-kindergarten",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "singular-plural",
+    "mode": null,
+    "theme": "fruits",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Singular and Plural Worksheet",
+   "h1": "Singular and Plural: One Fruit and Many Fruits",
+   "strand": "Language",
+   "standard": "L.K.1.c",
+   "slotTokens": [
+    "singular-plural",
+    "fruits",
+    "kindergarten"
+   ],
+   "p1": "This Kindergarten singular and plural worksheet works through four fruits, one per row. On the left of each row sits a single fruit — a lime, a kiwi, an avocado, a pear — with its word printed in solid letters underneath and a small badge showing the number 1. On the right the same fruit appears two or three times, tipped at slight angles as if rolled out of a bowl, with the plural word in dashed letters below and an empty line beneath that. The child reads the word for one, traces the word for many, then writes the plural once more without help. Two pills at the top of the page, 1 · one and 2 · 3 · many, keep the rule in view.",
+   "p2": "The page teaches one idea with no exceptions on it: when there is more than one, the word grows an ending. Every plural here is regular, so the child sees that limes is lime with an s and avocados is avocado with an s, and nothing else changes. Seeing the pictures multiply while only the end of the word changes makes the ending meaningful rather than arbitrary. The teacher is watching for the moment the child writes the plural on the empty line and remembers to add the s without looking back at the dashed model — that is the ending moving from tracing into use.",
+   "p3": "Print the PDF free and have the child say each pair aloud, one pear, three pears, before writing. The easier level has three rows and shorter words; the harder level keeps four rows but brings in longer fruit names and the second regular ending, es, on words like peaches. The trace and write words page is the natural warm-up if the child still needs a full model of every word, and the a or an page carries on with the small words that sit in front of a noun.",
+   "canonicalDeckSlug": "singular-plural-fruits-k287",
+   "carousel": [
+    {
+     "label": "A or An? Circle the Right Word for Each Animal",
+     "href": "a-or-an-worksheet"
+    },
+    {
+     "label": "Read and Color: Read the Sentence, Color the Right Fruits",
+     "href": "read-and-color-1st-grade"
+    },
+    {
+     "label": "Number of the Day: Show One Number Eight Ways",
+     "href": "number-of-the-day-1st-grade"
+    },
+    {
+     "label": "Write the Word: Spell Each Fruit from Its Picture",
+     "href": "write-the-word-picture-spelling"
+    }
+   ],
+   "title": "Singular and Plural for Kindergarten – Fruits | Free Printable PDF",
+   "metaDescription": "Singular and plural worksheet: read the word for one fruit, then trace the plural under two or three fruits and write it. Regular -s plurals. Free Kindergarten PDF."
+  },
+  {
+   "slug": "a-or-an-worksheet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "articles",
+    "mode": null,
+    "theme": "animals",
+    "level": "kindergarten"
+   },
+   "eyebrow": "A or An Worksheet",
+   "h1": "A or An? Circle the Right Word for Each Animal",
+   "strand": "Language",
+   "slotTokens": [
+    "articles",
+    "animals",
+    "kindergarten"
+   ],
+   "p1": "This Kindergarten a or an worksheet shows six large animal cards, two across and three down. Each card holds one big picture — an owl, an elephant, an iguana, a horse, a cat, a pig — and beneath it two white chips reading a and an. The child says the animal name out loud, listens to the sound it starts with, and circles the chip that belongs in front of it. There is nothing to write, and the answer is decided entirely by the ear: an owl, an elephant, a horse, a pig.",
+   "p2": "The rule for a and an is a sound rule, not a spelling rule, which is why the page insists on saying the word before choosing. Children who are read to every day already say an owl correctly in speech; the page makes that unconscious habit visible so it can be written later. Animals are a good place to practice because the vowel-sound names are common and distinct — owl, elephant, iguana, antelope, octopus — while horse, cat, pig, and wolf give the a side plenty of turns. The teacher listens for the child stretching the first sound, ohh-wl, before deciding; a child who circles without saying the word is guessing from the picture.",
+   "p3": "Print the PDF free and keep it as a quick oral warm-up rather than silent seat work, since the saying is the point. The easier version uses four cards, and the harder version spreads eight smaller cards across the page with at least three an answers mixed in. Once the child places a and an confidently in speech, the unscramble the sentence page puts those small words back into whole sentences, and the singular and plural page looks at the other end of the noun.",
+   "canonicalDeckSlug": "articles-animals-k288",
+   "carousel": [
+    {
+     "label": "Read and Color: Read the Sentence, Color the Right Fruits",
+     "href": "read-and-color-1st-grade"
+    },
+    {
+     "label": "Number of the Day: Show One Number Eight Ways",
+     "href": "number-of-the-day-1st-grade"
+    },
+    {
+     "label": "Write the Word: Spell Each Fruit from Its Picture",
+     "href": "write-the-word-picture-spelling"
+    },
+    {
+     "label": "ABC Order: Put Six Animal Words in Alphabetical Order",
+     "href": "abc-order-1st-grade"
+    }
+   ],
+   "title": "A or An Worksheet for Kindergarten – Animals | Free Printable PDF",
+   "metaDescription": "A or an worksheet: say the animal name aloud and circle the chip that goes in front of it, an owl but a horse. Six picture cards. Free printable Kindergarten PDF."
+  },
+  {
+   "slug": "read-and-color-1st-grade",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "read-and-color",
+    "mode": null,
+    "theme": "fruits_bw",
+    "level": "grade-1"
+   },
+   "eyebrow": "Read and Color Worksheet",
+   "h1": "Read and Color: Read the Sentence, Color the Right Fruits",
+   "strand": "Reading: Foundational Skills",
+   "standard": "RF.1.4",
+   "slotTokens": [
+    "read-and-color",
+    "fruits-bw",
+    "grade-1"
+   ],
+   "p1": "This 1st grade read-and-color worksheet gives the child six cards, each with one short sentence and a strip of black-and-white fruits under it. A sentence might say Color 3 apples yellow or Find 2 cherries and color them green, and the strip below holds the three apples plus a couple of raspberries that the sentence never mentions. A color key runs across the top with a swatch beside each color word. The child reads the sentence, picks out the fruits it names, counts to the number, and colors exactly those and no others.",
+   "p2": "This is reading with a consequence. A child cannot color the right fruits without decoding the noun, the number word, and the color word and holding all three in mind at once, and the distractor fruit on every strip makes skimming fail. That is the difference between this page and a color-by-number sheet: here the code is a sentence, and the sentence has to be understood, not just matched. The teacher can check comprehension from across the room — a purple lemon or four colored bananas tells the story immediately — and the color key lets a child who reads the sentence but is unsure of a color word find it independently.",
+   "p3": "Print the PDF free on plain paper so crayons and markers both work. The easier version uses four cards, four colors, and one distractor per strip; the harder version keeps six cards but raises the counts, adds a second distractor fruit, uses eight color words, and gives some cards two sentences to carry out in order. When the child reads these sentences fluently, the unscramble the sentence page asks for sentences to be built rather than followed, and the write the word page moves the fruits and animals from reading into spelling.",
+   "canonicalDeckSlug": "read-and-color-fruits-bw-g1242",
+   "carousel": [
+    {
+     "label": "Number of the Day: Show One Number Eight Ways",
+     "href": "number-of-the-day-1st-grade"
+    },
+    {
+     "label": "Write the Word: Spell Each Fruit from Its Picture",
+     "href": "write-the-word-picture-spelling"
+    },
+    {
+     "label": "ABC Order: Put Six Animal Words in Alphabetical Order",
+     "href": "abc-order-1st-grade"
+    },
+    {
+     "label": "Number Walls to 20: Addition Pyramids with Missing Bricks",
+     "href": "number-walls-addition-pyramids"
+    }
+   ],
+   "title": "Read and Color Worksheet for 1st Grade – Fruits | Free Printable PDF",
+   "metaDescription": "Read and color worksheet: six short sentences like Color 3 apples yellow, each over a strip of line-art fruits with one distractor. Free printable 1st grade PDF."
+  },
+  {
+   "slug": "number-of-the-day-1st-grade",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-of-the-day",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Number of the Day Worksheet",
+   "h1": "Number of the Day: Show One Number Eight Ways",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "1.NBT.B.2",
+   "slotTokens": [
+    "number-of-the-day",
+    "grade-1"
+   ],
+   "p1": "This 1st grade number-of-the-day worksheet prints one number, such as 46, huge inside a white card at the top left, and then fills the page with boxes that each ask for it in a different form. The child writes the number word on a handwriting line, fills in the numbers before and after it, splits it into tens and ones, draws it with base-ten blocks on a dot grid, works out ten more and ten less, marks it on a number line from 0 to 50, and finally counts on three steps and counts back three steps in two rows of arrow boxes. Eight boxes, one number, every box done.",
+   "p2": "A number the child can only say is a number the child only half owns. Writing 46 as forty-six, as 4 tens and 6 ones, as blocks, as a spot on a line, and as 56 and 36 builds the place-value picture that later addition and subtraction depend on. The routine shape matters too: because the boxes are the same every day and only the number changes, the child spends attention on the mathematics instead of on the instructions. The teacher watches the tens-and-ones box and the ten-more box together; a child who writes 4 tens but then adds ten by counting on ten ones has not yet connected the two.",
+   "p3": "Print the PDF free and use it as a daily opener — the same page, a fresh number, five minutes. The easier level uses teen numbers from 11 to 19 on a 0 to 20 line and shows the number in ten-frames and tally marks; the middle level uses numbers from 21 to 49; the harder level runs to 99 with a 0 to 100 line and asks the child to count on by tens. The number line page then isolates the find-it-on-the-line skill, and the doubles and halves page and the number walls page put those same numbers into addition facts.",
+   "canonicalDeckSlug": "number-of-the-day-g1243",
+   "carousel": [
+    {
+     "label": "Write the Word: Spell Each Fruit from Its Picture",
+     "href": "write-the-word-picture-spelling"
+    },
+    {
+     "label": "ABC Order: Put Six Animal Words in Alphabetical Order",
+     "href": "abc-order-1st-grade"
+    },
+    {
+     "label": "Number Walls to 20: Addition Pyramids with Missing Bricks",
+     "href": "number-walls-addition-pyramids"
+    },
+    {
+     "label": "Doubles and Halves: Double the Group, Halve the Group",
+     "href": "doubles-and-halves-1st-grade"
+    }
+   ],
+   "title": "Number of the Day Worksheet for 1st Grade | Free Printable PDF",
+   "metaDescription": "Number of the day worksheet: one big two-digit number and eight boxes to show it — word, tens and ones, blocks, ten more and ten less, number line. Free 1st grade PDF."
+  },
+  {
+   "slug": "write-the-word-picture-spelling",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "write-the-word",
+    "mode": null,
+    "theme": "fruits",
+    "level": "grade-1"
+   },
+   "eyebrow": "Write the Word Worksheet",
+   "h1": "Write the Word: Spell Each Fruit from Its Picture",
+   "strand": "Language",
+   "standard": "L.1.2.d",
+   "slotTokens": [
+    "write-the-word",
+    "fruits",
+    "grade-1"
+   ],
+   "p1": "This 1st grade write the word worksheet shows eight fruits on eight cards — an orange, an apple, a blackberry, a banana, a clementine, a mango, a persimmon, a raspberry — and gives each one a clean handwriting line and, underneath, a row of small dashed boxes, one box for every letter of the word. There is no word bank on this version of the page. The child says the fruit's name, listens to the sounds in order, writes a letter in each box, and then copies the finished word onto the line. The boxes tell the child how many letters to expect; they say nothing about which ones.",
+   "p2": "Spelling from a picture is the reverse of reading: the sounds come first and the letters have to be found for them. The letter-count boxes are what make the page workable at this age. A child who writes appl for apple sees an empty box and goes back to listen for the last sound, and a child who writes bananna runs out of boxes and has to reconsider. That is self-correction without a teacher standing over the page. What the teacher looks at afterward is which sounds went missing or were swapped; the vowels are usually the story, and eight words are enough to show a pattern.",
+   "p3": "Print the PDF free and let the child stretch each word aloud, sound by sound, before touching the pencil. The easier version has six cards with a word bank across the top and the first letter already printed; the harder version keeps eight cards but removes the boxes as well, leaving a plain line and the child's own spelling. This page assumes the child can already copy a word from a model, which is what the trace and write words page practices, and it leads straight into the abc order page, where picture words get sorted rather than spelled.",
+   "canonicalDeckSlug": "write-the-word-fruits-g1244",
+   "carousel": [
+    {
+     "label": "ABC Order: Put Six Animal Words in Alphabetical Order",
+     "href": "abc-order-1st-grade"
+    },
+    {
+     "label": "Number Walls to 20: Addition Pyramids with Missing Bricks",
+     "href": "number-walls-addition-pyramids"
+    },
+    {
+     "label": "Doubles and Halves: Double the Group, Halve the Group",
+     "href": "doubles-and-halves-1st-grade"
+    },
+    {
+     "label": "Missing Numbers on a Number Line: Count On from the Nearest Label",
+     "href": "missing-numbers-on-a-number-line"
+    }
+   ],
+   "title": "Write the Word for 1st Grade – Fruit Picture Spelling | Free Printable PDF",
+   "metaDescription": "Write the word worksheet: eight fruit pictures, a handwriting line, and one dashed box per letter so the child spells each word from its sounds. Free 1st grade PDF."
+  },
+  {
+   "slug": "abc-order-1st-grade",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "alphabetical-order",
+    "mode": null,
+    "theme": "animals",
+    "level": "grade-1"
+   },
+   "eyebrow": "ABC Order Worksheet",
+   "h1": "ABC Order: Put Six Animal Words in Alphabetical Order",
+   "strand": "Language",
+   "slotTokens": [
+    "alphabetical-order",
+    "animals",
+    "grade-1"
+   ],
+   "p1": "This 1st grade abc order worksheet starts with a full alphabet strip across the top, a to z in tinted cells the child can run a finger along. Below it, six animal cards are scattered at slight angles — zebra, reindeer, pig, cat, iguana, wolf — each with its word printed under the picture and a small dashed circle in the corner. The child finds the first letter of every word on the strip, writes 1 in the circle of the word that comes first, 2 in the next, and so on to 6, then copies the six animals in that order onto six numbered lines at the bottom of the page.",
+   "p2": "Alphabetizing asks the child to treat letters as a fixed sequence rather than as sounds, which is a new use for the alphabet they already know by song. The strip is there so nobody has to recite from a to find out whether p comes before r; they can look, and looking is the skill that later finds a word in a dictionary or a name in a class list. Numbering the circles before writing separates the thinking from the handwriting, so a child who changes their mind can cross out a number cheaply. The teacher checks the circles first: if the numbers are right and the lines are wrong, the problem is copying, not ordering.",
+   "p3": "Print the PDF free and, the first time through, have the child touch each word's first letter on the strip and say its position aloud. The easier version uses four cards whose first letters are spaced well apart in the alphabet and asks only for the numbered circles; the harder version keeps six cards but makes two pairs share a first letter, so the child has to look at the second letter to break the tie. The write the word page supplies the spelling these cards rely on, and the nouns, verbs, and adjectives sort is the next kind of word sorting in the catalog.",
+   "canonicalDeckSlug": "alphabetical-order-animals-g1245",
+   "carousel": [
+    {
+     "label": "Number Walls to 20: Addition Pyramids with Missing Bricks",
+     "href": "number-walls-addition-pyramids"
+    },
+    {
+     "label": "Doubles and Halves: Double the Group, Halve the Group",
+     "href": "doubles-and-halves-1st-grade"
+    },
+    {
+     "label": "Missing Numbers on a Number Line: Count On from the Nearest Label",
+     "href": "missing-numbers-on-a-number-line"
+    },
+    {
+     "label": "Unscramble the Sentence: Put the Word Tiles in Order",
+     "href": "unscramble-the-sentence-1st-grade"
+    }
+   ],
+   "title": "ABC Order Worksheet for 1st Grade – Animals | Free Printable PDF",
+   "metaDescription": "ABC order worksheet: use the alphabet strip to number six animal picture cards 1 to 6 alphabetically, then write them in order on the lines. Free 1st grade PDF."
+  },
+  {
+   "slug": "number-walls-addition-pyramids",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-walls",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Number Walls Worksheet",
+   "h1": "Number Walls to 20: Addition Pyramids with Missing Bricks",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "number-walls",
+    "grade-1"
+   ],
+   "p1": "This 1st grade number-walls worksheet — some teachers call them addition pyramids — lays out six small brick walls, three courses high. The bottom row of each wall is printed with three numbers, such as 6, 3, and 8. The two bricks above are outlined in dashed orange and empty, and so is the single brick at the top. The rule is written once at the head of the page: each brick is the sum of the two bricks under it. The child adds 6 and 3 to fill the left brick, 3 and 8 for the right, then adds those two answers together to set the top stone, and moves on to the next wall.",
+   "p2": "A number wall turns three separate addition facts into one small structure, and that structure is what makes it different from a plain column of sums. The top brick can only be right if both bricks beneath it are right, so an error in the first row travels upward and shows itself, which teaches the child to check as they go. All the sums stay within 20, the fluency range for this grade, and the bricks are big enough for a child to write the number and still see it. The teacher watches whether the child adds the middle base brick twice — once to the left, once to the right — without confusion, since that shared brick is the part that surprises children the first time.",
+   "p3": "Print the PDF free and let the child use a number line or counters for the first wall, then try the rest without. The easier version has four walls with sums to 10; the harder version builds four-course walls of ten bricks and knocks a brick out of the base, so the child has to subtract downward from a given brick above to recover the missing number. Number bonds to 10 is the page before this one if the child is still learning the pairs, and doubles and halves works the same fact range from a different direction.",
+   "canonicalDeckSlug": "number-walls-g1246",
+   "carousel": [
+    {
+     "label": "Doubles and Halves: Double the Group, Halve the Group",
+     "href": "doubles-and-halves-1st-grade"
+    },
+    {
+     "label": "Missing Numbers on a Number Line: Count On from the Nearest Label",
+     "href": "missing-numbers-on-a-number-line"
+    },
+    {
+     "label": "Unscramble the Sentence: Put the Word Tiles in Order",
+     "href": "unscramble-the-sentence-1st-grade"
+    },
+    {
+     "label": "Fix the Sentence: Capital Letters and Punctuation Practice",
+     "href": "capital-letters-and-punctuation-fix-the-sentence"
+    }
+   ],
+   "title": "Number Walls to 20 for 1st Grade – Addition Pyramids | Free Printable PDF",
+   "metaDescription": "Number walls worksheet: six three-course addition pyramids where each brick is the sum of the two below it, base given, three bricks to fill. Free 1st grade PDF."
+  },
+  {
+   "slug": "doubles-and-halves-1st-grade",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "doubles-halves",
+    "mode": null,
+    "theme": "fruits",
+    "level": "grade-1"
+   },
+   "eyebrow": "Doubles and Halves Worksheet",
+   "h1": "Doubles and Halves: Double the Group, Halve the Group",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "doubles-halves",
+    "fruits",
+    "grade-1"
+   ],
+   "p1": "This 1st grade doubles and halves worksheet has six cards in two columns, and each card is built from pictures of fruits — one fruit per page, kiwis on this one. In the left column, marked double, a row of kiwis sits in a white box above a fact like 4 + 4 = with an empty answer box; the child doubles the group and writes the total. In the right column, marked half, a larger even group of kiwis — eight, ten, six — is cut down the middle by a dashed orange line, and under it the child completes 8 = ▢ + ▢ by writing the two equal parts. The pictures are there to be counted; the equations are there to be finished.",
+   "p2": "Doubles are the addition facts children remember first and use most, because they are the anchors for near-doubles like 4 + 5, and halves are those same facts read backward. Putting the two side by side on one page makes the connection plain: double 4 is 8 and half of 8 is 4 and 4, and the dashed line shows that a half is a fair split, not just a smaller number. The teacher looks at whether the child counts every kiwi on the doubles side or, after a card or two, starts writing the answer from the fact. On the halves side the tell is whether both boxes get the same number.",
+   "p3": "Print the PDF free and let the child draw a line through each doubles group to see the mirror before writing. The easier version has four cards with groups of one to four fruits; the harder version has eight cards, doubles from 5 to 10 and halves of numbers up to 20, with no pictures at all. The number walls page uses these same sums inside a pyramid, and the fact family houses page shows how a double and its half belong to one family of facts.",
+   "canonicalDeckSlug": "doubles-halves-fruits-g1247",
+   "carousel": [
+    {
+     "label": "Missing Numbers on a Number Line: Count On from the Nearest Label",
+     "href": "missing-numbers-on-a-number-line"
+    },
+    {
+     "label": "Unscramble the Sentence: Put the Word Tiles in Order",
+     "href": "unscramble-the-sentence-1st-grade"
+    },
+    {
+     "label": "Fix the Sentence: Capital Letters and Punctuation Practice",
+     "href": "capital-letters-and-punctuation-fix-the-sentence"
+    },
+    {
+     "label": "Nouns, Verbs, and Adjectives Sort: Write Each Word in Its Bin",
+     "href": "nouns-verbs-adjectives-sort"
+    }
+   ],
+   "title": "Doubles and Halves Worksheet for 1st Grade – Fruits | Free Printable PDF",
+   "metaDescription": "Doubles and halves worksheet: double a group of fruit pictures and write 4 + 4 = ▢, then split an even group along a dashed line and write 8 = ▢ + ▢. Free 1st grade PDF."
+  },
+  {
+   "slug": "missing-numbers-on-a-number-line",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Number Line Worksheet",
+   "h1": "Missing Numbers on a Number Line: Count On from the Nearest Label",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "number-lines",
+    "grade-1"
+   ],
+   "p1": "This 1st grade number-lines worksheet shows four number lines from 0 to 20, one per card, with labels only at 0, 5, 10, 15, and 20 and a tick mark for every number between. On each line three orange arrows point down at unlabeled ticks, and above every arrow floats an empty dashed box. The child finds the nearest printed label, counts on tick by tick to the arrow, and writes the number it points to in the box. Twelve arrows across the page, no two pointing at the same number.",
+   "p2": "A number line with every number printed is a ruler; a number line with only landmarks is a tool for thinking. To name the tick after 15 the child has to know that the labels go up by five, count the ticks in between, and decide whether to count on from 15 or back from 20 — the same reasoning that later makes rounding and estimation possible. The page keeps the ticks large and the arrows well separated so counting is never the obstacle. A teacher watching the pencil can see whether the child starts every count from zero, which works but is slow, or from the nearest landmark, which is the skill the page exists to build.",
+   "p3": "Print the PDF free and have the child write the landmark they counted from beside each box the first time. The easier version uses lines from 0 to 10 with two arrows each; the harder version stretches the line to 100 with labels every ten and ticks every five, so counting on means counting by fives. The number of the day page includes one of these lines among its boxes, and the doubles and halves page and the number walls page are where the numbers the child just located get added.",
+   "canonicalDeckSlug": "number-lines-g1248",
+   "carousel": [
+    {
+     "label": "Unscramble the Sentence: Put the Word Tiles in Order",
+     "href": "unscramble-the-sentence-1st-grade"
+    },
+    {
+     "label": "Fix the Sentence: Capital Letters and Punctuation Practice",
+     "href": "capital-letters-and-punctuation-fix-the-sentence"
+    },
+    {
+     "label": "Nouns, Verbs, and Adjectives Sort: Write Each Word in Its Bin",
+     "href": "nouns-verbs-adjectives-sort"
+    },
+    {
+     "label": "Shopping Math: Money Word Problems with a Price Shelf",
+     "href": "shopping-math-money-word-problems"
+    }
+   ],
+   "title": "Missing Numbers on a Number Line for 1st Grade | Free Printable PDF",
+   "metaDescription": "Number line worksheet: four lines from 0 to 20 labeled only every 5, three orange arrows on each pointing at unlabeled ticks for the child to name. Free 1st grade PDF."
+  },
+  {
+   "slug": "unscramble-the-sentence-1st-grade",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sentence-building",
+    "mode": null,
+    "theme": "animals",
+    "level": "grade-1"
+   },
+   "eyebrow": "Sentence Scramble Worksheet",
+   "h1": "Unscramble the Sentence: Put the Word Tiles in Order",
+   "strand": "Language",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "sentence-building",
+    "animals",
+    "grade-1"
+   ],
+   "p1": "This 1st grade unscramble the sentence worksheet has four rows, each with a small picture of one of the animals on the left and a line of white word tiles that look like cards dropped on a desk — red, Lily, the, pig, likes. The tiles are out of order. The child reads them, works out the one order that makes a sentence, and writes it on the three-line handwriting rule underneath, remembering the capital at the start and the end mark at the finish, because on this version the period or question mark has been stripped from the tiles. Four animals, four scrambled sentences, four lines to write.",
+   "p2": "Rearranging tiles is grammar the child can handle physically. The words are all given, so the task is not spelling or vocabulary but sentence sense: which word starts, where the verb goes, what the little words attach to. The capitalized tile is a clue that the child learns to hunt for, and a tile like Where announces that the sentence will need a question mark. This is a different job from the fix the sentence page, where the words are already in order and only the mechanics are missing; here the order itself is the puzzle, and the mechanics come last. The teacher listens for the child reading the tiles aloud in trial orders — that murmur is the sentence being tested by ear.",
+   "p3": "Print the PDF free and let the child number the tiles lightly in pencil before writing, or cut them out for a first pass. The easier version has three rows of three or four tiles with the end mark still attached to the last word, so only the order is missing; the harder version prints every tile in lowercase except names, so the child must also decide which word takes the capital. Fix the sentence is the next page when the order is secure, and the read and color page keeps short sentences like these in reading rather than writing.",
+   "canonicalDeckSlug": "sentence-building-animals-g1249",
+   "carousel": [
+    {
+     "label": "Fix the Sentence: Capital Letters and Punctuation Practice",
+     "href": "capital-letters-and-punctuation-fix-the-sentence"
+    },
+    {
+     "label": "Nouns, Verbs, and Adjectives Sort: Write Each Word in Its Bin",
+     "href": "nouns-verbs-adjectives-sort"
+    },
+    {
+     "label": "Shopping Math: Money Word Problems with a Price Shelf",
+     "href": "shopping-math-money-word-problems"
+    },
+    {
+     "label": "Reading a Calendar: Answer Six Questions About the Month",
+     "href": "reading-a-calendar-2nd-grade"
+    }
+   ],
+   "title": "Unscramble the Sentence for 1st Grade – Animals | Free Printable PDF",
+   "metaDescription": "Sentence scramble worksheet: four rows of shuffled word tiles about animals to put in order and write out with a capital letter and an end mark. Free 1st grade PDF."
+  },
+  {
+   "slug": "capital-letters-and-punctuation-fix-the-sentence",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "capitals-punctuation",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "grade-2"
+   },
+   "eyebrow": "Fix the Sentence Worksheet",
+   "h1": "Fix the Sentence: Capital Letters and Punctuation Practice",
+   "strand": "Language",
+   "standard": "L.1.2.b",
+   "slotTokens": [
+    "capitals-punctuation",
+    "vehicles",
+    "grade-2"
+   ],
+   "p1": "This 2nd grade fix the sentence worksheet gives the child five broken sentences about vehicles, each in its own lane with a small picture beside it: tom rides the bus with lily, max washes the red truck. Every sentence has lost its opening capital, its end mark, and the capital letters on the names inside it. A dashed checklist at the top shows the three things to look for — Capital letter, Names, End mark — and under each sentence is a wide handwriting rule where the child rewrites it correctly from start to finish.",
+   "p2": "Editing is easier to learn on somebody else's sentence than on your own, because the child is not attached to it. With the words already in the right order, all the attention goes to the mechanics: the first letter, the period, and the capitals that names carry wherever they appear. Copying the whole sentence out again, rather than circling errors, means the correct version passes through the child's hand, which is how the habit moves into their own writing. The teacher checks the names first; the opening capital and the period are usually caught, and the lowercase name in the middle of a sentence is the one that gets through.",
+   "p3": "Print the PDF free and have the child tick each checklist item after every sentence until the checks become automatic. The easier version has four lanes with only the opening capital and period missing; the harder version keeps five lanes but mixes in questions, so the child must choose between a period and a question mark rather than adding a period by habit. The unscramble the sentence page is the step before this one, where the words themselves are out of order, and the write about the picture page is where the child applies these mechanics to sentences of their own.",
+   "canonicalDeckSlug": "capitals-punctuation-vehicles-g2274",
+   "carousel": [
+    {
+     "label": "Nouns, Verbs, and Adjectives Sort: Write Each Word in Its Bin",
+     "href": "nouns-verbs-adjectives-sort"
+    },
+    {
+     "label": "Shopping Math: Money Word Problems with a Price Shelf",
+     "href": "shopping-math-money-word-problems"
+    },
+    {
+     "label": "Reading a Calendar: Answer Six Questions About the Month",
+     "href": "reading-a-calendar-2nd-grade"
+    },
+    {
+     "label": "Picture Writing Prompt: Write a Story About the Vehicles Scene",
+     "href": "picture-writing-prompt-2nd-grade"
+    }
+   ],
+   "title": "Capital Letters and Punctuation Worksheet 2nd Grade | Free Printable PDF",
+   "metaDescription": "Capital letters and punctuation worksheet: five sentences about vehicles that lost their capital, end mark, and the capitals on names; rewrite each. Free 2nd grade PDF."
+  },
+  {
+   "slug": "nouns-verbs-adjectives-sort",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-classes",
+    "mode": null,
+    "theme": "toys",
+    "level": "grade-2"
+   },
+   "eyebrow": "Parts of Speech Worksheet",
+   "h1": "Nouns, Verbs, and Adjectives Sort: Write Each Word in Its Bin",
+   "strand": "Language",
+   "standard": "L.2.1.e",
+   "slotTokens": [
+    "word-classes",
+    "toys",
+    "grade-2"
+   ],
+   "p1": "This 2nd grade nouns, verbs, and adjectives sort worksheet floats twelve word chips across the top of the page like fridge magnets. The four nouns are toys and each carries a tiny picture beside the word — a kite, a robot, a puzzle, a drum — while the verbs and adjectives, draw, pull, laugh, shiny, heavy, purple, are plain words. Below stand three tall bins, each with an icon on its lid: a framed picture for nouns, a running figure for verbs, and overlapping color blobs for adjectives, with the label printed underneath. The child reads each chip, decides whether it names, does, or describes, and writes it on a line inside the right bin.",
+   "p2": "Sorting words by their job is the first grammar most children do consciously, and it works because the three questions are concrete: can you point to it, can you do it, does it tell you what something is like. The pictures on the noun chips are training wheels — a picture can only be attached to a naming word — and they are removed at the hardest level. Writing each word into its bin instead of drawing a line makes the child re-read it. The teacher looks at the adjective bin, which is where words like heavy and shiny sometimes end up beside verbs; that confusion between describing and doing is exactly what the page is designed to surface.",
+   "p3": "Print the PDF free and have the child say each word inside a short spoken sentence before placing it, since the sentence usually settles the question. The easier version uses nine chips with color and size adjectives only; the harder version uses fifteen chips with no pictures, feeling words like proud and gentle, and trickier verbs. The abc order page is the other kind of word sorting in the catalog, and the write about the picture page is where the child starts choosing nouns, verbs, and adjectives to build sentences.",
+   "canonicalDeckSlug": "word-classes-toys-g2275",
+   "carousel": [
+    {
+     "label": "Shopping Math: Money Word Problems with a Price Shelf",
+     "href": "shopping-math-money-word-problems"
+    },
+    {
+     "label": "Reading a Calendar: Answer Six Questions About the Month",
+     "href": "reading-a-calendar-2nd-grade"
+    },
+    {
+     "label": "Picture Writing Prompt: Write a Story About the Vehicles Scene",
+     "href": "picture-writing-prompt-2nd-grade"
+    },
+    {
+     "label": "Grid Coordinates: Color the Squares to Find the Hidden Picture",
+     "href": "grid-coordinates-color-the-squares"
+    }
+   ],
+   "title": "Nouns Verbs Adjectives Sort for 2nd Grade – Toys | Free Printable PDF",
+   "metaDescription": "Nouns verbs adjectives sort: twelve word chips — toy nouns with pictures, plain verbs and adjectives — to copy into three labeled bins. Free printable 2nd grade PDF."
+  },
+  {
+   "slug": "shopping-math-money-word-problems",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "fruits",
+    "level": "grade-2"
+   },
+   "eyebrow": "Money Word Problems Worksheet",
+   "h1": "Shopping Math: Money Word Problems with a Price Shelf",
+   "strand": "Measurement & Data",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "money",
+    "fruits",
+    "grade-2"
+   ],
+   "p1": "This 2nd grade shopping math worksheet opens with a shop shelf: five fruits sit along a teal plank with paper price tags hanging under them — a fig at 20¢, a pear at 40¢, a mango at 15¢, a papaya at 10¢, a lime at 25¢. Below are three story cards about money. In the first a named child buys two of the fruits and the question is how much they pay; in the second the child pays for one fruit with a coin drawn on the card, a quarter, and has to work out the change; in the third someone has 40¢ and the child circles yes or no to whether that is enough for two fruits, then writes the total. Each card has a dot grid for working and a dashed box for the answer in cents.",
+   "p2": "Money problems are word problems the child already believes in, and the shelf makes them honest: nothing in a story is a price the child cannot look up. To answer, the child has to find the right fruit, read its tag, and then decide what the story is asking — add two prices, subtract a price from the coin, or compare a total with the money in hand. Those three moves are the whole of second-grade money work, and the coin pictured in the change card keeps the amount paid real rather than a bare number. The teacher checks the yes-or-no card closely, because a child can circle the right answer and still write the wrong total.",
+   "p3": "Print the PDF free and let the child work on the dot grid before writing in the box, adding the prices in whichever order makes sense. The easier version has a four-item shelf and two cards with totals and yes-or-no questions only; the harder version has six fruits and four cards, including three-item totals and how much more one fruit costs than another. Counting coins is the page before this one for a child still learning coin values, and the multiplication and division word problems page carries the same read-the-story habit into third grade.",
+   "canonicalDeckSlug": "money-fruits-g2276",
+   "carousel": [
+    {
+     "label": "Reading a Calendar: Answer Six Questions About the Month",
+     "href": "reading-a-calendar-2nd-grade"
+    },
+    {
+     "label": "Picture Writing Prompt: Write a Story About the Vehicles Scene",
+     "href": "picture-writing-prompt-2nd-grade"
+    },
+    {
+     "label": "Grid Coordinates: Color the Squares to Find the Hidden Picture",
+     "href": "grid-coordinates-color-the-squares"
+    },
+    {
+     "label": "Multiplication and Division Word Problems with Pictures",
+     "href": "multiplication-and-division-word-problems-3rd-grade"
+    }
+   ],
+   "title": "Shopping Math Money Word Problems for 2nd Grade | Free Printable PDF",
+   "metaDescription": "Shopping math worksheet: a shelf of five fruits with cent price tags and three story cards — find the total, work out the change, enough or not. Free 2nd grade PDF."
+  },
+  {
+   "slug": "reading-a-calendar-2nd-grade",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "calendar",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Calendar Worksheet",
+   "h1": "Reading a Calendar: Answer Six Questions About the Month",
+   "strand": "Measurement & Data",
+   "slotTokens": [
+    "calendar",
+    "grade-2"
+   ],
+   "p1": "This 2nd grade reading a calendar worksheet prints one real month — March 2027, say — as a full grid with the weekday names across the top, every date in its cell, and three small toy stickers sitting on three different days. Under the calendar are six questions in cream boxes with dashed answer spaces: What day of the week is the 15th? How many Mondays are in this month? On which date is the sticker? What is the date one week after the 21st? How many days does this month have? What day of the week is the first day? Every answer is on the calendar; the child only has to read it off.",
+   "p2": "Reading a calendar is reading a table, and a table is read in two directions: down a column to count Mondays, across a row to see that seven days later means the cell directly below. Children who can recite the days of the week often cannot yet use a calendar page, because the grid hides the order in a wrap-around layout, and this page gives them the practice in the form they will meet on every classroom wall. The stickers make dates something to find rather than just numbers. The teacher watches the one-week-later question: a child who counts seven cells forward is working, while a child who drops straight down has understood the grid.",
+   "p3": "Print the PDF free and put a real calendar beside it so the child can check that the same tricks work on this month too. The easier version asks four questions with two stickers; the harder version uses a six-row month, asks how many days lie between two stickers, and asks for the last day of the month. The telling time worksheets are the companion pages for the clock face, and the shopping math page continues the reading-a-real-object habit with price tags instead of dates.",
+   "canonicalDeckSlug": "calendar-g2277",
+   "carousel": [
+    {
+     "label": "Picture Writing Prompt: Write a Story About the Vehicles Scene",
+     "href": "picture-writing-prompt-2nd-grade"
+    },
+    {
+     "label": "Grid Coordinates: Color the Squares to Find the Hidden Picture",
+     "href": "grid-coordinates-color-the-squares"
+    },
+    {
+     "label": "Multiplication and Division Word Problems with Pictures",
+     "href": "multiplication-and-division-word-problems-3rd-grade"
+    },
+    {
+     "label": "Trace and Write Words: Animal Names on Handwriting Lines",
+     "href": "trace-and-write-words-kindergarten"
+    }
+   ],
+   "title": "Reading a Calendar Worksheet for 2nd Grade | Free Printable PDF",
+   "metaDescription": "Reading a calendar worksheet: one full month with three picture stickers and six questions — what day is the 15th, how many Mondays, one week later. Free 2nd grade PDF."
+  },
+  {
+   "slug": "picture-writing-prompt-2nd-grade",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-writing",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "grade-2"
+   },
+   "eyebrow": "Picture Writing Prompt Worksheet",
+   "h1": "Picture Writing Prompt: Write a Story About the Vehicles Scene",
+   "strand": "Writing",
+   "standard": "W.2.3",
+   "slotTokens": [
+    "picture-writing",
+    "vehicles",
+    "grade-2"
+   ],
+   "p1": "This 2nd grade picture writing prompt worksheet puts a busy scene of vehicles at the top of the page — a jet banking across the middle, two scooters, two boats, a ferry, a forklift, and a bus arranged so it reads as a place rather than a list. Under the picture a dashed word bank shows six of those vehicles with their names, jet, scooter, boat, ferry, forklift, bus. Then come five wide handwriting rows. The first begins with the faint starter One day, and the third with Then, so the child looks at the picture, borrows the words needed, and writes what happens next across the rows.",
+   "p2": "A picture gives a child something to say, and the word bank takes spelling off the table so the sentences can be about the story. The two narrative starters are the quiet engine of the page: One day sets a beginning and Then forces a next event, which is the shape of a story rather than a caption. That is the difference between writing about a picture and labeling it. The rows are tall enough for a second grader's letters and few enough to be finished. The teacher reads for whether the sentences follow each other — did the jet that took off in row one land, arrive, or get chased by row three.",
+   "p3": "Print the PDF free and let the child talk the story through before writing it, pointing at the scene as they go. The easier version has three rows and descriptive starters like I see a, so the child writes what is there; the harder version has six rows and keeps the narrative starters but with more to fill. Fix the sentence practices the capitals and end marks the child needs here, and the nouns, verbs, and adjectives sort gives them describing words for the vehicles in the picture.",
+   "canonicalDeckSlug": "picture-writing-vehicles-g2278",
+   "carousel": [
+    {
+     "label": "Grid Coordinates: Color the Squares to Find the Hidden Picture",
+     "href": "grid-coordinates-color-the-squares"
+    },
+    {
+     "label": "Multiplication and Division Word Problems with Pictures",
+     "href": "multiplication-and-division-word-problems-3rd-grade"
+    },
+    {
+     "label": "Trace and Write Words: Animal Names on Handwriting Lines",
+     "href": "trace-and-write-words-kindergarten"
+    },
+    {
+     "label": "Dot to Dot 1-20: Connect the Dots to Find the Hidden Picture",
+     "href": "dot-to-dot-1-20"
+    }
+   ],
+   "title": "Picture Writing Prompt for 2nd Grade – Vehicles | Free Printable PDF",
+   "metaDescription": "Picture writing prompt: a vehicles scene, a picture word bank of six nouns, and five handwriting rows with the starters One day and Then. Free printable 2nd grade PDF."
+  },
+  {
+   "slug": "grid-coordinates-color-the-squares",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "grid-coordinates",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Coordinate Grid Worksheet",
+   "h1": "Grid Coordinates: Color the Squares to Find the Hidden Picture",
+   "strand": "Fine Motor & Visual-Spatial",
+   "slotTokens": [
+    "grid-coordinates",
+    "grade-2"
+   ],
+   "p1": "This 2nd grade grid-coordinates worksheet shows an empty eight-by-eight grid with letters A to H across the top and numbers 1 to 8 down the side, and beside it a tiny worked example — a three-by-three grid with B2 shaded — so the child sees what a code means before starting. Below the grid a key lists codes in color groups: a blue swatch followed by chips reading F6, D4, C4 and twenty more, then a yellow swatch with D3. The child finds each square by running a finger across to the letter and down to the number, colors it in that group's color, and a boot or a bird or a pair of cherries slowly appears.",
+   "p2": "Naming a square by a letter and a number is the first step toward coordinates on a graph, maps with grid references, and spreadsheets — all of which use the same across-then-down habit. The codes within each color are shuffled, so the child cannot simply color row by row; every code has to be looked up. The mistake to watch for is reading B2 as row B, column 2, which puts squares in the wrong place and bends the picture, and the picture bending is what tells the child something is off. A teacher can see the error from the pattern of stray squares before the child says anything.",
+   "p3": "Print the PDF free and let the child cross out each code chip after coloring its square, so nothing gets colored twice or missed. The easier version uses a six-by-six grid and fewer codes; the harder version goes to ten-by-ten with up to four colors and more than thirty codes. The copy the grid picture page is the kindergarten ancestor of this one, where squares were matched by position without codes, and the symmetry drawing page is another way of building a picture square by square.",
+   "canonicalDeckSlug": "grid-coordinates-g2279",
+   "carousel": [
+    {
+     "label": "Multiplication and Division Word Problems with Pictures",
+     "href": "multiplication-and-division-word-problems-3rd-grade"
+    },
+    {
+     "label": "Trace and Write Words: Animal Names on Handwriting Lines",
+     "href": "trace-and-write-words-kindergarten"
+    },
+    {
+     "label": "Dot to Dot 1-20: Connect the Dots to Find the Hidden Picture",
+     "href": "dot-to-dot-1-20"
+    },
+    {
+     "label": "Copy the Grid Picture: Color the Same Squares on the Empty Grid",
+     "href": "copy-the-grid-picture"
+    }
+   ],
+   "title": "Grid Coordinates Worksheet for 2nd Grade | Free Printable PDF",
+   "metaDescription": "Grid coordinates worksheet: an empty lettered 8×8 grid and a color-coded list of square codes like B2 and F6; color each one and a picture appears. Free 2nd grade PDF."
+  },
+  {
+   "slug": "multiplication-and-division-word-problems-3rd-grade",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "grade-3"
+   },
+   "eyebrow": "Word Problems Worksheet",
+   "h1": "Multiplication and Division Word Problems with Pictures",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "3.OA.A.3",
+   "slotTokens": [
+    "word-problems",
+    "fruits",
+    "grade-3"
+   ],
+   "p1": "This 3rd grade multiplication and division word problems worksheet tells two stories about fruits, each on its own tall card. In the first a named child sees two rows of oranges with five oranges in each row, and the question is how many oranges there are; under the story two small boxes each hold five orange icons, so the picture restates the problem. In the second, fifteen peaches are shared equally among five friends, and beneath the story all fifteen peaches sit above five empty dashed boxes waiting to be dealt out. Each card has a dot grid for working, a dashed box for the number answer, and a handwriting line to finish the answer sentence in words.",
+   "p2": "The two stories are chosen to contrast: one multiplies equal groups, the other shares a total into equal groups, and the pictures make the difference visible before any symbols appear. A child who draws five oranges in each row and counts, or deals the fifteen peaches into five boxes one at a time, is doing the mathematics that the equations 2 × 5 and 15 ÷ 5 summarize. The answer sentence matters as much as the box: writing There are 10 oranges shows the child knows what the number counts. The teacher looks at the dot grid to see which strategy the child used — repeated addition, skip counting, or a known fact.",
+   "p3": "Print the PDF free and have the child retell each story before solving it, pointing at the picture to show what the numbers mean. The easier version gives two multiplication stories with small groups; the harder version has three stories and adds the other kind of division, where the child knows the group size and has to find how many groups. Products stay within 36 so the picture always fits. The arrays multiplication page builds the equal-groups idea in rows and columns, and the multiplication and division fact families page connects each story's two operations.",
+   "canonicalDeckSlug": "word-problems-fruits-g3370",
+   "carousel": [
+    {
+     "label": "Trace and Write Words: Animal Names on Handwriting Lines",
+     "href": "trace-and-write-words-kindergarten"
+    },
+    {
+     "label": "Dot to Dot 1-20: Connect the Dots to Find the Hidden Picture",
+     "href": "dot-to-dot-1-20"
+    },
+    {
+     "label": "Copy the Grid Picture: Color the Same Squares on the Empty Grid",
+     "href": "copy-the-grid-picture"
+    },
+    {
+     "label": "Singular and Plural: One Fruit and Many Fruits",
+     "href": "singular-and-plural-kindergarten"
+    }
+   ],
+   "title": "Multiplication and Division Word Problems 3rd Grade | Free Printable PDF",
+   "metaDescription": "Multiplication and division word problems: two fruit stories, one equal-groups multiply and one sharing divide, with pictures and an answer line. Free 3rd grade PDF."
   }
  ]
 }

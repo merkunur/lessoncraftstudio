@@ -84,7 +84,7 @@ const NAMES = {
   fi: { weekStart: 1, ordinalStyle: 'dot',
     dayNames: ['sunnuntai', 'maanantai', 'tiistai', 'keskiviikko', 'torstai', 'perjantai', 'lauantai'],
     dayAbbr: ['su', 'ma', 'ti', 'ke', 'to', 'pe', 'la'],
-    dayPlural: ['sunnuntaita', 'maanantaita', 'tiistaita', 'keskiviikkoja', 'torstaita', 'perjantaita', 'lauantaita'],
+    dayPlural: ['sunnuntaita', 'maanantaita', 'tiistaita', 'keskiviikkoa', 'torstaita', 'perjantaita', 'lauantaita'],
     monthNames: ['tammikuu', 'helmikuu', 'maaliskuu', 'huhtikuu', 'toukokuu', 'kesäkuu', 'heinäkuu', 'elokuu', 'syyskuu', 'lokakuu', 'marraskuu', 'joulukuu'] },
 };
 

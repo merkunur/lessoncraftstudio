@@ -111,7 +111,7 @@
   },
   "calendar": {
     "weekStart": 1,
-    "dayPlural": ["sunnuntaita", "maanantaita", "tiistaita", "keskiviikkoja", "torstaita", "perjantaita", "lauantaita"],
+    "dayPlural": ["sunnuntaita", "maanantaita", "tiistaita", "keskiviikkoa", "torstaita", "perjantaita", "lauantaita"],
     "frames": {
       "dayOfDate": "Mikä viikonpäivä on kuukauden {date} päivä?",
       "countWeekday": "Montako {dayPlural} tässä kuussa on?",

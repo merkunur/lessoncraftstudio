@@ -64,6 +64,18 @@ const LEVEL_KEYS = {
 
 const ORDER = Object.keys(TYPES);
 
+// a locale's wave may override a type's theme (waves/wave-b2-<loc>.json themeOverrides — e.g. sv/da/no
+// K-288 ships on fruits because their animals theme has too few ett/et-nouns); the deck slug and the
+// slot tokens follow the SHIPPED theme, so read the wave file — the single source of truth
+const waveThemeOverride = (loc, id) => {
+  const wp = path.join(ROOT, 'scripts', 'worksheet-gen', 'waves', 'wave-b2-' + loc + '.json');
+  if (!fs.existsSync(wp)) return null;
+  const w = JSON.parse(fs.readFileSync(wp, 'utf8'));
+  const ov = w.themeOverrides && w.themeOverrides[id];
+  return ov ? ov.replace(/ /g, '_') : null;
+};
+const shippedTheme = (loc, id) => waveThemeOverride(loc, id) || TYPES[id].theme;
+
 function fail(m) { console.error('ABORT: ' + m); process.exit(1); }
 const wordCount = (s) => (s.match(/\S+/g) || []).length;
 
@@ -95,8 +107,9 @@ const themeName = (themeKey) => {
 // the deck slug formula publish-cli used: <family-slug>[-<theme-slug>]-<variantid>
 const deckSlugFor = (id) => {
   const t = TYPES[id];
+  const theme = shippedTheme(locale, id);
   const vid = id.toLowerCase().replace('-', '');
-  return famSlug(t.family) + (t.theme ? '-' + themeSlug(t.theme) : '') + '-' + vid;
+  return famSlug(t.family) + (theme ? '-' + themeSlug(theme) : '') + '-' + vid;
 };
 
 /* -------- validate -------- */
@@ -130,7 +143,7 @@ for (const id of ORDER) {
   if (t.theme) {
     const tn = themeName(t.theme).toLowerCase().split(/\s+/)[0];
     if (!(e.p1 || '').toLowerCase().includes(tn.slice(0, 4))) {
-      console.warn(`WARN ${id}: theme word "${themeName(t.theme)}" not obviously in p1`);
+      console.warn(`WARN ${id}: theme word "${themeName(shippedTheme(locale, id))}" not obviously in p1`);
     }
   }
 }
@@ -144,15 +157,16 @@ const entries = ORDER.map((id) => {
   const t = TYPES[id];
   const e = prose.landings[id];
   const level = LEVEL_KEYS[locale][t.band];
+  const theme = shippedTheme(locale, id);
   const entry = {
     slug: e.slug,
     variantShape: 'singleton',
-    coordinate: { type: t.family, mode: null, theme: t.theme || '', level }, // '' = the corpus' themeless convention
+    coordinate: { type: t.family, mode: null, theme: theme || '', level }, // '' = the corpus' themeless convention
     eyebrow: e.eyebrow,
     h1: e.h1,
     strand: e.strand,
     ...(t.standard ? { standard: t.standard } : {}),
-    slotTokens: [famSlug(t.family), ...(t.theme ? [themeSlug(t.theme)] : []), level],
+    slotTokens: [famSlug(t.family), ...(theme ? [themeSlug(theme)] : []), level],
     p1: e.p1, p2: e.p2, p3: e.p3,
     canonicalDeckSlug: deckSlugFor(id),
     carousel: [],

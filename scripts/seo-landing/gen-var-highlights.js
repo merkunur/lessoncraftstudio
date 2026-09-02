@@ -54,6 +54,27 @@ const BASES = {
   // the lowercase letter-tracing family — EN only so far; the loop warns and
   // skips a locale with no base landing yet, so this is safe before the fan-out
   'K-278': { family: 'lowercase-letter-tracing', theme: null },
+  // nt20-B (2026-09-02): the second batch of 20 types — base decks only, no variations yet
+  'K-284': { family: 'word-tracing', theme: 'animals' },
+  'K-285': { family: 'dot-to-dot', theme: null },
+  'K-286': { family: 'grid-copy', theme: null },
+  'K-287': { family: 'singular-plural', theme: 'fruits' },
+  'K-288': { family: 'articles', theme: 'animals' },
+  'G1-242': { family: 'read-and-color', theme: 'fruits_bw' },
+  'G1-243': { family: 'number-of-the-day', theme: null },
+  'G1-244': { family: 'write-the-word', theme: 'fruits' },
+  'G1-245': { family: 'alphabetical-order', theme: 'animals' },
+  'G1-246': { family: 'number-walls', theme: null },
+  'G1-247': { family: 'doubles-halves', theme: 'fruits' },
+  'G1-248': { family: 'number-lines', theme: null },
+  'G1-249': { family: 'sentence-building', theme: 'animals' },
+  'G2-274': { family: 'capitals-punctuation', theme: 'vehicles' },
+  'G2-275': { family: 'word-classes', theme: 'toys' },
+  'G2-276': { family: 'money', theme: 'fruits' },
+  'G2-277': { family: 'calendar', theme: null },
+  'G2-278': { family: 'picture-writing', theme: 'vehicles' },
+  'G2-279': { family: 'grid-coordinates', theme: null },
+  'G3-370': { family: 'word-problems', theme: 'fruits' },
 };
 
 // base id → its variation keys in curriculum order (matrix assignment; keys
@@ -130,13 +151,20 @@ for (const loc of LOCALES) {
   const themeSlug = (t) => (TAX.axes.theme[t].slug[loc] || TAX.axes.theme[t].slug.en);
   const deckSlug = (id, fam, theme) => famSlug(fam) + (theme ? '-' + themeSlug(theme) : '') + '-' + id.toLowerCase().replace('-', '');
 
+  // nt20-B bases: a locale's wave may override the theme (sv/da/no K-288 → fruits); read the wave file
+  const b2ThemeFor = (id, theme) => {
+    const wp = path.join(ROOT, 'scripts', 'worksheet-gen', 'waves', 'wave-b2-' + loc + '.json');
+    if (!fs.existsSync(wp)) return theme;
+    const ov = (JSON.parse(fs.readFileSync(wp, 'utf8')).themeOverrides || {})[id];
+    return ov ? ov.replace(/ /g, '_') : theme;
+  };
   const groups = [];
   for (const [baseId, b] of Object.entries(BASES)) {
-    const baseLanding = byDeck.get(deckSlug(baseId, b.family, b.theme));
+    const baseLanding = byDeck.get(deckSlug(baseId, b.family, b2ThemeFor(baseId, b.theme)));
     if (!baseLanding) { console.warn(`${loc}: no base landing for ${baseId}`); continue; }
     const seen = new Set();
     const variations = [];
-    for (const [id, fam, theme] of GROUPS[baseId]) {
+    for (const [id, fam, theme] of (GROUPS[baseId] || [])) { // nt20-B bases have no variations yet
       const slug = byDeck.get(deckSlug(id, fam, theme));
       if (slug && slug !== baseLanding && !seen.has(slug)) { seen.add(slug); variations.push(slug); }
     }

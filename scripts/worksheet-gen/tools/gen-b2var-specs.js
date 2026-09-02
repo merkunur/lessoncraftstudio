@@ -155,8 +155,11 @@ const ROWS = [
   // Allowing the question mark lifts every locale to at least 5, and three lanes
   // (one fewer than the base d1) leave the sampler room to find a set in it and
   // da, whose name-free pools are the smallest. It is the gentlest of the three
-  // fix-the-sentence faces, which suits the entry step.
-  ['g2', 'G2-281', 'fix-the-sentence-capital-and-end-mark', 'G2-274-fix-the-sentence.js', 1, { ends: ['.', '?'], lanes: 3 },
+  // fix-the-sentence faces, which suits the entry step. needQ:1 guarantees at
+  // least one question actually appears - with a mixed pool but no floor, a
+  // three-lane page can draw three statements and the "right end mark" promise
+  // is never exercised (the Italian panel's catch, the mirror of G2-294's).
+  ['g2', 'G2-281', 'fix-the-sentence-capital-and-end-mark', 'G2-274-fix-the-sentence.js', 1, { ends: ['.', '?'], lanes: 3, needQ: 1 },
     'Fix the Sentence: Capital and End Mark', 'Rewrite each sentence with a capital letter and the right end mark.'],
   ['g2', 'G2-282', 'fix-the-sentence-choose-the-end-mark', 'G2-274-fix-the-sentence.js', 3, {},
     'Fix the Sentence: Choose the End Mark', 'Fix the capital letters and the names, and choose the right end mark.'],
@@ -280,12 +283,36 @@ function emit(row) {
   return file;
 }
 
+/**
+ * Remove any file this generator previously emitted for an id whose slug has
+ * since changed. Renaming G2-281's slug left the OLD file on disk beside the new
+ * one, so two modules declared id G2-281; loadType returns the first
+ * readdirSync match with no duplicate detection, so it resolved to the right one
+ * by directory-order luck, and loadAllTypes would have emitted both. Caught
+ * independently by the German and Dutch panels, not by any gate.
+ */
+function pruneStale(rows) {
+  const want = new Map(rows.map((r) => [r[1], r[0] + '/' + r[1] + '-' + r[2] + '.js']));
+  let removed = 0;
+  for (const dir of ['k', 'g1', 'g2', 'g3']) {
+    const abs = path.join(ROOT, 'types', dir);
+    for (const f of fs.readdirSync(abs)) {
+      const m = /^([A-Z0-9]+-[0-9]+)-/.exec(f);
+      if (!m || !want.has(m[1])) continue;
+      if (want.get(m[1]) !== dir + '/' + f) { fs.unlinkSync(path.join(abs, f)); removed++; }
+    }
+  }
+  return removed;
+}
+
 const ids = new Set(), slugs = new Set();
 for (const r of ROWS) {
   if (ids.has(r[1])) throw new Error('duplicate id ' + r[1]);
   if (slugs.has(r[2])) throw new Error('duplicate slug ' + r[2]);
   ids.add(r[1]); slugs.add(r[2]);
 }
+const pruned = pruneStale(ROWS);
 for (const r of ROWS) emit(r);
-console.log('gen-b2var-specs: emitted ' + ROWS.length + ' PARAM variation specs');
+console.log('gen-b2var-specs: emitted ' + ROWS.length + ' PARAM variation specs' +
+  (pruned ? ' (pruned ' + pruned + ' stale file(s) from a slug rename)' : ''));
 module.exports = { ROWS };

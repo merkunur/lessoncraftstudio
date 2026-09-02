@@ -1668,8 +1668,8 @@
     "instruction": "Geen hoofdletter en geen leesteken: zoek zelf de goede volgorde."
   },
   "G2-281": {
-    "title": "Hoofdletters en leestekens: de punt",
-    "instruction": "Schrijf elke zin over met een hoofdletter en een punt."
+    "title": "Hoofdletters: punt of vraagteken?",
+    "instruction": "Schrijf de zin over met een hoofdletter en het goede leesteken."
   },
   "G2-282": {
     "title": "Hoofdletters, namen en leestekens",

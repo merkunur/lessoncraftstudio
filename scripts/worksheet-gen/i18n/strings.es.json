@@ -1668,8 +1668,8 @@
     "instruction": "Aquí no hay mayúscula ni signo final de ayuda."
   },
   "G2-281": {
-    "title": "Corrige la frase: mayúscula y punto",
-    "instruction": "Le falta la mayúscula y el punto final."
+    "title": "Corrige la frase: mayúscula y puntuación",
+    "instruction": "Tres frases: pon mayúscula y signo."
   },
   "G2-282": {
     "title": "Corrige la frase: ¿punto o interrogación?",

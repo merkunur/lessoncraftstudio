@@ -158,8 +158,8 @@
       "instruction": "Geen hoofdletter en geen leesteken: zoek zelf de goede volgorde."
     },
     "G2-281": {
-      "title": "Hoofdletters en leestekens: de punt",
-      "instruction": "Schrijf elke zin over met een hoofdletter en een punt."
+      "title": "Hoofdletters: punt of vraagteken?",
+      "instruction": "Schrijf de zin over met een hoofdletter en het goede leesteken."
     },
     "G2-282": {
       "title": "Hoofdletters, namen en leestekens",
@@ -260,7 +260,7 @@
   },
   "enAudit": [
     "G1-264 undercounts: the title \"When Two Words Start the Same\" and the instruction \"Two words start alike\" describe two words, but the render carries SIX words in TWO same-initial pairs (baby/boat, scooter/swing). Should read \"some words start with the same letter\" or \"two pairs\".",
-    "G2-281 has the defect that was already fixed in its sibling G2-282: cards 3 and 4 read \"anna has a big fox\" and \"ben likes the little donkey\", so proper names must also be capitalised, but the legend shows only two chips (Capital letter, End mark) and neither the title nor the instruction mentions names. G2-282 got a Names chip and a names clause; G2-281 did not.",
+    "G2-281 (RESOLVED by the coordinator: names removed, ends now . or ?, three lanes). Two residual notes. (1) The old spec file types/g2/G2-281-fix-the-sentence-capital-and-full-stop.js is STILL ON DISK beside the new G2-281-fix-the-sentence-capital-and-end-mark.js — two files declaring id G2-281. loadType currently resolves to the new one, but that is filename-order luck, not a guarantee; delete the stale file. (2) out/b2var-sweep/g2281-animals.png was regenerated at 20:39 with only the names half of the fix: it still renders FOUR lanes, the old title and a full-stop-only instruction, so it no longer shows the shipping face.",
     "G1-283 instruction claims \"Find the one order that works\", which is false for card 4: \"giraffe / is / your / this\" yields both \"Is this your giraffe?\" and \"This is your giraffe.\" Two grammatical orders, so the uniqueness claim is wrong on that card. (Cards 1 and 3 also contain the names emma and ben, which the child must capitalise even though the page says there are no capitals.)",
     "G2-293 repeats a problem: card 1 (\"Mia pays for [red fish 40] with 25+25\") and card 3 (\"Mia buys [red fish 40] and pays with 25+25\") are the same child, the same item, the same coins and the same answer, on a page of only three cards.",
     "G1-282 instruction is now half-true after its fix: \"The capital letter and the end mark show where each sentence begins.\" The capital shows where it begins; the END MARK shows where it ENDS. The pre-fix text said \"starts and ends\" and the fix dropped the half the end mark actually signals.",
@@ -269,6 +269,7 @@
     "K-296 instruction drops \"Start at the orange dot\", which both of its siblings (K-294, K-295) carry and which the page needs: the render has the orange start dot at 11 and the child must know where to begin. Its title also wraps to two lines at the rendered width.",
     "G2-298 (Days of the Week) places two picture stickers on the calendar (the 16th and the 28th) that no question refers to, on a page whose instruction says every question is about the days of the week. The sibling G2-296 does ask about its sticker; here they are pure noise for a 7-year-old.",
     "G2-287 uses the bare word chip \"crane\" with no picture. MEMORY records crane as already mistranslated to the BIRD in es/no/da/sv/fi; with no picture to disambiguate, those locales will ship the wrong sense in a vehicles-themed page. (nl kraan is safe either way.)",
-    "out/b2var-faces.json enTitle/enInstruction are STALE against the renders for at least K-289, K-291, K-298, G1-263, G1-278, G1-282 and G2-285: the nine already-fixed defects were fixed in the generator but never back-ported to the face table. K-298 is still listed there as \"Copy the Picture on a 6x6 Grid\" (titled by size, the defect that was fixed) while the page itself reads \"Copy the Grid Picture: First Steps\". Since the brief tells panels the face table is authoritative, every future panel inherits the pre-fix English unless it opens the PNGs."
+    "out/b2var-faces.json enTitle/enInstruction are STALE against the renders for at least K-289, K-291, K-298, G1-263, G1-278, G1-282 and G2-285: the nine already-fixed defects were fixed in the generator but never back-ported to the face table. K-298 is still listed there as \"Copy the Picture on a 6x6 Grid\" (titled by size, the defect that was fixed) while the page itself reads \"Copy the Grid Picture: First Steps\". Since the brief tells panels the face table is authoritative, every future panel inherits the pre-fix English unless it opens the PNGs.",
+    "nl sentence-bank note supporting the G2-281 redesign: of the 15 nl frames marked uses:[fix], 6 are name-free and only TWO of those end in a full stop (De {noun} zijn heel groot./klein.) against FOUR ending in a question mark. On a three-lane name-free page a Dutch child is therefore guaranteed at least one question, and usually two or three, so any nl copy naming only de punt would be false on most draws."
   ]
 }

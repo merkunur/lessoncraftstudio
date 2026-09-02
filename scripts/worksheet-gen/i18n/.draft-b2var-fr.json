@@ -158,8 +158,8 @@
       "instruction": "Ni majuscule ni point pour t'aider."
     },
     "G2-281": {
-      "title": "Corrige la phrase : majuscule et point",
-      "instruction": "Il manque la majuscule et le point."
+      "title": "Corrige la phrase : majuscule et signe final",
+      "instruction": "À la fin : point ou question ?"
     },
     "G2-282": {
       "title": "Corrige la phrase : quel signe à la fin ?",

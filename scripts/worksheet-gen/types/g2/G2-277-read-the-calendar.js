@@ -12,8 +12,10 @@
 'use strict';
 const calendar = require('../../primitives/calendar.js');
 const { answerBox } = require('../../templates/components.js');
-const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const { fileUri } = require('../../image-cache/resolve.js');
+const { safeNouns } = require('../../lib/b2-common.js');
 const { CALENDAR, ordinal } = require('../../data/b2/calendar.js');
+const { LABELS } = require('../../data/b2/labels.js');
 
 
 /** Inline-picture typography: a picture followed by punctuation loses its right margin (no " ." gap),
@@ -61,7 +63,7 @@ module.exports = {
     } while (d.sixRows && meta.rows < 6 && guard < 50 && loc !== 'xx');
     const days = meta.days;
     // stickers on distinct days ≥ 2 apart, never the 1st
-    const nouns = rng.sample(labelSafeNouns(STICKER_THEME), d.stickers);
+    const nouns = rng.sample(safeNouns(STICKER_THEME, loc), d.stickers);
     const stickerDays = [];
     let g2 = 0;
     while (stickerDays.length < d.stickers && g2++ < 200) {
@@ -94,7 +96,7 @@ module.exports = {
       else if (kind === 'firstDay') { answer = dayName(1); slot = 'word'; }
       else if (kind === 'lastDay') { answer = dayName(days); slot = 'word'; }
       else if (kind === 'after') { const a = stickers[0], b = stickers[stickers.length - 1]; text = f.replace('{stickerA}', inline(a)).replace('{stickerB}', inline(b)); answer = b.day - a.day; arg = `${a.key},${b.key}`; }
-      text = glueInline(text);
+      text = glueInline(text).replace(/\.\s*\.(?=\s|$)/g, '.'); // "den 15.." → "den 15."
       if (/\{/.test(text)) throw new Error(`G2-277: unfilled slot in ${kind}`);
       return { kind, text, answer, slot, arg };
     });
@@ -103,7 +105,12 @@ module.exports = {
       `<div style="display:flex;gap:10px;align-items:flex-start"><span style="flex:0 0 26px;width:26px;height:26px;border-radius:50%;background:#146B5E;color:#FFFFFF;font-family:'Baloo 2';font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center">${i + 1}</span>` +
       `<p style="flex:1;margin:0;font-family:'Nunito';font-weight:800;font-size:15px;line-height:1.35;color:#3A3530" data-lcs-qtext>${q.text}</p>` +
       `</div><div style="display:flex;justify-content:flex-end">${answerBox({ w: q.slot === 'word' ? 150 : 60, h: 40, answer: q.answer })}</div></div>`).join('');
-    const monthBar = `<div style="font-family:'Baloo 2';font-weight:700;font-size:24px;color:#146B5E;text-align:center" data-lcs-monthbar data-lcs-month="${month}" data-lcs-year="${year}">${C.monthNames[month]} ${year}</div>`;
+    // the heading capitalises the month even where the language writes it lowercase (marts → Marts);
+    // the per-locale template ({month} de {year}) comes from the panel's labels
+    const monthTpl = (LABELS[loc] && LABELS[loc].calendar && LABELS[loc].calendar.monthTitle) || '{month} {year}';
+    const monthName = C.monthNames[month];
+    const monthText = monthTpl.replace('{month}', monthName.charAt(0).toLocaleUpperCase(loc) + monthName.slice(1)).replace('{year}', String(year));
+    const monthBar = `<div style="font-family:'Baloo 2';font-weight:700;font-size:24px;color:#146B5E;text-align:center" data-lcs-monthbar data-lcs-month="${month}" data-lcs-year="${year}">${monthText}</div>`;
     return {
       bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;gap:14px;justify-content:flex-start;align-items:center;padding-top:4px" data-ws-content>` +
         `${monthBar}${cal.svg}<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px 12px;width:660px">${qHtml}</div></div>`,

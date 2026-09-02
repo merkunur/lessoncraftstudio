@@ -11,7 +11,8 @@
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { answerBox } = require('../../templates/components.js');
 const { mirrorGroups, dotPanel } = require('../../templates/components-b2.js');
-const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const { fileUri } = require('../../image-cache/resolve.js');
+const { safeNouns } = require('../../lib/b2-common.js');
 const { LABELS } = require('../../data/b2/labels.js');
 
 const NUM = (s) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:26px;color:#3A3530">${s}</span>`;
@@ -42,7 +43,7 @@ module.exports = {
     const loc = (locale || 'en').slice(0, 2);
     const L = LABELS[loc] && LABELS[loc].doublesHalves;
     if (!L) throw new Error(`G1-247: no labels for ${loc}`);
-    const noun = rng.pick(labelSafeNouns(theme));
+    const noun = rng.pick(safeNouns(theme, loc));
     const src = fileUri(theme, noun.noun);
     const half = d.cards / 2;
     const dRange = []; for (let v = d.dMin; v <= d.dMax; v++) dRange.push(v);

@@ -1430,5 +1430,85 @@
   "K-283": {
     "title": "Mine første små bogstaver: a b c d",
     "instruction": "Skriv oven i hvert lille bogstav, og prøv derefter selv på den tomme linje. Start ved den orange prik, og følg pilene."
+  },
+  "K-284": {
+    "title": "Skriv ordene efter",
+    "instruction": "Sig ordet til billedet. Skriv oven i de stiplede bogstaver, og skriv derefter ordet selv på de tomme linjer."
+  },
+  "K-285": {
+    "title": "Prik til prik",
+    "instruction": "Start ved den orange prik. Tegn streger fra prik til prik i den rigtige rækkefølge, til billedet kommer frem."
+  },
+  "K-286": {
+    "title": "Tegn efter i kvadratnet",
+    "instruction": "Se godt på billedet til venstre. Farvelæg de samme felter i det tomme kvadratnet, så billedet bliver magen til."
+  },
+  "K-287": {
+    "title": "Ental og flertal",
+    "instruction": "Læs ordet for én. Skriv derefter oven i ordet for flere, og skriv det selv på den tomme linje."
+  },
+  "K-288": {
+    "title": "En eller et?",
+    "instruction": "Sig ordet til billedet højt. Sæt en ring om det ord, der passer foran: en eller et."
+  },
+  "G1-242": {
+    "title": "Læs og farvelæg",
+    "instruction": "Læs hver sætning grundigt. Farvelæg derefter præcis de billeder, sætningen siger – i den rigtige farve."
+  },
+  "G1-243": {
+    "title": "Dagens tal",
+    "instruction": "Se på dagens tal. Udfyld hvert felt på siden ved hjælp af tallet."
+  },
+  "G1-244": {
+    "title": "Skriv ordet til billedet",
+    "instruction": "Sig, hvad billedet forestiller. Skriv ordet på linjen."
+  },
+  "G1-245": {
+    "title": "Alfabetisk rækkefølge",
+    "instruction": "Brug alfabetet øverst. Nummerér billedordene fra 1 til 6 i alfabetisk rækkefølge, og skriv dem derefter i rækkefølge på linjerne."
+  },
+  "G1-246": {
+    "title": "Talpyramider",
+    "instruction": "Hver sten er summen af de to sten under den. Skriv de tal, der mangler."
+  },
+  "G1-247": {
+    "title": "Det dobbelte og det halve",
+    "instruction": "Se på mærkaten over hver gruppe: det dobbelte eller det halve. Regn ud, og skriv tallene i felterne."
+  },
+  "G1-248": {
+    "title": "Aflæs tallinjen",
+    "instruction": "Hver pil peger på en streg. Tæl videre fra tallet før pilen, og skriv tallet i feltet."
+  },
+  "G1-249": {
+    "title": "Sæt ordene i rækkefølge",
+    "instruction": "Ordene er blandet sammen. Sæt dem i den rigtige rækkefølge, og skriv sætningen på linjen med stort bogstav og punktum eller spørgsmålstegn."
+  },
+  "G2-274": {
+    "title": "Stort bogstav og punktum",
+    "instruction": "I hver sætning mangler det store bogstav og tegnet til sidst. Skriv sætningen rigtigt på linjen."
+  },
+  "G2-275": {
+    "title": "Navneord, udsagnsord og tillægsord",
+    "instruction": "Læs hvert ord. Er det et navneord, et udsagnsord eller et tillægsord? Skriv ordet i den rigtige kasse."
+  },
+  "G2-276": {
+    "title": "Købmandsregning",
+    "instruction": "Find hver vare på hylden, og læs prisen. Svar derefter på spørgsmålene om pengene."
+  },
+  "G2-277": {
+    "title": "Læs kalenderen",
+    "instruction": "Se på kalenderen. Brug den til at svare på alle spørgsmålene."
+  },
+  "G2-278": {
+    "title": "Skriv til billedet",
+    "instruction": "Se godt på billedet. Brug ordbanken, og skriv, hvad du ser, og hvad der sker."
+  },
+  "G2-279": {
+    "title": "Koordinater i kvadratnet",
+    "instruction": "Find hvert felt ved hjælp af bogstav og tal, for eksempel B2. Farvelæg det i gruppens farve, til billedet kommer frem."
+  },
+  "G3-370": {
+    "title": "Regnehistorier med gange og division",
+    "instruction": "Læs hver regnehistorie. Brug billedet som hjælp. Skriv svaret i feltet, og gør derefter svarsætningen færdig."
   }
 }

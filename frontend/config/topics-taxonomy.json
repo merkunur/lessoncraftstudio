@@ -2794,7 +2794,10 @@
           "pt": "palavras-pontilhadas",
           "it": "parole-tratteggiate",
           "nl": "woorden-overtrekken",
-          "sv": "spara-ord"
+          "sv": "spara-ord",
+          "da": "skriv-ordene-efter",
+          "no": "spor-ord",
+          "fi": "sanojen-jaljentaminen"
         },
         "name": {
           "en": "Word Tracing",
@@ -2804,7 +2807,10 @@
           "pt": "Palavras pontilhadas",
           "it": "Parole tratteggiate",
           "nl": "Woorden overtrekken",
-          "sv": "Spåra ord"
+          "sv": "Spåra ord",
+          "da": "Skriv ordene efter",
+          "no": "Spor ord",
+          "fi": "Sanojen jäljentäminen"
         }
       },
       "dot-to-dot": {
@@ -2816,7 +2822,10 @@
           "pt": "ligue-os-pontos",
           "it": "unisci-i-puntini",
           "nl": "van-stip-naar-stip",
-          "sv": "prick-till-prick"
+          "sv": "prick-till-prick",
+          "da": "prik-til-prik",
+          "no": "prikk-til-prikk",
+          "fi": "pisteesta-pisteeseen"
         },
         "name": {
           "en": "Dot-to-Dot",
@@ -2826,7 +2835,10 @@
           "pt": "Ligue os pontos",
           "it": "Unisci i puntini",
           "nl": "Van stip naar stip",
-          "sv": "Prick till prick"
+          "sv": "Prick till prick",
+          "da": "Prik til prik",
+          "no": "Prikk til prikk",
+          "fi": "Pisteestä pisteeseen"
         }
       },
       "grid-copy": {
@@ -2838,7 +2850,10 @@
           "pt": "copia-na-malha-quadriculada",
           "it": "riproduzione-sui-quadretti",
           "nl": "natekenen-op-ruitjes",
-          "sv": "rita-av-i-rutnat"
+          "sv": "rita-av-i-rutnat",
+          "da": "tegn-efter-i-kvadratnet",
+          "no": "tegn-etter-i-rutenett",
+          "fi": "piirra-mallin-mukaan"
         },
         "name": {
           "en": "Copy the Grid Picture",
@@ -2848,7 +2863,10 @@
           "pt": "Cópia na malha quadriculada",
           "it": "Riproduzione sui quadretti",
           "nl": "Natekenen op ruitjes",
-          "sv": "Rita av i rutnät"
+          "sv": "Rita av i rutnät",
+          "da": "Tegn efter i kvadratnet",
+          "no": "Tegn etter i rutenett",
+          "fi": "Piirrä mallin mukaan"
         }
       },
       "singular-plural": {
@@ -2860,7 +2878,10 @@
           "pt": "singular-e-plural",
           "it": "singolare-e-plurale",
           "nl": "enkelvoud-en-meervoud",
-          "sv": "singular-och-plural"
+          "sv": "singular-och-plural",
+          "da": "ental-og-flertal",
+          "no": "entall-og-flertall",
+          "fi": "yksikko-ja-monikko"
         },
         "name": {
           "en": "Singular and Plural",
@@ -2870,7 +2891,10 @@
           "pt": "Singular e plural",
           "it": "Singolare e plurale",
           "nl": "Enkelvoud en meervoud",
-          "sv": "Singular och plural"
+          "sv": "Singular och plural",
+          "da": "Ental og flertal",
+          "no": "Entall og flertall",
+          "fi": "Yksikkö ja monikko"
         }
       },
       "articles": {
@@ -2882,7 +2906,10 @@
           "pt": "artigos-o-e-a",
           "it": "articoli-determinativi",
           "nl": "de-of-het",
-          "sv": "en-eller-ett"
+          "sv": "en-eller-ett",
+          "da": "en-eller-et",
+          "no": "en-eller-et",
+          "fi": "yksi-vai-monta"
         },
         "name": {
           "en": "Articles",
@@ -2892,7 +2919,10 @@
           "pt": "Artigos o e a",
           "it": "Articoli determinativi",
           "nl": "De of het",
-          "sv": "En eller ett"
+          "sv": "En eller ett",
+          "da": "En eller et",
+          "no": "En eller et",
+          "fi": "Yksi vai monta"
         }
       },
       "read-and-color": {
@@ -2904,7 +2934,10 @@
           "pt": "leia-e-pinte",
           "it": "leggi-e-colora",
           "nl": "lees-en-kleur",
-          "sv": "las-och-mala"
+          "sv": "las-och-mala",
+          "da": "laes-og-farvelaeg",
+          "no": "les-og-fargelegg",
+          "fi": "lue-ja-varita"
         },
         "name": {
           "en": "Read and Color",
@@ -2914,7 +2947,10 @@
           "pt": "Leia e pinte",
           "it": "Leggi e colora",
           "nl": "Lees en kleur",
-          "sv": "Läs och måla"
+          "sv": "Läs och måla",
+          "da": "Læs og farvelæg",
+          "no": "Les og fargelegg",
+          "fi": "Lue ja väritä"
         }
       },
       "number-of-the-day": {
@@ -2926,7 +2962,10 @@
           "pt": "numero-do-dia",
           "it": "il-numero-del-giorno",
           "nl": "getal-van-de-dag",
-          "sv": "dagens-tal"
+          "sv": "dagens-tal",
+          "da": "dagens-tal",
+          "no": "dagens-tall",
+          "fi": "paivan-luku"
         },
         "name": {
           "en": "Number of the Day",
@@ -2936,7 +2975,10 @@
           "pt": "Número do dia",
           "it": "Il numero del giorno",
           "nl": "Getal van de dag",
-          "sv": "Dagens tal"
+          "sv": "Dagens tal",
+          "da": "Dagens tal",
+          "no": "Dagens tall",
+          "fi": "Päivän luku"
         }
       },
       "write-the-word": {
@@ -2948,7 +2990,10 @@
           "pt": "escreva-o-nome-da-figura",
           "it": "dettato-muto",
           "nl": "schrijf-het-woord",
-          "sv": "skriv-ordet"
+          "sv": "skriv-ordet",
+          "da": "skriv-ordet",
+          "no": "skriv-ordet",
+          "fi": "kirjoita-kuvan-sana"
         },
         "name": {
           "en": "Write the Word",
@@ -2958,7 +3003,10 @@
           "pt": "Escreva o nome da figura",
           "it": "Dettato muto",
           "nl": "Schrijf het woord",
-          "sv": "Skriv ordet"
+          "sv": "Skriv ordet",
+          "da": "Skriv ordet",
+          "no": "Skriv ordet",
+          "fi": "Kirjoita kuvan sana"
         }
       },
       "alphabetical-order": {
@@ -2970,7 +3018,10 @@
           "pt": "ordem-alfabetica",
           "it": "ordine-alfabetico",
           "nl": "alfabetische-volgorde",
-          "sv": "alfabetisk-ordning"
+          "sv": "alfabetisk-ordning",
+          "da": "alfabetisk-raekkefoelge",
+          "no": "alfabetisk-rekkefolge",
+          "fi": "aakkosjarjestys"
         },
         "name": {
           "en": "Alphabetical Order",
@@ -2980,7 +3031,10 @@
           "pt": "Ordem alfabética",
           "it": "Ordine alfabetico",
           "nl": "Alfabetische volgorde",
-          "sv": "Alfabetisk ordning"
+          "sv": "Alfabetisk ordning",
+          "da": "Alfabetisk rækkefølge",
+          "no": "Alfabetisk rekkefølge",
+          "fi": "Aakkosjärjestys"
         }
       },
       "number-walls": {
@@ -2992,7 +3046,10 @@
           "pt": "piramide-de-numeros",
           "it": "piramidi-di-numeri",
           "nl": "rekenpiramides",
-          "sv": "talpyramider"
+          "sv": "talpyramider",
+          "da": "talpyramider",
+          "no": "tallpyramider",
+          "fi": "lukupyramidit"
         },
         "name": {
           "en": "Number Walls",
@@ -3002,7 +3059,10 @@
           "pt": "Pirâmide de números",
           "it": "Piramidi di numeri",
           "nl": "Rekenpiramides",
-          "sv": "Talpyramider"
+          "sv": "Talpyramider",
+          "da": "Talpyramider",
+          "no": "Tallpyramider",
+          "fi": "Lukupyramidit"
         }
       },
       "doubles-halves": {
@@ -3014,7 +3074,10 @@
           "pt": "dobro-e-metade",
           "it": "doppio-e-meta",
           "nl": "verdubbelen-en-halveren",
-          "sv": "dubbelt-och-halften"
+          "sv": "dubbelt-och-halften",
+          "da": "det-dobbelte-og-det-halve",
+          "no": "det-dobbelte-og-halvparten",
+          "fi": "kaksinkertainen-ja-puolet"
         },
         "name": {
           "en": "Doubles and Halves",
@@ -3024,7 +3087,10 @@
           "pt": "Dobro e metade",
           "it": "Doppio e metà",
           "nl": "Verdubbelen en halveren",
-          "sv": "Dubbelt och hälften"
+          "sv": "Dubbelt och hälften",
+          "da": "Det dobbelte og det halve",
+          "no": "Det dobbelte og halvparten",
+          "fi": "Kaksinkertainen ja puolet"
         }
       },
       "sentence-building": {
@@ -3036,7 +3102,10 @@
           "pt": "frases-embaralhadas",
           "it": "frasi-in-disordine",
           "nl": "husselzinnen",
-          "sv": "meningsbyggnad"
+          "sv": "meningsbyggnad",
+          "da": "byg-saetninger",
+          "no": "setningsbygging",
+          "fi": "lauseen-rakentaminen"
         },
         "name": {
           "en": "Sentence Building",
@@ -3046,7 +3115,10 @@
           "pt": "Frases embaralhadas",
           "it": "Frasi in disordine",
           "nl": "Husselzinnen",
-          "sv": "Meningsbyggnad"
+          "sv": "Meningsbyggnad",
+          "da": "Byg sætninger",
+          "no": "Setningsbygging",
+          "fi": "Lauseen rakentaminen"
         }
       },
       "capitals-punctuation": {
@@ -3058,7 +3130,10 @@
           "pt": "maiuscula-e-pontuacao",
           "it": "maiuscole-e-punteggiatura",
           "nl": "hoofdletters-en-leestekens",
-          "sv": "stor-bokstav-och-skiljetecken"
+          "sv": "stor-bokstav-och-skiljetecken",
+          "da": "stort-bogstav-og-punktum",
+          "no": "stor-bokstav-og-punktum",
+          "fi": "iso-alkukirjain-ja-valimerkit"
         },
         "name": {
           "en": "Capital Letters and Punctuation",
@@ -3068,7 +3143,10 @@
           "pt": "Maiúscula e pontuação",
           "it": "Maiuscole e punteggiatura",
           "nl": "Hoofdletters en leestekens",
-          "sv": "Stor bokstav och skiljetecken"
+          "sv": "Stor bokstav och skiljetecken",
+          "da": "Stort bogstav og punktum",
+          "no": "Stor bokstav og punktum",
+          "fi": "Iso alkukirjain ja välimerkit"
         }
       },
       "word-classes": {
@@ -3080,7 +3158,10 @@
           "pt": "classes-de-palavras",
           "it": "nomi-verbi-e-aggettivi",
           "nl": "woordsoorten",
-          "sv": "ordklasser"
+          "sv": "ordklasser",
+          "da": "ordklasser",
+          "no": "ordklasser",
+          "fi": "sanaluokat"
         },
         "name": {
           "en": "Word Classes",
@@ -3090,7 +3171,10 @@
           "pt": "Classes de palavras",
           "it": "Nomi, verbi e aggettivi",
           "nl": "Woordsoorten",
-          "sv": "Ordklasser"
+          "sv": "Ordklasser",
+          "da": "Ordklasser",
+          "no": "Ordklasser",
+          "fi": "Sanaluokat"
         }
       },
       "calendar": {
@@ -3102,7 +3186,10 @@
           "pt": "calendario",
           "it": "il-calendario",
           "nl": "kalender-lezen",
-          "sv": "kalendern"
+          "sv": "kalendern",
+          "da": "kalenderen",
+          "no": "kalenderen",
+          "fi": "kalenteri"
         },
         "name": {
           "en": "Calendar",
@@ -3112,7 +3199,10 @@
           "pt": "Calendário",
           "it": "Il calendario",
           "nl": "Kalender lezen",
-          "sv": "Kalendern"
+          "sv": "Kalendern",
+          "da": "Kalenderen",
+          "no": "Kalenderen",
+          "fi": "Kalenteri"
         }
       },
       "picture-writing": {
@@ -3124,7 +3214,10 @@
           "pt": "producao-de-texto-com-imagem",
           "it": "produzione-scritta",
           "nl": "schrijven-bij-een-plaatje",
-          "sv": "skriv-till-bilden"
+          "sv": "skriv-till-bilden",
+          "da": "skriv-til-billedet",
+          "no": "skriv-til-bildet",
+          "fi": "kuvasta-kirjoittaminen"
         },
         "name": {
           "en": "Picture Writing Prompts",
@@ -3134,7 +3227,10 @@
           "pt": "Produção de texto com imagem",
           "it": "Produzione scritta",
           "nl": "Schrijven bij een plaatje",
-          "sv": "Skriv till bilden"
+          "sv": "Skriv till bilden",
+          "da": "Skriv til billedet",
+          "no": "Skriv til bildet",
+          "fi": "Kuvasta kirjoittaminen"
         }
       },
       "grid-coordinates": {
@@ -3146,7 +3242,10 @@
           "pt": "coordenadas-na-malha",
           "it": "coordinate-sulla-griglia",
           "nl": "coordinaten-in-het-rooster",
-          "sv": "koordinater-i-rutnat"
+          "sv": "koordinater-i-rutnat",
+          "da": "koordinater-i-kvadratnet",
+          "no": "koordinater-i-rutenett",
+          "fi": "koordinaatit"
         },
         "name": {
           "en": "Grid Coordinates",
@@ -3156,7 +3255,10 @@
           "pt": "Coordenadas na malha",
           "it": "Coordinate sulla griglia",
           "nl": "Coördinaten in het rooster",
-          "sv": "Koordinater i rutnät"
+          "sv": "Koordinater i rutnät",
+          "da": "Koordinater i kvadratnet",
+          "no": "Koordinater i rutenett",
+          "fi": "Koordinaatit"
         }
       }
     },

@@ -54,6 +54,34 @@ const ARTICLE_OVERRIDES = {
       "domino"
     ],
     "note": "en/ett keyed off the vocab gender (n = en-ord → 'en', t = ett-ord → 'ett'); this IS the F-klass/åk 1 drill 'en eller ett?'. Title 'En eller ett?' is the genre phrase. REFUSE (keyFor → null) the toys entries whose stored singular is a plural or a mass/game noun: blocks 'Klossar', crayons 'Kritor' (a lone 'en' before a plural is wrong), chess 'Schack' (a game — 'ett schackspel', never 'ett schack'), lego 'Lego' (mass noun) and domino 'Domino' (the piece is 'en dominobricka'). The wave rule (fruits/vehicles/toys before animals) is necessary but not sufficient for sv: the colour animals theme has ONE ett-noun (får) in 37, so a 6-card animals page is 'en' six times and teaches nothing — the panel asks the generator to refuse a theme for sv when it cannot place ≥ 2 ett-nouns on the page. Fruits (äpple, päron, plommon, fikon, hallon, körsbär, blåbär, granatäpple), vehicles (flygplan, jetplan, skepp, tåg) and toys (flygplan, kort, tåg) all key cleanly."
+  },
+  "da": {
+    "refuse": false,
+    "refuseKeys": [
+      "blocks",
+      "crayons",
+      "chess",
+      "lego",
+      "domino",
+      "dice"
+    ],
+    "note": "en/et keyed off the vocab gender (n = fælleskøn → 'en', t = intetkøn → 'et'); this IS the børnehaveklasse/1. klasse drill 'en eller et?'. Title 'En eller et?' is the genre phrase Danish teachers search. REFUSE (keyFor → null) the toys entries whose stored singular is a plural or a mass/game noun: blocks 'Klodser' and dice 'Terninger' (a lone 'en' before a plural is wrong — both are vocab defects, see enAudit), chess 'Skak' (a game — 'et skakspil', never 'en skak'), lego 'Lego' (mass noun), domino 'Domino' (the piece is 'en dominobrik'), crayons 'Farvekridt' (the picture shows several crayons; 'et farvekridt' would name one). The wave rule (fruits/vehicles/toys before animals) is necessary but not sufficient for da: the colour animals theme has TWO et-nouns (får, rensdyr) in 37, so a 6-card animals page is 'en' six times and teaches nothing — the panel asks the generator to refuse a theme for da when it cannot place ≥ 2 et-nouns on the page. Fruits (æble, granatæble and all the -bær nouns: brombær, blåbær, kirsebær, tranebær, jordbær, hindbær = 8 et-nouns), vehicles (jetfly, løbehjul, skib, skateboard, tog = 5) and toys (kort, løbehjul, skateboard, tog = 4 after the refusals) all key cleanly."
+  },
+  "no": {
+    "refuse": false,
+    "refuseKeys": [
+      "blocks",
+      "crayons",
+      "dice",
+      "chess",
+      "lego",
+      "domino"
+    ],
+    "note": "en/et keyed off the vocab gender (m and f → 'en', n → 'et'); this IS the 1. trinn drill 'en eller et?'. Do NOT offer 'ei': bokmål allows 'en' before every feminine noun, the vocab stores feminines as m anyway (jente, ku, geit, bøtte, dukke, pære …), so a three-chip page would have NO card where 'ei' is the one correct answer and would only confuse — two chips, both always decidable, is the safe page. REFUSE (keyFor → null) the toys entries whose stored singular is a plural or a mass/game noun: blocks 'Klosser', crayons 'Fargestifter', dice 'Terninger' (a lone 'en' before a plural is wrong), chess 'Sjakk' (a game — 'et sjakkspill', never 'en sjakk'), lego 'Lego' (mass noun; the stored plural 'Legoer' is not a word) and domino 'Domino' (the piece is 'en dominobrikke'). Animals is gender-degenerate for no too: the colour animals theme has TWO et-nouns (esel, reinsdyr) in 37, so a 6-card animals page is 'en' six times and teaches nothing — the wave rule (fruits/vehicles/toys before animals) is necessary but not sufficient; ask the generator to refuse a theme for no when it cannot place ≥ 2 et-nouns on the page. Fruits (eple, bjørnebær, blåbær, kirsebær, tranebær, granateple, jordbær, bringebær), vehicles (fly, helikopter, jetfly, skip, tog) and toys (fly, kort, helikopter, tog) all key cleanly."
+  },
+  "fi": {
+    "refuse": false,
+    "note": "fi mode:'form' (yksikkö/monikko keyed by picture count) SHIPS. It is a genuine esikoulu/1.-luokka staple ('yksi vai monta', 'yksikkö ja monikko') and pairs with K-287: K-288 is the recognition step (circle the form), K-287 the production step (write the plural). Chips show the stored nominative singular/plural — correct for every wave noun. Panel request for the generator: refuse (keyFor → null) toys entries whose stored singular is already a plural or a mass/game noun — blocks 'Palikat', cards 'Kortit', crayons 'Värikynät', dice 'Nopat', chess 'Shakki', lego 'Lego', domino 'Domino' — the two chips would be identical or both wrong (the existing plural!==singular guard already catches the identical-chip ones; chess/lego/domino still need a guard). Keep the wave order fruits/vehicles/toys before animals."
   }
 };
 

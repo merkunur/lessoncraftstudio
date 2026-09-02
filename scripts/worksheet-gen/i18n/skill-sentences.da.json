@@ -190,5 +190,73 @@
   "lowercase-letter-tracing": {
     "full": "At skrive oven i de små bogstaver på skrivelinjer træner mellemhøjden, de bogstaver der går op, og dem der går under linjen.",
     "short": "Træner formen på de små bogstaver."
+  },
+  "word-tracing": {
+    "full": "At skrive oven i ordet til et billede og derefter skrive det selv binder ting, ord og stavemåde sammen i ét greb – de første hele ord.",
+    "short": "Træner at skrive de første ord efter billede."
+  },
+  "dot-to-dot": {
+    "full": "At tegne streger fra prik til prik i den rigtige rækkefølge træner talrækken og blyantkontrollen, til et billede kommer frem.",
+    "short": "Træner talrækken og blyantkontrol."
+  },
+  "grid-copy": {
+    "full": "At tegne et billede efter felt for felt i et tomt kvadratnet træner nøjagtigt syn, rumopfattelse og en rolig, sikker hånd.",
+    "short": "Træner at tegne nøjagtigt efter i kvadratnet."
+  },
+  "singular-plural": {
+    "full": "At se ét billede ved siden af flere og skrive flertalsformen fæstner de endelser, børn hører hver dag, men sjældent skriver.",
+    "short": "Træner ental og flertal af navneord."
+  },
+  "articles": {
+    "full": "At sætte ring om en eller et til hvert billede opbygger den fornemmelse for ordenes køn, som alle senere sætninger hviler på.",
+    "short": "Træner en-ord og et-ord."
+  },
+  "read-and-color": {
+    "full": "At læse en kort sætning og farvelægge præcis det, der står, gør afkodning til rigtig læseforståelse, barnet selv kan tjekke.",
+    "short": "Træner læseforståelse gennem farvelægning."
+  },
+  "number-of-the-day": {
+    "full": "At vise ét tal med bogstaver, i tiere og enere, på tallinjen og med tallene før og efter opbygger en dyb talforståelse.",
+    "short": "Træner talforståelse på mange måder."
+  },
+  "write-the-word": {
+    "full": "At skrive ordet til hvert billede på linjen, med eller uden ordbank, træner lydret stavning fra lyd til bogstav.",
+    "short": "Træner stavning efter billeder."
+  },
+  "alphabetical-order": {
+    "full": "At ordne billedord i alfabetisk rækkefølge fæstner bogstavrækken og træner det opslag, som enhver ordbog kræver.",
+    "short": "Træner alfabetisk rækkefølge."
+  },
+  "number-walls": {
+    "full": "At fylde hver sten med summen af de to sten under den træner sikker addition og at finde det tal, der mangler.",
+    "short": "Træner addition med talpyramider."
+  },
+  "doubles-halves": {
+    "full": "At finde det dobbelte af én gruppe og det halve af en anden fæstner de dobbelte, der åbner for nabotal, lige tal og gange.",
+    "short": "Træner det dobbelte og det halve."
+  },
+  "sentence-building": {
+    "full": "At ordne blandede ordkort til en sætning træner ordstilling, stort bogstav og fornemmelsen for, hvornår en sætning er hel.",
+    "short": "Træner ordstilling og sætningsbygning."
+  },
+  "capitals-punctuation": {
+    "full": "At skrive hver sætning om med stort bogstav og det rigtige tegn til sidst fæstner de regler, der gør en tekst læselig.",
+    "short": "Træner stort bogstav og punktum."
+  },
+  "word-classes": {
+    "full": "At sortere ord i navneord, udsagnsord og tillægsord opbygger de ordklasser, børn skal bruge for at kunne tale om sproget.",
+    "short": "Træner at kende ordklasserne."
+  },
+  "calendar": {
+    "full": "At aflæse datoer, ugedage og uger i en rigtig månedskalender træner præcis det, børn har brug for i hverdagen.",
+    "short": "Træner at læse kalenderen."
+  },
+  "picture-writing": {
+    "full": "At skrive til et billede med ordbank og sætningsstartere gør den tomme linje til en første lille fortælling, barnet selv har lavet.",
+    "short": "Træner at skrive til et billede."
+  },
+  "grid-coordinates": {
+    "full": "At finde hvert felt ud fra bogstav og tal og farvelægge det træner at læse koordinater og afslører et skjult billede.",
+    "short": "Træner at læse koordinater i kvadratnet."
   }
 }

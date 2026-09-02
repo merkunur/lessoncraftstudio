@@ -13,7 +13,8 @@
 const { answerBox } = require('../../templates/components.js');
 const { shelf, dotPanel } = require('../../templates/components-b2.js');
 const { coin, sizeFor } = require('../../primitives/coins.js');
-const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const { fileUri } = require('../../image-cache/resolve.js');
+const { safeNouns } = require('../../lib/b2-common.js');
 const { CURRENCIES } = require('../../data/money/currencies.js');
 const { SHOP_FRAMES } = require('../../data/b2/shop-frames.js');
 const { FRAMES } = require('../../data/word-problems/frames.js');
@@ -61,7 +62,7 @@ module.exports = {
     const names = (FRAMES[loc] && FRAMES[loc].names) || bank.names;
     if (!names) throw new Error(`G2-276: no names for ${loc}`);
     const scale = cur.unit === 'kr' || cur.unit === 'kr.' ? 2 : 5;
-    const shopPool = labelSafeNouns(theme).filter((n) => !PERSON_KEYS.has(String(n.vocabKey).toLowerCase()) && !PERSON_KEYS.has(String(n.noun).toLowerCase().replace(/\s*\d+$/, '')));
+    const shopPool = safeNouns(theme, loc).filter((n) => !PERSON_KEYS.has(String(n.vocabKey).toLowerCase()) && !PERSON_KEYS.has(String(n.noun).toLowerCase().replace(/\s*\d+$/, '')));
     if (shopPool.length < d.items) throw new Error(`G2-276: theme ${theme} has ${shopPool.length} sellable items < ${d.items}`);
     const nouns = rng.sample(shopPool, d.items);
     const bases = rng.sample([2, 3, 4, 5, 6, 7, 8, 9].filter((b) => b <= d.baseMax), d.items);
@@ -127,7 +128,7 @@ module.exports = {
       refs.forEach((r, i) => { html = html.replace(`{item${i + 1}}`, icon(r)); });
       // the coins render INLINE at the {coins} slot
       if (html.includes('{coins}')) { html = html.replace('{coins}', extra); extra = ''; }
-      html = glueInline(html);
+      html = glueInline(html).replace(/\.\s*\.(?=\s|$)/g, '.'); // "6 kr.." → "6 kr."
       if (/\{/.test(html)) throw new Error(`G2-276: unfilled slot in "${sentence}"`);
       cards.push(`<div class="ws-card" style="padding:${d.pad || '12px 18px'};gap:${d.gap === 10 ? 5 : 8}px;min-height:${d.cardH}px" data-lcs-problem data-lcs-qtype="${kind}" data-lcs-refs="${refs.join(',')}" data-lcs-answer="${answer}">` +
         `<span class="ws-card-badge">${k + 1}</span>` +
@@ -145,7 +146,7 @@ module.exports = {
   async verify(page) {
     return page.evaluate(() => {
       const fails = [];
-      const UNITS = { en: '¢', de: 'ct', es: 'cts', fr: 'c', it: 'cent', pt: 'centavos', nl: 'ct', fi: 'ct', sv: 'kr', da: 'kr.', no: 'kr' };
+      const UNITS = { en: '¢', de: 'ct', es: 'cts', fr: 'c', it: 'cent', pt: 'centavos', nl: 'ct', fi: 'snt', sv: 'kr', da: 'kr.', no: 'kr' };
       const lang = (document.documentElement.lang || 'en').slice(0, 2);
       const shelfItems = [...document.querySelectorAll('[data-lcs-shelfitem]')];
       if (shelfItems.length < 4) fails.push(`shelf has ${shelfItems.length} items`);

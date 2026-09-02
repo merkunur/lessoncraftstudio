@@ -390,6 +390,150 @@ const LABELS = {
     "calendar": {
       "monthTitle": "{month} {year}"
     }
+  },
+  "da": {
+    "numberOfDay": {
+      "numberWord": "Skriv tallet med bogstaver",
+      "tensOnes": "Tiere og enere",
+      "tens": "tiere",
+      "ones": "enere",
+      "tenFrames": "Vis tallet i tierrammer",
+      "tally": "Tællestreger",
+      "beforeAfter": "Før og efter",
+      "numberLine": "Find tallet på tallinjen",
+      "drawIt": "Tegn tiere og enere",
+      "tenMoreLess": "10 mere, 10 mindre",
+      "oneMoreLess": "1 mere, 1 mindre",
+      "countOn": "Tæl videre",
+      "countBack": "Tæl tilbage",
+      "countOnTens": "Tæl videre med tiere"
+    },
+    "doublesHalves": {
+      "double": "det dobbelte",
+      "half": "det halve"
+    },
+    "singularPlural": {
+      "one": "ental",
+      "many": "flertal"
+    },
+    "pictureWriting": {
+      "d1": [
+        "Jeg ser",
+        "Her er",
+        "Der er"
+      ],
+      "d2": [
+        "En dag",
+        "Så"
+      ]
+    },
+    "fixChecklist": {
+      "capital": "Stort bogstav",
+      "name": "Navne",
+      "end": "Tegn til sidst"
+    },
+    "articles": {
+      "title": "en eller et?"
+    },
+    "calendar": {
+      "monthTitle": "{month} {year}"
+    }
+  },
+  "no": {
+    "numberOfDay": {
+      "numberWord": "Skriv tallet med bokstaver",
+      "tensOnes": "Tiere og enere",
+      "tens": "tiere",
+      "ones": "enere",
+      "tenFrames": "Vis tallet i tierruter",
+      "tally": "Tellestreker",
+      "beforeAfter": "Før og etter",
+      "numberLine": "Finn tallet på tallinjen",
+      "drawIt": "Tegn med tiere og enere",
+      "tenMoreLess": "10 mer, 10 mindre",
+      "oneMoreLess": "1 mer, 1 mindre",
+      "countOn": "Tell videre",
+      "countBack": "Tell tilbake",
+      "countOnTens": "Tell videre med tiere"
+    },
+    "doublesHalves": {
+      "double": "det dobbelte",
+      "half": "halvparten"
+    },
+    "singularPlural": {
+      "one": "entall",
+      "many": "flertall"
+    },
+    "pictureWriting": {
+      "d1": [
+        "Jeg ser",
+        "Her er",
+        "Det er"
+      ],
+      "d2": [
+        "En dag",
+        "Så"
+      ]
+    },
+    "fixChecklist": {
+      "capital": "Stor bokstav",
+      "name": "Navn",
+      "end": "Skilletegn"
+    },
+    "articles": {
+      "title": "en eller et?"
+    },
+    "calendar": {
+      "monthTitle": "{month} {year}"
+    }
+  },
+  "fi": {
+    "numberOfDay": {
+      "numberWord": "Kirjoita lukusana",
+      "tensOnes": "Kympit ja ykköset",
+      "tens": "kympit",
+      "ones": "ykköset",
+      "tenFrames": "Näytä kymppiruuduissa",
+      "tally": "Tukkimiehen kirjanpito",
+      "beforeAfter": "Edellinen ja seuraava",
+      "numberLine": "Etsi lukusuoralta",
+      "drawIt": "Piirrä palikoilla",
+      "tenMoreLess": "10 enemmän, 10 vähemmän",
+      "oneMoreLess": "1 enemmän, 1 vähemmän",
+      "countOn": "Laske eteenpäin",
+      "countBack": "Laske taaksepäin",
+      "countOnTens": "Laske kymmenittäin"
+    },
+    "doublesHalves": {
+      "double": "tupla",
+      "half": "puolet"
+    },
+    "singularPlural": {
+      "one": "yksi",
+      "many": "monta"
+    },
+    "pictureWriting": {
+      "d1": [
+        "Kuvassa on",
+        "Näen",
+        "Tässä on"
+      ],
+      "d2": [
+        "Eräänä päivänä",
+        "Sitten"
+      ]
+    },
+    "fixChecklist": {
+      "capital": "Iso alkukirjain",
+      "name": "Nimet",
+      "end": "Lopetusmerkki"
+    },
+    "articles": {
+      "title": "Yksi vai monta?"
+    },
+    "calendar": {
+      "monthTitle": "{month} {year}"
+    }
   }
 };
 

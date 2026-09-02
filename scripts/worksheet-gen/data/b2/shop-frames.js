@@ -222,6 +222,87 @@ const SHOP_FRAMES = {
         "{item1} kostar mer än {item2}. Hur mycket mer?"
       ]
     }
+  },
+  "da": {
+    "yes": "ja",
+    "no": "nej",
+    "frames": {
+      "total": [
+        "{name} køber {item1} og {item2}. Hvor meget skal {name} betale?",
+        "{name} lægger {item1} og {item2} i kurven. Hvor meget koster det tilsammen?",
+        "{name} vil have {item1} og {item2}. Hvor meget koster det i alt?"
+      ],
+      "total3": [
+        "{name} køber {item1}, {item2} og {item3}. Hvor meget skal {name} betale?",
+        "{name} tager {item1}, {item2} og {item3}. Hvor meget koster det tilsammen?"
+      ],
+      "change": [
+        "{name} køber {item1} og betaler med {coins} Hvor meget får {name} tilbage?",
+        "{name} betaler for {item1} med {coins} Hvor mange penge får {name} tilbage?"
+      ],
+      "canBuy": [
+        "{name} har {money} i pungen. Er der penge nok til {item1} og {item2}? Sæt ring om ja eller nej. Skriv, hvad det koster tilsammen.",
+        "{name} har {money} med. Kan {name} købe {item1} og {item2}? Sæt ring om ja eller nej. Skriv prisen i alt."
+      ],
+      "diff": [
+        "Hvor meget dyrere er {item1} end {item2}?",
+        "{item1} koster mere end {item2}. Hvor meget mere?"
+      ]
+    }
+  },
+  "no": {
+    "yes": "ja",
+    "no": "nei",
+    "frames": {
+      "total": [
+        "{name} kjøper {item1} og {item2}. Hvor mye må {name} betale?",
+        "{name} legger {item1} og {item2} i kurven. Hvor mye koster det til sammen?",
+        "{name} vil ha {item1} og {item2}. Hvor mye koster det i alt?"
+      ],
+      "total3": [
+        "{name} kjøper {item1}, {item2} og {item3}. Hvor mye må {name} betale?",
+        "{name} tar {item1}, {item2} og {item3}. Hvor mye koster det til sammen?"
+      ],
+      "change": [
+        "{name} kjøper {item1} og betaler med {coins} Hvor mye får {name} tilbake?",
+        "{name} betaler for {item1} med {coins} Hvor mye får {name} igjen?"
+      ],
+      "canBuy": [
+        "{name} har {money}. Er det nok til {item1} og {item2}? Sett ring rundt ja eller nei. Skriv hva det koster til sammen.",
+        "{name} har {money}. Kan {name} kjøpe {item1} og {item2}? Sett ring rundt ja eller nei. Skriv summen."
+      ],
+      "diff": [
+        "Hvor mye dyrere er {item1} enn {item2}?",
+        "{item1} koster mer enn {item2}. Hvor mye mer?"
+      ]
+    }
+  },
+  "fi": {
+    "yes": "kyllä",
+    "no": "ei",
+    "frames": {
+      "total": [
+        "{name} on kaupassa. Korissa on {item1} ja {item2}. Paljonko {name} maksaa yhteensä?",
+        "{name} vie kassalle nämä: {item1} ja {item2}. Paljonko ostokset maksavat yhteensä?",
+        "{name} haluaa nämä: {item1} ja {item2}. Paljonko ne maksavat yhdessä?"
+      ],
+      "total3": [
+        "{name} on kaupassa. Korissa on {item1}, {item2} ja {item3}. Paljonko {name} maksaa yhteensä?",
+        "{name} vie kassalle nämä: {item1}, {item2} ja {item3}. Paljonko ostokset maksavat yhteensä?"
+      ],
+      "change": [
+        "Kassalla on {item1}. {name} maksaa näillä kolikoilla: {coins} Paljonko rahaa {name} saa takaisin?",
+        "{name} ostaa tämän: {item1}. {name} antaa kassalle nämä kolikot: {coins} Paljonko {name} saa takaisin?"
+      ],
+      "canBuy": [
+        "{name} saa {money}. Riittääkö raha näihin: {item1} ja {item2}? Ympyröi kyllä tai ei ja kirjoita yhteishinta.",
+        "Riittääkö {money}, kun {name} haluaa ostaa nämä: {item1} ja {item2}? Ympyröi kyllä tai ei ja kirjoita yhteishinta."
+      ],
+      "diff": [
+        "Paljonko enemmän {item1} maksaa kuin {item2}?",
+        "{item1} on kalliimpi kuin {item2}. Paljonko kalliimpi?"
+      ]
+    }
   }
 };
 

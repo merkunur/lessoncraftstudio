@@ -1430,5 +1430,85 @@
   "K-283": {
     "title": "Mine første små bokstaver",
     "instruction": "Spor hver liten bokstav, og prøv å skrive en selv på den tomme linjen. Start på den oransje prikken og følg pilene."
+  },
+  "K-284": {
+    "title": "Spor og skriv ordene",
+    "instruction": "Si ordet til bildet. Spor de stiplede bokstavene, og skriv så ordet selv på de tomme linjene."
+  },
+  "K-285": {
+    "title": "Prikk til prikk",
+    "instruction": "Start på den oransje prikken. Trekk strek fra prikk til prikk i riktig rekkefølge til bildet kommer fram."
+  },
+  "K-286": {
+    "title": "Tegn etter i rutenett",
+    "instruction": "Se nøye på bildet til venstre. Fargelegg de samme rutene i det tomme rutenettet, slik at bildet blir helt likt."
+  },
+  "K-287": {
+    "title": "Entall og flertall",
+    "instruction": "Les ordet for én. Spor så ordet for flere, og skriv det selv på den tomme linjen."
+  },
+  "K-288": {
+    "title": "En eller et?",
+    "instruction": "Si ordet til bildet høyt. Sett ring rundt ordet som passer foran: en eller et."
+  },
+  "G1-242": {
+    "title": "Les og fargelegg",
+    "instruction": "Les hver setning nøye. Fargelegg så akkurat de bildene setningen sier – i riktig farge."
+  },
+  "G1-243": {
+    "title": "Dagens tall",
+    "instruction": "Se på dagens tall. Bruk tallet til å fylle ut hver rute på arket."
+  },
+  "G1-244": {
+    "title": "Skriv ordet til bildet",
+    "instruction": "Si hva bildet viser. Skriv ordet på linjen."
+  },
+  "G1-245": {
+    "title": "Alfabetisk rekkefølge",
+    "instruction": "Bruk alfabetet øverst. Nummerer bildeordene fra 1 til 6 i alfabetisk rekkefølge, og skriv dem så i riktig rekkefølge på linjene."
+  },
+  "G1-246": {
+    "title": "Tallpyramider",
+    "instruction": "Hver stein er summen av de to steinene under den. Fyll inn tallene som mangler."
+  },
+  "G1-247": {
+    "title": "Det dobbelte og halvparten",
+    "instruction": "Se på lappen over hver gruppe: det dobbelte eller halvparten. Regn ut, og skriv tallene i rutene."
+  },
+  "G1-248": {
+    "title": "Les av tallinjen",
+    "instruction": "Hver pil peker på en strek på tallinjen. Tell videre fra tallet før pilen, og skriv tallet i ruten."
+  },
+  "G1-249": {
+    "title": "Sett ordene i riktig rekkefølge",
+    "instruction": "Ordene har kommet i uorden. Sett dem i riktig rekkefølge, og skriv setningen på linjen med stor bokstav og punktum eller spørsmålstegn."
+  },
+  "G2-274": {
+    "title": "Stor bokstav og punktum",
+    "instruction": "I hver setning mangler stor bokstav og skilletegn. Skriv setningen riktig på linjen."
+  },
+  "G2-275": {
+    "title": "Substantiv, verb og adjektiv",
+    "instruction": "Les hvert ord. Er det et substantiv, et verb eller et adjektiv? Skriv ordet i riktig boks."
+  },
+  "G2-276": {
+    "title": "Regne med penger",
+    "instruction": "Finn hver vare i hylla og les prisen. Svar så på spørsmålene om pengene."
+  },
+  "G2-277": {
+    "title": "Les kalenderen",
+    "instruction": "Se på kalenderen. Bruk den til å svare på alle spørsmålene."
+  },
+  "G2-278": {
+    "title": "Skriv til bildet",
+    "instruction": "Se nøye på bildet. Bruk ordbanken, og skriv hva du ser og hva som skjer."
+  },
+  "G2-279": {
+    "title": "Koordinater i rutenett",
+    "instruction": "Finn hver rute ved hjelp av bokstav og tall, for eksempel B2. Fargelegg den med fargen til gruppen til bildet kommer fram."
+  },
+  "G3-370": {
+    "title": "Regnefortellinger: gange og dele",
+    "instruction": "Les hver regnefortelling. Bruk bildet til hjelp. Skriv svaret i ruten, og skriv så svarsetningen ferdig."
   }
 }

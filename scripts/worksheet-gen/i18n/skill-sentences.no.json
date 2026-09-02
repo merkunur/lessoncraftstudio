@@ -190,5 +190,73 @@
   "lowercase-letter-tracing": {
     "full": "Å spore små bokstaver på skrivelinjer trener mellomhøyden, stavene som går opp, og halene som går under linjen.",
     "short": "Trener riktig forming av de små bokstavene."
+  },
+  "word-tracing": {
+    "full": "Å spore ordet til et bilde langs bokstavene og så skrive det selv knytter tingen, ordet og stavemåten sammen i ett og samme steg.",
+    "short": "Trener å skrive de første ordene etter bilde."
+  },
+  "dot-to-dot": {
+    "full": "Å trekke strek fra prikk til prikk i riktig rekkefølge øver tallrekka og blyantkontrollen helt til et bilde kommer fram.",
+    "short": "Trener tallrekka og blyantkontroll."
+  },
+  "grid-copy": {
+    "full": "Å tegne et bilde rute for rute i et tomt rutenett trener nøye observasjon, romforståelse og en stø hånd.",
+    "short": "Trener å tegne nøyaktig etter i rutenett."
+  },
+  "singular-plural": {
+    "full": "Å se ett bilde ved siden av flere og skrive flertallsformen fester endelsene barna hører hver dag, men sjelden skriver.",
+    "short": "Trener entall og flertall av substantiv."
+  },
+  "articles": {
+    "full": "Å sette ring rundt en eller et foran hvert bilde bygger den følelsen for kjønn på ord som hver senere setning hviler på.",
+    "short": "Trener en-ord og et-ord."
+  },
+  "read-and-color": {
+    "full": "Å lese en kort setning og fargelegge akkurat det som står, gjør avkodingen til ekte leseforståelse som barnet selv kan sjekke.",
+    "short": "Trener leseforståelse gjennom fargelegging."
+  },
+  "number-of-the-day": {
+    "full": "Å vise ett tall med bokstaver, i tiere og enere, på tallinjen og med tallene før og etter bygger en dyp tallforståelse.",
+    "short": "Trener tallforståelse på mange måter."
+  },
+  "write-the-word": {
+    "full": "Å skrive ordet til hvert bilde på linjen, med eller uten ordbank, trener lydrett staving fra lyd til bokstav.",
+    "short": "Trener staving etter bilder."
+  },
+  "alphabetical-order": {
+    "full": "Å ordne bildeord i alfabetisk rekkefølge fester bokstavrekka og trener oppslaget som hver ordbok og ordliste krever.",
+    "short": "Trener alfabetisk rekkefølge."
+  },
+  "number-walls": {
+    "full": "Å fylle hver stein med summen av de to steinene under trener sikker addisjon og å finne leddet som mangler.",
+    "short": "Trener addisjon med tallpyramider."
+  },
+  "doubles-halves": {
+    "full": "Å regne det dobbelte av en gruppe og halvparten av en annen fester dobbeltfaktaene som åpner for partall, nesten-dobbelt og gangetabellen.",
+    "short": "Trener det dobbelte og halvparten."
+  },
+  "sentence-building": {
+    "full": "Å ordne ordkort som har kommet i uorden, til en hel setning trener ordstilling, stor bokstav og følelsen for når en setning er ferdig.",
+    "short": "Trener ordstilling og setningsbygging."
+  },
+  "capitals-punctuation": {
+    "full": "Å skrive hver setning på nytt med stor bokstav og riktig skilletegn fester reglene som gjør en tekst lett å lese.",
+    "short": "Trener stor bokstav og skilletegn."
+  },
+  "word-classes": {
+    "full": "Å sortere ord i substantiv, verb og adjektiv bygger de ordklassene barna trenger for å kunne snakke om språket.",
+    "short": "Trener å kjenne igjen ordklassene."
+  },
+  "calendar": {
+    "full": "Å lese av datoer, ukedager og uker i en ekte månedskalender trener akkurat det barna trenger i hverdagen.",
+    "short": "Trener å lese kalenderen."
+  },
+  "picture-writing": {
+    "full": "Å skrive til et bilde med ordbank og setningsstartere gjør den tomme linjen til en første liten fortelling barnet selv har laget.",
+    "short": "Trener å skrive til et bilde."
+  },
+  "grid-coordinates": {
+    "full": "Å finne hver rute med bokstav og tall og fargelegge den trener å lese koordinater og avslører et skjult bilde.",
+    "short": "Trener å lese koordinater i rutenett."
   }
 }

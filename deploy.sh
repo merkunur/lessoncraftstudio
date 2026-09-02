@@ -258,6 +258,18 @@ node /opt/lessoncraftstudio/scripts/preflight-tool-registration.js || { echo "ER
 echo "🔎 Activity route + thumbnail check..."
 node /opt/lessoncraftstudio/scripts/preflight-activity-routes.js || { echo "ERROR: an activity would 404 or ship with no card thumbnail — see CLAUDE.md §21.5"; exit 1; }
 
+# Guard: a printable VARIATION must differ from the deck its base already
+# publishes. A variation spec spreads base.difficulty[src] and applies an
+# override; when that override is empty and src is the level the base wave itself
+# ships, the two resolve to a byte-identical generator config and the "variation"
+# is the published base deck with a new theme and title. Nothing else could see
+# it — the specs compile, the decks build, the titles ARE distinct so every SEO
+# gate passes, and the similarity gate scores prose rather than configuration.
+# Measured on nt20-B-VAR wave 2: five of thirteen proposed faces, caught by two
+# native panels reading the render rather than by any gate. Browser-free.
+echo "🔎 Printable variation distinctness check..."
+node /opt/lessoncraftstudio/scripts/worksheet-gen/tools/gate-variation-distinct.js || { echo "ERROR: a worksheet variation resolves to the same config as the deck its base publishes"; exit 1; }
+
 # Letter/word tracing glyph set. Browser-free, pure geometry. Guards the defect
 # class the whole dataset exists to kill — a traced letter drawn as a stroked
 # FONT OUTLINE, i.e. two parallel dashed contours per stem instead of one

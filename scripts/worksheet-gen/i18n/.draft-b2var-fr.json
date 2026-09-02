@@ -53,6 +53,18 @@
       "title": "Un ou une : entoure le bon article",
       "instruction": "Entoure « un » ou « une »."
     },
+    "K-308": {
+      "title": "Points à relier : à rebours de 10 à 1",
+      "instruction": "Compte à l'envers : de 10 jusqu'à 1."
+    },
+    "K-311": {
+      "title": "Copier le mot sans pointillés",
+      "instruction": "Aucun pointillé : copie deux fois."
+    },
+    "K-312": {
+      "title": "Repasser et écrire quatre mots",
+      "instruction": "Mots plus longs, modèle au-dessus."
+    },
     "G1-251": {
       "title": "Lis et colorie : quatre phrases",
       "instruction": "Quatre phrases et quatre couleurs : lis puis colorie."
@@ -157,6 +169,30 @@
       "title": "Phrases mélangées sans majuscule ni point",
       "instruction": "Ni majuscule ni point pour t'aider."
     },
+    "G1-284": {
+      "title": "Ordre alphabétique : six mots",
+      "instruction": "Chaque mot commence par une lettre différente."
+    },
+    "G1-285": {
+      "title": "Points à relier de 2 en 2",
+      "instruction": "Ici, tu ne comptes que les nombres pairs, de deux en deux."
+    },
+    "G1-286": {
+      "title": "Doubles et moitiés : images jusqu'à 20",
+      "instruction": "Doubler ou partager de grands groupes."
+    },
+    "G1-290": {
+      "title": "Dictée muette : une case par lettre",
+      "instruction": "Sans liste : compte les cases pointillées."
+    },
+    "G1-291": {
+      "title": "Dictée muette : la première lettre",
+      "instruction": "Ton seul indice est la première lettre."
+    },
+    "G1-294": {
+      "title": "Points à relier : à rebours de 20 à 1",
+      "instruction": "Tous les points sont numérotés, du 20 jusqu'au 1."
+    },
     "G2-281": {
       "title": "Corrige la phrase : majuscule et signe final",
       "instruction": "Choisis le bon signe final."
@@ -233,6 +269,18 @@
       "title": "Pixel art sur quadrillage 10 x 10",
       "instruction": "Plus grand : 10 sur 10, et bien plus de codes."
     },
+    "G2-304": {
+      "title": "Points à relier de 5 en 5",
+      "instruction": "Ici, les nombres avancent de cinq en cinq, jamais un par un."
+    },
+    "G2-306": {
+      "title": "Corrige la phrase : majuscule aux prénoms",
+      "instruction": "Chaque phrase contient un prénom."
+    },
+    "G2-309": {
+      "title": "Production d'écrit : raconte l'histoire",
+      "instruction": "Ici, on raconte, on ne décrit pas."
+    },
     "G3-371": {
       "title": "Problèmes de multiplication en images",
       "instruction": "Deux multiplications avec des images."
@@ -256,6 +304,10 @@
     "G3-376": {
       "title": "Problèmes mélangés : multiplier et diviser",
       "instruction": "Choisis la bonne opération."
+    },
+    "G3-377": {
+      "title": "Problèmes : multiplier et partager",
+      "instruction": "Une histoire multiplie, l'autre partage."
     }
   },
   "enAudit": [
@@ -265,6 +317,17 @@
     "G2-298 'Read the Calendar: Days of the Week' — STILL OPEN. The override keeps stickers: 2 while replacing all four questions with weekday questions, so two picture stickers are printed on the calendar that no question refers to. Either drop to stickers: 0 or keep one sticker question.",
     "K-296 'Dot-to-Dot: Count On from 11' — STILL OPEN (minor). It is the only title in the dot-to-dot family that does not name its range, while its own instruction does ('from 11 to 30') and both siblings name theirs in the title, which makes the three inconsistent as a search set. The French titles the range on all three.",
     "K-306 / K-307 (articles) — STILL OPEN (locale-facing, not an English error). The two English titles differ only by picture count ('Four Pictures' / 'Eight Pictures'), which is honest in English because the chips are a/an on both faces. But the fr and it contracts SWAP THE CHIP SET at level 3 (fr le/la at d1, un/une at d3 via chipsD3), so in those locales the picture count is the least interesting difference and a panel copying the English framing loses the only pedagogically meaningful axis. The French titles on the article pair instead. Worth a note in the brief for it.",
-    "METHOD NOTE for the remaining panels — I nearly filed two defects that did not exist. (a) I grepped the built HTML for '?' to test whether G2-281/G2-282 contain questions and got 0/40 for both, which read as 'the French pool has no interrogatives' and would have made me rewrite a CORRECT title and instruction. The sentences are printed WITHOUT their punctuation, because supplying it is the exercise; the questions are there ('peux-tu trouver les papayes', 'est-ce que louis voit les oranges'). Verify what the selector actually matched before believing the measurement. (b) The b2var sweep PNGs are older than the spec file, so after your fixes the G2-292 and G2-295 renders on disk were stale and still showed the old mixed 'kinds'. I re-derived both from type.build() rather than the PNG."
+    "METHOD NOTE for the remaining panels — I nearly filed two defects that did not exist. (a) I grepped the built HTML for '?' to test whether G2-281/G2-282 contain questions and got 0/40 for both, which read as 'the French pool has no interrogatives' and would have made me rewrite a CORRECT title and instruction. The sentences are printed WITHOUT their punctuation, because supplying it is the exercise; the questions are there ('peux-tu trouver les papayes', 'est-ce que louis voit les oranges'). Verify what the selector actually matched before believing the measurement. (b) The b2var sweep PNGs are older than the spec file, so after your fixes the G2-292 and G2-295 renders on disk were stale and still showed the old mixed 'kinds'. I re-derived both from type.build() rather than the PNG.",
+    "G2-306 'Fix the Sentence: Every Sentence Has a Name' — the TITLE is honest (every frame carries a {name}) but the INSTRUCTION 'Find both capitals, not just the first' is false on most lines and false on EVERY deck. MEASURED on 40 French decks: 32 of 120 printed lines need two capitals; 0 of 40 decks have all three lines needing two. Cause: needCaps only requires the frame to CONTAIN {name}, and 5 of the 7 French fix-frames that carry a name START with it ('{name} regarde les {noun}.'), so the sentence-initial capital and the name capital are the SAME letter. The honest claim is 'every sentence contains a name — do not forget its capital'; the two-capital claim needs a frame filter that rejects name-initial frames. The French instruction says only that every sentence contains a first name.",
+    "G1-284 'ABC Order: Six Words' — the instruction 'some letters sit right next to each other' is a promise the generator does not keep. d2 sets gap:1, which after the pairs===0 rule is a NO-OP (it only rejects duplicate first letters); adjacency is PERMITTED, never required. MEASURED on 40 French decks: only 23 of 40 contain any adjacent first-letter pair, so 17 decks print an instruction about a feature they do not have. What IS guaranteed on every deck is that all six first letters differ — which is also the real contrast with the d3 sibling — and that is what the French instruction says.",
+    "G1-286 'Doubles and Halves with Pictures to 20' — the instruction 'Count the bigger groups, double them, and halve them' asks for both operations on every group. The render does not: cards:4 means two DOUBLE cards and two HALF cards, each labelled by its own pill ('le double' / 'la moitié'), and each card asks for one operation only. The override also sets cols:1, so the four cards are STACKED — the base docstring's 'left column DOUBLES / right column HALVES' no longer describes this face, and any locale copying that framing ships a left/right instruction for a single-column page.",
+    "K-312 / G1-284 / G1-290 / G2-309 / G3-377 — all five are `{ ...base.difficulty[2] }` with NO overrides, and every wave ships difficulties [2], so each is CONFIG-IDENTICAL to its own already-published base face (K-284, G1-245, G1-244, G2-278, G3-370). Only the title, the instruction and the wave theme differ. They are still shippable as distinct landings, but K-312's instruction 'Longer words than the first page' and G1-284's 'Six words to put in order' both describe themselves by comparison with a sibling the visitor cannot see, and neither says anything the base face does not already claim. If any face in this batch is a thin-content risk it is these five, and it would be worth confirming that the base and the variation never land on the same theme.",
+    "G1-290 'Write the Word: One Box for Each Letter' — the box count is [...word.replace(/ /g,'')].length, so a multi-word name gets ONE UNBROKEN RUN of boxes with no gap where the space belongs. On the French fruits theme this is not an edge case: 2 of the 3 sampled decks drew 'citron vert' as 10 boxes and 'noix de coco' as 10 boxes. A child counting boxes cannot know the word is two or three words. Either exclude multi-word entries at d2 or emit a visible gap; the same will hit es/pt/it ('noix de coco' class) and any locale whose nouns are phrases.",
+    "K-285 dot-to-dot family, window faces (K-308, G1-285, G2-304 here; K-294 already shipped) — d1 carries window:10, so only TEN dots are numbered and the rest of the outline is ALREADY DRAWN as a pale pre-printed polyline. Not one instruction in the family mentions it. The counting claims are all honest (10..1 / 2..20 / 5..50 verified from meta.labels), but 'join the dots' is a partial description of a page where half the figure is a 'finish the picture' remainder. G1-294 (window:null) is the only one of the four where all twenty dots are numbered, and that is the one genuinely distinguishing fact about it — the French instruction says so.",
+    "K-308 and G1-294 (count-back) — the coral START dot is dot index 0, which on a descending face bears the label 10 (or 20), not 1. The base instruction 'Start at the orange dot' therefore still works, but any locale that writes 'start at 1' or 'the orange dot is number one' — a natural thing to write for a dot-to-dot — ships a page that contradicts itself. Worth a line in the brief.",
+    "FRENCH-FACING, NOT AN ENGLISH DEFECT, ALREADY LIVE — G3-370 word-problem frames drop the elision. Every mul and share frame in data/b2/wp-muldiv-frames.js ends 'Combien de {noun} …', and {noun} is the plural label, so a vowel-initial noun renders '*Combien de oranges' instead of \"Combien d'oranges\". Reproduced on the first seed of G3-377/fruits. This is not new to this batch: it affects the SHIPPED French base G3-370 and every G3-371..G3-377 deck whose noun starts with a vowel or mute h (oranges, abricots, ananas, avions, éléphants, iguanes, hippopotames, oiseaux, arbres...). I did not fix it here because the fix belongs in the frame data plus a regeneration of already-published decks, not in a titles-and-instructions draft, and it would silently mutate live deck bodies. It is the exact class CLAUDE.md 14.3b's lcs-grammar.js exists for.",
+    "METHOD NOTE — the description window is per-face and had to be brute-forced, not estimated. I re-derived it by calling publish-cli/build-seo-head.js with the real wave theme, level and skill sentence and sweeping instruction lengths 6..200 with a marker probe. Two traps: (a) a one-character probe matched by accident inside 'alphabétique', which reported a window of 1-N on faces that in fact have a hard floor — use a probe that cannot occur in the description, then verify what it matched; (b) the floor is only real when the family's SHORT skill sentence fits under 170, so the same title length gives K-308 a window of 6-38 and G1-285 a window of 55-60. G1-286 lands on a TWO-character window (37-38) even after I shortened its title from 39 to 38 chars, so any later title edit on that face will silently hand its description back to the generic sentence.",
+    "AUDIT SCOPE — this pass covers only the 13 ids assigned to it. The draft is still missing G1-295, G2-305 and G2-310 (the number-line / droite graduée trio), which belong to another slice; validate-b2var-draft.js will report exactly those three as missing until they are written.",
+    "WINDOW MARGINS for the 13 faces in this slice — all 13 now carry their OWN instruction in the meta description (verified by re-running build-seo-head, not estimated), but five sit at the exact top of their window and will silently fall back to the generic family sentence if the title or the skill sentence is ever edited by even one character: G1-286 37 of 37-38, G1-290 41 of 41, G1-294 48 of 48, G2-304 59 of 55-59, G1-285 57 of 55-60. G1-285/G1-294/G2-304 also have a hard FLOOR (55/6/55) because the dot-to-dot short skill sentence is 55 characters and still fits under 170 in the G1 and G2 bands but not in K — which is why the same family needs a 35-char instruction at K-308 and a 57-char one at G1-285."
   ]
 }

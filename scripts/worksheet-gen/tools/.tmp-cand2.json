@@ -1,0 +1,15 @@
+{
+"K-308":  {"title":"Une los puntos del 10 al 1","instruction":"Cuenta hacia atrás desde el 10 hasta el 1, punto a punto."},
+"K-311":  {"title":"Copia la palabra de la tarjeta","instruction":"No hay letras punteadas: copia la palabra."},
+"K-312":  {"title":"Repasa y escribe palabras medianas","instruction":"Palabras más largas, con el modelo encima."},
+"G1-284": {"title":"Orden alfabético: seis palabras","instruction":"Seis palabras con letras seguidas."},
+"G1-285": {"title":"Une los puntos contando de 2 en 2","instruction":"Cuenta de 2 en 2: los puntos van del 2 al 20."},
+"G1-286": {"title":"Dobles y mitades: dibujos hasta 20","instruction":"Ahora los grupos son más grandes."},
+"G1-290": {"title":"Dictado mudo: una casilla por letra","instruction":"Una casilla punteada por letra."},
+"G1-291": {"title":"Dictado mudo: la inicial, sin banco","instruction":"Sin banco: la inicial ya está."},
+"G1-294": {"title":"Une los puntos hacia atrás desde el 20","instruction":"Cuenta hacia atrás: del 20 hasta el 1."},
+"G2-304": {"title":"Une los puntos contando de 5 en 5","instruction":"Cuenta de 5 en 5: los puntos van del 5 al 50."},
+"G2-306": {"title":"Corrige la frase: nombres propios","instruction":"Cada frase lleva un nombre propio."},
+"G2-309": {"title":"Escribe sobre la imagen: un cuento","instruction":"Sigue el comienzo «Un día…»."},
+"G3-377": {"title":"Problemas de multiplicar y repartir","instruction":"Uno multiplica y el otro reparte."}
+}

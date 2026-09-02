@@ -25,7 +25,14 @@ function displayWord(word, loc, mode) {
  * (`crane` = the BIRD in es/no/da/sv/fi; da toys-bw `tank`/`loader` mislabelled). The
  * vocabulary file is operator-locked (§10.3) — this is the batch-side guard, reported for the fix.
  */
-const B2_EXCLUDE = { crane: ['es', 'no', 'da', 'sv', 'fi'], tank: ['da'], loader: ['da'], lego: ['no'] };
+// `crane` is the BIRD, not the machine, in far more locales than were originally
+// guarded: de Kranich, pt Grou and nl Kraanvogel are unambiguously the bird, and
+// the artwork at image-library/vehicles/crane.png is a construction crane. de was
+// found by the German panel reading the vocabulary; pt and nl by checking the
+// same row. fr "grue" and it "gru" genuinely mean both, so they stay unguarded.
+// The vocabulary file itself is operator-locked, so this exclusion list is the
+// sanctioned guard.
+const B2_EXCLUDE = { crane: ['es', 'no', 'da', 'sv', 'fi', 'de', 'pt', 'nl'], tank: ['da'], loader: ['da'], lego: ['no'] };
 function excluded(vocabKey, loc) { const l = B2_EXCLUDE[String(vocabKey).toLowerCase()]; return !!(l && l.includes(loc)); }
 /** labelSafeNouns minus the locale's exclusions — every b2 type that picks nouns goes through this. */
 function safeNouns(theme, loc) { return labelSafeNouns(theme).filter((n) => !excluded(n.vocabKey, loc)); }

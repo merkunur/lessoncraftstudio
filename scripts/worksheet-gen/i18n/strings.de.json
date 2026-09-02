@@ -1510,5 +1510,261 @@
   "G3-370": {
     "title": "Sachaufgaben: Malnehmen und Teilen",
     "instruction": "Lies jede Rechengeschichte. Das Bild hilft dir. Schreibe die Antwort in das Kästchen und vervollständige dann den Antwortsatz."
+  },
+  "K-289": {
+    "title": "Kurze Wörter nachspuren",
+    "instruction": "Spure drei kurze Wörter nach und schreibe sie auf."
+  },
+  "K-290": {
+    "title": "Zweimal selbst schreiben",
+    "instruction": "Spure das Wort einmal nach, schreibe es zweimal."
+  },
+  "K-291": {
+    "title": "Lange Wörter nachspuren",
+    "instruction": "Diese Wörter sind lang: spure sie langsam nach."
+  },
+  "K-294": {
+    "title": "Von Punkt zu Punkt: 1 bis 10",
+    "instruction": "Verbinde die Punkte von 1 bis 10, die Zahlenreihe hilft."
+  },
+  "K-295": {
+    "title": "Von Punkt zu Punkt: 11 bis 20",
+    "instruction": "Zähle von 11 bis 20 weiter und verbinde die Punkte."
+  },
+  "K-296": {
+    "title": "Von Punkt zu Punkt: 11 bis 30",
+    "instruction": "Zähle ab 11 weiter, bis du bei 30 angekommen bist."
+  },
+  "K-298": {
+    "title": "Gitterbilder abzeichnen: 6x6",
+    "instruction": "Male im leeren 6x6-Gitter genau dieselben Kästchen an."
+  },
+  "K-299": {
+    "title": "Gitterbilder mit Buchstabe und Zahl",
+    "instruction": "Finde jedes Kästchen über Buchstabe und Zahl."
+  },
+  "K-300": {
+    "title": "Gitterbilder abzeichnen: 8x8",
+    "instruction": "Im 8x8-Gitter ist mehr zu tun: arbeite Reihe für Reihe."
+  },
+  "K-302": {
+    "title": "Einzahl und Mehrzahl: kurze Wörter",
+    "instruction": "Bei zwei Bildern heißt das Wort anders."
+  },
+  "K-303": {
+    "title": "Einzahl und Mehrzahl: lange Wörter",
+    "instruction": "Drei Bilder: spure die Mehrzahl nach."
+  },
+  "K-306": {
+    "title": "Der, die oder das? Vier Bilder",
+    "instruction": "Kreise bei den vier Bildern den Artikel ein."
+  },
+  "K-307": {
+    "title": "Der, die oder das? Acht Bilder",
+    "instruction": "Kreise bei acht Bildern den Artikel ein."
+  },
+  "G1-251": {
+    "title": "Lesen und Malen: vier Sätze",
+    "instruction": "Lies vier Sätze und male so viele Bilder an wie genannt."
+  },
+  "G1-252": {
+    "title": "Lesen und Malen: sechs Sätze",
+    "instruction": "Sechs Sätze und sechs Farben: lies jeden Satz ganz genau."
+  },
+  "G1-255": {
+    "title": "Zahl des Tages: 11 bis 19",
+    "instruction": "Zeige eine Zahl von 11 bis 19 als Zehnerfeld und Strichliste."
+  },
+  "G1-256": {
+    "title": "Zahl des Tages: 10 mehr, 10 weniger",
+    "instruction": "Rechne zu deiner Zahl 10 dazu und ziehe 10 ab."
+  },
+  "G1-257": {
+    "title": "Zahl des Tages: Zahlen bis 99",
+    "instruction": "Zerlege eine Zahl bis 99 in Zehner und Einer, dann rechne."
+  },
+  "G1-258": {
+    "title": "Bilder beschriften mit Wortspeicher",
+    "instruction": "Der erste Buchstabe steht schon für dich da."
+  },
+  "G1-259": {
+    "title": "Bilder beschriften: Wort wählen",
+    "instruction": "Wähle für jedes Bild das passende Wort aus."
+  },
+  "G1-260": {
+    "title": "Bilder beschriften ohne Wortspeicher",
+    "instruction": "Schreibe diesmal ohne Wortspeicher."
+  },
+  "G1-262": {
+    "title": "Alphabetisch ordnen: nummerieren",
+    "instruction": "Nur nummerieren: vier Karten von 1 bis 4."
+  },
+  "G1-263": {
+    "title": "Alphabetisch ordnen und abschreiben",
+    "instruction": "Nummeriere, dann schreibe geordnet ab."
+  },
+  "G1-264": {
+    "title": "Alphabetisch ordnen: zweiter Buchstabe",
+    "instruction": "Der zweite Buchstabe entscheidet."
+  },
+  "G1-266": {
+    "title": "Zahlenmauern bis 10",
+    "instruction": "Addiere immer zwei Steine; der oberste bleibt unter 10."
+  },
+  "G1-267": {
+    "title": "Zahlenmauern mit vier Reihen",
+    "instruction": "Vier Reihen hoch: rechne dich bis zum Deckstein hinauf."
+  },
+  "G1-268": {
+    "title": "Zahlenmauern: fehlender Grundstein",
+    "instruction": "Unten fehlt ein Stein – rechne ihn von oben zurück."
+  },
+  "G1-270": {
+    "title": "Verdoppeln und Halbieren mit Bildern",
+    "instruction": "Zähle die Bilder, verdopple und halbiere."
+  },
+  "G1-271": {
+    "title": "Verdoppeln und Halbieren bis 20",
+    "instruction": "Ohne Bilder: verdopple und halbiere bis 20."
+  },
+  "G1-274": {
+    "title": "Zahlenstrahl ablesen bis 10",
+    "instruction": "Lies am Zahlenstrahl bis 10 ab, wohin jeder Pfeil zeigt."
+  },
+  "G1-275": {
+    "title": "Zahlenstrahl bis 20 mit wenigen Zahlen",
+    "instruction": "Nur 0, 10 und 20 stehen da: zähle in Einern."
+  },
+  "G1-276": {
+    "title": "Zahlenstrahl ablesen bis 30",
+    "instruction": "Jeder Strich ist eine Eins: zähle bis 30 zum Pfeil weiter."
+  },
+  "G1-277": {
+    "title": "Zahlenstrahl ablesen bis 50",
+    "instruction": "Jeder Strich ist eine Eins, jeder zehnte trägt eine Zahl."
+  },
+  "G1-278": {
+    "title": "Zahlenstrahl bis 50 in Fünferschritten",
+    "instruction": "Jeder Strich ist eine Fünf bis hinauf zur 50."
+  },
+  "G1-279": {
+    "title": "Zahlenstrahl bis 100 in Fünferschritten",
+    "instruction": "Jeder Strich ist fünf, jede Zehnerzahl steht da."
+  },
+  "G1-280": {
+    "title": "Zahlenstrahl bis 100 in Zehnerschritten",
+    "instruction": "Jeder Strich ist ein Zehner bis zur 100."
+  },
+  "G1-281": {
+    "title": "Zahlenstrahl ablesen bis 120",
+    "instruction": "Dieser Strahl geht über 100 hinaus: zähle in Zehnern."
+  },
+  "G1-282": {
+    "title": "Schüttelsätze mit Hilfen",
+    "instruction": "Großbuchstabe und Satzzeichen zeigen Anfang und Ende."
+  },
+  "G1-283": {
+    "title": "Schüttelsätze ohne Hilfen",
+    "instruction": "Ohne Hilfen: ordne die Wörter und schreibe den Satz."
+  },
+  "G2-281": {
+    "title": "Satzanfang und Punkt berichtigen",
+    "instruction": "Schreibe die vier Sätze groß und mit Punkt neu."
+  },
+  "G2-282": {
+    "title": "Punkt oder Fragezeichen setzen",
+    "instruction": "Manche Sätze sind Fragen – wähle das Zeichen."
+  },
+  "G2-285": {
+    "title": "Wortarten sortieren: neun Wörter",
+    "instruction": "Sortiere neun Wörter; die Bilder helfen dir."
+  },
+  "G2-286": {
+    "title": "Wortarten sortieren ohne Bilder",
+    "instruction": "Zwölf Wörter, keine Bilder: sortiere sie."
+  },
+  "G2-287": {
+    "title": "Wortarten sortieren: fünfzehn Wörter",
+    "instruction": "Fünfzehn Wörter und keine Bilder mehr."
+  },
+  "G2-289": {
+    "title": "Einkaufen: zwei Aufgaben",
+    "instruction": "Lies die Preise am Regal und löse zwei Aufgaben."
+  },
+  "G2-290": {
+    "title": "Einkaufen: vier verschiedene Fragen",
+    "instruction": "Jede der vier Karten fragt anders."
+  },
+  "G2-291": {
+    "title": "Einkaufen: Preise addieren",
+    "instruction": "Jede Karte fragt nach dem Gesamtpreis im Korb."
+  },
+  "G2-292": {
+    "title": "Einkaufen: mehrere Waren im Korb",
+    "instruction": "Meistens liegen drei Waren im Einkaufskorb."
+  },
+  "G2-293": {
+    "title": "Einkaufen: Wie viel Rückgeld?",
+    "instruction": "Zähle die Münzen und rechne das Rückgeld aus."
+  },
+  "G2-294": {
+    "title": "Einkaufen: Reicht das Geld?",
+    "instruction": "Reicht das Geld? Kreise dann ja oder nein ein."
+  },
+  "G2-295": {
+    "title": "Einkaufen: Wie viel teurer?",
+    "instruction": "Rechne aus, wie viel teurer die eine Ware ist."
+  },
+  "G2-296": {
+    "title": "Kalender lesen: vier Fragen",
+    "instruction": "Beantworte vier Fragen zum Monat mit dem Kalender."
+  },
+  "G2-297": {
+    "title": "Kalender lesen: sechs Wochen",
+    "instruction": "Dieser Monat füllt sechs Wochen: sechs Fragen warten."
+  },
+  "G2-298": {
+    "title": "Kalender lesen: die Wochentage",
+    "instruction": "Alle Fragen drehen sich um die Wochentage im Monat."
+  },
+  "G2-299": {
+    "title": "Schreiben zum Bild: Was siehst du?",
+    "instruction": "Satzanfänge und Wortkasten helfen dir."
+  },
+  "G2-300": {
+    "title": "Schreiben zum Bild: eigene Worte",
+    "instruction": "Ohne Satzanfänge: sechs Linien nur für dich."
+  },
+  "G2-302": {
+    "title": "Koordinaten im 6x6-Gitter",
+    "instruction": "Suche jedes Feld wie B2 und male es in seiner Farbe an."
+  },
+  "G2-303": {
+    "title": "Koordinaten im 10x10-Gitter",
+    "instruction": "100 Felder: arbeite die lange Liste von oben nach unten ab."
+  },
+  "G3-371": {
+    "title": "Sachaufgaben zum Malnehmen",
+    "instruction": "Die Bilder zeigen gleich große Gruppen: rechne mal."
+  },
+  "G3-372": {
+    "title": "Sachaufgaben zum Verteilen",
+    "instruction": "Verteile alles gerecht in die leeren Kästen."
+  },
+  "G3-373": {
+    "title": "Sachaufgaben: Gruppen bilden",
+    "instruction": "Kreise gleich große Gruppen ein und zähle sie."
+  },
+  "G3-374": {
+    "title": "Sachaufgaben: Teilen auf zwei Wegen",
+    "instruction": "Einmal verteilen, einmal Gruppen bilden."
+  },
+  "G3-375": {
+    "title": "Sachaufgaben: Mal und Gruppen",
+    "instruction": "Erst Gruppen aufbauen, dann eine Menge teilen."
+  },
+  "G3-376": {
+    "title": "Sachaufgaben: drei gemischte Aufgaben",
+    "instruction": "Drei Geschichten: mal oder geteilt?"
   }
 }

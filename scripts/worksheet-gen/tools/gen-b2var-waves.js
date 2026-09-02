@@ -99,6 +99,7 @@ const THEMELESS = [
   'G2-302', 'G2-303',                              // grid-coordinates
   // ── wave 2 ───────────────────────────────────────────────────────────────
   'K-308', 'G1-285', 'G1-294', 'G2-304',           // dot-to-dot (step knob)
+  'G1-295', 'G2-305', 'G2-310',                    // number-lines (min knob)
 ];
 
 const TYPES = [...Object.keys(THEME), ...THEMELESS].sort();

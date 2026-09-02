@@ -317,6 +317,25 @@ const ROWS = [
     // cols:1 is load-bearing separately: the halves stage is a single
     // non-wrapping flex row, and ten icons cannot fit a half-width card.
     'Doubles and Halves with Pictures to 20', 'Count the bigger groups, double them, and halve them.'],
+
+  // number-lines: `min` is two lines in G1-248.build (plus the label test made
+  // relative to min, which the render has always required). Every shipped face
+  // starts at 0; these three do not, which removes the count-from-the-start
+  // fallback and forces the landmark strategy.
+  ['g2', 'G2-305', 'number-line-between-40-and-60', 'G1-248-number-line-position.js', 2,
+    { min: 40, max: 60, lines: 3, tick: 1, label: 5, pointers: 2, gap: 3 },
+    'Where on the Number Line? 40 to 60', 'This line does not start at zero. Count on from the nearest printed number.'],
+  // MEASURED: at tick 5 / label 2 this range offers only FOUR unlabelled ticks
+  // (65, 75, 85, 95) against six pointers with page-wide no-repeat, so it cannot
+  // build — and the pairs that would fit violate gap 3. Unit ticks give 32
+  // candidates over the same span, and counting on by ones from a printed
+  // landmark in the sixties is the skill the face is for.
+  ['g2', 'G2-310', 'number-line-between-60-and-100', 'G1-248-number-line-position.js', 2,
+    { min: 60, max: 100, lines: 3, tick: 1, label: 5, pointers: 2, gap: 3 },
+    'Where on the Number Line? 60 to 100', 'The line starts at sixty. Count on from the nearest printed number.'],
+  ['g1', 'G1-295', 'number-line-between-20-and-40', 'G1-248-number-line-position.js', 2,
+    { min: 20, max: 40, lines: 4, tick: 1, label: 5, pointers: 3, gap: 3 },
+    'Where on the Number Line? 20 to 40', 'The line starts at twenty. Count on from the nearest printed number.'],
 ];
 
 function emit(row) {

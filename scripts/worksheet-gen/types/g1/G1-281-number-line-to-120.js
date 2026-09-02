@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-281',
   slug: 'number-line-to-120',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Where on the Number Line? 0 to 120", instruction: "This line goes past 100. Count on in tens to find the number at each arrow." } },
+  i18n: { en: { title: "Where on the Number Line? 0 to 120", instruction: "This line goes past 100. Count on in tens to each arrow." } },
 };

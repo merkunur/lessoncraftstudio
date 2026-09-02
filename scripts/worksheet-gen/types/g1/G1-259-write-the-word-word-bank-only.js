@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-259',
   slug: 'write-the-word-word-bank-only',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Write the Word: Choose from the Word Bank", instruction: "Every word you need is in the word bank. Write the right one next to each picture." } },
+  i18n: { en: { title: "Write the Word: Choose from the Word Bank", instruction: "Every word is in the bank. Write the right one by each picture." } },
 };

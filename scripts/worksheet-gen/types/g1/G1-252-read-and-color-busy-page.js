@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-252',
   slug: 'read-and-color-busy-page',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Read and Color: A Busy Page", instruction: "Read every sentence carefully. There are more pictures and more colors on this page." } },
+  i18n: { en: { title: "Read and Color: A Busy Page", instruction: "More pictures and more colors. Read each sentence carefully." } },
 };

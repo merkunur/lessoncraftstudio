@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-306',
   slug: 'articles-four-pictures',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Circle the Right Word: Four Pictures", instruction: "Say the word for each picture out loud. Then circle the little word that belongs with it." } },
+  i18n: { en: { title: "Circle the Right Word: Four Pictures", instruction: "Say each picture word, then circle the word that belongs with it." } },
 };

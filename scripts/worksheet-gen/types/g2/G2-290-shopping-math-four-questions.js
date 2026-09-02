@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-290',
   slug: 'shopping-math-four-questions',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Shopping Math: Four Questions", instruction: "Use the shelf prices. Each card asks a different question about shopping." } },
+  i18n: { en: { title: "Shopping Math: Four Questions", instruction: "Four cards, four different shopping questions to answer." } },
 };

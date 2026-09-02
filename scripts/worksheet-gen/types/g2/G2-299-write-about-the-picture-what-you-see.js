@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-299',
   slug: 'write-about-the-picture-what-you-see',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Write About the Picture: What You See", instruction: "Look at the picture. The word bank names everything in it. Write about what you see." } },
+  i18n: { en: { title: "Write About the Picture: What You See", instruction: "The word bank names everything. Write about what you see." } },
 };

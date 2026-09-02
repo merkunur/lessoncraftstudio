@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-286',
   slug: 'word-classes-without-pictures',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Word Classes: Without Pictures", instruction: "This time the words have no pictures to help. Read each one and sort it into the right bin." } },
+  i18n: { en: { title: "Word Classes: Without Pictures", instruction: "No pictures to help. Read each word and sort it into a bin." } },
 };

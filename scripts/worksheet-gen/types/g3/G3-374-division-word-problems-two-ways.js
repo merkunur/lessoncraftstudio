@@ -10,5 +10,5 @@ module.exports = {
   id: 'G3-374',
   slug: 'division-word-problems-two-ways',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Division Word Problems: Two Ways", instruction: "One story shares things out. The other makes equal groups. Both of them are division." } },
+  i18n: { en: { title: "Division Word Problems: Two Ways", instruction: "One story shares out, the other makes groups. Both are division." } },
 };

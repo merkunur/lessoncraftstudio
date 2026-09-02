@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-260',
   slug: 'write-the-word-on-plain-lines',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Write the Word on Plain Lines", instruction: "There is no word bank this time. Say each picture word, then write it on the lines." } },
+  i18n: { en: { title: "Write the Word on Plain Lines", instruction: "No word bank this time. Write each picture word on the lines." } },
 };

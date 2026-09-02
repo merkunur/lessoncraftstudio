@@ -71,12 +71,21 @@ All 64 ids, exactly as listed in `out/b2var-faces.json`. Nothing else.
 
 ## Hard rules for `instruction`
 
-1. **≤ ~150 characters**, addressed to the child, in the register your Year 1 teachers use.
-2. ⭐ **It must say what is different about THIS page.** This is load-bearing and easy to get
-   wrong. The meta description shown in Google is assembled from a family-level sentence plus
-   *this* instruction — the instruction is the **only** per-face sentence in it. If five faces
-   of one family get near-identical instructions, they get near-identical descriptions, and
-   **no gate currently catches that**. Name the range, the scaffold, or the step.
+1. ⭐ **ONE SHORT SENTENCE, 60-75 characters.** 150 is a hard ceiling, not a target.
+   This is measured, not a style preference. The Google meta description is assembled as
+   `"Free printable {TITLE} Worksheet for {LEVEL}. {MIDDLE}. Download the free PDF."`
+   and the engine picks the **longest** candidate for `{MIDDLE}` that still fits inside 170
+   characters. Your instruction is one candidate; the family's generic skill sentence is
+   another. **An instruction that is too long overflows, is discarded, and the generic sentence
+   wins — so every sibling in the family ends up with the same description.** Measured on the
+   first English build: instructions of 55-78 chars won, 68-103 chars lost, depending on how
+   much of the budget the title had already eaten. Languages that run longer than English
+   (de, fi, fr, es, pt) feel this harder.
+   It is also simply better for a 5-8 year old: one short imperative beats two long clauses.
+2. ⭐ **It must say what is different about THIS page** — the range, the scaffold, the step.
+   A short *generic* instruction is worse than a long *specific* one. If a page genuinely needs
+   more words for the child to understand the task, prioritise the child and accept the longer
+   text; just never pad.
 3. It must describe the task the render actually shows, with no control the page lacks.
 
 ## Per-locale reminders

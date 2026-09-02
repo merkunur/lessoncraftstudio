@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-287',
   slug: 'word-classes-fifteen-words',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Word Classes: Sort Fifteen Words", instruction: "There are more words and no pictures. Read each one carefully before you sort it." } },
+  i18n: { en: { title: "Word Classes: Sort Fifteen Words", instruction: "Fifteen words and no pictures. Sort each one into its bin." } },
 };

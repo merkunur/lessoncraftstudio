@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-299',
   slug: 'grid-copy-with-letters-and-numbers',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Copy the Picture Using Letters and Numbers", instruction: "Each square has a letter and a number. Use them to color the same squares on the empty grid." } },
+  i18n: { en: { title: "Copy the Picture Using Letters and Numbers", instruction: "Use the letter and number of each square to copy the picture." } },
 };

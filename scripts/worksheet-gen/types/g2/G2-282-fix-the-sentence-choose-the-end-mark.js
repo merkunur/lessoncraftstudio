@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-282',
   slug: 'fix-the-sentence-choose-the-end-mark',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Fix the Sentence: Choose the End Mark", instruction: "Some sentences ask a question. Rewrite each one and choose the right mark for the end." } },
+  i18n: { en: { title: "Fix the Sentence: Choose the End Mark", instruction: "Some sentences ask a question. Choose the right end mark." } },
 };

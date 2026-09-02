@@ -10,5 +10,5 @@ module.exports = {
   id: 'G3-376',
   slug: 'multiplication-and-division-word-problems-mixed',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Multiplication and Division: Mixed Problems", instruction: "Three stories, three pictures. Decide what each one asks before you answer." } },
+  i18n: { en: { title: "Multiplication and Division: Mixed Problems", instruction: "Three stories. Decide what each one asks before you answer." } },
 };

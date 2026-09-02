@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-258',
   slug: 'write-the-word-with-a-word-bank',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Write the Word: With a Word Bank", instruction: "Find each picture word in the word bank. The first letter is already there to start you off." } },
+  i18n: { en: { title: "Write the Word: With a Word Bank", instruction: "Use the word bank. The first letter is written to start you off." } },
 };

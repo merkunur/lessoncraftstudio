@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-291',
   slug: 'word-tracing-long-words',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Trace the Longer Words", instruction: "These words are long. Trace each one slowly, then write it on the empty lines." } },
+  i18n: { en: { title: "Trace the Longer Words", instruction: "These words are long. Trace each one, then write it yourself." } },
 };

@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-271',
   slug: 'doubles-and-halves-to-20',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Doubles and Halves to 20", instruction: "There are no pictures this time. Work out each double and each half from the numbers." } },
+  i18n: { en: { title: "Doubles and Halves to 20", instruction: "No pictures now. Work out each double and half up to 20." } },
 };

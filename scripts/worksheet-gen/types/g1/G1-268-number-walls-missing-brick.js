@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-268',
   slug: 'number-walls-missing-brick',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Number Walls: Find the Missing Brick", instruction: "One brick at the bottom is empty. Use the brick above it to work out what is missing." } },
+  i18n: { en: { title: "Number Walls: Find the Missing Brick", instruction: "A bottom brick is missing. Use the brick above to find it." } },
 };

@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-298',
   slug: 'grid-copy-6x6',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Copy the Picture on a 6x6 Grid", instruction: "Look at the picture on the left. Color the same squares on the empty grid." } },
+  i18n: { en: { title: "Copy the Picture on a 6x6 Grid", instruction: "Color the same squares on the empty grid on the right." } },
 };

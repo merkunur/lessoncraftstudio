@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-278',
   slug: 'number-line-to-50-counting-in-fives',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Number Line to 50: Counting in Fives", instruction: "This time each tick is five. Count in fives to find the number at each arrow." } },
+  i18n: { en: { title: "Number Line to 50: Counting in Fives", instruction: "Count on in fives from 0, 25 or 50 to reach each arrow." } },
 };

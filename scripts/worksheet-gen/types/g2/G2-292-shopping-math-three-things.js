@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-292',
   slug: 'shopping-math-three-things',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Shopping Math: Buying Three Things", instruction: "These baskets hold three things. Add all three prices to find each total." } },
+  i18n: { en: { title: "Shopping Math: Buying Three Things", instruction: "Each basket holds three things. Add all three prices." } },
 };

@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-251',
   slug: 'read-and-color-four-sentences',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Read and Color: Four Sentences", instruction: "Read each sentence. It tells you what to color and how many. Use the color key to help you." } },
+  i18n: { en: { title: "Read and Color: Four Sentences", instruction: "Read each sentence, then color exactly what it asks for." } },
 };

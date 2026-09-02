@@ -36,7 +36,17 @@ module.exports = {
     const cards = [];
     for (let i = 0; i < d.lines; i++) {
       const ticks = [];
-      for (let v = 0; v <= d.max; v += d.tick) if ((v / d.tick) % d.label !== 0 && v !== 0 && v !== d.max) ticks.push(v);
+      // `min` comes from the CONFIG so a line can start somewhere other than zero.
+      // Every shipped face starts at 0, which lets a child always fall back on
+      // counting from the start; a line beginning at 40 removes that escape and
+      // forces the landmark strategy.
+      // ⚠ THE LABEL TEST MUST BE RELATIVE TO min. `tickRow` in primitives/_svg.js
+      // decides what to print with `Math.round((v - min) / tickStep) % labelEvery`,
+      // so the old absolute `(v / d.tick) % d.label` agrees with the render only
+      // when min is 0 or decade-aligned — a coincidence, not a contract, and it
+      // would silently list printed labels as pointer candidates.
+      const lo = d.min || 0;
+      for (let v = lo; v <= d.max; v += d.tick) if (((v - lo) / d.tick) % d.label !== 0 && v !== lo && v !== d.max) ticks.push(v);
       let picks = null, guard = 0;
       while (!picks && guard++ < 200) {
         const fresh = ticks.filter((v) => !usedPage.has(v));
@@ -47,7 +57,7 @@ module.exports = {
       }
       if (!picks) throw new Error('G1-248: cannot place pointers');
       picks.forEach((v) => usedPage.add(v));
-      const nl = numberLine({ min: 0, max: d.max, tickStep: d.tick, labelEvery: d.label, width: 560, pointers: picks.map((value) => ({ value })) });
+      const nl = numberLine({ min: lo, max: d.max, tickStep: d.tick, labelEvery: d.label, width: 560, pointers: picks.map((value) => ({ value })) });
       cards.push(`<div class="ws-card-stage">${nl.svg}</div>`);
     }
     return { bodyHtml: cardGrid({ cards, cols: 1, rows: d.lines }), meta: {} };

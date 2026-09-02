@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-267',
   slug: 'number-walls-four-courses',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Number Walls: Four Rows High", instruction: "Four rows high. Add each pair of bricks up to the top." } },
+  i18n: { en: { title: "Number Walls: Four Rows High", instruction: "Four rows and no gaps. Add each pair of bricks up to the top." } },
 };

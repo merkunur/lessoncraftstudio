@@ -27,7 +27,7 @@ const ROOT = path.join(__dirname, '..');
 const ROWS = [
   // ---------------- K-284 word-tracing ----------------
   ['k', 'K-289', 'word-tracing-first-words', 'K-284-word-tracing.js', 1, {},
-    'Trace Your First Words', 'Trace the dashed word, then write it on the empty lines.'],
+    'Trace Your First Words', 'Trace the dashed word, then write it on the empty line.'],
   ['k', 'K-290', 'word-tracing-trace-and-write-twice', 'K-284-word-tracing.js', 3, {},
     'Trace Once, Write It Twice', 'Trace the word once, then write it twice on your own.'],
   // cardW widened to 210 and maxLetters pulled back to 12: the caption under the
@@ -47,7 +47,7 @@ const ROWS = [
 
   // ---------------- K-286 grid-copy ----------------
   ['k', 'K-298', 'grid-copy-6x6', 'K-286-grid-copy.js', 1, {},
-    'Copy the Picture on a 6x6 Grid', 'Color the same squares on the empty grid on the right.'],
+    'Copy the Grid Picture: First Steps', 'A small grid to start. Color the same squares on the empty grid.'],
   ['k', 'K-299', 'grid-copy-with-letters-and-numbers', 'K-286-grid-copy.js', 1, { labels: true },
     'Copy the Picture Using Letters and Numbers', 'Use the letter and number of each square to copy the picture.'],
   ['k', 'K-300', 'grid-copy-8x8', 'K-286-grid-copy.js', 3, {},
@@ -95,7 +95,7 @@ const ROWS = [
   ['g1', 'G1-262', 'alphabetical-order-number-the-words', 'G1-245-alphabetical-order.js', 1, { rulings: false },
     'ABC Order: Number the Words', 'Number the four cards to put the words in ABC order.'],
   ['g1', 'G1-263', 'alphabetical-order-four-words', 'G1-245-alphabetical-order.js', 1, {},
-    'ABC Order: Four Words', 'Number the cards, then copy the words in ABC order.'],
+    'ABC Order: Number Them, Then Write Them', 'Number the cards, then copy the words onto the lines in order.'],
   ['g1', 'G1-264', 'alphabetical-order-same-first-letter', 'G1-245-alphabetical-order.js', 3, {},
     'ABC Order: When Two Words Start the Same', 'Two words start alike. Use the second letter to order them.'],
 
@@ -103,7 +103,7 @@ const ROWS = [
   ['g1', 'G1-266', 'number-walls-to-10', 'G1-246-number-walls.js', 1, {},
     'Number Walls to 10', 'Each brick is the sum of the two bricks under it. Build every wall to the top.'],
   ['g1', 'G1-267', 'number-walls-four-courses', 'G1-246-number-walls.js', 3, { gap: false, walls: 4, courses: 4, baseMin: 1, baseMax: 3, topMax: 20 },
-    'Number Walls: Four Rows High', 'Four rows high. Add each pair of bricks up to the top.'],
+    'Number Walls: Four Rows High', 'Four rows and no gaps. Add each pair of bricks up to the top.'],
   ['g1', 'G1-268', 'number-walls-missing-brick', 'G1-246-number-walls.js', 3, {},
     'Number Walls: Find the Missing Brick', 'A bottom brick is missing. Use the brick above to find it.'],
 
@@ -111,7 +111,7 @@ const ROWS = [
   ['g1', 'G1-270', 'doubles-and-halves-first-steps', 'G1-247-doubles-halves.js', 1, {},
     'Doubles and Halves: First Steps', 'Double the group, then halve it. Small numbers to start.'],
   ['g1', 'G1-271', 'doubles-and-halves-to-20', 'G1-247-doubles-halves.js', 3, {},
-    'Doubles and Halves to 20', 'No pictures now. Work out each double and half up to 20.'],
+    'Doubles and Halves to 20', 'Numbers only this time. Work out each double and half up to 20.'],
 
   // ---------------- G1-248 number-lines ----------------
   ['g1', 'G1-274', 'number-line-to-10', 'G1-248-number-line-position.js', 1, {},
@@ -138,7 +138,7 @@ const ROWS = [
 
   // ---------------- G1-249 sentence-building ----------------
   ['g1', 'G1-282', 'unscramble-the-sentence-with-clues', 'G1-249-unscramble-sentence.js', 1, {},
-    'Unscramble the Sentence: With Clues', 'The capital and full stop show where the sentence starts and ends.'],
+    'Unscramble the Sentence: With Clues', 'The capital letter and the end mark show where each sentence begins.'],
   // minTok/maxTok widened back to the d2 band on purpose: this face's axis is
   // CLUES (no capital, no end mark), not sentence length. At d3's 5-7 tokens the
   // frame pool is too thin to build - de has 3 qualifying frames and fi has 1,
@@ -150,7 +150,7 @@ const ROWS = [
   ['g2', 'G2-281', 'fix-the-sentence-capital-and-full-stop', 'G2-274-fix-the-sentence.js', 1, {},
     'Fix the Sentence: Capital and Full Stop', 'Rewrite each sentence with a capital letter and a full stop.'],
   ['g2', 'G2-282', 'fix-the-sentence-choose-the-end-mark', 'G2-274-fix-the-sentence.js', 3, {},
-    'Fix the Sentence: Choose the End Mark', 'Some sentences ask a question. Choose the right end mark.'],
+    'Fix the Sentence: Choose the End Mark', 'Fix the capital letters and the names, and choose the right end mark.'],
 
   // ---------------- G2-275 word-classes ----------------
   ['g2', 'G2-285', 'word-classes-nine-words', 'G2-275-word-classes.js', 1, {},
@@ -167,13 +167,13 @@ const ROWS = [
     'Shopping Math: Four Questions', 'Four cards, four different shopping questions to answer.'],
   ['g2', 'G2-291', 'shopping-math-add-up-the-basket', 'G2-276-shopping-math.js', 2, { kinds: ['total', 'total', 'total'] },
     'Shopping Math: Add Up the Basket', 'Every card asks for a total. Add the prices together.'],
-  ['g2', 'G2-292', 'shopping-math-three-things', 'G2-276-shopping-math.js', 2, { kinds: ['total3', 'total', 'total3'] },
+  ['g2', 'G2-292', 'shopping-math-three-things', 'G2-276-shopping-math.js', 2, { kinds: ['total3', 'total3', 'total3'] },
     'Shopping Math: Buying Three Things', 'Each basket holds three things. Add all three prices.'],
   ['g2', 'G2-293', 'shopping-math-how-much-change', 'G2-276-shopping-math.js', 2, { kinds: ['change', 'change', 'change'] },
     'Shopping Math: How Much Change?', 'Count the coins paid, then work out the change.'],
   ['g2', 'G2-294', 'shopping-math-is-there-enough-money', 'G2-276-shopping-math.js', 2, { kinds: ['canBuy', 'canBuy', 'canBuy'] },
-    'Shopping Math: Is There Enough Money?', 'Count the coins and compare with the price. Circle yes or no.'],
-  ['g2', 'G2-295', 'shopping-math-how-much-more', 'G2-276-shopping-math.js', 2, { kinds: ['diff', 'total', 'diff'] },
+    'Shopping Math: Is There Enough Money?', 'Compare the money with the price. Circle yes or no, then write the total.'],
+  ['g2', 'G2-295', 'shopping-math-how-much-more', 'G2-276-shopping-math.js', 2, { kinds: ['diff', 'diff', 'diff'] },
     'Shopping Math: How Much More?', 'Compare two prices and work out the difference between them.'],
 
   // ---------------- G2-277 calendar ----------------
@@ -186,7 +186,7 @@ const ROWS = [
 
   // ---------------- G2-278 picture-writing ----------------
   ['g2', 'G2-299', 'write-about-the-picture-what-you-see', 'G2-278-write-about-the-picture.js', 1, {},
-    'Write About the Picture: What You See', 'The word bank names everything. Write about what you see.'],
+    'Write About the Picture: What You See', 'Sentence starters help you begin. The word bank names everything.'],
   ['g2', 'G2-300', 'write-about-the-picture-your-own-words', 'G2-278-write-about-the-picture.js', 3, {},
     'Write About the Picture: Your Own Words', 'No sentence starters. Write your own story about the picture.'],
 

@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-282',
   slug: 'unscramble-the-sentence-with-clues',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Unscramble the Sentence: With Clues", instruction: "The capital and full stop show where the sentence starts and ends." } },
+  i18n: { en: { title: "Unscramble the Sentence: With Clues", instruction: "The capital letter and the end mark show where each sentence begins." } },
 };

@@ -41,7 +41,9 @@ const THEME = {
   // G1-247 doubles-halves (base ships fruits)
   'G1-270': 'animals', 'G1-271': 'vehicles',
   // G1-249 sentence-building (base ships animals)
-  'G1-282': 'fruits', 'G1-283': 'vehicles',
+  'G1-282': 'fruits', 'G1-283': 'animals', // NOT vehicles: the bank's
+  // "{name} feeds the {noun}" frame has no animacy gate and rendered
+  // "tom feeds the skateboard". Every frame is safe on animals.
   // G2-274 capitals-punctuation (base ships vehicles)
   'G2-281': 'animals', 'G2-282': 'fruits',
   // G2-275 word-classes (base ships toys)

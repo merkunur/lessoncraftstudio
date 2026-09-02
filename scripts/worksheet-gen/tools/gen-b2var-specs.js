@@ -223,7 +223,7 @@ const ROWS = [
   // days after one sticker the other falls). sixRows is off for the same reason:
   // a six-week grid is taller and leaves Norwegian no room for its cards.
   ['g2', 'G2-297', 'read-the-calendar-a-busy-month', 'G2-277-read-the-calendar.js', 3, { questions: ['dayOfDate', 'countWeekday', 'stickerDate', 'weekLater', 'after'], sixRows: false },
-    'Read the Calendar: A Week Later', 'Find the date one week later, and count the days between the stickers.'],
+    'Read the Calendar: A Busy Month', 'Find the date one week later, and count the days between the stickers.'],
   ['g2', 'G2-298', 'read-the-calendar-days-of-the-week', 'G2-277-read-the-calendar.js', 1, { questions: ['dayOfDate', 'countWeekday', 'firstDay', 'lastDay'], stickers: 2, cellH: 72 },
     'Read the Calendar: Days of the Week', 'Every question is about the days. Read down the columns.'],
 

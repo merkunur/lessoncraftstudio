@@ -1,0 +1,111 @@
+/**
+ * G1-247 — Doubles and Halves (nt20-B; `doubles-halves`, G1, 1.OA.C.6 —
+ * Verdoppeln und Halbieren / doubles et moitiés / dubbelt och hälften).
+ * Left column DOUBLES: a group of theme pictures and its exact mirror
+ * across a dashed line — the double IS the reflection; beneath, `4 + 4 = ▢`.
+ * Right column HALVES: 2N pictures in two equal rows with a dashed coral cut
+ * line; beneath, `12 = ▢ + ▢` (1.OA.D.8-honest). One authored pill per
+ * column is the only text. d1 4 cards · d2 6 · d3 8 numeric-only.
+ */
+'use strict';
+const { cardGrid } = require('../../templates/layouts/card-grid.js');
+const { answerBox } = require('../../templates/components.js');
+const { mirrorGroups } = require('../../templates/components-b2.js');
+const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const { LABELS } = require('../../data/b2/labels.js');
+
+const NUM = (s) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:26px;color:#3A3530">${s}</span>`;
+const OP = (s) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:26px;color:#146B5E">${s}</span>`;
+
+module.exports = {
+  id: 'G1-247',
+  slug: 'doubles-and-halves',
+  gradeBand: 'G1',
+  assetClass: 'icon-placement',
+  exerciseType: 'doubles-halves',
+  themeAxis: { applicable: true, minNouns: 1, excludeBw: true },
+  difficulty: {
+    1: { cards: 4, cols: 2, rows: 2, dMin: 1, dMax: 4, hMin: 1, hMax: 4, icon: 52, perRow: 2, numeric: false },
+    2: { cards: 6, cols: 2, rows: 3, dMin: 2, dMax: 6, hMin: 2, hMax: 6, icon: 40, perRow: 3, numeric: false },
+    3: { cards: 8, cols: 2, rows: 4, dMin: 5, dMax: 10, hMin: 5, hMax: 10, icon: 0, perRow: 3, numeric: true },
+  },
+  i18n: {
+    en: {
+      title: 'Doubles and Halves',
+      instruction: 'Double the group on the left. Halve the group on the right. Write the numbers in the boxes.',
+    },
+  },
+
+  build({ theme, difficulty, locale }, ctx) {
+    const d = this.difficulty[difficulty];
+    const rng = ctx.rng;
+    const loc = (locale || 'en').slice(0, 2);
+    const L = LABELS[loc] && LABELS[loc].doublesHalves;
+    if (!L) throw new Error(`G1-247: no labels for ${loc}`);
+    const noun = rng.pick(labelSafeNouns(theme));
+    const src = fileUri(theme, noun.noun);
+    const half = d.cards / 2;
+    const dRange = []; for (let v = d.dMin; v <= d.dMax; v++) dRange.push(v);
+    const hRange = []; for (let v = d.hMin; v <= d.hMax; v++) hRange.push(v);
+    const doubles = rng.sample(dRange, half), halves = rng.sample(hRange, half);
+    const pill = (key) => `<span style="display:inline-flex;align-items:center;justify-content:center;background:#FBE3D8;border-radius:12px;padding:2px 14px;font-family:'Nunito';font-weight:800;font-size:14px;color:#3A3530" data-lcs-pill="${key}">${L[key]}</span>`;
+    const cards = [];
+    for (let i = 0; i < half; i++) {
+      const n = doubles[i];
+      const stage = d.numeric ? '' : `<div style="background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:10px;width:100%">${mirrorGroups({ src, n, iconPx: d.icon, perRow: d.perRow })}</div>`;
+      cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:8px;justify-content:space-evenly" data-lcs-op="double" data-lcs-n="${n}">${pill('double')}${stage}` +
+        `<div style="display:flex;align-items:center;gap:8px" data-lcs-strip>${NUM(n)}${OP('+')}${NUM(n)}${OP('=')}${answerBox({ w: 64, h: 48, answer: 2 * n })}</div></div>`);
+      const m = halves[i];
+      let hstage = '';
+      if (!d.numeric) {
+        const row = () => `<div style="display:flex;gap:6px" data-lcs-row>${Array.from({ length: m }, () => `<img class="ws-icon" src="${src}" alt="" style="width:${d.icon}px;height:${d.icon}px">`).join('')}</div>`;
+        const w = m * d.icon + (m - 1) * 6;
+        hstage = `<div style="background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:10px;width:100%;display:flex;flex-direction:column;align-items:center;gap:6px">${row()}` +
+          `<svg width="${w + 20}" height="10" viewBox="0 0 ${w + 20} 10" aria-hidden="true"><line x1="2" y1="5" x2="${w + 18}" y2="5" stroke="#F2784B" stroke-width="2.5" stroke-dasharray="7 5"/><line x1="2" y1="1" x2="2" y2="9" stroke="#F2784B" stroke-width="2.5"/><line x1="${w + 18}" y1="1" x2="${w + 18}" y2="9" stroke="#F2784B" stroke-width="2.5"/></svg>${row()}</div>`;
+      }
+      cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:8px;justify-content:space-evenly" data-lcs-op="half" data-lcs-n="${m}">${pill('half')}${hstage}` +
+        `<div style="display:flex;align-items:center;gap:8px" data-lcs-strip>${NUM(2 * m)}${OP('=')}${answerBox({ w: 64, h: 48, answer: m })}${OP('+')}${answerBox({ w: 64, h: 48, answer: m })}</div></div>`);
+    }
+    return { bodyHtml: cardGrid({ cards, cols: d.cols, rows: d.rows }), meta: { doubles, halves } };
+  },
+
+  async verify(page) {
+    return page.evaluate(() => {
+      const fails = [];
+      const items = [...document.querySelectorAll('[data-lcs-op]')];
+      if (items.length < 4) fails.push(`only ${items.length} cards`);
+      const seen = { double: new Set(), half: new Set() };
+      items.forEach((it, i) => {
+        const op = it.dataset.lcsOp, n = +it.dataset.lcsN;
+        if (seen[op].has(n)) fails.push(`card ${i + 1}: ${op} ${n} repeated`);
+        seen[op].add(n);
+        const boxes = [...it.querySelectorAll('[data-lcs-answer]')].map((b) => +b.dataset.lcsAnswer);
+        const strip = it.querySelector('[data-lcs-strip]').textContent.replace(/\s+/g, ' ');
+        const pill = it.querySelector('[data-lcs-pill]');
+        if (!pill || !pill.textContent.trim()) fails.push(`card ${i + 1}: pill missing`);
+        if (op === 'double') {
+          if (boxes.join(',') !== String(2 * n)) fails.push(`card ${i + 1}: double answer ${boxes}`);
+          if (new RegExp(`(^|\\D)${2 * n}(\\D|$)`).test(strip)) fails.push(`card ${i + 1}: answer ${2 * n} printed`);
+          const g1 = it.querySelectorAll('[data-lcs-g1] img').length, g2 = it.querySelectorAll('[data-lcs-g2] img').length;
+          if (g1 || g2) {
+            if (g1 !== n || g2 !== n) fails.push(`card ${i + 1}: groups ${g1}/${g2}, want ${n}/${n}`);
+            const m = it.querySelector('[data-lcs-mirror]');
+            if (!m || !/scaleX\(-1\)/.test(m.getAttribute('style') || '')) fails.push(`card ${i + 1}: mirror group not mirrored`);
+          }
+        } else {
+          if (boxes.join(',') !== `${n},${n}`) fails.push(`card ${i + 1}: half answers ${boxes}`);
+          if (new RegExp(`(^|\\D)${n}(\\D|$)`).test(strip)) fails.push(`card ${i + 1}: answer ${n} printed`);
+          const rows = [...it.querySelectorAll('[data-lcs-row]')];
+          if (rows.length) {
+            if (rows.length !== 2 || rows.some((r) => r.querySelectorAll('img').length !== n)) fails.push(`card ${i + 1}: halves rows wrong`);
+          }
+        }
+        if (boxes.some((b) => b < 1 || b > 20)) fails.push(`card ${i + 1}: answer out of band`);
+      });
+      const pills = new Set([...document.querySelectorAll('[data-lcs-pill]')].map((p) => p.textContent.trim()));
+      if (pills.size !== 2) fails.push('the two pill labels are not distinct');
+      if (!seen.double.size || !seen.half.size) fails.push('missing an op');
+      return fails;
+    });
+  },
+};

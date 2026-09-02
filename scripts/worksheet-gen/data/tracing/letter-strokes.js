@@ -231,6 +231,19 @@ const NEW_GLYPHS = {
   'Ø': CORE.GLYPHS['O'].concat([line(26, 84, 74, 16, 4)]),
   'ø': CORE.GLYPHS['o'].concat([line(26, 86, 74, 42, 4)]),
 
+  // nt20-B (2026-09): the four non-letter glyphs vocab nouns carry, so the
+  // word lanes stop refusing "koala's", "chauve-souris", "maçã", "pájaro
+  // carpintero". A SPACE has no strokes — it is an advance only (see
+  // glyphFor). The hyphen sits on the x-height midline; the apostrophe is one
+  // short tick in the lowercase accent band; the cedilla is a mark stroke
+  // (no guides) hanging from the c's lower terminal.
+  ' ': [],
+  '-': [line(36, 64, 64, 64, 3)],
+  "'": [line(51, 26, 48, 37, 3)],
+  '’': [line(51, 26, 48, 37, 3)],
+  'ç': CORE.GLYPHS['c'].concat([Object.assign(pl(54, 84, 56, 88, 50, 92, 46, 90), { isMark: true })]),
+  'Ç': CORE.GLYPHS['C'].concat([Object.assign(pl(56, 84, 58, 88, 52, 92, 48, 90), { isMark: true })]),
+
   // ae ligature (da/no). Built from the table's OWN `a` and `e`, mapped into
   // the two halves of the box, so both bowls keep the letterforms the type
   // panel ruled — an `a` on the left, not an `o` (that would be the different
@@ -296,7 +309,8 @@ function rawStrokes(ch) {
 function glyphFor(ch) {
   if (_cache.has(ch)) return _cache.get(ch);
   const raw = rawStrokes(ch);
-  const ink = inkBBox(raw);
+  // a stroke-less glyph (space) is a pure advance: 34 units, no ink
+  const ink = raw.length ? inkBBox(raw) : { x0: 0, x1: 20, y0: METRICS.base, y1: METRICS.base };
   const g = {
     ch,
     strokes: raw.map(function (pts) {

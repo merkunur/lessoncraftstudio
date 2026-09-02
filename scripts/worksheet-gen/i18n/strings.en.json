@@ -575,6 +575,26 @@
     "title": "My First Small Letters",
     "instruction": "Trace each small letter, then try one on your own on the empty line. Start at the orange dot and follow the arrows."
   },
+  "K-284": {
+    "title": "Trace and Write the Words",
+    "instruction": "Say the picture word. Trace the dashed letters, then write the word yourself on the empty lines."
+  },
+  "K-285": {
+    "title": "Dot-to-Dot 1 to 20",
+    "instruction": "Start at the orange dot. Join the dots in number order to find the hidden picture."
+  },
+  "K-286": {
+    "title": "Copy the Grid Picture",
+    "instruction": "Look at the picture on the left. Color the same squares on the empty grid so the picture appears again."
+  },
+  "K-287": {
+    "title": "One and Many: Singular and Plural",
+    "instruction": "Read the word for one. Then trace the word for many and write it yourself on the empty line."
+  },
+  "K-288": {
+    "title": "A or An? Circle the Right Word",
+    "instruction": "Say the picture word out loud. Circle the word that goes in front of it."
+  },
   "G1-101": {
     "title": "Add the Pictures",
     "instruction": "Count both groups. Write how many altogether."
@@ -927,6 +947,38 @@
     "title": "Word Problem Practice",
     "instruction": "Read each story. Use the pictures to help you. Write the answer in the box."
   },
+  "G1-242": {
+    "title": "Read and Color",
+    "instruction": "Read each sentence carefully. Then color exactly the pictures it tells you to."
+  },
+  "G1-243": {
+    "title": "Number of the Day",
+    "instruction": "Look at the big number. Show it in every box on the page."
+  },
+  "G1-244": {
+    "title": "Write the Word",
+    "instruction": "Say the name of each picture. Write the word on the line."
+  },
+  "G1-245": {
+    "title": "ABC Order",
+    "instruction": "Use the alphabet strip. Number the picture words 1 to 6 in alphabetical order, then write them in order on the lines."
+  },
+  "G1-246": {
+    "title": "Number Walls",
+    "instruction": "Each brick is the sum of the two bricks under it. Fill in the missing numbers."
+  },
+  "G1-247": {
+    "title": "Doubles and Halves",
+    "instruction": "Double the group on the left. Halve the group on the right. Write the numbers in the boxes."
+  },
+  "G1-248": {
+    "title": "Where on the Number Line?",
+    "instruction": "Each arrow points to a tick mark. Count on from the nearest number and write the number in the box."
+  },
+  "G1-249": {
+    "title": "Unscramble the Sentence",
+    "instruction": "The words are mixed up. Put them in order and write the sentence on the line."
+  },
   "G2-203": {
     "title": "Add the Blocks",
     "instruction": "Add the two block groups. Write the total."
@@ -1199,6 +1251,30 @@
     "title": "Reading Comprehension: Story 6",
     "instruction": "Read the story carefully. Then circle the best answer to each question."
   },
+  "G2-274": {
+    "title": "Fix the Sentence",
+    "instruction": "Each sentence has lost its capital letter and its end mark. Write it again correctly on the line."
+  },
+  "G2-275": {
+    "title": "Nouns, Verbs, and Adjectives",
+    "instruction": "Read every word. Is it a naming word, a doing word, or a describing word? Write it in the right bin."
+  },
+  "G2-276": {
+    "title": "Shopping Math",
+    "instruction": "Find each thing on the shelf and read its price. Then answer the questions about the money."
+  },
+  "G2-277": {
+    "title": "Read the Calendar",
+    "instruction": "Look at the calendar. Use it to answer every question."
+  },
+  "G2-278": {
+    "title": "Write About the Picture",
+    "instruction": "Look at the picture. Use the word bank to help you write about what you see."
+  },
+  "G2-279": {
+    "title": "Grid Coordinates: Color the Squares",
+    "instruction": "Find each square by its letter and number, like B2. Color it with the color of its group to reveal the picture."
+  },
   "G3-301": {
     "title": "Big Arrays",
     "instruction": "Count the rows of pictures. Write how many in all."
@@ -1430,5 +1506,9 @@
   "G3-369": {
     "title": "Multiply and Divide Fact Families",
     "instruction": "Use the three numbers on the roof. Complete the four related facts."
+  },
+  "G3-370": {
+    "title": "Multiplication and Division Word Problems",
+    "instruction": "Read each story. Use the picture to help you. Write the answer in the box, then finish the answer sentence."
   }
 }

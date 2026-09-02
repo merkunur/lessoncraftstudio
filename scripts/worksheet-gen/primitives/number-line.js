@@ -9,10 +9,13 @@
 const tokens = require('./_tokens.js');
 const { svgRoot, line, circle, el, tickRow } = require('./_svg.js');
 
-function numberLine({ min, max, tickStep = 1, labelEvery = 1, width = 560, jumps = [], marks = [] }, ctx) {
+function numberLine({ min, max, tickStep = 1, labelEvery = 1, width = 560, jumps = [], marks = [], pointers = [] }, ctx) {
   const t = (ctx && ctx.tokens) || tokens;
   const padX = 26;
-  const arcH = jumps.length ? 56 : 14;
+  // nt20-B `pointers` (G1-248): a coral arrow from a dashed answer box down to
+  // an UNLABELLED tick — position given, numeral wanted. Additive: with no
+  // pointers every published number line renders byte-identically.
+  const arcH = pointers.length ? 72 : (jumps.length ? 56 : 14);
   const H = arcH + 56;
   const W = width + padX * 2;
   const y = arcH + 14;
@@ -53,6 +56,23 @@ function numberLine({ min, max, tickStep = 1, labelEvery = 1, width = 560, jumps
 
   marks.forEach((v) => {
     parts.push(circle({ cx: ticks.xFor(v), cy: y, r: 7, fill: t.color.teal, data: { 'data-lcs-mark': v } }));
+  });
+
+  pointers.forEach(({ value }) => {
+    const x = ticks.xFor(value);
+    const boxW = 52, boxH = 44;
+    // dashed answer box (white, coral dash) centred over the tick
+    parts.push(el('rect', {
+      x: x - boxW / 2, y: y - 8 - 30 - boxH, width: boxW, height: boxH, rx: 8, ry: 8,
+      fill: t.color.white, stroke: t.color.coral, 'stroke-width': 2.5, 'stroke-dasharray': '6 5',
+      'data-lcs-pointer': value, 'data-lcs-answer': value,
+    }));
+    // arrow shaft + head pointing at the tick
+    parts.push(line({ x1: x, y1: y - 8 - 30, x2: x, y2: y - 10, strokeColor: t.color.coral, strokeWidth: 3, data: { 'data-lcs-pointer-arrow': value } }));
+    parts.push(el('path', {
+      d: `M ${x - 7} ${y - 18} L ${x} ${y - 8} L ${x + 7} ${y - 18}`,
+      fill: 'none', stroke: t.color.coral, 'stroke-width': 3, 'stroke-linecap': 'round', 'stroke-linejoin': 'round',
+    }));
   });
 
   return {

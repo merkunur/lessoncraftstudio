@@ -34,6 +34,13 @@ const codeColors = {
   codeBlue: '#2E6DA4',
   codeYellow: '#E0A800',
   codeGreen: '#4E8A3C',
+  // nt20-B (2026-09): four more swatches for read-and-color / grid-coordinates.
+  // Muted against cream, distinct from coral #F2784B, and each pair ≥ 12 %
+  // apart in greyscale lightness — the colour WORD stays the B&W signal.
+  codeOrange: '#D9661C',
+  codePurple: '#7A4E9C',
+  codeBrown: '#8C5A2B',
+  codePink: '#D66A8E',
 };
 
 const font = {

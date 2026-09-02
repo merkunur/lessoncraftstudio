@@ -190,5 +190,73 @@
   "lowercase-letter-tracing": {
     "full": "Tracing lowercase letters on three-line paper teaches the x-height body, the tall ascenders and the tails that drop below the line.",
     "short": "Builds lowercase letter formation."
+  },
+  "word-tracing": {
+    "full": "Tracing a picture word along its letter strokes and then writing it alone links the thing, its name, and its spelling in one glance.",
+    "short": "Builds early word writing from pictures."
+  },
+  "dot-to-dot": {
+    "full": "Joining the numbered dots in order reveals a picture and rehearses the counting sequence with every pencil stroke.",
+    "short": "Builds number sequence and pencil control."
+  },
+  "grid-copy": {
+    "full": "Copying a picture square by square onto an empty grid trains careful looking, position sense, and precise drawing.",
+    "short": "Builds spatial copying on a grid."
+  },
+  "singular-plural": {
+    "full": "Seeing one picture beside many and writing the plural form builds the noun endings children hear but rarely spell.",
+    "short": "Builds singular and plural noun forms."
+  },
+  "articles": {
+    "full": "Circling the right article beside each picture builds the noun-gender and article habits that every later sentence depends on.",
+    "short": "Builds article and noun-gender knowledge."
+  },
+  "read-and-color": {
+    "full": "Reading each short sentence and coloring exactly what it says turns decoding into real comprehension the child can check.",
+    "short": "Builds reading comprehension through coloring."
+  },
+  "number-of-the-day": {
+    "full": "Showing one number as a word, in tens and ones, in frames, tallies, and on the number line builds deep number sense.",
+    "short": "Builds number sense through many representations."
+  },
+  "write-the-word": {
+    "full": "Writing the name of each picture on the line, with or without a word bank, builds spelling from sounds to letters.",
+    "short": "Builds spelling from pictures."
+  },
+  "alphabetical-order": {
+    "full": "Putting picture words into alphabetical order builds letter-sequence knowledge and the dictionary skills readers rely on.",
+    "short": "Builds alphabetical ordering."
+  },
+  "number-walls": {
+    "full": "Filling each brick with the sum of the two below it builds addition fluency and missing-addend thinking in one puzzle.",
+    "short": "Builds addition fluency with number pyramids."
+  },
+  "doubles-halves": {
+    "full": "Doubling a group and halving another builds the doubles facts that unlock near-doubles, even numbers, and early multiplication.",
+    "short": "Builds doubles and halves facts."
+  },
+  "sentence-building": {
+    "full": "Putting scrambled word tiles back into a sentence builds word order, capital letters, and the feel of a complete thought.",
+    "short": "Builds sentence word order."
+  },
+  "capitals-punctuation": {
+    "full": "Rewriting each sentence with its capital letter and end mark builds the punctuation habits that make writing readable.",
+    "short": "Builds capital letters and end punctuation."
+  },
+  "word-classes": {
+    "full": "Sorting words into nouns, verbs, and adjectives builds the grammar categories children need to talk about language.",
+    "short": "Builds noun, verb, and adjective recognition."
+  },
+  "calendar": {
+    "full": "Reading dates, weekdays, and weeks off a real month grid builds the calendar skills children use every single day.",
+    "short": "Builds calendar reading."
+  },
+  "picture-writing": {
+    "full": "Writing about a picture with a word bank and sentence starters turns a blank page into a first confident story.",
+    "short": "Builds early writing from a picture prompt."
+  },
+  "grid-coordinates": {
+    "full": "Coloring each named square on a lettered and numbered grid builds coordinate reading and reveals a hidden picture.",
+    "short": "Builds grid coordinate reading."
   }
 }

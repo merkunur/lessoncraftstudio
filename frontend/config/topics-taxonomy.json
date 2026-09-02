@@ -389,6 +389,91 @@
       "default_subject": "letters",
       "default_age_range": "5-7",
       "exercise_type_axis_key": "lowercase-letter-tracing"
+    },
+    "word-tracing": {
+      "default_subject": "letters",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "word-tracing"
+    },
+    "dot-to-dot": {
+      "default_subject": "math",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "dot-to-dot"
+    },
+    "grid-copy": {
+      "default_subject": "spatial-reasoning",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "grid-copy"
+    },
+    "singular-plural": {
+      "default_subject": "letters",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "singular-plural"
+    },
+    "articles": {
+      "default_subject": "letters",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "articles"
+    },
+    "read-and-color": {
+      "default_subject": "letters",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "read-and-color"
+    },
+    "number-of-the-day": {
+      "default_subject": "math",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "number-of-the-day"
+    },
+    "write-the-word": {
+      "default_subject": "letters",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "write-the-word"
+    },
+    "alphabetical-order": {
+      "default_subject": "letters",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "alphabetical-order"
+    },
+    "number-walls": {
+      "default_subject": "math",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "number-walls"
+    },
+    "doubles-halves": {
+      "default_subject": "math",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "doubles-halves"
+    },
+    "sentence-building": {
+      "default_subject": "letters",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "sentence-building"
+    },
+    "capitals-punctuation": {
+      "default_subject": "letters",
+      "default_age_range": "7-9",
+      "exercise_type_axis_key": "capitals-punctuation"
+    },
+    "word-classes": {
+      "default_subject": "letters",
+      "default_age_range": "7-9",
+      "exercise_type_axis_key": "word-classes"
+    },
+    "calendar": {
+      "default_subject": "math",
+      "default_age_range": "7-9",
+      "exercise_type_axis_key": "calendar"
+    },
+    "picture-writing": {
+      "default_subject": "letters",
+      "default_age_range": "7-9",
+      "exercise_type_axis_key": "picture-writing"
+    },
+    "grid-coordinates": {
+      "default_subject": "spatial-reasoning",
+      "default_age_range": "7-9",
+      "exercise_type_axis_key": "grid-coordinates"
     }
   },
   "$comment_subjects": "Subject×grade hub registry (2026-07-05). Powers /[locale]/topic/<subject>/<grade> hub pages that match how teachers search (Fach×Klasse, e.g. 'Mathe Klasse 1'). Keys = the apps.*.default_subject buckets (math/logic/letters/spatial-reasoning/science). slug+name per locale; bucket→exercise-type mapping derived from apps.* in code (exerciseTypeKeysForSubject). NOTE: the older $comment_subject_vocabulary claim of '4 values, no science' is stale — the corpus has 5 (science = science-sort/match/sequence). Added de+en at MVP; other locales added per the per-locale SEO rollout with native Fach terms.",
@@ -2698,6 +2783,142 @@
           "da": "Små bogstaver",
           "no": "Små bokstaver",
           "fi": "Pienten kirjainten kirjoittaminen"
+        }
+      },
+      "word-tracing": {
+        "slug": {
+          "en": "word-tracing"
+        },
+        "name": {
+          "en": "Word Tracing"
+        }
+      },
+      "dot-to-dot": {
+        "slug": {
+          "en": "dot-to-dot"
+        },
+        "name": {
+          "en": "Dot-to-Dot"
+        }
+      },
+      "grid-copy": {
+        "slug": {
+          "en": "grid-copy"
+        },
+        "name": {
+          "en": "Copy the Grid Picture"
+        }
+      },
+      "singular-plural": {
+        "slug": {
+          "en": "singular-plural"
+        },
+        "name": {
+          "en": "Singular and Plural"
+        }
+      },
+      "articles": {
+        "slug": {
+          "en": "articles"
+        },
+        "name": {
+          "en": "Articles"
+        }
+      },
+      "read-and-color": {
+        "slug": {
+          "en": "read-and-color"
+        },
+        "name": {
+          "en": "Read and Color"
+        }
+      },
+      "number-of-the-day": {
+        "slug": {
+          "en": "number-of-the-day"
+        },
+        "name": {
+          "en": "Number of the Day"
+        }
+      },
+      "write-the-word": {
+        "slug": {
+          "en": "write-the-word"
+        },
+        "name": {
+          "en": "Write the Word"
+        }
+      },
+      "alphabetical-order": {
+        "slug": {
+          "en": "alphabetical-order"
+        },
+        "name": {
+          "en": "Alphabetical Order"
+        }
+      },
+      "number-walls": {
+        "slug": {
+          "en": "number-walls"
+        },
+        "name": {
+          "en": "Number Walls"
+        }
+      },
+      "doubles-halves": {
+        "slug": {
+          "en": "doubles-halves"
+        },
+        "name": {
+          "en": "Doubles and Halves"
+        }
+      },
+      "sentence-building": {
+        "slug": {
+          "en": "sentence-building"
+        },
+        "name": {
+          "en": "Sentence Building"
+        }
+      },
+      "capitals-punctuation": {
+        "slug": {
+          "en": "capitals-punctuation"
+        },
+        "name": {
+          "en": "Capital Letters and Punctuation"
+        }
+      },
+      "word-classes": {
+        "slug": {
+          "en": "word-classes"
+        },
+        "name": {
+          "en": "Word Classes"
+        }
+      },
+      "calendar": {
+        "slug": {
+          "en": "calendar"
+        },
+        "name": {
+          "en": "Calendar"
+        }
+      },
+      "picture-writing": {
+        "slug": {
+          "en": "picture-writing"
+        },
+        "name": {
+          "en": "Picture Writing Prompts"
+        }
+      },
+      "grid-coordinates": {
+        "slug": {
+          "en": "grid-coordinates"
+        },
+        "name": {
+          "en": "Grid Coordinates"
         }
       }
     },

@@ -389,3 +389,60 @@ html, body {
 }
 .ws-match-dot--right { right: -26px; }
 .ws-match-dot--left  { left:  -26px; }
+
+/* ---------- nt20-B (2026-09) component classes — additive; no existing rule changed ---------- */
+.ws-tilerow { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; min-height: 44px; }
+.ws-tile {
+  display: inline-flex; align-items: center; padding: 0 12px; background: #FFFFFF;
+  border: 2px solid #146B5E; border-radius: 10px; box-shadow: 0 2px 0 #C8BFAE;
+  font-family: 'Nunito', sans-serif; font-weight: 800; color: #3A3530; white-space: nowrap;
+}
+.ws-tile--word { box-shadow: none; border-color: #F0E4CB; gap: 8px; }
+.ws-lane {
+  background: #FBF3E4; border: 2px solid #F0E4CB; border-radius: 14px; padding: 12px 16px;
+  position: relative; min-width: 0;
+}
+.ws-achips { display: flex; gap: 12px; justify-content: center; padding-top: 6px; }
+.ws-achip {
+  position: relative; display: inline-flex; align-items: center; justify-content: center;
+  background: #FFFFFF; border: 2.5px solid #146B5E; border-radius: 24px;
+  font-family: 'Baloo 2', cursive; font-weight: 700; color: #3A3530;
+}
+.ws-nstrip { display: flex; gap: 6px; justify-content: center; flex-wrap: wrap; }
+.ws-nchip {
+  display: inline-flex; align-items: center; justify-content: center; background: #FFFFFF;
+  border: 2px solid #146B5E; border-radius: 999px; font-family: 'Baloo 2', cursive; font-weight: 700; color: #146B5E;
+}
+.ws-bank { gap: 10px; flex-wrap: wrap; padding: 8px 12px; }
+.ws-bankword {
+  display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; background: #FFFFFF;
+  border: 2px solid #F0E4CB; border-radius: 999px; font-family: 'Nunito', sans-serif; font-weight: 800; color: #3A3530;
+}
+.ws-bank--icons .ws-bankword { flex-direction: column; gap: 4px; padding: 6px 10px; border-radius: 12px; }
+.ws-pill {
+  display: inline-flex; align-items: center; justify-content: center; padding: 6px 24px; background: #FFFFFF;
+  border: 2px solid #146B5E; border-radius: 999px; font-family: 'Baloo 2', cursive; font-weight: 700; color: #3A3530;
+}
+.ws-codelist { display: flex; flex-wrap: wrap; gap: 10px 22px; justify-content: center; }
+.ws-codegroup { display: flex; flex-direction: column; align-items: flex-start; max-width: 300px; }
+.ws-codechips { display: flex; flex-wrap: wrap; gap: 6px; }
+.ws-codechip {
+  display: inline-flex; align-items: center; justify-content: center; min-width: 44px; height: 24px; padding: 0 6px;
+  background: #FFFFFF; border: 1px solid #C8BFAE; border-radius: 6px;
+  font-family: 'Baloo 2', cursive; font-weight: 700; font-size: 15px; color: #3A3530;
+}
+.ws-shelf { display: flex; flex-direction: column; align-items: center; }
+.ws-shelf-row { display: flex; justify-content: space-evenly; align-items: flex-end; width: 100%; }
+.ws-shelfitem { display: flex; flex-direction: column; align-items: center; gap: 0; }
+.ws-shelf-tag { margin-top: 26px; }
+.ws-shelfitem .ws-shelf-tag { position: relative; top: -4px; }
+.ws-groupbox {
+  display: flex; flex-wrap: wrap; gap: 4px; justify-content: center; align-content: center; padding: 6px;
+  background: #FFFFFF; border: 2.5px solid #DDEBE8; border-radius: 10px; min-height: 44px; box-sizing: border-box;
+}
+.ws-groupbox--empty { border: 2.5px dashed #F2784B; background: #FFFFFF; }
+.ws-countbadge { position: absolute; left: -4px; top: -4px; }
+.ws-blankbox {
+  display: inline-block; background: #FFFFFF; border: 2.5px dashed #F2784B; border-radius: 10px; vertical-align: middle;
+}
+.ws-bin-lines { width: 100%; }

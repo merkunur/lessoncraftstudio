@@ -490,6 +490,27 @@ const ROWS = [
   ['g2', 'G2-313', 'number-walls-to-100', 'G1-246-number-walls.js', 3,
     { gap: false, courses: 4, walls: 4, baseMin: 5, baseMax: 12, topMax: 100 },
     'Number Walls to 100', 'Each brick is the sum of the two under it.'],
+
+  // ── wave 4: three CORNERS, not rungs ─────────────────────────────────────
+  // The wave-3 pass called sentence-building "one act over a three-rung clue
+  // ladder — all shipped". {showCap, showEnd} is a 2x2, not a ladder, and the
+  // shipped three are (T,T), (T,F), (F,F). The fourth corner is a real face and
+  // the reverse scaffold of the others: the END MARK is shown and the capital is
+  // not, so the child is told which word finishes the sentence and must work out
+  // which one starts it. Finding the start from the end is a different search
+  // from finding the end from the start.
+  ['g1', 'G1-302', 'unscramble-the-sentence-end-mark-only', 'G1-249-unscramble-sentence.js', 2, { showCap: false, showEnd: true },
+    'Unscramble the Sentence: Find the Beginning', 'One tile carries the end mark. Work out which word starts the sentence.'],
+
+  // write-the-word is a 2x2x2 of {bank, starter, boxes} and six corners ship.
+  // These are the other two. The family's own logic — used to justify G1-291 and
+  // G1-301 — is that each corner is a measurably different amount of help.
+  ['g1', 'G1-303', 'write-the-word-letter-boxes-and-first-letter', 'G1-244-write-the-word.js', 2,
+    { bank: false, starter: true, boxes: true, cards: 6, cols: 2, rows: 3, maxLetters: 9 },
+    'Letter Boxes and the First Letter', 'One box for each letter, and the first letter is already there.'],
+  ['g1', 'G1-304', 'write-the-word-every-clue', 'G1-244-write-the-word.js', 2,
+    { bank: true, starter: true, boxes: true, cards: 6, cols: 2, rows: 3, maxLetters: 9 },
+    'Write the Word: Every Clue', 'The word bank, the letter boxes and the first letter are all there to help.'],
 ];
 
 function emit(row) {

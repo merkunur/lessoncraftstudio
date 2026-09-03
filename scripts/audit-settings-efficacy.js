@@ -499,7 +499,7 @@ function pageBoot(state, poison) {
      effect only appears once the child DOES something has a chance to
      show itself. Deliberately ordered and capped — a random walk would
      defeat the control. */
-  window.__exercise = function (max) {
+  window.__exercise = function (max, gap) {
     var stage = document.querySelector('.lcs-stage') || document.querySelector('.lcs-app');
     if (!stage) return 0;
     var hit = 0;
@@ -527,12 +527,33 @@ function pageBoot(state, poison) {
       for (var q = 0; q < groups.length; q++) if (groups[q][round]) order.push(groups[q][round]);
       round++;
     }
-    for (var i = 0; i < Math.min(max || 4, order.length); i++) {
-      try { order[i].click(); hit++; } catch (_) {}
-    }
+    /* ⚠ PACE THE CLICKS, OR THE TAP-LOCK DECIDES THE RESULT. baking-tray
+       ignores any tap within 300 ms of the last one (:666,:673), so a
+       burst of synthetic clicks lands a different NUMBER of them each
+       run and two identical scripts diverge — churn manufactured
+       entirely by the harness.
+       ⚠ AND THE MIDDLE IS THE WORST PLACE TO STAND. A 140 ms default
+       made it WORSE, regressing baking-tray's fiveGroove from a correct
+       LIVE to UNPROVEN: at 0 ms every tap after the first is reliably
+       swallowed by the 300 ms lock, and at 400 ms every tap reliably
+       lands — but at 140 ms it is a coin toss which of the fourteen get
+       through. Both ends are deterministic; only the middle is not. So
+       the default stays 0 and the caller retries once at 400. */
+    var n = Math.min(max || 4, order.length);
     var chk = document.querySelector('.lcs-activity-check');
-    if (chk && !chk.disabled) { try { chk.click(); hit++; } catch (_) {} }
-    return hit;
+    return new Promise(function (done) {
+      var i = 0;
+      (function step() {
+        if (i >= n) {
+          if (chk && !chk.disabled) { try { chk.click(); hit++; } catch (_) {} }
+          done(hit);
+          return;
+        }
+        try { order[i].click(); hit++; } catch (_) {}
+        i++;
+        setTimeout(step, gap || 0);
+      }());
+    });
   };
 
   /* drive the activity to the next round, so "it applied" can be told
@@ -609,10 +630,29 @@ function whichChannel(a, b) {
   return '?';
 }
 
+/* ⚠ MEASURE A SETTLED BOARD, OR MEASURE THE ANIMATION. A fixed wait
+   caught baking-tray mid-tween — it animates against performance.now()
+   (:731,:738) — so two identical runs differed by the phase of a
+   transition and the field came back UNPROVEN(churn). At rest the two
+   boards were byte-identical; only the in-flight frame differed. Polling
+   until two consecutive reads agree removes measurement noise without
+   touching the criterion. A board that never settles (a running timer)
+   still fails the null transition, which is the correct answer for it. */
+async function settledSig(page) {
+  let prev = await page.evaluate(() => window.__sig());
+  for (let i = 0; i < 10; i++) {
+    await wait(200);
+    const now = await page.evaluate(() => window.__sig());
+    if (sameTrace(prev, now)) return now;
+    prev = now;
+  }
+  return prev;   /* never settled — the null transition will say so */
+}
+
 /* one measurement: fresh page → open drawer → set field i to option j
    (null = re-commit the current value) → measure at rest → exercise →
    measure again. Returns both, plus the value the tool now holds. */
-async function trace(browser, surface, state, PORT, sets, key, probe) {
+async function trace(browser, surface, state, PORT, sets, key, probe, pace) {
   const page = await openPage(browser, surface, state, PORT);
   try {
     if (!(await page.evaluate(() => window.__openDrawer()))) return null;
@@ -624,8 +664,8 @@ async function trace(browser, surface, state, PORT, sets, key, probe) {
     }
     await page.evaluate(() => window.__closeDrawer());
     await wait(120);
-    const atRest = await page.evaluate(() => window.__sig());
-    await page.evaluate((n) => window.__exercise(n), EXERCISE);
+    const atRest = await settledSig(page);
+    await page.evaluate((n, g) => window.__exercise(n, g), EXERCISE, pace || 0);
     await wait(SETTLE);
     if (probe && probe.finalClick) {
       await page.evaluate((sel) => {
@@ -634,7 +674,7 @@ async function trace(browser, surface, state, PORT, sets, key, probe) {
       }, probe.finalClick);
       await wait(SETTLE);
     }
-    const afterUse = await page.evaluate(() => window.__sig());
+    const afterUse = await settledSig(page);
     let stuck = null;
     if (key) {
       const before = await page.evaluate((g, k) => window.__value(g, k), surface.global, key);
@@ -711,7 +751,18 @@ async function auditSurface(browser, surface, state, PORT) {
     const n1 = await trace(browser, surface, state, PORT, [{ field: i, opt: null }], null, probe);
     const n2 = await trace(browser, surface, state, PORT, [{ field: i, opt: null }], null, probe);
     if (!n1 || !n2) { vac(`${tag}: ${name} could not be driven — no chip or switch answered`); continue; }
-    const stable = sameTrace(n1.atRest, n2.atRest) && sameTrace(n1.afterUse, n2.afterUse);
+    let stable = sameTrace(n1.atRest, n2.atRest) && sameTrace(n1.afterUse, n2.afterUse);
+    let pace = 0;
+    /* ⚠ ONE SLOW RETRY BEFORE GIVING UP. Churn is usually the harness's
+       own doing — clicks outrunning a tap-lock — and a field we cannot
+       read is a field we cannot answer the operator's question about. */
+    if (!stable) {
+      const s1 = await trace(browser, surface, state, PORT, [{ field: i, opt: null }], null, probe, 400);
+      const s2 = await trace(browser, surface, state, PORT, [{ field: i, opt: null }], null, probe, 400);
+      if (s1 && s2 && sameTrace(s1.atRest, s2.atRest) && sameTrace(s1.afterUse, s2.afterUse)) {
+        stable = true; pace = 400; n1.atRest = s1.atRest; n1.afterUse = s1.afterUse;
+      }
+    }
     if (!stable) {
       const excused = (KNOWN_UNPROVABLE[surface.id] || {})[f.key];
       if (excused) { ok(`${tag}: ${name} excused — ${excused}`); continue; }
@@ -724,7 +775,7 @@ async function auditSurface(browser, surface, state, PORT) {
     let live = null;
     for (let o = 0; o < nOpts && !live; o++) {
       if (fields[i].chips && o === fields[i].checked) continue;   /* that is the null transition */
-      const t = await trace(browser, surface, state, PORT, [{ field: i, opt: o }], schema.hasTasks ? f.key : null, probe);
+      const t = await trace(browser, surface, state, PORT, [{ field: i, opt: o }], schema.hasTasks ? f.key : null, probe, pace);
       if (!t) continue;
       if (!sameTrace(n1.atRest, t.atRest)) live = { how: 'at rest', ch: whichChannel(n1.atRest, t.atRest), t };
       else if (!sameTrace(n1.afterUse, t.afterUse)) live = { how: 'after use', ch: whichChannel(n1.afterUse, t.afterUse), t };
@@ -741,11 +792,11 @@ async function auditSurface(browser, surface, state, PORT) {
         const nj = fields[j].chips || 2;
         for (let oj = 0; oj < nj; oj++) {
           if (fields[j].chips && oj === fields[j].checked) continue;
-          const base = await trace(browser, surface, state, PORT, [{ field: j, opt: oj }, { field: i, opt: null }], null, probe);
+          const base = await trace(browser, surface, state, PORT, [{ field: j, opt: oj }, { field: i, opt: null }], null, probe, pace);
           if (!base) continue;
           for (let oi = 0; oi < nOpts; oi++) {
             if (fields[i].chips && oi === fields[i].checked) continue;
-            const t = await trace(browser, surface, state, PORT, [{ field: j, opt: oj }, { field: i, opt: oi }], null, probe);
+            const t = await trace(browser, surface, state, PORT, [{ field: j, opt: oj }, { field: i, opt: oi }], null, probe, pace);
             if (!t) continue;
             if (!sameTrace(base.atRest, t.atRest)) { live = { how: 'after ' + schema.settings[j].key, ch: whichChannel(base.atRest, t.atRest), t }; break outer; }
             if (!sameTrace(base.afterUse, t.afterUse)) { live = { how: 'after ' + schema.settings[j].key, ch: whichChannel(base.afterUse, t.afterUse), t }; break outer; }

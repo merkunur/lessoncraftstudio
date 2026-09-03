@@ -62,11 +62,15 @@ export function withoutParam(
 
 /**
  * Returns a new URLSearchParams with all filter params cleared (preserves
- * non-filter params like ?utm_source=...). Filter params are: level,
- * theme, type, sort, page.
+ * non-filter params like ?utm_source=...).
+ *
+ * `format` is the worksheets hub's All/Interactive tab and `themes` its retired
+ * "show all themes" expander. Both are listed so "clear all filters" returns the
+ * bare hub rather than leaving a scope silently applied; `sort` stays listed
+ * because indexed URLs still carry it even though nothing reads it any more.
  */
 export function clearFilters(current: URLSearchParams): URLSearchParams {
   const next = new URLSearchParams(current);
-  ['level', 'theme', 'type', 'mode', 'sort', 'page'].forEach(k => next.delete(k));
+  ['level', 'theme', 'type', 'mode', 'format', 'themes', 'sort', 'page'].forEach(k => next.delete(k));
   return next;
 }

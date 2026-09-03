@@ -25,10 +25,26 @@ export interface FacetItemVM {
   count: number;
   active: boolean;
 }
+/**
+ * A collapsible band of facet rows inside a group — used by the worksheets hub
+ * to render 71 exercise types as five subject discs instead of one 71-row wall.
+ * `<details>` children are in the SSR DOM whether or not the disc is open, so
+ * every link stays crawlable; `open` is a server-rendered attribute, so this
+ * costs no client JS.
+ */
+export interface FacetSubgroupVM {
+  key: string;
+  label: string;
+  count: number;
+  open: boolean;
+  items: FacetItemVM[];
+}
 export interface FacetGroupVM {
   key: string;
   heading: string;
   items: FacetItemVM[];
+  /** Optional collapsible bands rendered after `items`. */
+  subgroups?: FacetSubgroupVM[];
   /** Optional trailing link (e.g. "Show all themes" expander). */
   footer?: { href: string; label: string };
 }
@@ -55,47 +71,74 @@ function FacetGroups({
   basePath: string;
   spString: string;
 }) {
+  const row = (item: FacetItemVM) => (
+    <li key={item.value}>
+      <a
+        href={facetHref(basePath, spString, item)}
+        aria-pressed={item.active}
+        className={`flex items-center gap-2 px-2.5 py-1.5 rounded-lg text-sm font-lcsBody transition-colors ${
+          item.active
+            ? 'bg-lcs-teal text-lcs-cream font-semibold'
+            : 'text-lcs-teal/90 hover:bg-lcs-teal/8'
+        }`}
+      >
+        <span
+          aria-hidden="true"
+          className={`flex-shrink-0 w-4 h-4 rounded-[5px] border-2 flex items-center justify-center ${
+            item.active ? 'border-lcs-cream bg-lcs-cream' : 'border-lcs-teal/30'
+          }`}
+        >
+          {item.active && (
+            <svg viewBox="0 0 12 12" className="w-2.5 h-2.5 text-lcs-teal" fill="none" stroke="currentColor" strokeWidth={2.5}>
+              <path d="M2.5 6.5 L5 9 L9.5 3.5" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          )}
+        </span>
+        <span className="flex-1">{item.label}</span>
+        <span className={`text-xs flex-shrink-0 ${item.active ? 'text-lcs-cream/70' : 'text-lcs-teal/45'}`}>
+          {item.count}
+        </span>
+      </a>
+    </li>
+  );
+
   return (
     <>
       {groups
-        .filter((g) => g.items.length > 0)
+        // A group may carry ONLY subgroups (the worksheets type rail does).
+        // Filtering on `items.length` alone dropped such a group silently.
+        .filter((g) => g.items.length > 0 || (g.subgroups?.length ?? 0) > 0)
         .map((group) => (
           <div key={group.key} className="mb-6">
             <h3 className="font-lcsBody text-xs font-bold uppercase tracking-[0.12em] text-lcs-teal/60 mb-2.5">
               {group.heading}
             </h3>
-            <ul className="space-y-0.5">
-              {group.items.map((item) => (
-                <li key={item.value}>
-                  <a
-                    href={facetHref(basePath, spString, item)}
-                    aria-pressed={item.active}
-                    className={`flex items-center gap-2 px-2.5 py-1.5 rounded-lg text-sm font-lcsBody transition-colors ${
-                      item.active
-                        ? 'bg-lcs-teal text-lcs-cream font-semibold'
-                        : 'text-lcs-teal/90 hover:bg-lcs-teal/8'
-                    }`}
+            {group.items.length > 0 && <ul className="space-y-0.5">{group.items.map(row)}</ul>}
+            {group.subgroups?.map((sg) => (
+              <details key={sg.key} open={sg.open} className="mb-0.5">
+                <summary className="flex items-center gap-2 px-2.5 py-1.5 rounded-lg cursor-pointer list-none text-sm font-lcsBody font-semibold text-lcs-teal hover:bg-lcs-teal/8">
+                  {/* Its OWN caret class — `.actcat-caret` is flipped by an
+                      unscoped `details[open]` rule, so reusing it here would
+                      make every subgroup caret point down whenever the mobile
+                      filter drawer that contains them is open. */}
+                  <svg
+                    viewBox="0 0 24 24"
+                    className="actcat-subcaret flex-shrink-0 w-3 h-3 transition-transform"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth={3}
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden="true"
                   >
-                    <span
-                      aria-hidden="true"
-                      className={`flex-shrink-0 w-4 h-4 rounded-[5px] border-2 flex items-center justify-center ${
-                        item.active ? 'border-lcs-cream bg-lcs-cream' : 'border-lcs-teal/30'
-                      }`}
-                    >
-                      {item.active && (
-                        <svg viewBox="0 0 12 12" className="w-2.5 h-2.5 text-lcs-teal" fill="none" stroke="currentColor" strokeWidth={2.5}>
-                          <path d="M2.5 6.5 L5 9 L9.5 3.5" strokeLinecap="round" strokeLinejoin="round" />
-                        </svg>
-                      )}
-                    </span>
-                    <span className="flex-1">{item.label}</span>
-                    <span className={`text-xs flex-shrink-0 ${item.active ? 'text-lcs-cream/70' : 'text-lcs-teal/45'}`}>
-                      {item.count}
-                    </span>
-                  </a>
-                </li>
-              ))}
-            </ul>
+                    <path d="M9 6l6 6-6 6" />
+                  </svg>
+                  <span className="flex-1">{sg.label}</span>
+                  <span className="text-xs flex-shrink-0 text-lcs-teal/45">{sg.count}</span>
+                </summary>
+                <ul className="space-y-0.5 pl-4 pb-1.5 pt-0.5">{sg.items.map(row)}</ul>
+              </details>
+            ))}
             {group.footer && (
               <a
                 href={group.footer.href}
@@ -251,22 +294,50 @@ export function CatalogEmptyState({
   body,
   clearAllHref,
   clearAllLabel,
+  primaryAction,
 }: {
   title: string;
   body: string;
   clearAllHref: string;
   clearAllLabel: string;
+  /**
+   * Optional lead action, shown as the coral button with "clear all" demoted to
+   * a text link beneath it. The worksheets hub uses it for "Show all
+   * worksheets" on the Interactive tab, where the format — not the facets — is
+   * by far the likeliest reason nothing matched.
+   *
+   * A plain { href, label } rather than a callback, matching the existing
+   * `footer` precedent: WorkspaceEmptyState records why a callback prop was
+   * rejected for a component two public SSR hubs depend on.
+   */
+  primaryAction?: { href: string; label: string };
 }) {
   return (
     <div className="text-center py-16 px-4 rounded-3xl actcat-card-flat">
       <h3 className="font-lcsDisplay text-lg font-bold text-lcs-teal mb-2">{title}</h3>
       <p className="font-lcsBody text-sm text-lcs-teal/70 mb-6 max-w-md mx-auto">{body}</p>
-      <a
-        href={clearAllHref}
-        className="inline-flex items-center justify-center px-5 py-2.5 rounded-2xl bg-lcs-coral text-lcs-cream font-lcsDisplay font-semibold hover:bg-lcs-coral-deep transition-colors"
-      >
-        {clearAllLabel}
-      </a>
+      {primaryAction ? (
+        <>
+          <a
+            href={primaryAction.href}
+            className="inline-flex items-center justify-center px-5 py-2.5 rounded-2xl bg-lcs-coral text-lcs-cream font-lcsDisplay font-semibold hover:bg-lcs-coral-deep transition-colors"
+          >
+            {primaryAction.label}
+          </a>
+          <p className="mt-4">
+            <a href={clearAllHref} className="font-lcsBody text-sm font-semibold text-lcs-teal/70 hover:text-lcs-teal hover:underline">
+              {clearAllLabel}
+            </a>
+          </p>
+        </>
+      ) : (
+        <a
+          href={clearAllHref}
+          className="inline-flex items-center justify-center px-5 py-2.5 rounded-2xl bg-lcs-coral text-lcs-cream font-lcsDisplay font-semibold hover:bg-lcs-coral-deep transition-colors"
+        >
+          {clearAllLabel}
+        </a>
+      )}
     </div>
   );
 }

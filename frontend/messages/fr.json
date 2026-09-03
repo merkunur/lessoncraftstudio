@@ -1864,9 +1864,9 @@
     "heading": "Comment utiliser ces fiches",
     "overrides": {},
     "fallback": {
-      "topic": "Imprimez le PDF pour une activité sans préparation en classe ou à la maison, ou ouvrez la version à jouer en ligne sur une tablette ou un tableau interactif pour un retour immédiat. Chaque fiche comprend un corrigé, les enfants peuvent donc s'autocorriger ou travailler en autonomie. Combinez des fiches de différents thèmes et niveaux pour construire une courte leçon de {topic}, ou envoyez-en une à la maison pour un entraînement supplémentaire.",
-      "intersection": "Imprimez le PDF pour une activité de {primary} immédiate centrée sur {secondary}, ou lancez la version à jouer en ligne sur une tablette ou un tableau. Chaque fiche est livrée avec un corrigé pour une autocorrection rapide, et vous pouvez l'associer à des thèmes et niveaux voisins pour prolonger la leçon.",
-      "hub": "Choisissez une matière, un thème ou un niveau pour ouvrir une page de fiches correspondantes. Chacune est gratuite à imprimer et à jouer en ligne, accompagnée d'un corrigé, et disponible dans les 11 langues que nous publions — pratique pour les classes bilingues et internationales."
+      "topic": "Imprimez le PDF pour une activité sans préparation en classe ou à la maison. Quand la fiche a une version à jouer en ligne, ouvrez-la sur une tablette ou un tableau interactif pour un retour immédiat. Lorsqu'un corrigé est fourni, les enfants peuvent s'autocorriger ou travailler en autonomie. Combinez des fiches de différents thèmes et niveaux pour construire une courte leçon de {topic}, ou envoyez-en une à la maison pour un entraînement supplémentaire.",
+      "intersection": "Imprimez le PDF pour une activité immédiate de {primary} centrée sur {secondary}. Quand une version à jouer en ligne existe, lancez-la sur une tablette ou un tableau. Lorsqu'un corrigé est fourni, il permet une autocorrection rapide. Vous pouvez aussi associer la fiche à des thèmes et niveaux voisins pour prolonger la leçon.",
+      "hub": "Choisissez une matière, un thème ou un niveau pour ouvrir une page de fiches correspondantes. Chaque fiche s'imprime en PDF, beaucoup sont aussi jouables dans le navigateur, et le catalogue couvre les 11 langues que nous publions — pratique pour les classes bilingues et internationales."
     }
   },
   "topicMeta": {
@@ -2587,32 +2587,40 @@
       "safer": "Parcours les fiches d'exercices par type — HTML interactif et PDF imprimables couvrant math, lecture, casse-tête K-3 et plus."
     },
     "h1": {
-      "hundreds": "Des milliers de fiches, classées par type",
-      "safer": "Fiches d'exercices, classées par type"
+      "hundreds": "Des milliers de fiches à imprimer ou à jouer en ligne",
+      "safer": "Fiches à imprimer ou à jouer en ligne"
     },
     "intro": {
-      "hundreds": "Fiches sur des thèmes, niveaux d'âge et onze langues — choisis un type pour voir toutes les fiches disponibles dans cette catégorie.",
-      "safer": "Choisis un type de fiche pour voir toutes les fiches disponibles — HTML interactif à jouer dans le navigateur plus un PDF imprimable pour chaque série."
+      "hundreds": "Filtrez par niveau, type d'exercice ou thème. Chaque fiche est disponible en PDF imprimable, et beaucoup sont aussi jouables dans le navigateur.",
+      "safer": "Filtrez par niveau, type d'exercice ou thème. Chaque fiche est disponible en PDF imprimable, et certaines sont aussi jouables dans le navigateur."
     },
-    "tileCta": "Voir les fiches",
-    "tileCtaSheet": "Voir la fiche",
-    "newHeading": "Nouvelles fiches",
-    "moreTypesHeading": "Plus de types d'exercices",
-    "tileAlt": "Exemple de fiche : {typeName}",
     "emptyTitle": "Aucune fiche disponible dans cette langue pour le moment.",
     "emptyBody": "Notre catalogue s'étend langue par langue. Reviens bientôt ou parcours une autre langue.",
     "browse": {
-      "heading": "Parcourir toutes les fiches",
       "filterType": "Type d'exercice",
       "filterLevel": "Niveau",
       "filterTheme": "Thème",
+      "moreThemes": "Autres thèmes ({count})"
+    },
+    "tabs": {
       "all": "Tous",
-      "results": "{count} fiches",
-      "showAllThemes": "Afficher tous les thèmes",
-      "sortVariety": "Variété",
-      "topicLinksHeading": "Parcourir par type d'exercice",
-      "browseByTheme": "Parcourir par thème",
-      "browseByLevel": "Parcourir par niveau"
+      "interactive": "Interactif",
+      "aria": "Filtre par format"
+    },
+    "card": {
+      "pdf": "PDF",
+      "answerKey": "Corrigé",
+      "printOnly": "PDF seul",
+      "interactiveMark": "Fiche interactive",
+      "pdfAria": "Télécharger le PDF — {title}",
+      "answerKeyAria": "Télécharger le corrigé — {title}"
+    },
+    "index": {
+      "heading": "Tous les types d'exercices"
+    },
+    "empty": {
+      "bodyInteractive": "Certaines fiches n'ont pas de version interactive. Essayez l'onglet Tous ou retirez un filtre.",
+      "showAll": "Afficher tous les formats"
     }
   },
   "standardsPage": {

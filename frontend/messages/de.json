@@ -3166,9 +3166,9 @@
     "heading": "So nutzen Sie diese Arbeitsblätter",
     "overrides": {},
     "fallback": {
-      "topic": "Drucken Sie das PDF für eine Aufgabe im Unterricht oder als Hausaufgabe ohne Vorbereitung, oder öffnen Sie die Online-Version auf einem Tablet oder Whiteboard für sofortige Rückmeldung. Jedes Arbeitsblatt enthält einen Lösungsbogen, sodass Kinder sich selbst kontrollieren oder eigenständig arbeiten können. Mischen Sie Blätter über Themen und Klassenstufen hinweg zu einer kurzen {topic}-Stunde, oder geben Sie eines für zusätzliches Üben mit nach Hause.",
-      "intersection": "Drucken Sie das PDF für eine sofortige {primary}-Aufgabe mit Schwerpunkt auf {secondary}, oder starten Sie die Online-Version auf einem Tablet oder Board. Jedes Arbeitsblatt kommt mit einem Lösungsbogen zur schnellen Selbstkontrolle, und Sie können es mit verwandten Themen und Klassenstufen kombinieren, um die Stunde zu erweitern.",
-      "hub": "Wählen Sie ein Fach, ein Thema oder eine Klassenstufe, um eine Seite mit passenden Arbeitsblättern zu öffnen. Jedes ist kostenlos zum Ausdrucken und online spielbar, kommt mit einem Lösungsbogen und ist in allen 11 Sprachen verfügbar, in denen wir veröffentlichen — praktisch für zweisprachige und internationale Klassen."
+      "topic": "Drucken Sie das PDF für eine Aufgabe im Unterricht oder als Hausaufgabe ohne Vorbereitung, oder öffnen Sie, sofern vorhanden, die Online-Version auf einem Tablet oder Whiteboard für sofortige Rückmeldung. Viele Arbeitsblätter enthalten einen Lösungsbogen, sodass Kinder sich selbst kontrollieren oder eigenständig arbeiten können. Mischen Sie Blätter über Themen und Klassenstufen hinweg zu einer kurzen {topic}-Stunde, oder geben Sie eines für zusätzliches Üben mit nach Hause.",
+      "intersection": "Drucken Sie das PDF für eine sofortige {primary}-Aufgabe mit Schwerpunkt auf {secondary}, oder starten Sie, sofern vorhanden, die Online-Version auf einem Tablet oder Board. Viele Arbeitsblätter kommen mit einem Lösungsbogen zur schnellen Selbstkontrolle, und Sie können sie mit verwandten Themen und Klassenstufen kombinieren, um die Stunde zu erweitern.",
+      "hub": "Wählen Sie ein Fach, ein Thema oder eine Klassenstufe, um eine Seite mit passenden Arbeitsblättern zu öffnen. Jedes Arbeitsblatt gibt es als PDF zum Ausdrucken, viele lassen sich auch im Browser spielen, und der Katalog umfasst alle 11 Sprachen, in denen wir veröffentlichen — praktisch für zweisprachige und internationale Klassen."
     }
   },
   "topicMeta": {
@@ -3888,32 +3888,40 @@
       "safer": "Arbeitsblätter nach Übungsart durchsuchen — interaktives HTML und druckbare PDFs für K-3 Mathematik, Lesen, Rätsel und mehr."
     },
     "h1": {
-      "hundreds": "Tausende Arbeitsblätter, nach Typ geordnet",
-      "safer": "Arbeitsblätter, nach Typ geordnet"
+      "hundreds": "Tausende Arbeitsblätter zum Ausdrucken oder Spielen",
+      "safer": "Arbeitsblätter zum Ausdrucken oder Spielen"
     },
     "intro": {
-      "hundreds": "Arbeitsblätter zu Themen, Altersstufen und elf Sprachen — wähle einen Typ, um alle verfügbaren Arbeitsblätter dieser Kategorie zu sehen.",
-      "safer": "Wähle einen Arbeitsblatttyp, um alle verfügbaren Arbeitsblätter zu sehen — interaktives HTML zum Spielen im Browser plus eine druckbare PDF für jeden Satz."
+      "hundreds": "Filtern Sie nach Stufe, Arbeitsblatt-Typ oder Thema. Jedes Arbeitsblatt gibt es als PDF zum Ausdrucken; viele lassen sich auch im Browser spielen.",
+      "safer": "Filtern Sie nach Stufe, Arbeitsblatt-Typ oder Thema. Jedes Arbeitsblatt gibt es als PDF zum Ausdrucken; einige lassen sich auch im Browser spielen."
     },
-    "tileCta": "Arbeitsblätter ansehen",
-    "tileCtaSheet": "Arbeitsblatt ansehen",
-    "newHeading": "Neue Arbeitsblätter",
-    "moreTypesHeading": "Weitere Übungstypen",
-    "tileAlt": "{typeName} — Arbeitsblatt-Beispiel",
     "emptyTitle": "Noch keine Arbeitsblätter in dieser Sprache verfügbar.",
     "emptyBody": "Unser Katalog wächst Sprache für Sprache. Schau bald wieder vorbei oder durchsuche eine andere Sprache.",
     "browse": {
-      "heading": "Alle Arbeitsblätter durchsuchen",
-      "filterType": "Übungstyp",
+      "filterType": "Arbeitsblatt-Typ",
       "filterLevel": "Stufe",
       "filterTheme": "Thema",
+      "moreThemes": "Weitere Themen ({count})"
+    },
+    "tabs": {
       "all": "Alle",
-      "results": "{count} Arbeitsblätter",
-      "showAllThemes": "Alle Themen anzeigen",
-      "sortVariety": "Abwechslung",
-      "topicLinksHeading": "Nach Übungstyp stöbern",
-      "browseByTheme": "Nach Thema stöbern",
-      "browseByLevel": "Nach Stufe stöbern"
+      "interactive": "Interaktiv",
+      "aria": "Formatfilter"
+    },
+    "card": {
+      "pdf": "PDF",
+      "answerKey": "Lösungen",
+      "printOnly": "Nur PDF",
+      "interactiveMark": "Interaktives Arbeitsblatt",
+      "pdfAria": "PDF herunterladen — {title}",
+      "answerKeyAria": "Lösungen herunterladen — {title}"
+    },
+    "index": {
+      "heading": "Alle Arbeitsblatt-Typen"
+    },
+    "empty": {
+      "bodyInteractive": "Manche Arbeitsblätter haben keine interaktive Version. Wechseln Sie zum Tab „Alle“ oder entfernen Sie einen Filter.",
+      "showAll": "Alle Formate anzeigen"
     }
   },
   "standardsPage": {

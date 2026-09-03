@@ -357,6 +357,8 @@ function buildEmbedSnippet(o) {
 // 302s straight to the file when METERING_ENABLED is off; subscribers/crawlers
 // always pass. The raw nginx PDF URL is unchanged (still indexed/200), so no
 // SEO impact — only the landing's button goes through the meter.
+const { isPrintOnlyType } = require(require('path').resolve(__dirname, '..', 'lib', 'interactive-types.js'));
+
 function dlHref(locale, deckSlug, kind) {
   return `${CANONICAL_HOST}/api/quota/dl?loc=${encodeURIComponent(locale)}&slug=${encodeURIComponent(deckSlug)}&kind=${kind}`;
 }
@@ -517,6 +519,7 @@ const UI_STRINGS = {
     playAria: (h1) => `Play ${h1}`, previewAlt: (h1) => `Preview of ${h1}`,
     embedButton: 'Embed this worksheet', embedCopy: 'Copy code', embedCopied: 'Copied!',
     embedPrefix: 'Worksheet from', embedKeyword: 'free printable worksheets',
+    printOnly: 'PDF only',
   },
   de: {
     worksheets: 'Arbeitsblätter', playInteractive: 'Interaktiv spielen', downloadPdf: 'PDF herunterladen', answerKey: 'Lösungen',
@@ -527,6 +530,7 @@ const UI_STRINGS = {
     playAria: (h1) => `${h1} spielen`, previewAlt: (h1) => `Vorschau: ${h1}`,
     embedButton: 'Dieses Arbeitsblatt einbetten', embedCopy: 'Code kopieren', embedCopied: 'Kopiert!',
     embedPrefix: 'Arbeitsblatt von', embedKeyword: 'kostenlose druckbare Arbeitsblätter',
+    printOnly: 'Nur PDF',
   },
   es: {
     worksheets: 'Hojas de trabajo', playInteractive: 'Jugar', downloadPdf: 'Descargar PDF', answerKey: 'Solución',
@@ -537,6 +541,7 @@ const UI_STRINGS = {
     playAria: (h1) => `Jugar ${h1}`, previewAlt: (h1) => `Vista previa de ${h1}`,
     embedButton: 'Insertar esta hoja', embedCopy: 'Copiar código', embedCopied: '¡Copiado!',
     embedPrefix: 'Hoja de trabajo de', embedKeyword: 'hojas de trabajo imprimibles gratis',
+    printOnly: 'Solo PDF',
   },
   sv: {
     worksheets: 'Arbetsblad', playInteractive: 'Spela', downloadPdf: 'Ladda ner PDF', answerKey: 'Facit',
@@ -547,6 +552,7 @@ const UI_STRINGS = {
     playAria: (h1) => `Spela ${h1}`, previewAlt: (h1) => `Förhandsvisning av ${h1}`,
     embedButton: 'Bädda in detta arbetsblad', embedCopy: 'Kopiera kod', embedCopied: 'Kopierat!',
     embedPrefix: 'Arbetsblad från', embedKeyword: 'gratis utskrivbara arbetsblad',
+    printOnly: 'Endast PDF',
   },
   nl: {
     worksheets: 'Werkbladen', playInteractive: 'Spelen', downloadPdf: 'PDF downloaden', answerKey: 'Antwoorden',
@@ -557,6 +563,7 @@ const UI_STRINGS = {
     playAria: (h1) => `${h1} spelen`, previewAlt: (h1) => `Voorbeeld van ${h1}`,
     embedButton: 'Dit werkblad insluiten', embedCopy: 'Code kopiëren', embedCopied: 'Gekopieerd!',
     embedPrefix: 'Werkblad van', embedKeyword: 'gratis printbare werkbladen',
+    printOnly: 'Alleen PDF',
   },
   da: {
     worksheets: 'Opgaver', playInteractive: 'Spil interaktivt', downloadPdf: 'Hent PDF', answerKey: 'Facitliste',
@@ -567,6 +574,7 @@ const UI_STRINGS = {
     playAria: (h1) => `Spil ${h1}`, previewAlt: (h1) => `Forhåndsvisning af ${h1}`,
     embedButton: 'Indlejr dette opgaveark', embedCopy: 'Kopiér kode', embedCopied: 'Kopieret!',
     embedPrefix: 'Arbejdsark fra', embedKeyword: 'gratis printbare arbejdsark',
+    printOnly: 'Kun PDF',
   },
   it: {
     worksheets: 'Schede didattiche', playInteractive: 'Gioca', downloadPdf: 'Scarica PDF', answerKey: 'Soluzioni',
@@ -577,6 +585,7 @@ const UI_STRINGS = {
     playAria: (h1) => `Gioca ${h1}`, previewAlt: (h1) => `Anteprima di ${h1}`,
     embedButton: 'Incorpora questa scheda', embedCopy: 'Copia codice', embedCopied: 'Copiato!',
     embedPrefix: 'Scheda di', embedKeyword: 'schede stampabili gratuite',
+    printOnly: 'Solo PDF',
   },
   no: {
     worksheets: 'Arbeidsark', playInteractive: 'Spill', downloadPdf: 'Last ned PDF', answerKey: 'Fasit',
@@ -587,6 +596,7 @@ const UI_STRINGS = {
     playAria: (h1) => `Spill ${h1}`, previewAlt: (h1) => `Forhåndsvisning av ${h1}`,
     embedButton: 'Bygg inn dette arbeidsarket', embedCopy: 'Kopier kode', embedCopied: 'Kopiert!',
     embedPrefix: 'Arbeidsark fra', embedKeyword: 'gratis utskrivbare arbeidsark',
+    printOnly: 'Kun PDF',
   },
   fr: {
     worksheets: 'Fiches', playInteractive: 'Jouer', downloadPdf: 'Télécharger le PDF', answerKey: 'Corrigé',
@@ -597,6 +607,7 @@ const UI_STRINGS = {
     playAria: (h1) => `Jouer à ${h1}`, previewAlt: (h1) => `Aperçu : ${h1}`,
     embedButton: 'Intégrer cette fiche', embedCopy: 'Copier le code', embedCopied: 'Copié !',
     embedPrefix: 'Fiche de', embedKeyword: 'fiches gratuites à imprimer',
+    printOnly: 'PDF seul',
   },
   pt: {
     worksheets: 'Atividades', playInteractive: 'Jogar', downloadPdf: 'Baixar PDF', answerKey: 'Gabarito',
@@ -607,6 +618,7 @@ const UI_STRINGS = {
     playAria: (h1) => `Jogar ${h1}`, previewAlt: (h1) => `Prévia: ${h1}`,
     embedButton: 'Incorporar esta atividade', embedCopy: 'Copiar código', embedCopied: 'Copiado!',
     embedPrefix: 'Atividade de', embedKeyword: 'atividades grátis para imprimir',
+    printOnly: 'Apenas PDF',
   },
   fi: {
     worksheets: 'Tehtävät', playInteractive: 'Pelaa', downloadPdf: 'Lataa PDF', answerKey: 'Vastaukset',
@@ -617,6 +629,7 @@ const UI_STRINGS = {
     playAria: (h1) => `Pelaa: ${h1}`, previewAlt: (h1) => `Esikatselu: ${h1}`,
     embedButton: 'Upota tämä tehtävä', embedCopy: 'Kopioi koodi', embedCopied: 'Kopioitu!',
     embedPrefix: 'Tehtävä:', embedKeyword: 'ilmaiset tulostettavat tehtävät',
+    printOnly: 'PDF only',
   },
 };
 
@@ -905,6 +918,11 @@ h1{font-family:'Fraunces',serif;font-weight:700;font-size:1.875rem;line-height:1
 
 function renderLanding(locale, l) {
   const ui = UI_STRINGS[locale] || UI_STRINGS.en;
+  // Whether this worksheet has a browser-playable version. Type-level, read
+  // from the one committed source (frontend/config/interactive-exercise-types.ts)
+  // via scripts/lib/interactive-types.js — no DB, which matters because this
+  // renderer runs at deploy time.
+  const printOnly = isPrintOnlyType(l.coordinate.type);
   const au = AUG_STRINGS[locale] || AUG_STRINGS.en;
   const augAll = loadAugment(locale);
   const aug = (augAll && augAll[l.slug]) || null;
@@ -1232,10 +1250,14 @@ ${crumbs}
 
     <section class="hero">
       <div class="card">
-        <a href="${esc(a.deckDir)}" aria-label="${esc(ui.playAria(l.h1))}" class="thumbwrap">
+${printOnly
+        ? `        <span class="thumbwrap">
+          <img src="${esc(wwwImg(a.thumbnail))}" alt="${esc(ui.previewAlt(l.h1))}" loading="eager"/>
+        </span>`
+        : `        <a href="${esc(a.deckDir)}" aria-label="${esc(ui.playAria(l.h1))}" class="thumbwrap">
           <img src="${esc(wwwImg(a.thumbnail))}" alt="${esc(ui.previewAlt(l.h1))}" loading="eager"/>
           <span class="playbtn" aria-hidden="true">${playSvg}</span>
-        </a>
+        </a>`}
       </div>
       <div>
         <p class="eyebrow"><span class="bar"></span>${esc(l.eyebrow)}</p>
@@ -1243,12 +1265,15 @@ ${crumbs}
         <div class="chips">
           <span class="chip">${esc(lvl.chip)}</span>
           <span class="chip">${esc(l.strand)}</span>
+          ${printOnly ? `<span class="chip">${esc(ui.printOnly)}</span>` : ''}
           ${chipStd}
         </div>
         <div class="ctas">
-          <a href="${esc(a.deckDir)}" class="btn btn-primary">${playSvg}${esc(ui.playInteractive)}</a>
+${printOnly
+        ? `          <a href="${esc(dlHref(locale, l.canonicalDeckSlug, 'pdf'))}" class="btn btn-primary">${esc(ui.downloadPdf)}</a>`
+        : `          <a href="${esc(a.deckDir)}" class="btn btn-primary">${playSvg}${esc(ui.playInteractive)}</a>
           <a href="${esc(dlHref(locale, l.canonicalDeckSlug, 'pdf'))}" class="btn btn-outline">${esc(ui.downloadPdf)}</a>
-          <a href="${esc(dlHref(locale, l.canonicalDeckSlug, 'answer'))}" class="btn btn-outline">${esc(ui.answerKey)}</a>
+          <a href="${esc(dlHref(locale, l.canonicalDeckSlug, 'answer'))}" class="btn btn-outline">${esc(ui.answerKey)}</a>`}
         </div>
       </div>
     </section>
@@ -1261,7 +1286,7 @@ ${crumbs}
 ${factsHtml}
 ${wordsHtml}
 ${problemsHtml}
-    <section class="play-section">
+${printOnly ? '' : `    <section class="play-section">
       <div class="play-card">
         <h2><span class="dot"></span>${esc(ui.tryInteractive)}</h2>
         <button type="button" class="play-poster" data-deck="${esc(a.deckDir)}" data-title="${esc(ui.playAria(l.h1))}" aria-label="${esc(ui.playAria(l.h1))}"><img src="${esc(wwwImg(a.thumbnail))}" alt="${esc(ui.previewAlt(l.h1))}" loading="lazy"/><span class="playbtn" aria-hidden="true">${playSvg}</span></button>
@@ -1275,7 +1300,7 @@ ${problemsHtml}
         <br/>
         <button type="button" id="lcs-embed-copy" class="btn btn-copy" data-copy="${esc(ui.embedCopy)}" data-copied="${esc(ui.embedCopied)}">${esc(ui.embedCopy)}</button>
       </div>
-    </section>
+    </section>`}
 ${versionsHtml}
 ${carouselHtml}
 ${meshHtml}

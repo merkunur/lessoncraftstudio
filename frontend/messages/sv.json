@@ -1844,9 +1844,9 @@
     "heading": "Så använder du arbetsbladen",
     "overrides": {},
     "fallback": {
-      "topic": "Skriv ut PDF:en för en klassrums- eller läxuppgift utan förberedelser, eller öppna versionen att spela online på en surfplatta eller tavla för direkt återkoppling. Varje arbetsblad innehåller ett facit, så barnen kan själva kontrollera eller arbeta självständigt. Blanda blad från olika teman och årskurser för att bygga en kort {topic}-lektion, eller skicka med ett hem för extra övning.",
-      "intersection": "Skriv ut PDF:en för en direkt {primary}-uppgift med fokus på {secondary}, eller starta versionen att spela online på en surfplatta eller tavla. Varje arbetsblad levereras med ett facit för snabb självkontroll, och du kan kombinera det med relaterade teman och årskurser för att utvidga lektionen.",
-      "hub": "Välj ett ämne, ett tema eller en årskurs för att öppna en sida med matchande arbetsblad. Var och en är gratis att skriva ut och att spela online, kommer med facit och finns på alla 11 språk vi publicerar på — praktiskt för tvåspråkiga och internationella klassrum."
+      "topic": "Skriv ut PDF:en för en klassrums- eller läxuppgift utan förberedelser, eller öppna den interaktiva versionen på en surfplatta eller tavla för direkt återkoppling, om det finns en. Många arbetsblad innehåller ett facit, så barnen kan rätta själva eller arbeta självständigt. Blanda blad från olika teman och årskurser för att bygga en kort {topic}-lektion, eller skicka med ett hem för extra övning.",
+      "intersection": "Skriv ut PDF:en för en direkt {primary}-uppgift med fokus på {secondary}, eller starta den interaktiva versionen på en surfplatta eller tavla, om det finns en. Många arbetsblad levereras med ett facit för snabb självkontroll, och du kan kombinera bladen med relaterade teman och årskurser för att utvidga lektionen.",
+      "hub": "Välj ett ämne, ett tema eller en årskurs för att öppna en sida med matchande arbetsblad. Varje arbetsblad går att skriva ut som PDF, många går också att spela i webbläsaren, och katalogen finns på alla 11 språk vi publicerar på — praktiskt för tvåspråkiga och internationella klassrum."
     }
   },
   "topicMeta": {
@@ -2567,32 +2567,40 @@
       "safer": "Bläddra bland arbetsblad efter övningstyp — interaktiv HTML och utskrivbara PDF:er för matematik, läsning, pussel F-3 och mer."
     },
     "h1": {
-      "hundreds": "Tusentals arbetsblad, sorterade efter typ",
-      "safer": "Arbetsblad, sorterade efter typ"
+      "hundreds": "Tusentals arbetsblad att skriva ut eller spela",
+      "safer": "Arbetsblad att skriva ut eller spela"
     },
     "intro": {
-      "hundreds": "Arbetsblad om teman, åldersnivåer och elva språk — välj en typ för att se alla tillgängliga arbetsblad i den kategorin.",
-      "safer": "Välj en arbetsbladstyp för att se alla tillgängliga arbetsblad — interaktiv HTML att spela i webbläsaren plus en utskrivbar PDF för varje set."
+      "hundreds": "Filtrera efter nivå, övningstyp eller tema. Varje arbetsblad finns som utskrivbar PDF, och många går också att spela i webbläsaren.",
+      "safer": "Filtrera efter nivå, övningstyp eller tema. Varje arbetsblad finns som utskrivbar PDF, och vissa går också att spela i webbläsaren."
     },
-    "tileCta": "Se arbetsbladen",
-    "tileCtaSheet": "Se arbetsbladet",
-    "newHeading": "Nya arbetsblad",
-    "moreTypesHeading": "Fler övningstyper",
-    "tileAlt": "Arbetsbladsexempel: {typeName}",
     "emptyTitle": "Inga arbetsblad tillgängliga på det här språket ännu.",
     "emptyBody": "Vår katalog växer språk för språk. Kom tillbaka snart eller bläddra på ett annat språk.",
     "browse": {
-      "heading": "Bläddra bland alla arbetsblad",
       "filterType": "Övningstyp",
       "filterLevel": "Nivå",
       "filterTheme": "Tema",
+      "moreThemes": "Fler teman ({count})"
+    },
+    "tabs": {
       "all": "Alla",
-      "results": "{count} arbetsblad",
-      "showAllThemes": "Visa alla teman",
-      "sortVariety": "Variation",
-      "topicLinksHeading": "Bläddra efter övningstyp",
-      "browseByTheme": "Bläddra efter tema",
-      "browseByLevel": "Bläddra efter nivå"
+      "interactive": "Interaktivt",
+      "aria": "Formatfilter"
+    },
+    "card": {
+      "pdf": "PDF",
+      "answerKey": "Facit",
+      "printOnly": "Endast PDF",
+      "interactiveMark": "Interaktivt arbetsblad",
+      "pdfAria": "Ladda ner utskrivbar PDF — {title}",
+      "answerKeyAria": "Ladda ner facit — {title}"
+    },
+    "index": {
+      "heading": "Alla övningstyper"
+    },
+    "empty": {
+      "bodyInteractive": "Vissa arbetsblad har ingen interaktiv version. Prova fliken Alla eller ta bort ett filter.",
+      "showAll": "Visa alla format"
     }
   },
   "standardsPage": {

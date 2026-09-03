@@ -3325,9 +3325,9 @@
     "heading": "How to use these worksheets",
     "overrides": {},
     "fallback": {
-      "topic": "Print the PDF for a no-prep classroom or homework task, or open the play-online version on a tablet or whiteboard for instant feedback. Every worksheet includes an answer key, so children can self-check or work independently. Mix sheets across themes and grade levels to build a short {topic} lesson, or send one home for extra practice.",
-      "intersection": "Print the PDF for an instant {primary} task focused on {secondary}, or launch the play-online version on a tablet or board. Every worksheet ships with an answer key for quick self-checking, and you can pair it with related themes and grade levels to extend the lesson.",
-      "hub": "Pick a subject, theme, or grade level to open a page of matching worksheets. Each one is free to print and to play online, comes with an answer key, and is available in all 11 languages we publish in — handy for dual-language and international classrooms."
+      "topic": "Print the PDF for a no-prep classroom or homework task, or, where there is one, open the play-online version on a tablet or whiteboard for instant feedback. Many worksheets include an answer key, so children can self-check or work independently. Mix sheets across themes and grade levels to build a short {topic} lesson, or send one home for extra practice.",
+      "intersection": "Print the PDF for an instant {primary} task focused on {secondary}, or launch the play-online version where there is one. Many worksheets ship with an answer key for quick self-checking, and you can pair one with related themes and grade levels to extend the lesson.",
+      "hub": "Pick a subject, theme, or grade level to open a page of matching worksheets. All worksheets print as PDFs, many also play in the browser, and the catalogue runs across all 11 languages we publish in — handy for dual-language and international classrooms."
     }
   },
   "topicMeta": {
@@ -4084,32 +4084,40 @@
       "safer": "Browse worksheets by exercise type — interactive HTML plus printable PDFs across K-3 math, literacy, puzzles, and more."
     },
     "h1": {
-      "hundreds": "Thousands of worksheets, organized by type",
-      "safer": "Worksheets, organized by type"
+      "hundreds": "Thousands of worksheets to print or play",
+      "safer": "Worksheets to print or play"
     },
     "intro": {
-      "hundreds": "Worksheets across themes, age levels, and eleven languages — pick a type to see every available worksheet in that category.",
-      "safer": "Pick a worksheet type to see every available worksheet — interactive HTML to play in the browser plus a printable PDF for every set."
+      "hundreds": "Filter by level, exercise type or theme. All worksheets come as printable PDFs; many also play in the browser.",
+      "safer": "Filter by level, exercise type or theme. All worksheets come as printable PDFs; some also play in the browser."
     },
-    "tileCta": "View worksheets",
-    "tileCtaSheet": "View worksheet",
-    "newHeading": "New worksheets",
-    "moreTypesHeading": "More worksheet types",
-    "tileAlt": "{typeName} worksheet sample",
     "emptyTitle": "No worksheets available in this language yet.",
     "emptyBody": "Our catalog is expanding language by language. Please check back soon, or browse another language.",
     "browse": {
-      "heading": "Browse all worksheets",
       "filterType": "Exercise type",
       "filterLevel": "Level",
       "filterTheme": "Theme",
+      "moreThemes": "More themes ({count})"
+    },
+    "tabs": {
       "all": "All",
-      "results": "{count} worksheets",
-      "showAllThemes": "Show all themes",
-      "sortVariety": "Variety",
-      "topicLinksHeading": "Browse by exercise type",
-      "browseByTheme": "Browse by theme",
-      "browseByLevel": "Browse by level"
+      "interactive": "Interactive",
+      "aria": "Format filter"
+    },
+    "card": {
+      "pdf": "PDF",
+      "answerKey": "Answer key",
+      "printOnly": "PDF only",
+      "interactiveMark": "Interactive worksheet",
+      "pdfAria": "Download the PDF for {title}",
+      "answerKeyAria": "Download the answer key for {title}"
+    },
+    "index": {
+      "heading": "All exercise types"
+    },
+    "empty": {
+      "bodyInteractive": "Some worksheets have no interactive version. Try the All tab, or remove a filter.",
+      "showAll": "Show all formats"
     }
   },
   "standardsPage": {

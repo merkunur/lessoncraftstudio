@@ -52,7 +52,28 @@ import type { Landing } from '@/lib/seo/landing-content';
 export type HubRow = Landing & {
   /** Set only on expanded sheet rows — the nginx deck URL, needs a plain <a>. */
   deckHref?: string;
+  /**
+   * Whether this worksheet actually HAS an answer key. Null-preserving, read
+   * from `Deck.answerKeyUrl` — the same signal `canonicalDeckAssets` uses. The
+   * card hides the Answer key link when false. NOTE this is a different
+   * question from "is it interactive", which is a property of the exercise TYPE
+   * (config/interactive-exercise-types.ts) and needs no database at all.
+   */
+  hasAnswerKey?: boolean;
 };
+
+/**
+ * What the hub knows about one deck row, keyed by slug.
+ *
+ * No deck id: downloads go through the SLUG-keyed metered proxy
+ * (/api/quota/dl?loc=&slug=&kind=), the same one the static landing pages
+ * already use, so a card can offer its PDF without resolving a database row
+ * at all.
+ */
+export interface DeckFacts {
+  title: string;
+  hasAnswerKey: boolean;
+}
 
 /**
  * Deck slugs an expanded family collapses, excluding each landing's own
@@ -98,30 +119,40 @@ function withTheme(title: string, themeKey: string, themeLabelOf: (k: string) =>
  */
 export function expandHubRows(
   landings: Landing[],
-  titleBySlug: Map<string, string>,
+  factsBySlug: Map<string, DeckFacts>,
   deckHrefOf: (slug: string) => string,
   themeLabelOf: (themeKey: string) => string = () => '',
 ): HubRow[] {
-  if (titleBySlug.size === 0) return landings;
+  // Landing rows carry their own deck's answer-key fact so the card knows
+  // whether to offer an Answer key link at all; a missing fact leaves the row
+  // intact and the card falls back to the exercise type, which answers the same
+  // question exactly (no exercise type mixes the two).
+  const decorate = (l: Landing): HubRow => {
+    const f = factsBySlug.get(l.canonicalDeckSlug);
+    return f ? { ...l, hasAnswerKey: f.hasAnswerKey } : l;
+  };
+  if (factsBySlug.size === 0) return landings;
+
   const own = new Set(landings.map((l) => l.canonicalDeckSlug));
   const seen = new Set<string>();
   const sheets: HubRow[] = [];
   for (const l of landings) {
     for (const slug of l.collapseSiblings || []) {
       if (own.has(slug) || seen.has(slug)) continue;
-      const title = titleBySlug.get(slug);
-      if (!title) continue;
+      const f = factsBySlug.get(slug);
+      if (!f) continue;
       seen.add(slug);
       sheets.push({
         ...l,
         slug,
         variantShape: 'singleton',
-        h1: withTheme(title, l.coordinate.theme, themeLabelOf),
+        h1: withTheme(f.title, l.coordinate.theme, themeLabelOf),
         canonicalDeckSlug: slug,
         collapseSiblings: [],
         deckHref: deckHrefOf(slug),
+        hasAnswerKey: f.hasAnswerKey,
       });
     }
   }
-  return [...landings, ...sheets];
+  return [...landings.map(decorate), ...sheets];
 }

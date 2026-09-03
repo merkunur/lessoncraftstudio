@@ -29,7 +29,7 @@ const THEME = {
   // K-284 word-tracing (base ships animals)
   'K-289': 'fruits', 'K-290': 'vehicles', 'K-291': 'toys',
   // K-287 singular-plural (base ships fruits)
-  'K-302': 'animals', 'K-303': 'vehicles', 'K-314': 'toys',
+  'K-302': 'animals', 'K-303': 'vehicles', 'K-313': 'fruits', 'K-314': 'toys',
   // K-288 articles (base ships animals; sv/da/no ride fruits)
   'K-306': 'animals', 'K-307': 'vehicles',
   // G1-242 read-and-color (BW only; base ships fruits bw)
@@ -93,7 +93,7 @@ const THEMELESS = [
   'G1-274', 'G1-275', 'G1-276', 'G1-277',          // number-lines
   'G1-278', 'G1-279', 'G1-280', 'G1-281',
   'G2-296', 'G2-297', 'G2-298',                    // calendar
-  'G2-302', 'G2-303',                              // grid-coordinates
+  'G2-302', 'G2-303', 'G2-308',                    // grid-coordinates
   // ── wave 2 ───────────────────────────────────────────────────────────────
   'K-308', 'G1-285', 'G1-294', 'G2-304',           // dot-to-dot (step knob)
   'G1-295', 'G2-305', 'G2-310',                    // number-lines (min knob)

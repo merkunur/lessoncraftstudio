@@ -61,20 +61,31 @@ module.exports = {
     const picks = rng.sample(pool, d.rows);
     const rows = picks.map((e) => {
       const n = rng.pick(d.clones);
-      const single = strokeWordLane({ text: e.sing, w: 160, h: d.glyphSing + 14, glyphH: d.glyphSing, reps: 1, stack: true, align: 'center', padLeft: 0 });
+      // direction:'toSingular' reverses which side is given. The shipped pair both
+      // run one -> many; going the other way is the harder and more diagnostic
+      // direction, because the child must REMOVE an ending rather than add one,
+      // and that is where the misconceptions live. `isRegular()` already
+      // guarantees the plural extends the stem, so the backward derivation is
+      // well defined in every locale.
+      const toSing = d.direction === 'toSingular';
+      const single = toSing
+        ? strokeWordLane({ text: e.sing, w: 160, h: d.laneH, glyphH: d.glyphSing, reps: 1, stack: true, modelless: true, emptyLast: true, align: 'center', padLeft: 0 })
+        : strokeWordLane({ text: e.sing, w: 160, h: d.glyphSing + 14, glyphH: d.glyphSing, reps: 1, stack: true, align: 'center', padLeft: 0 });
       // plurModel:false removes the DASHED model from the plural lane, leaving a
       // bare writing rail. That turns a motor task into a recall task: the child
       // must produce the ending from the singular and the crowd of pictures
       // alone, which is the step between tracing and independent spelling.
       // `reps: 0` is a path the primitive already supports (K-284 uses it for
       // its extra empty lane), so this is a parameter, not a new code path.
-      const plural = strokeWordLane({ text: e.plur, w: 440, h: d.laneH, glyphH: d.glyphPlur, reps: d.plurModel === false ? 0 : 1, stack: true, modelless: true, emptyLast: true, padLeft: 8 });
+      const plural = toSing
+        ? strokeWordLane({ text: e.plur, w: 440, h: d.laneH, glyphH: d.glyphPlur, reps: 1, stack: true, align: 'center', padLeft: 8 })
+        : strokeWordLane({ text: e.plur, w: 440, h: d.laneH, glyphH: d.glyphPlur, reps: d.plurModel === false ? 0 : 1, stack: true, modelless: true, emptyLast: true, padLeft: 8 });
       const clones = Array.from({ length: n }, (_, k) => {
         const rot = ((k - (n - 1) / 2) * 6).toFixed(1);
         return `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${e.vocabKey}" style="width:${d.picClone}px;height:${d.picClone}px;transform:rotate(${rot}deg)">`;
       }).join('');
       return `<div class="ws-card" style="flex-direction:row;height:${d.rowH}px;padding:8px 10px;gap:12px;align-items:center" ` +
-        `data-lcs-row data-lcs-vocab="${e.vocabKey}" data-lcs-singular="${e.sing}" data-lcs-plural="${e.plur}" data-lcs-n="${n}"${d.plurModel === false ? ' data-lcs-plurmodel="0"' : ''}>` +
+        `data-lcs-row data-lcs-vocab="${e.vocabKey}" data-lcs-singular="${e.sing}" data-lcs-plural="${e.plur}" data-lcs-n="${n}"${d.plurModel === false ? ' data-lcs-plurmodel="0"' : ''}${toSing ? ' data-lcs-direction="toSingular"' : ''}>` +
         `<div style="width:176px;display:flex;flex-direction:column;align-items:center;gap:6px;position:relative" data-lcs-side="one">` +
         `<div style="position:relative;margin:10px 0 0 10px">${countBadge(1)}<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${e.vocabKey}" style="width:${d.picSingle}px;height:${d.picSingle}px"></div>` +
         `${single.svg}</div>` +
@@ -119,8 +130,15 @@ module.exports = {
         const lanes = [...row.querySelectorAll('[data-lcs-prim="trace-word"]')];
         const sLane = lanes.find((l) => l.dataset.lcsText === s), pLane = lanes.find((l) => l.dataset.lcsText === p);
         if (!sLane || !pLane) { fails.push(`row ${i + 1}: lanes missing`); return; }
+        // ⚠ EVERY LANE ASSERTION BELOW ASSUMES one -> many, so the reversed face
+        // would fail all of them: the singular is no longer the solid model and
+        // the plural is no longer the dashed one. Stamped only when declared.
+        const toSing = row.dataset.lcsDirection === 'toSingular';
         const sPaths = [...sLane.querySelectorAll('path')];
-        if (!sPaths.length || sPaths.some((x) => x.getAttribute('stroke-dasharray'))) fails.push(`row ${i + 1}: singular not solid`);
+        if (toSing) {
+          if (!sPaths.length || sPaths.some((x) => !x.getAttribute('stroke-dasharray'))) fails.push(`row ${i + 1}: singular should be the dashed model`);
+          if (!sLane.dataset.lcsEmptySlot) fails.push(`row ${i + 1}: singular has no empty writing trio`);
+        } else if (!sPaths.length || sPaths.some((x) => x.getAttribute('stroke-dasharray'))) fails.push(`row ${i + 1}: singular not solid`);
         // Three assertions branch on plurModel, and every one of them would fail a
         // CORRECT no-model page: with reps 0 there are no paths at all, so
         // "plural has a solid stroke" fires on an empty set, and the trio count
@@ -129,7 +147,10 @@ module.exports = {
         const noModel = row.dataset.lcsPlurmodel === '0';
         const pPaths = [...pLane.querySelectorAll('path')];
         const trios = pLane.querySelectorAll(':scope > g');
-        if (noModel) {
+        if (toSing) {
+          // reversed: the PLURAL is the solid given and carries no writing trio
+          if (!pPaths.length || pPaths.some((x) => x.getAttribute('stroke-dasharray'))) fails.push(`row ${i + 1}: plural should be the solid given`);
+        } else if (noModel) {
           if (pPaths.length) fails.push(`row ${i + 1}: plural lane should carry no model at all`);
           if (trios.length !== 1) fails.push(`row ${i + 1}: ${trios.length} trios, want 1`);
         } else {
@@ -137,7 +158,7 @@ module.exports = {
           if (trios.length !== 2) fails.push(`row ${i + 1}: ${trios.length} trios, want 2`);
           if (trios[1] && trios[1].querySelectorAll('path').length) fails.push(`row ${i + 1}: empty trio has strokes`);
         }
-        if (!pLane.dataset.lcsEmptySlot) fails.push(`row ${i + 1}: no empty writing trio`);
+        if (!toSing && !pLane.dataset.lcsEmptySlot) fails.push(`row ${i + 1}: no empty writing trio`);
         if (row.querySelectorAll('[data-lcs-prim="trace-word"] text').length) fails.push(`row ${i + 1}: word printed as <text>`);
         // the plural never appears as visible text on the row
         const txt = row.textContent;

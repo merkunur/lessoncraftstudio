@@ -2921,12 +2921,19 @@
     },
     "hero": {
       "h1": "Undervisning, der hænger sammen.",
-      "sub": "Tavleværktøjer, spilleklare aktiviteter, selvrettende arbejdsark med facitliste til print og generatorer til at lave dine egne — gratis at starte, fra børnehaveklassen til 3. klasse.",
-      "ctaTools": "Åbn et undervisningsværktøj",
+      "fanLabel": "Et udvalg af arbejdsark fra biblioteket, på dit sprog",
       "ctaWorksheets": "Se arbejdsarkene",
-      "microLine": "Gratis at starte · uden login · intet at installere",
-      "countsLine": "Et helt bibliotek af printklare arbejdsark · levende undervisningsværktøjer · spilleklare aktiviteter · alt sammen på dit sprog",
-      "fanLabel": "Et udvalg af arbejdsark fra biblioteket, på dit sprog"
+      "ctaActivities": "Prøv en aktivitet",
+      "scope": "Fra børnehaveklassen til tredje klasse, på dit sprog.",
+      "pillar1Count": "40.000+",
+      "pillar1Label": "printklare arbejdsark",
+      "pillar1Gloss": "Print som PDF eller løs online – de fleste retter sig selv.",
+      "pillar2Label": "Spilleklare aktiviteter",
+      "pillar2Gloss": "Barnet spiller, og aktiviteten retter selv svarene.",
+      "pillar3Label": "Tavleværktøjer",
+      "pillar3Gloss": "En hel reol: ur, kugleramme, tallinje, balancevægt og meget mere.",
+      "pillar4Label": "Arbejdsark-generatorer",
+      "pillar4Gloss": "Vælg billeder og ord. Lav dit eget ark til print eller online."
     },
     "ticks": {
       "teach": "Undervis",

@@ -2924,12 +2924,19 @@
     },
     "hero": {
       "h1": "Elke les hangt samen.",
-      "sub": "Live hulpmiddelen, kant-en-klare activiteiten, werkbladen die zichzelf nakijken én printen met antwoordblad, en makers om ze zelf te maken — gratis om te beginnen, van kleuters t/m groep 5.",
-      "ctaTools": "Open een hulpmiddel",
+      "fanLabel": "Voorbeeldwerkbladen uit de bibliotheek, in jouw taal",
       "ctaWorksheets": "Bekijk de werkbladen",
-      "microLine": "Gratis om te beginnen · zonder login · niets te installeren",
-      "countsLine": "Een volle bibliotheek printbare werkbladen · live hulpmiddelen voor in de klas · kant-en-klare activiteiten · alles in jouw taal",
-      "fanLabel": "Voorbeeldwerkbladen uit de bibliotheek, in jouw taal"
+      "ctaActivities": "Probeer een activiteit",
+      "scope": "Voor kinderen van drie tot negen jaar, in jouw taal.",
+      "pillar1Count": "40.000+",
+      "pillar1Label": "printbare werkbladen",
+      "pillar1Gloss": "Print de pdf of speel online — de meeste kijken zichzelf na.",
+      "pillar2Label": "Kant-en-klare activiteiten",
+      "pillar2Gloss": "Een kind speelt, de activiteit kijkt de antwoorden na.",
+      "pillar3Label": "Hulpmiddelen voor in de klas",
+      "pillar3Gloss": "Een hele kast vol: klok, rekenrek, getallenlijn, balans en meer.",
+      "pillar4Label": "Werkblad-makers",
+      "pillar4Gloss": "Kies plaatjes en woorden, maak je eigen werkblad — print of speel."
     },
     "ticks": {
       "teach": "Lesgeven",

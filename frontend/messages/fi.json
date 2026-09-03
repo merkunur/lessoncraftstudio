@@ -2913,12 +2913,19 @@
     },
     "hero": {
       "h1": "Jokainen oppitunti, tasapainossa.",
-      "sub": "Opetustyökalut luokan eteen, heti pelattavat harjoitukset, itsekorjaavat tehtäväarkit vastauksineen ja generaattorit omien tekemiseen – aloita ilmaiseksi, esiopetuksesta 3. luokkaan.",
-      "ctaTools": "Avaa opetustyökalu",
+      "fanLabel": "Näytteitä kirjaston tehtäväarkeista, omalla kielelläsi",
       "ctaWorksheets": "Selaa tehtäväarkkeja",
-      "microLine": "Aloita ilmaiseksi · ei kirjautumista · ei mitään asennettavaa",
-      "countsLine": "Kokonainen kirjasto tulostettavia tehtäväarkkeja · opetustyökalut luokan eteen · heti pelattavat tehtävät · kaikki omalla kielelläsi",
-      "fanLabel": "Näytteitä kirjaston tehtäväarkeista, omalla kielelläsi"
+      "ctaActivities": "Kokeile harjoitusta",
+      "scope": "Esiopetuksesta kolmannelle luokalle, omalla kielelläsi.",
+      "pillar1Count": "40 000+",
+      "pillar1Label": "tulostettavaa tehtäväarkkia",
+      "pillar1Gloss": "Tulosta PDF:nä tai pelaa verkossa – useimmat tarkistavat itsensä.",
+      "pillar2Label": "Heti pelattavat harjoitukset",
+      "pillar2Gloss": "Lapsi pelaa, harjoitus tarkistaa vastaukset.",
+      "pillar3Label": "Opetustyökalut luokan eteen",
+      "pillar3Gloss": "Kokonainen välineistö: kello, lukusuora, vaaka ja paljon muuta.",
+      "pillar4Label": "Tehtävä­generaattorit",
+      "pillar4Gloss": "Valitse kuvat ja sanat – tee omasi, tulosta tai pelaa."
     },
     "ticks": {
       "teach": "Opeta",

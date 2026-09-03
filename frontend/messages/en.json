@@ -30,11 +30,11 @@
   "nav": {
     "categories": {
       "worksheets": "Worksheets",
-      "apps": "Worksheet creators",
+      "apps": "Worksheet makers",
       "interactive": "Interactive",
       "browseAll": {
         "worksheets": "Browse all worksheets",
-        "apps": "All worksheet creators",
+        "apps": "All worksheet makers",
         "interactive": "Browse all interactive",
         "languages": "All bilingual worksheets"
       },
@@ -4444,12 +4444,19 @@
     },
     "hero": {
       "h1": "Every lesson, hanging together.",
-      "sub": "Live teaching tools, ready-to-play activities, worksheets that check themselves and print with a separate answer key, and makers to build your own — free to start, from preschool to grade 3.",
-      "ctaTools": "Open a teaching tool",
+      "fanLabel": "Sample worksheets from the library, in your language",
       "ctaWorksheets": "Browse the worksheets",
-      "microLine": "Free to start · no login · nothing to install",
-      "countsLine": "A full library of printable worksheets · live teaching tools · ready-to-play activities · all in your language",
-      "fanLabel": "Sample worksheets from the library, in your language"
+      "ctaActivities": "Try an activity",
+      "scope": "From preschool to third grade, in your language.",
+      "pillar1Count": "40,000+",
+      "pillar1Label": "printable worksheets",
+      "pillar1Gloss": "Print the PDF, or play online, where most check themselves.",
+      "pillar2Label": "Ready-to-play activities",
+      "pillar2Gloss": "A child plays; the activity checks the answers.",
+      "pillar3Label": "Classroom tools",
+      "pillar3Gloss": "A full shelf of instruments: clock, number line, balance and more.",
+      "pillar4Label": "Worksheet makers",
+      "pillar4Gloss": "Pick pictures and words. Make your own, to print or play."
     },
     "ticks": {
       "teach": "Teach",

@@ -2944,12 +2944,19 @@
     },
     "hero": {
       "h1": "Chaque leçon, suspendue au même fil.",
-      "sub": "Outils à projeter, activités prêtes à jouer, fiches qui se corrigent seules et s'impriment avec corrigé, générateurs pour créer les vôtres — gratuit pour commencer, de la maternelle au CE2.",
-      "ctaTools": "Ouvrir un outil de classe",
+      "fanLabel": "Quelques fiches de la bibliothèque, en exemple et dans votre langue",
       "ctaWorksheets": "Parcourir les fiches",
-      "microLine": "Gratuit pour commencer · sans connexion · rien à installer",
-      "countsLine": "Toute une bibliothèque de fiches à imprimer · des outils de classe à projeter · des activités prêtes à jouer · le tout dans votre langue",
-      "fanLabel": "Quelques fiches de la bibliothèque, en exemple et dans votre langue"
+      "ctaActivities": "Essayer une activité",
+      "scope": "De la maternelle au CE2, dans votre langue.",
+      "pillar1Count": "40 000+",
+      "pillar1Label": "fiches à imprimer",
+      "pillar1Gloss": "Imprimez le PDF ou jouez en ligne : la plupart s'autocorrigent.",
+      "pillar2Label": "Activités prêtes à jouer",
+      "pillar2Gloss": "L'enfant joue ; l'activité corrige les réponses.",
+      "pillar3Label": "Outils de classe",
+      "pillar3Gloss": "Toute une panoplie d'outils : horloge, droite numérique, balance…",
+      "pillar4Label": "Générateurs de fiches",
+      "pillar4Gloss": "Vos images, vos mots : créez vos fiches, à imprimer ou à jouer."
     },
     "ticks": {
       "teach": "Enseigner",

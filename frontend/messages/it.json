@@ -4445,12 +4445,19 @@
     },
     "hero": {
       "h1": "Ogni lezione, in perfetto equilibrio.",
-      "sub": "Strumenti per la lezione, attività pronte da giocare, schede autocorrettive da stampare con le soluzioni e generatori per creare le tue — si parte gratis, dall'infanzia alla classe terza.",
-      "ctaTools": "Apri uno strumento didattico",
+      "fanLabel": "Schede d'esempio dal catalogo, nella tua lingua",
       "ctaWorksheets": "Sfoglia le schede",
-      "microLine": "Gratis per iniziare · senza login · niente da installare",
-      "countsLine": "Un intero catalogo di schede da stampare · strumenti didattici dal vivo · attività pronte da giocare · tutto nella tua lingua",
-      "fanLabel": "Schede d'esempio dal catalogo, nella tua lingua"
+      "ctaActivities": "Prova un'attività",
+      "scope": "Dall'infanzia alla classe terza, nella tua lingua.",
+      "pillar1Count": "40.000+",
+      "pillar1Label": "schede da stampare",
+      "pillar1Gloss": "Stampa il PDF o gioca online: per lo più si correggono da sole.",
+      "pillar2Label": "Attività pronte da giocare",
+      "pillar2Gloss": "Il bambino gioca: è l'attività a correggere le risposte.",
+      "pillar3Label": "Strumenti didattici",
+      "pillar3Gloss": "Uno scaffale intero: orologio, abaco, bilancia e molti altri.",
+      "pillar4Label": "Generatori di schede",
+      "pillar4Gloss": "Scegli immagini e parole, crea la tua: da stampare o da giocare."
     },
     "ticks": {
       "teach": "Insegna",

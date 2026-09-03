@@ -4443,12 +4443,19 @@
     },
     "hero": {
       "h1": "Cada lección, en equilibrio.",
-      "sub": "Herramientas para enseñar en vivo, actividades listas para jugar, hojas de trabajo que se revisan solas y se imprimen, y creadores para hacer las tuyas — empieza gratis, de preescolar a 3er grado.",
-      "ctaTools": "Abre una herramienta de enseñanza",
+      "fanLabel": "Muestras de hojas de trabajo de la biblioteca, en tu idioma",
       "ctaWorksheets": "Ver las hojas de trabajo",
-      "microLine": "Empieza gratis · sin registro · nada que instalar",
-      "countsLine": "Una biblioteca completa de hojas de trabajo imprimibles · herramientas para enseñar en vivo · actividades listas para jugar · todo en tu idioma",
-      "fanLabel": "Muestras de hojas de trabajo de la biblioteca, en tu idioma"
+      "ctaActivities": "Prueba una actividad",
+      "scope": "De preescolar a tercero de primaria, en tu idioma.",
+      "pillar1Count": "40.000+",
+      "pillar1Label": "hojas de trabajo imprimibles",
+      "pillar1Gloss": "Imprime el PDF o juega en línea; la mayoría se corrige sola.",
+      "pillar2Label": "Actividades listas para jugar",
+      "pillar2Gloss": "El niño juega y la actividad corrige las respuestas.",
+      "pillar3Label": "Herramientas de aula",
+      "pillar3Gloss": "Un estante completo: reloj, recta numérica, balanza y muchas más.",
+      "pillar4Label": "Creadores de hojas",
+      "pillar4Gloss": "Elige imágenes y palabras. Crea la tuya, para imprimir o jugar."
     },
     "ticks": {
       "teach": "Enseña",

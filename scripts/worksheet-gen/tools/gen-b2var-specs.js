@@ -360,6 +360,19 @@ const ROWS = [
     'Doubles to 20', 'Bigger groups to double, all the way to twenty.'],
   ['g1', 'G1-297', 'halves-only-to-20', 'G1-247-doubles-halves.js', 2, { ops: ['half'], cards: 6, hMin: 5, hMax: 10, icon: 28, perRow: 5 },
     'Halves to 20', 'Bigger groups to halve, starting from twenty.'],
+
+  // singular-plural: both shipped faces give the plural in dashed strokes to
+  // trace. Removing the model turns a motor task into a recall task — the child
+  // produces the ending from the singular and the crowd of pictures alone.
+  ['k', 'K-314', 'singular-plural-write-it-yourself', 'K-287-singular-plural.js', 3, { plurModel: false },
+    'One and Many: Write It Yourself', 'No dashed letters this time. Write the word for many on the empty line.'],
+
+  // word-classes two-bin entry rung. All three shipped faces are three-bin; a
+  // two-way noun/verb sort is where the sequence starts, and it takes a G1 id
+  // because that is the band the CONTENT belongs to.
+  ['g1', 'G1-293', 'word-classes-two-bins', 'G2-275-word-classes.js', 1,
+    { classes: ['noun', 'verb'], per: 5, pics: true, tiers: [1], lines: 6 },
+    'Naming Words and Doing Words', 'Two bins this time. Is each word a naming word or a doing word?'],
 ];
 
 function emit(row) {

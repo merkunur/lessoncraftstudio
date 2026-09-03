@@ -49,11 +49,19 @@ module.exports = {
     const tierOk = (x) => d.tiers.includes(x.tier || 1);
     const verbs = rng.sample(W.verbs.filter(tierOk), d.per), adjs = rng.sample(W.adjectives.filter(tierOk), d.per);
     if (verbs.length < d.per || adjs.length < d.per) throw new Error(`G2-275: bank ${loc} short of verbs/adjectives at d${difficulty}`);
+    // `classes` narrows the sort. A three-way sort against an adjective bin is a
+    // harder discrimination than a two-way one, and the two-way noun/verb sort is
+    // where the sequence STARTS (L.1.1.b names nouns and verbs; adjectives arrive
+    // at L.1.1.f) — all three shipped faces are three-bin, so the entry rung was
+    // missing. ⚠ The RNG is still consumed identically on the default path: verbs
+    // and adjectives are sampled above regardless, and only what reaches the chip
+    // list and the bin row changes.
+    const classes = d.classes || ['noun', 'verb', 'adj'];
     const chips = rng.shuffle([
       ...pickN.map((e) => ({ cls: 'noun', word: e.word, src: d.pics ? fileUri(theme, e.noun) : null })),
       ...verbs.map((v) => ({ cls: 'verb', word: v.w })),
       ...adjs.map((a) => ({ cls: 'adj', word: a.w })),
-    ]);
+    ].filter((c) => classes.includes(c.cls)));
     const chipHtml = chips.map((c) =>
       `<span class="ws-tile ws-tile--word" style="height:44px;font-size:${d.font}px" data-lcs-word="${c.word}" data-lcs-class="${c.cls}">` +
       (c.src ? `<img class="ws-icon" src="${c.src}" alt="" style="width:28px;height:28px">` : '') + `${c.word}</span>`).join('');
@@ -68,7 +76,7 @@ module.exports = {
     return {
       bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;justify-content:flex-start;gap:24px;padding-top:4px" data-ws-content>` +
         `<div style="flex:0 0 auto;display:flex;flex-wrap:wrap;justify-content:center;gap:12px;padding:6px 0" data-lcs-chips>${chipHtml}</div>` +
-        `<div style="flex:0 0 auto;display:flex;justify-content:space-between;padding:0 10px">${bin('noun')}${bin('verb')}${bin('adj')}</div></div>`,
+        `<div style="flex:0 0 auto;display:flex;justify-content:${classes.length > 2 ? 'space-between' : 'center'};${classes.length > 2 ? '' : 'gap:40px;'}padding:0 10px"${d.classes ? ` data-lcs-classes="${classes.join(',')}"` : ''}>${classes.map(bin).join('')}</div></div>`,
       meta: {},
     };
   },
@@ -76,6 +84,9 @@ module.exports = {
   async verify(page) {
     return page.evaluate(() => {
       const fails = [];
+      // Hoisted: the class-count assertion below needs it, and it runs first.
+      const row = document.querySelector('[data-lcs-classes]');
+      const wantBins = row ? row.dataset.lcsClasses.split(',') : ['adj', 'noun', 'verb'];
       const chips = [...document.querySelectorAll('[data-lcs-word][data-lcs-class]')];
       const counts = { noun: 0, verb: 0, adj: 0 };
       const words = new Set();
@@ -86,15 +97,24 @@ module.exports = {
         words.add(w);
         if (c.textContent.trim() !== c.dataset.lcsWord) fails.push(`chip text != word for "${w}"`);
       });
-      if (!(counts.noun === counts.verb && counts.verb === counts.adj && counts.noun >= 3)) fails.push(`class counts ${JSON.stringify(counts)}`);
+      // Equal counts ACROSS THE DECLARED CLASSES, not across a fixed three.
+      // The original asserted counts.adj too, so a two-bin page failed with
+      // adj: 0 — a correct page reported as a defect.
+      const want = wantBins.map((c) => counts[c] || 0);
+      if (!(want.every((v) => v === want[0]) && want[0] >= 3)) fails.push(`class counts ${JSON.stringify(counts)} over ${wantBins}`);
       const withImg = chips.filter((c) => c.querySelector('img'));
       const nounChips = chips.filter((c) => c.dataset.lcsClass === 'noun');
       if (withImg.length && withImg.length !== nounChips.length) fails.push('pictures on non-noun chips or missing on nouns');
       if (withImg.some((c) => c.dataset.lcsClass !== 'noun')) fails.push('picture on a non-noun chip');
       const bins = [...document.querySelectorAll('[data-lcs-bin]')].map((b) => b.dataset.lcsBin);
-      if (bins.slice().sort().join() !== 'adj,noun,verb') fails.push(`bins ${bins}`);
+      // Was hardcoded to the three-bin page and would have failed a correct
+      // two-bin one. The declaration is stamped only when a face narrows the set,
+      // so the default assertion is unchanged.
+      if (bins.slice().sort().join() !== wantBins.slice().sort().join()) fails.push(`bins ${bins}, want ${wantBins}`);
+      const chipClasses = new Set([...document.querySelectorAll('[data-lcs-class]')].map((c) => c.dataset.lcsClass));
+      chipClasses.forEach((c) => { if (!wantBins.includes(c)) fails.push(`chip class ${c} has no bin`); });
       const terms = [...document.querySelectorAll('[data-lcs-term]')].map((t) => t.textContent.trim());
-      if (terms.length !== 3 || new Set(terms).size !== 3 || terms.some((t) => !t)) fails.push('bin terms missing/duplicate');
+      if (terms.length !== wantBins.length || new Set(terms).size !== wantBins.length || terms.some((t) => !t)) fails.push(`bin terms missing/duplicate (${terms.length} of ${wantBins.length})`);
       // no chip word equals a bin term
       terms.forEach((t) => { if (words.has(t.toLowerCase())) fails.push(`chip equals term "${t}"`); });
       return fails;

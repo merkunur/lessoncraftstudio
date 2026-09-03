@@ -29,7 +29,7 @@ const THEME = {
   // K-284 word-tracing (base ships animals)
   'K-289': 'fruits', 'K-290': 'vehicles', 'K-291': 'toys',
   // K-287 singular-plural (base ships fruits)
-  'K-302': 'animals', 'K-303': 'vehicles',
+  'K-302': 'animals', 'K-303': 'vehicles', 'K-314': 'toys',
   // K-288 articles (base ships animals; sv/da/no ride fruits)
   'K-306': 'animals', 'K-307': 'vehicles',
   // G1-242 read-and-color (BW only; base ships fruits bw)
@@ -47,7 +47,7 @@ const THEME = {
   // G2-274 capitals-punctuation (base ships vehicles)
   'G2-281': 'animals', 'G2-282': 'fruits',
   // G2-275 word-classes (base ships toys)
-  'G2-285': 'animals', 'G2-286': 'fruits', 'G2-287': 'vehicles',
+  'G2-285': 'animals', 'G2-286': 'fruits', 'G2-287': 'vehicles', 'G1-293': 'toys',
   // G2-276 money (base ships fruits)
   'G2-289': 'animals', 'G2-290': 'vehicles', 'G2-291': 'toys', 'G2-292': 'fruits',
   'G2-293': 'animals', 'G2-294': 'vehicles', 'G2-295': 'toys',

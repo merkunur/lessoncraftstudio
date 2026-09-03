@@ -3,9 +3,19 @@
  * ONE → MANY story rows: one picture with its word printed solid on the
  * left; the same picture cloned two or three times on the right with the
  * PLURAL in dashed strokes under the crowd and an empty writing trio. Count
- * badges (1 · 3) make the row legible without reading. Regular (prefix)
- * plurals ONLY at every level (L.K.1.c is regular plurals; irregulars are
- * L.2.1.b) — a locale/theme short of regular plurals refuses.
+ * badges (1 · 3) make the row legible without reading. The plural must be the
+ * locale's DEFAULT pattern — a locale/theme short of them refuses.
+ *
+ * ⚠ "Regular" is not "prefix + ending" outside English, and this docblock used
+ * to claim it was. `isRegular` accepts any plural whose folded stem carries over
+ * (see its own comment), which is the only workable rule for languages with no
+ * single default: de Apfel→Äpfel and fr bateau→bateaux both pass, by design.
+ * Two native panels independently read the old wording as a promise and found
+ * live landing copy built on it — a German base page asserting umlaut plurals
+ * "deliberately do not occur" (14 measured eligible), and French pages implying
+ * "just add an s" while fr toys/animals admit -x and -aux plurals at roughly
+ * 1 page in 3. The CODE was right and the sentence above it was wrong; landing
+ * prose must describe what the locale's pool can actually print.
  * d1: 3 rows, 2 clones · d2: 4 rows · d3: 4 rows, longer words.
  */
 'use strict';

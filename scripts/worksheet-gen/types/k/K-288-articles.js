@@ -45,7 +45,7 @@ module.exports = {
     if (!A) throw new Error(`K-288: no article contract for locale ${loc}`);
     if (A.refuse) throw new Error(`K-288: locale ${loc} refuses this type`);
     const level = d.level3 ? 3 : difficulty;
-    const chips = (d.level3 && A.chipsD3) ? A.chipsD3 : A.chips;
+    let chips = (d.level3 && A.chipsD3) ? A.chipsD3 : A.chips;
     const refuse = new Set((A.refuseKeys || []).map((k) => String(k).toLowerCase()));
     let pool = distinctByWord(entriesFor(theme, loc).filter(countable).filter((e) => !refuse.has(String(e.vocabKey).toLowerCase())), (e) => e.singular.toLocaleLowerCase(loc));
     // fi form mode: each card shows 1 or 3 pictures; chips = [singular, plural]
@@ -96,6 +96,28 @@ module.exports = {
     // yksikko/monikko labels and its chips are word FORMS — the same sorting act
     // on the grammatical contrast that locale actually has.
     if (d.sortWords) {
+      // ⚠ Drop a column this locale's pool can NEVER fill. The sort layout heads
+      // every chip as a bin, and Italian at level 3 heads four (il/lo/la/l') —
+      // but `lo` needs an s+consonant / z / gn / ps onset, and the picture
+      // vocabulary has at most ONE such noun in any theme (fruits, animals and
+      // vehicles have none). A child then faces a labelled column that cannot
+      // receive a word, on a page whose whole task is putting every word under a
+      // heading. Measured from the POOL rather than the deal, so the bin set is
+      // stable across renders of the same (theme, locale). Same defect the German
+      // der/die/das page had on `fruits`, where the fix was a theme change; here
+      // no theme exists, so the column goes.
+      const reachable = new Set(pool.map((e) => { try { return A.keyFor(e, { level }); } catch (x) { return null; } })
+        .filter((k) => k !== null && k !== undefined));
+      const keptIdx = chips.map((_, i) => i).filter((i) => isForm || reachable.has(i));
+      const dropped = chips.length - keptIdx.length;
+      if (dropped && keptIdx.length < 2) {
+        throw new Error(`K-288: ${theme}/${loc} leaves only ${keptIdx.length} fillable bin(s)`);
+      }
+      const remap = new Map(keptIdx.map((orig, now) => [orig, now]));
+      if (dropped) {
+        chips = keptIdx.map((i) => chips[i]);
+        cardsData = cardsData.map((c) => ({ ...c, key: remap.has(c.key) ? remap.get(c.key) : c.key }));
+      }
       const binLabels = isForm
         ? [(LABELS[loc] && LABELS[loc].singularPlural || {}).one || 'one',
            (LABELS[loc] && LABELS[loc].singularPlural || {}).many || 'many']

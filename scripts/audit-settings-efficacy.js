@@ -712,7 +712,7 @@ async function trace(browser, surface, state, PORT, sets, key, probe, pace, dept
        at-rest phase, and it is certainly not a reason to report the tool
        as failing. Per-phase stability then treats after-use as
        unreadable, which is exactly what it is. */
-    let afterUse = null;
+    let afterUse = null, afterUseLate = null;
     try {
       await page.evaluate((n, g, sk, dg) => window.__exercise(n, g, sk, dg), EXERCISE, pace || 0, NAV_SKIP[surface.id] || [], (typeof depth === 'string' ? depth : null));
       await wait(SETTLE);
@@ -723,10 +723,19 @@ async function trace(browser, surface, state, PORT, sets, key, probe, pace, dept
         }, probe.finalClick);
         await wait(SETTLE);
       }
-      afterUse = await settledSig(page, 1500);
+      /* ⚠ TAKE BOTH READINGS, DO NOT CHOOSE BETWEEN THEM. The patient read
+         is what catches a debounced announcement (place-value-lab speaks
+         on a 1200 ms timer), and it is also what exposes a tool whose
+         board keeps moving on its own — center-board went from LIVE to
+         unreadable the moment the window got longer. A quick read and a
+         patient read are two phases, each with its own control, and a
+         field proven by either is proven. Discarding one to fix the other
+         is how a gate loses evidence it already had. */
+      afterUse = await settledSig(page, 0);
+      afterUseLate = await settledSig(page, 1500);
     } catch (e) {
       if (!/Execution context was destroyed|Target closed|detached/i.test(String((e && e.message) || e))) throw e;
-      return { atRest, afterUse: null, stuck: null, navDied: true };
+      return { atRest, afterUse, afterUseLate, stuck: null, navDied: true };
     }
     let stuck = null;
     if (key) {
@@ -738,7 +747,7 @@ async function trace(browser, surface, state, PORT, sets, key, probe, pace, dept
         stuck = { before, after, checked: true };
       }
     }
-    return { atRest, afterUse, stuck };
+    return { atRest, afterUse, afterUseLate, stuck };
   } finally { await page.close(); }
 }
 
@@ -931,23 +940,25 @@ async function auditSurface(browser, surface, state, PORT) {
        terms; only a phase that churns has to be set aside. */
     let restStable = sameTrace(n1.atRest, n2.atRest);
     let useStable = sameTrace(n1.afterUse, n2.afterUse);
+    let lateStable = sameTrace(n1.afterUseLate, n2.afterUseLate);
     let pace = 0;
     /* ⚠ ONE SLOW RETRY BEFORE GIVING UP. Churn is usually the harness's
        own doing — clicks outrunning a tap-lock — and a field we cannot
        read is a field we cannot answer the operator's question about. */
-    if (!restStable || !useStable) {
+    if (!restStable || !useStable || !lateStable) {
       const s1 = await trace(browser, surface, state, PORT, [{ field: i, opt: null }], null, probe, 400);
       const s2 = await trace(browser, surface, state, PORT, [{ field: i, opt: null }], null, probe, 400);
       if (s1 && s2) {
-        const r = sameTrace(s1.atRest, s2.atRest), u = sameTrace(s1.afterUse, s2.afterUse);
-        if ((r && !restStable) || (u && !useStable)) {
+        const r = sameTrace(s1.atRest, s2.atRest), u = sameTrace(s1.afterUse, s2.afterUse), l = sameTrace(s1.afterUseLate, s2.afterUseLate);
+        if ((r && !restStable) || (u && !useStable) || (l && !lateStable)) {
           pace = 400;
           if (r) { restStable = true; n1.atRest = s1.atRest; }
           if (u) { useStable = true; n1.afterUse = s1.afterUse; }
+          if (l) { lateStable = true; n1.afterUseLate = s1.afterUseLate; }
         }
       }
     }
-    if (!restStable && !useStable) {
+    if (!restStable && !useStable && !lateStable) {
       const excused = (KNOWN_UNPROVABLE[surface.id] || {})[f.key];
       if (excused) { ok(`${tag}: ${name} excused — ${excused}`); continue; }
       unk(`${tag}: ${name} — re-committing the SAME value twice gives two different boards (${whichChannel(n1.atRest, n2.atRest)}/${whichChannel(n1.afterUse, n2.afterUse)}); this tool churns under re-render, so a diff here would prove nothing`);
@@ -963,12 +974,13 @@ async function auditSurface(browser, surface, state, PORT) {
       if (!t) continue;
       if (restStable && !sameTrace(n1.atRest, t.atRest)) live = { how: 'at rest', ch: whichChannel(n1.atRest, t.atRest), t };
       else if (useStable && !sameTrace(n1.afterUse, t.afterUse)) live = { how: 'after use', ch: whichChannel(n1.afterUse, t.afterUse), t };
+      else if (lateStable && !sameTrace(n1.afterUseLate, t.afterUseLate)) live = { how: 'after use, once it settles', ch: whichChannel(n1.afterUseLate, t.afterUseLate), t };
     }
 
     /* pass 2b — the quantity threshold. Only for fields nothing else
        reached, and only three control classes deep, so the cost lands on
        the handful of settings that need it. */
-    if (!live && useStable) {
+    if (!live && (useStable || lateStable)) {
       const verbs = await discoverVerbs(browser, surface, state, PORT);
       for (const g of verbs) {
         if (live) break;
@@ -977,8 +989,10 @@ async function auditSurface(browser, surface, state, PORT) {
         for (let o = 0; o < nOpts && !live; o++) {
           if (fields[i].chips && o === fields[i].checked) continue;
           const t = await trace(browser, surface, state, PORT, [{ field: i, opt: o }], null, probe, pace, g);
-          if (t && t.afterUse && !sameTrace(b.afterUse, t.afterUse))
+          if (t && t.afterUse && useStable && !sameTrace(b.afterUse, t.afterUse))
             live = { how: 'after repeated use', ch: whichChannel(b.afterUse, t.afterUse), t };
+          else if (t && t.afterUseLate && lateStable && !sameTrace(b.afterUseLate, t.afterUseLate))
+            live = { how: 'after repeated use, once it settles', ch: whichChannel(b.afterUseLate, t.afterUseLate), t };
         }
       }
     }
@@ -1002,6 +1016,7 @@ async function auditSurface(browser, surface, state, PORT) {
             if (!t) continue;
             if (restStable && !sameTrace(base.atRest, t.atRest)) { live = { how: 'after ' + schema.settings[j].key, ch: whichChannel(base.atRest, t.atRest), t }; break outer; }
             if (useStable && !sameTrace(base.afterUse, t.afterUse)) { live = { how: 'after ' + schema.settings[j].key, ch: whichChannel(base.afterUse, t.afterUse), t }; break outer; }
+            if (lateStable && !sameTrace(base.afterUseLate, t.afterUseLate)) { live = { how: 'after ' + schema.settings[j].key, ch: whichChannel(base.afterUseLate, t.afterUseLate), t }; break outer; }
           }
         }
       }
@@ -1019,11 +1034,12 @@ async function auditSurface(browser, surface, state, PORT) {
       }
     } else if (excused) {
       ok(`${tag}: ${name} excused — ${excused}`);
-    } else if (!restStable || !useStable) {
+    } else if (!restStable || !useStable || !lateStable) {
       /* ⚠ DEAD MEANS "IT MOVED NOTHING ANYWHERE I COULD LOOK", AND THAT
          SENTENCE IS ONLY HONEST IF EVERY PHASE WAS READABLE. With one
          phase churning, silence in the other is not evidence of death. */
-      unk(`${tag}: ${name} moved nothing in the ${restStable ? 'at-rest' : 'after-use'} phase, but the ${restStable ? 'after-use' : 'at-rest'} phase churns, so it cannot be called dead`);
+      const churned = [!restStable && 'at-rest', !useStable && 'after-use', !lateStable && 'settled'].filter(Boolean).join(' + ');
+      unk(`${tag}: ${name} moved nothing in the phases that could be read, but the ${churned} phase churns, so it cannot be called dead`);
       findings.push({ surface: surface.id, state: state.id, key: f.key, verdict: 'UNPROVEN-PARTIAL' });
     } else {
       bad(`${tag}: ${name} CHANGES NOTHING outside the drawer — not at rest, not after use, not paired with any other field, on a control whose null transition is provably stable in both phases`);

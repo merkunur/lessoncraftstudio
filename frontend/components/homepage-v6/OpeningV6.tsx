@@ -35,19 +35,20 @@ export default async function OpeningV6({ locale, travelerThumb, fanDecks }: Pro
             <h1 className="font-lcsDisplay font-bold leading-[1.06] tracking-tight text-[2.25rem] sm:text-[2.75rem] md:text-[3.1rem] text-[#14322D]">
               {t('h1')}
             </h1>
+            {/* v10.1 (2026-09-03) retired hero.sub / ctaTools / countsLine /
+                microLine (the last two said "free"); this legacy preview reads
+                the surviving keys so /preview/homepage-v6 keeps rendering. */}
             <p className="mt-4 font-lcsBody text-base md:text-lg leading-relaxed text-[#3d574f]">
-              {t('sub')}
+              {t('scope')}
             </p>
             <div className="mt-7 flex flex-col sm:flex-row sm:flex-wrap gap-4 items-start sm:items-center">
-              <Link href={`/${locale}/tools`} className="hv6-cta hv6-cta-primary hv6-cta-lg sm:whitespace-nowrap">
-                {t('ctaTools')}
-              </Link>
-              <Link href={`/${locale}/worksheets/`} className="hv6-cta hv6-cta-ghost hv6-cta-lg sm:whitespace-nowrap">
+              <Link href={`/${locale}/worksheets/`} className="hv6-cta hv6-cta-primary hv6-cta-lg sm:whitespace-nowrap">
                 {t('ctaWorksheets')}
               </Link>
+              <Link href={`/${locale}/activities`} className="hv6-cta hv6-cta-ghost hv6-cta-lg sm:whitespace-nowrap">
+                {t('ctaActivities')}
+              </Link>
             </div>
-            <p className="hv7-countline mt-6">{t('countsLine')}</p>
-            <p className="mt-3 font-lcsBody text-sm text-[#47564f]">{t('microLine')}</p>
           </div>
 
           {/* The morning air: the full mobile swings over a low fan of real

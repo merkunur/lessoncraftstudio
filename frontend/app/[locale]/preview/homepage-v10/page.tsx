@@ -25,6 +25,7 @@
 
 import { getTranslations } from 'next-intl/server';
 import GrandHall from '@/components/homepage-v10/GrandHall';
+import { heroStrings } from '@/components/homepage-v10/hero-strings';
 import {
   InstrumentHall,
   Playroom,
@@ -95,14 +96,9 @@ export default async function HomepageV10Preview({ params }: { params: { locale:
     decks = fallbackShowcase(22).thumbs;
   }
 
-  const hero = {
-    h1: t('hero.h1'),
-    sub: t('hero.sub'),
-    ctaTools: t('hero.ctaTools'),
-    ctaWorksheets: t('hero.ctaWorksheets'),
-    hallLabel: t('hero.fanLabel'),
-    countsLine: t('hero.countsLine'),
-  };
+  // One builder for both routes (components/homepage-v10/hero-strings.ts):
+  // this preview is the gate target and must never drift from the live page.
+  const hero = heroStrings(t);
 
   // THE LOAN LABEL. Every string was already native x11 from the v3 embed
   // section, so the rebuild cost no translation round.

@@ -17,8 +17,9 @@
     "validate:hreflang": "node ../scripts/validate-hreflang-symmetry.js",
     "validate:redirects": "node ../scripts/audit-canonical-and-redirects.js",
     "validate:sitemap": "node ../scripts/validate-sitemap-urls.js",
-    "validate:all": "npm run validate:api && npm run validate:i18n && npm run validate:hreflang && npm run validate:redirects && npm run validate:sitemap",
-    "setup:dev-admin": "node scripts/create-dev-admin.js"
+    "validate:all": "npm run validate:api && npm run validate:i18n && npm run validate:hreflang && npm run validate:redirects && npm run validate:sitemap && npm run validate:hero-copy",
+    "setup:dev-admin": "node scripts/create-dev-admin.js",
+    "validate:hero-copy": "node ../scripts/audit-hero-copy.js"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.10.0",

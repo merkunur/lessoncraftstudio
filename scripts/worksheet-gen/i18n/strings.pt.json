@@ -1829,7 +1829,7 @@
   },
   "G1-293": {
     "title": "Substantivo ou verbo?",
-    "instruction": "A palavra dá nome a algo ou mostra uma ação?"
+    "instruction": "Escreva a palavra em Substantivos ou Verbos."
   },
   "K-310": {
     "title": "Palavras pontilhadas em maiúsculas",
@@ -1869,7 +1869,7 @@
   },
   "G1-300": {
     "title": "Substantivo ou adjetivo?",
-    "instruction": "Sem figuras: dá nome a algo ou diz uma qualidade?"
+    "instruction": "Escreva a palavra em Substantivos ou Adjetivos."
   },
   "G1-301": {
     "title": "Escreva o nome: banco e quadradinhos",

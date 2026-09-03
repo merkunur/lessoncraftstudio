@@ -65,7 +65,7 @@ const SENTENCES = {
       {
         "id": "s2",
         "kind": "simple",
-        "text": "{name} feeds the {noun}.",
+        "text": "{name} found the {noun}.",
         "noun": "sg",
         "uses": [
           "unscramble",

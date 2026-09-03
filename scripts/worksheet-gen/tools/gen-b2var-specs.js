@@ -344,6 +344,22 @@ const ROWS = [
   ['g1', 'G1-295', 'number-line-between-20-and-40', 'G1-248-number-line-position.js', 2,
     { min: 20, max: 40, lines: 4, tick: 1, label: 5, pointers: 3, gap: 3 },
     'Where on the Number Line? 20 to 40', 'The line starts at twenty. Count on from the nearest printed number.'],
+
+  // doubles-halves `ops`: one page, one move, repeated — the fluency sheet.
+  // The base always builds cards/2 of each, so every shipped face mixes; doubling
+  // and halving are taught on separate days.
+  // ⚠ Ranges are MEASURED, not symmetric. Doubles run 2-7 (six distinct values for
+  // six cards — rng.sample on a five-value range silently returns five). Halves cap
+  // at 6, not 7: at icon 40 a seven-icon non-wrapping row measures 316px inside a
+  // ~320px card. Both stay inside verify's answer-in-1..20 band.
+  ['g1', 'G1-287', 'doubles-only', 'G1-247-doubles-halves.js', 2, { ops: ['double'], cards: 6, dMin: 2, dMax: 7 },
+    'Doubles to 14', 'Every card doubles a group. Say it, then write the answer.'],
+  ['g1', 'G1-288', 'halves-only', 'G1-247-doubles-halves.js', 2, { ops: ['half'], cards: 6, hMin: 1, hMax: 6 },
+    'Halves to 12', 'Every card cuts a group in half. Write the two equal parts.'],
+  ['g1', 'G1-296', 'doubles-only-to-20', 'G1-247-doubles-halves.js', 2, { ops: ['double'], cards: 6, dMin: 5, dMax: 10, icon: 28, perRow: 5 },
+    'Doubles to 20', 'Bigger groups to double, all the way to twenty.'],
+  ['g1', 'G1-297', 'halves-only-to-20', 'G1-247-doubles-halves.js', 2, { ops: ['half'], cards: 6, hMin: 5, hMax: 10, icon: 28, perRow: 5 },
+    'Halves to 20', 'Bigger groups to halve, starting from twenty.'],
 ];
 
 function emit(row) {

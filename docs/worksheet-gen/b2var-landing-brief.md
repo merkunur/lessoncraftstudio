@@ -39,6 +39,31 @@ Exactly the ids you are assigned, nothing else. Nine string fields each, no extr
 - `frontend/content/seo-landing/<locale>.json` — the live corpus. Your family's **base** landing
   is already in there. Read it: it sets the genre head, the register, and the house voice.
 
+## Faces that CHANGED on 2026-09-03 — check these against the current render
+
+Several faces were corrected after the worksheet copy was written. The render and
+`out/b2var-faces.json` are current; anything you remember or infer may not be.
+
+- **G1-292** ships on `fruits` in every locale except **nl**, which ships `toys`. Neither the
+  worksheet title nor its instruction names a theme, so do not invent one.
+- **G1-293 has NO pictures.** It used to put a small picture on every noun chip, which gave the
+  whole answer away (pictures attach to noun chips only, so picture = noun = not-verb). Do not
+  write that it has pictures, and do not use "no pictures" as what distinguishes **G1-300** from
+  it — neither has them now. Their only real difference is the word-class pair: G1-293 sorts
+  nouns against VERBS, G1-300 nouns against ADJECTIVES. That is the distinguishing element.
+- **G1-298 and G1-299 are THEMELESS** — pure numerals and an empty working panel, zero pictures.
+  Never name a theme for them.
+- **G2-311** guarantees one question per PAGE, not per card. Do not promise the teacher that
+  every item is a question; some cards are two statements.
+
+⚠ **Read the `.png` named in the face table, never a `.html` or `.pdf` sitting beside it.** Only
+the PNG is refreshed. On 2026-09-03 an eight-hour-old HTML sat next to a fresh PNG rendering a
+different icon size, and three panels reported a clipping defect that no longer existed.
+
+⚠ **Scratch files must be locale-scoped** (`scratchpad/<loc>-panel/…`). Panels run concurrently
+and share the directory; generic names like `build.js` have already let one panel overwrite
+another's work and push the wrong language into a finished draft.
+
 ## Hard rules the composer enforces (it refuses to write on any failure)
 
 1. `p1 + p2 + p3` ≥ **200 words**. Aim for 210-260 — panels reliably undershoot this floor.

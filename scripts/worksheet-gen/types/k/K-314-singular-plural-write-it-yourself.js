@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-314',
   slug: 'singular-plural-write-it-yourself',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "One and Many: Write It Yourself", instruction: "No dashed letters this time. Write the word for many on the empty line." } },
+  i18n: { en: { title: "One and Many: Write It Yourself", instruction: "No dashed letters. Write the word that means more than one." } },
 };

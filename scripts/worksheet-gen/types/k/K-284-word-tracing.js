@@ -44,7 +44,20 @@ module.exports = {
     // CAPITALES d'imprimerie first. Applied after the length filter so the pool is
     // chosen on the real word, and with the LOCALE's caser so Turkish-style dotted
     // i rules would be honoured if such a locale is ever added.
-    if (d.case === 'upper') pool = pool.map((e) => ({ ...e, word: e.word.toLocaleUpperCase(loc) }));
+    if (d.case === 'upper') {
+      // ⚠ RE-FILTER AFTER THE CASE MAP, not before. `traceable()` ran on the
+      // LOWERCASE word, and letter-strokes.js carries 47 uppercase glyphs but is
+      // missing A-tilde, I-grave, I-circumflex, I-diaeresis, O-grave,
+      // U-circumflex, Y-acute and Y-diaeresis. Measured: 5 of the 44
+      // theme x locale pools contain a word whose uppercase form has no stroke
+      // data — pt/fruits (MAÇÃ, LIMÃO, MAMÃO, ROMÃ), pt/toys (AVIÃO, BALÃO,
+      // CAMINHÃO), pt/vehicles, fr/fruits (MÛRE), nl/animals (PINGUÏN).
+      // It did not crash: the generator's THEME-RETRY caught the throw and
+      // silently shipped pt and fr on ANIMALS instead of the pinned fruits —
+      // which breaks the theme pin the landing's deck slug is derived from.
+      // A silent theme substitution is worse than a build failure.
+      pool = pool.map((e) => ({ ...e, word: e.word.toLocaleUpperCase(loc) })).filter((e) => traceable(e.word));
+    }
     pool = distinctByWord(pool, (e) => e.word);
     if (pool.length < d.rows) {
       // d1 fallback: the shortest words when the theme has few ≤5-letter nouns

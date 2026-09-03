@@ -618,6 +618,32 @@ function pageBoot(state, poison) {
         };
       }),
       defaults: t.defaults || {},
+      /* ⚠ THE LIVE VALUE, NOT THE SOURCE DEFAULT. part-whole-frame declares
+         `scheme: 'coral-ink'` and normalises it to the actual gradient in
+         init (:502), so comparing the literal against the runtime options
+         reported a correct tool as unable to show its own state. The
+         drawer marks a chip with `settings[key] === val`, and `settings`
+         is what the shell holds — so that is what has to be compared. */
+      live: (t.api && t.api.settings) ? JSON.parse(JSON.stringify(t.api.settings)) : null,
+      /* ⚠ LET THE BROWSER JUDGE A COLOUR. A regex called
+         `linear-gradient(90deg,#F2784B 0 50%,#1F4E79 50% 100%)` invalid;
+         it is a perfectly good background and the swatch renders it. The
+         shell does `sw.style.background = val`, so the only honest test
+         is to do exactly that and see whether it took. */
+      colourOk: (function () {
+        const out = {};
+        (t.settings || []).forEach(function (f) {
+          if (f.type !== 'color') return;
+          out[f.key] = (f.options || []).filter(function (o) {
+            const v = (o && typeof o === 'object') ? o.value : o;
+            const d = document.createElement('div');
+            d.style.background = '';
+            try { d.style.background = String(v); } catch (_) { return true; }
+            return d.style.background === '';
+          });
+        });
+        return out;
+      }()),
       strings: t.strings || {},
       hasRender: typeof t.render === 'function',
       hasOnSettings: typeof t.onSettings === 'function',
@@ -901,6 +927,24 @@ async function auditSurface(browser, surface, state, PORT) {
       if (t && t.settings && t.settings[0] && t.strings && t.strings[t.settings[0].labelKey]) delete t.strings[t.settings[0].labelKey].fi;
     }, surface.global);
   }
+  /* --poison=held: put a value in the store that no chip carries. The
+     drawer would then open with nothing selected. MUST FIRE. */
+  if (POISON === 'held') {
+    await seed.evaluate((g) => {
+      const t = window[g];
+      const f = (t.settings || []).filter((x) => x.options && x.options.length)[0];
+      if (f && t.api && t.api.settings) t.api.settings[f.key] = '__not-an-option__';
+    }, surface.global);
+  }
+  /* --poison=colour: an option the browser will refuse as a background.
+     MUST FIRE — and a gradient must NOT, which the clean run proves. */
+  if (POISON === 'colour') {
+    await seed.evaluate((g) => {
+      const t = window[g];
+      const f = (t.settings || []).filter((x) => x.type === 'color')[0];
+      if (f) f.options = (f.options || []).concat(['not a colour!!']);
+    }, surface.global);
+  }
   const schema = await seed.evaluate((g) => window.__schema(g), surface.global);
   if (!schema) { vac(`${tag}: no settings schema on window.${surface.global} — wrong mount global, or the tool declares none`); await seed.close(); return; }
 
@@ -909,16 +953,16 @@ async function auditSurface(browser, surface, state, PORT) {
      tool may legitimately assemble its rows in init() (money-mat,
      part-whole-frame). This is the array the shell was actually handed,
      and the merged strings object is the real one. */
-  const CSS_COLOR = /^(#[0-9a-f]{3,8}|rgb|hsl|[a-z]+$)/i;
   for (const f of schema.settings) {
     const at = `${tag}: field "${f.key}"`;
     if ((f.type === 'choice' || f.type === 'color') && !f.options.length)
       bad(`${at} reached the drawer as a ${f.type} with NO options — lcs-shell.js:599 throws on it, which leaves the drawer detached and bricks every other setting on the tool`);
-    if (f.options.length && (f.key in schema.defaults) && f.options.indexOf(schema.defaults[f.key]) < 0)
-      bad(`${at} defaults to ${JSON.stringify(schema.defaults[f.key])}, which is not one of its own options ${JSON.stringify(f.options)} — the drawer cannot show the true state, so it shows a false one`);
+    const held = schema.live && (f.key in schema.live) ? schema.live[f.key] : schema.defaults[f.key];
+    if (f.options.length && held !== undefined && f.options.indexOf(held) < 0)
+      bad(`${at} holds ${JSON.stringify(held)}, which is not one of its own options ${JSON.stringify(f.options)} — the shell marks a chip with settings[key] === val, so NO chip reads as selected`);
     if (f.type === 'color') {
-      const badCol = f.options.filter(o => !CSS_COLOR.test(String(o)));
-      if (badCol.length) bad(`${at} has option(s) that are not CSS colours ${JSON.stringify(badCol)} — lcs-shell.js:604 sets them as a background, so the swatch renders blank`);
+      const badCol = (schema.colourOk && schema.colourOk[f.key]) || [];
+      if (badCol.length) bad(`${at} has option(s) the browser refuses as a background ${JSON.stringify(badCol)} — lcs-shell.js:604 assigns them to style.background, so the swatch renders blank`);
     }
     for (const lk of [f.labelKey].concat(f.optionLabelKeys.filter(Boolean))) {
       const entry = schema.strings[lk];

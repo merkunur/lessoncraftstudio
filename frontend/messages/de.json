@@ -3146,11 +3146,9 @@
       },
       "activity": {
         "q1": "Was vermittelt die Aktivität {title}?",
-        "a1": "{title} ist eine kostenlose interaktive Aktivität für {grade}, mit Schwerpunkt auf {strand}. Kinder spielen sie direkt im Browser — kein Drucken, kein Login, keine Einrichtung nötig.",
-        "q2": "Ist {title} kostenlos nutzbar?",
-        "a2": "Ja. {title} ist vollständig kostenlos, ohne Anmeldung und ohne Bezahlschranke, auf jedem Tablet, Laptop oder Klassen-Whiteboard.",
-        "q3": "Für welche Altersgruppen ist diese Aktivität gedacht?",
-        "a3": "Sie ist für {grade} ({strand}) konzipiert und eignet sich gut für die ganze Klasse, Kleingruppen oder selbstständiges Üben."
+        "a1": "{title} ist eine interaktive Aktivität für {grade}, mit Schwerpunkt auf {strand}. Kinder spielen sie direkt im Browser — kein Drucken, kein Login, keine Einrichtung nötig.",
+        "q2": "Für welche Altersgruppen ist diese Aktivität gedacht?",
+        "a2": "Sie ist für {grade} ({strand}) konzipiert und eignet sich gut für die ganze Klasse, Kleingruppen oder selbstständiges Üben."
       },
       "standards": {
         "q1": "Was wird unter {code} abgedeckt?",

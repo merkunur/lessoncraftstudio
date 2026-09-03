@@ -3016,11 +3016,9 @@
       },
       "activity": {
         "q1": "¿Qué enseña la actividad {title}?",
-        "a1": "{title} es una actividad interactiva gratis para {grade}, centrada en {strand}. Los niños la juegan directamente en el navegador, sin imprimir, sin iniciar sesión y sin configurar nada.",
-        "q2": "¿Es gratis usar {title}?",
-        "a2": "Sí. {title} es totalmente gratis, sin registro y sin muro de pago, en cualquier tableta, portátil o pizarra digital del aula.",
-        "q3": "¿Para qué edades es esta actividad?",
-        "a3": "Está diseñada para {grade} ({strand}) y funciona bien para práctica con todo el grupo, en grupos pequeños o de forma independiente."
+        "a1": "{title} es una actividad interactiva para {grade}, centrada en {strand}. Los niños la juegan directamente en el navegador, sin imprimir, sin iniciar sesión y sin configurar nada.",
+        "q2": "¿Para qué edades es esta actividad?",
+        "a2": "Está diseñada para {grade} ({strand}) y funciona bien para práctica con todo el grupo, en grupos pequeños o de forma independiente."
       },
       "standards": {
         "q1": "¿Qué se cubre en {code}?",

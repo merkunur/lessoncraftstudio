@@ -3305,11 +3305,9 @@
       },
       "activity": {
         "q1": "What does the {title} activity teach?",
-        "a1": "{title} is a free interactive activity for {grade}, focused on {strand}. Children play it right in the browser — no printing, login, or setup required.",
-        "q2": "Is {title} free to use?",
-        "a2": "Yes. {title} is completely free, with no signup and no paywall, on any tablet, laptop, or classroom whiteboard.",
-        "q3": "Which ages is this activity for?",
-        "a3": "It is designed for {grade} ({strand}) and works well for whole-class, small-group, or independent practice."
+        "a1": "{title} is an interactive activity for {grade}, focused on {strand}. Children play it right in the browser — no printing, login, or setup required.",
+        "q2": "Which ages is this activity for?",
+        "a2": "It is designed for {grade} ({strand}) and works well for whole-class, small-group, or independent practice."
       },
       "standards": {
         "q1": "What is covered under {code}?",

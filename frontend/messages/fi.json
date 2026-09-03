@@ -1813,11 +1813,9 @@
       },
       "activity": {
         "q1": "Mitä {title}-aktiviteetti opettaa?",
-        "a1": "{title} on ilmainen interaktiivinen aktiviteetti tasolle {grade}, joka keskittyy aiheeseen {strand}. Lapset pelaavat sitä suoraan selaimessa — ei tulostamista, kirjautumista eikä asennusta.",
-        "q2": "Onko {title} ilmainen käyttää?",
-        "a2": "Kyllä. {title} on täysin ilmainen, ilman rekisteröitymistä ja maksumuuria, millä tahansa tabletilla, kannettavalla tai luokan älytaululla.",
-        "q3": "Mille ikäryhmille tämä aktiviteetti on?",
-        "a3": "Se on suunniteltu tasolle {grade} ({strand}) ja toimii hyvin koko luokan, pienryhmän tai itsenäiseen harjoitteluun."
+        "a1": "{title} on interaktiivinen aktiviteetti tasolle {grade}, joka keskittyy aiheeseen {strand}. Lapset pelaavat sitä suoraan selaimessa — ei tulostamista, kirjautumista eikä asennusta.",
+        "q2": "Mille ikäryhmille tämä aktiviteetti on?",
+        "a2": "Se on suunniteltu tasolle {grade} ({strand}) ja toimii hyvin koko luokan, pienryhmän tai itsenäiseen harjoitteluun."
       },
       "standards": {
         "q1": "Mitä {code} kattaa?",

@@ -1901,7 +1901,7 @@
   },
   "G1-302": {
     "title": "Sæt ordene i rækkefølge: find starten",
-    "instruction": "Ét ord har tegnet til sidst. Find det ord, der skal først."
+    "instruction": "Tegnet viser, hvor sætningen slutter. Find det første ord."
   },
   "G1-303": {
     "title": "Skriv ordet: bogstavfelter og første bogstav",

@@ -86,6 +86,28 @@ NAME, not that it starts the sentence.
 This is the general shape worth carrying: **a code change can falsify live prose in a file the
 change never touched**, and nothing in the pipeline connects the two.
 
+## ⚠ REQUIRED CHECK 2: does your capitals-punctuation base promise a question mark?
+
+Measured across all 11 locales: **10 live landings promise a question mark on a page that cannot
+print one.** `G2-274-fix-the-sentence.js` difficulty 2 is `ends: ['.']`, and every wave ships
+`difficulties: [2]` — only the never-shipped d3 adds `?` and `!`. The Danish base goes as far as
+telling the teacher to check "whether the child chooses a question mark when the sentence asks",
+which can never happen. Several of these pages even contradict themselves, since their own p3
+correctly says the two marks only mix at the hardest level.
+
+**Read your locale's `capitals-punctuation` base landing.** If it promises a question mark on the
+shipped page, repair that sentence — and only that sentence.
+
+⚠ **A mention is not automatically a defect, and a grep cannot tell the difference.** The English
+page says "the HARDER version ... mixes in questions", which is correctly scoped to the level that
+does not ship and is TRUE. The Danish page says the child chooses between the two marks with no
+level scoping at all, and tells the teacher to watch for it — that one is false. Only a native
+read of the actual sentence settles it, which is why this is your job and not a script's. My own
+first count flagged all 10 as false and was wrong. Note this is NOT true of every face
+in the family: `G2-311` genuinely sets `ends: ['.','?']`, so a question mark is real there. Check
+the face's own config before you decide, and remember `needQ: 1` guarantees one question per PAGE,
+not per card.
+
 ## Hard rules the composer enforces (it refuses to write on any failure)
 
 1. `p1 + p2 + p3` ≥ **200 words**. Aim for 210-260 — panels reliably undershoot this floor.

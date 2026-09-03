@@ -67,7 +67,8 @@ const THEME = {
   'G1-286': 'toys', 'G1-287': 'fruits', 'G1-288': 'animals',
   'G1-296': 'vehicles', 'G1-297': 'toys',             // G1-247 doubles-halves
   'G1-300': 'animals',                                // G2-275 word-classes (2-bin noun/adj)
-  'G1-301': 'vehicles',                               // G1-244 write-the-word
+  'G1-301': 'vehicles', 'G1-303': 'toys', 'G1-304': 'animals',  // G1-244 write-the-word
+  'G1-302': 'fruits',                                 // G1-249 sentence-building
   'K-315': 'toys',                                    // K-284 word-tracing
   'G2-311': 'fruits',                                 // G2-274 capitals
   'G1-291': 'animals',                                // G1-244 write-the-word

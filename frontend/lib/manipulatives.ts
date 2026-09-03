@@ -2676,8 +2676,8 @@ export const LANDING_STRINGS: Record<string, {
   metaDescription: string;
 }> = {
   en: {
-    pageTitle: "Free Interactive Math Manipulatives",
-    pageIntro: "Free-play interactive tools your students explore directly. No tasks, no checks — just the manipulative.",
+    pageTitle: "Interactive Math Manipulatives",
+    pageIntro: "Interactive tools your students explore directly. No tasks, no checks — just the manipulative.",
     tryItLink: "Try it",
     metaTitle: "Free Interactive K-3 Math Manipulatives — Ten Frame, Number Line, Ruler",
     metaDescription: "Free interactive K-3 math manipulatives: ten frame, number line, ruler. Open in any browser; no signup, works in 11 languages.",

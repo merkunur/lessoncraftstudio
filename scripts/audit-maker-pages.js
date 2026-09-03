@@ -36,7 +36,7 @@ const EN_LEAK_MARKERS = [
   'How to use it in class',
   'Worksheet ideas',
   'More worksheet makers',
-  'Open the free',
+  'Open the ', // the EN launchCta template; localised CTAs read 'Abrir/Öppna/Avaa {name}' (verified: 0 hits across the 10 non-EN message sets)
 ];
 
 function parseArgs(argv) {

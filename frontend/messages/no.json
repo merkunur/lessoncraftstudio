@@ -1828,11 +1828,9 @@
       },
       "activity": {
         "q1": "Hva lærer {title}-aktiviteten?",
-        "a1": "{title} er en gratis interaktiv aktivitet for {grade}, med fokus på {strand}. Barna spiller den rett i nettleseren — ingen utskrift, innlogging eller oppsett kreves.",
-        "q2": "Er {title} gratis å bruke?",
-        "a2": "Ja. {title} er helt gratis, uten registrering og uten betalingsmur, på et hvilket som helst nettbrett, en laptop eller en klasseromstavle.",
-        "q3": "Hvilke aldre er denne aktiviteten for?",
-        "a3": "Den er laget for {grade} ({strand}) og fungerer godt til arbeid i full klasse, i smågrupper eller individuelt."
+        "a1": "{title} er en interaktiv aktivitet for {grade}, med fokus på {strand}. Barna spiller den rett i nettleseren — ingen utskrift, innlogging eller oppsett kreves.",
+        "q2": "Hvilke aldre er denne aktiviteten for?",
+        "a2": "Den er laget for {grade} ({strand}) og fungerer godt til arbeid i full klasse, i smågrupper eller individuelt."
       },
       "standards": {
         "q1": "Hva dekkes under {code}?",

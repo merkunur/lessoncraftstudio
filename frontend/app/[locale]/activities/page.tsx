@@ -114,8 +114,8 @@ interface LandingStrings {
 
 const LANDING_STRINGS: Record<string, LandingStrings> = {
   en: {
-    pageTitle: "Free K-3 Learning Activities",
-    pageIntro: "Common-Core-pinned activities your students play in the browser — counting, addition, phonics and more. Pick a subject, grade or skill to narrow down. Free, no signup, in 11 languages.",
+    pageTitle: "K-3 Learning Activities",
+    pageIntro: "Common-Core-pinned activities your students play in the browser — counting, addition, phonics and more. Pick a subject, grade or skill to narrow down.",
     tryItLink: "Try it",
     metaTitle: "Free K-3 Learning Activities — Common Core Aligned",
     metaDescription: "Free browser-playable K-3 learning activities aligned to Common Core standards — counting, addition, phonics and more. No signup, works in 11 languages.",
@@ -135,8 +135,8 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     directoryIntro: "Every activity, grouped by grade and skill — jump straight to any one.",
   },
   de: {
-    pageTitle: "Kostenlose Lernaufgaben für die Klassen K-3",
-    pageIntro: "Aufgaben passend zum Lehrplan, die deine Schüler im Browser bearbeiten — Zählen, Addition, Phonik und mehr. Nach Fach, Klasse oder Lernbereich filtern. Kostenlos, ohne Anmeldung, in 11 Sprachen.",
+    pageTitle: "Lernaufgaben für die Klassen K-3",
+    pageIntro: "Aufgaben passend zum Lehrplan, die deine Schüler im Browser bearbeiten — Zählen, Addition, Phonik und mehr. Nach Fach, Klasse oder Lernbereich filtern.",
     tryItLink: "Ausprobieren",
     metaTitle: "Kostenlose Lernaufgaben (K-3) — am Lehrplan ausgerichtet",
     metaDescription: "Kostenlose, im Browser spielbare Lernaufgaben für die Klassen K-3, ausgerichtet an den Lehrplänen — Zählen, Addition, Phonik und mehr. Ohne Anmeldung, in 11 Sprachen.",
@@ -156,8 +156,8 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     directoryIntro: "Alle Aufgaben nach Klasse und Lernbereich geordnet — direkt zu jeder springen.",
   },
   es: {
-    pageTitle: "Actividades de aprendizaje gratuitas para Infantil y Primaria (K-3)",
-    pageIntro: "Actividades alineadas con el currículo que tus estudiantes juegan en el navegador: contar, sumar, fonética y más. Filtra por materia, grado o área. Gratis, sin registro, en 11 idiomas.",
+    pageTitle: "Actividades de aprendizaje para Infantil y Primaria (K-3)",
+    pageIntro: "Actividades alineadas con el currículo que tus estudiantes juegan en el navegador: contar, sumar, fonética y más. Filtra por materia, grado o área.",
     tryItLink: "Probar",
     metaTitle: "Actividades de aprendizaje gratuitas (K-3) — alineadas al currículo",
     metaDescription: "Actividades de aprendizaje K-3 gratuitas y jugables en el navegador, alineadas con el currículo: contar, sumar, fonética y más. Sin registro, en 11 idiomas.",
@@ -177,8 +177,8 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     directoryIntro: "Todas las actividades por grado y área — ve directamente a cualquiera.",
   },
   fr: {
-    pageTitle: "Activités d'apprentissage gratuites (maternelle au CE1)",
-    pageIntro: "Des activités conformes aux programmes que tes élèves font dans le navigateur : compter, additionner, phonétique et plus. Filtre par matière, niveau ou domaine. Gratuit, sans inscription, en 11 langues.",
+    pageTitle: "Activités d'apprentissage (maternelle au CE1)",
+    pageIntro: "Des activités conformes aux programmes que tes élèves font dans le navigateur : compter, additionner, phonétique et plus. Filtre par matière, niveau ou domaine.",
     tryItLink: "Essayer",
     metaTitle: "Activités d'apprentissage gratuites (K-3) — conformes aux programmes",
     metaDescription: "Activités d'apprentissage K-3 gratuites et jouables dans le navigateur, conformes aux programmes : compter, additionner, phonétique et plus. Sans inscription, en 11 langues.",
@@ -198,8 +198,8 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     directoryIntro: "Toutes les activités par niveau et domaine — accède directement à chacune.",
   },
   it: {
-    pageTitle: "Attività di apprendimento gratuite (scuola dell'infanzia e primaria)",
-    pageIntro: "Attività allineate alle Indicazioni nazionali che i tuoi studenti svolgono nel browser: contare, addizione, fonetica e altro. Filtra per disciplina, classe o ambito. Gratis, senza registrazione, in 11 lingue.",
+    pageTitle: "Attività di apprendimento (scuola dell'infanzia e primaria)",
+    pageIntro: "Attività allineate alle Indicazioni nazionali che i tuoi studenti svolgono nel browser: contare, addizione, fonetica e altro. Filtra per disciplina, classe o ambito.",
     tryItLink: "Prova",
     metaTitle: "Attività di apprendimento gratuite (K-3) — allineate alle Indicazioni nazionali",
     metaDescription: "Attività di apprendimento K-3 gratuite e giocabili nel browser, allineate alle Indicazioni nazionali: contare, addizione, fonetica e altro. Senza registrazione, in 11 lingue.",
@@ -219,8 +219,8 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     directoryIntro: "Tutte le attività per classe e ambito — vai direttamente a ciascuna.",
   },
   pt: {
-    pageTitle: "Atividades de aprendizagem gratuitas (educação infantil e anos iniciais)",
-    pageIntro: "Atividades alinhadas à BNCC que seus alunos jogam no navegador: contar, adição, fonética e mais. Filtre por disciplina, série ou habilidade. Grátis, sem cadastro, em 11 idiomas.",
+    pageTitle: "Atividades de aprendizagem (educação infantil e anos iniciais)",
+    pageIntro: "Atividades alinhadas à BNCC que seus alunos jogam no navegador: contar, adição, fonética e mais. Filtre por disciplina, série ou habilidade.",
     tryItLink: "Experimentar",
     metaTitle: "Atividades de aprendizagem gratuitas (K-3) — alinhadas à BNCC",
     metaDescription: "Atividades de aprendizagem K-3 gratuitas e jogáveis no navegador, alinhadas à BNCC: contar, adição, fonética e mais. Sem cadastro, em 11 idiomas.",
@@ -240,8 +240,8 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     directoryIntro: "Todas as atividades por série e habilidade — vá direto para qualquer uma.",
   },
   nl: {
-    pageTitle: "Gratis leeractiviteiten voor kleuters t/m groep 5",
-    pageIntro: "Activiteiten afgestemd op de kerndoelen die je leerlingen in de browser doen: tellen, optellen, klanken en meer. Filter op vak, groep of leergebied. Gratis, zonder aanmelden, in 11 talen.",
+    pageTitle: "Leeractiviteiten voor kleuters t/m groep 5",
+    pageIntro: "Activiteiten afgestemd op de kerndoelen die je leerlingen in de browser doen: tellen, optellen, klanken en meer. Filter op vak, groep of leergebied.",
     tryItLink: "Probeer",
     metaTitle: "Gratis leeractiviteiten (K-3) — afgestemd op de kerndoelen",
     metaDescription: "Gratis leeractiviteiten voor K-3 die in de browser werken, afgestemd op de kerndoelen: tellen, optellen, klanken en meer. Zonder aanmelden, in 11 talen.",
@@ -261,8 +261,8 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     directoryIntro: "Alle activiteiten per groep en leergebied — ga direct naar elke activiteit.",
   },
   sv: {
-    pageTitle: "Gratis lärandeaktiviteter för förskoleklass till åk 2",
-    pageIntro: "Aktiviteter anpassade till Lgr22 som dina elever gör i webbläsaren: räkna, addition, fonem och mer. Filtrera på ämne, årskurs eller område. Gratis, utan registrering, på 11 språk.",
+    pageTitle: "Lärandeaktiviteter för förskoleklass till åk 2",
+    pageIntro: "Aktiviteter anpassade till Lgr22 som dina elever gör i webbläsaren: räkna, addition, fonem och mer. Filtrera på ämne, årskurs eller område.",
     tryItLink: "Prova",
     metaTitle: "Gratis lärandeaktiviteter (K-3) — anpassade till Lgr22",
     metaDescription: "Gratis lärandeaktiviteter för K-3 som spelas i webbläsaren, anpassade till Lgr22: räkna, addition, fonem och mer. Utan registrering, på 11 språk.",
@@ -282,8 +282,8 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     directoryIntro: "Alla aktiviteter efter årskurs och område — gå direkt till vilken som helst.",
   },
   da: {
-    pageTitle: "Gratis læringsaktiviteter for børnehaveklasse til 2. klasse",
-    pageIntro: "Aktiviteter tilpasset Fælles Mål, som dine elever laver i browseren: tælle, addition, lyde og mere. Filtrér på fag, klasse eller område. Gratis, uden tilmelding, på 11 sprog.",
+    pageTitle: "Læringsaktiviteter for børnehaveklasse til 2. klasse",
+    pageIntro: "Aktiviteter tilpasset Fælles Mål, som dine elever laver i browseren: tælle, addition, lyde og mere. Filtrér på fag, klasse eller område.",
     tryItLink: "Prøv",
     metaTitle: "Gratis læringsaktiviteter (K-3) — tilpasset Fælles Mål",
     metaDescription: "Gratis læringsaktiviteter for K-3, der spilles i browseren, tilpasset Fælles Mål: tælle, addition, lyde og mere. Uden tilmelding, på 11 sprog.",
@@ -303,8 +303,8 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     directoryIntro: "Alle aktiviteter efter klasse og område — gå direkte til hver enkelt.",
   },
   no: {
-    pageTitle: "Gratis læringsaktiviteter for barnehage til 2. trinn",
-    pageIntro: "Aktiviteter tilpasset LK20 som elevene gjør i nettleseren: telle, addisjon, lyder og mer. Filtrer på fag, trinn eller område. Gratis, uten registrering, på 11 språk.",
+    pageTitle: "Læringsaktiviteter for barnehage til 2. trinn",
+    pageIntro: "Aktiviteter tilpasset LK20 som elevene gjør i nettleseren: telle, addisjon, lyder og mer. Filtrer på fag, trinn eller område.",
     tryItLink: "Prøv",
     metaTitle: "Gratis læringsaktiviteter (K-3) — tilpasset LK20",
     metaDescription: "Gratis læringsaktiviteter for K-3 som spilles i nettleseren, tilpasset LK20: telle, addisjon, lyder og mer. Uten registrering, på 11 språk.",
@@ -324,8 +324,8 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     directoryIntro: "Alle aktiviteter etter trinn og område — gå rett til hver enkelt.",
   },
   fi: {
-    pageTitle: "Ilmaisia oppimistehtäviä esiopetuksesta 2. luokalle",
-    pageIntro: "OPS 2014:ään sidottuja tehtäviä, joita oppilaasi tekevät selaimessa: laskeminen, yhteenlasku, äänteet ja muuta. Suodata oppiaineen, luokan tai taitoalueen mukaan. Ilmaisia, ei rekisteröitymistä, 11 kielellä.",
+    pageTitle: "Oppimistehtäviä esiopetuksesta 2. luokalle",
+    pageIntro: "OPS 2014:ään sidottuja tehtäviä, joita oppilaasi tekevät selaimessa: laskeminen, yhteenlasku, äänteet ja muuta. Suodata oppiaineen, luokan tai taitoalueen mukaan.",
     tryItLink: "Kokeile",
     metaTitle: "Ilmaisia oppimistehtäviä (K-3) — sidottu OPS 2014:ään",
     metaDescription: "Ilmaisia, selaimessa pelattavia K-3-oppimistehtäviä, jotka on sidottu OPS 2014:ään: laskeminen, yhteenlasku, äänteet ja muuta. Ei rekisteröitymistä, 11 kielellä.",

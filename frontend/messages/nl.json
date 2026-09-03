@@ -1561,11 +1561,9 @@
       },
       "activity": {
         "q1": "Wat leert de activiteit {title}?",
-        "a1": "{title} is een gratis interactieve activiteit voor {grade}, gericht op {strand}. Kinderen spelen het direct in de browser — geen afdrukken, inloggen of installeren nodig.",
-        "q2": "Is {title} gratis te gebruiken?",
-        "a2": "Ja. {title} is volledig gratis, zonder aanmelding en zonder betaalmuur, op elke tablet, laptop of digibord in de klas.",
-        "q3": "Voor welke leeftijden is deze activiteit?",
-        "a3": "Hij is bedoeld voor {grade} ({strand}) en werkt goed voor klassikaal, in kleine groepjes of zelfstandig oefenen."
+        "a1": "{title} is een interactieve activiteit voor {grade}, gericht op {strand}. Kinderen spelen het direct in de browser — geen afdrukken, inloggen of installeren nodig.",
+        "q2": "Voor welke leeftijden is deze activiteit?",
+        "a2": "Hij is bedoeld voor {grade} ({strand}) en werkt goed voor klassikaal, in kleine groepjes of zelfstandig oefenen."
       },
       "standards": {
         "q1": "Wat valt er onder {code}?",

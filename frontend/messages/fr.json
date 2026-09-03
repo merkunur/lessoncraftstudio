@@ -1844,11 +1844,9 @@
       },
       "activity": {
         "q1": "Qu'enseigne l'activité {title} ?",
-        "a1": "{title} est une activité interactive gratuite pour {grade}, centrée sur {strand}. Les enfants y jouent directement dans le navigateur — sans impression, ni connexion, ni installation.",
-        "q2": "L'activité {title} est-elle gratuite ?",
-        "a2": "Oui. {title} est entièrement gratuite, sans inscription ni péage, sur n'importe quelle tablette, ordinateur portable ou tableau interactif de classe.",
-        "q3": "Pour quels âges cette activité est-elle prévue ?",
-        "a3": "Elle est conçue pour {grade} ({strand}) et convient bien à un entraînement en classe entière, en petits groupes ou en autonomie."
+        "a1": "{title} est une activité interactive pour {grade}, centrée sur {strand}. Les enfants y jouent directement dans le navigateur — sans impression, ni connexion, ni installation.",
+        "q2": "Pour quels âges cette activité est-elle prévue ?",
+        "a2": "Elle est conçue pour {grade} ({strand}) et convient bien à un entraînement en classe entière, en petits groupes ou en autonomie."
       },
       "standards": {
         "q1": "Que couvre {code} ?",

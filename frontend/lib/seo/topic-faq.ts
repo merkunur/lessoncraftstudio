@@ -16,6 +16,21 @@ export interface FaqItem {
 export type FaqVariant = 'single' | 'intersection' | 'activity' | 'standards';
 
 /**
+ * How many Q&A the ICU fallback renders per variant. NOT a constant 3: the
+ * activity FAQ carried an "Is {title} free to use? / completely free, no signup,
+ * no paywall" pair that the product contradicts (free tier is a limited trial,
+ * see lib/quota.ts), so it was deleted and q3/a3 renumbered to q2/a2. Reading a
+ * key past a variant's count makes next-intl render the literal key path on the
+ * page, so this map and the messages files must move together.
+ */
+const FALLBACK_ITEM_COUNT: Record<FaqVariant, number> = {
+  single: 3,
+  intersection: 3,
+  activity: 2,
+  standards: 3,
+};
+
+/**
  * Read authored FAQ overrides for a key from `topicFaq.overrides.<key>`.
  * Overrides are arrays of `{ q, a }` (or `{ question, answer }`) objects.
  * Returns null when absent/empty (long-tail falls through to the fallback) —
@@ -52,7 +67,7 @@ async function fallbackItems(
   vars: Record<string, string | number>,
 ): Promise<FaqItem[]> {
   const t = await getTranslations({ locale, namespace: `topicFaq.fallback.${variant}` });
-  return [1, 2, 3].map((n) => ({
+  return Array.from({ length: FALLBACK_ITEM_COUNT[variant] }, (_, i) => i + 1).map((n) => ({
     question: t(`q${n}`, vars),
     answer: t(`a${n}`, vars),
   }));

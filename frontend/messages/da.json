@@ -1821,11 +1821,9 @@
       },
       "activity": {
         "q1": "Hvad lærer {title}-aktiviteten?",
-        "a1": "{title} er en gratis interaktiv aktivitet til {grade} med fokus på {strand}. Børnene spiller den direkte i browseren — ingen print, login eller opsætning nødvendig.",
-        "q2": "Er {title} gratis at bruge?",
-        "a2": "Ja. {title} er helt gratis, uden tilmelding og uden betalingsmur, på enhver tablet, bærbar eller interaktiv tavle i klassen.",
-        "q3": "Hvilke aldre er denne aktivitet til?",
-        "a3": "Den er lavet til {grade} ({strand}) og fungerer godt til fælles, små grupper eller selvstændig øvelse."
+        "a1": "{title} er en interaktiv aktivitet til {grade} med fokus på {strand}. Børnene spiller den direkte i browseren — ingen print, login eller opsætning nødvendig.",
+        "q2": "Hvilke aldre er denne aktivitet til?",
+        "a2": "Den er lavet til {grade} ({strand}) og fungerer godt til fælles, små grupper eller selvstændig øvelse."
       },
       "standards": {
         "q1": "Hvad er dækket under {code}?",

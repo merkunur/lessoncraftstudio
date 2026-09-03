@@ -1824,11 +1824,9 @@
       },
       "activity": {
         "q1": "Vad lär aktiviteten {title} ut?",
-        "a1": "{title} är en gratis interaktiv aktivitet för {grade}, med fokus på {strand}. Barnen spelar den direkt i webbläsaren — ingen utskrift, inloggning eller installation krävs.",
-        "q2": "Är {title} gratis att använda?",
-        "a2": "Ja. {title} är helt gratis, utan registrering och utan betalvägg, på vilken surfplatta, bärbar dator eller interaktiv tavla som helst.",
-        "q3": "Vilka åldrar är den här aktiviteten för?",
-        "a3": "Den är gjord för {grade} ({strand}) och fungerar bra för helklass, smågrupp eller självständig övning."
+        "a1": "{title} är en interaktiv aktivitet för {grade}, med fokus på {strand}. Barnen spelar den direkt i webbläsaren — ingen utskrift, inloggning eller installation krävs.",
+        "q2": "Vilka åldrar är den här aktiviteten för?",
+        "a2": "Den är gjord för {grade} ({strand}) och fungerar bra för helklass, smågrupp eller självständig övning."
       },
       "standards": {
         "q1": "Vad ingår under {code}?",

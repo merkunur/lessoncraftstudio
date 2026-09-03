@@ -299,7 +299,7 @@
     },
     "K-309": {
       "title": "Points à relier de a à t",
-      "instruction": "On suit les lettres, de a à t, pas les nombres."
+      "instruction": "Suis les lettres, de a à t, pas les nombres."
     },
     "K-310": {
       "title": "Repasser les mots en capitales",
@@ -307,19 +307,19 @@
     },
     "K-313": {
       "title": "Du pluriel au singulier",
-      "instruction": "Ici, c'est le singulier que l'on repasse."
+      "instruction": "Repasse le singulier sous chaque image."
     },
     "K-314": {
       "title": "Écrire le pluriel tout seul",
-      "instruction": "Ici, aucun pointillé à repasser."
+      "instruction": "Écris le pluriel : aucun pointillé."
     },
     "K-315": {
       "title": "Copier les mots en capitales",
-      "instruction": "Les capitales sont sur la carte."
+      "instruction": "Recopie les capitales de la carte."
     },
     "K-316": {
       "title": "Écrire le singulier tout seul",
-      "instruction": "Le pluriel est donné, sans modèle."
+      "instruction": "Écris le singulier, sans modèle."
     },
     "G1-287": {
       "title": "Doubles jusqu'à 14",
@@ -440,9 +440,10 @@
     "G1-302, FRENCH-FACING RULING NEEDED — the page prints a first name in lowercase («nathan regarde les citrons.»). That is by design: capsIndices never includes index 0, so showCap false lowercases the initial token even when it is a proper noun. The alternative would hand the child the answer. It is defensible, but a French CP sheet printing «nathan» is teaching an orthographic falsehood on a page about sentence openings, and that should be a deliberate ruling rather than a side effect of the caps rule.",
     "METHOD, FOR THE REMAINING PANELS — THE DESCRIPTION WINDOW IS MEASURED ON THE STEM, NOT THE INSTRUCTION. bandedDescription assembles lead + «. » + middle + «.» AFTER stripping the instruction trailing mark, so an instruction of N characters competes as N-1. My first sweep compared instruction length against the window and reported three faces as LOSING that in fact won (G2-304 at 60 against a «55-59» window). Related: descLenRendered is escapeAttr(s).length, and escapeAttr escapes only & < > — French apostrophes and accents cost exactly one character each, so a plain-length probe is safe here, but a straight double quote inside an instruction would not be.",
     "METHOD — probe hygiene, per the Dutch panel warning. I used «QXVZ» as the marker because no French word contains it; a probe of repeated letters matches inside «alphabétique», «graduée» and half the corpus, and would report «any length wins» for all 36.",
-    "WINDOW MARGINS — all 36 French faces carry their OWN instruction in the meta description, verified by re-running build-seo-head, not estimated. Six sit within one character of an edge and will silently fall back to the generic family sentence if the title or the family skill sentence is ever edited: G1-286 stem 37 of 37-38 (inherited from the earlier French slice, unchanged here), G2-313 stem 52 of 51-52, G2-314 stem 56 of 55-57, G2-304 stem 58 of 55-59, K-310 and K-316 stem 33 of 6-34. The number-walls and doubles-halves families have a hard FLOOR (51 and 37) as well as a ceiling, so on those an instruction can lose by being too SHORT.",
+    "WINDOW MARGINS — all 36 French faces carry their OWN instruction in the meta description, verified by re-running build-seo-head against the written draft, not estimated. Five sit ON an edge and will silently fall back to the generic family sentence if the title, the instruction or the family skill sentence is ever edited by one character: G1-286 stem 37 of 37-38 (inherited from the earlier French slice, unchanged here), K-313 stem 38 of 38-41 (kept at the floor deliberately: the imperative «Repasse le singulier sous chaque image» is the better page, and the brief says a good page beats a good description), G2-313 stem 52 of 51-52, G2-314 stem 56 of 55-57, K-310 stem 33 of 6-34. G2-304 (58 of 55-59) has one character at the top only. The number-walls, doubles-halves, number-lines, grid-coordinates, sentence-building and G1/G2 dot-to-dot families all have a hard FLOOR as well as a ceiling (51, 37, 47, 53, 41, 55), so on those an instruction can lose by being too SHORT — which is how K-band and G-band faces of the SAME family end up needing very different lengths: the K dot-to-dot ceiling is 48 with no floor, the G2 one is a 55-59 band.",
     "K-309, PER-LOCALE FACT THE ENGLISH CANNOT CARRY — the letter run stops at the twentieth letter of the LOCALE OWN printed strip, not at «t». COLLATION.fr.strip is the plain 26-letter alphabet with stripCase «lower», so French genuinely runs a..t in lowercase and the French title says so. A locale whose strip carries extra letters early (es ñ) or late (Nordic æ/ø/å) stops on a different letter; read it off COLLATION for that locale rather than copying «t».",
     "NUMBER-LINE LEXICAL CLASH, STILL BINDING — «de cinq en cinq» is spoken for in French by the shipped G1-278/G1-279 as the TICK step («Ici chaque trait vaut 5, pas 1»). It must never appear on the unit-tick faces G1-295 / G2-305 / G2-310, whose printed landmarks happen to be five apart while every graduation is worth one. It IS correct on the dot-to-dot G2-304, where the numbers themselves advance in fives. Same trap for any locale whose 5s-stepped siblings shipped first.",
-    "STALE ARTEFACTS IN out/render/ — the render directory keeps the output of retried themes, so a glob for k310 returns k310-ANIMALS before k310-FRUITS and a panel briefing from the first match reads the wrong theme. The staged ZIP is the authority: K-310 is pinned to fruits and ships on fruits in all eleven locales."
+    "STALE ARTEFACTS IN out/render/ — the render directory keeps the output of retried themes, so a glob for k310 returns k310-ANIMALS before k310-FRUITS and a panel briefing from the first match reads the wrong theme. The staged ZIP is the authority: K-310 is pinned to fruits and ships on fruits in all eleven locales.",
+    "FRENCH SERP LEAD, PRE-EXISTING AND NOT CAUSED BY THIS BATCH — every French printable description reads «Fiche imprimable gratuite : <TITRE> Fiche d’exercices pour CP…», i.e. the word «fiche» twice in nine words, with no punctuation between the title and the appended worksheet word. Verified on a shipped staged ZIP, not only in simulation. The two halves come from seo.words.free_printable and seo.words.worksheet, so no title can avoid it. A French reader parses «Fiche imprimable gratuite» and then trips on «Fiche d’exercices»; «À imprimer gratuitement : <TITRE> — fiche d’exercices pour CP» would read as French. Out of scope for a titles draft, and it is the same lead on all 5,500 shipped French sheets, so it is a one-line i18n change with a large surface."
   ]
 }

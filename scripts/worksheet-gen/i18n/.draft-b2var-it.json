@@ -258,32 +258,148 @@
       "instruction": "Tre storie: cosa chiede ognuna?"
     },
     "K-308": {
-      "title": "Unisci i puntini contando all'indietro da 10",
-      "instruction": "Dal 10 fino a 1, completa il disegno."
+      "title": "Unisci i puntini all'indietro da 10",
+      "instruction": "Dal 10 all'1; il resto del disegno è già stampato."
     },
     "K-311": {
-      "title": "Ricopia la parola dal modello",
-      "instruction": "Niente tratteggio: copia dal cartellino."
+      "title": "Copia la parola dal cartellino",
+      "instruction": "Nessun tratteggio: guarda il modello e copia."
     },
     "G1-285": {
-      "title": "Unisci i puntini di due in due",
-      "instruction": "Salta un numero ogni volta: 2, 4, 6… fino a 20."
+      "title": "Unisci i puntini contando di 2 in 2",
+      "instruction": "Da 2 a 20; il resto è già disegnato."
     },
     "G1-286": {
-      "title": "Doppio e metà fino a 20 con le immagini",
-      "instruction": "Conta i gruppi più grandi."
+      "title": "Doppio o metà? Fino a 20",
+      "instruction": "Qui trovi sia il doppio sia la metà."
     },
     "G1-291": {
-      "title": "Dettato muto senza scatola",
-      "instruction": "C'è già la prima lettera: continua da lì."
+      "title": "Dettato muto: l'iniziale",
+      "instruction": "Niente lista: c'è solo la lettera iniziale."
     },
     "G1-294": {
-      "title": "Unisci i puntini contando all'indietro da 20",
-      "instruction": "Qui sono numerati tutti i puntini."
+      "title": "Unisci i puntini da 20 a 1",
+      "instruction": "Qui ogni puntino è numerato, dal 20 all'1."
     },
     "G2-304": {
-      "title": "Unisci i puntini di cinque in cinque",
-      "instruction": "Salti di cinque: 5, 10, 15… fino a 50."
+      "title": "Unisci i puntini contando di 5 in 5",
+      "instruction": "Da 5 a 50; il resto è già disegnato."
+    },
+    "K-309": {
+      "title": "Unisci i puntini in ordine alfabetico",
+      "instruction": "Qui i puntini si uniscono dalla a alla v."
+    },
+    "K-310": {
+      "title": "Ricalca in stampato maiuscolo",
+      "instruction": "Ricalca le parole in maiuscolo e riscrivile."
+    },
+    "K-313": {
+      "title": "Dal plurale al singolare",
+      "instruction": "Ricalca la parola al singolare e poi riscrivila."
+    },
+    "K-314": {
+      "title": "Scrivi tu il plurale",
+      "instruction": "Una figura e tante: scrivi tu la parola al plurale."
+    },
+    "K-315": {
+      "title": "Copia lo stampato maiuscolo",
+      "instruction": "Guarda la parola in maiuscolo e riscrivila."
+    },
+    "K-316": {
+      "title": "Scrivi tu il singolare",
+      "instruction": "Tante figure e una sola: scrivi tu il singolare."
+    },
+    "G1-287": {
+      "title": "Solo il doppio fino a 14",
+      "instruction": "Ogni riquadro raddoppia un gruppo di figure."
+    },
+    "G1-288": {
+      "title": "Solo la metà fino a 12",
+      "instruction": "Dividi ogni gruppo in due parti uguali."
+    },
+    "G1-289": {
+      "title": "Piramidi di numeri dall'alto in basso",
+      "instruction": "Parti dalla cima e scendi sottraendo."
+    },
+    "G1-292": {
+      "title": "Ordina le parole per articolo",
+      "instruction": "Ogni parola sotto il suo articolo."
+    },
+    "G1-293": {
+      "title": "Nomi e verbi",
+      "instruction": "Decidi se è un nome o un verbo e scrivi la parola."
+    },
+    "G1-295": {
+      "title": "La linea dei numeri da 20 a 40",
+      "instruction": "Questa linea non parte da zero: conta in avanti."
+    },
+    "G1-296": {
+      "title": "Solo il doppio fino a 20",
+      "instruction": "Gruppi più grandi da raddoppiare: fino a 20."
+    },
+    "G1-297": {
+      "title": "Solo la metà fino a 20",
+      "instruction": "Gruppi più grandi da dividere a metà."
+    },
+    "G1-298": {
+      "title": "Solo il doppio, senza figure",
+      "instruction": "Solo numeri: leggi e scrivi il doppio."
+    },
+    "G1-299": {
+      "title": "Solo la metà, senza figure",
+      "instruction": "Solo numeri: dividi in due parti uguali."
+    },
+    "G1-300": {
+      "title": "Nomi e aggettivi",
+      "instruction": "Qui non ci sono figure: separa nomi e aggettivi."
+    },
+    "G1-301": {
+      "title": "Dettato muto con la lista",
+      "instruction": "Cerca la parola nella lista, poi le caselle."
+    },
+    "G1-302": {
+      "title": "Riordina la frase: trova l'inizio",
+      "instruction": "Il punto c'è, la maiuscola no."
+    },
+    "G1-303": {
+      "title": "Dettato muto: caselle e iniziale",
+      "instruction": "Ci sono le caselle e l'iniziale."
+    },
+    "G1-304": {
+      "title": "Dettato muto con tutti gli aiuti",
+      "instruction": "Ci sono lista, caselle e iniziale."
+    },
+    "G2-305": {
+      "title": "La linea dei numeri da 40 a 60",
+      "instruction": "La linea comincia da quaranta, non da zero."
+    },
+    "G2-307": {
+      "title": "Dove finisce la frase?",
+      "instruction": "Due frasi attaccate: riscrivile separate."
+    },
+    "G2-308": {
+      "title": "Coordinate: scrivi tu i codici",
+      "instruction": "Il disegno è già colorato: scrivi tu i codici."
+    },
+    "G2-310": {
+      "title": "La linea dei numeri da 60 a 100",
+      "instruction": "Tacche di uno dal sessanta fino al cento."
+    },
+    "G2-311": {
+      "title": "Punto o punto interrogativo?",
+      "instruction": "Separa le frasi: qual è il segno finale?"
+    },
+    "G2-312": {
+      "title": "Leggere il calendario: quanti giorni?",
+      "instruction": "Conta i giorni sul mese e rispondi."
+    },
+    "G2-313": {
+      "title": "Piramidi di numeri oltre 20",
+      "instruction": "I mattoni vanno oltre il venti: scrivi i calcoli."
+    },
+    "G2-314": {
+      "title": "Unisci i puntini contando di 10 in 10",
+      "instruction": "Da 10 a 100; il resto è già disegnato."
     }
   },
   "enAudit": [
@@ -308,6 +424,19 @@
     "NEW — G1-286 (still live) is the one doubles-halves face whose HALF cards run to 2×10=20 pictures in two rows. The English \"Count the bigger groups, double them, and halve them\" repeats the G1-270 defect the last panel filed: the child never doubles and then halves the same group — each card carries its own label and its own set. Render confirms four independent cards (il doppio 7+7 · la metà 18 · il doppio 6+6 · la metà). The Italian says only \"count the bigger groups\", which is what the page actually asks.",
     "BUILD (pre-dates the cut; still worth recording) — wsg-wb2varit-g2309-vehicles-d2-it failed the QA overflow lint (four divs and an svg past the page box) on every attempt: with an 87-char instruction, with a 43-char one, and with a 6-char title plus a 9-char instruction, so it was NOT the header copy. The same face built clean on it+animals, it+toys, it+fruits and on de/es/nl/fi + vehicles, and the base G2-278 vehicles/d2/it had shipped — i.e. picture-writing d2 on Italian vehicles is seed-fragile, and the surviving G2-299 / G2-300 / G2-278 sit on the same stack.",
     "DATA — out/b2var-faces.json still holds only the first 64 faces: no wave-2 id is in it and out/b2var-sweep/ has no renders for them, so a panel following the brief literally (\"the exact path is in the sweep field\") has nothing to look at. I built the wave instead (cli.js generate --wave waves/wave-b2var-it.json --types=…) and read the thumbnails out of the staged ZIPs; that should be the brief's wave-2 instruction. Related: waves/wave-b2var-*.json still list the six cut ids and THEME still pins five of them.",
-    "MEASURED — the Italian description budget is about half the Spanish figure the brief quotes, and the brief should carry the number. The it lead is \"Scheda stampabile gratis: <TITLE> Scheda di esercizi (<Tema>) per <Livello>.\" plus \" Scarica il PDF gratis.\", costing 84-103 chars BEFORE the title, so the JOINT budget is titleLen + instructionLen ≤ 84 themeless and ≤ 65-69 themed. All seven surviving instructions are 25-47 chars. On most it faces the core already exceeds 120 with no middle at all, so the 120 floor never binds and only the 170 ceiling does — the exception is the write-the-word family, whose it skill sentence DOES band and must also be beaten: G1-291 needed its title cut from 33 to 26 chars to open a window at all."
+    "MEASURED — the Italian description budget is about half the Spanish figure the brief quotes, and the brief should carry the number. The it lead is \"Scheda stampabile gratis: <TITLE> Scheda di esercizi (<Tema>) per <Livello>.\" plus \" Scarica il PDF gratis.\", costing 84-103 chars BEFORE the title, so the JOINT budget is titleLen + instructionLen ≤ 84 themeless and ≤ 65-69 themed. All seven surviving instructions are 25-47 chars. On most it faces the core already exceeds 120 with no middle at all, so the 120 floor never binds and only the 170 ceiling does — the exception is the write-the-word family, whose it skill sentence DOES band and must also be beaten: G1-291 needed its title cut from 33 to 26 chars to open a window at all.",
+    "NEW (wave 2, build-breaking) — G1-298 and G1-299 are listed in gen-b2var-waves.js THEMELESS, but doubles-halves carries themeAxis {applicable:true} and G1-247.build() calls safeNouns(theme) unconditionally, so theme:null throws 'resolve: theme not in cache manifest: null' (measured; both build clean on fruits). They are therefore NOT themeless: they fall through to the positional round-robin in enumerate.js, which is precisely the class the file's own docblock says pinning eliminated after G1-247 shipped on toys in 11 locales. Their manifest.theme, deck slug and landing URL will carry a theme nobody chose, and it shifts if a type is inserted before them. Pin both in THEME and remove them from THEMELESS.",
+    "NEW — K-309: the English 'Join the dots in alphabet order, from a to t' hard-codes a 26-letter strip. The sequence is read from COLLATION[loc].strip, and Italian prints 21 letters (no j k w x y), so the 20 dots run a -> v. Measured on the it render: the labels end at v and the counting strip below prints a b c d e f g h i l m n o p q r s t u v. Every non-EN locale ends on a different letter; only the EN sentence names one, and it is the wrong one for at least it (and for any locale whose strip is not a-z).",
+    "NEW — G1-292 is d3 (level3:true), so ARTICLES.it.chipsD3 applies and the page renders FOUR bins: il / lo / la / l'. Any brief or copy that says 'il/la' describes d1. Worse, the bins are not guaranteed to be reachable: itKey() sends a word to 'lo' only for a masculine noun starting s+consonant / z / gn / ps / pn / x / y / i+vowel, and in two independently seeded toys/it draws the 'lo' bin had ZERO correct words (one draw also left l' empty). A four-column sort can therefore print a column with no correct answer. K-306/K-307 already carry a gender-mix guard; this face needs the same coverage constraint over its chip set.",
+    "NEW — G2-311: 'Two sentences ran together, and one of them is a question' asserts of EVERY card what needQ:1 guarantees of exactly ONE of the three lanes. Measured on the it render: lane 1 carried the question ('... chi disegna quattro lamponi per aurora'), lanes 2 and 3 were two statements each. A child told there is a question on every line will invent one. The Italian says only 'separate the sentences and choose the end mark'.",
+    "NEW — G1-302 (showCap:false) prints proper names in lowercase: the it render shows 'leonardo' and 'aurora' as word tiles. In the capitals-punctuation family that is correct by design (the checklist chip literally reads 'Nomi propri' and restoring them is the task). In sentence-building it is not: the task is word ORDER, the page never asks for capitalisation, and the child copies each tile onto the ruling exactly as printed. A lowercase proper name is an orthographic error in all 11 locales. Either exclude the {name} frames when showCap is false, or keep the name's capital and accept that it only half-leaks the start (a name can sit mid-sentence).",
+    "NEW — G2-313: the slug is number-walls-to-100 while baseMin 5 / baseMax 12 over four courses puts the apex between 40 and 8*12 = 96, so 100 is unreachable. Measured apexes on the it render: 60, 70, 46, 49. The English TITLE is right ('two-digit answers'); the slug is the part that reaches the landing URL and it promises a range the generator cannot produce.",
+    "NEW (asset) — toys/scooter: the artwork is a motor scooter (a Vespa) while the it vocab word is 'monopattino', a kick scooter. It is picture-only on G1-286 but is printed as a WORD CHIP on G1-292, where the child reads 'monopattino' beside nothing that resembles one. Same class as the vocab arc's root cause: the word was checked, the picture was not.",
+    "NEW (asset) — toys/girl: the artwork is a doll and the vocab key is 'girl', so K-315 prints 'RAGAZZA' under a doll (EN would print 'GIRL'). In a toys theme a child names it 'bambola'. The mismatch is in the asset/key pairing, so it hits all 11 locales, not just it.",
+    "NEW (layout, cosmetic) — G1-291 spreads d1, whose row height was sized for a word bank, with bank:false; K-315 spreads d3 with traceLane:false. Both leave roughly half of every card blank on the render. Nothing is wrong on the page, it simply prints thin, and a card-height override would recover the space.",
+    "NEW (shared template, affects all 100 it faces) — the it description lead reads 'Scheda stampabile gratis: <TITLE> Scheda di esercizi (<Tema>) per <Livello>.' There is no separator between the title and the second 'Scheda', so the two run together in the SERP, and the noun 'Scheda' appears twice inside eleven words. Not a per-face copy issue and not fixable from this draft; recorded because it is the first thing an Italian teacher reads.",
+    "NEW — G1-293: pics:true illustrates the NOUN chips only (domino, bicicletta, pastelli, scivolo, dinosauro carry a picture; cantare, dormire, mangiare, correre, bere do not), so the noun/verb sort can be completed without reading a single word. That is a defensible d1 scaffold, but the English 'Two bins with pictures' attributes the pictures to the bins rather than naming them as a hint attached to exactly one word class.",
+    "CORRECTION to item 18 — the final Italian titles are K-311 'Copia la parola dal cartellino' and K-315 'Copia lo stampato maiuscolo'. Item 18 quoted an earlier draft ('Ricopia la parola dal modello'). The substance stands: neither face has a dashed lane, so neither inherits the family verb 'Ricalca'.",
+    "MEASURED (extends item 22, wave 2) — measured face by face against the real scripts/publish-cli/build-seo-head.js (the simulator was validated first by reproducing all 64 shipped it descriptions byte-for-byte, and probed with a nonsense token 'Zqx zqxw qxz zqxv' that cannot occur in Italian). The it window is per-face and frequently 2-8 characters wide, and it has TWO regimes. When the title is long enough that the family's SHORT skill sentence overflows 170, the skill drops out of the band, the floor disappears and only the ceiling binds (ceiling + titleLen is a constant per family+level+theme: 84 for a themeless K face, 76 for a themeless G2 one). When the title is short, the skill sentence bands and the instruction must be LONGER than it. Several faces sat on a single-length window before retuning: G1-291 was [39..39], G1-301 [39..39], G2-307 [38..38], G2-311 [38..39], K-308 [57..58], G2-308 [45..46], G2-313 [45..46]. Six titles were shortened and four lengthened to open a usable window; 36 of 36 wave-2 faces now carry their own instruction rather than the family skill sentence."
   ]
 }

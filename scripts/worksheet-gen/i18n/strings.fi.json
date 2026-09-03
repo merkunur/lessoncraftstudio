@@ -1901,7 +1901,7 @@
   },
   "G1-302": {
     "title": "Järjestä lause: mistä lause alkaa?",
-    "instruction": "Etsi aloittava sana. Vain lopetusmerkki auttaa."
+    "instruction": "Etsi aloittava sana. Yhdessä laatassa on piste."
   },
   "G1-303": {
     "title": "Kirjainruudut ja alkukirjain",

@@ -1,276 +1,432 @@
 {
-  "locale": "pt",
-  "types": {
-    "K-289": {
-      "title": "Palavras pontilhadas curtas",
-      "instruction": "Cubra e escreva estas três palavras curtas."
-    },
-    "K-290": {
-      "title": "Cubra uma vez e escreva duas",
-      "instruction": "Cubra o pontilhado e escreva duas vezes."
-    },
-    "K-291": {
-      "title": "Palavras pontilhadas longas",
-      "instruction": "Cubra bem devagar e escreva duas vezes."
-    },
-    "K-294": {
-      "title": "Ligue os pontos do 1 ao 10",
-      "instruction": "Comece no ponto laranja e ligue os dez pontos até 10."
-    },
-    "K-295": {
-      "title": "Ligue os pontos do 11 ao 20",
-      "instruction": "Comece no 11 e ligue os dez pontos até chegar ao 20."
-    },
-    "K-296": {
-      "title": "Ligue os pontos do 11 ao 30",
-      "instruction": "Agora, conte do 11 até o 30 e ligue os vinte pontos."
-    },
-    "K-298": {
-      "title": "Copie o desenho: malha 6 por 6",
-      "instruction": "Conte os quadradinhos: não há letras nem números."
-    },
-    "K-299": {
-      "title": "Copie o desenho com letras e números",
-      "instruction": "Use as coordenadas, como B2, e pinte igual."
-    },
-    "K-300": {
-      "title": "Copie o desenho: malha 8 por 8",
-      "instruction": "Nesta malha maior, ache o quadradinho pela letra."
-    },
-    "K-302": {
-      "title": "Singular e plural: uma e duas",
-      "instruction": "Cubra o plural: são sempre duas figuras."
-    },
-    "K-303": {
-      "title": "Singular e plural: duas e três",
-      "instruction": "Cubra o plural das palavras compridas."
-    },
-    "K-306": {
-      "title": "O ou a? Quatro figuras",
-      "instruction": "Fale o nome da figura e circule o artigo certo."
-    },
-    "K-307": {
-      "title": "O ou a? Oito figuras",
-      "instruction": "Agora são oito figuras: circule sempre o artigo."
-    },
-    "G1-251": {
-      "title": "Leia e pinte: as quatro frases",
-      "instruction": "Leia as quatro frases: cada uma diz a cor e o número."
-    },
-    "G1-252": {
-      "title": "Leia e pinte: página cheia",
-      "instruction": "São seis frases, mais cores e até cinco figuras a pintar."
-    },
-    "G1-255": {
-      "title": "O número do dia: de 11 a 19",
-      "instruction": "O número fica entre 11 e 19: use os dois quadros de dez."
-    },
-    "G1-256": {
-      "title": "O número do dia: mais 10, menos 10",
-      "instruction": "Calcule 10 a mais, 10 a menos e desenhe o número."
-    },
-    "G1-257": {
-      "title": "O número do dia: de 21 a 99",
-      "instruction": "Agora o número vai até 99: separe em dezenas e unidades."
-    },
-    "G1-258": {
-      "title": "Escreva o nome: use o banco",
-      "instruction": "A letra inicial já está ali: complete o resto."
-    },
-    "G1-259": {
-      "title": "Escreva o nome: só com o banco",
-      "instruction": "Escolha no banco a palavra de cada figura."
-    },
-    "G1-260": {
-      "title": "Escreva o nome sem banco",
-      "instruction": "Sem banco de palavras: escreva o nome sozinho."
-    },
-    "G1-262": {
-      "title": "Ordem alfabética: só numere",
-      "instruction": "Aqui você numera de 1 a 4 e não precisa copiar."
-    },
-    "G1-263": {
-      "title": "Ordem alfabética: numere e copie",
-      "instruction": "Numere as quatro palavras, depois copie."
-    },
-    "G1-264": {
-      "title": "Ordem alfabética: mesma inicial",
-      "instruction": "Veja a segunda letra das duplas iguais."
-    },
-    "G1-266": {
-      "title": "Pirâmide de números até 10",
-      "instruction": "Três andares: some os tijolos até um topo que chega a 10."
-    },
-    "G1-267": {
-      "title": "Pirâmide de números: quatro andares",
-      "instruction": "Nos quatro andares, some par por par até o topo."
-    },
-    "G1-268": {
-      "title": "Pirâmide com tijolo escondido",
-      "instruction": "Um tijolo da base sumiu: descubra com o andar de cima."
-    },
-    "G1-270": {
-      "title": "Dobro e metade com figuras",
-      "instruction": "Conte as figuras: o dobro e a metade vão até 8."
-    },
-    "G1-271": {
-      "title": "Dobro e metade sem figuras",
-      "instruction": "Sem figuras: são oito dobros e metades até 20."
-    },
-    "G1-274": {
-      "title": "Reta numérica de 0 a 10",
-      "instruction": "Só o 0, o 5 e o 10 estão escritos: descubra onde a seta cai."
-    },
-    "G1-275": {
-      "title": "Reta numérica até 20: menos números",
-      "instruction": "Só o 0, o 10 e o 20 aparecem: conte de um em um."
-    },
-    "G1-276": {
-      "title": "Reta numérica do 0 ao 30",
-      "instruction": "Cada tracinho vale 1 e um número aparece de cinco em cinco."
-    },
-    "G1-277": {
-      "title": "Reta numérica de 0 até 50",
-      "instruction": "Cada tracinho vale 1 e apenas as dezenas trazem um número."
-    },
-    "G1-278": {
-      "title": "Reta numérica até 50, de 5 em 5",
-      "instruction": "Agora cada tracinho vale 5: conte de cinco em cinco."
-    },
-    "G1-279": {
-      "title": "Reta numérica até 100 de 5 em 5",
-      "instruction": "Cada tracinho vale 5; um sim, outro não, tem número."
-    },
-    "G1-280": {
-      "title": "Reta numérica até 100, de 10 em 10",
-      "instruction": "Cada tracinho vale 10: vá contando de dez em dez."
-    },
-    "G1-281": {
-      "title": "Reta numérica de 0 a 120",
-      "instruction": "A reta passa do 100: conte de dez em dez até chegar ao 120."
-    },
-    "G1-282": {
-      "title": "Ordene a frase com pistas",
-      "instruction": "A maiúscula e o sinal final mostram começo e fim."
-    },
-    "G1-283": {
-      "title": "Ordene a frase, sem pistas",
-      "instruction": "Nada de maiúscula ou sinal final: ache a ordem."
-    },
-    "G2-281": {
-      "title": "Maiúscula e sinal final",
-      "instruction": "Reescreva as três frases: maiúscula e sinal final."
-    },
-    "G2-282": {
-      "title": "Escolha o sinal de pontuação",
-      "instruction": "Escolha o sinal do fim de cada uma das frases."
-    },
-    "G2-285": {
-      "title": "Classes de palavras com figuras",
-      "instruction": "Separe nove palavras, três em cada coluna."
-    },
-    "G2-286": {
-      "title": "Classes de palavras sem figuras",
-      "instruction": "Agora são doze palavras sem figura nenhuma."
-    },
-    "G2-287": {
-      "title": "Classes de palavras difíceis",
-      "instruction": "Quinze palavras, sem figura: leia com calma."
-    },
-    "G2-289": {
-      "title": "Vamos às compras: duas perguntas",
-      "instruction": "Uma pede o total, a outra pergunta se dá."
-    },
-    "G2-290": {
-      "title": "Vamos às compras: quatro cartões",
-      "instruction": "Cada cartão traz uma pergunta diferente."
-    },
-    "G2-291": {
-      "title": "Vamos às compras: some a cesta",
-      "instruction": "Some o preço dos dois produtos da cesta."
-    },
-    "G2-292": {
-      "title": "Vamos às compras: três produtos",
-      "instruction": "Some os três preços de cada uma das cestas."
-    },
-    "G2-293": {
-      "title": "Vamos às compras: o troco",
-      "instruction": "Veja as moedas e descubra quanto volta de troco."
-    },
-    "G2-294": {
-      "title": "Vamos às compras: o dinheiro dá?",
-      "instruction": "Compare o dinheiro com o preço dos dois."
-    },
-    "G2-295": {
-      "title": "Vamos às compras: a diferença",
-      "instruction": "Ache a diferença de preço em cada cartão."
-    },
-    "G2-296": {
-      "title": "Leitura de calendário com quatro perguntas",
-      "instruction": "Leia o mês e responda a quatro perguntas."
-    },
-    "G2-297": {
-      "title": "Leitura de calendário: um mês cheio",
-      "instruction": "Cinco perguntas e três marcações: conte os dias."
-    },
-    "G2-298": {
-      "title": "Leitura de calendário: dias da semana",
-      "instruction": "As quatro perguntas tratam dos dias da semana."
-    },
-    "G2-299": {
-      "title": "Produção de texto: o que se vê",
-      "instruction": "Os começos de frase já estão ali: continue."
-    },
-    "G2-300": {
-      "title": "Produção de texto: suas palavras",
-      "instruction": "Sem começo pronto: escreva sua historinha."
-    },
-    "G2-302": {
-      "title": "Coordenadas: malha 6 por 6",
-      "instruction": "Pinte os quadradinhos da lista, como B2, e veja a figura."
-    },
-    "G2-303": {
-      "title": "Coordenadas: malha 10 por 10",
-      "instruction": "Esta malha vai de A até J e de 1 até 10: siga a lista."
-    },
-    "G3-371": {
-      "title": "Problemas de multiplicação até 20",
-      "instruction": "Duas historinhas: veja os grupos iguais."
-    },
-    "G3-372": {
-      "title": "Problemas de divisão: repartir",
-      "instruction": "Reparta nas caixinhas e escreva o resultado."
-    },
-    "G3-373": {
-      "title": "Problemas de divisão em grupos",
-      "instruction": "Circule os grupos e escreva quantos são."
-    },
-    "G3-374": {
-      "title": "Problemas de divisão: 2 jeitos",
-      "instruction": "Uma reparte, a outra agrupa: tudo é divisão."
-    },
-    "G3-375": {
-      "title": "Problemas de multiplicar e agrupar",
-      "instruction": "Uma junta os grupos; a outra os separa."
-    },
-    "G3-376": {
-      "title": "Problemas de vezes e divisão",
-      "instruction": "Três historinhas: multiplicar ou dividir?"
-    }
+ "locale": "pt",
+ "types": {
+  "K-289": {
+   "title": "Palavras pontilhadas curtas",
+   "instruction": "Cubra e escreva estas três palavras curtas."
   },
-  "enAudit": [
-    "G2-292 shopping-math-three-things — RESOLVED upstream (kinds is now [\"total3\",\"total3\",\"total3\"], verified with loadType). Recorded for the trail: it shipped as [\"total3\",\"total\",\"total3\"], so the middle card held only TWO items while the title promised three; the render g2292-fruits.png card 2 read \"Emma puts mango and kiwi in the basket\". pt copy has been rewritten to the uniform page (\"três produtos\" / \"some os três preços de cada uma das cestas\") and the earlier hedged wording is gone.",
-    "G2-294 shopping-math-is-there-enough-money — the instruction 'Count the coins, then compare them with the price' describes a control the page does not have. The canBuy frame in G2-276 renders the money as a NUMBER ({name} tem {money}); coins are drawn only by the 'change' kind, and the render (g2294-vehicles.png) shows no coins at all. Either the instruction should say 'read how much money there is', or the canBuy kind should draw coins.",
-    "G2-295 shopping-math-how-much-more — RESOLVED upstream (kinds is now [\"diff\",\"diff\",\"diff\"], verified with loadType). Recorded for the trail: it shipped as [\"diff\",\"total\",\"diff\"], so card 2 asked for a TOTAL under a title promising a difference (render g2295-toys.png card 2). pt copy now says the difference on every card.",
-    "G1-283 sentence-building no-clues — the sentence-frame pool applies animate verbs to inanimate theme nouns. Render g1283-vehicles.png lane 4 is 'feeds / tom / skateboard / the', i.e. 'tom feeds the skateboard'. A first-grader asked to find 'the only order that works' cannot, because the only grammatical order is semantically nonsense. The frames need an animacy gate before the vehicles/toys themes, exactly like the PERSON_KEYS filter already used in G2-276.",
-    "G1-282 / G1-283 sentence-building — ⭐ NAMING A SPECIFIC END MARK IS WRONG ON MOST PAGES OF THIS FAMILY. The English G1-282 instruction says 'The capital letter and the FULL STOP show you where the sentence starts and ends', but the unscramble frame pool contains questions (pt: 2 of the 12 frames carry '?', and with 3 lanes drawn from 12 the chance a page contains one is ~45%; the fr panel measured 30 of 40 deck variants). The very first sweep render, g1282-fruits.png, opens with 'Is this your pomegranate?' — so the shipped EN instruction is already false on the page it was rendered from. Both faces need a generic end-mark word ('the end mark'), not 'full stop'. pt now says 'o sinal final' on both. G2-281 is the ONE face where a specific mark is correct, because its spec pins ends:['.'].",
-    "G2-282 capitals-punctuation choose-the-end-mark — the difficulty carries needCaps:3 and the page prints a legend chip 'Names', but the instruction mentions only end marks. A child who follows the instruction leaves 'lily and i like the nectarine' with a lowercase name and a lowercase 'i' and is still marked wrong. The instruction should name the proper-noun capital that the page's own legend advertises.",
-    "G1-271 doubles-and-halves-to-20 — the instruction opens 'There are no pictures this time', but every card carries a dot-grid working panel (render g1271-vehicles.png). 'No pictures' reads to a six-year-old as 'nothing to look at'; the true difference is that there are no COUNTERS to count, so the numbers must be worked from. Suggest 'No counters this time — work each double and half out from the numbers.'",
-    "K-289 word-tracing first-words — this is the only word-tracing face with caption:false, so the model word sits ON the writing lane rather than under the picture, and there is exactly ONE empty lane after the trace (K-290/K-291 have two). The instruction says 'write the word on the empty lines', plural, which over-promises the space. Minor, but it is the one face in the family whose lane structure differs.",
-    "G1-263 alphabetical-order-four-words — the title 'ABC Order: Four Words' names the card count, which is the one property it does NOT differ on: G1-262 also has cards:4. The real difference is rulings:true vs rulings:false, i.e. G1-263 also copies the words onto lines. Two sibling faces where the title names a shared property and hides the distinguishing one; a searcher cannot tell them apart.",
-    "G2-281 capitals-punctuation — RESOLVED upstream, recorded for the trail: this face used to be ends:[\".\"] with a generic \"End mark\" legend chip, and I cleared \"full stop\" as honest on that basis. It is now lanes:3 / needCaps:0 / ends:[\".\",\"?\"] / needQ:1, so a question is GUARANTEED on every page and the concrete mark is wrong here too. pt now uses the generic \"sinal final\" on all three capitals-punctuation/sentence-building faces (G1-282, G1-283, G2-281). LESSON WORTH KEEPING: an honesty clearance is only valid against the spec at the moment it was checked — re-read loadType() rather than trusting a previous round's verdict, and note the sweep PNG for this face is STALE (it predates the widening).",
-    "G3-373 division-word-problems-grouping — the instruction says 'Ring the groups in the picture, then write the answer', but unlike the sharing faces (G3-372, G3-374 card 1) this face draws NO dashed group boxes: the items sit in one plain strip (render g3373-toys.png). The child is being asked to draw the rings freehand, which is fine, but the instruction reads as though the rings are already there to be traced. Worth one word: 'Draw a ring round each group.'",
-    "NOT a defect, checked and cleared (recording so the next panel does not re-file them): G3-376 story 2 really does show 30 cranes (3 rows of 10) against six boxes; G1-252 declares colors:8 but correctly renders 6, because colorKeys slices the palette down to the card count; G1-264 really does contain two same-first-letter pairs (pairs:2 is enforced by the generator, so it holds per locale, not only in English).",
-    "⭐ STANDING LESSON from three rounds of late spec changes (G2-281 ends widened, G2-292/G2-295 kinds made uniform, G2-297 cut to five questions and sixRows:false): COPY THAT NAMES A COUNT OR A MARK IS A CLAIM ABOUT THE SPEC, NOT ABOUT THE PAGE I SAW. Every one of these was caught by re-reading loadType(id).difficulty[2], and in each case the sweep PNG was stale and would have led me wrong. Before shipping any locale of this batch, re-read the specs for the faces whose copy names a quantity (cards, lanes, questions, markings, price counts) or a punctuation mark — those are the only fields that go false when a spec moves."
-  ]
+  "K-290": {
+   "title": "Cubra uma vez e escreva duas",
+   "instruction": "Cubra o pontilhado e escreva duas vezes."
+  },
+  "K-291": {
+   "title": "Palavras pontilhadas longas",
+   "instruction": "Cubra bem devagar e escreva duas vezes."
+  },
+  "K-294": {
+   "title": "Ligue os pontos do 1 ao 10",
+   "instruction": "Comece no ponto laranja e ligue os dez pontos até 10."
+  },
+  "K-295": {
+   "title": "Ligue os pontos do 11 ao 20",
+   "instruction": "Comece no 11 e ligue os dez pontos até chegar ao 20."
+  },
+  "K-296": {
+   "title": "Ligue os pontos do 11 ao 30",
+   "instruction": "Agora, conte do 11 até o 30 e ligue os vinte pontos."
+  },
+  "K-298": {
+   "title": "Copie o desenho: malha 6 por 6",
+   "instruction": "Conte os quadradinhos: não há letras nem números."
+  },
+  "K-299": {
+   "title": "Copie o desenho com letras e números",
+   "instruction": "Use as coordenadas, como B2, e pinte igual."
+  },
+  "K-300": {
+   "title": "Copie o desenho: malha 8 por 8",
+   "instruction": "Nesta malha maior, ache o quadradinho pela letra."
+  },
+  "K-302": {
+   "title": "Singular e plural: uma e duas",
+   "instruction": "Cubra o plural: são sempre duas figuras."
+  },
+  "K-303": {
+   "title": "Singular e plural: duas e três",
+   "instruction": "Cubra o plural das palavras compridas."
+  },
+  "K-306": {
+   "title": "O ou a? Quatro figuras",
+   "instruction": "Fale o nome da figura e circule o artigo certo."
+  },
+  "K-307": {
+   "title": "O ou a? Oito figuras",
+   "instruction": "Agora são oito figuras: circule sempre o artigo."
+  },
+  "G1-251": {
+   "title": "Leia e pinte: as quatro frases",
+   "instruction": "Leia as quatro frases: cada uma diz a cor e o número."
+  },
+  "G1-252": {
+   "title": "Leia e pinte: página cheia",
+   "instruction": "São seis frases, mais cores e até cinco figuras a pintar."
+  },
+  "G1-255": {
+   "title": "O número do dia: de 11 a 19",
+   "instruction": "O número fica entre 11 e 19: use os dois quadros de dez."
+  },
+  "G1-256": {
+   "title": "O número do dia: mais 10, menos 10",
+   "instruction": "Calcule 10 a mais, 10 a menos e desenhe o número."
+  },
+  "G1-257": {
+   "title": "O número do dia: de 21 a 99",
+   "instruction": "Agora o número vai até 99: separe em dezenas e unidades."
+  },
+  "G1-258": {
+   "title": "Escreva o nome: use o banco",
+   "instruction": "A letra inicial já está ali: complete o resto."
+  },
+  "G1-259": {
+   "title": "Escreva o nome: só com o banco",
+   "instruction": "Escolha no banco a palavra de cada figura."
+  },
+  "G1-260": {
+   "title": "Escreva o nome sem banco",
+   "instruction": "Sem banco de palavras: escreva o nome sozinho."
+  },
+  "G1-262": {
+   "title": "Ordem alfabética: só numere",
+   "instruction": "Aqui você numera de 1 a 4 e não precisa copiar."
+  },
+  "G1-263": {
+   "title": "Ordem alfabética: numere e copie",
+   "instruction": "Numere as quatro palavras, depois copie."
+  },
+  "G1-264": {
+   "title": "Ordem alfabética: mesma inicial",
+   "instruction": "Veja a segunda letra das duplas iguais."
+  },
+  "G1-266": {
+   "title": "Pirâmide de números até 10",
+   "instruction": "Três andares: some os tijolos até um topo que chega a 10."
+  },
+  "G1-267": {
+   "title": "Pirâmide de números: quatro andares",
+   "instruction": "Nos quatro andares, some par por par até o topo."
+  },
+  "G1-268": {
+   "title": "Pirâmide com tijolo escondido",
+   "instruction": "Um tijolo da base sumiu: descubra com o andar de cima."
+  },
+  "G1-270": {
+   "title": "Dobro e metade com figuras",
+   "instruction": "Conte as figuras: o dobro e a metade vão até 8."
+  },
+  "G1-271": {
+   "title": "Dobro e metade sem figuras",
+   "instruction": "Sem figuras: são oito dobros e metades até 20."
+  },
+  "G1-274": {
+   "title": "Reta numérica de 0 a 10",
+   "instruction": "Só o 0, o 5 e o 10 estão escritos: descubra onde a seta cai."
+  },
+  "G1-275": {
+   "title": "Reta numérica até 20: menos números",
+   "instruction": "Só o 0, o 10 e o 20 aparecem: conte de um em um."
+  },
+  "G1-276": {
+   "title": "Reta numérica do 0 ao 30",
+   "instruction": "Cada tracinho vale 1 e um número aparece de cinco em cinco."
+  },
+  "G1-277": {
+   "title": "Reta numérica de 0 até 50",
+   "instruction": "Cada tracinho vale 1 e apenas as dezenas trazem um número."
+  },
+  "G1-278": {
+   "title": "Reta numérica até 50, de 5 em 5",
+   "instruction": "Agora cada tracinho vale 5: conte de cinco em cinco."
+  },
+  "G1-279": {
+   "title": "Reta numérica até 100 de 5 em 5",
+   "instruction": "Cada tracinho vale 5; um sim, outro não, tem número."
+  },
+  "G1-280": {
+   "title": "Reta numérica até 100, de 10 em 10",
+   "instruction": "Cada tracinho vale 10: vá contando de dez em dez."
+  },
+  "G1-281": {
+   "title": "Reta numérica de 0 a 120",
+   "instruction": "A reta passa do 100: conte de dez em dez até chegar ao 120."
+  },
+  "G1-282": {
+   "title": "Ordene a frase com pistas",
+   "instruction": "A maiúscula e o sinal final mostram começo e fim."
+  },
+  "G1-283": {
+   "title": "Ordene a frase, sem pistas",
+   "instruction": "Nada de maiúscula ou sinal final: ache a ordem."
+  },
+  "G2-281": {
+   "title": "Maiúscula e sinal final",
+   "instruction": "Reescreva as três frases: maiúscula e sinal final."
+  },
+  "G2-282": {
+   "title": "Escolha o sinal de pontuação",
+   "instruction": "Escolha o sinal do fim de cada uma das frases."
+  },
+  "G2-285": {
+   "title": "Classes de palavras com figuras",
+   "instruction": "Separe nove palavras, três em cada coluna."
+  },
+  "G2-286": {
+   "title": "Classes de palavras sem figuras",
+   "instruction": "Agora são doze palavras sem figura nenhuma."
+  },
+  "G2-287": {
+   "title": "Classes de palavras difíceis",
+   "instruction": "Quinze palavras, sem figura: leia com calma."
+  },
+  "G2-289": {
+   "title": "Vamos às compras: duas perguntas",
+   "instruction": "Uma pede o total, a outra pergunta se dá."
+  },
+  "G2-290": {
+   "title": "Vamos às compras: quatro cartões",
+   "instruction": "Cada cartão traz uma pergunta diferente."
+  },
+  "G2-291": {
+   "title": "Vamos às compras: some a cesta",
+   "instruction": "Some o preço dos dois produtos da cesta."
+  },
+  "G2-292": {
+   "title": "Vamos às compras: três produtos",
+   "instruction": "Some os três preços de cada uma das cestas."
+  },
+  "G2-293": {
+   "title": "Vamos às compras: o troco",
+   "instruction": "Veja as moedas e descubra quanto volta de troco."
+  },
+  "G2-294": {
+   "title": "Vamos às compras: o dinheiro dá?",
+   "instruction": "Compare o dinheiro com o preço dos dois."
+  },
+  "G2-295": {
+   "title": "Vamos às compras: a diferença",
+   "instruction": "Ache a diferença de preço em cada cartão."
+  },
+  "G2-296": {
+   "title": "Leitura de calendário com quatro perguntas",
+   "instruction": "Leia o mês e responda a quatro perguntas."
+  },
+  "G2-297": {
+   "title": "Leitura de calendário: um mês cheio",
+   "instruction": "Cinco perguntas e três marcações: conte os dias."
+  },
+  "G2-298": {
+   "title": "Leitura de calendário: dias da semana",
+   "instruction": "As quatro perguntas tratam dos dias da semana."
+  },
+  "G2-299": {
+   "title": "Produção de texto: o que se vê",
+   "instruction": "Os começos de frase já estão ali: continue."
+  },
+  "G2-300": {
+   "title": "Produção de texto: suas palavras",
+   "instruction": "Sem começo pronto: escreva sua historinha."
+  },
+  "G2-302": {
+   "title": "Coordenadas: malha 6 por 6",
+   "instruction": "Pinte os quadradinhos da lista, como B2, e veja a figura."
+  },
+  "G2-303": {
+   "title": "Coordenadas: malha 10 por 10",
+   "instruction": "Esta malha vai de A até J e de 1 até 10: siga a lista."
+  },
+  "G3-371": {
+   "title": "Problemas de multiplicação até 20",
+   "instruction": "Duas historinhas: veja os grupos iguais."
+  },
+  "G3-372": {
+   "title": "Problemas de divisão: repartir",
+   "instruction": "Reparta nas caixinhas e escreva o resultado."
+  },
+  "G3-373": {
+   "title": "Problemas de divisão em grupos",
+   "instruction": "Circule os grupos e escreva quantos são."
+  },
+  "G3-374": {
+   "title": "Problemas de divisão: 2 jeitos",
+   "instruction": "Uma reparte, a outra agrupa: tudo é divisão."
+  },
+  "G3-375": {
+   "title": "Problemas de multiplicar e agrupar",
+   "instruction": "Uma junta os grupos; a outra os separa."
+  },
+  "G3-376": {
+   "title": "Problemas de vezes e divisão",
+   "instruction": "Três historinhas: multiplicar ou dividir?"
+  },
+  "K-308": {
+   "title": "Ligue os pontos contando para trás",
+   "instruction": "Comece no 10 e vá contando para trás até o 1."
+  },
+  "K-309": {
+   "title": "Ligue os pontos na ordem do alfabeto",
+   "instruction": "Aqui os pontos têm letras: siga o alfabeto."
+  },
+  "K-310": {
+   "title": "Palavras pontilhadas em maiúsculas",
+   "instruction": "Cubra e escreva em letra maiúscula."
+  },
+  "K-311": {
+   "title": "Copie a palavra sem cobrir",
+   "instruction": "Sem pontilhado: copie a palavra duas vezes."
+  },
+  "K-313": {
+   "title": "Singular e plural: cubra o singular",
+   "instruction": "O plural já vem escrito ao lado."
+  },
+  "K-314": {
+   "title": "Singular e plural: escreva o plural",
+   "instruction": "Escreva o plural sem cobrir."
+  },
+  "K-315": {
+   "title": "Copie as palavras em maiúsculas",
+   "instruction": "Sem pontilhado: copie do cartão."
+  },
+  "K-316": {
+   "title": "Singular e plural: escreva o singular",
+   "instruction": "Escreva o singular sem cobrir."
+  },
+  "G1-285": {
+   "title": "Ligue os pontos de 2 em 2",
+   "instruction": "Conte de 2 em 2 e ligue; parte do contorno já vem pronta."
+  },
+  "G1-286": {
+   "title": "Dobro e metade, até 20",
+   "instruction": "Uns cartões pedem o dobro; outros, a metade."
+  },
+  "G1-287": {
+   "title": "Dobro até 14, com figuras",
+   "instruction": "Todo cartão pede o dobro: conte as figuras."
+  },
+  "G1-288": {
+   "title": "Metade até 12, com figuras",
+   "instruction": "Cada cartão corta um grupo bem ao meio."
+  },
+  "G1-289": {
+   "title": "Pirâmide de números: comece pelo topo",
+   "instruction": "O topo já vem dado: desça e vá subtraindo."
+  },
+  "G1-291": {
+   "title": "Escreva o nome: só a letra inicial",
+   "instruction": "Sem banco: só a inicial ajuda na linha."
+  },
+  "G1-292": {
+   "title": "O ou a? Separe as palavras",
+   "instruction": "Escreva cada palavra na coluna do o ou do a."
+  },
+  "G1-293": {
+   "title": "Substantivo ou verbo?",
+   "instruction": "A palavra dá nome a algo ou mostra uma ação?"
+  },
+  "G1-294": {
+   "title": "Ligue os pontos: contagem regressiva do 20",
+   "instruction": "Aqui todos os pontos estão numerados."
+  },
+  "G1-295": {
+   "title": "Reta numérica de 20 a 40",
+   "instruction": "Esta reta começa no 20: conte do número escrito mais perto."
+  },
+  "G1-296": {
+   "title": "Dobro até 20, com figuras",
+   "instruction": "Grupos maiores de figuras para dobrar."
+  },
+  "G1-297": {
+   "title": "Metade até 20, com figuras",
+   "instruction": "Grupos maiores para repartir ao meio."
+  },
+  "G1-298": {
+   "title": "Dobro até 20, só com números",
+   "instruction": "Escreva o dobro: não há figuras para contar."
+  },
+  "G1-299": {
+   "title": "Metade até 20, só com números",
+   "instruction": "Reparta o número em duas partes iguais."
+  },
+  "G1-300": {
+   "title": "Substantivo ou adjetivo?",
+   "instruction": "Sem figuras: dá nome a algo ou diz uma qualidade?"
+  },
+  "G1-301": {
+   "title": "Escreva o nome: banco e quadradinhos",
+   "instruction": "Uma letra em cada quadradinho."
+  },
+  "G1-302": {
+   "title": "Ordene a frase: qual palavra começa?",
+   "instruction": "Só o sinal de pontuação aparece."
+  },
+  "G1-303": {
+   "title": "Escreva o nome com os quadradinhos",
+   "instruction": "A letra inicial já começa a palavra."
+  },
+  "G1-304": {
+   "title": "Escreva o nome com todas as pistas",
+   "instruction": "Banco, quadradinhos e inicial ajudam."
+  },
+  "G2-304": {
+   "title": "Ligue os pontos de 5 em 5",
+   "instruction": "Conte de 5 em 5; o resto do contorno já vem desenhado."
+  },
+  "G2-305": {
+   "title": "Reta numérica de 40 a 60",
+   "instruction": "A reta não começa no zero: conte do número mais perto."
+  },
+  "G2-307": {
+   "title": "Onde termina a frase?",
+   "instruction": "Duas frases grudaram: separe e reescreva as duas."
+  },
+  "G2-308": {
+   "title": "Coordenadas: escreva os códigos",
+   "instruction": "A figura já vem pintada: liste os códigos por cor."
+  },
+  "G2-310": {
+   "title": "Reta numérica de 60 a 100",
+   "instruction": "A reta começa no 60 e cada tracinho vale 1: vá contando."
+  },
+  "G2-311": {
+   "title": "Ponto final ou ponto de interrogação?",
+   "instruction": "Duas frases grudaram; uma é pergunta."
+  },
+  "G2-312": {
+   "title": "Leitura de calendário: conte os dias",
+   "instruction": "Conte os dias entre as figuras e ache as datas."
+  },
+  "G2-313": {
+   "title": "Pirâmide de números maiores",
+   "instruction": "Os tijolos passam de 20: some por escrito."
+  },
+  "G2-314": {
+   "title": "Ligue os pontos de 10 em 10",
+   "instruction": "Conte de 10 em 10; o resto do contorno já vem impresso."
+  }
+ },
+ "enAudit": [
+  "G2-292 shopping-math-three-things — RESOLVED upstream (kinds is now [\"total3\",\"total3\",\"total3\"], verified with loadType). Recorded for the trail: it shipped as [\"total3\",\"total\",\"total3\"], so the middle card held only TWO items while the title promised three; the render g2292-fruits.png card 2 read \"Emma puts mango and kiwi in the basket\". pt copy has been rewritten to the uniform page (\"três produtos\" / \"some os três preços de cada uma das cestas\") and the earlier hedged wording is gone.",
+  "G2-294 shopping-math-is-there-enough-money — the instruction 'Count the coins, then compare them with the price' describes a control the page does not have. The canBuy frame in G2-276 renders the money as a NUMBER ({name} tem {money}); coins are drawn only by the 'change' kind, and the render (g2294-vehicles.png) shows no coins at all. Either the instruction should say 'read how much money there is', or the canBuy kind should draw coins.",
+  "G2-295 shopping-math-how-much-more — RESOLVED upstream (kinds is now [\"diff\",\"diff\",\"diff\"], verified with loadType). Recorded for the trail: it shipped as [\"diff\",\"total\",\"diff\"], so card 2 asked for a TOTAL under a title promising a difference (render g2295-toys.png card 2). pt copy now says the difference on every card.",
+  "G1-283 sentence-building no-clues — the sentence-frame pool applies animate verbs to inanimate theme nouns. Render g1283-vehicles.png lane 4 is 'feeds / tom / skateboard / the', i.e. 'tom feeds the skateboard'. A first-grader asked to find 'the only order that works' cannot, because the only grammatical order is semantically nonsense. The frames need an animacy gate before the vehicles/toys themes, exactly like the PERSON_KEYS filter already used in G2-276.",
+  "G1-282 / G1-283 sentence-building — ⭐ NAMING A SPECIFIC END MARK IS WRONG ON MOST PAGES OF THIS FAMILY. The English G1-282 instruction says 'The capital letter and the FULL STOP show you where the sentence starts and ends', but the unscramble frame pool contains questions (pt: 2 of the 12 frames carry '?', and with 3 lanes drawn from 12 the chance a page contains one is ~45%; the fr panel measured 30 of 40 deck variants). The very first sweep render, g1282-fruits.png, opens with 'Is this your pomegranate?' — so the shipped EN instruction is already false on the page it was rendered from. Both faces need a generic end-mark word ('the end mark'), not 'full stop'. pt now says 'o sinal final' on both. G2-281 is the ONE face where a specific mark is correct, because its spec pins ends:['.'].",
+  "G2-282 capitals-punctuation choose-the-end-mark — the difficulty carries needCaps:3 and the page prints a legend chip 'Names', but the instruction mentions only end marks. A child who follows the instruction leaves 'lily and i like the nectarine' with a lowercase name and a lowercase 'i' and is still marked wrong. The instruction should name the proper-noun capital that the page's own legend advertises.",
+  "G1-271 doubles-and-halves-to-20 — the instruction opens 'There are no pictures this time', but every card carries a dot-grid working panel (render g1271-vehicles.png). 'No pictures' reads to a six-year-old as 'nothing to look at'; the true difference is that there are no COUNTERS to count, so the numbers must be worked from. Suggest 'No counters this time — work each double and half out from the numbers.'",
+  "K-289 word-tracing first-words — this is the only word-tracing face with caption:false, so the model word sits ON the writing lane rather than under the picture, and there is exactly ONE empty lane after the trace (K-290/K-291 have two). The instruction says 'write the word on the empty lines', plural, which over-promises the space. Minor, but it is the one face in the family whose lane structure differs.",
+  "G1-263 alphabetical-order-four-words — the title 'ABC Order: Four Words' names the card count, which is the one property it does NOT differ on: G1-262 also has cards:4. The real difference is rulings:true vs rulings:false, i.e. G1-263 also copies the words onto lines. Two sibling faces where the title names a shared property and hides the distinguishing one; a searcher cannot tell them apart.",
+  "G2-281 capitals-punctuation — RESOLVED upstream, recorded for the trail: this face used to be ends:[\".\"] with a generic \"End mark\" legend chip, and I cleared \"full stop\" as honest on that basis. It is now lanes:3 / needCaps:0 / ends:[\".\",\"?\"] / needQ:1, so a question is GUARANTEED on every page and the concrete mark is wrong here too. pt now uses the generic \"sinal final\" on all three capitals-punctuation/sentence-building faces (G1-282, G1-283, G2-281). LESSON WORTH KEEPING: an honesty clearance is only valid against the spec at the moment it was checked — re-read loadType() rather than trusting a previous round's verdict, and note the sweep PNG for this face is STALE (it predates the widening).",
+  "G3-373 division-word-problems-grouping — the instruction says 'Ring the groups in the picture, then write the answer', but unlike the sharing faces (G3-372, G3-374 card 1) this face draws NO dashed group boxes: the items sit in one plain strip (render g3373-toys.png). The child is being asked to draw the rings freehand, which is fine, but the instruction reads as though the rings are already there to be traced. Worth one word: 'Draw a ring round each group.'",
+  "NOT a defect, checked and cleared (recording so the next panel does not re-file them): G3-376 story 2 really does show 30 cranes (3 rows of 10) against six boxes; G1-252 declares colors:8 but correctly renders 6, because colorKeys slices the palette down to the card count; G1-264 really does contain two same-first-letter pairs (pairs:2 is enforced by the generator, so it holds per locale, not only in English).",
+  "⭐ STANDING LESSON from three rounds of late spec changes (G2-281 ends widened, G2-292/G2-295 kinds made uniform, G2-297 cut to five questions and sixRows:false): COPY THAT NAMES A COUNT OR A MARK IS A CLAIM ABOUT THE SPEC, NOT ABOUT THE PAGE I SAW. Every one of these was caught by re-reading loadType(id).difficulty[2], and in each case the sweep PNG was stale and would have led me wrong. Before shipping any locale of this batch, re-read the specs for the faces whose copy names a quantity (cards, lanes, questions, markings, price counts) or a punctuation mark — those are the only fields that go false when a spec moves.",
+  "G2-311 (`ends:['.','?']`, needQ:1) — the face is UNSOLVABLE as designed in Portuguese, and the English title/instruction promise something the pt page cannot deliver. A pt yes/no question has the SAME word order as the statement; the mark is the only signal, and the mark is exactly what the exercise strips. The pt render's lane 1 canonical is 'Pedro ja viu cinco peras? Helena sonha com peras.' — with the marks removed there is no cue at all. Root cause: SENTENCES.pt has no WH-frame; all four '?' frames (s3 s7 s15 s16) are yes/no. The EN bank has 'Where is the pineapple?', which IS solvable. Fix = add wh-frames to the pt fix-pool (Onde esta o/a {noun}? / Quantos {noun} voce ve? / Quem tem tres {noun}?) and require needQ to be satisfied by a WH frame in pt/es/it. Until then the pt/es/it faces of this coordinate should be considered defective, not merely awkward.",
+  "G2-312 'How Many Days Later?' — the title names ONE of the four question kinds. The rendered page asks four different things (which date carries a sticker; how many days between two stickers; the date one week after a given date; which weekday a given date falls on). The instruction 'Use the calendar to work out each date' is also wrong for two of the four: Q2 asks for an INTERVAL and Q4 for a WEEKDAY, neither of which is a date. Both title and instruction overclaim a single question type.",
+  "G1-293 'Two bins with pictures' — only the NOUN chips carry a picture; the verb chips are bare (G2-275 build(): `src: d.pics ? fileUri(...) : null` on the noun branch only). So (a) the instruction is factually wrong about the page, and (b) the picture is a giveaway: a child can sort every chip correctly without reading a single word. If the picture is meant as a support it should be on all chips or on none; as it stands the scaffold defeats the task.",
+  "G1-298 / G1-299 (and the shipped G1-271) — these faces are pure-numeric by design ('No pictures to count'), yet the wave still assigns them a cache theme (measured on the pt wave: G1-298=fruits, G1-299=animals), so manifest.theme is set, the deck H1 renders '... — Frutas' and the meta description carries '(Frutas)' on a page with no fruit on it. Either pin these faces themeless or accept that the theme axis is decorative for them; right now the SEO surface asserts a theme the render does not contain.",
+  "out/b2var-faces.json reports `theme: null` for G1-298 and G1-299 because it reads only WAVE.themeOverrides. The enumerator assigns a round-robin theme to every themed type, so the face table understates the theme for those two. A panel briefed from that column would write 'themeless' copy for a themed deck (and would look for a `-nothm` sweep that can never exist).",
+  "K-309 'from a to t' — correct for EN by accident. The sequence is COLLATION[loc].strip.slice(0, count), so the last letter is locale-dependent; a locale whose strip is ordered differently (or a future count change) silently makes the English sentence false. pt happens to also end at 't' (its strip is the plain 26-letter alphabet), but the English should not hard-code a letter it derives at run time. Same class as the already-fixed 'Dot-to-Dot 1 to 20' defect.",
+  "G1-289 'Work downwards and subtract' — true, but incomplete: besides the apex, ONE middle brick and ONE base brick are also printed (measured across all six walls of the pt/EN render). A child told only to 'work downwards' from the top cannot start — the second given is what makes each wall solvable. The instruction describes a strictly harder page than the one printed.",
+  "G2-313 'Number Walls with Two-Digit Answers' + 'The bricks climb past twenty' — honest, but the slug/copy family elsewhere reads 'to 100'; for the record the apex is bounded by topMax and the four measured walls peak at 60/70/... , well under 100. Keep the 'past twenty' framing; do NOT let a later rewrite promote it to 'to 100'.",
+  "K-311 'Look at the word on the card and copy it twice' vs K-315 'Look at the capitals, then write them yourself' — same mechanic (caption model, no trace lane, two empty trios), but only one of the two English instructions mentions that there are TWO writing lines. K-315 should say it too, or neither should.",
+  "G1-286 'Doubles and Halves with Pictures to 20' — the ceiling is right (dMax/hMax = 10 => 20), but the page carries only FOUR cards while its single-operation siblings carry six; the title's 'with Pictures' is the only thing distinguishing it from G1-270, which is also with pictures. The real distinguishing fact is the RANGE (to 20 vs to 8), and the English title buries it behind a feature both faces share.",
+  "G1-303 'the first letter starts you off on the line' — accurate and worth preserving verbatim, because the obvious reading (the first letter sits in box one) is WRONG: the starter is on the ruled lane and every letter box is empty. Any future shortening of this string will almost certainly break that.",
+  "pt vocab, not English: the `toys` theme carries BOTH `doll` (Boneca) and `girl` (Menina), and the `girl` artwork is a doll figurine in a hat and pinafore. K-315 therefore prints a doll picture captioned MENINA on a page whose whole task is copying that word. A BR six-year-old writes BONECA and is wrong. Worth a look at the girl/doll art pairing in the toys theme before this ships."
+ ]
 }

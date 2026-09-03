@@ -1900,8 +1900,8 @@
     "instruction": "Kun den nederste række er givet. Læg sammen opad — tallene bliver tocifrede."
   },
   "G1-302": {
-    "title": "Sæt ordene i rækkefølge uden stort bogstav",
-    "instruction": "Der er kun tegnet til sidst. Find ordet, der skal først."
+    "title": "Sæt ordene i rækkefølge: find starten",
+    "instruction": "Ét ord har tegnet til sidst. Find det ord, der skal først."
   },
   "G1-303": {
     "title": "Skriv ordet: bogstavfelter og første bogstav",

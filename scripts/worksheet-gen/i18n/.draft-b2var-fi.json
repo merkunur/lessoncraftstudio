@@ -1,83 +1,428 @@
 {
   "locale": "fi",
   "types": {
-    "K-289": { "title": "Jäljennä lyhyet sanat", "instruction": "Lue valmis sana. Jäljennä katkoviivat ja kirjoita sana itse." },
-    "K-290": { "title": "Jäljennä ja kirjoita kahdesti", "instruction": "Jäljennä sana kerran ja kirjoita se sitten kahdesti." },
-    "K-291": { "title": "Jäljennä pitkät sanat", "instruction": "Nämä sanat ovat pitkiä. Jäljennä ja kirjoita ne itse." },
-    "K-294": { "title": "Yhdistä pisteet 1–10", "instruction": "Aloita oranssista pisteestä. Yhdistä pisteet 1–10 järjestyksessä." },
-    "K-295": { "title": "Yhdistä pisteet 11–20", "instruction": "Aloita oranssista pisteestä. Yhdistä pisteet 11–20 järjestyksessä." },
-    "K-296": { "title": "Yhdistä pisteet 11–30", "instruction": "Aloita pisteestä 11. Laske eteenpäin 30:een ja yhdistä pisteet." },
-    "K-298": { "title": "Piirrä ruudukkoon: helppo aloitus", "instruction": "Ruudukossa ei ole kirjaimia. Väritä samat ruudut viereen." },
-    "K-299": { "title": "Piirrä ruudukkoon: A–F ja 1–6", "instruction": "Etsi ruutu kirjaimen ja numeron avulla. Väritä samat ruudut." },
-    "K-300": { "title": "Piirrä ruudukkoon: 8×8-ruudukko", "instruction": "Isompi ruudukko: etsi ruudut kirjaimen ja numeron avulla." },
-    "K-302": { "title": "Yksikkö ja monikko: lyhyet sanat", "instruction": "Sanat ovat lyhyitä. Jäljennä monikkomuoto viivalle." },
-    "K-303": { "title": "Yksikkö ja monikko: pitkät sanat", "instruction": "Sanat ovat pitkiä. Jäljennä monikko viivalle." },
-    "K-306": { "title": "Yksi vai monta: neljä kuvaa", "instruction": "Neljä kuvaa. Ympyröi sana, joka sopii kuvan määrään." },
-    "K-307": { "title": "Yksi vai monta: kahdeksan kuvaa", "instruction": "Kahdeksan kuvaa. Ympyröi kuvaan sopiva muoto." },
-    "G1-251": { "title": "Lue ja väritä: neljä lausetta", "instruction": "Neljä lausetta ja neljä väriä. Väritä juuri lauseen mukaan." },
-    "G1-252": { "title": "Lue ja väritä: kiireinen sivu", "instruction": "Enemmän lauseita ja värejä. Lue jokainen lause tarkasti loppuun." },
-    "G1-255": { "title": "Päivän luku 11–19", "instruction": "Täytä kymppiruudut, tukkimiehet ja muut ruudut päivän luvun mukaan." },
-    "G1-256": { "title": "Päivän luku: 10 enemmän, 10 vähemmän", "instruction": "Etsi 10 enemmän ja 10 vähemmän kuin päivän luku." },
-    "G1-257": { "title": "Päivän luku: kaksinumeroiset luvut", "instruction": "Päivän luku on 21–99. Näytä se kymppeinä ja ykkösinä." },
-    "G1-258": { "title": "Kirjoita sana: alkukirjain valmiina", "instruction": "Sanapankki auttaa. Alkukirjain on jo viivalla." },
-    "G1-259": { "title": "Kirjoita sana sanapankin avulla", "instruction": "Kaikki sanat ovat pankissa. Kirjoita oikea sana." },
-    "G1-260": { "title": "Kirjoita sana ilman sanapankkia", "instruction": "Nyt ei ole sanapankkia. Kirjoita sana itse viivalle." },
-    "G1-262": { "title": "Aakkosjärjestys: numeroi kortit", "instruction": "Numeroi neljä korttia aakkosjärjestykseen." },
-    "G1-263": { "title": "Aakkosjärjestys: numeroi ja kirjoita", "instruction": "Numeroi kortit ja kirjoita sanat viivoille." },
-    "G1-264": { "title": "Aakkosjärjestys: sama alkukirjain", "instruction": "Kahdella parilla on sama alkukirjain. Katso toista." },
-    "G1-266": { "title": "Lukupyramidi 10:een", "instruction": "Ylin tiili on alempien summa. Rakenna pyramidit 10:een." },
-    "G1-267": { "title": "Lukupyramidi: neljä kerrosta", "instruction": "Pyramideissa on neljä kerrosta. Laske pareittain ylöspäin." },
-    "G1-268": { "title": "Lukupyramidi: puuttuva tiili", "instruction": "Yksi alin tiili puuttuu. Käytä yläpuolen tiiliä apuna." },
-    "G1-270": { "title": "Tuplaa ja puolita kuvien avulla", "instruction": "Kortit näyttävät ryhmät. Tuplaa tai puolita ne." },
-    "G1-271": { "title": "Tuplaa ja puolita 20:een", "instruction": "Nyt vain luvut. Laske tuplat ja puolet 20:een asti." },
-    "G1-274": { "title": "Lukusuora 0–10", "instruction": "Kirjoita luku, jota jokainen nuoli osoittaa lukusuoralla 0–10." },
-    "G1-275": { "title": "Lukusuora 0–20: vähän merkintöjä", "instruction": "Vain 0, 10 ja 20 on merkitty. Laske eteenpäin nuoleen." },
-    "G1-276": { "title": "Lukusuora 0–30", "instruction": "Laske eteenpäin 30:een. Kirjoita nuolten osoittamat luvut." },
-    "G1-277": { "title": "Lukusuora 0–50", "instruction": "Joka kymmenes luku on merkitty. Laske eteenpäin 50:een." },
-    "G1-278": { "title": "Lukusuora 0–50: viiden välein", "instruction": "Laske viiden välein 0:sta, 25:stä tai 50:stä nuoleen." },
-    "G1-279": { "title": "Lukusuora 0–100: viiden välein", "instruction": "Joka viiva on viisi. Millä luvulla jokainen nuoli on?" },
-    "G1-280": { "title": "Lukusuora 0–100: kymmenen välein", "instruction": "Joka viiva on kymmenen. Laske kymmenittäin nuoleen asti." },
-    "G1-281": { "title": "Lukusuora 0–120", "instruction": "Lukusuora jatkuu yli sadan. Laske kymmenittäin nuoleen." },
-    "G1-282": { "title": "Järjestä lause: vihjeet mukana", "instruction": "Iso alkukirjain ja piste näyttävät lauseen rajat." },
-    "G1-283": { "title": "Järjestä lause ilman vihjeitä", "instruction": "Ei vihjeitä. Etsi ainoa järjestys, joka toimii." },
-    "G2-281": { "title": "Korjaa kolme lausetta: välimerkit", "instruction": "Lisää iso alkukirjain ja piste tai kysymysmerkki." },
-    "G2-282": { "title": "Korjaa lause: lopetusmerkki", "instruction": "Korjaa alkukirjaimet ja nimet. Valitse lopetusmerkki." },
-    "G2-285": { "title": "Sanaluokat: yhdeksän sanaa", "instruction": "Substantiiveissa on kuva apuna. Lajittele yhdeksän sanaa." },
-    "G2-286": { "title": "Sanaluokat ilman kuvia", "instruction": "Nyt ilman kuvia. Lue sana ja vie se oikeaan laatikkoon." },
-    "G2-287": { "title": "Sanaluokat: viisitoista sanaa", "instruction": "Viisitoista sanaa, ei kuvia. Lajittele laatikoihin." },
-    "G2-289": { "title": "Rahalaskut: kaksi kysymystä", "instruction": "Lue molemmat tarinat. Käytä hyllyn hintoja apuna." },
-    "G2-290": { "title": "Rahalaskut: neljä eri kysymystä", "instruction": "Neljä korttia ja neljä erilaista kysymystä." },
-    "G2-291": { "title": "Rahalaskut: laske ostokset yhteen", "instruction": "Jokaisessa kortissa lasketaan kahden tavaran hinta." },
-    "G2-292": { "title": "Rahalaskut: kolme tavaraa korissa", "instruction": "Korissa on kolme tavaraa. Laske hinnat yhteen." },
-    "G2-293": { "title": "Rahalaskut: paljonko takaisin?", "instruction": "Laske maksetut kolikot. Paljonko rahaa saa takaisin?" },
-    "G2-294": { "title": "Rahalaskut: riittääkö raha?", "instruction": "Vertaa rahaa ja hintaa. Ympyröi kyllä tai ei." },
-    "G2-295": { "title": "Rahalaskut: paljonko enemmän?", "instruction": "Vertaa kahta hintaa. Laske, paljonko on erotus." },
-    "G2-296": { "title": "Kalenterin lukeminen: neljä kysymystä", "instruction": "Katso kuukautta. Vastaa neljään kysymykseen." },
-    "G2-297": { "title": "Kalenterin lukeminen: kiireinen kuukausi", "instruction": "Kuukausi on täynnä. Lue kalenteria tarkasti." },
-    "G2-298": { "title": "Kalenteri ja viikonpäivät", "instruction": "Kaikki kysymykset koskevat viikonpäiviä." },
-    "G2-299": { "title": "Kirjoita kuvasta aloitusten avulla", "instruction": "Aloituslauseet auttavat. Sanapankissa ovat sanat." },
-    "G2-300": { "title": "Kirjoita kuvasta omin sanoin", "instruction": "Ei aloituslauseita. Kirjoita kuvasta omin sanoin." },
-    "G2-302": { "title": "Koordinaatit 6×6-ruudukossa", "instruction": "Etsi jokainen ruutu kirjaimen ja numeron avulla." },
-    "G2-303": { "title": "Koordinaatit 10×10-ruudukossa", "instruction": "Isompi ruudukko. Käy värilista huolellisesti läpi." },
-    "G3-371": { "title": "Sanalliset kertolaskut", "instruction": "Kuva näyttää yhtä suuret ryhmät. Kirjoita vastaus." },
-    "G3-372": { "title": "Sanalliset jakolaskut: jaa tasan", "instruction": "Jokaisessa tarinassa jaetaan tasan laatikoihin." },
-    "G3-373": { "title": "Sanalliset jakolaskut: tee ryhmiä", "instruction": "Ympyröi kuvasta yhtä suuret ryhmät ja laske ne." },
-    "G3-374": { "title": "Jakolaskut kahdella tavalla", "instruction": "Toisessa jaetaan tasan, toisessa tehdään ryhmiä." },
-    "G3-375": { "title": "Kertolasku ja ryhmiin jako", "instruction": "Toisessa kootaan ryhmiä, toisessa puretaan niitä." },
-    "G3-376": { "title": "Sekalaiset kerto- ja jakolaskut", "instruction": "Kolme tarinaa. Mieti ensin, mitä kussakin kysytään." }
+    "K-289": {
+      "title": "Jäljennä lyhyet sanat",
+      "instruction": "Lue valmis sana. Jäljennä katkoviivat ja kirjoita sana itse."
+    },
+    "K-290": {
+      "title": "Jäljennä ja kirjoita kahdesti",
+      "instruction": "Jäljennä sana kerran ja kirjoita se sitten kahdesti."
+    },
+    "K-291": {
+      "title": "Jäljennä pitkät sanat",
+      "instruction": "Nämä sanat ovat pitkiä. Jäljennä ja kirjoita ne itse."
+    },
+    "K-294": {
+      "title": "Yhdistä pisteet 1–10",
+      "instruction": "Aloita oranssista pisteestä. Yhdistä pisteet 1–10 järjestyksessä."
+    },
+    "K-295": {
+      "title": "Yhdistä pisteet 11–20",
+      "instruction": "Aloita oranssista pisteestä. Yhdistä pisteet 11–20 järjestyksessä."
+    },
+    "K-296": {
+      "title": "Yhdistä pisteet 11–30",
+      "instruction": "Aloita pisteestä 11. Laske eteenpäin 30:een ja yhdistä pisteet."
+    },
+    "K-298": {
+      "title": "Piirrä ruudukkoon: helppo aloitus",
+      "instruction": "Ruudukossa ei ole kirjaimia. Väritä samat ruudut viereen."
+    },
+    "K-299": {
+      "title": "Piirrä ruudukkoon: A–F ja 1–6",
+      "instruction": "Etsi ruutu kirjaimen ja numeron avulla. Väritä samat ruudut."
+    },
+    "K-300": {
+      "title": "Piirrä ruudukkoon: 8×8-ruudukko",
+      "instruction": "Isompi ruudukko: etsi ruudut kirjaimen ja numeron avulla."
+    },
+    "K-302": {
+      "title": "Yksikkö ja monikko: lyhyet sanat",
+      "instruction": "Sanat ovat lyhyitä. Jäljennä monikkomuoto viivalle."
+    },
+    "K-303": {
+      "title": "Yksikkö ja monikko: pitkät sanat",
+      "instruction": "Sanat ovat pitkiä. Jäljennä monikko viivalle."
+    },
+    "K-306": {
+      "title": "Yksi vai monta: neljä kuvaa",
+      "instruction": "Neljä kuvaa. Ympyröi sana, joka sopii kuvan määrään."
+    },
+    "K-307": {
+      "title": "Yksi vai monta: kahdeksan kuvaa",
+      "instruction": "Kahdeksan kuvaa. Ympyröi kuvaan sopiva muoto."
+    },
+    "G1-251": {
+      "title": "Lue ja väritä: neljä lausetta",
+      "instruction": "Neljä lausetta ja neljä väriä. Väritä tarkasti."
+    },
+    "G1-252": {
+      "title": "Lue ja väritä: kiireinen sivu",
+      "instruction": "Kuusi lausetta ja kuusi väriä. Lue ne tarkasti."
+    },
+    "G1-255": {
+      "title": "Päivän luku 11–19",
+      "instruction": "Täytä kymppiruudut, tukkimiehet ja muut ruudut päivän luvun mukaan."
+    },
+    "G1-256": {
+      "title": "Päivän luku: 10 enemmän, 10 vähemmän",
+      "instruction": "Etsi 10 enemmän ja 10 vähemmän kuin päivän luku."
+    },
+    "G1-257": {
+      "title": "Päivän luku: kaksinumeroiset luvut",
+      "instruction": "Päivän luku on 21–99. Näytä se kymppeinä ja ykkösinä."
+    },
+    "G1-258": {
+      "title": "Kirjoita sana: alkukirjain valmiina",
+      "instruction": "Sanapankki auttaa. Alkukirjain on jo viivalla."
+    },
+    "G1-259": {
+      "title": "Kirjoita sana sanapankin avulla",
+      "instruction": "Kaikki sanat ovat pankissa. Kirjoita oikea sana."
+    },
+    "G1-260": {
+      "title": "Kirjoita sana ilman sanapankkia",
+      "instruction": "Nyt ei ole sanapankkia. Kirjoita sana itse viivalle."
+    },
+    "G1-262": {
+      "title": "Aakkosjärjestys: numeroi kortit",
+      "instruction": "Numeroi neljä korttia aakkosjärjestykseen."
+    },
+    "G1-263": {
+      "title": "Aakkosjärjestys: numeroi ja kirjoita",
+      "instruction": "Numeroi kortit ja kirjoita sanat viivoille."
+    },
+    "G1-264": {
+      "title": "Aakkosjärjestys: sama alkukirjain",
+      "instruction": "Jos alkukirjain on sama, katso toista kirjainta."
+    },
+    "G1-266": {
+      "title": "Lukupyramidi 10:een",
+      "instruction": "Ylin tiili on alempien summa. Rakenna pyramidit 10:een."
+    },
+    "G1-267": {
+      "title": "Lukupyramidi: neljä kerrosta",
+      "instruction": "Pyramideissa on neljä kerrosta. Laske pareittain ylöspäin."
+    },
+    "G1-268": {
+      "title": "Lukupyramidi: puuttuva tiili",
+      "instruction": "Yksi alin tiili puuttuu. Käytä yläpuolen tiiliä apuna."
+    },
+    "G1-270": {
+      "title": "Tuplaa ja puolita kuvien avulla",
+      "instruction": "Kortit näyttävät ryhmät. Tuplaa tai puolita ne."
+    },
+    "G1-271": {
+      "title": "Tuplaa ja puolita 20:een",
+      "instruction": "Nyt vain luvut. Laske tuplat ja puolet 20:een asti."
+    },
+    "G1-274": {
+      "title": "Lukusuora 0–10",
+      "instruction": "Kirjoita luku, jota jokainen nuoli osoittaa lukusuoralla 0–10."
+    },
+    "G1-275": {
+      "title": "Lukusuora 0–20: vähän merkintöjä",
+      "instruction": "Vain 0, 10 ja 20 on merkitty. Laske eteenpäin nuoleen."
+    },
+    "G1-276": {
+      "title": "Lukusuora 0–30",
+      "instruction": "Laske eteenpäin 30:een. Kirjoita nuolten osoittamat luvut."
+    },
+    "G1-277": {
+      "title": "Lukusuora 0–50",
+      "instruction": "Joka kymmenes luku on merkitty. Laske eteenpäin 50:een."
+    },
+    "G1-278": {
+      "title": "Lukusuora 0–50: viiden välein",
+      "instruction": "Laske viiden välein 0:sta, 25:stä tai 50:stä nuoleen."
+    },
+    "G1-279": {
+      "title": "Lukusuora 0–100: viiden välein",
+      "instruction": "Joka viiva on viisi. Millä luvulla jokainen nuoli on?"
+    },
+    "G1-280": {
+      "title": "Lukusuora 0–100: kymmenen välein",
+      "instruction": "Joka viiva on kymmenen. Laske kymmenittäin nuoleen asti."
+    },
+    "G1-281": {
+      "title": "Lukusuora 0–120",
+      "instruction": "Lukusuora jatkuu yli sadan. Laske kymmenittäin nuoleen."
+    },
+    "G1-282": {
+      "title": "Järjestä lause: vihjeet mukana",
+      "instruction": "Iso alkukirjain ja piste näyttävät lauseen rajat."
+    },
+    "G1-283": {
+      "title": "Järjestä lause ilman vihjeitä",
+      "instruction": "Ei vihjeitä. Järjestä sanat järkeväksi lauseeksi."
+    },
+    "G2-281": {
+      "title": "Korjaa kolme lausetta: välimerkit",
+      "instruction": "Lisää iso alkukirjain ja piste tai kysymysmerkki."
+    },
+    "G2-282": {
+      "title": "Korjaa lause: lopetusmerkki",
+      "instruction": "Korjaa alkukirjaimet ja nimet. Valitse lopetusmerkki."
+    },
+    "G2-285": {
+      "title": "Sanaluokat: yhdeksän sanaa",
+      "instruction": "Substantiiveissa on kuva apuna. Lajittele yhdeksän sanaa."
+    },
+    "G2-286": {
+      "title": "Sanaluokat ilman kuvia",
+      "instruction": "Nyt ilman kuvia. Lue sana ja vie se oikeaan laatikkoon."
+    },
+    "G2-287": {
+      "title": "Sanaluokat: viisitoista sanaa",
+      "instruction": "Viisitoista sanaa, ei kuvia. Lajittele laatikoihin."
+    },
+    "G2-289": {
+      "title": "Rahalaskut: kaksi kysymystä",
+      "instruction": "Lue molemmat tarinat. Käytä hyllyn hintoja apuna."
+    },
+    "G2-290": {
+      "title": "Rahalaskut: neljä eri kysymystä",
+      "instruction": "Neljä korttia ja neljä erilaista kysymystä."
+    },
+    "G2-291": {
+      "title": "Rahalaskut: laske ostokset yhteen",
+      "instruction": "Jokaisessa kortissa lasketaan kahden tavaran hinta."
+    },
+    "G2-292": {
+      "title": "Rahalaskut: kolme tavaraa korissa",
+      "instruction": "Korissa on kolme tavaraa. Laske hinnat yhteen."
+    },
+    "G2-293": {
+      "title": "Rahalaskut: paljonko takaisin?",
+      "instruction": "Laske maksetut kolikot. Paljonko rahaa saa takaisin?"
+    },
+    "G2-294": {
+      "title": "Rahalaskut: riittääkö raha?",
+      "instruction": "Vertaa rahaa ja hintaa. Ympyröi kyllä tai ei."
+    },
+    "G2-295": {
+      "title": "Rahalaskut: paljonko enemmän?",
+      "instruction": "Vertaa kahta hintaa. Laske, paljonko on erotus."
+    },
+    "G2-296": {
+      "title": "Kalenterin lukeminen: neljä kysymystä",
+      "instruction": "Katso kuukautta. Vastaa neljään kysymykseen."
+    },
+    "G2-297": {
+      "title": "Kalenterin lukeminen: kiireinen kuukausi",
+      "instruction": "Kuukausi on täynnä. Lue kalenteria tarkasti."
+    },
+    "G2-298": {
+      "title": "Kalenteri ja viikonpäivät",
+      "instruction": "Kaikki kysymykset koskevat viikonpäiviä."
+    },
+    "G2-299": {
+      "title": "Kirjoita kuvasta aloitusten avulla",
+      "instruction": "Aloituslauseet auttavat. Sanapankissa ovat sanat."
+    },
+    "G2-300": {
+      "title": "Kirjoita kuvasta omin sanoin",
+      "instruction": "Ei aloituslauseita. Kirjoita kuvasta omin sanoin."
+    },
+    "G2-302": {
+      "title": "Koordinaatit 6×6-ruudukossa",
+      "instruction": "Etsi jokainen ruutu kirjaimen ja numeron avulla."
+    },
+    "G2-303": {
+      "title": "Koordinaatit 10×10-ruudukossa",
+      "instruction": "Isompi ruudukko. Käy värilista huolellisesti läpi."
+    },
+    "G3-371": {
+      "title": "Sanalliset kertolaskut",
+      "instruction": "Kuva näyttää yhtä suuret ryhmät. Kirjoita vastaus."
+    },
+    "G3-372": {
+      "title": "Sanalliset jakolaskut: jaa tasan",
+      "instruction": "Jokaisessa tarinassa jaetaan tasan laatikoihin."
+    },
+    "G3-373": {
+      "title": "Sanalliset jakolaskut: tee ryhmiä",
+      "instruction": "Ympyröi kuvasta yhtä suuret ryhmät ja laske ne."
+    },
+    "G3-374": {
+      "title": "Jakolaskut kahdella tavalla",
+      "instruction": "Toisessa jaetaan tasan, toisessa tehdään ryhmiä."
+    },
+    "G3-375": {
+      "title": "Kertolasku ja ryhmiin jako",
+      "instruction": "Toisessa kootaan ryhmiä, toisessa puretaan niitä."
+    },
+    "G3-376": {
+      "title": "Sekalaiset kerto- ja jakolaskut",
+      "instruction": "Kolme tarinaa. Mieti ensin, mitä kussakin kysytään."
+    },
+    "K-308": {
+      "title": "Yhdistä pisteet takaperin 10–1",
+      "instruction": "Aloita oranssista pisteestä ja laske takaperin 10:stä 1:een."
+    },
+    "G1-285": {
+      "title": "Yhdistä pisteet kahden välein 2–20",
+      "instruction": "Yhdistä pisteet kahden välein. Muu kuva on jo piirretty."
+    },
+    "G1-294": {
+      "title": "Yhdistä pisteet takaperin 20–1",
+      "instruction": "Kaikki pisteet on numeroitu. Yhdistä ne takaperin 20:stä 1:een."
+    },
+    "G2-304": {
+      "title": "Yhdistä pisteet viiden välein 5–50",
+      "instruction": "Yhdistä pisteet viiden välein. Muu kuva on jo piirretty."
+    },
+    "K-311": {
+      "title": "Kopioi sana kortista",
+      "instruction": "Katkoviivoja ei ole. Lue kortin sana ja kirjoita se kahdesti."
+    },
+    "G1-291": {
+      "title": "Kirjoita sana: vain alkukirjain",
+      "instruction": "Sanapankkia ei ole. Jatka sanaa alkukirjaimesta."
+    },
+    "G1-286": {
+      "title": "Tuplaa ja puolita kuvilla 20:een asti",
+      "instruction": "Osassa kortteja tuplataan, osassa puolitetaan."
+    },
+    "G2-305": {
+      "title": "Lukusuora 40–60",
+      "instruction": "Lukusuora ei ala nollasta. Laske eteenpäin lähimmästä merkitystä luvusta."
+    },
+    "G2-310": {
+      "title": "Lukusuora 60–100",
+      "instruction": "Lukusuora alkaa luvusta 60. Laske eteenpäin lähimmästä merkitystä luvusta."
+    },
+    "G1-295": {
+      "title": "Lukusuora 20–40",
+      "instruction": "Lukusuora alkaa luvusta 20. Laske eteenpäin lähimmästä merkitystä luvusta."
+    },
+    "G1-287": {
+      "title": "Tuplaa kuvaryhmät, summat enintään 14",
+      "instruction": "Tuplaa jokainen kuvaryhmä ja kirjoita summa."
+    },
+    "G1-288": {
+      "title": "Puolita kuvaryhmät, enintään 12 kuvaa",
+      "instruction": "Puolita jokainen kuvaryhmä ja kirjoita osat."
+    },
+    "G1-296": {
+      "title": "Tuplaa kuvaryhmät 20:een asti",
+      "instruction": "Isompia ryhmiä. Tuplaa jokainen ja kirjoita summa."
+    },
+    "G1-297": {
+      "title": "Puolita kuvaryhmät 20:een asti",
+      "instruction": "Isompia ryhmiä. Puolita jokainen ja kirjoita osat."
+    },
+    "K-314": {
+      "title": "Yksikkö ja monikko: kirjoita monikko",
+      "instruction": "Katkoviivoja ei ole. Kirjoita monikko viivalle."
+    },
+    "G1-293": {
+      "title": "Substantiivit ja verbit",
+      "instruction": "Onko sana substantiivi vai verbi? Kirjoita se laatikkoon."
+    },
+    "K-310": {
+      "title": "Jäljennä sanat isoin kirjaimin",
+      "instruction": "Jäljennä sana isoin kirjaimin ja kirjoita se itse."
+    },
+    "G1-289": {
+      "title": "Lukupyramidi ylhäältä alaspäin",
+      "instruction": "Ylin tiili on valmiina. Etene alaspäin ja vähennä."
+    },
+    "K-313": {
+      "title": "Yksikkö ja monikko: jäljennä yksikkö",
+      "instruction": "Monikko on annettu. Jäljennä yksikkö viivalle."
+    },
+    "G2-308": {
+      "title": "Koordinaatit: kirjoita ruutujen tunnukset",
+      "instruction": "Kuva on jo väritetty. Kirjoita värin ruudut listaan."
+    },
+    "K-309": {
+      "title": "Yhdistä pisteet aakkosjärjestyksessä a–t",
+      "instruction": "Aloita oranssista pisteestä ja etene a:sta t:hen."
+    },
+    "G2-307": {
+      "title": "Korjaa lause: mihin se loppuu?",
+      "instruction": "Kaksi lausetta on kirjoitettu yhteen. Erota lauseet."
+    },
+    "G1-292": {
+      "title": "Yksi vai monta: lajittele sanat",
+      "instruction": "Lue sana ja kirjoita se oikean otsikon alle."
+    },
+    "G1-298": {
+      "title": "Tuplaa luvut ilman kuvia, enintään 20",
+      "instruction": "Kirjoita jokaisen luvun tupla. Kuvia ei lasketa."
+    },
+    "G1-299": {
+      "title": "Puolita luvut ilman kuvia, enintään 20",
+      "instruction": "Jaa luku kahteen yhtä suureen osaan. Kuvia ei lasketa."
+    },
+    "G1-300": {
+      "title": "Substantiivit ja adjektiivit",
+      "instruction": "Substantiivi vai adjektiivi? Kirjoita sana laatikkoon."
+    },
+    "G1-301": {
+      "title": "Sanapankki ja kirjainruudut",
+      "instruction": "Etsi sana pankista. Kirjoita se viivalle ja ruutuihin."
+    },
+    "G2-311": {
+      "title": "Kaksi lausetta: piste vai kysymysmerkki?",
+      "instruction": "Erota lauseet ja valitse lopetusmerkki."
+    },
+    "G2-312": {
+      "title": "Kalenteri: montako päivää välissä?",
+      "instruction": "Etsi merkit kalenterista. Laske päivät niiden välissä."
+    },
+    "G2-314": {
+      "title": "Yhdistä pisteet kymmenen välein 10–100",
+      "instruction": "Yhdistä pisteet kymmenen välein. Muu kuva on piirretty."
+    },
+    "K-315": {
+      "title": "Kopioi isot kirjaimet kortista",
+      "instruction": "Lue kortin isot kirjaimet ja kirjoita sana kahdesti."
+    },
+    "K-316": {
+      "title": "Yksikkö ja monikko: kirjoita yksikkö",
+      "instruction": "Katkoviivoja ei ole. Kirjoita yksikkö viivalle."
+    },
+    "G2-313": {
+      "title": "Lukupyramidi: kaksinumeroiset summat",
+      "instruction": "Alin rivi on valmiina. Laske pareittain ylöspäin."
+    },
+    "G1-302": {
+      "title": "Järjestä lause: mistä lause alkaa?",
+      "instruction": "Etsi aloittava sana. Vain lopetusmerkki auttaa."
+    },
+    "G1-303": {
+      "title": "Kirjainruudut ja alkukirjain",
+      "instruction": "Alkukirjain on viivalla. Kirjoita sana myös ruutuihin."
+    },
+    "G1-304": {
+      "title": "Kirjoita sana: kaikki vihjeet apuna",
+      "instruction": "Kirjoita sana. Kaikki kolme vihjettä auttavat."
+    }
   },
   "enAudit": [
-    "G1-264 — the spec is `pairs: 2`, so the page always carries TWO same-initial pairs (four of the six words); the render confirms it (baby/boat AND scooter/swing). The title 'ABC Order: When Two Words Start the Same' and the instruction 'Two words start alike. Use the second letter to order them.' both describe ONE pair, so a child who resolves one pair and stops has been told the job is finished. Suggest 'Some words start with the same letter' / 'Two pairs start alike'.",
-    "G1-271 — the difficulty config is `icon: 0`, so all eight cards render a large EMPTY dotted panel; in its sibling G1-270 that same panel is where the counters sit. The title 'Doubles and Halves to 20' and the instruction 'Numbers only this time. Work out each double and half up to 20.' never tell the child the panel is theirs to draw the dots in, so the page ships an unexplained blank box eight times. Either name it ('draw the dots to check') or drop the panel when icon is 0.",
-    "K-298 vs K-299 — both are `size: 6`, i.e. IDENTICAL 6x6 grids. K-298's instruction 'A small grid to start.' is a size claim, but size is the one property it SHARES with K-299; the real difference is `labels: false` (K-298 has no A-F / 1-6 headers, K-299 does). The size claim is only true against K-300 (8x8). This is the same class as the already-fixed 'title names a shared property' defects. Suggest 'No letters or numbers yet — just match the squares.'",
-    "G2-298 — the questions are [dayOfDate, countWeekday, firstDay, lastDay]. THREE of the four are 'which weekday is date X'; only countWeekday is answered by reading down a column, so the instruction 'Every question is about the days. Read down the columns.' misdescribes three quarters of the page. It also means the page is thinner than its four-question count suggests — three questions are the same question.",
-    "G2-296 vs G2-298 — both are four-question calendar pages and they share TWO of the four frames (dayOfDate, countWeekday). Neither title signals the overlap, and 'Read the Calendar: Four Questions' names a property BOTH pages have (G2-298 also has exactly four). Same shared-property title class as above.",
-    "G1-255 vs G1-256 — both are `min: 11, max: 19`, i.e. both are teen-number pages. G1-255's whole title distinguisher is 'Teen Numbers', which is precisely the property it shares with G1-256. The real difference is the panel set: G1-255 has ten frames + tally, G1-256 has base-ten blocks + ten-more/ten-less. G1-255's title should name a panel, not the range.",
-    "K-306 / K-307 (fi, and any future mode:'form' locale) — `data/b2/articles.js` gives fi `mode: 'form'`, so these are not article pages at all: the two chips are the noun's own nominative singular and plural and the key is the picture count. The title 'Circle the Right Word' survives that, but the instruction — 'circle the word that BELONGS WITH it', and the base K-288's 'the word that goes in front of it' — describes an article standing IN FRONT OF a noun and is simply false for fi. The English needs a form-neutral wording, e.g. 'circle the word that matches the picture'.",
-    "K-306 / K-307 (fi, panel note on the operator's partitive ruling) — the render still shows NOMINATIVE yksikko/monikko chips, so the Finnish titles and instructions written here describe that honestly ('Yksi vai monta', 'circle the form that fits the picture'). We confirm the collision the ruling is aimed at: with nominative chips this family teaches the same contrast as K-287/K-302/K-303 (yksikko ja monikko), only recognition instead of production. Moving to partitive (yksi omena / kaksi omenaa) does remove the overlap and is the right call — but these two faces will need re-titling and re-instructing when it lands, because 'Yksi vai monta' will then no longer name the contrast on the page.",
-    "G2-289 — the only money face whose instruction omits a control the page carries. Its kinds are ['total','canBuy'], so card 2 has a yes/no pair to circle, yet the instruction says only 'Read each story and use the shelf prices to answer it.' G2-294, whose cards are all canBuy, does mention circling. The card's own sentence carries it, so it is not fatal, but the page-level instruction is silent about the only non-writing control on the sheet.",
-    "G3-373 vs G3-375 / G3-376 — the 'group' (quotative) card renders its objects as ONE undivided strip with no boxes, and G3-373's instruction correctly tells the child to 'Ring the equal groups in the picture'. G3-375 (ops mul+group) and G3-376 (ops mul+share+group) carry the identical card type but their instructions never mention ringing, so the same card arrives with scaffolding language on one sheet and none on the next two. The 'share' card is unaffected — it prints dashed boxes to deal into.",
-    "Latent data defect, not currently reachable — fi `nounForms.partitive.crane = 'kurkea'` in data/b2/sentences.js AND data/b2/wp-muldiv-frames.js is the BIRD (crane = kurki), while the artwork at image-library/vehicles/crane.png is the machine (nosturi). It is unreachable today only because lib/b2-common.js `B2_EXCLUDE.crane` lists fi; the wrong word is sitting in two data files ready to ship the moment that exclusion is relaxed, and the same holds for es/no/da/sv/de/pt/nl. Fixing the excluded word would be cheaper than remembering the exclusion.",
-    "Checked and found CLEAN, recorded so the next panel does not re-file them: K-294/K-295 'to finish the picture' is honest (window:10 of a 20-dot outline, the other half is pre-printed — the three hollow circles on k294 are the boat's portholes, not missing dots); K-290 'write it twice' is exact (dashed word + exactly two empty ruled lanes, measured on a crop); G2-281 needs no Names chip (`needCaps: 0` — every name in its frames is the first word, so capitalising the first word covers it); G2-299 'the word bank names everything' is true (the duplicate raccoon is one species, and all four species are banked); G1-252's `colors: 8` is a palette size, not a legend count."
+    "G2-311 \"Two Sentences: Full Stop or Question Mark?\" — the instruction \"Two sentences ran together, and one of them is a question\" is FALSE on the page. The spec sets needQ:1, which guarantees one question per PAGE, not per lane; in the sweep render lane 3 (\"the fig is next to the box max draws two figs for leo\") contains no question at all. Either raise needQ to the lane count or make the claim page-level.",
+    "G1-304 \"Write the Word: Every Clue\" — the instruction \"The word bank, the letter boxes and the first letter are all there to help.\" has NO imperative; it never tells the child to do anything. Every other face in write-the-word opens with a verb.",
+    "G1-296 / G1-297 — the picture rows OVERFLOW the white picture box at the top of the range. In g1296 cards 1, 4 and 5 and in g1297 card 3 the leftmost and rightmost icons are clipped by the card edge, so on a doubles/halves-WITH-PICTURES page the child is asked to count icons that are cut in half. Ten icons per row does not fit at that icon size.",
+    "G1-298 / G1-299 — the instruction says \"No pictures to count\", yet every card carries a 2x10 array of faint dots a child can literally count. The same panel is LABELLED \"Draw it with blocks\" on G1-256/G1-257, so it is a drawing area; here it is unlabelled and the copy denies it exists. Label it, or drop the \"no pictures\" claim.",
+    "G1-287 / G1-296 / G1-297 — three doubles-halves instructions are bare noun phrases with no imperative (\"Every card on this page doubles a group of pictures.\", \"Bigger groups to double, all the way to twenty.\", \"Bigger groups of pictures to halve, all the way up to twenty.\"). They describe the page instead of telling a six-year-old what to write.",
+    "G1-301 \"Word Bank and Letter Boxes\" — every card carries three ruled writing lines AND a row of letter boxes, but the instruction names only the boxes (\"Write one letter in each box\"). The larger, more prominent control on the card goes unmentioned.",
+    "G1-282 \"Unscramble the Sentence: With Clues\" — the whole premise is that the capital letter marks where the sentence begins, but in lane 3 the capitalised tile is the pronoun \"I\", which is capitalised in every position in English. On that lane the clue is degenerate and teaches a false rule. Exclude \"I\" from being the capitalised tile.",
+    "G1-283 \"Unscramble the Sentence: No Clues\" — \"Find the one order that works\" is not true. Lane 4 (\"giraffe / is / your / this\") admits BOTH \"Is this your giraffe?\" and \"This is your giraffe.\" The uniqueness claim should be dropped; it is weaker still in free-word-order languages (see the Finnish note below, where I had to change the shipped fi instruction for exactly this reason).",
+    "G2-292 \"Shopping Math: Buying Three Things\" — in the sweep render cards 2 and 3 pose the SAME problem in two wordings (mango + kiwi + strawberry, total 50 c). This is the known raw-draw-order duplicate; please confirm the fix actually reached this face, because the render still shows it.",
+    "G2-312 \"How Many Days Later?\" — only ONE of the four questions on the page asks how many days later; the other three ask a sticker date, a date one week on, and a weekday. Same class as the already-fixed \"Dot-to-Dot 1 to 20\" title over a 1-10 page.",
+    "G2-297 \"Read the Calendar: A Busy Month\" — the d2 question set is six questions and the page OVERFLOWS: the sweep render is cut off inside question 5 and question 6 is off the sheet entirely.",
+    "K-303 \"One and Many: Longer Words\" — the four-card long-word layout overflows. The fourth card runs to the bottom edge and the \"Made with LessonCraftStudio.com\" footer, present on every sibling render at the same page size, is missing.",
+    "G1-293 \"Naming Words and Doing Words\" — the heading and instruction use the child register (\"naming word\" / \"doing word\") while the bins printed on the same page use the formal class names (\"Nouns\" / \"Verbs\"; fi \"Substantiivit\" / \"Verbit\"). One page teaches two vocabularies for the same thing. Pick one register, or print both on the bin.",
+    "G2-313 \"Number Walls with Two-Digit Answers\" — \"The bricks climb past twenty\" understates the page badly: with a four-brick given base of 5-12 the top brick lands around 60-70. The instruction also has no imperative for the actual task, and \"add in writing as you go\" is opaque for a seven-year-old.",
+    "G1-287 \"Doubles to 14\" — the split divider inside the picture box is drawn on cards 1 and 5 but not on cards 2, 3, 4 and 6 of the same page, so the \"two equal groups\" cue is inconsistent; and on card 4 (7 + 7) the answer box is clipped by the card bottom edge.",
+    "K-315 \"Copy the Capitals\" — \"Look at the capitals, then write THEM yourself\" refers to letters, but the task is copying a whole WORD from the card. A child can read it as copying an alphabet.",
+    "K-308 \"Dot-to-Dot: Count Back from 10\" — the page has a highlighted orange start dot, but unlike every sibling dot-to-dot instruction this one never mentions it.",
+    "fi DESIGN-RULING MISMATCH (render overrules the brief): the brief states the Finnish articles family is re-targeted to PARTITIVE vs NOMINATIVE (\"yksi omena / kaksi omenaa\"). The shipped generator does NOT do that. data/b2/articles.js gives fi mode:\"form\" with chipsFor => [e.singular, e.plural], and LABELS.fi.singularPlural = {one:\"yksi\", many:\"monta\"}, so the Finnish pages are SINGULAR vs PLURAL (omena / omenat) with bins headed \"yksi\" and \"monta\". I wrote K-306, K-307 and G1-292 to the code and the render. If partitive really is wanted, articles.js has to change first.",
+    "fi grammar note on that same family: the bin head \"monta\" governs the PARTITIVE SINGULAR in Finnish (\"monta omenaa\"), while the words filed under it are nominative plurals (\"omenat\"). As a bare category label it is readable, but \"monta\" + nominative plural is not a grammatical pair; a Finnish reviewer may prefer the school terms \"yksikko\"/\"monikko\" or \"yksi\"/\"monet\" for the bin heads.",
+    "fi data note: data/b2/sentences.js and data/b2/wp-muldiv-frames.js both carry the Finnish entry \"crane\": \"kurkea\" — the partitive of kurki, the BIRD — while the artwork at vehicles/crane is a construction crane. lib/b2-common.js B2_EXCLUDE does list fi for crane, so it should never surface; please confirm those two frame tables go through the same exclusion path.",
+    "VERIFIED NOT defects for fi (checked against source rather than assumed): the calendar week starts on MONDAY for fi (CALENDAR.fi.weekStart = 1) — the Sunday-first sweep render is an EN artifact only; money renders \"snt\", not the US cent sign; and the alphabet strip for fi carries a-z plus a-ring, a-umlaut and o-umlaut (COLLATION.fi.strip), so ABC-order pages are correct."
   ]
 }

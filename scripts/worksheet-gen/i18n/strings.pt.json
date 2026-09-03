@@ -1856,8 +1856,8 @@
     "instruction": "Duas frases grudaram: separe e reescreva as duas."
   },
   "G1-292": {
-    "title": "O ou a? Separe as palavras",
-    "instruction": "Escreva cada palavra na coluna do o ou do a."
+    "title": "O ou a? Classifique as palavras",
+    "instruction": "Escreva cada palavra na coluna o ou a."
   },
   "G1-298": {
     "title": "Dobro até 20, só com números",
@@ -1901,7 +1901,7 @@
   },
   "G1-302": {
     "title": "Ordene a frase: qual palavra começa?",
-    "instruction": "Só o sinal de pontuação aparece."
+    "instruction": "O sinal final já está: ordene."
   },
   "G1-303": {
     "title": "Escreva o nome com os quadradinhos",

@@ -256,17 +256,171 @@
     "G3-376": {
       "title": "Regnehistorier: tre blandede opgaver",
       "instruction": "Tre historier. Find ud af, hvad hver enkelt spørger om."
+    },
+    "K-308": {
+      "title": "Prik til prik: tæl baglæns fra 10",
+      "instruction": "Start ved den orange prik, og forbind prikkerne baglæns fra 10 til 1."
+    },
+    "G1-285": {
+      "title": "Prik til prik: tæl med toere til 20",
+      "instruction": "Forbind prikkerne to ad gangen: 2, 4, 6 og videre til 20."
+    },
+    "G1-294": {
+      "title": "Prik til prik: hele vejen baglæns fra 20",
+      "instruction": "Alle prikkerne har et tal, og hele vejen går baglæns fra 20 til 1."
+    },
+    "G2-304": {
+      "title": "Prik til prik: tæl med femmere til 50",
+      "instruction": "Forbind prikkerne fem ad gangen: 5, 10, 15 og videre til 50."
+    },
+    "K-311": {
+      "title": "Skriv ordet af to gange",
+      "instruction": "Ingen stiplede bogstaver: se ordet på kortet, og skriv det af to gange."
+    },
+    "G1-291": {
+      "title": "Skriv ordet: kun det første bogstav er givet",
+      "instruction": "Ingen ordbank: skriv ordet videre fra det første bogstav."
+    },
+    "G1-286": {
+      "title": "Det dobbelte og det halve med billeder til 20",
+      "instruction": "Fire kort med billeder: fordobl eller halvér gruppen."
+    },
+    "G2-305": {
+      "title": "Aflæs tallinjen fra 40 til 60",
+      "instruction": "Tallinjen begynder ikke ved 0. Tæl videre fra det nærmeste tal, der står."
+    },
+    "G2-310": {
+      "title": "Aflæs tallinjen fra 60 til 100",
+      "instruction": "Tallinjen begynder ved 60. Hvert femte tal står på linjen — tæl videre."
+    },
+    "G1-295": {
+      "title": "Aflæs tallinjen fra 20 til 40",
+      "instruction": "Tallinjen begynder ved 20. Tæl videre fra det nærmeste tal, der står."
+    },
+    "G1-287": {
+      "title": "Det dobbelte op til 14",
+      "instruction": "På alle kortene skal du fordoble en gruppe. Skriv svaret i feltet."
+    },
+    "G1-288": {
+      "title": "Det halve op til 12",
+      "instruction": "Hvert kort deler en gruppe i to lige store dele. Skriv de to tal."
+    },
+    "G1-296": {
+      "title": "Det dobbelte op til 20 med billeder",
+      "instruction": "Nu er grupperne større. Fordobl dem, helt op til 20."
+    },
+    "G1-297": {
+      "title": "Det halve op til 20 med billeder",
+      "instruction": "Nu er grupperne større. Halvér dem, helt op til 20."
+    },
+    "K-314": {
+      "title": "Ental og flertal: fra én til flere",
+      "instruction": "Ingen stiplede bogstaver: skriv selv flertalsformen."
+    },
+    "G1-293": {
+      "title": "Navneord og udsagnsord: to kasser",
+      "instruction": "Ti ord og to kasser: sortér dem som navneord eller udsagnsord."
+    },
+    "K-310": {
+      "title": "Store bogstaver: skriv ordet efter",
+      "instruction": "Skriv oven i ordet med store bogstaver, og skriv det selv."
+    },
+    "G1-289": {
+      "title": "Talpyramider: start i toppen",
+      "instruction": "Tallet i toppen er givet. Arbejd nedad, og træk fra for at finde stenene."
+    },
+    "K-313": {
+      "title": "Flertal og ental: fra flere til én",
+      "instruction": "Ordet for flere står der. Skriv oven i ordet for én."
+    },
+    "G2-308": {
+      "title": "Koordinater: skriv dem selv",
+      "instruction": "Billedet er farvelagt. Skriv felternes koordinater, fx B2, ud for hver farve."
+    },
+    "K-309": {
+      "title": "Prik til prik med bogstaver fra a til t",
+      "instruction": "Start ved den orange prik, og forbind bogstaverne fra a til t."
+    },
+    "G2-307": {
+      "title": "Stort bogstav: hvor slutter sætningen?",
+      "instruction": "To sætninger er løbet sammen. Skriv dem om som to sætninger."
+    },
+    "G1-292": {
+      "title": "En eller et: sortér ordene i to kasser",
+      "instruction": "Læs hvert ord, og skriv det i kassen med en eller et."
+    },
+    "G1-298": {
+      "title": "Det dobbelte op til 20 kun med tal",
+      "instruction": "Ingen billeder at tælle. Regn i det hvide felt, og skriv det dobbelte."
+    },
+    "G1-299": {
+      "title": "Det halve op til 20 kun med tal",
+      "instruction": "Ingen billeder at tælle. Brug det hvide felt, og halvér hvert tal."
+    },
+    "G1-300": {
+      "title": "Navneord og tillægsord: hvordan er det?",
+      "instruction": "Beskrivende ord eller navneord? Sortér de ti ord i to kasser."
+    },
+    "G1-301": {
+      "title": "Skriv ordet: ordbank og bogstavfelter",
+      "instruction": "Find ordet i ordbanken, og skriv ét bogstav i hvert felt."
+    },
+    "G2-311": {
+      "title": "To sætninger og to tegn til sidst",
+      "instruction": "Del de to sætninger, og vælg tegnet til sidst i hver af dem."
+    },
+    "G2-312": {
+      "title": "Læs kalenderen: find datoen og tæl dagene",
+      "instruction": "Fire spørgsmål: find datoen, tæl dagene imellem, og find ugedagen."
+    },
+    "G2-314": {
+      "title": "Prik til prik: tæl med tiere til 100",
+      "instruction": "Forbind prikkerne ti ad gangen: 10, 20, 30 og videre til 100."
+    },
+    "K-315": {
+      "title": "Skriv de store bogstaver af",
+      "instruction": "Ingen stiplede bogstaver: skriv ordet af med store bogstaver."
+    },
+    "K-316": {
+      "title": "Ental og flertal: skriv ordet for én",
+      "instruction": "Ingen stiplede bogstaver: skriv selv ordet for én."
+    },
+    "G2-313": {
+      "title": "Talpyramider med tocifrede tal",
+      "instruction": "Kun den nederste række er givet. Læg sammen opad — tallene bliver tocifrede."
+    },
+    "G1-302": {
+      "title": "Sæt ordene i rækkefølge: find starten",
+      "instruction": "Tegnet viser, hvor sætningen slutter. Find det første ord."
+    },
+    "G1-303": {
+      "title": "Skriv ordet: bogstavfelter og første bogstav",
+      "instruction": "Ét felt til hvert bogstav. Det første står på linjen."
+    },
+    "G1-304": {
+      "title": "Skriv ordet med hjælp hele vejen",
+      "instruction": "Brug ordbanken, bogstavfelterne og det første bogstav, og skriv ordet."
     }
   },
   "enAudit": [
-    "G2-281 — the page asks for something its own checklist never mentions. G2-274 excludes {name} frames with `if (difficulty === 1 && cand.some(f => /{name}/.test(f.text)))`, but G2-281 copies the d1 CONFIG (needCaps:0, chips:[capital,end]) into all three difficulty slots and the wave ships d2, so the guard never fires. The render carries \"anna has a big fox\" and \"ben likes the little donkey\" under a two-chip banner with no Names chip. Key the guard on the config (d.needCaps === 0 / !d.chips.includes(\"name\")), not on the difficulty index — any future VAR face that re-points a d1 config at d2 inherits the same hole.",
-    "G1-264 — \"When Two Words Start the Same\" / \"Two words start alike\" undercounts the page. d3 sets pairs:2, i.e. TWO pairs, so four of the six words share a first letter with a partner (render: baby/boat and scooter/swing). Suggest \"Some words start with the same letter\" for both title and instruction.",
-    "G1-283 — \"Find the one order that works\" promises a uniqueness the design deliberately removed. With no capital and no end mark, card 4 of the render (\"giraffe is your this\") supports both \"This is your giraffe\" and \"Is this your giraffe\", and nothing on the page distinguishes them. The instruction should ask for an order that makes sense, not the only one.",
-    "G1-270 — the CURRENT English (\"Double the group, then halve it. Small numbers to start.\") describes a sequence applied to one group; the render shows each card carrying EITHER a double pill with 3 + 3 = box OR a half pill with 6 = box + box. Nothing is doubled and then halved. The superseded wording (\"Some cards ask you to double a group. Others ask you to halve one.\") was accurate; the rewrite lost that.",
-    "G3-370/371-376 — \"finish the answer sentence\" implies a printed sentence stem. The build emits rulingBlock({rows:1}) — a bare ruled line, no starter. The child writes the whole sentence. Applies to the base and all six variations.",
-    "build-seo-head.js sentenceCase() silently destroys any capital after the first character of the type-name segment, for the eight locales with segmentCasing:\"sentence\" (es/it/pt/fr/nl/sv/da/no). The h1 and the meta description keep the authored casing; only <title> is lowercased. Measured here: the authored \"En eller et? Fire billeder\" shipped as <title>En eller et? fire billeder</title> — wrong Danish after a question mark, and the same trap will silently lowercase any proper noun a locale puts in a title. Worked around in this draft with a colon; the engine behaviour is unchanged and undetected by any gate.",
-    "K-298 vs K-299 — \"A small grid to start\" is honest about K-298 alone but frames the wrong contrast: K-299 is the SAME 6x6 grid and differs only by gaining A-F / 1-6 coordinate labels (the size step is K-300, 8x8). K-298 reads as if size were the ladder.",
-    "G2-291 — the title \"Add Up the Basket\" names a prop only one of the three story cards uses; the render has \"Emma wants ...\", \"Ben puts ... in the basket\", \"Anna buys ...\". Minor, but the title promises a basket the page mostly does not show.",
-    "out/b2var-faces.json is STALE for 8 of the 64 faces — K-296, G1-258, G1-259, G1-268, G1-270, G1-282, G2-285 and G2-300 carry pre-fix enTitle/enInstruction that match neither i18n/strings.en.json nor the sweep renders (e.g. G1-258 faces.json says \"The First Letter Is Given\" while the render is titled \"With a Word Bank\"). A panel briefed only from faces.json would name pages that no longer exist. This draft follows the renders and strings.en.json."
+    "G2-311 — the title AND the instruction both promise 'one of them is a question', but item 3 of the render (g2311-fruits.png: 'the fig is next to the box max draws two figs for leo') contains no question at all. The page fails its own promise on 1 of its 3 items; nothing in the generator constrains the second drawn sentence to be interrogative. Either force one interrogative frame per item, or drop the question claim from the title and instruction.",
+    "G1-302 item 1 — the tiles are 'feeds / the / avocado. / leo', so the only sentence the child can build is 'Leo feeds the avocado.' A person cannot feed a piece of fruit. This is the recorded 'tom feeds the skateboard' ungated-animacy frame, still live on the fruits theme: the sentence bank picks the FEED frame without checking whether the theme noun is animate.",
+    "G2-307 item 1 — 'my camel is very small the camel is in the box' (g2307-animals.png). A camel in a box. Same ungated bank: the IN-THE-BOX frame is applied without checking that the noun plausibly fits a box. G2-311 item 3 uses the same frame on a fig, where it is fine — so the gate needs to be on the noun, not on the frame.",
+    "crane / image-vocabulary.js — hits G1-301, G2-287 and every vehicles-theme face that draws it. The vehicles theme renders 'crane' as a crane TRUCK (verified: data-lcs-vocab=\"crane\" on cache/themes-512/vehicles/crane@3x.webp in g1301-vehicles.html), but image-vocabulary.js maps crane to the BIRD in every non-English locale: da Trane, sv Trana, no Trane, de Kranich, nl Kraanvogel, es Grulla, pt Grou, it Gru, fi Kurki. English 'crane' is ambiguous, so the EN page is correct and nobody reviewing English can see it; every other locale labels a crane truck with the word for a bird. In Danish it also happens to have the same letter count (crane / trane = 5), so G1-301's letter boxes fit and nothing errors.",
+    "G1-296 and G1-297 (and G1-286 at the wider settings) — the picture rows OVERFLOW the white workspace panel horizontally and icons are clipped at both edges. Measured in the renders: g1296-vehicles.png cards 1, 4 and 5, and g1297-toys.png card 3 (the '20 = _ + _' card). At icon 22 / perRow 5 a 20-item group is 10 per row and does not fit the panel width. A child asked to count the group cannot count the ones that are cut in half.",
+    "G2-312 — the title 'How Many Days Later?' describes only ONE of the four questions. The spec's question set is ['stickerDate','after','weekLater','dayOfDate']: find a date, count the days between, a date one week on, and a day of the week. The instruction 'Use the calendar to work out each date' is wrong for two of them as well — Q2 wants a COUNT of days and Q4 wants a WEEKDAY, neither of which is a date.",
+    "G1-304, G1-287, G1-286, G1-296, G1-297, G2-311 — the instruction is a STATEMENT ABOUT the page, not an instruction to the child. 'The word bank, the letter boxes and the first letter are all there to help.' / 'Every card on this page doubles a group of pictures.' / 'Bigger groups to double, all the way to twenty.' / 'Two sentences ran together, and one of them is a question.' None of them says what to DO. Every other face in the same families gives an imperative, so this is inconsistency inside the family, not a house style.",
+    "G1-300 — the instruction is the bare generic 'Sort each word into the right bin.' Since G1-293 lost its pictures, the ONLY thing now distinguishing these two faces is the word-class pair (nouns vs adjectives here, nouns vs verbs there), and G1-300's instruction does not name it. It remains the one instruction in the batch that could be pasted onto any word-classes page unchanged. Its sibling G1-293 was rewritten to 'Read each word. Is it a naming word or a doing word?' and now names its own pair; G1-300 needs the same treatment.",
+    "G1-293 and G1-300 — the page still contradicts its own instruction after the picture removal. Both use the child-friendly terms ('naming word', 'doing word', 'describing word') while the BIN LABELS printed on the page read 'Nouns' / 'Verbs' / 'Adjectives'. A six-year-old is told to sort into two bins that are not the bins in front of them. Either the labels or the wording has to move; this is unaffected by the G1-293 change.",
+    "G1-293 vs G2-285 — SCAFFOLD INVERSION introduced by removing the pictures. G1-293 is Grade 1 and now has ten bare word chips; G2-285 is Grade TWO, is otherwise the harder task (three bins, not two), and still gives 'Each noun chip has a picture to help.' The younger children now get less support than the older ones on the same skill. Removing the picture from G1-293 was right on its own terms (it gave the noun away), but the same argument applies to G2-285, and the two faces should be decided together rather than drifting apart.",
+    "G1-298 and G1-299 — every card carries a large, prominent empty dotted workspace panel (data-lcs-workspace) and neither the title nor the instruction ever mentions it. 'No pictures to count' tells the child what is absent; nothing tells them what the big white box is for, and it is the single largest element on each card. Still true after these two faces were made themeless.",
+    "K-315 — 'Look at the capitals, then write them yourself.' says 'them' (the capital letters) where the task is to copy the WORD, and omits 'twice' although the card provides two writing lines. Its sibling K-311, which has the identical two-blank-line layout, does say 'copy it twice' — so the omission is inconsistent within the family rather than deliberate.",
+    "K-313 (and the shipped K-302 / K-303 it inherits from) — the instruction describes only tracing ('Trace the word for just one'), but the left cell of every card also carries a SECOND, empty ruled line for writing the word unaided. The base K-287 instruction does mention that line; the variations dropped it.",
+    "K-308 — the orange start dot is drawn on the page and is load-bearing (it is the only marker of where 10 is), but unlike its three siblings K-294 / K-295 / K-296 the instruction never mentions it. Counting backwards is exactly the case where a child most needs to be told where to begin.",
+    "G2-313 — 'The bricks climb past twenty, so add in writing as you go.' is not idiomatic English and does not say what to write. It also omits the page's real distinguishing features, which the render shows plainly: the wall is FOUR rows, only the bottom row is given, and the child builds upward.",
+    "K-311 — the title 'Copy the Word' is singular for a page of four words; the parallel face K-315 uses the plural 'Copy the Capitals'.",
+    "PIPELINE, not English copy, but it silently damages 20 shipped types across 8 locales — build-seo-head.js bandedDescription/assemble strips a trailing '?' or '!' from the instruction and forces a full stop (var m = String(mid).replace(/\\s*[.!?]+\\s*$/, ''); return lead + '. ' + m + '.' + descTail). Any instruction written as a question therefore ships a meta description in which a question is punctuated as a statement. Counted across the shipped strings files: en 1, de 3, it 3, nl 4, pt 3, sv 1, da 2, no 1, fi 2. Two were Danish (G1-279 'Hvilket tal peger pilen på?' and G2-295 'Hvor meget dyrere er den ene?'); this draft rewrites both as imperatives. NOTE this now also hits G1-293's NEW English instruction, which ends in a question mark and will ship as '...Is it a naming word or a doing word.' in every locale that keeps the interrogative form. No locale panel can see this from its own draft, because it only appears in the assembled description. The fix belongs in assemble(), which should preserve a terminal '?' or '!' instead of overwriting it.",
+    "scripts/worksheet-gen/tools/validate-b2var-draft.js — the docblock says the gate checks 'exactly the 64 face ids from tools/gen-b2var-specs.js'; ROWS is 100 and the code does check 100. Stale comment, no functional effect, but it contradicts the brief's own count and would mislead the next reader.",
+    "G1-302 / data/b2/sentences.js — the capitalised NAME tile gives the answer away in Danish, and this is structural, not a seed. G1-249 lowercases only token 0 and only when index 0 is not a protected capital, so a name at index 0 survives. Measured: ALL NINE Danish {name} frames (s1, s2, s4, s6, s7, s9, s11, s13, s16) put the name at index 0, and there is no Danish frame with a name only mid-sentence — so whenever a name frame is drawn, the one capitalised tile IS the first word. The generated da page proves it: four lanes, data-lcs-caps=\"0\" on every one (William / Alma / Ida / William). The general engine defence that \"a capital marks a NAME, not a sentence start\" is sound but does not hold for the da bank as written, so \"Find the Beginning\" is solved by looking for the capital. The Danish copy has been written not to lean on that cue, but the fix is either to lowercase a sentence-initial name when showCap is false (accepting the child sees \"william\") or to add da frames with the name mid-sentence."
   ]
 }

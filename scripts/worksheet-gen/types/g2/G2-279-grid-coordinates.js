@@ -10,7 +10,7 @@
  */
 'use strict';
 const coordGrid = require('../../primitives/coord-grid.js');
-const { codeList } = require('../../templates/components-b2.js');
+const { codeList, SWATCH } = require('../../templates/components-b2.js');
 const { PIXEL_FIGURES, COLOR_LETTERS, pixelFiguresOfSize } = require('../../data/b2/figures.js');
 const { COLOR_WORDS } = require('../../data/color-words.js');
 
@@ -41,7 +41,15 @@ module.exports = {
     if (!words) throw new Error(`G2-279: no colour words for ${loc}`);
     const figure = rng.pick(pixelFiguresOfSize(d.figSize));
     const offset = { ox: rng.pick(d.offsets), oy: rng.pick(d.offsets) };
-    const grid = coordGrid({ cols: d.cols, rows: d.rows, cell: d.cell, figure, offset });
+    // inverse: the picture is printed and the child WRITES the coordinates —
+    // producing a coordinate instead of locating one, which is naming rather
+    // than finding, and the standard classroom pairing. Sourced at 6x6
+    // deliberately: those four figures fill 18-25 cells, which is a page of
+    // writing, while the 8x8 figures fill 29-36, which is too much.
+    const fills = d.inverse
+      ? Object.fromEntries(Object.entries(COLOR_LETTERS).map(([ch, key]) => [ch, SWATCH[key]]))
+      : null;
+    const grid = coordGrid({ cols: d.cols, rows: d.rows, cell: d.cell, figure, offset, fills });
     const byColor = {};
     grid.cells.forEach((c) => { (byColor[c.color] = byColor[c.color] || []).push(c.code); });
     const groups = Object.keys(byColor).map((letter) => {
@@ -53,11 +61,11 @@ module.exports = {
     });
     const demo = coordGrid.coordDemo({ cell: 18 });
     return {
-      bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;gap:14px;align-items:center;justify-content:space-evenly" data-ws-content data-lcs-page>` +
+      bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;gap:14px;align-items:center;justify-content:space-evenly" data-ws-content data-lcs-page${d.inverse ? ' data-lcs-inverse="1"' : ''}>` +
         `<div style="display:flex;gap:18px;align-items:flex-start;justify-content:center">` +
         `<div class="ws-card" style="padding:10px;flex:0 0 auto">${grid.svg}</div>` +
         `<div style="display:flex;flex-direction:column;align-items:center;gap:6px;padding-top:6px">${demo.svg}<span class="ws-codechip" style="font-size:17px;height:28px" data-lcs-demo-chip>B2</span></div></div>` +
-        `<div class="ws-card" style="width:660px;padding:12px 14px;flex-direction:row;flex-wrap:wrap;gap:12px 22px;justify-content:center">${codeList({ groups: groups.map((g) => ({ key: g.key, word: g.word, codes: g.codes })) })}</div></div>`,
+        `<div class="ws-card" style="width:660px;padding:12px 14px;flex-direction:row;flex-wrap:wrap;gap:12px 22px;justify-content:center">${codeList({ groups: groups.map((g) => ({ key: g.key, word: g.word, codes: d.inverse ? g.codes.map(() => '') : g.codes })) })}</div></div>`,
       meta: { figure: figure.key, offset },
     };
   },
@@ -78,12 +86,27 @@ module.exports = {
       if (answer.length !== expect.size) fails.push(`${answer.length} answer cells, want ${expect.size}`);
       answer.forEach((a) => { if (expect.get(a.dataset.lcsAnswerCell) !== a.dataset.lcsColor) fails.push(`cell ${a.dataset.lcsAnswerCell} colour mismatch`); });
       // codes
+      // ⚠ On the inverse face the chips are deliberately EMPTY — the child writes
+      // them — so the "code list matches the figure" assertion would fail a
+      // correct page. What must hold instead is that the right NUMBER of blank
+      // boxes is printed, and that the grid is genuinely filled.
+      const inverse = !!document.querySelector('[data-lcs-inverse]');
       const chips = [...document.querySelectorAll('[data-lcs-code]')].map((c) => c.dataset.lcsCode);
+      if (inverse) {
+        if (chips.length !== expect.size) fails.push(`${chips.length} blank code boxes, want ${expect.size}`);
+        if (chips.some((c) => c)) fails.push('inverse page printed a code the child should write');
+        const filled = answer.filter((a) => { const f = a.getAttribute('fill'); return f && f !== 'none'; });
+        if (filled.length !== expect.size) fails.push(`${filled.length} filled cells, want ${expect.size}`);
+      } else {
       if (chips.slice().sort().join('|') !== [...expect.keys()].sort().join('|')) fails.push('code list != figure cells');
       if (new Set(chips).size !== chips.length) fails.push('duplicate code');
       chips.forEach((code) => { const m = code.match(/^([A-P])(\d+)$/); if (!m || L.indexOf(m[1]) >= cols || +m[2] > rows) fails.push(`code ${code} outside the grid`); });
+      }
       // no visible fill in the main grid; only the demo has a teal cell
-      for (const r of grid.querySelectorAll('rect')) { const f = (r.getAttribute('fill') || '').toUpperCase(); if (f && f !== 'NONE' && f !== '#FFFFFF') fails.push('main grid has a filled cell'); }
+      // ⚠ On the inverse face a filled grid is the POINT — the picture is printed
+      // and the child writes the codes. This assertion guards the normal face,
+      // where a filled cell would hand the child the answer.
+      if (!inverse) for (const r of grid.querySelectorAll('rect')) { const f = (r.getAttribute('fill') || '').toUpperCase(); if (f && f !== 'NONE' && f !== '#FFFFFF') fails.push('main grid has a filled cell'); }
       if (!document.querySelector('[data-lcs-demo] rect[fill="#146B5E"]')) fails.push('demo cell missing');
       // groups: colour word + swatch + shuffled codes
       const groups = [...document.querySelectorAll('[data-lcs-group]')];
@@ -92,7 +115,11 @@ module.exports = {
       groups.forEach((g) => {
         const codes = [...g.querySelectorAll('[data-lcs-code]')].map((c) => c.dataset.lcsCode);
         const rowMajor = codes.slice().sort((a, b) => (+a.slice(1) - +b.slice(1)) || a.charCodeAt(0) - b.charCodeAt(0));
-        if (codes.length > 1 && codes.join() === rowMajor.join()) fails.push(`group ${g.dataset.lcsGroup} codes in row-major order (draws the picture)`);
+        // The anti-row-major guard exists so a code LIST cannot draw the picture
+        // by itself. On the inverse face the boxes are blank, so there is no order
+        // to leak — and comparing empty strings makes the check fire on a correct
+        // page. The count assertion below still holds and is the one that matters.
+        if (!inverse && codes.length > 1 && codes.join() === rowMajor.join()) fails.push(`group ${g.dataset.lcsGroup} codes in row-major order (draws the picture)`);
         const want = [...expect.entries()].filter(([, ch]) => LETTERS_MAP[ch] === g.dataset.lcsGroup).length;
         if (codes.length !== want) fails.push(`group ${g.dataset.lcsGroup} has ${codes.length} codes, want ${want}`);
         const word = g.querySelector('[data-lcs-color-word]');

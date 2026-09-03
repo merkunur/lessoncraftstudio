@@ -388,6 +388,19 @@ const ROWS = [
   // upward by addition; giving the apex inverts the operation to subtraction.
   ['g1', 'G1-289', 'number-walls-from-the-top-down', 'G1-246-number-walls.js', 2, { topGiven: true },
     'Number Walls: Start at the Top', 'The top brick is given and the bottom row is not. Work downwards.'],
+
+  // singular-plural REVERSED. Both shipped faces run one -> many; going the other
+  // way is the harder and more diagnostic direction, because the child removes an
+  // ending rather than adding one, and that is where the misconceptions live.
+  ['k', 'K-313', 'singular-plural-many-to-one', 'K-287-singular-plural.js', 1, { direction: 'toSingular' },
+    'Many and One', 'This time the word for many is given. Write the word for just one.'],
+
+  // grid-coordinates INVERSE: the picture is printed and the child writes the
+  // codes — producing a coordinate rather than locating one. Sourced at 6x6
+  // deliberately: those figures fill 18-25 cells (a page of writing) where the
+  // 8x8 figures fill 29-36 (too much).
+  ['g2', 'G2-308', 'grid-coordinates-write-the-codes', 'G2-279-grid-coordinates.js', 1, { inverse: true },
+    'Grid Coordinates: Write the Codes', 'The picture is already colored. Write the letter and number of every colored square.'],
 ];
 
 function emit(row) {

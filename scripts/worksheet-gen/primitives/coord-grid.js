@@ -17,7 +17,11 @@ const { svgRoot, roundedRect, line, el, esc } = require('./_svg.js');
 const LETTERS = 'ABCDEFGHIJKLMNOP';
 const GUTTER = 28;
 
-function coordGrid({ cols, rows, cell, figure, offset = { ox: 0, oy: 0 } }) {
+// `fills` (optional): a map from figure character to a CSS colour. When given,
+// each answer cell renders FILLED instead of empty — the inverse of the shipped
+// task, where the picture is printed and the child writes the coordinates.
+// Absent by default, so every shipped coordinate renders byte-identically.
+function coordGrid({ cols, rows, cell, figure, offset = { ox: 0, oy: 0 }, fills = null }) {
   const t = tokens;
   const fh = figure.rows.length, fw = figure.rows[0].length;
   if (offset.ox + fw > cols || offset.oy + fh > rows) throw new Error(`coordGrid: figure ${figure.key} does not fit at offset ${offset.ox},${offset.oy}`);
@@ -50,7 +54,8 @@ function coordGrid({ cols, rows, cell, figure, offset = { ox: 0, oy: 0 } }) {
     const code = `${LETTERS[gc]}${gr + 1}`;
     cells.push({ code, letter: LETTERS[gc], number: gr + 1, color: ch });
     parts.push(el('rect', {
-      x: x0 + gc * cell + 1, y: y0 + gr * cell + 1, width: cell - 2, height: cell - 2, fill: 'none',
+      x: x0 + gc * cell + 1, y: y0 + gr * cell + 1, width: cell - 2, height: cell - 2,
+      fill: (fills && fills[ch]) || 'none',
       'data-lcs-answer-cell': code, 'data-lcs-color': ch,
     }));
   }

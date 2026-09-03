@@ -4430,12 +4430,19 @@
     },
     "hero": {
       "h1": "Cada aula, em perfeito equilíbrio.",
-      "sub": "Ferramentas de ensino ao vivo, atividades prontas para jogar, fichas que se corrigem sozinhas e imprimem com gabarito, e geradores para criar as suas — grátis para começar, da educação infantil ao 3º ano.",
-      "ctaTools": "Abra uma ferramenta de ensino",
+      "fanLabel": "Exemplos de fichas da biblioteca, no seu idioma",
       "ctaWorksheets": "Conheça as fichas",
-      "microLine": "Grátis para começar · sem login · nada para instalar",
-      "countsLine": "Uma biblioteca completa de fichas para imprimir · ferramentas de ensino ao vivo · atividades prontas para jogar · tudo no seu idioma",
-      "fanLabel": "Exemplos de fichas da biblioteca, no seu idioma"
+      "ctaActivities": "Jogue uma atividade",
+      "scope": "Da educação infantil ao terceiro ano, no seu idioma.",
+      "pillar1Count": "40.000+",
+      "pillar1Label": "fichas para imprimir",
+      "pillar1Gloss": "Imprima o PDF ou jogue no navegador; a maioria se corrige sozinha.",
+      "pillar2Label": "Atividades prontas para jogar",
+      "pillar2Gloss": "A criança joga; a atividade confere as respostas.",
+      "pillar3Label": "Ferramentas de ensino",
+      "pillar3Gloss": "Uma estante inteira de instrumentos: relógio, ábaco, balança…",
+      "pillar4Label": "Geradores de fichas",
+      "pillar4Gloss": "Escolha imagens e palavras. Crie a sua, para imprimir ou jogar."
     },
     "ticks": {
       "teach": "Ensinar",

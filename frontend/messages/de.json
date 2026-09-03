@@ -4245,12 +4245,19 @@
     },
     "hero": {
       "h1": "Hier hängt alles zusammen.",
-      "sub": "Unterrichts-Tools, Aktivitäten zum Losspielen, Arbeitsblätter, die sich selbst korrigieren und mit Lösungsblatt drucken, und Generatoren, mit denen du eigene baust — kostenlos zum Start, Vorschule bis Klasse 3.",
-      "ctaTools": "Ein Unterrichts-Tool öffnen",
+      "fanLabel": "Beispiel-Arbeitsblätter aus der Bibliothek — in deiner Sprache",
       "ctaWorksheets": "Arbeitsblätter durchstöbern",
-      "microLine": "Kostenlos starten · ohne Login · ohne Installation",
-      "countsLine": "Eine ganze Bibliothek Arbeitsblätter zum Ausdrucken · Tools für den Unterricht · Aktivitäten zum Losspielen · alles in deiner Sprache",
-      "fanLabel": "Beispiel-Arbeitsblätter aus der Bibliothek — in deiner Sprache"
+      "ctaActivities": "Aktivität ausprobieren",
+      "scope": "Von der Vorschule bis zur dritten Klasse, in deiner Sprache.",
+      "pillar1Count": "Über 40.000",
+      "pillar1Label": "Arbeitsblätter zum Ausdrucken",
+      "pillar1Gloss": "Als PDF drucken oder online lösen – meist mit Selbstkontrolle.",
+      "pillar2Label": "Aktivitäten zum Losspielen",
+      "pillar2Gloss": "Das Kind spielt – die Aktivität prüft die Antworten.",
+      "pillar3Label": "Unterrichts-Tools",
+      "pillar3Gloss": "Ein ganzes Regal voll: Uhr, Zahlenstrahl, Waage und vieles mehr.",
+      "pillar4Label": "Arbeitsblatt-Generatoren",
+      "pillar4Gloss": "Wähle Bilder und Wörter, bau dein Blatt – drucken oder spielen."
     },
     "ticks": {
       "teach": "Zeigen",

@@ -2928,12 +2928,19 @@
     },
     "hero": {
       "h1": "Hver time henger sammen.",
-      "sub": "Tavleverktøy, spilleklare aktiviteter, arbeidsark som retter seg selv og skrives ut med fasit, og generatorer for dine egne — gratis å starte, fra barnehage til 3. trinn.",
-      "ctaTools": "Åpne et undervisningsverktøy",
+      "fanLabel": "Et utvalg arbeidsark fra biblioteket, på språket ditt",
       "ctaWorksheets": "Se arbeidsarkene",
-      "microLine": "Gratis å starte · ingen innlogging · ingenting å installere",
-      "countsLine": "Et helt bibliotek med utskriftsklare arbeidsark · undervisningsverktøy for tavla · spilleklare aktiviteter · alt på språket ditt",
-      "fanLabel": "Et utvalg arbeidsark fra biblioteket, på språket ditt"
+      "ctaActivities": "Prøv en aktivitet",
+      "scope": "Fra barnehagen til tredje trinn, på språket ditt.",
+      "pillar1Count": "40 000+",
+      "pillar1Label": "utskriftsklare arbeidsark",
+      "pillar1Gloss": "Skriv ut som PDF, eller løs på nett – de fleste retter seg selv.",
+      "pillar2Label": "Spilleklare aktiviteter",
+      "pillar2Gloss": "Barnet spiller – aktiviteten retter svarene.",
+      "pillar3Label": "Verktøy for klasserommet",
+      "pillar3Gloss": "En hylle full av instrumenter: klokke, tallinje, skålvekt med mer.",
+      "pillar4Label": "Arbeidsark-generatorer",
+      "pillar4Gloss": "Velg bilder og ord, lag ditt eget ark – på papir eller på nett."
     },
     "ticks": {
       "teach": "Undervis",

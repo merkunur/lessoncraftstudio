@@ -2924,12 +2924,19 @@
     },
     "hero": {
       "h1": "Varje lektion hänger ihop.",
-      "sub": "Verktyg att undervisa från, aktiviteter redo att spela, självrättande arbetsblad som skrivs ut med facit, och generatorer att bygga egna med — gratis att börja, för F–3.",
-      "ctaTools": "Öppna ett verktyg",
+      "fanLabel": "Exempel på arbetsblad ur biblioteket, på ditt språk",
       "ctaWorksheets": "Se arbetsbladen",
-      "microLine": "Gratis att börja · ingen inloggning · inget att installera",
-      "countsLine": "Ett helt bibliotek med utskrivbara arbetsblad · verktyg att undervisa från · aktiviteter redo att spela · allt på ditt språk",
-      "fanLabel": "Exempel på arbetsblad ur biblioteket, på ditt språk"
+      "ctaActivities": "Prova en aktivitet",
+      "scope": "Från förskolan till trean, på ditt språk.",
+      "pillar1Count": "40 000+",
+      "pillar1Label": "utskrivbara arbetsblad",
+      "pillar1Gloss": "Skriv ut som PDF eller spela online – de flesta rättar sig själva.",
+      "pillar2Label": "Aktiviteter redo att spela",
+      "pillar2Gloss": "Barnet spelar, aktiviteten rättar – ingen inloggning behövs.",
+      "pillar3Label": "Klassrumsverktyg",
+      "pillar3Gloss": "En hel hylla för tavlan: klocka, tallinje, våg och många fler.",
+      "pillar4Label": "Arbetsblads­generatorer",
+      "pillar4Gloss": "Välj bilder och ord, gör ditt eget – att skriva ut eller spela."
     },
     "ticks": {
       "teach": "Undervisa",

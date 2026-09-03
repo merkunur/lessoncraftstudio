@@ -1766,5 +1766,149 @@
   "G3-376": {
     "title": "Problemas mixtos de multiplicar y dividir",
     "instruction": "Decide si multiplicas o divides."
+  },
+  "K-308": {
+    "title": "Une los puntos del 10 al 1",
+    "instruction": "Cuenta hacia atrás del 10 al 1; el resto del dibujo ya está."
+  },
+  "G1-285": {
+    "title": "Une los puntos contando de 2 en 2",
+    "instruction": "Cuenta de 2 en 2; el resto del dibujo ya está hecho."
+  },
+  "G1-294": {
+    "title": "Une los puntos del 20 al 1",
+    "instruction": "Están numerados los veinte puntos y se cuenta hacia atrás."
+  },
+  "G2-304": {
+    "title": "Une los puntos contando de 5 en 5",
+    "instruction": "Cuenta de 5 en 5; el resto del dibujo ya está hecho."
+  },
+  "K-311": {
+    "title": "Copia la palabra de la tarjeta",
+    "instruction": "Sin letras punteadas: cópiala dos veces."
+  },
+  "G1-291": {
+    "title": "Dictado mudo sin banco: la inicial",
+    "instruction": "No hay banco: solo la inicial."
+  },
+  "G1-286": {
+    "title": "Dobles y mitades con grupos grandes",
+    "instruction": "Los grupos son mucho mayores."
+  },
+  "G2-305": {
+    "title": "La recta numérica del 40 al 60",
+    "instruction": "Esta recta no empieza en cero, empieza en el 40."
+  },
+  "G2-310": {
+    "title": "La recta numérica del 60 al 100",
+    "instruction": "Esta recta empieza en 60 y cada marca vale 1."
+  },
+  "G1-295": {
+    "title": "La recta numérica del 20 al 40",
+    "instruction": "Esta recta no empieza en cero, empieza en el 20."
+  },
+  "G1-287": {
+    "title": "Solo dobles hasta 14",
+    "instruction": "No hay mitades: todas piden el doble del grupo."
+  },
+  "G1-288": {
+    "title": "Solo mitades hasta 12",
+    "instruction": "Ninguna tarjeta pide el doble: solo la mitad."
+  },
+  "G1-296": {
+    "title": "Solo dobles hasta 20 con dibujos",
+    "instruction": "Se doblan grupos de cinco a diez."
+  },
+  "G1-297": {
+    "title": "Solo mitades hasta 20 con dibujos",
+    "instruction": "Se parten grupos de diez a veinte."
+  },
+  "K-314": {
+    "title": "Singular y plural sin punteado",
+    "instruction": "El plural no viene punteado: escríbelo tú."
+  },
+  "G1-293": {
+    "title": "Sustantivo o verbo",
+    "instruction": "Pon cada palabra en Sustantivos o en Verbos."
+  },
+  "K-310": {
+    "title": "Repasa y escribe en mayúsculas",
+    "instruction": "Todas las palabras van en letra mayúscula."
+  },
+  "G1-289": {
+    "title": "Pirámides numéricas de arriba abajo",
+    "instruction": "Se da el ladrillo de arriba: baja restando."
+  },
+  "K-313": {
+    "title": "Singular y plural: de muchos a uno",
+    "instruction": "Ahora al revés: repasa y escribe la de uno."
+  },
+  "G2-308": {
+    "title": "Coordenadas: escribe tú los códigos",
+    "instruction": "Cada casilla va en la lista de su color."
+  },
+  "K-309": {
+    "title": "Une los puntos con el abecedario",
+    "instruction": "Aquí no hay números: une los puntos de la a a la s."
+  },
+  "G2-307": {
+    "title": "Corrige la frase: ¿dónde acaba?",
+    "instruction": "Van dos frases seguidas, sin puntos."
+  },
+  "G1-292": {
+    "title": "¿El o la? Clasifica las palabras",
+    "instruction": "Sin dibujos: escribe cada palabra donde va."
+  },
+  "G1-298": {
+    "title": "Solo dobles, sin dibujos",
+    "instruction": "Sin dibujos que contar: solo dobles hasta 20."
+  },
+  "G1-299": {
+    "title": "Solo mitades, sin dibujos",
+    "instruction": "Sin dibujos: parte cada número en dos."
+  },
+  "G1-300": {
+    "title": "Sustantivo o adjetivo",
+    "instruction": "Pon cada palabra en Sustantivos o Adjetivos."
+  },
+  "G1-301": {
+    "title": "Dictado mudo: banco y casillas",
+    "instruction": "Con banco y una casilla por letra."
+  },
+  "G2-311": {
+    "title": "Dos frases: ¿punto o interrogación?",
+    "instruction": "Dos frases juntas y una pregunta."
+  },
+  "G2-312": {
+    "title": "Lee el calendario: cuenta los días",
+    "instruction": "Ahora se cuentan los días entre dos fechas."
+  },
+  "G2-314": {
+    "title": "Une los puntos contando de 10 en 10",
+    "instruction": "Cuenta de 10 en 10 hasta el 100; el resto ya está."
+  },
+  "K-315": {
+    "title": "Copia las mayúsculas de la tarjeta",
+    "instruction": "Aquí se copian mayúsculas, no minúsculas."
+  },
+  "K-316": {
+    "title": "De muchos a uno, sin punteado",
+    "instruction": "Sin punteado: escribe tú la palabra de uno."
+  },
+  "G2-313": {
+    "title": "Pirámides numéricas de dos cifras",
+    "instruction": "Las sumas suben hasta números de dos cifras."
+  },
+  "G1-302": {
+    "title": "Ordena la frase: ¿cuál va primero?",
+    "instruction": "Sin mayúscula: solo el signo final."
+  },
+  "G1-303": {
+    "title": "Dictado mudo: casillas e inicial",
+    "instruction": "Sin banco: la inicial, en la línea."
+  },
+  "G1-304": {
+    "title": "Dictado mudo con todas las pistas",
+    "instruction": "Banco, casillas e inicial juntos."
   }
 }

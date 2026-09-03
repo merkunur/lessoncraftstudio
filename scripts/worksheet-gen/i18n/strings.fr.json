@@ -1766,5 +1766,149 @@
   "G3-376": {
     "title": "Problèmes mélangés : multiplier et diviser",
     "instruction": "Choisis la bonne opération."
+  },
+  "K-308": {
+    "title": "Points à relier de 10 à 1",
+    "instruction": "Compte à l'envers ; le dessin est déjà commencé."
+  },
+  "G1-285": {
+    "title": "Points à relier de 2 en 2",
+    "instruction": "Tu ne comptes que les nombres pairs ; le reste est tracé."
+  },
+  "G1-294": {
+    "title": "Points à relier de 20 à 1",
+    "instruction": "Tous les points sont numérotés, et l'on compte du 20 au 1."
+  },
+  "G2-304": {
+    "title": "Points à relier de 5 en 5",
+    "instruction": "Compte de cinq en cinq ; le reste du dessin est déjà tracé."
+  },
+  "K-311": {
+    "title": "Copier le mot sans pointillés",
+    "instruction": "Copie le mot écrit sur la carte."
+  },
+  "G1-291": {
+    "title": "Dictée muette : la première lettre",
+    "instruction": "Ton seul indice est la première lettre."
+  },
+  "G1-286": {
+    "title": "Doubles et moitiés : images jusqu'à 20",
+    "instruction": "Doubler ou partager de grands groupes."
+  },
+  "G2-305": {
+    "title": "Droite graduée de 40 à 60",
+    "instruction": "Pas de zéro ici : appuie-toi sur le repère précédent."
+  },
+  "G2-310": {
+    "title": "Droite graduée de 60 à 100",
+    "instruction": "Le premier repère est 60, et chaque graduation vaut 1."
+  },
+  "G1-295": {
+    "title": "Droite graduée de 20 à 40",
+    "instruction": "Cette droite commence à 20 : pars du repère le plus proche."
+  },
+  "G1-287": {
+    "title": "Doubles jusqu'à 14",
+    "instruction": "Chaque carte demande le double d'un groupe d'images."
+  },
+  "G1-288": {
+    "title": "Moitiés jusqu'à 12",
+    "instruction": "Partage chaque groupe et écris les deux parts."
+  },
+  "G1-296": {
+    "title": "Doubles en images jusqu'à 20",
+    "instruction": "De plus grands groupes d'images à doubler."
+  },
+  "G1-297": {
+    "title": "Moitiés en images jusqu'à 20",
+    "instruction": "De plus grands groupes d'images à partager."
+  },
+  "K-314": {
+    "title": "Écrire le pluriel tout seul",
+    "instruction": "Écris le pluriel : aucun pointillé."
+  },
+  "G1-293": {
+    "title": "Nature des mots : nom et verbe",
+    "instruction": "Écris chaque mot dans Noms ou Verbes."
+  },
+  "K-310": {
+    "title": "Repasser les mots en capitales",
+    "instruction": "Repasse les capitales, puis écris."
+  },
+  "G1-289": {
+    "title": "Pyramides de nombres : partir du sommet",
+    "instruction": "Le sommet est donné : descends et soustrais."
+  },
+  "K-313": {
+    "title": "Du pluriel au singulier",
+    "instruction": "Repasse le singulier sous chaque image."
+  },
+  "G2-308": {
+    "title": "Pixel art à l'envers",
+    "instruction": "Le dessin est déjà colorié : écris les codes par couleur."
+  },
+  "K-309": {
+    "title": "Points à relier de a à t",
+    "instruction": "Suis les lettres, de a à t, pas les nombres."
+  },
+  "G2-307": {
+    "title": "Séparer deux phrases collées",
+    "instruction": "Deux phrases se sont collées : sépare-les."
+  },
+  "G1-292": {
+    "title": "Un ou une : classer les mots",
+    "instruction": "Sans image : range chaque mot sous un ou une."
+  },
+  "G1-298": {
+    "title": "Doubles sans images jusqu'à 20",
+    "instruction": "Sans image : calcule le double de tête."
+  },
+  "G1-299": {
+    "title": "Moitiés sans images jusqu'à 20",
+    "instruction": "Sans image : partage le nombre en deux."
+  },
+  "G1-300": {
+    "title": "Nature des mots : nom et adjectif",
+    "instruction": "Écris chaque mot dans Noms ou Adjectifs."
+  },
+  "G1-301": {
+    "title": "Dictée muette : liste et cases",
+    "instruction": "Une case par lettre, et la liste aide."
+  },
+  "G2-311": {
+    "title": "Phrases collées : point ou question",
+    "instruction": "Ici, l'une des deux est une question."
+  },
+  "G2-312": {
+    "title": "Lire le calendrier : compter les jours",
+    "instruction": "Compte les jours entre les deux images."
+  },
+  "G2-314": {
+    "title": "Points à relier de 10 en 10",
+    "instruction": "Les nombres vont de dix en dix ; le reste est déjà tracé."
+  },
+  "K-315": {
+    "title": "Copier les mots en capitales",
+    "instruction": "Recopie les capitales de la carte."
+  },
+  "K-316": {
+    "title": "Écrire le singulier tout seul",
+    "instruction": "Écris le singulier, sans modèle."
+  },
+  "G2-313": {
+    "title": "Pyramides de nombres jusqu'à 100",
+    "instruction": "Quatre étages, et le sommet peut grimper jusqu'à 100."
+  },
+  "G1-302": {
+    "title": "Phrases mélangées : quel début ?",
+    "instruction": "Le signe final est donné, la majuscule non."
+  },
+  "G1-303": {
+    "title": "Dictée muette : une case par lettre",
+    "instruction": "La première lettre est sur la ligne."
+  },
+  "G1-304": {
+    "title": "Dictée muette : tous les indices",
+    "instruction": "La liste, les cases et la première lettre."
   }
 }

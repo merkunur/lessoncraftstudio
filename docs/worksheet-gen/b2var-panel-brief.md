@@ -92,6 +92,19 @@ All 100 ids, exactly as listed in `out/b2var-faces.json`. Nothing else.
    whether it carries YOUR instruction or the generic family sentence.
    If a face cannot fit without damaging the language, leave it — a good page beats a good
    description — but say which ones. One clear imperative is also better for a 5-8 year old.
+1b. ⭐ **THE WINDOW IS TWO-SIDED, AND SHORTENING A TITLE CAN COST YOU THE SLOT.**
+   The measured failure is usually the ceiling, not the floor: nine of ten English
+   losers were too LONG, and a 68-char instruction dropped into a 139-char
+   description overflows 170, is discarded, and the generic sentence wins by
+   DEFAULT. Compute your own ceiling from shipped bytes as
+   `170 - (descriptionLength - winningMiddleLength)` and write under it.
+   But the floor is real too, and shortening the title is not a free lever in
+   both directions: a shorter title also makes room for the family's skill
+   sentence, which may then fit and BEAT you. Measure the pair, not the title.
+   ⚠ And build the prober with DISJOINT alphabets for title and instruction — a
+   filler where `filler(10)` is a prefix of `filler(12)` puts the "instruction"
+   inside the title, and every short instruction reports a false win.
+
 2. ⭐ **It must say what is different about THIS page** — the range, the scaffold, the step.
    A short *generic* instruction is worse than a long *specific* one. If a page genuinely needs
    more words for the child to understand the task, prioritise the child and accept the longer

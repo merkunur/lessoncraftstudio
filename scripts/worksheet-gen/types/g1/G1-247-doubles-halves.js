@@ -86,8 +86,17 @@ module.exports = {
       if (!d.numeric) {
         const row = () => `<div style="display:flex;gap:6px" data-lcs-row>${Array.from({ length: m }, () => `<img class="ws-icon" src="${src}" alt="" style="width:${d.icon}px;height:${d.icon}px">`).join('')}</div>`;
         const w = m * d.icon + (m - 1) * 6;
+        // The scissor rule is drawn 20px wider than the icon row it cuts, and
+        // nothing bounded it: at the family's largest draws it reached 290-294px
+        // inside a picture box MEASURED at 271px, so the dashed line and its end
+        // caps ran out over the card. Clamp it to the box. This is a no-op for
+        // every configuration that already fits — the published base's widest
+        // observed rule is 244 — so shipped decks stay byte-identical, and it can
+        // no longer escape whatever `icon` and `hMax` a future face picks.
+        const STAGE_W = d.cols === 2 ? 271 : Math.floor((676 - (d.cols - 1) * 14) / d.cols) - 60;
+        const sw = Math.min(w + 20, STAGE_W);
         hstage = `<div style="background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:10px;width:100%;display:flex;flex-direction:column;align-items:center;gap:6px">${row()}` +
-          `<svg width="${w + 20}" height="10" viewBox="0 0 ${w + 20} 10" aria-hidden="true"><line x1="2" y1="5" x2="${w + 18}" y2="5" stroke="#F2784B" stroke-width="2.5" stroke-dasharray="7 5"/><line x1="2" y1="1" x2="2" y2="9" stroke="#F2784B" stroke-width="2.5"/><line x1="${w + 18}" y1="1" x2="${w + 18}" y2="9" stroke="#F2784B" stroke-width="2.5"/></svg>${row()}</div>`;
+          `<svg width="${sw}" height="10" viewBox="0 0 ${sw} 10" aria-hidden="true"><line x1="2" y1="5" x2="${sw - 2}" y2="5" stroke="#F2784B" stroke-width="2.5" stroke-dasharray="7 5"/><line x1="2" y1="1" x2="2" y2="9" stroke="#F2784B" stroke-width="2.5"/><line x1="${sw - 2}" y1="1" x2="${sw - 2}" y2="9" stroke="#F2784B" stroke-width="2.5"/></svg>${row()}</div>`;
       }
       cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:8px;justify-content:space-evenly" data-lcs-op="half" data-lcs-n="${m}"${opsAttr}>${pill('half')}${hstage}` +
         `<div style="display:flex;align-items:center;gap:8px" data-lcs-strip>${NUM(2 * m)}${OP('=')}${answerBox({ w: 64, h: 48, answer: m })}${OP('+')}${answerBox({ w: 64, h: 48, answer: m })}</div></div>`);

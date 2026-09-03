@@ -265,10 +265,20 @@ function composeTitle(opts) {
 function bandedDescription(spec) {
   var FLOOR = 120;
   var CEIL = 170;
+  // ⚠ KEEP the middle's own terminal mark. This used to strip [.!?] and append a
+  // full stop unconditionally, so every question-final instruction shipped
+  // punctuated as a statement — Danish "Hvilket tal peger pilen på." for a
+  // sentence that asks something. It is a question on the worksheet and a
+  // question in the SERP snippet; only the mark was being overwritten. The
+  // non-banded path below (`/[.!?]$/.test(instruction)`) already preserved it,
+  // so the two assembly paths disagreed. Found by a native panel reading the
+  // ASSEMBLED output — no locale's own copy shows it, because the copy is right.
   function assemble(lead, mid) {
     if (!mid) return lead + '.' + spec.descTail;
+    var run = String(mid).match(/[.!?]+(?=\s*$)/);
+    var mark = run ? run[0].charAt(run[0].length - 1) : '.';
     var m = String(mid).replace(/\s*[.!?]+\s*$/, '');
-    return lead + '. ' + m + '.' + spec.descTail;
+    return lead + '. ' + m + mark + spec.descTail;
   }
   // middles: ordered preference of complete sentences (richest first).
   var middles = (spec.middles || []).filter(function (m) { return m && String(m).trim(); });

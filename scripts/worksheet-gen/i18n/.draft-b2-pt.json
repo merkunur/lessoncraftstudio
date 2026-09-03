@@ -132,11 +132,11 @@
       {"id": "c4", "kind": "color", "text": "Pinte de {color} {n} {noun}.", "noun": "pl"},
       {"id": "s1", "kind": "simple", "text": "{name} vê três {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
       {"id": "s2", "kind": "simple", "text": "{name} gosta de {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
-      {"id": "s3", "kind": "simple", "text": "Você gosta de {noun}?", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s3", "kind": "simple", "text": "Você gosta de {noun}?", "qUncued": true, "noun": "pl", "uses": ["unscramble", "fix"]},
       {"id": "s4", "kind": "simple", "text": "Eu vejo cinco {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
       {"id": "s5", "kind": "simple", "text": "{name} desenha quatro {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
       {"id": "s6", "kind": "simple", "text": "{name} conta seis {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
-      {"id": "s7", "kind": "simple", "text": "Você quer três {noun}?", "noun": "pl", "uses": ["unscramble", "fix"]},
+      {"id": "s7", "kind": "simple", "text": "Você quer três {noun}?", "qUncued": true, "noun": "pl", "uses": ["unscramble", "fix"]},
       {"id": "s8", "kind": "simple", "text": "{name} tem quatro {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
       {"id": "s9", "kind": "simple", "text": "{name} procura três {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
       {"id": "s10", "kind": "simple", "text": "Há cinco {noun} na foto.", "noun": "pl", "uses": ["fix"]},
@@ -144,8 +144,11 @@
       {"id": "s12", "kind": "simple", "text": "{name} adora {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
       {"id": "s13", "kind": "simple", "text": "Eu tenho quatro {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
       {"id": "s14", "kind": "simple", "text": "{name} sonha com {noun}.", "noun": "pl", "uses": ["unscramble", "fix"]},
-      {"id": "s15", "kind": "simple", "text": "{name} gosta de {noun}?", "noun": "pl", "uses": ["fix"]},
-      {"id": "s16", "kind": "simple", "text": "{name} já viu cinco {noun}?", "noun": "pl", "uses": ["fix"]}
+      {"id": "s15", "kind": "simple", "text": "{name} gosta de {noun}?", "qUncued": true, "noun": "pl", "uses": ["fix"]},
+      {"id": "s16", "kind": "simple", "text": "{name} já viu cinco {noun}?", "qUncued": true, "noun": "pl", "uses": ["fix"]},
+      {"id": "s17", "kind": "simple", "text": "Quem tem cinco {noun}?", "noun": "pl", "uses": ["fix"]},
+      {"id": "s18", "kind": "simple", "text": "Onde você achou três {noun}?", "noun": "pl", "uses": ["fix"]},
+      {"id": "s19", "kind": "simple", "text": "O que você faz com quatro {noun}?", "noun": "pl", "uses": ["fix"]}
     ]
   },
   "wordClasses": {

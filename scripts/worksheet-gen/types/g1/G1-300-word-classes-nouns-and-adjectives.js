@@ -1,4 +1,4 @@
-/** G1-300 — Naming Words and Describing Words. nt20-B-VAR variation of G2-275. */
+/** G1-300 — Nouns and Adjectives: Two Bins. nt20-B-VAR variation of G2-275. */
 'use strict';
 const base = require('../g2/G2-275-word-classes.js');
 // One object for all three levels: the waves ship d2 only, so a face must
@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-300',
   slug: 'word-classes-nouns-and-adjectives',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Naming Words and Describing Words", instruction: "Sort each word into the right bin." } },
+  i18n: { en: { title: "Nouns and Adjectives: Two Bins", instruction: "Ten words and two bins. Is each word a noun or an adjective?" } },
 };

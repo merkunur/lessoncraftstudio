@@ -1565,11 +1565,11 @@
   },
   "G1-251": {
     "title": "Lue ja väritä: neljä lausetta",
-    "instruction": "Neljä lausetta ja neljä väriä. Väritä juuri lauseen mukaan."
+    "instruction": "Neljä lausetta ja neljä väriä. Väritä tarkasti."
   },
   "G1-252": {
     "title": "Lue ja väritä: kiireinen sivu",
-    "instruction": "Enemmän lauseita ja värejä. Lue jokainen lause tarkasti loppuun."
+    "instruction": "Kuusi lausetta ja kuusi väriä. Lue ne tarkasti."
   },
   "G1-255": {
     "title": "Päivän luku 11–19",
@@ -1605,7 +1605,7 @@
   },
   "G1-264": {
     "title": "Aakkosjärjestys: sama alkukirjain",
-    "instruction": "Kahdella parilla on sama alkukirjain. Katso toista."
+    "instruction": "Jos alkukirjain on sama, katso toista kirjainta."
   },
   "G1-266": {
     "title": "Lukupyramidi 10:een",
@@ -1665,7 +1665,7 @@
   },
   "G1-283": {
     "title": "Järjestä lause ilman vihjeitä",
-    "instruction": "Ei vihjeitä. Etsi ainoa järjestys, joka toimii."
+    "instruction": "Ei vihjeitä. Järjestä sanat järkeväksi lauseeksi."
   },
   "G2-281": {
     "title": "Korjaa kolme lausetta: välimerkit",
@@ -1766,5 +1766,149 @@
   "G3-376": {
     "title": "Sekalaiset kerto- ja jakolaskut",
     "instruction": "Kolme tarinaa. Mieti ensin, mitä kussakin kysytään."
+  },
+  "K-308": {
+    "title": "Yhdistä pisteet takaperin 10–1",
+    "instruction": "Aloita oranssista pisteestä ja laske takaperin 10:stä 1:een."
+  },
+  "G1-285": {
+    "title": "Yhdistä pisteet kahden välein 2–20",
+    "instruction": "Yhdistä pisteet kahden välein. Muu kuva on jo piirretty."
+  },
+  "G1-294": {
+    "title": "Yhdistä pisteet takaperin 20–1",
+    "instruction": "Kaikki pisteet on numeroitu. Yhdistä ne takaperin 20:stä 1:een."
+  },
+  "G2-304": {
+    "title": "Yhdistä pisteet viiden välein 5–50",
+    "instruction": "Yhdistä pisteet viiden välein. Muu kuva on jo piirretty."
+  },
+  "K-311": {
+    "title": "Kopioi sana kortista",
+    "instruction": "Katkoviivoja ei ole. Lue kortin sana ja kirjoita se kahdesti."
+  },
+  "G1-291": {
+    "title": "Kirjoita sana: vain alkukirjain",
+    "instruction": "Sanapankkia ei ole. Jatka sanaa alkukirjaimesta."
+  },
+  "G1-286": {
+    "title": "Tuplaa ja puolita kuvilla 20:een asti",
+    "instruction": "Osassa kortteja tuplataan, osassa puolitetaan."
+  },
+  "G2-305": {
+    "title": "Lukusuora 40–60",
+    "instruction": "Lukusuora ei ala nollasta. Laske eteenpäin lähimmästä merkitystä luvusta."
+  },
+  "G2-310": {
+    "title": "Lukusuora 60–100",
+    "instruction": "Lukusuora alkaa luvusta 60. Laske eteenpäin lähimmästä merkitystä luvusta."
+  },
+  "G1-295": {
+    "title": "Lukusuora 20–40",
+    "instruction": "Lukusuora alkaa luvusta 20. Laske eteenpäin lähimmästä merkitystä luvusta."
+  },
+  "G1-287": {
+    "title": "Tuplaa kuvaryhmät, summat enintään 14",
+    "instruction": "Tuplaa jokainen kuvaryhmä ja kirjoita summa."
+  },
+  "G1-288": {
+    "title": "Puolita kuvaryhmät, enintään 12 kuvaa",
+    "instruction": "Puolita jokainen kuvaryhmä ja kirjoita osat."
+  },
+  "G1-296": {
+    "title": "Tuplaa kuvaryhmät 20:een asti",
+    "instruction": "Isompia ryhmiä. Tuplaa jokainen ja kirjoita summa."
+  },
+  "G1-297": {
+    "title": "Puolita kuvaryhmät 20:een asti",
+    "instruction": "Isompia ryhmiä. Puolita jokainen ja kirjoita osat."
+  },
+  "K-314": {
+    "title": "Yksikkö ja monikko: kirjoita monikko",
+    "instruction": "Katkoviivoja ei ole. Kirjoita monikko viivalle."
+  },
+  "G1-293": {
+    "title": "Substantiivit ja verbit",
+    "instruction": "Onko sana substantiivi vai verbi? Kirjoita se laatikkoon."
+  },
+  "K-310": {
+    "title": "Jäljennä sanat isoin kirjaimin",
+    "instruction": "Jäljennä sana isoin kirjaimin ja kirjoita se itse."
+  },
+  "G1-289": {
+    "title": "Lukupyramidi ylhäältä alaspäin",
+    "instruction": "Ylin tiili on valmiina. Etene alaspäin ja vähennä."
+  },
+  "K-313": {
+    "title": "Yksikkö ja monikko: jäljennä yksikkö",
+    "instruction": "Monikko on annettu. Jäljennä yksikkö viivalle."
+  },
+  "G2-308": {
+    "title": "Koordinaatit: kirjoita ruutujen tunnukset",
+    "instruction": "Kuva on jo väritetty. Kirjoita värin ruudut listaan."
+  },
+  "K-309": {
+    "title": "Yhdistä pisteet aakkosjärjestyksessä a–t",
+    "instruction": "Aloita oranssista pisteestä ja etene a:sta t:hen."
+  },
+  "G2-307": {
+    "title": "Korjaa lause: mihin se loppuu?",
+    "instruction": "Kaksi lausetta on kirjoitettu yhteen. Erota lauseet."
+  },
+  "G1-292": {
+    "title": "Yksi vai monta: lajittele sanat",
+    "instruction": "Lue sana ja kirjoita se oikean otsikon alle."
+  },
+  "G1-298": {
+    "title": "Tuplaa luvut ilman kuvia, enintään 20",
+    "instruction": "Kirjoita jokaisen luvun tupla. Kuvia ei lasketa."
+  },
+  "G1-299": {
+    "title": "Puolita luvut ilman kuvia, enintään 20",
+    "instruction": "Jaa luku kahteen yhtä suureen osaan. Kuvia ei lasketa."
+  },
+  "G1-300": {
+    "title": "Substantiivit ja adjektiivit",
+    "instruction": "Substantiivi vai adjektiivi? Kirjoita sana laatikkoon."
+  },
+  "G1-301": {
+    "title": "Sanapankki ja kirjainruudut",
+    "instruction": "Etsi sana pankista. Kirjoita se viivalle ja ruutuihin."
+  },
+  "G2-311": {
+    "title": "Kaksi lausetta: piste vai kysymysmerkki?",
+    "instruction": "Erota lauseet ja valitse lopetusmerkki."
+  },
+  "G2-312": {
+    "title": "Kalenteri: montako päivää välissä?",
+    "instruction": "Etsi merkit kalenterista. Laske päivät niiden välissä."
+  },
+  "G2-314": {
+    "title": "Yhdistä pisteet kymmenen välein 10–100",
+    "instruction": "Yhdistä pisteet kymmenen välein. Muu kuva on piirretty."
+  },
+  "K-315": {
+    "title": "Kopioi isot kirjaimet kortista",
+    "instruction": "Lue kortin isot kirjaimet ja kirjoita sana kahdesti."
+  },
+  "K-316": {
+    "title": "Yksikkö ja monikko: kirjoita yksikkö",
+    "instruction": "Katkoviivoja ei ole. Kirjoita yksikkö viivalle."
+  },
+  "G2-313": {
+    "title": "Lukupyramidi: kaksinumeroiset summat",
+    "instruction": "Alin rivi on valmiina. Laske pareittain ylöspäin."
+  },
+  "G1-302": {
+    "title": "Järjestä lause: mistä lause alkaa?",
+    "instruction": "Etsi aloittava sana. Vain lopetusmerkki auttaa."
+  },
+  "G1-303": {
+    "title": "Kirjainruudut ja alkukirjain",
+    "instruction": "Alkukirjain on viivalla. Kirjoita sana myös ruutuihin."
+  },
+  "G1-304": {
+    "title": "Kirjoita sana: kaikki vihjeet apuna",
+    "instruction": "Kirjoita sana. Kaikki kolme vihjettä auttavat."
   }
 }

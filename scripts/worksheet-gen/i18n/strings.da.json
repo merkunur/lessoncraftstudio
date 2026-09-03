@@ -1766,5 +1766,149 @@
   "G3-376": {
     "title": "Regnehistorier: tre blandede opgaver",
     "instruction": "Tre historier. Find ud af, hvad hver enkelt spørger om."
+  },
+  "K-308": {
+    "title": "Prik til prik: tæl baglæns fra 10",
+    "instruction": "Start ved den orange prik, og forbind prikkerne baglæns fra 10 til 1."
+  },
+  "G1-285": {
+    "title": "Prik til prik: tæl med toere til 20",
+    "instruction": "Forbind prikkerne to ad gangen: 2, 4, 6 og videre til 20."
+  },
+  "G1-294": {
+    "title": "Prik til prik: hele vejen baglæns fra 20",
+    "instruction": "Alle prikkerne har et tal, og hele vejen går baglæns fra 20 til 1."
+  },
+  "G2-304": {
+    "title": "Prik til prik: tæl med femmere til 50",
+    "instruction": "Forbind prikkerne fem ad gangen: 5, 10, 15 og videre til 50."
+  },
+  "K-311": {
+    "title": "Skriv ordet af to gange",
+    "instruction": "Ingen stiplede bogstaver: se ordet på kortet, og skriv det af to gange."
+  },
+  "G1-291": {
+    "title": "Skriv ordet: kun det første bogstav er givet",
+    "instruction": "Ingen ordbank: skriv ordet videre fra det første bogstav."
+  },
+  "G1-286": {
+    "title": "Det dobbelte og det halve med billeder til 20",
+    "instruction": "Fire kort med billeder: fordobl eller halvér gruppen."
+  },
+  "G2-305": {
+    "title": "Aflæs tallinjen fra 40 til 60",
+    "instruction": "Tallinjen begynder ikke ved 0. Tæl videre fra det nærmeste tal, der står."
+  },
+  "G2-310": {
+    "title": "Aflæs tallinjen fra 60 til 100",
+    "instruction": "Tallinjen begynder ved 60. Hvert femte tal står på linjen — tæl videre."
+  },
+  "G1-295": {
+    "title": "Aflæs tallinjen fra 20 til 40",
+    "instruction": "Tallinjen begynder ved 20. Tæl videre fra det nærmeste tal, der står."
+  },
+  "G1-287": {
+    "title": "Det dobbelte op til 14",
+    "instruction": "På alle kortene skal du fordoble en gruppe. Skriv svaret i feltet."
+  },
+  "G1-288": {
+    "title": "Det halve op til 12",
+    "instruction": "Hvert kort deler en gruppe i to lige store dele. Skriv de to tal."
+  },
+  "G1-296": {
+    "title": "Det dobbelte op til 20 med billeder",
+    "instruction": "Nu er grupperne større. Fordobl dem, helt op til 20."
+  },
+  "G1-297": {
+    "title": "Det halve op til 20 med billeder",
+    "instruction": "Nu er grupperne større. Halvér dem, helt op til 20."
+  },
+  "K-314": {
+    "title": "Ental og flertal: fra én til flere",
+    "instruction": "Ingen stiplede bogstaver: skriv selv flertalsformen."
+  },
+  "G1-293": {
+    "title": "Navneord og udsagnsord: to kasser",
+    "instruction": "Ti ord og to kasser: sortér dem som navneord eller udsagnsord."
+  },
+  "K-310": {
+    "title": "Store bogstaver: skriv ordet efter",
+    "instruction": "Skriv oven i ordet med store bogstaver, og skriv det selv."
+  },
+  "G1-289": {
+    "title": "Talpyramider: start i toppen",
+    "instruction": "Tallet i toppen er givet. Arbejd nedad, og træk fra for at finde stenene."
+  },
+  "K-313": {
+    "title": "Flertal og ental: fra flere til én",
+    "instruction": "Ordet for flere står der. Skriv oven i ordet for én."
+  },
+  "G2-308": {
+    "title": "Koordinater: skriv dem selv",
+    "instruction": "Billedet er farvelagt. Skriv felternes koordinater, fx B2, ud for hver farve."
+  },
+  "K-309": {
+    "title": "Prik til prik med bogstaver fra a til t",
+    "instruction": "Start ved den orange prik, og forbind bogstaverne fra a til t."
+  },
+  "G2-307": {
+    "title": "Stort bogstav: hvor slutter sætningen?",
+    "instruction": "To sætninger er løbet sammen. Skriv dem om som to sætninger."
+  },
+  "G1-292": {
+    "title": "En eller et: sortér ordene i to kasser",
+    "instruction": "Læs hvert ord, og skriv det i kassen med en eller et."
+  },
+  "G1-298": {
+    "title": "Det dobbelte op til 20 kun med tal",
+    "instruction": "Ingen billeder at tælle. Regn i det hvide felt, og skriv det dobbelte."
+  },
+  "G1-299": {
+    "title": "Det halve op til 20 kun med tal",
+    "instruction": "Ingen billeder at tælle. Brug det hvide felt, og halvér hvert tal."
+  },
+  "G1-300": {
+    "title": "Navneord og tillægsord: hvordan er det?",
+    "instruction": "Beskrivende ord eller navneord? Sortér de ti ord i to kasser."
+  },
+  "G1-301": {
+    "title": "Skriv ordet: ordbank og bogstavfelter",
+    "instruction": "Find ordet i ordbanken, og skriv ét bogstav i hvert felt."
+  },
+  "G2-311": {
+    "title": "To sætninger og to tegn til sidst",
+    "instruction": "Del de to sætninger, og vælg tegnet til sidst i hver af dem."
+  },
+  "G2-312": {
+    "title": "Læs kalenderen: find datoen og tæl dagene",
+    "instruction": "Fire spørgsmål: find datoen, tæl dagene imellem, og find ugedagen."
+  },
+  "G2-314": {
+    "title": "Prik til prik: tæl med tiere til 100",
+    "instruction": "Forbind prikkerne ti ad gangen: 10, 20, 30 og videre til 100."
+  },
+  "K-315": {
+    "title": "Skriv de store bogstaver af",
+    "instruction": "Ingen stiplede bogstaver: skriv ordet af med store bogstaver."
+  },
+  "K-316": {
+    "title": "Ental og flertal: skriv ordet for én",
+    "instruction": "Ingen stiplede bogstaver: skriv selv ordet for én."
+  },
+  "G2-313": {
+    "title": "Talpyramider med tocifrede tal",
+    "instruction": "Kun den nederste række er givet. Læg sammen opad — tallene bliver tocifrede."
+  },
+  "G1-302": {
+    "title": "Sæt ordene i rækkefølge uden stort bogstav",
+    "instruction": "Der er kun tegnet til sidst. Find ordet, der skal først."
+  },
+  "G1-303": {
+    "title": "Skriv ordet: bogstavfelter og første bogstav",
+    "instruction": "Ét felt til hvert bogstav. Det første står på linjen."
+  },
+  "G1-304": {
+    "title": "Skriv ordet med hjælp hele vejen",
+    "instruction": "Brug ordbanken, bogstavfelterne og det første bogstav, og skriv ordet."
   }
 }

@@ -108,6 +108,27 @@ in the family: `G2-311` genuinely sets `ends: ['.','?']`, so a question mark is 
 the face's own config before you decide, and remember `needQ: 1` guarantees one question per PAGE,
 not per card.
 
+## ⚠ RESOLVE A SIBLING'S OWN CONFIG — never read the base's difficulty table
+
+The most productive defect class found so far. When a landing describes its siblings ("the easier
+version has four sentences…", "the hardest level goes up to seven words"), it is tempting to read
+the numbers off the BASE spec's `difficulty` object. That is wrong: a variation spec spreads
+`{...base.difficulty[src], ...overrides}` into ALL THREE levels, so its real config is the base's
+source level with the variation's overrides applied — and the overrides are exactly the
+interesting part.
+
+Two live Norwegian pages were wrong this way, both describing a level that does not ship:
+- "the hardest level goes up to SEVEN words" — that face overrides `maxTok` to **six**.
+- "the easiest version has FOUR sentences without names, where only the capital and the full stop
+  are missing" — that sibling has **three** lanes and `ends: ['.','?']` with `needQ: 1`, so the
+  mark has to be CHOSEN and at least one sentence is a question. The sentence described the base's
+  never-shipped d1.
+
+**So: open the sibling's own spec file, apply its overrides, and resolve at the level the wave
+ships (`difficulties: [2]`).** If you quote a number — lanes, cards, word counts, ranges, how many
+marks are in play — it must come from that resolved config or from the render, never from the
+family's base table.
+
 ## Hard rules the composer enforces (it refuses to write on any failure)
 
 1. `p1 + p2 + p3` ≥ **200 words**. Aim for 210-260 — panels reliably undershoot this floor.

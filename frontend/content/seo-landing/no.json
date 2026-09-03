@@ -135436,7 +135436,7 @@
    ],
    "p1": "Dette stor-bokstav-og-punktum-arket for 3. trinn viser fem setninger om kjøretøy, alle skrevet galt med vilje: «aksel vil ha fem t-baner», «sofie og nora leter etter helikoptere». Stor bokstav mangler i begynnelsen, navnene står med liten forbokstav, og det er ikke noe punktum til slutt. Ved hver setning står et lite bilde av kjøretøyet – en t-bane, en sparkesykkel, en båt, en sykkel, et helikopter – og under ligger en skrivelinje. Barnet leser setningen, finner alt som mangler, og skriver den riktig på linjen: «Aksel vil ha fem t-baner.» Øverst står en huskeliste med tre merker: A for stor bokstav, Aa for navn, og et punktum for skilletegn.",
    "p2": "Å rette en setning er noe annet enn å skrive en. Setningen er ferdig, ordene er riktige, og barnet kan bruke all oppmerksomhet på det som er feil: hvor setningen begynner, hvilke ord som er navn, og hvor den slutter. Arket skiller mellom de tre feiltypene med hver sin lapp, så barnet kan gå gjennom setningen tre ganger med hvert sitt blikk. Navnene er den vanskelige delen på dette nivået – «sofie» og «nora» ser ut som alle andre ord med små bokstaver, og barnet må kjenne dem igjen som navn for å gi dem stor forbokstav. Læreren ser hvilken av de tre lappene barnet glemmer, og det er som regel den midterste. Ferdigheten er den samme som barnet trenger når det leser gjennom sin egen tekst etterpå, og det er akkurat den gjennomlesingen LK20 legger vekt på når eleven skal bearbeide egne tekster på 3. og 4. trinn.",
-   "p3": "Skriv ut PDF-en gratis og la barnet markere feilene med farge på den gale setningen først, før den riktige skrives på linjen. Den enkleste utgaven har fire setninger uten navn, der bare stor bokstav i begynnelsen og punktum på slutten mangler. Den vanskeligste holder fem setninger med navn, men blander spørsmål og fortellende setninger, så barnet må velge mellom punktum og spørsmålstegn. Arket der ordene står i uorden og skal settes i riktig rekkefølge, øver det samme et trinn tidligere; ordklasse-arket med substantiv, verb og adjektiv er neste steg i å se på hva ordene i setningen er.",
+   "p3": "Skriv ut PDF-en gratis og la barnet markere feilene med farge på den gale setningen først, før den riktige skrives på linjen. Den enkleste utgaven har tre setninger uten navn og bare to merker på huskelista, men tegnet må velges der også: minst én av de tre er et spørsmål. Den vanskeligste holder fem setninger med navn og blander spørsmål og fortellende setninger, så barnet må velge mellom punktum, spørsmålstegn og utropstegn. Arket der ordene står i uorden og skal settes i riktig rekkefølge, øver det samme et trinn tidligere; ordklasse-arket med substantiv, verb og adjektiv er neste steg i å se på hva ordene i setningen er.",
    "canonicalDeckSlug": "stor-bokstav-og-punktum-kjoretoy-g2274",
    "carousel": [
     {
@@ -137327,7 +137327,7 @@
     "level": "2-trinn"
    },
    "eyebrow": "Setningsbygging: ordene i rekkefølge, uten hjelp",
-   "h1": "Sett ordene i rekkefølge uten hjelp: ingen kort har stor bokstav eller punktum",
+   "h1": "Sett ordene i rekkefølge uten hjelp: ingen kort har punktum, og forbokstaven står bare på navn",
    "strand": "Språket som system",
    "standard": "L.1.1.j",
    "slotTokens": [

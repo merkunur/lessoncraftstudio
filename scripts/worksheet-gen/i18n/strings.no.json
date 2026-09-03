@@ -1766,5 +1766,149 @@
   "G3-376": {
     "title": "Regnefortellinger: gange og dele blandet",
     "instruction": "Tre fortellinger. Tenk over hva hver av dem spør om."
+  },
+  "K-308": {
+    "title": "Prikk til prikk: tell baklengs fra 10",
+    "instruction": "Start på den oransje prikken, og tell baklengs fra 10 til 1."
+  },
+  "G1-285": {
+    "title": "Prikk til prikk: tell med toere",
+    "instruction": "Tell med toere fra 2 til 20, og trekk strek fra prikk til prikk."
+  },
+  "G1-294": {
+    "title": "Prikk til prikk: tell baklengs fra 20",
+    "instruction": "Alle prikkene er nummererte. Tell baklengs fra 20 helt ned til 1."
+  },
+  "G2-304": {
+    "title": "Prikk til prikk: tell med femmere",
+    "instruction": "Tell med fem om gangen fra 5 til 50, og trekk strek mellom prikkene."
+  },
+  "K-311": {
+    "title": "Skriv av ordet to ganger",
+    "instruction": "Ingen stiplede bokstaver her. Se på ordet, og skriv det av to ganger."
+  },
+  "G1-291": {
+    "title": "Skriv ordet: første bokstav, ingen ordbank",
+    "instruction": "Ingen ordbank her. Skriv resten av ordet selv."
+  },
+  "G1-286": {
+    "title": "Det dobbelte og halvparten med bilder",
+    "instruction": "Noen kort spør om det dobbelte, andre om halvparten."
+  },
+  "G2-305": {
+    "title": "Les av tallinjen fra 40 til 60",
+    "instruction": "Denne tallinjen starter ikke på null. Tell videre fra nærmeste tall."
+  },
+  "G2-310": {
+    "title": "Les av tallinjen fra 60 til 100",
+    "instruction": "Tallinjen starter på 60. Hvert femte tall står der til hjelp."
+  },
+  "G1-295": {
+    "title": "Les av tallinjen fra 20 til 40",
+    "instruction": "Tallinjen starter på 20. Tell videre fra nærmeste tall som står der."
+  },
+  "G1-287": {
+    "title": "Det dobbelte opp til 14",
+    "instruction": "Her skal du bare doble. Tell bildene, og skriv summen i ruten."
+  },
+  "G1-288": {
+    "title": "Halvparten opp til 12",
+    "instruction": "Her skal du bare halvere. Skriv de to like delene i rutene."
+  },
+  "G1-296": {
+    "title": "Det dobbelte opp til 20 med bilder",
+    "instruction": "Nå skal du doble større grupper, helt opp til tjue."
+  },
+  "G1-297": {
+    "title": "Halvparten opp til 20 med bilder",
+    "instruction": "Større grupper av bilder å halvere, helt opp til tjue."
+  },
+  "K-314": {
+    "title": "Entall og flertall: skriv selv",
+    "instruction": "Nå er det ingen stiplede bokstaver. Skriv flertallsformen selv."
+  },
+  "G1-293": {
+    "title": "Substantiv og verb",
+    "instruction": "To bokser denne gangen. Er ordet et substantiv eller et verb?"
+  },
+  "K-310": {
+    "title": "Spor og skriv med store bokstaver",
+    "instruction": "Spor ordet med store bokstaver, og skriv det så selv."
+  },
+  "G1-289": {
+    "title": "Tallpyramider: start på toppen",
+    "instruction": "Toppsteinen er gitt. Jobb nedover, og trekk fra for å finne steinene."
+  },
+  "K-313": {
+    "title": "Flertall og entall: spor entallsformen",
+    "instruction": "Ordet i flertall står ferdig. Spor ordet i entall."
+  },
+  "G2-308": {
+    "title": "Koordinater i rutenett: skriv koden",
+    "instruction": "Bildet er ferdig fargelagt. Skriv koden til hver rute i lista."
+  },
+  "K-309": {
+    "title": "Prikk til prikk med bokstaver",
+    "instruction": "Her er det bokstaver, ikke tall. Følg alfabetet fra a til t."
+  },
+  "G2-307": {
+    "title": "Stor bokstav: hvor slutter setningen?",
+    "instruction": "To setninger står i ett. Skriv dem riktig som to setninger."
+  },
+  "G1-292": {
+    "title": "En eller et? Sorter ordene",
+    "instruction": "Ingen bilder her. Skriv hvert ord i boksen for en eller et."
+  },
+  "G1-298": {
+    "title": "Det dobbelte opp til 20: bare tall",
+    "instruction": "Ingen bilder å telle. Skriv det dobbelte av hvert tall i ruten."
+  },
+  "G1-299": {
+    "title": "Halvparten opp til 20: bare tall",
+    "instruction": "Ingen bilder å telle. Del hvert tall i to like deler."
+  },
+  "G1-300": {
+    "title": "Substantiv og adjektiv",
+    "instruction": "Er ordet et substantiv, eller beskriver det hvordan noe er?"
+  },
+  "G1-301": {
+    "title": "Skriv ordet: ordbank og bokstavruter",
+    "instruction": "Finn ordet i ordbanken, og skriv én bokstav i hver rute."
+  },
+  "G2-311": {
+    "title": "Stor bokstav og spørsmålstegn",
+    "instruction": "Del setningene, og velg punktum eller spørsmålstegn til hver."
+  },
+  "G2-312": {
+    "title": "Les kalenderen: datoer og antall dager",
+    "instruction": "Svaret er noen ganger en dato, andre ganger et antall dager."
+  },
+  "G2-314": {
+    "title": "Prikk til prikk: tell med tiere",
+    "instruction": "Tell med ti om gangen fra 10 til 100, og trekk strek mellom prikkene."
+  },
+  "K-315": {
+    "title": "Skriv av med store bokstaver",
+    "instruction": "Ordet står med store bokstaver. Skriv det av to ganger selv."
+  },
+  "K-316": {
+    "title": "Flertall og entall: skriv entallsformen",
+    "instruction": "Ingen stiplede bokstaver. Skriv entallsformen selv."
+  },
+  "G2-313": {
+    "title": "Tallpyramider med tosifrede svar",
+    "instruction": "Steinene går forbi tjue. Regn skriftlig mens du bygger oppover."
+  },
+  "G1-302": {
+    "title": "Sett ordene i rekkefølge: finn starten",
+    "instruction": "Ett kort har skilletegnet. Finn ordet som må stå først."
+  },
+  "G1-303": {
+    "title": "Skriv ordet: bokstavruter og første bokstav",
+    "instruction": "Én rute til hver bokstav. Første bokstav er gitt."
+  },
+  "G1-304": {
+    "title": "Skriv ordet med all hjelp",
+    "instruction": "Bruk ordbanken, bokstavrutene og første bokstav til å skrive hvert ord."
   }
 }

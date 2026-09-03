@@ -295,7 +295,7 @@ const ROWS = [
   ['g1', 'G1-285', 'dot-to-dot-count-by-twos', 'K-285-dot-to-dot.js', 1, { startAt: 2, step: 2 },
     'Dot-to-Dot: Count by Twos', 'Join the numbered dots in twos; the rest of the outline is already drawn.'],
   ['g1', 'G1-294', 'dot-to-dot-count-back-from-20', 'K-285-dot-to-dot.js', 1, { startAt: 20, step: -1, window: null },
-    'Dot-to-Dot: Count Back from 20', 'Every dot is numbered here, and the whole way is backwards.'],
+    'Dot-to-Dot: Count Back from 20', 'Join the dots from 20 back down to 1 to finish the picture.'],
   ['g2', 'G2-304', 'dot-to-dot-count-by-fives', 'K-285-dot-to-dot.js', 1, { startAt: 5, step: 5 },
     'Dot-to-Dot: Count by Fives', 'Join the numbered dots in fives; the rest of the outline is already drawn.'],
 
@@ -364,7 +364,7 @@ const ROWS = [
     'Halves to 12', 'Every card cuts a group in half. Write the two equal parts.'],
   ['g1', 'G1-296', 'doubles-only-to-20', 'G1-247-doubles-halves.js', 2, { ops: ['double'], cards: 6, dMin: 5, dMax: 10, icon: 22, perRow: 5 },
     'Doubles to 20 with Pictures', 'Bigger groups to double, all the way to twenty.'],
-  ['g1', 'G1-297', 'halves-only-to-20', 'G1-247-doubles-halves.js', 2, { ops: ['half'], cards: 6, hMin: 5, hMax: 10, icon: 22, perRow: 5 },
+  ['g1', 'G1-297', 'halves-only-to-20', 'G1-247-doubles-halves.js', 2, { ops: ['half'], cards: 6, hMin: 5, hMax: 10, icon: 20, perRow: 5 },
     'Halves to 20 with Pictures', 'Bigger groups of pictures to halve, all the way up to twenty.'],
 
   // ⚠ rowH 166, not the inherited 172: four Dutch rows reached 940 against a
@@ -387,7 +387,7 @@ const ROWS = [
   // without reading a single word. d3 already drops pictures for this reason.
   ['g1', 'G1-293', 'word-classes-two-bins', 'G2-275-word-classes.js', 1,
     { classes: ['noun', 'verb'], per: 5, pics: false, tiers: [1], lines: 6 },
-    'Naming Words and Doing Words', 'Read each word. Is it a naming word or a doing word?'],
+    'Nouns and Verbs: Two Bins', 'Ten words and two bins. Is each word a noun or a verb?'],
 
   // word-tracing in block capitals. Glyph coverage MEASURED, not assumed:
   // CORE_GLYPHS carries all 52 ASCII letters and COMPOSED carries Ä Ö Ü Å Á À Â
@@ -468,7 +468,7 @@ const ROWS = [
   // page carries: with pictures, only nouns get one, so the picture IS the answer.
   ['g1', 'G1-300', 'word-classes-nouns-and-adjectives', 'G2-275-word-classes.js', 1,
     { classes: ['noun', 'adj'], per: 5, pics: false, tiers: [1], lines: 6 },
-    'Naming Words and Describing Words', 'Sort each word into the right bin.'],
+    'Nouns and Adjectives: Two Bins', 'Ten words and two bins. Is each word a noun or an adjective?'],
 
   // the {bank, starter, boxes} cube ships five of eight corners; this is the
   // entry rung below the dictee muette — segment the word with the spelling given.
@@ -483,7 +483,7 @@ const ROWS = [
   // stop; G2-282 gives the boundary. This is the cell where neither is given.
   ['g2', 'G2-311', 'fix-the-sentence-two-sentences-one-mark', 'G2-274-fix-the-sentence.js', 2,
     { joinPairs: true, lanes: 3, ends: ['.', '?'], needQ: 1, needCaps: 1, rulH: 48, glyphH: 22, icon: 40 },
-    'Two Sentences: Full Stop or Question Mark?', 'Two sentences ran together, and one of them is a question.'],
+    'Two Sentences: Full Stop or Question Mark?', 'Split the two sentences. End each with a full stop or a question mark.'],
 
   // intervals instead of lookup. `after` appears only inside d3's six-question
   // mix and has never been a page's subject.
@@ -536,10 +536,10 @@ const ROWS = [
   // G1-301 — is that each corner is a measurably different amount of help.
   ['g1', 'G1-303', 'write-the-word-letter-boxes-and-first-letter', 'G1-244-write-the-word.js', 2,
     { bank: false, starter: true, boxes: true, cards: 6, cols: 2, rows: 3, maxLetters: 9 },
-    'Letter Boxes and the First Letter', 'One box for each letter, and the first letter starts you off on the line.'],
+    'Letter Boxes and the First Letter', 'Write each word in the letter boxes. The first letter starts you off.'],
   ['g1', 'G1-304', 'write-the-word-every-clue', 'G1-244-write-the-word.js', 2,
     { bank: true, starter: true, boxes: true, cards: 6, cols: 2, rows: 3, maxLetters: 9 },
-    'Write the Word: Every Clue', 'The word bank, the letter boxes and the first letter are all there to help.'],
+    'Write the Word: Every Clue', 'Write each word using the bank, the boxes and the first letter.'],
 ];
 
 function emit(row) {

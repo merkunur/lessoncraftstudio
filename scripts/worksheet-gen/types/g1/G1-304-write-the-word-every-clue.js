@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-304',
   slug: 'write-the-word-every-clue',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Write the Word: Every Clue", instruction: "The word bank, the letter boxes and the first letter are all there to help." } },
+  i18n: { en: { title: "Write the Word: Every Clue", instruction: "Write each word using the bank, the boxes and the first letter." } },
 };

@@ -36,7 +36,13 @@ const EN_LEAK_MARKERS = [
   'How to use it in class',
   'Worksheet ideas',
   'More worksheet makers',
-  'Open the ', // the EN launchCta template; localised CTAs read 'Abrir/Öppna/Avaa {name}' (verified: 0 hits across the 10 non-EN message sets)
+  // The EN launchCta template. Localised CTAs use their own verbs (Abrir /
+  // Oeppna / Avaa + the maker name), so this cannot false-positive; verified
+  // 0 hits across all 10 non-EN message sets and poison-tested both ways.
+  // NOTE: keep this comment free of quote characters — a naive marker parser
+  // reading the array with /.([^.]+)./ will otherwise pick the comment up as
+  // a marker.
+  'Open the ',
 ];
 
 function parseArgs(argv) {

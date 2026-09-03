@@ -309,6 +309,20 @@ echo "🔎 Hosted-worksheet print CSP contract..."
 node /opt/lessoncraftstudio/scripts/audit-tool-print-sheets.js --contract-only \
   || { echo "ERROR: hosted worksheets would ship with Print dead — see CLAUDE.md §7 / play/w route"; exit 1; }
 
+# Guard: the settings drawer's contract. The shell renders exactly three field
+# types and has no else branch, so an unknown type ships as a labelled row with
+# no control; a key absent from `defaults` starts undefined, so no chip reads as
+# selected; and commitSettings guards BOTH render() and onSettings(), so a tool
+# with neither -- or one that spells the hook onSettingsChange -- has 100% dead
+# settings by construction. All silent.
+# --contract-only because Hetzner has no Chromium. The half that measures
+# whether an option actually CHANGES THE BOARD is a dev run
+# (audit-settings-efficacy.js --all / --all-activities) and belongs in the
+# per-tool and per-activity definition of done, not here.
+echo "🔎 Settings-drawer contract..."
+node /opt/lessoncraftstudio/scripts/audit-settings-efficacy.js --contract-only \
+  || { echo "ERROR: a settings field would ship inert — see lcs-shell.js:590-637"; exit 1; }
+
 # ============================================
 # PAYMENT-SYSTEM PROTECTION (pre-build FAIL)
 # ============================================

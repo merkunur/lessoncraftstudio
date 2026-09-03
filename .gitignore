@@ -278,3 +278,9 @@ docs/audit-results/demand-match/
 
 # 19MB of regenerable deck facts (extract-deck-facts.py re-creates in ~3 min)
 docs/seo-per-page/deck-facts/
+
+# Locale-panel working files (10+ panels write here concurrently). Not gitignored
+# until 2026-09-03: a single `git add .` would have swept in every panel scratch
+# file, and this repo already treats an accidental add as a real hazard (see the
+# tracked-live-docroot note for frontend/public/images).
+scratchpad/

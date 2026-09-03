@@ -46,8 +46,14 @@ module.exports = {
     // choose frames: ≥ needCaps with a {name} (a capital inside), ≥ needQ questions at d3
     let frames = null, guard = 0;
     while (!frames && guard++ < 200) {
-      const cand = rng.shuffle(pool.slice()).slice(0, d.lanes);
-      if (cand.length < d.lanes) break;
+      // joinPairs needs TWO distinct frames per lane: the broken pill holds two
+      // sentences run together, and the child must decide where the first one
+      // ENDS before capitalising anything. That is a different noticing from
+      // restoring a mark you can see is missing, and it is the run-on lesson
+      // teachers print as its own sheet.
+      const need = d.joinPairs ? d.lanes * 2 : d.lanes;
+      const cand = rng.shuffle(pool.slice()).slice(0, need);
+      if (cand.length < need) break;
       const withName = cand.filter((f) => /\{name\}/.test(f.text)).length;
       const qs = cand.filter((f) => SB.endMark(f.text) === '?').length;
       if (withName < d.needCaps) continue;
@@ -64,14 +70,27 @@ module.exports = {
     }
     if (!frames) throw new Error(`G2-274: bank ${loc} cannot satisfy d${difficulty} (fix frames: ${pool.length})`);
     const nouns = rng.sample(entries, d.lanes);
-    const lanes = frames.map((frame, i) => {
+    // In joinPairs mode `frames` holds 2 per lane, so walk it in pairs.
+    const laneFrames = d.joinPairs
+      ? Array.from({ length: d.lanes }, (_, i) => [frames[i * 2], frames[i * 2 + 1]])
+      : frames.map((f) => [f]);
+    const lanes = laneFrames.map((pair, i) => {
+      const frame = pair[0];
       const e = nouns[i];
       const mode = bank.nounCase === 'keep' ? 'keep' : 'lower';
       const nounText = SB.resolveNoun(bank, frame, { ...e, singular: displayWord(e.singular, loc, mode), plural: displayWord(e.plural, loc, mode) }, loc);
       const name = rng.sample(bank.names, 2); // array: a second {name} gets the second name
-      const canonical = SB.fillFrame(frame.text, { name, noun: nounText, n: '', color: '' });
-      const broken = SB.corrupt(canonical, loc);
-      return `<div class="ws-lane" style="display:grid;grid-template-columns:${d.icon}px 1fr;gap:12px;align-items:center;padding:10px 14px" data-lcs-item data-lcs-frame="${frame.id}" data-lcs-canonical="${canonical.replace(/"/g, '&quot;')}" data-lcs-end="${SB.endMark(canonical)}">` +
+      const one = SB.fillFrame(frame.text, { name, noun: nounText, n: '', color: '' });
+      const two = pair[1] ? SB.fillFrame(pair[1].text, { name: rng.sample(bank.names, 2), noun: nounText, n: '', color: '' }) : null;
+      const canonical = two ? one + ' ' + two : one;
+      // ⚠ A GLOBAL mark strip, not the trailing-only one. SB.corrupt removes the
+      // final mark; here the mark BETWEEN the two sentences is exactly what the
+      // child has to restore, so it must go too. verify() re-derives the same
+      // way under the same flag.
+      const broken = two
+        ? canonical.replace(/^[¿¡]+\s*/, '').replace(/[.?!…]/g, '').replace(/\s+/g, ' ').trim().toLocaleLowerCase(loc)
+        : SB.corrupt(canonical, loc);
+      return `<div class="ws-lane" style="display:grid;grid-template-columns:${d.icon}px 1fr;gap:12px;align-items:center;padding:10px 14px" data-lcs-item data-lcs-frame="${pair.map((f) => f.id).join('+')}"${d.joinPairs ? ' data-lcs-multi="1"' : ''} data-lcs-canonical="${canonical.replace(/"/g, '&quot;')}" data-lcs-end="${SB.endMark(canonical)}">` +
         `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" style="width:${d.icon}px;height:${d.icon}px">` +
         `<div style="display:flex;flex-direction:column;gap:6px;min-width:0">` +
         `<div style="background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:5px 14px;font-family:'Nunito';font-weight:700;font-size:${d.font}px;color:#3A3530" data-lcs-broken>${broken}</div>` +
@@ -98,6 +117,11 @@ module.exports = {
       const fails = [];
       const lang = (document.documentElement.lang || 'en').slice(0, 2);
       const corrupt = (s) => s.trim().replace(/^[¿¡]+\s*/, '').replace(/[\s  ]*[.?!…]+$/, '').toLocaleLowerCase(lang);
+      // Two corruptions, and the second is the whole point of the run-on face: the
+      // mark BETWEEN the two sentences must go too, so the child has to find where
+      // the first one ends. The trailing-only form would leave that period visible
+      // and the assertion below would fail a correct page.
+      const corruptAll = (s) => s.replace(/^[¿¡]+\s*/, '').replace(/[.?!…]/g, '').replace(/\s+/g, ' ').trim().toLocaleLowerCase(lang);
       const lanes = [...document.querySelectorAll('[data-lcs-item]')];
       // Floor of 3, not 4. The name-free variant cannot reach four lanes in every
       // language: measured, the fix frames that carry no name number 10 in en but
@@ -114,10 +138,13 @@ module.exports = {
         if (canon.has(c)) fails.push(`lane ${i + 1}: sentence repeated`);
         canon.add(c);
         if (!b) { fails.push(`lane ${i + 1}: no broken pill`); return; }
-        if (b.textContent.trim() !== corrupt(c)) fails.push(`lane ${i + 1}: broken text is not corrupt(canonical)`);
+        const multi = !!lane.dataset.lcsMulti;
+        if (b.textContent.trim() !== (multi ? corruptAll(c) : corrupt(c))) fails.push(`lane ${i + 1}: broken text is not corrupt(canonical)`);
         if (b.textContent.trim() === c.trim()) fails.push(`lane ${i + 1}: nothing to fix`);
         if (!/^[¿¡]?\p{Lu}/u.test(c)) fails.push(`lane ${i + 1}: canonical does not start with a capital`);
         if (!/[.?!]$/.test(c)) fails.push(`lane ${i + 1}: canonical has no end mark`);
+        // A run-on lane must genuinely contain TWO sentences to rejoin.
+        if (multi && (c.match(/[.?!]/g) || []).length < 2) fails.push(`lane ${i + 1}: run-on lane has only one sentence`);
         if (/[.?!¿¡]/.test(b.textContent) || /\p{Lu}/u.test(b.textContent)) fails.push(`lane ${i + 1}: broken text still has a capital or mark`);
         if (/\{/.test(c)) fails.push(`lane ${i + 1}: unfilled slot`);
         ends.push(lane.dataset.lcsEnd);

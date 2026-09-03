@@ -1,269 +1,422 @@
 {
-  "locale": "no",
-  "types": {
-    "K-289": {
-      "title": "Spor og skriv: de første ordene",
-      "instruction": "Spor det stiplede ordet, og skriv det så på linjen under."
-    },
-    "K-290": {
-      "title": "Spor én gang, skriv to ganger",
-      "instruction": "Spor ordet én gang, og skriv det så to ganger helt selv."
-    },
-    "K-291": {
-      "title": "Spor og skriv: de lange ordene",
-      "instruction": "Disse ordene er lange. Spor hvert ord, og skriv det så selv."
-    },
-    "K-294": {
-      "title": "Prikk til prikk fra 1 til 10",
-      "instruction": "Start på den oransje prikken. Trekk strek fra 1 til 10."
-    },
-    "K-295": {
-      "title": "Prikk til prikk fra 11 til 20",
-      "instruction": "Start på den oransje prikken. Trekk strek fra 11 til 20."
-    },
-    "K-296": {
-      "title": "Prikk til prikk: tell videre til 30",
-      "instruction": "Tell videre fra 11 til 30, og se hvilket bilde som kommer fram."
-    },
-    "K-298": {
-      "title": "Tegn etter i rutenett uten bokstaver og tall",
-      "instruction": "Ingen bokstaver og tall her. Fargelegg de samme rutene."
-    },
-    "K-299": {
-      "title": "Tegn etter i rutenett med bokstaver og tall",
-      "instruction": "Bruk bokstaven og tallet til hver rute når du tegner."
-    },
-    "K-300": {
-      "title": "Tegn etter i rutenett med 8 x 8 ruter",
-      "instruction": "Et større rutenett. Finn hver rute med bokstav og tall."
-    },
-    "K-302": {
-      "title": "Entall og flertall: de første ordene",
-      "instruction": "Én eller flere? Spor ordet som står for flere."
-    },
-    "K-303": {
-      "title": "Entall og flertall: lengre ord",
-      "instruction": "Disse ordene er lengre. Spor ordet som står for flere."
-    },
-    "K-306": {
-      "title": "En eller et? Fire bilder",
-      "instruction": "Si ordet til hvert bilde høyt. Sett ring rundt en eller et."
-    },
-    "K-307": {
-      "title": "En eller et? Åtte bilder",
-      "instruction": "Åtte bilder denne gangen. Sett ring rundt en eller et."
-    },
-    "G1-251": {
-      "title": "Les og fargelegg: fire setninger",
-      "instruction": "Les hver setning, og fargelegg nøyaktig det setningen sier."
-    },
-    "G1-252": {
-      "title": "Les og fargelegg: flere farger",
-      "instruction": "Seks setninger og seks farger. Les nøye før du fargelegger."
-    },
-    "G1-255": {
-      "title": "Dagens tall fra 11 til 20",
-      "instruction": "Se på dagens tall mellom 11 og 20. Fyll ut hver rute på arket."
-    },
-    "G1-256": {
-      "title": "Dagens tall: ti mer og ti mindre",
-      "instruction": "Finn ti mer og ti mindre enn dagens tall, og fyll ut resten."
-    },
-    "G1-257": {
-      "title": "Dagens tall opp til 99",
-      "instruction": "Vis et tosifret tall med tiere og enere, og fyll ut hver rute."
-    },
-    "G1-258": {
-      "title": "Skriv ordet: første bokstav er gitt",
-      "instruction": "Bruk ordbanken. Første bokstav er skrevet for å hjelpe deg."
-    },
-    "G1-259": {
-      "title": "Skriv ordet: velg fra ordbanken",
-      "instruction": "Alle ordene står i ordbanken. Velg riktig ord til hvert bilde."
-    },
-    "G1-260": {
-      "title": "Skriv ordet uten ordbank",
-      "instruction": "Ingen ordbank denne gangen. Skriv ordet til hvert bilde selv."
-    },
-    "G1-262": {
-      "title": "Alfabetisk rekkefølge: nummerer kortene",
-      "instruction": "Nummerer de fire kortene i alfabetisk rekkefølge."
-    },
-    "G1-263": {
-      "title": "Alfabetisk rekkefølge: nummerer og skriv",
-      "instruction": "Nummerer kortene, og skriv så ordene på linjene."
-    },
-    "G1-264": {
-      "title": "Alfabetisk rekkefølge: samme førstebokstav",
-      "instruction": "To par ord begynner likt. Bruk den andre bokstaven."
-    },
-    "G1-266": {
-      "title": "Tallpyramider opp til 10",
-      "instruction": "Hver stein er summen av de to under. Bygg pyramiden til topps."
-    },
-    "G1-267": {
-      "title": "Tallpyramider med fire etasjer",
-      "instruction": "Fire etasjer og ingen hull. Legg sammen to og to helt opp."
-    },
-    "G1-268": {
-      "title": "Tallpyramider: finn steinen som mangler",
-      "instruction": "En stein nederst mangler. Bruk steinen over til å finne den."
-    },
-    "G1-270": {
-      "title": "Det dobbelte og halvparten: små tall",
-      "instruction": "Se på lappen. Doble gruppen, eller del den i to like deler."
-    },
-    "G1-271": {
-      "title": "Det dobbelte og halvparten opp til 20",
-      "instruction": "Bare tall her. Regn ut det dobbelte og halvparten."
-    },
-    "G1-274": {
-      "title": "Les av tallinjen fra 0 til 10",
-      "instruction": "Skriv tallet hver pil peker på, fra 0 til 10."
-    },
-    "G1-275": {
-      "title": "Tallinje til 20 med færre tall",
-      "instruction": "Bare 0, 10 og 20 står der. Tell videre fram til hver pil."
-    },
-    "G1-276": {
-      "title": "Les av tallinjen fra 0 til 30",
-      "instruction": "Tell videre opp til 30. Skriv tallet hver pil peker på."
-    },
-    "G1-277": {
-      "title": "Les av tallinjen fra 0 til 50",
-      "instruction": "Hvert tiende tall står der. Tell videre fram til hver pil."
-    },
-    "G1-278": {
-      "title": "Tallinje til 50: tell med femmere",
-      "instruction": "Tell med fem om gangen fra 0, 25 eller 50 fram til hver pil."
-    },
-    "G1-279": {
-      "title": "Tallinje til 100: tell med femmere",
-      "instruction": "Hver strek er fem, helt opp til 100. Hvilket tall står pilen på?"
-    },
-    "G1-280": {
-      "title": "Tallinje til 100: tell med tiere",
-      "instruction": "Hver strek er ti. Tell med ti om gangen fram til hver pil."
-    },
-    "G1-281": {
-      "title": "Les av tallinjen fra 0 til 120",
-      "instruction": "Denne tallinjen går forbi 100. Tell med ti om gangen."
-    },
-    "G1-282": {
-      "title": "Sett ordene i rekkefølge: med hjelp",
-      "instruction": "Stor bokstav og punktum viser start og slutt på setningen."
-    },
-    "G1-283": {
-      "title": "Sett ordene i rekkefølge: uten hjelp",
-      "instruction": "Ingen stor bokstav, ingen punktum. Finn rekkefølgen selv."
-    },
-    "G2-281": {
-      "title": "Stor bokstav og riktig skilletegn",
-      "instruction": "Skriv setningene på nytt med stor bokstav og riktig skilletegn."
-    },
-    "G2-282": {
-      "title": "Stor bokstav, navn og skilletegn",
-      "instruction": "Rett opp stor bokstav og navn, og velg riktig skilletegn."
-    },
-    "G2-285": {
-      "title": "Substantiv, verb og adjektiv: 9 ord",
-      "instruction": "Substantivene har bilde til hjelp. Sorter hvert ord i en boks."
-    },
-    "G2-286": {
-      "title": "Substantiv, verb og adjektiv: 12 ord",
-      "instruction": "Tolv ord uten bilder. Les og sorter hvert ord i en boks."
-    },
-    "G2-287": {
-      "title": "Substantiv, verb og adjektiv: 15 ord",
-      "instruction": "Femten ord uten bilder. Sorter hvert ord i riktig boks."
-    },
-    "G2-289": {
-      "title": "Regne med penger: to oppgaver",
-      "instruction": "Les hver oppgave, og bruk prisene i hylla til å svare."
-    },
-    "G2-290": {
-      "title": "Regne med penger: fire spørsmål",
-      "instruction": "Fire kort, fire ulike spørsmål om penger. Svar på alle."
-    },
-    "G2-291": {
-      "title": "Regne med penger: hva koster det til sammen?",
-      "instruction": "Hvert kort spør om summen. Legg sammen prisene."
-    },
-    "G2-292": {
-      "title": "Regne med penger: kjøpe tre ting",
-      "instruction": "Hver kurv har tre ting. Legg sammen alle tre prisene."
-    },
-    "G2-293": {
-      "title": "Regne med penger: hvor mye igjen?",
-      "instruction": "Tell myntene som blir betalt, og regn ut hvor mye du får igjen."
-    },
-    "G2-294": {
-      "title": "Regne med penger: er det nok?",
-      "instruction": "Sammenlign pengene med prisen. Sett ring rundt ja eller nei."
-    },
-    "G2-295": {
-      "title": "Regne med penger: hvor mye mer?",
-      "instruction": "Sammenlign to priser, og regn ut hvor mye mer den ene koster."
-    },
-    "G2-296": {
-      "title": "Les kalenderen: fire spørsmål",
-      "instruction": "Se på måneden. Svar på hvert spørsmål ved å lese kalenderen."
-    },
-    "G2-297": {
-      "title": "Les kalenderen: en travel måned",
-      "instruction": "Finn datoen én uke senere, og tell dagene mellom to av bildene."
-    },
-    "G2-298": {
-      "title": "Les kalenderen: ukedagene",
-      "instruction": "Alle spørsmålene handler om ukedager. Les nedover i kolonnene."
-    },
-    "G2-299": {
-      "title": "Skriv til bildet: begynnelsen er gitt",
-      "instruction": "Setningsstarterne hjelper deg i gang. Bruk ordbanken."
-    },
-    "G2-300": {
-      "title": "Skriv til bildet med egne ord",
-      "instruction": "Ingen setningsstartere. Bruk ordbanken og skriv selv."
-    },
-    "G2-302": {
-      "title": "Koordinater i rutenett: 6 x 6",
-      "instruction": "Finn hver rute med bokstav og tall. Fargelegg den og se bildet."
-    },
-    "G2-303": {
-      "title": "Koordinater i rutenett: 10 x 10",
-      "instruction": "Et større rutenett med flere ruter. Jobb deg nøye gjennom lista."
-    },
-    "G3-371": {
-      "title": "Regnefortellinger: gange",
-      "instruction": "Bildet viser de like gruppene. Skriv svaret i ruten."
-    },
-    "G3-372": {
-      "title": "Regnefortellinger: dele likt",
-      "instruction": "Hver fortelling deler likt. Fordel tingene i boksene."
-    },
-    "G3-373": {
-      "title": "Regnefortellinger: lage like grupper",
-      "instruction": "Sett ring rundt de like gruppene på bildet, og skriv svaret."
-    },
-    "G3-374": {
-      "title": "Regnefortellinger: dele på to måter",
-      "instruction": "Én fortelling deler likt, den andre lager grupper."
-    },
-    "G3-375": {
-      "title": "Regnefortellinger: gange og lage grupper",
-      "instruction": "Én fortelling bygger grupper, den andre deler dem opp."
-    },
-    "G3-376": {
-      "title": "Regnefortellinger: gange og dele blandet",
-      "instruction": "Tre fortellinger. Tenk over hva hver av dem spør om."
-    }
+ "locale": "no",
+ "types": {
+  "K-289": {
+   "title": "Spor og skriv: de første ordene",
+   "instruction": "Spor det stiplede ordet, og skriv det så på linjen under."
   },
-  "enAudit": [
-    "K-295 \"Dot-to-Dot: Teen Numbers\" — the page is dots 11 to 20 (type spec startAt 11, window 10; the number strip at the foot of the render reads 11-20). 20 is not a teen number, so the title mis-names the range by one dot. Suggest \"Dot-to-Dot 11 to 20\", which also matches the K-294 \"1 to 10\" sibling.",
-    "G1-267 \"Number Walls: Four Rows High\" names a property it SHARES with G1-268 — both are courses:4 (G1-266 is the 3-course one). G1-267's real differentiator is that no brick is missing (gap:false vs G1-268 gap:true); its instruction says \"and no gaps\" but the title does not. Same class as the already-fixed G1-263 / K-298 titles.",
-    "G2-286 \"Word Classes: Without Pictures\" names a property it SHARES with G2-287 — both are pics:false (only G2-285 has picture chips). Its real differentiator is the word count: 12 chips, and both siblings are already titled by count (\"Sort Nine Words\", \"Sort Fifteen Words\"). Suggest \"Word Classes: Sort Twelve Words\".",
-    "G2-296 \"Read the Calendar: Four Questions\" names a property it SHARES with G2-298, which also carries exactly four questions (G2-296 questions [dayOfDate, countWeekday, stickerDate, daysInMonth]; G2-298 [dayOfDate, countWeekday, firstDay, lastDay]). Only G2-297 has six. G2-296's real differentiator is the MIX of question kinds versus G2-298's all-weekday set.",
-    "K-298 instruction \"A small grid to start.\" still names a property shared with K-299: both are size:6. (The TITLE was fixed; the instruction was not.) The actual difference is that K-298 has no coordinate labels at all (labels:false) while K-299 prints A-F / 1-6. Note the size claim is true relative to the K-286 base, which is 7x7 — it just does not separate K-298 from K-299.",
-    "Pipeline observation (all locales, low priority): the two read-and-color faces are themed \"animals bw\" / \"toys bw\", and themeNameFor() returns null for every bw theme key in every locale including en. G1-251 and G1-252 are therefore the only two faces in this batch whose title and meta description carry no theme keyword at all. Either register display names for the bw theme keys or give these two faces a colour theme."
-  ]
+  "K-290": {
+   "title": "Spor én gang, skriv to ganger",
+   "instruction": "Spor ordet én gang, og skriv det så to ganger helt selv."
+  },
+  "K-291": {
+   "title": "Spor og skriv: de lange ordene",
+   "instruction": "Disse ordene er lange. Spor hvert ord, og skriv det så selv."
+  },
+  "K-294": {
+   "title": "Prikk til prikk fra 1 til 10",
+   "instruction": "Start på den oransje prikken. Trekk strek fra 1 til 10."
+  },
+  "K-295": {
+   "title": "Prikk til prikk fra 11 til 20",
+   "instruction": "Start på den oransje prikken. Trekk strek fra 11 til 20."
+  },
+  "K-296": {
+   "title": "Prikk til prikk: tell videre til 30",
+   "instruction": "Tell videre fra 11 til 30, og se hvilket bilde som kommer fram."
+  },
+  "K-298": {
+   "title": "Tegn etter i rutenett uten bokstaver og tall",
+   "instruction": "Ingen bokstaver og tall her. Fargelegg de samme rutene."
+  },
+  "K-299": {
+   "title": "Tegn etter i rutenett med bokstaver og tall",
+   "instruction": "Bruk bokstaven og tallet til hver rute når du tegner."
+  },
+  "K-300": {
+   "title": "Tegn etter i rutenett med 8 x 8 ruter",
+   "instruction": "Et større rutenett. Finn hver rute med bokstav og tall."
+  },
+  "K-302": {
+   "title": "Entall og flertall: de første ordene",
+   "instruction": "Én eller flere? Spor ordet som står for flere."
+  },
+  "K-303": {
+   "title": "Entall og flertall: lengre ord",
+   "instruction": "Disse ordene er lengre. Spor ordet som står for flere."
+  },
+  "K-306": {
+   "title": "En eller et? Fire bilder",
+   "instruction": "Si ordet til hvert bilde høyt. Sett ring rundt en eller et."
+  },
+  "K-307": {
+   "title": "En eller et? Åtte bilder",
+   "instruction": "Åtte bilder denne gangen. Sett ring rundt en eller et."
+  },
+  "G1-251": {
+   "title": "Les og fargelegg: fire setninger",
+   "instruction": "Les hver setning, og fargelegg nøyaktig det setningen sier."
+  },
+  "G1-252": {
+   "title": "Les og fargelegg: flere farger",
+   "instruction": "Seks setninger og seks farger. Les nøye før du fargelegger."
+  },
+  "G1-255": {
+   "title": "Dagens tall fra 11 til 20",
+   "instruction": "Se på dagens tall mellom 11 og 20. Fyll ut hver rute på arket."
+  },
+  "G1-256": {
+   "title": "Dagens tall: ti mer og ti mindre",
+   "instruction": "Finn ti mer og ti mindre enn dagens tall, og fyll ut resten."
+  },
+  "G1-257": {
+   "title": "Dagens tall opp til 99",
+   "instruction": "Vis et tosifret tall med tiere og enere, og fyll ut hver rute."
+  },
+  "G1-258": {
+   "title": "Skriv ordet: første bokstav er gitt",
+   "instruction": "Bruk ordbanken. Første bokstav er skrevet for å hjelpe deg."
+  },
+  "G1-259": {
+   "title": "Skriv ordet: velg fra ordbanken",
+   "instruction": "Alle ordene står i ordbanken. Velg riktig ord til hvert bilde."
+  },
+  "G1-260": {
+   "title": "Skriv ordet uten ordbank",
+   "instruction": "Ingen ordbank denne gangen. Skriv ordet til hvert bilde selv."
+  },
+  "G1-262": {
+   "title": "Alfabetisk rekkefølge: nummerer kortene",
+   "instruction": "Nummerer de fire kortene i alfabetisk rekkefølge."
+  },
+  "G1-263": {
+   "title": "Alfabetisk rekkefølge: nummerer og skriv",
+   "instruction": "Nummerer kortene, og skriv så ordene på linjene."
+  },
+  "G1-264": {
+   "title": "Alfabetisk rekkefølge: samme førstebokstav",
+   "instruction": "To par ord begynner likt. Bruk den andre bokstaven."
+  },
+  "G1-266": {
+   "title": "Tallpyramider opp til 10",
+   "instruction": "Hver stein er summen av de to under. Bygg pyramiden til topps."
+  },
+  "G1-267": {
+   "title": "Tallpyramider med fire etasjer",
+   "instruction": "Fire etasjer og ingen hull. Legg sammen to og to helt opp."
+  },
+  "G1-268": {
+   "title": "Tallpyramider: finn steinen som mangler",
+   "instruction": "En stein nederst mangler. Bruk steinen over til å finne den."
+  },
+  "G1-270": {
+   "title": "Det dobbelte og halvparten: små tall",
+   "instruction": "Se på lappen. Doble gruppen, eller del den i to like deler."
+  },
+  "G1-271": {
+   "title": "Det dobbelte og halvparten opp til 20",
+   "instruction": "Bare tall her. Regn ut det dobbelte og halvparten."
+  },
+  "G1-274": {
+   "title": "Les av tallinjen fra 0 til 10",
+   "instruction": "Skriv tallet hver pil peker på, fra 0 til 10."
+  },
+  "G1-275": {
+   "title": "Tallinje til 20 med færre tall",
+   "instruction": "Bare 0, 10 og 20 står der. Tell videre fram til hver pil."
+  },
+  "G1-276": {
+   "title": "Les av tallinjen fra 0 til 30",
+   "instruction": "Tell videre opp til 30. Skriv tallet hver pil peker på."
+  },
+  "G1-277": {
+   "title": "Les av tallinjen fra 0 til 50",
+   "instruction": "Hvert tiende tall står der. Tell videre fram til hver pil."
+  },
+  "G1-278": {
+   "title": "Tallinje til 50: tell med femmere",
+   "instruction": "Tell med fem om gangen fra 0, 25 eller 50 fram til hver pil."
+  },
+  "G1-279": {
+   "title": "Tallinje til 100: tell med femmere",
+   "instruction": "Hver strek er fem, helt opp til 100. Hvilket tall står pilen på?"
+  },
+  "G1-280": {
+   "title": "Tallinje til 100: tell med tiere",
+   "instruction": "Hver strek er ti. Tell med ti om gangen fram til hver pil."
+  },
+  "G1-281": {
+   "title": "Les av tallinjen fra 0 til 120",
+   "instruction": "Denne tallinjen går forbi 100. Tell med ti om gangen."
+  },
+  "G1-282": {
+   "title": "Sett ordene i rekkefølge: med hjelp",
+   "instruction": "Stor bokstav og punktum viser start og slutt på setningen."
+  },
+  "G1-283": {
+   "title": "Sett ordene i rekkefølge: uten hjelp",
+   "instruction": "Ingen stor bokstav, ingen punktum. Finn rekkefølgen selv."
+  },
+  "G2-281": {
+   "title": "Stor bokstav og riktig skilletegn",
+   "instruction": "Skriv setningene på nytt med stor bokstav og riktig skilletegn."
+  },
+  "G2-282": {
+   "title": "Stor bokstav, navn og skilletegn",
+   "instruction": "Rett opp stor bokstav og navn, og velg riktig skilletegn."
+  },
+  "G2-285": {
+   "title": "Substantiv, verb og adjektiv: 9 ord",
+   "instruction": "Substantivene har bilde til hjelp. Sorter hvert ord i en boks."
+  },
+  "G2-286": {
+   "title": "Substantiv, verb og adjektiv: 12 ord",
+   "instruction": "Tolv ord uten bilder. Les og sorter hvert ord i en boks."
+  },
+  "G2-287": {
+   "title": "Substantiv, verb og adjektiv: 15 ord",
+   "instruction": "Femten ord uten bilder. Sorter hvert ord i riktig boks."
+  },
+  "G2-289": {
+   "title": "Regne med penger: to oppgaver",
+   "instruction": "Les hver oppgave, og bruk prisene i hylla til å svare."
+  },
+  "G2-290": {
+   "title": "Regne med penger: fire spørsmål",
+   "instruction": "Fire kort, fire ulike spørsmål om penger. Svar på alle."
+  },
+  "G2-291": {
+   "title": "Regne med penger: hva koster det til sammen?",
+   "instruction": "Hvert kort spør om summen. Legg sammen prisene."
+  },
+  "G2-292": {
+   "title": "Regne med penger: kjøpe tre ting",
+   "instruction": "Hver kurv har tre ting. Legg sammen alle tre prisene."
+  },
+  "G2-293": {
+   "title": "Regne med penger: hvor mye igjen?",
+   "instruction": "Tell myntene som blir betalt, og regn ut hvor mye du får igjen."
+  },
+  "G2-294": {
+   "title": "Regne med penger: er det nok?",
+   "instruction": "Sammenlign pengene med prisen. Sett ring rundt ja eller nei."
+  },
+  "G2-295": {
+   "title": "Regne med penger: hvor mye mer?",
+   "instruction": "Sammenlign to priser, og regn ut hvor mye mer den ene koster."
+  },
+  "G2-296": {
+   "title": "Les kalenderen: fire spørsmål",
+   "instruction": "Se på måneden. Svar på hvert spørsmål ved å lese kalenderen."
+  },
+  "G2-297": {
+   "title": "Les kalenderen: en travel måned",
+   "instruction": "Finn datoen én uke senere, og tell dagene mellom to av bildene."
+  },
+  "G2-298": {
+   "title": "Les kalenderen: ukedagene",
+   "instruction": "Alle spørsmålene handler om ukedager. Les nedover i kolonnene."
+  },
+  "G2-299": {
+   "title": "Skriv til bildet: begynnelsen er gitt",
+   "instruction": "Setningsstarterne hjelper deg i gang. Bruk ordbanken."
+  },
+  "G2-300": {
+   "title": "Skriv til bildet med egne ord",
+   "instruction": "Ingen setningsstartere. Bruk ordbanken og skriv selv."
+  },
+  "G2-302": {
+   "title": "Koordinater i rutenett: 6 x 6",
+   "instruction": "Finn hver rute med bokstav og tall. Fargelegg den og se bildet."
+  },
+  "G2-303": {
+   "title": "Koordinater i rutenett: 10 x 10",
+   "instruction": "Et større rutenett med flere ruter. Jobb deg nøye gjennom lista."
+  },
+  "G3-371": {
+   "title": "Regnefortellinger: gange",
+   "instruction": "Bildet viser de like gruppene. Skriv svaret i ruten."
+  },
+  "G3-372": {
+   "title": "Regnefortellinger: dele likt",
+   "instruction": "Hver fortelling deler likt. Fordel tingene i boksene."
+  },
+  "G3-373": {
+   "title": "Regnefortellinger: lage like grupper",
+   "instruction": "Sett ring rundt de like gruppene på bildet, og skriv svaret."
+  },
+  "G3-374": {
+   "title": "Regnefortellinger: dele på to måter",
+   "instruction": "Én fortelling deler likt, den andre lager grupper."
+  },
+  "G3-375": {
+   "title": "Regnefortellinger: gange og lage grupper",
+   "instruction": "Én fortelling bygger grupper, den andre deler dem opp."
+  },
+  "G3-376": {
+   "title": "Regnefortellinger: gange og dele blandet",
+   "instruction": "Tre fortellinger. Tenk over hva hver av dem spør om."
+  },
+  "K-308": {
+   "title": "Prikk til prikk: tell baklengs fra 10",
+   "instruction": "Start på den oransje prikken, og tell baklengs fra 10 til 1."
+  },
+  "G1-285": {
+   "title": "Prikk til prikk: tell med toere",
+   "instruction": "Tell med toere fra 2 til 20, og trekk strek fra prikk til prikk."
+  },
+  "G1-294": {
+   "title": "Prikk til prikk: tell baklengs fra 20",
+   "instruction": "Alle prikkene er nummererte. Tell baklengs fra 20 helt ned til 1."
+  },
+  "G2-304": {
+   "title": "Prikk til prikk: tell med femmere",
+   "instruction": "Tell med fem om gangen fra 5 til 50, og trekk strek mellom prikkene."
+  },
+  "K-311": {
+   "title": "Skriv av ordet to ganger",
+   "instruction": "Ingen stiplede bokstaver her. Se på ordet, og skriv det av to ganger."
+  },
+  "G1-291": {
+   "title": "Skriv ordet: første bokstav, ingen ordbank",
+   "instruction": "Ingen ordbank her. Skriv resten av ordet selv."
+  },
+  "G1-286": {
+   "title": "Det dobbelte og halvparten med bilder",
+   "instruction": "Noen kort spør om det dobbelte, andre om halvparten."
+  },
+  "G2-305": {
+   "title": "Les av tallinjen fra 40 til 60",
+   "instruction": "Denne tallinjen starter ikke på null. Tell videre fra nærmeste tall."
+  },
+  "G2-310": {
+   "title": "Les av tallinjen fra 60 til 100",
+   "instruction": "Tallinjen starter på 60. Hvert femte tall står der til hjelp."
+  },
+  "G1-295": {
+   "title": "Les av tallinjen fra 20 til 40",
+   "instruction": "Tallinjen starter på 20. Tell videre fra nærmeste tall som står der."
+  },
+  "G1-287": {
+   "title": "Det dobbelte opp til 14",
+   "instruction": "Her skal du bare doble. Tell bildene, og skriv summen i ruten."
+  },
+  "G1-288": {
+   "title": "Halvparten opp til 12",
+   "instruction": "Her skal du bare halvere. Skriv de to like delene i rutene."
+  },
+  "G1-296": {
+   "title": "Det dobbelte opp til 20 med bilder",
+   "instruction": "Nå skal du doble større grupper, helt opp til tjue."
+  },
+  "G1-297": {
+   "title": "Halvparten opp til 20 med bilder",
+   "instruction": "Større grupper av bilder å halvere, helt opp til tjue."
+  },
+  "K-314": {
+   "title": "Entall og flertall: skriv selv",
+   "instruction": "Nå er det ingen stiplede bokstaver. Skriv flertallsformen selv."
+  },
+  "G1-293": {
+   "title": "Substantiv og verb",
+   "instruction": "To bokser denne gangen. Er ordet et substantiv eller et verb?"
+  },
+  "K-310": {
+   "title": "Spor og skriv med store bokstaver",
+   "instruction": "Spor ordet med store bokstaver, og skriv det så selv."
+  },
+  "G1-289": {
+   "title": "Tallpyramider: start på toppen",
+   "instruction": "Toppsteinen er gitt. Jobb nedover, og trekk fra for å finne steinene."
+  },
+  "K-313": {
+   "title": "Flertall og entall: spor entallsformen",
+   "instruction": "Ordet i flertall står ferdig. Spor ordet i entall."
+  },
+  "G2-308": {
+   "title": "Koordinater i rutenett: skriv koden",
+   "instruction": "Bildet er ferdig fargelagt. Skriv koden til hver rute i lista."
+  },
+  "K-309": {
+   "title": "Prikk til prikk med bokstaver",
+   "instruction": "Her er det bokstaver, ikke tall. Følg alfabetet fra a til t."
+  },
+  "G2-307": {
+   "title": "Stor bokstav: hvor slutter setningen?",
+   "instruction": "To setninger står i ett. Skriv dem riktig som to setninger."
+  },
+  "G1-292": {
+   "title": "En eller et? Sorter ordene",
+   "instruction": "Ingen bilder her. Skriv hvert ord i boksen for en eller et."
+  },
+  "G1-298": {
+   "title": "Det dobbelte opp til 20: bare tall",
+   "instruction": "Ingen bilder å telle. Skriv det dobbelte av hvert tall i ruten."
+  },
+  "G1-299": {
+   "title": "Halvparten opp til 20: bare tall",
+   "instruction": "Ingen bilder å telle. Del hvert tall i to like deler."
+  },
+  "G1-300": {
+   "title": "Substantiv og adjektiv",
+   "instruction": "Er ordet et substantiv, eller beskriver det hvordan noe er?"
+  },
+  "G1-301": {
+   "title": "Skriv ordet: ordbank og bokstavruter",
+   "instruction": "Finn ordet i ordbanken, og skriv én bokstav i hver rute."
+  },
+  "G2-311": {
+   "title": "Stor bokstav og spørsmålstegn",
+   "instruction": "Del setningene, og velg punktum eller spørsmålstegn til hver."
+  },
+  "G2-312": {
+   "title": "Les kalenderen: datoer og antall dager",
+   "instruction": "Svaret er noen ganger en dato, andre ganger et antall dager."
+  },
+  "G2-314": {
+   "title": "Prikk til prikk: tell med tiere",
+   "instruction": "Tell med ti om gangen fra 10 til 100, og trekk strek mellom prikkene."
+  },
+  "K-315": {
+   "title": "Skriv av med store bokstaver",
+   "instruction": "Ordet står med store bokstaver. Skriv det av to ganger selv."
+  },
+  "K-316": {
+   "title": "Flertall og entall: skriv entallsformen",
+   "instruction": "Ingen stiplede bokstaver. Skriv entallsformen selv."
+  },
+  "G2-313": {
+   "title": "Tallpyramider med tosifrede svar",
+   "instruction": "Steinene går forbi tjue. Regn skriftlig mens du bygger oppover."
+  },
+  "G1-302": {
+   "title": "Sett ordene i rekkefølge: finn starten",
+   "instruction": "Ett kort har skilletegnet. Finn ordet som må stå først."
+  },
+  "G1-303": {
+   "title": "Skriv ordet: bokstavruter og første bokstav",
+   "instruction": "Én rute til hver bokstav. Første bokstav er gitt."
+  },
+  "G1-304": {
+   "title": "Skriv ordet med all hjelp",
+   "instruction": "Bruk ordbanken, bokstavrutene og første bokstav til å skrive hvert ord."
+  }
+ },
+ "enAudit": [
+  "G2-311 (Two Sentences: Full Stop or Question Mark?) — the instruction asserts something the page contradicts. 'Two sentences ran together, and one of them is a question.' On g2311-fruits.png card 3 the item is 'the fig is next to the box max draws two figs for leo': NEITHER half is a question. A child obeying the instruction inserts a question mark where none belongs, and the title reinforces it. Either the generator must guarantee one interrogative per item, or the instruction must be permissive ('choose the right end mark for each'). We wrote the Norwegian permissively for this reason.",
+  "G1-302 (Unscramble the Sentence: Find the Beginning) — the ungated animacy frame is still live. g1302-fruits.png card 1 is 'feeds / the / avocado. / leo' -> 'Leo feeds the avocado.' You cannot feed an avocado. This is the recorded 'tom feeds the skateboard' class from the nt20-B-VAR EN sweep, unfixed: the 'feeds' frame is still being applied to an inanimate/fruit noun. Every locale inherits the frame verbatim.",
+  "G1-293 and G1-300 (word-classes, 2-bin) — the copy names controls the page does not have. The title and instruction say 'naming word' / 'doing word' / 'describing word', but the bins on the very same sheet are labelled 'Nouns' / 'Verbs' and 'Nouns' / 'Adjectives'. The child is told to sort into two things that appear nowhere. The formal term is the correct one (it is what the sibling G2-275 already ships, and what the Norwegian page renders: Substantiv / Verb / Adjektiv), so the TITLE and INSTRUCTION should move to it, not the bin labels.",
+  "G1-300 — the instruction is generic and does not distinguish the page. 'Sort each word into the right bin.' is equally true of G1-293, G2-285, G2-286, G2-287 and the base G2-275. What is actually different here (adjectives rather than verbs; the chips carry no picture support, unlike G1-293) is never stated.",
+  "Three instructions are statements, not tasks, and never tell the child to do anything. G1-304: 'The word bank, the letter boxes and the first letter are all there to help.' never says WRITE THE WORD. G2-311: 'Two sentences ran together, and one of them is a question.' never says rewrite them (its sibling G2-307 does). G1-294: 'Every dot is numbered here, and the whole way is backwards.' never says JOIN THE DOTS — and it is a K/G1 page.",
+  "G1-301, G1-303, G1-304 (write-the-word) — the instruction describes only half of each card. Every card carries TWO write surfaces: a ruled handwriting line AND a row of letter boxes. G1-301 says only 'Write one letter in each box' and never mentions the line; G1-304 mentions the boxes but not the line. A teacher cannot tell whether the child writes the word twice or once.",
+  "G2-312 (How Many Days Later?) — the title over-promises. Only 1 of the 4 questions on g2312-nothm.png is a 'how many days after' question; the other three are a sticker-date lookup, a one-week-later date, and a day-of-the-week. The title names the minority case. (We retitled the Norwegian to cover the actual mix.)",
+  "G2-296 / G2-297 / G2-312 (calendar) — the month grid starts the week on SUNDAY. That is a US convention. Norway, and de/nl/sv/da/fi and the Romance locales, start the week on MONDAY, and Norwegian classroom calendars additionally carry a week-number column. A Sunday-leading grid is immediately wrong to a Norwegian teacher, and the 'one week later' / 'how many Mondays' questions are read off a layout no Norwegian classroom uses. Same artefact class as the US cents: note the currency table itself IS correct for no (NOK, kr, coins 1/5/10/20), so only the week-start is outstanding.",
+  "K-315 (Copy the Capitals) — the title names letters, the page holds words. 'Look at the capitals, then write them yourself' reads as a capital-letter alphabet drill; k315-toys.png shows whole words (DICE, CRAYONS, BICYCLE) set in capitals with two writing rows. The task is copying a WORD written in capitals, not copying capitals.",
+  "G1-298 / G1-299 ('Just the Numbers') — an unexplained empty frame on every card. The no-pictures variant still renders the picture band as an empty white dotted panel above each equation (g1298-fruits.png, g1299-animals.png). Neither title nor instruction mentions it, and to a 6-year-old an empty framed box reads as somewhere to draw. Suppress the band, or say what it is for.",
+  "G1-296 / G1-297 — the picture rows overflow the card and are clipped mid-image. g1296-vehicles.png cards 1, 4 and 5 and g1297-toys.png card 3 run past both card edges, so on a page whose entire task is COUNTING the group the child cannot see the whole group. Language-independent; it will ship in all 11 locales.",
+  "G1-286 (Doubles and Halves with Pictures to 20) — 'to 20' but the largest value on the page is 18, and it carries 4 cards where every sibling in the family carries 6 or 8.",
+  "out/b2var-faces.json — the `sweep` path is WRONG for all 36 new faces, and `sweepExists` is false for every one of them. It names g1298-nothm.png where the file is g1298-fruits.png, and g1292-toys.png where the file is g1292-toys-pt.png. A panel that trusted the flag would conclude the 36 new pages had never been rendered and would write them blind — which is exactly the failure the brief warns about. All 36 ARE rendered and we read every one.",
+  "G1-292 — the only render that exists is a Portuguese probe carrying English chrome (g1292-toys-pt.png: Portuguese word chips and o/a bins under an English title and instruction). The article bins are the one thing about this face a panel must see in its own language, and there is no en render at all. Separately, the English instruction 'Read every word. Write it under the word that belongs in front of it.' never names the article, and 'the word that belongs in front of it' is a hard parse for a 6-year-old.",
+  "G2-297 — its sweep render is stale. g2297-nothm.png shows 'This month is full. Read the calendar carefully to answer every question.' while strings.en.json and the faces table both carry 'Find the date one week later, and count the days between the stickers.' The current English also names only 2 of the 5 question types the page actually asks."
+ ]
 }

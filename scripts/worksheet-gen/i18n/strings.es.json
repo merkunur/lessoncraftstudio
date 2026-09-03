@@ -1773,15 +1773,15 @@
   },
   "G1-285": {
     "title": "Une los puntos contando de 2 en 2",
-    "instruction": "Cuenta de 2 en 2; el resto del dibujo ya está hecho."
+    "instruction": "Cuenta de 2 en 2 hasta el 20."
   },
   "G1-294": {
-    "title": "Une los puntos del 20 al 1",
-    "instruction": "Están numerados los veinte puntos y se cuenta hacia atrás."
+    "title": "Une los puntos del 20 al 1 hacia atrás",
+    "instruction": "Empieza en el 20 y baja hasta el 1."
   },
   "G2-304": {
     "title": "Une los puntos contando de 5 en 5",
-    "instruction": "Cuenta de 5 en 5; el resto del dibujo ya está hecho."
+    "instruction": "Cuenta de 5 en 5 hasta el 50."
   },
   "K-311": {
     "title": "Copia la palabra de la tarjeta",
@@ -1857,7 +1857,7 @@
   },
   "G1-292": {
     "title": "¿El o la? Clasifica las palabras",
-    "instruction": "Sin dibujos: escribe cada palabra donde va."
+    "instruction": "Escribe cada palabra bajo el o la."
   },
   "G1-298": {
     "title": "Solo dobles, sin dibujos",
@@ -1885,7 +1885,7 @@
   },
   "G2-314": {
     "title": "Une los puntos contando de 10 en 10",
-    "instruction": "Cuenta de 10 en 10 hasta el 100; el resto ya está."
+    "instruction": "Cuenta de 10 en 10 hasta el 100."
   },
   "K-315": {
     "title": "Copia las mayúsculas de la tarjeta",
@@ -1901,7 +1901,7 @@
   },
   "G1-302": {
     "title": "Ordena la frase: ¿cuál va primero?",
-    "instruction": "Sin mayúscula: solo el signo final."
+    "instruction": "El signo final ya está: ordena."
   },
   "G1-303": {
     "title": "Dictado mudo: casillas e inicial",

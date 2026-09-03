@@ -256,6 +256,150 @@
     "G3-376": {
       "title": "Tre blandade räknehändelser",
       "instruction": "Tre uppgifter. Avgör vad var och en frågar efter."
+    },
+    "K-308": {
+      "title": "Prick till prick: räkna baklänges från 10",
+      "instruction": "Börja vid den orangea tian och räkna nedåt."
+    },
+    "K-309": {
+      "title": "Prick till prick i bokstavsordning",
+      "instruction": "Följ bokstäverna i ordning, från a och framåt."
+    },
+    "K-310": {
+      "title": "Spåra ord med stora bokstäver",
+      "instruction": "Spåra de stora bokstäverna, skriv sedan själv."
+    },
+    "K-311": {
+      "title": "Skriv av ordet två gånger",
+      "instruction": "Inga streckade bokstäver. Skriv av ordet två gånger."
+    },
+    "K-313": {
+      "title": "Singular och plural: spåra ordet för en",
+      "instruction": "Spåra det streckade ordet för en."
+    },
+    "K-314": {
+      "title": "Singular och plural: skriv pluralformen",
+      "instruction": "Skriv ordet för flera utan streck."
+    },
+    "K-315": {
+      "title": "Skriv av ordet i stora bokstäver",
+      "instruction": "Skriv av de stora bokstäverna två gånger."
+    },
+    "K-316": {
+      "title": "Singular och plural: skriv ordet för en",
+      "instruction": "Skriv ordet för en utan streckat ord."
+    },
+    "G1-285": {
+      "title": "Prick till prick med tvåhopp",
+      "instruction": "Börja vid den orangea pricken och räkna med tvåhopp."
+    },
+    "G1-286": {
+      "title": "Dubbelt och hälften med bilder till 20",
+      "instruction": "Några kort visar dubbelt, andra hälften."
+    },
+    "G1-287": {
+      "title": "Dubbelt upp till 14",
+      "instruction": "Alla kort på sidan visar dubbelt av en bildgrupp."
+    },
+    "G1-288": {
+      "title": "Hälften upp till 12",
+      "instruction": "Alla kort delar en bildgrupp i två lika delar."
+    },
+    "G1-289": {
+      "title": "Talpyramider uppifrån och ner",
+      "instruction": "Toppstenen är given. Räkna nedåt och subtrahera."
+    },
+    "G1-291": {
+      "title": "Skriv ordet: bara begynnelsebokstaven",
+      "instruction": "Ingen ordbank. Första bokstaven är given."
+    },
+    "G1-292": {
+      "title": "Sortera en-ord och ett-ord",
+      "instruction": "Läs varje ordkort och skriv det under en eller ett."
+    },
+    "G1-293": {
+      "title": "Substantiv och verb",
+      "instruction": "Är ordet ett substantiv eller ett verb? Sortera korten."
+    },
+    "G1-294": {
+      "title": "Prick till prick: räkna baklänges från 20",
+      "instruction": "Här är varje prick numrerad, hela vägen bakåt."
+    },
+    "G1-295": {
+      "title": "Läs av tallinjen 20 till 40",
+      "instruction": "Linjen börjar vid 20. Räkna vidare från närmaste utsatta tal."
+    },
+    "G1-296": {
+      "title": "Dubbelt upp till 20 med bilder",
+      "instruction": "Större bildgrupper att dubbla, ända upp till 20."
+    },
+    "G1-297": {
+      "title": "Hälften upp till 20 med bilder",
+      "instruction": "Halvera större bildgrupper, ända upp till 20."
+    },
+    "G1-298": {
+      "title": "Dubbelt upp till 20 utan bilder",
+      "instruction": "Skriv dubbelt av varje tal. Räkna i prickrutan."
+    },
+    "G1-299": {
+      "title": "Hälften upp till 20 utan bilder",
+      "instruction": "Dela varje tal i två lika delar. Räkna i prickrutan."
+    },
+    "G1-300": {
+      "title": "Substantiv och adjektiv",
+      "instruction": "Här finns inga bilder. Är ordet substantiv eller adjektiv?"
+    },
+    "G1-301": {
+      "title": "Skriv ordet: ordbank och rutor",
+      "instruction": "Hitta ordet i ordbanken. En bokstav i varje ruta."
+    },
+    "G1-302": {
+      "title": "Ordna orden: hitta början",
+      "instruction": "Skiljetecknet visar slutet. Hitta ordet som börjar."
+    },
+    "G1-303": {
+      "title": "Skriv ordet: rutor och startbokstav",
+      "instruction": "Startbokstaven står på raden, inte i rutan."
+    },
+    "G1-304": {
+      "title": "Skriv ordet med alla ledtrådar",
+      "instruction": "Ordbank, rutor och första bokstaven hjälper dig."
+    },
+    "G2-304": {
+      "title": "Prick till prick med femhopp",
+      "instruction": "Följ femhoppen från prick till prick tills bilden syns."
+    },
+    "G2-305": {
+      "title": "Läs av tallinjen 40 till 60",
+      "instruction": "Linjen börjar inte på noll. Räkna vidare från närmaste tal."
+    },
+    "G2-307": {
+      "title": "Var ska punkten stå? Dela upp meningarna",
+      "instruction": "Två meningar sitter ihop. Dela på dem."
+    },
+    "G2-308": {
+      "title": "Koordinater i rutnät: skriv koderna",
+      "instruction": "Bilden är redan färgad. Skriv rutornas koder i listan."
+    },
+    "G2-310": {
+      "title": "Läs av tallinjen 60 till 100",
+      "instruction": "Linjen börjar vid 60. Räkna vidare från närmaste utsatta tal."
+    },
+    "G2-311": {
+      "title": "Två meningar: punkt eller frågetecken",
+      "instruction": "Ibland är en av meningarna också en fråga."
+    },
+    "G2-312": {
+      "title": "Läs kalendern: datum och dagar emellan",
+      "instruction": "Räkna ut datum och dagar emellan i kalendern."
+    },
+    "G2-313": {
+      "title": "Talpyramider med tvåsiffriga svar",
+      "instruction": "Bottenraden är given. Addera uppåt till toppen."
+    },
+    "G2-314": {
+      "title": "Prick till prick med tiohopp",
+      "instruction": "Tiohoppen leder dig från prick till prick."
     }
   },
   "enAudit": [
@@ -271,6 +415,18 @@
     "CORROBORATES the known G1-264 item, with the count: the page shows six words in TWO pairs (baby/boat, scooter/swing) while the instruction says \"Two words start alike.\" Four words do. The Swedish ships \"Two pairs start alike\".",
     "CORROBORATES the known G2-293 duplicate: on the three-card render, card 1 and card 3 are the SAME problem — both buy the 40-unit fish, both pay with two 25 coins, both are Mia. All three cards also pay with the identical 25+25, so nothing on the page varies the coin reading.",
     "CORROBORATES the known G2-281 names gap: the render carries \"anna has a big fox\" and \"ben likes the little donkey\", but the key strip lists only \"Capital letter\" and \"End mark\" — the \"Names\" chip that was added to G2-282 is missing here, so the proper nouns are silently required and never cued.",
-    "LOCALE-CONFIG (sv, not the English source): the Swedish meta description reads \"Gratis utskrivbart arbetsblad: {TITLE} Arbetsblad (Frukter) för Förskoleklass.\" — the word arbetsblad appears twice, because seo.words.free_printable in frontend/messages/sv.json is \"Gratis utskrivbart arbetsblad:\" while the engine appends worksheet=\"Arbetsblad\" after the title. Every Swedish deck description in the catalog carries the duplication. The fix is to set free_printable to \"Gratis utskrivbart\" (or drop the appended word for sv); it is outside this draft and affects far more than these 64 faces."
+    "LOCALE-CONFIG (sv, not the English source): the Swedish meta description reads \"Gratis utskrivbart arbetsblad: {TITLE} Arbetsblad (Frukter) för Förskoleklass.\" — the word arbetsblad appears twice, because seo.words.free_printable in frontend/messages/sv.json is \"Gratis utskrivbart arbetsblad:\" while the engine appends worksheet=\"Arbetsblad\" after the title. Every Swedish deck description in the catalog carries the duplication. The fix is to set free_printable to \"Gratis utskrivbart\" (or drop the appended word for sv); it is outside this draft and affects far more than these 64 faces.",
+    "NEW — G1-292 SILENTLY SHIPS THE WRONG THEME, and it is the exact defect gen-b2var-waves.js says pinning was written to eliminate. The wave pins every locale to `toys`, but K-288's gender-mix guard needs two distinct article keys and neither sv nor en has a second one in that theme (measured over the countable pool: sv toys 24 en-words / 0 ett; en toys 22 'a' / 0 'an'; for comparison sv fruits 18/2). The build throws, the generator's theme-retry swallows it, and the staged ZIPs prove the substitution already happened: 9 locales shipped wsg-...-g1292-toys-..., but sv shipped -fruits- and en shipped -animals-, while both wave files still read toys. The deck slug and every landing sentence written from the wave map will name a theme the page does not show. Fix: add 'G1-292':'fruits' to EXCEPT.sv (it already carries K-306/K-307 for this reason), choose a second theme for en, and make the retry FAIL LOUD on a pinned themeOverride instead of substituting. (da/no toys each carry exactly one et-noun, so they pass on a coin-flip rather than by design.)",
+    "NEW — G1-292 sort bins hold 5 ruled lines but the page issues 8 word chips, and the mix guard only floors each column at 1 (it relaxes to 1 after 200 attempts), so a legal split is 7/1. The measured sv/fruits render is 6 en-words against 5 lines — a child is asked to write six words on five lines on the very first build. Either the bin needs cards-1 lines or the card count needs to be 2x the line count.",
+    "NEW — G1-293 'Two bins with pictures' is wrong twice over, and the second one is a pedagogical leak. The bins carry no pictures (they carry an icon-in-a-circle heading and the labels Substantiv/Verb); the pictures sit on the word CHIPS — and only on the noun chips, because the picture comes from the vocab entry. So on the render 'bil, spade, kritor, lego, robot' each show a picture and 'hoppa, springa, sjunga, sova, sitta' show none. The child can sort the whole page correctly by 'has a picture' without reading a word, which is the opposite of what a word-class sort is for.",
+    "NEW — G1-298/G1-299 'No pictures to count' denies the one thing on the card that looks countable. With numeric:true the stage is dotPanel(), a white box printed with an even grid of faint dots (the render shows two rows of ten). It is a jotting workspace (data-lcs-workspace) and the English never mentions it, so a child told there is nothing to count sees twenty dots and is given no use for them. Name the workspace instead of denying the pictures.",
+    "NEW — G2-311 promises per CARD what the page delivers only once. needQ:1 requires at least ONE question anywhere on the page, but the title 'Two Sentences: Full Stop or Question Mark?' and the instruction 'Two sentences ran together, and one of them is a question' are read as a claim about each card. On the sv render card 3 is 'vera ser tre mangos mina mangos ar jattefina' — two statements, no question at all. (Swedish ships 'Ibland ar en av meningarna ocksa en fraga.')",
+    "NEW — G2-312 'How Many Days Later?' names one of its four questions. The question set is stickerDate / after / weekLater / dayOfDate: only `after` asks how many days later. The instruction 'Use the calendar to work out each date' is wrong for two more of them — `after` wants a NUMBER OF DAYS and `dayOfDate` wants a WEEKDAY, and neither is a date. Both title and instruction describe a quarter of the page.",
+    "NEW — K-308 repeats the K-296 defect the last panel found, and here it costs more. The instruction never mentions the orange start dot although the render draws one, exactly as K-294/K-295 do — but on this face the orange dot sits on 10, not on 1, so it is the only thing telling the child that the highest number is the starting point. A child who has just done K-294 will start at 1 and draw the figure inside out.",
+    "NEW — K-315 'Copy the Capitals' names the wrong unit and reads as capital cities. The child copies a WORD (TARNING, KRITOR, LEGO) that happens to be set in capitals, twice, from a caption model. 'Look at the capitals, then write them yourself' also drops the 'twice' that its sibling K-311 states for the identical two-rail layout — the two faces describe the same scaffold with different amounts of information.",
+    "NEW — G2-308 'Write each square in the list for its color' is not grammatical English and hides the task. The child reads a filled picture and writes the code of every square of one colour into that colour's list. Suggest: 'The picture is already coloured in. Write the code of each square in its colour's list.'",
+    "NEW — K-310 'Trace each word in big capital letters' describes only the middle lane. The row is a SOLID model, then a dashed lane, then one empty lane, so the child reads, traces and then writes once; 'big' carries nothing that CAPITAL does not.",
+    "LOCALE-DATA (sv, not the English source; §10.3 so flagged not fixed) — image-vocabulary.js gives mango the Swedish plural 'mangos', which is an anglicism; SAOL has mango/mangon/mangor. It reaches the child on K-313 (the solid given word) and inside the G1-302 and G2-311 sentence banks, i.e. printed as the model to copy. 'kiwier' and 'papayor' on the same page are correct.",
+    "CORROBORATES the LOCALE-CONFIG item already in this draft — the doubled worksheet word is now measurable on all 36 new faces: every sv description reads 'Gratis utskrivbart arbetsblad: <title> Arbetsblad (<tema>) for <arskurs>.' seo.words.free_printable in frontend/messages/sv.json should be 'Gratis utskrivbart'."
   ]
 }

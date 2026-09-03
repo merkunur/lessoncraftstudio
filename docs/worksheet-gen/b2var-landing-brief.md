@@ -64,6 +64,28 @@ different icon size, and three panels reported a clipping defect that no longer 
 and share the directory; generic names like `build.js` have already let one panel overwrite
 another's work and push the wrong language into a finished draft.
 
+## ⚠ REQUIRED CHECK: your locale's three sentence-building landings
+
+A code fix on 2026-09-03 changed what the unscramble worksheet actually prints, and the LIVE
+landing pages still describe the old behaviour. Two locales have already been caught:
+
+- `G1-249-unscramble-sentence.js` lowercases token 0 **only when it is not a protected capital**,
+  and `nameIdx` now protects a proper name at ANY index. So on the hardest level a name KEEPS its
+  capital, including as the first word.
+- The English base landing said "a name keeps its capital only in the middle of the sentence,
+  never as the first word" — false, now repaired. The Finnish base said the first word is *always*
+  lowercased "even when it is a name" — exactly backwards, now repaired. Finnish's third page
+  still calls the lowercase name "a deliberate trap", which is the same stale belief.
+
+**Read all three of your locale's `sentence-building` landings** (base, with-clues, without-clues)
+and check every sentence about capitals against the code, not against the other pages. If one is
+wrong, repair that SENTENCE only — leave the slug, title, h1 and everything else byte-identical —
+and say in your report what you changed. A capital on a tile now tells the child the word is a
+NAME, not that it starts the sentence.
+
+This is the general shape worth carrying: **a code change can falsify live prose in a file the
+change never touched**, and nothing in the pipeline connects the two.
+
 ## Hard rules the composer enforces (it refuses to write on any failure)
 
 1. `p1 + p2 + p3` ≥ **200 words**. Aim for 210-260 — panels reliably undershoot this floor.

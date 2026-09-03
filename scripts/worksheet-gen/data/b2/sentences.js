@@ -601,6 +601,7 @@ const SENTENCES = {
         "id": "s17",
         "kind": "simple",
         "text": "¿Tienes {noun} en casa?",
+        "qUncued": true,
         "noun": "pl",
         "uses": [
           "fix"
@@ -894,6 +895,7 @@ const SENTENCES = {
         "id": "s3",
         "kind": "simple",
         "text": "Você gosta de {noun}?",
+        "qUncued": true,
         "noun": "pl",
         "uses": [
           "unscramble",
@@ -934,6 +936,7 @@ const SENTENCES = {
         "id": "s7",
         "kind": "simple",
         "text": "Você quer três {noun}?",
+        "qUncued": true,
         "noun": "pl",
         "uses": [
           "unscramble",
@@ -1012,6 +1015,7 @@ const SENTENCES = {
         "id": "s15",
         "kind": "simple",
         "text": "{name} gosta de {noun}?",
+        "qUncued": true,
         "noun": "pl",
         "uses": [
           "fix"
@@ -1021,6 +1025,34 @@ const SENTENCES = {
         "id": "s16",
         "kind": "simple",
         "text": "{name} já viu cinco {noun}?",
+        "qUncued": true,
+        "noun": "pl",
+        "uses": [
+          "fix"
+        ]
+      },
+      {
+        "id": "s17",
+        "kind": "simple",
+        "text": "Quem tem cinco {noun}?",
+        "noun": "pl",
+        "uses": [
+          "fix"
+        ]
+      },
+      {
+        "id": "s18",
+        "kind": "simple",
+        "text": "Onde você achou três {noun}?",
+        "noun": "pl",
+        "uses": [
+          "fix"
+        ]
+      },
+      {
+        "id": "s19",
+        "kind": "simple",
+        "text": "O que você faz com quatro {noun}?",
         "noun": "pl",
         "uses": [
           "fix"

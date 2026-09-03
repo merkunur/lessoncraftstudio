@@ -345,6 +345,12 @@ const ROWS = [
     { min: 20, max: 40, lines: 4, tick: 1, label: 5, pointers: 3, gap: 3 },
     'Where on the Number Line? 20 to 40', 'The line starts at twenty. Count on from the nearest printed number.'],
 
+  // ⚠ ICON SIZES MEASURED AGAINST THE CARD, not the page. The page-box lint
+  // cannot see a card whose CONTENT spills past its own box: G1-287 ran 22px
+  // below its card (dMax 7 at perRow 3 is three icon rows) and G1-296/G1-297
+  // ran 21-26px past the right edge (the halves stage is a SINGLE
+  // non-wrapping row, so ten icons at 28px measure 334 against a ~320 card).
+  // Found by the French panel; the noise floor on shipped faces is 2-6px.
   // doubles-halves `ops`: one page, one move, repeated — the fluency sheet.
   // The base always builds cards/2 of each, so every shipped face mixes; doubling
   // and halving are taught on separate days.
@@ -352,13 +358,13 @@ const ROWS = [
   // six cards — rng.sample on a five-value range silently returns five). Halves cap
   // at 6, not 7: at icon 40 a seven-icon non-wrapping row measures 316px inside a
   // ~320px card. Both stay inside verify's answer-in-1..20 band.
-  ['g1', 'G1-287', 'doubles-only', 'G1-247-doubles-halves.js', 2, { ops: ['double'], cards: 6, dMin: 2, dMax: 7 },
+  ['g1', 'G1-287', 'doubles-only', 'G1-247-doubles-halves.js', 2, { ops: ['double'], cards: 6, dMin: 2, dMax: 7, perRow: 4, icon: 28 },
     'Doubles to 14', 'Every card on this page doubles a group of pictures.'],
   ['g1', 'G1-288', 'halves-only', 'G1-247-doubles-halves.js', 2, { ops: ['half'], cards: 6, hMin: 1, hMax: 6 },
     'Halves to 12', 'Every card cuts a group in half. Write the two equal parts.'],
-  ['g1', 'G1-296', 'doubles-only-to-20', 'G1-247-doubles-halves.js', 2, { ops: ['double'], cards: 6, dMin: 5, dMax: 10, icon: 28, perRow: 5 },
+  ['g1', 'G1-296', 'doubles-only-to-20', 'G1-247-doubles-halves.js', 2, { ops: ['double'], cards: 6, dMin: 5, dMax: 10, icon: 22, perRow: 5 },
     'Doubles to 20 with Pictures', 'Bigger groups to double, all the way to twenty.'],
-  ['g1', 'G1-297', 'halves-only-to-20', 'G1-247-doubles-halves.js', 2, { ops: ['half'], cards: 6, hMin: 5, hMax: 10, icon: 28, perRow: 5 },
+  ['g1', 'G1-297', 'halves-only-to-20', 'G1-247-doubles-halves.js', 2, { ops: ['half'], cards: 6, hMin: 5, hMax: 10, icon: 22, perRow: 5 },
     'Halves to 20 with Pictures', 'Bigger groups of pictures to halve, all the way up to twenty.'],
 
   // ⚠ rowH 166, not the inherited 172: four Dutch rows reached 940 against a
@@ -373,9 +379,15 @@ const ROWS = [
   // word-classes two-bin entry rung. All three shipped faces are three-bin; a
   // two-way noun/verb sort is where the sequence starts, and it takes a G1 id
   // because that is the band the CONTENT belongs to.
+  // ⚠ pics MUST stay false here. G2-275 attaches a picture to noun chips ONLY
+  // (`src: d.pics ? fileUri(...) : null`, and its own verify FAILS a picture on a
+  // non-noun chip). With the base's THREE bins a picture is a scaffold — it names
+  // the noun and leaves verb-vs-adjective to be read. With these TWO bins it is
+  // the whole answer: picture ⟺ noun ⟺ not-verb, so the page sorts correctly
+  // without reading a single word. d3 already drops pictures for this reason.
   ['g1', 'G1-293', 'word-classes-two-bins', 'G2-275-word-classes.js', 1,
-    { classes: ['noun', 'verb'], per: 5, pics: true, tiers: [1], lines: 6 },
-    'Naming Words and Doing Words', 'Two bins with pictures. Is each word a naming word or a doing word?'],
+    { classes: ['noun', 'verb'], per: 5, pics: false, tiers: [1], lines: 6 },
+    'Naming Words and Doing Words', 'Read each word. Is it a naming word or a doing word?'],
 
   // word-tracing in block capitals. Glyph coverage MEASURED, not assumed:
   // CORE_GLYPHS carries all 52 ASCII letters and COMPOSED carries Ä Ö Ü Å Á À Â
@@ -419,7 +431,7 @@ const ROWS = [
   // Pool measured: the '.'-ended fix frames number 10-12 per locale against the
   // 6 distinct frames three paired lanes need.
   ['g2', 'G2-307', 'fix-the-sentence-where-does-it-end', 'G2-274-fix-the-sentence.js', 2,
-    { joinPairs: true, lanes: 3, ends: ['.'], needCaps: 1, rulH: 80 },
+    { joinPairs: true, lanes: 3, ends: ['.'], needCaps: 1, rulH: 48, glyphH: 22, icon: 40 },
     'Fix the Sentence: Where Does It End?', 'Two sentences have run together. Write them again as two sentences.'],
 
   // articles SORT: all the nouns against the same categories at once, read rather
@@ -438,10 +450,18 @@ const ROWS = [
   // doubles/halves at d3: `numeric:true` replaces the picture with a blank
   // working panel. Every shipped doubles face puts a mirrored GROUP on the card,
   // so the answer is reachable by counting objects; these are the fact pages.
+  // ⚠ THEMELESS, and it must stay that way. These two inherit d3, where
+  // `icon: 0` and `numeric: true` mean the page prints an empty dot panel and
+  // NOTHING else — measured: 0 <img> tags, against 90 on their themed sibling
+  // G1-296. Left themed they publish under a `fruits`/`animals` slug whose
+  // landing promises pictures a child will never see. The instruction already
+  // says "No pictures to count"; the taxonomy has to say it too.
   ['g1', 'G1-298', 'doubles-only-numbers-to-20', 'G1-247-doubles-halves.js', 3, { ops: ['double'], cards: 8, dMin: 2, dMax: 10 },
-    'Doubles to 20: Just the Numbers', 'Write the double of each number. No pictures to count.'],
+    'Doubles to 20: Just the Numbers', 'Write the double of each number. No pictures to count.',
+    { themeAxis: { applicable: false } }],
   ['g1', 'G1-299', 'halves-only-numbers-to-20', 'G1-247-doubles-halves.js', 3, { ops: ['half'], cards: 8, hMin: 2, hMax: 10 },
-    'Halves to 20: Just the Numbers', 'Split each number into two equal parts. No pictures to count.'],
+    'Halves to 20: Just the Numbers', 'Split each number into two equal parts. No pictures to count.',
+    { themeAxis: { applicable: false } }],
 
   // noun vs ADJECTIVE is a different confusion from noun vs verb (the only
   // two-bin face shipped). pics:false also closes an answer leak the noun/verb
@@ -456,10 +476,13 @@ const ROWS = [
     { bank: true, starter: false, boxes: true, cards: 6, cols: 2, rows: 3, maxLetters: 9 },
     'Word Bank and Letter Boxes', 'Find the word in the bank. Write one letter in each box.'],
 
+  // ⚠ rulH is PER ROW, so two rules cost 2 x rulH per lane. At the old 80 the
+  // three lanes needed 480px of ruling against a ~300px budget and every build
+  // overflowed. 48 x 2 x 3 = 288 fits.
   // both the boundary AND the mark are open. G2-307 fixes the mark at a full
   // stop; G2-282 gives the boundary. This is the cell where neither is given.
   ['g2', 'G2-311', 'fix-the-sentence-two-sentences-one-mark', 'G2-274-fix-the-sentence.js', 2,
-    { joinPairs: true, lanes: 3, ends: ['.', '?'], needQ: 1, needCaps: 1, rulH: 80 },
+    { joinPairs: true, lanes: 3, ends: ['.', '?'], needQ: 1, needCaps: 1, rulH: 48, glyphH: 22, icon: 40 },
     'Two Sentences: Full Stop or Question Mark?', 'Two sentences ran together, and one of them is a question.'],
 
   // intervals instead of lookup. `after` appears only inside d3's six-question

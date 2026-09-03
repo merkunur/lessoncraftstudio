@@ -11,4 +11,5 @@ module.exports = {
   slug: 'doubles-only-numbers-to-20',
   difficulty: { 1: D, 2: D, 3: D },
   i18n: { en: { title: "Doubles to 20: Just the Numbers", instruction: "Write the double of each number. No pictures to count." } },
+  themeAxis: {"applicable":false},
 };

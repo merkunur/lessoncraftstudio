@@ -135,6 +135,13 @@ function enumerate(plan) {
     const variantsForType = (plan.variants && plan.variants[spec.id]) || plan.variantsPerType || 1;
     const themed = spec.themeAxis && spec.themeAxis.applicable;
     let themeList;
+    // A theme named in plan.themeOverrides is an explicit DECISION, not a
+    // round-robin assignment. cli.js may substitute an alternative theme when a
+    // render throws; that recovery is correct for an arbitrary theme and WRONG
+    // for a pinned one, because the pin exists precisely to fix the theme the
+    // slug, title and landing were all written against. K-310 shipped animals
+    // under a fruits pin that way. Carry the flag so the retry can refuse.
+    let themePinned = false;
     if (themed) {
       const ok = eligibleThemes(spec, themes);
       if (!ok.length) {
@@ -153,6 +160,7 @@ function enumerate(plan) {
       if (override) {
         if (!ok.includes(override)) throw new Error('enumerate: themeOverrides ' + spec.id + ' → "' + override + '" is not an eligible wave theme');
         themeList = [override];
+        themePinned = true;
       }
     } else {
       themeList = [null];
@@ -164,6 +172,7 @@ function enumerate(plan) {
             instances.push({
               typeId: spec.id,
               cacheTheme: cacheTheme,
+              themePinned: themePinned,
               difficulty: difficulty,
               locale: locale,
               variant: variant,

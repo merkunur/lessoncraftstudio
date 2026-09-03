@@ -1766,5 +1766,149 @@
   "G3-376": {
     "title": "Problemas de vezes e divisão",
     "instruction": "Três historinhas: multiplicar ou dividir?"
+  },
+  "K-308": {
+    "title": "Ligue os pontos contando para trás",
+    "instruction": "Comece no 10 e vá contando para trás até o 1."
+  },
+  "G1-285": {
+    "title": "Ligue os pontos de 2 em 2",
+    "instruction": "Conte de 2 em 2 e ligue; parte do contorno já vem pronta."
+  },
+  "G1-294": {
+    "title": "Ligue os pontos: contagem regressiva do 20",
+    "instruction": "Aqui todos os pontos estão numerados."
+  },
+  "G2-304": {
+    "title": "Ligue os pontos de 5 em 5",
+    "instruction": "Conte de 5 em 5; o resto do contorno já vem desenhado."
+  },
+  "K-311": {
+    "title": "Copie a palavra sem cobrir",
+    "instruction": "Sem pontilhado: copie a palavra duas vezes."
+  },
+  "G1-291": {
+    "title": "Escreva o nome: só a letra inicial",
+    "instruction": "Sem banco: só a inicial ajuda na linha."
+  },
+  "G1-286": {
+    "title": "Dobro e metade, até 20",
+    "instruction": "Uns cartões pedem o dobro; outros, a metade."
+  },
+  "G2-305": {
+    "title": "Reta numérica de 40 a 60",
+    "instruction": "A reta não começa no zero: conte do número mais perto."
+  },
+  "G2-310": {
+    "title": "Reta numérica de 60 a 100",
+    "instruction": "A reta começa no 60 e cada tracinho vale 1: vá contando."
+  },
+  "G1-295": {
+    "title": "Reta numérica de 20 a 40",
+    "instruction": "Esta reta começa no 20: conte do número escrito mais perto."
+  },
+  "G1-287": {
+    "title": "Dobro até 14, com figuras",
+    "instruction": "Todo cartão pede o dobro: conte as figuras."
+  },
+  "G1-288": {
+    "title": "Metade até 12, com figuras",
+    "instruction": "Cada cartão corta um grupo bem ao meio."
+  },
+  "G1-296": {
+    "title": "Dobro até 20, com figuras",
+    "instruction": "Grupos maiores de figuras para dobrar."
+  },
+  "G1-297": {
+    "title": "Metade até 20, com figuras",
+    "instruction": "Grupos maiores para repartir ao meio."
+  },
+  "K-314": {
+    "title": "Singular e plural: escreva o plural",
+    "instruction": "Escreva o plural sem cobrir."
+  },
+  "G1-293": {
+    "title": "Substantivo ou verbo?",
+    "instruction": "A palavra dá nome a algo ou mostra uma ação?"
+  },
+  "K-310": {
+    "title": "Palavras pontilhadas em maiúsculas",
+    "instruction": "Cubra e escreva em letra maiúscula."
+  },
+  "G1-289": {
+    "title": "Pirâmide de números: comece pelo topo",
+    "instruction": "O topo já vem dado: desça e vá subtraindo."
+  },
+  "K-313": {
+    "title": "Singular e plural: cubra o singular",
+    "instruction": "O plural já vem escrito ao lado."
+  },
+  "G2-308": {
+    "title": "Coordenadas: escreva os códigos",
+    "instruction": "A figura já vem pintada: liste os códigos por cor."
+  },
+  "K-309": {
+    "title": "Ligue os pontos na ordem do alfabeto",
+    "instruction": "Aqui os pontos têm letras: siga o alfabeto."
+  },
+  "G2-307": {
+    "title": "Onde termina a frase?",
+    "instruction": "Duas frases grudaram: separe e reescreva as duas."
+  },
+  "G1-292": {
+    "title": "O ou a? Separe as palavras",
+    "instruction": "Escreva cada palavra na coluna do o ou do a."
+  },
+  "G1-298": {
+    "title": "Dobro até 20, só com números",
+    "instruction": "Escreva o dobro: não há figuras para contar."
+  },
+  "G1-299": {
+    "title": "Metade até 20, só com números",
+    "instruction": "Reparta o número em duas partes iguais."
+  },
+  "G1-300": {
+    "title": "Substantivo ou adjetivo?",
+    "instruction": "Sem figuras: dá nome a algo ou diz uma qualidade?"
+  },
+  "G1-301": {
+    "title": "Escreva o nome: banco e quadradinhos",
+    "instruction": "Uma letra em cada quadradinho."
+  },
+  "G2-311": {
+    "title": "Ponto final ou ponto de interrogação?",
+    "instruction": "Duas frases grudaram; uma é pergunta."
+  },
+  "G2-312": {
+    "title": "Leitura de calendário: conte os dias",
+    "instruction": "Conte os dias entre as figuras e ache as datas."
+  },
+  "G2-314": {
+    "title": "Ligue os pontos de 10 em 10",
+    "instruction": "Conte de 10 em 10; o resto do contorno já vem impresso."
+  },
+  "K-315": {
+    "title": "Copie as palavras em maiúsculas",
+    "instruction": "Sem pontilhado: copie do cartão."
+  },
+  "K-316": {
+    "title": "Singular e plural: escreva o singular",
+    "instruction": "Escreva o singular sem cobrir."
+  },
+  "G2-313": {
+    "title": "Pirâmide de números maiores",
+    "instruction": "Os tijolos passam de 20: some por escrito."
+  },
+  "G1-302": {
+    "title": "Ordene a frase: qual palavra começa?",
+    "instruction": "Só o sinal de pontuação aparece."
+  },
+  "G1-303": {
+    "title": "Escreva o nome com os quadradinhos",
+    "instruction": "A letra inicial já começa a palavra."
+  },
+  "G1-304": {
+    "title": "Escreva o nome com todas as pistas",
+    "instruction": "Banco, quadradinhos e inicial ajudam."
   }
 }

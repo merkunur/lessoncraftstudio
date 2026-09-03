@@ -1766,5 +1766,149 @@
   "G3-376": {
     "title": "Tre problemi misti: per e diviso",
     "instruction": "Tre storie: cosa chiede ognuna?"
+  },
+  "K-308": {
+    "title": "Unisci i puntini all'indietro da 10",
+    "instruction": "Dal 10 all'1; il resto del disegno è già stampato."
+  },
+  "G1-285": {
+    "title": "Unisci i puntini contando di 2 in 2",
+    "instruction": "Da 2 a 20; il resto è già disegnato."
+  },
+  "G1-294": {
+    "title": "Unisci i puntini da 20 a 1",
+    "instruction": "Qui ogni puntino è numerato, dal 20 all'1."
+  },
+  "G2-304": {
+    "title": "Unisci i puntini contando di 5 in 5",
+    "instruction": "Da 5 a 50; il resto è già disegnato."
+  },
+  "K-311": {
+    "title": "Copia la parola dal cartellino",
+    "instruction": "Nessun tratteggio: guarda il modello e copia."
+  },
+  "G1-291": {
+    "title": "Dettato muto: l'iniziale",
+    "instruction": "Niente lista: c'è solo la lettera iniziale."
+  },
+  "G1-286": {
+    "title": "Doppio o metà? Fino a 20",
+    "instruction": "Qui trovi sia il doppio sia la metà."
+  },
+  "G2-305": {
+    "title": "La linea dei numeri da 40 a 60",
+    "instruction": "La linea comincia da quaranta, non da zero."
+  },
+  "G2-310": {
+    "title": "La linea dei numeri da 60 a 100",
+    "instruction": "Tacche di uno dal sessanta fino al cento."
+  },
+  "G1-295": {
+    "title": "La linea dei numeri da 20 a 40",
+    "instruction": "Questa linea non parte da zero: conta in avanti."
+  },
+  "G1-287": {
+    "title": "Solo il doppio fino a 14",
+    "instruction": "Ogni riquadro raddoppia un gruppo di figure."
+  },
+  "G1-288": {
+    "title": "Solo la metà fino a 12",
+    "instruction": "Dividi ogni gruppo in due parti uguali."
+  },
+  "G1-296": {
+    "title": "Solo il doppio fino a 20",
+    "instruction": "Gruppi più grandi da raddoppiare: fino a 20."
+  },
+  "G1-297": {
+    "title": "Solo la metà fino a 20",
+    "instruction": "Gruppi più grandi da dividere a metà."
+  },
+  "K-314": {
+    "title": "Scrivi tu il plurale",
+    "instruction": "Una figura e tante: scrivi tu la parola al plurale."
+  },
+  "G1-293": {
+    "title": "Nomi e verbi",
+    "instruction": "Decidi se è un nome o un verbo e scrivi la parola."
+  },
+  "K-310": {
+    "title": "Ricalca in stampato maiuscolo",
+    "instruction": "Ricalca le parole in maiuscolo e riscrivile."
+  },
+  "G1-289": {
+    "title": "Piramidi di numeri dall'alto in basso",
+    "instruction": "Parti dalla cima e scendi sottraendo."
+  },
+  "K-313": {
+    "title": "Dal plurale al singolare",
+    "instruction": "Ricalca la parola al singolare e poi riscrivila."
+  },
+  "G2-308": {
+    "title": "Coordinate: scrivi tu i codici",
+    "instruction": "Il disegno è già colorato: scrivi tu i codici."
+  },
+  "K-309": {
+    "title": "Unisci i puntini in ordine alfabetico",
+    "instruction": "Qui i puntini si uniscono dalla a alla v."
+  },
+  "G2-307": {
+    "title": "Dove finisce la frase?",
+    "instruction": "Due frasi attaccate: riscrivile separate."
+  },
+  "G1-292": {
+    "title": "Ordina le parole per articolo",
+    "instruction": "Ogni parola sotto il suo articolo."
+  },
+  "G1-298": {
+    "title": "Solo il doppio, senza figure",
+    "instruction": "Solo numeri: leggi e scrivi il doppio."
+  },
+  "G1-299": {
+    "title": "Solo la metà, senza figure",
+    "instruction": "Solo numeri: dividi in due parti uguali."
+  },
+  "G1-300": {
+    "title": "Nomi e aggettivi",
+    "instruction": "Qui non ci sono figure: separa nomi e aggettivi."
+  },
+  "G1-301": {
+    "title": "Dettato muto con la lista",
+    "instruction": "Cerca la parola nella lista, poi le caselle."
+  },
+  "G2-311": {
+    "title": "Punto o punto interrogativo?",
+    "instruction": "Separa le frasi: qual è il segno finale?"
+  },
+  "G2-312": {
+    "title": "Leggere il calendario: quanti giorni?",
+    "instruction": "Conta i giorni sul mese e rispondi."
+  },
+  "G2-314": {
+    "title": "Unisci i puntini contando di 10 in 10",
+    "instruction": "Da 10 a 100; il resto è già disegnato."
+  },
+  "K-315": {
+    "title": "Copia lo stampato maiuscolo",
+    "instruction": "Guarda la parola in maiuscolo e riscrivila."
+  },
+  "K-316": {
+    "title": "Scrivi tu il singolare",
+    "instruction": "Tante figure e una sola: scrivi tu il singolare."
+  },
+  "G2-313": {
+    "title": "Piramidi di numeri oltre 20",
+    "instruction": "I mattoni vanno oltre il venti: scrivi i calcoli."
+  },
+  "G1-302": {
+    "title": "Riordina la frase: trova l'inizio",
+    "instruction": "Il punto c'è, la maiuscola no."
+  },
+  "G1-303": {
+    "title": "Dettato muto: caselle e iniziale",
+    "instruction": "Ci sono le caselle e l'iniziale."
+  },
+  "G1-304": {
+    "title": "Dettato muto con tutti gli aiuti",
+    "instruction": "Ci sono lista, caselle e iniziale."
   }
 }

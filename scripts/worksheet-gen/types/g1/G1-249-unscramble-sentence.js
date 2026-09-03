@@ -52,7 +52,21 @@ module.exports = {
       const name = rng.sample(bank.names, 2); // array: a second {name} gets the second name
       const canonical = SB.fillFrame(frame.text, { name, noun: nounText, n: '', color: '' });
       const toks = SB.tokenize(canonical);
-      const caps = SB.capsIndices(toks);
+      // ⚠ capsIndices INFERS a protected capital from the letter, so it is blind
+      // at position 0, where a capital is ambiguous between sentence-initial and
+      // a proper name. Measured: capsIndices(["Ana","can","see","the","apples."])
+      // returns [] — so showCap:false lowercased the child's own name to "ana".
+      // We do not have to infer: this line filled {name} itself, so take the name
+      // indices from the fill and protect them outright.
+      const nameSet = new Set([].concat(name).map((x) => String(x).toLocaleLowerCase(loc)));
+      const nameIdx = toks.map((t, k) => (nameSet.has(t.replace(/[.?!¿¡]/g, '').toLocaleLowerCase(loc)) ? k : -1))
+        .filter((k) => k >= 0);
+      // Scoped to showCap:false. Where the capitals are SHOWN, nothing is
+      // lowercased and the augmentation would only churn `data-lcs-caps` on 14
+      // already-published coordinates for no visible change.
+      const caps = d.showCap
+        ? SB.capsIndices(toks)
+        : [...new Set(SB.capsIndices(toks).concat(nameIdx))].sort((a, b) => a - b);
       const end = SB.endMark(canonical);
       // displayed tokens per level
       const shown = toks.map((t, k) => {

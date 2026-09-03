@@ -11,4 +11,5 @@ module.exports = {
   slug: 'halves-only-numbers-to-20',
   difficulty: { 1: D, 2: D, 3: D },
   i18n: { en: { title: "Halves to 20: Just the Numbers", instruction: "Split each number into two equal parts. No pictures to count." } },
+  themeAxis: {"applicable":false},
 };

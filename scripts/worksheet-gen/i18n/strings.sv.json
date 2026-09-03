@@ -1766,5 +1766,149 @@
   "G3-376": {
     "title": "Tre blandade räknehändelser",
     "instruction": "Tre uppgifter. Avgör vad var och en frågar efter."
+  },
+  "K-308": {
+    "title": "Prick till prick: räkna baklänges från 10",
+    "instruction": "Börja vid den orangea tian och räkna nedåt."
+  },
+  "G1-285": {
+    "title": "Prick till prick med tvåhopp",
+    "instruction": "Börja vid den orangea pricken och räkna med tvåhopp."
+  },
+  "G1-294": {
+    "title": "Prick till prick: räkna baklänges från 20",
+    "instruction": "Här är varje prick numrerad, hela vägen bakåt."
+  },
+  "G2-304": {
+    "title": "Prick till prick med femhopp",
+    "instruction": "Följ femhoppen från prick till prick tills bilden syns."
+  },
+  "K-311": {
+    "title": "Skriv av ordet två gånger",
+    "instruction": "Inga streckade bokstäver. Skriv av ordet två gånger."
+  },
+  "G1-291": {
+    "title": "Skriv ordet: bara begynnelsebokstaven",
+    "instruction": "Ingen ordbank. Första bokstaven är given."
+  },
+  "G1-286": {
+    "title": "Dubbelt och hälften med bilder till 20",
+    "instruction": "Några kort visar dubbelt, andra hälften."
+  },
+  "G2-305": {
+    "title": "Läs av tallinjen 40 till 60",
+    "instruction": "Linjen börjar inte på noll. Räkna vidare från närmaste tal."
+  },
+  "G2-310": {
+    "title": "Läs av tallinjen 60 till 100",
+    "instruction": "Linjen börjar vid 60. Räkna vidare från närmaste utsatta tal."
+  },
+  "G1-295": {
+    "title": "Läs av tallinjen 20 till 40",
+    "instruction": "Linjen börjar vid 20. Räkna vidare från närmaste utsatta tal."
+  },
+  "G1-287": {
+    "title": "Dubbelt upp till 14",
+    "instruction": "Alla kort på sidan visar dubbelt av en bildgrupp."
+  },
+  "G1-288": {
+    "title": "Hälften upp till 12",
+    "instruction": "Alla kort delar en bildgrupp i två lika delar."
+  },
+  "G1-296": {
+    "title": "Dubbelt upp till 20 med bilder",
+    "instruction": "Större bildgrupper att dubbla, ända upp till 20."
+  },
+  "G1-297": {
+    "title": "Hälften upp till 20 med bilder",
+    "instruction": "Halvera större bildgrupper, ända upp till 20."
+  },
+  "K-314": {
+    "title": "Singular och plural: skriv pluralformen",
+    "instruction": "Skriv ordet för flera utan streck."
+  },
+  "G1-293": {
+    "title": "Substantiv och verb",
+    "instruction": "Är ordet ett substantiv eller ett verb? Sortera korten."
+  },
+  "K-310": {
+    "title": "Spåra ord med stora bokstäver",
+    "instruction": "Spåra de stora bokstäverna, skriv sedan själv."
+  },
+  "G1-289": {
+    "title": "Talpyramider uppifrån och ner",
+    "instruction": "Toppstenen är given. Räkna nedåt och subtrahera."
+  },
+  "K-313": {
+    "title": "Singular och plural: spåra ordet för en",
+    "instruction": "Spåra det streckade ordet för en."
+  },
+  "G2-308": {
+    "title": "Koordinater i rutnät: skriv koderna",
+    "instruction": "Bilden är redan färgad. Skriv rutornas koder i listan."
+  },
+  "K-309": {
+    "title": "Prick till prick i bokstavsordning",
+    "instruction": "Följ bokstäverna i ordning, från a och framåt."
+  },
+  "G2-307": {
+    "title": "Var ska punkten stå? Dela upp meningarna",
+    "instruction": "Två meningar sitter ihop. Dela på dem."
+  },
+  "G1-292": {
+    "title": "Sortera en-ord och ett-ord",
+    "instruction": "Läs varje ordkort och skriv det under en eller ett."
+  },
+  "G1-298": {
+    "title": "Dubbelt upp till 20 utan bilder",
+    "instruction": "Skriv dubbelt av varje tal. Räkna i prickrutan."
+  },
+  "G1-299": {
+    "title": "Hälften upp till 20 utan bilder",
+    "instruction": "Dela varje tal i två lika delar. Räkna i prickrutan."
+  },
+  "G1-300": {
+    "title": "Substantiv och adjektiv",
+    "instruction": "Här finns inga bilder. Är ordet substantiv eller adjektiv?"
+  },
+  "G1-301": {
+    "title": "Skriv ordet: ordbank och rutor",
+    "instruction": "Hitta ordet i ordbanken. En bokstav i varje ruta."
+  },
+  "G2-311": {
+    "title": "Två meningar: punkt eller frågetecken",
+    "instruction": "Ibland är en av meningarna också en fråga."
+  },
+  "G2-312": {
+    "title": "Läs kalendern: datum och dagar emellan",
+    "instruction": "Räkna ut datum och dagar emellan i kalendern."
+  },
+  "G2-314": {
+    "title": "Prick till prick med tiohopp",
+    "instruction": "Tiohoppen leder dig från prick till prick."
+  },
+  "K-315": {
+    "title": "Skriv av ordet i stora bokstäver",
+    "instruction": "Skriv av de stora bokstäverna två gånger."
+  },
+  "K-316": {
+    "title": "Singular och plural: skriv ordet för en",
+    "instruction": "Skriv ordet för en utan streckat ord."
+  },
+  "G2-313": {
+    "title": "Talpyramider med tvåsiffriga svar",
+    "instruction": "Bottenraden är given. Addera uppåt till toppen."
+  },
+  "G1-302": {
+    "title": "Ordna orden: hitta början",
+    "instruction": "Skiljetecknet visar slutet. Hitta ordet som börjar."
+  },
+  "G1-303": {
+    "title": "Skriv ordet: rutor och startbokstav",
+    "instruction": "Startbokstaven står på raden, inte i rutan."
+  },
+  "G1-304": {
+    "title": "Skriv ordet med alla ledtrådar",
+    "instruction": "Ordbank, rutor och första bokstaven hjälper dig."
   }
 }

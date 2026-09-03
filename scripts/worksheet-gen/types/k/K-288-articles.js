@@ -108,9 +108,18 @@ module.exports = {
         return `<span class="ws-tile ws-tile--word" style="height:44px;font-size:20px" data-lcs-sortword="${w}" data-lcs-key="${k}">${w}</span>`;
       }).join('');
       const binW = Math.floor(640 / binLabels.length) - 12;
+      // Rule as many lines as the HARDEST bin actually needs, never a fixed five.
+      // The chip count is a config knob (`cards`) and the mix guard only floors
+      // each key at 2, so an 8-chip two-bin page can legitimately deal 6 words to
+      // one bin and leave the child two words with nowhere to write them. Count
+      // the deal, then fit the spacing to the bin so more lines cannot overflow.
+      const perBin = binLabels.map((_, i) => cardsData.filter(({ e, key, count }) =>
+        (isForm ? (count > 1 ? 1 : 0) : key) === i).length);
+      const lineCount = Math.max(5, ...perBin);
+      const gapY = Math.min(58, Math.floor(330 / (lineCount + 0.5)));
       const bins = binLabels.map((label, idx) => {
         const lines = [];
-        for (let i = 1; i <= 5; i++) lines.push(`<line x1="8" y1="${i * 58}" x2="${binW - 14}" y2="${i * 58}" stroke="#C8BFAE" stroke-width="1.5" stroke-dasharray="3 5"/>`);
+        for (let i = 1; i <= lineCount; i++) lines.push(`<line x1="8" y1="${i * gapY}" x2="${binW - 14}" y2="${i * gapY}" stroke="#C8BFAE" stroke-width="1.5" stroke-dasharray="3 5"/>`);
         return `<div style="display:flex;flex-direction:column;align-items:center;gap:6px" data-lcs-sortbin="${idx}">` +
           `<span class="ws-pill" style="font-size:20px;padding:2px 18px" data-lcs-sorthead="${idx}">${label}</span>` +
           `<div class="ws-bin" style="width:${binW}px;height:350px;max-width:${binW}px;padding:0"><svg width="${binW - 6}" height="345" viewBox="0 0 ${binW - 6} 345" aria-hidden="true">${lines.join('')}</svg></div></div>`;
@@ -153,6 +162,14 @@ module.exports = {
         if (new Set(texts).size !== texts.length) fails.push('duplicate word chip');
         // the answer must not be printed: no chip may carry its own heading
         if (texts.some((t) => heads.includes(t))) fails.push('a word chip repeats a bin heading');
+        // Every word the page deals must have a line to be written on. The bin
+        // ruling was a hardcoded five while `cards` is a config knob, so an
+        // 8-chip page could deal 6 words to one bin and strand two of them.
+        bins.forEach((bin, i) => {
+          const need = keys.filter((k) => k === i).length;
+          const ruled = bin.querySelectorAll('line').length;
+          if (ruled < need) fails.push(`bin ${i}: ${need} words but only ${ruled} ruled lines`);
+        });
         return fails;
       }
       const items = [...document.querySelectorAll('[data-lcs-item]')];

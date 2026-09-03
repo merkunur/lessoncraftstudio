@@ -306,6 +306,29 @@ function serve() {
   });
 }
 
+/* ⚠ A LOCALE A TOOL IS NOT OFFERED IN IS NOT A MISSING TRANSLATION.
+   heart-words has no Finnish at all — all 79 strings — and the first
+   version of this check called that four defects. It is deliberate:
+   `frontend/messages/tool-content/fi.json` has no heart-words entry, so
+   the tool has no Finnish landing and a Finnish teacher never reaches
+   the drawer. Demanding eleven locales everywhere is the ban-too-wide
+   trap in its third costume this session, and a fence that condemns a
+   correct decision teaches people to work around the fence. So the
+   locales a surface is REQUIRED to speak are the ones it actually ships
+   in, read from the same file the site reads. */
+function offeredLocales(toolKey) {
+  const out = [];
+  for (const loc of LOCALES) {
+    const f = path.join(ROOT, 'frontend', 'messages', 'tool-content', loc + '.json');
+    if (!fs.existsSync(f)) continue;
+    try {
+      const j = JSON.parse(fs.readFileSync(f, 'utf8'));
+      if (Object.prototype.hasOwnProperty.call(j, toolKey)) out.push(loc);
+    } catch (_) { /* a broken content file is another gate's business */ }
+  }
+  return out.length ? out : LOCALES;   /* not a tool landing (an activity engine) — expect all */
+}
+
 function mountGlobal(htmlFile) {
   const src = fs.readFileSync(path.join(MINI, htmlFile), 'utf8');
   const m = src.match(/LCS\.mount\(\s*([A-Za-z0-9_$]+)/);
@@ -869,6 +892,15 @@ async function auditSurface(browser, surface, state, PORT) {
   console.log(`\n[${tag}]`);
 
   const seed = await openPage(browser, surface, state, PORT);
+  /* --poison=locale strips fi from the first settings label in memory. It
+     must FIRE on a tool that ships in fi and must stay SILENT on one that
+     does not (heart-words) — the two halves of the same check. */
+  if (POISON === 'locale') {
+    await seed.evaluate((g) => {
+      const t = window[g];
+      if (t && t.settings && t.settings[0] && t.strings && t.strings[t.settings[0].labelKey]) delete t.strings[t.settings[0].labelKey].fi;
+    }, surface.global);
+  }
   const schema = await seed.evaluate((g) => window.__schema(g), surface.global);
   if (!schema) { vac(`${tag}: no settings schema on window.${surface.global} — wrong mount global, or the tool declares none`); await seed.close(); return; }
 
@@ -891,8 +923,9 @@ async function auditSurface(browser, surface, state, PORT) {
     for (const lk of [f.labelKey].concat(f.optionLabelKeys.filter(Boolean))) {
       const entry = schema.strings[lk];
       if (!entry) { bad(`${tag}: labelKey "${lk}" is missing from the merged tool.strings — the drawer renders the raw key`); continue; }
-      const missing = LOCALES.filter(l => !entry[l]);
-      if (missing.length) bad(`${tag}: labelKey "${lk}" has no ${missing.join(',')} — those locales see English or the raw key`);
+      const want = surface.kind === 'tool' ? offeredLocales(surface.id) : LOCALES;
+      const missing = want.filter(l => !entry[l]);
+      if (missing.length) bad(`${tag}: labelKey "${lk}" has no ${missing.join(',')} — and the tool IS offered in ${missing.length === 1 ? 'that locale' : 'those locales'}, so a teacher there sees English or the raw key`);
     }
   }
 

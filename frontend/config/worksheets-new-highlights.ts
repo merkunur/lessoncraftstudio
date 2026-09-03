@@ -228,7 +228,10 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "trace-and-write-first-words-fruits",
         "trace-once-write-it-twice",
-        "trace-long-words-kindergarten"
+        "trace-long-words-kindergarten",
+        "copy-the-word-no-tracing",
+        "trace-words-in-capital-letters",
+        "copy-the-capitals-worksheet"
       ]
     },
     {
@@ -236,7 +239,13 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "dot-to-dot-1-10",
         "dot-to-dot-11-20",
-        "dot-to-dot-count-on-11-to-30"
+        "dot-to-dot-count-on-11-to-30",
+        "dot-to-dot-count-back-from-10",
+        "dot-to-dot-count-by-2s",
+        "dot-to-dot-count-back-from-20",
+        "dot-to-dot-count-by-5s",
+        "abc-dot-to-dot",
+        "dot-to-dot-count-by-10s"
       ]
     },
     {
@@ -251,14 +260,18 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "base": "singular-and-plural-kindergarten",
       "variations": [
         "singular-and-plural-first-words",
-        "singular-and-plural-longer-words"
+        "singular-and-plural-longer-words",
+        "write-the-plural-worksheet",
+        "plural-to-singular-worksheet",
+        "write-the-singular-worksheet"
       ]
     },
     {
       "base": "a-or-an-worksheet",
       "variations": [
         "a-or-an-four-picture-cards",
-        "a-or-an-eight-picture-cards"
+        "a-or-an-eight-picture-cards",
+        "sort-the-words-a-or-an"
       ]
     },
     {
@@ -281,7 +294,11 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "write-the-word-first-letter-given",
         "write-the-word-with-a-word-bank",
-        "write-the-word-no-word-bank"
+        "write-the-word-no-word-bank",
+        "write-the-word-first-letter-only",
+        "write-the-word-bank-and-letter-boxes",
+        "write-the-word-letter-boxes-and-first-letter",
+        "write-the-word-with-every-clue"
       ]
     },
     {
@@ -297,14 +314,23 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "number-walls-to-10",
         "number-walls-four-rows",
-        "number-walls-missing-brick"
+        "number-walls-missing-brick",
+        "number-walls-work-downwards",
+        "number-walls-to-100"
       ]
     },
     {
       "base": "doubles-and-halves-1st-grade",
       "variations": [
         "doubles-and-halves-with-pictures",
-        "doubles-and-halves-to-20"
+        "doubles-and-halves-to-20",
+        "doubles-and-halves-with-pictures-to-20",
+        "doubles-to-14-with-pictures",
+        "halves-to-12-with-pictures",
+        "doubles-to-20-with-pictures",
+        "halves-to-20-with-pictures",
+        "doubles-to-20-numbers-only",
+        "halves-to-20-numbers-only"
       ]
     },
     {
@@ -317,21 +343,27 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "number-line-to-50-counting-in-fives",
         "number-line-to-100-counting-in-fives",
         "number-line-to-100-counting-in-tens",
-        "number-line-to-120"
+        "number-line-to-120",
+        "number-line-40-to-60",
+        "number-line-60-to-100",
+        "number-line-20-to-40"
       ]
     },
     {
       "base": "unscramble-the-sentence-1st-grade",
       "variations": [
         "unscramble-the-sentence-with-clues",
-        "unscramble-the-sentence-no-clues"
+        "unscramble-the-sentence-no-clues",
+        "unscramble-the-sentence-find-the-first-word"
       ]
     },
     {
       "base": "capital-letters-and-punctuation-fix-the-sentence",
       "variations": [
         "fix-the-sentence-capital-and-end-mark",
-        "fix-the-sentence-choose-the-end-mark"
+        "fix-the-sentence-choose-the-end-mark",
+        "run-on-sentences-worksheet",
+        "run-on-sentences-full-stop-or-question-mark"
       ]
     },
     {
@@ -339,7 +371,9 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "word-classes-sort-nine-words",
         "word-classes-sort-twelve-words",
-        "word-classes-sort-fifteen-words"
+        "word-classes-sort-fifteen-words",
+        "nouns-and-verbs-sort",
+        "nouns-and-adjectives-sort"
       ]
     },
     {
@@ -359,7 +393,8 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "read-the-calendar-four-questions",
         "read-the-calendar-a-busy-month",
-        "read-the-calendar-days-of-the-week"
+        "read-the-calendar-days-of-the-week",
+        "calendar-how-many-days-later"
       ]
     },
     {
@@ -373,7 +408,8 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "base": "grid-coordinates-color-the-squares",
       "variations": [
         "grid-coordinates-6x6",
-        "grid-coordinates-10x10"
+        "grid-coordinates-10x10",
+        "grid-coordinates-write-the-codes"
       ]
     },
     {
@@ -603,7 +639,10 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "woerter-nachspuren-kurze-woerter-fruechte",
         "woerter-nachspuren-zweimal-selbst-schreiben-fahrzeuge",
-        "woerter-nachspuren-lange-woerter-spielzeug"
+        "woerter-nachspuren-lange-woerter-spielzeug",
+        "woerter-abschreiben-ohne-vorlage-tiere",
+        "woerter-nachspuren-in-grossbuchstaben",
+        "grossbuchstaben-abschreiben-spielzeug"
       ]
     },
     {
@@ -611,7 +650,13 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "von-punkt-zu-punkt-bis-10",
         "von-punkt-zu-punkt-11-bis-20",
-        "von-punkt-zu-punkt-11-bis-30"
+        "von-punkt-zu-punkt-11-bis-30",
+        "von-punkt-zu-punkt-rueckwaerts-von-10",
+        "von-punkt-zu-punkt-in-zweierschritten",
+        "von-punkt-zu-punkt-rueckwaerts-von-20",
+        "von-punkt-zu-punkt-in-fuenferschritten",
+        "von-punkt-zu-punkt-abc-a-bis-t",
+        "von-punkt-zu-punkt-in-zehnerschritten"
       ]
     },
     {
@@ -626,14 +671,18 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "base": "einzahl-mehrzahl-fruechte-vorschule",
       "variations": [
         "einzahl-und-mehrzahl-kurze-woerter-tiere",
-        "einzahl-und-mehrzahl-lange-woerter-fahrzeuge"
+        "einzahl-und-mehrzahl-lange-woerter-fahrzeuge",
+        "mehrzahl-selbst-schreiben-spielzeug",
+        "von-der-mehrzahl-zur-einzahl-fruechte",
+        "einzahl-selbst-schreiben-tiere"
       ]
     },
     {
       "base": "der-die-das-tiere-vorschule",
       "variations": [
         "der-die-das-vier-bilder-tiere",
-        "der-die-das-acht-bilder-fahrzeuge"
+        "der-die-das-acht-bilder-fahrzeuge",
+        "der-die-das-woerter-sortieren"
       ]
     },
     {
@@ -656,7 +705,11 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "bilder-beschriften-erster-buchstabe-tiere",
         "bilder-beschriften-mit-wortspeicher-fahrzeuge",
-        "bilder-beschriften-ohne-wortspeicher-spielzeug"
+        "bilder-beschriften-ohne-wortspeicher-spielzeug",
+        "bilder-beschriften-nur-anfangsbuchstabe",
+        "bilder-beschriften-wortspeicher-und-kaestchen",
+        "bilder-beschriften-kaestchen-und-anfangsbuchstabe",
+        "bilder-beschriften-mit-allen-hilfen"
       ]
     },
     {
@@ -672,14 +725,23 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "zahlenmauern-bis-10",
         "zahlenmauern-mit-vier-reihen",
-        "zahlenmauern-fehlender-grundstein"
+        "zahlenmauern-fehlender-grundstein",
+        "zahlenmauern-von-oben-nach-unten",
+        "zahlenmauern-bis-100"
       ]
     },
     {
       "base": "verdoppeln-und-halbieren-1-klasse",
       "variations": [
         "verdoppeln-und-halbieren-mit-bildern-tiere",
-        "verdoppeln-und-halbieren-bis-20"
+        "verdoppeln-und-halbieren-bis-20",
+        "verdoppeln-und-halbieren-mit-bildern-bis-20",
+        "nur-verdoppeln-bis-14",
+        "nur-halbieren-bis-12",
+        "nur-verdoppeln-bis-20-mit-bildern",
+        "nur-halbieren-bis-20-mit-bildern",
+        "verdoppeln-bis-20-ohne-bilder",
+        "halbieren-bis-20-ohne-bilder"
       ]
     },
     {
@@ -692,21 +754,27 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "zahlenstrahl-bis-50-in-fuenferschritten",
         "zahlenstrahl-bis-100-in-fuenferschritten",
         "zahlenstrahl-bis-100-in-zehnerschritten",
-        "zahlenstrahl-ablesen-bis-120"
+        "zahlenstrahl-ablesen-bis-120",
+        "zahlenstrahl-von-40-bis-60",
+        "zahlenstrahl-von-60-bis-100",
+        "zahlenstrahl-von-20-bis-40"
       ]
     },
     {
       "base": "schuettelsaetze-tiere-1-klasse",
       "variations": [
         "schuettelsaetze-mit-hilfen",
-        "schuettelsaetze-ohne-hilfen"
+        "schuettelsaetze-ohne-hilfen",
+        "schuettelsaetze-satzanfang-finden"
       ]
     },
     {
       "base": "satzanfang-und-satzzeichen-2-klasse",
       "variations": [
         "drei-saetze-berichtigen-2-klasse",
-        "punkt-oder-fragezeichen-setzen"
+        "punkt-oder-fragezeichen-setzen",
+        "zwei-saetze-trennen-wo-endet-der-erste",
+        "zwei-saetze-trennen-punkt-oder-fragezeichen"
       ]
     },
     {
@@ -714,7 +782,9 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "wortarten-sortieren-neun-woerter",
         "wortarten-sortieren-ohne-bilder",
-        "wortarten-sortieren-fuenfzehn-woerter"
+        "wortarten-sortieren-fuenfzehn-woerter",
+        "nomen-und-verben-sortieren",
+        "nomen-und-adjektive-sortieren"
       ]
     },
     {
@@ -734,7 +804,8 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "kalender-lesen-vier-fragen",
         "kalender-lesen-sechs-wochen",
-        "wochentage-im-kalender-finden"
+        "wochentage-im-kalender-finden",
+        "kalender-wie-viele-tage-spaeter"
       ]
     },
     {
@@ -748,7 +819,8 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "base": "koordinaten-im-gitter-2-klasse",
       "variations": [
         "koordinaten-im-6x6-gitter",
-        "koordinaten-im-10x10-gitter"
+        "koordinaten-im-10x10-gitter",
+        "koordinaten-im-gitter-aufschreiben"
       ]
     },
     {
@@ -978,7 +1050,10 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "repasar-y-escribir-palabras-cortas-preescolar",
         "repasar-una-vez-y-escribir-dos-veces-preescolar",
-        "repasar-y-escribir-palabras-largas-preescolar"
+        "repasar-y-escribir-palabras-largas-preescolar",
+        "copiar-la-palabra-sin-punteado-preescolar",
+        "repasar-y-escribir-palabras-en-mayusculas-preescolar",
+        "copiar-palabras-en-mayusculas-preescolar"
       ]
     },
     {
@@ -986,7 +1061,13 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "unir-los-puntos-del-1-al-10-preescolar",
         "unir-los-puntos-del-11-al-20-preescolar",
-        "unir-los-puntos-del-11-al-30-preescolar"
+        "unir-los-puntos-del-11-al-30-preescolar",
+        "unir-los-puntos-del-10-al-1-preescolar",
+        "unir-los-puntos-de-2-en-2-primer-grado",
+        "unir-los-puntos-del-20-al-1-primer-grado",
+        "unir-los-puntos-de-5-en-5-segundo-grado",
+        "unir-los-puntos-por-orden-alfabetico-preescolar",
+        "unir-los-puntos-de-10-en-10-segundo-grado"
       ]
     },
     {
@@ -1001,14 +1082,18 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "base": "singular-y-plural-preescolar",
       "variations": [
         "singular-y-plural-palabras-cortas-preescolar",
-        "singular-y-plural-palabras-largas-preescolar"
+        "singular-y-plural-palabras-largas-preescolar",
+        "singular-y-plural-escribe-el-plural-preescolar",
+        "singular-y-plural-de-muchos-a-uno-preescolar",
+        "singular-y-plural-escribe-el-singular-preescolar"
       ]
     },
     {
       "base": "el-o-la-articulos-preescolar",
       "variations": [
         "el-o-la-cuatro-dibujos-preescolar",
-        "el-o-la-ocho-dibujos-preescolar"
+        "el-o-la-ocho-dibujos-preescolar",
+        "el-o-la-clasifica-las-palabras-primer-grado"
       ]
     },
     {
@@ -1031,7 +1116,11 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "dictado-mudo-con-la-primera-letra-primer-grado",
         "dictado-mudo-con-banco-de-palabras-primer-grado",
-        "dictado-mudo-sin-banco-de-palabras-primer-grado"
+        "dictado-mudo-sin-banco-de-palabras-primer-grado",
+        "dictado-mudo-solo-con-la-inicial-primer-grado",
+        "dictado-mudo-con-banco-y-casillas-primer-grado",
+        "dictado-mudo-con-casillas-y-la-inicial-primer-grado",
+        "dictado-mudo-con-todas-las-pistas-primer-grado"
       ]
     },
     {
@@ -1047,14 +1136,23 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "piramides-numericas-hasta-10-primer-grado",
         "piramides-numericas-de-cuatro-pisos-primer-grado",
-        "piramides-numericas-falta-un-ladrillo-primer-grado"
+        "piramides-numericas-falta-un-ladrillo-primer-grado",
+        "piramides-numericas-de-arriba-abajo-primer-grado",
+        "piramides-numericas-de-dos-cifras-segundo-grado"
       ]
     },
     {
       "base": "dobles-y-mitades-primer-grado",
       "variations": [
         "dobles-y-mitades-hasta-8-primer-grado",
-        "dobles-y-mitades-hasta-20-primer-grado"
+        "dobles-y-mitades-hasta-20-primer-grado",
+        "dobles-y-mitades-con-grupos-grandes-primer-grado",
+        "solo-dobles-hasta-14-primer-grado",
+        "solo-mitades-hasta-12-primer-grado",
+        "solo-dobles-hasta-20-con-dibujos-primer-grado",
+        "solo-mitades-hasta-20-con-dibujos-primer-grado",
+        "solo-dobles-hasta-20-sin-dibujos-primer-grado",
+        "solo-mitades-hasta-20-sin-dibujos-primer-grado"
       ]
     },
     {
@@ -1067,21 +1165,27 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "recta-numerica-de-5-en-5-hasta-50-primer-grado",
         "recta-numerica-de-5-en-5-hasta-100-primer-grado",
         "recta-numerica-de-10-en-10-hasta-100-primer-grado",
-        "recta-numerica-del-0-al-120-primer-grado"
+        "recta-numerica-del-0-al-120-primer-grado",
+        "recta-numerica-del-40-al-60-segundo-grado",
+        "recta-numerica-del-60-al-100-segundo-grado",
+        "recta-numerica-del-20-al-40-primer-grado"
       ]
     },
     {
       "base": "ordena-la-frase-primer-grado",
       "variations": [
         "ordena-la-frase-con-pistas-primer-grado",
-        "ordena-la-frase-sin-pistas-primer-grado"
+        "ordena-la-frase-sin-pistas-primer-grado",
+        "ordena-la-frase-cual-va-primero-primer-grado"
       ]
     },
     {
       "base": "mayusculas-y-puntuacion-segundo-grado",
       "variations": [
         "corrige-la-frase-mayuscula-y-signo-final-segundo-grado",
-        "corrige-la-frase-elige-el-signo-final-segundo-grado"
+        "corrige-la-frase-elige-el-signo-final-segundo-grado",
+        "corrige-la-frase-donde-acaba-segundo-grado",
+        "corrige-la-frase-punto-o-interrogacion-segundo-grado"
       ]
     },
     {
@@ -1089,7 +1193,9 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "sustantivo-verbo-adjetivo-nueve-palabras-segundo-grado",
         "sustantivo-verbo-adjetivo-sin-dibujos-segundo-grado",
-        "sustantivo-verbo-adjetivo-quince-palabras-segundo-grado"
+        "sustantivo-verbo-adjetivo-quince-palabras-segundo-grado",
+        "sustantivo-o-verbo-primer-grado",
+        "sustantivo-o-adjetivo-primer-grado"
       ]
     },
     {
@@ -1109,7 +1215,8 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "lee-el-calendario-cuatro-preguntas-segundo-grado",
         "lee-el-calendario-un-mes-ocupado-segundo-grado",
-        "lee-el-calendario-los-dias-de-la-semana-segundo-grado"
+        "lee-el-calendario-los-dias-de-la-semana-segundo-grado",
+        "lee-el-calendario-cuantos-dias-despues-segundo-grado"
       ]
     },
     {
@@ -1123,7 +1230,8 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "base": "coordenadas-en-la-cuadricula-segundo-grado",
       "variations": [
         "coordenadas-en-la-cuadricula-de-6x6-segundo-grado",
-        "coordenadas-en-la-cuadricula-de-10x10-segundo-grado"
+        "coordenadas-en-la-cuadricula-de-10x10-segundo-grado",
+        "coordenadas-en-la-cuadricula-escribe-los-codigos-segundo-grado"
       ]
     },
     {
@@ -1353,7 +1461,10 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "repasser-et-ecrire-les-mots-courts-fruits",
         "repasser-une-fois-ecrire-deux-fois-vehicules",
-        "repasser-et-ecrire-les-mots-longs-jouets"
+        "repasser-et-ecrire-les-mots-longs-jouets",
+        "copier-le-mot-sans-pointilles-animaux",
+        "repasser-les-mots-en-capitales-fruits",
+        "copier-les-mots-en-capitales-jouets"
       ]
     },
     {
@@ -1361,7 +1472,13 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "points-a-relier-1-a-10-maternelle",
         "points-a-relier-11-a-20-maternelle",
-        "points-a-relier-11-a-30-compter-a-partir-de-11"
+        "points-a-relier-11-a-30-compter-a-partir-de-11",
+        "points-a-relier-compter-a-rebours-de-10",
+        "points-a-relier-de-2-en-2",
+        "points-a-relier-de-20-a-1",
+        "points-a-relier-de-5-en-5",
+        "points-a-relier-de-a-a-t-alphabet",
+        "points-a-relier-de-10-en-10"
       ]
     },
     {
@@ -1376,14 +1493,18 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "base": "singulier-et-pluriel-maternelle-fruits",
       "variations": [
         "singulier-et-pluriel-mots-courts-animaux",
-        "singulier-et-pluriel-mots-longs-vehicules"
+        "singulier-et-pluriel-mots-longs-vehicules",
+        "singulier-et-pluriel-ecrire-le-pluriel-jouets",
+        "singulier-et-pluriel-du-pluriel-au-singulier-fruits",
+        "singulier-et-pluriel-ecrire-le-singulier-animaux"
       ]
     },
     {
       "base": "le-ou-la-entoure-l-article-animaux",
       "variations": [
         "le-ou-la-quatre-images-animaux",
-        "un-ou-une-huit-images-vehicules"
+        "un-ou-une-huit-images-vehicules",
+        "un-ou-une-trier-les-mots-sans-image-fruits"
       ]
     },
     {
@@ -1406,7 +1527,11 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "dictee-muette-avec-lettre-de-depart-animaux",
         "dictee-muette-avec-liste-de-mots-vehicules",
-        "dictee-muette-sans-liste-jouets"
+        "dictee-muette-sans-liste-jouets",
+        "dictee-muette-premiere-lettre-seule-animaux",
+        "dictee-muette-liste-et-cases-vehicules",
+        "dictee-muette-cases-et-premiere-lettre-jouets",
+        "dictee-muette-tous-les-indices-animaux"
       ]
     },
     {
@@ -1422,14 +1547,23 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "pyramides-de-nombres-jusqu-a-10",
         "pyramides-de-nombres-a-quatre-etages",
-        "pyramides-de-nombres-brique-manquante"
+        "pyramides-de-nombres-brique-manquante",
+        "pyramides-de-nombres-partir-du-sommet",
+        "pyramides-de-nombres-jusqu-a-100"
       ]
     },
     {
       "base": "doubles-et-moities-cp-fruits",
       "variations": [
         "doubles-et-moities-jusqu-a-8-animaux",
-        "doubles-et-moities-jusqu-a-20-sans-images"
+        "doubles-et-moities-jusqu-a-20-sans-images",
+        "doubles-et-moities-en-images-jusqu-a-20-jouets",
+        "doubles-seuls-jusqu-a-14-fruits",
+        "moities-seules-jusqu-a-12-animaux",
+        "doubles-seuls-jusqu-a-20-vehicules",
+        "moities-seules-jusqu-a-20-jouets",
+        "doubles-sans-images-jusqu-a-20",
+        "moities-sans-images-jusqu-a-20"
       ]
     },
     {
@@ -1442,21 +1576,27 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "droite-graduee-de-5-en-5-jusqu-a-50",
         "droite-graduee-de-5-en-5-jusqu-a-100",
         "droite-graduee-de-10-en-10-jusqu-a-100",
-        "droite-graduee-de-0-a-120"
+        "droite-graduee-de-0-a-120",
+        "droite-graduee-de-40-a-60",
+        "droite-graduee-de-60-a-100",
+        "droite-graduee-de-20-a-40"
       ]
     },
     {
       "base": "phrases-melangees-cp-animaux",
       "variations": [
         "phrases-melangees-avec-majuscule-et-point",
-        "phrases-melangees-sans-majuscule-ni-point"
+        "phrases-melangees-sans-majuscule-ni-point",
+        "phrases-melangees-trouver-le-premier-mot-fruits"
       ]
     },
     {
       "base": "majuscules-et-ponctuation-ce1-vehicules",
       "variations": [
         "corriger-la-phrase-majuscule-et-point",
-        "corriger-la-phrase-choisir-le-signe-final"
+        "corriger-la-phrase-choisir-le-signe-final",
+        "separer-deux-phrases-collees-animaux",
+        "deux-phrases-collees-point-ou-question-fruits"
       ]
     },
     {
@@ -1464,7 +1604,9 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "nature-des-mots-neuf-etiquettes-avec-images",
         "nature-des-mots-douze-etiquettes-sans-images",
-        "nature-des-mots-quinze-etiquettes"
+        "nature-des-mots-quinze-etiquettes",
+        "nature-des-mots-noms-et-verbes-deux-boites-jouets",
+        "nature-des-mots-noms-et-adjectifs-deux-boites-animaux"
       ]
     },
     {
@@ -1484,7 +1626,8 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "lire-le-calendrier-quatre-questions",
         "lire-le-calendrier-une-semaine-plus-tard",
-        "lire-le-calendrier-les-jours-de-la-semaine"
+        "lire-le-calendrier-les-jours-de-la-semaine",
+        "lire-le-calendrier-compter-les-jours"
       ]
     },
     {
@@ -1498,7 +1641,8 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "base": "pixel-art-reperage-sur-quadrillage-ce1",
       "variations": [
         "pixel-art-quadrillage-6x6",
-        "pixel-art-quadrillage-10x10"
+        "pixel-art-quadrillage-10x10",
+        "pixel-art-ecrire-les-codes"
       ]
     },
     {
@@ -1728,7 +1872,10 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "palavras-pontilhadas-curtas-frutas-educacao-infantil",
         "palavras-pontilhadas-cobrir-uma-vez-escrever-duas",
-        "palavras-pontilhadas-longas-brinquedos-educacao-infantil"
+        "palavras-pontilhadas-longas-brinquedos-educacao-infantil",
+        "copie-a-palavra-sem-pontilhado-animais",
+        "palavras-pontilhadas-em-letra-maiuscula-frutas",
+        "copie-as-palavras-em-maiusculas-brinquedos"
       ]
     },
     {
@@ -1736,7 +1883,13 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "ligue-os-pontos-de-1-a-10-educacao-infantil",
         "ligue-os-pontos-de-11-a-20-educacao-infantil",
-        "ligue-os-pontos-de-11-a-30-educacao-infantil"
+        "ligue-os-pontos-de-11-a-30-educacao-infantil",
+        "ligue-os-pontos-de-10-a-1",
+        "ligue-os-pontos-de-2-em-2-ate-20",
+        "ligue-os-pontos-contagem-regressiva-do-20",
+        "ligue-os-pontos-de-5-em-5-ate-50",
+        "ligue-os-pontos-do-a-ao-t",
+        "ligue-os-pontos-de-10-em-10-ate-100"
       ]
     },
     {
@@ -1751,14 +1904,18 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "base": "singular-e-plural-frutas-educacao-infantil",
       "variations": [
         "singular-e-plural-palavras-curtas-animais",
-        "singular-e-plural-palavras-longas-veiculos"
+        "singular-e-plural-palavras-longas-veiculos",
+        "singular-e-plural-escreva-o-plural-brinquedos",
+        "singular-e-plural-cubra-o-singular-frutas",
+        "singular-e-plural-escreva-o-singular-animais"
       ]
     },
     {
       "base": "o-ou-a-artigo-animais-educacao-infantil",
       "variations": [
         "o-ou-a-quatro-figuras-animais",
-        "o-ou-a-oito-figuras-veiculos"
+        "o-ou-a-oito-figuras-veiculos",
+        "o-ou-a-classifique-as-palavras-escritas"
       ]
     },
     {
@@ -1781,7 +1938,11 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "escreva-o-nome-com-banco-e-primeira-letra",
         "escreva-o-nome-com-banco-de-palavras-veiculos",
-        "escreva-o-nome-sem-banco-brinquedos"
+        "escreva-o-nome-sem-banco-brinquedos",
+        "escreva-o-nome-so-com-a-letra-inicial-animais",
+        "escreva-o-nome-banco-e-quadradinhos-veiculos",
+        "escreva-o-nome-quadradinhos-e-letra-inicial-brinquedos",
+        "escreva-o-nome-com-todas-as-pistas-animais"
       ]
     },
     {
@@ -1797,14 +1958,23 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "piramide-de-numeros-ate-10-1o-ano",
         "piramide-de-numeros-quatro-andares",
-        "piramide-de-numeros-tijolo-que-falta"
+        "piramide-de-numeros-tijolo-que-falta",
+        "piramide-de-numeros-comece-pelo-topo",
+        "piramide-de-numeros-com-topo-de-dois-algarismos"
       ]
     },
     {
       "base": "dobro-e-metade-frutas-1o-ano",
       "variations": [
         "dobro-e-metade-com-figuras-animais",
-        "dobro-e-metade-ate-20-so-com-numeros"
+        "dobro-e-metade-ate-20-so-com-numeros",
+        "dobro-e-metade-com-figuras-ate-20-brinquedos",
+        "dobro-ate-14-com-figuras-frutas",
+        "metade-ate-12-com-figuras-animais",
+        "dobro-ate-20-com-figuras-veiculos",
+        "metade-ate-20-com-figuras-brinquedos",
+        "dobro-ate-20-so-com-numeros-oito-cartoes",
+        "metade-ate-20-so-com-numeros-oito-cartoes"
       ]
     },
     {
@@ -1817,21 +1987,27 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "reta-numerica-ate-50-de-5-em-5",
         "reta-numerica-ate-100-de-5-em-5",
         "reta-numerica-ate-100-de-10-em-10",
-        "reta-numerica-ate-120-1o-ano"
+        "reta-numerica-ate-120-1o-ano",
+        "reta-numerica-de-40-a-60",
+        "reta-numerica-de-60-a-100",
+        "reta-numerica-de-20-a-40"
       ]
     },
     {
       "base": "ordene-a-frase-animais-1o-ano",
       "variations": [
         "ordene-a-frase-com-pistas-frutas",
-        "ordene-a-frase-sem-pistas-animais"
+        "ordene-a-frase-sem-pistas-animais",
+        "ordene-a-frase-so-com-o-sinal-final-frutas"
       ]
     },
     {
       "base": "letra-maiuscula-e-pontuacao-2o-ano",
       "variations": [
         "maiuscula-e-sinal-final-tres-frases",
-        "escolha-o-sinal-de-pontuacao-frutas"
+        "escolha-o-sinal-de-pontuacao-frutas",
+        "onde-termina-a-frase-duas-frases-grudadas",
+        "ponto-final-ou-interrogacao-duas-frases"
       ]
     },
     {
@@ -1839,7 +2015,9 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "classes-de-palavras-nove-palavras",
         "classes-de-palavras-sem-figuras",
-        "classes-de-palavras-quinze-palavras"
+        "classes-de-palavras-quinze-palavras",
+        "substantivo-ou-verbo-duas-caixas",
+        "substantivo-ou-adjetivo-duas-caixas"
       ]
     },
     {
@@ -1859,7 +2037,8 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "leitura-de-calendario-quatro-perguntas",
         "leitura-de-calendario-mes-cheio",
-        "leitura-de-calendario-dias-da-semana"
+        "leitura-de-calendario-dias-da-semana",
+        "leitura-de-calendario-quantos-dias-depois"
       ]
     },
     {
@@ -1873,7 +2052,8 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "base": "coordenadas-na-malha-quadriculada-2o-ano",
       "variations": [
         "coordenadas-malha-6-por-6",
-        "coordenadas-malha-10-por-10"
+        "coordenadas-malha-10-por-10",
+        "coordenadas-escreva-os-codigos-das-casas"
       ]
     },
     {
@@ -2103,7 +2283,10 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "ricalca-e-scrivi-parole-corte-frutta",
         "ricalca-una-volta-e-scrivi-due-volte",
-        "ricalca-e-scrivi-parole-lunghe"
+        "ricalca-e-scrivi-parole-lunghe",
+        "copia-la-parola-dal-cartellino",
+        "ricalca-le-parole-in-stampato-maiuscolo",
+        "copia-lo-stampato-maiuscolo"
       ]
     },
     {
@@ -2111,7 +2294,13 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "unisci-i-puntini-1-10",
         "unisci-i-puntini-11-20",
-        "unisci-i-puntini-11-30"
+        "unisci-i-puntini-11-30",
+        "unisci-i-puntini-conta-indietro-da-10",
+        "unisci-i-puntini-di-2-in-2",
+        "unisci-i-puntini-da-20-a-1",
+        "unisci-i-puntini-di-5-in-5",
+        "unisci-i-puntini-in-ordine-alfabetico",
+        "unisci-i-puntini-di-10-in-10"
       ]
     },
     {
@@ -2126,14 +2315,18 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "base": "singolare-e-plurale-frutta",
       "variations": [
         "singolare-e-plurale-parole-corte-animali",
-        "singolare-e-plurale-parole-lunghe"
+        "singolare-e-plurale-parole-lunghe",
+        "scrivi-tu-il-plurale",
+        "dal-plurale-al-singolare",
+        "scrivi-tu-il-singolare"
       ]
     },
     {
       "base": "il-o-la-articoli-determinativi",
       "variations": [
         "articoli-il-o-la-quattro-carte",
-        "articoli-il-lo-la-otto-carte"
+        "articoli-il-lo-la-otto-carte",
+        "ordina-le-parole-per-articolo"
       ]
     },
     {
@@ -2156,7 +2349,11 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "dettato-muto-prima-lettera-data",
         "dettato-muto-con-banca-delle-parole",
-        "dettato-muto-senza-aiuti"
+        "dettato-muto-senza-aiuti",
+        "dettato-muto-con-la-sola-iniziale",
+        "dettato-muto-banca-e-caselle",
+        "dettato-muto-caselle-e-iniziale",
+        "dettato-muto-con-tutti-gli-aiuti"
       ]
     },
     {
@@ -2172,14 +2369,23 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "piramidi-di-numeri-fino-a-10",
         "piramidi-di-numeri-quattro-piani",
-        "piramidi-di-numeri-mattone-mancante"
+        "piramidi-di-numeri-mattone-mancante",
+        "piramidi-di-numeri-dalla-cima",
+        "piramidi-di-numeri-oltre-il-20"
       ]
     },
     {
       "base": "doppio-e-meta-classe-prima",
       "variations": [
         "doppio-e-meta-primi-passi",
-        "doppio-e-meta-fino-a-20"
+        "doppio-e-meta-fino-a-20",
+        "doppio-e-meta-con-le-figure-fino-a-20",
+        "solo-il-doppio-fino-a-14",
+        "solo-la-meta-fino-a-12",
+        "solo-il-doppio-fino-a-20",
+        "solo-la-meta-fino-a-20",
+        "solo-il-doppio-senza-figure",
+        "solo-la-meta-senza-figure"
       ]
     },
     {
@@ -2192,21 +2398,27 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "linea-dei-numeri-salti-di-5-fino-a-50",
         "linea-dei-numeri-salti-di-5-fino-a-100",
         "linea-dei-numeri-salti-di-10-fino-a-100",
-        "linea-dei-numeri-da-0-a-120"
+        "linea-dei-numeri-da-0-a-120",
+        "linea-dei-numeri-da-40-a-60",
+        "linea-dei-numeri-da-60-a-100",
+        "linea-dei-numeri-da-20-a-40"
       ]
     },
     {
       "base": "riordina-la-frase-animali",
       "variations": [
         "riordina-la-frase-con-gli-indizi",
-        "riordina-la-frase-senza-indizi"
+        "riordina-la-frase-senza-indizi",
+        "riordina-la-frase-solo-il-segno-finale"
       ]
     },
     {
       "base": "maiuscole-e-punteggiatura-classe-seconda",
       "variations": [
         "maiuscola-e-segno-finale",
-        "maiuscole-nei-nomi-propri-e-segno-finale"
+        "maiuscole-nei-nomi-propri-e-segno-finale",
+        "due-frasi-attaccate-dove-finisce-la-prima",
+        "due-frasi-attaccate-punto-o-punto-interrogativo"
       ]
     },
     {
@@ -2214,7 +2426,9 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "nome-verbo-aggettivo-nove-parole",
         "nome-verbo-aggettivo-dodici-parole-senza-immagini",
-        "nome-verbo-aggettivo-quindici-parole"
+        "nome-verbo-aggettivo-quindici-parole",
+        "nomi-e-verbi-da-smistare",
+        "nomi-e-aggettivi-da-smistare"
       ]
     },
     {
@@ -2234,7 +2448,8 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "leggere-il-calendario-quattro-domande",
         "leggere-il-calendario-una-settimana-dopo",
-        "leggere-il-calendario-i-giorni-della-settimana"
+        "leggere-il-calendario-i-giorni-della-settimana",
+        "il-calendario-quanti-giorni-dopo"
       ]
     },
     {
@@ -2248,7 +2463,8 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "base": "coordinate-sulla-griglia-pixel-art",
       "variations": [
         "coordinate-sulla-griglia-6x6",
-        "coordinate-sulla-griglia-10x10"
+        "coordinate-sulla-griglia-10x10",
+        "coordinate-sulla-griglia-scrivi-i-codici"
       ]
     },
     {
@@ -2478,7 +2694,10 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "woorden-overtrekken-eerste-woordjes",
         "woorden-overtrekken-twee-keer-schrijven",
-        "woorden-overtrekken-lange-woorden"
+        "woorden-overtrekken-lange-woorden",
+        "woorden-overschrijven-kijk-en-schrijf",
+        "woorden-overtrekken-hoofdletters",
+        "woorden-overschrijven-in-hoofdletters"
       ]
     },
     {
@@ -2486,7 +2705,13 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "van-stip-naar-stip-1-tot-10",
         "van-stip-naar-stip-11-tot-20",
-        "van-stip-naar-stip-11-tot-30"
+        "van-stip-naar-stip-11-tot-30",
+        "van-stip-naar-stip-terugtellen-vanaf-10",
+        "van-stip-naar-stip-met-tweetallen",
+        "van-stip-naar-stip-terugtellen-vanaf-20",
+        "van-stip-naar-stip-met-vijftallen",
+        "van-stip-naar-stip-alfabet",
+        "van-stip-naar-stip-met-tientallen"
       ]
     },
     {
@@ -2501,14 +2726,18 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "base": "enkelvoud-en-meervoud-fruit",
       "variations": [
         "enkelvoud-en-meervoud-dieren",
-        "enkelvoud-en-meervoud-lange-woorden"
+        "enkelvoud-en-meervoud-lange-woorden",
+        "enkelvoud-en-meervoud-meervoud-zelf-schrijven",
+        "enkelvoud-en-meervoud-van-meer-naar-een",
+        "enkelvoud-en-meervoud-enkelvoud-zelf-schrijven"
       ]
     },
     {
       "base": "de-of-het-dieren-kleuters",
       "variations": [
         "de-of-het-vier-plaatjes",
-        "de-of-het-acht-plaatjes"
+        "de-of-het-acht-plaatjes",
+        "de-of-het-woorden-sorteren"
       ]
     },
     {
@@ -2531,7 +2760,11 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "schrijf-het-woord-met-de-beginletter",
         "schrijf-het-woord-met-woordbank",
-        "schrijf-het-woord-zonder-woordbank"
+        "schrijf-het-woord-zonder-woordbank",
+        "schrijf-het-woord-alleen-de-beginletter",
+        "schrijf-het-woord-woordbank-en-letterhokjes",
+        "schrijf-het-woord-letterhokjes-en-beginletter",
+        "schrijf-het-woord-met-alle-hulp"
       ]
     },
     {
@@ -2547,14 +2780,23 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "rekenpiramide-tot-10",
         "rekenpiramide-vier-lagen",
-        "rekenpiramide-ontbrekende-steen"
+        "rekenpiramide-ontbrekende-steen",
+        "rekenpiramide-van-boven-naar-beneden",
+        "rekenpiramide-tot-100"
       ]
     },
     {
       "base": "verdubbelen-en-halveren-groep-3",
       "variations": [
         "verdubbelen-en-halveren-met-plaatjes",
-        "verdubbelen-en-halveren-tot-20"
+        "verdubbelen-en-halveren-tot-20",
+        "verdubbelen-en-halveren-tot-20-met-plaatjes",
+        "verdubbelen-tot-14",
+        "halveren-tot-12",
+        "verdubbelen-tot-20-met-plaatjes",
+        "halveren-tot-20-met-plaatjes",
+        "verdubbelen-tot-20-alleen-getallen",
+        "halveren-tot-20-alleen-getallen"
       ]
     },
     {
@@ -2567,21 +2809,27 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "getallenlijn-tot-50-met-vijftallen",
         "getallenlijn-tot-100-met-vijftallen",
         "getallenlijn-tot-100-met-tientallen",
-        "getallenlijn-tot-120"
+        "getallenlijn-tot-120",
+        "getallenlijn-van-40-tot-60",
+        "getallenlijn-van-60-tot-100",
+        "getallenlijn-van-20-tot-40"
       ]
     },
     {
       "base": "husselzinnen-dieren-groep-3",
       "variations": [
         "husselzinnen-met-hulp",
-        "husselzinnen-zonder-hulp"
+        "husselzinnen-zonder-hulp",
+        "husselzinnen-welk-woord-staat-vooraan"
       ]
     },
     {
       "base": "hoofdletters-en-leestekens-groep-4",
       "variations": [
         "hoofdletters-en-leestekens-punt-of-vraagteken",
-        "hoofdletters-namen-en-leestekens"
+        "hoofdletters-namen-en-leestekens",
+        "hoofdletters-twee-zinnen-los-schrijven",
+        "hoofdletters-twee-zinnen-punt-of-vraagteken"
       ]
     },
     {
@@ -2589,7 +2837,9 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "woordsoorten-negen-woorden",
         "woordsoorten-zonder-plaatjes",
-        "woordsoorten-vijftien-woorden"
+        "woordsoorten-vijftien-woorden",
+        "woordsoorten-naamwoord-of-werkwoord",
+        "woordsoorten-naamwoord-of-bijvoeglijk-naamwoord"
       ]
     },
     {
@@ -2609,7 +2859,8 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "kalender-lezen-vier-vragen",
         "kalender-lezen-een-volle-maand",
-        "kalender-lezen-dagen-van-de-week"
+        "kalender-lezen-dagen-van-de-week",
+        "kalender-lezen-hoeveel-dagen-ertussen"
       ]
     },
     {
@@ -2623,7 +2874,8 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "base": "coordinaten-in-het-rooster-groep-4",
       "variations": [
         "coordinaten-in-het-rooster-6-bij-6",
-        "coordinaten-in-het-rooster-10-bij-10"
+        "coordinaten-in-het-rooster-10-bij-10",
+        "coordinaten-in-het-rooster-schrijf-de-codes"
       ]
     },
     {
@@ -2853,7 +3105,10 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "spara-och-skriv-forsta-orden",
         "spara-en-gang-skriv-tva-ganger",
-        "spara-och-skriv-langa-ord"
+        "spara-och-skriv-langa-ord",
+        "skriv-av-ordet-tva-ganger",
+        "spara-ord-med-stora-bokstaver",
+        "skriv-av-orden-med-stora-bokstaver"
       ]
     },
     {
@@ -2861,7 +3116,13 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "prick-till-prick-1-10",
         "prick-till-prick-11-20",
-        "prick-till-prick-11-30"
+        "prick-till-prick-11-30",
+        "prick-till-prick-baklanges-fran-10",
+        "prick-till-prick-med-tvahopp-till-20",
+        "prick-till-prick-baklanges-fran-20",
+        "prick-till-prick-med-femhopp-till-50",
+        "prick-till-prick-i-bokstavsordning-a-till-t",
+        "prick-till-prick-med-tiohopp-till-100"
       ]
     },
     {
@@ -2876,14 +3137,18 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "base": "singular-och-plural-frukter",
       "variations": [
         "singular-och-plural-korta-ord",
-        "singular-och-plural-langre-ord"
+        "singular-och-plural-langre-ord",
+        "singular-och-plural-skriv-pluralformen",
+        "singular-och-plural-spara-ordet-for-en",
+        "singular-och-plural-skriv-ordet-for-en"
       ]
     },
     {
       "base": "en-eller-ett-frukter",
       "variations": [
         "en-eller-ett-fyra-bilder",
-        "en-eller-ett-atta-bilder"
+        "en-eller-ett-atta-bilder",
+        "sortera-en-ord-och-ett-ord"
       ]
     },
     {
@@ -2906,7 +3171,11 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "skriv-ordet-forsta-bokstaven-given",
         "skriv-ordet-med-ordbank",
-        "skriv-ordet-utan-ordbank"
+        "skriv-ordet-utan-ordbank",
+        "skriv-ordet-bara-forsta-bokstaven",
+        "skriv-ordet-ordbank-och-bokstavsrutor",
+        "skriv-ordet-bokstavsrutor-och-startbokstav",
+        "skriv-ordet-med-alla-ledtradar"
       ]
     },
     {
@@ -2922,14 +3191,23 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "talpyramider-till-10",
         "talpyramider-fyra-rader",
-        "talpyramider-stenen-som-saknas"
+        "talpyramider-stenen-som-saknas",
+        "talpyramider-uppifran-och-ner",
+        "talpyramider-med-tvasiffriga-svar"
       ]
     },
     {
       "base": "dubbelt-och-halften-frukter",
       "variations": [
         "dubbelt-och-halften-med-bilder",
-        "dubbelt-och-halften-till-20"
+        "dubbelt-och-halften-till-20",
+        "dubbelt-och-halften-med-bilder-till-20",
+        "dubbelt-upp-till-14",
+        "halften-upp-till-12",
+        "dubbelt-upp-till-20-med-bilder",
+        "halften-upp-till-20-med-bilder",
+        "dubbelt-upp-till-20-utan-bilder",
+        "halften-upp-till-20-utan-bilder"
       ]
     },
     {
@@ -2942,21 +3220,27 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "tallinjen-till-50-med-steg-om-5",
         "tallinjen-till-100-med-steg-om-5",
         "tallinjen-till-100-med-steg-om-10",
-        "tallinjen-till-120"
+        "tallinjen-till-120",
+        "las-av-tallinjen-40-till-60",
+        "las-av-tallinjen-60-till-100",
+        "las-av-tallinjen-20-till-40"
       ]
     },
     {
       "base": "ordna-orden-till-en-mening-djur",
       "variations": [
         "ordna-orden-med-ledtradar",
-        "ordna-orden-utan-ledtradar"
+        "ordna-orden-utan-ledtradar",
+        "ordna-orden-hitta-borjan"
       ]
     },
     {
       "base": "stor-bokstav-och-skiljetecken-fordon",
       "variations": [
         "punkt-eller-fragetecken",
-        "valj-ratt-skiljetecken"
+        "valj-ratt-skiljetecken",
+        "tva-meningar-var-slutar-den-forsta",
+        "tva-meningar-punkt-eller-fragetecken"
       ]
     },
     {
@@ -2964,7 +3248,9 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "ordklasser-nio-ord",
         "ordklasser-utan-bildstod",
-        "ordklasser-femton-ord"
+        "ordklasser-femton-ord",
+        "ordklasser-substantiv-och-verb",
+        "ordklasser-substantiv-och-adjektiv"
       ]
     },
     {
@@ -2984,7 +3270,8 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "las-kalendern-fyra-fragor",
         "las-kalendern-en-vecka-senare",
-        "las-kalendern-veckans-dagar"
+        "las-kalendern-veckans-dagar",
+        "las-kalendern-hur-manga-dagar-senare"
       ]
     },
     {
@@ -2998,7 +3285,8 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "base": "koordinater-i-rutnat-mala-rutorna",
       "variations": [
         "koordinater-i-rutnat-6-x-6",
-        "koordinater-i-rutnat-10-x-10"
+        "koordinater-i-rutnat-10-x-10",
+        "koordinater-i-rutnat-skriv-koderna"
       ]
     },
     {
@@ -3228,7 +3516,10 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "skriv-ordene-efter-korte-ord",
         "skriv-ordene-efter-og-skriv-to-gange",
-        "skriv-ordene-efter-lange-ord"
+        "skriv-ordene-efter-lange-ord",
+        "skriv-ordet-af-to-gange",
+        "skriv-ordene-efter-store-bogstaver",
+        "skriv-de-store-bogstaver-af"
       ]
     },
     {
@@ -3236,7 +3527,13 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "prik-til-prik-1-10",
         "prik-til-prik-11-20",
-        "prik-til-prik-11-30"
+        "prik-til-prik-11-30",
+        "prik-til-prik-baglaens-fra-10",
+        "prik-til-prik-toere-til-20",
+        "prik-til-prik-baglaens-fra-20",
+        "prik-til-prik-femmere-til-50",
+        "prik-til-prik-bogstaver-a-til-t",
+        "prik-til-prik-tiere-til-100"
       ]
     },
     {
@@ -3251,14 +3548,18 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "base": "ental-og-flertal-boernehaveklasse",
       "variations": [
         "ental-og-flertal-korte-ord",
-        "ental-og-flertal-laengere-ord"
+        "ental-og-flertal-laengere-ord",
+        "ental-og-flertal-skriv-flertal-selv",
+        "flertal-og-ental-fra-flere-til-en",
+        "ental-og-flertal-skriv-ordet-for-en"
       ]
     },
     {
       "base": "en-eller-et-boernehaveklasse",
       "variations": [
         "en-eller-et-fire-billeder",
-        "en-eller-et-otte-billeder"
+        "en-eller-et-otte-billeder",
+        "en-eller-et-sorter-ordene"
       ]
     },
     {
@@ -3281,7 +3582,11 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "skriv-ordet-foerste-bogstav-givet",
         "skriv-ordet-med-ordbank",
-        "skriv-ordet-uden-ordbank"
+        "skriv-ordet-uden-ordbank",
+        "skriv-ordet-kun-foerste-bogstav",
+        "skriv-ordet-ordbank-og-bogstavfelter",
+        "skriv-ordet-bogstavfelter-og-foerste-bogstav",
+        "skriv-ordet-med-al-hjaelpen"
       ]
     },
     {
@@ -3297,14 +3602,23 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "talpyramider-op-til-10",
         "talpyramider-fire-raekker",
-        "talpyramider-manglende-sten"
+        "talpyramider-manglende-sten",
+        "talpyramider-start-i-toppen",
+        "talpyramider-med-tocifrede-tal"
       ]
     },
     {
       "base": "det-dobbelte-og-det-halve-1-klasse",
       "variations": [
         "det-dobbelte-og-det-halve-med-billeder",
-        "det-dobbelte-og-det-halve-op-til-20"
+        "det-dobbelte-og-det-halve-op-til-20",
+        "det-dobbelte-og-det-halve-til-20",
+        "det-dobbelte-op-til-14",
+        "det-halve-op-til-12",
+        "det-dobbelte-op-til-20-med-billeder",
+        "det-halve-op-til-20-med-billeder",
+        "det-dobbelte-op-til-20-kun-tal",
+        "det-halve-op-til-20-kun-tal"
       ]
     },
     {
@@ -3317,21 +3631,27 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "tallinjen-til-50-med-femmere",
         "tallinjen-til-100-med-femmere",
         "tallinjen-til-100-med-tiere",
-        "tallinjen-0-120"
+        "tallinjen-0-120",
+        "tallinjen-40-til-60",
+        "tallinjen-60-til-100",
+        "tallinjen-20-til-40"
       ]
     },
     {
       "base": "saet-ordene-i-raekkefoelge-1-klasse",
       "variations": [
         "saet-ordene-i-raekkefoelge-med-hjaelp",
-        "saet-ordene-i-raekkefoelge-uden-hjaelp"
+        "saet-ordene-i-raekkefoelge-uden-hjaelp",
+        "saet-ordene-i-raekkefoelge-find-starten"
       ]
     },
     {
       "base": "stort-bogstav-og-punktum-2-klasse",
       "variations": [
         "stort-bogstav-og-tegn-til-sidst",
-        "stort-bogstav-navne-og-tegn"
+        "stort-bogstav-navne-og-tegn",
+        "hvor-slutter-saetningen",
+        "to-saetninger-punktum-eller-spoergsmaalstegn"
       ]
     },
     {
@@ -3339,7 +3659,9 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "ordklasser-ni-ord-med-billeder",
         "ordklasser-tolv-ord-uden-billeder",
-        "ordklasser-femten-ord"
+        "ordklasser-femten-ord",
+        "navneord-og-udsagnsord-1-klasse",
+        "navneord-og-tillaegsord-1-klasse"
       ]
     },
     {
@@ -3359,7 +3681,8 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "laes-kalenderen-fire-spoergsmaal",
         "laes-kalenderen-en-travl-maaned",
-        "laes-kalenderen-ugedagene"
+        "laes-kalenderen-ugedagene",
+        "kalenderen-hvor-mange-dage-senere"
       ]
     },
     {
@@ -3373,7 +3696,8 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "base": "koordinater-i-kvadratnet-2-klasse",
       "variations": [
         "koordinater-i-kvadratnet-6x6",
-        "koordinater-i-kvadratnet-10x10"
+        "koordinater-i-kvadratnet-10x10",
+        "koordinater-skriv-dem-selv"
       ]
     },
     {
@@ -3603,7 +3927,10 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "spor-og-skriv-korte-ord",
         "spor-en-gang-skriv-to-ganger",
-        "spor-og-skriv-lange-ord"
+        "spor-og-skriv-lange-ord",
+        "skriv-av-ordet-to-ganger",
+        "spor-og-skriv-med-store-bokstaver",
+        "skriv-av-med-store-bokstaver"
       ]
     },
     {
@@ -3611,7 +3938,13 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "prikk-til-prikk-1-10",
         "prikk-til-prikk-11-20",
-        "prikk-til-prikk-tell-videre-til-30"
+        "prikk-til-prikk-tell-videre-til-30",
+        "prikk-til-prikk-tell-baklengs-fra-10",
+        "prikk-til-prikk-tell-med-toere",
+        "prikk-til-prikk-tell-baklengs-fra-20",
+        "prikk-til-prikk-tell-med-femmere",
+        "prikk-til-prikk-med-bokstaver",
+        "prikk-til-prikk-tell-med-tiere"
       ]
     },
     {
@@ -3626,14 +3959,18 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "base": "entall-og-flertall-frukt",
       "variations": [
         "entall-og-flertall-korte-ord",
-        "entall-og-flertall-lange-ord"
+        "entall-og-flertall-lange-ord",
+        "entall-og-flertall-skriv-flertallsordet-selv",
+        "flertall-og-entall-spor-entallsordet",
+        "flertall-og-entall-skriv-entallsordet-selv"
       ]
     },
     {
       "base": "en-eller-et-frukt",
       "variations": [
         "en-eller-et-fire-bilder",
-        "en-eller-et-atte-bilder"
+        "en-eller-et-atte-bilder",
+        "en-eller-et-sorter-ordene"
       ]
     },
     {
@@ -3656,7 +3993,11 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "skriv-ordet-forste-bokstav-gitt",
         "skriv-ordet-med-ordbank",
-        "skriv-ordet-uten-ordbank"
+        "skriv-ordet-uten-ordbank",
+        "skriv-ordet-forste-bokstav-uten-ordbank",
+        "skriv-ordet-ordbank-og-bokstavruter",
+        "skriv-ordet-bokstavruter-og-forste-bokstav",
+        "skriv-ordet-med-all-hjelp"
       ]
     },
     {
@@ -3672,14 +4013,23 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "tallpyramider-til-10",
         "tallpyramider-fire-etasjer",
-        "tallpyramider-finn-steinen-som-mangler"
+        "tallpyramider-finn-steinen-som-mangler",
+        "tallpyramider-start-pa-toppen",
+        "tallpyramider-med-tosifrede-svar"
       ]
     },
     {
       "base": "det-dobbelte-og-halvparten",
       "variations": [
         "det-dobbelte-og-halvparten-sma-tall",
-        "det-dobbelte-og-halvparten-til-20"
+        "det-dobbelte-og-halvparten-til-20",
+        "det-dobbelte-og-halvparten-med-bilder-til-20",
+        "det-dobbelte-opp-til-14",
+        "halvparten-opp-til-12",
+        "det-dobbelte-opp-til-20-med-bilder",
+        "halvparten-opp-til-20-med-bilder",
+        "det-dobbelte-opp-til-20-bare-tall",
+        "halvparten-opp-til-20-bare-tall"
       ]
     },
     {
@@ -3692,21 +4042,27 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "tallinje-til-50-tell-med-femmere",
         "tallinje-til-100-tell-med-femmere",
         "tallinje-til-100-tell-med-tiere",
-        "les-av-tallinjen-0-120"
+        "les-av-tallinjen-0-120",
+        "les-av-tallinjen-40-til-60",
+        "les-av-tallinjen-60-til-100",
+        "les-av-tallinjen-20-til-40"
       ]
     },
     {
       "base": "sett-ordene-i-riktig-rekkefolge",
       "variations": [
         "sett-ordene-i-rekkefolge-med-hjelp",
-        "sett-ordene-i-rekkefolge-uten-hjelp"
+        "sett-ordene-i-rekkefolge-uten-hjelp",
+        "sett-ordene-i-rekkefolge-bare-skilletegnet"
       ]
     },
     {
       "base": "stor-bokstav-og-punktum",
       "variations": [
         "stor-bokstav-og-riktig-skilletegn",
-        "stor-bokstav-navn-og-skilletegn"
+        "stor-bokstav-navn-og-skilletegn",
+        "stor-bokstav-hvor-slutter-setningen",
+        "stor-bokstav-punktum-eller-sporsmalstegn"
       ]
     },
     {
@@ -3714,7 +4070,9 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "substantiv-verb-og-adjektiv-9-ord",
         "substantiv-verb-og-adjektiv-uten-bilder",
-        "substantiv-verb-og-adjektiv-15-ord"
+        "substantiv-verb-og-adjektiv-15-ord",
+        "substantiv-og-verb-to-bokser",
+        "substantiv-og-adjektiv-to-bokser"
       ]
     },
     {
@@ -3734,7 +4092,8 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "les-kalenderen-fire-sporsmal",
         "les-kalenderen-en-uke-senere",
-        "les-kalenderen-ukedagene"
+        "les-kalenderen-ukedagene",
+        "les-kalenderen-hvor-mange-dager-etter"
       ]
     },
     {
@@ -3748,7 +4107,8 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "base": "koordinater-i-rutenett",
       "variations": [
         "koordinater-i-rutenett-6x6",
-        "koordinater-i-rutenett-10x10"
+        "koordinater-i-rutenett-10x10",
+        "koordinater-i-rutenett-skriv-koden"
       ]
     },
     {
@@ -3978,7 +4338,10 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "jaljenna-lyhyet-sanat-hedelmat",
         "jaljenna-kerran-kirjoita-kahdesti-ajoneuvot",
-        "jaljenna-pitkat-sanat-lelut"
+        "jaljenna-pitkat-sanat-lelut",
+        "kopioi-sana-ilman-katkoviivoja",
+        "jaljenna-sanat-isoin-kirjaimin",
+        "kopioi-isot-kirjaimet"
       ]
     },
     {
@@ -3986,7 +4349,13 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "yhdista-pisteet-1-10",
         "yhdista-pisteet-11-20",
-        "yhdista-pisteet-11-30"
+        "yhdista-pisteet-11-30",
+        "yhdista-pisteet-takaperin-10-1",
+        "yhdista-pisteet-kahden-valein",
+        "yhdista-pisteet-takaperin-20-1",
+        "yhdista-pisteet-viiden-valein",
+        "yhdista-pisteet-aakkosjarjestyksessa",
+        "yhdista-pisteet-kymmenen-valein"
       ]
     },
     {
@@ -4001,14 +4370,18 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "base": "yksikko-ja-monikko-esikoulu",
       "variations": [
         "yksikko-ja-monikko-lyhyet-sanat",
-        "yksikko-ja-monikko-pitkat-sanat"
+        "yksikko-ja-monikko-pitkat-sanat",
+        "yksikko-ja-monikko-kirjoita-monikko",
+        "yksikko-ja-monikko-jaljenna-yksikko",
+        "yksikko-ja-monikko-kirjoita-yksikko"
       ]
     },
     {
       "base": "yksi-vai-monta",
       "variations": [
         "yksi-vai-monta-nelja-kuvakorttia",
-        "yksi-vai-monta-kahdeksan-kuvakorttia"
+        "yksi-vai-monta-kahdeksan-kuvakorttia",
+        "yksi-vai-monta-lajittele-sanat"
       ]
     },
     {
@@ -4031,7 +4404,11 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "kirjoita-sana-alkukirjain-valmiina",
         "kirjoita-sana-sanapankin-avulla",
-        "kirjoita-sana-ilman-sanapankkia"
+        "kirjoita-sana-ilman-sanapankkia",
+        "kirjoita-sana-vain-alkukirjaimen-avulla",
+        "kirjoita-sana-sanapankki-ja-kirjainruudut",
+        "kirjoita-sana-kirjainruudut-ja-alkukirjain",
+        "kirjoita-sana-kaikki-vihjeet"
       ]
     },
     {
@@ -4047,14 +4424,23 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "lukupyramidi-10-asti",
         "lukupyramidi-nelja-kerrosta",
-        "lukupyramidi-puuttuva-tiili"
+        "lukupyramidi-puuttuva-tiili",
+        "lukupyramidi-ylhaalta-alaspain",
+        "lukupyramidi-100-asti"
       ]
     },
     {
       "base": "tuplaa-ja-puolita",
       "variations": [
         "tuplaa-ja-puolita-kuvien-avulla",
-        "tuplaa-ja-puolita-20-asti"
+        "tuplaa-ja-puolita-20-asti",
+        "tuplaa-ja-puolita-isot-ryhmat",
+        "tuplaa-kuvaryhmat-14-asti",
+        "puolita-kuvaryhmat-12-asti",
+        "tuplaa-kuvaryhmat-20-asti",
+        "puolita-kuvaryhmat-20-asti",
+        "tuplaa-luvut-ilman-kuvia",
+        "puolita-luvut-ilman-kuvia"
       ]
     },
     {
@@ -4067,21 +4453,27 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "lukusuora-0-50-viiden-valein",
         "lukusuora-0-100-viiden-valein",
         "lukusuora-0-100-kymmenen-valein",
-        "lukusuora-0-120-yli-sadan"
+        "lukusuora-0-120-yli-sadan",
+        "lukusuora-40-60",
+        "lukusuora-60-100",
+        "lukusuora-20-40"
       ]
     },
     {
       "base": "jarjesta-sanat-lauseeksi",
       "variations": [
         "jarjesta-lause-vihjeet-mukana",
-        "jarjesta-lause-ilman-vihjeita"
+        "jarjesta-lause-ilman-vihjeita",
+        "jarjesta-lause-vain-lopetusmerkki"
       ]
     },
     {
       "base": "iso-alkukirjain-ja-piste",
       "variations": [
         "korjaa-lause-iso-alkukirjain-ja-lopetusmerkki",
-        "korjaa-lause-valitse-lopetusmerkki"
+        "korjaa-lause-valitse-lopetusmerkki",
+        "erota-kaksi-lausetta",
+        "erota-lauseet-piste-vai-kysymysmerkki"
       ]
     },
     {
@@ -4089,7 +4481,9 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "sanaluokat-yhdeksan-sanaa",
         "sanaluokat-ilman-kuvia",
-        "sanaluokat-viisitoista-sanaa"
+        "sanaluokat-viisitoista-sanaa",
+        "substantiivit-ja-verbit",
+        "substantiivit-ja-adjektiivit"
       ]
     },
     {
@@ -4109,7 +4503,8 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "variations": [
         "kalenterin-lukeminen-nelja-kysymysta",
         "kalenterin-lukeminen-kiireinen-kuukausi",
-        "kalenteri-ja-viikonpaivat"
+        "kalenteri-ja-viikonpaivat",
+        "kalenteri-paivien-laskeminen"
       ]
     },
     {
@@ -4123,7 +4518,8 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
       "base": "koordinaatit-ruudukossa",
       "variations": [
         "koordinaatit-6x6-ruudukossa",
-        "koordinaatit-10x10-ruudukossa"
+        "koordinaatit-10x10-ruudukossa",
+        "koordinaatit-kirjoita-koodit"
       ]
     },
     {

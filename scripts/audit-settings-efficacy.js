@@ -499,7 +499,7 @@ function pageBoot(state, poison) {
      effect only appears once the child DOES something has a chance to
      show itself. Deliberately ordered and capped — a random walk would
      defeat the control. */
-  window.__exercise = function (max, gap) {
+  window.__exercise = function (max, gap, skip) {
     var stage = document.querySelector('.lcs-stage') || document.querySelector('.lcs-app');
     if (!stage) return 0;
     var hit = 0;
@@ -507,6 +507,12 @@ function pageBoot(state, poison) {
       stage.querySelectorAll('button, [role="button"], [tabindex]'),
       function (e) {
         var r = e.getBoundingClientRect();
+        /* ⚠ NEVER CLICK SOMETHING THAT NAVIGATES. hush-owl carries a link
+           in its stage; following it destroyed the execution context and
+           the harness reported the exception as a tool FAILURE — the gate
+           accusing the tool of a fault that was entirely its own. */
+        if (e.tagName === 'A' && e.getAttribute('href')) return false;
+        if (skip && skip.indexOf(e.className || e.tagName) > -1) return false;
         return r.width > 0 && r.height > 0 && !e.disabled && !e.closest('.lcs-drawer') && !e.closest('.lcs-controls');
       });
     /* ⚠ ONE OF EACH KIND, NOT THE FIRST N OF ONE KIND. Taking candidates
@@ -597,18 +603,31 @@ async function openPage(browser, surface, state, PORT) {
   await page.setViewport({ width: 1024, height: 900 });
   await page.setCacheEnabled(false);
   await page.setRequestInterception(true);
-  page.on('request', (r) => r.url().includes('/api/auth/me')
-    ? r.respond({
+  /* ⚠ PIN THE PAGE. Some tools carry controls that legitimately RELOAD
+     themselves — hush-owl's corner and compact modes rewrite the embed
+     query param and set location.href (:550, :768). Clicking one during
+     the exercise destroyed the execution context, and the harness printed
+     its own exception as a tool FAILURE. Aborting main-frame navigations
+     after the initial load protects every such tool generically, instead
+     of blacklisting the one that happened to surface it. */
+  let loaded = false;
+  page.on('request', (r) => {
+    if (r.url().includes('/api/auth/me')) {
+      return r.respond({
         status: 200, contentType: 'application/json',
         body: JSON.stringify(state.premium
           ? { user: { subscriptionTier: 'full' }, subscription: { status: 'active' } }
           : { user: { subscriptionTier: 'free' }, subscription: null })
-      })
-    : r.continue());
+      });
+    }
+    if (loaded && r.isNavigationRequest() && r.frame() === page.mainFrame()) return r.abort();
+    return r.continue();
+  });
   await page.evaluateOnNewDocument(pageBoot, state, POISON);
   await page.goto(`http://127.0.0.1:${PORT}${surface.url}`, { waitUntil: 'domcontentloaded' });
   await page.waitForSelector('.lcs-app', { timeout: 12000 });
   await wait(950);   /* async manifest / theme fetches settle */
+  loaded = true;
   return page;
 }
 
@@ -665,16 +684,30 @@ async function trace(browser, surface, state, PORT, sets, key, probe, pace) {
     await page.evaluate(() => window.__closeDrawer());
     await wait(120);
     const atRest = await settledSig(page);
-    await page.evaluate((n, g) => window.__exercise(n, g), EXERCISE, pace || 0);
-    await wait(SETTLE);
-    if (probe && probe.finalClick) {
-      await page.evaluate((sel) => {
-        const e = document.querySelector(sel);
-        if (e && !e.disabled) e.click();
-      }, probe.finalClick);
+    /* ⚠ KEEP THE PHASE ALREADY MEASURED WHEN THE PAGE DIES UNDER YOU. A
+       setting change can put a tool into a mode whose whole surface is a
+       reload control — hush-owl's compact wrapper (:549) — so the
+       discovery pass, which runs on the DEFAULT state, cannot know about
+       it. Losing the after-use phase is not a reason to throw away the
+       at-rest phase, and it is certainly not a reason to report the tool
+       as failing. Per-phase stability then treats after-use as
+       unreadable, which is exactly what it is. */
+    let afterUse = null;
+    try {
+      await page.evaluate((n, g, sk) => window.__exercise(n, g, sk), EXERCISE, pace || 0, NAV_SKIP[surface.id] || []);
       await wait(SETTLE);
+      if (probe && probe.finalClick) {
+        await page.evaluate((sel) => {
+          const e = document.querySelector(sel);
+          if (e && !e.disabled) e.click();
+        }, probe.finalClick);
+        await wait(SETTLE);
+      }
+      afterUse = await settledSig(page);
+    } catch (e) {
+      if (!/Execution context was destroyed|Target closed|detached/i.test(String((e && e.message) || e))) throw e;
+      return { atRest, afterUse: null, stuck: null, navDied: true };
     }
-    const afterUse = await settledSig(page);
     let stuck = null;
     if (key) {
       const before = await page.evaluate((g, k) => window.__value(g, k), surface.global, key);
@@ -687,6 +720,65 @@ async function trace(browser, surface, state, PORT, sets, key, probe, pace) {
     }
     return { atRest, afterUse, stuck };
   } finally { await page.close(); }
+}
+
+/* ⚠ SOME TOOL CONTROLS RELOAD THE TOOL, BY DESIGN. hush-owl's compact and
+   corner modes rewrite the embed query param and set location.href
+   (:550, :768). Clicking one mid-exercise destroys the execution context,
+   and the harness reported its own exception as a tool FAILURE. Aborting
+   the navigation does not help — the renderer tears the context down
+   before the abort lands — and `location` cannot be redefined in-page
+   (measured: "Cannot redefine property"), nor does a beforeunload guard
+   save it (measured: survives, but on chrome-error://).
+   So the harness LEARNS which control is unsafe instead of carrying a
+   blacklist: one pass per surface, clicking candidates one at a time from
+   Node so the index is known when the page dies. Derived, not registered
+   — a new tool with a reloading control needs no entry anywhere. */
+const NAV_SKIP = {};
+async function discoverNavUnsafe(browser, surface, state, PORT) {
+  const skip = [];
+  let idx = 0;
+  for (let guard = 0; guard < 24; guard++) {
+    let page;
+    try { page = await openPage(browser, surface, state, PORT); } catch (_) { break; }
+    let names;
+    try {
+      names = await page.evaluate((sk) => {
+        const st = document.querySelector('.lcs-stage') || document.querySelector('.lcs-app');
+        if (!st) return [];
+        return Array.prototype.filter.call(st.querySelectorAll('button, [role="button"], [tabindex]'), (e) => {
+          const r = e.getBoundingClientRect();
+          if (e.tagName === 'A' && e.getAttribute('href')) return false;
+          if (sk.indexOf(e.className || e.tagName) > -1) return false;
+          return r.width > 0 && r.height > 0 && !e.disabled && !e.closest('.lcs-drawer') && !e.closest('.lcs-controls');
+        }).map((e) => e.className || e.tagName);
+      }, skip);
+    } catch (_) { try { await page.close(); } catch (_) {} break; }
+    if (idx >= names.length) { await page.close(); break; }
+    let died = false;
+    try {
+      await page.evaluate((i, sk) => {
+        const st = document.querySelector('.lcs-stage') || document.querySelector('.lcs-app');
+        const c = Array.prototype.filter.call(st.querySelectorAll('button, [role="button"], [tabindex]'), (e) => {
+          const r = e.getBoundingClientRect();
+          if (e.tagName === 'A' && e.getAttribute('href')) return false;
+          if (sk.indexOf(e.className || e.tagName) > -1) return false;
+          return r.width > 0 && r.height > 0 && !e.disabled && !e.closest('.lcs-drawer') && !e.closest('.lcs-controls');
+        });
+        if (c[i]) c[i].click();
+      }, idx, skip);
+      await wait(220);
+      await page.evaluate(() => document.querySelectorAll('*').length);
+    } catch (e) {
+      if (/Execution context was destroyed|Target closed|detached/i.test(String(e.message || e))) died = true;
+      else throw e;
+    }
+    if (died) { skip.push(names[idx]); idx = 0; }
+    else idx++;
+    try { await page.close(); } catch (_) {}
+    if (idx > names.length) break;
+  }
+  return skip;
 }
 
 /* ================================================================ audit */
@@ -739,6 +831,11 @@ async function auditSurface(browser, surface, state, PORT) {
   if (!probe.board || probe.board.length < 40) { vac(`${tag}: the board signature is empty — this run measured nothing`); return; }
   if (fields.length !== schema.settings.length) return;
 
+  /* learn, once, which stage controls navigate the tool away */
+  NAV_SKIP[surface.id] = await discoverNavUnsafe(browser, surface, state, PORT);
+  if (NAV_SKIP[surface.id].length)
+    console.log(`  note      not driving ${JSON.stringify(NAV_SKIP[surface.id])} — clicking it reloads the tool`);
+
   /* ---------------------- efficacy, per field ---------------------- */
   for (let i = 0; i < schema.settings.length; i++) {
     const f = schema.settings[i];
@@ -751,19 +848,33 @@ async function auditSurface(browser, surface, state, PORT) {
     const n1 = await trace(browser, surface, state, PORT, [{ field: i, opt: null }], null, probe);
     const n2 = await trace(browser, surface, state, PORT, [{ field: i, opt: null }], null, probe);
     if (!n1 || !n2) { vac(`${tag}: ${name} could not be driven — no chip or switch answered`); continue; }
-    let stable = sameTrace(n1.atRest, n2.atRest) && sameTrace(n1.afterUse, n2.afterUse);
+    /* ⚠⚠ STABILITY IS PER-PHASE, AND COLLAPSING THE TWO MADE THE GATE
+       FLAKY. Requiring the at-rest AND after-use controls to agree meant
+       one churning phase discarded the other phase's perfectly good
+       evidence: baking-tray's fiveGroove read LIVE on its own and
+       UNPROVEN inside the sweep, from the same code, which is the kind of
+       result that teaches people to re-run a gate until it agrees with
+       them. A phase whose control is stable can be trusted on its own
+       terms; only a phase that churns has to be set aside. */
+    let restStable = sameTrace(n1.atRest, n2.atRest);
+    let useStable = sameTrace(n1.afterUse, n2.afterUse);
     let pace = 0;
     /* ⚠ ONE SLOW RETRY BEFORE GIVING UP. Churn is usually the harness's
        own doing — clicks outrunning a tap-lock — and a field we cannot
        read is a field we cannot answer the operator's question about. */
-    if (!stable) {
+    if (!restStable || !useStable) {
       const s1 = await trace(browser, surface, state, PORT, [{ field: i, opt: null }], null, probe, 400);
       const s2 = await trace(browser, surface, state, PORT, [{ field: i, opt: null }], null, probe, 400);
-      if (s1 && s2 && sameTrace(s1.atRest, s2.atRest) && sameTrace(s1.afterUse, s2.afterUse)) {
-        stable = true; pace = 400; n1.atRest = s1.atRest; n1.afterUse = s1.afterUse;
+      if (s1 && s2) {
+        const r = sameTrace(s1.atRest, s2.atRest), u = sameTrace(s1.afterUse, s2.afterUse);
+        if ((r && !restStable) || (u && !useStable)) {
+          pace = 400;
+          if (r) { restStable = true; n1.atRest = s1.atRest; }
+          if (u) { useStable = true; n1.afterUse = s1.afterUse; }
+        }
       }
     }
-    if (!stable) {
+    if (!restStable && !useStable) {
       const excused = (KNOWN_UNPROVABLE[surface.id] || {})[f.key];
       if (excused) { ok(`${tag}: ${name} excused — ${excused}`); continue; }
       unk(`${tag}: ${name} — re-committing the SAME value twice gives two different boards (${whichChannel(n1.atRest, n2.atRest)}/${whichChannel(n1.afterUse, n2.afterUse)}); this tool churns under re-render, so a diff here would prove nothing`);
@@ -777,8 +888,8 @@ async function auditSurface(browser, surface, state, PORT) {
       if (fields[i].chips && o === fields[i].checked) continue;   /* that is the null transition */
       const t = await trace(browser, surface, state, PORT, [{ field: i, opt: o }], schema.hasTasks ? f.key : null, probe, pace);
       if (!t) continue;
-      if (!sameTrace(n1.atRest, t.atRest)) live = { how: 'at rest', ch: whichChannel(n1.atRest, t.atRest), t };
-      else if (!sameTrace(n1.afterUse, t.afterUse)) live = { how: 'after use', ch: whichChannel(n1.afterUse, t.afterUse), t };
+      if (restStable && !sameTrace(n1.atRest, t.atRest)) live = { how: 'at rest', ch: whichChannel(n1.atRest, t.atRest), t };
+      else if (useStable && !sameTrace(n1.afterUse, t.afterUse)) live = { how: 'after use', ch: whichChannel(n1.afterUse, t.afterUse), t };
     }
 
     /* paired depth — a field can be genuinely unable to act until a
@@ -798,8 +909,8 @@ async function auditSurface(browser, surface, state, PORT) {
             if (fields[i].chips && oi === fields[i].checked) continue;
             const t = await trace(browser, surface, state, PORT, [{ field: j, opt: oj }, { field: i, opt: oi }], null, probe, pace);
             if (!t) continue;
-            if (!sameTrace(base.atRest, t.atRest)) { live = { how: 'after ' + schema.settings[j].key, ch: whichChannel(base.atRest, t.atRest), t }; break outer; }
-            if (!sameTrace(base.afterUse, t.afterUse)) { live = { how: 'after ' + schema.settings[j].key, ch: whichChannel(base.afterUse, t.afterUse), t }; break outer; }
+            if (restStable && !sameTrace(base.atRest, t.atRest)) { live = { how: 'after ' + schema.settings[j].key, ch: whichChannel(base.atRest, t.atRest), t }; break outer; }
+            if (useStable && !sameTrace(base.afterUse, t.afterUse)) { live = { how: 'after ' + schema.settings[j].key, ch: whichChannel(base.afterUse, t.afterUse), t }; break outer; }
           }
         }
       }
@@ -817,8 +928,14 @@ async function auditSurface(browser, surface, state, PORT) {
       }
     } else if (excused) {
       ok(`${tag}: ${name} excused — ${excused}`);
+    } else if (!restStable || !useStable) {
+      /* ⚠ DEAD MEANS "IT MOVED NOTHING ANYWHERE I COULD LOOK", AND THAT
+         SENTENCE IS ONLY HONEST IF EVERY PHASE WAS READABLE. With one
+         phase churning, silence in the other is not evidence of death. */
+      unk(`${tag}: ${name} moved nothing in the ${restStable ? 'at-rest' : 'after-use'} phase, but the ${restStable ? 'after-use' : 'at-rest'} phase churns, so it cannot be called dead`);
+      findings.push({ surface: surface.id, state: state.id, key: f.key, verdict: 'UNPROVEN-PARTIAL' });
     } else {
-      bad(`${tag}: ${name} CHANGES NOTHING outside the drawer — not at rest, not after use, not paired with any other field, on a control whose null transition is provably stable`);
+      bad(`${tag}: ${name} CHANGES NOTHING outside the drawer — not at rest, not after use, not paired with any other field, on a control whose null transition is provably stable in both phases`);
       findings.push({ surface: surface.id, state: state.id, key: f.key, verdict: 'DEAD' });
     }
   }
@@ -841,7 +958,15 @@ async function auditSurface(browser, surface, state, PORT) {
     if (!s.global) { vac(`${s.id}: could not read the LCS.mount global from ${s.html}`); continue; }
     for (const st of STATES) {
       try { await auditSurface(browser, s, st, PORT); }
-      catch (e) { bad(`${s.id} · ${st.id}: ${String(e && e.message || e).slice(0, 200)}`); }
+      catch (e) {
+        const msg = String((e && e.message) || e);
+        /* a harness fault is not a tool fault, and must never be printed
+           as one — but it must never be silent either */
+        if (/Execution context was destroyed|Target closed|Session closed|detached/i.test(msg))
+          { vac(`${s.id} · ${st.id}: the harness lost the page (${msg.slice(0, 80)}) — this surface was NOT measured`); if (process.argv.includes('--debug')) console.error(e && e.stack); }
+        else bad(`${s.id} · ${st.id}: ${msg.slice(0, 200)}`);
+        if (process.argv.includes('--debug')) console.error(e && e.stack);
+      }
     }
   }
   await browser.close();

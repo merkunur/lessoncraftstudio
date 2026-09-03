@@ -22,6 +22,13 @@ var ACTIVITY_STRINGS = {
   taskHowMany:  {en:'How many?',de:'Wie viele?',fr:'Combien ?',it:'Quanti?',es:'¿Cuántos?',pt:'Quantos?',nl:'Hoeveel?',sv:'Hur många?',da:'Hvor mange?',no:'Hvor mange?',fi:'Kuinka monta?'},
   hintAddMore:  {en:'Add more',de:'Mehr hinzufügen',fr:'Ajoute encore',it:'Aggiungi ancora',es:'Añade más',pt:'Adicione mais',nl:'Voeg meer toe',sv:'Lägg till fler',da:'Tilføj flere',no:'Legg til flere',fi:'Lisää enemmän'},
   hintTakeAway: {en:'Take some away',de:'Weniger nehmen',fr:'Enlève quelques-uns',it:'Togli qualcuno',es:'Quita algunos',pt:'Tire alguns',nl:'Haal er een paar weg',sv:'Ta bort några',da:'Fjern nogle',no:'Ta bort noen',fi:'Poista joitakin'},
+  /* The fourth counter shape, offered only on the themed rows. Every noun
+     below is the one that locale's own native panel already chose for a
+     picture in a K-3 manipulative — sound-boxes `showImage` and
+     letter-tiles `pictureAlphabet` — so this is the shipped lexicon, not
+     eleven fresh translations of an English word. nl keeps the child-facing
+     diminutive `Plaatje` for the same reason its siblings do. */
+  shapePicture: {en:'Picture',de:'Bild',fr:'Image',it:'Immagine',es:'Imagen',pt:'Imagem',nl:'Plaatje',sv:'Bild',da:'Billede',no:'Bilde',fi:'Kuva'},
   /* represent-operation template (K.OA.A.1) prompts. EN base-locale now; the
      10-locale fan-out adds entries per §A.13.48. {a}/{b} are language-neutral
      numerals. taskRepresentAdd → place a+b counters (first a one colour, next b
@@ -159,6 +166,13 @@ var TenFrameActivity = Object.assign({}, TenFrameCore, {
     var pool = themeManifest && themeManifest.themes && themeManifest.themes[themeKey];
     if (!pool || !pool.color_verified || !pool.keys || !pool.keys.length) return;
     this._imagePool = pool;
+    /* Seed the row's true shape. The board has always drawn pictures here;
+       until now that state had no name, so the drawer opened claiming
+       "Dot" over a frame full of cats. Setting it makes the chip that is
+       highlighted the chip that is showing — and, because the getter adds
+       the option only once `_imagePool` is set, the value is always one of
+       the declared options rather than an orphan the drawer cannot mark. */
+    if (this.api && this.api.settings) this.api.settings.shape = 'picture';
     var srcPattern = pool.src_pattern;   // e.g., '/image-library-webp/themes/animals/{key}@2x.webp'
     /* Register an 'image' token shape on the shell. The shell calls
        registered token functions as fn(color, size) — so for an image
@@ -173,18 +187,44 @@ var TenFrameActivity = Object.assign({}, TenFrameCore, {
       return '<img src="' + src + '" width="' + px + '" height="' + px +
              '" alt="' + key + '" loading="lazy" style="object-fit:contain;display:block;">';
     });
-    /* Override paint() to use image tokens cycling through the pool. The
-       shape setting is ignored when an image theme is active. */
+    /* ⚠⚠ THIS OVERRIDE IS WHY "COUNTER SHAPE" DID NOTHING. It used to
+       REPLACE paint() outright and hard-code the image token, so on every
+       themed row `s.shape` and `s.color` were read nowhere: the operator
+       set Heart, the board kept drawing cats, and the drawer went on
+       saying Dot. `origPaint` was captured on the line below and never
+       called — the fallback was written and then not wired.
+       It is a BRANCH now, and `picture` is a real, selectable shape
+       (see the settings getter at the foot of this file). Delegating for
+       the other three restores, for free, three things the wholesale copy
+       had silently dropped: the colour read, the `dataset.color`
+       dirty-check (core :147), and the splitAt/splitColor two-colour
+       addend split that a future themed represent-operation row would
+       have needed. A fix that only handled shape would have left those. */
     var origPaint = TenFrameCore.paint;
     var self = this;
     this.paint = function () {
       var s = this.api.settings;
+      if (s.shape !== 'picture') return origPaint.call(this);
       var emptyWord = this.api.t('empty'), filledWord = this.api.t('filled');
       for (var k = 0; k < this.cells.length; k++) {
         var cell = this.cells[k], ord = +cell.dataset.ord, filled = ord <= this.count;
         if (filled) {
-          if (!cell.classList.contains('filled')) {
+          /* ⚠ THE STALENESS KEY IS LOAD-BEARING, and its absence would
+             have shipped a second shape defect inside the fix. Coming
+             back from `star` the cell is ALREADY `filled`, so a guard on
+             the class alone leaves the star sitting there. The core
+             solves the same problem with `dataset.color`; this is the
+             same idea keyed on the shape. It matters on the setCount()
+             path, which repaints without rebuilding the stage.
+             ⚠ BOTH DIRECTIONS, or the fix is half a fix. `dataset.color`
+             present means the CORE painted this cell last, so a leftover
+             `dataset.shape` from an earlier picture pass cannot be trusted
+             on its own — without the colour clause, dot→picture silently
+             keeps the dot. */
+          if (!cell.classList.contains('filled') || cell.dataset.shape !== 'picture' || cell.dataset.color) {
             cell.classList.add('filled');
+            cell.dataset.shape = 'picture';
+            delete cell.dataset.color;          /* so the core repaints on the way back */
             var key = self._imagePool.keys[k % self._imagePool.keys.length];
             cell.innerHTML = this.api.token('image', key, 56);
           }
@@ -341,6 +381,72 @@ var TenFrameActivity = Object.assign({}, TenFrameCore, {
       });
     }
     return STATIC_DEMO_TASKS;
+  }
+});
+
+/* =====================================================================
+   THE DRAWER MUST DESCRIBE THIS ROW, NOT THE ENGINE IN GENERAL.
+   ---------------------------------------------------------------------
+   The core's four settings are right for the free-play manipulative and
+   wrong here in three different ways, and all three read to a teacher as
+   a broken control:
+
+     • FRAMES is not the teacher's to choose on an activity. The task owns
+       the capacity — a make-15 round needs two frames — and every
+       template's setup() writes `settings.frames` from the manifest, so
+       a pick made in the drawer was silently reverted on the next round.
+       A control that cannot hold should not be offered. It stays on
+       ten-frame.js, the free-play sibling, where the teacher really does
+       own it.
+
+     • SHOW NUMBER cannot act on a `how-many` row: hideReadout is forced
+       true there on purpose (the anti-answer-leak guard, core :159-172),
+       so the toggle is offered over a readout that is suppressed by
+       design. Offered nowhere it cannot act; kept everywhere it can.
+
+     • SHAPE gains PICTURE on the themed rows, which is what makes the
+       drawer able to tell the truth at all. Before this, the board drew
+       cats while the drawer said "Dot", because `picture` was not a
+       representable value — the state existed and no chip could name it.
+
+   ⚠ WHY A GETTER, AND NOT `this.settings = …` IN init(). The themed-ness
+   of a row is only known after two async fetches, which land AFTER
+   init(). The shell reads `tool.settings.length` at mount (:517) and
+   `tool.settings.forEach` when the gear is first clicked (:582), so a
+   getter is evaluated at both moments and always describes the row that
+   is actually loaded. Assigning in init() — the money-mat and
+   part-whole-frame pattern — cannot see the theme yet.
+   ⚠ AND IT MUST NOT BE A PUSH ONTO THE CORE'S ARRAY. `Object.assign`
+   copied `settings` BY REFERENCE, so mutating it would edit
+   TenFrameCore.settings itself and leak this row's chips into every
+   other mount on the page. Every array below is built fresh.
+   ⚠ Residual, recorded rather than hidden: the drawer is built once
+   (:638), so a gear opened in the ~30 ms before the manifest resolves
+   yields the pre-theme drawer for that session. It degrades honestly —
+   in that window the board is still drawing core dots, so drawer and
+   board agree — but it is a window, not a proof.
+   ===================================================================== */
+Object.defineProperty(TenFrameActivity, 'settings', {
+  configurable: true,
+  get: function () {
+    var row = this._activityRow;
+    var themed = !!(row && row.theme && this._imagePool);
+    var hidesReadout = !!(row && row.task_template === 'how-many');
+    var out = [];
+    for (var i = 0; i < TenFrameCore.settings.length; i++) {
+      var f = TenFrameCore.settings[i];
+      if (f.key === 'frames') continue;
+      if (f.key === 'showNumber' && hidesReadout) continue;
+      if (f.key === 'shape' && themed) {
+        out.push({
+          key: 'shape', type: 'choice', labelKey: f.labelKey,
+          options: [{ value: 'picture', labelKey: 'shapePicture' }].concat(f.options)
+        });
+        continue;
+      }
+      out.push(f);
+    }
+    return out;
   }
 });
 

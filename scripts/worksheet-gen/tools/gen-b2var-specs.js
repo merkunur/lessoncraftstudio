@@ -373,6 +373,21 @@ const ROWS = [
   ['g1', 'G1-293', 'word-classes-two-bins', 'G2-275-word-classes.js', 1,
     { classes: ['noun', 'verb'], per: 5, pics: true, tiers: [1], lines: 6 },
     'Naming Words and Doing Words', 'Two bins this time. Is each word a naming word or a doing word?'],
+
+  // word-tracing in block capitals. Glyph coverage MEASURED, not assumed:
+  // CORE_GLYPHS carries all 52 ASCII letters and COMPOSED carries Ä Ö Ü Å Á À Â
+  // É È Ê Ë Í Ó Ô Õ Ú Ù Ñ, with NEW_GLYPHS adding Æ Ø Ç ß — every capital any of
+  // the eleven locales needs has centreline stroke data. Height is safe too:
+  // strokeWordLane sizes on the ascender-to-baseline band (ascender 14) and
+  // capitals sit at capTop 16, SHORTER than an ascender, so caps cannot overflow
+  // a lane sized for lowercase.
+  ['k', 'K-310', 'word-tracing-capital-letters', 'K-284-word-tracing.js', 1, { case: 'upper' },
+    'Trace the Words in Capital Letters', 'Trace each word in big capital letters, then write it yourself.'],
+
+  // number-walls from the top down. Every shipped face gives the base and builds
+  // upward by addition; giving the apex inverts the operation to subtraction.
+  ['g1', 'G1-289', 'number-walls-from-the-top-down', 'G1-246-number-walls.js', 2, { topGiven: true },
+    'Number Walls: Start at the Top', 'The top brick is given and the bottom row is not. Work downwards.'],
 ];
 
 function emit(row) {

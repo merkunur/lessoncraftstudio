@@ -1766,5 +1766,149 @@
   "G3-376": {
     "title": "Verhaaltjessommen: alles door elkaar",
     "instruction": "Drie verhaaltjes: bedenk eerst wat elk verhaaltje vraagt."
+  },
+  "K-308": {
+    "title": "Van stip naar stip: terugtellen vanaf 10",
+    "instruction": "Tel terug van 10 naar 1; de rest van de tekening staat er al."
+  },
+  "G1-285": {
+    "title": "Van stip naar stip: tellen met tweetallen",
+    "instruction": "Alleen de tweetallen zijn genummerd; de rest is al getekend."
+  },
+  "G1-294": {
+    "title": "Van stip naar stip: terugtellen vanaf 20",
+    "instruction": "Hier zijn alle stippen genummerd en je telt helemaal terug."
+  },
+  "G2-304": {
+    "title": "Van stip naar stip: tellen met vijftallen",
+    "instruction": "Spring van vijf naar vijf langs de genummerde stippen."
+  },
+  "K-311": {
+    "title": "Woorden overschrijven: kijk en schrijf",
+    "instruction": "Kijk naar het woord op de kaart en schrijf het twee keer."
+  },
+  "G1-291": {
+    "title": "Schrijf het woord: alleen de beginletter",
+    "instruction": "Geen woordbank: alleen de eerste letter staat er al."
+  },
+  "G1-286": {
+    "title": "Verdubbelen en halveren met plaatjes tot 20",
+    "instruction": "Tel de grotere groepen, verdubbel en halveer ze."
+  },
+  "G2-305": {
+    "title": "Getallenlijn van 40 tot 60",
+    "instruction": "Deze lijn begint bij 40, dus tel verder vanaf het dichtstbijzijnde getal."
+  },
+  "G2-310": {
+    "title": "Getallenlijn van 60 tot 100",
+    "instruction": "Deze lijn begint pas bij 60, dus tel verder vanaf het getal ervoor."
+  },
+  "G1-295": {
+    "title": "Getallenlijn van 20 tot 40",
+    "instruction": "Deze getallenlijn begint bij 20, dus tel verder vanaf het getal ervoor."
+  },
+  "G1-287": {
+    "title": "Verdubbelen tot 14",
+    "instruction": "Op dit blad wordt alleen verdubbeld: schrijf het dubbele op."
+  },
+  "G1-288": {
+    "title": "Halveren tot 12",
+    "instruction": "Op dit blad wordt alleen gehalveerd: schrijf de twee gelijke delen."
+  },
+  "G1-296": {
+    "title": "Verdubbelen tot 20 met plaatjes",
+    "instruction": "Grotere groepen plaatjes om te verdubbelen, tot 20."
+  },
+  "G1-297": {
+    "title": "Halveren tot 20 met plaatjes",
+    "instruction": "Grotere groepen plaatjes om te halveren, tot 20."
+  },
+  "K-314": {
+    "title": "Enkelvoud en meervoud: het meervoud zelf schrijven",
+    "instruction": "Schrijf het meervoud zonder voorbeeld."
+  },
+  "G1-293": {
+    "title": "Woordsoorten: naamwoord of werkwoord",
+    "instruction": "Twee bakken: zelfstandig naamwoord of werkwoord?"
+  },
+  "K-310": {
+    "title": "Woorden overtrekken in hoofdletters",
+    "instruction": "Trek de hoofdletters na en schrijf het woord daarna zelf."
+  },
+  "G1-289": {
+    "title": "Rekenpiramide van boven naar beneden",
+    "instruction": "Hier is de top gegeven; werk naar beneden en trek af."
+  },
+  "K-313": {
+    "title": "Enkelvoud en meervoud: van meer naar één",
+    "instruction": "Nu is het meervoud gegeven: trek het enkelvoud na."
+  },
+  "G2-308": {
+    "title": "Coördinaten in het rooster: schrijf de codes",
+    "instruction": "De tekening is al gekleurd: schrijf zelf de codes erbij."
+  },
+  "K-309": {
+    "title": "Van stip naar stip: op alfabetische volgorde",
+    "instruction": "Verbind de letters op volgorde van het alfabet."
+  },
+  "G2-307": {
+    "title": "Hoofdletters: waar stopt de eerste zin?",
+    "instruction": "Twee zinnen aan elkaar: schrijf ze los met een punt."
+  },
+  "G1-292": {
+    "title": "De of het? Sorteer de woorden",
+    "instruction": "Hier zijn geen plaatjes: sorteer de woorden bij de en bij het."
+  },
+  "G1-298": {
+    "title": "Verdubbelen tot 20: alleen getallen",
+    "instruction": "Geen plaatjes om te tellen: schrijf het dubbele van elk getal."
+  },
+  "G1-299": {
+    "title": "Halveren tot 20: alleen getallen",
+    "instruction": "Geen plaatjes om te tellen: splits elk getal in twee gelijke delen."
+  },
+  "G1-300": {
+    "title": "Woordsoorten zonder plaatjes: twee bakken",
+    "instruction": "Twee bakken: zelfstandig of bijvoeglijk naamwoord?"
+  },
+  "G1-301": {
+    "title": "Schrijf het woord: woordbank en hokjes",
+    "instruction": "Zoek het woord in de woordbank; één letter per hokje."
+  },
+  "G2-311": {
+    "title": "Hoofdletters: twee zinnen, punt of vraagteken?",
+    "instruction": "Splits de twee zinnen; er zit ook een vraag tussen."
+  },
+  "G2-312": {
+    "title": "Kalender lezen: hoeveel dagen ertussen?",
+    "instruction": "Zoek de datums op de kalender en tel de dagen ertussen."
+  },
+  "G2-314": {
+    "title": "Van stip naar stip: tellen met tientallen",
+    "instruction": "Spring met tientallen van stip naar stip; de rest staat er al."
+  },
+  "K-315": {
+    "title": "Woorden overschrijven: hoofdletters",
+    "instruction": "Kijk naar de hoofdletters en schrijf het woord zelf op."
+  },
+  "K-316": {
+    "title": "Enkelvoud en meervoud: het enkelvoud zelf schrijven",
+    "instruction": "Lees het meervoud, schrijf het enkelvoud."
+  },
+  "G2-313": {
+    "title": "Rekenpiramide tot 100",
+    "instruction": "Vier lagen: de onderste rij is gegeven, tel naar boven op."
+  },
+  "G1-302": {
+    "title": "Husselzinnen: welk woord staat vooraan?",
+    "instruction": "Het leesteken staat er al, maar de hoofdletter niet."
+  },
+  "G1-303": {
+    "title": "Schrijf het woord: hokjes en beginletter",
+    "instruction": "Zonder woordbank, maar met beginletter en hokjes."
+  },
+  "G1-304": {
+    "title": "Schrijf het woord: alle hulp erbij",
+    "instruction": "De woordbank, de hokjes en de beginletter helpen je samen."
   }
 }

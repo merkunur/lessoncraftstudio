@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-304',
   slug: 'dot-to-dot-count-by-fives',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Dot-to-Dot: Count by Fives", instruction: "Ten numbered dots counting in fives; the rest of the outline is already drawn." } },
+  i18n: { en: { title: "Dot-to-Dot: Count by Fives", instruction: "Join the numbered dots in fives; the rest of the outline is already drawn." } },
 };

@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-309',
   slug: 'dot-to-dot-abc-order',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "ABC Dot-to-Dot", instruction: "Join the dots in alphabet order to find the hidden picture." } },
+  i18n: { en: { title: "ABC Dot-to-Dot", instruction: "Join the dots in alphabet order, from a to t, to find the picture." } },
 };

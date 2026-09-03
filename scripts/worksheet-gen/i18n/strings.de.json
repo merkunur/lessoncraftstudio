@@ -1766,5 +1766,149 @@
   "G3-376": {
     "title": "Sachaufgaben: drei gemischte Aufgaben",
     "instruction": "Drei Geschichten: mal oder geteilt?"
+  },
+  "K-308": {
+    "title": "Von Punkt zu Punkt: rückwärts von 10",
+    "instruction": "Nur zehn Punkte tragen eine Zahl, von 10 bis 1."
+  },
+  "G1-285": {
+    "title": "Von Punkt zu Punkt in Zweierschritten",
+    "instruction": "Zehn Punkte in Zweierschritten: 2 bis 20."
+  },
+  "G1-294": {
+    "title": "Von Punkt zu Punkt: rückwärts von 20",
+    "instruction": "Alle 20 Punkte tragen eine Zahl: von 20 bis 1."
+  },
+  "G2-304": {
+    "title": "Von Punkt zu Punkt in Fünferschritten",
+    "instruction": "In Fünferschritten von 5 bis 50, zehn Punkte."
+  },
+  "K-311": {
+    "title": "Wörter abschreiben",
+    "instruction": "Nichts ist gestrichelt: schreibe das Wort zweimal ab."
+  },
+  "G1-291": {
+    "title": "Bilder beschriften: erster Buchstabe",
+    "instruction": "Ohne Wortspeicher: nur der Anfang steht da."
+  },
+  "G1-286": {
+    "title": "Bilder verdoppeln und halbieren",
+    "instruction": "Größere Mengen: die Bilder reichen bis 20."
+  },
+  "G2-305": {
+    "title": "Zahlenstrahl von 40 bis 60",
+    "instruction": "Zählen ab null hilft nicht: der Strahl startet bei 40."
+  },
+  "G2-310": {
+    "title": "Zahlenstrahl von 60 bis 100",
+    "instruction": "Der Strahl beginnt bei 60; nur jede fünfte Zahl steht da."
+  },
+  "G1-295": {
+    "title": "Zahlenstrahl von 20 bis 40",
+    "instruction": "Dieser Strahl beginnt bei 20: jeder Strich ist eine Eins."
+  },
+  "G1-287": {
+    "title": "Nur Verdoppeln bis 14",
+    "instruction": "Nur Verdoppeln: zähle und schreibe das Doppelte."
+  },
+  "G1-288": {
+    "title": "Nur Halbieren bis 12",
+    "instruction": "Nur Halbieren: schreibe die beiden Hälften."
+  },
+  "G1-296": {
+    "title": "Nur Verdoppeln bis 20 mit Bildern",
+    "instruction": "Größere Mengen zum Verdoppeln bis 20."
+  },
+  "G1-297": {
+    "title": "Nur Halbieren bis 20 mit Bildern",
+    "instruction": "Größere Mengen zum Halbieren bis 20."
+  },
+  "K-314": {
+    "title": "Mehrzahl ohne Vorlage",
+    "instruction": "Ohne Vorlage: schreibe das Wort für viele selbst."
+  },
+  "G1-293": {
+    "title": "Nomen und Verben sortieren",
+    "instruction": "Zwei Kästen mit Bildern: Nomen oder Verb?"
+  },
+  "K-310": {
+    "title": "Wörter nachspuren: Großbuchstaben",
+    "instruction": "Jedes Wort steht hier in Großbuchstaben."
+  },
+  "G1-289": {
+    "title": "Zahlenmauern von oben nach unten",
+    "instruction": "Der Deckstein steht da: rechne nach unten."
+  },
+  "K-313": {
+    "title": "Von der Mehrzahl zur Einzahl",
+    "instruction": "Diesmal ist das Wort für viele schon gedruckt."
+  },
+  "G2-308": {
+    "title": "Koordinaten im Gitter aufschreiben",
+    "instruction": "Das Bild ist schon bunt: schreibe die Felder auf."
+  },
+  "K-309": {
+    "title": "Von Punkt zu Punkt nach dem ABC",
+    "instruction": "Statt Zahlen stehen Buchstaben da: von a bis t."
+  },
+  "G2-307": {
+    "title": "Wo endet der erste Satz?",
+    "instruction": "In jedem Kasten stecken zwei Sätze ohne Punkt."
+  },
+  "G1-292": {
+    "title": "Der, die oder das? Wörter sortieren",
+    "instruction": "Ohne Bilder: lies jedes Wort genau."
+  },
+  "G1-298": {
+    "title": "Verdoppeln bis 20 ohne Bilder",
+    "instruction": "Ohne Bilder: schreibe zu jeder Zahl das Doppelte."
+  },
+  "G1-299": {
+    "title": "Halbieren bis 20 ohne Bilder",
+    "instruction": "Ohne Bilder: teile jede Zahl in zwei Hälften."
+  },
+  "G1-300": {
+    "title": "Nomen und Adjektive sortieren",
+    "instruction": "Zwei Kästen, keine Bilder: Nomen oder Adjektiv?"
+  },
+  "G1-301": {
+    "title": "Bilder beschriften mit Kästchen",
+    "instruction": "Der Wortspeicher hilft dir beim Schreiben."
+  },
+  "G2-311": {
+    "title": "Zwei Sätze: Punkt oder Fragezeichen?",
+    "instruction": "Einer der beiden Sätze ist eine Frage."
+  },
+  "G2-312": {
+    "title": "Kalender lesen: Wie viele Tage später?",
+    "instruction": "Jede Frage geht um ein Datum oder um Tage."
+  },
+  "G2-314": {
+    "title": "Von Punkt zu Punkt in Zehnerschritten",
+    "instruction": "Zehn Zahlen in Zehnerschritten, 10 bis 100."
+  },
+  "K-315": {
+    "title": "Wörter abschreiben: Großbuchstaben",
+    "instruction": "Kein Nachspuren: schreibe zweimal ab."
+  },
+  "K-316": {
+    "title": "Einzahl ohne Vorlage",
+    "instruction": "Ohne Vorlage: schreibe das Wort für eins selbst."
+  },
+  "G2-313": {
+    "title": "Zahlenmauern bis 100",
+    "instruction": "Vier Reihen, und der Deckstein geht bis 100."
+  },
+  "G1-302": {
+    "title": "Schüttelsätze: Wo beginnt der Satz?",
+    "instruction": "Das Satzzeichen steht auf einem Kärtchen."
+  },
+  "G1-303": {
+    "title": "Kästchen und Anfangsbuchstabe",
+    "instruction": "Für jeden Buchstaben gibt es ein Kästchen."
+  },
+  "G1-304": {
+    "title": "Bilder beschriften mit allen Hilfen",
+    "instruction": "Wortspeicher, Kästchen und Anfang helfen."
   }
 }

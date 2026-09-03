@@ -86,7 +86,14 @@ module.exports = {
       const frames = new Set();
       const tokenize = (text) => {
         const raw = text.trim().split(/[   ]+/).filter(Boolean); const out = [];
-        for (const tok of raw) { if (/^[?!.¿¡…]+$/.test(tok) && out.length) out[out.length - 1] += ' ' + tok; else if (out.length && /^[¿¡]+$/.test(out[out.length - 1])) out[out.length - 1] += tok; else out.push(tok); }
+        // ⚠ The joiner MUST be NBSP, byte-identical to lib/sentence-bank.js tokenize.
+        // A gate that re-implements the thing it checks has to re-implement it EXACTLY:
+        // build joins a stand-alone end mark with U+00A0, this copy joined with U+0020, and
+        // French is the one locale whose bank writes a space before '?'. Measured: 33 of 40
+        // fr builds of the showEnd:true faces (G1-282, G1-302) carry a 'figues ?' tile, and
+        // every one of them failed QA on a CORRECT page. showEnd:false faces were clean only
+        // because the mark is stripped before the comparison.
+        for (const tok of raw) { if (/^[?!.¿¡…]+$/.test(tok) && out.length) out[out.length - 1] += '\u00a0' + tok; else if (out.length && /^[¿¡]+$/.test(out[out.length - 1])) out[out.length - 1] += tok; else out.push(tok); }
         return out;
       };
       lanes.forEach((lane, i) => {

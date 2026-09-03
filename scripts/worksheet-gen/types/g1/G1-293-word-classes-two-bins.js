@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-293',
   slug: 'word-classes-two-bins',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Naming Words and Doing Words", instruction: "Two bins this time. Is each word a naming word or a doing word?" } },
+  i18n: { en: { title: "Naming Words and Doing Words", instruction: "Two bins with pictures. Is each word a naming word or a doing word?" } },
 };

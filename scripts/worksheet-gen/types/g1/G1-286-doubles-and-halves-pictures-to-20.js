@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-286',
   slug: 'doubles-and-halves-pictures-to-20',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Doubles and Halves with Pictures to 20", instruction: "Count the bigger groups, double them, and halve them." } },
+  i18n: { en: { title: "Doubles and Halves with Pictures to 20", instruction: "Some cards ask you to double a group, and some ask you to halve one." } },
 };

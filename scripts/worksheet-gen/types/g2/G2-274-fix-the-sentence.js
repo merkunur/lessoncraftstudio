@@ -81,14 +81,27 @@ module.exports = {
       const nounText = SB.resolveNoun(bank, frame, { ...e, singular: displayWord(e.singular, loc, mode), plural: displayWord(e.plural, loc, mode) }, loc);
       const name = rng.sample(bank.names, 2); // array: a second {name} gets the second name
       const one = SB.fillFrame(frame.text, { name, noun: nounText, n: '', color: '' });
-      const two = pair[1] ? SB.fillFrame(pair[1].text, { name: rng.sample(bank.names, 2), noun: nounText, n: '', color: '' }) : null;
+      // ⚠ RESOLVE THE NOUN PER FRAME. `resolveNoun` keys on `frame.noun` (sg/pl),
+      // and reusing the first frame's resolution for the second produced an
+      // UNGRAMMATICAL model answer whenever the pair disagreed in number —
+      // measured on shipped seeds: es "Cada frambuesas tiene su lugar",
+      // "Mateo tiene dos kiwi", de "Lina malt Kamele fuer Mia",
+      // it "Lorenzo cerca tre cammelli". On the one page whose whole subject is
+      // writing a sentence correctly. Found by the Spanish panel.
+      const nounText2 = pair[1] ? SB.resolveNoun(bank, pair[1], { ...e, singular: displayWord(e.singular, loc, mode), plural: displayWord(e.plural, loc, mode) }, loc) : null;
+      const two = pair[1] ? SB.fillFrame(pair[1].text, { name: rng.sample(bank.names, 2), noun: nounText2, n: '', color: '' }) : null;
       const canonical = two ? one + ' ' + two : one;
       // ⚠ A GLOBAL mark strip, not the trailing-only one. SB.corrupt removes the
       // final mark; here the mark BETWEEN the two sentences is exactly what the
       // child has to restore, so it must go too. verify() re-derives the same
       // way under the same flag.
+      // ⚠ The opening sign must be stripped GLOBALLY too, not just at position 0.
+      // A Spanish question in SECOND position kept its inverted mark —
+      // "diego dibuja su ciruela para martin ¿quien tiene mi ciruela" — which
+      // marks exactly where the second sentence begins, i.e. gives away the whole
+      // task, and an opening sign with no closing one is not Spanish anyway.
       const broken = two
-        ? canonical.replace(/^[¿¡]+\s*/, '').replace(/[.?!…]/g, '').replace(/\s+/g, ' ').trim().toLocaleLowerCase(loc)
+        ? canonical.replace(/[¿¡]/g, '').replace(/[.?!…]/g, '').replace(/\s+/g, ' ').trim().toLocaleLowerCase(loc)
         : SB.corrupt(canonical, loc);
       return `<div class="ws-lane" style="display:grid;grid-template-columns:${d.icon}px 1fr;gap:12px;align-items:center;padding:10px 14px" data-lcs-item data-lcs-frame="${pair.map((f) => f.id).join('+')}"${d.joinPairs ? ' data-lcs-multi="1"' : ''} data-lcs-canonical="${canonical.replace(/"/g, '&quot;')}" data-lcs-end="${SB.endMark(canonical)}">` +
         `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" style="width:${d.icon}px;height:${d.icon}px">` +
@@ -121,7 +134,7 @@ module.exports = {
       // mark BETWEEN the two sentences must go too, so the child has to find where
       // the first one ends. The trailing-only form would leave that period visible
       // and the assertion below would fail a correct page.
-      const corruptAll = (s) => s.replace(/^[¿¡]+\s*/, '').replace(/[.?!…]/g, '').replace(/\s+/g, ' ').trim().toLocaleLowerCase(lang);
+      const corruptAll = (s) => s.replace(/[¿¡]/g, '').replace(/[.?!…]/g, '').replace(/\s+/g, ' ').trim().toLocaleLowerCase(lang);
       const lanes = [...document.querySelectorAll('[data-lcs-item]')];
       // Floor of 3, not 4. The name-free variant cannot reach four lanes in every
       // language: measured, the fix frames that carry no name number 10 in en but

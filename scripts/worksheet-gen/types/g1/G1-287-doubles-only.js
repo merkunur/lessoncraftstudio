@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-287',
   slug: 'doubles-only',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Doubles to 14", instruction: "Every card doubles a group. Say it, then write the answer." } },
+  i18n: { en: { title: "Doubles to 14", instruction: "Every card on this page doubles a group of pictures." } },
 };

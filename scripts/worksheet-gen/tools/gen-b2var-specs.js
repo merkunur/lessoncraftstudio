@@ -418,6 +418,12 @@ const ROWS = [
   ['g2', 'G2-307', 'fix-the-sentence-where-does-it-end', 'G2-274-fix-the-sentence.js', 2,
     { joinPairs: true, lanes: 3, ends: ['.'], needCaps: 1, rulH: 80 },
     'Fix the Sentence: Where Does It End?', 'Two sentences have run together. Write them again as two sentences.'],
+
+  // articles SORT: all the nouns against the same categories at once, read rather
+  // than named — there is no picture to lean on. A G1 id because reading printed
+  // words and copying them is not a Vorschule job.
+  ['g1', 'G1-292', 'articles-sort-the-words', 'K-288-articles.js', 3, { sortWords: true, cards: 8 },
+    'Sort the Words', 'Read every word. Write it under the word that belongs in front of it.'],
 ];
 
 function emit(row) {

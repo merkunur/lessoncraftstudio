@@ -31,7 +31,7 @@ const THEME = {
   // K-287 singular-plural (base ships fruits)
   'K-302': 'animals', 'K-303': 'vehicles', 'K-313': 'fruits', 'K-314': 'toys',
   // K-288 articles (base ships animals; sv/da/no ride fruits)
-  'K-306': 'animals', 'K-307': 'vehicles',
+  'K-306': 'animals', 'K-307': 'vehicles', 'G1-292': 'toys',
   // G1-242 read-and-color (BW only; base ships fruits bw)
   'G1-251': 'animals bw', 'G1-252': 'toys bw',
   // G1-244 write-the-word (base ships fruits)

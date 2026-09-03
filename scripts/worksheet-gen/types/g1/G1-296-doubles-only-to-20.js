@@ -1,4 +1,4 @@
-/** G1-296 — Doubles to 20. nt20-B-VAR variation of G1-247. */
+/** G1-296 — Doubles to 20 with Pictures. nt20-B-VAR variation of G1-247. */
 'use strict';
 const base = require('./G1-247-doubles-halves.js');
 // One object for all three levels: the waves ship d2 only, so a face must
@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-296',
   slug: 'doubles-only-to-20',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Doubles to 20", instruction: "Bigger groups to double, all the way to twenty." } },
+  i18n: { en: { title: "Doubles to 20 with Pictures", instruction: "Bigger groups to double, all the way to twenty." } },
 };

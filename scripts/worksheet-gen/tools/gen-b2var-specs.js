@@ -291,13 +291,13 @@ const ROWS = [
   // dot-to-dot: `step` is one line in K-285.build. dotFigure has always taken it
   // and verify has always checked labels AND strip chips against start + i*step.
   ['k',  'K-308', 'dot-to-dot-count-back-from-10', 'K-285-dot-to-dot.js', 1, { startAt: 10, step: -1 },
-    'Dot-to-Dot: Count Back from 10', 'Ten numbered dots to join backwards; the rest of the outline is already drawn.'],
+    'Dot-to-Dot: Count Back from 10', 'Join the numbered dots backwards from 10; the rest of the outline is already drawn.'],
   ['g1', 'G1-285', 'dot-to-dot-count-by-twos', 'K-285-dot-to-dot.js', 1, { startAt: 2, step: 2 },
-    'Dot-to-Dot: Count by Twos', 'Ten numbered dots counting in twos; the rest of the outline is already drawn.'],
+    'Dot-to-Dot: Count by Twos', 'Join the numbered dots in twos; the rest of the outline is already drawn.'],
   ['g1', 'G1-294', 'dot-to-dot-count-back-from-20', 'K-285-dot-to-dot.js', 1, { startAt: 20, step: -1, window: null },
     'Dot-to-Dot: Count Back from 20', 'Every dot is numbered here, and the whole way is backwards.'],
   ['g2', 'G2-304', 'dot-to-dot-count-by-fives', 'K-285-dot-to-dot.js', 1, { startAt: 5, step: 5 },
-    'Dot-to-Dot: Count by Fives', 'Ten numbered dots counting in fives; the rest of the outline is already drawn.'],
+    'Dot-to-Dot: Count by Fives', 'Join the numbered dots in fives; the rest of the outline is already drawn.'],
 
   // word-tracing: traceLane:false drops the dashed lane from the caption variant.
   ['k',  'K-311', 'word-tracing-copy-the-word', 'K-284-word-tracing.js', 3, { traceLane: false },
@@ -324,7 +324,7 @@ const ROWS = [
     //     band starting at 921 — the icon was never the dominant term, the pill
     //     and the 48px equation row were. Two columns halve the vertical demand
     //     instead of shaving it.
-    'Doubles and Halves with Pictures to 20', 'Count the bigger groups, double them, and halve them.'],
+    'Doubles and Halves with Pictures to 20', 'Some cards ask you to double a group, and some ask you to halve one.'],
 
   // number-lines: `min` is two lines in G1-248.build (plus the label test made
   // relative to min, which the render has always required). Every shipped face
@@ -353,18 +353,21 @@ const ROWS = [
   // at 6, not 7: at icon 40 a seven-icon non-wrapping row measures 316px inside a
   // ~320px card. Both stay inside verify's answer-in-1..20 band.
   ['g1', 'G1-287', 'doubles-only', 'G1-247-doubles-halves.js', 2, { ops: ['double'], cards: 6, dMin: 2, dMax: 7 },
-    'Doubles to 14', 'Every card doubles a group. Say it, then write the answer.'],
+    'Doubles to 14', 'Every card on this page doubles a group of pictures.'],
   ['g1', 'G1-288', 'halves-only', 'G1-247-doubles-halves.js', 2, { ops: ['half'], cards: 6, hMin: 1, hMax: 6 },
     'Halves to 12', 'Every card cuts a group in half. Write the two equal parts.'],
   ['g1', 'G1-296', 'doubles-only-to-20', 'G1-247-doubles-halves.js', 2, { ops: ['double'], cards: 6, dMin: 5, dMax: 10, icon: 28, perRow: 5 },
-    'Doubles to 20', 'Bigger groups to double, all the way to twenty.'],
+    'Doubles to 20 with Pictures', 'Bigger groups to double, all the way to twenty.'],
   ['g1', 'G1-297', 'halves-only-to-20', 'G1-247-doubles-halves.js', 2, { ops: ['half'], cards: 6, hMin: 5, hMax: 10, icon: 28, perRow: 5 },
-    'Halves to 20', 'Bigger groups to halve, starting from twenty.'],
+    'Halves to 20 with Pictures', 'Bigger groups of pictures to halve, all the way up to twenty.'],
 
+  // ⚠ rowH 166, not the inherited 172: four Dutch rows reached 940 against a
+  // footer band at 921. The no-model lane is no shorter than a dashed one, so
+  // the saving has to come from the row.
   // singular-plural: both shipped faces give the plural in dashed strokes to
   // trace. Removing the model turns a motor task into a recall task — the child
   // produces the ending from the singular and the crowd of pictures alone.
-  ['k', 'K-314', 'singular-plural-write-it-yourself', 'K-287-singular-plural.js', 3, { plurModel: false },
+  ['k', 'K-314', 'singular-plural-write-it-yourself', 'K-287-singular-plural.js', 3, { plurModel: false, rowH: 166 },
     'One and Many: Write It Yourself', 'No dashed letters this time. Write the word for many on the empty line.'],
 
   // word-classes two-bin entry rung. All three shipped faces are three-bin; a
@@ -372,7 +375,7 @@ const ROWS = [
   // because that is the band the CONTENT belongs to.
   ['g1', 'G1-293', 'word-classes-two-bins', 'G2-275-word-classes.js', 1,
     { classes: ['noun', 'verb'], per: 5, pics: true, tiers: [1], lines: 6 },
-    'Naming Words and Doing Words', 'Two bins this time. Is each word a naming word or a doing word?'],
+    'Naming Words and Doing Words', 'Two bins with pictures. Is each word a naming word or a doing word?'],
 
   // word-tracing in block capitals. Glyph coverage MEASURED, not assumed:
   // CORE_GLYPHS carries all 52 ASCII letters and COMPOSED carries Ä Ö Ü Å Á À Â
@@ -387,27 +390,27 @@ const ROWS = [
   // number-walls from the top down. Every shipped face gives the base and builds
   // upward by addition; giving the apex inverts the operation to subtraction.
   ['g1', 'G1-289', 'number-walls-from-the-top-down', 'G1-246-number-walls.js', 2, { topGiven: true },
-    'Number Walls: Start at the Top', 'The top brick is given and the bottom row is not. Work downwards.'],
+    'Number Walls: Start at the Top', 'The top brick is given this time. Work downwards and subtract.'],
 
   // singular-plural REVERSED. Both shipped faces run one -> many; going the other
   // way is the harder and more diagnostic direction, because the child removes an
   // ending rather than adding one, and that is where the misconceptions live.
   ['k', 'K-313', 'singular-plural-many-to-one', 'K-287-singular-plural.js', 1, { direction: 'toSingular' },
-    'Many and One', 'This time the word for many is given. Write the word for just one.'],
+    'Many and One', 'The word for many is given. Trace the word for just one.'],
 
   // grid-coordinates INVERSE: the picture is printed and the child writes the
   // codes — producing a coordinate rather than locating one. Sourced at 6x6
   // deliberately: those figures fill 18-25 cells (a page of writing) where the
   // 8x8 figures fill 29-36 (too much).
   ['g2', 'G2-308', 'grid-coordinates-write-the-codes', 'G2-279-grid-coordinates.js', 1, { inverse: true },
-    'Grid Coordinates: Write the Codes', 'The picture is already colored. Write the letter and number of every colored square.'],
+    'Grid Coordinates: Write the Codes', 'The picture is colored in. Write each square in the list for its color.'],
 
   // ABC dot-to-dot: the dots are joined in ALPHABET order, not number order — a
   // different ordering system and a genuine pre-K/K printable genre. The sequence
   // comes from each locale's own PRINTED strip, so Italian's 21 letters and the
   // Nordic ae/oe/aa are honoured rather than an a-z assumption.
   ['k', 'K-309', 'dot-to-dot-abc-order', 'K-285-dot-to-dot.js', 1, { letters: true, window: null, chip: 30 },
-    'ABC Dot-to-Dot', 'Join the dots in alphabet order to find the hidden picture.'],
+    'ABC Dot-to-Dot', 'Join the dots in alphabet order, from a to t, to find the picture.'],
 
   // run-on sentences: the broken pill holds TWO sentences joined, all marks
   // stripped, so the child must decide where the first one ENDS before
@@ -436,9 +439,9 @@ const ROWS = [
   // working panel. Every shipped doubles face puts a mirrored GROUP on the card,
   // so the answer is reachable by counting objects; these are the fact pages.
   ['g1', 'G1-298', 'doubles-only-numbers-to-20', 'G1-247-doubles-halves.js', 3, { ops: ['double'], cards: 8, dMin: 2, dMax: 10 },
-    'Doubles to 20', 'Write the double of each number.'],
+    'Doubles to 20: Just the Numbers', 'Write the double of each number. No pictures to count.'],
   ['g1', 'G1-299', 'halves-only-numbers-to-20', 'G1-247-doubles-halves.js', 3, { ops: ['half'], cards: 8, hMin: 2, hMax: 10 },
-    'Halves to 20', 'Split each number into two equal parts.'],
+    'Halves to 20: Just the Numbers', 'Split each number into two equal parts. No pictures to count.'],
 
   // noun vs ADJECTIVE is a different confusion from noun vs verb (the only
   // two-bin face shipped). pics:false also closes an answer leak the noun/verb
@@ -457,7 +460,7 @@ const ROWS = [
   // stop; G2-282 gives the boundary. This is the cell where neither is given.
   ['g2', 'G2-311', 'fix-the-sentence-two-sentences-one-mark', 'G2-274-fix-the-sentence.js', 2,
     { joinPairs: true, lanes: 3, ends: ['.', '?'], needQ: 1, needCaps: 1, rulH: 80 },
-    'Where Does It End?', 'Two sentences ran together. Split them and mark each one.'],
+    'Two Sentences: Full Stop or Question Mark?', 'Two sentences ran together, and one of them is a question.'],
 
   // intervals instead of lookup. `after` appears only inside d3's six-question
   // mix and has never been a page's subject.
@@ -468,7 +471,7 @@ const ROWS = [
   // the only face in the family that reaches 100, and not a subset of any
   // shipped label set. ⚠ chip 44 because a three-digit label needs the room.
   ['g2', 'G2-314', 'dot-to-dot-count-by-tens', 'K-285-dot-to-dot.js', 1, { startAt: 10, step: 10, chip: 44 },
-    'Dot-to-Dot: Count by Tens', 'Join the dots counting in tens to 100.'],
+    'Dot-to-Dot: Count by Tens', 'Join the numbered dots in tens; the rest of the outline is already drawn.'],
 
   // capitals with no dashed guide — the rung above tracing them. Unlocked by the
   // traceable-after-uppercasing fix, which also repaired the live K-310.
@@ -478,8 +481,8 @@ const ROWS = [
 
   // the 2x2 of {direction x model} had an unreachable corner: many-to-one with
   // NO model. Removing an ending from memory is where the misconceptions live.
-  ['k', 'K-316', 'singular-plural-write-the-word-for-one', 'K-287-singular-plural.js', 3, { direction: 'toSingular', plurModel: false },
-    'Write the Word for One', 'Read the word for many, then write the word for one.'],
+  ['k', 'K-316', 'singular-plural-write-the-word-for-one', 'K-287-singular-plural.js', 3, { direction: 'toSingular', plurModel: false, rowH: 166 },
+    'Write the Word for One', 'No dashed letters this time. Write the word for one yourself.'],
 
   // two-digit addition inside the pyramid. Every shipped wall keeps the top under
   // 20, so every brick is a within-20 fact; with a base of 5-12 the tops land
@@ -489,7 +492,10 @@ const ROWS = [
   // test raising the ceiling instead of the depth.
   ['g2', 'G2-313', 'number-walls-to-100', 'G1-246-number-walls.js', 3,
     { gap: false, courses: 4, walls: 4, baseMin: 5, baseMax: 12, topMax: 100 },
-    'Number Walls to 100', 'Each brick is the sum of the two under it.'],
+    // ⚠ NOT "to 100": a four-course apex is b0 + 3b1 + 3b2 + b3, so bases of
+    // 5-12 top out at 96 and the shipped seed lands at 70. The honest claim is
+    // two-digit answers, which is also the actual teaching point (2.NBT.B.5).
+    'Number Walls with Two-Digit Answers', 'The bricks climb past twenty, so add in writing as you go.'],
 
   // ── wave 4: three CORNERS, not rungs ─────────────────────────────────────
   // The wave-3 pass called sentence-building "one act over a three-rung clue
@@ -507,7 +513,7 @@ const ROWS = [
   // G1-301 — is that each corner is a measurably different amount of help.
   ['g1', 'G1-303', 'write-the-word-letter-boxes-and-first-letter', 'G1-244-write-the-word.js', 2,
     { bank: false, starter: true, boxes: true, cards: 6, cols: 2, rows: 3, maxLetters: 9 },
-    'Letter Boxes and the First Letter', 'One box for each letter, and the first letter is already there.'],
+    'Letter Boxes and the First Letter', 'One box for each letter, and the first letter starts you off on the line.'],
   ['g1', 'G1-304', 'write-the-word-every-clue', 'G1-244-write-the-word.js', 2,
     { bank: true, starter: true, boxes: true, cards: 6, cols: 2, rows: 3, maxLetters: 9 },
     'Write the Word: Every Clue', 'The word bank, the letter boxes and the first letter are all there to help.'],

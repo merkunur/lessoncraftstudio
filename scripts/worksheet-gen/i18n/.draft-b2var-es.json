@@ -259,31 +259,147 @@
   },
   "K-308": {
    "title": "Une los puntos del 10 al 1",
-   "instruction": "Cuenta hacia atrás desde el 10 hasta el 1, punto a punto."
+   "instruction": "Cuenta hacia atrás del 10 al 1; el resto del dibujo ya está."
   },
   "K-311": {
    "title": "Copia la palabra de la tarjeta",
-   "instruction": "No hay letras punteadas: copia la palabra."
+   "instruction": "Sin letras punteadas: cópiala dos veces."
   },
   "G1-285": {
    "title": "Une los puntos contando de 2 en 2",
-   "instruction": "Cuenta de 2 en 2: del 2 hasta el 20."
+   "instruction": "Cuenta de 2 en 2; el resto del dibujo ya está hecho."
   },
   "G1-286": {
-   "title": "Dobles y mitades con dibujos hasta 20",
-   "instruction": "Ahora los grupos son mayores."
+   "title": "Dobles y mitades con grupos grandes",
+   "instruction": "Los grupos son mucho mayores."
   },
   "G1-291": {
    "title": "Dictado mudo sin banco: la inicial",
-   "instruction": "Solo tienes la primera letra."
+   "instruction": "No hay banco: solo la inicial."
   },
   "G1-294": {
    "title": "Une los puntos del 20 al 1",
-   "instruction": "Cuenta hacia atrás del 20 al 1, sin saltar ninguno."
+   "instruction": "Están numerados los veinte puntos y se cuenta hacia atrás."
   },
   "G2-304": {
    "title": "Une los puntos contando de 5 en 5",
-   "instruction": "Cuenta de 5 en 5: del 5 hasta el 50."
+   "instruction": "Cuenta de 5 en 5; el resto del dibujo ya está hecho."
+  },
+  "K-309": {
+   "title": "Une los puntos con el abecedario",
+   "instruction": "Aquí no hay números: une los puntos de la a a la s."
+  },
+  "K-310": {
+   "title": "Repasa y escribe en mayúsculas",
+   "instruction": "Todas las palabras van en letra mayúscula."
+  },
+  "K-313": {
+   "title": "Singular y plural: de muchos a uno",
+   "instruction": "Ahora al revés: repasa y escribe la de uno."
+  },
+  "K-314": {
+   "title": "Singular y plural sin punteado",
+   "instruction": "El plural no viene punteado: escríbelo tú."
+  },
+  "K-315": {
+   "title": "Copia las mayúsculas de la tarjeta",
+   "instruction": "Aquí se copian mayúsculas, no minúsculas."
+  },
+  "K-316": {
+   "title": "De muchos a uno, sin punteado",
+   "instruction": "Sin punteado: escribe tú la palabra de uno."
+  },
+  "G1-287": {
+   "title": "Solo dobles hasta 14",
+   "instruction": "No hay mitades: todas piden el doble del grupo."
+  },
+  "G1-288": {
+   "title": "Solo mitades hasta 12",
+   "instruction": "Ninguna tarjeta pide el doble: solo la mitad."
+  },
+  "G1-289": {
+   "title": "Pirámides numéricas de arriba abajo",
+   "instruction": "Se da el ladrillo de arriba: baja restando."
+  },
+  "G1-292": {
+   "title": "¿El o la? Clasifica las palabras",
+   "instruction": "Sin dibujos: escribe cada palabra donde va."
+  },
+  "G1-293": {
+   "title": "Sustantivos y verbos: dos cajas",
+   "instruction": "Con dibujos: nombres y acciones."
+  },
+  "G1-295": {
+   "title": "La recta numérica del 20 al 40",
+   "instruction": "Esta recta no empieza en cero, empieza en el 20."
+  },
+  "G1-296": {
+   "title": "Solo dobles hasta 20 con dibujos",
+   "instruction": "Se doblan grupos de cinco a diez."
+  },
+  "G1-297": {
+   "title": "Solo mitades hasta 20 con dibujos",
+   "instruction": "Se parten grupos de diez a veinte."
+  },
+  "G1-298": {
+   "title": "Solo dobles, sin dibujos",
+   "instruction": "Sin dibujos que contar: solo dobles hasta 20."
+  },
+  "G1-299": {
+   "title": "Solo mitades, sin dibujos",
+   "instruction": "Sin dibujos: parte cada número en dos."
+  },
+  "G1-300": {
+   "title": "Sustantivos y adjetivos: dos cajas",
+   "instruction": "Aquí no hay verbos ni dibujos."
+  },
+  "G1-301": {
+   "title": "Dictado mudo: banco y casillas",
+   "instruction": "Con banco y una casilla por letra."
+  },
+  "G1-302": {
+   "title": "Ordena la frase: ¿cuál va primero?",
+   "instruction": "Sin mayúscula: solo el signo final."
+  },
+  "G1-303": {
+   "title": "Dictado mudo: casillas e inicial",
+   "instruction": "Sin banco: la inicial, en la línea."
+  },
+  "G1-304": {
+   "title": "Dictado mudo con todas las pistas",
+   "instruction": "Banco, casillas e inicial juntos."
+  },
+  "G2-305": {
+   "title": "La recta numérica del 40 al 60",
+   "instruction": "Esta recta no empieza en cero, empieza en el 40."
+  },
+  "G2-307": {
+   "title": "Corrige la frase: ¿dónde acaba?",
+   "instruction": "Van dos frases seguidas, sin puntos."
+  },
+  "G2-308": {
+   "title": "Coordenadas: escribe tú los códigos",
+   "instruction": "Cada casilla va en la lista de su color."
+  },
+  "G2-310": {
+   "title": "La recta numérica del 60 al 100",
+   "instruction": "Esta recta empieza en 60 y cada marca vale 1."
+  },
+  "G2-311": {
+   "title": "Dos frases: ¿punto o interrogación?",
+   "instruction": "Dos frases juntas y una pregunta."
+  },
+  "G2-312": {
+   "title": "Lee el calendario: cuenta los días",
+   "instruction": "Ahora se cuentan los días entre dos fechas."
+  },
+  "G2-313": {
+   "title": "Pirámides numéricas de dos cifras",
+   "instruction": "Las sumas suben hasta números de dos cifras."
+  },
+  "G2-314": {
+   "title": "Une los puntos contando de 10 en 10",
+   "instruction": "Cuenta de 10 en 10 hasta el 100; el resto ya está."
   }
  },
  "enAudit": [
@@ -308,6 +424,18 @@
   "THE DOT-TO-DOT ENGLISH NEVER SAYS HOW MUCH OF THE PICTURE IS ALREADY DRAWN, WHICH IS THE MOST USEFUL THING ABOUT THESE FOUR FACES. K-308, G1-285 and G2-304 all inherit window:10 from d1, so exactly TEN dots carry numbers and the rest of the outline is pre-printed in light grey — a 'finish the picture' page. G1-294 alone overrides window:null and numbers all twenty. Measured from the counting-strip chips of the es renders: K-308 = 10,9..1 (10 chips); G1-285 = 2,4..20 (10); G2-304 = 5,10..50 (10); G1-294 = 20,19..1 (20). The English for the first three says nothing about the pre-printed remainder, so 'Count by Fives ... up to 50' reads as a fifty-dot page. The es instructions cannot carry it either without blowing the description window, so this wants fixing in the English title or instruction, not in the locales.",
   "out/b2var-faces.json IS STALE, AND IT IS THE FILE THE BRIEF MAKES MANDATORY READING. It still holds the original 64 ids: every wave-2 face is absent from it, and no sweep PNG exists for any of them under out/b2var-sweep/ (64 files, none matching k308, k311, g1285, g1286, g1291, g1294 or g2304). Its own docblock says 'RE-RUN THIS AFTER EVERY CHANGE TO THE SPECS OR THE WAVES' and cites the Dutch panel catching exactly this failure. A panel obeying the brief literally would have found nothing to read and been briefed from prose — the one thing the table exists to prevent. I worked from the spec modules, each base's build(), the wave file, and thirteen local renders generated with render/one.js instead.",
   "CORRECTION TO THIS FILE'S OWN LAST TWO NOTES: the shipped es set does NOT reach 64 of 64. Two independent measurements agree it is 23 of 64. (a) tools/measure-instruction-window.js against out/staging/wave-b2var-es reports '41 need a re-fitted instruction'. (b) A marker sweep through publish-cli/build-seo-head.js using the current strings.es.json puts 23 of 64 inside their window. The simulator was validated first against 10 staged zips and reproduced 8 byte-for-byte (the 2 misses are BW-theme faces, where the theme parenthetical is dropped). Most failures are OVER the ceiling, not under it: G1-263 is 35 against a 28-33 window, G1-264 34 against 28-29, G3-371 43 against 38-39, G2-291 32 against 10-24. Whoever re-runs the es wave should re-fit those 41 with the same sweep; my seven were measured this way and all seven win their slot.",
-  "es LEXICAL RISKS ON THE SHIPPING POOLS (image-vocabulary.js, so flagged not fixed per CLAUDE.md 10.3). (1) apricot es = 'Chabacano', the Mexican regionalism, where de/fr/it/pt all carry their standard national term; peninsular Spanish is 'albaricoque' and the Southern Cone 'damasco'. It prints inside the fruits word-problem stories as 'Camila reparte 24 chabacanos'. (2) boat es = 'Bote' — a dinghy — labels a tugboat in the vehicles word bank, where pt says 'Barco' and it says 'Barca'. (3) On the fruits pool a spell-the-picture page can show limón and lima together, and it does on the G1-244 d2 fruits render: the reference of those two flips by country, so a Mexican child reading 'limón' for the green fruit and a Spanish child reading it for the yellow one both have a case. (4) scooter es = 'Scooter' is the only unlocalised English loan among the Romance locales (fr trottinette, it monopattino, pt patinete) — defensible for the motor-scooter art actually used, but not the word a Spanish child brings to school."
+  "es LEXICAL RISKS ON THE SHIPPING POOLS (image-vocabulary.js, so flagged not fixed per CLAUDE.md 10.3). (1) apricot es = 'Chabacano', the Mexican regionalism, where de/fr/it/pt all carry their standard national term; peninsular Spanish is 'albaricoque' and the Southern Cone 'damasco'. It prints inside the fruits word-problem stories as 'Camila reparte 24 chabacanos'. (2) boat es = 'Bote' — a dinghy — labels a tugboat in the vehicles word bank, where pt says 'Barco' and it says 'Barca'. (3) On the fruits pool a spell-the-picture page can show limón and lima together, and it does on the G1-244 d2 fruits render: the reference of those two flips by country, so a Mexican child reading 'limón' for the green fruit and a Spanish child reading it for the yellow one both have a case. (4) scooter es = 'Scooter' is the only unlocalised English loan among the Romance locales (fr trottinette, it monopattino, pt patinete) — defensible for the motor-scooter art actually used, but not the word a Spanish child brings to school.",
+  "WAVE-2 PANEL (the 36 new faces) — CODE DEFECT, BOTH RUN-ON FACES, EVERY INFLECTING LOCALE. G2-274-fix-the-sentence.js resolves the noun form ONCE, from pair[0], and then feeds that same string into the SECOND frame: nounText = SB.resolveNoun(bank, frame, ...) where frame = pair[0], then SB.fillFrame(pair[1].text, { noun: nounText, ... }). resolveNoun keys singular-vs-plural on frame.noun, so whenever the two frames of a joinPairs lane disagree in number the model answer is ungrammatical. MEASURED on the shipped seeds: es G2-311 «Cada frambuesas tiene su lugar» (s18 is noun:sg, filled from s5's plural) and «Mateo tiene dos kiwi» (s1 is noun:pl, filled from s4's singular); es G2-307 «Cada cebras es diferente» and «Lucía busca su gatos». It is NOT es-only: it G2-307 «Lorenzo cerca tre cammelli» (s10 sg), de G2-311 «Die Cranberrys sind sehr klein» after a sg frame, de G2-307 «Lina malt Kamele für Mia». This is the page whose whole subject is writing a sentence correctly, and the corrected answer carried in the data is itself wrong. FIX: resolve the noun per frame inside the pair map (one line), and let verify() re-derive the same way.",
+  "WAVE-2 PANEL — G2-311 LEAVES AN ORPHAN OPENING QUESTION MARK, WHICH GIVES AWAY THE ANSWER AND IS ORTHOGRAPHICALLY IMPOSSIBLE IN SPANISH. The joinPairs corruption strips the opening sign ANCHORED to the start of the whole string while stripping terminal marks GLOBALLY. So a Spanish question sitting in SECOND position keeps its opening sign. MEASURED, es/fruits lane 2: «diego dibuja su ciruela para martín ¿quién tiene mi ciruela». Two harms: (a) the ¿ marks exactly where the second sentence begins, which is the entire task this face sets, so the hardest lane becomes the easiest; (b) an opening sign with no closing one is not Spanish. Same class for ¡ (frame s14). FIX: strip the opening signs globally in the joinPairs branch, as the terminal marks already are. Affects es among the shipped locales, but the guard should be global.",
+  "WAVE-2 PANEL — G1-298 AND G1-299 SHIP A THEME THEY NEVER DISPLAY, AND IT IS CHOSEN BY THE POSITIONAL ROUND-ROBIN THE WAVE DOCBLOCK SAYS IT ABOLISHED. Both are listed in gen-b2var-waves.js THEMELESS, but their base G1-247 declares themeAxis.applicable = true, so enumerate.js assigns them a theme by INDEX: measured es, G1-298 = fruits, G1-299 = animals. Both configs are numeric:true / icon:0 and render ZERO images (measured: 0 img tags in the built body), yet the theme rides into the deck slug and into the meta description as (Frutas) / (Animales). That is a themed SERP promise on a page with no pictures, AND an unpinned theme: inserting any type earlier in the sorted types array silently moves it, which is the exact G1-247-on-toys defect the docblock records. FIX: either pin both in THEME, or give the two numeric variation specs themeAxis.applicable = false.",
+  "WAVE-2 PANEL — G2-313 «Number Walls to 100» NAMES A NUMBER THE PAGE CANNOT REACH. With courses:4 and base 5-12 the arithmetic ceiling is 96, and the shipped seed tops out at 70: the four walls compute to 60, 70, 46 and 49 (bases [7,9,6,8], [11,6,11,8], [8,5,6,5], [7,6,5,9]). The seed is typeId|theme|difficulty|variant with NO locale, so those are the same four walls in all eleven locales. The es title was written as «Pirámides numéricas de dos cifras», which is what the page actually shows.",
+  "WAVE-2 PANEL — G1-299 «Halves to 20» IS ONE CARD SHORT OF ITS OWN TITLE. hMin/hMax are 2-10, so nine values are available and eight are sampled; the shipped es draw is 4,7,8,5,6,3,9,2, giving printed groups of 8,14,16,10,12,6,18,4 — the largest is EIGHTEEN, and 20 never appears. Its twin G1-298 is honest (its draw includes 10, so 20 is printed). Same class as the G2-313 note: a config ceiling written into a title as if it were a page fact. The es title avoids the range.",
+  "WAVE-2 PANEL — G1-300's instruction is still the non-differentiating one the brief warns about, after this round's corrections. «Sort each word into the right bin» would fit all five word-classes faces; its sibling G1-293 now names its own distinction («Two bins with pictures») and G1-300 does not, although it has two: the second bin is ADJECTIVES rather than verbs, and pics:false makes it the only two-bin face with no pictures at all (measured chips: panda, grande, pequeño, lobo, caballo, alto, caliente, mapache, antílope, rojo — none with an image). Suggest «No pictures this time. Does the word name something, or say what it is like?». The es pair was written as «Con dibujos: nombres y acciones» against «Aquí no hay verbos ni dibujos».",
+  "WAVE-2 PANEL — G2-312's title promises intervals for a page that is half look-up. Its questions are stickerDate, after, weekLater, dayOfDate: only `after` is a how-many-days-later interval and `weekLater` a second one, while stickerDate and dayOfDate are plain grid reads. Measured es render: «¿En qué fecha está [x]?» / «¿Cuántos días después de [a] está [b]?» / «¿Qué fecha es una semana después del 10?» / «¿Qué día de la semana es el 18?». Not wrong enough to block, but the title is the strongest claim on the page and it covers two of four cards.",
+  "WAVE-2 PANEL — es-SPECIFIC PEDAGOGY: pez → peces PASSES isRegular AND LANDS ON THE REVERSE-DIRECTION FACE. K-287's isRegular folds diacritics and compares a stem of max(2, len-1) characters, so for a three-letter singular the stem is just «pe» and «peces» counts as a regular prefix plural. It is on the very first shipped seed of K-316 (measured pairs: gaviota/gaviotas, mapache/mapaches, pez/peces, caballo/caballos). Going one → many that is survivable; K-316 runs many → one with NO dashed model, so the child is asked to derive «pez» from «peces», which is an orthographic z/c alternation and not the ending rule L.K.1.c teaches — and it is the one word on the page where removing the ending gives the wrong answer. Suggest a per-locale guard on the direction:toSingular faces (es: refuse a pair whose singular is not a prefix of the plural).",
+  "WAVE-2 PANEL — es LEXICAL RISKS BEYOND THE ONES ALREADY FILED (image-vocabulary.js, so flagged not fixed per CLAUDE.md 10.3). Two more Mexican regionalisms print on the new faces: «papalote» for kite (peninsular cometa) on K-315, and «cubeta» for bucket (peninsular cubo, where cubeta is a shallow tray) on K-314, G1-292 and G1-303. With the previously-filed chabacano, bote and scooter, the toys and fruits pools now skew consistently to Mexican usage. That is a defensible register to pick, but it should be a recorded CHOICE rather than the accident of whoever filled each row.",
+  "WAVE-2 PANEL — THE DRAFT AND THE SHIPPED STRINGS DISAGREE ON G2-297, AND RE-APPLYING THIS DRAFT WOULD REGRESS IT. strings.es.json carries «Suma 7 días. Cuenta de un dibujo a otro.» (39 chars, measured inside its 27-40 window, wins its description slot); this draft carries «Suma una semana y cuenta los días entre dibujos.» (47, over the ceiling, loses to the family skill sentence). It is not one of the 36 faces of this round so it was left untouched, but whoever applies the draft should either restore the shipped sentence or take a fitted rewrite — «Suma una semana y cuenta entre dibujos.» (38) and «Suma 7 días y cuenta de un dibujo a otro.» (40) both measure inside the window.",
+  "WAVE-2 PANEL — THE DESCRIPTION-WINDOW QUESTION, SETTLED BY MEASUREMENT. Two earlier notes in this file contradict each other (one claims 64/64, the correction claims 23/64). I simulated publish-cli/build-seo-head.js directly against the real wave enumeration and VALIDATED THE SIMULATOR FIRST: it reproduces all 64 shipped descriptions in out/staging/wave-b2var-es byte-for-byte, 64/64, including the BW-theme faces an earlier simulator missed (the difference is reading the theme from enumerate() rather than from a hand map). On that instrument the correction is right: 23 of the 64 shipped faces carry their own instruction and 41 fall back to the family skill sentence. The window is per-face and is NOT one band — across the 36 new faces the ceiling runs 26-60 and the FLOOR is 5 on some faces and 48 on others, because the floor is the length of the family skill sentence that would otherwise win. Any advice of the form «aim for N characters» is wrong for roughly half the corpus; the only safe method is to sweep the length per face against the engine. All 36 new faces were fitted this way and 36 of 36 carry their own instruction.",
+  "WAVE-2 PANEL — PROBE HYGIENE, for whoever measures next. A length probe must use a string that CANNOT occur in the target language's prose, or desc.includes(probe) is true at every length and the sweep reports «anything wins». I swept with «aaaa bbbb cccc …» truncated to length N with any trailing space turned into a z. Two further traps cost me time here: the shared scratchpad is used by the other locale panels concurrently, so a generically-named helper file gets silently overwritten mid-session (measure inside your own subdirectory); and the K-309 alphabet face stops at a DIFFERENT LETTER PER LOCALE — the run is 20 letters taken from the locale's own COLLATION strip, and the Spanish strip is 27 letters including ñ, so es ends at «s» where the English ends at «t». Any locale that copies the English «from a to t» literally will name a letter its own page never reaches."
  ]
 }

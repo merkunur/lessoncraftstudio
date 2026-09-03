@@ -1,4 +1,4 @@
-/** G2-313 — Number Walls to 100. nt20-B-VAR variation of G1-246. */
+/** G2-313 — Number Walls with Two-Digit Answers. nt20-B-VAR variation of G1-246. */
 'use strict';
 const base = require('../g1/G1-246-number-walls.js');
 // One object for all three levels: the waves ship d2 only, so a face must
@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-313',
   slug: 'number-walls-to-100',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Number Walls to 100", instruction: "Each brick is the sum of the two under it." } },
+  i18n: { en: { title: "Number Walls with Two-Digit Answers", instruction: "The bricks climb past twenty, so add in writing as you go." } },
 };

@@ -256,6 +256,150 @@
     "G3-376": {
       "title": "Verhaaltjessommen: alles door elkaar",
       "instruction": "Drie verhaaltjes: bedenk eerst wat elk verhaaltje vraagt."
+    },
+    "K-308": {
+      "title": "Van stip naar stip: terugtellen vanaf 10",
+      "instruction": "Tel terug van 10 naar 1; de rest van de tekening staat er al."
+    },
+    "K-309": {
+      "title": "Van stip naar stip: op alfabetische volgorde",
+      "instruction": "Verbind de letters op volgorde van het alfabet."
+    },
+    "K-310": {
+      "title": "Woorden overtrekken in hoofdletters",
+      "instruction": "Trek de hoofdletters na en schrijf het woord daarna zelf."
+    },
+    "K-311": {
+      "title": "Woorden overschrijven: kijk en schrijf",
+      "instruction": "Kijk naar het woord op de kaart en schrijf het twee keer."
+    },
+    "K-313": {
+      "title": "Enkelvoud en meervoud: van meer naar één",
+      "instruction": "Nu is het meervoud gegeven: trek het enkelvoud na."
+    },
+    "K-314": {
+      "title": "Enkelvoud en meervoud: het meervoud zelf schrijven",
+      "instruction": "Schrijf het meervoud zonder voorbeeld."
+    },
+    "K-315": {
+      "title": "Woorden overschrijven: hoofdletters",
+      "instruction": "Kijk naar de hoofdletters en schrijf het woord zelf op."
+    },
+    "K-316": {
+      "title": "Enkelvoud en meervoud: het enkelvoud zelf schrijven",
+      "instruction": "Lees het meervoud, schrijf het enkelvoud."
+    },
+    "G1-285": {
+      "title": "Van stip naar stip: tellen met tweetallen",
+      "instruction": "Alleen de tweetallen zijn genummerd; de rest is al getekend."
+    },
+    "G1-286": {
+      "title": "Verdubbelen en halveren met plaatjes tot 20",
+      "instruction": "Tel de grotere groepen, verdubbel en halveer ze."
+    },
+    "G1-287": {
+      "title": "Verdubbelen tot 14",
+      "instruction": "Op dit blad wordt alleen verdubbeld: schrijf het dubbele op."
+    },
+    "G1-288": {
+      "title": "Halveren tot 12",
+      "instruction": "Op dit blad wordt alleen gehalveerd: schrijf de twee gelijke delen."
+    },
+    "G1-289": {
+      "title": "Rekenpiramide van boven naar beneden",
+      "instruction": "Hier is de top gegeven; werk naar beneden en trek af."
+    },
+    "G1-291": {
+      "title": "Schrijf het woord: alleen de beginletter",
+      "instruction": "Geen woordbank: alleen de eerste letter staat er al."
+    },
+    "G1-292": {
+      "title": "De of het? Sorteer de woorden",
+      "instruction": "Hier zijn geen plaatjes: sorteer de woorden bij de en bij het."
+    },
+    "G1-293": {
+      "title": "Woordsoorten: naamwoord of werkwoord",
+      "instruction": "Twee bakken: zelfstandig naamwoord of werkwoord?"
+    },
+    "G1-294": {
+      "title": "Van stip naar stip: terugtellen vanaf 20",
+      "instruction": "Hier zijn alle stippen genummerd en je telt helemaal terug."
+    },
+    "G1-295": {
+      "title": "Getallenlijn van 20 tot 40",
+      "instruction": "Deze getallenlijn begint bij 20, dus tel verder vanaf het getal ervoor."
+    },
+    "G1-296": {
+      "title": "Verdubbelen tot 20 met plaatjes",
+      "instruction": "Grotere groepen plaatjes om te verdubbelen, tot 20."
+    },
+    "G1-297": {
+      "title": "Halveren tot 20 met plaatjes",
+      "instruction": "Grotere groepen plaatjes om te halveren, tot 20."
+    },
+    "G1-298": {
+      "title": "Verdubbelen tot 20: alleen getallen",
+      "instruction": "Geen plaatjes om te tellen: schrijf het dubbele van elk getal."
+    },
+    "G1-299": {
+      "title": "Halveren tot 20: alleen getallen",
+      "instruction": "Geen plaatjes om te tellen: splits elk getal in twee gelijke delen."
+    },
+    "G1-300": {
+      "title": "Woordsoorten zonder plaatjes: twee bakken",
+      "instruction": "Twee bakken: zelfstandig of bijvoeglijk naamwoord?"
+    },
+    "G1-301": {
+      "title": "Schrijf het woord: woordbank en hokjes",
+      "instruction": "Zoek het woord in de woordbank; één letter per hokje."
+    },
+    "G1-302": {
+      "title": "Husselzinnen: welk woord staat vooraan?",
+      "instruction": "Het leesteken staat er al, maar de hoofdletter niet."
+    },
+    "G1-303": {
+      "title": "Schrijf het woord: hokjes en beginletter",
+      "instruction": "Zonder woordbank, maar met beginletter en hokjes."
+    },
+    "G1-304": {
+      "title": "Schrijf het woord: alle hulp erbij",
+      "instruction": "De woordbank, de hokjes en de beginletter helpen je samen."
+    },
+    "G2-304": {
+      "title": "Van stip naar stip: tellen met vijftallen",
+      "instruction": "Spring van vijf naar vijf langs de genummerde stippen."
+    },
+    "G2-305": {
+      "title": "Getallenlijn van 40 tot 60",
+      "instruction": "Deze lijn begint bij 40, dus tel verder vanaf het dichtstbijzijnde getal."
+    },
+    "G2-307": {
+      "title": "Hoofdletters: waar stopt de eerste zin?",
+      "instruction": "Twee zinnen aan elkaar: schrijf ze los met een punt."
+    },
+    "G2-308": {
+      "title": "Coördinaten in het rooster: schrijf de codes",
+      "instruction": "De tekening is al gekleurd: schrijf zelf de codes erbij."
+    },
+    "G2-310": {
+      "title": "Getallenlijn van 60 tot 100",
+      "instruction": "Deze lijn begint pas bij 60, dus tel verder vanaf het getal ervoor."
+    },
+    "G2-311": {
+      "title": "Hoofdletters: twee zinnen, punt of vraagteken?",
+      "instruction": "Splits de twee zinnen; er zit ook een vraag tussen."
+    },
+    "G2-312": {
+      "title": "Kalender lezen: hoeveel dagen ertussen?",
+      "instruction": "Zoek de datums op de kalender en tel de dagen ertussen."
+    },
+    "G2-313": {
+      "title": "Rekenpiramide tot 100",
+      "instruction": "Vier lagen: de onderste rij is gegeven, tel naar boven op."
+    },
+    "G2-314": {
+      "title": "Van stip naar stip: tellen met tientallen",
+      "instruction": "Spring met tientallen van stip naar stip; de rest staat er al."
     }
   },
   "enAudit": [
@@ -270,6 +414,17 @@
     "G2-298 (Days of the Week) places two picture stickers on the calendar (the 16th and the 28th) that no question refers to, on a page whose instruction says every question is about the days of the week. The sibling G2-296 does ask about its sticker; here they are pure noise for a 7-year-old.",
     "G2-287 uses the bare word chip \"crane\" with no picture. MEMORY records crane as already mistranslated to the BIRD in es/no/da/sv/fi; with no picture to disambiguate, those locales will ship the wrong sense in a vehicles-themed page. (nl kraan is safe either way.)",
     "out/b2var-faces.json enTitle/enInstruction are STALE against the renders for at least K-289, K-291, K-298, G1-263, G1-278, G1-282 and G2-285: the nine already-fixed defects were fixed in the generator but never back-ported to the face table. K-298 is still listed there as \"Copy the Picture on a 6x6 Grid\" (titled by size, the defect that was fixed) while the page itself reads \"Copy the Grid Picture: First Steps\". Since the brief tells panels the face table is authoritative, every future panel inherits the pre-fix English unless it opens the PNGs.",
-    "nl sentence-bank note supporting the G2-281 redesign: of the 15 nl frames marked uses:[fix], 6 are name-free and only TWO of those end in a full stop (De {noun} zijn heel groot./klein.) against FOUR ending in a question mark. On a three-lane name-free page a Dutch child is therefore guaranteed at least one question, and usually two or three, so any nl copy naming only de punt would be false on most draws."
+    "nl sentence-bank note supporting the G2-281 redesign: of the 15 nl frames marked uses:[fix], 6 are name-free and only TWO of those end in a full stop (De {noun} zijn heel groot./klein.) against FOUR ending in a question mark. On a three-lane name-free page a Dutch child is therefore guaranteed at least one question, and usually two or three, so any nl copy naming only de punt would be false on most draws.",
+    "G1-297 EN instruction \"Bigger groups to halve, starting from twenty\" is wrong at both ends: hMin 5 / hMax 10 prints groups of 2m, i.e. 10 to 20, so twenty is the CEILING, not the start. Its twin G1-296 gets the same parameter right (\"all the way to twenty\").",
+    "G1-289 EN instruction \"The top brick is given and the bottom row is not\" is false. topGiven clears every brick, restores the apex, and then restores ONE brick per course down to r=0 — so exactly one bottom-row brick is always printed. A child told the bottom row is blank is looking for a wall that is not on the page.",
+    "G1-286 EN instruction \"Count the bigger groups, double them, and halve them\" reads as if each group gets both operations; the render gives each card ONE pill, either double or half. The shipped nl base (G1-247) already says it correctly — \"verdubbel de ENE groep en halveer de ANDERE\" — so the English is the weaker of the two.",
+    "K-308 / G1-285 / G2-304 EN instructions all assert \"Ten numbered dots\". That ten is the INHERITED d1 window, not a parameter these faces pin, so it is exactly the count the brief warns will stale on a retune. It also collides with the real dot count, which stays 20 — \"ten numbered dots to join backwards\" reads as a ten-dot picture. G2-314 has the mirror problem: its instruction says \"to 100\", which is only true because window:10 is inherited, while its own title (\"Count by Tens\") declines to claim it.",
+    "G2-312 EN title \"How Many Days Later?\" and instruction \"Use the calendar to work out each date\" fit only half the page. Of the four questions, `after` answers a COUNT of days and `dayOfDate` answers a WEEKDAY NAME; neither is a date. (The Dutch week correctly starts on maandag — CALENDAR.nl.weekStart is 1 — so that earlier finding is closed.)",
+    "G2-313 EN instruction \"Each brick is the sum of the two under it\" is the GENRE sentence, not this face: it is what the base G1-246 already says, and it mentions none of what makes G2-313 different (four courses, base given, totals reaching 100). Same class as G1-300, whose \"Sort each word into the right bin\" names neither of its two bins nor the fact that this is the only word-classes face with no pictures at all.",
+    "K-313 EN instruction \"This time the word for many is given. Write the word for just one\" leaves out the scaffold that separates it from K-316: at K-313 plurModel is NOT false, so the singular is still printed as a DASHED model the child traces first. As written, the English for K-313 and K-316 asks for the same thing on two deliberately different pages.",
+    "G2-307 and G2-311 are titled \"Fix the Sentence: Where Does It End?\" and \"Where Does It End?\" — near-duplicates that also drop the family head from the second one, while the parameter that actually separates them (ends ['.'] with needCaps 1 versus ends ['.','?'] with needQ 1) appears in neither title.",
+    "G1-301 / G1-303 / G1-304 EN instructions name the letter boxes but not the writing line. In G1-244 the `right` ruling is built on EVERY card regardless of `boxes`, so these three faces carry TWO writing surfaces — a ruled line beside the picture and a row of boxes beneath it — and the English mentions only one of them. A 6-year-old told to write one letter per box has an unexplained ruled line to account for.",
+    "K-311 / K-315 are the one place the brief's rule 5 cannot hold: traceLane:false leaves a caption model and two EMPTY rails, so nothing on the page is traced and the family head (\"Trace and Write the Words\" / nl \"Woorden overtrekken\") would be a false title. We changed the verb in nl — overtrekken becomes overschrijven — and kept the noun. Recommend the English do the same rather than dropping the family word entirely as \"Copy the Word\" does.",
+    "K-309 latent contract mismatch (nl unaffected, but it will bite): the alphabet path takes its sequence from COLLATION[loc].strip, while verify() proves ordering with localeCompare(). Those agree only where the printed strip happens to match Unicode collation. nl is plain a-z so it is safe, but a locale whose strip carries an appended letter would fail verify on a correct page."
   ]
 }

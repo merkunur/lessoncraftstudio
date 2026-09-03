@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-289',
   slug: 'number-walls-from-the-top-down',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Number Walls: Start at the Top", instruction: "The top brick is given and the bottom row is not. Work downwards." } },
+  i18n: { en: { title: "Number Walls: Start at the Top", instruction: "The top brick is given this time. Work downwards and subtract." } },
 };

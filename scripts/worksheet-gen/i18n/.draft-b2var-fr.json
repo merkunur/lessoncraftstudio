@@ -54,12 +54,12 @@
       "instruction": "Entoure « un » ou « une »."
     },
     "K-308": {
-      "title": "Points à relier : à rebours de 10 à 1",
-      "instruction": "Compte à l'envers : de 10 jusqu'à 1."
+      "title": "Points à relier de 10 à 1",
+      "instruction": "Compte à l'envers ; le dessin est déjà commencé."
     },
     "K-311": {
       "title": "Copier le mot sans pointillés",
-      "instruction": "Aucun pointillé : copie deux fois."
+      "instruction": "Copie le mot écrit sur la carte."
     },
     "G1-251": {
       "title": "Lis et colorie : quatre phrases",
@@ -167,7 +167,7 @@
     },
     "G1-285": {
       "title": "Points à relier de 2 en 2",
-      "instruction": "Ici, tu ne comptes que les nombres pairs, de deux en deux."
+      "instruction": "Tu ne comptes que les nombres pairs ; le reste est tracé."
     },
     "G1-286": {
       "title": "Doubles et moitiés : images jusqu'à 20",
@@ -178,8 +178,8 @@
       "instruction": "Ton seul indice est la première lettre."
     },
     "G1-294": {
-      "title": "Points à relier : à rebours de 20 à 1",
-      "instruction": "Tous les points sont numérotés, du 20 jusqu'au 1."
+      "title": "Points à relier de 20 à 1",
+      "instruction": "Tous les points sont numérotés, et l'on compte du 20 au 1."
     },
     "G1-295": {
       "title": "Droite graduée de 20 à 40",
@@ -263,7 +263,7 @@
     },
     "G2-304": {
       "title": "Points à relier de 5 en 5",
-      "instruction": "Ici, les nombres avancent de cinq en cinq, jamais un par un."
+      "instruction": "Compte de cinq en cinq ; le reste du dessin est déjà tracé."
     },
     "G2-305": {
       "title": "Droite graduée de 40 à 60",
@@ -296,6 +296,110 @@
     "G3-376": {
       "title": "Problèmes mélangés : multiplier et diviser",
       "instruction": "Choisis la bonne opération."
+    },
+    "K-309": {
+      "title": "Points à relier de a à t",
+      "instruction": "On suit les lettres, de a à t, pas les nombres."
+    },
+    "K-310": {
+      "title": "Repasser les mots en capitales",
+      "instruction": "Repasse les capitales, puis écris."
+    },
+    "K-313": {
+      "title": "Du pluriel au singulier",
+      "instruction": "Ici, c'est le singulier que l'on repasse."
+    },
+    "K-314": {
+      "title": "Écrire le pluriel tout seul",
+      "instruction": "Ici, aucun pointillé à repasser."
+    },
+    "K-315": {
+      "title": "Copier les mots en capitales",
+      "instruction": "Les capitales sont sur la carte."
+    },
+    "K-316": {
+      "title": "Écrire le singulier tout seul",
+      "instruction": "Le pluriel est donné, sans modèle."
+    },
+    "G1-287": {
+      "title": "Doubles jusqu'à 14",
+      "instruction": "Chaque carte demande le double d'un groupe d'images."
+    },
+    "G1-288": {
+      "title": "Moitiés jusqu'à 12",
+      "instruction": "Partage chaque groupe et écris les deux parts."
+    },
+    "G1-289": {
+      "title": "Pyramides de nombres : partir du sommet",
+      "instruction": "Le sommet est donné : descends et soustrais."
+    },
+    "G1-292": {
+      "title": "Un ou une : classer les mots",
+      "instruction": "Sans image : range chaque mot sous un ou une."
+    },
+    "G1-293": {
+      "title": "Nature des mots : noms et verbes",
+      "instruction": "Deux boîtes, avec des images pour les noms."
+    },
+    "G1-296": {
+      "title": "Doubles en images jusqu'à 20",
+      "instruction": "De plus grands groupes d'images à doubler."
+    },
+    "G1-297": {
+      "title": "Moitiés en images jusqu'à 20",
+      "instruction": "De plus grands groupes d'images à partager."
+    },
+    "G1-298": {
+      "title": "Doubles sans images jusqu'à 20",
+      "instruction": "Sans image : calcule le double de tête."
+    },
+    "G1-299": {
+      "title": "Moitiés sans images jusqu'à 20",
+      "instruction": "Sans image : partage le nombre en deux."
+    },
+    "G1-300": {
+      "title": "Nature des mots : noms et adjectifs",
+      "instruction": "Deux boîtes, et aucune image ici."
+    },
+    "G1-301": {
+      "title": "Dictée muette : liste et cases",
+      "instruction": "Une case par lettre, et la liste aide."
+    },
+    "G1-302": {
+      "title": "Phrases mélangées : quel début ?",
+      "instruction": "Le signe final est donné, la majuscule non."
+    },
+    "G1-303": {
+      "title": "Dictée muette : une case par lettre",
+      "instruction": "La première lettre est sur la ligne."
+    },
+    "G1-304": {
+      "title": "Dictée muette : tous les indices",
+      "instruction": "La liste, les cases et la première lettre."
+    },
+    "G2-307": {
+      "title": "Séparer deux phrases collées",
+      "instruction": "Deux phrases se sont collées : sépare-les."
+    },
+    "G2-308": {
+      "title": "Pixel art à l'envers",
+      "instruction": "Le dessin est déjà colorié : écris les codes par couleur."
+    },
+    "G2-311": {
+      "title": "Phrases collées : point ou question",
+      "instruction": "Ici, l'une des deux est une question."
+    },
+    "G2-312": {
+      "title": "Lire le calendrier : compter les jours",
+      "instruction": "Compte les jours entre les deux images."
+    },
+    "G2-313": {
+      "title": "Pyramides de nombres jusqu'à 100",
+      "instruction": "Quatre étages, et le sommet peut grimper jusqu'à 100."
+    },
+    "G2-314": {
+      "title": "Points à relier de 10 en 10",
+      "instruction": "Les nombres vont de dix en dix ; le reste est déjà tracé."
     }
   },
   "enAudit": [
@@ -321,6 +425,24 @@
     "G1-295 / G2-305 / G2-310 window margins — unlike five of the first 13, none of these three sits on its window edge: G1-295 58 of 47-60, G2-305 52 of 47-59, G2-310 53 of 47-58. The number-lines family has a hard FLOOR of 47 in both bands (its short skill sentence is 46 characters and always fits under 170), so an instruction shorter than 47 loses the slot outright however good it is — the opposite failure from the K-band dot-to-dot faces, where the ceiling is the binding constraint. Both directions are real; measure, do not estimate.",
     "GATE DEFECT, FIXED IN THIS PASS (validate-b2var-draft.js + validate-b2-draft.js) — the worksheet-word ban was checking, for French, two words that can never collide and missing the one that can. The engine appends \"Fiche d'exercices\", but the regex carried `feuille` (a word it appends in no locale) and `ficha` (Spanish); `fiche` was absent, so a French title \"Fiche droite graduee de 40 a 60\" passed every check and would have shipped \"Fiche ... Fiche d'exercices\". Found by poison-testing my own three faces: four of five poisons fired and the worksheet-word one went SILENT. Added `(?<!\\p{L})fiches?(?!\\p{L})` — bounded so it cannot fire inside \"affiche\" (poster) or \"fichier\", which is the ban-too-wide trap this exact class keeps producing. Poison-tested BOTH directions and delta-checked against the pre-change regex over all 5,536 shipped and drafted titles in 11 locales: 7 must-fire fire, 4 must-pass stay clean, 0 titles newly condemned, and the gate's own 14 poison tests still pass.",
     "GATE DEFECT, STILL OPEN, NOT MINE TO SHAPE — the same ban has no effective guard for es or pt. The engine appends \"Hoja de ejercicios\" (es) and \"Folha de exercicios\" (pt); neither `hoja` nor `folha` is in the list, so those two panels can ship a doubled worksheet-word with a green gate exactly as French could. I did NOT widen it, because in both languages that word also means LEAF, so the obvious widening would condemn a legitimate autumn-theme title — the ban shape needs a native ruling, not a guess from the French panel.",
-    "GATE DEFECT, STILL OPEN, PRE-EXISTING — the Finnish token `tehtäv` is too WIDE, in the other direction. `tehtävä` is the ordinary Finnish word for a task or exercise, and FIVE SHIPPED Finnish titles already match it (fi G1-213 \"Sanalliset tehtävät kuvien avulla\", G1-238, G1-239, G1-240, G1-241). The word the engine actually appends is \"Tehtävämoniste\" — moniste is the sheet. Any correct Finnish title of the shape those five already have would be condemned by this gate. Surfaced by the corpus control on my own fix, and reported rather than narrowed for the same reason as es/pt: `tehtävä` is unavoidable in Finnish, so only the fi panel can say whether the full compound is a safe enough ban."
+    "GATE DEFECT, STILL OPEN, PRE-EXISTING — the Finnish token `tehtäv` is too WIDE, in the other direction. `tehtävä` is the ordinary Finnish word for a task or exercise, and FIVE SHIPPED Finnish titles already match it (fi G1-213 \"Sanalliset tehtävät kuvien avulla\", G1-238, G1-239, G1-240, G1-241). The word the engine actually appends is \"Tehtävämoniste\" — moniste is the sheet. Any correct Finnish title of the shape those five already have would be condemned by this gate. Surfaced by the corpus control on my own fix, and reported rather than narrowed for the same reason as es/pt: `tehtävä` is unavoidable in Finnish, so only the fi panel can say whether the full compound is a safe enough ban.",
+    "GENERATOR BUG, FOUND AND FIXED IN THIS PASS (types/g1/G1-249-unscramble-sentence.js) — G1-302 was UNBUILDABLE IN FRENCH and the QA gate proved it. lib/sentence-bank.js tokenize re-attaches a stand-alone end mark with NBSP; the inline re-implementation inside G1-249.verify re-attached it with a plain U+0020. French is the only bank that writes a space before its question mark, so the tile renders «figues[NBSP]?» while verify expects «figues[SP]?» and the page fails on its own subject. MEASURED over 10 seeds x 4 themes: 33 of 40 French builds of the showEnd:true faces (G1-282, G1-302) contain such a tile; the showEnd:false sibling G1-283 is clean 0/40 only because the mark is stripped before the comparison. My first French wave staged 99 of 100 decks for exactly this reason, and the SHIPPED G1-282/fr survived only because its one seed drew no question. Fixed by making verify join with the NBSP escape (written as an escape, never an invisible literal). POISON-TESTED BOTH WAYS on the real browser path: U+0020 -> FAIL «lane 3: tile ... != ...», U+00A0 -> zipped; G1-282 and G1-283 rebuilt clean; the French wave now stages 100 of 100. CONTROL: stand-alone end marks per locale frame bank — fr 6 of 20, and 0 of 20 in en/de/es/pt/it/nl/sv/da/no/fi — so the change is a strict no-op outside French. The docblock rule (a gate must not import the thing it checks) is right; a re-implementation that DIVERGES is the bug it creates.",
+    "VOCAB/ART DEFECT, ALL 11 LOCALES — the «plum» image in the fruits theme IS A RED APPLE. Rendered beside «apple» at 512px they are the same fruit: round body, calyx dimple, apple stem, one leaf. A plum is oval, has a longitudinal groove and no leafed stem. On K-310/fr this ships as a page printing that art under PRUNE directly above the real apple under POMME — two apples, two different words, on one K sheet. «plum» is a shared vocab key, so the same picture ships as Pflaume / ciruela / ameixa / susina / pruim / plommon / blomme / plomme / luumu. Not fixable from a titles draft (CLAUDE.md §10.3 covers the art and image-vocabulary.js).",
+    "VOCAB DEFECT, 7 OF 11 LOCALES — image-vocabulary.js «dice» stores the PLURAL in the singular slot while the artwork is ONE die: fr [Dés, Dés], es/pt [Dados, Dados], it [Dadi, Dadi], da [Terninger, Terningere], no [Terninger, Terninger], fi [Nopat, Nopat]. Only de (Würfel/Würfel), nl (Dobbelsteen/Dobbelstenen) and sv (Tärning/Tärningar) are correct. K-315/fr therefore prints a single die captioned DÉS. The Danish plural «Terningere» is not a Danish word either (terning -> terninger).",
+    "RENDER DEFECT G1-296 / G1-297 — the picture panel OVERFLOWS THE CARD HORIZONTALLY at the largest groups. Two mirrored groups sit side by side at icon 28 / perRow 5, so ten icons across exceed the white panel AND the card, and pictures are clipped at the page margin. Measured on the shipped French renders: G1-296 cards 1 (10+10), 4 (9+9) and 5 (5+5); G1-297 card 3 (20 = 10+10). Nothing errors and no gate catches it.",
+    "RENDER DEFECT G1-287 — card 4 (7+7) is CLIPPED VERTICALLY. dMax 7 against d2 perRow 3 makes mirrorGroups lay each group out as 3+3+1, the picture panel grows, and the «7 + 7 = box» strip is cut by the bottom edge of the card. The other five cards on the same page fit.",
+    "DESIGN DEFECT G2-307 / G2-311 — ONE ruled line is given for TWO sentences. rulingBlock is called with rows: 1, and the rulH: 80 override only makes that single lane taller. The run-ons fill the whole prompt box («jules et moi aimons les ratons laveurs inès regarde les ratons laveurs»), so a seven-year-old cannot fit two rewritten sentences on one line. rows: 2 is the fix; the knob that was bumped is not the one that matters.",
+    "WAVE DEFECT G1-298 / G1-299 — both carry a THEME in the manifest, the title and the meta description while the page contains NO IMAGE AT ALL. They sit in gen-b2var-waves.js THEMELESS, but doubles-halves has themeAxis.applicable true, so THEMELESS only means «not pinned» and they take the positional round-robin theme. Measured on the staged ZIPs: g1298 theme=fruits, images_used=0, title «Doubles to 20: just the numbers — Fruits — CP», description «(Fruits)»; g1299 theme=animals, images_used=0. Two consequences: the landing promises a theme the sheet never shows, and inserting a type shifts their theme — the exact class that docblock exists to prevent. Pin them, or teach the enumerator that a numeric face is themeless.",
+    "LAYOUT G1-292 / G1-293 / G1-300 — the sorting bins are a fixed height (350px on the articles sort, 400px on word-classes) inside a much taller page, so all three sheets stop about two thirds down and leave a large blank band. Consistent across the three faces, so it is the bin height, not one bad draw.",
+    "CONTENT ODDITY, toys theme — it contains «girl» and «baby», so a French articles sort prints «fille» beside «robot» and «train» (the actual G1-292 word set). Separately, fr «ball» and «balloon» both render «Ballon», which halves the usable French toys pool for every face that de-duplicates on the word.",
+    "G1-289 — the corrected English («Work downwards and subtract») is accurate. Worth recording the rest of the fact for the other panels: the given set is the apex PLUS exactly one brick in every course, including the base, because the loop runs r = n-2 down to 0. Visible on all six walls of the French render (7 / 1 / 1 / 6 / 2 / 7 in the bottom row). So neither «the bottom row is given» nor «the bottom row is not» is true; one brick of it always is.",
+    "G2-312 — the English still names one question out of four. The title «How Many Days Later?» describes only the «after» question, and the instruction «work out each date» is wrong for the fourth, which answers with a WEEKDAY NAME (dayOfDate, slot «word», a 150px answer box). The French titles the calendar reading and instructs on the day interval, which is the question kind this face actually adds to the base.",
+    "G1-302, FRENCH-FACING RULING NEEDED — the page prints a first name in lowercase («nathan regarde les citrons.»). That is by design: capsIndices never includes index 0, so showCap false lowercases the initial token even when it is a proper noun. The alternative would hand the child the answer. It is defensible, but a French CP sheet printing «nathan» is teaching an orthographic falsehood on a page about sentence openings, and that should be a deliberate ruling rather than a side effect of the caps rule.",
+    "METHOD, FOR THE REMAINING PANELS — THE DESCRIPTION WINDOW IS MEASURED ON THE STEM, NOT THE INSTRUCTION. bandedDescription assembles lead + «. » + middle + «.» AFTER stripping the instruction trailing mark, so an instruction of N characters competes as N-1. My first sweep compared instruction length against the window and reported three faces as LOSING that in fact won (G2-304 at 60 against a «55-59» window). Related: descLenRendered is escapeAttr(s).length, and escapeAttr escapes only & < > — French apostrophes and accents cost exactly one character each, so a plain-length probe is safe here, but a straight double quote inside an instruction would not be.",
+    "METHOD — probe hygiene, per the Dutch panel warning. I used «QXVZ» as the marker because no French word contains it; a probe of repeated letters matches inside «alphabétique», «graduée» and half the corpus, and would report «any length wins» for all 36.",
+    "WINDOW MARGINS — all 36 French faces carry their OWN instruction in the meta description, verified by re-running build-seo-head, not estimated. Six sit within one character of an edge and will silently fall back to the generic family sentence if the title or the family skill sentence is ever edited: G1-286 stem 37 of 37-38 (inherited from the earlier French slice, unchanged here), G2-313 stem 52 of 51-52, G2-314 stem 56 of 55-57, G2-304 stem 58 of 55-59, K-310 and K-316 stem 33 of 6-34. The number-walls and doubles-halves families have a hard FLOOR (51 and 37) as well as a ceiling, so on those an instruction can lose by being too SHORT.",
+    "K-309, PER-LOCALE FACT THE ENGLISH CANNOT CARRY — the letter run stops at the twentieth letter of the LOCALE OWN printed strip, not at «t». COLLATION.fr.strip is the plain 26-letter alphabet with stripCase «lower», so French genuinely runs a..t in lowercase and the French title says so. A locale whose strip carries extra letters early (es ñ) or late (Nordic æ/ø/å) stops on a different letter; read it off COLLATION for that locale rather than copying «t».",
+    "NUMBER-LINE LEXICAL CLASH, STILL BINDING — «de cinq en cinq» is spoken for in French by the shipped G1-278/G1-279 as the TICK step («Ici chaque trait vaut 5, pas 1»). It must never appear on the unit-tick faces G1-295 / G2-305 / G2-310, whose printed landmarks happen to be five apart while every graduation is worth one. It IS correct on the dot-to-dot G2-304, where the numbers themselves advance in fives. Same trap for any locale whose 5s-stepped siblings shipped first.",
+    "STALE ARTEFACTS IN out/render/ — the render directory keeps the output of retried themes, so a glob for k310 returns k310-ANIMALS before k310-FRUITS and a panel briefing from the first match reads the wrong theme. The staged ZIP is the authority: K-310 is pinned to fruits and ships on fruits in all eleven locales."
   ]
 }

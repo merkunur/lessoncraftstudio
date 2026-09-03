@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-313',
   slug: 'singular-plural-many-to-one',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Many and One", instruction: "This time the word for many is given. Write the word for just one." } },
+  i18n: { en: { title: "Many and One", instruction: "The word for many is given. Trace the word for just one." } },
 };

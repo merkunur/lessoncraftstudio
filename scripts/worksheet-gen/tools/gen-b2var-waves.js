@@ -29,7 +29,7 @@ const THEME = {
   // K-284 word-tracing (base ships animals)
   'K-289': 'fruits', 'K-290': 'vehicles', 'K-291': 'toys',
   // K-287 singular-plural (base ships fruits)
-  'K-302': 'animals', 'K-303': 'vehicles', 'K-313': 'fruits', 'K-314': 'toys',
+  'K-302': 'animals', 'K-303': 'vehicles', 'K-313': 'fruits', 'K-314': 'toys', 'K-316': 'animals',
   // K-288 articles (base ships animals; sv/da/no ride fruits)
   'K-306': 'animals', 'K-307': 'vehicles', 'G1-292': 'toys',
   // G1-242 read-and-color (BW only; base ships fruits bw)
@@ -66,6 +66,10 @@ const THEME = {
   'K-310': 'fruits', 'K-311': 'animals',              // K-284 word-tracing
   'G1-286': 'toys', 'G1-287': 'fruits', 'G1-288': 'animals',
   'G1-296': 'vehicles', 'G1-297': 'toys',             // G1-247 doubles-halves
+  'G1-300': 'animals',                                // G2-275 word-classes (2-bin noun/adj)
+  'G1-301': 'vehicles',                               // G1-244 write-the-word
+  'K-315': 'toys',                                    // K-284 word-tracing
+  'G2-311': 'fruits',                                 // G2-274 capitals
   'G1-291': 'animals',                                // G1-244 write-the-word
   // G2-306 rides ANIMALS deliberately, repeating G2-281's theme rather than
   // varying it: the fix frames include "{name} feeds the {noun}", which has no
@@ -89,13 +93,15 @@ const THEMELESS = [
   'K-294', 'K-295', 'K-296',                       // dot-to-dot
   'K-298', 'K-299', 'K-300',                       // grid-copy
   'G1-255', 'G1-256', 'G1-257',                    // number-of-the-day
-  'G1-266', 'G1-267', 'G1-268', 'G1-289',          // number-walls
+  'G1-266', 'G1-267', 'G1-268', 'G1-289', 'G2-313',  // number-walls
   'G1-274', 'G1-275', 'G1-276', 'G1-277',          // number-lines
   'G1-278', 'G1-279', 'G1-280', 'G1-281',
   'G2-296', 'G2-297', 'G2-298',                    // calendar
   'G2-302', 'G2-303', 'G2-308',                    // grid-coordinates
   // ── wave 2 ───────────────────────────────────────────────────────────────
-  'K-308', 'K-309', 'G1-285', 'G1-294', 'G2-304',  // dot-to-dot (step + letters)
+  'K-308', 'K-309', 'G1-285', 'G1-294', 'G2-304', 'G2-314',  // dot-to-dot
+  'G1-298', 'G1-299',                              // doubles/halves numeric
+  'G2-312',                                        // calendar
   'G1-295', 'G2-305', 'G2-310',                    // number-lines (min knob)
 ];
 

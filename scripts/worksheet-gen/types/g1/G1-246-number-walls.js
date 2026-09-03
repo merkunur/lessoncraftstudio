@@ -83,7 +83,19 @@ module.exports = {
     // grid's own layout, so the flag rides an attribute on the grid itself.
     const grid = cardGrid({ cards, cols: d.cols, rows: d.rows });
     return {
-      bodyHtml: d.topGiven ? grid.replace('<div', '<div data-lcs-topgiven="1"') : grid,
+      // ⚠ `topMax` must ride the PAGE, not just the config: verify() hardcodes a
+      // ceiling of 20, so a to-100 wall would fail on its own subject. Stamped
+      // only when it differs from the default, so every shipped coordinate is
+      // byte-identical.
+      bodyHtml: (() => {
+        let g = d.topGiven ? grid.replace('<div', '<div data-lcs-topgiven="1"') : grid;
+        // ⚠ Only when the cap is ABOVE verify's hardcoded 20. My first version
+        // stamped whenever topMax differed from 20, which caught d1's cap of 10
+        // and drifted a shipped Finnish coordinate: a tighter cap needs no stamp,
+        // because the default assertion already passes for it.
+        if (d.topMax && d.topMax > 20) g = g.replace('<div', `<div data-lcs-topmax="${d.topMax}"`);
+        return g;
+      })(),
       meta: { walls: walls.map((w) => w.base) },
     };
   },
@@ -119,7 +131,9 @@ module.exports = {
             if (!txt || +txt.textContent !== rows[r][c]) fails.push(`wall ${i + 1}: given brick text wrong`);
           }
         });
-        if (rows[n - 1][0] > 20) fails.push(`wall ${i + 1}: top ${rows[n - 1][0]} > 20`);
+        const capEl = document.querySelector('[data-lcs-topmax]');
+        const cap = capEl ? +capEl.dataset.lcsTopmax : 20;
+        if (rows[n - 1][0] > cap) fails.push(`wall ${i + 1}: top ${rows[n - 1][0]} > ${cap}`);
         if (blanks < n - 1) fails.push(`wall ${i + 1}: too few blanks`);
         // the top numeral is never printed
         // ⚠ This assertion FORBIDS EXACTLY WHAT THE topGiven FACE DOES, so it has

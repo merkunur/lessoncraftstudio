@@ -130683,7 +130683,7 @@
    "canonicalDeckSlug": "meningsbyggnad-frukter-g1282",
    "carousel": [
     {
-     "label": "Ordna orden utan ledtrådar – alla brickor med små bokstäver",
+     "label": "Ordna orden utan ledtrådar – små bokstäver utom namnen, inget skiljetecken",
      "href": "ordna-orden-utan-ledtradar"
     },
     {
@@ -130712,7 +130712,7 @@
     "level": "ak-1"
    },
    "eyebrow": "Arbetsblad ordna orden till en mening",
-   "h1": "Ordna orden utan ledtrådar – alla brickor med små bokstäver",
+   "h1": "Ordna orden utan ledtrådar – små bokstäver utom namnen, inget skiljetecken",
    "strand": "Språkets struktur",
    "standard": "L.1.1.j",
    "slotTokens": [

@@ -68,8 +68,13 @@ module.exports = {
       // guarantees the plural extends the stem, so the backward derivation is
       // well defined in every locale.
       const toSing = d.direction === 'toSingular';
+      // ⚠ `plurModel` names the model on the ANSWER lane, whichever lane that is.
+      // It was read only inside the one->many branch, so the reversed face could
+      // never drop its model — the 2x2 of {direction x model} had an unreachable
+      // corner. Generalised here rather than adding a second flag.
+      const answerReps = d.plurModel === false ? 0 : 1;
       const single = toSing
-        ? strokeWordLane({ text: e.sing, w: 160, h: d.laneH, glyphH: d.glyphSing, reps: 1, stack: true, modelless: true, emptyLast: true, align: 'center', padLeft: 0 })
+        ? strokeWordLane({ text: e.sing, w: 160, h: d.laneH, glyphH: d.glyphSing, reps: answerReps, stack: true, modelless: true, emptyLast: true, align: 'center', padLeft: 0 })
         : strokeWordLane({ text: e.sing, w: 160, h: d.glyphSing + 14, glyphH: d.glyphSing, reps: 1, stack: true, align: 'center', padLeft: 0 });
       // plurModel:false removes the DASHED model from the plural lane, leaving a
       // bare writing rail. That turns a motor task into a recall task: the child
@@ -135,8 +140,13 @@ module.exports = {
         // the plural is no longer the dashed one. Stamped only when declared.
         const toSing = row.dataset.lcsDirection === 'toSingular';
         const sPaths = [...sLane.querySelectorAll('path')];
+        const noModelRow = row.dataset.lcsPlurmodel === '0';
         if (toSing) {
-          if (!sPaths.length || sPaths.some((x) => !x.getAttribute('stroke-dasharray'))) fails.push(`row ${i + 1}: singular should be the dashed model`);
+          // mirrors the one->many arm: with no model there are NO paths at all,
+          // so "should be the dashed model" would fire on a correct page.
+          if (noModelRow) {
+            if (sPaths.length) fails.push(`row ${i + 1}: singular lane should carry no model at all`);
+          } else if (!sPaths.length || sPaths.some((x) => !x.getAttribute('stroke-dasharray'))) fails.push(`row ${i + 1}: singular should be the dashed model`);
           if (!sLane.dataset.lcsEmptySlot) fails.push(`row ${i + 1}: singular has no empty writing trio`);
         } else if (!sPaths.length || sPaths.some((x) => x.getAttribute('stroke-dasharray'))) fails.push(`row ${i + 1}: singular not solid`);
         // Three assertions branch on plurModel, and every one of them would fail a

@@ -424,6 +424,72 @@ const ROWS = [
   // words and copying them is not a Vorschule job.
   ['g1', 'G1-292', 'articles-sort-the-words', 'K-288-articles.js', 3, { sortWords: true, cards: 8 },
     'Sort the Words', 'Read every word. Write it under the word that belongs in front of it.'],
+
+  // ── wave 3 ───────────────────────────────────────────────────────────────
+  // A second pedagogy pass re-tested the 87 ceiling AFTER the eleven knobs
+  // existed — many of the first pass's refusals were "this would need a code
+  // change", and that premise had stopped being true. It found ten more, each
+  // probed across 11 locales x 4 themes x 3 seeds, and named nine families as
+  // genuinely exhausted with the measurement for each.
+
+  // doubles/halves at d3: `numeric:true` replaces the picture with a blank
+  // working panel. Every shipped doubles face puts a mirrored GROUP on the card,
+  // so the answer is reachable by counting objects; these are the fact pages.
+  ['g1', 'G1-298', 'doubles-only-numbers-to-20', 'G1-247-doubles-halves.js', 3, { ops: ['double'], cards: 8, dMin: 2, dMax: 10 },
+    'Doubles to 20', 'Write the double of each number.'],
+  ['g1', 'G1-299', 'halves-only-numbers-to-20', 'G1-247-doubles-halves.js', 3, { ops: ['half'], cards: 8, hMin: 2, hMax: 10 },
+    'Halves to 20', 'Split each number into two equal parts.'],
+
+  // noun vs ADJECTIVE is a different confusion from noun vs verb (the only
+  // two-bin face shipped). pics:false also closes an answer leak the noun/verb
+  // page carries: with pictures, only nouns get one, so the picture IS the answer.
+  ['g1', 'G1-300', 'word-classes-nouns-and-adjectives', 'G2-275-word-classes.js', 1,
+    { classes: ['noun', 'adj'], per: 5, pics: false, tiers: [1], lines: 6 },
+    'Naming Words and Describing Words', 'Sort each word into the right bin.'],
+
+  // the {bank, starter, boxes} cube ships five of eight corners; this is the
+  // entry rung below the dictee muette — segment the word with the spelling given.
+  ['g1', 'G1-301', 'write-the-word-bank-and-letter-boxes', 'G1-244-write-the-word.js', 2,
+    { bank: true, starter: false, boxes: true, cards: 6, cols: 2, rows: 3, maxLetters: 9 },
+    'Word Bank and Letter Boxes', 'Find the word in the bank. Write one letter in each box.'],
+
+  // both the boundary AND the mark are open. G2-307 fixes the mark at a full
+  // stop; G2-282 gives the boundary. This is the cell where neither is given.
+  ['g2', 'G2-311', 'fix-the-sentence-two-sentences-one-mark', 'G2-274-fix-the-sentence.js', 2,
+    { joinPairs: true, lanes: 3, ends: ['.', '?'], needQ: 1, needCaps: 1, rulH: 80 },
+    'Where Does It End?', 'Two sentences ran together. Split them and mark each one.'],
+
+  // intervals instead of lookup. `after` appears only inside d3's six-question
+  // mix and has never been a page's subject.
+  ['g2', 'G2-312', 'read-the-calendar-how-many-days-later', 'G2-277-read-the-calendar.js', 2,
+    { questions: ['stickerDate', 'after', 'weekLater', 'dayOfDate'], stickers: 3, cellH: 68 },
+    'How Many Days Later?', 'Use the calendar to work out each date.'],
+
+  // the only face in the family that reaches 100, and not a subset of any
+  // shipped label set. ⚠ chip 44 because a three-digit label needs the room.
+  ['g2', 'G2-314', 'dot-to-dot-count-by-tens', 'K-285-dot-to-dot.js', 1, { startAt: 10, step: 10, chip: 44 },
+    'Dot-to-Dot: Count by Tens', 'Join the dots counting in tens to 100.'],
+
+  // capitals with no dashed guide — the rung above tracing them. Unlocked by the
+  // traceable-after-uppercasing fix, which also repaired the live K-310.
+  ['k', 'K-315', 'word-tracing-copy-the-capitals', 'K-284-word-tracing.js', 3,
+    { case: 'upper', traceLane: false, rows: 3, minLetters: 2, maxLetters: 8, glyphH: 46, laneH: 58, pic: 120, cardW: 170, rowH: 230 },
+    'Copy the Capitals', 'Look at the capitals, then write them yourself.'],
+
+  // the 2x2 of {direction x model} had an unreachable corner: many-to-one with
+  // NO model. Removing an ending from memory is where the misconceptions live.
+  ['k', 'K-316', 'singular-plural-write-the-word-for-one', 'K-287-singular-plural.js', 3, { direction: 'toSingular', plurModel: false },
+    'Write the Word for One', 'Read the word for many, then write the word for one.'],
+
+  // two-digit addition inside the pyramid. Every shipped wall keeps the top under
+  // 20, so every brick is a within-20 fact; with a base of 5-12 the tops land
+  // between 40 and 96 and the upper courses need a written strategy. 2.NBT.B.5
+  // rather than 1.OA.C.6 — hence the G2 band. The earlier pass refused a FIVE-
+  // course wall for exceeding topMax arithmetically, which was right; it did not
+  // test raising the ceiling instead of the depth.
+  ['g2', 'G2-313', 'number-walls-to-100', 'G1-246-number-walls.js', 3,
+    { gap: false, courses: 4, walls: 4, baseMin: 5, baseMax: 12, topMax: 100 },
+    'Number Walls to 100', 'Each brick is the sum of the two under it.'],
 ];
 
 function emit(row) {

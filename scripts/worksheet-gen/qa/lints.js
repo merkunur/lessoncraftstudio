@@ -46,6 +46,34 @@ function runLints(page, { gradeBand }) {
       }
     });
 
+    // 1b. footer-band intrusion. The check above measures the PAGE BOX (945px);
+    // the attribution strip `.ws-foot` occupies the last ~24px of it, so content
+    // can clear the page edge and still be printed on top of the footer. That is
+    // a defect a teacher sees — answer boxes overlapping the attribution line —
+    // and nothing could catch it: the overflow lint passes, verify() passes, and
+    // a card-height calculation cannot see it because the CARD reports itself
+    // inside the page while its content spills past its own box.
+    // Measured on nt20-B-VAR: 2 of 83 English renders and one shipped base deck.
+    // Found by a native panel reading its own render, not by any gate.
+    const foot = document.querySelector('.ws-foot');
+    if (foot) {
+      const ft = foot.getBoundingClientRect().top;
+      let worst = null;
+      document.querySelectorAll('.ws-page *').forEach((el) => {
+        if (el === foot || foot.contains(el)) return;
+        if (!(el instanceof HTMLElement) && !(el instanceof SVGElement)) return;
+        const r = el.getBoundingClientRect();
+        if (r.width === 0 || r.height === 0) return;
+        if (r.bottom > ft + 0.6 && (!worst || r.bottom > worst.bottom)) {
+          worst = { bottom: r.bottom, tag: el.tagName.toLowerCase(), cls: el.className.baseVal || el.className };
+        }
+      });
+      if (worst) {
+        fails.push(`footer overlap: <${worst.tag} class="${worst.cls}"> reaches ` +
+          `${Math.round(worst.bottom)} against the attribution band at ${Math.round(ft)}`);
+      }
+    }
+
     // 2. broken images
     document.querySelectorAll('img').forEach((img) => {
       if (!img.complete || img.naturalWidth === 0) fails.push('broken image: ' + img.src.slice(-60));

@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-308',
   slug: 'dot-to-dot-count-back-from-10',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Dot-to-Dot: Count Back from 10", instruction: "Start at the orange dot and count backwards, 10, 9, 8, down to 1." } },
+  i18n: { en: { title: "Dot-to-Dot: Count Back from 10", instruction: "Ten numbered dots to join backwards; the rest of the outline is already drawn." } },
 };

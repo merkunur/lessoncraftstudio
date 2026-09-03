@@ -4,7 +4,7 @@ const base = require('./G2-277-read-the-calendar.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[3], ...{"questions":["dayOfDate","countWeekday","stickerDate","weekLater","after"],"sixRows":false} };
+const D = { ...base.difficulty[3], ...{"questions":["dayOfDate","countWeekday","stickerDate","weekLater","after"],"sixRows":false,"cellH":50} };
 module.exports = {
   ...base,
   id: 'G2-297',

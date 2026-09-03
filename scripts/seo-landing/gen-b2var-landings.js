@@ -136,7 +136,12 @@ const TYPES = {};
 for (const r of ROWS) {
   const id = r[1];
   const t = loadType(id);
-  TYPES[id] = { family: t.exerciseType, band: id.split('-')[0], standard: STANDARD[id] };
+  TYPES[id] = {
+    family: t.exerciseType, band: id.split('-')[0], standard: STANDARD[id],
+    // whether the face renders with a theme at all — see the themed-but-unpinned
+    // guard below
+    themed: !!(t.themeAxis && t.themeAxis.applicable),
+  };
   if (!(id in STANDARD)) fail('no STANDARD entry for ' + id);
 }
 // Only the ids this prose file actually carries. 64 faces is too much prose for
@@ -183,6 +188,20 @@ const themeName = (k) => {
   return (ax && ax.name && (ax.name[locale] || ax.name.en)) || k;
 };
 // the deck slug formula publish-cli uses: <family-slug>[-<theme-slug>]-<variantid>
+// ⚠ A THEMED FACE MUST BE PINNED, or its landing points at nothing. deckSlugFor
+// reads the theme from `themeOverrides` ONLY; a face themed by the wave's
+// positional round-robin therefore composes a slug with no theme segment, while
+// the published deck has one — a landing whose canonical deck does not exist,
+// across every locale at once. That is the failure that cost an 11-locale
+// republish, arriving through a different door. Measured clean for this batch
+// (0 of 36 mismatch their built deck) purely because gen-b2var-waves pins every
+// themed face; this asserts the convention instead of relying on it.
+for (const id of ORDER) {
+  if (TYPES[id].themed && !shippedTheme(id)) {
+    fail(`${id} is a themed face with no themeOverrides entry in wave-b2var-${locale}.json — ` +
+      'its deck slug would omit the theme segment and the landing would point at a deck that does not exist');
+  }
+}
 const deckSlugFor = (id) => {
   const theme = shippedTheme(id);
   return famSlug(TYPES[id].family) + (theme ? '-' + themeSlug(theme) : '') + '-' + id.toLowerCase().replace('-', '');

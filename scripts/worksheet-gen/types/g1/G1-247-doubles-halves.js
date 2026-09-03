@@ -43,8 +43,16 @@ module.exports = {
     const loc = (locale || 'en').slice(0, 2);
     const L = LABELS[loc] && LABELS[loc].doublesHalves;
     if (!L) throw new Error(`G1-247: no labels for ${loc}`);
-    const noun = rng.pick(safeNouns(theme, loc));
-    const src = fileUri(theme, noun.noun);
+    // A numeric face (d3: `icon: 0`, `numeric: true`) prints an empty dot panel
+    // and no pictures at all, so it may ship THEMELESS — and then there is no
+    // theme to resolve. Guarded on `theme` rather than on `d.numeric` so the
+    // themed path consumes the RNG in exactly the same order as before and the
+    // published coordinates stay byte-identical (b2-baseline: 0 drift).
+    const noun = theme ? rng.pick(safeNouns(theme, loc)) : null;
+    const src = theme ? fileUri(theme, noun.noun) : null;
+    if (!theme && !d.numeric) {
+      throw new Error('G1-247: a themeless face must be numeric — the picture path has no image source');
+    }
     const half = d.cards / 2;
     const dRange = []; for (let v = d.dMin; v <= d.dMax; v++) dRange.push(v);
     const hRange = []; for (let v = d.hMin; v <= d.hMax; v++) hRange.push(v);

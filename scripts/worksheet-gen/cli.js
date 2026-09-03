@@ -135,6 +135,18 @@ async function generate(args) {
         // asymmetric shapes, no mass rank, …) — retry the slot with the
         // remaining eligible themes before declaring failure.
         let recovered = false;
+        // ⚠ NEVER substitute a PINNED theme. themeOverrides names the theme the
+        // slug, title, instruction and landing page were all written against, so
+        // a substitution here ships a deck whose picture contradicts every one of
+        // them — K-310 shipped animals under a fruits pin exactly this way, and
+        // the THEME-RETRY line that recorded it was lost in a 1,100-deck log.
+        // Recovery stays correct for a round-robin theme, which was arbitrary.
+        if (it.themePinned) {
+          state.failed.push({ deckId: it.deckId, error: 'PINNED THEME FAILED: ' + e.message });
+          console.error('  ERROR ' + it.deckId + ': pinned theme "' + it.cacheTheme +
+            '" cannot render and MUST NOT be substituted — ' + e.message);
+          continue;
+        }
         if (it.cacheTheme) {
           const tried = new Set([it.cacheTheme]);
           const taken = assigned.get(slotKey(it)) || new Set();

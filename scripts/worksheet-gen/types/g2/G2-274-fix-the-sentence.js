@@ -42,7 +42,18 @@ module.exports = {
     if (!bank) throw new Error(`G2-274: no sentence bank for ${loc}`);
     const entries = entriesFor(theme, loc).filter(countable);
     const pool = bank.frames.filter((f) => f.kind === 'simple' && (f.uses || []).includes('fix'))
-      .filter((f) => { const end = SB.endMark(f.text); if (!d.ends.includes(end)) return false; if (end === '!' && !f.exclaimStrict) return false; return true; });
+      .filter((f) => { const end = SB.endMark(f.text); if (!d.ends.includes(end)) return false; if (end === '!' && !f.exclaimStrict) return false; return true; })
+      // ⚠ A question the child must MARK has to be recognisable as a question
+      // once its mark is stripped. English/Germanic/Nordic questions invert
+      // ("Is this your …", "Siehst du …") and Finnish carries -ko, so the word
+      // order itself is the cue; a WH-word is a cue in any language. But a
+      // Romance yes/no question has STATEMENT word order — "Você gosta de maçãs"
+      // is a perfectly good sentence — so once the "?" is removed there is
+      // nothing left to decide from and the page has no solution. Those frames
+      // carry `qUncued: true` in the bank and are refused wherever the page asks
+      // the child to supply the mark. Measured: all 4 pt question frames and 1 of
+      // 4 es are uncued; en/de/nl/fr/it/sv/da/no/fi are clean.
+      .filter((f) => !(d.needQ && f.qUncued && SB.endMark(f.text) === '?'));
     // choose frames: ≥ needCaps with a {name} (a capital inside), ≥ needQ questions at d3
     let frames = null, guard = 0;
     while (!frames && guard++ < 200) {
@@ -107,7 +118,12 @@ module.exports = {
         `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" style="width:${d.icon}px;height:${d.icon}px">` +
         `<div style="display:flex;flex-direction:column;gap:6px;min-width:0">` +
         `<div style="background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:5px 14px;font-family:'Nunito';font-weight:700;font-size:${d.font}px;color:#3A3530" data-lcs-broken>${broken}</div>` +
-        rulingBlock({ rows: 1, w: 660 - d.icon - 12 - 28, h: d.rulH, glyphH: d.glyphH }) + `</div></div>`;
+        // ⚠ TWO sentences need TWO lines. The run-on faces ask the child to write
+        // the pair out as two separate sentences and got a SINGLE rule — my
+        // `rulH: 80` made that one line taller, which is not the same thing and is
+        // exactly the kind of near-miss that reads as fixed. Found by the French
+        // panel reading the page rather than the config.
+        rulingBlock({ rows: d.joinPairs ? 2 : 1, w: 660 - d.icon - 12 - 28, h: d.rulH, glyphH: d.glyphH }) + `</div></div>`;
     });
     // Keyed on the CONFIG, not the difficulty index -- the same hole as the
     // name guard above, in the one line that guard did not cover. G2-281

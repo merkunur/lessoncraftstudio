@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-311',
   slug: 'fix-the-sentence-two-sentences-one-mark',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Two Sentences: Full Stop or Question Mark?", instruction: "Split the two sentences. End each with a full stop or a question mark." } },
+  i18n: { en: { title: "Two Sentences: Full Stop or Question Mark?", instruction: "Split the two sentences. End each with the right mark." } },
 };

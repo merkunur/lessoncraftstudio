@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-303',
   slug: 'write-the-word-letter-boxes-and-first-letter',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Letter Boxes and the First Letter", instruction: "Write each word in the letter boxes. The first letter starts you off." } },
+  i18n: { en: { title: "Letter Boxes and the First Letter", instruction: "Write each word in the letter boxes. The first letter is given." } },
 };

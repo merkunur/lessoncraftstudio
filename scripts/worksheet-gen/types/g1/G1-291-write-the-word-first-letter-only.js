@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-291',
   slug: 'write-the-word-first-letter-only',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Write the Word: Only the First Letter", instruction: "No word bank. The first letter is on the line to start you off." } },
+  i18n: { en: { title: "Write the Word: Only the First Letter", instruction: "No word bank. The first letter starts you off." } },
 };

@@ -4,7 +4,7 @@ const base = require('./G1-247-doubles-halves.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"ops":["double"],"cards":6,"dMin":5,"dMax":10,"icon":28,"perRow":5} };
+const D = { ...base.difficulty[2], ...{"ops":["double"],"cards":6,"dMin":5,"dMax":10,"icon":22,"perRow":5} };
 module.exports = {
   ...base,
   id: 'G1-296',

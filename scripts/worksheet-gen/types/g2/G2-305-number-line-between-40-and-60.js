@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-305',
   slug: 'number-line-between-40-and-60',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Where on the Number Line? 40 to 60", instruction: "This line does not start at zero. Count on from the nearest printed number." } },
+  i18n: { en: { title: "Where on the Number Line? 40 to 60", instruction: "This line does not start at zero. Count on from the nearest label." } },
 };

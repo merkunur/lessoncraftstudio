@@ -53,8 +53,21 @@ function lintLocale(locale) {
       warnings.push('strings: ' + id + ' identical to en ("' + en[id].title + '") — untranslated leak?');
     }
   }
+  // A type id is known if strings.en.json has it OR a spec module declares its
+  // own `i18n.en`. The nt20-VAR / nt20-B-VAR faces keep their English inline in
+  // the face module by design, so a strings.en-only test flagged all 36 of them
+  // in EVERY locale — the lint exited 1 at baseline everywhere, which is a lint
+  // nobody can read a signal out of. Found by a native panel, not by me: I had
+  // been telling panels to run it and treating its failure as expected noise.
+  const knownInSpec = (id) => {
+    try {
+      const { loadType } = require('../lib/load-types.js');
+      const spec = loadType(id);
+      return !!(spec && spec.i18n && spec.i18n.en && spec.i18n.en.title);
+    } catch (e) { return false; }
+  };
   for (const id of Object.keys(loc)) {
-    if (!en[id]) errors.push('strings: unknown type id ' + id + ' (not in strings.en.json)');
+    if (!en[id] && !knownInSpec(id)) errors.push('strings: unknown type id ' + id + ' (not in strings.en.json and no spec i18n.en)');
   }
 
   // per-band title uniqueness (build-en.js invariant, per locale)

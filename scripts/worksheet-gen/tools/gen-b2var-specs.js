@@ -291,7 +291,7 @@ const ROWS = [
   // dot-to-dot: `step` is one line in K-285.build. dotFigure has always taken it
   // and verify has always checked labels AND strip chips against start + i*step.
   ['k',  'K-308', 'dot-to-dot-count-back-from-10', 'K-285-dot-to-dot.js', 1, { startAt: 10, step: -1 },
-    'Dot-to-Dot: Count Back from 10', 'Join the numbered dots backwards from 10; the rest of the outline is already drawn.'],
+    'Dot-to-Dot: Count Back from 10', 'Join the numbered dots backwards from 10 to finish the picture.'],
   ['g1', 'G1-285', 'dot-to-dot-count-by-twos', 'K-285-dot-to-dot.js', 1, { startAt: 2, step: 2 },
     'Dot-to-Dot: Count by Twos', 'Join the numbered dots in twos; the rest of the outline is already drawn.'],
   ['g1', 'G1-294', 'dot-to-dot-count-back-from-20', 'K-285-dot-to-dot.js', 1, { startAt: 20, step: -1, window: null },
@@ -306,7 +306,7 @@ const ROWS = [
   // PARAM faces on levels the waves have never published.
   ['g1', 'G1-291', 'write-the-word-first-letter-only', 'G1-244-write-the-word.js', 1,
     { bank: false, starter: true, cards: 6, maxLetters: 12, pic: 80, glyphH: 30, rulingW: 214 },
-    'Write the Word: Only the First Letter', 'No word bank. The first letter is on the line to start you off.'],
+    'Write the Word: Only the First Letter', 'No word bank. The first letter starts you off.'],
   ['g1', 'G1-286', 'doubles-and-halves-pictures-to-20', 'G1-247-doubles-halves.js', 2,
     { cards: 4, cols: 2, rows: 2, dMin: 5, dMax: 10, hMin: 5, hMax: 10, icon: 20, perRow: 5, numeric: false },
     // TWO measured constraints, and they pull against each other.
@@ -324,7 +324,7 @@ const ROWS = [
     //     band starting at 921 — the icon was never the dominant term, the pill
     //     and the 48px equation row were. Two columns halve the vertical demand
     //     instead of shaving it.
-    'Doubles and Halves with Pictures to 20', 'Some cards ask you to double a group, and some ask you to halve one.'],
+    'Doubles and Halves with Pictures to 20', 'Some cards ask for the double, others for the half.'],
 
   // number-lines: `min` is two lines in G1-248.build (plus the label test made
   // relative to min, which the render has always required). Every shipped face
@@ -332,7 +332,7 @@ const ROWS = [
   // fallback and forces the landmark strategy.
   ['g2', 'G2-305', 'number-line-between-40-and-60', 'G1-248-number-line-position.js', 2,
     { min: 40, max: 60, lines: 3, tick: 1, label: 5, pointers: 2, gap: 3 },
-    'Where on the Number Line? 40 to 60', 'This line does not start at zero. Count on from the nearest printed number.'],
+    'Where on the Number Line? 40 to 60', 'This line does not start at zero. Count on from the nearest label.'],
   // MEASURED: at tick 5 / label 2 this range offers only FOUR unlabelled ticks
   // (65, 75, 85, 95) against six pointers with page-wide no-repeat, so it cannot
   // build — and the pairs that would fit violate gap 3. Unit ticks give 32
@@ -374,7 +374,7 @@ const ROWS = [
   // trace. Removing the model turns a motor task into a recall task — the child
   // produces the ending from the singular and the crowd of pictures alone.
   ['k', 'K-314', 'singular-plural-write-it-yourself', 'K-287-singular-plural.js', 3, { plurModel: false, rowH: 166 },
-    'One and Many: Write It Yourself', 'No dashed letters this time. Write the word for many on the empty line.'],
+    'One and Many: Write It Yourself', 'No dashed letters. Write the word that means more than one.'],
 
   // word-classes two-bin entry rung. All three shipped faces are three-bin; a
   // two-way noun/verb sort is where the sequence starts, and it takes a G1 id
@@ -397,7 +397,7 @@ const ROWS = [
   // capitals sit at capTop 16, SHORTER than an ascender, so caps cannot overflow
   // a lane sized for lowercase.
   ['k', 'K-310', 'word-tracing-capital-letters', 'K-284-word-tracing.js', 1, { case: 'upper' },
-    'Trace the Words in Capital Letters', 'Trace each word in big capital letters, then write it yourself.'],
+    'Trace the Words in Capital Letters', 'Trace each word in capitals, then write it yourself.'],
 
   // number-walls from the top down. Every shipped face gives the base and builds
   // upward by addition; giving the apex inverts the operation to subtraction.
@@ -432,7 +432,7 @@ const ROWS = [
   // 6 distinct frames three paired lanes need.
   ['g2', 'G2-307', 'fix-the-sentence-where-does-it-end', 'G2-274-fix-the-sentence.js', 2,
     { joinPairs: true, lanes: 3, ends: ['.'], needCaps: 1, rulH: 48, glyphH: 22, icon: 40 },
-    'Fix the Sentence: Where Does It End?', 'Two sentences have run together. Write them again as two sentences.'],
+    'Fix the Sentence: Where Does It End?', 'Two sentences ran together. Write them as two sentences.'],
 
   // articles SORT: all the nouns against the same categories at once, read rather
   // than named — there is no picture to lean on. A G1 id because reading printed
@@ -483,7 +483,7 @@ const ROWS = [
   // stop; G2-282 gives the boundary. This is the cell where neither is given.
   ['g2', 'G2-311', 'fix-the-sentence-two-sentences-one-mark', 'G2-274-fix-the-sentence.js', 2,
     { joinPairs: true, lanes: 3, ends: ['.', '?'], needQ: 1, needCaps: 1, rulH: 48, glyphH: 22, icon: 40 },
-    'Two Sentences: Full Stop or Question Mark?', 'Split the two sentences. End each with a full stop or a question mark.'],
+    'Two Sentences: Full Stop or Question Mark?', 'Split the two sentences. End each with the right mark.'],
 
   // intervals instead of lookup. `after` appears only inside d3's six-question
   // mix and has never been a page's subject.
@@ -529,14 +529,14 @@ const ROWS = [
   // which one starts it. Finding the start from the end is a different search
   // from finding the end from the start.
   ['g1', 'G1-302', 'unscramble-the-sentence-end-mark-only', 'G1-249-unscramble-sentence.js', 2, { showCap: false, showEnd: true },
-    'Unscramble the Sentence: Find the Beginning', 'One tile carries the end mark. Work out which word starts the sentence.'],
+    'Unscramble the Sentence: Find the Beginning', 'Find the first word: one tile shows the end mark.'],
 
   // write-the-word is a 2x2x2 of {bank, starter, boxes} and six corners ship.
   // These are the other two. The family's own logic — used to justify G1-291 and
   // G1-301 — is that each corner is a measurably different amount of help.
   ['g1', 'G1-303', 'write-the-word-letter-boxes-and-first-letter', 'G1-244-write-the-word.js', 2,
     { bank: false, starter: true, boxes: true, cards: 6, cols: 2, rows: 3, maxLetters: 9 },
-    'Letter Boxes and the First Letter', 'Write each word in the letter boxes. The first letter starts you off.'],
+    'Letter Boxes and the First Letter', 'Write each word in the letter boxes. The first letter is given.'],
   ['g1', 'G1-304', 'write-the-word-every-clue', 'G1-244-write-the-word.js', 2,
     { bank: true, starter: true, boxes: true, cards: 6, cols: 2, rows: 3, maxLetters: 9 },
     'Write the Word: Every Clue', 'Write each word using the bank, the boxes and the first letter.'],

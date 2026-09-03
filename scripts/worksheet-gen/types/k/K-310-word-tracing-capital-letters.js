@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-310',
   slug: 'word-tracing-capital-letters',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Trace the Words in Capital Letters", instruction: "Trace each word in big capital letters, then write it yourself." } },
+  i18n: { en: { title: "Trace the Words in Capital Letters", instruction: "Trace each word in capitals, then write it yourself." } },
 };

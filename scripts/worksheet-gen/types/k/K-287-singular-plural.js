@@ -62,13 +62,19 @@ module.exports = {
     const rows = picks.map((e) => {
       const n = rng.pick(d.clones);
       const single = strokeWordLane({ text: e.sing, w: 160, h: d.glyphSing + 14, glyphH: d.glyphSing, reps: 1, stack: true, align: 'center', padLeft: 0 });
-      const plural = strokeWordLane({ text: e.plur, w: 440, h: d.laneH, glyphH: d.glyphPlur, reps: 1, stack: true, modelless: true, emptyLast: true, padLeft: 8 });
+      // plurModel:false removes the DASHED model from the plural lane, leaving a
+      // bare writing rail. That turns a motor task into a recall task: the child
+      // must produce the ending from the singular and the crowd of pictures
+      // alone, which is the step between tracing and independent spelling.
+      // `reps: 0` is a path the primitive already supports (K-284 uses it for
+      // its extra empty lane), so this is a parameter, not a new code path.
+      const plural = strokeWordLane({ text: e.plur, w: 440, h: d.laneH, glyphH: d.glyphPlur, reps: d.plurModel === false ? 0 : 1, stack: true, modelless: true, emptyLast: true, padLeft: 8 });
       const clones = Array.from({ length: n }, (_, k) => {
         const rot = ((k - (n - 1) / 2) * 6).toFixed(1);
         return `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${e.vocabKey}" style="width:${d.picClone}px;height:${d.picClone}px;transform:rotate(${rot}deg)">`;
       }).join('');
       return `<div class="ws-card" style="flex-direction:row;height:${d.rowH}px;padding:8px 10px;gap:12px;align-items:center" ` +
-        `data-lcs-row data-lcs-vocab="${e.vocabKey}" data-lcs-singular="${e.sing}" data-lcs-plural="${e.plur}" data-lcs-n="${n}">` +
+        `data-lcs-row data-lcs-vocab="${e.vocabKey}" data-lcs-singular="${e.sing}" data-lcs-plural="${e.plur}" data-lcs-n="${n}"${d.plurModel === false ? ' data-lcs-plurmodel="0"' : ''}>` +
         `<div style="width:176px;display:flex;flex-direction:column;align-items:center;gap:6px;position:relative" data-lcs-side="one">` +
         `<div style="position:relative;margin:10px 0 0 10px">${countBadge(1)}<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${e.vocabKey}" style="width:${d.picSingle}px;height:${d.picSingle}px"></div>` +
         `${single.svg}</div>` +
@@ -115,12 +121,23 @@ module.exports = {
         if (!sLane || !pLane) { fails.push(`row ${i + 1}: lanes missing`); return; }
         const sPaths = [...sLane.querySelectorAll('path')];
         if (!sPaths.length || sPaths.some((x) => x.getAttribute('stroke-dasharray'))) fails.push(`row ${i + 1}: singular not solid`);
+        // Three assertions branch on plurModel, and every one of them would fail a
+        // CORRECT no-model page: with reps 0 there are no paths at all, so
+        // "plural has a solid stroke" fires on an empty set, and the trio count
+        // is 1 rather than 2. The stamp is emitted only when the face declares
+        // it, so the default assertions are unchanged in strength.
+        const noModel = row.dataset.lcsPlurmodel === '0';
         const pPaths = [...pLane.querySelectorAll('path')];
-        if (!pPaths.length || pPaths.some((x) => !x.getAttribute('stroke-dasharray'))) fails.push(`row ${i + 1}: plural has a solid stroke`);
-        if (!pLane.dataset.lcsEmptySlot) fails.push(`row ${i + 1}: no empty writing trio`);
         const trios = pLane.querySelectorAll(':scope > g');
-        if (trios.length !== 2) fails.push(`row ${i + 1}: ${trios.length} trios, want 2`);
-        if (trios[1] && trios[1].querySelectorAll('path').length) fails.push(`row ${i + 1}: empty trio has strokes`);
+        if (noModel) {
+          if (pPaths.length) fails.push(`row ${i + 1}: plural lane should carry no model at all`);
+          if (trios.length !== 1) fails.push(`row ${i + 1}: ${trios.length} trios, want 1`);
+        } else {
+          if (!pPaths.length || pPaths.some((x) => !x.getAttribute('stroke-dasharray'))) fails.push(`row ${i + 1}: plural has a solid stroke`);
+          if (trios.length !== 2) fails.push(`row ${i + 1}: ${trios.length} trios, want 2`);
+          if (trios[1] && trios[1].querySelectorAll('path').length) fails.push(`row ${i + 1}: empty trio has strokes`);
+        }
+        if (!pLane.dataset.lcsEmptySlot) fails.push(`row ${i + 1}: no empty writing trio`);
         if (row.querySelectorAll('[data-lcs-prim="trace-word"] text').length) fails.push(`row ${i + 1}: word printed as <text>`);
         // the plural never appears as visible text on the row
         const txt = row.textContent;

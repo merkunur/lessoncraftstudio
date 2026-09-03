@@ -64,7 +64,8 @@ const THEME = {
 
   // ── wave 2 ───────────────────────────────────────────────────────────────
   'K-311': 'animals',                                 // K-284 word-tracing
-  'G1-286': 'toys',                                   // G1-247 doubles-halves
+  'G1-286': 'toys', 'G1-287': 'fruits', 'G1-288': 'animals',
+  'G1-296': 'vehicles', 'G1-297': 'toys',             // G1-247 doubles-halves
   'G1-291': 'animals',                                // G1-244 write-the-word
   // G2-306 rides ANIMALS deliberately, repeating G2-281's theme rather than
   // varying it: the fix frames include "{name} feeds the {noun}", which has no

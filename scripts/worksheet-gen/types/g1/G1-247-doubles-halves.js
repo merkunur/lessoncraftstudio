@@ -48,14 +48,31 @@ module.exports = {
     const half = d.cards / 2;
     const dRange = []; for (let v = d.dMin; v <= d.dMax; v++) dRange.push(v);
     const hRange = []; for (let v = d.hMin; v <= d.hMax; v++) hRange.push(v);
-    const doubles = rng.sample(dRange, half), halves = rng.sample(hRange, half);
+    // `ops` lets a face be doubles-ONLY or halves-ONLY. The base always builds
+    // cards/2 of each, so every shipped face mixes — but doubling and halving are
+    // taught on different days and a teacher prints the single-move fluency sheet
+    // far more often than the mixed one.
+    // ⚠ The default path must consume the RNG in exactly the same order, so the
+    // two rng.sample calls stay in place and in sequence when `ops` is absent
+    // (b2-baseline: 0 drift).
+    const ops = d.ops || ['double', 'half'];
+    const solo = ops.length === 1;
+    const nD = ops.includes('double') ? (solo ? d.cards : half) : 0;
+    const nH = ops.includes('half') ? (solo ? d.cards : half) : 0;
+    const doubles = nD ? rng.sample(dRange, nD) : [];
+    const halves = nH ? rng.sample(hRange, nH) : [];
+    // Stamped ONLY when a face declares ops, so the default DOM is byte-identical.
+    const opsAttr = d.ops ? ` data-lcs-ops="${ops.join(',')}"` : '';
     const pill = (key) => `<span style="display:inline-flex;align-items:center;justify-content:center;background:#FBE3D8;border-radius:12px;padding:2px 14px;font-family:'Nunito';font-weight:800;font-size:14px;color:#3A3530" data-lcs-pill="${key}">${L[key]}</span>`;
     const cards = [];
-    for (let i = 0; i < half; i++) {
+    for (let i = 0; i < Math.max(nD, nH); i++) {
+      if (i < nD) {
       const n = doubles[i];
       const stage = d.numeric ? dotPanel({ w: 250, h: 56 }) : `<div style="background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:10px;width:100%">${mirrorGroups({ src, n, iconPx: d.icon, perRow: Math.ceil(n / Math.ceil(n / d.perRow)) })}</div>`;
-      cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:8px;justify-content:space-evenly" data-lcs-op="double" data-lcs-n="${n}">${pill('double')}${stage}` +
+      cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:8px;justify-content:space-evenly" data-lcs-op="double" data-lcs-n="${n}"${opsAttr}>${pill('double')}${stage}` +
         `<div style="display:flex;align-items:center;gap:8px" data-lcs-strip>${NUM(n)}${OP('+')}${NUM(n)}${OP('=')}${answerBox({ w: 64, h: 48, answer: 2 * n })}</div></div>`);
+      }
+      if (i >= nH) continue;
       const m = halves[i];
       let hstage = d.numeric ? dotPanel({ w: 250, h: 56 }) : '';
       if (!d.numeric) {
@@ -64,7 +81,7 @@ module.exports = {
         hstage = `<div style="background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:10px;width:100%;display:flex;flex-direction:column;align-items:center;gap:6px">${row()}` +
           `<svg width="${w + 20}" height="10" viewBox="0 0 ${w + 20} 10" aria-hidden="true"><line x1="2" y1="5" x2="${w + 18}" y2="5" stroke="#F2784B" stroke-width="2.5" stroke-dasharray="7 5"/><line x1="2" y1="1" x2="2" y2="9" stroke="#F2784B" stroke-width="2.5"/><line x1="${w + 18}" y1="1" x2="${w + 18}" y2="9" stroke="#F2784B" stroke-width="2.5"/></svg>${row()}</div>`;
       }
-      cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:8px;justify-content:space-evenly" data-lcs-op="half" data-lcs-n="${m}">${pill('half')}${hstage}` +
+      cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:8px;justify-content:space-evenly" data-lcs-op="half" data-lcs-n="${m}"${opsAttr}>${pill('half')}${hstage}` +
         `<div style="display:flex;align-items:center;gap:8px" data-lcs-strip>${NUM(2 * m)}${OP('=')}${answerBox({ w: 64, h: 48, answer: m })}${OP('+')}${answerBox({ w: 64, h: 48, answer: m })}</div></div>`);
     }
     return { bodyHtml: cardGrid({ cards, cols: d.cols, rows: d.rows }), meta: { doubles, halves } };
@@ -104,8 +121,14 @@ module.exports = {
         if (boxes.some((b) => b < 1 || b > 20)) fails.push(`card ${i + 1}: answer out of band`);
       });
       const pills = new Set([...document.querySelectorAll('[data-lcs-pill]')].map((p) => p.textContent.trim()));
-      if (pills.size !== 2) fails.push('the two pill labels are not distinct');
-      if (!seen.double.size || !seen.half.size) fails.push('missing an op');
+      // Both of these were hardcoded to the mixed page and BOTH had to move.
+      // The second is the one that is easy to miss: a single-op page has exactly
+      // ONE pill label, so `pills.size !== 2` would fail a correct sheet.
+      const declared = (items[0] && items[0].dataset.lcsOps)
+        ? items[0].dataset.lcsOps.split(',') : ['double', 'half'];
+      if (pills.size !== declared.length) fails.push(`${pills.size} distinct pill label(s), want ${declared.length}`);
+      declared.forEach((o) => { if (!seen[o] || !seen[o].size) fails.push(`missing declared op ${o}`); });
+      items.forEach((it, i) => { if (!declared.includes(it.dataset.lcsOp)) fails.push(`card ${i + 1}: undeclared op ${it.dataset.lcsOp}`); });
       return fails;
     });
   },

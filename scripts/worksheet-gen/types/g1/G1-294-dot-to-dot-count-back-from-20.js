@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-294',
   slug: 'dot-to-dot-count-back-from-20',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Dot-to-Dot: Count Back from 20", instruction: "Count backwards the whole way, 20, 19, 18, down to 1." } },
+  i18n: { en: { title: "Dot-to-Dot: Count Back from 20", instruction: "Every dot is numbered here, and the whole way is backwards." } },
 };

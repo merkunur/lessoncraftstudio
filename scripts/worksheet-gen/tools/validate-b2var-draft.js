@@ -26,7 +26,17 @@ const fs = require('fs');
 const path = require('path');
 const ROOT = path.join(__dirname, '..');
 
-const WORKSHEET_WORD = /arbeitsblatt|worksheet|werkblad|arbetsblad|arbejdsark|arbeidsark|feuille|ficha|scheda|tehtäv/i;
+// fr appends "Fiche d'exercices", so `fiche` is the token that matters here — `feuille` is
+// a word the engine never appends in any locale and `ficha` is Spanish, so before this the
+// French guard was checking for two words that cannot collide and missing the one that can.
+// Bounded with a Unicode lookaround so it cannot fire inside "affiche" or "fichier".
+// Poison-tested BOTH ways: "Fiche des nombres" FIRES; "Affiche des nombres", "Fichier de
+// mots" and every shipped title in all 11 locales stay CLEAN (0 match today).
+// STILL OPEN: es appends "Hoja de ejercicios" and pt "Folha de exercicios", and neither
+// `hoja` nor `folha` is in this list — those two locales have NO effective guard. Not
+// widened here because in both languages that word also means LEAF, so a legitimate
+// autumn-theme title would be condemned; the shape of that ban is the es/pt panels' call.
+const WORKSHEET_WORD = /arbeitsblatt|worksheet|werkblad|arbetsblad|arbejdsark|arbeidsark|feuille|(?<!\p{L})fiches?(?!\p{L})|ficha|scheda|tehtäv/iu;
 const TITLE_MAX = 70;
 const INSTR_MAX = 150;
 

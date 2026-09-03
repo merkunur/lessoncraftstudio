@@ -41,7 +41,17 @@ const FAMILIES = ['word-tracing', 'dot-to-dot', 'grid-copy', 'singular-plural', 
 const FIGURES = ['star', 'house', 'boat', 'rocket', 'fish', 'kite', 'heart', 'butterfly', 'tree', 'car', 'cat', 'ice-cream', 'umbrella', 'whale', 'sailboat', 'crown', 'duck', 'flag', 'cup', 'boot', 'key', 'cherries', 'elephant', 'bird', 'giraffe'];
 const WAVE_THEMES = ['fruits', 'vehicles', 'toys', 'animals'];
 const BW_THEMES = ['animals bw', 'fruits bw', 'farm animals bw', 'toys bw'];
-const WORKSHEET_WORD = /arbeitsblatt|worksheet|werkblad|arbetsblad|arbejdsark|arbeidsark|feuille|ficha|scheda|tehtäv/i;
+// fr appends "Fiche d'exercices", so `fiche` is the token that matters here — `feuille` is
+// a word the engine never appends in any locale and `ficha` is Spanish, so before this the
+// French guard was checking for two words that cannot collide and missing the one that can.
+// Bounded with a Unicode lookaround so it cannot fire inside "affiche" or "fichier".
+// Poison-tested BOTH ways: "Fiche des nombres" FIRES; "Affiche des nombres", "Fichier de
+// mots" and every shipped title in all 11 locales stay CLEAN (0 match today).
+// STILL OPEN: es appends "Hoja de ejercicios" and pt "Folha de exercicios", and neither
+// `hoja` nor `folha` is in this list — those two locales have NO effective guard. Not
+// widened here because in both languages that word also means LEAF, so a legitimate
+// autumn-theme title would be condemned; the shape of that ban is the es/pt panels' call.
+const WORKSHEET_WORD = /arbeitsblatt|worksheet|werkblad|arbetsblad|arbejdsark|arbeidsark|feuille|(?<!\p{L})fiches?(?!\p{L})|ficha|scheda|tehtäv/iu;
 const CAL_SLOTS = { dayOfDate: ['date'], countWeekday: ['dayPlural'], stickerDate: ['sticker'], weekLater: ['date'], daysInMonth: [], firstDay: [], lastDay: [], after: ['stickerA', 'stickerB'] };
 
 function slotsOf(text) { return [...String(text).matchAll(/\{([a-zA-Z0-9]+)\}/g)].map((m) => m[1]); }

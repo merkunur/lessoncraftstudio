@@ -222,7 +222,17 @@ const ROWS = [
   // and it keeps the two question kinds unique to it (a week later, and how many
   // days after one sticker the other falls). sixRows is off for the same reason:
   // a six-week grid is taller and leaves Norwegian no room for its cards.
-  ['g2', 'G2-297', 'read-the-calendar-a-busy-month', 'G2-277-read-the-calendar.js', 3, { questions: ['dayOfDate', 'countWeekday', 'stickerDate', 'weekLater', 'after'], sixRows: false },
+  ['g2', 'G2-297', 'read-the-calendar-a-busy-month', 'G2-277-read-the-calendar.js', 3, { questions: ['dayOfDate', 'countWeekday', 'stickerDate', 'weekLater', 'after'], sixRows: false, cellH: 50 },
+    // cellH: 50, and the number is MEASURED rather than borrowed. Without it the
+    // five question cards pushed content to 933 against a footer band starting
+    // at 921 in en and pt — the two locales with the longest question text. Only
+    // 12px, and invisible to the page-box lint, which measures the 945 page edge
+    // and not the 921 footer; a native panel reading its own render found it.
+    // ⚠ My first attempt copied the siblings' cellH: 72 on the assumption it was
+    // a shrink. It is a GROWTH: G2-277.build defaults to
+    // `d.cellH || (sixRows || rows === 6 ? 54 : 58)`, so this face was already
+    // at 54 and 72 pushed it clean off the page in nine locales. Read the
+    // default before overriding it.
     'Read the Calendar: A Busy Month', 'Find the date one week later, and count the days between the stickers.'],
   ['g2', 'G2-298', 'read-the-calendar-days-of-the-week', 'G2-277-read-the-calendar.js', 1, { questions: ['dayOfDate', 'countWeekday', 'firstDay', 'lastDay'], stickers: 2, cellH: 72 },
     'Read the Calendar: Days of the Week', 'Every question is about the days. Read down the columns.'],
@@ -230,7 +240,13 @@ const ROWS = [
   // ---------------- G2-278 picture-writing ----------------
   ['g2', 'G2-299', 'write-about-the-picture-what-you-see', 'G2-278-write-about-the-picture.js', 1, {},
     'Write About the Picture: What You See', 'Sentence starters help you begin. The word bank names everything.'],
-  ['g2', 'G2-300', 'write-about-the-picture-your-own-words', 'G2-278-write-about-the-picture.js', 3, {},
+  // rowH 58 -> 56. The base d3 config this face inherits overlaps the attribution
+  // band in TEN of eleven locales (all but `no`) — six writing rows at 58px push
+  // content to ~925 against a footer starting at 921. Only 4px, and invisible to
+  // the page-box lint, which measures the 945 page edge. Six rows x 2px is triple
+  // the margin needed. Fixed HERE rather than on the base, because the base wave
+  // ships d2 and nothing else uses d3.
+  ['g2', 'G2-300', 'write-about-the-picture-your-own-words', 'G2-278-write-about-the-picture.js', 3, { rowH: 56 },
     'Write About the Picture: Your Own Words', 'No sentence starters this time. Use the word bank and write your own story.'],
 
   // ---------------- G2-279 grid-coordinates ----------------
@@ -275,13 +291,13 @@ const ROWS = [
   // dot-to-dot: `step` is one line in K-285.build. dotFigure has always taken it
   // and verify has always checked labels AND strip chips against start + i*step.
   ['k',  'K-308', 'dot-to-dot-count-back-from-10', 'K-285-dot-to-dot.js', 1, { startAt: 10, step: -1 },
-    'Dot-to-Dot: Count Back from 10', 'Start at the orange dot and count backwards, 10, 9, 8, down to 1.'],
+    'Dot-to-Dot: Count Back from 10', 'Ten numbered dots to join backwards; the rest of the outline is already drawn.'],
   ['g1', 'G1-285', 'dot-to-dot-count-by-twos', 'K-285-dot-to-dot.js', 1, { startAt: 2, step: 2 },
-    'Dot-to-Dot: Count by Twos', 'Join the dots counting in twos: 2, 4, 6, up to 20.'],
+    'Dot-to-Dot: Count by Twos', 'Ten numbered dots counting in twos; the rest of the outline is already drawn.'],
   ['g1', 'G1-294', 'dot-to-dot-count-back-from-20', 'K-285-dot-to-dot.js', 1, { startAt: 20, step: -1, window: null },
-    'Dot-to-Dot: Count Back from 20', 'Count backwards the whole way, 20, 19, 18, down to 1.'],
+    'Dot-to-Dot: Count Back from 20', 'Every dot is numbered here, and the whole way is backwards.'],
   ['g2', 'G2-304', 'dot-to-dot-count-by-fives', 'K-285-dot-to-dot.js', 1, { startAt: 5, step: 5 },
-    'Dot-to-Dot: Count by Fives', 'Join the dots counting in fives: 5, 10, 15, up to 50.'],
+    'Dot-to-Dot: Count by Fives', 'Ten numbered dots counting in fives; the rest of the outline is already drawn.'],
 
   // word-tracing: traceLane:false drops the dashed lane from the caption variant.
   ['k',  'K-311', 'word-tracing-copy-the-word', 'K-284-word-tracing.js', 3, { traceLane: false },
@@ -292,7 +308,7 @@ const ROWS = [
     { bank: false, starter: true, cards: 6, maxLetters: 12, pic: 80, glyphH: 30, rulingW: 214 },
     'Write the Word: Only the First Letter', 'No word bank. The first letter is on the line to start you off.'],
   ['g1', 'G1-286', 'doubles-and-halves-pictures-to-20', 'G1-247-doubles-halves.js', 2,
-    { cards: 4, cols: 1, rows: 4, dMin: 5, dMax: 10, hMin: 5, hMax: 10, icon: 24, perRow: 5, numeric: false },
+    { cards: 4, cols: 2, rows: 2, dMin: 5, dMax: 10, hMin: 5, hMax: 10, icon: 20, perRow: 5, numeric: false },
     // TWO measured constraints, and they pull against each other.
     // (1) THE CARD COUNT MUST BE EVEN: `const half = d.cards / 2` in G1-247.build,
     //     so cards:3 renders a phantom fourth card and verify reports "answer NaN".
@@ -301,8 +317,13 @@ const ROWS = [
     //     the spill is invisible to any card-height arithmetic and only the
     //     page-box lint sees it. icon 24 reclaims two picture-row heights on the
     //     doubles stage and one on the halves stage.
-    // cols:1 is load-bearing separately: the halves stage is a single
-    // non-wrapping flex row, and ten icons cannot fit a half-width card.
+    // (3) cols:2 became possible only AT icon 20. The halves stage is a single
+    //     non-wrapping flex row, so ten icons need 10*icon + 9*gap: 454px at
+    //     icon 40 and 254px at icon 20, against a ~320px half-width card. At
+    //     icon 24 in one column the content still reached 930 against a footer
+    //     band starting at 921 — the icon was never the dominant term, the pill
+    //     and the 48px equation row were. Two columns halve the vertical demand
+    //     instead of shaving it.
     'Doubles and Halves with Pictures to 20', 'Count the bigger groups, double them, and halve them.'],
 
   // number-lines: `min` is two lines in G1-248.build (plus the label test made

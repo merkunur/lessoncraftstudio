@@ -1901,7 +1901,7 @@
   },
   "G1-302": {
     "title": "Ordene a frase: qual palavra começa?",
-    "instruction": "O sinal final já está: ordene."
+    "instruction": "O sinal fecha a frase: ordene."
   },
   "G1-303": {
     "title": "Escreva o nome com os quadradinhos",

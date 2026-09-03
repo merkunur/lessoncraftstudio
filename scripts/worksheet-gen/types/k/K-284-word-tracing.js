@@ -38,6 +38,13 @@ module.exports = {
     let pool = entriesFor(theme, loc).map((e) => ({ ...e, word: displayWord(e.singular, loc) }))
       .filter((e) => traceable(e.word))
       .filter((e) => [...e.word].length <= d.maxLetters && [...e.word].length >= (d.minLetters || 2));
+    // `case: 'upper'` traces the word in block capitals. A different motor task,
+    // not a harder one, and the FIRST hand taught in several of these systems —
+    // data/tracing/letter-sets.js records the French panel's note that GS traces
+    // CAPITALES d'imprimerie first. Applied after the length filter so the pool is
+    // chosen on the real word, and with the LOCALE's caser so Turkish-style dotted
+    // i rules would be honoured if such a locale is ever added.
+    if (d.case === 'upper') pool = pool.map((e) => ({ ...e, word: e.word.toLocaleUpperCase(loc) }));
     pool = distinctByWord(pool, (e) => e.word);
     if (pool.length < d.rows) {
       // d1 fallback: the shortest words when the theme has few ≤5-letter nouns
@@ -74,7 +81,7 @@ module.exports = {
         ? strokeWordLane({ text: e.word, w: laneW, h: d.laneH, glyphH: d.glyphH, reps: 0, stack: true, emptyLast: true, padLeft: 10 }).svg
         : '';
       return `<div class="ws-trace-lane" style="display:flex;align-items:center;gap:14px;height:${d.rowH}px" ` +
-        `data-lcs-word="${e.word}" data-lcs-vocab="${e.vocabKey}" data-lcs-case="${/^\p{Lu}/u.test(e.word) ? 'upper' : 'lower'}">` +
+        `data-lcs-word="${e.word}" data-lcs-vocab="${e.vocabKey}" data-lcs-case="${/^\p{Lu}/u.test(e.word) ? 'upper' : 'lower'}"${d.case ? ` data-lcs-casemode="${d.case}"` : ''}>` +
         card + `<div style="display:flex;flex-direction:column;gap:2px" data-lcs-lanes>${lane.svg}${extraEmpty}</div></div>`;
     });
     return {
@@ -99,7 +106,16 @@ module.exports = {
         if (!/^[\p{L}][\p{L} '’-]{0,15}$/u.test(word)) fails.push(`row ${i + 1}: suspicious word "${word}"`);
         const first = [...word][0];
         const isUpper = first !== first.toLowerCase();
-        if ((lang === 'de') !== isUpper) fails.push(`row ${i + 1}: case rule (${lang}) violated for "${word}"`);
+        // ⚠ WITHOUT THIS BRANCH THE ASSERTION FAILS A CORRECT PAGE IN TEN OF
+        // ELEVEN LOCALES. It encodes 'German capitalises nouns, nobody else does',
+        // which is right for the default pool and exactly wrong for a face whose
+        // whole subject is block capitals. The mode is stamped only when declared.
+        const caseMode = row.dataset.lcsCasemode;
+        if (caseMode === 'upper') {
+          if ([...word].some((ch) => ch.toLocaleLowerCase(lang) === ch && ch.toLocaleUpperCase(lang) !== ch)) {
+            fails.push(`row ${i + 1}: "${word}" is not all capitals`);
+          }
+        } else if ((lang === 'de') !== isUpper) fails.push(`row ${i + 1}: case rule (${lang}) violated for "${word}"`);
         if (row.dataset.lcsCase !== (isUpper ? 'upper' : 'lower')) fails.push(`row ${i + 1}: case stamp mismatch`);
         const img = row.querySelectorAll('img');
         if (img.length !== 1 || !img[0].complete || img[0].naturalWidth === 0) fails.push(`row ${i + 1}: picture missing/broken`);

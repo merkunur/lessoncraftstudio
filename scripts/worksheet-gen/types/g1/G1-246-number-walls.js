@@ -49,7 +49,23 @@ module.exports = {
       const given = new Set();
       for (let r = 1; r < n; r++) for (let c = 0; c < n - r; c++) blanks.add(`${r},${c}`);
       for (let c = 0; c < n; c++) given.add(`0,${c}`);
-      if (d.gap) {
+      if (d.topGiven) {
+        // Every shipped face gives the BASE and builds upward by addition; G1-268
+        // removes one base brick but still works from the bottom. Giving the TOP
+        // inverts the operation — the child subtracts downward, which is its own
+        // lesson (Zahlenmauern rückwärts). The given set is the apex plus one
+        // brick per course, and `numberWall.solvable` — already implemented, and
+        // already re-implemented inside verify — proves uniqueness, so an
+        // unsolvable draw simply falls through to the next candidate.
+        blanks.clear(); given.clear();
+        for (let r = 0; r < n; r++) for (let c = 0; c < n - r; c++) blanks.add(`${r},${c}`);
+        const apex = `${n - 1},0`;
+        blanks.delete(apex); given.add(apex);
+        for (let r = n - 2; r >= 0; r--) {
+          const c = rng.int(0, n - r - 1);
+          blanks.delete(`${r},${c}`); given.add(`${r},${c}`);
+        }
+      } else if (d.gap) {
         const g = rng.int(0, n - 1);
         blanks.add(`0,${g}`); given.delete(`0,${g}`);
         const opts = []; if (g > 0) opts.push(`1,${g - 1}`); if (g < n - 1) opts.push(`1,${g}`);
@@ -58,11 +74,18 @@ module.exports = {
       }
       if (!numberWall.solvable(n, given)) continue;
       usedBase.add(bkey); usedTop.add(top);
-      walls.push({ base, blanks });
+      walls.push({ base, blanks, topGiven: !!d.topGiven });
     }
     if (walls.length < d.walls) throw new Error(`G1-246: could not generate ${d.walls} distinct walls`);
     const cards = walls.map((w) => `<div class="ws-card-stage">${numberWall({ base: w.base, blanks: w.blanks, brick: d.brick }).svg}</div>`);
-    return { bodyHtml: cardGrid({ cards, cols: d.cols, rows: d.rows }), meta: { walls: walls.map((w) => w.base) } };
+    // Stamped ONLY when the face declares it, so the default DOM is unchanged
+    // and b2-baseline stays at 0 drift. Wrapping in a plain div would alter the
+    // grid's own layout, so the flag rides an attribute on the grid itself.
+    const grid = cardGrid({ cards, cols: d.cols, rows: d.rows });
+    return {
+      bodyHtml: d.topGiven ? grid.replace('<div', '<div data-lcs-topgiven="1"') : grid,
+      meta: { walls: walls.map((w) => w.base) },
+    };
   },
 
   async verify(page) {
@@ -99,7 +122,13 @@ module.exports = {
         if (rows[n - 1][0] > 20) fails.push(`wall ${i + 1}: top ${rows[n - 1][0]} > 20`);
         if (blanks < n - 1) fails.push(`wall ${i + 1}: too few blanks`);
         // the top numeral is never printed
-        if (bricks.find((b) => b.dataset.lcsBrick === `${n - 1},0` && !b.dataset.lcsBlank)) fails.push(`wall ${i + 1}: top brick given`);
+        // ⚠ This assertion FORBIDS EXACTLY WHAT THE topGiven FACE DOES, so it has
+        // to read the page rather than assume the bottom-up shape. The stamp is
+        // emitted only when the face declares it.
+        const topDown = document.querySelector('[data-lcs-topgiven]');
+        const apexGiven = !!bricks.find((b) => b.dataset.lcsBrick === `${n - 1},0` && !b.dataset.lcsBlank);
+        if (topDown) { if (!apexGiven) fails.push(`wall ${i + 1}: top brick must be given`); }
+        else if (apexGiven) fails.push(`wall ${i + 1}: top brick given`);
         // propagation solver: every brick must resolve from the givens
         const known = new Set(given); let changed = true;
         while (changed) {

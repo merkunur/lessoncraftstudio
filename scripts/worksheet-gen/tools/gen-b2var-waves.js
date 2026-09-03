@@ -63,7 +63,7 @@ const THEME = {
   'G3-374': 'fruits', 'G3-375': 'animals', 'G3-376': 'toys',
 
   // ── wave 2 ───────────────────────────────────────────────────────────────
-  'K-311': 'animals',                                 // K-284 word-tracing
+  'K-310': 'fruits', 'K-311': 'animals',              // K-284 word-tracing
   'G1-286': 'toys', 'G1-287': 'fruits', 'G1-288': 'animals',
   'G1-296': 'vehicles', 'G1-297': 'toys',             // G1-247 doubles-halves
   'G1-291': 'animals',                                // G1-244 write-the-word
@@ -89,7 +89,7 @@ const THEMELESS = [
   'K-294', 'K-295', 'K-296',                       // dot-to-dot
   'K-298', 'K-299', 'K-300',                       // grid-copy
   'G1-255', 'G1-256', 'G1-257',                    // number-of-the-day
-  'G1-266', 'G1-267', 'G1-268',                    // number-walls
+  'G1-266', 'G1-267', 'G1-268', 'G1-289',          // number-walls
   'G1-274', 'G1-275', 'G1-276', 'G1-277',          // number-lines
   'G1-278', 'G1-279', 'G1-280', 'G1-281',
   'G2-296', 'G2-297', 'G2-298',                    // calendar

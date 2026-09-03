@@ -499,7 +499,7 @@ function pageBoot(state, poison) {
      effect only appears once the child DOES something has a chance to
      show itself. Deliberately ordered and capped — a random walk would
      defeat the control. */
-  window.__exercise = function (max, gap, skip) {
+  window.__exercise = function (max, gap, skip, depthGroup) {
     var stage = document.querySelector('.lcs-stage') || document.querySelector('.lcs-app');
     if (!stage) return 0;
     var hit = 0;
@@ -529,9 +529,21 @@ function pageBoot(state, poison) {
       byCls[cls].push(cand[g]);
     }
     var order = [], round = 0;
-    while (order.length < cand.length && round < 4) {
-      for (var q = 0; q < groups.length; q++) if (groups[q][round]) order.push(groups[q][round]);
-      round++;
+    if (typeof depthGroup === 'string') {
+      /* ⚠ BREADTH FINDS THE VERB, DEPTH FINDS THE THRESHOLD. Some settings
+         only bite at a QUANTITY: place-value-lab's `bundle` decides what
+         happens at the TENTH one (:1227), so a drive that touches each
+         control four times can never reach it and reported a real setting
+         dead. Depth mode hammers one control class instead, which is the
+         only way past a threshold. */
+      var gsel = byCls[depthGroup] || [];
+      if (!gsel.length) return 0;
+      for (var d = 0; d < (max || 4); d++) order.push(gsel[0]);
+    } else {
+      while (order.length < cand.length && round < 4) {
+        for (var q = 0; q < groups.length; q++) if (groups[q][round]) order.push(groups[q][round]);
+        round++;
+      }
     }
     /* ⚠ PACE THE CLICKS, OR THE TAP-LOCK DECIDES THE RESULT. baking-tray
        ignores any tap within 300 ms of the last one (:666,:673), so a
@@ -657,12 +669,20 @@ function whichChannel(a, b) {
    until two consecutive reads agree removes measurement noise without
    touching the criterion. A board that never settles (a running timer)
    still fails the null transition, which is the correct answer for it. */
-async function settledSig(page) {
+async function settledSig(page, minMs) {
+  /* ⚠ SETTLED IS NOT THE SAME AS FINISHED. place-value-lab announces the
+     new number on a 1200 ms debounce (:1457), so a board that is visibly
+     static at 400 ms has not spoken yet — and the harness walked away
+     before it did, then reported speakOnChange dead. The after-use read
+     therefore observes for a minimum window as well as waiting for two
+     agreeing samples; a debounced announcement is an ordinary pattern in
+     these tools, not a special case. */
+  const t0 = Date.now();
   let prev = await page.evaluate(() => window.__sig());
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 14; i++) {
     await wait(200);
     const now = await page.evaluate(() => window.__sig());
-    if (sameTrace(prev, now)) return now;
+    if (sameTrace(prev, now) && Date.now() - t0 >= (minMs || 0)) return now;
     prev = now;
   }
   return prev;   /* never settled — the null transition will say so */
@@ -671,7 +691,7 @@ async function settledSig(page) {
 /* one measurement: fresh page → open drawer → set field i to option j
    (null = re-commit the current value) → measure at rest → exercise →
    measure again. Returns both, plus the value the tool now holds. */
-async function trace(browser, surface, state, PORT, sets, key, probe, pace) {
+async function trace(browser, surface, state, PORT, sets, key, probe, pace, depth) {
   const page = await openPage(browser, surface, state, PORT);
   try {
     if (!(await page.evaluate(() => window.__openDrawer()))) return null;
@@ -694,7 +714,7 @@ async function trace(browser, surface, state, PORT, sets, key, probe, pace) {
        unreadable, which is exactly what it is. */
     let afterUse = null;
     try {
-      await page.evaluate((n, g, sk) => window.__exercise(n, g, sk), EXERCISE, pace || 0, NAV_SKIP[surface.id] || []);
+      await page.evaluate((n, g, sk, dg) => window.__exercise(n, g, sk, dg), EXERCISE, pace || 0, NAV_SKIP[surface.id] || [], (typeof depth === 'string' ? depth : null));
       await wait(SETTLE);
       if (probe && probe.finalClick) {
         await page.evaluate((sel) => {
@@ -703,7 +723,7 @@ async function trace(browser, surface, state, PORT, sets, key, probe, pace) {
         }, probe.finalClick);
         await wait(SETTLE);
       }
-      afterUse = await settledSig(page);
+      afterUse = await settledSig(page, 1500);
     } catch (e) {
       if (!/Execution context was destroyed|Target closed|detached/i.test(String((e && e.message) || e))) throw e;
       return { atRest, afterUse: null, stuck: null, navDied: true };
@@ -779,6 +799,59 @@ async function discoverNavUnsafe(browser, surface, state, PORT) {
     if (idx > names.length) break;
   }
   return skip;
+}
+
+/* ⚠ HAMMERING A CONTROL THAT DOES NOTHING PROVES NOTHING. The depth pass
+   first took the first three control CLASSES in DOM order, which on
+   place-value-lab are the three digit cards — inert readouts — so it
+   reported `bundle` dead while never once adding a unit. A threshold
+   setting can only be reached by repeating the control that MOVES the
+   board, so the harness finds that control by measuring rather than by
+   position. Lazily, because only a field that looks dead needs it. */
+const VERBS = {};
+async function discoverVerbs(browser, surface, state, PORT) {
+  if (VERBS[surface.id]) return VERBS[surface.id];
+  const out = [];
+  let classes = [];
+  try {
+    const page = await openPage(browser, surface, state, PORT);
+    classes = await page.evaluate((sk) => {
+      const st = document.querySelector('.lcs-stage') || document.querySelector('.lcs-app');
+      if (!st) return [];
+      const seen = [];
+      Array.prototype.forEach.call(st.querySelectorAll('button, [role="button"], [tabindex]'), (e) => {
+        const r = e.getBoundingClientRect();
+        if (e.tagName === 'A' && e.getAttribute('href')) return;
+        const cls = e.className || e.tagName;
+        if (sk.indexOf(cls) > -1 || seen.indexOf(cls) > -1) return;
+        if (r.width > 0 && r.height > 0 && !e.disabled && !e.closest('.lcs-drawer') && !e.closest('.lcs-controls')) seen.push(cls);
+      });
+      return seen;
+    }, NAV_SKIP[surface.id] || []);
+    await page.close();
+  } catch (_) { /* fall through with what we have */ }
+
+  for (const cls of classes) {
+    let page;
+    try { page = await openPage(browser, surface, state, PORT); } catch (_) { continue; }
+    try {
+      const before = await page.evaluate(() => window.__sig());
+      await page.evaluate((c) => {
+        const st = document.querySelector('.lcs-stage') || document.querySelector('.lcs-app');
+        const e = st.querySelector('*');
+        const hit = Array.prototype.filter.call(st.querySelectorAll('button, [role="button"], [tabindex]'),
+          (n) => (n.className || n.tagName) === c)[0];
+        if (hit && !hit.disabled) hit.click();
+      }, cls);
+      await wait(300);
+      const after = await page.evaluate(() => window.__sig());
+      if (!sameTrace(before, after)) out.push(cls);
+    } catch (_) { /* a control that kills the page is already in NAV_SKIP */ }
+    try { await page.close(); } catch (_) {}
+    if (out.length >= 10) break;   /* the verb that matters can sit well down the DOM: place-value-lab's "+ ones" is its tenth control class */
+  }
+  VERBS[surface.id] = out;
+  return out;
 }
 
 /* ================================================================ audit */
@@ -890,6 +963,24 @@ async function auditSurface(browser, surface, state, PORT) {
       if (!t) continue;
       if (restStable && !sameTrace(n1.atRest, t.atRest)) live = { how: 'at rest', ch: whichChannel(n1.atRest, t.atRest), t };
       else if (useStable && !sameTrace(n1.afterUse, t.afterUse)) live = { how: 'after use', ch: whichChannel(n1.afterUse, t.afterUse), t };
+    }
+
+    /* pass 2b — the quantity threshold. Only for fields nothing else
+       reached, and only three control classes deep, so the cost lands on
+       the handful of settings that need it. */
+    if (!live && useStable) {
+      const verbs = await discoverVerbs(browser, surface, state, PORT);
+      for (const g of verbs) {
+        if (live) break;
+        const b = await trace(browser, surface, state, PORT, [{ field: i, opt: null }], null, probe, pace, g);
+        if (!b || !b.afterUse) continue;
+        for (let o = 0; o < nOpts && !live; o++) {
+          if (fields[i].chips && o === fields[i].checked) continue;
+          const t = await trace(browser, surface, state, PORT, [{ field: i, opt: o }], null, probe, pace, g);
+          if (t && t.afterUse && !sameTrace(b.afterUse, t.afterUse))
+            live = { how: 'after repeated use', ch: whichChannel(b.afterUse, t.afterUse), t };
+        }
+      }
     }
 
     /* paired depth — a field can be genuinely unable to act until a

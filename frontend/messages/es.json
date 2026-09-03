@@ -3036,9 +3036,9 @@
     "heading": "Cómo usar estas hojas de trabajo",
     "overrides": {},
     "fallback": {
-      "topic": "Imprime el PDF para una tarea de clase o de casa sin preparación, o abre la versión para jugar en línea en una tableta o pizarra para recibir respuesta inmediata. Cada hoja de trabajo incluye su hoja de respuestas, así que los niños pueden autocorregirse o trabajar de forma independiente. Combina hojas de distintos temas y niveles para armar una breve lección de {topic}, o envía una a casa como práctica extra.",
-      "intersection": "Imprime el PDF para una tarea inmediata de {primary} centrada en {secondary}, o abre la versión para jugar en línea en una tableta o pizarra. Cada hoja de trabajo viene con su hoja de respuestas para una autocorrección rápida, y puedes combinarla con temas y niveles relacionados para ampliar la lección.",
-      "hub": "Elige una asignatura, un tema o un nivel para abrir una página de hojas de trabajo que encajen. Cada una es gratis para imprimir y para jugar en línea, incluye su hoja de respuestas y está disponible en los 11 idiomas en los que publicamos, prácticas para aulas bilingües e internacionales."
+      "topic": "Imprime el PDF para una tarea de clase o de casa sin preparación, o, si la hoja tiene versión interactiva, ábrela para jugar en línea en una tableta o pizarra para recibir respuesta inmediata. Muchas incluyen su hoja de respuestas, así que los niños pueden autocorregirse o trabajar de forma independiente. Combina hojas de distintos temas y niveles para armar una breve lección de {topic}, o envía una a casa como práctica extra.",
+      "intersection": "Imprime el PDF para una tarea inmediata de {primary} centrada en {secondary}, o, si la hoja tiene versión interactiva, ábrela para jugar en línea en una tableta o pizarra. Muchas vienen con su hoja de respuestas para una autocorrección rápida, y puedes combinarlas con temas y niveles relacionados para ampliar la lección.",
+      "hub": "Elige una asignatura, un tema o un nivel para abrir una página de hojas de trabajo que encajen. Todas las hojas de trabajo incluyen un PDF imprimible, muchas también se pueden jugar en el navegador, y el catálogo abarca los 11 idiomas en los que publicamos, práctico para aulas bilingües e internacionales."
     }
   },
   "topicMeta": {
@@ -4086,32 +4086,40 @@
       "safer": "Explora fichas por tipo de ejercicio — HTML interactivo y PDFs imprimibles para matemáticas, lectura, rompecabezas K-3 y más."
     },
     "h1": {
-      "hundreds": "Miles de fichas, organizadas por tipo",
-      "safer": "Fichas de ejercicios, organizadas por tipo"
+      "hundreds": "Miles de hojas de trabajo para imprimir o jugar en línea",
+      "safer": "Hojas de trabajo para imprimir o jugar en línea"
     },
     "intro": {
-      "hundreds": "Fichas en temas, niveles de edad y once idiomas — elige un tipo para ver todas las fichas disponibles en esa categoría.",
-      "safer": "Elige un tipo de ficha para ver todas las fichas disponibles — HTML interactivo para jugar en el navegador y un PDF imprimible para cada conjunto."
+      "hundreds": "Filtra por nivel, tipo de hoja o tema. Todas las hojas de trabajo incluyen un PDF imprimible; muchas también se pueden jugar en el navegador.",
+      "safer": "Filtra por nivel, tipo de hoja o tema. Todas las hojas de trabajo incluyen un PDF imprimible; algunas también se pueden jugar en el navegador."
     },
-    "tileCta": "Ver fichas",
-    "tileCtaSheet": "Ver ficha",
-    "newHeading": "Nuevas fichas",
-    "moreTypesHeading": "Más tipos de ejercicio",
-    "tileAlt": "Ejemplo de ficha: {typeName}",
     "emptyTitle": "Todavía no hay fichas disponibles en este idioma.",
     "emptyBody": "Nuestro catálogo crece idioma por idioma. Vuelve pronto o explora otro idioma.",
     "browse": {
-      "heading": "Explorar todas las hojas de trabajo",
-      "filterType": "Tipo de ejercicio",
+      "filterType": "Tipo de hoja",
       "filterLevel": "Nivel",
       "filterTheme": "Tema",
+      "moreThemes": "Más temas ({count})"
+    },
+    "tabs": {
       "all": "Todos",
-      "results": "{count} hojas de trabajo",
-      "showAllThemes": "Ver todos los temas",
-      "sortVariety": "Variedad",
-      "topicLinksHeading": "Explorar por tipo de ejercicio",
-      "browseByTheme": "Explorar por tema",
-      "browseByLevel": "Explorar por nivel"
+      "interactive": "Interactivo",
+      "aria": "Filtro de formato"
+    },
+    "card": {
+      "pdf": "PDF",
+      "answerKey": "Solución",
+      "printOnly": "Solo PDF",
+      "interactiveMark": "Hoja de trabajo interactiva",
+      "pdfAria": "Descargar el PDF de {title}",
+      "answerKeyAria": "Descargar la solución de {title}"
+    },
+    "index": {
+      "heading": "Todos los tipos de hoja de trabajo"
+    },
+    "empty": {
+      "bodyInteractive": "Algunas hojas de trabajo no tienen versión interactiva. Prueba con la pestaña “Todos” o quita un filtro.",
+      "showAll": "Ver todos los formatos"
     }
   },
   "standardsPage": {

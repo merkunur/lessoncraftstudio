@@ -1,22 +1,29 @@
-/* /[locale]/worksheets/ — All worksheets hub.
-   Public, SSR. Redesigned 2026-07-06 to the Direction A faceted catalog
-   (the /[locale]/activities/ pattern): left Level / Exercise type / Theme
-   filter rail + sort + a responsive grid of paper cards over the per-locale
-   landing tier, all state in the URL (shareable + crawlable, canonical stays
-   the bare hub). Default sort = 'variety' — a deterministic round-robin
-   interleave across exercise types so page 1 shows ~24 DISTINCT worksheet
-   mechanics instead of one type walled across many themes.
+/* /[locale]/worksheets/ — the worksheets hub.
+   Public, SSR, ISR. Rebuilt 2026-09-03 from a page that had grown eleven
+   stacked blocks into six.
 
-   The former tier of ~60 giant per-exercise-type image tiles became a compact
-   text-chip strip ("Browse by exercise type") below the grid — every hub→topic
-   crawl link survives (§1 crawl-bait doctrine) at ~2KB HTML instead of 60
-   /_next/image requests. Together with lazy card images + prefetch={false}
-   links this keeps the page under the nginx per-IP burst that was 429ing a
-   random subset of thumbnails per refresh (broken-thumbnails fix 2026-07-06).
+   WHAT CHANGED AND WHY (the short version; the long one is in the commit):
+   - The two card strips above the grid are GONE. They existed because the old
+     interleave ordered type buckets by descending size, so page 1 was one row
+     from each of the 24 largest of 71 types and the newest families could never
+     reach it. `orderHubRows` fixes that at the root, so the patch is redundant.
+   - The three "Browse by …" chip walls are GONE. Every theme and every level
+     link they carried now lives permanently in the filter rail — MORE crawlable
+     links than before, since the long-tail themes no longer hide behind a
+     `?themes=all` round trip. The one set with nowhere else to go, the
+     native-language /topic/ links, keeps a real headed section at the foot.
+   - The three-way sort control is replaced by two tabs, All and Interactive.
+     Ordering is always variety; there is nothing to choose.
+   - Cards tell the truth about format and finally expose their downloads.
 
-   v2 (2026-05-24) localized the chrome via the worksheetsPage namespace;
-   v3 keeps that namespace + reuses topicPage.{facets,sort,activeFilters,
-   emptyState} for the catalog chrome (2 new keys only). */
+   `?sort=` and `?themes=all` are no longer read but MUST keep returning 200 —
+   they are indexed URLs. `parseWorksheetFilters` ignores them rather than
+   404ing.
+
+   Rate-limit frugality (broken-thumbnails fix 2026-07-06) is unchanged: lazy
+   card images beyond the first row, prefetch={false} links, text-only foot
+   sections — the page stays well under the nginx per-IP burst that used to 429
+   a random subset of thumbnails per refresh. */
 
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
@@ -24,7 +31,7 @@ import { INDEXABLE_ROBOTS } from '@/lib/seo/robots';
 import { Baloo_2, Nunito } from 'next/font/google';
 import { getTranslations } from 'next-intl/server';
 import { prisma } from '@/lib/prisma';
-import { getAxisSlug, getAxisName } from '@/lib/taxonomy';
+import { getAxisSlug, getAxisName, listSubjectKeys, getSubjectName, exerciseTypeKeysForSubject } from '@/lib/taxonomy';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { buildBreadcrumbSchema } from '@/lib/seo/breadcrumb-schema';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
@@ -33,27 +40,29 @@ import { wwwImg } from '@/lib/img-host';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import PageUsageBlock from '@/components/catalog/PageUsageBlock';
 import Pagination from '@/components/catalog/Pagination';
-import { buildFilterUrl, withParam, withoutParam } from '@/components/catalog/filterUrl';
+import { buildFilterUrl, withParam, withoutParam, clearFilters } from '@/components/catalog/filterUrl';
 import {
   CatalogSidebar,
   CatalogMobileFilters,
-  CatalogSortControl,
   CatalogActiveChips,
   CatalogEmptyState,
   type FacetGroupVM,
+  type FacetItemVM,
+  type FacetSubgroupVM,
 } from '@/components/catalog/CatalogFilters';
+import CatalogTabs from '@/components/catalog/CatalogTabs';
+import CatalogTypeIndex, { type TypeIndexItem } from '@/components/catalog/CatalogTypeIndex';
 import WorksheetCatalogCard from '@/components/worksheets/WorksheetCatalogCard';
 import { getMonolingualLandings, deckAssets } from '@/lib/seo/landing-content';
-import type { Landing } from '@/lib/seo/landing-content';
-import { NEW_WORKSHEET_GROUPS, MORE_TYPE_GROUPS } from '@/config/worksheets-new-highlights';
-import { collapsedSheetSlugs, expandHubRows, type HubRow } from '@/lib/worksheets-sheets';
+import { collapsedSheetSlugs, expandHubRows, type HubRow, type DeckFacts } from '@/lib/worksheets-sheets';
+import { isPrintOnlyType } from '@/config/interactive-exercise-types';
 import {
   WORKSHEETS_PAGE_SIZE,
   WORKSHEETS_TOP_THEMES,
   parseWorksheetFilters,
   applyLandingFilters,
   buildLandingFacets,
-  sortLandings,
+  orderHubRows,
   worksheetSubject,
   levelChip,
   levelOrder,
@@ -63,23 +72,23 @@ import '@/styles/catalog-cards.css';
 
 const BASE_URL = CANONICAL_HOST;
 
-// Brand-only 1200×630 OG asset shared with the homepage (Direction A
-// palette). Reused on worksheets hub + topic + activities pages until
-// per-surface OG composites are commissioned separately.
+// Brand-only 1200×630 OG asset shared with the homepage (Direction A palette).
 const OG_IMAGE_PATH = '/og-homepage.png';
 
-// Substrate-honesty floor — only locales with genuine catalog depth (en /
-// es / it / pt today) get the "Hundreds…" variant. Seed-only locales fall
-// to the safer copy until Track C deck-publish lands per CLAUDE.md §19.5.
+// Substrate-honesty floor — only locales with genuine catalog depth get the
+// "Thousands…" variant. Seed-only locales fall to the safer copy (§19.5).
 const HUNDREDS_THRESHOLD = 100;
 
-// First-row cards load eagerly (fills the above-fold row at xl 4-col); the
-// rest are lazy so the initial /_next/image burst stays tiny (rate-limit
-// frugality — see header comment).
-const EAGER_CARDS = 6;
+// One xl row loads eagerly; everything else is lazy.
+const EAGER_CARDS = 4;
 
-// Direction A typography pairing (CLAUDE.md §A.13.47) — loaded per route,
-// like the activities index. latin-ext covers all 11 site locales.
+// `picture-trail` is the en-locale exercise-type axis key for the picture-path
+// app and is the ONLY type in the whole corpus with no `apps.*.default_subject`
+// (measured across all 11 locales). Without this it would silently vanish from
+// the subject-grouped type rail.
+const SUBJECT_ALIAS: Record<string, string> = { 'picture-trail': 'picture-path' };
+
+// Direction A typography pairing (CLAUDE.md §A.13.47) — loaded per route.
 const baloo2 = Baloo_2({
   weight: ['400', '500', '600', '700', '800'],
   subsets: ['latin', 'latin-ext'],
@@ -93,19 +102,6 @@ const nunito = Nunito({
   display: 'swap',
 });
 
-interface Tile {
-  exerciseType: string;
-  typeName: string;
-  typeSlug: string;
-}
-
-// A family card: the landing rendered as the card, plus the landings rendered
-// as its chips. Both page-1 strips share the shape and the renderer.
-interface HighlightGroup {
-  base: Landing;
-  variations: Landing[];
-}
-
 async function countLocaleDecks(locale: string): Promise<number> {
   try {
     return await prisma.deck.count({
@@ -116,10 +112,14 @@ async function countLocaleDecks(locale: string): Promise<number> {
   }
 }
 
-// ISR: pick up newly-published decks without a rebuild; match homepage/topic/activity
-// (previously defaulted to on-demand → a DB hit per request).
+// ISR: pick up newly-published decks without a rebuild.
 export const revalidate = 3600;
 
+/* generateMetadata is DELIBERATELY UNCHANGED. The <title> and meta description
+   are live ranking copy; the operator ruled they stay byte-identical while the
+   on-page h1 and intro are rewritten. It also ignores searchParams, so every
+   filtered state — `?format=interactive` included — still canonicalises to the
+   bare hub and adds no crawl space. */
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';
   const total = await countLocaleDecks(locale);
@@ -130,9 +130,6 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   const description = useHundreds ? t('metaDescription.hundreds') : t('metaDescription.safer');
   const canonical = canonicalUrl(localePath(locale, 'worksheets'));
 
-  // Reciprocal hreflang × 11 + x-default — every locale renders the same
-  // worksheets-hub surface, so unconditional alternates are correct here
-  // (unlike topic pages where presence depends on per-axis deck count).
   const hreflangAlternates: Record<string, string> = {};
   for (const lang of SUPPORTED_LOCALES) {
     hreflangAlternates[getHreflangCode(lang)] = canonicalUrl(localePath(lang, 'worksheets'));
@@ -142,10 +139,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   return {
     title: `${title}`,
     description,
-    alternates: {
-      canonical,
-      languages: hreflangAlternates,
-    },
+    alternates: { canonical, languages: hreflangAlternates },
     openGraph: {
       title,
       description,
@@ -154,15 +148,13 @@ export async function generateMetadata({ params }: { params: { locale: string } 
       siteName: 'LessonCraftStudio',
       locale: ogLocaleMap[locale] || locale,
       alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
-      images: [
-        {
-          url: `${CANONICAL_HOST}${OG_IMAGE_PATH}`,
-          width: 1200,
-          height: 630,
-          type: 'image/png',
-          alt: 'LessonCraftStudio — K-3 worksheets in 11 languages',
-        },
-      ],
+      images: [{
+        url: `${CANONICAL_HOST}${OG_IMAGE_PATH}`,
+        width: 1200,
+        height: 630,
+        type: 'image/png',
+        alt: 'LessonCraftStudio — K-3 worksheets in 11 languages',
+      }],
     },
     twitter: {
       card: 'summary_large_image',
@@ -172,6 +164,18 @@ export async function generateMetadata({ params }: { params: { locale: string } 
     },
     robots: INDEXABLE_ROBOTS,
   };
+}
+
+/**
+ * The metered download proxy the STATIC landing pages already use. Slug-keyed,
+ * so a card can offer its PDF without resolving a database row; the route
+ * itself 404s when the requested asset does not exist, 302s subscribers and
+ * crawlers straight to the file, meters free accounts and sends anonymous
+ * visitors to signup. Works as a plain href — no client JS, which is why the
+ * hub can meter downloads at all.
+ */
+function dlHref(locale: string, deckSlug: string, kind: 'pdf' | 'answer'): string {
+  return `/api/quota/dl?loc=${encodeURIComponent(locale)}&slug=${encodeURIComponent(deckSlug)}&kind=${kind}`;
 }
 
 function toSearchParamsString(sp: Record<string, string | string[] | undefined>): string {
@@ -189,96 +193,87 @@ export default async function AllWorksheetsPage({
   searchParams,
 }: {
   params: { locale: string };
-  searchParams?: { type?: string; level?: string; theme?: string; page?: string; themes?: string; sort?: string };
+  searchParams?: Record<string, string | string[] | undefined>;
 }) {
   const locale = params.locale || 'en';
-  const [t, tBrowse, tFacets, tSort, tActive, tEmpty, tBreadcrumb, tNav] = await Promise.all([
+  const [t, tBrowse, tTopic, tFacets, tActive, tEmpty, tBreadcrumb, tNav] = await Promise.all([
     getTranslations({ locale, namespace: 'worksheetsPage' }),
     getTranslations({ locale, namespace: 'worksheetsPage.browse' }),
+    getTranslations({ locale, namespace: 'topicPage' }),
     getTranslations({ locale, namespace: 'topicPage.facets' }),
-    getTranslations({ locale, namespace: 'topicPage.sort' }),
     getTranslations({ locale, namespace: 'topicPage.activeFilters' }),
     getTranslations({ locale, namespace: 'topicPage.emptyState' }),
     getTranslations({ locale, namespace: 'topicPage.breadcrumb' }),
     getTranslations({ locale, namespace: 'nav.categories' }),
   ]);
 
-  // ---- exercise-type strip data (one row per published type; text-only,
-  // links to the native-language /topic/ pages — crawl equity per §1). ----
-  let tiles: Tile[] = [];
+  /* ---- ONE deck query, replacing the three the page used to run ----
+     It supplies the sheet titles the hub already needed, the deck ids the
+     metered download links need, the answer-key fact each card's Answer key
+     link is gated on, and the distinct exercise types for the foot index and
+     the copy threshold. ~4,100 rows per locale, once per ISR hour; topic pages'
+     getFacetCounts already does a full-locale findMany at ~4ms p95.
+     A failure degrades the page (no metered links, no answer keys) rather than
+     500ing — the same posture the previous title query had. */
+  const factsBySlug = new Map<string, DeckFacts>();
+  const publishedTypes = new Set<string>();
   let totalCount = 0;
   try {
-    const [decks, count] = await Promise.all([
-      prisma.deck.findMany({
-        // contentLanguage: null — exclude cross-language decks (they live in /learn).
-        where: { language: locale, status: 'published', contentLanguage: null },
-        distinct: ['exerciseType'],
-        select: { exerciseType: true },
-        orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
-      }),
-      prisma.deck.count({ where: { language: locale, status: 'published', contentLanguage: null } }),
-    ]);
-    totalCount = count;
-
-    tiles = decks
-      .map((d) => ({
-        exerciseType: d.exerciseType,
-        typeName: getAxisName('exercise-type', d.exerciseType, locale) ?? d.exerciseType,
-        typeSlug: getAxisSlug('exercise-type', d.exerciseType, locale) ?? d.exerciseType,
-      }))
-      .filter((tile) => tile.typeName)
-      .sort((a, b) => a.typeName.localeCompare(b.typeName, locale));
+    const decks = await prisma.deck.findMany({
+      where: { language: locale, status: 'published', contentLanguage: null },
+      select: { slug: true, title: true, answerKeyUrl: true, exerciseType: true },
+    });
+    totalCount = decks.length;
+    for (const d of decks) {
+      publishedTypes.add(d.exerciseType);
+      const raw = d.title as Record<string, string> | null;
+      const label = raw ? raw[locale] || raw.en || Object.values(raw)[0] : null;
+      if (label) factsBySlug.set(d.slug, { title: label, hasAnswerKey: d.answerKeyUrl != null });
+    }
   } catch (err) {
-    console.warn('[AllWorksheetsPage] DB query failed:', (err as Error).message);
+    console.warn('[AllWorksheetsPage] deck query failed:', (err as Error).message);
   }
 
   const useHundreds = totalCount >= HUNDREDS_THRESHOLD;
   const h1 = useHundreds ? t('h1.hundreds') : t('h1.safer');
   const intro = useHundreds ? t('intro.hundreds') : t('intro.safer');
 
-  // ---- faceted landing catalog (SSR over the in-memory landing arrays —
-  // microseconds at 2.5k entries; absent for unled locales = substrate honesty). ----
+  /* ---- hub rows: the landing tier expanded into the worksheets it collapses ---- */
   const allLandings = getMonolingualLandings(locale);
-
-  // Expand the landing tier into the actual worksheets it collapses, so the
-  // grid, the result count and the facet counts describe sheets rather than
-  // landing pages (see lib/worksheets-sheets.ts — filtering en by "Arrays and
-  // Multiplication" returned 2 of 27 before this). Titles come from the DB
-  // because only the deck row knows what its own sheet is called; a failed
-  // read degrades to the landing-only rows rather than inventing names.
   const sheetSlugs = collapsedSheetSlugs(allLandings);
-  const sheetTitles = new Map<string, string>();
-  if (sheetSlugs.length > 0) {
-    try {
-      const decks = await prisma.deck.findMany({
-        where: { language: locale, status: 'published', slug: { in: sheetSlugs } },
-        select: { slug: true, title: true },
-      });
-      for (const d of decks) {
-        const t = d.title as Record<string, string> | null;
-        const label = t ? t[locale] || t.en || Object.values(t)[0] : null;
-        if (label) sheetTitles.set(d.slug, label);
-      }
-    } catch (err) {
-      console.warn('[AllWorksheetsPage] sheet-title query failed:', (err as Error).message);
-    }
+  const sheetFacts = new Map<string, DeckFacts>();
+  for (const s of sheetSlugs) {
+    const f = factsBySlug.get(s);
+    if (f) sheetFacts.set(s, f);
+  }
+  for (const l of allLandings) {
+    const f = factsBySlug.get(l.canonicalDeckSlug);
+    if (f) sheetFacts.set(l.canonicalDeckSlug, f);
   }
   const hubRows: HubRow[] = expandHubRows(
     allLandings,
-    sheetTitles,
+    sheetFacts,
     (slug) => deckAssets(locale, slug).deckDir,
     (themeKey) => themeLabel(themeKey, locale),
   );
+
   const filters = parseWorksheetFilters(searchParams ?? {});
-  const browseActive = Boolean(filters.type || filters.level || filters.theme);
   const basePath = `/${locale}/worksheets`;
   const spString = toSearchParamsString(searchParams ?? {});
 
-  const facets = hubRows.length > 0 ? buildLandingFacets(hubRows, filters) : null;
+  /* The format tab scopes EVERYTHING below it, facet counts included, so a type
+     with no interactive sheets disappears from the rail under Interactive
+     rather than offering a filter that returns nothing. */
+  const scoped = filters.format === 'interactive'
+    ? hubRows.filter((l) => !isPrintOnlyType(l.coordinate.type))
+    : hubRows;
 
+  const facets = scoped.length > 0 ? buildLandingFacets(scoped, filters) : null;
+
+  /* ---- facet rail ---- */
   let facetGroups: FacetGroupVM[] = [];
   if (facets) {
-    const levelItems = facets.level
+    const levelItems: FacetItemVM[] = facets.level
       .map(({ value, count }) => ({
         paramKey: 'level',
         value,
@@ -288,150 +283,114 @@ export default async function AllWorksheetsPage({
       }))
       .sort((a, b) => levelOrder(a.value) - levelOrder(b.value) || a.label.localeCompare(b.label, locale));
 
-    const typeItems = facets.type
-      .map(({ value, count }) => ({
-        paramKey: 'type',
-        value,
-        label: getAxisName('exercise-type', value, locale) || value,
-        count,
-        active: filters.type === value,
-      }))
-      .sort((a, b) => a.label.localeCompare(b.label, locale));
-
-    // Themes: top-N by count + expand (the active theme always stays visible).
-    const themesAll = facets.theme.slice().sort((a, b) => b.count - a.count);
-    let themesShown = filters.showAllThemes ? themesAll : themesAll.slice(0, WORKSHEETS_TOP_THEMES);
-    if (filters.theme && !themesShown.some((th) => th.value === filters.theme)) {
-      const active = themesAll.find((th) => th.value === filters.theme);
-      if (active) themesShown = [...themesShown, active];
+    // Types grouped by taxonomy subject: 71 flat rows is a wall, 71 rows in five
+    // named discs is a menu. <details> children are in the SSR DOM either way,
+    // so every ?type= link stays crawlable whether or not a disc is open.
+    const typeItemsAll: FacetItemVM[] = facets.type.map(({ value, count }) => ({
+      paramKey: 'type',
+      value,
+      label: getAxisName('exercise-type', value, locale) || value,
+      count,
+      active: filters.type === value,
+    }));
+    const subjectOfType = new Map<string, string>();
+    for (const s of listSubjectKeys()) {
+      for (const k of exerciseTypeKeysForSubject(s)) subjectOfType.set(k, s);
     }
-    const themeItems = themesShown.map(({ value, count }) => ({
+    const subjectFor = (typeKey: string) =>
+      subjectOfType.get(typeKey) || subjectOfType.get(SUBJECT_ALIAS[typeKey] || '') || null;
+
+    const typeSubgroups: FacetSubgroupVM[] = listSubjectKeys()
+      .map((subjectKey) => {
+        const items = typeItemsAll
+          .filter((i) => subjectFor(i.value) === subjectKey)
+          .sort((a, b) => a.label.localeCompare(b.label, locale));
+        return {
+          key: subjectKey,
+          label: getSubjectName(subjectKey, locale) || subjectKey,
+          count: items.reduce((n, i) => n + i.count, 0),
+          open: items.some((i) => i.active),
+          items,
+        };
+      })
+      .filter((g) => g.items.length > 0)
+      .sort((a, b) => b.count - a.count);
+    // With nothing selected, open the largest subject so the rail reads as a
+    // menu rather than five closed boxes.
+    if (typeSubgroups.length > 0 && !typeSubgroups.some((g) => g.open)) typeSubgroups[0].open = true;
+
+    // Themes: the top N stay visible, the long tail moves into a disclosure —
+    // still in the HTML, which is what retires the `?themes=all` round trip.
+    const themesAll = facets.theme.slice().sort((a, b) => b.count - a.count);
+    const toItem = ({ value, count }: { value: string; count: number }): FacetItemVM => ({
       paramKey: 'theme',
       value,
       label: themeLabel(value, locale),
       count,
       active: filters.theme === value,
-    }));
-    const themeFooter =
-      !filters.showAllThemes && themesAll.length > WORKSHEETS_TOP_THEMES
-        ? {
-            href: buildFilterUrl(basePath, withParam(new URLSearchParams(spString), 'themes', 'all')),
-            label: tBrowse('showAllThemes'),
-          }
-        : undefined;
+    });
+    let head = themesAll.slice(0, WORKSHEETS_TOP_THEMES);
+    let tail = themesAll.slice(WORKSHEETS_TOP_THEMES);
+    // The active theme is always visible, wherever it ranks.
+    if (filters.theme && !head.some((th) => th.value === filters.theme)) {
+      const hit = tail.find((th) => th.value === filters.theme);
+      if (hit) { head = [...head, hit]; tail = tail.filter((th) => th.value !== filters.theme); }
+    }
+    const themeSubgroups: FacetSubgroupVM[] = tail.length > 0
+      ? [{
+          key: 'more-themes',
+          label: tBrowse('moreThemes', { count: tail.length }),
+          count: tail.reduce((n, th) => n + th.count, 0),
+          open: false,
+          items: tail.map(toItem),
+        }]
+      : [];
 
     facetGroups = [
       { key: 'level', heading: tBrowse('filterLevel'), items: levelItems },
-      { key: 'type', heading: tBrowse('filterType'), items: typeItems },
-      { key: 'theme', heading: tBrowse('filterTheme'), items: themeItems, footer: themeFooter },
+      { key: 'type', heading: tBrowse('filterType'), items: [], subgroups: typeSubgroups },
+      { key: 'theme', heading: tBrowse('filterTheme'), items: head.map(toItem), subgroups: themeSubgroups },
     ];
   }
 
-  // Filter → variety/alpha sort → paginate.
-  const filtered = sortLandings(
-    applyLandingFilters(hubRows, { type: filters.type, level: filters.level, theme: filters.theme }),
-    locale,
-    filters.sort,
-    filters.type,
-  );
-  const total = filtered.length;
+  /* ---- filter → order → paginate ---- */
+  const filtered = applyLandingFilters(scoped, {
+    type: filters.type,
+    level: filters.level,
+    theme: filters.theme,
+  });
+  const ordered = orderHubRows(
+    filtered,
+    Boolean(filters.type),
+    (l) => isPrintOnlyType(l.coordinate.type),
+  ).rows;
+
+  const total = ordered.length;
   const pageCount = Math.max(1, Math.ceil(total / WORKSHEETS_PAGE_SIZE));
-  // Out-of-range page => 404, not a clamp. Clamping made `?page=101` and
-  // `?page=999` both return HTTP 200 serving an identical copy of the last real
-  // page (measured 2026-07-31: page 100, 101 and 999 all 200 with the same 17
-  // links), i.e. an unbounded crawl space of duplicate pages. The canonical
-  // already points at page 1, but a crawler still has to fetch each one to learn
-  // that. 404 tells it there is nothing there.
+  // Out-of-range page => 404, not a clamp: clamping made ?page=101 and ?page=999
+  // both return 200 with an identical copy of the last real page, i.e. an
+  // unbounded crawl space of duplicates.
   if (filters.page > pageCount) notFound();
   const page = filters.page;
-  const pageItems = filtered.slice((page - 1) * WORKSHEETS_PAGE_SIZE, page * WORKSHEETS_PAGE_SIZE);
+  const pageItems = ordered.slice((page - 1) * WORKSHEETS_PAGE_SIZE, page * WORKSHEETS_PAGE_SIZE);
 
-  // The two family-card strips — bare hub state only (page 1, no filters,
-  // default sort). The variety grid orders type buckets by SIZE, so a family
-  // with few landings never reaches the first screen (page 1 is exactly one
-  // landing from each of the 24 largest buckets, of 53). Both strips exist to
-  // put such families one click from the hub:
-  //   newHighlightGroups — the newest batch (20 nt20 families + lowercase
-  //     letter-tracing), each card chipped with its VARIATION landings.
-  //   moreTypeGroups — 7 older families (arrays-multiplication, fractions,
-  //     geometry, graphing-data, number-charts, measurement, telling-time)
-  //     whose 2-4 landings rank ~46-53 and can only ever be reached through
-  //     the facet rail or a sibling landing; each card is chipped with that
-  //     family's other GRADE BANDS.
-  // Slugs that no longer exist in the corpus are dropped silently.
-  const landingBySlug = new Map(hubRows.map((l) => [l.slug, l]));
-  const bareHubState = !browseActive && page === 1 && filters.sort === 'variety';
-  const rehydrateGroups = (groups: { base: string; variations: string[] }[]): HighlightGroup[] =>
-    !bareHubState
-      ? []
-      : groups
-          .map((g) => ({
-            base: landingBySlug.get(g.base),
-            variations: g.variations
-              .map((s) => landingBySlug.get(s))
-              .filter((l): l is Landing => Boolean(l)),
-          }))
-          .filter((g): g is HighlightGroup => Boolean(g.base));
-  const newHighlightGroups = rehydrateGroups(NEW_WORKSHEET_GROUPS[locale] || []);
-  const moreTypeGroups = rehydrateGroups(MORE_TYPE_GROUPS[locale] || []);
+  /* ---- tabs ---- */
+  const tabHref = (value: 'all' | 'interactive') => {
+    const next = value === 'all'
+      ? withoutParam(new URLSearchParams(spString), 'format')
+      : withParam(new URLSearchParams(spString), 'format', 'interactive');
+    next.delete('page');
+    return buildFilterUrl(basePath, next);
+  };
+  const tabs = [
+    { value: 'all', label: t('tabs.all'), href: tabHref('all'), active: filters.format === 'all' },
+    { value: 'interactive', label: t('tabs.interactive'), href: tabHref('interactive'), active: filters.format === 'interactive' },
+  ];
 
-  // One renderer for both strips. chipLabel differs: the new-batch chips carry
-  // the variation's own h1, while the older families' chips carry just the
-  // grade band — their h1s are full sentences ("Grade 3 Geometry Worksheets:
-  // Quadrilaterals, Right Angles, Perimeter, and Area") and would swamp a chip
-  // row, so the full title rides along as the accessible name instead.
-  // eagerCards is a budget, not a flag: only the first strip claims the
-  // above-fold image budget (see EAGER_CARDS).
-  const highlightStrip = (
-    headingId: string,
-    heading: string,
-    groups: HighlightGroup[],
-    chipLabel: (l: Landing) => string,
-    eagerCards: number,
-  ) =>
-    groups.length === 0 ? null : (
-      <section className="mb-9 md:mb-11" aria-labelledby={headingId}>
-        <h2 id={headingId} className="font-lcsDisplay font-bold text-xl md:text-2xl text-lcs-teal mb-4">
-          {heading}
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
-          {groups.map((g, i) => (
-            <div key={`${headingId}-${g.base.slug}`} className="flex flex-col gap-2">
-              <WorksheetCatalogCard
-                href={localePath(locale, 'worksheets', g.base.slug)}
-                thumbnailSrc={wwwImg(deckAssets(locale, g.base.canonicalDeckSlug).thumbnail)}
-                title={g.base.h1}
-                levelLabel={levelChip(g.base.coordinate.level, locale)}
-                typeLabel={getAxisName('exercise-type', g.base.coordinate.type, locale) || g.base.coordinate.type}
-                subject={worksheetSubject(g.base.coordinate.type)}
-                ctaLabel={t('tileCta')}
-                eager={i < eagerCards}
-              />
-              {g.variations.length > 0 && (
-                <div className="flex flex-wrap gap-1.5">
-                  {g.variations.map((v) => {
-                    const label = chipLabel(v);
-                    return (
-                      <a
-                        key={v.slug}
-                        href={localePath(locale, 'worksheets', v.slug)}
-                        title={label === v.h1 ? undefined : v.h1}
-                        aria-label={label === v.h1 ? undefined : v.h1}
-                        className="inline-flex items-center px-2.5 py-1 rounded-full border border-lcs-teal/20 bg-white/60 text-xs font-lcsBody font-semibold text-lcs-teal leading-snug hover:border-lcs-coral hover:text-lcs-coral-deep transition-colors"
-                      >
-                        {label}
-                      </a>
-                    );
-                  })}
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
-      </section>
-    );
-
-  // Active-filter chips + clear-all.
+  /* ---- active chips + clear all ----
+     The format tab is deliberately NOT mirrored as a chip: it is a mode with
+     exactly one value always on, and giving one state two off-switches is a bug
+     rather than a convenience. */
   const removeHref = (key: string) => {
     const next = withoutParam(new URLSearchParams(spString), key);
     next.delete('page');
@@ -439,44 +398,32 @@ export default async function AllWorksheetsPage({
   };
   const chips: { label: string; removeHref: string }[] = [];
   if (filters.level) chips.push({ label: levelChip(filters.level, locale), removeHref: removeHref('level') });
-  if (filters.type)
-    chips.push({ label: getAxisName('exercise-type', filters.type, locale) || filters.type, removeHref: removeHref('type') });
+  if (filters.type) chips.push({ label: getAxisName('exercise-type', filters.type, locale) || filters.type, removeHref: removeHref('type') });
   if (filters.theme) chips.push({ label: themeLabel(filters.theme, locale), removeHref: removeHref('theme') });
-  const clearAllHref = (() => {
-    const next = new URLSearchParams(spString);
-    ['type', 'level', 'theme', 'themes', 'sort', 'page'].forEach((k) => next.delete(k));
-    return buildFilterUrl(basePath, next);
-  })();
+  const clearAllHref = buildFilterUrl(basePath, clearFilters(new URLSearchParams(spString)));
 
-  const sortOptions = [
-    { value: 'variety', label: tBrowse('sortVariety') },
-    { value: 'az', label: tSort('alphaAsc') },
-    { value: 'za', label: tSort('alphaDesc') },
-  ];
+  /* ---- the A–Z type index at the foot ----
+     Built from the DB's published types so the link set matches exactly what
+     the old "Browse by exercise type" wall carried. These go to /topic/<slug>/,
+     a different page class from the rail's ?type= filter — which is why this
+     section survives while the theme and level walls do not. */
+  // The DB supplies the published type set, but a failed read must not silently
+  // empty this section: measured locally, the index drops from 100 links to 0
+  // and the page quietly loses every native-language topic link it carries.
+  // The landing corpus is on disk and always readable, so it is the floor.
+  const indexTypes = publishedTypes.size > 0
+    ? publishedTypes
+    : new Set(hubRows.map((l) => l.coordinate.type));
+  const typeIndex: TypeIndexItem[] = [...indexTypes]
+    .map((key) => ({
+      key,
+      label: getAxisName('exercise-type', key, locale) || key,
+      href: `/${locale}/topic/${getAxisSlug('exercise-type', key, locale) || key}/`,
+    }))
+    .filter((x) => Boolean(x.label))
+    .sort((a, b) => a.label.localeCompare(b.label, locale));
 
-  // ---- Lever A (2026-07-22): complete crawlable facet directory. The filter
-  // sidebar gates themes behind a JS "show all" and its links depend on filter
-  // state; this always-rendered <a> directory links EVERY theme + level to its
-  // filtered hub view (`?theme=X` / `?level=Y`) so every facet — and thus every
-  // landing, ≤2 hops from this home/footer/nav-linked hub — is shallow-crawlable.
-  // The /worksheets analog of a topic hub's cross-axis fan-out. Additive links
-  // only; canonical stays the bare hub, no metadata change (§21.5a-safe). ----
-  const dirThemes = (() => {
-    const m = new Map<string, number>();
-    for (const l of hubRows) if (l.coordinate.theme) m.set(l.coordinate.theme, (m.get(l.coordinate.theme) || 0) + 1);
-    return [...m.entries()].sort(
-      (a, b) => b[1] - a[1] || themeLabel(a[0], locale).localeCompare(themeLabel(b[0], locale), locale),
-    );
-  })();
-  const dirLevels = (() => {
-    const m = new Map<string, number>();
-    for (const l of hubRows) m.set(l.coordinate.level, (m.get(l.coordinate.level) || 0) + 1);
-    return [...m.entries()].sort((a, b) => levelOrder(a[0]) - levelOrder(b[0]));
-  })();
-  const facetHref = (key: string, value: string) =>
-    buildFilterUrl(basePath, withParam(new URLSearchParams(), key, value));
-
-  // ---- structured data (R13): CollectionPage + ItemList + BreadcrumbList. ----
+  /* ---- structured data: CollectionPage + ItemList + BreadcrumbList ---- */
   const canonical = canonicalUrl(localePath(locale, 'worksheets'));
   const collectionSchema: Record<string, unknown> = {
     '@context': 'https://schema.org',
@@ -487,21 +434,22 @@ export default async function AllWorksheetsPage({
     isAccessibleForFree: true,
     url: canonical,
   };
-  if (tiles.length > 0) {
+  if (typeIndex.length > 0) {
     collectionSchema.mainEntity = {
       '@type': 'ItemList',
-      numberOfItems: tiles.length,
-      itemListElement: tiles.map((tile, i) => ({
+      numberOfItems: typeIndex.length,
+      itemListElement: typeIndex.map((tile, i) => ({
         '@type': 'ListItem',
         position: i + 1,
-        name: tile.typeName,
-        url: canonicalUrl(localePath(locale, 'topic', tile.typeSlug)),
+        name: tile.label,
+        url: `${BASE_URL}${tile.href}`,
       })),
     };
   }
-  // Bare-state landing ItemList (first catalog page, variety order — still
-  // deterministic); filtered states emit none (canonical is the bare hub).
-  if (hubRows.length > 0 && !browseActive && page === 1 && filters.sort === 'variety') {
+  // Bare-state ItemList only (first page, no filters, default tab); filtered
+  // states emit none, because the canonical is the bare hub.
+  const bareState = !filters.type && !filters.level && !filters.theme && filters.format === 'all' && page === 1;
+  if (hubRows.length > 0 && bareState) {
     collectionSchema.hasPart = {
       '@type': 'ItemList',
       numberOfItems: pageItems.length,
@@ -509,8 +457,8 @@ export default async function AllWorksheetsPage({
         '@type': 'ListItem',
         position: i + 1,
         name: l.h1,
-        // deckHref is already an absolute, trailing-slash deck URL; canonicalUrl
-        // strips the slash, which would emit the form that 301s.
+        // deckHref is already absolute and trailing-slash; canonicalUrl would
+        // strip the slash and emit the form that 301s.
         url: l.deckHref || canonicalUrl(localePath(locale, 'worksheets', l.slug)),
       })),
     };
@@ -520,6 +468,15 @@ export default async function AllWorksheetsPage({
     { name: tBreadcrumb('home'), path: localePath(locale) },
     { name: tNav('worksheets'), path: localePath(locale, 'worksheets') },
   ]);
+
+  const cardLabels = {
+    pdf: t('card.pdf'),
+    answerKey: t('card.answerKey'),
+    printOnly: t('card.printOnly'),
+    pdfAria: (title: string) => t('card.pdfAria', { title }),
+    answerKeyAria: (title: string) => t('card.answerKeyAria', { title }),
+    interactiveMark: t('card.interactiveMark'),
+  };
 
   return (
     <>
@@ -531,7 +488,7 @@ export default async function AllWorksheetsPage({
         <div className="mx-auto max-w-6xl">
           <BreadcrumbTrail locale={locale} trail={[{ label: tNav('worksheets') }]} />
 
-          <header className="mb-7 md:mb-9 max-w-3xl">
+          <header className="mb-7 md:mb-8 max-w-2xl">
             <h1 className="font-lcsDisplay font-extrabold text-3xl md:text-4xl text-lcs-teal leading-tight mb-2.5">
               {h1}
             </h1>
@@ -541,62 +498,75 @@ export default async function AllWorksheetsPage({
             </p>
           </header>
 
-          {hubRows.length === 0 && tiles.length === 0 ? (
+          {hubRows.length === 0 ? (
             <div className="actcat-card-flat rounded-3xl p-10 md:p-12 text-center max-w-2xl mx-auto">
               <p className="font-lcsDisplay font-bold text-xl text-lcs-teal mb-3">{t('emptyTitle')}</p>
               <p className="font-lcsBody text-lcs-teal/70">{t('emptyBody')}</p>
             </div>
           ) : (
-            hubRows.length > 0 && (
+            <>
+              {/* The tab bar spans the full content width, above the shell,
+                  because it scopes the rail as well as the grid. */}
+              <CatalogTabs
+                ariaLabel={t('tabs.aria')}
+                tabs={tabs}
+                /* topicPage.decksCount, not a worksheetsPage string: it is
+                   already ICU-pluralised in all 11 locales, so the count reads
+                   correctly at 1. The old key was a bare "{count} worksheets"
+                   and rendered "1 worksheets" — a Finnish panel caught the same
+                   defect there that another panel had caught in the theme
+                   disclosure. Reusing the pluralised key fixes it everywhere
+                   without authoring eleven new plural forms. */
+                resultLabel={tTopic('decksCount', { count: total })}
+              />
+
               <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                 <CatalogSidebar heading={tFacets('heading')} groups={facetGroups} basePath={basePath} spString={spString} />
 
                 <div className="lg:col-span-9">
                   <CatalogMobileFilters heading={tFacets('heading')} groups={facetGroups} basePath={basePath} spString={spString} />
 
-                  {highlightStrip('new-worksheets-heading', t('newHeading'), newHighlightGroups, (v) => v.h1, EAGER_CARDS)}
-
-                  {highlightStrip('more-types-heading', t('moreTypesHeading'), moreTypeGroups, (v) => levelChip(v.coordinate.level, locale), 0)}
-
-                  <div className="flex items-center justify-between gap-3 flex-wrap mb-5">
-                    <p className="font-lcsBody text-sm font-semibold text-lcs-teal/70">
-                      {tBrowse('results', { count: total })}
-                    </p>
-                    <CatalogSortControl
-                      heading={tSort('heading')}
-                      options={sortOptions}
-                      current={filters.sort}
-                      basePath={basePath}
-                      spString={spString}
-                      defaultValue="variety"
-                    />
-                  </div>
-
                   <CatalogActiveChips chips={chips} clearAllHref={clearAllHref} clearAllLabel={tActive('clearAll')} />
 
                   {pageItems.length === 0 ? (
                     <CatalogEmptyState
                       title={tEmpty('heading')}
-                      body={tEmpty('body')}
+                      body={filters.format === 'interactive' ? t('empty.bodyInteractive') : tEmpty('body')}
                       clearAllHref={clearAllHref}
                       clearAllLabel={tEmpty('cta')}
+                      primaryAction={
+                        filters.format === 'interactive'
+                          ? { href: tabHref('all'), label: t('empty.showAll') }
+                          : undefined
+                      }
                     />
                   ) : (
-                    <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
-                      {pageItems.map((l, i) => (
-                        <WorksheetCatalogCard
-                          key={l.slug}
-                          href={l.deckHref || localePath(locale, 'worksheets', l.slug)}
-                          external={Boolean(l.deckHref)}
-                          thumbnailSrc={wwwImg(deckAssets(locale, l.canonicalDeckSlug).thumbnail)}
-                          title={l.h1}
-                          levelLabel={levelChip(l.coordinate.level, locale)}
-                          typeLabel={getAxisName('exercise-type', l.coordinate.type, locale) || l.coordinate.type}
-                          subject={worksheetSubject(l.coordinate.type)}
-                          ctaLabel={l.deckHref ? t('tileCtaSheet') : t('tileCta')}
-                          eager={page === 1 && newHighlightGroups.length === 0 && i < EAGER_CARDS}
-                        />
-                      ))}
+                    <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
+                      {pageItems.map((l, i) => {
+                        const assets = deckAssets(locale, l.canonicalDeckSlug);
+                        const printOnly = isPrintOnlyType(l.coordinate.type);
+                        // Falls back to the type when the DB read failed: with
+                        // zero mixed types catalogue-wide, the type answers this
+                        // exactly, so the card degrades truthfully.
+                        const hasAnswerKey = l.hasAnswerKey ?? !printOnly;
+                        return (
+                          <WorksheetCatalogCard
+                            key={l.slug}
+                            href={l.deckHref || localePath(locale, 'worksheets', l.slug)}
+                            external={Boolean(l.deckHref)}
+                            thumbnailSrc={wwwImg(assets.thumbnail)}
+                            title={l.h1}
+                            levelLabel={levelChip(l.coordinate.level, locale)}
+                            typeLabel={getAxisName('exercise-type', l.coordinate.type, locale) || l.coordinate.type}
+                            subject={worksheetSubject(l.coordinate.type)}
+                            labels={cardLabels}
+                            printOnly={printOnly}
+                            pdfHref={dlHref(locale, l.canonicalDeckSlug, 'pdf')}
+                            answerKeyHref={hasAnswerKey ? dlHref(locale, l.canonicalDeckSlug, 'answer') : null}
+                            eager={page === 1 && i < EAGER_CARDS}
+                          />
+                        );
+                      })}
                     </div>
                   )}
 
@@ -609,72 +579,10 @@ export default async function AllWorksheetsPage({
                   />
                 </div>
               </div>
-            )
+            </>
           )}
 
-          {/* Exercise-type strip — every published type links to its native-
-              language topic page. Text chips, plain <a> (no prefetch, no
-              images): the hub→topic crawl equity of the old 60-tile grid at
-              a fraction of the request budget. */}
-          {tiles.length > 0 && (
-            <section className="mt-12 md:mt-16" aria-labelledby="topic-links-heading">
-              <h2 id="topic-links-heading" className="font-lcsDisplay font-bold text-xl md:text-2xl text-lcs-teal mb-4">
-                {tBrowse('topicLinksHeading')}
-              </h2>
-              <div className="flex flex-wrap gap-2">
-                {tiles.map((tile) => (
-                  <a
-                    key={tile.exerciseType}
-                    href={`/${locale}/topic/${tile.typeSlug}/`}
-                    className="inline-flex items-center px-3 py-1.5 rounded-full border border-lcs-teal/20 bg-white/60 text-sm font-lcsBody font-semibold text-lcs-teal hover:border-lcs-coral hover:text-lcs-coral-deep transition-colors"
-                  >
-                    {tile.typeName}
-                  </a>
-                ))}
-              </div>
-            </section>
-          )}
-
-          {/* Browse by theme — complete crawlable directory (Lever A). Every
-              theme links to its filtered hub view; plain <a>, no images/prefetch. */}
-          {hubRows.length > 0 && dirThemes.length > 0 && (
-            <section className="mt-10 md:mt-12" aria-labelledby="theme-dir-heading">
-              <h2 id="theme-dir-heading" className="font-lcsDisplay font-bold text-xl md:text-2xl text-lcs-teal mb-4">
-                {tBrowse('browseByTheme')}
-              </h2>
-              <div className="flex flex-wrap gap-2">
-                {dirThemes.map(([value]) => (
-                  <a
-                    key={value}
-                    href={facetHref('theme', value)}
-                    className="inline-flex items-center px-3 py-1.5 rounded-full border border-lcs-teal/20 bg-white/60 text-sm font-lcsBody font-semibold text-lcs-teal hover:border-lcs-coral hover:text-lcs-coral-deep transition-colors"
-                  >
-                    {themeLabel(value, locale)}
-                  </a>
-                ))}
-              </div>
-            </section>
-          )}
-
-          {/* Browse by level — complete crawlable directory (Lever A). */}
-          {hubRows.length > 0 && dirLevels.length > 0 && (
-            <section className="mt-8" aria-labelledby="level-dir-heading">
-              <h2 id="level-dir-heading" className="font-lcsDisplay font-bold text-xl md:text-2xl text-lcs-teal mb-4">
-                {tBrowse('browseByLevel')}
-              </h2>
-              <div className="flex flex-wrap gap-2">
-                {dirLevels.map(([value]) => (
-                  <a
-                    key={value}
-                    href={facetHref('level', value)}
-                    className="inline-flex items-center px-3 py-1.5 rounded-full border border-lcs-teal/20 bg-white/60 text-sm font-lcsBody font-semibold text-lcs-teal hover:border-lcs-coral hover:text-lcs-coral-deep transition-colors"
-                  >
-                    {levelChip(value, locale)}
-                  </a>
-                ))}
-              </div>
-            </section>
-          )}
+          <CatalogTypeIndex heading={t('index.heading')} items={typeIndex} />
 
           <PageUsageBlock locale={locale} variant="hub" />
         </div>

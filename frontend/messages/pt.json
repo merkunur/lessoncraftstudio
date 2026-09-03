@@ -3285,9 +3285,9 @@
     "heading": "Como usar estas fichas",
     "overrides": {},
     "fallback": {
-      "topic": "Imprima o PDF para uma tarefa de sala ou lição de casa sem preparo, ou abra a versão para jogar online no tablet ou na lousa para ter feedback na hora. Toda ficha inclui gabarito, então as crianças podem se autocorrigir ou trabalhar de forma independente. Misture fichas de temas e níveis diferentes para montar uma aula curta de {topic}, ou mande uma para casa como prática extra.",
-      "intersection": "Imprima o PDF para uma tarefa de {primary} focada em {secondary} na hora, ou abra a versão para jogar online no tablet ou na lousa. Toda ficha vem com gabarito para uma autocorreção rápida, e você pode combiná-la com temas e níveis relacionados para ampliar a lição.",
-      "hub": "Escolha uma matéria, um tema ou um nível para abrir uma página de fichas correspondentes. Cada uma é grátis para imprimir e para jogar online, vem com gabarito e está disponível em todos os 11 idiomas em que publicamos — prático para salas bilíngues e escolas internacionais."
+      "topic": "Imprima o PDF para uma tarefa de sala ou lição de casa sem preparo ou, se houver versão para jogar online, abra-a no tablet ou na lousa para ter feedback na hora. As fichas que trazem gabarito permitem que as crianças se autocorrijam ou trabalhem de forma independente. Misture fichas de temas e níveis diferentes para montar uma aula curta de {topic}, ou mande uma para casa como prática extra.",
+      "intersection": "Imprima o PDF para uma tarefa de {primary} focada em {secondary} na hora ou, se houver versão para jogar online, abra-a no tablet ou na lousa. As fichas que trazem gabarito permitem uma autocorreção rápida, e você pode combiná-las com temas e níveis relacionados para ampliar a lição.",
+      "hub": "Escolha uma matéria, um tema ou um nível para abrir uma página com as atividades correspondentes. Todas vêm em PDF para imprimir e muitas também têm versão para jogar no navegador. O catálogo está disponível em todos os 11 idiomas em que publicamos — prático para salas bilíngues e escolas internacionais."
     }
   },
   "topicMeta": {
@@ -4073,32 +4073,40 @@
       "safer": "Explore atividades por tipo de exercício — HTML interativo e PDFs imprimíveis para matemática, leitura, quebra-cabeças K-3 e mais."
     },
     "h1": {
-      "hundreds": "Milhares de atividades, organizadas por tipo",
-      "safer": "Atividades, organizadas por tipo"
+      "hundreds": "Milhares de atividades para imprimir ou jogar",
+      "safer": "Atividades para imprimir ou jogar"
     },
     "intro": {
-      "hundreds": "Atividades em temas, faixas etárias e onze idiomas — escolha um tipo para ver todas as atividades disponíveis nessa categoria.",
-      "safer": "Escolha um tipo de atividade para ver todas as atividades disponíveis — HTML interativo para jogar no navegador e um PDF imprimível para cada conjunto."
+      "hundreds": "Filtre por nível, tipo de exercício ou tema. Toda atividade vem como PDF para imprimir; muitas também têm versão para jogar no navegador.",
+      "safer": "Filtre por nível, tipo de exercício ou tema. Toda atividade vem como PDF para imprimir; algumas também têm versão para jogar no navegador."
     },
-    "tileCta": "Ver atividades",
-    "tileCtaSheet": "Ver atividade",
-    "newHeading": "Novas atividades",
-    "moreTypesHeading": "Mais tipos de exercício",
-    "tileAlt": "Exemplo de atividade: {typeName}",
     "emptyTitle": "Ainda não há atividades disponíveis nesse idioma.",
     "emptyBody": "Nosso catálogo cresce idioma por idioma. Volte em breve ou explore outro idioma.",
     "browse": {
-      "heading": "Explorar todas as folhas de atividades",
       "filterType": "Tipo de exercício",
       "filterLevel": "Nível",
       "filterTheme": "Tema",
+      "moreThemes": "Mais temas ({count})"
+    },
+    "tabs": {
       "all": "Todos",
-      "results": "{count} folhas de atividades",
-      "showAllThemes": "Ver todos os temas",
-      "sortVariety": "Variedade",
-      "topicLinksHeading": "Explorar por tipo de exercício",
-      "browseByTheme": "Explorar por tema",
-      "browseByLevel": "Explorar por nível"
+      "interactive": "Interativo",
+      "aria": "Filtro de formato"
+    },
+    "card": {
+      "pdf": "PDF",
+      "answerKey": "Gabarito",
+      "printOnly": "Apenas PDF",
+      "interactiveMark": "Atividade interativa",
+      "pdfAria": "Baixar o PDF de {title}",
+      "answerKeyAria": "Baixar o gabarito de {title}"
+    },
+    "index": {
+      "heading": "Todos os tipos de exercício"
+    },
+    "empty": {
+      "bodyInteractive": "Algumas atividades não têm versão interativa. Abra a aba Todos ou remova um filtro.",
+      "showAll": "Mostrar todos os formatos"
     }
   },
   "standardsPage": {

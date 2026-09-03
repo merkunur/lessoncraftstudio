@@ -3299,9 +3299,9 @@
     "heading": "Come usare queste schede",
     "overrides": {},
     "fallback": {
-      "topic": "Stampa il PDF per un'attività in classe o per i compiti senza preparazione, oppure apri la versione da giocare online su tablet o lavagna per un riscontro immediato. Ogni scheda include le soluzioni, così i bambini possono auto-correggersi o lavorare in autonomia. Combina schede di temi e livelli diversi per costruire una breve lezione su {topic}, oppure mandane una a casa per esercitarsi ancora.",
-      "intersection": "Stampa il PDF per un'attività immediata di {primary} incentrata su {secondary}, oppure avvia la versione da giocare online su tablet o lavagna. Ogni scheda è accompagnata dalle soluzioni per un'auto-correzione rapida, e puoi abbinarla a temi e livelli affini per ampliare la lezione.",
-      "hub": "Scegli una materia, un tema o un livello scolastico per aprire una pagina di schede corrispondenti. Ognuna è gratuita da stampare e da giocare online, è accompagnata dalle soluzioni ed è disponibile in tutte le 11 lingue in cui pubblichiamo — comoda per le classi bilingui e internazionali."
+      "topic": "Stampa il PDF per un'attività in classe o per i compiti senza preparazione, oppure, quando è disponibile, apri la versione da giocare online su tablet o lavagna per un riscontro immediato. Molte schede includono le soluzioni, così i bambini possono auto-correggersi o lavorare in autonomia. Combina schede di temi e livelli diversi per costruire una breve lezione su {topic}, oppure mandane una a casa per esercitarsi ancora.",
+      "intersection": "Stampa il PDF per un'attività immediata di {primary} incentrata su {secondary}, oppure, quando è disponibile, avvia la versione da giocare online su tablet o lavagna. Molte schede sono accompagnate dalle soluzioni per un'auto-correzione rapida, e puoi abbinarle a temi e livelli affini per ampliare la lezione.",
+      "hub": "Scegli una materia, un tema o un livello scolastico per aprire una pagina di schede corrispondenti. Ogni scheda è disponibile in PDF da stampare, molte si possono anche giocare direttamente nel browser, e il catalogo è disponibile in tutte le 11 lingue in cui pubblichiamo — comodo per le classi bilingui e internazionali."
     }
   },
   "topicMeta": {
@@ -4088,32 +4088,40 @@
       "safer": "Esplora le schede per tipo di esercizio — HTML interattivo e PDF stampabili per matematica, lettura, rompicapo K-3 e altro."
     },
     "h1": {
-      "hundreds": "Migliaia di schede, organizzate per tipo",
-      "safer": "Schede, organizzate per tipo"
+      "hundreds": "Migliaia di schede didattiche da stampare o da giocare online",
+      "safer": "Schede didattiche da stampare o da giocare online"
     },
     "intro": {
-      "hundreds": "Schede su temi, fasce d'età e undici lingue — scegli un tipo per vedere tutte le schede disponibili in quella categoria.",
-      "safer": "Scegli un tipo di scheda per vedere tutte le schede disponibili — HTML interattivo da giocare nel browser più un PDF stampabile per ogni serie."
+      "hundreds": "Filtra per livello, tipo di esercizio o tema. Ogni scheda è disponibile in PDF da stampare; molte si possono anche giocare direttamente nel browser.",
+      "safer": "Filtra per livello, tipo di esercizio o tema. Ogni scheda è disponibile in PDF da stampare; alcune si possono anche giocare direttamente nel browser."
     },
-    "tileCta": "Vedi le schede",
-    "tileCtaSheet": "Vedi la scheda",
-    "newHeading": "Nuove schede",
-    "moreTypesHeading": "Altri tipi di esercizio",
-    "tileAlt": "Esempio di scheda: {typeName}",
     "emptyTitle": "Nessuna scheda disponibile in questa lingua per ora.",
     "emptyBody": "Il nostro catalogo cresce lingua per lingua. Torna presto o esplora un'altra lingua.",
     "browse": {
-      "heading": "Sfoglia tutte le schede",
       "filterType": "Tipo di esercizio",
       "filterLevel": "Livello",
       "filterTheme": "Tema",
+      "moreThemes": "Altri temi ({count})"
+    },
+    "tabs": {
       "all": "Tutti",
-      "results": "{count} schede",
-      "showAllThemes": "Mostra tutti i temi",
-      "sortVariety": "Varietà",
-      "topicLinksHeading": "Esplora per tipo di esercizio",
-      "browseByTheme": "Esplora per tema",
-      "browseByLevel": "Esplora per livello"
+      "interactive": "Interattivo",
+      "aria": "Filtro per formato"
+    },
+    "card": {
+      "pdf": "PDF",
+      "answerKey": "Soluzioni",
+      "printOnly": "Solo PDF",
+      "interactiveMark": "Scheda interattiva",
+      "pdfAria": "Scarica il PDF di {title}",
+      "answerKeyAria": "Scarica le soluzioni di {title}"
+    },
+    "index": {
+      "heading": "Tutti i tipi di esercizio"
+    },
+    "empty": {
+      "bodyInteractive": "Alcune schede non hanno una versione interattiva. Prova «Tutti» oppure togli un filtro.",
+      "showAll": "Mostra tutti i formati"
     }
   },
   "standardsPage": {

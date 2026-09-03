@@ -1841,9 +1841,9 @@
     "heading": "Sådan bruger du disse arbejdsark",
     "overrides": {},
     "fallback": {
-      "topic": "Print PDF'en til en klasseopgave eller lektie uden forberedelse, eller åbn spil-online-versionen på en tablet eller tavle for øjeblikkelig feedback. Hvert arbejdsark har en facitliste, så børnene kan tjekke sig selv eller arbejde selvstændigt. Bland ark på tværs af temaer og klassetrin til en kort {topic}-time, eller send et med hjem til ekstra øvelse.",
-      "intersection": "Print PDF'en til en hurtig {primary}-opgave med fokus på {secondary}, eller start spil-online-versionen på en tablet eller tavle. Hvert arbejdsark kommer med en facitliste til hurtig selvkontrol, og du kan kombinere det med beslægtede temaer og klassetrin for at udvide timen.",
-      "hub": "Vælg et emne, et tema eller et klassetrin for at åbne en side med matchende arbejdsark. Hvert ark er gratis at printe og at spille online, kommer med facitliste og findes på alle 11 sprog vi udgiver på — praktisk til tosprogede og internationale klasseværelser."
+      "topic": "Print PDF'en til en klasseopgave eller lektie uden forberedelse, eller åbn spil-online-versionen på en tablet eller tavle for øjeblikkelig feedback, hvis arbejdsarket har en. Mange arbejdsark har en facitliste, så børnene kan tjekke sig selv eller arbejde selvstændigt. Bland ark på tværs af temaer og klassetrin til en kort {topic}-time, eller send et med hjem til ekstra øvelse.",
+      "intersection": "Print PDF'en til en hurtig {primary}-opgave med fokus på {secondary}, eller start spil-online-versionen på en tablet eller tavle, hvis arbejdsarket har en. Mange arbejdsark kommer med en facitliste til hurtig selvkontrol, og du kan kombinere dem med beslægtede temaer og klassetrin for at udvide timen.",
+      "hub": "Vælg et emne, et tema eller et klassetrin for at åbne en side med matchende arbejdsark. Hvert ark kan printes som PDF, mange kan også spilles i browseren, og kataloget findes på alle 11 sprog vi udgiver på — praktisk til tosprogede og internationale klasseværelser."
     }
   },
   "topicMeta": {
@@ -2564,32 +2564,40 @@
       "safer": "Gennemse opgaver efter opgavetype — interaktiv HTML og printbare PDF'er til matematik, læsning, gåder i indskolingen og mere."
     },
     "h1": {
-      "hundreds": "Tusindvis af opgaver, ordnet efter type",
-      "safer": "Opgaver, ordnet efter type"
+      "hundreds": "Tusindvis af arbejdsark til at printe eller spille",
+      "safer": "Arbejdsark til at printe eller spille"
     },
     "intro": {
-      "hundreds": "Opgaver om temaer, aldersniveauer og elleve sprog — vælg en type for at se alle tilgængelige opgaver i den kategori.",
-      "safer": "Vælg en opgavetype for at se alle tilgængelige opgaver — interaktiv HTML at spille i browseren plus en printbar PDF til hvert sæt."
+      "hundreds": "Filtrér efter niveau, opgavetype eller tema. Hvert arbejdsark findes som en printbar PDF, og mange kan også spilles i browseren.",
+      "safer": "Filtrér efter niveau, opgavetype eller tema. Hvert arbejdsark findes som en printbar PDF, og nogle kan også spilles i browseren."
     },
-    "tileCta": "Se opgaver",
-    "tileCtaSheet": "Se opgaven",
-    "newHeading": "Nye opgaveark",
-    "moreTypesHeading": "Flere opgavetyper",
-    "tileAlt": "Eksempel på opgave: {typeName}",
     "emptyTitle": "Ingen opgaver tilgængelige på dette sprog endnu.",
     "emptyBody": "Vores katalog vokser sprog for sprog. Kom snart igen eller gennemse et andet sprog.",
     "browse": {
-      "heading": "Gennemse alle arbejdsark",
       "filterType": "Opgavetype",
       "filterLevel": "Niveau",
       "filterTheme": "Tema",
+      "moreThemes": "Flere temaer ({count})"
+    },
+    "tabs": {
       "all": "Alle",
-      "results": "{count} arbejdsark",
-      "showAllThemes": "Vis alle temaer",
-      "sortVariety": "Variation",
-      "topicLinksHeading": "Gennemse efter opgavetype",
-      "browseByTheme": "Gennemse efter tema",
-      "browseByLevel": "Gennemse efter niveau"
+      "interactive": "Interaktivt",
+      "aria": "Formatfilter"
+    },
+    "card": {
+      "pdf": "PDF",
+      "answerKey": "Facitliste",
+      "printOnly": "Kun PDF",
+      "interactiveMark": "Interaktivt arbejdsark",
+      "pdfAria": "Hent PDF — {title}",
+      "answerKeyAria": "Hent facitliste — {title}"
+    },
+    "index": {
+      "heading": "Alle opgavetyper"
+    },
+    "empty": {
+      "bodyInteractive": "Nogle arbejdsark har ingen interaktiv version. Prøv fanen Alle, eller fjern et filter.",
+      "showAll": "Vis alle formater"
     }
   },
   "standardsPage": {

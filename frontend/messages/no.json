@@ -1848,9 +1848,9 @@
     "heading": "Slik bruker du disse arbeidsarkene",
     "overrides": {},
     "fallback": {
-      "topic": "Skriv ut PDF-en til en oppgave uten forberedelser i klassen eller som hjemmelekse, eller åpne spill-online-versjonen på et nettbrett eller en tavle for umiddelbar tilbakemelding. Hvert arbeidsark har en fasit, så barna kan rette seg selv eller jobbe på egen hånd. Bland ark på tvers av temaer og klassetrinn til en kort {topic}-time, eller send ett med hjem til ekstra øving.",
-      "intersection": "Skriv ut PDF-en til en oppgave i {primary} med fokus på {secondary}, eller start spill-online-versjonen på et nettbrett eller en tavle. Hvert arbeidsark leveres med en fasit for rask egenretting, og du kan kombinere det med beslektede temaer og klassetrinn for å utvide timen.",
-      "hub": "Velg et fag, et tema eller et klassetrinn for å åpne en side med passende arbeidsark. Hvert ark er gratis å skrive ut og å spille online, har en fasit, og finnes på alle de 11 språkene vi publiserer på — praktisk for tospråklige og internasjonale klasserom."
+      "topic": "Skriv ut PDF-en til en oppgave uten forberedelser i klassen eller som hjemmelekse. Finnes arbeidsarket også i en spillbar versjon, kan du åpne den på et nettbrett eller en tavle for umiddelbar tilbakemelding. Når arbeidsarket har en fasit, kan barna rette seg selv eller jobbe på egen hånd. Bland ark på tvers av temaer og klassetrinn til en kort {topic}-time, eller send ett med hjem til ekstra øving.",
+      "intersection": "Skriv ut PDF-en til en oppgave i {primary} med fokus på {secondary}, eller start den spillbare versjonen på et nettbrett eller en tavle der en slik finnes. Har arbeidsarket en fasit, går egenrettingen raskt, og du kan kombinere arket med beslektede temaer og klassetrinn for å utvide timen.",
+      "hub": "Velg et fag, et tema eller et klassetrinn for å åpne en side med passende arbeidsark. Alle arkene kan skrives ut som PDF, mange kan også spilles i nettleseren, og katalogen finnes på alle de 11 språkene vi publiserer på — praktisk for tospråklige og internasjonale klasserom."
     }
   },
   "topicMeta": {
@@ -2571,32 +2571,40 @@
       "safer": "Bla i oppgaver etter oppgavetype — interaktiv HTML og utskrivbare PDF-er for matematikk, lesing, gåter på småtrinnet og mer."
     },
     "h1": {
-      "hundreds": "Tusenvis av oppgaver, sortert etter type",
-      "safer": "Oppgaver, sortert etter type"
+      "hundreds": "Tusenvis av arbeidsark du kan skrive ut eller spille",
+      "safer": "Arbeidsark du kan skrive ut eller spille"
     },
     "intro": {
-      "hundreds": "Oppgaver om temaer, aldersnivåer og elleve språk — velg en type for å se alle tilgjengelige oppgaver i den kategorien.",
-      "safer": "Velg en oppgavetype for å se alle tilgjengelige oppgaver — interaktiv HTML å spille i nettleseren pluss en utskrivbar PDF for hvert sett."
+      "hundreds": "Filtrer etter nivå, oppgavetype eller tema. Alle arbeidsark finnes som PDF til utskrift, og mange kan også spilles i nettleseren.",
+      "safer": "Filtrer etter nivå, oppgavetype eller tema. Alle arbeidsark finnes som PDF til utskrift, og noen kan også spilles i nettleseren."
     },
-    "tileCta": "Se oppgavene",
-    "tileCtaSheet": "Se oppgaven",
-    "newHeading": "Nye oppgaveark",
-    "moreTypesHeading": "Flere oppgavetyper",
-    "tileAlt": "Eksempel på oppgave: {typeName}",
     "emptyTitle": "Ingen oppgaver tilgjengelig på dette språket ennå.",
     "emptyBody": "Katalogen vår vokser språk for språk. Kom tilbake snart eller bla i et annet språk.",
     "browse": {
-      "heading": "Bla gjennom alle arbeidsark",
       "filterType": "Oppgavetype",
       "filterLevel": "Nivå",
       "filterTheme": "Tema",
+      "moreThemes": "Flere temaer ({count})"
+    },
+    "tabs": {
       "all": "Alle",
-      "results": "{count} arbeidsark",
-      "showAllThemes": "Vis alle temaer",
-      "sortVariety": "Variasjon",
-      "topicLinksHeading": "Bla etter oppgavetype",
-      "browseByTheme": "Bla etter tema",
-      "browseByLevel": "Bla etter nivå"
+      "interactive": "Interaktive",
+      "aria": "Formatfilter"
+    },
+    "card": {
+      "pdf": "PDF",
+      "answerKey": "Fasit",
+      "printOnly": "Kun PDF",
+      "interactiveMark": "Interaktivt arbeidsark",
+      "pdfAria": "Last ned PDF-en til {title}",
+      "answerKeyAria": "Last ned fasiten til {title}"
+    },
+    "index": {
+      "heading": "Alle oppgavetyper"
+    },
+    "empty": {
+      "bodyInteractive": "Noen arbeidsark har ingen interaktiv versjon. Prøv fanen Alle, eller fjern et filter.",
+      "showAll": "Vis alle formater"
     }
   },
   "standardsPage": {

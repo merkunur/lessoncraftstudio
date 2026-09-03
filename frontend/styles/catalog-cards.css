@@ -54,9 +54,25 @@
   border: 1px solid rgba(20, 107, 94, 0.10);
 }
 
-/* Mobile-filter disclosure caret flips when open. */
-details[open] .actcat-caret {
+/* Mobile-filter disclosure caret flips when open.
+   SCOPED with `>` deliberately: the unscoped form matched every .actcat-caret
+   ANYWHERE inside an open <details>, so once the filter rail gained nested
+   subgroup disclosures, opening the mobile drawer would have flipped all of
+   their carets too. Current single-level markup renders identically. */
+details[open] > summary .actcat-caret {
   transform: rotate(180deg);
+}
+
+/* Facet subgroup disclosure (worksheet types grouped by subject). Its own class
+   rather than .actcat-caret, so an ancestor <details> can never drive it. */
+details[open] > summary .actcat-subcaret {
+  transform: rotate(90deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .actcat-subcaret {
+    transition: none;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

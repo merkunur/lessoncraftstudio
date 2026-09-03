@@ -1833,9 +1833,9 @@
     "heading": "Näin käytät näitä tehtäviä",
     "overrides": {},
     "fallback": {
-      "topic": "Tulosta PDF valmistelua vaatimattomaksi luokka- tai kotitehtäväksi, tai avaa verkossa pelattava versio tabletilla tai älytaululla välitöntä palautetta varten. Jokaiseen tehtävään kuuluu vastaukset, joten lapset voivat tarkistaa itse tai työskennellä itsenäisesti. Yhdistele tehtäviä eri teemoista ja luokka-asteilta lyhyeksi {topic}-tuokioksi, tai lähetä yksi kotiin lisäharjoitteluun.",
-      "intersection": "Tulosta PDF valmiiksi {primary}-tehtäväksi, joka keskittyy aiheeseen {secondary}, tai avaa verkossa pelattava versio tabletilla tai taululla. Jokaiseen tehtävään kuuluu vastaukset nopeaa itsetarkistusta varten, ja voit yhdistää sen läheisiin teemoihin ja luokka-asteisiin oppitunnin laajentamiseksi.",
-      "hub": "Valitse aine, teema tai luokka-aste avataksesi sivun, jolla on niihin sopivia tehtäviä. Jokainen on ilmainen tulostettavaksi ja pelattavaksi verkossa, sisältää vastaukset ja on saatavilla kaikilla 11 kielellä, joilla julkaisemme — kätevää kaksikielisiin ja kansainvälisiin luokkiin."
+      "topic": "Tulosta PDF valmistelua vaatimattomaksi luokka- tai kotitehtäväksi, tai avaa verkossa pelattava versio tabletilla tai älytaululla välitöntä palautetta varten, jos tehtävästä on sellainen. Monissa tehtävissä on mukana vastaukset, joten lapset voivat tarkistaa työnsä itse tai työskennellä itsenäisesti. Yhdistele tehtäviä eri teemoista ja luokka-asteilta lyhyeksi {topic}-tuokioksi, tai lähetä yksi kotiin lisäharjoitteluun.",
+      "intersection": "Tulosta PDF valmiiksi {primary}-tehtäväksi, joka keskittyy aiheeseen {secondary}, tai avaa verkossa pelattava versio tabletilla tai taululla, jos tehtävästä on sellainen. Monissa tehtävissä on mukana vastaukset nopeaa itsetarkistusta varten, ja voit yhdistää tehtävän läheisiin teemoihin ja luokka-asteisiin oppitunnin laajentamiseksi.",
+      "hub": "Valitse aine, teema tai luokka-aste avataksesi sivun, jolla on niihin sopivia tehtäviä. Jokainen tehtävä on tulostettavissa PDF-tiedostona, monia voi myös pelata selaimessa, ja valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme — kätevää kaksikielisiin ja kansainvälisiin luokkiin."
     }
   },
   "topicMeta": {
@@ -2556,32 +2556,40 @@
       "safer": "Selaa tehtäviä tehtävätyypin mukaan — vuorovaikutteinen HTML ja tulostettavat PDF-tiedostot matematiikan, lukemisen, pulmien K-3 ja muille."
     },
     "h1": {
-      "hundreds": "Tuhansia tehtäviä, järjestetty tyypin mukaan",
-      "safer": "Tehtäviä, järjestetty tyypin mukaan"
+      "hundreds": "Tuhansia tehtäviä tulostettavaksi tai pelattavaksi",
+      "safer": "Tehtäviä tulostettavaksi tai pelattavaksi"
     },
     "intro": {
-      "hundreds": "Tehtäviä teemoista, ikätasoista ja yhdestätoista kielestä — valitse tyyppi nähdäksesi kaikki saatavilla olevat tehtävät tästä kategoriasta.",
-      "safer": "Valitse tehtävätyyppi nähdäksesi kaikki saatavilla olevat tehtävät — vuorovaikutteinen HTML pelattavaksi selaimessa ja tulostettava PDF jokaisessa sarjassa."
+      "hundreds": "Suodata tason, tehtävätyypin tai teeman mukaan. Jokaisesta tehtävästä saa tulostettavan PDF-tiedoston, ja monia voi myös pelata selaimessa.",
+      "safer": "Suodata tason, tehtävätyypin tai teeman mukaan. Jokaisesta tehtävästä saa tulostettavan PDF-tiedoston, ja osaa voi myös pelata selaimessa."
     },
-    "tileCta": "Katso tehtävät",
-    "tileCtaSheet": "Katso tehtävä",
-    "newHeading": "Uudet tehtävät",
-    "moreTypesHeading": "Lisää tehtävätyyppejä",
-    "tileAlt": "Esimerkkitehtävä: {typeName}",
     "emptyTitle": "Tällä kielellä ei ole vielä saatavilla tehtäviä.",
     "emptyBody": "Katalogimme kasvaa kieli kerrallaan. Käy uudelleen pian tai selaa toista kieltä.",
     "browse": {
-      "heading": "Selaa kaikkia tehtäviä",
       "filterType": "Tehtävätyyppi",
       "filterLevel": "Taso",
       "filterTheme": "Aihe",
+      "moreThemes": "Lisää teemoja ({count})"
+    },
+    "tabs": {
       "all": "Kaikki",
-      "results": "{count} tehtävää",
-      "showAllThemes": "Näytä kaikki aiheet",
-      "sortVariety": "Vaihtelu",
-      "topicLinksHeading": "Selaa tehtävätyypin mukaan",
-      "browseByTheme": "Selaa aiheen mukaan",
-      "browseByLevel": "Selaa tason mukaan"
+      "interactive": "Interaktiivinen",
+      "aria": "Suodatus muodon mukaan"
+    },
+    "card": {
+      "pdf": "PDF",
+      "answerKey": "Vastaukset",
+      "printOnly": "Vain PDF",
+      "interactiveMark": "Interaktiivinen tehtävä",
+      "pdfAria": "Lataa PDF — {title}",
+      "answerKeyAria": "Lataa vastaukset — {title}"
+    },
+    "index": {
+      "heading": "Kaikki tehtävätyypit"
+    },
+    "empty": {
+      "bodyInteractive": "Osalla tehtävistä ei ole interaktiivista versiota. Kokeile Kaikki-välilehteä tai poista jokin suodatin.",
+      "showAll": "Näytä kaikki muodot"
     }
   },
   "standardsPage": {

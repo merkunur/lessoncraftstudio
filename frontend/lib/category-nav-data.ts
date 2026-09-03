@@ -154,7 +154,7 @@ export const LABELS: Record<string, {
   fi: { activities: 'Tehtävät', manipulatives: 'Työkalut', topics: 'Aiheet', browseAllActivities: 'Kaikki tehtävät', browseAllManipulatives: 'Kaikki työkalut', browseAllTopics: 'Kaikki aiheet' },
 };
 
-export type CategoryKey = 'worksheets' | 'apps' | 'interactive' | 'activities' | 'manipulatives' | 'topics' | 'languages';
+export type CategoryKey = 'worksheets' | 'apps' | 'activities' | 'manipulatives' | 'topics' | 'languages';
 
 export interface DropdownItem {
   href: string;
@@ -238,13 +238,21 @@ export function buildCategories({
 
   // Per-locale availability filter for exercise-type-bearing dropdowns.
   const availSet = new Set(availableExerciseTypes);
-  const filterByAvail = (candidates: readonly string[]): string[] => {
-    if (availSet.size === 0) return candidates.slice(0, 6); // fallback
-    return candidates.filter(k => availSet.has(k)).slice(0, 6);
+  const filterByAvail = (candidates: readonly string[], limit = 6): string[] => {
+    if (availSet.size === 0) return candidates.slice(0, limit); // fallback
+    return candidates.filter(k => availSet.has(k)).slice(0, limit);
   };
 
-  const worksheetsKeys = filterByAvail(WORKSHEETS_ANCHOR_CANDIDATES);
-  const interactiveKeys = filterByAvail(INTERACTIVE_ANCHOR_CANDIDATES);
+  /* The "Interactive" top-level category was removed 2026-09-03: interactive is
+     a FILTER on the worksheets hub (`?format=interactive`), not a separate part
+     of the catalogue, and giving it its own nav button implied otherwise.
+     Its anchor keys are merged in here rather than dropped, with the cap raised
+     to match — the two lists overlap only on `matching`, so merging at the old
+     cap of 6 would have silently cost six topic pages their site-wide link. */
+  const worksheetsKeys = filterByAvail(
+    [...new Set([...WORKSHEETS_ANCHOR_CANDIDATES, ...INTERACTIVE_ANCHOR_CANDIDATES])],
+    12,
+  );
 
   // "Browse all" for both Worksheets + Interactive dropdowns lands on the
   // localized /[locale]/worksheets/ catalog hub. Previously linked to the
@@ -252,14 +260,15 @@ export function buildCategories({
   // /[locale]/worksheets/ chrome was localized in all 11 languages.
   const browseAllWorksheetsHref = `/${locale}/worksheets/`;
 
-  const worksheetsItems: DropdownItem[] = worksheetsKeys.map(key => ({
-    href: `/${locale}/topic/${axisSlugFrom(axisLabels, key, 'exercise-type')}/`,
-    label: axisNameFrom(axisLabels, key, 'exercise-type'),
-  }));
-  const interactiveItems: DropdownItem[] = interactiveKeys.map(key => ({
-    href: `/${locale}/topic/${axisSlugFrom(axisLabels, key, 'exercise-type')}/`,
-    label: axisNameFrom(axisLabels, key, 'exercise-type'),
-  }));
+  const worksheetsItems: DropdownItem[] = [
+    ...worksheetsKeys.map(key => ({
+      href: `/${locale}/topic/${axisSlugFrom(axisLabels, key, 'exercise-type')}/`,
+      label: axisNameFrom(axisLabels, key, 'exercise-type'),
+    })),
+    // Where the deleted "Interactive" button used to go — now a scope on the
+    // hub, which is what it always was.
+    { href: `/${locale}/worksheets?format=interactive`, label: t('interactive') },
+  ];
   // Worksheet-creator items point at the per-maker landing, not a hub fragment.
   // These were `/worksheet-makers/#<key>` anchors; a fragment is not a separate URL,
   // so every one of these sitewide nav links resolved to the same hub page while the
@@ -380,13 +389,6 @@ export function buildCategories({
       items: appsItems,
       browseAllHref: `/${locale}/worksheet-makers/`,
       browseAllLabel: t('browseAll.apps'),
-    },
-    {
-      key: 'interactive',
-      label: t('interactive'),
-      items: interactiveItems,
-      browseAllHref: browseAllWorksheetsHref,
-      browseAllLabel: t('browseAll.interactive'),
     },
   ];
 

@@ -4,95 +4,100 @@ import ToolVignette from '@/components/homepage-v6/ToolVignette';
 import WeighBench from '@/components/homepage-v10/WeighBench';
 import OpenNumberLine from '@/components/homepage-v10/OpenNumberLine';
 import type { ShowcaseDeck } from '@/lib/showcase-decks';
+import type { HeroStrings } from '@/components/homepage-v10/hero-strings';
 
 /* ───────────────────────────────────────────────────────────────────────────
    THE GRAND HALL — the hero of homepage v10 "The Gallery of Lessons".
+   v10.1 (2026-09-03): the placard band.
 
    ONE composition at every viewport from 320 to 2560. Not a responsive
-   rearrangement: the same picture, scaled. The poster is 3:2, capped at
-   1600px, and every coordinate below is in POSTER UNITS (1 unit = 1% of the
-   poster's own width, both axes) so the picture is rigid.
+   rearrangement: the same picture, scaled. The poster is 2:1 (it was 3:2
+   until v10.1), capped at 1600px, and every coordinate below is in POSTER
+   UNITS (1 unit = 1% of the poster's own width, both axes) so the picture is
+   rigid. A 2:1 poster is 100 × 50 units.
 
    The gallery is drawn (CSS). The art is real — every frame holds a
    published worksheet in the visitor's own language, and every plinth
    carries a working instrument.
 
-   The four instruments were chosen because their keyframes are
-   rotation/scale/opacity only, with no pixel offsets, so they resize by
-   scoped cqw override without desynchronising. See homepage-v10.css.
+   WHY 2:1. Measured on production at 1366×768 (the commonest laptop fold):
+   the 3:2 poster ended at y≈700 and the primary CTA's bottom edge sat at
+   801px — the visitor saw a picture and a poetic headline and NOTHING that
+   said what the site is. The v10 poster also carried ~200px of empty green
+   between the headline and the plinth tops. Widening the ratio removes that
+   dead centre and, together with reserving the band in the fold budget
+   (homepage-v10.css `--g10-band`), puts the headline, the four placards and
+   the primary CTA inside the fold while the frames and instruments stay the
+   same size they were.
 
-   FOLD RULE (measured, binding): at 1366×768 the real fold is ~578px while
-   the poster is ~911px tall, so the H1 must end by poster-y 36.7 (55%) and
-   the CTAs by 41.3 (62%). The instruments sit at y≈35-46 so the tools are
-   genuinely SEEN working in the fold.
+   THE PLACARD BAND. Only the H1 lives inside the poster. Everything that must
+   be real-size text — the four museum wall-labels naming what the site holds
+   and the two CTAs — lives in `.hv10-below`, on the wall directly under the
+   picture. Poster-unit text at 390px would be ~6px; px floors inside the
+   poster would break the identity law (the same reason the CTAs left the
+   poster in v10). `scripts/audit-hero-identity.js` now asserts that the type
+   layer holds exactly one child (the H1) and that no band element strays
+   into the stage; `scripts/audit-hero-fold.js` asserts the fold itself.
    ─────────────────────────────────────────────────────────────────────── */
 
-/* The floor line — constant in every room of the building, so scrolling
-   reads as walking. At 46 the floor took a third of the picture and read as
-   a slab; 50 puts it at a quarter, which is what a room actually looks like. */
-const HORIZON = 48;
+/* The floor line. The rooms below keep their own horizon (48 on a 3:2
+   poster); the hero's is 39 on a 2:1 poster — the same proportion of the
+   picture's height (0.78), so the room still reads as one building. */
+const HORIZON = 39;
 
-/* The poster is 3:2, so its height is exactly 66.667 poster units. Pieces are
+/* The poster is 2:1, so its height is exactly 50 poster units. Pieces are
    anchored from the bottom edge, which needs this. */
-const POSTER_H = 200 / 3;
+const POSTER_H = 50;
 
 /* The salon hang. Portrait 3:4, the shape a worksheet already renders at.
-   Six works, deliberately not eight: a composition that must read at 320px
-   cannot hold tiny specks, and restraint is what lets one picture survive
-   the whole range. Density belongs in the Print Room, not the hall. */
-/* Shifted down to clear the cornice, and enlarged: at 11–12 units the work
-   was undersized and the wall read as empty green. The law is that the
-   product dominates, so the works grow rather than the wall gaining
-   ornament. */
+   Six works: one large inboard-anchored piece and two small ones per wall,
+   all above the chair rail (y 33), none touching another or the clock.
+   v10 pushed the largest works to the extremes and let the small frame
+   overlap the large one; a curator hangs nothing across anything. The
+   identity gate now measures pairwise overlap, so this table cannot regress
+   silently. */
 const FRAMES = [
-  { x: 1.5, y: 9.5, w: 13.5, tilt: '-1.3deg' },
-  { x: 15.5, y: 12.5, w: 7.5, tilt: '1.1deg' },
-  { x: 3, y: 24, w: 13, tilt: '0.8deg' },
-  { x: 77, y: 12.5, w: 7.5, tilt: '-1.1deg' },
-  { x: 86, y: 9.5, w: 12, tilt: '1.3deg' },
-  { x: 84.5, y: 24, w: 13, tilt: '-0.8deg' },
+  { x: 2.5, y: 9.6, w: 11, tilt: '-1.1deg' },
+  { x: 15.2, y: 8.6, w: 7.4, tilt: '0.9deg' },
+  { x: 15.2, y: 20.2, w: 7.4, tilt: '-0.6deg' },
+  { x: 77.4, y: 8.6, w: 7.4, tilt: '-0.9deg' },
+  { x: 86.5, y: 9.6, w: 11, tilt: '1.1deg' },
+  { x: 77.4, y: 20.2, w: 7.4, tilt: '0.6deg' },
 ] as const;
 
-/* Plinths stand on the floor; the instrument sits on the lit top face.
-   `pieceTop` = plinth y minus the instrument's own rendered height in poster
-   units, derived from each machine's native geometry × the override ratio in
-   homepage-v10.css — not eyeballed:
-     clock     14cqw square                                        → 14
-     rekenrek  2×(30 rail) + 26 gap + 2×(10 pad) = 106px × 0.04893 → 5.19
-     planks    2×14 + 14 gap + 22 mark + 2 margin  = 66px × 0.08824 → 5.82
-     lids      110px × 0.09333                                     → 10.27
-   The centre stays open under the type — a room needs somewhere to stand. */
-/* Plinths stand FORWARD of the wall (y 53 against a horizon of 48) so their
+/* Plinths stand FORWARD of the wall (y 42.5 against a horizon of 39) so their
    lit top face reads as a separate plane rather than merging into the
-   skirting — which is exactly what happened at y = HORIZON. Shorter than
-   before, too: at h 12 they filled nearly three quarters of the floor and
-   the whole lower band went heavy. */
-const PLINTH_Y = 53;
-const PLINTH_H = 9;
-/* planks and lids were replaced here: at ~110px the planks read as two
-   coloured bars and a chevron, and the lids as an orange blob — neither says
-   "teaching instrument" to anyone who has not met the tool. The clock and the
-   rekenrek work because they are recognisable objects, so the two
-   replacements are chosen the same way: a balance and a weighing scale. */
+   skirting. Shorter than v10 (6.5 against 9): the tall tapered slabs read as
+   paper bags. One even rank, six-unit gaps, symmetric margins. */
+const PLINTH_Y = 42.5;
+const PLINTH_H = 6.5;
+/* The four instruments were chosen because they are recognisable OBJECTS at
+   ~110px — a clock, a counting frame, a number line, a balance. Their
+   keyframes are rotation/scale/opacity only, so they resize by scoped cqw
+   override without desynchronising (homepage-v10.css). */
+/* `seat` = poster units the instrument's box is lowered so the part that
+   actually touches the plinth (the rekenrek's lower rail, the number line's
+   axis) sits ON the lit top face rather than hovering above it. Measured on
+   the render: the rekenrek carries 0.5 units of its own padding, the number
+   line keeps its axis 1.9 units above its box bottom. The clock and the
+   weigh bench already end on their contact edge. */
 const PLINTHS = [
-  { id: 'clock', x: 4, w: 15, pieceW: 14 },
-  { id: 'rekenrek', x: 21, w: 22, pieceW: 21 },
-  { id: 'onl', x: 59, w: 16, pieceW: 15 },
-  { id: 'weigh', x: 80, w: 16, pieceW: 15 },
+  { id: 'clock', x: 6, w: 15, pieceW: 11, seat: 0 },
+  { id: 'rekenrek', x: 27.5, w: 22, pieceW: 21, seat: 0.9 },
+  { id: 'onl', x: 55.5, w: 16, pieceW: 16, seat: 1.6 },
+  { id: 'weigh', x: 78, w: 16, pieceW: 16, seat: 0 },
 ] as const;
 
 type Props = {
   locale: string;
   decks: ShowcaseDeck[];
-  strings: {
-    h1: string;
-    sub: string;
-    ctaTools: string;
-    ctaWorksheets: string;
-    hallLabel: string;
-    countsLine: string;
-  };
+  strings: HeroStrings;
 };
+
+/* Each placard is a link to the hub it names, in the pillar order the copy
+   panel locked: the library first (the number is the anchor), the
+   differentiator last. */
+const PILLAR_HREFS = ['worksheets', 'activities', 'tools', 'worksheet-makers'] as const;
 
 export default function GrandHall({ locale, decks, strings }: Props) {
   return (
@@ -134,9 +139,9 @@ export default function GrandHall({ locale, decks, strings }: Props) {
                   alt=""
                   width={480}
                   height={620}
-                  /* The frames never render wider than ~216px even at 2560,
+                  /* The frames never render wider than ~180px even at 2560,
                      so a full-size 480x620 PNG was ~130KB of waste each. */
-                  sizes="(max-width: 640px) 26vw, 220px"
+                  sizes="(max-width: 640px) 26vw, 200px"
                   priority={i < 2}
                   quality={72}
                 />
@@ -170,7 +175,7 @@ export default function GrandHall({ locale, decks, strings }: Props) {
                     // centred on the plinth, and seated on its top face by
                     // bottom-anchoring rather than an estimated height
                     '--x': p.x + (p.w - p.pieceW) / 2,
-                    '--b': POSTER_H - PLINTH_Y,
+                    '--b': POSTER_H - PLINTH_Y - p.seat,
                     '--w': p.pieceW,
                     zIndex: 5,
                   } as React.CSSProperties
@@ -188,36 +193,55 @@ export default function GrandHall({ locale, decks, strings }: Props) {
           );
         })}
 
-        {/* ── the type layer: real DOM text, never inside a scaled subtree ── */}
+        {/* ── the type layer: real DOM text, never inside a scaled subtree.
+            EXACTLY ONE CHILD — the identity gate asserts it. ── */}
         <div
           className="hv10-type"
-          style={{ '--x': 22, '--y': 15, '--w': 56 } as React.CSSProperties}
+          style={{ '--x': 23, '--y': 10.5, '--w': 54 } as React.CSSProperties}
         >
           <h1 className="hv10-h1">{strings.h1}</h1>
         </div>
+
+        {/* The step: the stone nosing at the picture's foot, so the band
+            below sits on a ledge rather than on a wall that resumes under a
+            floor. Bleeds like the other architecture. */}
+        <div className="hv10-step" aria-hidden="true" data-bleed />
       </div>
 
-      {/* On the wall below the picture. The sub lives out here with the
-          buttons because it is real, natively-authored copy of unpredictable
-          length — inside the poster its height could not scale with the
-          picture, and at 412px it ran through the floor. Out here it can be
-          as long as any of the eleven languages needs. */}
+      {/* ── THE PLACARD BAND: what the site holds, in four museum labels ──
+          Real-size text on the wall under the picture. The lead label carries
+          the one numeral the marketing surface allows. Each label is a link
+          to the hub it names. The band is reserved in the poster's fold
+          budget (homepage-v10.css `--g10-band`) so that at 1366×768 the
+          headline, all four labels and the primary CTA are inside the fold. */}
       <div className="hv10-below">
-        <p className="hv10-sub">{strings.sub}</p>
-        {/* The pillar line names the ACTIVITIES — "ready-to-play activities" /
-            "Aktivitäten zum Losspielen" / "heti pelattavat tehtävät". It was
-            already authored natively in all eleven languages and already
-            de-numbered under the no-counts law, so activities are named in the
-            hero in every language without a word being translated. */}
-        <p className="hv10-pillars">{strings.countsLine}</p>
+        <nav aria-label={strings.scope}>
+          <ul className="hv10-placards">
+            {strings.pillars.map((p, i) => (
+              <li key={PILLAR_HREFS[i]}>
+                <Link
+                  href={`/${locale}/${PILLAR_HREFS[i]}`}
+                  className={`hv10-placard${p.count ? ' is-lead' : ''}`}
+                >
+                  {p.count ? (
+                    <strong className="hv10-placard-count">{p.count}</strong>
+                  ) : null}
+                  <span className="hv10-placard-title">{p.label}</span>
+                  <span className="hv10-placard-gloss">{p.gloss}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
         <div className="hv10-ctas">
-          <Link href={`/${locale}/tools`} className="hv10-cta is-primary">
-            {strings.ctaTools}
-          </Link>
-          <Link href={`/${locale}/worksheets`} className="hv10-cta is-ghost">
+          <Link href={`/${locale}/worksheets`} className="hv10-cta is-primary">
             {strings.ctaWorksheets}
           </Link>
+          <Link href={`/${locale}/activities`} className="hv10-cta is-ghost">
+            {strings.ctaActivities}
+          </Link>
         </div>
+        <p className="hv10-scope">{strings.scope}</p>
       </div>
     </header>
   );

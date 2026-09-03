@@ -5,6 +5,7 @@ import { SUPPORTED_LOCALES } from '@/config/locales';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { buildOrganizationSchema, buildWebSiteSchema } from '@/lib/seo/organization-schema';
 import GrandHall from '@/components/homepage-v10/GrandHall';
+import { heroStrings } from '@/components/homepage-v10/hero-strings';
 import {
   InstrumentHall,
   Playroom,
@@ -227,14 +228,9 @@ export default async function HomePage({ params }: { params: { locale: string } 
     decks = fallbackShowcase(22).thumbs;
   }
 
-  const hero = {
-    h1: tv('hero.h1'),
-    sub: tv('hero.sub'),
-    ctaTools: tv('hero.ctaTools'),
-    ctaWorksheets: tv('hero.ctaWorksheets'),
-    hallLabel: tv('hero.fanLabel'),
-    countsLine: tv('hero.countsLine'),
-  };
+  // One builder for both routes (components/homepage-v10/hero-strings.ts):
+  // the preview route is the gate target and must never drift from this page.
+  const hero = heroStrings(tv);
 
   /* THE LOAN LABEL (Room V, second half). Every string it needs was already
      natively authored in all eleven locales for the v3 embed section, so the

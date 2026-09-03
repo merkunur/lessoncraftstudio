@@ -181483,6 +181483,1528 @@
    ],
    "title": "Mixed Multiplication and Division Word Problems | Free Printable PDF",
    "metaDescription": "Mixed word problems: three toy stories on one page, one multiplication, one sharing division and one grouping division, in no helpful order. Free 3rd grade PDF."
+  },
+  {
+   "slug": "dot-to-dot-count-back-from-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "dot-to-dot",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Dot-to-Dot Worksheet",
+   "h1": "Backwards Dot to Dot: Count Down from 10 to 1",
+   "strand": "Counting & Cardinality",
+   "slotTokens": [
+    "dot-to-dot",
+    "kindergarten"
+   ],
+   "p1": "The count runs the other way on this Kindergarten dot-to-dot. Dot 10 wears the orange ring, and from there the pencil travels to 9, then 8, then 7, all the way down to a single dot 1 near the foot of the panel. Only ten dots are numbered; the remainder of the shape is already printed in soft grey, so ten lines are enough to close a whole picture. The counting strip along the bottom of the page reads 10, 9, 8 and on down to 1 in that order, which is the only place on the sheet the backwards sequence is written out.",
+   "p2": "Counting down is a separate piece of knowledge from counting up, and a child who can rattle off one to twenty will often stall somewhere around seven, six. Here the pencil cannot move until the next number has been said, so the sequence gets rehearsed ten times without anyone calling it practice. Because most of the outline is already drawn, a wrong turn announces itself: the line cuts across the figure instead of following it. What a teacher learns by watching is where the pauses fall. The step from 10 to 9 and the crossing of five are the two places the count usually catches, and both are visible from behind the shoulder.",
+   "p3": "Print the PDF free and ask for a spoken countdown from ten before the pencil touches the paper, then let the finished shape be colored in. Ten numbered dots make a short run, which suits a child who has forwards counting to ten secure and is meeting the reverse for the first time. The dot to dot 1-10 page is the same short count going the other way. When ten backwards is easy, count back from 20 removes the printed outline and doubles the distance.",
+   "canonicalDeckSlug": "dot-to-dot-k308",
+   "carousel": [
+    {
+     "label": "Count by Twos Dot to Dot: 2, 4, 6 up to 20",
+     "href": "dot-to-dot-count-by-2s"
+    },
+    {
+     "label": "Count Back from 20: Every Dot Numbered, Nothing Pre-Drawn",
+     "href": "dot-to-dot-count-back-from-20"
+    },
+    {
+     "label": "Count by Fives Dot to Dot: 5, 10, 15 up to 50",
+     "href": "dot-to-dot-count-by-5s"
+    },
+    {
+     "label": "ABC Dot to Dot: Join the Letters from A to T",
+     "href": "abc-dot-to-dot"
+    }
+   ],
+   "title": "Backwards Dot to Dot 10 to 1, Kindergarten | Free Printable PDF",
+   "metaDescription": "Backwards dot to dot: the count starts at 10 and runs down to 1, with the rest of the outline already printed so the picture still closes. Free Kindergarten PDF."
+  },
+  {
+   "slug": "dot-to-dot-count-by-2s",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "dot-to-dot",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Dot-to-Dot Worksheet",
+   "h1": "Count by Twos Dot to Dot: 2, 4, 6 up to 20",
+   "strand": "Number & Operations in Base Ten",
+   "slotTokens": [
+    "dot-to-dot",
+    "grade-1"
+   ],
+   "p1": "Every dot on this 1st grade dot-to-dot page carries an even number. Ten of them sit in the cream panel, labelled 2, 4, 6 and on up to 20, with 2 ringed in orange where the pencil starts; the rest of the figure is already printed in pale grey, so ten lines complete the picture. Along the foot of the page the twos are set out in circles, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, which makes the strip a small table the child can read from before hunting for the next dot.",
+   "p2": "Skip counting is usually learned as a chant, and a chant is easy to say and hard to use. Here the sequence has to do a job: after 12 comes 14, and 14 has to be located among nine other numbers before any line can be drawn. That is the difference between reciting the twos and knowing them, and it is why a picture checks the work better than a column of blanks would, since a missed step leaves a line running visibly across the shape. Watch for the child who counts silently up in ones from 12 to reach 14. It is not an error, but it is the habit the twos exist to replace.",
+   "p3": "Print the PDF free and ask for the numbers to be read aloud on the way round, since hearing the twos land in rhythm is most of the point. The picture can be colored in afterwards. If the count is not yet secure, dot to dot 1-20 puts every number back on the page. Counting by fives and counting by tens carry the same idea into longer steps, and number line to 50 counting in fives shows those bigger cousins on a ruled line instead of a picture.",
+   "canonicalDeckSlug": "dot-to-dot-g1285",
+   "carousel": [
+    {
+     "label": "Backwards Dot to Dot: Count Down from 10 to 1",
+     "href": "dot-to-dot-count-back-from-10"
+    },
+    {
+     "label": "Count Back from 20: Every Dot Numbered, Nothing Pre-Drawn",
+     "href": "dot-to-dot-count-back-from-20"
+    },
+    {
+     "label": "Count by Fives Dot to Dot: 5, 10, 15 up to 50",
+     "href": "dot-to-dot-count-by-5s"
+    },
+    {
+     "label": "ABC Dot to Dot: Join the Letters from A to T",
+     "href": "abc-dot-to-dot"
+    }
+   ],
+   "title": "Count by 2s Dot to Dot for 1st Grade | Free Printable PDF",
+   "metaDescription": "Count by 2s dot to dot: ten dots labelled 2, 4, 6 up to 20, part of the outline already printed, and a strip of the twos along the bottom. Free 1st grade PDF."
+  },
+  {
+   "slug": "dot-to-dot-count-back-from-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "dot-to-dot",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Dot-to-Dot Worksheet",
+   "h1": "Count Back from 20: Every Dot Numbered, Nothing Pre-Drawn",
+   "strand": "Number & Operations in Base Ten",
+   "slotTokens": [
+    "dot-to-dot",
+    "grade-1"
+   ],
+   "p1": "Nothing is printed inside the panel on this 1st grade dot-to-dot except twenty dots, and every single one of them is numbered. The count starts at 20, ringed in orange near the top of the page, and works down through 19, 18, 17 to a lone dot 1 at the bottom, with no grey outline anywhere to lean on. Every line in the finished picture comes from the child's pencil. Underneath the panel the counting strip runs 20, 19, 18 and on to 1 across two rows, which is the only backwards sequence written out on the sheet.",
+   "p2": "Counting back from twenty is a first grade job rather than a kindergarten one, and the two things that make it hard sit right next to each other here. Crossing the teens downward is the first, because twenty, nineteen, eighteen has none of the rhythm that carries the forward count. Passing ten is the second, and it is where a child who has been reciting rather than counting will stop dead. With no outline printed, the picture cannot form itself out of a half-remembered sequence; if a number is skipped the line goes somewhere obviously wrong and stays there. That makes the finished sheet unusually easy to read at a glance.",
+   "p3": "Print the PDF free and let the counting strip stay uncovered, because reading nineteen and then finding it among twenty scattered dots is the work, not remembering it. Colour the picture afterwards. Count back from 10 is the shorter version with half the outline already drawn, dot to dot 1-20 runs the same twenty dots forwards, and count by twos steps through the same range two numbers at a time.",
+   "canonicalDeckSlug": "dot-to-dot-g1294",
+   "carousel": [
+    {
+     "label": "Backwards Dot to Dot: Count Down from 10 to 1",
+     "href": "dot-to-dot-count-back-from-10"
+    },
+    {
+     "label": "Count by Twos Dot to Dot: 2, 4, 6 up to 20",
+     "href": "dot-to-dot-count-by-2s"
+    },
+    {
+     "label": "Count by Fives Dot to Dot: 5, 10, 15 up to 50",
+     "href": "dot-to-dot-count-by-5s"
+    },
+    {
+     "label": "ABC Dot to Dot: Join the Letters from A to T",
+     "href": "abc-dot-to-dot"
+    }
+   ],
+   "title": "Dot to Dot Count Back from 20, 1st Grade | Free Printable PDF",
+   "metaDescription": "Count back from 20 dot to dot: twenty numbered dots and no printed outline, so the whole picture is drawn by counting backwards to 1. Free printable 1st grade PDF."
+  },
+  {
+   "slug": "dot-to-dot-count-by-5s",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "dot-to-dot",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Dot-to-Dot Worksheet",
+   "h1": "Count by Fives Dot to Dot: 5, 10, 15 up to 50",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "2.NBT.A.2",
+   "slotTokens": [
+    "dot-to-dot",
+    "grade-2"
+   ],
+   "p1": "Fifty is reached in ten steps on this 2nd grade dot-to-dot page. Ten dots stand in the cream panel labelled 5, 10, 15 and so on to 50, with the 5 ringed in orange, and the rest of the figure is already drawn in pale grey so the finished picture closes properly at the end of a short count. Some figures carry a small printed detail or two of their own. The strip below the panel lists the fives in circles, 5 through 50, which is a multiplication table for a child who does not yet know it is one.",
+   "p2": "Second grade is the year skip counting by fives is expected to be fluent, and the difference between a chant and a usable sequence is what a page like this exposes. Saying five, ten, fifteen in a rhythm takes no thought; finding 35 among ten scattered labels after saying it is a different act, and the pencil cannot move until it has been done. The fives are also the friendliest of the skip counts, because every number ends in a five or a zero, and that alternation is a pattern a child can notice for themselves here. Ask what all the numbers have in common once the picture is finished.",
+   "p3": "Print the PDF free and cover the counting strip with a strip of paper for the second half of the picture, to see whether the fives hold without it. The picture can be coloured afterwards, and a child who has finished quickly can be asked to say the count backwards. Count by twos is the smaller step in the same shape, count by tens is the larger one, and number line to 50 counting in fives puts the same sequence on a ruled line instead of a picture.",
+   "canonicalDeckSlug": "dot-to-dot-g2304",
+   "carousel": [
+    {
+     "label": "Backwards Dot to Dot: Count Down from 10 to 1",
+     "href": "dot-to-dot-count-back-from-10"
+    },
+    {
+     "label": "Count by Twos Dot to Dot: 2, 4, 6 up to 20",
+     "href": "dot-to-dot-count-by-2s"
+    },
+    {
+     "label": "Count Back from 20: Every Dot Numbered, Nothing Pre-Drawn",
+     "href": "dot-to-dot-count-back-from-20"
+    },
+    {
+     "label": "ABC Dot to Dot: Join the Letters from A to T",
+     "href": "abc-dot-to-dot"
+    }
+   ],
+   "title": "Count by 5s Dot to Dot for 2nd Grade | Free Printable PDF",
+   "metaDescription": "Count by 5s dot to dot: ten dots labelled 5, 10, 15 and on to 50, with part of the outline printed and the fives listed along the bottom. Free 2nd grade PDF."
+  },
+  {
+   "slug": "copy-the-word-no-tracing",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-tracing",
+    "mode": null,
+    "theme": "animals",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Word Tracing Worksheet",
+   "h1": "Copy the Word: No Dashed Letters, Two Lines to Fill",
+   "strand": "Reading: Foundational Skills",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "word-tracing",
+    "animals",
+    "kindergarten"
+   ],
+   "p1": "There is nothing to trace on this Kindergarten word tracing page. Four animals sit in cream cards down the left, a raccoon, a dolphin, a seagull and a horse, and each word is printed in solid teal underneath its own picture, on the card rather than on the writing lines. To the right of every card stand two empty handwriting rules, top line, dashed midline, baseline, and both are for the child to fill. The model never sits directly above the writing, so the word has to be carried across the page by eye and held there while it is written out.",
+   "p2": "Copying from a nearby model is a real step up from tracing, and it is the step that shows whether a word has been learned or only followed. The child must look, hold the letters in mind, and put them down in order with no dashed shape underneath to correct the hand. Doing it twice is what makes the page useful: the first attempt is usually a letter-by-letter journey back and forth to the card, and the second is where a child either writes the word in one movement or discovers they cannot yet. That difference between the two lines is the most informative thing here, and it reads at a glance across four rows.",
+   "p3": "Print the PDF free and let one row be finished completely before the next begins, so the memory of the word is still fresh at the second write. Cover the card with a finger for that second attempt if a child is ready to try from memory. Trace once, write it twice keeps a dashed lane in place if the leap is too big today, and write the word on plain lines is where the model disappears altogether and the spelling has to come from the sounds.",
+   "canonicalDeckSlug": "word-tracing-animals-k311",
+   "carousel": [
+    {
+     "label": "Trace Words in Capital Letters: APPLE, MANGO, PEAR",
+     "href": "trace-words-in-capital-letters"
+    },
+    {
+     "label": "Copy the Capitals: Read the Card, Then Write It",
+     "href": "copy-the-capitals-worksheet"
+    },
+    {
+     "label": "Write the Word with Only the First Letter to Start You Off",
+     "href": "write-the-word-first-letter-only"
+    },
+    {
+     "label": "Doubles and Halves to 20, Still with Pictures to Count",
+     "href": "doubles-and-halves-with-pictures-to-20"
+    }
+   ],
+   "title": "Copy the Word Worksheet, Kindergarten - Animals | Free PDF",
+   "metaDescription": "Copy the word worksheet: four animal names printed under their pictures and nothing to trace, so the child copies each word twice onto empty lines. Free Kindergarten PDF."
+  },
+  {
+   "slug": "write-the-word-first-letter-only",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "write-the-word",
+    "mode": null,
+    "theme": "animals",
+    "level": "grade-1"
+   },
+   "eyebrow": "Write the Word Worksheet",
+   "h1": "Write the Word with Only the First Letter to Start You Off",
+   "strand": "Language",
+   "standard": "L.1.2.d",
+   "slotTokens": [
+    "write-the-word",
+    "animals",
+    "grade-1"
+   ],
+   "p1": "One teal letter waits at the start of each line, and it is the only help on this 1st grade write-the-word page. Six animals are set out two across and three down, a leopard, an antelope, a rabbit, an orangutan, a fish and a vulture, and beside each picture runs a clean handwriting rule with its opening letter already in place: l, a, r, o, f, v. There is no word bank at the top of the sheet and no row of boxes underneath to count the letters into. Everything after that first letter has to come from the child.",
+   "p2": "The starting letter does one job and one job only: it settles which word is meant. A picture of a rabbit could be read as bunny, and a picture of a fish could be read half a dozen ways, so an r or an f removes the guesswork without giving away a single sound of the spelling that follows. After that the child is encoding, listening through the word and choosing letters for the sounds they hear, and the plain line neither counts the letters nor corrects them. What comes back is the most honest spelling sample of any page in this family, and the vowels in the middle of the longer words are where the story usually is.",
+   "p3": "Print the PDF free and ask for each animal to be said slowly, stretched out, before the pencil moves; the sounds have to be heard before they can be written. Six cards is enough to show a pattern without becoming a test. Write the word with a word bank puts the spelling back on the page for a child who is not ready to encode alone, letter boxes and the first letter adds a box for every sound, and write the word on plain lines takes even the opening letter away.",
+   "canonicalDeckSlug": "write-the-word-animals-g1291",
+   "carousel": [
+    {
+     "label": "Word Bank and Letter Boxes: One Box for Every Letter",
+     "href": "write-the-word-bank-and-letter-boxes"
+    },
+    {
+     "label": "Letter Boxes and the First Letter, with No Word Bank",
+     "href": "write-the-word-letter-boxes-and-first-letter"
+    },
+    {
+     "label": "Write the Word with Every Clue: Bank, Boxes and First Letter",
+     "href": "write-the-word-with-every-clue"
+    },
+    {
+     "label": "Doubles and Halves to 20, Still with Pictures to Count",
+     "href": "doubles-and-halves-with-pictures-to-20"
+    }
+   ],
+   "title": "Write the Word, First Letter Only, 1st Grade - Animals | Free PDF",
+   "metaDescription": "Write the word worksheet: no word bank and no letter boxes, only the first letter printed on each line beside six animal pictures. Free printable 1st grade PDF."
+  },
+  {
+   "slug": "doubles-and-halves-with-pictures-to-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "doubles-halves",
+    "mode": null,
+    "theme": "toys",
+    "level": "grade-1"
+   },
+   "eyebrow": "Doubles and Halves Worksheet",
+   "h1": "Doubles and Halves to 20, Still with Pictures to Count",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "doubles-halves",
+    "toys",
+    "grade-1"
+   ],
+   "p1": "The groups on this 1st grade doubles and halves page have grown past the size a child can take in at a glance. Four cards fill the sheet two by two, each holding a white box of toys with an equation beneath it. The two marked double show a row and its exact mirror either side of a teal line, with a fact like 7 + 7 = and an empty answer box under them. The two marked half show a larger group cut across by a dashed orange rule, with a line like 18 = and two boxes to fill. Every total on the page lands between ten and twenty.",
+   "p2": "Ten is the ceiling most children can count reliably without losing their place, and the numbers here sit just above it on purpose. Counting one by one still works, but it starts to cost something, and that cost is what nudges a child toward counting the top row and doubling it, or splitting a group of eighteen down the middle by eye. Keeping doubling and halving on the same sheet keeps the pair visible: double 9 is 18, and 18 halved is 9 and 9. The thing to watch is the second card of each type, where a child who counted every picture on the first one often stops doing so.",
+   "p3": "Print the PDF free and allow a finger to run along the pictures for the first card of each kind, then ask for the second to be tried without. Four cards is a short page, which suits it as a first meeting with the teens in this form. Doubles and halves first steps keeps the groups down to four if these are still too big, and doubles and halves to 20 in numbers only is where the pictures come away and the same facts are met bare.",
+   "canonicalDeckSlug": "doubles-halves-toys-g1286",
+   "carousel": [
+    {
+     "label": "Doubles to 14: Six Cards, Every One a Double",
+     "href": "doubles-to-14-with-pictures"
+    },
+    {
+     "label": "Halves to 12: Cut Each Group into Two Equal Parts",
+     "href": "halves-to-12-with-pictures"
+    },
+    {
+     "label": "Doubles to 20: Bigger Groups, Still Something to Count",
+     "href": "doubles-to-20-with-pictures"
+    },
+    {
+     "label": "Halves to 20: Split Bigger Groups Down the Middle",
+     "href": "halves-to-20-with-pictures"
+    }
+   ],
+   "title": "Doubles and Halves to 20 with Pictures, 1st Grade | Free PDF",
+   "metaDescription": "Doubles and halves to 20 with pictures: four cards of toys, two to double and two to halve, with every total between ten and twenty. Free printable 1st grade PDF."
+  },
+  {
+   "slug": "number-line-40-to-60",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Number Line Worksheet",
+   "h1": "Where on the Number Line? Forty to Sixty",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "2.NBT.A.2",
+   "slotTokens": [
+    "number-lines",
+    "grade-2"
+   ],
+   "p1": "Forty to sixty, and nothing outside it. Three number lines fill this 2nd grade number-lines page, each one printed with 40, 45, 50, 55 and 60 and a tick mark standing at every whole number between them. Two orange arrows point down at unlabelled ticks on every line, each with an empty dashed box floating above it, so there are six numbers to name in all. The zero a child would normally count from is nowhere on the sheet, and the smallest number printed anywhere is forty.",
+   "p2": "Crossing fifty is the reason this range exists. Children who count on confidently inside the forties will sometimes produce forty-ten instead of fifty, and the same hesitation returns whenever a decade boundary sits between the landmark and the arrow. Here the crossing happens on two of the three lines, and it happens in both directions, since 53 is quicker to reach by counting back from 55 than by counting on from 50. That choice of route is what separates a second grader from a first grader on this task, and it is visible in how long the pencil hovers. The narrow range also means every answer is a two-digit number that has to be written correctly.",
+   "p3": "Print the PDF free and ask which printed number was used before each answer is written; the sentence I started at fifty-five and went back two is the thinking made audible. Number line 20 to 40 is the first grade version of the same idea, number line 60 to 100 carries it up into the nineties, and number line to 50 keeps zero on the page for a child who is not ready to give it up.",
+   "canonicalDeckSlug": "number-lines-g2305",
+   "carousel": [
+    {
+     "label": "Where on the Number Line? Sixty to One Hundred",
+     "href": "number-line-60-to-100"
+    },
+    {
+     "label": "Where on the Number Line? Twenty to Forty",
+     "href": "number-line-20-to-40"
+    },
+    {
+     "label": "Doubles to 14: Six Cards, Every One a Double",
+     "href": "doubles-to-14-with-pictures"
+    },
+    {
+     "label": "Halves to 12: Cut Each Group into Two Equal Parts",
+     "href": "halves-to-12-with-pictures"
+    }
+   ],
+   "title": "Number Line 40 to 60 Worksheet for 2nd Grade | Free Printable PDF",
+   "metaDescription": "Number line 40 to 60 worksheet: three lines that begin at forty, labelled every five with a tick at every number, and two arrows each to name. Free 2nd grade PDF."
+  },
+  {
+   "slug": "number-line-60-to-100",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Number Line Worksheet",
+   "h1": "Where on the Number Line? Sixty to One Hundred",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "2.NBT.A.2",
+   "slotTokens": [
+    "number-lines",
+    "grade-2"
+   ],
+   "p1": "A tick stands at every whole number from 60 to 100 on each line of this 2nd grade number-lines page, with labels printed at 60, 65, 70 and on up in fives to the hundred. Three lines fill the sheet, and two orange arrows point at unnamed ticks on each of them with an empty dashed box above every arrow: six numbers to write. The ticks are close together at this length, which means the finger has to be used as well as the eye, and counting three of them in the eighties is genuinely fiddly.",
+   "p2": "This is the top end of the second grade counting range and the part of it children rehearse least. The nineties in particular get little practice, and a child who has to name the tick after 97 is doing something they may not have done aloud all term. Density is the other demand the page makes. With a tick at every number and labels only every five, the count is short but the visual tracking is not, so accuracy depends on keeping a finger on the landmark while the other hand or the eye moves. Losing count by one is the standard error here, and it is a tracking failure rather than a number failure.",
+   "p3": "Print the PDF free and allow a ruler or a finger to be laid along the line; nobody counts forty ticks by eye alone and the page is not testing that. Ask for the answers to be read out in order at the end, so ninety-seven follows ninety-six by ear as well as on paper. Number line 40 to 60 is the shorter run through the fifties, and number line to 100 counting in tens covers the same hundred with a tick every ten instead of every one.",
+   "canonicalDeckSlug": "number-lines-g2310",
+   "carousel": [
+    {
+     "label": "Where on the Number Line? Forty to Sixty",
+     "href": "number-line-40-to-60"
+    },
+    {
+     "label": "Where on the Number Line? Twenty to Forty",
+     "href": "number-line-20-to-40"
+    },
+    {
+     "label": "Doubles to 14: Six Cards, Every One a Double",
+     "href": "doubles-to-14-with-pictures"
+    },
+    {
+     "label": "Halves to 12: Cut Each Group into Two Equal Parts",
+     "href": "halves-to-12-with-pictures"
+    }
+   ],
+   "title": "Number Line 60 to 100 Worksheet for 2nd Grade | Free Printable PDF",
+   "metaDescription": "Number line 60 to 100 worksheet: three long lines starting at sixty, labelled every five with a tick at every number and two arrows each. Free 2nd grade PDF."
+  },
+  {
+   "slug": "number-line-20-to-40",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-lines",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Number Line Worksheet",
+   "h1": "Where on the Number Line? Twenty to Forty",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "1.NBT.A.1",
+   "slotTokens": [
+    "number-lines",
+    "grade-1"
+   ],
+   "p1": "Twenty is the first number printed on every line of this 1st grade number-lines page. Four lines fill the sheet, one to a cream card, each running from 20 to 40 with labels at 20, 25, 30, 35 and 40 and a tick for every whole number in between. Three orange arrows stand on each line pointing down at ticks that carry no number of their own, and above every arrow floats an empty dashed box. Twelve numbers to write in all, and none of them is a multiple of five, because the labelled ticks are the ones already answered.",
+   "p2": "A number line that begins at zero lets a child count from the left end and still be right. This one closes that door: the count has to start from a printed landmark somewhere in the middle of the twenties or thirties, which is the whole reason for the range. Naming the tick after 33 means holding thirty-three, stepping one, and saying thirty-four, and the thirties are the decade where children most often lose the pattern and produce twenty-ten or forty-one. Watching which direction the counting goes is worth the effort too, since counting back from 35 to reach 34 is quicker than counting on from 30 and is the habit that leads to estimation.",
+   "p3": "Print the PDF free and ask for the label counted from to be pencilled in beside the first box on each line, so the route taken is visible on the paper. Missing numbers on a number line runs the identical layout from 0 to 20 if the twenties are still new, and number line 40 to 60 and number line 60 to 100 carry the same idea further up for second grade.",
+   "canonicalDeckSlug": "number-lines-g1295",
+   "carousel": [
+    {
+     "label": "Where on the Number Line? Forty to Sixty",
+     "href": "number-line-40-to-60"
+    },
+    {
+     "label": "Where on the Number Line? Sixty to One Hundred",
+     "href": "number-line-60-to-100"
+    },
+    {
+     "label": "Doubles to 14: Six Cards, Every One a Double",
+     "href": "doubles-to-14-with-pictures"
+    },
+    {
+     "label": "Halves to 12: Cut Each Group into Two Equal Parts",
+     "href": "halves-to-12-with-pictures"
+    }
+   ],
+   "title": "Number Line 20 to 40 Worksheet for 1st Grade | Free Printable PDF",
+   "metaDescription": "Number line 20 to 40 worksheet: four lines starting at twenty, labelled every five, with three arrows each pointing at unnamed ticks to write in. Free 1st grade PDF."
+  },
+  {
+   "slug": "doubles-to-14-with-pictures",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "doubles-halves",
+    "mode": null,
+    "theme": "fruits",
+    "level": "grade-1"
+   },
+   "eyebrow": "Doubles Worksheet",
+   "h1": "Doubles to 14: Six Cards, Every One a Double",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "doubles-halves",
+    "fruits",
+    "grade-1"
+   ],
+   "p1": "Halving has been left out of this 1st grade doubles and halves page altogether. All six cards carry the same pink label, double, and the same shape underneath it: a small group of fruits in a white box, a slim teal line down the middle, and the identical group mirrored on the other side. Beneath each picture sits the fact it shows, 2 + 2 =, 3 + 3 =, up to 7 + 7 =, with an empty box for the total. Six cards, six doubles, and nothing larger than fourteen anywhere on the sheet.",
+   "p2": "Doubles are the addition facts children commit to memory first, and they earn their keep twice over: they are quick to recall, and they anchor the near doubles, so a child who knows 6 + 6 has most of 6 + 7 already. Meeting six of them in a row, with nothing else mixed in, is how that store gets built. The mirror image matters more than it looks: it shows that a double is one group taken twice rather than two unrelated numbers added, which is the idea that later makes doubling a strategy rather than a fact to be looked up. A child still counting all fourteen pictures by card six has not yet made that move.",
+   "p3": "Print the PDF free and ask for the total to be said before it is written, so you can hear whether it was counted or recalled. Six small doubles is a ten-minute slot and a good page to repeat across a week. Doubles to 20 with pictures carries the same layout up to 10 + 10, halves to 12 runs the identical page in the opposite direction, and doubles and halves for 1st grade puts both operations back on one sheet.",
+   "canonicalDeckSlug": "doubles-halves-fruits-g1287",
+   "carousel": [
+    {
+     "label": "Doubles and Halves to 20, Still with Pictures to Count",
+     "href": "doubles-and-halves-with-pictures-to-20"
+    },
+    {
+     "label": "Halves to 12: Cut Each Group into Two Equal Parts",
+     "href": "halves-to-12-with-pictures"
+    },
+    {
+     "label": "Doubles to 20: Bigger Groups, Still Something to Count",
+     "href": "doubles-to-20-with-pictures"
+    },
+    {
+     "label": "Halves to 20: Split Bigger Groups Down the Middle",
+     "href": "halves-to-20-with-pictures"
+    }
+   ],
+   "title": "Doubles Worksheet to 14 for 1st Grade - Fruits | Free PDF",
+   "metaDescription": "Doubles worksheet to 14: six cards of fruit pictures, each showing a small group and its mirror image, with 2 + 2 through to 7 + 7 to complete. Free 1st grade PDF."
+  },
+  {
+   "slug": "halves-to-12-with-pictures",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "doubles-halves",
+    "mode": null,
+    "theme": "animals",
+    "level": "grade-1"
+   },
+   "eyebrow": "Halving Worksheet",
+   "h1": "Halves to 12: Cut Each Group into Two Equal Parts",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "doubles-halves",
+    "animals",
+    "grade-1"
+   ],
+   "p1": "A dashed orange rule runs straight through the middle of every group on this 1st grade doubles and halves page. Six cards are laid out two across and three down, all labelled half, and each holds a set of animal pictures arranged in two equal rows with the cut line between them. Under the box the number of animals is printed with an equals sign and two empty answer boxes: 12 =, 10 =, 8 =, down to 2 =. The child counts one row, writes it in both boxes, and the sentence reads 12 = 6 + 6.",
+   "p2": "Halving is subtraction wearing an unfamiliar coat, and children meet it far less often than they meet taking away. Setting the groups out as two matched rows is what makes it visible: the answer can be read off the page by counting either row, so the arithmetic never blocks the idea. The two boxes are the part worth watching. A child who writes different numbers in them has not understood that a half is a fair split rather than any two parts, and that misconception hides easily in a spoken lesson. Twelve is the largest group here, and the smallest can be as low as 2 = 1 + 1.",
+   "p3": "Print the PDF free and ask for both rows to be counted on the first two cards, one after the other, so the equality is checked rather than assumed. Six cards of this size fits a short session. Halves to 20 with pictures continues into the teens, doubles to 14 is the same page in reverse for building the facts the other way, and number walls to 20 puts the sums these halves come from into a structure.",
+   "canonicalDeckSlug": "doubles-halves-animals-g1288",
+   "carousel": [
+    {
+     "label": "Doubles and Halves to 20, Still with Pictures to Count",
+     "href": "doubles-and-halves-with-pictures-to-20"
+    },
+    {
+     "label": "Doubles to 14: Six Cards, Every One a Double",
+     "href": "doubles-to-14-with-pictures"
+    },
+    {
+     "label": "Doubles to 20: Bigger Groups, Still Something to Count",
+     "href": "doubles-to-20-with-pictures"
+    },
+    {
+     "label": "Halves to 20: Split Bigger Groups Down the Middle",
+     "href": "halves-to-20-with-pictures"
+    }
+   ],
+   "title": "Halving Worksheet to 12 for 1st Grade - Animals | Free PDF",
+   "metaDescription": "Halving worksheet to 12: six cards of animal pictures, each group cut by a dashed line into two equal rows, with 12 = and two boxes to fill. Free 1st grade PDF."
+  },
+  {
+   "slug": "doubles-to-20-with-pictures",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "doubles-halves",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "grade-1"
+   },
+   "eyebrow": "Doubles Worksheet",
+   "h1": "Doubles to 20: Bigger Groups, Still Something to Count",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "doubles-halves",
+    "vehicles",
+    "grade-1"
+   ],
+   "p1": "Ten and ten is the biggest fact on this 1st grade doubles and halves page, and it takes twenty small vehicles to show it. Six cards run down the sheet in two columns, every one labelled double, and each holds a group of five to ten pictures beside its mirror image with a thin teal line between them. The fact is printed underneath: 10 + 10 =, 6 + 6 =, 8 + 8 =, 9 + 9 =, 5 + 5 =, 7 + 7 =, each with an empty box. The pictures are small, and there are a great many of them.",
+   "p2": "This is the top of the doubles range that first grade is asked to know, and it is also where counting every picture stops being practical. Twenty little trucks in two groups can be counted, but by the third card most children have found something better to do: count one side, then say the double, or reach for 5 + 5 to get at 6 + 6. That shift is the whole purpose of putting large groups on the page rather than small ones. If a child is still touching each picture on card six, the facts are not yet stored and the smaller page is the right place to go back to.",
+   "p3": "Print the PDF free and cover one side of the picture box with a card for the last two facts, so only one group can be counted and the double has to be said. Doubles to 14 is the gentler version with groups of two to seven, halves to 20 with pictures is the matching page in the other direction, and doubles to 20 with just the numbers is where the pictures go and only the facts remain.",
+   "canonicalDeckSlug": "doubles-halves-vehicles-g1296",
+   "carousel": [
+    {
+     "label": "Doubles and Halves to 20, Still with Pictures to Count",
+     "href": "doubles-and-halves-with-pictures-to-20"
+    },
+    {
+     "label": "Doubles to 14: Six Cards, Every One a Double",
+     "href": "doubles-to-14-with-pictures"
+    },
+    {
+     "label": "Halves to 12: Cut Each Group into Two Equal Parts",
+     "href": "halves-to-12-with-pictures"
+    },
+    {
+     "label": "Halves to 20: Split Bigger Groups Down the Middle",
+     "href": "halves-to-20-with-pictures"
+    }
+   ],
+   "title": "Doubles to 20 with Pictures, 1st Grade - Vehicles | Free PDF",
+   "metaDescription": "Doubles to 20 with pictures: six cards of vehicle pictures showing groups of five to ten and their mirror image, from 5 + 5 up to 10 + 10. Free 1st grade PDF."
+  },
+  {
+   "slug": "halves-to-20-with-pictures",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "doubles-halves",
+    "mode": null,
+    "theme": "toys",
+    "level": "grade-1"
+   },
+   "eyebrow": "Halving Worksheet",
+   "h1": "Halves to 20: Split Bigger Groups Down the Middle",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "doubles-halves",
+    "toys",
+    "grade-1"
+   ],
+   "p1": "Halving begins at ten on this 1st grade doubles and halves page and climbs to twenty. Six cards, all labelled half, each hold a group of toys set out as two matching rows with a dashed orange line cutting between them, and underneath each box the total is printed with two empty answer boxes after it: 16 =, 14 =, 20 =, 10 =, 12 =, 18 =. The rows are long, ten pictures across at the widest, so the cut line stretches most of the way over the card and the two halves stay easy to tell apart.",
+   "p2": "Halving numbers into the teens is where the picture stops being decoration and starts being the method. A child asked for half of eighteen with nothing in front of them will often guess; a child looking at nine and nine can count one row and be right. That is a legitimate strategy and worth allowing for as long as it is needed, because the alternative, guessing, teaches nothing. What the page reveals is which halves have already gone into memory: most children have half of ten and half of twenty before they have half of fourteen, and the middle cards are where the pencil slows.",
+   "p3": "Print the PDF free and ask for the answer before the counting on the two cards a child seems confident about, and let the rows be counted everywhere else. Halves to 12 is the smaller version if the teens are too much, doubles to 20 with pictures is the same range going the other way, and halves to 20 with just the numbers takes the pictures away once the row counting is no longer needed.",
+   "canonicalDeckSlug": "doubles-halves-toys-g1297",
+   "carousel": [
+    {
+     "label": "Doubles and Halves to 20, Still with Pictures to Count",
+     "href": "doubles-and-halves-with-pictures-to-20"
+    },
+    {
+     "label": "Doubles to 14: Six Cards, Every One a Double",
+     "href": "doubles-to-14-with-pictures"
+    },
+    {
+     "label": "Halves to 12: Cut Each Group into Two Equal Parts",
+     "href": "halves-to-12-with-pictures"
+    },
+    {
+     "label": "Doubles to 20: Bigger Groups, Still Something to Count",
+     "href": "doubles-to-20-with-pictures"
+    }
+   ],
+   "title": "Halving to 20 with Pictures, 1st Grade - Toys | Free PDF",
+   "metaDescription": "Halving to 20 with pictures: six cards of toy pictures in two equal rows with a dashed cut line, halving 10, 12, 14, 16, 18 and 20. Free printable 1st grade PDF."
+  },
+  {
+   "slug": "write-the-plural-worksheet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "singular-plural",
+    "mode": null,
+    "theme": "toys",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Singular and Plural Worksheet",
+   "h1": "One and Many: Write the Plural Without a Model",
+   "strand": "Language",
+   "standard": "L.K.1.c",
+   "slotTokens": [
+    "singular-plural",
+    "toys",
+    "kindergarten"
+   ],
+   "p1": "The dashed letters are gone from this Kindergarten singular-plural page. Four rows of toys run down the sheet, each with a single toy on the left, a truck, a balloon, a boat or a skateboard, its word printed in solid teal underneath and a badge showing 1. On the right of the dividing line the same toy appears two or three times with its own badge, and under those pictures there is nothing but an empty handwriting rule. The child reads the word for one, looks at how many there are now, and writes the plural out with no letters to follow.",
+   "p2": "This is where the ending stops being something to copy and starts being something to decide. The rule is in front of the child in the plainest possible form, one object with its name and several objects without one, and the only missing piece is the s. Because every plural on the page is regular, a child who has understood the idea can finish all four rows unaided; a child who has been tracing without thinking copies the singular straight across and leaves the s off. That one letter is the whole diagnosis, and it can be read from the doorway.",
+   "p3": "Print the PDF free and say the pair aloud first, one boat, three boats, so the ear supplies the ending before the hand does. Four rows is enough to show a pattern and short enough to finish in one sitting. Keep singular and plural for kindergarten nearby for any child who still needs the plural in dashed letters, and move to write the word for one when this direction is comfortable and the other one needs the same treatment.",
+   "canonicalDeckSlug": "singular-plural-toys-k314",
+   "carousel": [
+    {
+     "label": "Many and One: Trace the Word for a Single Fruit",
+     "href": "plural-to-singular-worksheet"
+    },
+    {
+     "label": "Write the Word for One: The Plural Is the Only Model",
+     "href": "write-the-singular-worksheet"
+    },
+    {
+     "label": "Nouns and Verbs: Sort Ten Words into Two Bins",
+     "href": "nouns-and-verbs-sort"
+    },
+    {
+     "label": "Trace Words in Capital Letters: APPLE, MANGO, PEAR",
+     "href": "trace-words-in-capital-letters"
+    }
+   ],
+   "title": "Write the Plural Worksheet, Kindergarten - Toys | Free PDF",
+   "metaDescription": "Write the plural worksheet: the word for one toy is printed, the word for many is not. Four rows, empty lines, regular -s plurals to write. Free Kindergarten PDF."
+  },
+  {
+   "slug": "nouns-and-verbs-sort",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-classes",
+    "mode": null,
+    "theme": "toys",
+    "level": "grade-1"
+   },
+   "eyebrow": "Parts of Speech Worksheet",
+   "h1": "Nouns and Verbs: Sort Ten Words into Two Bins",
+   "strand": "Language",
+   "slotTokens": [
+    "word-classes",
+    "toys",
+    "grade-1"
+   ],
+   "p1": "Two bins, not three, on this 1st grade word-classes page, and the question narrows with them: is this word a name for something, or a thing you can do? Ten chips lie across the top of the sheet in two loose rows, all plain white with no pictures on any of them, mixing toys with actions: scooter, cards, sleep, hop, kite, run, lego, car, jump, sing. Underneath sit the two bins, one with a framed-picture icon on its lid and Nouns printed below it, the other with a running figure and Verbs, each ruled with six dashed lines to write on.",
+   "p2": "Dropping the third bin makes this a genuinely different job from the full sort, and an easier one in the right way. With adjectives out of the picture the two questions left are the concrete ones a six-year-old can actually answer: can you point at it, and can you do it. That is why a noun and verb sort belongs a year earlier than the three-way version. No chip carries a picture, so nothing can be classified by appearance and every word has to be read; a child who cannot yet decode scooter will stall on the reading rather than the grammar, which is worth separating when you look at the results.",
+   "p3": "Print the PDF free and ask for each word inside a short spoken sentence before it is written, since I can hop settles hop faster than any definition will. Ten words fits a single sitting with room to talk about the hard ones. Nouns and adjectives is the companion page, swapping the doing words for describing ones, and nouns, verbs and adjectives sort brings all three classes together on one sheet for second grade.",
+   "canonicalDeckSlug": "word-classes-toys-g1293",
+   "carousel": [
+    {
+     "label": "Nouns and Adjectives: Naming Words Against Describing Words",
+     "href": "nouns-and-adjectives-sort"
+    },
+    {
+     "label": "Trace Words in Capital Letters: APPLE, MANGO, PEAR",
+     "href": "trace-words-in-capital-letters"
+    },
+    {
+     "label": "Number Walls from the Top Down: Subtract to Find the Bricks",
+     "href": "number-walls-work-downwards"
+    },
+    {
+     "label": "Many and One: Trace the Word for a Single Fruit",
+     "href": "plural-to-singular-worksheet"
+    }
+   ],
+   "title": "Nouns and Verbs Sort for 1st Grade - Toys | Free Printable PDF",
+   "metaDescription": "Nouns and verbs sort: ten plain word chips, five naming words and five doing words, to read and copy into two labelled bins. Free printable 1st grade PDF."
+  },
+  {
+   "slug": "trace-words-in-capital-letters",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-tracing",
+    "mode": null,
+    "theme": "fruits",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Word Tracing Worksheet",
+   "h1": "Trace Words in Capital Letters: APPLE, MANGO, PEAR",
+   "strand": "Reading: Foundational Skills",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "word-tracing",
+    "fruits",
+    "kindergarten"
+   ],
+   "p1": "Every letter on this Kindergarten word tracing page is a capital. Three fruits sit in cream cards down the left edge, an apple, a mango and a pear, and beside each one the name is printed three times over: once in solid teal block capitals on the top line, once beneath it in dashed capitals to be traced, and once as an empty rule where the word is written unaided. APPLE, MANGO, PEAR. Nothing here runs past five letters, and the glyphs are drawn large enough that a five-year-old can follow a stroke without losing it.",
+   "p2": "Block capitals are built from straight lines and plain curves, which is why several handwriting schemes teach them first. There are no ascenders to judge, nothing hangs below the line, and every letter is the same height, so a child who cannot yet keep lowercase b and d apart has none of that difficulty here. The word is still the unit, though: the letters have to come in order and stay evenly spaced, and the solid model directly above the dashed copy gives the eye something correct to check against at every stroke. Watch whether the traced word and the written word are the same size. Height drifting downward across a row is the usual tell.",
+   "p3": "Print the PDF free and use a sharp pencil rather than a marker, so the dashed guides stay visible underneath the strokes. Three words is a short session, which is what a first sheet of capitals should be. Trace and write words runs the same three-line block in lowercase if that is the hand your class is learning, and copy the capitals is the step up from here: the same block letters with the dashed lane taken away and only the card label left as a model.",
+   "canonicalDeckSlug": "word-tracing-fruits-k310",
+   "carousel": [
+    {
+     "label": "Copy the Word: No Dashed Letters, Two Lines to Fill",
+     "href": "copy-the-word-no-tracing"
+    },
+    {
+     "label": "Copy the Capitals: Read the Card, Then Write It",
+     "href": "copy-the-capitals-worksheet"
+    },
+    {
+     "label": "Number Walls from the Top Down: Subtract to Find the Bricks",
+     "href": "number-walls-work-downwards"
+    },
+    {
+     "label": "Many and One: Trace the Word for a Single Fruit",
+     "href": "plural-to-singular-worksheet"
+    }
+   ],
+   "title": "Capital Letter Word Tracing, Kindergarten - Fruits | Free PDF",
+   "metaDescription": "Capital letter word tracing: APPLE, MANGO and PEAR shown once in solid capitals, traced in dashed capitals, then written alone on an empty line. Free Kindergarten PDF."
+  },
+  {
+   "slug": "number-walls-work-downwards",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-walls",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Number Walls Worksheet",
+   "h1": "Number Walls from the Top Down: Subtract to Find the Bricks",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.D.8",
+   "slotTokens": [
+    "number-walls",
+    "grade-1"
+   ],
+   "p1": "The top brick is filled in on every wall here, which is the opposite of how a number wall usually arrives. Six three-course walls are printed across this 1st grade number-walls page, and each one already carries three numbers: the single stone at the top, one brick in the middle row, and one along the base. The first wall reads 17 at the top, a 9 beside an empty brick in the middle, and a 7 in the corner of the base. Three bricks in each wall are outlined in dashed orange and waiting, and the rule at the head of the page is unchanged: every brick is the sum of the two beneath it.",
+   "p2": "Turning the wall upside down turns addition into subtraction without ever printing a minus sign. If the top is 17 and one brick under it is 9, the other has to be 8, and the child arrives at that by asking what goes with 9 to make 17 rather than by taking anything away. That is the missing-addend question, the most useful form subtraction takes at this age, and here it appears three times in every wall with a structure holding it together. The tell is which children run out of anywhere to start: the wall can only be entered where two of the three numbers in a triangle are known, and finding that entry point is half the task.",
+   "p3": "Print the PDF free and let the first wall be talked through aloud, naming each step as a question, 9 and what makes 17, before anything is written. Number walls to 20 is the ordinary direction, built upward from a printed base, and the missing brick page sits between the two with a hole in the bottom row. Once the walls make sense in both directions, number walls with two-digit answers takes the same structure past twenty.",
+   "canonicalDeckSlug": "number-walls-g1289",
+   "carousel": [
+    {
+     "label": "Number Walls with Two-Digit Answers: Four Courses to 100",
+     "href": "number-walls-to-100"
+    },
+    {
+     "label": "Many and One: Trace the Word for a Single Fruit",
+     "href": "plural-to-singular-worksheet"
+    },
+    {
+     "label": "Grid Coordinates in Reverse: Read the Picture, Write the Codes",
+     "href": "grid-coordinates-write-the-codes"
+    },
+    {
+     "label": "ABC Dot to Dot: Join the Letters from A to T",
+     "href": "abc-dot-to-dot"
+    }
+   ],
+   "title": "Number Walls Work Downwards, 1st Grade | Free Printable PDF",
+   "metaDescription": "Number walls worked downwards: the top brick is printed and one brick in each row below, so the child subtracts to find the three that are missing. Free 1st grade PDF."
+  },
+  {
+   "slug": "plural-to-singular-worksheet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "singular-plural",
+    "mode": null,
+    "theme": "fruits",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Singular and Plural Worksheet",
+   "h1": "Many and One: Trace the Word for a Single Fruit",
+   "strand": "Language",
+   "standard": "L.K.1.c",
+   "slotTokens": [
+    "singular-plural",
+    "fruits",
+    "kindergarten"
+   ],
+   "p1": "This Kindergarten singular-plural page runs the rule backwards. Three rows of fruits fill the sheet, and on the right of each row the plural is already there: two or three figs, pears or oranges tipped at slight angles, with figs, pears and oranges printed underneath in solid teal beside a badge showing 2 or 3. On the left sits one single fruit with a badge reading 1, and beneath it the singular in dashed letters to trace and an empty line to write it on. Two pills at the top of the page, 1 one and 2 3 many, hold the rule in view.",
+   "p2": "Taking the s off is not automatic just because putting it on has been learned. Children who reliably say two pears will still write pears under a single fruit, because the plural is the form they have been practising, and this page catches that by making the plural the thing on offer and the singular the thing to produce. Every pair here is a regular -s plural, so the change is one letter and it is visible that only the end of the word moves. What a teacher is looking for is the moment the pencil stops one letter early on the empty line without a glance back at the dashed model.",
+   "p3": "Print the PDF free and ask for both words aloud before writing: three figs, one fig. Three rows keeps this to a five-minute slot, and it belongs after the forwards direction rather than before it. Singular and plural for kindergarten is that forwards page, where the single fruit is given and the plural traced. Write the word for one takes the dashed letters away entirely and leaves the plural as the only model on the sheet.",
+   "canonicalDeckSlug": "singular-plural-fruits-k313",
+   "carousel": [
+    {
+     "label": "One and Many: Write the Plural Without a Model",
+     "href": "write-the-plural-worksheet"
+    },
+    {
+     "label": "Write the Word for One: The Plural Is the Only Model",
+     "href": "write-the-singular-worksheet"
+    },
+    {
+     "label": "Grid Coordinates in Reverse: Read the Picture, Write the Codes",
+     "href": "grid-coordinates-write-the-codes"
+    },
+    {
+     "label": "ABC Dot to Dot: Join the Letters from A to T",
+     "href": "abc-dot-to-dot"
+    }
+   ],
+   "title": "Plural to Singular Worksheet, Kindergarten - Fruits | Free PDF",
+   "metaDescription": "Plural to singular worksheet: the word for many fruits is printed, and the child traces and writes the word for just one. Figs, pears, oranges. Free Kindergarten PDF."
+  },
+  {
+   "slug": "grid-coordinates-write-the-codes",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "grid-coordinates",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Coordinate Grid Worksheet",
+   "h1": "Grid Coordinates in Reverse: Read the Picture, Write the Codes",
+   "strand": "Fine Motor & Visual-Spatial",
+   "slotTokens": [
+    "grid-coordinates",
+    "grade-2"
+   ],
+   "p1": "The picture is already finished on this 2nd grade grid-coordinates page, which is the whole of the reversal. A six by six grid is printed with letters A to F across the top and numbers 1 to 6 down the side, and most of its squares are filled in, twenty of them yellow and one orange. Beside the grid sits the same small worked example the other pages use, a three by three grid with one square shaded and B2 printed under it. The key below holds a yellow swatch followed by twenty empty white boxes and an orange swatch followed by one, and the child writes a code into every box.",
+   "p2": "Colouring a square from a code and naming a square you can see are not the same skill, and the second one is where coordinates actually get used: reading a reference off a map, saying which cell a value sits in. Producing the code means naming the column first and the row second, in that order, every time, and there is no picture emerging to signal a slip. What checks the work instead is the box count. Twenty yellow squares and twenty yellow boxes means a child who has missed one or written one twice will finish with a box left over, and finding which square was skipped is a second pass across the grid that is worth as much as the first.",
+   "p3": "Print the PDF free and let each square be crossed lightly in pencil as its code is written, since a coloured grid gives the eye nothing to hold on to otherwise. Working along a row at a time keeps the letters changing and the number fixed, which is the easier order. Grid coordinates on a 6x6 grid is this same grid the usual way round, with an empty picture and the codes supplied, and the 10x10 version is where the grid grows once both directions are secure.",
+   "canonicalDeckSlug": "grid-coordinates-g2308",
+   "carousel": [
+    {
+     "label": "ABC Dot to Dot: Join the Letters from A to T",
+     "href": "abc-dot-to-dot"
+    },
+    {
+     "label": "Where Does It End? Split Two Sentences That Have Run Together",
+     "href": "run-on-sentences-worksheet"
+    },
+    {
+     "label": "Sort the Words: Which Fruit Takes A and Which Takes An",
+     "href": "sort-the-words-a-or-an"
+    },
+    {
+     "label": "Doubles to 20 with No Pictures: Eight Facts and a Work Box",
+     "href": "doubles-to-20-numbers-only"
+    }
+   ],
+   "title": "Write the Grid Coordinates Worksheet, 2nd Grade | Free Printable PDF",
+   "metaDescription": "Grid coordinates in reverse: the six by six picture is already coloured, and the child writes the code of every coloured square beside its colour. Free 2nd grade PDF."
+  },
+  {
+   "slug": "abc-dot-to-dot",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "dot-to-dot",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Dot-to-Dot Worksheet",
+   "h1": "ABC Dot to Dot: Join the Letters from A to T",
+   "strand": "Reading: Foundational Skills",
+   "slotTokens": [
+    "dot-to-dot",
+    "kindergarten"
+   ],
+   "p1": "Letters, not numbers, stand beside the dots on this Kindergarten dot-to-dot. Twenty of them fill the cream panel, lettered a, b, c and on through to t in small lowercase print, with a ringed in orange to mark the beginning. The child joins them in alphabet order until the outline closes and a picture appears, and on some figures a small detail is printed in already. Underneath the panel sits a strip of those same twenty letters, a to t in little circles, so the letter that comes next can be looked up rather than recalled.",
+   "p2": "Singing the alphabet and using it are different abilities. A child who chants the song fluently may still be unable to answer what follows n without starting again from the beginning, and that gap is what this page pushes against: twenty times over, the next letter has to be produced and then hunted for among nineteen others. The middle stretch is where it shows. L, m, n, o, p are sung as one blurred run and separate out slowly on paper, and the alphabet strip is there so a child can find them rather than guess. Ask for each letter to be named aloud and you will hear the trouble before you see it.",
+   "p3": "Print the PDF free and cover nothing; the strip along the bottom is meant to be used, and reading o off it is still reading. This suits a child who knows most letter shapes but has never had to put them in order, and it makes a quiet alternative to a numbered sheet for a group that has only just met the alphabet. The dot to dot 1-20 page is the counting version of the same picture task, and trace and write words is where these letters start being formed rather than only found.",
+   "canonicalDeckSlug": "dot-to-dot-k309",
+   "carousel": [
+    {
+     "label": "Backwards Dot to Dot: Count Down from 10 to 1",
+     "href": "dot-to-dot-count-back-from-10"
+    },
+    {
+     "label": "Count by Twos Dot to Dot: 2, 4, 6 up to 20",
+     "href": "dot-to-dot-count-by-2s"
+    },
+    {
+     "label": "Count Back from 20: Every Dot Numbered, Nothing Pre-Drawn",
+     "href": "dot-to-dot-count-back-from-20"
+    },
+    {
+     "label": "Count by Fives Dot to Dot: 5, 10, 15 up to 50",
+     "href": "dot-to-dot-count-by-5s"
+    }
+   ],
+   "title": "ABC Dot to Dot Worksheet for Kindergarten | Free Printable PDF",
+   "metaDescription": "ABC dot to dot: twenty dots lettered a to t, joined in alphabet order to reveal a picture, with the same twenty letters printed along the bottom. Free Kindergarten PDF."
+  },
+  {
+   "slug": "run-on-sentences-worksheet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "capitals-punctuation",
+    "mode": null,
+    "theme": "animals",
+    "level": "grade-2"
+   },
+   "eyebrow": "Fix the Sentence Worksheet",
+   "h1": "Where Does It End? Split Two Sentences That Have Run Together",
+   "strand": "Language",
+   "standard": "L.1.2.b",
+   "slotTokens": [
+    "capitals-punctuation",
+    "animals",
+    "grade-2"
+   ],
+   "p1": "Two sentences have been printed as one on every line of this 2nd grade capitals-punctuation page, with no full stop between them and no capital letters anywhere. Three cream lanes run down the sheet, each with a small animal picture and a white strip holding the run-on: my camel is very small the camel is in the box. Beneath each strip sit two handwriting rules rather than one, because two sentences are coming out. The dashed checklist at the top names what to look for, Capital letter, Names, End mark.",
+   "p2": "Deciding where one sentence stops is a different piece of work from restoring a mark you can already see is missing, and it is the harder of the two. Nothing on the line is wrong, exactly; there is simply too much of it, and the child has to read until the sense closes and put the boundary there. Reading aloud is what finds it, because the voice drops at the end of a sentence whether or not a full stop is printed. Having two rules underneath is a quiet form of feedback: a child who fills only the first rule has not yet split anything, and that is visible from across the room before a word is marked.",
+   "p3": "Print the PDF free and ask for each strip to be read out loud once, at normal speed, before any pencil work; the pause the child makes is the answer. Names carry a capital wherever they appear, so the middle of the second sentence is worth a second look. Fix the sentence: capital and end mark is the simpler page where each lane holds one sentence, and two sentences: full stop or question mark adds a question to the mix so the mark has to be chosen.",
+   "canonicalDeckSlug": "capitals-punctuation-animals-g2307",
+   "carousel": [
+    {
+     "label": "Two Sentences Run Together: Full Stop or Question Mark?",
+     "href": "run-on-sentences-full-stop-or-question-mark"
+    },
+    {
+     "label": "Sort the Words: Which Fruit Takes A and Which Takes An",
+     "href": "sort-the-words-a-or-an"
+    },
+    {
+     "label": "Doubles to 20 with No Pictures: Eight Facts and a Work Box",
+     "href": "doubles-to-20-numbers-only"
+    },
+    {
+     "label": "Halves to 20 with No Pictures: Split the Number in Two",
+     "href": "halves-to-20-numbers-only"
+    }
+   ],
+   "title": "Run-On Sentences Worksheet, 2nd Grade - Animals | Free PDF",
+   "metaDescription": "Run-on sentences worksheet: three lines where two sentences have been printed as one, to split, capitalise and write out again as two. Free 2nd grade PDF."
+  },
+  {
+   "slug": "sort-the-words-a-or-an",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "articles",
+    "mode": null,
+    "theme": "fruits",
+    "level": "grade-1"
+   },
+   "eyebrow": "A or An Worksheet",
+   "h1": "Sort the Words: Which Fruit Takes A and Which Takes An",
+   "strand": "Language",
+   "slotTokens": [
+    "articles",
+    "fruits",
+    "grade-1"
+   ],
+   "p1": "There is not a picture anywhere on this 1st grade a or an page. Eight fruits are printed as words instead, in white chips across the top of the sheet: pineapple, coconut, banana, lime, pomegranate, papaya, orange, apple. Below them stand two tall bins, one headed with a small pill reading a and the other reading an, each ruled with six dashed lines. The child reads every chip, decides which little word belongs in front of it, and copies the fruit onto a line inside the right bin. At least two of the eight go under each heading.",
+   "p2": "Every other page in this family gives the child a picture and asks them to say the name aloud, because a and an is decided by sound. Taking the pictures away changes the task into a reading one: the word has to be decoded first, and only then can its opening sound be heard. That is why this version sits in first grade rather than kindergarten. Copying the whole word into the bin rather than circling a chip is deliberate too, since writing it forces a second look at the letters. The chips a child hesitates over are the ones worth noticing, and pineapple and papaya catch more children than apple ever does.",
+   "p3": "Print the PDF free and have each chip read out loud before it is written down, since the ear is still the judge even when the picture has gone. The bins are unevenly filled by design; counting them is not a way to check the answers. A or an with four picture cards is the spoken introduction to the same rule, a or an with eight picture cards adds the pictures back at greater length, and write the word for 1st grade is where these fruit names get spelled rather than copied.",
+   "canonicalDeckSlug": "articles-fruits-g1292",
+   "carousel": [
+    {
+     "label": "Doubles to 20 with No Pictures: Eight Facts and a Work Box",
+     "href": "doubles-to-20-numbers-only"
+    },
+    {
+     "label": "Halves to 20 with No Pictures: Split the Number in Two",
+     "href": "halves-to-20-numbers-only"
+    },
+    {
+     "label": "Nouns and Adjectives: Naming Words Against Describing Words",
+     "href": "nouns-and-adjectives-sort"
+    },
+    {
+     "label": "Word Bank and Letter Boxes: One Box for Every Letter",
+     "href": "write-the-word-bank-and-letter-boxes"
+    }
+   ],
+   "title": "A or An Word Sort for 1st Grade - Fruits | Free Printable PDF",
+   "metaDescription": "A or an word sort: eight fruit words with no pictures, read and copied into two columns headed a and an. Apple and orange against banana and lime. Free 1st grade PDF."
+  },
+  {
+   "slug": "doubles-to-20-numbers-only",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "doubles-halves",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Doubles Worksheet",
+   "h1": "Doubles to 20 with No Pictures: Eight Facts and a Work Box",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "doubles-halves",
+    "grade-1"
+   ],
+   "p1": "Eight cards, eight doubles, and above every one of them a white box with nothing inside it. This 1st grade doubles-halves page prints no pictures at all: just the pink double label, an empty panel faintly dotted like squared paper, and the fact underneath with a box for the answer. 7 + 7 =, 2 + 2 =, 4 + 4 =, 5 + 5 =, 3 + 3 =, 9 + 9 =, 6 + 6 =, 10 + 10 =. Between them they run right across the doubles range a first grader is asked to know, from four up to twenty.",
+   "p2": "An empty work box is a deliberate offer rather than an instruction. A child who still needs to see nine things can draw nine dots and nine more, and the page will not stop them; a child who knows the fact writes the answer and leaves the box white. That makes the sheet a measure as well as an exercise, and the useful reading is not the answers but the boxes. Doubles are worth this kind of attention because they carry so much else: the near doubles, the halves, and later the twos. Eight facts on one page is enough to see which of them are secure and which are still being worked out.",
+   "p3": "Print the PDF free and time nothing; the page has done its job on the day the boxes stay empty, not on the day it is finished quickest. This belongs after the picture versions rather than instead of them, so keep doubles to 20 with pictures for anyone who needs a group to count. Halves to 20 with just the numbers is the matching sheet, and doubles and halves to 20 mixes both operations across eight numeric cards.",
+   "canonicalDeckSlug": "doubles-halves-g1298",
+   "carousel": [
+    {
+     "label": "Doubles and Halves to 20, Still with Pictures to Count",
+     "href": "doubles-and-halves-with-pictures-to-20"
+    },
+    {
+     "label": "Doubles to 14: Six Cards, Every One a Double",
+     "href": "doubles-to-14-with-pictures"
+    },
+    {
+     "label": "Halves to 12: Cut Each Group into Two Equal Parts",
+     "href": "halves-to-12-with-pictures"
+    },
+    {
+     "label": "Doubles to 20: Bigger Groups, Still Something to Count",
+     "href": "doubles-to-20-with-pictures"
+    }
+   ],
+   "title": "Doubles to 20 Numbers Only, 1st Grade | Free Printable PDF",
+   "metaDescription": "Doubles to 20 with no pictures: eight cards, each with a double from 2 + 2 to 10 + 10 and an empty dotted work box to draw in if it is needed. Free 1st grade PDF."
+  },
+  {
+   "slug": "halves-to-20-numbers-only",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "doubles-halves",
+    "mode": null,
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Halving Worksheet",
+   "h1": "Halves to 20 with No Pictures: Split the Number in Two",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "doubles-halves",
+    "grade-1"
+   ],
+   "p1": "14 = and two empty boxes. That is the whole of the first card on this 1st grade doubles-halves page, and the seven cards after it are built the same way: a pink half label, a blank dotted panel where a picture would otherwise be, and an even number waiting to be split into two equal parts. The numbers run 14, 6, 12, 18, 8, 16, 10 and 20, so the page works its way through the even numbers up to twenty without repeating one. Nothing on the sheet can be counted, because there is nothing on it to count.",
+   "p2": "Halving without a picture asks a genuinely different question from halving with one. There is no row to count, so the child either recalls the double it comes from or works it out, and the second route is the interesting one: some children take ten away first and halve what is left, others halve the tens and the ones separately, and a few still draw. All three are legitimate, and the empty panel is there so drawing stays available. Watching which numbers get an answer straight away tells you exactly which doubles are stored, since half of sixteen only comes quickly to a child who already has 8 + 8.",
+   "p3": "Print the PDF free and ask, on one card only, how the answer was reached; the method is more informative than the number and it takes half a minute to hear. Halves to 20 with pictures is where to send a child whose boxes are all covered in dots, doubles to 20 with just the numbers is the same page for the opposite operation, and number walls with two-digit answers is where halving stops and adding upward begins.",
+   "canonicalDeckSlug": "doubles-halves-g1299",
+   "carousel": [
+    {
+     "label": "Doubles and Halves to 20, Still with Pictures to Count",
+     "href": "doubles-and-halves-with-pictures-to-20"
+    },
+    {
+     "label": "Doubles to 14: Six Cards, Every One a Double",
+     "href": "doubles-to-14-with-pictures"
+    },
+    {
+     "label": "Halves to 12: Cut Each Group into Two Equal Parts",
+     "href": "halves-to-12-with-pictures"
+    },
+    {
+     "label": "Doubles to 20: Bigger Groups, Still Something to Count",
+     "href": "doubles-to-20-with-pictures"
+    }
+   ],
+   "title": "Halving to 20 Numbers Only, 1st Grade | Free Printable PDF",
+   "metaDescription": "Halving to 20 with no pictures: eight cards, each with an even number from 6 to 20 to split into two equal parts, and a dotted work box. Free 1st grade PDF."
+  },
+  {
+   "slug": "nouns-and-adjectives-sort",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-classes",
+    "mode": null,
+    "theme": "animals",
+    "level": "grade-1"
+   },
+   "eyebrow": "Parts of Speech Worksheet",
+   "h1": "Nouns and Adjectives: Naming Words Against Describing Words",
+   "strand": "Language",
+   "slotTokens": [
+    "word-classes",
+    "animals",
+    "grade-1"
+   ],
+   "p1": "Owl, big, small, antelope, reindeer, tall, hot, donkey, pig, red. Ten chips, five animals and five describing words, laid out in two rows across the top of this 1st grade word-classes page with nothing printed on them but the word itself. Two bins wait below, one carrying a framed-picture icon with Nouns underneath and one carrying overlapping colour blobs with Adjectives, both ruled with six dashed lines. The child reads each chip, decides whether it names something or tells you what something is like, and writes it inside the bin it belongs to.",
+   "p2": "Setting nouns against adjectives isolates the contrast that children find least obvious. A noun and a verb are easy to keep apart because one is a thing and the other is an action; a noun and an adjective both attach to the same object, and a child looking at the word tall has to notice that it never stands on its own. Concrete adjectives do that work best, which is why the describing words here are sizes, a temperature and a colour rather than words about feeling or character. The chip to watch is red, because a colour is often heard as a thing rather than as a quality of a thing.",
+   "p3": "Print the PDF free and ask for a two-word phrase before each chip is copied down: a tall reindeer, a red owl. The phrase makes the adjective lean on a noun, which is the audible version of the whole distinction. Nouns and verbs is the other two-bin page in this family, using actions instead of descriptions, and word classes: sort nine words moves up to all three bins with a picture on every noun chip.",
+   "canonicalDeckSlug": "word-classes-animals-g1300",
+   "carousel": [
+    {
+     "label": "Nouns and Verbs: Sort Ten Words into Two Bins",
+     "href": "nouns-and-verbs-sort"
+    },
+    {
+     "label": "Word Bank and Letter Boxes: One Box for Every Letter",
+     "href": "write-the-word-bank-and-letter-boxes"
+    },
+    {
+     "label": "Two Sentences Run Together: Full Stop or Question Mark?",
+     "href": "run-on-sentences-full-stop-or-question-mark"
+    },
+    {
+     "label": "How Many Days Later? Counting Between Dates on a Calendar",
+     "href": "calendar-how-many-days-later"
+    }
+   ],
+   "title": "Nouns and Adjectives Sort, 1st Grade - Animals | Free PDF",
+   "metaDescription": "Nouns and adjectives sort: ten plain chips, five animal names and five describing words, copied into two labelled bins with no pictures. Free 1st grade PDF."
+  },
+  {
+   "slug": "write-the-word-bank-and-letter-boxes",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "write-the-word",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "grade-1"
+   },
+   "eyebrow": "Write the Word Worksheet",
+   "h1": "Word Bank and Letter Boxes: One Box for Every Letter",
+   "strand": "Language",
+   "slotTokens": [
+    "write-the-word",
+    "vehicles",
+    "grade-1"
+   ],
+   "p1": "A row of small dashed boxes sits under every line on this 1st grade write-the-word page, one box for each letter of the word that belongs there. Six vehicles fill the sheet, and across the top in a dashed orange strip runs the bank they are named in: bulldozer, canoe, crane, ferry, forklift, taxi. A taxi gets four boxes, a bulldozer gets nine. No first letter is printed anywhere, so the bank and the box count are the two things the child has to work with, and neither of them says which word goes where.",
+   "p2": "Put a word bank and a row of letter boxes on the same page and they check each other. Six words and six pictures means the bank can be worked through by elimination, but the boxes stop a child from writing the right word in the wrong place, because forklift will not fit into the four squares that belong to taxi. Matching a printed word to a picture is a reading task rather than a spelling one, and it is the honest description of what this page asks: the letters are all supplied, and the child copies them into a frame that confirms the choice. Crossing bank words off as they are used turns the last card into a piece of reasoning.",
+   "p3": "Print the PDF free and let the box count be used first, before the bank is read, on at least one card; counting nine boxes and looking for a nine-letter word is a strategy worth naming out loud. This is the middle of the family's support ladder. Letter boxes and the first letter takes the bank away, write the word: every clue adds the opening letter back on top of both, and write the word for 1st grade removes the bank while keeping the boxes.",
+   "canonicalDeckSlug": "write-the-word-vehicles-g1301",
+   "carousel": [
+    {
+     "label": "Write the Word with Only the First Letter to Start You Off",
+     "href": "write-the-word-first-letter-only"
+    },
+    {
+     "label": "Letter Boxes and the First Letter, with No Word Bank",
+     "href": "write-the-word-letter-boxes-and-first-letter"
+    },
+    {
+     "label": "Write the Word with Every Clue: Bank, Boxes and First Letter",
+     "href": "write-the-word-with-every-clue"
+    },
+    {
+     "label": "Two Sentences Run Together: Full Stop or Question Mark?",
+     "href": "run-on-sentences-full-stop-or-question-mark"
+    }
+   ],
+   "title": "Write the Word with Letter Boxes, 1st Grade - Vehicles | Free PDF",
+   "metaDescription": "Write the word worksheet: a six-word bank at the top and a row of dashed letter boxes under every vehicle, one box for each letter. Free printable 1st grade PDF."
+  },
+  {
+   "slug": "run-on-sentences-full-stop-or-question-mark",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "capitals-punctuation",
+    "mode": null,
+    "theme": "fruits",
+    "level": "grade-2"
+   },
+   "eyebrow": "Fix the Sentence Worksheet",
+   "h1": "Two Sentences Run Together: Full Stop or Question Mark?",
+   "strand": "Language",
+   "standard": "L.1.2.b",
+   "slotTokens": [
+    "capitals-punctuation",
+    "fruits",
+    "grade-2"
+   ],
+   "p1": "There is a question hidden somewhere on this 2nd grade capitals-punctuation page, and finding it is part of the job. Three lanes each hold two sentences printed as a single lowercase run with no marks at all, beside a small fruit picture: did emma see the banana i can see two bananas. Two handwriting rules sit under every lane for the two sentences to be written out on. The checklist across the top now shows both marks together on its end-mark badge, a full stop and a question mark, rather than the single full stop the simpler page carries.",
+   "p2": "Adding the question mark changes the reading rather than the writing. On a page where every sentence ends in a full stop the mark can be supplied by habit; here it has to be chosen, which means the child must notice the question word or the inverted opening as they read. Worth knowing before you hand it out: the page guarantees at least one question, not one in every lane, so a lane holding two plain statements is normal and correct. A child who puts a question mark on every line has been counting on a pattern rather than reading, and that is precisely the assumption this arrangement is built to break.",
+   "p3": "Print the PDF free and have each line read aloud twice, once flat and once with the voice rising at the end, then ask which version sounded right. The ear settles the mark faster than any rule about question words. Where does it end? is the same run-on task with every sentence a statement, choose the end mark keeps the sentences separate and only asks for the mark, and unscramble the sentence is the step below, where the words themselves are still out of order.",
+   "canonicalDeckSlug": "capitals-punctuation-fruits-g2311",
+   "carousel": [
+    {
+     "label": "Where Does It End? Split Two Sentences That Have Run Together",
+     "href": "run-on-sentences-worksheet"
+    },
+    {
+     "label": "How Many Days Later? Counting Between Dates on a Calendar",
+     "href": "calendar-how-many-days-later"
+    },
+    {
+     "label": "Count by Tens Dot to Dot: 10, 20, 30 up to 100",
+     "href": "dot-to-dot-count-by-10s"
+    },
+    {
+     "label": "Copy the Capitals: Read the Card, Then Write It",
+     "href": "copy-the-capitals-worksheet"
+    }
+   ],
+   "title": "Run-On Sentences with Questions, 2nd Grade - Fruits | Free PDF",
+   "metaDescription": "Run-on sentences worksheet: three lines of two sentences printed as one, with at least one question on the page so each end mark has to be chosen. Free 2nd grade PDF."
+  },
+  {
+   "slug": "calendar-how-many-days-later",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "calendar",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Calendar Worksheet",
+   "h1": "How Many Days Later? Counting Between Dates on a Calendar",
+   "strand": "Measurement & Data",
+   "slotTokens": [
+    "calendar",
+    "grade-2"
+   ],
+   "p1": "One month fills the top of this 2nd grade calendar worksheet, December 2025 printed as a proper grid with the days of the week across a teal header and every date in its own cell. Three small toy stickers sit on three separate days. Underneath are four questions in cream boxes with dashed answer spaces: on which date is the first sticker, how many days after that one the next sticker falls, what the date is one week after the 10th, and what day of the week the 18th is. Two of the four are about distance rather than position.",
+   "p2": "Naming the day a date falls on is a lookup; working out how many days lie between two dates is arithmetic on a grid, and that is the question this page is built around. A child can count cells one at a time and be right, and many will, but the calendar rewards a shortcut as soon as they notice it, because a date directly below another is exactly seven days later. Watching which method a child uses on the span question tells you whether the wrap-around layout has been understood or is still being treated as a list. The one-week-later question is the same insight in miniature: drop straight down a column and you have added seven.",
+   "p3": "Print the PDF free and let a finger travel the route on the grid before the pencil answers, especially where the span crosses from one row into the next. A real wall calendar beside the sheet is worth having, so the same two questions can be asked of the month everyone is actually in. Read the calendar: a first look is the four-question page without a span question, and a busy month uses a six-row layout where the counting has further to travel.",
+   "canonicalDeckSlug": "calendar-g2312",
+   "carousel": [
+    {
+     "label": "Count by Tens Dot to Dot: 10, 20, 30 up to 100",
+     "href": "dot-to-dot-count-by-10s"
+    },
+    {
+     "label": "Copy the Capitals: Read the Card, Then Write It",
+     "href": "copy-the-capitals-worksheet"
+    },
+    {
+     "label": "Write the Word for One: The Plural Is the Only Model",
+     "href": "write-the-singular-worksheet"
+    },
+    {
+     "label": "Number Walls with Two-Digit Answers: Four Courses to 100",
+     "href": "number-walls-to-100"
+    }
+   ],
+   "title": "How Many Days Later Calendar Worksheet, 2nd Grade | Free PDF",
+   "metaDescription": "Calendar worksheet on counting days: one full month with three stickers and four questions, including how many days lie between two of them. Free 2nd grade PDF."
+  },
+  {
+   "slug": "dot-to-dot-count-by-10s",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "dot-to-dot",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Dot-to-Dot Worksheet",
+   "h1": "Count by Tens Dot to Dot: 10, 20, 30 up to 100",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "2.NBT.A.2",
+   "slotTokens": [
+    "dot-to-dot",
+    "grade-2"
+   ],
+   "p1": "Ten dots carry the whole hundred on this 2nd grade dot-to-dot page. They sit in the cream panel labelled 10, 20, 30 and on up to 100, printed in the largest number chips this family uses, with the 10 ringed in orange to start; the remainder of the outline is already drawn in grey, so ten lines finish the picture. The strip along the bottom holds the tens in circles, 10 through 100, which is the counting sequence a second grader is expected to have by heart and the one they can check against here if they do not.",
+   "p2": "Counting in tens is where place value first becomes visible as a pattern rather than a rule: every number on this page ends in a zero, and the digit in front of it climbs by one each time. That makes the sequence the easiest of the skip counts to say and the most useful to own, since it underpins adding ten to any number and reading a hundred square. The only place children stumble is the last step, where ninety goes to one hundred and the shape of the number changes, and this page puts that step at the very end where it can be watched. Ask what happens after ninety before the pencil gets there.",
+   "p3": "Print the PDF free and ask for the tens to be counted backwards from a hundred once the picture is done, since that reverse run is far less practised than the forward one. Colour it in afterwards. Count by fives is the same page with a smaller step, count by twos is smaller again, and number line to 100 counting in tens moves the identical sequence onto a ruled line where the spacing is to scale.",
+   "canonicalDeckSlug": "dot-to-dot-g2314",
+   "carousel": [
+    {
+     "label": "Backwards Dot to Dot: Count Down from 10 to 1",
+     "href": "dot-to-dot-count-back-from-10"
+    },
+    {
+     "label": "Count by Twos Dot to Dot: 2, 4, 6 up to 20",
+     "href": "dot-to-dot-count-by-2s"
+    },
+    {
+     "label": "Count Back from 20: Every Dot Numbered, Nothing Pre-Drawn",
+     "href": "dot-to-dot-count-back-from-20"
+    },
+    {
+     "label": "Count by Fives Dot to Dot: 5, 10, 15 up to 50",
+     "href": "dot-to-dot-count-by-5s"
+    }
+   ],
+   "title": "Count by 10s Dot to Dot for 2nd Grade | Free Printable PDF",
+   "metaDescription": "Count by 10s dot to dot: ten large dots labelled 10, 20, 30 and on to 100, with part of the outline printed and the tens listed below. Free 2nd grade PDF."
+  },
+  {
+   "slug": "copy-the-capitals-worksheet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-tracing",
+    "mode": null,
+    "theme": "toys",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Word Tracing Worksheet",
+   "h1": "Copy the Capitals: Read the Card, Then Write It",
+   "strand": "Reading: Foundational Skills",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "word-tracing",
+    "toys",
+    "kindergarten"
+   ],
+   "p1": "DICE. CRAYONS. BICYCLE. Three toys, three words, and every letter a capital on this Kindergarten word tracing page. Each word is printed in solid teal on the cream card beneath its own picture, and the writing area beside it is completely empty: two handwriting rules to a row and no dashed letters anywhere on the sheet. The child reads the word off the card, carries it across the gap, and writes it twice in block capitals. Words here can run to eight letters, so the hand has a real string to keep in order rather than a short one.",
+   "p2": "Two things are being asked at once here, and it is worth knowing which is which. The letter shapes are the easy half, since capitals are straight lines and plain curves, all one height, with none of the ascender and descender judgements lowercase demands. The hard half is the copying: holding seven letters in the right order while the eyes leave the model. A child who writes BICYLE has not failed at handwriting, they have run out of working memory, and the answer is to copy in chunks of two or three letters rather than to slow the pencil down. The second attempt in each row usually shows whether that chunking has been found.",
+   "p3": "Print the PDF free and let the child point at the card between chunks; travelling back to the model is allowed, and it is how the habit forms. Three rows keeps the demand honest for a first unsupported page. Trace the words in capital letters is the same block hand with a dashed lane to follow if this is too much today, and copy the word does the identical job in lowercase for classes learning that hand first.",
+   "canonicalDeckSlug": "word-tracing-toys-k315",
+   "carousel": [
+    {
+     "label": "Copy the Word: No Dashed Letters, Two Lines to Fill",
+     "href": "copy-the-word-no-tracing"
+    },
+    {
+     "label": "Trace Words in Capital Letters: APPLE, MANGO, PEAR",
+     "href": "trace-words-in-capital-letters"
+    },
+    {
+     "label": "Write the Word for One: The Plural Is the Only Model",
+     "href": "write-the-singular-worksheet"
+    },
+    {
+     "label": "Number Walls with Two-Digit Answers: Four Courses to 100",
+     "href": "number-walls-to-100"
+    }
+   ],
+   "title": "Copy Capital Letters, Kindergarten - Toys | Free Printable PDF",
+   "metaDescription": "Copy the capitals worksheet: DICE, CRAYONS and BICYCLE printed under their pictures, nothing to trace, and two empty rules for each word. Free Kindergarten PDF."
+  },
+  {
+   "slug": "write-the-singular-worksheet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "singular-plural",
+    "mode": null,
+    "theme": "animals",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Singular and Plural Worksheet",
+   "h1": "Write the Word for One: The Plural Is the Only Model",
+   "strand": "Language",
+   "standard": "L.K.1.c",
+   "slotTokens": [
+    "singular-plural",
+    "animals",
+    "kindergarten"
+   ],
+   "p1": "The only printed words on this Kindergarten singular-plural page are plurals. Four rows of animals fill the sheet: on the right of each, two or three turtles, whales, vultures or iguanas with the plural spelled out in solid teal below them, and on the left a single animal with a badge reading 1 and an empty handwriting rule underneath. Nothing is dashed. The child looks at the word for many, takes the ending off in their head, and writes the word for one. The pills at the top, 1 one and 2 3 many, are the only other text on the page.",
+   "p2": "Of the four ways this rule can be practised, this is the hardest, and deliberately so: the direction is reversed and the scaffold is gone at the same time. Removing a letter turns out to be less intuitive than adding one, partly because the plural is what children hear most often and partly because there is no positive action to perform. The reward is that a child who can do it holds the relationship rather than the habit. Look at the last letter of each answer. Turtles copied whole, or turtle written cleanly, is the entire result of the page, and four rows give four chances to see it.",
+   "p3": "Print the PDF free and let the child say the plural, then the singular, then write; the spoken pair carries most of the work. This is a closing page rather than an introduction, best used once tracing in both directions has been done. Many and one keeps a dashed singular for children who are not there yet, and one and many: write it yourself is its mirror image, with the singular given and the plural to produce.",
+   "canonicalDeckSlug": "singular-plural-animals-k316",
+   "carousel": [
+    {
+     "label": "One and Many: Write the Plural Without a Model",
+     "href": "write-the-plural-worksheet"
+    },
+    {
+     "label": "Many and One: Trace the Word for a Single Fruit",
+     "href": "plural-to-singular-worksheet"
+    },
+    {
+     "label": "Number Walls with Two-Digit Answers: Four Courses to 100",
+     "href": "number-walls-to-100"
+    },
+    {
+     "label": "Unscramble the Sentence: The End Mark Shows, the Capital Does Not",
+     "href": "unscramble-the-sentence-find-the-first-word"
+    }
+   ],
+   "title": "Plural to Singular Writing, Kindergarten - Animals | Free PDF",
+   "metaDescription": "Write the singular worksheet: turtles, whales, vultures and iguanas are printed, and the child writes the word for one animal on an empty line. Free Kindergarten PDF."
+  },
+  {
+   "slug": "number-walls-to-100",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-walls",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Number Walls Worksheet",
+   "h1": "Number Walls with Two-Digit Answers: Four Courses to 100",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "2.NBT.B.5",
+   "slotTokens": [
+    "number-walls",
+    "grade-2"
+   ],
+   "p1": "Four bricks are printed along the bottom of each wall on this 2nd grade number-walls page and six are empty above them. The four pyramids stand four courses high, ten bricks apiece, and their bases carry numbers like 7, 9, 6, 8 or 11, 6, 11, 8. Each brick is the sum of the two under it, so the second course is three bricks, the third is two, and a single stone crowns the wall. By the time the child reaches that top brick the total has run well past twenty, and on the taller walls past fifty.",
+   "p2": "The arithmetic changes character on the way up. The first course is a row of number bonds inside twenty, exactly the sums a second grader can do in their head, but the course above adds two teen numbers together, and the one above that adds two-digit numbers with a carry. That progression inside a single shape is what makes the page worth the paper: the child cannot skip to the answer, and an error in the bottom row travels upward and arrives at the top visibly wrong. Watch the third course, where 31 + 29 is the sort of sum that needs to be written down rather than held, and where children who have been working mentally usually reach for a margin.",
+   "p3": "Print the PDF free and leave room beside each wall, or hand out squared paper alongside it, because the upper courses want written working and cramped bricks encourage guessing. Check the second course rather than the top brick when marking; a wrong crown is almost always an error further down. Four row number walls keeps the same four-course shape with sums inside twenty, and number walls worked downwards runs the structure in reverse.",
+   "canonicalDeckSlug": "number-walls-g2313",
+   "carousel": [
+    {
+     "label": "Number Walls from the Top Down: Subtract to Find the Bricks",
+     "href": "number-walls-work-downwards"
+    },
+    {
+     "label": "Unscramble the Sentence: The End Mark Shows, the Capital Does Not",
+     "href": "unscramble-the-sentence-find-the-first-word"
+    },
+    {
+     "label": "Letter Boxes and the First Letter, with No Word Bank",
+     "href": "write-the-word-letter-boxes-and-first-letter"
+    },
+    {
+     "label": "Write the Word with Every Clue: Bank, Boxes and First Letter",
+     "href": "write-the-word-with-every-clue"
+    }
+   ],
+   "title": "Number Walls to 100 for 2nd Grade - Four Courses | Free PDF",
+   "metaDescription": "Number walls to 100: four ten-brick pyramids with only the four base numbers printed, so every brick above has to be added in writing. Free printable 2nd grade PDF."
+  },
+  {
+   "slug": "unscramble-the-sentence-find-the-first-word",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sentence-building",
+    "mode": null,
+    "theme": "fruits",
+    "level": "grade-1"
+   },
+   "eyebrow": "Sentence Scramble Worksheet",
+   "h1": "Unscramble the Sentence: The End Mark Shows, the Capital Does Not",
+   "strand": "Language",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "sentence-building",
+    "fruits",
+    "grade-1"
+   ],
+   "p1": "One tile in every row of this 1st grade sentence-building page carries a full stop or a question mark, and none of them carries a sentence-opening capital. Four fruits sit at the left of their own cream rows, an avocado, a banana, a lime and an apple, and beside each one a line of white word tiles waits out of order: feeds, the, avocado., Leo. A handwriting rule runs underneath for the finished sentence. The end mark tells the child which word finishes; nothing on the row tells them which word begins.",
+   "p2": "Knowing where a sentence stops is half of knowing where it starts, and this page gives away exactly that half. With the last tile identified, the child has a fixed point to build backwards from and a smaller puzzle in front of them, which is why this sits between the version that shows both clues and the version that shows neither. Reading the tiles aloud in trial orders is the method, and the murmur of it is the sound of a sentence being tested by ear. One warning worth passing on: a person's name keeps its capital wherever it stands in the sentence, so a capitalised tile marks a name and not necessarily the beginning.",
+   "p3": "Print the PDF free and let the tiles be numbered lightly in pencil before anything is written on the rule, or cut them out for a first pass across the desk. The capital and the full stop both have to be supplied in the written version, so the reading-back check matters. Unscramble the sentence with clues keeps the opening capital in place as well, unscramble the sentence with no clues strips both, and fix the sentence is where the words arrive in order and only the mechanics are missing.",
+   "canonicalDeckSlug": "sentence-building-fruits-g1302",
+   "carousel": [
+    {
+     "label": "Letter Boxes and the First Letter, with No Word Bank",
+     "href": "write-the-word-letter-boxes-and-first-letter"
+    },
+    {
+     "label": "Write the Word with Every Clue: Bank, Boxes and First Letter",
+     "href": "write-the-word-with-every-clue"
+    },
+    {
+     "label": "Backwards Dot to Dot: Count Down from 10 to 1",
+     "href": "dot-to-dot-count-back-from-10"
+    },
+    {
+     "label": "Count by Twos Dot to Dot: 2, 4, 6 up to 20",
+     "href": "dot-to-dot-count-by-2s"
+    }
+   ],
+   "title": "Unscramble the Sentence, Find the First Word, 1st Grade | Free PDF",
+   "metaDescription": "Sentence scramble: four rows of fruit word tiles that keep the end mark but lose the opening capital, so the first word has to be worked out. Free 1st grade PDF."
+  },
+  {
+   "slug": "write-the-word-letter-boxes-and-first-letter",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "write-the-word",
+    "mode": null,
+    "theme": "toys",
+    "level": "grade-1"
+   },
+   "eyebrow": "Write the Word Worksheet",
+   "h1": "Letter Boxes and the First Letter, with No Word Bank",
+   "strand": "Language",
+   "standard": "L.1.2.d",
+   "slotTokens": [
+    "write-the-word",
+    "toys",
+    "grade-1"
+   ],
+   "p1": "Count the boxes and you know how long the word is; read the letter on the line and you know how it starts. Those two clues are all this 1st grade write-the-word page offers, because there is no bank across the top of it. Six toys are laid out two across and three down, among them a sandbox, a swing, a set of dice and a scooter, and each one has a handwriting rule with its opening letter printed in teal and a row of small dashed boxes underneath, one for every letter in the name.",
+   "p2": "Neither clue supplies a spelling, and that is what separates this page from the ones with a bank. The child still has to listen through the word and choose letters for the sounds, but the two supports catch the two errors that most often derail a first grader working alone: not knowing which word is wanted, and not knowing when to stop. A child who writes scoter finds an empty box and goes back to listen again, which is self-correction without an adult standing over the page. Where the boxes cannot help is the middle of a word, so the vowels are still the place to look when the sheet comes back.",
+   "p3": "Print the PDF free and ask for each toy to be stretched aloud, sound by sound, with a finger under the boxes; matching sounds to squares as they go is the habit the layout is built for. Word bank and letter boxes puts the spellings back on the page if this is too far, write the word: every clue holds all three supports at once, and write the word on plain lines is where the boxes and the letter both disappear.",
+   "canonicalDeckSlug": "write-the-word-toys-g1303",
+   "carousel": [
+    {
+     "label": "Write the Word with Only the First Letter to Start You Off",
+     "href": "write-the-word-first-letter-only"
+    },
+    {
+     "label": "Word Bank and Letter Boxes: One Box for Every Letter",
+     "href": "write-the-word-bank-and-letter-boxes"
+    },
+    {
+     "label": "Write the Word with Every Clue: Bank, Boxes and First Letter",
+     "href": "write-the-word-with-every-clue"
+    },
+    {
+     "label": "Backwards Dot to Dot: Count Down from 10 to 1",
+     "href": "dot-to-dot-count-back-from-10"
+    }
+   ],
+   "title": "Write the Word, Boxes and First Letter, 1st Grade - Toys | Free PDF",
+   "metaDescription": "Write the word worksheet: no word bank, but a row of letter boxes under each toy and the first letter already printed on the line. Free printable 1st grade PDF."
+  },
+  {
+   "slug": "write-the-word-with-every-clue",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "write-the-word",
+    "mode": null,
+    "theme": "animals",
+    "level": "grade-1"
+   },
+   "eyebrow": "Write the Word Worksheet",
+   "h1": "Write the Word with Every Clue: Bank, Boxes and First Letter",
+   "strand": "Language",
+   "slotTokens": [
+    "write-the-word",
+    "animals",
+    "grade-1"
+   ],
+   "p1": "Every clue this family has to offer is on the page at once. A dashed orange strip across the top of this 1st grade write-the-word sheet holds the bank, giraffe, horse, koala, panda, swan and zebra, and each of the six animal cards below carries both of the other supports: the first letter already printed in teal at the start of the handwriting rule, and a row of dashed boxes underneath with one square for every letter. A panda card shows p and five boxes. A giraffe card shows g and seven.",
+   "p2": "Full support is the right setting more often than it sounds. A child new to writing words from pictures, or one who has been away, or a class working in a second language, can complete six cards here without stalling, and finishing a page is not a small thing when the last three attempts ended in half a row and a rubbed-out line. The three clues do different jobs: the bank supplies the spelling, the first letter identifies which bank word belongs to which picture, and the boxes confirm the choice. Nothing is left to guess, which makes this a page about handwriting, letter order and confidence rather than about encoding.",
+   "p3": "Print the PDF free and use it as a first page rather than a last one, then take a support away next time rather than all three at once. Word bank and letter boxes drops the opening letter, letter boxes and the first letter drops the bank, and write the word for 1st grade keeps only the boxes. Trace and write words is the page below this one, where the whole word is still printed to copy from.",
+   "canonicalDeckSlug": "write-the-word-animals-g1304",
+   "carousel": [
+    {
+     "label": "Write the Word with Only the First Letter to Start You Off",
+     "href": "write-the-word-first-letter-only"
+    },
+    {
+     "label": "Word Bank and Letter Boxes: One Box for Every Letter",
+     "href": "write-the-word-bank-and-letter-boxes"
+    },
+    {
+     "label": "Letter Boxes and the First Letter, with No Word Bank",
+     "href": "write-the-word-letter-boxes-and-first-letter"
+    },
+    {
+     "label": "Backwards Dot to Dot: Count Down from 10 to 1",
+     "href": "dot-to-dot-count-back-from-10"
+    }
+   ],
+   "title": "Write the Word with Every Clue, 1st Grade - Animals | Free PDF",
+   "metaDescription": "Write the word worksheet with full support: a word bank, a row of letter boxes and the first letter printed on the line beside each animal. Free 1st grade PDF."
   }
  ]
 }

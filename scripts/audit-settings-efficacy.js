@@ -390,30 +390,39 @@ function pageBoot(state, poison) {
   window.__printed = 0; window.__spoken = []; window.__tones = [];
   window.print = function () { window.__printed++; };
 
-  /* The shell's tone hook is a closure over an AudioContext and is NOT
-     exported (lcs-shell.js:102-127; LCS.Audio is LCSAudio, a different
-     object). The constructor is the only seam, and instrumenting it is
-     what makes clacks / pop / tileSound / drum / rattle / flickSound
-     measurable at all. */
-  function FakeCtx() {
-    this.currentTime = 0; this.state = 'running'; this.destination = {};
-    this.resume = function () {};
-    this.createGain = function () {
-      return { gain: { setValueAtTime: function () {}, exponentialRampToValueAtTime: function () {}, linearRampToValueAtTime: function () {}, value: 0 }, connect: function () {} };
-    };
-    this.createOscillator = function () {
-      var o = {
-        type: '', frequency: { value: 0, setValueAtTime: function (v) { o.frequency.value = v; } },
-        connect: function () {},
-        start: function () { window.__tones.push(o.type + ':' + o.frequency.value); },
-        stop: function () {}
+  /* ⚠⚠ INSTRUMENT THE REAL AUDIO API, DO NOT REPLACE IT. A hand-written
+     fake AudioContext was too thin — it had no `sampleRate`, so
+     name-sticks' rattle computed `Math.floor(undefined * 0.08)` and
+     rekenrek's clack chain went the same way. Every tool that synthesises
+     its own sound then threw inside its click handler, and the gate
+     reported FOURTEEN audio settings across eight tools as dead. That is
+     not a plausible defect rate; it is a harness writing the answer.
+     Headless Chrome has a working Web Audio implementation and needs no
+     speakers, so the real constructor stays and only `start()` is
+     wrapped. The shell's own tone hook is a closure over an AudioContext
+     and is not exported (LCS.Audio is LCSAudio, a different object), so
+     this seam is the only place any of it can be observed. */
+  (function () {
+    var AC = window.AudioContext || window.webkitAudioContext;
+    if (!AC || !AC.prototype) return;
+    ['createOscillator', 'createBufferSource'].forEach(function (m) {
+      var orig = AC.prototype[m];
+      if (typeof orig !== 'function') return;
+      AC.prototype[m] = function () {
+        var node = orig.apply(this, arguments);
+        try {
+          var s = node.start;
+          node.start = function () {
+            try {
+              window.__tones.push(m + ':' + (node.frequency ? node.frequency.value : (node.buffer ? node.buffer.length : 'buf')));
+            } catch (_) {}
+            return s.apply(node, arguments);
+          };
+        } catch (_) {}
+        return node;
       };
-      return o;
-    };
-    this.createBufferSource = function () { return { buffer: null, connect: function () {}, start: function () { window.__tones.push('buf'); }, stop: function () {} }; };
-    this.createBuffer = function () { return { getChannelData: function () { return new Float32Array(8); } }; };
-  }
-  window.AudioContext = FakeCtx; window.webkitAudioContext = FakeCtx;
+    });
+  }());
 
   var install = function () {
     if (!window.LCSAudio) return false;

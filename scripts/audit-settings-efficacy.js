@@ -95,6 +95,16 @@ const WANT_TOOL = arg('tool', '');
 const WANT_ACT = arg('activity', '');
 const LANG = arg('lang', 'en');
 const SETTLE = parseInt(arg('settle', '420'), 10);
+/* ⚠ HOW FAR THE APPARATUS IS DRIVEN BEFORE A FIELD IS JUDGED. Four
+   clicks was not enough and the gate cried wolf on its first sweep:
+   class-graph's `pop` only fires on the bar you JUST voted for
+   (:522), center-board's `showNames` needs a group that HAS member
+   names (:743), calendar-wall's `weatherSet` needs the weather panel
+   open (:1190). All three are correct settings that simply cannot act
+   on an untouched board, and reporting them DEAD is the gate lying.
+   The answer is the liveness gate's own: a control is dead only if it
+   acts on NO reachable state, so reach further. */
+const EXERCISE = parseInt(arg('exercise', '14'), 10);
 const POISON = arg('poison', '');           /* drawer-scope | store — see the poison notes */
 const JSON_OUT = arg('json', '');
 
@@ -117,6 +127,25 @@ const STATES = STATE_SEL === 'all' ? ALL_STATES : ALL_STATES.filter(s => STATE_S
    need. */
 const KNOWN_UNPROVABLE = {
   /* 'surface-id': { fieldKey: 'why no probe can observe it' } */
+};
+
+/* ⚠ A PROBE ADDS REACH. IT NEVER RELAXES THE CRITERION. The comparison
+   is still TRACE(A) != TRACE(B) over the same four channels; a probe only
+   says HOW to get the apparatus into a state where the option can be
+   seen at all. Every entry carries the reason it is needed, and the
+   reason must name the code that makes the observable unreachable
+   otherwise — if it cannot, the honest verdict is DEAD, not a probe. */
+const PROBES = {
+  'class-graph': {
+    pop: {
+      finalClick: '.cgr-vote',
+      why: 'the pop class is added ONLY to the stamp of the bar just voted for, '
+         + 'and _buildBoard clears _justVoted at its end (class-graph.js:522,553), '
+         + 'so the very next render wipes it — including the render that '
+         + 'commitSettings itself triggers. It is observable only in the frame '
+         + 'immediately after a vote, so the vote has to be the LAST action.'
+    }
+  }
 };
 
 let PASS = 0, FAIL = 0, UNPROVEN = 0, VACUOUS = 0;
@@ -480,8 +509,26 @@ function pageBoot(state, poison) {
         var r = e.getBoundingClientRect();
         return r.width > 0 && r.height > 0 && !e.disabled && !e.closest('.lcs-drawer') && !e.closest('.lcs-controls');
       });
-    for (var i = 0; i < Math.min(max || 4, cand.length); i++) {
-      try { cand[i].click(); hit++; } catch (_) {}
+    /* ⚠ ONE OF EACH KIND, NOT THE FIRST N OF ONE KIND. Taking candidates
+       in raw DOM order spent the whole budget on the first control class
+       it met — 14 day-cells on calendar-wall, 14 tiles elsewhere — and
+       never reached the mode switch two rows down. Grouping by className
+       and taking a couple from each group covers the tool's VERB SPACE
+       instead of one corner of it, at the same cost. Deterministic:
+       groups keep first-appearance order. */
+    var groups = [], byCls = {};
+    for (var g = 0; g < cand.length; g++) {
+      var cls = cand[g].className || cand[g].tagName;
+      if (!byCls[cls]) { byCls[cls] = []; groups.push(byCls[cls]); }
+      byCls[cls].push(cand[g]);
+    }
+    var order = [], round = 0;
+    while (order.length < cand.length && round < 4) {
+      for (var q = 0; q < groups.length; q++) if (groups[q][round]) order.push(groups[q][round]);
+      round++;
+    }
+    for (var i = 0; i < Math.min(max || 4, order.length); i++) {
+      try { order[i].click(); hit++; } catch (_) {}
     }
     var chk = document.querySelector('.lcs-activity-check');
     if (chk && !chk.disabled) { try { chk.click(); hit++; } catch (_) {} }
@@ -565,7 +612,7 @@ function whichChannel(a, b) {
 /* one measurement: fresh page → open drawer → set field i to option j
    (null = re-commit the current value) → measure at rest → exercise →
    measure again. Returns both, plus the value the tool now holds. */
-async function trace(browser, surface, state, PORT, sets, key) {
+async function trace(browser, surface, state, PORT, sets, key, probe) {
   const page = await openPage(browser, surface, state, PORT);
   try {
     if (!(await page.evaluate(() => window.__openDrawer()))) return null;
@@ -578,8 +625,15 @@ async function trace(browser, surface, state, PORT, sets, key) {
     await page.evaluate(() => window.__closeDrawer());
     await wait(120);
     const atRest = await page.evaluate(() => window.__sig());
-    await page.evaluate(() => window.__exercise(4));
+    await page.evaluate((n) => window.__exercise(n), EXERCISE);
     await wait(SETTLE);
+    if (probe && probe.finalClick) {
+      await page.evaluate((sel) => {
+        const e = document.querySelector(sel);
+        if (e && !e.disabled) e.click();
+      }, probe.finalClick);
+      await wait(SETTLE);
+    }
     const afterUse = await page.evaluate(() => window.__sig());
     let stuck = null;
     if (key) {
@@ -653,8 +707,9 @@ async function auditSurface(browser, surface, state, PORT) {
 
     /* THE CONTROL. Two identical null transitions from fresh pages. If
        they differ, tool.render() churns and a diff proves nothing. */
-    const n1 = await trace(browser, surface, state, PORT, [{ field: i, opt: null }], null);
-    const n2 = await trace(browser, surface, state, PORT, [{ field: i, opt: null }], null);
+    const probe = (PROBES[surface.id] || {})[f.key] || null;
+    const n1 = await trace(browser, surface, state, PORT, [{ field: i, opt: null }], null, probe);
+    const n2 = await trace(browser, surface, state, PORT, [{ field: i, opt: null }], null, probe);
     if (!n1 || !n2) { vac(`${tag}: ${name} could not be driven — no chip or switch answered`); continue; }
     const stable = sameTrace(n1.atRest, n2.atRest) && sameTrace(n1.afterUse, n2.afterUse);
     if (!stable) {
@@ -669,7 +724,7 @@ async function auditSurface(browser, surface, state, PORT) {
     let live = null;
     for (let o = 0; o < nOpts && !live; o++) {
       if (fields[i].chips && o === fields[i].checked) continue;   /* that is the null transition */
-      const t = await trace(browser, surface, state, PORT, [{ field: i, opt: o }], schema.hasTasks ? f.key : null);
+      const t = await trace(browser, surface, state, PORT, [{ field: i, opt: o }], schema.hasTasks ? f.key : null, probe);
       if (!t) continue;
       if (!sameTrace(n1.atRest, t.atRest)) live = { how: 'at rest', ch: whichChannel(n1.atRest, t.atRest), t };
       else if (!sameTrace(n1.afterUse, t.afterUse)) live = { how: 'after use', ch: whichChannel(n1.afterUse, t.afterUse), t };
@@ -686,11 +741,11 @@ async function auditSurface(browser, surface, state, PORT) {
         const nj = fields[j].chips || 2;
         for (let oj = 0; oj < nj; oj++) {
           if (fields[j].chips && oj === fields[j].checked) continue;
-          const base = await trace(browser, surface, state, PORT, [{ field: j, opt: oj }, { field: i, opt: null }], null);
+          const base = await trace(browser, surface, state, PORT, [{ field: j, opt: oj }, { field: i, opt: null }], null, probe);
           if (!base) continue;
           for (let oi = 0; oi < nOpts; oi++) {
             if (fields[i].chips && oi === fields[i].checked) continue;
-            const t = await trace(browser, surface, state, PORT, [{ field: j, opt: oj }, { field: i, opt: oi }], null);
+            const t = await trace(browser, surface, state, PORT, [{ field: j, opt: oj }, { field: i, opt: oi }], null, probe);
             if (!t) continue;
             if (!sameTrace(base.atRest, t.atRest)) { live = { how: 'after ' + schema.settings[j].key, ch: whichChannel(base.atRest, t.atRest), t }; break outer; }
             if (!sameTrace(base.afterUse, t.afterUse)) { live = { how: 'after ' + schema.settings[j].key, ch: whichChannel(base.afterUse, t.afterUse), t }; break outer; }
@@ -707,7 +762,7 @@ async function auditSurface(browser, surface, state, PORT) {
         bad(`${tag}: ${name} REVERTED — the tool honours it, then the next task overwrites it (${JSON.stringify(s.before)} → ${JSON.stringify(s.after)}); the teacher's choice does not survive one round`);
         findings.push({ surface: surface.id, state: state.id, key: f.key, verdict: 'REVERTED' });
       } else {
-        ok(`${tag}: ${name} changes the board via ${live.ch} (${live.how})`);
+        ok(`${tag}: ${name} changes the board via ${live.ch} (${live.how}${probe ? ', via probe' : ''})`);
       }
     } else if (excused) {
       ok(`${tag}: ${name} excused — ${excused}`);

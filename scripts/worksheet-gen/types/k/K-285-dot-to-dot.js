@@ -11,6 +11,7 @@
 'use strict';
 const dotFigure = require('../../primitives/dot-figure.js');
 const { numberStrip } = require('../../templates/components-b2.js');
+const { COLLATION } = require('../../data/b2/collation.js');
 const { DOT_FIGURES } = require('../../data/b2/figures.js');
 
 module.exports = {
@@ -32,9 +33,12 @@ module.exports = {
     },
   },
 
-  build({ difficulty }, ctx) {
+  // `locale` is destructured only because the alphabet face needs the locale's
+  // own printed strip; the numeric faces ignore it.
+  build({ difficulty, locale }, ctx) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
+    const loc = (locale || 'en').slice(0, 2);
     const figure = d.figure ? DOT_FIGURES.find((f) => f.key === d.figure) : rng.pick(DOT_FIGURES);
     if (!figure) throw new Error(`K-285: unknown figure ${d.figure}`);
     // step comes from the CONFIG. `dotFigure` has always accepted it, has always
@@ -42,7 +46,15 @@ module.exports = {
     // labels and the strip chips against `start + i*step` — the only thing pinning
     // this whole family to counting by ones was this literal. Defaulting to 1 keeps
     // every shipped coordinate byte-identical (b2-baseline: 0 drift).
-    const fig = dotFigure({ figure, count: d.count, step: d.step || 1, startAt: d.startAt, window: d.window, size: 560 });
+    // letters:true joins the dots in ALPHABET order instead of number order —
+    // a different ordering system, and a genuine pre-K/K printable genre. The
+    // sequence comes from the locale's own PRINTED strip (COLLATION), not from
+    // a-z, so Italian's 21 letters and the Nordic ae/oe/aa are honoured.
+    const alpha = d.letters
+      ? (COLLATION[loc] && COLLATION[loc].strip ? [...COLLATION[loc].strip] : null)
+      : null;
+    if (d.letters && (!alpha || alpha.length < d.count)) throw new Error(`K-285: ${loc} strip has ${alpha ? alpha.length : 0} letters < ${d.count}`);
+    const fig = dotFigure({ figure, count: d.count, step: d.step || 1, startAt: d.startAt, window: d.window, size: 560, values: alpha ? alpha.slice(0, d.count) : null });
     const values = fig.labels;
     const strip = numberStrip({ values, chip: d.chip });
     return {
@@ -68,6 +80,15 @@ module.exports = {
       const labels = [...svg.querySelectorAll('[data-lcs-label]')];
       if (labels.length !== count) fails.push(`${labels.length} labels, want ${count}`);
       const texts = labels.map((l) => l.textContent.trim());
+      // ⚠ Both label checks coerce with unary + and yield NaN on letters, so an
+      // alphabet page would report every label as wrong. In alpha mode the
+      // sequence itself is the contract: the labels must be strictly ascending
+      // in the locale's own collation, which is what joining a..t means.
+      if (svg.dataset.lcsLabelmode === 'alpha') {
+        for (let i = 1; i < texts.length; i++) {
+          if (!(texts[i - 1].localeCompare(texts[i], document.documentElement.lang || 'en') < 0)) fails.push(`labels ${texts[i - 1]} -> ${texts[i]} are not in alphabet order`);
+        }
+      } else
       texts.forEach((t, i) => { if (+t !== start + i * step) fails.push(`label ${i + 1} reads ${t}, want ${start + i * step}`); });
       if (new Set(texts).size !== texts.length) fails.push('duplicate labels');
       // exactly one coral (ringed) start dot = dot 1
@@ -126,6 +147,11 @@ module.exports = {
       // strip chips = the label values
       const chips = [...document.querySelectorAll('[data-lcs-strip-value]')].map((c) => +c.dataset.lcsStripValue);
       if (chips.length !== count) fails.push(`strip has ${chips.length} chips`);
+      if (svg.dataset.lcsLabelmode === 'alpha') {
+        const rawChips = [...document.querySelectorAll('[data-lcs-strip-value]')].map((c) => String(c.dataset.lcsStripValue));
+        const t2 = [...svg.querySelectorAll('[data-lcs-label]')].map((n) => n.textContent.trim());
+        if (rawChips.join('|') !== t2.join('|')) fails.push('strip does not match the figure labels');
+      } else
       chips.forEach((v, i) => { if (v !== start + i * step) fails.push(`strip chip ${i + 1} = ${v}`); });
       return fails;
     });

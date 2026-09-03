@@ -401,6 +401,23 @@ const ROWS = [
   // 8x8 figures fill 29-36 (too much).
   ['g2', 'G2-308', 'grid-coordinates-write-the-codes', 'G2-279-grid-coordinates.js', 1, { inverse: true },
     'Grid Coordinates: Write the Codes', 'The picture is already colored. Write the letter and number of every colored square.'],
+
+  // ABC dot-to-dot: the dots are joined in ALPHABET order, not number order — a
+  // different ordering system and a genuine pre-K/K printable genre. The sequence
+  // comes from each locale's own PRINTED strip, so Italian's 21 letters and the
+  // Nordic ae/oe/aa are honoured rather than an a-z assumption.
+  ['k', 'K-309', 'dot-to-dot-abc-order', 'K-285-dot-to-dot.js', 1, { letters: true, window: null, chip: 30 },
+    'ABC Dot-to-Dot', 'Join the dots in alphabet order to find the hidden picture.'],
+
+  // run-on sentences: the broken pill holds TWO sentences joined, all marks
+  // stripped, so the child must decide where the first one ENDS before
+  // capitalising anything. A different noticing from restoring a mark you can
+  // see is missing, and the L.2.2 run-on lesson teachers print on its own.
+  // Pool measured: the '.'-ended fix frames number 10-12 per locale against the
+  // 6 distinct frames three paired lanes need.
+  ['g2', 'G2-307', 'fix-the-sentence-where-does-it-end', 'G2-274-fix-the-sentence.js', 2,
+    { joinPairs: true, lanes: 3, ends: ['.'], needCaps: 1, rulH: 80 },
+    'Fix the Sentence: Where Does It End?', 'Two sentences have run together. Write them again as two sentences.'],
 ];
 
 function emit(row) {

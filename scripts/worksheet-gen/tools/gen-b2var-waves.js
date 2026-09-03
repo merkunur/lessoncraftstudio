@@ -45,7 +45,7 @@ const THEME = {
   // "{name} feeds the {noun}" frame has no animacy gate and rendered
   // "tom feeds the skateboard". Every frame is safe on animals.
   // G2-274 capitals-punctuation (base ships vehicles)
-  'G2-281': 'animals', 'G2-282': 'fruits',
+  'G2-281': 'animals', 'G2-282': 'fruits', 'G2-307': 'animals',
   // G2-275 word-classes (base ships toys)
   'G2-285': 'animals', 'G2-286': 'fruits', 'G2-287': 'vehicles', 'G1-293': 'toys',
   // G2-276 money (base ships fruits)
@@ -95,7 +95,7 @@ const THEMELESS = [
   'G2-296', 'G2-297', 'G2-298',                    // calendar
   'G2-302', 'G2-303', 'G2-308',                    // grid-coordinates
   // ── wave 2 ───────────────────────────────────────────────────────────────
-  'K-308', 'G1-285', 'G1-294', 'G2-304',           // dot-to-dot (step knob)
+  'K-308', 'K-309', 'G1-285', 'G1-294', 'G2-304',  // dot-to-dot (step + letters)
   'G1-295', 'G2-305', 'G2-310',                    // number-lines (min knob)
 ];
 

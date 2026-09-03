@@ -77,7 +77,10 @@ function placeLabels(pts, poly100, scale, dotR, marks, size) {
 }
 function norm([x, y]) { const L = Math.hypot(x, y) || 1; return [x / L, y / L]; }
 
-function dotFigure({ figure, count, step = 1, startAt = 1, window = null, size = 560 }) {
+// `values` (optional): an explicit label sequence, used when the dots are joined
+// in an order that is not numeric — the alphabet page joins a..t. When absent the
+// labels are computed as before, so every shipped coordinate is unchanged.
+function dotFigure({ figure, count, step = 1, startAt = 1, window = null, size = 560, values = null }) {
   const t = tokens;
   const pts100 = subdivide(figure.pts, count);
   if (!pts100 || pts100.length !== count) throw new Error(`dotFigure: ${figure.key} cannot resample to ${count}`);
@@ -116,7 +119,7 @@ function dotFigure({ figure, count, step = 1, startAt = 1, window = null, size =
   const labelValues = [];
   for (let k = 0; k < labelled; k++) {
     const [x, y] = pts[k];
-    const v = startAt + k * step;
+    const v = values ? values[k] : startAt + k * step;
     labelValues.push(v);
     if (k === 0) {
       parts.push(circle({ cx: x, cy: y, r: 10, fill: 'none', strokeColor: t.color.coral, strokeWidth: 2 }));
@@ -134,7 +137,7 @@ function dotFigure({ figure, count, step = 1, startAt = 1, window = null, size =
   return {
     svg: svgRoot({ width: W, height: W, label: `dot to dot picture` }, parts.join(''), {
       'data-lcs-prim': 'dot-figure', 'data-lcs-figure': figure.key, 'data-lcs-count': labelled,
-      'data-lcs-step': step, 'data-lcs-start': startAt, ...(window ? { 'data-lcs-window': window } : {}),
+      'data-lcs-step': step, 'data-lcs-start': startAt, ...(values ? { 'data-lcs-labelmode': 'alpha' } : {}), ...(window ? { 'data-lcs-window': window } : {}),
     }),
     points: pts, labels: labelValues, width: W, height: W,
   };

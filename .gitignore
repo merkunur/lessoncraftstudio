@@ -284,3 +284,9 @@ docs/seo-per-page/deck-facts/
 # file, and this repo already treats an accidental add as a real hazard (see the
 # tracked-live-docroot note for frontend/public/images).
 scratchpad/
+
+# scroll-craft plugin workspace (builds/, lab/, FINGERPRINTS.md). Generated
+# output from the nateherk-design scroll-craft skill; resolved here because the
+# script picks the nearest ancestor holding .git. Not source, and regenerable
+# via `node .../skills/scroll-craft/scripts/workspace.mjs --ensure`.
+scrollcraft/

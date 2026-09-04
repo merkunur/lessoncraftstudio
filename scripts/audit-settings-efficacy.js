@@ -1150,74 +1150,85 @@ async function auditSurface(browser, surface, state, PORT) {
       continue;
     }
 
-    /* real transitions */
+    /* ⚠⚠ CONFIRM A DEAD, THE WAY YOU WOULD CONFIRM A POSITIVE.
+       letter-studio's `wide` read LIVE on its own and DEAD inside the
+       sweep, from the same code — it renders nothing at all and shows
+       only in how a traced stroke is graded (:780), so under load the
+       drive sometimes fails to reach the state where the two corridor
+       widths differ. A verdict that depends on how busy the machine is
+       is not a verdict, and DEAD is the accusing one. So the whole
+       evidence pass runs a second time before anything is called dead;
+       it costs nothing on the 112 fields that pass first time. */
     let live = null;
-    for (let o = 0; o < nOpts && !live; o++) {
-      if (fields[i].chips && o === fields[i].checked) continue;   /* that is the null transition */
-      const t = await trace(browser, surface, state, PORT, [{ field: i, opt: o }], schema.hasTasks ? f.key : null, probe, pace);
-      if (!t) continue;
-      if (restStable && !sameTrace(n1.atRest, t.atRest)) live = { how: 'at rest', ch: whichChannel(n1.atRest, t.atRest), t };
-      else if (useStable && !sameTrace(n1.afterUse, t.afterUse)) live = { how: 'after use', ch: whichChannel(n1.afterUse, t.afterUse), t };
-      else if (lateStable && !sameTrace(n1.afterUseLate, t.afterUseLate)) live = { how: 'after use, once it settles', ch: whichChannel(n1.afterUseLate, t.afterUseLate), t };
-    }
-
-    /* pass 2b — the quantity threshold. Only for fields nothing else
-       reached, and only three control classes deep, so the cost lands on
-       the handful of settings that need it. */
-    if (!live && (useStable || lateStable)) {
-      const verbs = await discoverVerbs(browser, surface, state, PORT);
-      for (const g of verbs) {
-        if (live) break;
-        const b = await trace(browser, surface, state, PORT, [{ field: i, opt: null }], null, probe, pace, g);
-        if (!b || !b.afterUse) continue;
-        for (let o = 0; o < nOpts && !live; o++) {
-          if (fields[i].chips && o === fields[i].checked) continue;
-          const t = await trace(browser, surface, state, PORT, [{ field: i, opt: o }], null, probe, pace, g);
-          if (t && t.afterUse && useStable && !sameTrace(b.afterUse, t.afterUse))
-            live = { how: 'after repeated use', ch: whichChannel(b.afterUse, t.afterUse), t };
-          else if (t && t.afterUseLate && lateStable && !sameTrace(b.afterUseLate, t.afterUseLate))
-            live = { how: 'after repeated use, once it settles', ch: whichChannel(b.afterUseLate, t.afterUseLate), t };
-        }
+    for (let attempt = 0; attempt < 2 && !live; attempt++) {
+      for (let o = 0; o < nOpts && !live; o++) {
+        if (fields[i].chips && o === fields[i].checked) continue;   /* that is the null transition */
+        const t = await trace(browser, surface, state, PORT, [{ field: i, opt: o }], schema.hasTasks ? f.key : null, probe, pace);
+        if (!t) continue;
+        if (restStable && !sameTrace(n1.atRest, t.atRest)) live = { how: 'at rest', ch: whichChannel(n1.atRest, t.atRest), t };
+        else if (useStable && !sameTrace(n1.afterUse, t.afterUse)) live = { how: 'after use', ch: whichChannel(n1.afterUse, t.afterUse), t };
+        else if (lateStable && !sameTrace(n1.afterUseLate, t.afterUseLate)) live = { how: 'after use, once it settles', ch: whichChannel(n1.afterUseLate, t.afterUseLate), t };
       }
-    }
 
-    /* pass 2c — the same comparison, with the drag verb switched on. */
-    if (!live && (useStable || lateStable)) {
-      const b = await trace(browser, surface, state, PORT, [{ field: i, opt: null }], null, probe, pace, undefined, true);
-      if (b) {
-        for (let o = 0; o < nOpts && !live; o++) {
-          if (fields[i].chips && o === fields[i].checked) continue;
-          const t = await trace(browser, surface, state, PORT, [{ field: i, opt: o }], null, probe, pace, undefined, true);
-          if (!t) continue;
-          if (b.afterUse && t.afterUse && !sameTrace(b.afterUse, t.afterUse)) live = { how: 'after a drag', ch: whichChannel(b.afterUse, t.afterUse), t };
-          else if (b.afterUseLate && t.afterUseLate && !sameTrace(b.afterUseLate, t.afterUseLate)) live = { how: 'after a drag, once it settles', ch: whichChannel(b.afterUseLate, t.afterUseLate), t };
-        }
-      }
-    }
-
-    /* paired depth — a field can be genuinely unable to act until a
-       SIBLING moves (a counter colour cannot show while the counter is a
-       picture). Refusing to look deeper is what makes such a control
-       look dead forever. */
-    if (!live) {
-      outer:
-      for (let j = 0; j < schema.settings.length; j++) {
-        if (j === i) continue;
-        const nj = fields[j].chips || 2;
-        for (let oj = 0; oj < nj; oj++) {
-          if (fields[j].chips && oj === fields[j].checked) continue;
-          const base = await trace(browser, surface, state, PORT, [{ field: j, opt: oj }, { field: i, opt: null }], null, probe, pace);
-          if (!base) continue;
-          for (let oi = 0; oi < nOpts; oi++) {
-            if (fields[i].chips && oi === fields[i].checked) continue;
-            const t = await trace(browser, surface, state, PORT, [{ field: j, opt: oj }, { field: i, opt: oi }], null, probe, pace);
-            if (!t) continue;
-            if (restStable && !sameTrace(base.atRest, t.atRest)) { live = { how: 'after ' + schema.settings[j].key, ch: whichChannel(base.atRest, t.atRest), t }; break outer; }
-            if (useStable && !sameTrace(base.afterUse, t.afterUse)) { live = { how: 'after ' + schema.settings[j].key, ch: whichChannel(base.afterUse, t.afterUse), t }; break outer; }
-            if (lateStable && !sameTrace(base.afterUseLate, t.afterUseLate)) { live = { how: 'after ' + schema.settings[j].key, ch: whichChannel(base.afterUseLate, t.afterUseLate), t }; break outer; }
+      /* pass 2b — the quantity threshold. Only for fields nothing else
+         reached, and only three control classes deep, so the cost lands on
+         the handful of settings that need it. */
+      if (!live && (useStable || lateStable)) {
+        const verbs = await discoverVerbs(browser, surface, state, PORT);
+        for (const g of verbs) {
+          if (live) break;
+          const b = await trace(browser, surface, state, PORT, [{ field: i, opt: null }], null, probe, pace, g);
+          if (!b || !b.afterUse) continue;
+          for (let o = 0; o < nOpts && !live; o++) {
+            if (fields[i].chips && o === fields[i].checked) continue;
+            const t = await trace(browser, surface, state, PORT, [{ field: i, opt: o }], null, probe, pace, g);
+            if (t && t.afterUse && useStable && !sameTrace(b.afterUse, t.afterUse))
+              live = { how: 'after repeated use', ch: whichChannel(b.afterUse, t.afterUse), t };
+            else if (t && t.afterUseLate && lateStable && !sameTrace(b.afterUseLate, t.afterUseLate))
+              live = { how: 'after repeated use, once it settles', ch: whichChannel(b.afterUseLate, t.afterUseLate), t };
           }
         }
       }
+
+      /* pass 2c — the same comparison, with the drag verb switched on. */
+      if (!live && (useStable || lateStable)) {
+        const b = await trace(browser, surface, state, PORT, [{ field: i, opt: null }], null, probe, pace, undefined, true);
+        if (b) {
+          for (let o = 0; o < nOpts && !live; o++) {
+            if (fields[i].chips && o === fields[i].checked) continue;
+            const t = await trace(browser, surface, state, PORT, [{ field: i, opt: o }], null, probe, pace, undefined, true);
+            if (!t) continue;
+            if (b.afterUse && t.afterUse && !sameTrace(b.afterUse, t.afterUse)) live = { how: 'after a drag', ch: whichChannel(b.afterUse, t.afterUse), t };
+            else if (b.afterUseLate && t.afterUseLate && !sameTrace(b.afterUseLate, t.afterUseLate)) live = { how: 'after a drag, once it settles', ch: whichChannel(b.afterUseLate, t.afterUseLate), t };
+          }
+        }
+      }
+
+      /* paired depth — a field can be genuinely unable to act until a
+         SIBLING moves (a counter colour cannot show while the counter is a
+         picture). Refusing to look deeper is what makes such a control
+         look dead forever. */
+      if (!live) {
+        outer:
+        for (let j = 0; j < schema.settings.length; j++) {
+          if (j === i) continue;
+          const nj = fields[j].chips || 2;
+          for (let oj = 0; oj < nj; oj++) {
+            if (fields[j].chips && oj === fields[j].checked) continue;
+            const base = await trace(browser, surface, state, PORT, [{ field: j, opt: oj }, { field: i, opt: null }], null, probe, pace);
+            if (!base) continue;
+            for (let oi = 0; oi < nOpts; oi++) {
+              if (fields[i].chips && oi === fields[i].checked) continue;
+              const t = await trace(browser, surface, state, PORT, [{ field: j, opt: oj }, { field: i, opt: oi }], null, probe, pace);
+              if (!t) continue;
+              if (restStable && !sameTrace(base.atRest, t.atRest)) { live = { how: 'after ' + schema.settings[j].key, ch: whichChannel(base.atRest, t.atRest), t }; break outer; }
+              if (useStable && !sameTrace(base.afterUse, t.afterUse)) { live = { how: 'after ' + schema.settings[j].key, ch: whichChannel(base.afterUse, t.afterUse), t }; break outer; }
+              if (lateStable && !sameTrace(base.afterUseLate, t.afterUseLate)) { live = { how: 'after ' + schema.settings[j].key, ch: whichChannel(base.afterUseLate, t.afterUseLate), t }; break outer; }
+            }
+          }
+        }
+      }
+
     }
 
     const excused = (KNOWN_UNPROVABLE[surface.id] || {})[f.key];

@@ -146,6 +146,9 @@ const KNOWN_UNPROVABLE = {
     voice: 'speaks only from the running-timer callbacks',
     chime: 'sounds only from the running-timer callbacks'
   },
+  'letter-studio': {
+    wide: 'it renders NOTHING — it only widens the corridor a traced stroke is judged against (:780, :1643) — so the difference appears only when a stroke lands between the two widths. Measured LIVE in isolation, twice, and DEAD inside a full sweep: the harness reaches that state, but not reliably enough to accuse the tool on'
+  },
   'rekenrek': {
     flashDuration: 'the setting IS a duration — the two values differ only in how long the veil stays, so any window short enough to be practical sees the same board'
   },

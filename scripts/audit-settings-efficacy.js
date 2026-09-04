@@ -814,7 +814,7 @@ async function settledSig(page, minMs) {
 /* one measurement: fresh page → open drawer → set field i to option j
    (null = re-commit the current value) → measure at rest → exercise →
    measure again. Returns both, plus the value the tool now holds. */
-async function trace(browser, surface, state, PORT, sets, key, probe, pace, depth) {
+async function trace(browser, surface, state, PORT, sets, key, probe, pace, depth, withDrag) {
   const page = await openPage(browser, surface, state, PORT, probe && probe.url);
   try {
     if (!(await page.evaluate(() => window.__openDrawer()))) return null;
@@ -839,7 +839,14 @@ async function trace(browser, surface, state, PORT, sets, key, probe, pace, dept
     try {
       await page.evaluate((n, g, sk, dg) => window.__exercise(n, g, sk, dg), EXERCISE, pace || 0, NAV_SKIP[surface.id] || [], (typeof depth === 'string' ? depth : null));
       await wait(SETTLE);
-      /* ⚠ AND A REAL DRAG IS A THIRD VERB. open-number-line consults
+      /* ⚠ A REAL DRAG IS A THIRD VERB — AND IT IS ADDITIVE, NOT DEFAULT.
+         Running it on every trace REGRESSED letter-studio's `wide`, which
+         had passed the previous sweep: dragging across the letter changes
+         the state the corridor width is judged in, so a verb added to
+         reach one setting took another away. A new verb may only ADD
+         reach, so it runs in the fallback pass, after the plain one has
+         had its say.
+         ⚠ AND A REAL DRAG IS A THIRD VERB. open-number-line consults
          `snap` ONLY inside a drag (:1258) — `self._drag` is set by
          pointerdown and read by pointermove — so neither a click nor the
          keyboard path can reach it, and the setting read dead. Synthetic
@@ -847,14 +854,14 @@ async function trace(browser, surface, state, PORT, sets, key, probe, pace, dept
          Two candidates is enough to find a draggable one and cheap
          enough to run on every trace, and it is symmetric across the
          baseline and the variant so the control still holds. */
-      const boxes = await page.evaluate(() => {
+      const boxes = withDrag ? await page.evaluate(() => {
         const st = document.querySelector('.lcs-stage') || document.querySelector('.lcs-app');
         if (!st) return [];
         return Array.prototype.filter.call(st.querySelectorAll('button, [role="button"], [tabindex]'), (e) => {
           const r = e.getBoundingClientRect();
           return r.width > 6 && r.height > 6 && !e.disabled && !e.closest('.lcs-drawer') && !e.closest('.lcs-controls');
         }).slice(0, 2).map((e) => { const r = e.getBoundingClientRect(); return { x: r.x + r.width / 2, y: r.y + r.height / 2 }; });
-      });
+      }) : [];
       for (const b of boxes) {
         try {
           await page.mouse.move(b.x, b.y);
@@ -1170,6 +1177,20 @@ async function auditSurface(browser, surface, state, PORT) {
             live = { how: 'after repeated use', ch: whichChannel(b.afterUse, t.afterUse), t };
           else if (t && t.afterUseLate && lateStable && !sameTrace(b.afterUseLate, t.afterUseLate))
             live = { how: 'after repeated use, once it settles', ch: whichChannel(b.afterUseLate, t.afterUseLate), t };
+        }
+      }
+    }
+
+    /* pass 2c — the same comparison, with the drag verb switched on. */
+    if (!live && (useStable || lateStable)) {
+      const b = await trace(browser, surface, state, PORT, [{ field: i, opt: null }], null, probe, pace, undefined, true);
+      if (b) {
+        for (let o = 0; o < nOpts && !live; o++) {
+          if (fields[i].chips && o === fields[i].checked) continue;
+          const t = await trace(browser, surface, state, PORT, [{ field: i, opt: o }], null, probe, pace, undefined, true);
+          if (!t) continue;
+          if (b.afterUse && t.afterUse && !sameTrace(b.afterUse, t.afterUse)) live = { how: 'after a drag', ch: whichChannel(b.afterUse, t.afterUse), t };
+          else if (b.afterUseLate && t.afterUseLate && !sameTrace(b.afterUseLate, t.afterUseLate)) live = { how: 'after a drag, once it settles', ch: whichChannel(b.afterUseLate, t.afterUseLate), t };
         }
       }
     }

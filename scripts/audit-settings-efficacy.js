@@ -126,7 +126,44 @@ const STATES = STATE_SEL === 'all' ? ALL_STATES : ALL_STATES.filter(s => STATE_S
    starts empty on purpose: entries are earned by a run that proves the
    need. */
 const KNOWN_UNPROVABLE = {
-  /* 'surface-id': { fieldKey: 'why no probe can observe it' } */
+  /* ⚠ AN ENTRY HERE DOES NOT MEAN "FINE". It means the harness cannot
+     reach the state where the setting acts, and each one carries the
+     guard that makes it unreachable, verified in the source. They are
+     reported as UNPROVEN — counted and visible — never as a pass, so the
+     number can only be argued down, not hidden. The list may only shrink;
+     never add an entry to make a run green. */
+  'open-number-line': {
+    snap: 'consulted only inside a pointer drag (:1258, `self._drag`), on a surface the harness cannot grab — click, keyboard and a synthetic mouse drag all miss it'
+  },
+  'name-sticks': {
+    speak: 'the draw returns early on an empty jar (:300-305), and the harness cannot type a class roster',
+    think: 'same empty-jar early return as speak',
+    rattle: 'same empty-jar early return as speak'
+  },
+  'class-timer': {
+    oneMin: 'fires only when a RUNNING timer crosses 60s remaining on a duration over 90s (:266)',
+    half: 'same running-timer threshold as oneMin',
+    voice: 'speaks only from the running-timer callbacks',
+    chime: 'sounds only from the running-timer callbacks'
+  },
+  'rekenrek': {
+    flashDuration: 'the setting IS a duration — the two values differ only in how long the veil stays, so any window short enough to be practical sees the same board'
+  },
+  'our-day': {
+    voice: 'gated on premium AND _voiceOk() AND a card action on a configured day (:1027)',
+    soundCues: '_note() is reached only from the advance/warn sound path (:1047)',
+    warnFirst: 'read inside advance() (:1110), which needs a configured day plan the harness cannot author'
+  },
+  'number-talk-easel': {
+    speakOnReveal: 'read in the reveal path (:1124), which needs a flashed image set',
+    objectTheme: 'read while painting the object set (:806, :1455), which needs that set on screen'
+  },
+  'story-line': {
+    tapPace: 'read in the tap-pace playback (:625), which needs a built story line'
+  },
+  'syllable-splitter': {
+    voice: 'speaks only after a word is sealed (:1172)'
+  }
 };
 
 /* ⚠ A PROBE ADDS REACH. IT NEVER RELAXES THE CRITERION. The comparison
@@ -136,6 +173,18 @@ const KNOWN_UNPROVABLE = {
    reason must name the code that makes the observable unreachable
    otherwise — if it cannot, the honest verdict is DEAD, not a probe. */
 const PROBES = {
+  /* letter-tiles' three settings all live in PROMPT mode: `guides` is
+     gated on `mode !== 'prompt'` (:1068), `speakOnCheck` needs the Check
+     that only prompt mode has (:886), and `tileSound` needs a tile that
+     carries an anchor word. Prompt mode is entered with a word list, and
+     the tool accepts one as a deep link (`?list=`, :142) whose ids are
+     the sound-boxes bank stages. Reach, not a relaxation: the comparison
+     is unchanged, the tool is simply opened where a teacher would be. */
+  'letter-tiles': {
+    guides: { url: '&list=s1', why: 'guides is a no-op outside prompt mode (:1068)' },
+    speakOnCheck: { url: '&list=s1', why: 'the Check it hangs off exists only in prompt mode (:886)' },
+    tileSound: { url: '&list=s1', why: 'needs a tile carrying an anchor word (:567)' }
+  },
   'class-graph': {
     pop: {
       finalClick: '.cgr-vote',
@@ -599,7 +648,23 @@ function pageBoot(state, poison) {
           done(hit);
           return;
         }
-        try { order[i].click(); hit++; } catch (_) {}
+        /* ⚠ CLICK IS NOT THE ONLY VERB, and the sibling gate learned this
+           the same way: open-number-line's `snap` is consulted only
+           inside a DRAG (:1258), so a click-only drive can never reach
+           it and called a working setting dead. Sending the accessible
+           path after the click costs nothing on controls that ignore it
+           and reaches every drag-driven one that is keyboard-operable —
+           which is also, conveniently, the only ones a child using a
+           keyboard can operate at all. */
+        try { order[i].click(); } catch (_) {}
+        try {
+          order[i].focus();
+          ['Enter', ' ', 'ArrowRight', 'ArrowRight'].forEach(function (k) {
+            order[i].dispatchEvent(new KeyboardEvent('keydown', { key: k, bubbles: true, cancelable: true }));
+            order[i].dispatchEvent(new KeyboardEvent('keyup', { key: k, bubbles: true, cancelable: true }));
+          });
+        } catch (_) {}
+        hit++;
         i++;
         setTimeout(step, gap || 0);
       }());
@@ -668,7 +733,7 @@ function pageBoot(state, poison) {
 }
 
 /* ---------------------------------------------------------- page helper */
-async function openPage(browser, surface, state, PORT) {
+async function openPage(browser, surface, state, PORT, urlExtra) {
   const page = await browser.newPage();
   await page.setViewport({ width: 1024, height: 900 });
   await page.setCacheEnabled(false);
@@ -694,7 +759,7 @@ async function openPage(browser, surface, state, PORT) {
     return r.continue();
   });
   await page.evaluateOnNewDocument(pageBoot, state, POISON);
-  await page.goto(`http://127.0.0.1:${PORT}${surface.url}`, { waitUntil: 'domcontentloaded' });
+  await page.goto(`http://127.0.0.1:${PORT}${surface.url}${urlExtra || ''}`, { waitUntil: 'domcontentloaded' });
   await page.waitForSelector('.lcs-app', { timeout: 12000 });
   await wait(950);   /* async manifest / theme fetches settle */
   loaded = true;
@@ -750,7 +815,7 @@ async function settledSig(page, minMs) {
    (null = re-commit the current value) → measure at rest → exercise →
    measure again. Returns both, plus the value the tool now holds. */
 async function trace(browser, surface, state, PORT, sets, key, probe, pace, depth) {
-  const page = await openPage(browser, surface, state, PORT);
+  const page = await openPage(browser, surface, state, PORT, probe && probe.url);
   try {
     if (!(await page.evaluate(() => window.__openDrawer()))) return null;
     await wait(180);
@@ -773,6 +838,32 @@ async function trace(browser, surface, state, PORT, sets, key, probe, pace, dept
     let afterUse = null, afterUseLate = null;
     try {
       await page.evaluate((n, g, sk, dg) => window.__exercise(n, g, sk, dg), EXERCISE, pace || 0, NAV_SKIP[surface.id] || [], (typeof depth === 'string' ? depth : null));
+      await wait(SETTLE);
+      /* ⚠ AND A REAL DRAG IS A THIRD VERB. open-number-line consults
+         `snap` ONLY inside a drag (:1258) — `self._drag` is set by
+         pointerdown and read by pointermove — so neither a click nor the
+         keyboard path can reach it, and the setting read dead. Synthetic
+         clicks cannot produce a drag; the mouse has to actually move.
+         Two candidates is enough to find a draggable one and cheap
+         enough to run on every trace, and it is symmetric across the
+         baseline and the variant so the control still holds. */
+      const boxes = await page.evaluate(() => {
+        const st = document.querySelector('.lcs-stage') || document.querySelector('.lcs-app');
+        if (!st) return [];
+        return Array.prototype.filter.call(st.querySelectorAll('button, [role="button"], [tabindex]'), (e) => {
+          const r = e.getBoundingClientRect();
+          return r.width > 6 && r.height > 6 && !e.disabled && !e.closest('.lcs-drawer') && !e.closest('.lcs-controls');
+        }).slice(0, 2).map((e) => { const r = e.getBoundingClientRect(); return { x: r.x + r.width / 2, y: r.y + r.height / 2 }; });
+      });
+      for (const b of boxes) {
+        try {
+          await page.mouse.move(b.x, b.y);
+          await page.mouse.down();
+          await page.mouse.move(b.x + 34, b.y, { steps: 6 });
+          await page.mouse.move(b.x + 68, b.y, { steps: 6 });
+          await page.mouse.up();
+        } catch (_) { /* off-screen or detached — the other verbs still ran */ }
+      }
       await wait(SETTLE);
       if (probe && probe.finalClick) {
         await page.evaluate((sel) => {
@@ -1046,7 +1137,7 @@ async function auditSurface(browser, surface, state, PORT) {
     }
     if (!restStable && !useStable && !lateStable) {
       const excused = (KNOWN_UNPROVABLE[surface.id] || {})[f.key];
-      if (excused) { ok(`${tag}: ${name} excused — ${excused}`); continue; }
+      if (excused) { unk(`${tag}: ${name} — the harness cannot reach it: ${excused}`); continue; }
       unk(`${tag}: ${name} — re-committing the SAME value twice gives two different boards (${whichChannel(n1.atRest, n2.atRest)}/${whichChannel(n1.afterUse, n2.afterUse)}); this tool churns under re-render, so a diff here would prove nothing`);
       findings.push({ surface: surface.id, state: state.id, key: f.key, verdict: 'UNPROVEN-CHURN' });
       continue;
@@ -1119,7 +1210,8 @@ async function auditSurface(browser, surface, state, PORT) {
         ok(`${tag}: ${name} changes the board via ${live.ch} (${live.how}${probe ? ', via probe' : ''})`);
       }
     } else if (excused) {
-      ok(`${tag}: ${name} excused — ${excused}`);
+      unk(`${tag}: ${name} — the harness cannot reach it: ${excused}`);
+      findings.push({ surface: surface.id, state: state.id, key: f.key, verdict: 'UNPROVEN-UNREACHED' });
     } else if (!restStable || !useStable || !lateStable) {
       /* ⚠ DEAD MEANS "IT MOVED NOTHING ANYWHERE I COULD LOOK", AND THAT
          SENTENCE IS ONLY HONEST IF EVERY PHASE WAS READABLE. With one

@@ -1,12 +1,14 @@
 # CLAUDE.md — LessonCraftStudio Interactive Worksheets Platform
 
-**Version:** 3.8 (adds the §20.9 [ACTIVE — pt-BR SECOND-BATCH FAN-OUT] record — the current "continue" loop, #1–#47 shipped, #48 = vet-diagnosis next; §23 Premium Tools v4 remains the "build the next tool" thrust) **Last updated:** 2026-08-18
+**Version:** 3.9 (adds §24 — the 200 K-3 games BUILD program, trigger "build the next game"; 3.8 added the §20.9 [ACTIVE — pt-BR SECOND-BATCH FAN-OUT] record — the current "continue" loop, #1–#47 shipped, #48 = vet-diagnosis next; §23 Premium Tools v4 remains the "build the next tool" thrust) **Last updated:** 2026-09-05
 
 > **Companion-docs convention (v3.6).** This file was ~halved by *relocating* (never deleting) the justification layer — commit-hash anchors, worked examples, code snippets, historical narration, and code-implemented reference specs — into git-tracked companions under `docs/claude-md/`. Each terse section keeps its forward-rule + cross-refs + a `→ docs/claude-md/<file>` pointer. The companions: `verification-hygiene.md` (§A.13), `scaling-audit.md` (§A.14), `deck-html-seo-surface.md` (§17.8), `catalog-pipeline.md` (§15 + §14 helpers/gotchas/bundles), `site-topic-export-detail.md` (§14.4 / §16.5.1 / §17.4.3 / §17.5-6 / §18.4), `topic-and-i18n-detail.md` (§16.7 / §16.8 / §17.10), `activities-detail.md` (§20.7), `misc-detail.md` (§11 / §17.1 / §20.3 / §21 tables / §22.2-3 / §A.7.x), **`premium-tools-v4.md` (§23 — the twenty instruments, the fence, the closed strands, the rejected list, the per-tool build recipe)**. When a terse entry isn't enough, read its companion. Working-recall SoT for activities/landing stays the `memory/` + plan files.
 
 ---
 
 ## [AMENDMENT 2026-06-19 — ❌ CANCELLED, superseded; DO NOT START] Premium games program
+
+> **⚠ SUPERSEDED AGAIN 2026-09-05 — the games program is RE-OPENED as a build-by-Claude program (§24).** The operator ruled "No decision is absolute": 200 K-3 games were DESIGNED (`games/design/`, 200 specs) and are now BUILT one per trigger by Claude Code. The cancellation below and the §20.9 "let's start building the games" trigger remain dead history; **the live trigger is "build the next game" → §24 (`games/BUILD-WORKFLOW.md`)**. The old premium `game-shell.js` / `game-designs/` scaffold is NOT the basis — `games/` is.
 
 > **❌ CANCELLED FOREVER by the operator ("there will never be games"), recorded in `MEMORY.md` +
 > `memory/project_games_build_walk.md`.** This section is retained as history only. The text below
@@ -228,6 +230,7 @@ frontend/
 apps/                                       # existing 33 apps; gain Export to catalog
 mac-studio-service/{enrichment-worker,lesson-plan-generator,prompts}/  # NEW
 publish-cli/                                # NEW; runs on PC
+games/                                      # §24 — the 200 K-3 Phaser games: _lib/ _tools/ _test/ design/ <slug>/index.html; _qa/ + *.png gitignored
 ```
 
 ### 8.3 Self-contained interactive deck format
@@ -1495,6 +1498,37 @@ The 5 registration points are §21.5; **`frontend/config/live-tool-slugs.ts` is 
 **Closed strands — do not re-propose:** time · money · capacity/weight/non-standard length · all corpus science (the repo proves the art does not exist) · puzzles-with-a-solution (they fail gate 5 — solving ends the interaction). The **rejected list with reasons** (Pin Board, Standing Line, Pairing Rail, Fold-and-Cut, Number String, Same/Different, a generic slow-reveal runtime, Clothesline Math, Ten Bridge, Compass Rose…) is in the companion — read it before proposing anything new. **C4 The Splitting Key is corpus-blocked** until `object-attributes.json` is reviewed past 456/933.
 
 **Positioning constraint (marketing, not engineering):** these routines are **"research-based, NOT evidence-based"** — zero efficacy studies exist for WODB / Splat! / Esti-Mysteries / Notice-and-Wonder / Estimation180 / choral counting. Never claim an effect size they do not have. Subitizing is the one genuine exception, and `number-talk-easel` already implements it.
+
+---
+
+## 24. The 200 K-3 games — BUILD program (ACTIVE 2026-09-05; "build the next game")
+
+**SoT = `games/BUILD-WORKFLOW.md`** (the routine, the ensemble prompts, the gates, the hand-over) + **`games/BUILD-LOG.md`** (the `NEXT:` pointer + build order + per-game record) + **`games/ART-BIBLE.md`** (the one visual language). Read those three on every trigger; this section only routes.
+
+### 24.0 ⭐ Trigger disambiguation — three different loops
+| Operator says | Go to |
+|---|---|
+| **"build the next game"** / "build game NNN" / "build <slug>" | **THIS** — `games/BUILD-WORKFLOW.md` |
+| "build the next tool" / "build the next one" / "continue with the tools" | **§23** Premium Tools v4 |
+| "continue" (in plan mode) | **§20.9** pt-BR activity fan-out |
+
+### 24.1 What is fixed (operator rulings 2026-09-05)
+- **Claude Code builds the games** (the "local model" plan is dropped) — one game per trigger, **in plan mode first**: an expert ensemble (pedagogue · educational content creator · game developer · art director, then artist · graphic designer · animation agent; `general-purpose` agents, ≤ 4 in flight) transforms the approved spec into a top-quality design; the operator approves; then the build.
+- **The spec (`games/design/specs/NNN-slug.md`) is the basis, not the ceiling** — objective, band, pattern, misconception responses, no-timer/no-lives/no-losing rules are invariant; item pools, art, motion and feel are raised. Catalogue row + spec are binding over any prompt written from memory.
+- **All 11 locales, always** (STRINGS ×11, LOCALE_DATA ×11 native-authored; BUILD-CONVENTIONS §17). **Inline SVG art only** (`_lib/art.js` shared library + `GameCore.drawArt`; no emoji on the play surface; no binary assets). **Visual quality is the headline requirement** — ART-BIBLE §8 (14-point critic rubric) is graded on the full screenshot sweep.
+- **Gates in order, none skippable, no threshold ever moved:** `_tools/check-build.js` → `_tools/qa-game.js` (11 locales × never-auto-start × full session with a wrong answer on every item × targets ≥ 44 px × screenshots 400/704/1024) → visual-critic agent on EVERY screenshot → **I read 704 + 1024 myself** → pedagogue sign-off → `_tools/build-hub.js`.
+- **Local only; a local link after every build:** `node games/_tools/serve.js` → `http://localhost:8480/` (hub) + `http://localhost:8480/<slug>/index.html?lang=<xx>` ×11. **NO DEPLOY until all 200 are built** (deployment = a separate future commission: nginx `/games/` root + a Next wrapper that bills a play).
+- **Git:** `games/` is tracked (design + code + hub); `games/_qa/` and `games/**/*.png` are gitignored; commit with explicit paths, never `git add .`; push only when asked.
+
+### 24.2 Layout
+`games/_lib/` (theme · ui-strings · art · phaser-3.90.0 · game-core) · `games/_tools/` (serve · build-hub · check-build · qa-game · lint-specs · accept-batch · check-redundancy · report-stats) · `games/_test/` (demo.html · run-tests.js, 85 tests) · `games/design/` (brief · research · catalogue · 200 specs · FINAL-REPORT) · `games/<slug>/index.html` per built game · `games/index.html` the hub. Memory: [[project_games_build_200]].
+
+### 24.3 Traps already paid for (setup, 2026-09-05)
+- **Phaser runs `atob()` on EVERY `data:` URL** — an SVG data URL must be base64 (`LCSArt.dataUrl`); a percent-encoded one throws `InvalidCharacterError` and STALLS the scene's loader, so `create` never runs and the game silently stays on Boot. Found by the harness self-test, not by the unit tests (which never load through Phaser).
+- **`makeButton` returns the CONTAINER, not the api** — a test hook presses it with `emit("pointerdown")` + `emit("pointerup")`.
+- **A Phaser `preload` must be a wrapper** (`preload: function () { GameCore.preloadArt(this, ART); }`) — Phaser calls it with no arguments.
+- **Tag every harness error with WHERE it happened** (lang/width/phase) — an untagged "console errors during play" was undiagnosable across 14 page loads.
+- Shell heredocs eat `\n` and backslashes inside JS strings → write patch scripts to files; use the Edit tool for regex lines.
 
 ---
 

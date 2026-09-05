@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GameCore demo</title>
+
+  <!-- Fonts the theme expects. Relative note: this one URL is the
+       only absolute address; it is the webfont, not our code. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link id="webfont" rel="stylesheet" href="" />
+
+  <style>
+    /* Fixed pixel sizing on purpose. No vh units, no ResizeObserver.
+       See the three rules at the top of game-core.js. */
+    html, body { margin: 0; padding: 0; background: #FBF3E4; }
+    #game { width: 100%; }
+    canvas { display: block; margin: 0 auto; }
+  </style>
+</head>
+<body>
+  <div id="game"></div>
+
+  <!-- Load order matters: theme, then strings, then Phaser,
+       then our shared core, then the game itself. All relative. -->
+  <script src="../_lib/theme.js"></script>
+  <script src="../_lib/ui-strings.js"></script>
+  <script src="../_lib/art.js"></script>
+  <script src="../_lib/phaser-3.90.0.min.js"></script>
+  <script src="../_lib/game-core.js"></script>
+
+  <script>
+    // Point the stylesheet link at the theme's webfont URL.
+    document.getElementById("webfont").href = THEME.font.webfontUrl;
+
+    // Decide language / embed / sound from the page BEFORE Phaser.
+    // Try:  demo.html?lang=de   demo.html?embed=1   demo.html?sound=off
+    GameCore.init({ /* options.lang goes here if you want to force one */ });
+
+    // Test hook (BUILD-CONVENTIONS §16). Every built game exposes this contract; the demo
+    // exposes the subset the harness self-test needs.
+    var __scene = "Boot", __startBtn = null;
+    window.LCS_TEST = {
+      ready: function () { return __scene !== "" && !!__startBtn; },
+      scene: function () { return __scene; },
+      strings: function () { return { start: GameCore.t("start"), allDone: GameCore.t("all_done") }; },
+      start: function () { if (__startBtn && __scene === "Boot") { __startBtn.emit("pointerdown"); __startBtn.emit("pointerup"); } },
+      wrong: function () {},
+      correct: function () {},
+      targets: function () { return []; }
+    };
+    GameCore.reportHeight();
+
+    // A tiny ART registry for the drawArt example (kind "svg" via the shared library).
+    var DEMO_ART = { probe: { kind: "svg", value: LCSArt.get("_probe.dot"), size: 48 } };
+
+    // ---- Boot scene: the start screen (games never auto-start) ----
+    var Boot = new Phaser.Class({
+      Extends: Phaser.Scene,
+      initialize: function Boot() { Phaser.Scene.call(this, "Boot"); },
+      create: function () {
+        var self = this;
+        __scene = "Boot";
+        var ss = GameCore.makeStartScreen(this, "LessonCraft Demo", function () {
+          self.scene.start("Play");
+        });
+        __startBtn = ss.startButton;
+        GameCore.makeLanguagePicker(this, 20, 20);
+        GameCore.reportHeight();
+      }
+    });
+
+    // ---- Play scene: buttons, praise, a back button ----
+    var Play = new Phaser.Class({
+      Extends: Phaser.Scene,
+      initialize: function Play() { Phaser.Scene.call(this, "Play"); },
+      preload: function () { GameCore.preloadArt(this, DEMO_ART); },
+      create: function () {
+        var self = this;
+        __scene = "Play";
+        var cx = this.scale.width / 2;
+        // drawArt example: the library's test-only probe dot at (60, 60)
+        GameCore.drawArt(this, DEMO_ART, "probe", 60, 60);
+
+        this.add.text(cx, 90, GameCore.t("choose_answer"), {
+          fontFamily: THEME.font.display,
+          fontSize: "28px",
+          color: THEME.colour.ink.hex
+        }).setOrigin(0.5);
+
+        var praiseKeys = ["great_job", "well_done", "excellent", "you_did_it", "keep_going"];
+        var n = 0;
+
+        GameCore.makeButton(this, cx, 240, "play", function () {
+          GameCore.showPraise(self, praiseKeys[n++ % praiseKeys.length]);
+        });
+
+        GameCore.makeButton(this, cx, 240 + THEME.button.height + THEME.button.gap,
+          "restart", function () { self.scene.restart(); });
+
+        GameCore.makeButton(this, cx, 240 + 2 * (THEME.button.height + THEME.button.gap),
+          "menu", function () { self.scene.start("Boot"); });
+
+        // A live score line to show GameCore.t with values.
+        this.add.text(cx, 30, GameCore.t("question_x_of_y", { n: 3, total: 10 }), {
+          fontFamily: THEME.font.body,
+          fontSize: "18px",
+          color: THEME.colour.inkSoft.hex
+        }).setOrigin(0.5);
+
+        // A row of tap tiles (makeTile): tap one to select it, hear a tone,
+        // and watch it pop via a declared ANIM entry. Tab/Enter reach them too.
+        var ANIM = { pop: { scale: 1.12, duration: 140, ease: 'Back.Out', yoyo: true } };
+        var labels = ['🐱', '3', 'Katze'];
+        var tiles = labels.map(function (lab, i) {
+          return GameCore.makeTile(self, cx - 100 + i * 100, 520, 80, 80, {
+            label: lab,
+            onTap: function (api) {
+              tiles.forEach(function (t) { t.setSelected(t === api); });
+              GameCore.tone('tap');
+              GameCore.playAnim(self, api.container, ANIM.pop);
+            }
+          });
+        });
+
+        GameCore.makeLanguagePicker(this, 20, 20);
+
+        // Keep the host iframe in the loop after layout settles.
+        GameCore.reportHeight();
+      }
+    });
+
+    new Phaser.Game({
+      type: Phaser.AUTO,
+      parent: "game",
+      width: 800,
+      height: 600,
+      backgroundColor: THEME.colour.bg.hex,
+      scale: { mode: Phaser.Scale.FIT, autoCenter: Phaser.Scale.CENTER_HORIZONTALLY },
+      scene: [Boot, Play]
+    });
+  </script>
+</body>
+</html>

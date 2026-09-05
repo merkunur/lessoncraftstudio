@@ -290,3 +290,7 @@ scratchpad/
 # script picks the nearest ancestor holding .git. Not source, and regenerable
 # via `node .../skills/scroll-craft/scripts/workspace.mjs --ensure`.
 scrollcraft/
+
+# games build program: QA screenshots never committed (image files)
+games/_qa/
+games/**/*.png

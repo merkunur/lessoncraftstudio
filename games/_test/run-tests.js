@@ -4,7 +4,7 @@ const fs = require("fs");
 const vm = require("vm");
 const path = require("path");
 
-const LIB = path.join(process.cwd(), "_lib");
+const LIB = path.join(__dirname, "..", "_lib"); // anchored on this file, not the cwd — runs from the repo root too
 const themeSrc = fs.readFileSync(path.join(LIB, "theme.js"), "utf8");
 const stringsSrc = fs.readFileSync(path.join(LIB, "ui-strings.js"), "utf8");
 const coreSrc = fs.readFileSync(path.join(LIB, "game-core.js"), "utf8");

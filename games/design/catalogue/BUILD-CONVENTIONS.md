@@ -1,6 +1,6 @@
 # BUILD-CONVENTIONS — the shared contract every game spec cites
 
-This file is part of every specification. A spec says "per BUILD-CONVENTIONS §n" instead of restating the rule. The build model reads this file once and applies it to every game. Nothing here is optional; a spec may add to it, never contradict it.
+This file is part of every specification. A spec says "per BUILD-CONVENTIONS §n" instead of restating the rule. The builder (Claude Code) reads this file once and applies it to every game. Nothing here is optional; a spec may add to it, never contradict it.
 
 Version 1.0 — 2026-09-05. Companion files: `_lib/theme.js`, `_lib/ui-strings.js`, `_lib/game-core.js`, `_test/demo.html`, `catalogue/PATTERNS.md`.
 
@@ -115,7 +115,7 @@ The one raw hex in the file is the `<style>` body background, which must equal `
 - One `const ART = { ... }` block at the top of the file. Every visual element the game draws is one entry. **No emoji literal and no shape parameters appear anywhere else in the file.**
 - Entry kinds:
   - `{ kind: "svg", value: LCSArt.get("fox.idle"), size: 96 }` or `{ kind: "svg", value: "<svg viewBox='0 0 64 64'>…</svg>", size: 64 }` — **the DEFAULT for every BUILT game (build phase, 2026-09-05).** Shared characters/objects live in `_lib/art.js` (`LCSArt.register/get`, tokens as `var(--structure)` resolved to THEME hex); game-specific art is an inline SVG string. `GameCore.preloadArt(scene, ART)` in the Play scene's `preload` registers the textures; `GameCore.drawArt(scene, ART, key, x, y, opts)` draws any kind. Rules: 1:1 viewBox, no external references, ≤ 6 KB per entry, style per `games/ART-BIBLE.md`. `_tools/check-build.js` fails a built game that draws an emoji outside a declared `fallback`.
-  - `{ kind: "emoji", value: "🐱", size: 64, fallback: "🐈" }` — the SPEC-time form (the 200 specs were written with it); in a built game an emoji may remain only as the declared `fallback` of an `svg` entry. `size` is the font size in logical px. `fallback` is mandatory when `value` is an emoji newer than Unicode 12 (2019); the build model renders `fallback` only if the platform lacks the glyph (test: `measureText` width of `value` ≈ width of U+FFFD).
+  - `{ kind: "emoji", value: "🐱", size: 64, fallback: "🐈" }` — the SPEC-time form (the 200 specs were written with it); in a built game an emoji may remain only as the declared `fallback` of an `svg` entry. `size` is the font size in logical px. `fallback` is mandatory when `value` is an emoji newer than Unicode 12 (2019); the builder (Claude Code) renders `fallback` only if the platform lacks the glyph (test: `measureText` width of `value` ≈ width of U+FFFD).
   - `{ kind: "shape", shape: "roundRect" | "rect" | "circle" | "ellipse" | "polygon" | "line" | "arc", w, h | r | points, fill: "surface", stroke: "line", strokeWidth: 2, radius: 12 }` — `fill` / `stroke` are THEME colour token NAMES (`"surface"`, `"structure"`, `"accent"` …), resolved as `THEME.colour[name]`. Never a hex.
   - `{ kind: "text", value: "10", size: 40, font: "display", color: "ink" }` — for numerals/words that are art (e.g. a big target numeral), not for UI copy.
 - The spec's **Art registry** section lists the block in this exact shape. The **Visual specification** and **How it plays** sections refer to entries as `ART.key`.
@@ -239,11 +239,11 @@ Only `GameCore.tone("tap" | "correct" | "nudge" | "finish", step?)`. The optiona
 
 Money, units and names vary by locale. A spec that needs them declares `const LOCALE_DATA = { en: {...}, de: {...}, ... }` for all 11 codes and reads `LOCALE_DATA[GameCore.lang]`. Defaults: metric units everywhere (cm, m, kg, L, °C); currency by language — en: £ (England), de: €, fr: €, it: €, es: €, pt: R$, nl: €, sv: kr (SEK), da: kr (DKK), no: kr (NOK), fi: € — using only coin/note values that exist in that currency. Names of characters are emoji animals, not people's names.
 
-## §15 What the build model must not decide
+## §15 What the builder (Claude Code) must not decide
 
-If a spec leaves any of these open, the build model stops and reports the gap instead of guessing: a colour, a size, a position, a string, an item, a rule threshold, a praise key, an animation, which tile is correct. Every one of those is in the spec or in this file.
+If a spec leaves any of these open, the builder (Claude Code) stops and reports the gap instead of guessing: a colour, a size, a position, a string, an item, a rule threshold, a praise key, an animation, which tile is correct. Every one of those is in the spec or in this file.
 
-> Build phase (2026-09-05): the "build model" is now Claude Code with the expert ensemble of `games/BUILD-WORKFLOW.md`; a gap is resolved in plan mode by the ensemble, never guessed in code.
+> Build phase (2026-09-05): the builder is Claude Code with the expert ensemble of `games/BUILD-WORKFLOW.md`; no local AI is involved anywhere (operator ruling 2026-09-05). A gap is resolved in plan mode by the ensemble, never guessed in code.
 
 ## §16 Test hook contract (`window.LCS_TEST`) — every BUILT game
 

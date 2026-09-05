@@ -1,5 +1,7 @@
 # Brief: Design 200 educational games for LessonCraft Studio
 
+> **Superseded 2026-09-05 (operator ruling: "The local ai should not have anything to do with the website or the games").** There is NO local model. Claude Code builds every game — see `../BUILD-WORKFLOW.md`. The "build model" constraints below (tokens per second, line budget, literalness) are the historical premise of the design phase and no longer bind anything. The 200 specs this brief produced are complete and remain the basis of every build.
+
 You are the **designer** on this project. You will not write the game code. Your
 output is a set of specifications precise enough that a less capable model can
 implement them without making design decisions of its own.
@@ -16,7 +18,7 @@ Three parties, three jobs. Respect the boundaries.
 | Who | Does |
 |---|---|
 | **You (Claude Code)** | Research, pedagogy, game design, detailed specs, English content |
-| **A local model** (Qwen3.8-Flash-Next, self-hosted) | Writes the actual game code from your specs |
+| ~~**A local model** (Qwen3.8-Flash-Next, self-hosted)~~ → **Claude Code** (ruling 2026-09-05) | Writes the actual game code from your specs |
 | **The human** | Judges quality, tests with real children, requests corrections |
 
 The build model is capable but literal. It generates about 23 tokens per second,

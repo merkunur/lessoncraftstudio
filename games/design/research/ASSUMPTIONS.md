@@ -10,7 +10,7 @@ Per brief §11: anything unclear, wrong, or in tension with the research is reco
 
 **A-3 · Stage geometry.** The brief says "never assume a fixed viewport" and Phaser needs a logical stage. Decision: logical stage 720 × 560, `Scale.FIT` + horizontal centring (the site pins tool iframes near 704 px; `THEME.size.cardMaxWidth` = 720). Consequence: tap floors are stated in logical px with headroom — 56 for ages 6-9 (44 px real down to a 565-px iframe) and 80 for ages 5-6 (64 px real at the same scale). Below ~560 px iframe width targets shrink under the accessibility floor; the brief scopes tablets and desktops, so that is accepted and noted as a risk. `Scale.RESIZE` with per-game reflow was rejected: it would put layout decisions into 200 build-model files.
 
-**A-4 · The shared library gained four helpers.** The brief's "use the shared libraries" assumed they covered every need; `game-core.js` only made keyboard-operable *buttons* at a fixed 220 × 72, so answer tiles and grid cells had no keyboard path. Added (additive, tested in `_test/run-tests.js`, poison-tested): `makeTile(scene,x,y,w,h,opts)` (any-size keyboard-registered tap target; operator-approved), `playAnim(scene,target,spec)` (runs one ANIM entry), `tone(name)` (four Web-Audio tones, silent under `?sound=off`), `setSoundEnabled(v)`. The last three were my call: without them 200 specs would each re-describe a tween wrapper and an oscillator, and the build model would produce 200 slightly different ones. The operator may strike them; the fallback is a verbatim snippet in BUILD-CONVENTIONS.
+**A-4 · The shared library gained four helpers.** The brief's "use the shared libraries" assumed they covered every need; `game-core.js` only made keyboard-operable *buttons* at a fixed 220 × 72, so answer tiles and grid cells had no keyboard path. Added (additive, tested in `_test/run-tests.js`, poison-tested): `makeTile(scene,x,y,w,h,opts)` (any-size keyboard-registered tap target; operator-approved), `playAnim(scene,target,spec)` (runs one ANIM entry), `tone(name)` (four Web-Audio tones, silent under `?sound=off`), `setSoundEnabled(v)`. The last three were my call: without them 200 specs would each re-describe a tween wrapper and an oscillator, and the builder (Claude Code) would produce 200 slightly different ones. The operator may strike them; the fallback is a verbatim snippet in BUILD-CONVENTIONS.
 
 **A-5 · "50 common strings" is the real key set, not a promise.** `ui-strings.js` carries exactly the keys listed in BUILD-CONVENTIONS §9. Specs use only those through `t()`; everything else is a game-specific string. The linter fails a spec that calls a non-existent key.
 
@@ -30,7 +30,7 @@ Per brief §11: anything unclear, wrong, or in tension with the research is reco
 
 **A-13 · Line-count ceiling.** Brief: 400-800 lines. Spec estimates must fall in 300-800 (linted); the lower bound is relaxed to 300 because a simple tap-one-of-N game with the shared library genuinely fits in ~350 lines and padding it would be waste.
 
-**A-14 · The build model never chooses tile positions.** BUILD-CONVENTIONS §7.1 gives the formula for centring N tiles, so a spec can say "3 tiles, 80 × 80, gap 24" and the positions are determined.
+**A-14 · The builder (Claude Code) never chooses tile positions.** BUILD-CONVENTIONS §7.1 gives the formula for centring N tiles, so a spec can say "3 tiles, 80 × 80, gap 24" and the positions are determined.
 
 ## Added during research / catalogue / specs
 (appended below with dates)

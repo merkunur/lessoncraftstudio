@@ -85,7 +85,7 @@ const ART = {
   dotFull:    { kind: "shape", shape: "circle", r: 8, fill: "structure" }
 };
 ```
-Every object glyph names one everyday thing unambiguously in English (the key is the intended word). `ART.iconEye` is the only glyph with a fallback (its single-eye form is text-default on some platforms; the build model applies the §4 width test). Colour-blind safety: bins share tokens and differ by organ icon; the badge is coral AND ringed; each sense cue is a different motion, never a colour.
+Every object glyph names one everyday thing unambiguously in English (the key is the intended word). `ART.iconEye` is the only glyph with a fallback (its single-eye form is text-default on some platforms; the builder (Claude Code) applies the §4 width test). Colour-blind safety: bins share tokens and differ by organ icon; the badge is coral AND ringed; each sense cue is a different motion, never a colour.
 
 ## Animation registry
 ```js

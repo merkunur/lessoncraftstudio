@@ -1,6 +1,6 @@
 # CLAUDE.md — LessonCraftStudio Interactive Worksheets Platform
 
-**Version:** 3.9 (adds §24 — the 200 K-3 games BUILD program, trigger "build the next game"; 3.8 added the §20.9 [ACTIVE — pt-BR SECOND-BATCH FAN-OUT] record — the current "continue" loop, #1–#47 shipped, #48 = vet-diagnosis next; §23 Premium Tools v4 remains the "build the next tool" thrust) **Last updated:** 2026-09-05
+**Version:** 3.10 (retires the local AI from the website AND the games — top AMENDMENT 2026-09-05; 3.9 added §24 — the 200 K-3 games BUILD program, trigger "build the next game"; 3.8 added the §20.9 [ACTIVE — pt-BR SECOND-BATCH FAN-OUT] record — the current "continue" loop, #1–#47 shipped, #48 = vet-diagnosis next; §23 Premium Tools v4 remains the "build the next tool" thrust) **Last updated:** 2026-09-05
 
 > **Companion-docs convention (v3.6).** This file was ~halved by *relocating* (never deleting) the justification layer — commit-hash anchors, worked examples, code snippets, historical narration, and code-implemented reference specs — into git-tracked companions under `docs/claude-md/`. Each terse section keeps its forward-rule + cross-refs + a `→ docs/claude-md/<file>` pointer. The companions: `verification-hygiene.md` (§A.13), `scaling-audit.md` (§A.14), `deck-html-seo-surface.md` (§17.8), `catalog-pipeline.md` (§15 + §14 helpers/gotchas/bundles), `site-topic-export-detail.md` (§14.4 / §16.5.1 / §17.4.3 / §17.5-6 / §18.4), `topic-and-i18n-detail.md` (§16.7 / §16.8 / §17.10), `activities-detail.md` (§20.7), `misc-detail.md` (§11 / §17.1 / §20.3 / §21 tables / §22.2-3 / §A.7.x), **`premium-tools-v4.md` (§23 — the twenty instruments, the fence, the closed strands, the rejected list, the per-tool build recipe)**. When a terse entry isn't enough, read its companion. Working-recall SoT for activities/landing stays the `memory/` + plan files.
 
@@ -29,6 +29,18 @@ The disciplined-set activities phase is COMPLETE (~64 distinct activities). The 
 **Artifacts (out-of-tree, `C:\Users\rkgen\.claude\plans\`):** `premium-games-catalog.{md,json}` (15 game-types, 390 games → ~315 launchable, 8 bundles, build order); `premium-strategy-report.{md,json}` (competitor intel + the conversion strategy); `cc-commission-calm-tiger.md` (the north-star plan).
 
 **RESUME TRIGGER — when the operator says "let's start building the games":** do NOT re-investigate strategy or re-plan the vision (both done + approved). Pick up at games **Phase 1** — build the local-preview loop + the CA5 sprite-sheet pipeline + the asset-stub kit, then the **pilot slice (6-8 strongest games)** for LOCAL approval before scaling. Confirm at that point: launch-locale priority (rec en+de+es/nl), price points, assembly-with-games-vs-fast-follow. **This supersedes the §20.9 "IMMEDIATE next action"** (worksheet-hub etc. — stale).
+
+---
+
+## [AMENDMENT 2026-09-05] Local AI retired from the website AND the games
+
+Operator ruling, verbatim: **"The local ai should not have anything to do with the website or the games."** Scope confirmed the same day: both.
+
+**Retired (never built in code — doctrine only):** the headless Mac Studio / Ollama enrichment service (§3.5, §4.5, §5, §8.2 `ai-ingest` + `mac-studio-service`, §10.2/§10.3 Mac-Studio bullets, §11 "now in scope", §15.3, A.9); `enrichment.json` as a LIVE manifest layer (§15.1 — it stays a reserved, empty slot); §16.1 step 2 embedding-similarity topic resolution; the games' "local model / build model" (`games/design/GAME-DESIGN-BRIEF.md` assumed a self-hosted Qwen would write the game code — §24 replaces it with Claude Code). Measured 2026-09-05: no `frontend/app/api/ai-ingest/`, no `mac-studio-service/`, no `ai-ingest`/`ollama`/`mac-studio` reference anywhere in `frontend/` or `scripts/`.
+
+**Stays:** the dormant `DeckEnrichment` Prisma model (§8.1: existing tables are never dropped); the three-layer manifest SHAPE. The companions under `docs/claude-md/` still narrate Mac Studio historically — this amendment supersedes them.
+
+**Forward rule:** the website is a TWO-machine system (PC workstation + Hetzner, Cloudflare in front). **No future task may plan, build, offer, or depend on a local / self-hosted AI for the website or the games; every piece of AI work in this project is Claude Code, in-session.** Every retired section below carries a `[RETIRED 2026-09-05]` marker and is kept as history.
 
 ---
 
@@ -90,23 +102,23 @@ The apps' Fabric.js rendering code is the source of truth for what a worksheet l
 Teachers never see the apps. Apps gated behind operator authentication; produce decks flowing through the publish pipeline. No "create worksheet" buttons, no "customize" flows for teachers.
 
 ### 3.4 Launch with depth in priority languages, breadth across features
-MV launch: full public-site rebuild, all 29 apps producing catalog-ready output, 400-600 seeded decks distributed per §19 launch sequence, teacher catalog with search/filter/topic pages, student play, local AI service producing enrichments, sample decks on every public page, subscriber-only features per `docs/SUBSCRIPTION-SCOPE.md`.
+MV launch: full public-site rebuild, all 29 apps producing catalog-ready output, 400-600 seeded decks distributed per §19 launch sequence, teacher catalog with search/filter/topic pages, student play, local AI service producing enrichments (local AI retired 2026-09-05), sample decks on every public page, subscriber-only features per `docs/SUBSCRIPTION-SCOPE.md`.
 
 **Excluded from launch:** student accounts, class management, progress tracking, parent portals, SSO, custom worksheet tools for teachers, AI-assisted *deck generation* (AI enriches; doesn't produce decks), assignment sequences.
 
-**[REMOVED 2026-05-17] Pillar 1 production pattern.** Lesson-plans / teaching-packages / themed-bundles domain nuked per operator commission (commit `920aebbc`). The CC + copilot cooperation production loop and the Mac-Studio-strategic-fit framing tied to lesson-plan production are historical; Mac Studio remains targeted at deterministic-AI tasks (deck enrichment §4.5; OG images; alt-text + structured-data + meta enrichment) but no longer carries any pedagogical-voice content responsibility.
+**[REMOVED 2026-05-17] Pillar 1 production pattern.** Lesson-plans / teaching-packages / themed-bundles domain nuked per operator commission (commit `920aebbc`). The CC + copilot cooperation production loop and the Mac-Studio-strategic-fit framing tied to lesson-plan production are historical; [RETIRED 2026-09-05 — no local AI] Mac Studio remains targeted at deterministic-AI tasks (deck enrichment §4.5; OG images; alt-text + structured-data + meta enrichment) but no longer carries any pedagogical-voice content responsibility.
 
 **Adjudicator-forward decision-locking.** When operator delegates strategic input ("you choose," "make the call"), the adjudicator (CC, copilot, or strategic Claude) locks per CLAUDE.md priority foundations and commits. Consultative-by-default wastes operator-attention when delegation is explicit. Operator override at any later moment is normal. Empirical: §17.8.5 default-mode-emits-null taxonomy lock at `109a91d4`.
 
 **Lock-with-dependency-pause.** When operator strategic input locks a downstream choice but an upstream dependency hasn't shipped, lock the choice AND pause downstream implementation. Don't power through against an unsubstantiated upstream claim. Operationalized at Alt A Arc 1→2→3 sequencing.
 
-### 3.5 Three-machine infrastructure
+### 3.5 Two-machine infrastructure (was three — the Mac Studio is RETIRED 2026-09-05, top amendment)
 - **PC workstation** (Windows). Runs 29 apps + Claude Code; produces decks.
-- **Mac Studio M3 Ultra** (headless, on Tailscale). Local AI service via Ollama (model TBD; 70B-class quantized). Reads catalog DB; writes enrichment.json.
+- **[RETIRED 2026-09-05 — never built; no local AI anywhere] Mac Studio M3 Ultra** (headless, on Tailscale). Local AI service via Ollama (model TBD; 70B-class quantized). Reads catalog DB; writes enrichment.json.
 - **Hetzner dedicated server**. Hosts Next.js + Postgres + Lemon Squeezy + catalog API + publish pipeline.
 - **Cloudflare CDN** (free tier; active 2026-04-30). Orange-cloud proxy on apex + www; SSL Full (strict); AI crawler bot policy = "Do not block." Nameservers `selah.ns.cloudflare.com` + `sevki.ns.cloudflare.com`.
 
-Tailscale connects all three privately. Mac Studio is **never** exposed to public internet; **never** synchronous in a teacher request. AI work is asynchronous batch (§15).
+[RETIRED 2026-09-05] Tailscale connects all three privately. Mac Studio is **never** exposed to public internet; **never** synchronous in a teacher request. AI work is asynchronous batch (§15).
 
 Stack: Next.js 14 App Router, Prisma + Postgres, NextAuth, Lemon Squeezy, next-intl, Tailwind, Fabric.js 5.3.1.
 
@@ -122,7 +134,7 @@ The cost of a clarifying question is five minutes; the cost of building the wron
 33 worksheet generators in `REFERENCE APPS/`. 29 ship interactive output + catalog-export pipeline (§14.10); 4 are PDF-only. **What changes:** a new export function per app emitting self-contained interactive HTML (§14). One "Export to catalog" action produces a ZIP (HTML + manifest + PDF + answer key + thumbnail). **What does not change:** generation algorithms, UIs, image selection, layout.
 
 ### 4.2 Deck storage + publishing (new)
-New Prisma `Deck` model stores published decks. Data = merge of three layered manifests (§15): `generation.json` (app at gen time), `metadata.json` (publish step + operator review), `enrichment.json` (local AI). Originals kept on disk as reproducible source of truth. Operator: generate in app → click Export to catalog → review auto-filled metadata → Publish → Hetzner validates + ingests + writes static assets (cached by Cloudflare). Decks immutable after publish; edits create new versions.
+New Prisma `Deck` model stores published decks. Data = merge of three layered manifests (§15): `generation.json` (app at gen time), `metadata.json` (publish step + operator review), `enrichment.json` (reserved — its local-AI producer is retired 2026-09-05; stays empty). Originals kept on disk as reproducible source of truth. Operator: generate in app → click Export to catalog → review auto-filled metadata → Publish → Hetzner validates + ingests + writes static assets (cached by Cloudflare). Decks immutable after publish; edits create new versions.
 
 ### 4.3 Teacher-facing catalog (new)
 Routes under `/[locale]/catalog/`:
@@ -150,11 +162,11 @@ Static HTML cached aggressively at Cloudflare edge. Hetzner involved only in lin
 
 deck.html carries the SEO surface in §17.8 (semantic HTML, alt attributes, structured data, canonical URL placeholder, hreflang insertion point, end-of-deck links). Modifications must preserve SEO contract; modifications to SEO contract must preserve cacheability (no per-request templating, no tier-dependent content).
 
-### 4.5 Local AI enrichment service (new, runs on Mac Studio)
-Long-running service. Pull-based: polls Hetzner for work; pushes results back. Hetzner never calls Mac Studio. Tasks: deck metadata embeddings (for semantic search + related-decks); Topic row embeddings (§16.1); longer pedagogical descriptions + learning objectives in 11 languages; topic lesson plans; discoverability tags; curriculum-framework alignment tags. **Never in synchronous teacher-request path.** If Mac Studio offline, decks served without enrichment; topic pages fall back to faceted listing.
+### 4.5 [RETIRED 2026-09-05] Local AI enrichment service (was: new, runs on Mac Studio)
+**Never built; retired by operator ruling (top amendment). Decks serve without enrichment permanently; topic pages use the faceted path. Historical text follows.** Long-running service. Pull-based: polls Hetzner for work; pushes results back. Hetzner never calls Mac Studio. Tasks: deck metadata embeddings (for semantic search + related-decks); Topic row embeddings (§16.1); longer pedagogical descriptions + learning objectives in 11 languages; topic lesson plans; discoverability tags; curriculum-framework alignment tags. **Never in synchronous teacher-request path.** If Mac Studio offline, decks served without enrichment; topic pages fall back to faceted listing.
 
 ## 5. Technology decisions — locked for v1
-Next.js 14 App Router · TypeScript · Postgres via Prisma · NextAuth (email+password) · Lemon Squeezy · next-intl · Tailwind · Fabric.js 5.3.1 · Cloudflare free tier · Hetzner dedicated for app/DB · headless Mac Studio M3 Ultra for AI · Ollama runtime · Tailscale · local filesystem on Hetzner · Sharp · WebP for image library + interactive backdrops (PDFs decode WebP, re-encode losslessly into Flate). No additions without explicit operator approval.
+Next.js 14 App Router · TypeScript · Postgres via Prisma · NextAuth (email+password) · Lemon Squeezy · next-intl · Tailwind · Fabric.js 5.3.1 · Cloudflare free tier · Hetzner dedicated for app/DB · ~~headless Mac Studio M3 Ultra for AI · Ollama runtime · Tailscale~~ (retired 2026-09-05) · local filesystem on Hetzner · Sharp · WebP for image library + interactive backdrops (PDFs decode WebP, re-encode losslessly into Flate). No additions without explicit operator approval.
 
 ## 6. The 11 languages
 English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, Finnish.
@@ -223,12 +235,12 @@ frontend/
 │   │   │   ├── browse/page.tsx             # search/filter/paginate
 │   │   │   ├── deck/[slug]/page.tsx
 │   │   │   └── my-decks/page.tsx
-│   ├── api/{decks,topics,play,ai-ingest}/  # NEW
+│   ├── api/{decks,topics,play}/            # NEW  (ai-ingest RETIRED 2026-09-05 — never built)
 │   └── play/[linkId]/page.tsx              # NEW
 ├── components/{catalog,topic-page,play}/   # NEW
-└── lib/{deck-publishing,play-access,ai-enrichment-client}/  # NEW
+└── lib/{deck-publishing,play-access}/      # NEW  (ai-enrichment-client RETIRED 2026-09-05 — never built)
 apps/                                       # existing 33 apps; gain Export to catalog
-mac-studio-service/{enrichment-worker,lesson-plan-generator,prompts}/  # NEW
+mac-studio-service/                         # RETIRED 2026-09-05 — never built; no local AI (top amendment)
 publish-cli/                                # NEW; runs on PC
 games/                                      # §24 — the 200 K-3 Phaser games: _lib/ _tools/ _test/ design/ <slug>/index.html; _qa/ + *.png gitignored
 ```
@@ -244,7 +256,7 @@ Every catalog page server-rendered. Every deck + topic page has unique title, me
 
 ## 9. What "done" looks like for launch
 
-Launch "done" = **(Engineering)** 29 apps producing catalog ZIPs; browse/search/filter/deck pages; topic pages (deck grid + PDFs); student play across 29 types mobile+desktop tier-identical; free links/QR/email-signup; $69 checkout; 60-day grace; Cloudflare + Tailscale + Mac-Studio active. **(SEO)** all SSR, native slugs, hreflang, schema, sitemap, mobile-first @375px, LCP<2.5s, Search-Console verified. **(Content)** 400-600 decks, 30-50 topic pages, 8-12 guides. **(Public site)** multilingual K-3 home + pricing + about/FAQ/support + footer/nav. **(Acquisition)** Pinterest, LinkedIn target list, email waitlist, one conference. v1 does NOT target organic-traffic-at-scale / revenue-at-scale / K-12 breadth / institutional revenue (those come later). Full per-area checklist → docs/claude-md/misc-detail.md.
+Launch "done" = **(Engineering)** 29 apps producing catalog ZIPs; browse/search/filter/deck pages; topic pages (deck grid + PDFs); student play across 29 types mobile+desktop tier-identical; free links/QR/email-signup; $69 checkout; 60-day grace; Cloudflare active (Tailscale + Mac-Studio retired 2026-09-05). **(SEO)** all SSR, native slugs, hreflang, schema, sitemap, mobile-first @375px, LCP<2.5s, Search-Console verified. **(Content)** 400-600 decks, 30-50 topic pages, 8-12 guides. **(Public site)** multilingual K-3 home + pricing + about/FAQ/support + footer/nav. **(Acquisition)** Pinterest, LinkedIn target list, email waitlist, one conference. v1 does NOT target organic-traffic-at-scale / revenue-at-scale / K-12 breadth / institutional revenue (those come later). Full per-area checklist → docs/claude-md/misc-detail.md.
 
 ## 10. How Claude Code sessions operate
 
@@ -261,7 +273,7 @@ Launch "done" = **(Engineering)** 29 apps producing catalog ZIPs; browse/search/
 - If you must modify, smallest change that works
 - Run existing test suite where it exists
 - New DB tables = new Prisma migration; never edit existing
-- Treat local AI service (§4.5, §15) as separate subsystem. Never call Mac Studio synchronously from a request handler
+- [RETIRED 2026-09-05 — there is no local AI service] Treat local AI service (§4.5, §15) as separate subsystem. Never call Mac Studio synchronously from a request handler
 
 ### 10.3 Never do without explicit operator approval
 - Rename/delete any existing file
@@ -274,8 +286,9 @@ Launch "done" = **(Engineering)** 29 apps producing catalog ZIPs; browse/search/
 - Remove/alter existing auth flows
 - Remove/alter existing Lemon Squeezy integration
 - Commit credentials/API keys/.env contents
-- Expose Mac Studio tailnet hostname in any public code path
-- Make AI service synchronous for any teacher-facing request
+- Plan, build, offer, or depend on ANY local / self-hosted AI for the website or the games (operator ruling 2026-09-05, top amendment)
+- [RETIRED 2026-09-05] Expose Mac Studio tailnet hostname in any public code path
+- [RETIRED 2026-09-05] Make AI service synchronous for any teacher-facing request
 
 ### 10.4 Always do
 - Ask if a task is ambiguous
@@ -290,13 +303,13 @@ Launch "done" = **(Engineering)** 29 apps producing catalog ZIPs; browse/search/
 **Read-from-SoT precedence over re-authoring at component-substrate work.** When a component needs localized labels/axis-keys/taxonomy data that already lives at a single SoT (e.g., `topics-taxonomy.json axes.<axis>.<key>.{name,slug}.<locale>` per §16.5; `EXERCISE_MODE_APP_CLASSIFICATION` per §A.13.4; `image_themes.displayNames` per §A.7), the component reads directly. Mirroring is a duplicate-state failure mode — mirror + SoT drift over time. Direct SoT consumption eliminates the drift surface. Arc 1 substrate (`d039d8e2`) shipped 4 components consuming axis-key labels directly from `topics-taxonomy.json` (~870 labels at SoT, not re-authored in `messages/*.json`).
 
 ### 10.5 Flag to operator
-Anything seeming to conflict with production behavior; any place CLAUDE.md is ambiguous; any task as specified that would break working features; any irreversible-feeling action; any performance concern affecting production traffic; any Mac-Studio-reachability dependency that would create an outage.
+Anything seeming to conflict with production behavior; any place CLAUDE.md is ambiguous; any task as specified that would break working features; any irreversible-feeling action; any performance concern affecting production traffic; any Mac-Studio-reachability dependency that would create an outage (retired 2026-09-05 — there is no Mac Studio; flag any local-AI dependency instead).
 
 ## 11. Scope discipline — out of v1
 
-Deferred (don't build without explicit direction): unified worksheet creation studio for teachers (cut: teachers buy finished content); AI-powered deck generation; RTILA/n8n; RAG knowledge base; LoRA fine-tuning; synchronous AI in teacher-facing path; student accounts; class management; parent portals; school-district SSO/SAML; real-time collaboration; native mobile apps; offline play; KDP/Etsy seller features.
+Deferred (don't build without explicit direction): **any local / self-hosted AI for the website or the games (operator ruling 2026-09-05 — not deferred, RETIRED)**; unified worksheet creation studio for teachers (cut: teachers buy finished content); AI-powered deck generation; RTILA/n8n; RAG knowledge base; LoRA fine-tuning; synchronous AI in teacher-facing path; student accounts; class management; parent portals; school-district SSO/SAML; real-time collaboration; native mobile apps; offline play; KDP/Etsy seller features.
 
-**Now in scope** (additions from prior versions): headless Mac Studio running asynchronous deterministic-AI enrichment — Topic embeddings (§16.1), deck-level enrichment + AI-suggested tags + descriptions (§4.5), OG images, alt-text + structured-data + meta enrichment — **NOT** lesson-plan production (cooperation-pattern per §3.4, Q2 final resolution post-`e912b805`). Sample decks on every public page. SEO-from-the-start (§17). Language launch sequence treating depth in priority languages over breadth (§19). From-scratch rebuild of public site for multilingual K-3 audience.
+**Now in scope** (additions from prior versions — ⚠ the Mac-Studio clause is RETIRED 2026-09-05, top amendment; the rest stands): headless Mac Studio running asynchronous deterministic-AI enrichment — Topic embeddings (§16.1), deck-level enrichment + AI-suggested tags + descriptions (§4.5), OG images, alt-text + structured-data + meta enrichment — **NOT** lesson-plan production (cooperation-pattern per §3.4, Q2 final resolution post-`e912b805`). Sample decks on every public page. SEO-from-the-start (§17). Language launch sequence treating depth in priority languages over breadth (§19). From-scratch rebuild of public site for multilingual K-3 audience.
 
 **Removed from scope:** student session analytics (K-3 teachers observe directly all day); assignment-style multi-deck sequences (not justifying engineering weight for K-3); broad "teacher catalog" framing (replaced with multilingual K-3).
 
@@ -425,13 +438,13 @@ Originating: `30f21267` (29 apps STRINGS_ALL bake) + `691ac1c7` (29 apps force-s
 End-to-end: a worksheet generated in one of the 29 apps (§14.10) → catalog with full enrichment. Terse rules below; **full three-layer manifest JSON schemas, per-subcommand contracts, and empirical anchors live in `docs/claude-md/catalog-pipeline.md`.**
 
 ### 15.1 The three-layer manifest
-Each deck's metadata splits across three never-overwriting JSONs (catalog DB holds the merged view; originals stay on disk): **`generation.json`** (app at gen time — deck_id, generator, language, exercise_type/mode, settings, theme, images/vocab, exercises-with-answers, assets, reserved `content_family_id`=null in v1); **`metadata.json`** (publish step + operator review — title/description per locale, subject, `topic_slugs`, age_range, tags, status, + the two SEO fields `educational_level` + `educational_level_localized` deterministically derived from `age_range` per §17.8.6); **`enrichment.json`** (Mac Studio AI — embedding, long_description ×11, learning_objectives ×11, ai_tags). Full schemas in companion.
+Each deck's metadata splits across three never-overwriting JSONs (catalog DB holds the merged view; originals stay on disk): **`generation.json`** (app at gen time — deck_id, generator, language, exercise_type/mode, settings, theme, images/vocab, exercises-with-answers, assets, reserved `content_family_id`=null in v1); **`metadata.json`** (publish step + operator review — title/description per locale, subject, `topic_slugs`, age_range, tags, status, + the two SEO fields `educational_level` + `educational_level_localized` deterministically derived from `age_range` per §17.8.6); **`enrichment.json`** (reserved and EMPTY — its local-AI producer is RETIRED 2026-09-05; the designed shape was: Mac Studio AI — embedding, long_description ×11, learning_objectives ×11, ai_tags). Full schemas in companion.
 
 ### 15.2 The publish flow
-`catalogExport(appConfig, generatedContent)` produces `generation.json` in-memory; the "Export to catalog" button produces one ZIP (`manifest.json` + deck.html + printable.pdf + answer-key.pdf + thumbnail.png). Operator runs `publish-cli` (watch-folder): validates manifest → auto-fills metadata via taxonomy → posts assets to Hetzner (behind Cloudflare) → generates native-language slug (`@@unique([language, slug])`; migration must land first) + substitutes deck.html SEO placeholders (§17.8) → inserts the `Deck` row. Mac Studio polls within minutes. **`bundle.canonicalURL` note:** v1 does NOT promote it to a bundle field; the in-deck share affordance (§17.8.15) uses a predicted-slug fallback until publish-cli substitutes the real `__CANONICAL_URL__` AND the catalog deck route exists.
+`catalogExport(appConfig, generatedContent)` produces `generation.json` in-memory; the "Export to catalog" button produces one ZIP (`manifest.json` + deck.html + printable.pdf + answer-key.pdf + thumbnail.png). Operator runs `publish-cli` (watch-folder): validates manifest → auto-fills metadata via taxonomy → posts assets to Hetzner (behind Cloudflare) → generates native-language slug (`@@unique([language, slug])`; migration must land first) + substitutes deck.html SEO placeholders (§17.8) → inserts the `Deck` row. ~~Mac Studio polls within minutes.~~ (retired 2026-09-05 — nothing polls; the enrichment layer stays empty) **`bundle.canonicalURL` note:** v1 does NOT promote it to a bundle field; the in-deck share affordance (§17.8.15) uses a predicted-slug fallback until publish-cli substitutes the real `__CANONICAL_URL__` AND the catalog deck route exists.
 
-### 15.3 Local AI service contract
-Pull-based worker (not a push target). Endpoints on Hetzner: `GET /api/ai-ingest/pending` (Tailscale-bound shared secret) + `POST /api/ai-ingest/complete` (keyed by deck_id). When Mac Studio is offline, decks accumulate in `pending` and serve without enrichment (rank lower; topic pages fall back to faceted).
+### 15.3 [RETIRED 2026-09-05] Local AI service contract
+**Never built; no local AI (top amendment). Historical text follows.** Pull-based worker (not a push target). Endpoints on Hetzner: `GET /api/ai-ingest/pending` (Tailscale-bound shared secret) + `POST /api/ai-ingest/complete` (keyed by deck_id). When Mac Studio is offline, decks accumulate in `pending` and serve without enrichment (rank lower; topic pages fall back to faceted).
 
 ### 15.4 Strict-arg parsing
 `scripts/publish-cli/strict-args.js` — SCHEMAS per subcommand (`publish`/`publish-bulk`/`unpublish`); errors on unknown flags pre-side-effect (Levenshtein suggestions). `publish-bulk` requires `--confirm` for real (without it, dry-run regardless of `--dry-run`).
@@ -486,7 +499,7 @@ Primary teacher-facing surface; deliberate divergence from education.com flat re
 ### 16.1 Topic resolution
 Teacher search query resolution before faceted fallback:
 1. Exact slug match (`/en/topic/addition/`, `/de/topic/tiere/`, `/de/topic/kindergarten/`)
-2. Embedding similarity match against `Topic` rows (top hit above threshold)
+2. ~~Embedding similarity match against `Topic` rows (top hit above threshold)~~ [DEAD 2026-09-05 — no local AI, and the Topic table is gone; falls straight through to 3]
 3. Fallback to faceted browse (`/<locale>/browse/?q=...`)
 
 Server-side; teachers always see topic destination page OR faceted browse with query as search term.
@@ -1513,7 +1526,7 @@ The 5 registration points are §21.5; **`frontend/config/live-tool-slugs.ts` is 
 | "continue" (in plan mode) | **§20.9** pt-BR activity fan-out |
 
 ### 24.1 What is fixed (operator rulings 2026-09-05)
-- **Claude Code builds the games** (the "local model" plan is dropped) — one game per trigger, **in plan mode first**: an expert ensemble (pedagogue · educational content creator · game developer · art director, then artist · graphic designer · animation agent; `general-purpose` agents, ≤ 4 in flight) transforms the approved spec into a top-quality design; the operator approves; then the build.
+- **Claude Code builds the games** (no local AI of any kind — operator ruling 2026-09-05, top amendment; Claude Code is the only builder) — one game per trigger, **in plan mode first**: an expert ensemble (pedagogue · educational content creator · game developer · art director, then artist · graphic designer · animation agent; `general-purpose` agents, ≤ 4 in flight) transforms the approved spec into a top-quality design; the operator approves; then the build.
 - **The spec (`games/design/specs/NNN-slug.md`) is the basis, not the ceiling** — objective, band, pattern, misconception responses, no-timer/no-lives/no-losing rules are invariant; item pools, art, motion and feel are raised. Catalogue row + spec are binding over any prompt written from memory.
 - **All 11 locales, always** (STRINGS ×11, LOCALE_DATA ×11 native-authored; BUILD-CONVENTIONS §17). **Inline SVG art only** (`_lib/art.js` shared library + `GameCore.drawArt`; no emoji on the play surface; no binary assets). **Visual quality is the headline requirement** — ART-BIBLE §8 (14-point critic rubric) is graded on the full screenshot sweep.
 - **Gates in order, none skippable, no threshold ever moved:** `_tools/check-build.js` → `_tools/qa-game.js` (11 locales × never-auto-start × full session with a wrong answer on every item × targets ≥ 44 px × screenshots 400/704/1024) → visual-critic agent on EVERY screenshot → **I read 704 + 1024 myself** → pedagogue sign-off → `_tools/build-hub.js`.
@@ -1662,7 +1675,8 @@ When doctrine file exists at multiple paths (e.g., `docs/SUBSCRIPTION-SCOPE.md` 
 #### A.8.3 Working-memory file post-fold-pass cleanup discipline
 When [DOCS] fold consumes carry-forward items from working-memory (typically `important/SESSION-STATE.md` doctrine-queue + `important/CONVERSATION-HANDOFF.md` doctrine-queue), Phase 4 verification clears consumed entries. Working-memory edits are NOT in [DOCS] commit. Per §10.4, working-memory files are out-of-tree handoff artifacts at filesystem level without commits. Failure mode this prevents: `2511e181` pre-resolved 18 items but SESSION-STATE.md §8 was stale; future folds would have re-folded or wasted Phase 1 time.
 
-### A.9 Mac Studio operational rules
+### A.9 [RETIRED 2026-09-05] Mac Studio operational rules
+**The Mac Studio and every local-AI service are retired (top amendment); nothing below is live.**
 - Reachable only over Tailscale. Never expose to public internet.
 - Shared secret for `/api/ai-ingest/*` in env var `AI_INGEST_SHARED_SECRET` on both machines.
 - AI service must survive kill+restart at any time without producing duplicate enrichments. Every write to `/api/ai-ingest/complete` idempotent on `(deck_id, enrichment_version)`.

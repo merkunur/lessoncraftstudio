@@ -2,7 +2,7 @@
 
 > **SUPERSEDED for building (2026-09-05).** All 200 specs exist. This brief describes how the SPECS were written; it is kept as the record of that phase. Building a game follows `games/BUILD-WORKFLOW.md` (Claude Code + the expert ensemble), not a local model.
 
-You are writing build-ready game specifications for LessonCraft Studio. A literal local model will turn each spec into a single Phaser 3.90 `index.html`; it cannot ask questions and will guess at anything you leave open. The human reviewer does not write JavaScript. **A spec that leaves a design decision open has failed.**
+You are writing build-ready game specifications for LessonCraft Studio. Claude Code turns each spec into a single Phaser 3.90 `index.html` (no local model — ruling 2026-09-05); a spec is still written as if the builder cannot ask questions, so nothing is left open. The human reviewer does not write JavaScript. **A spec that leaves a design decision open has failed.**
 
 ## Read first, in this order (paths are absolute)
 1. `C:\Users\rkgen\lessoncraftstudio\games\GAME-DESIGN-BRIEF.md` — sections 2, 3, 7, 8, 9 (constraints, bands, quality bar, template, anti-patterns).

@@ -10,7 +10,7 @@ Version 1.0 — 2026-09-05. Operator rulings baked in: I (Claude Code) build the
 | "build the next tool" | Premium Tools v4 (CLAUDE.md §23) | `docs/claude-md/premium-tools-v4.md` |
 | "continue" (in plan mode) | the pt-BR activity fan-out (CLAUDE.md §20.9) | `memory/project_pt_secondbatch_fanout.md` |
 
-The old "there will never be games" ruling is superseded (2026-09-05). Never offer or use the old premium `game-shell.js` scaffold or the old `game-designs/` folder; the designs live in `games/design/specs/`.
+The old "there will never be games" ruling is superseded (2026-09-05), and **no local AI is involved anywhere** — Claude Code is the only builder (operator ruling 2026-09-05). Never offer or use the old premium `game-shell.js` scaffold or the old `game-designs/` folder; the designs live in `games/design/specs/`.
 
 ## 1. Where everything is
 

@@ -34,13 +34,13 @@
 4. **The FIT-scaling tap floors assume tablets and desktops.** On a phone-width iframe (< 560 px) 56-px targets fall below 44 px real. If phones become a target, a second stage geometry is needed.
 5. **The adaptive rules are design choices, not measured.** 2-up/2-down (or 3-up), the three-step support ladder and the re-queue lags rest on the 80-90% success finding and preschool word-learning studies; the first ten builds should log first-try rates to check the band.
 6. **P7 trace games rely on `pointermove` sampling inside an iframe.** 008, 030, 035, 036, 064, 065, 118, 171 all ship the tap-each-waypoint fallback, so nothing depends on the drag — but the drag feel is the first thing to verify on a real tablet.
-7. **The build model must honour the ART/ANIM contract exactly.** The linter proves a SPEC has no stray emoji; only a build-side check proves the FILE has none. A grep of each built `index.html` for emoji outside the `const ART` block is the recommended acceptance test.
+7. **The builder (Claude Code) must honour the ART/ANIM contract exactly.** The linter proves a SPEC has no stray emoji; only a build-side check proves the FILE has none. A grep of each built `index.html` for emoji outside the `const ART` block is the recommended acceptance test.
 8. **Three deliberate near-pairs exist** (064/065 tracing cases, 063/147 syllables/phonemes, 123/188 position words) and are annotated; if the catalogue must shrink, these are the first candidates to merge.
 9. **Relaunch prompts drifted from the catalogue twice** (rows 128, 165, 170, 171, 173 were described by their pre-rebalance titles). The writers followed the binding catalogue every time, so no spec is wrong — but a prompt generated from the catalogue rows would remove the risk entirely.
 
 ## Recommended build order for the first twenty games
 
-Ordered for the build model's learning curve (each early game introduces at most one new mechanic on top of the shared library), for demand (F-1, F-2), and so that every pattern is exercised before the second ten.
+Ordered for the builder's learning curve (each early game introduces at most one new mechanic on top of the shared library), for demand (F-1, F-2), and so that every pattern is exercised before the second ten.
 
 | Order | Spec | Why here |
 |---|---|---|

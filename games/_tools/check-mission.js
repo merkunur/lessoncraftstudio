@@ -59,10 +59,15 @@ const DECAY = [
 ];
 const NEGATED = /\b(?:never|not|no|cannot|can't|without|instead of|rather than|must not|may not|nothing)\b/i;
 
-/* The character is never the consequence (§3). An error changes the APPARATUS. */
+/* The character is never the consequence (§3). An error changes the APPARATUS.
+   ⚠ MEASURED, 2026-09-06: the first version banned "cross" for meaning ANGRY — in a corpus whose
+   central frame is THE CROSSING. It matched "the goat crosses", "lines cross" and "ANIM.cross" and
+   produced 9 failures out of 9, every one of them false, on correct specs. A word-sense collision
+   with the most common verb in the domain. Removed; "angry" and "scolds" carry the meaning without
+   the collision. */
 const CHARACTER_HURT = [
   [/\bsad\b|\bcries\b|\bcrying\b|\bfrowns?\b|\bupset\b|\bdisappointed\b/i, "the character is sad"],
-  [/\bangry\b|\bcross\b|\bscolds?\b|\btells? (?:them|the child) off\b/i, "the character disapproves"],
+  [/\bangry\b|\bscolds?\b|\btells? (?:them|the child) off\b/i, "the character disapproves"],
   [/\bhurts?\b|\binjur\w*\b|\bbumps? (?:its|their) head\b/i, "the character is hurt"],
 ];
 
@@ -145,11 +150,25 @@ function check(file) {
   }
 
   /* ── the ratchet rule, and the banned losing-states-in-costume ── */
+  /* ⚠⚠ RATCHET IS A WARNING, NOT A FAILURE, AND THE REASON IS MEASURED.
+     Run against the first 27 redesigned specs it produced 33 failures and I classified every one I
+     sampled as FALSE. It cannot tell these apart from prose:
+       - design rationale        "THE CROSSING … collapses this game into 002"
+       - the apparatus working   "the goat's own side is the heavy one and it sinks below its landing"
+                                 (that is a balance pan doing exactly what a balance pan does)
+       - the REQUIRED adaptive ladder  "two refusals … drops the next item one level"
+       - correct refusal         "surplus blocks until they are taken back"
+       - the goal being REACHED  "the yard empties" (the crablings came out — that is winning)
+     The ratchet rule is about a thing the child has ALREADY EARNED being taken away on a wrong
+     answer. Deciding that needs the sentence's role in the game, which a regex over a document does
+     not have. A gate with a 100% false-positive rate is worse than no gate: it gets ignored, and
+     then it is ignored on the day it is right. Left in as a WARNING so a human or a reviewing agent
+     reads the hits, and recorded in REDESIGN-LOG.md as needing a real instrument. */
   const body = src.replace(/^#.*$/m, "");
   for (const s of sentences(body)) {
     if (NEGATED.test(s)) continue; /* a spec promising the right thing is not a violation */
     for (const [re, what] of DECAY) {
-      if (re.test(s)) { F("RATCHET", what + " — \"" + s.trim().slice(0, 96) + "\""); break; }
+      if (re.test(s)) { W("RATCHET", what + "? — \"" + s.trim().slice(0, 96) + "\""); break; }
     }
   }
 

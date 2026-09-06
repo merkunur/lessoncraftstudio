@@ -5,170 +5,281 @@
 - Subject / topic: Mathematics / data — reading a value off a bar chart against gridlines and typing it (one bar; then a bar that is not the tallest; then the total of two named bars)
 - Age band: `6-8`
 - Interaction pattern: `P11` — keypad entry (one- or two-digit answers; physical keyboard digits also work)
-- Estimated build size: ~500 lines
+- Frame: THE CLIMB
+- Estimated build size: ~640 lines
 
-Shared contract: `catalogue/BUILD-CONVENTIONS.md` §1-§14. Pattern contract: `catalogue/PATTERNS.md` P11 (the shape of 019 with a chart in place of the blocks). Data rule (F-118): gridlines and integer axis labels are ALWAYS drawn — the child never estimates a bar tip; every bar is a whole number of 20-px rows; all bars share one fill token so no bar is marked out by colour; category icons are the same size under every bar. Level order follows F-118: read one bar (L1) → read the asked bar among taller and shorter neighbours (L2, the compare step: "the asked one, not the biggest") → the total of two bars (L3). Content is language-neutral (bars, gridlines, numerals, animal icons); no `LOCALE_DATA`. Nothing is spoken.
+Shared contract: `catalogue/BUILD-CONVENTIONS.md` §1-§14, with §7's zone A/B/C replaced by the MISSION LAYOUT of `design/MISSIONS.md` §1.4 (zone W / zone H) and §6's progress display replaced by a diegetic one. Frame contract: `design/MISSIONS.md` FRAME 14 THE CLIMB, with a FRAME 3 THE OPENING move at L3. Pattern contract: `catalogue/PATTERNS.md` P11 — unchanged; the keypad is no longer an answer box beside a picture, it is the hoist control, and the display is painted on the moving object. Data rule (F-118): gridlines and integer axis labels are ALWAYS drawn — the child never estimates a bar tip; every bar is a whole number of 15-px storeys; all bars share one fill token so no bar is marked out by colour; category icons are the same size on every tower. Level order follows F-118: read one bar (L1) → read the asked bar among taller and shorter neighbours (L2, the compare step: "the asked one, not the biggest") → the total of two bars (L3). Content is language-neutral (towers, storey lines, numerals, animal icons); no `LOCALE_DATA`. Nothing is spoken.
 
 ## Learning
 - Objective: Finds the bar the question ring points at, reads its top against the gridlines and axis labels, and types that number (at the third level, the total of the two ringed bars).
 - Prerequisites: Reads and types numerals to 20; counts a column of cells (game 003); has read a one-to-one pictograph (game 119). Reads the short caption or the ringed icon alone.
 - Curriculum links: F-1 (data/graphs in 5 of 15 sources), F-21 ("tables, pictograms and bar charts" in 11 of 12 systems — Norway at 10), F-31 row "Pictogram / bar chart" — conservative 7-8, earliest 6 → 6-8 (US 1.MD.C.4 "ask and answer questions about the total number of data points, how many in each category" / 2.MD.D.10 "draw a … bar graph … solve simple put-together … problems using information presented in a bar graph" — the L3 total verbatim; England Y2 "interpret and construct simple … block diagrams … ask and answer questions about totalling"; Germany Klasse 2 "Säulendiagramme lesen"; France CE1 "lire un diagramme en barres"; Netherlands groep 4 "staafdiagram aflezen"; Spain 1º ciclo "gráficos de barras"; Brazil EF02MA22 "gráficos de colunas"; Sweden åk 1-3 "enkla tabeller och diagram"; Denmark 2. klasse "søjlediagram"; Finland grade 2 "pylväsdiagrammi"). F-101 (counting rows), F-105 (counting on for the total), F-102 (digit order when typing two digits).
 - Common misconceptions (F-118, F-101, F-105, F-102), each with this game's response:
-  1. **Bar tip misread by one (reads the gridline below the tip, or counts the tip's own line as an extra row).** Response: a wrong answer of n ± 1 makes the asked bar **count its rows** from the base — each 20-px row lights in turn with `ART.rowBadge` 1, 2, 3 … (`tone("tap", k)`), the last badge grows (`ANIM.lastBadge`) — and `ART.tipLine` is drawn across the chart at the bar's top while the matching axis label (`ART.axisLabel`) pulses (`ANIM.pulse`); the count and the label agree in front of the child.
-  2. **Reads the wrong bar — the tallest, or the neighbour of the asked one ("graph-as-picture": the biggest is the answer).** Response: from L2 the asked bar is never the tallest; a wrong answer equal to another bar's height dims every other bar (`ANIM.dimOthers`), pulses the question ring on the asked icon (`ART.askRing`, `ANIM.pulse`) and shades the asked bar (`ART.barShade`) before its rows count.
-  3. **Types the number of bars or of icons ("4") instead of a height.** Response: the same enacted row-count on the asked bar; the display clears with `ANIM.nudge`; nothing on the chart ever has the number of bars written on it.
-  4. **L3 total answered with one bar's height, or with the difference (F-105: not counting ON).** Response: the two ringed bars count their rows in sequence — bar A's rows 1 … a, then bar B's rows continue a + 1 … a + b (the count does not restart) — and `ART.sumStrip` (a + b cells drawn end to end beside the chart) shows the total as one length; `ART.plusMark` sits between the two rings.
-  5. **Two-digit answer typed in reverse (12 as 21 — F-102; de/nl/da word order).** Response: on the third attempt the answer builds itself on the display digit by digit while the sum strip shows a ten-row and the remaining cells (`ART.tenRow` + cells); the child re-types it.
+  1. **Bar tip misread by one (reads the gridline below the tip, or counts the tip's own line as an extra row).** Response: the ±1 is enacted before it is explained — the plank extends and meets **brickwork one storey below the parapet** (typed n − 1) or reaches **out over air one storey above it** (typed n + 1), and the gap between the plank and the roof edge is exactly one storey line with the owl standing on the wrong one. Then the asked tower **counts its storeys** from the street — each 15-px storey lights in turn with `ART.rowBadge` 1, 2, 3 … (`tone("tap", k)`), the last badge grows (`ANIM.lastBadge`) — and `ART.tipLine` is drawn from the mast across to the tower at its roof while the matching mast numeral (`ART.axisLabel`) pulses (`ANIM.pulse`); **the plank itself slides up and lies along that same line**, so the count, the label and the reading edge agree in front of the child.
+  2. **Reads the wrong bar — the tallest, or the neighbour of the asked one ("graph-as-picture": the biggest is the answer).** Response: from L2 the asked tower is never the tallest; a wrong answer equal to another tower's height sends the owl **to the wrong house** — the plank stops at the first roof it is level with, she steps out onto it, and that resident has **no hook and a dark window**, shakes their head once and small (`ANIM.headShake`) and looks back along the street to the ringed resident who is still standing there waiting. Then the other towers dim (`ANIM.dimOthers`), the question ring pulses (`ART.askRing`, `ANIM.pulse`) and `ART.towerShade` covers the asked tower before its storeys count. Nobody is cross with anybody; the head-shake is at the lantern, never at the child.
+  3. **Types the number of bars or of icons ("4") instead of a height.** Response: 4 is an altitude like any other — the cradle rides to storey 4 and the plank meets brickwork — then the same enacted storey-count on the asked tower. The guarantee is now structural rather than promised: nothing in the town anywhere displays how many towers there are, and the number on the cradle is manifestly a **height**, because it is painted on a thing that is at that height.
+  4. **L3 total answered with one bar's height, or with the difference (F-105: not counting ON).** Response: the tower on the empty plot rises to exactly what was set and the two residents move in and stack — A's storeys, then B's storeys **continuing** on top, never restarting — so a short tower leaves the upper resident's head standing proud of the roof by precisely the shortfall, and a tall one leaves exactly that many empty storeys above their heads; they step back down onto the pavement of their own accord. Then the two ringed towers count their storeys in sequence — tower A's 1 … a, then tower B's continue a + 1 … a + b (the count does not restart) — and `ART.sumStrip` (the plot tower's own storey blocks, a + b of them) lights in the same sequence, showing the total as one built height; `ART.plusMark` sits between the two rings.
+  5. **Two-digit answer typed in reverse (12 as 21 — F-102; de/nl/da word order).** Response: the literal reversal is **refused by the winch** — 21 is not a floor on a nineteen-storey mast, so the drum clunks (`ANIM.drumClunk`), the second digit never enters, and the cradle is left down at storey 2 against a 12-storey roof, which is the diagnosis made physical. A reversal that *is* reachable (15 for 12) rides to the wrong height and refuses normally. On the third attempt the answer builds itself on the cradle's own numeral **tens digit first**, while the cradle rides to storey 10 and `ART.tenRow` — the heavier tenth storey line on the mast — pulses; then the ones digit, and the cradle rides the remaining k. The show-me is a ride: ten first, then the rest. The child re-types it.
+
+## Mission
+**The mission, as a child would say it.** *Get a lantern up to everybody on the street.*
+
+**The hero.** Bramble the owl, the street's lamplighter (roster animal `owl`, ART-BIBLE §3 — a new library entry with five poses: `owl.idle` / `.think` / `.happy` / `.hang` as the `act` pose / `.oops`). She carries a lit lantern **in both wings, across her chest**, which is the wordless reason she does not simply fly: her wings are full. So she rides the hoist cradle up the mast. Her body is `surface2` tints with `ink` markings and a `surface` face disc — **no coral anywhere on her**, because the one coral on this screen is the ask ring and it means *this is the house*.
+
+**The want (the visible lack), drawn from the first frame.** A resident stands out on a parapet holding an **empty hook**, with a **dark window** behind them, and the owl is stopped in her lift at the wrong height, one storey below, lantern lit in her wings. That is a single still frame and it contains the whole game: somebody is waiting, the thing they need is here, and it is at the wrong height. The gap between the plank's edge and the roof edge is the lack, and it is measured in storeys the child can count off the mast. Nothing about it is written down (F-42's zero-prose requirement, met by a picture).
+
+**The goal.** Every dark window on this street lit. The residents cannot reach the street; the owl brings the lantern up, and they come down to the pavement with it lit.
+
+**The single state variable `S` = the storey the cradle is standing on.**
+- **Mathematical reading:** the value the child has read off the chart — the height of the ringed bar; at L3 the total of the two ringed bars.
+- **Physical reading:** the owl's altitude on the mast, and therefore **the line the gangplank will lie along**.
+
+The two readings are the same number because **the mast IS the y-axis of the chart**. Its storey lines are the gridlines, its painted numerals 0-19 are the axis labels, and the cradle rides it. When the child sets `S = 6` the plank extends right with its top edge exactly on gridline 6 — the child is not *reporting* a reading, they are **drawing the reading line with their own body**. `S` is never empty and never buffered: the cradle's painted numeral always reads the storey the cradle is on, so the display and the world cannot disagree.
+
+**The isomorphism.** *The number you set is the height you go to, and the plank you arrive on is the gridline you were asked to read.* Reading a bar chart is physically one act — put a straight edge on the bar's top, run it across to the axis, and read the number where it lands. This game runs that act backwards, with the child's body on the straight edge. The plank is the straight edge, made an object, driven by the child. A bar chart is already a picture of altitudes against a scale, so the bars become towers with no distortion whatever — same widths, same fill for every one (F-118), same integer gridlines, same labels — and the axis becomes the thing the hero climbs. MISSIONS §2.4a is literally true here: **the trail IS the number line.**
+
+**Not solve-then-move.** The cradle rides on **every digit tap**, during DECIDE-to-ACT, before any commit — so the child watches the answer travel up the scale and can see it is short before they ever hoist. The commit then reads a position and nothing else:
+
+```
+// L1 / L2 — a geometric fit between two rendered objects
+plank.topY = 396 - 15 * cradle.storey
+land       = (plank.stopX === asked.x) && (plank.topY === asked.roofY)
+
+// L3 — do both residents fit in what you built?
+scaffold.storeys === residentA.storeys + residentB.storeys
+```
+
+There is no `answer` field consulted anywhere in the commit path. `answer = f(character.position)`, so the F-42 gate's Displacement check (F2) is satisfied by construction rather than by argument.
+
+**The L3 transition is a THE OPENING move** (MISSIONS §6.1): two residents are moving in together, and the tower on the empty plot **rises to exactly the height the owl sets**. The quantity supplied *is* the extent produced, so partial knowledge produces partial, countable, non-punishing progress.
+
+**The mark that stays.** A served resident comes down to the near pavement holding a lit lantern and stays there for the rest of the session. Over 12 items the street gathers 12-20 of them (L3 items deliver two households at once). They are the actual animals from the actual charts, so the pavement is a record of *who was served*, never a count of *how many boxes are filled* (MISSIONS §5 Device 2; F-44's "task completing" verbatim).
+
+**The character is never the consequence.** On every refusal her pose is `think` and she **looks at the gap**. She never falls, never wobbles, never slips and never pulls an `oops` face at a wrong hoist. The cradle is a boxed lift with a guard bar on a fixed rope. The reviewer check is one screenshot: her pose on a wrong hoist is the same body at the same size as on a right one.
+
+**Never shipped, and named here so they are not proposed later** (MISSIONS §5 banned list, GAME-DESIGN-LAW §3.1): she does not fall, the rope does not fray, the cradle does not slip a storey, the lantern does not go out, the residents do not give up or go inside, and **the dusk never deepens** — the sky is one flat value for the whole session and for the Finish scene. The town is already dark and the owl is lighting it; there is no deadline of any kind.
+
+## World
+**Stage 720 × 560, `Scale.FIT`, static camera, no scrolling.** Layout per MISSIONS §1.4.
+
+**ZONE T (0-56) — chrome only.** Language picker at (16, 16), hidden under `?embed=1`. Nothing else at all: no progress strip, no item counter, no prose.
+
+**ZONE W (56-420) — THE STREET.** The board, the hero, the destination and the history are all in here at every moment of the session, and the destination's coordinate never changes within an item.
+
+*The mast — which is the y-axis.* `ART.mast`, a 6-px `structure` column at **x = 120**, from y = 396 up to y = 104, with `ART.mastCap` at 100-104 and `ART.drum` (the winch) at its head. **Storey 0 is the street at y = 396; the pitch is 15 px; storey k sits at y = 396 − 15k** — so storey 1 = 381, 5 = 321, 6 = 306, 10 = 246, 15 = 171 and **19 = 111**, the top of the cradle's travel. `ART.gridLine` runs 1 px `line` from x = 126 to x = 700 at every k = 1 … 19, with k = 5, 10 and 15 drawn 2 px `inkSoft` as a reading aid. `ART.street` is 3 px `ink` at y = 396 from x = 40 to x = 700 — the k = 0 line. `ART.axisLabel` paints the numerals **0 … 19** at 16 px `THEME.font.display` `THEME.colour.inkSoft`, right-aligned at x = 108 and centred on each line. Every integer is labelled, so F-118 is intact: they are the floor numbers painted up the mast.
+
+*The lift.* `ART.cradle`, a 56 × 34 open box centred at **x = 156** with its floor on the current storey line, hung from `ART.rope`. The owl (`ART.owlIdle` and her sibling poses) is 40 px with her feet on the cradle floor, centred at x = 168. `ART.altitudePlate` carries `ART.altitude`, the storey numeral at 22 px `THEME.font.display` `THEME.colour.structure` on a 30 × 24 `surface` plate at (134, floor − 16) — **painted on the cradle's outer panel**, one saccade from the roof it is being compared against. `ART.plank` is a 10-px `structure` bar whose **top edge is exactly on the storey line**, extending from x = 184 rightward to its stop, drawn after the towers so it runs along the near side of the street in front of them.
+
+*The towers — the bars.* Every one the same fill, `structureSoft` with a 2-px `structure` stroke, height 15 × value rising from y = 396. **L1: three towers, 60 wide, centred at x = 270 / 400 / 530. L2 and L3: four towers, 52 wide, centred at x = 250 / 360 / 470 / 580.** A 10-storey roof sits at y = 246. **Residents stand on the roofs, not under the bars:** the species icon at 30 px (the same size on every tower, F-118) with its feet on the roof line, which frees the street band entirely and makes the roof edge unambiguous. Each carries `ART.windowDark` or `ART.windowLit` on the storey below the parapet. The **asked** resident sits inside `ART.askRing` with `ART.questionMark` at (towerX + 28, roof − 36) and holds `ART.hook`, an empty lantern hook. That ring is **the only coral on the screen** (two rings at L3).
+
+*The empty plot (L3 only).* Centred at **x = 660**, 52 wide. `ART.plot` is a dashed `line` foundation on the street; `ART.scaffold` is a dashed 52-wide column rising from it **to the cradle's current storey**, moving only when the child taps a digit. The two ringed residents wait on the pavement at (640, 419) and (684, 419) with `ART.plusMark` between them.
+
+*The pavement — the progress display.* A band from y = 400 to y = 420 in `structureSoft`. Served residents stand here at 24 px with their feet at y ≈ 419 and their heads at ≈ 395, **below the street line, so no tower base is ever occluded** — a 1-storey tower spans 381-396 and stays fully readable. There are **20 authored irregular spots** across x = 214 … 600, each with its own foot jitter of up to 3 px and its own facing, filled in an **authored scatter order** rather than left to right (spots and order in Content). Overlap of up to 6 px between neighbours is intended and drawn back to front: this is a crowd, not a row of slots.
+
+**ZONE H (420-560) — THE HOIST DESK.** Not empty: THE CLIMB's instrument sets altitude, and here it is the P11 keypad. **Two interactive elements by the F-69 reading in GAME-DESIGN-LAW §5.1** — the keypad is one instrument, the lever is one control. Twelve physical targets, every one at or above the 56-px band floor. **Nothing in zone W is a tap target** — not a tower, not a resident, not the plot — so the child drives the world entirely from the desk and can never disturb the street by touching it.
 
 ## How it plays
-1. **Start screen**: title "Bar Chart Reader", the koala (`ART.koala`) at (360, 200), Start button, language picker (hidden under `?embed=1`).
-2. **Item 1 (L1: three bars — dog 4, cat 6, rabbit 2; asked: cat)**: rail of 12 dots (§6) at y = 28; `t("question_x_of_y")` at (360, 48), 18 px `THEME.colour.inkSoft`. Zone A/B left: the chart — `ART.axisY` from (120, 96) to (120, 300) and `ART.axisX` from (120, 300) to (420, 300); eleven `ART.gridLine`s at y = 300 − 20 u for u = 0 … 10, each with `ART.axisLabel` ("0" … "10") right-aligned at x = 104; three bars (`ART.bar`, 56 wide) rising from the base line at x = 180 / 270 / 360 with heights 20 × value (dog 80, cat 120, rabbit 40); under each bar its category icon at y = 328 (`ART.dog` / `ART.cat` / `ART.rabbit`, 36 px); the ASKED icon (cat) sits inside `ART.askRing` with `ART.questionMark` beside it at (270, 362). The koala at (60, 240) looks at the chart. Zone B left-bottom: the caption `S("howTall")` ("How many?") at (170, 388), 22 px `THEME.font.body` `THEME.colour.inkSoft`, `wordWrap` 220; the display card (`ART.card`, 180 × 72) at (170, 440) with `ART.display` (44 px) empty. Zone A/B right: the keypad — nine keys (`ART.key`, 60 × 60) in a 3 × 3 grid at x = 536 / 604 / 672, y = 130 / 198 / 266, labelled 1-9 in phone order; a fourth row at y = 334: backspace (`ART.key` with `ART.backGlyph`) at (536, 334) and 0 at (604, 334). Zone C: OK (`makeButton ok`) at (420, 440), disabled until the display holds a digit.
-3. **Typing**: the child taps digits; each appears on `ART.display` (`ANIM.digitIn`), `tone("tap")`; up to two digits are accepted (a third tap is ignored). Backspace removes the last digit. Physical keys 0-9, Backspace and Enter do the same. OK enables at the first digit.
-4. **Check**: the child taps OK (or Enter).
-   - **Correct (6)**: the display `ANIM.pop`s, `tone("correct")`; the asked bar counts its rows once anyway (`ART.rowBadge` 1 … 6, rising tones) and `ART.tipLine` appears at its top with the axis label "6" pulsing — the reading is modelled on every success (F-43); `GameCore.showPraise` (next key in rotation); the koala `ANIM.nod`; the rail dot fills; after 900 ms the next item builds (`ANIM.grow`: bars rise from the base) with an empty display.
-   - **Wrong, 5 or 7 (tip misread)**: `tone("nudge")`; the display clears with `ANIM.nudge`; the asked bar counts its rows with the tip line and the pulsing label; the badges stay visible; OK disables until a digit is typed. Attempt 2.
-   - **Wrong, another bar's height (4 or 2)**: nudge; the other bars dim (`ANIM.dimOthers`), the ask ring pulses, the asked bar shades (`ART.barShade`), then its rows count. Attempt 2.
-   - **Wrong, anything else (3, 10, 12 …)**: nudge; the asked bar's rows count with the tip line. Attempt 2.
-   - **Wrong again (attempt 2)**: the same enactment; then the show-me: the correct answer builds itself on the display digit by digit (`ANIM.digitIn`, tens digit first while `ART.tenRow` pulses in the sum strip if the answer is ≥ 10, then the ones digit), stays 1200 ms and clears; the child re-types it and taps OK, which now carries the show-me ring (`ART.showRing`, `ANIM.showMe`); solved-with-help (no praise pop). A still-wrong re-type rebuilds the answer again until it is entered.
-5. **Re-queue** (F-41): an item answered wrong first-try re-enters after 2 intervening items with its bar ORDER shuffled; the item count stays 12 (it replaces the last unplayed item of the same level).
-6. **Items 2-12**: per Content/Rules. L1 = three bars, values ≤ 6, any bar asked; L2 = four bars (x = 165 / 235 / 305 / 375, 48 wide), values ≤ 10, the asked bar never the tallest and never the shortest; L3 = four bars, TWO ringed icons with `ART.plusMark` between them, the caption `S("howManyTogether")` ("How many together?"), answers 7-19.
-7. **Finish**: `t("all_done")` (360, 110); the koala (360, 200) `ANIM.celebrate`; the summary = twelve mini charts (`ART.miniChart`, 48 × 40: the item's bars at 3 px per unit with the read bar(s) drawn in `structure` and the others in `line`, the answer numeral above in 16 px `THEME.colour.structure`) in two rows of six from y = 330 (x = 135 + i × 90), first-try items with `ART.dotFull` at their left, helped items `ART.dotEmpty` — what was read unaided, not a score; `play_again` (250, 510), `menu` (470, 510); `tone("finish")`; `GameCore.reportHeight()`.
+1. **Start screen**: `S("title")` ("The Lantern Lift"), the owl (`ART.owlIdle`, 96 px) at (360, 210) holding her lit lantern, `makeButton start` at (360, 380), language picker (hidden under `?embed=1`). A breathing idle is allowed here and nowhere else (ART-BIBLE §6). Never auto-starts.
+2. **Item 1 (L1: three towers — dog 4, cat 6, rabbit 2; asked: cat)**: the street builds. `ART.sky` washes zone W; `ART.street`, `ART.mast`, `ART.mastCap`, `ART.drum`, the nineteen `ART.gridLine`s and the numerals 0 … 19 draw once and never move again for the whole session. Three towers `ANIM.grow` from the street at x = 270 / 400 / 530 with heights 60, 90, 30; their residents (`ART.dog`, `ART.cat`, `ART.rabbit`) settle on the roofs at y = 336, 306 and 366; each shows `ART.windowDark`. The cat is inside `ART.askRing` with `ART.questionMark` and holds `ART.hook`. The cradle sits at storey 0 with `ART.altitude` reading "0" and the owl in `ART.owlIdle`, wings full. **Zero tweens are running and every target is enabled: this is the DECIDE beat.**
+3. **Setting the altitude**: the child taps a digit. `tone("tap")`; `ART.altitude` changes to the new value with `ANIM.digitIn`; **the cradle rides** (`ANIM.ride`, 18 ms per storey, floor 120 ms, cap 300 ms) and the plate rides with it. Targets are disabled for the ride, so the freeze assertion holds; a tap during a ride is ignored silently. The first digit after a hoist **replaces** the value rather than appending to it; a second digit appends; backspace steps the value back and the cradle rides down. **Appending a digit that would set an altitude above 19 is refused by the object**: `ART.drum` clunks (`ANIM.drumClunk`, `tone("nudge")`) and the digit does not enter — the mast is nineteen storeys, and you cannot hoist to a floor that is not there. Physical keys 0-9, Backspace and Enter do the same.
+4. **The hoist**: the child taps the lever (or Enter). It is **always enabled**, because the cradle is always somewhere. `ART.plank` extends right (`ANIM.plankOut`, 260 ms) — and the fit is known at 260 ms, which is the feedback, well inside F-40's 300 ms.
+   - **Correct (6)**: the plank lands on the cat's parapet. The owl crosses it (`ANIM.walkOut`, 480 ms, pose `ART.owlHang`), hangs the lantern on the hook (`ANIM.hang`, 200 ms), `ART.windowLit` replaces `ART.windowDark` (`ANIM.windowLight`), `tone("correct")`. The asked tower counts its storeys once anyway (`ART.rowBadge` 1 … 6, rising tones) with `ART.tipLine` at its roof and the mast numeral "6" pulsing — the reading is modelled on every success (F-43). `GameCore.showPraise` (next key in rotation); the owl swaps to `ART.owlHappy`. The resident then **descends to the pavement** (`ANIM.descend`) and stands there holding the lit lantern for the rest of the session. The owl walks back into the cradle during the 900 ms transition, and **the cradle stays where it is** — she does not teleport home, and the street does not reset (MISSIONS L2 persistence).
+   - **Wrong, 5 or 7 (tip misread)**: the plank meets brickwork one storey below the parapet, or reaches over air one storey above it and tips 4° before withdrawing (`ANIM.nudge` / `ANIM.plankTip`, `tone("nudge")`). The owl holds `ART.owlThink` and looks at the gap. Then misconception 1's enactment: the asked tower counts its storeys, `ART.tipLine` grows from the mast to the tower at its roof, the mast numeral pulses, and the plank slides up to lie along the same line. Badges stay visible. Attempt 2.
+   - **Wrong, another tower's height (4 or 2)**: the plank stops at the first roof it is level with; the owl steps out and **the wrong resident has no hook and a dark window**. `ANIM.headShake`, once, small. She walks back. Then `ANIM.dimOthers` on the rest, `ART.askRing` pulsing, `ART.towerShade` over the asked tower, then its storeys count. Attempt 2.
+   - **Wrong, anything else (3, 10, 12 …)**: the plank meets brickwork or air; the asked tower's storeys count with the tip line. Attempt 2.
+   - **Wrong again (attempt 2)**: the same enactment, then the show-me — the correct number builds itself on `ART.altitude` digit by digit (`ANIM.digitIn`, tens digit first while the cradle rides to storey 10 and `ART.tenRow` pulses if the answer is 10 or more, then the ones digit and the remaining ride), holds 1200 ms and returns the cradle to where the child left it; the child re-types it and taps the lever, which now carries `ART.showRing` (`ANIM.showMe`); solved-with-help (no praise pop). A still-wrong re-type rebuilds the number again until it is entered. **There is no attempt 4 and no way to end a session other than finishing.**
+5. **Re-queue** (F-41): an item answered wrong first-try re-enters after 2 intervening items with its tower ORDER shuffled; the item count stays 12 (it replaces the last unplayed item of the same level). The re-queued item is dealt around the owl at her current altitude — she is not carried back (MISSIONS §8.3 R5).
+6. **Items 2-12**: per Content and Rules. L1 = three towers, values ≤ 6, any tower asked; L2 = four towers, values ≤ 10, the asked tower never the tallest and never the shortest; L3 = four towers with TWO ringed residents and `ART.plusMark` between them, waiting on the pavement beside the empty plot at x = 660. **At L3 the plank always travels to the plot, never to a roof**, so a total that happens to equal a standing tower's height cannot be mistaken for an arrival. Each digit tap makes `ART.scaffold` rise or fall to the cradle's storey (`ANIM.scaffoldGrow`); the lever builds the tower to that height in `ART.sumStrip` blocks (`ANIM.cellIn`) and the two residents move in and stack (`ANIM.moveIn`) — A's storeys, then B's continuing on top. Fit and they both come down to the pavement with lit lanterns; short or tall and the mismatch stands there in storeys before they step back down.
+7. **Finish**: the scene **re-draws the world at its play coordinates** (MISSIONS §9.1 item 6) rather than showing a summary panel — the mast with its 0-19 numerals still painted up it, the last block of towers standing on the same gridlines, and the whole session's residents gathered on the pavement each holding a lit lantern, the owl standing among them rather than above them (`ART.owlHappy`, `ANIM.celebrate`). Because every tower still sits on the same scale, **the finish frame is itself a readable bar chart** — the last thing the child sees is the apparatus they spent six minutes learning to read, with the town lit. `t("all_done")` at (360, 96); `play_again` (250, 510); `menu` (470, 510); `tone("finish")` once; `GameCore.reportHeight()`. The first-try record is kept **warm, not scored**: residents read unaided hold their lantern **raised**, and residents the owl helped hold it low with **her wing over their shoulder** — she came down with them. No score, no stars, no dots, nothing about time.
 
-Session ≈ 6 minutes.
+Session ≈ 6 minutes. Total ACT time ≈ 29 s against the 60 s ceiling of MISSIONS §8.3 R1: 12 hoists ≈ 11.3 s, about 2.2 digit rides per item ≈ 5.3 s, about 3.6 corrections ≈ 10 s, walk-backs ≈ 2.5 s.
 
 ## Art registry
 ```js
 const ART = {
-  koala:        { kind: "emoji", value: "🐨", size: 72 },
-  dog:          { kind: "emoji", value: "🐶", size: 36 },
-  cat:          { kind: "emoji", value: "🐱", size: 36 },
-  rabbit:       { kind: "emoji", value: "🐰", size: 36 },
-  fish:         { kind: "emoji", value: "🐟", size: 36 },
-  bird:         { kind: "emoji", value: "🐦", size: 36 },
-  turtle:       { kind: "emoji", value: "🐢", size: 36 },
-  axisY:        { kind: "shape", shape: "rect", w: 3, h: 204, fill: "ink" },
-  axisX:        { kind: "shape", shape: "rect", w: 300, h: 3, fill: "ink" },
-  gridLine:     { kind: "shape", shape: "rect", w: 300, h: 1, fill: "line" },
-  axisLabel:    { kind: "text",  value: "", size: 16, font: "display", color: "inkSoft" },   // "0".."10"
-  bar:          { kind: "shape", shape: "rect", w: 56, h: 120, fill: "structureSoft", stroke: "structure", strokeWidth: 2 },   // h = 20 × value, origin at its bottom edge; w 48 for four-bar charts
-  barShade:     { kind: "shape", shape: "rect", w: 56, h: 120, fill: "accent" },     // drawn over the asked bar at alpha 0.25 during the wrong-bar cue
-  askRing:      { kind: "shape", shape: "circle", r: 26, stroke: "accent", strokeWidth: 4 },
+  owlIdle:      { kind: "svg", value: LCSArt.get("owl.idle"),  size: 40, fallback: "🦉" },   // 96 px master; 40 on the cradle, 96 on Boot/Finish
+  owlThink:     { kind: "svg", value: LCSArt.get("owl.think"), size: 40, fallback: "🦉" },   // every refusal; she looks at the gap
+  owlHappy:     { kind: "svg", value: LCSArt.get("owl.happy"), size: 40, fallback: "🦉" },
+  owlHang:      { kind: "svg", value: LCSArt.get("owl.hang"),  size: 40, fallback: "🦉" },   // the `act` pose: reaching out with the lantern
+  owlOops:      { kind: "svg", value: LCSArt.get("owl.oops"),  size: 40, fallback: "🦉" },   // Boot demo only; NEVER used on a wrong hoist
+  lantern:      { kind: "svg", value: LCSArt.get("lantern"),   size: 26, fallback: "🏮" },   // lit; carried in both wings, then hung, then held
+  hook:         { kind: "svg", value: "<svg viewBox='0 0 24 24'>… an open J-hook, 2 px 'line' stroke, no fill …</svg>", size: 18 },
+  dog:          { kind: "emoji", value: "🐶", size: 30 },
+  cat:          { kind: "emoji", value: "🐱", size: 30 },
+  rabbit:       { kind: "emoji", value: "🐰", size: 30 },
+  fish:         { kind: "emoji", value: "🐟", size: 30 },
+  bird:         { kind: "emoji", value: "🐦", size: 30 },
+  turtle:       { kind: "emoji", value: "🐢", size: 30 },
+  sky:          { kind: "shape", shape: "rect", w: 720, h: 340, fill: "surface2" },          // fixed dusk, centred (360,226); NEVER changes value
+  street:       { kind: "shape", shape: "rect", w: 660, h: 3, fill: "ink" },                 // the k = 0 line, centred (370,396)
+  pavement:     { kind: "shape", shape: "rect", w: 720, h: 20, fill: "structureSoft" },      // centred (360,410)
+  mast:         { kind: "shape", shape: "rect", w: 6, h: 292, fill: "structure" },           // centred (120,250); the y-axis
+  mastCap:      { kind: "shape", shape: "roundRect", w: 18, h: 6, fill: "structure", radius: 3 },
+  drum:         { kind: "shape", shape: "circle", r: 14, fill: "surface2", stroke: "structure", strokeWidth: 3 },   // the winch; clunks above storey 19
+  rope:         { kind: "shape", shape: "rect", w: 2, h: 292, fill: "inkSoft" },
+  gridLine:     { kind: "shape", shape: "rect", w: 574, h: 1, fill: "line" },                // x 126..700, at every k = 1..19
+  gridLineMajor:{ kind: "shape", shape: "rect", w: 574, h: 2, fill: "inkSoft" },             // k = 5, 10, 15 — the reading aid
+  axisLabel:    { kind: "text",  value: "", size: 16, font: "display", color: "inkSoft" },   // "0".."19", right-aligned at x = 108
+  cradle:       { kind: "shape", shape: "roundRect", w: 56, h: 34, fill: "surface", stroke: "structure", strokeWidth: 3, radius: 6 },
+  altitudePlate:{ kind: "shape", shape: "roundRect", w: 30, h: 24, fill: "surface", stroke: "structure", strokeWidth: 2, radius: 6 },
+  altitude:     { kind: "text",  value: "", size: 22, font: "display", color: "structure" }, // ALWAYS reads S; never empty
+  plank:        { kind: "shape", shape: "rect", w: 120, h: 10, fill: "structure" },          // w set at runtime to the stop distance; TOP edge on the storey line
+  tower:        { kind: "shape", shape: "rect", w: 52, h: 150, fill: "structureSoft", stroke: "structure", strokeWidth: 2 },   // h = 15 × value, origin at its bottom edge; w 60 for three-tower charts
+  towerShade:   { kind: "shape", shape: "rect", w: 52, h: 150, fill: "accent" },             // alpha 0.25 over the ASKED tower only, during the wrong-house cue
+  windowDark:   { kind: "shape", shape: "rect", w: 14, h: 18, fill: "inkSoft" },
+  windowLit:    { kind: "shape", shape: "rect", w: 14, h: 18, fill: "surface", stroke: "structure", strokeWidth: 2 },
+  askRing:      { kind: "shape", shape: "circle", r: 22, stroke: "accent", strokeWidth: 4 },
   questionMark: { kind: "text",  value: "?", size: 26, font: "display", color: "accent" },
   plusMark:     { kind: "text",  value: "+", size: 28, font: "display", color: "structure" },
-  rowBadge:     { kind: "shape", shape: "circle", r: 9, fill: "bg" },                // numeral 11 px structure at each 20-px row's centre
-  tipLine:      { kind: "shape", shape: "rect", w: 300, h: 3, fill: "accent" },      // across the chart at the asked bar's top; dashed via lineDash [8,6]
-  sumStrip:     { kind: "shape", shape: "rect", w: 14, h: 14, fill: "accent", stroke: "bg", strokeWidth: 1 },   // one cell per counted row, laid end to end beside the chart (L3)
-  tenRow:       { kind: "shape", shape: "rect", w: 140, h: 14, fill: "structure", stroke: "bg", strokeWidth: 1 },   // ten cells bundled; nine hairline notches
-  card:         { kind: "shape", shape: "roundRect", w: 180, h: 72, fill: "surface", stroke: "structure", strokeWidth: 3, radius: 14 },
-  display:      { kind: "text",  value: "", size: 44, font: "display", color: "ink" },
-  key:          { kind: "shape", shape: "roundRect", w: 60, h: 60, fill: "surface", stroke: "line", strokeWidth: 2, radius: 12 },   // digit 28 px display ink
+  plot:         { kind: "shape", shape: "rect", w: 52, h: 6, stroke: "line", strokeWidth: 2 },            // dashed foundation, lineDash [6,5]
+  scaffold:     { kind: "shape", shape: "rect", w: 52, h: 150, stroke: "line", strokeWidth: 2 },         // dashed, no fill; h = 15 × S
+  sumStrip:     { kind: "shape", shape: "rect", w: 52, h: 15, fill: "structureSoft", stroke: "structure", strokeWidth: 1 },   // ONE storey block of the plot tower
+  rowBadge:     { kind: "shape", shape: "circle", r: 9, fill: "bg" },                        // numeral 11 px structure at each 15-px storey's centre
+  tipLine:      { kind: "shape", shape: "rect", w: 574, h: 3, fill: "structure" },           // mast to tower at the asked roof; dashed via lineDash [8,6]
+  tenRow:       { kind: "shape", shape: "rect", w: 574, h: 4, fill: "structure" },           // the tenth storey line drawn heavier during the show-me
+  key:          { kind: "shape", shape: "roundRect", w: 56, h: 56, fill: "surface", stroke: "line", strokeWidth: 2, radius: 12 },   // digit 28 px display ink
   backGlyph:    { kind: "text",  value: "⌫", size: 28, font: "display", color: "structure" },
-  showRing:     { kind: "shape", shape: "roundRect", w: 232, h: 84, stroke: "structure", strokeWidth: 4, radius: 22 },
-  miniChart:    { kind: "shape", shape: "rect", w: 48, h: 40, stroke: "line", strokeWidth: 1 },
-  dotEmpty:     { kind: "shape", shape: "circle", r: 8, stroke: "line", strokeWidth: 2 },
-  dotFull:      { kind: "shape", shape: "circle", r: 8, fill: "structure" }
+  showRing:     { kind: "shape", shape: "roundRect", w: 172, h: 96, stroke: "structure", strokeWidth: 4, radius: 22 }
 };
 ```
-No other emoji or shape parameters appear anywhere in the game. Every bar uses the same fill; the asked bar is marked by the RING on its icon (and the shade during a cue), never by colour alone. Icons are all 36 px.
+No other emoji or shape parameters appear anywhere in the game. **Exactly one `accent` fill and one `accent` stroke are declared** — `ART.askRing` (with its `?`) and `ART.towerShade`, which marks the *same object for the same reason* and is visible only during the wrong-house cue: one meaning, two moments. `ART.owlOops` exists for the roster's completeness and the Boot demo and is **never** drawn on a wrong hoist. Every tower uses the same fill; the asked tower is marked by the RING on its resident, never by colour alone. Roof icons are all 30 px; pavement icons are all 24 px. **`ART.dotEmpty` and `ART.dotFull` are not declared at all**: the crowd is the progress display, on the play surface and on Finish, and a token standing for a lit lantern would be exactly the thing F-66 forbids.
 
 ## Animation registry
 ```js
 const ANIM = {
-  digitIn:   { alpha: 1, scale: 1, duration: 120, ease: "Back.Out", trigger: "a digit appears on the display (from alpha 0, scale 0.6); also the show-me digits" },
-  nudge:     { x: "+=10", duration: 80, ease: "Sine.InOut", yoyo: true, repeat: 1, trigger: "display on a wrong answer (then its text is cleared)" },
-  pop:       { scale: 1.12, duration: 140, ease: "Back.Out", yoyo: true, trigger: "display on a correct answer" },
-  badgeIn:   { alpha: 1, scale: 1, duration: 150, ease: "Back.Out", trigger: "row badges in turn from the base, 180 ms apart (from alpha 0, scale 0.5)" },
-  lastBadge: { scale: 1.5, duration: 220, ease: "Back.Out", yoyo: true, trigger: "the last row badge of the asked bar (or of the second bar at L3)" },
-  pulse:     { scale: 1.3, duration: 300, ease: "Sine.InOut", yoyo: true, repeat: 2, trigger: "the matching axis label; the ask ring; tenRow during the show-me" },
-  dimOthers: { alpha: 0.3, duration: 250, ease: "Sine.Out", yoyo: true, hold: 1200, trigger: "every bar except the asked one(s) during the wrong-bar cue" },
-  shadeIn:   { alpha: 0.25, duration: 250, ease: "Sine.Out", yoyo: true, hold: 1200, trigger: "barShade over the asked bar (from alpha 0)" },
-  tipIn:     { alpha: 1, scaleX: 1, duration: 300, ease: "Sine.Out", trigger: "tipLine grows across the chart from the axis (scaleX from 0, origin at its left end)" },
-  cellIn:    { alpha: 1, scale: 1, duration: 120, ease: "Back.Out", trigger: "each sumStrip cell as its row is counted (from alpha 0, scale 0.5)" },
-  grow:      { scaleY: 1, duration: 400, ease: "Sine.Out", trigger: "new item's bars rise from the base line (scaleY from 0, origin at the bar's bottom), 80 ms apart" },
-  fadeOut:   { alpha: 0, duration: 300, ease: "Sine.In", trigger: "badges, tip line and strip between items" },
-  nod:       { angle: 10, duration: 120, ease: "Sine.InOut", yoyo: true, repeat: 1, trigger: "koala on a correct answer" },
-  showMe:    { alpha: 1, duration: 500, ease: "Sine.InOut", yoyo: true, repeat: -1, trigger: "ring around OK during the show-me (from alpha 0.2)" },
-  celebrate: { angle: 8, duration: 120, ease: "Sine.InOut", yoyo: true, repeat: 3, trigger: "finish koala" }
+  ride:        { duration: 200, ease: "Sine.InOut", trigger: "the cradle container tweens to y = 396 − 15 × S on EVERY digit tap and backspace; the game sets duration = clamp(18 × |ΔS|, 120, 300)" },
+  digitIn:     { alpha: 1, scale: 1, duration: 120, ease: "Back.Out", trigger: "the altitude numeral changes (from alpha 0, scale 0.6); also the show-me digits" },
+  drumClunk:   { angle: 3, duration: 90, ease: "Sine.InOut", yoyo: true, repeat: 1, trigger: "the winch drum when a digit would set an altitude above 19 — the digit does not enter" },
+  plankOut:    { scaleX: 1, duration: 260, ease: "Sine.Out", trigger: "the plank extends right from the cradle (scaleX from 0, origin at its left end)" },
+  plankTip:    { angle: 4, duration: 200, ease: "Sine.InOut", yoyo: true, trigger: "the plank tips down over air on an over-hoist, then withdraws" },
+  plankBack:   { scaleX: 0, duration: 200, ease: "Sine.In", trigger: "the plank withdraws after any refusal or delivery" },
+  nudge:       { x: "+=10", duration: 80, ease: "Sine.InOut", yoyo: true, repeat: 1, trigger: "the plank pressing against brickwork on an under-hoist" },
+  walkOut:     { duration: 480, ease: "Sine.InOut", trigger: "the owl container tweens along the plank to the roof (x set by the game); pose swaps to owlHang on arrival" },
+  walkBack:    { duration: 480, ease: "Sine.InOut", trigger: "the owl returns into the cradle, inside the inter-item gap" },
+  hang:        { y: "-=6", duration: 200, ease: "Back.Out", yoyo: true, trigger: "the lantern lifts onto the hook" },
+  windowLight: { alpha: 1, duration: 300, ease: "Sine.Out", trigger: "windowLit replaces windowDark (from alpha 0)" },
+  descend:     { duration: 360, ease: "Sine.In", trigger: "a served resident travels from its roof to its authored pavement spot" },
+  headShake:   { angle: 6, duration: 120, ease: "Sine.InOut", yoyo: true, repeat: 1, trigger: "the WRONG house's resident, once and small — never a frown, never at the child" },
+  scaffoldGrow:{ scaleY: 1, duration: 240, ease: "Sine.Out", trigger: "the dashed scaffold follows the cradle's storey (origin at its bottom)" },
+  moveIn:      { duration: 320, ease: "Sine.InOut", trigger: "the two L3 residents travel from the pavement up into the finished plot tower and stack" },
+  badgeIn:     { alpha: 1, scale: 1, duration: 150, ease: "Back.Out", trigger: "storey badges in turn from the street, 180 ms apart (from alpha 0, scale 0.5)" },
+  lastBadge:   { scale: 1.5, duration: 220, ease: "Back.Out", yoyo: true, trigger: "the last storey badge of the asked tower (or of the second tower at L3)" },
+  pulse:       { scale: 1.3, duration: 300, ease: "Sine.InOut", yoyo: true, repeat: 2, trigger: "the matching mast numeral; the ask ring; tenRow during the show-me" },
+  dimOthers:   { alpha: 0.3, duration: 250, ease: "Sine.Out", yoyo: true, hold: 1200, trigger: "every tower except the asked one(s) during the wrong-house cue" },
+  shadeIn:     { alpha: 0.25, duration: 250, ease: "Sine.Out", yoyo: true, hold: 1200, trigger: "towerShade over the asked tower (from alpha 0)" },
+  tipIn:       { alpha: 1, scaleX: 1, duration: 300, ease: "Sine.Out", trigger: "tipLine grows from the mast toward the tower (scaleX from 0, origin at its left end)" },
+  cellIn:      { alpha: 1, scale: 1, duration: 120, ease: "Back.Out", trigger: "each sumStrip storey block of the plot tower as it is built (from alpha 0, scale 0.5)" },
+  grow:        { scaleY: 1, duration: 400, ease: "Sine.Out", trigger: "a new item's towers rise from the street (scaleY from 0, origin at the tower's bottom), 80 ms apart" },
+  fadeOut:     { alpha: 0, duration: 300, ease: "Sine.In", trigger: "badges and the tip line between items" },
+  showMe:      { alpha: 1, duration: 500, ease: "Sine.InOut", yoyo: true, repeat: -1, trigger: "the ring around the lever during the show-me (from alpha 0.2)" },
+  celebrate:   { angle: 8, duration: 120, ease: "Sine.InOut", yoyo: true, repeat: 3, trigger: "the finish owl" }
 };
 ```
-No flashing: `showMe` at 1 Hz; `pulse` three half-cycles; the row count is one sequence; bars never toggle visibility.
+No flashing: `showMe` at 1 Hz; `pulse` three half-cycles; the storey count is one sequence; towers never toggle visibility. Poses are discrete swaps between the five `owl.*` drawings, never tweens. **Nothing in this registry runs while a choice is open** — the DECIDE beat has zero tweens (F-42), and the 8-second inactivity cue disables targets for its 900 ms so the freeze assertion is never violated by it. **The instant-cut test (GAME-DESIGN-LAW test C) patches only the traversal entries** — `ride`, `plankOut`, `plankBack`, `walkOut`, `walkBack`, `descend`, `moveIn`, `scaffoldGrow`, `grow` — to `duration: 0`; the enacted correction (`badgeIn`, `lastBadge`, `pulse`, `tipIn`, `cellIn`, `dimOthers`, `shadeIn`) is the teaching, its duration may never fall, and zeroing it would turn EF 0.49 elaborated feedback into KR 0.05 while reporting the game as passing.
 
 ## Screen layout
 ```
 y   0 ┌──────────────────────────────────────────────────────────────┐
-      │ [lang]     ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○  rail y=28; "3 of 12" y=48  │  zone T
+      │ [lang 16,16]                                                 │  zone T  0-56
  56   ├──────────────────────────────────────────────────────────────┤
-      │ 10┤                                    [1] [2] [3]  y=130    │
-      │  8┤        ▐█▌                          [4] [5] [6]  y=198    │  zone A
-      │  6┤        ▐█▌  gridlines every 20 px   [7] [8] [9]  y=266    │
-      │  4┤  ▐█▌   ▐█▌                          [BK][0]     y=334    │
-      │  2┤  ▐█▌   ▐█▌   ▐█▌                    x=536/604/672 (60×60)│
-      │  0└──┴─────┴─────┴────── axisX y=300, x=120..420             │
-      │ koala  dog  (cat)? rabbit  icons y=328; ring on the asked one │  zone B
-      │ (60,240) x=180 x=270 x=360                                    │
-      │     "How many?" (170,388)                                    │
-      │     [   6    ] card (170,440)      [   OK   ] (420,440)      │
-480   ├──────────────────────────────────────────────────────────────┤
-      │                                                              │  zone C
+      │19┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄ y=111        │
+      │  │                                                           │
+      │15═══════════════════════════════════════════════ y=171 (2px) │  zone W
+      │  │                            (cat)?                         │  56-420
+      │10═══════════════════════ y=246  ▓▓▓                          │  THE WORLD
+      │ 8┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ▓▓▓ ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄     │
+      │ 6┄┄┄[6]▐▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ plank top edge y=306    │
+      │ 4┄┄┄│▓│┄┄┄┄┄┄┄┄ (dog)  ▓▓▓       ▓▓▓        (rabbit) ▓▓▓     │
+      │ 2┄┄┄└─┘┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ▓▓▓       ▓▓▓                 ▓▓▓     │
+      │ 0═══════════════════════▓▓▓═══════▓▓▓═════════════════▓▓▓════ │ street y=396
+      │ mast x=120  cradle x=156   x=270    x=400              x=530 │
+      │ ..pavement y=400-420: the crowd of lit residents, 24 px..    │
+420   ├──────────────────────────────────────────────────────────────┤
+      │  [1] [2] [3] [4] [5]        y=458                            │  zone H
+      │                          [BK] y=490          [  HOIST  ]     │  420-560
+      │  [6] [7] [8] [9] [0]        y=522            (588,490)       │
 560   └──────────────────────────────────────────────────────────────┘
 ```
-(Bars in the diagram are drawn as blocks; BK = backspace.) Four-bar charts use x = 165 / 235 / 305 / 375 with 48-px bars; the L3 sum strip is laid horizontally along y = 96 from x = 130 rightward (14 px per cell, up to 19 cells = 266 px, ending before x = 400), above the chart's top gridline. Fixed layout, FIT scaling.
+Mast x = 120, storey 0 at y = 396, pitch 15 px, storey k at y = 396 − 15k, k = 0 … 19 (storey 19 = y 111). Gridlines x 126 → 700; the street x 40 → 700. Cradle centred x = 156 with its floor on the storey line; the owl at x = 168; the altitude plate at x = 134. The plank runs from x = 184 rightward with its TOP edge on the storey line. Towers: three at x = 270 / 400 / 530, 60 wide (L1); four at x = 250 / 360 / 470 / 580, 52 wide (L2, L3); the L3 plot at x = 660, 52 wide, its two waiting residents at (640, 419) and (684, 419). Keypad: row 1 `1 2 3 4 5` centred y = 458 and row 2 `6 7 8 9 0` centred y = 522, both at x = 60 / 124 / 188 / 252 / 316 (56 × 56, pitch 64); backspace 56 × 56 at (392, 490); the hoist lever 160 × 84 at (588, 490). Fixed layout, FIT scaling, no scrolling, static camera. **There is no progress strip and no item counter anywhere on the play surface**: the goal is on screen from the first frame (the ringed resident's hook, at a constant coordinate for the item) and the distance to it is the number of storey lines between the plank and the parapet, which the child can count on the mast.
 
 ## Visual specification
-- Background `THEME.colour.bg`; rail per §6: 12 × `ART.dotEmpty` (x = 239 + i × 22) → `ART.dotFull`; `t("question_x_of_y")` at (360, 48).
-- Chart: `ART.axisY` centred (120, 198); `ART.axisX` centred (270, 300); `ART.gridLine`s centred (270, 300 − 20 u), u = 0 … 10, with `ART.axisLabel` at (104, 300 − 20 u); bars `ART.bar` with their bottom edge on y = 300 at the x positions above (`h` = 20 × value; `w` 56 for three bars, 48 for four); icons at y = 328; `ART.askRing` around the asked icon(s) with `ART.questionMark` at (icon x + 30, 362); at L3 `ART.plusMark` midway between the two ringed icons at y = 362.
-- Cues: `ART.rowBadge` at the asked bar's centre x, y = 300 − 20 (k − 0.5) for row k; `ART.tipLine` centred (270, bar top); `ART.barShade` over the asked bar; `ART.sumStrip` cells along y = 96 from x = 130 (pitch 14) at L3, with `ART.tenRow` replacing the first ten cells during the show-me.
-- `ART.koala` at (60, 240). Caption at (170, 388). `ART.card` at (170, 440) with `ART.display` centred (right-aligned within a 140-px box so digits fill from the left as typed).
-- Keypad: 11 × `makeTile` 60 × 60 with `ART.key` tokens; digit labels 28 px `THEME.font.display` `THEME.colour.ink`; the backspace tile's label is `ART.backGlyph`. Gaps 8 (pitch 68) — accepted for a keypad whose neighbouring keys are equivalent-risk targets; every key is ≥ 56.
-- OK: `makeButton ok` at (420, 440), alpha 0.5 while disabled; `ART.showRing` around it during the show-me.
-- Tab order: keys 1-9 in reading order, backspace, 0, then OK. Physical keyboard: `keydown` for 0-9, Backspace, Enter (PATTERNS P11). Bars and icons are not focusable.
+- Background `THEME.colour.bg`; `ART.sky` washes zone W as one flat `THEME.colour.surface2` value **for the whole session and the Finish scene — it never darkens, brightens or shifts**; `ART.pavement` in `THEME.colour.structureSoft` from y = 400 to 420.
+- Mast: `ART.mast` centred (120, 250), `ART.mastCap` centred (120, 102), `ART.drum` centred (120, 94), `ART.rope` centred (120, 250) behind the cradle. `ART.gridLine` centred (413, 396 − 15k) for k = 1 … 19, replaced by `ART.gridLineMajor` at k = 5, 10, 15; `ART.street` centred (370, 396); `ART.axisLabel` right-aligned at x = 108, centred on each line, 16 px `THEME.font.display` `THEME.colour.inkSoft` — cap height about 11 px against a 15 px pitch.
+- Lift: `ART.cradle` centred (156, floor − 17); the owl pose centred (168, floor − 20) at 40 px; `ART.altitudePlate` centred (134, floor − 16) carrying `ART.altitude` at 22 px, which **always reads S and is never blank**; `ART.plank` from x = 184 rightward with its top edge on y = 396 − 15 × S, drawn AFTER the towers so it passes in front of them.
+- Towers: `ART.tower` with its bottom edge on y = 396 at the x positions above, `h` = 15 × value, `w` 60 for three towers and 52 for four; the resident icon at 30 px with its feet on the roof line; `ART.windowDark` (or `ART.windowLit` once served) centred on the storey below the parapet. `ART.askRing` around the asked resident with `ART.questionMark` at (towerX + 28, roof − 36) and `ART.hook` at (towerX + 16, roof − 14). At L3 both ringed residents wait on the pavement with `ART.plusMark` midway between them at y = 419, `ART.plot` centred (660, 393) and `ART.scaffold` with its bottom edge on y = 396.
+- Cues: `ART.rowBadge` at the asked tower's centre x, y = 396 − 15 (k − 0.5) for storey k; `ART.tipLine` from x = 126 to the tower's far edge at the roof's y; `ART.towerShade` over the asked tower at alpha 0.25; `ART.tenRow` overlaying the k = 10 line during the show-me; `ART.sumStrip` blocks stacked on the plot from y = 396 upward, one per storey, at L3.
+- Progress: the pavement crowd. **Twenty authored spots**, drawn back to front, each a served resident at 24 px holding `ART.lantern`, feet at y = 419 with its own jitter of up to 3 px and its own facing. Heads reach y ≈ 395, below the street line, so a 1-storey tower (381-396) is never occluded. It is a cluster, not a row: neighbours may overlap by up to 6 px.
+- Keypad: 11 × `makeTile` 56 × 56 with `ART.key` tokens; digit labels 28 px `THEME.font.display` `THEME.colour.ink`; the backspace tile's label is `ART.backGlyph`. Gaps 8 (pitch 64) — accepted for a keypad whose neighbouring keys are equivalent-risk targets; every key is at least 56. Backspace clears the digit column by 20 px and the lever by 88.
+- Lever: `makeButton ok` 160 × 84 at (588, 490), drawn as a wooden handle, label `t("ok")`; **always enabled**; `ART.showRing` around it during the show-me.
+- Tab order: keys 1-9 in reading order, then 0, then backspace, then the lever. Physical keyboard: `keydown` for 0-9, Backspace and Enter (PATTERNS P11). Towers, residents, the plot and the cradle are not focusable and are not tap targets.
+- Contrast and meaning: no text on `THEME.colour.accent`; the ring is paired with `?` and with the empty hook, so the asked house is never signalled by colour alone; a lit window differs from a dark one in fill AND in stroke AND by the lantern its resident holds.
 
 ## Content
-Language-neutral except the two captions (game-specific strings). Category words map to ART keys: dog `ART.dog`, cat `ART.cat`, rabbit `ART.rabbit`, fish `ART.fish`, bird `ART.bird`, turtle `ART.turtle`. An item = (bars as category: value, in display order; asked; answer). Bars are displayed in the order written.
-- **L1** (three bars, values ≤ 6; any bar asked): (dog 4, cat 6, rabbit 2; cat; 6) · (fish 3, bird 5, turtle 1; fish; 3) · (rabbit 6, dog 2, cat 4; dog; 2) · (bird 2, turtle 5, fish 4; turtle; 5) · (cat 5, rabbit 3, dog 6; rabbit; 3) · (turtle 4, fish 1, bird 3; bird; 3)
-- **L2** (four bars, values ≤ 10; the asked bar is neither the tallest nor the shortest): (dog 7, cat 4, rabbit 9, fish 2; dog; 7) · (bird 3, turtle 8, cat 6, dog 10; cat; 6) · (fish 5, rabbit 9, bird 7, turtle 1; bird; 7) · (cat 8, dog 3, turtle 5, fish 10; turtle; 5) · (rabbit 4, bird 9, dog 6, cat 2; rabbit; 4) · (turtle 10, fish 6, cat 8, bird 3; fish; 6) · (dog 5, rabbit 2, fish 8, turtle 9; fish; 8)
-- **L3** (four bars; two ringed; answer = their total, 7-19): (dog 4, cat 6, rabbit 3, fish 8; dog + cat; 10) · (bird 7, turtle 5, cat 2, dog 9; bird + turtle; 12) · (fish 6, rabbit 8, bird 4, turtle 3; rabbit + bird; 12) · (cat 9, dog 7, turtle 6, fish 2; cat + turtle; 15) · (rabbit 5, bird 3, dog 8, cat 10; rabbit + bird; 8) · (turtle 9, fish 10, cat 4, bird 6; fish + turtle; 19) · (dog 6, rabbit 7, fish 5, bird 2; rabbit + fish; 12) · (cat 3, turtle 4, dog 10, rabbit 6; cat + turtle; 7)
+Language-neutral. Category words map to ART keys: dog `ART.dog`, cat `ART.cat`, rabbit `ART.rabbit`, fish `ART.fish`, bird `ART.bird`, turtle `ART.turtle`. An item = (towers as category: value, in display order; asked; answer). Towers are displayed in the order written. **All 21 items are carried over unchanged from the pre-frame spec.**
+- **L1** (three towers, values ≤ 6; any tower asked): (dog 4, cat 6, rabbit 2; cat; 6) · (fish 3, bird 5, turtle 1; fish; 3) · (rabbit 6, dog 2, cat 4; dog; 2) · (bird 2, turtle 5, fish 4; turtle; 5) · (cat 5, rabbit 3, dog 6; rabbit; 3) · (turtle 4, fish 1, bird 3; bird; 3)
+- **L2** (four towers, values ≤ 10; the asked tower is neither the tallest nor the shortest): (dog 7, cat 4, rabbit 9, fish 2; dog; 7) · (bird 3, turtle 8, cat 6, dog 10; cat; 6) · (fish 5, rabbit 9, bird 7, turtle 1; bird; 7) · (cat 8, dog 3, turtle 5, fish 10; turtle; 5) · (rabbit 4, bird 9, dog 6, cat 2; rabbit; 4) · (turtle 10, fish 6, cat 8, bird 3; fish; 6) · (dog 5, rabbit 2, fish 8, turtle 9; fish; 8)
+- **L3** (four towers; two ringed; answer = their total, 7-19; the plank always travels to the plot at x = 660): (dog 4, cat 6, rabbit 3, fish 8; dog + cat; 10) · (bird 7, turtle 5, cat 2, dog 9; bird + turtle; 12) · (fish 6, rabbit 8, bird 4, turtle 3; rabbit + bird; 12) · (cat 9, dog 7, turtle 6, fish 2; cat + turtle; 15) · (rabbit 5, bird 3, dog 8, cat 10; rabbit + bird; 8) · (turtle 9, fish 10, cat 4, bird 6; fish + turtle; 19) · (dog 6, rabbit 7, fish 5, bird 2; rabbit + fish; 12) · (cat 3, turtle 4, dog 10, rabbit 6; cat + turtle; 7)
 
-Play list: 12 items with re-queue (How it plays §5); start at L1; shuffle within the level without repeats; level changes per Rules; if a pool is exhausted it is reused reshuffled with the bar order re-dealt. Two consecutive items never share an answer.
+**Two content invariants the world now depends on, both verified against this pool:**
+1. **Every item's tower heights are distinct** (checked across all 21 items at L1, L2 and L3). This makes "the plank stops at the first roof it is level with" unambiguous under any re-queue shuffle.
+2. **At L3 the plank never seeks a roof.** Necessary: the item (rabbit 5, bird 3, dog 8, cat 10; rabbit + bird; 8) carries a tower of height 8 on the street, and a roof-seeking plank would land on it. The destination is always the plot, which removes the collision entirely.
 
-Worked example: item 1 (cat 6) types 6 → the cat bar counts 1 … 6, the tip line lands on "6", praise · item 2 (fish 3) first-try → L2 · item 3 (dog 7 among 4, 9, 2) types 9 → nudge; the other bars dim, the ring pulses, the dog bar shades and counts 1 … 7; types 7 (helped) → L1 · items 4-5 first-try → L2 · items 6-7 first-try → L3 · item 8 (dog 4 + cat 6) types 6 → nudge; the dog bar counts 1 … 4 and the cat bar continues 5 … 10 while ten strip cells appear; types 10 (helped) → L2 · item 3 returns at position 10 with its bars re-dealt and is solved first-try · items 11-12 first-try → Finish shows twelve mini charts.
+**The twenty pavement spots**, x from left to right: 214, 233, 259, 276, 301, 318, 347, 362, 389, 404, 431, 449, 468, 494, 511, 533, 552, 573, 588, 600. **Fill order (authored, deliberately not left to right):** 5, 1, 8, 3, 11, 6, 2, 9, 4, 12, 7, 10, 15, 13, 18, 14, 20, 16, 19, 17. A row of slots filling in sequence would be a progress meter with animals drawn on it; a scattered crowd is the object itself in its new state (MISSIONS §5 Device 2).
+
+Play list: 12 items with re-queue (How it plays §5); start at L1; shuffle within the level without repeats; level changes per Rules; if a pool is exhausted it is reused reshuffled with the tower order re-dealt. **Two consecutive items never share an answer** — load-bearing twice over now, because a carried-over cradle altitude must never win the next item without a reading.
+
+Worked example: item 1 (cat 6) — the child taps 6, the cradle rides from storey 0 to storey 6 and stops level with the cat's parapet, the lever sends the plank out, the owl crosses and hangs the lantern; the cat's window lights, the cat comes down to pavement spot 5, and the cat tower counts 1 … 6 with the tip line on "6" · item 2 (fish 3) first-try, the fish walks down to spot 1 → L2 · item 3 (dog 7 among 4, 9, 2) — the child taps 9, the cradle rides to 9 and the plank lands on the RABBIT's roof, whose resident has no hook and a dark window and shakes their head; the owl walks back; the other towers dim, the ring pulses, the dog tower shades and counts 1 … 7; the child taps backspace then 7 (helped) → L1 · items 4-5 first-try → L2 · items 6-7 first-try → L3 · item 8 (dog 4 + cat 6) — the child taps 6, the scaffold on the plot rises to 6, the lever builds a 6-storey tower, the two move in and the cat's head stands 4 storeys proud of the roof; they step back down; the dog tower counts 1 … 4 and the cat tower continues 5 … 10 while ten storey blocks light on the plot; the child taps 1 then 0 (helped) and both come down with lanterns → L2 · item 3 returns at position 10 with its towers re-dealt around the owl at her current altitude and is solved first-try · items 11-12 first-try → the Finish scene re-draws the street with the whole crowd on the pavement.
 
 ## Rules
 - Item count: 12 (including re-queued repeats, which replace unplayed items).
-- Difficulty progression: after 2 consecutive first-try correct answers, the next item comes from the next level up (cap L3). "First-try correct" = the first OK was correct.
-- Adaptation: a wrong answer on an item, or wrong first-try on 2 consecutive items, moves the NEXT item one level down (floor L1). The current item is never abandoned; a missed item re-queues after 2 items.
-- Stuck rule (an inactivity cue, never a clock): if 8 s pass with no key tapped, the ask ring `ANIM.pulse`s once; repeats every 8 s. Nothing about time is displayed; nothing ends.
-- What happens on a correct answer: `ANIM.pop` on the display, `tone("correct")`, the asked bar(s) count their rows once (badges, rising tones, the tip line, the pulsing label), praise rotation ["well_done", "great_job", "excellent", "you_did_it", "keep_going"], koala `ANIM.nod`, rail dot fills, next item after 900 ms.
-- What happens on a wrong answer (per anticipated mistake):
-  - **Tip misread by one (5 or 7 for 6)**: `tone("nudge")`, display clears with `ANIM.nudge`; the asked bar counts its rows from the base, `ART.tipLine` grows across at its top and the axis label pulses.
-  - **Another bar's height typed (the tallest or a neighbour)**: the other bars `ANIM.dimOthers`, the ask ring pulses, `ART.barShade` covers the asked bar, then its rows count.
-  - **The number of bars or icons typed (3 or 4)**: the asked bar counts its rows with the tip line; nothing on the chart shows the number of bars.
-  - **L3: one bar's height or the difference typed**: the first ringed bar counts 1 … a, the second continues a + 1 … a + b, and `ART.sumStrip` cells appear one per counted row beside the chart.
-  - **Digits reversed (21 for 12)**: the row count; on attempt 3 the answer builds tens digit first while `ART.tenRow` pulses in the strip, then the ones digit.
-  - **A third digit typed**: ignored (no error, no sound).
-- Retry behaviour: attempt 1 unaided → attempt 2 with the counted, badged bar in view → attempt 3 the answer builds itself and the child re-types it with the ringed OK; solved-with-help. No attempt 4 (a still-wrong re-type just rebuilds the answer again until it is entered).
-- Finish condition: 12 items solved → Finish scene. No losing state; the only exits are Finish or Menu.
+- Difficulty progression: after 2 consecutive first-try correct answers, the next item comes from the next level up (cap L3). "First-try correct" = the first hoist was correct.
+- Adaptation: a wrong hoist on an item, or wrong first-try on 2 consecutive items, moves the NEXT item one level down (floor L1). The current item is never abandoned; a missed item re-queues after 2 items and is dealt around the owl where she is standing.
+- **ANTI-BRUTE-FORCE GUARD — named, as GAME-DESIGN-LAW §6 requires: THE MAST IS NINETEEN STOREYS, AND THE CRADLE PASSES EVERY ONE.** P1's tile re-shuffle is unavailable here, because a station that jumps when you knock on it destroys the world's constancy and the street must stay a place. Three parts replace it. (a) **The candidate set is the scale, not a shelf** — twenty storeys, identical every item, so the *candidates* never move while the *answer* varies; a uniform random hoist lands at about 1 in 20 and a plausible small-number guesser at about 1 in 7, so **a random tapper reaches the show-me ladder on roughly 90 % of items**, which is F-65's requirement met by arithmetic rather than by assertion. (b) **The cradle travels through every storey on the way** at 18 ms each, so a wild setting is watched going past the answer with the numerals under the child's eye the whole way — guessing is strictly slower than reading and it puts the scale in front of them while it happens. (c) **Commitment is a one-way door**: an item hoisted wrong even once never counts as first-try, the owl must walk back before the next attempt, and the first wrong hoist already fires the enacted storey-count, so a second uninformed guess is dominated by reading the count now on the screen. The ladder terminates at three.
+- Stuck rule (an inactivity cue, never a clock): if 8 s pass with no tap, `ART.askRing` pulses once (`ANIM.pulse`, 900 ms, targets disabled for its duration so the freeze assertion holds); repeats every 8 s. Nothing about time is displayed; nothing ends.
+- What happens on a correct answer: the plank lands on the parapet, `tone("correct")`, the owl crosses (`ANIM.walkOut`), hangs the lantern (`ANIM.hang`), the window lights (`ANIM.windowLight`), the asked tower counts its storeys once anyway (badges, rising tones, the tip line, the pulsing mast numeral), praise rotation ["well_done", "great_job", "excellent", "you_did_it", "keep_going"], the owl swaps to `ART.owlHappy`, the resident descends to its authored pavement spot and **stays there for the rest of the session**, next item after 900 ms with the cradle left exactly where it is.
+- What happens on a wrong answer (per anticipated mistake), always as a refusal by the world and never as anything done to the owl — her pose is `ART.owlThink` on every one of them:
+  - **Below the roof (5 for 6)**: the plank meets brickwork; `ANIM.nudge`, `tone("nudge")`; she looks up at the parapet one storey above her; then the asked tower counts its storeys from the street, `ART.tipLine` grows from the mast at its roof, the mast numeral pulses and the plank slides up to lie along that line.
+  - **Above the roof (7 for 6)**: the plank passes over the roof and finds air; she leans out, sees the roof below her, the plank tips 4° (`ANIM.plankTip`) and withdraws; then the same storey count.
+  - **Another tower's height typed (the tallest or a neighbour)**: the plank stops at the first roof it is level with; she steps out and the wrong resident has no hook and a dark window and shakes their head once (`ANIM.headShake`); she walks back; then `ANIM.dimOthers`, the ring pulses, `ART.towerShade` covers the asked tower, then its storeys count.
+  - **The number of towers or icons typed (3 or 4)**: the cradle rides to that storey and the plank meets brickwork; the asked tower counts its storeys with the tip line; nothing in the town shows how many towers there are.
+  - **L3: one tower's height or the difference typed**: the plot tower rises to what was set, the two residents move in and stack, and the shortfall is the upper resident's head standing proud of the roof by exactly that many storeys (or exactly that many empty storeys stand above their heads); they step back down of their own accord; then tower A counts 1 … a, tower B continues a + 1 … a + b, and the plot's `ART.sumStrip` blocks light in the same sequence.
+  - **An unreachable setting (12 typed as 21)**: `ART.drum` clunks, `tone("nudge")`, and the digit never enters; the cradle stays at storey 2 against a 12-storey roof.
+  - **A third digit typed**: refused by the winch as above (no value above 19 exists), so no third digit is ever accepted.
+- Retry behaviour: attempt 1 unaided → attempt 2 with the counted, badged tower and the tip line still in view → attempt 3 the number builds itself on the cradle's numeral (tens first, the cradle riding to storey 10 with `ART.tenRow` pulsing, then the ones and the remaining ride) and the child re-types it with the ringed lever; solved-with-help. No attempt 4 (a still-wrong re-type rebuilds the number again until it is entered). **Success is certain.**
+- **THE RATCHET RULE**: nothing in this world may decay. A lit window never goes dark, a resident on the pavement never leaves, a built plot tower never comes down, the crowd never shrinks, the dusk never deepens and the owl never loses altitude except by the child's own backspace. A wrong hoist may fail to advance the world; it may never reverse it.
+- Finish condition: 12 items solved → the Finish scene, which re-draws the street at its play coordinates. **No losing state; there is no way to end a session other than finishing; the only exits are Finish or Menu.** No score, no stars, no badges, nothing measuring time.
 
 ## Strings
-- `GameCore.t()` keys: `t("start")`, `t("ok")`, `t("question_x_of_y")`, `t("all_done")`, `t("play_again")`, `t("menu")`, `t("well_done")`, `t("great_job")`, `t("excellent")`, `t("you_did_it")`, `t("keep_going")`.
-- Game-specific (`STRINGS.en`, via `S(key)`): `title` = "Bar Chart Reader"; `howTall` = "How many?"; `howManyTogether` = "How many together?". No animal is ever named in text.
+- `GameCore.t()` keys: `t("start")`, `t("ok")` (the hoist lever — no new string is invented; it is already localised in 11 languages), `t("all_done")`, `t("play_again")`, `t("menu")`, `t("well_done")`, `t("great_job")`, `t("excellent")`, `t("you_did_it")`, `t("keep_going")`.
+- Game-specific (`STRINGS.en`, via `S(key)`): `title` = "The Lantern Lift". That is the whole game-specific string set, and it appears on the start screen only.
+- **Text budget (F-42 / F-6), band 6-8, at most 8 English words including the mission premise: 3 words.** There are **zero authored words on the play surface**. The pre-frame captions "How many?" and "How many together?" are deleted, and so is the item counter; the premise is a picture — a dark street, dark windows, residents on parapets with empty hooks, and an owl holding a lit lantern in a lift. No animal is ever named in text.
 
 ## Sound
-`GameCore.tone` only (§11): `tone("tap")` on each key; `tone("tap", k)` per row badge during a count (pitch climbs with the bar; at L3 the second bar continues the climb — F-213); `tone("correct")` on a correct answer; `tone("nudge")` on a wrong answer; `tone("finish")` once. Silent under `?sound=off`; no audio files. No sound carries meaning the screen does not also show.
+`GameCore.tone` only (BUILD-CONVENTIONS §11): `tone("tap")` on each digit and on backspace; `tone("tap", k)` per storey badge during a count, so the pitch climbs with the tower, and at L3 the second tower continues the climb rather than restarting (F-213); `tone("correct")` when the plank lands on the parapet; `tone("nudge")` on every refusal, including the winch clunk above storey 19; `tone("finish")` once. Silent under `?sound=off`; no audio files. No sound carries meaning the screen does not also show — the winch clunk is always paired with the drum's visible 3° rotation and with the digit visibly not entering.
 
 ## Testing checklist
-- [ ] Works in all 11 languages: the picker changes Start, OK, "Question 3 of 12", "All done!", "Play again", "Menu" and the praise pops; the two captions change once translations are loaded; the chart shows no words in any language.
-- [ ] Works at narrow width: in a 400-px-wide iframe the axis with its labels, all bars and icons, the display card, all eleven keys and OK are visible and separate.
-- [ ] Keyboard operable: Tab walks the keys then OK; Enter taps; physical digit keys type, Backspace deletes, Enter checks.
+- [ ] Works in all 11 languages: the picker changes Start, the hoist lever's label, "All done!", "Play again", "Menu" and the praise pops; the street shows no words in any language, in any locale.
+- [ ] Works at narrow width: in a 400-px-wide iframe the mast with all twenty numerals, every gridline, every tower and roof resident, the cradle's altitude numeral, the pavement crowd, all eleven keys and the lever are visible and separate. Measured on the real render at 400 px, never reasoned about: the 15 px pitch is 8.3 px there and the numerals about 8.9 px.
+- [ ] Keyboard operable: Tab walks keys 1-9, then 0, then backspace, then the lever; Enter hoists; physical digit keys set the altitude, Backspace steps it back, Enter hoists.
 - [ ] Never auto-starts.
-- [ ] No losing state: wrong answers never end the session; after two wrong answers the correct number builds itself on the display and re-typing it completes the item.
-- [ ] Every chart shows gridlines at every whole number with a label 0-10 on the axis; every bar top sits exactly on a gridline.
-- [ ] The asked bar's icon sits inside a coral ring with "?"; all bars are the same colour.
-- [ ] Typing one more than the bar's height makes the bar count its rows from the bottom with badges, a dashed line grows across at its top and the matching axis label pulses.
-- [ ] At the second level typing the tallest bar's height dims the other bars, pulses the ring and shades the asked bar before it counts.
-- [ ] At the third level two icons are ringed with "+" between them; typing one bar's height makes the first bar count 1 … a and the second continue a + 1 … a + b while a strip of cells grows above the chart.
-- [ ] A correct answer still makes the asked bar count its rows before the next item.
-- [ ] A missed item comes back two items later with its bars in a different order.
-- [ ] Two first-try corrects in a row bring four-bar charts, then two-bar totals; two misses in a row bring three-bar charts.
-- [ ] The finish screen lists twelve mini charts with their answers, a filled dot for first-try ones and a hollow dot for helped ones; no score, no time.
+- [ ] No losing state: wrong hoists never end the session; after two wrong hoists the correct number builds itself on the cradle and re-typing it completes the item; there is exactly one way for a session to end and it is finishing.
+- [ ] **Mission (deletion test B)**: remove the owl, the cradle, the plank, the residents and the plot, and **no item can be completed at all** — the commit *is* "does the plank meet the roof", so there is no commit path left. Enforced by `mutate-mission.js`.
+- [ ] **Mathematics (deletion test A)**: remove the storey lines, the mast numerals and the tower values, and the plank has no height to be set to and no roof to be level with; every hoist lands, or none does; nothing playable survives.
+- [ ] **Instant-cut (deletion test C)**: patch `ride`, `plankOut`, `plankBack`, `walkOut`, `walkBack`, `descend`, `moveIn`, `scaffoldGrow` and `grow` to `duration: 0` and drive a full session — every state transition, every refusal, every correction, every item outcome and the whole item log are byte-identical; only the elapsed time differs. The patch must NOT touch the correction entries, whose duration may never fall.
+- [ ] **Ratchet rule**: drive a session answering wrong on every item and assert that the count of lit windows, of pavement residents and of built plot storeys never decreases, that no lantern goes out, and that the sky's fill value is identical on frame 1 and on the Finish frame.
+- [ ] **Displacement**: the commit handler reads `cradle.storey` (or `scaffold.storeys`) and no stored `answer` field; grep the commit path for one.
+- [ ] **Freeze (F-42)**: at every decision point of a full driven session, if any target is enabled the running tween count is zero — including during the 8-second inactivity cue.
+- [ ] **ACT budget**: total ACT time per session is at or below 60 s, and no single ACT exceeds 1200 ms (the L3 chain is the tightest at 240 + 320 + 160 + 360 + 120 = 1200 exactly).
+- [ ] **The character is never the consequence**: the wrong-hoist screenshot and the correct-hoist screenshot show the owl in the same body at the same size; her pose on a refusal is `ART.owlThink` and never `ART.owlOops`; she never falls, wobbles or slips.
+- [ ] Every chart shows a gridline at every whole number with a numeral 0-19 painted up the mast, and every roof sits exactly on a gridline.
+- [ ] The asked resident sits inside a coral ring with "?" and holds an empty hook; all towers are the same colour; the ring is the only coral on the screen (two rings at L3).
+- [ ] Typing one more than the tower's height sends the plank out over air one storey above the parapet, then the tower counts its storeys with badges, the dashed line grows from the mast and the matching numeral pulses.
+- [ ] At the second level typing the tallest tower's height lands the plank on THAT roof, whose resident has no hook and a dark window and shakes their head once, before the other towers dim and the asked one shades and counts.
+- [ ] At the third level two residents wait on the pavement with "+" between them, the plank travels to the empty plot and never to a roof, and typing one tower's height builds a short tower with the upper resident's head standing proud of the roof by exactly the shortfall.
+- [ ] Typing a second digit that would set an altitude above 19 makes the winch drum clunk and does not enter the digit.
+- [ ] A correct hoist still makes the asked tower count its storeys before the next item, and the cradle stays at its altitude into the next item.
+- [ ] A missed item comes back two items later with its towers in a different order, dealt around the owl where she is.
+- [ ] Two first-try corrects in a row bring four-tower streets, then two-household totals; two misses in a row bring three-tower streets.
+- [ ] The pavement crowd only ever grows, fills in the authored scatter order rather than left to right, and never occludes a 1-storey tower.
+- [ ] The finish screen re-draws the street at its play coordinates with the whole session's residents on the pavement holding lit lanterns and the owl among them; unaided residents hold theirs raised and helped ones hold theirs low with her wing across their shoulders; no score, nothing about time, no progress dots anywhere.
 - [ ] With `?sound=off` nothing is audible.

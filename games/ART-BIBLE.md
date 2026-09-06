@@ -71,11 +71,11 @@ Every registered entry is listed here with its master size and the game that int
 | `berry` | 64 | 001 The Fox's Bowl | the countable instance. DARK inkSoft tint #55555F: coral would spend the one-coral budget ten times over, teal would lose figure/ground inside the teal 'counted' cell, white is already `egg`. The 5-tick calyx is LOAD-BEARING (a plain circle collides with the count-marker cue) but keep the fan NARROW - wider plus a ring reads as an INSECT on the fruit at 128px |
 | `bowl` | 96x44 | 001 The Fox's Bowl | back + body, drawn BEFORE the contents. NON-SQUARE: the game's ART row MUST set size===w (96). BODY is #E9E1D2, not var(--surface2): #FBF6EE on the #FBF3E4 stage differs by three units and read as a bare outline (measured on the first render) |
 | `bowl.rim` | 96x44 | 001 The Fox's Bowl | near lip, drawn AFTER the contents so they tuck behind it. Outer path byte-identical to `bowl`'s front silhouette - edit both together or the pair splits open |
-| `fox.idle` | 96 | 001 The Fox's Bowl | roster mascot #2. REDRAWN 2026-09-06 (see §11). Side-on standing body, front-facing head; the fox mask IS the head outline. FOUR legs, all 9 wide, all filled paths with their own 3px outline, all with the same white sock; the far pair is offset 9 and its ink-12pc wash covers the RUSSET SHIN ONLY. Body #C2603C is the §9.2 identity tint and spends the whole §9.4 warm-body exemption: NO coral anywhere on this character |
-| `fox.think` | 96 | 001 The Fox's Bowl | head +6deg about (66,32), pupils +2.5. The EARS rotate inside the same `<g>` - a feature that stays put while the skull turns detaches (the hen's comb lesson). BINDING: ear tips at y5, not higher - at y3 the +6deg rotation carries the left tip and its stroke off the top of the viewBox |
-| `fox.happy` | 96 | 001 The Fox's Bowl | crescent eyes, small open mouth, tail `<g>` +14deg about (28,55) - a pivot buried in the haunch. The tail rotation is the ONLY byte differing from the shared body string. Keep the open mouth SMALL: a wide ink mouth on the white snout patch reads as a hole punched in the face at 384 |
-| `fox.oops` | 96 | 001 The Fox's Bowl | SURPRISE, never disapproval. Whites grow r6.2->7.0 while the pupils SHRINK 3.2->2.9; that opposition is what reads as surprise. Separation is derived: centres 19 apart >= 2r+3. BINDING: brows arch to y13.5 with ends at y17.5-19.5 - 5+ clear of the skull outline and 2+ clear of the eyes. A brow drawn ON the outline merges with it and becomes a FROWN |
-| `fox.munch` | 96 | 001 The Fox's Bowl | the `act` pose. The bulged cheek is built INTO this pose's face path (one segment re-curved out to x90), never overlaid as a second shape - an overlaid bulge must close somewhere, and a closing stroke that does not land exactly on the head outline draws a line across the cheek |
+| `fox.idle` | 96 | 001 The Fox's Bowl | roster mascot #2. **THIRD drawing, 2026-09-06 (see §12).** SIDE PROFILE facing screen-right, head turned a few degrees to the viewer. **NO GROUND SHADOW** — operator ruling; this overrides §4 for this mascot. Four fox markings carry it: ink lower legs, an ink-backed ear pair, a brush as thick as the torso with a white tip, and a white throat that runs off into the chest. Body `#C2603C` is the §9.2 identity tint and spends the whole §9.4 warm-body exemption: NO coral anywhere on this character |
+| `fox.think` | 96 | 001 The Fox's Bowl | head +4deg about (66,28), pupils forward and down; ears rotate inside the same `<g>`. **BINDING, and MEASURED:** at +6deg the rotation carried the MUZZLE — not the ear — 1 unit outside the viewBox. Fixed by translating the head 2 units left, never by shortening the muzzle. Re-measure clearance after any change to the head, angle or pivot |
+| `fox.happy` | 96 | 001 The Fox's Bowl | crescent eyes, small open mouth, tail `<g>` +14deg about (25,59) — a pivot buried in the haunch. The tail rotation is the ONLY byte differing from the shared body string. The filled mouth sits BACK from the nose: under it, two ink shapes merge into one blob |
+| `fox.oops` | 96 | 001 The Fox's Bowl | SURPRISE, never disapproval. Whites grow while the pupils SHRINK; that opposition is what reads as surprise. BINDING: brows arch to y12.4, ends y15.8-16.6 — 6+ clear of the skull outline, 2+ clear of the eyes. A brow drawn ON the outline becomes a FROWN |
+| `fox.munch` | 96 | 001 The Fox's Bowl | the `act` pose. The fuller cheek is re-curved INTO this pose's own face and cheek paths, never overlaid — an overlaid bulge must close somewhere, and a closing stroke that misses the outline draws a line across the cheek |
 
 ## §8 The visual-critic rubric (graded on the full screenshot sweep, every locale start screen + en item/wrong/finish at 400/704/1024)
 
@@ -176,3 +176,61 @@ A pass requires all fourteen; the critic names the screenshot and the rule for e
    85 unit tests still passed, because no test names them. Anchor a splice on a string
    unique to the block, and assert both that every entry you meant to replace is inside the
    cut AND that every entry you did not is outside it.
+
+
+## §12 Amendment established by the fox's THIRD drawing (2026-09-06)
+
+The second fox passed every gate in §11 — including §11.1's own 384-px art sheet — and the
+operator rejected it on sight: *"remove the fucking shadow under the fox and improve the fox.
+It should look more realistic. It is a terrible drawing of a fox."*
+
+0. **NO GROUND SHADOW on the fox, any pose.** Operator ruling, direct. It overrides §4's shadow
+   rule for this mascot. (The game also drew a second `foxShadow` on top of it; that is being
+   removed separately.)
+1. ⭐⭐ **"IT READS AT 384" IS NOT "IT IS THE RIGHT ANIMAL."** §11.1 bought the instrument and
+   the habit of looking, and both worked — the second fox had no cut-offs, no clipping, clean
+   outlines, correct tints. It was still a **hamster**. The gates and the sizes sweep test
+   EXECUTION; nothing in the suite tests **IDENTITY**. Before drawing a roster animal, name the
+   three or four markings that distinguish it from its nearest neighbours, and check the finished
+   drawing against that list rather than against the palette rules. For the fox: dark stockings,
+   a brush as thick as the torso with a white tip, a pointed muzzle, ink-backed ears.
+2. ⭐⭐ **A MARKING CAN BE PRESENT AND EXACTLY BACKWARDS.** The second fox had four legs, drawn
+   correctly to §11.2, each carefully finished with a **WHITE SOCK** — and white socks say *not a
+   fox* as loudly as black stockings say *fox*. It is the most identifiable feature on the animal
+   and it was inverted. A checklist that asks "does it have legs" cannot catch this; only
+   "what colour are a red fox's legs, and why" can.
+3. ⭐ **§11.4 IS ABOUT A LOBE STUCK TO A SKULL, NOT ABOUT PROFILES.** The recorded fix — a
+   front-facing mask, so the taper IS the head outline — solved the bolted-on snout and lost the
+   animal, because a front-facing wedge with two big eyes reads as a cat. **A near-profile head
+   satisfies §11.4 better:** the muzzle is a continuation of one unbroken path from throat to
+   jaw to nose to bridge to skull, so there is no lobe to bolt on and no seam to hide. Applies to
+   every pointed-face mascot on the roster.
+4. ⭐ **SWEEP A TAPERING FORM; DO NOT DRAW IT BY EYE.** Four hand-fitted attempts at the brush
+   produced a mitten, a paddle and a hook — uniform width, thickest near the TIP. Generating the
+   outline from a centreline Bézier plus a width profile (24 units at the rump → 11 at the tip)
+   got it right first time. ⚠ Two traps in that construction, each of which shipped a visible
+   defect: the tip cap's **sweep flag** — the wrong one bulges inward and **bites a notch out of
+   the tip**; and the **root cross-section**, which is perpendicular to the tangent, so a root
+   whose tangent is not horizontal hangs its corner below the belly, between the legs.
+5. ⭐ **THE PALE PART OF AN EAR MUST NOT BE WHITE, AND MUST NOT BE SMALL.** §11.6 said small and
+   well inside; taken literally it produced two **white specks** near the ear bases that read as
+   a second pair of eyes. The ear is the ink BACK with a **russet** inner at ~55% of the ear —
+   two shapes, not three. Three shapes (russet ear + ink half + pale speck) read as a split
+   triangle with an accidental mark on it.
+6. ⭐ **THE WHITE MUST RUN OFF INTO THE NECK.** Terminate the throat white on the cheek and it
+   becomes a **scarf**, and the head reads as a separate drawing sitting on the body. Measured
+   against a chin-only variant at 384: the chin-only head detached even more badly. The white
+   throat and the white chest are ONE region interrupted by nothing.
+7. ⭐ **A FILLED MOUTH MAY NOT TOUCH THE NOSE** (they merge into one dark blob), while a mouth
+   **line** may start there, because that is where it starts on the animal.
+8. ⭐ **THE FAR EYE IS SMALLER.** Two identical circles side by side on a turned head read as
+   goggles. 12% is enough.
+9. ⚠ **§11.7's uniqueness guard fired on its first real use — on the file's own HEADER.**
+   `_lib/art.js` documents its entry shape with an indented `LCSArt.register("fox.idle", {`
+   example, so the anchor was not unique and the splice would have edited a comment. Anchor at
+   **column 0**, and keep the both-directions assertion: every entry you meant to replace
+   changed, every entry you did not is byte-identical.
+10. ⚠ **NEVER EDIT A REPO FILE THROUGH PYTHON TEXT MODE** — already recorded in CLAUDE.md §23.6,
+    walked into anyway: `io.open(p,'w')` turned `
+` inside a JS string literal into a real
+    newline and produced a SyntaxError. Pass `newline=''`, or use the Edit tool.

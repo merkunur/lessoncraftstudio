@@ -66,6 +66,13 @@ const T_KEYS = new Set();
 })();
 const PATTERN_IDS = new Set();
 for (const m of patternsSrc.matchAll(/^#{2,3}\s+(P\d{1,2})\b/gm)) PATTERN_IDS.add(m[1]);
+
+/* The fourteen mission frames, read from design/MISSIONS.md the same way PATTERN_IDS is read from
+   PATTERNS.md. A redesigned spec declares one of these; pattern still says how the finger reaches
+   the world. (GAME-DESIGN-LAW.md: frame = the game, pattern = the finger.) */
+const missionsSrc = readSafe(path.join(ROOT, "design", "MISSIONS.md"));
+const FRAME_NAMES = new Set();
+for (const m of missionsSrc.matchAll(/^###\s+FRAME\s+\d+\s+—\s+(.+)$/gm)) FRAME_NAMES.add(m[1].trim());
 const FINDING_IDS = new Set();
 for (const m of findingsSrc.matchAll(/\bF-(\d{1,3})\b/g)) FINDING_IDS.add("F-" + m[1]);
 
@@ -119,6 +126,35 @@ function lintOne(file) {
   const pat = (identity.match(/-\s*Interaction pattern:\s*`?(P\d{1,2})\b/) || [])[1];
   if (!pat) F("ID-PATTERN", "no pattern id (expect 'P<n> — name')");
   else if (PATTERN_IDS.size && !PATTERN_IDS.has(pat)) F("ID-PATTERN", pat + " not in PATTERNS.md");
+  /* ID-FRAME + MISSION-SCHEMA — a REDESIGNED spec declares a frame from MISSIONS.md and gains two
+     headings. CONDITIONAL BY DESIGN: a spec with no "- Frame:" line is a not-yet-redesigned spec and
+     is judged by the original schema, so the corpus keeps linting green right through the programme
+     instead of turning red on day one and training everyone to ignore it.
+     (Operator ruling 2026-09-06 "redesign all 200"; contract in design/GAME-DESIGN-LAW.md.) */
+  const frameM = identity.match(/-\s*Frame:\s*`?([A-Z][A-Z ]*[A-Z])`?/);
+  if (frameM) {
+    const frame = frameM[1].trim();
+    if (FRAME_NAMES.size && !FRAME_NAMES.has(frame)) F("ID-FRAME", "frame '" + frame + "' is not a frame in design/MISSIONS.md");
+    for (const h of ["## Mission", "## World"]) {
+      if (!lines.some((l) => l.trim() === h)) F("MISSION-SCHEMA", "a framed spec must carry the heading '" + h + "'");
+    }
+    const mission = section("## Mission");
+    if (!/single[-\s]state|state variable/i.test(mission)) F("MISSION-SCHEMA", "## Mission must name the single state variable and its two readings (MISSIONS.md 1.1)");
+    if (!/isomorph|moving is solving|the move is|transition/i.test(mission)) F("MISSION-SCHEMA", "## Mission must state the isomorphism — how moving IS solving");
+    const world = section("## World");
+    if (!/zone W|THE WORLD/i.test(world)) F("MISSION-SCHEMA", "## World must lay out zone W per MISSIONS.md 1.4");
+    /* The rail is declared in TWO places in a real spec and in neither of them is it called a
+       "dot rail": ## Screen layout draws it as circles beside the word "rail", and ## Visual
+       specification names ART.dotEmpty. A check that only read one of them, or only looked for the
+       phrase, could never fire on an actual file — measured against 120-bar-chart-reader.md, which
+       carries it in both. Declaring it in ## Art registry is fine (the Finish screen may keep the
+       first-try record); putting it on the PLAY surface is what is banned. */
+    const playSurface = section("## Screen layout") + "\n" + section("## Visual specification");
+    if (/\bdotEmpty\b|\bdotFull\b/.test(playSurface) || /\brail\b/i.test(playSurface)) {
+      F("MISSION-SCHEMA", "a framed spec must not put the dot rail on the play surface (BUILD-CONVENTIONS §6, amended 2026-09-06) — progress is diegetic: the goal is on screen and the distance to it shrinks");
+    }
+  }
+
   const size = parseInt((identity.match(/Estimated build size:\s*~?\s*(\d+)/) || [])[1], 10);
   if (!(size >= 300 && size <= 800)) F("ID-SIZE", "estimated size " + size + " (want 300-800)");
 

@@ -66,6 +66,52 @@ If any gate fails, fix WHAT is measured or the game — never the gate's number 
   - `http://localhost:8480/<slug>/index.html?lang=en` and the same URL for de, fr, it, es, pt, nl, sv, da, no, fi.
   The operator tests with children and requests corrections; a correction goes back through Steps 3-5 (no plan mode unless the design changes).
 
+## 2.5 What game 002 cost, and what every later build must therefore do
+
+Eight defects reached the operator on the first game. Every one of them passed
+the full gate suite. They are grouped by what let them through.
+
+**The gates proved the game's LOGIC and never proved it could be TOUCHED.**
+- ⭐⭐⭐ **Drive a real pointer, every game.** A synthetic `emit()` skips hit-testing;
+  nothing was clickable in any game and the suite was green. `qa-game` now has
+  POINTER (callable hit area + a real `page.mouse.click` that must enter Play) and
+  ALIGNMENT (four interior points of every control must hit-test back to it).
+- ⭐⭐ **Sample the box, not the centre.** The first POINTER check clicked the
+  middle of the button, which sat exactly on the corner of a half-displaced hit
+  rectangle - so it passed while three quarters of the button was dead.
+
+**I never rendered what the operator sees.**
+- ⭐⭐⭐ **Screenshot at DESKTOP width and DPR 2 before saying it is done.** All my
+  QA ran at DPR 1 in a 704-900px window. The operator's screen magnified the
+  720x560 canvas ~3.6x (Phaser has no resolution option; the skeleton now renders
+  at 3x with a camera zoom) and showed a layout I had never seen.
+- ⭐⭐ **After ANY change to shared drawing code, re-render and LOOK.** I changed
+  hit rectangles, verified the geometry with a probe, and shipped without a single
+  screenshot - so a regression that moved every shape by half its size went
+  straight to the operator.
+
+**I broke working code with a careless edit.**
+- ⭐⭐⭐ **Never run a global regex over `_lib`.** `-w / 2, -h / 2, w, h` appears in
+  two `setInteractive` calls AND in `drawRoundedRect`, `makeTile`'s painter and
+  the whole of `drawArt`'s shape branch. A global replace rewrote all the drawing
+  code and every centred shape drew from its corner. Patch by line number with an
+  assertion on the surrounding context, then diff.
+
+**Art must fit the object, not its bounding box.**
+- ⭐⭐ **The nest's bowl CURVES UP toward the rim** - floor at y 146 in the middle,
+  128.7 at 112 units out. Ten eggs that fit the box hung out of the nest. Check
+  countable objects against the container's real silhouette, at every count.
+
+**A check that models the thing it checks repeats its bug.**
+- ⭐⭐ My first ALIGNMENT check reimplemented Phaser's hit-area transform and
+  assumed every control is drawn centred - the same assumption that caused the
+  bug - so it condemned a correct control. Measure with the real API instead.
+- ⭐ **Verify the measurement before the defect.** Three false alarms in one
+  session: `pointerover` only fires on entry (so a grid scan reports one hit);
+  `wrong()` ENQUEUES, so timing from the call measures the wrong interval; and a
+  Phaser Container has no `displayWidth`, so a clearance check read 0 and passed
+  vacuously.
+
 ## 3. Standing rules (each bought once)
 - **Spec is the basis, not the ceiling** — but the objective, band, pattern, misconception responses, no-punish and no-timer rules are invariant; the pedagogue may ADD, never remove.
 - **All 11 locales or it is not built.** "en pilot" is a spec-time state; a built game has STRINGS ×11 and LOCALE_DATA ×11 (BUILD-CONVENTIONS §17).
@@ -74,4 +120,5 @@ If any gate fails, fix WHAT is measured or the game — never the gate's number 
 - **The gate proves the FILE, the critic proves the PICTURE, I prove it with my own eyes** — three different instruments; none substitutes for another.
 - **Relaunch prompts are generated from the catalogue row / spec, never written from memory** (rows were renamed during the rebalance; twice a prompt described a dead row — the writers followed the catalogue, which is binding).
 - **Session limits kill all agents at once** — ≤ 4 agents in flight, and on any restart check `_qa/<slug>/plan-*.md` on disk before relaunching a role.
+- **The definition of done includes a desktop-width, DPR-2 screenshot that I have looked at**, plus a real-pointer assertion. Neither the static gate nor a synthetic session can see the classes above.
 - **No deploy** until all 200 are built; deployment is a separate commission (nginx `/games/` root + a Next wrapper page that bills a play on mount).

@@ -71,6 +71,12 @@ var GameCore = (function () {
   /* Internal state. These hold the answers init() worked out, the
      list of things that want to be redrawn when the language
      changes, and the buttons the keyboard can tab between. */
+  /* Text rasterisation multiplier. The 720x560 canvas is CSS-upscaled to the
+     iframe width (measured: 3.57x on a 1400px window at DPR 2), so text drawn
+     at 1x is magnified and looks pixelated. Every Text this file creates is
+     rendered at this multiple and displayed at its normal size. */
+  var TEXT_RES = 4;
+
   var state = {
     lang: "en",
     isEmbedded: false,
@@ -171,6 +177,19 @@ var GameCore = (function () {
   function drawRoundedRect(g, w, h, fillColor, radius) {
     g.fillStyle(fillColor, 1);
     g.fillRoundedRect(-w / 2, -h / 2, w, h, radius);
+  }
+
+  /* ------------------------------------------------------------
+     logicalSize(scene)
+     The stage size in GAME coordinates, which is the canvas size divided
+     by the camera zoom. A game may render at 2x or 3x internally so the
+     canvas is not magnified on a desktop screen; its world stays 720x560.
+     Returns the canvas size unchanged when zoom is 1, so this is a no-op
+     for any game that does not opt in.
+     ------------------------------------------------------------ */
+  function logicalSize(scene) {
+    var z = (scene && scene.cameras && scene.cameras.main && scene.cameras.main.zoom) || 1;
+    return { w: scene.scale.width / z, h: scene.scale.height / z };
   }
 
   /* ============================================================
@@ -331,8 +350,9 @@ var GameCore = (function () {
         if (hi < lo) hi = lo;
         return v < lo ? lo : (v > hi ? hi : v);
       }
-      x = clamp(x, MARGIN + w / 2, scene.scale.width - MARGIN - w / 2);
-      y = clamp(y, MARGIN + h / 2, scene.scale.height - MARGIN - h / 2);
+      var LS = logicalSize(scene);
+      x = clamp(x, MARGIN + w / 2, LS.w - MARGIN - w / 2);
+      y = clamp(y, MARGIN + h / 2, LS.h - MARGIN - h / 2);
 
       var container = scene.add.container(x, y);
       container.setSize(w, h);
@@ -343,7 +363,7 @@ var GameCore = (function () {
         fontSize: THEME.button.fontSize,
         color: THEME.colour.surface.hex,
         align: "center"
-      }).setOrigin(0.5);
+      }).setOrigin(0.5).setResolution(TEXT_RES);
 
       container.add([bg, text]);
 
@@ -417,7 +437,7 @@ var GameCore = (function () {
       // Pointer behaviour: hover grow, press dip, tap to activate.
       // A single handler per event, so nothing fires twice.
       container.setInteractive(new Phaser.Geom.Rectangle(
-        -w / 2, -h / 2, w, h
+        0, 0, w, h
       ), Phaser.Geom.Rectangle.Contains);
 
       container.on("pointerover", function () {
@@ -511,7 +531,7 @@ var GameCore = (function () {
         fontFamily: THEME.font.display,
         fontSize: "16px",
         color: THEME.colour.structure.hex
-      }).setOrigin(0.5);
+      }).setOrigin(0.5).setResolution(TEXT_RES);
       fitFont(headerText, headerW - 16);
 
       function drawHeader() {
@@ -533,7 +553,7 @@ var GameCore = (function () {
       var header = scene.add.container(0, 0, [headerBg, headerText]);
       header.setSize(headerW, headerH);
       header.setInteractive(new Phaser.Geom.Rectangle(
-        0, 0, headerW, headerH
+        headerW / 2, headerH / 2, headerW, headerH
       ), Phaser.Geom.Rectangle.Contains);
 
       // Panel: a bordered surface holding one pill per language. The
@@ -548,7 +568,7 @@ var GameCore = (function () {
       var optionBgs = {}; // code -> its Graphics, so we can highlight
 
       function relayout() {
-        var W = scene.scale.width, H = scene.scale.height;
+        var LS = logicalSize(scene), W = LS.w, H = LS.h;
         var availW = Math.max(48, W - 2 * MARGIN);
 
         // Choose a column count that fits, then size the pills to fill
@@ -605,8 +625,14 @@ var GameCore = (function () {
 
           var pill = optionBgs[code].container;
           pill.setSize(pillW, pillH);
+          /* The pill CONTAINER stays at (0,0) and its children are moved to
+             (cx,cy), so the hit area has to carry that offset. Phaser also
+             subtracts the display origin, which cancels the half-size term.
+             Neither the original (-pillW/2,-pillH/2) nor a plain (0,0) puts
+             the hit area anywhere near the pill: both land next to the panel
+             origin, which is why the language buttons did not respond. */
           pill.setInteractive(new Phaser.Geom.Rectangle(
-            -pillW / 2, -pillH / 2, pillW, pillH
+            cx, cy, pillW, pillH
           ), Phaser.Geom.Rectangle.Contains);
 
           drawRoundedRect(pillBg, pillW, pillH,
@@ -667,7 +693,7 @@ var GameCore = (function () {
           fontFamily: THEME.font.display,
           fontSize: "16px",
           color: THEME.colour.ink.hex
-        }).setOrigin(0.5);
+        }).setOrigin(0.5).setResolution(TEXT_RES);
         var pill = scene.add.container(0, 0, [pillBg, pillText]);
         pill.on("pointerup", function () {
           core.setLanguage(code);
@@ -724,6 +750,11 @@ var GameCore = (function () {
       });
 
       root.add([panel, header]);
+      /* The picker is CHROME and must float above the game art. Without this it
+         renders at depth 0, so anything a game gives a depth to - or anything it
+         destroys and re-creates, which re-adds at the top of the display list -
+         covers the open language panel. Both happened in game 002. */
+      root.setDepth(1500);
       return root;
     },
 
@@ -749,8 +780,9 @@ var GameCore = (function () {
         ? this.t(message)
         : (UI_STRINGS.en[message] != null ? UI_STRINGS.en[message] : message);
 
-      var cx = scene.scale.width / 2;
-      var cy = scene.scale.height / 2;
+      var LSp = logicalSize(scene);
+      var cx = LSp.w / 2;
+      var cy = LSp.h / 2;
 
       var label = scene.add.text(
         cx, cy, text, {
@@ -760,11 +792,11 @@ var GameCore = (function () {
           stroke: THEME.colour.bg.hex,
           strokeThickness: 8
         }
-      ).setOrigin(0.5).setScale(0.6).setAlpha(0).setDepth(1000);
+      ).setOrigin(0.5).setScale(0.6).setAlpha(0).setDepth(1000).setResolution(TEXT_RES);
 
       // Shrink long praise so it never spills past the stage width.
       var guard = 0;
-      var maxW = scene.scale.width - 32;
+      var maxW = LSp.w - 32;
       while (label.width > maxW && label.fontSize > 16 && guard++ < 40) {
         label.setFontSize(label.fontSize - 2);
       }
@@ -802,7 +834,7 @@ var GameCore = (function () {
        ---------------------------------------------------------- */
     makeStartScreen: function (scene, title, onStart) {
       var MARGIN = 16;
-      var W = scene.scale.width, H = scene.scale.height;
+      var LSs = logicalSize(scene), W = LSs.w, H = LSs.h;
       // Keep the title + button block inside the stage at any size,
       // so a small iframe never pushes the Start button off-screen.
       var blockH = 90 + THEME.button.height; // title above, button below
@@ -816,7 +848,7 @@ var GameCore = (function () {
         color: THEME.colour.structure.hex,
         align: "center",
         wordWrap: { width: Math.max(140, Math.min(THEME.size.cardMaxWidth, W) - 2 * MARGIN) }
-      }).setOrigin(0.5);
+      }).setOrigin(0.5).setResolution(TEXT_RES);
       // Shrink the title until it fits the stage height too.
       var guard = 0;
       while (titleText.height > (cy - 90 - MARGIN) * 2 && titleText.fontSize > 20 && guard++ < 40) {
@@ -933,7 +965,7 @@ var GameCore = (function () {
         fontSize: fontPx + "px",
         color: labelTok.hex,
         align: "center"
-      }).setOrigin(0.5);
+      }).setOrigin(0.5).setResolution(TEXT_RES);
       container.add([bg, text]);
 
       function fit() {
@@ -999,7 +1031,7 @@ var GameCore = (function () {
       redraw();
 
       container.setInteractive(new Phaser.Geom.Rectangle(
-        -w / 2, -h / 2, w, h
+        0, 0, w, h
       ), Phaser.Geom.Rectangle.Contains);
 
       container.on("pointerover", function () {
@@ -1206,7 +1238,7 @@ var GameCore = (function () {
           fontFamily: THEME.font[e.font || "body"] || THEME.font.body,
           fontSize: size + "px",
           color: tok(e.color, "ink").hex
-        }).setOrigin(0.5);
+        }).setOrigin(0.5).setResolution(TEXT_RES);
       }
       if (e.kind === "shape") {
         var g = scene.add.graphics({ x: x, y: y });

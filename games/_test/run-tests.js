@@ -25,7 +25,7 @@ class Emitter {
   emit(e, ...a) { (this._h[e] || []).slice().forEach((f) => f(...a)); }
 }
 function chain(obj) {
-  ["setSize", "setInteractive", "setScale", "setOrigin", "setVisible",
+  ["setSize", "setInteractive", "setScale", "setOrigin", "setVisible", "setResolution",
     "setAlpha", "setDepth", "setPosition", "setAngle", "setBlendMode", "setTint"].forEach((m) => {
     obj[m] = function () { return obj; };
   });

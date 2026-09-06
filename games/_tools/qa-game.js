@@ -75,6 +75,76 @@ const OK = (r, m) => { notes.push(r + ": " + m); console.log("  ✓ " + r + ": "
     startLabels[lang] = JSON.parse(strings).start;
     await page.screenshot({ path: path.join(OUT, "704-" + lang + "-start.png") });
   }
+  /* POINTER — a REAL mouse click, not a synthetic emit.
+     Two assertions, because they fail independently:
+       (a) every interactive object carries a callable hitAreaCallback. A
+           missing one makes Phaser throw on every pointer move and nothing
+           is touchable, while emit() still works.
+       (b) a real click on the biggest interactive target (the Start button)
+           actually enters Play.
+     Poison-tested against Phaser.Geom.Rectangle.contains (lowercase, which
+     does not exist in 3.90): both assertions fail, and the whole existing
+     suite passes. */
+  await open("en", 704);
+  const hitAreas = JSON.parse(await evalT(`(function () {
+    var probe = null;
+    // any interactive object gives us its scene
+    function findScene(list) {
+      for (var i = 0; i < list.length; i++) {
+        if (list[i].input) return list[i].scene;
+        if (list[i].list && list[i].list.length) { var s = findScene(list[i].list); if (s) return s; }
+      }
+      return null;
+    }
+    var g = document.querySelector("canvas");
+    var sc = null, objs = [], bad = 0;
+    try {
+      // walk every active scene's display list
+      var mgr = window.__phaserGameForQA || null;
+      if (!mgr && window.LCS_TEST && window.__startBtn) sc = window.__startBtn.scene;
+      if (!sc) return JSON.stringify({ err: "no scene handle" });
+      (function walk(arr) {
+        for (var i = 0; i < arr.length; i++) {
+          var o = arr[i];
+          if (o.input) {
+            var ok = typeof o.input.hitAreaCallback === "function";
+            if (!ok) bad++;
+            objs.push({ ok: ok, w: o.width || 0, h: o.height || 0, x: o.x, y: o.y });
+          }
+          if (o.list && o.list.length) walk(o.list);
+        }
+      })(sc.children.list);
+      return JSON.stringify({ total: objs.length, bad: bad, objs: objs });
+    } catch (e) { return JSON.stringify({ err: String(e.message) }); }
+  })()`));
+  if (hitAreas.err) F("POINTER", "could not inspect hit areas: " + hitAreas.err);
+  else if (hitAreas.bad > 0) F("POINTER", hitAreas.bad + " of " + hitAreas.total +
+    " interactive objects have no callable hitAreaCallback — Phaser throws on every pointer move and NOTHING is tappable by a real finger (a synthetic emit still works, which is why the rest of this suite can pass)");
+  else OK("POINTER", hitAreas.total + " interactive objects all carry a callable hit area");
+
+  /* the real click */
+  const canvasBox = JSON.parse(await evalT(`(function () {
+    var c = document.querySelector("canvas"); var r = c.getBoundingClientRect();
+    return JSON.stringify({ x: r.x, y: r.y, w: r.width, h: r.height });
+  })()`));
+  let biggest = null;
+  (hitAreas.objs || []).forEach((o) => {
+    if (!biggest || o.w * o.h > biggest.w * biggest.h) biggest = o;
+  });
+  if (!biggest) F("POINTER", "no interactive target found on the start screen");
+  else {
+    const sx = canvasBox.x + (biggest.x / 720) * canvasBox.w;
+    const sy = canvasBox.y + (biggest.y / 560) * canvasBox.h;
+    const before = await evalT("window.LCS_TEST.scene()");
+    await page.mouse.click(sx, sy);
+    await new Promise((r) => setTimeout(r, 1200));
+    const after = await evalT("window.LCS_TEST.scene()");
+    if (before === "Boot" && after === "Play") OK("POINTER", "a REAL mouse click on Start entered Play");
+    else F("POINTER", "a REAL mouse click on the largest target (" + Math.round(biggest.w) + "x" +
+      Math.round(biggest.h) + " at " + Math.round(biggest.x) + "," + Math.round(biggest.y) +
+      ") did not start the game: scene went '" + before + "' -> '" + after + "'. Synthetic emit() may still work — that is the trap.");
+  }
+
   const distinct = new Set(Object.values(startLabels)).size;
   if (distinct >= 7) OK("LOCALES", distinct + " distinct Start labels across 11 locales"); else F("LOCALES", "only " + distinct + " distinct Start labels: " + JSON.stringify(startLabels));
   if (errors.length) F("BOOT", "console errors: " + errors.slice(0, 3).join(" | "));

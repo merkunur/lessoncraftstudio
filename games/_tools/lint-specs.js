@@ -131,10 +131,16 @@ function lintOne(file) {
      is judged by the original schema, so the corpus keeps linting green right through the programme
      instead of turning red on day one and training everyone to ignore it.
      (Operator ruling 2026-09-06 "redesign all 200"; contract in design/GAME-DESIGN-LAW.md.) */
-  const frameM = identity.match(/-\s*Frame:\s*`?([A-Z][A-Z ]*[A-Z])`?/);
+  /* Match ANY "- Frame:" line in Identity, not just a correctly-cased one. An earlier version
+     required the value to be ALL CAPS, which meant a spec written as "- Frame: The Climb" matched
+     nothing and SILENTLY SKIPPED every schema check below — a gate that quietly stops firing is the
+     exact failure this project keeps paying for. Now a mis-cased or unknown frame FAILS loudly.
+     (Note: 146-middle-sound-medic.md carries an unrelated "- Frame:" bullet about ART frame tiles,
+     but it lives in ## Visual specification and this only reads ## Identity.) */
+  const frameM = identity.match(/-\s*Frame:\s*`?([^\n`]+?)`?\s*$/m);
   if (frameM) {
     const frame = frameM[1].trim();
-    if (FRAME_NAMES.size && !FRAME_NAMES.has(frame)) F("ID-FRAME", "frame '" + frame + "' is not a frame in design/MISSIONS.md");
+    if (FRAME_NAMES.size && !FRAME_NAMES.has(frame)) F("ID-FRAME", "frame '" + frame + "' is not a frame in design/MISSIONS.md (names are UPPERCASE, e.g. THE CLIMB — a mis-cased name is a failure, not a skip)");
     for (const h of ["## Mission", "## World"]) {
       if (!lines.some((l) => l.trim() === h)) F("MISSION-SCHEMA", "a framed spec must carry the heading '" + h + "'");
     }

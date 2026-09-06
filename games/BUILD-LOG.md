@@ -68,3 +68,30 @@ unplayable.
 - Two of the critic's findings were refuted by measurement and are **not** defects: outline weights are 3.25 (hen) vs 3.00 (nest) logical px, not "5–6 vs 3" — it measured a 2× render and read anti-aliasing as stroke; and the hen *does* react — `henOops` holds for 750 ms, while the critic's frames were taken at 1400 ms. A capture at 420 ms is now in the probe so the pose is gradeable.
 - Still open: the hen's near-white body on cream leans on its 3 px outline alone for separation; the language picker's globe glyph renders in `focus` blue (library chrome, all 200 games); and counts 3, 7 and 10 are not represented in the screenshot sweep.
 
+
+### ⭐⭐⭐ Round two: eight more defects, all reported by the operator, all through a green suite
+
+After the "unresponsive Start" fix the operator kept playing and kept finding
+things. Every one passed check-build, qa-game and the probe.
+
+| # | What the operator saw | Cause |
+|---|---|---|
+| 1 | Start unresponsive | `Phaser.Geom.Rectangle.contains` — 3.90 only has `.Contains`, so `hitAreaCallback` was undefined and **nothing was clickable in any game** |
+| 2 | "I have to hover several times before buttons respond" | Phaser offsets a container's hit area by its display origin, so the passed rectangle was displaced by half the control; only the top-left quadrant was live |
+| 3 | Every numeral outside its card, labels outside buttons, ground band starting mid-screen | **My own regression**: a GLOBAL regex fixing hit rectangles also rewrote `drawRoundedRect`, `makeTile`'s painter and all of `drawArt`'s shape branch, so every centred shape drew from its corner |
+| 4 | Language buttons unresponsive | The pill CONTAINER stays at (0,0) while its children move to (cx,cy); the hit rect needs that offset. Neither the original nor my first fix put it near the pill |
+| 5 | Hen and nest drawn over the open language panel | Chrome had no depth; anything given a depth — or destroyed and re-created, as the hen is on every pose change — covers it. Picker now at depth 1500 |
+| 6 | Text pixelated | Text rasterised at 1x into a canvas magnified ~3.6x |
+| 7 | **Everything** pixelated on desktop | The canvas backing store is the game size and **Phaser 3.90 has no resolution option** (scale.resolution / render.resolution / top-level: all measured, all ignored). Now renders at 3x with a per-scene camera zoom; `logicalSize()` added so helpers stop reading `scale.width` as the logical stage |
+| 8 | Two of ten eggs hang out of the nest | The bowl floor curves up — y 146 at the centre, 128.7 at 112 units out. The cluster was checked against the bounding box, not the silhouette |
+
+**The through-line: my QA proved the game's LOGIC and never proved it could be
+TOUCHED or LOOKED AT.** Every gate pressed buttons with a synthetic `emit()`,
+which skips hit-testing entirely, and every screenshot was DPR 1 in a 704-900px
+window — never a desktop width at DPR 2, which is what the operator uses.
+
+Now enforced: `qa-game` carries **POINTER** (callable hit area + a real
+`page.mouse.click` that must enter Play) and **ALIGNMENT** (four interior points
+of every control must hit-test back to it), both poison-tested. The skeleton in
+BUILD-CONVENTIONS §1 carries `RENDER_SCALE` and `stageCam()`; §3.1 carries the
+hit-area table; §3.2 the depth rule. BUILD-WORKFLOW §2.5 carries the full list.

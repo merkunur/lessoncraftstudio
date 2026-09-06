@@ -187,15 +187,29 @@
     var L1_SPACINGS = { 1: [48, 60, 72], 2: [48, 60, 72], 3: [48, 60, 72], 4: [48, 60, 72], 5: [48, 60] };
 
     var L2_ROWS = { 5: [3, 2], 6: [3, 3], 7: [4, 3], 8: [4, 4] };
+    /* The bowl floor CURVES UP toward the rim: it sits at y 146 in the middle
+       but only 128.7 at 112 units out. The first cluster ignored that and the
+       two outer front eggs hung 10.5 units OUT of the nest at n=10 - reported
+       by the operator, invisible to every gate. These coordinates are checked
+       against the authored bowl path, and L3 drops to a 42px egg so ten of
+       them fit inside the curve with their clearances intact. */
+    var L3_EGG = 42;
     var L3_CLUSTER = {
-      8:  [[-84, -26], [-28, -34], [28, -34], [84, -26], [-84, 38], [-28, 44], [28, 44], [84, 38]],
-      9:  [[-112, -24], [-56, -32], [0, -35], [56, -32], [112, -24], [-84, 38], [-28, 44], [28, 44], [84, 38]],
-      10: [[-112, -24], [-56, -32], [0, -35], [56, -32], [112, -24],
-           [-112, 36], [-56, 42], [0, 44], [56, 42], [112, 36]]
+      8:  [[-84, -32], [-28, -38], [28, -38], [84, -32], [-84, 34], [-28, 42], [28, 42], [84, 34]],
+      9:  [[-112, -30], [-56, -34], [0, -37], [56, -34], [112, -30], [-84, 34], [-28, 42], [28, 42], [84, 34]],
+      10: [[-112, -30], [-56, -34], [0, -37], [56, -34], [112, -30],
+           [-112, 24], [-56, 38], [0, 43], [56, 38], [112, 24]]
     };
 
     var ITEMS = 8;
     var PRAISE = ["well_done", "you_did_it", "keep_going"];
+
+    /* Frame the 720x560 logical stage inside the higher-resolution canvas. */
+    function stageCam(scene) {
+      var z = scene.scale.width / 720;
+      scene.cameras.main.setZoom(z);
+      scene.cameras.main.centerOn(360, 280);
+    }
 
     function S(key) {
       var d = STRINGS[GameCore.lang] || STRINGS.en;
@@ -240,7 +254,7 @@
       }
       if (level === 2) {
         var rows = L2_ROWS[n] || [Math.ceil(n / 2), n - Math.ceil(n / 2)];
-        var ys = [NEST_Y - 26, NEST_Y + 34];
+        var ys = [NEST_Y - 30, NEST_Y + 30];   /* was -26/+34: the n=8 front row grazed the bowl floor */
         for (row = 0; row < 2; row++) {
           cols = rows[row];
           x0 = NEST_X - (cols - 1) * 56 / 2;
@@ -348,6 +362,7 @@
       preload: function () { GameCore.preloadArt(this, ART); },
       create: function () {
         var self = this;
+        stageCam(this);
         __scene = "Boot"; __play = null; __q.length = 0;
         /* makeStartScreen centres its title+button block on the stage, and its
            button lands at y 284..356. The hen at 406 put her comb 3px inside it
@@ -372,6 +387,7 @@
 
       create: function () {
         var self = this;
+        stageCam(this);
         __scene = "Play"; __q.length = 0;
 
         this.session = {
@@ -405,7 +421,7 @@
         /* The near rim is a SECOND entry in the same frame, drawn OVER the eggs
            (depth 2 against their depth 1) so their bases tuck into the cup.
            Without it the eggs read as stuck to the outside of the bowl. */
-        this.nestRim = GameCore.drawArt(this, ART, "nestRim", NEST_X, NEST_Y).setDepth(2);
+        this.nestRim = GameCore.drawArt(this, ART, "nestRim", NEST_X, NEST_Y).setDepth(2);   /* nest stack: nest 0 < eggs 1 < rim 2 < dots 3, all far below the picker at 1500 */
 
         /* Bubble at y=100 (box 68..132), not 96: the language picker ends at
            y=60 and the old 72-tall bubble started there, so the two boxes
@@ -420,7 +436,7 @@
           fontFamily: THEME.font.body, fontSize: "28px",
           color: THEME.colour.inkSoft.hex, align: "center",
           wordWrap: { width: 340 }
-        }).setOrigin(0.5);
+        }).setOrigin(0.5).setResolution(4);
 
         /* --- progress rail --- */
         this.dots = []; this.dotArt = [];
@@ -519,7 +535,7 @@
         var pos = eggPositions(item.count, level, spacing);
         for (i = 0; i < pos.length; i++) {
           var e = this.add.container(pos[i][0], pos[i][1]);
-          e.add(GameCore.drawArt(this, ART, "egg", 0, 0));
+          e.add(GameCore.drawArt(this, ART, "egg", 0, 0, { size: level === 3 ? L3_EGG : 48 }));
           e.setAlpha(0).setScale(0.6).setDepth(1);
           this.eggs.push(e);
           (function (obj, delay) {
@@ -1037,6 +1053,7 @@
       init: function (data) { this.solved = (data && data.solved) || []; },
       create: function () {
         var self = this, i;
+        stageCam(this);
         __scene = "Finish"; __play = null; __q.length = 0;
 
         GameCore.drawArt(this, ART, "groundBand", 360, 250);
@@ -1044,7 +1061,7 @@
           fontFamily: THEME.font.display, fontSize: "52px",
           color: THEME.colour.structure.hex, align: "center",
           wordWrap: { width: 640 }
-        }).setOrigin(0.5);
+        }).setOrigin(0.5).setResolution(4);
 
         GameCore.drawArt(this, ART, "henShadow", 360, 244);
         var hen = GameCore.drawArt(this, ART, "henHappy", 360, 188);
@@ -1067,11 +1084,20 @@
       }
     });
 
+    /* RENDER SCALE. The canvas backing store is the game size, and Phaser 3.90
+       has no resolution option (scale.resolution / render.resolution / a
+       top-level resolution were all measured and ignored). At 720x560 a desktop
+       magnifies every pixel about 3.6x, which is why the art and text looked
+       pixelated. Rendering at 3x and zooming the camera 3x keeps every
+       coordinate in this file in the 720x560 world the specs are written
+       against, while the canvas carries nine times the pixels. */
+    var RENDER_SCALE = 3;
+
     new Phaser.Game({
       type: Phaser.AUTO,
       parent: "game",
-      width: 720,
-      height: 560,
+      width: 720 * RENDER_SCALE,
+      height: 560 * RENDER_SCALE,
       backgroundColor: THEME.colour.bg.hex,
       scale: { mode: Phaser.Scale.FIT, autoCenter: Phaser.Scale.CENTER_HORIZONTALLY },
       scene: [Boot, Play, Finish]

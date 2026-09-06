@@ -73,11 +73,27 @@ Every game is exactly one file, `/games/<slug>/index.html`, loading the shared l
       create: function () { /* GAME */ }
     });
 
+    // Frame the 720x560 logical stage inside the higher-resolution canvas.
+    function stageCam(scene) {
+      var z = scene.scale.width / 720;
+      scene.cameras.main.setZoom(z);
+      scene.cameras.main.centerOn(360, 280);
+    }
+    // ^ call stageCam(this) as the FIRST line of every scene's create().
+
+    /* RENDER SCALE (required). The canvas backing store is the game size, and
+       Phaser 3.90 has NO resolution option - scale.resolution, render.resolution
+       and a top-level resolution were all measured and ignored. At 720x560 a
+       desktop magnifies every pixel ~3.6x and the whole game looks pixelated.
+       Rendering at 3x and zooming each camera 3x keeps every coordinate in the
+       720x560 world the specs are written against. */
+    var RENDER_SCALE = 3;
+
     new Phaser.Game({
       type: Phaser.AUTO,
       parent: "game",
-      width: 720,
-      height: 560,
+      width: 720 * RENDER_SCALE,
+      height: 560 * RENDER_SCALE,
       backgroundColor: THEME.colour.bg.hex,
       scale: { mode: Phaser.Scale.FIT, autoCenter: Phaser.Scale.CENTER_HORIZONTALLY },
       scene: [Boot, Play, Finish]
@@ -110,6 +126,39 @@ The one raw hex in the file is the `<style>` body background, which must equal `
 - `makeButton` is for the fixed 220 × 72 chrome buttons (Start, Play again, Menu, Next). `makeTile` is for everything the child chooses between.
 - Pointer events only (`pointerdown / pointerup`), never mouse-only events; tablets are the primary device. Hover effects are cosmetic and must not carry meaning.
 - Drag-and-drop (PATTERNS P5) is allowed only in the 6-8 and 8-9 bands and always with the tap-tap fallback (select source, then tap destination) built in the same game.
+
+### §3.1 Hit areas are NOT where you assume, and a synthetic tap proves nothing
+
+Both of these shipped in game 002 and reached the operator.
+
+**A synthetic `emit("pointerdown"/"pointerup")` is not a tap.** It bypasses
+Phaser's hit-testing entirely. `game-core` passed `Phaser.Geom.Rectangle.contains`
+(lowercase; 3.90 only has `.Contains`), so `hitAreaCallback` was undefined,
+Phaser threw on every pointer move, and **nothing was clickable in any game** -
+while the static gate, an 11-locale boot sweep and a full 8-item session at three
+widths all passed, because every one of them pressed buttons synthetically.
+**At least one assertion per game must drive a real pointer.** `qa-game` now
+carries POINTER and ALIGNMENT checks that do.
+
+**Phaser offsets a container's hit area by its display origin**, so the rectangle
+you pass is not in the space you expect. The rule, measured:
+
+| the control's art is drawn... | the hit rectangle must be |
+|---|---|
+| centred on the container origin (`makeButton`, `makeTile`, picker pills) | `Rectangle(0, 0, w, h)` |
+| from the container's own top-left (picker header) | `Rectangle(w/2, h/2, w, h)` |
+| by children moved to (cx, cy) while the container stays at 0,0 (picker pills in the panel) | `Rectangle(cx, cy, w, h)` |
+
+A centre-only click **passes a hit area displaced by half the control** - the
+child then has to hover around hunting for the live corner, which is exactly what
+the operator reported. Map the box, do not sample one point.
+
+### §3.2 Chrome floats above game art
+
+`makeLanguagePicker` sits at depth 1500. Anything a game gives a depth to, and
+anything it **destroys and re-creates** (which re-adds at the top of the display
+list), will otherwise cover the open language panel. Both happened in 002: a
+mascot re-created on every pose change, and a foreground art layer given depth 2.
 
 ## §4 The ART registry
 

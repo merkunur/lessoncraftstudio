@@ -122,6 +122,69 @@ const OK = (r, m) => { notes.push(r + ": " + m); console.log("  ✓ " + r + ": "
     " interactive objects have no callable hitAreaCallback — Phaser throws on every pointer move and NOTHING is tappable by a real finger (a synthetic emit still works, which is why the rest of this suite can pass)");
   else OK("POINTER", hitAreas.total + " interactive objects all carry a callable hit area");
 
+  /* ALIGNMENT — every control must respond where it is DRAWN.
+     Measured, not modelled: take the control's drawn box from getBounds(),
+     move the REAL mouse to four interior points, and require Phaser's own
+     hitTestPointer to return that control. Modelling the transform here would
+     repeat the very assumption that breaks the code (an earlier version did,
+     and condemned a correct control whose art is drawn from its top-left).
+     A centre-only click passes a hit area displaced by half the control — the
+     child then has to hunt for the live corner, which is the reported bug. */
+  const boxes = JSON.parse(await evalT(`(function () {
+    var sc = window.__startBtn && window.__startBtn.scene;
+    if (!sc) return JSON.stringify({ err: "no scene" });
+    var cam = sc.cameras && sc.cameras.main, out = [];
+    (function walk(arr, vis) {
+      for (var i = 0; i < arr.length; i++) {
+        var o = arr[i];
+        // willRender() only reports the object own visibility, not its
+        // ancestors, so the language panel pills (inside a hidden container)
+        // looked live and were reported as dead controls. Carry visibility down.
+        var shown = vis && o.visible !== false && (o.alpha == null || o.alpha > 0.05);
+        if (shown && o.input && o.input.enabled && o.width > 8 && o.height > 8) {
+          var b = o.getBounds ? o.getBounds() : null;
+          if (b && b.width > 4 && b.height > 4) {
+            out.push({ id: out.length, x: b.x, y: b.y, w: b.width, h: b.height });
+          }
+        }
+        if (o.list && o.list.length) walk(o.list, shown);
+      }
+    })(sc.children.list, true);
+    window.__alignTargets = out;
+    return JSON.stringify({ n: out.length, boxes: out });
+  })()`));
+  if (boxes.err) F("ALIGNMENT", "could not inspect: " + boxes.err);
+  else {
+    const cbox = JSON.parse(await evalT(`(function(){var c=document.querySelector("canvas");var r=c.getBoundingClientRect();return JSON.stringify({x:r.x,y:r.y,w:r.width,h:r.height});})()`));
+    const toScreen = (lx, ly) => [cbox.x + (lx / 720) * cbox.w, cbox.y + (ly / 560) * cbox.h];
+    const dead = [];
+    for (const b of boxes.boxes) {
+      const pts = [[0.25, 0.25], [0.75, 0.25], [0.25, 0.75], [0.75, 0.75]];
+      let miss = 0;
+      for (const [fx, fy] of pts) {
+        const lx = b.x + fx * b.w, ly = b.y + fy * b.h;
+        await page.mouse.move(...toScreen(lx, ly));
+        await new Promise((r) => setTimeout(r, 18));
+        const hit = await evalT(`(function(){
+          var sc = window.__startBtn.scene, p = sc.input.activePointer;
+          var hits = sc.input.hitTestPointer(p);
+          var t = window.__alignTargets[${b.id}];
+          for (var i = 0; i < hits.length; i++) {
+            var g = hits[i].getBounds ? hits[i].getBounds() : null;
+            if (g && Math.abs(g.x - t.x) < 2 && Math.abs(g.y - t.y) < 2) return true;
+          }
+          return false;
+        })()`);
+        if (!hit) miss++;
+      }
+      if (miss) dead.push(Math.round(b.w) + "x" + Math.round(b.h) + " at " +
+        Math.round(b.x) + "," + Math.round(b.y) + " (" + miss + "/4 corners dead)");
+    }
+    if (dead.length) F("ALIGNMENT", dead.length + " of " + boxes.n +
+      " controls do not respond across the area they are drawn in — a child has to hunt for the live part: " + dead.slice(0, 3).join("; "));
+    else OK("ALIGNMENT", boxes.n + " controls respond across their whole drawn area");
+  }
+
   /* the real click */
   const canvasBox = JSON.parse(await evalT(`(function () {
     var c = document.querySelector("canvas"); var r = c.getBoundingClientRect();

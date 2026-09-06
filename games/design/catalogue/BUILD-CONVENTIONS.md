@@ -1,3 +1,30 @@
+> ## ⚠ AMENDMENT 2026-09-06 — §6 AND §7 ARE THE NO-WORLD DEFAULT, NOT THE RULE
+>
+> Operator ruling: the 200 designs are activities, not games. Two sections of this file helped make
+> them so, and both are superseded for any game that declares a **frame** from `../MISSIONS.md`.
+>
+> **§7 layout zones.** Zone A *"the thing to think about"* (204 px) stacked over zone B *"the tiles the
+> child acts on"* (220 px) **is a worksheet, drawn as a rule.** A framed game uses the MISSION LAYOUT
+> (`MISSIONS.md` §1.4) instead: **zone W — THE WORLD, 56-420 (364 px)**, holding the board, the hero,
+> the destination and the history, with the hero and the goal both on screen at every moment; and
+> **zone H — THE HAND, 420-560 (140 px)**, holding at most five controls and permitted to be EMPTY,
+> because in several frames the world itself is what the child taps. §7.1-§7.4 (tile layout, selection,
+> locking, on-tile feedback) are unchanged and still bind wherever tiles are used.
+>
+> **§6 progress.** The dot rail is **removed from the play surface**. `F-44` asks that progress be
+> *"the task completing (tower built, path filled)"*, and this file then mandated a row of circles —
+> the one place the research was contradicted outright. Progress is now **diegetic**: the goal is on
+> screen from the first tap in a state only arrival changes, and the distance to it shrinks visibly.
+> `ART.dotEmpty` / `ART.dotFull` survive **on the Finish screen only**, where a spec may keep the
+> first-try record. The *current task* rule (§6, "always visible in one fixed prompt area") is
+> satisfied by the world itself.
+>
+> **Unchanged and still binding:** §1 skeleton · §2 stage geometry and `RENDER_SCALE`/`stageCam` · §3
+> tap floors, keyboard and the hit-area table · §3.1/§3.2 · §4 ART · §5 ANIM · §8 the adaptive
+> template · §8.1 · §9 strings · §10 finish · §11 sound · §12 colour and accessibility · §13
+> randomisation · §14 locale data · §15 what the builder must not decide · §16 test hook · §17 locale
+> completeness.
+
 # BUILD-CONVENTIONS — the shared contract every game spec cites
 
 This file is part of every specification. A spec says "per BUILD-CONVENTIONS §n" instead of restating the rule. The builder (Claude Code) reads this file once and applies it to every game. Nothing here is optional; a spec may add to it, never contradict it.

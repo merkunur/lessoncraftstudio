@@ -26,7 +26,16 @@ const useSpecs = process.argv.includes("--specs");
 
 const STOP = new Set(("a an the and or of to in on for with by from at as is are be into onto up down out its it this that " +
   "child children tap taps tapping choose chooses picks pick select selects game player each one two three then when which " +
-  "correct correctly right matching match matches given shown show shows using use uses can does do").split(" "));
+  "correct correctly right matching match matches given shown show shows using use uses can does do " +
+  /* MISSION VERBS (2026-09-06). The line above stops the TAP vocabulary because every objective
+     contained it; after the mission redesign every objective contains the TRAVEL vocabulary the same
+     way, and an unstopped universal word is pure noise in a Jaccard score. MEASURED on the 200 live
+     rows: adding just six shared mission words to every objective took DUP-OBJ pairs >=0.60 from
+     2 to 13 (6.5x). Stopping them holds it at 2. Poison-tested both directions in _poison/. */
+  "move moves moving walk walks walking carry carries carrying collect collects collecting deliver " +
+  "delivers delivering travel travels travelling reach reaches reaching bring brings take takes " +
+  "mission character goal journey along across through toward towards arrive arrives step steps " +
+  "path route world level scene").split(" "));
 function tokens(s) {
   return new Set(String(s).toLowerCase().replace(/[^a-z0-9\s-]/g, " ").split(/\s+/)
     .map((w) => w.replace(/(ies)$/, "y").replace(/(ing|ed|es|s)$/, "")).filter((w) => w.length > 2 && !STOP.has(w)));

@@ -1,3 +1,35 @@
+> ## ⚠ AMENDMENT 2026-09-06 — THIS FILE IS THE **INPUT CONTRACT**, NOT THE GAME DESIGN
+>
+> **Operator ruling:** *"The games you designed are just activities… The game has to have a mission
+> or purpose… The character should not be static, it needs to move around and complete missions."*
+>
+> He is right, and this file is where it went wrong. Its title below — *"the twelve ways a child can
+> act"* — is the claim that caused it. **P1-P12 are not ways a child can act. They are ways a child
+> can TOUCH THE SCREEN.** Tapping one of N is a finger movement, not a game. Nothing in this file, or
+> anywhere else in the design system, ever asked what the child is *trying to do*, who they are,
+> where they are, or why they would come back — so 200 specs were written with a taxonomy of controls
+> where a taxonomy of games should have been. Measured: **183 of the 200 specs say "the child taps"
+> and not one contains a journey, a destination, a mission or stakes.**
+>
+> **What changes.** `pattern` is no longer a game's identity and is **no longer invariant**
+> (superseding `BUILD-WORKFLOW.md` §3, which froze it). Every game now declares a **frame** from
+> `design/MISSIONS.md` — the mission, the world, and what the character does — and a pattern from
+> this file, which says only how the child's finger reaches it.
+>
+> > **frame = the game · pattern = the finger**
+>
+> **What does NOT change — every rule in this file still binds.** The tap-first evidence (F-49,
+> F-68), the tap floors, the keyboard paths, the refusal-not-punishment feedback shape, the
+> brute-force guards, the rejections at the foot of the file (no swipe/pinch, no voice, no
+> two-player, no timed rhythm). A moving character is fully compatible with tap-only input: the child
+> **taps where to go**. Nothing here is deleted, because none of it was ever the problem.
+>
+> **The reading rule.** Where this file says a pattern's *"What"* is the whole of the child's action
+> — "a prompt in zone A; candidate tiles in zone B; the child taps the one that answers the prompt" —
+> read that as the INPUT it describes, inside whatever world the game's frame establishes. The zone
+> A/B/C worksheet layout in `BUILD-CONVENTIONS.md` §7 is likewise a default for games with no world,
+> not a requirement.
+
 # PATTERNS — the twelve ways a child can act
 
 Every one of the 200 games uses exactly one primary pattern from this list (a spec may name a secondary pattern for a sub-step, e.g. P1 to choose then P3 to count). Variety comes from content, presentation and difficulty, never from novel controls (brief §5.1): a child who has played one P2 game already knows how to play every P2 game.

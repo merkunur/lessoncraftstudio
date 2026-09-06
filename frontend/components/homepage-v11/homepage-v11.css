@@ -1,0 +1,1000 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   HOMEPAGE v11 — "THE GALLERY OF LESSONS, WALKED THROUGH"
+
+   Scoped under `.hv11`, imported AFTER homepage-v6.css and homepage-v10.css
+   so equal-specificity rules here win by source order. v10's building is
+   untouched; this file only adds the WALK: one doorway, one easel the
+   instruments take turns on, a wall in three depths, exhibits that answer
+   the hand, a build that splits into its outputs, a send to twenty-five
+   screens, and a shelf by the door.
+
+   ── THE THREE LAYERS ──────────────────────────────────────────────────────
+   BASE          composed END poses. What a crawler, a no-JS visitor, a
+                 browser without scroll timelines, and prefers-reduced-motion
+                 all see: the door open, the outputs out, the screens lit.
+                 Nothing here animates; v10 loops this file retires are
+                 `animation: none` here with their own composed poses.
+   SCRUB         `@supports (animation-timeline: view())` AND
+                 `prefers-reduced-motion: no-preference`: motion under the
+                 wheel — the arch, the easel, the wall, the studio.
+   ONCE / FALLBACK  `.hv11-js` (set by ScrollStage.tsx) arms the once-
+                 sequences at their start pose, `.is-in` runs them;
+                 `.hv11-noscrub` turns the scrub acts into a transition on
+                 entry for browsers without scroll timelines. Both are inside
+                 `no-preference`, so under reduced motion ZERO CSS animations
+                 run and the reduced-motion gate stays green.
+
+   ── LAWS ──────────────────────────────────────────────────────────────────
+   transform/opacity only (clip-path only for the door) · text and links
+   never start hidden — only aria-hidden art may · one dominant motion per
+   viewport · price/quota surfaces never move · coprime loop periods
+   inherited from v6/v10 · `font` longhand only (audit-font-shorthand).
+
+   ── MEASURED ──────────────────────────────────────────────────────────────
+   globals.css makes `body` a scroll container (`overflow-x: hidden`), which
+   silently defeats `position: sticky` AND view() timelines: on the live v10
+   page a sticky probe rendered at −400px and a view() opacity never left its
+   end value. `body { overflow-x: clip }` fixes both (probed 2026-09-06) and
+   is injected by the page/preview layout's inline body style, not here.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.hv11 {
+  /* Where a pinned panel rests below the viewport top. The site header does
+     NOT stick (Navigation.tsx and CategoryNav.tsx are `relative`), so this is
+     a breathing gap, not a header offset. */
+  --hv11-stick: clamp(14px, 3svh, 32px);
+}
+
+/* Rooms without a floor still need breathing room above the skirting. */
+.hv11 .hv10-room.no-floor {
+  padding-bottom: calc(var(--room-dado-h) + clamp(28px, 3vw, 48px));
+}
+
+/* ═══ THE SLIP — a pen-note on a cream slip ══════════════════════════════
+   Real text (the v6 pen-notes, native ×11), never inside a scaled subtree. */
+.hv11-slip {
+  display: inline-block;
+  max-width: 24ch;
+  padding: 5px 10px;
+  border-radius: 3px;
+  background: rgba(253, 251, 246, 0.95);
+  color: #3A2B14;
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: clamp(11.5px, 0.9vw, 13.5px);
+  line-height: 1.3;
+  text-align: left;
+  box-shadow: 0 3px 8px rgba(18, 9, 2, 0.26);
+  rotate: -1.6deg;
+}
+
+/* ═══ ACT 0 — THE HANG: the hero's one load moment ═══════════════════════
+   The frames settle onto their hooks and the instruments onto their
+   plinths, staggered 60ms; the headline lifts into place. Transform on the
+   individual `translate` property, so the frames' `rotate: var(--tilt)` is
+   untouched, and NO opacity on the H1 (it is the LCP element). Over by
+   900ms. `--k` is set by adjacent-sibling chains: the six frames are
+   consecutive siblings in GrandHall.tsx, the four instrument wrappers too. */
+@media (prefers-reduced-motion: no-preference) {
+  .hv11 .hv10-frame {
+    animation: hv11Settle 520ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+    animation-delay: calc(var(--k, 0) * 60ms);
+  }
+  .hv11 .hv10-frame + .hv10-frame { --k: 1; }
+  .hv11 .hv10-frame + .hv10-frame + .hv10-frame { --k: 2; }
+  .hv11 .hv10-frame + .hv10-frame + .hv10-frame + .hv10-frame { --k: 3; }
+  .hv11 .hv10-frame + .hv10-frame + .hv10-frame + .hv10-frame + .hv10-frame { --k: 4; }
+  .hv11 .hv10-frame + .hv10-frame + .hv10-frame + .hv10-frame + .hv10-frame + .hv10-frame { --k: 5; }
+  .hv11 .hv10-piece {
+    animation: hv11Settle 520ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+    animation-delay: calc(200ms + var(--k, 0) * 60ms);
+  }
+  .hv11 .hv10-stage > div:has(> .hv10-piece) + div:has(> .hv10-piece) .hv10-piece { --k: 1; }
+  .hv11 .hv10-stage > div:has(> .hv10-piece) + div:has(> .hv10-piece) + div:has(> .hv10-piece) .hv10-piece { --k: 2; }
+  .hv11 .hv10-stage > div:has(> .hv10-piece) + div:has(> .hv10-piece) + div:has(> .hv10-piece) + div:has(> .hv10-piece) .hv10-piece { --k: 3; }
+  .hv11 .hv10-h1 {
+    animation: hv11Lift 560ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+    animation-delay: 120ms;
+  }
+}
+@keyframes hv11Settle {
+  from { translate: 0 -1.4cqw; opacity: 0; }
+}
+@keyframes hv11Lift {
+  from { translate: 0 0.6cqw; }
+}
+
+/* ═══ ACT 1 — THE THRESHOLD: the doorway (the signature move) ════════════
+   A cream wall (the is-light room tokens) with a drawn archway. The jamb is
+   the `.hv10-arch` profile v10 drew and never used; the opening is Room I's
+   own terracotta wall seen through it, with the next room's skirting and a
+   sliver of floor drawn at its foot so it reads as a ROOM beyond, not a
+   coloured shape. Base pose: open. */
+.hv11-threshold {
+  position: relative;
+  height: clamp(300px, 54svh, 500px);
+  overflow: clip;
+  background:
+    radial-gradient(110% 70% at 40% 0%, rgba(255, 250, 232, 0.55) 0%, rgba(255, 250, 232, 0) 62%),
+    linear-gradient(180deg, #FAF3E3 0%, #F0E5CE 46%, #E0D2B6 100%);
+  view-timeline-name: --threshold;
+  view-timeline-axis: block;
+}
+.hv11-threshold-wall {
+  position: absolute;
+  inset: 0;
+}
+.hv11-threshold-jamb,
+.hv11-threshold-arch {
+  position: absolute;
+  left: 50%;
+  bottom: clamp(26px, 3.4vw, 44px);
+  translate: -50% 0;
+  border-radius: 50% 50% 1% 1% / 58% 58% 1% 1%;
+}
+/* the jamb: cream stone, the arch profile, lit from the clerestory */
+.hv11-threshold-jamb {
+  width: min(78vw, 820px);
+  height: calc(100% - clamp(26px, 3.4vw, 44px) - clamp(30px, 4vw, 52px));
+  background: linear-gradient(180deg, rgba(253, 251, 246, 0.95) 0%, #F3EAD8 40%, #E4D7BC 100%);
+  box-shadow:
+    inset 0 0 0 clamp(6px, 0.8vw, 12px) #E4D7BC,
+    inset 0 0 0 calc(clamp(6px, 0.8vw, 12px) + 2px) rgba(255, 253, 248, 0.9),
+    inset 0 0.9vw 2.4vw rgba(20, 50, 45, 0.22),
+    0 0 0 0.42vw rgba(253, 251, 246, 0.35),
+    0 14px 30px rgba(40, 22, 6, 0.16);
+}
+/* the opening: Room I, seen through the door */
+.hv11-threshold-arch {
+  width: min(70vw, 736px);
+  height: calc(100% - clamp(26px, 3.4vw, 44px) - clamp(30px, 4vw, 52px) - 2.6vw);
+  margin-bottom: 0;
+  background:
+    /* the clerestory light of the room beyond, falling on its far wall */
+    radial-gradient(90% 70% at 50% 8%, rgba(255, 246, 214, 0.34) 0%, rgba(255, 246, 214, 0) 62%),
+    linear-gradient(180deg, #B0603F 0%, #9A4E35 40%, #7E3A28 100%);
+  /* the reveal — the wall's thickness seen through the door — then the
+     shade of the lintel on the next room's wall */
+  box-shadow:
+    inset 0 0 0 clamp(8px, 1.1vw, 16px) rgba(74, 30, 16, 0.55),
+    inset 0 1.2vw 2.4vw rgba(20, 8, 4, 0.34);
+  clip-path: inset(0 0 0 0 round 50% 50% 1% 1% / 58% 58% 1% 1%);
+}
+/* the room beyond the door: two real works on its far wall, a floor in
+   perspective — so the door shows PRODUCT, not a coloured shape. Children of
+   the arch, so the clip-path clips them with it. */
+.hv11-threshold-room {
+  position: absolute;
+  inset: 0;
+}
+.hv11-threshold-room-floor {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 22%;
+  background:
+    repeating-conic-gradient(at 50% 0%, rgba(94, 62, 26, 0.28) 0deg 0.16deg, transparent 0.16deg 3.4deg),
+    linear-gradient(180deg, rgba(40, 22, 6, 0.3) 0%, rgba(40, 22, 6, 0) 40%),
+    linear-gradient(180deg, var(--g10-floor-lit) 0%, var(--g10-floor) 45%, var(--g10-floor-deep) 100%);
+}
+.hv11-threshold-room-dado {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 22%;
+  height: 7%;
+  background: linear-gradient(180deg, rgba(8, 40, 32, 0.2) 0%, rgba(8, 40, 32, 0.04) 10%, #E4D7BC 10%, #E4D7BC 40%, #CBBB9B 40%, #CBBB9B 52%, #F0E6D0 52%, #DCCFB2 76%, #C6B694 100%);
+}
+.hv11-threshold-work {
+  position: absolute;
+  top: var(--y);
+  left: var(--x);
+  width: var(--w);
+  aspect-ratio: 3 / 4;
+  padding: clamp(4px, 0.6vw, 8px);
+  border-radius: 2px;
+  background: linear-gradient(150deg, var(--g10-frame-wood-lit) 0%, var(--g10-frame-wood) 54%, #4E3721 100%);
+  box-shadow: inset 0 0 0 1px rgba(255, 240, 214, 0.26), 0 12px 24px rgba(18, 9, 2, 0.4);
+  rotate: var(--tilt, 0deg);
+}
+.hv11-threshold-work img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  background: var(--g10-cream);
+  box-shadow: 0 0 0 2px #F7F1E4;
+}
+/* the stone step across the door */
+.hv11-threshold-sill {
+  position: absolute;
+  left: 50%;
+  bottom: clamp(22px, 2.9vw, 38px);
+  translate: -50% 0;
+  width: min(82vw, 860px);
+  height: clamp(6px, 0.8vw, 10px);
+  border-radius: 2px;
+  background: linear-gradient(180deg, #FFFDF8 0%, #F6F1E6 45%, #D8CDB8 70%, #B9A98E 100%);
+  box-shadow: 0 4px 10px rgba(40, 22, 6, 0.3);
+}
+/* the skirting at the threshold's foot (same joinery as every room) */
+.hv11-threshold-dado {
+  position: absolute;
+  left: -50vw;
+  right: -50vw;
+  bottom: 0;
+  height: clamp(22px, 2.9vw, 38px);
+  pointer-events: none;
+  background: linear-gradient(
+    180deg,
+    rgba(8, 40, 32, 0.16) 0%, rgba(8, 40, 32, 0.04) 8%,
+    #E4D7BC 8%, #E4D7BC 30%,
+    #CBBB9B 30%, #CBBB9B 40%,
+    #F0E6D0 40%, #DCCFB2 62%,
+    #D5C7A8 62%, #C6B694 100%
+  );
+}
+
+/* ═══ ACT 2 — ROOM I: THE EASEL ══════════════════════════════════════════
+   Two columns: the room's words (sticky beside the easel on desktop) and
+   the easel, a stack of sticky panels each holding a working instrument.
+   The next panel scrolls up over the last. */
+.hv11-front {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: clamp(22px, 3.4vw, 56px);
+  align-items: start;
+  margin-top: clamp(18px, 2.4vw, 32px);
+}
+.hv11-front-text {
+  position: sticky;
+  top: var(--hv11-stick);
+  padding-top: 6px;
+}
+.hv11-front-text .hv10-room-h2 { margin-top: 0; }
+.hv11-easel-col {
+  display: grid;
+  gap: clamp(14px, 2vw, 24px);
+  min-width: 0;
+}
+.hv11-easel {
+  display: grid;
+  gap: clamp(14px, 2vw, 24px);
+}
+.hv11-panel {
+  position: sticky;
+  top: var(--hv11-stick);
+  min-height: clamp(250px, 34svh, 340px);
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 10px;
+  padding: clamp(14px, 1.6vw, 22px);
+  border-radius: 10px;
+  background:
+    radial-gradient(70% 60% at 50% 8%, rgba(255, 252, 244, 0.95) 0%, rgba(255, 255, 255, 0) 62%),
+    #FDFBF6;
+  box-shadow: 0 18px 34px rgba(24, 12, 2, 0.3), inset 0 1px 0 #FFFFFF;
+  transform-origin: 50% 100%;
+}
+.hv11-panel-art {
+  --hv11-zoom: 1.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  padding: 8px 0 4px;
+  overflow: clip;
+}
+/* The machines are authored at their v9 card size (~150-260px). On the
+   easel they are the exhibit, so they stand larger: a `scale` on the
+   vignette root multiplies px keyframes and composed poses alike (the
+   documented route for machines with pixel offsets). */
+.hv11-panel-art > * { position: relative; scale: var(--hv11-zoom); }
+.hv11-panel-foot {
+  display: grid;
+  gap: 3px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(20, 50, 45, 0.1);
+}
+.hv11-panel-name {
+  font-family: var(--font-baloo-2), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: clamp(15px, 1.2vw, 18px);
+  line-height: 1.2;
+  color: #14322D;
+}
+.hv11-panel-note {
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-weight: 600;
+  font-size: clamp(12.5px, 0.95vw, 14.5px);
+  line-height: 1.45;
+  color: #46504A;
+}
+.hv11-panel-slip {
+  /* INSIDE the card: a slip hung over its top edge poked out above the
+     later panels stacked on it (seen at every width). */
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  rotate: 2deg;
+  max-width: 22ch;
+  z-index: 1;
+}
+@media (max-width: 859px) {
+  .hv11-front { grid-template-columns: minmax(0, 1fr); }
+  .hv11-front-text { position: static; padding-top: 0; }
+  .hv11-panel-slip { right: 8px; max-width: 18ch; }
+  .hv11-panel-art { --hv11-zoom: 1.2; min-height: 190px; }
+}
+@media (max-width: 379px) {
+  .hv11-panel-art { --hv11-zoom: 1; min-height: 170px; }
+}
+/* Room I's CTA moves into the text column; the touchable rekenrek follows
+   the easel with a little more room than v10 gave it. */
+/* The touchable rekenrek stands in the easel column, at the easel's width,
+   after the four panels — the piece on the easel you may touch. The facade
+   is the tool's own preview render (480×360 with its toolbar and stage
+   margins baked in); shown cropped to the two rails, so the card holds the
+   instrument, not a screenshot of a page. The real tool mounts on click. */
+.hv11 #instruments .hv10-touch { max-width: none; margin: clamp(6px, 1vw, 14px) 0 0; }
+.hv11 #instruments .hv10-touch .hv6-stage {
+  border-radius: 10px;
+  box-shadow: 0 18px 34px rgba(24, 12, 2, 0.3), inset 0 1px 0 #FFFFFF;
+}
+.hv11 #instruments .hv10-touch button { border: 0; background: #FDFBF6; border-radius: 8px; }
+.hv11 #instruments .hv10-touch button img {
+  aspect-ratio: 4 / 1.9;
+  height: auto;
+  object-fit: cover;
+  object-position: 50% 90%;
+}
+
+/* ═══ ACT 3 — ROOM II: THE WALL IN THREE DEPTHS ══════════════════════════
+   Fifteen works: a row of small frames high on the wall (far), three large
+   at eye level (near), six medium below (mid). All fifteen anchors are in
+   the HTML at every width; the phone bands hide with display:none — off
+   the a11y tree and the tab order together, as v10's wall did. */
+.hv11-wall {
+  display: grid;
+  gap: clamp(36px, 4vw, 56px);
+  margin-top: clamp(26px, 3vw, 44px);
+  padding: 36px 0 32px;   /* absorbs the ±36px excursion of the near plane */
+}
+.hv11-plane {
+  display: grid;
+  gap: clamp(12px, 1.6vw, 22px);
+  align-items: start;
+}
+.hv11-plane.is-far {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  padding-inline: 15%;
+}
+.hv11-plane.is-near {
+  grid-template-columns: repeat(3, minmax(0, 300px));
+  justify-content: center;
+  gap: clamp(18px, 2.6vw, 38px);
+}
+.hv11-plane.is-mid {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+/* the traveller's note, on the first large work */
+.hv11-work-slip {
+  position: absolute;
+  left: 6%;
+  bottom: -9px;
+  z-index: 2;
+  rotate: -2deg;
+}
+@media (max-width: 879px) {
+  .hv11-plane.is-far,
+  .hv11-plane.is-mid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .hv11-plane.is-far { padding-inline: 4%; }
+  .hv11-plane.is-far > :nth-child(n + 4),
+  .hv11-plane.is-mid > :nth-child(n + 4) { display: none; }
+}
+@media (max-width: 639px) {
+  .hv11-work-slip { display: none; }
+}
+@media (max-width: 479px) {
+  .hv11-plane.is-far,
+  .hv11-plane.is-mid,
+  .hv11-plane.is-near { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .hv11-plane.is-far > :nth-child(n + 3),
+  .hv11-plane.is-mid > :nth-child(n + 3),
+  .hv11-plane.is-near > :nth-child(n + 3) { display: none; }
+  .hv11-wall { padding: 16px 0 12px; gap: clamp(20px, 5vw, 32px); }
+}
+
+/* ═══ ACT 4 — ROOM III: THE PLAYROOM, once and under the hand ════════════
+   BASE: each exhibit rests at the moment it is about (v10's composed
+   poses), and the perpetual 11/15/19/23s loops are retired so the wall
+   above and the studio below each keep one dominant motion. The once-
+   sequences and the hover replay live in the ONCE layer below. */
+/* The sill under each niche: v10 centred it with `margin-left: min(-50%,
+   -105px)`, and min() of two NEGATIVE lengths picks the WIDER shift, so the
+   sill sat 11px left of centre on a desktop and ~45px on a phone. */
+.hv11 .hv10-alcove::after { left: 50%; translate: -50% 0; margin-left: 0; width: min(100%, 210px); }
+/* The ochre wall, a shade deeper, and its prose at full cream: measured
+   3.6:1 on v10's ochre for the room's body copy; ≥4.5:1 now against the wall,
+   its lit top and its deep foot alike. */
+.hv11 .hv10-room.is-ochre {
+  --room-wall: #86591F;
+  --room-wall-lit: #946628;
+  --room-wall-deep: #6B461A;
+}
+.hv11 .hv10-room.is-ochre .hv10-room-body { color: #FDFBF6; }
+/* The exhibits, larger: every vignette scales from the niche's font-size,
+   and at v10's knob they were ~100px icons in 200px niches. */
+.hv11 .hv10-alcove-art { font-size: clamp(14px, 1.85vw, 21px); }
+.hv11 .hv10-act-dot,
+.hv11 .hv10-act-tile,
+.hv11 .hv10-act-sum span,
+.hv11 .hv10-act-ring { animation: none; opacity: 1; transform: scale(1); }
+.hv11 .hv10-act-dot.is-empty { opacity: 0; }
+.hv11 .hv10-act-tick { animation: none; opacity: 1; transform: rotate(-45deg) scale(1); }
+
+/* ═══ ACT 5 — ROOM IV: THE STUDIO, one build splits into two outputs ═════
+   The maker sits in front (z 2); the two outputs start tucked behind it and
+   slide out under the wheel. Translate only — no opacity — so the captions
+   are never hidden from anyone who does not scroll. */
+.hv11 .hv10-workbench { position: relative; z-index: 2; }
+.hv11 .hv10-outputs { position: relative; z-index: 1; }
+.hv11-fork-label {
+  margin: 0 0 2px;
+  font-family: var(--font-baloo-2), system-ui, sans-serif;
+  font-weight: 600;
+  font-size: clamp(13.5px, 1.05vw, 16px);
+  line-height: 1.3;
+  color: #3E5C55;
+}
+
+/* On a phone the maker's settings sidebar is a black column of 3px text;
+   the picture crops to the worksheet canvas and keeps a sliver of the panel. */
+@media (max-width: 899px) {
+  .hv11 .hv10-workbench img { aspect-ratio: 4 / 3; object-fit: cover; object-position: 88% 50%; }
+}
+
+/* ═══ ACT 6 — ROOM V: THE DISPATCH, the peak ═════════════════════════════
+   BASE: sent, landed, and the class has it (v10's composed poses); the 14s
+   loops are retired. The send runs ONCE on entry in the ONCE layer. */
+.hv11 .hv10-dispatch-arc::before { animation: none; transform: scaleX(1); opacity: 1; }
+.hv11 .hv10-dispatch-card { animation: none; opacity: 1; transform: scale(1); }
+.hv11-dispatch-sheetwrap {
+  position: relative;
+  justify-self: center;
+}
+.hv11-dispatch-slip {
+  position: absolute;
+  left: -8px;
+  bottom: -14px;
+  z-index: 2;
+  rotate: -2.5deg;
+}
+/* the class: twenty-five small screens */
+.hv11-screens {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: clamp(5px, 0.6vw, 9px);
+  width: clamp(150px, 17vw, 236px);
+  justify-self: center;
+}
+/* four stations on desktop: the sheet, the arc, the code, the class. The
+   arc's ends meet the sheet and the code (no gutter on its two sides); the
+   class stands a step further along. */
+@media (min-width: 860px) {
+  .hv11 .hv10-dispatch {
+    grid-template-columns: minmax(0, auto) clamp(84px, 11vw, 150px) minmax(0, auto) minmax(0, auto);
+    gap: clamp(6px, 0.8vw, 12px);
+  }
+  .hv11 .hv11-screens { margin-left: clamp(22px, 3.4vw, 56px); }
+  /* the arc spans past its own column so its feet land UNDER the sheet and
+     the code — a line that joins, not a stranded half-ring */
+  .hv11 .hv10-dispatch-arc {
+    width: calc(100% + 2 * clamp(6px, 0.8vw, 12px) + 28px);
+    margin-inline: calc(-1 * clamp(6px, 0.8vw, 12px) - 14px);
+    z-index: 0;
+  }
+  .hv11 .hv11-dispatch-sheetwrap,
+  .hv11 .hv10-dispatch-code { position: relative; z-index: 1; }
+}
+/* the plan tag rides at the end of the chip row instead of orphaned beneath */
+.hv11 .hv10-dispatch-chips { align-items: center; }
+.hv11 .hv10-plan-tag { margin-top: 0; }
+/* the sheet on every screen: the traveller's own thumbnail, set inline */
+.hv11-screen[style*="background-image"] { background-size: cover; background-position: top center; background-repeat: no-repeat; }
+.hv11-screen[style*="background-image"]::after { display: none; }
+.hv11-screen {
+  position: relative;
+  display: block;
+  aspect-ratio: 4 / 3;
+  border-radius: 3px;
+  background: #FFFDF8;
+  box-shadow: inset 0 0 0 1.5px rgba(20, 50, 45, 0.3), 0 2px 5px rgba(18, 9, 2, 0.28);
+  overflow: hidden;
+}
+/* the worksheet on each screen: a tiny sheet with its coral title band */
+.hv11-screen::after {
+  content: '';
+  position: absolute;
+  inset: 18% 24%;
+  border-radius: 1px;
+  background: linear-gradient(180deg, var(--g10-coral) 0% 28%, rgba(20, 50, 45, 0.22) 28% 100%);
+}
+
+/* The loan well: installed by default (the crawler and the reduced-motion
+   visitor see the worksheet on the site), and it fills ONCE as the visitor
+   arrives instead of looping through an empty phase every 17 seconds — the
+   critic caught the empty dashed box in the one panel whose job is to show
+   the result. */
+.hv11 .hv10-loan-slot { animation: none; opacity: 0; transform: scaleY(1); }
+.hv11 .hv10-loan-live { animation: none; opacity: 1; transform: none; }
+/* Room VI: the two plans fill the room's width; the promises run beneath. */
+.hv11 .hv10-plans { max-width: 1000px; }
+
+/* ═══ ACT 7 — ROOM VI: the three lines v6 had written ═══════════════════
+   Nothing here animates. */
+.hv11-reassure {
+  margin: 12px 0 0;
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-weight: 600;
+  font-size: clamp(12.5px, 0.95vw, 14px);
+  line-height: 1.45;
+  color: #5D6B64;
+}
+.hv11-promises {
+  list-style: none;
+  margin: clamp(22px, 2.6vw, 36px) 0 0;
+  padding: 0;
+  max-width: 880px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px clamp(18px, 2.4vw, 30px);
+}
+.hv11-promises li {
+  position: relative;
+  padding-left: 18px;
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-weight: 600;
+  font-size: clamp(13px, 1vw, 15px);
+  line-height: 1.5;
+  color: rgba(253, 251, 246, 0.92);
+}
+.hv11-promises li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 7px;
+  height: 7px;
+  rotate: 45deg;
+  border-radius: 1px;
+  background: var(--g10-coral);
+}
+
+/* ═══ ACT 8 — THE EXIT SHELF ═════════════════════════════════════════════
+   The hero's four instruments by the door, at the hero's own poster-relative
+   sizes: the shelf is its own inline-size container and carries a copy of
+   the hero's cqw overrides (homepage-v10.css "INSTRUMENT RESIZING") with
+   `.hv10-stage` → `.hv11-shelf`. The open number line and the weigh bench
+   are cqw-authored against the nearest container, so they follow for free. */
+.hv11-shelf {
+  container-type: inline-size;
+  container-name: shelf;
+  position: relative;
+  width: min(100%, 980px);
+  margin: 0 auto clamp(30px, 3.6vw, 56px);
+  display: grid;
+  /* ⚠ PERCENTAGES, not cqw: an element is a container for its DESCENDANTS,
+     never for itself, so cqw on the shelf's own tracks resolved against the
+     viewport and pushed the traveller off the right edge (measured 1477px on
+     a 1366 screen). Every rule on a descendant below may use cqw. */
+  /* Each column holds its instrument with room to spare (the label gate
+     measures a slot's scrollWidth against its clientWidth): clock 12.5cqw in
+     12%, rekenrek 25.5cqw in 27%, number line and bench 15cqw × 1.25 in 18%,
+     the traveller's slip two lines wide in 17%. 92% + 4 gaps + padding. */
+  grid-template-columns: 13% 26% 18% 18% 17%;
+  justify-content: space-between;
+  /* START, not end: with `end`, an item whose plaque wraps to one line sat
+     lower than its neighbours, so its slot ended BELOW the plank and the
+     ledge drew through the instrument (the critic's closing-image defect).
+     Every slot now begins at the shelf's top and ends exactly on the plank. */
+  align-items: start;
+  column-gap: 1.5%;
+  padding: 0 1%;
+}
+.hv11-shelf-item {
+  display: grid;
+  grid-template-rows: 15cqw auto;
+  justify-items: center;
+  min-width: 0;
+}
+.hv11-shelf-slot {
+  align-self: end;
+  width: 100%;
+  height: 15cqw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.hv11-shelf-plaque {
+  align-self: start;
+  width: 100%;
+  max-width: 170px;
+  /* One height band for BOTH label kinds: a plaque is 3.2em tall whether
+     its name takes one line or two, so the traveller's two-line slip beside
+     it never reads as a different object (the label gate's 1.6× ratio). */
+  min-height: 3.2em;
+  overflow-wrap: anywhere;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: clamp(14px, 1.8vw, 24px);
+  padding: 5px 9px;
+  border-radius: 3px;
+  background: rgba(253, 251, 246, 0.94);
+  color: #3A2B14;
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-size: clamp(11px, 0.88vw, 13px);
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  text-wrap: balance;
+  box-shadow: 0 3px 8px rgba(18, 9, 2, 0.26);
+}
+.hv11-shelf-plaque.is-slip { display: inline-block; text-align: left; }
+/* the plank: one element across every slot, at the exact height the slots end */
+.hv11-shelf-plank {
+  position: absolute;
+  left: -1%;
+  right: -1%;
+  top: 15cqw;
+  height: clamp(8px, 1cqw, 14px);
+  border-radius: 2px;
+  background: linear-gradient(180deg, #FFFFFF 0%, var(--g10-stone-top) 40%, var(--g10-stone-edge) 60%, #BCAE94 100%);
+  box-shadow: 0 8px 18px rgba(40, 22, 6, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  pointer-events: none;
+}
+/* the traveller, in its walnut frame at the shelf's end */
+.hv11-shelf-frame {
+  display: block;
+  width: 8.6cqw;
+  aspect-ratio: 3 / 4;
+  padding: 0.5cqw;
+  border-radius: 2px;
+  background: linear-gradient(150deg, var(--g10-frame-wood-lit) 0%, var(--g10-frame-wood) 54%, #4E3721 100%);
+  box-shadow: inset 0 0 0 1px rgba(255, 240, 214, 0.26), 0 10px 20px rgba(18, 9, 2, 0.36);
+  rotate: 1.4deg;
+  margin-bottom: 0.4cqw;
+}
+.hv11-shelf-frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  background: var(--g10-cream);
+  box-shadow: 0 0 0 2px #F7F1E4;
+}
+/* — clock — the hero's 11cqw override, verbatim, in this container — */
+.hv11-shelf .hv6-clock {
+  width: 12.5cqw;
+  height: 12.5cqw;
+  margin: 0;
+  border-width: 0.568cqw;
+  box-shadow: inset 0 0 0 0.19cqw rgba(20, 107, 94, 0.08), 0.284cqw 0.379cqw 0.947cqw rgba(20, 30, 28, 0.18);
+}
+.hv11-shelf .hv6-clock-tick {
+  top: 0.379cqw;
+  width: 0.284cqw;
+  height: 0.852cqw;
+  margin-left: -0.142cqw;
+  border-radius: 0.19cqw;
+  transform-origin: 50% 5.303cqw;
+}
+.hv11-shelf .hv6-clock-hand { border-radius: 0.284cqw; }
+.hv11-shelf .hv6-clock-hand.is-hour { width: 0.568cqw; height: 2.841cqw; margin-left: -0.284cqw; }
+.hv11-shelf .hv6-clock-hand.is-min { width: 0.379cqw; height: 4.167cqw; margin-left: -0.19cqw; }
+.hv11-shelf .hv6-clock-dot { width: 1.136cqw; height: 1.136cqw; margin: -0.568cqw 0 0 -0.568cqw; }
+/* — rekenrek — the hero's 21cqw override, verbatim (the inner rules resolve
+     against the rekenrek's OWN container, exactly as in the hero) — */
+.hv11-shelf .hv6-rek {
+  width: 25.5cqw;
+  gap: 1.558cqw;
+  padding: 0.599cqw 0.359cqw;
+  border-radius: 0.839cqw;
+}
+.hv11-shelf .hv6-rek-rail { height: 7.048cqw; gap: 1.175cqw; }
+.hv11-shelf .hv6-rek-rail::before {
+  left: -1.409cqw;
+  right: -1.409cqw;
+  height: 1.175cqw;
+  margin-top: -0.587cqw;
+  border-radius: 0.705cqw;
+  background: var(--g10-frame-wood);
+}
+.hv11-shelf .hv6-rek-bead { width: 6.343cqw; height: 6.343cqw; }
+.hv11-shelf .hv6-rek-bead.is-push { --push: -21cqw; }
+/* seated on the plank, as on the hero's plinths: the rekenrek carries its
+   own padding, the number line keeps its axis above its box bottom */
+.hv11-shelf .hv6-rek { padding-bottom: 0; }
+/* The open number line keeps its axis 1.9cqw above its own box (the hero
+   seats it by lowering the whole box). Here its parts move down INSIDE the
+   box instead — no translate, no scale — so the axis rests on the plank and
+   the box never overflows its slot. A wider box is a longer line. */
+.hv11-shelf .hv10-onl { width: 17cqw; height: 8cqw; }
+.hv11-shelf .hv10-onl-axis { bottom: 0.3cqw; }
+.hv11-shelf .hv10-onl-tip { bottom: -0.05cqw; }
+.hv11-shelf .hv10-onl-arc { bottom: 0.45cqw; }
+.hv11-shelf .hv10-onl-dot { bottom: -0.05cqw; }
+/* the jumps and the marker keep v10's geometry: the dot's keyframes land on
+   the arcs' ends (3.6 / 7.2 / 9.2cqw), so the arcs are not resized here */
+.hv11-shelf .hv10-weigh { width: 17cqw; height: 8cqw; }
+.hv11-shelf-frame { width: 10cqw; }
+/* the traveller's note: two lines wide, barely tilted, so it shares the
+   plaques' height band and never spills its column */
+.hv11-shelf-plaque.is-slip { max-width: 100%; rotate: -0.8deg; padding: 5px 8px; }
+@media (max-width: 639px) {
+  .hv11-shelf {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    row-gap: 22px;
+    column-gap: 16px;
+    justify-content: stretch;
+    padding: 0;
+  }
+  .hv11-shelf-item { grid-template-rows: 24cqw auto; }
+  .hv11-shelf-slot { height: 24cqw; }
+  .hv11-shelf-plank { display: none; }
+  /* each slot gets its own ledge when the shelf breaks into two rows — a
+     plank, not a tile: no shadowed box behind the instrument */
+  .hv11-shelf-slot { border-bottom: 6px solid var(--g10-stone-edge); }
+  .hv11-shelf .hv10-onl,
+  .hv11-shelf .hv10-weigh { width: 40cqw; height: 16cqw; }
+  .hv11-shelf-frame { width: 16cqw; }
+  .hv11-shelf-item.is-traveller { grid-column: 1 / -1; }
+  .hv11-shelf .hv6-clock { width: 19cqw; height: 19cqw; border-width: 0.86cqw; }
+  .hv11-shelf .hv6-clock-tick { top: 0.58cqw; width: 0.43cqw; height: 1.3cqw; margin-left: -0.22cqw; transform-origin: 50% 8.06cqw; }
+  .hv11-shelf .hv6-clock-hand.is-hour { width: 0.86cqw; height: 4.3cqw; margin-left: -0.43cqw; }
+  .hv11-shelf .hv6-clock-hand.is-min { width: 0.58cqw; height: 6.3cqw; margin-left: -0.29cqw; }
+  .hv11-shelf .hv6-clock-dot { width: 1.7cqw; height: 1.7cqw; margin: -0.85cqw 0 0 -0.85cqw; }
+  .hv11-shelf .hv6-rek { width: 38cqw; gap: 2.32cqw; padding: 0.89cqw 0.54cqw; border-radius: 1.25cqw; }
+}
+/* The exit wall, lit: the walk ends in the brightest terracotta of the
+   three, not the darkest; the plaques are labels, not buttons. */
+.hv11 #close {
+  --room-wall: #9C4F36;
+  --room-wall-lit: #B25E44;
+  --room-wall-deep: #7E3E2B;
+}
+.hv11-shelf-plaque { box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset, 0 2px 4px rgba(18, 9, 2, 0.18); }
+/* The close, centred under the shelf: the walk ends facing the door, not
+   pinned to a corner with half a room of empty wall beside it. */
+.hv11 .hv10-exit { max-width: 760px; margin: 0 auto; text-align: center; }
+.hv11 .hv10-exit .hv10-room-body { margin-inline: auto; }
+.hv11 .hv10-exit .hv10-room-ctas { justify-content: center; }
+
+/* ═══ THE CATALOGUE: packed, every link kept ═════════════════════════════
+   v10 laid the index groups in a two-column grid, so the tallest group set
+   each row's height and the page carried 2,600px of index. Multi-column
+   packing keeps the HTML byte-identical (the crawl floor reads it raw) and
+   returns the empty half-rows. */
+@media (min-width: 768px) {
+  .hv11 .hv7-index-grid {
+    display: block;
+    columns: 2;
+    column-gap: 20px;
+  }
+  .hv11 .hv7-index-grid > * {
+    break-inside: avoid;
+    margin-bottom: 20px;
+  }
+}
+
+/* ═══ SCRUB LAYER — motion under the wheel ═══════════════════════════════
+   Only where the browser has scroll-driven animations AND the visitor has
+   not asked for reduced motion. Everything below animates transform,
+   opacity or the door's clip-path; nothing animates layout. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    /* the door opens as you walk up to it; it is fully open when the
+       threshold has fully entered the viewport */
+    .hv11 .hv11-threshold-arch {
+      animation: hv11ArchOpen linear both;
+      animation-timeline: --threshold;
+      animation-range: entry 8% entry 100%;
+    }
+    /* each incoming panel settles onto the easel as it arrives; the range
+       stays inside `entry` because a stuck panel's view progress freezes */
+    .hv11 .hv11-panel + .hv11-panel {
+      animation: hv11PanelIn linear both;
+      animation-timeline: view(block);
+      animation-range: entry 0% entry 60%;
+    }
+    /* the wall in depth: three planes, three rates, over the room's passage */
+    .hv11 #printroom { view-timeline-name: --wall; view-timeline-axis: block; }
+    .hv11 .hv11-plane {
+      animation-timing-function: linear;
+      animation-fill-mode: both;
+      animation-timeline: --wall;
+      animation-range: cover 0% cover 100%;
+      will-change: transform;
+    }
+    .hv11 .hv11-plane.is-near { animation-name: hv11Near; }
+    .hv11 .hv11-plane.is-mid { animation-name: hv11Mid; }
+    .hv11 .hv11-plane.is-far { animation-name: hv11Far; }
+    /* the outputs slide out from behind the maker, one after the other */
+    .hv11 .hv10-output {
+      animation: hv11SlideOut linear both;
+      animation-timeline: view(block);
+      animation-range: entry 5% entry 95%;
+      will-change: transform;
+    }
+    .hv11 .hv10-output:nth-of-type(2) { animation-range: entry 25% cover 38%; }
+  }
+}
+@keyframes hv11ArchOpen {
+  from { clip-path: inset(0 47% 0 47% round 50% 50% 1% 1% / 58% 58% 1% 1%); }
+  to { clip-path: inset(0 0 0 0 round 50% 50% 1% 1% / 58% 58% 1% 1%); }
+}
+@keyframes hv11PanelIn {
+  from { scale: 0.97; opacity: 0.82; }
+  to { scale: 1; opacity: 1; }
+}
+@keyframes hv11Near { from { translate: 0 36px; } to { translate: 0 -36px; } }
+@keyframes hv11Mid { from { translate: 0 14px; } to { translate: 0 -14px; } }
+@keyframes hv11Far { from { translate: 0 -12px; } to { translate: 0 12px; } }
+@keyframes hv11SlideOut {
+  from { translate: var(--hv11-tuck-x, -110%) var(--hv11-tuck-y, -18%); }
+  to { translate: 0 0; }
+}
+/* Stacked layout (< 900px): the outputs are under the maker, so they emerge
+   from beneath it — never from beyond the viewport's left edge, which the
+   nothing-cut-off law forbids and the critic caught at 390. */
+@media (max-width: 899px) {
+  .hv11 .hv10-output { --hv11-tuck-x: 0%; --hv11-tuck-y: -22%; }
+}
+
+/* ═══ ONCE LAYER — armed by ScrollStage (.hv11-js), run by .is-in ════════ */
+@media (prefers-reduced-motion: no-preference) {
+  /* Room III: each exhibit's one move, once, as the visitor arrives */
+  .hv11-js .hv10-act-dot {
+    animation: hv11PopOnce 700ms cubic-bezier(0.34, 1.3, 0.5, 1) both paused;
+    animation-delay: calc(var(--i, 0) * 90ms);
+  }
+  .hv11-js .hv10-act-dot.is-empty { animation: none; opacity: 0; }
+  .hv11-js .hv10-act-tile {
+    animation: hv11PopOnce 700ms cubic-bezier(0.34, 1.3, 0.5, 1) both paused;
+    animation-delay: calc(var(--r, 0) * 380ms);
+  }
+  .hv11-js .hv10-act-sum span {
+    animation: hv11PopOnce 700ms ease-out both paused;
+    animation-delay: calc(var(--r, 0) * 380ms + 220ms);
+  }
+  .hv11-js .hv10-act-ring {
+    animation: hv11RingOnce 900ms cubic-bezier(0.34, 1.4, 0.5, 1) both paused;
+    animation-delay: 500ms;
+  }
+  .hv11-js .hv10-act-tick {
+    animation: hv11TickOnce 800ms cubic-bezier(0.34, 1.4, 0.5, 1) both paused;
+    animation-delay: 600ms;
+  }
+  .hv11-js .is-in .hv10-act-dot,
+  .hv11-js .is-in .hv10-act-tile,
+  .hv11-js .is-in .hv10-act-sum span,
+  .hv11-js .is-in .hv10-act-ring,
+  .hv11-js .is-in .hv10-act-tick { animation-play-state: running; }
+  /* …and again under the hand or keyboard focus: the v10 loop, only while
+     hovered; leaving returns to the once-animation, already finished */
+  .hv11-js .hv10-alcove:hover .hv10-act-dot,
+  .hv11-js .hv10-alcove:focus-within .hv10-act-dot {
+    animation: hv10ActPop 11s ease-out infinite;
+    animation-delay: calc(var(--i, 0) * 200ms);
+  }
+  .hv11-js .hv10-alcove:hover .hv10-act-dot.is-empty,
+  .hv11-js .hv10-alcove:focus-within .hv10-act-dot.is-empty { animation: none; opacity: 0; }
+  .hv11-js .hv10-alcove:hover .hv10-act-tile,
+  .hv11-js .hv10-alcove:focus-within .hv10-act-tile {
+    animation: hv10ActTile 15s cubic-bezier(0.34, 1.3, 0.5, 1) infinite;
+    animation-delay: calc(var(--r, 0) * 640ms);
+  }
+  .hv11-js .hv10-alcove:hover .hv10-act-sum span,
+  .hv11-js .hv10-alcove:focus-within .hv10-act-sum span {
+    animation: hv10ActTile 15s ease-out infinite;
+    animation-delay: calc(var(--r, 0) * 640ms + 260ms);
+  }
+  .hv11-js .hv10-alcove:hover .hv10-act-ring,
+  .hv11-js .hv10-alcove:focus-within .hv10-act-ring {
+    animation: hv10ActRing 19s cubic-bezier(0.34, 1.4, 0.5, 1) infinite;
+  }
+  .hv11-js .hv10-alcove:hover .hv10-act-tick,
+  .hv11-js .hv10-alcove:focus-within .hv10-act-tick {
+    animation: hv10ActTick 23s cubic-bezier(0.34, 1.4, 0.5, 1) infinite;
+  }
+
+  /* Room V: the send. Arc 0–0.7s, the code lands 0.6–1.1s, the twenty-five
+     screens light 1.15–2.5s. Once. */
+  .hv11-js .hv10-dispatch-arc::before {
+    animation: hv11SendArc 700ms cubic-bezier(0.34, 1.2, 0.5, 1) both paused;
+  }
+  .hv11-js .hv10-dispatch-card {
+    animation: hv11SendLand 500ms cubic-bezier(0.34, 1.4, 0.5, 1) both paused;
+    animation-delay: 600ms;
+  }
+  .hv11-js .hv11-screen {
+    animation: hv11ScreenOn 360ms ease-out both paused;
+    animation-delay: calc(1150ms + var(--i, 0) * 40ms);
+  }
+  .hv11-js .is-in .hv10-dispatch-arc::before,
+  .hv11-js .is-in .hv10-dispatch-card,
+  .hv11-js .is-in .hv11-screen { animation-play-state: running; }
+
+  /* the loan well fills once: the empty block waits, then the worksheet
+     lands in it (the block grows down as a real embed does) */
+  .hv11-js .hv10-loan-slot { animation: hv11LoanSlotOnce 1400ms ease-in-out both paused; }
+  .hv11-js .hv10-loan-live { animation: hv11LoanLiveOnce 900ms 700ms cubic-bezier(0.2, 0.8, 0.2, 1) both paused; }
+  .hv11-js .is-in .hv10-loan-slot,
+  .hv11-js .is-in .hv10-loan-live { animation-play-state: running; }
+}
+@keyframes hv11LoanSlotOnce {
+  0% { opacity: 1; transform: scaleY(0.3); }
+  45% { opacity: 1; transform: scaleY(1); }
+  100% { opacity: 0; transform: scaleY(1); }
+}
+@keyframes hv11LoanLiveOnce {
+  from { opacity: 0; transform: scale(0.97); }
+  to { opacity: 1; transform: scale(1); }
+}
+@keyframes hv11PopOnce {
+  from { opacity: 0; transform: scale(0.4); }
+  to { opacity: 1; transform: scale(1); }
+}
+@keyframes hv11RingOnce {
+  from { opacity: 0; transform: scale(0.6); }
+  to { opacity: 1; transform: scale(1); }
+}
+@keyframes hv11TickOnce {
+  from { opacity: 0; transform: rotate(-45deg) scale(0.5); }
+  to { opacity: 1; transform: rotate(-45deg) scale(1); }
+}
+@keyframes hv11SendArc {
+  from { transform: scaleX(0); opacity: 0; }
+  to { transform: scaleX(1); opacity: 1; }
+}
+@keyframes hv11SendLand {
+  from { opacity: 0; transform: scale(0.82); }
+  to { opacity: 1; transform: scale(1); }
+}
+@keyframes hv11ScreenOn {
+  from { opacity: 0.18; scale: 0.9; }
+  to { opacity: 1; scale: 1; }
+}
+
+/* ═══ FALLBACK LAYER — no scroll timelines (.hv11-noscrub) ═══════════════
+   The scrub acts become a transition on entry. Same end poses. */
+@media (prefers-reduced-motion: no-preference) {
+  .hv11-noscrub .hv11-threshold-arch {
+    clip-path: inset(0 47% 0 47% round 50% 50% 1% 1% / 58% 58% 1% 1%);
+    transition: clip-path 900ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  .hv11-noscrub .hv11-threshold.is-in .hv11-threshold-arch {
+    clip-path: inset(0 0 0 0 round 50% 50% 1% 1% / 58% 58% 1% 1%);
+  }
+  .hv11-noscrub .hv11-panel + .hv11-panel {
+    scale: 0.97;
+    opacity: 0.82;
+    transition: scale 500ms cubic-bezier(0.2, 0.8, 0.2, 1), opacity 500ms;
+  }
+  .hv11-noscrub .hv11-panel.is-in + .hv11-panel.is-in,
+  .hv11-noscrub .hv11-panel.is-in { scale: 1; opacity: 1; }
+  .hv11-noscrub .hv10-output {
+    translate: var(--hv11-tuck-x, -110%) var(--hv11-tuck-y, -18%);
+    transition: translate 640ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  /* the ROOM's entry releases the outputs too: an output tucked behind the
+     maker can sit under the room's clip and never satisfy its own observer */
+  .hv11-noscrub .hv10-output.is-in,
+  .hv11-noscrub .hv10-studio.is-in .hv10-output { translate: 0 0; }
+  .hv11-noscrub .hv10-output:nth-of-type(2) { transition-delay: 160ms; }
+}

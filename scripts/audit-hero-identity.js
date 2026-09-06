@@ -46,7 +46,9 @@ const OUT = args.out || path.join(__dirname, '..', '.scratch', 'hero-identity');
                        catch it — it moves identically at every width; only
                        the v10.1 overlap census can)
    --poison=stray      a paragraph appended inside the type layer (likewise
-                       invisible to the diff; caught by the typeChildren census) */
+                       invisible to the diff; caught by the typeChildren census)
+   --poison=loadin     the v11 load-in made infinite, so the freeze captures a
+                       frameless hero at every width (caught by framesVisible) */
 const POISON = args.poison === true ? 'rearrange' : (typeof args.poison === 'string' ? args.poison : null);
 /* Mean per-channel difference, 0-255. Rasterising the same vector artwork at
    different sizes and scaling back is not bit-exact — antialiasing and
@@ -88,17 +90,35 @@ async function shoot(browser, width) {
       const t = document.querySelector(sel + ' .hv10-type');
       if (t) { const p = document.createElement('p'); p.className = 'hv10-sub'; p.textContent = 'stray'; t.appendChild(p); }
     }, SELECTOR);
+  } else if (POISON === 'loadin') {
+    // v11: the hero's one-shot load-in made INFINITE. The old freeze (pause +
+    // seek 0) would then screenshot frames at opacity 0 at every width —
+    // identically, so the MAD would still PASS. Only the framesVisible census
+    // can see it; this proves the gate is looking at the finished picture.
+    await page.addStyleTag({ content: `${SELECTOR} .hv10-frame { animation-iteration-count: infinite !important; }` });
   } else if (POISON) {
     throw new Error(`unknown poison mode "${POISON}"`);
   }
 
   // Freeze every animation at the same point so instrument motion cannot be
   // mistaken for a composition difference.
+  //
+  // v11: the hero gained a ONE-SHOT load-in (frames settle onto their hooks,
+  // 520ms, fill-mode both). Seeking that to 0 would screenshot its START
+  // pose — frames translated and at opacity 0 — at every width, identically,
+  // so the MAD would PASS while certifying a picture with no frames in it.
+  // Finite animations are therefore FINISHED (their end pose is the
+  // composition); only infinite loops are paused and seeked to 0.
   await page.evaluate(() => {
     document.getAnimations().forEach((a) => {
       try {
-        a.pause();
-        a.currentTime = 0;
+        const t = a.effect && a.effect.getTiming ? a.effect.getTiming() : null;
+        if (t && t.iterations !== Infinity) {
+          a.finish();
+        } else {
+          a.pause();
+          a.currentTime = 0;
+        }
       } catch {
         /* some animations refuse a seek; pausing is enough */
       }
@@ -134,6 +154,10 @@ async function shoot(browser, width) {
     const box = s.getBoundingClientRect();
     return {
       frames: s.querySelectorAll('.hv10-frame').length,
+      // v11: every frame must be SHOWING (opacity ≥ 0.9) when the shot is
+      // taken — a load-in caught mid-flight, or frozen at its start pose,
+      // renders a frameless hero that the pixel diff cannot distinguish.
+      framesVisible: [...s.querySelectorAll('.hv10-frame')].filter((f) => parseFloat(getComputedStyle(f).opacity) >= 0.9).length,
       plinths: s.querySelectorAll('.hv10-plinth').length,
       pieces: s.querySelectorAll('.hv10-piece').length,
       ratio: +(box.width / box.height).toFixed(3),
@@ -222,6 +246,7 @@ async function shoot(browser, width) {
     for (const k of ['frames', 'plinths', 'pieces']) {
       if (s.census[k] !== ref.census[k]) notes.push(`${k} ${s.census[k]} vs ${ref.census[k]}`);
     }
+    if (s.census.framesVisible !== s.census.frames) notes.push(`only ${s.census.framesVisible}/${s.census.frames} frames visible (load-in not finished, or frozen at its start pose)`);
     if (s.census.typeChildren !== 1) notes.push(`type layer holds ${s.census.typeChildren} children (only the H1 may live in the poster)`);
     if (s.census.strayText) notes.push(`${s.census.strayText} band element(s) inside the stage`);
     if (s.census.overlaps.length) notes.push(`overlaps ${s.census.overlaps.join(' ')} (frame/instrument boxes intersect)`);

@@ -44,6 +44,12 @@ async function shoot(browser, locale, w, h) {
   const page = await browser.newPage();
   await page.setViewport({ width: w, height: h, deviceScaleFactor: 1 });
   await page.setCacheEnabled(false);
+  // Abort favicon like every other homepage gate: on the dev server the
+  // app/ + public/ favicon conflict 500s, which compiles the pages-router
+  // /_error and POISONS app-router SSR for every later request (recorded
+  // trap). Measured 2026-09-06: this gate was the one that tripped it.
+  await page.setRequestInterception(true);
+  page.on('request', (r) => (/favicon/.test(r.url()) ? r.abort() : r.continue()));
   const url = `${BASE}${PATHNAME.replace('{locale}', locale)}?cb=${Date.now()}`;
   await page.goto(url, { waitUntil: 'networkidle2', timeout: 90000 });
   if (POISON) await page.addStyleTag({ content: '.hv10-below{padding-top:240px !important}' });

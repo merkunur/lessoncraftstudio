@@ -48,7 +48,25 @@ function stripComments(s) {
       if (c === q) q = null;
       out += c; i++; continue;
     }
-    if (c === '"' || c === "'" || c === "`") { q = c; out += c; i++; continue; }
+    // A quote only OPENS a string if it is actually a delimiter. An
+    // apostrophe in HTML text content is not: <title>The Fox's Bowl</title>
+    // used to open a string context that swallowed the next four lines,
+    // so the <style> comment was never stripped and the NO-VH rule matched
+    // the word "ResizeObserver" inside it — condemning a correct game.
+    // A single- or double-quoted JS string cannot contain a raw newline,
+    // so a quote with no unescaped partner on the same line is text.
+    // Backticks legitimately span lines and keep the old behaviour.
+    if (c === '"' || c === "'") {
+      let j = i + 1, closed = false;
+      while (j < n && s[j] !== "\n") {
+        if (s[j] === "\\") { j += 2; continue; }
+        if (s[j] === c) { closed = true; break; }
+        j++;
+      }
+      if (!closed) { out += c; i++; continue; }
+      q = c; out += c; i++; continue;
+    }
+    if (c === "`") { q = c; out += c; i++; continue; }
     if (c === "/" && d === "*") {
       i += 2; out += "  ";
       while (i < n && !(s[i] === "*" && s[i + 1] === "/")) { out += (s[i] === "\n" ? "\n" : " "); i++; }

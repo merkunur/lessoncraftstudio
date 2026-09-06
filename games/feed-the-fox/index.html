@@ -1,0 +1,1240 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Fox's Bowl</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link id="webfont" rel="stylesheet" href="" />
+  <style>
+    /* Fixed pixel sizing. No viewport units. No ResizeObserver. */
+    html, body { margin: 0; padding: 0; background: #FBF3E4; }
+    #game { width: 100%; }
+    canvas { display: block; margin: 0 auto; }
+  </style>
+</head>
+<body>
+  <div id="game"></div>
+  <script src="../_lib/theme.js"></script>
+  <script src="../_lib/ui-strings.js"></script>
+  <script src="../_lib/art.js"></script>
+  <script src="../_lib/phaser-3.90.0.min.js"></script>
+  <script src="../_lib/game-core.js"></script>
+  <script>
+    document.getElementById("webfont").href = THEME.font.webfontUrl;
+    GameCore.init({});
+    GameCore.reportHeight();
+    /* 001 The Fox's Bowl - counting 2-10, ages 5-6, pattern P3. The child TAGS each berry with their own finger and
+       the object enforces one-to-one; only when the set is fully tagged does the last numeral fly to the fox's bubble
+       and become the answer. WHY THIS IS NOT GAME 002: there the count is performed FOR the child, by the machine,
+       and only on failure, so 002 diagnoses numeral-form confusion (its 6-vs-9 mirror). Here the count is the child's
+       own act on every item, diagnosing ENUMERATION failure - the skip and the double-count. The spec printed the
+       total BEFORE unlocking the tiles, which made the answer step 002 verbatim; that line is deleted. Full record of
+       every ruling behind this build: BUILD-LOG.md entry 001. */
+    /* GAME: ART registry (BUILD-CONVENTIONS §4). Token NAMES only - never a hex, so the palette stays one edit. Every
+       svg row comes from _lib/art.js and is shared with the other 199 games. TRAP: bowl and bowl.rim are NON-SQUARE:
+       size MUST equal w (96), or drawArt scales them by 64/96 and draws a 64x29 stamp with no error and no console
+       warning. */
+    const ART = {
+      fox:          { kind: "svg", value: LCSArt.get("fox.idle"),  size: 104 },
+      foxThink:     { kind: "svg", value: LCSArt.get("fox.think"), size: 104 },
+      foxHappy:     { kind: "svg", value: LCSArt.get("fox.happy"), size: 104 },
+      foxOops:      { kind: "svg", value: LCSArt.get("fox.oops"),  size: 104 },
+      foxMunch:     { kind: "svg", value: LCSArt.get("fox.munch"), size: 104 },
+      berry:        { kind: "svg", value: LCSArt.get("berry"), size: 38 },
+      bowl:         { kind: "svg", value: LCSArt.get("bowl"),     size: 96, w: 96, h: 44 },
+      bowlRim:      { kind: "svg", value: LCSArt.get("bowl.rim"), size: 96, w: 96, h: 44 },
+      /* The ONE scene element (ART-BIBLE §4, rubric 13): a low-contrast wash behind every cell. No ground band -
+         002's would cross behind row 2 of every two-row layout. */
+      patchMat:     { kind: "shape", shape: "roundRect", w: 516, h: 196, radius: 28,
+                      fill: "surface2", stroke: "line", strokeWidth: 2 },
+      foxShadow:    { kind: "shape", shape: "ellipse", w: 92, h: 14, fill: "ink", alpha: 0.08 },
+      bubble:       { kind: "shape", shape: "roundRect", w: 128, h: 60, radius: 18,
+                      fill: "surface", stroke: "structure", strokeWidth: 3 },
+      bubbleTail:   { kind: "shape", shape: "polygon", points: [[-11, -5], [9, -5], [-3, 6]],
+                      fill: "surface", stroke: "structure", strokeWidth: 3 },
+      /* The counted cell's look is makeTile's OWN selected state (structureSoft fill + a 3px structure stroke), so
+         the state change is the platform's standard one and keyboard focus and hit-testing come free. The uncounted
+         cell is cream on an off-white mat on a cream ground - it vanishes at 400px and the field reads as berries on
+         a patch, which is the point: the child must count BERRIES, not cards. */
+      guideRing:    { kind: "shape", shape: "roundRect", w: 92, h: 96, radius: 22,
+                      stroke: "structure", strokeWidth: 4 },
+      showRing:     { kind: "shape", shape: "roundRect", w: 120, h: 120, radius: 18,
+                      stroke: "structure", strokeWidth: 4 },
+      question:     { kind: "text", value: "?", size: 44, font: "display", color: "structure" },
+      bubbleNumeral:{ kind: "text", value: "0", size: 56, font: "display", color: "structure" },
+      countNumeral: { kind: "text", value: "0", size: 40, font: "display", color: "structure" },
+      flyNumeral:   { kind: "text", value: "0", size: 56, font: "display", color: "structure" },
+      dotEmpty:     { kind: "shape", shape: "circle", r: 8, stroke: "line", strokeWidth: 2 },
+      dotFull:      { kind: "shape", shape: "circle", r: 8, fill: "structure" },
+      /* The ONE accent entry in this file. The fox's body is an accent TINT and is its ART-BIBLE §9.2 identity
+         feature, which under the new §9.4 warm-body clause forbids any other warm value on the character and caps the
+         state coral at a small geometric mark 120px clear of it. Grep this registry for "accent": expect 1. */
+      dotNow:       { kind: "shape", shape: "circle", r: 5, fill: "accent" },
+      demoDot:      { kind: "shape", shape: "circle", r: 11, fill: "structure", alpha: 0.55 },
+      summaryCard:  { kind: "shape", shape: "roundRect", w: 60, h: 60, radius: 12,
+                      fill: "surface2", stroke: "structure", strokeWidth: 2 },
+      summaryNumeral:{ kind: "text", value: "0", size: 40, font: "display", color: "ink" }
+    };
+    /* GAME: ANIM registry (BUILD-CONVENTIONS §5). Real elapsed = duration x (yoyo ? 2 : 1) x (repeat + 1) + hold.
+       Staggers are delayedCalls in the game, never here, so each duration stays a constant the phase-lock arithmetic
+       can rely on. TWO TARGET RULES, each bought by a real defect. (1) ART-BIBLE §9.3: preloadArt rasterises svg at
+       2x and drawArt compensates with an object scale of 0.5, so an ABSOLUTE scale tween on a kind:"svg" object
+       renders it at DOUBLE size with every gate green. (2) makeTile's hover (1.04) and press (0.96) are direct
+       setScale assignments, not tweens, and pointerout resets scale unguarded. So every scale entry below targets a
+       plain CONTAINER, a Text or a Graphics - all natural scale 1 - and specifically the game-owned cellBox / tileBox
+       inside each tile, never the makeTile container itself. Entries that do touch a makeTile container use x/y or
+       alpha only. */
+    const ANIM = {
+      cellIn:       { alpha: 1, scale: 1, duration: 200, ease: "Back.Out", trigger: "cellBox, one cell arriving as an item builds, from alpha 0 scale 0.6, staggered 45ms - 200ms" },
+      cellPop:      { scale: 1.10, duration: 130, ease: "Back.Out", yoyo: true, trigger: "cellBox of the berry just tapped - 260ms" },
+      berryLift:    { y: "-=4", duration: 180, ease: "Back.Out", trigger: "berryBox on being counted: the berry rises 4px. POSITION only - no scale tween ever touches the berry, so §9.3 cannot bite - 180ms" },
+      numeralIn:    { alpha: 1, scale: 1, duration: 180, ease: "Back.Out", trigger: "the 40px numeral appearing beneath a counted berry, from alpha 0 scale 0.5 - 180ms" },
+      lastBeat:     { scale: 1.4, duration: 220, ease: "Back.Out", yoyo: true, trigger: "the LAST berry's numeral - the cardinality beat, taken at its END so the flying copy sits exactly on the original - 440ms" },
+      flightDip:    { y: "+=6", scale: 0.66, duration: 80, ease: "Sine.Out", trigger: "the flying COPY crouching before it leaves the cell. The copy is a 56px Text created at scale 0.714 so it READS 40px and stays crisp; never a 40px Text scaled up - 80ms" },
+      flightTravel: { scale: 1.08, duration: 400, ease: "Cubic.Out", trigger: "the copy travelling to the bubble, x/y ABSOLUTE set at call time. This is the cardinality lesson as one movement - 400ms" },
+      flightSettle: { scale: 1.0, duration: 120, ease: "Back.Out", trigger: "the copy settling to 56px where the ? was. The ORIGINAL is untouched, so the trail 1..n survives - 120ms" },
+      qHide:        { alpha: 0, scale: 0.6, duration: 140, ease: "Sine.In", trigger: "the bubble's ? clearing, timed to finish as the numeral arrives - 140ms" },
+      numeralBeat:  { scale: 1.08, duration: 60, ease: "Sine.InOut", yoyo: true, trigger: "an ALREADY-counted berry's numeral on a second tap, and each numeral in turn during the guided walk - 120ms" },
+      remindPulse:  { scale: 1.12, duration: 180, ease: "Sine.InOut", yoyo: true, trigger: "berryBox of an UN-counted berry, once per event: after a second tap on a counted one, and at the 12s / +20s idle cues. A timer that repeats, never a loop that runs - 360ms" },
+      nudge:        { x: "+=10", duration: 80, ease: "Sine.InOut", yoyo: true, repeat: 1, trigger: "the wrong numeral tile; relative x with yoyo so it ENDS WHERE IT STARTED. No scale, so it cannot fight makeTile hover/press - 320ms" },
+      foxOops:      { angle: -4, duration: 120, ease: "Sine.Out", yoyo: true, hold: 900, trigger: "foxBox on a wrong numeral, AFTER the tile nudge. The surprised pose is on screen the full 1140ms so a probe can capture it anywhere in 200-1150ms - 1140ms" },
+      pop:          { scale: 1.12, duration: 140, ease: "Back.Out", yoyo: true, trigger: "tileBox of the correct tile - 280ms" },
+      showMe:       { alpha: 1, duration: 500, ease: "Sine.InOut", yoyo: true, repeat: -1, trigger: "the attempt-3 ring behind the correct tile, from alpha 0.2. The ONLY repeat -1 in the game; 1Hz; stopped by reference on the tap" },
+      guideRingIn:  { alpha: 1, scale: 1, duration: 260, ease: "Sine.Out", trigger: "the outline marking the NEXT berry to tap, from alpha 0 scale 1.15 - it settles ONTO the cell rather than blinking at it. One shot: nothing moves while the child thinks - 260ms" },
+      guideRingOut: { alpha: 0, duration: 160, ease: "Sine.In", trigger: "that outline leaving as its berry is reached - 160ms" },
+      badgeFade:    { alpha: 0, scale: 0.7, duration: 200, ease: "Sine.In", trigger: "ONE numeral 1..N-1 leaving during the cardinality fade. Duration is CONSTANT; 'fastest first' is carried by the delayedCall stagger (60ms x1.18 per step, capped 180) so the front of the trail rushes off and the tail slows into the survivor - 200ms" },
+      lastGrow:     { scale: 1.55, duration: 320, ease: "Back.Out", trigger: "the surviving last numeral growing once the rest have gone. No yoyo - it STAYS big for a 400ms hold, which is the point being made - 320ms" },
+      lastGrowBack: { scale: 1.0, duration: 220, ease: "Sine.InOut", trigger: "that numeral returning to rest as the correction ends - 220ms" },
+      badgeReturn:  { alpha: 1, scale: 1, duration: 200, ease: "Sine.Out", trigger: "numerals 1..N-1 coming back ALL AT ONCE - the peeling off was the lesson, the return is not - 200ms" },
+      relay:        { duration: 600, ease: "Cubic.InOut", trigger: "the conservation re-lay: every cell slides to a compact arrangement, x/y ABSOLUTE at call time, all on one frame. The cell carries berry and numeral, so the tags ride along intact. Cubic.InOut only - a bounce would say something changed, and nothing has - 600ms" },
+      glideToBowl:  { duration: 300, ease: "Sine.InOut", trigger: "one berry travelling to the bowl, x/y ABSOLUTE, staggered 120ms. It vanishes by OCCLUSION behind bowl.rim, not by alpha - 300ms" },
+      cellFade:     { alpha: 0, duration: 220, ease: "Sine.In", trigger: "the emptied cell fading as its berry leaves - 220ms" },
+      munch:        { scaleY: 0.90, scaleX: 1.06, duration: 110, ease: "Sine.InOut", yoyo: true, repeat: 1, trigger: "foxBox, two chews. 10% squash, inside the 8-12% rule - 440ms" },
+      dotFill:      { scale: 1.35, duration: 160, ease: "Back.Out", yoyo: true, trigger: "the rail dot as it fills - an 8px dot needs 35% to be seen at all - 320ms" },
+      celebrate:    { angle: 8, duration: 120, ease: "Sine.InOut", yoyo: true, repeat: 3, trigger: "the finish-screen fox - 960ms, inside the 1.5s budget" },
+      tileIntro:    { alpha: 1, scale: 1, duration: 180, ease: "Back.Out", trigger: "tileBox of each numeral tile entering at the end of the item-1 demonstration, staggered 90ms - 180ms" },
+      demoGlide:    { duration: 420, ease: "Sine.InOut", trigger: "the demonstration dot travelling to the first berry, x/y ABSOLUTE - 420ms" },
+      demoTap:      { scale: 0.7, duration: 130, ease: "Sine.In", yoyo: true, trigger: "that dot pressing down on the berry - the one tap the game demonstrates - 260ms" },
+      demoOut:      { alpha: 0, duration: 200, ease: "Sine.In", trigger: "the demonstration dot leaving; it never returns - 200ms" }
+    };
+    /* GAME: STRINGS (§9, §17). Eleven locales, rebuilt not translated. Two keys; NO LOCALE_DATA at all.
+       The spec's imperative title "Feed the Fox" was REJECTED (it tells a child to feed a wild animal, which
+       all eleven countries signpost against). BINDING, because each is invisible from English: sv/da/no "skal"
+       is the TOAST; no "bolle" is a bun and crude slang; nl bare "Kom van de vos" is the imperative "Come away
+       from the fox!"; de "Napf" is an animal's feeder and "Schale" also means peel/shell. es is MASCULINE "el
+       zorro" FOREVER ("la zorra" is a vulgar insult) while pt "a raposa" is neutral - never harmonise the two.
+       The CAPTION is derived from the OBJECT, never inherited: it "mirtilli" is masculine, so "Quanti?" where
+       002 (counting feminine "uova") ships "Quante?". Rename the object and es+it must BOTH be re-derived -
+       nothing on screen would catch it. Full record: BUILD-LOG 001. [NSR-FLAG] sv da no fi titles. */
+    const STRINGS = {
+      en: { title: "The Fox's Bowl",         howMany: "How many?"   },
+      de: { title: "Die Schüssel vom Fuchs", howMany: "Wie viele?"  },
+      fr: { title: "Le bol du renard",       howMany: "Combien ?"   },
+      it: { title: "La ciotola della volpe", howMany: "Quanti?"     },
+      es: { title: "El tazón del zorro",     howMany: "¿Cuántos?"   },
+      pt: { title: "A tigela da raposa",     howMany: "Quantos?"    },
+      nl: { title: "De kom van de vos",      howMany: "Hoeveel?"    },
+      sv: { title: "Rävens matskål",         howMany: "Hur många?"  },
+      da: { title: "Rævens madskål",         howMany: "Hvor mange?" },
+      no: { title: "Revens matskål",         howMany: "Hvor mange?" },
+      fi: { title: "Ketun kulho",            howMany: "Montako?"    }
+    };
+    /* GAME: CONTENT (§8). 24 items, 8 per level. lay = [cols row 1, cols row 2 (0 = single row), pitch,
+       stagger]. LAYOUT IS AUTHORED PER ITEM, never derived from the count: a fixed pitch makes row width a
+       monotone function of n, so "wider = more" becomes learnable without counting - the very length/spread bias
+       this game's fourth misconception exists to defeat. Distractors are the outputs of TAGGING errors (N+-1,
+       N+-2), every value is 1-10, and NO 6-vs-9 pair appears - that is 002's diagnostic. TWO MEASURED
+       CONSEQUENCES that look like defects and are not: n=10 admits EXACTLY ONE legal set, {8,9}, so the two
+       ten-items share it (mirrored layout separates them); and a perfect 8/8/8 rank split is then IMPOSSIBLE,
+       since only n<=8 has a "lowest" set and each may be used once, capping lows at 7. Shipped 2/3/3 in EVERY
+       level, which is what the per-level rule asks for. DO NOT TRUST THIS COMMENT - run `check-pools.js`. */
+    const CONTENT = {
+      1: [ { id: "L1a", n: 2,  d: [1, 3],  lay: [2, 0, 108,  0] },
+           { id: "L1b", n: 3,  d: [1, 2],  lay: [3, 0,  92,  0] },
+           { id: "L1c", n: 3,  d: [1, 4],  lay: [3, 0, 124,  0] },
+           { id: "L1d", n: 4,  d: [2, 3],  lay: [4, 0,  92,  0] },
+           { id: "L1e", n: 4,  d: [5, 6],  lay: [4, 0, 124,  0] },
+           { id: "L1f", n: 5,  d: [3, 4],  lay: [5, 0,  92,  0] },
+           { id: "L1g", n: 5,  d: [3, 6],  lay: [5, 0, 108,  0] },
+           { id: "L1h", n: 2,  d: [3, 4],  lay: [2, 0,  92,  0] } ],
+      2: [ { id: "L2a", n: 6,  d: [4, 5],  lay: [3, 3,  92,  0] },
+           { id: "L2b", n: 5,  d: [3, 7],  lay: [3, 2, 108,  0] },
+           { id: "L2c", n: 7,  d: [5, 6],  lay: [4, 3,  92,  0] },
+           { id: "L2d", n: 6,  d: [7, 8],  lay: [3, 3, 108,  0] },
+           { id: "L2e", n: 8,  d: [6, 7], lay: [4, 4,  92,  0] },
+           { id: "L2f", n: 7,  d: [5, 8], lay: [4, 3, 108,  0] },
+           { id: "L2g", n: 8,  d: [6, 10],  lay: [5, 3,  92,  0] },
+           { id: "L2h", n: 5,  d: [6, 7],  lay: [3, 2,  92,  0] } ],
+      3: [ { id: "L3a", n: 9,  d: [7, 8], lay: [5, 4,  92,  1] },
+           { id: "L3b", n: 10, d: [8, 9],  lay: [5, 5,  92,  1] },
+           { id: "L3c", n: 7,  d: [5, 9], lay: [5, 2,  92,  0] },
+           { id: "L3d", n: 9,  d: [7, 10],  lay: [5, 4,  92, -1] },
+           { id: "L3e", n: 10, d: [8, 9],  lay: [5, 5,  92, -1] },
+           { id: "L3f", n: 8,  d: [7, 9], lay: [4, 4, 108,  0] },
+           { id: "L3g", n: 7,  d: [8, 9],  lay: [3, 4,  92,  0] },
+           { id: "L3h", n: 8,  d: [9, 10], lay: [5, 3, 108,  0] } ]
+    };
+    /* Absolute stage coordinates, 720 x 560. Every number below was verified by a geometry pass over all 24 layouts:
+       no cell overlaps another, none leaves the mat, and none comes within 12px of the fox's column. */
+    var MAX_BERRIES = 10, ITEMS = 8;
+    var FIELD_CX = 446, MAT_X = 446, MAT_Y = 168;
+    var CELL_W = 80, CELL_H = 84, BERRY_PX = 38;
+    var ROW_Y1 = 118, ROW_Y2 = 218, ROW_Y_ONE = 168, STAGGER = 20;
+    var BERRY_DY = -17, NUMERAL_DY = 23;
+    var BUBBLE_X = 108, BUBBLE_Y = 98;
+    var FOX_X = 100, FOX_Y = 184, BOWL_X = 132, BOWL_Y = 248, BOWL_PX = 78;
+    var TILE_X = [232, 360, 488], TILE_Y = 382, TILE_W = 104, TILE_NUM_PX = 72;
+    var RAIL_X = 283, RAIL_Y = 28, RAIL_GAP = 22;
+    var PRAISE = ["well_done", "you_did_it", "keep_going"];
+    /* Depth ladder. Everything here is far below showPraise (1000) and the language picker (1500), which is chrome
+       and must never be covered - 002 shipped a mascot re-created on every pose change that landed on top of the open
+       language panel. */
+    var D_MAT = 0, D_CELL = 1, D_GUIDE = 3, D_BOWL = 4, D_FLY = 5,
+        D_RIM = 6, D_FOX = 7, D_BUBBLE = 8, D_RAIL = 9, D_SHOW = 11, D_TILE = 12;
+    /* Policy switches (data, not structure). Each is a one-line edit. */
+    var TILES_LIVE_AFTER_FIRST_BERRY = true;  /* an early answer is a DIAGNOSTIC, not an invalid move */
+    var DEMO_ITEM1 = true;                    /* item 1 demonstrates ONE tap, never the whole count */
+    var FREE_RECOUNT = true;                  /* tapping the fox replays the count, once per item */
+    var PRAISE_FIRST_TRY_ONLY = true;
+    var STUCK_MS = 12000, STUCK_MS_2 = 20000;
+    var REQUEUE_GAP = 3;
+    /* Frame the 720x560 logical stage inside the higher-resolution canvas. */
+    function stageCam(scene) {
+      var z = scene.scale.width / 720;
+      scene.cameras.main.setZoom(z);
+      scene.cameras.main.centerOn(360, 280);
+    }
+
+    function S(key) {
+      var d = STRINGS[GameCore.lang] || STRINGS.en;
+      return d[key] != null ? d[key] : STRINGS.en[key];
+    }
+    /* addPicker - LIBRARY BUG workaround inherited by all 200 games: makeLanguagePicker registers a scale "resize"
+       handler and never removes it, and the ScaleManager is game-global, so every scene transition leaves a stale
+       handler bound to destroyed pills; the next viewport change - a child rotating a tablet - throws inside
+       setInteractive. We cannot edit _lib, so we drop exactly the handlers THIS call added. Removing all "resize"
+       handlers would take Phaser's own with them. */
+    function addPicker(scene, x, y) {
+      if (GameCore.isEmbedded) return null;
+      var before = scene.scale.listeners("resize").slice();
+      var root = GameCore.makeLanguagePicker(scene, x, y);
+      var after = scene.scale.listeners("resize");
+      var added = [], i;
+      for (i = 0; i < after.length; i++) if (before.indexOf(after[i]) < 0) added.push(after[i]);
+      scene.events.once("shutdown", function () {
+        for (var k = 0; k < added.length; k++) scene.scale.off("resize", added[k]);
+      });
+      return root;
+    }
+    /* Cell centres for one authored layout. Reading order is row 1 left-to-right then row 2 left-to-right, which is
+       also the Tab order and the order the guided re-count enforces. */
+    function cellPositions(lay) {
+      var c1 = lay[0], c2 = lay[1], p = lay[2], st = lay[3], out = [], i;
+      function row(cols, cx, y) {
+        for (var k = 0; k < cols; k++) out.push([cx - (cols - 1) * p / 2 + k * p, y]);
+      }
+      if (c2 === 0) { row(c1, FIELD_CX, ROW_Y_ONE); return out; }
+      row(c1, FIELD_CX + st * STAGGER, ROW_Y1);
+      row(c2, FIELD_CX - st * STAGGER, ROW_Y2);
+      return out;
+    }
+    /* The compact arrangement the conservation re-lay slides into: the same berries, the tightest legal picture, same
+       number. */
+    function compactPositions(n) {
+      if (n <= 5) return cellPositions([n, 0, 92, 0]);
+      return cellPositions([Math.ceil(n / 2), Math.floor(n / 2), 92, 0]);
+    }
+    /* TEST HOOK (BUILD-CONVENTIONS §16), defined before Phaser boots. wrong()/correct() ENQUEUE; Play.update() drains
+       at most one intent per frame by emitting pointerdown+pointerup on a tile's OWN container - the same chain a
+       finger fires, including makeTile's enabled guard. No private set-state path exists in this file. SPECIFIC TO
+       THIS GAME: the tiles are not answerable until every berry is tapped, so a numeral-only intent would evaporate
+       and the session would never finish. Any pending intent therefore first means "bring this item to an answerable
+       state" - the drainer taps one un-counted berry per frame WITHOUT consuming the intent, and delivers the numeral
+       tap only once the count is complete. It never triggers an early answer: that is refused by design and would
+       stall the gate. */
+    var __scene = "Boot", __startBtn = null, __play = null, __q = [];
+
+    function __enq(kind) {
+      /* Dedupe: the gate fires roughly seven iterations per item, and an unbounded queue would deliver the backlog to
+         the NEXT item - solving items the child never answered while the gate still reported success. */
+      for (var i = 0; i < __q.length; i++) if (__q[i] === kind) return;
+      __q.push(kind);
+    }
+
+    window.LCS_TEST = {
+      ready: function () { return !!__startBtn; },
+      scene: function () { return __scene; },
+      strings: function () {
+        /* start MUST stay GameCore.t("start") verbatim: the gate needs 7 distinct Start labels across 11 locales and
+           ui-strings yields exactly 7 (five languages share "Start"). No slack. */
+        return { start: GameCore.t("start"), title: S("title"), howMany: S("howMany") };
+      },
+      start: function () {
+        if (__startBtn && __scene === "Boot") {
+          __startBtn.emit("pointerdown");
+          __startBtn.emit("pointerup");
+        }
+      },
+      wrong:   function () { if (__scene === "Play") __enq("wrong"); },
+      correct: function () { if (__scene === "Play") __enq("correct"); },
+      targets: function () {
+        /* The game's OWN interactive surface only. The library Start / Play again / Menu buttons and the language
+           picker are chrome, not game targets; Boot and Finish therefore report none. */
+        if (__scene !== "Play" || !__play) return [];
+        var out = [], i, c;
+        for (i = 0; i < __play.cells.length; i++) {
+          c = __play.cells[i].container;
+          if (!c.visible) continue;
+          out.push({ id: "berry" + i, x: c.x, y: c.y,
+                     w: Math.round(CELL_W * c.scaleX), h: Math.round(CELL_H * c.scaleY) });
+        }
+        for (i = 0; i < 3; i++) {
+          c = __play.tiles[i].container;
+          out.push({ id: "num" + i, x: c.x, y: c.y,
+                     w: Math.round(TILE_W * c.scaleX), h: Math.round(TILE_W * c.scaleY) });
+        }
+        if (__play.foxTap) {
+          c = __play.foxTap.container;
+          out.push({ id: "fox", x: c.x, y: c.y, w: 104, h: 104 });
+        }
+        return out;
+      },
+      /* Extensions beyond the §16 minimum, for the probe harness: the gate can never reach the guided re-count, the
+         show-me ring, or a nine/ten-berry layout. */
+      probe: function () {
+        if (__scene !== "Play" || !__play) return { scene: __scene };
+        var p = __play;
+        return { scene: __scene, phase: p.phase, level: p.level, count: p.count, fox: p.foxKey(),
+                 tagScales: p.tagScales(),
+                 k: p.k, counted: p.counted.slice(0, p.count), attempt: p.attempt,
+                 correctIndex: p.correctIndex, values: p.values.slice(),
+                 praisedLast: p.praisedLast, itemId: p.itemId,
+                 numEnabled: p.tiles.map(function (t) { return !!t.enabled; }),
+                 boxes: p.cells.map(function (t) {
+                   var c = t.container; return c.visible ? [c.x, c.y] : null; }) };
+      },
+      tapBerry: function (i) { if (__scene === "Play") __q.push({ berry: i }); },
+      tapIndex: function (i) { if (__scene === "Play") __q.push({ tap: i }); }
+    };
+    /* ---------------------------------------------------------- */
+    var Boot = new Phaser.Class({
+      Extends: Phaser.Scene,
+      initialize: function Boot() { Phaser.Scene.call(this, "Boot"); },
+      preload: function () { GameCore.preloadArt(this, ART); },
+      create: function () {
+        var self = this;
+        stageCam(this);
+        __scene = "Boot"; __play = null; __q.length = 0;
+        /* makeStartScreen centres its title+button block: title at y 190, button at 284..356. The fox stands below it
+           with her bowl. TRAP: NOTHING on this screen is interactive except Start. qa-game's POINTER check clicks the
+           BIGGEST interactive target and demands it enters Play; a 104px tappable fox would outrank the 220x72 Start
+           button and fail a perfectly correct game. */
+        GameCore.drawArt(this, ART, "foxShadow", 362, 472);
+        GameCore.drawArt(this, ART, "fox", 360, 428);
+        GameCore.drawArt(this, ART, "bowl", 428, 486, { size: 78 }).setDepth(D_BOWL);
+        GameCore.drawArt(this, ART, "bowlRim", 428, 486, { size: 78 }).setDepth(D_RIM);
+
+        var ss = GameCore.makeStartScreen(this, S("title"), function () { self.scene.start("Play"); });
+        __startBtn = ss.startButton;
+        addPicker(this, 16, 16);
+        var offLang = GameCore.onLanguageChange(function () { ss.titleText.setText(S("title")); });
+        this.events.once("shutdown", function () { offLang(); });
+        GameCore.reportHeight();
+      }
+    });
+    /* ---------------------------------------------------------- */
+    var Play = new Phaser.Class({
+      Extends: Phaser.Scene,
+      initialize: function Play() { Phaser.Scene.call(this, "Play"); },
+      preload: function () { GameCore.preloadArt(this, ART); },
+
+      create: function () {
+        var self = this, i;
+        stageCam(this);
+        __scene = "Play"; __q.length = 0;
+
+        this.session = {
+          pools: { 1: Phaser.Utils.Array.Shuffle(CONTENT[1].slice()),
+                   2: Phaser.Utils.Array.Shuffle(CONTENT[2].slice()),
+                   3: Phaser.Utils.Array.Shuffle(CONTENT[3].slice()) },
+          used: {}, level: 1, streak: 0, history: [], index: 0, solved: [],
+          praiseIdx: 0, lastCorrectSlot: -1, requeue: [], itemToken: 0
+        };
+        this.cur = null;
+        this.phase = "building";
+        this.stuckEvent = null;
+        this.demoing = false;
+        /* --- scenery, drawn once and never touched again --- */
+        GameCore.drawArt(this, ART, "patchMat", MAT_X, MAT_Y).setDepth(D_MAT);
+        /* --- the fox column --- */
+        GameCore.drawArt(this, ART, "bubbleTail", BUBBLE_X - 12, BUBBLE_Y + 32).setDepth(D_BUBBLE);
+        GameCore.drawArt(this, ART, "bubble", BUBBLE_X, BUBBLE_Y).setDepth(D_BUBBLE);
+        this.bubbleQ = GameCore.drawArt(this, ART, "question", BUBBLE_X, BUBBLE_Y).setDepth(D_BUBBLE);
+        this.bubbleNum = GameCore.drawArt(this, ART, "bubbleNumeral", BUBBLE_X, BUBBLE_Y)
+                                 .setDepth(D_BUBBLE).setVisible(false);
+
+        GameCore.drawArt(this, ART, "foxShadow", FOX_X + 2, FOX_Y + 44).setDepth(D_FOX - 1);
+        /* The fox lives inside a container so every ANIM targets the WRAPPER: an absolute scale tween on a kind:"svg"
+           image would throw away drawArt's 0.5 compensation and render it at double size, silently, with every gate
+           green (ART-BIBLE §9.3). */
+        this.foxBox = this.add.container(FOX_X, FOX_Y).setDepth(D_FOX);
+        this.fox = GameCore.drawArt(this, ART, "fox", 0, 0);
+        this.foxKey = "fox";
+        this.foxBox.add(this.fox);
+
+        GameCore.drawArt(this, ART, "bowl", BOWL_X, BOWL_Y, { size: BOWL_PX }).setDepth(D_BOWL);
+        /* The near rim is a SECOND entry in the same 96x44 frame, drawn OVER the arriving berries so they land INSIDE
+           the dish. Without it they read as stuck to the outside - the exact defect the operator reported on 002's
+           nest. */
+        GameCore.drawArt(this, ART, "bowlRim", BOWL_X, BOWL_Y, { size: BOWL_PX }).setDepth(D_RIM);
+        /* The fox doubles as a free replay of the count: one tap and she counts again. Drawn in the page colour so it
+           is invisible, and registered AFTER the berries and numerals so it is last in the Tab order. */
+        this.foxTap = GameCore.makeTile(this, FOX_X, FOX_Y, 104, 104, {
+          fill: THEME.colour.bg, stroke: THEME.colour.bg, radius: 20,
+          onTap: function () { self.replayCount(); }
+        });
+        this.foxTap.container.setDepth(D_FOX - 2);
+
+        this.caption = this.add.text(360, 300, S("howMany"), {
+          fontFamily: THEME.font.body, fontSize: "28px",
+          color: THEME.colour.inkSoft.hex, align: "center",
+          wordWrap: { width: 340 }
+        }).setOrigin(0.5).setResolution(4);
+        /* --- progress rail --- */
+        this.dots = [];
+        for (i = 0; i < ITEMS; i++) {
+          this.dots.push(GameCore.drawArt(this, ART, "dotEmpty", RAIL_X + i * RAIL_GAP, RAIL_Y).setDepth(D_RAIL));
+        }
+        this.nowDot = GameCore.drawArt(this, ART, "dotNow", RAIL_X, RAIL_Y).setDepth(D_RAIL);
+        /* --- TEN berry cells, created ONCE --- game-core keeps ONE global button list with ONE focus index.
+           Destroying and re-creating cells per item would push the new ones AFTER the numeral tiles in Tab order,
+           shift the tiles' indices every item, and call _removeButton up to 80 times a session. So all ten exist for
+           the life of the scene and the first n are shown. Registration order IS Tab order and is constant:
+           berry0..berry9, num0..num2, fox. */
+        this.cells = []; this.cellBox = []; this.berryBox = []; this.numText = [];
+        for (i = 0; i < MAX_BERRIES; i++) {
+          (function (idx) {
+            var t = GameCore.makeTile(self, -400, -400, CELL_W, CELL_H, {
+              fill: THEME.colour.bg, stroke: THEME.colour.line, radius: 18,
+              onTap: function () { self.onBerry(idx); }
+            });
+            t.container.setDepth(D_CELL);
+            /* One game-owned inner container per cell. Every absolute scale tween targets THIS, never the makeTile
+               container - makeTile's hover (1.04) and press (0.96) are direct setScale assignments and would
+               overwrite a running tween. */
+            var box = self.add.container(0, 0);
+            var bBox = self.add.container(0, BERRY_DY);
+            bBox.add(GameCore.drawArt(self, ART, "berry", 0, 0));
+            var num = GameCore.drawArt(self, ART, "countNumeral", 0, NUMERAL_DY).setVisible(false);
+            box.add([bBox, num]);
+            t.container.add(box);
+            self.cells.push(t); self.cellBox.push(box);
+            self.berryBox.push(bBox); self.numText.push(num);
+          })(i);
+        }
+        /* --- the three numeral tiles, also created ONCE --- */
+        this.tiles = []; this.tileBox = [];
+        for (i = 0; i < 3; i++) {
+          (function (slot) {
+            var t = GameCore.makeTile(self, TILE_X[slot], TILE_Y, TILE_W, TILE_W, {
+              label: "", fontSize: TILE_NUM_PX,
+              onTap: function () { self.onNumeral(slot); }
+            });
+            t.container.setDepth(D_TILE);
+            var box = self.add.container(0, 0);
+            t.container.add(box);
+            self.tiles.push(t); self.tileBox.push(box);
+          })(i);
+        }
+
+        this.ring = null; this.ringTween = null; this.guide = null;
+        this.demoDot = null; this.pendingAfterGuide = null;
+
+        addPicker(this, 16, 16);
+        this.offLang = GameCore.onLanguageChange(function () { self.caption.setText(S("howMany")); });
+
+        __play = { cells: this.cells, tiles: this.tiles, foxTap: this.foxTap,
+                   foxKey: function () { return self.foxKey; },
+                   tagScales: function () {
+                     var o = [], i, c = self.cur;
+                     for (i = 0; c && i < c.n; i++) o.push(+self.numText[i].scaleY.toFixed(2));
+                     return o;
+                   },
+                   values: [0, 0, 0], correctIndex: 0, count: 0, k: 0, counted: [],
+                   attempt: 1, phase: "building", level: 1, praisedLast: false, itemId: "" };
+
+        this.events.once("shutdown", function () {
+          __q.length = 0; __play = null;
+          if (self.offLang) self.offLang();
+          if (self.ringTween) { self.ringTween.stop(); self.ringTween = null; }
+          if (self.stuckEvent) { self.stuckEvent.remove(false); self.stuckEvent = null; }
+          self.cur = null;
+        });
+
+        this.buildItem(true);
+        GameCore.reportHeight();
+      },
+      /* ---------- item construction ---------- */
+      buildItem: function (isFirst) {
+        var self = this, s = this.session, i;
+        while (__q.length && __q[0] === "correct") __q.shift();   /* re-align on the boundary */
+        s.itemToken++;
+        var tok = s.itemToken;
+
+        var item = this.pickItem();
+        var level = Number(item.id.charAt(1));
+        var pos = cellPositions(item.lay);
+
+        var values = Phaser.Utils.Array.Shuffle([item.n, item.d[0], item.d[1]]);
+        var guard = 0;
+        while (values.indexOf(item.n) === s.lastCorrectSlot && guard++ < 12) {
+          values = Phaser.Utils.Array.Shuffle(values);
+        }
+        var correctIndex = values.indexOf(item.n);
+        s.lastCorrectSlot = correctIndex;
+
+        this.cur = { item: item, n: item.n, level: level, values: values,
+                     correctIndex: correctIndex, attempt: 1, k: 0,
+                     counted: new Array(MAX_BERRIES).fill(false),
+                     helped: false, hadWrong: false, replayed: false,
+                     pos: pos, token: tok, order: [] };
+
+        __play.values = values; __play.correctIndex = correctIndex;
+        __play.count = item.n; __play.k = 0; __play.counted = this.cur.counted;
+        __play.attempt = 1; __play.level = level; __play.itemId = item.id;
+
+        this.setPhase("building");
+        this.bubbleShow("q");
+        this.clearGuide();
+        this.setFox("fox");
+
+        for (i = 0; i < MAX_BERRIES; i++) {
+          var live = i < item.n;
+          this.cells[i].container
+            .setVisible(live)
+            .setPosition(live ? pos[i][0] : -400, live ? pos[i][1] : -400)
+            .setAlpha(live ? 1 : 0);
+          this.cells[i].setSelected(false);
+          this.cells[i].setFocused(false);
+          this.cellBox[i].setAlpha(0).setScale(0.6);
+          this.berryBox[i].setPosition(0, BERRY_DY);
+          this.numText[i].setVisible(false).setAlpha(1).setScale(1);
+        }
+
+        for (i = 0; i < 3; i++) {
+          this.tiles[i].setLabel(String(values[i]));
+          this.tiles[i].setSelected(false);
+          /* The tiles are REUSED across items and makeTile's pointerup calls setFocus, so the blue keyboard ring left
+             by the previous item's tap would sit on a tile this item's child never touched. */
+          this.tiles[i].setFocused(false);
+          this.tiles[i].container.setAlpha(1).setPosition(TILE_X[i], TILE_Y);
+          this.tileBox[i].setAlpha(1).setScale(1);
+        }
+
+        this.nowDot.setPosition(RAIL_X + s.index * RAIL_GAP, RAIL_Y).setVisible(true);
+
+        for (i = 0; i < item.n; i++) {
+          (function (idx, delay) {
+            self.time.delayedCall(delay, function () {
+              if (tok !== self.session.itemToken) return;
+              GameCore.playAnim(self, self.cellBox[idx], ANIM.cellIn);
+            });
+          })(i, i * 45);
+        }
+
+        var cellsIn = 200 + (item.n - 1) * 45;
+        if (isFirst && DEMO_ITEM1) {
+          /* Item 1 demonstrates exactly ONE tap, then stops. This is how a child who cannot read learns the task. It
+             must NOT count the whole set: demonstrating the count performs the objective for the child and makes
+             their first real act the numeral choice, which is game 002. Any tap fast-forwards it. */
+          this.demoing = true;
+          for (i = 0; i < 3; i++) this.tileBox[i].setAlpha(0).setScale(0.9);
+          this.time.delayedCall(cellsIn + 250, function () {
+            if (tok !== self.session.itemToken) return;
+            self.runDemo(tok);
+          });
+        } else {
+          this.time.delayedCall(cellsIn, function () {
+            if (tok !== self.session.itemToken) return;
+            self.setPhase("counting");
+            self.armStuck();
+          });
+        }
+      },
+      /* The one-tap demonstration: a soft dot travels to the first berry and presses it. The berry counts for real,
+         through the same handler a finger uses. Then the dot leaves and never returns. */
+      runDemo: function (tok) {
+        var self = this, p = this.cur.pos[0];
+        this.demoDot = GameCore.drawArt(this, ART, "demoDot", FIELD_CX, 300).setDepth(D_GUIDE);
+        /* offset to a FINGERTIP position: a 26px disc centred on a 31px berry hides the very thing it is pointing at
+           (measured on the first render). */
+        var g = Object.assign({}, ANIM.demoGlide, { x: p[0] + 15, y: p[1] + BERRY_DY + 17 });
+        GameCore.playAnim(this, this.demoDot, g);
+        /* Every step re-checks this.demoing, because a real tap fast-forwards the demonstration but CANNOT unschedule
+           these timers. Without the check a skipped demo still counted a berry the child had not touched, seconds
+           after they took over. */
+        this.time.delayedCall(460, function () {
+          if (tok !== self.session.itemToken || !self.demoing || !self.demoDot) return;
+          GameCore.playAnim(self, self.demoDot, ANIM.demoTap);
+        });
+        this.time.delayedCall(590, function () {
+          if (tok !== self.session.itemToken || !self.demoing) return;
+          self.setPhase("counting");
+          self.countBerry(0);
+        });
+        this.time.delayedCall(820, function () {
+          if (tok !== self.session.itemToken || !self.demoing || !self.demoDot) return;
+          GameCore.playAnim(self, self.demoDot, ANIM.demoOut, function () {
+            if (self.demoDot) { self.demoDot.destroy(); self.demoDot = null; }
+          });
+        });
+        this.time.delayedCall(1020, function () {
+          if (tok !== self.session.itemToken || !self.demoing) return;
+          self.introTiles(tok);
+        });
+      },
+
+      introTiles: function (tok) {
+        var self = this, i;
+        for (i = 0; i < 3; i++) {
+          (function (box, delay) {
+            self.time.delayedCall(delay, function () {
+              if (tok !== self.session.itemToken) return;
+              GameCore.playAnim(self, box, ANIM.tileIntro);
+            });
+          })(self.tileBox[i], i * 90);
+        }
+        this.time.delayedCall(2 * 90 + 180, function () {
+          if (tok !== self.session.itemToken) return;
+          self.demoing = false;
+          self.setPhase(self.cur.k >= self.cur.n ? "answerable" : "counting");
+          self.armStuck();
+        });
+      },
+
+      skipDemo: function () {
+        var i;
+        if (!this.demoing) return;
+        this.demoing = false;
+        if (this.demoDot) { this.demoDot.destroy(); this.demoDot = null; }
+        for (i = 0; i < 3; i++) this.tileBox[i].setAlpha(1).setScale(1);
+        this.setPhase(this.cur.k >= this.cur.n ? "answerable" : "counting");
+        this.armStuck();
+      },
+      /* ---------- item selection and adaptation ---------- */
+      pickItem: function () {
+        var s = this.session, i, q, want = s.level, lv, pool, it, j;
+        /* A missed count comes back three items later with fresh distractors AND a fresh layout - re-presenting the
+           identical picture would test memory, and re-presenting the same arrangement would forfeit the conservation
+           re-test. */
+        for (i = 0; i < s.requeue.length; i++) {
+          q = s.requeue[i];
+          if (q.due <= s.index) {
+            for (lv = 1; lv <= 3; lv++) {
+              pool = CONTENT[lv];
+              for (j = 0; j < pool.length; j++) {
+                if (pool[j].n === q.n && !s.used[pool[j].id]) {
+                  s.requeue.splice(i, 1); s.used[pool[j].id] = true; return pool[j];
+                }
+              }
+            }
+            if (s.index > q.due + 2) { s.requeue.splice(i, 1); i--; }
+          }
+        }
+        var order = [want, Math.min(3, want + 1), Math.max(1, want - 1), 1, 2, 3];
+        for (i = 0; i < order.length; i++) {
+          pool = s.pools[order[i]];
+          for (j = 0; j < pool.length; j++) {
+            it = pool[j];
+            if (!s.used[it.id]) { s.used[it.id] = true; return it; }
+          }
+        }
+        return CONTENT[1][0];
+      },
+
+      adapt: function () {
+        var s = this.session, c = this.cur;
+        var firstTry = (!c.hadWrong && !c.helped);
+        s.history.push(firstTry);
+        if (!firstTry && s.requeue.length < 2) {
+          s.requeue.push({ n: c.n, due: s.index + REQUEUE_GAP });
+        }
+        var last3 = s.history.slice(-3), errors = 0, i;
+        for (i = 0; i < last3.length; i++) if (!last3[i]) errors++;
+        /* Down on TWO errors in the last three, not on any single wrong. With a target band of 80-90% first-try, one
+           miss per session is EXPECTED, and demoting for it yo-yos the child below level. */
+        if (errors >= 2 || c.helped) { s.level = Math.max(1, s.level - 1); s.streak = 0; }
+        else if (firstTry) {
+          s.streak++;
+          if (s.streak >= 2) { s.level = Math.min(3, s.level + 1); s.streak = 0; }
+        } else { s.streak = 0; }
+      },
+      /* ---------- the ONE place tappability changes ---------- It also OWNS the attempt-3 rule (only the correct
+         tile is live, so there is no fourth attempt and no way for an item to stall) and the guided-walk rule (only
+         the next berry in order). A plain setEnabled(true) loop anywhere else would silently re-arm the two wrong
+         tiles and undo both. */
+      setPhase: function (p) {
+        var c = this.cur, i;
+        this.phase = p;
+        var showing = (p === "showMe");
+        /* An early answer - a numeral tapped while berries are still bright - is the observable form of the skip
+           misconception, so the tiles go live after the FIRST berry rather than the last. It is refused, informative,
+           and can never complete an item. */
+        var tilesLive = (p === "answerable") || showing ||
+          (p === "counting" && TILES_LIVE_AFTER_FIRST_BERRY && c && c.k >= 1);
+
+        for (i = 0; i < MAX_BERRIES; i++) {
+          /* A VISIBLE cell is ALWAYS setEnabled(true); tappability is enforced by phase inside onBerry. makeTile dims
+             a disabled tile to 50% inside redraw(), which re-runs on every later focus change or pointerout, so
+             assigning alpha 1 afterwards is undone the moment anything else moves. Measured: the whole counted set
+             sat at half alpha through the correction and the show-me - reading as GONE rather than counted, at the
+             moment the child is re-reading it. */
+          this.cells[i].setEnabled(!!(c && i < c.n));
+        }
+        for (i = 0; i < 3; i++) {
+          this.tiles[i].setEnabled(!!(tilesLive && c && (!showing || i === c.correctIndex)));
+        }
+        if (this.foxTap) this.foxTap.setEnabled(!!(FREE_RECOUNT && c && !c.replayed &&
+          (p === "counting" || p === "answerable")));
+        this.nowDot.setVisible(p !== "transition");
+        if (__play) { __play.phase = p; __play.attempt = c ? c.attempt : 1; __play.k = c ? c.k : 0; }
+      },
+
+      bubbleShow: function (which, text) {
+        this.bubbleQ.setVisible(which === "q").setAlpha(1).setScale(1);
+        this.bubbleNum.setVisible(which === "num").setAlpha(1).setScale(1);
+        if (which === "num") this.bubbleNum.setText(String(text));
+      },
+
+      setFox: function (key) {
+        var a = this.foxBox.angle;
+        this.foxKey = key;   /* exposed through probe() so a gate can ASSERT the pose changed */
+        this.fox.destroy();
+        this.fox = GameCore.drawArt(this, ART, key, 0, 0);
+        this.foxBox.add(this.fox);
+        /* Re-applied every time: a destroyed-and-recreated object re-adds at the TOP of the display list, which is
+           how 002 put a mascot over the open language panel. */
+        this.foxBox.setDepth(D_FOX).setAngle(a);
+      },
+      /* ---------- the inactivity cue ---------- Not a timer: nothing is displayed about time, nothing counts down,
+         nothing can end. It fires twice and then stops, and it pulses only the NEXT un-counted berry - telling the
+         child what to do, not that they are slow. The spec's 6s repeating forever nags hardest at the child who is
+         thinking hardest. */
+      armStuck: function (second) {
+        var self = this, tok = this.cur ? this.cur.token : -1;
+        if (this.stuckEvent) { this.stuckEvent.remove(false); this.stuckEvent = null; }
+        if (!STUCK_MS) return;
+        this.stuckEvent = this.time.delayedCall(second ? STUCK_MS_2 : STUCK_MS, function () {
+          if (tok !== self.session.itemToken || self.demoing) return;
+          var c = self.cur, i, p = self.phase;
+          if (p !== "counting" && p !== "guided" && p !== "answerable") return;
+          if (p === "answerable") {
+            /* Every berry is counted, so pulsing "the next un-counted one" found nothing and silently burned both of
+               the cue's two slots - at the moment the child is actually stuck, choosing a numeral. Beat the LAST tag
+               instead: the last number you said is the one to look for. */
+            if (c.order.length) GameCore.playAnim(self, self.numText[c.order[c.order.length - 1]], ANIM.numeralBeat);
+          } else {
+            for (i = 0; i < c.n; i++) {
+              if (!c.counted[i]) { GameCore.playAnim(self, self.berryBox[i], ANIM.remindPulse); break; }
+            }
+          }
+          if (!second) self.armStuck(true);
+        });
+      },
+
+      clearGuide: function () {
+        if (this.guide) { this.guide.destroy(); this.guide = null; }
+      },
+      showGuide: function (i) {
+        var c = this.cur;
+        this.clearGuide();
+        if (i >= c.n) return;
+        this.guide = GameCore.drawArt(this, ART, "guideRing", c.pos[i][0], c.pos[i][1]).setDepth(D_GUIDE);
+        this.guide.setAlpha(0).setScale(1.15);
+        GameCore.playAnim(this, this.guide, ANIM.guideRingIn);
+      },
+      /* ---------- counting ---------- */
+      countBerry: function (i) {
+        var c = this.cur;
+        /* The demonstration calls this directly, so the one-to-one guard cannot live only in onBerry: without it a
+           skipped demo whose timer still fired would count a berry the child had already tagged, and k would run past
+           n. */
+        if (!c || i >= c.n || c.counted[i]) return;
+        c.counted[i] = true; c.k++; c.order.push(i);
+        __play.k = c.k;
+        GameCore.tone("tap", c.k);
+        this.cells[i].setSelected(true);
+        GameCore.playAnim(this, this.cellBox[i], ANIM.cellPop);
+        GameCore.playAnim(this, this.berryBox[i], ANIM.berryLift);
+        this.numText[i].setText(String(c.k)).setVisible(true).setAlpha(0).setScale(0.5);
+        GameCore.playAnim(this, this.numText[i], ANIM.numeralIn);
+        if (c.k === c.n) this.onCountComplete();
+        /* Tile liveness is a function of c.k, so it is re-evaluated HERE rather than in onBerry: the item-1
+           demonstration counts a berry through this same function, and relying on the caller left the tiles dead
+           after it - the skip diagnostic could not fire on the one item where a child is most likely to answer early. */
+        else if (this.phase === "counting") this.setPhase("counting");
+      },
+
+      onBerry: function (i) {
+        var c = this.cur;
+        if (this.demoing) { this.skipDemo(); return; }
+        if (!c) return;
+        if (this.phase === "guided") {
+          if (i !== c.k) {
+            /* An off-sequence tap during the guided walk used to be TOTAL SILENCE, in the one phase where the tiles
+               are dead, the fox replay is disabled and no idle cue is armed - so a child tapping the wrong berry
+               three times got nothing at all, on the rung of the ladder whose whole job is to make finishing certain.
+               Re-pulse the ring and the berry it names. */
+            this.showGuide(c.k);
+            GameCore.playAnim(this, this.berryBox[c.k], ANIM.remindPulse);
+            this.armStuck();
+            return;
+          }
+          this.countBerry(i);
+          /* setPhase must run again or the enabled set never advances: during the guided walk only the berry at index
+             c.k is live, and c.k has just moved. Without this the walk stalls on its first berry and attempt 3
+             becomes unreachable - which is the rung that guarantees an item can always be finished. */
+          if (c.k < c.n) { this.setPhase("guided"); this.showGuide(c.k); this.armStuck(); }
+          else this.clearGuide();
+          return;
+        }
+        if (this.phase !== "counting") return;
+        if (c.counted[i]) {
+          /* A double-count attempt is NOT an error the child needs to notice - no nudge, no tone. But the tap is not
+             wasted: this one already has its number, and the ones that do not are shown. A redirect, never a rebuke. */
+          GameCore.playAnim(this, this.numText[i], ANIM.numeralBeat);
+          for (var j = 0; j < c.n; j++) {
+            if (!c.counted[j]) GameCore.playAnim(this, this.berryBox[j], ANIM.remindPulse);
+          }
+          this.armStuck();
+          return;
+        }
+        this.countBerry(i);
+        this.armStuck();
+      },
+      /* The cardinality moment: the child's own last tag lifts out of its cell and flies to the bubble, growing 40 ->
+         56, landing where the question was. The ORIGINAL stays in its cell, so the trail 1..n is intact behind the
+         flight. The spec had a separate total appear from nowhere, over the berries, BEFORE the tiles unlocked -
+         which printed the answer before asking the question and made this game a re-skin of 002. */
+      onCountComplete: function () {
+        var self = this, c = this.cur, tok = c.token;
+        var last = c.order[c.order.length - 1];
+        this.setPhase("correcting");
+        this.clearGuide();
+        /* countBerry calls straight into here, so numeralIn (scale 0.5 -> 1) is STILL RUNNING on this very object. A
+           yoyo tween captures its return value when it STARTS, so lastBeat would snap back to whatever numeralIn had
+           reached - about 0.5 - and the cardinality tag, the most important numeral in the game, stayed permanently
+           half-size. Measured on the render: 16x24 ink against a sibling's 31x48. Kill the running tween and settle
+           the target first, then beat it. */
+        this.tweens.killTweensOf(this.numText[last]);
+        this.numText[last].setAlpha(1).setScale(1);
+        GameCore.playAnim(this, this.numText[last], ANIM.lastBeat);
+
+        this.time.delayedCall(440, function () {
+          if (tok !== self.session.itemToken) return;
+          var wx = c.pos[last][0], wy = c.pos[last][1] + NUMERAL_DY;
+          var fly = GameCore.drawArt(self, ART, "flyNumeral", wx, wy).setDepth(900);
+          fly.setText(String(c.n)).setScale(0.714);   /* a 56px Text shown at 40px, never a 40px Text scaled up */
+          GameCore.playAnim(self, fly, ANIM.flightDip);
+          self.time.delayedCall(80, function () {
+            if (tok !== self.session.itemToken) { fly.destroy(); return; }
+            GameCore.playAnim(self, fly, Object.assign({}, ANIM.flightTravel,
+              { x: BUBBLE_X, y: BUBBLE_Y }));
+          });
+          self.time.delayedCall(340, function () {
+            if (tok !== self.session.itemToken) return;
+            GameCore.playAnim(self, self.bubbleQ, ANIM.qHide);
+          });
+          self.time.delayedCall(480, function () {
+            if (tok !== self.session.itemToken) { fly.destroy(); return; }
+            GameCore.playAnim(self, fly, ANIM.flightSettle, function () {
+              fly.destroy();
+              if (tok !== self.session.itemToken) return;
+              self.bubbleShow("num", c.n);
+            });
+          });
+          self.time.delayedCall(720, function () {
+            if (tok !== self.session.itemToken) return;
+            /* A guided re-count ends HERE, not on a timer: the walk is over exactly when the child re-tags the last
+               berry, and that is what runs the attempt ladder's continuation. */
+            if (self.pendingAfterGuide) {
+              var f = self.pendingAfterGuide; self.pendingAfterGuide = null; f(); return;
+            }
+            self.setPhase(c.attempt >= 3 ? "showMe" : "answerable");
+            self.armStuck();
+          });
+        });
+      },
+
+      replayCount: function () {
+        var self = this, c = this.cur;
+        if (!c || c.replayed) return;
+        if (this.phase !== "counting" && this.phase !== "answerable") return;
+        /* Nothing tagged yet: replaying an empty count would spend the one free replay for no output, and the fox
+           target is invisible by design, so an exploratory first tap is the LIKELY first tap. Ring the first berry
+           instead and keep the replay. */
+        if (!c.order.length) { this.showGuide(0); return; }
+        c.replayed = true;
+        var back = this.phase;
+        this.setPhase("correcting");
+        this.setFox("foxThink");
+        var i, shown = c.order.slice();
+        for (i = 0; i < shown.length; i++) {
+          (function (idx, k, delay) {
+            self.time.delayedCall(delay, function () {
+              if (self.cur !== c) return;
+              GameCore.playAnim(self, self.numText[idx], ANIM.numeralBeat);
+              GameCore.tone("tap", k + 1);
+            });
+          })(shown[i], i, i * 260);
+        }
+        this.time.delayedCall(shown.length * 260 + 300, function () {
+          if (self.cur !== c) return;
+          self.setFox("fox");
+          if (c.k < c.n) self.showGuide(c.k);
+          self.setPhase(back);
+          self.armStuck();
+        });
+      },
+      /* ---------- answering ---------- */
+      onNumeral: function (slot) {
+        var c = this.cur;
+        if (this.demoing) { this.skipDemo(); return; }
+        if (!c) return;
+        if (this.phase === "counting") return this.onEarlyAnswer(slot);
+        if (this.phase !== "answerable" && this.phase !== "showMe") return;
+        return (c.values[slot] === c.n) ? this.onCorrect(slot) : this.onWrong(slot, c.values[slot]);
+      },
+      /* An answer given while berries are still bright. This is not an invalid move - it is THE canonical counting
+         error and the observable form of two of the four misconceptions - so it is refused informatively rather than
+         silently. It is never an attempt, never completes the item, and never spoils first-try. */
+      onEarlyAnswer: function (slot) {
+        var c = this.cur, i, matched = (c.values[slot] === c.k);
+        GameCore.playAnim(this, this.tiles[slot].container, ANIM.nudge);
+        this.tiles[slot].setSelected(false);
+        for (i = 0; i < c.n; i++) {
+          if (!c.counted[i]) GameCore.playAnim(this, this.berryBox[i], ANIM.remindPulse);
+        }
+        if (!matched) {
+          /* Two shades of the SAME non-punishing response. If the answer equals the number counted so far, the
+             child's tagging was internally right and they simply stopped early - the un-counted remainder alone says
+             so. Any other value and the tagging itself is adrift, so the tags already made are beaten too: here is
+             what you DO have, and here is what is left. */
+          for (i = 0; i < c.n; i++) {
+            if (c.counted[i]) GameCore.playAnim(this, this.numText[i], ANIM.numeralBeat);
+          }
+        }
+        /* NO tone. The design declares an early answer a diagnostic, not an error, and tone("nudge") is the sound a
+           genuinely wrong answer makes - it would scold the child for the very move the game opened the tiles early
+           to observe. Silence here matches the double-tap redirect. */
+        this.showGuide(c.k);
+        this.armStuck();
+      },
+
+      onCorrect: function (slot) {
+        var self = this, c = this.cur, s = this.session, tok = c.token, i;
+        var firstTry = (!c.hadWrong && !c.helped);
+        this.setPhase("transition");
+        this.clearGuide();
+        if (this.stuckEvent) { this.stuckEvent.remove(false); this.stuckEvent = null; }
+        this.tiles[slot].setSelected(true);
+        GameCore.playAnim(this, this.tileBox[slot], ANIM.pop);
+        GameCore.tone("correct");
+        if (this.ringTween) { this.ringTween.stop(); this.ringTween = null; }
+        if (this.ring) { this.ring.destroy(); this.ring = null; }
+        /* Praise fires ONLY on a first try. With three tiles, two wrong taps leave the answer by elimination, so the
+           celebration is the only thing that separates knowing from guessing. The feed animation and the rail dot are
+           identical either way - they are a consequence of FINISHING, not a prize for being right. */
+        __play.praisedLast = firstTry;
+        if (firstTry && PRAISE_FIRST_TRY_ONLY) {
+          GameCore.showPraise(this, PRAISE[s.praiseIdx % PRAISE.length]);
+          s.praiseIdx++;
+        }
+
+        for (i = 0; i < c.n; i++) {
+          (function (idx, delay) {
+            self.time.delayedCall(delay, function () {
+              if (tok !== self.session.itemToken) return;
+              /* A fresh berry at the fly depth: the cell's own berry is a child of a depth-1 container, so it could
+                 never pass in front of the bowl. This copy travels at D_FLY, between the bowl and its near rim, and
+                 so lands INSIDE the dish. */
+              var wx = c.pos[idx][0], wy = c.pos[idx][1] + BERRY_DY - 4;
+              var b = self.add.container(wx, wy).setDepth(D_FLY);
+              b.add(GameCore.drawArt(self, ART, "berry", 0, 0));
+              self.berryBox[idx].setAlpha(0);
+              GameCore.playAnim(self, b, Object.assign({}, ANIM.glideToBowl,
+                { x: BOWL_X, y: BOWL_Y - 4, scale: 0.7 }), function () { b.destroy(); });
+              GameCore.playAnim(self, self.cells[idx].container, ANIM.cellFade);
+              GameCore.tone("tap", idx + 1);
+            });
+          })(i, 300 + i * 120);
+        }
+
+        this.time.delayedCall(600, function () {
+          if (tok !== self.session.itemToken) return;
+          self.dots[s.index].destroy();
+          self.dots[s.index] = GameCore.drawArt(self, ART, "dotFull",
+            RAIL_X + s.index * RAIL_GAP, RAIL_Y).setDepth(D_RAIL);
+          GameCore.playAnim(self, self.dots[s.index], ANIM.dotFill);
+        });
+
+        this.time.delayedCall(660 + (c.n - 1) * 120, function () {
+          if (tok !== self.session.itemToken) return;
+          /* ALWAYS foxMunch, never foxHappy-on-a-first-try: the feed is a consequence of FINISHING, not a prize for
+             being right, and the praise pop is the single channel that separates knowing from guessing. A second
+             channel leaking the same verdict was not asked for and dilutes the first. */
+          self.setFox("foxMunch");
+          GameCore.playAnim(self, self.foxBox, ANIM.munch);
+        });
+
+        this.time.delayedCall(1800 + (c.n - 1) * 120, function () {
+          if (tok !== self.session.itemToken) return;
+          s.solved.push(c.n);
+          self.adapt();
+          s.index++;
+          self.setFox("fox");
+          for (var z = 0; z < MAX_BERRIES; z++) self.berryBox[z].setAlpha(1);
+          if (s.index >= ITEMS) self.scene.start("Finish", { solved: s.solved });
+          else self.buildItem(false);
+        });
+      },
+
+      onWrong: function (slot, value) {
+        var self = this, c = this.cur, tok = c.token;
+        c.hadWrong = true;
+        this.setPhase("correcting");
+        if (this.stuckEvent) { this.stuckEvent.remove(false); this.stuckEvent = null; }
+        this.tiles[slot].setSelected(false);
+        GameCore.playAnim(this, this.tiles[slot].container, ANIM.nudge);
+        GameCore.tone("nudge");
+
+        this.time.delayedCall(120, function () {
+          if (tok !== self.session.itemToken) return;
+          self.setFox("foxOops");
+          GameCore.playAnim(self, self.foxBox, ANIM.foxOops, function () {
+            if (tok !== self.session.itemToken) return;
+            self.setFox("fox");
+          });
+        });
+
+        var after = function () {
+          if (tok !== self.session.itemToken) return;
+          c.attempt++;
+          __play.attempt = c.attempt;
+          if (c.attempt >= 3) { self.showMe(); self.setPhase("showMe"); }
+          else { self.setPhase("answerable"); }
+          self.armStuck();
+        };
+
+        if (c.attempt === 1) this.time.delayedCall(400, function () { self.runCardinalityFade(after); });
+        else this.time.delayedCall(400, function () { self.runRelayAndGuide(after); });
+      },
+      /* ATTEMPT 2's correction. All the counting words go; the last one stands for the whole set. The numerals 1..n-1
+         peel off fastest first, the survivor grows and holds, then the trail returns so the child can re-read it. 002
+         collapses its dots INTO the numeral; this fades the earlier tags and keeps the last - the same principle, a
+         visibly different act. */
+      runCardinalityFade: function (onDone) {
+        var self = this, c = this.cur, tok = c.token;
+        var seq = c.order.slice(), last = seq.pop();
+        var stag = 0, step = 60, i, total = 0;
+        for (i = 0; i < seq.length; i++) {
+          (function (idx, delay) {
+            self.time.delayedCall(delay, function () {
+              if (tok !== self.session.itemToken) return;
+              GameCore.playAnim(self, self.numText[idx], ANIM.badgeFade);
+            });
+          })(seq[i], stag);
+          total = stag; stag += step; step = Math.min(180, step * 1.18);
+        }
+        var growAt = total + 200;
+        this.time.delayedCall(growAt, function () {
+          if (tok !== self.session.itemToken) return;
+          GameCore.playAnim(self, self.numText[last], ANIM.lastGrow);
+        });
+        this.time.delayedCall(growAt + 720, function () {
+          if (tok !== self.session.itemToken) return;
+          GameCore.playAnim(self, self.numText[last], ANIM.lastGrowBack);
+          for (var k = 0; k < seq.length; k++) {
+            GameCore.playAnim(self, self.numText[seq[k]], ANIM.badgeReturn);
+          }
+        });
+        this.time.delayedCall(growAt + 940, onDone);
+      },
+      /* ATTEMPT 3's correction, in two halves. First the CONSERVATION re-lay: the same berries slide into a compact
+         arrangement with their tags intact - same berries, new picture, same number. Then the GUIDED re-count: the
+         tags clear and the berries become tappable one at a time in reading order, so the child re-tags the set under
+         enforced order and watches 1,2,3 land left-to-right on berries they may have tagged at random. The correction
+         is performed BY the child, which is the whole reason this game is not 002. */
+      runRelayAndGuide: function (onDone) {
+        var self = this, c = this.cur, tok = c.token, i;
+        var compact = compactPositions(c.n);
+        for (i = 0; i < c.n; i++) {
+          GameCore.playAnim(this, this.cells[i].container,
+            Object.assign({}, ANIM.relay, { x: compact[i][0], y: compact[i][1] }));
+        }
+        c.pos = compact;
+
+        this.time.delayedCall(720, function () {
+          if (tok !== self.session.itemToken) return;
+          for (var k = 0; k < c.n; k++) {
+            self.numText[k].setVisible(false).setAlpha(1).setScale(1);
+            self.cells[k].setSelected(false);
+            self.berryBox[k].setPosition(0, BERRY_DY);
+            c.counted[k] = false;
+          }
+          c.k = 0; c.order = []; __play.k = 0;
+          self.bubbleShow("q");
+          self.setPhase("guided");
+          self.showGuide(0);
+          self.armStuck();          /* the walk is a waiting phase too - it had no cue at all */
+          self.pendingAfterGuide = onDone;
+        });
+      },
+      /* Attempt 3: the correct tile pulses and the OTHER TWO ARE DISABLED, so there is no fourth attempt and no way
+         for the item to stall. Tapping the ringed tile completes it with help. */
+      showMe: function () {
+        var c = this.cur;
+        c.helped = true;
+        if (this.ring) this.ring.destroy();
+        this.ring = GameCore.drawArt(this, ART, "showRing", TILE_X[c.correctIndex], TILE_Y).setDepth(D_SHOW);
+        this.ring.setAlpha(0.2);
+        this.ringTween = GameCore.playAnim(this, this.ring, ANIM.showMe);
+      },
+      /* The intent drainer. One dispatch per frame, through the tile's OWN pointer handler - the exact chain a finger
+         fires, including makeTile's enabled guard. There is no private set-state path. ANY pending intent first means
+         "bring this item to an answerable state", so the drainer taps un-counted berries WITHOUT consuming the
+         intent. It never taps a numeral during the counting phase: an early answer is refused by design and would
+         stall the gate. */
+      update: function () {
+        this.skipDeadFocus();
+        if (!__play || !__q.length || !this.cur) return;
+        var ph = this.phase;
+        if (ph === "building" || ph === "transition" || ph === "correcting") return;
+
+        var head = __q[0], c = this.cur, i, t;
+
+        if (head && typeof head === "object" && typeof head.berry === "number") {
+          t = this.cells[head.berry];
+          if (!t || !t.enabled) return;
+          __q.shift(); return this.tap(t);
+        }
+
+        if (ph === "counting" || ph === "guided") {
+          for (i = 0; i < c.n; i++) {
+            if (!c.counted[i] && this.cells[i].enabled) return this.tap(this.cells[i]);
+          }
+          return;   /* count complete; the flight is running */
+        }
+
+        var idx = (head && typeof head === "object" && typeof head.tap === "number") ? head.tap
+                : (head === "correct" ? c.correctIndex : this.wrongIndex());
+        t = this.tiles[idx];
+        if (!t || !t.enabled) {
+          /* At attempt 3 a wrong tile is genuinely untappable, so a queued "wrong" can never be delivered. Drop it -
+             that is what happens to a child's tap on a disabled tile - rather than stall. */
+          if (head === "wrong" && c.attempt >= 3) __q.shift();
+          return;
+        }
+        __q.shift();
+        this.tap(t);
+      },
+
+      tap: function (api) {
+        api.container.emit("pointerdown");
+        api.container.emit("pointerup");
+      },
+      /* Prefer the numeral NEAREST the answer (the off-by-one, which is the signature of a skip or a double-count)
+         and, on attempt 2, one not already tried, so two wrong taps are different tiles. */
+      wrongIndex: function () {
+        var c = this.cur, best = -1, bestD = 99, i, v, d;
+        for (i = 0; i < c.values.length; i++) {
+          v = c.values[i];
+          if (v === c.n) continue;
+          d = Math.abs(v - c.n);
+          if (c.attempt >= 2 && c.triedSlot === i) d += 10;
+          if (d < bestD) { bestD = d; best = i; }
+        }
+        c.triedSlot = best;
+        return best;
+      },
+      /* Ten cells sit in game-core's single global Tab list even when hidden, and pruneButtons only drops objects
+         whose container is inactive - an invisible container is still active. So the ring would rest on nothing.
+         Bounce it forward off any hidden or disabled entry, using the public setFocus. TRAP: Do NOT fix this with
+         container.setActive(false): pruneButtons would then delete the tile from state.buttons permanently, and there
+         is no re-register path. */
+      skipDeadFocus: function () {
+        var st = GameCore._state, i = st.focusIndex, k, api, nxt;
+        if (i < 0 || i >= st.buttons.length) return;
+        api = st.buttons[i];
+        if (api.enabled !== false && (!api.container || api.container.visible)) return;
+        for (k = 1; k <= st.buttons.length; k++) {
+          nxt = st.buttons[(i + k) % st.buttons.length];
+          if (nxt.enabled !== false && (!nxt.container || nxt.container.visible)) {
+            GameCore.setFocus(nxt); return;
+          }
+        }
+      }
+    });
+    /* ---------------------------------------------------------- */
+    var Finish = new Phaser.Class({
+      Extends: Phaser.Scene,
+      initialize: function Finish() { Phaser.Scene.call(this, "Finish"); },
+      preload: function () { GameCore.preloadArt(this, ART); },
+      init: function (data) { this.solved = (data && data.solved) || []; },
+      create: function () {
+        var self = this, i;
+        stageCam(this);
+        __scene = "Finish"; __play = null; __q.length = 0;
+
+        this.add.text(360, 104, GameCore.t("all_done"), {
+          fontFamily: THEME.font.display, fontSize: "52px",
+          color: THEME.colour.structure.hex, align: "center",
+          wordWrap: { width: 640 }
+        }).setOrigin(0.5).setResolution(4);
+
+        GameCore.drawArt(this, ART, "foxShadow", 362, 232).setDepth(D_FOX - 1);
+        var foxBox = this.add.container(360, 188).setDepth(D_FOX);
+        foxBox.add(GameCore.drawArt(this, ART, "foxHappy", 0, 0));
+        GameCore.playAnim(this, foxBox, ANIM.celebrate);
+        /* The bowl actually full, made of the real berry - so it can never drift out of sync with the object the
+           child counted. */
+        GameCore.drawArt(this, ART, "bowl", 360, 288, { size: 150 }).setDepth(D_BOWL);
+        var heap = [[-40, 4], [-14, -6], [14, -6], [40, 4], [0, -16]];
+        for (i = 0; i < heap.length; i++) {
+          GameCore.drawArt(this, ART, "berry", 360 + heap[i][0], 276 + heap[i][1], { size: 30 }).setDepth(D_FLY);
+        }
+        GameCore.drawArt(this, ART, "bowlRim", 360, 288, { size: 150 }).setDepth(D_RIM);
+        /* The learning summary, not a score: the numerals the child named, in the order they named them. No stars, no
+           total. */
+        var n = this.solved.length;
+        for (i = 0; i < n; i++) {
+          var x = 360 - (n - 1) * 68 / 2 + i * 68;
+          GameCore.drawArt(this, ART, "summaryCard", x, 372);
+          GameCore.drawArt(this, ART, "summaryNumeral", x, 372).setText(String(this.solved[i]));
+        }
+
+        GameCore.makeButton(this, 236, 502, "play_again", function () { self.scene.start("Play"); });
+        GameCore.makeButton(this, 484, 502, "menu", function () { self.scene.start("Boot"); });
+        addPicker(this, 16, 16);
+        GameCore.tone("finish");
+        GameCore.reportHeight();
+      }
+    });
+    /* RENDER SCALE (BUILD-CONVENTIONS §1). Phaser 3.90 has no resolution option, so a 720x560 canvas is magnified
+       ~3.6x on a desktop and looks pixelated. Render at 3x, zoom each camera 3x: every coordinate in this file stays
+       in the 720x560 world the specs are written against. */
+    var RENDER_SCALE = 3;
+
+    new Phaser.Game({
+      type: Phaser.AUTO,
+      parent: "game",
+      width: 720 * RENDER_SCALE,
+      height: 560 * RENDER_SCALE,
+      backgroundColor: THEME.colour.bg.hex,
+      scale: { mode: Phaser.Scale.FIT, autoCenter: Phaser.Scale.CENTER_HORIZONTALLY },
+      scene: [Boot, Play, Finish]
+    });
+  </script>
+</body>
+</html>

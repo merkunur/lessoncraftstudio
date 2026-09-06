@@ -254,6 +254,36 @@ Every spec fills these fields with numbers; this is the default shape they insta
 - **Finish**: after the item count is reached. Finish screen (§10).
 - No lives, no game-over, no losing screen, no timers unless the spec justifies an optional one (default off).
 
+### §8.1 Distractor legality, and the rank ceiling it forces (established by 001)
+
+A distractor must be an **output of the error the item diagnoses**. For a counting game that means
+`n±1` / `n±2`: a wrong tap then tells you *which* miscount the child made. A distractor further away
+is worse than useless — it is visibly absurd, so the item collapses to a coin-flip between the two
+plausible values, and the wrong tap carries no diagnostic signal at all.
+
+**The consequence is arithmetic, and it looks like a defect the first time you meet it.** Within
+`±2` and a 1-10 domain:
+
+- **`n=10` admits exactly ONE legal distractor set, `{8,9}`.** Two ten-items in a pool MUST share it.
+  Separate them by layout instead; do not "fix" it with a `±3`.
+- **For `n` to be the LOWEST of the three, both distractors must be `{n+1, n+2}`** — one set per
+  count, and only for `n ≤ 8`. So across a pool the number of items whose correct answer is the
+  lowest is **capped at 7**, and a perfect equal-thirds split over 24 items is **impossible**.
+
+So aim for equal thirds **PER LEVEL** (what the child actually experiences within a session — they
+sit at one or two levels), and accept whatever the global total falls out as. 001 ships 2/3/3 in
+every level and 6/9/9 overall. An earlier 8/8/8 measured on the same pool was only reachable
+*because* two items used illegal `+3` distractors: rank balance bought that way is not rank balance,
+it is the appearance of it.
+
+⭐ **Never trade distractor legality for rank balance.** An illegal distractor damages both properties
+at once — it hands the item away by elimination (destroying the anti-guessing property rank balance
+exists to protect) AND it destroys the diagnostic.
+
+**Do not re-derive this per game: `node _tools/check-pools.js <slug>` parses a built CONTENT block
+and re-checks every rule above**, including the forced-duplication case, so a comment claiming
+"equal thirds" can never quietly rot.
+
 ## §9 Strings
 
 - Common UI text: only `GameCore.t(key)` with keys that exist in `ui-strings.js` (start, play_again, next, correct, try_again, almost, well_done, great_job, excellent, keep_going, nice_try, you_did_it, question_x_of_y, finished, all_done, choose_answer, tap_to_choose, drag_here, match_the_pairs, sort_them, look_carefully, listen_carefully, read_the_question, menu, restart, sound_on, sound_off …).

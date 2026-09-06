@@ -67,7 +67,15 @@ Every registered entry is listed here with its master size and the game that int
 | `hen.happy` | 96 | 002 Number Nest | crescent eyes, open beak, wing +14deg |
 | `hen.oops` | 96 | 002 Number Nest | SURPRISE, never disapproval: brows arch up and out, beak an "o". Eye centres 18 apart, not 16 - two r-8 whites at 16 intersect into a visible lens |
 | `egg` | 64 | 002 Number Nest | plain and undecorated: a decorated egg reads as EASTER in de/nl/sv/da/no, and colour variation invites sorting rather than counting. BINDING: opaque ovoid <=36 wide, <=48 tall, or the 12px counting clearance fails |
-| `nest` | 360x152 | 002 Number Nest | the ONLY non-square entry (see the §4 amendment below). Rim ticks lie ALONG the rim at varied angles - uniform outward twigs read as spikes - and the interior weave is held at 17pc opacity because the eggs cover almost the whole interior and that is the surface the child counts on |
+| `nest` | 360x152 | 002 Number Nest | the FIRST non-square entry (see §9.1); `bowl` and `bowl.rim` are the second and third. Rim ticks lie ALONG the rim at varied angles - uniform outward twigs read as spikes - and the interior weave is held at 17pc opacity because the eggs cover almost the whole interior and that is the surface the child counts on |
+| `berry` | 64 | 001 The Fox's Bowl | the countable instance. DARK inkSoft tint #55555F: coral would spend the one-coral budget ten times over, teal would lose figure/ground inside the teal 'counted' cell, white is already `egg`. The 5-tick calyx is LOAD-BEARING (a plain circle collides with the count-marker cue) but keep the fan NARROW - wider plus a ring reads as an INSECT on the fruit at 128px |
+| `bowl` | 96x44 | 001 The Fox's Bowl | back + body, drawn BEFORE the contents. NON-SQUARE: the game's ART row MUST set size===w (96). BODY is #E9E1D2, not var(--surface2): #FBF6EE on the #FBF3E4 stage differs by three units and read as a bare outline (measured on the first render) |
+| `bowl.rim` | 96x44 | 001 The Fox's Bowl | near lip, drawn AFTER the contents so they tuck behind it. Outer path byte-identical to `bowl`'s front silhouette - edit both together or the pair splits open |
+| `fox.idle` | 96 | 001 The Fox's Bowl | roster mascot #2, built to the hen's template. Skull and snout are ONE path (a separately stroked muzzle draws its back edge through the near eye). Body #C2603C is the §9.2 identity tint and spends the whole §9.4 warm-body exemption: NO coral anywhere on this character |
+| `fox.think` | 96 | 001 The Fox's Bowl | head +6deg, pupils +2.5x. The EARS rotate inside the same `<g>` - a feature that stays put while the skull turns detaches (the hen's comb lesson) |
+| `fox.happy` | 96 | 001 The Fox's Bowl | crescent eyes, open smile, tail `<g>` +12deg. The tail transform is the ONLY byte differing from the shared body string |
+| `fox.oops` | 96 | 001 The Fox's Bowl | SURPRISE, never disapproval. Whites grow r6.5->7.5 while the pupil SHRINKS 3.2->3.0; that opposition is what reads as surprise. Separation is derived: centres >= 2r+3 |
+| `fox.munch` | 96 | 001 The Fox's Bowl | the `act` pose. The cheek bulge closes with an arc of the SAME r19 circle so its closing stroke lands on the head outline and disappears, and must be drawn AFTER the skull |
 
 ## §8 The visual-critic rubric (graded on the full screenshot sweep, every locale start screen + en item/wrong/finish at 400/704/1024)
 
@@ -92,3 +100,37 @@ A pass requires all fourteen; the critic names the screenshot and the rule for e
 1. **Containers and scenery may be NON-SQUARE** with an explicit `w`/`h`; countable objects and characters stay 1:1. A 1:1 nest would be 360px tall and could not exist in a 204px zone. ⚠ Such an entry MUST also set `size` equal to `w`, or `drawArt` scales it by `64/w` and renders a postage stamp **with no error and no console warning**.
 2. **Identity tint vs state coral.** A mascot may carry ONE identity feature in an `accent` TINT (the hen's terracotta comb, beak and legs). It is exempt from the one-coral-per-screen count because it never changes and never means anything. The counted coral is STATE coral - the single element that is coral *because of what is happening now*. This is what keeps coral available for meaning across all 50 mascots.
 3. ⚠ **`ANIM.appear` and any tween of raw `scale` is WRONG for a `kind:"svg"` entry.** `preloadArt` rasterises at 2x and `drawArt` compensates with an object scale of 0.5, so an absolute `scale: 1` renders the art at DOUBLE size. Measured on this build: eggs came out 96px instead of 48, a 21px overlap, while every gate passed. Wrap the art in a container and animate the container - a container's natural scale really is 1.
+
+## §10 Amendments established by the second build (001 The Fox's Bowl)
+
+1. ⭐⭐ **§9.4 — the warm-body clause.** A mascot whose BODY is an `accent` tint spends its ENTIRE
+   §9.2 identity exemption on that body. `#F6A07E` and `#F2784B` may then appear **nowhere** on that
+   character (no coral ear linings, no coral tongue, no coral socks), and the game's state coral must
+   be (i) geometric rather than organic in shape, (ii) at least 120 logical px from the character's
+   bounding box, and (iii) no larger than 600 px². Such a game declares **exactly one** `accent`
+   entry in its ART registry — one grep, one number.
+   *Why it exists:* a fox is orange and `accent` is orange, so without this clause a warm-bodied
+   mascot silently spends the one colour the palette reserves for meaning. The three alternatives
+   were each rejected on evidence — a light-coral body is indistinguishable from state coral to a
+   five-year-old; a near-white body repeats the hen's still-open separation weakness on a bigger
+   character; and a teal body is a SEMANTIC collision, because teal already means counted / chosen /
+   correct. It will apply again to at least seven more of the fifty (squirrel, deer, lion, hamster,
+   dog, cow, rooster).
+2. **The palette has NO RED, and that is a content constraint, not just a drawing one.** A strawberry
+   cannot be drawn in this palette: coral would put ten `accent` objects on one screen, teal loses
+   figure/ground inside a teal "selected" cell, and white is owned by `egg`. When the art cannot draw
+   the object a title names, **change the object or change the title** — do not spend the state
+   colour. 001 resolved it by naming no fruit at all.
+3. **A countable object that is a plain circle collides with the count-marker cue.** `berry` carries
+   a 5-tick calyx crown for exactly this reason. A dot is already spoken for.
+4. **A corner badge on a tile is arithmetically impossible at the 5-6 band floor.** On a pitch of
+   `tile + gap`, a badge of radius r centred on the corner leaves `gap − r` of clearance, so any
+   badge big enough to hold a 40 px digit overlaps its neighbour. Put the numeral INSIDE the tile and
+   move the picture to make room. Then nothing leaves its own box and inter-tile clearance is exactly
+   the gap, at every count, with no per-count check needed.
+5. **Two things in one frame register exactly.** `bowl` / `bowl.rim` repeats the `nest` / `nest.rim`
+   pattern at 96×44: same viewBox, same centre, near part drawn AFTER the contents so arriving
+   objects tuck behind it. Any container that things go INTO wants this pair.
+6. **Grade outline weights in LOGICAL px, not the 2× render** (002's critic read anti-aliasing as
+   stroke and filed two false defects), and **grade a mascot's reaction pose INSIDE its hold window**
+   (002's critic captured a 750 ms reaction at 1400 ms and wrongly reported the mascot never reacts).

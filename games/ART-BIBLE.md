@@ -71,11 +71,11 @@ Every registered entry is listed here with its master size and the game that int
 | `berry` | 64 | 001 The Fox's Bowl | the countable instance. DARK inkSoft tint #55555F: coral would spend the one-coral budget ten times over, teal would lose figure/ground inside the teal 'counted' cell, white is already `egg`. The 5-tick calyx is LOAD-BEARING (a plain circle collides with the count-marker cue) but keep the fan NARROW - wider plus a ring reads as an INSECT on the fruit at 128px |
 | `bowl` | 96x44 | 001 The Fox's Bowl | back + body, drawn BEFORE the contents. NON-SQUARE: the game's ART row MUST set size===w (96). BODY is #E9E1D2, not var(--surface2): #FBF6EE on the #FBF3E4 stage differs by three units and read as a bare outline (measured on the first render) |
 | `bowl.rim` | 96x44 | 001 The Fox's Bowl | near lip, drawn AFTER the contents so they tuck behind it. Outer path byte-identical to `bowl`'s front silhouette - edit both together or the pair splits open |
-| `fox.idle` | 96 | 001 The Fox's Bowl | roster mascot #2, built to the hen's template. Skull and snout are ONE path (a separately stroked muzzle draws its back edge through the near eye). Body #C2603C is the §9.2 identity tint and spends the whole §9.4 warm-body exemption: NO coral anywhere on this character |
-| `fox.think` | 96 | 001 The Fox's Bowl | head +6deg, pupils +2.5x. The EARS rotate inside the same `<g>` - a feature that stays put while the skull turns detaches (the hen's comb lesson) |
-| `fox.happy` | 96 | 001 The Fox's Bowl | crescent eyes, open smile, tail `<g>` +12deg. The tail transform is the ONLY byte differing from the shared body string |
-| `fox.oops` | 96 | 001 The Fox's Bowl | SURPRISE, never disapproval. Whites grow r6.5->7.5 while the pupil SHRINKS 3.2->3.0; that opposition is what reads as surprise. Separation is derived: centres >= 2r+3 |
-| `fox.munch` | 96 | 001 The Fox's Bowl | the `act` pose. The cheek bulge closes with an arc of the SAME r19 circle so its closing stroke lands on the head outline and disappears, and must be drawn AFTER the skull |
+| `fox.idle` | 96 | 001 The Fox's Bowl | roster mascot #2. REDRAWN 2026-09-06 (see §11). Side-on standing body, front-facing head; the fox mask IS the head outline. FOUR legs, all 9 wide, all filled paths with their own 3px outline, all with the same white sock; the far pair is offset 9 and its ink-12pc wash covers the RUSSET SHIN ONLY. Body #C2603C is the §9.2 identity tint and spends the whole §9.4 warm-body exemption: NO coral anywhere on this character |
+| `fox.think` | 96 | 001 The Fox's Bowl | head +6deg about (66,32), pupils +2.5. The EARS rotate inside the same `<g>` - a feature that stays put while the skull turns detaches (the hen's comb lesson). BINDING: ear tips at y5, not higher - at y3 the +6deg rotation carries the left tip and its stroke off the top of the viewBox |
+| `fox.happy` | 96 | 001 The Fox's Bowl | crescent eyes, small open mouth, tail `<g>` +14deg about (28,55) - a pivot buried in the haunch. The tail rotation is the ONLY byte differing from the shared body string. Keep the open mouth SMALL: a wide ink mouth on the white snout patch reads as a hole punched in the face at 384 |
+| `fox.oops` | 96 | 001 The Fox's Bowl | SURPRISE, never disapproval. Whites grow r6.2->7.0 while the pupils SHRINK 3.2->2.9; that opposition is what reads as surprise. Separation is derived: centres 19 apart >= 2r+3. BINDING: brows arch to y13.5 with ends at y17.5-19.5 - 5+ clear of the skull outline and 2+ clear of the eyes. A brow drawn ON the outline merges with it and becomes a FROWN |
+| `fox.munch` | 96 | 001 The Fox's Bowl | the `act` pose. The bulged cheek is built INTO this pose's face path (one segment re-curved out to x90), never overlaid as a second shape - an overlaid bulge must close somewhere, and a closing stroke that does not land exactly on the head outline draws a line across the cheek |
 
 ## §8 The visual-critic rubric (graded on the full screenshot sweep, every locale start screen + en item/wrong/finish at 400/704/1024)
 
@@ -134,3 +134,45 @@ A pass requires all fourteen; the critic names the screenshot and the rule for e
 6. **Grade outline weights in LOGICAL px, not the 2× render** (002's critic read anti-aliasing as
    stroke and filed two false defects), and **grade a mascot's reaction pose INSIDE its hold window**
    (002's critic captured a 750 ms reaction at 1400 ms and wrongly reported the mascot never reacts).
+
+## §11 Amendment established by the fox redraw (2026-09-06)
+
+1. ⭐⭐ **EVERY GATE IN THE SUITE RENDERS A MASCOT AT ROUGHLY 104 LOGICAL PX, AND THAT IS
+   NOT THE SIZE THE ART IS JUDGED AT.** The first fox passed `check-build`, `qa-game`, the
+   85 unit tests and the visual-critic sweep, and the operator rejected it on sight — because
+   §1 asks for art that reads across a room AND holds up at 400 px, and nothing in the suite
+   looked at 400 px. **A mascot is not finished until it has been rendered at 384 and LOOKED
+   AT, on the `#FBF3E4` stage, in every pose.** The instrument is
+   `_tools/art-sheet.js <slug> <entry,…>`, which draws every entry at 48/96/192/384 px (it also takes
+   `--from=<draft.json>`, so a drawing can be judged BEFORE it enters `_lib/art.js`).
+   Render on the stage colour, never on white: a white-bibbed mascot on white loses its
+   belly edge and the defect hides.
+2. **A LIMB BUILT FROM A FAT STROKE HAS NO SHOULDER.** The first fox's legs were a 9-unit
+   stroke inside a 12-unit ink stroke, which at 96 units is as wide as the head is tall, and
+   a stroke has no join to the body — it hung off the middle of the chest like a bandage.
+   Limbs are FILLED PATHS with their own 3 px outline, emerging from under the body mass at
+   a shoulder and a haunch. And **draw all of them**: two limbs on a quadruped read as a
+   defect, not as economy.
+3. **A FAR-SIDE PART IS SHADED, NEVER RE-MATERIALISED.** The ink-12 % wash may darken the
+   russet of a far limb; it must NOT be laid over that limb's white sock, or the far paw
+   changes colour and the two sides read as different animals. Wash the body-coloured
+   segment only.
+4. **A BOLTED-ON SNOUT READS AS A BILL.** A projecting three-quarter muzzle has to be a
+   lobe stuck to a round skull, and at size it reads as a beak — worse, an open mouth in
+   that construction reads as something held in the jaws. The front-facing fox mask solves
+   it by making the taper the HEAD OUTLINE itself: a rounded triangle, wide at the ears,
+   narrowing to the nose. It is the strongest fox cue available and it is the one that
+   survives 48 px. Applies to every pointed-face mascot on the roster.
+5. **AN ELLIPSE IS NOT A BELLY.** A white ellipse laid on a body floats in the middle of it
+   and reads as a pill. An underbelly is a PATH whose lower edge follows the body's own
+   bottom outline, inset ~1.2 so the 3 px ink line still reads.
+6. **AN INK-WASHED EAR IS A HORN.** Filling an ear interior with the wash leaves the 3 px
+   outline dominant and the ear reads as a dark hollow triangle — closer to a horn than to
+   fur, and worst in the surprised pose where the ears are the loudest thing on the head.
+   The hollow is a SMALL inner triangle, unstroked, well inside the ear.
+7. ⚠ **`indexOf` ON A COMMENT HEADER FINDS THE FIRST ONE.** Splicing the fox block out of
+   `_lib/art.js` by searching for its `GAME 001` header hit the *berry/bowl* block, which
+   carries the same header, and silently deleted `berry`, `bowl` and `bowl.rim` — and the
+   85 unit tests still passed, because no test names them. Anchor a splice on a string
+   unique to the block, and assert both that every entry you meant to replace is inside the
+   cut AND that every entry you did not is outside it.

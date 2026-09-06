@@ -51,10 +51,19 @@ Launch `general-purpose` agents, ≤ 4 concurrently, round 1 then round 2. Every
 ### Step 4 — Gates, in this order, none skippable, never a threshold moved
 1. `node games/_tools/check-build.js <slug>` → PASS.
 2. `node games/_tools/qa-game.js <slug>` → PASS (11 locales boot, never auto-start, ≥ 7 distinct Start labels, a full en session with a wrong answer on every item reaches Finish, targets ≥ 44 px real at 704, no console errors; screenshots in `_qa/<slug>/`).
-3. **Visual-critic pass:** the art-director agent reads EVERY screenshot in `_qa/<slug>/` against `ART-BIBLE.md` §8 (14 points) and the game's own checklist; every miss is fixed and the sweep re-run. Output `_qa/<slug>/critic.md`.
-4. **I read the 704 and 1024 renders myself** (start, item 1, wrong state, finish) and at least two non-English start screens.
-5. **Pedagogue sign-off** on the BUILT item pools and feedback (the agent plays through `LCS_TEST` transcripts or reads the code): objective held, every misconception response present, no toll gate.
-6. `node games/_tools/build-hub.js`.
+3. **ART CONTACT SHEET — render every NEW `_lib/art.js` entry on its own, LARGE, and look at it.**
+   All five poses at **48 / 96 / 192 / 384 px** on the `#FBF3E4` stage, written to
+   `_qa/<slug>/art-sheet.png`, and **I read it myself** before the critic runs.
+   ⭐⭐ **This step is in the artist's brief and was SKIPPED on 001, and it is the whole reason a
+   badly-drawn fox shipped.** Every gate renders a mascot at ~104 logical px, and the visual critic
+   grades those same frames — so *nobody ever looked at the art itself*. At full size the fox had two
+   mismatched dangling legs (one thick, one thin and grey-socked), a muzzle that read as a lolling
+   tongue, and ears that read as hollow horns. The operator saw it in one glance. A game screenshot
+   is not an art review: **the character must be judged at the size a person can actually see it.**
+4. **Visual-critic pass:** the art-director agent reads EVERY screenshot in `_qa/<slug>/` against `ART-BIBLE.md` §8 (14 points) and the game's own checklist; every miss is fixed and the sweep re-run. Output `_qa/<slug>/critic.md`.
+5. **I read the 704 and 1024 renders myself** (start, item 1, wrong state, finish) and at least two non-English start screens.
+6. **Pedagogue sign-off** on the BUILT item pools and feedback (the agent plays through `LCS_TEST` transcripts or reads the code): objective held, every misconception response present, no toll gate.
+7. `node games/_tools/build-hub.js`.
 If any gate fails, fix WHAT is measured or the game — never the gate's number (CLAUDE.md §A.13.62 discipline).
 
 ### Step 5 — Close out and hand over

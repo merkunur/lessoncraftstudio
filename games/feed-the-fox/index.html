@@ -32,9 +32,11 @@
        total BEFORE unlocking the tiles, which made the answer step 002 verbatim; that line is deleted. Full record of
        every ruling behind this build: BUILD-LOG.md entry 001. */
     /* GAME: ART registry (BUILD-CONVENTIONS §4). Token NAMES only - never a hex, so the palette stays one edit. Every
-       svg row comes from _lib/art.js and is shared with the other 199 games. TRAP: bowl and bowl.rim are NON-SQUARE:
-       size MUST equal w (96), or drawArt scales them by 64/96 and draws a 64x29 stamp with no error and no console
-       warning. */
+       svg row comes from _lib/art.js and is shared with the other 199 games. NO GROUND SHADOW under the fox - operator
+       ruling 2026-09-06, overriding §4's shadow rule for this mascot. There were TWO stacked (one baked into every
+       pose's SVG and one drawn here), which is what made it read as a smudge rather than a shadow. TRAP: bowl and
+       bowl.rim are NON-SQUARE: size MUST equal w (96), or drawArt scales them by 64/96 and draws a 64x29 stamp with
+       no error and no console warning. */
     const ART = {
       fox:          { kind: "svg", value: LCSArt.get("fox.idle"),  size: 104 },
       foxThink:     { kind: "svg", value: LCSArt.get("fox.think"), size: 104 },
@@ -48,7 +50,6 @@
          002's would cross behind row 2 of every two-row layout. */
       patchMat:     { kind: "shape", shape: "roundRect", w: 516, h: 196, radius: 28,
                       fill: "surface2", stroke: "line", strokeWidth: 2 },
-      foxShadow:    { kind: "shape", shape: "ellipse", w: 92, h: 14, fill: "ink", alpha: 0.08 },
       bubble:       { kind: "shape", shape: "roundRect", w: 128, h: 60, radius: 18,
                       fill: "surface", stroke: "structure", strokeWidth: 3 },
       bubbleTail:   { kind: "shape", shape: "polygon", points: [[-11, -5], [9, -5], [-3, 6]],
@@ -330,7 +331,6 @@
            with her bowl. TRAP: NOTHING on this screen is interactive except Start. qa-game's POINTER check clicks the
            BIGGEST interactive target and demands it enters Play; a 104px tappable fox would outrank the 220x72 Start
            button and fail a perfectly correct game. */
-        GameCore.drawArt(this, ART, "foxShadow", 362, 472);
         GameCore.drawArt(this, ART, "fox", 360, 428);
         GameCore.drawArt(this, ART, "bowl", 428, 486, { size: 78 }).setDepth(D_BOWL);
         GameCore.drawArt(this, ART, "bowlRim", 428, 486, { size: 78 }).setDepth(D_RIM);
@@ -374,7 +374,6 @@
         this.bubbleNum = GameCore.drawArt(this, ART, "bubbleNumeral", BUBBLE_X, BUBBLE_Y)
                                  .setDepth(D_BUBBLE).setVisible(false);
 
-        GameCore.drawArt(this, ART, "foxShadow", FOX_X + 2, FOX_Y + 44).setDepth(D_FOX - 1);
         /* The fox lives inside a container so every ANIM targets the WRAPPER: an absolute scale tween on a kind:"svg"
            image would throw away drawArt's 0.5 compensation and render it at double size, silently, with every gate
            green (ART-BIBLE §9.3). */
@@ -1193,7 +1192,6 @@
           wordWrap: { width: 640 }
         }).setOrigin(0.5).setResolution(4);
 
-        GameCore.drawArt(this, ART, "foxShadow", 362, 232).setDepth(D_FOX - 1);
         var foxBox = this.add.container(360, 188).setDepth(D_FOX);
         foxBox.add(GameCore.drawArt(this, ART, "foxHappy", 0, 0));
         GameCore.playAnim(this, foxBox, ANIM.celebrate);

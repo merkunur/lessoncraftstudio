@@ -30,6 +30,12 @@ const args = Object.fromEntries(
 );
 const BASE = (args.base || 'https://www.lessoncraftstudio.com').replace(/\/$/, '');
 const LOCALES = String(args.locales || 'en,de,es,fr,it,pt,nl,sv,da,no,fi').split(',').filter(Boolean);
+/* --path lets the gate measure a PREVIEW route before promotion (v11 added
+   this — until then the gate could only validate production). `{locale}` is
+   substituted per run; the default is the live homepage. */
+const PATH_TEMPLATE = args.path || '/{locale}/';
+const urlFor = (locale) =>
+  `${BASE}${PATH_TEMPLATE.includes('{locale}') ? PATH_TEMPLATE.replace(/\{locale\}/g, locale) : PATH_TEMPLATE}`;
 
 /* The intended walk: tools -> worksheets -> activities -> makers -> sharing ->
    plans -> exit. `close` is deliberately unnumbered. */
@@ -54,7 +60,7 @@ const ALSO = {
     await page.setRequestInterception(true);
     page.on('request', (r) => (/favicon/.test(r.url()) ? r.abort() : r.continue()));
     await page.setViewport({ width: 1366, height: 900 });
-    await page.goto(`${BASE}/${locale}/?cb=${Date.now()}`, { waitUntil: 'networkidle2', timeout: 180000 });
+    await page.goto(`${urlFor(locale)}?cb=${Date.now()}`, { waitUntil: 'networkidle2', timeout: 180000 });
 
     const got = await page.evaluate(() => ({
       sections: [...document.querySelectorAll('section.hv10-room[id]')].map((s) => s.id),

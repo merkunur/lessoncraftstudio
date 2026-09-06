@@ -61,15 +61,41 @@ game:       if (world.accepts(hero, destination))  // a fit, discovered
 |---|---|---|
 | **A** | Delete the **maths** — nothing playable may survive. | quiz-plus-arcade (F-63) |
 | **B** | Delete the **mission** — nothing playable may survive. | mission-as-wallpaper |
-| **C** | Delete the **walking** — patch every traversal tween to `duration: 0`. **The session must play identically.** | the walk as a seductive detail wearing a mission as an excuse |
+| **C** | Delete the **walking** — patch every traversal tween to `duration: 0`. Two things are then measured; see §2.2a. | travel used as a disguised timer, and travel as extraneous load |
 
-**Test C is the one that matters, and it is why B alone is not enough.** Test B is passed trivially by
-any decorative frame that is load-bearing for the finish screen — *001's fox already passes it* (delete
-the fox and there is no bowl for the berries) while contributing none of what the operator asked for.
+**Test B alone is not enough.** It is passed trivially by any decorative frame that is load-bearing for
+the finish screen — *001's fox already passes it* (delete the fox and there is no bowl for the berries)
+while contributing none of what the operator asked for.
 
 Tests A and B are enforced as a **mutation test** (`_tools/mutate-mission.js`): delete the hero and the
-goal, and the game must **fail to complete an item**. Test C is a scripted tween patch plus a `qa-game`
-item-log diff. Without mechanical enforcement the system degrades into theming within two builds.
+goal, and the game must **fail to complete an item**. Without mechanical enforcement the system
+degrades into theming within two builds.
+
+### 2.2a ⚠ What Test C actually measures — corrected 2026-09-06, mid-programme
+
+The first version of this table said *"the session must play identically"* while the paragraph under it
+said the opposite — *"if the session is identical, the seconds spent walking were pure extraneous
+load."* **Both cannot be right, and a designer building game 005 found the contradiction before I
+did.** Worse, on inspection the test as written **cannot discriminate at all**: a *correctly* isomorphic
+walk and a *purely decorative* walk BOTH play identically under an instant cut, because in each case the
+child's decision and its outcome are unchanged. An identity diff separates nothing.
+
+So Test C is **not** the isomorphism proof. **The Displacement rule (§2.3) is** — whether the commit
+reads a position is what separates a real mission from a costume. Test C is a **load audit**, and it
+asserts two things:
+
+1. **The item log must be IDENTICAL under the instant cut.** If the game plays *differently* when travel
+   is instant, then travel *time* is carrying a mechanic — the child is waiting on the world before they
+   may act, which is a disguised timer and is banned (F-45, F-64). **A difference is the failure.**
+2. **The time removed must be small.** Sum the traversal durations across a session. Travel is the
+   *delivery* of a decision already made, never the substance of the session: it must stay a small
+   fraction of a 5-7 minute session and must never be a beat the child has to sit through before the
+   next decision is available. Game 005's redesign is the worked example — *"≤ 480 ms scuttle, ≤ 400 ms
+   pick-up, ≤ 320 ms push; worst case ≈ 1200 ms per item, ~12 s across a ten-item session"* — and it
+   reports the number rather than asserting the property.
+
+**State the measured seconds in the spec.** A spec that cannot say how long its child spends watching
+has not done the audit.
 
 ### 2.3 ⭐ The Displacement rule — the sharpest single check
 

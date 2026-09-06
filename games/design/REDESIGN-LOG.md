@@ -19,9 +19,12 @@ findings the spec cites.
 > **Moving is solving.** The character's action in the world is isomorphic to the cognitive
 > operation. Not *solve then move* — moving IS how you solve.
 
-**The two-deletion test.** Delete the maths → nothing playable may survive (F-63). Delete the
-mission → nothing playable may survive (new). A quiz-with-arcade passes the second and fails the
-first; the 200 specs as written pass the first and fail the second. A real game fails both.
+**The three deletion tests.** (A) Delete the maths → nothing playable may survive (F-63). (B) Delete
+the mission → nothing playable may survive. A quiz-with-arcade passes B and fails A; the 200 specs as
+written pass A and fail B. (C) The **instant cut** — a load audit, not the isomorphism proof; see
+`GAME-DESIGN-LAW.md` §2.2a, which was **corrected mid-programme** after a designer found the first
+version of its table said the opposite of the paragraph beneath it. The isomorphism is proved by the
+**Displacement rule**: `answer = f(character.position)`.
 
 ## What is carried across untouched
 

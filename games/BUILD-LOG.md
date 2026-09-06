@@ -37,6 +37,31 @@ NEXT: 001
 - ⭐ **A Phaser container has no `displayWidth`.** After wrapping the eggs, my own clearance check read 0 and reported "clear" — a vacuous pass on a measurement of nothing. Measure the inner image.
 - ⚠ A non-square SVG entry MUST set `size === w`, or `drawArt` scales it by `64/w` and renders a postage stamp with **no error and no console warning** (poison-tested: the nest renders 64×27).
 
+### ⭐⭐ The operator could not press Start — and the whole gate suite was blind to it
+
+Reported after sign-off: **the Start button was unresponsive.** Root cause, measured:
+`game-core.js` passed `Phaser.Geom.Rectangle.contains` to `setInteractive`. Phaser 3.90
+exposes `Phaser.Geom.Rectangle.**Contains**` — capital C — and has no lowercase alias, so
+the callback was `undefined`, `hitAreaCallback is not a function` threw on every pointer
+move, and **no real tap reached anything in any of the 200 games**. The demo and every
+future build had it too.
+
+It survived every gate because **every gate pressed buttons with a synthetic
+`emit("pointerdown"/"pointerup")` on the container**, which bypasses Phaser's hit-testing
+entirely. `check-build` is static and cannot see it; `qa-game`'s SESSION loop drove a full
+8-item session to Finish, at three widths, with the bug active. The suite proved the game's
+LOGIC while never once proving the game could be TOUCHED.
+
+Fixed in `_lib/game-core.js` (4 occurrences, with a rule note at the top so nobody
+re-lowercases it), and a **POINTER check added to `_tools/qa-game.js`**: every interactive
+object must carry a callable `hitAreaCallback`, and a **real `page.mouse.click`** on the
+largest interactive target must enter Play. Poison-tested against the original lowercase
+form: the new check fails while `SESSION` still passes, which is precisely the blindness.
+
+**Standing rule for the remaining 199: a synthetic `emit()` is not a tap.** At least one
+assertion per game must drive a real pointer, or a game can pass everything and be
+unplayable.
+
 ### Open, and honest about it
 
 - **The visual critic graded an EARLIER state and has not re-run.** Its verdict was "the bones are right; the surface is not there", against a nest that read as a bathtub with the eggs stuck to its outside wall. That nest has since been redrawn a fourth time — warm straw instead of teal, a deep recessed cup, and a separate `nest.rim` entry drawn OVER the eggs so their bases tuck into the nest — the mirror cue completed so both bowls are ringed, and the hen's reaction proven by measurement. **None of that has been re-graded, and it should be before game 003 inherits the style.**

@@ -42,6 +42,13 @@
       Never the shorthand { font: "700 22px Baloo 2" }. "Baloo 2"
       starts with a digit and quietly breaks the shorthand.
 
+   3a. The hit-area callback is Phaser.Geom.Rectangle.Contains with a
+      CAPITAL C. Phaser 3.90 has no lowercase .contains, so the lowercase
+      form passes undefined, Phaser throws "hitAreaCallback is not a
+      function" on every pointer move, and NOTHING is clickable by a real
+      finger -- while synthetic emit("pointerup") still works, which is why
+      a whole gate suite can pass over it. Never lowercase this.
+
    3. Every colour and size comes from THEME. Never type a hex
       number here. And never put pure white on the coral accent
       (poor contrast); on coral use THEME.colour.bg or
@@ -411,7 +418,7 @@ var GameCore = (function () {
       // A single handler per event, so nothing fires twice.
       container.setInteractive(new Phaser.Geom.Rectangle(
         -w / 2, -h / 2, w, h
-      ), Phaser.Geom.Rectangle.contains);
+      ), Phaser.Geom.Rectangle.Contains);
 
       container.on("pointerover", function () {
         api.hovered = true;
@@ -527,7 +534,7 @@ var GameCore = (function () {
       header.setSize(headerW, headerH);
       header.setInteractive(new Phaser.Geom.Rectangle(
         0, 0, headerW, headerH
-      ), Phaser.Geom.Rectangle.contains);
+      ), Phaser.Geom.Rectangle.Contains);
 
       // Panel: a bordered surface holding one pill per language. The
       // layout is recomputed from the CURRENT stage size every time it
@@ -600,7 +607,7 @@ var GameCore = (function () {
           pill.setSize(pillW, pillH);
           pill.setInteractive(new Phaser.Geom.Rectangle(
             -pillW / 2, -pillH / 2, pillW, pillH
-          ), Phaser.Geom.Rectangle.contains);
+          ), Phaser.Geom.Rectangle.Contains);
 
           drawRoundedRect(pillBg, pillW, pillH,
             code === state.lang ? THEME.colour.structureSoft.num
@@ -993,7 +1000,7 @@ var GameCore = (function () {
 
       container.setInteractive(new Phaser.Geom.Rectangle(
         -w / 2, -h / 2, w, h
-      ), Phaser.Geom.Rectangle.contains);
+      ), Phaser.Geom.Rectangle.Contains);
 
       container.on("pointerover", function () {
         api.hovered = true;

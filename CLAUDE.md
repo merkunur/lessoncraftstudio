@@ -1518,6 +1518,20 @@ The 5 registration points are §21.5; **`frontend/config/live-tool-slugs.ts` is 
 
 **SoT = `games/BUILD-WORKFLOW.md`** (the routine, the ensemble prompts, the gates, the hand-over) + **`games/BUILD-LOG.md`** (the `NEXT:` pointer + build order + per-game record) + **`games/ART-BIBLE.md`** (the one visual language). Read those three on every trigger; this section only routes.
 
+> ### ⚠ AMENDMENT 2026-09-06 — THE 200 DESIGNS ARE BEING REDESIGNED AS GAMES
+>
+> Operator: *"The games you designed are just activities… The game has to have a mission or purpose… The character should not be static, it needs to move around and complete missions… kids want to play it for the sake of playing"* → **"You should redesign all 200 games."**
+>
+> **He is right and it was measurable:** 183 of 200 specs say *"the child taps"*; one says "mission"; of the 182 specs declaring a mascot, **~110 are a `{y:"-=14", yoyo:true}` bobber that returns to its own coordinate**; only 13 let a living body travel as the input. Root cause was architectural — `PATTERNS.md` called P1-P12 *"the twelve ways a child can act"* when they are twelve ways to **touch the screen**, and BUILD-CONVENTIONS §7 drew a worksheet. **Nothing in the design system ever asked what the child was trying to DO.** And it was already required: **F-11** (answer-then-arcade sells on *"motion, a goal, a character"*, which *"must be matched by other means"*) and **F-212** (*"a character and a goal that IS the task"*) were written, numbered, and never implemented.
+>
+> **New SoT, read before touching any spec:** **`games/design/GAME-DESIGN-LAW.md`** (the ruling; the THREE deletion tests; the Displacement rule; the band policy; the F-42 gate) + **`games/design/MISSIONS.md`** (the 14 frames, the Single-State Law, the mission layout) + **`games/design/REDESIGN-LOG.md`** (the `NEXT:` wave pointer, the 10 waves, the open gate holes).
+>
+> **The law:** *moving is solving* — the character's action is isomorphic to the cognitive operation. **frame = the game · pattern = the finger** (`pattern` is no longer invariant, superseding BUILD-WORKFLOW §3). ⭐ **The third deletion test is the one that matters:** delete the WALKING (patch traversal tweens to `duration:0`) and the session must NOT play identically — *001's fox already passes the delete-the-mission test* while contributing nothing the operator asked for. ⭐ **Displacement:** `answer = f(character.position)`; a commit that reads a tile id and *then* animates a walk is answer-then-arcade with a shorter arcade, and is rejected. ⭐ **The journey is ALONG the apparatus, not between places** — the trail IS the number line; a world map plus a problem panel is a split-attention format (g = 0.63 against you) and is banned.
+>
+> **Three corrections the adversarial pedagogy review forced, all in the law:** "hidden" is re-stated as **"integrated, never concealed"** (concealment becomes a word problem — harder for 5-8, and niche demand per F-6); the ~949 enacted corrections are **NOT** "carried across untouched" while their ART/ANIM choreography is rewritten — the *diagnosis* is invariant, the *choreography* is re-authored, and the count and duration may never fall; and **band 5-6 (64 games) gets a repeated micro-mission, never a journey** — no navigation, no subgoals, no carried state. **All 200 are redesigned; not all 200 get travel** (the 9 P11 keypad games and tables 010/049/050 are exempt on retrieval-density grounds, F-2).
+>
+> **Gates added:** `_tools/check-mission.js` (spec-side: frame validity, single state, isomorphism, no dot rail on the play surface, the RATCHET rule, character-is-never-the-consequence, and **misconception counts diffed against the committed original**; refuses to pass vacuously) and `qa-game`'s **PLAY-TARGETS** — which closed a hole present since the gate was written: **TARGETS runs before `start()`, so no play-surface control had ever been measured, and an empty list was a PASS.**
+
 ### 24.0 ⭐ Trigger disambiguation — three different loops
 | Operator says | Go to |
 |---|---|

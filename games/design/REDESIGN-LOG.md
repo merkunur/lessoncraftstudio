@@ -1,6 +1,10 @@
 # REDESIGN LOG — turning the 200 specs from activities into games
 
-NEXT: W01
+NEXT: finish the W01/W02 stragglers (036 038 178 · 127 176 187 188), then W03 from the top.
+
+**STATE 2026-09-06: 27 of 200 redesigned. 173 remain.** The session hit its limit mid-flight and
+killed 57 in-progress agents; see the wave record below for exactly what landed and what did not.
+**`HANDOFF-REDESIGN.md` is the resume document — read it first.**
 
 **Trigger.** Operator ruling 2026-09-06: *"The games you designed are just activities… The game has
 to have a mission or purpose. The kids need to be involved in the mission by making the character do
@@ -133,3 +137,71 @@ later game inherits the worksheet shape.
 - **Nothing in the suite reviews MOTION.** `art-sheet.js` proves the still frame, `qa-game` proves
   the file responds to a pointer, the critic reads still screenshots, and I read still renders. A
   game whose defects live in movement needs a fourth instrument.
+
+## W01-W03 (partial) — m-place-value · m-shape-space · m-add-sub/m-multiply-divide — 2026-09-06
+
+**27 of 57 attempted games redesigned.** The session limit killed 57 agents mid-pipeline, so the
+waves are partial by interruption, not by rejection. Nothing that landed was rolled back.
+
+| wave | families | done | remaining |
+|---|---|---|---|
+| W01 | m-place-value | **13 / 16** | 036 · 038 · 178 |
+| W02 | m-shape-space | **14 / 18** | 127 · 176 · 187 · 188 |
+| W03 | m-add-sub · m-multiply-divide | **0 / 23** | all 23 (designs were in flight when the limit hit) |
+
+**Frames used:** THE CLIMB · THE CROSSING · THE OPENING · THE ROUNDS · THE SPAN · THE TENDING —
+a genuine spread, no monoculture.
+
+**Retitled (examples):** 120 *Bar Chart Reader* → **The Lantern Lift** (the keypad is the hoist; the
+number you type is the altitude you go to, so reading the wrong bar means arriving at the wrong
+house) · 005 *Shape Sorter* → **Mend the Harbour Wall** (*"a category is not a label on a box — it is
+a shape of absence in the wall"*) · 035 → **The Water Stair** · 019 → **The Winter Door** ·
+177 → **The Hundred Road** · 179 → **Signpost Mountain** · 041 → **Stepping Stones** ·
+123 → **Found You!** · 126 → **Stone by Stone** · 125 → **Shadow Show**.
+⚠ `CATALOGUE.md` rows have **not** been updated to the new titles yet — the hub reads its title from
+there (the 002 precedent). That is outstanding work.
+
+**Misconceptions — the number that matters.** Held or grew on 25 of 27. 184 *gained* one (6 → 7).
+Two regressions, both caught by the gate and both outstanding:
+`019` enacted 5 → 4, and **`123` enacted 5 → 1**, which is a serious loss and must be repaired
+before that spec is built.
+
+### Open defects in the 27 (the resume list)
+
+| spec | defect |
+|---|---|
+| 009-balance-pans | ART-KEYS ×2 undeclared · dot rail still on the play surface |
+| 019-read-the-rods | dot rail still on the play surface · **enacted responses 5 → 4** |
+| 020-hundred-square-trail | ART-KEYS ×3 undeclared |
+| 123-position-hide-and-seek | **enacted responses 5 → 1** |
+| 132-order-three-numbers | EMOJI-REG ×4 (▪ in the layout diagram) · dot rail still on the play surface |
+| 179-number-to-1000-line | ART-KEYS ×3 · EMOJI-REG ×4 |
+| 180-expanded-form-cards | ART-KEYS ×1 · EMOJI-REG ×1 |
+
+**19 of the 27 are clean.** Corpus-wide: `lint-specs` 21 failures (all inside those 7 specs),
+`check-mission` 5 failures.
+
+### What this wave bought
+
+- ⭐⭐ **A design agent found a contradiction in `GAME-DESIGN-LAW.md` that I had written and shipped.**
+  The Test C table said *"the session must play identically"* while the paragraph beneath said the
+  opposite, and on inspection the test could not discriminate at all — a correctly isomorphic walk
+  and a decorative one both play identically under an instant cut. Corrected in §2.2a: Test C is a
+  **load audit**, the Displacement rule is the isomorphism proof. Fixed in `17119d3c`.
+- ⭐⭐ **`check-mission`'s two prose bans were 42/42 false positives on their first real run.**
+  CHARACTER banned the word **"cross"** for meaning *angry* — in a corpus whose central frame is
+  **THE CROSSING** — and matched *"the goat crosses"*, *"lines cross"*, *"ANIM.cross"* (9/9 false).
+  RATCHET matched design rationale (*"collapses this game into 002"*), a balance pan **sinking**
+  (which is a balance pan working), the **required** adaptive ladder (*"drops the next item one
+  level"*), correct refusal (*"until they are taken back"*), and the goal being **reached** (*"the
+  yard empties"* — the crablings came out) (33/33 false). `cross` removed; RATCHET downgraded to a
+  WARNING with the measurement recorded in its docblock, because a gate with a 100% false-positive
+  rate gets ignored — and then it is ignored on the day it is right. **The two decidable checks
+  earned their place in the same run: NO-RAIL caught 3 specs, MISCONCEPTIONS caught 2 real losses.**
+- ⭐ **The inherited `NO-PUNISH` ban has a third word sense.** It already guarded *"lives in/on/at"*
+  (the animal); the redesign added *"L3 **lives from** all four kinds"* (draws its content from).
+  Widened, and poison-tested three ways: a real *"three lives and loses one"* still fails.
+- **A judge panel produced a competing 13-frame system** (`MISSIONS-v2-CANDIDATE.md`, 112 KB). It is
+  **NOT installed** — its frame names differ (THE FOOTING, THE APERTURE, THE MENDING, THE EXCHANGE,
+  THE LIFT, THE ERRAND, THE GATHERING), so installing it would orphan all 27 specs already written
+  against v1. Reconcile deliberately before the next wave, or leave v1 standing.

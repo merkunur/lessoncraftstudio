@@ -205,7 +205,11 @@ function lintOne(file) {
 
   /* NO-PUNISH */
   const low = src.toLowerCase();
-  [["lives", /\blives\b(?! in| on| at| near| under| with)/], ["game over", /game over/], ["you lose", /you lose/],
+  /* The lookahead is the author's own guard against the ANIMAL sense of "lives". The mission
+     redesign added a third sense — "L3 lives from all four kinds", i.e. draws its content from —
+     which is neither an animal nor an extra chance. Widened rather than loosened: the banned thing
+     is still exactly the noun meaning a stock of retries. */
+  [["lives", /\blives\b(?! in| on| at| near| under| with| from| off| beside| among| here| there)/], ["game over", /game over/], ["you lose", /you lose/],
    ["red x", /\bred x\b/], ["buzzer", /buzzer(?! \(never)/]].forEach(([n, re]) => {
     const hits = lines.map((l, i) => [l, i]).filter(([l]) => re.test(l.toLowerCase()) && !/never|no |not |forbidden|avoid|without|instead of/i.test(l));
     if (hits.length) F("NO-PUNISH", "'" + n + "' at line " + (hits[0][1] + 1));

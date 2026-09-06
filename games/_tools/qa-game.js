@@ -206,6 +206,29 @@ const OK = (r, m) => { notes.push(r + ": " + m); console.log("  ✓ " + r + ": "
     else F("POINTER", "a REAL mouse click on the largest target (" + Math.round(biggest.w) + "x" +
       Math.round(biggest.h) + " at " + Math.round(biggest.x) + "," + Math.round(biggest.y) +
       ") did not start the game: scene went '" + before + "' -> '" + after + "'. Synthetic emit() may still work — that is the trap.");
+
+    /* ── PLAY-TARGETS ─────────────────────────────────────────────────────────────────────────────
+       The TARGETS block further down runs BEFORE start(), so it only ever measures the start screen
+       (which reports none) and the finish screen. Measured on both shipped games: not one Play-scene
+       target has ever been checked against the 44 px floor, and `targets.length === 0` is written as
+       a PASS — so a game that reports nothing clears the tap-target gate by reporting nothing.
+       Documented at probe-feed-the-fox.js:348-354 and BUILD-LOG.md:119, never fixed.
+       This runs on the surface the child actually touches, and asserts NON-VACUITY first. */
+    if (after === "Play") {
+      const pt = JSON.parse(await evalT("JSON.stringify(window.LCS_TEST.targets ? window.LCS_TEST.targets() : [])"));
+      const scale = canvasBox.w / 720;
+      if (!pt.length) {
+        F("PLAY-TARGETS", "targets() returned NOTHING on the play surface — the tap-target floor cannot be measured, so it is not being enforced (a game that reports nothing must not pass by reporting nothing)");
+      } else {
+        const small = pt.filter((t) => Math.min(t.w, t.h) * scale < 44);
+        if (small.length) {
+          F("PLAY-TARGETS", small.length + " of " + pt.length + " PLAY target(s) under 44 px real at " +
+            Math.round(canvasBox.w) + "px: " + small.map((t) => t.id + " " + Math.round(Math.min(t.w, t.h) * scale)).join(", "));
+        } else {
+          OK("PLAY-TARGETS", pt.length + " play targets ≥ 44 px real at " + Math.round(canvasBox.w) + "px");
+        }
+      }
+    }
   }
 
   const distinct = new Set(Object.values(startLabels)).size;

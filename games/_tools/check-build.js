@@ -33,6 +33,42 @@ if (!file || !fs.existsSync(file)) { console.error("usage: check-build.js <slug>
 const src = fs.readFileSync(file, "utf8");
 const lines = src.split(/\r?\n/);
 const fails = [], warns = [];
+
+/* stripComments(s) — source with comments blanked (length preserved so any
+ * offsets still line up). String, template and regex-ish contexts are tracked
+ * so a URL's "//" and an apostrophe in prose cannot fool it. Used ONLY by the
+ * rules that must read CODE: a rule that matches its own documentation fails
+ * the skeleton BUILD-CONVENTIONS §1 tells every game to copy verbatim. */
+function stripComments(s) {
+  let out = "", i = 0, n = s.length, q = null, depth = 0;
+  while (i < n) {
+    const c = s[i], d = s[i + 1];
+    if (q) {
+      if (c === "\\") { out += "  "; i += 2; continue; }
+      if (c === q) q = null;
+      out += c; i++; continue;
+    }
+    if (c === '"' || c === "'" || c === "`") { q = c; out += c; i++; continue; }
+    if (c === "/" && d === "*") {
+      i += 2; out += "  ";
+      while (i < n && !(s[i] === "*" && s[i + 1] === "/")) { out += (s[i] === "\n" ? "\n" : " "); i++; }
+      i += 2; out += "  "; continue;
+    }
+    if (c === "/" && d === "/") {
+      while (i < n && s[i] !== "\n") { out += " "; i++; }
+      continue;
+    }
+    if (c === "<" && s.slice(i, i + 4) === "<!--") {
+      i += 4; out += "    ";
+      while (i < n && s.slice(i, i + 3) !== "-->") { out += (s[i] === "\n" ? "\n" : " "); i++; }
+      i += 3; out += "   "; continue;
+    }
+    out += c; i++;
+  }
+  return out;
+}
+const code = stripComments(src);
+
 const F = (r, m) => fails.push(r + ": " + m), W = (r, m) => warns.push(r + ": " + m);
 
 /* LIBS */
@@ -77,7 +113,7 @@ if (ART) {
 for (const [re, why] of [[/\.add\.image\(/, "scene.add.image( — use GameCore.drawArt"], [/\.add\.sprite\(/, "scene.add.sprite("], [/\.load\.image\(/, "load.image( — no binary assets"],
   [/\.load\.audio\(/, "load.audio( — no audio files"], [/new Audio\(/, "new Audio("], [/<img\b/i, "<img> tag"], [/<audio\b/i, "<audio> tag"], [/\.load\.spritesheet\(/, "spritesheet"]]) {
   // allow add.image only inside game-core (not this file) — game files must not call it
-  if (re.test(src)) F("ART-ONLY", why);
+  if (re.test(code)) F("ART-ONLY", why);
 }
 /* SVG-ART */
 if (ART) {
@@ -87,8 +123,8 @@ if (ART) {
   }
 }
 /* NO-VH */
-for (const m of src.matchAll(/\b\d+(\.\d+)?(vh|vw|vmin|vmax)\b/g)) F("NO-VH", "viewport unit '" + m[0] + "' (iframe growth loop)");
-if (/ResizeObserver/.test(src)) F("NO-VH", "ResizeObserver used");
+for (const m of code.matchAll(/\b\d+(\.\d+)?(vh|vw|vmin|vmax)\b/g)) F("NO-VH", "viewport unit '" + m[0] + "' (iframe growth loop)");
+if (/ResizeObserver/.test(code)) F("NO-VH", "ResizeObserver used");
 /* FONT */
 for (const m of src.matchAll(/font:\s*["'][^"']*Baloo 2[^"']*["']/g)) F("FONT", "font shorthand with Baloo 2: " + m[0]);
 for (const m of src.matchAll(/fontFamily:\s*["'][^"']+["']/g)) F("FONT", "fontFamily literal (use THEME.font.*): " + m[0]);

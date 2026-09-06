@@ -62,7 +62,12 @@ Every registered entry is listed here with its master size and the game that int
 
 | entry | size | introduced by | notes |
 |---|---|---|---|
-| (none yet) | | | |
+| `hen.idle` | 96 | 002 Number Nest | the roster template. ONE shared body string + a swapped head group per pose is what makes the four read as one bird - keep that structure for the other 49 |
+| `hen.think` | 96 | 002 Number Nest | head +7deg, pupils +3: she looks at the thing the child should look at |
+| `hen.happy` | 96 | 002 Number Nest | crescent eyes, open beak, wing +14deg |
+| `hen.oops` | 96 | 002 Number Nest | SURPRISE, never disapproval: brows arch up and out, beak an "o". Eye centres 18 apart, not 16 - two r-8 whites at 16 intersect into a visible lens |
+| `egg` | 64 | 002 Number Nest | plain and undecorated: a decorated egg reads as EASTER in de/nl/sv/da/no, and colour variation invites sorting rather than counting. BINDING: opaque ovoid <=36 wide, <=48 tall, or the 12px counting clearance fails |
+| `nest` | 360x152 | 002 Number Nest | the ONLY non-square entry (see the §4 amendment below). Rim ticks lie ALONG the rim at varied angles - uniform outward twigs read as spikes - and the interior weave is held at 17pc opacity because the eggs cover almost the whole interior and that is the surface the child counts on |
 
 ## §8 The visual-critic rubric (graded on the full screenshot sweep, every locale start screen + en item/wrong/finish at 400/704/1024)
 
@@ -81,3 +86,9 @@ Every registered entry is listed here with its master size and the game that int
 13. Scenery is a wash; no scene element competes with a tile.
 14. The mascot's expression matches the moment (idle while thinking, happy on success, surprised-not-disapproving on a miss).
 A pass requires all fourteen; the critic names the screenshot and the rule for every miss.
+
+## §9 Amendments established by the first build (002 Number Nest)
+
+1. **Containers and scenery may be NON-SQUARE** with an explicit `w`/`h`; countable objects and characters stay 1:1. A 1:1 nest would be 360px tall and could not exist in a 204px zone. ⚠ Such an entry MUST also set `size` equal to `w`, or `drawArt` scales it by `64/w` and renders a postage stamp **with no error and no console warning**.
+2. **Identity tint vs state coral.** A mascot may carry ONE identity feature in an `accent` TINT (the hen's terracotta comb, beak and legs). It is exempt from the one-coral-per-screen count because it never changes and never means anything. The counted coral is STATE coral - the single element that is coral *because of what is happening now*. This is what keeps coral available for meaning across all 50 mascots.
+3. ⚠ **`ANIM.appear` and any tween of raw `scale` is WRONG for a `kind:"svg"` entry.** `preloadArt` rasterises at 2x and `drawArt` compensates with an object scale of 0.5, so an absolute `scale: 1` renders the art at DOUBLE size. Measured on this build: eggs came out 96px instead of 48, a 21px overlap, while every gate passed. Wrap the art in a container and animate the container - a container's natural scale really is 1.

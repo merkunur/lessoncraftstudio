@@ -1,0 +1,1081 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Number Nest</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link id="webfont" rel="stylesheet" href="" />
+  <style>
+    /* Fixed pixel sizing. No vh units. No ResizeObserver. */
+    html, body { margin: 0; padding: 0; background: #FBF3E4; }
+    #game { width: 100%; }
+    canvas { display: block; margin: 0 auto; }
+  </style>
+</head>
+<body>
+  <div id="game"></div>
+  <script src="../_lib/theme.js"></script>
+  <script src="../_lib/ui-strings.js"></script>
+  <script src="../_lib/art.js"></script>
+  <script src="../_lib/phaser-3.90.0.min.js"></script>
+  <script src="../_lib/game-core.js"></script>
+  <script>
+    document.getElementById("webfont").href = THEME.font.webfontUrl;
+    GameCore.init({});
+    GameCore.reportHeight();
+
+    /* ==========================================================
+       002 Number Nest - quantity to numeral, ages 5-6, pattern P1.
+       The child sees 1-10 eggs in a nest and taps the numeral that
+       says how many. A wrong tap never scores; it plays an ENACTED
+       COUNT, and a 6-for-9 mix-up plays the mirror cue first.
+       ========================================================== */
+
+    /* GAME: ART registry (BUILD-CONVENTIONS §4). Token NAMES only -
+       never a hex, so the palette stays one edit. The six svg rows
+       come from _lib/art.js, shared with the other 199 games.
+       The nest is the ONLY non-square entry: size MUST equal w, or
+       drawArt scales it by 64/360 and draws a 64x27 stamp with no
+       error and no console warning. */
+    const ART = {
+      hen:            { kind: "svg", value: LCSArt.get("hen.idle"),  size: 104 },
+      henThink:       { kind: "svg", value: LCSArt.get("hen.think"), size: 104 },
+      henHappy:       { kind: "svg", value: LCSArt.get("hen.happy"), size: 104 },
+      henOops:        { kind: "svg", value: LCSArt.get("hen.oops"),  size: 104 },
+      nest:           { kind: "svg", value: LCSArt.get("nest"), size: 360, w: 360, h: 152 },
+      nestRim:        { kind: "svg", value: LCSArt.get("nest.rim"), size: 360, w: 360, h: 152 },
+      egg:            { kind: "svg", value: LCSArt.get("egg"),  size: 48 },
+
+      groundBand:     { kind: "shape", shape: "rect",    w: 720, h: 28, fill: "structureSoft" },
+      henShadow:      { kind: "shape", shape: "ellipse", w: 76,  h: 14, fill: "ink", alpha: 0.08 },
+      bubbleTail:     { kind: "shape", shape: "polygon", points: [[-11, -5], [9, -5], [-3, 6]],
+                        fill: "surface", stroke: "structure", strokeWidth: 3 },
+      bubble:         { kind: "shape", shape: "roundRect", w: 132, h: 64, radius: 18,
+                        fill: "surface", stroke: "structure", strokeWidth: 3 },
+
+      /* The bubble is the ONE answer slot, in three visibly distinct
+         states: asking, counting, answered. value is a placeholder -
+         the game calls setText on what drawArt returns. */
+      question:       { kind: "text", value: "?", size: 44, font: "display", color: "structure" },
+      totalNumeral:   { kind: "text", value: "0", size: 56, font: "display", color: "structure" },
+      answerNumeral:  { kind: "text", value: "0", size: 44, font: "display", color: "ink" },
+      cueNumeral:     { kind: "text", value: "0", size: 72, font: "display", color: "ink" },
+
+      /* One dot per counted egg. NOT a numeral: a numeral big enough
+         to meet the 5-6 band floor (40px) needs a 52px badge, which
+         is wider than the 35px egg and overlaps its neighbour. The
+         count is SPOKEN by the bubble instead, at 56px. */
+      countDot:       { kind: "shape", shape: "circle", r: 6, fill: "structure", stroke: "bg", strokeWidth: 2 },
+
+      tileFloor:      { kind: "shape", shape: "line",      w: 76,  stroke: "line", strokeWidth: 2 },
+      sitBar:         { kind: "shape", shape: "roundRect", w: 76,  h: 6, radius: 3, fill: "accent" },
+      bowlRing:       { kind: "shape", shape: "circle",    r: 17,  stroke: "structure", strokeWidth: 3 },
+      showRing:       { kind: "shape", shape: "roundRect", w: 120, h: 120, radius: 18,
+                        stroke: "structure", strokeWidth: 4 },
+
+      dotEmpty:       { kind: "shape", shape: "circle", r: 8, stroke: "line", strokeWidth: 2 },
+      dotFull:        { kind: "shape", shape: "circle", r: 8, fill: "structure" },
+      dotNow:         { kind: "shape", shape: "circle", r: 5, fill: "accent" },
+
+      summaryCard:    { kind: "shape", shape: "roundRect", w: 60, h: 60, radius: 12,
+                        fill: "surface2", stroke: "structure", strokeWidth: 2 },
+      summaryNumeral: { kind: "text", value: "0", size: 40, font: "display", color: "ink" }
+    };
+
+    /* GAME: ANIM registry (BUILD-CONVENTIONS §5). Real elapsed =
+       duration x (yoyo ? 2 : 1) x (repeat + 1) + hold. Staggers are
+       delayedCalls in the game, never here, so each entry's duration
+       is a constant the tile-lock arithmetic can rely on. */
+    const ANIM = {
+      pop:        { scale: 1.12, duration: 140, ease: "Back.Out", yoyo: true,
+                    trigger: "the tapped tile on any correct answer - 280ms" },
+      nudge:      { x: "+=10", duration: 80, ease: "Sine.InOut", yoyo: true, repeat: 1,
+                    trigger: "the tapped tile on any wrong tap; ends where it started - 320ms" },
+      appear:     { alpha: 1, scale: 1, duration: 200, ease: "Back.Out",
+                    trigger: "each egg as an item builds (staggered 45ms, from alpha 0 scale 0.6); the bowl ring - 200ms" },
+      fadeOut:    { alpha: 0, duration: 300, ease: "Sine.In",
+                    trigger: "dots and the bubble count clearing after the enacted count - 300ms" },
+      glide:      { duration: 260, ease: "Sine.InOut",
+                    trigger: "short travel, x/y set at call: the mirror tiles out to zone C and home - 260ms" },
+      cluck:      { angle: 6, duration: 100, ease: "Sine.InOut", yoyo: true, repeat: 1,
+                    trigger: "the hen after a FIRST-TRY correct answer only - 400ms" },
+      celebrate:  { angle: 8, duration: 120, ease: "Sine.InOut", yoyo: true, repeat: 3,
+                    trigger: "the finish hen - 960ms, inside the 1.5s budget" },
+      showMe:     { alpha: 1, scale: 1.06, duration: 500, ease: "Sine.InOut", yoyo: true, repeat: -1,
+                    trigger: "the attempt-3 ring, from alpha 0.2. The ONLY repeat -1 in the game; 1Hz; stopped by reference on the tap" },
+      dotIn:      { alpha: 1, scale: 1, duration: 160, ease: "Back.Out",
+                    trigger: "one egg's count dot arriving, from alpha 0 scale 0.5 - 160ms" },
+      lastBeat:   { scale: 1.4, duration: 220, ease: "Back.Out", yoyo: true,
+                    trigger: "the bubble numeral on the LAST egg - the beat that says this is how many - 440ms" },
+      henOops:    { angle: -3, duration: 110, ease: "Sine.Out", yoyo: true, hold: 500,
+                    trigger: "the hen on any wrong tap, after the tile nudge - 720ms" },
+      dotFill:    { scale: 1.35, duration: 160, ease: "Back.Out", yoyo: true,
+                    trigger: "the rail dot as it fills - an 8px dot needs 35% to be seen - 320ms" },
+      gather:     { scale: 0.2, alpha: 0, duration: 260, ease: "Back.In",
+                    trigger: "the count dots collapsing on a far guess (staggered 40ms) - 260ms" },
+      dim:        { alpha: 0.2, duration: 200, ease: "Sine.Out",
+                    trigger: "the third, uninvolved tile in the mirror cue. It fades and DOES NOT MOVE - 200ms" },
+      undim:      { alpha: 1, duration: 200, ease: "Sine.Out",
+                    trigger: "the two participating tiles lifting to full, and the third restored at the end - 200ms" },
+      barDraw:    { scaleX: 1, duration: 180, ease: "Back.Out",
+                    trigger: "a floor bar drawn out from its own centre, from scaleX 0 - 180ms" },
+      barUndraw:  { scaleX: 0, duration: 140, ease: "Sine.In",
+                    trigger: "the coral bar retracting when the cue reverses - 140ms" },
+      dropLift:   { y: "-=4", duration: 70, ease: "Sine.Out",
+                    trigger: "the cue numeral's anticipation before the drop - 70ms" },
+      drop:       { y: "+=12", duration: 150, ease: "Quad.In",
+                    trigger: "the cue numeral falling onto the coral bar. Quad.In ACCELERATES - an easing that decelerates reads as a placement, not a landing - 150ms" },
+      squash:     { scaleY: 0.92, scaleX: 1.05, duration: 90, ease: "Sine.Out", yoyo: true,
+                    trigger: "the landing squash. Needs origin (0.5, 1) so it compresses ONTO its base - 180ms" },
+      dropReturn: { y: "-=8", duration: 200, ease: "Sine.InOut",
+                    trigger: "the numeral lifting off the bar; -8 cancels dropLift plus drop - 200ms" },
+      tileIntro:  { alpha: 1, scale: 1, duration: 180, ease: "Back.Out",
+                    trigger: "each tile entering at the end of the item-1 demonstration only - 180ms" }
+    };
+
+    /* GAME: STRINGS (§9, §17). Eleven locales, rebuilt not translated.
+       Only two keys: this game is otherwise language-neutral, so it
+       declares no LOCALE_DATA at all. */
+    const STRINGS = {
+      en: { title: "Number Nest",        howMany: "How many?"   },
+      de: { title: "Zahlennest",         howMany: "Wie viele?"  },
+      fr: { title: "Le nid des nombres", howMany: "Combien ?"   },
+      it: { title: "Il nido dei numeri", howMany: "Quante?"     },
+      es: { title: "Nido de números", howMany: "¿Cuántos?" },
+      pt: { title: "Ninho dos números", howMany: "Quantos?" },
+      nl: { title: "Getallennest",       howMany: "Hoeveel?"    },
+      sv: { title: "Sifferboet",         howMany: "Hur många?" },
+      da: { title: "Talreden",           howMany: "Hvor mange?" },
+      no: { title: "Tallreiret",         howMany: "Hvor mange?" },
+      fi: { title: "Numeropesä",    howMany: "Montako?"    }
+    };
+
+    /* GAME: CONTENT (§8). 24 items, 8 per level, so a replay is not
+       the same session and no level can be exhausted. */
+    const CONTENT = {
+      1: [ { id: "L1a", count: 2,  d: [1, 3]  }, { id: "L1b", count: 3,  d: [2, 4]  },
+           { id: "L1c", count: 1,  d: [2, 4]  }, { id: "L1d", count: 4,  d: [3, 5]  },
+           { id: "L1e", count: 5,  d: [4, 6]  }, { id: "L1f", count: 3,  d: [4, 8]  },
+           { id: "L1g", count: 4,  d: [5, 2]  }, { id: "L1h", count: 5,  d: [3, 6]  } ],
+      2: [ { id: "L2a", count: 6,  d: [5, 9]  }, { id: "L2b", count: 6,  d: [9, 3]  },
+           { id: "L2c", count: 7,  d: [6, 8]  }, { id: "L2d", count: 7,  d: [4, 8]  },
+           { id: "L2e", count: 7,  d: [6, 10] }, { id: "L2f", count: 8,  d: [7, 9]  },
+           { id: "L2g", count: 8,  d: [4, 9]  }, { id: "L2h", count: 5,  d: [4, 3]  } ],
+      3: [ { id: "L3a", count: 9,  d: [6, 8]  }, { id: "L3b", count: 9,  d: [6, 10] },
+           { id: "L3c", count: 9,  d: [6, 7]  }, { id: "L3d", count: 9,  d: [8, 10] },
+           { id: "L3e", count: 10, d: [9, 8]  }, { id: "L3f", count: 10, d: [7, 9]  },
+           { id: "L3g", count: 8,  d: [9, 5]  }, { id: "L3h", count: 8,  d: [6, 7]  } ]
+    };
+
+    /* Absolute stage coordinates, 720 x 560. Nest centre (412, 182).
+       Egg renders at 48; its opaque ovoid is 35 wide x 46.5 tall, so
+       neighbouring centres need 47 apart horizontally and 58.5
+       vertically. Every configuration below was measured. */
+    var NEST_X = 412, NEST_Y = 182;
+    var TILE_X = [232, 360, 488], TILE_Y = 382, TILE_W = 104, NUMERAL_PX = 72;
+    /* The mirror pair parks in zone C, BELOW the tile row. Parking it beside the
+       row (the first attempt, x 296/424) collided with the third tile whichever
+       slot that tile was in: the park spots sat 64px from a home slot and a 104px
+       tile needs 104. Zone C is exactly where the spec put this. */
+    var PARK_X = [300, 420], PARK_Y = 486;
+
+    /* L1 spacing varies per item so row WIDTH is not a clean proxy for
+       quantity - a fixed pitch hands the child the length bias the game
+       exists to defeat. At n=5, 72 is excluded: it leaves only 18.5px
+       of nest each side where every other cell leaves 42.5 or more. */
+    var L1_SPACINGS = { 1: [48, 60, 72], 2: [48, 60, 72], 3: [48, 60, 72], 4: [48, 60, 72], 5: [48, 60] };
+
+    var L2_ROWS = { 5: [3, 2], 6: [3, 3], 7: [4, 3], 8: [4, 4] };
+    var L3_CLUSTER = {
+      8:  [[-84, -26], [-28, -34], [28, -34], [84, -26], [-84, 38], [-28, 44], [28, 44], [84, 38]],
+      9:  [[-112, -24], [-56, -32], [0, -35], [56, -32], [112, -24], [-84, 38], [-28, 44], [28, 44], [84, 38]],
+      10: [[-112, -24], [-56, -32], [0, -35], [56, -32], [112, -24],
+           [-112, 36], [-56, 42], [0, 44], [56, 42], [112, 36]]
+    };
+
+    var ITEMS = 8;
+    var PRAISE = ["well_done", "you_did_it", "keep_going"];
+
+    function S(key) {
+      var d = STRINGS[GameCore.lang] || STRINGS.en;
+      return d[key] != null ? d[key] : STRINGS.en[key];
+    }
+
+    /* addPicker - makeLanguagePicker with its listeners cleaned up.
+       LIBRARY BUG, measured on this build and inherited by all 200
+       games: makeLanguagePicker registers scene.scale.on("resize", ...)
+       and never removes it. The ScaleManager is game-global, so every
+       scene transition leaves a stale handler bound to pills that the
+       scene shutdown already destroyed; the next viewport change - a
+       child rotating a tablet - runs relayout() over them and throws
+       "Cannot read properties of undefined (reading 'sys')" inside
+       setInteractive.
+       We cannot edit _lib, so we capture exactly the handlers this call
+       added (diffing the emitter's listener list) and drop those, and
+       only those, on shutdown. Removing all "resize" handlers would
+       take Phaser's own with them. */
+    function addPicker(scene, x, y) {
+      if (GameCore.isEmbedded) return null;
+      var before = scene.scale.listeners("resize").slice();
+      var root = GameCore.makeLanguagePicker(scene, x, y);
+      var after = scene.scale.listeners("resize");
+      var added = [], i;
+      for (i = 0; i < after.length; i++) if (before.indexOf(after[i]) < 0) added.push(after[i]);
+      scene.events.once("shutdown", function () {
+        for (var k = 0; k < added.length; k++) scene.scale.off("resize", added[k]);
+      });
+      return root;
+    }
+
+    /* Egg positions for a count, by LEVEL (not by n): the level's
+       presentation is what defeats the length cue, so n=5 appears as a
+       wide row at L1 and as two rows at L2 - the same quantity, two
+       widths, which is the most direct attack on the bias in the game. */
+    function eggPositions(n, level, spacing) {
+      var out = [], i, row, cols, x0, k = 0;
+      if (level === 1) {
+        for (i = 0; i < n; i++) out.push([NEST_X - (n - 1) * spacing / 2 + i * spacing, NEST_Y + 6]);
+        return out;
+      }
+      if (level === 2) {
+        var rows = L2_ROWS[n] || [Math.ceil(n / 2), n - Math.ceil(n / 2)];
+        var ys = [NEST_Y - 26, NEST_Y + 34];
+        for (row = 0; row < 2; row++) {
+          cols = rows[row];
+          x0 = NEST_X - (cols - 1) * 56 / 2;
+          for (i = 0; i < cols; i++) out.push([x0 + i * 56, ys[row]]);
+        }
+        return out;
+      }
+      var c = L3_CLUSTER[n] || L3_CLUSTER[8];
+      for (k = 0; k < c.length; k++) out.push([NEST_X + c[k][0], NEST_Y + c[k][1]]);
+      return out;
+    }
+
+    /* ==========================================================
+       TEST HOOK (BUILD-CONVENTIONS §16), defined before Phaser boots.
+       It reads LIVE state through module-level bridges the scenes keep
+       current; it holds no copy of game state.
+
+       wrong()/correct() ENQUEUE. Play.update() drains at most one
+       intent per frame, and only in a frame where the tiles are
+       genuinely tappable, by emitting pointerdown+pointerup on the
+       tile's own container - the same listener chain a finger fires,
+       including makeTile's enabled guard. There is no private
+       set-state path anywhere in this file.
+
+       The queue exists because qa-game fires correct() 350ms after
+       wrong(), while the enacted count holds the tiles disabled for
+       2.9-8.3 seconds. Without it the intent would hit the disabled
+       guard and evaporate, and which taps happened to land would
+       depend on frame timing - items would sometimes solve with no
+       wrong answer at all, falsifying the gate's own claim. The queue
+       removes the RACE, not the PATH.
+       ========================================================== */
+    var __scene = "Boot", __startBtn = null, __play = null, __q = [];
+
+    function __wrongIndex() {
+      /* Prefer the MIRROR partner (9 for a set of 6, 6 for a set of 9)
+         when it is on the board, so a gate session exercises the mirror
+         cue - the game's headline misconception response - and not only
+         the enacted count. Otherwise take the numeral NEAREST the
+         answer, which is the off-by-one misconception. */
+      var p = __play, n = p.item.count, i, v, d;
+      var mirror = (n === 6) ? 9 : (n === 9 ? 6 : -1);
+      var best = -1, bestD = 99;
+      for (i = 0; i < p.values.length; i++) {
+        v = p.values[i];
+        if (v === n) continue;
+        if (v === mirror) return i;
+        d = Math.abs(v - n);
+        if (d < bestD) { bestD = d; best = i; }
+      }
+      return best;
+    }
+
+    window.LCS_TEST = {
+      ready: function () { return !!__startBtn; },
+      scene: function () { return __scene; },
+      strings: function () {
+        /* start MUST stay GameCore.t("start") verbatim: the gate needs
+           7 distinct Start labels across 11 locales and ui-strings
+           yields exactly 7 (five languages share "Start"). No slack. */
+        return { start: GameCore.t("start"), title: S("title"), howMany: S("howMany") };
+      },
+      start: function () {
+        if (__startBtn && __scene === "Boot") {
+          __startBtn.emit("pointerdown");
+          __startBtn.emit("pointerup");
+        }
+      },
+      wrong:   function () { if (__scene === "Play") __q.push("wrong"); },
+      correct: function () { if (__scene === "Play") __q.push("correct"); },
+      targets: function () {
+        /* The game's OWN interactive surface only. The library Start /
+           Play again / Menu buttons and the language picker are chrome,
+           not game targets; Boot and Finish therefore report none. */
+        if (__scene !== "Play" || !__play) return [];
+        var out = [], i, c;
+        for (i = 0; i < __play.tiles.length; i++) {
+          c = __play.tiles[i].container;
+          out.push({ id: "tile" + i, x: c.x, y: c.y,
+                     w: Math.round(TILE_W * c.scaleX), h: Math.round(TILE_W * c.scaleY) });
+        }
+        if (__play.replay) {
+          c = __play.replay.container;
+          out.push({ id: "replay", x: c.x, y: c.y, w: 104, h: 96 });
+        }
+        return out;
+      },
+      /* Extensions beyond the §16 minimum, for the probe harness: the
+         gate can never reach the mirror cue or the show-me ring. */
+      probe: function () {
+        if (__scene !== "Play" || !__play) return { scene: __scene, mirrorIndex: -1 };
+        var n = __play.item.count, mirror = (n === 6) ? 9 : (n === 9 ? 6 : -1), i, mi = -1;
+        for (i = 0; i < __play.values.length; i++) if (__play.values[i] === mirror) mi = i;
+        return { scene: __scene, count: n, attempt: __play.attempt, mirrorIndex: mi,
+                 praisedLast: __play.praisedLast,
+                 enabled: __play.tiles.map(function (t) { return !!t.enabled; }) };
+      },
+      tapIndex: function (i) { if (__scene === "Play") __q.push({ tap: i }); }
+    };
+
+    /* ---------------------------------------------------------- */
+    var Boot = new Phaser.Class({
+      Extends: Phaser.Scene,
+      initialize: function Boot() { Phaser.Scene.call(this, "Boot"); },
+      preload: function () { GameCore.preloadArt(this, ART); },
+      create: function () {
+        var self = this;
+        __scene = "Boot"; __play = null; __q.length = 0;
+        /* makeStartScreen centres its title+button block on the stage, and its
+           button lands at y 284..356. The hen at 406 put her comb 3px inside it
+           - visible at 400px width. She stands on the band instead. */
+        GameCore.drawArt(this, ART, "groundBand", 360, 486);
+        GameCore.drawArt(this, ART, "henShadow", 360, 478);
+        GameCore.drawArt(this, ART, "hen", 360, 424);
+        var ss = GameCore.makeStartScreen(this, S("title"), function () { self.scene.start("Play"); });
+        __startBtn = ss.startButton;
+        addPicker(this, 16, 16);
+        var offLang = GameCore.onLanguageChange(function () { ss.titleText.setText(S("title")); });
+        this.events.once("shutdown", function () { offLang(); });
+        GameCore.reportHeight();
+      }
+    });
+
+    /* ---------------------------------------------------------- */
+    var Play = new Phaser.Class({
+      Extends: Phaser.Scene,
+      initialize: function Play() { Phaser.Scene.call(this, "Play"); },
+      preload: function () { GameCore.preloadArt(this, ART); },
+
+      create: function () {
+        var self = this;
+        __scene = "Play"; __q.length = 0;
+
+        this.session = {
+          pools: { 1: Phaser.Utils.Array.Shuffle(CONTENT[1].slice()),
+                   2: Phaser.Utils.Array.Shuffle(CONTENT[2].slice()),
+                   3: Phaser.Utils.Array.Shuffle(CONTENT[3].slice()) },
+          used: {}, usedN: {}, level: 1, streak: 0, history: [],
+          index: 0, solved: [], praiseIdx: 0, lastCorrectSlot: -1,
+          requeue: [], itemToken: 0
+        };
+        this.cur = null;
+        this.locked = true;
+
+        /* --- scenery, drawn once and never touched again --- */
+        GameCore.drawArt(this, ART, "groundBand", 360, 250);
+
+        /* The hen doubles as a free replay of the count: one tap and
+           she counts the eggs again. Placed BEHIND her art in the page
+           colour so it is invisible, and 96 tall so it clears the
+           ground band. The pedagogue asked for this on the nest; the
+           hen is better - she is the one who asked the question, and a
+           nest-sized control cannot show a keyboard focus ring. */
+        this.replay = GameCore.makeTile(this, 128, 184, 104, 96, {
+          fill: THEME.colour.bg, stroke: THEME.colour.bg, radius: 20,
+          onTap: function () { self.replayCount(); }
+        });
+
+        GameCore.drawArt(this, ART, "henShadow", 128, 246);
+        this.hen = GameCore.drawArt(this, ART, "hen", 128, 190);
+        this.nest = GameCore.drawArt(this, ART, "nest", NEST_X, NEST_Y);
+        /* The near rim is a SECOND entry in the same frame, drawn OVER the eggs
+           (depth 2 against their depth 1) so their bases tuck into the cup.
+           Without it the eggs read as stuck to the outside of the bowl. */
+        this.nestRim = GameCore.drawArt(this, ART, "nestRim", NEST_X, NEST_Y).setDepth(2);
+
+        /* Bubble at y=100 (box 68..132), not 96: the language picker ends at
+           y=60 and the old 72-tall bubble started there, so the two boxes
+           touched. 64 tall still clears the 56px counting numeral. */
+        GameCore.drawArt(this, ART, "bubbleTail", 109, 134);
+        GameCore.drawArt(this, ART, "bubble", 128, 100);
+        this.bubbleQ = GameCore.drawArt(this, ART, "question", 128, 100);
+        this.bubbleCount = GameCore.drawArt(this, ART, "totalNumeral", 128, 100).setVisible(false);
+        this.bubbleAns = GameCore.drawArt(this, ART, "answerNumeral", 128, 100).setVisible(false);
+
+        this.caption = this.add.text(360, 296, S("howMany"), {
+          fontFamily: THEME.font.body, fontSize: "28px",
+          color: THEME.colour.inkSoft.hex, align: "center",
+          wordWrap: { width: 340 }
+        }).setOrigin(0.5);
+
+        /* --- progress rail --- */
+        this.dots = []; this.dotArt = [];
+        for (var i = 0; i < ITEMS; i++) {
+          this.dots.push(GameCore.drawArt(this, ART, "dotEmpty", 283 + i * 22, 28));
+          this.dotArt.push(null);
+        }
+        this.nowDot = GameCore.drawArt(this, ART, "dotNow", 283, 28);
+
+        /* --- the three numeral tiles: created ONCE, re-labelled per
+           item. game-core keeps ONE global button list with a single
+           focus index; destroying tiles between items would leave the
+           focus ring pointing at a different object. --- */
+        this.tiles = []; this.floors = [];
+        for (i = 0; i < 3; i++) {
+          (function (slot) {
+            var t = GameCore.makeTile(self, TILE_X[slot], TILE_Y, TILE_W, TILE_W, {
+              label: "", fontSize: NUMERAL_PX,
+              onTap: function () { self.onTap(slot); }
+            });
+            self.tiles.push(t);
+            self.floors.push(GameCore.drawArt(self, ART, "tileFloor", TILE_X[slot], TILE_Y + 40));
+          })(i);
+        }
+
+        this.eggs = []; this.countDots = []; this.ring = null; this.ringTween = null;
+        this.cueText = [null, null]; this.cueBar = null; this.cueRing = null;
+
+        addPicker(this, 16, 16);
+        this.offLang = GameCore.onLanguageChange(function () { self.caption.setText(S("howMany")); });
+
+        __play = { tiles: this.tiles, replay: this.replay, values: [0, 0, 0],
+                   correctIndex: 0, item: { count: 0 }, attempt: 1, praisedLast: false };
+
+        this.events.once("shutdown", function () {
+          __q.length = 0; __play = null;
+          if (self.offLang) self.offLang();
+          if (self.ringTween) { self.ringTween.stop(); self.ringTween = null; }
+          self.cur = null;
+        });
+
+        this.buildItem(true);
+        GameCore.reportHeight();
+      },
+
+      /* ---------- item construction ---------- */
+      buildItem: function (isFirst) {
+        var self = this, s = this.session, i;
+        while (__q.length && __q[0] === "correct") __q.shift();   /* re-align on the boundary */
+        s.itemToken++;
+        var tok = s.itemToken;
+
+        var item = this.pickItem();
+        var level = this.levelFor(item);
+        var spacings = L1_SPACINGS[item.count] || [56];
+        var spacing = spacings[Math.floor(Math.random() * spacings.length)];
+
+        var values = Phaser.Utils.Array.Shuffle([item.count, item.d[0], item.d[1]]);
+        var guard = 0;
+        while (values.indexOf(item.count) === s.lastCorrectSlot && guard++ < 12) {
+          values = Phaser.Utils.Array.Shuffle(values);
+        }
+        var correctIndex = values.indexOf(item.count);
+
+        this.cur = { item: item, level: level, values: values, correctIndex: correctIndex,
+                     attempt: 1, helped: false, hadWrong: false, token: tok, replayed: false };
+        __play.values = values; __play.correctIndex = correctIndex;
+        __play.item = item; __play.attempt = 1;
+
+        this.setLocked(true);
+        this.bubbleShow("q");
+        this.clearEggs();
+        this.setHen("hen");
+
+        for (i = 0; i < 3; i++) {
+          this.tiles[i].setLabel(String(values[i]));
+          this.tiles[i].setSelected(false);
+          /* The tiles are REUSED across items, and makeTile's pointerup calls
+             setFocus - so the blue keyboard ring left by the previous item's
+             tap would sit on a tile this item's child never touched. */
+          this.tiles[i].setFocused(false);
+          this.tiles[i].container.setAlpha(1);
+          this.tiles[i].container.setPosition(TILE_X[i], TILE_Y);
+          this.floors[i].setVisible(true);
+        }
+
+        /* Each egg lives in a CONTAINER and the container is what animates.
+           TRAP, and it will bite every one of the 200 games: preloadArt
+           rasterises an svg entry at 2x its declared size and drawArt
+           compensates with an object scale of 0.5, so ANIM.appear's
+           "scale: 1" - an ABSOLUTE scale - throws that compensation away
+           and renders the art at DOUBLE size. Measured here: eggs came out
+           96px wide instead of 48, a 21px overlap on a 48px pitch, while
+           every gate passed. A container's natural scale really is 1, so
+           animating the wrapper is correct by construction. */
+        var pos = eggPositions(item.count, level, spacing);
+        for (i = 0; i < pos.length; i++) {
+          var e = this.add.container(pos[i][0], pos[i][1]);
+          e.add(GameCore.drawArt(this, ART, "egg", 0, 0));
+          e.setAlpha(0).setScale(0.6).setDepth(1);
+          this.eggs.push(e);
+          (function (obj, delay) {
+            self.time.delayedCall(delay, function () {
+              if (tok !== self.session.itemToken) return;
+              GameCore.playAnim(self, obj, ANIM.appear);
+            });
+          })(e, i * 45);
+        }
+
+        this.nowDot.setPosition(283 + s.index * 22, 28).setVisible(true);
+
+        var eggsIn = 200 + (pos.length - 1) * 45;
+        if (isFirst) {
+          /* Item 1 demonstrates itself once, then fades: this is how a
+             child who cannot read learns the task, and it puts the
+             enacted count inside the loop for the child who never errs
+             (otherwise the game's best teaching only ever fires on
+             failure). Any tap fast-forwards it. */
+          for (i = 0; i < 3; i++) { this.tiles[i].container.setAlpha(0).setScale(0.6); }
+          this.demoing = true;
+          this.time.delayedCall(eggsIn + 200, function () {
+            if (tok !== self.session.itemToken) return;
+            self.runCount(350, function () { self.introTiles(tok); });
+          });
+        } else {
+          this.time.delayedCall(eggsIn, function () {
+            if (tok !== self.session.itemToken) return;
+            self.setLocked(false);
+          });
+        }
+      },
+
+      introTiles: function (tok) {
+        var self = this, i;
+        if (tok !== this.session.itemToken) return;
+        for (i = 0; i < 3; i++) {
+          (function (t, delay) {
+            self.time.delayedCall(delay, function () {
+              if (tok !== self.session.itemToken) return;
+              GameCore.playAnim(self, t.container, ANIM.tileIntro);
+            });
+          })(self.tiles[i], i * 150);
+        }
+        this.time.delayedCall(2 * 150 + 180, function () {
+          if (tok !== self.session.itemToken) return;
+          self.demoing = false;
+          self.setLocked(false);
+        });
+      },
+
+      skipDemo: function () {
+        var i;
+        if (!this.demoing) return;
+        this.demoing = false;
+        this.time.removeAllEvents();
+        this.clearCount();
+        this.bubbleShow("q");
+        for (i = 0; i < 3; i++) this.tiles[i].container.setAlpha(1).setScale(1);
+        this.setLocked(false);
+      },
+
+      /* ---------- item selection and adaptation ---------- */
+      levelFor: function (item) {
+        return item.id.charAt(1) === "1" ? 1 : (item.id.charAt(1) === "2" ? 2 : 3);
+      },
+
+      pickItem: function () {
+        var s = this.session, i, q, want = s.level, lv, pool, it;
+        /* A missed quantity comes back three items later with fresh
+           distractors and a fresh layout - re-presenting the identical
+           picture would test memory, not the mapping. */
+        for (i = 0; i < s.requeue.length; i++) {
+          q = s.requeue[i];
+          if (q.due <= s.index) {
+            pool = CONTENT[want];
+            for (var j = 0; j < pool.length; j++) {
+              if (pool[j].count === q.n && !s.used[pool[j].id]) {
+                s.requeue.splice(i, 1);
+                s.used[pool[j].id] = true;
+                return pool[j];
+              }
+            }
+            if (s.index > q.due + 2) { s.requeue.splice(i, 1); i--; }
+          }
+        }
+        var order = [want, Math.min(3, want + 1), Math.max(1, want - 1), 1, 2, 3];
+        for (i = 0; i < order.length; i++) {
+          lv = order[i]; pool = s.pools[lv];
+          for (var k = 0; k < pool.length; k++) {
+            it = pool[k];
+            if (!s.used[it.id] && !s.usedN[it.count]) {
+              s.used[it.id] = true; s.usedN[it.count] = true; return it;
+            }
+          }
+        }
+        for (i = 0; i < order.length; i++) {
+          pool = s.pools[order[i]];
+          for (var m = 0; m < pool.length; m++) if (!s.used[pool[m].id]) { s.used[pool[m].id] = true; return pool[m]; }
+        }
+        return CONTENT[1][0];
+      },
+
+      adapt: function () {
+        var s = this.session, c = this.cur;
+        var firstTry = (c.attempt === 1 && !c.hadWrong && !c.helped);
+        s.history.push(firstTry);
+        if (!firstTry && s.requeue.length < 2) {
+          s.requeue.push({ n: c.item.count, due: s.index + 3 });
+        }
+        var last3 = s.history.slice(-3);
+        var errors = 0;
+        for (var i = 0; i < last3.length; i++) if (!last3[i]) errors++;
+        /* Down on TWO errors in the last three, not on any single wrong:
+           demoting for one mirror slip - the exact error this game
+           teaches - yo-yos the session below the child's level. */
+        var down = (errors >= 2) || c.helped;
+        if (down) { s.level = Math.max(1, s.level - 1); s.streak = 0; }
+        else if (firstTry) {
+          s.streak++;
+          if (s.streak >= 2) { s.level = Math.min(3, s.level + 1); s.streak = 0; }
+        } else { s.streak = 0; }
+      },
+
+      /* ---------- locking ---------- */
+      /* The ONE place tappability changes, so "tiles enabled" and the
+         phase can never disagree. It also OWNS the show-me rule: from
+         attempt 3 only the correct tile is live, so there is no fourth
+         attempt and no way for an item to stall. A plain setEnabled(true)
+         loop here would silently re-arm the two wrong tiles and undo it. */
+      setLocked: function (v) {
+        this.locked = !!v;
+        var showing = !!(this.cur && this.cur.attempt >= 3);
+        for (var i = 0; i < this.tiles.length; i++) {
+          this.tiles[i].setEnabled(!v && (!showing || i === this.cur.correctIndex));
+        }
+        if (this.replay) this.replay.setEnabled(!v);
+        if (__play) __play.attempt = this.cur ? this.cur.attempt : 1;
+        this.nowDot.setVisible(!v);
+      },
+
+      bubbleShow: function (which, text) {
+        this.bubbleQ.setVisible(which === "q");
+        this.bubbleCount.setVisible(which === "count");
+        this.bubbleAns.setVisible(which === "ans");
+        if (which === "count") this.bubbleCount.setText(String(text)).setScale(1);
+        if (which === "ans") this.bubbleAns.setText(String(text));
+      },
+
+      setHen: function (key) {
+        var x = this.hen.x, y = this.hen.y, a = this.hen.angle;
+        this.hen.destroy();
+        this.hen = GameCore.drawArt(this, ART, key, x, y);
+        this.hen.setAngle(a);
+      },
+
+      /* ---------- the enacted count ---------- */
+      clearEggs: function () {
+        for (var i = 0; i < this.eggs.length; i++) this.eggs[i].destroy();
+        this.eggs = [];
+        this.clearCount();
+      },
+      clearCount: function () {
+        for (var i = 0; i < this.countDots.length; i++) this.countDots[i].destroy();
+        this.countDots = [];
+      },
+
+      /* One dot per egg, in order, each with a rising tone; the bubble
+         says the running count at 56px and the last one grows. The
+         numeral is in the bubble, not on the egg, because a numeral big
+         enough for the 5-6 band floor needs a badge wider than the egg
+         and overlapping its neighbour. */
+      runCount: function (cadence, onDone) {
+        var self = this, tok = this.session.itemToken;
+        var n = this.eggs.length, i;
+        this.clearCount();
+        this.bubbleShow("count", "");
+        this.bubbleCount.setVisible(false);
+        for (i = 0; i < n; i++) {
+          (function (idx) {
+            self.time.delayedCall(idx * cadence, function () {
+              if (tok !== self.session.itemToken) return;
+              var e = self.eggs[idx];
+              if (!e) return;
+              var d = GameCore.drawArt(self, ART, "countDot", e.x, e.y);
+              d.setAlpha(0).setScale(0.5).setDepth(3);
+              self.countDots.push(d);
+              GameCore.playAnim(self, d, ANIM.dotIn);
+              GameCore.tone("tap", idx);
+              self.bubbleCount.setVisible(true).setText(String(idx + 1));
+              if (idx === n - 1) GameCore.playAnim(self, self.bubbleCount, ANIM.lastBeat);
+            });
+          })(i);
+        }
+        var end = (n - 1) * cadence + 440 + 900;
+        this.time.delayedCall(end, function () {
+          if (tok !== self.session.itemToken) return;
+          if (typeof onDone === "function") onDone();
+        });
+      },
+
+      /* A far guess ends differently from an off-by-one: the dots
+         collapse and the count gathers into the one numeral that stands
+         for the whole set. Three named misconceptions, three responses. */
+      runGather: function (onDone) {
+        var self = this, tok = this.session.itemToken, i;
+        for (i = 0; i < this.countDots.length; i++) {
+          (function (d, delay) {
+            self.time.delayedCall(delay, function () {
+              if (tok !== self.session.itemToken) return;
+              GameCore.playAnim(self, d, ANIM.gather);
+            });
+          })(this.countDots[i], i * 40);
+        }
+        this.time.delayedCall(this.countDots.length * 40 + 260 + 700, function () {
+          if (tok !== self.session.itemToken) return;
+          if (typeof onDone === "function") onDone();
+        });
+      },
+
+      replayCount: function () {
+        var self = this;
+        if (this.locked || !this.cur || this.cur.replayed) return;
+        this.cur.replayed = true;
+        this.setLocked(true);
+        this.setHen("henThink");
+        this.runCount(350, function () {
+          self.clearCount();
+          self.bubbleShow("q");
+          self.setHen("hen");
+          self.setLocked(false);
+        });
+      },
+
+      /* ---------- the 6-vs-9 mirror cue ---------- */
+      runMirror: function (tappedSlot, onDone) {
+        var self = this, tok = this.session.itemToken;
+        var c = this.cur, ci = c.correctIndex, third = -1, i;
+        for (i = 0; i < 3; i++) if (i !== ci && i !== tappedSlot) third = i;
+
+        /* Drop the keyboard focus ring for the duration of the cue: it is the
+           loudest mark on the stage and it sits on the tile the child just got
+           WRONG, at the one moment the two numerals must be compared. The
+           keyboard index in game-core is untouched, so Tab still works. */
+        for (i = 0; i < 3; i++) this.tiles[i].setFocused(false);
+        var pair = [tappedSlot, ci].sort(function (a, b) { return a - b; });
+        var homeX = [TILE_X[pair[0]], TILE_X[pair[1]]];
+
+        GameCore.playAnim(this, this.tiles[third].container, ANIM.dim);
+        this.floors[third].setVisible(false);
+        for (i = 0; i < 2; i++) {
+          this.tiles[pair[i]].container.setAlpha(1);
+          this.floors[pair[i]].setVisible(false);
+        }
+
+        /* Both numerals become game-made Text with origin (0.5, 1) so a
+           squash compresses ONTO the bar rather than toward the glyph's
+           middle - the default centre origin would read as the numeral
+           shrinking, and on a wrong answer that reads as the answer
+           being taken away. */
+        var barTop = PARK_Y + 40;
+        var barTopEdge = barTop - 3;                 /* sitBar is 6 tall, centred */
+        var descent = NUMERAL_PX * 0.14;             /* Baloo 2 box-bottom to glyph-bottom */
+        var restY = barTopEdge + descent - 8;        /* dropLift -4 then drop +12 nets +8 */
+        for (i = 0; i < 2; i++) {
+          var slot = pair[i];
+          this.tiles[slot].setLabel("");
+          var t = GameCore.drawArt(this, ART, "cueNumeral", PARK_X[i], restY);
+          t.setOrigin(0.5, 1).setText(String(c.values[slot]));
+          this.cueText[i] = t;
+          this.tweens.add({ targets: this.tiles[slot].container, x: PARK_X[i], y: PARK_Y, duration: 260, ease: "Sine.InOut" });
+        }
+        var correctIsFirst = (pair[0] === ci);
+        var cIdx = correctIsFirst ? 0 : 1;
+
+        var greyA = GameCore.drawArt(this, ART, "tileFloor", PARK_X[0], barTop);
+        var greyB = GameCore.drawArt(this, ART, "tileFloor", PARK_X[1], barTop);
+        greyA.setScale(0, 1); greyB.setScale(0, 1);
+        this.time.delayedCall(260, function () {
+          if (tok !== self.session.itemToken) return;
+          GameCore.playAnim(self, greyA, ANIM.barDraw);
+          GameCore.playAnim(self, greyB, ANIM.barDraw);
+        });
+
+        this.time.delayedCall(440, function () {
+          if (tok !== self.session.itemToken) return;
+          self.cueBar = GameCore.drawArt(self, ART, "sitBar", PARK_X[cIdx], barTop);
+          self.cueBar.setScale(0, 1);
+          GameCore.playAnim(self, self.cueBar, ANIM.barDraw);
+        });
+
+        /* the drop: anticipation, an ACCELERATING fall, and a squash on
+           contact. This is the sentence "sits on" delivered as motion. */
+        this.time.delayedCall(620, function () {
+          if (tok !== self.session.itemToken) return;
+          GameCore.playAnim(self, self.cueText[cIdx], ANIM.dropLift);
+        });
+        this.time.delayedCall(690, function () {
+          if (tok !== self.session.itemToken) return;
+          GameCore.playAnim(self, self.cueText[cIdx], ANIM.drop);
+        });
+        this.time.delayedCall(840, function () {
+          if (tok !== self.session.itemToken) return;
+          GameCore.playAnim(self, self.cueText[cIdx], ANIM.squash);
+        });
+
+        /* then, and only then, the ring names the part that landed. The
+           bowl of a 6 is at the BOTTOM and of a 9 at the TOP: a single
+           fixed offset would circle the empty stem on one of them and
+           teach the misconception instead of correcting it. */
+        this.time.delayedCall(1020, function () {
+          if (tok !== self.session.itemToken) return;
+          /* The bowl of a 6 sits ON the baseline; the bowl of a 9 rides at the
+             top. Derived from the settled glyph: cap height is about 0.72em, so
+             the lower bowl centres a quarter up from the baseline and the upper
+             bowl three quarters up. A single fixed offset would ring the empty
+             stem on one of them and teach the misconception. */
+          /* BOTH numerals get their bowl ringed, low on a 6 and high on a 9, so
+             the child compares the two positions. Ringing only the correct one
+             says "this one" - a verdict that carries no orientation information,
+             which is the defect the pedagogue found in the original spec. The
+             ANSWER is carried by the coral bar and the drop, which only the
+             correct numeral gets. */
+          var cap = NUMERAL_PX * 0.72;
+          self.cueRing = [];
+          for (var q = 0; q < 2; q++) {
+            var vq = c.values[pair[q]];
+            var dyq = (vq === 6) ? -(cap * 0.29) : -(cap * 0.73);
+            var yq = (q === cIdx) ? barTopEdge : barTopEdge - 8;   /* only the correct one has dropped */
+            var rg = GameCore.drawArt(self, ART, "bowlRing", PARK_X[q], yq + dyq);
+            rg.setAlpha(0).setScale(0.6);
+            GameCore.playAnim(self, rg, ANIM.appear);
+            self.cueRing.push(rg);
+          }
+        });
+
+        this.time.delayedCall(2420, function () {
+          if (tok !== self.session.itemToken) return;
+          if (self.cueRing) for (var z = 0; z < self.cueRing.length; z++) GameCore.playAnim(self, self.cueRing[z], ANIM.fadeOut);
+          if (self.cueBar) GameCore.playAnim(self, self.cueBar, ANIM.barUndraw);
+          GameCore.playAnim(self, self.cueText[cIdx], ANIM.dropReturn);
+          GameCore.playAnim(self, greyA, ANIM.barUndraw);
+          GameCore.playAnim(self, greyB, ANIM.barUndraw);
+        });
+
+        this.time.delayedCall(2720, function () {
+          if (tok !== self.session.itemToken) return;
+          for (var k = 0; k < 2; k++) {
+            self.tweens.add({ targets: self.tiles[pair[k]].container, x: homeX[k], y: TILE_Y, duration: 260, ease: "Sine.InOut" });
+          }
+          GameCore.playAnim(self, self.tiles[third].container, ANIM.undim);
+        });
+
+        this.time.delayedCall(2980, function () {
+          if (tok !== self.session.itemToken) return;
+          for (var k = 0; k < 2; k++) {
+            self.tiles[pair[k]].setLabel(String(c.values[pair[k]]));
+            self.floors[pair[k]].setVisible(true);
+            if (self.cueText[k]) { self.cueText[k].destroy(); self.cueText[k] = null; }
+          }
+          self.floors[third].setVisible(true);
+          if (self.cueBar) { self.cueBar.destroy(); self.cueBar = null; }
+          if (self.cueRing) { for (var z2 = 0; z2 < self.cueRing.length; z2++) self.cueRing[z2].destroy(); self.cueRing = null; }
+          greyA.destroy(); greyB.destroy();
+          if (typeof onDone === "function") onDone();
+        });
+      },
+
+      /* ---------- answering ---------- */
+      onTap: function (slot) {
+        var self = this, c = this.cur;
+        if (this.demoing) { this.skipDemo(); return; }
+        if (!c || this.locked) return;
+        var value = c.values[slot];
+        if (value === c.item.count) return this.onCorrect(slot);
+        return this.onWrong(slot, value);
+      },
+
+      onCorrect: function (slot) {
+        var self = this, c = this.cur, s = this.session, tok = c.token;
+        var firstTry = (c.attempt === 1 && !c.hadWrong && !c.helped);
+        this.setLocked(true);
+        this.tiles[slot].setSelected(true);
+        GameCore.playAnim(this, this.tiles[slot].container, ANIM.pop);
+        GameCore.tone("correct");
+        if (this.ringTween) { this.ringTween.stop(); this.ringTween = null; }
+        if (this.ring) { this.ring.destroy(); this.ring = null; }
+
+        /* Praise and the hen fire ONLY on a first try. With three tiles
+           two wrong taps leave the answer by elimination, so the
+           celebration is the only thing that can tell knowing from
+           guessing. Nothing negative is ever added. */
+        __play.praisedLast = firstTry;
+        if (firstTry) {
+          GameCore.showPraise(this, PRAISE[s.praiseIdx % PRAISE.length]);
+          s.praiseIdx++;
+        }
+        this.bubbleShow("ans", c.item.count);
+
+        this.time.delayedCall(280, function () {
+          if (tok !== self.session.itemToken) return;
+          if (firstTry) { self.setHen("henHappy"); GameCore.playAnim(self, self.hen, ANIM.cluck); }
+        });
+
+        this.time.delayedCall(firstTry ? 700 : 400, function () {
+          if (tok !== self.session.itemToken) return;
+          self.dots[s.index].destroy();
+          self.dots[s.index] = GameCore.drawArt(self, ART, "dotFull", 283 + s.index * 22, 28);
+          GameCore.playAnim(self, self.dots[s.index], ANIM.dotFill);
+        });
+
+        this.time.delayedCall(firstTry ? 1260 : 860, function () {
+          if (tok !== self.session.itemToken) return;
+          s.solved.push(c.item.count);
+          self.adapt();
+          s.index++;
+          self.setHen("hen");
+          if (s.index >= ITEMS) self.scene.start("Finish", { solved: s.solved });
+          else self.buildItem(false);
+        });
+      },
+
+      onWrong: function (slot, value) {
+        var self = this, c = this.cur, tok = c.token;
+        var n = c.item.count;
+        c.hadWrong = true;
+        this.setLocked(true);
+        this.tiles[slot].setSelected(false);
+        GameCore.playAnim(this, this.tiles[slot].container, ANIM.nudge);
+        GameCore.tone("nudge");
+        this.setHen("henOops");
+        GameCore.playAnim(this, this.hen, ANIM.henOops, function () {
+          if (tok !== self.session.itemToken) return;
+          self.setHen("hen");
+        });
+
+        var isMirror = (n === 6 && value === 9) || (n === 9 && value === 6);
+        var isFar = Math.abs(value - n) >= 2 && !isMirror;
+        var cadence = (c.attempt >= 2) ? 250 : 350;
+
+        var afterCount = function () {
+          if (tok !== self.session.itemToken) return;
+          var finish = function () {
+            if (tok !== self.session.itemToken) return;
+            self.clearCount();
+            self.bubbleShow("q");
+            c.attempt++;
+            __play.attempt = c.attempt;
+            if (c.attempt >= 3) self.showMe();
+            self.setLocked(false);
+          };
+          if (isFar) self.runGather(finish); else self.time.delayedCall(300, finish);
+        };
+
+        if (isMirror) {
+          this.time.delayedCall(440, function () {
+            if (tok !== self.session.itemToken) return;
+            self.runMirror(slot, function () { self.runCount(cadence, afterCount); });
+          });
+        } else {
+          this.time.delayedCall(320, function () {
+            if (tok !== self.session.itemToken) return;
+            self.runCount(cadence, afterCount);
+          });
+        }
+      },
+
+      /* Attempt 3: the correct tile pulses and the OTHER TWO ARE
+         DISABLED, so there is no fourth attempt and no way for the item
+         to stall. Tapping the ringed tile completes it with help. */
+      showMe: function () {
+        var c = this.cur, i;
+        c.helped = true;
+        if (this.ring) this.ring.destroy();
+        this.ring = GameCore.drawArt(this, ART, "showRing", TILE_X[c.correctIndex], TILE_Y);
+        this.ring.setAlpha(0.2);
+        this.ringTween = GameCore.playAnim(this, this.ring, ANIM.showMe);
+        /* the disabling itself lives in setLocked, which runs after this */
+      },
+
+      /* The intent drainer. One dispatch per frame, and only when the
+         tile's OWN enabled flag is true - the exact predicate makeTile's
+         handler re-checks - so a shifted intent is never refused and
+         never consumed for nothing. */
+      update: function () {
+        if (!__play || !__q.length || this.locked) return;
+        /* PEEK, do not shift: an intent must only be consumed when it is
+           actually deliverable. Gating on tiles[0] would also deadlock at
+           attempt 3, where the show-me disables everything except the
+           correct tile - tiles[0] can be the dead one while the answer is
+           live. */
+        var head = __q[0], idx;
+        if (head && typeof head === "object" && typeof head.tap === "number") idx = head.tap;
+        else if (head === "correct") idx = this.cur ? this.cur.correctIndex : 0;
+        else idx = __wrongIndex();
+        var t = this.tiles[idx];
+        if (!t || !t.enabled) {
+          /* At attempt 3 a wrong tile is genuinely untappable, so a queued
+             "wrong" can never be delivered. Drop it - that is what happens
+             to a child's tap on a disabled tile - rather than stall. */
+          if (head === "wrong" && this.cur && this.cur.attempt >= 3) __q.shift();
+          return;
+        }
+        __q.shift();
+        t.container.emit("pointerdown");
+        t.container.emit("pointerup");
+      }
+    });
+
+    /* ---------------------------------------------------------- */
+    var Finish = new Phaser.Class({
+      Extends: Phaser.Scene,
+      initialize: function Finish() { Phaser.Scene.call(this, "Finish"); },
+      preload: function () { GameCore.preloadArt(this, ART); },
+      init: function (data) { this.solved = (data && data.solved) || []; },
+      create: function () {
+        var self = this, i;
+        __scene = "Finish"; __play = null; __q.length = 0;
+
+        GameCore.drawArt(this, ART, "groundBand", 360, 250);
+        this.add.text(360, 110, GameCore.t("all_done"), {
+          fontFamily: THEME.font.display, fontSize: "52px",
+          color: THEME.colour.structure.hex, align: "center",
+          wordWrap: { width: 640 }
+        }).setOrigin(0.5);
+
+        GameCore.drawArt(this, ART, "henShadow", 360, 244);
+        var hen = GameCore.drawArt(this, ART, "henHappy", 360, 188);
+        GameCore.playAnim(this, hen, ANIM.celebrate);
+
+        /* The learning summary, not a score: the numerals the child
+           named, in the order they named them. No stars, no time. */
+        var n = this.solved.length;
+        for (i = 0; i < n; i++) {
+          var x = 360 - (n - 1) * 72 / 2 + i * 72;
+          GameCore.drawArt(this, ART, "summaryCard", x, 360);
+          GameCore.drawArt(this, ART, "summaryNumeral", x, 360).setText(String(this.solved[i]));
+        }
+
+        GameCore.makeButton(this, 236, 508, "play_again", function () { self.scene.start("Play"); });
+        GameCore.makeButton(this, 484, 508, "menu", function () { self.scene.start("Boot"); });
+        addPicker(this, 16, 16);
+        GameCore.tone("finish");
+        GameCore.reportHeight();
+      }
+    });
+
+    new Phaser.Game({
+      type: Phaser.AUTO,
+      parent: "game",
+      width: 720,
+      height: 560,
+      backgroundColor: THEME.colour.bg.hex,
+      scale: { mode: Phaser.Scale.FIT, autoCenter: Phaser.Scale.CENTER_HORIZONTALLY },
+      scene: [Boot, Play, Finish]
+    });
+  </script>
+</body>
+</html>

@@ -30,6 +30,7 @@ Every game is exactly one file, `/games/<slug>/index.html`, loading the shared l
   <div id="game"></div>
   <script src="../_lib/theme.js"></script>
   <script src="../_lib/ui-strings.js"></script>
+  <script src="../_lib/art.js"></script>
   <script src="../_lib/phaser-3.90.0.min.js"></script>
   <script src="../_lib/game-core.js"></script>
   <script>

@@ -141,7 +141,7 @@ const UI_STRINGS = {
     language: "Lingua",  sound_on: "Audio acceso",  sound_off: "Audio spento",
     help: "Aiuto",  how_to_play: "Come si gioca",  loading: "Caricamento ...",
     correct: "Giusto!",  try_again: "Riprova",  almost: "Quasi!",
-    well_done: "Bravo!",  great_job: "Ottimo lavoro!",  excellent: "Eccellente!",
+    well_done: "Benissimo!",  great_job: "Ottimo lavoro!",  excellent: "Eccellente!",
     keep_going: "Continua così!",  nice_try: "Bel tentativo!",  you_did_it: "Ce l'hai fatta!",
     score: "Punti",  level: "Livello",  question: "Domanda",
     question_x_of_y: "Domanda {n} di {total}",

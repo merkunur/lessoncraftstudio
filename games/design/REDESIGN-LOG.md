@@ -108,3 +108,25 @@ reference for everything that follows. Both are rebuilt once their specs are red
 later game inherits the worksheet shape.
 
 ## Log
+
+## Known open gate holes (carried, not forgotten)
+
+- **ALIGNMENT and POINTER only ever inspect the Boot scene.** Both resolve the scene through
+  `window.__startBtn.scene` and run before `start()`, so the two checks that exist *because* "a
+  synthetic emit is not a tap" have never hit-tested a single **play-surface** control. This is the
+  same class as the TARGETS hole fixed in `ecd863d6` (PLAY-TARGETS), and it is the gate that would
+  have caught the operator's own defect #2 — *"I have to hover several times before buttons
+  respond"*. Fix: resolve the ACTIVE scene (`game.scene.getScenes(true)`) instead of Boot's, and run
+  the alignment pass a second time after the real click enters Play. Deferred deliberately: it is a
+  refactor of a working gate and no redesigned game is built yet.
+- **`window.__startBtn` is an undocumented harness contract.** It works only because a top-level
+  `var` in a game's `<script>` becomes a window property; it is not in BUILD-CONVENTIONS §16. Any
+  scene restructure breaks POINTER and ALIGNMENT with a message that reads like a game defect.
+  `window.__phaserGameForQA` is referenced by the harness and set by nothing.
+- **`check-pools.js` is shaped for one game.** It parses `{ id, n, d, lay }` rows and checks
+  distractor legality and rank balance — properties of a three-tile static choice. It correctly
+  **exits 2 rather than passing vacuously** when it parses nothing, which is the template every new
+  content gate must copy, but a mission-shaped sibling does not exist yet.
+- **Nothing in the suite reviews MOTION.** `art-sheet.js` proves the still frame, `qa-game` proves
+  the file responds to a pointer, the critic reads still screenshots, and I read still renders. A
+  game whose defects live in movement needs a fourth instrument.

@@ -28,7 +28,7 @@
   /* category display defs — distinguished by SHAPE + LABEL, never hue alone. */
   var CAT = {
     leaf: { label: 'Leaves', color: '#4E9A5E', shape: 'leaf' },
-    berry: { label: 'Berries', color: '#C0392B', shape: 'circle' },
+    berry: { label: 'Berries', color: '#A03055', shape: 'circle' },
     acorn: { label: 'Acorns', color: '#9B7340', shape: 'acorn' },
     pinecone: { label: 'Pinecones', color: '#6B4F2A', shape: 'triangle' },
     mushroom: { label: 'Mushrooms', color: '#D35400', shape: 'dome' },
@@ -243,7 +243,11 @@
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
 
   /* ---- graph geometry ---- */
-  var GW = 280, GH = 116, GH_LAB = 142, BY = 96, U = 7.4, BW = 30;
+  var GW = 280, GH = 116, GH_LAB = 170, BY = 96, BY_LAB = 124, BW = 30;
+  /* the axis tops out at the smallest of 6/8/10 that holds the round — never at the
+     round's own max, so the top gridline stays a round number a child can read */
+  function axisTopFor(m) { return m <= 6 ? 6 : (m <= 8 ? 8 : 10); }
+  function roundMax(map, cats) { var m = 0; (cats || Object.keys(map || {})).forEach(function (k) { var v = (map && map[k]) || 0; if (v > m) m = v; }); return m; }
 
   function shapeIcon(shape, color, s) {
     var h = 'width="' + s + '" height="' + s + '" viewBox="0 0 24 24" aria-hidden="true"';
@@ -277,25 +281,38 @@
     var slot = Math.min(64, (GW - 16) / n);
     var startX = (GW - n * slot) / 2 + slot / 2;
     var vbh = opts.labels ? GH_LAB : GH;
+    var BYv = opts.labels ? BY_LAB : BY;
+    var top = axisTopFor(Math.max(opts.scaleMax || 0, roundMax(countMap, cats)));
+    var U = (BYv - 10) / top;
+    /* the axis ends just past the last bar — it used to run to GW-6, trailing a wide
+       empty tail that reads as a category that is not there */
+    var axisR = startX + (n - 1) * slot + slot / 2;
     var s = '<svg class="gi-graph' + (opts.labels ? ' gi-graph-lab' : '') + '" viewBox="0 0 ' + GW + ' ' + vbh + '" role="img" aria-label="' + String(txt('srCaption')).replace(/"/g, '&quot;') + '">';
-    /* faint unit gridlines + axis numbers 5 and 10 */
-    [5, 10].forEach(function (g) {
-      var y = BY - g * U;
-      s += '<line x1="14" y1="' + y + '" x2="' + (GW - 6) + '" y2="' + y + '" stroke="#E4D8BE" stroke-width="1"/>';
+    /* two faint gridlines: the top of the scale and its halfway mark */
+    [top / 2, top].forEach(function (g) {
+      var y = BYv - g * U;
+      s += '<line x1="14" y1="' + y + '" x2="' + axisR + '" y2="' + y + '" stroke="#E4D8BE" stroke-width="1"/>';
       s += '<text x="10" y="' + (y + 3) + '" font-size="8" fill="#9a8a66" text-anchor="end">' + g + '</text>';
     });
-    s += '<line x1="14" y1="' + BY + '" x2="' + (GW - 6) + '" y2="' + BY + '" stroke="#C9B68C" stroke-width="2"/>';
+    s += '<line x1="14" y1="' + BYv + '" x2="' + axisR + '" y2="' + BYv + '" stroke="#C9B68C" stroke-width="2"/>';
     cats.forEach(function (k, i) {
       var d = cdef(k), c = countMap[k] || 0, cx = startX + i * slot, x = cx - BW / 2;
       var hl = opts.highlight && opts.highlight.indexOf(k) >= 0;
+      /* ⚠ THE BUILD ROUND OPENED AS A BLANK RECTANGLE. The hint says "tryck på varje
+         stapel för att bygga upp den" over a plot with nothing in it — no column, no
+         slot, no zero mark — so the child is told to tap something that is not drawn.
+         A faint dashed column now shows where each bar will grow. */
+      if (opts.tappable) {
+        s += '<rect x="' + x + '" y="' + (BYv - top * U) + '" width="' + BW + '" height="' + (top * U) + '" rx="3" fill="none" stroke="#D8C9A6" stroke-width="1" stroke-dasharray="3 3"/>';
+      }
       /* per-unit stacked cells */
       for (var u = 0; u < c; u++) {
-        var uy = BY - (u + 1) * U + 1;
+        var uy = BYv - (u + 1) * U + 1;
         s += '<rect x="' + x + '" y="' + uy + '" width="' + BW + '" height="' + (U - 1.4) + '" rx="1.5" fill="' + d.color + '"' + (hl ? ' stroke="#F2784B" stroke-width="2"' : '') + '/>';
       }
-      if (hl) s += '<rect x="' + (x - 3) + '" y="' + (BY - c * U - 3) + '" width="' + (BW + 6) + '" height="' + (c * U + 6) + '" rx="4" fill="none" stroke="#F2784B" stroke-width="2.5"/>';
+      if (hl) s += '<rect x="' + (x - 3) + '" y="' + (BYv - c * U - 3) + '" width="' + (BW + 6) + '" height="' + (c * U + 6) + '" rx="4" fill="none" stroke="#F2784B" stroke-width="2.5"/>';
       /* category shape marker under the axis */
-      s += '<g transform="translate(' + (cx - 9) + ',' + (BY + 3) + ')">' + shapeIcon(d.shape, d.color, 18) + '</g>';
+      s += '<g transform="translate(' + (cx - 9) + ',' + (BYv + 3) + ')">' + shapeIcon(d.shape, d.color, 18) + '</g>';
       /* the category NAME, so the interpret rounds spell what the question asks for */
       if (opts.labels) {
         var lab = String(clabel(k)), words = lab.split(" ").filter(Boolean), lines = [lab];
@@ -312,11 +329,11 @@
         lines.forEach(function (ln) { if (ln.length > longest) longest = ln.length; });
         var fsz = Math.max(6.6, Math.min(9.5, (slot - 4) * 1.92 / Math.max(1, longest)));
         lines.forEach(function (ln, li) {
-          s += '<text x="' + cx + '" y="' + (BY + 27 + li * (fsz + 1.2)) + '" font-size="' + fsz.toFixed(2) + '" fill="#14322D" text-anchor="middle">' + esc(ln) + '</text>';
+          s += '<text x="' + cx + '" y="' + (BYv + 27 + li * (fsz + 1.2)) + '" font-size="' + fsz.toFixed(2) + '" fill="#14322D" text-anchor="middle">' + esc(ln) + '</text>';
         });
       }
       /* tappable invisible column (build) */
-      if (opts.tappable) s += '<rect class="gi-col" data-cat="' + k + '" x="' + (cx - slot / 2 + 2) + '" y="6" width="' + (slot - 4) + '" height="' + (BY - 6) + '" fill="transparent" style="cursor:pointer"/>';
+      if (opts.tappable) s += '<rect class="gi-col" data-cat="' + k + '" x="' + (cx - slot / 2 + 2) + '" y="6" width="' + (slot - 4) + '" height="' + (BYv - 6) + '" fill="transparent" style="cursor:pointer"/>';
     });
     s += '</svg>';
     return s;
@@ -370,9 +387,13 @@
         '.gi-line.miss{color:#C2410C;}',
         '.gi-basket{flex:0 0 auto;}',
         '.gi-graph{width:100%;height:auto;max-height:112px;display:block;}',
-        '.gi-graph-lab{max-height:172px;}',
-        '@media (min-width:700px){.gi-graph{max-height:168px;}.gi-graph-lab{max-height:212px;}}',
-        '@media (min-width:960px){.gi-graph{max-height:196px;}.gi-graph-lab{max-height:242px;}}',
+        '.gi-graph-lab{max-height:200px;}',
+        /* 280 is the one width with no headroom to spend: the taller plot put round 11's
+           controls 19px past the fold. Below 340 the chart keeps its old height — a
+           smaller chart beats a cut-off one, and every width from 360 up keeps the gain. */
+        '@media (max-width:340px){.gi-graph-lab{max-height:108px;}}',
+        '@media (min-width:700px){.gi-graph{max-height:168px;}.gi-graph-lab{max-height:262px;}}',
+        '@media (min-width:960px){.gi-graph{max-height:196px;}.gi-graph-lab{max-height:284px;}}',
         '.gi-tally{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 8px;width:100%;}',
         '.gi-trow{background:#fff;border:1px solid #E4D8BE;border-radius:9px;padding:1px 6px;}',
         /* Below ~340 the strip already wraps to two rows and cannot be misread as a
@@ -493,7 +514,15 @@
     _defaultLine: function () {
       var r = this._round;
       if (r.cog === 'fix') return txt('fixLine');
-      if (r.cog === 'match') return txt('matchLine');
+      /* ⚠ In EVERY locale `matchLine` is word-for-word the `qMatch` headline rendered
+         directly above it, so the match round printed the same sentence twice one line
+         apart and spent 40-90px doing it — space the three candidate charts need. The
+         hint is suppressed when it only restates the question; a locale that later
+         writes a genuine strategy hint gets it shown. */
+      if (r.cog === 'match') {
+        var ml = txt('matchLine'), q = txt('qMatch');
+        return (String(ml).trim() === String(q).trim()) ? '' : ml;
+      }
       if (r.kind === 'build') return txt('buildLine');
       return txt('readLine');
     },
@@ -502,7 +531,8 @@
     _renderBuild: function (root) {
       var self = this, round = this._round, cats = Core.catKeys(round);
       var gwrap = el('div'); gwrap.style.width = '100%';
-      gwrap.innerHTML = graphSVG(cats, this._built, { cats: cats, tappable: true, labels: true });
+      /* scaleMax = the TARGET, so the axis does not jump as the child builds */
+      gwrap.innerHTML = graphSVG(cats, this._built, { cats: cats, tappable: true, labels: true, scaleMax: roundMax(this._round.data, cats) });
       root.appendChild(gwrap);
       gwrap.querySelectorAll('.gi-col').forEach(function (c) {
         c.addEventListener('click', function () { self._place(c.getAttribute('data-cat')); });
@@ -549,7 +579,7 @@
     _renderInterpret: function (root) {
       var self = this, round = this._round, cats = Core.catKeys(round), q = round.question;
       var gwrap = el('div'); gwrap.style.width = '100%';
-      gwrap.innerHTML = graphSVG(cats, round.data, { cats: cats, highlight: this._highlight || [], labels: true });
+      gwrap.innerHTML = graphSVG(cats, round.data, { cats: cats, highlight: this._highlight || [], labels: true, scaleMax: roundMax(round.data, cats) });
       root.appendChild(gwrap);
       var rail = el('div', 'gi-rail');
       if (q.type === 'verify') {
@@ -635,10 +665,14 @@
         this._thumbOrder = round.options.map(function (_, i) { return i; });
         for (var k = this._thumbOrder.length - 1; k > 0; k--) { var j = Math.floor(Math.random() * (k + 1)); var t = this._thumbOrder[k]; this._thumbOrder[k] = this._thumbOrder[j]; this._thumbOrder[j] = t; }
       }
+      /* ⚠ ONE scale across all three candidates — independently-scaled charts cannot
+         be compared, which is the entire task of this round. */
+      var optMax = 0;
+      round.options.forEach(function (o) { var m = roundMax(o, cats); if (m > optMax) optMax = m; });
       var thumbs = el('div', 'gi-thumbs');
       this._thumbOrder.forEach(function (oi) {
         var b = el('button', 'gi-thumb gi-card'); b.type = 'button';
-        b.innerHTML = graphSVG(cats, round.options[oi], { cats: cats });
+        b.innerHTML = graphSVG(cats, round.options[oi], { cats: cats, scaleMax: optMax });
         b.addEventListener('click', function () { self._pickThumb(oi); });
         thumbs.appendChild(b);
       });

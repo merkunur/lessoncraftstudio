@@ -826,15 +826,15 @@
     },
     "choice-board.shape-id.k-g-a-2": {
       "about": [
-        "En uppmaning säger vilken form barnet ska hitta, och barnet letar med ögonen och trycker på rätt form bland fyra bilder. Det kan vara en cirkel, kvadrat, triangel, rektangel, hexagon, oval, stjärna, romb, hjärta eller femhörning. Allt sker direkt i webbläsaren på surfplatta, telefon eller skoldator — gratis, utan installation och utan konto.",
+        "En uppmaning säger vilken form barnet ska hitta, och barnet letar med ögonen och trycker på rätt form bland fyra bilder. Det kan vara en cirkel, kvadrat, triangel, rektangel, sexhörning, oval, stjärna, romb, hjärta eller femhörning. Allt sker direkt i webbläsaren på surfplatta, telefon eller skoldator — gratis, utan installation och utan konto.",
         "Den stora idén är att en form är samma form oavsett hur den är vänd eller hur stor den är ritad. En triangel som balanserar på spetsen är fortfarande en triangel, och en liten kvadrat är fortfarande en kvadrat. Barnet måste alltså känna igen själva formen, inte bara en enda välbekant bild av den. De tre fel svaren är andra riktiga former ur samlingen, så barnet kan inte vinna genom att gissa — det måste veta vilket namn som hör till vilken figur.",
         "Aktiviteten följer Lgr22 inom geometri: att namnge former oavsett hur de är vridna eller hur stora de är. Ingen timer och inga poäng — bara lugn och lekfull övning i barnets egen takt."
       ],
       "practices": [
         "Para ihop ett formnamn med rätt bild bland fyra val",
         "Känna igen en form även när den är vriden eller ritad större eller mindre",
-        "Skilja på närliggande former — en kvadrat från en rektangel, en oval från en cirkel, en hexagon från en femhörning",
-        "Bygga upp ord för cirkel, kvadrat, triangel, rektangel, hexagon, oval, stjärna, romb, hjärta och femhörning"
+        "Skilja på närliggande former — en kvadrat från en rektangel, en oval från en cirkel, en sexhörning från en femhörning",
+        "Bygga upp ord för cirkel, kvadrat, triangel, rektangel, sexhörning, oval, stjärna, romb, hjärta och femhörning"
       ],
       "howToPlay": [
         "Barnet läser eller lyssnar på uppmaningen som säger vilken form som ska hittas.",
@@ -842,14 +842,14 @@
         "Blev det inte rätt? Försök igen så många gånger som behövs — det finns ingen timer och inga poäng."
       ],
       "learningGoals": [
-        "Barnet kan namnge cirklar, kvadrater, trianglar, rektanglar, hexagoner och fler former på direkten",
+        "Barnet kan namnge cirklar, kvadrater, trianglar, rektanglar, sexhörningar och fler former på direkten",
         "Barnet förstår att en form behåller sitt namn oavsett hur den är vänd eller hur stor den är",
         "Barnet bygger de formord som senare geometri, sortering och teckning vilar på"
       ]
     },
     "choice-board.flat-solid.k-g-a-3": {
       "about": [
-        "En form i taget visas på skärmen och barnet trycker på om den är platt eller solid. Platta former (2D) är till exempel cirkel, triangel, kvadrat och hexagon, medan solida former (3D) är till exempel kub, klot, cylinder och kon. Det är en gratis, interaktiv geometriövning för förskoleklass som körs direkt i webbläsaren på surfplatta, telefon och dator — utan installation och utan konto.",
+        "En form i taget visas på skärmen och barnet trycker på om den är platt eller solid. Platta former (2D) är till exempel cirkel, triangel, kvadrat och sexhörning, medan solida former (3D) är till exempel kub, klot, cylinder och kon. Det är en gratis, interaktiv geometriövning för förskoleklass som körs direkt i webbläsaren på surfplatta, telefon och dator — utan installation och utan konto.",
         "Den stora idén är skillnaden mellan en form du kan rita på ett papper och en form du kan ta upp och hålla i handen. Här namnger barnet inte formerna, utan sorterar dem i tvådimensionella och tredimensionella. När välkända platta former blandas med sina solida släktingar — en cirkel bredvid ett klot, en kvadrat bredvid en kub — får barnet syn på om formen har djup, vilket är första steget mot att förstå rymdgeometriska kroppar.",
         "Aktiviteten följer Lgr22 inom geometri: att urskilja om en form är tvådimensionell (platt) eller tredimensionell (solid). Ingen timer och inga poäng — bara lugn och lekfull övning."
       ],
@@ -918,7 +918,7 @@
     },
     "fractions.partition-equal-shares.1-g-a-3": {
       "about": [
-        "En form visas — en cirkel, kvadrat, rektangel, triangel, ellips, romb, hexagon eller femhörning — och barnet trycker på delningslinjerna för att dela den i 2 lika stora delar (halvor) eller 4 lika stora delar (fjärdedelar). Det är en gratis, interaktiv geometriövning för årskurs 1 som körs i webbläsaren på alla enheter, utan konto.",
+        "En form visas — en cirkel, kvadrat, rektangel, triangel, ellips, romb, sexhörning eller femhörning — och barnet trycker på delningslinjerna för att dela den i 2 lika stora delar (halvor) eller 4 lika stora delar (fjärdedelar). Det är en gratis, interaktiv geometriövning för årskurs 1 som körs i webbläsaren på alla enheter, utan konto.",
         "Den stora idén är att lika stora delar måste vara rättvisa — bitarna ska vara lika stora. När barnet delar många olika former, inte bara cirklar, blir det tydligt att halvor och fjärdedelar handlar om lika stor yta och inte om en enda välbekant bild: en kvadrat delad i ett rutnät av fyra och en cirkel delad i fyra blir båda fjärdedelar. Eftersom barnet delar formen själv gör det delarna lika stora med egna händer i stället för att känna igen en färdig bild.",
         "Aktiviteten följer Lgr22 inom geometri: att dela cirklar och rektanglar i två och fyra lika stora delar och kalla dem halvor och fjärdedelar. Ingen timer och inga poäng — bara lugn och lekfull övning."
       ],
@@ -1549,6 +1549,30 @@
         "Barnet kan räkna framåt i 5-hopp, 10-hopp och 100-hopp och baklänges i tiohopp, och hitta det tal som saknas",
         "Barnet ser att hoppet är lika stort hela vägen, även när raden börjar på ett annat tal än ett femtal eller passerar hundra",
         "Barnet bygger den taluppfattning för tiotal och hundratal som addition, subtraktion och multiplikationstabellerna vilar på"
+      ]
+    },
+    "shapeforge.compose.1-g-a-2": {
+      "about": [
+        "Barnet fogar samman lysande glaskristaller – trianglar och romber – tills de exakt fyller en tom form. Mim, räven i ljussmedjan, ber om en romb, ett tak, en stor triangel, en lykta eller en sexhörning; barnet väljer en kristall, vrider den och trycker på en plats där den passar. Det är en gratis, interaktiv geometriövning för årskurs 1 som körs direkt i webbläsaren, utan installation och utan konto.",
+        "Den stora idén är att former är byggda av mindre former. Sex trianglar blir en sexhörning – men det gör också tre romber, eller två romber och två trianglar. Därför kommer samma form tillbaka med uppmaningen att bygga den på ett NYTT sätt, och barnet upptäcker att en och samma form kan sättas samman på flera sätt. I några omgångar ligger redan en kristall på plats och barnet bygger vidare på den, eller täcker en yta med bara trianglar.",
+        "Aktiviteten följer Lgr22 inom området geometri: grundläggande tvådimensionella former och hur de kan sättas samman till nya former och delas upp igen. En kristall kan aldrig hamna fel – bara de platser där den verkligen passar lyser upp – så barnet kan pröva fritt. Ingen timer och inga poäng."
+      ],
+      "practices": [
+        "Sätta samman trianglar och romber till större former",
+        "Vrida en form tills den passar in på sin plats",
+        "Bygga samma form på mer än ett sätt",
+        "Känna igen en triangel, en romb och en sexhörning",
+        "Bygga om en form till en helt ny form"
+      ],
+      "howToPlay": [
+        "Barnet trycker på en kristall längst ned – en triangel eller en romb – och vrider den med Vrid tills den ligger rätt.",
+        "Sedan trycker barnet på en lysande plats i den tomma formen. Bara de platser där kristallen passar lyser, så det går inte att lägga fel. Trycker barnet på en kristall som redan ligger på plats får det tillbaka den.",
+        "När hela formen är fylld tänds den. Tryck på Kontrollera för att gå vidare till nästa form."
+      ],
+      "learningGoals": [
+        "Barnet kan sätta samman mindre former till en större form",
+        "Barnet vet att samma form kan byggas på flera olika sätt",
+        "Barnet kan vrida en form så att den passar in på sin plats"
       ]
     }
   }

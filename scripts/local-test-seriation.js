@@ -9,7 +9,8 @@
        resolved.
      • the cord reference + 3 ribbon shelves + 3 color chips render; the shell
        prompt carries the longest/shortest/samecord question; no stored answer;
-       EN-only; ≥7 distinct + reshuffle; no overflow 280→768.
+       manifest locale-coherence (slug/page_title/page_intro declared evenly, slugs unique + url-safe);
+       ≥7 distinct + reshuffle; no overflow 280→768.
    ===================================================================== */
 'use strict';
 const http = require('http');
@@ -73,8 +74,29 @@ function serve() {
 
     const title = await page.$eval('.lcs-title', e => e.textContent.trim()).catch(() => '');
     note(title === 'The Faraway Shelf', `header title "${title}"`);
-    const slugKeys = await page.evaluate(() => Object.keys(window.SeriationActivity._activityRow.slug));
-    note(slugKeys.length === 1 && slugKeys[0] === 'en', `manifest not EN-only: ${slugKeys.join(',')}`);
+    /* The activity was an EN-only pilot; it has shipped in de/fr/es/pt/it/nl/sv since 2026-06-29.
+       The old assertion (`slug.length === 1 && slug[0] === 'en'`) was therefore FALSE from the first
+       fan-out onward and failed this harness for every locale build after it — a dead gate. Replaced
+       with the invariant that actually protects the route: every locale declared in ANY of slug /
+       page_title / page_intro must be declared in ALL THREE, and every slug must be unique and
+       url-safe. A locale present in slug but missing from page_title resolves to a live route with
+       no title, which is exactly the defect the EN-only check could never see. */
+    const loc = await page.evaluate(() => {
+      const r = window.SeriationActivity._activityRow;
+      return { slug: Object.keys(r.slug || {}), title: Object.keys(r.page_title || {}), intro: Object.keys(r.page_intro || {}), slugs: r.slug || {} };
+    });
+    note(loc.slug.length >= 1, 'manifest declares no slug locale at all');
+    const missing = [];
+    for (const l of new Set([].concat(loc.slug, loc.title, loc.intro))) {
+      if (!loc.slug.includes(l)) missing.push(l + ':slug');
+      if (!loc.title.includes(l)) missing.push(l + ':page_title');
+      if (!loc.intro.includes(l)) missing.push(l + ':page_intro');
+    }
+    note(missing.length === 0, `locale declared unevenly across slug/page_title/page_intro: ${missing.join(', ')}`);
+    const bad = Object.entries(loc.slugs).filter(([, s]) => !/^[a-z0-9-]+$/.test(String(s))).map(([l, s]) => l + '="' + s + '"');
+    note(bad.length === 0, `slug not url-safe: ${bad.join(', ')}`);
+    const vals = Object.values(loc.slugs);
+    note(new Set(vals).size === vals.length, `duplicate slug across locales: ${vals.join(',')}`);
 
     const N = await page.evaluate(() => window.SeriationActivity._pool.length);
     const ids = await page.evaluate((c) => { const t = window.SeriationActivity, out = []; for (let i = 0; i < c; i++) { const x = t.nextTask({ index: i }); out.push(x ? x.id : null); } return out; }, 2 * N);
@@ -134,6 +156,6 @@ function serve() {
   server.close();
   console.log('');
   if (fails.length) { console.error(`SERIATION LOCAL TEST FAILED — ${fails.length} issue(s):`); fails.forEach(f => console.error('  • ' + f)); process.exit(1); }
-  console.log('SERIATION LOCAL TEST PASSED — order/indirect length-compare: a wrong chip does NOT resolve (warm cord nudge, no advance); the per-mode oracle chip resolves; cord reference + 3 ribbon shelves + 3 color chips render; the shell prompt carries the longest/shortest/samecord question; shell Check hides until resolved; no stored answer; EN-only; ≥2 modes + ≥7 distinct + reshuffle; no overflow 280→768.');
+  console.log('SERIATION LOCAL TEST PASSED — order/indirect length-compare: a wrong chip does NOT resolve (warm cord nudge, no advance); the per-mode oracle chip resolves; cord reference + 3 ribbon shelves + 3 color chips render; the shell prompt carries the longest/shortest/samecord question; shell Check hides until resolved; no stored answer; every locale declared evenly across slug/page_title/page_intro with unique url-safe slugs; ≥2 modes + ≥7 distinct + reshuffle; no overflow 280→768.');
   process.exit(0);
 })().catch(e => { console.error('ERROR:', e.message); process.exit(1); });

@@ -120,7 +120,19 @@ function measureInPage() {
   )).filter(el => el.tagName === 'BUTTON' || el.getAttribute('role') === 'button' || el.onclick || el.tabIndex >= 0)
     .filter(vis);
 
+  /* Convention-independent fallback: the tool's own tappable controls. Engages ONLY
+     when the card selector found nothing, so measured activities are unaffected. */
+  const fallbackControls = cards.length ? [] : Array.from(document.querySelectorAll(
+    '.lcs-app button, .lcs-app [role="button"]'
+  )).filter(el => !/(^|\s)lcs-/.test(el.getAttribute('class') || '')).filter(vis)
+    .filter(el => { const r = el.getBoundingClientRect(); return r.width > 8 && r.height > 8; });
+
   let worstSparse = null, minTap = Infinity, controlBottom = 0, unmeasured = 0;
+  fallbackControls.forEach(el => {
+    const r = el.getBoundingClientRect();
+    minTap = Math.min(minTap, Math.min(r.width, r.height));
+    controlBottom = Math.max(controlBottom, r.bottom);
+  });
   cards.forEach(el => {
     const cr = el.getBoundingClientRect();
     if (cr.width < 8 || cr.height < 8) return;
@@ -242,7 +254,7 @@ function measureInPage() {
     vw, vh, appH, overflowX,
     controlBottom: Math.round(controlBottom),
     minContent: minContent === Infinity ? null : Math.round(minContent), minContentCls,
-    cards: cards.length, unmeasured, headerClip, textClip,
+    cards: cards.length, unmeasured, fallbackControls: fallbackControls.length, headerClip, textClip,
     worstSparse, minTap: minTap === Infinity ? null : Math.round(minTap),
   };
 }
@@ -258,7 +270,13 @@ function evalGates(m) {
   if (m.cards > 0 && m.worstSparse && (m.worstSparse.areaRatio < SPARSE_AREA || m.worstSparse.widthRatio < SPARSE_WIDTH)) {
     fails.push(`SPARSE(area=${m.worstSparse.areaRatio.toFixed(2)} w=${m.worstSparse.widthRatio.toFixed(2)} ${m.worstSparse.cls})`);
   }
-  if (m.cards > 0 && m.minTap != null && m.minTap < MIN_TAP) fails.push(`TAP(${m.minTap}px<${MIN_TAP})`);
+  /* ⚠ NON-VACUITY BEFORE THE FLOOR. "minTap is null" and "minTap is fine" are
+     different answers and only one of them is a pass. Every activity puts at least
+     one control of its own on the screen; measuring none means the instrument
+     missed, not that the layout is good. */
+  const measuredControls = m.cards + (m.fallbackControls || 0);
+  if (measuredControls === 0) fails.push('NO-CONTROLS-MEASURED(neither an answer card nor a tool button was found — the gate measured nothing)');
+  if (measuredControls > 0 && m.minTap != null && m.minTap < MIN_TAP) fails.push(`TAP(${m.minTap}px<${MIN_TAP})`);
   if (m.headerClip) fails.push(`HEADER-CLIP(shell title ${m.headerClip.overlapPx ? 'overlaps controls ' + m.headerClip.overlapPx + 'px' : 'ellipsized ' + m.headerClip.textClipPx + 'px'})`);
   if (m.textClip) fails.push(`TEXT-CLIP(${m.textClip.cls} line-clamp:${m.textClip.lines} hides ${m.textClip.clipPx}px — "${m.textClip.text}")`);
   return fails;
@@ -329,7 +347,7 @@ function evalGates(m) {
       const fails = evalGates(m);
       records.push({ round: k, w: vp.w, h: vp.h, fails, m });
       const tag = fails.length ? 'FAIL' : 'ok  ';
-      console.log(`  ${tag} r${k} @${vp.w}×${vp.h}  ctrlBottom=${m.controlBottom} cards=${m.cards} content=${m.minContent ?? '—'} sparse=${m.worstSparse ? m.worstSparse.areaRatio.toFixed(2) : '—'} tap=${m.minTap ?? '—'}${fails.length ? '  :: ' + fails.join(' | ') : ''}`);
+      console.log(`  ${tag} r${k} @${vp.w}×${vp.h}  ctrlBottom=${m.controlBottom} cards=${m.cards}${m.fallbackControls ? '+' + m.fallbackControls + 'btn' : ''} content=${m.minContent ?? '—'} sparse=${m.worstSparse ? m.worstSparse.areaRatio.toFixed(2) : '—'} tap=${m.minTap ?? '—'}${fails.length ? '  :: ' + fails.join(' | ') : ''}`);
       if (SHOT_WIDTHS.has(vp.w)) {
         const f = path.join(SHOT_DIR, `${safe(ACTIVITY)}-r${k}-${vp.w}x${vp.h}.png`);
         await page.screenshot({ path: f, fullPage: true });

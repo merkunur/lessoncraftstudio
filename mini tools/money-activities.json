@@ -1617,15 +1617,15 @@
     "page_intro": {
       "en": "A free interactive Grade 2 math activity: tap coins (pennies, nickels, dimes, quarters) into the tray until the money matches the target amount. Counting coins with ¢ and $. Common Core 2.MD.C.8.",
       "de": "Euro und Cent zählen üben: Geldbeträge mit Euro-Münzen abzählen – Mathe für Klasse 2. Kostenlos online, ohne Anmeldung – sofort loslegen.",
-      "es": "Una actividad cálida y sin prisas para que los niños de 2.º de primaria reúnan cantidades exactas con monedas de pesos y centavos. Alineada con el Currículo LOMLOE (2.MD.C.8).",
-      "pt": "Nesta atividade do 2º ano, as crianças contam moedas de real (R$) e formam o valor pedido, tocando em cada moeda até completar o total. Alinhada à BNCC (2.MD.C.8), ela fortalece o sistema monetário e a contagem com centavos de um jeito leve e acolhedor.",
+      "es": "Una actividad cálida y sin prisas para que los niños de 2.º de primaria reúnan cantidades exactas con monedas de pesos y centavos. Alineada a los planes y programas de estudio de la SEP.",
+      "pt": "Nesta atividade do 2º ano, as crianças contam moedas de real (R$) e formam o valor pedido, tocando em cada moeda até completar o total. Alinhada à BNCC, ela fortalece o sistema monetário e a contagem com centavos de um jeito leve e acolhedor.",
       "fr": "Exercice en ligne sur la monnaie : compter les pièces en euros pour payer le bon montant. Gratuit, en ligne, sans inscription.",
-      "it": "Un'attività divertente in cui i bambini toccano le monete in euro per comporre l'importo richiesto, esercitando il conteggio del denaro. Allineata alle Indicazioni nazionali (2.MD.C.8).",
-      "nl": "Maak het juiste bedrag door euromunten in de bak te leggen, helemaal afgestemd op de SLO-kerndoelen voor groep 4. Een speelse manier om geld leren tellen te oefenen (2.MD.C.8).",
-      "sv": "Här övar barnen i åk 2 på att räkna ut rätt summa i kronor genom att lägga mynt i facket. Övningen följer Lgr22 (2.MD.C.8) och stärker förståelsen för pengar och tal i vardagen.",
-      "da": "Øv jer i at tælle danske kroner ved at lægge de rigtige mønter i bakken, så beløbet passer. Aktiviteten støtter målene i Fælles Mål (2.MD.C.8) for arbejdet med penge i 2. klasse.",
-      "no": "Øv på å telle ut riktig beløp med norske kronemynter, helt på barnets eget tempo. Aktiviteten støtter målene i LK20 for matematikk på 2. trinn (2.MD.C.8).",
-      "fi": "Harjoittele eurojen ja senttien laskemista napauttamalla kolikoita lokeroon, kunnes summa täsmää. Tämä tehtävä tukee OPS 2014 -opetussuunnitelman rahankäsittelytaitoja (2.MD.C.8)."
+      "it": "Un'attività divertente in cui i bambini toccano le monete in euro per comporre l'importo richiesto, esercitando il conteggio del denaro. Allineata alle Indicazioni nazionali.",
+      "nl": "Maak het juiste bedrag door euromunten in de bak te leggen, helemaal afgestemd op de SLO-kerndoelen voor groep 4. Een speelse manier om geld leren tellen te oefenen.",
+      "sv": "Här övar barnen i åk 2 på att räkna ut rätt summa i kronor genom att lägga mynt i facket. Övningen följer Lgr22 och stärker förståelsen för pengar och tal i vardagen.",
+      "da": "Øv jer i at tælle danske kroner ved at lægge de rigtige mønter i bakken, så beløbet passer. Aktiviteten støtter målene i Fælles Mål for arbejdet med penge i 2. klasse.",
+      "no": "Øv på å telle ut riktig beløp med norske kronemynter, helt på barnets eget tempo. Aktiviteten støtter målene i LK20 for matematikk på 2. trinn.",
+      "fi": "Harjoittele eurojen ja senttien laskemista napauttamalla kolikoita lokeroon, kunnes summa täsmää. Tämä tehtävä tukee OPS 2014 -opetussuunnitelman rahankäsittelytaitoja."
     },
     "kid_prompt_template": "count-out"
   },
@@ -3311,15 +3311,15 @@
     "page_intro": {
       "en": "A free interactive Grade 2 money activity: see what an item costs and what you pay, then tap coins into the tray to give the right change. Making change with ¢ and $. Common Core 2.MD.C.8.",
       "de": "Geld in Klasse 2: Wechselgeld mit Euro und Cent herausgeben und prüfen. Kostenlos online üben, ohne Anmeldung – alltagsnah rechnen lernen.",
-      "es": "Actividad interactiva para que los niños de 2.º de primaria practiquen dar el cambio con monedas de pesos mexicanos. Pensada según el Currículo LOMLOE para reforzar el manejo del dinero (equivalente a 2.MD.C.8).",
-      "pt": "Atividade de matemática para o 2º ano: dê o troco certo usando moedas e dinheiro de verdade (real). Alinhada à BNCC, ajuda a praticar a habilidade 2.MD.C.8 de calcular e contar o troco.",
+      "es": "Actividad interactiva para que los niños de 2.º de primaria practiquen dar el cambio con monedas de pesos mexicanos. Pensada de acuerdo con los planes y programas de estudio de la SEP para reforzar el manejo del dinero.",
+      "pt": "Atividade de matemática para o 2º ano: dê o troco certo usando moedas e cédulas do real. Alinhada à BNCC, ajuda a praticar o cálculo e a contagem do troco.",
       "fr": "Exercice en ligne sur la monnaie au CE1 : rendre la monnaie en euros comme au marché. Gratuit, en ligne, sans inscription.",
-      "it": "Un'attività di matematica per la classe seconda della scuola primaria: i bambini calcolano e danno il resto in euro toccando le monete giuste. In linea con le Indicazioni nazionali e con l'obiettivo 2.MD.C.8 sul denaro.",
-      "nl": "Met deze rekenoefening leren kinderen in groep 4 wisselgeld teruggeven met euromunten. De opgaven sluiten aan bij de SLO-kerndoelen voor rekenen met geld (2.MD.C.8).",
-      "sv": "I den här aktiviteten övar barnen i årskurs 2 på att räkna ut och ge tillbaka rätt växel i hela kronor. Övningen följer Lgr22 och stödjer arbetet med pengar och subtraktion (motsvarar 2.MD.C.8).",
-      "da": "Her øver dit barn at give byttepenge tilbage med danske kroner i 2. klasse. Aktiviteten støtter matematik efter Fælles Mål og svarer til færdigheden 2.MD.C.8.",
-      "no": "I denne aktiviteten øver barna på 2. trinn på å gi tilbake riktige vekslepenger med norske kroner. Oppgaven følger LK20 og styrker tallforståelse og praktisk pengeregning (tilsvarer 2.MD.C.8).",
-      "fi": "Harjoittele vaihtorahan antamista euroilla. Tehtävä tukee 2. luokan matematiikan tavoitteita OPS 2014 -opetussuunnitelman mukaisesti (2.MD.C.8)."
+      "it": "Un'attività di matematica per la classe seconda della scuola primaria: i bambini calcolano e danno il resto in euro toccando le monete giuste. In linea con le Indicazioni nazionali e con gli obiettivi sul denaro.",
+      "nl": "Met deze rekenoefening leren kinderen in groep 4 wisselgeld teruggeven met euromunten. De opgaven sluiten aan bij de SLO-kerndoelen voor rekenen met geld.",
+      "sv": "I den här aktiviteten övar barnen i årskurs 2 på att räkna ut och ge tillbaka rätt växel i hela kronor. Övningen följer Lgr22 och stödjer arbetet med pengar och subtraktion.",
+      "da": "Her øver dit barn sig i at give byttepenge tilbage med danske kroner i 2. klasse. Aktiviteten følger Fælles Mål for matematik og træner at regne med penge.",
+      "no": "I denne aktiviteten øver barna på 2. trinn på å gi tilbake riktige vekslepenger med norske kroner. Oppgaven følger LK20 og styrker tallforståelse og praktisk pengeregning.",
+      "fi": "Harjoittele vaihtorahan antamista euroilla. Tehtävä tukee 2. luokan matematiikan tavoitteita OPS 2014 -opetussuunnitelman mukaisesti."
     },
     "kid_prompt_template": "make-change"
   }

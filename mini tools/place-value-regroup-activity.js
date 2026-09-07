@@ -31,7 +31,17 @@
          1/3-width column box at ≤360px. Shrink the label to fit with nowrap; locale-neutral (only helps the
          long labels; short ones stay legible). Activity-layer, 0 lines to the core (which owns .pvr-col-label).
          §A.13.62 layout-fix, not a threshold change. */
-      + '@media (max-width:400px){.pvr-col .pvr-col-label{white-space:nowrap;font-size:clamp(.44rem,2.0vw,.72rem);letter-spacing:-.2px;}}';
+      + '@media (max-width:400px){.pvr-col .pvr-col-label{white-space:nowrap;font-size:clamp(.62rem,2.4vw,.72rem);letter-spacing:-.2px;}}'
+      /* (2) TEN MUST BE VISIBLE. The core wraps the ones by max-width, so 12 cubes
+         fell 9+3 at desktop and 7+5 at 360 — centred, unaligned, and the break moved
+         with the viewport. A 5-column grid makes 12 read 5+5+2 at EVERY width: two
+         full rows are the ten the button is about to bundle. */
+      + '.pvr-col-ones .pvr-blocks{display:grid !important;grid-template-columns:repeat(5,auto);justify-content:center;align-items:end;max-width:none !important;}'
+      /* (4) 2.5px is a touch, not a gap — the button read as welded to the mat. */
+      + '@media (min-width:321px) and (max-width:400px){.pvr-bar{margin-top:10px;}}'
+      /* (1) white-on-coral measured 2.78:1 on the primary control, and is a
+         combination this project has already banned. The house ink is 4.96:1. */
+      + '.pvr-maketen{color:#14322D !important;}';
     (document.head || document.documentElement).appendChild(_pvrTrim);
   }
 

@@ -59,6 +59,20 @@
     nl: {
       count: ['nul', 'één', 'twee', 'drie', 'vier', 'vijf', 'zes', 'zeven', 'acht', 'negen', 'tien'],
       win:   ['Nul', 'Één', 'Twee', 'Drie', 'Vier', 'Vijf', 'Zes', 'Zeven', 'Acht', 'Negen', 'Tien']
+    },
+    /* sv — native ensemble. Swedish carries the German eins/ein split on TWO axes.
+       (a) the tap-counting register is the bare neuter numeral → count[1] = 'ett'.
+       (b) the before-noun form agrees in GENDER with the unit noun. 'hjälpare' is a
+           common-gender en-word → win[1] = 'En', NEVER 'Ett' (*Ett hjälpare is the exact
+           shape of the *Eins Helfer error the de comment above warns about).
+       win[1] and the unit noun are LOCKED TOGETHER: change the noun to a neuter word and
+       win[1] must become 'Ett' in the same edit. 'hjälpare' was chosen partly because its
+       indefinite plural is IDENTICAL to the singular (en hjälpare / fyra hjälpare), so one
+       sayWin tail is grammatical for every n = 1..10 with no plural branch — the same gift
+       German gets from Helfer. */
+    sv: {
+      count: ['noll', 'ett', 'två', 'tre', 'fyra', 'fem', 'sex', 'sju', 'åtta', 'nio', 'tio'],
+      win:   ['Noll', 'En', 'Två', 'Tre', 'Fyra', 'Fem', 'Sex', 'Sju', 'Åtta', 'Nio', 'Tio']
     }
   };
   function cap(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
@@ -80,30 +94,38 @@
          Unidad = "ayudante" (masc. → concordancia limpia); unidades nombradas cubos/clips en
          los prompts por ronda. Diminutivos cálidos (huequito/juntitos/puntita/igualitos) y tono
          sin puntaje ni reloj; nunca "mal/incorrecto". Inchie se conserva (personaje de catálogo). */
-      title: { en: "Inchie's Garden Path", de: 'Inchies Gartenweg', fr: "Le chemin du jardin d'Inchie", es: 'El sendero de Inchie', pt: 'O caminho do jardim de Inchie', it: 'Il sentiero del giardino di Inchie', nl: "Inchie's tuinpad" },
+      title: { en: "Inchie's Garden Path", de: 'Inchies Gartenweg', fr: "Le chemin du jardin d'Inchie", es: 'El sendero de Inchie', pt: 'O caminho do jardim de Inchie', it: 'Il sentiero del giardino di Inchie', nl: "Inchie's tuinpad", sv: 'Mätis trädgårdsstig' },
       instruction: { en: '', de: '' },
-      prompt: { en: 'Lay the helpers, then count.', de: 'Leg die Helfer aus und zähl sie dann.', fr: 'Pose les bâtonnets, puis compte-les.', es: 'Pon los ayudantes y cuéntalos.', pt: 'Coloque os ajudantes e conte.', it: 'Metti gli aiutanti, poi contali.', nl: 'Leg de helpertjes neer en tel ze dan.' },
-      add: { en: '+ Add a helper', de: '+ Helfer dazu', fr: '+ Un bâtonnet', es: '+ Otro ayudante', pt: '+ Outro ajudante', it: '+ Un aiutante', nl: '+ Helpertje erbij' },
-      addBig: { en: '+ Big helper', de: '+ Großer Helfer', fr: '+ Un grand bâtonnet', es: '+ Ayudante grande', pt: '+ Ajudante grande', it: '+ Aiutante grande', nl: '+ Groot helpertje' },
-      nudgeL: { en: '◀' }, nudgeR: { en: '▶' }, take: { en: 'Take back', de: 'Zurücknehmen', fr: 'Retirer', es: 'Quitar', pt: 'Tirar', it: 'Togli', nl: 'Terugnemen' },
-      count: { en: 'Count them! Tap each helper.', de: 'Zähl sie! Tipp jeden Helfer an.', fr: 'Compte-les ! Touche chaque bâtonnet.', es: '¡Cuéntalos! Toca cada ayudante.', pt: 'Conte! Toque em cada ajudante.', it: 'Contali! Tocca ogni aiutante.', nl: 'Tel ze! Tik op elk helpertje.' },
-      sayWelcome: { en: 'Lay my helpers nose-to-tail to measure it!', de: 'Leg meine Helfer dicht hintereinander, dann messen wir zusammen!', fr: 'Pose mes bâtonnets bout à bout pour le mesurer !', es: '¡Pon mis ayudantes puntita con puntita para medirlo!', pt: 'Coloque meus ajudantes pontinha com pontinha para medir!', it: 'Metti i miei aiutanti testa-coda per misurare!', nl: 'Leg mijn helpertjes netjes aansluitend achter elkaar, dan meten we samen!' },
-      sayWin: { en: 'helpers long! 🌸', de: 'Helfer lang! 🌸', fr: 'bâtonnets de long ! 🌸', es: 'ayudantes de largo! 🌸', pt: 'ajudantes de comprimento! 🌸', it: 'aiutanti di lunghezza! 🌸', nl: 'helpertjes lang! 🌸' },
-      sayWinSpoken: { en: 'helpers long', de: 'Helfer lang', fr: 'bâtonnets de long', es: 'ayudantes de largo', pt: 'ajudantes de comprimento', it: 'aiutanti di lunghezza', nl: 'helpertjes lang' },
-      sayGap: { en: 'A little gap snuck in — scootch them together!', de: 'Da hat sich eine Lücke eingeschlichen – schieb sie zusammen!', fr: "Un petit trou s'est glissé — rapproche-les !", es: '¡Se coló un huequito! ¡Júntalos bien!', pt: 'Entrou um buraquinho — junte eles bem!', it: 'Si è infilato un buchino — attaccali bene!', nl: 'Er zit een klein gaatje tussen — schuif ze tegen elkaar aan!' },
-      sayOverlap: { en: 'Two helpers are on top — give them room!', de: 'Zwei Helfer liegen übereinander – gib ihnen Platz!', fr: 'Deux bâtonnets se chevauchent — laisse-leur de la place !', es: '¡Dos ayudantes están encimados! ¡Dales lugar!', pt: 'Dois ajudantes estão em cima um do outro — dê espaço!', it: 'Due aiutanti sono accavallati — dai loro un po\' di spazio!', nl: 'Twee helpertjes liggen op elkaar — geef ze wat ruimte!' },
-      sayShort: { en: 'Not all the way yet — add more helpers!', de: 'Noch nicht ganz bis zum Ende – leg noch ein paar Helfer dazu!', fr: 'Pas encore jusqu\'au bout — ajoute des bâtonnets !', es: '¡Todavía no llegas! ¡Pon más ayudantes!', pt: 'Ainda não chegou! Coloque mais ajudantes!', it: 'Non sei ancora arrivato — aggiungi altri aiutanti!', nl: 'Nog niet helemaal tot het eind — leg er nog een paar helpertjes bij!' },
-      sayOverhang: { en: "That's past the end — take one back.", de: 'Das ragt über das Ende hinaus – nimm einen weg.', fr: 'Ça dépasse le bout — retire-en un.', es: '¡Eso se pasó del final! Quita uno.', pt: 'Isso passou do fim — tire um.', it: 'Sei andato oltre la fine — togline uno.', nl: 'Dat steekt over het eind uit — neem er eentje terug.' },
-      sayStart: { en: 'Start the first helper right at the tip!', de: 'Fang mit dem ersten Helfer genau an der Spitze an!', fr: 'Commence le premier bâtonnet pile au bord !', es: '¡Empieza el primer ayudante justo en la puntita!', pt: 'Comece o primeiro ajudante bem na pontinha!', it: 'Fai partire il primo aiutante proprio dalla punta!', nl: 'Begin met het eerste helpertje precies bij de punt!' },
-      sayMixed: { en: 'Only the SAME helpers — they must match!', de: 'Nur die GLEICHEN Helfer – sie müssen alle gleich groß sein!', fr: 'Seulement les MÊMES bâtonnets — ils doivent être de la même taille !', es: '¡Solo los MISMOS ayudantes! ¡Deben ser igualitos!', pt: 'Só os MESMOS ajudantes — eles têm que ser igualzinhos!', it: 'Solo gli STESSI aiutanti — devono essere tutti uguali!', nl: 'Alleen DEZELFDE helpertjes — ze moeten allemaal even groot zijn!' },
-      saySnug: { en: 'All snug, no holes! Now count them.', de: 'Schön lückenlos, keine Lücke! Jetzt zähl sie.', fr: 'Bien serrés, sans trou ! Maintenant, compte-les.', es: '¡Bien juntitos, sin huecos! Ahora cuéntalos.', pt: 'Bem juntinhos, sem buracos! Agora conte.', it: 'Tutti attaccati, senza buchi! Ora contali.', nl: 'Mooi aansluitend, geen gaatjes! Tel ze nu maar.' },
-      sayInverse: { en: 'Smaller helpers, more of them!', de: 'Kleinere Helfer – mehr davon!', fr: 'Plus les bâtonnets sont petits, plus il en faut !', es: 'Ayudantes más pequeños, ¡más necesitas!', pt: 'Ajudantes menores, mais ajudantes você precisa!', it: 'Aiutanti più piccoli? Te ne servono di più!', nl: 'Kleinere helpertjes — dan heb je er meer nodig!' },
-      hintCheck: { en: 'No gaps, no overlaps, all the same — then count.', de: 'Keine Lücken, nichts übereinander, alle gleich groß – dann zähl.', fr: 'Pas de trou, pas de chevauchement, tous de la même taille — puis compte.', es: 'Sin huecos, sin encimar, todos iguales — y ya cuenta.', pt: 'Sem buracos, sem montar um no outro, todos iguais — e agora conte.', it: 'Niente buchi, non uno sopra l\'altro, tutti uguali — poi conta.', nl: 'Geen gaatjes, niks over elkaar, allemaal even groot — tel dan maar.' },
-      countBig: { en: 'Count the BIG helpers.', de: 'Zähl die GROSSEN Helfer.', fr: 'Compte les GRANDS bâtonnets.', es: 'Cuenta los ayudantes GRANDES.', pt: 'Conte os ajudantes GRANDES.', it: 'Conta gli aiutanti GRANDI.', nl: 'Tel de GROTE helpertjes.' },
-      countLittle: { en: 'Now count the LITTLE helpers!', de: 'Jetzt zähl die KLEINEN Helfer!', fr: 'Maintenant, compte les PETITS bâtonnets !', es: '¡Ahora cuenta los ayudantes PEQUEÑOS!', pt: 'Agora conte os ajudantes PEQUENOS!', it: 'Ora conta gli aiutanti PICCOLI!', nl: 'Tel nu de KLEINE helpertjes!' },
-      judgeMiss: { en: 'Look closely — same size, no gaps, no overhang?', de: 'Schau genau hin – gleich groß, keine Lücke, nichts steht über?', fr: 'Regarde bien — même taille, sans trou, rien qui dépasse ?', es: 'Fíjate bien — ¿mismo tamaño, sin huecos, sin que se pase?', pt: 'Olhe bem — mesmo tamanho, sem buracos, sem passar do fim?', it: 'Guarda bene — stessa misura, niente buchi, senza andare oltre la fine?', nl: 'Kijk goed — allemaal even groot, geen gaatjes, niets dat uitsteekt?' },
-      invMidA: { en: '{n} big helpers! Now the little ones.', de: '{n} große Helfer! Jetzt die kleinen.', fr: '{n} grands bâtonnets ! Maintenant, les petits.', es: '¡{n} ayudantes grandes! Ahora los pequeños.', pt: '{n} ajudantes grandes! Agora os pequenos.', it: '{n} aiutanti grandi! Ora i piccoli.', nl: '{n} grote helpertjes! Nu de kleine.' },
-      invDone: { en: '{a} big, {b} little — smaller helpers, more of them! 🌸', de: '{a} große, {b} kleine – kleinere Helfer, mehr davon! 🌸', fr: '{a} grands, {b} petits — plus les bâtonnets sont petits, plus il en faut ! 🌸', es: '{a} grandes y {b} pequeños: los más pequeños, ¡más necesitas! 🌸', pt: '{a} grandes e {b} pequenos: ajudantes menores, mais ajudantes você precisa! 🌸', it: '{a} grandi e {b} piccoli — aiutanti più piccoli, te ne servono di più! 🌸', nl: '{a} grote, {b} kleine — kleinere helpertjes, meer nodig! 🌸' }
+      prompt: { en: 'Lay the helpers, then count.', de: 'Leg die Helfer aus und zähl sie dann.', fr: 'Pose les bâtonnets, puis compte-les.', es: 'Pon los ayudantes y cuéntalos.', pt: 'Coloque os ajudantes e conte.', it: 'Metti gli aiutanti, poi contali.', nl: 'Leg de helpertjes neer en tel ze dan.', sv: 'Lägg ut hjälparna och räkna dem sedan.' },
+      add: { en: '+ Add a helper', de: '+ Helfer dazu', fr: '+ Un bâtonnet', es: '+ Otro ayudante', pt: '+ Outro ajudante', it: '+ Un aiutante', nl: '+ Helpertje erbij', sv: '+ En hjälpare' },
+      addBig: { en: '+ Big helper', de: '+ Großer Helfer', fr: '+ Un grand bâtonnet', es: '+ Ayudante grande', pt: '+ Ajudante grande', it: '+ Aiutante grande', nl: '+ Groot helpertje', sv: '+ En stor hjälpare' },
+      nudgeL: { en: '◀' }, nudgeR: { en: '▶' }, take: { en: 'Take back', de: 'Zurücknehmen', fr: 'Retirer', es: 'Quitar', pt: 'Tirar', it: 'Togli', nl: 'Terugnemen', sv: 'Ta tillbaka' },
+      count: { en: 'Count them! Tap each helper.', de: 'Zähl sie! Tipp jeden Helfer an.', fr: 'Compte-les ! Touche chaque bâtonnet.', es: '¡Cuéntalos! Toca cada ayudante.', pt: 'Conte! Toque em cada ajudante.', it: 'Contali! Tocca ogni aiutante.', nl: 'Tel ze! Tik op elk helpertje.', sv: 'Räkna dem! Tryck på varje hjälpare.' },
+      sayWelcome: { en: 'Lay my helpers nose-to-tail to measure it!', de: 'Leg meine Helfer dicht hintereinander, dann messen wir zusammen!', fr: 'Pose mes bâtonnets bout à bout pour le mesurer !', es: '¡Pon mis ayudantes puntita con puntita para medirlo!', pt: 'Coloque meus ajudantes pontinha com pontinha para medir!', it: 'Metti i miei aiutanti testa-coda per misurare!', nl: 'Leg mijn helpertjes netjes aansluitend achter elkaar, dan meten we samen!', sv: 'Lägg mina hjälpare kant i kant, så mäter vi ihop!' },
+      sayWin: { en: 'helpers long! 🌸', de: 'Helfer lang! 🌸', fr: 'bâtonnets de long ! 🌸', es: 'ayudantes de largo! 🌸', pt: 'ajudantes de comprimento! 🌸', it: 'aiutanti di lunghezza! 🌸', nl: 'helpertjes lang! 🌸', sv: 'hjälpare långt! 🌸' },
+      sayWinSpoken: { en: 'helpers long', de: 'Helfer lang', fr: 'bâtonnets de long', es: 'ayudantes de largo', pt: 'ajudantes de comprimento', it: 'aiutanti di lunghezza', nl: 'helpertjes lang', sv: 'hjälpare långt' },
+      sayGap: { en: 'A little gap snuck in — scootch them together!', de: 'Da hat sich eine Lücke eingeschlichen – schieb sie zusammen!', fr: "Un petit trou s'est glissé — rapproche-les !", es: '¡Se coló un huequito! ¡Júntalos bien!', pt: 'Entrou um buraquinho — junte eles bem!', it: 'Si è infilato un buchino — attaccali bene!', nl: 'Er zit een klein gaatje tussen — schuif ze tegen elkaar aan!', sv: 'Det smög sig in en liten glipa — skjut ihop dem!' },
+      sayOverlap: { en: 'Two helpers are on top — give them room!', de: 'Zwei Helfer liegen übereinander – gib ihnen Platz!', fr: 'Deux bâtonnets se chevauchent — laisse-leur de la place !', es: '¡Dos ayudantes están encimados! ¡Dales lugar!', pt: 'Dois ajudantes estão em cima um do outro — dê espaço!', it: 'Due aiutanti sono accavallati — dai loro un po\' di spazio!', nl: 'Twee helpertjes liggen op elkaar — geef ze wat ruimte!', sv: 'Två hjälpare ligger på varandra — ge dem plats!' },
+      sayShort: { en: 'Not all the way yet — add more helpers!', de: 'Noch nicht ganz bis zum Ende – leg noch ein paar Helfer dazu!', fr: 'Pas encore jusqu\'au bout — ajoute des bâtonnets !', es: '¡Todavía no llegas! ¡Pon más ayudantes!', pt: 'Ainda não chegou! Coloque mais ajudantes!', it: 'Non sei ancora arrivato — aggiungi altri aiutanti!', nl: 'Nog niet helemaal tot het eind — leg er nog een paar helpertjes bij!', sv: 'Det räcker inte ända fram — lägg dit fler hjälpare!' },
+      sayOverhang: { en: "That's past the end — take one back.", de: 'Das ragt über das Ende hinaus – nimm einen weg.', fr: 'Ça dépasse le bout — retire-en un.', es: '¡Eso se pasó del final! Quita uno.', pt: 'Isso passou do fim — tire um.', it: 'Sei andato oltre la fine — togline uno.', nl: 'Dat steekt over het eind uit — neem er eentje terug.', sv: 'Den sista sticker ut för långt — ta tillbaka en.' },
+      sayStart: { en: 'Start the first helper right at the tip!', de: 'Fang mit dem ersten Helfer genau an der Spitze an!', fr: 'Commence le premier bâtonnet pile au bord !', es: '¡Empieza el primer ayudante justo en la puntita!', pt: 'Comece o primeiro ajudante bem na pontinha!', it: 'Fai partire il primo aiutante proprio dalla punta!', nl: 'Begin met het eerste helpertje precies bij de punt!', sv: 'Låt den första hjälparen börja precis vid kanten!' },
+      sayMixed: { en: 'Only the SAME helpers — they must match!', de: 'Nur die GLEICHEN Helfer – sie müssen alle gleich groß sein!', fr: 'Seulement les MÊMES bâtonnets — ils doivent être de la même taille !', es: '¡Solo los MISMOS ayudantes! ¡Deben ser igualitos!', pt: 'Só os MESMOS ajudantes — eles têm que ser igualzinhos!', it: 'Solo gli STESSI aiutanti — devono essere tutti uguali!', nl: 'Alleen DEZELFDE helpertjes — ze moeten allemaal even groot zijn!', sv: 'Bara SAMMA hjälpare — de måste vara lika stora!' },
+      saySnug: { en: 'All snug, no holes! Now count them.', de: 'Schön lückenlos, keine Lücke! Jetzt zähl sie.', fr: 'Bien serrés, sans trou ! Maintenant, compte-les.', es: '¡Bien juntitos, sin huecos! Ahora cuéntalos.', pt: 'Bem juntinhos, sem buracos! Agora conte.', it: 'Tutti attaccati, senza buchi! Ora contali.', nl: 'Mooi aansluitend, geen gaatjes! Tel ze nu maar.', sv: 'Kant i kant, inga glipor! Räkna dem nu.' },
+      sayInverse: { en: 'Smaller helpers, more of them!', de: 'Kleinere Helfer – mehr davon!', fr: 'Plus les bâtonnets sont petits, plus il en faut !', es: 'Ayudantes más pequeños, ¡más necesitas!', pt: 'Ajudantes menores, mais ajudantes você precisa!', it: 'Aiutanti più piccoli? Te ne servono di più!', nl: 'Kleinere helpertjes — dan heb je er meer nodig!', sv: 'Mindre hjälpare — då behövs det fler!' },
+      hintCheck: { en: 'No gaps, no overlaps, all the same — then count.', de: 'Keine Lücken, nichts übereinander, alle gleich groß – dann zähl.', fr: 'Pas de trou, pas de chevauchement, tous de la même taille — puis compte.', es: 'Sin huecos, sin encimar, todos iguales — y ya cuenta.', pt: 'Sem buracos, sem montar um no outro, todos iguais — e agora conte.', it: 'Niente buchi, non uno sopra l\'altro, tutti uguali — poi conta.', nl: 'Geen gaatjes, niks over elkaar, allemaal even groot — tel dan maar.', sv: 'Inga glipor, inget som ligger på varandra, alla lika stora — räkna sedan.' },
+      countBig: { en: 'Count the BIG helpers.', de: 'Zähl die GROSSEN Helfer.', fr: 'Compte les GRANDS bâtonnets.', es: 'Cuenta los ayudantes GRANDES.', pt: 'Conte os ajudantes GRANDES.', it: 'Conta gli aiutanti GRANDI.', nl: 'Tel de GROTE helpertjes.', sv: 'Räkna de STORA hjälparna.' },
+      countLittle: { en: 'Now count the LITTLE helpers!', de: 'Jetzt zähl die KLEINEN Helfer!', fr: 'Maintenant, compte les PETITS bâtonnets !', es: '¡Ahora cuenta los ayudantes PEQUEÑOS!', pt: 'Agora conte os ajudantes PEQUENOS!', it: 'Ora conta gli aiutanti PICCOLI!', nl: 'Tel nu de KLEINE helpertjes!', sv: 'Räkna nu de SMÅ hjälparna!' },
+      judgeMiss: { en: 'Look closely — same size, no gaps, no overhang?', de: 'Schau genau hin – gleich groß, keine Lücke, nichts steht über?', fr: 'Regarde bien — même taille, sans trou, rien qui dépasse ?', es: 'Fíjate bien — ¿mismo tamaño, sin huecos, sin que se pase?', pt: 'Olhe bem — mesmo tamanho, sem buracos, sem passar do fim?', it: 'Guarda bene — stessa misura, niente buchi, senza andare oltre la fine?', nl: 'Kijk goed — allemaal even groot, geen gaatjes, niets dat uitsteekt?', sv: 'Titta noga — lika stora, inga glipor, inget som sticker ut?' },
+      invMidA: { en: '{n} big helpers! Now the little ones.', de: '{n} große Helfer! Jetzt die kleinen.', fr: '{n} grands bâtonnets ! Maintenant, les petits.', es: '¡{n} ayudantes grandes! Ahora los pequeños.', pt: '{n} ajudantes grandes! Agora os pequenos.', it: '{n} aiutanti grandi! Ora i piccoli.', nl: '{n} grote helpertjes! Nu de kleine.', sv: '{n} stora hjälpare! Nu de små.' },
+      /* Screen-reader labels for the apparatus. These four were hardcoded English and
+         reached every locale; the nudge arrows are bare glyphs, so their aria-label is the
+         ONLY signal a speech user gets for either direction. en + sv authored; the other
+         locales fall through to en exactly as before (no regression, still to be authored). */
+      ariaRail: { en: 'measuring rail', sv: 'mätrad' },
+      ariaNudgeL: { en: 'nudge left', sv: 'Flytta ett steg åt vänster' },
+      ariaNudgeR: { en: 'nudge right', sv: 'Flytta ett steg åt höger' },
+      ariaChoice: { en: 'measuring choice', sv: 'Mätning' },
+      invDone: { en: '{a} big, {b} little — smaller helpers, more of them! 🌸', de: '{a} große, {b} kleine – kleinere Helfer, mehr davon! 🌸', fr: '{a} grands, {b} petits — plus les bâtonnets sont petits, plus il en faut ! 🌸', es: '{a} grandes y {b} pequeños: los más pequeños, ¡más necesitas! 🌸', pt: '{a} grandes e {b} pequenos: ajudantes menores, mais ajudantes você precisa! 🌸', it: '{a} grandi e {b} piccoli — aiutanti più piccoli, te ne servono di più! 🌸', nl: '{a} grote, {b} kleine — kleinere helpertjes, meer nodig! 🌸', sv: '{a} stora och {b} små — mindre hjälpare, då behövs det fler! 🌸' }
     },
     defaults: {},
 
@@ -126,6 +148,14 @@
       this.solved = false; this.msg = null; this._spoke = false; this.selected = null; this.counted = {}; this.addWidth = round.unitWidth || 8;
       this.phase = 'lay';
       this.helpers = (round.prePlaced || []).map(function (h) { return { pos: h.pos, w: h.w, kind: round.unitKind }; });
+      /* A round that OPENS with helpers on the rail left nothing selected, and the nudge
+         arrows + Take back are all `disabled = selected == null`. So in gaps-ribbon,
+         overlaps-crayon, start-stick and gaps-leaf the child was told to move a helper
+         while every control that moves one was greyed out, and no string in any locale
+         names the tap-to-select affordance. Select the last pre-placed helper, exactly as
+         _add() does for a helper the child has just placed — a pre-placed round now
+         behaves as if those helpers had just been added. */
+      if (this.helpers.length) this.selected = this.helpers.length - 1;
       this._judgePick = null;
       if (round.cog === 'inverse') {
         var big = Core.legalAbut(round);
@@ -177,7 +207,7 @@
     _rowSvg: function (helpers, L, opts) {
       opts = opts || {}; var self = this, api = this.api;
       var steps = this.round.trackSteps || (L + 1) * 8;
-      var sv = svg('svg', { viewBox: '0 0 ' + steps + ' ' + RH, class: 'lu-svg', 'aria-label': 'measuring rail' });
+      var sv = svg('svg', { viewBox: '0 0 ' + steps + ' ' + RH, class: 'lu-svg', 'aria-label': api.t('ariaRail') });
       sv.style.aspectRatio = (steps / RH).toFixed(2);
       /* the object being measured: [0, L*unit] — a thin bar near the top */
       var uw = this.round.unitWidth || 8;
@@ -233,8 +263,8 @@
         add.addEventListener('click', function () { self._add(r.unitWidth || 8); });
         ctr.appendChild(add);
         if (r.decoyWidth) { var big = api.el('button', 'lu-btn lu-add'); big.type = 'button'; big.textContent = api.t('addBig'); big.addEventListener('click', function () { self._add(r.decoyWidth); }); ctr.appendChild(big); }
-        var nl = api.el('button', 'lu-btn lu-arrow'); nl.type = 'button'; nl.textContent = api.t('nudgeL'); nl.setAttribute('aria-label', 'nudge left'); nl.disabled = this.selected == null; nl.addEventListener('click', function () { self._nudge(-1); }); ctr.appendChild(nl);
-        var nr = api.el('button', 'lu-btn lu-arrow'); nr.type = 'button'; nr.textContent = api.t('nudgeR'); nr.setAttribute('aria-label', 'nudge right'); nr.disabled = this.selected == null; nr.addEventListener('click', function () { self._nudge(1); }); ctr.appendChild(nr);
+        var nl = api.el('button', 'lu-btn lu-arrow'); nl.type = 'button'; nl.textContent = api.t('nudgeL'); nl.setAttribute('aria-label', api.t('ariaNudgeL')); nl.disabled = this.selected == null; nl.addEventListener('click', function () { self._nudge(-1); }); ctr.appendChild(nl);
+        var nr = api.el('button', 'lu-btn lu-arrow'); nr.type = 'button'; nr.textContent = api.t('nudgeR'); nr.setAttribute('aria-label', api.t('ariaNudgeR')); nr.disabled = this.selected == null; nr.addEventListener('click', function () { self._nudge(1); }); ctr.appendChild(nr);
         var tk = api.el('button', 'lu-btn lu-take'); tk.type = 'button'; tk.textContent = api.t('take'); tk.disabled = this.selected == null; tk.addEventListener('click', function () { self._take(); }); ctr.appendChild(tk);
         root.appendChild(ctr);
       } else {
@@ -248,7 +278,7 @@
       var wrap = api.el('div', 'lu-judge');
       r.judgeRows.forEach(function (jr, i) {
         var card = api.el('button', 'lu-judgecard' + (self._judgePick === i ? ' lu-jsel' : '')); card.type = 'button';
-        card.setAttribute('aria-label', 'measuring choice ' + (i + 1));
+        card.setAttribute('aria-label', api.t('ariaChoice') + ' ' + (i + 1));
         card.appendChild(self._rowSvg(jr.helpers, r.L, {}));
         card.addEventListener('click', function () { self._judge(i); });
         wrap.appendChild(card);

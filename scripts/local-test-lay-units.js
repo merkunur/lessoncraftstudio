@@ -100,6 +100,33 @@ function serve() {
     /* CLOSE-THE-GAP: nudge the gapped helper, then count */
     await force('gaps-ribbon');
     s = await A(); note(s.placed === 4, 'gaps round did not pre-place the row');
+
+    /* REACHABLE-CONTROLS: a round that OPENS with helpers on the rail must arrive with a
+       helper already selected, or the nudge arrows and Take back render `disabled` and the
+       prompt ("close the gap") instructs an action the child cannot perform. Every other
+       assertion in this file sets `selected` directly, which is exactly why that shipped
+       unseen — so this one reads the RENDERED buttons and never touches the model. */
+    for (const rid of ['gaps-ribbon', 'overlaps-crayon', 'start-stick', 'gaps-leaf']) {
+      await force(rid);
+      const ctl = await page.evaluate(() => {
+        const btns = Array.from(document.querySelectorAll('.lu-btn'));
+        const arrows = btns.filter((b) => b.classList.contains('lu-arrow'));
+        const take = btns.filter((b) => b.classList.contains('lu-take'));
+        return {
+          arrows: arrows.length, take: take.length,
+          liveArrows: arrows.filter((b) => !b.disabled).length,
+          liveTake: take.filter((b) => !b.disabled).length,
+          placed: window.LayUnitsActivity.helpers.length,
+        };
+      });
+      note(ctl.placed > 0, `${rid}: expected pre-placed helpers, found ${ctl.placed}`);
+      note(ctl.arrows === 2, `${rid}: expected 2 nudge arrows, found ${ctl.arrows}`);   /* non-vacuity */
+      note(ctl.take === 1, `${rid}: expected a Take back button, found ${ctl.take}`);   /* non-vacuity */
+      note(ctl.liveArrows === 2, `${rid}: opens with ${2 - ctl.liveArrows} of 2 nudge arrows DISABLED — the prompt tells the child to move a helper they cannot move`);
+      note(ctl.liveTake === 1, `${rid}: opens with Take back DISABLED`);
+    }
+    await force('gaps-ribbon');
+    s = await A(); note(s.placed === 4, 'gaps round did not re-pre-place the row');
     /* the last helper is at pos 26 (gap); nudge it left to 24 (abut) */
     await page.evaluate(() => { const a = window.LayUnitsActivity; a.selected = 3; a._nudge(-1); a._nudge(-1); });
     s = await A(); note(s.phase === 'count', `closing the gap did not reach the count phase (msg "${s.msg}")`);

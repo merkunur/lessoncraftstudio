@@ -156,13 +156,13 @@
         '.cm-line{flex:1 1 auto;min-height:1.05em;text-align:center;font:700 .82rem/1.18 Nunito,system-ui,sans-serif;color:#146B5E;margin:0;}',
         '.cm-line.miss{color:#C2410C;}',
         /* the welded compound word (head tinted) */
-        '.cm-word{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:2px;font:800 clamp(1.1rem,5.5vw,1.6rem)/1 Baloo 2,Nunito,sans-serif;color:#3a3a3a;}',
+        '.cm-word{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:2px;font:800 clamp(1.1rem,5.5vw,1.6rem)/1 "Baloo 2",Nunito,sans-serif;color:#3a3a3a;}',
         '.cm-blk{background:#FFFDF7;border:2px solid #C9B68C;border-radius:9px;padding:2px 9px;}',
         '.cm-blk.cm-head{color:#0F4A40;border-color:#146B5E;background:#EAF5F1;}',
         '.cm-seam{color:#F2784B;font-weight:800;}',
         /* the meaning banner (ticket) */
-        '.cm-mean{font:800 clamp(1rem,4.6vw,1.3rem)/1.15 Baloo 2,Nunito,sans-serif;color:#0F4A40;text-align:center;background:#EAF5F1;border-radius:12px;padding:6px 16px;}',
-        '.cm-frame{font:800 clamp(1rem,4.6vw,1.35rem)/1.2 Baloo 2,Nunito,sans-serif;color:#0F4A40;text-align:center;}',
+        '.cm-mean{font:800 clamp(1rem,4.6vw,1.3rem)/1.15 "Baloo 2",Nunito,sans-serif;color:#0F4A40;text-align:center;background:#EAF5F1;border-radius:12px;padding:6px 16px;}',
+        '.cm-frame{font:800 clamp(1rem,4.6vw,1.35rem)/1.2 "Baloo 2",Nunito,sans-serif;color:#0F4A40;text-align:center;}',
         '.cm-frame .cm-blank{color:#F2784B;border-bottom:3px solid #F2784B;padding:0 14px;}',
         /* part-picture context strip (the two parts) */
         '.cm-parts{display:flex;align-items:flex-start;justify-content:center;gap:12px;}',
@@ -170,11 +170,11 @@
         '.cm-part img{width:clamp(54px,16vw,84px);height:clamp(54px,16vw,84px);object-fit:contain;}',
         '.cm-part .cm-pw{font:700 .76rem/1 Nunito,sans-serif;color:#0F4A40;}',
         '.cm-part.lit img{filter:drop-shadow(0 0 6px #F2784B);}',
-        '.cm-plus{align-self:center;font:800 1.3rem/1 Baloo 2,sans-serif;color:#9a8a66;}',
+        '.cm-plus{align-self:center;font:800 1.3rem/1 "Baloo 2",sans-serif;color:#9a8a66;}',
         /* meaning / form / word choice buttons — TEXT (no image → never sparse) */
         '.cm-choices{display:flex;flex-direction:column;gap:7px;width:100%;max-width:min(94vw,400px);}',
         '.cm-card{width:100%;min-height:48px;border:2.5px solid #146B5E;border-radius:13px;background:#fff;color:#0F4A40;cursor:pointer;padding:8px 12px;font:700 .95rem/1.2 Nunito,system-ui,sans-serif;text-align:center;}',
-        '.cm-card.form{font:800 1rem/1 Baloo 2,Nunito,sans-serif;}',
+        '.cm-card.form{font:800 1rem/1 "Baloo 2",Nunito,sans-serif;}',
         '.cm-card.dim{opacity:.4;}',
         '.cm-choices.two{flex-direction:row;justify-content:center;}',
         '.cm-choices.two .cm-card{width:auto;min-width:120px;flex:0 1 auto;}',
@@ -184,7 +184,7 @@
         '.cm-tile img{width:clamp(52px,15vw,64px);height:clamp(52px,15vw,64px);object-fit:contain;pointer-events:none;}',
         '.cm-tile .cm-pw{font:700 .8rem/1 Nunito,sans-serif;color:#0F4A40;}',
         '.cm-tile.dim{opacity:.4;}',
-        '.cm-btn{min-height:46px;border-radius:13px;border:none;font:800 1rem/1 Baloo 2,Nunito,sans-serif;cursor:pointer;padding:8px 22px;background:#F2784B;color:#fff;}',
+        '.cm-btn{min-height:46px;border-radius:13px;border:none;font:800 1rem/1 "Baloo 2",Nunito,sans-serif;cursor:pointer;padding:8px 22px;background:#F2784B;color:#fff;}',
         '.cm-sronly{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);}',
         /* short/narrow trim so the tallest state (predict resolved: word + 2
            part-pics + 3 wrapping glosses + the shell Check) clears the 320×640 fold */

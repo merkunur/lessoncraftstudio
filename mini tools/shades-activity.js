@@ -110,15 +110,15 @@
         '.sh-line.miss{color:#C2410C;}',
         /* the customer cue / scene sentence */
         '.sh-cue{font:600 clamp(.95rem,4vw,1.18rem)/1.3 Nunito,system-ui,sans-serif;color:#0F4A40;text-align:center;background:#EAF5F1;border-radius:14px;padding:9px 16px;max-width:min(92vw,460px);}',
-        '.sh-bound{font:800 clamp(1rem,4.4vw,1.3rem)/1.25 Baloo 2,Nunito,sans-serif;color:#0F4A40;text-align:center;}',
+        '.sh-bound{font:800 clamp(1rem,4.4vw,1.3rem)/1.25 "Baloo 2",Nunito,sans-serif;color:#0F4A40;text-align:center;}',
         '.sh-bound b{color:#F2784B;}',
         /* placed strip (order) */
         '.sh-placed{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;min-height:6px;}',
-        '.sh-chip{font:800 clamp(.95rem,4vw,1.3rem)/1 Baloo 2,Nunito,sans-serif;color:#0F4A40;background:#EAF5F1;border:2px solid #146B5E;border-radius:11px;padding:6px 12px;}',
+        '.sh-chip{font:800 clamp(.95rem,4vw,1.3rem)/1 "Baloo 2",Nunito,sans-serif;color:#0F4A40;background:#EAF5F1;border:2px solid #146B5E;border-radius:11px;padding:6px 12px;}',
         '.sh-arrow{align-self:center;color:#9a8a66;font-weight:800;}',
         /* word jars — UNIFORM size (NOT rank-sized; sizing would solve order by eye) */
         '.sh-jars{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;width:100%;max-width:min(94vw,480px);}',
-        '.sh-cand{min-width:clamp(82px,22vw,128px);min-height:clamp(50px,9vw,66px);border:2.8px solid #146B5E;border-radius:14px;background:#fff;color:#0F4A40;cursor:pointer;font:800 clamp(1.05rem,4.4vw,1.5rem)/1 Baloo 2,Nunito,sans-serif;padding:8px 14px;display:flex;align-items:center;justify-content:center;}',
+        '.sh-cand{min-width:clamp(82px,22vw,128px);min-height:clamp(50px,9vw,66px);border:2.8px solid #146B5E;border-radius:14px;background:#fff;color:#0F4A40;cursor:pointer;font:800 clamp(1.05rem,4.4vw,1.5rem)/1 "Baloo 2",Nunito,sans-serif;padding:8px 14px;display:flex;align-items:center;justify-content:center;}',
         '.sh-cand.dim{opacity:.35;}',
         '.sh-cand.gone{opacity:.18;pointer-events:none;}',
         '.sh-sronly{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);}',

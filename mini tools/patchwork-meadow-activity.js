@@ -270,13 +270,13 @@
         '.pm-cell{cursor:default;}',
         '.pm-cand.patch{background:#146B5E;border:2.5px solid #0F4A40;}',
         '.pm-cand.over{background:#F2784B;border:2.5px solid #C2410C;}',
-        '.pm-cand .pm-x2{position:absolute;right:3px;top:1px;font:800 .72rem/1 Baloo 2,Nunito,sans-serif;color:#fff;}',
+        '.pm-cand .pm-x2{position:absolute;right:3px;top:1px;font:800 .72rem/1 "Baloo 2",Nunito,sans-serif;color:#fff;}',
         '.pm-gap{width:var(--pm-cell);height:var(--pm-cell);}',
         /* bloomed (knit) — solid touching squares = one continuous meadow */
         '.pm-cell.bloom{background:#5AA469;border:none;border-radius:0;}',
         /* estimate number choices (the only -choice answer cards) */
         '.pm-choices{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;width:100%;}',
-        '.pm-choice{min-width:clamp(66px,16vw,108px);min-height:clamp(52px,9vw,72px);border:2.8px solid #146B5E;border-radius:16px;background:#fff;color:#0F4A40;cursor:pointer;font:800 clamp(1.45rem,5vw,2.1rem)/1 Baloo 2,Nunito,sans-serif;padding:6px 16px;}',
+        '.pm-choice{min-width:clamp(66px,16vw,108px);min-height:clamp(52px,9vw,72px);border:2.8px solid #146B5E;border-radius:16px;background:#fff;color:#0F4A40;cursor:pointer;font:800 clamp(1.45rem,5vw,2.1rem)/1 "Baloo 2",Nunito,sans-serif;padding:6px 16px;}',
         '.pm-choice.dim{opacity:.4;}',
         '.pm-sronly{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);}',
         '.pm-sprout-svg .pm-eyes-happy{display:none;}',

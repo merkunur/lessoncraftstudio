@@ -177,7 +177,7 @@
         /* which = a row of cog buttons */
         '.af-cogrow{display:flex;justify-content:center;gap:14px;width:100%;}',
         '.af-cogrow .af-cand{flex:1 1 0;min-width:0;max-width:138px;min-height:clamp(104px,17vw,134px);flex-direction:column;gap:3px;padding:6px 4px;}',
-        '.af-cog-label{font:800 clamp(1.05rem,3.6vw,1.5rem)/1 Baloo 2,Nunito,sans-serif;color:#0F4A40;}',
+        '.af-cog-label{font:800 clamp(1.05rem,3.6vw,1.5rem)/1 "Baloo 2",Nunito,sans-serif;color:#0F4A40;}',
         '.af-cog-sense{font:700 clamp(.7rem,2.2vw,.84rem)/1 Nunito,sans-serif;color:#146B5E;letter-spacing:.02em;}',
         '.af-cand{border:3px solid #146B5E;border-radius:15px;background:#fff;color:#0F4A40;cursor:pointer;display:flex;align-items:center;justify-content:center;text-align:center;box-sizing:border-box;}',
         '.af-cand.sel{box-shadow:0 0 0 3px #F2784B;}',

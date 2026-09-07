@@ -188,7 +188,7 @@
         '.mb-scene{width:100%;height:auto;display:block;}',
         '.mb-scene.glow .mb-vessel{filter:drop-shadow(0 0 6px #F2C14E);}',
         '.mb-row{display:flex;justify-content:center;align-items:stretch;width:100%;gap:14px;}',
-        '.mb-cand{flex:1 1 0;min-width:0;max-width:170px;min-height:clamp(54px,8vw,82px);border:3px solid #146B5E;border-radius:16px;background:#fff;color:#0F4A40;cursor:pointer;font:800 clamp(1.45rem,5.5vw,2.5rem)/1 Baloo 2,Nunito,sans-serif;display:flex;align-items:center;justify-content:center;}',
+        '.mb-cand{flex:1 1 0;min-width:0;max-width:170px;min-height:clamp(54px,8vw,82px);border:3px solid #146B5E;border-radius:16px;background:#fff;color:#0F4A40;cursor:pointer;font:800 clamp(1.45rem,5.5vw,2.5rem)/1 "Baloo 2",Nunito,sans-serif;display:flex;align-items:center;justify-content:center;}',
         '.mb-cand.sel{box-shadow:0 0 0 3px #F2784B;}',
         '.mb-cand.dim{opacity:.4;}',
         '.mb-maple-svg .mb-eyes-happy,.mb-maple-svg .mb-mouth-happy{display:none;}',

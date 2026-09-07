@@ -82,16 +82,16 @@
     },
     "page_intro": {
       "en": "A free interactive Grade 2 math activity: build a rectangular array — equal rows — and find the total by repeated addition (4 + 4 + 4 = 12). Tap to fill the rows, watch the equal groups add up, then type how many in all. Common Core 2.OA.C.4.",
-      "de": "Passend zum Lehrplan (2.OA.C.4): Dein Kind baut ein Gitter aus gleich langen Reihen und findet die Gesamtzahl durch wiederholte Addition – die Brücke zum Einmaleins in der 2. Klasse.",
-      "es": "Actividad interactiva para segundo de primaria: arma filas iguales en un arreglo rectangular y descubre el total con suma repetida. Alineada al Currículo LOMLOE (2.OA.C.4).",
-      "pt": "Atividade alinhada à BNCC (2.OA.C.4): a criança preenche fileiras iguais para montar uma matriz retangular e descobre o total por adição repetida, preparando a multiplicação no 2º ano.",
-      "fr": "Une activité de CE1 (2.OA.C.4, Programmes officiels) : remplis un quadrillage en rangées égales, puis trouve le total grâce à l'addition répétée pour préparer la multiplication.",
-      "it": "Un'attività di classe seconda allineata alle Indicazioni nazionali (2.OA.C.4): il bambino costruisce righe uguali in uno schieramento rettangolare e trova il totale con l'addizione ripetuta.",
-      "nl": "In deze activiteit (2.OA.C.4, afgestemd op de SLO-kerndoelen) bouwt je kind een rooster met evenveel vakjes in elke rij en vindt het totaal door de rijen herhaald op te tellen.",
-      "sv": "Bygg lika rader i ett rutnät och räkna ut totalsumman med upprepad addition. Aktiviteten övar 2.OA.C.4 enligt Lgr22 och förbereder eleven inför multiplikation i åk 2.",
-      "da": "I denne aktivitet (2.OA.C.4, Fælles Mål) bygger barnet et gitter med lige store rækker og finder, hvor mange der er i alt, ved hjælp af gentagen addition.",
-      "no": "Bygg like rader i et rutenett og finn hvor mange det er til sammen med gjentatt addisjon. Matematikkaktivitet for 2. trinn, knyttet til 2.OA.C.4 i rammeverket LK20.",
-      "fi": "Rakenna yhtä suuret rivit suorakulmaiseksi taulukoksi ja selvitä yhteismäärä toistuvalla yhteenlaskulla. Harjoitus tukee OPS 2014 -tavoitteita ja taitoa 2.OA.C.4."
+      "de": "Passend zum Lehrplan: Dein Kind baut ein Gitter aus gleich langen Reihen und findet die Gesamtzahl durch wiederholte Addition – die Brücke zum Einmaleins in der 2. Klasse.",
+      "es": "Actividad interactiva para segundo de primaria: arma filas iguales en un arreglo rectangular y descubre el total con suma repetida. Alineada a los planes y programas de estudio de la SEP.",
+      "pt": "Atividade alinhada à BNCC: a criança preenche fileiras iguais para montar uma matriz retangular e descobre o total por adição repetida, preparando a multiplicação no 2º ano.",
+      "fr": "Une activité de CE1 (Programmes officiels) : remplis un quadrillage en rangées égales, puis trouve le total grâce à l'addition répétée pour préparer la multiplication.",
+      "it": "Un'attività di classe seconda allineata alle Indicazioni nazionali: il bambino costruisce righe uguali in uno schieramento rettangolare e trova il totale con l'addizione ripetuta.",
+      "nl": "In deze activiteit (afgestemd op de SLO-kerndoelen) bouwt je kind een rooster met evenveel vakjes in elke rij en vindt het totaal door de rijen herhaald op te tellen.",
+      "sv": "Bygg lika stora rader i ett rutnät och räkna ut totalsumman med upprepad addition. Aktiviteten följer Lgr22 och förbereder eleven inför multiplikation i åk 2.",
+      "da": "I denne aktivitet (Fælles Mål) bygger barnet et gitter med lige store rækker og finder, hvor mange der er i alt, ved hjælp af gentagen addition.",
+      "no": "Bygg rader med like mange i et rutenett og finn hvor mange det er til sammen med gjentatt addisjon. Matematikkaktivitet for 2. trinn, knyttet til læreplanen LK20.",
+      "fi": "Rakenna yhtä suuret rivit ruudukkoon ja selvitä yhteismäärä toistuvalla yhteenlaskulla. Harjoitus tukee OPS 2014 -tavoitteita ja pohjustaa kertolaskua 2. luokalla."
     },
     "kid_prompt_template": "build-array"
   },
@@ -179,15 +179,15 @@
     "page_intro": {
       "en": "A free interactive Grade 2 math activity: make equal groups — the same number in each — and find the total by repeated addition (4 + 4 + 4 = 12). Tap to fill the groups, watch them add up, then type how many in all. Common Core 2.OA.C.4.",
       "de": "Einmaleins-Reihen verstehen: gleiche Gruppen bilden und mit wiederholter Addition rechnen. Kostenlos online üben, ohne Anmeldung.",
-      "es": "Actividad interactiva de grupos iguales y suma repetida para niñas y niños de 2.º de primaria, alineada al Currículo LOMLOE (equivalente a 2.OA.C.4). El alumno forma grupos con la misma cantidad, observa la suma repetida y escribe el total.",
-      "pt": "Atividade interativa de grupos iguais e adição repetida para crianças do 2º ano (cerca de 7 anos). Alinhada à BNCC, ela prepara o raciocínio multiplicativo (equivalente à habilidade 2.OA.C.4): a criança monta grupos com a mesma quantidade e descobre o total.",
+      "es": "Actividad interactiva de grupos iguales y suma repetida para niñas y niños de 2.º de primaria, alineada a los planes y programas de la SEP. El alumno forma grupos con la misma cantidad, observa la suma repetida y escribe el total.",
+      "pt": "Atividade interativa de grupos iguais e adição repetida para crianças do 2º ano (cerca de 7 anos). Alinhada à BNCC, ela prepara o raciocínio multiplicativo: a criança monta grupos com a mesma quantidade e descobre o total.",
       "fr": "Exercice en ligne sur la table de multiplication : groupes égaux et addition répétée pour comprendre. Gratuit, en ligne, sans inscription.",
-      "it": "Un'attività interattiva per la classe seconda in cui i bambini formano gruppi uguali e usano l'addizione ripetuta per trovare il totale, in linea con le Indicazioni nazionali (2.OA.C.4).",
-      "nl": "Met deze interactieve oefening maakt je kind gelijke groepen en telt het herhaald op om het totaal te vinden. De activiteit sluit aan bij de SLO-kerndoelen voor rekenen in groep 4 (2.OA.C.4).",
-      "sv": "Öva lika grupper och upprepad addition i denna interaktiva aktivitet för åk 2. Eleven fyller lika stora grupper, ser additionen byggas upp och räknar ut summan, i linje med Lgr22 (2.OA.C.4).",
-      "da": "Øv lige store grupper og gentagen addition med denne interaktive opgave til 2. klasse. Aktiviteten følger Fælles Mål og understøtter målet bag 2.OA.C.4, hvor børn bygger grupper og finder det samlede antal.",
-      "no": "I denne aktiviteten lager barna like grupper og bruker gjentatt addisjon for å finne hvor mange det blir til sammen. Oppgaven støtter mål i matematikk fra LK20 for 2. trinn og tilsvarer 2.OA.C.4.",
-      "fi": "Harjoittele yhtä suurten ryhmien tekemistä ja toistuvaa yhteenlaskua tällä toiminnallisella tehtävällä 2. luokan oppilaille. Tehtävä tukee OPS 2014 -opetussuunnitelman tavoitteita (2.OA.C.4): lapsi rakentaa ryhmät, seuraa yhteenlaskua ja laskee kokonaismäärän."
+      "it": "Un'attività interattiva per la classe seconda in cui i bambini formano gruppi uguali e usano l'addizione ripetuta per trovare il totale, in linea con le Indicazioni nazionali.",
+      "nl": "Met deze interactieve oefening maakt je kind gelijke groepen en telt het herhaald op om het totaal te vinden. De activiteit sluit aan bij de SLO-kerndoelen voor rekenen in groep 4.",
+      "sv": "Öva lika grupper och upprepad addition i denna interaktiva aktivitet för åk 2. Eleven fyller lika stora grupper, ser additionen byggas upp och räknar ut summan, i linje med Lgr22.",
+      "da": "Lav lige store grupper, og øv gentagen addition med denne interaktive opgave til 2. klasse. Aktiviteten følger Fælles Mål: børnene bygger grupper og finder det samlede antal.",
+      "no": "I denne aktiviteten lager barna like store grupper og bruker gjentatt addisjon for å finne hvor mange det blir til sammen. Oppgaven støtter kompetansemålene i matematikk for 2. trinn i LK20.",
+      "fi": "Harjoittele yhtä suurten ryhmien tekemistä ja toistuvaa yhteenlaskua tällä toiminnallisella tehtävällä 2. luokan oppilaille. Tehtävä tukee OPS 2014 -opetussuunnitelman tavoitteita: lapsi rakentaa ryhmät, seuraa yhteenlaskua ja laskee kokonaismäärän."
     },
     "kid_prompt_template": "equal-groups"
   }

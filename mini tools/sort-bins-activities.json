@@ -168,16 +168,16 @@
     },
     "page_intro": {
       "en": "A free interactive Grade 2 geometry activity: drag each shape into the right bin — triangles, quadrilaterals, pentagons and hexagons — by counting its sides. Common Core 2.G.A.1.",
-      "de": "Kostenlose interaktive Geometrie-Übung für die 2. Klasse: Ziehe jede Form in den richtigen Korb – Dreiecke, Vierecke, Fünfecke und Sechsecke – und zähle dabei die Ecken. Passend zum Lehrplan (2.G.A.1).",
+      "de": "Kostenlose interaktive Geometrie-Übung für die 2. Klasse: Ziehe jede Form in den richtigen Korb – Dreiecke, Vierecke, Fünfecke und Sechsecke – und zähle dabei die Ecken. Passend zum Lehrplan.",
       "es": "Actividad gratis e interactiva de geometría para segundo de primaria: arrastra cada figura a su caja y clasifícala por su número de lados (3, 4, 5 o 6). Cuenta y aprende jugando.",
-      "pt": "Atividade de geometria gratuita e interativa para o 2º ano: arraste e classifique cada figura por número de lados — triângulos, quadriláteros, pentágonos e hexágonos. Alinhada à BNCC (2.G.A.1).",
+      "pt": "Atividade de geometria gratuita e interativa para o 2º ano: arraste e classifique cada figura por número de lados — triângulos, quadriláteros, pentágonos e hexágonos. Alinhada à BNCC.",
       "fr": "Exercice de géométrie CE1 en ligne : trier triangles, quadrilatères, pentagones et hexagones par côtés. Gratuit, sans inscription.",
-      "it": "Attività di geometria gratuita e interattiva per la classe seconda della scuola primaria: trascina ogni figura nel contenitore giusto e ordinala per numero di lati. In linea con le Indicazioni nazionali (2.G.A.1).",
-      "nl": "Gratis interactieve meetkunde voor groep 4: sleep en sorteer elke vorm in de juiste bak op het aantal zijden — driehoeken, vierhoeken, vijfhoeken en zeshoeken. Sluit aan op de SLO-kerndoelen (CCSS 2.G.A.1).",
-      "sv": "En gratis interaktiv geometriövning för åk 2: dra varje form till rätt låda — trianglar, fyrhörningar, femhörningar eller sexhörningar — genom att räkna antalet sidor. Följer Lgr22 (2.G.A.1).",
-      "da": "En gratis, interaktiv geometriøvelse til 2. klasse: træk og sortér hver figur i den rigtige kasse efter antal sider — trekanter, firkanter, femkanter og sekskanter. Fælles Mål (2.G.A.1).",
-      "no": "Gratis interaktiv geometrioppgave for 2. trinn: dra og sorter hver form i riktig boks etter antall sider – trekanter, firkanter, femkanter og sekskanter. Følger LK20 (CCSS 2.G.A.1).",
-      "fi": "Ilmainen vuorovaikutteinen geometriatehtävä 2. luokalle: vedä ja lajittele jokainen kuvio sivujen lukumäärän mukaan oikeaan laatikkoon. OPS 2014 (CCSS 2.G.A.1)."
+      "it": "Attività di geometria gratuita e interattiva per la classe seconda della scuola primaria: trascina ogni figura nel contenitore giusto e ordinala per numero di lati. In linea con le Indicazioni nazionali.",
+      "nl": "Gratis interactieve meetkunde voor groep 4: sleep en sorteer elke vorm in de juiste bak op het aantal zijden — driehoeken, vierhoeken, vijfhoeken en zeshoeken. Sluit aan op de SLO-kerndoelen.",
+      "sv": "En gratis interaktiv geometriövning för åk 2: dra varje form till rätt låda — trianglar, fyrhörningar, femhörningar eller sexhörningar — genom att räkna antalet sidor. Följer Lgr22.",
+      "da": "En gratis, interaktiv geometriøvelse til 2. klasse: træk og sortér hver figur i den rigtige kasse efter antal sider — trekanter, firkanter, femkanter og sekskanter. Fælles Mål.",
+      "no": "Gratis interaktiv geometrioppgave for 2. trinn: dra og sorter hver form i riktig boks etter antall sider – trekanter, firkanter, femkanter og sekskanter. Følger LK20.",
+      "fi": "Ilmainen vuorovaikutteinen geometriatehtävä 2. luokalle: vedä ja lajittele jokainen kuvio sivujen lukumäärän mukaan oikeaan laatikkoon. OPS 2014."
     },
     "kid_prompt_template": "sort-by-sides"
   },
@@ -330,16 +330,16 @@
     },
     "page_intro": {
       "en": "A free interactive Grade 1 geometry activity: a triangle is still a triangle even when its colour, size, or direction changes. Drag each shape into the right box — sort by what it IS (its number of sides), not how it looks. Common Core 1.G.A.1.",
-      "de": "Kostenlose interaktive Geometrie-Übung für die 1. Klasse: Sortiere jede Form in den richtigen Korb und erkenne sie an ihren Ecken – egal welche Farbe, Größe oder Drehung. Passend zum Lehrplan (1.G.A.1).",
-      "es": "Un triángulo sigue siendo triángulo aunque cambie de color, tamaño o dirección. Tu peque clasifica figuras por su número de lados (Currículo LOMLOE, 1.G.A.1).",
-      "pt": "Atividade interativa em que a criança reconhece cada figura pelo número de lados, mesmo mudando a cor, o tamanho ou a direção. Alinhada à BNCC (1.G.A.1).",
+      "de": "Kostenlose interaktive Geometrie-Übung für die 1. Klasse: Sortiere jede Form in den richtigen Korb und erkenne sie an ihren Ecken – egal welche Farbe, Größe oder Drehung. Passend zum Lehrplan.",
+      "es": "Un triángulo sigue siendo triángulo aunque cambie de color, tamaño o posición. Tu peque clasifica figuras por su número de lados, de acuerdo con los planes y programas de la SEP.",
+      "pt": "Atividade interativa em que a criança reconhece cada figura pelo número de lados, mesmo mudando a cor, o tamanho ou a direção. Alinhada à BNCC.",
       "fr": "Trier les formes selon leurs côtés : triangles, quadrilatères, pentagones et hexagones. Gratuit, en ligne, sans inscription.",
-      "it": "Un'attività di geometria per la classe prima: riconosci ogni figura dal numero di lati, non dal colore o dalla grandezza. In linea con le Indicazioni nazionali (1.G.A.1).",
-      "nl": "Sleep elke vorm naar de juiste bak en herken hem aan het aantal zijden — niet aan kleur, grootte of richting. Sluit aan op de SLO-kerndoelen (CCSS 1.G.A.1).",
-      "sv": "Barnen lär sig känna igen former efter antalet sidor – inte färg, storlek eller riktning. En triangel är en triangel även när den är röd, stor eller vänd åt ett annat håll. Följer Lgr22 (1.G.A.1).",
-      "da": "Lær figurer at kende efter antallet af sider — ikke efter farve, størrelse eller retning. En sjov geometriaktivitet til 1. klasse, der følger Fælles Mål (1.G.A.1).",
-      "no": "Barna kjenner igjen former etter antall sider – uansett farge, størrelse eller retning – og sorterer dem i riktig boks. Følger LK20 (CCSS 1.G.A.1).",
-      "fi": "Ilmainen vuorovaikutteinen geometriatehtävä 1. luokalle: lapsi oppii, että kolmio on aina kolmio – olipa se punainen, iso, pieni tai käännetty. Lajittele kuviot sivujen määrän mukaan. OPS 2014 (CCSS 1.G.A.1)."
+      "it": "Un'attività di geometria per la classe prima: riconosci ogni figura dal numero di lati, non dal colore o dalla grandezza. In linea con le Indicazioni nazionali.",
+      "nl": "Sleep elke vorm naar de juiste bak en herken hem aan het aantal zijden — niet aan kleur, grootte of richting. Sluit aan op de SLO-kerndoelen.",
+      "sv": "Barnen lär sig känna igen former efter antalet sidor – inte färg, storlek eller riktning. En triangel är en triangel även när den är röd, stor eller vänd åt ett annat håll. Följer Lgr22.",
+      "da": "Lær figurer at kende efter antallet af sider — ikke efter farve, størrelse eller retning. En sjov geometriaktivitet til 1. klasse, der følger Fælles Mål.",
+      "no": "Barna kjenner igjen former etter antall sider – uansett farge, størrelse eller retning – og sorterer dem i riktig boks. Følger LK20.",
+      "fi": "Ilmainen vuorovaikutteinen geometriatehtävä 1. luokalle: lapsi oppii, että kolmio on aina kolmio – olipa se punainen, iso, pieni tai käännetty. Lajittele kuviot sivujen määrän mukaan. OPS 2014."
     },
     "kid_prompt_template": "defining-attributes"
   }

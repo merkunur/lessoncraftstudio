@@ -83,15 +83,15 @@
     "page_intro": {
       "en": "A free interactive Kindergarten math activity: the whole is 10 and one part is filled — tap the empty part of the number bond to add counters until both parts make 10. Find the number that makes 10. Common Core K.OA.A.4.",
       "de": "Zahlenhäuser bis 10: das Zahlenhaus der Zehn füllen und Zehnerfreunde entdecken – ideal für Vorschule und Schulstart. Kostenlos online, ohne Anmeldung.",
-      "es": "Una actividad de matemáticas gratuita e interactiva para Educación Infantil: descubre los amigos del 10 completando la parte que falta del diagrama parte-parte-todo, a tu ritmo y sin prisas. Alineada al Currículo LOMLOE (K.OA.A.4): para cualquier número del 1 al 9, encuentra el número que forma 10.",
-      "pt": "Atividade alinhada à BNCC (K.OA.A.4): descubra os amigos do 10 montando o número juntos, no seu ritmo. Uma atividade interativa e gratuita de matemática para a educação infantil, com fichas para tocar e contar sem pressa.",
+      "es": "Una actividad de matemáticas gratuita e interactiva para preescolar: descubre los amigos del 10 completando la parte que falta del diagrama parte-parte-todo, a tu ritmo y sin prisas. Alineada a los planes y programas de estudio de la SEP: para cualquier número del 1 al 9, encuentra el número que forma 10.",
+      "pt": "Atividade alinhada à BNCC: descubra os amigos do 10 montando o número juntos, no seu ritmo. Uma atividade interativa e gratuita de matemática para a educação infantil, com fichas para tocar e contar sem pressa.",
       "fr": "Comme dans la maison des nombres : trouver les deux parties qui font 10, les amis de 10. Gratuit, en ligne, sans inscription.",
-      "it": "Un'attività interattiva e gratuita allineata alle Indicazioni nazionali (K.OA.A.4): i bambini scoprono gli amici del 10 toccando per aggiungere le pedine finché le due parti formano l'intero. Con tempo e tranquillità, senza fretta e senza punteggi, ogni tentativo è un piccolo passo per imparare.",
-      "nl": "In deze activiteit (K.OA.A.4, afgestemd op de SLO-kerndoelen) ontdekken kleuters spelenderwijs welk getal samen met een ander getal 10 maakt. Tik op het lege deel, voeg fiches toe en zoek samen de vrienden van 10 — helemaal gratis en zonder druk.",
-      "sv": "En gratis interaktiv matteaktivitet där barnet hittar tiokompisen och delar upp talet 10 i två delar. Aktiviteten övar K.OA.A.4 enligt Lgr22 och passar barn i förskoleklass som börjar utforska hur tal kan byggas ihop.",
-      "da": "I denne aktivitet (K.OA.A.4, Fælles Mål) finder børnene tallet, der mangler for at lave 10. Det er en gratis, interaktiv matematikaktivitet til børnehaveklassen, hvor man roligt kan prøve sig frem og lære vennerne til 10 i sit eget tempo.",
-      "no": "Gratis interaktiv matematikkaktivitet der barna øver på tiervenner: de fyller den tomme delen til de to delene blir 10. Aktiviteten er knyttet til K.OA.A.4 i rammeverket LK20, og passer fint for barn på 5–6 år som tar sine første steg med tall – i et trygt tempo og helt uten stress.",
-      "fi": "Ilmainen interaktiivinen esiopetuksen matematiikkaharjoitus, jossa lapsi etsii kympin kaverit eli luvun 10 hajotelman. Harjoitus tukee OPS 2014 -tavoitteita ja taitoa K.OA.A.4: lapsi löytää jokaiselle luvulle 1–9 sen parin, joka täydentää sen kymmeneksi — omaan tahtiin ja ilman kiirettä."
+      "it": "Un'attività interattiva e gratuita allineata alle Indicazioni nazionali: i bambini scoprono gli amici del 10 toccando per aggiungere le pedine finché le due parti formano l'intero. Con tempo e tranquillità, senza fretta e senza punteggi, ogni tentativo è un piccolo passo per imparare.",
+      "nl": "In deze activiteit (afgestemd op de SLO-kerndoelen) ontdekken kleuters spelenderwijs welk getal samen met een ander getal 10 maakt. Tik op het lege deel, voeg fiches toe en zoek samen de vrienden van 10 — helemaal gratis en zonder druk.",
+      "sv": "En gratis interaktiv matteaktivitet där barnet hittar tiokompisen och delar upp talet 10 i två delar. Aktiviteten följer Lgr22 och passar barn i förskoleklass som börjar utforska hur tal kan byggas ihop.",
+      "da": "I denne aktivitet (Fælles Mål) finder børnene tallet, der mangler for at lave 10. Det er en gratis, interaktiv matematikaktivitet til børnehaveklassen, hvor man roligt kan prøve sig frem og lære vennerne til 10 i sit eget tempo.",
+      "no": "Gratis interaktiv matematikkaktivitet der barna øver på tiervenner: de fyller den tomme delen til de to delene blir 10. Aktiviteten er knyttet til læreplanen LK20, og passer fint for barn på 5–6 år som tar sine første steg med tall – i et trygt tempo og helt uten stress.",
+      "fi": "Ilmainen interaktiivinen esiopetuksen matematiikkaharjoitus, jossa lapsi etsii kympin kaverit eli luvun 10 hajotelmat. Harjoitus tukee OPS 2014 -tavoitteita: lapsi löytää jokaiselle luvulle 1–9 sen parin, joka täydentää sen kymmeneksi — omaan tahtiin ja ilman kiirettä."
     },
     "kid_prompt_template": "make-ten"
   },
@@ -179,15 +179,15 @@
     "page_intro": {
       "en": "A free interactive Grade 1 math activity: add within 20 with the make-a-ten strategy. For a sum like 8 + 5, break the 5 on a number bond so one part makes 10 with the 8 (8 + 2 = 10), then add what's left (10 + 3 = 13). Tap to fill the make-a-ten part. Common Core 1.OA.C.6.",
       "de": "Lernspiel Mathe für die 1. Klasse: über die Zehn addieren bis 20 – interaktiv am Bildschirm. Kostenlos online, ohne Anmeldung.",
-      "es": "Actividad interactiva y gratuita de matemáticas para 1.º de primaria: suma hasta 20 usando la estrategia de hacer una decena. Alineada al Currículo LOMLOE (1.OA.C.6): el niño separa un número para formar 10 y sumar con más facilidad.",
-      "pt": "Atividade alinhada à BNCC (1.OA.C.6): some até 20 fazendo uma dezena, uma estratégia que deixa as contas mais fáceis e divertidas. Uma atividade interativa e gratuita de matemática para crianças do 1º ano.",
+      "es": "Actividad interactiva y gratuita de matemáticas para 1.º de primaria: suma hasta 20 usando la estrategia de hacer una decena. Alineada a los planes y programas de estudio de la SEP: el niño separa un número para formar 10 y sumar con más facilidad.",
+      "pt": "Atividade alinhada à BNCC: some até 20 fazendo uma dezena, uma estratégia que deixa as contas mais fáceis e divertidas. Uma atividade interativa e gratuita de matemática para crianças do 1º ano.",
       "fr": "Jeu de calcul en ligne pour les 6-7 ans : faire dix pour additionner jusqu'à 20. Gratuit, en ligne, sans inscription.",
-      "it": "Un'attività allineata alle Indicazioni nazionali (1.OA.C.6): i bambini imparano ad addizionare entro il 20 usando la strategia del fare dieci con gli amici del 10. Gioca gratis e scopri quanto è facile e divertente comporre la decina!",
-      "nl": "In deze activiteit (1.OA.C.6, afgestemd op de SLO-kerndoelen) oefent je kind het rekenen over het tiental: optellen tot 20 door eerst aan te vullen tot tien. Een warme, gratis rekenactiviteit voor groep 3 waarbij kinderen leren splitsen om handig op te tellen.",
-      "sv": "I den här gratis matteövningen för åk 1 tränar barnet på att addera inom 20 med strategin tiotalsövergång – att först göra en tia. Aktiviteten övar 1.OA.C.6 enligt Lgr22 och passar perfekt för att bygga säker huvudräkning på ett lekfullt sätt.",
-      "da": "I denne aktivitet (1.OA.C.6, Fælles Mål) øver dit barn at lægge tal sammen op til 20 ved at lave en tier (tierovergang). Barnet deler det andet tal, så det første tal lige nøjagtig bliver til 10 - en tryg og sjov måde at få styr på de svære plusstykker.",
-      "no": "Matematikkaktivitet knyttet til 1.OA.C.6 i rammeverket LK20. I denne gratis interaktive aktiviteten for 1. trinn øver barna på å legge sammen opp til 20 ved å lage en tier (tierovergang) – en trygg og lekende måte å bygge god tallforståelse på.",
-      "fi": "Tässä maksuttomassa 1. luokan tehtävässä harjoitellaan yhteenlaskua kahteenkymmeneen kympin ylityksen avulla: lapsi jakaa luvun ja täyttää ensin kympin. Harjoitus tukee OPS 2014 -tavoitteita ja taitoa 1.OA.C.6 luontevalla, kannustavalla tavalla."
+      "it": "Un'attività allineata alle Indicazioni nazionali: i bambini imparano ad addizionare entro il 20 usando la strategia del fare dieci con gli amici del 10. Gioca gratis e scopri quanto è facile e divertente comporre la decina!",
+      "nl": "In deze activiteit (afgestemd op de SLO-kerndoelen) oefent je kind het rekenen over het tiental: optellen tot 20 door eerst aan te vullen tot tien. Een warme, gratis rekenactiviteit voor groep 3 waarbij kinderen leren splitsen om handig op te tellen.",
+      "sv": "I den här gratis matteövningen för åk 1 tränar barnet på att addera inom 20 med strategin tiotalsövergång – att först göra en tia. Aktiviteten följer Lgr22 och passar perfekt för att bygga säker huvudräkning på ett lekfullt sätt.",
+      "da": "I denne aktivitet (Fælles Mål) øver dit barn at lægge tal sammen op til 20 ved at lave en tier (tierovergang). Barnet deler det andet tal, så det første tal lige nøjagtig bliver til 10 - en tryg og sjov måde at få styr på de svære plusstykker.",
+      "no": "Matematikkaktivitet knyttet til læreplanen LK20. I denne gratis interaktive aktiviteten for 1. trinn øver barna på å legge sammen opp til 20 ved å lage en tier (tierovergang) – en trygg og lekende måte å bygge god tallforståelse på.",
+      "fi": "Tässä maksuttomassa 1. luokan tehtävässä harjoitellaan yhteenlaskua lukualueella 0–20 kympin ylityksen avulla: lapsi jakaa luvun ja täyttää ensin kympin. Harjoitus tukee OPS 2014 -tavoitteita luontevalla, kannustavalla tavalla."
     },
     "kid_prompt_template": "make-ten-to-add"
   },
@@ -265,25 +265,25 @@
       "es": "Encuentra el total — suma hasta 20 para 1.º de primaria",
       "pt": "Encontre o Total — Atividade de Matemática para o 1º ano",
       "fr": "Additions en ligne CP – trouve le total (jusqu'à 20)",
-      "it": "Trova il totale – matematica classe prima (1.OA.A.1)",
+      "it": "Trova il totale – matematica classe prima",
       "nl": "Vind het totaal – gratis rekenactiviteit groep 3 (optellen tot 20)",
       "sv": "Hitta det hela – addition inom 20, åk 1 | Gratis mattaktivitet",
       "da": "Find det hele – matematik for 1. klasse",
-      "no": "Finn summen – addisjon opp til 20 for 1. trinn (1.OA.A.1)",
+      "no": "Finn summen – addisjon opp til 20 for 1. trinn",
       "fi": "Etsi kokonaisuus – yhteenlasku, 1. luokka | maksuton harjoitus"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 math activity: a number bond shows two parts — count how many there are in all and type the total. Putting together to add within 20. Common Core 1.OA.A.1.",
-      "de": "Passend zum Lehrplan (1.OA.A.1): Ein Zahlenbild zeigt zwei Teile, und dein Kind findet das Ganze, indem es beide Teile zusammenzählt (Addition bis 20). Diese kostenlose interaktive Mathe-Übung für die Klasse 1 macht das Zusammensetzen von Zahlen spielerisch und ohne Druck begreifbar.",
-      "es": "Actividad de matemáticas interactiva y gratuita para 1.º de primaria: un diagrama de partes y todo muestra las dos partes y los peques averiguan el todo contando cuántos hay en total (suma hasta 20, componer números). Alineada con el Currículo LOMLOE (1.OA.A.1).",
-      "pt": "Atividade interativa e gratuita de matemática para o 1º ano: um diagrama de partes e todo mostra as duas partes, e a criança encontra o todo contando quantos há ao todo (adição até 20, juntando e compondo). Alinhada à BNCC (1.OA.A.1).",
+      "de": "Passend zum Lehrplan: Ein Zahlenbild zeigt zwei Teile, und dein Kind findet das Ganze, indem es beide Teile zusammenzählt (Addition bis 20). Diese kostenlose interaktive Mathe-Übung für die Klasse 1 macht das Zusammensetzen von Zahlen spielerisch und ohne Druck begreifbar.",
+      "es": "Actividad de matemáticas interactiva y gratuita para 1.º de primaria: un diagrama de partes y todo muestra las dos partes y los peques averiguan el todo contando cuántos hay en total (suma hasta 20, componer números). Alineada a los planes y programas de estudio de la SEP.",
+      "pt": "Atividade interativa e gratuita de matemática para o 1º ano: um diagrama de partes e todo mostra as duas partes, e a criança encontra o todo contando quantos há ao todo (adição até 20, juntando e compondo). Alinhada à BNCC.",
       "fr": "Exercices d'addition en ligne pour le CP : trouver le total jusqu'à 20 avec l'arbre des nombres. Gratuit, en ligne, sans inscription.",
-      "it": "Un'attività di matematica interattiva e gratuita per la classe prima: un legame tra numeri mostra due parti e i bambini trovano l'intero, cioè il totale (addizione entro il 20, comporre). Allineata alle Indicazioni nazionali (1.OA.A.1).",
-      "nl": "In deze activiteit (1.OA.A.1, afgestemd op de SLO-kerndoelen) zie je een splitsing met twee delen. Tel ze samen en ontdek het geheel: zo oefen je spelenderwijs optellen tot 20.",
-      "sv": "I den här gratis interaktiva mattaktiviteten för åk 1 visar ett tiokompis-diagram två delar, och barnet räknar ut det hela – summan av delarna (addition inom 20, att sätta ihop delar till en helhet). Aktiviteten övar 1.OA.A.1 enligt Lgr22 på ett varmt och lekfullt sätt.",
-      "da": "I denne aktivitet (1.OA.A.1, Fælles Mål) viser en taldeling to dele – nu skal du finde det hele. Tæl med, læg de to dele sammen op til 20, og skriv hvor mange der er i alt.",
-      "no": "Matematikkaktivitet knyttet til 1.OA.A.1 i rammeverket LK20. I denne gratis aktiviteten for 1. trinn viser et tallvenn-bilde to deler – tell hvor mange det er til sammen, og finn det hele (addisjon opp til 20, å sette sammen).",
-      "fi": "Maksuton interaktiivinen 1.-luokan matematiikkaharjoitus: lukukolmiossa näkyy kaksi osaa, ja lapsi etsii niistä kokonaisuuden eli summan. Harjoitus tukee OPS 2014 -tavoitteita ja taitoa 1.OA.A.1, jossa harjoitellaan yhteenlaskua kahteenkymmeneen ja osista koottavaa kokonaisuutta."
+      "it": "Un'attività di matematica interattiva e gratuita per la classe prima: un legame tra numeri mostra due parti e i bambini trovano l'intero, cioè il totale (addizione entro il 20, comporre). Allineata alle Indicazioni nazionali.",
+      "nl": "In deze activiteit (afgestemd op de SLO-kerndoelen) zie je een splitsing met twee delen. Tel ze samen en ontdek het geheel: zo oefen je spelenderwijs optellen tot 20.",
+      "sv": "I den här gratis interaktiva matteaktiviteten för åk 1 visar ett talkompisdiagram två delar, och barnet räknar ut helheten – summan av delarna (addition inom 20, att sätta ihop delar till en helhet). Aktiviteten följer Lgr22 och är utformad på ett varmt och lekfullt sätt.",
+      "da": "I denne aktivitet (Fælles Mål) viser en taldeling to dele – nu skal du finde det hele. Tæl med, læg de to dele sammen op til 20, og skriv hvor mange der er i alt.",
+      "no": "Matematikkaktivitet knyttet til læreplanen LK20. I denne gratis aktiviteten for 1. trinn viser et tallvennbilde to deler – tell hvor mange det er til sammen, og finn det hele (addisjon opp til 20, å sette sammen deler til en helhet).",
+      "fi": "Maksuton interaktiivinen 1. luokan matematiikkaharjoitus: lukukolmiossa näkyy kaksi osaa, ja lapsi laskee niistä kokonaisuuden eli summan. Harjoitus tukee OPS 2014 -tavoitteita, joissa harjoitellaan yhteenlaskua lukualueella 0–20 ja osista koottavaa kokonaisuutta."
     },
     "kid_prompt_template": "whole-unknown"
   },
@@ -371,15 +371,15 @@
     "page_intro": {
       "en": "A free interactive Grade 1 math activity: see a subtraction like 8 − 3 as a number bond — the whole and one part are given, fill in the missing part. Builds subtraction as an unknown-addend (3 and ? make 8). Common Core 1.OA.B.4.",
       "de": "Umkehraufgaben üben: den fehlenden Teil finden und Minus als Zahlenzerlegung verstehen – Klasse 1. Kostenlos online, ohne Anmeldung.",
-      "es": "Esta actividad presenta la resta como una descomposición del todo en partes: dado el todo y una parte, el niño descubre la parte que falta para completarlo. Alineada con el Currículo LOMLOE (1.OA.B.4).",
-      "pt": "Nesta atividade, a criança entende a subtração como decomposição: dado o todo e uma parte, ela descobre a parte que falta para completar o número. Alinhada à BNCC (1.OA.B.4), fortalece o raciocínio aditivo e a relação entre adição e subtração no 1º ano.",
-      "fr": "Cette activité présente la soustraction comme un complément : à partir d'un tout et d'une partie connue, l'enfant retrouve la partie manquante en décomposant le nombre. Conforme aux Programmes officiels du cycle 2 (1.OA.B.4).",
-      "it": "Attività di classe prima per scoprire la sottrazione come scomposizione: dato l'intero e una parte, i bambini trovano la parte mancante in uno schema parte-parte-intero. In linea con le Indicazioni nazionali (1.OA.B.4).",
-      "nl": "Bij deze activiteit oefent je kind aftrekken als een splitsing: het geheel en één deel zijn bekend, en je kind zoekt het ontbrekende deel. Deze ontbrekende-deel-aanpak (1.OA.B.4) sluit aan bij de SLO-kerndoelen voor rekenen in groep 4.",
-      "sv": "Här övar barnen subtraktion som att hitta den del som saknas i ett tal. Genom att se det hela och en känd del fyller barnet i talkompisen som saknas, vilket stärker taluppfattningen enligt Lgr22 (1.OA.B.4).",
-      "da": "Her øver børnene subtraktion som opdeling i et talvenne-billede: de ser det hele og den ene del og finder den manglende del. Aktiviteten understøtter Fælles Mål for matematik i 1. klasse og arbejder med subtraktion som en manglende addend (1.OA.B.4).",
-      "no": "Her øver elevene på subtraksjon som oppdeling og som en manglende del: med det hele tallet og én del gitt finner de tallvennen som mangler (1.OA.B.4). Aktiviteten støtter målene i LK20 om addisjon og subtraksjon innenfor tjue.",
-      "fi": "Tässä tehtävässä lapsi harjoittelee vähennyslaskua osina: kokonaisluku ja toinen osa näkyvät, ja lapsi etsii puuttuvan osan, joka on vähennyslaskun vastaus (1.OA.B.4). Harjoitus tukee luvun hajottamista ja yhteen- ja vähennyslaskun yhteyden ymmärtämistä OPS 2014:n tavoitteiden mukaisesti."
+      "es": "Esta actividad presenta la resta como una descomposición del todo en partes: dado el todo y una parte, el niño descubre la parte que falta para completarlo. Alineada a los planes y programas de estudio de la SEP.",
+      "pt": "Nesta atividade, a criança entende a subtração como decomposição: dado o todo e uma parte, ela descobre a parte que falta para completar o número. Alinhada à BNCC, fortalece o raciocínio aditivo e a relação entre adição e subtração no 1º ano.",
+      "fr": "Cette activité présente la soustraction comme un complément : à partir d'un tout et d'une partie connue, l'enfant retrouve la partie manquante en décomposant le nombre. Conforme aux Programmes officiels du cycle 2.",
+      "it": "Attività di classe prima per scoprire la sottrazione come scomposizione: dato l'intero e una parte, i bambini trovano la parte mancante in uno schema parte-parte-intero. In linea con le Indicazioni nazionali.",
+      "nl": "Bij deze activiteit oefent je kind aftrekken als een splitsing: het geheel en één deel zijn bekend, en je kind zoekt het ontbrekende deel. Deze ontbrekende-deel-aanpak sluit aan bij de SLO-kerndoelen voor rekenen in groep 4.",
+      "sv": "Här övar barnen subtraktion som att hitta den del som saknas i ett tal. Genom att se det hela och en känd del fyller barnet i talkompisen som saknas, vilket stärker taluppfattningen enligt Lgr22.",
+      "da": "Her øver børnene subtraktion som opdeling i et talvenne-billede: de ser det hele og den ene del og finder den manglende del. Aktiviteten understøtter Fælles Mål for matematik i 1. klasse og arbejder med subtraktion som en manglende addend.",
+      "no": "Her øver elevene på subtraksjon som oppdeling og som en manglende del: med det hele tallet og én del gitt finner de tallvennen som mangler. Aktiviteten støtter målene i LK20 om addisjon og subtraksjon innenfor tjue.",
+      "fi": "Tässä tehtävässä lapsi harjoittelee vähennyslaskua osina: kokonaisluku ja toinen osa näkyvät, ja lapsi etsii puuttuvan osan, joka on vähennyslaskun vastaus. Harjoitus tukee luvun hajottamista ja yhteen- ja vähennyslaskun yhteyden ymmärtämistä OPS 2014:n tavoitteiden mukaisesti."
     },
     "kid_prompt_template": "unknown-addend"
   },
@@ -474,16 +474,16 @@
     },
     "page_intro": {
       "en": "A free interactive Grade 1 math activity: see three parts join into one whole in a number bond, then add the three numbers and type the total (3 + 4 + 5 = 12). Adding three whole numbers within 20. Common Core 1.OA.A.2.",
-      "de": "Drei Zahlen im Zahlenraum bis 20 als Zahlenbild addieren: Dein Kind liest die drei Teile, zählt zusammen und tippt die Gesamtzahl ein. Passend zum Lehrplan der Klasse 1 (1.OA.A.2).",
-      "es": "En esta actividad los niños suman tres números hasta 20 viendo cómo las tres partes se juntan para formar un total, una primera idea de la descomposición numérica. Apoya el aprendizaje de la suma en 1.º de primaria según el Currículo LOMLOE (1.OA.A.2).",
-      "pt": "Atividade para somar três números cujo total não passa de 20, juntando as partes como uma decomposição (3 + 4 + 5 = 12). Alinhada à BNCC para o 1º ano (1.OA.A.2).",
-      "fr": "Apprends à additionner trois nombres dont la somme va jusqu'à 20, en décomposant le tout en trois parties (1.OA.A.2). Une activité de calcul réfléchi alignée sur les Programmes officiels du cycle 2.",
-      "it": "In questa attività i bambini imparano a sommare tre numeri entro il 20, scomponendo l'intero nelle sue tre parti. In linea con le Indicazioni nazionali, l'esercizio rafforza il calcolo mentale e la comprensione delle relazioni tra le parti e il tutto (1.OA.A.2).",
-      "nl": "Bij deze oefening tel je drie getallen op tot 20 als splitsing: drie delen vormen samen één geheel. Sluit aan bij de SLO-kerndoelen voor rekenen in groep 4 (1.OA.A.2).",
-      "sv": "I den här övningen får barnet addera tre tal med en summa upp till 20. Aktiviteten övar talförståelse och addition enligt Lgr22 (1.OA.A.2).",
-      "da": "Øv at lægge tre tal sammen op til 20. Barnet ser tre dele samlet til ét hele og finder summen. Aktiviteten følger Fælles Mål (1.OA.A.2).",
-      "no": "Øv på å legge sammen tre tall opptil 20 i et morsomt tallvenn-spill. Aktiviteten støtter målene i LK20 og svarer til kompetansemålet 1.OA.A.2.",
-      "fi": "Harjoitellaan kolmen luvun yhteenlaskua kahteenkymmeneen asti: lapsi lukee kolme osaa, laskee ne yhteen ja kirjoittaa summan. Tehtävä tukee OPS 2014:n tavoitteita yhteenlaskutaidon kehittämisessä (1.OA.A.2)."
+      "de": "Drei Zahlen im Zahlenraum bis 20 als Zahlenbild addieren: Dein Kind liest die drei Teile, zählt zusammen und tippt die Gesamtzahl ein. Passend zum Lehrplan der Klasse 1.",
+      "es": "En esta actividad los niños suman tres números hasta 20 viendo cómo las tres partes se juntan para formar un total, una primera idea de la descomposición numérica. Apoya el aprendizaje de la suma en 1.º de primaria según los planes y programas de estudio de la SEP.",
+      "pt": "Atividade para somar três números cujo total não passa de 20, juntando as partes como uma decomposição (3 + 4 + 5 = 12). Alinhada à BNCC para o 1º ano.",
+      "fr": "Apprends à additionner trois nombres dont la somme va jusqu'à 20, en décomposant le tout en trois parties. Une activité de calcul réfléchi alignée sur les Programmes officiels du cycle 2.",
+      "it": "In questa attività i bambini imparano a sommare tre numeri entro il 20, scomponendo l'intero nelle sue tre parti. In linea con le Indicazioni nazionali, l'esercizio rafforza il calcolo mentale e la comprensione delle relazioni tra le parti e il tutto.",
+      "nl": "Bij deze oefening tel je drie getallen op tot 20 als splitsing: drie delen vormen samen één geheel. Sluit aan bij de SLO-kerndoelen voor rekenen in groep 4.",
+      "sv": "I den här övningen får barnet addera tre tal med en summa upp till 20. Aktiviteten övar talförståelse och addition enligt Lgr22.",
+      "da": "Øv at lægge tre tal sammen op til 20. Barnet ser tre dele samlet til ét hele og finder summen. Aktiviteten følger Fælles Mål.",
+      "no": "Øv på å legge sammen tre tall opp til 20 i et morsomt tallvennspill. Aktiviteten støtter kompetansemålene i matematikk i LK20.",
+      "fi": "Harjoitellaan kolmen luvun yhteenlaskua kahteenkymmeneen asti: lapsi lukee kolme osaa, laskee ne yhteen ja kirjoittaa summan. Tehtävä tukee OPS 2014:n tavoitteita yhteenlaskutaidon kehittämisessä."
     },
     "kid_prompt_template": "add-three"
   },
@@ -1279,15 +1279,15 @@
     "page_intro": {
       "en": "A free interactive Grade 2 math activity: read a word problem, see it as a number bond, then type the missing number. One-step add and subtract within 100 (20 + 30 = ?). Common Core 2.OA.A.1.",
       "de": "Sachaufgaben Klasse 2: Plus und Minus bis 100 in kleinen Geschichten lösen – Schritt für Schritt. Kostenlos online üben, ohne Anmeldung.",
-      "es": "Resuelve problemas con palabras de un paso, sumando y restando hasta 100. Esta actividad apoya el Currículo LOMLOE y la habilidad 2.OA.A.1, donde los niños leen una situación, encuentran el número que falta y comprueban su respuesta.",
-      "pt": "Resolva problemas de uma etapa para somar e subtrair até 100, alinhados à BNCC e à habilidade 2.OA.A.1. As crianças leem a situação, identificam o número que falta e digitam a resposta.",
+      "es": "Resuelve problemas verbales de un paso, sumando y restando hasta 100. Esta actividad se apoya en los planes y programas de estudio de la SEP: los niños leen una situación, encuentran el número que falta y comprueban su respuesta.",
+      "pt": "Resolva problemas de uma etapa para somar e subtrair até 100, alinhados à BNCC. As crianças leem a situação, identificam o número que falta e digitam a resposta.",
       "fr": "Problèmes de calcul CE1 en ligne : additions et soustractions jusqu'à 100 en situation. Gratuit, en ligne, sans inscription.",
-      "it": "Otto problemi in una sola operazione con addizioni e sottrazioni entro il 100, pensati per la classe seconda. In linea con le Indicazioni nazionali (2.OA.A.1), i bambini leggono la storia, trovano il numero mancante e scrivono la risposta.",
-      "nl": "Acht korte verhaaltjessommen waarin kinderen optellen en aftrekken tot 100 met splitsen. Sluit aan bij de SLO-kerndoelen voor rekenen in groep 4 (2.OA.A.1).",
-      "sv": "Öva på att lösa lästal med addition och subtraktion inom talområdet 0–100. Aktiviteten följer Lgr22 och tränar färdigheter som motsvarar 2.OA.A.1, där eleven läser en kort vardagsberättelse och räknar ut det tal som saknas.",
-      "da": "Øv tekststykker med plus og minus op til 100. Hvert tekststykke vises som en talmodel, hvor ét tal mangler, så barnet kan regne svaret ud. Opgaverne følger Fælles Mål for matematik i 2. klasse (2.OA.A.1).",
-      "no": "Øv på tekstoppgaver med pluss og minus opptil 100. Barna leser en kort fortelling, finner tallet som mangler og regner det ut. Aktiviteten følger målene i LK20 (2.OA.A.1).",
-      "fi": "Harjoittele sanallisia tehtäviä, joissa lasketaan yhteen ja vähennetään sataan asti (2.OA.A.1). Tehtävät tukevat OPS 2014 -tavoitteita ja mallintavat laskut lukukolmion avulla."
+      "it": "Otto problemi in una sola operazione con addizioni e sottrazioni entro il 100, pensati per la classe seconda. In linea con le Indicazioni nazionali, i bambini leggono la storia, trovano il numero mancante e scrivono la risposta.",
+      "nl": "Acht korte verhaaltjessommen waarin kinderen optellen en aftrekken tot 100 met splitsen. Sluit aan bij de SLO-kerndoelen voor rekenen in groep 4.",
+      "sv": "Öva på att lösa lästal med addition och subtraktion inom talområdet 0–100. Aktiviteten följer Lgr22: eleven läser en kort vardagsberättelse och räknar ut det tal som saknas.",
+      "da": "Øv tekststykker med plus og minus op til 100. Hvert tekststykke vises som en talmodel, hvor ét tal mangler, så barnet kan regne svaret ud. Opgaverne følger Fælles Mål for matematik i 2. klasse.",
+      "no": "Øv på tekstoppgaver med pluss og minus opptil 100. Barna leser en kort fortelling, finner tallet som mangler og regner det ut. Aktiviteten følger målene i LK20.",
+      "fi": "Harjoittele sanallisia tehtäviä, joissa lasketaan yhteen ja vähennetään sataan asti. Tehtävät tukevat OPS 2014 -tavoitteita ja mallintavat laskut lukukolmion avulla."
     },
     "kid_prompt_template": "word-problem"
   }

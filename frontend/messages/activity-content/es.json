@@ -2448,14 +2448,14 @@
     },
     "seriation.compare-length.1-md-a-1": {
       "about": [
-        "Los listones de Tilly es una actividad interactiva y gratuita de matemáticas para primer grado de primaria, pensada para que las niñas y los niños de alrededor de 6 y 7 años den sus primeros pasos en la comparación de longitudes. Tilly, la gata de la tienda, esconde listones de colores en estantes que están muy separados, y no se pueden poner uno junto al otro para saber cuál es más largo.",
-        "Aquí entra el cordón: al medir cada listón contra ese cordón, la niña o el niño descubre que puede comparar dos cosas que están lejos usando un tercer objeto como referencia. Esta idea —comparar de forma indirecta— es la base de la medición y prepara el terreno para el uso posterior de la regla y otras unidades.",
-        "Dentro del eje de Magnitudes y medida de los planes y programas de estudio de la SEP y la Nueva Escuela Mexicana, comparar y ordenar objetos por su longitud es uno de los aprendizajes clave de primer grado. La actividad lo presenta como un juego amable, sin cronómetro ni puntajes, para que la práctica se sienta tranquila y con confianza."
+        "Los listones de Tilly es una actividad interactiva y gratuita de matemáticas para primer grado de primaria, pensada para que las niñas y los niños de alrededor de 6 y 7 años den sus primeros pasos en la comparación de longitudes. En cada ronda, Tilly, la gata de la tienda, acomoda tres listones de colores uno debajo de otro, todos desde la misma orilla, y arriba de ellos deja su cordón, cuya marca punteada cruza los tres estantes.",
+        "Ahí entra el cordón: la niña o el niño se fija en dónde termina cada listón respecto de la marca del cordón y decide si es más largo, más corto o igual de largo que él. Después toca un solo listón, el que le pide la ronda. Comparar todo contra una misma medida de referencia, sin números ni unidades, prepara el terreno para el uso posterior de la regla y otras unidades.",
+        "Dentro del eje de Magnitudes y medida de los planes y programas de estudio de la SEP y la Nueva Escuela Mexicana, la comparación de longitudes es uno de los aprendizajes clave de primer grado. Esta actividad trabaja su primer paso: en cada ronda la niña o el niño observa tres listones y toca uno solo, el más largo, el más corto o el que mide igual de largo que el cordón. Todo se presenta como un juego amable, sin cronómetro ni puntajes, para que la práctica se sienta tranquila y con confianza."
       ],
       "practices": [
-        "Comparar longitudes de forma directa e indirecta usando un objeto de referencia.",
-        "Ordenar tres objetos del más corto al más largo.",
-        "Usar el cordón como intermediario para comparar listones que están alejados.",
+        "Usar el cordón como una misma medida de referencia para los tres listones.",
+        "Observar dónde termina cada listón para decidir cuál sobresale más y cuál menos.",
+        "Notar si un listón se pasa de la marca del cordón, se queda antes o termina justo en ella.",
         "Identificar el más largo, el más corto y el que mide igual que la referencia.",
         "Emplear vocabulario de medición: más largo, más corto, igual de largo."
       ],
@@ -2466,7 +2466,7 @@
         "Ideal para trabajarla en pareja o en grupo pequeño, comentando en voz alta por qué un listón es más largo que otro."
       ],
       "learningGoals": [
-        "Comprender que la longitud se puede comparar y ordenar, y que dos objetos alejados se comparan a través de un tercero.",
+        "Comprender que la longitud se puede comparar y describir con palabras como más largo, más corto e igual de largo.",
         "Afianzar el aprendizaje de Magnitudes y medida de primer grado según los planes y programas de estudio de la SEP.",
         "Construir las bases del razonamiento sobre medición antes de introducir la regla y las unidades convencionales."
       ]

@@ -1275,25 +1275,25 @@
     },
     "seriation.compare-length.1-md-a-1": {
       "about": [
-        "Nella bottega della gatta Tilly, ogni nastro colorato aspetta su uno scaffale diverso, troppo lontano perché il bambino possa affiancarlo agli altri: proprio qui nasce il gioco. Questa attività di matematica, pensata per la classe prima (6-7 anni), è gratuita, senza registrazione e funziona direttamente nel browser.",
-        "Il bambino aiuta Tilly a confrontare le lunghezze dei nastri e a metterli in ordine, individuando il più lungo, il più corto o quello lungo esattamente quanto lo spago di riferimento. È un modo concreto e sereno per avvicinarsi al linguaggio della misura, in linea con le Indicazioni nazionali.",
-        "Non ci sono punteggi né tempo che scorre: se il bambino sbaglia riceve un suggerimento gentile e può riprovare con calma. Un'ottima base prima di passare ai materiali manipolabili e al righello in classe."
+        "Nella bottega della gatta Tilly ogni nastro colorato riposa sul suo ripiano, uno sopra l'altro, accanto a un pezzo di spago sempre della stessa lunghezza. Questa attività di matematica, pensata per la classe prima (6-7 anni), è gratuita, senza registrazione e funziona direttamente nel browser.",
+        "A ogni giro compaiono tre nastri insieme: il bambino li guarda, li confronta fra loro e con lo spago, e tocca un solo colore, quello del nastro più lungo, di quello più corto oppure di quello lungo esattamente quanto lo spago. È un modo concreto e sereno per avvicinarsi al linguaggio della lunghezza, in linea con le Indicazioni nazionali.",
+        "Lo spago non ha tacche né numeri: qui non si misura, si confronta soltanto con gli occhi. Non ci sono punteggi né tempo che scorre: se il bambino tocca il colore sbagliato arriva un suggerimento gentile e può riprovare con calma. Un'ottima base prima di passare in classe ai materiali manipolabili e al righello."
       ],
       "practices": [
-        "Confronta le lunghezze in modo diretto e indiretto, usando lo spago come terzo oggetto di riferimento.",
-        "Ordina più nastri dal più corto al più lungo.",
-        "Usa il linguaggio della misura: più lungo, più corto, lungo quanto.",
-        "Ragiona con l'occhio e con il confronto, osservando nastri su scaffali lontani."
+        "Confronta i nastri fra loro e con lo spago, che resta sempre della stessa lunghezza: vede quali lo superano e quali si fermano prima.",
+        "Riconosce il nastro più lungo e il nastro più corto fra i tre mostrati insieme.",
+        "Incontra le parole della lunghezza — più lungo, più corto, lungo quanto — in ogni richiesta e in ogni suggerimento.",
+        "Osserva con attenzione dove finisce ogni nastro rispetto alla linea tratteggiata dello spago."
       ],
       "howToPlay": [
-        "Guarda i nastri colorati sugli scaffali e lo spago di Tilly.",
-        "Tocca il nastro più lungo, il più corto oppure quello lungo quanto lo spago, secondo la richiesta.",
-        "Se sbagli, arriva un suggerimento gentile: nessun punteggio, riprova con calma."
+        "Guarda i tre nastri colorati e lo spago di Tilly: una linea tratteggiata mostra su ogni riga dove lo spago finisce.",
+        "Leggi la richiesta e tocca sotto la scena il colore del nastro giusto: il più lungo, il più corto oppure quello lungo quanto lo spago.",
+        "Se il colore non è quello giusto, arriva un suggerimento gentile: nessun punteggio, riprova con calma."
       ],
       "learningGoals": [
-        "Confrontare e ordinare oggetti in base alla lunghezza.",
-        "Scoprire il confronto indiretto: paragonare due cose tramite un terzo oggetto.",
-        "Imparare il lessico della misura: più lungo, più corto, lungo quanto."
+        "Confrontare le lunghezze di più oggetti e riconoscere il più lungo e il più corto.",
+        "Riconoscere quando un oggetto è lungo esattamente quanto un riferimento dato.",
+        "Familiarizzare con le parole della lunghezza — più lungo, più corto, lungo quanto — ascoltandole e rileggendole a ogni giro."
       ]
     },
     "graph-it.bar-graph.2-md-d-10": {

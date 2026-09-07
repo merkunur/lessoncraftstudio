@@ -8,7 +8,7 @@
      • tapping a non-match does NOT resolve (warm nudge, no advance); tapping the
        matching picture resolves + shows the same-sound note; shell Check hidden
        until resolved.
-     • the highlighted box matches the round's position; EN-only; ≥7 distinct +
+     • the highlighted box matches the round's position; ≥7 distinct +
        reshuffle; no overflow 280→768.
    ===================================================================== */
 'use strict';
@@ -74,8 +74,29 @@ function serve() {
 
     const title = await page.$eval('.lcs-title', e => e.textContent.trim()).catch(() => '');
     note(/Sound Boxes/i.test(title), `header title "${title}"`);
-    const slugKeys = await page.evaluate(() => Object.keys(window.SoundBoxesActivity._activityRow.slug));
-    note(slugKeys.length === 1 && slugKeys[0] === 'en', `manifest not EN-only: ${slugKeys.join(',')}`);
+    /* The activity was an EN-only pilot and this asserted so; it has been multi-locale for
+       months, so the check was FALSE on every run and this harness gated nothing while the
+       locale fan-outs shipped past it. Replaced with the invariant that protects the route:
+       every locale declared in ANY of slug / page_title / page_intro must be declared in ALL
+       THREE, and every slug must be unique and url-safe. A locale present in slug but missing
+       from page_title resolves to a live route with no title -- exactly what EN-only could
+       never see. */
+    const loc = await page.evaluate(() => {
+      const r = window.SoundBoxesActivity._activityRow;
+      return { slug: Object.keys(r.slug || {}), title: Object.keys(r.page_title || {}), intro: Object.keys(r.page_intro || {}), slugs: r.slug || {} };
+    });
+    note(loc.slug.length >= 1, 'manifest declares no slug locale at all');
+    const missing = [];
+    for (const l of new Set([].concat(loc.slug, loc.title, loc.intro))) {
+      if (!loc.slug.includes(l)) missing.push(l + ':slug');
+      if (!loc.title.includes(l)) missing.push(l + ':page_title');
+      if (!loc.intro.includes(l)) missing.push(l + ':page_intro');
+    }
+    note(missing.length === 0, `locale declared unevenly across slug/page_title/page_intro: ${missing.join(', ')}`);
+    const badSlug = Object.entries(loc.slugs).filter(([, s]) => !/^[a-z0-9-]+$/.test(String(s))).map(([l, s]) => l + '="' + s + '"');
+    note(badSlug.length === 0, `slug not url-safe: ${badSlug.join(', ')}`);
+    const slugVals = Object.values(loc.slugs);
+    note(new Set(slugVals).size === slugVals.length, `duplicate slug across locales: ${slugVals.join(',')}`);
 
     const N = await page.evaluate(() => window.SoundBoxesActivity._pool.length);
     const ids = await page.evaluate((c) => { const t = window.SoundBoxesActivity, out = []; for (let i = 0; i < c; i++) { const x = t.nextTask({ index: i }); out.push(x ? x.id : null); } return out; }, 2 * N);
@@ -131,6 +152,6 @@ function serve() {
   server.close();
   console.log('');
   if (fails.length) { console.error(`SOUND-BOXES LOCAL TEST FAILED — ${fails.length} issue(s):`); fails.forEach(f => console.error('  • ' + f)); process.exit(1); }
-  console.log('SOUND-BOXES LOCAL TEST PASSED — phoneme isolation: target picture + 3 Elkonin boxes (position-correct highlight) + Hear-it + 3 picture options render + all images load; a non-match does NOT resolve (warm nudge); the matching picture resolves + shows the same-sound note; EN-only; ≥7 distinct + reshuffle; no overflow 280→768.');
+  console.log('SOUND-BOXES LOCAL TEST PASSED — phoneme isolation: target picture + 3 Elkonin boxes (position-correct highlight) + Hear-it + 3 picture options render + all images load; a non-match does NOT resolve (warm nudge); the matching picture resolves + shows the same-sound note; ≥7 distinct + reshuffle; no overflow 280→768.');
   process.exit(0);
 })().catch(e => { console.error('ERROR:', e.message); process.exit(1); });

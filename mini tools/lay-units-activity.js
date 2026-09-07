@@ -101,7 +101,7 @@
       addBig: { en: '+ Big helper', de: '+ Großer Helfer', fr: '+ Un grand bâtonnet', es: '+ Ayudante grande', pt: '+ Ajudante grande', it: '+ Aiutante grande', nl: '+ Groot helpertje', sv: '+ En stor hjälpare' },
       nudgeL: { en: '◀' }, nudgeR: { en: '▶' }, take: { en: 'Take back', de: 'Zurücknehmen', fr: 'Retirer', es: 'Quitar', pt: 'Tirar', it: 'Togli', nl: 'Terugnemen', sv: 'Ta tillbaka' },
       count: { en: 'Count them! Tap each helper.', de: 'Zähl sie! Tipp jeden Helfer an.', fr: 'Compte-les ! Touche chaque bâtonnet.', es: '¡Cuéntalos! Toca cada ayudante.', pt: 'Conte! Toque em cada ajudante.', it: 'Contali! Tocca ogni aiutante.', nl: 'Tel ze! Tik op elk helpertje.', sv: 'Räkna dem! Tryck på varje hjälpare.' },
-      sayWelcome: { en: 'Lay my helpers nose-to-tail to measure it!', de: 'Leg meine Helfer dicht hintereinander, dann messen wir zusammen!', fr: 'Pose mes bâtonnets bout à bout pour le mesurer !', es: '¡Pon mis ayudantes puntita con puntita para medirlo!', pt: 'Coloque meus ajudantes pontinha com pontinha para medir!', it: 'Metti i miei aiutanti testa-coda per misurare!', nl: 'Leg mijn helpertjes netjes aansluitend achter elkaar, dan meten we samen!', sv: 'Lägg mina hjälpare kant i kant, så mäter vi ihop!' },
+      sayWelcome: { en: 'Lay my helpers nose-to-tail to measure it!', de: 'Leg meine Helfer dicht hintereinander, dann messen wir zusammen!', fr: 'Pose mes bâtonnets bout à bout pour le mesurer !', es: '¡Pon mis ayudantes puntita con puntita para medirlo!', pt: 'Coloque meus ajudantes pontinha com pontinha para medir!', it: 'Metti i miei aiutanti uno attaccato all\'altro per misurare!', nl: 'Leg mijn helpertjes netjes aansluitend achter elkaar, dan meten we samen!', sv: 'Lägg mina hjälpare kant i kant, så mäter vi ihop!' },
       sayWin: { en: 'helpers long! 🌸', de: 'Helfer lang! 🌸', fr: 'bâtonnets de long ! 🌸', es: 'ayudantes de largo! 🌸', pt: 'ajudantes de comprimento! 🌸', it: 'aiutanti di lunghezza! 🌸', nl: 'helpertjes lang! 🌸', sv: 'hjälpare långt! 🌸' },
       sayWinSpoken: { en: 'helpers long', de: 'Helfer lang', fr: 'bâtonnets de long', es: 'ayudantes de largo', pt: 'ajudantes de comprimento', it: 'aiutanti di lunghezza', nl: 'helpertjes lang', sv: 'hjälpare långt' },
       sayGap: { en: 'A little gap snuck in — scootch them together!', de: 'Da hat sich eine Lücke eingeschlichen – schieb sie zusammen!', fr: "Un petit trou s'est glissé — rapproche-les !", es: '¡Se coló un huequito! ¡Júntalos bien!', pt: 'Entrou um buraquinho — junte eles bem!', it: 'Si è infilato un buchino — attaccali bene!', nl: 'Er zit een klein gaatje tussen — schuif ze tegen elkaar aan!', sv: 'Det smög sig in en liten glipa — skjut ihop dem!' },
@@ -121,10 +121,10 @@
          reached every locale; the nudge arrows are bare glyphs, so their aria-label is the
          ONLY signal a speech user gets for either direction. en + sv authored; the other
          locales fall through to en exactly as before (no regression, still to be authored). */
-      ariaRail: { en: 'measuring rail', sv: 'mätrad' },
-      ariaNudgeL: { en: 'nudge left', sv: 'Flytta ett steg åt vänster' },
-      ariaNudgeR: { en: 'nudge right', sv: 'Flytta ett steg åt höger' },
-      ariaChoice: { en: 'measuring choice', sv: 'Mätning' },
+      ariaRail: { en: 'measuring rail', sv: 'mätrad', it: 'binario di misura' },
+      ariaNudgeL: { en: 'nudge left', sv: 'Flytta ett steg åt vänster', it: 'Sposta di un passo a sinistra' },
+      ariaNudgeR: { en: 'nudge right', sv: 'Flytta ett steg åt höger', it: 'Sposta di un passo a destra' },
+      ariaChoice: { en: 'measuring choice', sv: 'Mätning', it: 'Misurazione' },
       invDone: { en: '{a} big, {b} little — smaller helpers, more of them! 🌸', de: '{a} große, {b} kleine – kleinere Helfer, mehr davon! 🌸', fr: '{a} grands, {b} petits — plus les bâtonnets sont petits, plus il en faut ! 🌸', es: '{a} grandes y {b} pequeños: los más pequeños, ¡más necesitas! 🌸', pt: '{a} grandes e {b} pequenos: ajudantes menores, mais ajudantes você precisa! 🌸', it: '{a} grandi e {b} piccoli — aiutanti più piccoli, te ne servono di più! 🌸', nl: '{a} grote, {b} kleine — kleinere helpertjes, meer nodig! 🌸', sv: '{a} stora och {b} små — mindre hjälpare, då behövs det fler! 🌸' }
     },
     defaults: {},

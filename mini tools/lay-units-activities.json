@@ -87,7 +87,7 @@
             "fr": "Un trou s'est glissé ! Rapproche-les, puis compte.",
             "es": "¡Se coló un huequito! Júntalos y luego cuenta.",
             "pt": "Entrou um buraquinho! Junte eles bem e conte.",
-            "it": "Attacca gli aiutanti lungo il nastro e contali.",
+            "it": "C'è un buco tra gli aiutanti! Attaccali bene, poi contali.",
             "nl": "Er zit een gaatje tussen! Schuif ze tegen elkaar aan en tel dan.",
             "sv": "Det blev en glipa! Skjut ihop dem och räkna sedan."
           }
@@ -126,7 +126,7 @@
             "fr": "Deux bâtonnets se chevauchent — laisse-leur de la place, puis compte.",
             "es": "Dos ayudantes están encimados: dales lugar y cuenta.",
             "pt": "Dois ajudantes estão em cima um do outro — dê espaço e conte.",
-            "it": "Metti gli aiutanti lungo il pastello, mai uno sopra l'altro, e contali.",
+            "it": "Due aiutanti sono uno sopra l'altro! Separali, poi contali.",
             "nl": "Twee helpertjes liggen op elkaar — geef ze wat ruimte en tel dan.",
             "sv": "Två hjälpare ligger på varandra — ge dem plats och räkna sedan."
           }
@@ -148,7 +148,7 @@
             "fr": "Utilise seulement les MÊMES bâtonnets — puis compte.",
             "es": "Usa solo los MISMOS ayudantes y luego cuenta.",
             "pt": "Use só os MESMOS ajudantes — e conte.",
-            "it": "Metti gli aiutanti lungo la carota, tutti uguali, e contali.",
+            "it": "Usa solo gli aiutanti UGUALI, poi contali.",
             "nl": "Gebruik alleen DEZELFDE helpertjes — tel ze dan.",
             "sv": "Använd bara SAMMA hjälpare — räkna sedan."
           }
@@ -172,10 +172,10 @@
           "prompt": "Start the first helper right at the tip!",
           "promptL10n": {
             "de": "Fang mit dem ersten Helfer genau an der Spitze an!",
-            "fr": "Commence le premier bâtonnet pile au bord de la paille !",
+            "fr": "Commence le premier bâtonnet pile au bout de la brindille !",
             "es": "¡Empieza el primer ayudante justo en la puntita!",
             "pt": "Comece o primeiro ajudante bem na pontinha!",
-            "it": "Parti dalla punta del bastoncino e conta gli aiutanti.",
+            "it": "Sposta il primo aiutante fino alla punta del bastoncino!",
             "nl": "Begin met het eerste helpertje precies bij de punt!",
             "sv": "Låt den första hjälparen börja precis vid kvistens ände!"
           }
@@ -193,10 +193,10 @@
           "prompt": "Which one is measured the right way?",
           "promptL10n": {
             "de": "Welches ist richtig gemessen?",
-            "fr": "Lequel est mesuré correctement ?",
+            "fr": "Quel ruban est bien mesuré ?",
             "es": "¿Cuál está bien medido?",
             "pt": "Qual foi medida do jeito certo?",
-            "it": "Il nastro è misurato bene?",
+            "it": "Quale nastro è misurato bene?",
             "nl": "Welk lint is goed gemeten?",
             "sv": "Vilken av dem är mätt på rätt sätt?"
           },
@@ -280,11 +280,11 @@
           "unitWidth": 8,
           "trackSteps": 44,
           "supplyCount": 6,
-          "prompt": "Lay cubes along the ribbon, then count.",
+          "prompt": "Lay helpers along the ribbon, then count.",
           "promptL10n": {
-            "de": "Leg die Würfel am Band entlang und zähl sie dann.",
+            "de": "Leg die Helfer am Band entlang und zähl sie dann.",
             "fr": "Pose des bâtonnets le long du ruban, puis compte-les.",
-            "es": "Pon cubos a lo largo del listón y cuéntalos.",
+            "es": "Pon ayudantes a lo largo del listón y cuéntalos.",
             "pt": "Coloque ajudantes ao longo da fita e conte.",
             "it": "Metti gli aiutanti lungo il nastro e contali.",
             "nl": "Leg de helpertjes langs het lint en tel ze dan.",
@@ -315,13 +315,13 @@
               "w": 8
             }
           ],
-          "prompt": "Close the gap, then count the clips.",
+          "prompt": "Close the gap, then count the helpers.",
           "promptL10n": {
-            "de": "Schließ die Lücke und zähl dann die Büroklammern.",
+            "de": "Schließ die Lücke und zähl dann die Helfer.",
             "fr": "Ferme le trou, puis compte les bâtonnets.",
-            "es": "Cierra el hueco y cuenta los clips.",
+            "es": "Cierra el hueco y cuenta los ayudantes.",
             "pt": "Feche o buraquinho e conte os ajudantes.",
-            "it": "Attacca gli aiutanti lungo la foglia e contali.",
+            "it": "Chiudi il buco sulla foglia, poi conta gli aiutanti.",
             "nl": "Maak het gaatje dicht en tel dan de helpertjes.",
             "sv": "Stäng glipan och räkna sedan hjälparna."
           }
@@ -342,10 +342,10 @@
           "prompt": "Measure the leaf with big helpers, then little ones — what changes?",
           "promptL10n": {
             "de": "Miss das Blatt erst mit großen Helfern, dann mit kleinen – was ändert sich?",
-            "fr": "Mesure la feuille avec les grands bâtonnets, puis avec les petits — qu'est-ce qui change ?",
+            "fr": "Compte les grands bâtonnets, puis les petits — qu'est-ce qui change ?",
             "es": "Mide la hoja con ayudantes grandes y luego con pequeños: ¿qué cambia?",
             "pt": "Meça a folha com ajudantes grandes e depois com pequenos — o que muda?",
-            "it": "Misura la foglia con gli aiutanti grandi, poi con i piccoli.",
+            "it": "Conta gli aiutanti grandi sulla foglia, poi i piccoli: che cosa cambia?",
             "nl": "Meet het blad met grote helpertjes en dan met kleine — wat verandert er?",
             "sv": "Mät bladet med stora hjälpare och sedan med små — vad händer?"
           }

@@ -292,7 +292,7 @@
         '.bb-spill,.bb-sparkle{transition:opacity .3s ease;}',
         '.bb-choices{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;width:100%;}',
         '.bb-choice{min-height:48px;min-width:74px;flex:0 1 auto;border:2.5px solid #146B5E;border-radius:14px;background:#fff;',
-        'color:#0F4A40;font:800 1rem/1.05 Baloo 2,Nunito,system-ui,sans-serif;padding:6px 14px;cursor:pointer;',
+        'color:#0F4A40;font:800 1rem/1.05 "Baloo 2",Nunito,system-ui,sans-serif;padding:6px 14px;cursor:pointer;',
         'display:inline-flex;align-items:center;gap:7px;transition:transform .08s ease,background .15s ease;}',
         '.bb-choice.wide{flex-basis:100%;justify-content:center;}',
         '.bb-choice:hover{background:#E9F5F1;}',

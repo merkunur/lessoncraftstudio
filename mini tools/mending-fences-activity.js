@@ -395,7 +395,7 @@
         '.mf-hazel,.mf-meadow{flex:0 0 auto;}',
         '.mf-line{flex:1 1 auto;min-height:1.1em;text-align:center;font:700 .84rem/1.18 Nunito,system-ui,sans-serif;color:#146B5E;margin:0;}',
         '.mf-line.miss{color:#C2410C;}',
-        '.mf-rope{font:800 clamp(.95rem,3.6vw,1.2rem)/1.2 Baloo 2,Nunito,sans-serif;color:#0F4A40;text-align:center;background:#EAF5F1;border-radius:12px;padding:5px 16px;}',
+        '.mf-rope{font:800 clamp(.95rem,3.6vw,1.2rem)/1.2 "Baloo 2",Nunito,sans-serif;color:#0F4A40;text-align:center;background:#EAF5F1;border-radius:12px;padding:5px 16px;}',
         /* the unit cell scales with the card on desktop (the §A.13.62 not-sparse lesson).
            All fields are LANDSCAPE (w≥h) so a width cap bounds the height. */
         '.mf-stage{--mf-u:clamp(26px,7.5vw,46px);display:flex;flex-direction:column;align-items:center;gap:9px;width:100%;}',
@@ -413,7 +413,7 @@
         '.mf-field svg{display:block;width:100%;}',
         /* number plates (mend) */
         '.mf-plates{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;width:100%;}',
-        '.mf-plate{min-width:clamp(60px,15vw,96px);min-height:clamp(50px,9vw,68px);color:#0F4A40;font:800 clamp(1.35rem,5vw,2rem)/1 Baloo 2,Nunito,sans-serif;display:flex;align-items:center;justify-content:center;}',
+        '.mf-plate{min-width:clamp(60px,15vw,96px);min-height:clamp(50px,9vw,68px);color:#0F4A40;font:800 clamp(1.35rem,5vw,2rem)/1 "Baloo 2",Nunito,sans-serif;display:flex;align-items:center;justify-content:center;}',
         /* unit tiles (fence-or-plant) */
         '.mf-units{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;width:100%;}',
         '.mf-unit{display:flex;flex-direction:column;align-items:center;gap:2px;width:clamp(78px,23vw,108px);padding:5px;}',
@@ -421,7 +421,7 @@
         '.mf-unit .mf-ulab{font:700 clamp(.7rem,2.3vw,.82rem)/1.05 Nunito,sans-serif;color:#0F4A40;text-align:center;white-space:nowrap;}',
         /* reach buttons (roll) */
         '.mf-reaches{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;width:100%;}',
-        '.mf-reach{min-height:clamp(50px,9vw,64px);color:#0F4A40;font:800 clamp(.95rem,3.6vw,1.25rem)/1.1 Baloo 2,Nunito,sans-serif;padding:8px 18px;display:flex;align-items:center;}',
+        '.mf-reach{min-height:clamp(50px,9vw,64px);color:#0F4A40;font:800 clamp(.95rem,3.6vw,1.25rem)/1.1 "Baloo 2",Nunito,sans-serif;padding:8px 18px;display:flex;align-items:center;}',
         '.mf-sronly{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);}',
         '.mf-hazel-svg .mf-eyes-happy{display:none;}.mf-hazel[data-pose=happy] .mf-eyes-open{display:none;}.mf-hazel[data-pose=happy] .mf-eyes-happy{display:block;}',
         '@media (max-width:380px){.mf-root{gap:5px;}.mf-stage{--mf-u:clamp(24px,6.6vw,38px);gap:7px;}.mf-line{font-size:.78rem;}.mf-plate{min-width:56px;min-height:48px;}.mf-reach{min-height:48px;}.mf-unit{width:clamp(72px,22vw,96px);}.mf-unit svg{width:clamp(58px,18vw,80px);}}',

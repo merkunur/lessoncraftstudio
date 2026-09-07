@@ -170,7 +170,7 @@
         '.tl-board{width:100%;max-width:min(96vw,620px);display:flex;flex-direction:column;gap:12px;align-items:center;}',
         '.tl-scene{width:100%;height:auto;display:block;}',
         '.tl-row{display:flex;justify-content:center;align-items:stretch;width:100%;gap:14px;}',
-        '.tl-cand{flex:1 1 0;min-width:0;max-width:120px;min-height:clamp(54px,8vw,84px);border:3px solid #146B5E;border-radius:16px;background:#fff;color:#0F4A40;cursor:pointer;font:800 clamp(2.1rem,9vw,3rem)/1 Baloo 2,Nunito,sans-serif;display:flex;align-items:center;justify-content:center;}',
+        '.tl-cand{flex:1 1 0;min-width:0;max-width:120px;min-height:clamp(54px,8vw,84px);border:3px solid #146B5E;border-radius:16px;background:#fff;color:#0F4A40;cursor:pointer;font:800 clamp(2.1rem,9vw,3rem)/1 "Baloo 2",Nunito,sans-serif;display:flex;align-items:center;justify-content:center;}',
         '.tl-cand.sel{box-shadow:0 0 0 3px #F2784B;}',
         '.tl-cand.dim{opacity:.4;}',
         '.tl-shelly-svg .tl-eyes-happy{display:none;}.tl-shelly[data-pose=happy] .tl-eyes-open{display:none;}.tl-shelly[data-pose=happy] .tl-eyes-happy{display:block;}',

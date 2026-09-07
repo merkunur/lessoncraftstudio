@@ -177,8 +177,8 @@
         '.rs-rosa,.rs-globe{flex:0 0 auto;}',
         '.rs-line{flex:1 1 auto;min-height:1.05em;text-align:center;font:700 .82rem/1.15 Nunito,system-ui,sans-serif;color:#146B5E;margin:0;}',
         '.rs-line.miss{color:#C2410C;}',
-        '.rs-couplet{width:100%;text-align:center;font:600 .92rem/1.25 Baloo 2,Nunito,sans-serif;color:#3a3a3a;background:#FFFDF7;border:2px dashed #C9B68C;border-radius:10px;padding:5px 10px;box-sizing:border-box;}',
-        '.rs-target{display:flex;align-items:center;justify-content:center;gap:8px;font:800 1rem/1 Baloo 2,Nunito,sans-serif;color:#0F4A40;}',
+        '.rs-couplet{width:100%;text-align:center;font:600 .92rem/1.25 "Baloo 2",Nunito,sans-serif;color:#3a3a3a;background:#FFFDF7;border:2px dashed #C9B68C;border-radius:10px;padding:5px 10px;box-sizing:border-box;}',
+        '.rs-target{display:flex;align-items:center;justify-content:center;gap:8px;font:800 1rem/1 "Baloo 2",Nunito,sans-serif;color:#0F4A40;}',
         '.rs-target img{width:42px;height:42px;object-fit:contain;}',
         /* content-sized tiles in a flex-wrap centred row — each tile HUGS its
            image+word so the picture fills the card (not sparse), §A.13.62 */
@@ -197,11 +197,11 @@
         '.rs-bin.sel{border-color:#F2784B;background:#FCEDE4;}',
         '.rs-pile{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;width:100%;}',
         '.rs-row{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;align-items:center;width:100%;}',
-        '.rs-btn{min-height:46px;border-radius:13px;border:none;font:800 1rem/1 Baloo 2,Nunito,sans-serif;cursor:pointer;padding:7px 18px;}',
+        '.rs-btn{min-height:46px;border-radius:13px;border:none;font:800 1rem/1 "Baloo 2",Nunito,sans-serif;cursor:pointer;padding:7px 18px;}',
         '.rs-commit{background:#F2784B;color:#fff;}', '.rs-commit[disabled]{opacity:.45;cursor:default;}',
         '.rs-yn{background:#fff;color:#146B5E;border:2.5px solid #146B5E;min-width:96px;}',
         '.rs-chain{display:flex;flex-wrap:wrap;gap:5px;align-items:center;justify-content:center;width:100%;}',
-        '.rs-chain .rs-cw{font:800 .85rem/1 Baloo 2,Nunito,sans-serif;color:#0F4A40;background:#EAF5F1;border-radius:8px;padding:4px 8px;}',
+        '.rs-chain .rs-cw{font:800 .85rem/1 "Baloo 2",Nunito,sans-serif;color:#0F4A40;background:#EAF5F1;border-radius:8px;padding:4px 8px;}',
         '.rs-chain .rs-arrow{color:#9a8a66;}',
         '.rs-sronly{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);}',
         '.lcs-app:not(.rosa-resolved) .lcs-activity-check{display:none !important;}'

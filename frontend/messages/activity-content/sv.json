@@ -1504,6 +1504,29 @@
         "Barnet kan jämföra två föremåls längd med hjälp av ett tredje föremål",
         "Barnet tar steget från att jämföra kant i kant till att jämföra med ett gemensamt mått"
       ]
+    },
+    "lay-units.measure.1-md-a-2": {
+      "about": [
+        "I Mätis trädgård ligger ett löv, en morot, en pinne, ett band, en penna eller en krita — och Mätis vill veta exakt hur långt det är. Mätis är en mätarlarv: den kryper fram genom att lägga sin egen kropp längs marken, bit för bit — och precis så går det till här. Barnet trycker på plusknappen och får en hjälpare, en liten mask som är exakt lika lång som alla de andra, men den landar alltid en aning fel. Med pilknapparna ◀ och ▶ puttar barnet hjälparen på plats tills den ligger tätt intill den förra, och fortsätter tills hela föremålet är täckt. Sedan trycker barnet på varje hjälpare en gång för att räkna dem. Det är en gratis, interaktiv mätövning som körs direkt i webbläsaren, utan nedladdning och utan konto.",
+        "Den stora idén är att en längd går att mäta med vilken enhet som helst, så länge enheterna är lika stora, ligger tätt efter varandra utan glipor och utan att överlappa, och den första börjar precis vid föremålets ena ände. Här finns ingen linjal, ingen skala, inga streck och inget tal vid föremålets slut — talet går inte att läsa av någonstans, det uppstår när barnet räknar hjälparna. Längden är helt enkelt antalet enheter. I en omgång får barnet i stället titta på tre färdiga rader och välja den som är rätt mätt, och i en annan mäts samma löv först med stora hjälpare och sedan med små: mindre enhet, fler enheter — samma löv.",
+        "Aktiviteten följer Lgr22 inom området mätning: att mäta längd och att jämföra och uppskatta storheter — här med egna enheter, innan linjalen och centimetern kommer in. De tio omgångarna kommer i ny ordning varje gång, från de enklaste till de klurigaste. Ingen timer, inga poäng — bara lugn, lekfull träning."
+      ],
+      "practices": [
+        "Lägga lika stora enheter tätt efter varandra längs ett föremål, utan glipor och utan att de ligger omlott",
+        "Låta den första enheten börja precis vid föremålets ena ände",
+        "Räkna enheterna en och en och säga hur många enheter långt föremålet är",
+        "Se vad som händer när samma löv mäts med stora och sedan med små enheter"
+      ],
+      "howToPlay": [
+        "Tryck på plusknappen för att lägga till en hjälpare. Den landar en liten bit fel — putta den med pilknapparna ◀ och ▶ tills den ligger tätt intill den förra, eller precis vid föremålets ände om den är först.",
+        "Fortsätt lägga till hjälpare tills hela föremålet är täckt. Blir det en glipa lyser den upp, och ligger två hjälpare omlott syns en mörk skarv — Mätis säger till, och det går alltid att ta tillbaka en hjälpare och göra om.",
+        "När raden är hel trycker barnet på varje hjälpare en gång, och det tal barnet slutar på är längden. Det finns ingen timer och inga poäng."
+      ],
+      "learningGoals": [
+        "Barnet kan mäta ett föremål genom att lägga lika stora enheter tätt efter varandra, utan glipor och utan överlapp",
+        "Barnet förstår att längden är antalet enheter — det tal man kommer till när man har räknat dem",
+        "Barnet upptäcker att mindre enheter ger fler enheter, och bygger den grund som linjalen och centimetern senare vilar på"
+      ]
     }
   }
 }

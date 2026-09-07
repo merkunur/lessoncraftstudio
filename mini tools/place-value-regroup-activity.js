@@ -41,7 +41,15 @@
       + '@media (min-width:321px) and (max-width:400px){.pvr-bar{margin-top:10px;}}'
       /* (1) white-on-coral measured 2.78:1 on the primary control, and is a
          combination this project has already banned. The house ink is 4.96:1. */
-      + '.pvr-maketen{color:#14322D !important;}';
+      + '.pvr-maketen{color:#14322D !important;}'
+      /* ⚠ At 280px the Swedish C title (”Tuck växlar ett hundratal och ett tiotal”,
+         39 chars against the English’s 21) wraps to THREE lines — measured .lcs-title
+         at 63px — and pushes the lowest control 14px past the fold. The title is the
+         accurate one (C is the only variant that breaks BOTH a hundred and a ten) and
+         the instruction names both buttons because C is the only one needing two in
+         sequence, so the layout gives rather than the Swedish. Engages only below
+         300px and only shrinks; every shorter title stays exactly as it was. */
+      + '@media (max-width:300px){.lcs-title{font-size:.92rem;line-height:1.15;}}';
     (document.head || document.documentElement).appendChild(_pvrTrim);
   }
 
@@ -74,7 +82,7 @@
           if (ok) tool.lockAndCaption();
           return ok;
         },
-        hintKey: function (tool) { return tool.onesCount >= 10 ? 'hintBundleFirst' : 'hintReadTotal'; }
+        hintKey: function (tool) { return tool.onesCount >= 10 ? 'hintBundleFirst' : tool._readTotalKey(); }
       };
     });
   }
@@ -98,7 +106,7 @@
           if (ok) tool.lockAndCaption();
           return ok;
         },
-        hintKey: function (tool) { return tool._decomposed ? 'hintReadTotal' : 'hintBreakFirst'; }
+        hintKey: function (tool) { return tool._decomposed ? tool._readTotalKey() : 'hintBreakFirst'; }
       };
     });
   }
@@ -121,7 +129,7 @@
           if (ok) tool.lockAndCaption();
           return ok;
         },
-        hintKey: function (tool) { return tool.tensCount >= 10 ? 'hintMakeHundredFirst' : 'hintReadTotal'; }
+        hintKey: function (tool) { return tool.tensCount >= 10 ? 'hintMakeHundredFirst' : tool._readTotalKey(); }
       };
     });
   }
@@ -145,7 +153,7 @@
           return ok;
         },
         hintKey: function (tool) {
-          if (tool._decomposed) return 'hintReadTotal';
+          if (tool._decomposed) return tool._readTotalKey();
           return tool.tensCount < 1 ? 'hintBreakHundredFirst' : 'hintBreakTenNext';
         }
       };
@@ -160,9 +168,9 @@
   var _PVR_ID = (typeof window !== 'undefined' && window.location) ? (new URLSearchParams(window.location.search)).get('activity') : null;
   function _pvrTitle(id) {
     id = id || '';
-    if (/add-compose-hundred/.test(id)) return { title: { en: 'Tuck Makes a Hundred', de: 'Tuck bündelt einen Hunderter', fr: 'Tuck fait une centaine', es: 'Tuck forma una centena', pt: 'Tuck agrupa uma centena', it: 'Tuck forma un centinaio', nl: 'Tuck maakt een honderdtal', sv: 'Tuck gör ett hundratal' }, instruction: { en: 'Tap “Make a hundred” to bundle 10 tens, then type the total.', de: 'Tippe auf „Hunderter bündeln“, um 10 Zehner zu bündeln, und tippe dann das Ergebnis ein.', fr: 'Appuie sur « Grouper une centaine » pour faire un paquet de 10 dizaines, puis écris la réponse.', es: 'Toca «Formar una centena» para agrupar 10 decenas y luego escribe el total.', pt: 'Toque em «Agrupar uma centena» para juntar 10 dezenas e depois escreva o total.', it: 'Tocca «Forma un centinaio» per unire 10 decine, poi scrivi il totale.', nl: 'Tik op «Maak een honderdtal» om 10 tientallen te bundelen en typ dan het totaal.', sv: 'Tryck på ”Gör ett hundratal” så blir tio tiotal ett hundratal. Skriv sedan svaret.' } };
-    if (/subtract-decompose-hundred/.test(id)) return { title: { en: 'Tuck Breaks a Hundred', de: 'Tuck entbündelt einen Hunderter', fr: 'Tuck casse une centaine', es: 'Tuck desarma una centena', pt: 'Tuck desagrupa uma centena', it: 'Tuck scompone un centinaio', nl: 'Tuck splitst een honderdtal', sv: 'Tuck växlar ett hundratal' }, instruction: { en: 'Break a hundred, then a ten — then take some away and type the answer.', de: 'Entbündle einen Hunderter, dann einen Zehner – nimm dann welche weg und tippe das Ergebnis ein.', fr: 'Casse une centaine, puis une dizaine — enlève, puis écris la réponse.', es: 'Desarma una centena y luego una decena. Después quita algunas unidades y escribe la respuesta.', pt: 'Desagrupe uma centena e depois uma dezena. Em seguida, tire algumas unidades e escreva a resposta.', it: 'C\'è uno zero: scomponi un centinaio, poi una decina, poi togli e scrivi la risposta.', nl: 'Splits een honderdtal en dan een tiental — haal er dan een paar weg en typ het antwoord.', sv: 'Växla ett hundratal och sedan ett tiotal — ta bort och skriv svaret.' } };
-    if (/subtract/.test(id)) return { title: { en: 'Tuck Breaks a Ten', de: 'Tuck entbündelt einen Zehner', fr: 'Tuck casse une dizaine', es: 'Tuck desarma una decena', pt: 'Tuck desagrupa uma dezena', it: 'Tuck scompone una decina', nl: 'Tuck splitst een tiental', sv: 'Tuck växlar ett tiotal' }, instruction: { en: 'Tap “Break a ten”, then take some away and type the answer.', de: 'Tippe auf „Zehner entbündeln“, nimm dann welche weg und tippe das Ergebnis ein.', fr: 'Appuie sur « Casser une dizaine », enlève, puis écris la réponse.', es: 'Toca «Desarmar una decena», quita algunas unidades y escribe la respuesta.', pt: 'Toque em «Desagrupar uma dezena», tire algumas unidades e escreva a resposta.', it: 'Tocca «Scomponi una decina», poi togli alcune unità e scrivi la risposta.', nl: 'Tik op «Splits een tiental», haal er dan een paar weg en typ het antwoord.', sv: 'Tryck på ”Växla ett tiotal”, ta sedan bort och skriv svaret.' } };
+    if (/add-compose-hundred/.test(id)) return { title: { en: 'Tuck Makes a Hundred', de: 'Tuck bündelt einen Hunderter', fr: 'Tuck fait une centaine', es: 'Tuck forma una centena', pt: 'Tuck agrupa uma centena', it: 'Tuck forma un centinaio', nl: 'Tuck maakt een honderdtal', sv: 'Tuck gör ett hundratal' }, instruction: { en: 'Tap “Make a hundred” to bundle 10 tens, then type the total.', de: 'Tippe auf „Hunderter bündeln“, um 10 Zehner zu bündeln, und tippe dann das Ergebnis ein.', fr: 'Appuie sur « Grouper une centaine » pour faire un paquet de 10 dizaines, puis écris la réponse.', es: 'Toca «Formar una centena» para agrupar 10 decenas y luego escribe el total.', pt: 'Toque em «Agrupar uma centena» para juntar 10 dezenas e depois escreva o total.', it: 'Tocca «Forma un centinaio» per unire 10 decine, poi scrivi il totale.', nl: 'Tik op «Maak een honderdtal» om 10 tientallen te bundelen en typ dan het totaal.', sv: 'Tryck på ”Gör ett hundratal”. Skriv sedan svaret.' } };
+    if (/subtract-decompose-hundred/.test(id)) return { title: { en: 'Tuck Breaks a Hundred', de: 'Tuck entbündelt einen Hunderter', fr: 'Tuck casse une centaine', es: 'Tuck desarma una centena', pt: 'Tuck desagrupa uma centena', it: 'Tuck scompone un centinaio', nl: 'Tuck splitst een honderdtal', sv: 'Tuck växlar ett hundratal och ett tiotal' }, instruction: { en: 'Break a hundred, then a ten — then take some away and type the answer.', de: 'Entbündle einen Hunderter, dann einen Zehner – nimm dann welche weg und tippe das Ergebnis ein.', fr: 'Casse une centaine, puis une dizaine — enlève, puis écris la réponse.', es: 'Desarma una centena y luego una decena. Después quita algunas unidades y escribe la respuesta.', pt: 'Desagrupe uma centena e depois uma dezena. Em seguida, tire algumas unidades e escreva a resposta.', it: 'C\'è uno zero: scomponi un centinaio, poi una decina, poi togli e scrivi la risposta.', nl: 'Splits een honderdtal en dan een tiental — haal er dan een paar weg en typ het antwoord.', sv: 'Tryck först på ”Växla ett hundratal” och sedan på ”Växla ett tiotal”. Ta bort och skriv svaret.' } };
+    if (/subtract/.test(id)) return { title: { en: 'Tuck Breaks a Ten', de: 'Tuck entbündelt einen Zehner', fr: 'Tuck casse une dizaine', es: 'Tuck desarma una decena', pt: 'Tuck desagrupa uma dezena', it: 'Tuck scompone una decina', nl: 'Tuck splitst een tiental', sv: 'Tuck växlar ett tiotal' }, instruction: { en: 'Tap “Break a ten”, then take some away and type the answer.', de: 'Tippe auf „Zehner entbündeln“, nimm dann welche weg und tippe das Ergebnis ein.', fr: 'Appuie sur « Casser une dizaine », enlève, puis écris la réponse.', es: 'Toca «Desarmar una decena», quita algunas unidades y escribe la respuesta.', pt: 'Toque em «Desagrupar uma dezena», tire algumas unidades e escreva a resposta.', it: 'Tocca «Scomponi una decina», poi togli alcune unità e scrivi la risposta.', nl: 'Tik op «Splits een tiental», haal er dan een paar weg en typ het antwoord.', sv: 'Tryck på ”Växla ett tiotal”. Ta sedan bort och skriv svaret.' } };
     return {};   /* add-compose-ten → strings.title/instruction (en+de below) */
   }
   var _PVR_TITLE = _pvrTitle(_PVR_ID);
@@ -206,11 +214,23 @@
     breakTen:     { en: '🔁 Break a ten', de: '🔁 Zehner entbündeln', fr: '🔁 Casser une dizaine', es: '🔁 Desarmar una decena', pt: '🔁 Desagrupar uma dezena', it: '🔁 Scomponi una decina', nl: '🔁 Splits een tiental', sv: '🔁 Växla ett tiotal' },
     breakHundred: { en: '🔁 Break a hundred', de: '🔁 Hunderter entbündeln', fr: '🔁 Casser une centaine', es: '🔁 Desarmar una centena', pt: '🔁 Desagrupar uma centena', it: '🔁 Scomponi un centinaio', nl: '🔁 Splits een honderdtal', sv: '🔁 Växla ett hundratal' },
     hintBundleFirst:       { en: 'First tap “Make a ten” to bundle 10 ones!', de: 'Tippe zuerst auf „Zehner bündeln“, um 10 Einer zu bündeln!', fr: 'Appuie d\'abord sur « Grouper une dizaine » pour faire un paquet de 10 !', es: '¡Primero toca «Formar una decena» para agrupar 10 unidades!', pt: 'Primeiro toque em «Agrupar uma dezena» para juntar 10 unidades!', it: 'Prima tocca «Fai il cambio» per cambiare 10 unità con una decina!', nl: 'Tik eerst op «Maak een tiental» om 10 eenheden te bundelen!', sv: 'Tryck först på ”Gör ett tiotal” — tio ental blir ett tiotal!' },
-    hintMakeHundredFirst:  { en: 'First tap “Make a hundred” to bundle 10 tens!', de: 'Tippe zuerst auf „Hunderter bündeln“, um 10 Zehner zu bündeln!', fr: 'Appuie d\'abord sur « Grouper une centaine » pour faire un paquet de 10 dizaines !', es: '¡Primero toca «Formar una centena» para agrupar 10 decenas!', pt: 'Primeiro toque em «Agrupar uma centena» para juntar 10 dezenas!', it: 'Prima tocca «Forma un centinaio»: 10 decine formano un centinaio!', nl: 'Tik eerst op «Maak een honderdtal» om 10 tientallen te bundelen!', sv: 'Tryck först på ”Gör ett hundratal” — tio tiotal blir ett hundratal!' },
-    hintBreakFirst:        { en: 'Break a ten first — there aren’t enough ones to take away.', de: 'Entbündle zuerst einen Zehner – es sind nicht genug Einer zum Wegnehmen da.', fr: 'Il n\'y a pas assez d\'unités pour enlever. Casse d\'abord une dizaine !', es: 'Primero desarma una decena: no hay suficientes unidades para quitar.', pt: 'Desagrupe uma dezena primeiro — não há unidades suficientes para tirar.', it: 'Prima scomponi una decina: non ci sono abbastanza unità da togliere.', nl: 'Splits eerst een tiental — er zijn niet genoeg eenheden om weg te halen.', sv: 'Entalen räcker inte — växla ett tiotal först.' },
+    hintMakeHundredFirst:  { en: 'First tap “Make a hundred” to bundle 10 tens!', de: 'Tippe zuerst auf „Hunderter bündeln“, um 10 Zehner zu bündeln!', fr: 'Appuie d\'abord sur « Grouper une centaine » pour faire un paquet de 10 dizaines !', es: '¡Primero toca «Formar una centena» para agrupar 10 decenas!', pt: 'Primeiro toque em «Agrupar uma centena» para juntar 10 dezenas!', it: 'Prima tocca «Forma un centinaio»: 10 decine formano un centinaio!', nl: 'Tik eerst op «Maak een honderdtal» om 10 tientallen te bundelen!', sv: 'Tio tiotal blir ett hundratal. Tryck på ”Gör ett hundratal”.' },
+    hintBreakFirst:        { en: 'Break a ten first — there aren’t enough ones to take away.', de: 'Entbündle zuerst einen Zehner – es sind nicht genug Einer zum Wegnehmen da.', fr: 'Il n\'y a pas assez d\'unités pour enlever. Casse d\'abord une dizaine !', es: 'Primero desarma una decena: no hay suficientes unidades para quitar.', pt: 'Desagrupe uma dezena primeiro — não há unidades suficientes para tirar.', it: 'Prima scomponi una decina: non ci sono abbastanza unità da togliere.', nl: 'Splits eerst een tiental — er zijn niet genoeg eenheden om weg te halen.', sv: 'Entalen räcker inte — tryck på ”Växla ett tiotal” först.' },
     hintBreakHundredFirst: { en: 'No tens to break — tap “Break a hundred” first.', de: 'Hier gibt es keine Zehner – tippe zuerst auf „Hunderter entbündeln“.', fr: 'Il n\'y a pas de dizaine à casser — appuie d\'abord sur « Casser une centaine ».', es: 'No hay decenas para desarmar; primero toca «Desarmar una centena».', pt: 'Não há dezenas para desagrupar; toque primeiro em «Desagrupar uma centena».', it: 'Non ci sono decine da scomporre: tocca prima «Scomponi un centinaio».', nl: 'Er zijn geen tientallen om te splitsen — tik eerst op «Splits een honderdtal».', sv: 'Här finns inga tiotal att växla. Tryck först på ”Växla ett hundratal”.' },
     hintBreakTenNext:      { en: 'Now tap “Break a ten” to get enough ones.', de: 'Tippe jetzt auf „Zehner entbündeln“, damit du genug Einer hast.', fr: 'Casse une dizaine pour avoir 10 unités de plus, puis enlève.', es: 'Ahora toca «Desarmar una decena» para tener suficientes unidades.', pt: 'Agora toque em «Desagrupar uma dezena» para ter unidades suficientes.', it: 'Ora tocca «Scomponi una decina» per avere abbastanza unità.', nl: 'Tik nu op «Splits een tiental» zodat je genoeg eenheden hebt.', sv: 'Tryck nu på ”Växla ett tiotal” så räcker entalen.' },
     hintReadTotal:         { en: 'Now count the blocks and type the total.', de: 'Zähle jetzt alle Blöcke und tippe das Ergebnis ein.', fr: 'Maintenant, compte tous les blocs et écris le total.', es: 'Ahora cuenta los bloques y escribe el total.', pt: 'Agora conte os blocos e escreva o total.', it: 'Ora conta i blocchi e scrivi il totale.', nl: 'Tel nu alle blokken en typ het totaal.', sv: 'Hur många tiotal och ental har du nu? Skriv svaret.' },
+    /* ⚠ THREE-COLUMN VARIANTS. sv #5 authored srMat and hintReadTotal for a
+       two-column mat, because that is the only activity it could see. All three
+       siblings put a HUNDRATAL column on screen and every answer is three digits,
+       so the two-column strings ask the child to read two thirds of the mat and
+       tell a blind child that two thirds of it exists.
+       ⚠ These carry sv ONLY, deliberately. Routing is guarded on the key existing
+       for the current locale, so de/fr/es/pt/it/nl keep their own two-column
+       wording; giving them an en-only key here would swap their language for
+       English and turn a fix into a six-locale regression. The English source has
+       the same defect and every locale needs its own panel-written pair. */
+    hintReadTotal3: { sv: 'Hur många hundratal, tiotal och ental har du nu? Skriv svaret.' },
+    srMat3:       { sv: '{h} hundratal, {t} tiotal och {o} ental' },
     srMat:        { en: '{t} tens and {o} ones', de: '{t} Zehner und {o} Einer', fr: '{t} dizaines et {o} unités', es: '{t} decenas y {o} unidades', pt: '{t} dezenas e {o} unidades', it: '{t} decine e {o} unità', nl: '{t} tientallen en {o} eenheden', sv: '{t} tiotal och {o} ental' }
   };
 
@@ -235,8 +255,26 @@
        nonexistent `api.locale`; the shell exposes `api.lang`). 0 core lines. */
     _t: function (key) {
       var loc = (this.api && this.api.lang) || 'en';
+      /* srMat has TWO consumers — this activity's _srMirror override and the core's
+         own api.announce (core:234) — and BOTH let the core do the {t}/{o} replace.
+         So the 3-column variant is served from here with {h} already substituted:
+         one change fixes both channels, the core's two replaces still complete the
+         string, and no placeholder can leak. Locales without srMat3 are untouched. */
+      if (key === 'srMat' && this.places === 3) {
+        var alt = this.strings.srMat3;
+        if (alt && alt[loc]) return alt[loc].replace('{h}', this.hundredsCount);
+      }
       var s = this.strings[key];
       return (s && (s[loc] || s.en)) || key;
+    },
+
+    /* The shell resolves hints with api.t(hintKey), NOT this._t — so the 3-column
+       hint cannot be swapped in _t and is chosen here instead, where hintKey still
+       has the tool. Guarded on the locale actually having the key. */
+    _readTotalKey: function () {
+      var loc = (this.api && this.api.lang) || 'en';
+      var alt = this.strings.hintReadTotal3;
+      return (this.places === 3 && alt && alt[loc]) ? 'hintReadTotal3' : 'hintReadTotal';
     },
 
     /* ⚠ ONE table, read by BOTH the spoken result and the screen-reader mirror.

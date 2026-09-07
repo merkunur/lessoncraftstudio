@@ -243,7 +243,7 @@
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
 
   /* ---- graph geometry ---- */
-  var GW = 280, GH = 116, BY = 96, U = 7.4, BW = 30;
+  var GW = 280, GH = 116, GH_LAB = 142, BY = 96, U = 7.4, BW = 30;
 
   function shapeIcon(shape, color, s) {
     var h = 'width="' + s + '" height="' + s + '" viewBox="0 0 24 24" aria-hidden="true"';
@@ -270,12 +270,14 @@
   }
 
   /* build a bar-graph SVG from a counts map. opts: {cats, highlight:[k], tappable:bool} */
+  function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
   function graphSVG(cats, countMap, opts) {
     opts = opts || {};
     var n = cats.length;
     var slot = Math.min(64, (GW - 16) / n);
     var startX = (GW - n * slot) / 2 + slot / 2;
-    var s = '<svg class="gi-graph" viewBox="0 0 ' + GW + ' ' + GH + '" role="img" aria-label="' + String(txt('srCaption')).replace(/"/g, '&quot;') + '">';
+    var vbh = opts.labels ? GH_LAB : GH;
+    var s = '<svg class="gi-graph' + (opts.labels ? ' gi-graph-lab' : '') + '" viewBox="0 0 ' + GW + ' ' + vbh + '" role="img" aria-label="' + String(txt('srCaption')).replace(/"/g, '&quot;') + '">';
     /* faint unit gridlines + axis numbers 5 and 10 */
     [5, 10].forEach(function (g) {
       var y = BY - g * U;
@@ -294,6 +296,25 @@
       if (hl) s += '<rect x="' + (x - 3) + '" y="' + (BY - c * U - 3) + '" width="' + (BW + 6) + '" height="' + (c * U + 6) + '" rx="4" fill="none" stroke="#F2784B" stroke-width="2.5"/>';
       /* category shape marker under the axis */
       s += '<g transform="translate(' + (cx - 9) + ',' + (BY + 3) + ')">' + shapeIcon(d.shape, d.color, 18) + '</g>';
+      /* the category NAME, so the interpret rounds spell what the question asks for */
+      if (opts.labels) {
+        var lab = String(clabel(k)), words = lab.split(" ").filter(Boolean), lines = [lab];
+        if (words.length > 1) {                       /* split at the most even seam */
+          var best = null;
+          for (var wq = 1; wq < words.length; wq++) {
+            var la = words.slice(0, wq).join(' '), lb = words.slice(wq).join(' ');
+            var mx = Math.max(la.length, lb.length);
+            if (!best || mx < best.mx) best = { mx: mx, lines: [la, lb] };
+          }
+          if (best && best.mx < lab.length) lines = best.lines;
+        }
+        var longest = 0;
+        lines.forEach(function (ln) { if (ln.length > longest) longest = ln.length; });
+        var fsz = Math.max(6.6, Math.min(9.5, (slot - 4) * 1.92 / Math.max(1, longest)));
+        lines.forEach(function (ln, li) {
+          s += '<text x="' + cx + '" y="' + (BY + 27 + li * (fsz + 1.2)) + '" font-size="' + fsz.toFixed(2) + '" fill="#14322D" text-anchor="middle">' + esc(ln) + '</text>';
+        });
+      }
       /* tappable invisible column (build) */
       if (opts.tappable) s += '<rect class="gi-col" data-cat="' + k + '" x="' + (cx - slot / 2 + 2) + '" y="6" width="' + (slot - 4) + '" height="' + (BY - 6) + '" fill="transparent" style="cursor:pointer"/>';
     });
@@ -341,17 +362,27 @@
            flex column; content stays within the fold either way) */
         '.lcs-app.activity .lcs-stage{display:flex;flex-direction:column;justify-content:center;}',
         '.gi-root{display:flex;flex-direction:column;align-items:center;gap:6px;width:100%;max-width:540px;margin:0 auto;}',
+        '@media (min-width:700px){.gi-root{max-width:660px;}}',
+        '@media (min-width:960px){.gi-root{max-width:720px;}}',
         '.gi-say{display:flex;align-items:center;gap:8px;width:100%;}',
         '.gi-pip{flex:0 0 auto;}',
         '.gi-line{flex:1 1 auto;min-height:1.1em;text-align:center;font:700 .92rem/1.2 Nunito,system-ui,sans-serif;color:#146B5E;margin:0;}',
         '.gi-line.miss{color:#C2410C;}',
         '.gi-basket{flex:0 0 auto;}',
         '.gi-graph{width:100%;height:auto;max-height:112px;display:block;}',
-        '.gi-tally{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 14px;width:100%;}',
+        '.gi-graph-lab{max-height:172px;}',
+        '@media (min-width:700px){.gi-graph{max-height:168px;}.gi-graph-lab{max-height:212px;}}',
+        '@media (min-width:960px){.gi-graph{max-height:196px;}.gi-graph-lab{max-height:242px;}}',
+        '.gi-tally{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 8px;width:100%;}',
+        '.gi-trow{background:#fff;border:1px solid #E4D8BE;border-radius:9px;padding:1px 6px;}',
+        /* Below ~340 the strip already wraps to two rows and cannot be misread as a
+           per-column header, so the card decoration has no job there — and it cost
+           12px of height, which put the match round 11px past the fold at 280. */
+        '@media (max-width:340px){.gi-trow{background:none;border:0;padding:0;}}',
         '.gi-trow{display:inline-flex;align-items:center;gap:5px;font:700 .8rem/1 Nunito,sans-serif;color:#5a4a2a;}',
         '.gi-tmarks{display:inline-flex;align-items:flex-end;gap:2px;height:14px;}',
         '.gi-tmark{width:2px;height:13px;background:#7a5a30;display:inline-block;}',
-        '.gi-tcross{background:#C0392B;}', '.gi-tgap{width:6px;display:inline-block;}',
+        '.gi-tcross{background:#7a5a30;height:19px;transform:rotate(-42deg);margin-left:-13px;margin-right:2px;}', '.gi-tgap{width:6px;display:inline-block;}',
         '.gi-rail{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;width:100%;}',
         '.gi-chip{min-width:46px;min-height:46px;border:2.5px solid #146B5E;border-radius:12px;background:#fff;color:#0F4A40;',
         'font:800 1.15rem/1 "Baloo 2",Nunito,sans-serif;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;padding:4px 10px;}',
@@ -359,10 +390,12 @@
         '.gi-chip.tf{min-width:88px;font-size:1rem;}',
         '.gi-row{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;align-items:center;width:100%;}',
         '.gi-btn{min-height:46px;border-radius:13px;border:none;font:800 1rem/1 "Baloo 2",Nunito,sans-serif;cursor:pointer;padding:8px 18px;}',
-        '.gi-commit{background:#F2784B;color:#fff;}', '.gi-commit[disabled]{opacity:.45;cursor:default;}',
+        '.gi-commit{background:#F2784B;color:#14322D;}', '.gi-commit[disabled]{background:#F7C9B4;color:#14322D;opacity:1;cursor:default;}',
         '.gi-undo{background:#fff;color:#146B5E;border:2.5px solid #146B5E;min-width:88px;}',
         '.gi-thumbs{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;width:100%;}',
         '.gi-thumb{border:3px solid #146B5E;border-radius:12px;background:#fff;cursor:pointer;padding:5px;width:144px;}',
+        '@media (min-width:700px){.gi-thumb{width:200px;}}',
+        '@media (min-width:960px){.gi-thumb{width:236px;}}',
         '.gi-thumb svg{width:100%;height:auto;}',
         '.gi-sronly{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);}',
         '.lcs-app:not(.graphit-resolved) .lcs-activity-check{display:none !important;}'
@@ -469,7 +502,7 @@
     _renderBuild: function (root) {
       var self = this, round = this._round, cats = Core.catKeys(round);
       var gwrap = el('div'); gwrap.style.width = '100%';
-      gwrap.innerHTML = graphSVG(cats, this._built, { cats: cats, tappable: true });
+      gwrap.innerHTML = graphSVG(cats, this._built, { cats: cats, tappable: true, labels: true });
       root.appendChild(gwrap);
       gwrap.querySelectorAll('.gi-col').forEach(function (c) {
         c.addEventListener('click', function () { self._place(c.getAttribute('data-cat')); });
@@ -516,7 +549,7 @@
     _renderInterpret: function (root) {
       var self = this, round = this._round, cats = Core.catKeys(round), q = round.question;
       var gwrap = el('div'); gwrap.style.width = '100%';
-      gwrap.innerHTML = graphSVG(cats, round.data, { cats: cats, highlight: this._highlight || [] });
+      gwrap.innerHTML = graphSVG(cats, round.data, { cats: cats, highlight: this._highlight || [], labels: true });
       root.appendChild(gwrap);
       var rail = el('div', 'gi-rail');
       if (q.type === 'verify') {

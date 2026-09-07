@@ -1598,6 +1598,78 @@
         "Barnet vet att tio ental är lika mycket som ett tiotal och kan byta dem mot varandra",
         "Barnet kan visa med klossarna varför ett nytt tiotal uppstår"
       ]
+    },
+    "place-value-regroup.subtract-decompose.2-nbt-b-7": {
+      "about": [
+        "Fem ska bort, och i entalsrutan finns bara två kuber. Tuck har lagt fram 342 som tre hundraplattor, fyra tiostavar och två enhetskuber, i var sin ruta för hundratal, tiotal och ental. Barnet trycker på ”Växla ett tiotal”, ser en av tiostavarna falla isär i tio lösa kuber — nu finns det tolv — och kan ta bort fem. Uppgifterna går från 342 − 5 till 243 − 5 och stannar alltid under 1000.",
+        "Den stora idén är att talet är precis lika stort före och efter växlingen. 342 är fortfarande 342 när det är tre hundratal, tre tiotal och tolv ental — bara uppdelat på ett nytt sätt, och nu går subtraktionen att göra. Hundratalen rörs aldrig i den här övningen, och det som ska bort är alltid ett ensiffrigt tal, så uppmärksamheten kan stanna vid själva växlingen.",
+        "Aktiviteten är anpassad till Lgr22 och tränar naturliga tal och deras egenskaper samt metoder för subtraktion inom talområdet 0–1000. Den här interaktiva övningen passar årskurs 3. Ingen timer, inga poäng och inget att förlora — barnet får pröva, ändra sig och räkna om i sin egen takt."
+      ],
+      "practices": [
+        "Subtrahera ett ensiffrigt tal från ett tresiffrigt tal med växling",
+        "Växla ett tiotal till tio ental när entalen inte räcker",
+        "Hålla isär hundratal, tiotal och ental i var sin ruta",
+        "Se att talet har samma värde före och efter växlingen",
+        "Räkna säkert inom talområdet 0–1000"
+      ],
+      "howToPlay": [
+        "Läs uppgiften, till exempel 342 − 5, och titta på klossarna i rutorna för hundratal, tiotal och ental.",
+        "Tryck på ”Växla ett tiotal” när entalen inte räcker, ta bort det som ska bort och skriv svaret på knappsatsen.",
+        "Tryck på Kontrollera för att gå vidare — utan timer och utan poäng."
+      ],
+      "learningGoals": [
+        "Barnet kan växla ett tiotal till tio ental när entalen inte räcker",
+        "Barnet vet att talet är lika stort före och efter växlingen",
+        "Barnet kan subtrahera ett ensiffrigt tal från ett tresiffrigt tal inom 1000"
+      ]
+    },
+    "place-value-regroup.add-compose-hundred.2-nbt-b-7": {
+      "about": [
+        "Elva tiotal får inte plats i tiotalsrutan. Tuck lägger fram 160 och 50, barnet skjuter ihop tiostavarna och räknar dem: sex plus fem blir elva. Tio av dem byts mot en hundraplatta som flyttar över till hundratalsrutan, en enda tiostav blir kvar, och summan går att läsa av direkt — 210.",
+        "Det är samma byte som när tio ental blir ett tiotal, fast ett steg upp: tio tiotal är precis lika mycket som ett hundratal. I hälften av uppgifterna blir det jämnt tio tiotal och tiotalsrutan står tom efteråt — 320 + 80 blir 400. Alla tal är hela tiotal, så entalsrutan används aldrig, och summorna stannar under 1000.",
+        "Aktiviteten är anpassad till Lgr22 och tränar positionssystemet samt metoder för addition inom talområdet 0–1000. Den här interaktiva övningen passar årskurs 3. Ingen timer, inga poäng och inget att förlora — barnet får räkna tiostavarna två gånger om det vill."
+      ],
+      "practices": [
+        "Addera hela tiotal med hundratalsövergång inom 1000",
+        "Göra ett hundratal av tio tiotal och se att mängden är densamma",
+        "Räkna tiotal i grupper om tio",
+        "Se att tiotalsrutan kan bli tom efter en växling",
+        "Läsa av summan ur hundratal, tiotal och ental"
+      ],
+      "howToPlay": [
+        "Läs uppgiften, till exempel 160 + 50, och räkna tiostavarna i tiotalsrutan.",
+        "Tryck på ”Gör ett hundratal” när de är tio eller fler, och skriv sedan summan på knappsatsen.",
+        "Tryck på Kontrollera för att gå vidare — utan timer och utan poäng."
+      ],
+      "learningGoals": [
+        "Barnet kan addera hela tiotal inom 1000 när tiotalen räcker till ett hundratal",
+        "Barnet vet att tio tiotal är lika mycket som ett hundratal",
+        "Barnet kan läsa av summan när tiotalsrutan har blivit tom"
+      ]
+    },
+    "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {
+      "about": [
+        "Tiotalsrutan är tom. Tuck har lagt fram 302 som tre hundraplattor och två enhetskuber, och 5 ska bort — men två kuber räcker inte, och den vanliga utvägen finns inte heller: det går inte att växla ett tiotal som inte finns.",
+        "Därför tar barnet ett steg till vänster. Först växlas ett hundratal till tio tiotal, och nu finns det något att växla vidare: ett av tiotalen blir tio ental, och 12 − 5 går att räkna. Två växlingar efter varandra, i rätt ordning — det kallas dubbelväxling, och det är det som gör 302 − 5 svårare än 342 − 5. Därför brukar de här talen komma sist.",
+        "Aktiviteten är anpassad till Lgr22 och tränar positionssystemet samt metoder för subtraktion inom talområdet 0–1000. Den här interaktiva övningen passar årskurs 3. Ingen timer, inga poäng och inget att förlora — barnet får ta ett steg i taget och räkna om i sin egen takt."
+      ],
+      "practices": [
+        "Subtrahera från ett tresiffrigt tal där tiotalssiffran är noll",
+        "Växla ett hundratal till tio tiotal",
+        "Växla sedan ett tiotal till tio ental",
+        "Göra två växlingar efter varandra i rätt ordning — dubbelväxling",
+        "Se att talet har samma värde efter båda växlingarna"
+      ],
+      "howToPlay": [
+        "Läs uppgiften, till exempel 302 − 5, och titta på tiotalsrutan — är den tom finns det inget tiotal att växla.",
+        "Tryck först på ”Växla ett hundratal” och sedan på ”Växla ett tiotal”, ta bort det som ska bort och skriv svaret på knappsatsen.",
+        "Tryck på Kontrollera för att gå vidare — utan timer och utan poäng."
+      ],
+      "learningGoals": [
+        "Barnet kan subtrahera från ett tal där tiotalssiffran är noll",
+        "Barnet vet att ett hundratal kan växlas till tio tiotal och ett tiotal till tio ental",
+        "Barnet kan göra två växlingar efter varandra i rätt ordning"
+      ]
     }
   }
 }

@@ -2264,24 +2264,24 @@
     },
     "seriation.compare-length.1-md-a-1": {
       "about": [
-        "Tilly, la chatte de la boutique, a caché de jolis rubans colorés sur des étagères placées loin les unes des autres. Votre enfant part à leur recherche, puis se sert d'une ficelle — une longue cordelette — pour savoir lequel est le plus long, lequel est le plus court, et lequel mesure exactement la même longueur que la ficelle. Il n'y a ni chiffres, ni centimètres : on regarde, on compare, on décide avec ses yeux et un petit outil de mesure tout simple.",
-        "L'idée mathématique cachée derrière ce jeu est essentielle au CP : comparer des longueurs, les ranger de la plus grande à la plus petite, et surtout comparer deux objets sans les poser côte à côte. Quand les rubans sont sur des étagères éloignées, on ne peut pas les rapprocher pour les mettre bout à bout. On utilise alors un troisième objet, la ficelle, comme intermédiaire : on la compare à un ruban, puis à l'autre. C'est ce qu'on appelle la comparaison indirecte, une étape clé pour raisonner sur les grandeurs et, plus tard, pour comprendre à quoi sert vraiment une règle graduée.",
-        "Cette activité est entièrement gratuite, sans compte à créer, sans minuteur et sans points à gagner. Elle est conçue en lien avec les programmes officiels, dans le domaine « Grandeurs et mesures », et votre enfant avance à son rythme, aussi longtemps qu'il en a besoin, en explorant tranquillement chaque étagère de la boutique de Tilly."
+        "Tilly, la chatte de la boutique, garde ses plus jolis rubans bien en vue, chacun sur son étagère, et la même longueur de ficelle est marquée devant toutes. Votre enfant voit les trois rubans en même temps et les compare à cette ficelle, qui sert de longueur de référence : lequel va plus loin qu'elle, lequel s'arrête avant, lequel se termine juste dessus ? Il n'y a ni chiffres, ni centimètres : on observe, on compare, on décide avec ses yeux et une simple ficelle.",
+        "L'idée mathématique de ce jeu est essentielle au CP : comparer des longueurs sans les mesurer avec des chiffres. Sur chaque étagère, la même longueur de ficelle est reportée : c'est un repère commun. Votre enfant regarde jusqu'où va chaque ruban par rapport à ce repère (il le dépasse, il s'arrête avant, ou il se termine juste dessus), puis il désigne le plus long, le plus court, ou celui qui est aussi long que la ficelle. Se servir d'un troisième objet comme longueur de référence, c'est déjà le geste qui prépare la mesure, bien avant la règle graduée.",
+        "Cette activité est entièrement gratuite, sans compte à créer, sans minuteur et sans points à gagner. Elle est conçue en lien avec les programmes officiels, dans le domaine « Grandeurs et mesures », et votre enfant avance à son rythme, aussi longtemps qu'il en a besoin, en découvrant tranquillement les rubans de la boutique de Tilly."
       ],
       "practices": [
-        "Comparer la longueur de deux rubans",
-        "Ranger trois rubans du plus long au plus court",
-        "Utiliser la ficelle comme objet intermédiaire pour comparer",
+        "Comparer la longueur d'un ruban et celle de la ficelle",
+        "Repérer le ruban le plus long ou le plus court parmi trois",
+        "Se servir de la ficelle comme longueur de référence commune",
         "Employer le vocabulaire « plus long », « plus court », « aussi long que »"
       ],
       "howToPlay": [
-        "Observe bien les rubans cachés sur les étagères et la ficelle de Tilly.",
+        "Observe les trois rubans posés sur les étagères et la ficelle de Tilly.",
         "Compare chaque ruban à la ficelle pour voir s'il est plus long, plus court ou aussi long qu'elle.",
         "Touche le ruban le plus long, le plus court, ou celui qui est aussi long que la ficelle, selon la consigne."
       ],
       "learningGoals": [
-        "Votre enfant sait comparer et ranger des longueurs sans utiliser de chiffres.",
-        "Il comprend la comparaison indirecte : passer par un troisième objet quand on ne peut pas rapprocher les deux longueurs.",
+        "Votre enfant sait comparer des longueurs et reconnaître la plus longue et la plus courte, sans chiffres.",
+        "Il sait se servir d'une longueur de référence : il compare chaque ruban à la même ficelle, sans rien déplacer.",
         "Il maîtrise le vocabulaire de la longueur, une base solide avant de mesurer plus tard en centimètres avec une règle."
       ]
     },

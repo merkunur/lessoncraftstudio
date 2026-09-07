@@ -3092,24 +3092,24 @@
     },
     "seriation.compare-length.1-md-a-1": {
       "about": [
-        "Tilly, de vriendelijke winkelkat, bewaart haar gekleurde linten op planken die ver uit elkaar hangen — zo ver dat je kind ze niet naast elkaar kan leggen. Hoe weet je dan welk lint langer is? Daarvoor is er het touwtje: een handig hulpstuk dat als tussenmaat dient. Je kind legt elk lint in gedachten naast het touwtje en tikt op het langste lint, het kortste lint, of het lint dat even lang is als het touwtje. Het is een gratis, interactieve activiteit die in elke browser speelt, zonder download en zonder account.",
-        "Het grote idee erachter is indirect vergelijken. Wanneer twee dingen te ver uit elkaar liggen om ze naast elkaar te leggen, helpt een derde voorwerp — hier het touwtje — je om ze tóch te vergelijken. De vraag verandert per ronde, zodat je kind elk lint echt tegen het touwtje afleest in plaats van te gokken. Zo ontdekt het spelenderwijs dat je met één maat meerdere voorwerpen met elkaar kunt vergelijken.",
-        "De activiteit sluit aan bij de SLO-kerndoelen: voorwerpen ordenen op lengte en twee dingen indirect vergelijken met behulp van een derde voorwerp. Geen timer, geen score — gewoon rustig en speels oefenen, met een warme bevestiging en een makkelijke nieuwe poging als je kind het nog een keer wil proberen."
+        "Winkelkat Tilly bewaart haar gekleurde linten bij een touwtje met een vaste lengte: bovenaan ligt het touwtje, en daaronder liggen drie linten, allemaal vanaf dezelfde rand. Een streepjeslijn laat op elke rij zien waar het touwtje eindigt, zodat je kind in één oogopslag ziet welk lint daar voorbij komt en welk lint er eerder stopt. Elke ronde stelt precies één vraag, en je kind antwoordt met één tik op een kleur. Het is een gratis, interactieve activiteit die in elke browser speelt, zonder download en zonder account.",
+        "Het idee erachter is vergelijken met een vaste lengte. Het touwtje wordt nooit langer of korter, dus elk lint valt ergens ten opzichte van dat ene punt: het komt eraan voorbij, het stopt ervoor, of het eindigt er precies. In drie van de negen rondes vraagt Tilly juist naar dat laatste geval — welk lint is even lang als het touwtje? — en in de andere rondes kijkt je kind de linten onderling na: welk lint komt het verst, en welk lint stopt als eerste. De volgorde van de linten en van de kleurknoppen wisselt per ronde, dus gokken op een vaste plek werkt niet.",
+        "De activiteit hoort bij het domein meten en meetkunde van de SLO-kerndoelen, waar kinderen lengtes leren vergelijken en de bijbehorende taal leren gebruiken. Hier blijft het bewust bij vergelijken: je kind kiest per ronde één lint en werkt nog zonder getallen, zonder maateenheden en zonder liniaal. Geen timer, geen score — rustig kijken mag, en na een misser volgt een vriendelijke aanwijzing en mag je kind het meteen opnieuw proberen."
       ],
       "practices": [
-        "Lengtes vergelijken van voorwerpen die je niet naast elkaar kunt leggen",
-        "Een touwtje gebruiken als tussenmaat (het derde voorwerp)",
+        "Zien welk lint het verst komt en welk lint als eerste stopt",
+        "Eén lint vergelijken met het touwtje: langer, korter of even lang",
         "Het langste lint, het kortste lint of het lint dat even lang is als het touwtje kiezen",
-        "Meerdere linten ordenen op lengte"
+        "De woorden langer, korter en even lang herkennen in de vraag"
       ],
       "howToPlay": [
-        "Lees elk gekleurd lint af tegen het touwtje",
+        "Kijk waar het touwtje eindigt: die streepjeslijn staat op elke rij",
         "Tik per vraag op het langste lint, het kortste lint, of het lint dat even lang is als het touwtje",
         "Warme bevestiging en een makkelijke nieuwe poging — zonder timer, zonder score"
       ],
       "learningGoals": [
-        "Ordenen op lengte en indirect vergelijken via een derde voorwerp",
-        "Begrijpen dat je met een meethulpje dingen kunt vergelijken die je niet naast elkaar kunt leggen",
+        "Lengtes vergelijken en het langste of het kortste van drie linten aanwijzen",
+        "Een lint naast een vaste lengte leggen en zien of het langer, korter of even lang is",
         "De basis leggen voor het lengte-redeneren waar het latere meten op voortbouwt"
       ]
     },

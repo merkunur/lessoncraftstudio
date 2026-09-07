@@ -2885,25 +2885,25 @@
     },
     "seriation.compare-length.1-md-a-1": {
       "about": [
-        "In dieser kostenlosen interaktiven Größen-Aktivität für die 1. Klasse hilfst du Tilly, der Ladenkatze, ihre bunten Bänder zu ordnen. Die Bänder liegen auf weit auseinanderliegenden Regalen – du kannst sie nicht einfach nebeneinanderlegen. Aber Tilly hat eine Schnur als Vergleich. Pro Runde tippst du auf das längste Band, das kürzeste Band oder das Band, das genauso lang ist wie die Schnur.",
-        "Dahinter steckt eine wichtige mathematische Idee: Wenn man zwei Dinge nicht direkt nebeneinanderlegen kann, vergleicht man sie indirekt mit einem dritten Gegenstand – hier mit der Schnur. So lernen Kinder, Längen sicher zu vergleichen und der Größe nach zu ordnen. Alle Bänder beginnen an derselben Kante, damit der Vergleich ehrlich und nachvollziehbar bleibt.",
+        "In dieser kostenlosen interaktiven Größen-Aktivität für die 1. Klasse hilfst du Tilly, der Ladenkatze, ihre bunten Bänder zu vergleichen. In jeder Runde siehst du oben die Schnur und darunter drei Bänder, die alle an derselben Kante beginnen. Du suchst genau ein Band: das längste, das kürzeste oder das, das genauso lang ist wie die Schnur. Dann tippst du auf seine Farbe.",
+        "Dahinter steckt eine wichtige mathematische Idee: Längen kann man auch vergleichen, ohne zu messen. Die Schnur bleibt in jeder Runde gleich lang und gibt eine feste Vergleichslänge vor – an der gestrichelten Linie siehst du auf jedem Regal, ob ein Band darüber hinausreicht, vorher aufhört oder genau dort endet. Alle Bänder beginnen an derselben Kante, damit der Vergleich ehrlich und nachvollziehbar bleibt.",
         "Die Aktivität ist an den Lehrplänen der Grundschule (Bereich „Größen und Messen“) ausgerichtet. Es gibt keinen Zeitdruck und keine Punkte – dein Kind kann in seinem eigenen Tempo ausprobieren, vergleichen und nachdenken."
       ],
       "practices": [
         "Längen vergleichen: länger, kürzer, genauso lang",
-        "Indirekt vergleichen mit einem dritten Gegenstand (der Schnur)",
-        "Drei Bänder der Länge nach ordnen – vom längsten bis zum kürzesten",
+        "Ein Band an der Schnur prüfen: länger, kürzer oder genauso lang",
+        "Aus drei Bändern das längste oder das kürzeste heraussuchen",
         "Genau hinschauen: Wo endet ein Band im Vergleich zur Schnur?"
       ],
       "howToPlay": [
         "Schau dir die drei Bänder und die Schnur an. Alle starten an derselben Kante.",
         "Lies, wonach gefragt wird: das längste, das kürzeste oder genauso lang wie die Schnur.",
-        "Tippe auf das passende Band. Es gibt 9 Runden – ohne Zeit und ohne Punkte."
+        "Tippe unten auf seine Farbe. Es gibt 9 Runden – ohne Zeit und ohne Punkte."
       ],
       "learningGoals": [
-        "Das Kind vergleicht Längen und benennt sie als länger, kürzer oder genauso lang.",
-        "Das Kind nutzt ein drittes Objekt (die Schnur), um Längen indirekt zu vergleichen.",
-        "Das Kind ordnet drei Gegenstände sicher nach ihrer Länge."
+        "Das Kind vergleicht Längen und erkennt, ob ein Band länger, kürzer oder genauso lang ist.",
+        "Das Kind vergleicht ein einzelnes Band mit der Schnur als fester Vergleichslänge.",
+        "Das Kind findet unter drei Bändern das längste und das kürzeste."
       ]
     },
     "choice-board.fraction-noncongruent.2-g-a-3": {

@@ -917,26 +917,26 @@
     },
     "seriation.compare-length.1-md-a-1": {
       "about": [
-        "Tilly é uma gatinha cheia de charme que trabalha numa lojinha e adora esconder fitas coloridas em prateleiras bem distantes umas das outras. Como as fitas ficam longe, não dá para colocá-las lado a lado — e é aí que entra a brincadeira: a criança usa um barbante como referência para descobrir qual fita é a mais comprida, qual é a mais curta e qual tem o mesmo comprimento do barbante.",
-        "Comparar comprimentos de longe, sem poder encostar um objeto no outro, é o coração da comparação indireta. A criança percebe que, se a fita azul é maior que o barbante e a fita verde é menor que o barbante, então a azul é maior que a verde — mesmo sem nunca ter juntado as duas. Essa forma de raciocinar, comparar duas coisas por meio de uma terceira, é um passo importante antes de a criança começar a medir com a régua nos anos seguintes.",
-        "É uma atividade gratuita e online, feita para brincar direto no navegador, em tablets, celulares e computadores da sala de aula — sem instalar nada e sem criar conta. Ela está alinhada à BNCC, na unidade temática Grandezas e medidas, e trabalha a habilidade de comparar comprimentos usando as expressões mais comprido e mais curto e de ordenar objetos por tamanho. Sem cronômetro e sem pontuação: só observação calma, no tempo de cada criança."
+        "Tilly é uma gatinha cheia de charme que cuida de uma lojinha e guarda suas fitas coloridas numa estante, uma fita em cada prateleira. Em cada rodada aparecem três fitas e um barbante: a criança olha as três de uma vez e descobre qual é a mais comprida, qual é a mais curta e qual tem o mesmo tamanho do barbante.",
+        "Como as três fitas começam no mesmo ponto e o barbante deixa um tracinho no lugar onde ele termina, dá para ver de relance qual fita passa do tracinho, qual para antes dele e qual para exatamente nele. Comparar cada fita com uma mesma referência é o começo da ideia de medida: antes de usar a régua, a criança precisa perceber que comparar é sempre comparar com alguma coisa. O barbante não tem números nem marquinhas — só um comprimento fixo, sempre o mesmo.",
+        "É uma atividade gratuita e online, feita para brincar direto no navegador, em tablets, celulares e computadores da sala de aula — sem instalar nada e sem criar conta. Ela está alinhada à BNCC, na unidade temática Grandezas e medidas, e trabalha a comparação de comprimentos com as expressões mais comprido, mais curto e do mesmo tamanho. Não aparece nenhum número na tela: sem cronômetro e sem pontuação, só observação calma, no tempo de cada criança."
       ],
       "practices": [
-        "Comparar comprimentos usando as palavras mais comprido e mais curto.",
-        "Ordenar as fitas por tamanho, do mais curto ao mais comprido.",
-        "Fazer comparação indireta: usar o barbante como referência para comparar duas fitas que estão distantes uma da outra.",
-        "Reconhecer quando dois objetos têm o mesmo comprimento.",
-        "Ampliar o vocabulário de medidas com materiais não convencionais, como o barbante, antes de usar instrumentos padronizados."
+        "Reconhecer, entre três fitas, qual é a mais comprida e qual é a mais curta.",
+        "Perceber que fitas que começam no mesmo ponto podem ser comparadas só de olhar: a que vai mais longe é a mais comprida.",
+        "Comparar cada fita com uma mesma referência, o barbante, e ver se ela passa dele, se para antes dele ou se termina junto com ele.",
+        "Reconhecer quando uma fita tem exatamente o mesmo comprimento do barbante.",
+        "Familiarizar-se com o vocabulário de comprimento usando um material do dia a dia, sem números e sem instrumentos graduados, antes de medir com a régua nos próximos anos."
       ],
       "howToPlay": [
-        "A criança lê ou ouve o comando: encontrar a fita mais comprida, a mais curta ou a que tem o mesmo comprimento do barbante.",
-        "Ela observa cada fita escondida por Tilly nas prateleiras e a compara, uma de cada vez, com o barbante de referência.",
-        "A criança toca na fita que responde ao comando. Uma verificação amigável mostra quando ela acerta, com um jeito tranquilo de observar de novo e tentar outra vez."
+        "A criança lê ou ouve o comando: tocar na fita mais comprida, na mais curta ou na que tem o mesmo comprimento do barbante. São nove rodadas, e a ordem muda a cada volta.",
+        "As três fitas da rodada aparecem juntas na estante, cada uma na sua prateleira e todas começando no mesmo ponto; um tracinho mostra até onde vai o barbante. É só olhar: as três estão à vista ao mesmo tempo, sem pressa.",
+        "Embaixo da estante ficam os botões coloridos, um para cada fita. A criança toca no botão da cor que responde ao comando: se acertar, o botão se ilumina, a Tilly comemora e aparece o botão para seguir adiante; se não, aquele botão fica mais apagado e uma dica gentil convida a olhar de novo."
       ],
       "learningGoals": [
-        "Comparar comprimentos e ordenar objetos por tamanho usando mais comprido e mais curto.",
-        "Compreender a comparação indireta, entendendo que dá para comparar dois objetos por meio de um terceiro.",
-        "Construir vocabulário e intuição sobre medidas com materiais manipuláveis do dia a dia, preparando a criança para medir com instrumentos nos próximos anos."
+        "Comparar comprimentos e reconhecer, entre três fitas, a mais comprida e a mais curta.",
+        "Entender que toda comparação precisa de um ponto de partida comum e de uma referência: aqui, todas as fitas começam no mesmo lugar e todas são olhadas junto do mesmo barbante.",
+        "Ganhar familiaridade com o vocabulário de comprimento — mais comprido, mais curto, do mesmo tamanho — com um material simples e sem números, preparando a criança para medir com instrumentos graduados nos próximos anos."
       ]
     },
     "choice-board.fraction-noncongruent.2-g-a-3": {

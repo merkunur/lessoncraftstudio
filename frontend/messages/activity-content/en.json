@@ -3690,24 +3690,24 @@
     },
     "seriation.compare-length.1-md-a-1": {
       "about": [
-        "Tilly the shop cat keeps her ribbons on far-apart shelves where you can't lay them side by side, so the child reads each one — red, blue, green, yellow — against a measuring cord and taps the longest, the shortest, or the one just as long as the cord. It's a free, interactive Grade 1 measurement activity that runs in the browser with no account.",
-        "The big idea is comparing length indirectly: when two things are too far apart to line up, a third object — the cord — lets you compare them anyway. Across the rounds the question changes between longest, shortest, and just-as-long-as-the-cord, so a child has to read each ribbon's length against the cord rather than guessing by a quick glance, which is exactly the reasoning that ordering objects by length builds.",
-        "It is aligned to Common Core 1.MD.A.1 — ordering objects by length and comparing two objects indirectly using a third. No timer, no score — just calm, playful practice."
+        "Tilly the shop cat keeps her ribbons on shelves of their own, with the same length of cord marked in front of every one. All three ribbons are in view at once, and the child reads each one — red, blue, green, yellow — against that cord, then taps the longest, the shortest, or the one just as long as the cord. It's a free, interactive Grade 1 measurement activity that runs in the browser with no account.",
+        "The big idea is judging length against a fixed reference. The cord is the same length in every round, and a dashed line carries its end across every shelf, so the child can see at a glance whether a ribbon runs past it, stops short of it, or finishes exactly on it. Across the rounds the question changes between longest, shortest, and just-as-long-as-the-cord, so a child has to read each ribbon against the cord rather than guessing — the reasoning that measuring with units is later built on.",
+        "It is aligned to Common Core 1.MD.A.1, which covers comparing lengths and using a third object as a reference. No timer, no score — just calm, playful practice."
       ],
       "practices": [
-        "Comparing the length of objects that cannot be placed side by side",
-        "Using a measuring cord as a third object to compare two others",
+        "Comparing a ribbon's length against a fixed reference length",
+        "Reading whether a ribbon runs past the cord, stops short, or matches it",
         "Choosing the longest, the shortest, or the one equal to the cord",
-        "Ordering several ribbons by how long they are"
+        "Picking out the longest or the shortest of three ribbons"
       ],
       "howToPlay": [
-        "Read each colored ribbon against Tilly's measuring cord.",
-        "Tap the longest, the shortest, or the ribbon that is just as long as the cord, depending on the question.",
+        "Read each colored ribbon against Tilly's cord and the dashed line that marks its end.",
+        "Depending on the question, tap the colour of the longest ribbon, the shortest, or the one just as long as the cord.",
         "A warm check confirms a correct choice and offers an easy retry, with no timer and no score."
       ],
       "learningGoals": [
-        "Order objects by length and compare two indirectly using a third — the focus of Common Core 1.MD.A.1",
-        "Understand that a measuring tool lets you compare things you cannot line up",
+        "Compare lengths against a fixed reference object — the focus of Common Core 1.MD.A.1",
+        "Understand that one unmarked reference length can be used to judge many objects",
         "Build the length-reasoning foundation that later measurement work depends on"
       ]
     },

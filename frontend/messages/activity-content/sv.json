@@ -1527,6 +1527,29 @@
         "Barnet förstår att längden är antalet enheter — det tal man kommer till när man har räknat dem",
         "Barnet upptäcker att mindre enheter ger fler enheter, och bygger den grund som linjalen och centimetern senare vilar på"
       ]
+    },
+    "skipcount.fill.2-nbt-a-2": {
+      "about": [
+        "En rad näckrosblad ligger över dammen med tal skrivna på sig — 5, 10, 15 — och över varje hopp står +5, +10 eller +100. Ett blad är tomt, och barnet trycker på det tal som hör hemma där för att hjälpa grodan Hopper vidare. Det är en gratis, interaktiv matteaktivitet som körs direkt i webbläsaren på surfplatta, telefon eller klassrumsdator — utan installation och utan konto.",
+        "Aktiviteten har elva rader, och de blandas om till en ny ordning varje gång. Några är raka femhopp och tiohopp — 5, 10, 15, 20 och 20, 30, 40, 50 — och en är hundrahopp: 100, 200, 300, 400. Tre rader prövar mönstret på riktigt: en rad som inte börjar på ett femtal (3, 8, 13, 18, 23), en rad som passerar hundra (80, 90, 100, 110) och en rad som räknar bakåt (60, 50, 40, 30). Ett barn som bara kan ramsan 5, 10, 15, 20 utantill klarar dem inte — man måste se att hoppet är lika stort hela vägen.",
+        "I tre av raderna är alla blad ifyllda och siffrorna över hoppen borta. Då är frågan i stället hur stort varje hopp är, och barnet väljer mellan +5, +10 och +100 — mönstret läses åt andra hållet, och barnet får själv sätta ord på hoppet. Allt sker med ett tryck; ingenting skrivs. Aktiviteten följer Lgr22 inom taluppfattning: att räkna framåt i 5-hopp, 10-hopp och 100-hopp, att räkna baklänges i tiohopp och att upptäcka mönstret i en talföljd. Ingen timer och inga poäng — bara lugn och lekfull övning."
+      ],
+      "practices": [
+        "Räkna framåt i 5-hopp, 10-hopp och 100-hopp och fylla i talet som saknas i talföljden",
+        "Räkna baklänges i tiohopp, som 60, 50, 40, 30",
+        "Hålla mönstret när raden inte börjar på ett femtal (3, 8, 13) eller passerar hundra (80, 90, 100, 110)",
+        "Läsa av hur stort hoppet är i en färdig talföljd, utan siffror över hoppen"
+      ],
+      "howToPlay": [
+        "Titta på talen på näckrosbladen och på siffran över varje hopp — hur mycket ändras talet varje gång?",
+        "Tryck på det tal som hör hemma på det tomma bladet. I några rader står inga siffror över hoppen, och då trycker du i stället på hur stort varje hopp är.",
+        "Ett svar som inte stämmer tonas ner och du får en liten ledtråd — välj igen. När det stämmer fylls bladet i och raden lyser upp. Ingen timer och inga poäng."
+      ],
+      "learningGoals": [
+        "Barnet kan räkna framåt i 5-hopp, 10-hopp och 100-hopp och baklänges i tiohopp, och hitta det tal som saknas",
+        "Barnet ser att hoppet är lika stort hela vägen, även när raden börjar på ett annat tal än ett femtal eller passerar hundra",
+        "Barnet bygger den taluppfattning för tiotal och hundratal som addition, subtraktion och multiplikationstabellerna vilar på"
+      ]
     }
   }
 }

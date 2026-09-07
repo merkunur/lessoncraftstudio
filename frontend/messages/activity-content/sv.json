@@ -1574,6 +1574,30 @@
         "Barnet vet att samma form kan byggas på flera olika sätt",
         "Barnet kan vrida en form så att den passar in på sin plats"
       ]
+    },
+    "place-value-regroup.add-compose-ten.1-nbt-c-4": {
+      "about": [
+        "Tjugosju ligger framme som två tiostavar och sju enhetskuber, i var sin ruta för tiotal och ental. Barnet lägger till fem kuber till — nu är det tolv lösa kuber, fler än tio, och något måste hända. Ett tryck gör tio av dem till en ny tiostav, och sedan skriver barnet summan på knappsatsen. Uppgifterna går från 27 + 5 till 74 + 8 och stannar alltid under 100.",
+        "Den stora idén är att tio ental är precis lika mycket som ett tiotal — samma mängd, men skriven på en ny plats. När entalen blir fler än nio räcker entalsrutan inte till, och tio av dem byts mot en enda tiostav som flyttar över till tiotalsrutan. Ingenting försvinner och ingenting kommer till; det är bara ompackat.",
+        "Aktiviteten är anpassad till Lgr22 och tränar naturliga tal och deras egenskaper samt metoder för addition inom talområdet 0–100. Den här interaktiva övningen passar årskurs 2. Ingen timer, inga poäng och inget att förlora — barnet får pröva, ändra sig och räkna om i sin egen takt."
+      ],
+      "practices": [
+        "Addera ett tvåsiffrigt och ett ensiffrigt tal med tiotalsövergång",
+        "Göra ett tiotal av tio ental och se att mängden är densamma",
+        "Hålla isär tiotal och ental när entalen blir fler än nio",
+        "Läsa av klossarna som ett tvåsiffrigt tal",
+        "Räkna säkert inom talområdet 0–100"
+      ],
+      "howToPlay": [
+        "Läs uppgiften, till exempel 27 + 5, och titta på klossarna i rutorna för tiotal och ental.",
+        "Tryck på ”Gör ett tiotal” så blir tio lösa ental en tiostav, och skriv sedan summan på knappsatsen.",
+        "Tryck på Kontrollera för att gå vidare — utan timer och utan poäng."
+      ],
+      "learningGoals": [
+        "Barnet kan addera ett tvåsiffrigt och ett ensiffrigt tal inom 100 när entalen går över tio",
+        "Barnet vet att tio ental är lika mycket som ett tiotal och kan byta dem mot varandra",
+        "Barnet kan visa med klossarna varför ett nytt tiotal uppstår"
+      ]
     }
   }
 }

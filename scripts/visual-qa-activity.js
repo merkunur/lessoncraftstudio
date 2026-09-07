@@ -120,7 +120,7 @@ function measureInPage() {
   )).filter(el => el.tagName === 'BUTTON' || el.getAttribute('role') === 'button' || el.onclick || el.tabIndex >= 0)
     .filter(vis);
 
-  let worstSparse = null, minTap = Infinity, controlBottom = 0;
+  let worstSparse = null, minTap = Infinity, controlBottom = 0, unmeasured = 0;
   cards.forEach(el => {
     const cr = el.getBoundingClientRect();
     if (cr.width < 8 || cr.height < 8) return;
@@ -128,18 +128,51 @@ function measureInPage() {
     controlBottom = Math.max(controlBottom, cr.bottom);
     // content bbox = union of child svg/img (excluding tiny check/badge icons)
     const kids = el.querySelectorAll('svg, img');
-    let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity, found = false;
+    let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity, found = false, isText = false;
     kids.forEach(k => {
       if (!vis(k) || k.closest('[class*="check"],[class*="badge"]')) return;
       const r = k.getBoundingClientRect(); if (r.width < 4 || r.height < 4) return;
       found = true; x0 = Math.min(x0, r.left); y0 = Math.min(y0, r.top); x1 = Math.max(x1, r.right); y1 = Math.max(y1, r.bottom);
     });
-    if (!found) return;
+    {
+      /* Measure the card's TEXT too, and UNION it with any graphic — do not treat text as a
+         mere fallback. A card holding a picture AND a label gives the picture well under a
+         third of the area by design (measured: affix r10 = 57% width x 56% height = 0.32 area
+         for a perfectly reasonable card), so measuring the graphic alone false-accuses it.
+         What the child reads is graphic + label together. */
+      // TEXT: glyph bbox via a Range over the card's own text nodes.
+      const rng = document.createRange();
+      let tx0 = Infinity, ty0 = Infinity, tx1 = -Infinity, ty1 = -Infinity, anyText = false;
+      const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null);
+      let tn;
+      while ((tn = walker.nextNode())) {
+        if (!tn.nodeValue || !tn.nodeValue.trim()) continue;
+        if (tn.parentElement && tn.parentElement.closest('[class*="check"],[class*="badge"]')) continue;
+        rng.selectNodeContents(tn);
+        const r = rng.getBoundingClientRect();
+        if (r.width < 2 || r.height < 2) continue;
+        anyText = true;
+        tx0 = Math.min(tx0, r.left); ty0 = Math.min(ty0, r.top);
+        tx1 = Math.max(tx1, r.right); ty1 = Math.max(ty1, r.bottom);
+      }
+      if (!anyText && !found) { unmeasured++; return; }   // genuinely nothing in the card
+      if (anyText) {
+        isText = !found;                 // text-ONLY card -> sparse does not apply
+        found = true;
+        x0 = Math.min(x0, tx0); y0 = Math.min(y0, ty0);
+        x1 = Math.max(x1, tx1); y1 = Math.max(y1, ty1);
+      }
+    }
     const cw = x1 - x0, ch = y1 - y0;
-    considerContent(Math.min(cw, ch), 'card-content');
+    /* For a GRAPHIC, the smaller dimension is the legibility risk (a sliver is a defect
+       either way). For TEXT it is not: a single-digit numeral like 8 has a narrow bbox at
+       a perfectly legible size, so min(w,h) reports the glyph WIDTH and false-accuses.
+       Legibility of text is its HEIGHT. Measured: round 5 of skipcount reported TINY(11px)
+       on the glyph 8 while the computed font-size was 20px. */
+    considerContent(isText ? ch : Math.min(cw, ch), isText ? 'card-text' : 'card-content');
     const areaRatio = (cw * ch) / (cr.width * cr.height);
     const widthRatio = cw / cr.width;
-    if (!worstSparse || areaRatio < worstSparse.areaRatio) worstSparse = { areaRatio, widthRatio, cls: (el.getAttribute('class') || '').slice(0, 40) };
+    if (!isText && (!worstSparse || areaRatio < worstSparse.areaRatio)) worstSparse = { areaRatio, widthRatio, cls: (el.getAttribute('class') || '').slice(0, 40) };
   });
 
   // standalone stage content (e.g. Mochi's treat images) — not in a card/chrome.
@@ -209,7 +242,7 @@ function measureInPage() {
     vw, vh, appH, overflowX,
     controlBottom: Math.round(controlBottom),
     minContent: minContent === Infinity ? null : Math.round(minContent), minContentCls,
-    cards: cards.length, headerClip, textClip,
+    cards: cards.length, unmeasured, headerClip, textClip,
     worstSparse, minTap: minTap === Infinity ? null : Math.round(minTap),
   };
 }

@@ -1670,6 +1670,30 @@
         "Barnet vet att ett hundratal kan växlas till tio tiotal och ett tiotal till tio ental",
         "Barnet kan göra två växlingar efter varandra i rätt ordning"
       ]
+    },
+    "graph-it.bar-graph.2-md-d-10": {
+      "about": [
+        "Ekorren Pip har burit hem löv, bär, ekollon, kottar och svamp från skogsbotten, och allt ligger uppräknat i en strecklista vid sidan av. Diagrammet bredvid är tomt. Barnet trycker på en stapel i taget för att lägga dit en sak, och stapeln växer uppåt tills den är precis lika hög som strecken i listan säger. Blev det en för mycket går det att trycka på Ångra. Först när alla staplar stämmer exakt är omgången klar.",
+        "Det stora i det här är varför man alls ritar ett diagram. Högen med ekollon säger ingenting förrän den har blivit en stapel, och när staplarna väl står bredvid varandra går det att svara på frågor utan att räkna om högen: hur många fler ekollon än bär, hur många färre kottar än ekollon, hur många löv och bär tillsammans. Höjden är antalet — det är hela idén. I några omgångar står diagrammet redan färdigt och barnet ska bara läsa av det; i en står en stapel fel och ska ändras mot listan, i en annan ska barnet välja vilket av flera diagram som hör ihop med strecklistan, och i en tredje står ett påstående färdigt som barnet ska ta ställning till.",
+        "Fjorton omgångar, som blandas om till en ny ordning varje gång. Ibland kommer siffrorna från en strecklista, ibland från ett bilddiagram, och upp till fyra sorter kan stå bredvid varandra. Aktiviteten följer Lgr22 inom Sannolikhet och statistik — enkla tabeller och diagram: att avläsa och skapa ett stapeldiagram och att svara på frågor utifrån det. Ingen timer, inga poäng och ingen som vinner — barnet får bygga i sin egen takt, och ett svar som inte stämmer ger en lugn ledtråd i stället för ett kryss."
+      ],
+      "practices": [
+        "Föra över en strecklista eller ett bilddiagram till ett stapeldiagram, en sak i taget",
+        "Läsa av hur många en stapel visar och se att höjden är antalet",
+        "Jämföra två staplar — hur många fler och hur många färre",
+        "Lägga ihop två staplar och svara på hur många det blir tillsammans",
+        "Pröva om ett påstående om diagrammet stämmer, och hitta stapeln som står fel"
+      ],
+      "howToPlay": [
+        "Titta på strecklistan vid sidan av och tryck på en stapel för att lägga dit en sak i taget — stapeln växer uppåt. Blev det fel trycker du på Ångra.",
+        "I omgångarna där diagrammet redan står färdigt läser du av staplarna, trycker på ditt svar och sedan på ”Det är mitt svar!”.",
+        "Tryck på Kontrollera för att gå vidare till nästa omgång — utan timer och utan poäng."
+      ],
+      "learningGoals": [
+        "Barnet kan bygga ett stapeldiagram utifrån en strecklista eller ett bilddiagram",
+        "Barnet vet att stapelns höjd visar hur många det finns, och kan läsa av antalet",
+        "Barnet kan svara på frågor om hur många fler, hur många färre och hur många tillsammans genom att jämföra staplar i ett diagram"
+      ]
     }
   }
 }

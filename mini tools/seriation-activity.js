@@ -49,9 +49,22 @@
        Arancione invariable). Standalone chip labels; the colon srItem "Nastro {label}" carries them. */
     it: { red: 'Rosso', blue: 'Blu', green: 'Verde', yellow: 'Giallo', purple: 'Viola', orange: 'Arancione' },
     /* nl — native ensemble: Dutch color words are lowercase (rood, NOT Rood). Bare nominative chip labels. */
-    nl: { red: 'rood', blue: 'blauw', green: 'groen', yellow: 'geel', purple: 'paars', orange: 'oranje' }
+    nl: { red: 'rood', blue: 'blauw', green: 'groen', yellow: 'geel', purple: 'paars', orange: 'oranje' },
+    /* sv — native ensemble (lingvist + lågstadielärare, Lgr22). Standalone chip labels take the
+       utrum indefinite CITATION form — what a Swedish child says naming a colour beside a swatch.
+       Capitalised: the shipped sv corpus capitalises every standalone UI label. Lila/Orange are
+       indeclinable. The sr mirror splices attributively and needs the NEUTER form — see COLOR_SR_L. */
+    sv: { red: 'Röd', blue: 'Blå', green: 'Grön', yellow: 'Gul', purple: 'Lila', orange: 'Orange' }
+  };
+  /* Neuter (ett-) attributive colour forms, used ONLY inside the screen-reader mirror. sv names the
+     compared object with the ett-word 'band', so '{label} band' built from the chip labels would emit
+     the ungrammatical "Röd band"; it must read "Rött band". Locales absent from this map fall back to
+     clabel(), so every other locale's mirror is byte-identical. */
+  var COLOR_SR_L = {
+    sv: { red: 'Rött', blue: 'Blått', green: 'Grönt', yellow: 'Gult', purple: 'Lila', orange: 'Orange' }
   };
   function clabel(color) { return (COLOR_L[LANG] && COLOR_L[LANG][color]) || (COLORS[color] && COLORS[color].label) || color; }
+  function clabelSr(color) { return (COLOR_SR_L[LANG] && COLOR_SR_L[LANG][color]) || clabel(color); }
 
   var L = {
     en: {
@@ -190,6 +203,32 @@
       relLonger: 'langer dan het touwtje',
       relShorter: 'korter dan het touwtje',
       relEqual: 'even lang als het touwtje'
+    },
+    /* sv — native ensemble (lingvist + lågstadielärare i matematik + innehållsskribent, Lgr22).
+       'ett rep' = referensen: oscalerat, inga mått (ALDRIG linjal/måttband — det inför standardenheter,
+       fel stadium, och 'linjal' ägs redan av systeraktiviteten read-ruler 2.MD.A.1). 'snöre' är
+       huvudordet i det redan levererade svenska verktyget unroll-tape (#41) och undviks därför.
+       'ett band' = föremålen (presentband/hårband). BÅDA neutrum ⇒ enhetlig neutrumböjning överallt:
+       'det längsta bandet', 'lika långt som repet', 'Vilket band' — skrivna som fasta literaler,
+       aldrig hopsatta av delar. VETO på 'mät' i barntext: svenskt 'mäta' lovar en siffra och en enhet
+       som aktiviteten aldrig ger. 'Tryck på' = husets konvention; 'Titta en gång till!' skiljer sig
+       medvetet från skalets egen 'Inte än — försök igen!' så barnet aldrig hör samma mening två gånger.
+       Ledtrådarna pekar på VAR man ska titta och VAD man ska göra, aldrig på vilket band — misstaget
+       som ska fram är att barnet läser streckmarkeringen som ett facit i stället för som ett mått. */
+    sv: {
+      qLongest: 'Tryck på det LÄNGSTA bandet.',
+      qShortest: 'Tryck på det KORTASTE bandet.',
+      qSamecord: 'Vilket band är lika långt som repet?',
+      win: 'Precis! {note}', winNote: 'Du jämförde längderna!',
+      nLongest: 'Håll varje band mot repet och se hur långt det räcker. Titta en gång till!',
+      nShortest: 'Håll varje band mot repet och se var det tar slut. Titta en gång till!',
+      nSamecord: 'Leta efter bandet som slutar precis där repet slutar. Titta en gång till!',
+      cord: 'repet',
+      srRef: 'Repet är måttet du jämför med.',
+      srItem: '{label} band: {rel}',
+      relLonger: 'längre än repet',
+      relShorter: 'kortare än repet',
+      relEqual: 'lika långt som repet'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -213,8 +252,8 @@
   var SeriationActivity = {
     id: 'seriation-activity',
     strings: {
-      title: { en: 'The Faraway Shelf', de: 'Tillys fernes Regal', fr: 'Les étagères lointaines de Tilly', es: 'El estante lejano', pt: 'A estante distante da Tilly', it: 'Lo scaffale lontano di Tilly', nl: "Tilly's verre plank" },
-      instruction: { en: 'Use the cord to compare the ribbons, then tap your answer!', de: 'Vergleiche die Bänder mit der Schnur und tippe dann auf deine Antwort!', fr: 'Utilise la ficelle pour comparer les rubans, puis touche ta réponse !', es: '¡Usa el cordón para comparar los listones y toca tu respuesta!', pt: 'Use o barbante para comparar as fitas, depois toque na sua resposta!', it: 'Usa lo spago per confrontare i nastri, poi tocca la risposta!', nl: 'Vergelijk de linten met het touwtje en tik dan op je antwoord!' },
+      title: { en: 'The Faraway Shelf', de: 'Tillys fernes Regal', fr: 'Les étagères lointaines de Tilly', es: 'El estante lejano', pt: 'A estante distante da Tilly', it: 'Lo scaffale lontano di Tilly', nl: "Tilly's verre plank", sv: 'Tillys hyllor' },
+      instruction: { en: 'Use the cord to compare the ribbons, then tap your answer!', de: 'Vergleiche die Bänder mit der Schnur und tippe dann auf deine Antwort!', fr: 'Utilise la ficelle pour comparer les rubans, puis touche ta réponse !', es: '¡Usa el cordón para comparar los listones y toca tu respuesta!', pt: 'Use o barbante para comparar as fitas, depois toque na sua resposta!', it: 'Usa lo spago per confrontare i nastri, poi tocca la risposta!', nl: 'Vergelijk de linten met het touwtje en tik dan op je antwoord!', sv: 'Jämför banden med repet och tryck sedan på ditt svar!' },
       q: { en: '{q}' }
     },
 
@@ -237,7 +276,8 @@
         '.sr-root{display:flex;flex-direction:column;align-items:center;gap:9px;width:100%;max-width:min(96vw,660px);margin:0 auto;}',
         '.sr-scene{position:relative;width:100%;display:flex;flex-direction:column;gap:6px;padding:8px 10px 10px;border:2.5px solid #C9B98E;border-radius:14px;background:#FFFDF6;}',
         '.sr-cord-line{position:absolute;top:6px;bottom:8px;width:0;border-left:3px dashed #146B5E;opacity:.85;pointer-events:none;}',
-        '.sr-cord-flag{position:absolute;top:-2px;transform:translateX(-50%);font:800 .68rem/1 "Baloo 2",Nunito,sans-serif;color:#0F4A40;background:#EAF4F1;border:1.5px solid #146B5E;border-radius:6px;padding:1px 6px;white-space:nowrap;}',
+        '.sr-cord-flag{position:absolute;top:auto;bottom:calc(100% + 3px);transform:translateX(-50%);font:800 .68rem/1 "Baloo 2",Nunito,sans-serif;color:#0F4A40;background:#EAF4F1;border:1.5px solid #146B5E;border-radius:6px;padding:1px 6px;white-space:nowrap;}',
+        '.sr-cordrow{margin-top:22px;}',
         '.sr-row{position:relative;display:flex;align-items:center;gap:7px;}',
         '.sr-track{position:relative;flex:1 1 auto;height:24px;background:#F4ECDC;border-radius:5px;}',
         '.sr-cordrow .sr-track{background:transparent;}',
@@ -255,7 +295,7 @@
         '.sr-swatch{width:20px;height:20px;border-radius:5px;flex:0 0 auto;box-shadow:0 0 0 1.5px rgba(0,0,0,.18) inset;}',
         '.sr-tilly-svg .sr-eyes-happy{display:none;}.sr-tilly[data-pose=happy] .sr-eyes-open{display:none;}.sr-tilly[data-pose=happy] .sr-eyes-happy{display:block;}',
         '.sr-sronly{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);}',
-        '@media (max-width:380px){.sr-root{gap:6px;}.sr-scene{gap:4px;padding:6px 8px 8px;}.sr-track{height:20px;}.sr-rlabel{flex-basis:42px;font-size:.74rem;}.sr-cand{min-height:44px;padding:7px 11px;}}',
+        '@media (max-width:380px){.sr-root{gap:6px;}.sr-scene{gap:4px;padding:6px 8px 8px;}.sr-track{height:20px;}.sr-cordrow{margin-top:19px;}.sr-rlabel{flex-basis:42px;font-size:.74rem;}.sr-cand{min-height:44px;padding:7px 11px;}}',
         '.lcs-app:not(.tilly-resolved) .lcs-activity-check{display:none !important;}'
       ].join('');
       document.head.appendChild(s);
@@ -407,9 +447,16 @@
     _srMirror: function (round) {
       var wrap = el('div', 'sr-sronly'); wrap.setAttribute('aria-live', 'polite');
       var q = round.mode === 'shortest' ? txt('qShortest') : round.mode === 'samecord' ? txt('qSamecord') : txt('qLongest');
-      var parts = (round.ribbons || []).map(function (r) {
+      /* Speak the ribbons in the order they are DRAWN (_shelfOrder), not raw manifest order — the
+         shelves and the chips are each shuffled independently, so raw order gave a speech user a
+         THIRD sequence contradicting the screen. Pure re-ordering: no string changes, so every
+         locale's wording is untouched. */
+      var ribs = round.ribbons || [];
+      var sOrder = this._shelfOrder || ribs.map(function (_, i) { return i; });
+      var parts = sOrder.map(function (ri) {
+        var r = ribs[ri];
         var relKey = r.len > round.cordLen ? 'relLonger' : r.len < round.cordLen ? 'relShorter' : 'relEqual';
-        return txt('srItem', { label: clabel(r.color), rel: txt(relKey) });
+        return txt('srItem', { label: clabelSr(r.color), rel: txt(relKey) });
       }).join('; ');
       wrap.innerHTML = '<p>' + txt('srRef') + ' ' + parts + '. ' + q + '</p>';
       return wrap;

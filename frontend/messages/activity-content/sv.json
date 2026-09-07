@@ -1481,6 +1481,29 @@
         "Barnet förstår att en triangel förblir en triangel när dess färg, storlek eller riktning ändras",
         "Barnet bygger det egenskapsbaserade tänkande som att sortera och namnge former bygger på"
       ]
+    },
+    "seriation.compare-length.1-md-a-1": {
+      "about": [
+        "Tillys band hänger på hyllor långt ifrån varandra, och tre av dem visas åt gången i sina riktiga längder — ett rött, blått, grönt, gult, lila eller orange band — bredvid ett rep och en streckad linje som visar var repet tar slut. Barnet tittar, jämför och trycker på färgknappen för det band som frågan gäller: det längsta, det kortaste eller det som är precis lika långt som repet. Det är en gratis, interaktiv mätövning som körs direkt i webbläsaren, utan nedladdning och utan konto.",
+        "Den stora idén är att repet får vara ett gemensamt mått. I stället för att ställa banden mot varandra håller barnet varje band mot repet och ser om det räcker förbi den streckade linjen eller tar slut innan den. Då går det att avgöra vilket band som är längst även när banden ligger på olika hyllor. Det kallas indirekt jämförelse — två saker jämförs med hjälp av ett tredje föremål — och det är just steget mellan att lägga saker bredvid varandra och att mäta med en linjal. Här finns inga tal, inga enheter och inget mätverktyg med skala.",
+        "Aktiviteten följer Lgr22 inom området mätning: att jämföra och uppskatta längder, och att jämföra två föremål med hjälp av ett tredje. De nio omgångarna blandas om varje gång aktiviteten startas, så de kommer i ny följd vid varje besök. Ingen timer, inga poäng — bara lugn, lekfull träning."
+      ],
+      "practices": [
+        "Jämföra längder med hjälp av ett rep i stället för att lägga föremålen kant i kant",
+        "Hitta det längsta och det kortaste bandet bland tre",
+        "Känna igen det band som är precis lika långt som repet",
+        "Se om ett band räcker förbi den streckade linjen eller tar slut innan den"
+      ],
+      "howToPlay": [
+        "Titta på repet högst upp och på den streckade linjen som visar var det tar slut.",
+        "Läs frågan — det längsta, det kortaste eller det som är lika långt som repet — och tryck på färgknappen för det bandet.",
+        "Blev det inte rätt? Repet ger en ledtråd — titta en gång till och prova ett annat band. Det finns ingen timer och inga poäng."
+      ],
+      "learningGoals": [
+        "Barnet kan avgöra vilket av tre band som är längst och vilket som är kortast",
+        "Barnet kan jämföra två föremåls längd med hjälp av ett tredje föremål",
+        "Barnet tar steget från att jämföra kant i kant till att jämföra med ett gemensamt mått"
+      ]
     }
   }
 }

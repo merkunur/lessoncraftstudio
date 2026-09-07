@@ -51,10 +51,23 @@ const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'applicati
 
 /* viewport sweep: phone → desktop, each with a realistic device height so a
    vh-based layout resolves like a real device (NOT a fixed tall viewport). */
-const VIEWPORTS = [
+/* ⚠ `--widths=280,320,...` overrides the sweep. This exists because the narrow
+   widths (280/375/390/430) live in audit-activity-mobile.js, which defaults to
+   https://www.lessoncraftstudio.com — it CANNOT see a local build, and passing it
+   `--locales=sv` for a locale that is not deployed yet silently tests English on
+   production instead and reports a confident pass. A local build needs a local
+   instrument; this is it. Device heights are interpolated from the nearest
+   standard phone so a vh-based layout still resolves realistically. */
+const DEFAULT_VIEWPORTS = [
   { w: 320, h: 640 }, { w: 360, h: 740 }, { w: 412, h: 820 },  // phones (fold-fit is strict)
   { w: 768, h: 1000 }, { w: 1024, h: 900 }, { w: 1366, h: 900 }, // tablet portrait + desktop (realistic usable heights)
 ];
+const HEIGHT_FOR = (w) => (w <= 300 ? 653 : w <= 340 ? 640 : w <= 380 ? 740 : w <= 400 ? 780 : w <= 440 ? 820 : w <= 800 ? 1000 : 900);
+const WIDTHS_ARG = arg('widths', null);
+const VIEWPORTS = WIDTHS_ARG
+  ? WIDTHS_ARG.split(',').map((s) => parseInt(s, 10)).filter(Boolean).map((w) => ({ w, h: HEIGHT_FOR(w) }))
+  : DEFAULT_VIEWPORTS;
+if (!VIEWPORTS.length) { console.error('--widths= parsed to nothing'); process.exit(2); }
 const SHOT_WIDTHS = new Set([360, 768, 1024]); // critic + operator eyeball set (phone + two desktop)
 const MIN_CONTENT_PX = 14;     // "not tiny"
 const SPARSE_AREA = 0.32;      // content/card area floor

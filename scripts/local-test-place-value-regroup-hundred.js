@@ -3,7 +3,7 @@
    local-test-place-value-regroup-hundred.js — interaction harness for the two
    HUNDRED-level activities (2.NBT.B.7): "Tuck Makes a Hundred" (compose-a-
    hundred) + "Tuck Breaks a Hundred" (decompose-a-hundred / double borrow).
-   Verifies render + the regroup cascade + titles + EN-only + reshuffle +
+   Verifies render + the regroup cascade + titles + locale coherence + reshuffle +
    no-overflow for BOTH.
    ===================================================================== */
 'use strict';
@@ -64,14 +64,36 @@ function serve() {
   const check = () => page.evaluate(() => { const c = document.querySelector('.lcs-activity-check'); if (c && !c.disabled) c.click(); }).then(() => sleep(50));
   const RO = () => page.evaluate(() => window.PlaceValueRegroupActivity.readOnly);
   const st = () => page.evaluate(() => { const t = window.PlaceValueRegroupActivity; return { h: t.hundredsCount, te: t.tensCount, o: t.onesCount, tgt: t.operation === 'subtract' ? t.a - t.b : t.a + t.b }; });
-  const slugKeys = () => page.evaluate(() => Object.keys(window.PlaceValueRegroupActivity._activityRow.slug));
+  /* ⚠ was slugKeys() + an "=== 'en'" assertion, dead since this engine went
+     multi-locale. Returns all three locale key sets so the real invariant can be
+     checked: declared in one => declared in all three. */
+  const localeSets = () => page.evaluate(() => {
+    var r = window.PlaceValueRegroupActivity._activityRow;
+    return { slug: Object.keys(r.slug || {}), title: Object.keys(r.page_title || {}), intro: Object.keys(r.page_intro || {}), slugs: r.slug || {} };
+  });
+  const localeCoherent = async (tag) => {
+    const L = await localeSets();
+    if (!L.slug.length) return tag + ': manifest declares no slug locale at all';
+    const missing = [];
+    for (const l of new Set([].concat(L.slug, L.title, L.intro))) {
+      if (!L.slug.includes(l)) missing.push(l + ':slug');
+      if (!L.title.includes(l)) missing.push(l + ':page_title');
+      if (!L.intro.includes(l)) missing.push(l + ':page_intro');
+    }
+    if (missing.length) return tag + ': locale declared unevenly across slug/page_title/page_intro: ' + missing.join(', ');
+    const bad = Object.entries(L.slugs).filter(([, s]) => !/^[a-z0-9-]+$/.test(String(s))).map(([l, s]) => l + '="' + s + '"');
+    if (bad.length) return tag + ': slug not url-safe: ' + bad.join(', ');
+    const v = Object.values(L.slugs);
+    if (new Set(v).size !== v.length) return tag + ': duplicate slug across locales: ' + v.join(',');
+    return null;
+  };
   const distinctReshuffle = () => page.evaluate(() => { const t = window.PlaceValueRegroupActivity, N = t._pool.length, out = []; for (let i = 0; i < 2 * N; i++) { const x = t.nextTask({ index: i }); out.push(x ? x.id : null); } return { N, first: out.slice(0, N), second: out.slice(N) }; });
 
   try {
     /* ---- A: Tuck Makes a Hundred ---- */
     await load(ADD);
     note(/Makes a Hundred/i.test(await page.$eval('.lcs-title', e => e.textContent).catch(() => '')), 'A: title not "Tuck Makes a Hundred"');
-    note((await slugKeys()).join() === 'en', 'A: not EN-only');
+    { const m = await localeCoherent('A'); note(!m, m || 'A: locale coherence'); }
     const ar = await distinctReshuffle();
     note(new Set(ar.first).size >= 7, `A: only ${new Set(ar.first).size} distinct`);
     note(ar.first.join() !== ar.second.join() || ar.N < 2, 'A: no reshuffle');
@@ -89,7 +111,7 @@ function serve() {
     /* ---- B: Tuck Breaks a Hundred ---- */
     await load(SUB);
     note(/Breaks a Hundred/i.test(await page.$eval('.lcs-title', e => e.textContent).catch(() => '')), 'B: title not "Tuck Breaks a Hundred"');
-    note((await slugKeys()).join() === 'en', 'B: not EN-only');
+    { const m = await localeCoherent('B'); note(!m, m || 'B: locale coherence'); }
     const br = await distinctReshuffle();
     note(new Set(br.first).size >= 7, `B: only ${new Set(br.first).size} distinct`);
     await force('r-302-5');   // 302 − 5, tens 0 → break a hundred, then a ten
@@ -124,6 +146,6 @@ function serve() {
   await browser.close(); server.close();
   console.log('');
   if (fails.length) { console.error(`PLACE-VALUE-REGROUP HUNDRED LOCAL TEST FAILED — ${fails.length}:`); fails.forEach(f => console.error('  • ' + f)); process.exit(1); }
-  console.log('PLACE-VALUE-REGROUP HUNDRED LOCAL TEST PASSED — A compose-a-hundred (make-a-hundred → tens−10/hundreds+1, caption) + B decompose-a-hundred (break-a-hundred → break-a-ten cascade, 5 take-marks, caption); 3 columns; correct titles; EN-only; ≥7 + reshuffle; no overflow 280→768.');
+  console.log('PLACE-VALUE-REGROUP HUNDRED LOCAL TEST PASSED — A compose-a-hundred (make-a-hundred → tens−10/hundreds+1, caption) + B decompose-a-hundred (break-a-hundred → break-a-ten cascade, 5 take-marks, caption); 3 columns; correct titles; locale-coherent manifest; ≥7 + reshuffle; no overflow 280→768.');
   process.exit(0);
 })().catch(e => { console.error('ERROR:', e.message); process.exit(1); });

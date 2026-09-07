@@ -19,7 +19,14 @@
   var SVGNS = 'http://www.w3.org/2000/svg';
   var S = 10;                                   /* unit-triangle side (SVG units; CSS scales it) */
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOOD: '#2FA56A', DARK: '#243B36' };
-  var SHARD = { triangle: '#5BB5A6', rhombus: '#E89A5B' };   /* lit tints (stub; CA5 = stained glass) */
+  /* ⚠ TWO tints per piece, and the pair MUST differ in LIGHTNESS rather than only
+     in hue: the shipped pair (#5BB5A6 / #E89A5B) measured 1.07:1 against each other,
+     i.e. one single colour in greyscale, on a projector, or to a red-green
+     colour-deficient child. SHARD is the LIT tint used on the dark window; TRAY is
+     the saturated tint used for the palette chip on white card. One colour cannot
+     serve both surfaces, and a shard genuinely does look paler lit than in the tray. */
+  var SHARD = { triangle: '#5BB5A6', rhombus: '#FFD9A3' };   /* lit, on the dark silhouette */
+  var TRAY  = { triangle: '#5BB5A6', rhombus: '#E8A05B' };   /* unlit, on the white chip */
   /* Per-locale piece names — formal Klasse-1 curriculum terms (educator). */
   var PIECE_L = {
     en: { triangle: 'triangle', rhombus: 'rhombus' },
@@ -33,7 +40,10 @@
        la forma delle carte/dell'aquilone, appropriata alla classe prima). Entrambi maschili. */
     it: { triangle: 'triangolo', rhombus: 'rombo' },
     /* nl — native ensemble: formal Groep-3 terms (driehoek, ruit — NOOIT "rombus"). */
-    nl: { triangle: 'driehoek', rhombus: 'ruit' }
+    nl: { triangle: 'driehoek', rhombus: 'ruit' },
+    /* sv — formella åk-1-termer. "romb" är shipped ×8 för just den här brickan
+       (draw-bag/choice-board/wodb/sorting-hoops); "triangel" ×25. */
+    sv: { triangle: 'triangel', rhombus: 'romb' }
   };
   function pname(id) { return (PIECE_L[LANG] && PIECE_L[LANG][id]) || (PIECE_L.en && PIECE_L.en[id]) || id; }
 
@@ -61,22 +71,37 @@
          Dienes, un manipolativo DIVERSO). Forme: triangolo/rombo (rombo È corretto in it)/esagono
          formali; trapezio→"un tetto", parallelogramma→"un mattone storto" (shape-honest; il contenitore
          resta "la lanterna"). Win INVARIABILE ("Ce l'hai fatta!") — i target flettono per genere. */
-      title: { en: "Mim's Glow Workshop", de: 'Mims Glühwerkstatt', fr: "L'atelier lumineux de Mim", es: 'El taller de luz de Mim', pt: 'A oficina de luz de Mim', it: 'La bottega luminosa di Mim', nl: 'Mims lichtwerkplaats' },
+      /* sv — inhemsk panel (lingvist + lågstadielärare + innehållsredaktör, Lgr22).
+         MÄTT mot hela sv-korpusen innan varje ord låstes:
+           • "verkstad" är UPPTAGET av sajtens egen rubrik ("Verkstaden bakom varje
+             arbetsblad") → titeln tar "smedja" (0 träffar).
+           • Vridknappen heter "Vrid" i fem redskap (bakplåten, sifferstrumman,
+             wodb, byggritningen, pilremsan). "Snurra" finns också — men bara i
+             figursträckaren, där den betyder att snurra HELA figuren utan att något
+             ändras. Här vrids EN bricka tills den passar → "Vrid".
+           • Brickan heter "kristall" (0 träffar). ⚠ INTE "bit/bitar" (106 träffar):
+             den roten ägs av bråk- och bakplåtsspåren och betyder "lika stor del" —
+             precis den betydelse den här aktiviteten inte får låna.
+           • "trekant" väljs BORT (vardagligt tvetydigt i modern svenska) till förmån
+             för "triangel", som är det formella ordet och det som redan är shippat.
+         Vinstrepliken är oböjlig ("Du fick ihop det!") — målformen är ibland ett
+         neutrum (ett tak), ibland utrum (en romb). */
+      title: { en: "Mim's Glow Workshop", de: 'Mims Glühwerkstatt', fr: "L'atelier lumineux de Mim", es: 'El taller de luz de Mim', pt: 'A oficina de luz de Mim', it: 'La bottega luminosa di Mim', nl: 'Mims lichtwerkplaats', sv: 'Mims ljussmedja' },
       instruction: { en: '', de: '' },
-      prompt: { en: 'Forge the shape.', de: 'Bau die Form.', fr: 'Assemble la forme.', es: 'Arma la figura.', pt: 'Monte a figura.', it: 'Costruisci la figura.', nl: 'Bouw de vorm.' },
-      rotate: { en: '↻ Turn', de: '↻ Drehen', fr: '↻ Tourner', es: '↻ Girar', pt: '↻ Girar', it: '↻ Gira', nl: '↻ Draai' },
-      sayWelcome: { en: 'Pick a shard, turn it, and fuse the light!', de: 'Such dir ein Leuchtplättchen aus, dreh es und setz das Licht zusammen!', fr: 'Choisis un éclat, fais-le tourner et assemble la lumière !', es: '¡Elige una pieza, gírala y une la luz!', pt: 'Escolha uma peça, gire e junte a luz!', it: 'Scegli un pezzo, giralo e unisci la luce!', nl: 'Kies een vormpje, draai het en voeg het licht samen!' },
-      sayWin: { en: 'You forged it! ✨', de: 'Du hast es gebaut! ✨', fr: 'Bravo, tu as réussi ! ✨', es: '¡Lo armaste! ✨', pt: 'Você montou! ✨', it: 'Ce l\'hai fatta! ✨', nl: 'Je hebt het gebouwd! ✨' },
-      sayIllegal: { en: "Try turning it, or pick another shard.", de: 'Dreh es mal, oder nimm ein anderes Plättchen.', fr: 'Fais tourner la pièce, ou choisis-en une autre.', es: 'Intenta girarla o elige otra pieza.', pt: 'Tente girar ou escolha outra peça.', it: 'Prova a girarlo, o scegli un altro pezzo.', nl: 'Draai het eens, of kies een ander vormpje.' },
-      sayReway: { en: "That's the first way — now find a NEW way!", de: 'Das war der erste Weg – jetzt finde einen NEUEN Weg!', fr: 'Voilà la première façon — trouve maintenant une NOUVELLE façon !', es: '¡Esa fue la primera forma… ahora encuentra una NUEVA!', pt: 'Essa foi a primeira forma… agora encontre uma forma NOVA!', it: 'Questo è il primo modo… ora trovane uno NUOVO!', nl: 'Dat was de eerste manier – zoek nu een NIEUWE manier!' },
-      pickFirst: { en: 'Tap a shard below to begin.', de: 'Tipp unten auf ein Plättchen, um loszulegen.', fr: 'Touche une pièce en bas pour commencer.', es: 'Toca una pieza de abajo para empezar.', pt: 'Toque em uma peça embaixo para começar.', it: 'Tocca un pezzo qui sotto per iniziare.', nl: 'Tik hieronder op een vormpje om te beginnen.' },
-      hintCheck: { en: 'Fill every part of the blank shape.', de: 'Füll jeden Teil der leeren Form aus.', fr: 'Remplis toute la forme, sans laisser de trou.', es: 'Llena cada parte de la figura vacía.', pt: 'Preencha cada parte da figura vazia.', it: 'Riempi ogni parte della figura vuota.', nl: 'Vul elk deel van de lege vorm.' },
-      shardLabel: { en: 'shard: ', de: 'Plättchen: ', fr: 'pièce : ', es: 'pieza: ', pt: 'peça: ', it: 'pezzo: ', nl: 'vormpje: ' },
-      paletteLeft: { en: '{piece}, {n} left', de: '{piece}, noch {n}', fr: '{piece}, encore {n}', es: '{piece}, quedan {n}', pt: '{piece}, restam {n}', it: '{piece}, restano {n}', nl: '{piece}, nog {n}' },
-      ariaShards: { en: 'glowing shards', de: 'leuchtende Plättchen', fr: 'éclats lumineux', es: 'piezas brillantes', pt: 'peças brilhantes', it: 'pezzi luminosi', nl: 'gloeiende vormpjes' },
-      ariaForge: { en: 'the blank lantern — fuse shards to fill it', de: 'die leere Laterne – setz Plättchen zusammen, um sie zu füllen', fr: 'la lanterne vide — assemble des éclats pour la remplir', es: 'la linterna vacía: une las piezas para llenarla', pt: 'a lanterna vazia — junte as peças para preenchê-la', it: 'la lanterna vuota — unisci i pezzi per riempirla', nl: 'de lege lantaarn – voeg vormpjes samen om hem te vullen' },
-      ariaPlace: { en: 'place here', de: 'hier einsetzen', fr: 'poser ici', es: 'coloca aquí', pt: 'coloque aqui', it: 'metti qui', nl: 'hier plaatsen' },
-      ariaRemovable: { en: '{piece}, placed — tap to take it back', de: '{piece}, eingesetzt – tipp drauf, um es zurückzunehmen', fr: '{piece}, posée — touche pour la reprendre', es: '{piece}, colocada: toca para quitarla', pt: '{piece}, colocado — toque para tirar de volta', it: '{piece}, messo — tocca per rimetterlo a posto', nl: '{piece}, geplaatst – tik erop om terug te nemen' }
+      prompt: { en: 'Forge the shape.', de: 'Bau die Form.', fr: 'Assemble la forme.', es: 'Arma la figura.', pt: 'Monte a figura.', it: 'Costruisci la figura.', nl: 'Bouw de vorm.', sv: 'Bygg formen.' },
+      rotate: { en: '↻ Turn', de: '↻ Drehen', fr: '↻ Tourner', es: '↻ Girar', pt: '↻ Girar', it: '↻ Gira', nl: '↻ Draai', sv: '↻ Vrid' },
+      sayWelcome: { en: 'Pick a shard, turn it, and fuse the light!', de: 'Such dir ein Leuchtplättchen aus, dreh es und setz das Licht zusammen!', fr: 'Choisis un éclat, fais-le tourner et assemble la lumière !', es: '¡Elige una pieza, gírala y une la luz!', pt: 'Escolha uma peça, gire e junte a luz!', it: 'Scegli un pezzo, giralo e unisci la luce!', nl: 'Kies een vormpje, draai het en voeg het licht samen!', sv: 'Välj en kristall, vrid den och sätt ihop ljuset!' },
+      sayWin: { en: 'You forged it! ✨', de: 'Du hast es gebaut! ✨', fr: 'Bravo, tu as réussi ! ✨', es: '¡Lo armaste! ✨', pt: 'Você montou! ✨', it: 'Ce l\'hai fatta! ✨', nl: 'Je hebt het gebouwd! ✨', sv: 'Du fick ihop det! ✨' },
+      sayIllegal: { en: "Try turning it, or pick another shard.", de: 'Dreh es mal, oder nimm ein anderes Plättchen.', fr: 'Fais tourner la pièce, ou choisis-en une autre.', es: 'Intenta girarla o elige otra pieza.', pt: 'Tente girar ou escolha outra peça.', it: 'Prova a girarlo, o scegli un altro pezzo.', nl: 'Draai het eens, of kies een ander vormpje.', sv: 'Prova att vrida den, eller välj en annan kristall.' },
+      sayReway: { en: "That's the first way — now find a NEW way!", de: 'Das war der erste Weg – jetzt finde einen NEUEN Weg!', fr: 'Voilà la première façon — trouve maintenant une NOUVELLE façon !', es: '¡Esa fue la primera forma… ahora encuentra una NUEVA!', pt: 'Essa foi a primeira forma… agora encontre uma forma NOVA!', it: 'Questo è il primo modo… ora trovane uno NUOVO!', nl: 'Dat was de eerste manier – zoek nu een NIEUWE manier!', sv: 'Det var första sättet – hitta ett NYTT sätt!' },
+      pickFirst: { en: 'Tap a shard below to begin.', de: 'Tipp unten auf ein Plättchen, um loszulegen.', fr: 'Touche une pièce en bas pour commencer.', es: 'Toca una pieza de abajo para empezar.', pt: 'Toque em uma peça embaixo para começar.', it: 'Tocca un pezzo qui sotto per iniziare.', nl: 'Tik hieronder op een vormpje om te beginnen.', sv: 'Tryck på en kristall här nedanför för att börja.' },
+      hintCheck: { en: 'Fill every part of the blank shape.', de: 'Füll jeden Teil der leeren Form aus.', fr: 'Remplis toute la forme, sans laisser de trou.', es: 'Llena cada parte de la figura vacía.', pt: 'Preencha cada parte da figura vazia.', it: 'Riempi ogni parte della figura vuota.', nl: 'Vul elk deel van de lege vorm.', sv: 'Fyll varje del av den tomma formen.' },
+      shardLabel: { en: 'shard: ', de: 'Plättchen: ', fr: 'pièce : ', es: 'pieza: ', pt: 'peça: ', it: 'pezzo: ', nl: 'vormpje: ', sv: 'kristall: ' },
+      paletteLeft: { en: '{piece}, {n} left', de: '{piece}, noch {n}', fr: '{piece}, encore {n}', es: '{piece}, quedan {n}', pt: '{piece}, restam {n}', it: '{piece}, restano {n}', nl: '{piece}, nog {n}', sv: '{piece}, {n} kvar' },
+      ariaShards: { en: 'glowing shards', de: 'leuchtende Plättchen', fr: 'éclats lumineux', es: 'piezas brillantes', pt: 'peças brilhantes', it: 'pezzi luminosi', nl: 'gloeiende vormpjes', sv: 'lysande kristaller' },
+      ariaForge: { en: 'the blank lantern — fuse shards to fill it', de: 'die leere Laterne – setz Plättchen zusammen, um sie zu füllen', fr: 'la lanterne vide — assemble des éclats pour la remplir', es: 'la linterna vacía: une las piezas para llenarla', pt: 'a lanterna vazia — junte as peças para preenchê-la', it: 'la lanterna vuota — unisci i pezzi per riempirla', nl: 'de lege lantaarn – voeg vormpjes samen om hem te vullen', sv: 'den tomma formen – sätt ihop kristaller för att fylla den' },
+      ariaPlace: { en: 'place here', de: 'hier einsetzen', fr: 'poser ici', es: 'coloca aquí', pt: 'coloque aqui', it: 'metti qui', nl: 'hier plaatsen', sv: 'placera här' },
+      ariaRemovable: { en: '{piece}, placed — tap to take it back', de: '{piece}, eingesetzt – tipp drauf, um es zurückzunehmen', fr: '{piece}, posée — touche pour la reprendre', es: '{piece}, colocada: toca para quitarla', pt: '{piece}, colocado — toque para tirar de volta', it: '{piece}, messo — tocca per rimetterlo a posto', nl: '{piece}, geplaatst – tik erop om terug te nemen', sv: '{piece}, placerad – tryck för att ta tillbaka den' }
     },
     defaults: {},
 
@@ -205,7 +230,7 @@
       var tint = SHARD[pl.pieceId] || '#999';
       var op = this.solved ? '0.92' : '0.6';
       var grp = svg('g', { class: 'sf-shard-g' + (this.solved ? ' sf-fused' : '') });
-      ptsOf(cells).forEach(function (pts) { grp.appendChild(svg('polygon', { points: pts, fill: tint, 'fill-opacity': self.solved ? '0.82' : '0.5', stroke: '#fff', 'stroke-opacity': '0.7', 'stroke-width': '0.35' })); });
+      ptsOf(cells).forEach(function (pts) { grp.appendChild(svg('polygon', { points: pts, fill: tint, 'fill-opacity': self.solved ? '1' : '0.9', stroke: '#fff', 'stroke-opacity': '0.7', 'stroke-width': '0.35' })); });
       if (!fixed && !this.solved) {
         grp.setAttribute('class', grp.getAttribute('class') + ' sf-removable');
         grp.setAttribute('tabindex', '0'); grp.setAttribute('role', 'button'); grp.setAttribute('aria-label', self.api.t('ariaRemovable').replace('{piece}', pname(pl.pieceId)));
@@ -220,7 +245,7 @@
       var cells = Core.PIECES[pieceId].orients[0].map(function (rc) { return [rc[0], rc[1]]; });
       var b = Core.bounds(cells, S), pad = S * 0.3;
       var sv = svg('svg', { viewBox: (b.minX - pad) + ' ' + (b.minY - pad) + ' ' + (b.w + 2 * pad) + ' ' + (b.h + 2 * pad), class: 'sf-mini' });
-      ptsOf(cells).forEach(function (pts) { sv.appendChild(svg('polygon', { points: pts, fill: SHARD[pieceId], 'fill-opacity': '0.85', stroke: '#fff', 'stroke-width': '0.4' })); });
+      ptsOf(cells).forEach(function (pts) { sv.appendChild(svg('polygon', { points: pts, fill: TRAY[pieceId], 'fill-opacity': '0.85', stroke: '#fff', 'stroke-width': '0.4' })); });
       return sv;
     },
 
@@ -304,7 +329,7 @@
         + '.sf-saytext{min-width:0;overflow-wrap:break-word;}.sf-mim{font-size:clamp(19px,4.6vw,26px);flex:0 0 auto;}.sf-hop{animation:sfHop .5s ease;}'
         + '@keyframes sfHop{0%{transform:translateY(0)}40%{transform:translateY(-7px)}100%{transform:none}}'
         + '.sf-shelf{position:relative;height:13px;border-radius:7px;overflow:hidden;}.sf-lantern{position:absolute;right:5px;top:-4px;font-size:15px;}'
-        + '.sf-prompt{margin:0;text-align:center;font:700 clamp(12px,3vw,15px)/1.2 "Nunito",sans-serif;color:' + C.INK + ';min-width:0;overflow-wrap:break-word;}'
+        + '.sf-prompt{margin:0;text-align:center;font:800 clamp(15px,4.2vw,21px)/1.25 "Nunito",sans-serif;color:' + C.INK + ';min-width:0;overflow-wrap:break-word;}'
         /* the forge */
         + '.sf-forge{display:flex;justify-content:center;align-items:center;background:rgba(20,107,94,.06);border-radius:12px;padding:clamp(4px,1.1vw,7px);}'
         + '.sf-svg{width:auto;max-width:100%;max-height:clamp(80px,17vh,124px);height:auto;display:block;}'

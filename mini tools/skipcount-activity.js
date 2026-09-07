@@ -127,6 +127,29 @@
       srWhich: 'Een getallenrij in sprongen: {shown}. Hoe groot is elke sprong? Keuzes: {choices}.',
       srFillFwd: 'Tellen in sprongen van {step}: {shown}. Welk getal ontbreekt? Keuzes: {choices}.',
       srFillBack: 'Terugtellen in sprongen van {step}: {shown}. Welk getal ontbreekt? Keuzes: {choices}.'
+    },
+    /* sv — native ensemble (lingvist + lågstadielärare åk 2, Lgr22). 'hopp' är BÅDE grodans
+       hopp OCH den matematiska termen — produktens egen svenska term (number-line.js 'Varje
+       hopp är precis lika långt', choral-counting.js 'Femhopp till 120', '25-hopp till 500').
+       Ingen konstlad narrativ/matematisk uppdelning som tyskans Sprung/Schritt behövs.
+       ⚙ VETO 'steg': det är ett GÅ-ord OCH redan upptaget av landing-strip/lay-units för att
+       flytta en kontroll ett snapp — 'varje steg är +10' skulle läsas som en knappinstruktion.
+       'talföljd' (inte 'talrad', som betecknar den naturliga räkneramsan och redan är spenderad).
+       'näckros' (inte 'näckrosblad' — 'blad' är produktens ord för ett utskrivet ark i fem verktyg).
+       ⚙⚙ nFill ÄR RIKTNINGSNEUTRAL MED FLIT: engelskans 'keep adding {s}' är matematiskt FALSK
+       på bakåtrundan (60, 50, ?, 30 — _nudge skickar Math.abs(step)). '{s} i taget' är sant
+       åt båda hållen. Endast siffror, aldrig utskrivna talord. */
+    sv: {
+      win: 'Precis – {note}',
+      winFill: '{a} är nästa tal i talföljden!',
+      winFillMid: '{a} passar på den tomma näckrosen!',
+      winStep: 'varje hopp är +{a}!',
+      nFill: 'Räkna hoppen med Hopper – {s} i taget.',
+      nStep: 'Titta hur mycket talet ändras från en näckros till nästa.',
+      srBlank: 'tom plats',
+      srWhich: 'En talföljd med lika stora hopp: {shown}. Hur stort är varje hopp? Alternativ: {choices}.',
+      srFillFwd: 'En talföljd med {step}-hopp: {shown}. Vilket tal saknas? Alternativ: {choices}.',
+      srFillBack: 'En talföljd med {step}-hopp baklänges: {shown}. Vilket tal saknas? Alternativ: {choices}.'
     }
   };
   function txt(k, a) {
@@ -170,11 +193,15 @@
   var SkipCountActivity = {
     id: 'skipcount-activity',
     strings: {
-      title: { en: "Hopper's Lily Hops", de: 'Hoppers Seerosen-Sprünge', fr: 'Les bonds de Hopper sur les nénuphars', es: 'Los brincos de Hopper', pt: 'Os pulos do Hopper', it: 'I salti di Hopper', nl: 'Hoppers waterlelie-sprongen' },
-      instruction: { en: 'Help Hopper the frog skip-count across the pond!', de: 'Hilf dem Frosch Hopper, in Schritten über den Teich zu hüpfen!', fr: "Aide Hopper la grenouille à compter par bonds à travers l'étang !", es: '¡Ayuda a Hopper la rana a contar saltando por el estanque!', pt: 'Ajude o sapo Hopper a contar pulando pela lagoa!', it: 'Aiuta la rana Hopper a contare a salti attraverso lo stagno!', nl: 'Help kikker Hopper om in sprongen over de vijver te tellen!' },
-      qfill: { en: 'Count by {step}s. Which number is missing?', de: 'Zähle in {step}er-Schritten weiter. Welche Zahl fehlt?', fr: 'Compte de {step} en {step}. Quel nombre manque ?', es: 'Cuenta de {step} en {step}. ¿Qué número falta?', pt: 'Conte de {step} em {step}. Qual número está faltando?', it: 'Conta di {step} in {step}. Quale numero manca?', nl: 'Tel verder in sprongen van {step}. Welk getal ontbreekt?' },
-      qfillback: { en: 'Counting down by {step}s. Which number is missing?', de: 'Zähle rückwärts in {step}er-Schritten. Welche Zahl fehlt?', fr: 'Compte de {step} en {step} en reculant. Quel nombre manque ?', es: 'Cuenta de {step} en {step} hacia atrás. ¿Qué número falta?', pt: 'Conte de {step} em {step} para trás. Qual número está faltando?', it: 'Conta di {step} in {step} all\'indietro. Quale numero manca?', nl: 'Tel terug in sprongen van {step}. Welk getal ontbreekt?' },
-      qstep: { en: 'How big is each hop?', de: 'Wie groß ist jeder Sprung?', fr: 'De combien Hopper avance-t-il à chaque bond ?', es: '¿De cuánto es cada brinco?', pt: 'De quanto é cada pulo?', it: 'Di quanto è ogni salto?', nl: 'Hoe groot is elke sprong?' }
+      title: { en: "Hopper's Lily Hops", de: 'Hoppers Seerosen-Sprünge', fr: 'Les bonds de Hopper sur les nénuphars', es: 'Los brincos de Hopper', pt: 'Os pulos do Hopper', it: 'I salti di Hopper', nl: 'Hoppers waterlelie-sprongen', sv: 'Hoppers näckroshopp' },
+      instruction: { en: 'Help Hopper the frog skip-count across the pond!', de: 'Hilf dem Frosch Hopper, in Schritten über den Teich zu hüpfen!', fr: "Aide Hopper la grenouille à compter par bonds à travers l'étang !", es: '¡Ayuda a Hopper la rana a contar saltando por el estanque!', pt: 'Ajude o sapo Hopper a contar pulando pela lagoa!', it: 'Aiuta la rana Hopper a contare a salti attraverso lo stagno!', nl: 'Help kikker Hopper om in sprongen over de vijver te tellen!', sv: 'Hjälp grodan Hopper att hoppräkna från näckros till näckros!' },
+      qfill: { en: 'Count by {step}s. Which number is missing?', de: 'Zähle in {step}er-Schritten weiter. Welche Zahl fehlt?', fr: 'Compte de {step} en {step}. Quel nombre manque ?', es: 'Cuenta de {step} en {step}. ¿Qué número falta?', pt: 'Conte de {step} em {step}. Qual número está faltando?', it: 'Conta di {step} in {step}. Quale numero manca?', nl: 'Tel verder in sprongen van {step}. Welk getal ontbreekt?', sv: 'Räkna {step} i taget. Vilket tal saknas?' },
+      qfillback: { en: 'Counting down by {step}s. Which number is missing?', de: 'Zähle rückwärts in {step}er-Schritten. Welche Zahl fehlt?', fr: 'Compte de {step} en {step} en reculant. Quel nombre manque ?', es: 'Cuenta de {step} en {step} hacia atrás. ¿Qué número falta?', pt: 'Conte de {step} em {step} para trás. Qual número está faltando?', it: 'Conta di {step} in {step} all\'indietro. Quale numero manca?', nl: 'Tel terug in sprongen van {step}. Welk getal ontbreekt?', sv: 'Räkna baklänges {step} i taget. Vilket tal saknas?' },
+      /* The whichstep buttons show a bare +5/+10/+100 face, so this label is the only
+         thing a speech user gets. It was a hardcoded English literal ('hops of ' + val)
+         reaching EVERY locale; en + sv authored, the rest fall through to en as before. */
+      ariaHopsOf: { en: 'hops of', sv: 'hopp på' },
+      qstep: { en: 'How big is each hop?', de: 'Wie groß ist jeder Sprung?', fr: 'De combien Hopper avance-t-il à chaque bond ?', es: '¿De cuánto es cada brinco?', pt: 'De quanto é cada pulo?', it: 'Di quanto è ogni salto?', nl: 'Hoe groot is elke sprong?', sv: 'Hur stort är varje hopp?' }
     },
 
     init: function (api) {
@@ -301,7 +328,7 @@
         var b = el('button', 'sc-cand' + (self._nonConf[val] ? ' dim' : ''));
         b.type = 'button';
         b.textContent = r.cog === 'whichstep' ? ('+' + val) : String(val);
-        b.setAttribute('aria-label', r.cog === 'whichstep' ? ('hops of ' + val) : String(val));
+        b.setAttribute('aria-label', r.cog === 'whichstep' ? (self._api.t('ariaHopsOf') + ' ' + val) : String(val));
         b.addEventListener('click', function () {
           if (self._resolved || self._nonConf[val] || self._token !== tok) return;
           if (Core.isAnswer(r, val)) self._resolve();

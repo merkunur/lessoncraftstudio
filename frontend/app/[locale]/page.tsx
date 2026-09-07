@@ -6,8 +6,6 @@ import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { buildOrganizationSchema, buildWebSiteSchema } from '@/lib/seo/organization-schema';
 import GrandHall from '@/components/homepage-v10/GrandHall';
 import { heroStrings } from '@/components/homepage-v10/hero-strings';
-import Threshold from '@/components/homepage-v11/Threshold';
-import ScrollStage from '@/components/homepage-v11/ScrollStage';
 import {
   InstrumentHall,
   Playroom,
@@ -20,8 +18,7 @@ import {
   type RoomStrings,
   type InstrumentCard,
   type AlcoveCard,
-} from '@/components/homepage-v11/Rooms';
-import type { VignetteVariant } from '@/components/homepage-v6/ToolVignette';
+} from '@/components/homepage-v10/Rooms';
 import { buildEmbedSnippet } from '@/lib/seo/embed-snippet';
 import { embedAnchor } from '@/lib/seo/embed-anchor-text';
 import { deckAssets } from '@/lib/seo/landing-content';
@@ -36,39 +33,7 @@ import { selectShowcaseDecks, fallbackShowcase, type ShowcaseDeck } from '@/lib/
 // div below keeps the `hv6` class (token scope + focus ring) alongside hv10.
 import '@/components/homepage-v6/homepage-v6.css';
 import '@/components/homepage-v10/homepage-v10.css';
-import '@/components/homepage-v11/homepage-v11.css';
 
-// Promoted 2026-09-06: homepage v11 "THE GALLERY OF LESSONS, WALKED THROUGH".
-//
-// The same building as v10 — hero, six numbered rooms, exit — but the visitor
-// now WALKS it: one drawn doorway (Threshold) opens under a CSS view()
-// timeline; Room I is a sticky easel four working instruments take turns on;
-// Room II hangs its works in three depths that move at different rates;
-// Room III's exhibits play once on arrival and again under the pointer;
-// Room IV's two outputs slide out from behind the maker; Room V sends one
-// worksheet to twenty-five screens, once; the exit puts the hero's four
-// instruments on a shelf by the door, still running. One worksheet — the
-// traveller, decks[3] — is followed through the whole building.
-//
-// Motion = CSS scroll-driven animations + position: sticky + ONE client
-// island (components/homepage-v11/ScrollStage.tsx: an IntersectionObserver
-// that arms the once-sequences and the no-scroll-timeline fallback). No
-// dependency was added. Body `overflow-x: clip` (below) is load-bearing:
-// globals.css makes the body a scroll container, which silently defeats
-// sticky and view() — measured 2026-09-06 on the live v10 page.
-//
-// Gates: audit-hero-identity (now finishes finite animations; --poison=loadin)
-// · audit-hero-fold · audit-hero-copy · audit-room-order (--path added) ·
-// audit-room-labels (run A: --cell=.hv11-panel …; run B: --cell=.hv11-shelf-item …)
-// · audit-homepage-responsive · audit-homepage-link-count ·
-// audit-homepage-scroll (NEW: sticky, door, parallax, studio, send, contrast,
-// budget; --mode=reduced|noscrub; six poisons). Preview + gate target:
-// /[locale]/preview/homepage-v11 — keep it in step with this file.
-//
-// v10 stays on disk (components/homepage-v10/*, preview/homepage-v10) for
-// rollback: revert the imports, the body style, the root class and the JSX.
-//
-// ── The v10 note that still applies ──────────────────────────────────────
 // Promoted 2026-08-02: homepage v10 "THE GALLERY OF LESSONS".
 //
 // The gallery is DRAWN; the art is REAL. The architecture — cornice, wall,
@@ -197,18 +162,8 @@ function buildSchemas(locale: string, _title: string, description: string) {
   ];
 }
 
-/* The easel's four instruments, in the order they take the stage: pure-CSS
-   machines from homepage-v6/ToolVignette, named and glossed by MANIPULATIVES
-   (native ×11). The balance leads because the room's copy says "the beam
-   tips". */
-const EASEL: Array<{ key: string; variant: VignetteVariant }> = [
-  { key: 'number-balance', variant: 'balance' },
-  { key: 'lids', variant: 'lids' },
-  { key: 'draw-bag', variant: 'draw-bag' },
-  { key: 'number-sieve', variant: 'sieve' },
-];
-/* The exit shelf: the hero's four instruments, named. */
-const SHELF_KEYS = ['learning-clock', 'rekenrek', 'open-number-line', 'measurement-bench'];
+// Four instruments whose apparatus renders read well as objects on pedestals.
+const INSTRUMENT_KEYS = ['rekenrek', 'number-balance', 'build-plan', 'fraction-kitchen'];
 // The piece you may touch. A genuinely free tool, so the signature never
 // lands a visitor on a paywall.
 const TOUCHABLE = 'rekenrek';
@@ -228,9 +183,24 @@ function localized(map: Record<string, string> | undefined, locale: string) {
   return (map && (map[locale] || map.en)) || '';
 }
 
-/* The wall (Room II) takes the traveller plus the rest of the showcase slice;
-   components/homepage-v11/Rooms.tsx lays it out in three depth planes and
-   hides down to whole rows per band, so no wall-size arithmetic lives here. */
+/* ── The print room's wall size ───────────────────────────────────────────────
+   Room II hangs a RECTANGLE, not a ragged stack. The CSS lays the wall out at
+   5 / 3 / 2 columns (see `.hv10-hang`), and 15 divides evenly by 5 and by 3, so
+   the only width that cannot fill its last row is the 2-column phone band —
+   where the stylesheet hides exactly one tile.
+
+   Until 2026-08-05 the wall got 11 tiles and read 5 / 5 / 1 on a desktop: two
+   full rows and one lonely worksheet, which looks like a catalogue that ran out
+   of stock rather than one holding tens of thousands of decks.
+
+   `fullRows` is the graceful-degradation guard, not the mechanism: if a locale
+   ever yields fewer than 15 decks, drop to the largest multiple of 5 rather
+   than re-introducing a ragged row. It should never fire — SHOWCASE_TYPES
+   carries 24 curated types and every one of them has decks in every locale. */
+const HANG_TARGET = 15;
+function fullRows(available: number): number {
+  return available >= HANG_TARGET ? HANG_TARGET : Math.max(0, Math.floor(available / 5) * 5);
+}
 
 export default async function HomePage({ params }: { params: { locale: string } }) {
   const locale = params.locale || 'en';
@@ -261,11 +231,6 @@ export default async function HomePage({ params }: { params: { locale: string } 
   // One builder for both routes (components/homepage-v10/hero-strings.ts):
   // the preview route is the gate target and must never drift from this page.
   const hero = heroStrings(tv);
-
-  /* THE TRAVELLER: decks[3] hangs in the hero's fourth frame, is the first
-     large work on the wall, is the sheet the dispatch sends, is the embed
-     deck, and hangs by the door. One sheet, followed through the building. */
-  const traveller = decks[3];
 
   /* THE LOAN LABEL (Room V, second half). Every string it needs was already
      natively authored in all eleven locales for the v3 embed section, so the
@@ -334,21 +299,6 @@ export default async function HomePage({ params }: { params: { locale: string } 
     closeBody: tv('close.body'),
     closeCtaPrimary: tv('close.ctaPrimary'),
     closeCtaSecondary: tv('close.ctaSecondary'),
-
-    /* v11 — the v6 keys recovered (native ×11, never machine-translated):
-       the traveller's pen-notes, the balance note, the outputs label, the
-       four promises, the reassurance line, the monthly price, two alts. */
-    penBalance: tv('teach.penBalance'),
-    paperTraveler: tv('paper.penTraveler'),
-    shareTraveler: tv('share.penTraveler'),
-    shareClock: tv('share.penClock'),
-    forkLabel: tv('make.forkLabel'),
-    promises: [tv('keep.chipCurricula'), tv('keep.chipLanguages'), tv('keep.chipNoData'), tv('keep.chipNoAds')],
-    reassure: tv('teacher.reassure'),
-    teacherMonthly: tv('teacher.teacherMonthly', { monthly: SUBSCRIPTION_PRODUCT.monthlyPriceUsd }),
-    playAlt: tv('paper.playAlt'),
-    printAlt: tv('paper.printAlt'),
-    travellerAlt: traveller ? titleFor(traveller) : '',
   };
 
   /* Room II's exhibits, resolved per locale. Titles and slugs are native in
@@ -377,15 +327,10 @@ export default async function HomePage({ params }: { params: { locale: string } 
     )
   ).filter(Boolean) as AlcoveCard[];
 
-  const instruments: InstrumentCard[] = EASEL.map(({ key, variant }) => {
+  const instruments: InstrumentCard[] = INSTRUMENT_KEYS.map((key) => {
     const m = MANIPULATIVES.find((x) => x.id === key);
-    return { key, variant, name: localized(m?.title, locale), note: localized(m?.tagline, locale) };
+    return { key, name: localized(m?.title, locale), note: localized(m?.tagline, locale) };
   }).filter((i) => i.name);
-
-  const shelf = SHELF_KEYS.map((key) => ({
-    key,
-    name: localized(MANIPULATIVES.find((x) => x.id === key)?.title, locale),
-  }));
 
   /* The loan label shows a REAL embed snippet, not a mockup of one: the same
      buildEmbedSnippet() the worksheet landing pages call, for the same
@@ -403,7 +348,7 @@ export default async function HomePage({ params }: { params: { locale: string } 
      brandHref is the deck directory too rather than the deck's landing page:
      resolving a landing means building the per-locale landing index, which
      the homepage otherwise never loads. Both targets are real pages. */
-  const embedDeck = traveller;
+  const embedDeck = decks[3];
   const anchor = embedAnchor(locale);
   const embed = embedDeck
     ? {
@@ -444,29 +389,21 @@ export default async function HomePage({ params }: { params: { locale: string } 
           .hv10-field and .hv10-room; setting the body to a wall colour made
           the category nav unreadable, because CategoryNav is a 4%-opacity
           tint with dark text that relies on what sits behind it. */}
-      {/* v11: `overflow-x: clip` on the body is LOAD-BEARING. globals.css sets
-          `overflow-x: hidden`, which makes the body a scroll container, and a
-          scroll container is what position: sticky and view() timelines
-          resolve against — measured on the live v10 page: a sticky probe
-          rendered at −400px and a view() opacity never left its end value.
-          `clip` contains horizontally without creating a scroller. This
-          inline style is unlayered and beats the @layer base rule. */}
       <style>{`
-        body { background: #FDFBF6 !important; color: #14322D; overflow-x: clip; }
+        body { background: #FDFBF6 !important; color: #14322D; }
         body::before { display: none; }
       `}</style>
 
       {/* div, not main: LocaleLayoutClient already wraps children in <main>. */}
-      <div className={`hv6 hv10 hv11 ${baloo2.variable} ${nunito.variable} font-lcsBody min-h-screen`}>
+      <div className={`hv6 hv10 ${baloo2.variable} ${nunito.variable} font-lcsBody min-h-screen`}>
         <GrandHall locale={locale} decks={decks.slice(0, 6)} strings={hero} />
-        <Threshold decks={decks.slice(6, 8)} />
         <InstrumentHall locale={locale} strings={rooms} instruments={instruments} live={live} />
-        <PrintRoom locale={locale} decks={decks.slice(6)} traveller={traveller} strings={rooms} />
+        <PrintRoom locale={locale} decks={decks.slice(6, 6 + fullRows(decks.length - 6))} strings={rooms} />
         <Playroom locale={locale} strings={rooms} activities={alcoves} />
         <Studio locale={locale} strings={rooms} />
         <Dispatch locale={locale} strings={rooms} deck={embedDeck} embed={embed} />
         <MembersRoom locale={locale} strings={rooms} />
-        <Exit locale={locale} strings={rooms} shelf={shelf} traveller={traveller} />
+        <Exit locale={locale} strings={rooms} />
 
         {/* The catalogue at the back of the building — the crawl-bait mesh
             (Do NOT remove — primary crawlable links). */}
@@ -479,7 +416,6 @@ export default async function HomePage({ params }: { params: { locale: string } 
             variant="hv6"
           />
         </div>
-        <ScrollStage />
       </div>
     </>
   );

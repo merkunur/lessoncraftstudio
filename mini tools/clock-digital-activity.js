@@ -113,6 +113,27 @@
       hintMinute: 'Tel de kleine streepjes — elk streepje is een minuut.',
       srMatchBody: ' De tijd is {t}. De klokken laten zien: {cs}.',
       srReadBody: ' De klok laat {t} zien. De keuzes zijn: {ds}.'
+    },
+    /* sv — native panel (lingvist + lågstadielärare åk 1–2). Visarordet är låst av
+       clock-core: "den korta visaren är timmen, den långa visaren är minuterna".
+       Halvtimmen går mot NÄSTA timme (halv fyra = 3:30) — se spoken(). {t} är en
+       färdig, versal mening från spoken(), därför är srReadBody omstrukturerad
+       (samma grepp som es/pt/it).
+       ⚠ hintMinute säger INTE "små streck": den fina minutringen ritas bara på
+       icke-femtalen (48 av 60), så ett barn som räknar "små" streck tappar ett på
+       var femte. Engelskan har den buggen; svenskan ärver den inte.
+       ⚠ hintMatch är en STRATEGI, inte en omskrivning av frågan som i engelskan. */
+    sv: {
+      q: 'Vad är klockan?',
+      qMatch: 'Vilken klocka visar den här tiden?',
+      win: 'Just det! {t}.',
+      hint: 'Titta vilken siffra den korta visaren pekar på — det är timmen.',
+      hintMatch: 'Titta på visarna på varje klocka — vilken av dem visar den här tiden?',
+      hintMin: 'Läs av båda visarna — den långa visaren visar minuterna.',
+      hintFive: 'Räkna med fem i taget runt klockan — den långa visaren visar minuterna.',
+      hintMinute: 'Räkna strecken runt klockan — varje streck är en minut.',
+      srMatchBody: ' Tiden är {t}. Klockorna visar: {cs}.',
+      srReadBody: ' {t}. Du kan välja mellan: {ds}.'
     }
   };
   var LANG = 'en';
@@ -147,6 +168,23 @@
       if (mm === 15) return hh + (hh === 1 ? ' heure et quart' : ' heures et quart');
       if (mm === 45) { var n = wrapH(hh + 1); return n + (n === 1 ? ' heure moins le quart' : ' heures moins le quart'); }
       return fmtDigital(t);
+    }
+    /* sv — native panel. Svensk halvtimme går MOT nästa timme (3:30 = "halv fyra"),
+       precis som clock-core timeExpr ("halv 8" = 7:30). ⚠ Timmen skrivs som ORD, inte
+       siffra: strängen läses upp bredvid en ruta där det står "3:30", och "halv 4"
+       intill "3:30" bygger just den missuppfattning aktiviteten ska bryta (nl-panelen
+       gjorde samma val). ⚠ Hel mening + versal eftersom {t} används ENSAM som
+       aria-label (rad ~375) och direkt efter "Just det!" — es/pt/it-mönstret i den här
+       filen; ett ensamt "tre" vore den enda icke-självbeskrivande aria-etiketten.
+       ⚠ "ett", aldrig "en": klockan ett, halv ett. wrapH(13) → 1, så 12:30 → halv ett. */
+    if (LANG === 'sv') {
+      var HRSsv = ['', 'ett', 'två', 'tre', 'fyra', 'fem', 'sex', 'sju', 'åtta', 'nio', 'tio', 'elva', 'tolv'];
+      var nxSv = wrapH(hh + 1);
+      if (mm === 0) return 'Klockan är ' + HRSsv[hh];
+      if (mm === 30) return 'Klockan är halv ' + HRSsv[nxSv];
+      if (mm === 15) return 'Klockan är kvart över ' + HRSsv[hh];
+      if (mm === 45) return 'Klockan är kvart i ' + HRSsv[nxSv];
+      return 'Klockan är ' + Core.digitalStr(t);
     }
     if (LANG === 'de') {
       if (mm === 0) return hh + ' Uhr';
@@ -256,8 +294,8 @@
   var ClockDigitalActivity = {
     id: 'clock-digital-activity',
     strings: {
-      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr', fr: 'L\'horloge de Sprocket', es: 'El reloj de Sprocket', pt: 'O relógio do Sprocket', it: 'L\'orologio di Sprocket', nl: 'De klok van Kukel' },
-      instruction: { en: 'Read the clock, then tap the time that matches.', de: 'Lies die Uhr ab und tippe dann auf die passende Uhrzeit.', fr: 'Lis l\'horloge, puis touche l\'heure qui correspond.', es: 'Lee el reloj y luego toca la hora que coincida.', pt: 'Leia o relógio e depois toque na hora que corresponde.', it: 'Leggi l\'orologio, poi tocca l\'ora giusta.', nl: 'Lees de klok en tik op de tijd die erbij hoort.' },
+      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr', fr: 'L\'horloge de Sprocket', es: 'El reloj de Sprocket', pt: 'O relógio do Sprocket', it: 'L\'orologio di Sprocket', nl: 'De klok van Kukel', sv: 'Tores klocka' },
+      instruction: { en: 'Read the clock, then tap the time that matches.', de: 'Lies die Uhr ab und tippe dann auf die passende Uhrzeit.', fr: 'Lis l\'horloge, puis touche l\'heure qui correspond.', es: 'Lee el reloj y luego toca la hora que coincida.', pt: 'Leia o relógio e depois toque na hora que corresponde.', it: 'Leggi l\'orologio, poi tocca l\'ora giusta.', nl: 'Lees de klok en tik op de tijd die erbij hoort.', sv: 'Läs av klockan och tryck sedan på den tid som stämmer.' },
       q: { en: '{q}' }
     },
 

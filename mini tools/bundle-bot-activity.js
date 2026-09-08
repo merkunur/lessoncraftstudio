@@ -124,7 +124,7 @@
   /* a banded ten-bar — reads "one ten" at a glance (NOT a countable 10-cube stack). */
   function barSVG() {
     var b = '<svg viewBox="0 0 26 92" class="bb-bar-svg" aria-hidden="true"><rect x="3" y="3" width="20" height="86" rx="5" fill="' + C.T + '"/>';
-    for (var i = 0; i < 10; i++) b += '<line x1="3" y1="' + (11 + i * 8) + '" x2="23" y2="' + (11 + i * 8) + '" stroke="#0e4f45" stroke-width="1.4"/>';
+    for (var i = 0; i < 9; i++) b += '<line x1="3" y1="' + (11 + i * 8.6) + '" x2="23" y2="' + (11 + i * 8.6) + '" stroke="#0e4f45" stroke-width="1.4"/>';
     b += '<rect x="3" y="3" width="20" height="86" rx="5" fill="none" stroke="#0a3b34" stroke-width="2"/></svg>';
     return b;
   }
@@ -282,7 +282,8 @@
     _peekClump: function () { var sizes = this.round.clumpSizes || [1, 2, 3]; return sizes[(this.cstate._feedIdx) % sizes.length] | 0; },
 
     _feed: function () {
-      Core.feed(this.cstate, 1);                                               // one-by-one — exactly one loose cube
+      /* one-by-one everywhere EXCEPT the overfill cog, whose whole point is overshooting ten */
+      Core.feed(this.cstate, this.round.cog === 'overfill' ? Core.nextClump(this.cstate) : 1);
       this.api.sound && this.api.sound(520 + this.cstate.ones * 8); this._newBar = false;
       this.msg = (this.cstate.ones > 10) ? this.api.t('overfill') : null; this._mood = 'idle';
       if (Core.isSolved(this.cstate)) { this._win(); return; }
@@ -387,7 +388,7 @@
         + '.bb-scatter .bb-cube::after{content:"\\00d7";position:absolute;top:-5px;right:-5px;width:14px;height:14px;line-height:13px;font:800 11px/13px "Nunito",sans-serif;color:#fff;background:' + C.CORAL2 + ';border-radius:50%;text-align:center;opacity:0;transition:opacity .1s;pointer-events:none;}'
         + '.bb-scatter .bb-cube:hover::after,.bb-scatter .bb-cube:focus-visible::after{opacity:1;}'
         + '.bb-tray:not(.bb-tidy) .bb-cube{transform:translate(var(--jx,0),var(--jy,0));}'
-        + '.bb-tidy .bb-scatter{display:grid;grid-template-columns:repeat(5,1fr);gap:3px;max-width:clamp(110px,30vw,150px);}'
+        + '.bb-tidy .bb-scatter{display:grid;grid-template-columns:repeat(4,1fr);gap:3px;max-width:clamp(110px,30vw,150px);}'
         /* controls */
         + '.bb-controls{display:flex;align-items:stretch;justify-content:center;gap:6px;width:100%;max-width:340px;flex-wrap:wrap;}'
         + '.bb-feeder{flex:1 1 40%;min-height:54px;border-radius:13px;border:2px solid rgba(20,107,94,.25);background:#fff;color:' + C.T + ';cursor:pointer;touch-action:manipulation;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;padding:4px;}.bb-feeder:active{transform:translateY(1px);}'
@@ -410,13 +411,24 @@
     }
   };
 
+  /* cog -> question key, mirroring the switch in _question().
+     ⚠ `promptKey` DELIBERATELY still points at the generic 'prompt'. The obvious fix — pointing
+     it here so the banner and Bolt's bubble stop contradicting each other — WAS BUILT AND
+     MEASURED and is architecturally wrong for this shell: the prompt slot is a large display
+     banner, so qUnbundle wrapped to THREE lines and pushed Check off the bottom at 1024x900 and
+     1366x900 (ctrlBottom 799 -> 909). Emptying the bubble did not recover it. A proper fix needs
+     short per-cog banner strings, or a neutral generic one, in all eight locales.
+     Only the placeholder-free subset below survives, for hintKey. */
+  var HINT_SAFE_BY_COG = { impostor: 'qImpostor', overfill: 'qOverfill' };   // the placeholder-free ones ONLY
+
   function makeTasks(rounds) {
     return (rounds || []).map(function (round) {
       return {
         id: 'bundle-bot.' + round.id, band: round.band || 1, promptKey: 'prompt', promptArgs: {}, answerType: 'state',
         setup: function (tool) { tool.setupTask(round); },
         check: function (tool) { return tool.isCorrect(); },
-        hintKey: function () { return 'qBuild'; }
+        /* only placeholder-free keys: the shell does NOT interpolate a hint (lcs-shell.js:878) */
+        hintKey: function () { return HINT_SAFE_BY_COG[round.cog] || 'qBuild'; }
       };
     });
   }

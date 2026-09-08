@@ -1812,6 +1812,29 @@
         "Barnet läser talets värde i stället för att gå på hur stort talet är tryckt, och kan jämföra antal vare sig de visas som prickar, som siffror eller som små summor.",
         "Barnet börjar sätta ord på hur tal förhåller sig till varandra – fler, färre, lika många, mellan – vilket är grunden för taluppfattning och för arbetet med likhetstecknet i åk 1 (Lgr22)."
       ]
+    },
+    "span-length-gap.how-much-longer.2-md-a-4": {
+      "about": [
+        "Två remsor ligger under varandra, en orange och en grön. Framför varje remsa står vad den föreställer — en penna och en krita, en halsduk och ett bälte, en gren och en kvist — och på själva remsan står hur många centimeter lång den är. Barnet ser genast vilken som är längst och svarar sedan på hur mycket längre den är genom att trycka in skillnaden på knappsatsen. En interaktiv matteövning för årskurs 2, direkt i webbläsaren, utan nedladdning och utan konto.",
+        "Det här är ingen mätövning. Det finns ingen linjal, ingen skala och ingenting att läsa av — båda längderna är redan kända och står skrivna på remsorna. Arbetet ligger i subtraktionen: att ta bort den kortare längden från den längre. Att remsorna samtidigt är olika långa gör skillnaden synlig som en bild, den lilla biten som sticker ut i änden, så barnet kan se att talet stämmer med det ögat visar.",
+        "Aktiviteten följer Lgr22 inom området mätning och jämförelse av längder, och den kommer efter att barnet har lärt sig mäta med linjal — att mäta är en annan övning, här är längderna redan givna. De åtta omgångarna växer i svårighet: från korta remsor som 8 och 5 centimeter till 20 mot 8, och till det kluriga 11 mot 9 där skillnaden bara är 2 centimeter. Omgångarna blandas om inom varje nivå, så de kommer i ny ordning varje gång, men de lättaste kommer alltid först. Ingen timer, inga poäng — bara lugn, lekfull träning."
+      ],
+      "practices": [
+        "Läsa två längder som står skrivna i centimeter och avgöra vilken som är längst",
+        "Räkna ut hur mycket längre det ena föremålet är än det andra — skillnaden mellan de två längderna",
+        "Använda subtraktion för att jämföra längder, med tal inom 20 centimeter",
+        "Svara med skillnaden i centimeter, inte med någon av de två längderna som står på remsorna"
+      ],
+      "howToPlay": [
+        "Titta på de två remsorna: framför varje remsa står vad den är, och på remsan står hur många centimeter lång den är.",
+        "Räkna ut hur mycket längre den längsta remsan är, tryck in talet på knappsatsen och tryck sedan på Kontrollera.",
+        "Blev det inte rätt? Försök igen så många gånger du vill — det finns ingen timer och inga poäng."
+      ],
+      "learningGoals": [
+        "Barnet kan räkna ut hur mycket längre det ena av två föremål är än det andra",
+        "Barnet förstår att jämföra två längder betyder att hitta skillnaden mellan dem",
+        "Barnet går från att mäta en enskild längd med linjal till att räkna med två kända längder — grunden för längd- och diagramuppgifter längre fram"
+      ]
     }
   }
 }

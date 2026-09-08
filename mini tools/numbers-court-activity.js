@@ -242,7 +242,14 @@
     },
     _deposit: function (side, i, val) {   // TRUE-justify (operand-bound)
       if (this.readOnly || this.stage !== 'justify' || this.verdict !== true) return;
-      this.deposited[side + i] = true; this.fill[side] += Math.abs(val); this.api.sound && this.api.sound(560 + this.fill[side] * 12);
+      /* ⚠ the token's OPERATOR decides the sign. This used to be Math.abs(val), which made
+         every TRUE `subtraction` round unwinnable — the pan filled to a + b while the win
+         test needed a − b, and buildPool always includes one. Read the token from the round
+         rather than trusting the passed value, so no caller can reintroduce the sign bug. */
+      var tok = (this.round.expr[side] || [])[i];
+      var delta = (tok && tok.op === '-') ? -Math.abs(tok.t) : Math.abs(tok ? tok.t : val);
+      this.deposited[side + i] = true; this.fill[side] += delta;
+      this.api.sound && this.api.sound(560 + Math.max(0, this.fill[side]) * 12);
       var s = this.sums();
       if (this.fill.left === s.left && this.fill.right === s.right) {
         this.tilt = 0;   // settles level

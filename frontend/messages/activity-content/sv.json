@@ -1858,6 +1858,29 @@
         "Barnet vet att arean är densamma även om figuren byter form, och kan visa det med två mosaiker som ser olika ut men har lika många rutor.",
         "Barnet väljer inte längre den figur som ser störst ut, utan räknar rutorna innan det bestämmer sig."
       ]
+    },
+    "pond-juice.pour-measure.3-md-a-2": {
+      "about": [
+        "Grodan Ebba driver en liten saftkiosk nere vid dammen, och kunderna kommer flygande, krypande och simmande: en trollslända, en snigel, en sköldpadda, en fisk, ett bi. Barnet hjälper till bakom disken och läser av mätglaset åt Ebba i nio korta omgångar. Det är en interaktiv mätövning för årskurs 2 som körs direkt i webbläsaren, utan nedladdning och utan konto.",
+        "Omgångarna är av fyra slag. I tre av dem beställer en kund ungefär en viss mängd, och när saften väl är upphälld står nivån någon annanstans: barnet läser av det tal som skalan faktiskt visar, inte det tal kunden bad om. I två omgångar har Ebba redan hällt upp och barnet läser bara av nivån, en gång på en skala med streck vid varje tal och en gång på en skala med streck vid vartannat tal, där saften hamnar mitt emellan två streck. I två omgångar står två mätglas bredvid varandra och barnet väljer det som rymmer mest.",
+        "Den stora idén ligger i de två sista omgångarna, där mätglasens skalor inte är lika. I den ena ser glaset till höger tommare ut men rymmer ändå mer, eftersom dess skala går till 20 medan grannens bara går till 10. I den andra är glaset till vänster fyllt ända upp till kanten och ser därför fullast ut, fast dess skala slutar redan vid 5 — det rymmer minst av de två. Barnet kan alltså inte gå på hur fullt det ser ut, utan måste läsa talen på båda skalorna. Aktiviteten följer Lgr22 inom området mätning: att jämföra, uppskatta och mäta volym. Ingen timer, inga poäng — bara lugn, lekfull träning."
+      ],
+      "practices": [
+        "Läsa av hur högt saften står på en graderad skala, streck för streck",
+        "Skilja på hur mycket kunden ungefär bad om och hur mycket det faktiskt blev",
+        "Läsa av både en skala med streck vid varje tal och en med streck vid vartannat, där nivån hamnar mitt emellan",
+        "Jämföra två mätglas efter talen på skalorna i stället för efter hur fulla de ser ut"
+      ],
+      "howToPlay": [
+        "Barnet läser beställningen högst upp och trycker sedan på knappen som häller upp saften eller visar vad Ebba redan har hällt upp.",
+        "Mätglaset klarnar, barnet läser av vilket tal saften når och trycker på det talet i sifferraden under glaset.",
+        "När två mätglas står bredvid varandra trycker barnet i stället på Det här! under det som rymmer mest. Hamnade saften på ett annat tal än barnet trodde frågar Ebba vänligt vid vilket tal saften slutar, och det går att försöka igen hur många gånger som helst — det finns ingen timer och inga poäng."
+      ],
+      "learningGoals": [
+        "Barnet kan läsa av volym på en graderad skala, både när saften står vid ett streck och när den står mitt emellan två.",
+        "Barnet kan skilja på en uppskattning och en avläst mätning, och vet att det är avläsningen som ger mängden.",
+        "Barnet kan jämföra två mängder genom att läsa båda skalorna, även när det fullaste mätglaset inte är det som rymmer mest."
+      ]
     }
   }
 }

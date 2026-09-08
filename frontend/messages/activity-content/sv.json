@@ -1950,6 +1950,29 @@
         "Barnet kan visa ett tvåsiffrigt tal med tiotal och ental",
         "Barnet kan visa samma tal på flera sätt och förstår att ett tiotal alltid är tio ental"
       ]
+    },
+    "line-plot.read.2-md-d-9": {
+      "about": [
+        "Eremitkräftan Snäckis går längs strandlinjen och mäter snäckorna den hittar. Varje snäcka blir ett kryss över sitt eget tal på tallinjen, som går från 1 till 8 centimeter, och kryssen staplas på varandra så att högen visar hur många snäckor som är just den längden. I tre av omgångarna ligger en ny snäcka som en orange stapel längs linjen, och barnet trycker på hur många centimeter den är så att krysset hamnar rätt.",
+        "Det stora i det här är att ett kryss står för en mätning. Åtta av de elva omgångarna handlar om att läsa av den färdiga bilden: hur många snäckor som är 5 centimeter, hur många som är längre än 5, vilken längd som är vanligast, hur mycket längre den längsta är än den kortaste och hur många fler som är 5 centimeter än 6. De frågorna går inte att svara på genom att räkna en enda hög — barnet måste jämföra två högar, hitta den högsta eller ta skillnaden mellan ytterkanterna. Att det saknas kryss över några tal mitt i, som över 4 och 7, hör till: en lucka betyder att ingen snäcka hade just den längden.",
+        "Elva omgångar som blandas om till en ny ordning varje gång, med tre svarsalternativ åt gången. Trycker barnet på ett tal som inte stämmer tonas det ner och Snäckis ber vänligt om en titt till, och knappen Kontrollera dyker upp först när svaret är rätt. Aktiviteten följer Lgr22 och hör hemma i området sannolikhet och statistik, där barnet arbetar med enkla tabeller och diagram. Ingen timer, inga poäng och ingen som vinner."
+      ],
+      "practices": [
+        "Läsa av hur många kryss som står över ett tal, och hur många snäckor som är längre än en viss längd",
+        "Hitta den längd som är vanligast genom att se vilken hög med kryss som når högst",
+        "Räkna ut hur många fler snäckor som är en längd än en annan, och hur mycket längre den längsta är än den kortaste",
+        "Sätta ett eget kryss över rätt tal på tallinjen när en ny snäcka har mätts"
+      ],
+      "howToPlay": [
+        "Titta på kryssen över tallinjen: varje kryss är en snäcka, och hur högt högen når visar hur många som är just den längden.",
+        "Läs Snäckis fråga och tryck på det av de tre talen som stämmer — eller, när en ny snäcka ligger som en stapel längs linjen, på hur många centimeter den är.",
+        "Ett tal som inte stämmer tonas ner och Snäckis ber dig titta en gång till; när svaret är rätt trycker du på Kontrollera för att gå vidare. Ingen timer och inga poäng."
+      ],
+      "learningGoals": [
+        "Barnet kan läsa av ett diagram där varje mätning är ett kryss över sitt tal på tallinjen",
+        "Barnet kan svara på hur många, hur många fler och vilken längd som är vanligast utifrån kryssen",
+        "Barnet förstår att en lucka i diagrammet betyder att ingen snäcka hade just den längden"
+      ]
     }
   }
 }

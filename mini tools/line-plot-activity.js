@@ -116,6 +116,18 @@
       srJoin: '{c} bij {v} cm',
       srPlot: 'Een nieuwe schelp is {len} cm lang. Kruisjesdiagram, getallenlijn van 1 tot en met {max}. Tik op de lengte om er een kruisje te zetten. Keuzes: {choices}.',
       srRead: 'Een kruisjesdiagram, getallenlijn van 1 tot en met {max}: {dist}. {q} Keuzes: {choices}.'
+    },
+    sv: {
+      win: 'Precis — {note}!',
+      winPlot: 'krysset sitter vid {a} cm',
+      winAt: '{a} snäckor',
+      winMode: '{a} cm är den vanligaste längden',
+      winNum: 'svaret är {a}',
+      nPlot: 'Titta var snäckan slutar på tallinjen.',
+      nRead: 'Titta en gång till på kryssen över varje tal.',
+      srJoin: '{c} vid {v} cm',
+      srPlot: 'En ny snäcka är {len} cm lång. Tallinje från 1 till {max}, med ett kryss för varje snäcka. Tryck på längden för att sätta krysset. Alternativ: {choices}.',
+      srRead: 'Ett diagram med ett kryss för varje snäcka, tallinje från 1 till {max}: {dist}. {q} Alternativ: {choices}.'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -136,14 +148,14 @@
   var LinePlotActivity = {
     id: 'line-plot-activity',
     strings: {
-      title: { en: "Shelly's Tide-Line", de: 'Shellys Gezeitenlinie', fr: 'Shelly et la ligne de marée', es: 'Shelly y la línea de marea', pt: 'Shelly e a linha da maré', it: 'Shelly e la linea di marea', nl: 'Shelly’s getijdenlijn' },
-      instruction: { en: 'Help Shelly the hermit crab measure shells and read the tide-line plot!', de: 'Hilf Shelly, dem Einsiedlerkrebs, Muscheln zu messen und die Gezeitenlinie zu lesen!', fr: 'Aide Shelly le bernard-l’ermite à mesurer des coquillages et à lire le diagramme !', es: '¡Ayuda a Shelly, el cangrejo ermitaño, a medir conchas y a leer el diagrama de frecuencias!', pt: 'Ajude a Shelly, o caranguejo-ermitão, a medir conchas e a ler o diagrama de frequências da maré!', it: 'Aiuta Shelly, il granchio eremita, a misurare le conchiglie e a leggere il diagramma delle frequenze della marea!', nl: 'Help Shelly de heremietkreeft schelpen meten en de getijdenlijn lezen!' },
-      qplot: { en: 'How long is this shell? Tap its length to plot it.', de: 'Wie lang ist diese Muschel? Tippe auf ihre Länge, um sie einzutragen.', fr: 'Quelle est la longueur de ce coquillage ? Touche sa longueur pour la placer.', es: '¿Cuánto mide esta concha? Toca su longitud para registrarla.', pt: 'Qual é o comprimento desta concha? Toque no comprimento dela para marcar o X.', it: 'Quanto è lunga questa conchiglia? Tocca la sua lunghezza per segnarla.', nl: 'Hoe lang is deze schelp? Tik op de lengte om er een kruisje te zetten.' },
-      qAt: { en: 'How many shells are {n} cm long?', de: 'Wie viele Muscheln sind {n} cm lang?', fr: 'Combien de coquillages mesurent {n} cm ?', es: '¿Cuántas conchas miden {n} cm?', pt: 'Quantas conchas têm {n} cm de comprimento?', it: 'Quante conchiglie misurano {n} cm?', nl: 'Hoeveel schelpen zijn {n} cm lang?' },
-      qLonger: { en: 'How many shells are longer than {n} cm?', de: 'Wie viele Muscheln sind länger als {n} cm?', fr: 'Combien de coquillages sont plus longs que {n} cm ?', es: '¿Cuántas conchas miden más de {n} cm?', pt: 'Quantas conchas são mais compridas que {n} cm?', it: 'Quante conchiglie misurano più di {n} cm?', nl: 'Hoeveel schelpen zijn langer dan {n} cm?' },
-      qMode: { en: 'Which length is the most common?', de: 'Welche Länge kommt am häufigsten vor?', fr: 'Quelle longueur revient le plus souvent ?', es: '¿Cuál es la longitud que más se repite?', pt: 'Qual comprimento mais aparece?', it: 'Quale lunghezza compare più spesso?', nl: 'Welke lengte komt het vaakst voor?' },
-      qDiff: { en: 'How much longer is the longest shell than the shortest?', de: 'Wie viel länger ist die längste Muschel als die kürzeste?', fr: 'Combien de cm de plus mesure le coquillage le plus long par rapport au plus court ?', es: '¿Cuánto más larga es la concha más larga que la más corta?', pt: 'Quantos cm a concha mais comprida tem a mais que a mais curta?', it: 'Quanti cm in più misura la conchiglia più lunga rispetto alla più corta?', nl: 'Hoeveel langer is de langste schelp dan de kortste?' },
-      qMore: { en: 'How many more shells are {a} cm than {b} cm?', de: 'Wie viele Muscheln mehr sind {a} cm lang als {b} cm lang?', fr: 'Combien y a-t-il de coquillages de {a} cm de plus que de coquillages de {b} cm ?', es: '¿Cuántas conchas más miden {a} cm que {b} cm?', pt: 'Quantas conchas a mais têm {a} cm do que {b} cm?', it: 'Quante conchiglie in più misurano {a} cm rispetto a {b} cm?', nl: 'Hoeveel schelpen meer zijn {a} cm lang dan {b} cm lang?' }
+      title: { en: "Shelly's Tide-Line", de: 'Shellys Gezeitenlinie', fr: 'Shelly et la ligne de marée', es: 'Shelly y la línea de marea', pt: 'Shelly e a linha da maré', it: 'Shelly e la linea di marea', nl: 'Shelly’s getijdenlijn', sv: 'Snäckis strandlinje' },
+      instruction: { en: 'Help Shelly the hermit crab measure shells and read the tide-line plot!', de: 'Hilf Shelly, dem Einsiedlerkrebs, Muscheln zu messen und die Gezeitenlinie zu lesen!', fr: 'Aide Shelly le bernard-l’ermite à mesurer des coquillages et à lire le diagramme !', es: '¡Ayuda a Shelly, el cangrejo ermitaño, a medir conchas y a leer el diagrama de frecuencias!', pt: 'Ajude a Shelly, o caranguejo-ermitão, a medir conchas e a ler o diagrama de frequências da maré!', it: 'Aiuta Shelly, il granchio eremita, a misurare le conchiglie e a leggere il diagramma delle frequenze della marea!', nl: 'Help Shelly de heremietkreeft schelpen meten en de getijdenlijn lezen!', sv: 'Hjälp eremitkräftan Snäckis att mäta snäckor och läsa av kryssen över tallinjen!' },
+      qplot: { en: 'How long is this shell? Tap its length to plot it.', de: 'Wie lang ist diese Muschel? Tippe auf ihre Länge, um sie einzutragen.', fr: 'Quelle est la longueur de ce coquillage ? Touche sa longueur pour la placer.', es: '¿Cuánto mide esta concha? Toca su longitud para registrarla.', pt: 'Qual é o comprimento desta concha? Toque no comprimento dela para marcar o X.', it: 'Quanto è lunga questa conchiglia? Tocca la sua lunghezza per segnarla.', nl: 'Hoe lang is deze schelp? Tik op de lengte om er een kruisje te zetten.', sv: 'Hur många cm är den här snäckan? Tryck på längden för att sätta ett kryss.' },
+      qAt: { en: 'How many shells are {n} cm long?', de: 'Wie viele Muscheln sind {n} cm lang?', fr: 'Combien de coquillages mesurent {n} cm ?', es: '¿Cuántas conchas miden {n} cm?', pt: 'Quantas conchas têm {n} cm de comprimento?', it: 'Quante conchiglie misurano {n} cm?', nl: 'Hoeveel schelpen zijn {n} cm lang?', sv: 'Hur många snäckor är {n} cm långa?' },
+      qLonger: { en: 'How many shells are longer than {n} cm?', de: 'Wie viele Muscheln sind länger als {n} cm?', fr: 'Combien de coquillages sont plus longs que {n} cm ?', es: '¿Cuántas conchas miden más de {n} cm?', pt: 'Quantas conchas são mais compridas que {n} cm?', it: 'Quante conchiglie misurano più di {n} cm?', nl: 'Hoeveel schelpen zijn langer dan {n} cm?', sv: 'Hur många snäckor är längre än {n} cm?' },
+      qMode: { en: 'Which length is the most common?', de: 'Welche Länge kommt am häufigsten vor?', fr: 'Quelle longueur revient le plus souvent ?', es: '¿Cuál es la longitud que más se repite?', pt: 'Qual comprimento mais aparece?', it: 'Quale lunghezza compare più spesso?', nl: 'Welke lengte komt het vaakst voor?', sv: 'Vilken längd är vanligast?' },
+      qDiff: { en: 'How much longer is the longest shell than the shortest?', de: 'Wie viel länger ist die längste Muschel als die kürzeste?', fr: 'Combien de cm de plus mesure le coquillage le plus long par rapport au plus court ?', es: '¿Cuánto más larga es la concha más larga que la más corta?', pt: 'Quantos cm a concha mais comprida tem a mais que a mais curta?', it: 'Quanti cm in più misura la conchiglia più lunga rispetto alla più corta?', nl: 'Hoeveel langer is de langste schelp dan de kortste?', sv: 'Hur många cm längre är den längsta snäckan än den kortaste?' },
+      qMore: { en: 'How many more shells are {a} cm than {b} cm?', de: 'Wie viele Muscheln mehr sind {a} cm lang als {b} cm lang?', fr: 'Combien y a-t-il de coquillages de {a} cm de plus que de coquillages de {b} cm ?', es: '¿Cuántas conchas más miden {a} cm que {b} cm?', pt: 'Quantas conchas a mais têm {a} cm do que {b} cm?', it: 'Quante conchiglie in più misurano {a} cm rispetto a {b} cm?', nl: 'Hoeveel schelpen meer zijn {a} cm lang dan {b} cm lang?', sv: 'Hur många fler snäckor är {a} cm än {b} cm?' }
     },
 
     init: function (api) {
@@ -308,7 +320,7 @@
       this.render();
       var note;
       if (r.cog === 'plot') note = txt('winPlot', { a: a });
-      else if (r.question.type === 'atN') note = (LANG === 'de' && a === 1) ? 'eine Muschel' : (LANG === 'fr' && a <= 1) ? (a + ' coquillage') : (LANG === 'es' && a === 1) ? 'una concha' : (LANG === 'pt' && a === 1) ? 'uma concha' : (LANG === 'it' && a === 1) ? 'una conchiglia' : (LANG === 'nl' && a === 1) ? 'één schelp' : txt('winAt', { a: a });
+      else if (r.question.type === 'atN') note = (LANG === 'de' && a === 1) ? 'eine Muschel' : (LANG === 'fr' && a <= 1) ? (a + ' coquillage') : (LANG === 'es' && a === 1) ? 'una concha' : (LANG === 'pt' && a === 1) ? 'uma concha' : (LANG === 'it' && a === 1) ? 'una conchiglia' : (LANG === 'nl' && a === 1) ? 'één schelp' : (LANG === 'sv' && a === 1) ? 'en snäcka' : txt('winAt', { a: a });
       else if (r.question.type === 'mode') note = txt('winMode', { a: a });
       else note = txt('winNum', { a: a });
       var line = this._api.stage.querySelector('.tl-line-msg');

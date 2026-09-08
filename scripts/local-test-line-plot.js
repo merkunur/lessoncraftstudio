@@ -129,6 +129,93 @@ function serve() {
     console.log(`  FAIL line-plot/en — ${e.message}`);
   } finally { await page.close(); }
 
+  /* ---- sv: no English may reach text or aria-labels -------------------------------- */
+  const svAt = fails.length;
+  try {
+    /* L is module-private, so its English comes from the SOURCE, not from a copy in this file */
+    const src = fs.readFileSync(require('path').join(__dirname, '..', 'mini tools', 'line-plot-activity.js'), 'utf8');
+    const lStart = src.indexOf('var L = {');
+    const enStart = src.indexOf('en: {', lStart);
+    const enEnd = src.indexOf('\n    },', enStart);
+    const lEn = {};
+    src.slice(enStart, enEnd).split('\n').forEach(line => {
+      const m = line.match(/^\s{6}(\w+):\s*'(.*)',?\s*$/);
+      if (m) lEn[m[1]] = m[2];
+    });
+    note(Object.keys(lEn).length === 10, `sv: parsed ${Object.keys(lEn).length} L.en keys from source, expected 10 — the second table would go unchecked`);
+
+    const sp = await browser.newPage();
+    await sp.setViewport({ width: 412, height: 900 });
+    await sp.goto(`http://127.0.0.1:${PORT}/line-plot-activity.html?lang=sv&activity=${ACTIVITY}&embed=1`, { waitUntil: 'networkidle2', timeout: 30000 });
+    await sp.waitForFunction(() => window.LinePlotActivity && window.LinePlotActivity._pool && window.LinePlotActivity._pool.length, { timeout: 15000 });
+
+    const strEn = await sp.evaluate(() => {
+      const S = window.LinePlotActivity.strings || {};
+      /* ⚠ from `en` ALONE — keying this off S[k].sv would let a MISSING Swedish string delete
+         its own assertion, which is exactly how the #16 gate marked its own homework. */
+      return Object.keys(S).filter(k => S[k] && S[k].en && S[k].sv !== S[k].en).map(k => [k, S[k].en]);
+    });
+    note(strEn.length === 8, `sv: ${strEn.length} strings-table keys differ from en, expected 8`);
+    const pairs = strEn.concat(Object.keys(lEn).map(k => [k, lEn[k]]));
+    note(pairs.length >= 17, `sv: only ${pairs.length} probes across BOTH tables — expected 18`);
+
+    const ids = await sp.evaluate(() => window.LinePlotActivity._pool.map(r => r.id));
+    note(ids.length >= 11, `sv: only ${ids.length} rounds — vacuous`);
+    const snap = () => sp.evaluate(() => ({
+      text: (document.querySelector('.lcs-app') || document.body).innerText || '',
+      aria: [...document.querySelectorAll('.lcs-app [aria-label]')].map(e => e.getAttribute('aria-label')).join(' | '),
+      sr: [...document.querySelectorAll('.tl-sronly')].map(e => e.textContent).join(' | ')
+    }));
+    let sawNudge = 0, sawWin = 0;
+    for (const rid of ids) {
+      await sp.evaluate((id) => {
+        const t = window.LinePlotActivity, n = t._pool.length, order = []; for (let i = 0; i < n; i++) order.push(i);
+        const k = t._pool.findIndex(x => x.id === id); if (k > 0) { order.splice(k, 1); order.unshift(k); }
+        t._order = order; t._orderForPool = t._pool; t._curPass = 0; window.LCS_reloadFirstTask();
+      }, rid);
+      await sp.waitForFunction(() => document.querySelector('.tl-cand'), { timeout: 5000 });
+      await sleep(50);
+      const frames = [await snap()];                                  /* the QUESTION state */
+      const ans = await sp.evaluate((id) => {
+        const t = window.LinePlotActivity, r = t._pool.find(x => x.id === id);
+        return window.LinePlotCore.oracle(r);
+      }, rid);
+      /* a WRONG tap first — nPlot/nRead render ONLY here */
+      const wrong = await sp.evaluate((a) => {
+        const b = [...document.querySelectorAll('.tl-cand')].find(x => Number(x.textContent) !== a);
+        if (!b) return null; b.click(); return Number(b.textContent);
+      }, ans);
+      await sleep(70);
+      const f1 = await snap(); frames.push(f1);
+      if (f1.text !== frames[0].text) sawNudge++;
+      /* then the CORRECT tap — win/winAt/winPlot/winMode/winNum render ONLY here */
+      await sp.evaluate((a) => {
+        const b = [...document.querySelectorAll('.tl-cand')].find(x => Number(x.textContent) === a);
+        if (b) b.click();
+      }, ans);
+      await sleep(90);
+      const f2 = await snap(); frames.push(f2);
+      if (f2.text !== f1.text) sawWin++;
+      note(wrong !== null, `sv/${rid}: no wrong option to tap — the nudge state is unreachable`);
+      const hay = frames.map(f => f.text + ' | ' + f.aria + ' | ' + f.sr).join(' | ');
+      note(hay.trim().length > 0, `sv/${rid}: nothing rendered — vacuous`);
+      for (const [key, enVal] of pairs) {
+        const segs = String(enVal).split(/\{[^}]*\}/).map(s => s.replace(/\s+/g, ' ').trim()).filter(s => s.length >= 6);
+        if (!segs.length) continue;
+        const probe = segs.sort((a, b) => b.length - a.length)[0];
+        note(hay.indexOf(probe) === -1, `sv/${rid}: the ENGLISH '${key}' reached the child — "${probe}"`);
+      }
+      for (const frag of ['shells', 'shell', 'Choices', 'the answer is', 'most common']) {
+        note(hay.indexOf(frag) === -1, `sv/${rid}: an English fragment reached the child — "${frag}"`);
+      }
+    }
+    note(sawNudge >= 8, `sv: only ${sawNudge} rounds changed after a WRONG tap — the nudge strings (nPlot/nRead) are unchecked`);
+    note(sawWin >= 8, `sv: only ${sawWin} rounds changed after a CORRECT tap — the win strings are unchecked`);
+    const bad = fails.length - svAt;
+    console.log(bad ? `  FAIL line-plot/sv — ${bad} English leak(s)` : `  ok   line-plot/sv — no English in text, aria or sr across ${ids.length} rounds x 3 states`);
+    await sp.close();
+  } catch (e) { fails.push('line-plot/sv: ' + e.message); console.log(`  FAIL line-plot/sv — ${e.message}`); }
+
   await browser.close();
   server.close();
   console.log('');

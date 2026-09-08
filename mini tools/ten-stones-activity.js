@@ -29,8 +29,13 @@
   var WORDS_IT = ['zero', 'uno', 'due', 'tre', 'quattro', 'cinque', 'sei', 'sette', 'otto', 'nove', 'dieci', 'undici', 'dodici', 'tredici', 'quattordici', 'quindici', 'sedici', 'diciassette', 'diciotto', 'diciannove', 'venti'];
   /* nl — getalwoorden 0-20 voor de aria-labels/TTS (1='één' met accenten forceert de telwoordlezing i.p.v. lidwoord "een"; let op veertien/zestien/achttien). */
   var WORDS_NL = ['nul', 'één', 'twee', 'drie', 'vier', 'vijf', 'zes', 'zeven', 'acht', 'negen', 'tien', 'elf', 'twaalf', 'dertien', 'veertien', 'vijftien', 'zestien', 'zeventien', 'achttien', 'negentien', 'twintig'];
+  /* sv — sifferord 0–20 för aria-etiketter/TTS.
+     ⚠ 1 = 'ett' (den fristående räkneformen), INTE 'en' — the exact analogue of German
+     eins/ein, and every call site here is absolute. 18 = 'arton' (not the archaic
+     'aderton'), 20 = 'tjugo' (not 'tjugu'). */
+  var WORDS_SV = ['noll', 'ett', 'två', 'tre', 'fyra', 'fem', 'sex', 'sju', 'åtta', 'nio', 'tio', 'elva', 'tolv', 'tretton', 'fjorton', 'femton', 'sexton', 'sjutton', 'arton', 'nitton', 'tjugo'];
   var LANG = 'en';
-  function numWord(n) { return (LANG === 'de' ? WORDS_DE : LANG === 'fr' ? WORDS_FR : LANG === 'es' ? WORDS_ES : LANG === 'pt' ? WORDS_PT : LANG === 'it' ? WORDS_IT : LANG === 'nl' ? WORDS_NL : WORDS)[n]; }
+  function numWord(n) { return (LANG === 'de' ? WORDS_DE : LANG === 'fr' ? WORDS_FR : LANG === 'es' ? WORDS_ES : LANG === 'pt' ? WORDS_PT : LANG === 'it' ? WORDS_IT : LANG === 'nl' ? WORDS_NL : LANG === 'sv' ? WORDS_SV : WORDS)[n]; }
   function cap(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
   /* aria-labels that were hardcoded English in every locale. The spinner pair matters most:
      the buttons are bare − and + glyphs, so this is a speech user's ONLY signal for which
@@ -38,8 +43,11 @@
      before — no regression, pending their own panels. */
   var ARIA = {
     line: { en: 'a number line from 0 to 20', sv: 'en tallinje från 0 till 20' },
-    less: { en: 'less', sv: 'ett mindre' },
-    more: { en: 'more', sv: 'ett till' }
+    /* ⚠ sv names the ACTION and the step, not a comparative. Strict `less`/`more` parity in
+       Swedish would be `färre`/`fler` (the countable pair) — never `mindre`/`mer`, which are
+       the mass-noun forms and read as "smaller"/"more of it" on a spinner that moves by one. */
+    less: { en: 'less', sv: 'minska med ett' },
+    more: { en: 'more', sv: 'öka med ett' }
   };
   function aria(k) { return (ARIA[k] && (ARIA[k][LANG] || ARIA[k].en)) || ''; }
   function speak(text, rate) {
@@ -68,22 +76,22 @@
          elkaar): wisselsom (anchor) ≠ omkeersom (relation); bijna-dubbel (equiv); "het tiental
          vol maken"; "vriendjes van tien"; de (gouden) tiensteen. Kikker = Ties (hernoemd van
          "Lily" = lelie/waterlelie, botst met #3 Hoppers). Kikkersprong = "hup". */
-      title: { en: "Lily's Ten Stones", de: 'Lilys Zehner-Steine', fr: 'Les nénuphars de Lily', es: 'Las piedras del diez de Lily', pt: 'As pedras do dez da Lily', it: 'I sassi del dieci di Lily', nl: "Ties' tienstenen" },
-      instruction: { en: '', de: '', pt: '', it: '', nl: '' },
-      prompt: { en: 'Help Lily cross.', de: 'Hilf Lily hinüber!', fr: 'Aide Lily à traverser.', es: 'Ayuda a Lily a cruzar.', pt: 'Ajude a Lily a atravessar.', it: 'Aiuta Lily ad attraversare.', nl: 'Help Ties oversteken.' },
-      hop: { en: 'Hop! 🐸', de: 'Hüpf! 🐸', fr: 'Saute ! 🐸', es: '¡Brinca! 🐸', pt: 'Pula! 🐸', it: 'Salta! 🐸', nl: 'Hup! 🐸' },
-      yes: { en: 'Yes — rest on the stone', de: 'Ja – auf dem Stein rasten', fr: 'Oui — se poser sur le nénuphar', es: 'Sí, descansa en la piedra', pt: 'Sim — descanse na pedra', it: 'Sì — riposa sul sasso', nl: 'Ja – rust op de steen' }, no: { en: 'No — hop straight there', de: 'Nein – direkt hinüber', fr: 'Non — sauter tout droit', es: 'No, brinca directo', pt: 'Não — pule direto', it: 'No — salta dritto fin lì', nl: 'Nee – hup er meteen heen' },
-      stand: { en: 'Stand on', de: 'Stell dich auf', fr: 'Place-toi sur', es: 'Párate en el', pt: 'Fique no', it: 'Mettiti sul', nl: 'Ga op' },
-      sayWelcome: { en: 'Help me cross the pond — make a ten on the golden stone!', de: 'Hilf mir über den Teich – mach auf dem goldenen Stein den Zehner voll!', fr: 'Aide-moi à traverser la mare — passe par le nénuphar du dix !', es: '¡Ayúdame a cruzar el estanque: forma un diez en la piedra dorada!', pt: 'Me ajuda a atravessar a lagoa — faça um dez na pedra dourada!', it: 'Aiutami ad attraversare lo stagno — fai un dieci sul sasso dorato!', nl: 'Help me de vijver over – maak het tiental vol op de gouden steen!' },
-      sayWin: { en: 'We made it across! 🌸', de: 'Wir sind drüben! 🌸', fr: 'On est de l\'autre côté ! 🌸', es: '¡Llegamos al otro lado! 🌸', pt: 'Conseguimos atravessar! 🌸', it: 'Ce l\'abbiamo fatta ad attraversare! 🌸', nl: 'We zijn aan de overkant! 🌸' },
-      sayOnStone: { en: 'On the Ten Stone! Now hop the rest.', de: 'Auf dem Zehner-Stein! Jetzt hüpf den Rest.', fr: 'Sur le nénuphar du dix ! Maintenant, saute le reste.', es: '¡En la piedra del diez! Ahora brinca lo que falta.', pt: 'Na pedra do dez! Agora pule o resto.', it: 'Sul sasso del dieci! Ora salta il resto.', nl: 'Op de tiensteen! Hup nu de rest.' },
-      sayWrongTen: { en: 'That misses the golden stone — how many to make ten?', de: 'Das verfehlt den goldenen Stein – wie viele bis zum Zehner?', fr: 'Ça rate le nénuphar doré — combien pour arriver à 10 ?', es: 'Así te saltas la piedra dorada. ¿Cuánto falta para formar diez?', pt: 'Assim não chega na pedra dourada — quantos faltam para o dez?', it: 'Così non arrivi al sasso dorato — quanti ne mancano per fare dieci?', nl: 'Zo mis je de gouden steen – hoeveel erbij om het tiental vol te maken?' },
-      sayWrongRest: { en: 'Not quite the rest — how many more to land?', de: 'Noch nicht ganz der Rest – wie viele noch bis ans Ziel?', fr: 'Pas tout à fait le reste — combien encore pour arriver ?', es: 'Todavía no es lo que falta. ¿Cuántos más para llegar?', pt: 'Ainda falta um pouco — quantos faltam para chegar?', it: 'Non è ancora il resto giusto — quanti ne mancano per arrivare?', nl: 'Net niet de rest – hoeveel erbij om te landen?' },
-      sayAgain: { en: "Let's look again.", de: 'Schauen wir noch mal.', fr: 'Regardons encore.', es: 'Vamos a mirar otra vez.', pt: 'Vamos olhar de novo.', it: 'Guardiamo di nuovo.', nl: 'We kijken nog eens.' },
-      sayRelation: { en: 'The same stones, backward! 🌸', de: 'Die gleichen Steine, rückwärts! 🌸', fr: 'Les mêmes nénuphars, à l\'envers ! 🌸', es: '¡Las mismas piedras, al revés! 🌸', pt: 'As mesmas pedras, ao contrário! 🌸', it: 'Gli stessi sassi, all\'indietro! 🌸', nl: 'Dezelfde stenen, terug! 🌸' },
-      relYes: { en: 'Yes — same stones! 🌸', de: 'Ja – die gleichen Steine! 🌸', fr: 'Oui — les mêmes nénuphars ! 🌸', es: '¡Sí, las mismas piedras! 🌸', pt: 'Sim — as mesmas pedras! 🌸', it: 'Sì — gli stessi sassi! 🌸', nl: 'Ja – dezelfde stenen! 🌸' },
-      hintCheck: { en: 'Make a ten on the golden stone first, then hop the rest.', de: 'Mach erst auf dem goldenen Stein den Zehner voll, dann hüpf den Rest.', fr: 'Passe d\'abord par le nénuphar doré du dix, puis saute le reste.', es: 'Primero forma un diez en la piedra dorada y luego brinca lo que falta.', pt: 'Primeiro faça um dez na pedra dourada, depois pule o resto.', it: 'Prima fai un dieci sul sasso dorato, poi salta il resto.', nl: 'Maak eerst het tiental vol op de gouden steen, hup dan de rest.' },
-      sayWinSpoken: { en: 'We made it!', de: 'Geschafft!', fr: 'On a réussi !', es: '¡Lo logramos!', pt: 'Conseguimos!', it: 'Ce l\'abbiamo fatta!', nl: 'Gelukt!' }
+      title: { en: "Lily's Ten Stones", de: 'Lilys Zehner-Steine', fr: 'Les nénuphars de Lily', es: 'Las piedras del diez de Lily', pt: 'As pedras do dez da Lily', it: 'I sassi del dieci di Lily', nl: "Ties' tienstenen", sv: 'Lilys guldsten' },
+      instruction: { en: '', de: '', pt: '', it: '', nl: '', sv: '' },
+      prompt: { en: 'Help Lily cross.', de: 'Hilf Lily hinüber!', fr: 'Aide Lily à traverser.', es: 'Ayuda a Lily a cruzar.', pt: 'Ajude a Lily a atravessar.', it: 'Aiuta Lily ad attraversare.', nl: 'Help Ties oversteken.', sv: 'Hjälp Lily över dammen.' },
+      hop: { en: 'Hop! 🐸', de: 'Hüpf! 🐸', fr: 'Saute ! 🐸', es: '¡Brinca! 🐸', pt: 'Pula! 🐸', it: 'Salta! 🐸', nl: 'Hup! 🐸', sv: 'Hoppa! 🐸' },
+      yes: { en: 'Yes — rest on the stone', de: 'Ja – auf dem Stein rasten', fr: 'Oui — se poser sur le nénuphar', es: 'Sí, descansa en la piedra', pt: 'Sim — descanse na pedra', it: 'Sì — riposa sul sasso', nl: 'Ja – rust op de steen', sv: 'Ja – vila på guldstenen' }, no: { en: 'No — hop straight there', de: 'Nein – direkt hinüber', fr: 'Non — sauter tout droit', es: 'No, brinca directo', pt: 'Não — pule direto', it: 'No — salta dritto fin lì', nl: 'Nee – hup er meteen heen', sv: 'Nej – hoppa raka vägen' },
+      stand: { en: 'Stand on', de: 'Stell dich auf', fr: 'Place-toi sur', es: 'Párate en el', pt: 'Fique no', it: 'Mettiti sul', nl: 'Ga op', sv: 'Ställ dig på talet' },
+      sayWelcome: { en: 'Help me cross the pond — make a ten on the golden stone!', de: 'Hilf mir über den Teich – mach auf dem goldenen Stein den Zehner voll!', fr: 'Aide-moi à traverser la mare — passe par le nénuphar du dix !', es: '¡Ayúdame a cruzar el estanque: forma un diez en la piedra dorada!', pt: 'Me ajuda a atravessar a lagoa — faça um dez na pedra dourada!', it: 'Aiutami ad attraversare lo stagno — fai un dieci sul sasso dorato!', nl: 'Help me de vijver over – maak het tiental vol op de gouden steen!', sv: 'Hjälp mig över dammen – gör tio på guldstenen!' },
+      sayWin: { en: 'We made it across! 🌸', de: 'Wir sind drüben! 🌸', fr: 'On est de l\'autre côté ! 🌸', es: '¡Llegamos al otro lado! 🌸', pt: 'Conseguimos atravessar! 🌸', it: 'Ce l\'abbiamo fatta ad attraversare! 🌸', nl: 'We zijn aan de overkant! 🌸', sv: 'Vi är framme! 🌸' },
+      sayOnStone: { en: 'On the Ten Stone! Now hop the rest.', de: 'Auf dem Zehner-Stein! Jetzt hüpf den Rest.', fr: 'Sur le nénuphar du dix ! Maintenant, saute le reste.', es: '¡En la piedra del diez! Ahora brinca lo que falta.', pt: 'Na pedra do dez! Agora pule o resto.', it: 'Sul sasso del dieci! Ora salta il resto.', nl: 'Op de tiensteen! Hup nu de rest.', sv: 'På guldstenen! Hoppa nu resten.' },
+      sayWrongTen: { en: 'That misses the golden stone — how many to make ten?', de: 'Das verfehlt den goldenen Stein – wie viele bis zum Zehner?', fr: 'Ça rate le nénuphar doré — combien pour arriver à 10 ?', es: 'Así te saltas la piedra dorada. ¿Cuánto falta para formar diez?', pt: 'Assim não chega na pedra dourada — quantos faltam para o dez?', it: 'Così non arrivi al sasso dorato — quanti ne mancano per fare dieci?', nl: 'Zo mis je de gouden steen – hoeveel erbij om het tiental vol te maken?', sv: 'Då missar du guldstenen – hur långt är det till tio?' },
+      sayWrongRest: { en: 'Not quite the rest — how many more to land?', de: 'Noch nicht ganz der Rest – wie viele noch bis ans Ziel?', fr: 'Pas tout à fait le reste — combien encore pour arriver ?', es: 'Todavía no es lo que falta. ¿Cuántos más para llegar?', pt: 'Ainda falta um pouco — quantos faltam para chegar?', it: 'Non è ancora il resto giusto — quanti ne mancano per arrivare?', nl: 'Net niet de rest – hoeveel erbij om te landen?', sv: 'Det är inte riktigt resten – hur långt är det kvar?' },
+      sayAgain: { en: "Let's look again.", de: 'Schauen wir noch mal.', fr: 'Regardons encore.', es: 'Vamos a mirar otra vez.', pt: 'Vamos olhar de novo.', it: 'Guardiamo di nuovo.', nl: 'We kijken nog eens.', sv: 'Vi tittar en gång till.' },
+      sayRelation: { en: 'The same stones, backward! 🌸', de: 'Die gleichen Steine, rückwärts! 🌸', fr: 'Les mêmes nénuphars, à l\'envers ! 🌸', es: '¡Las mismas piedras, al revés! 🌸', pt: 'As mesmas pedras, ao contrário! 🌸', it: 'Gli stessi sassi, all\'indietro! 🌸', nl: 'Dezelfde stenen, terug! 🌸', sv: 'Samma stenar, baklänges! 🌸' },
+      relYes: { en: 'Yes — same stones! 🌸', de: 'Ja – die gleichen Steine! 🌸', fr: 'Oui — les mêmes nénuphars ! 🌸', es: '¡Sí, las mismas piedras! 🌸', pt: 'Sim — as mesmas pedras! 🌸', it: 'Sì — gli stessi sassi! 🌸', nl: 'Ja – dezelfde stenen! 🌸', sv: 'Ja – samma stenar! 🌸' },
+      hintCheck: { en: 'Make a ten on the golden stone first, then hop the rest.', de: 'Mach erst auf dem goldenen Stein den Zehner voll, dann hüpf den Rest.', fr: 'Passe d\'abord par le nénuphar doré du dix, puis saute le reste.', es: 'Primero forma un diez en la piedra dorada y luego brinca lo que falta.', pt: 'Primeiro faça um dez na pedra dourada, depois pule o resto.', it: 'Prima fai un dieci sul sasso dorato, poi salta il resto.', nl: 'Maak eerst het tiental vol op de gouden steen, hup dan de rest.', sv: 'Gör först tio på guldstenen, hoppa sedan resten.' },
+      sayWinSpoken: { en: 'We made it!', de: 'Geschafft!', fr: 'On a réussi !', es: '¡Lo logramos!', pt: 'Conseguimos!', it: 'Ce l\'abbiamo fatta!', nl: 'Gelukt!', sv: 'Vi klarade det!' }
     },
     defaults: {},
 
@@ -156,7 +164,7 @@
          on screen and spoke "equals undefined" the moment the child got it right. The
          data is fixed too; this stops a future round reintroducing it. */
       var ans = (this.solved && r.target != null) ? r.target : '?';
-      var eqWord = LANG === 'fr' ? ' égale ' : LANG === 'de' ? ' ist ' : LANG === 'es' ? ' es ' : LANG === 'pt' ? ' é igual a ' : LANG === 'it' ? ' fa ' : LANG === 'nl' ? ' is ' : ' equals ';
+      var eqWord = LANG === 'fr' ? ' égale ' : LANG === 'de' ? ' ist ' : LANG === 'es' ? ' es ' : LANG === 'pt' ? ' é igual a ' : LANG === 'it' ? ' fa ' : LANG === 'nl' ? ' is ' : LANG === 'sv' ? ' är ' : ' equals ';
       /* ⚠ fr/es/pt were getting the ENGLISH "minus", and es/pt the English "plus".
          sv deliberately has NO branch: plus/minus ARE the Swedish words, so the generic
          fallback is accidentally correct — which is precisely how this class survives

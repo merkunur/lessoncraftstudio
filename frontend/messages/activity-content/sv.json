@@ -1740,6 +1740,30 @@
         "Barnet läser båda visarna och kan skilja 3:00 från 3:30",
         "Barnet vet att halv fyra skrivs 3:30 — ett steg mot kvart över, kvart i och tider på fem minuter"
       ]
+    },
+    "ten-stones.add-sub-within-20.1-oa-c-6": {
+      "about": [
+        "Grodan Lily ska ta sig fram längs en tallinje från 0 till 20, och vid tian ligger en guldsten som hon får stanna på. För 8 + 6 bestämmer barnet först hur långt det är fram till guldstenen — 8 + 2 = 10 — och sedan hur mycket som är kvar: 10 + 4 = 14. Vid 13 − 4 går det åt andra hållet: tillbaka till tian först, och sedan vidare ner till 9. Det är en interaktiv matteaktivitet för årskurs 1 som körs direkt i webbläsaren på surfplatta, telefon eller klassrumsdator — utan installation och utan konto.",
+        "Barnet bestämmer själv hur långt varje hopp ska vara med knapparna − och + och trycker sedan på hoppknappen. Svaret syns inte förrän Lily har landat, så det går inte att läsa av facit och hoppa efteråt — barnet måste bygga uppdelningen först. Den stora idén är att göra ett svårt tal till två lätta genom att stanna till på tian: det barnet mötte som tiokompisar i förskoleklassen blir här ett steg mitt inne i en uträkning.",
+        "Alla elva uppgifter handlar inte om att räkna ut. I några frågar Lily om hon behöver stanna på guldstenen alls — 6 + 3 stannar ju före tian, och då är svaret nej. I andra ska barnet välja vilket av talen hon ska ställa sig på för att ha kortast väg till tian, alltså börja med det största talet. En uppgift handlar om dubblor: 7 + 7 är 14, och 7 + 8 är ett mer. Och i en uppgift visas samma hopp baklänges — 8 + 6 = 14 och 14 − 6 = 8 — så att sambandet mellan addition och subtraktion blir synligt. Uppgifterna blandas om till en ny ordning varje gång.",
+        "Aktiviteten följer Lgr22 inom taluppfattning och algebra: hur tal kan delas upp i mindre delar, metoder för addition och subtraktion i huvudräkning, och likheter. Den här övningen passar årskurs 1, när tiotalsövergången inom 20 kommer in efter att tiokompisarna sitter — ligger den fortfarande framför er är förskoleklassens Gör 10 en mjukare start, och inom 100 väntar i årskurs 2. Ingen timer, inga poäng — bara lugn, lekfull träning."
+      ],
+      "practices": [
+        "Fylla upp till tian först och räkna resten sedan (8 + 2 = 10, sedan 10 + 4 = 14)",
+        "Dela upp talet åt andra hållet vid subtraktion: 13 − 3 = 10, sedan 10 − 1 = 9",
+        "Avgöra om uträkningen alls passerar tian, och börja med det största talet",
+        "Använda dubblor och sambandet mellan addition och subtraktion som genvägar"
+      ],
+      "howToPlay": [
+        "Titta på uppgiften, till exempel 8 + 6, och räkna ut hur långt det är fram till guldstenen vid tian.",
+        "Ställ in hoppet med knapparna − och + och tryck sedan på hoppknappen — först fram till tian, och sedan resten av vägen. Svaret dyker upp när Lily har landat.",
+        "Blev det inte rätt? Ställ in ett nytt hopp och prova igen så många gånger du vill — det finns ingen timer och inga poäng."
+      ],
+      "learningGoals": [
+        "Barnet kan addera och subtrahera inom 20 genom att gå via tian i stället för att räkna ett steg i taget",
+        "Barnet ser tian som en plats att stanna på och delar upp talet efter hur långt det är dit",
+        "Barnet känner igen sambandet mellan addition och subtraktion — samma hopp åt andra hållet"
+      ]
     }
   }
 }

@@ -117,6 +117,63 @@ function serve() {
     console.log(`  FAIL tally-squirrel/en — ${e.message}`);
   } finally { await page.close(); }
 
+  /* ---- sv: no English may reach text, aria-labels or speech ----------------------- */
+  const svFailsAt = fails.length;
+  const svPage = await browser.newPage();
+  await svPage.setViewport({ width: 412, height: 900 });
+  try {
+    await svPage.goto(`http://127.0.0.1:${PORT}/tally-squirrel-activity.html?lang=sv&activity=${ACTIVITY}&embed=1`, { waitUntil: 'networkidle2', timeout: 30000 });
+    /* record every spoken string — the half-English line never appears on screen */
+    await svPage.evaluate(() => { window.__spoke = []; const o = window.LCSAudio && window.LCSAudio.speak; if (o) window.LCSAudio.speak = function (opts) { window.__spoke.push(opts && opts.text); return o.apply(this, arguments); }; });
+    await svPage.waitForFunction(() => { const a = window.TallySquirrelActivity; return a && a._activityRow && document.querySelector('.tsq-root'); }, { timeout: 15000 });
+    note(await svPage.evaluate(() => typeof window.__spoke !== 'undefined'), 'sv: the speak recorder did not install — the speech channel would be unchecked');
+
+    const pairs = await svPage.evaluate(() => {
+      const S = window.TallySquirrelActivity.strings || {};
+      return Object.keys(S).filter(k => S[k] && S[k].en && S[k].sv && S[k].en !== S[k].sv).map(k => [k, S[k].en]);
+    });
+    note(pairs.length >= 4, `sv: only ${pairs.length} string keys differ from en — the leak check would be near-vacuous`);
+
+    const nRounds = await svPage.evaluate(() => window.TallySquirrelActivity._pool.length);
+    note(nRounds >= 9, `sv: only ${nRounds} rounds in the pool — vacuous`);
+    for (let idx = 0; idx < nRounds; idx++) {
+      await svPage.evaluate((k) => {
+        const a = window.TallySquirrelActivity, n = a._pool.length, o = []; for (let i = 0; i < n; i++) o.push(i);
+        const at = o.indexOf(k); if (at > 0) { o.splice(at, 1); o.unshift(k); }
+        a._order = o; a._orderForPool = a._pool; a._curPass = 0; window.__spoke = []; window.LCS_reloadFirstTask();
+      }, idx);
+      await svPage.waitForFunction(() => window.TallySquirrelActivity.round, { timeout: 4000 });
+      await sleep(60);
+      /* press the read-aloud button — this is the ONLY way the spoken line is produced */
+      await svPage.evaluate(() => { const b = document.querySelector('.tsq-read'); if (b) b.click(); });
+      await sleep(90);
+      const seen = await svPage.evaluate(() => ({
+        text: (document.querySelector('.lcs-app') || document.body).innerText || '',
+        aria: [...document.querySelectorAll('.lcs-app [aria-label]')].map(e => e.getAttribute('aria-label')).join(' | '),
+        spoke: (window.__spoke || []).join(' | ')
+      }));
+      note(seen.text.trim().length > 0, `sv/r${idx}: nothing rendered — vacuous`);
+      note(seen.spoke.length > 0, `sv/r${idx}: the read-aloud button produced NO speech — the channel that matters here is unchecked`);
+      const hay = seen.text + ' | ' + seen.aria + ' | ' + seen.spoke;
+      for (const [key, enVal] of pairs) {
+        const probe = String(enVal).replace(/[^A-Za-z ]/g, ' ').trim().split(/\s+/).filter(w => w.length > 3).slice(0, 3).join(' ');
+        if (probe.length < 5) continue;
+        note(hay.indexOf(probe) === -1, `sv/r${idx}: the ENGLISH '${key}' reached the child — found "${probe}"`);
+      }
+      /* fragments only the three LANG chains can produce, none of which is in the strings table */
+      for (const frag of ['the squirrel', 'How many', 'in all']) {
+        note(hay.indexOf(frag) === -1, `sv/r${idx}: an English code fragment reached the child — "${frag}"`);
+      }
+    }
+    const svBad = fails.length - svFailsAt;
+    console.log(svBad
+      ? `  FAIL tally-squirrel/sv — ${svBad} English leak(s) across ${nRounds} rounds`
+      : `  ok   tally-squirrel/sv — no English reached text, aria or speech across ${nRounds} rounds`);
+  } catch (e) {
+    fails.push('tally-squirrel/sv: ' + e.message);
+    console.log(`  FAIL tally-squirrel/sv — ${e.message}`);
+  } finally { await svPage.close(); }
+
   await browser.close();
   server.close();
   console.log('');

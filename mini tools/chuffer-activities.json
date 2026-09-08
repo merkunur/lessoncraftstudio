@@ -118,13 +118,13 @@
       "nl": "Getallen splitsen tot 10: alle splitsingen oefenen – groep 3 | Tuf"
     },
     "page_intro": {
-      "en": "A free interactive Kindergarten math game: you're the switchman at Chuffer's railway yard! A load of crates rolls in and the track forks into two cars. Split the crates between the cars, read each car, say the split (5 = 2 + 3!), and pull the coupler — then find EVERY different way to share the load. Breaking a number into two parts in more than one way is the heart of Common Core K.OA.A.3.",
-      "de": "Zahlzerlegung bis 10 üben: Zahlen in Teilmengen zerlegen auf Chuffers Rangierbahnhof – Schritt für Schritt. Kostenlos online, ohne Anmeldung.",
-      "fr": "Travailler la décomposition des nombres jusqu'à 10 : séparer un nombre en deux parties à la gare de triage. Gratuit, en ligne, sans inscription.",
-      "es": "Descompón números hasta 10 en dos partes con Chuffer: juego gratis, interactivo y sin registro, alineado a los Planes y programas de estudio (SEP), preescolar.",
-      "pt": "Decompor números até 10 de forma divertida: no pátio do trenzinho Chuffer a criança separa as caixas em dois vagões e descobre o todo e as partes. Grátis, sem cadastro, alinhado à BNCC — 1º ano.",
-      "it": "Il trenino Chuffer è allo scalo di smistamento e arriva una carica di casse da dividere tra il vagone azzurro e il vagone rosso. Il bambino sposta le casse, dice ogni modo ad alta voce — «5 è 2 e 3» — e tira il gancio per registrarlo nel quaderno di viaggio. L’obiettivo è trovare tutti i modi: un numero si scompone in molti modi e resta lo stesso (il tutto e le parti), scoprendo gli amici del dieci. Attività gratuita e interattiva, senza registrazione e senza timer. Pensata per la classe prima e allineata alle Indicazioni nazionali.",
-      "nl": "Verdeel de kisten over twee wagons, zeg de splitsing hardop (\"5 is 2 en 3\"), trek aan de koppeling en vind ELKE manier om de lading te verdelen. Zo ontdek je dat je één getal op veel manieren kunt splitsen — en dat het steeds dezelfde 5 blijft: deel-deel-geheel. Gratis, interactief en zonder klok of score."
+      "en": "An interactive Kindergarten math game: you're the switchman at Chuffer's railway yard! A load of crates rolls in and the track forks into two cars. Split the crates between the cars, read each car, say the split (5 = 2 + 3!), and pull the coupler — then find EVERY different way to share the load. Breaking a number into two parts in more than one way is the heart of Common Core K.OA.A.3.",
+      "de": "Zahlzerlegung bis 10 üben: Zahlen in Teilmengen zerlegen auf Chuffers Rangierbahnhof – Schritt für Schritt. Online, ohne Anmeldung.",
+      "fr": "Travailler la décomposition des nombres jusqu'à 10 : séparer un nombre en deux parties à la gare de triage. En ligne, sans inscription.",
+      "es": "Descompón números hasta 10 en dos partes con Chuffer: juego interactivo y sin registro, alineado a los Planes y programas de estudio (SEP), preescolar.",
+      "pt": "Decompor números até 10 de forma divertida: no pátio do trenzinho Chuffer a criança separa as caixas em dois vagões e descobre o todo e as partes. Sem cadastro, alinhado à BNCC — 1º ano.",
+      "it": "Il trenino Chuffer è allo scalo di smistamento e arriva una carica di casse da dividere tra il vagone azzurro e il vagone rosso. Il bambino sposta le casse, dice ogni modo ad alta voce — «5 è 2 e 3» — e tira il gancio per registrarlo nel quaderno di viaggio. L’obiettivo è trovare tutti i modi: un numero si scompone in molti modi e resta lo stesso (il tutto e le parti), scoprendo gli amici del dieci. Attività interattiva, senza registrazione e senza timer. Pensata per la classe prima e allineata alle Indicazioni nazionali.",
+      "nl": "Verdeel de kisten over twee wagons, zeg de splitsing hardop (\"5 is 2 en 3\"), trek aan de koppeling en vind ELKE manier om de lading te verdelen. Zo ontdek je dat je één getal op veel manieren kunt splitsen — en dat het steeds dezelfde 5 blijft: deel-deel-geheel. Interactief en zonder klok of score."
     },
     "kid_prompt_template": "rail-decompose"
   }

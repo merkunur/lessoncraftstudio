@@ -632,12 +632,12 @@
     },
     "page_intro": {
       "en": "Atlas the armadillo keeps a file full of real facts! Read his two-sentence fact, then answer the question by tapping the key detail you found — who, what, where, or how many. A Kindergarten reading game about finding key details in an informational (fact) text, aligned to Common Core RI.K.1.",
-      "de": "Leseverstehen in der Grundschule: kurze Sachtexte lesen und wichtige Details finden. Kostenlos online üben, ohne Anmeldung – ab Klasse 1.",
-      "fr": "Lecture au CP : lire un petit texte documentaire avec Atlas et retrouver les détails clés. Gratuit, en ligne, sans inscription.",
-      "es": "Lee un texto corto y toca la respuesta: preguntas de qué, dónde y cuántos. Comprensión lectora para 1.º de primaria, gratis, en línea y sin registro.",
-      "pt": "Com o tatu Atlas, a criança lê um textinho de duas frases e toca na resposta da pergunta, achando a informação no próprio texto. Uma atividade de compreensão de leitura, com áudio para ouvir o texto. Grátis, sem cadastro. Alinhada à BNCC, 1º ano.",
-      "it": "Con l’armadillo Atlas i bambini leggono un breve testo informativo, poi toccano la risposta giusta a una domanda su un dettaglio importante del testo: un’attività di comprensione semplice e guidata, gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima.",
-      "nl": "Begrijpend lezen oefenen voor groep 3: lees met Atlas het gordeldier een kort tekstje en tik het antwoord op de vraag aan. Het antwoord staat gewoon in de tekst. Gratis en interactief. Volgens de SLO-kerndoelen."
+      "de": "Leseverstehen in der Grundschule: kurze Sachtexte lesen und wichtige Details finden. Online üben, ohne Anmeldung – ab Klasse 1.",
+      "fr": "Lecture au CP : lire un petit texte documentaire avec Atlas et retrouver les détails clés. En ligne, sans inscription.",
+      "es": "Lee un texto corto y toca la respuesta: preguntas de qué, dónde y cuántos. Comprensión lectora para 1.º de primariaen línea y sin registro.",
+      "pt": "Com o tatu Atlas, a criança lê um textinho de duas frases e toca na resposta da pergunta, achando a informação no próprio texto. Uma atividade de compreensão de leitura, com áudio para ouvir o texto. Sem cadastro. Alinhada à BNCC, 1º ano.",
+      "it": "Con l’armadillo Atlas i bambini leggono un breve testo informativo, poi toccano la risposta giusta a una domanda su un dettaglio importante del testo: un’attività di comprensione semplice e guidatasenza registrazione, allineata alle Indicazioni nazionali per la classe prima.",
+      "nl": "Begrijpend lezen oefenen voor groep 3: lees met Atlas het gordeldier een kort tekstje en tik het antwoord op de vraag aan. Het antwoord staat gewoon in de tekst. Interactief. Volgens de SLO-kerndoelen."
     },
     "kid_prompt_template": "Read the facts, then tap the answer to the question."
   }

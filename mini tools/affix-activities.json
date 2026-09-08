@@ -165,13 +165,13 @@
       "nl": "Marigolds Woordmachine: voor- en achtervoegsels – Groep 4"
     },
     "page_intro": {
-      "en": "A free interactive Grade 2 reading activity: help Marigold the mole work out what a new word means when a prefix or suffix is added. Drop the un-, re-, -ful, or -less cog into the Knowing Machine and read the new word — then tap what it means. A clear, friendly way to learn how prefixes and suffixes change a word's meaning. Common Core L.2.4.b and L.2.4.c.",
-      "de": "Mit Marigold un-, -voll und -los entdecken: Dein Kind verändert mit Vorsilben und Nachsilben die Wortbedeutung. Kostenlos, interaktiv üben – Deutsch Klasse 2.",
-      "fr": "Avec Marigold la taupe, découvrez comment les préfixes et suffixes (re-, dé-, -eux) changent le sens des mots. Activité gratuite et interactive, niveau CE1.",
-      "es": "Con Marigold y su máquina de engranes, tu peque descubre cómo los prefijos y sufijos cambian el significado de las palabras: des- es lo contrario, re- es otra vez y -oso es lleno de. Actividad interactiva y gratuita de formación de palabras para 2.º de primaria, alineada a los Planes y programas de estudio (SEP).",
+      "en": "An interactive Grade 2 reading activity: help Marigold the mole work out what a new word means when a prefix or suffix is added. Drop the un-, re-, -ful, or -less cog into the Knowing Machine and read the new word — then tap what it means. A clear, friendly way to learn how prefixes and suffixes change a word's meaning. Common Core L.2.4.b and L.2.4.c.",
+      "de": "Mit Marigold un-, -voll und -los entdecken: Dein Kind verändert mit Vorsilben und Nachsilben die Wortbedeutung. Interaktiv üben – Deutsch Klasse 2.",
+      "fr": "Avec Marigold la taupe, découvrez comment les préfixes et suffixes (re-, dé-, -eux) changent le sens des mots. Activité interactive, niveau CE1.",
+      "es": "Con Marigold y su máquina de engranes, tu peque descubre cómo los prefijos y sufijos cambian el significado de las palabras: des- es lo contrario, re- es otra vez y -oso es lleno de. Actividad interactiva de formación de palabras para 2.º de primaria, alineada a los Planes y programas de estudio (SEP).",
       "pt": "A Marigold, uma toupeira, tem uma máquina que cola prefixos e sufixos às palavras e muda o sentido delas. Formação de palavras para o 2º ano, no seu ritmo.",
-      "it": "Marigold la talpa ha costruito una macchina delle parole piena di ingranaggi: ogni ingranaggio è un prefisso o un suffisso. Girando gli ingranaggi, il bambino scopre come prefissi e suffissi cambiano il significato delle parole — il «contrario» con dis-, il «di nuovo» con ri-, il «pieno di» con -oso. È un'attività gratuita, senza registrazione, che si gioca direttamente nel browser, senza punteggi e senza fretta. Pensata per la classe seconda e allineata alle Indicazioni nazionali, nell'area del lessico, aiuta a collegare ogni parola nuova al suo significato.",
-      "nl": "Ontdek met Marigold on-, -vol en -loos: je kind verandert met voor- en achtervoegsels de betekenis van een woord. Gratis, interactief oefenen – Nederlands, Groep 4, aansluitend op de SLO-kerndoelen."
+      "it": "Marigold la talpa ha costruito una macchina delle parole piena di ingranaggi: ogni ingranaggio è un prefisso o un suffisso. Girando gli ingranaggi, il bambino scopre come prefissi e suffissi cambiano il significato delle parole — il «contrario» con dis-, il «di nuovo» con ri-, il «pieno di» con -oso. È un'attività senza registrazione, che si gioca direttamente nel browser, senza punteggi e senza fretta. Pensata per la classe seconda e allineata alle Indicazioni nazionali, nell'area del lessico, aiuta a collegare ogni parola nuova al suo significato.",
+      "nl": "Ontdek met Marigold on-, -vol en -loos: je kind verandert met voor- en achtervoegsels de betekenis van een woord. Interactief oefenen – Nederlands, Groep 4, aansluitend op de SLO-kerndoelen."
     },
     "kid_prompt_template": "affix"
   }

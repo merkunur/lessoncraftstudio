@@ -83,6 +83,11 @@ const FRAMEWORK_TOKEN = {
   da: 'Fælles Mål', no: 'LK20', fi: 'OPS 2014',
 };
 
+/* every locale's word for "free of charge", INCLUDING inflected forms. ⚠ \b is ASCII-only
+   and cannot match beside å/ä/ö/á — the boundaries are \p{L} lookarounds with the u flag.
+   Without the u flag \p{L} degrades to a literal "p" and this becomes substring matching. */
+const FREE_RE = /(?<!\p{L})(free|kostenlos\w*|kostenfrei\w*|umsonst|gratis|gratuit\w*|grátis|ilmais\w*|ilmain\w*|maksuton\w*|kostnadsfri\w*|vederlagsfri\w*)(?!\p{L})/iu;
+
 /* ---------- the ratchet ----------
    Pre-existing violations awaiting a native rewrite. MAY ONLY SHRINK. */
 const KNOWN_UNGATED = new Set([]);
@@ -129,6 +134,20 @@ function check(entries, frameworks) {
       for (const [re, why] of ES_WRONG_COUNTRY) if (re.test(e.s)) problems.push('cites ' + why);
     }
 
+    /* Nothing on this platform is free. Plays are metered (10/UTC day, anonymous and free
+       accounts alike — frontend/lib/quota.ts) and downloads require an account, so a
+       "free" claim on an activity landing is false. 939 fields carried one until the
+       2026-09-08 sweep; this keeps it from coming back.
+       ⚠ The FIRST version of this pattern was too narrow and under-counted by 35: German
+       inflects (kostenlose/kostenloses) and Finnish uses maksuton. A ban too narrow
+       reports a number, and the number is wrong.
+       ⚠ Scoped to ACTIVITY manifests only. The §23 premium TOOL landing files say "free"
+       truthfully and deliberately — free apparatus, paid depth — and are not read here.
+       ⚠ "no sign-up required" / "ohne Anmeldung" / "sans inscription" is TRUE and must
+       NOT be banned: anonymous visitors really can play. */
+    const free = e.s.match(FREE_RE);
+    if (free) problems.push('claims the activity is free ("' + free[0] + '") — plays are metered and downloads need an account');
+
     if (!problems.length) continue;
     if (KNOWN_UNGATED.has(key)) { waived.push(key + ' :: ' + problems.join('; ')); continue; }
     fails.push('[' + e.loc + '] ' + e.id + '.' + e.field + ' :: ' + problems.join('; '));
@@ -168,7 +187,7 @@ function main() {
     fails.forEach((m) => console.error('  • ' + m));
     process.exit(1);
   }
-  console.log('VERIFY-ACTIVITY-SERP-COPY PASSED — 0 Common-Core mentions, 0 raw CCSS codes, 0 cross-country framework citations on the search-results surface.');
+  console.log('VERIFY-ACTIVITY-SERP-COPY PASSED — 0 Common-Core mentions, 0 raw CCSS codes, 0 cross-country framework citations, 0 free-of-charge claims on the search-results surface.');
   process.exit(0);
 }
 
@@ -187,10 +206,32 @@ function selfTest() {
     ['es', 'Alineada al Currículo LOMLOE.', 'Spain framework on es-MX'],
     ['pt', 'Atividade alinhada à BNCC e ao Lgr22.', 'another locale\'s framework'],
     ['nl', 'Sluit aan bij RF.K.3.a van de SLO-kerndoelen.', 'letter-prefixed code'],
+    /* the free claim, in every shape the 939-field sweep actually found */
+    ['en', 'A free interactive Grade 2 math activity: build an array.', 'en "free"'],
+    ['de', 'Kostenlos online üben, ohne Anmeldung.', 'de "kostenlos"'],
+    ['de', 'Kostenlose, interaktive Geometrie-Übung für Klasse 1.', 'de INFLECTED "kostenlose" — the form the narrow first pattern missed'],
+    ['fr', 'Gratuit, en ligne, sans inscription.', 'fr "gratuit"'],
+    ['es', 'Actividad interactiva y gratuita para 2.º de primaria.', 'es "gratuita"'],
+    ['pt', 'Atividade grátis, sem cadastro.', 'pt "grátis"'],
+    ['it', "Un'attività gratuita e interattiva, senza registrazione.", 'it "gratuita"'],
+    ['nl', 'Gratis en interactief, afgestemd op de SLO-kerndoelen.', 'nl "gratis"'],
+    ['sv', 'Gratis interaktiv aktivitet som följer Lgr22.', 'sv "gratis"'],
+    ['da', 'Gratis aktivitet til børnehaveklassen.', 'da "gratis"'],
+    ['no', 'Gratis og lekende, i tråd med LK20.', 'no "gratis"'],
+    ['fi', 'Maksuton, OPS 2014:n mukainen mittausharjoitus.', 'fi INFLECTED "maksuton" — also missed by the first pattern'],
   ];
   const MUST_PASS = [
     ['sv', 'Barnen känner igen former efter antalet sidor. Följer Lgr22.', 'correct sv'],
-    ['fi', 'Ilmainen tehtävä 1. luokalle. Harjoitus tukee OPS 2014 -tavoitteita.', 'correct fi'],
+    /* ⚠ this case USED to open with "Ilmainen" — it was written before the free ban and
+       the self-test caught it, which is the point of running the poison both ways. */
+    ['fi', 'Vuorovaikutteinen tehtävä 1. luokalle. Harjoitus tukee OPS 2014 -tavoitteita.', 'correct fi'],
+    /* the "no sign-up" clause is TRUE (anonymous visitors really can play) and must survive */
+    ['de', 'Online üben, ohne Anmeldung — für Klasse 2.', 'de keeps "ohne Anmeldung"'],
+    ['fr', 'En ligne, sans inscription.', 'fr keeps "sans inscription"'],
+    ['es', 'Comprensión lectora para 1.º de primaria, en línea y sin registro.', 'es keeps "sin registro"'],
+    ['pt', 'Uma atividade de compreensão de leitura. Sem cadastro.', 'pt keeps "sem cadastro"'],
+    ['sv', 'Utan konto, direkt i webbläsaren och i linje med Lgr22.', 'sv keeps "utan konto"'],
+    ['it', "È un'attività senza registrazione, che si gioca nel browser.", 'it keeps "senza registrazione"'],
     ['es', 'Actividad de 2.º de primaria alineada a los planes y programas de estudio de la SEP.', 'correct es-MX, and "2.º" must NOT read as a code'],
     ['pt', 'Atividade do 2º ano alinhada à BNCC.', 'correct pt'],
     ['fr', 'Une activité de CE1 (Programmes officiels) : remplis un quadrillage.', 'correct fr, keeps its space before the colon'],

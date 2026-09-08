@@ -20,7 +20,7 @@
     },
     "page_intro": {
       "en": "Help Snippy the snail form letters: start at the right dot and take the strokes in order — first the easy way with the path shown, then on your own with the path hidden. A handwriting-formation warm-up, a friendly complement to paper. Common Core L.K.1.a.",
-      "fr": "Apprendre à écrire les lettres avec Snippy : trace chaque lettre à l'écran, avec un geste guidé pas à pas. Gratuit, en ligne, sans inscription."
+      "fr": "Apprendre à écrire les lettres avec Snippy : trace chaque lettre à l'écran, avec un geste guidé pas à pas. En ligne, sans inscription."
     },
     "kid_prompt_template": "snippy",
     "params": {

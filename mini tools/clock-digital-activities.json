@@ -38,13 +38,13 @@
       "nl": "Kukel de haan — Hele uren klokkijken (Groep 3)", "sv": "Tores klocka – läsa klockan, hela timmar (åk 1)"
     },
     "page_intro": {
-      "en": "A free interactive Grade 1 time activity: read an analog clock at o'clock times and tap the matching digital time. Sprocket the rooster crows the hours while children learn to connect the clock face to the digital time (3 o'clock = 3:00). A friendly first step in telling time. Common Core 1.MD.B.3.",
-      "de": "Mit Hahn Sprocket die analoge Uhr ablesen lernen: Tippe die passende Uhrzeit zur vollen Stunde. Uhr lesen für Klasse 1 – kostenlos, interaktiv, Mathe Grundschule.",
-      "fr": "Avec Sprocket le coq, votre enfant lit l'horloge à aiguilles et touche l'heure pile qui correspond, comme « 3 h 00 ». Activité gratuite et interactive, CE1, « Grandeurs et mesures ».",
-      "es": "Actividad gratis e interactiva para 1º de primaria: Sprocket, el gallo, muestra un reloj de manecillas en punto (las 3 en punto) y tu peque toca la hora digital correcta. Ideal para medir el tiempo según los planes y programas de la SEP.",
-      "pt": "Atividade gratuita e interativa para o 3º ano: Sprocket, o galo, mostra um relógio de ponteiros marcando uma hora em ponto (são três horas em ponto) e a criança toca a hora digital correta. Só horas em ponto, para uma primeira leitura tranquila do relógio, na unidade temática Grandezas e medidas da BNCC. Online e sem cadastro.",
-      "it": "Attività gratuita e interattiva per la classe prima: Sprocket, il gallo che canta le ore, mostra un orologio a lancette segnando l'ora in punto (le 3:00, le 9:00, l'una…) e il bambino osserva la lancetta corta delle ore per toccare l'ora digitale giusta. Un modo semplice e divertente per imparare a leggere l'ora in punto sull'orologio a lancette, passando dalle lancette ai numeri. Online e senza registrazione, direttamente nel browser. Allineata alle Indicazioni nazionali, nucleo Relazioni, dati e previsioni (la misura del tempo).",
-      "nl": "Gratis, interactief klokkijken met hele uren. Kukel de haan kraait het uur en je kind tikt de juiste digitale tijd aan — warm, zonder tijdsdruk. Sluit aan bij de SLO-kerndoelen.", "sv": "Läs den analoga klockan med tuppen Tore och tryck på rätt digital tid. Hela timmar, som klockan 3 = 3:00 — ett första steg i att lära sig klockan. Följer Lgr22, åk 1."
+      "en": "An interactive Grade 1 time activity: read an analog clock at o'clock times and tap the matching digital time. Sprocket the rooster crows the hours while children learn to connect the clock face to the digital time (3 o'clock = 3:00). A friendly first step in telling time. Common Core 1.MD.B.3.",
+      "de": "Mit Hahn Sprocket die analoge Uhr ablesen lernen: Tippe die passende Uhrzeit zur vollen Stunde. Uhr lesen für Klasse 1 interaktiv, Mathe Grundschule.",
+      "fr": "Avec Sprocket le coq, votre enfant lit l'horloge à aiguilles et touche l'heure pile qui correspond, comme « 3 h 00 ». Activité interactive, CE1, « Grandeurs et mesures ».",
+      "es": "Actividad interactiva para 1º de primaria: Sprocket, el gallo, muestra un reloj de manecillas en punto (las 3 en punto) y tu peque toca la hora digital correcta. Ideal para medir el tiempo según los planes y programas de la SEP.",
+      "pt": "Atividade interativa para o 3º ano: Sprocket, o galo, mostra um relógio de ponteiros marcando uma hora em ponto (são três horas em ponto) e a criança toca a hora digital correta. Só horas em ponto, para uma primeira leitura tranquila do relógio, na unidade temática Grandezas e medidas da BNCC. Online e sem cadastro.",
+      "it": "Attività interattiva per la classe prima: Sprocket, il gallo che canta le ore, mostra un orologio a lancette segnando l'ora in punto (le 3:00, le 9:00, l'una…) e il bambino osserva la lancetta corta delle ore per toccare l'ora digitale giusta. Un modo semplice e divertente per imparare a leggere l'ora in punto sull'orologio a lancette, passando dalle lancette ai numeri. Online e senza registrazione, direttamente nel browser. Allineata alle Indicazioni nazionali, nucleo Relazioni, dati e previsioni (la misura del tempo).",
+      "nl": "Interactief klokkijken met hele uren. Kukel de haan kraait het uur en je kind tikt de juiste digitale tijd aan — warm, zonder tijdsdruk. Sluit aan bij de SLO-kerndoelen.", "sv": "Läs den analoga klockan med tuppen Tore och tryck på rätt digital tid. Hela timmar, som klockan 3 = 3:00 — ett första steg i att lära sig klockan. Följer Lgr22, åk 1."
     },
     "kid_prompt_template": "clock-digital"
   },
@@ -87,13 +87,13 @@
       "nl": "Kukel de haan — Hele en halve uren klokkijken (Groep 4)", "sv": "Tores klocka – läsa klockan, hela och halva timmar (åk 2)"
     },
     "page_intro": {
-      "en": "A free interactive Grade 1 time activity: read an analog clock at o'clock AND half-past times, then tap the matching digital time. Children must read BOTH hands — the long hand on 12 for o'clock or on 6 for half past — to tell 3:00 from 3:30. Sprocket the rooster cheers them on. A friendly next step in telling time after the hour. Common Core 1.MD.B.3.",
-      "de": "Mit Hahn Sprocket die analoge Uhr ablesen üben – volle und halbe Stunden. Tippe die richtige Uhrzeit. Uhr lesen für Klasse 1, kostenlos, interaktiv, Mathe Grundschule.",
-      "fr": "Avec Sprocket le coq, votre enfant lit l'horloge à aiguilles pour distinguer les heures et les demi-heures, « 3 h 00 » ou « 3 h 30 ». Activité gratuite et interactive, CE1, « Grandeurs et mesures ».",
-      "es": "Actividad gratis e interactiva para 2º de primaria: Sprocket, el gallo, muestra un reloj de manecillas en punto y a la media hora (las 3 en punto y las 3 y media) para que tu peque toque la hora digital. Alineada al eje de tiempo de la SEP.",
-      "pt": "Atividade gratuita e interativa para o 3º ano: Sprocket, o galo, mostra um relógio de ponteiros na hora em ponto e na meia hora (são três horas em ponto e são três e meia), e a criança lê os dois ponteiros para tocar a hora digital certa (3:00 ou 3:30). Na unidade temática Grandezas e medidas da BNCC. Online e sem cadastro.",
-      "it": "Attività gratuita e interattiva per la classe seconda: Sprocket, il gallo che canta le ore, mostra un orologio a lancette che segna l'ora in punto e la mezz'ora, e il bambino legge tutte e due le lancette per capire se è «le tre in punto» o «le tre e mezza». Osservando la lancetta corta delle ore e la lancetta lunga dei minuti, sceglie l'ora digitale giusta (3:00 o 3:30). Online e senza registrazione, nel browser. Allineata alle Indicazioni nazionali, nucleo Relazioni, dati e previsioni (la misura del tempo).",
-      "nl": "Gratis, interactief klokkijken met hele én halve uren. Kukel de haan kraait het uur en je kind leest beide wijzers om 3 uur van half vier te onderscheiden. Sluit aan bij de SLO-kerndoelen (Groep 4).", "sv": "Läs den analoga klockan med tuppen Tore och tryck på rätt digital tid — hela och halva timmar. Barnet läser båda visarna och ser att halv fyra är 3:30. Följer Lgr22, åk 2."
+      "en": "An interactive Grade 1 time activity: read an analog clock at o'clock AND half-past times, then tap the matching digital time. Children must read BOTH hands — the long hand on 12 for o'clock or on 6 for half past — to tell 3:00 from 3:30. Sprocket the rooster cheers them on. A friendly next step in telling time after the hour. Common Core 1.MD.B.3.",
+      "de": "Mit Hahn Sprocket die analoge Uhr ablesen üben – volle und halbe Stunden. Tippe die richtige Uhrzeit. Uhr lesen für Klasse 1interaktiv, Mathe Grundschule.",
+      "fr": "Avec Sprocket le coq, votre enfant lit l'horloge à aiguilles pour distinguer les heures et les demi-heures, « 3 h 00 » ou « 3 h 30 ». Activité interactive, CE1, « Grandeurs et mesures ».",
+      "es": "Actividad interactiva para 2º de primaria: Sprocket, el gallo, muestra un reloj de manecillas en punto y a la media hora (las 3 en punto y las 3 y media) para que tu peque toque la hora digital. Alineada al eje de tiempo de la SEP.",
+      "pt": "Atividade interativa para o 3º ano: Sprocket, o galo, mostra um relógio de ponteiros na hora em ponto e na meia hora (são três horas em ponto e são três e meia), e a criança lê os dois ponteiros para tocar a hora digital certa (3:00 ou 3:30). Na unidade temática Grandezas e medidas da BNCC. Online e sem cadastro.",
+      "it": "Attività interattiva per la classe seconda: Sprocket, il gallo che canta le ore, mostra un orologio a lancette che segna l'ora in punto e la mezz'ora, e il bambino legge tutte e due le lancette per capire se è «le tre in punto» o «le tre e mezza». Osservando la lancetta corta delle ore e la lancetta lunga dei minuti, sceglie l'ora digitale giusta (3:00 o 3:30). Online e senza registrazione, nel browser. Allineata alle Indicazioni nazionali, nucleo Relazioni, dati e previsioni (la misura del tempo).",
+      "nl": "Interactief klokkijken met hele én halve uren. Kukel de haan kraait het uur en je kind leest beide wijzers om 3 uur van half vier te onderscheiden. Sluit aan bij de SLO-kerndoelen (Groep 4).", "sv": "Läs den analoga klockan med tuppen Tore och tryck på rätt digital tid — hela och halva timmar. Barnet läser båda visarna och ser att halv fyra är 3:30. Följer Lgr22, åk 2."
     },
     "kid_prompt_template": "clock-digital"
   },
@@ -126,8 +126,8 @@
       "fr": "L'horloge de Sprocket — Lire les quarts d'heure (CE2)"
     },
     "page_intro": {
-      "en": "A free interactive Grade 2 time activity: read an analog clock at quarter past and quarter to, then tap the matching digital time. Children learn that the long hand on the 3 means quarter past (3:15) and on the 9 means quarter to (3:45) — and that quarter to 4 is written 3:45, not 4:45. Sprocket the rooster cheers them on. A friendly step toward telling time to the nearest five minutes. Common Core 2.MD.C.7.",
-      "fr": "Avec Sprocket le coq, votre enfant lit l'horloge à aiguilles pour dire les quarts d'heure, « et quart », « et demie » et « moins le quart », comme « 3 h 15 » ou « 3 h 45 » (« quatre heures moins le quart »). Activité gratuite et interactive, CE2, « Grandeurs et mesures »."
+      "en": "An interactive Grade 2 time activity: read an analog clock at quarter past and quarter to, then tap the matching digital time. Children learn that the long hand on the 3 means quarter past (3:15) and on the 9 means quarter to (3:45) — and that quarter to 4 is written 3:45, not 4:45. Sprocket the rooster cheers them on. A friendly step toward telling time to the nearest five minutes. Common Core 2.MD.C.7.",
+      "fr": "Avec Sprocket le coq, votre enfant lit l'horloge à aiguilles pour dire les quarts d'heure, « et quart », « et demie » et « moins le quart », comme « 3 h 15 » ou « 3 h 45 » (« quatre heures moins le quart »). Activité interactive, CE2, « Grandeurs et mesures »."
     },
     "kid_prompt_template": "clock-digital"
   },
@@ -160,8 +160,8 @@
       "fr": "L'horloge de Sprocket — Lire l'heure de 5 en 5 (CE2)"
     },
     "page_intro": {
-      "en": "A free interactive Grade 2 time activity: read an analog clock to the nearest five minutes, then tap the matching digital time. Children learn to count by fives around the clock — the long hand on the 4 means 20 minutes, on the 7 means 35 — and to read times like 3:20 and 7:05. Sprocket the rooster cheers them on. Common Core 2.MD.C.7.",
-      "fr": "Avec Sprocket le coq, votre enfant apprend à lire l'heure de 5 en 5 : il compte les minutes autour du cadran et lit des heures comme « 3 h 20 » ou « 7 h 05 ». Activité gratuite et interactive, CE2, « Grandeurs et mesures »."
+      "en": "An interactive Grade 2 time activity: read an analog clock to the nearest five minutes, then tap the matching digital time. Children learn to count by fives around the clock — the long hand on the 4 means 20 minutes, on the 7 means 35 — and to read times like 3:20 and 7:05. Sprocket the rooster cheers them on. Common Core 2.MD.C.7.",
+      "fr": "Avec Sprocket le coq, votre enfant apprend à lire l'heure de 5 en 5 : il compte les minutes autour du cadran et lit des heures comme « 3 h 20 » ou « 7 h 05 ». Activité interactive, CE2, « Grandeurs et mesures »."
     },
     "kid_prompt_template": "clock-digital"
   },
@@ -194,8 +194,8 @@
       "fr": "L'horloge de Sprocket — Lire l'heure à la minute près (CE2)"
     },
     "page_intro": {
-      "en": "A free interactive Grade 3 time activity: read an analog clock to the nearest minute, then tap the matching digital time. The clock shows minute marks so children can count past the nearest five — reading exact times like 3:23 and 7:47. Sprocket the rooster cheers them on. Common Core 3.MD.A.1.",
-      "fr": "Avec Sprocket le coq, votre enfant apprend à lire l'heure à la minute près : il compte les minutes après le repère des 5 et lit des heures exactes comme « 3 h 23 » ou « 7 h 47 ». Activité gratuite et interactive, CE2, « Grandeurs et mesures »."
+      "en": "An interactive Grade 3 time activity: read an analog clock to the nearest minute, then tap the matching digital time. The clock shows minute marks so children can count past the nearest five — reading exact times like 3:23 and 7:47. Sprocket the rooster cheers them on. Common Core 3.MD.A.1.",
+      "fr": "Avec Sprocket le coq, votre enfant apprend à lire l'heure à la minute près : il compte les minutes après le repère des 5 et lit des heures exactes comme « 3 h 23 » ou « 7 h 47 ». Activité interactive, CE2, « Grandeurs et mesures »."
     },
     "kid_prompt_template": "clock-digital"
   },
@@ -229,8 +229,8 @@
       "fr": "L'horloge de Sprocket — Associer l'heure numérique et l'horloge à aiguilles (CE2)"
     },
     "page_intro": {
-      "en": "A free interactive Grade 2 time activity: read a digital time, then tap the analog clock whose hands match it. Children connect the two ways to show time — o'clock, half past, quarter past and to, and five-minute times — by reading each clock face. Sprocket the rooster cheers them on. Common Core 2.MD.C.7.",
-      "fr": "Avec Sprocket le coq, votre enfant lit une heure écrite en chiffres et touche l'horloge à aiguilles qui montre cette heure : il voit « 3 h 00 » et choisit l'horloge dont la grande aiguille est sur le 12. Activité gratuite et interactive, CE2, « Grandeurs et mesures »."
+      "en": "An interactive Grade 2 time activity: read a digital time, then tap the analog clock whose hands match it. Children connect the two ways to show time — o'clock, half past, quarter past and to, and five-minute times — by reading each clock face. Sprocket the rooster cheers them on. Common Core 2.MD.C.7.",
+      "fr": "Avec Sprocket le coq, votre enfant lit une heure écrite en chiffres et touche l'horloge à aiguilles qui montre cette heure : il voit « 3 h 00 » et choisit l'horloge dont la grande aiguille est sur le 12. Activité interactive, CE2, « Grandeurs et mesures »."
     },
     "kid_prompt_template": "clock-digital"
   }

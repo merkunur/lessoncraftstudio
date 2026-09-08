@@ -398,12 +398,12 @@
     },
     "page_intro": {
       "en": "Wally the walrus runs a crane that lifts a little letter up into a big CAPITAL! Special names — holidays like Halloween, places like Texas, and products like Lego — always start with a capital letter. Read the sentence and tap the word that needs Wally's big letter. A Grade 2 grammar game about capitalizing holidays, places, and product names, aligned to Common Core L.2.2.a.",
-      "de": "Groß- und Kleinschreibung üben: Nomen erkennen und großschreiben mit Wallys Kran. Übungen für Klasse 2 – kostenlos online, ohne Anmeldung.",
-      "fr": "Aide Wally le morse à mettre la majuscule aux noms propres — noms de personnes, de villes, de pays. Une activité d’orthographe CE1, gratuite et interactive.",
-      "es": "Wally la morsa maneja su grúa para levantar la mayúscula en los nombres propios. Actividad gratuita e interactiva para 2.º de primaria, alineada a los Planes y programas de estudio (SEP). Sin registro, sin cronómetro.",
+      "de": "Groß- und Kleinschreibung üben: Nomen erkennen und großschreiben mit Wallys Kran. Übungen für Klasse 2 online, ohne Anmeldung.",
+      "fr": "Aide Wally le morse à mettre la majuscule aux noms propres — noms de personnes, de villes, de pays. Une activité d’orthographe CE1interactive.",
+      "es": "Wally la morsa maneja su grúa para levantar la mayúscula en los nombres propios. Actividad interactiva para 2.º de primaria, alineada a los Planes y programas de estudio (SEP). Sin registro, sin cronómetro.",
       "pt": "Com a Wally e seu guindaste, a criança acha o nome próprio escrito com letra minúscula e o transforma em maiúscula. Ortografia do 2º ano, no seu ritmo.",
-      "it": "Wally il tricheco ha una gru speciale: solleva una letterina minuscola e la trasforma in una grande MAIUSCOLA. Alcuni nomi sono speciali — i nomi di persona e i nomi di luogo — e vogliono sempre la lettera maiuscola. Leggi la frase, trova il nome proprio e toccalo: Wally lo aggancia e gli regala la sua lettera grande («marco» diventa «Marco», «roma» diventa «Roma»). È tutto gratis, senza registrazione e senza punteggi, e funziona direttamente nel browser. Un'attività pensata per la classe seconda e allineata alle Indicazioni nazionali.",
-      "nl": "Help Wally de walrus om de hoofdletter op de juiste plek te zetten: een eigennaam – de naam van een persoon, een stad of een land – krijgt een hoofdletter, maar een gewoon woord blijft klein. Een gratis en interactieve oefening voor groep 4, aansluitend bij de SLO-kerndoelen Nederlands."
+      "it": "Wally il tricheco ha una gru speciale: solleva una letterina minuscola e la trasforma in una grande MAIUSCOLA. Alcuni nomi sono speciali — i nomi di persona e i nomi di luogo — e vogliono sempre la lettera maiuscola. Leggi la frase, trova il nome proprio e toccalo: Wally lo aggancia e gli regala la sua lettera grande («marco» diventa «Marco», «roma» diventa «Roma»). Senza registrazione e senza punteggi, e funziona direttamente nel browser. Un'attività pensata per la classe seconda e allineata alle Indicazioni nazionali.",
+      "nl": "Help Wally de walrus om de hoofdletter op de juiste plek te zetten: een eigennaam – de naam van een persoon, een stad of een land – krijgt een hoofdletter, maar een gewoon woord blijft klein. Een interactieve oefening voor groep 4, aansluitend bij de SLO-kerndoelen Nederlands."
     },
     "kid_prompt_template": "Tap the special name that needs a capital letter."
   }

@@ -488,12 +488,12 @@
     },
     "page_intro": {
       "en": "Rusty the robot's machine turns today's verbs into yesterday's! Some verbs are tricky — they don't just add -ed. Today I go, but yesterday I went (not 'goed'). Read the verb, then tap the right way to say it about yesterday. A Grade 2 grammar game about irregular past-tense verbs, aligned to Common Core L.2.1.d.",
-      "de": "Zeitformen in Klasse 3: unregelmäßige Verben im Präteritum üben mit Rustys Gestern-Maschine. Kostenlos online üben, ohne Anmeldung.",
-      "fr": "Conjugaison CE2 en ligne : entraîne-toi sur le passé composé des verbes irréguliers, avec correction immédiate. Gratuit, sans inscription.",
-      "es": "Rusty el robot enciende su máquina del tiempo para viajar de «hoy» a «ayer»: tu hijo toca el pretérito correcto de los verbos irregulares. Gratis e interactivo para 3.º de primaria, alineado a los Planes y programas de estudio (SEP).",
+      "de": "Zeitformen in Klasse 3: unregelmäßige Verben im Präteritum üben mit Rustys Gestern-Maschine. Online üben, ohne Anmeldung.",
+      "fr": "Conjugaison CE2 en ligne : entraîne-toi sur le passé composé des verbes irréguliers, avec correction immédiate. Sans inscription.",
+      "es": "Rusty el robot enciende su máquina del tiempo para viajar de «hoy» a «ayer»: tu hijo toca el pretérito correcto de los verbos irregulares. Interactivo para 3.º de primaria, alineado a los Planes y programas de estudio (SEP).",
       "pt": "Com o Rusty e a máquina de ontem, a criança do 3º ano lê a frase no presente e toca na forma certa do passado: verbos irregulares no pretérito perfeito.",
-      "it": "Rusty il robot ha costruito una macchina speciale: da una parte entra un verbo di «oggi» e dall'altra esce come era «ieri». Il bambino legge la frase al presente — «Oggi prendo una mela» — e tocca la forma giusta del passato prossimo: «ho preso», non «ho prenduto». Un modo divertente per imparare i verbi irregolari e per non cadere nell'errore più comune. È tutto gratuito: nessuna registrazione, nessun punteggio, nessuna gara — si gioca direttamente dal browser. Pensata per la classe terza e allineata alle Indicazioni nazionali.",
-      "nl": "Help Rusty de robot met zijn gisteren-machine om de juiste verleden tijd van sterke (onregelmatige) werkwoorden te vinden: lopen wordt liep, niet 'loopte' – de klinker verandert. Gratis en interactief oefenen voor groep 5, aansluitend bij de SLO-kerndoelen Nederlands."
+      "it": "Rusty il robot ha costruito una macchina speciale: da una parte entra un verbo di «oggi» e dall'altra esce come era «ieri». Il bambino legge la frase al presente — «Oggi prendo una mela» — e tocca la forma giusta del passato prossimo: «ho preso», non «ho prenduto». Un modo divertente per imparare i verbi irregolari e per non cadere nell'errore più comune.Ènessuna registrazione, nessun punteggio, nessuna gara — si gioca direttamente dal browser. Pensata per la classe terza e allineata alle Indicazioni nazionali.",
+      "nl": "Help Rusty de robot met zijn gisteren-machine om de juiste verleden tijd van sterke (onregelmatige) werkwoorden te vinden: lopen wordt liep, niet 'loopte' – de klinker verandert. Interactief oefenen voor groep 5, aansluitend bij de SLO-kerndoelen Nederlands."
     },
     "kid_prompt_template": "Yesterday — which word is right?"
   }

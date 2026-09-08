@@ -30,12 +30,12 @@
     },
     "page_intro": {
       "en": "Help Lily the frog cross the pond on the number line: to add or subtract past ten, first hop to the golden Ten Stone, then the rest. Build the make-a-ten part yourself — 8 + 2 makes 10, then 10 + 4 is 14. A strategy game, not a speed drill. Common Core 1.OA.C.6.",
-      "de": "Zehnerübergang üben in Klasse 1: über den Zehner rechnen am Zahlenstrahl, Schritt für Schritt. Kostenlos online, ohne Anmeldung.",
-      "fr": "Lily la grenouille passe par 10 : elle se pose sur le nénuphar du dix, sur la piste numérique, pour additionner et soustraire jusqu'à 20. Gratuit, interactif, CP.",
-      "es": "Ayuda a Lily la rana a cruzar la recta numérica: para sumar o restar más allá del diez, primero brinca a la piedra dorada del diez y luego lo que falta. Tú formas el diez —8 + 2 son 10, luego 10 + 4 son 14—. Juego gratis, sin registro, para 2º de primaria (SEP).",
-      "pt": "Ajude a rã Lily a pular até a pedra dourada do dez na reta numérica e a formar o dez para somar e subtrair até 20. Atividade grátis e interativa de 2º ano.",
-      "it": "Aiuta la rana Lily ad attraversare lo stagno lungo la linea dei numeri: per sommare o sottrarre oltre il dieci, prima salta sul sasso dorato del dieci e poi fa gli altri passi. Sei tu a costruire il passaggio della decina usando gli amici del 10 — 8 + 2 fa 10, poi 10 + 4 fa 14 — e allo stesso modo si torna indietro per sottrarre. Un'attività di matematica per la classe seconda su addizioni e sottrazioni entro il 20, allineata alle Indicazioni nazionali (nucleo Numeri). È un gioco di strategia, non una gara di velocità: online, gratis e senza registrazione, direttamente nel browser.",
-      "nl": "Gratis, interactief spel: help Ties de kikker over de getallenlijn tot 20 en oefen rekenen over het tiental — eerst naar de gouden tiensteen, dan verder. Optellen én aftrekken. Sluit aan bij de SLO-kerndoelen."
+      "de": "Zehnerübergang üben in Klasse 1: über den Zehner rechnen am Zahlenstrahl, Schritt für Schritt. Online, ohne Anmeldung.",
+      "fr": "Lily la grenouille passe par 10 : elle se pose sur le nénuphar du dix, sur la piste numérique, pour additionner et soustraire jusqu'à 20. Interactif, CP.",
+      "es": "Ayuda a Lily la rana a cruzar la recta numérica: para sumar o restar más allá del diez, primero brinca a la piedra dorada del diez y luego lo que falta. Tú formas el diez —8 + 2 son 10, luego 10 + 4 son 14—. Juego sin registro, para 2º de primaria (SEP).",
+      "pt": "Ajude a rã Lily a pular até a pedra dourada do dez na reta numérica e a formar o dez para somar e subtrair até 20. Atividade interativa de 2º ano.",
+      "it": "Aiuta la rana Lily ad attraversare lo stagno lungo la linea dei numeri: per sommare o sottrarre oltre il dieci, prima salta sul sasso dorato del dieci e poi fa gli altri passi. Sei tu a costruire il passaggio della decina usando gli amici del 10 — 8 + 2 fa 10, poi 10 + 4 fa 14 — e allo stesso modo si torna indietro per sottrarre. Un'attività di matematica per la classe seconda su addizioni e sottrazioni entro il 20, allineata alle Indicazioni nazionali (nucleo Numeri). È un gioco di strategia, non una gara di velocità: onlinesenza registrazione, direttamente nel browser.",
+      "nl": "Interactief spel: help Ties de kikker over de getallenlijn tot 20 en oefen rekenen over het tiental — eerst naar de gouden tiensteen, dan verder. Optellen én aftrekken. Sluit aan bij de SLO-kerndoelen."
     },
     "kid_prompt_template": "ten-stones",
     "params": {

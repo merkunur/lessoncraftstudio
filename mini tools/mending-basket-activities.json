@@ -159,7 +159,7 @@
     "theme": null,
     "slug": { "en": "mending-basket" },
     "page_title": { "en": "Granny's Mending Basket — Read for Meaning (Grade 1)" },
-    "page_intro": { "en": "A free interactive Grade 1 reading game for reading with understanding: help Granny mend torn storybook pages by working out the piece the meaning needs — fill the gap, fix the word that doesn't fit, follow who the story means, or put the pictures in order — and each mended page develops from grey into colour. Reading closely for meaning is the heart of Common Core RF.1.4.a." }
+    "page_intro": { "en": "An interactive Grade 1 reading game for reading with understanding: help Granny mend torn storybook pages by working out the piece the meaning needs — fill the gap, fix the word that doesn't fit, follow who the story means, or put the pictures in order — and each mended page develops from grey into colour. Reading closely for meaning is the heart of Common Core RF.1.4.a." }
 ,
     "kid_prompt_template": "mend-page"
   }

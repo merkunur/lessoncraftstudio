@@ -246,19 +246,20 @@
       var self = this, hear = el('button', 'tn-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
         var f = round.verb.forms;
+        var _c = (self._chipOrder || Core.TENSES.slice()).map(function (x) { return f[x]; });
         var t = LANG === 'de'
-          ? (round.subject + '. Was passt zu ‚' + round.timeWord + '‘?')
+          ? (round.subject + '. Was passt zu ‚' + round.timeWord + '‘? ' + _c[0] + ', ' + _c[1] + ' oder ' + _c[2] + '?')
           : LANG === 'fr'
-          ? (round.subject + '. Quelle forme va avec « ' + round.timeWord + ' » ?')
+          ? (round.subject + '. Quelle forme va avec « ' + round.timeWord + ' » ? ' + _c[0] + ', ' + _c[1] + ' ou ' + _c[2] + ' ?')
           : LANG === 'es'
-          ? (round.timeWord + ', ' + round.subject + '… ¿Qué palabra va aquí?')
+          ? (round.timeWord + ', ' + round.subject + '… ¿Qué palabra va aquí? ' + _c[0] + ', ' + _c[1] + ' o ' + _c[2] + '?')
           : LANG === 'pt'
-          ? (round.timeWord + ', ' + round.subject + '… Qual palavra combina? ' + f.present + ', ' + f.past + ' ou ' + f.future + '?')
+          ? (round.timeWord + ', ' + round.subject + '… Qual palavra combina? ' + _c[0] + ', ' + _c[1] + "' ou '" + _c[2] + '?')
           : LANG === 'it'
-          ? (round.timeWord + ', ' + round.subject + '… Quale parola va bene? ' + f.present + ', ' + f.past + ' o ' + f.future + '?')
+          ? (round.timeWord + ', ' + round.subject + '… Quale parola va bene? ' + _c[0] + ', ' + _c[1] + "' o '" + _c[2] + '?')
           : LANG === 'nl'
-          ? (round.subject + '. Welke vorm past bij ' + round.timeWord + '?')
-          : (round.timeWord + ', ' + round.subject + '. Which word fits? ' + f.present + ', ' + f.past + ', or ' + f.future + '?');
+          ? (round.subject + '. Welke vorm past bij ' + round.timeWord + '? ' + _c[0] + ', ' + _c[1] + ' of ' + _c[2] + '?')
+          : (round.timeWord + ', ' + round.subject + '. Which word fits? ' + _c[0] + ', ' + _c[1] + "', or '" + _c[2] + '?');
         if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.9 }); } catch (e) { } }
       });
       root.appendChild(hear);
@@ -275,6 +276,7 @@
       order.forEach(function (tense) {
         var b = el('button', 'tn-cand' + (self._nonConf[tense] ? ' dim' : '') + (self._lit === tense ? ' lit' : ''));
         b.type = 'button'; b.setAttribute('data-tense', tense);
+        if (self._nonConf[tense]) b.setAttribute('aria-disabled', 'true');
         b.textContent = f[tense];
         b.setAttribute('aria-label', f[tense]);
         b.addEventListener('click', function () {
@@ -301,26 +303,29 @@
       this._api.sound && this._api.sound(440);
       this.render();
       var line = this._api.stage.querySelector('.tn-line-msg');
-      if (line) { line.textContent = txt(key); line.classList.add('miss'); }
-      this._api.announce && this._api.announce(txt(key));
+      var _tw = { tw: (this._round && this._round.timeWord) || '' };
+      if (line) { line.textContent = txt(key, _tw); line.classList.add('miss'); }
+      this._api.announce && this._api.announce(txt(key, _tw));
     },
 
     _srMirror: function (round) {
       var f = round.verb.forms, wrap = el('div', 'tn-sronly'); wrap.setAttribute('aria-live', 'polite');
       var w = winFor(round.time);
+      /* ⚠ announce the options in the order they are DRAWN, not present/past/future */
+      var _o = (this._chipOrder || Core.TENSES.slice()).map(function (x) { return f[x]; });
       var msg = LANG === 'de'
-        ? ('Zeitformen-Übung: ' + round.subject + '. Wähle die Zeitform, die zu ‚' + round.timeWord + '‘ passt. Zur Auswahl: ' + f.present + ', ' + f.past + ', ' + f.future + '.')
+        ? ('Zeitformen-Übung: ' + round.subject + '. Wähle die Zeitform, die zu ‚' + round.timeWord + '‘ passt. Zur Auswahl: ' + _o[0] + ', ' + _o[1] + "', '" + _o[2] + '.')
         : LANG === 'fr'
-        ? ('Exercice sur les temps du verbe : ' + round.subject + '. Choisis la forme qui va avec « ' + round.timeWord + ' ». Au choix : ' + f.present + ', ' + f.past + ', ' + f.future + '.')
+        ? ('Exercice sur les temps du verbe : ' + round.subject + '. Choisis la forme qui va avec « ' + round.timeWord + ' ». Au choix : ' + _o[0] + ', ' + _o[1] + "', '" + _o[2] + '.')
         : LANG === 'es'
-        ? ('La ventana «' + ((WIN_LABELS.es && WIN_LABELS.es[round.time]) || w.label) + '» está encendida. ' + round.timeWord + ', ' + round.subject + ' ___. ¿Qué palabra va aquí? Opciones: ' + f.present + ', ' + f.past + ', ' + f.future + '.')
+        ? ('La ventana «' + ((WIN_LABELS.es && WIN_LABELS.es[round.time]) || w.label) + '» está encendida. ' + round.timeWord + ', ' + round.subject + ' ___. ¿Qué palabra va aquí? Opciones: ' + _o[0] + ', ' + _o[1] + "', '" + _o[2] + '.')
         : LANG === 'pt'
-        ? ('Janela do ' + (((WIN_LABELS.pt && WIN_LABELS.pt[round.time]) || w.label) + '').toLowerCase() + ' acesa. ' + round.timeWord + ', ' + round.subject + ', espaço em branco. Opções: ' + f.present + ', ' + f.past + ' ou ' + f.future + '.')
+        ? ('Janela do ' + (((WIN_LABELS.pt && WIN_LABELS.pt[round.time]) || w.label) + '').toLowerCase() + ' acesa. ' + round.timeWord + ', ' + round.subject + ', espaço em branco. Opções: ' + _o[0] + ', ' + _o[1] + "' ou '" + _o[2] + '.')
         : LANG === 'it'
-        ? ('La finestra «' + ((WIN_LABELS.it && WIN_LABELS.it[round.time]) || w.label) + '» è accesa. ' + round.timeWord + ', ' + round.subject + ' ___. Quale parola va bene? Scelte: ' + f.present + ', ' + f.past + ', ' + f.future + '.')
+        ? ('La finestra «' + ((WIN_LABELS.it && WIN_LABELS.it[round.time]) || w.label) + '» è accesa. ' + round.timeWord + ', ' + round.subject + ' ___. Quale parola va bene? Scelte: ' + _o[0] + ', ' + _o[1] + "', '" + _o[2] + '.')
         : LANG === 'nl'
-        ? ('Het venster ‘' + ((WIN_LABELS.nl && WIN_LABELS.nl[round.time]) || w.label) + '’ is verlicht. Werkwoordstijden: ' + round.subject + '. Kies de vorm die past bij ' + round.timeWord + '. Keuze: ' + f.present + ', ' + f.past + ', ' + f.future + '.')
-        : ('The "' + w.label + '" window is lit. ' + round.timeWord + ', ' + round.subject + ' blank. Which word fits? Choices: ' + f.present + ', ' + f.past + ', ' + f.future + '.');
+        ? ('Het venster ‘' + ((WIN_LABELS.nl && WIN_LABELS.nl[round.time]) || w.label) + '’ is verlicht. Werkwoordstijden: ' + round.subject + '. Kies de vorm die past bij ' + round.timeWord + '. Keuze: ' + _o[0] + ', ' + _o[1] + "', '" + _o[2] + '.')
+        : ('The "' + w.label + '" window is lit. ' + round.timeWord + ', ' + round.subject + ' blank. Which word fits? Choices: ' + _o[0] + ', ' + _o[1] + "', '" + _o[2] + '.');
       wrap.innerHTML = '<p>' + msg + '</p>';
       return wrap;
     },

@@ -242,7 +242,7 @@
         b.addEventListener('click', function () {
           if (self._resolved || self._nonConf[str] || self._token !== tok) return;
           if (Core.isAnswer(round, str)) { self._lit = str; self._resolve(); }
-          else { self._nonConf[str] = 1; self._nudge(round); }
+          else { self._nonConf[str] = 1; self._nudge(round, str); }
         });
         strip.appendChild(b);
       });
@@ -259,8 +259,17 @@
       this._api.sound && this._api.sound(880);
       this._api.announce && this._api.announce(txt('win', { note: note }));
     },
-    _nudge: function (round) {
-      var msgText = round.rule === 'no-change' ? txt('nNoChange', { sing: round.singular }) : txt('nChange', { sing: round.singular });
+    /* ⚠ the tapped chip used to be captured at :245 and thrown away, so a child who chose the
+       UNCHANGED word was told "it does NOT just add an s" — feedback about an error they did
+       not make. The error-specific branch engages ONLY where a locale has authored the extra
+       key, so the six locales without them keep today's behaviour byte-for-byte. */
+    _nudge: function (round, picked) {
+      var byError = null, S = L[LANG] || {};
+      if (picked != null) {
+        if (picked === Core.plusS(round) && S.nPlusS) byError = txt('nPlusS', { sing: round.singular });
+        else if (picked === round.singular && S.nUnchanged) byError = txt('nUnchanged', { sing: round.singular });
+      }
+      var msgText = byError || (round.rule === 'no-change' ? txt('nNoChange', { sing: round.singular }) : txt('nChange', { sing: round.singular }));
       this._api.sound && this._api.sound(440);
       this.render();
       var line = this._api.stage.querySelector('.pl-line-msg');
@@ -270,7 +279,13 @@
 
     _srMirror: function (round) {
       var wrap = el('div', 'pl-sronly'); wrap.setAttribute('aria-live', 'polite');
-      var chips = Core.chipStrings(round).join(', ');
+      /* ⚠ the VISIBLE chips are shuffled at _beginRound (:193, "position ≠ answer") and read
+         from this._chipOrder at :236. Reading Core.chipStrings() here instead announced the
+         UNSHUFFLED list, and chipStrings[0] is always derivePlural — measured: the correct
+         answer sat at index 0 in 63 of 63 rounds across all seven pools. So a screen-reader
+         user was handed the answer first, every round, in a different order from the buttons.
+         Same pair fixed in clock-digital (29789a4c / 6e3980a4). */
+      var chips = (this._chipOrder || Core.chipStrings(round)).join(', ');
       wrap.innerHTML = '<p>' + txt('srMirror', { q: round.q, sing: round.singular, chips: chips }) + '</p>';
       return wrap;
     },

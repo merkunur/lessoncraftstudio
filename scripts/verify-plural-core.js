@@ -54,13 +54,26 @@ const clone = (o) => JSON.parse(JSON.stringify(o));
 
 let roundCount = 0;
 
+/* ⚠⚠ THIS GATE USED TO READ row.params.rounds ONLY — the English pool, 9 of 63 rounds. The 54
+   localized rounds in params.roundsL10n had never been checked by anything, and Dutch was
+   shipping pl-huis (chips huizen / huiss / huis): drop every chip ending in `s` and exactly
+   one survives, and it is the correct answer — the precise cheat the distractor design exists
+   to block (plural-core.js:12-15).
+   ⚠ SCOPE IT OR IT CONDEMNS FIVE CORRECT POOLS. threeDistinctChips, blocksEliminateS and
+   derived-not-stored are UNIVERSAL. The KNOWN English-forms table, `>=2 no-change` and
+   `>=2 distinct rules` are properties of ENGLISH plural morphology — French has no zero-plural
+   class at all — so they stay EN-scoped. This is the ban-too-wide trap: a naive extension
+   reports six failures of which one is real. */
 for (const row of manifest) {
-  const rounds = (row.params && row.params.rounds) || [];
-  check(rounds.length >= VARIETY_MIN, `${row.id}: ${rounds.length} rounds < ${VARIETY_MIN} (§A.13.60)`);
+  const pools = [['en', (row.params && row.params.rounds) || []]]
+    .concat(Object.entries((row.params && row.params.roundsL10n) || {}));
+  for (const [loc, rounds] of pools) {
+  const isEn = loc === 'en';
+  check(rounds.length >= VARIETY_MIN, `${row.id}/${loc}: ${rounds.length} rounds < ${VARIETY_MIN} (§A.13.60)`);
 
   rounds.forEach((r) => {
     roundCount++;
-    const label = `${r.id}`;
+    const label = `${row.id}/${loc}/${r.id}`;
     const correct = Core.derivePlural(r);
     scan(r, label, correct, r.singular);
     const f = Core.facts(r);
@@ -68,7 +81,8 @@ for (const row of manifest) {
 
     check(f.ruleValid, `${label}: invalid rule "${r.rule}"`);
     check(f.deriveNonEmpty, `${label}: derivePlural empty`);
-    if (KNOWN[r.singular]) check(correct === KNOWN[r.singular], `${label}: derivePlural("${r.singular}")="${correct}" ≠ known "${KNOWN[r.singular]}"`);
+    /* the known-forms cross-check is a table of ENGLISH plurals — it can only speak for en */
+    if (isEn && KNOWN[r.singular]) check(correct === KNOWN[r.singular], `${label}: derivePlural("${r.singular}")="${correct}" ≠ known "${KNOWN[r.singular]}"`);
     check(f.threeDistinctChips, `${label}: the 3 chips are not all distinct (${chips.join(' / ')})`);
     check(f.blocksEliminateS, `${label}: no no-s distractor — "drop anything with s" would win`);
 
@@ -87,16 +101,22 @@ for (const row of manifest) {
   });
 
   const df = Core.deckFacts(rounds);
-  check(df.distinctRules.length >= 2, `only ${df.distinctRules.length} distinct rules (<2)`);
-  check(df.noChangeCount >= 2, `only ${df.noChangeCount} no-change rounds (<2)`);
-  check(df.distinctExercises >= VARIETY_MIN, `only ${df.distinctExercises} distinct exercises (<${VARIETY_MIN})`);
+  /* ⚠ EN-ONLY: >=2 rules and >=2 no-change describe ENGLISH plural morphology. French, Italian
+     and Portuguese have no zero-plural class, so demanding one of them would fail a correct
+     pool for being French. */
+  if (isEn) {
+    check(df.distinctRules.length >= 2, `${loc}: only ${df.distinctRules.length} distinct rules (<2)`);
+    check(df.noChangeCount >= 2, `${loc}: only ${df.noChangeCount} no-change rounds (<2)`);
+  }
+  check(df.distinctExercises >= VARIETY_MIN, `${row.id}/${loc}: only ${df.distinctExercises} distinct exercises (<${VARIETY_MIN})`);
+  }
 }
 
 if (failures.length) {
-  console.error(`FAIL — ${failures.length} plural violation(s) across ${roundCount} round(s):`);
+  console.error(`FAIL — ${failures.length} plural violation(s) across ${roundCount} round(s) in all pools:`);
   failures.forEach((f) => console.error('  • ' + f));
   process.exit(1);
 }
 const df0 = Core.deckFacts(manifest[0].params.rounds);
-console.log(`PASS — ${roundCount} round(s), rules [${df0.distinctRules.join('/')}], ${df0.noChangeCount} no-change: derive correct per rule (vs known forms); 3 distinct chips; oracle 100% (irregular accepted, +s + unchanged rejected); derived-not-stored (no plural literal stored; derive changes under mutated ruleSpec); blocks-eliminate-s on transform rounds; ≥2 rules; ≥${VARIETY_MIN} distinct rounds. [clarity-first redesign of #79]`);
+console.log(`PASS — ${roundCount} round(s) across EVERY pool (en + roundsL10n), rules [${df0.distinctRules.join('/')}], ${df0.noChangeCount} no-change: derive correct per rule (vs known forms); 3 distinct chips; oracle 100% (irregular accepted, +s + unchanged rejected); derived-not-stored (no plural literal stored; derive changes under mutated ruleSpec); blocks-eliminate-s on transform rounds; ≥2 rules; ≥${VARIETY_MIN} distinct rounds. [clarity-first redesign of #79]`);
 process.exit(0);

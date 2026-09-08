@@ -116,6 +116,38 @@ function serve() {
       note(over <= 2, `horizontal overflow ${over}px at ${w}px`);
     }
 
+    /* ---- the screen reader must hear the chips in the SAME order it sees them ----------
+       _srMirror used to build its list from Core.chipStrings(round), which is UNSHUFFLED and
+       whose index 0 is always derivePlural — measured: the correct answer sat first in 63 of
+       63 rounds across all seven pools, while the buttons were shuffled at :193. Sampled over
+       many rounds so a single lucky ordering cannot pass, and the answer-first count is
+       asserted too: matching order alone would still be wrong if the BUTTONS were sorted. */
+    {
+      await page.setViewport({ width: 412, height: 900 });
+      let answerFirst = 0, sampled = 0, mismatched = 0;
+      const ids = await page.evaluate(() => window.PluralActivity._pool.map(r => r.id));
+      note(ids.length >= 7, `sr-order: only ${ids.length} rounds to sample`);
+      for (const id of ids) {
+        await force(id); await sleep(50);
+        const seen = await page.evaluate(() => {
+          const btns = [...document.querySelectorAll('.pl-cand')].map(b => b.textContent.trim());
+          const sr = (document.querySelector('.pl-sronly') || {}).textContent || '';
+          const m = sr.match(/:\s*([^.]+)\.\s*$/);
+          return { btns, srList: m ? m[1].split(',').map(s => s.trim()) : null };
+        });
+        const d = await derived(id);
+        note(seen.btns.length === 3, `sr-order/${id}: ${seen.btns.length} buttons, expected 3`);
+        note(!!seen.srList && seen.srList.length === 3, `sr-order/${id}: the sr-only list did not parse — nothing was checked`);
+        if (!seen.srList || seen.btns.length !== 3) continue;
+        sampled++;
+        if (seen.srList.join('|') !== seen.btns.join('|')) mismatched++;
+        if (seen.srList[0] === d.correct) answerFirst++;
+      }
+      note(sampled >= 7, `sr-order: only ${sampled} rounds actually sampled — the check is vacuous`);
+      note(mismatched === 0, `sr-order: the sr-only list differs from the button order in ${mismatched}/${sampled} rounds — a screen-reader user hears a different order from the one on screen`);
+      note(answerFirst < sampled, `sr-order: the correct plural was announced FIRST in ${answerFirst}/${sampled} rounds — the screen reader is being handed the answer`);
+    }
+
     note(errs.length === 0, `console error(s): ${errs.slice(0, 2).join(' | ')}`);
     console.log(`  ${fails.length ? 'FAIL' : 'ok  '} plural/en — "${title}"`);
   } catch (e) {

@@ -31,6 +31,41 @@ function serve() {
   });
 }
 
+/* ─── manifest coherence, browser-free, runs FIRST ────────────────────────────────
+   A locale present in ANY of slug / page_title / page_intro must be present in ALL
+   THREE. A fan-out adds them one at a time, so a half-added locale is the natural
+   failure — and nothing else here would see it. */
+function checkManifest() {
+  const rows = JSON.parse(fs.readFileSync(path.join(MINI, 'numbers-court-activities.json'), 'utf8'));
+  if (!Array.isArray(rows) || !rows.length) { console.error('FAULT: manifest has no rows — the check would be vacuous'); process.exit(1); }
+  const bad = [];
+  const seen = new Set();
+  const FIELDS = ['slug', 'page_title', 'page_intro'];
+  rows.forEach((r) => {
+    const locs = new Set();
+    FIELDS.forEach((f) => Object.keys(r[f] || {}).forEach((l) => locs.add(l)));
+    if (!locs.size) { console.error('FAULT: row ' + r.id + ' has no localized fields — vacuous'); process.exit(1); }
+    locs.forEach((l) => {
+      const missing = FIELDS.filter((f) => !(r[f] || {})[l]);
+      if (missing.length) bad.push(r.id + ' [' + l + '] present in some fields but missing from: ' + missing.join(', '));
+    });
+    Object.entries(r.slug || {}).forEach(([l, s]) => {
+      if (!/^[a-z0-9-]+$/.test(s)) bad.push(r.id + ' [' + l + '] slug not url-safe: "' + s + '"');
+      const key = l + '|' + s;
+      if (seen.has(key)) bad.push('duplicate slug within ' + l + ': "' + s + '"');
+      seen.add(key);
+    });
+  });
+  return bad;
+}
+const manifestFails = checkManifest();
+if (manifestFails.length) {
+  console.error('NUMBERS-COURT MANIFEST COHERENCE FAILED — ' + manifestFails.length + ' issue(s):');
+  manifestFails.forEach((f) => console.error('  • ' + f));
+  process.exit(1);
+}
+console.log('  ok   manifest coherence — every locale complete across slug/page_title/page_intro');
+
 (async () => {
   const puppeteer = require('puppeteer');
   const server = serve();

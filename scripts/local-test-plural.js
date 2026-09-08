@@ -155,6 +155,133 @@ function serve() {
     console.log(`  FAIL plural/en — ${e.message}`);
   } finally { await page.close(); }
 
+  /* ---- sv: no English may reach text, aria-labels or SPEECH, on ANY of the four surfaces ---- */
+  const svAt = fails.length;
+  try {
+    const mfPath = require('path').join(__dirname, '..', 'mini tools', 'plural-activities.json');
+    const mf = JSON.parse(fs.readFileSync(mfPath, 'utf8'));
+    const row = (Array.isArray(mf) ? mf[0] : mf);
+    const enRounds = row.params.rounds, svRounds = (row.params.roundsL10n || {}).sv;
+    note(Array.isArray(svRounds) && svRounds.length === enRounds.length, `sv: ${svRounds ? svRounds.length : 0} sv rounds vs ${enRounds.length} en — the round surface would go unchecked`);
+
+    const sp = await browser.newPage();
+    await sp.setViewport({ width: 412, height: 900 });
+    await sp.evaluateOnNewDocument(() => {
+      window.__spoke = [];
+      const iv = setInterval(() => {
+        if (window.LCSAudio && window.LCSAudio.speak && !window.LCSAudio.__wrapped) {
+          const o = window.LCSAudio.speak;
+          window.LCSAudio.speak = function (a) { window.__spoke.push(a && a.text); return o.apply(this, arguments); };
+          window.LCSAudio.__wrapped = 1; clearInterval(iv);
+        }
+      }, 10);
+    });
+    await sp.goto(`http://127.0.0.1:${PORT}/plural-activity.html?lang=sv&activity=${ACTIVITY}&embed=1`, { waitUntil: 'networkidle2', timeout: 30000 });
+    await sp.waitForFunction(() => window.PluralActivity && window.PluralActivity._pool && window.PluralActivity._pool.length, { timeout: 15000 });
+    note(await sp.evaluate(() => !!(window.LCSAudio && window.LCSAudio.__wrapped)), 'sv: the speech recorder never attached — the spoken sentence would be unchecked');
+    note(await sp.evaluate(() => window.PluralActivity._pool.length === 9), 'sv: the sv pool did not load — the page is running the ENGLISH rounds');
+
+    /* SURFACE 1+2: probes derived from the en table ALONE */
+    const strEn = await sp.evaluate(() => {
+      const out = [], L = window.__PL_L || null;
+      const S = window.PluralActivity.strings || {};
+      ['title', 'instruction'].forEach(k => { if (S[k] && S[k].en && S[k].sv !== S[k].en) out.push([k, S[k].en]); });
+      return out;
+    });
+    /* the L table is closure-scoped, so take its English from the SOURCE on disk */
+    const src = fs.readFileSync(require('path').join(__dirname, '..', 'mini tools', 'plural-activity.js'), 'utf8');
+    const enBlock = src.slice(src.indexOf('\n    en: {'), src.indexOf('\n    de: {'));
+    const lPairs = [...enBlock.matchAll(/(\w+):\s*'((?:[^'\\]|\\.)*)'/g)].map(m => ['L.' + m[1], m[2].replace(/\\'/g, "'")]);
+    note(lPairs.length >= 6, `sv: only ${lPairs.length} English L-table strings parsed — the probe list is too thin to mean anything`);
+    const enQ = enRounds.map(r => ['q:' + r.id, r.q]);
+    const pairs = strEn.concat(lPairs, enQ);
+    note(pairs.length >= 16, `sv: only ${pairs.length} probes across all surfaces`);
+
+    let sawWin = 0, sawNudge = 0, sawNoChange = 0, spoke = 0;
+    const allHay = [];
+    for (const r of svRounds) {
+      await sp.evaluate((id) => {
+        const t = window.PluralActivity, n = t._pool.length, order = [];
+        for (let i = 0; i < n; i++) order.push(i);
+        const k = t._pool.findIndex(x => x.id === id); if (k > 0) { order.splice(k, 1); order.unshift(k); }
+        t._order = order; t._orderForPool = t._pool; t._curPass = 0; window.__spoke = [];
+        window.LCS_reloadFirstTask();
+      }, r.id);
+      await sp.waitForFunction(() => document.querySelector('.pl-cand'), { timeout: 5000 });
+      await sleep(50);
+      const snap = () => sp.evaluate(() => ({
+        text: (document.querySelector('.lcs-app') || document.body).innerText || '',
+        aria: [...document.querySelectorAll('.lcs-app [aria-label]')].map(e => e.getAttribute('aria-label')).join(' | '),
+        spoke: (window.__spoke || []).join(' | ')
+      }));
+      const frames = [await snap()];
+      /* the SPOKEN sentence — it lives in no string table */
+      await sp.evaluate(() => { const b = document.querySelector('.pl-hear'); if (b) b.click(); });
+      await sleep(60);
+      frames.push(await snap());
+      const d = await sp.evaluate((id) => { const t = window.PluralActivity, rr = t._pool.find(x => x.id === id), C = window.PluralCore; return { correct: C.derivePlural(rr), chips: C.chipStrings(rr) }; }, r.id);
+      /* EVERY wrong tap, not just the first. The two wrong chips take DIFFERENT branches —
+         the +s form gives nPlusS and the bare singular (or the +es form on a no-change round)
+         gives nUnchanged / nNoChange — so tapping only chips[1] left two authored strings
+         undriven, and the reachability check correctly reported them as dead. */
+      for (const wrong of d.chips.filter(s => s !== d.correct)) {
+        await sp.evaluate((s) => { const b = [...document.querySelectorAll('.pl-cand')].find(x => x.getAttribute('data-str') === s); if (b) b.click(); }, wrong);
+        await sleep(60);
+        frames.push(await snap());
+      }
+      if (/miss/.test(await sp.evaluate(() => (document.querySelector('.pl-line-msg') || {}).className || ''))) sawNudge++;
+      /* then the CORRECT tap — win + winNote, and the no-change note on barn/djur */
+      await sp.evaluate((s) => { const b = [...document.querySelectorAll('.pl-cand')].find(x => x.getAttribute('data-str') === s); if (b) b.click(); }, d.correct);
+      await sleep(80);
+      frames.push(await snap());
+      if (await sp.evaluate(() => window.PluralActivity._resolved)) { sawWin++; if (r.rule === 'no-change') sawNoChange++; }
+      spoke += frames.map(f => f.spoke).join('').length;
+      const hay = frames.map(f => f.text + ' | ' + f.aria + ' | ' + f.spoke).join(' | ');
+      allHay.push(hay);
+      note(hay.trim().length > 0, `sv/${r.id}: nothing rendered — vacuous`);
+      for (const [key, enVal] of pairs) {
+        const segs = String(enVal).split(/\{[^}]*\}/).map(s => s.replace(/\s+/g, ' ').trim()).filter(s => s.length >= 6);
+        if (!segs.length) continue;
+        const probe = segs.sort((a, b) => b.length - a.length)[0];
+        note(hay.indexOf(probe) === -1, `sv/${r.id}: the ENGLISH '${key}' reached the child — "${probe}"`);
+      }
+      for (const frag of ['More than one', 'stays the same', 'already many', 'special word', 'Which one is right', 'Doubling Pond', 'lazy']) {
+        note(hay.indexOf(frag) === -1, `sv/${r.id}: an English fragment reached the child — "${frag}"`);
+      }
+    }
+    /* every AUTHORED Swedish string must actually be reached by the states above. */
+    const svBlock = src.slice(src.indexOf('\n    sv: {'), src.indexOf('\n    nl: {'));
+    note(svBlock.length > 40, 'sv: could not slice the sv L block — the reachability check would be vacuous');
+    const svPairs = [...svBlock.matchAll(/(\w+):\s*'((?:[^'\\]|\\.)*)'/g)].map(m => [m[1], m[2].replace(/\\'/g, "'")]);
+    note(svPairs.length >= 6, `sv: only ${svPairs.length} sv L-table strings parsed — reachability would be vacuous`);
+    const corpus = allHay.join(' || ');
+    for (const [key, val] of svPairs) {
+      if (key === 'q') continue;   // the identity passthrough '{q}'; its text is the round question
+      const segs = String(val).split(/\{[^}]*\}/).map(s => s.replace(/\s+/g, ' ').trim()).filter(s => s.length >= 6);
+      if (!segs.length) continue;
+      const probe = segs.sort((a, b) => b.length - a.length)[0];
+      note(corpus.indexOf(probe) !== -1, `sv: the authored string L.sv.${key} is NEVER REACHED in any state — a dead string ("${probe.slice(0, 48)}")`);
+    }
+    /* ⚠ ENGLISH MARKERS — the only check that can see a leak in a key with NO English twin.
+       `and` (=a duck), `is` (=ice) and `just` (as in `just nu`) are EXCLUDED because they are
+       real Swedish words; a ban that condemns correct Swedish teaches the next author to write
+       around it. Unicode-safe boundaries: \b is ASCII-only and å/ä/ö fall outside it. */
+    const EN_MARKERS = ['the', 'not', 'does', 'word', 'stays', 'which', 'means', 'again', 'more than', 'add', 'look'];
+    const svCorpus = allHay.join(' || ');
+    note(svCorpus.length > 200, 'sv: the rendered corpus is too small for the English-marker check to mean anything');
+    for (const w of EN_MARKERS) {
+      const re = new RegExp('(?<!\\p{L})' + w + '(?!\\p{L})', 'iu');
+      note(!re.test(svCorpus), `sv: the English word "${w}" reached the child somewhere in the Swedish render`);
+    }
+    note(sawNudge >= 7, `sv: only ${sawNudge} rounds showed a nudge — the nudge strings are unchecked`);
+    note(sawWin >= 7, `sv: only ${sawWin} rounds reached the win — win/winNote are unchecked`);
+    note(sawNoChange >= 2, `sv: only ${sawNoChange} no-change rounds resolved — the _resolve inline chain (the one that falls back to ENGLISH) is unchecked`);
+    note(spoke > 0, 'sv: NOTHING was spoken — the Hear-it sentence is unchecked');
+    const bad = fails.length - svAt;
+    console.log(bad ? `  FAIL plural/sv — ${bad} English leak(s)` : `  ok   plural/sv — no English in text, aria or speech across ${svRounds.length} rounds x 4 states, all four surfaces`);
+    await sp.close();
+  } catch (e) { fails.push('plural/sv: ' + e.message); console.log(`  FAIL plural/sv — ${e.message}`); }
+
   await browser.close();
   server.close();
   console.log('');

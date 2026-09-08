@@ -176,6 +176,17 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     fi: 'Kielen rakenteet ja oikeinkirjoitus', // OPS 2014 äidinkieli: language structures & spelling
     pt: 'Análise linguística/semiótica', // BNCC Língua Portuguesa eixo (morfologia/ortografia — flexão de número); pt literacy fan-out — reused by every future pt Language activity
     it: 'Riflessione linguistica', // Indicazioni nazionali area "Elementi di grammatica esplicita e riflessione sugli usi della lingua"; it literacy fan-out — reused by every future it Language/grammar activity
+    // sv: the Lgr22 svenska sub-heading under "Läsa och skriva" covering grammar + spelling
+    // (stavningsregler för vanligt förekommande ord). NOT 'Språkbruk', which is the
+    // pragmatics/vocabulary heading and is the plausible-sounding calque. Sits one level below
+    // this file's own 'Reading: Foundational Skills' → sv 'Läsa och skriva', which is the
+    // §17.4.3 descriptor pattern and mirrors fi exactly. sv literacy fan-out opener — the
+    // platform's FIRST sv Language activity, so without this the chip rendered the English
+    // word "Language" on a Swedish page (row.en fallback), in three surfaces.
+    // ⚠ PROVENANCE: this repo contains NO Swedish language-arts kursplan text — the Swedish
+    // blogposts quote only the MATHEMATICS centralt innehåll and are self-authored marketing.
+    // This wording is from professional knowledge and is NOT a checked verbatim quote.
+    sv: 'Språkliga strukturer och normer',
   },
   'Vocabulary Acquisition and Use': {
     en: 'Vocabulary Acquisition and Use',

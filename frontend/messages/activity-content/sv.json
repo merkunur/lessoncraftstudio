@@ -192,6 +192,29 @@
     "whatsInsideCode": "Följer Lgr22"
   },
   "prose": {
+    "plural.irregular.l-2-1-b": {
+      "about": [
+        "Ett ord visas i singular — en fot, en bok, ett barn — och barnet trycker på den av tre former som betyder flera. När rätt form är vald visas hela förvandlingen: fot blir fötter.",
+        "Svenska bildar plural på flera olika sätt, och det är just det barnet får syn på här. I en del ord ändras vokalen inne i ordet: fot blir fötter, bok blir böcker, hand blir händer. Andra ord får bara en ändelse, som sko som blir skor. Och några ser precis likadana ut vare sig det är ett eller flera, som barn och djur. Frågan barnet övar på är alltså om ordet ändrar sig, och i så fall hur.",
+        "Nio ord, i ny ordning varje gång. Aktiviteten följer Lgr22 inom området språkliga strukturer och normer: att skriva vanligt förekommande ord i rätt form. Det finns varken tidtagning eller poäng, och barnet får pröva igen tills rätt form är hittad."
+      ],
+      "practices": [
+        "Bilda plural av vanliga substantiv där vokalen ändras, som fot – fötter och bok – böcker",
+        "Känna igen ord som ser likadana ut i singular och plural, som barn och djur",
+        "Skilja på ordet i singular och ordet i plural",
+        "Veta att det inte är ett -s på slutet som gör ett svenskt ord till plural"
+      ],
+      "howToPlay": [
+        "Läs ordet som står i singular, och tryck på 🔊 Lyssna om du vill höra det.",
+        "Tryck på den av de tre formerna som betyder flera. Blir det fel tonas den rutan ner och du väljer bland de andra.",
+        "När rätt form är vald visas förvandlingen, till exempel fot blir fötter. Tryck sedan på Kontrollera för att gå vidare."
+      ],
+      "learningGoals": [
+        "Barnet kan bilda plural av vanliga substantiv där vokalen ändras, som fot – fötter",
+        "Barnet vet att pluralformen varken alltid är ordet oförändrat eller ordet med ett -s",
+        "Barnet lägger märke till hur ord byter form från en till flera"
+      ]
+    },
     "choice-board.fraction-noncongruent.2-g-a-3": {
       "about": [
         "Här ser barnet en form som är delad i lika stora delar — till exempel en kvadrat eller en rektangel delad i två, tre eller fyra lika stora delar — och letar upp en annan form som är delad i lika många, lika stora delar, fast på ett annat sätt. Det är en interaktiv geometriövning för årskurs 2 som körs direkt i webbläsaren, utan installation och utan konto.",

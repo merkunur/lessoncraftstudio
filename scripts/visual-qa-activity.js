@@ -472,7 +472,11 @@ function controlSignature() {
         const ph = pi === 0 ? '' : '/' + phases[pi];
         console.log(`  ${tag} r${k}${ph} @${vp.w}×${vp.h}  ctrlBottom=${m.controlBottom} cards=${m.cards}${m.fallbackControls ? '+' + m.fallbackControls + 'btn' : ''} content=${m.minContent ?? '—'} sparse=${m.worstSparse ? m.worstSparse.areaRatio.toFixed(2) : '—'} tap=${m.minTap ?? '—'}${fails.length ? '  :: ' + fails.join(' | ') : ''}`);
         if (SHOT_WIDTHS.has(vp.w)) {
-          const suffix = pi === 0 ? '' : '-' + safe(phases[pi]);
+          /* ⚠ the locale MUST be in the filename. Without it an --locale=en baseline run
+             silently OVERWRITES the sv evidence in the same directory, and the definition of
+             done ("I read the sv renders myself") then reads English while believing it is
+             Swedish. en keeps the bare name so existing tracked screenshots stay put. */
+          const suffix = (pi === 0 ? '' : '-' + safe(phases[pi])) + (LOCALE === 'en' ? '' : '-' + safe(LOCALE));
           const f = path.join(SHOT_DIR, `${safe(ACTIVITY)}-r${k}${suffix}-${vp.w}x${vp.h}.png`);
           await page.screenshot({ path: f, fullPage: true });
         }

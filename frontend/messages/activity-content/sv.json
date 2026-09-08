@@ -1789,6 +1789,29 @@
         "Barnet kan avgöra om en likhet är sann eller falsk även när talet står ensamt först (8 = 5 + 3) eller när det står en uträkning på båda sidor (4 + 3 = 5 + 2)",
         "Barnet kan göra en falsk likhet sann genom att byta ut ett tal — ett första steg mot okänt tal och enkla ekvationer"
       ]
+    },
+    "comparison-creek.river-steer.k-cc-c-7": {
+      "about": [
+        "Kapten Quill är en ankunge med kaptensmössa som styr sin flotte nedför floden. Där vattnet delar sig i två flodarmar ligger en boj i varje arm, och på bojarna står tal mellan 1 och 10. Barnet läser de två talen och trycker på den flodarm som flotten ska ta.",
+        "De tolv färderna är byggda så att barnet måste läsa på riktigt. Talen ligger ofta tätt intill varandra – 7 mot 6, 5 mot 6, 8 mot 9 – så att en gissning efter ungefärlig storlek inte räcker till. Ibland visar bojarna prickar i stället för siffror, ibland prickar mot en siffra, och ibland två summor som 2 + 2 och 3 + 2. I två färder är siffrorna dessutom tryckta olika stora: en trea stor bredvid en liten åtta, och en nia stor bredvid en liten fyra. Den ena gången är det stora talet fel svar, den andra gången rätt – barnet kan alltså inte lära sig någon genväg, utan måste läsa talets värde.",
+        "Det finns också färder där båda talen är lika och barnet trycker på bojen med likhetstecknet mitt i strömmen, färder där barnet svarar med en knapp i stället för att styra, och en färd där frågan är vilket tal som ligger mellan 4 och 6. Styr barnet fel händer ingenting dramatiskt: flotten guppar till, bojarna byter plats och barnet får läsa om i lugn och ro. Aktiviteten körs i webbläsaren, utan nedladdning och utan konto, och det finns varken tidtagning eller poäng – i stället fylls en liten karta i efter hand som färden går vidare."
+      ],
+      "practices": [
+        "Jämföra två tal mellan 1 och 10 och avgöra vilket som är större eller mindre, även när talen ligger tätt intill varandra som 6 och 7.",
+        "Läsa talets värde och inte hur stor siffran är tryckt – en stor trea är ändå mindre än en liten åtta.",
+        "Jämföra antal som visas på olika sätt: prickar mot prickar, prickar mot en siffra, och två summor som 2 + 2 och 3 + 2.",
+        "Känna igen när två tal är lika och använda likhetstecknet, samt hitta talet som ligger mellan 4 och 6."
+      ],
+      "howToPlay": [
+        "Vid varje ställe där floden delar sig läser barnet de två bojarna och trycker på den flodarm som har det tal kapten Quill frågar efter – det större eller det mindre.",
+        "Är de två talen lika trycker barnet på bojen med likhetstecknet mitt i strömmen, och i en av färderna svarar barnet i stället med en knapp och beskriver hur talen förhåller sig till varandra.",
+        "Valet gäller så snart barnet trycker: den valda bojen läses upp, och blir det fel guppar flotten till och bojarna byter plats, så att barnet får läsa om i stället för att minnas vilken sida som var rätt."
+      ],
+      "learningGoals": [
+        "Barnet kan jämföra två tal mellan 1 och 10 och säga vilket som är större, vilket som är mindre och när de är lika.",
+        "Barnet läser talets värde i stället för att gå på hur stort talet är tryckt, och kan jämföra antal vare sig de visas som prickar, som siffror eller som små summor.",
+        "Barnet börjar sätta ord på hur tal förhåller sig till varandra – fler, färre, lika många, mellan – vilket är grunden för taluppfattning och för arbetet med likhetstecknet i åk 1 (Lgr22)."
+      ]
     }
   }
 }

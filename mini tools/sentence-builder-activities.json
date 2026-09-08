@@ -479,13 +479,13 @@
       "nl": "Wiggles bouwt zinnen: woordvolgorde oefenen (groep 4)"
     },
     "page_intro": {
-      "en": "A free interactive Grade 1 grammar activity: put the scrambled words in the right order to build a complete sentence — a capital letter to start, a noun and a verb in the middle, and a period at the end. Wiggles the caterpillar helps children produce simple, complete sentences. Common Core L.1.1.j (and L.K.1.b nouns and verbs).",
-      "de": "Sätze schreiben üben mit Wiggles: Wörter in die richtige Reihenfolge bringen und den Satzbau trainieren. Klasse 2 – kostenlos online, ohne Anmeldung.",
-      "fr": "La phrase au CE1 : remets les mots dans l'ordre pour construire une phrase correcte, étape par étape. Gratuit, en ligne, sans inscription.",
-      "es": "Con Wiggles la oruga, tu peque ordena las palabras revueltas para armar una oración completa: mayúscula al inicio, concordancia y punto final. Actividad gratis e interactiva de español para 2.º de primaria, alineada a los Planes y programas de estudio (SEP).",
+      "en": "An interactive Grade 1 grammar activity: put the scrambled words in the right order to build a complete sentence — a capital letter to start, a noun and a verb in the middle, and a period at the end. Wiggles the caterpillar helps children produce simple, complete sentences. Common Core L.1.1.j (and L.K.1.b nouns and verbs).",
+      "de": "Sätze schreiben üben mit Wiggles: Wörter in die richtige Reihenfolge bringen und den Satzbau trainieren. Klasse 2 online, ohne Anmeldung.",
+      "fr": "La phrase au CE1 : remets les mots dans l'ordre pour construire une phrase correcte, étape par étape. En ligne, sans inscription.",
+      "es": "Con Wiggles la oruga, tu peque ordena las palabras revueltas para armar una oración completa: mayúscula al inicio, concordancia y punto final. Actividad interactiva de español para 2.º de primaria, alineada a los Planes y programas de estudio (SEP).",
       "pt": "Ajude a Wiggles, a lagarta, a construir frases completas colocando as palavras na ordem certa, com maiúscula e ponto — atividade calma para o 2º ano.",
-      "it": "Con Wiggles il bruco imparare a costruire frasi diventa un gioco: Wiggles è fatto di segmenti, proprio come una frase fatta di parole in ordine. Il bambino guarda l'immagine, tocca le parole sparse e le mette al posto giusto per scoprire l'ordine delle parole, con l'articolo, il nome, l'aggettivo e il verbo che vanno d'accordo. Ogni frase comincia con la maiuscola e finisce con il punto. È gratis, senza registrazione, direttamente nel browser e senza punteggi, allineata alle Indicazioni nazionali, nell'area della riflessione linguistica.",
-      "nl": "Breng met Wiggles de rups de woorden in de juiste volgorde en bouw een volledige zin – met een hoofdletter aan het begin en een punt aan het eind. Gratis, interactieve oefening voor zinsbouw in groep 3/4, aansluitend bij de SLO-kerndoelen voor Nederlands."
+      "it": "Con Wiggles il bruco imparare a costruire frasi diventa un gioco: Wiggles è fatto di segmenti, proprio come una frase fatta di parole in ordine. Il bambino guarda l'immagine, tocca le parole sparse e le mette al posto giusto per scoprire l'ordine delle parole, con l'articolo, il nome, l'aggettivo e il verbo che vanno d'accordo. Ogni frase comincia con la maiuscola e finisce con il punto. Si gioca senza registrazione, direttamente nel browser e senza punteggi, allineata alle Indicazioni nazionali, nell'area della riflessione linguistica.",
+      "nl": "Breng met Wiggles de rups de woorden in de juiste volgorde en bouw een volledige zin – met een hoofdletter aan het begin en een punt aan het eind. Interactieve oefening voor zinsbouw in groep 3/4, aansluitend bij de SLO-kerndoelen voor Nederlands."
     },
     "kid_prompt_template": "sentence-builder"
   }

@@ -4898,13 +4898,13 @@
       "nl": "Een verhaal navertellen in de juiste volgorde (groep 4)"
     },
     "page_intro": {
-      "en": "A free interactive Kindergarten reading game for retelling stories with key details: Pip the sleepy friend naps through every story and wakes up dying to know what happened. WATCH the story play; then, after it disappears, TELL it back to Pip in the right order with the parts that matter — who, the problem, and how it ends. Putting the events back in order WITH the key details is the heart of Common Core RL.K.2.",
-      "de": "Pip hat die Geschichte verschlafen! Dein Kind ordnet die Bilder richtig und erzählt sie nach – kostenlos & interaktiv für die Grundschule.",
-      "fr": "Lecture et compréhension au CP : remettre l'histoire de Pip dans l'ordre pour bien la raconter. Gratuit, en ligne, sans inscription.",
-      "es": "Actividad interactiva y gratis: los niños vuelven a contar un cuento poniendo los sucesos en orden y eligiendo los detalles importantes. Ideal para 2.º grado.",
-      "pt": "Um jogo de leitura interativo e gratuito para recontar histórias com os detalhes importantes: Pip, o amigo sonolento, cochila durante cada história e acorda louco para saber o que aconteceu. ASSISTA à história; depois que ela some, RECONTE tudo para o Pip na ordem certa, com as partes que importam — quem, o problema e como termina. Atividade alinhada à BNCC.",
-      "it": "Con Pip, l’amico assonnato che ha perso la storia, i bambini guardano un breve film in quattro scene e la raccontano rimettendo le vignette nel giusto ordine di causa ed effetto, scegliendo il dettaglio chiave e lasciando fuori ciò che non c’entra. La lettura ad alta voce 🔊 fa da guida. Gratuita, senza registrazione, senza timer né punteggio, allineata alle Indicazioni nazionali.",
-      "nl": "Een gratis, interactief leesspel voor groep 4 waarin je kind een kort verhaal navertelt in de juiste volgorde en de belangrijke details onthoudt. Afgestemd op de SLO-kerndoelen voor groep 4 en gericht op begrijpend lezen: oorzaak en gevolg, en belangrijk onderscheiden van onbelangrijk."
+      "en": "An interactive Kindergarten reading game for retelling stories with key details: Pip the sleepy friend naps through every story and wakes up dying to know what happened. WATCH the story play; then, after it disappears, TELL it back to Pip in the right order with the parts that matter — who, the problem, and how it ends. Putting the events back in order WITH the key details is the heart of Common Core RL.K.2.",
+      "de": "Pip hat die Geschichte verschlafen! Dein Kind ordnet die Bilder richtig und erzählt sie nach interaktiv für die Grundschule.",
+      "fr": "Lecture et compréhension au CP : remettre l'histoire de Pip dans l'ordre pour bien la raconter. En ligne, sans inscription.",
+      "es": "Actividad interactivalos niños vuelven a contar un cuento poniendo los sucesos en orden y eligiendo los detalles importantes. Ideal para 2.º grado.",
+      "pt": "Um jogo de leitura interativo para recontar histórias com os detalhes importantes: Pip, o amigo sonolento, cochila durante cada história e acorda louco para saber o que aconteceu. ASSISTA à história; depois que ela some, RECONTE tudo para o Pip na ordem certa, com as partes que importam — quem, o problema e como termina. Atividade alinhada à BNCC.",
+      "it": "Con Pip, l’amico assonnato che ha perso la storia, i bambini guardano un breve film in quattro scene e la raccontano rimettendo le vignette nel giusto ordine di causa ed effetto, scegliendo il dettaglio chiave e lasciando fuori ciò che non c’entra. La lettura ad alta voce 🔊 fa da guida. Senza registrazione, senza timer né punteggio, allineata alle Indicazioni nazionali.",
+      "nl": "E,interactief leesspel voor groep 4 waarin je kind een kort verhaal navertelt in de juiste volgorde en de belangrijke details onthoudt. Afgestemd op de SLO-kerndoelen voor groep 4 en gericht op begrijpend lezen: oorzaak en gevolg, en belangrijk onderscheiden van onbelangrijk."
     },
     "kid_prompt_template": "retell-story"
   }

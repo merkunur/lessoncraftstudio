@@ -161,13 +161,13 @@
       "nl": "Het Ontbrekende Getal in Plus- en Minsommen – Groep 3"
     },
     "page_intro": {
-      "en": "A free interactive Grade 1 math game for the missing number in addition and subtraction: help Fixit the near-sighted repair-mole work out the part each broken gadget needs — the missing sum, addend, subtrahend, or minuend — then pop it in and watch it whir to life. Counting-on, fact-families, and balancing all build Common Core 1.OA.D.8.",
-      "de": "Hilf Fixit, kaputte Geräte zu reparieren: Finde die fehlende Zahl in Plus- und Minusaufgaben – an jeder Stelle. Kostenlos & interaktiv für Klasse 1. Jetzt knobeln!",
-      "fr": "Additions à trous en ligne : trouver le nombre manquant pour compléter chaque calcul. Idéal au CP. Gratuit, en ligne, sans inscription.",
-      "es": "Encuentra el número que falta en sumas y restas, en cualquier lugar de la operación: actividad gratis e interactiva, sin registro, alineada a la SEP.",
-      "pt": "Ajude o Fixit a achar o número que falta nas contas de mais e de menos, em qualquer posição da conta. Grátis, sem cadastro. Alinhada à BNCC, 1º ano.",
-      "it": "Con Fixit, la talpa aggiustatutto un po’ miope, tuo figlio trova il numero che manca in addizioni e sottrazioni in qualsiasi posizione e rimette in funzione ogni congegno: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima.",
-      "nl": "Help Fixit de mol om kapotte apparaten te repareren: vind het ontbrekende getal in plus- en minsommen — op elke plaats. Vul een tienveld, tel op de getallenlijn of breng een balans in evenwicht. Gratis en interactief, zonder registratie. Afgestemd op de SLO-kerndoelen voor groep 3."
+      "en": "An interactive Grade 1 math game for the missing number in addition and subtraction: help Fixit the near-sighted repair-mole work out the part each broken gadget needs — the missing sum, addend, subtrahend, or minuend — then pop it in and watch it whir to life. Counting-on, fact-families, and balancing all build Common Core 1.OA.D.8.",
+      "de": "Hilf Fixit, kaputte Geräte zu reparieren: Finde die fehlende Zahl in Plus- und Minusaufgaben – an jeder Stelle. Interaktiv für Klasse 1. Jetzt knobeln!",
+      "fr": "Additions à trous en ligne : trouver le nombre manquant pour compléter chaque calcul. Idéal au CP. En ligne, sans inscription.",
+      "es": "Encuentra el número que falta en sumas y restas, en cualquier lugar de la operación: actividad interactiva, sin registro, alineada a la SEP.",
+      "pt": "Ajude o Fixit a achar o número que falta nas contas de mais e de menos, em qualquer posição da conta. Sem cadastro. Alinhada à BNCC, 1º ano.",
+      "it": "Con Fixit, la talpa aggiustatutto un po’ miope, tuo figlio trova il numero che manca in addizioni e sottrazioni in qualsiasi posizione e rimette in funzione ogni congegno: un’attività senza registrazione, allineata alle Indicazioni nazionali per la classe prima.",
+      "nl": "Help Fixit de mol om kapotte apparaten te repareren: vind het ontbrekende getal in plus- en minsommen — op elke plaats. Vul een tienveld, tel op de getallenlijn of breng een balans in evenwicht. Interactief, zonder registratie. Afgestemd op de SLO-kerndoelen voor groep 3."
     },
     "kid_prompt_template": "missing-part"
   }

@@ -537,12 +537,12 @@
     },
     "page_intro": {
       "en": "An interactive Grade 1 reading activity: read two short tales with Mossbeard the Story-Keeper, then compare what happened to the characters across both stories — tap what is the SAME in both, or what happened in ONLY ONE. A friendly first look at comparing and contrasting characters' experiences across stories. Common Core RL.1.9.",
-      "de": "Vergleiche zwei kurze Geschichten und erkenne, was gleich ist und was andersinteraktiv und ohne Zeitdruck – Lesen üben in der Grundschule.",
+      "de": "Vergleiche zwei kurze Geschichten und erkenne, was gleich ist und was anders: interaktiv und ohne Zeitdruck – Lesen üben in der Grundschule.",
       "fr": "Sous une lune d'or et une lune d'argent, Barbe-de-Mousse la tortue présente à votre enfant deux courtes histoires côte à côte. L'enfant lit les deux, puis tape la carte qui dit ce qui est pareil dans les deux histoires, ou ce qui arrive dans une seule. Petit à petit, il apprend à comparer deux histoires : à repérer les ressemblances et les différences entre les aventures des personnages, en s'appuyant sur ce que raconte chaque histoire. Une activité interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte, en lien avec les programmes officiels de l'école.",
       "es": "Actividad interactiva para 2.º grado: lee dos cuentos cortos y compara semejanzas y diferencias, qué es igual y qué es diferente. Sin registro.",
       "pt": "Leia duas historinhas com a Barba de Musgo, a tartaruga guardiã de histórias, e descubra o que é IGUAL nas duas luas e o que acontece em só UMA. Toque no 🔊 para ouvir as duas histórias em voz alta. Sem cadastro, sem cronômetro e sem pontos — no ritmo de cada criança. Alinhado à Base Nacional Comum Curricular (BNCC), no campo da compreensão de textos literários.",
       "it": "Con Barbamuschio la tartaruga, sotto la luna d’oro e la luna d’argento, i bambini leggono due brevi storie e toccano l’esperienza uguale in entrambe o accaduta in una sola: un semplice confronto tra due racconti. Un aiuto 🔊 legge ad alta voce. Attività senza registrazione, senza timer né punteggio, allineata alle Indicazioni nazionali (classe seconda).",
-      "nl": "Vergelijk twee korte verhalen en ontdek wat gelijk is en wat maar in één verhaal gebeurtinteractief en zonder tijdsdruk. Begrijpend lezen oefenen in groep 4, afgestemd op de SLO-kerndoelen."
+      "nl": "Vergelijk twee korte verhalen en ontdek wat gelijk is en wat maar in één verhaal gebeurt: interactief en zonder tijdsdruk. Begrijpend lezen oefenen in groep 4, afgestemd op de SLO-kerndoelen."
     },
     "kid_prompt_template": "two-tales"
   }

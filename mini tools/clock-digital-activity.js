@@ -18,40 +18,73 @@
     en: {
       q: 'What time is it?',
       qMatch: 'Which clock shows this time?',
-      win: 'Yes! {t}.',
+      win: 'That\'s right — it\'s {t}.',
       hint: 'Look where the short hand points — that is the hour.',
-      hintMatch: 'Find the clock whose hands show this time.',
-      hintMin: 'Read both hands — the long hand tells the minutes.',
-      hintFive: 'Count by fives around the clock — the long hand tells the minutes.',
-      hintMinute: 'Count the little marks — each one is a minute.',
-      srMatchBody: ' The time is {t}. The clocks show: {cs}.',
-      srReadBody: ' The clock shows {t}. The choices are: {ds}.'
+      hintMatch: 'Check the short hand first — it should be at the hour number or just past it, then check the long hand.',
+      hintFive: 'Start at the 12 and count on in fives — 5, 10, 15 — until you reach the long hand.',
+      hintMinute: 'Count in fives to the last long mark the hand has passed, then count on one for each small mark.',
+      instructionMatch: 'Read the time, then tap the clock that matches.',
+      hintHalf: 'The long hand at the 6 is half way round — that is 30 minutes. The short hand is half way too, so the hour is the number behind it.',
+      hintQuarter: 'The long hand at the 3 is 15 minutes, and at the 9 it is 45 — and the hour is still the number the short hand has passed.',
+      markOne: 'one mark',
+      markMany: '{n} marks',
+      srReadOnHour: ' The short hand is on the {hh} and the long hand is on the 12.',
+      srReadBetween: ' The short hand is between the {hh} and the {hn}. The long hand is on the {mk}.',
+      srReadOffMark: ' The short hand is between the {hh} and the {hn}. The long hand is {nt} past the {mk}.',
+      srChoices: ' The choices are: {ds}.',
+      srMatchHead: ' The time is {t}. Here are the clocks, in order.',
+      srItemOnHour: 'Clock {i}: short hand on the {hh}, long hand on the 12',
+      srItemBetween: 'Clock {i}: short hand between the {hh} and the {hn}, long hand on the {mk}',
+      srItemOffMark: 'Clock {i}: short hand between the {hh} and the {hn}, long hand {nt} past the {mk}',
+      srJoin: '; '
     },
     de: {
       q: 'Wie spät ist es?',
       qMatch: 'Welche Uhr zeigt diese Uhrzeit?',
-      win: 'Genau! {t}.',
-      hint: 'Schau, wohin der kleine Zeiger zeigt – das ist die Stunde.',
-      hintMatch: 'Finde die Uhr, deren Zeiger diese Uhrzeit zeigen.',
-      hintMin: 'Lies beide Zeiger – der große Zeiger zeigt die Minuten.',
-      hintFive: 'Zähl in Fünferschritten um die Uhr – der große Zeiger zeigt die Minuten.',
-      hintMinute: 'Zähl die kleinen Striche – jeder ist eine Minute.',
-      srMatchBody: ' Die Uhrzeit ist {t}. Die Uhren zeigen: {cs}.',
-      srReadBody: ' Die Uhr zeigt {t}. Zur Auswahl: {ds}.'
+      win: 'Genau! Es ist {t}.',
+      hint: 'Schau, wo der kleine Zeiger steht – er zeigt die Stunde.',
+      hintMatch: 'Prüfe zuerst den kleinen Zeiger – er steht bei der ersten Zahl. Dann schau, wohin der große Zeiger zeigt.',
+      hintFive: 'Zähl von der 12 aus in Fünferschritten weiter – jede große Zahl ist fünf Minuten mehr.',
+      hintMinute: 'Zähl vom letzten langen Strich in Einerschritten weiter – jeder kleine Strich ist eine Minute.',
+      srReadOnHour: 'Der kleine Zeiger steht auf der {hh}, der große Zeiger auf der 12.',
+      srReadBetween: 'Der kleine Zeiger steht zwischen der {hh} und der {hn}, der große Zeiger auf der {mk}.',
+      srReadOffMark: 'Der kleine Zeiger steht zwischen der {hh} und der {hn}, der große Zeiger {nt} nach der {mk}.',
+      srChoices: 'Zur Auswahl: {ds}.',
+      srItemOnHour: 'Uhr Nummer {i}: kleiner Zeiger auf der {hh}, großer Zeiger auf der 12',
+      srItemBetween: 'Uhr Nummer {i}: kleiner Zeiger zwischen der {hh} und der {hn}, großer Zeiger auf der {mk}',
+      srItemOffMark: 'Uhr Nummer {i}: kleiner Zeiger zwischen der {hh} und der {hn}, großer Zeiger {nt} nach der {mk}',
+      srMatchHead: 'Gesucht ist die Uhrzeit {t}. Zur Auswahl:',
+      srJoin: '; ',
+      markOne: 'einen Strich',
+      markMany: '{n} Striche',
+      instructionMatch: 'Lies die Uhrzeit und tippe dann auf die passende Uhr.',
+      hintHalf: 'Der große Zeiger steht auf der 6 – wir sagen dann „halb“ und die nächste Zahl, aber die Ziffern beginnen mit der kleineren.',
+      hintQuarter: 'Ein Viertel sind 15 Minuten – der große Zeiger steht auf der 3 oder auf der 9. Bei „Viertel vor“ beginnen die Ziffern mit der kleineren Zahl.'
     },
     /* FR — native ensemble (linguiste + pédagogue CE1). « horloge à aiguilles » /
        petite (heures) + grande (minutes) aiguille / « l'heure pile » / « et demie ». */
     fr: {
       q: 'Quelle heure est-il ?',
       qMatch: 'Quelle horloge montre cette heure ?',
-      win: 'Oui ! Il est {t}.',
+      win: 'C\'est ça ! Il est {t}.',
       hint: 'Regarde la petite aiguille : elle indique l\'heure.',
-      hintMatch: 'Trouve l\'horloge dont les aiguilles montrent cette heure.',
-      hintMin: 'Regarde les deux aiguilles : la grande aiguille indique les minutes.',
-      hintFive: 'Compte de 5 en 5 autour de l\'horloge : la grande aiguille indique les minutes.',
-      hintMinute: 'Compte les petits traits : chacun vaut une minute.',
-      srMatchBody: ' Il est {t}. Les horloges montrent : {cs}.',
-      srReadBody: ' L\'horloge montre {t}. Les choix sont : {ds}.'
+      hintMatch: 'Commence par la petite aiguille : elle est sur le nombre écrit avant le h, ou un peu après. Vérifie ensuite la grande aiguille.',
+      hintFive: 'Compte de 5 en 5 sur les nombres du cadran : la grande aiguille indique les minutes.',
+      hintMinute: 'Compte les traits autour du cadran : chacun vaut une minute.',
+      srReadOnHour: 'Sur le cadran, la petite aiguille est sur le {hh} et la grande aiguille est sur le 12.',
+      srReadBetween: 'Sur le cadran, la petite aiguille est entre le {hh} et le {hn}, et la grande aiguille est sur le {mk}.',
+      srReadOffMark: 'Sur le cadran, la petite aiguille est entre le {hh} et le {hn}, et la grande aiguille est {nt} après le {mk}.',
+      srChoices: 'Les choix sont : {ds}.',
+      srItemOnHour: 'Horloge {i} : petite aiguille sur le {hh}, grande aiguille sur le 12',
+      srItemBetween: 'Horloge {i} : petite aiguille entre le {hh} et le {hn}, grande aiguille sur le {mk}',
+      srItemOffMark: 'Horloge {i} : petite aiguille entre le {hh} et le {hn}, grande aiguille {nt} après le {mk}',
+      srMatchHead: ' Il est {t}. Voici les horloges proposées :',
+      srJoin: ' ; ',
+      markOne: 'un trait',
+      markMany: '{n} traits',
+      instructionMatch: 'Lis l\'heure écrite en chiffres, puis touche l\'horloge qui la montre.',
+      hintHalf: 'Quand la grande aiguille est sur le 6, c\'est la demie : 30 minutes. La petite aiguille est alors entre deux nombres : garde celui qu\'elle vient de dépasser.',
+      hintQuarter: 'Quand la grande aiguille est sur le 3, c\'est 15 minutes ; sur le 9, c\'est 45 minutes. La petite aiguille est alors entre deux nombres : garde celui qu\'elle vient de dépasser, même si elle en est déjà loin.'
     },
     /* es-MX — native ensemble (lingüista + pedagoga de primaria). "reloj de manecillas";
        "manecilla corta (la hora) / larga (los minutos)". {t} = frase autónoma capitalizada
@@ -59,14 +92,25 @@
     es: {
       q: '¿Qué hora es?',
       qMatch: '¿Cuál reloj marca esta hora?',
-      win: '¡Sí! {t}.',
-      hint: 'Fíjate a dónde apunta la manecilla corta: esa es la hora.',
-      hintMatch: 'Busca el reloj cuyas manecillas marcan esta hora.',
-      hintMin: 'Lee las dos manecillas: la larga te dice los minutos.',
-      hintFive: 'Cuenta de 5 en 5 alrededor del reloj: la manecilla larga marca los minutos.',
-      hintMinute: 'Cuenta las rayitas: cada una es un minuto.',
-      srMatchBody: ' {t}. Los relojes muestran: {cs}.',
-      srReadBody: ' El reloj marca la hora. {t}. Las opciones son: {ds}.'
+      win: '¡Sí, {t}!',
+      hint: 'Fíjate a qué número apunta la manecilla corta: ese número es la hora.',
+      hintMatch: 'Busca primero los relojes donde la manecilla corta marca esa hora; luego compara la larga.',
+      hintFive: 'Cuenta de 5 en 5 desde el 12: la manecilla larga marca los minutos.',
+      hintMinute: 'Cuenta de 5 en 5 hasta el último número y luego las rayitas que faltan.',
+      srReadOnHour: 'En este reloj la manecilla corta está en el {hh} y la manecilla larga está en el 12.',
+      srReadBetween: 'En este reloj la manecilla corta está entre el {hh} y el {hn} y la manecilla larga está en el {mk}.',
+      srReadOffMark: 'En este reloj la manecilla corta está entre el {hh} y el {hn} y la manecilla larga está {nt} después del {mk}.',
+      srChoices: 'Las opciones son: {ds}.',
+      srItemOnHour: 'reloj {i}, con la manecilla corta en el {hh} y la larga en el 12',
+      srItemBetween: 'reloj {i}, con la manecilla corta entre el {hh} y el {hn} y la larga en el {mk}',
+      srItemOffMark: 'reloj {i}, con la manecilla corta entre el {hh} y el {hn} y la larga {nt} después del {mk}',
+      srMatchHead: 'Busca esta hora: {t}.',
+      srJoin: '; ',
+      markOne: 'una rayita',
+      markMany: '{n} rayitas',
+      instructionMatch: 'Lee la hora en números y luego toca el reloj que la marca.',
+      hintHalf: 'La manecilla larga en el 6 quiere decir y media. La corta queda entre dos números: fíjate en el que ya pasó, no en el que sigue.',
+      hintQuarter: 'La manecilla larga en el 3 es y cuarto; en el 9 falta un cuarto para la hora que sigue. Pero fíjate: la corta todavía no llega a ese número.'
     },
     /* pt-BR — native ensemble. "relógio de ponteiros"; ponteiro pequeno (horas) / grande (minutos).
        Só horas + meia hora no #8; hintFive/hintMinute só disparam nas variantes de 2º/3º (en+fr). */
@@ -74,13 +118,24 @@
       q: 'Que horas são?',
       qMatch: 'Qual relógio marca esta hora?',
       win: 'Isso! {t}.',
-      hint: 'Veja para onde aponta o ponteiro curto — essa é a hora.',
-      hintMatch: 'Encontre o relógio cujos ponteiros marcam esta hora.',
-      hintMin: 'Leia os dois ponteiros — o ponteiro grande indica os minutos.',
-      hintFive: 'Conte de 5 em 5 ao redor do relógio — o ponteiro grande indica os minutos.',
-      hintMinute: 'Conte os risquinhos — cada um é um minuto.',
-      srMatchBody: ' {t}. Os relógios mostram: {cs}.',
-      srReadBody: ' O relógio marca a hora. {t}. As opções são: {ds}.'
+      hint: 'Veja o ponteiro curto — a hora é o número que ele já passou.',
+      hintMatch: 'Comece pelo ponteiro curto: ele fica no primeiro número da hora ou logo depois dele. Só então confira o ponteiro grande.',
+      hintFive: 'Conte de 5 em 5 a partir do 12 — o ponteiro grande indica os minutos.',
+      hintMinute: 'Conte de 5 em 5 até o número mais próximo e depois conte os risquinhos — cada um é um minuto.',
+      srReadOnHour: ' O ponteiro curto está no {hh} e o ponteiro grande está no 12.',
+      srReadBetween: ' O ponteiro curto está entre o {hh} e o {hn}, e o ponteiro grande está no {mk}.',
+      srReadOffMark: ' O ponteiro curto está entre o {hh} e o {hn}, e o ponteiro grande está {nt} depois do {mk}.',
+      srChoices: ' As opções são: {ds}.',
+      srItemOnHour: 'relógio {i}: ponteiro curto no {hh} e ponteiro grande no 12',
+      srItemBetween: 'relógio {i}: ponteiro curto entre o {hh} e o {hn} e ponteiro grande no {mk}',
+      srItemOffMark: 'relógio {i}: ponteiro curto entre o {hh} e o {hn} e ponteiro grande {nt} depois do {mk}',
+      srMatchHead: ' A hora escrita é {t}. As opções são:',
+      srJoin: '; ',
+      markOne: 'um risquinho',
+      markMany: '{n} risquinhos',
+      instructionMatch: 'Leia a hora em números e depois toque no relógio que corresponde.',
+      hintHalf: 'Na meia hora o ponteiro grande está no 6 e o ponteiro curto fica no meio do caminho — a hora é o número que ele já passou, não o que está à frente.',
+      hintQuarter: 'No quarto de hora o ponteiro grande está no 3 ou no 9 — são 15 minutos ou 45 minutos.'
     },
     /* it — native ensemble (linguist + classe prima/seconda pedagogue). "orologio a lancette";
        lancetta corta (delle ore) / lancetta lunga (dei minuti). Romance current-hour + half in
@@ -88,15 +143,26 @@
        since {t} is a full capitalized sentence. Data-nucleo strand (Relazioni, dati e previsioni). */
     it: {
       q: 'Che ore sono?',
-      qMatch: 'Quale orologio segna quest\'ora?',
+      qMatch: 'Quale orologio segna questo orario?',
       win: 'Sì! {t}.',
-      hint: 'Guarda dove punta la lancetta corta: quella è l\'ora.',
-      hintMatch: 'Trova l\'orologio con le lancette che segnano quest\'ora.',
-      hintMin: 'Leggi tutte e due le lancette: quella lunga indica i minuti.',
-      hintFive: 'Conta di cinque in cinque intorno all\'orologio: la lancetta lunga indica i minuti.',
-      hintMinute: 'Conta i trattini: ognuno vale un minuto.',
-      srMatchBody: ' L\'ora è {t}. Gli orologi mostrano: {cs}.',
-      srReadBody: ' L\'orologio segna l\'ora. {t}. Le scelte sono: {ds}.'
+      hint: 'Guarda dove punta la lancetta corta: quel numero è l\'ora.',
+      hintMatch: 'Guarda prima le lancette corte: tieni gli orologi con l\'ora giusta, poi confronta quelle lunghe.',
+      hintFive: 'Conta di cinque in cinque partendo dal 12: ogni numero vale cinque minuti.',
+      hintMinute: 'Conta di cinque in cinque fino al numero prima della lancetta lunga, poi conta le tacche piccole una alla volta.',
+      srReadOnHour: ' La lancetta corta punta esattamente sul numero {hh}. La lancetta lunga punta sul numero 12.',
+      srReadBetween: ' La lancetta corta è tra i numeri {hh} e {hn}. La lancetta lunga punta sul numero {mk}.',
+      srReadOffMark: ' La lancetta corta è tra i numeri {hh} e {hn}. La lancetta lunga si trova {nt} dopo il numero {mk}.',
+      srChoices: ' Le scelte sono: {ds}.',
+      srItemOnHour: 'orologio {i}: lancetta corta esattamente sul numero {hh}, lancetta lunga sul numero 12',
+      srItemBetween: 'orologio {i}: lancetta corta tra i numeri {hh} e {hn}, lancetta lunga sul numero {mk}',
+      srItemOffMark: 'orologio {i}: lancetta corta tra i numeri {hh} e {hn}, lancetta lunga {nt} dopo il numero {mk}',
+      srMatchHead: ' L\'ora da trovare: {t}. Ecco le lancette di ogni orologio:',
+      srJoin: '; ',
+      markOne: 'una tacca',
+      markMany: '{n} tacche',
+      instructionMatch: 'Leggi l\'ora scritta in numeri, poi tocca l\'orologio giusto.',
+      hintHalf: 'La lancetta lunga sul 6 vuol dire trenta minuti: la corta è a metà strada, e l\'ora è il numero che ha già passato.',
+      hintQuarter: 'Sul 3 sono quindici minuti, sul 9 quarantacinque: anche se diciamo «meno un quarto», l\'ora è il numero che la lancetta corta ha già passato.'
     },
     /* nl — native ensemble (linguïst + pedagoog groep 3/4 klokkijken). "de grote wijzer"
        (minuten, lang) / "de kleine wijzer" (uren, kort). spoken() spelt het uur als WOORD
@@ -105,14 +171,25 @@
     nl: {
       q: 'Hoe laat is het?',
       qMatch: 'Welke klok laat deze tijd zien?',
-      win: 'Ja! Het is {t}.',
-      hint: 'Kijk waar de kleine wijzer wijst — dat is het uur.',
-      hintMatch: 'Zoek de klok waarvan de wijzers deze tijd aangeven.',
-      hintMin: 'Lees beide wijzers — de grote wijzer geeft de minuten aan.',
-      hintFive: 'Tel met sprongen van vijf rond de klok — de grote wijzer geeft de minuten aan.',
-      hintMinute: 'Tel de kleine streepjes — elk streepje is een minuut.',
-      srMatchBody: ' De tijd is {t}. De klokken laten zien: {cs}.',
-      srReadBody: ' De klok laat {t} zien. De keuzes zijn: {ds}.'
+      win: 'Ja! De klok staat op {t}.',
+      hint: 'Kijk naar de kleine wijzer — het getal dat hij al voorbij is, is het uur.',
+      hintMatch: 'Kijk eerst naar de kleine wijzer — die staat bij het eerste getal. Kijk pas daarna of de grote wijzer bij de minuten past.',
+      hintFive: 'Tel vanaf de 12 met sprongen van vijf — de grote wijzer geeft de minuten aan.',
+      hintMinute: 'Tel verder vanaf het laatste lange streepje — elk klein streepje is een minuut.',
+      instructionMatch: 'Lees de tijd en tik op de klok die erbij hoort.',
+      hintHalf: 'Bij \'half\' staat de grote wijzer altijd op de 6. Half vier is 3:30 — de kleine wijzer is nog onderweg naar de 4, dus vooraan staat de 3 en niet de 4.',
+      hintQuarter: 'Bij \'kwart over\' staat de grote wijzer op de 3, bij \'kwart voor\' op de 9. Kwart voor vier is 3:45 — de kleine wijzer is nog onderweg naar de 4, dus vooraan staat de 3 en niet de 4.',
+      srReadOnHour: 'De kleine wijzer staat op de {hh}. De grote wijzer staat op de 12.',
+      srReadBetween: 'De kleine wijzer staat tussen de {hh} en de {hn}. De grote wijzer staat op de {mk}.',
+      srReadOffMark: 'De kleine wijzer staat tussen de {hh} en de {hn}. De grote wijzer staat {nt} voorbij de {mk}.',
+      srChoices: 'De keuzes zijn: {ds}.',
+      srMatchHead: 'De tijd is {t}. De wijzers van de klokken staan zo:',
+      srItemOnHour: 'klok {i}: kleine wijzer op de {hh}, grote wijzer op de 12',
+      srItemBetween: 'klok {i}: kleine wijzer tussen de {hh} en de {hn}, grote wijzer op de {mk}',
+      srItemOffMark: 'klok {i}: kleine wijzer tussen de {hh} en de {hn}, grote wijzer {nt} voorbij de {mk}',
+      srJoin: '; ',
+      markOne: 'één streepje',
+      markMany: '{n} streepjes'
     },
     /* sv — native panel (lingvist + lågstadielärare åk 1–2). Visarordet är låst av
        clock-core: "den korta visaren är timmen, den långa visaren är minuterna".
@@ -126,14 +203,25 @@
     sv: {
       q: 'Vad är klockan?',
       qMatch: 'Vilken klocka visar den här tiden?',
-      win: 'Just det! {t}.',
-      hint: 'Titta vilken siffra den korta visaren pekar på — det är timmen.',
-      hintMatch: 'Titta på visarna på varje klocka — vilken av dem visar den här tiden?',
-      hintMin: 'Läs av båda visarna — den långa visaren visar minuterna.',
-      hintFive: 'Räkna med fem i taget runt klockan — den långa visaren visar minuterna.',
-      hintMinute: 'Räkna strecken runt klockan — varje streck är en minut.',
-      srMatchBody: ' Tiden är {t}. Klockorna visar: {cs}.',
-      srReadBody: ' {t}. Du kan välja mellan: {ds}.'
+      win: 'Just det! Klockan är {t}.',
+      hint: 'Den korta visaren visar timmen. Står den mellan två siffror är det siffran den nyss har passerat som gäller.',
+      hintMatch: 'Ta en visare i taget. Den korta visaren visar timmen — den första siffran. Kolla den långa visaren efteråt.',
+      hintFive: 'Börja vid 12 och räkna fem i taget åt det håll visarna går, ända fram till den långa visaren.',
+      hintMinute: 'Räkna fem i taget till det långa strecket närmast före den långa visaren, och lägg sedan till de små strecken som är kvar.',
+      srReadOnHour: 'Den korta visaren står på {hh} och den långa visaren står rakt upp på 12.',
+      srReadBetween: 'Den korta visaren står mellan {hh} och {hn}, och den långa visaren står på {mk}.',
+      srReadOffMark: 'Den korta visaren står mellan {hh} och {hn}, och den långa visaren står {nt} efter {mk}.',
+      srChoices: 'Du kan välja mellan: {ds}.',
+      srItemOnHour: 'klocka {i} har den korta visaren på {hh} och den långa visaren rakt upp på 12',
+      srItemBetween: 'klocka {i} har den korta visaren mellan {hh} och {hn}, och den långa visaren på {mk}',
+      srItemOffMark: 'klocka {i} har den korta visaren mellan {hh} och {hn}, och den långa visaren {nt} efter {mk}',
+      srMatchHead: 'Tiden är {t}. Så här står visarna på klockorna:',
+      srJoin: '; ',
+      markOne: 'ett streck',
+      markMany: '{n} streck',
+      instructionMatch: 'Läs av tiden som står med siffror och tryck sedan på den klocka som stämmer.',
+      hintHalf: 'När den långa visaren står rakt ner på 6 är klockan halv. Halv fyra betyder att den korta visaren är på väg mot fyran men inte framme än — klockan är 3:30, inte 4:30.',
+      hintQuarter: 'Kvart över betyder att den långa visaren står på 3, och kvart i att den står på 9. Kvart i fyra är 3:45 — den korta visaren är nästan framme vid fyran, men timmen är fortfarande 3.'
     }
   };
   var LANG = 'en';
@@ -141,6 +229,33 @@
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
   function elNS(tag, attrs) { var e = document.createElementNS(NS, tag); for (var k in attrs) { if (attrs.hasOwnProperty(k)) e.setAttribute(k, attrs[k]); } return e; }
   function wrapH(n) { return n > 12 ? n - 12 : n; }
+  /* the hand facts a description needs, and nothing more — deliberately NO minute value:
+     the minute IS the answer, and a placeholder that exists will eventually be reached for. */
+  function handFacts(tm) {
+    var h = tm.h, m = tm.m;
+    var mk = Math.floor(m / 5); if (mk === 0) mk = 12;      /* preceding heavy numeral */
+    return { hh: h, hn: wrapH(h + 1), mk: mk, r: m % 5, onHour: m === 0, onMark: m % 5 === 0 };
+  }
+  /* "one mark" / "N marks" — a separate singular string per locale, because sv needs the
+     NEUTER numeral (ett, not en), it needs `una tacca` vs `quattro tacche`, and nl needs
+     `één streepje` with both acutes or it means "a mark". */
+  function markPhrase(n) { return n === 1 ? txt('markOne') : txt('markMany', { n: n }); }
+  /* join sentence fragments on exactly one space, whatever padding the author used */
+  function joinParts() {
+    var out = [];
+    for (var i = 0; i < arguments.length; i++) {
+      var s = String(arguments[i] == null ? '' : arguments[i]).replace(/^\s+|\s+$/g, '');
+      if (s) out.push(s);
+    }
+    return out.join(' ');
+  }
+  /* pick the true description for one time; `key` prefixes read- vs item- shapes */
+  function describeHands(tm, pre, extra) {
+    var f = handFacts(tm);
+    var a = { hh: f.hh, hn: f.hn, mk: f.mk, nt: markPhrase(f.r) };
+    if (extra) { for (var k in extra) { if (extra.hasOwnProperty(k)) a[k] = extra[k]; } }
+    return txt(pre + (f.onHour ? 'OnHour' : (f.onMark ? 'Between' : 'OffMark')), a);
+  }
   /* the dial, named in the reader's own language. Words taken verbatim from the sibling
      engines clock-read / clock-elapsed, which already localize this exact label; sv added
      (clock-core's Swedish calls the dial "urtavla"). Anything else falls back to English,
@@ -385,6 +500,14 @@
       if (!txt2) return;
       var app = this._app; if (!app) return;
       var p = app.querySelector('.lcs-instruction');
+      if (!p) {
+        /* the header may not be rendered yet — retry rather than give up silently, which
+           would look exactly like the defect this method exists to fix */
+        var self2 = this;
+        if (!this._instrRetries) this._instrRetries = 0;
+        if (this._instrRetries++ < 20) { setTimeout(function () { self2._applyDirectionInstruction(); }, 16); }
+        return;
+      }
       var old = p && p.textContent;
       if (p) p.textContent = txt2;
       var lbl = app.getAttribute('aria-label');
@@ -444,14 +567,18 @@
 
       var row = el('div', 'cd-row');
       var order = this._optOrder || (round.options || []).map(function (_, i) { return i; });
-      order.forEach(function (oi) {
+      order.forEach(function (oi, _pos) {
         var t = round.options[oi];
         var isClockCard = _dir === 'digital-to-analog';
         var b = el('button', 'cd-choice' + (isClockCard ? ' cd-clockcard' : '') + (self._nonAns[oi] ? ' dim' : '') + (self._lit === oi ? ' lit' : ''));
         b.type = 'button'; b.setAttribute('data-oi', oi);
         if (isClockCard) {
-          /* no visible text -> the button must carry the name itself */
-          b.setAttribute('aria-label', spoken(t));
+          /* ⚠ no visible text, so the button carries the name — and it must be the HANDS.
+             Naming it spoken(t) let a blind child string-match the question against the
+             button labels and never read a clock at all — the same answer-leak the sr
+             block had, and untouched by rewriting the sr block, because both came from
+             this one call. Same fragment as the sr list item, so the two cannot drift. */
+          b.setAttribute('aria-label', joinParts(describeHands(t, 'srItem', { i: _pos + 1 })));
           var face = clockSVG(t.h, t.m);
           face.setAttribute('aria-hidden', 'true'); face.removeAttribute('role');
           b.appendChild(face);                               /* choice = analog clock face */
@@ -494,7 +621,17 @@
       var gran = params.granularity || 'hour';
       var msgText = params.direction === 'digital-to-analog'
         ? txt('hintMatch')
-        : txt(gran === 'hour' ? 'hint' : (gran === 'five' ? 'hintFive' : (gran === 'minute' ? 'hintMinute' : 'hintMin')));
+        : txt(gran === 'hour' ? 'hint'
+            : (gran === 'five' ? 'hintFive'
+            : (gran === 'minute' ? 'hintMinute'
+            /* ⚠ half and quarter shared one generic hint. In de/nl/sv the spoken form of
+               3:30 is "half four" and of 3:45 "quarter to four" — word and digits share NO
+               number — so these are the two rounds that most need a hint of their own. */
+            : (gran === 'half' ? 'hintHalf'
+            /* the default arm. Every granularity the manifest ships is named above, so this
+               is unreachable today; it falls back to `hint` rather than to a key of its own,
+               because a key reachable only in theory cannot be told from a live one. */
+            : (gran === 'quarter' ? 'hintQuarter' : 'hint')))));
       this._api.sound && this._api.sound(440);
       this.render();
       var line = this._api.stage.querySelector('.cd-msg');
@@ -509,12 +646,16 @@
          raw round.options here put the spoken list out of step with the buttons. */
       var _opts = round.options || [];
       var _ord = this._optOrder || _opts.map(function (_, i) { return i; });
-      var cs = _ord.map(function (oi) { return spoken(_opts[oi]); }).join(', ');
       if (dir === 'digital-to-analog') {
-        wrap.innerHTML = '<p>' + txt('qMatch') + txt('srMatchBody', { t: fmtDigital(round.target), cs: cs }) + '</p>';
+        /* ⚠ each clock is described BY ITS HANDS, never by its time — naming the times is
+           what handed the answer over. Indexed, so the child can say which clock. */
+        var cs = _ord.map(function (oi, i) { return describeHands(_opts[oi], 'srItem', { i: i + 1 }); }).join(txt('srJoin'));
+        wrap.innerHTML = '<p>' + joinParts(txt('qMatch'), txt('srMatchHead', { t: fmtDigital(round.target) }), cs) + '</p>';
       } else {
+        /* the target is described by its HANDS. A blind child cannot read the dial, so the
+           text cannot simply be deleted — but it must not state the time either. */
         var ds = _ord.map(function (oi) { return fmtDigital(_opts[oi]); }).join(', ');
-        wrap.innerHTML = '<p>' + txt('q') + txt('srReadBody', { t: spoken(round.target), ds: ds }) + '</p>';
+        wrap.innerHTML = '<p>' + joinParts(txt('q'), describeHands(round.target, 'srRead'), txt('srChoices', { ds: ds })) + '</p>';
       }
       return wrap;
     },

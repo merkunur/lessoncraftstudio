@@ -136,18 +136,62 @@ const FACE = { de: 'Zifferblatt', fr: 'cadran', es: 'carátula', pt: 'mostrador'
        through. Silent, all-locale, and fatal to any attempt to number the items. */
     if (digital.length >= 2) {
       const visible = digital.map((c) => c.visible);
-      const inSr = visible.filter((v) => read.sr.includes(v));
+      /* ⚠ NOT indexOf: "1:00" occurs INSIDE "11:00", so a plain substring search made a
+         CORRECT order look scrambled and I nearly filed it as a copy defect. The label must
+         not be preceded by a digit. */
+      const posOf = (v) => {
+        const m = new RegExp('(?<!\\d)' + v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).exec(read.sr);
+        return m ? m.index : -1;
+      };
+      const inSr = visible.filter((v) => posOf(v) >= 0);
       if (inSr.length < visible.length) bad('A9: not every visible choice appears in the sr text');
       else {
-        const idx = visible.map((v) => read.sr.indexOf(v));
+        const idx = visible.map(posOf);
         const ordered = idx.every((v, i) => i === 0 || v > idx[i - 1]);
         if (ordered) ok('A9: sr list is in the same order as the buttons (' + visible.join(', ') + ')');
         else bad('A9: sr list order differs from the button order — sr "' + read.sr.trim().slice(0, 80) + '" vs buttons ' + visible.join(', '));
       }
     }
 
-    /* A2 — reported, not enforced yet: the sr block still states the target time. */
-    if (read.sr) console.log('  note A2: sr text still reads — "' + read.sr.trim().slice(0, 90) + '..."');
+    /* A10 — no analog choice may be NAMED BY ITS TIME.
+       Asked for by the French panel, which pointed out that A9 proves the two lists are in
+       the same ORDER and nothing asserted that a button's accessible name contains no time.
+       Each row-6 clock used to be named `spoken(t)`, so a blind child tabbed the cards, heard
+       "three o'clock", and did string comparison against the question — never reading a clock.
+       Rewriting the sr summary alone changed nothing, because both came from that one call. */
+    if (clocks.length) {
+      const named = clocks.map((c) => c.name);
+      /* ⚠ The first version of this compared the names against the READ row's spoken forms —
+         a set A5 had already emptied, so it compared against nothing and PASSED THE POISON.
+         The structural test instead: the button name and the sr list item are built from ONE
+         fragment, so every button's accessible name must appear VERBATIM in that row's sr
+         text. Naming a button by its time breaks that by construction. */
+      const missing = named.filter((n) => !n || !match.sr.includes(n));
+      if (missing.length) bad('A10: an analog choice name is not the sr item fragment — "' + (missing[0] || '(empty)') + '"\n        sr: ' + match.sr.trim().slice(0, 140));
+      else ok('A10: analog choices are named by the same hand fragment as the sr list (' + named.length + ' clocks)');
+    }
+
+    /* A2/A11 — the hidden description must not STATE THE TIME.
+       It used to read "The clock shows 3 o'clock. The choices are: 3:00, 9:00, 6:00", handing
+       the answer over before the child chose. The choices list legitimately contains the
+       target (it is one of the options), so the assertion is scoped to everything BEFORE that
+       list: the part describing the dial must contain no clock-time pattern at all.
+       Suggested by the English panel as the way to close the leak by construction rather than
+       by care. */
+    if (read.sr) {
+      /* ⚠ The first version sliced the text at the FIRST time pattern and checked only what
+         came before — so a poisoned description that STATED a time supplied the slice point
+         itself and the check passed. It was vacuous, and its own poison caught it.
+         The sound test counts instead: the choices list contributes exactly one time per
+         choice, so any additional one is a leak, wherever it sits. */
+      const times = read.sr.match(/\d{1,2}\s*[:.h]\s*\d{2}/g) || [];
+      const expected = digital.length;
+      if (!expected) bad('A2: no digital choices found — the count check would be vacuous');
+      else if (times.length > expected) bad('A2: the sr text states ' + (times.length - expected) + ' time(s) beyond the ' + expected + ' choices — "' + read.sr.trim().slice(0, 120) + '"');
+      else if (/o['’]clock|half past|quarter (past|to)/i.test(read.sr.replace(/The choices[\s\S]*$/i, ''))) bad('A2: the dial description names a spoken time — "' + read.sr.trim().slice(0, 120) + '"');
+      else ok('A2: the dial is described by its hands; ' + times.length + ' time(s) present, all of them choices');
+      console.log('       sr: "' + read.sr.trim().slice(0, 110) + '"');
+    }
 
     await page.close();
   }

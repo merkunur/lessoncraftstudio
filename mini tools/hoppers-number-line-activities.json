@@ -20,8 +20,8 @@
           "size": 8,
           "dir": "fwd",
           "decoys": [
-            4,
-            10
+            10,
+            12
           ],
           "story": "Hopper sits on 6 and hops forward 8. Where does it land?",
           "storyL10n": {
@@ -66,8 +66,8 @@
           "size": 6,
           "dir": "back",
           "decoys": [
-            4,
-            8
+            2,
+            4
           ],
           "story": "Hopper sits on 16 and hops back 6. Where does it land?",
           "storyL10n": {
@@ -112,8 +112,8 @@
           "size": 20,
           "dir": "fwd",
           "decoys": [
-            10,
-            25
+            25,
+            30
           ],
           "story": "Hopper sits on 15 and hops forward 20. Where does it land?",
           "storyL10n": {
@@ -135,8 +135,8 @@
           "size": 20,
           "dir": "back",
           "decoys": [
-            10,
-            30
+            5,
+            10
           ],
           "story": "Hopper sits on 45 and hops back 20. Where does it land?",
           "storyL10n": {
@@ -181,8 +181,8 @@
           "size": 50,
           "dir": "back",
           "decoys": [
-            20,
-            40
+            60,
+            70
           ],
           "story": "Hopper sits on 80 and hops back 50. Where does it land?",
           "storyL10n": {
@@ -205,7 +205,7 @@
           "dir": "fwd",
           "decoys": [
             10,
-            50
+            20
           ],
           "story": "Hopper sits on 40 and hops forward 30. Where does it land?",
           "storyL10n": {

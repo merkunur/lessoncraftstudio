@@ -20,7 +20,10 @@
   var Core = global.NumberlineJumpCore;
   var LANG = 'en';
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOOD: '#2FA56A', GOLD: '#E8A53A', POND: '#2E8C7E' };
-  var PAD = 7;   /* % padding at each end of the line */
+  var PAD = 3;   /* % padding at each end of the line. Was 7: measured, that left ~109px of
+                    dead margin each side at 1024 and squeezed the tick pitch to ~22.5px at
+                    360 — NARROWER THAN THE 26px HIT AREA, so adjacent hit areas overlapped
+                    and a tap near a boundary selected the wrong start. */
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
@@ -98,6 +101,10 @@
       this.injectCSS();
       var api = this.api, stage = api.stage; stage.innerHTML = '';
       var root = api.el('div', 'hnl-root'); root.setAttribute('data-solved', this.solved ? '1' : '0'); this._rootEl = root;
+      /* the shell Check stays hidden until the child has actually committed a hop — see the
+         .hnl-resolved rule in injectCSS. */
+      var appEl = stage.closest && stage.closest('.lcs-app');
+      if (appEl) appEl.classList.toggle('hnl-resolved', !!this.solved);
       if (!this.round) { stage.appendChild(root); return; }
       var self = this;
 
@@ -119,7 +126,10 @@
       this._renderLine(root);
 
       if (this.solved) {
-        var done = api.el('div', 'hnl-done'); done.innerHTML = '<span class="hnl-sticker">🪷</span><span class="hnl-donetext">' + esc(api.t('sayWin')) + '</span>'; root.appendChild(done);
+        /* the sticker only: the coaching row above ALREADY renders api.t('sayWin') (see .hnl-saytop),
+           so printing it again put the identical sentence on screen twice, ~200px apart, in one
+           panel. Found by reading the win render — the first time any gate had photographed it. */
+        var done = api.el('div', 'hnl-done'); done.innerHTML = '<span class="hnl-sticker">🪷</span>'; root.appendChild(done);
       } else if (!ready) {
         // MODEL phase: direction + size controls
         var ctrls = api.el('div', 'hnl-ctrls');
@@ -134,9 +144,13 @@
           var b = api.el('button', 'hnl-size' + (self.sizeV === sz ? ' hnl-on' : '')); b.type = 'button'; b.textContent = sz;
           b.setAttribute('aria-label', api.t('ariaHop').replace('{sz}', sz)); b.addEventListener('click', function () { self._setSize(sz); }); sizes.appendChild(b);
         });
-        ctrls.appendChild(sizes);
+        /* the caption belongs to the SIZE chips, so it travels with them. Centred on the
+           root it sat 69px left of them and read as labelling the direction pair too. */
+        var sizeCol = api.el('div', 'hnl-sizecol');
+        var hint = api.el('div', 'hnl-hint'); hint.textContent = api.t('sizeHint');
+        sizeCol.appendChild(sizes); sizeCol.appendChild(hint);
+        ctrls.appendChild(sizeCol);
         root.appendChild(ctrls);
-        var hint = api.el('div', 'hnl-hint'); hint.textContent = api.t('sizeHint'); root.appendChild(hint);
       } else {
         // DIAL phase: a compact recap of the hop + the dial (story + controls collapsed → clears the fold)
         var recap = api.el('div', 'hnl-recap');
@@ -162,6 +176,9 @@
 
     _renderLine: function (parent) {
       var api = this.api, self = this, max = this.snap.max;
+      /* a hit area may never be wider than the gap between two ticks, expressed as a % of
+         the SAME box the ticks are positioned in, so the two cannot drift apart. */
+      var pitchPct = (100 - 2 * PAD) / Math.max(1, (this.snap.ticks || []).length - 1);
       var wrap = api.el('div', 'hnl-line');
       // the axis + ticks
       var axis = api.el('div', 'hnl-axis'); axis.setAttribute('aria-hidden', 'true'); wrap.appendChild(axis);
@@ -169,7 +186,7 @@
         var x = self._pct(v);
         var tk = api.el('span', 'hnl-tick'); tk.style.left = x + '%'; wrap.appendChild(tk);
         var lab = api.el('span', 'hnl-ticklab'); lab.style.left = x + '%'; lab.textContent = v; wrap.appendChild(lab);
-        if (!self.solved) { var hit = api.el('button', 'hnl-tickhit'); hit.type = 'button'; hit.style.left = x + '%'; hit.setAttribute('aria-label', api.t('ariaStart').replace('{v}', v)); hit.addEventListener('click', function () { self._setStart(v); }); wrap.appendChild(hit); }
+        if (!self.solved) { var hit = api.el('button', 'hnl-tickhit'); hit.type = 'button'; hit.style.left = x + '%'; hit.style.width = pitchPct + '%'; hit.setAttribute('aria-label', api.t('ariaStart').replace('{v}', v)); hit.addEventListener('click', function () { self._setStart(v); }); wrap.appendChild(hit); }
       });
       // the hop span (start → landing) once the model is set
       var land = this._landing();
@@ -248,7 +265,7 @@
         + '.hnl-line{position:relative;height:clamp(64px,15vw,82px);margin:1px 0 0;}'
         + '.hnl-axis{position:absolute;left:' + PAD + '%;right:' + PAD + '%;top:54%;height:4px;border-radius:2px;background:' + C.POND + ';}'
         + '.hnl-tick{position:absolute;top:54%;width:2px;height:11px;background:rgba(20,107,94,.6);transform:translate(-50%,-3px);}'
-        + '.hnl-ticklab{position:absolute;top:calc(54% + 12px);transform:translateX(-50%);font:700 clamp(9px,2.3vw,11px)/1 "Baloo 2",sans-serif;color:' + C.T + ';}'
+        + '.hnl-ticklab{position:absolute;top:calc(54% + 12px);transform:translateX(-50%);font:700 clamp(11.5px,3.1vw,15px)/1 "Baloo 2",sans-serif;color:' + C.T + ';}'
         + '.hnl-tickhit{position:absolute;top:54%;width:clamp(26px,7vw,34px);height:44px;transform:translate(-50%,-22px);background:transparent;border:0;border-radius:8px;cursor:pointer;touch-action:manipulation;padding:0;}'
         + '.hnl-tickhit:active{background:rgba(242,120,75,.12);}'
         + '.hnl-span{position:absolute;top:calc(54% - 9px);height:11px;background:rgba(242,120,75,.4);border:2px solid ' + C.CORAL + ';border-radius:7px;display:flex;align-items:center;justify-content:center;pointer-events:none;}'
@@ -259,27 +276,30 @@
         /* controls */
         + '.hnl-ctrls{display:flex;flex-wrap:wrap;gap:clamp(5px,1.4vw,9px);justify-content:center;align-items:center;}'
         + '.hnl-dirs{display:flex;gap:5px;}'
-        + '.hnl-dir{min-height:42px;padding:0 clamp(9px,2.6vw,14px);border-radius:11px;border:2px solid rgba(20,107,94,.3);background:#fff;color:' + C.T + ';font:800 clamp(12px,3vw,15px)/1 "Baloo 2",sans-serif;cursor:pointer;touch-action:manipulation;}'
+        + '.hnl-sizecol{display:flex;flex-direction:column;align-items:center;gap:4px;}'
+        + '.lcs-app:not(.hnl-resolved) .lcs-activity-check{display:none !important;}'
+        + '.hnl-dir{min-height:44px;padding:0 clamp(9px,2.6vw,14px);border-radius:11px;border:2px solid rgba(20,107,94,.3);background:#fff;color:' + C.T + ';font:800 clamp(12px,3vw,15px)/1 "Baloo 2",sans-serif;cursor:pointer;touch-action:manipulation;}'
         + '.hnl-dir.hnl-on{border-color:' + C.T + ';background:#DCEFE8;box-shadow:0 0 0 2px rgba(20,107,94,.25);}'
         + '.hnl-sizes{display:flex;gap:clamp(5px,1.5vw,8px);}'
         + '.hnl-size{min-width:46px;height:46px;border-radius:12px;border:2px solid rgba(242,120,75,.5);background:#fff;color:' + C.CORAL2 + ';font:800 clamp(16px,4.2vw,20px)/1 "Baloo 2",sans-serif;cursor:pointer;touch-action:manipulation;}'
         + '.hnl-size.hnl-on{border-color:' + C.CORAL + ';background:#FFF1EA;box-shadow:0 0 0 3px rgba(242,120,75,.32);transform:translateY(-2px);}.hnl-size:active{transform:translateY(1px);}'
         + '.hnl-hint{text-align:center;font:700 clamp(11px,2.8vw,13px)/1.2 "Baloo 2",sans-serif;color:' + C.T + ';}'
         + '.hnl-recap{display:flex;align-items:center;justify-content:center;gap:8px;font:800 clamp(18px,4.8vw,24px)/1 "Baloo 2",sans-serif;color:' + C.T + ';background:rgba(20,107,94,.07);border-radius:11px;padding:clamp(4px,1.2vw,7px);}'
-        + '.hnl-edit{flex:0 0 auto;width:32px;height:32px;border-radius:8px;border:0;background:#fff;box-shadow:0 1px 0 rgba(0,0,0,.12);font-size:15px;cursor:pointer;color:' + C.T + ';touch-action:manipulation;}.hnl-edit:active{transform:translateY(1px);}'
+        + '.hnl-edit{flex:0 0 auto;width:44px;height:44px;border-radius:8px;border:0;background:#fff;box-shadow:0 1px 0 rgba(0,0,0,.12);font-size:15px;cursor:pointer;color:' + C.T + ';touch-action:manipulation;}.hnl-edit:active{transform:translateY(1px);}'
         /* dial */
         + '.hnl-disprow{display:flex;align-items:center;justify-content:center;}'
         + '.hnl-disp{min-width:60px;height:clamp(30px,6.5vw,36px);padding:0 16px;border-radius:11px;background:#fff;box-shadow:inset 0 0 0 2px ' + C.T + ';display:inline-flex;align-items:center;justify-content:center;font:800 clamp(16px,4.2vw,21px)/1 "Baloo 2",sans-serif;color:' + C.T + ';}'
-        + '.hnl-keypad{display:grid;grid-template-columns:repeat(6,clamp(40px,8vw,46px));gap:clamp(3px,1vw,5px);justify-content:center;}'
+        + '.hnl-keypad{display:grid;grid-template-columns:repeat(6,clamp(44px,8vw,46px));gap:clamp(3px,1vw,5px);justify-content:center;}'
         + '.hnl-key{width:100%;aspect-ratio:1;border-radius:9px;border:0;background:#fff;box-shadow:0 2px 0 rgba(20,107,94,.16);cursor:pointer;font:800 clamp(13px,3.4vw,17px)/1 "Baloo 2",sans-serif;color:' + C.T + ';touch-action:manipulation;display:inline-flex;align-items:center;justify-content:center;}.hnl-key:active{transform:translateY(1px);}'
-        + '.hnl-hop{align-self:center;min-height:46px;padding:0 clamp(18px,5vw,28px);border-radius:24px;border:0;background:' + C.CORAL + ';color:#fff;font:800 clamp(14px,3.8vw,18px)/1 "Baloo 2",sans-serif;cursor:pointer;box-shadow:0 3px 0 ' + C.CORAL2 + ';touch-action:manipulation;}'
+        + '.hnl-hop{align-self:center;min-height:46px;padding:0 clamp(18px,5vw,28px);border-radius:24px;border:0;background:' + C.CORAL + ';color:' + C.INK + ';font:800 clamp(14px,3.8vw,18px)/1 "Baloo 2",sans-serif;cursor:pointer;box-shadow:0 3px 0 ' + C.CORAL2 + ';touch-action:manipulation;}'
         + '.hnl-hop:disabled{opacity:.45;cursor:default;box-shadow:none;}.hnl-hop:active:not(:disabled){transform:translateY(2px);}'
         + '.hnl-dir:focus-visible,.hnl-size:focus-visible,.hnl-key:focus-visible,.hnl-hop:focus-visible,.hnl-tickhit:focus-visible,.hnl-replay:focus-visible{outline:3px solid var(--lcs-focus,#1E8FD4);outline-offset:2px;}'
         + '.hnl-done{display:flex;flex-direction:column;align-items:center;gap:4px;padding:6px;}.hnl-sticker{font-size:clamp(32px,8vw,48px);animation:hnlBounce .6s ease;}.hnl-donetext{font:800 clamp(13px,3.2vw,16px)/1.2 "Baloo 2",sans-serif;color:' + C.GOOD + ';text-align:center;}'
         + '@media (min-width:760px){.hnl-root{padding:14px 16px;}}'
-        + '@media (max-height:680px){.hnl-root{gap:3px;}.hnl-frog{font-size:20px;}.hnl-story{padding:4px 8px;}.hnl-storytext{font-size:11.5px;line-height:1.16;}.hnl-line{height:66px;}.hnl-dir{min-height:40px;}.hnl-size{min-width:44px;height:44px;}.hnl-hop{min-height:44px;}}'
+        + '@media (max-height:680px){.hnl-root{gap:3px;}.hnl-frog{font-size:20px;}.hnl-story{padding:4px 8px;}.hnl-storytext{font-size:11.5px;line-height:1.16;}.hnl-line{height:66px;}.hnl-dir{min-height:44px;}.hnl-size{min-width:44px;height:44px;}.hnl-hop{min-height:44px;}}'
         + '@media (max-height:640px){.hnl-root{gap:2px;padding:5px;}.hnl-saytop{font-size:10.5px;}.hnl-frog{font-size:18px;}.hnl-story{padding:3px 7px;}.hnl-storytext{font-size:11px;line-height:1.1;}.hnl-line{height:52px;}.hnl-frogmark{font-size:17px;}.hnl-size{min-width:44px;height:44px;}.hnl-keypad{gap:3px;}.hnl-recap{font-size:17px;padding:3px;}.hnl-disp{height:28px;}.hnl-hop{min-height:44px;}}'
-        + '@media (max-width:380px){.hnl-root{gap:3px;padding:6px;}.hnl-storytext{font-size:11px;}.hnl-ticklab{font-size:8.5px;}.hnl-size{min-width:44px;height:44px;}}'
+        + '@media (max-width:340px){.hnl-keypad{grid-template-columns:repeat(5,clamp(44px,13vw,46px));}}'
+        + '@media (max-width:380px){.hnl-root{gap:3px;padding:6px;}.hnl-storytext{font-size:11px;}.hnl-size{min-width:44px;height:44px;}}'
         + '@media (prefers-reduced-motion: reduce){.hnl-bounce,.hnl-sticker{animation:none!important;}}';
       var tag = document.createElement('style'); tag.setAttribute('data-hoppers-number-line', ''); tag.textContent = css; document.head.appendChild(tag);
     }

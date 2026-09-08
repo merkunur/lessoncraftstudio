@@ -86,11 +86,27 @@ const F = (cond, msg) => { if (!cond) fails.push(msg); };
   F(wrongDir === 0, `WRONG-DIR solved ${wrongDir}/${N} (direction must be graded)`);
   F(wrongStart === 0, `WRONG-START solved ${wrongStart}/${N} (start must be graded)`);
 
+  /* RANK CHEAT — can the deck be beaten by always choosing the same-ranked NUMBER? */
+  const rankOf = (r) => [r.size].concat(r.decoys || []).sort((a, b) => a - b).indexOf(r.size);
+  const rankTally = [0, 0, 0];
+  rounds.forEach((r) => { const k = rankOf(r); if (k >= 0 && k < 3) rankTally[k]++; });
+  const rankNames = ['smallest', 'middle', 'largest'];
+  const worstRank = rankTally.indexOf(Math.max.apply(null, rankTally));
+  /* a blind "always pick the <rank>" strategy must not beat most of the deck */
+  F(rankTally[worstRank] * 2 <= rounds.length,
+    `RANK-CHEAT: "always pick the ${rankNames[worstRank]} number" solves ${rankTally[worstRank]}/${rounds.length} rounds with no maths ` +
+    `(ranks smallest/middle/largest = ${rankTally.join('/')})`);
+  /* and a rank that never holds the answer is one the child can safely stop reading */
+  rankTally.forEach((n2, k) => F(n2 > 0,
+    `RANK-CHEAT: the correct size is NEVER the ${rankNames[k]} number (${rankTally.join('/')}), so that chip can be ignored on sight`));
+
+
   console.log(`bank: ${rounds.length} rounds | dirs: ${[...dirs].join('/')} | max range: ${Math.min.apply(null, rounds.map(r => r.max))}..${Math.max.apply(null, rounds.map(r => r.max))}`);
   console.log(`  ${oracle === N ? 'ok  ' : 'FAIL'} modeler oracle: ${oracle}/${N}`);
   ['dialGrab', 'wrongSize', 'wrongDir', 'wrongStart'].forEach((k) => { const v = { dialGrab, wrongSize, wrongDir, wrongStart }[k]; console.log(`  ${v === 0 ? 'ok  ' : 'FAIL'} ${k}: ${v}/${N} (must be 0)`); });
+  console.log(`  ${rankTally.every((n2) => n2 > 0) && Math.max.apply(null, rankTally) * 2 <= rounds.length ? 'ok  ' : 'FAIL'} rank spread (smallest/middle/largest): ${rankTally.join('/')} of ${rounds.length}`);
   console.log('');
   if (fails.length) { console.error(`VERIFY-NUMBERLINE-JUMP FAILED — ${fails.length} issue(s):`); fails.forEach((m) => console.error('  • ' + m)); process.exit(1); }
-  console.log('VERIFY-NUMBERLINE-JUMP PASSED — the hop-modeler oracle solves 100%; DIAL-GRAB / WRONG-SIZE / WRONG-DIR / WRONG-START all 0 (the full model — start + direction + size — is graded, and the landing is computed not read). Landing derived-not-authored; decoy size on every round; start/size/landing on-tick + on-line; within-100; forward + back present; >=7 distinct rounds.');
+  console.log('VERIFY-NUMBERLINE-JUMP PASSED — the hop-modeler oracle solves 100%; DIAL-GRAB / WRONG-SIZE / WRONG-DIR / WRONG-START all 0 (the full model — start + direction + size — is graded, and the landing is computed not read). Landing derived-not-authored; decoy size on every round; no rank cheat (no blind "pick the smallest/middle/largest number" beats most of the deck); start/size/landing on-tick + on-line; within-100; forward + back present; >=7 distinct rounds.');
   process.exit(0);
 })();

@@ -73,7 +73,8 @@ const MIN_CONTENT_PX = 14;     // "not tiny"
 const SPARSE_AREA = 0.32;      // content/card area floor
 const SPARSE_WIDTH = 0.45;     // content/card width floor
 const MIN_TAP = 44;            // answer-card tap target
-const MIN_KEYPAD_TAP = 36;     // §A.13.55 K-2 shell-control minimum; the shell ships minmax(36px,1fr)
+const MIN_KEYPAD_TAP = 36;
+const MIN_AXIS_W = 20;         // a scale tick may be narrow, but not a hairline     // §A.13.55 K-2 shell-control minimum; the shell ships minmax(36px,1fr)
 
 function serve() {
   return http.createServer((req, res) => {
@@ -138,31 +139,57 @@ function measureInPage() {
      when the card selector found nothing, so measured activities are unaffected. */
   const fallbackControls = cards.length ? [] : Array.from(document.querySelectorAll(
     '.lcs-app button, .lcs-app [role="button"]'
-  )).filter(el => !/(^|\s)lcs-/.test(el.getAttribute('class') || '')).filter(vis)
+  )).filter(el => !/(^|\s)lcs-/.test(el.getAttribute('class') || ''))
+    /* an axis control is judged by the axis rule instead — never by both */
+    .filter(el => !(window.__VQA_AXIS_SEL && el.matches(window.__VQA_AXIS_SEL))).filter(vis)
     .filter(el => { const r = el.getBoundingClientRect(); return r.width > 8 && r.height > 8; });
 
   /* the shell KEYPAD is the answer surface for answerType:'number' activities. Counted for
      FITS + TAP only; NOT as an answer card, so SPARSE/NOT-TINY are unchanged elsewhere. */
+  /* controls laid out along one shared axis (number-line ticks and the like). Measured for
+     OVERLAP rather than against the flat answer-card floor — see MIN_AXIS_W. */
+  const axisSel = window.__VQA_AXIS_SEL || null;
+  let axis = null;
+  if (axisSel) {
+    const els = Array.from(document.querySelectorAll(axisSel)).filter(vis)
+      .map(el => el.getBoundingClientRect()).filter(r => r.width > 0 && r.height > 0)
+      .sort((a, b) => a.left - b.left);
+    if (els.length) {
+      let worstOverlap = 0, minW = Infinity, minH = Infinity, minPitch = Infinity;
+      for (let i = 0; i < els.length; i++) {
+        minW = Math.min(minW, els[i].width); minH = Math.min(minH, els[i].height);
+        if (i) {
+          minPitch = Math.min(minPitch, (els[i].left + els[i].width / 2) - (els[i - 1].left + els[i - 1].width / 2));
+          worstOverlap = Math.max(worstOverlap, els[i - 1].right - els[i].left);
+        }
+      }
+      axis = { n: els.length, worstOverlap: Math.round(worstOverlap * 10) / 10, minW: Math.round(minW * 10) / 10, minH: Math.round(minH * 10) / 10, minPitch: Math.round(minPitch * 10) / 10 };
+    }
+  }
   const keypadKeys = Array.from(document.querySelectorAll('.lcs-activity-keypad .lcs-activity-key, .lcs-activity-keypad button'))
     .filter(vis).filter(el => { const r = el.getBoundingClientRect(); return r.width > 8 && r.height > 8; });
 
   let worstSparse = null, minTap = Infinity, controlBottom = 0, unmeasured = 0;
   let minKeypadTap = Infinity;
+  let minTapCls = null, minKeypadCls = null;
   keypadKeys.forEach(el => {
     const r = el.getBoundingClientRect();
     /* NOT folded into minTap: a 37px key must never mask an undersized answer CARD */
-    minKeypadTap = Math.min(minKeypadTap, Math.min(r.width, r.height));
+    const kd = Math.min(r.width, r.height);
+    if (kd < minKeypadTap) { minKeypadTap = kd; minKeypadCls = (el.getAttribute('class') || el.tagName).slice(0, 28); }
     controlBottom = Math.max(controlBottom, r.bottom);
   });
   fallbackControls.forEach(el => {
     const r = el.getBoundingClientRect();
-    minTap = Math.min(minTap, Math.min(r.width, r.height));
+    const fd = Math.min(r.width, r.height);
+    if (fd < minTap) { minTap = fd; minTapCls = (el.getAttribute('class') || el.tagName).slice(0, 28); }
     controlBottom = Math.max(controlBottom, r.bottom);
   });
   cards.forEach(el => {
     const cr = el.getBoundingClientRect();
     if (cr.width < 8 || cr.height < 8) return;
-    minTap = Math.min(minTap, Math.min(cr.width, cr.height));
+    const cd = Math.min(cr.width, cr.height);
+    if (cd < minTap) { minTap = cd; minTapCls = (el.getAttribute('class') || el.tagName).slice(0, 28); }
     controlBottom = Math.max(controlBottom, cr.bottom);
     // content bbox = union of child svg/img (excluding tiny check/badge icons)
     const kids = el.querySelectorAll('svg, img');
@@ -280,12 +307,13 @@ function measureInPage() {
     vw, vh, appH, overflowX,
     controlBottom: Math.round(controlBottom),
     minContent: minContent === Infinity ? null : Math.round(minContent), minContentCls,
+    minTapCls, minKeypadCls, axis,
     cards: cards.length, unmeasured, fallbackControls: fallbackControls.length, keypadKeys: keypadKeys.length, minKeypadTap: (minKeypadTap === Infinity ? null : Math.round(minKeypadTap)), headerClip, textClip,
     worstSparse, minTap: minTap === Infinity ? null : Math.round(minTap),
   };
 }
 
-function evalGates(m) {
+function evalGates(m, terminal) {
   const fails = [];
   // "fits" = the lowest control (all choices + Check) is visible; trailing app
   // padding does not count as cut-off. Falls back to appH if no controls found.
@@ -301,14 +329,51 @@ function evalGates(m) {
      one control of its own on the screen; measuring none means the instrument
      missed, not that the layout is good. */
   const measuredControls = m.cards + (m.fallbackControls || 0) + (m.keypadKeys || 0);
-  if (measuredControls === 0) fails.push('NO-CONTROLS-MEASURED(neither an answer card nor a tool button was found — the gate measured nothing)');
-  if (measuredControls > 0 && m.minTap != null && m.minTap < MIN_TAP) fails.push(`TAP(${m.minTap}px<${MIN_TAP})`);
+  /* A terminal phase (a win screen) legitimately carries no TOOL control — the child
+     advances with the shell's own Check/Next, which the fallback selector excludes by
+     design. The driver asserts this per step; every other gate still runs. */
+  if (!terminal && measuredControls === 0) fails.push('NO-CONTROLS-MEASURED(neither an answer card nor a tool button was found — the gate measured nothing)');
+  if (!terminal && measuredControls > 0 && m.minTap != null && m.minTap < MIN_TAP) fails.push(`TAP(${m.minTap}px<${MIN_TAP} on .${m.minTapCls})`);
   /* the shell keypad's own floor — 36px, the recorded K-2 minimum for shell controls
      (audit-activity-mobile.js WARNs below it; the shell ships minmax(36px,1fr)). */
-  if (m.minKeypadTap != null && m.minKeypadTap < MIN_KEYPAD_TAP) fails.push(`KEYPAD-TAP(${m.minKeypadTap}px<${MIN_KEYPAD_TAP})`);
+  if (m.minKeypadTap != null && m.minKeypadTap < MIN_KEYPAD_TAP) fails.push(`KEYPAD-TAP(${m.minKeypadTap}px<${MIN_KEYPAD_TAP} on .${m.minKeypadCls})`);
+  if (m.axis) {
+    if (m.axis.worstOverlap > 0.5) fails.push(`AXIS-OVERLAP(${m.axis.worstOverlap}px — adjacent targets overlap on a ${m.axis.minPitch}px pitch; a tap near a boundary selects the neighbour)`);
+    if (m.axis.minW < MIN_AXIS_W) fails.push(`AXIS-WIDTH(${m.axis.minW}px<${MIN_AXIS_W})`);
+    if (m.axis.minH < MIN_TAP) fails.push(`AXIS-HEIGHT(${m.axis.minH}px<${MIN_TAP} — height is unconstrained, so there is no excuse for it)`);
+  }
   if (m.headerClip) fails.push(`HEADER-CLIP(shell title ${m.headerClip.overlapPx ? 'overlaps controls ' + m.headerClip.overlapPx + 'px' : 'ellipsized ' + m.headerClip.textClipPx + 'px'})`);
   if (m.textClip) fails.push(`TEXT-CLIP(${m.textClip.cls} line-clamp:${m.textClip.lines} hides ${m.textClip.clipPx}px — "${m.textClip.text}")`);
   return fails;
+}
+
+/* ---- phase drivers -------------------------------------------------------
+   scripts/visual-qa-phases/<safe-activity-id>.js exports { steps: [{name, drive(page)}] }.
+   Where one exists, every round is measured at the opening frame AND after each step. */
+const PHASE_DIR = path.join(__dirname, 'visual-qa-phases');
+function loadPhaseDriver(id) {
+  const f = path.join(PHASE_DIR, safe(id) + '.js');
+  if (!fs.existsSync(f)) return null;
+  const d = require(f);
+  if (!d || !Array.isArray(d.steps) || !d.steps.length) {
+    console.error('FAIL: ' + f + ' exports no steps[] — a driver that drives nothing is worse than none');
+    process.exit(2);
+  }
+  d.steps.forEach((s, i) => {
+    if (!s || typeof s.drive !== 'function' || !s.name) {
+      console.error('FAIL: ' + f + ' step ' + i + ' needs {name, drive(page)}');
+      process.exit(2);
+    }
+  });
+  return d;
+}
+/* what is on the screen right now, as a string. A step that does not change this did
+   NOT happen, whatever it returned. */
+function controlSignature() {
+  const app = document.querySelector('.lcs-app');
+  if (!app) return '';
+  const nodes = [...app.querySelectorAll('button,input,select,[role="button"]')];
+  return nodes.length + '|' + nodes.map(n => (n.className || '') + ':' + (n.textContent || '').trim().slice(0, 12)).join(',');
 }
 
 (async () => {
@@ -316,6 +381,8 @@ function evalGates(m) {
   if (!A.slug) { console.error('activity has no slug for locale ' + LOCALE); process.exit(2); }
   if (!A.global) console.warn('WARN: could not parse LCS.mount global from ' + A.html + ' — round-forcing disabled (round 0 only)');
 
+  const DRIVER = loadPhaseDriver(ACTIVITY);
+  const AXIS_SEL = (DRIVER && DRIVER.axisControls && DRIVER.axisControls.selector) || null;
   const puppeteer = require('puppeteer');
   const server = serve();
   await new Promise(r => server.listen(0, '127.0.0.1', r));
@@ -336,6 +403,8 @@ function evalGates(m) {
   await page.setViewport({ width: 412, height: 900, deviceScaleFactor: 2 });
   await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
   await page.waitForFunction(() => document.querySelector('.lcs-app'), { timeout: 15000 });
+  if (AXIS_SEL) await page.evaluateOnNewDocument(s => { window.__VQA_AXIS_SEL = s; }, AXIS_SEL);
+  if (AXIS_SEL) await page.evaluate(s => { window.__VQA_AXIS_SEL = s; }, AXIS_SEL);
 
   // pool size (round count) for nextTask-pattern tools
   let N = 1;
@@ -362,24 +431,51 @@ function evalGates(m) {
     return ok;
   }
 
-  const records = []; // {round, w, h, fails, m}
-  console.log(`visual-qa: ${ACTIVITY}  (${A.html}, global ${A.global || '—'}, ${N} round(s) × ${VIEWPORTS.length} viewports)\n`);
+  const records = []; // {round, phase, w, h, fails, m}
+  const phaseFaults = [];
+  console.log(`visual-qa: ${ACTIVITY}  (${A.html}, global ${A.global || '—'}, ${N} round(s) × ${VIEWPORTS.length} viewports)`);
+  if (AXIS_SEL) console.log('  axis controls: ' + AXIS_SEL + '  — measured for OVERLAP + width + height, not the flat ' + MIN_TAP + 'px card floor\n    (' + DRIVER.axisControls.why + ')');
+  if (DRIVER) console.log(`  phases: open + ${DRIVER.steps.map(s => s.name).join(' + ')}  (${DRIVER.steps.length + 1} per round)`);
+  else console.log('  phases: open ONLY — no driver at scripts/visual-qa-phases/' + safe(ACTIVITY) + '.js.\n' +
+                  '  ⚠ If this activity has a second screen (a keypad, a recap, a win state), NOTHING below has ever seen it.');
+  console.log('');
 
   for (let k = 0; k < N; k++) {
     const forced = await forceRound(k);
     if (A.global && !forced && k > 0) break; // non-pool tool: only round 0 is meaningful
     await page.waitForFunction(() => document.querySelector('.lcs-app'), { timeout: 5000 }).catch(() => {});
-    for (const vp of VIEWPORTS) {
-      await page.setViewport({ width: vp.w, height: vp.h, deviceScaleFactor: 2 });
-      await new Promise(r => setTimeout(r, 260)); // settle fonts + clamp() reflow
-      const m = await page.evaluate(measureInPage);
-      const fails = evalGates(m);
-      records.push({ round: k, w: vp.w, h: vp.h, fails, m });
-      const tag = fails.length ? 'FAIL' : 'ok  ';
-      console.log(`  ${tag} r${k} @${vp.w}×${vp.h}  ctrlBottom=${m.controlBottom} cards=${m.cards}${m.fallbackControls ? '+' + m.fallbackControls + 'btn' : ''} content=${m.minContent ?? '—'} sparse=${m.worstSparse ? m.worstSparse.areaRatio.toFixed(2) : '—'} tap=${m.minTap ?? '—'}${fails.length ? '  :: ' + fails.join(' | ') : ''}`);
-      if (SHOT_WIDTHS.has(vp.w)) {
-        const f = path.join(SHOT_DIR, `${safe(ACTIVITY)}-r${k}-${vp.w}x${vp.h}.png`);
-        await page.screenshot({ path: f, fullPage: true });
+
+    /* the phases of THIS round: the opening frame, then one per driver step. */
+    const phases = ['open'].concat(DRIVER ? DRIVER.steps.map(s => s.name) : []);
+    for (let pi = 0; pi < phases.length; pi++) {
+      if (pi > 0) {
+        /* drive into the next phase at a mid-sweep width, then sweep it. A step that does
+           not move the control signature DID NOT HAPPEN — fail loudly (#39). */
+        await page.setViewport({ width: 412, height: 820, deviceScaleFactor: 2 });
+        await new Promise(r => setTimeout(r, 120));
+        const before = await page.evaluate(controlSignature);
+        let drove = false, why = '';
+        try { drove = await DRIVER.steps[pi - 1].drive(page); } catch (e) { why = e.message; }
+        await new Promise(r => setTimeout(r, 160));
+        const after = await page.evaluate(controlSignature);
+        if (drove === false) { phaseFaults.push(`r${k}/${phases[pi]}: the step reported it could not run${why ? ' — ' + why : ''}`); break; }
+        if (before === after) { phaseFaults.push(`r${k}/${phases[pi]}: the step ran but the screen did not change — it did not happen`); break; }
+      }
+      for (const vp of VIEWPORTS) {
+        await page.setViewport({ width: vp.w, height: vp.h, deviceScaleFactor: 2 });
+        await new Promise(r => setTimeout(r, 260)); // settle fonts + clamp() reflow
+        const m = await page.evaluate(measureInPage);
+        const isTerminal = pi > 0 && DRIVER.steps[pi - 1].terminal === true;
+        const fails = evalGates(m, isTerminal);
+        records.push({ round: k, phase: phases[pi], w: vp.w, h: vp.h, fails, m });
+        const tag = fails.length ? 'FAIL' : 'ok  ';
+        const ph = pi === 0 ? '' : '/' + phases[pi];
+        console.log(`  ${tag} r${k}${ph} @${vp.w}×${vp.h}  ctrlBottom=${m.controlBottom} cards=${m.cards}${m.fallbackControls ? '+' + m.fallbackControls + 'btn' : ''} content=${m.minContent ?? '—'} sparse=${m.worstSparse ? m.worstSparse.areaRatio.toFixed(2) : '—'} tap=${m.minTap ?? '—'}${fails.length ? '  :: ' + fails.join(' | ') : ''}`);
+        if (SHOT_WIDTHS.has(vp.w)) {
+          const suffix = pi === 0 ? '' : '-' + safe(phases[pi]);
+          const f = path.join(SHOT_DIR, `${safe(ACTIVITY)}-r${k}${suffix}-${vp.w}x${vp.h}.png`);
+          await page.screenshot({ path: f, fullPage: true });
+        }
       }
     }
   }
@@ -389,13 +485,19 @@ function evalGates(m) {
 
   const failed = records.filter(r => r.fails.length);
   console.log('');
+  if (phaseFaults.length) {
+    console.error(`VISUAL-QA FAILED — ${phaseFaults.length} phase driver fault(s):`);
+    phaseFaults.forEach(f => console.error('  • ' + f));
+    process.exit(1);
+  }
   if (errs.length) console.log(`NOTE console errors: ${errs.slice(0, 3).join(' | ')}`);
   console.log(`Screenshots: ${SHOT_DIR}  (widths ${[...SHOT_WIDTHS].join('/')} × ${N} round(s))`);
   if (failed.length) {
     console.error(`\nVISUAL-QA FAILED — ${failed.length}/${records.length} (round × viewport) render(s):`);
-    failed.forEach(r => console.error(`  • r${r.round} @${r.w}×${r.h} — ${r.fails.join(' | ')}`));
+    failed.forEach(r => console.error(`  • r${r.round}${r.phase && r.phase !== 'open' ? '/' + r.phase : ''} @${r.w}×${r.h} — ${r.fails.join(' | ')}`));
     process.exit(1);
   }
-  console.log(`\nVISUAL-QA PASSED — ${records.length} renders across ${N} round(s) × ${VIEWPORTS.length} viewports: FITS (no cut-off) + no overflow + content ≥${MIN_CONTENT_PX}px + not sparse + tap ≥${MIN_TAP}px at EVERY width incl. desktop 768/1024.`);
+  const phaseCount = new Set(records.map(r => r.phase)).size;
+  console.log(`\nVISUAL-QA PASSED — ${records.length} renders across ${N} round(s) × ${phaseCount} phase(s) × ${VIEWPORTS.length} viewports: FITS (no cut-off) + no overflow + content ≥${MIN_CONTENT_PX}px + not sparse + tap ≥${MIN_TAP}px at EVERY width incl. desktop 768/1024.`);
   process.exit(0);
 })().catch(e => { console.error('ERROR:', e.message); process.exit(2); });

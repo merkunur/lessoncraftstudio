@@ -129,8 +129,24 @@ const FACE = { de: 'Zifferblatt', fr: 'cadran', es: 'carátula', pt: 'mostrador'
     else if (clocks.length) bad('A5: an analog choice card has no accessible name');
     if (match.hiddenFaceLabels.filter((h) => h === 'true').length >= clocks.length && clocks.length) ok('A5: inner dials hidden from assistive tech inside the buttons');
 
-    /* A2 — reported, not enforced yet */
-    const target = digital.length ? null : null;
+    /* A9 — the hidden list must be in the SAME order as the buttons.
+       Found by the French panel by reading the engine: render() draws in the per-round
+       shuffle `_optOrder` while _srMirror() built its list from the raw round.options, so a
+       screen-reader user heard the choices in a different order from the one they then tab
+       through. Silent, all-locale, and fatal to any attempt to number the items. */
+    if (digital.length >= 2) {
+      const visible = digital.map((c) => c.visible);
+      const inSr = visible.filter((v) => read.sr.includes(v));
+      if (inSr.length < visible.length) bad('A9: not every visible choice appears in the sr text');
+      else {
+        const idx = visible.map((v) => read.sr.indexOf(v));
+        const ordered = idx.every((v, i) => i === 0 || v > idx[i - 1]);
+        if (ordered) ok('A9: sr list is in the same order as the buttons (' + visible.join(', ') + ')');
+        else bad('A9: sr list order differs from the button order — sr "' + read.sr.trim().slice(0, 80) + '" vs buttons ' + visible.join(', '));
+      }
+    }
+
+    /* A2 — reported, not enforced yet: the sr block still states the target time. */
     if (read.sr) console.log('  note A2: sr text still reads — "' + read.sr.trim().slice(0, 90) + '..."');
 
     await page.close();

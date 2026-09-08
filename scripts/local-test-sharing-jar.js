@@ -145,6 +145,47 @@ function serve() {
     console.log(`  FAIL sharing-jar/en — ${e.message}`);
   } finally { await page.close(); }
 
+  /* ---- the decide phase must never draw the unknown ------------------------------- */
+  try {
+    const gpage = await browser.newPage();
+    await gpage.setViewport({ width: 412, height: 900 });
+    await gpage.goto(`http://127.0.0.1:${PORT}/sharing-jar-activity.html?lang=en&activity=${ACTIVITY}&embed=1`, { waitUntil: 'networkidle2', timeout: 30000 });
+    await gpage.waitForFunction(() => window.SharingJarActivity && window.SharingJarActivity._activityRow, { timeout: 15000 });
+    await gpage.evaluate(() => {
+      const t = window.SharingJarActivity, n = t._pool.length, order = []; for (let i = 0; i < n; i++) order.push(i);
+      const k = t._pool.findIndex(x => x.id === 'sharing-jar.give-it-back');
+      if (k > 0) { order.splice(k, 1); order.unshift(k); }
+      t._order = order; t._orderForPool = t._pool; t._curPass = 0; window.LCS_reloadFirstTask();
+    });
+    await gpage.waitForFunction(() => document.querySelector('.sj-bead'), { timeout: 5000 });
+    const g = await gpage.evaluate(() => {
+      const st = window.SharingJarActivity;
+      return {
+        id: st.round && st.round.id,
+        solved: !!st.solved,
+        solid: document.querySelectorAll('.sj-bead:not(.sj-ghost)').length,
+        ghosts: document.querySelectorAll('.sj-ghost').length,
+        badge: (document.querySelector('.sj-badge') || {}).textContent || '',
+        nums: st.round && st.round.nums
+      };
+    });
+    /* non-vacuity: the board must actually be showing this round, mid-decide */
+    note(/give-it-back/.test(g.id || ''), `ghost check ran on the wrong round (${g.id}) — vacuous`);
+    note(!g.solved, 'ghost check ran after the round sealed — it must measure the DECIDE phase');
+    note(g.solid > 0, `no solid beads rendered (${g.solid}) — the ghost check would be vacuous`);
+    const s = g.nums && g.nums.s, r = g.nums && g.nums.r, u = (s != null && r != null) ? s - r : null;
+    note(u != null && u > 0, `could not derive the unknown from nums ${JSON.stringify(g.nums)} — vacuous`);
+    /* the defect itself */
+    note(g.ghosts === 0, `the decide phase draws ${g.ghosts} ghost bead(s) — that IS the unknown (${u}), countable on screen`);
+    note(g.solid === r, `the jar shows ${g.solid} solid beads, expected the given r=${r}`);
+    /* solvability: removing the ghosts must not strand the child */
+    note(g.badge.indexOf(String(s)) !== -1, `the badge does not state the start amount ${s} ("${g.badge}") — without the ghosts the round would be UNSOLVABLE`);
+    console.log(g.ghosts === 0 && g.badge.indexOf(String(s)) !== -1
+      ? `  ok   sharing-jar/restore — decide shows ${g.solid} beads + badge "${g.badge.trim()}", 0 ghosts (answer must be computed)`
+      : `  FAIL sharing-jar/restore — the decide phase leaks or strands the answer`);
+    await gpage.close();
+  } catch (e) { fails.push('sharing-jar/restore-ghost: ' + e.message); }
+
   await browser.close();
   server.close();
   console.log('');

@@ -39,8 +39,8 @@
 
   /* time-window meta: which window each tense lights, its label + glyph */
   var WINDOWS = [
-    { tense: 'past',    label: 'Before', glyph: '<circle cx="20" cy="20" r="11" fill="#F4E3A8"/><circle cx="24" cy="17" r="9" fill="#F3EEDC"/>' },                                  /* crescent moon */
-    { tense: 'present', label: 'Now',    glyph: '<g stroke="#E8A93A" stroke-width="2.4" stroke-linecap="round"><line x1="20" y1="3" x2="20" y2="8"/><line x1="20" y1="32" x2="20" y2="37"/><line x1="3" y1="20" x2="8" y2="20"/><line x1="32" y1="20" x2="37" y2="20"/><line x1="8" y1="8" x2="11" y2="11"/><line x1="29" y1="29" x2="32" y2="32"/><line x1="32" y1="8" x2="29" y2="11"/><line x1="11" y1="29" x2="8" y2="32"/></g><circle cx="20" cy="20" r="8.5" fill="#F2C14E"/>' },   /* sun */
+    { tense: 'past',    label: 'Before', glyph: '<circle cx="20" cy="20" r="11" fill="#F4E3A8" stroke="#7A5A12" stroke-width="1.8"/><circle cx="24" cy="17" r="9" fill="#F3EEDC" stroke="#7A5A12" stroke-width="1.4"/>' },                                  /* crescent moon */
+    { tense: 'present', label: 'Now',    glyph: '<g stroke="#7A5A12" stroke-width="2.4" stroke-linecap="round"><line x1="20" y1="3" x2="20" y2="8"/><line x1="20" y1="32" x2="20" y2="37"/><line x1="3" y1="20" x2="8" y2="20"/><line x1="32" y1="20" x2="37" y2="20"/><line x1="8" y1="8" x2="11" y2="11"/><line x1="29" y1="29" x2="32" y2="32"/><line x1="32" y1="8" x2="29" y2="11"/><line x1="11" y1="29" x2="8" y2="32"/></g><circle cx="20" cy="20" r="8.5" fill="#F2C14E" stroke="#7A5A12" stroke-width="1.6"/>' },   /* sun */
     { tense: 'future',  label: 'Soon',   glyph: '<circle cx="20" cy="21" r="12" fill="#EAF4F1" stroke="#146B5E" stroke-width="2.2"/><line x1="20" y1="21" x2="20" y2="13" stroke="#146B5E" stroke-width="2.2" stroke-linecap="round"/><line x1="20" y1="21" x2="26" y2="24" stroke="#146B5E" stroke-width="2.2" stroke-linecap="round"/><path d="M30 9 l4 1 l-1 4z" fill="#F2784B"/>' }   /* clock + forward arrow */
   ];
   function winFor(tense) { for (var i = 0; i < WINDOWS.length; i++) if (WINDOWS[i].tense === tense) return WINDOWS[i]; return WINDOWS[0]; }
@@ -179,12 +179,13 @@
         '.tn-win{flex:0 1 130px;display:flex;flex-direction:column;align-items:center;gap:3px;padding:7px 6px;border:2.5px solid #D7CBAE;border-radius:14px;background:#FFFDF6;opacity:.55;}',
         '.tn-win.on{opacity:1;border-color:#146B5E;background:#EAF4F1;box-shadow:0 0 0 3px rgba(20,107,94,.18);}',
         '.tn-win svg{width:40px;height:40px;display:block;}',
-        '.tn-wlab{font:800 .82rem/1 "Baloo 2",Nunito,system-ui,sans-serif;color:#5A4A22;}',
+        '.tn-wlab{font:800 clamp(.82rem,2.2vw,1.02rem)/1.1 "Baloo 2",Nunito,system-ui,sans-serif;color:#5A4A22;}',
         '.tn-win.on .tn-wlab{color:#0F4A40;}',
-        '.tn-say{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;}',
+        '.tn-say{display:grid;grid-template-columns:auto minmax(0,34em);justify-content:center;align-items:center;gap:8px;width:100%;}',
         '.tn-jun{flex:0 0 auto;}',
         '.tn-line-msg{flex:0 1 auto;min-height:1.1em;text-align:center;font:700 clamp(0.9rem,2.1vw,1.17rem)/1.3 Nunito,system-ui,sans-serif;color:#146B5E;margin:0;}',
-        '.tn-line-msg.miss{color:#C2410C;}',
+        '.tn-line-msg.miss{color:#C2410C;}'
+        + '.tn-line-msg.alsook{color:#7A5A12;}',
         '.tn-hear{align-self:center;border:2px solid #146B5E;border-radius:999px;background:#fff;color:#146B5E;font:700 .82rem/1 Nunito,sans-serif;padding:6px 16px;min-height:44px;cursor:pointer;}',
         '.tn-strip{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;width:100%;}',
         '.tn-cand{display:flex;align-items:center;justify-content:center;text-align:center;padding:11px 18px;border:3px solid #146B5E;border-radius:14px;background:#fff;cursor:pointer;min-height:50px;min-width:96px;font:800 clamp(1rem,3.8vw,1.18rem)/1.1 Nunito,system-ui,sans-serif;color:#0F4A40;}',
@@ -192,7 +193,7 @@
         '.tn-cand.lit{box-shadow:0 0 0 3px #F2C14E;background:#FFFBEF;}',
         '.tn-jun-svg .tn-eyes-happy{display:none;}.tn-jun[data-pose=happy] .tn-eyes-open{display:none;}.tn-jun[data-pose=happy] .tn-eyes-happy{display:block;}',
         '.tn-sronly{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);}',
-        '@media (max-width:380px){.tn-root{gap:5px;}.tn-windows{gap:7px;}.tn-win{flex-basis:78px;padding:2px 4px;gap:0;}.tn-win svg{width:24px;height:24px;}.tn-wlab{font-size:.68rem;}.tn-say{gap:6px;}.tn-strip{gap:7px;}.tn-cand{padding:6px 11px;min-width:76px;min-height:46px;font-size:.94rem;}.tn-hear{padding:5px 14px;}}',
+        '@media (max-width:380px){.tn-root{gap:5px;}.tn-windows{gap:7px;}.tn-win{flex-basis:78px;padding:2px 4px;gap:0;}.tn-win svg{width:24px;height:24px;}.tn-wlab{font-size:.78rem;}.tn-say{gap:6px;}.tn-strip{gap:7px;}.tn-cand{padding:6px 11px;min-width:76px;min-height:46px;font-size:.94rem;}.tn-hear{padding:5px 14px;}}',
         '.lcs-app:not(.juniper-resolved) .lcs-activity-check{display:none !important;}'
       ].join('');
       document.head.appendChild(s);
@@ -339,7 +340,7 @@
       var line = this._api.stage.querySelector('.tn-line-msg');
       /* NOT .miss — this is an affirmation, not a correction. The chip is not dimmed either:
          the child said something true and nothing about it should look spent. */
-      if (line) { line.textContent = txt('nAlsoOk'); line.classList.remove('miss'); }
+      if (line) { line.textContent = txt('nAlsoOk'); line.classList.remove('miss'); line.classList.add('alsook'); }
       this._api.announce && this._api.announce(txt('nAlsoOk'));
     },
 
@@ -349,7 +350,7 @@
       this.render();
       var line = this._api.stage.querySelector('.tn-line-msg');
       var _tw = { tw: (this._round && this._round.timeWord) || '' };
-      if (line) { line.textContent = txt(key, _tw); line.classList.add('miss'); }
+      if (line) { line.textContent = txt(key, _tw); line.classList.add('miss'); line.classList.remove('alsook'); }
       this._api.announce && this._api.announce(txt(key, _tw));
     },
 

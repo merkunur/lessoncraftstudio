@@ -79,6 +79,27 @@
        (3 verenkeling boom→bomen / 3 verdubbeling man→mannen / 1 f→v brief→brieven / 1 s→z huis→huizen / 1 -eren
        kind→kinderen); elk +s-tegel is een echt-fout niet-woord. Aanhalingstekens ‚…' = U+201A + U+2019 (veilig
        in JS single-quoted literals). GRADE Groep 4 auto (grade '2'). */
+    /* sv (Lgr22, åk 2; strand «Language» → «Språkliga strukturer och normer» via strand-names.ts,
+       NO route override): mascot «Måna» — the art is a MOON (pearlSVG draws craters + a face +
+       a pond ripple), and «Pärla» is unusable because sharing-jar already ships *pärlor* meaning
+       BEADS to the same age band. ⚠ The deck is NOT omljud-only: 6 vowel-change + 1 ending
+       (sko→skor) + 2 unchanged (barn, djur), so no string may claim the word always changes
+       inside. ⚠ nPlusS/nUnchanged are the error-specific nudges; the other six locales have not
+       authored them and keep their rule-keyed behaviour byte-for-byte. */
+    sv: {
+      q: '{q}',
+      win: 'Ja! {note}', winNote: 'Så blir ordet när det är flera!',
+      hear: '🔊 Lyssna',
+      /* ⚠ NO nChange. With both error-specific keys authored it is UNREACHABLE in Swedish:
+         a transform round offers exactly two wrong chips — the +s form (→ nPlusS) and the bare
+         singular (→ nUnchanged) — so the rule-keyed fallback can never fire. nNoChange still can,
+         via the +es chip on barn/djur. Authoring a string nothing reaches is the dead-string
+         defect; a poison test surfaced this by SURVIVING. */
+      nNoChange: '”{sing}” ser likadant ut om det är ett eller flera. Lägg inte till något på slutet!',
+      nPlusS: 'Ett -s på slutet visar vem något tillhör. Det betyder inte flera. Titta en gång till!',
+      nUnchanged: 'Så ser ordet ut när det är ett. Vilken form betyder flera?',
+      srMirror: '{q} Ordet är ”{sing}”. Alternativ: {chips}.'
+    },
     nl: {
       q: '{q}',
       win: 'Ja! {note}', winNote: 'een bijzonder meervoud, niet zomaar met -s!',
@@ -106,9 +127,9 @@
   var PluralActivity = {
     id: 'plural-activity',
     strings: {
-      title: { en: 'The Doubling Pond', de: 'Pearls Mehrzahl-Teich', fr: 'L’étang de Perle : les pluriels', es: 'El estanque de Pearl', pt: 'O Lago da Pérola', it: 'Lo stagno di Perla', nl: 'Parels meervoud-vijver' },
-      instruction: { en: 'Pick the right plural — the special word, not the lazy +s!', de: 'Tippe die richtige Mehrzahl – das besondere Wort mit Umlaut, nicht einfach mit -s!', fr: 'Touche le bon pluriel — la forme spéciale, pas seulement un -s !', es: 'Elige el plural correcto: la palabra especial, ¡no siempre basta con -s!', pt: 'Escolha o plural certo — a palavra especial, não é só juntar um s!', it: 'Scegli il plurale giusto: la parola cambia in modo speciale, non con la -s!', nl: 'Tik op het juiste meervoud — dit woord krijgt een bijzonder meervoud, niet zomaar met -s!' },
-      q: { en: '{q}', de: '{q}', fr: '{q}', pt: '{q}', it: '{q}', nl: '{q}' }
+      title: { en: 'The Doubling Pond', de: 'Pearls Mehrzahl-Teich', fr: 'L’étang de Perle : les pluriels', es: 'El estanque de Pearl', pt: 'O Lago da Pérola', it: 'Lo stagno di Perla', nl: 'Parels meervoud-vijver', sv: 'Månas pluraldamm' },
+      instruction: { en: 'Pick the right plural — the special word, not the lazy +s!', de: 'Tippe die richtige Mehrzahl – das besondere Wort mit Umlaut, nicht einfach mit -s!', fr: 'Touche le bon pluriel — la forme spéciale, pas seulement un -s !', es: 'Elige el plural correcto: la palabra especial, ¡no siempre basta con -s!', pt: 'Escolha o plural certo — a palavra especial, não é só juntar um s!', it: 'Scegli il plurale giusto: la parola cambia in modo speciale, non con la -s!', nl: 'Tik op het juiste meervoud — dit woord krijgt een bijzonder meervoud, niet zomaar met -s!', sv: 'Tryck på den form som betyder flera.' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', pt: '{q}', it: '{q}', nl: '{q}' , sv: '{q}' }
     },
 
     init: function (api) {
@@ -220,7 +241,7 @@
       /* Hear it */
       var self = this, hear = el('button', 'pl-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
-        var t = LANG === 'de' ? ('Mehr als ein ‚' + round.singular + '‘. Welche Mehrzahl ist richtig?') : LANG === 'fr' ? ('Plus d’un « ' + round.singular + ' ». Quel est le bon pluriel ?') : LANG === 'es' ? ('«' + round.singular + '» en plural. ¿Cuál es el correcto?') : LANG === 'pt' ? ('Mais de um “' + round.singular + '”. Qual é o plural certo?') : LANG === 'it' ? ('Il plurale di «' + round.singular + '». Qual è quello giusto?') : LANG === 'nl' ? ('Meer dan één ' + round.singular + '. Welk meervoud is juist?') : ('More than one ' + round.singular + '. Which one is right?');
+        var t = LANG === 'de' ? ('Mehr als ein ‚' + round.singular + '‘. Welche Mehrzahl ist richtig?') : LANG === 'fr' ? ('Plus d’un « ' + round.singular + ' ». Quel est le bon pluriel ?') : LANG === 'es' ? ('«' + round.singular + '» en plural. ¿Cuál es el correcto?') : LANG === 'pt' ? ('Mais de um “' + round.singular + '”. Qual é o plural certo?') : LANG === 'it' ? ('Il plurale di «' + round.singular + '». Qual è quello giusto?') : LANG === 'nl' ? ('Meer dan één ' + round.singular + '. Welk meervoud is juist?') : LANG === 'sv' ? ('Ordet ' + round.singular + '. Vad heter det i plural?') : ('More than one ' + round.singular + '. Which one is right?');
         if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.92 }); } catch (e) { } }
       });
       root.appendChild(hear);
@@ -253,7 +274,7 @@
       this._resolved = true; this._finds += 1;
       if (this._app) this._app.classList.add('pearl-resolved');
       this.render();
-      var note = this._round.rule === 'no-change' ? (LANG === 'de' ? ('‚' + this._round.singular + '‘ bleibt gleich – schon viele!') : LANG === 'fr' ? ('« ' + this._round.singular + ' » ne change pas — déjà plusieurs !') : (this._round.singular + ' stays the same — already many!')) : txt('winNote');
+      var note = this._round.rule === 'no-change' ? (LANG === 'de' ? ('‚' + this._round.singular + '‘ bleibt gleich – schon viele!') : LANG === 'fr' ? ('« ' + this._round.singular + ' » ne change pas — déjà plusieurs !') : LANG === 'sv' ? ('”' + this._round.singular + '” ser likadant ut om det är ett eller flera!') : (this._round.singular + ' stays the same — already many!')) : txt('winNote');
       var line = this._api.stage.querySelector('.pl-line-msg');
       if (line) { line.textContent = txt('win', { note: note }); line.classList.remove('miss'); }
       this._api.sound && this._api.sound(880);

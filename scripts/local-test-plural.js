@@ -84,7 +84,14 @@ function serve() {
     /* a vowel-change round: prompt + singular + chips render; wrong no-advance; correct resolves + shows reveal */
     await force('pl-foot');
     const prompt = await page.$eval('.lcs-activity-prompt-text', e => e.textContent.trim()).catch(() => '');
-    note(/more than one foot/i.test(prompt), `prompt wrong: "${prompt}"`);
+    /* ⚠ derived from the MANIFEST, not hard-coded. This assertion used to carry the English
+       question text inline, so rewriting that text (it was ungrammatical: "More than one foot
+       is…?" invites "...is feet") failed a CORRECT build. A check that encodes the current
+       wording of the thing it checks has a half-life. */
+    const enQ = (JSON.parse(fs.readFileSync(require('path').join(__dirname, '..', 'mini tools', 'plural-activities.json'), 'utf8'))[0]
+      .params.rounds.find(r => r.id === 'pl-foot') || {}).q || '';
+    note(enQ.length > 5, 'the manifest has no en question for pl-foot — the prompt check would be vacuous');
+    note(prompt.replace(/s+/g, ' ').trim() === enQ.replace(/s+/g, ' ').trim(), `prompt is not the manifest question: rendered "${prompt}" vs manifest "${enQ}"`);
     note(!(await checkVisible()), 'shell Check visible before resolve');
     note(await page.evaluate(() => { const s = document.querySelector('.pl-single'); return s && s.textContent.trim() === 'foot'; }), 'the singular did not render');
     note(await page.evaluate(() => document.querySelectorAll('.pl-cand').length === 3), 'the 3 plural chips did not render');

@@ -7,15 +7,15 @@
     "theme": null,
     "params": {
       "rounds": [
-        { "id": "pl-foot",  "singular": "foot",  "rule": "vowel-change", "ruleSpec": { "from": "oo", "to": "ee" },   "family": "oo-ee", "q": "More than one foot is…?" },
-        { "id": "pl-tooth", "singular": "tooth", "rule": "vowel-change", "ruleSpec": { "from": "oo", "to": "ee" },   "family": "oo-ee", "q": "More than one tooth is…?" },
-        { "id": "pl-goose", "singular": "goose", "rule": "vowel-change", "ruleSpec": { "from": "oo", "to": "ee" },   "family": "oo-ee", "q": "More than one goose is…?" },
-        { "id": "pl-man",   "singular": "man",   "rule": "vowel-change", "ruleSpec": { "from": "a", "to": "e" },     "family": "a-e",   "q": "More than one man is…?" },
-        { "id": "pl-woman", "singular": "woman", "rule": "vowel-change", "ruleSpec": { "from": "a", "to": "e" },     "family": "a-e",   "q": "More than one woman is…?" },
-        { "id": "pl-mouse", "singular": "mouse", "rule": "vowel-change", "ruleSpec": { "from": "ouse", "to": "ice" },"family": "lone",  "q": "More than one mouse is…?" },
-        { "id": "pl-child", "singular": "child", "rule": "suffix",       "ruleSpec": { "add": "ren" },               "family": "ren",   "q": "More than one child is…?" },
-        { "id": "pl-deer",  "singular": "deer",  "rule": "no-change",    "ruleSpec": {},                             "family": "no-change", "q": "More than one deer is…?" },
-        { "id": "pl-sheep", "singular": "sheep", "rule": "no-change",    "ruleSpec": {},                             "family": "no-change", "q": "More than one sheep is…?" }
+        { "id": "pl-foot",  "singular": "foot",  "rule": "vowel-change", "ruleSpec": { "from": "oo", "to": "ee" },   "family": "oo-ee", "q": "What is the plural of \"foot\"?" },
+        { "id": "pl-tooth", "singular": "tooth", "rule": "vowel-change", "ruleSpec": { "from": "oo", "to": "ee" },   "family": "oo-ee", "q": "What is the plural of \"tooth\"?" },
+        { "id": "pl-goose", "singular": "goose", "rule": "vowel-change", "ruleSpec": { "from": "oo", "to": "ee" },   "family": "oo-ee", "q": "What is the plural of \"goose\"?" },
+        { "id": "pl-man",   "singular": "man",   "rule": "vowel-change", "ruleSpec": { "from": "a", "to": "e" },     "family": "a-e",   "q": "What is the plural of \"man\"?" },
+        { "id": "pl-woman", "singular": "woman", "rule": "vowel-change", "ruleSpec": { "from": "a", "to": "e" },     "family": "a-e",   "q": "What is the plural of \"woman\"?" },
+        { "id": "pl-mouse", "singular": "mouse", "rule": "vowel-change", "ruleSpec": { "from": "ouse", "to": "ice" },"family": "lone",  "q": "What is the plural of \"mouse\"?" },
+        { "id": "pl-child", "singular": "child", "rule": "suffix",       "ruleSpec": { "add": "ren" },               "family": "ren",   "q": "What is the plural of \"child\"?" },
+        { "id": "pl-deer",  "singular": "deer",  "rule": "no-change",    "ruleSpec": {},                             "family": "no-change", "q": "What is the plural of \"deer\"?" },
+        { "id": "pl-sheep", "singular": "sheep", "rule": "no-change",    "ruleSpec": {},                             "family": "no-change", "q": "What is the plural of \"sheep\"?" }
       ],
       "roundsL10n": {
         "de": [
@@ -118,7 +118,7 @@
       "sv": "Plural av substantiv – fot blir fötter, bok blir böcker (åk 2)"
     },
     "page_intro": {
-      "en": "An interactive Grade 2 grammar activity: at Pearl's Doubling Pond, some words change in a special way when there is more than one — foot becomes feet, child becomes children, and a few (like deer and sheep) stay the same. Read the word, then pick the right plural — not the lazy +s. A friendly first look at irregular plural nouns. Common Core L.2.1.b.",
+      "en": "An interactive Grade 2 grammar activity: at Pearl's Doubling Pond, some words change in a special way when there is more than one — foot becomes feet, child becomes children, and a few (like deer and sheep) stay the same. Read the word, then pick the right plural — not just an added s. A friendly first look at irregular plural nouns. Common Core L.2.1.b.",
       "de": "Bilde mit Pearl die Mehrzahl mit Umlaut: aus Baum wird Bäume, aus Mann wird Männer. Wähle die richtige Form – interaktiv und ideal für Klasse 2.",
       "fr": "Former le pluriel des noms irréguliers avec Perle : cheval→chevaux, bijou→bijoux, jeu→jeux. Activité interactive, niveau CE1.",
       "es": "Actividad interactiva para practicar el plural de los sustantivos: cuándo se usa -es y cuándo la -z cambia a -ces. Los niños de 2.º de primaria descubren que no siempre basta con agregar -s. Alineado a los Planes y programas de estudio (SEP).",

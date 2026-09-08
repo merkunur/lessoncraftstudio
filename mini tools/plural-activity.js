@@ -22,10 +22,10 @@
   var L = {
     en: {
       q: '{q}',
-      win: 'Yes! {note}', winNote: 'a special word, not the lazy +s!',
+      win: 'Yes! {note}', winNote: 'this one does not just add an s!',
       hear: '🔊 Hear it',
-      nChange: '"{sing}" is a special word — it changes, and it does NOT just add an s. Look again!',
-      nNoChange: '"{sing}" stays the SAME for many — don\'t add an s! Look again!',
+      nChange: '"{sing}" changes when there is more than one — it does not just add an s. Look again!',
+      nNoChange: '"{sing}" stays the same when there is more than one — do not add an s. Look again!',
       srMirror: '{q} The word is {sing}. Choices: {chips}.'
     },
     de: {
@@ -128,7 +128,7 @@
     id: 'plural-activity',
     strings: {
       title: { en: 'The Doubling Pond', de: 'Pearls Mehrzahl-Teich', fr: 'L’étang de Perle : les pluriels', es: 'El estanque de Pearl', pt: 'O Lago da Pérola', it: 'Lo stagno di Perla', nl: 'Parels meervoud-vijver', sv: 'Månas pluraldamm' },
-      instruction: { en: 'Pick the right plural — the special word, not the lazy +s!', de: 'Tippe die richtige Mehrzahl – das besondere Wort mit Umlaut, nicht einfach mit -s!', fr: 'Touche le bon pluriel — la forme spéciale, pas seulement un -s !', es: 'Elige el plural correcto: la palabra especial, ¡no siempre basta con -s!', pt: 'Escolha o plural certo — a palavra especial, não é só juntar um s!', it: 'Scegli il plurale giusto: la parola cambia in modo speciale, non con la -s!', nl: 'Tik op het juiste meervoud — dit woord krijgt een bijzonder meervoud, niet zomaar met -s!', sv: 'Tryck på den form som betyder flera.' },
+      instruction: { en: 'Pick the right plural — the special form, not just an added s!', de: 'Tippe die richtige Mehrzahl – das besondere Wort mit Umlaut, nicht einfach mit -s!', fr: 'Touche le bon pluriel — la forme spéciale, pas seulement un -s !', es: 'Elige el plural correcto: la palabra especial, ¡no siempre basta con -s!', pt: 'Escolha o plural certo — a palavra especial, não é só juntar um s!', it: 'Scegli il plurale giusto: la parola cambia in modo speciale, non con la -s!', nl: 'Tik op het juiste meervoud — dit woord krijgt een bijzonder meervoud, niet zomaar met -s!', sv: 'Tryck på den form som betyder flera.' },
       q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', pt: '{q}', it: '{q}', nl: '{q}' , sv: '{q}' }
     },
 
@@ -274,7 +274,7 @@
       this._resolved = true; this._finds += 1;
       if (this._app) this._app.classList.add('pearl-resolved');
       this.render();
-      var note = this._round.rule === 'no-change' ? (LANG === 'de' ? ('‚' + this._round.singular + '‘ bleibt gleich – schon viele!') : LANG === 'fr' ? ('« ' + this._round.singular + ' » ne change pas — déjà plusieurs !') : LANG === 'sv' ? ('”' + this._round.singular + '” ser likadant ut om det är ett eller flera!') : (this._round.singular + ' stays the same — already many!')) : txt('winNote');
+      var note = this._round.rule === 'no-change' ? (LANG === 'de' ? ('‚' + this._round.singular + '‘ bleibt gleich – schon viele!') : LANG === 'fr' ? ('« ' + this._round.singular + ' » ne change pas — déjà plusieurs !') : LANG === 'sv' ? ('”' + this._round.singular + '” ser likadant ut om det är ett eller flera!') : ('one ' + this._round.singular + ', two ' + this._round.singular + ' — it never changes!')) : txt('winNote');
       var line = this._api.stage.querySelector('.pl-line-msg');
       if (line) { line.textContent = txt('win', { note: note }); line.classList.remove('miss'); }
       this._api.sound && this._api.sound(880);

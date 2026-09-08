@@ -3391,19 +3391,19 @@
     },
     "plural.irregular.l-2-1-b": {
       "about": [
-        "Foot becomes feet, mouse becomes mice, and child becomes children — but deer and sheep stay exactly the same. At Pearl's Doubling Pond, the child reads a word and taps its correct plural, dodging the tempting lazy '-s' trap, in an interactive Grade 2 grammar activity that runs in the browser with no account.",
-        "The big idea is that not every plural is made by adding -s, and the wrong choice is exactly that tempting lazy form. When the child sees 'mouse,' the trap answer is 'mouses' and the right answer is 'mice'; for 'deer,' the trap is 'deers' and the right answer is still 'deer.' The child has to know the special plural rather than reach for the default ending, which is the whole point of learning irregular plurals.",
+        "Foot becomes feet, mouse becomes mice, and child becomes children — but deer and sheep stay exactly the same. At Pearl's Doubling Pond, the child reads a word and taps its correct plural, resisting the pull of the ordinary '-s' ending, in an interactive Grade 2 grammar activity.",
+        "The big idea is that not every plural is made by adding -s. There are two wrong choices each time, and they pull in opposite directions: for 'mouse' the child sees 'mice', 'mouses' and 'mouse' — one has added an s that does not belong, and the other has changed nothing at all. Adding an s is the healthy over-application of a rule the child has just learned, so the round is not about avoiding a bad habit; it is about knowing which words are exceptions. The child has to know the special plural rather than reach for the default ending, which is the whole point of learning irregular plurals.",
         "It is aligned to Common Core L.2.1.b — forming and using frequently occurring irregular plural nouns. No timer, no score — just calm, playful practice."
       ],
       "practices": [
         "Form irregular plurals like feet, teeth, geese, men, women, and mice",
         "Use the special plural 'children' for child",
         "Recognize words that stay the same, like deer and sheep",
-        "Resist the lazy -s ending when a word changes another way"
+        "Tell an added -s apart from the plural a word actually takes"
       ],
       "howToPlay": [
-        "Read the question, like \"More than one mouse is…?\"",
-        "Tap the correct plural — mice, not 'mouses.'",
+        "Read the question, like \"What is the plural of “mouse”?\"",
+        "Tap the form that means more than one. A wrong tap dims that choice and you pick again.",
         "Not quite? Try again — there is no timer and no score."
       ],
       "learningGoals": [

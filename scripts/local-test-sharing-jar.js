@@ -186,6 +186,71 @@ function serve() {
     await gpage.close();
   } catch (e) { fails.push('sharing-jar/restore-ghost: ' + e.message); }
 
+  /* ---- sv: no English may reach text, aria-labels or SPEECH ------------------------ */
+  const svAt = fails.length;
+  try {
+    const sp = await browser.newPage();
+    await sp.setViewport({ width: 412, height: 900 });
+    await sp.goto(`http://127.0.0.1:${PORT}/sharing-jar-activity.html?lang=sv&activity=${ACTIVITY}&embed=1`, { waitUntil: 'networkidle2', timeout: 30000 });
+    await sp.evaluate(() => { window.__spoke = []; const o = window.LCSAudio && window.LCSAudio.speak; if (o) window.LCSAudio.speak = function (a) { window.__spoke.push(a && a.text); return o.apply(this, arguments); }; });
+    await sp.waitForFunction(() => window.SharingJarActivity && window.SharingJarActivity._activityRow, { timeout: 15000 });
+    note(await sp.evaluate(() => Array.isArray(window.__spoke)), 'sv: the speak recorder did not install — the channel that carries the ANSWER would be unchecked');
+
+    const pairs = await sp.evaluate(() => {
+      const S = window.SharingJarActivity.strings || {};
+      /* ⚠ derived from `en` ALONE. Keying this off `S[k].sv` would mean a MISSING Swedish
+         string removes its own assertion — the gate marking its own homework. Only keys
+         whose Swedish is deliberately identical (the names) are excluded. */
+      return Object.keys(S).filter(k => S[k] && S[k].en && S[k].sv !== S[k].en).map(k => [k, S[k].en]);
+    });
+    note(pairs.length >= 20, `sv: only ${pairs.length} keys differ from en — expected ~23, the leak check would be weak`);
+
+    const ids = await sp.evaluate(() => window.SharingJarActivity._pool.map(r => r.id));
+    note(ids.length >= 9, `sv: only ${ids.length} rounds — vacuous`);
+    let spokeTotal = 0;
+    for (const rid of ids) {
+      await sp.evaluate((id) => {
+        const t = window.SharingJarActivity, n = t._pool.length, order = []; for (let i = 0; i < n; i++) order.push(i);
+        const k = t._pool.findIndex(x => x.id === id); if (k > 0) { order.splice(k, 1); order.unshift(k); }
+        t._order = order; t._orderForPool = t._pool; t._curPass = 0; window.__spoke = []; window.LCS_reloadFirstTask();
+      }, rid);
+      await sp.waitForFunction(() => window.SharingJarActivity.round, { timeout: 4000 });
+      await sleep(60);
+      /* drive a WRONG tap (line 203's spoken mismatch) then the RIGHT one (line 218 speaks the answer) */
+      const u = await sp.evaluate(() => window.SharingJarActivity._u());
+      await sp.evaluate((bad) => { const b = [...document.querySelectorAll('.sj-tile')].find(e => e.textContent.trim() === String(bad)); if (b) b.click(); }, u === 0 ? 1 : 0);
+      await sleep(80);
+      await sp.evaluate((good) => { const b = [...document.querySelectorAll('.sj-tile')].find(e => e.textContent.trim() === String(good)); if (b) b.click(); }, u);
+      await sleep(120);
+      const seen = await sp.evaluate(() => ({
+        text: (document.querySelector('.lcs-app') || document.body).innerText || '',
+        aria: [...document.querySelectorAll('.lcs-app [aria-label]')].map(e => e.getAttribute('aria-label')).join(' | '),
+        spoke: (window.__spoke || []).join(' | ')
+      }));
+      spokeTotal += seen.spoke.length;
+      const hay = seen.text + ' | ' + seen.aria + ' | ' + seen.spoke;
+      note(seen.text.trim().length > 0, `sv/${rid}: nothing rendered — vacuous`);
+      for (const [key, enVal] of pairs) {
+        /* a CONSECUTIVE run, not a filtered join: "Make it fair!" must not become "Make fair",
+           which the page can never contain. Split on ICU placeholders first — they are
+           substituted at render, so the literal segments are what actually appear. */
+        const segs = String(enVal).split(/\{[^}]*\}/).map(s => s.replace(/\s+/g, ' ').trim()).filter(s => s.length >= 6);
+        if (!segs.length) continue;
+        const probe = segs.sort((a, b) => b.length - a.length)[0];
+        note(hay.indexOf(probe) === -1, `sv/${rid}: the ENGLISH '${key}' reached the child — "${probe}"`);
+      }
+      /* fragments only the LANG chains can produce — none of these is in the strings table */
+      for (const frag of ['look again', 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven']) {
+        const re = new RegExp('(^|[^a-z])' + frag + '([^a-z]|$)', 'i');
+        note(!re.test(seen.spoke), `sv/${rid}: an ENGLISH word was SPOKEN — "${frag}" in "${seen.spoke}"`);
+      }
+    }
+    note(spokeTotal > 0, 'sv: NOTHING was ever spoken across 9 rounds — the speech channel is unchecked');
+    const bad = fails.length - svAt;
+    console.log(bad ? `  FAIL sharing-jar/sv — ${bad} English leak(s)` : `  ok   sharing-jar/sv — no English in text, aria or speech across ${ids.length} rounds`);
+    await sp.close();
+  } catch (e) { fails.push('sharing-jar/sv: ' + e.message); console.log(`  FAIL sharing-jar/sv — ${e.message}`); }
+
   await browser.close();
   server.close();
   console.log('');

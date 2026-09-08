@@ -85,8 +85,18 @@ function coreStrings() {
         return t && t._activityRow && document.querySelector('.mm-tessa') && document.querySelector('.mm-target') && document.querySelector('.mm-cand') && document.querySelector('.lcs-activity-check');
       }, { timeout: 15000 });
 
+      /* ⚠ DECLARED-LOCALE CHECK, and it must come FIRST. Everything below compares the render
+         against the tool's own strings, so if the locale is missing both sides fall back to
+         English together and every one of them passes on an untranslated activity. */
+      if (loc !== 'en') {
+        const keys = STR ? Object.keys(STR) : [];
+        note(keys.length >= 5, `${tag}: only ${keys.length} string keys parsed — the locale check would be vacuous`);
+        const undeclared = keys.filter(k => !STR[k] || typeof STR[k][loc] !== 'string' || !STR[k][loc].trim());
+        note(undeclared.length === 0, `${tag}: ${undeclared.length} of ${keys.length} string keys have no '${loc}' — the activity would render ENGLISH and every check below would still pass (${undeclared.slice(0, 6).join(', ')})`);
+      }
+
       const title = await page.$eval('.lcs-title', e => e.textContent.trim()).catch(() => '');
-      const expTitle = (STR && (STR.title[loc] || STR.title.en)) || 'The Mosaic Menders';
+      const expTitle = (STR && STR.title && STR.title[loc]) || (STR && STR.title && STR.title.en) || 'The Mosaic Menders';
       note(title === expTitle, `${tag}: header title "${title}" ≠ "${expTitle}"`);
       note(!!(await page.$('.mm-tessa-svg')), `${tag}: no Tessa`);
       note(!!(await page.$('.mm-target-svg')), `${tag}: no target mosaic`);

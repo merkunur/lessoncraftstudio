@@ -10,7 +10,7 @@
     "byStrand": {
       "Counting & Cardinality": {
         "about": [
-          "Dette er en gratis, interaktiv tælleaktivitet for de yngste, der arbejder med tal op til {max}. Den kører direkte i browseren på tablets, telefoner og computere i klassen — der er intet at installere, ingen konto at oprette og ingen forberedelse for læreren.",
+          "Dette er en interaktiv tælleaktivitet for de yngste, der arbejder med tal op til {max}. Den kører direkte i browseren på tablets, telefoner og computere i klassen — der er intet at installere, ingen konto at oprette og ingen forberedelse for læreren.",
           "Aktiviteten følger Fælles Mål inden for området tal og algebra (tælling og antal). Børnene får blid og øjeblikkelig tilbagemelding undervejs, så de kan blive ved med at prøve, indtil svaret føles rigtigt. Der er ingen timer og ingen point — kun rolig, konkret øvelse."
         ],
         "practices": [
@@ -32,7 +32,7 @@
       },
       "Number & Operations in Base Ten": {
         "about": [
-          "Denne gratis, interaktive aktivitet om positionssystemet hjælper børnene med at se, hvordan vores talsystem er bygget op omkring grupper af ti, med tal op til {max}. Den kører i enhver moderne browser — på en tablet, en telefon eller klassens interaktive tavle — uden at der skal downloades noget.",
+          "Denne interaktive aktivitet om positionssystemet hjælper børnene med at se, hvordan vores talsystem er bygget op omkring grupper af ti, med tal op til {max}. Den kører i enhver moderne browser — på en tablet, en telefon eller klassens interaktive tavle — uden at der skal downloades noget.",
           "Den følger Fælles Mål inden for området tal og algebra (positionssystemet). Børnene arbejder i deres eget tempo med varm og øjeblikkelig tilbagemelding, og der er ingen timer eller point, der jager dem."
         ],
         "practices": [
@@ -54,7 +54,7 @@
       },
       "Operations & Algebraic Thinking": {
         "about": [
-          "Denne gratis, interaktive aktivitet giver børnene konkret øvelse med de første idéer om addition og subtraktion, med mængder op til {max}. Den kører direkte i browseren på enhver enhed, uden noget at installere og uden login.",
+          "Denne interaktive aktivitet giver børnene konkret øvelse med de første idéer om addition og subtraktion, med mængder op til {max}. Den kører direkte i browseren på enhver enhed, uden noget at installere og uden login.",
           "Den følger Fælles Mål inden for området tal og algebra (regnestrategier). Tilbagemeldingen er øjeblikkelig og opmuntrende, og der er ingen timer eller point — børnene kan tænke tingene igennem i deres eget tempo."
         ],
         "practices": [
@@ -76,7 +76,7 @@
       },
       "Geometry": {
         "about": [
-          "Denne gratis, interaktive aktivitet med former hjælper små børn med at lægge mærke til, navngive og sammenligne formerne omkring dem. Den kører direkte i browseren på tablets, telefoner og computere i klassen, uden noget at installere og uden konto.",
+          "Denne interaktive aktivitet med former hjælper små børn med at lægge mærke til, navngive og sammenligne formerne omkring dem. Den kører direkte i browseren på tablets, telefoner og computere i klassen, uden noget at installere og uden konto.",
           "Den følger Fælles Mål inden for området geometri og måling. Børnene udforsker i deres eget tempo med blid og øjeblikkelig tilbagemelding — ingen timer, ingen point, kun legende øvelse."
         ],
         "practices": [
@@ -98,7 +98,7 @@
       },
       "Measurement & Data": {
         "about": [
-          "Denne gratis, interaktive måleaktivitet hjælper små børn med at sammenligne ting efter størrelse – højere, kortere og længere – helt uden at tælle. Den kører direkte i browseren på tablets, telefoner og computere i klassen, uden noget at installere og uden konto.",
+          "Denne interaktive måleaktivitet hjælper små børn med at sammenligne ting efter størrelse – højere, kortere og længere – helt uden at tælle. Den kører direkte i browseren på tablets, telefoner og computere i klassen, uden noget at installere og uden konto.",
           "Den følger Fælles Mål inden for området {strand}. Børnene sammenligner i deres eget tempo med blid og øjeblikkelig tilbagemelding – ingen timer, ingen point, bare leg og øvelse i at se nøje på, hvordan tingene måler sig op mod hinanden."
         ],
         "practices": [
@@ -120,7 +120,7 @@
       },
       "Reading: Foundational Skills": {
         "about": [
-          "Denne gratis, interaktive læseaktivitet giver børnene konkret øvelse i at lyde sig frem og bygge ord. Den kører direkte i browseren på tablets, telefoner og computere i klassen, uden noget at installere og uden konto at oprette.",
+          "Denne interaktive læseaktivitet giver børnene konkret øvelse i at lyde sig frem og bygge ord. Den kører direkte i browseren på tablets, telefoner og computere i klassen, uden noget at installere og uden konto at oprette.",
           "Den følger Fælles Mål inden for området læsning (afkodning). Hvert ord kontrolleres for en korrekt, børnevenlig opdeling, og tilbagemeldingen er blid og øjeblikkelig — der er ingen timer og ingen point."
         ],
         "practices": [
@@ -142,7 +142,7 @@
       },
       "Phonological Awareness": {
         "about": [
-          "Denne gratis, interaktive lytteaktivitet hjælper børnene med at høre og lege med lydene inde i talte ord. Den kører direkte i browseren på enhver enhed, uden noget at installere og uden krav om login.",
+          "Denne interaktive lytteaktivitet hjælper børnene med at høre og lege med lydene inde i talte ord. Den kører direkte i browseren på enhver enhed, uden noget at installere og uden krav om login.",
           "Den følger Fælles Mål inden for området sproglig opmærksomhed (fonologisk opmærksomhed). Tilbagemeldingen er varm og øjeblikkelig, og der er ingen timer eller point, der jager et lille barn."
         ],
         "practices": [
@@ -165,7 +165,7 @@
     },
     "generic": {
       "about": [
-        "Dette er en gratis, interaktiv læringsaktivitet for små børn, der kører direkte i browseren på tablets, telefoner og computere i klassen. Der er intet at installere, ingen konto at oprette og ingen forberedelse for læreren.",
+        "Dette er en interaktiv læringsaktivitet for små børn, der kører direkte i browseren på tablets, telefoner og computere i klassen. Der er intet at installere, ingen konto at oprette og ingen forberedelse for læreren.",
         "Den følger Fælles Mål inden for området {strand}. Børnene arbejder i deres eget tempo med blid og øjeblikkelig tilbagemelding, og der er ingen timer og ingen point — kun rolig, konkret øvelse."
       ],
       "practices": [
@@ -217,7 +217,7 @@
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
-        "Denne gratis, interaktive aktivitet hjælper små børn med at genkende, hvornår en form er delt i lige store dele. Barnet ser fire enkle former — cirkler, kvadrater og rektangler — og trykker på den, der er delt retfærdigt i lige store dele. Det hele foregår i browseren: ingen installation, ingen konto og ingen reklamer.",
+        "Denne interaktive aktivitet hjælper små børn med at genkende, hvornår en form er delt i lige store dele. Barnet ser fire enkle former — cirkler, kvadrater og rektangler — og trykker på den, der er delt retfærdigt i lige store dele. Det hele foregår i browseren: ingen installation, ingen konto og ingen reklamer.",
         "Den store idé er, at delene skal være lige store — altså helt retfærdige. De forkerte svar viser en form, der er delt i lige store dele men i forkert antal, en form delt i dele, der ikke er lige store, eller en hel form, der slet ikke er delt. Barnet skal lægge mærke til, hvilken form der er delt i lige store dele.",
         "Aktiviteten følger Fælles Mål inden for området geometri og måling: at genkende former, der er delt i to og fire lige store dele, og at kende dem som halvdele og fjerdedele. Der er ingen timer og ingen point — kun rolig, legende øvelse i barnets eget tempo. Barnet deler ikke selv formen, men genkender, hvornår den allerede er delt i lige store dele."
       ],
@@ -240,7 +240,7 @@
     },
     "ten-frame.count-to-10.make-n.animals": {
       "about": [
-        "Tæl til 10 med dyr lader barnet bygge tallet ved at trykke på felterne i en tierramme, så der lægges præcis så mange dyrebrikker, og derefter trykke på Tjek — \"Lav 3\", \"Lav 7\", \"Lav 10\". Det er en gratis, interaktiv tælleaktivitet til børnehaveklassen for tallene 0 til 10, der kører i browseren uden oprettelse og uden noget at installere.",
+        "Tæl til 10 med dyr lader barnet bygge tallet ved at trykke på felterne i en tierramme, så der lægges præcis så mange dyrebrikker, og derefter trykke på Tjek — \"Lav 3\", \"Lav 7\", \"Lav 10\". Det er en interaktiv tælleaktivitet til børnehaveklassen for tallene 0 til 10, der kører i browseren uden oprettelse og uden noget at installere.",
         "Tierrammen er det, der gør aktiviteten til mere end udenadstælling. Dens to rækker af fem giver hvert tal en form, barnet kan genkende — fire fylder det meste af den øverste række, ti fylder hele rammen — så tælling begynder at hænge sammen med, hvor meget et tal egentlig er. Barnet bestemmer selv, hvor mange dyr det lægger, og kan tilføje eller tage nogle væk, før det tjekker, og det holder fokus på at tælle en for en frem for at gætte.",
         "Aktiviteten følger Fælles Mål inden for området tal og tælling: at forstå sammenhængen mellem tal og mængder og forbinde tælling med kardinalitet. Den passer til børnehaveklassen. Der er ingen timer og ingen point — bare rolig, legende øvelse."
       ],
@@ -263,7 +263,7 @@
     },
     "ten-frame.count-to-20.make-n.fruits": {
       "about": [
-        "Tæl til 20 med frugter beder om et bestemt tal, og barnet trykker på felterne i en dobbelt tierramme for at lægge præcis så mange frugter ind på de to rammer og trykker så på Tjek. At arbejde helt op til 20 betyder en fuld tier plus lidt mere. Det er en gratis, interaktiv tælleaktivitet til børnehaveklassen, der spilles i browseren uden konto.",
+        "Tæl til 20 med frugter beder om et bestemt tal, og barnet trykker på felterne i en dobbelt tierramme for at lægge præcis så mange frugter ind på de to rammer og trykker så på Tjek. At arbejde helt op til 20 betyder en fuld tier plus lidt mere. Det er en interaktiv tælleaktivitet til børnehaveklassen, der spilles i browseren uden konto.",
         "Den dobbelte tierramme lærer barnet det vigtigste om tallene fra 11 til 20: en fuld tier plus lidt mere. For at lave 14 fylder barnet den første ramme op til ti og lægger så fire på den anden — så tallets opbygning, ti og fire, er lige til at se. At arbejde forbi ti er et ægte skridt ud over at tælle til ti, og de to rammer giver barnet en måde at holde styr på tællingen i stedet for at miste overblikket. Aktiviteten følger Fælles Mål inden for tal og algebra: at forbinde tælling med antal og udvide talfornemmelsen ud over ti. Der er ingen timer og ingen point."
       ],
       "practices": [
@@ -285,7 +285,7 @@
     },
     "ten-frame.how-many.0-10.animals": {
       "about": [
-        "En tierramme viser en gruppe dyr, og stiller ét enkelt spørgsmål: hvor mange? Barnet tæller dyrene — alt fra 0 til 10 — og skriver det tal, der passer, på taltastaturet. Det er en gratis, interaktiv tælleøvelse til børnehaveklassen, der kører direkte i browseren, uden at man skal installere noget, og uden konto.",
+        "En tierramme viser en gruppe dyr, og stiller ét enkelt spørgsmål: hvor mange? Barnet tæller dyrene — alt fra 0 til 10 — og skriver det tal, der passer, på taltastaturet. Det er en interaktiv tælleøvelse til børnehaveklassen, der kører direkte i browseren, uden at man skal installere noget, og uden konto.",
         "Det er den svarende side af at tælle. I stedet for at bygge et tal læser barnet et antal, der allerede er der, og navngiver det med et skrevet tal. Fordi dyrene står i tierrammens to rækker, kan barnet med tiden genkende antal med et blik — en fuld øverste række er fem, en fuld ramme er ti — og tjekke ved at tælle ét ad gangen. Det skridt fra at tælle til ét skrevet tal er kernen i antalsforståelse.",
         "Aktiviteten følger Fælles Mål inden for tal og algebra: at tælle for at svare på \"hvor mange?\" om ting på en ramme. Der er ingen timer og ingen point — kun rolig og legende træning."
       ],
@@ -308,7 +308,7 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "En dobbelt tierramme viser en gruppe frugttællere, og barnet skriver tallet for, hvor mange der er — tæller alt fra 0 til 20 og skriver tallet på tastaturet. Fordi en fuld ramme er ti, kan barnet tælle videre op til tallene mellem ti og tyve. Det er en gratis, interaktiv tælleaktivitet til børnehaveklassen, der kører i browseren uden noget at installere og uden konto.",
+        "En dobbelt tierramme viser en gruppe frugttællere, og barnet skriver tallet for, hvor mange der er — tæller alt fra 0 til 20 og skriver tallet på tastaturet. Fordi en fuld ramme er ti, kan barnet tælle videre op til tallene mellem ti og tyve. Det er en interaktiv tælleaktivitet til børnehaveklassen, der kører i browseren uden noget at installere og uden konto.",
         "Aktiviteten binder tælling og skrivning sammen. Barnet aflæser en mængde, der allerede ligger fordelt på to tierrammer, og navngiver den med et skrevet tal — også de sværere tocifrede tal over ti. Fordi en fuld ramme er ti, kan barnet tælle videre fra ti til tallene mellem ti og tyve i stedet for at starte ved et hver gang, og bagefter skrive det talte ned som et tal — forbindelsen mellem mængde og tegn.",
         "Aktiviteten er tilpasset Fælles Mål for matematik i børnehaveklassen: at skrive tal fra 0 til 20 og vise et antal genstande med et skrevet tal. Der er ingen tid og ingen point — bare rolig, legende træning."
       ],
@@ -331,7 +331,7 @@
     },
     "ten-frame.teen-numbers.make-n": {
       "about": [
-        "Opgaven nævner et tal mellem 11 og 19 som fx 16, og barnet fylder den første tierramme helt op til en tier og lægger derefter de ekstra enere på den anden ramme — så 16 viser sig som ti og seks mere. Når det bygges på den måde, bliver den skjulte struktur synlig. Det er en gratis, interaktiv aktivitet til titalssystemet i børnehaveklassen, der spilles i browseren uden oprettelse.",
+        "Opgaven nævner et tal mellem 11 og 19 som fx 16, og barnet fylder den første tierramme helt op til en tier og lægger derefter de ekstra enere på den anden ramme — så 16 viser sig som ti og seks mere. Når det bygges på den måde, bliver den skjulte struktur synlig. Det er en interaktiv aktivitet til titalssystemet i børnehaveklassen, der spilles i browseren uden oprettelse.",
         "Tallene fra 11 til 19 er drilske, fordi deres navne skjuler deres bygning — \"seksten\" siger ikke \"ti og seks\". Når hvert tal bygges på to rammer, bliver den skjulte struktur synlig: der er altid én fuld tier og så nogle enere. Barnet sætter tallet sammen af en tier og lidt mere i stedet for at tælle hele vejen op én for én, og det er præcis den idé, hele titalssystemet bygger på.",
         "Aktiviteten følger Fælles Mål inden for tal i titalssystemet: at sætte sammen og dele tal fra 11 til 19 i en tier og nogle enere. Der er ingen timer og ingen point — bare rolig, legende træning i børnehaveklassen."
       ],
@@ -354,7 +354,7 @@
     },
     "choice-board.sort-count.k-md-b-3": {
       "about": [
-        "En blandet bunke venlige billeder dukker op — dyr, frugter og af og til køretøjer, rodet ind mellem hinanden — og opgaven nævner én gruppe, som barnet skal tælle. Barnet afgør, hvor mange der hører til netop den gruppe, og trykker på tallet. Det er en gratis, interaktiv tælleøvelse til børnehaveklassen, der kører direkte i browseren, uden at man skal installere noget, og uden konto.",
+        "En blandet bunke venlige billeder dukker op — dyr, frugter og af og til køretøjer, rodet ind mellem hinanden — og opgaven nævner én gruppe, som barnet skal tælle. Barnet afgør, hvor mange der hører til netop den gruppe, og trykker på tallet. Det er en interaktiv tælleøvelse til børnehaveklassen, der kører direkte i browseren, uden at man skal installere noget, og uden konto.",
         "Bunken er blandet med vilje. For at svare på \"hvor mange dyr?\" kan barnet ikke bare tælle det hele — det skal se godt efter på hvert billede, afgøre hvad det er, lægge dem til side, der ikke hører til, og kun tælle den gruppe, der blev nævnt. Talmulighederne tæller både det rigtige antal og hele bunken, så barnet bliver nødt til at sortere først og tælle bagefter.",
         "Aktiviteten følger Fælles Mål inden for området statistik og data: at sortere ting i kategorier og tælle, hvor mange der hører til hver gruppe. Der er ingen timer og ingen point — kun rolig og legende træning i børnehaveklassen."
       ],
@@ -377,7 +377,7 @@
     },
     "array.build-array.2-oa-c-4": {
       "about": [
-        "Et gitter med lige store rækker er en rolig matematikaktivitet, som barnet kan spille direkte i browseren — gratis, interaktivt og uden oprettelse. Barnet bygger et rektangulært gitter af prikker i lige store rækker og kolonner og finder så ud af, hvor mange der er i alt. Runderne vokser fra et lille gitter på 2 gange 3 og videre op gennem 3 gange 4, 2 gange 5, 4 gange 4 og 4 gange 3, så barnet fylder pæne gitre i forskellige størrelser.",
+        "Et gitter med lige store rækker er en rolig matematikaktivitet, som barnet kan spille direkte i browseren — interaktivt og uden oprettelse. Barnet bygger et rektangulært gitter af prikker i lige store rækker og kolonner og finder så ud af, hvor mange der er i alt. Runderne vokser fra et lille gitter på 2 gange 3 og videre op gennem 3 gange 4, 2 gange 5, 4 gange 4 og 4 gange 3, så barnet fylder pæne gitre i forskellige størrelser.",
         "Den store idé er, at et rektangel med lige store rækker kan lægges sammen den hurtige vej. Efterhånden som barnet trykker rækkerne fulde, bygges en stribe med gentagen addition nedenunder — for eksempel 4 + 4 + 4 — så barnet ser fire talt tre gange i stedet for at tælle hver eneste prik for sig. Bagefter skriver barnet svaret på tastaturet. At se rækkerne stå op som lige store led er netop broen fra plus til gange.",
         "Aktiviteten følger Fælles Mål for matematik i 2. klasse: at bruge plus til at finde det samlede antal i et gitter af rækker og kolonner og skrive et regnestykke, der viser tallet som en sum af lige store led. Der er ingen tid og ingen point — bare rolig, legende træning i barnets eget tempo."
       ],
@@ -400,7 +400,7 @@
     },
     "choice-board.which-more.k-c-c-6": {
       "about": [
-        "To grupper af venlige billeder står ved siden af hinanden — katte, hunde, ænder, fisk, æbler, bananer, appelsiner eller jordbær — og barnet trykker på den gruppe, der har flest. Antallene går op til otte, og barnet sammenligner ved at se og tælle frem for at læse tal. Det er en gratis tælleaktivitet til børnehaveklassen, der kører i browseren på telefon, tablet og klassens computer, helt uden konto.",
+        "To grupper af venlige billeder står ved siden af hinanden — katte, hunde, ænder, fisk, æbler, bananer, appelsiner eller jordbær — og barnet trykker på den gruppe, der har flest. Antallene går op til otte, og barnet sammenligner ved at se og tælle frem for at læse tal. Det er en tælleaktivitet til børnehaveklassen, der kører i browseren på telefon, tablet og klassens computer, helt uden konto.",
         "Den store idé er, at \"flest\" handler om, hvor mange der er — ikke om, hvor meget plads en gruppe fylder. Fordi de to grupper kan ligge tæt på hinanden — som syv mod seks eller seks mod fem — kan barnet ikke vinde ved bare at kigge på den største klat; det er nødt til faktisk at tælle hver gruppe og sammenligne de to antal. Det slår det klassiske øjenbedrag, hvor få spredte billeder ser ud af mere end en lille tæt klynge.",
         "Aktiviteten er tilpasset Fælles Mål for matematik i børnehaveklassen: at afgøre, om antallet i én gruppe er større end, mindre end eller lig med antallet i en anden. Der er ingen tid og ingen point — bare ro til at se godt efter og tælle i sit eget tempo."
       ],
@@ -423,7 +423,7 @@
     },
     "choice-board.compare-length.k-md-2": {
       "about": [
-        "To hverdagsting står ved siden af hinanden, og barnet trykker på den, der er højest, længst eller kortest — og sammenligner rigtige, velkendte billeder som et grantræ og et palmetræ, en blyant, en farveblyant, en tusch eller en lineal, en gulerod eller en agurk, en giraf, en solsikke eller et stearinlys. Det er en gratis måleaktivitet til børnehaveklassen, der spiller i enhver browser uden download og uden konto.",
+        "To hverdagsting står ved siden af hinanden, og barnet trykker på den, der er højest, længst eller kortest — og sammenligner rigtige, velkendte billeder som et grantræ og et palmetræ, en blyant, en farveblyant, en tusch eller en lineal, en gulerod eller en agurk, en giraf, en solsikke eller et stearinlys. Det er en måleaktivitet til børnehaveklassen, der spiller i enhver browser uden download og uden konto.",
         "Der er ingen tælling og ingen tal; barnet skal bare se og sammenligne én egenskab ad gangen. Opgaven nævner ordet — højest, længst eller kortest — og barnet afgør, hvilken af de to ting der passer. At stille højde op for \"højest\" (en giraf) og længde op for \"længst\" (en agurk) opbygger målesproget, før der overhovedet kommer en lineal eller et tal ind i billedet.",
         "Aktiviteten er tilpasset Fælles Mål for matematik i børnehaveklassen: at sammenligne to ting direkte ud fra en egenskab, man kan måle, og beskrive, hvilken der er højest, længst eller kortest. Der er ingen tid og ingen point — bare rolig, legende træning."
       ],
@@ -446,7 +446,7 @@
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {
       "about": [
-        "To tocifrede tal vises — som 47 og 52 eller 63 og 38 — og barnet trykker på det udsagn, der er sandt, med tegnene større end (>), mindre end (<) og lig med (=). Nogle par er lige store, som 45 og 45 eller 88 og 88, så lighedstegnet betyder også noget. Det er en gratis aktivitet om tiere og enere til 1. klasse, der kører direkte i browseren uden oprettelse.",
+        "To tocifrede tal vises — som 47 og 52 eller 63 og 38 — og barnet trykker på det udsagn, der er sandt, med tegnene større end (>), mindre end (<) og lig med (=). Nogle par er lige store, som 45 og 45 eller 88 og 88, så lighedstegnet betyder også noget. Det er en aktivitet om tiere og enere til 1. klasse, der kører direkte i browseren uden oprettelse.",
         "Strategien er at kigge på tierne først og derefter på enerne. Med 47 og 52 slår de 5 tiere de 4 tiere, så 47 er mindre end 52 — selvom 7 er større end 2. Drilske par som 29 og 92 bruger de samme cifre på forskellige pladser, så barnet skal læse pladsværdien og ikke bare selve cifrene. At vælge det rigtige tegn gør sammenligningen til det formelle sprog med >, = og <.",
         "Aktiviteten er tilpasset Fælles Mål for matematik i 1. klasse: at sammenligne to tocifrede tal ud fra betydningen af tier- og enercifrene og skrive resultatet med tegnene >, = og <. Der er ingen tid og ingen point — bare rolig, legende træning."
       ],
@@ -469,7 +469,7 @@
     },
     "choice-board.onset-rime-blend.rf-k-2-c": {
       "about": [
-        "Barnet hører slutningen af et ord og ser den første bogstavlyd, smelter de to dele sammen til ét ord og trykker så på det billede, ordet hedder — for k og \"at\" smelter barnet sammen til \"kat\" og finder katten. Det er en gratis, interaktiv læseaktivitet til børnehaveklassen, der spiller direkte i browseren uden oprettelse.",
+        "Barnet hører slutningen af et ord og ser den første bogstavlyd, smelter de to dele sammen til ét ord og trykker så på det billede, ordet hedder — for k og \"at\" smelter barnet sammen til \"kat\" og finder katten. Det er en interaktiv læseaktivitet til børnehaveklassen, der spiller direkte i browseren uden oprettelse.",
         "Den store idé er at smelte lyde sammen — at trække en første lyd og en ordslutning sammen til et helt ord. Et af billederne rimer på svaret (en hat står ved siden af katten), så rimet alene er ikke nok; det er den første lyd, der afgør, hvilket ord det er. Barnet lytter, smelter lydene sammen og læser billedet i stedet for at sætte bogstaver sammen på papiret.",
         "Aktiviteten er tilpasset Fælles Mål for dansk i børnehaveklassen: at smelte forlyd og rim sammen til korte, enstavelsesord og dele dem op igen. Der er ingen tid og ingen point — bare ro til at lytte, prøve og opdage, hvordan lyde bliver til ord."
       ],
@@ -492,7 +492,7 @@
     },
     "fractions.make-and-count-squares.2-g-a-2": {
       "about": [
-        "Barnet trykker på de stiplede linjer for at dele et rektangel op i rækker og kolonner med lige store kvadrater — 2 rækker og 3 kolonner, 3 rækker og 4 kolonner og videre op til 4 rækker og 5 kolonner — og skriver så, hvor mange kvadrater der er i alt. Det er en gratis, interaktiv geometriaktivitet til 2. klasse, der kører i browseren på enhver enhed, uden noget at installere og uden konto.",
+        "Barnet trykker på de stiplede linjer for at dele et rektangel op i rækker og kolonner med lige store kvadrater — 2 rækker og 3 kolonner, 3 rækker og 4 kolonner og videre op til 4 rækker og 5 kolonner — og skriver så, hvor mange kvadrater der er i alt. Det er en interaktiv geometriaktivitet til 2. klasse, der kører i browseren på enhver enhed, uden noget at installere og uden konto.",
         "Den store idé er, at et rektangel kan deles op i lige store kvadrater, der ligger i pæne rækker og kolonner, og at netop rækker-og-kolonner-strukturen hjælper med at tælle dem. Fordi barnet selv laver gitteret og bagefter tæller, begynder det at mærke, at 3 rækker med 4 kvadrater betyder, at man kan tælle i lige store grupper — den stille begyndelse på gitre og gange. Kvadraterne er med vilje lige store, så \"hvor mange\" bliver et ægte antal af lige store dele.",
         "Aktiviteten er tilpasset Fælles Mål for matematik i indskolingen: at dele et rektangel op i rækker og kolonner med lige store kvadrater og tælle dem for at finde det samlede antal. Der er ingen tid og ingen point — bare rolig, legende træning."
       ],
@@ -515,7 +515,7 @@
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {
       "about": [
-        "Barnet læser en sammenligning som 247 ___ 274 eller 583 ___ 419 og forbinder den så med det tegn, der gør den sand — mindre end (<) eller større end (>) — ved at trykke på sammenligningskortet og derefter på det rigtige tegn. Det er et gratis, interaktivt kortspil i matematik til 2. klasse, der spiller direkte i browseren uden installation og uden konto.",
+        "Barnet læser en sammenligning som 247 ___ 274 eller 583 ___ 419 og forbinder den så med det tegn, der gør den sand — mindre end (<) eller større end (>) — ved at trykke på sammenligningskortet og derefter på det rigtige tegn. Det er et interaktivt kortspil i matematik til 2. klasse, der spiller direkte i browseren uden installation og uden konto.",
         "Den store idé er at sammenligne ud fra pladsværdi, hundrederne først. Parrene er valgt, så barnet ikke kan klare sig med et hurtigt blik: tal som 655 og 658 har de samme hundreder og tiere, så det er enercifret, der afgør det, mens 480 og 408 tvinger barnet til at se på tierne. At arbejde fra venstre mod højre — hundreder, så tiere, så enere — er netop den tankegang, som forbindelsen af kort træner.",
         "Aktiviteten er tilpasset Fælles Mål for matematik i 2. klasse: at sammenligne to trecifrede tal med >, = og < ud fra værdien af hundrederne, tierne og enerne. Der er ingen tid og ingen point — bare rolig, legende træning."
       ],
@@ -538,7 +538,7 @@
     },
     "numberbond.make-ten.k-oa-a-4": {
       "about": [
-        "Helheden er 10, og den ene del af talmodellen er allerede fyldt ud — for eksempel 7 — og barnet trykker på den tomme del for at lægge tællebrikker til, indtil de to dele tilsammen bliver 10. Det er en gratis, interaktiv matematikaktivitet til børnehaveklassen, der kører direkte i browseren uden konto og uden oprettelse.",
+        "Helheden er 10, og den ene del af talmodellen er allerede fyldt ud — for eksempel 7 — og barnet trykker på den tomme del for at lægge tællebrikker til, indtil de to dele tilsammen bliver 10. Det er en interaktiv matematikaktivitet til børnehaveklassen, der kører direkte i browseren uden konto og uden oprettelse.",
         "Hvert tal fra 1 til 9 har en ven, der gør tallet helt op til ti, og her bygger barnet selv den ven ved at lægge brikker til én ad gangen og se de to dele vokse op til 10 — ikke ved at læse et facit af et ark. Selve talmodellen er svaret; barnet stopper, når begge dele bliver præcis ti, så en del, der er for lille eller for stor, er nem at mærke og rette.",
         "Aktiviteten er tilpasset Fælles Mål for matematik i børnehaveklassen: at finde det tal, der giver 10, når det lægges til et givet tal. Der er ingen tid og ingen point — bare rolig, legende træning, hvor man kan lære vennerne til 10 i sit eget tempo."
       ],
@@ -561,7 +561,7 @@
     },
     "numberbond.story-problem.2-oa-a-1": {
       "about": [
-        "Barnet læser et kort tekststykke — 20 røde og 30 gule tulipaner, en hylde med 45 bøger, ænder, der kommer svømmende til en sø — ser det stillet op som en talmodel og skriver så det tal, der mangler. Det er en gratis, interaktiv matematikaktivitet til 2. klasse, der spiller direkte i browseren uden konto.",
+        "Barnet læser et kort tekststykke — 20 røde og 30 gule tulipaner, en hylde med 45 bøger, ænder, der kommer svømmende til en sø — ser det stillet op som en talmodel og skriver så det tal, der mangler. Det er en interaktiv matematikaktivitet til 2. klasse, der spiller direkte i browseren uden konto.",
         "Talmodellen gør hvert tekststykke til det samme billede: to dele og en helhed. Det lader barnet se, om det ukendte er det samlede tal, en del der er tilbage, eller et starttal. Nogle opgaver er plus (hvor mange i alt), andre er minus (hvor mange er tilbage, hvor mange kom til), og talmodellen gør det valg tydeligt i stedet for at gætte ud fra et enkelt ord.",
         "Aktiviteten er tilpasset Fælles Mål for matematik i 2. klasse: at løse tekststykker i ét trin med plus og minus op til 100. Der er ingen tid og ingen point — bare rolig, legende træning."
       ],
@@ -584,7 +584,7 @@
     },
     "sort-bins.defining-attributes.1-g-a-1": {
       "about": [
-        "Er det stadig en trekant, hvis den er rød, stor eller skæv? Hver runde nævner én figur, og barnet trækker hver figur ned i den rigtige kasse ved at afgøre, hvad den ER — ikke hvordan den ser ud — og sorterer rigtige trekanter fra firkanter, femkanter og sekskanter. Det er en gratis, interaktiv geometriaktivitet til 1. klasse, der kører i browseren uden noget at installere.",
+        "Er det stadig en trekant, hvis den er rød, stor eller skæv? Hver runde nævner én figur, og barnet trækker hver figur ned i den rigtige kasse ved at afgøre, hvad den ER — ikke hvordan den ser ud — og sorterer rigtige trekanter fra firkanter, femkanter og sekskanter. Det er en interaktiv geometriaktivitet til 1. klasse, der kører i browseren uden noget at installere.",
         "Hele idéen er forskellen på en egenskab, der bestemmer figuren, og en, der ikke gør. En trekant er bestemt ved at have tre sider — punktum — mens det at være rød, stor eller skæv bare er sådan, lige netop denne trekant tilfældigvis ser ud. Ved at sortere eksempler over for fristende ikke-eksempler lærer barnet at se bort fra det ydre og dømme ud fra den egenskab, der faktisk betyder noget. Det er begyndelsen på ægte geometrisk tænkning.",
         "Aktiviteten er tilpasset Fælles Mål for matematik i 1. klasse: at skelne de egenskaber, der bestemmer en figur, fra dem, der ikke gør, og at bygge og tegne figurer, der har dem. Der er ingen tid og ingen point — bare rolig, legende træning."
       ],
@@ -607,7 +607,7 @@
     },
     "array.equal-groups.2-oa-c-4": {
       "about": [
-        "Lige store grupper er en rolig matematikaktivitet til 2. klasse, som barnet kan spille gratis og interaktivt direkte i browseren — uden at installere noget og uden konto. Barnet laver flere grupper med lige mange ting i hver og lægger dem sammen for at finde det samlede antal. Runderne går fra 2 grupper med 3 i hver op til 3 grupper med 5, og undervejs møder barnet også 4 grupper med 4 og 5 grupper med 2, så det arbejder med mange forskellige opstillinger.",
+        "Lige store grupper er en rolig matematikaktivitet til 2. klasse, som barnet kan spille interaktivt direkte i browseren — uden at installere noget og uden konto. Barnet laver flere grupper med lige mange ting i hver og lægger dem sammen for at finde det samlede antal. Runderne går fra 2 grupper med 3 i hver op til 3 grupper med 5, og undervejs møder barnet også 4 grupper med 4 og 5 grupper med 2, så det arbejder med mange forskellige opstillinger.",
         "I modsætning til en pæn firkantet opstilling sidder tingene her i adskilte grupper, og netop derfor bliver \"lige mange i hver\" hele pointen. Mens barnet fylder hver gruppe, vokser en plusstribe ved siden af — 4 + 4 + 4 — så de lige store grupper bliver til et plusstykke, og til sidst skriver barnet, hvor mange der er i alt. Barnet bygger og lægger grupperne sammen; det ganger ikke endnu, men møder præcis den tankegang, som multiplikation senere bygger på.",
         "Aktiviteten følger Fælles Mål inden for tal og algebra: at finde et samlet antal ved gentagen addition af lige store grupper. Der er ingen timer og ingen point — bare rolig, legende træning i 2. klasse."
       ],
@@ -630,7 +630,7 @@
     },
     "choice-board.even-odd.2-oa-c-3": {
       "about": [
-        "Et tal fra 1 til 20 dukker op, og barnet skal afgøre, om det er lige eller ulige, og trykke på feltet Lige eller Ulige. Med kun to muligheder bedømmer barnet hvert tal for sig: er det den slags, der kan deles to og to, eller den slags, hvor der bliver én tilovers? Det er en gratis, interaktiv talaktivitet til 2. klasse, der kører direkte i browseren uden oprettelse.",
+        "Et tal fra 1 til 20 dukker op, og barnet skal afgøre, om det er lige eller ulige, og trykke på feltet Lige eller Ulige. Med kun to muligheder bedømmer barnet hvert tal for sig: er det den slags, der kan deles to og to, eller den slags, hvor der bliver én tilovers? Det er en interaktiv talaktivitet til 2. klasse, der kører direkte i browseren uden oprettelse.",
         "Den store idé er, at lige og ulige handler om, hvorvidt et antal kan deles i to lige store grupper uden noget tilovers. Barnet lægger ikke sammen og trækker ikke fra her; det sorterer hele tal efter deres bygning. Når barnet arbejder med hele området fra 1 til 20, og begge valg altid er fremme, opbygges den hurtige genkendelse — og vanen med at kigge på enercifret — som gør lige og ulige helt automatisk.",
         "Aktiviteten følger Fælles Mål inden for tal og algebra: at afgøre, om et antal genstande er lige eller ulige. Der er ingen timer og ingen point — bare rolig, legende træning i 2. klasse."
       ],
@@ -653,7 +653,7 @@
     },
     "choice-board.describe-attribute.k-md-a-1": {
       "about": [
-        "Én hverdagsting vises ad gangen, og barnet trykker på det ord, der passer bedst — lang, høj eller tung. Tingene er valgt, så én egenskab tydeligt springer i øjnene: en blyant og en gulerod er lange, en giraf er høj, og en sten og et græskar er tunge. Det er en gratis, interaktiv måleaktivitet til børnehaveklassen, der spilles direkte i browseren uden konto.",
+        "Én hverdagsting vises ad gangen, og barnet trykker på det ord, der passer bedst — lang, høj eller tung. Tingene er valgt, så én egenskab tydeligt springer i øjnene: en blyant og en gulerod er lange, en giraf er høj, og en sten og et græskar er tunge. Det er en interaktiv måleaktivitet til børnehaveklassen, der spilles direkte i browseren uden konto.",
         "Hele pointen er at sætte ord på de måder, vi måler ting på, før der overhovedet kommer tal og linealer ind i billedet. Barnet tæller ikke og måler ikke her; det kigger på en virkelig ting og afgør, hvilken målbar egenskab der passer — længde, højde eller vægt. Fordi hver ting på billedet har én helt tydelig stærkeste egenskab, øver barnet at lægge mærke til, hvilken slags måling en ting lægger op til, og det er sprogfundamentet under al senere måling.",
         "Aktiviteten følger Fælles Mål inden for måling og data: at beskrive målbare egenskaber ved en genstand, fx længde, højde og vægt. Der er ingen timer og ingen point — bare rolig, legende træning i børnehaveklassen."
       ],
@@ -676,7 +676,7 @@
     },
     "choice-board.ten-more-less.1-nbt-c-5": {
       "about": [
-        "Et tal som 34, 57, 60 eller 82 dukker op sammen med ordene ti mere eller ti mindre, og barnet regner det ud i hovedet og trykker på svaret blandt fire muligheder. Det er en gratis, interaktiv aktivitet til 1. klasse, der spilles direkte i browseren på tablet, telefon eller klassens computer — uden at installere noget og uden konto.",
+        "Et tal som 34, 57, 60 eller 82 dukker op sammen med ordene ti mere eller ti mindre, og barnet regner det ud i hovedet og trykker på svaret blandt fire muligheder. Det er en interaktiv aktivitet til 1. klasse, der spilles direkte i browseren på tablet, telefon eller klassens computer — uden at installere noget og uden konto.",
         "Den vigtige indsigt er, at det slet ikke kræver tælling at finde ti mere eller ti mindre — kun tiercifret ændrer sig, mens enerne bliver præcis de samme, så 34 og ti mere er 44, og 57 og ti mindre er 47. De forkerte svar er tal i nærheden, blandt andet nogle, der ændrer enercifret, så et barn, der tæller én ad gangen eller lægger en tier det forkerte sted, vil opdage, at det ikke passer. Pointen er at se tierne, ikke at tælle.",
         "Aktiviteten følger Fælles Mål inden for tal i titalssystemet: at finde 10 mere eller 10 mindre end et tocifret tal i hovedet, uden at skulle tælle. Der er ingen timer og ingen point — bare rolig, legende træning i 1. klasse."
       ],
@@ -699,7 +699,7 @@
     },
     "clock.set-clock.1-md-b-3": {
       "about": [
-        "Et klokkeslæt vises med tal — fx 3:00, 7:30, 9:00, 6:30 eller halv to — og barnet trækker den lange og den korte viser på urskiven, så de viser tiden, mens et digitalt klokkeslæt opdaterer sig undervejs. Stil uret er en gratis matematikaktivitet til 1. klasse, der spilles direkte i browseren på tablet, telefon og klassens computer — uden at installere noget og uden oprettelse.",
+        "Et klokkeslæt vises med tal — fx 3:00, 7:30, 9:00, 6:30 eller halv to — og barnet trækker den lange og den korte viser på urskiven, så de viser tiden, mens et digitalt klokkeslæt opdaterer sig undervejs. Stil uret er en matematikaktivitet til 1. klasse, der spilles direkte i browseren på tablet, telefon og klassens computer — uden at installere noget og uden oprettelse.",
         "Det er sværere at stille et ur end at aflæse det, for barnet skal selv lave begge visere i stedet for at genkende et billede. Ved de halve timer står den korte viser mellem to tal, ikke på ét, så et barn, der kun flytter timeviseren hen til et tal, rammer ved siden af — den skal placeres halvvejs. Når barnet ser det digitale klokkeslæt ændre sig, mens viserne flyttes, knyttes urskiven til de tal, barnet kender i forvejen, og tiderne bliver på hele og halve timer, så fokus er på at få viserne rigtigt.",
         "Aktiviteten følger Fælles Mål inden for måling og data: at aflæse og angive klokkeslæt på hele og halve timer på både analoge og digitale ure. Der er ingen timer og ingen point — bare rolig, legende træning i 1. klasse."
       ],
@@ -722,7 +722,7 @@
     },
     "match-pairs.make-the-number.k-oa-a-3": {
       "about": [
-        "Et måltal dukker op — fx 5 — og barnet finder de talpar, der tilsammen bliver netop det tal, som 1 og 4 eller 2 og 3, ved at trykke på ét tal og derefter på dets makker, så parret bliver forbundet. Det er et gratis, interaktivt talspil til børnehaveklassen, der spilles direkte i browseren — uden at installere noget og uden konto.",
+        "Et måltal dukker op — fx 5 — og barnet finder de talpar, der tilsammen bliver netop det tal, som 1 og 4 eller 2 og 3, ved at trykke på ét tal og derefter på dets makker, så parret bliver forbundet. Det er et interaktivt talspil til børnehaveklassen, der spilles direkte i browseren — uden at installere noget og uden konto.",
         "Den store idé er, at ét tal kan laves på mere end én måde. Med måltallet 7 kan barnet forbinde 0 og 7 og derefter 3 og 4 og opdage, at det samme i alt har flere forskellige par. Fordi aktiviteten beder om de par, der laver måltallet, og ikke om ét enkelt rigtigt svar, opbygger den stille og roligt den del-helhed-forståelse, som al senere addition hviler på.",
         "Aktiviteten følger Fælles Mål inden for tal og algebra: at opdele tal op til 10 i par på flere forskellige måder. Der er ingen timer og ingen point — bare rolig, legende træning i børnehaveklassen."
       ],
@@ -745,7 +745,7 @@
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {
       "about": [
-        "Barnet ser plusstykker som 4 + 7 og 7 + 4 eller 5 + 9 og 9 + 5 og forbinder hvert plusstykke med det samme stykke, hvor tallene er byttet om — tryk på ét kort og derefter på dets ombyttede tvilling, og parret bliver forbundet. Det er et gratis, interaktivt kortspil til matematik i 1. klasse, der spilles direkte i browseren — uden at installere noget og uden konto.",
+        "Barnet ser plusstykker som 4 + 7 og 7 + 4 eller 5 + 9 og 9 + 5 og forbinder hvert plusstykke med det samme stykke, hvor tallene er byttet om — tryk på ét kort og derefter på dets ombyttede tvilling, og parret bliver forbundet. Det er et interaktivt kortspil til matematik i 1. klasse, der spilles direkte i browseren — uden at installere noget og uden konto.",
         "Den store idé er den kommutative lov: 4 + 7 og 7 + 4 bliver begge 11, så rækkefølgen af tallene ændrer ikke det samlede resultat. Hver runde viser seks kort — tre ombyttede par blandet sammen — så barnet regner resultaterne ud og lægger mærke til, hvilke plusstykker der bruger præcis de samme tal, bare vendt om. Barnet matcher ikke ens kort; det opdager, at to stykker, der ser forskellige ud, giver det samme.",
         "Aktiviteten følger Fælles Mål inden for tal og algebra: at bruge regnereglerne, fx den kommutative lov, som en strategi til at lægge sammen. Der er ingen timer og ingen point — bare rolig, legende træning i 1. klasse."
       ],
@@ -768,7 +768,7 @@
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {
       "about": [
-        "Ved et plusstykke som 8 + 5 deler barnet det andet tal på en taldeling, så den ene del fylder det første tal helt op til ti (8 + 2 = 10), og lægger derefter resten til (10 + 3 = 13). Denne lav-en-tier-strategi bliver levende i en gratis, interaktiv matematikaktivitet til 1. klasse, der spilles direkte i browseren uden konto.",
+        "Ved et plusstykke som 8 + 5 deler barnet det andet tal på en taldeling, så den ene del fylder det første tal helt op til ti (8 + 2 = 10), og lægger derefter resten til (10 + 3 = 13). Denne lav-en-tier-strategi bliver levende i en interaktiv matematikaktivitet til 1. klasse, der spilles direkte i browseren uden konto.",
         "Den store idé er at lave et svært stykke om til et let: kom op til en venlig tier, og læg så resten til. Barnet trykker for at fylde lav-en-tier-delen af taldelingen, og delingen viser præcis, hvordan det andet tal deles op — så strategien er noget, barnet ser og gør, ikke noget, det skal lære udenad.",
         "Aktiviteten følger Fælles Mål inden for tal og algebra: at lægge sammen inden for 20 ved hjælp af tierovergang. Der er ingen timer og ingen point — bare rolig, legende træning i 1. klasse."
       ],
@@ -791,7 +791,7 @@
     },
     "place-value.tens-and-ones.1-nbt-b-2": {
       "about": [
-        "For at lave 47 lægger barnet fire tier-stænger og syv ener-terninger ud og ser \"fyrre\" blive til noget håndgribeligt i stedet for bare et ciffer. Tallene går fra 12 op til 95 — også de runde tiere 30, 50, 70 og 90 — bygget ét tryk ad gangen i en gratis, interaktiv matematikaktivitet til 1. klasse, der spilles i browseren uden oprettelse.",
+        "For at lave 47 lægger barnet fire tier-stænger og syv ener-terninger ud og ser \"fyrre\" blive til noget håndgribeligt i stedet for bare et ciffer. Tallene går fra 12 op til 95 — også de runde tiere 30, 50, 70 og 90 — bygget ét tryk ad gangen i en interaktiv matematikaktivitet til 1. klasse, der spilles i browseren uden oprettelse.",
         "Den store idé er, at et tocifret tal er bygget af tiere og enere. For at bygge 47 bruger barnet fire tier-stænger og syv ener-terninger, og synet af de fire stænger gør \"fyrre\" konkret i stedet for bare et ciffer. De runde tal som 70 og 90 understreger, at et nul på enerpladsen betyder, at der slet ikke er nogen løse terninger — kun hele tiere.",
         "Aktiviteten følger Fælles Mål inden for tal i titalssystemet: at forstå, at et tocifret tal er bygget af et antal tiere og enere. Der er ingen timer og ingen point — bare rolig, legende træning i 1. klasse."
       ],
@@ -814,7 +814,7 @@
     },
     "syllable-builder.byg-ordet-af-stavelser.da.rf-k-2-b": {
       "about": [
-        "Byg ordet af stavelser er en gratis, interaktiv fonetikaktivitet til børnehaveklassen, der spilles direkte i browseren uden konto. Barnet ser et billede af en ting og bygger ordet ved at lægge stavelsesbrikkerne i den rigtige rækkefølge — fx bliver brikkerne ba og nan og en til ba-nan-en, eller so og len til so-len.",
+        "Byg ordet af stavelser er en interaktiv fonetikaktivitet til børnehaveklassen, der spilles direkte i browseren uden konto. Barnet ser et billede af en ting og bygger ordet ved at lægge stavelsesbrikkerne i den rigtige rækkefølge — fx bliver brikkerne ba og nan og en til ba-nan-en, eller so og len til so-len.",
         "Pointen er at høre, hvordan et talt ord er bygget af stavelser, og sætte dem sammen til hele ordet. Barnet lægger ikke bogstaver, men hele stavelser, og opdager på den måde, at lange ord kan deles op i mindre, overskuelige lyddele. At kunne dele ord i stavelser og blande dem sammen igen er et vigtigt skridt på vejen til at læse og stave.",
         "Aktiviteten følger Fælles Mål inden for tidlig læsning: at tælle, udtale, blande og dele stavelser i talte ord. Der er ingen timer og ingen point — bare rolig, legende træning i børnehaveklassen."
       ],
@@ -838,7 +838,7 @@
     },
     "choice-board.shape-id.k-g-a-2": {
       "about": [
-        "Genkend formen er en rolig geometriaktivitet, som barnet kan spille gratis direkte i browseren på tablet, telefon eller klassens computer. Der skal ikke installeres noget, og man behøver ikke en konto. En opgave nævner en form — cirkel, kvadrat, trekant, rektangel, sekskant, oval, stjerne, rude, hjerte eller femkant — og barnet finder den ved at se efter og trykke på den blandt fire billeder.",
+        "Genkend formen er en rolig geometriaktivitet, som barnet kan spille direkte i browseren på tablet, telefon eller klassens computer. Der skal ikke installeres noget, og man behøver ikke en konto. En opgave nævner en form — cirkel, kvadrat, trekant, rektangel, sekskant, oval, stjerne, rude, hjerte eller femkant — og barnet finder den ved at se efter og trykke på den blandt fire billeder.",
         "Den store idé er, at en form er den samme form, uanset hvordan den er vendt, eller hvor stor den er tegnet. En trekant, der står på spidsen, eller et lillebitte kvadrat er stadig en trekant og stadig et kvadrat, så barnet skal genkende selve formen og ikke kun ét bestemt skolebogsbillede af den. De tre forkerte muligheder er andre rigtige former fra sættet, så barnet ikke kan vinde ved bare at vælge den eneste form på pladen — det skal vide, hvilket navn der hører til hvilken figur.",
         "Aktiviteten følger Fælles Mål inden for området geometri: at navngive former uanset orientering eller størrelse. Den passer til børnehaveklassen. Der er ingen timer og ingen point — bare rolig, legende øvelse i barnets eget tempo."
       ],
@@ -861,7 +861,7 @@
     },
     "choice-board.flat-solid.k-g-a-3": {
       "about": [
-        "Flad eller rumlig? viser én form ad gangen, og barnet trykker på, om den er flad (2D) eller rumlig (3D). Flade former er for eksempel en cirkel, en trekant, et kvadrat og en sekskant, og rumlige former er for eksempel en terning, en kugle, en cylinder og en kegle. Det er en gratis, interaktiv geometriaktivitet, der kører direkte i browseren uden oprettelse og uden noget at installere.",
+        "Flad eller rumlig? viser én form ad gangen, og barnet trykker på, om den er flad (2D) eller rumlig (3D). Flade former er for eksempel en cirkel, en trekant, et kvadrat og en sekskant, og rumlige former er for eksempel en terning, en kugle, en cylinder og en kegle. Det er en interaktiv geometriaktivitet, der kører direkte i browseren uden oprettelse og uden noget at installere.",
         "Den store idé er forskellen på en form, man kan tegne på et stykke papir, og en form, man kan tage op og holde i hånden. Her navngiver barnet ikke formerne, men sorterer dem i todimensionale og tredimensionale. Når velkendte flade former blandes med deres rumlige fætre — en cirkel ved siden af en kugle, et kvadrat ved siden af en terning — bliver barnet nødt til at se efter, om formen har dybde, og det er det første skridt mod at forstå rumlige figurer.",
         "Aktiviteten følger Fælles Mål inden for området geometri: at kende former som todimensionale (flade) eller tredimensionale (rumlige). Den passer til børnehaveklassen. Der er ingen timer og ingen point — bare rolig, legende øvelse."
       ],
@@ -884,7 +884,7 @@
     },
     "choice-board.next-number.k-cc-a-2": {
       "about": [
-        "Hvilket tal kommer efter? viser et tal fra 1 til 9, og barnet trykker på det tal, der kommer lige efter — ser man et 4, finder man 5, og ser man et 8, finder man 9. Det er en gratis, interaktiv tælleaktivitet til børnehaveklassen, der kører direkte i browseren på tablet, telefon og computer uden oprettelse og uden noget at installere.",
+        "Hvilket tal kommer efter? viser et tal fra 1 til 9, og barnet trykker på det tal, der kommer lige efter — ser man et 4, finder man 5, og ser man et 8, finder man 9. Det er en interaktiv tælleaktivitet til børnehaveklassen, der kører direkte i browseren på tablet, telefon og computer uden oprettelse og uden noget at installere.",
         "Den store idé er at tælle videre fra et tal, man får, i stedet for altid at begynde forfra ved et. Svarmulighederne er tal mellem 0 og 10, der ligger tæt på det rigtige svar, så barnet skal virkelig vide, hvad der kommer efter, og ikke bare gætte. At kunne tage tællingen op midt i talrækken er netop det, der gør tælling hurtig og fleksibel.",
         "Aktiviteten følger Fælles Mål inden for området tal og tælling: at tælle videre fra et tal, barnet kender, inden for den kendte talrække. Den passer til børnehaveklassen. Der er ingen timer og ingen point — bare rolig, legende øvelse."
       ],
@@ -907,7 +907,7 @@
     },
     "choice-board.read-ruler.2-md-a-1": {
       "about": [
-        "Læs linealen er en rolig måleaktivitet, hvor en ting ligger langs en centimeter-lineal, og barnet aflæser, hvor lang den er, og trykker på svaret i centimeter. Tingene kan være en blyant, et bånd, en farveblyant eller en tusch, og længderne går fra en kort farveblyant på 5 cm til en tusch på 14 cm eller en pind på 17 cm. Det er en gratis, interaktiv aktivitet til 2. klasse, der kører direkte i browseren uden konto.",
+        "Læs linealen er en rolig måleaktivitet, hvor en ting ligger langs en centimeter-lineal, og barnet aflæser, hvor lang den er, og trykker på svaret i centimeter. Tingene kan være en blyant, et bånd, en farveblyant eller en tusch, og længderne går fra en kort farveblyant på 5 cm til en tusch på 14 cm eller en pind på 17 cm. Det er en interaktiv aktivitet til 2. klasse, der kører direkte i browseren uden konto.",
         "Den store idé er at aflæse en lineal rigtigt: læg tingens venstre ende ud for 0, følg den til den anden ende, og aflæs stregen dér. Barnet gætter ikke en cirka-længde, men aflæser en præcis længde på skalaen. Fordi svarmulighederne er nabotal, dukker den klassiske fejl op, hvor man begynder ved 1 i stedet for 0 — og det opbygger vanen med altid at starte en måling ved nul.",
         "Aktiviteten følger Fælles Mål inden for området måling: at måle en tings længde ved at vælge og bruge et passende redskab som en lineal. Den passer til måling i 1.-2. klasse. Der er ingen timer og ingen point — bare rolig, legende øvelse."
       ],
@@ -930,7 +930,7 @@
     },
     "clock.tell-time-5-min.2-md-c-7": {
       "about": [
-        "Stil uret på 5 minutter viser en tid med tal — som 3:15, 7:45, 6:10, 9:20, 4:40, 1:50, 10:05 eller 12:25 — og barnet trækker viserne på det analoge ur, så de viser tiden, mens en digital visning opdateres undervejs. Det er en gratis matematikaktivitet til 2. klasse, der løfter klokken op til femminutters-tider og kører i browseren uden konto.",
+        "Stil uret på 5 minutter viser en tid med tal — som 3:15, 7:45, 6:10, 9:20, 4:40, 1:50, 10:05 eller 12:25 — og barnet trækker viserne på det analoge ur, så de viser tiden, mens en digital visning opdateres undervejs. Det er en matematikaktivitet til 2. klasse, der løfter klokken op til femminutters-tider og kører i browseren uden konto.",
         "At aflæse og indstille til fem minutter betyder, at minutviseren endelig får betydning i detaljen: kvart over peger på 3, kvart i peger på 9, ti over på 2, og barnet tæller med fem ad gangen rundt om skiven for at ramme præcist. De sværere tider — som 7:45, der jo er kvart i otte — får barnet til at aflæse timeviseren, mens den lister sig hen mod næste tal. Den digitale visning bekræfter hver placering, så det at tælle med fem hænger sammen med tiden i tal.",
         "Aktiviteten følger Fælles Mål inden for området måling: at aflæse og skrive tiden til nærmeste fem minutter på analoge og digitale ure. Den passer til 2. klasse. Der er ingen timer og ingen point — bare rolig, legende øvelse."
       ],
@@ -953,7 +953,7 @@
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {
       "about": [
-        "Plus- og minus-par lader barnet regne kort ud som 2 + 3 og 9 − 4 (begge giver 5) eller 3 + 4 og 9 − 2 (begge giver 7) og derefter trykke på et plusstykke og det minusstykke, der har samme resultat, så parret forbindes. Det er en gratis, interaktiv matematikaktivitet til 1. klasse, der kører direkte i browseren uden oprettelse og uden noget at installere.",
+        "Plus- og minus-par lader barnet regne kort ud som 2 + 3 og 9 − 4 (begge giver 5) eller 3 + 4 og 9 − 2 (begge giver 7) og derefter trykke på et plusstykke og det minusstykke, der har samme resultat, så parret forbindes. Det er en interaktiv matematikaktivitet til 1. klasse, der kører direkte i browseren uden oprettelse og uden noget at installere.",
         "Den store idé er, at et plusstykke og et minusstykke kan være lige meget værd — lighedstegnet betyder \"det samme som\" og ikke \"her kommer svaret\". Kortene viser ikke resultatet, så barnet er nødt til at regne hvert kort ud og derefter lede efter et regnestykke, der ser anderledes ud, men har samme værdi. Hver runde har to (nogle gange tre) resultater at finde, hvor plus- og minusstykker er blandet sammen.",
         "Aktiviteten følger Fælles Mål inden for området tal og algebra: at forstå betydningen af lighedstegnet og afgøre, om regnestykker med plus og minus er lige store. Den passer til 1. klasse. Der er ingen timer og ingen point — bare rolig, legende øvelse."
       ],
@@ -976,7 +976,7 @@
     },
     "match-pairs.match-facts-to-20.2-oa-b-2": {
       "about": [
-        "Match regnestykker op til 20 lader barnet regne kort ud som 8 + 5, 9 + 7, 14 − 6 og 17 − 8 og derefter trykke på hvert regnestykke og det tal, der er svaret, så parret forbindes, og barnet bliver hurtigt og sikkert. Det er en gratis, interaktiv matematikaktivitet til 2. klasse, der kører direkte i browseren uden oprettelse og uden noget at installere.",
+        "Match regnestykker op til 20 lader barnet regne kort ud som 8 + 5, 9 + 7, 14 − 6 og 17 − 8 og derefter trykke på hvert regnestykke og det tal, der er svaret, så parret forbindes, og barnet bliver hurtigt og sikkert. Det er en interaktiv matematikaktivitet til 2. klasse, der kører direkte i browseren uden oprettelse og uden noget at installere.",
         "Den store idé er hurtig og sikker hukommelse af plus- og minusstykker op til 20. Hver runde blander tre regnestykker — nogle plus, nogle minus — med deres tre svar rodet ind imellem, så barnet regner hvert stykke ud og derefter finder den tilhørende værdi. Gentagen øvelse runde efter runde flytter stille og roligt stykker som 9 + 9 = 18 og 16 − 9 = 7 fra at skulle tælles til at sidde på rygraden.",
         "Aktiviteten følger Fælles Mål inden for området tal og algebra: at lægge sammen og trække fra inden for 20 med sikkerhed og at kende summen af to ensifrede tal udenad. Den passer til 2. klasse. Der er ingen timer og ingen point — bare rolig, legende øvelse."
       ],
@@ -999,7 +999,7 @@
     },
     "numberbond.find-the-total.1-oa-a-1": {
       "about": [
-        "Find det hele viser en taldeling med to dele, som 7 og 4, og barnet finder ud af, hvor mange der er i alt — det tæller delene sammen og skriver det hele. Det er en gratis, interaktiv matematikaktivitet til 1. klasse, der kører direkte i browseren uden oprettelse.",
+        "Find det hele viser en taldeling med to dele, som 7 og 4, og barnet finder ud af, hvor mange der er i alt — det tæller delene sammen og skriver det hele. Det er en interaktiv matematikaktivitet til 1. klasse, der kører direkte i browseren uden oprettelse.",
         "Det hele sidder øverst, og de to dele sidder nedenunder, så det at \"lægge sammen\" bliver til noget, barnet kan se. Det kan tælle videre fra den største del eller bare kende stykket; prikkerne i hver del er der til at tælle, hvis stykket ikke sidder helt fast endnu. Svaret er det hele øverst i taldelingen, og delene lægges sammen op til 20.",
         "Aktiviteten følger Fælles Mål inden for området tal og algebra: at bruge addition til at lægge sammen inden for 20. Den passer til 1. klasse. Der er ingen timer og ingen point — bare rolig, legende øvelse."
       ],
@@ -1022,7 +1022,7 @@
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {
       "about": [
-        "Hundreder, tiere og enere lader barnet trykke på en plade, en stang eller en terning og se et tresifret tal vokse, efterhånden som titalsklodserne stables — hundrede-plader, tier-stænger og ener-terninger bygger tal fra 108 til 974, også drilske tal med nul som 200, 305 og 906. Det er en gratis, interaktiv matematikaktivitet til 2. klasse, der kører direkte i browseren uden konto.",
+        "Hundreder, tiere og enere lader barnet trykke på en plade, en stang eller en terning og se et tresifret tal vokse, efterhånden som titalsklodserne stables — hundrede-plader, tier-stænger og ener-terninger bygger tal fra 108 til 974, også drilske tal med nul som 200, 305 og 906. Det er en interaktiv matematikaktivitet til 2. klasse, der kører direkte i browseren uden konto.",
         "Den store idé er, at et tals tre cifre står for hundreder, tiere og enere. For at bygge 463 skal barnet bruge fire hundrede-plader, seks tier-stænger og tre ener-terninger, og når klodserne hober sig op, knytter hvert ciffer sig til en virkelig mængde. Tal som 305 og 906 lærer stille og roligt barnet, at et nul betyder ingen af den slags — slet ingen tier-stænger — og det er netop dér, forvirring om pladsværdi som regel begynder.",
         "Aktiviteten følger Fælles Mål inden for området tal og pladsværdi: at forstå, at et tresifret tals tre cifre står for mængder af hundreder, tiere og enere. Den passer til 2. klasse. Der er ingen timer og ingen point — bare rolig, legende øvelse."
       ],
@@ -1045,7 +1045,7 @@
     },
     "ten-frame.show-the-operation.k-oa-a-1": {
       "about": [
-        "Addition og subtraktion på tierrammen lader barnet vise selve regnestykket med brikker. Til \"3 + 2\" lægger barnet først 3 brikker og derefter 2 mere i en anden farve, så de to dele er lette at se; til \"5 − 2\" starter det med 5 brikker og trykker for at tage 2 væk. Det er at vise regnestykket — ikke at skrive et tal — der er arbejdet. Det er en gratis, interaktiv matematikaktivitet til børnehaveklassen, der kører i browseren uden oprettelse.",
+        "Addition og subtraktion på tierrammen lader barnet vise selve regnestykket med brikker. Til \"3 + 2\" lægger barnet først 3 brikker og derefter 2 mere i en anden farve, så de to dele er lette at se; til \"5 − 2\" starter det med 5 brikker og trykker for at tage 2 væk. Det er at vise regnestykket — ikke at skrive et tal — der er arbejdet. Det er en interaktiv matematikaktivitet til børnehaveklassen, der kører i browseren uden oprettelse.",
         "Den store idé er, at addition og subtraktion er handlinger, man kan vise, og ikke bare svar, man skriver. Den anden brikfarve gør de to addender synlige som hver sin gruppe, og at tage brikker væk gør \"trække fra\" helt konkret. Barnet modellerer regnestykket frem for at skrive et tal, så betydningen af at lægge sammen og dele op kommer før selve regningen.",
         "Aktiviteten følger Fælles Mål inden for området tal og algebra: at vise addition og subtraktion med ting, fingre, tegninger og andre redskaber. Den passer til børnehaveklassen. Der er ingen timer og ingen point — bare rolig, legende øvelse."
       ],
@@ -1068,7 +1068,7 @@
     },
     "choice-board.count-sides.k-g-b-4": {
       "about": [
-        "Tæl siderne er en rolig geometriaktivitet til børnehaveklassen, som barnet kan spille gratis og direkte i browseren — på tablet, telefon eller klassens computer, uden at installere noget og uden konto. Der vises én form ad gangen, og barnet tæller dens lige sider og trykker så på det tal, der passer: en trekant med 3 sider, et kvadrat med 4, en femkant med 5 eller en sekskant med 6. Talmulighederne kommer fra rækken 3 til 8.",
+        "Tæl siderne er en rolig geometriaktivitet til børnehaveklassen, som barnet kan spille direkte i browseren — på tablet, telefon eller klassens computer, uden at installere noget og uden konto. Der vises én form ad gangen, og barnet tæller dens lige sider og trykker så på det tal, der passer: en trekant med 3 sider, et kvadrat med 4, en femkant med 5 eller en sekskant med 6. Talmulighederne kommer fra rækken 3 til 8.",
         "Den store idé er, at en form er mere end sit navn — den er bygget af dele, man kan tælle. Barnet kan ikke vinde ved bare at genkende \"en trekant\"; det skal følge hver kant med øjnene og tælle siderne én ad gangen. Fordi talkortene også har nære naboer som 5 ved siden af 6, kommer det til syne, hvis man tæller én forkert, og det inviterer til omhyggelig tælling med fingeren på hver side i stedet for et hurtigt gæt. Aktiviteten følger Fælles Mål inden for geometri: at beskrive og sammenligne former ud fra deres dele, som antallet af sider. Der er ingen timer og ingen point."
       ],
       "practices": [
@@ -1090,7 +1090,7 @@
     },
     "choice-board.pick-smaller.k-c-c-7": {
       "about": [
-        "Hvilket tal er mindst? viser to skrevne tal, og barnet trykker på det mindste — for eksempel 3 og 5 eller 8 og 9. Nogle par ligger langt fra hinanden, som 1 og 9, og andre ligger helt tæt, som 5 og 6. Det er en gratis, interaktiv tælleaktivitet til børnehaveklassen, der spilles direkte i browseren uden konto.",
+        "Hvilket tal er mindst? viser to skrevne tal, og barnet trykker på det mindste — for eksempel 3 og 5 eller 8 og 9. Nogle par ligger langt fra hinanden, som 1 og 9, og andre ligger helt tæt, som 5 og 6. Det er en interaktiv tælleaktivitet til børnehaveklassen, der spilles direkte i browseren uden konto.",
         "Den store idé er at sammenligne tal ud fra deres værdi og lede efter det mindste i stedet for det største — et lille, men vigtigt skift i opmærksomheden. Der er ingenting at tælle; barnet læser hvert ciffer og afgør, hvilket tal der er færrest. De nære par gør det ægte: at vide, at 8 kommer lige før 9, er netop det, der fortæller én, at 8 er det mindste. Aktiviteten følger Fælles Mål inden for tal og algebra: at sammenligne to tal mellem 1 og 10, skrevet med cifre. Der er ingen timer og ingen point — barnet får ro til at se godt efter i sit eget tempo."
       ],
       "practices": [
@@ -1112,7 +1112,7 @@
     },
     "choice-board.read-sight-word.rf-k-3-c": {
       "about": [
-        "Læs hyppige ord lader barnet høre et almindeligt ord læst højt og derefter trykke på det rigtige ordbillede blandt fire ord, der ligner hinanden — hverdagsord som og, er, jeg, det, var, se og kan, som dukker op hele tiden i de første tekster. Det er en gratis, interaktiv læseaktivitet til 1. klasse, der kører direkte i browseren på tablet, telefon og computer, uden at installere noget og uden konto.",
+        "Læs hyppige ord lader barnet høre et almindeligt ord læst højt og derefter trykke på det rigtige ordbillede blandt fire ord, der ligner hinanden — hverdagsord som og, er, jeg, det, var, se og kan, som dukker op hele tiden i de første tekster. Det er en interaktiv læseaktivitet til 1. klasse, der kører direkte i browseren på tablet, telefon og computer, uden at installere noget og uden konto.",
         "Den store idé er at genkende almindelige ord på et øjeblik, så læsningen kan glide. Mange af ordene kan ikke uden videre lydes ud, så de forkerte valg er nære slægtninge — var ved siden af var, og ved siden af og — og barnet skal kende præcis det rigtige ord, ikke bare en lignende form. At høre ordet og finde det på skrift forbinder lyd og stavemåde for netop de ord, børnene møder allermest. Aktiviteten følger Fælles Mål inden for de tidlige læsefærdigheder: at genkende hyppige ordbilleder. Der er ingen timer og ingen point."
       ],
       "practices": [
@@ -1134,7 +1134,7 @@
     },
     "choice-board.letter-case.rf-k-1-d": {
       "about": [
-        "Match store og små bogstaver viser ét bogstav, og barnet trykker på det samme bogstav i dets anden form — stort til lille eller lille til stort. Et stort B vises, og barnet finder det lille b; et stort R finder r; et stort E finder e. Vi leger med både store og små bogstaver, også de danske æ, ø og å. Det er en gratis, interaktiv læseaktivitet til børnehaveklassen, der spilles direkte i browseren uden konto.",
+        "Match store og små bogstaver viser ét bogstav, og barnet trykker på det samme bogstav i dets anden form — stort til lille eller lille til stort. Et stort B vises, og barnet finder det lille b; et stort R finder r; et stort E finder e. Vi leger med både store og små bogstaver, også de danske æ, ø og å. Det er en interaktiv læseaktivitet til børnehaveklassen, der spilles direkte i browseren uden konto.",
         "Den store idé er, at hvert bogstav har to udseender, som er det samme bogstav. De forkerte valg ligger med vilje tæt på — til B kan de små bogstaver være b, d, p og h — så barnet skal kende bogstavets rigtige form og ikke bare vælge noget, der er rundt. At få styr på de bogstaver, der vender og drejer, som b og d, er netop det at kigge godt efter, der bygger sikker bogstavgenkendelse. Aktiviteten følger Fælles Mål inden for de tidlige læsefærdigheder: at genkende og navngive alle store og små bogstaver. Tag jer god tid og hav det sjovt sammen, helt uden ur og point."
       ],
       "practices": [
@@ -1156,7 +1156,7 @@
     },
     "fractions.partition-equal-shares.1-g-a-3": {
       "about": [
-        "Lav lige store dele viser en form — en cirkel, et kvadrat, et rektangel, en trekant, en ellipse, en rombe, en sekskant eller en femkant — og barnet trykker på snitlinjerne for at dele den i 2 lige store dele (halve) eller 4 lige store dele (fjerdedele). Det er en gratis, interaktiv geometriaktivitet til 1. klasse, der spilles i browseren på alle enheder uden konto.",
+        "Lav lige store dele viser en form — en cirkel, et kvadrat, et rektangel, en trekant, en ellipse, en rombe, en sekskant eller en femkant — og barnet trykker på snitlinjerne for at dele den i 2 lige store dele (halve) eller 4 lige store dele (fjerdedele). Det er en interaktiv geometriaktivitet til 1. klasse, der spilles i browseren på alle enheder uden konto.",
         "Den store idé er, at lige store dele skal være retfærdige — stykkerne skal være lige store. Når man deler mange forskellige former og ikke kun cirkler, viser det, at halve og fjerdedele handler om lige store arealer og ikke om ét bestemt billede: et kvadrat delt i fire og en cirkel delt i fire giver begge fjerdedele. Fordi barnet selv klipper, laver det stykkerne lige store i stedet for at genkende et færdigt billede. Aktiviteten følger Fælles Mål inden for geometri: at dele cirkler og rektangler i to og fire lige store dele og beskrive dem som halve og fjerdedele. Der er ingen timer og ingen point."
       ],
       "practices": [
@@ -1178,7 +1178,7 @@
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {
       "about": [
-        "Tre måder at vise et tal på lader barnet forbinde de kort, der viser den samme værdi — tallet med cifre (305), tallet med ord (trehundrede og fem) og den udvidede form (300 + 5). Barnet trykker på ét kort og derefter på dets makker, indtil de tre hører sammen. Det er et gratis, interaktivt matematikspil til 2. klasse, der spilles direkte i browseren — uden installation og uden konto.",
+        "Tre måder at vise et tal på lader barnet forbinde de kort, der viser den samme værdi — tallet med cifre (305), tallet med ord (trehundrede og fem) og den udvidede form (300 + 5). Barnet trykker på ét kort og derefter på dets makker, indtil de tre hører sammen. Det er et interaktivt matematikspil til 2. klasse, der spilles direkte i browseren — uden installation og uden konto.",
         "Den store idé er, at et tal med cifre, dets talord og dets udvidede form alle navngiver ét og samme tal — og det er ved pladsværdiernes huller, det bliver spændende. Tal som 305 og 208 har et nul på tier-pladsen, så den udvidede form er 300 + 5 og ikke 300 + 0 + 5, og barnet skal læse omhyggeligt for at matche \"tohundrede og otte\" til 208 og ikke til 280. Hver runde har tre forskellige tal at få styr på på én gang. Aktiviteten følger Fælles Mål inden for tal og algebra: at læse og skrive tal op til 1000 med cifre, med talord og i udvidet form. Der er ingen timer og ingen point."
       ],
       "practices": [
@@ -1200,7 +1200,7 @@
     },
     "money.count-out.2-md-c-8": {
       "about": [
-        "Tæl pengene lader barnet bygge et bestemt beløb mønt for mønt og lægge danske kroner i bakken, indtil pengene passer — for eksempel 30 kr lavet af en 20-krone, en 5-krone og en 5-krone, eller 7 kr lavet af en 5-krone og en 2-krone. Det er en gratis, interaktiv matematikaktivitet til 2. klasse, der spilles direkte i browseren uden installation og uden konto.",
+        "Tæl pengene lader barnet bygge et bestemt beløb mønt for mønt og lægge danske kroner i bakken, indtil pengene passer — for eksempel 30 kr lavet af en 20-krone, en 5-krone og en 5-krone, eller 7 kr lavet af en 5-krone og en 2-krone. Det er en interaktiv matematikaktivitet til 2. klasse, der spilles direkte i browseren uden installation og uden konto.",
         "Den store idé er, at en mønts værdi ikke kan ses på dens størrelse, så barnet skal kende, hvad hver mønt er værd, og lægge sammen undervejs. En lille mønt kan være mere værd end en større, og en enkelt 20-krone kan veje tungere end en håndfuld 1-kroner. At nå hvert beløb ved at vælge og lægge mønter sammen bygger den løbende sammentælling, som rigtig pengehåndtering kræver. Aktiviteten følger Fælles Mål inden for måling og data: at regne med penge i danske kroner og øre. Der er ingen timer og ingen point."
       ],
       "practices": [
@@ -1222,7 +1222,7 @@
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {
       "about": [
-        "Find den manglende del viser et minusstykke som 8 − 3 i et talvenne-billede — det hele (8) og den ene del (3) er givet — og barnet finder den manglende del. Det er en gratis, interaktiv matematikaktivitet til 1. klasse, der kører direkte i browseren uden konto.",
+        "Find den manglende del viser et minusstykke som 8 − 3 i et talvenne-billede — det hele (8) og den ene del (3) er givet — og barnet finder den manglende del. Det er en interaktiv matematikaktivitet til 1. klasse, der kører direkte i browseren uden konto.",
         "Den store idé er at læse subtraktion som \"hvad skal der til sammen med 3 for at give 8?\" — en manglende addend frem for en tæl-væk-handling. Barnet fylder den tomme del op, indtil de to dele igen bygger det hele, så den dybe sammenhæng mellem subtraktion og addition er netop det, barnet gør. Runderne når op til hele tal på 16. Aktiviteten følger Fælles Mål inden for tal og algebra: at forstå subtraktion som et spørgsmål om en manglende addend. Der er ingen timer og ingen point."
       ],
       "practices": [
@@ -1244,7 +1244,7 @@
     },
     "place-value.expanded-form.2-nbt-a-3": {
       "about": [
-        "Udvidet form lader barnet bygge et tresifret tal af ti-system-klodser — ved at trykke hundrede-plader, tier-stænger og ener-terninger ind — og når byggeriet er rigtigt, viser klodserne den udvidede form, så 247 bliver til 200 + 40 + 7. Målene går fra 108 op til 974 og rummer drilske tal som 305. Det er en gratis, interaktiv matematikaktivitet til 2. klasse, der kører direkte i browseren uden konto.",
+        "Udvidet form lader barnet bygge et tresifret tal af ti-system-klodser — ved at trykke hundrede-plader, tier-stænger og ener-terninger ind — og når byggeriet er rigtigt, viser klodserne den udvidede form, så 247 bliver til 200 + 40 + 7. Målene går fra 108 op til 974 og rummer drilske tal som 305. Det er en interaktiv matematikaktivitet til 2. klasse, der kører direkte i browseren uden konto.",
         "Den store idé er, at et tal er summen af det, hvert ciffer er værd. Ved at bygge 247 af to hundreder, fire tiere og syv enere ser barnet, at 4-tallet betyder 40 og ikke bare \"fire\". Tallene med et nul er de bedste lærere: 305 viser, at en tom tier-plads ikke tilføjer noget, så den udvidede form er bare 300 + 5. Klodserne forbinder cifrene med deres rigtige værdi. Aktiviteten følger Fælles Mål inden for tal og algebra: at læse og skrive tresifrede tal i udvidet form. Der er ingen timer og ingen point."
       ],
       "practices": [
@@ -1266,7 +1266,7 @@
     },
     "ten-frame.solve-the-story.k-oa-a-2": {
       "about": [
-        "\"3 fugle sidder på en gren, 2 mere lander — hvor mange er der nu?\" Regnehistorier inden for 10 viser en lille historie, barnet bygger den med brikker på en tierramme for at afgøre, om der skal lægges til eller tages væk, og taster så svaret på tastaturet. Det er en gratis, interaktiv matematikaktivitet til børnehaveklassen om regnehistorier inden for 10, der kører i browseren uden konto.",
+        "\"3 fugle sidder på en gren, 2 mere lander — hvor mange er der nu?\" Regnehistorier inden for 10 viser en lille historie, barnet bygger den med brikker på en tierramme for at afgøre, om der skal lægges til eller tages væk, og taster så svaret på tastaturet. Det er en interaktiv matematikaktivitet til børnehaveklassen om regnehistorier inden for 10, der kører i browseren uden konto.",
         "Regnehistorier er der, hvor tal møder mening. Barnet skal afgøre, om historien lægger grupper sammen eller tager nogle væk, hvilket er sværere end at få et plus- eller minustegn stukket i hånden. Tierrammen er en hjælp, barnet kan bruge til at spille historien ud, men svaret skrives på tastaturet — så arbejdet er at læse, vælge regnearten og derefter tælle for at være sikker. Aktiviteten følger Fælles Mål inden for tal og algebra: at løse plus- og minushistorier inden for 10 ved hjælp af ting eller tegninger. Der er ingen timer og ingen point."
       ],
       "practices": [
@@ -1288,7 +1288,7 @@
     },
     "choice-board.pick-bigger.k-c-c-7": {
       "about": [
-        "To tal står ved siden af hinanden, og barnet trykker på det største — for eksempel 7 og 6, eller 8 og 7. Nogle par ligger langt fra hinanden, som 9 og 2, mens andre er helt tæt på, som 8 og 7. Det er en gratis, interaktiv tælleøvelse til børnehaveklassen, der kører direkte i browseren på tablet, telefon og computer, uden at man skal installere noget, og uden konto.",
+        "To tal står ved siden af hinanden, og barnet trykker på det største — for eksempel 7 og 6, eller 8 og 7. Nogle par ligger langt fra hinanden, som 9 og 2, mens andre er helt tæt på, som 8 og 7. Det er en interaktiv tælleøvelse til børnehaveklassen, der kører direkte i browseren på tablet, telefon og computer, uden at man skal installere noget, og uden konto.",
         "Den store idé er at sammenligne tal som cifre — ikke som grupper af ting, der skal tælles. Der er ingen billeder at læne sig op ad, så barnet skal vide, at 8 er mere end 7, bare ved at læse tallene. Det er især de tætte par, der gør øvelsen rigtig: barnet kan ikke vinde ved at gætte på det tal, der ser størst ud, men skal kende den værdi, hvert ciffer står for.",
         "Aktiviteten følger Fælles Mål inden for tal og algebra: at sammenligne to tal mellem 1 og 10 skrevet med cifre. Der er ingen timer og ingen point — kun rolig og legende træning, hvor barnet kan se godt efter i sit eget tempo."
       ],
@@ -1311,7 +1311,7 @@
     },
     "choice-board.how-many-group.k-c-c-b-5": {
       "about": [
-        "En gruppe venlige billeder dukker op — for eksempel én ugle, fire ræve eller otte elefanter — og barnet tæller tingene og trykker på det tal, der passer. Det er en gratis, interaktiv tælleøvelse til børnehaveklassen, der kører direkte i browseren på tablet, telefon eller klassens computer, uden at man skal installere noget, og uden konto.",
+        "En gruppe venlige billeder dukker op — for eksempel én ugle, fire ræve eller otte elefanter — og barnet tæller tingene og trykker på det tal, der passer. Det er en interaktiv tælleøvelse til børnehaveklassen, der kører direkte i browseren på tablet, telefon eller klassens computer, uden at man skal installere noget, og uden konto.",
         "Den store idé er antalsforståelse — at det sidste tal, man siger, når man tæller, fortæller, hvor mange der er i alt. Fordi tingene står på rækker, i små rektangler og spredt ud, kan barnet ikke nøjes med et husket mønster, men skal tælle hvert billede én og kun én gang. Talmulighederne ligger tæt, som 7, 8 og 9, så en lille tællefejl bliver synlig og inviterer til en rolig optælling igen.",
         "Aktiviteten følger Fælles Mål inden for tal og algebra: at tælle for at svare på spørgsmålet \"hvor mange er der?\" for op til 10 ting, der står på en række, i et rektangel eller spredt. Der er ingen timer og ingen point — kun rolig og legende træning."
       ],
@@ -1334,7 +1334,7 @@
     },
     "choice-board.tell-words-apart.rf-k-3-c": {
       "about": [
-        "Barnet lytter til et almindeligt ord, der læses højt, og trykker derefter på netop det ord blandt tre, der ligner det meget — som en blandt et, er, der, og det blandt den, der. Det er en gratis, interaktiv læseøvelse til 1. klasse, der kører i browseren med lyd og uden oprettelse, og som skærper de små hyppige ord, børn lettest forveksler.",
+        "Barnet lytter til et almindeligt ord, der læses højt, og trykker derefter på netop det ord blandt tre, der ligner det meget — som en blandt et, er, der, og det blandt den, der. Det er en interaktiv læseøvelse til 1. klasse, der kører i browseren med lyd og uden oprettelse, og som skærper de små hyppige ord, børn lettest forveksler.",
         "Disse ord ser næsten ens ud, så et hurtigt blik er ikke nok. Barnet skal holde det hørte ord i hovedet og se de skrevne muligheder efter bogstav for bogstav for at finde det rigtige — og lægge mærke til, at en ikke er det samme som et, og at er ikke er det samme som der. Den omhyggelige måde at se på er det, der gør usikre gæt til den hurtige, sikre genkendelse af ord, som flydende læsning bygger på.",
         "Aktiviteten følger Fælles Mål for dansk i 1. klasse: at læse almindelige, hyppige ord sikkert. Der er ingen timer og ingen point — kun rolig og legende træning, hvor barnet kan lytte igen, så mange gange det vil."
       ],
@@ -1357,7 +1357,7 @@
     },
     "choice-board.beginning-sound.rf-k-3-a": {
       "about": [
-        "Ét bogstav dukker op — for eksempel S, M eller F — og barnet trykker på det billede, hvis ord begynder med netop den lyd, og vælger blandt kendte grupper som dyr, mad og hverdagsting (en sol, en mus, en fisk, en abe). Det er en gratis fonik-øvelse til børnehaveklassen, der kører direkte i browseren, uden at man skal installere noget, og uden konto.",
+        "Ét bogstav dukker op — for eksempel S, M eller F — og barnet trykker på det billede, hvis ord begynder med netop den lyd, og vælger blandt kendte grupper som dyr, mad og hverdagsting (en sol, en mus, en fisk, en abe). Det er en fonik-øvelse til børnehaveklassen, der kører direkte i browseren, uden at man skal installere noget, og uden konto.",
         "I hver runde vises ét rigtigt billede og tre, der begynder med andre lyde, så barnet ikke kan gætte, men skal sige hvert billedes ord og lytte efter allerførste lyd. At forbinde bogstavet M med /m/-lyden i begyndelsen af \"mus\" er selve forbindelsen mellem bogstav og lyd, og at høre den op mod fisk, abe og sol gør den første lyd tydelig.",
         "Aktiviteten følger Fælles Mål for tidlig læsning: at kende den lyd, hvert bogstav står for. Der er ingen timer og ingen point — kun rolig og legende træning, hvor I gerne må tage jer god tid og snakke om billederne sammen."
       ],
@@ -1380,7 +1380,7 @@
     },
     "fractions.partition-thirds.2-g-a-3": {
       "about": [
-        "En cirkel, trekant, sekskant, kvadrat, rektangel, rude eller ellipse dukker op, og barnet trykker på skærelinjerne for at dele den i tre lige store stykker — tredjedele. Det er en gratis, interaktiv geometriøvelse til 2. klasse, der kører i browseren på enhver enhed, uden at man skal installere noget, og uden konto.",
+        "En cirkel, trekant, sekskant, kvadrat, rektangel, rude eller ellipse dukker op, og barnet trykker på skærelinjerne for at dele den i tre lige store stykker — tredjedele. Det er en interaktiv geometriøvelse til 2. klasse, der kører i browseren på enhver enhed, uden at man skal installere noget, og uden konto.",
         "Den store idé er, at tredjedele er sværere end halvdele, fordi tre lige store stykker ikke falder på en oplagt midterlinje. En cirkel deles med tre linjer fra midten, et rektangel i tre lige store striber, en trekant i tre ens dele — så barnet lærer, at \"tredjedele\" betyder tre lige store stykker, uanset hvordan formen skæres. At lave snittene selv giver en fornemmelse for ligedeling, som det at kigge på et billede ikke kan.",
         "Aktiviteten følger Fælles Mål inden for geometri og måling: at dele cirkler og rektangler i to, tre eller fire lige store dele og beskrive dem med ordet tredjedele. Der er ingen timer og ingen point — kun rolig og legende træning."
       ],
@@ -1403,7 +1403,7 @@
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {
       "about": [
-        "Barnet løser kort som ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 og 10 − ? = 6 og trykker så på regnestykket og det tal, der gør det rigtigt, for at forbinde parret. Det er en gratis, interaktiv matematikøvelse til 1. klasse, der kører direkte i browseren, uden at man skal installere noget, og uden konto.",
+        "Barnet løser kort som ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 og 10 − ? = 6 og trykker så på regnestykket og det tal, der gør det rigtigt, for at forbinde parret. Det er en interaktiv matematikøvelse til 1. klasse, der kører direkte i browseren, uden at man skal installere noget, og uden konto.",
         "Den store idé er, at det ukendte tal kan stå hvor som helst — som det tal, man lægger til, det tal, man trækker fra, det tal man starter med, eller hele tallet — så barnet skal tænke sammenhængen igennem hver gang i stedet for altid bare at lægge sammen. Nogle gange er det tomme felt hele tallet (5 + 4 = ?), og nogle gange er det gemt inde i regnestykket (? − 4 = 1), og det opbygger en rigtig fleksibilitet med talfamilier.",
         "Aktiviteten følger Fælles Mål inden for tal og algebra: at finde det ukendte tal i et plus- eller minusstykke, hvor det ukendte kan stå hvor som helst. Der er ingen timer og ingen point — kun rolig og legende træning."
       ],
@@ -1426,7 +1426,7 @@
     },
     "money.make-change.2-md-c-8": {
       "about": [
-        "Noget koster 7 kr, og barnet betaler 10 kr — så skal det give de rigtige byttepenge tilbage, her 3 kr, ved at trykke mønter ned i bakken. At regne forskellen ud og bygge den op af 1-, 2-, 5-, 10- og 20-kroner samler minus med konkret møntoptælling, i en gratis, interaktiv pengeøvelse til 2. klasse, der kører direkte i browseren, uden at man skal installere noget, og uden konto.",
+        "Noget koster 7 kr, og barnet betaler 10 kr — så skal det give de rigtige byttepenge tilbage, her 3 kr, ved at trykke mønter ned i bakken. At regne forskellen ud og bygge den op af 1-, 2-, 5-, 10- og 20-kroner samler minus med konkret møntoptælling, i en interaktiv pengeøvelse til 2. klasse, der kører direkte i browseren, uden at man skal installere noget, og uden konto.",
         "Den store idé er, at byttepenge er forskellen mellem det, man har betalt, og det, varen koster. Barnet regner først ud, hvor meget der skal tilbage, og bygger så beløbet op af de mønter, det vælger — 50 øre, 1, 2, 5, 10 og 20 kroner. Fordi værdien ikke står skrevet på hver mønt, skal barnet kende, hvad hver mønt er værd, og tælle op til de byttepenge, det skylder.",
         "Aktiviteten følger Fælles Mål inden for måling: at løse tekstopgaver med penge i danske kroner og øre. Der er ingen timer og ingen point — kun rolig og legende træning."
       ],
@@ -1449,7 +1449,7 @@
     },
     "numberbond.add-three.1-oa-a-2": {
       "about": [
-        "Et talvenskab med tre dele samler tre tal, som 3, 4 og 5, til ét hele, og barnet lægger alle tre sammen og skriver summen på taltastaturet. Det er en gratis, interaktiv matematikøvelse til 1. klasse, der kører direkte i browseren, uden at man skal installere noget, og uden konto.",
+        "Et talvenskab med tre dele samler tre tal, som 3, 4 og 5, til ét hele, og barnet lægger alle tre sammen og skriver summen på taltastaturet. Det er en interaktiv matematikøvelse til 1. klasse, der kører direkte i browseren, uden at man skal installere noget, og uden konto.",
         "At se tre dele blive samlet til ét hele viser, at man kan lægge tal sammen i den rækkefølge, man vil, og ét skridt ad gangen. Par som 4 + 4 + 5 inviterer stille og roligt til først at lave et venligt tal og så lægge den sidste del til. Barnet læser de tre dele og skriver summen; prikkerne inde i hver del er der til at tælle, når et talfakta endnu ikke sidder fast.",
         "Aktiviteten følger Fælles Mål inden for tal og algebra: at lægge tre tal sammen, hvor summen er højst 20. Der er ingen timer og ingen point — kun rolig og legende træning."
       ],
@@ -1472,7 +1472,7 @@
     },
     "sort-bins.sort-by-sides.2-g-a-1": {
       "about": [
-        "I hver runde falder en bunke figurer ned — rette og stumpe trekanter, kvadrater, ruder, uregelmæssige femkanter og sekskanter — og barnet tæller siderne på hver figur og trækker den over i den rigtige kasse. Det er en gratis, interaktiv geometriøvelse til 2. klasse, der kører i browseren, uden oprettelse.",
+        "I hver runde falder en bunke figurer ned — rette og stumpe trekanter, kvadrater, ruder, uregelmæssige femkanter og sekskanter — og barnet tæller siderne på hver figur og trækker den over i den rigtige kasse. Det er en interaktiv geometriøvelse til 2. klasse, der kører i browseren, uden oprettelse.",
         "Det vigtige er at tælle siderne i stedet for at matche et husket billede, for en strakt eller drejet femsidet figur er stadig en femkant. Ved at møde uregelmæssige og drejede figurer side om side med de pæne træner barnet at bruge antallet af sider som den regel, der navngiver en figur. Det opbygger ordene — firkant, femkant, sekskant — og vanen med at se på figurer ud fra deres dele.",
         "Aktiviteten følger Fælles Mål inden for geometri: at genkende figurer ud fra bestemte egenskaber, for eksempel et givet antal sider, og at kende trekanter, firkanter, femkanter og sekskanter. Der er ingen timer og ingen point — kun rolig og legende træning."
       ],
@@ -1495,7 +1495,7 @@
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {
       "about": [
-        "Et hurtigt talfakta dukker op — 2 + 1, 5 − 2, 4 − 1 — og barnet trykker på det rigtige svar blandt tre tætte talmuligheder, med en tierramme ved siden af som en valgfri kladde. Målet er hurtig, sikker genkaldelse af talfakta inden for 5. Det er en gratis, interaktiv matematikøvelse til børnehaveklassen, der kører i browseren, uden oprettelse.",
+        "Et hurtigt talfakta dukker op — 2 + 1, 5 − 2, 4 − 1 — og barnet trykker på det rigtige svar blandt tre tætte talmuligheder, med en tierramme ved siden af som en valgfri kladde. Målet er hurtig, sikker genkaldelse af talfakta inden for 5. Det er en interaktiv matematikøvelse til børnehaveklassen, der kører i browseren, uden oprettelse.",
         "At være sikker inden for 5 er broen mellem at tælle og rigtig regning. De tre svarmuligheder ligger tæt — for 2 + 2 er mulighederne 3, 4 og 5 — så barnet ikke kan vinde ved at vælge det største eller mindste, men skal kende sit talfakta eller regne det ud på rammen. Hen over runderne begynder de talfakta, barnet først talte sig frem til, at komme med det samme, og det er netop, hvad sikker regning betyder.",
         "Aktiviteten følger Fælles Mål inden for tal og algebra: at lægge sammen og trække fra sikkert inden for 5. Der er ingen timer og ingen point — kun rolig og legende træning i barnets eget tempo."
       ],

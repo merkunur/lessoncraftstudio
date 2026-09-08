@@ -10,7 +10,7 @@
     "byStrand": {
       "Counting & Cardinality": {
         "about": [
-          "Dit is een gratis, interactieve telactiviteit voor jonge kinderen, met getallen tot {max}. De activiteit werkt rechtstreeks in de browser op tablets, telefoons en computers in de klas — er is niets te installeren, geen account nodig en geen voorbereiding voor de leerkracht.",
+          "Dit is een interactieve telactiviteit voor jonge kinderen, met getallen tot {max}. De activiteit werkt rechtstreeks in de browser op tablets, telefoons en computers in de klas — er is niets te installeren, geen account nodig en geen voorbereiding voor de leerkracht.",
           "De activiteit sluit aan bij de kerndoelen binnen het domein Getallen (tellen en getalbegrip). Kinderen krijgen onderweg rustige, directe feedback, zodat ze kunnen blijven proberen tot het antwoord goed voelt. Er is geen timer en geen score — alleen rustig, concreet oefenen."
         ],
         "practices": [
@@ -32,7 +32,7 @@
       },
       "Number & Operations in Base Ten": {
         "about": [
-          "Deze gratis, interactieve activiteit over het tientallig stelsel helpt kinderen te zien hoe ons getalsysteem is opgebouwd rond groepen van tien, met getallen tot {max}. De activiteit werkt in elke moderne browser — op een tablet, een telefoon of het digibord in de klas — zonder dat er iets gedownload hoeft te worden.",
+          "Deze interactieve activiteit over het tientallig stelsel helpt kinderen te zien hoe ons getalsysteem is opgebouwd rond groepen van tien, met getallen tot {max}. De activiteit werkt in elke moderne browser — op een tablet, een telefoon of het digibord in de klas — zonder dat er iets gedownload hoeft te worden.",
           "De activiteit sluit aan bij de kerndoelen binnen het domein Getallen en het tientallig stelsel. Kinderen werken in hun eigen tempo met warme, directe feedback, en er is geen timer of score die hen opjaagt."
         ],
         "practices": [
@@ -54,7 +54,7 @@
       },
       "Operations & Algebraic Thinking": {
         "about": [
-          "Deze gratis, interactieve activiteit geeft kinderen concrete oefening met de eerste ideeën van optellen en aftrekken, met hoeveelheden tot {max}. De activiteit werkt rechtstreeks in de browser op elk apparaat, zonder dat er iets te installeren is en zonder inloggen.",
+          "Deze interactieve activiteit geeft kinderen concrete oefening met de eerste ideeën van optellen en aftrekken, met hoeveelheden tot {max}. De activiteit werkt rechtstreeks in de browser op elk apparaat, zonder dat er iets te installeren is en zonder inloggen.",
           "De activiteit sluit aan bij de kerndoelen binnen het domein Bewerkingen. De feedback is direct en aanmoedigend, en er is geen timer of score — kinderen kunnen alles in hun eigen tempo doordenken."
         ],
         "practices": [
@@ -76,7 +76,7 @@
       },
       "Geometry": {
         "about": [
-          "Deze gratis, interactieve activiteit met vormen helpt jonge kinderen de vormen om hen heen op te merken, te benoemen en te vergelijken. De activiteit werkt rechtstreeks in de browser op tablets, telefoons en computers in de klas, zonder dat er iets te installeren is en zonder account.",
+          "Deze interactieve activiteit met vormen helpt jonge kinderen de vormen om hen heen op te merken, te benoemen en te vergelijken. De activiteit werkt rechtstreeks in de browser op tablets, telefoons en computers in de klas, zonder dat er iets te installeren is en zonder account.",
           "De activiteit sluit aan bij de kerndoelen binnen het domein Meetkunde. Kinderen ontdekken in hun eigen tempo met rustige, directe feedback — geen timer, geen score, alleen speels oefenen."
         ],
         "practices": [
@@ -98,7 +98,7 @@
       },
       "Measurement & Data": {
         "about": [
-          "Deze gratis, interactieve meet-activiteit helpt jonge kinderen voorwerpen te vergelijken op grootte — hoger, korter en langer — helemaal zonder tellen. De activiteit werkt rechtstreeks in de browser op tablets, telefoons en computers in de klas, zonder dat er iets te installeren is en zonder account.",
+          "Deze interactieve meet-activiteit helpt jonge kinderen voorwerpen te vergelijken op grootte — hoger, korter en langer — helemaal zonder tellen. De activiteit werkt rechtstreeks in de browser op tablets, telefoons en computers in de klas, zonder dat er iets te installeren is en zonder account.",
           "De activiteit sluit aan bij de kerndoelen binnen het domein {strand}. Kinderen vergelijken in hun eigen tempo met rustige, directe feedback — geen timer, geen score, gewoon speels oefenen door goed te kijken hoe dingen zich tot elkaar verhouden."
         ],
         "practices": [
@@ -120,7 +120,7 @@
       },
       "Reading: Foundational Skills": {
         "about": [
-          "Deze gratis, interactieve leesactiviteit geeft kinderen concrete oefening in het verklanken en opbouwen van woorden. De activiteit werkt rechtstreeks in de browser op tablets, telefoons en computers in de klas, zonder dat er iets te installeren is en zonder account aan te maken.",
+          "Deze interactieve leesactiviteit geeft kinderen concrete oefening in het verklanken en opbouwen van woorden. De activiteit werkt rechtstreeks in de browser op tablets, telefoons en computers in de klas, zonder dat er iets te installeren is en zonder account aan te maken.",
           "De activiteit sluit aan bij de kerndoelen binnen het domein Lezen: technisch lezen (fundamentele leesvaardigheden). Elk woord wordt gecontroleerd op een juiste, kindvriendelijke verdeling, en de feedback is rustig en direct — er is geen timer en geen score."
         ],
         "practices": [
@@ -142,7 +142,7 @@
       },
       "Phonological Awareness": {
         "about": [
-          "Deze gratis, interactieve luisteractiviteit helpt kinderen de klanken in gesproken woorden te horen en ermee te spelen. De activiteit werkt rechtstreeks in de browser op elk apparaat, zonder dat er iets te installeren is en zonder dat inloggen nodig is.",
+          "Deze interactieve luisteractiviteit helpt kinderen de klanken in gesproken woorden te horen en ermee te spelen. De activiteit werkt rechtstreeks in de browser op elk apparaat, zonder dat er iets te installeren is en zonder dat inloggen nodig is.",
           "De activiteit sluit aan bij de kerndoelen binnen het domein Fonologisch bewustzijn. De feedback is warm en direct, en er is geen timer of score die een jong kind opjaagt."
         ],
         "practices": [
@@ -165,7 +165,7 @@
     },
     "generic": {
       "about": [
-        "Dit is een gratis, interactieve leeractiviteit voor jonge kinderen die rechtstreeks in de browser werkt op tablets, telefoons en computers in de klas. Er is niets te installeren, geen account nodig en geen voorbereiding voor de leerkracht.",
+        "Dit is een interactieve leeractiviteit voor jonge kinderen die rechtstreeks in de browser werkt op tablets, telefoons en computers in de klas. Er is niets te installeren, geen account nodig en geen voorbereiding voor de leerkracht.",
         "De activiteit sluit aan bij de kerndoelen binnen het domein {strand}. Kinderen werken in hun eigen tempo met rustige, directe feedback, en er is geen timer en geen score — alleen rustig, concreet oefenen."
       ],
       "practices": [
@@ -518,7 +518,7 @@
       "about": [
         "In dit spel voor groep 5 runt Hattie de egel een gevonden-voorwerpenhoek: elk voorwerp is van iemand, en je kind kiest de juist gespelde bezittelijke vorm van de naam. Ziet je kind de bal van Anna, dan is het goede antwoord \"Anna's bal\" mét apostrof, want Anna eindigt op een klinker. Is het de pen van Ben, dan schrijf je \"Bens pen\" zonder apostrof, want Ben eindigt op een medeklinker. Je kind ziet steeds drie vormen en tikt de goede aan.",
         "Zo oefent je kind de bezittelijke -s bij namen en vooral het contrast dat in groep 5 lastig is: een apostrof-'s na een klinker (Anna's, Romy's, Milo's) tegenover een kale -s na een medeklinker (Bens, Toms, Kims, Daans). Ook de veelgemaakte apostroffout komt langs, zoals het onterechte \"Ben's\" of het vergeten leesteken in \"Annas\". Omdat de apostrof hier een leesteken is, hoort deze oefening bij spelling en interpunctie in groep 5.",
-        "Het spel is gratis en werkt zonder inloggen; er is geen tijd, geen score en geen wedstrijdje. Alles wordt voorgelezen, zodat je kind ook op het gehoor de goede vorm kan kiezen en rustig kan oefenen. De inhoud is afgestemd op de SLO-kerndoelen voor groep 5."
+        "Het spel werkt zonder inloggen; er is geen tijd, geen score en geen wedstrijdje. Alles wordt voorgelezen, zodat je kind ook op het gehoor de goede vorm kan kiezen en rustig kan oefenen. De inhoud is afgestemd op de SLO-kerndoelen voor groep 5."
       ],
       "practices": [
         "De bezittelijke -s bij namen herkennen en juist schrijven",
@@ -541,7 +541,7 @@
       "about": [
         "In dit spel voor groep 3 tekent Otto de uil bij elk deel van een kort verhaaltje een plaatje. Je kind hoort eerst het hele verhaal en daarna leest Otto één deel voor — bijvoorbeeld \"Een windvlaag duwt het bootje.\" — en laat die zin ook als tekst zien. Uit de vier plaatjes tikt je kind het plaatje aan dat precies dat moment van het verhaal toont.",
         "Zo oefent je kind om plaatje en tekst met elkaar te verbinden: welk plaatje hoort bij welke zin, en welk moment van het verhaal laat elk plaatje zien. Omdat alle vier de plaatjes uit hetzelfde verhaal komen, lijken ze op elkaar en moet je kind echt begrijpen wat er in elk plaatje gebeurt om het juiste te kiezen. Dat maakt het een fijne oefening voor het begrijpend en aanvankelijk lezen in groep 3, waarin de koppeling tussen tekst en beeld centraal staat.",
-        "Het spel is gratis, zonder inloggen, zonder tijdsdruk en zonder punten of score — je kind kan rustig kijken, luisteren en kiezen. Het hele verhaal en elke zin worden voorgelezen, wat fijn is voor kinderen die nog niet vlot lezen. Het spel is afgestemd op de SLO-kerndoelen voor groep 3 en past bij het lezen van verhalende teksten."
+        "Het spel is zonder inloggen, zonder tijdsdruk en zonder punten of score — je kind kan rustig kijken, luisteren en kiezen. Het hele verhaal en elke zin worden voorgelezen, wat fijn is voor kinderen die nog niet vlot lezen. Het spel is afgestemd op de SLO-kerndoelen voor groep 3 en past bij het lezen van verhalende teksten."
       ],
       "practices": [
         "Plaatje en tekst met elkaar verbinden",
@@ -564,7 +564,7 @@
       "about": [
         "In dit spel voor groep 4 helpt je kind Pip, een slaperig vriendje dat elk verhaal verslaapt. Eerst kijkt je kind naar een korte film van vier plaatjes — bijvoorbeeld het zonneverhaal: Pip slaapt in het gras, de zon komt op, warm zonlicht kietelt Pips neus, en Pip wordt wakker en rekt zich uit. Daarna verdwijnt de film en legt je kind het verhaal helemaal uit het geheugen weer in de juiste volgorde, om het aan Pip na te vertellen.",
         "Zo oefent je kind in groep 4 een belangrijke leesvaardigheid: een verhaal navertellen in de juiste volgorde met de belangrijke details — wie het is, wat het probleem is en hoe het afloopt. Je kind leert oorzaak en gevolg zien en het belangrijke plaatje onderscheiden van een onbelangrijk of niet-passend plaatje. Soms kiest je kind het ontbrekende belangrijke plaatje of verbetert het een verkeerd plaatje, precies wat bij begrijpend lezen in groep 4 hoort.",
-        "Het spel is gratis en werkt zonder inloggen. Er is geen tijd en geen score, zodat je kind rustig en zonder druk kan spelen, en elk verhaal wordt voorgelezen. Alles is afgestemd op de SLO-kerndoelen voor groep 4, met warme, aanmoedigende begeleiding terwijl je kind Pip helpt het verhaal na te vertellen."
+        "Het spel werkt zonder inloggen. Er is geen tijd en geen score, zodat je kind rustig en zonder druk kan spelen, en elk verhaal wordt voorgelezen. Alles is afgestemd op de SLO-kerndoelen voor groep 4, met warme, aanmoedigende begeleiding terwijl je kind Pip helpt het verhaal na te vertellen."
       ],
       "practices": [
         "Een verhaal navertellen in de juiste volgorde",
@@ -587,7 +587,7 @@
       "about": [
         "In dit spel voor groep 4 laat Mosbaard de verhalenhoeder, een mossige schildpad, twee korte verhaaltjes naast elkaar zien: eentje onder een gouden maan en eentje onder een zilveren maan. Elk verhaaltje is één zin over de belevenis van een dier. Zo lees je bijvoorbeeld over een vos die zijn muts kwijtraakt en na flink doorzoeken weer terugvindt, naast een konijn dat zijn bal kwijtraakt en dat een vriend te hulp schiet. In beide verhalen raakt een dier iets kwijt en komt het uiteindelijk weer goed, en dat soort overeenkomsten en verschillen ontdek je samen met je kind in groep 4.",
         "De vaardigheid die je kind hier oefent is twee verhalen vergelijken. Bij de spelvorm overeenkomst zoekt je kind wat in beide verhalen gelijk is, en bij de spelvorm verschil zoekt het wat maar in één verhaal gebeurt. Daarvoor moet je kind allebei de verhalen goed lezen en de belevenissen van de personages naast elkaar leggen, zonder te blijven hangen bij één los woord. Dat vergelijken van verhalen is een belangrijke stap in het begrijpend lezen en past precies bij wat kinderen in groep 4 leren.",
-        "Het spel is helemaal gratis, zonder inloggen en zonder tijd of score, zodat je kind rustig in zijn of haar eigen tempo kan lezen en nadenken. Met de 🔊 voorleesknop kan je kind beide verhalen ook laten voorlezen, handig als lezen nog lastig is of om het samen te doen. Alles is afgestemd op de SLO-kerndoelen voor groep 4."
+        "Het spel is zonder inloggen en zonder tijd of score, zodat je kind rustig in zijn of haar eigen tempo kan lezen en nadenken. Met de 🔊 voorleesknop kan je kind beide verhalen ook laten voorlezen, handig als lezen nog lastig is of om het samen te doen. Alles is afgestemd op de SLO-kerndoelen voor groep 4."
       ],
       "practices": [
         "Twee korte verhalen aandachtig lezen en vergelijken",
@@ -610,7 +610,7 @@
       "about": [
         "In dit spel voor groep 4 leest je kind samen met Schakel de hagedis een eerste feit, bijvoorbeeld \"Een zaadje ligt in de aarde.\", en een vraag als \"Wat gebeurt er daarna?\". Daarna tikt je kind het feit aan dat daarmee verbindt – hier is dat \"Uit het zaadje groeit een plant.\" en niet een los feit als \"De vogel zit op de tak.\", dat wel waar is maar geen verband heeft. Zo bouwt de hagedis van losse feiten een echte ketting.",
         "De kern van dit spel is twee feiten uit een informatieve tekst met elkaar verbinden. Je kind oefent volgorde (\"wat gebeurt er daarna?\", zoals rups → vlinder of ei → kuiken) en oorzaak en gevolg (\"wat gebeurt er daardoor?\", zoals de zon schijnt op de sneeuw en de sneeuw smelt). Ook leert je kind een verbonden feit onderscheiden van een feit dat wel waar is maar er los van staat. Dat past precies bij het begrijpend lezen van informatieve teksten in groep 4, waarin kinderen verbanden tussen feiten leren zien.",
-        "Het spel is gratis, zonder inloggen en zonder tijd of score, zodat je kind rustig en zonder druk kan lezen en nadenken. Met de 📖/🔊 voorleesknop kan elk feit en elke vraag worden voorgelezen, handig voor kinderen die nog niet vlot lezen. Alles is afgestemd op de SLO-kerndoelen voor groep 4."
+        "Het spel is zonder inloggen en zonder tijd of score, zodat je kind rustig en zonder druk kan lezen en nadenken. Met de 📖/🔊 voorleesknop kan elk feit en elke vraag worden voorgelezen, handig voor kinderen die nog niet vlot lezen. Alles is afgestemd op de SLO-kerndoelen voor groep 4."
       ],
       "practices": [
         "Twee feiten uit een informatieve tekst met elkaar verbinden",
@@ -633,7 +633,7 @@
       "about": [
         "In dit spel voor groep 5 speelt je kind samen met Marlo de wasbeer, die met zijn loep op zoek gaat naar bewijs in een verhaal. Elke ronde leest je kind een kort verhaaltje van drie zinnen en een bewering over een personage, bijvoorbeeld \"Mira is dapper.\" Daaronder liggen drie details. Je kind tikt het detail aan dat de eigenschap echt bewijst – een actie die het personage deed, zoals \"Zij ging de donkere grot in.\" – en niet een detail dat wel waar is maar niets bewijst, zoals \"Zij droeg rode laarzen.\"",
         "Zo oefent je kind een belangrijke leesvaardigheid: een karaktereigenschap onderbouwen met tekstbewijs. Het leert een echt bewijs-detail onderscheiden van een waar-maar-onbelangrijk detail, en uit wat een personage doet afleiden hoe het is. Dat afleiden en onderbouwen met bewijs uit de tekst is precies wat begrijpend lezen in groep 5 vraagt, waarin verhalende teksten en personages centraal staan.",
-        "Het spel is gratis, zonder inloggen, en er is geen tijd of score – je kind leest rustig in zijn of haar eigen tempo. Met de voorleesknop 📖/🔊 kan het verhaaltje en de bewering worden voorgelezen, zodat ook een kind dat nog niet vlot leest goed kan meedoen. De oefening is afgestemd op de SLO-kerndoelen voor groep 5."
+        "Het spel is zonder inloggen, en er is geen tijd of score – je kind leest rustig in zijn of haar eigen tempo. Met de voorleesknop 📖/🔊 kan het verhaaltje en de bewering worden voorgelezen, zodat ook een kind dat nog niet vlot leest goed kan meedoen. De oefening is afgestemd op de SLO-kerndoelen voor groep 5."
       ],
       "practices": [
         "Een karaktereigenschap onderbouwen met tekstbewijs",
@@ -656,7 +656,7 @@
       "about": [
         "In dit spel voor groep 5 laat Parel de zeehond per ronde een mening zien, bijvoorbeeld \"Onze stad zou een nieuw park moeten bouwen.\" Daaronder liggen drie kaartjes. Je kind luistert naar de mening met de 🔊-voorleesknop en tikt het kaartje aan dat de mening met een echte reden steunt – bij het park bijvoorbeeld \"omdat kinderen dan een veilige plek hebben om buiten te spelen.\" Zo oefent je kind spelenderwijs met begrijpend lezen op het niveau van groep 5.",
         "De kern van dit spel is een reden herkennen: het antwoord op de vraag WAAROM. Je kind leert een echte reden onderscheiden van een kaartje dat de mening alleen met andere woorden herhaalt, en van een kaartje dat wel iets waars vertelt maar niks met de mening te maken heeft. Dat onderscheid tussen een mening en de reden die haar onderbouwt hoort bij begrijpend lezen in groep 5, waar kinderen teksten met een mening steeds beter gaan doorzien.",
-        "Het spel is helemaal gratis, zonder inloggen, zonder tijd en zonder score – zo blijft de aandacht bij het nadenken en niet bij de klok. Met de 🔊-voorleesknop kan je kind elke mening opnieuw beluisteren, ook als het zelfstandig lezen nog wat oefening vraagt. Alle acht meningen zijn afgestemd op de SLO-kerndoelen voor groep 5, zodat je kind op een rustige, warme manier leert redeneren."
+        "Het spel is zonder inloggen, zonder tijd en zonder score – zo blijft de aandacht bij het nadenken en niet bij de klok. Met de 🔊-voorleesknop kan je kind elke mening opnieuw beluisteren, ook als het zelfstandig lezen nog wat oefening vraagt. Alle acht meningen zijn afgestemd op de SLO-kerndoelen voor groep 5, zodat je kind op een rustige, warme manier leert redeneren."
       ],
       "practices": [
         "Een echte reden (een \"omdat/want …\") herkennen bij een mening",
@@ -679,7 +679,7 @@
       "about": [
         "In dit spel voor groep 3 laat Dot de draak steeds een kort verhaaltje van drie plaatjes met bijschriften zien. Elk verhaal heeft drie delen: het begin (wie er is en waar het gebeurt, nog zonder probleem), het probleem (wat er misgaat) en de oplossing (hoe het weer goed komt). Bij een verhaaltje over Bo is het begin dat Bo buiten gaat spelen in de sneeuw, is het probleem dat Bo een want verliest, en is de oplossing dat een vogel de want terugbrengt.",
         "De drie delen staan door elkaar, zodat je kind de bijschriften echt moet lezen om te bepalen welk plaatje het begin, het probleem en de oplossing is. Door zelf te ontdekken dat elk verhaal een begin, een probleem en een oplossing heeft, oefent het kind met verhaalstructuur (ook wel verhaalgrammatica genoemd). Die structuur herkennen helpt bij begrijpend lezen, want het kind gaat gerichter op zoek naar wat er in een verhaal gebeurt, en het helpt later ook bij het zelf schrijven van verhalen. In groep 3 sluit dat mooi aan bij het begin van vlot en begrijpend lezen.",
-        "Het spel is gratis, je hoeft niet in te loggen en er is geen tijd of score, zodat je kind rustig en zonder druk kan oefenen. Er is een voorleesknop, zodat het kind de bijschriften ook kan beluisteren. Alles is afgestemd op de SLO-kerndoelen voor groep 3 rond verhalende teksten en begrijpend lezen."
+        "Het spel is je hoeft niet in te loggen en er is geen tijd of score, zodat je kind rustig en zonder druk kan oefenen. Er is een voorleesknop, zodat het kind de bijschriften ook kan beluisteren. Alles is afgestemd op de SLO-kerndoelen voor groep 3 rond verhalende teksten en begrijpend lezen."
       ],
       "practices": [
         "Het begin, het probleem en de oplossing van een verhaal herkennen",
@@ -702,7 +702,7 @@
       "about": [
         "In dit spel helpt je kind Marina de otter, die de mooiste krantenkoppen wil schrijven. Elke ronde verschijnt er een kort informatief tekstje van drie zinnen, over een echt onderwerp zoals bijen, regen of een vulkaan. Daarna kiest je kind uit drie kaartjes de kop die het beste bij de hele tekst past. Zo oefent je kind in groep 5 spelenderwijs met de hoofdgedachte van een tekst, zonder tijdsdruk en zonder score.",
         "De hoofdgedachte is waar de hele tekst vooral over gaat, en dat is precies wat kinderen in groep 5 leren onderscheiden. Twee kaartjes zijn expres lastig: een van de kaartjes is een klein detail dat letterlijk in de tekst staat en dus veel dezelfde woorden gebruikt, en een ander kaartje noemt een feit dat wel waar is maar niet bij deze tekst hoort. Daardoor werkt alleen woorden matchen niet meer. Je kind moet de tekst echt samenvatten en de hoofdzaak van de bijzaak leren scheiden.",
-        "Het spel is helemaal gratis, je hoeft niet in te loggen en er is geen tijd, geen score en geen goed-of-fout-gevoel. Met de voorleesknop kan je kind de tekst ook laten voorlezen, zodat begrijpend lezen en luisteren samen geoefend worden. De opdrachten sluiten aan bij de SLO-kerndoelen voor begrijpend lezen en informatieve teksten in groep 5, waarin kinderen leren waar een tekst over gaat en wat de belangrijkste boodschap is."
+        "Het spel is je hoeft niet in te loggen en er is geen tijd, geen score en geen goed-of-fout-gevoel. Met de voorleesknop kan je kind de tekst ook laten voorlezen, zodat begrijpend lezen en luisteren samen geoefend worden. De opdrachten sluiten aan bij de SLO-kerndoelen voor begrijpend lezen en informatieve teksten in groep 5, waarin kinderen leren waar een tekst over gaat en wat de belangrijkste boodschap is."
       ],
       "practices": [
         "De hoofdgedachte of het hoofdonderwerp van een korte informatieve tekst herkennen",
@@ -723,9 +723,9 @@
     },
     "wobble-museum.catch-drift.w-k-2": {
       "about": [
-        "In dit gratis leesspelletje voor groep 4 loopt je kind door het themamuseum van Bram de ekster. Bram is een verzamelaar: in elke zaal hangt een bordje met één thema, en daaronder vier korte zinnen die allemaal waar zijn. Bij \"Thema: kikkers\" lees je bijvoorbeeld dat een kikker kan springen en dat een kikker kwaakt, maar één zin — \"Een vijver is koud\" — is verdwaald uit een ander museum en hoort er niet bij. Je kind tikt op die verdwaalde zin.",
+        "In dit leesspelletje voor groep 4 loopt je kind door het themamuseum van Bram de ekster. Bram is een verzamelaar: in elke zaal hangt een bordje met één thema, en daaronder vier korte zinnen die allemaal waar zijn. Bij \"Thema: kikkers\" lees je bijvoorbeeld dat een kikker kan springen en dat een kikker kwaakt, maar één zin — \"Een vijver is koud\" — is verdwaald uit een ander museum en hoort er niet bij. Je kind tikt op die verdwaalde zin.",
         "Achter dit spel voor groep 4 zit een belangrijke leesvaardigheid: bij het onderwerp blijven en letten op tekstsamenhang. Elke zaal gaat over precies één thema; drie zinnen horen erbij en één zin is verdwaald uit een verwant thema. Juist omdat de thema's op elkaar lijken, kan je kind niet zomaar losse woorden matchen — het moet het thema echt begrijpen om te zien welke zin er als geheel niet bij past. Zo oefent je kind spelenderwijs met samenhang, iets wat later helpt bij het schrijven van teksten die netjes bij het onderwerp blijven.",
-        "Het spel is helemaal gratis, zonder inloggen, zonder tijdsdruk en zonder score — Bram deelt nooit een goed of fout uit, dus je kind kan rustig lezen en nadenken. Met de knop Voorlezen hoort je kind de zinnen hardop, wat fijn is voor beginnende lezers. De inhoud sluit aan bij de SLO-kerndoelen voor groep 4 en bereidt je kind voor op het schrijven: begrijpen dat een tekst bij één onderwerp hoort, is de eerste stap naar zelf teksten schrijven die samenhangen."
+        "Het spel is zonder inloggen, zonder tijdsdruk en zonder score — Bram deelt nooit een goed of fout uit, dus je kind kan rustig lezen en nadenken. Met de knop Voorlezen hoort je kind de zinnen hardop, wat fijn is voor beginnende lezers. De inhoud sluit aan bij de SLO-kerndoelen voor groep 4 en bereidt je kind voor op het schrijven: begrijpen dat een tekst bij één onderwerp hoort, is de eerste stap naar zelf teksten schrijven die samenhangen."
       ],
       "practices": [
         "Bij het onderwerp/thema blijven en de verdwaalde zin herkennen",
@@ -746,7 +746,7 @@
     },
     "point-of-view.who-told.rl-1-6": {
       "about": [
-        "In dit gratis leesspel voor groep 3 leest je kind korte zinnen over de drukke haven en ontdekt het vanuit wie het verhaal verteld wordt. Lumen de uil woont in een vuurtoren met ramen op drie hoogtes, en achter elk raam zit een dier dat de haven anders ziet. Leest je kind \"De boot leek een piepklein stipje, heel ver weg\", dan hoort die zin bij het dier dat helemaal bovenin zit.",
+        "In dit leesspel voor groep 3 leest je kind korte zinnen over de drukke haven en ontdekt het vanuit wie het verhaal verteld wordt. Lumen de uil woont in een vuurtoren met ramen op drie hoogtes, en achter elk raam zit een dier dat de haven anders ziet. Leest je kind \"De boot leek een piepklein stipje, heel ver weg\", dan hoort die zin bij het dier dat helemaal bovenin zit.",
         "Het idee is heerlijk concreet: van bovenaf lijkt alles klein en ver weg, en van onderaf, vlak bij het water, lijkt alles enorm en heel dichtbij. Je kind leest de zin, let op die aanwijzingen van hoog en laag, en kiest het raam waar de verteller zit. Zo oefent het in groep 3 spelenderwijs met vertelperspectief en gezichtspunt, zonder ingewikkelde uitleg over verteltheorie.",
         "Er is geen tijd die loopt, geen score en geen goed-of-fout-gevoel, alleen rustig lezen en ontdekken. Je kind kan zo vaak spelen als het wil, thuis of in de klas, en niemand hoeft in te loggen. Het spel is afgestemd op de SLO-kerndoelen voor groep 3 en sluit aan bij wat kinderen op deze leeftijd aan begrijpend lezen toe zijn."
       ],
@@ -769,9 +769,9 @@
     },
     "pim-comma-mail.letter-commas.l-2-2-b": {
       "about": [
-        "Pim de postduif bezorgt brieven, en voordat een brief de lucht in mag, moet de interpunctie kloppen. In dit gratis spel voor groep 5 ontdekt je kind dat een brief begint met een aanhef en eindigt met een afsluiting, en dat die allebei met een komma worden afgesloten. Denk aan \"Beste oma,\" aan het begin en \"Veel liefs,\" aan het eind: de komma staat netjes achter de laatste letter, zodat de lezer even een adempauze krijgt voordat de brief verdergaat.",
+        "Pim de postduif bezorgt brieven, en voordat een brief de lucht in mag, moet de interpunctie kloppen. In dit spel voor groep 5 ontdekt je kind dat een brief begint met een aanhef en eindigt met een afsluiting, en dat die allebei met een komma worden afgesloten. Denk aan \"Beste oma,\" aan het begin en \"Veel liefs,\" aan het eind: de komma staat netjes achter de laatste letter, zodat de lezer even een adempauze krijgt voordat de brief verdergaat.",
         "Tijdens het spelen ziet je kind steeds drie kaartjes met dezelfde aanhef of afsluiting, maar telkens net iets anders geschreven. Op groep 5 oefent je kind om de kaart te herkennen waarop de komma echt op de goede plek staat. De andere twee kaarten zijn met opzet gekozen als leerzame valkuilen: op de ene is de komma helemaal vergeten (\"Beste oma\"), en op de andere staat de komma op de verkeerde plek (\"Beste, oma\"). Zo leert je kind niet alleen dat er een komma hoort, maar ook precies waar die hoort te staan.",
-        "Het spel is helemaal gratis, zonder inloggen, zonder tijdslimiet en zonder scores of sterren. Je kind kan rustig kijken, hardop lezen en zo vaak proberen als het wil, want er is geen goed-of-fout-druk. De inhoud is afgestemd op de SLO-kerndoelen voor groep 5, zodat het spelen op school en thuis mooi aansluit bij wat je kind in de klas over interpunctie en het schrijven van brieven leert."
+        "Het spel is zonder inloggen, zonder tijdslimiet en zonder scores of sterren. Je kind kan rustig kijken, hardop lezen en zo vaak proberen als het wil, want er is geen goed-of-fout-druk. De inhoud is afgestemd op de SLO-kerndoelen voor groep 5, zodat het spelen op school en thuis mooi aansluit bij wat je kind in de klas over interpunctie en het schrijven van brieven leert."
       ],
       "practices": [
         "De komma in de aanhef van een brief herkennen, bijvoorbeeld in \"Beste oma,\"",
@@ -794,7 +794,7 @@
       "about": [
         "In de Woordenwerkplaats van Nootje de eekhoorn worden telkens twee losse woorddelen samengevoegd tot een gloednieuw samengesteld woord. Jouw kind kijkt mee en bedenkt wat dat woord betekent, want in groep 4 wordt het steeds leuker om te ontdekken hoe woorden in elkaar zitten. Een tandenborstel? Dat is gewoon een borstel voor de tanden, en samen met Nootje zie je precies waarom.",
         "Achter dat samenvoegen zit echte taalkennis. Je kind leert dat je de betekenis van een samengesteld woord kunt afleiden uit de twee delen, en dat het laatste deel vertelt wat het ding eigenlijk is: een hondenbed is een bed voor honden, geen bed dat van honden gemaakt is. De rondes wisselen af, zodat het spannend blijft voor groep 4: kies de juiste betekenis, zet de delen in de goede volgorde, vul het ontbrekende deel aan, of wijs het hoofddeel aan. De slimme afleiders houden je kind scherp, want ze spelen met valkuilen als gemaakt van in plaats van voor, of een omgekeerde volgorde.",
-        "Het spel is helemaal gratis, zonder inloggen, zonder klok en zonder punten, zodat je kind rustig in zijn eigen tempo kan ontdekken en niets fout kan doen. Elke ronde nodigt uit om te proberen en om samen te praten over de woorden. Zo sluit het spel aan bij de SLO-kerndoelen voor taal en woordenschat in groep 4, en oefent je kind spelenderwijs met woordvorming."
+        "Het spel is zonder inloggen, zonder klok en zonder punten, zodat je kind rustig in zijn eigen tempo kan ontdekken en niets fout kan doen. Elke ronde nodigt uit om te proberen en om samen te praten over de woorden. Zo sluit het spel aan bij de SLO-kerndoelen voor taal en woordenschat in groep 4, en oefent je kind spelenderwijs met woordvorming."
       ],
       "practices": [
         "De betekenis van een samengesteld woord afleiden uit de twee delen",
@@ -815,9 +815,9 @@
     },
     "inky-book-workshop.author-illustrator.rl-k-6": {
       "about": [
-        "Inky de inktvis heeft een eigen boekenwerkplaats, en met zijn inkt maakt hij de mooiste boeken. In dit gratis spel voor groep 3 laat Inky telkens een boek zien waar iemand aan werkt. Je kind kijkt welk werk er gedaan wordt — worden er woorden geschreven, plaatjes getekend of wordt er gelezen? — en tikt daarna wiens werk het is: de schrijver, de illustrator of de lezer.",
+        "Inky de inktvis heeft een eigen boekenwerkplaats, en met zijn inkt maakt hij de mooiste boeken. In dit spel voor groep 3 laat Inky telkens een boek zien waar iemand aan werkt. Je kind kijkt welk werk er gedaan wordt — worden er woorden geschreven, plaatjes getekend of wordt er gelezen? — en tikt daarna wiens werk het is: de schrijver, de illustrator of de lezer.",
         "Het grote idee is eenvoudig maar belangrijk voor groep 3: elk boek heeft een schrijver die de woorden en het verhaal schrijft, en een illustrator die de plaatjes tekent. En je kind zelf? Dat is de lezer die het boek leest. Deze rollen kennen is een eerste stap in boekoriëntatie: je kind snapt dat er achter elk boek echte mensen met verschillende taken zitten.",
-        "Het spel is helemaal gratis, zonder tijdsdruk en zonder punten, zodat je kind rustig kan ontdekken. Het sluit aan bij de SLO-kerndoelen voor groep 3, domein beginnende geletterdheid en boekoriëntatie: weten hoe een boek gemaakt is en wie er aan meewerkt."
+        "Het spel is zonder tijdsdruk en zonder punten, zodat je kind rustig kan ontdekken. Het sluit aan bij de SLO-kerndoelen voor groep 3, domein beginnende geletterdheid en boekoriëntatie: weten hoe een boek gemaakt is en wie er aan meewerkt."
       ],
       "practices": [
         "De rollen schrijver, illustrator en lezer van elkaar onderscheiden",
@@ -840,7 +840,7 @@
       "about": [
         "Prikkel de egel steekt haar verhalenlantaarn aan en vertelt je kind een korte, klassieke fabel — bijvoorbeeld de schildpad en de haas, de leeuw en de muis of de wind en de zon. Je kind luistert naar of leest het verhaal en tikt daarna de kaart aan met de moraal, de les van de fabel. Een rustige, warme manier om in groep 5 met verhalen aan de slag te gaan.",
         "Het grote idee is dit: elke fabel heeft een moraal — een kleine, wijze les die verder gaat dan het verhaal zelf. En daar zit meteen de valstrik. Eén kaart noemt alleen een detail uit het verhaal (\"de haas deed een lang dutje\"), en een andere kaart klinkt wél wijs, maar past niet bij déze fabel. Slechts één kaart geeft de echte les (\"rustig volhouden werkt het best\"). De moraal vinden — en niet zomaar een detail — vraagt dat je kind in groep 5 het hele verhaal overziet en de betekenis in eigen woorden vat. Dat is echt tekstbegrip, met inferentie.",
-        "De activiteit is gratis, zonder tijdsdruk en zonder punten, zodat je kind rustig kan nadenken en nog eens kan luisteren. Ze is afgestemd op de SLO-kerndoelen voor groep 5, binnen het domein leesvaardigheid en het begrijpen van verhalende teksten: fabels lezen en hun moraal herkennen."
+        "De activiteit is zonder tijdsdruk en zonder punten, zodat je kind rustig kan nadenken en nog eens kan luisteren. Ze is afgestemd op de SLO-kerndoelen voor groep 5, binnen het domein leesvaardigheid en het begrijpen van verhalende teksten: fabels lezen en hun moraal herkennen."
       ],
       "practices": [
         "De moraal (kernboodschap) van een fabel herkennen",
@@ -863,7 +863,7 @@
       "about": [
         "Marlow de pelikaan runt de havenpost, en er komen de hele dag korte briefjes binnen. Jouw kind helpt mee sorteren: het leest een kort briefje, bedenkt waarom het geschreven is, en stuurt het naar de juiste mand — bij de feiten, bij het grappige verhaal, of bij de uitleg. Een rustige, speelse manier om in groep 4 goed te leren lezen én nadenken over wat er staat.",
         "Het grote idee is dat elke tekst een doel heeft: informeren, vermaken of uitleggen. Je kind ontdekt dat doel door goed te lezen. Noemt het briefje nuchtere feiten, zonder uitroepteken? Dan wil de schrijver informeren. Zit er een grappige verrassing in? Dan wil de schrijver vermaken. Zegt het met \"eerst, daarna, tot slot\" hoe iets moet? Dan wil de schrijver uitleggen. Precies deze manier van kijken staat centraal in groep 4.",
-        "De activiteit is helemaal gratis, zonder tijdsdruk en zonder punten, zodat je kind rustig kan lezen en kiezen. De inhoud is afgestemd op de SLO-kerndoelen voor groep 4, domein leesvaardigheid / teksten begrijpen: teksten lezen en hun doel herkennen. Zo sluit het spelenderwijs aan bij wat je kind op school leert."
+        "De activiteit is zonder tijdsdruk en zonder punten, zodat je kind rustig kan lezen en kiezen. De inhoud is afgestemd op de SLO-kerndoelen voor groep 4, domein leesvaardigheid / teksten begrijpen: teksten lezen en hun doel herkennen. Zo sluit het spelenderwijs aan bij wat je kind op school leert."
       ],
       "practices": [
         "Het doel van een kort tekstje herkennen",
@@ -886,7 +886,7 @@
       "about": [
         "Op de spiegelmarkt van Stekel de egel gaat je kind in groep 3 op zoek naar het tegenovergestelde van een woord. Bij elk woord dat Stekel laat zien, kiest je kind het woord dat er precies tegenover staat: zoek het tegenovergestelde, want bij zwart hoort wit en bij duwen hoort trekken.",
         "Veel woorden hebben een tegenovergestelde: het andere uiterste op dezelfde lijn. De valkuil is een woord van dezelfde soort dat niet het tegenovergestelde is. Zwart en wit zijn tegenovergesteld, maar zwart en rood zijn alleen allebei kleuren. In groep 3 leert je kind het echte andere eind te zoeken en niet zomaar een woord dat er een beetje op lijkt. Zo groeit de woordenschat spelenderwijs.",
-        "De spiegelmarkt is gratis, zonder tijdsdruk en zonder punten, zodat je kind rustig kan nadenken. De activiteit is afgestemd op de SLO-kerndoelen voor groep 3, domein woordenschat: woorden ordenen, vergelijken en hun betekenis verkennen. Je kind ontdekt in zijn eigen tempo hoe woorden tegenover elkaar staan."
+        "De spiegelmarkt is zonder tijdsdruk en zonder punten, zodat je kind rustig kan nadenken. De activiteit is afgestemd op de SLO-kerndoelen voor groep 3, domein woordenschat: woorden ordenen, vergelijken en hun betekenis verkennen. Je kind ontdekt in zijn eigen tempo hoe woorden tegenover elkaar staan."
       ],
       "practices": [
         "Tegenovergestelde woordparen herkennen, zoals groot–klein, warm–koud en boven–onder",
@@ -909,7 +909,7 @@
       "about": [
         "Fabel de vos vertelt je kind een kort prentenverhaal van drie plaatjes. Je kind luistert naar het verhaal of leest het zelf, en beantwoordt daarna een vraag over een belangrijk detail: wie er in het verhaal voorkomt, wat er gebeurt, waar het speelt, waarom iets gebeurt, wat er eerst en wat er als laatste gebeurde, en hoe een personage zich voelde. Elke opdracht in groep 3 draait om goed luisteren en goed kijken.",
         "Het gaat hier om een écht verhaal, met personages, een verhaallijn en gevoelens, en dus niet om een informatietekst. Omdat Fabel het verhaal kan voorlezen, doen ook kinderen mee die nog niet vlot zelf lezen: zij begrijpen het verhaal via het luisteren én de plaatjes. In het verhaal van de verloren handschoen kan je kind bijvoorbeeld ontdekken dat de vogel Bo hielp zoeken, en dat Bo zich aan het eind blij voelde. Precies die details maken een verhaal begrijpelijk voor een kind in groep 3.",
-        "Een verhaal goed begrijpen — de belangrijke details vatten en de gebeurtenissen op een rij zetten — is de eerste stap van begrijpend lezen. Je kind oefent dit gratis, zonder tijdsdruk en zonder punten, in een warme, rustige omgeving. De vragen en het niveau zijn afgestemd op de SLO-kerndoelen voor groep 3, zodat het oefenen aansluit bij wat je kind op school leert."
+        "Een verhaal goed begrijpen — de belangrijke details vatten en de gebeurtenissen op een rij zetten — is de eerste stap van begrijpend lezen. Je kind oefent dit zonder tijdsdruk en zonder punten, in een warme, rustige omgeving. De vragen en het niveau zijn afgestemd op de SLO-kerndoelen voor groep 3, zodat het oefenen aansluit bij wat je kind op school leert."
       ],
       "practices": [
         "Aandachtig naar een kort verhaal luisteren en kijken",
@@ -932,7 +932,7 @@
       "about": [
         "Boekenworm Bea houdt van álle boeken en laat je kind er telkens drie zien. Bij elk drietal leest je kind de omslagen — de titel en een korte zin — en tikt daarna op het boek dat Bea vraagt: het verhaal of het informatieboek. Een rustige, warme manier om in groep 3 met echte boeken bezig te zijn.",
         "Er bestaan verhalen: verzonnen avonturen vol draken, toverkracht en pratende dieren. En er bestaan informatieboeken: die leggen echte kennis over de wereld uit, bijvoorbeeld hoe een vulkaan werkt of alles over spinnen. Het mooie is dat je vaak al aan de omslag kunt zien welke soort het is. Een titel als \"De draak die niet kon vliegen\" verklapt een verhaal, terwijl \"Alles over het weer\" een informatieboek verraadt. In groep 3 leert je kind op die kleine aanwijzingen te letten.",
-        "Let op: het gaat hier om de soort boek — de tekstsoort — en niet om waar het boek precies over gaat. Een boek over dieren kan namelijk een verzonnen verhaal zijn of juist een informatieboek. Deze activiteit is helemaal gratis, zonder tijdsdruk en zonder punten of sterren, zodat je kind rustig kan nadenken. De oefening sluit aan bij de SLO-kerndoelen voor groep 3, domein tekstsoorten."
+        "Let op: het gaat hier om de soort boek — de tekstsoort — en niet om waar het boek precies over gaat. Een boek over dieren kan namelijk een verzonnen verhaal zijn of juist een informatieboek. Deze activiteit is zonder tijdsdruk en zonder punten of sterren, zodat je kind rustig kan nadenken. De oefening sluit aan bij de SLO-kerndoelen voor groep 3, domein tekstsoorten."
       ],
       "practices": [
         "Verhalen onderscheiden van informatieboeken",
@@ -955,7 +955,7 @@
       "about": [
         "Detective Dewey staat voor een dik informatieboek en zoekt een heel bepaald weetje — en hij gokt niet zomaar. Hij gebruikt de onderdelen die het boek zelf meebrengt: de inhoudsopgave, de koppen, de bijschriften en de bladzijde met belangrijke woorden. Je kind helpt hem om met precies die onderdelen de juiste plek te vinden.",
         "Dit is de grote gedachte erachter: informatieboeken zijn niet gemaakt om van voor tot achter te lezen — ze hebben ingebouwde onderdelen die helpen bij het VINDEN van informatie. Wie wil weten in welk hoofdstuk iets staat, kijkt niet elke bladzijde na maar zoekt in de inhoudsopgave. Wie een woord niet kent, zoekt het bij de belangrijke woorden. Dat is een leesstrategie — en die is iets anders dan \"het antwoord in de tekst begrijpen\": hier gaat het erom je weg te vinden in het boek en gericht te navigeren naar de plek waar de informatie staat.",
-        "Zodat je kind echt de onderdelen leest en niet uit het geheugen raadt, zijn de dieren in de raadsels verzonnen — namen die het nog nooit heeft gehoord. Zo moet het de kop of de inhoudsopgave echt gebruiken. De activiteit is gratis, helemaal zonder tijddruk en zonder punten, en sluit aan bij de SLO-kerndoelen voor groep 4, domein informatie zoeken en verwerken."
+        "Zodat je kind echt de onderdelen leest en niet uit het geheugen raadt, zijn de dieren in de raadsels verzonnen — namen die het nog nooit heeft gehoord. Zo moet het de kop of de inhoudsopgave echt gebruiken. De activiteit is helemaal zonder tijddruk en zonder punten, en sluit aan bij de SLO-kerndoelen voor groep 4, domein informatie zoeken en verwerken."
       ],
       "practices": [
         "In de inhoudsopgave opzoeken in welk hoofdstuk een informatie staat.",
@@ -978,7 +978,7 @@
       "about": [
         "Gabby de gans is dol op woorden die ineens een geheim verstoppen. In deze activiteit leest je kind een korte zin met een uitdrukking — bijvoorbeeld \"Heb je twee linkerhanden?\" — en tikt dan uit drie kaarten aan wat de uitdrukking echt betekent. Eén kaart is de juiste, figuurlijke betekenis. Eén kaart is de letterlijke val (precies wat de woorden eigenlijk zeggen). En één kaart past helemaal niet. Zo leert je kind goed te luisteren en het beeld van de betekenis te onderscheiden.",
         "De grote gedachte erachter is het verschil tussen de letterlijke en de figuurlijke betekenis. Bij \"twee linkerhanden hebben\" heeft natuurlijk niemand echt twee linkerhanden — het betekent dat iemand heel onhandig is. Je kind ontdekt dat dezelfde woorden een grappig plaatje schilderen en tegelijk iets heel anders bedoelen. Juist dat nadenken over taal maakt uitdrukkingen voor groep 5 zo spannend.",
-        "Deze activiteit is gratis en kan steeds opnieuw gespeeld worden. Er is geen tijdklok, geen punten en geen druk — je kind mag in zijn eigen tempo nadenken, raden en glimlachen. De opdracht sluit aan bij de SLO-kerndoelen voor groep 5, domein woordenschat, waarin kinderen leren om figuurlijk taalgebruik te begrijpen."
+        "Deze activiteit kan steeds opnieuw gespeeld worden. Er is geen tijdklok, geen punten en geen druk — je kind mag in zijn eigen tempo nadenken, raden en glimlachen. De opdracht sluit aan bij de SLO-kerndoelen voor groep 5, domein woordenschat, waarin kinderen leren om figuurlijk taalgebruik te begrijpen."
       ],
       "practices": [
         "Herkennen wanneer een zin een uitdrukking bevat.",
@@ -1001,7 +1001,7 @@
       "about": [
         "Atlas het gordeldier heeft zijn kleine onderzoeksboekje bij zich en laat je kind een piepklein verhaaltje van maar twee zinnen zien — bijvoorbeeld: \"Bijen wonen in een korf. Ze maken zoete honing.\" Daaronder stelt Atlas een vraag, zoals \"Waar wonen de bijen?\". Je kind leest de twee zinnen rustig, denkt even na en tikt dan uit drie mogelijkheden het juiste antwoord aan: \"in een korf\". Het antwoord is geen geheim — het staat al in de tekst, je hoeft het alleen terug te vinden.",
         "Daar gaat het om: goed lezen en het antwoord echt in de tekst zoeken in plaats van gokken. Komt er een vraag met Waar, Wat of Hoeveel, dan kijkt je kind nog eens in de twee zinnen en haalt daar de belangrijke informatie uit. Precies dat is de eerste stap van begrijpend lezen — een kind merkt dat er in een kort tekstje echte antwoorden staan en dat het ze helemaal zelf kan vinden. Elke ronde wordt een klein beetje lastiger, maar het antwoord is altijd zwart-op-wit in de tekst terug te vinden.",
-        "Deze oefening sluit aan bij de SLO-kerndoelen voor groep 3 en hoort bij het begrijpend lezen van informatieve teksten, waarin kinderen leren om aan een kort tekstje gericht informatie te ontlenen en er vragen over te beantwoorden. Ze is gratis, gaat helemaal zonder tijddruk en zonder punten — je kind mag zo vaak en zo rustig lezen als het wil."
+        "Deze oefening sluit aan bij de SLO-kerndoelen voor groep 3 en hoort bij het begrijpend lezen van informatieve teksten, waarin kinderen leren om aan een kort tekstje gericht informatie te ontlenen en er vragen over te beantwoorden. Ze is gaat helemaal zonder tijddruk en zonder punten — je kind mag zo vaak en zo rustig lezen als het wil."
       ],
       "practices": [
         "Aan een kort informatief tekstje van twee zinnen de belangrijke informatie ontlenen.",
@@ -1024,7 +1024,7 @@
       "about": [
         "Jasper de gaai heeft voor elk klein klusje precies het juiste ding bij de hand. In deze oefening leest je kind een korte alledaagse situatie — bijvoorbeeld: \"Je wilt water drinken. Wat gebruik je?\" — en tikt dan op het plaatje van het ding dat er echt bij past. Uit drie plaatjes kiest het het ene dat je in die situatie gebruikt.",
         "Daarachter zit een belangrijk idee: woorden hangen nauw samen met waarvoor we de dingen in het dagelijks leven gebruiken. Wie weet waar een ding voor is, snapt het woord erachter veel beter. Je kind vraagt zich dus niet af \"Hoe heet dat?\", maar \"Wat past bij deze situatie — waarmee drink ik, waarmee knip ik, waarmee teken ik?\". Zo koppelt het bekende woorden aan echte handelingen uit zijn eigen dag.",
-        "Deze oefening sluit aan bij de SLO-kerndoelen voor groep 3 en hoort bij het domein woordenschat: kinderen leren bekende woorden te koppelen aan hun gebruik in het echte leven. Ze is gratis, gaat helemaal zonder tijddruk en zonder punten — je kind kan rustig nadenken, uitproberen en zo vaak overleggen als het wil."
+        "Deze oefening sluit aan bij de SLO-kerndoelen voor groep 3 en hoort bij het domein woordenschat: kinderen leren bekende woorden te koppelen aan hun gebruik in het echte leven. Ze is gaat helemaal zonder tijddruk en zonder punten — je kind kan rustig nadenken, uitproberen en zo vaak overleggen als het wil."
       ],
       "practices": [
         "Een korte alledaagse situatie lezen en snappen waar het over gaat.",
@@ -1047,7 +1047,7 @@
       "about": [
         "In de raadseltuin is Fern het reekalf een woord tegengekomen dat wel meer dan één ding kan betekenen — en het weet niet welke betekenis er deze keer bedoeld wordt. Help Fern: lees de hele zin rustig door. Eén woord is gekleurd. Daaronder staan drie kaarten met drie verschillende betekenissen. Tik de kaart aan die bij de zin past. Zegt de zin \"In het park gaan we op de bank zitten\", dan is de zitbank bedoeld — en niet de bank waar je geld haalt.",
         "Dit is de grote gedachte erachter: sommige woorden hebben meer dan één betekenis. Een \"muis\" kan een klein diertje zijn of de muis van de computer. Een \"slot\" kan een groot kasteel zijn of het slot op de deur. Welke betekenis nu bedoeld wordt, verraadt niet dat ene woord alleen — dat verraden de woorden eromheen en de hele zin. Daarom geldt in de raadseltuin: lees altijd het zinsverband, niet alleen het losse woord. De zin is je beste aanwijzing.",
-        "Deze oefening sluit aan bij de SLO-kerndoelen voor groep 4 en hoort bij het domein woordenschat: kinderen leren dat woorden meerdere betekenissen kunnen hebben, en oefenen om de passende betekenis uit het zinsverband af te leiden. Je puzzelt hier lekker in je eigen tempo — gratis, zonder tijddruk en zonder punten. Niemand wordt opgejaagd, en fout tikken is geen probleem: je mag het gewoon nog eens proberen."
+        "Deze oefening sluit aan bij de SLO-kerndoelen voor groep 4 en hoort bij het domein woordenschat: kinderen leren dat woorden meerdere betekenissen kunnen hebben, en oefenen om de passende betekenis uit het zinsverband af te leiden. Je puzzelt hier lekker in je eigen tempo — zonder tijddruk en zonder punten. Niemand wordt opgejaagd, en fout tikken is geen probleem: je mag het gewoon nog eens proberen."
       ],
       "practices": [
         "Herkennen dat een woord meer dan één betekenis kan hebben.",
@@ -1070,7 +1070,7 @@
       "about": [
         "Booker de beer zit aan zijn balie en bladert door een dik woordenboek. Bovenaan elke bladzijde staan twee kopwoorden — het eerste en het laatste woord van die bladzijde. Je kind leest die twee kopwoorden en tikt dan van drie woordkaarten precies de kaart aan die er in het ABC tussen hoort. Zo leert het stap voor stap hoe je een woord in het woordenboek vindt, zonder elke bladzijde apart te hoeven doorzoeken.",
         "Daarachter zit de alfabetische volgorde: in het woordenboek staan alle woorden op het ABC geordend. De twee kopwoorden bovenaan verklappen welke woorden je op deze bladzijde vindt — namelijk alles wat er in het ABC tussenin ligt. Vaak is de eerste letter al genoeg om te kiezen. Soms beginnen de woorden met dezelfde letter — dan kijk je goed en vergelijk je de tweede of zelfs de derde letter. Juist dat wordt van ronde tot ronde een klein beetje lastiger, zodat je kind steeds zekerder wordt.",
-        "Deze oefening sluit aan bij de SLO-kerndoelen voor groep 5 en hoort bij het domein taalverzorging: het opzoeken in het woordenboek is een handige werktechniek waarmee kinderen zelf kunnen controleren hoe een woord geschreven wordt. Ze is gratis, gaat zonder tijddruk en zonder punten — Booker geeft je kind alle tijd van de wereld, en niemand wordt opgejaagd of beoordeeld."
+        "Deze oefening sluit aan bij de SLO-kerndoelen voor groep 5 en hoort bij het domein taalverzorging: het opzoeken in het woordenboek is een handige werktechniek waarmee kinderen zelf kunnen controleren hoe een woord geschreven wordt. Ze is gaat zonder tijddruk en zonder punten — Booker geeft je kind alle tijd van de wereld, en niemand wordt opgejaagd of beoordeeld."
       ],
       "practices": [
         "Woorden op alfabetische volgorde zetten — eerst op de eerste letter, later ook op de tweede en derde.",
@@ -1093,7 +1093,7 @@
       "about": [
         "Tempo de schildpad vertelt over haar dag — van het wakker worden 's ochtends tot de welterusten-knuffel 's avonds. In elke zin ontbreekt een klein woordje dat de tijd op orde brengt. Je kind leest de zin en tikt op het woordje dat precies past: \"voor\", \"tijdens\" of \"na\". Zo wordt Tempo's zin ineens een heldere, ronde gedachte.",
         "De kleine woordjes \"voor\", \"tijdens\" en \"na\" zijn echte tijd-wegwijzers: \"voor\" wijst naar wat eerder gebeurt, \"tijdens\" naar wat tegelijk gebeurt en \"na\" naar wat daarna komt. Je kind leert ze niet uit het hoofd, maar luistert naar de betekenis van de zin — \"We pakken de koffer ___ de reis\" kan alleen met \"voor\" kloppen, want inpakken doe je vooraf. Zo verbindt de oefening het taalgevoel met het nadenken over de volgorde in de dag: eerst, tegelijk, daarna.",
-        "Deze oefening sluit aan bij de SLO-kerndoelen voor groep 3 (leergebied Nederlands) en hoort bij taalbeschouwing — hier kijken kinderen goed hoe woorden een zin zinvol verbinden. Ze is gratis, gaat helemaal zonder tijddruk en zonder punten. Tempo neemt de tijd, en je kind mag dat ook: elke poging is welkom, en je een keertje vertikken hoort gewoon bij het leren."
+        "Deze oefening sluit aan bij de SLO-kerndoelen voor groep 3 (leergebied Nederlands) en hoort bij taalbeschouwing — hier kijken kinderen goed hoe woorden een zin zinvol verbinden. Ze is gaat helemaal zonder tijddruk en zonder punten. Tempo neemt de tijd, en je kind mag dat ook: elke poging is welkom, en je een keertje vertikken hoort gewoon bij het leren."
       ],
       "practices": [
         "De tijdwoorden \"voor\", \"tijdens\" en \"na\" op hun betekenis kiezen.",
@@ -1254,7 +1254,7 @@
       "about": [
         "Clunk de snack-robot rammelt van de honger, en hij is kieskeurig: hij wil precies een bepaald aantal knapperts, geen hapje meer of minder. Tegen de muur hangt een hele wand vol hapjes met getallen erop, maar Clunks optelchip is gebarsten — dus jouw kind springt bij en helpt hem aan zijn maaltijd.",
         "Clunk wil precies een bepaald getal aan knapperts. Je kind kiest hapjes met getallen erop en legt ze in de lunchbox tot ze samen dat getal maken. De lunchbox laat het totaal niet zien, dus je telt zelf op. Klopt het? Dan voer je Clunk. En daarna maak je hetzelfde getal op een hele nieuwe manier — bijvoorbeeld 10 = 6 en 4, of 10 = 7 en 3. Zo ontdekt je kind dat één getal uit veel verschillende delen kan bestaan (deel-deel-geheel), het fundament onder het hoofdrekenen tot 20. Dit sluit aan bij de SLO-kerndoelen voor rekenen voor groep 3.",
-        "Er is geen klok en geen score. Je kind mag rustig kijken, tellen en uitproberen. Zit er een hap te veel of te weinig in de lunchbox? Dan zegt Clunk gewoon vriendelijk \"niet mijn maat, maak een nieuwe\", en je begint opnieuw — zonder streng rood kruis. Alles is gratis te spelen."
+        "Er is geen klok en geen score. Je kind mag rustig kijken, tellen en uitproberen. Zit er een hap te veel of te weinig in de lunchbox? Dan zegt Clunk gewoon vriendelijk \"niet mijn maat, maak een nieuwe\", en je begint opnieuw — zonder streng rood kruis. Alles is te spelen."
       ],
       "practices": [
         "Getallen samenstellen tot 14",
@@ -1277,7 +1277,7 @@
       "about": [
         "In het schuurtje van Opa Toon krullen de houtkrullen om zijn schaafmes terwijl hij potje na potje uit een blok hout snijdt. Elk potje is een andere maat, en op elke ronde buik schildert hij een getal van 1 tot 10. De kleine Wee Olen kijkt met grote ogen toe, en Toet de eend waggelt tussen de krullen door op zoek naar het kleinste potje van allemaal.",
         "De stapelpotjes staan kriskras door elkaar, in alle maten — en juist daar zit de truc: een dikke pot kan een klein getal dragen, dus laat je NOOIT misleiden door de grootte. Je leest het geschilderde getal en ordent van groot naar klein: welk potje draagt het grootste getal, welk het kleinste, en wat komt daartussen? Soms ontbreekt er een potje — een gaatje in de rij — en zoek je welk getal daar hoort. Soms dragen twee potjes hetzelfde getal; die zet je gewoon naast elkaar. Zo leert je kind getallen 1 tot 10 vergelijken en ordenen. Dit sluit aan bij de SLO-kerndoelen voor rekenen voor groep 3.",
-        "Er is geen klok en geen score — je kind mag rustig kijken, proberen en nog eens proberen. Een verkeerde keuze is niet erg: dan geeft Opa Toon een zacht duwtje in de goede richting (\"lees het getal, niet de grootte\"), en je stapelt gewoon verder tot de kleine Wee Olen veilig in het kleinste potje in het midden zit. Helemaal gratis, zo vaak je maar wilt."
+        "Er is geen klok en geen score — je kind mag rustig kijken, proberen en nog eens proberen. Een verkeerde keuze is niet erg: dan geeft Opa Toon een zacht duwtje in de goede richting (\"lees het getal, niet de grootte\"), en je stapelt gewoon verder tot de kleine Wee Olen veilig in het kleinste potje in het midden zit. Zo vaak je maar wilt."
       ],
       "practices": [
         "Getallen 1 tot 10 vergelijken en ordenen",
@@ -1300,7 +1300,7 @@
       "about": [
         "Sprocket de haan is er de hele dag bij: van het eerste licht als iedereen wakker wordt tot de rustige avond waarin de sterren tevoorschijn komen. Hij weet precies wat er wanneer gebeurt, en vandaag neemt hij jouw kind mee langs alles wat een dag zo bijzonder maakt — van het ontbijt tot het slapengaan.",
         "Een dag bestaat uit dagdelen: de ochtend, de middag en de avond. Sommige dingen horen bij de ochtend, zoals wakker worden en ontbijten. Andere horen bij de middag of avond, zoals avondeten en naar bed gaan. Jouw kind koppelt elke gebeurtenis aan het juiste dagdeel. De tijd die erbij staat — 7 uur, 9 uur — helpt een handje, maar je hoeft de klok niet te lezen. Deze activiteit sluit aan bij de SLO-kerndoelen voor meten en meetkunde voor groep 3.",
-        "Er is geen klok om te ontcijferen, geen tijd die tikt en geen score. Alles gaat rustig en op je eigen tempo. Tikt je kind op het verkeerde dagdeel? Dan kijk je gewoon nog een keertje samen — helemaal geen probleem. Deze activiteit is gratis en helemaal vrij om te spelen."
+        "Er is geen klok om te ontcijferen, geen tijd die tikt en geen score. Alles gaat rustig en op je eigen tempo. Tikt je kind op het verkeerde dagdeel? Dan kijk je gewoon nog een keertje samen — helemaal geen probleem. Deze activiteit is helemaal vrij om te spelen."
       ],
       "practices": [
         "Gebeurtenissen aan het juiste dagdeel koppelen",
@@ -1323,7 +1323,7 @@
       "about": [
         "Digby de hond staat klaar met een gestippeld cijfer voor zijn neus en een klein stipje dat laat zien waar de haal begint. Samen met je kind zet hij de eerste streek: vanaf de stip volgt Digby de vorm van het cijfer, haal na haal, tot het cijfer helemaal geschreven op het blad staat.",
         "Cijfers schrijven is meer dan alleen natekenen. Je kind oefent de juiste schrijfrichting en de vaste volgorde van de halen, haal voor haal. De stip vertelt waar je begint, en die vaste volgorde helpt om elk cijfer van 0 tot 9 rustig en netjes te vormen, zonder spiegelbeeld. Dat is de basis voor goed leesbare cijfers later. Deze activiteit sluit aan bij de SLO-kerndoelen voor rekenen voor groep 3.",
-        "Er is geen klok en geen score, dus je kind kan in alle rust oefenen. Gaat een haal een keer buiten de lijn? Geen probleem — je begint gewoon opnieuw op de stip en probeert het nog eens. Zo blijft schrijven leuk en vrij van stress. En het is helemaal gratis."
+        "Er is geen klok en geen score, dus je kind kan in alle rust oefenen. Gaat een haal een keer buiten de lijn? Geen probleem — je begint gewoon opnieuw op de stip en probeert het nog eens. Zo blijft schrijven leuk en vrij van stress.."
       ],
       "practices": [
         "Elk cijfer van 0 tot 9 zelf vormen",
@@ -1346,7 +1346,7 @@
       "about": [
         "Vandaag is het uitlegdag in de tuin van Sprout het konijn. De bloembedden liggen er kromgetrokken bij — een L hier, een trapje daar — en niemand weet meer hoe groot ze eigenlijk zijn. Sprout pakt er geen liniaal bij, maar een mandje zachte mos-vierkantjes die precies in de vakjes passen, en begint rustig te leggen.",
         "De oppervlakte is het aantal vierkantjes dat een vlak helemaal bedekt — ook bij kromme vormen, waar je geen lengte × breedte kunt rekenen. Je kind meet door te bedekken zonder gaatjes en zonder dubbele vierkantjes, kleine open plekjes te dichten en daarna te tellen. De ene keer moet er een bed gerepareerd worden, de andere keer schat je eerst hoe groot het is, en soms bouw je zelf een bed van precies zoveel vierkantjes. Zo wordt oppervlakte iets wat je écht ziet en aanraakt. Dit sluit aan bij de SLO-kerndoelen voor meten en meetkunde voor groep 6.",
-        "Er is geen klok en geen score — Sprout heeft alle tijd. Je kind mag rustig leggen, tellen en opnieuw proberen; een verkeerde tik is nooit een fout, gewoon een vierkantje dat je weer optilt. Alles is gratis te spelen."
+        "Er is geen klok en geen score — Sprout heeft alle tijd. Je kind mag rustig leggen, tellen en opnieuw proberen; een verkeerde tik is nooit een fout, gewoon een vierkantje dat je weer optilt. Alles is te spelen."
       ],
       "practices": [
         "bedekken zonder gaatjes en zonder dubbele vierkantjes",
@@ -1369,7 +1369,7 @@
       "about": [
         "Boven op de schuur staat Sprocket de haan, maar vandaag kijkt hij niet naar de zon — hij kijkt naar de grote klok naast de staldeur. Hij wil weten hoe laat het stráks is, als het voer klaarstaat en de andere dieren wakker worden. \"Nog even,\" kraait hij zachtjes, en samen met je kind volgt hij de wijzers om uit te rekenen hoe laat het dan is.",
         "In deze activiteit wordt klokkijken langzaam rekenen met tijd. Je kind leest de begintijd op de analoge klok en telt van daaruit de minuten verder — in kleine, overzichtelijke stappen en ook over het hele uur heen, voorbij de 12. Elke tijdsprong telt mee, zodat kinderen gaan voelen hoeveel tijd er echt verstrijkt. Deze aanpak sluit aan bij de SLO-kerndoelen voor meten en meetkunde (tijd) voor groep 5.",
-        "Er is geen klok die aftelt en geen score die meekijkt. Je kind mag rustig nadenken, opnieuw kijken en gewoon nog een keer proberen — een verkeerde tik is geen fout, alleen een tussenstap. De hele activiteit is en blijft gratis, zonder haast en zonder druk."
+        "Er is geen klok die aftelt en geen score die meekijkt. Je kind mag rustig nadenken, opnieuw kijken en gewoon nog een keer proberen — een verkeerde tik is geen fout, alleen een tussenstap. De hele activiteit is en blijft zonder haast en zonder druk."
       ],
       "practices": [
         "De begintijd aflezen: waar staat de kleine wijzer, waar de grote? Die starttijd is het startpunt voor alles wat daarna komt.",
@@ -1392,7 +1392,7 @@
       "about": [
         "Op het erf draait Sprocket de haan zich twee kanten op: de ene keer wil hij weten hoe laat het straks is, de andere keer hoe laat het net was. \"Ging de melkbus nou vóór of ná het voeren langs?\" mompelt hij. Samen met je kind laat hij de wijzers soms vooruit lopen en soms weer terug, om precies uit te zoeken hoe laat het dan is.",
         "In deze activiteit gaat de tijd allebei de kanten op. Soms telt je kind de minuten verder (\"over N minuten\"), soms rekent het ze terug (\"N minuten geleden\"). Het bewust kiezen tussen verder tellen en terugrekenen — en dat over het hele uur heen doen, zelfs voorbij de 12 — maakt het rekenen met tijd echt sterk. Deze aanpak sluit aan bij de SLO-kerndoelen voor meten en meetkunde (tijd) voor groep 5.",
-        "Ook hier is er geen klok die aftikt en geen score. Je kind mag hardop tellen, terugkijken en zo vaak proberen als het wil — een verkeerde tik hoort er gewoon bij. Alles is en blijft gratis, in alle rust."
+        "Ook hier is er geen klok die aftikt en geen score. Je kind mag hardop tellen, terugkijken en zo vaak proberen als het wil — een verkeerde tik hoort er gewoon bij. Alles is en blijft in alle rust."
       ],
       "practices": [
         "Bewust vooruit of terug kiezen: moet ik doortellen of terugrekenen? \"Over N minuten\" of \"N minuten geleden\" vraagt om een andere denkstap.",
@@ -1415,7 +1415,7 @@
       "about": [
         "In het kippenhok van Posy is het altijd een gezellige drukte. Posy de kip scharrelt rond en legt haar eieren, en elke volle eierdoos krijgt precies tien eieren — geen ei meer, geen ei minder. Zo staan de eierdozen keurig op een rij, klaar om samen geteld te worden.",
         "Omdat elke eierdoos precies tien eieren bevat, hoeft je kind niet elk ei apart te tellen. Het telt met sprongen van tien: 10, 20, 30… helemaal tot het bij het totaal is. Zo oefent je kind het tellen met tiensprongen tot 100 — ook wel verkort tellen genoemd — en leert het volle eierdozen zien als tientallen. Deze activiteit sluit aan bij de SLO-kerndoelen voor rekenen voor groep 4.",
-        "Er is geen klok en geen score. Je kind mag rustig tellen en zo vaak opnieuw beginnen als het wil. Een verkeerde tik is geen fout — het is gewoon een kans om samen nog eens te tellen, want elke eierdoos is tien en niet één. De activiteit is helemaal gratis."
+        "Er is geen klok en geen score. Je kind mag rustig tellen en zo vaak opnieuw beginnen als het wil. Een verkeerde tik is geen fout — het is gewoon een kans om samen nog eens te tellen, want elke eierdoos is tien en niet één."
       ],
       "practices": [
         "Tellen met sprongen van tien",
@@ -1438,7 +1438,7 @@
       "about": [
         "Snor de muis heeft de posttas al om en huppelt langs de kleine huisjes in de buurt. In de tas zitten allemaal brieven, en elk huisje heeft een eigen bordje met een huisnummer erop. Snor kijkt vrolijk omhoog: welke brief mag als eerste bezorgd worden? Samen met je kind gaat de muis op pad om de post bij het juiste huis te brengen.",
         "Op elke brief staat een getal van 0 tot 20. Je kind leest het getal en zoekt het huis met datzelfde huisnummer. Zo oefent het spelenderwijs getallen lezen en cijfers herkennen — ook de tienertallen zoals 13, 14 en 16, waar de plek van de cijfers telt (13 is niet 31). Dit noemen we ook wel getallen lezen, en het sluit mooi aan bij de SLO-kerndoelen voor rekenen in groep 3.",
-        "Er is geen klok en geen score. Je kind mag rustig lezen en bezorgen, helemaal in zijn eigen tempo. Tikt het op het verkeerde huis? Geen probleem — dat is geen fout, gewoon nog een keer goed naar het getal kijken en het juiste huisnummer zoeken. De activiteit is gratis en kan zo vaak gespeeld worden als je kind wil."
+        "Er is geen klok en geen score. Je kind mag rustig lezen en bezorgen, helemaal in zijn eigen tempo. Tikt het op het verkeerde huis? Geen probleem — dat is geen fout, gewoon nog een keer goed naar het getal kijken en het juiste huisnummer zoeken. De activiteit kan zo vaak gespeeld worden als je kind wil."
       ],
       "practices": [
         "Geschreven getallen van 0 tot 20 lezen",
@@ -1461,7 +1461,7 @@
       "about": [
         "Hoog op een tak zit Uiltje met een glas vol snoepjes op schoot. Uiltje houdt het glas omhoog, kijkt je kind vragend aan en hoeft het niet eens te tellen: hoeveel snoepjes zouden er nou in zitten, denk je? Even goed kijken, en dan een schatting maken.",
         "Eerst schat je kind: ongeveer hoeveel snoepjes zitten er in het glas? Je hoeft niet te tellen – je zet gewoon een goede schatting vast op de getallenlijn. Daarna tel je één voor één elk snoepje om de echte hoeveelheid te ontdekken en die met de schatting te vergelijken. Dat noemen we schatten van hoeveelheden: het gaat om een goede schatting en het plezier van het ontdekken. Schatten is nooit fout. Deze activiteit sluit aan bij de SLO-kerndoelen voor kleuters.",
-        "Geen klok en geen score – alleen rustig schatten en tellen, zo vaak als je kind wil. Elke schatting is een goede schatting, want je schatting is nooit fout: je ontdekt gewoon samen hoeveel het er echt zijn. Helemaal gratis."
+        "Geen klok en geen score – alleen rustig schatten en tellen, zo vaak als je kind wil. Elke schatting is een goede schatting, want je schatting is nooit fout: je ontdekt gewoon samen hoeveel het er echt zijn.."
       ],
       "practices": [
         "Een hoeveelheid schatten zonder te tellen",
@@ -1484,7 +1484,7 @@
       "about": [
         "Dobber de eend dobbert vrolijk in een hoge glazen tank vol belletjes. Elke keer dat je tikt, borrelt er een nieuw belletje omhoog, en Dobber kijkt tevreden toe hoe de tank langzaam voller wordt. Het is een rustig plekje om te ontdekken hoe getallen eigenlijk zijn opgebouwd.",
         "Tik belletjes in de tank tot je er tien hebt: dan klikken die tien belletjes samen tot één tiental, terwijl de belletjes die overblijven los ernaast blijven staan als enen. Zo wordt elk getal van 11 tot 19 zichtbaar als een tiental en een paar enen (10 + N) — de eerste stap in het tientallig stelsel, ook wel bundelen genoemd. Kinderen bundelen tientallen, leggen er enen bij, splitsen een getal weer in tiental en enen en maken zo gesproken getallen. Deze activiteit sluit aan bij de SLO-kerndoelen voor rekenen voor groep 3.",
-        "Er is geen klok en geen score — Dobber heeft alle tijd. Je tikt op je eigen tempo belletjes bij en kijkt rustig hoe het tiental ontstaat. Een verkeerde plek is geen fout: je probeert het gewoon opnieuw tot het getal klopt. De activiteit is helemaal gratis."
+        "Er is geen klok en geen score — Dobber heeft alle tijd. Je tikt op je eigen tempo belletjes bij en kijkt rustig hoe het tiental ontstaat. Een verkeerde plek is geen fout: je probeert het gewoon opnieuw tot het getal klopt."
       ],
       "practices": [
         "Getallen 11 tot 19 zien als een tiental en enen",
@@ -1507,7 +1507,7 @@
       "about": [
         "Mochi is een klein, hongerig wezentje dat dol is op een feestje met lekkers. Op zijn tafeltje staan schaaltjes vol aardbeien, koekjes, kersen, cupcakes, bananen, appels, donuts en muffins, en een lege kom die wacht om gevuld te worden. Mochi kijkt je kind verwachtingsvol aan: hoeveel mag er vandaag in de kom?",
         "Elke ronde vraagt Mochi om een precies aantal, bijvoorbeeld vijf aardbeien. Je kind tikt op het bord en legt één voor één een lekkernij in de kom, telt rustig mee en stopt bij het juiste getal. Zo leert het niet ‘hoeveel zijn het?’ te beantwoorden, maar iets moeilijkers: er precies zoveel máken — ook wel een hoeveelheid aftellen genoemd. Er staan geen cijfers in de kom; de kom die langzaam vol wordt ís het tellen. Dat verstevigt getalbegrip en één-op-één tellen, en sluit aan bij de SLO-kerndoelen voor rekenen voor kleuters.",
-        "Er is geen klok en geen score. Je kind mag rustig één voor één werken, zo vaak als het wil. Zijn er te veel lekkernijen in de kom? Dan tik je er gewoon eentje uit — dat is geen fout, gewoon opnieuw kijken en tellen. Helemaal gratis te spelen."
+        "Er is geen klok en geen score. Je kind mag rustig één voor één werken, zo vaak als het wil. Zijn er te veel lekkernijen in de kom? Dan tik je er gewoon eentje uit — dat is geen fout, gewoon opnieuw kijken en tellen. Te spelen."
       ],
       "practices": [
         "Een gegeven aantal lekkernijen aftellen tot Mochi genoeg heeft",
@@ -1530,7 +1530,7 @@
       "about": [
         "Hoog boven de weide is het nacht geworden. Aan de donkere hemel staan slaperige sterren zacht te fonkelen, en daartussen zweeft een klein vuurvliegje met een warm geel lichtje. Op één ster brandt een getal — precies daar begint het vuurvliegje aan zijn tocht langs de sterrenhemel.",
         "Het vuurvliegje begint niet bij 1, maar op een gegeven getal en telt van daaruit verder naar de volgende ster: staat het op 7, dan telt je kind hardop mee — 8, 9, 10. Zo oefent je kind het verder tellen in de telrij — ook wel doortellen genoemd — en merkt het dat tellen overal kan beginnen, ook voorbij de tien. Deze manier van verder tellen sluit aan bij de SLO-kerndoelen voor rekenen voor groep 3.",
-        "Er is geen klok en geen score. Je kind mag rustig ster voor ster verder tellen, zo vaak als het wil. Tel je een keer te ver? Dan tel je gewoon nog eens verder vanaf de brandende ster — niets kan misgaan. Het spelletje is helemaal gratis."
+        "Er is geen klok en geen score. Je kind mag rustig ster voor ster verder tellen, zo vaak als het wil. Tel je een keer te ver? Dan tel je gewoon nog eens verder vanaf de brandende ster — niets kan misgaan."
       ],
       "practices": [
         "Verder tellen vanaf een gegeven getal",
@@ -1553,7 +1553,7 @@
       "about": [
         "De vos zit op een kussentje van mos en rijgt de mooiste kralen aan een draadje. Rood, geel, blauw — klik-klik glijden de kraaltjes over het touwtje. Zijn vriendje heeft ook zo'n ketting, met heel andere kleuren, maar met precies evenveel kralen. En dat is nou net wat jij gaat maken: niet dezelfde kleuren, maar hetzelfde aantal.",
         "Je tikt elke kraal van de vos precies één keer aan en telt hardop mee: één, twee, drie… Het laatste getal dat je noemt — ook wel resultatief tellen genoemd — vertelt je hoeveel kralen er zijn. Rijg er dan zelf evenveel. En dan komt het grote geheim: als de vos zijn ketting schudt, verstopt of de kralen uit elkaar legt, blijft het aantal precies hetzelfde. Vijf kralen blijven vijf kralen, hoe je ze ook neerlegt. Dit inzicht in getalbehoud sluit aan bij de SLO-kerndoelen voor kleuters.",
-        "Er is geen klok en geen score. Je telt en rijgt rustig in je eigen tempo. Tel je een keer mis? Dat is geen fout — dan tellen we samen nog eens, kraal voor kraal. Helemaal gratis, zodat elk kind net zo lang kan tellen en rijgen als het wil."
+        "Er is geen klok en geen score. Je telt en rijgt rustig in je eigen tempo. Tel je een keer mis? Dat is geen fout — dan tellen we samen nog eens, kraal voor kraal. Zodat elk kind net zo lang kan tellen en rijgen als het wil."
       ],
       "practices": [
         "Elke kraal precies één keer tellen",
@@ -1576,7 +1576,7 @@
       "about": [
         "Op de vriendschapsbrug ontmoeten Pom en Pluis elkaar, twee ronde pluisvriendjes — de een teal, de ander koraalrood. Allebei nemen ze een handjevol ronde vriendjes mee de brug op, en samen willen ze weten wie er nu eigenlijk meer heeft meegebracht. Je kind helpt ze dat uitzoeken, rustig en op zijn eigen tempo, gewoon door goed te kijken en de vriendjes bij elkaar te brengen.",
         "De twee groepjes vergelijk je door elk vriendje één-op-één te koppelen — ook wel één-op-één koppelen genoemd —: geef ieder vriendje een maatje aan de overkant, steeds één bij één. Wie aan het eind een vriendje zonder maatje overheeft, heeft meer; blijft er niemand over, dan hebben ze evenveel. Zo ontdekt je kind dat de ogen je kunnen bedriegen: een lange, uitgespreide rij lijkt al snel meer, terwijl een klein, opeengepakt bosje er net zo veel of zelfs meer kan hebben. Alleen koppelen geeft echt zekerheid — meer, minder of evenveel. Deze manier van vergelijken sluit aan bij de SLO-kerndoelen voor rekenen-wiskunde voor kleuters.",
-        "Er is geen klok, geen score en niets wat geteld hoeft te worden. Je kind koppelt in alle rust en ontdekt zelf hoe de groepjes zich verhouden. Een verkeerde gok is hier juist een fijne ontdekking — \"mijn ogen bedrogen me!\" — en nooit een fout om je voor te schamen. Helemaal gratis te spelen, zo vaak je maar wilt."
+        "Er is geen klok, geen score en niets wat geteld hoeft te worden. Je kind koppelt in alle rust en ontdekt zelf hoe de groepjes zich verhouden. Een verkeerde gok is hier juist een fijne ontdekking — \"mijn ogen bedrogen me!\" — en nooit een fout om je voor te schamen. Te spelen, zo vaak je maar wilt."
       ],
       "practices": [
         "Twee hoeveelheden vergelijken door ze één-op-één te koppelen",
@@ -1599,7 +1599,7 @@
       "about": [
         "Op het rangeerstation van Tuf rolt een volle wagon met kisten het spoor op, en die lading moet verdeeld worden over twee treinwagons: een blauwe en een rode. Schuif de kisten heen en weer, kijk hoeveel er in elke wagon staan, en trek dan aan de koppeling om de trein te laten rijden. Elke verdeling die je vindt, komt netjes in het ritboek te staan.",
         "Het grote idee is dat je één getal op heel veel manieren in twee delen kunt splitsen: 5 is 1 en 4, of 2 en 3, of 0 en 5 — en toch blijft het steeds dezelfde 5. Dat je een geheel uit twee delen kunt opbouwen — ook wel deel-deel-geheel genoemd — is de basis voor later hoofdrekenen. Onderweg vind je alle splitsingen van een getal, ontdek je de vriendjes van tien, en zie je dat 2 en 3 dezelfde delen zijn als 3 en 2, alleen met de wagons omgewisseld. Deze activiteit sluit aan bij de SLO-kerndoelen voor rekenen-wiskunde voor groep 3.",
-        "Geen klok, geen score, geen wedstrijd: gewoon rustig schuiven, hardop zeggen en zelf ontdekken. Zit je ernaast? Dan rijdt de trein gewoon nog een keertje voor, zodat je het opnieuw kunt proberen. Helemaal gratis te spelen."
+        "Geen klok, geen score, geen wedstrijd: gewoon rustig schuiven, hardop zeggen en zelf ontdekken. Zit je ernaast? Dan rijdt de trein gewoon nog een keertje voor, zodat je het opnieuw kunt proberen. Te spelen."
       ],
       "practices": [
         "Een getal in twee delen splitsen",
@@ -1622,7 +1622,7 @@
       "about": [
         "In het vormenmuseum van Professor Tobbe rolt de ene na de andere vorm over de lopende band naar binnen. De pinguïnprofessor vraagt jouw kind om conservator te zijn: bekijk elke vorm die aankomt, noem hardop hoe hij heet en zet hem op het voetstuk met de juiste naam. Sommige vormen liggen schuin, andere zijn piepklein of juist uitgerekt — maar dat verandert niets aan hun naam.",
         "Want een vorm houdt zijn naam, hoe je hem ook draait of hoe groot je hem maakt. Een vierkant op zijn punt lijkt wel een ruit, maar het is en blijft een vierkant: vier even lange zijden en vier rechte hoeken. Een échte ruit is géén vierkant — de hoeken zijn anders, niet mooi recht. Zo leert je kind ook een vierkant van een rechthoek te onderscheiden. Deze activiteit sluit aan bij de SLO-kerndoelen voor rekenen-wiskunde voor groep 3.",
-        "Er is geen klok, geen score en niets om te tellen. Je kind mag rustig kijken, proberen en vergelijken, zo vaak als het wil — een vorm die bij geen enkele naam past, gaat gewoon naar de Raadselgalerij. Een kalm museum om vol vertrouwen vormen te leren herkennen. Helemaal gratis."
+        "Er is geen klok, geen score en niets om te tellen. Je kind mag rustig kijken, proberen en vergelijken, zo vaak als het wil — een vorm die bij geen enkele naam past, gaat gewoon naar de Raadselgalerij. Een kalm museum om vol vertrouwen vormen te leren herkennen.."
       ],
       "practices": [
         "Platte vormen benoemen: cirkel, driehoek, vierkant, rechthoek en zeshoek",
@@ -1645,7 +1645,7 @@
       "about": [
         "Aan het bessensapkraampje van Storm staan twee bekers klaar op de toonbank, allebei net een beetje anders van vorm. Storm, een vrolijke husky met een oranje sjaaltje, wil er vers geperst bessensap in schenken — maar in welke beker past er nu eigenlijk meer? Voordat er ook maar één druppel wordt ingeschonken, mag jij het raden.",
         "In deze activiteit vergelijk je twee bekers op hoeveel erin past — ook wel de inhoud genoemd — zonder cijfers en zonder te meten. Je kijkt alleen goed en je voorspelt welke beker meer sap kan bevatten: de linker, de rechter, of allebei evenveel. Let op, want de vorm kan bedriegen: hoog en smal lijkt zomaar meer, terwijl laag en breed er soms juist meer in kwijt kan. Daarna schenk je het sap in en zie je zelf of je voorspelling klopte. Zo sluit deze activiteit aan bij de SLO-kerndoelen voor kleuters.",
-        "Er is geen klok, geen score en niets te tellen — je kunt rustig zo vaak proberen als je wilt. En zit je ernaast? Dat is juist een leuke ontdekking: \"mijn ogen bedrogen me!\" Elke misser leert je iets nieuws over vorm en inhoud, zonder dat er iets fout kan gaan. Helemaal gratis te spelen."
+        "Er is geen klok, geen score en niets te tellen — je kunt rustig zo vaak proberen als je wilt. En zit je ernaast? Dat is juist een leuke ontdekking: \"mijn ogen bedrogen me!\" Elke misser leert je iets nieuws over vorm en inhoud, zonder dat er iets fout kan gaan. Te spelen."
       ],
       "practices": [
         "Voorspellen welke beker meer bessensap kan bevatten",
@@ -1668,7 +1668,7 @@
       "about": [
         "In de warme chocoladewerkplaats van Bram staan de malletjes klaar en pruttelt de chocola zachtjes op het vuur. Er komt een bestelling binnen, en jij mag hem vullen: kies het juiste stukje, giet het net zo vaak als nodig op de reep, en geef de bestelling netjes af. Geen haast — je bouwt elke breuk rustig op, stukje voor stukje.",
         "Terwijl je de bestellingen vult, ontdek je hoe breuken in elkaar zitten. Een breuk zoals ¾ is gewoon drie keer het stukje ¼ — ook wel een stambreuk genoemd — dus je legt drie gelijke stukjes samen tot je bij ¾ bent. Daarbij let je op gelijke delen: alleen een eerlijke mal verdeelt de reep in even grote stukken. Je merkt ook dat hetzelfde deel van een grótere reep méér chocola is, en dat dezelfde breuk op een andere vorm — een reep of een pizza — precies evenveel blijft. Deze activiteit sluit aan bij de SLO-kerndoelen voor rekenen met breuken voor groep 5.",
-        "Er is geen klok, geen score en geen stress. Je werkt op je eigen tempo en probeert rustig zo vaak als je wilt — een fout is gewoon een kans om het nog eens te bekijken. De hele chocoladewerkplaats is en blijft gratis te spelen."
+        "Er is geen klok, geen score en geen stress. Je werkt op je eigen tempo en probeert rustig zo vaak als je wilt — een fout is gewoon een kans om het nog eens te bekijken. De hele chocoladewerkplaats is en blijft te spelen."
       ],
       "practices": [
         "Stambreuken zoals ½, ⅓ en ¼ herkennen als deel van een geheel",
@@ -1691,7 +1691,7 @@
       "about": [
         "In Fiens naaiatelier ligt de werktafel vol linten, koorden, garen en stukjes leer. Fien wil alles precies op maat knippen, dus eerst meten! Haar poes Knoop springt steeds op de tafel en duwt de liniaal een stukje weg — jij mag hem telkens netjes terugleggen voordat je begint te meten.",
         "Goed meten begint bij goed leggen: schuif de liniaal zo dat de 0 precies op het begin van het lint ligt, en lees dan aan het andere eind af hoeveel centimeter het is. Veel kinderen beginnen per ongeluk bij de 1 in plaats van bij de 0 — ook wel een meetfout genoemd — en meten zo een hele centimeter te kort. Hier leer je die fout zelf herkennen en vermijden, ook als de liniaal kapot is of pas bij de 2 begint. Dit sluit aan bij de SLO-kerndoelen voor meten en meetkunde voor groep 4.",
-        "Geen klok, geen score, geen stress. Je werkt rustig op je eigen tempo, net als in een echte werkplaats, en je mag zo vaak opnieuw meten als je wilt. Helemaal gratis."
+        "Geen klok, geen score, geen stress. Je werkt rustig op je eigen tempo, net als in een echte werkplaats, en je mag zo vaak opnieuw meten als je wilt.."
       ],
       "practices": [
         "De 0 van de liniaal op het begin van het lint leggen",
@@ -1714,7 +1714,7 @@
       "about": [
         "In de behandelkamer wacht een dierenpatiënt op jou. Zijn 'symptoom' is een klein rekenverhaal: een verhaaltje waarin getallen iets doen. In het röntgenvenster verschijnt het bijpassende model dat laat zien wat er gebeurt — wat was er eerst, wat veranderde er, en wat komt er uiteindelijk uit? Jij leest het verhaal, legt de getallen op hun plek en markeert precies daar waar het raadsel zit.",
         "De kern is een verhaalsom — ook wel redactiesom genoemd — écht begrijpen en hem als een model van getallen nabouwen, dat heet modelleren. Het gezochte getal kan overal zitten: aan het eind, in het midden, of zelfs helemaal aan het begin, bij de omgekeerde som. Soms ga je ook vergelijken: hoeveel meer of minder heeft het ene dier dan het andere? Je telt op en trekt af tot 20, en dat sluit aan bij de SLO-kerndoelen rekenen voor groep 4.",
-        "Er is geen klok, geen score en geen stress. Je werkt op je eigen tempo, zo vaak als je wilt, en het is helemaal gratis."
+        "Er is geen klok, geen score en geen stress. Je werkt op je eigen tempo, zo vaak als je wilt."
       ],
       "practices": [
         "Reken-verhaalsommen tot 20 lezen en op een model nabouwen",
@@ -1737,7 +1737,7 @@
       "about": [
         "Diep in de winter vult Bo het konijn zijn voorraadkast met bessen. Een krat is bij Bo altijd een tiental: tien bessen, dicht en niet na te tellen. De losse bessen ernaast zijn de eenheden. Bo laat je een hoeveelheid, een getalwoord of een getal zien, en jij schiet de bessen naar het schap met precies de juiste kratten en losse bessen.",
         "Zo ontdek je wat plaatswaarde is: een tweecijferig getal bestaat uit zoveel tientallen en zoveel eenheden. 25 is 2 kratten en 5 losse bessen, en je maakt altijd zoveel mogelijk kratten – nooit een open bundel van tien of meer losse bessen. Ook de nul krijgt betekenis: 40 is 4 kratten en 0 los. Deze oefening sluit aan bij de SLO-kerndoelen voor rekenen in groep 4.",
-        "Er is geen klok, geen score en geen stress. Je werkt op je eigen tempo, je mag zo vaak proberen als je wilt, en alles is gratis."
+        "Er is geen klok, geen score en geen stress. Je werkt op je eigen tempo, je mag zo vaak proberen als je wilt."
       ],
       "practices": [
         "Tweecijferige getallen lezen als tientallen en eenheden",
@@ -1760,7 +1760,7 @@
       "about": [
         "Achter de snackkar staat Gus, een pientere eekhoorn die de hele dag hapjes verkoopt. Bij elke ronde lees je een kort verhaaltje bij de kar: soms vult Gus verse voorraad aan, soms verkoopt hij juist iets. Bij het verhaaltje zie je meteen de bijpassende som.",
         "Krijgt Gus er iets bij? Dan tel je op. Verkoopt of geeft hij iets weg? Dan trek je af. Je typt zelf het antwoord in. Zo oefen je optellen en aftrekken tot 100 – ook als je over het tiental heen moet rekenen, zoals bij 27 + 36 of 45 − 8.",
-        "De sommen sluiten aan bij de rekendoelen van groep 4 (SLO). Er is geen klok, geen score en geen stress: je werkt op je eigen tempo en het is helemaal gratis."
+        "De sommen sluiten aan bij de rekendoelen van groep 4 (SLO). Er is geen klok, geen score en geen stress: je werkt op je eigen tempo."
       ],
       "practices": [
         "Optellen en aftrekken tot 100",
@@ -1783,7 +1783,7 @@
       "about": [
         "Een flinke storm heeft in het Fluitdal een stuk spoorlijn weggeslagen. Kijk je goed, dan is dat spoor eigenlijk een getallenlijn: twee genummerde stations staan aan het begin en aan het eind, en daartussen horen de bielzen op hun eigen plek. Jij legt elke genummerde biels precies waar dat getal thuishoort op de lijn.",
         "Al spelend oefen je van alles. Je telt door en terug vanaf een station, ook over een tiental en één keer net over de 100 heen. Je telt met sprongen van 5 en 10 (10, 15, 20 … of 40, 50, 60 …) en zet zulke getalrijen voort. En je zoekt het midden tussen twee stations – 60 ligt precies tussen 40 en 80. Hoe groter het getal, hoe verder naar rechts het op de lijn ligt. Zo bouw je je getalbegrip en de getallenlijn tot 100 stevig op. Dat past bij SLO rekenen, domein getallen, voor groep 4.",
-        "Geen klok, geen score en geen stress: je werkt in je eigen tempo. Ligt een biels nog niet goed? Dan verleg je hem gewoon opnieuw tot het klopt. En als alles op zijn plek ligt, laat je de trein weer vrolijk door het Fluitdal rijden. Helemaal gratis."
+        "Geen klok, geen score en geen stress: je werkt in je eigen tempo. Ligt een biels nog niet goed? Dan verleg je hem gewoon opnieuw tot het klopt. En als alles op zijn plek ligt, laat je de trein weer vrolijk door het Fluitdal rijden.."
       ],
       "practices": [
         "Getallen op de getallenlijn plaatsen: de positie laat de grootte van het getal zien.",
@@ -1806,7 +1806,7 @@
       "about": [
         "Bram de bever heeft een gezellige houtwerkplaats waar hij de hele dag planken zaagt en linten op maat maakt. Bij elke ronde vertelt Bram een korte verhaalsom over lengtes: twee stukken worden samen zo lang, een stuk wordt van een plank afgezaagd, of het ene lint is zoveel langer dan het andere. Jij leest de som, legt de bekende lengtes op de meetlat en zoekt de lengte die nog ontbreekt.",
         "De gezochte lengte staat niet altijd op dezelfde plek: mal aan het eind, mal in het midden, en mal aan het begin – dan reken je de som eigenlijk omgekeerd terug. Zo oefen je optellen, aftrekken en vergelijken tot 100 in echte centimeters. Doordat je de lengtes op de getallenlijn zichtbaar maakt, ga je zo'n verhaalsom – ook wel redactiesom genoemd – écht begrijpen in plaats van alleen een kale som uit te rekenen. Dit past mooi bij het rekenen met lengtes in groep 4 volgens de SLO-doelen.",
-        "Er is geen klok, geen score en geen stress. Je werkt rustig in je eigen tempo en probeert gewoon opnieuw als het niet meteen lukt. Helemaal gratis, zo vaak als je wilt."
+        "Er is geen klok, geen score en geen stress. Je werkt rustig in je eigen tempo en probeert gewoon opnieuw als het niet meteen lukt. Zo vaak als je wilt."
       ],
       "practices": [
         "Verhaalsommen over lengtes lezen en op de getallenlijn modelleren",
@@ -1829,7 +1829,7 @@
       "about": [
         "Geit Maatje schat alle lengtes met het oog. Je krijgt vragen als 'Hoe lang is een mier ongeveer?' of 'Hoe hoog is een deur ongeveer?' en kiest uit drie schattingen – bijvoorbeeld '1 cm', '12 cm' of '2 m' – de meest zinnige. Zo ga je stap voor stap van zomaar gokken naar beredeneerd schatten.",
         "De kern is dat je een goed maatgevoel opbouwt met referentiematen die je al kent: een liniaal is ongeveer 30 cm en een deur is ongeveer 2 meter hoog. Je leert ook het verschil tussen centimeter en meter en wanneer je welke maat gebruikt. Dat past bij het SLO-domein meten en meetkunde voor groep 5.",
-        "Er is geen klok, geen score en geen stress. Je werkt lekker in je eigen tempo en mag zo vaak schatten als je wilt. De activiteit is helemaal gratis."
+        "Er is geen klok, geen score en geen stress. Je werkt lekker in je eigen tempo en mag zo vaak schatten als je wilt."
       ],
       "practices": [
         "Lengtes zinnig schatten in cm of meter",
@@ -1852,7 +1852,7 @@
       "about": [
         "Hazel de das houdt de weilandhekken heel. In vijf soorten opdrachten help je haar: een ontbrekende hekplank vinden; twee weilanden vergelijken (welk heeft meer hek nodig, en welk laat meer gras groeien?); de juiste eenheid kiezen (de streepjes langs de rand voor de omtrek of de vakjes binnenin voor de oppervlakte); ontdekken of een rol hek helemaal rondom reikt; en kijken welk weiland bij hetzelfde gras toch meer hek nodig heeft.",
         "De kern is het verschil tussen omtrek en oppervlakte. De omtrek is het hek rondom het weiland, de oppervlakte is het gras dat erin past. Je werkt zonder formules: je telt en vergelijkt met kleine, hele getallen. Zo bouw je een gevoel op voor allebei de begrippen, precies zoals dat past bij het SLO-domein meten en meetkunde.",
-        "Er is geen klok, geen score en geen stress. Je werkt in je eigen tempo en probeert net zo vaak als je wilt. Alles is gratis en je kunt meteen beginnen."
+        "Er is geen klok, geen score en geen stress. Je werkt in je eigen tempo en probeert net zo vaak als je wilt. Alles is je kunt meteen beginnen."
       ],
       "practices": [
         "De omtrek als 'het hek rondom' tellen, zonder formule.",
@@ -2333,7 +2333,7 @@
     },
     "choice-board.fraction-noncongruent.2-g-a-3": {
       "about": [
-        "Bovenaan verschijnt een vorm die al in gelijke delen is verdeeld — bijvoorbeeld een vierkant in twee helften — en je kind kiest uit de vormen eronder die ene vorm met precies evenveel gelijke delen. Het is een gratis, interactieve meetkunde-activiteit voor groep 4 die direct in de browser speelt, zonder installatie en zonder account.",
+        "Bovenaan verschijnt een vorm die al in gelijke delen is verdeeld — bijvoorbeeld een vierkant in twee helften — en je kind kiest uit de vormen eronder die ene vorm met precies evenveel gelijke delen. Het is een interactieve meetkunde-activiteit voor groep 4 die direct in de browser speelt, zonder installatie en zonder account.",
         "Het kind ziet een vorm die in gelijke delen is verdeeld en zoekt daarna een andere vorm die in evenveel gelijke delen is verdeeld. Het bijzondere is dit keer: gelijke delen hoeven er niet hetzelfde uit te zien. Een vierkant dat door het midden is verdeeld en een vierkant dat van hoek naar hoek is verdeeld, laten allebei twee gelijke helften zien, ook al hebben de stukken een andere vorm. De andere keuzes kloppen niet: de delen zijn niet even groot, het zijn er te veel of te weinig, of de vorm is helemaal niet verdeeld. Het kind verdeelt de vorm dus niet zelf, maar herkent dat gelijke delen er anders uit kunnen zien.",
         "De activiteit sluit aan bij de kerndoelen binnen het domein Meetkunde en bij kinderen in groep 4: herkennen dat een vorm in twee, drie of vier gelijke delen is verdeeld en die delen benoemen als helften, derden en vierden. Geen timer, geen score, geen druk; gewoon rustig kijken, vergelijken en ontdekken."
       ],
@@ -2356,7 +2356,7 @@
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
-        "Deze gratis, interactieve activiteit met vormen helpt jonge kinderen herkennen wanneer een vorm in gelijke delen is verdeeld. Het kind ziet vier vormen — cirkels, vierkanten en rechthoeken — en tikt op de vorm die in even grote, eerlijke delen is verdeeld. Werkt direct in de browser, zonder installeren en zonder account.",
+        "Deze interactieve activiteit met vormen helpt jonge kinderen herkennen wanneer een vorm in gelijke delen is verdeeld. Het kind ziet vier vormen — cirkels, vierkanten en rechthoeken — en tikt op de vorm die in even grote, eerlijke delen is verdeeld. Werkt direct in de browser, zonder installeren en zonder account.",
         "De grote gedachte is dat de delen eerlijk en even groot moeten zijn. De andere vormen zijn juist verdeeld in ongelijke delen, in het verkeerde aantal delen, of helemaal niet verdeeld. Het kind verdeelt de vorm dus niet zelf, maar herkent welke vorm al in gelijke delen is verdeeld.",
         "De activiteit sluit aan bij de kerndoelen binnen het domein Meetkunde: herkennen dat een vorm in twee of vier gelijke delen is verdeeld en die delen benoemen als helften en vierden. Geen timer, geen score, alleen speels oefenen."
       ],
@@ -2379,7 +2379,7 @@
     },
     "ten-frame.count-to-10.make-n.animals": {
       "about": [
-        "'Maak 3', 'Maak 7', 'Maak 10' — het kind bouwt het getal door op de vakjes van één tienraam te tikken en zo precies dat aantal dierenfiches neer te leggen, en drukt daarna op Controleer. Het is een gratis, interactieve telactiviteit voor kleuters met de getallen 0 tot 10 die in de browser speelt, zonder installatie en zonder account.",
+        "'Maak 3', 'Maak 7', 'Maak 10' — het kind bouwt het getal door op de vakjes van één tienraam te tikken en zo precies dat aantal dierenfiches neer te leggen, en drukt daarna op Controleer. Het is een interactieve telactiviteit voor kleuters met de getallen 0 tot 10 die in de browser speelt, zonder installatie en zonder account.",
         "Het tienraam maakt dit meer dan opdreunen. De twee rijen van vijf geven elk getal een vorm die het kind kan herkennen — vier vult bijna de bovenste rij, tien vult het hele raam — zodat tellen gaat samenhangen met hoeveel een getal echt is. Het kind beslist zelf hoeveel dieren het neerlegt en kan er nog bij doen of weghalen voordat het controleert. Zo blijft de aandacht bij het één-voor-één tellen in plaats van bij gokken.",
         "De activiteit sluit aan bij de kerndoelen binnen het domein Tellen: het verband tussen getallen en hoeveelheden begrijpen en tellen koppelen aan kardinaliteit. Dit hoort bij groep 1-2 (kleuters). Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -2402,7 +2402,7 @@
     },
     "ten-frame.count-to-20.make-n.fruits": {
       "about": [
-        "Je kind krijgt een getal om te maken en tikt op de vakjes van een dubbel tienraam om er precies zoveel stukjes fruit op te leggen, en drukt dan op Controleer. Helemaal tot 20 werken betekent een vol tiental en nog wat erbij. Het is een gratis, interactieve telactiviteit voor de kleuterklas die zonder registratie in de browser speelt.",
+        "Je kind krijgt een getal om te maken en tikt op de vakjes van een dubbel tienraam om er precies zoveel stukjes fruit op te leggen, en drukt dan op Controleer. Helemaal tot 20 werken betekent een vol tiental en nog wat erbij. Het is een interactieve telactiviteit voor de kleuterklas die zonder registratie in de browser speelt.",
         "Het dubbele tienraam leert het belangrijkste idee over de getallen boven tien: een vol tiental en nog wat erbij. Om 14 te maken, vult je kind het eerste raam tot tien en legt er dan vier op het tweede — zo is de bouw van het getal, tien en vier, meteen te zien. Voorbij tien werken is een echte stap verder dan tellen tot tien, en de twee ramen geven je kind een manier om het tellen overzichtelijk te houden in plaats van de tel kwijt te raken.",
         "De activiteit sluit aan bij de kerndoelen rond getalbegrip en kardinaliteit voorbij tien, en past bij kinderen in de kleuterklas (groep 1-2). Geen timer, geen score — gewoon rustig tellen en neerleggen."
       ],
@@ -2425,7 +2425,7 @@
     },
     "ten-frame.how-many.0-10.animals": {
       "about": [
-        "Een tienraam toont een groepje dier-fiches en stelt één eenvoudige vraag: hoeveel? Je kind telt de dieren — ergens tussen 0 en 10 — en typt het bijbehorende cijfer op het toetsenblok. Het is een gratis, interactieve telactiviteit voor de kleuterklas die direct in de browser werkt, zonder installatie en zonder account.",
+        "Een tienraam toont een groepje dier-fiches en stelt één eenvoudige vraag: hoeveel? Je kind telt de dieren — ergens tussen 0 en 10 — en typt het bijbehorende cijfer op het toetsenblok. Het is een interactieve telactiviteit voor de kleuterklas die direct in de browser werkt, zonder installatie en zonder account.",
         "Dit is de antwoord-kant van tellen. In plaats van een getal te bouwen, leest je kind een hoeveelheid die er al staat en benoemt die met een geschreven getal. Omdat de fiches in de twee rijen van een tienraam liggen, kan je kind hoeveelheden in één oogopslag leren herkennen — een volle bovenste rij is vijf, een vol raam is tien — en daarna één voor één natellen. Die stap van tellen naar één geschreven cijfer is de kern van het hoeveelheidsbegrip.",
         "De activiteit sluit aan bij de kerndoelen binnen het domein getallen: tellen om de vraag 'hoeveel?' te beantwoorden over voorwerpen op een raam. Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -2448,7 +2448,7 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "Een dubbel tienraam laat een groepje fruitfiches zien, en je kind schrijft het getal voor hoeveel het er zijn — door ergens van 0 tot 20 te tellen en het getal op het toetsenblok in te typen. Doordat een vol raam tien is, kan je kind doortellen voor de getallen boven tien en tot twintig. Deze gratis, interactieve telactiviteit voor de kleuterklas werkt in de browser zonder iets te installeren en zonder account.",
+        "Een dubbel tienraam laat een groepje fruitfiches zien, en je kind schrijft het getal voor hoeveel het er zijn — door ergens van 0 tot 20 te tellen en het getal op het toetsenblok in te typen. Doordat een vol raam tien is, kan je kind doortellen voor de getallen boven tien en tot twintig. Deze interactieve telactiviteit voor de kleuterklas werkt in de browser zonder iets te installeren en zonder account.",
         "Deze activiteit verbindt tellen met schrijven. Je kind leest een hoeveelheid die al over twee tienramen is uitgelegd en benoemt die met een geschreven cijfer, ook de lastigere getallen van twee cijfers boven de tien. Omdat een vol raam tien is, kan je kind vanaf tien doortellen voor de tienertjes en de twintig in plaats van steeds bij één te beginnen, en daarna opschrijven wat het heeft geteld — de verbinding tussen hoeveelheid en symbool.",
         "De activiteit sluit aan bij de SLO-kerndoelen: getallen van 0 tot 20 schrijven en een aantal voorwerpen weergeven met een geschreven cijfer. Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -2471,7 +2471,7 @@
     },
     "ten-frame.teen-numbers.make-n": {
       "about": [
-        "De opdracht noemt een getal tussen 11 en 19, bijvoorbeeld 16, en je kind vult het eerste tienraam tot een volle tien en legt daarna de extra blokjes op een tweede tienraam, zodat 16 verschijnt als tien en nog zes erbij. Het is een gratis, interactieve activiteit voor getalbegrip die zonder registratie in de browser speelt.",
+        "De opdracht noemt een getal tussen 11 en 19, bijvoorbeeld 16, en je kind vult het eerste tienraam tot een volle tien en legt daarna de extra blokjes op een tweede tienraam, zodat 16 verschijnt als tien en nog zes erbij. Het is een interactieve activiteit voor getalbegrip die zonder registratie in de browser speelt.",
         "Getallen tussen 11 en 19 zijn lastig omdat hun naam de bouw verbergt: 'zestien' zegt niet 'tien en zes'. Door elk getal op twee tienramen te bouwen wordt die verborgen bouw zichtbaar: er is altijd één volle tien en daarna nog wat eenheden. Je kind stelt het getal samen uit een tien en de extra's in plaats van helemaal vanaf één te tellen, en dat is precies het idee waar het rekenen met tientallen op rust.",
         "De activiteit sluit aan bij de kerndoelen en is bedoeld voor de kleuterklas (groep 1-2): getallen van 11 tot 19 samenstellen en opdelen in een tien en wat eenheden. Geen timer, geen score; gewoon rustig en speels oefenen."
       ],
@@ -2517,7 +2517,7 @@
     },
     "array.build-array.2-oa-c-4": {
       "about": [
-        "Je kind bouwt een rooster van gelijke rijen — netjes onder elkaar in kolommen — en zoekt daarna uit hoeveel stippen er in totaal zijn. De roosters groeien van een klein rooster van 2 bij 3 naar 3 bij 4, 2 bij 5, 4 bij 4 en 4 bij 3, zodat je kind steeds een ander vormpje rooster vult. Het is een gratis, interactieve rekenactiviteit voor groep 4 die direct in de browser speelt: niets installeren, geen account.",
+        "Je kind bouwt een rooster van gelijke rijen — netjes onder elkaar in kolommen — en zoekt daarna uit hoeveel stippen er in totaal zijn. De roosters groeien van een klein rooster van 2 bij 3 naar 3 bij 4, 2 bij 5, 4 bij 4 en 4 bij 3, zodat je kind steeds een ander vormpje rooster vult. Het is een interactieve rekenactiviteit voor groep 4 die direct in de browser speelt: niets installeren, geen account.",
         "Het grote idee is dat een rechthoek van gelijke rijen op de snelle manier kan worden opgeteld. Terwijl je kind elke rij aantikt, groeit eronder een optelstrook mee — 4 + 4 + 4 — zodat het de vier drie keer geteld ziet in plaats van elke stip apart te tellen. Daarna typt het kind het totaal in op het toetsenblok. Die gelijke rijen als gelijke optellingen zien is precies de brug van optellen naar vermenigvuldigen.",
         "De activiteit sluit aan bij de SLO-kerndoelen binnen het domein getallen en bewerkingen: het totaal van voorwerpen in een rooster van rijen en kolommen vinden door herhaald optellen, en dat totaal opschrijven als een som van gelijke getallen. Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -2540,7 +2540,7 @@
     },
     "choice-board.which-more.k-c-c-6": {
       "about": [
-        "Naast elkaar verschijnen twee groepjes vriendelijke plaatjes — katten, honden, eendjes, vissen, appels, bananen, sinaasappels of aardbeien — en je kind tikt op het groepje met meer. De aantallen lopen op tot acht, en kinderen vergelijken door te kijken en te tellen, nog niet door cijfers te lezen. Deze gratis telactiviteit voor de kleuterklas werkt in de browser op telefoon, tablet en de computer in de klas, zonder registratie.",
+        "Naast elkaar verschijnen twee groepjes vriendelijke plaatjes — katten, honden, eendjes, vissen, appels, bananen, sinaasappels of aardbeien — en je kind tikt op het groepje met meer. De aantallen lopen op tot acht, en kinderen vergelijken door te kijken en te tellen, nog niet door cijfers te lezen. Deze telactiviteit voor de kleuterklas werkt in de browser op telefoon, tablet en de computer in de klas, zonder registratie.",
         "Het grote idee is dat 'meer' over het aantal gaat, niet over hoeveel plek een groepje inneemt. Omdat de twee groepjes dicht bij elkaar kunnen liggen — zeven tegen zes, of zes tegen vijf — kan je kind niet winnen door even naar de grootste vlek te kijken; het moet elk groepje echt tellen en de aantallen vergelijken. Zo wint het van het bekende kijktrucje waarbij een paar verspreide plaatjes meer lijken dan een dicht klompje.",
         "De activiteit sluit aan bij de SLO-kerndoelen: vaststellen of het aantal voorwerpen in de ene groep groter, kleiner of gelijk is aan dat in een andere groep. Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -2563,7 +2563,7 @@
     },
     "lay-units.measure.1-md-a-2": {
       "about": [
-        "Inchie de spanrups meet dingen uit de tuin door helpertjes achter elkaar te leggen — langs een potlood, een blad, een lint, een wasco, een wortel of een stokje. Je kind legt gelijke eenheden aansluitend neer, zonder tussenruimte en zonder dat ze over elkaar liggen, en begint precies bij de punt. Daarna tikt je kind op elk helpertje om te tellen hoeveel het lang is. Het is een gratis, interactieve activiteit die in elke browser speelt, zonder download en zonder account.",
+        "Inchie de spanrups meet dingen uit de tuin door helpertjes achter elkaar te leggen — langs een potlood, een blad, een lint, een wasco, een wortel of een stokje. Je kind legt gelijke eenheden aansluitend neer, zonder tussenruimte en zonder dat ze over elkaar liggen, en begint precies bij de punt. Daarna tikt je kind op elk helpertje om te tellen hoeveel het lang is. Het is een interactieve activiteit die in elke browser speelt, zonder download en zonder account.",
         "Het grote idee is eenvoudig: de lengte is het aantal gelijke eenheden dat past. In sommige rondes wordt een regel gebroken zodat je die goed ziet — een gaatje dat nog dicht moet, helpertjes die over elkaar liggen, een decoy die niet even groot is, of een start die niet bij de punt begint. Er is ook een omkeerronde: eerst meet je hetzelfde blad met grote helpertjes en daarna met kleine. Zo ontdekt je kind zelf dat hoe kleiner de eenheid is, hoe meer je er nodig hebt. Omdat je kind zélf legt en telt, wordt het principe niet verteld maar ontdekt.",
         "De activiteit sluit aan bij de SLO-kerndoelen, domein “Meten en meetkunde”: meten door afpassen met een niet-standaard eenheid en het inzicht in de eenheidsgrootte horen bij de tussendoelen van groep 4. Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -2586,7 +2586,7 @@
     },
     "skipcount.fill.2-nbt-a-2": {
       "about": [
-        "Hopper de kikker springt over een rij genummerde waterlelieblaadjes — maar één blaadje is leeg gebleven. Bij elke sprong staat hoeveel erbij komt: +5, +10 of +100, en soms gaat Hopper juist een sprong terug (−10). Je kind leest de sprongen af en telt zo in sprongen mee tot het het getal op het lege blaadje vindt. De activiteit is gratis, speelt in elke browser en werkt zonder download en zonder account.",
+        "Hopper de kikker springt over een rij genummerde waterlelieblaadjes — maar één blaadje is leeg gebleven. Bij elke sprong staat hoeveel erbij komt: +5, +10 of +100, en soms gaat Hopper juist een sprong terug (−10). Je kind leest de sprongen af en telt zo in sprongen mee tot het het getal op het lege blaadje vindt. De activiteit speelt in elke browser en werkt zonder download en zonder account.",
         "Springend tellen is meer dan vijf-tien-vijftien opdreunen. Het gaat erom dat je kind het vaste ritme van een patroon opmerkt en dat gebruikt om het volgende getal te voorspellen. Omdat het lege blaadje soms middenin de rij ligt en soms aan het eind, en omdat een rij af en toe op een “oneven” getal begint (bijvoorbeeld bij 3 of 8), kan je kind niet leunen op een uit het hoofd geleerd rijtje — het moet echt de blaadjes lezen en de sprong erbij optellen of eraf tellen. Zo vormt springend tellen de brug van tellen naar inzicht in de plaatswaarde van getallen en later naar de kleine tafels.",
         "De activiteit sluit aan bij de SLO-kerndoelen: binnen het domein Getallen oefent je kind in sprongen tellen met 5, 10 en 100, vooruit en terug, met getallen tot 1000 (Groep 4). Geen timer, geen score — gewoon rustig en speels oefenen, in je kinds eigen tempo."
       ],
@@ -2609,7 +2609,7 @@
     },
     "shapeforge.compose.1-g-a-2": {
       "about": [
-        "Mim de vos is smid in een lichtwerkplaats: samen met je kind smelt zij kleine, gloeiende vormpjes — driehoeken en ruiten — aan elkaar tot grotere figuren. Zo vullen jullie een leeg lantaarnpatroon op en bouwen jullie een ruit, een dak, een zeshoek en nog veel meer. Het is een gratis, interactieve activiteit die in elke browser speelt, zonder download en zonder account.",
+        "Mim de vos is smid in een lichtwerkplaats: samen met je kind smelt zij kleine, gloeiende vormpjes — driehoeken en ruiten — aan elkaar tot grotere figuren. Zo vullen jullie een leeg lantaarnpatroon op en bouwen jullie een ruit, een dak, een zeshoek en nog veel meer. Het is een interactieve activiteit die in elke browser speelt, zonder download en zonder account.",
         "De kern is het samenstellen van vlakke figuren: grote vormen zijn opgebouwd uit kleinere, en dezelfde vorm kun je vaak op meer dan één manier bouwen — een zeshoek uit zes driehoeken óf uit drie ruiten. De rondes gaan verder dan alleen opvullen: bouw dezelfde zeshoek nog eens op een nieuwe manier, maak van een figuur een lange balk, bedek een vlak met alléén driehoeken, of laat een half afgebouwde vorm uitgroeien tot een zeshoek. Je kind kiest en draait de vormpjes net zolang tot ze echt passen, zonder gaten en zonder overlap.",
         "De activiteit sluit aan bij de SLO-kerndoelen, domein Meetkunde, voor Groep 3. Geen timer, geen score — gewoon rustig en speels oefenen met ruimtelijk en meetkundig inzicht."
       ],
@@ -2632,7 +2632,7 @@
     },
     "place-value-regroup.add-compose-ten.1-nbt-c-4": {
       "about": [
-        "Tuck de hamster laat MAB-blokken zien terwijl je kind een getal van twee cijfers optelt bij een getal van één cijfer, waarbij de eenheden samen over de tien heen gaan — 27+5, 48+6, 19+4. Je kind telt de losse blokjes, tikt op “Maak een tiental” om tien blokjes te bundelen tot één staafje, en typt daarna het totaal. Het is een gratis, interactieve activiteit die in elke browser speelt, zonder download en zonder account.",
+        "Tuck de hamster laat MAB-blokken zien terwijl je kind een getal van twee cijfers optelt bij een getal van één cijfer, waarbij de eenheden samen over de tien heen gaan — 27+5, 48+6, 19+4. Je kind telt de losse blokjes, tikt op “Maak een tiental” om tien blokjes te bundelen tot één staafje, en typt daarna het totaal. Het is een interactieve activiteit die in elke browser speelt, zonder download en zonder account.",
         "De kern is de eerste, concrete betekenis van tienoverschrijding: tien eenheden vormen samen één tiental. In plaats van een trucje op papier telt je kind eerst de losse eenheden, ziet dat het er meer dan tien zijn, en kijkt hoe tien ervan samen tot één staafje worden gebundeld. De overgebleven eenheden blijven netjes in de eenheden-kolom staan, zodat je kind ziet wáárom het totaal precies daar uitkomt. Zo ervaart het het bundelen met echt materiaal, nog vóór de kale rekenregel met potlood en papier.",
         "De activiteit sluit aan bij de SLO-kerndoelen, domein Getallen en het tientallig stelsel, en past bij het rekenen in Groep 4. Geen timer, geen score — gewoon rustig en speels oefenen, in je kind zijn of haar eigen tempo."
       ],
@@ -2724,7 +2724,7 @@
     },
     "graph-it.bar-graph.2-md-d-10": {
       "about": [
-        "In deze gratis, interactieve activiteit helpt je kind Pip de eekhoorn om zijn bosvondsten te ordenen. Vanuit een turftabel — of vanuit kleine plaatjes — stapelt je kind de staven voor alles wat Pip verzamelt: bladeren, bessen, eikels, dennenappels en paddenstoelen, verdeeld over ongeveer vier tot zes categorieën. Elke staaf krijgt de vorm van een klein hekje dat je precies tot de goede hoogte opstapelt. Daarna leest je kind het staafdiagram af om vragen te beantwoorden zoals “hoeveel meer bladeren dan bessen?” of “hoeveel heeft Pip er samen?”. Alles gebeurt gewoon in de browser, zonder download en zonder account.",
+        "In deze interactieve activiteit helpt je kind Pip de eekhoorn om zijn bosvondsten te ordenen. Vanuit een turftabel — of vanuit kleine plaatjes — stapelt je kind de staven voor alles wat Pip verzamelt: bladeren, bessen, eikels, dennenappels en paddenstoelen, verdeeld over ongeveer vier tot zes categorieën. Elke staaf krijgt de vorm van een klein hekje dat je precies tot de goede hoogte opstapelt. Daarna leest je kind het staafdiagram af om vragen te beantwoorden zoals “hoeveel meer bladeren dan bessen?” of “hoeveel heeft Pip er samen?”. Alles gebeurt gewoon in de browser, zonder download en zonder account.",
         "Het grote idee: een grafiek is een gereedschap dat je eerst zélf bouwt en daarna gebruikt. Je kind zet eerst de tellingen om in staven van de juiste hoogte — en verbetert onderweg ook een staaf die verkeerd staat. Pas als het staafdiagram klopt, gaat je kind het aflezen: vergelijken (meer en minder), samen nemen (het totaal) en apart bekijken. In één ronde moet je kind kiezen welk staafdiagram bij de turftabel hoort, zodat het laat zien dat het de grafiek ook echt terug kan lezen. Door eerst te bouwen en dan pas te lezen, krijgen de staven betekenis: je kind ziet waaróm een staaf hoog of laag is.",
         "De activiteit sluit aan bij de SLO-kerndoelen, domein Verwerken van gegevens, voor Groep 4. Zo oefent je kind spelenderwijs met het maken en aflezen van een staafdiagram. Geen timer, geen score — gewoon rustig en speels oefenen, in je kinds eigen tempo."
       ],
@@ -2747,7 +2747,7 @@
     },
     "clock-digital.read-hour.1-md-b-3": {
       "about": [
-        "Kukel de haan wijst een klok aan en kraait er vrolijk het uur bij: kukeleku! Je kind kijkt naar de wijzers en tikt daarna de digitale tijd aan die erbij hoort, zoals 3 uur of 9 uur. Er zijn drie tijden om uit te kiezen, dus je kind leert écht kijken in plaats van gokken.",
+        "Kukel de haan wijst een klok aan. Je kind kijkt naar de wijzers en tikt daarna de digitale tijd aan die erbij hoort, zoals 3 uur of 9 uur. Er zijn drie tijden om uit te kiezen, dus je kind leert écht kijken in plaats van gokken.",
         "De grote wijzer staat bij een heel uur altijd op de 12. De kleine wijzer wijst dan het uur aan. Dat is de grote ontdekking hier: als de grote wijzer op de 12 staat, hoef je alleen nog naar het getal van de kleine wijzer te kijken. Zo leggen kinderen de eerste, stevige basis voor klokkijken.",
         "De activiteit sluit aan bij de SLO-kerndoelen voor meten en meetkunde (tijd), en werkt zonder tijdsdruk of punten. Kukel blijft altijd vriendelijk: er is geen goed-of-fout-gedoe, alleen rustig oefenen en opnieuw proberen tot het klikt."
       ],
@@ -2770,7 +2770,7 @@
     },
     "clock-digital.read-half-hour.1-md-b-3": {
       "about": [
-        "Kukel de haan laat een klok zien en kraait erbij. Nu gaat het om hele én halve uren: je kind moet dus beide wijzers goed bekijken en daarna de juiste digitale tijd aantikken, zoals 3:00 of 3:30. Uit drie tijden kiest je kind de tijd die echt bij de klok hoort.",
+        "Kukel de haan laat een klok zien. Nu gaat het om hele én halve uren: je kind moet dus beide wijzers goed bekijken en daarna de juiste digitale tijd aantikken, zoals 3:00 of 3:30. Uit drie tijden kiest je kind de tijd die echt bij de klok hoort.",
         "De grote wijzer verklapt alles: staat hij op de 12, dan is het een heel uur; staat hij op de 6, dan is het een half uur. En let op de kleine wijzer — bij half vier (3:30) staat die tussen de 3 en de 4, bijna bij de 4. Daarom zeggen we \"half vier\" en niet \"half drie\": het halve uur kijkt vooruit naar het volgende uur. Juist die stap voorkomt de bekende vergissing waarbij kinderen het verkeerde uur noemen.",
         "De activiteit sluit aan bij de SLO-kerndoelen voor meten en meetkunde (tijd) en oefent zonder tijdsdruk of punten. Kukel doet nooit flauw over een misser: je kind mag rustig opnieuw kijken en kiezen, net zo vaak als nodig is."
       ],
@@ -3092,7 +3092,7 @@
     },
     "seriation.compare-length.1-md-a-1": {
       "about": [
-        "Winkelkat Tilly bewaart haar gekleurde linten bij een touwtje met een vaste lengte: bovenaan ligt het touwtje, en daaronder liggen drie linten, allemaal vanaf dezelfde rand. Een streepjeslijn laat op elke rij zien waar het touwtje eindigt, zodat je kind in één oogopslag ziet welk lint daar voorbij komt en welk lint er eerder stopt. Elke ronde stelt precies één vraag, en je kind antwoordt met één tik op een kleur. Het is een gratis, interactieve activiteit die in elke browser speelt, zonder download en zonder account.",
+        "Winkelkat Tilly bewaart haar gekleurde linten bij een touwtje met een vaste lengte: bovenaan ligt het touwtje, en daaronder liggen drie linten, allemaal vanaf dezelfde rand. Een streepjeslijn laat op elke rij zien waar het touwtje eindigt, zodat je kind in één oogopslag ziet welk lint daar voorbij komt en welk lint er eerder stopt. Elke ronde stelt precies één vraag, en je kind antwoordt met één tik op een kleur. Het is een interactieve activiteit die in elke browser speelt, zonder download en zonder account.",
         "Het idee erachter is vergelijken met een vaste lengte. Het touwtje wordt nooit langer of korter, dus elk lint valt ergens ten opzichte van dat ene punt: het komt eraan voorbij, het stopt ervoor, of het eindigt er precies. In drie van de negen rondes vraagt Tilly juist naar dat laatste geval — welk lint is even lang als het touwtje? — en in de andere rondes kijkt je kind de linten onderling na: welk lint komt het verst, en welk lint stopt als eerste. De volgorde van de linten en van de kleurknoppen wisselt per ronde, dus gokken op een vaste plek werkt niet.",
         "De activiteit hoort bij het domein meten en meetkunde van de SLO-kerndoelen, waar kinderen lengtes leren vergelijken en de bijbehorende taal leren gebruiken. Hier blijft het bewust bij vergelijken: je kind kiest per ronde één lint en werkt nog zonder getallen, zonder maateenheden en zonder liniaal. Geen timer, geen score — rustig kijken mag, en na een misser volgt een vriendelijke aanwijzing en mag je kind het meteen opnieuw proberen."
       ],
@@ -3115,7 +3115,7 @@
     },
     "choice-board.compare-length.k-md-2": {
       "about": [
-        "Twee alledaagse voorwerpen staan naast elkaar en je kind tikt op het hoogste, het langste of het kortste — door echte, herkenbare plaatjes te vergelijken, zoals een den of een palmboom, een potlood, wasco, stift of liniaal, een wortel of een komkommer, een giraf, een zonnebloem of een kaars. Het is een gratis meetactiviteit voor de kleuterklas die in elke browser speelt, zonder download en zonder account.",
+        "Twee alledaagse voorwerpen staan naast elkaar en je kind tikt op het hoogste, het langste of het kortste — door echte, herkenbare plaatjes te vergelijken, zoals een den of een palmboom, een potlood, wasco, stift of liniaal, een wortel of een komkommer, een giraf, een zonnebloem of een kaars. Het is een meetactiviteit voor de kleuterklas die in elke browser speelt, zonder download en zonder account.",
         "Er wordt niet geteld en er komen geen getallen aan te pas; je kind kijkt gewoon en vergelijkt één eigenschap tegelijk. De opdracht noemt het woord — hoger, langer of korter — en je kind kiest welk van de twee voorwerpen erbij hoort. Hoogte vergelijken bij hoger (een giraf) en lengte vergelijken bij langer (een komkommer) bouwt de meettaal op nog voordat er een liniaal of getal in beeld komt.",
         "De activiteit sluit aan bij de SLO-kerndoelen: twee voorwerpen rechtstreeks vergelijken op een meetbare eigenschap en beschrijven welk hoger, langer of korter is. Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -3138,7 +3138,7 @@
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {
       "about": [
-        "Twee getallen van twee cijfers verschijnen — zoals 47 en 52, of 63 en 38 — en je kind tikt op de bewering die waar is, met groter dan (>), kleiner dan (<) en gelijk aan (=). Sommige paren zijn gelijk, zoals 45 en 45 of 88 en 88, dus het gelijkteken telt ook mee. Het is een gratis activiteit over getalwaarde voor groep 3 die direct in de browser werkt, zonder account.",
+        "Twee getallen van twee cijfers verschijnen — zoals 47 en 52, of 63 en 38 — en je kind tikt op de bewering die waar is, met groter dan (>), kleiner dan (<) en gelijk aan (=). Sommige paren zijn gelijk, zoals 45 en 45 of 88 en 88, dus het gelijkteken telt ook mee. Het is een activiteit over getalwaarde voor groep 3 die direct in de browser werkt, zonder account.",
         "De aanpak is om eerst naar de tientallen te kijken en daarna naar de eenheden. Bij 47 en 52 winnen de 5 tientallen van de 4 tientallen, dus 47 is kleiner dan 52 — ook al is 7 groter dan 2. Lastige paren als 29 en 92 gebruiken dezelfde cijfers op andere plekken, dus je kind moet de getalwaarde lezen in plaats van alleen de losse cijfers. Het juiste teken kiezen maakt van die vergelijking de taal van >, = en <.",
         "De activiteit sluit aan bij de SLO-kerndoelen voor rekenen in groep 3: twee getallen van twee cijfers vergelijken op basis van de betekenis van de tientallen en de eenheden, en het resultaat noteren met de tekens >, = en <. Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -3161,7 +3161,7 @@
     },
     "choice-board.onset-rime-blend.rf-k-2-c": {
       "about": [
-        "Je kind hoort het laatste stukje van een woord en ziet de eerste letter, plakt die twee aan elkaar tot een woord en tikt daarna op het plaatje dat erbij hoort — bij k + 'at' plakt je kind tot 'kat' en zoekt de kat. Het is een gratis, interactieve lees- en luisteroefening voor beginnende lezers die direct in de browser speelt, zonder registratie.",
+        "Je kind hoort het laatste stukje van een woord en ziet de eerste letter, plakt die twee aan elkaar tot een woord en tikt daarna op het plaatje dat erbij hoort — bij k + 'at' plakt je kind tot 'kat' en zoekt de kat. Het is een interactieve lees- en luisteroefening voor beginnende lezers die direct in de browser speelt, zonder registratie.",
         "Het grote idee is samenvoegen — een beginklank en een woordstukje aan elkaar plakken tot een heel woord. Eén van de plaatjes rijmt op het antwoord (een rat staat naast de kat), dus het laatste stukje alleen is niet genoeg; de eerste letter is de aanwijzing die beslist welk woord het is. Je kind luistert, plakt en leest het plaatje, in plaats van losse letters te zoeken.",
         "De activiteit sluit aan bij de SLO-kerndoelen voor groep 3: de begin- en eindklanken van eenlettergrepige woorden samenvoegen en in stukjes hakken — net als hakken en plakken in de klas. Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -3184,7 +3184,7 @@
     },
     "fractions.make-and-count-squares.2-g-a-2": {
       "about": [
-        "Je kind tikt op de stippellijnen om een rechthoek te verdelen in rijen en kolommen van even grote vierkanten — 2 rijen en 3 kolommen, 3 rijen en 4 kolommen, tot wel 4 rijen en 5 kolommen — en typt daarna in hoeveel vierkanten het er samen zijn. Het is een gratis, interactieve meetkunde-activiteit voor groep 4 die in de browser op elk apparaat werkt, zonder iets te installeren en zonder account.",
+        "Je kind tikt op de stippellijnen om een rechthoek te verdelen in rijen en kolommen van even grote vierkanten — 2 rijen en 3 kolommen, 3 rijen en 4 kolommen, tot wel 4 rijen en 5 kolommen — en typt daarna in hoeveel vierkanten het er samen zijn. Het is een interactieve meetkunde-activiteit voor groep 4 die in de browser op elk apparaat werkt, zonder iets te installeren en zonder account.",
         "Het grote idee is dat een rechthoek in gelijke vierkanten kan worden verdeeld, netjes in rijen en kolommen, en dat die opbouw helpt om ze te tellen. Doordat je kind het rooster zelf maakt en daarna telt, gaat het voelen dat 3 rijen van 4 vierkanten tellen in gelijke groepen betekent — het rustige begin van roosters en vermenigvuldigen. De vierkanten zijn met opzet allemaal even groot, zodat 'hoeveel' een echt totaal van gelijke delen is.",
         "De activiteit sluit aan bij de SLO-kerndoelen binnen het domein meetkunde: een rechthoek verdelen in rijen en kolommen van even grote vierkanten en tellen hoeveel het er in totaal zijn. Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -3207,7 +3207,7 @@
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {
       "about": [
-        "Je kind leest een vergelijking als 247 ___ 274 of 583 ___ 419 en verbindt die met het teken dat hem waar maakt — kleiner dan (<) of groter dan (>) — door op de vergelijkingskaart te tikken en daarna op het juiste teken. Het is een gratis, interactief kaartspel voor rekenen in groep 4 dat direct in de browser speelt — niets installeren, geen account.",
+        "Je kind leest een vergelijking als 247 ___ 274 of 583 ___ 419 en verbindt die met het teken dat hem waar maakt — kleiner dan (<) of groter dan (>) — door op de vergelijkingskaart te tikken en daarna op het juiste teken. Het is een interactief kaartspel voor rekenen in groep 4 dat direct in de browser speelt — niets installeren, geen account.",
         "Het grote idee is vergelijken op getalwaarde, eerst de honderdtallen. De paren zijn zo gekozen dat kinderen niet kunnen vertrouwen op één snelle blik: getallen als 655 en 658 hebben dezelfde honderdtallen en tientallen, dus het eental beslist, terwijl 480 en 408 dwingen om naar de tientallen te kijken. Van links naar rechts werken — honderdtallen, dan tientallen, dan eenheden — is precies het redeneren dat het verbinden laat oefenen.",
         "De activiteit sluit aan bij de SLO-kerndoelen binnen het domein getallen en bewerkingen: twee getallen van drie cijfers vergelijken met de tekens >, = en < op basis van de waarde van de honderdtallen, tientallen en eenheden. Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -3230,7 +3230,7 @@
     },
     "numberbond.make-ten.k-oa-a-4": {
       "about": [
-        "Het geheel is 10 en één deel van de getalsplitsing is al ingevuld — bijvoorbeeld 7 — en je kind tikt op het lege deel om er fiches bij te leggen tot beide delen samen 10 maken. Het is een gratis, interactieve rekenactiviteit voor kleuters in groep 2 die direct in de browser werkt, zonder account en zonder registratie.",
+        "Het geheel is 10 en één deel van de getalsplitsing is al ingevuld — bijvoorbeeld 7 — en je kind tikt op het lege deel om er fiches bij te leggen tot beide delen samen 10 maken. Het is een interactieve rekenactiviteit voor kleuters in groep 2 die direct in de browser werkt, zonder account en zonder registratie.",
         "Elk getal van 1 tot 9 heeft een maatje dat tien volmaakt, en hier bouwt je kind dat maatje door fiches er één voor één bij te leggen en te zien hoe de twee delen naar 10 groeien — niet door een sommetje van een blad af te lezen. De splitsing zelf is het antwoord; je kind stopt als beide delen precies tien zijn, dus een te klein of te groot deel is makkelijk te voelen en te verbeteren.",
         "De activiteit sluit aan bij de SLO-kerndoelen: het getal vinden dat samen met een gegeven getal 10 maakt — de vrienden van 10. Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -3253,7 +3253,7 @@
     },
     "numberbond.story-problem.2-oa-a-1": {
       "about": [
-        "Je kind leest een korte verhaaltjessom — 20 rode tulpen en 30 gele tulpen, een plank met 45 boeken, eendjes die bij een vijver aankomen — ziet die als een getalsplitsing voor zich en typt daarna het ontbrekende getal in. Het is een gratis, interactieve rekenactiviteit voor groep 4 die direct in de browser speelt, zonder account.",
+        "Je kind leest een korte verhaaltjessom — 20 rode tulpen en 30 gele tulpen, een plank met 45 boeken, eendjes die bij een vijver aankomen — ziet die als een getalsplitsing voor zich en typt daarna het ontbrekende getal in. Het is een interactieve rekenactiviteit voor groep 4 die direct in de browser speelt, zonder account.",
         "De splitsing maakt van elk verhaaltje hetzelfde plaatje: twee delen en een geheel. Daardoor ziet je kind of het onbekende het totaal is, een deel dat overblijft of een beginhoeveelheid. Sommige sommen tellen op (hoeveel in totaal), sommige trekken af (hoeveel blijven er over, hoeveel kwamen erbij), en de splitsing maakt die keuze duidelijk in plaats van te gokken op een signaalwoord.",
         "De activiteit sluit aan bij de SLO-kerndoelen voor rekenen in groep 4: verhaaltjessommen in één stap optellen en aftrekken tot 100. Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -3276,7 +3276,7 @@
     },
     "sort-bins.defining-attributes.1-g-a-1": {
       "about": [
-        "Is het nog steeds een driehoek als hij rood, groot of scheef is? Elke ronde wordt één vorm genoemd, en je kind sleept iedere vorm naar de juiste bak door te bepalen wat hij IS, niet hoe hij eruitziet — echte driehoeken sorteren van vierkanten, vijfhoeken en zeshoeken. Het is een gratis, interactieve meetkunde-activiteit voor groep 3 die in de browser werkt, zonder iets te installeren.",
+        "Is het nog steeds een driehoek als hij rood, groot of scheef is? Elke ronde wordt één vorm genoemd, en je kind sleept iedere vorm naar de juiste bak door te bepalen wat hij IS, niet hoe hij eruitziet — echte driehoeken sorteren van vierkanten, vijfhoeken en zeshoeken. Het is een interactieve meetkunde-activiteit voor groep 3 die in de browser werkt, zonder iets te installeren.",
         "Het draait helemaal om het verschil tussen een eigenschap die telt en een eigenschap die niet telt. Een driehoek wordt bepaald door drie zijden — punt uit — terwijl rood, groot of scheef gewoon is hoe deze ene driehoek er toevallig uitziet. Door voorbeelden te sorteren tegenover verleidelijke niet-voorbeelden leert je kind voorbij het uiterlijk te kijken en te oordelen op de eigenschap die er echt toe doet. Dat is het begin van echt meetkundig redeneren.",
         "De activiteit sluit aan bij de SLO-kerndoelen: vormen herkennen aan hun bepalende eigenschappen, zoals het aantal zijden, los van kleur, grootte of richting. Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -3299,7 +3299,7 @@
     },
     "array.equal-groups.2-oa-c-4": {
       "about": [
-        "Bij deze rekenactiviteit maakt je kind gelijke groepen: in elke groep zitten precies evenveel voorwerpen. Daarna telt het de groepen herhaald op om het totaal te vinden. Ze speelt gratis en interactief in de browser, zonder installeren en zonder account.",
+        "Bij deze rekenactiviteit maakt je kind gelijke groepen: in elke groep zitten precies evenveel voorwerpen. Daarna telt het de groepen herhaald op om het totaal te vinden. Ze speelt interactief in de browser, zonder installeren en zonder account.",
         "De opdrachten lopen van 2 groepen van 3 tot 3 groepen van 5, met onderweg ook 4 groepen van 4 en 5 groepen van 2, zodat je kind veel verschillende verdelingen tegenkomt. De voorwerpen liggen in losse groepjes en niet in een net rechthoek, juist om het idee 'overal evenveel' centraal te zetten. Terwijl het kind elke groep vult, groeit ernaast een optelstrook mee, bijvoorbeeld 4 + 4 + 4, en zo worden de gelijke groepen een som; daarna typt het hoeveel het in totaal zijn.",
         "Het kind bouwt en telt de groepen op; het vermenigvuldigt nog niet, maar oefent precies het denken waarop vermenigvuldigen later voortbouwt. De activiteit past bij het domein Rekenen-wiskunde van de kerndoelen en is bedoeld voor groep 4. Geen timer, geen score; gewoon rustig oefenen in je eigen tempo."
       ],
@@ -3322,7 +3322,7 @@
     },
     "choice-board.even-odd.2-oa-c-3": {
       "about": [
-        "Op het bord verschijnt een getal van 1 tot en met 20 en je kind beslist of het even of oneven is. Met maar twee keuzes, even of oneven, beoordeelt het elk getal apart: is het een getal dat netjes in paren past, of blijft er eentje over? Het is een gratis, interactieve rekenactiviteit die zonder registratie gewoon in de browser speelt.",
+        "Op het bord verschijnt een getal van 1 tot en met 20 en je kind beslist of het even of oneven is. Met maar twee keuzes, even of oneven, beoordeelt het elk getal apart: is het een getal dat netjes in paren past, of blijft er eentje over? Het is een interactieve rekenactiviteit die zonder registratie gewoon in de browser speelt.",
         "Het grote idee is dat even en oneven gaan over de vraag of je een aantal in twee gelijke groepen kunt verdelen zonder dat er iets overblijft. Je kind telt hier niet op of af, maar sorteert hele getallen op hun bouw. Door het hele bereik van 1 tot 20 te oefenen, met steeds beide keuzes in beeld, ontstaat het snelle herkennen en de gewoonte om naar het laatste cijfer te kijken.",
         "De activiteit sluit aan bij de kerndoelen voor getalbegrip en is bedoeld voor groep 4: bepalen of een aantal even of oneven is. Geen timer, geen score; gewoon rustig en speels oefenen."
       ],
@@ -3345,7 +3345,7 @@
     },
     "choice-board.describe-attribute.k-md-a-1": {
       "about": [
-        "Er verschijnt één alledaags voorwerp en je kind tikt op het woord dat er het best bij past: lang, hoog of zwaar. De voorwerpen zijn zo gekozen dat één eigenschap duidelijk opvalt: een potlood en een wortel zijn lang, een giraf is hoog, en een steen en een pompoen zijn zwaar. Het is een gratis, interactieve meetactiviteit die zonder account direct in de browser speelt.",
+        "Er verschijnt één alledaags voorwerp en je kind tikt op het woord dat er het best bij past: lang, hoog of zwaar. De voorwerpen zijn zo gekozen dat één eigenschap duidelijk opvalt: een potlood en een wortel zijn lang, een giraf is hoog, en een steen en een pompoen zijn zwaar. Het is een interactieve meetactiviteit die zonder account direct in de browser speelt.",
         "Het draait er hier om dat we woorden geven aan de manieren waarop we dingen meten, nog voordat er getallen of een liniaal aan te pas komen. Je kind telt of meet niet, maar kijkt naar een echt voorwerp en kiest welke meetbare eigenschap erbij hoort: lengte, hoogte of gewicht. Omdat elk voorwerp één duidelijk sterkste eigenschap heeft, oefent het kind het opmerken van het soort meting dat een voorwerp uitnodigt.",
         "De activiteit hoort bij het domein Meten en is bedoeld voor de kleuterklas (groep 1-2): meetbare eigenschappen van een voorwerp beschrijven, zoals lengte, hoogte en gewicht. Past bij de kerndoelen. Geen timer, geen score; gewoon rustig kijken en kiezen."
       ],
@@ -3368,7 +3368,7 @@
     },
     "choice-board.ten-more-less.1-nbt-c-5": {
       "about": [
-        "Een getal van twee cijfers verschijnt, bijvoorbeeld 34, 57, 60 of 82, samen met de woorden tien meer of tien minder, en je kind rekent het uit het hoofd uit en tikt het antwoord aan uit vier keuzes. Het is een gratis, interactieve rekenactiviteit die zonder account in de browser speelt op een tablet, telefoon of computer in de klas.",
+        "Een getal van twee cijfers verschijnt, bijvoorbeeld 34, 57, 60 of 82, samen met de woorden tien meer of tien minder, en je kind rekent het uit het hoofd uit en tikt het antwoord aan uit vier keuzes. Het is een interactieve rekenactiviteit die zonder account in de browser speelt op een tablet, telefoon of computer in de klas.",
         "De kern is dat tien meer of tien minder helemaal niet hoeft te worden geteld: alleen het tiental verandert, terwijl de eenheden precies hetzelfde blijven. Zo is 34 en tien meer 44, en 57 en tien minder 47. De foute keuzes zijn buurgetallen, ook getallen waarbij de eenheden veranderen, zodat een kind dat één voor één telt of het tiental op de verkeerde plek optelt meteen merkt dat het niet klopt. Het gaat erom de tientallen te zien, niet om te tellen.",
         "De activiteit sluit aan bij de kerndoelen voor rekenen in groep 3: uit het hoofd 10 meer of 10 minder vinden bij een getal van twee cijfers. Geen timer, geen score; neem rustig de tijd."
       ],
@@ -3391,7 +3391,7 @@
     },
     "clock.set-clock.1-md-b-3": {
       "about": [
-        "Er staat een tijd geschreven, bijvoorbeeld 3:00, 7:30, 9:00 of half twee, en je kind sleept de lange en de korte wijzer op de wijzerplaat om die tijd te zetten, terwijl de digitale tijd meeloopt. Klok zetten is een gratis rekenactiviteit die zonder installeren of account in de browser speelt op tablet, telefoon en de computer in de klas.",
+        "Er staat een tijd geschreven, bijvoorbeeld 3:00, 7:30, 9:00 of half twee, en je kind sleept de lange en de korte wijzer op de wijzerplaat om die tijd te zetten, terwijl de digitale tijd meeloopt. Klok zetten is een rekenactiviteit die zonder installeren of account in de browser speelt op tablet, telefoon en de computer in de klas.",
         "Een klok zetten is moeilijker dan een klok lezen, want je kind moet zelf beide wijzers neerzetten in plaats van een plaatje te herkennen. Bij halve uren staat de korte wijzer tussen twee getallen in en niet op een getal, dus een kind dat de uurwijzer alleen naar een getal schuift, zit ernaast; het moet hem op de helft zetten. Let op: half 8 is 7:30. Doordat de digitale tijd meeverandert terwijl de wijzers bewegen, koppelt het kind het beeld van de wijzerplaat aan de getallen die het al kent.",
         "De activiteit sluit aan bij de kerndoelen voor klokkijken in groep 3: hele en halve uren lezen en zetten op een analoge en digitale klok. Geen timer, geen score; gewoon rustig oefenen."
       ],
@@ -3414,7 +3414,7 @@
     },
     "match-pairs.make-the-number.k-oa-a-3": {
       "about": [
-        "Er verschijnt een doelgetal, bijvoorbeeld 5, en je kind zoekt de getallenparen die samen dat getal maken, zoals 1 en 4 of 2 en 3, door eerst op een getal te tikken en daarna op zijn partner. Het is een gratis, interactief getallenspel dat zonder installeren of account direct in de browser speelt.",
+        "Er verschijnt een doelgetal, bijvoorbeeld 5, en je kind zoekt de getallenparen die samen dat getal maken, zoals 1 en 4 of 2 en 3, door eerst op een getal te tikken en daarna op zijn partner. Het is een interactief getallenspel dat zonder installeren of account direct in de browser speelt.",
         "Het grote idee is dat je één getal op meer dan één manier kunt maken. Bij een doel van 7 verbindt je kind misschien eerst 0 en 7, en dan 3 en 4, en ontdekt zo dat hetzelfde totaal meerdere paren heeft. Doordat de activiteit vraagt om alle paren die het doel maken en niet om één goed antwoord, groeit rustig het deel-deel-geheel-besef waar al het latere optellen op rust.",
         "De activiteit sluit aan bij de kerndoelen en is bedoeld voor de kleuterklas (groep 1-2): getallen tot en met 10 op meerdere manieren in paren splitsen. Geen timer, geen score; neem rustig de tijd."
       ],
@@ -3437,7 +3437,7 @@
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {
       "about": [
-        "Je kind ziet optelkaarten zoals 4 + 7 en 7 + 4, of 5 + 9 en 9 + 5, en verbindt elke optelling met dezelfde twee getallen in de omgekeerde volgorde: tik op een kaart, dan op zijn omgedraaide tweelingkaart, en het paar verbindt. Het is een gratis, interactief rekenspel dat zonder installeren of account direct in de browser speelt.",
+        "Je kind ziet optelkaarten zoals 4 + 7 en 7 + 4, of 5 + 9 en 9 + 5, en verbindt elke optelling met dezelfde twee getallen in de omgekeerde volgorde: tik op een kaart, dan op zijn omgedraaide tweelingkaart, en het paar verbindt. Het is een interactief rekenspel dat zonder installeren of account direct in de browser speelt.",
         "Het grote idee is dat bij optellen de volgorde niet uitmaakt: 4 + 7 en 7 + 4 maken allebei 11, dus de volgorde van de getallen verandert het totaal niet. Elke ronde toont zes kaarten, drie omgedraaide paren door elkaar, zodat je kind de totalen uitrekent en ziet welke optellingen precies dezelfde getallen omgedraaid gebruiken. Het zoekt geen identieke kaarten, maar herkent dat twee sommen die er anders uitzien toch evenveel zijn.",
         "De activiteit sluit aan bij de kerndoelen voor rekenen in groep 3: de omkeerregel gebruiken als handige strategie om op te tellen. Geen timer, geen score; gewoon rustig oefenen."
       ],
@@ -3460,7 +3460,7 @@
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {
       "about": [
-        "Bij een som als 8 + 5 splitst je kind het tweede getal op een splitsschema, zodat één deel het eerste getal aanvult tot tien (8 + 2 = 10), en telt daarna op wat er overblijft (10 + 3 = 13). Deze strategie van aanvullen tot tien komt tot leven in een gratis, interactieve rekenactiviteit die zonder account in de browser speelt.",
+        "Bij een som als 8 + 5 splitst je kind het tweede getal op een splitsschema, zodat één deel het eerste getal aanvult tot tien (8 + 2 = 10), en telt daarna op wat er overblijft (10 + 3 = 13). Deze strategie van aanvullen tot tien komt tot leven in een interactieve rekenactiviteit die zonder account in de browser speelt.",
         "Het grote idee is om een lastige som om te zetten in een makkelijke: ga eerst naar een vriendelijk tiental en tel daarna de rest erbij. Je kind tikt om het deel in te vullen dat samen met het eerste getal tien maakt, en het schema laat precies zien hoe het tweede getal wordt gesplitst, zodat de strategie iets is wat het ziet en doet en niet uit het hoofd hoeft te leren.",
         "De activiteit sluit aan bij de kerndoelen voor rekenen in groep 3: rekenen over het tiental, optellen tot 20 door eerst aan te vullen tot tien. Geen timer, geen score; gewoon rustig oefenen."
       ],
@@ -3483,7 +3483,7 @@
     },
     "place-value.tens-and-ones.1-nbt-b-2": {
       "about": [
-        "Om 47 te maken legt je kind vier tienstaven en zeven losse blokjes neer, en zo wordt 'veertig' iets echts in plaats van alleen een cijfer. De getallen lopen van 12 tot 95, met ook de ronde tientallen 30, 50, 70 en 90, blokje voor blokje gebouwd in een gratis, interactieve rekenactiviteit die zonder registratie in de browser speelt.",
+        "Om 47 te maken legt je kind vier tienstaven en zeven losse blokjes neer, en zo wordt 'veertig' iets echts in plaats van alleen een cijfer. De getallen lopen van 12 tot 95, met ook de ronde tientallen 30, 50, 70 en 90, blokje voor blokje gebouwd in een interactieve rekenactiviteit die zonder registratie in de browser speelt.",
         "Het grote idee is dat een getal van twee cijfers is opgebouwd uit tientallen en eenheden. Om 47 te bouwen gebruikt het kind vier tienstaven en zeven losse blokjes, en door die vier staven te zien wordt 'veertig' concreet in plaats van een cijfer. De ronde getallen zoals 70 en 90 versterken dat een nul op de plaats van de eenheden betekent dat er helemaal geen losse blokjes zijn, alleen volledige tientallen.",
         "De activiteit sluit aan bij de kerndoelen voor rekenen in groep 3: begrijpen dat een getal van twee cijfers is opgebouwd uit een aantal tientallen en eenheden. Geen timer, geen score; gewoon rustig bouwen."
       ],
@@ -3506,7 +3506,7 @@
     },
     "syllable-builder.bouw-het-woord-met-klankgroepen.rf-k-2-b": {
       "about": [
-        "Je kind ziet een plaatje en bouwt het bijbehorende woord door de klankgroepen in de juiste volgorde te leggen, bijvoorbeeld vlin-der of ba-naan. Het is een gratis, interactieve activiteit voor klankbewustzijn die zonder installeren of account direct in de browser speelt.",
+        "Je kind ziet een plaatje en bouwt het bijbehorende woord door de klankgroepen in de juiste volgorde te leggen, bijvoorbeeld vlin-der of ba-naan. Het is een interactieve activiteit voor klankbewustzijn die zonder installeren of account direct in de browser speelt.",
         "Het draait erom dat een woord is opgebouwd uit klankgroepen die je kunt horen en hardop kunt klappen. Je kind hakt het woord niet in losse letters, maar in grotere stukjes klank, en zet die stukjes daarna in de goede volgorde achter elkaar tot het hele woord. Doordat het kind de klankgroepen eerst hoort en daarna pas legt, koppelt het de gesproken klank aan het geschreven woord.",
         "De activiteit sluit aan bij de kerndoelen voor beginnende geletterdheid en is bedoeld voor de kleuterklas (groep 1-2): klankgroepen in gesproken woorden tellen, uitspreken, samenvoegen en opdelen. Geen timer, geen score; gewoon rustig luisteren en bouwen."
       ],
@@ -3529,7 +3529,7 @@
     },
     "choice-board.shape-id.k-g-a-2": {
       "about": [
-        "In een opdracht wordt steeds één vorm genoemd en het kind zoekt die op het oog op tussen vier afbeeldingen. De vormen die langskomen zijn een cirkel, vierkant, driehoek, rechthoek, zeshoek, ovaal, ster, ruit, hart en vijfhoek. Het is een gratis, interactieve meetkunde-activiteit voor kleuters die direct in de browser speelt op een tablet, telefoon of computer in de klas — zonder installatie en zonder account.",
+        "In een opdracht wordt steeds één vorm genoemd en het kind zoekt die op het oog op tussen vier afbeeldingen. De vormen die langskomen zijn een cirkel, vierkant, driehoek, rechthoek, zeshoek, ovaal, ster, ruit, hart en vijfhoek. Het is een interactieve meetkunde-activiteit voor kleuters die direct in de browser speelt op een tablet, telefoon of computer in de klas — zonder installatie en zonder account.",
         "Het grote idee is dat een vorm dezelfde vorm blijft, hoe je hem ook draait of hoe groot of klein je hem tekent. Een driehoek die op zijn punt staat is nog steeds een driehoek, en een piepklein vierkantje blijft een vierkant. Het kind moet dus de vorm zelf herkennen en niet één vast 'plaatje' uit het hoofd. De drie verkeerde keuzes zijn andere echte vormen uit de set, dus het kind kan niet winnen door simpelweg de enige vorm aan te tikken — het moet weten welke naam bij welke figuur hoort.",
         "De activiteit sluit aan bij de kerndoelen binnen het domein Meetkunde: vormen benoemen ongeacht hun oriëntatie of grootte. Formeel werken met vormen hoort in Nederland bij groep 1-2 (kleuters). Geen timer, geen score, geen druk — gewoon rustig kijken en oefenen."
       ],
@@ -3552,7 +3552,7 @@
     },
     "choice-board.flat-solid.k-g-a-3": {
       "about": [
-        "Er verschijnt steeds één vorm en het kind tikt aan of die plat is of een lichaam. De platte (2D-)vormen zijn bijvoorbeeld een cirkel, driehoek, vierkant en zeshoek; de lichamen (3D) zijn een kubus, bol, cilinder en kegel. Het is een gratis, interactieve meetkunde-activiteit voor kleuters die direct in de browser speelt op tablet, telefoon en computer — zonder installatie en zonder registratie.",
+        "Er verschijnt steeds één vorm en het kind tikt aan of die plat is of een lichaam. De platte (2D-)vormen zijn bijvoorbeeld een cirkel, driehoek, vierkant en zeshoek; de lichamen (3D) zijn een kubus, bol, cilinder en kegel. Het is een interactieve meetkunde-activiteit voor kleuters die direct in de browser speelt op tablet, telefoon en computer — zonder installatie en zonder registratie.",
         "Het grote idee is het verschil tussen een vorm die je op papier kunt tekenen en een vorm die je kunt vastpakken. Het kind benoemt de vormen hier niet, maar sorteert ze in tweedimensionaal en driedimensionaal. Door bekende platte vormen naast hun ruimtelijke 'familieleden' te zetten — een cirkel naast een bol, een vierkant naast een kubus — gaat het kind kijken of een vorm diepte heeft. Dat is de eerste stap naar het begrijpen van lichamen.",
         "De activiteit sluit aan bij de kerndoelen binnen het domein Meetkunde: vormen aanduiden als tweedimensionaal (plat) of driedimensionaal (een lichaam). Dit hoort bij groep 1-2 (kleuters). Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -3575,7 +3575,7 @@
     },
     "choice-board.next-number.k-cc-a-2": {
       "about": [
-        "Er verschijnt een getal van 1 tot en met 9 en het kind tikt op het getal dat er meteen na komt — zie je een 4, dan zoek je de 5; zie je een 8, dan zoek je de 9. Het is een gratis, interactieve telactiviteit voor kleuters die direct in de browser speelt op tablet, telefoon en computer — zonder installatie en zonder account.",
+        "Er verschijnt een getal van 1 tot en met 9 en het kind tikt op het getal dat er meteen na komt — zie je een 4, dan zoek je de 5; zie je een 8, dan zoek je de 9. Het is een interactieve telactiviteit voor kleuters die direct in de browser speelt op tablet, telefoon en computer — zonder installatie en zonder account.",
         "Het grote idee is vooruittellen vanaf een getal dat je krijgt, in plaats van telkens opnieuw bij één te beginnen. De keuzes zijn getallen tussen 0 en 10 die dicht bij het goede antwoord liggen, dus het kind moet écht weten wat erna komt en kan niet zomaar gokken. Het tellen midden in de rij oppakken is precies wat maakt dat tellen snel en soepel wordt.",
         "De activiteit sluit aan bij de kerndoelen binnen het domein Tellen: vooruittellen vanaf een willekeurig getal binnen de bekende telrij. Beginnend tellen hoort bij groep 1-2 (kleuters). Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -3598,7 +3598,7 @@
     },
     "choice-board.read-ruler.2-md-a-1": {
       "about": [
-        "Een voorwerp ligt langs een liniaal in centimeters — een potlood, een lint, een kleurkrijtje, een stift — en het kind leest af hoe lang het is en tikt op het antwoord in centimeters. De lengtes lopen van een kort krijtje van 5 cm tot een stift van 14 cm of een stok van 17 cm. Het is een gratis, interactieve meetactiviteit voor groep 4 die direct in de browser speelt, zonder account.",
+        "Een voorwerp ligt langs een liniaal in centimeters — een potlood, een lint, een kleurkrijtje, een stift — en het kind leest af hoe lang het is en tikt op het antwoord in centimeters. De lengtes lopen van een kort krijtje van 5 cm tot een stift van 14 cm of een stok van 17 cm. Het is een interactieve meetactiviteit voor groep 4 die direct in de browser speelt, zonder account.",
         "Het grote idee is een liniaal goed aflezen: leg de linkerkant van het voorwerp netjes bij de 0, volg het tot het andere einde en lees daar het streepje af. Het kind schat niet, maar leest een precieze lengte van de schaal. Doordat de antwoordkeuzes dicht bij elkaar liggen, valt het meteen op als je per ongeluk bij 1 in plaats van bij 0 begint — een klassieke meetfout. Zo went het kind eraan om elke meting bij nul te starten.",
         "De activiteit sluit aan bij de SLO-kerndoelen voor groep 4: de lengte van een voorwerp meten met een geschikt meetinstrument zoals een liniaal. Meten met de liniaal hoort bij groep 4 (7-8 jaar). Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -3621,7 +3621,7 @@
     },
     "clock.tell-time-5-min.2-md-c-7": {
       "about": [
-        "Er verschijnt een tijd in cijfers — 3:15, 7:45, 6:10, 9:20, 4:40, 1:50, 10:05 of 12:25 — en het kind sleept de wijzers van de analoge klok naar die stand, terwijl een digitale weergave meebeweegt. Deze gratis rekenactiviteit voor groep 4 brengt klokkijken naar tijden op 5 minuten nauwkeurig en speelt in de browser zonder account.",
+        "Er verschijnt een tijd in cijfers — 3:15, 7:45, 6:10, 9:20, 4:40, 1:50, 10:05 of 12:25 — en het kind sleept de wijzers van de analoge klok naar die stand, terwijl een digitale weergave meebeweegt. Deze rekenactiviteit voor groep 4 brengt klokkijken naar tijden op 5 minuten nauwkeurig en speelt in de browser zonder account.",
         "Klokkijken tot op 5 minuten betekent dat de grote wijzer er nu echt toe doet: kwart over zet hem op de 3, kwart voor op de 9 en tien over op de 2, en het kind telt met sprongen van vijf rond de wijzerplaat om hem precies goed te zetten. De lastigere tijden — zoals 7:45, waarbij kwart voor acht wordt geschreven als 7:45 en niet als 8:45 — vragen het kind om de kleine wijzer goed te lezen terwijl die naar het volgende getal kruipt. De digitale weergave bevestigt elke stand, zodat het tellen met vijven verbonden raakt aan de geschreven tijd.",
         "De activiteit sluit aan bij de SLO-kerndoelen voor groep 4: de tijd lezen en zetten tot op 5 minuten nauwkeurig op de analoge en digitale klok. Dit hoort bij groep 4 (7-8 jaar). Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -3644,7 +3644,7 @@
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {
       "about": [
-        "Het kind rekent kaarten uit zoals 2 + 3 en 9 − 4 (allebei 5), of 3 + 4 en 9 − 2 (allebei 7), en tikt dan een optelsom en de aftreksom met dezelfde uitkomst aan om het paar te verbinden. Het is een gratis, interactieve rekenactiviteit voor groep 3 die direct in de browser speelt — zonder installatie en zonder account.",
+        "Het kind rekent kaarten uit zoals 2 + 3 en 9 − 4 (allebei 5), of 3 + 4 en 9 − 2 (allebei 7), en tikt dan een optelsom en de aftreksom met dezelfde uitkomst aan om het paar te verbinden. Het is een interactieve rekenactiviteit voor groep 3 die direct in de browser speelt — zonder installatie en zonder account.",
         "Het grote idee is dat een optelsom en een aftreksom evenveel waard kunnen zijn — het isgelijkteken betekent 'hetzelfde als' en niet 'hier komt het antwoord'. De kaarten laten de uitkomsten niet zien, dus het kind moet elke som echt uitrekenen en daarna een sommetje zoeken dat er anders uitziet maar dezelfde waarde heeft. Elke ronde heeft twee (soms drie) uitkomsten om te vinden, waarbij plus- en minsommen door elkaar lopen.",
         "De activiteit sluit aan bij de kerndoelen binnen het domein Getallen en bewerkingen: de betekenis van het isgelijkteken begrijpen en beoordelen of optel- en aftreksommen dezelfde uitkomst hebben. Dit hoort bij groep 3 (6-7 jaar). Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -3667,7 +3667,7 @@
     },
     "match-pairs.match-facts-to-20.2-oa-b-2": {
       "about": [
-        "Op de kaarten staan sommen als 8 + 5, 9 + 7, 14 − 6 en 17 − 8, en je kind rekent elke som uit en verbindt hem met het getal dat de uitkomst is — zo gaat vlot rekenen tot 20 stap voor stap zitten. Het is een gratis, interactieve rekenactiviteit voor groep 4 die direct in de browser speelt — zonder installatie en zonder account.",
+        "Op de kaarten staan sommen als 8 + 5, 9 + 7, 14 − 6 en 17 − 8, en je kind rekent elke som uit en verbindt hem met het getal dat de uitkomst is — zo gaat vlot rekenen tot 20 stap voor stap zitten. Het is een interactieve rekenactiviteit voor groep 4 die direct in de browser speelt — zonder installatie en zonder account.",
         "Het grote idee is snel en zelfverzekerd optel- en aftreksommen tot 20 uit het hoofd kennen. Elke ronde mengt drie sommen — sommige plus, sommige min — met hun drie uitkomsten ertussen, dus het kind rekent elke som uit en zoekt daarna de bijpassende uitkomst. Door de rondes heen schuiven sommen als 9 + 9 = 18 en 16 − 9 = 7 stap voor stap van tellen naar automatiseren.",
         "De activiteit sluit aan bij de SLO-kerndoelen: vlot optellen en aftrekken tot 20 en de sommen van twee getallen onder de tien uit het hoofd kennen. Dit hoort bij groep 4 (7-8 jaar). Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -3690,7 +3690,7 @@
     },
     "numberbond.find-the-total.1-oa-a-1": {
       "about": [
-        "Een splitsing laat twee delen zien, zoals 7 en 4, en het kind zoekt hoeveel het er in totaal zijn — de delen samen tellen en het totaal intypen. Het is een gratis, interactieve rekenactiviteit voor groep 3 die direct in de browser speelt, zonder registratie.",
+        "Een splitsing laat twee delen zien, zoals 7 en 4, en het kind zoekt hoeveel het er in totaal zijn — de delen samen tellen en het totaal intypen. Het is een interactieve rekenactiviteit voor groep 3 die direct in de browser speelt, zonder registratie.",
         "Het geheel staat bovenaan en de twee delen eronder, zodat 'samenvoegen' iets wordt wat het kind kan zien. Het kind kan doortellen vanaf het grootste deel of de som gewoon weten; de stippen in elk deel staan er om te tellen wanneer een som nog niet is geautomatiseerd. Het antwoord is het geheel bovenaan de splitsing.",
         "De activiteit sluit aan bij de SLO-kerndoelen binnen het domein Getallen en bewerkingen: optellen gebruiken om samen te voegen tot 20. Dit hoort bij groep 3 (6-7 jaar). Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -3713,7 +3713,7 @@
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {
       "about": [
-        "Tik op een honderdplaat, een tienstaaf of een blokje en kijk hoe een getal van drie cijfers groeit terwijl de MAB-blokken zich opstapelen — honderdplaten, tienstaven en losse blokjes bouwen getallen van 108 tot 974, met lastige nullen zoals 200, 305 en 906. Het is een gratis, interactieve rekenactiviteit voor groep 4 die direct in de browser speelt, zonder account.",
+        "Tik op een honderdplaat, een tienstaaf of een blokje en kijk hoe een getal van drie cijfers groeit terwijl de MAB-blokken zich opstapelen — honderdplaten, tienstaven en losse blokjes bouwen getallen van 108 tot 974, met lastige nullen zoals 200, 305 en 906. Het is een interactieve rekenactiviteit voor groep 4 die direct in de browser speelt, zonder account.",
         "Het grote idee is dat de drie cijfers van een getal staan voor honderdtallen, tientallen en eenheden. Om 463 te bouwen heeft het kind vier honderdplaten, zes tienstaven en drie blokjes nodig, en door de blokken te zien opstapelen wordt elk cijfer aan een echte hoeveelheid gekoppeld. Getallen als 305 en 906 leren stilletjes dat een nul betekent: niets van die plaats — helemaal geen tienstaven. Dat is precies waar verwarring over plaatswaarde meestal begint.",
         "De activiteit sluit aan bij de SLO-kerndoelen binnen het domein Getallen en bewerkingen: begrijpen dat de drie cijfers van een getal van drie cijfers staan voor honderdtallen, tientallen en eenheden. Dit hoort bij groep 4 (7-8 jaar). Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -3736,7 +3736,7 @@
     },
     "ten-frame.show-the-operation.k-oa-a-1": {
       "about": [
-        "Bij '3 + 2' legt het kind 3 fiches neer en daarna nog 2 in een andere kleur, zodat de twee delen goed te zien zijn; bij '5 − 2' begint het met 5 fiches en tikt het er 2 weg. Het laten zien van de bewerking op het tienraam — niet een getal intypen — is hier het werk. Het is een gratis, interactieve rekenactiviteit voor kleuters die in de browser speelt, zonder registratie.",
+        "Bij '3 + 2' legt het kind 3 fiches neer en daarna nog 2 in een andere kleur, zodat de twee delen goed te zien zijn; bij '5 − 2' begint het met 5 fiches en tikt het er 2 weg. Het laten zien van de bewerking op het tienraam — niet een getal intypen — is hier het werk. Het is een interactieve rekenactiviteit voor kleuters die in de browser speelt, zonder registratie.",
         "Het grote idee is dat optellen en aftrekken handelingen zijn die je kunt laten zien, en niet alleen antwoorden die je opschrijft. De tweede kleur fiches maakt de twee delen zichtbaar als aparte groepjes, en fiches weghalen maakt 'eraf halen' letterlijk. Het kind beeldt de bewerking uit in plaats van een getal in te typen, zodat de betekenis van samenvoegen en eraf halen vóór het rekenen komt.",
         "De activiteit sluit aan bij de SLO-kerndoelen binnen het domein Getallen en bewerkingen: optellen en aftrekken voorstellen met voorwerpen, vingers, tekeningen en andere hulpmiddelen. Dit hoort bij groep 1-2 (kleuters). Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -3759,7 +3759,7 @@
     },
     "choice-board.count-sides.k-g-b-4": {
       "about": [
-        "Eén vorm verschijnt op het scherm en je kind telt de rechte zijden: een driehoek met 3 zijden, een vierkant met 4, een vijfhoek met 5 of een zeshoek met 6. Daarna tikt het op het getal dat klopt, gekozen uit cijfers van 3 tot en met 8. Het is een gratis, interactieve meetkunde-activiteit voor de kleuterklas die direct in de browser draait op een tablet, telefoon of klassikale computer — niets installeren, zonder account.",
+        "Eén vorm verschijnt op het scherm en je kind telt de rechte zijden: een driehoek met 3 zijden, een vierkant met 4, een vijfhoek met 5 of een zeshoek met 6. Daarna tikt het op het getal dat klopt, gekozen uit cijfers van 3 tot en met 8. Het is een interactieve meetkunde-activiteit voor de kleuterklas die direct in de browser draait op een tablet, telefoon of klassikale computer — niets installeren, zonder account.",
         "Het grote idee is dat een vorm meer is dan zijn naam: hij bestaat uit onderdelen die je kunt tellen. Je kind wint niet door 'een driehoek' te herkennen, maar moet met de ogen elke zijde langsgaan en die één voor één tellen. Doordat de getalkaartjes ook buurgetallen bevatten, zoals 5 naast 6, valt een telfoutje van één meteen op — dat nodigt uit tot zorgvuldig tellen met de vinger langs elke zijde in plaats van snel gokken.",
         "Deze activiteit hoort bij het domein Meetkunde van de kerndoelen: vormen bekijken en vergelijken aan de hand van hun onderdelen, zoals het aantal zijden. Ze past bij kinderen in de kleuterklas (groep 1-2). Geen timer, geen score, geen druk — gewoon rustig kijken en tellen."
       ],
@@ -3782,7 +3782,7 @@
     },
     "choice-board.pick-smaller.k-c-c-7": {
       "about": [
-        "Er verschijnen twee geschreven getallen en je kind tikt het kleinste aan — bijvoorbeeld 3 en 5, of 8 en 9. Soms liggen de getallen ver uit elkaar, zoals 1 en 9, en soms staan ze vlak bij elkaar, zoals 5 en 6. Het is een gratis, interactieve telactiviteit voor de kleuterklas die zonder registratie meteen in de browser speelt.",
+        "Er verschijnen twee geschreven getallen en je kind tikt het kleinste aan — bijvoorbeeld 3 en 5, of 8 en 9. Soms liggen de getallen ver uit elkaar, zoals 1 en 9, en soms staan ze vlak bij elkaar, zoals 5 en 6. Het is een interactieve telactiviteit voor de kleuterklas die zonder registratie meteen in de browser speelt.",
         "Het draait om getallen vergelijken op waarde, en dan juist op zoek naar minder in plaats van meer — een kleine maar belangrijke omschakeling van aandacht. Er zijn geen voorwerpen om te tellen: je kind leest elk cijfer en bepaalt welk getal het kleinste is. De buurparen maken het echt: weten dat 8 net vóór 9 komt, vertelt je dat 8 het kleinere getal is.",
         "De activiteit sluit aan bij de kerndoelen rond getalbegrip: twee getallen van 1 tot en met 10 vergelijken, gepresenteerd als geschreven cijfers. Ze past bij kinderen in de kleuterklas (groep 1-2). Geen timer, geen score — gewoon rustig kijken en vergelijken."
       ],
@@ -3805,7 +3805,7 @@
     },
     "choice-board.read-sight-word.rf-k-3-c": {
       "about": [
-        "Je kind hoort een veelvoorkomend woord hardop voorlezen en tikt daarna het juiste geschreven woord aan tussen woorden die er bijna hetzelfde uitzien — alledaagse flitswoorden zoals de, het, een, ik, en, is, op en aan, die in beginnende teksten steeds opnieuw voorkomen. Het is een gratis, interactieve leesactiviteit voor groep 3 die zonder installeren en zonder account in de browser draait op tablet, telefoon en computer.",
+        "Je kind hoort een veelvoorkomend woord hardop voorlezen en tikt daarna het juiste geschreven woord aan tussen woorden die er bijna hetzelfde uitzien — alledaagse flitswoorden zoals de, het, een, ik, en, is, op en aan, die in beginnende teksten steeds opnieuw voorkomen. Het is een interactieve leesactiviteit voor groep 3 die zonder installeren en zonder account in de browser draait op tablet, telefoon en computer.",
         "Het grote idee is veelvoorkomende woorden meteen op het oog herkennen, zodat het lezen kan gaan stromen. Veel van deze woorden klink je niet netjes uit, dus de verkeerde keuzes lijken er sterk op — de naast die, een naast en — en je kind moet het exacte woord kennen, niet alleen een vergelijkbare vorm. Het woord horen en het in druk terugvinden verbindt klank aan schrift voor de woorden die kinderen het vaakst tegenkomen.",
         "Deze oefening past bij de SLO-kerndoelen voor beginnende geletterdheid en bij kinderen in groep 3, waar het formele lezen in Nederland begint. Geen timer, geen score — gewoon rustig luisteren en herkennen."
       ],
@@ -3828,7 +3828,7 @@
     },
     "choice-board.letter-case.rf-k-1-d": {
       "about": [
-        "Er verschijnt steeds één letter en je kind tikt op dezelfde letter in de andere vorm — een hoofdletter bij een kleine letter, of een kleine letter bij een hoofdletter. Bij een grote B zoekt je kind de kleine b, bij een grote R de r, bij een grote E de e. Het is een gratis, interactieve leesactiviteit voor groep 3 die zonder account meteen in de browser speelt.",
+        "Er verschijnt steeds één letter en je kind tikt op dezelfde letter in de andere vorm — een hoofdletter bij een kleine letter, of een kleine letter bij een hoofdletter. Bij een grote B zoekt je kind de kleine b, bij een grote R de r, bij een grote E de e. Het is een interactieve leesactiviteit voor groep 3 die zonder account meteen in de browser speelt.",
         "Het grote idee is dat elke letter twee gedaanten heeft die dezelfde letter benoemen. De verkeerde keuzes lijken er met opzet op — bij de B krijg je bijvoorbeeld b, d, p en h te zien — zodat je kind de echte vorm van de letter moet kennen en niet zomaar iets ronds aanwijst. Letters die draaien en spiegelen uit elkaar halen, zoals b en d, is precies het zorgvuldige kijken dat stevige letterherkenning opbouwt.",
         "De activiteit sluit aan bij de SLO-kerndoelen voor beginnende geletterdheid en bij kinderen in groep 3: alle hoofdletters en kleine letters herkennen en benoemen. Geen timer, geen score — gewoon rustig kijken en koppelen."
       ],
@@ -3851,7 +3851,7 @@
     },
     "fractions.partition-equal-shares.1-g-a-3": {
       "about": [
-        "Er verschijnt een vorm — een cirkel, vierkant, rechthoek, driehoek, ellips, ruit, zeshoek of vijfhoek — en je kind tikt op de kniplijnen om hem in 2 gelijke delen (helften) of 4 gelijke delen (kwarten) te verdelen. Het is een gratis, interactieve meetkunde-activiteit voor groep 3 die op elk apparaat in de browser speelt, zonder account.",
+        "Er verschijnt een vorm — een cirkel, vierkant, rechthoek, driehoek, ellips, ruit, zeshoek of vijfhoek — en je kind tikt op de kniplijnen om hem in 2 gelijke delen (helften) of 4 gelijke delen (kwarten) te verdelen. Het is een interactieve meetkunde-activiteit voor groep 3 die op elk apparaat in de browser speelt, zonder account.",
         "Het grote idee is dat gelijke delen eerlijk moeten zijn: de stukken moeten even groot zijn. Doordat je kind allerlei vormen knipt, niet alleen cirkels, ziet het dat helften en kwarten over gelijke oppervlakte gaan en niet over één vertrouwd plaatje: een vierkant in vier vakjes en een cirkel in vier punten maken allebei kwarten. Omdat je kind zelf knipt, maakt het de delen ook zelf gelijk in plaats van een kant-en-klaar plaatje te herkennen.",
         "De activiteit sluit aan bij de SLO-kerndoelen binnen het domein Meetkunde en bij kinderen in groep 3: vormen verdelen in twee en vier gelijke delen en die benoemen als helften en kwarten. Geen timer, geen score — gewoon rustig knippen en verdelen."
       ],
@@ -3874,7 +3874,7 @@
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {
       "about": [
-        "Je kind verbindt de kaarten die hetzelfde getal tonen — het getal in cijfers (305), in woorden (driehonderdvijf) en in de uitgebreide vorm (300 + 5) — door op een kaart te tikken en daarna op een kaart met dezelfde waarde, tot het drietal aan elkaar is gekoppeld. Het is een gratis, interactief rekenspel voor groep 4 dat zonder installeren en zonder account in de browser speelt.",
+        "Je kind verbindt de kaarten die hetzelfde getal tonen — het getal in cijfers (305), in woorden (driehonderdvijf) en in de uitgebreide vorm (300 + 5) — door op een kaart te tikken en daarna op een kaart met dezelfde waarde, tot het drietal aan elkaar is gekoppeld. Het is een interactief rekenspel voor groep 4 dat zonder installeren en zonder account in de browser speelt.",
         "Het grote idee is dat een getal in cijfers, zijn getalnaam en zijn uitgebreide vorm allemaal hetzelfde getal benoemen — en juist bij de gaten in de plaatswaarde wordt het interessant. Getallen als 305 en 208 hebben een nul op de plaats van de tientallen, dus de uitgebreide vorm is 300 + 5 en niet 300 + 0 + 5, en je kind moet goed lezen om 'tweehonderdacht' aan 208 te koppelen en niet aan 280. Elke ronde heeft drie verschillende getallen om tegelijk uit te zoeken.",
         "De activiteit sluit aan bij de kerndoelen binnen het domein Getallen en bewerkingen en bij kinderen in groep 4: getallen tot 1000 lezen en schrijven in cijfers, in woorden en in uitgebreide vorm. Geen timer, geen score — gewoon rustig zoeken en koppelen."
       ],
@@ -3897,7 +3897,7 @@
     },
     "money.count-out.2-md-c-8": {
       "about": [
-        "Je kind bouwt een bedrag muntje voor muntje op door euromunten in de bak te leggen tot het geld klopt — 30 cent gemaakt van 20 cent en 10 cent, of 15 cent van 10 cent en 5 cent. Het is een gratis, interactieve rekenactiviteit voor groep 4 die zonder installeren en zonder account in de browser speelt.",
+        "Je kind bouwt een bedrag muntje voor muntje op door euromunten in de bak te leggen tot het geld klopt — 30 cent gemaakt van 20 cent en 10 cent, of 15 cent van 10 cent en 5 cent. Het is een interactieve rekenactiviteit voor groep 4 die zonder installeren en zonder account in de browser speelt.",
         "Het grote idee is dat de waarde van een munt niet aan zijn grootte af te lezen is, dus je kind moet weten wat elke euromunt waard is en al doende optellen. Een muntje van 10 cent kan meer waard zijn dan een grotere munt van 5 cent, en één muntje van 50 cent weegt op tegen een handvol kleine centen. Door elk bedrag te bereiken met gekozen munten oefent je kind het doortellen dat echt geld tellen vraagt.",
         "De activiteit sluit aan bij de SLO-kerndoelen voor groep 4: bedragen maken en tellen met euromunten en het euroteken (€) gebruiken. Geen timer, geen score — gewoon rustig kiezen en tellen."
       ],
@@ -3920,7 +3920,7 @@
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {
       "about": [
-        "Een aftreksom als 8 − 3 verschijnt als een splitsing — het geheel (8) en één deel (3) zijn gegeven — en je kind vult het ontbrekende deel in. Het is een gratis, interactieve rekenactiviteit die zonder registratie meteen in de browser draait.",
+        "Een aftreksom als 8 − 3 verschijnt als een splitsing — het geheel (8) en één deel (3) zijn gegeven — en je kind vult het ontbrekende deel in. Het is een interactieve rekenactiviteit die zonder registratie meteen in de browser draait.",
         "Het grote idee is om aftrekken te lezen als 'wat hoort er bij 3 om 8 te maken?' — een ontbrekend deel in plaats van eraf tellen. Je kind vult het lege deel aan tot de twee delen samen het geheel weer opbouwen, zodat het diepe verband tussen aftrekken en optellen precies is wat het doet. De rondes lopen op tot een geheel van 16.",
         "Deze ontbrekende-deel-aanpak sluit aan bij de SLO-kerndoelen voor rekenen en bij kinderen in groep 4: aftrekken begrijpen als het zoeken van een ontbrekend deel. Geen timer, geen score — gewoon rustig splitsen en aanvullen."
       ],
@@ -3943,7 +3943,7 @@
     },
     "place-value.expanded-form.2-nbt-a-3": {
       "about": [
-        "Je kind bouwt een getal van drie cijfers met MAB-materiaal — honderdplaten, tienstaven en losse blokjes worden aangetikt — en als de bouw klopt, tonen de blokken de uitgebreide vorm, zodat 247 wordt tot 200 + 40 + 7. De doelen lopen van 108 tot 974, met lastige getallen als 305 erbij. Het is een gratis, interactieve rekenactiviteit voor groep 4 die zonder account in de browser draait.",
+        "Je kind bouwt een getal van drie cijfers met MAB-materiaal — honderdplaten, tienstaven en losse blokjes worden aangetikt — en als de bouw klopt, tonen de blokken de uitgebreide vorm, zodat 247 wordt tot 200 + 40 + 7. De doelen lopen van 108 tot 974, met lastige getallen als 305 erbij. Het is een interactieve rekenactiviteit voor groep 4 die zonder account in de browser draait.",
         "Het grote idee is dat een getal de som is van wat elk cijfer waard is. Door 247 te bouwen uit twee honderdtallen, vier tientallen en zeven eenheden, ziet je kind dat de 4 voor 40 staat en niet zomaar voor 'vier'. Getallen met een nul zijn de echte leermeesters: 305 laat zien dat een lege plaats van de tientallen niets toevoegt, dus de uitgebreide vorm is gewoon 300 + 5. De blokken verbinden de cijfers met hun echte waarde.",
         "De activiteit sluit aan bij de kerndoelen binnen het domein Getallen en bewerkingen en bij kinderen in groep 4: getallen van drie cijfers lezen en schrijven in uitgebreide vorm. Geen timer, geen score — gewoon rustig bouwen en lezen."
       ],
@@ -3966,7 +3966,7 @@
     },
     "ten-frame.solve-the-story.k-oa-a-2": {
       "about": [
-        "'3 vogels zitten op een tak, er landen er 2 bij — hoeveel zijn het er nu?' Er verschijnt een klein verhaaltje, je kind legt het na met fiches op een tienraam om te beslissen of het erbij doen of weghalen is, en typt dan het antwoord op het toetsenblok. Deze gratis, interactieve rekenactiviteit voor de kleuterklas behandelt verhaaltjessommen tot 10 en draait zonder account in de browser.",
+        "'3 vogels zitten op een tak, er landen er 2 bij — hoeveel zijn het er nu?' Er verschijnt een klein verhaaltje, je kind legt het na met fiches op een tienraam om te beslissen of het erbij doen of weghalen is, en typt dan het antwoord op het toetsenblok. Deze interactieve rekenactiviteit voor de kleuterklas behandelt verhaaltjessommen tot 10 en draait zonder account in de browser.",
         "Bij verhaaltjessommen ontmoeten getallen hun betekenis. Je kind moet beslissen of het verhaal groepen samenvoegt of er iets weghaalt, en dat is lastiger dan een plus- of minteken krijgen aangereikt. Het tienraam is een hulpmiddel om het verhaal mee na te spelen, maar het antwoord gaat naar het toetsenblok — dus het werk is lezen, de bewerking kiezen en dan tellen om zeker te zijn.",
         "De activiteit sluit aan bij de SLO-kerndoelen voor het jonge kind: optel- en aftrekverhaaltjes tot 10 oplossen met voorwerpen of tekeningen om de som voor te stellen. Ze past bij kinderen in de kleuterklas (groep 1-2). Geen timer, geen score — gewoon rustig lezen en uitzoeken."
       ],
@@ -3989,7 +3989,7 @@
     },
     "choice-board.pick-bigger.k-c-c-7": {
       "about": [
-        "Twee geschreven getallen verschijnen naast elkaar en je kind tikt op het grootste — bijvoorbeeld 7 en 6, of 8 en 7. Soms liggen de getallen ver uit elkaar, zoals 9 en 2, en soms staan ze vlak naast elkaar, zoals 8 en 7. Het is een gratis, interactieve telactiviteit voor de kleuterklas die je gewoon in de browser speelt, zonder iets te installeren en zonder account.",
+        "Twee geschreven getallen verschijnen naast elkaar en je kind tikt op het grootste — bijvoorbeeld 7 en 6, of 8 en 7. Soms liggen de getallen ver uit elkaar, zoals 9 en 2, en soms staan ze vlak naast elkaar, zoals 8 en 7. Het is een interactieve telactiviteit voor de kleuterklas die je gewoon in de browser speelt, zonder iets te installeren en zonder account.",
         "Het draait hier om het vergelijken van getallen als cijfers, niet als groepjes die je natelt. Er zijn geen plaatjes om op te leunen — je kind moet zelf weten dat 8 meer is dan 7 door alleen naar de cijfers te kijken. Juist de getallen die dicht bij elkaar liggen maken het echte oefening: je kind kan niet winnen door een getal te kiezen dat 'groter lijkt', maar moet de waarde van elk cijfer kennen.",
         "De activiteit sluit aan bij de kerndoelen binnen het domein getallen: twee getallen tussen 1 en 10 met elkaar vergelijken die als geschreven cijfers worden getoond. Geen timer, geen score, geen druk — gewoon rustig kijken en kiezen."
       ],
@@ -4012,7 +4012,7 @@
     },
     "choice-board.how-many-group.k-c-c-b-5": {
       "about": [
-        "Een groepje vriendelijke plaatjes verschijnt — bijvoorbeeld één uil, vier vossen of acht olifanten — en je kind telt de voorwerpen en tikt op het bijbehorende cijfer. Het is een gratis, interactieve telactiviteit voor de kleuterklas die direct in de browser werkt op een tablet, telefoon of computer, zonder installatie en zonder account.",
+        "Een groepje vriendelijke plaatjes verschijnt — bijvoorbeeld één uil, vier vossen of acht olifanten — en je kind telt de voorwerpen en tikt op het bijbehorende cijfer. Het is een interactieve telactiviteit voor de kleuterklas die direct in de browser werkt op een tablet, telefoon of computer, zonder installatie en zonder account.",
         "Het grote idee is het begrip 'hoeveelheid': het laatste getal dat je zegt bij het tellen vertelt hoeveel er in totaal zijn. Omdat de voorwerpen in rijtjes, kleine roosters en losse groepjes staan, kan je kind niet vertrouwen op een geleerd patroon — het moet elk plaatje precies één keer tellen. De getalkeuzes liggen dicht bij elkaar, zoals 7, 8 en 9, zodat een tel-foutje van eentje opvalt en je kind nog eens rustig natelt.",
         "De activiteit sluit aan bij de kerndoelen binnen het domein getallen: tellen om de vraag 'hoeveel zijn er?' te beantwoorden voor maximaal 10 voorwerpen in een rij, een rooster of door elkaar. Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -4035,7 +4035,7 @@
     },
     "choice-board.tell-words-apart.rf-k-3-c": {
       "about": [
-        "Een veelvoorkomend woord wordt hardop voorgelezen en je kind zoekt het tussen drie woorden die er bijna hetzelfde uitzien. Het draait om de woordbeelden die kinderen het vaakst door elkaar halen — woordjes waarvan de letters in een net andere volgorde of vorm staan. Het is een gratis, interactieve leesoefening voor groep 3 die met geluid in de browser werkt, zonder registratie.",
+        "Een veelvoorkomend woord wordt hardop voorgelezen en je kind zoekt het tussen drie woorden die er bijna hetzelfde uitzien. Het draait om de woordbeelden die kinderen het vaakst door elkaar halen — woordjes waarvan de letters in een net andere volgorde of vorm staan. Het is een interactieve leesoefening voor groep 3 die met geluid in de browser werkt, zonder registratie.",
         "Deze veelgebruikte woordjes lijken zo op elkaar dat één snelle blik niet genoeg is. Je kind houdt het gehoorde woord vast in het hoofd en controleert de keuzes letter voor letter om de precieze match te vinden. Dat nauwkeurige kijken verandert onzekere gokjes in het snelle, juiste herkennen van woordbeelden waar vlot lezen op steunt.",
         "De activiteit sluit aan bij de SLO-kerndoelen voor beginnende geletterdheid: veelvoorkomende woorden direct herkennen en nauwkeurig onderscheiden. Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -4058,7 +4058,7 @@
     },
     "choice-board.beginning-sound.rf-k-3-a": {
       "about": [
-        "Eén letter verschijnt — bijvoorbeeld d, f of m — en je kind tikt op het plaatje waarvan de naam met diezelfde klank begint; de keuzes komen uit vertrouwde groepjes zoals dieren, eten en alledaagse voorwerpen (een hond, een vis, een muis, een tijger). Het is een gratis letter-klankactiviteit voor groep 3 die direct in de browser werkt, zonder installatie en zonder account.",
+        "Eén letter verschijnt — bijvoorbeeld d, f of m — en je kind tikt op het plaatje waarvan de naam met diezelfde klank begint; de keuzes komen uit vertrouwde groepjes zoals dieren, eten en alledaagse voorwerpen (een hond, een vis, een muis, een tijger). Het is een letter-klankactiviteit voor groep 3 die direct in de browser werkt, zonder installatie en zonder account.",
         "Elke ronde laat één goed plaatje zien en drie die met een andere klank beginnen, zodat je kind niet kan gokken — het moet elk plaatje benoemen en goed luisteren naar de allereerste klank. De letter d koppelen aan de /d/ aan het begin van 'hond' is de kern van de letter-klankkoppeling, en die klank afzetten tegen vis, konijn en tijger laat de beginklank duidelijk uitkomen.",
         "De activiteit sluit aan bij de SLO-kerndoelen voor beginnende geletterdheid in groep 3: weten welke klank bij elke medeklinker hoort. Geen timer, geen score — gewoon rustig en speels ontdekken."
       ],
@@ -4081,7 +4081,7 @@
     },
     "fractions.partition-thirds.2-g-a-3": {
       "about": [
-        "Een cirkel, driehoek, zeshoek, vierkant, rechthoek, ruit of ovaal verschijnt, en je kind tikt op de kniplijnen om de vorm in drie gelijke stukken te verdelen — derden. Het is een gratis, interactieve meetkunde-activiteit voor groep 4 die op elk apparaat in de browser werkt, zonder installatie en zonder account.",
+        "Een cirkel, driehoek, zeshoek, vierkant, rechthoek, ruit of ovaal verschijnt, en je kind tikt op de kniplijnen om de vorm in drie gelijke stukken te verdelen — derden. Het is een interactieve meetkunde-activiteit voor groep 4 die op elk apparaat in de browser werkt, zonder installatie en zonder account.",
         "Het grote idee is dat derden lastiger zijn dan helften, omdat drie gelijke stukken niet op een voor de hand liggende middellijn vallen. Een cirkel wordt verdeeld met drie lijnen vanuit het midden, een rechthoek in drie even brede stroken, een driehoek in drie passende delen — zo leert je kind dat 'derden' drie even grote stukken betekent, hoe de vorm ook wordt geknipt. Door zelf de sneden te maken bouwt je kind een gevoel voor gelijk verdelen op dat alleen kijken niet geeft.",
         "De activiteit sluit aan bij de SLO-kerndoelen binnen het domein meetkunde: cirkels en rechthoeken verdelen in twee, drie of vier gelijke delen en die delen benoemen met het woord derden. Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -4104,7 +4104,7 @@
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {
       "about": [
-        "Je kind lost kaarten op zoals ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 en 10 − ? = 6, en tikt dan op de som en op het getal dat hem compleet maakt om het paar te verbinden. Het is een gratis, interactieve rekenactiviteit voor groep 4 die direct in de browser werkt, zonder installatie en zonder account.",
+        "Je kind lost kaarten op zoals ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 en 10 − ? = 6, en tikt dan op de som en op het getal dat hem compleet maakt om het paar te verbinden. Het is een interactieve rekenactiviteit voor groep 4 die direct in de browser werkt, zonder installatie en zonder account.",
         "Het bijzondere is dat het ontbrekende getal overal kan staan — een ontbrekende term, het getal dat je weghaalt, het begingetal of het totaal — zodat je kind elke keer het verband moet doordenken in plaats van altijd 'optellen om het antwoord te vinden'. Soms is het lege vakje het totaal (5 + 4 = ?) en soms zit het verborgen in de som (? − 4 = 1), wat echte flexibiliteit met de splitsingsfamilie opbouwt.",
         "De activiteit sluit aan bij de kerndoelen binnen het domein getallen en bewerkingen: het onbekende getal in een optel- of aftreksom vinden, op elke plek in de som. Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -4127,7 +4127,7 @@
     },
     "money.make-change.2-md-c-8": {
       "about": [
-        "Iets kost 70 cent en je betaalt met één euro — je kind geeft het juiste wisselgeld terug, hier 30 cent, door munten in het bakje te tikken. Het verschil uitrekenen en daarna opbouwen met munten van 1, 2, 5, 10, 20 en 50 cent verbindt aftrekken met echt geld tellen, in een gratis, interactieve geldactiviteit voor groep 4 die direct in de browser speelt, zonder installatie en zonder account.",
+        "Iets kost 70 cent en je betaalt met één euro — je kind geeft het juiste wisselgeld terug, hier 30 cent, door munten in het bakje te tikken. Het verschil uitrekenen en daarna opbouwen met munten van 1, 2, 5, 10, 20 en 50 cent verbindt aftrekken met echt geld tellen, in een interactieve geldactiviteit voor groep 4 die direct in de browser speelt, zonder installatie en zonder account.",
         "Het grote idee is dat wisselgeld het verschil is tussen wat er betaald is en wat iets kost. Je kind rekent eerst uit hoeveel het terugkrijgt en bouwt dat bedrag daarna op met munten die het zelf kiest. Omdat de waarde niet op elke munt staat geschreven, moet je kind weten hoeveel elke euromunt waard is en doortellen tot het juiste bedrag.",
         "De activiteit sluit aan bij de SLO-kerndoelen voor rekenen met geld: geldverhalen oplossen met euro's en centen en het € en cent-teken gebruiken. Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -4150,7 +4150,7 @@
     },
     "numberbond.add-three.1-oa-a-2": {
       "about": [
-        "Een splitsing met drie delen voegt drie getallen samen, bijvoorbeeld 3, 4 en 5, tot één geheel, en je kind telt alle drie op en typt het totaal op het toetsenblok. Het is een gratis, interactieve rekenactiviteit voor groep 4 die direct in de browser speelt, zonder account.",
+        "Een splitsing met drie delen voegt drie getallen samen, bijvoorbeeld 3, 4 en 5, tot één geheel, en je kind telt alle drie op en typt het totaal op het toetsenblok. Het is een interactieve rekenactiviteit voor groep 4 die direct in de browser speelt, zonder account.",
         "Door drie delen samen één geheel te zien vormen, leert je kind dat je getallen in elke volgorde en stap voor stap mag combineren. Sommen als 4 + 4 + 5 nodigen er stilletjes toe uit om eerst een handig getal te maken en daarna het laatste deel erbij te tellen. Je kind leest de drie delen en typt de som; de stippen in elk deel staan er om te tellen wanneer een rekenfeit nog niet vanzelf gaat.",
         "De activiteit sluit aan bij de SLO-kerndoelen voor rekenen in groep 4: drie hele getallen optellen waarvan het totaal binnen 20 blijft. Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -4173,7 +4173,7 @@
     },
     "sort-bins.sort-by-sides.2-g-a-1": {
       "about": [
-        "Elke ronde valt er een verzameling vormen op het scherm — scherphoekige en stomphoekige driehoeken, vierkanten, ruiten, onregelmatige vijfhoeken en zeshoeken — en je kind telt van elke vorm de zijden en sleept hem in de juiste bak. Het is een gratis, interactieve meetkunde-activiteit voor groep 4 die in de browser speelt, zonder registratie.",
+        "Elke ronde valt er een verzameling vormen op het scherm — scherphoekige en stomphoekige driehoeken, vierkanten, ruiten, onregelmatige vijfhoeken en zeshoeken — en je kind telt van elke vorm de zijden en sleept hem in de juiste bak. Het is een interactieve meetkunde-activiteit voor groep 4 die in de browser speelt, zonder registratie.",
         "De kern is dat je kind de zijden telt in plaats van een onthouden plaatje te herkennen, want een uitgerekte of gekantelde vorm met vijf zijden blijft een vijfhoek. Door onregelmatige en gedraaide vormen naast de nette vormen te zetten, oefent je kind om het aantal zijden te gebruiken als de regel die een veelhoek benoemt. Dat bouwt de woordenschat op — vierhoek, vijfhoek, zeshoek — en de gewoonte om vormen te bekijken aan de hand van hun onderdelen.",
         "De activiteit sluit aan bij de SLO-kerndoelen binnen het domein meetkunde: vormen herkennen aan kenmerken zoals een bepaald aantal zijden, en driehoeken, vierhoeken, vijfhoeken en zeshoeken benoemen. Geen timer, geen score — gewoon rustig en speels oefenen."
       ],
@@ -4196,7 +4196,7 @@
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {
       "about": [
-        "Een rekenfeit flitst op — 2 + 1, 5 − 2, 4 − 1 — en je kleuter tikt het juiste antwoord aan uit drie getallen die dicht bij elkaar liggen, met een tienraam ernaast als optioneel kladblad. Het doel is het vlot en zelfverzekerd onthouden van sommen tot 5. Deze gratis, interactieve rekenactiviteit voor de kleuterklas speelt in de browser, zonder registratie.",
+        "Een rekenfeit flitst op — 2 + 1, 5 − 2, 4 − 1 — en je kleuter tikt het juiste antwoord aan uit drie getallen die dicht bij elkaar liggen, met een tienraam ernaast als optioneel kladblad. Het doel is het vlot en zelfverzekerd onthouden van sommen tot 5. Deze interactieve rekenactiviteit voor de kleuterklas speelt in de browser, zonder registratie.",
         "Vlotheid tot 5 is de brug tussen tellen en echt rekenen. De drie antwoorden liggen dicht bij elkaar — bij 2 + 2 zijn de keuzes 3, 4 en 5 — zodat je kind niet kan winnen door het grootste of kleinste getal te kiezen; het moet de som kennen of op het raam uitrekenen. In de loop van de rondes komen sommen die je kind eerst nog uittelde steeds vanzelf, en dat is precies wat vlotheid betekent.",
         "De activiteit sluit aan bij de SLO-kerndoelen voor rekenen: vlot optellen en aftrekken tot 5. Geen timer, geen score — gewoon rustig en speels oefenen."
       ],

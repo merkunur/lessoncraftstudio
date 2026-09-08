@@ -10,7 +10,7 @@
     "byStrand": {
       "Counting & Cardinality": {
         "about": [
-          "Tämä on maksuton, vuorovaikutteinen laskemistehtävä pienille oppijoille, ja siinä käsitellään lukuja {max} asti. Tehtävä toimii suoraan selaimessa tableteilla, puhelimilla ja luokan tietokoneilla – mitään ei tarvitse asentaa, tiliä ei tarvitse luoda eikä opettajan tarvitse tehdä valmisteluja.",
+          "Tämä on vuorovaikutteinen laskemistehtävä pienille oppijoille, ja siinä käsitellään lukuja {max} asti. Tehtävä toimii suoraan selaimessa tableteilla, puhelimilla ja luokan tietokoneilla – mitään ei tarvitse asentaa, tiliä ei tarvitse luoda eikä opettajan tarvitse tehdä valmisteluja.",
           "Tehtävä on linjassa OPS 2014:n kanssa lukumäärän ja laskemisen osa-alueella. Lapset saavat lempeää ja välitöntä palautetta edetessään, joten he voivat yrittää uudelleen, kunnes vastaus tuntuu oikealta. Tehtävässä ei ole ajastinta eikä pisteitä – vain rauhallista ja konkreettista harjoittelua."
         ],
         "practices": [
@@ -32,7 +32,7 @@
       },
       "Number & Operations in Base Ten": {
         "about": [
-          "Tämä maksuton, vuorovaikutteinen paikka-arvotehtävä auttaa lapsia näkemään, kuinka lukujärjestelmämme rakentuu kymmenen ryhmien ympärille, ja siinä käsitellään lukuja {max} asti. Tehtävä toimii kaikissa nykyaikaisissa selaimissa – tabletilla, puhelimella tai luokan älytaululla – ilman mitään ladattavaa.",
+          "Tämä vuorovaikutteinen paikka-arvotehtävä auttaa lapsia näkemään, kuinka lukujärjestelmämme rakentuu kymmenen ryhmien ympärille, ja siinä käsitellään lukuja {max} asti. Tehtävä toimii kaikissa nykyaikaisissa selaimissa – tabletilla, puhelimella tai luokan älytaululla – ilman mitään ladattavaa.",
           "Tehtävä on linjassa OPS 2014:n kanssa lukujen ja kymmenjärjestelmän osa-alueella. Lapset työskentelevät omaan tahtiinsa lämpimän ja välittömän palautteen kanssa, eikä ole ajastinta tai pisteitä, jotka kiirehtisivät heitä."
         ],
         "practices": [
@@ -54,7 +54,7 @@
       },
       "Operations & Algebraic Thinking": {
         "about": [
-          "Tämä maksuton, vuorovaikutteinen tehtävä tarjoaa lapsille konkreettista harjoitusta yhteen- ja vähennyslaskun ensimmäisistä ajatuksista, ja siinä käsitellään määriä {max} asti. Tehtävä toimii suoraan selaimessa millä tahansa laitteella, ilman mitään asennettavaa ja ilman kirjautumista.",
+          "Tämä vuorovaikutteinen tehtävä tarjoaa lapsille konkreettista harjoitusta yhteen- ja vähennyslaskun ensimmäisistä ajatuksista, ja siinä käsitellään määriä {max} asti. Tehtävä toimii suoraan selaimessa millä tahansa laitteella, ilman mitään asennettavaa ja ilman kirjautumista.",
           "Tehtävä on linjassa OPS 2014:n kanssa laskutoimitusten ja algebrallisen ajattelun osa-alueella. Palaute on välitöntä ja kannustavaa, eikä ole ajastinta tai pisteitä – lapset voivat pohtia asioita omaan tahtiinsa."
         ],
         "practices": [
@@ -76,7 +76,7 @@
       },
       "Geometry": {
         "about": [
-          "Tämä maksuton, vuorovaikutteinen muototehtävä auttaa pieniä lapsia huomaamaan, nimeämään ja vertailemaan ympärillään olevia muotoja. Tehtävä toimii suoraan selaimessa tableteilla, puhelimilla ja luokan tietokoneilla, ilman mitään asennettavaa ja ilman tiliä.",
+          "Tämä vuorovaikutteinen muototehtävä auttaa pieniä lapsia huomaamaan, nimeämään ja vertailemaan ympärillään olevia muotoja. Tehtävä toimii suoraan selaimessa tableteilla, puhelimilla ja luokan tietokoneilla, ilman mitään asennettavaa ja ilman tiliä.",
           "Tehtävä on linjassa OPS 2014:n kanssa geometrian osa-alueella. Lapset tutkivat omaan tahtiinsa lempeän ja välittömän palautteen kanssa – ei ajastinta, ei pisteitä, vain leikkisää harjoittelua."
         ],
         "practices": [
@@ -98,7 +98,7 @@
       },
       "Measurement & Data": {
         "about": [
-          "Tämä maksuton, vuorovaikutteinen mittausharjoitus auttaa pieniä lapsia vertailemaan esineitä koon mukaan — pidempi, lyhyempi ja korkeampi — ilman lainkaan laskemista. Se toimii suoraan selaimessa tableteilla, puhelimilla ja luokan tietokoneilla, eikä mitään tarvitse asentaa tai luoda tiliä.",
+          "Tämä vuorovaikutteinen mittausharjoitus auttaa pieniä lapsia vertailemaan esineitä koon mukaan — pidempi, lyhyempi ja korkeampi — ilman lainkaan laskemista. Se toimii suoraan selaimessa tableteilla, puhelimilla ja luokan tietokoneilla, eikä mitään tarvitse asentaa tai luoda tiliä.",
           "Harjoitus on OPS 2014:n mukainen osa-alueella {strand}. Lapset vertailevat omaan tahtiinsa lempeän ja välittömän palautteen kanssa — ei ajastinta, ei pisteitä, vain leikkisää harjoittelua, jossa katsotaan tarkasti, millainen koko esineillä on."
         ],
         "practices": [
@@ -120,7 +120,7 @@
       },
       "Reading: Foundational Skills": {
         "about": [
-          "Tämä maksuton, vuorovaikutteinen lukemistehtävä tarjoaa lapsille konkreettista harjoitusta äänteiden tunnistamisessa ja sanojen rakentamisessa. Tehtävä toimii suoraan selaimessa tableteilla, puhelimilla ja luokan tietokoneilla, ilman mitään asennettavaa ja ilman luotavaa tiliä.",
+          "Tämä vuorovaikutteinen lukemistehtävä tarjoaa lapsille konkreettista harjoitusta äänteiden tunnistamisessa ja sanojen rakentamisessa. Tehtävä toimii suoraan selaimessa tableteilla, puhelimilla ja luokan tietokoneilla, ilman mitään asennettavaa ja ilman luotavaa tiliä.",
           "Tehtävä on linjassa OPS 2014:n kanssa lukemisen perustaitojen osa-alueella. Jokainen sana tarkistetaan oikean, lapsille turvallisen jaon varmistamiseksi, ja palaute on lempeää ja välitöntä – ei ajastinta eikä pisteitä."
         ],
         "practices": [
@@ -142,7 +142,7 @@
       },
       "Phonological Awareness": {
         "about": [
-          "Tämä maksuton, vuorovaikutteinen kuuntelutehtävä auttaa lapsia kuulemaan puhuttujen sanojen sisällä olevia äänteitä ja leikkimään niillä. Tehtävä toimii suoraan selaimessa millä tahansa laitteella, ilman mitään asennettavaa ja ilman kirjautumista.",
+          "Tämä vuorovaikutteinen kuuntelutehtävä auttaa lapsia kuulemaan puhuttujen sanojen sisällä olevia äänteitä ja leikkimään niillä. Tehtävä toimii suoraan selaimessa millä tahansa laitteella, ilman mitään asennettavaa ja ilman kirjautumista.",
           "Tehtävä on linjassa OPS 2014:n kanssa kielellisen tietoisuuden osa-alueella. Palaute on lämmintä ja välitöntä, eikä ole ajastinta tai pisteitä, jotka kiirehtisivät pientä oppijaa."
         ],
         "practices": [
@@ -165,7 +165,7 @@
     },
     "generic": {
       "about": [
-        "Tämä on maksuton, vuorovaikutteinen oppimistehtävä pienille lapsille, ja se toimii suoraan selaimessa tableteilla, puhelimilla ja luokan tietokoneilla. Mitään ei tarvitse asentaa, tiliä ei tarvitse luoda eikä opettajan tarvitse tehdä valmisteluja.",
+        "Tämä on vuorovaikutteinen oppimistehtävä pienille lapsille, ja se toimii suoraan selaimessa tableteilla, puhelimilla ja luokan tietokoneilla. Mitään ei tarvitse asentaa, tiliä ei tarvitse luoda eikä opettajan tarvitse tehdä valmisteluja.",
         "Tehtävä on linjassa OPS 2014:n kanssa osa-alueella {strand}. Lapset työskentelevät omaan tahtiinsa lempeän ja välittömän palautteen kanssa, eikä ole ajastinta eikä pisteitä – vain rauhallista ja konkreettista harjoittelua."
       ],
       "practices": [
@@ -240,7 +240,7 @@
     },
     "ten-frame.count-to-10.make-n.animals": {
       "about": [
-        "\"Tee 3\", \"Tee 7\", \"Tee 10\" — lapsi rakentaa luvun napauttamalla kymmenruudukon ruutuja ja pudottaa niihin täsmälleen sen verran eläinmerkkejä, sitten painaa Tarkista-painiketta. Tämä on maksuton vuorovaikutteinen esiopetuksen lukuharjoitus luvuille 0–10, joka toimii selaimessa ilman asennusta ja ilman tiliä.",
+        "\"Tee 3\", \"Tee 7\", \"Tee 10\" — lapsi rakentaa luvun napauttamalla kymmenruudukon ruutuja ja pudottaa niihin täsmälleen sen verran eläinmerkkejä, sitten painaa Tarkista-painiketta. Tämä on vuorovaikutteinen esiopetuksen lukuharjoitus luvuille 0–10, joka toimii selaimessa ilman asennusta ja ilman tiliä.",
         "Kymmenruudukko tekee tästä muutakin kuin ulkoa laskemista. Sen kaksi viiden rivin riviä antavat jokaiselle luvulle muodon, jonka lapsi voi tunnistaa — neljä täyttää suurimman osan ylärivistä, kymmenen täyttää koko ruudukon — joten laskeminen alkaa yhdistyä siihen, kuinka paljon luku oikeasti on. Lapsi päättää, montako eläintä asettaa, ja voi lisätä tai ottaa pois ennen tarkistusta, mikä pitää huomion yksi yhteen -laskemisessa eikä arvaamisessa. Harjoitus on OPS 2014:n mukainen — ymmärretään lukujen ja lukumäärien suhde ja yhdistetään laskeminen lukumäärän hahmottamiseen. Esiopetukseen sopiva."
       ],
       "practices": [
@@ -262,7 +262,7 @@
     },
     "ten-frame.count-to-20.make-n.fruits": {
       "about": [
-        "Ohje nimeää luvun, joka pitää tehdä, ja lapsi napauttaa kaksoiskymmenruudukon ruutuja asettaakseen kahteen ruudukkoon täsmälleen niin monta hedelmää, ja painaa sitten Tarkista. Hedelminä näkyy tuttuja kuvia, ja kun edetään kahteenkymmeneen asti, tarvitaan täysi kymmenen ja vähän lisää. Tämä maksuton ja vuorovaikutteinen esiopetuksen laskemistehtävä toimii selaimessa ilman rekisteröitymistä.",
+        "Ohje nimeää luvun, joka pitää tehdä, ja lapsi napauttaa kaksoiskymmenruudukon ruutuja asettaakseen kahteen ruudukkoon täsmälleen niin monta hedelmää, ja painaa sitten Tarkista. Hedelminä näkyy tuttuja kuvia, ja kun edetään kahteenkymmeneen asti, tarvitaan täysi kymmenen ja vähän lisää. Tämä vuorovaikutteinen esiopetuksen laskemistehtävä toimii selaimessa ilman rekisteröitymistä.",
         "Kaksoiskymmenruudukko opettaa tärkeimmän ajatuksen yli kymmenen menevistä luvuista: täysi kymmenen ja vähän lisää. Luvun 14 tekemiseksi lapsi täyttää ensimmäisen ruudukon kymmeneen ja lisää sitten neljä toiseen — joten luvun rakenne, kymmenen ja neljä, on suoraan nähtävissä. Yli kymmenen työskentely on aito askel eteenpäin kymmeneen laskemisesta, ja kaksi ruudukkoa auttavat lasta pitämään laskun järjestyksessä eikä menettämään sen lankaa.",
         "Tehtävä on OPS 2014:n mukainen esiopetuksen matematiikkaa — lapsi yhdistää laskemisen lukumäärään ja laajentaa lukukäsitystään yli kymmenen. Ei ajastinta, ei pisteitä."
       ],
@@ -285,7 +285,7 @@
     },
     "ten-frame.how-many.0-10.animals": {
       "about": [
-        "Kymmenruudukko näyttää joukon eläinhahmoja ja kysyy yhden yksinkertaisen kysymyksen: kuinka monta? Lapsi laskee eläimet — niitä on 0–10 — ja kirjoittaa oikean luvun näppäimistöllä. Tämä on ilmainen ja vuorovaikutteinen laskemisen tehtävä, joka toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
+        "Kymmenruudukko näyttää joukon eläinhahmoja ja kysyy yhden yksinkertaisen kysymyksen: kuinka monta? Lapsi laskee eläimet — niitä on 0–10 — ja kirjoittaa oikean luvun näppäimistöllä. Tämä on vuorovaikutteinen laskemisen tehtävä, joka toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
         "Tämä on laskemisen vastaava puoli. Sen sijaan, että lapsi rakentaisi luvun, hän lukee valmiin lukumäärän ja nimeää sen kirjoitetulla luvulla. Koska eläimet ovat kymmenruudukon kahdella rivillä, lapsi voi alkaa tunnistaa määriä yhdellä silmäyksellä — täysi ylärivi on viisi, täysi ruudukko kymmenen — ja tarkistaa laskemalla yksitellen. Tuo siirtyminen laskemisesta yhteen kirjoitettuun lukuun on lukumäärän ymmärtämisen ydin.",
         "Tehtävä on OPS 2014:n mukainen: lapsi laskee vastatakseen kysymykseen \"kuinka monta?\" ruudukolle asetelluista esineistä. Esiopetukseen — ei ajastinta eikä pisteitä, vaan rauhassa omaan tahtiin etenevää harjoittelua."
       ],
@@ -308,7 +308,7 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "Kaksoiskymmenruudukossa näkyy joukko hedelmiä, ja lapsi kirjoittaa numeron, joka kertoo, montako niitä on — laskien mitä tahansa väliltä 0–20 ja kirjoittaen luvun näppäimistöllä. Koska täysi ruudukko on kymmenen, lapsi voi laskea siitä eteenpäin myös kymmentä suuremmat luvut. Tämä ilmainen, vuorovaikutteinen esiopetuksen lukumääräharjoitus toimii selaimessa ilman asennusta ja ilman tiliä.",
+        "Kaksoiskymmenruudukossa näkyy joukko hedelmiä, ja lapsi kirjoittaa numeron, joka kertoo, montako niitä on — laskien mitä tahansa väliltä 0–20 ja kirjoittaen luvun näppäimistöllä. Koska täysi ruudukko on kymmenen, lapsi voi laskea siitä eteenpäin myös kymmentä suuremmat luvut. Tämä vuorovaikutteinen esiopetuksen lukumääräharjoitus toimii selaimessa ilman asennusta ja ilman tiliä.",
         "Harjoitus yhdistää laskemisen ja kirjoittamisen. Lapsi lukee määrän, joka on jo aseteltu kahteen kymmenruudukkoon, ja nimeää sen kirjoitetulla numerolla, myös vaikeampien kaksinumeroisten lukujen osalta. Koska täysi ruudukko on kymmenen, lapsi voi laskea kymmenestä eteenpäin kymmentä suuremmat luvut sen sijaan, että aloittaisi joka kerta yhdestä, ja kirjata sitten laskemansa kirjoitettuna lukuna — yhteys määrän ja symbolin välillä.",
         "Harjoitus on OPS 2014:n mukainen: lapsi esittää lukumäärän kirjoitetulla numerolla 0–20. Ei ajastinta eikä pisteitä — vain rauhallista ja leikkisää harjoittelua."
       ],
@@ -331,7 +331,7 @@
     },
     "ten-frame.teen-numbers.make-n": {
       "about": [
-        "Tehtävä nimeää luvun väliltä 11–19, kuten 16, ja lapsi täyttää ensimmäisen kymmenruudukon täyteen kymmeneen asti ja lisää sitten ylimääräiset ykköset toiseen ruudukkoon — niin että 16 näkyy muodossa kymmenen ja kuusi lisää. Näin rakennettuna luvun piilossa oleva rakenne tulee näkyviin. Harjoitus on maksuton ja vuorovaikutteinen esiopetuksen paikka-arvon tehtävä, joka toimii selaimessa ilman rekisteröitymistä.",
+        "Tehtävä nimeää luvun väliltä 11–19, kuten 16, ja lapsi täyttää ensimmäisen kymmenruudukon täyteen kymmeneen asti ja lisää sitten ylimääräiset ykköset toiseen ruudukkoon — niin että 16 näkyy muodossa kymmenen ja kuusi lisää. Näin rakennettuna luvun piilossa oleva rakenne tulee näkyviin. Harjoitus on vuorovaikutteinen esiopetuksen paikka-arvon tehtävä, joka toimii selaimessa ilman rekisteröitymistä.",
         "Luvut 11–19 ovat hankalia, koska niiden nimet kätkevät rakenteen — \"kuusitoista\" ei sano \"kymmenen ja kuusi\". Kun jokainen luku rakennetaan kahdelle ruudukolle, tuo piilossa oleva rakenne tulee näkyviin: aina on yksi täysi kymmen ja sitten muutama ykkönen. Lapsi kokoaa luvun kymmenestä ja lisistä sen sijaan, että laskisi koko matkan ykkösissä — ja juuri tämä ajatus on paikka-arvon perusta.",
         "Harjoitus on OPS 2014:n mukainen lukujen ja laskutoimitusten osa-alueella — lapsi kokoaa ja hajottaa lukuja väliltä 11–19 kymmeneksi ja muutamaksi ykköseksi. Lapsi saa edetä rauhassa omaan tahtiinsa: ei ajastinta eikä pisteitä."
       ],
@@ -377,7 +377,7 @@
     },
     "array.build-array.2-oa-c-4": {
       "about": [
-        "Lapsi rakentaa suorakulmaisen taulukon — yhtä pitkät rivit allekkain sarakkeiksi — ja selvittää sitten, montako pistettä taulukossa on yhteensä. Tehtävä toimii suoraan selaimessa, ilman asennuksia ja ilman rekisteröitymistä, ja se on maksuton ja vuorovaikutteinen 2. luokan matematiikkatehtävä.",
+        "Lapsi rakentaa suorakulmaisen taulukon — yhtä pitkät rivit allekkain sarakkeiksi — ja selvittää sitten, montako pistettä taulukossa on yhteensä. Tehtävä toimii suoraan selaimessa, ilman asennuksia ja ilman rekisteröitymistä, ja se on vuorovaikutteinen 2. luokan matematiikkatehtävä.",
         "Tärkein ajatus on, että yhtä suurista riveistä koostuva suorakulmio voidaan laskea nopealla tavalla. Kun lapsi napauttaa rivin täyteen, alapuolelle rakentuu toistuvan yhteenlaskun nauha — esimerkiksi 4 + 4 + 4 — joten neljä tulee lasketuksi kolme kertaa sen sijaan, että jokainen piste laskettaisiin yksitellen. Lopuksi lapsi kirjoittaa yhteismäärän näppäimistöllä. Kierrokset kasvavat pienestä 2×3-taulukosta aina 3×4-, 2×5-, 4×4- ja 4×3-taulukoihin, joten lapsi täyttää siistejä, eri muotoisia ruudukoita.",
         "Tehtävä on OPS 2014:n mukainen ja kuuluu lukujen ja laskutoimitusten osa-alueeseen 2. luokalla — yhtä suuret rivit nähdään yhtä suurina yhteenlaskettavina, mikä on juuri se silta yhteenlaskusta kohti kertolaskua. Lapsi saa edetä rauhassa: ei ajastinta, ei pisteitä."
       ],
@@ -400,7 +400,7 @@
     },
     "choice-board.which-more.k-c-c-6": {
       "about": [
-        "Kaksi kuvaryhmää ilmestyy vierekkäin — kissoja, koiria, ankkoja, kaloja, omenoita, banaaneja, appelsiineja tai mansikoita — ja lapsi napauttaa sitä ryhmää, jossa on enemmän. Määrät yltävät kahdeksaan, ja lapsi vertailee katsomalla ja laskemalla numeroita lukematta. Tämä maksuton esiopetuksen laskemistehtävä toimii selaimessa puhelimella, tabletilla ja luokan tietokoneella ilman tiliä.",
+        "Kaksi kuvaryhmää ilmestyy vierekkäin — kissoja, koiria, ankkoja, kaloja, omenoita, banaaneja, appelsiineja tai mansikoita — ja lapsi napauttaa sitä ryhmää, jossa on enemmän. Määrät yltävät kahdeksaan, ja lapsi vertailee katsomalla ja laskemalla numeroita lukematta. Tämä esiopetuksen laskemistehtävä toimii selaimessa puhelimella, tabletilla ja luokan tietokoneella ilman tiliä.",
         "Tärkein oivallus on, että \"enemmän\" tarkoittaa lukumäärää, ei sitä, kuinka paljon tilaa ryhmä vie. Koska ryhmät voivat olla lähellä toisiaan — vaikka seitsemän kuutta vastaan tai kuusi viittä vastaan — lapsi ei voi voittaa vain vilkaisemalla suurempaa läjää, vaan hänen on todella laskettava molemmat ryhmät ja verrattava määriä. Näin vältetään tuttu silmänpetos, jossa muutama hajallaan oleva kuva näyttää suuremmalta kuin tiivis pieni rykelmä.",
         "Tehtävä on OPS 2014:n mukainen esiopetuksen matematiikkaa — lapsi tunnistaa, onko esineiden määrä yhdessä ryhmässä suurempi, pienempi vai yhtä suuri kuin toisessa. Ei ajastinta, ei pisteitä — vain rauhallista ja leikkisää harjoittelua."
       ],
@@ -423,7 +423,7 @@
     },
     "choice-board.compare-length.k-md-2": {
       "about": [
-        "Kaksi arkista esinettä on vierekkäin, ja lapsi napauttaa pidemmän, korkeamman tai lyhyemmän — vertailtavana on tuttuja kuvia, kuten mänty tai palmu, kynä, värikynä, tussi tai viivain, porkkana tai kurkku, kirahvi, auringonkukka tai kynttilä. Tämä maksuton esiopetuksen mittausharjoitus toimii missä tahansa selaimessa ilman lataamista ja ilman tiliä.",
+        "Kaksi arkista esinettä on vierekkäin, ja lapsi napauttaa pidemmän, korkeamman tai lyhyemmän — vertailtavana on tuttuja kuvia, kuten mänty tai palmu, kynä, värikynä, tussi tai viivain, porkkana tai kurkku, kirahvi, auringonkukka tai kynttilä. Tämä esiopetuksen mittausharjoitus toimii missä tahansa selaimessa ilman lataamista ja ilman tiliä.",
         "Tehtävässä ei lasketa eikä käytetä lukuja, vaan lapsi vain katsoo ja vertailee yhtä mitattavaa ominaisuutta kerrallaan. Ohje nimeää sanan — pidempi, korkeampi tai lyhyempi — ja lapsi päättää, kumpi esineistä siihen sopii. Kun korkeutta verrataan korkeammalle (kirahvi) ja pituutta pidemmälle (kurkku), lapselle karttuu mittaamisen sanasto jo ennen kuin mukaan tulee viivain tai mikään luku.",
         "Tehtävä on OPS 2014:n mukainen esiopetuksen mittaamista — lapsi vertaa kahta esinettä suoraan yhden mitattavan ominaisuuden mukaan ja kuvailee, kumpi on pidempi, korkeampi tai lyhyempi. Ei ajastinta, ei pisteitä."
       ],
@@ -446,7 +446,7 @@
     },
     "choice-board.read-ruler.2-md-a-1": {
       "about": [
-        "Esine on aseteltu senttimetriviivaimen viereen — kynä, nauha, värikynä tai tussi — ja lapsi lukee, kuinka pitkä se on, ja napauttaa vastauksen senttimetreinä. Pituudet vaihtelevat lyhyestä 5 cm:n värikynästä 14 cm:n tussiin ja 17 cm:n keppiin. Tämä maksuton ja vuorovaikutteinen 2. luokan mittaustehtävä toimii suoraan selaimessa ilman tiliä.",
+        "Esine on aseteltu senttimetriviivaimen viereen — kynä, nauha, värikynä tai tussi — ja lapsi lukee, kuinka pitkä se on, ja napauttaa vastauksen senttimetreinä. Pituudet vaihtelevat lyhyestä 5 cm:n värikynästä 14 cm:n tussiin ja 17 cm:n keppiin. Tämä vuorovaikutteinen 2. luokan mittaustehtävä toimii suoraan selaimessa ilman tiliä.",
         "Tärkein taito on viivaimen oikea lukeminen: aseta esineen vasen pää nollakohtaan, seuraa esinettä sen toiseen päähän ja lue siitä kohdasta mittajako. Lapsi ei arvaa, vaan lukee tarkan pituuden asteikolta. Koska vastausvaihtoehdot ovat lähekkäisiä lukuja, nollan sijasta ykkösen kohdalle asettaminen — tuttu mittausvirhe — paljastuu, ja näin syntyy tapa aloittaa jokainen mittaus nollasta.",
         "Tehtävä on OPS 2014:n mukainen 2. luokan mittaamista — lapsi mittaa esineen pituuden valitsemalla ja käyttämällä sopivaa välinettä, kuten viivainta. Ei ajastinta, ei pisteitä — vain rauhallista harjoittelua."
       ],
@@ -469,7 +469,7 @@
     },
     "fractions.partition-equal-shares.1-g-a-3": {
       "about": [
-        "Näytölle ilmestyy muoto — ympyrä, neliö, suorakulmio, kolmio, soikio, vinoneliö, kuusikulmio tai viisikulmio — ja lapsi napauttaa jakoviivoja jakaakseen sen kahteen yhtä suureen osaan (puolikkaisiin) tai neljään yhtä suureen osaan (neljäsosiin). Tämä maksuton ja vuorovaikutteinen 1. luokan geometriatehtävä toimii selaimessa millä tahansa laitteella ilman rekisteröitymistä.",
+        "Näytölle ilmestyy muoto — ympyrä, neliö, suorakulmio, kolmio, soikio, vinoneliö, kuusikulmio tai viisikulmio — ja lapsi napauttaa jakoviivoja jakaakseen sen kahteen yhtä suureen osaan (puolikkaisiin) tai neljään yhtä suureen osaan (neljäsosiin). Tämä vuorovaikutteinen 1. luokan geometriatehtävä toimii selaimessa millä tahansa laitteella ilman rekisteröitymistä.",
         "Tärkein ajatus on, että yhtä suurten osien on oltava reiluja — palojen on oltava saman kokoiset. Kun jaetaan monenlaisia muotoja eikä vain ympyröitä, lapsi näkee, että puolikkaissa ja neljäsosissa on kyse yhtä suuresta pinta-alasta, ei yhdestä tutusta kuvasta: neljään ruutuun jaettu neliö ja neljään osaan jaettu ympyrä tekevät molemmat neljäsosia. Koska lapsi jakaa muodon itse, hän tekee osista yhtä suuret omin käsin sen sijaan, että vain tunnistaisi valmiin kuvan.",
         "Tehtävä on OPS 2014:n mukainen 1. luokan geometriaa — lapsi jakaa ympyröitä ja suorakulmioita kahteen ja neljään yhtä suureen osaan ja kutsuu niitä puolikkaiksi ja neljäsosiksi. Ei ajastinta, ei pisteitä."
       ],
@@ -492,7 +492,7 @@
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {
       "about": [
-        "Lapsi yhdistää kortit, joilla on sama luku — luku numeroin (305), luku sanoin (kolmesataaviisi) ja hajautettuna muotona (300 + 5) — napauttamalla yhtä korttia ja sitten korttia, jolla on sama arvo, kunnes kolmikko on liitetty yhteen. Tämä maksuton ja vuorovaikutteinen 2. luokan korttipeli toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
+        "Lapsi yhdistää kortit, joilla on sama luku — luku numeroin (305), luku sanoin (kolmesataaviisi) ja hajautettuna muotona (300 + 5) — napauttamalla yhtä korttia ja sitten korttia, jolla on sama arvo, kunnes kolmikko on liitetty yhteen. Tämä vuorovaikutteinen 2. luokan korttipeli toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
         "Tärkein oivallus on, että numeroin kirjoitettu luku, sen nimi sanoin ja sen hajautettu muoto tarkoittavat kaikki samaa lukua — ja juuri paikka-arvojen tyhjät kohdat tekevät tehtävästä kiinnostavan. Luvuissa kuten 305 ja 208 on nolla kymmenten paikalla, joten hajautettu muoto on 300 + 5 eikä 300 + 0 + 5, ja lapsen on luettava tarkasti yhdistääkseen \"kaksisataakahdeksan\" lukuun 208 eikä 280. Joka kierroksella on kolme eri lukua selvitettävänä yhtä aikaa.",
         "Tehtävä on OPS 2014:n mukainen 2. luokan matematiikkaa — lapsi lukee ja kirjoittaa lukuja tuhanteen asti numeroin, sanoin ja hajautetussa muodossa. Ei ajastinta, ei pisteitä."
       ],
@@ -515,7 +515,7 @@
     },
     "money.count-out.2-md-c-8": {
       "about": [
-        "Lapsi kokoaa annetun rahasumman kolikko kerrallaan napauttamalla eurokolikoita lokeroon, kunnes summa täsmää — esimerkiksi 30 senttiä kahdestakymmenestä ja kymmenestä sentistä tai 15 senttiä kymmenestä ja viidestä sentistä. Tämä maksuton ja vuorovaikutteinen 2. luokan matematiikkatehtävä toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
+        "Lapsi kokoaa annetun rahasumman kolikko kerrallaan napauttamalla eurokolikoita lokeroon, kunnes summa täsmää — esimerkiksi 30 senttiä kahdestakymmenestä ja kymmenestä sentistä tai 15 senttiä kymmenestä ja viidestä sentistä. Tämä vuorovaikutteinen 2. luokan matematiikkatehtävä toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
         "Tärkein ajatus on, ettei kolikon arvo näy sen koosta, joten lapsen on tiedettävä kunkin kolikon arvo ja laskettava summaa sitä mukaa. Pieni kolikko voi olla arvokkaampi kuin suurempi kolikko, ja yksi euron kolikko voi olla arvokkaampi kuin kourallinen senttejä. Kun jokainen summa saavutetaan valitsemalla ja lisäämällä kolikoita, lapselle karttuu juokseva yhteenlasku, jota oikeakin rahankäsittely vaatii.",
         "Tehtävä on OPS 2014:n mukainen 2. luokan rahankäsittelyä — lapsi ratkaisee euroihin ja sentteihin liittyviä tehtäviä ja käyttää euron (€) ja sentin merkintöjä. Ei ajastinta, ei pisteitä — vain rauhallista harjoittelua."
       ],
@@ -538,7 +538,7 @@
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {
       "about": [
-        "Vähennyslasku kuten 8 − 3 näkyy luvun hajotelmana — kokonaisluku (8) ja toinen osa (3) on annettu — ja lapsi täyttää puuttuvan osan. Tämä maksuton ja vuorovaikutteinen 1. luokan matematiikkatehtävä toimii suoraan selaimessa ilman rekisteröitymistä.",
+        "Vähennyslasku kuten 8 − 3 näkyy luvun hajotelmana — kokonaisluku (8) ja toinen osa (3) on annettu — ja lapsi täyttää puuttuvan osan. Tämä vuorovaikutteinen 1. luokan matematiikkatehtävä toimii suoraan selaimessa ilman rekisteröitymistä.",
         "Tärkein ajatus on lukea vähennyslasku muodossa \"mikä yhdessä kolmen kanssa tekee kahdeksan?\" — siis puuttuvana yhteenlaskettavana eikä pois ottamisena. Lapsi täyttää tyhjää osaa, kunnes kaksi osaa rakentavat kokonaisluvun uudelleen, joten vähennys- ja yhteenlaskun syvä yhteys on juuri sitä, mitä lapsi tekee. Kierrokset yltävät kokonaislukuihin kuuteentoista asti.",
         "Tehtävä on OPS 2014:n mukainen 1. luokan matematiikkaa — lapsi ymmärtää vähennyslaskun puuttuvan yhteenlaskettavan tehtävänä ja harjoittelee samalla luvun hajottamista. Ei ajastinta, ei pisteitä."
       ],
@@ -561,7 +561,7 @@
     },
     "place-value.expanded-form.2-nbt-a-3": {
       "about": [
-        "Lapsi rakentaa kolminumeroisen luvun kymmenjärjestelmän palikoista — napauttamalla satalevyjä, kymmensauvoja ja ykköskuutioita — ja kun rakennelma on oikein, palikat paljastavat hajautetun muodon, joten 247 muuttuu muotoon 200 + 40 + 7. Tavoitelukuja on 108:sta aina 974:ään, mukana hankalia lukuja kuten 305. Tämä maksuton ja vuorovaikutteinen 2. luokan matematiikkatehtävä toimii suoraan selaimessa ilman tiliä.",
+        "Lapsi rakentaa kolminumeroisen luvun kymmenjärjestelmän palikoista — napauttamalla satalevyjä, kymmensauvoja ja ykköskuutioita — ja kun rakennelma on oikein, palikat paljastavat hajautetun muodon, joten 247 muuttuu muotoon 200 + 40 + 7. Tavoitelukuja on 108:sta aina 974:ään, mukana hankalia lukuja kuten 305. Tämä vuorovaikutteinen 2. luokan matematiikkatehtävä toimii suoraan selaimessa ilman tiliä.",
         "Tärkein ajatus on, että luku on numeroidensa arvojen summa. Kun 247 rakennetaan kahdesta sadasta, neljästä kymmenestä ja seitsemästä ykkösestä, lapsi näkee, että 4 tarkoittaa lukua 40 eikä vain \"neljää\". Nollan sisältävät luvut ovat parhaita opettajia: 305 osoittaa, ettei tyhjä kymmenten paikka lisää mitään, joten hajautettu muoto on vain 300 + 5. Palikat yhdistävät numerot niiden todelliseen arvoon.",
         "Tehtävä on OPS 2014:n mukainen 2. luokan matematiikkaa — lapsi lukee ja kirjoittaa kolminumeroisia lukuja hajautetussa muodossa. Ei ajastinta, ei pisteitä."
       ],
@@ -584,7 +584,7 @@
     },
     "ten-frame.solve-the-story.k-oa-a-2": {
       "about": [
-        "\"Oksalla istuu 3 lintua, ja 2 lentää lisää — montako niitä on nyt?\" Pieni tarina ilmestyy näytölle, lapsi mallintaa sen laskupalikoilla kymmenruudukossa päättääkseen, lisätäänkö vai otetaanko pois, ja kirjoittaa sitten vastauksen näppäimistöllä. Tämä maksuton ja vuorovaikutteinen esiopetuksen matematiikkatehtävä käsittelee sanallisia tehtäviä kymppiin asti ja toimii selaimessa ilman tiliä.",
+        "\"Oksalla istuu 3 lintua, ja 2 lentää lisää — montako niitä on nyt?\" Pieni tarina ilmestyy näytölle, lapsi mallintaa sen laskupalikoilla kymmenruudukossa päättääkseen, lisätäänkö vai otetaanko pois, ja kirjoittaa sitten vastauksen näppäimistöllä. Tämä vuorovaikutteinen esiopetuksen matematiikkatehtävä käsittelee sanallisia tehtäviä kymppiin asti ja toimii selaimessa ilman tiliä.",
         "Sanalliset tehtävät ovat se kohta, jossa luvut saavat merkityksen. Lapsen on päätettävä, yhdistääkö tarina ryhmät yhteen vai ottaako se osan pois, mikä on vaikeampaa kuin valmiin plus- tai miinusmerkin saaminen. Kymmenruudukko on apuväline, jolla lapsi voi näytellä tarinan, mutta vastaus kirjoitetaan näppäimistöllä — joten työ on lukemista, laskutoimituksen päättämistä ja sitten laskemista varmuuden vuoksi.",
         "Tehtävä on OPS 2014:n mukainen esiopetuksen matematiikkaa — lapsi ratkaisee yhteen- ja vähennyslaskun sanallisia tehtäviä kymppiin asti esineiden tai kuvien avulla. Ei ajastinta, ei pisteitä."
       ],
@@ -607,7 +607,7 @@
     },
     "array.equal-groups.2-oa-c-4": {
       "about": [
-        "Tässä tehtävässä lapsi rakentaa yhtä suuria ryhmiä — jokaiseen ryhmään tulee yhtä monta esinettä — ja laskee ne yhteen löytääkseen kokonaismäärän. Kierrokset etenevät kahdesta kolmen esineen ryhmästä kolmeen viiden esineen ryhmään, mukana myös neljä neljän ryhmää ja viisi kahden ryhmää, joten lapsi kokeilee monia erilaisia yhtä suuria ryhmityksiä. Tehtävä on ilmainen ja vuorovaikutteinen, ja se toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
+        "Tässä tehtävässä lapsi rakentaa yhtä suuria ryhmiä — jokaiseen ryhmään tulee yhtä monta esinettä — ja laskee ne yhteen löytääkseen kokonaismäärän. Kierrokset etenevät kahdesta kolmen esineen ryhmästä kolmeen viiden esineen ryhmään, mukana myös neljä neljän ryhmää ja viisi kahden ryhmää, joten lapsi kokeilee monia erilaisia yhtä suuria ryhmityksiä. Tehtävä on vuorovaikutteinen, ja se toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
         "Toisin kuin siistissä suorakaiteen muotoisessa taulukossa, tässä esineet ovat erillisissä ryhmissä, jolloin ajatus \"yhtä monta jokaisessa\" on koko tehtävän ydin. Kun lapsi täyttää ryhmät, viereen kasvaa toistuvan yhteenlaskun rivi — 4 + 4 + 4 — joka muuttaa yhtä suuret ryhmät yhteenlaskuksi, ja lopuksi lapsi kirjoittaa, kuinka monta esinettä on yhteensä. Lapsi rakentaa ryhmät ja laskee ne yhteen, ei vielä kerro, mutta kohtaa juuri sen ajattelun, jolle kertolasku myöhemmin rakentuu.",
         "Tehtävä on OPS 2014:n mukainen lukujen ja laskutoimitusten osa-alueella: lapsi löytää kokonaismäärän laskemalla yhtä suuria ryhmiä yhteen yksitellen laskemisen sijaan. 2. luokan oppilaille — ei ajastinta eikä pisteitä, vaan rauhassa omaan tahtiin etenevää harjoittelua."
       ],
@@ -630,7 +630,7 @@
     },
     "choice-board.even-odd.2-oa-c-3": {
       "about": [
-        "Ruudulle ilmestyy luku väliltä 1–20, ja lapsi päättää, onko se parillinen vai pariton, ja napauttaa sitten Parillinen- tai Pariton-ruutua. Kahden vaihtoehdon avulla lapsi arvioi jokaisen luvun omillaan: onko se sellainen, joka jakautuu tasan pareihin, vai sellainen, josta jää yksi yli? Tämä on ilmainen ja vuorovaikutteinen lukukäsitteen tehtävä, joka toimii selaimessa ilman rekisteröitymistä.",
+        "Ruudulle ilmestyy luku väliltä 1–20, ja lapsi päättää, onko se parillinen vai pariton, ja napauttaa sitten Parillinen- tai Pariton-ruutua. Kahden vaihtoehdon avulla lapsi arvioi jokaisen luvun omillaan: onko se sellainen, joka jakautuu tasan pareihin, vai sellainen, josta jää yksi yli? Tämä on vuorovaikutteinen lukukäsitteen tehtävä, joka toimii selaimessa ilman rekisteröitymistä.",
         "Tärkein ajatus on, että parillisuus ja parittomuus kertovat siitä, voiko lukumäärän jakaa kahteen yhtä suureen ryhmään ilman, että mitään jää yli. Lapsi ei laske yhteen eikä vähennä, vaan lajittelee kokonaislukuja niiden rakenteen mukaan. Kun lapsi työskentelee koko lukualueella 1–20 ja molemmat vaihtoehdot ovat aina näkyvissä, syntyy nopea tunnistaminen — ja tapa katsoa ykkösten paikkaa — joka tekee parillisesta ja parittomasta luonnostaan tuttuja.",
         "Tehtävä on OPS 2014:n mukainen: lapsi määrittää, onko esineryhmässä parillinen vai pariton määrä. 2. luokan oppilaille — ei ajastinta eikä pisteitä, vaan rauhallista ja leikkisää harjoittelua."
       ],
@@ -653,7 +653,7 @@
     },
     "choice-board.describe-attribute.k-md-a-1": {
       "about": [
-        "Ruudulle ilmestyy yksi arkinen esine, ja lapsi napauttaa sanaa, joka kuvaa sitä parhaiten — pitkä, korkea vai painava. Esineet on valittu niin, että yksi ominaisuus erottuu selvästi: kynä ja porkkana ovat pitkiä, kirahvi on korkea, ja kivi ja kurpitsa ovat painavia. Tämä on ilmainen ja vuorovaikutteinen mittaamisen tehtävä, joka toimii suoraan selaimessa ilman tiliä.",
+        "Ruudulle ilmestyy yksi arkinen esine, ja lapsi napauttaa sanaa, joka kuvaa sitä parhaiten — pitkä, korkea vai painava. Esineet on valittu niin, että yksi ominaisuus erottuu selvästi: kynä ja porkkana ovat pitkiä, kirahvi on korkea, ja kivi ja kurpitsa ovat painavia. Tämä on vuorovaikutteinen mittaamisen tehtävä, joka toimii suoraan selaimessa ilman tiliä.",
         "Tehtävän ydin on antaa sanoja niille tavoille, joilla mittaamme asioita, jo ennen kuin lukuja tai mittanauhoja tulee mukaan. Lapsi ei laske eikä mittaa, vaan katsoo todellista esinettä ja päättää, mikä mitattava ominaisuus siihen sopii — pituus, korkeus vai paino. Koska jokaisella kuvan esineellä on yksi selvästi vahvin ominaisuus, lapsi harjoittelee huomaamaan, millaista mittaamista esine vaatii, ja juuri se on kaiken myöhemmän mittaamisen kielellinen perusta.",
         "Tehtävä on OPS 2014:n mukainen esiopetuksen mittaamisen osa-alueella: lapsi kuvailee esineen mitattavia ominaisuuksia, kuten pituutta, korkeutta ja painoa. Ei ajastinta eikä pisteitä, vaan rauhassa omaan tahtiin etenevää harjoittelua."
       ],
@@ -676,7 +676,7 @@
     },
     "choice-board.letter-case.rf-k-1-d": {
       "about": [
-        "Ruudulle ilmestyy yksi kirjain, ja lapsi napauttaa saman kirjaimen toista muotoa — ison kirjaimen pienen tai pienen kirjaimen ison. Näytöllä on iso B, ja lapsi etsii pienen b:n; iso R etsii r:n; iso E etsii e:n. Tämä on ilmainen ja vuorovaikutteinen lukutaidon tehtävä, joka toimii suoraan selaimessa ilman rekisteröitymistä.",
+        "Ruudulle ilmestyy yksi kirjain, ja lapsi napauttaa saman kirjaimen toista muotoa — ison kirjaimen pienen tai pienen kirjaimen ison. Näytöllä on iso B, ja lapsi etsii pienen b:n; iso R etsii r:n; iso E etsii e:n. Tämä on vuorovaikutteinen lukutaidon tehtävä, joka toimii suoraan selaimessa ilman rekisteröitymistä.",
         "Tärkein ajatus on, että jokaisella kirjaimella on kaksi ulkoasua, jotka tarkoittavat samaa kirjainta. Väärät vaihtoehdot ovat tahallaan lähellä toisiaan — B:n kohdalla tarjolla olevat pienet kirjaimet ovat b, d, p ja h — joten lapsen on tunnettava kirjaimen todellinen muoto eikä vain valittava jotain pyöreää. Kääntyvien ja peilautuvien kirjainten, kuten b:n ja d:n, erottelu on juuri sitä tarkkaa katsomista, joka rakentaa varman kirjaintuntemuksen.",
         "Tehtävä tukee lapsen kirjaintuntemusta OPS 2014:n mukaisesti: lapsi tunnistaa ja nimeää aakkosten isoja ja pieniä kirjaimia. Esiopetukseen — ei ajastinta eikä pisteitä, vaan rauhassa omaan tahtiin etenevää harjoittelua."
       ],
@@ -699,7 +699,7 @@
     },
     "fractions.partition-thirds.2-g-a-3": {
       "about": [
-        "Ruudulle ilmestyy ympyrä, kolmio, kuusikulmio, neliö, suorakulmio, vinoneliö tai ellipsi, ja lapsi napauttaa jakoviivoja jakaakseen sen kolmeen yhtä suureen osaan eli kolmasosiin. Tämä on ilmainen ja vuorovaikutteinen geometriatehtävä, joka toimii selaimessa millä tahansa laitteella ilman asennusta ja ilman tiliä.",
+        "Ruudulle ilmestyy ympyrä, kolmio, kuusikulmio, neliö, suorakulmio, vinoneliö tai ellipsi, ja lapsi napauttaa jakoviivoja jakaakseen sen kolmeen yhtä suureen osaan eli kolmasosiin. Tämä on vuorovaikutteinen geometriatehtävä, joka toimii selaimessa millä tahansa laitteella ilman asennusta ja ilman tiliä.",
         "Tärkein ajatus on, että kolmasosat ovat pulmallisempia kuin puolikkaat, koska kolme yhtä suurta osaa ei osu mihinkään selvään keskiviivaan. Ympyrä jaetaan kolmella viivalla keskeltä, suorakulmio kolmeen yhtä suureen kaistaan ja kolmio kolmeen yhtä suureen osaan — niin lapsi oppii, että \"kolmasosat\" tarkoittaa kolmea yhtä suurta osuutta, jaettiinpa muoto miten tahansa. Jakoviivojen tekeminen itse rakentaa tuntumaa yhtä suureen jakamiseen tavalla, johon pelkkä kuvan katsominen ei pysty.",
         "Tehtävä on OPS 2014:n mukainen geometrian osa-alueella: lapsi jakaa ympyröitä ja suorakulmioita kahteen, kolmeen tai neljään yhtä suureen osaan ja kuvaa osia sanalla kolmasosat. Alkuopetukseen, 2. luokalle — ei ajastinta eikä pisteitä, vaan rauhallista ja leikkisää harjoittelua."
       ],
@@ -722,7 +722,7 @@
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {
       "about": [
-        "Tässä tehtävässä lapsi ratkaisee laskukortteja, kuten ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 ja 10 − ? = 6, ja napauttaa sitten laskua ja sen ratkaisevaa lukua yhdistääkseen parin. Tämä on ilmainen ja vuorovaikutteinen matematiikan tehtävä, joka toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
+        "Tässä tehtävässä lapsi ratkaisee laskukortteja, kuten ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 ja 10 − ? = 6, ja napauttaa sitten laskua ja sen ratkaisevaa lukua yhdistääkseen parin. Tämä on vuorovaikutteinen matematiikan tehtävä, joka toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
         "Tärkein ajatus on, että tuntematon luku voi olla missä kohdassa tahansa — puuttuva yhteenlaskettava, puuttuva vähentäjä, puuttuva vähennettävä tai koko summa — joten lapsen on ajateltava lukujen suhde joka kerta läpi sen sijaan, että aina vain \"lisäisi löytääkseen vastauksen\". Joskus tyhjä ruutu on koko summa (5 + 4 = ?) ja joskus se piiloutuu laskun sisään (? − 4 = 1), mikä kehittää aitoa joustavuutta lukukolmikoiden kanssa.",
         "Tehtävä on OPS 2014:n mukainen: lapsi etsii tuntemattoman kokonaisluvun yhteen- tai vähennyslaskusta, tuntemattoman ollessa missä paikassa tahansa. 1. luokan oppilaille — ei ajastinta eikä pisteitä, vaan rauhassa omaan tahtiin etenevää harjoittelua."
       ],
@@ -745,7 +745,7 @@
     },
     "money.make-change.2-md-c-8": {
       "about": [
-        "Jokin maksaa 70 senttiä ja maksat yhden euron — lapsi antaa oikean vaihtorahan, tässä 30 senttiä, napauttamalla kolikoita lokeroon: 20 sentin ja 10 sentin kolikon. Erotuksen päättely ja sen kokoaminen 5, 10, 20 ja 50 sentin kolikoista sekä euron kolikoista yhdistää vähennyslaskun käytännön kolikkojen laskemiseen. Tämä on ilmainen ja vuorovaikutteinen rahatehtävä, joka toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
+        "Jokin maksaa 70 senttiä ja maksat yhden euron — lapsi antaa oikean vaihtorahan, tässä 30 senttiä, napauttamalla kolikoita lokeroon: 20 sentin ja 10 sentin kolikon. Erotuksen päättely ja sen kokoaminen 5, 10, 20 ja 50 sentin kolikoista sekä euron kolikoista yhdistää vähennyslaskun käytännön kolikkojen laskemiseen. Tämä on vuorovaikutteinen rahatehtävä, joka toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
         "Tärkein ajatus on, että vaihtoraha on se erotus, joka jää maksetun ja hinnan välille. Lapsi päättelee ensin, paljonko rahaa on jäätävä takaisin, ja kokoaa sitten sen summan itse valitsemistaan kolikoista — 5, 10, 20 ja 50 sentin kolikoista sekä 1 ja 2 euron kolikoista. Koska arvoa ei ole kirjoitettu jokaiseen kolikkoon, lapsen on tunnettava jokaisen kolikon arvo ja laskettava ylöspäin annettavaan vaihtorahaan asti.",
         "Tehtävä on OPS 2014:n mukainen: lapsi ratkaisee rahaan liittyviä sanallisia tehtäviä euroilla ja senteillä käyttäen €- ja sentti-merkintöjä. 2. luokan oppilaille — ei ajastinta eikä pisteitä, vaan rauhallista ja leikkisää harjoittelua."
       ],
@@ -768,7 +768,7 @@
     },
     "numberbond.add-three.1-oa-a-2": {
       "about": [
-        "Kolmiosainen lukukolmio kokoaa kolme lukua, esimerkiksi 3, 4 ja 5, yhdeksi kokonaisuudeksi, ja lapsi laskee kaikki kolme yhteen ja kirjoittaa summan näppäimistöllä. Tämä on ilmainen ja vuorovaikutteinen matematiikan tehtävä, joka toimii suoraan selaimessa ilman tiliä.",
+        "Kolmiosainen lukukolmio kokoaa kolme lukua, esimerkiksi 3, 4 ja 5, yhdeksi kokonaisuudeksi, ja lapsi laskee kaikki kolme yhteen ja kirjoittaa summan näppäimistöllä. Tämä on vuorovaikutteinen matematiikan tehtävä, joka toimii suoraan selaimessa ilman tiliä.",
         "Kun lapsi näkee kolmen osan kokoavan yhden kokonaisuuden, hän huomaa, että lukuja voi yhdistää missä järjestyksessä tahansa ja askel kerrallaan. Parit kuten 4 + 4 + 5 houkuttelevat hiljaa muodostamaan ensin tutun luvun ja lisäämään viimeisen osan vasta sitten. Lapsi lukee kolme osaa ja kirjoittaa summan; osien sisällä olevat pisteet ovat laskemista varten silloin, kun lasku ei vielä tule muistista.",
         "Tehtävä tukee OPS 2014:n tavoitteita yhteenlaskutaidon kehittämisessä: lapsi laskee yhteen kolme kokonaislukua, joiden summa on enintään 20. 1. luokan oppilaille — ei ajastinta eikä pisteitä, vaan rauhassa omaan tahtiin etenevää harjoittelua."
       ],
@@ -791,7 +791,7 @@
     },
     "sort-bins.sort-by-sides.2-g-a-1": {
       "about": [
-        "Joka kierroksella putoaa sekalainen joukko kuvioita — suora- ja tylppäkulmaisia kolmioita, neliöitä, vinoneliöitä sekä epäsäännöllisiä viisi- ja kuusikulmioita — ja lapsi laskee kunkin kuvion sivut ja vetää sen oikeaan laatikkoon. Tämä on ilmainen ja vuorovaikutteinen geometriatehtävä, joka toimii selaimessa ilman rekisteröitymistä.",
+        "Joka kierroksella putoaa sekalainen joukko kuvioita — suora- ja tylppäkulmaisia kolmioita, neliöitä, vinoneliöitä sekä epäsäännöllisiä viisi- ja kuusikulmioita — ja lapsi laskee kunkin kuvion sivut ja vetää sen oikeaan laatikkoon. Tämä on vuorovaikutteinen geometriatehtävä, joka toimii selaimessa ilman rekisteröitymistä.",
         "Tärkein taito on laskea sivut sen sijaan, että vertaisi muistettuun kuvaan, sillä venytetty tai kallistettu viisisivuinen kuvio on yhä viisikulmio. Kun lapsi kohtaa epäsäännöllisiä ja käännettyjä kuvioita siistien rinnalla, hän harjoittelee käyttämään sivujen lukumäärää sääntönä, joka nimeää monikulmion. Näin karttuu sanavarasto — nelikulmio, viisikulmio, kuusikulmio — ja tapa eritellä kuvioita niiden osien mukaan.",
         "Tehtävä on OPS 2014:n mukainen geometrian osa-alueella: lapsi tunnistaa ja piirtää kuvioita annettujen ominaisuuksien, kuten tietyn sivumäärän, mukaan ja tunnistaa kolmiot, nelikulmiot, viisikulmiot ja kuusikulmiot. 2. luokalle — ei ajastinta eikä pisteitä, vaan rauhallista ja leikkisää harjoittelua."
       ],
@@ -814,7 +814,7 @@
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {
       "about": [
-        "Ruudulle välähtää nopea lasku — 2 + 1, 5 − 2, 4 − 1 — ja lapsi napauttaa oikean vastauksen kolmesta lähekkäisestä lukuvaihtoehdosta, ja kymmenruudukko on vieressä apuna, jos haluaa laskea. Tavoitteena on nopea ja varma laskeminen muistista lukualueella 0–5. Tämä on ilmainen ja vuorovaikutteinen matematiikan tehtävä, joka toimii selaimessa ilman rekisteröitymistä.",
+        "Ruudulle välähtää nopea lasku — 2 + 1, 5 − 2, 4 − 1 — ja lapsi napauttaa oikean vastauksen kolmesta lähekkäisestä lukuvaihtoehdosta, ja kymmenruudukko on vieressä apuna, jos haluaa laskea. Tavoitteena on nopea ja varma laskeminen muistista lukualueella 0–5. Tämä on vuorovaikutteinen matematiikan tehtävä, joka toimii selaimessa ilman rekisteröitymistä.",
         "Sujuvuus viiteen asti on silta laskemisen ja varsinaisen laskutoimituksen välillä. Kolme vastausvaihtoehtoa ovat lähellä toisiaan — laskussa 2 + 2 vaihtoehdot ovat 3, 4 ja 5 — joten lapsi ei voi voittaa valitsemalla suurinta tai pienintä, vaan hänen on tunnettava lasku tai ratkaistava se ruudukon avulla. Kierrosten myötä laskut, jotka lapsi aluksi laski sormilla, alkavat tulla heti — ja juuri sitä sujuvuus tarkoittaa.",
         "Tehtävä on OPS 2014 -opetussuunnitelman perusteiden mukainen: lapsi laskee yhteen ja vähentää sujuvasti lukualueella 0–5. Esiopetukseen — ei ajastinta eikä pisteitä, vaan rauhallista ja leikkisää harjoittelua."
       ],
@@ -837,7 +837,7 @@
     },
     "choice-board.shape-id.k-g-a-2": {
       "about": [
-        "Tehtävässä lapsi näkee yhden muodon nimen ja etsii sen neljän kuvan joukosta napauttamalla oikeaa. Muotoja ovat ympyrä, neliö, kolmio, suorakulmio, kuusikulmio, soikio, tähti, vinoneliö, sydän ja viisikulmio. Tämä on ilmainen, vuorovaikutteinen esiopetuksen geometriaharjoitus, joka toimii suoraan selaimessa tabletilla, puhelimella tai luokan tietokoneella — mitään ei tarvitse asentaa eikä tiliä tarvita.",
+        "Tehtävässä lapsi näkee yhden muodon nimen ja etsii sen neljän kuvan joukosta napauttamalla oikeaa. Muotoja ovat ympyrä, neliö, kolmio, suorakulmio, kuusikulmio, soikio, tähti, vinoneliö, sydän ja viisikulmio. Tämä on vuorovaikutteinen esiopetuksen geometriaharjoitus, joka toimii suoraan selaimessa tabletilla, puhelimella tai luokan tietokoneella — mitään ei tarvitse asentaa eikä tiliä tarvita.",
         "Tärkein ajatus on, että muoto on sama muoto riippumatta siitä, miten päin se on tai kuinka suureksi se on piirretty. Kärjelleen käännetty kolmio on yhä kolmio ja pieni neliö on yhä neliö, joten lapsi oppii tunnistamaan itse muodon eikä vain yhtä tuttua kuvaa siitä. Kolme väärää vaihtoehtoa ovat muita oikeita muotoja, joten lapsi ei voi voittaa valitsemalla ainoaa muotoa ruudulla — hänen on tiedettävä, mikä nimi kuuluu millekin kuviolle.",
         "Harjoitus on OPS 2014:n mukainen geometrian osa-alueella: lapsi nimeää muotoja oikein riippumatta niiden suunnasta tai koosta. Lapsi saa edetä rauhassa omaan tahtiinsa — ei ajastinta eikä pisteitä."
       ],
@@ -860,7 +860,7 @@
     },
     "choice-board.flat-solid.k-g-a-3": {
       "about": [
-        "Ruudulle ilmestyy yksi muoto kerrallaan, ja lapsi napauttaa, onko se litteä (2D) vai kappale (3D). Litteitä muotoja ovat esimerkiksi ympyrä, kolmio, neliö ja kuusikulmio, ja kappaleita kuutio, pallo, lieriö ja kartio. Tämä on ilmainen, vuorovaikutteinen esiopetuksen geometriaharjoitus, joka toimii suoraan selaimessa tabletilla, puhelimella ja tietokoneella — ilman asennusta ja ilman tiliä.",
+        "Ruudulle ilmestyy yksi muoto kerrallaan, ja lapsi napauttaa, onko se litteä (2D) vai kappale (3D). Litteitä muotoja ovat esimerkiksi ympyrä, kolmio, neliö ja kuusikulmio, ja kappaleita kuutio, pallo, lieriö ja kartio. Tämä on vuorovaikutteinen esiopetuksen geometriaharjoitus, joka toimii suoraan selaimessa tabletilla, puhelimella ja tietokoneella — ilman asennusta ja ilman tiliä.",
         "Tärkein ajatus on ero sellaisen muodon välillä, jonka voi piirtää paperille, ja sellaisen, jonka voi ottaa käteen. Lapsi ei nimeä muotoja, vaan lajittelee ne kaksiulotteisiin ja kolmiulotteisiin. Kun tutut litteät muodot sekoittuvat kappaleisiin — ympyrä pallon vieressä, neliö kuution vieressä — lapsi oppii katsomaan, onko muodolla syvyyttä. Se on ensimmäinen askel kohti kappaleiden ymmärtämistä.",
         "Harjoitus on OPS 2014:n mukainen geometrian osa-alueella: lapsi tunnistaa muodot kaksiulotteisiksi (litteiksi) tai kolmiulotteisiksi (kappaleiksi). Ei ajastinta eikä pisteitä — vain rauhallista ja leikkisää harjoittelua."
       ],
@@ -883,7 +883,7 @@
     },
     "choice-board.next-number.k-cc-a-2": {
       "about": [
-        "Ruudulle ilmestyy luku väliltä 1–9, ja lapsi napauttaa lukua, joka tulee heti sen jälkeen — kun näkyy 4, etsitään 5, ja kun näkyy 8, etsitään 9. Tämä on ilmainen, vuorovaikutteinen esiopetuksen lukujonoharjoitus, joka toimii suoraan selaimessa tabletilla, puhelimella ja tietokoneella ilman asennusta ja ilman tiliä.",
+        "Ruudulle ilmestyy luku väliltä 1–9, ja lapsi napauttaa lukua, joka tulee heti sen jälkeen — kun näkyy 4, etsitään 5, ja kun näkyy 8, etsitään 9. Tämä on vuorovaikutteinen esiopetuksen lukujonoharjoitus, joka toimii suoraan selaimessa tabletilla, puhelimella ja tietokoneella ilman asennusta ja ilman tiliä.",
         "Tärkein ajatus on laskea eteenpäin annetusta luvusta sen sijaan, että aloittaisi aina alusta yhdestä. Vaihtoehdot ovat lukuja väliltä 0–10 lähellä oikeaa vastausta, joten lapsen on todella tiedettävä, mikä luku tulee seuraavaksi, eikä vain arvattava. Tämä taito — laskemisen jatkaminen keskeltä lukujonoa — tekee laskemisesta nopeaa ja joustavaa.",
         "Harjoitus on OPS 2014:n mukainen lukukäsitteen osa-alueella: lapsi laskee eteenpäin annetusta luvusta tutussa lukujonossa. Ei ajastinta eikä pisteitä — vain rauhallista ja leikkisää harjoittelua."
       ],
@@ -906,7 +906,7 @@
     },
     "choice-board.beginning-sound.rf-k-3-a": {
       "about": [
-        "Ruudulle ilmestyy yksi kirjain — esimerkiksi D, F tai M — ja lapsi napauttaa kuvaa, jonka suomenkielinen nimi alkaa samalla äänteellä. Kuvat ovat tuttuja ryhmiä, kuten eläimiä, ruokaa ja arkisia esineitä (koira, kala, hirvi, tiikeri). Tämä on ilmainen esiopetuksen äännetietoisuusharjoitus, joka toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
+        "Ruudulle ilmestyy yksi kirjain — esimerkiksi D, F tai M — ja lapsi napauttaa kuvaa, jonka suomenkielinen nimi alkaa samalla äänteellä. Kuvat ovat tuttuja ryhmiä, kuten eläimiä, ruokaa ja arkisia esineitä (koira, kala, hirvi, tiikeri). Tämä on esiopetuksen äännetietoisuusharjoitus, joka toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
         "Joka kierroksella näkyy yksi oikea kuva ja kolme, jotka alkavat eri äänteellä, joten lapsi ei voi arvata — hänen on sanottava jokaisen kuvan nimi ja kuunneltava aivan ensimmäistä äännettä. Suomi on läpinäkyvä kieli: kirjain vastaa äännettä, joten kirjaimen ja sanan alkuäänteen yhdistäminen tukee lukemaan oppimista lempeästi. Kun oikea alkuäänne kuullaan muiden sanojen rinnalla, se erottuu selkeästi.",
         "Harjoitus on OPS 2014:n tavoitteiden mukainen: lapsi tunnistaa, minkä äänteen kukin kirjain edustaa. Ei kelloa eikä pisteitä — vain iloista oivaltamista omaan tahtiin."
       ],
@@ -929,7 +929,7 @@
     },
     "fractions.make-and-count-squares.2-g-a-2": {
       "about": [
-        "Tässä tehtävässä lapsi napauttaa pisteviivoja jakaakseen suorakulmion samankokoisten neliöiden riveihin ja sarakkeisiin — 2 riviä ja 3 saraketta, 3 riviä ja 4 saraketta, aina 4 riviin ja 5 sarakkeeseen asti — ja kirjoittaa sitten, montako neliötä on yhteensä. Tämä on ilmainen, vuorovaikutteinen 2. luokan geometriaharjoitus, joka toimii selaimessa millä tahansa laitteella ilman asennusta ja ilman tiliä.",
+        "Tässä tehtävässä lapsi napauttaa pisteviivoja jakaakseen suorakulmion samankokoisten neliöiden riveihin ja sarakkeisiin — 2 riviä ja 3 saraketta, 3 riviä ja 4 saraketta, aina 4 riviin ja 5 sarakkeeseen asti — ja kirjoittaa sitten, montako neliötä on yhteensä. Tämä on vuorovaikutteinen 2. luokan geometriaharjoitus, joka toimii selaimessa millä tahansa laitteella ilman asennusta ja ilman tiliä.",
         "Tärkein ajatus on, että suorakulmio voidaan jakaa samankokoisiin neliöihin, jotka asettuvat siisteihin riveihin ja sarakkeisiin, ja että tämä rakenne auttaa laskemaan ne. Kun lapsi rakentaa ruudukon itse ja laskee sitten neliöt, hän alkaa tuntea, että 3 riviä, joissa kussakin on 4 neliötä, tarkoittaa laskemista yhtä suurissa ryhmissä — se on hiljainen alku ruudukoille ja kertolaskulle. Neliöt ovat tarkoituksella saman kokoiset, joten lukumäärä on todellinen yhtä suurten osien yhteismäärä.",
         "Harjoitus on OPS 2014:n mukainen geometrian osa-alueella: lapsi jakaa suorakulmion samankokoisten neliöiden riveihin ja sarakkeisiin ja laskee neliöiden kokonaismäärän. Ei ajastinta eikä pisteitä — vain rauhallista ja leikkisää harjoittelua."
       ],
@@ -952,7 +952,7 @@
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {
       "about": [
-        "Tehtävässä lapsi lukee vertailun, kuten 247 ___ 274 tai 583 ___ 419, ja yhdistää sen symboliin, joka tekee siitä tosen — pienempi kuin (<) tai suurempi kuin (>) — napauttamalla ensin vertailukorttia ja sitten oikeaa symbolia. Tämä on ilmainen, vuorovaikutteinen 2. luokan matematiikan korttipeli, joka toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
+        "Tehtävässä lapsi lukee vertailun, kuten 247 ___ 274 tai 583 ___ 419, ja yhdistää sen symboliin, joka tekee siitä tosen — pienempi kuin (<) tai suurempi kuin (>) — napauttamalla ensin vertailukorttia ja sitten oikeaa symbolia. Tämä on vuorovaikutteinen 2. luokan matematiikan korttipeli, joka toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
         "Tärkein ajatus on verrata paikka-arvon mukaan, sadat ensin. Parit on valittu niin, ettei lapsi voi luottaa pikaiseen vilkaisuun: luvuilla kuten 655 ja 658 on samat sadat ja kymmenet, joten ykkönen ratkaisee, kun taas 480 ja 408 pakottavat katsomaan kymmeniä. Eteneminen vasemmalta oikealle — sadat, sitten kymmenet, sitten ykköset — on juuri sitä päättelyä, jota yhdistäminen harjoituttaa.",
         "Harjoitus on OPS 2014:n mukainen: lapsi vertaa kahta kolminumeroista lukua symboleilla >, = ja < satojen, kymmenten ja ykkösten arvon perusteella. Ei ajastinta eikä pisteitä — vain rauhallista ja leikkisää harjoittelua."
       ],
@@ -975,7 +975,7 @@
     },
     "numberbond.make-ten.k-oa-a-4": {
       "about": [
-        "Kokonaisuus on 10, ja lukukolmion toinen osa on jo täytetty — vaikkapa 7 — ja lapsi napauttaa tyhjää osaa lisätäkseen laskuhelmiä, kunnes molemmat osat yhdessä muodostavat kymmenen. Tämä on ilmainen, vuorovaikutteinen esiopetuksen matematiikkaharjoitus, joka toimii suoraan selaimessa ilman tiliä ja ilman rekisteröitymistä.",
+        "Kokonaisuus on 10, ja lukukolmion toinen osa on jo täytetty — vaikkapa 7 — ja lapsi napauttaa tyhjää osaa lisätäkseen laskuhelmiä, kunnes molemmat osat yhdessä muodostavat kymmenen. Tämä on vuorovaikutteinen esiopetuksen matematiikkaharjoitus, joka toimii suoraan selaimessa ilman tiliä ja ilman rekisteröitymistä.",
         "Jokaisella luvulla 1–9 on kaveri, joka täydentää sen kymmeneksi, ja tässä lapsi rakentaa tuon kaverin lisäämällä helmiä yksi kerrallaan ja katsomalla, miten kaksi osaa kasvavat kymmeneen — ei lukemalla valmista vastausta paperilta. Lukukolmio itse on vastauspinta: lapsi lopettaa, kun molemmat osat tekevät tasan kymmenen, joten liian pieni tai liian suuri osa on helppo huomata ja korjata.",
         "Harjoitus on OPS 2014:n mukainen ja tukee taitoa löytää luku, joka täydentää annetun luvun kymmeneksi. Lapsi saa edetä rauhassa omaan tahtiinsa — ei ajastinta eikä pisteitä."
       ],
@@ -998,7 +998,7 @@
     },
     "numberbond.story-problem.2-oa-a-1": {
       "about": [
-        "Tehtävässä lapsi lukee lyhyen sanallisen tehtävän — 20 punaista tulppaania ja 30 keltaista tulppaania, hyllyllinen 45 kirjaa, sorsia saapumassa lammelle — näkee sen esitettynä lukukolmiona ja kirjoittaa sitten puuttuvan luvun. Tämä on ilmainen, vuorovaikutteinen 2. luokan matematiikkaharjoitus, joka toimii suoraan selaimessa ilman tiliä.",
+        "Tehtävässä lapsi lukee lyhyen sanallisen tehtävän — 20 punaista tulppaania ja 30 keltaista tulppaania, hyllyllinen 45 kirjaa, sorsia saapumassa lammelle — näkee sen esitettynä lukukolmiona ja kirjoittaa sitten puuttuvan luvun. Tämä on vuorovaikutteinen 2. luokan matematiikkaharjoitus, joka toimii suoraan selaimessa ilman tiliä.",
         "Lukukolmio muuttaa jokaisen tarinan samaksi kuvaksi: kaksi osaa ja kokonaisuus. Näin lapsi näkee, onko tuntematon kokonaismäärä, jäljelle jäävä osa vai aloitusmäärä. Joissakin tehtävissä lasketaan yhteen (montako yhteensä), joissakin vähennetään (montako jää, montako saapui), ja lukukolmio tekee tuon valinnan selväksi sen sijaan, että lapsi arvaisi yksittäisestä avainsanasta.",
         "Harjoitus on OPS 2014:n mukainen: lapsi ratkaisee yksivaiheisia yhteen- ja vähennyslaskun sanallisia tehtäviä sataan asti. Ei ajastinta eikä pisteitä — vain rauhallista ja leikkisää harjoittelua."
       ],
@@ -1021,7 +1021,7 @@
     },
     "sort-bins.defining-attributes.1-g-a-1": {
       "about": [
-        "Onko se yhä kolmio, jos se on punainen, iso tai vinossa? Joka kierroksella mainitaan yksi muoto, ja lapsi vetää jokaisen muodon oikeaan laatikkoon päättämällä, mikä se ON eikä miltä se näyttää — erotellen oikeat kolmiot neliöistä, viisikulmioista ja kuusikulmioista. Tämä on ilmainen, vuorovaikutteinen 1. luokan geometriaharjoitus, joka toimii selaimessa ilman asennusta.",
+        "Onko se yhä kolmio, jos se on punainen, iso tai vinossa? Joka kierroksella mainitaan yksi muoto, ja lapsi vetää jokaisen muodon oikeaan laatikkoon päättämällä, mikä se ON eikä miltä se näyttää — erotellen oikeat kolmiot neliöistä, viisikulmioista ja kuusikulmioista. Tämä on vuorovaikutteinen 1. luokan geometriaharjoitus, joka toimii selaimessa ilman asennusta.",
         "Koko ajatus on ero määrittävän ja ei-määrittävän ominaisuuden välillä. Kolmion määrittää se, että siinä on kolme sivua — siinä kaikki — kun taas punaisuus, koko tai vinous on vain sitä, miltä tämä tietty kolmio sattuu näyttämään. Kun lapsi lajittelee esimerkkejä houkuttelevien vastaesimerkkien rinnalla, hän oppii sivuuttamaan pinnan ja arvioimaan sen ominaisuuden mukaan, jolla todella on merkitystä. Se on todellisen geometrisen päättelyn alku.",
         "Harjoitus on OPS 2014:n mukainen: lapsi erottaa määrittävät ominaisuudet ei-määrittävistä ja rakentaa ja piirtää muotoja, joilla ne ovat. Ei ajastinta eikä pisteitä — vain rauhallista ja leikkisää harjoittelua."
       ],
@@ -1044,7 +1044,7 @@
     },
     "choice-board.count-sides.k-g-b-4": {
       "about": [
-        "Ruudulle ilmestyy yksi muoto kerrallaan, ja lapsi laskee sen suorat sivut ja napauttaa sopivaa lukua: kolmiossa on kolme sivua, neliössä neljä, viisikulmiossa viisi ja kuusikulmiossa kuusi. Lukuvaihtoehdot ovat väliltä 3–8. Harjoitus on maksuton ja vuorovaikutteinen esiopetuksen geometriatehtävä, joka toimii suoraan selaimessa tabletilla, puhelimella tai luokan tietokoneella — mitään ei tarvitse asentaa eikä tiliä tarvita.",
+        "Ruudulle ilmestyy yksi muoto kerrallaan, ja lapsi laskee sen suorat sivut ja napauttaa sopivaa lukua: kolmiossa on kolme sivua, neliössä neljä, viisikulmiossa viisi ja kuusikulmiossa kuusi. Lukuvaihtoehdot ovat väliltä 3–8. Harjoitus on vuorovaikutteinen esiopetuksen geometriatehtävä, joka toimii suoraan selaimessa tabletilla, puhelimella tai luokan tietokoneella — mitään ei tarvitse asentaa eikä tiliä tarvita.",
         "Tärkein ajatus on, että muoto on enemmän kuin pelkkä nimi — se koostuu osista, jotka voi laskea. Lapsi ei pärjää pelkästään tunnistamalla \"kolmion\", vaan hänen täytyy seurata jokaista sivua katseellaan ja laskea sivut yksi kerrallaan. Koska lukuvaihtoehdoissa on lähekkäisiä lukuja, kuten 5 ja 6, yhdenkin sivun laskuvirhe tulee näkyviin, mikä ohjaa lasta laskemaan huolellisesti sormi sivulla pelkän nopean arvauksen sijaan.",
         "Harjoitus on OPS 2014:n mukainen geometrian osa-alueella — lapsi tutkii ja vertailee muotoja kuvailemalla niiden osia, kuten sivujen lukumäärää. Lapsi saa edetä rauhassa omaan tahtiinsa: ei ajastinta eikä pisteitä."
       ],
@@ -1067,7 +1067,7 @@
     },
     "choice-board.pick-smaller.k-c-c-7": {
       "about": [
-        "Ruudulle tulee kaksi kirjoitettua lukua, ja lapsi napauttaa pienempää — esimerkiksi luvuista 3 ja 5 tai 8 ja 9. Jotkin lukuparit ovat kaukana toisistaan, kuten 1 ja 9, ja jotkin ovat lähellä toisiaan, kuten 5 ja 6. Harjoitus on maksuton ja vuorovaikutteinen esiopetuksen laskutehtävä, joka toimii suoraan selaimessa ilman tiliä.",
+        "Ruudulle tulee kaksi kirjoitettua lukua, ja lapsi napauttaa pienempää — esimerkiksi luvuista 3 ja 5 tai 8 ja 9. Jotkin lukuparit ovat kaukana toisistaan, kuten 1 ja 9, ja jotkin ovat lähellä toisiaan, kuten 5 ja 6. Harjoitus on vuorovaikutteinen esiopetuksen laskutehtävä, joka toimii suoraan selaimessa ilman tiliä.",
         "Tärkein ajatus on verrata lukuja niiden suuruuden mukaan ja etsiä nimenomaan pienempää eikä suurempaa — pieni mutta tärkeä tarkkaavaisuuden suunnanvaihto. Koska laskettavia esineitä ei ole, lapsi lukee kummankin numeron ja päättää, kumpi luku on pienempi. Lähekkäiset lukuparit tekevät tehtävästä aidon: kun tietää, että 8 tulee juuri ennen lukua 9, tietää myös, että 8 on pienempi.",
         "Harjoitus on OPS 2014:n mukainen lukukäsitteen osa-alueella — lapsi vertailee kahta lukua väliltä 1–10, jotka esitetään kirjoitettuina numeroina. Lapsi saa edetä rauhassa omaan tahtiinsa: ei ajastinta eikä pisteitä."
       ],
@@ -1090,7 +1090,7 @@
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {
       "about": [
-        "Näytölle ilmestyy kaksi kaksinumeroista lukua — kuten 47 ja 52 tai 63 ja 38 — ja lapsi napauttaa väittämää, joka on tosi, käyttäen merkkejä suurempi kuin (>), pienempi kuin (<) ja yhtä suuri kuin (=). Jotkin lukuparit ovat yhtä suuret, kuten 45 ja 45 tai 88 ja 88, joten yhtäsuuruusmerkilläkin on merkitystä. Harjoitus on maksuton 1. luokan paikkajärjestelmän tehtävä, joka toimii suoraan selaimessa ilman rekisteröitymistä.",
+        "Näytölle ilmestyy kaksi kaksinumeroista lukua — kuten 47 ja 52 tai 63 ja 38 — ja lapsi napauttaa väittämää, joka on tosi, käyttäen merkkejä suurempi kuin (>), pienempi kuin (<) ja yhtä suuri kuin (=). Jotkin lukuparit ovat yhtä suuret, kuten 45 ja 45 tai 88 ja 88, joten yhtäsuuruusmerkilläkin on merkitystä. Harjoitus on 1. luokan paikkajärjestelmän tehtävä, joka toimii suoraan selaimessa ilman rekisteröitymistä.",
         "Strategiana on katsoa ensin kymmeniä ja sitten ykkösiä. Luvuissa 47 ja 52 viisi kymmentä voittaa neljä kymmentä, joten 47 on pienempi kuin 52 — vaikka 7 on suurempi kuin 2. Kompastuspareissa kuten 29 ja 92 samat numerot ovat eri paikoilla, joten lapsen on luettava paikka-arvo eikä pelkkiä numeroita. Oikean merkin valitseminen muuttaa vertailun matematiikan kielelle merkeillä >, = ja <.",
         "Harjoitus on OPS 2014:n mukainen lukujen ja laskutoimitusten osa-alueella — lapsi vertailee kahta kaksinumeroista lukua kymmenien ja ykkösten merkityksen perusteella ja merkitsee tuloksen merkeillä >, = ja <. Lapsi saa edetä rauhassa omaan tahtiinsa: ei ajastinta eikä pisteitä."
       ],
@@ -1113,7 +1113,7 @@
     },
     "clock.set-clock.1-md-b-3": {
       "about": [
-        "Tehtävässä annetaan kellonaika kirjoitettuna — kuten 3.00, 7.30, 9.00, 6.30 tai puoli kaksi — ja lapsi vetää analogisen kellotaulun pitkän ja lyhyen viisarin oikeaan kohtaan, samalla kun digitaalinäyttö päivittyy hänen liikuttaessaan viisareita. Aseta kello on maksuton 1. luokan matematiikkatehtävä, joka toimii suoraan selaimessa tabletilla, puhelimella ja luokan tietokoneella — mitään ei tarvitse asentaa eikä tiliä tarvita.",
+        "Tehtävässä annetaan kellonaika kirjoitettuna — kuten 3.00, 7.30, 9.00, 6.30 tai puoli kaksi — ja lapsi vetää analogisen kellotaulun pitkän ja lyhyen viisarin oikeaan kohtaan, samalla kun digitaalinäyttö päivittyy hänen liikuttaessaan viisareita. Aseta kello on 1. luokan matematiikkatehtävä, joka toimii suoraan selaimessa tabletilla, puhelimella ja luokan tietokoneella — mitään ei tarvitse asentaa eikä tiliä tarvita.",
         "Kellon asettaminen on vaikeampaa kuin sen lukeminen, koska lapsen täytyy tuottaa molemmat viisarit itse eikä vain tunnistaa valmista kuvaa. Puolitunneilla lyhyt viisari osuu kahden luvun väliin eikä yhden luvun kohdalle, joten lapsi, joka vain siirtää tuntiviisarin luvun kohdalle, asettaa sen väärin — viisari pitää asettaa puoliväliin. Digitaalinäytön seuraaminen viisarien liikkuessa yhdistää analogisen kuvan lapselle jo tuttuihin numeroihin, ja ajat pysyvät tasa- ja puolitunneissa, jotta huomio kohdistuu viisarien oikeaan asettamiseen.",
         "Harjoitus on OPS 2014:n mukainen mittaamisen osa-alueella — lapsi lukee ja näyttää kellonaikoja tasa- ja puolitunneilla analogisella ja digitaalisella kellolla. Lapsi saa edetä rauhassa omaan tahtiinsa: ei ajastinta eikä pisteitä."
       ],
@@ -1136,7 +1136,7 @@
     },
     "match-pairs.make-the-number.k-oa-a-3": {
       "about": [
-        "Tehtävässä näytetään tavoiteluku — vaikkapa 5 — ja lapsi etsii lukuparit, jotka yhdessä muodostavat sen, kuten 1 ja 4 tai 2 ja 3, napauttamalla ensin yhtä lukua ja sitten sen paria, jolloin pari yhdistyy. Harjoitus on maksuton ja vuorovaikutteinen esiopetuksen lukujen yhdistämispeli, joka toimii suoraan selaimessa — ei asennusta, ei tiliä.",
+        "Tehtävässä näytetään tavoiteluku — vaikkapa 5 — ja lapsi etsii lukuparit, jotka yhdessä muodostavat sen, kuten 1 ja 4 tai 2 ja 3, napauttamalla ensin yhtä lukua ja sitten sen paria, jolloin pari yhdistyy. Harjoitus on vuorovaikutteinen esiopetuksen lukujen yhdistämispeli, joka toimii suoraan selaimessa — ei asennusta, ei tiliä.",
         "Tärkein ajatus on, että yhden luvun voi muodostaa useammalla kuin yhdellä tavalla. Kun tavoite on 7, lapsi voi yhdistää 0 ja 7 ja sitten 3 ja 4 ja huomata, että samalla summalla on useita pareja. Koska tehtävä pyytää etsimään kaikki tavoitteen muodostavat parit eikä vain yhtä oikeaa vastausta, se rakentaa huomaamatta osa-osa-kokonaisuus-ajattelua, jonka varaan kaikki myöhempi yhteenlasku perustuu.",
         "Harjoitus on OPS 2014:n mukainen lukujen ja laskutoimitusten osa-alueella — lapsi jakaa enintään kymmenen suuruiset luvut pareihin useilla eri tavoilla. Lapsi saa edetä rauhassa omaan tahtiinsa: ei ajastinta eikä pisteitä."
       ],
@@ -1159,7 +1159,7 @@
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {
       "about": [
-        "Tehtävässä näytetään yhteenlaskukortteja, kuten 4 + 7 ja 7 + 4 tai 5 + 9 ja 9 + 5, ja lapsi yhdistää jokaisen yhteenlaskun samoihin lukuihin toisin päin laskettuna — napauta yhtä korttia ja sitten sen käännettyä kaksoiskorttia, jolloin pari yhdistyy. Harjoitus on maksuton ja vuorovaikutteinen 1. luokan matematiikan korttien yhdistämispeli, joka toimii suoraan selaimessa — ei asennusta, ei tiliä.",
+        "Tehtävässä näytetään yhteenlaskukortteja, kuten 4 + 7 ja 7 + 4 tai 5 + 9 ja 9 + 5, ja lapsi yhdistää jokaisen yhteenlaskun samoihin lukuihin toisin päin laskettuna — napauta yhtä korttia ja sitten sen käännettyä kaksoiskorttia, jolloin pari yhdistyy. Harjoitus on vuorovaikutteinen 1. luokan matematiikan korttien yhdistämispeli, joka toimii suoraan selaimessa — ei asennusta, ei tiliä.",
         "Tärkein ajatus on vaihdannaisuus: 4 + 7 ja 7 + 4 antavat molemmat 11, joten yhteenlaskettavien järjestys ei muuta summaa. Jokaisella kierroksella näkyy kuusi korttia — kolme käännettyä paria sekaisin — joten lapsi laskee summat ja huomaa, missä yhteenlaskuissa käytetään samoja lukuja toisin päin. Lapsi ei yhdistä samanlaisia kortteja, vaan tunnistaa, että kaksi erilaiselta näyttävää summaa ovat yhtä suuret.",
         "Harjoitus on OPS 2014:n mukainen lukujen ja laskutoimitusten osa-alueella — lapsi käyttää laskutoimitusten ominaisuuksia, kuten vaihdannaisuutta, yhteenlaskun strategiana. Lapsi saa edetä rauhassa omaan tahtiinsa: ei ajastinta eikä pisteitä."
       ],
@@ -1228,7 +1228,7 @@
     },
     "syllable-builder.muodosta-sana-tavuista.rf-k-2-b": {
       "about": [
-        "Lapsi näkee kuvan ja muodostaa sitä vastaavan sanan asettamalla tavut oikeaan järjestykseen — esimerkiksi kuvasta kala lapsi yhdistää tavut \"ka\" ja \"la\", ja sanasta omena tavut \"o\", \"me\" ja \"na\". Tavut näkyvät erillisinä paloina, ja lapsi rakentaa niistä kokonaisen sanan. Harjoitus on maksuton ja vuorovaikutteinen esiopetuksen fonologian tehtävä, joka toimii suoraan selaimessa ilman tiliä.",
+        "Lapsi näkee kuvan ja muodostaa sitä vastaavan sanan asettamalla tavut oikeaan järjestykseen — esimerkiksi kuvasta kala lapsi yhdistää tavut \"ka\" ja \"la\", ja sanasta omena tavut \"o\", \"me\" ja \"na\". Tavut näkyvät erillisinä paloina, ja lapsi rakentaa niistä kokonaisen sanan. Harjoitus on vuorovaikutteinen esiopetuksen fonologian tehtävä, joka toimii suoraan selaimessa ilman tiliä.",
         "Tärkein ajatus on, että puhuttu sana koostuu pienemmistä äännekokonaisuuksista eli tavuista, jotka voi tunnistaa ja yhdistää sanaksi. Lapsi kuulee ja näkee, miten tavut liittyvät yhteen, ja huomaa, että tavujen järjestyksellä on merkitystä — vasta oikeassa järjestyksessä paloista syntyy tunnistettava sana. Tämä tavutietoisuus on suomen kielen lukutaidon kulmakivi.",
         "Harjoitus on OPS 2014:n mukainen kielellisen tietoisuuden osa-alueella — lapsi laskee, ääntää, yhdistää ja erottelee tavuja puhutuissa sanoissa. Lapsi saa edetä rauhassa omaan tahtiinsa: ei ajastinta eikä pisteitä."
       ],
@@ -1251,7 +1251,7 @@
     },
     "choice-board.pick-bigger.k-c-c-7": {
       "about": [
-        "Ruudulle ilmestyy kaksi kirjoitettua lukua, ja lapsi napauttaa niistä suurempaa — esimerkiksi 7 ja 6 tai 8 ja 7. Osa pareista on kaukana toisistaan, kuten 9 ja 2, ja osa aivan vierekkäin, kuten 8 ja 7. Tämä on maksuton vuorovaikutteinen esiopetuksen lukuharjoitus, joka toimii suoraan selaimessa tabletilla, puhelimella ja tietokoneella — mitään ei tarvitse asentaa eikä tiliä tarvita.",
+        "Ruudulle ilmestyy kaksi kirjoitettua lukua, ja lapsi napauttaa niistä suurempaa — esimerkiksi 7 ja 6 tai 8 ja 7. Osa pareista on kaukana toisistaan, kuten 9 ja 2, ja osa aivan vierekkäin, kuten 8 ja 7. Tämä on vuorovaikutteinen esiopetuksen lukuharjoitus, joka toimii suoraan selaimessa tabletilla, puhelimella ja tietokoneella — mitään ei tarvitse asentaa eikä tiliä tarvita.",
         "Tärkeintä on, että lukuja verrataan numeroina, ei laskettavina esineryhminä. Mukana ei ole kuvia, joihin nojata, vaan lapsen täytyy tietää pelkät numerot lukemalla, että 8 on enemmän kuin 7. Juuri lähekkäiset parit tekevät tästä oikeaa harjoitusta: lapsi ei voi voittaa etsimällä \"suuremmalta näyttävää\" numeroa, vaan hänen on tunnettava kunkin numeron arvo. Harjoitus on OPS 2014:n mukainen — verrataan kahta lukua välillä 1–10 kirjoitettuina numeroina. Esiopetukseen sopiva."
       ],
       "practices": [
@@ -1273,7 +1273,7 @@
     },
     "choice-board.how-many-group.k-c-c-b-5": {
       "about": [
-        "Ruudulle ilmestyy ryhmä ystävällisiä kuvia — esimerkiksi yksi pöllö, neljä kettua tai kahdeksan norsua — ja lapsi laskee esineet ja napauttaa niitä vastaavan luvun. Tämä on maksuton vuorovaikutteinen esiopetuksen lukuharjoitus, joka toimii suoraan selaimessa tabletilla, puhelimella tai luokan tietokoneella ilman asennusta ja ilman tiliä.",
+        "Ruudulle ilmestyy ryhmä ystävällisiä kuvia — esimerkiksi yksi pöllö, neljä kettua tai kahdeksan norsua — ja lapsi laskee esineet ja napauttaa niitä vastaavan luvun. Tämä on vuorovaikutteinen esiopetuksen lukuharjoitus, joka toimii suoraan selaimessa tabletilla, puhelimella tai luokan tietokoneella ilman asennusta ja ilman tiliä.",
         "Ydinajatus on lukumäärän hahmottaminen: viimeinen luku, jonka sanot laskiessasi, kertoo kuinka monta niitä on yhteensä. Koska esineet ovat välillä rivissä, pieninä ryhminä ja hajallaan, lapsi ei voi nojata ulkoa opittuun kuvioon, vaan jokainen kuva on laskettava täsmälleen kerran. Lukuvaihtoehdot ovat lähekkäin, kuten 7, 8 ja 9, joten yhdenkin esineen laskuvirhe näkyy heti ja houkuttelee laskemaan tarkasti uudelleen. Harjoitus on OPS 2014:n mukainen — lasketaan enintään 10 esinettä vastaten kysymykseen \"montako niitä on?\". Esiopetukseen sopiva."
       ],
       "practices": [
@@ -1295,7 +1295,7 @@
     },
     "choice-board.ten-more-less.1-nbt-c-5": {
       "about": [
-        "Ruudulle ilmestyy kaksinumeroinen luku, kuten 34, 57, 60 tai 82, ja sanat kymmenen enemmän tai kymmenen vähemmän, ja lapsi päättelee vastauksen päässään ja napauttaa sen neljästä vaihtoehdosta. Tämä on maksuton vuorovaikutteinen 1. luokan harjoitus, joka toimii suoraan selaimessa tabletilla, puhelimella tai luokan tietokoneella ilman asennusta ja ilman tiliä.",
+        "Ruudulle ilmestyy kaksinumeroinen luku, kuten 34, 57, 60 tai 82, ja sanat kymmenen enemmän tai kymmenen vähemmän, ja lapsi päättelee vastauksen päässään ja napauttaa sen neljästä vaihtoehdosta. Tämä on vuorovaikutteinen 1. luokan harjoitus, joka toimii suoraan selaimessa tabletilla, puhelimella tai luokan tietokoneella ilman asennusta ja ilman tiliä.",
         "Oivallus on, ettei kymmenen enemmän tai kymmenen vähemmän vaadi laskemista lainkaan — vain kymmenten numero muuttuu, ja ykköset pysyvät täsmälleen samoina. Niinpä 34 ja kymmenen enemmän on 44, ja 57 ja kymmenen vähemmän on 47. Väärät vaihtoehdot ovat lähellä olevia lukuja, myös sellaisia, joissa ykkönen muuttuu, joten yksi kerrallaan laskeva tai kymmenen väärään paikkaan lisäävä lapsi huomaa, ettei vastaus sovi. Tavoitteena on nähdä kymmenet, ei laskea. Harjoitus on OPS 2014:n mukainen ja tukee päässälaskua ja lukujen hahmottamista. 1. luokalle."
       ],
       "practices": [
@@ -1317,7 +1317,7 @@
     },
     "clock.tell-time-5-min.2-md-c-7": {
       "about": [
-        "Ruudulle ilmestyy kirjoitettu kellonaika — 3.15, 7.45, 6.10, 9.20, 4.40, 1.50, 10.05 tai 12.25 — ja lapsi vetää analogisen kellon viisarit näyttämään sen, samalla kun digitaalinen näyttö päivittyy viisarien liikkuessa. Tämä maksuton 2. luokan matematiikkaharjoitus vie kellon asettamisen viiden minuutin tarkkuuteen ja toimii selaimessa ilman tiliä.",
+        "Ruudulle ilmestyy kirjoitettu kellonaika — 3.15, 7.45, 6.10, 9.20, 4.40, 1.50, 10.05 tai 12.25 — ja lapsi vetää analogisen kellon viisarit näyttämään sen, samalla kun digitaalinen näyttö päivittyy viisarien liikkuessa. Tämä 2. luokan matematiikkaharjoitus vie kellon asettamisen viiden minuutin tarkkuuteen ja toimii selaimessa ilman tiliä.",
         "Viiden minuutin tarkkuudella lukeminen ja asettaminen tarkoittaa, että minuuttiviisari alkaa vihdoin merkitä tarkasti: vartti yli vie sen kolmosen kohdalle, varttia vaille ysin kohdalle ja kymmenen yli kakkosen kohdalle, ja lapsi laskee viisin viiden askelin kellotaulua pitkin osuakseen täsmälleen oikeaan. Hankalimmat ajat — kuten 7.45, jossa varttia vaille kahdeksan kirjoitetaan muodossa 7.45 eikä 8.45 — opettavat lukemaan tuntiviisaria, joka hivuttautuu kohti seuraavaa numeroa. Digitaalinen näyttö vahvistaa joka asetuksen, joten viisin laskemisen ajatus yhdistyy kirjoitettuun aikaan. Harjoitus on OPS 2014:n mukainen — kellonaikojen lukeminen ja kirjoittaminen viiden minuutin tarkkuudella analogisessa ja digitaalisessa kellossa. 2. luokalle."
       ],
       "practices": [
@@ -1339,7 +1339,7 @@
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {
       "about": [
-        "Lapsi ratkaisee kortteja kuten 2 + 3 ja 9 − 4 (molemmat 5) tai 3 + 4 ja 9 − 2 (molemmat 7) ja napauttaa sitten yhteenlaskua ja sitä vähennyslaskua, jolla on sama tulos, yhdistääkseen parin. Tämä on maksuton vuorovaikutteinen 1. luokan matematiikkaharjoitus, joka toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
+        "Lapsi ratkaisee kortteja kuten 2 + 3 ja 9 − 4 (molemmat 5) tai 3 + 4 ja 9 − 2 (molemmat 7) ja napauttaa sitten yhteenlaskua ja sitä vähennyslaskua, jolla on sama tulos, yhdistääkseen parin. Tämä on vuorovaikutteinen 1. luokan matematiikkaharjoitus, joka toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
         "Ydinajatus on, että yhteenlaskulla ja vähennyslaskulla voi olla sama arvo — yhtäläisyysmerkki tarkoittaa \"yhtä paljon kuin\", ei \"tässä tulee vastaus\". Kortit eivät näytä tuloksiaan, joten lapsen on todella laskettava kumpikin ja sitten etsittävä erinäköinen lasku, jolla on sama arvo. Joka kierroksella on kaksi (joskus kolme) tulosta löydettävänä, ja plus- ja miinuslaskut ovat sekaisin. Harjoitus on OPS 2014:n mukainen — ymmärretään yhtäläisyysmerkin merkitys ja päätetään, ovatko yhteen- ja vähennyslaskuja sisältävät yhtälöt tosia. 1. luokalle."
       ],
       "practices": [
@@ -1361,7 +1361,7 @@
     },
     "match-pairs.match-facts-to-20.2-oa-b-2": {
       "about": [
-        "Lapsi ratkaisee kortteja kuten 8 + 5, 9 + 7, 14 − 6 ja 17 − 8 ja napauttaa sitten kutakin laskua ja sitä lukua, joka on sen tulos, yhdistääkseen parin ja kehittääkseen sujuvuutta kahteenkymmeneen asti. Tämä on maksuton vuorovaikutteinen 2. luokan matematiikkaharjoitus, joka toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
+        "Lapsi ratkaisee kortteja kuten 8 + 5, 9 + 7, 14 − 6 ja 17 − 8 ja napauttaa sitten kutakin laskua ja sitä lukua, joka on sen tulos, yhdistääkseen parin ja kehittääkseen sujuvuutta kahteenkymmeneen asti. Tämä on vuorovaikutteinen 2. luokan matematiikkaharjoitus, joka toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
         "Ydinajatus on yhteen- ja vähennyslaskujen nopea, varma muistaminen kahteenkymmeneen asti. Joka kierroksella on kolme laskua sekaisin — osa plus-, osa miinuslaskuja — ja niiden kolme tulosta sekoitettuina mukaan, joten lapsi laskee kunkin laskun ja etsii sitten sitä vastaavan arvon. Toistuva harjoittelu kierros kierrokselta siirtää laskuja kuten 9 + 9 = 18 ja 16 − 9 = 7 laskemisesta kohti muistia. Harjoitus on OPS 2014:n mukainen — lasketaan yhteen ja vähennetään sujuvasti kahteenkymmeneen asti ja muistetaan kahden yksinumeroisen luvun summat. 2. luokalle."
       ],
       "practices": [
@@ -1383,7 +1383,7 @@
     },
     "numberbond.find-the-total.1-oa-a-1": {
       "about": [
-        "Lukukolmiossa näkyy kaksi osaa, kuten 7 ja 4, ja lapsi etsii, montako niitä on yhteensä — laskee osat yhteen ja kirjoittaa summan. Tämä on maksuton vuorovaikutteinen 1. luokan matematiikkaharjoitus, joka toimii suoraan selaimessa ilman rekisteröitymistä.",
+        "Lukukolmiossa näkyy kaksi osaa, kuten 7 ja 4, ja lapsi etsii, montako niitä on yhteensä — laskee osat yhteen ja kirjoittaa summan. Tämä on vuorovaikutteinen 1. luokan matematiikkaharjoitus, joka toimii suoraan selaimessa ilman rekisteröitymistä.",
         "Kokonaisuus on ylhäällä ja kaksi osaa sen alapuolella, joten \"yhteen kokoaminen\" muuttuu joksikin, jonka lapsi voi nähdä. Hän voi jatkaa laskemista suuremmasta osasta tai tietää laskun suoraan; kunkin osan pisteet ovat laskettavissa silloin, kun lasku ei vielä suju ulkoa. Vastaus on lukukolmion yläosan kokonaisuus. Harjoitus on OPS 2014:n mukainen — käytetään yhteenlaskua osien yhdistämiseen ja lasketaan yhteen kahteenkymmeneen asti. 1. luokalle."
       ],
       "practices": [
@@ -1405,7 +1405,7 @@
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {
       "about": [
-        "Napauta satalevyä, kymmensauvaa tai ykköskuutiota ja katso, miten kolminumeroinen luku kasvaa kymmenjärjestelmän palikoiden kertyessä — satalevyt, kymmensauvat ja ykköskuutiot rakentavat tavoitelukuja 108:sta 974:ään, mukana hankalia nollia kuten 200, 305 ja 906. Tämä on maksuton vuorovaikutteinen 2. luokan matematiikkaharjoitus, joka toimii suoraan selaimessa ilman tiliä.",
+        "Napauta satalevyä, kymmensauvaa tai ykköskuutiota ja katso, miten kolminumeroinen luku kasvaa kymmenjärjestelmän palikoiden kertyessä — satalevyt, kymmensauvat ja ykköskuutiot rakentavat tavoitelukuja 108:sta 974:ään, mukana hankalia nollia kuten 200, 305 ja 906. Tämä on vuorovaikutteinen 2. luokan matematiikkaharjoitus, joka toimii suoraan selaimessa ilman tiliä.",
         "Ydinajatus on, että luvun kolme numeroa tarkoittavat satoja, kymmeniä ja ykkösiä. Rakentaakseen luvun 463 lapsi tarvitsee neljä satalevyä, kuusi kymmensauvaa ja kolme ykköskuutiota, ja palikoiden kertymisen seuraaminen sitoo jokaisen numeron todelliseen lukumäärään. Luvut kuten 305 ja 906 opettavat huomaamatta, että nolla tarkoittaa, ettei sitä paikkaa ole lainkaan — ei yhtään kymmensauvaa — ja juuri siitä paikka-arvon sekaannus yleensä alkaa. Harjoitus on OPS 2014:n mukainen — ymmärretään, että kolminumeroisen luvun kolme numeroa esittävät satojen, kymmenten ja ykkösten määriä. 2. luokalle."
       ],
       "practices": [
@@ -1427,7 +1427,7 @@
     },
     "ten-frame.show-the-operation.k-oa-a-1": {
       "about": [
-        "Laskussa \"3 + 2\" lapsi asettaa ensin 3 merkkiä ja lisää sitten 2 toisenväristä merkkiä, jotta kaksi osaa erottuvat helposti; laskussa \"5 − 2\" hän aloittaa viidellä merkillä ja napauttaa ottaakseen 2 pois. Tärkeintä on laskutoimituksen näyttäminen kymmenruudukossa — ei luvun kirjoittaminen. Tämä on maksuton vuorovaikutteinen esiopetuksen matematiikkaharjoitus, joka toimii selaimessa ilman rekisteröitymistä.",
+        "Laskussa \"3 + 2\" lapsi asettaa ensin 3 merkkiä ja lisää sitten 2 toisenväristä merkkiä, jotta kaksi osaa erottuvat helposti; laskussa \"5 − 2\" hän aloittaa viidellä merkillä ja napauttaa ottaakseen 2 pois. Tärkeintä on laskutoimituksen näyttäminen kymmenruudukossa — ei luvun kirjoittaminen. Tämä on vuorovaikutteinen esiopetuksen matematiikkaharjoitus, joka toimii selaimessa ilman rekisteröitymistä.",
         "Ydinajatus on, että yhteen- ja vähennyslasku ovat tekoja, jotka voi näyttää, eivät vain vastauksia, jotka kirjoitetaan. Toisen merkin väri tekee kahdesta yhteenlaskettavasta näkyviä erillisinä ryhminä, ja merkkien poistaminen tekee \"pois ottamisesta\" konkreettista. Lapsi mallintaa laskutoimituksen sen sijaan että kirjoittaisi luvun, joten yhteen kokoamisen ja erottamisen merkitys tulee ennen laskemista. Harjoitus on OPS 2014:n mukainen — esitetään yhteen- ja vähennyslaskua esineillä, sormilla, piirroksilla ja muilla välineillä. Esiopetukseen sopiva."
       ],
       "practices": [

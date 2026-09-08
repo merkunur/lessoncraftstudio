@@ -10,7 +10,7 @@
     "byStrand": {
       "Counting & Cardinality": {
         "about": [
-          "Det här är en gratis, interaktiv räkneaktivitet för de yngsta, med tal upp till {max}. Den körs direkt i webbläsaren på surfplattor, telefoner och datorer i klassrummet – det finns inget att installera, inget konto att skapa och inga förberedelser för läraren.",
+          "Det här är en interaktiv räkneaktivitet för de yngsta, med tal upp till {max}. Den körs direkt i webbläsaren på surfplattor, telefoner och datorer i klassrummet – det finns inget att installera, inget konto att skapa och inga förberedelser för läraren.",
           "Aktiviteten följer Lgr22 inom området taluppfattning och tals användning. Barnen får mjuk och omedelbar återkoppling medan de arbetar, så att de kan fortsätta försöka tills svaret känns rätt. Det finns ingen timer och inga poäng – bara lugn och konkret övning."
         ],
         "practices": [
@@ -32,7 +32,7 @@
       },
       "Number & Operations in Base Ten": {
         "about": [
-          "Den här gratis, interaktiva aktiviteten om positionssystemet hjälper barnen att se hur vårt talsystem är uppbyggt kring tiogrupper, med tal upp till {max}. Den fungerar i alla moderna webbläsare – på en surfplatta, en telefon eller klassrummets interaktiva tavla – utan att något behöver laddas ner.",
+          "Den här interaktiva aktiviteten om positionssystemet hjälper barnen att se hur vårt talsystem är uppbyggt kring tiogrupper, med tal upp till {max}. Den fungerar i alla moderna webbläsare – på en surfplatta, en telefon eller klassrummets interaktiva tavla – utan att något behöver laddas ner.",
           "Den följer Lgr22 inom området taluppfattning och tals användning. Barnen arbetar i sin egen takt med varm och omedelbar återkoppling, och det finns ingen timer eller poäng som stressar dem."
         ],
         "practices": [
@@ -54,7 +54,7 @@
       },
       "Operations & Algebraic Thinking": {
         "about": [
-          "Den här gratis, interaktiva aktiviteten ger barnen konkret övning i de första tankarna kring addition och subtraktion, med antal upp till {max}. Den körs direkt i webbläsaren på vilken enhet som helst, utan något att installera och utan inloggning.",
+          "Den här interaktiva aktiviteten ger barnen konkret övning i de första tankarna kring addition och subtraktion, med antal upp till {max}. Den körs direkt i webbläsaren på vilken enhet som helst, utan något att installera och utan inloggning.",
           "Den följer Lgr22 inom området algebra. Återkopplingen är omedelbar och uppmuntrande, och det finns ingen timer eller poäng – barnen kan tänka igenom saker i sin egen takt."
         ],
         "practices": [
@@ -76,7 +76,7 @@
       },
       "Geometry": {
         "about": [
-          "Den här gratis, interaktiva aktiviteten med former hjälper små barn att lägga märke till, namnge och jämföra formerna omkring sig. Den körs direkt i webbläsaren på surfplattor, telefoner och datorer i klassrummet, utan något att installera och utan konto.",
+          "Den här interaktiva aktiviteten med former hjälper små barn att lägga märke till, namnge och jämföra formerna omkring sig. Den körs direkt i webbläsaren på surfplattor, telefoner och datorer i klassrummet, utan något att installera och utan konto.",
           "Den följer Lgr22 inom området geometri. Barnen utforskar i sin egen takt med mjuk och omedelbar återkoppling – ingen timer, inga poäng, bara lekfull övning."
         ],
         "practices": [
@@ -98,7 +98,7 @@
       },
       "Measurement & Data": {
         "about": [
-          "Den här gratis, interaktiva mätövningen hjälper små barn att jämföra föremål efter storlek – högre, kortare och längre – helt utan att räkna. Den körs direkt i webbläsaren på surfplattor, telefoner och datorer i klassrummet, utan något att installera och utan konto.",
+          "Den här interaktiva mätövningen hjälper små barn att jämföra föremål efter storlek – högre, kortare och längre – helt utan att räkna. Den körs direkt i webbläsaren på surfplattor, telefoner och datorer i klassrummet, utan något att installera och utan konto.",
           "Den följer Lgr22 inom området {strand}. Barnen jämför i sin egen takt med mjuk och omedelbar återkoppling – ingen timer, inga poäng, bara lekfull träning i att titta noga på hur saker mäter sig mot varandra."
         ],
         "practices": [
@@ -120,7 +120,7 @@
       },
       "Reading: Foundational Skills": {
         "about": [
-          "Den här gratis, interaktiva läsaktiviteten ger barnen konkret övning i att ljuda och bygga ord. Den körs direkt i webbläsaren på surfplattor, telefoner och datorer i klassrummet, utan något att installera och utan konto att skapa.",
+          "Den här interaktiva läsaktiviteten ger barnen konkret övning i att ljuda och bygga ord. Den körs direkt i webbläsaren på surfplattor, telefoner och datorer i klassrummet, utan något att installera och utan konto att skapa.",
           "Den följer Lgr22 inom området läsa och skriva. Varje ord kontrolleras för en korrekt, barnsäker uppdelning, och återkopplingen är mjuk och omedelbar – det finns ingen timer och inga poäng."
         ],
         "practices": [
@@ -142,7 +142,7 @@
       },
       "Phonological Awareness": {
         "about": [
-          "Den här gratis, interaktiva lyssningsaktiviteten hjälper barnen att höra och leka med ljuden inuti talade ord. Den körs direkt i webbläsaren på vilken enhet som helst, utan något att installera och utan att inloggning krävs.",
+          "Den här interaktiva lyssningsaktiviteten hjälper barnen att höra och leka med ljuden inuti talade ord. Den körs direkt i webbläsaren på vilken enhet som helst, utan något att installera och utan att inloggning krävs.",
           "Den följer Lgr22 inom området fonologisk medvetenhet. Återkopplingen är varm och omedelbar, och det finns ingen timer eller poäng som stressar ett litet barn."
         ],
         "practices": [
@@ -165,7 +165,7 @@
     },
     "generic": {
       "about": [
-        "Det här är en gratis, interaktiv lärandeaktivitet för små barn som körs direkt i webbläsaren på surfplattor, telefoner och datorer i klassrummet. Det finns inget att installera, inget konto att skapa och inga förberedelser för läraren.",
+        "Det här är en interaktiv lärandeaktivitet för små barn som körs direkt i webbläsaren på surfplattor, telefoner och datorer i klassrummet. Det finns inget att installera, inget konto att skapa och inga förberedelser för läraren.",
         "Den följer Lgr22 inom området {strand}. Barnen arbetar i sin egen takt med mjuk och omedelbar återkoppling, och det finns ingen timer och inga poäng – bara lugn och konkret övning."
       ],
       "practices": [
@@ -194,7 +194,7 @@
   "prose": {
     "choice-board.fraction-noncongruent.2-g-a-3": {
       "about": [
-        "Här ser barnet en form som är delad i lika stora delar — till exempel en kvadrat eller en rektangel delad i två, tre eller fyra lika stora delar — och letar upp en annan form som är delad i lika många, lika stora delar, fast på ett annat sätt. Det är en gratis, interaktiv geometriövning för årskurs 2 som körs direkt i webbläsaren, utan installation och utan konto.",
+        "Här ser barnet en form som är delad i lika stora delar — till exempel en kvadrat eller en rektangel delad i två, tre eller fyra lika stora delar — och letar upp en annan form som är delad i lika många, lika stora delar, fast på ett annat sätt. Det är en interaktiv geometriövning för årskurs 2 som körs direkt i webbläsaren, utan installation och utan konto.",
         "Den stora idén är att lika stora delar inte behöver se likadana ut. En kvadrat som delas rakt på mitten och en kvadrat som delas från hörn till hörn visar båda två lika stora delar, även om bitarna har olika form. Barnet ser en form och letar sedan upp en annan form som är delad i lika många, lika stora delar — fast på ett annat sätt. De former som inte stämmer är delade i olika stora delar, delade i fel antal delar, eller inte delade alls. Barnet delar inte själv formen, utan känner igen att lika stora delar kan se olika ut.",
         "Aktiviteten följer Lgr22 inom området geometri: att känna igen former som är delade i lika stora delar och att kalla dem halvor, tredjedelar och fjärdedelar. Ingen timer, inga poäng — barnet får lugn tid att titta och jämföra i sin egen takt."
       ],
@@ -217,7 +217,7 @@
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
-        "Barnet ser fyra figurer — cirklar, kvadrater eller rektanglar — och trycker på den som är delad rättvist, så att alla delar är lika stora. Det är en gratis, interaktiv geometriövning för årskurs 1 som körs direkt i webbläsaren: ingen installation och inget konto behövs.",
+        "Barnet ser fyra figurer — cirklar, kvadrater eller rektanglar — och trycker på den som är delad rättvist, så att alla delar är lika stora. Det är en interaktiv geometriövning för årskurs 1 som körs direkt i webbläsaren: ingen installation och inget konto behövs.",
         "Den stora idén är att delarna måste vara rättvisa och lika stora. Bland de fel alternativen finns en form som är delad i olika stora delar, en form med fel antal lika delar, och en hel form som inte är delad alls. Barnet delar inte själv formen, utan känner igen vilken form som redan är delad i lika stora delar.",
         "Aktiviteten följer Lgr22 inom området geometri: att känna igen former som är delade i två eller fyra lika stora delar och att kalla dem halvor och fjärdedelar. Ingen timer, inga poäng — bara lugn, lekfull övning."
       ],
@@ -240,7 +240,7 @@
     },
     "ten-frame.count-to-10.make-n.animals": {
       "about": [
-        "\"Gör 3\", \"Gör 7\", \"Gör 10\" — barnet bygger talet genom att trycka på rutorna i en tioram och lägga in precis så många djurmarkörer, och trycker sedan på Kontrollera. Det är en gratis, interaktiv räkneaktivitet för förskoleklass med talen 0 till 10 som körs i webbläsaren, utan att något behöver installeras och utan konto.",
+        "\"Gör 3\", \"Gör 7\", \"Gör 10\" — barnet bygger talet genom att trycka på rutorna i en tioram och lägga in precis så många djurmarkörer, och trycker sedan på Kontrollera. Det är en interaktiv räkneaktivitet för förskoleklass med talen 0 till 10 som körs i webbläsaren, utan att något behöver installeras och utan konto.",
         "Tioramen är det som gör detta till mer än ramsräkning. Dess två rader med fem ger varje tal en form som barnet känner igen — fyra fyller större delen av översta raden, tio fyller hela ramen — så att räknandet börjar kopplas till hur mycket ett tal verkligen är. Barnet bestämmer själv hur många djur som ska läggas dit och kan lägga till eller ta bort några innan det kontrollerar, vilket håller fokus på ett-till-ett-räkning i stället för gissning. Aktiviteten passar förskoleklass och följer Lgr22."
       ],
       "practices": [
@@ -262,7 +262,7 @@
     },
     "ten-frame.count-to-20.make-n.fruits": {
       "about": [
-        "Uppmaningen säger vilket tal barnet ska göra, och barnet trycker på rutorna i en dubbel tioram för att fylla i precis så många frukter över de två ramarna, och trycker sedan på Kontrollera. Att arbeta hela vägen till 20 betyder en hel tia plus några till. Det är en gratis, interaktiv räkneövning för förskoleklass som körs i webbläsaren utan konto.",
+        "Uppmaningen säger vilket tal barnet ska göra, och barnet trycker på rutorna i en dubbel tioram för att fylla i precis så många frukter över de två ramarna, och trycker sedan på Kontrollera. Att arbeta hela vägen till 20 betyder en hel tia plus några till. Det är en interaktiv räkneövning för förskoleklass som körs i webbläsaren utan konto.",
         "Den dubbla tioramen lär ut den viktigaste idén om tiotals- och tjugotalstal: en hel tia plus några till. För att göra 14 fyller barnet den första ramen till tio och lägger sedan till fyra i den andra — så talets uppbyggnad, tio och fyra, syns direkt. Att arbeta förbi tio är ett riktigt steg bortom att räkna till tio, och de två ramarna ger barnet ett sätt att hålla ordning på räkningen i stället för att tappa bort sig.",
         "Aktiviteten följer Lgr22 inom taluppfattning: att koppla räkning till antal och utöka taluppfattningen över tio. Ingen timer och inga poäng — bara lugn och lekfull övning."
       ],
@@ -285,7 +285,7 @@
     },
     "ten-frame.how-many.0-10.animals": {
       "about": [
-        "En tioram visar en grupp djur, och ställer en enkel fråga: hur många? Barnet räknar djuren — var som helst från 0 till 10 — och skriver siffran som stämmer på knappsatsen. Det är en gratis, interaktiv räkneövning för förskoleklass som körs direkt i webbläsaren, utan installation och utan konto.",
+        "En tioram visar en grupp djur, och ställer en enkel fråga: hur många? Barnet räknar djuren — var som helst från 0 till 10 — och skriver siffran som stämmer på knappsatsen. Det är en interaktiv räkneövning för förskoleklass som körs direkt i webbläsaren, utan installation och utan konto.",
         "Det här är räkningens svarssida. I stället för att bygga ett tal läser barnet ett antal som redan finns där och namnger det med en skriven siffra. Eftersom djuren sitter i tioramens två rader kan barnet börja känna igen mängder med en blick — en full översta rad är fem, en full ram är tio — och kontrollera genom att räkna ett och ett. Det steget, från att räkna till en enda skriven siffra, är själva kärnan i antalsuppfattning.",
         "Aktiviteten följer Lgr22: att räkna för att svara på \"hur många?\" om föremål ordnade på en ram. Ingen tid, inga poäng — bara lugn och lekfull träning."
       ],
@@ -308,7 +308,7 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "En dubbel tioram visar en grupp fruktmarkörer, och barnet skriver siffran för hur många — och räknar var som helst mellan 0 och 20 och skriver talet på sifferknapparna. Eftersom en full ram är tio kan barnet räkna vidare för tonårstalen och tjugo. Den här gratis, interaktiva räkneövningen för förskoleklass körs i webbläsaren utan något att installera och utan konto.",
+        "En dubbel tioram visar en grupp fruktmarkörer, och barnet skriver siffran för hur många — och räknar var som helst mellan 0 och 20 och skriver talet på sifferknapparna. Eftersom en full ram är tio kan barnet räkna vidare för tonårstalen och tjugo. Den här interaktiva räkneövningen för förskoleklass körs i webbläsaren utan något att installera och utan konto.",
         "Den här aktiviteten kopplar ihop att räkna med att skriva. Barnet avläser ett antal som redan är uppställt över två tioramar och namnger det med en skriven siffra, även de svårare tvåsiffriga talen över tio. Eftersom en full ram är tio kan barnet räkna vidare från tio för tonårstalen och tjugo i stället för att börja om från ett varje gång, och sedan skriva ner det man räknat som ett tal — själva sambandet mellan antal och symbol. Aktiviteten följer Lgr22 och tränar att representera ett antal med en skriven siffra. Ingen timer och inga poäng — bara lugn, lekfull övning."
       ],
       "practices": [
@@ -330,7 +330,7 @@
     },
     "ten-frame.teen-numbers.make-n": {
       "about": [
-        "Frågan säger ett tal mellan 11 och 19, som 16, och barnet fyller den första tioramen till en hel tia och lägger sedan de extra ettorna i en andra ram — så att 16 visar sig som tio och sex till. Att bygga talet så här gör den dolda strukturen synlig. Det är en gratis, interaktiv övning i positionssystemet för förskoleklass som spelas i webbläsaren utan registrering.",
+        "Frågan säger ett tal mellan 11 och 19, som 16, och barnet fyller den första tioramen till en hel tia och lägger sedan de extra ettorna i en andra ram — så att 16 visar sig som tio och sex till. Att bygga talet så här gör den dolda strukturen synlig. Det är en interaktiv övning i positionssystemet för förskoleklass som spelas i webbläsaren utan registrering.",
         "Tonåringstalen är knepiga eftersom deras namn döljer hur de är byggda — sexton säger inte tio och sex. Att bygga varje tal på två ramar gör den dolda strukturen synlig: det finns alltid en hel tia och sedan några ettor. Barnet sätter ihop talet av en tia och några till i stället för att räkna hela vägen upp ett och ett, och det är just den idé som positionssystemet bygger på.",
         "Aktiviteten är anpassad till Lgr22 inom positionssystemet: att sätta ihop och dela upp tal från 11 till 19 i en tia och några ettor. Den här interaktiva övningen passar förskoleklass. Ingen timer, inga poäng — bara lugn, lekfull träning."
       ],
@@ -353,7 +353,7 @@
     },
     "choice-board.sort-count.k-md-b-3": {
       "about": [
-        "På skärmen dyker en blandad hög med vänliga bilder upp — djur, frukter och ibland fordon om vartannat. Uppgiften nämner en grupp, och barnet bestämmer hur många bilder som hör dit och trycker sedan på antalet. Det är en gratis, interaktiv sorterings- och räkneövning för förskoleklass som körs direkt i webbläsaren, utan installation och utan konto.",
+        "På skärmen dyker en blandad hög med vänliga bilder upp — djur, frukter och ibland fordon om vartannat. Uppgiften nämner en grupp, och barnet bestämmer hur många bilder som hör dit och trycker sedan på antalet. Det är en interaktiv sorterings- och räkneövning för förskoleklass som körs direkt i webbläsaren, utan installation och utan konto.",
         "Bilderna ligger blandade med flit. För att svara på \"hur många djur?\" går det inte att bara räkna allt — barnet måste titta noga på varje bild, bestämma vad det är, lägga undan det som inte hör dit och räkna bara den grupp som nämnts.",
         "Aktiviteten följer Lgr22 inom området sannolikhet och statistik: att sortera föremål i kategorier och räkna antalet i varje grupp. Ingen tid, inga poäng — bara lugnt sorterande och räknande i barnets egen takt."
       ],
@@ -376,7 +376,7 @@
     },
     "array.build-array.2-oa-c-4": {
       "about": [
-        "Här bygger barnet ett rutnät av lika rader — först en liten 2 gånger 3, sedan större rutnät som 3 gånger 4, 2 gånger 5, 4 gånger 4 och 4 gånger 3. Barnet trycker för att fylla varje rad med prickar och räknar sedan ut hur många prickar det blir tillsammans. Allt sker direkt i webbläsaren, helt gratis och utan konto.",
+        "Här bygger barnet ett rutnät av lika rader — först en liten 2 gånger 3, sedan större rutnät som 3 gånger 4, 2 gånger 5, 4 gånger 4 och 4 gånger 3. Barnet trycker för att fylla varje rad med prickar och räknar sedan ut hur många prickar det blir tillsammans. Allt sker direkt i webbläsaren, utan konto.",
         "Den stora idén är att ett rutnät med lika rader kan räknas det snabba sättet. När barnet fyller raderna byggs en remsa med upprepad addition under rutnätet — till exempel 4 + 4 + 4 — så att barnet ser fyran räknad tre gånger i stället för att räkna varje prick för sig. Sedan skriver barnet totalsumman på knappsatsen. Att se raderna som lika stora termer är precis den bro som leder från addition vidare till multiplikation.",
         "Aktiviteten följer Lgr22 inom området taluppfattning och algebra: att använda addition för att räkna ut antalet föremål i ett rutnät av rader och kolumner, och att skriva en summa av lika stora termer. Den här interaktiva övningen passar bäst för årskurs 2. Ingen timer, inga poäng — bara lugn, lekfull träning."
       ],
@@ -399,7 +399,7 @@
     },
     "choice-board.which-more.k-c-c-6": {
       "about": [
-        "Två grupper med vänliga bilder visas bredvid varandra — katter, hundar, ankor, fiskar, äpplen, bananer, apelsiner eller jordgubbar — och barnet trycker på den grupp som har fler. Antalen går upp till åtta, och barnet jämför genom att titta och räkna i stället för att läsa siffror. Det är en gratis räkneövning för förskoleklass som körs i webbläsaren på mobil, surfplatta och klassrumsdator, helt utan registrering.",
+        "Två grupper med vänliga bilder visas bredvid varandra — katter, hundar, ankor, fiskar, äpplen, bananer, apelsiner eller jordgubbar — och barnet trycker på den grupp som har fler. Antalen går upp till åtta, och barnet jämför genom att titta och räkna i stället för att läsa siffror. Det är en räkneövning för förskoleklass som körs i webbläsaren på mobil, surfplatta och klassrumsdator, helt utan registrering.",
         "Den stora idén är att fler handlar om hur många, inte om hur stor plats en grupp tar. Eftersom grupperna kan ligga nära varandra — som sju mot sex, eller sex mot fem — går det inte att vinna genom att bara kasta en blick på den största klumpen; barnet måste verkligen räkna varje grupp och jämföra antalen. Det slår det vanliga ögonknepet där några utspridda bilder ser ut att vara fler än en liten tät hög.",
         "Aktiviteten är anpassad till Lgr22 inom taluppfattning: att avgöra om antalet föremål i en grupp är fler än, färre än eller lika med antalet i en annan grupp. Den här interaktiva övningen passar förskoleklass. Ingen timer, inga poäng — bara lugn, lekfull träning."
       ],
@@ -422,7 +422,7 @@
     },
     "choice-board.compare-length.k-md-2": {
       "about": [
-        "Två vardagliga föremål står bredvid varandra och barnet trycker på det som är högre, längre eller kortare — och jämför riktiga, bekanta bilder som en gran eller palm, en penna, krita, tuschpenna eller linjal, en morot eller gurka, en giraff, en solros eller ett ljus. Det är en gratis mätövning för förskoleklass som spelas i vilken webbläsare som helst, utan nedladdning och utan konto.",
+        "Två vardagliga föremål står bredvid varandra och barnet trycker på det som är högre, längre eller kortare — och jämför riktiga, bekanta bilder som en gran eller palm, en penna, krita, tuschpenna eller linjal, en morot eller gurka, en giraff, en solros eller ett ljus. Det är en mätövning för förskoleklass som spelas i vilken webbläsare som helst, utan nedladdning och utan konto.",
         "Här finns ingen räkning och inga tal; barnet tittar bara och jämför en mätbar egenskap i taget. Frågan säger ordet — högre, längre eller kortare — och barnet bestämmer vilket av de två föremålen som passar. Att ställa höjd mot höjd för högre (en giraff) och längd mot längd för längre (en gurka) bygger upp mätningens ord innan någon linjal eller något tal kommer in.",
         "Aktiviteten följer Lgr22 inom området mätning: att direkt jämföra två föremål utifrån en mätbar egenskap och beskriva vilket som är högre, längre eller kortare. Den här interaktiva övningen passar förskoleklass. Ingen timer, inga poäng — bara lugn, lekfull träning."
       ],
@@ -445,7 +445,7 @@
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {
       "about": [
-        "Två tvåsiffriga tal visas — som 47 och 52, eller 63 och 38 — och barnet trycker på det påstående som är sant med hjälp av tecknen större än (>), mindre än (<) och lika med (=). Vissa par är lika stora, som 45 och 45 eller 88 och 88, så likhetstecknet spelar också roll. Det är en gratis övning i positionssystemet för årskurs 1 som körs direkt i webbläsaren utan registrering.",
+        "Två tvåsiffriga tal visas — som 47 och 52, eller 63 och 38 — och barnet trycker på det påstående som är sant med hjälp av tecknen större än (>), mindre än (<) och lika med (=). Vissa par är lika stora, som 45 och 45 eller 88 och 88, så likhetstecknet spelar också roll. Det är en övning i positionssystemet för årskurs 1 som körs direkt i webbläsaren utan registrering.",
         "Knepet är att titta på tiotalen först, sedan entalen. Med 47 och 52 vinner de 5 tiotalen över de 4 tiotalen, så 47 är mindre än 52 — fast 7 är större än 2. Lurigare par som 29 och 92 använder samma siffror på olika platser, så barnet måste läsa positionsvärdet och inte bara siffrorna. Att välja rätt tecken förvandlar jämförelsen till det formella språket med >, = och <.",
         "Aktiviteten är anpassad till Lgr22 inom taluppfattning: att jämföra två tvåsiffriga tal utifrån betydelsen av tiotals- och entalssiffrorna och visa resultatet med tecknen >, = och <. Den här interaktiva övningen passar årskurs 1. Ingen timer, inga poäng — bara lugn, lekfull träning."
       ],
@@ -468,7 +468,7 @@
     },
     "clock.set-clock.1-md-b-3": {
       "about": [
-        "En tid står skriven — som 3:00, 7:30, 9:00, 6:30 eller halv två — och barnet drar den långa och den korta visaren på den analoga urtavlan för att visa tiden, medan en digital ruta uppdateras hela tiden. Att ställa klockan är en gratis matteövning för årskurs 1 som spelas direkt i webbläsaren på surfplatta, mobil och klassrumsdator, utan att något behöver installeras och utan konto.",
+        "En tid står skriven — som 3:00, 7:30, 9:00, 6:30 eller halv två — och barnet drar den långa och den korta visaren på den analoga urtavlan för att visa tiden, medan en digital ruta uppdateras hela tiden. Att ställa klockan är en matteövning för årskurs 1 som spelas direkt i webbläsaren på surfplatta, mobil och klassrumsdator, utan att något behöver installeras och utan konto.",
         "Att ställa en klocka är svårare än att läsa av en, eftersom barnet måste skapa båda visarna i stället för att känna igen en bild. Vid halvtimmar står den korta visaren mellan två siffror, inte på en, så ett barn som bara puttar timvisaren till en siffra hamnar fel — den ska placeras mitt emellan. Att se den digitala rutan ändras när visarna flyttas binder ihop den analoga bilden med talen som barnet redan känner till, och tiderna håller sig till hela och halva timmar så att fokus ligger på att få visarna rätt.",
         "Aktiviteten följer Lgr22 inom området mätning och tid: att läsa och skriva tid till hel och halv timme på analoga och digitala klockor. Den här interaktiva övningen passar årskurs 1. Ingen timer, inga poäng — bara lugn, lekfull träning."
       ],
@@ -491,7 +491,7 @@
     },
     "match-pairs.make-the-number.k-oa-a-3": {
       "about": [
-        "Ett måltal visas — säg 5 — och barnet hittar de talpar som tillsammans blir det, som 1 och 4 eller 2 och 3, genom att trycka på ett tal och sedan på dess kompis så att paret kopplas ihop. Det är ett gratis, interaktivt parspel med tal för förskoleklass som spelas direkt i webbläsaren — utan installation och utan konto.",
+        "Ett måltal visas — säg 5 — och barnet hittar de talpar som tillsammans blir det, som 1 och 4 eller 2 och 3, genom att trycka på ett tal och sedan på dess kompis så att paret kopplas ihop. Det är ett interaktivt parspel med tal för förskoleklass som spelas direkt i webbläsaren — utan installation och utan konto.",
         "Den stora idén är att ett tal kan göras på mer än ett sätt. Med måltalet 7 kan barnet koppla ihop 0 och 7, sedan 3 och 4, och upptäcka att samma summa har flera par. Eftersom aktiviteten frågar efter de par som blir måltalet och inte efter ett enda rätt svar, byggs den känsla för del–del–helhet som all senare addition vilar på.",
         "Aktiviteten är anpassad till Lgr22 inom taluppfattning: att dela upp tal upp till 10 i par på flera olika sätt. Den här interaktiva övningen passar förskoleklass. Ingen timer, inga poäng — bara lugn, lekfull träning."
       ],
@@ -514,7 +514,7 @@
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {
       "about": [
-        "Barnet ser additionskort som 4 + 7 och 7 + 4, eller 5 + 9 och 9 + 5, och kopplar ihop varje addition med samma två tal lagda i omvänd ordning — tryck på ett kort, sedan på dess omvända tvilling, så kopplas paret ihop. Det är ett gratis, interaktivt parspel med matte för årskurs 1 som spelas direkt i webbläsaren — utan installation och utan konto.",
+        "Barnet ser additionskort som 4 + 7 och 7 + 4, eller 5 + 9 och 9 + 5, och kopplar ihop varje addition med samma två tal lagda i omvänd ordning — tryck på ett kort, sedan på dess omvända tvilling, så kopplas paret ihop. Det är ett interaktivt parspel med matte för årskurs 1 som spelas direkt i webbläsaren — utan installation och utan konto.",
         "Den stora idén är den kommutativa lagen: 4 + 7 och 7 + 4 blir båda 11, så ordningen på termerna ändrar inte summan. Varje runda visar sex kort — tre omvända par blandade om varandra — så barnet räknar ut summorna och lägger märke till vilka additioner som använder precis samma tal fast vända. Barnet parar inte ihop likadana kort, utan känner igen att två summor som ser olika ut ändå är lika stora.",
         "Aktiviteten är anpassad till Lgr22 inom taluppfattning och algebra: att använda räknelagar, som den kommutativa lagen, som strategier för addition. Den här interaktiva övningen passar årskurs 1. Ingen timer, inga poäng — bara lugn, lekfull träning."
       ],
@@ -537,7 +537,7 @@
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {
       "about": [
-        "För en summa som 8 + 5 delar barnet upp det andra talet på en talkompis så att en del fyller det första talet upp till tio (8 + 2 = 10), och adderar sedan det som blir kvar (10 + 3 = 13). Den här strategin med tiotalsövergång kommer till liv i en gratis, interaktiv matteövning för årskurs 1 som spelas direkt i webbläsaren utan konto.",
+        "För en summa som 8 + 5 delar barnet upp det andra talet på en talkompis så att en del fyller det första talet upp till tio (8 + 2 = 10), och adderar sedan det som blir kvar (10 + 3 = 13). Den här strategin med tiotalsövergång kommer till liv i en interaktiv matteövning för årskurs 1 som spelas direkt i webbläsaren utan konto.",
         "Den stora idén är att förvandla ett knepigt tal till ett lätt: ta dig först till en vänlig tia och addera sedan resten. Barnet trycker för att fylla den del som gör tian, och talkompisen visar exakt hur det andra talet delas upp — så strategin är något barnet ser och gör, inte något det måste lära sig utantill.",
         "Aktiviteten är anpassad till Lgr22 inom taluppfattning och algebra: att addera inom 20 med hjälp av strategin att göra en tia. Den här interaktiva övningen passar årskurs 1. Ingen timer, inga poäng — bara lugn, lekfull träning."
       ],
@@ -560,7 +560,7 @@
     },
     "place-value.tens-and-ones.1-nbt-b-2": {
       "about": [
-        "För att göra 47 lägger barnet ut fyra tiostavar och sju enhetskuber, och ser hur fyrtio blir något verkligt i stället för bara en siffra. Talen går från 12 upp till 95 — inklusive de jämna tiotalen 30, 50, 70 och 90 — byggda block för block, i en gratis, interaktiv matteövning för årskurs 1 som spelas i webbläsaren utan registrering.",
+        "För att göra 47 lägger barnet ut fyra tiostavar och sju enhetskuber, och ser hur fyrtio blir något verkligt i stället för bara en siffra. Talen går från 12 upp till 95 — inklusive de jämna tiotalen 30, 50, 70 och 90 — byggda block för block, i en interaktiv matteövning för årskurs 1 som spelas i webbläsaren utan registrering.",
         "Den stora idén är att ett tvåsiffrigt tal är uppbyggt av tiotal och ental. För att bygga 47 använder barnet fyra tiostavar och sju enhetskuber, och att se de fyra stavarna gör fyrtio konkret i stället för bara en siffra. De jämna talen som 70 och 90 förstärker att en nolla på entalsplatsen betyder att det inte finns några lösa kuber alls — bara hela tiotal.",
         "Aktiviteten är anpassad till Lgr22 inom positionssystemet: att förstå att ett tvåsiffrigt tal är uppbyggt av ett antal tiotal och ental. Den här interaktiva övningen passar årskurs 1. Ingen timer, inga poäng — bara lugn, lekfull träning."
       ],
@@ -583,7 +583,7 @@
     },
     "syllable-builder.bygg-ordet-av-stavelser.rf-k-2-b": {
       "about": [
-        "Barnet ser en bild — till exempel en sol, en banan eller en gädda — och bygger ordet genom att lägga stavelsebrickorna i rätt ordning. Varje bricka kan tryckas på för att höras högt, och när ordet är rätt läses hela ordet upp ihopljudat. Det är en gratis, interaktiv fonetikövning för förskoleklass som spelas direkt i webbläsaren, utan nedladdning och utan konto.",
+        "Barnet ser en bild — till exempel en sol, en banan eller en gädda — och bygger ordet genom att lägga stavelsebrickorna i rätt ordning. Varje bricka kan tryckas på för att höras högt, och när ordet är rätt läses hela ordet upp ihopljudat. Det är en interaktiv fonetikövning för förskoleklass som spelas direkt i webbläsaren, utan nedladdning och utan konto.",
         "Den stora idén är att talade ord är uppbyggda av stavelser som kan delas upp och sättas ihop igen. När barnet flyttar brickan ba framför nan och hör ba–nan bli banan, blir den ljudstruktur som annars är osynlig något barnet kan höra och känna. Att lyssna, dela upp och blanda stavelser på det här sättet är just den fonologiska medvetenhet som tidig läsning vilar på.",
         "Aktiviteten följer Lgr22 inom språk och tidig läsning: att räkna, uttala, blanda och dela upp stavelser i talade ord. Den här övningen passar förskoleklass. Ingen timer, inga poäng — bara lugn, lekfull träning."
       ],
@@ -606,7 +606,7 @@
     },
     "array.equal-groups.2-oa-c-4": {
       "about": [
-        "Här gör barnet lika stora grupper — lika många föremål i varje grupp — och räknar sedan ut hur många det blir tillsammans. Rundorna går från 2 grupper med 3 i varje upp till 3 grupper med 5, och däremellan dyker 4 grupper med 4 och 5 grupper med 2 upp, så barnet möter många olika sätt att dela upp i lika stora grupper. Allt sker gratis och interaktivt direkt i webbläsaren, utan nedladdning och utan konto.",
+        "Här gör barnet lika stora grupper — lika många föremål i varje grupp — och räknar sedan ut hur många det blir tillsammans. Rundorna går från 2 grupper med 3 i varje upp till 3 grupper med 5, och däremellan dyker 4 grupper med 4 och 5 grupper med 2 upp, så barnet möter många olika sätt att dela upp i lika stora grupper. Allt sker interaktivt direkt i webbläsaren, utan nedladdning och utan konto.",
         "Till skillnad från ett prydligt rutnät sitter föremålen här i tydligt åtskilda grupper, och då blir det själva poängen att det ska vara lika många i varje. När barnet fyller en grupp i taget växer en additionsrad fram bredvid — 4 + 4 + 4 — så att de lika stora grupperna blir en summa, och till sist skriver barnet hur många det blev sammanlagt. Barnet bygger grupperna och adderar dem; det multiplicerar inte ännu, men möter precis det tänkande som multiplikationen senare vilar på. Aktiviteten passar årskurs 2 och följer Lgr22 inom området taluppfattning och räkning."
       ],
       "practices": [
@@ -628,7 +628,7 @@
     },
     "choice-board.even-odd.2-oa-c-3": {
       "about": [
-        "Ett tal mellan 1 och 20 visas, och barnet avgör om det är jämnt eller udda och trycker sedan på rutan Jämnt eller Udda. Med bara två val måste barnet bedöma varje tal för sig — är det ett tal som går att para ihop jämnt, eller ett som har en över? Det är en gratis, interaktiv talaktivitet för årskurs 2 som körs direkt i webbläsaren utan registrering.",
+        "Ett tal mellan 1 och 20 visas, och barnet avgör om det är jämnt eller udda och trycker sedan på rutan Jämnt eller Udda. Med bara två val måste barnet bedöma varje tal för sig — är det ett tal som går att para ihop jämnt, eller ett som har en över? Det är en interaktiv talaktivitet för årskurs 2 som körs direkt i webbläsaren utan registrering.",
         "Den stora idén är att jämnt och udda handlar om huruvida ett antal kan delas i två lika stora grupper utan att något blir över. Barnet adderar eller subtraherar inte här, utan sorterar hela tal efter hur de är uppbyggda. När barnet arbetar med hela talområdet från 1 till 20, med båda valen alltid framme, växer den snabba igenkänningen fram — och vanan att titta på entalssiffran — som gör att jämnt och udda till slut känns självklart. Aktiviteten passar årskurs 2 och följer Lgr22."
       ],
       "practices": [
@@ -650,7 +650,7 @@
     },
     "choice-board.describe-attribute.k-md-a-1": {
       "about": [
-        "Ett vardagligt föremål visas och barnet trycker på det ord som beskriver det bäst — långt, högt eller tungt. Föremålen är valda så att en egenskap tydligt sticker ut: en penna och en morot är långa, en giraff är hög, och en sten och en pumpa är tunga. Det är en gratis, interaktiv aktivitet i mätning för förskoleklass som körs direkt i webbläsaren utan konto.",
+        "Ett vardagligt föremål visas och barnet trycker på det ord som beskriver det bäst — långt, högt eller tungt. Föremålen är valda så att en egenskap tydligt sticker ut: en penna och en morot är långa, en giraff är hög, och en sten och en pumpa är tunga. Det är en interaktiv aktivitet i mätning för förskoleklass som körs direkt i webbläsaren utan konto.",
         "Hela poängen är att sätta ord på de sätt vi mäter saker på innan några tal eller linjaler kommer in. Barnet räknar inte och mäter inte här, utan tittar på ett verkligt föremål och bestämmer vilken mätbar egenskap som passar — längd, höjd eller vikt. Eftersom varje föremål på bilden har en egenskap som tydligt är starkast, övar barnet på att lägga märke till vilken sorts mätning en sak bjuder in till, och det är själva språkgrunden under all senare mätning. Aktiviteten passar förskoleklass och följer Lgr22."
       ],
       "practices": [
@@ -672,7 +672,7 @@
     },
     "choice-board.ten-more-less.1-nbt-c-5": {
       "about": [
-        "Ett tal som 34, 57, 60 eller 82 dyker upp tillsammans med orden tio mer eller tio mindre, och barnet räknar ut det i huvudet och trycker på svaret bland fyra alternativ. Det är en gratis, interaktiv aktivitet för årskurs 1 som körs direkt i webbläsaren på en surfplatta, telefon eller klassrumsdator, utan att något behöver installeras och utan konto.",
+        "Ett tal som 34, 57, 60 eller 82 dyker upp tillsammans med orden tio mer eller tio mindre, och barnet räknar ut det i huvudet och trycker på svaret bland fyra alternativ. Det är en interaktiv aktivitet för årskurs 1 som körs direkt i webbläsaren på en surfplatta, telefon eller klassrumsdator, utan att något behöver installeras och utan konto.",
         "Nyckeln är att tio mer eller tio mindre inte behöver räknas alls — bara tiotalssiffran ändras medan entalen står kvar precis som de var, så 34 och tio mer blir 44, och 57 och tio mindre blir 47. De felaktiga alternativen är närliggande tal, även sådana som ändrar entalssiffran, så ett barn som räknar uppåt ett och ett eller lägger till ett tiotal på fel ställe märker att det inte stämmer. Det handlar om att se tiotalen, inte att räkna. Aktiviteten passar årskurs 1 och följer Lgr22."
       ],
       "practices": [
@@ -694,7 +694,7 @@
     },
     "clock.tell-time-5-min.2-md-c-7": {
       "about": [
-        "En skriven tid visas — 3:15, 7:45, 6:10, 9:20, 4:40, 1:50, 10:05 eller 12:25 — och barnet drar den analoga klockans visare så att de visar tiden, medan en digital avläsning uppdateras allteftersom visarna flyttas. Den här gratis mattaktiviteten för årskurs 2 tar klockläsningen vidare till tider på fem minuter och körs direkt i webbläsaren utan konto.",
+        "En skriven tid visas — 3:15, 7:45, 6:10, 9:20, 4:40, 1:50, 10:05 eller 12:25 — och barnet drar den analoga klockans visare så att de visar tiden, medan en digital avläsning uppdateras allteftersom visarna flyttas. Den här mattaktiviteten för årskurs 2 tar klockläsningen vidare till tider på fem minuter och körs direkt i webbläsaren utan konto.",
         "Att läsa och ställa till fem minuter innebär att minutvisaren äntligen spelar roll i detalj: kvart över sätter den på trean, kvart i sätter den på nian, och tio över på tvåan — och barnet räknar i femsteg runt urtavlan för att landa exakt rätt. De kluriga tiderna — som 7:45, där kvart i åtta skrivs 7:45 och inte 8:45 — får barnet att läsa timvisaren när den smyger sig mot nästa siffra. Den digitala avläsningen bekräftar varje placering så att femstegsräknandet kopplas till den skrivna tiden. Aktiviteten passar årskurs 2 och följer Lgr22."
       ],
       "practices": [
@@ -716,7 +716,7 @@
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {
       "about": [
-        "Barnet räknar ut kort som 2 + 3 och 9 − 4 (båda blir 5), eller 3 + 4 och 9 − 2 (båda blir 7), och trycker sedan på en plusuppgift och den minusuppgift som har samma svar för att koppla ihop paret. Det är en gratis, interaktiv mattaktivitet för årskurs 1 som körs direkt i webbläsaren, utan att något behöver installeras och utan konto.",
+        "Barnet räknar ut kort som 2 + 3 och 9 − 4 (båda blir 5), eller 3 + 4 och 9 − 2 (båda blir 7), och trycker sedan på en plusuppgift och den minusuppgift som har samma svar för att koppla ihop paret. Det är en interaktiv mattaktivitet för årskurs 1 som körs direkt i webbläsaren, utan att något behöver installeras och utan konto.",
         "Den stora idén är att en plusuppgift och en minusuppgift kan vara värda lika mycket — likhetstecknet betyder lika med, inte här kommer svaret. Korten visar inte sina summor, så barnet måste verkligen räkna ut varje kort och sedan leta efter en uppgift som ser annorlunda ut men har samma värde. Varje runda har två (ibland tre) värden att hitta, med plus- och minusuppgifter blandade om varandra. Aktiviteten passar årskurs 1 och följer Lgr22."
       ],
       "practices": [
@@ -738,7 +738,7 @@
     },
     "match-pairs.match-facts-to-20.2-oa-b-2": {
       "about": [
-        "På korten står uppgifter som 8 + 5, 9 + 7, 14 − 6 och 17 − 8 — barnet räknar ut var och en och trycker sedan på uppgiften och det tal som är dess svar för att koppla ihop paret och bygga en säker taluppfattning inom 20. Det är en gratis, interaktiv mattaktivitet för årskurs 2 som körs direkt i webbläsaren, utan att något behöver installeras och utan konto.",
+        "På korten står uppgifter som 8 + 5, 9 + 7, 14 − 6 och 17 − 8 — barnet räknar ut var och en och trycker sedan på uppgiften och det tal som är dess svar för att koppla ihop paret och bygga en säker taluppfattning inom 20. Det är en interaktiv mattaktivitet för årskurs 2 som körs direkt i webbläsaren, utan att något behöver installeras och utan konto.",
         "Den stora idén är snabb och trygg minnesframplockning av additions- och subtraktionsuppgifter upp till 20. Varje runda blandar tre uppgifter — några plus, några minus — med sina tre svar inblandade, så barnet räknar ut varje uppgift och letar sedan upp det matchande värdet. Med upprepad övning runda efter runda flyttas uppgifter som 9 + 9 = 18 och 16 − 9 = 7 från att räknas till att kunnas utantill. Aktiviteten passar årskurs 2 och följer Lgr22."
       ],
       "practices": [
@@ -760,7 +760,7 @@
     },
     "numberbond.find-the-total.1-oa-a-1": {
       "about": [
-        "Ett talkompis-diagram visar två delar, som 7 och 4, och barnet räknar ut hur många det blir tillsammans — lägger ihop delarna och skriver det hela. Det är en gratis, interaktiv matteövning för årskurs 1 som körs direkt i webbläsaren utan registrering.",
+        "Ett talkompis-diagram visar två delar, som 7 och 4, och barnet räknar ut hur många det blir tillsammans — lägger ihop delarna och skriver det hela. Det är en interaktiv matteövning för årskurs 1 som körs direkt i webbläsaren utan registrering.",
         "Det hela sitter överst och de två delarna under, så att sätta ihop blir något barnet kan se. Barnet kan räkna vidare från den större delen eller helt enkelt kunna uppgiften; prickarna i varje del finns där att räkna när en uppgift inte sitter automatiskt ännu. Svaret är det hela längst upp i diagrammet. Aktiviteten passar årskurs 1 och följer Lgr22."
       ],
       "practices": [
@@ -782,7 +782,7 @@
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {
       "about": [
-        "Barnet trycker på en hundraplatta, en tiostav eller en enhetskub och ser ett tresiffrigt tal växa allteftersom basklossarna staplas — hundraplattor, tiostavar och enhetskuber som bygger upp tal från 108 till 974, inklusive kluriga nollor som 200, 305 och 906. Det är en gratis, interaktiv matteövning för årskurs 2 som körs direkt i webbläsaren utan konto.",
+        "Barnet trycker på en hundraplatta, en tiostav eller en enhetskub och ser ett tresiffrigt tal växa allteftersom basklossarna staplas — hundraplattor, tiostavar och enhetskuber som bygger upp tal från 108 till 974, inklusive kluriga nollor som 200, 305 och 906. Det är en interaktiv matteövning för årskurs 2 som körs direkt i webbläsaren utan konto.",
         "Den stora idén är att ett tals tre siffror står för hundratal, tiotal och ental. För att bygga 463 behöver barnet fyra hundraplattor, sex tiostavar och tre enhetskuber, och att se blocken läggas på binder varje siffra till en verklig mängd. Tal som 305 och 906 lär stillsamt ut att en nolla betyder inget av det platsvärdet — inga tiostavar alls — och det är just där platsvärdesförvirring brukar börja. Aktiviteten passar årskurs 2 och följer Lgr22."
       ],
       "practices": [
@@ -804,7 +804,7 @@
     },
     "ten-frame.show-the-operation.k-oa-a-1": {
       "about": [
-        "För \"3 + 2\" lägger barnet 3 markörer och sedan 2 till i en annan färg, så att de två delarna är lätta att se; för \"5 − 2\" börjar barnet med 5 och trycker för att ta bort 2. Att visa räknesättet på tioramen — inte att skriva ett tal — är själva uppgiften. Det är en gratis, interaktiv mattaktivitet för förskoleklass som körs i webbläsaren utan registrering.",
+        "För \"3 + 2\" lägger barnet 3 markörer och sedan 2 till i en annan färg, så att de två delarna är lätta att se; för \"5 − 2\" börjar barnet med 5 och trycker för att ta bort 2. Att visa räknesättet på tioramen — inte att skriva ett tal — är själva uppgiften. Det är en interaktiv mattaktivitet för förskoleklass som körs i webbläsaren utan registrering.",
         "Den stora idén är att addition och subtraktion är något man kan visa, inte bara svar man skriver. Den andra markörfärgen gör de två termerna synliga som skilda grupper, och att ta bort markörer gör ta bort konkret. Barnet gestaltar räknesättet i stället för att skriva ett tal, så att innebörden av att sätta ihop och dela upp kommer före själva räknandet. Aktiviteten passar förskoleklass och följer Lgr22."
       ],
       "practices": [
@@ -826,7 +826,7 @@
     },
     "choice-board.shape-id.k-g-a-2": {
       "about": [
-        "En uppmaning säger vilken form barnet ska hitta, och barnet letar med ögonen och trycker på rätt form bland fyra bilder. Det kan vara en cirkel, kvadrat, triangel, rektangel, sexhörning, oval, stjärna, romb, hjärta eller femhörning. Allt sker direkt i webbläsaren på surfplatta, telefon eller skoldator — gratis, utan installation och utan konto.",
+        "En uppmaning säger vilken form barnet ska hitta, och barnet letar med ögonen och trycker på rätt form bland fyra bilder. Det kan vara en cirkel, kvadrat, triangel, rektangel, sexhörning, oval, stjärna, romb, hjärta eller femhörning. Allt sker direkt i webbläsaren på surfplatta, telefon eller skoldator — utan installation och utan konto.",
         "Den stora idén är att en form är samma form oavsett hur den är vänd eller hur stor den är ritad. En triangel som balanserar på spetsen är fortfarande en triangel, och en liten kvadrat är fortfarande en kvadrat. Barnet måste alltså känna igen själva formen, inte bara en enda välbekant bild av den. De tre fel svaren är andra riktiga former ur samlingen, så barnet kan inte vinna genom att gissa — det måste veta vilket namn som hör till vilken figur.",
         "Aktiviteten följer Lgr22 inom geometri: att namnge former oavsett hur de är vridna eller hur stora de är. Ingen timer och inga poäng — bara lugn och lekfull övning i barnets egen takt."
       ],
@@ -849,7 +849,7 @@
     },
     "choice-board.flat-solid.k-g-a-3": {
       "about": [
-        "En form i taget visas på skärmen och barnet trycker på om den är platt eller solid. Platta former (2D) är till exempel cirkel, triangel, kvadrat och sexhörning, medan solida former (3D) är till exempel kub, klot, cylinder och kon. Det är en gratis, interaktiv geometriövning för förskoleklass som körs direkt i webbläsaren på surfplatta, telefon och dator — utan installation och utan konto.",
+        "En form i taget visas på skärmen och barnet trycker på om den är platt eller solid. Platta former (2D) är till exempel cirkel, triangel, kvadrat och sexhörning, medan solida former (3D) är till exempel kub, klot, cylinder och kon. Det är en interaktiv geometriövning för förskoleklass som körs direkt i webbläsaren på surfplatta, telefon och dator — utan installation och utan konto.",
         "Den stora idén är skillnaden mellan en form du kan rita på ett papper och en form du kan ta upp och hålla i handen. Här namnger barnet inte formerna, utan sorterar dem i tvådimensionella och tredimensionella. När välkända platta former blandas med sina solida släktingar — en cirkel bredvid ett klot, en kvadrat bredvid en kub — får barnet syn på om formen har djup, vilket är första steget mot att förstå rymdgeometriska kroppar.",
         "Aktiviteten följer Lgr22 inom geometri: att urskilja om en form är tvådimensionell (platt) eller tredimensionell (solid). Ingen timer och inga poäng — bara lugn och lekfull övning."
       ],
@@ -872,7 +872,7 @@
     },
     "choice-board.next-number.k-cc-a-2": {
       "about": [
-        "Ett tal mellan 1 och 9 visas, och barnet trycker på det tal som kommer näst i räkneordningen — ser barnet en 4 letar det upp 5:an, ser det en 8 letar det upp 9:an. Det är en gratis, interaktiv räkneövning för förskoleklass som körs direkt i webbläsaren på surfplatta, telefon och dator — utan installation och utan konto.",
+        "Ett tal mellan 1 och 9 visas, och barnet trycker på det tal som kommer näst i räkneordningen — ser barnet en 4 letar det upp 5:an, ser det en 8 letar det upp 9:an. Det är en interaktiv räkneövning för förskoleklass som körs direkt i webbläsaren på surfplatta, telefon och dator — utan installation och utan konto.",
         "Den stora idén är att räkna framåt från ett tal man får, i stället för att alltid börja om från ett. Svarsalternativen är tal mellan 0 och 10 som ligger nära det rätta, så barnet måste verkligen veta vad som kommer efter och kan inte bara gissa. Att kunna ta upp räkningen mitt i talraden är det som gör räknandet snabbt och smidigt.",
         "Aktiviteten följer Lgr22 inom taluppfattning: att räkna framåt från ett givet tal inom den kända talraden. Ingen timer och inga poäng — bara lugn och lekfull övning."
       ],
@@ -895,7 +895,7 @@
     },
     "choice-board.read-ruler.2-md-a-1": {
       "about": [
-        "Ett föremål ligger längs en linjal med centimeterskala — en penna, ett band, en krita eller en tuschpenna — och barnet läser av hur långt det är och trycker på svaret i centimeter. Längderna sträcker sig från en kort krita på 5 cm till en tuschpenna på 14 cm eller en pinne på 17 cm. Det är en gratis, interaktiv mätövning för årskurs 2 som körs direkt i webbläsaren utan konto.",
+        "Ett föremål ligger längs en linjal med centimeterskala — en penna, ett band, en krita eller en tuschpenna — och barnet läser av hur långt det är och trycker på svaret i centimeter. Längderna sträcker sig från en kort krita på 5 cm till en tuschpenna på 14 cm eller en pinne på 17 cm. Det är en interaktiv mätövning för årskurs 2 som körs direkt i webbläsaren utan konto.",
         "Den stora idén är att läsa av en linjal rätt: lägg föremålets vänstra kant vid 0, följ det till andra änden och läs av strecket där. Barnet gissar inte, utan läser av en exakt längd på skalan. Eftersom svarsalternativen är tal som ligger nära varandra blir det tydligt om man råkar börja vid 1 i stället för vid 0 — det klassiska mätmisstaget — och barnet får in vanan att alltid börja varje mätning vid noll.",
         "Aktiviteten följer Lgr22 inom mätning och längd: att mäta längden på ett föremål med ett lämpligt verktyg som en linjal. Ingen timer och inga poäng — bara lugn och lekfull övning."
       ],
@@ -918,7 +918,7 @@
     },
     "fractions.partition-equal-shares.1-g-a-3": {
       "about": [
-        "En form visas — en cirkel, kvadrat, rektangel, triangel, ellips, romb, sexhörning eller femhörning — och barnet trycker på delningslinjerna för att dela den i 2 lika stora delar (halvor) eller 4 lika stora delar (fjärdedelar). Det är en gratis, interaktiv geometriövning för årskurs 1 som körs i webbläsaren på alla enheter, utan konto.",
+        "En form visas — en cirkel, kvadrat, rektangel, triangel, ellips, romb, sexhörning eller femhörning — och barnet trycker på delningslinjerna för att dela den i 2 lika stora delar (halvor) eller 4 lika stora delar (fjärdedelar). Det är en interaktiv geometriövning för årskurs 1 som körs i webbläsaren på alla enheter, utan konto.",
         "Den stora idén är att lika stora delar måste vara rättvisa — bitarna ska vara lika stora. När barnet delar många olika former, inte bara cirklar, blir det tydligt att halvor och fjärdedelar handlar om lika stor yta och inte om en enda välbekant bild: en kvadrat delad i ett rutnät av fyra och en cirkel delad i fyra blir båda fjärdedelar. Eftersom barnet delar formen själv gör det delarna lika stora med egna händer i stället för att känna igen en färdig bild.",
         "Aktiviteten följer Lgr22 inom geometri: att dela cirklar och rektanglar i två och fyra lika stora delar och kalla dem halvor och fjärdedelar. Ingen timer och inga poäng — bara lugn och lekfull övning."
       ],
@@ -941,7 +941,7 @@
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {
       "about": [
-        "Barnet kopplar ihop de kort som visar samma tal — talet med siffror (305), talet med ord (trehundrafem) och den utvecklade formen (300 + 5) — genom att trycka på ett kort och sedan på det kort som visar samma värde, tills hela trion är ihopkopplad. Det är ett gratis, interaktivt matchningsspel i matte för årskurs 2 som körs direkt i webbläsaren — utan installation och utan konto.",
+        "Barnet kopplar ihop de kort som visar samma tal — talet med siffror (305), talet med ord (trehundrafem) och den utvecklade formen (300 + 5) — genom att trycka på ett kort och sedan på det kort som visar samma värde, tills hela trion är ihopkopplad. Det är ett interaktivt matchningsspel i matte för årskurs 2 som körs direkt i webbläsaren — utan installation och utan konto.",
         "Den stora idén är att en siffersymbol, ett talord och en utvecklad form alla namnger ett och samma tal — och det är vid platsvärdets luckor som det blir spännande. Tal som 305 och 208 har en nolla på tiotalsplatsen, så den utvecklade formen blir 300 + 5 i stället för 300 + 0 + 5, och barnet måste läsa noga för att para ihop \"tvåhundraåtta\" med 208 och inte med 280. Varje runda har tre olika tal att reda ut samtidigt.",
         "Aktiviteten följer Lgr22 inom taluppfattning: att läsa och skriva tal upp till 1000 med siffror, med talord och i utvecklad form. Ingen timer och inga poäng — bara lugn och lekfull övning."
       ],
@@ -964,7 +964,7 @@
     },
     "money.count-out.2-md-c-8": {
       "about": [
-        "Barnet bygger upp en bestämd summa mynt för mynt genom att trycka in 1-, 2-, 5- och 10-kronor i facket tills pengarna stämmer — 7 kronor av en femma och två enkronor, eller 15 kronor av en tia och en femma. Det är en gratis, interaktiv matteövning för årskurs 2 som körs direkt i webbläsaren utan installation och utan konto.",
+        "Barnet bygger upp en bestämd summa mynt för mynt genom att trycka in 1-, 2-, 5- och 10-kronor i facket tills pengarna stämmer — 7 kronor av en femma och två enkronor, eller 15 kronor av en tia och en femma. Det är en interaktiv matteövning för årskurs 2 som körs direkt i webbläsaren utan installation och utan konto.",
         "Den stora idén är att ett mynts värde inte syns på dess storlek, så barnet måste veta vad varje mynt är värt och lägga ihop allteftersom. En liten tia är värd mer än en stor femma, och en enda tia kan väga upp en hel hög enkronor. Att nå varje summa genom att välja och lägga till mynt bygger den löpande summering som riktig pengahantering kräver.",
         "Aktiviteten följer Lgr22 inom området pengar och tal i vardagen: att lösa vardagsproblem med svenska kronor. Ingen timer och inga poäng — bara lugn och lekfull övning."
       ],
@@ -987,7 +987,7 @@
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {
       "about": [
-        "En subtraktion som 8 − 3 visas som en talkompis — det hela (8) och en del (3) är givna — och barnet fyller i den del som saknas. Det är en gratis, interaktiv matteövning för årskurs 1 som körs direkt i webbläsaren utan konto.",
+        "En subtraktion som 8 − 3 visas som en talkompis — det hela (8) och en del (3) är givna — och barnet fyller i den del som saknas. Det är en interaktiv matteövning för årskurs 1 som körs direkt i webbläsaren utan konto.",
         "Den stora idén är att läsa subtraktion som \"vad ska till tillsammans med 3 för att bli 8?\" — alltså en del som saknas, snarare än att räkna bort något. Barnet fyller den tomma delen tills de två delarna bygger upp det hela igen, så det djupa sambandet mellan subtraktion och addition är precis det barnet gör. Rundorna når helheter upp till 16.",
         "Aktiviteten följer Lgr22 inom området taluppfattning och räknesätt: att förstå subtraktion som att hitta en del som saknas. Ingen timer och inga poäng — bara lugn och lekfull övning."
       ],
@@ -1010,7 +1010,7 @@
     },
     "place-value.expanded-form.2-nbt-a-3": {
       "about": [
-        "Barnet bygger ett tresiffrigt tal av basklossar — det trycker in hundraplattor, tiostavar och enhetskuber — och när bygget är rätt visar klossarna den utvecklade formen, så 247 blir 200 + 40 + 7. Talen sträcker sig från 108 upp till 974, inklusive kluriga tal som 305. Det är en gratis, interaktiv matteövning för årskurs 2 som körs direkt i webbläsaren utan konto.",
+        "Barnet bygger ett tresiffrigt tal av basklossar — det trycker in hundraplattor, tiostavar och enhetskuber — och när bygget är rätt visar klossarna den utvecklade formen, så 247 blir 200 + 40 + 7. Talen sträcker sig från 108 upp till 974, inklusive kluriga tal som 305. Det är en interaktiv matteövning för årskurs 2 som körs direkt i webbläsaren utan konto.",
         "Den stora idén är att ett tal är summan av vad varje siffra är värd. När barnet bygger 247 av två hundratal, fyra tiotal och sju ental ser det att 4:an betyder 40, inte bara \"fyra\". Tal med en nolla är de bästa lärarna: 305 visar att en tom tiotalsplats inte lägger till något, så den utvecklade formen blir bara 300 + 5. Klossarna kopplar ihop siffrorna med deras verkliga värde.",
         "Aktiviteten följer Lgr22 inom taluppfattning: att läsa och skriva tresiffriga tal i utvecklad form. Ingen timer och inga poäng — bara lugn och lekfull övning."
       ],
@@ -1033,7 +1033,7 @@
     },
     "ten-frame.solve-the-story.k-oa-a-2": {
       "about": [
-        "\"3 fåglar sitter på en gren, 2 till landar — hur många är de nu?\" En liten berättelse visas, barnet gestaltar den med markörer på en tioram för att avgöra om något ska läggas till eller tas bort, och skriver sedan svaret på knappsatsen. Det är en gratis, interaktiv matteövning för förskoleklass med textuppgifter inom 10, som körs i webbläsaren utan konto.",
+        "\"3 fåglar sitter på en gren, 2 till landar — hur många är de nu?\" En liten berättelse visas, barnet gestaltar den med markörer på en tioram för att avgöra om något ska läggas till eller tas bort, och skriver sedan svaret på knappsatsen. Det är en interaktiv matteövning för förskoleklass med textuppgifter inom 10, som körs i webbläsaren utan konto.",
         "Textuppgifter är där talen möter mening. Barnet måste avgöra om berättelsen lägger ihop grupper eller tar bort några, vilket är svårare än att få ett färdigt plus- eller minustecken. Tioramen är ett stöd som barnet kan använda för att spela upp berättelsen, men svaret skrivs på knappsatsen — så arbetet handlar om att läsa, välja räknesätt och sedan räkna för att vara säker.",
         "Aktiviteten följer Lgr22 inom området räknesätt: att lösa textuppgifter med addition och subtraktion inom 10 med hjälp av föremål eller bilder. Ingen timer och inga poäng — bara lugn och lekfull övning."
       ],
@@ -1056,7 +1056,7 @@
     },
     "choice-board.count-sides.k-g-b-4": {
       "about": [
-        "Här dyker en form upp i taget, och barnet räknar dess raka sidor och trycker sedan på siffran som stämmer — en triangel med 3 sidor, en kvadrat med 4, en femhörning med 5 eller en sexhörning med 6. Sifferknapparna kommer ur ett urval mellan 3 och 8. Det är en gratis, interaktiv geometriövning för förskoleklass som körs direkt i webbläsaren på surfplatta, telefon eller klassrumsdator, utan att något behöver installeras och utan konto.",
+        "Här dyker en form upp i taget, och barnet räknar dess raka sidor och trycker sedan på siffran som stämmer — en triangel med 3 sidor, en kvadrat med 4, en femhörning med 5 eller en sexhörning med 6. Sifferknapparna kommer ur ett urval mellan 3 och 8. Det är en interaktiv geometriövning för förskoleklass som körs direkt i webbläsaren på surfplatta, telefon eller klassrumsdator, utan att något behöver installeras och utan konto.",
         "Den stora idén är att en form är mer än sitt namn — den är uppbyggd av delar som man kan räkna. Barnet kan inte vinna genom att bara känna igen \"en triangel\", utan måste följa varje kant med blicken och räkna sidorna en i taget. Eftersom sifferknapparna har närliggande tal, som 5 bredvid 6, märks det om man räknar fel med ett enda steg, och det lockar fram noggrann räkning med fingret på varje sida i stället för en snabb gissning.",
         "Aktiviteten följer Lgr22 inom geometri: att beskriva och jämföra former utifrån deras delar, till exempel antalet sidor. Ingen tid, inga poäng — bara lugn och lekfull träning i barnets egen takt."
       ],
@@ -1079,7 +1079,7 @@
     },
     "choice-board.pick-smaller.k-c-c-7": {
       "about": [
-        "Två skrivna tal visas, och barnet trycker på det som är mindre — som 3 och 5, eller 8 och 9. Vissa par ligger långt ifrån varandra, till exempel 1 och 9, och andra ligger nära, till exempel 5 och 6. Det är en gratis, interaktiv räkneövning för förskoleklass som spelas direkt i webbläsaren, utan registrering och utan konto.",
+        "Två skrivna tal visas, och barnet trycker på det som är mindre — som 3 och 5, eller 8 och 9. Vissa par ligger långt ifrån varandra, till exempel 1 och 9, och andra ligger nära, till exempel 5 och 6. Det är en interaktiv räkneövning för förskoleklass som spelas direkt i webbläsaren, utan registrering och utan konto.",
         "Den stora idén är att jämföra tal i sifferform efter deras värde, och att leta efter det som är mindre i stället för det som är störst — en liten men viktig vändning av uppmärksamheten. Det finns inga föremål att räkna, så barnet läser varje siffra och avgör vilket tal som är minst. De närliggande paren gör övningen på riktigt: att veta att 8 kommer precis före 9 är det som avslöjar att 8 är mindre.",
         "Aktiviteten följer Lgr22 inom taluppfattning: att jämföra två tal mellan 1 och 10 som visas i sifferform. Ingen tid, inga poäng — bara lugn och lekfull träning."
       ],
@@ -1102,7 +1102,7 @@
     },
     "choice-board.read-sight-word.rf-k-3-c": {
       "about": [
-        "Barnet hör ett vanligt, högfrekvent ord uppläst och trycker sedan på det rätt skrivna ordet bland fyra ord som ser lika ut — vardagliga ord som och, är, det, jag, en, att och som, ord som dyker upp hela tiden i tidiga texter. Det är en gratis, interaktiv läsövning för årskurs 1 som körs direkt i webbläsaren på surfplatta, telefon och dator, utan installation och utan konto.",
+        "Barnet hör ett vanligt, högfrekvent ord uppläst och trycker sedan på det rätt skrivna ordet bland fyra ord som ser lika ut — vardagliga ord som och, är, det, jag, en, att och som, ord som dyker upp hela tiden i tidiga texter. Det är en interaktiv läsövning för årskurs 1 som körs direkt i webbläsaren på surfplatta, telefon och dator, utan installation och utan konto.",
         "Den stora idén är att känna igen vanliga ord direkt på utseendet, så att läsningen kan flyta. Många av de här orden går inte att ljuda ut på ett enkelt sätt, så de felaktiga alternativen är nära släktingar — är bredvid har, en bredvid ett — och barnet måste känna igen just det rätta ordet, inte bara en liknande form. Att höra ordet och hitta det i skrift kopplar ihop ljud och stavning för de ord barnet möter allra oftast.",
         "Aktiviteten stödjer tidig ordavkodning enligt Lgr22: att läsa vanliga, högfrekventa ord som hela ord. Ingen tid, inga poäng — bara lugn och lekfull träning."
       ],
@@ -1125,7 +1125,7 @@
     },
     "choice-board.letter-case.rf-k-1-d": {
       "about": [
-        "En bokstav visas, och barnet trycker på samma bokstav i dess andra form — stor bokstav till liten, eller liten till stor. Ett stort B visas och barnet hittar det lilla b; ett stort R hittar r; ett stort Ä hittar ä. Hela alfabetet är med, även å, ä och ö. Det är en gratis, interaktiv läsövning för förskoleklass som spelas direkt i webbläsaren utan konto.",
+        "En bokstav visas, och barnet trycker på samma bokstav i dess andra form — stor bokstav till liten, eller liten till stor. Ett stort B visas och barnet hittar det lilla b; ett stort R hittar r; ett stort Ä hittar ä. Hela alfabetet är med, även å, ä och ö. Det är en interaktiv läsövning för förskoleklass som spelas direkt i webbläsaren utan konto.",
         "Den stora idén är att varje bokstav har två utseenden som betyder samma bokstav. De felaktiga alternativen är medvetet lika — för B kan de små bokstäverna vara b, d, p och h — så barnet måste känna igen bokstavens riktiga form, inte bara välja något runt. Att reda ut bokstäver som vänder och vrider sig, som b och d, är precis det noggranna tittande som bygger en trygg bokstavskännedom.",
         "Aktiviteten följer Lgr22: att känna igen och namnge alfabetets stora och små bokstäver. Ingen tid, inga poäng — bara lugn och lekfull träning i er egen takt."
       ],
@@ -1148,7 +1148,7 @@
     },
     "fractions.partition-thirds.2-g-a-3": {
       "about": [
-        "En cirkel, triangel, sexhörning, kvadrat, rektangel, romb eller ellips dyker upp, och barnet trycker på delningslinjerna för att dela den i tre lika stora delar — tredjedelar. Det är en gratis, interaktiv geometriövning för årskurs 2 som körs i webbläsaren på vilken enhet som helst, utan installation och utan konto.",
+        "En cirkel, triangel, sexhörning, kvadrat, rektangel, romb eller ellips dyker upp, och barnet trycker på delningslinjerna för att dela den i tre lika stora delar — tredjedelar. Det är en interaktiv geometriövning för årskurs 2 som körs i webbläsaren på vilken enhet som helst, utan installation och utan konto.",
         "Den stora idén är att tredjedelar är klurigare än halvor, eftersom tre lika stora delar inte hamnar på en självklar mittlinje. En cirkel delas med tre linjer från mitten, en rektangel i tre lika breda remsor, en triangel i tre lika delar — så barnet lär sig att \"tredjedelar\" betyder tre lika stora delar oavsett hur formen delas. Att göra själva delningen bygger en känsla för lika delar som man inte får av att bara titta på en bild.",
         "Aktiviteten följer Lgr22 inom geometri: att dela cirklar och rektanglar i två, tre eller fyra lika stora delar och att använda ordet tredjedelar om delarna. Ingen tid, inga poäng — bara lugn och lekfull träning."
       ],
@@ -1171,7 +1171,7 @@
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {
       "about": [
-        "Barnet löser uppgifter som ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 och 10 − ? = 6, och trycker sedan på uppgiften och talet som löser den för att koppla ihop paret. Det är en gratis, interaktiv matematikövning för årskurs 1 som körs direkt i webbläsaren, utan installation och utan konto.",
+        "Barnet löser uppgifter som ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 och 10 − ? = 6, och trycker sedan på uppgiften och talet som löser den för att koppla ihop paret. Det är en interaktiv matematikövning för årskurs 1 som körs direkt i webbläsaren, utan installation och utan konto.",
         "Den stora idén är att det okända talet kan stå var som helst — en saknad term, talet man tar bort, det första talet eller hela talet — så barnet måste tänka igenom sambandet varje gång i stället för att alltid \"addera för att hitta svaret\". Ibland är det tomma rutan summan (5 + 4 = ?) och ibland gömmer den sig inne i uppgiften (? − 4 = 1), vilket bygger en äkta rörlighet mellan additions- och subtraktionsfamiljer.",
         "Aktiviteten följer Lgr22: att hitta det okända talet i en addition eller subtraktion, var som helst i uträkningen. Ingen tid, inga poäng — bara lugn och lekfull träning."
       ],
@@ -1194,7 +1194,7 @@
     },
     "money.make-change.2-md-c-8": {
       "about": [
-        "Något kostar 7 kronor och du betalar med 10 kronor — barnet ger tillbaka rätt växel, här 3 kronor som en tvåkrona och en enkrona, genom att trycka mynt till brickan. Att räkna ut skillnaden och bygga upp den av en-, två-, fem- och tiokronor förenar subtraktion med praktisk mynträkning, i en gratis, interaktiv pengaövning för årskurs 2 som spelas direkt i webbläsaren utan installation och utan konto.",
+        "Något kostar 7 kronor och du betalar med 10 kronor — barnet ger tillbaka rätt växel, här 3 kronor som en tvåkrona och en enkrona, genom att trycka mynt till brickan. Att räkna ut skillnaden och bygga upp den av en-, två-, fem- och tiokronor förenar subtraktion med praktisk mynträkning, i en interaktiv pengaövning för årskurs 2 som spelas direkt i webbläsaren utan installation och utan konto.",
         "Den stora idén är att växel är skillnaden mellan det man betalar och det något kostar. Barnet räknar först ut hur mycket som ska tillbaka och bygger sedan upp beloppet av mynt det väljer själv — 1, 2, 5 och 10 kronor — vilket förenar subtraktion med konkret mynträkning. Eftersom värdet inte står skrivet på varje mynt måste barnet veta vad varje mynt är värt och räkna uppåt till växeln som ska tillbaka.",
         "Aktiviteten följer Lgr22: att lösa vardagsproblem med pengar i hela kronor och att räkna växel. Ingen tid, inga poäng — bara lugn och lekfull träning."
       ],
@@ -1217,7 +1217,7 @@
     },
     "numberbond.add-three.1-oa-a-2": {
       "about": [
-        "En tredelad talkamrat förenar tre tal, som 3, 4 och 5, till ett helt, och barnet adderar alla tre och skriver summan på knappsatsen. Det är en gratis, interaktiv matematikövning för årskurs 1 som spelas direkt i webbläsaren utan konto.",
+        "En tredelad talkamrat förenar tre tal, som 3, 4 och 5, till ett helt, och barnet adderar alla tre och skriver summan på knappsatsen. Det är en interaktiv matematikövning för årskurs 1 som spelas direkt i webbläsaren utan konto.",
         "Att se tre delar mynna ut i ett helt visar att man kan lägga ihop tal i vilken ordning som helst och steg för steg. Par som 4 + 4 + 5 bjuder stillsamt in till att först göra ett vänligt tal och sedan lägga till den sista delen. Barnet läser de tre delarna och skriver summan; prickarna inne i varje del finns där att räkna när en talkombination ännu inte sitter automatiskt.",
         "Aktiviteten följer Lgr22: att addera tre tal med en summa upp till 20. Ingen tid, inga poäng — bara lugn och lekfull träning."
       ],
@@ -1240,7 +1240,7 @@
     },
     "sort-bins.sort-by-sides.2-g-a-1": {
       "about": [
-        "I varje omgång ramlar en hög med former ner — rätvinkliga och trubbiga trianglar, kvadrater, romber, oregelbundna femhörningar och sexhörningar — och barnet räknar sidorna på varje form och drar den till rätt låda. Det är en gratis, interaktiv geometriövning för årskurs 2 som spelas i webbläsaren utan registrering.",
+        "I varje omgång ramlar en hög med former ner — rätvinkliga och trubbiga trianglar, kvadrater, romber, oregelbundna femhörningar och sexhörningar — och barnet räknar sidorna på varje form och drar den till rätt låda. Det är en interaktiv geometriövning för årskurs 2 som spelas i webbläsaren utan registrering.",
         "Det viktiga draget är att räkna sidorna i stället för att matcha en bild man minns, för en utdragen eller lutande femsidig form är fortfarande en femhörning. Genom att möta oregelbundna och vridna former sida vid sida med de prydliga övar barnet på att använda antalet sidor som regeln som namnger en månghörning. Det bygger orden — fyrhörning, femhörning, sexhörning — och vanan att beskriva former utifrån deras delar.",
         "Aktiviteten följer Lgr22: att känna igen och rita former med bestämda egenskaper, som ett visst antal sidor, och att skilja på trianglar, fyrhörningar, femhörningar och sexhörningar. Ingen tid, inga poäng — bara lugn och lekfull träning."
       ],
@@ -1263,7 +1263,7 @@
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {
       "about": [
-        "En snabb uppgift dyker upp — 2 + 1, 5 − 2, 4 − 1 — och barnet trycker på rätt svar bland tre närliggande tal, med en tioram bredvid som ett valfritt stöd att tänka på. Målet är en snabb och trygg återkallning av talkombinationer inom 5. Den här gratis, interaktiva matematikövningen för förskoleklass spelas i webbläsaren utan registrering.",
+        "En snabb uppgift dyker upp — 2 + 1, 5 − 2, 4 − 1 — och barnet trycker på rätt svar bland tre närliggande tal, med en tioram bredvid som ett valfritt stöd att tänka på. Målet är en snabb och trygg återkallning av talkombinationer inom 5. Den här interaktiva matematikövningen för förskoleklass spelas i webbläsaren utan registrering.",
         "Säkerhet inom 5 är bron mellan att räkna och riktig aritmetik. De tre svarsalternativen ligger nära varandra — för 2 + 2 är alternativen 3, 4 och 5 — så barnet kan inte vinna genom att välja det största eller minsta, utan måste kunna kombinationen eller räkna ut den på ramen. Genom omgångarna börjar kombinationer som barnet först räknade ut komma direkt, och det är precis vad säkerhet betyder.",
         "Aktiviteten följer Lgr22: att addera och subtrahera med säkerhet inom 5. Ingen tid, inga poäng — bara lugn och lekfull träning."
       ],
@@ -1286,7 +1286,7 @@
     },
     "choice-board.pick-bigger.k-c-c-7": {
       "about": [
-        "Två skrivna tal dyker upp och barnet trycker på det som är störst — till exempel 7 och 6, eller 8 och 7. Ibland ligger talen långt ifrån varandra, som 9 och 2, och ibland alldeles intill varandra, som 8 och 7. Det är en gratis, interaktiv räkneövning för förskoleklass som körs direkt i webbläsaren på surfplatta, telefon eller dator — inget att installera och inget konto behövs.",
+        "Två skrivna tal dyker upp och barnet trycker på det som är störst — till exempel 7 och 6, eller 8 och 7. Ibland ligger talen långt ifrån varandra, som 9 och 2, och ibland alldeles intill varandra, som 8 och 7. Det är en interaktiv räkneövning för förskoleklass som körs direkt i webbläsaren på surfplatta, telefon eller dator — inget att installera och inget konto behövs.",
         "Den stora idén är att jämföra tal i sifferform, inte som högar med saker att räkna. Det finns inga bilder att luta sig mot — barnet behöver veta att 8 är mer än 7 bara genom att läsa siffrorna. Det är de tal som ligger nära varandra som gör övningen till riktig träning: barnet kan inte vinna genom att hitta ett tal som ser större ut, utan måste känna till värdet som varje siffra står för. Aktiviteten följer Lgr22 och tränar att jämföra två tal mellan 1 och 10. Ingen timer och inga poäng — bara lugn, lekfull övning."
       ],
       "practices": [
@@ -1308,7 +1308,7 @@
     },
     "choice-board.how-many-group.k-c-c-b-5": {
       "about": [
-        "En grupp glada bilder visas — kanske en uggla, fyra rävar eller åtta elefanter — och barnet räknar föremålen och trycker på den siffra som stämmer. Det är en gratis, interaktiv räkneövning för förskoleklass som körs direkt i webbläsaren på surfplatta, telefon eller klassrumsdator, utan något att installera och utan konto.",
+        "En grupp glada bilder visas — kanske en uggla, fyra rävar eller åtta elefanter — och barnet räknar föremålen och trycker på den siffra som stämmer. Det är en interaktiv räkneövning för förskoleklass som körs direkt i webbläsaren på surfplatta, telefon eller klassrumsdator, utan något att installera och utan konto.",
         "Den stora idén är antalsuppfattning — att det sista talet man säger när man räknar talar om hur många det finns sammanlagt. Eftersom föremålen visas i rader, i små rutmönster och i utspridda klungor kan barnet inte förlita sig på ett inlärt mönster, utan måste räkna varje bild en och endast en gång. Sifferalternativen ligger nära varandra, som 7, 8 och 9, så att en felräkning på ett dyker upp och bjuder in till en lugn omräkning. Aktiviteten följer Lgr22 och tränar att räkna upp till 10 föremål för att svara på frågan 'hur många finns det?'. Ingen timer och inga poäng."
       ],
       "practices": [
@@ -1330,7 +1330,7 @@
     },
     "choice-board.tell-words-apart.rf-k-3-c": {
       "about": [
-        "Barnet hör ett vanligt ord läsas upp och trycker sedan på rätt ord bland tre närliggande tvillingar — was bland saw, war och wax; of bland off, for och or; were bland where, here och we; want bland went, what och wait. Det är en gratis, interaktiv läsövning för åk 1 som körs i webbläsaren med ljud och utan registrering, och som skärper de vanliga ordbilder som barn oftast blandar ihop.",
+        "Barnet hör ett vanligt ord läsas upp och trycker sedan på rätt ord bland tre närliggande tvillingar — was bland saw, war och wax; of bland off, for och or; were bland where, here och we; want bland went, what och wait. Det är en interaktiv läsövning för åk 1 som körs i webbläsaren med ljud och utan registrering, och som skärper de vanliga ordbilder som barn oftast blandar ihop.",
         "De här ordbilderna ser nästan likadana ut, så en snabb blick räcker inte. Barnet måste hålla det hörda ordet i minnet och granska de skrivna alternativen bokstav för bokstav för att hitta den exakta motsvarigheten — och lägga märke till att was inte är saw baklänges, och att of inte är off med en bokstav extra. Just det noggranna tittandet är det som förvandlar osäkra gissningar till den snabba, säkra ordavläsning som flytande läsning bygger på. Aktiviteten stödjer den tidiga avkodningen i åk 1 enligt Lgr22. Ingen timer och inga poäng — bara lugn, lekfull övning."
       ],
       "practices": [
@@ -1352,7 +1352,7 @@
     },
     "choice-board.beginning-sound.rf-k-3-a": {
       "about": [
-        "En enda bokstav visas — som D, F eller M — och barnet trycker på den bild vars ord börjar med just den bokstavens ljud, och väljer bland bekanta grupper som djur, mat och vardagsföremål (en hund, en fisk, en älg, en tiger). Det är en gratis fonikövning för förskoleklass som körs direkt i webbläsaren, utan något att installera och utan konto.",
+        "En enda bokstav visas — som D, F eller M — och barnet trycker på den bild vars ord börjar med just den bokstavens ljud, och väljer bland bekanta grupper som djur, mat och vardagsföremål (en hund, en fisk, en älg, en tiger). Det är en fonikövning för förskoleklass som körs direkt i webbläsaren, utan något att installera och utan konto.",
         "Varje omgång visar en rätt bild och tre som börjar med andra ljud, så barnet kan inte gissa — det måste säga varje bilds namn och lyssna efter allra första ljudet. Att koppla bokstaven F till f-ljudet i början av 'fisk' är just den kopplingen mellan bokstav och ljud som övningen handlar om, och att höra det rätta ljudet mot ord som börjar annorlunda gör det första ljudet tydligt. Att känna igen första ljudet är ett viktigt steg in i läsningen, helt i linje med Lgr22. Ingen timer och inga poäng — bara lugn lek med ljud och bokstäver."
       ],
       "practices": [
@@ -1374,7 +1374,7 @@
     },
     "fractions.make-and-count-squares.2-g-a-2": {
       "about": [
-        "Barnet trycker på de prickade linjerna för att dela in en rektangel i rader och kolumner med lika stora rutor — 2 rader och 3 kolumner, 3 rader och 4 kolumner, ända upp till 4 rader och 5 kolumner — och skriver sedan hur många rutor det blir sammanlagt. Det är en gratis, interaktiv geometriövning för årskurs 2 som körs i webbläsaren på vilken enhet som helst, utan något att installera och utan konto.",
+        "Barnet trycker på de prickade linjerna för att dela in en rektangel i rader och kolumner med lika stora rutor — 2 rader och 3 kolumner, 3 rader och 4 kolumner, ända upp till 4 rader och 5 kolumner — och skriver sedan hur många rutor det blir sammanlagt. Det är en interaktiv geometriövning för årskurs 2 som körs i webbläsaren på vilken enhet som helst, utan något att installera och utan konto.",
         "Den stora idén är att en rektangel kan delas in i lika stora rutor i prydliga rader och kolumner, och att just rad-och-kolumn-strukturen hjälper en att räkna dem. Eftersom barnet bygger rutnätet själv och sedan räknar börjar det känna att 3 rader med 4 rutor betyder att räkna i lika stora grupper — den tysta början på rutnät och multiplikation. Rutorna är medvetet lika stora, så att 'hur många' blir ett riktigt totalantal av lika stora delar. Aktiviteten följer Lgr22 inom geometri. Ingen timer och inga poäng — bara lugn, lekfull övning."
       ],
       "practices": [
@@ -1396,7 +1396,7 @@
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {
       "about": [
-        "Barnet läser en jämförelse som 247 ___ 274 eller 583 ___ 419 och kopplar den sedan till den symbol som gör den sann — mindre än (<) eller större än (>) — genom att trycka på jämförelsekortet och sedan på rätt symbol. Det är ett gratis, interaktivt parkopplingsspel i matematik för årskurs 2 som körs direkt i webbläsaren — ingen installation och inget konto.",
+        "Barnet läser en jämförelse som 247 ___ 274 eller 583 ___ 419 och kopplar den sedan till den symbol som gör den sann — mindre än (<) eller större än (>) — genom att trycka på jämförelsekortet och sedan på rätt symbol. Det är ett interaktivt parkopplingsspel i matematik för årskurs 2 som körs direkt i webbläsaren — ingen installation och inget konto.",
         "Den stora idén är att jämföra med hjälp av positionssystemet, hundratalen först. Talparen är valda så att barnet inte kan klara sig på en snabb blick: tal som 655 och 658 har samma hundratal och tiotal, så entalet avgör, medan 480 och 408 tvingar fram en titt på tiotalen. Att arbeta från vänster till höger — hundratal, sedan tiotal, sedan ental — är precis det resonemang som parkopplingen får barnet att öva. Aktiviteten följer Lgr22 och tränar att jämföra tresiffriga tal med >, = och <. Ingen timer och inga poäng — bara lugn, lekfull övning."
       ],
       "practices": [
@@ -1418,7 +1418,7 @@
     },
     "numberbond.make-ten.k-oa-a-4": {
       "about": [
-        "Helheten är 10 och en del av talkamraten är redan ifylld — säg 7 — och barnet trycker på den tomma delen för att lägga till markörer tills båda delarna tillsammans blir 10. Det är en gratis, interaktiv matteaktivitet för förskoleklass som körs direkt i webbläsaren, utan konto och utan registrering.",
+        "Helheten är 10 och en del av talkamraten är redan ifylld — säg 7 — och barnet trycker på den tomma delen för att lägga till markörer tills båda delarna tillsammans blir 10. Det är en interaktiv matteaktivitet för förskoleklass som körs direkt i webbläsaren, utan konto och utan registrering.",
         "Varje tal från 1 till 9 har en kompis som tillsammans bildar tio, och här bygger barnet den kompisen genom att lägga till en markör i taget och se de två delarna växa mot 10 — inte genom att läsa av ett färdigt svar. Själva talkamraten är svarsytan; barnet stannar när båda delarna blir precis tio, så en del som är för liten eller för stor är lätt att känna och rätta till. Aktiviteten övar tiokompisar enligt Lgr22 och passar barn i förskoleklass (5–6 år) som börjar utforska hur tal kan byggas ihop. Ingen timer och inga poäng — bara lugn, lekfull övning."
       ],
       "practices": [
@@ -1440,7 +1440,7 @@
     },
     "numberbond.story-problem.2-oa-a-1": {
       "about": [
-        "Barnet läser ett kort lästal — 20 röda tulpaner och 30 gula tulpaner, en hylla med 45 böcker, ankor som kommer till en damm — ser det uppritat som en talkamrat och skriver sedan det tal som saknas. Det är en gratis, interaktiv matteaktivitet för årskurs 2 som körs direkt i webbläsaren, utan konto.",
+        "Barnet läser ett kort lästal — 20 röda tulpaner och 30 gula tulpaner, en hylla med 45 böcker, ankor som kommer till en damm — ser det uppritat som en talkamrat och skriver sedan det tal som saknas. Det är en interaktiv matteaktivitet för årskurs 2 som körs direkt i webbläsaren, utan konto.",
         "Talkamraten gör varje berättelse till samma bild: två delar och en helhet. Det låter barnet se om det okända är hela antalet, en del som blir kvar eller ett startantal. Vissa uppgifter handlar om addition (hur många sammanlagt), andra om subtraktion (hur många är kvar, hur många kom till), och talkamraten gör det valet tydligt i stället för att barnet ska gissa utifrån ett nyckelord. Aktiviteten följer Lgr22 och tränar att lösa lästal med addition och subtraktion inom talområdet 0–100. Ingen timer och inga poäng — bara lugn, lekfull övning."
       ],
       "practices": [
@@ -1462,7 +1462,7 @@
     },
     "sort-bins.defining-attributes.1-g-a-1": {
       "about": [
-        "Är det fortfarande en triangel om den är röd, stor eller lutad? Varje omgång namnges en form, och barnet drar varje form till rätt låda genom att avgöra vad den ÄR, inte hur den ser ut — och sorterar riktiga trianglar från fyrhörningar, femhörningar och sexhörningar. Det är en gratis, interaktiv geometriövning för årskurs 1 som körs i webbläsaren, utan något att installera.",
+        "Är det fortfarande en triangel om den är röd, stor eller lutad? Varje omgång namnges en form, och barnet drar varje form till rätt låda genom att avgöra vad den ÄR, inte hur den ser ut — och sorterar riktiga trianglar från fyrhörningar, femhörningar och sexhörningar. Det är en interaktiv geometriövning för årskurs 1 som körs i webbläsaren, utan något att installera.",
         "Hela poängen är skillnaden mellan en avgörande egenskap och en som inte avgör. En triangel definieras av att ha tre sidor — punkt slut — medan att vara röd, stor eller lutad bara är hur just den här triangeln råkar se ut. Genom att sortera exempel mot lockande motexempel lär sig barnet att bortse från ytan och bedöma efter den egenskap som faktiskt spelar roll. Det är början på riktigt geometriskt tänkande, helt i linje med Lgr22. Ingen timer och inga poäng — bara lugn, lekfull övning."
       ],
       "practices": [
@@ -1484,7 +1484,7 @@
     },
     "seriation.compare-length.1-md-a-1": {
       "about": [
-        "Tillys band hänger på hyllor långt ifrån varandra, och tre av dem visas åt gången i sina riktiga längder — ett rött, blått, grönt, gult, lila eller orange band — bredvid ett rep och en streckad linje som visar var repet tar slut. Barnet tittar, jämför och trycker på färgknappen för det band som frågan gäller: det längsta, det kortaste eller det som är precis lika långt som repet. Det är en gratis, interaktiv mätövning som körs direkt i webbläsaren, utan nedladdning och utan konto.",
+        "Tillys band hänger på hyllor långt ifrån varandra, och tre av dem visas åt gången i sina riktiga längder — ett rött, blått, grönt, gult, lila eller orange band — bredvid ett rep och en streckad linje som visar var repet tar slut. Barnet tittar, jämför och trycker på färgknappen för det band som frågan gäller: det längsta, det kortaste eller det som är precis lika långt som repet. Det är en interaktiv mätövning som körs direkt i webbläsaren, utan nedladdning och utan konto.",
         "Den stora idén är att repet får vara ett gemensamt mått. I stället för att ställa banden mot varandra håller barnet varje band mot repet och ser om det räcker förbi den streckade linjen eller tar slut innan den. Då går det att avgöra vilket band som är längst även när banden ligger på olika hyllor. Det kallas indirekt jämförelse — två saker jämförs med hjälp av ett tredje föremål — och det är just steget mellan att lägga saker bredvid varandra och att mäta med en linjal. Här finns inga tal, inga enheter och inget mätverktyg med skala.",
         "Aktiviteten följer Lgr22 inom området mätning: att jämföra och uppskatta längder, och att jämföra två föremål med hjälp av ett tredje. De nio omgångarna blandas om varje gång aktiviteten startas, så de kommer i ny följd vid varje besök. Ingen timer, inga poäng — bara lugn, lekfull träning."
       ],
@@ -1507,7 +1507,7 @@
     },
     "lay-units.measure.1-md-a-2": {
       "about": [
-        "I Mätis trädgård ligger ett löv, en morot, en pinne, ett band, en penna eller en krita — och Mätis vill veta exakt hur långt det är. Mätis är en mätarlarv: den kryper fram genom att lägga sin egen kropp längs marken, bit för bit — och precis så går det till här. Barnet trycker på plusknappen och får en hjälpare, en liten mask som är exakt lika lång som alla de andra, men den landar alltid en aning fel. Med pilknapparna ◀ och ▶ puttar barnet hjälparen på plats tills den ligger tätt intill den förra, och fortsätter tills hela föremålet är täckt. Sedan trycker barnet på varje hjälpare en gång för att räkna dem. Det är en gratis, interaktiv mätövning som körs direkt i webbläsaren, utan nedladdning och utan konto.",
+        "I Mätis trädgård ligger ett löv, en morot, en pinne, ett band, en penna eller en krita — och Mätis vill veta exakt hur långt det är. Mätis är en mätarlarv: den kryper fram genom att lägga sin egen kropp längs marken, bit för bit — och precis så går det till här. Barnet trycker på plusknappen och får en hjälpare, en liten mask som är exakt lika lång som alla de andra, men den landar alltid en aning fel. Med pilknapparna ◀ och ▶ puttar barnet hjälparen på plats tills den ligger tätt intill den förra, och fortsätter tills hela föremålet är täckt. Sedan trycker barnet på varje hjälpare en gång för att räkna dem. Det är en interaktiv mätövning som körs direkt i webbläsaren, utan nedladdning och utan konto.",
         "Den stora idén är att en längd går att mäta med vilken enhet som helst, så länge enheterna är lika stora, ligger tätt efter varandra utan glipor och utan att överlappa, och den första börjar precis vid föremålets ena ände. Här finns ingen linjal, ingen skala, inga streck och inget tal vid föremålets slut — talet går inte att läsa av någonstans, det uppstår när barnet räknar hjälparna. Längden är helt enkelt antalet enheter. I en omgång får barnet i stället titta på tre färdiga rader och välja den som är rätt mätt, och i en annan mäts samma löv först med stora hjälpare och sedan med små: mindre enhet, fler enheter — samma löv.",
         "Aktiviteten följer Lgr22 inom området mätning: att mäta längd och att jämföra och uppskatta storheter — här med egna enheter, innan linjalen och centimetern kommer in. De tio omgångarna kommer i ny ordning varje gång, från de enklaste till de klurigaste. Ingen timer, inga poäng — bara lugn, lekfull träning."
       ],
@@ -1530,7 +1530,7 @@
     },
     "skipcount.fill.2-nbt-a-2": {
       "about": [
-        "En rad näckrosblad ligger över dammen med tal skrivna på sig — 5, 10, 15 — och över varje hopp står +5, +10 eller +100. Ett blad är tomt, och barnet trycker på det tal som hör hemma där för att hjälpa grodan Hopper vidare. Det är en gratis, interaktiv matteaktivitet som körs direkt i webbläsaren på surfplatta, telefon eller klassrumsdator — utan installation och utan konto.",
+        "En rad näckrosblad ligger över dammen med tal skrivna på sig — 5, 10, 15 — och över varje hopp står +5, +10 eller +100. Ett blad är tomt, och barnet trycker på det tal som hör hemma där för att hjälpa grodan Hopper vidare. Det är en interaktiv matteaktivitet som körs direkt i webbläsaren på surfplatta, telefon eller klassrumsdator — utan installation och utan konto.",
         "Aktiviteten har elva rader, och de blandas om till en ny ordning varje gång. Några är raka femhopp och tiohopp — 5, 10, 15, 20 och 20, 30, 40, 50 — och en är hundrahopp: 100, 200, 300, 400. Tre rader prövar mönstret på riktigt: en rad som inte börjar på ett femtal (3, 8, 13, 18, 23), en rad som passerar hundra (80, 90, 100, 110) och en rad som räknar bakåt (60, 50, 40, 30). Ett barn som bara kan ramsan 5, 10, 15, 20 utantill klarar dem inte — man måste se att hoppet är lika stort hela vägen.",
         "I tre av raderna är alla blad ifyllda och siffrorna över hoppen borta. Då är frågan i stället hur stort varje hopp är, och barnet väljer mellan +5, +10 och +100 — mönstret läses åt andra hållet, och barnet får själv sätta ord på hoppet. Allt sker med ett tryck; ingenting skrivs. Aktiviteten följer Lgr22 inom taluppfattning: att räkna framåt i 5-hopp, 10-hopp och 100-hopp, att räkna baklänges i tiohopp och att upptäcka mönstret i en talföljd. Ingen timer och inga poäng — bara lugn och lekfull övning."
       ],
@@ -1553,7 +1553,7 @@
     },
     "shapeforge.compose.1-g-a-2": {
       "about": [
-        "Barnet fogar samman lysande glaskristaller – trianglar och romber – tills de exakt fyller en tom form. Mim, räven i ljussmedjan, ber om en romb, ett tak, en stor triangel, en lykta eller en sexhörning; barnet väljer en kristall, vrider den och trycker på en plats där den passar. Det är en gratis, interaktiv geometriövning för årskurs 1 som körs direkt i webbläsaren, utan installation och utan konto.",
+        "Barnet fogar samman lysande glaskristaller – trianglar och romber – tills de exakt fyller en tom form. Mim, räven i ljussmedjan, ber om en romb, ett tak, en stor triangel, en lykta eller en sexhörning; barnet väljer en kristall, vrider den och trycker på en plats där den passar. Det är en interaktiv geometriövning för årskurs 1 som körs direkt i webbläsaren, utan installation och utan konto.",
         "Den stora idén är att former är byggda av mindre former. Sex trianglar blir en sexhörning – men det gör också tre romber, eller två romber och två trianglar. Därför kommer samma form tillbaka med uppmaningen att bygga den på ett NYTT sätt, och barnet upptäcker att en och samma form kan sättas samman på flera sätt. I några omgångar ligger redan en kristall på plats och barnet bygger vidare på den, eller täcker en yta med bara trianglar.",
         "Aktiviteten följer Lgr22 inom området geometri: grundläggande tvådimensionella former och hur de kan sättas samman till nya former och delas upp igen. En kristall kan aldrig hamna fel – bara de platser där den verkligen passar lyser upp – så barnet kan pröva fritt. Ingen timer och inga poäng."
       ],

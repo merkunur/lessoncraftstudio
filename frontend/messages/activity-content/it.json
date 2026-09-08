@@ -10,7 +10,7 @@
     "byStrand": {
       "Counting & Cardinality": {
         "about": [
-          "Questa è un'attività di conteggio interattiva e gratuita per i più piccoli, con numeri fino a {max}. Funziona direttamente nel browser su tablet, telefoni e computer della classe: non c'è nulla da installare, nessun account da creare e nessuna preparazione per l'insegnante.",
+          "Questa è un'attività di conteggio interattiva per i più piccoli, con numeri fino a {max}. Funziona direttamente nel browser su tablet, telefoni e computer della classe: non c'è nulla da installare, nessun account da creare e nessuna preparazione per l'insegnante.",
           "L'attività è allineata alle Indicazioni nazionali nell'ambito dei numeri. I bambini ricevono un riscontro delicato e immediato mentre procedono, così possono continuare a provare finché la risposta non sembra giusta. Non c'è nessun timer e nessun punteggio, solo esercizio sereno e concreto."
         ],
         "practices": [
@@ -32,7 +32,7 @@
       },
       "Number & Operations in Base Ten": {
         "about": [
-          "Questa attività interattiva e gratuita sul valore posizionale aiuta i bambini a vedere come il nostro sistema numerico sia costruito intorno ai gruppi di dieci, con numeri fino a {max}. Funziona in qualsiasi browser moderno, su tablet, telefono o sulla lavagna interattiva della classe, senza nulla da scaricare.",
+          "Questa attività interattiva sul valore posizionale aiuta i bambini a vedere come il nostro sistema numerico sia costruito intorno ai gruppi di dieci, con numeri fino a {max}. Funziona in qualsiasi browser moderno, su tablet, telefono o sulla lavagna interattiva della classe, senza nulla da scaricare.",
           "È allineata alle Indicazioni nazionali nell'ambito dei numeri. I bambini lavorano al proprio ritmo con un riscontro caloroso e immediato, e non c'è nessun timer o punteggio a metterli fretta."
         ],
         "practices": [
@@ -54,7 +54,7 @@
       },
       "Operations & Algebraic Thinking": {
         "about": [
-          "Questa attività interattiva e gratuita offre ai bambini un esercizio concreto sulle prime idee di addizione e sottrazione, con quantità fino a {max}. Funziona direttamente nel browser su qualsiasi dispositivo, senza nulla da installare e senza accesso.",
+          "Questa attività interattiva offre ai bambini un esercizio concreto sulle prime idee di addizione e sottrazione, con quantità fino a {max}. Funziona direttamente nel browser su qualsiasi dispositivo, senza nulla da installare e senza accesso.",
           "È allineata alle Indicazioni nazionali nell'ambito dei numeri. Il riscontro è immediato e incoraggiante, e non c'è nessun timer o punteggio: i bambini possono ragionare con calma al proprio ritmo."
         ],
         "practices": [
@@ -76,7 +76,7 @@
       },
       "Geometry": {
         "about": [
-          "Questa attività interattiva e gratuita sulle forme aiuta i bambini più piccoli a notare, nominare e confrontare le forme che li circondano. Funziona direttamente nel browser su tablet, telefoni e computer della classe, senza nulla da installare e senza bisogno di un account.",
+          "Questa attività interattiva sulle forme aiuta i bambini più piccoli a notare, nominare e confrontare le forme che li circondano. Funziona direttamente nel browser su tablet, telefoni e computer della classe, senza nulla da installare e senza bisogno di un account.",
           "È allineata alle Indicazioni nazionali nell'ambito dello spazio e delle figure. I bambini esplorano al proprio ritmo con un riscontro delicato e immediato: nessun timer, nessun punteggio, solo esercizio giocoso."
         ],
         "practices": [
@@ -98,7 +98,7 @@
       },
       "Measurement & Data": {
         "about": [
-          "Questa attività di misura gratuita e interattiva aiuta i bambini più piccoli a confrontare gli oggetti per dimensione — più alto, più corto e più lungo — senza alcun conteggio. Funziona direttamente nel browser su tablet, telefoni e computer della classe, senza nulla da installare e senza bisogno di un account.",
+          "Questa attività di misura interattiva aiuta i bambini più piccoli a confrontare gli oggetti per dimensione — più alto, più corto e più lungo — senza alcun conteggio. Funziona direttamente nel browser su tablet, telefoni e computer della classe, senza nulla da installare e senza bisogno di un account.",
           "È allineata alle Indicazioni nazionali nell'ambito {strand}. I bambini confrontano al proprio ritmo con un riscontro delicato e immediato — nessun timer, nessun punteggio, solo un gioco sereno per osservare con attenzione le dimensioni delle cose."
         ],
         "practices": [
@@ -120,7 +120,7 @@
       },
       "Reading: Foundational Skills": {
         "about": [
-          "Questa attività di lettura interattiva e gratuita offre ai bambini un esercizio concreto per pronunciare i suoni e costruire le parole. Funziona direttamente nel browser su tablet, telefoni e computer della classe, senza nulla da installare e senza account da configurare.",
+          "Questa attività di lettura interattiva offre ai bambini un esercizio concreto per pronunciare i suoni e costruire le parole. Funziona direttamente nel browser su tablet, telefoni e computer della classe, senza nulla da installare e senza account da configurare.",
           "È allineata alle Indicazioni nazionali nell'ambito della lettura. Ogni parola viene verificata per una divisione accurata e adatta ai bambini, e il riscontro è delicato e immediato: non c'è nessun timer e nessun punteggio."
         ],
         "practices": [
@@ -142,7 +142,7 @@
       },
       "Phonological Awareness": {
         "about": [
-          "Questa attività di ascolto interattiva e gratuita aiuta i bambini a sentire e a giocare con i suoni dentro le parole pronunciate. Funziona direttamente nel browser su qualsiasi dispositivo, senza nulla da installare e senza accesso richiesto.",
+          "Questa attività di ascolto interattiva aiuta i bambini a sentire e a giocare con i suoni dentro le parole pronunciate. Funziona direttamente nel browser su qualsiasi dispositivo, senza nulla da installare e senza accesso richiesto.",
           "È allineata alle Indicazioni nazionali nell'ambito della consapevolezza fonologica. Il riscontro è caloroso e immediato, e non c'è nessun timer o punteggio a mettere fretta a un piccolo studente."
         ],
         "practices": [
@@ -165,7 +165,7 @@
     },
     "generic": {
       "about": [
-        "Questa è un'attività di apprendimento interattiva e gratuita per i bambini più piccoli, che funziona direttamente nel browser su tablet, telefoni e computer della classe. Non c'è nulla da installare, nessun account da creare e nessuna preparazione per l'insegnante.",
+        "Questa è un'attività di apprendimento interattiva per i bambini più piccoli, che funziona direttamente nel browser su tablet, telefoni e computer della classe. Non c'è nulla da installare, nessun account da creare e nessuna preparazione per l'insegnante.",
         "È allineata alle Indicazioni nazionali nell'ambito {strand}. I bambini lavorano al proprio ritmo con un riscontro delicato e immediato, e non c'è nessun timer e nessun punteggio, solo esercizio sereno e concreto."
       ],
       "practices": [
@@ -219,7 +219,7 @@
       "about": [
         "Pip la volpe gestisce una piccola cioccolateria dove ogni frazione va colata a mano. Il bambino apre le ordinazioni, sceglie lo stampo giusto per DIMENSIONE — senza nessuna etichetta da leggere — e cola il pezzo di cioccolato il numero esatto di volte, finché la tavoletta è completa e l’ordine è pronto da consegnare. Costruire 3/4 significa colare tre volte il pezzo da un quarto: la frazione nasce sotto gli occhi, un pezzo alla volta, invece di comparire già scritta.",
         "Dietro il gioco c’è un’idea precisa: una frazione a/b è semplicemente a copie del pezzo unitario 1/b. Scegliendo lo stampo per dimensione, il bambino impara a riconoscere la frazione unitaria e a lavorare con parti uguali; capisce che il denominatore indica in quante parti è divisa l’intero e che il numeratore conta quante di quelle parti prende. Ritrovando la stessa frazione su forme diverse — la tavoletta di cioccolato e la pizza — scopre che una frazione descrive una relazione, non una forma sola.",
-        "L’attività è pensata per la classe terza ed è allineata alle Indicazioni nazionali. È gratuita, interattiva e si apre subito nel browser, senza registrazione. Non ci sono timer, punteggi né classifiche: il bambino può sbagliare, riprovare e colare con calma i suoi pezzi, concentrandosi sul significato delle frazioni e non sulla velocità."
+        "L’attività è pensata per la classe terza ed è allineata alle Indicazioni nazionali. È interattiva e si apre subito nel browser, senza registrazione. Non ci sono timer, punteggi né classifiche: il bambino può sbagliare, riprovare e colare con calma i suoi pezzi, concentrandosi sul significato delle frazioni e non sulla velocità."
       ],
       "practices": [
         "Sceglie il pezzo unitario giusto guardandone la dimensione",
@@ -242,7 +242,7 @@
       "about": [
         "Tildy la sarta ha bisogno di strisce precise: un nastro per un fiocco, un cordoncino per un bordo, un filo di lana per una toppa. Nella sua sartoria il bambino prende il righello e misura, mentre Nodo il gatto gironzola sul tavolo e sposta il righello con la zampa. Per misurare bene, fai scorrere il righello finché lo 0 è all’inizio della striscia, poi leggi il numero all’altra estremità: ecco quanti centimetri è lunga.",
         "Qui si impara il gesto che conta davvero: allineare lo 0 con l’inizio della striscia e leggere il numero all’estremità opposta. Si scopre l’errore classico di partire dall’1 invece che dallo 0, si affronta il righello rotto che comincia da 2, e si impara a scegliere il righello abbastanza lungo per la striscia da misurare. In poche parole, si impara a usare il righello correttamente.",
-        "L’attività è pensata per la classe terza ed è allineata alle Indicazioni nazionali. È gratuita, interattiva e senza registrazione, senza timer e senza punteggio: il bambino misura con calma, prova e riprova, e prende confidenza con i centimetri senza alcuna pressione."
+        "L’attività è pensata per la classe terza ed è allineata alle Indicazioni nazionali. È interattiva e senza registrazione, senza timer e senza punteggio: il bambino misura con calma, prova e riprova, e prende confidenza con i centimetri senza alcuna pressione."
       ],
       "practices": [
         "Allineare lo 0 del righello con l’inizio della striscia",
@@ -265,7 +265,7 @@
       "about": [
         "Allo studio veterinario ogni animale arriva con la sua piccola storia: tre gattini nella cesta e altri che si aggiungono, i conigli che erano nel recinto prima che qualcuno scappasse, le crocchette date al mattino e quelle rimaste alla sera. Nei panni del veterinario, il bambino ascolta il racconto di ciascun paziente, appoggia i numeri conosciuti sul diagramma della diagnosi e individua il punto ancora da scoprire. Non è un semplice calcolo in colonna: è una vera indagine, in cui capire che cosa manca è già metà della cura.",
         "Dietro il gioco c’è un lavoro serio sui problemi. Il bambino impara a leggere con attenzione il testo, a distinguere quando si aggiunge e quando si toglie, e a collocare l’incognita in ogni posizione: nel risultato, nella parte che cambia e persino all’inizio, il caso più difficile perché costringe a ragionare «al contrario». Ci sono anche i problemi di confronto additivo, quelli in cui bisogna capire «quanti in più» ha un animale rispetto a un altro. Sono proprio i nodi su cui tanti bambini si bloccano, affrontati qui un passo alla volta.",
-        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali. È completamente gratuita e interattiva, non richiede registrazione e non ha né timer né punteggio: nessuna fretta, nessuna gara. Il bambino può fermarsi, ripensarci e riprovare quante volte vuole, trovando nello studio veterinario un ambiente sereno in cui sbagliare fa parte dell’imparare."
+        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali. È interattiva, non richiede registrazione e non ha né timer né punteggio: nessuna fretta, nessuna gara. Il bambino può fermarsi, ripensarci e riprovare quante volte vuole, trovando nello studio veterinario un ambiente sereno in cui sbagliare fa parte dell’imparare."
       ],
       "practices": [
         "Problemi di addizione e sottrazione entro il 20",
@@ -288,7 +288,7 @@
       "about": [
         "Nella dispensa del coniglio Bo le more non stanno mai in disordine: dieci more entrano in una cassetta, e ciò che resta rimane sfuso sul ripiano. Il bambino aiuta Bo a sistemare la raccolta leggendo un numero a due cifre e riempiendo gli scaffali giusti — una cassetta dopo l’altra per le decine, una mora dopo l’altra per le unità. Ogni numero diventa così una piccola storia da comporre con le mani, e la dispensa si riempie a poco a poco mentre Bo osserva soddisfatto.",
         "Dietro il gioco c’è tutto il valore posizionale: una cassetta vale una decina, le more sfuse sono le unità, e comporre un numero significa capire quante cassette e quante more servono. Il bambino impara a leggere e a comporre i numeri a due cifre, a distinguere il posto delle decine da quello delle unità e a scoprire la funzione dello zero — perché 40 o 70 sono fatti di sole cassette, senza nessuna mora sfusa. Raggruppare per dieci diventa un gesto concreto e pieno di senso, la base di tutto il calcolo che verrà.",
-        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali. È completamente gratuita e interattiva, funziona direttamente nel browser e non richiede alcuna registrazione. Non ci sono timer, punteggi né classifiche: solo il tempo tranquillo di provare, sbagliare e riprovare, così che ogni bambino possa costruire il valore posizionale con calma e senza pressioni."
+        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali. È interattiva, funziona direttamente nel browser e non richiede alcuna registrazione. Non ci sono timer, punteggi né classifiche: solo il tempo tranquillo di provare, sbagliare e riprovare, così che ogni bambino possa costruire il valore posizionale con calma e senza pressioni."
       ],
       "practices": [
         "Leggere e comporre numeri a due cifre",
@@ -311,7 +311,7 @@
       "about": [
         "Lo scoiattolo Gus ha un carretto degli spuntini sempre affollato, e tra noci, ghiande e piccole scorte c’è un continuo andirivieni: a volte arriva un nuovo rifornimento da aggiungere, a volte un cliente compra qualcosa da togliere. Ogni round racconta una breve storia con Gus protagonista, mostra l’operazione corrispondente e chiede al bambino di calcolare entro il 100 e digitare il risultato. Sommare quello che Gus raccoglie e sottrarre quello che vende trasforma un semplice esercizio di calcolo in una situazione viva, facile da immaginare e divertente da risolvere.",
         "Dietro le storie del carretto c’è un obiettivo preciso: allenare addizioni e sottrazioni con numeri a due cifre entro il 100 fino a raggiungere una vera fluidità. Il bambino impara a riconoscere quando la situazione chiede di sommare e quando invece chiede di sottrarre, mette alla prova strategie di calcolo mentale e prende confidenza con il valore delle decine e delle unità. Ripetere questi calcoli in un contesto concreto rende il ragionamento più rapido e sicuro, senza ridurlo a una serie di operazioni astratte.",
-        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali, così da accompagnare in modo naturale il percorso scolastico. È completamente gratuita e interattiva, senza registrazione, senza timer e senza punteggio: nessuna fretta, nessuna gara, solo la libertà di provare, sbagliare e riprovare con calma. Un ambiente sereno in cui ogni bambino può esercitarsi al proprio ritmo, a scuola o a casa."
+        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali, così da accompagnare in modo naturale il percorso scolastico. È interattiva, senza registrazione, senza timer e senza punteggio: nessuna fretta, nessuna gara, solo la libertà di provare, sbagliare e riprovare con calma. Un ambiente sereno in cui ogni bambino può esercitarsi al proprio ritmo, a scuola o a casa."
       ],
       "practices": [
         "Addizioni e sottrazioni entro il 100",
@@ -334,7 +334,7 @@
       "about": [
         "Nella valle del Fischio un temporale ha strappato via i binari e il treno è fermo alla stazione. Ma quei binari sono speciali: formano una linea dei numeri da 0 a 100. Il bambino diventa il macchinista che rimette a posto la ferrovia, prendendo una traversina numerata alla volta e collocandola nel punto esatto in cui il suo numero appartiene. Quando ogni traversina torna al suo posto, il treno fischia e riparte lungo la valle: un modo concreto e pieno di storia per capire dove vivono i numeri.",
         "Collocare i numeri per posizione sulla linea dei numeri sviluppa il senso della grandezza: il bambino capisce che 50 sta a metà, che 90 è quasi in fondo e che i numeri crescono a intervalli regolari. Contando per 5 e per 10 impara a spostarsi con sicurezza fino a 100, a stimare le distanze fra i numeri e a costruire quel senso del numero che è la base del calcolo mentale.",
-        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali. È completamente gratuita, interattiva e senza pressioni: niente registrazione, niente timer e niente punteggio, così ogni bambino può esplorare, sbagliare e riprovare con calma, seguendo il proprio ritmo."
+        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali. È interattiva e senza pressioni: niente registrazione, niente timer e niente punteggio, così ogni bambino può esplorare, sbagliare e riprovare con calma, seguendo il proprio ritmo."
       ],
       "practices": [
         "Colloca i numeri fino a 100 sulla linea dei numeri",
@@ -357,7 +357,7 @@
       "about": [
         "Nella falegnameria di Bram, il castoro carpentiere, ogni giornata comincia con un’ordinazione da preparare: un ripiano da montare, un’asse da accorciare, due tavole da unire. I bambini leggono la richiesta del cliente, appoggiano le lunghezze note sul lungo metro di Bram e cercano il pezzo misterioso — quanto misura l’asse che manca, quanta parte è stata segata via, quanto una tavola supera l’altra. Ogni round è un piccolo problema di lunghezze in centimetri, da modellare con le mani prima ancora che con i numeri, proprio come farebbe un vero falegname davanti al suo banco da lavoro.",
         "Il valore di questa attività sta nel far leggere e capire il problema, non solo nel calcolare. Il bambino si allena ad addizionare e sottrarre lunghezze entro il 100, ma soprattutto impara a riconoscere dove si nasconde l’incognita: a volte manca il totale, a volte una delle parti, a volte la differenza tra due assi. Decidere se aggiungere, togliere o confrontare — e poi dire la lunghezza esatta in centimetri — allena il ragionamento e dà un senso concreto alle misure di tutti i giorni.",
-        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali. È gratuita, interattiva e senza registrazione, senza timer e senza punteggio: nessuna fretta e nessuna pressione, solo il piacere di risolvere l’ordinazione di Bram al proprio ritmo, con la possibilità di riprovare tutte le volte che serve."
+        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali. È interattiva e senza registrazione, senza timer e senza punteggio: nessuna fretta e nessuna pressione, solo il piacere di risolvere l’ordinazione di Bram al proprio ritmo, con la possibilità di riprovare tutte le volte che serve."
       ],
       "practices": [
         "Leggere e modellare problemi di lunghezza sul metro",
@@ -518,7 +518,7 @@
       "about": [
         "Con Marina, la gatta del faro, ogni barchetta porta un numero fino al porto più vicino: il bambino arrotonda i numeri di due cifre alla decina (63 diventa 60) e quelli di tre cifre al centinaio (247 diventa 200), muovendosi lungo la retta dei numeri.",
         "Nei giri con la boa in mezzo si scopre il caso più delicato: un numero esattamente al centro tra due porti, come 45 o 75, si arrotonda per eccesso. Così arrotondare diventa una questione di posizione sulla retta, non una regola sull’ultima cifra da imparare a memoria.",
-        "È un’attività gratuita e interattiva, pensata per la classe terza della scuola primaria e in linea con le Indicazioni nazionali: si gioca subito nel browser, senza registrazione, senza timer e senza punteggio."
+        "È un’attività interattiva, pensata per la classe terza della scuola primaria e in linea con le Indicazioni nazionali: si gioca subito nel browser, senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "Individuare la posizione di un numero sulla retta dei numeri",
@@ -931,7 +931,7 @@
     "hoppers-number-line.jump-sums.2-md-b-6": {
       "about": [
         "Hopper è una rana che attraversa lo stagno saltando lungo la linea dei numeri, da una ninfea numerata all'altra: a ogni balzo in avanti somma, a ogni balzo indietro sottrae, e tu lo aiuti a scoprire dove va a finire. In questa attività di matematica per la classe seconda, pensata per bambini di 7 e 8 anni, si rappresentano somme e sottrazioni entro il 100 sulla linea dei numeri.",
-        "L'attività è gratuita e si gioca online nel browser, senza registrazione e senza scaricare nulla. Non ci sono punteggi né tempo che corre: puoi provare, sbagliare e riprovare con calma, seguendo con lo sguardo il salto di Hopper sulle ninfee.",
+        "L'attività è si gioca online nel browser, senza registrazione e senza scaricare nulla. Non ci sono punteggi né tempo che corre: puoi provare, sbagliare e riprovare con calma, seguendo con lo sguardo il salto di Hopper sulle ninfee.",
         "Muovere Hopper in avanti e indietro sulla linea dei numeri dà un'immagine concreta all'addizione e alla sottrazione ed è un passaggio importante verso il calcolo mentale entro il 100, in linea con le Indicazioni nazionali per il nucleo Numeri. A casa o in classe puoi rinforzarlo con semplici materiali manipolabili, contando i passi lungo una striscia di numeri disegnata su un foglio."
       ],
       "practices": [
@@ -977,7 +977,7 @@
     "bundle-bot.bundle-machine.1-nbt-b-2-a": {
       "about": [
         "Con Bolt il robot il tuo bambino costruisce i numeri un pezzo alla volta: lascia cadere le unità sciolte, le conta fino a dieci e tira la leva per raggrupparle in una decina, scoprendo con le mani come nascono le decine e le unità.",
-        "L'attività è gratuita, si apre direttamente nel browser e non richiede alcuna registrazione. Il bambino compone numeri da 20 a 49, osserva quando dieci unità sciolte diventano una decina e può anche disfare una decina per tornare alle unità sciolte.",
+        "L'attività si apre direttamente nel browser e non richiede alcuna registrazione. Il bambino compone numeri da 20 a 49, osserva quando dieci unità sciolte diventano una decina e può anche disfare una decina per tornare alle unità sciolte.",
         "Al centro c'è il valore posizionale — decine e unità — con un approccio concreto e visivo, in linea con le Indicazioni nazionali e il nucleo dei Numeri. Nessun punteggio e nessun cronometro: solo il tempo giusto per capire, come si conviene alla classe seconda."
       ],
       "practices": [
@@ -1046,7 +1046,7 @@
     "pond-juice.pour-measure.3-md-a-2": {
       "about": [
         "Pippa la rana ha messo su un allegro chiosco del succo in riva allo stagno, ma i numeri sulla scala sono troppo piccoli per i suoi occhi da rana: tocca a te leggere quanti litri di succo finiscono in ogni bicchiere.",
-        "È un'attività di matematica gratuita e online per la classe seconda (7-8 anni), pensata per imparare a leggere, stimare e confrontare la capacità in litri: si versa il succo nel bicchiere graduato, si guarda il livello sulla scala graduata da 0 a 10 e si conta quanti litri sono.",
+        "È un'attività di matematica online per la classe seconda (7-8 anni), pensata per imparare a leggere, stimare e confrontare la capacità in litri: si versa il succo nel bicchiere graduato, si guarda il livello sulla scala graduata da 0 a 10 e si conta quanti litri sono.",
         "L'attività è allineata alle Indicazioni nazionali, nel nucleo Relazioni, dati e previsioni: nessun punteggio e nessun cronometro, solo un percorso tranquillo in cui versare, osservare e ragionare con calma, anche con semplici materiali manipolabili in classe o a casa."
       ],
       "practices": [
@@ -1069,7 +1069,7 @@
     "mosaic-menders.area-match.3-md-c-6": {
       "about": [
         "Nella bottega di Tessa, la mosaicista, ogni mosaico prende vita quadretto dopo quadretto: il bambino cerca, tra tre mosaici, quello fatto con lo stesso numero di quadretti del modello di Tessa.",
-        "È un'attività di geometria per la classe quarta (bambini di circa 9 anni), gratuita e giocabile online nel browser senza registrazione, in cui si misura l'area contando i quadretti invece di lasciarsi ingannare dal mosaico con il contorno più grande.",
+        "È un'attività di geometria per la classe quarta (bambini di circa 9 anni), giocabile online nel browser senza registrazione, in cui si misura l'area contando i quadretti invece di lasciarsi ingannare dal mosaico con il contorno più grande.",
         "Il percorso segue il nucleo «Spazio e figure» delle Indicazioni nazionali: niente punteggio e niente tempo, solo il piacere di scoprire che due figure di forma diversa possono avere la stessa area."
       ],
       "practices": [
@@ -1092,7 +1092,7 @@
     "span-length-gap.how-much-longer.2-md-a-4": {
       "about": [
         "Spanna, il bruco geometra, ama misurare il mondo a spanne e si ferma davanti a due oggetti chiedendosi di quanto uno superi l'altro.",
-        "È un'attività di matematica gratuita e online per la classe seconda (7-8 anni): il bambino legge la lunghezza in centimetri di due barre e scopre quanto è più lungo il più lungo, cioè la loro differenza, sempre entro i 20 cm e senza righello.",
+        "È un'attività di matematica online per la classe seconda (7-8 anni): il bambino legge la lunghezza in centimetri di due barre e scopre quanto è più lungo il più lungo, cioè la loro differenza, sempre entro i 20 cm e senza righello.",
         "L'attività è allineata alle Indicazioni nazionali, nel nucleo Relazioni, dati e previsioni: niente punteggio e niente cronometro, solo un percorso sereno in cui confrontare lunghezze e ragionare con calma, anche con semplici materiali manipolabili."
       ],
       "practices": [
@@ -1184,7 +1184,7 @@
     "place-value-regroup.add-compose-ten.1-nbt-c-4": {
       "about": [
         "Fare il cambio è il primo, grande passo verso l'addizione in colonna: qui i bambini della classe seconda lo scoprono toccando con mano, senza fretta e senza voti. Tuck, il criceto, propone somme entro il 100 usando i blocchi base dieci, così ogni operazione ha un significato concreto prima ancora di diventare un calcolo scritto.",
-        "L'attività è gratuita, si apre direttamente nel browser e non richiede alcuna registrazione. Il bambino somma un numero di due cifre e uno di una cifra, nota quando 10 unità possono diventare una decina e completa il cambio con un semplice tocco, per poi scrivere il totale.",
+        "L'attività si apre direttamente nel browser e non richiede alcuna registrazione. Il bambino somma un numero di due cifre e uno di una cifra, nota quando 10 unità possono diventare una decina e completa il cambio con un semplice tocco, per poi scrivere il totale.",
         "Il percorso mette al centro il valore posizionale — decine e unità — con un approccio manipolabile e visivo, in linea con le Indicazioni nazionali e il nucleo dei Numeri. Nessun punteggio, nessun cronometro: solo il tempo giusto per capire."
       ],
       "practices": [
@@ -1207,7 +1207,7 @@
     "shapeforge.compose.1-g-a-2": {
       "about": [
         "Nella bottega luminosa di Mim ogni figura nasce dalla luce: i bambini fondono piccoli triangoli e rombi splendenti per dare forma a figure sempre più grandi.",
-        "È un'attività di geometria pensata per la classe prima (6-7 anni), gratuita e giocabile online nel browser, senza registrazione. I bambini imparano a comporre e scomporre figure geometriche piane, spostando e ruotando i pezzi finché combaciano con la sagoma, proprio come si fa con i materiali manipolabili in classe o con un tangram.",
+        "È un'attività di geometria pensata per la classe prima (6-7 anni), giocabile online nel browser, senza registrazione. I bambini imparano a comporre e scomporre figure geometriche piane, spostando e ruotando i pezzi finché combaciano con la sagoma, proprio come si fa con i materiali manipolabili in classe o con un tangram.",
         "Il percorso segue il nucleo «Spazio e figure» delle Indicazioni nazionali: nessun punteggio e nessun tempo, solo tanti modi diversi per riempire ogni figura e scoprire la geometria giocando."
       ],
       "practices": [
@@ -1230,7 +1230,7 @@
     "skipcount.fill.2-nbt-a-2": {
       "about": [
         "Hopper è una rana che attraversa lo stagno saltando da una ninfea numerata all'altra, e a ogni balzo il numero cresce o diminuisce sempre della stessa quantità. In questa attività di matematica per la classe seconda, pensata per bambini di 7 e 8 anni, il piccolo conta a salti di 5, di 10 e di 100 fino a 1000 e completa la sequenza delle ninfee.",
-        "L'attività è gratuita e si gioca online nel browser, senza registrazione e senza installare nulla. Non ci sono punteggi né tempo che scorre: il bambino può provare, sbagliare e riprovare con calma, seguendo con lo sguardo i salti di Hopper.",
+        "L'attività è si gioca online nel browser, senza registrazione e senza installare nulla. Non ci sono punteggi né tempo che scorre: il bambino può provare, sbagliare e riprovare con calma, seguendo con lo sguardo i salti di Hopper.",
         "Il conteggio a salti è uno dei primi passi verso le tabelline e il calcolo veloce, ed è allineato con le Indicazioni nazionali per il nucleo Numeri. Se a casa o in classe volete rinforzarlo, funziona bene affiancare materiali manipolabili come tappi, bottoni o cannucce raggruppati a cinque a cinque o a dieci a dieci."
       ],
       "practices": [
@@ -1253,7 +1253,7 @@
     "lay-units.measure.1-md-a-2": {
       "about": [
         "Inchie, un piccolo bruco misuratore, avanza lungo il sentiero del giardino e ha bisogno di una mano per scoprire quanto sono lunghi gli oggetti che incontra.",
-        "È un'attività di matematica gratuita e online per la classe seconda (7-8 anni), pensata per imparare a misurare le lunghezze usando unità non convenzionali: si posano gli «aiutanti», tutti della stessa misura, uno accanto all'altro, e si contano. Così i bambini capiscono l'idea centrale della misura, cioè che la lunghezza è il numero di unità, molto prima di usare il righello e il metro.",
+        "È un'attività di matematica online per la classe seconda (7-8 anni), pensata per imparare a misurare le lunghezze usando unità non convenzionali: si posano gli «aiutanti», tutti della stessa misura, uno accanto all'altro, e si contano. Così i bambini capiscono l'idea centrale della misura, cioè che la lunghezza è il numero di unità, molto prima di usare il righello e il metro.",
         "L'attività è allineata alle Indicazioni nazionali e ai suoi obiettivi sulla misura: nessun punteggio e nessun cronometro, solo un percorso tranquillo in cui provare, contare e ragionare con calma, anche con semplici materiali manipolabili in classe o a casa."
       ],
       "practices": [
@@ -1275,7 +1275,7 @@
     },
     "seriation.compare-length.1-md-a-1": {
       "about": [
-        "Nella bottega della gatta Tilly ogni nastro colorato riposa sul suo ripiano, uno sopra l'altro, accanto a un pezzo di spago sempre della stessa lunghezza. Questa attività di matematica, pensata per la classe prima (6-7 anni), è gratuita, senza registrazione e funziona direttamente nel browser.",
+        "Nella bottega della gatta Tilly ogni nastro colorato riposa sul suo ripiano, uno sopra l'altro, accanto a un pezzo di spago sempre della stessa lunghezza. Questa attività di matematica, pensata per la classe prima (6-7 anni), è senza registrazione e funziona direttamente nel browser.",
         "A ogni giro compaiono tre nastri insieme: il bambino li guarda, li confronta fra loro e con lo spago, e tocca un solo colore, quello del nastro più lungo, di quello più corto oppure di quello lungo esattamente quanto lo spago. È un modo concreto e sereno per avvicinarsi al linguaggio della lunghezza, in linea con le Indicazioni nazionali.",
         "Lo spago non ha tacche né numeri: qui non si misura, si confronta soltanto con gli occhi. Non ci sono punteggi né tempo che scorre: se il bambino tocca il colore sbagliato arriva un suggerimento gentile e può riprovare con calma. Un'ottima base prima di passare in classe ai materiali manipolabili e al righello."
       ],
@@ -1416,7 +1416,7 @@
       "about": [
         "Sali a bordo con il capitano Quill, un anatroccolo coraggioso che discende un fiume pieno di curve: a ogni bivio ci sono due boe con due numeri, e tocca al tuo bambino decidere quale ramo del fiume prendere.",
         "È un'attività di classe prima per confrontare e ordinare i numeri entro il 10: il bambino sceglie il numero più grande o più piccolo, oppure tocca «=» quando le due boe mostrano lo stesso numero.",
-        "Il gioco è gratuito, senza registrazione e funziona nel browser, con un tono calmo e incoraggiante: nessun punteggio e nessun cronometro, solo il piacere di navigare e imparare."
+        "Il gioco è senza registrazione e funziona nel browser, con un tono calmo e incoraggiante: nessun punteggio e nessun cronometro, solo il piacere di navigare e imparare."
       ],
       "practices": [
         "Leggere i numeri scritti da 1 a 10 e riconoscere quale è più grande e quale è più piccolo.",
@@ -1460,7 +1460,7 @@
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
-        "Questa attività interattiva e gratuita aiuta i bambini più piccoli a riconoscere quando una forma è divisa in parti uguali. Il bambino guarda quattro forme — cerchi, quadrati e rettangoli disegnati — e tocca quella divisa in parti della stessa grandezza. Funziona direttamente nel browser, senza installare nulla e senza creare un account.",
+        "Questa attività interattiva aiuta i bambini più piccoli a riconoscere quando una forma è divisa in parti uguali. Il bambino guarda quattro forme — cerchi, quadrati e rettangoli disegnati — e tocca quella divisa in parti della stessa grandezza. Funziona direttamente nel browser, senza installare nulla e senza creare un account.",
         "L'idea importante è che le parti devono essere giuste e uguali: due metà identiche oppure quattro parti della stessa grandezza. Le scelte sbagliate aiutano a capire il concetto: una forma divisa in parti disuguali, una divisa nel numero sbagliato di parti, oppure una forma intera non divisa. Il bambino non divide la forma da solo, ma riconosce quale forma è già divisa in parti uguali.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito dello spazio e delle figure: riconoscere le forme divise in due o quattro parti uguali e nominarle come metà e quarti. Nessun timer, nessun punteggio, solo esercizio giocoso e tranquillo."
       ],
@@ -1483,7 +1483,7 @@
     },
     "ten-frame.count-to-10.make-n.animals": {
       "about": [
-        "«Forma 3», «Forma 7», «Forma 10»: il bambino costruisce il numero toccando le caselle di una tabella del dieci per inserire esattamente quel numero di gettoni a forma di animale, poi preme «Controlla». È un'attività gratuita e interattiva di conteggio per la scuola dell'infanzia, per i numeri da 0 a 10, che funziona nel browser senza nulla da installare e senza account.",
+        "«Forma 3», «Forma 7», «Forma 10»: il bambino costruisce il numero toccando le caselle di una tabella del dieci per inserire esattamente quel numero di gettoni a forma di animale, poi preme «Controlla». È un'attività interattiva di conteggio per la scuola dell'infanzia, per i numeri da 0 a 10, che funziona nel browser senza nulla da installare e senza account.",
         "È la tabella del dieci a rendere tutto questo più del semplice contare a memoria. Le sue due file da cinque danno a ogni numero una forma che il bambino può riconoscere — il 4 riempie quasi tutta la fila in alto, il 10 riempie l'intera tabella — così il conteggio comincia a collegarsi a quanto è davvero un numero. Il bambino decide quanti animali mettere e può aggiungerne o toglierne prima di controllare, mantenendo l'attenzione sul conteggio uno-a-uno invece che sull'indovinare.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito del conteggio e della cardinalità: comprendere la relazione tra i numeri e le quantità e collegare il conteggio alla cardinalità. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
       ],
@@ -1506,7 +1506,7 @@
     },
     "ten-frame.count-to-20.make-n.fruits": {
       "about": [
-        "La richiesta nomina un numero da formare e il bambino tocca le caselle di una doppia tabella del dieci per riempire esattamente quel numero di frutti sulle due tabelle, poi tocca Controlla. Arrivare fino a 20 significa una decina intera più qualcosa. È un'attività di conteggio per la scuola dell'infanzia, gratuita e interattiva, che si gioca nel browser senza registrazione.",
+        "La richiesta nomina un numero da formare e il bambino tocca le caselle di una doppia tabella del dieci per riempire esattamente quel numero di frutti sulle due tabelle, poi tocca Controlla. Arrivare fino a 20 significa una decina intera più qualcosa. È un'attività di conteggio per la scuola dell'infanzia, interattiva, che si gioca nel browser senza registrazione.",
         "La doppia tabella del dieci insegna l'idea più importante sui numeri tra dieci e venti: una decina intera più ancora qualcosa. Per formare 14, il bambino riempie la prima tabella fino a dieci e poi aggiunge quattro frutti sulla seconda — così la struttura del numero, dieci e quattro, è lì da vedere. Andare oltre il dieci è un vero passo avanti rispetto al contare fino a dieci, e le due tabelle danno al bambino un modo per tenere il conto in ordine senza perdersi.",
         "L'attività è allineata alle Indicazioni nazionali: collegare il conteggio alla cardinalità ed estendere il senso del numero oltre il dieci. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
       ],
@@ -1529,7 +1529,7 @@
     },
     "ten-frame.how-many.0-10.animals": {
       "about": [
-        "La tabella del dieci mostra un gruppo di animali e pone una sola domanda semplice: quanti? Il bambino conta gli animali — da 0 fino a 10 — e scrive la cifra corrispondente sul tastierino. È un'attività di conteggio gratuita e interattiva per la scuola dell'infanzia, che funziona direttamente nel browser, senza installare nulla e senza account.",
+        "La tabella del dieci mostra un gruppo di animali e pone una sola domanda semplice: quanti? Il bambino conta gli animali — da 0 fino a 10 — e scrive la cifra corrispondente sul tastierino. È un'attività di conteggio interattiva per la scuola dell'infanzia, che funziona direttamente nel browser, senza installare nulla e senza account.",
         "Questo è il lato del «rispondere» nel contare. Invece di costruire un numero, il bambino legge una quantità già presente e la nomina con un numero scritto. Poiché gli animali stanno nelle due righe della tabella del dieci, il bambino può cominciare a riconoscere le quantità a colpo d'occhio — una riga in alto piena è cinque, una tabella piena è dieci — e poi verificare contando uno per uno. Questo passaggio dal contare a un unico numero scritto è il cuore della cardinalità.",
         "L'attività è allineata alle Indicazioni nazionali: contare per rispondere alla domanda «quanti?» su oggetti disposti su una tabella. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
       ],
@@ -1552,7 +1552,7 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "Una doppia tabella del dieci mostra un gruppo di pedine a forma di frutta e il bambino scrive il numero corrispondente, contando da 0 a 20 e digitando la cifra sul tastierino. Poiché una tabella piena vale dieci, il bambino può proseguire il conteggio per i numeri tra dieci e venti. È un'attività interattiva e gratuita di conteggio per la scuola dell'infanzia, da fare nel browser, senza nulla da installare e senza account.",
+        "Una doppia tabella del dieci mostra un gruppo di pedine a forma di frutta e il bambino scrive il numero corrispondente, contando da 0 a 20 e digitando la cifra sul tastierino. Poiché una tabella piena vale dieci, il bambino può proseguire il conteggio per i numeri tra dieci e venti. È un'attività interattiva di conteggio per la scuola dell'infanzia, da fare nel browser, senza nulla da installare e senza account.",
         "Questa attività unisce il contare allo scrivere. Il bambino legge una quantità già disposta su due tabelle del dieci e la nomina con un numero scritto, compresi i numeri a due cifre più difficili oltre il dieci. Poiché una tabella piena vale dieci, può contare a partire da dieci invece di ricominciare ogni volta da uno, e poi registrare ciò che ha contato come numero scritto: è il legame tra la quantità e il simbolo.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: scrivere i numeri da 0 a 20 e rappresentare una quantità di oggetti con un numero scritto. Nessun timer e nessun punteggio."
       ],
@@ -1575,7 +1575,7 @@
     },
     "ten-frame.teen-numbers.make-n": {
       "about": [
-        "La consegna indica un numero tra 11 e 19, per esempio 16, e il bambino riempie la prima tabella del dieci fino a una decina completa e poi aggiunge le unità in più su una seconda tabella — così 16 appare come dieci e altri sei. Costruirlo in questo modo rende visibile la struttura nascosta. È un'attività sul valore posizionale per la scuola dell'infanzia, gratuita e interattiva, che si gioca nel browser senza registrazione.",
+        "La consegna indica un numero tra 11 e 19, per esempio 16, e il bambino riempie la prima tabella del dieci fino a una decina completa e poi aggiunge le unità in più su una seconda tabella — così 16 appare come dieci e altri sei. Costruirlo in questo modo rende visibile la struttura nascosta. È un'attività sul valore posizionale per la scuola dell'infanzia, interattiva, che si gioca nel browser senza registrazione.",
         "I numeri tra 11 e 19 sono insidiosi perché il loro nome nasconde la struttura: «sedici» non dice «dieci e sei». Costruire ognuno su due tabelle rende visibile quella struttura nascosta: c'è sempre un dieci pieno e poi alcune unità. Il bambino compone il numero a partire da un dieci e da qualche unità invece di contare tutto a uno a uno: è proprio l'idea su cui si fonda il valore posizionale.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: comporre e scomporre i numeri da 11 a 19 in un dieci e alcune unità. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
       ],
@@ -1598,7 +1598,7 @@
     },
     "choice-board.sort-count.k-md-b-3": {
       "about": [
-        "Compare una pila di disegni simpatici tutti mescolati — animali, frutti e a volte veicoli — e la consegna nomina un solo gruppo: il bambino decide quanti disegni appartengono a quel gruppo e poi tocca il numero giusto. È un'attività di conteggio per la scuola dell'infanzia, gratuita e interattiva, che si gioca direttamente nel browser su tablet, telefono e computer di classe, senza installare nulla e senza account.",
+        "Compare una pila di disegni simpatici tutti mescolati — animali, frutti e a volte veicoli — e la consegna nomina un solo gruppo: il bambino decide quanti disegni appartengono a quel gruppo e poi tocca il numero giusto. È un'attività di conteggio per la scuola dell'infanzia, interattiva, che si gioca direttamente nel browser su tablet, telefono e computer di classe, senza installare nulla e senza account.",
         "L'idea importante è che bisogna prima classificare e poi contare. Poiché la pila è mista apposta, per rispondere a «quanti animali?» il bambino non può contare tutto: deve guardare ogni disegno, decidere a quale categoria appartiene, mettere da parte ciò che non c'entra e contare solo il gruppo nominato. È proprio questo lavoro di smistamento a rendere il conteggio significativo.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei dati: classificare gli oggetti in categorie e contare quanti elementi ci sono in ciascun gruppo. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
       ],
@@ -1621,7 +1621,7 @@
     },
     "array.build-array.2-oa-c-4": {
       "about": [
-        "Toccando una casella dopo l'altra, il bambino della classe seconda riempie uno schieramento rettangolare — righe uguali ben allineate in colonne — e poi conta quanti pallini ci sono in tutto. Si gioca gratis e direttamente nel browser, senza installare nulla e senza account. Le griglie crescono pian piano: si parte da un piccolo schieramento 2 per 3 e si arriva a 3 per 4, 2 per 5, 4 per 4 e 4 per 3, così il bambino riempie griglie ordinate di forme diverse.",
+        "Toccando una casella dopo l'altra, il bambino della classe seconda riempie uno schieramento rettangolare — righe uguali ben allineate in colonne — e poi conta quanti pallini ci sono in tutto. Si gioca direttamente nel browser, senza installare nulla e senza account. Le griglie crescono pian piano: si parte da un piccolo schieramento 2 per 3 e si arriva a 3 per 4, 2 per 5, 4 per 4 e 4 per 3, così il bambino riempie griglie ordinate di forme diverse.",
         "L'idea importante è che un rettangolo fatto di righe uguali si può contare nel modo veloce. Mentre il bambino tocca per riempire ogni riga, sotto si forma la striscia dell'addizione ripetuta — 4 + 4 + 4 — così vede il quattro contato tre volte invece di contare ogni pallino a uno a uno. Poi scrive il totale sul tastierino. Vedere le righe allinearsi come addendi uguali è proprio il ponte che porta dall'addizione alla moltiplicazione.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: usare l'addizione per trovare quanti oggetti sono disposti in righe e colonne e scrivere l'operazione come somma di addendi uguali. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
       ],
@@ -1644,7 +1644,7 @@
     },
     "choice-board.which-more.k-c-c-6": {
       "about": [
-        "Compaiono due gruppi di immagini amichevoli — gatti, cani, anatre, pesci, mele, banane, arance o fragole — e il bambino tocca il gruppo che ne ha di più. Le quantità arrivano fino a otto e il confronto si fa guardando e contando, non leggendo i numeri scritti. È un'attività di conteggio per la scuola dell'infanzia, gratuita e interattiva, che funziona nel browser su telefono, tablet e computer di classe, senza registrazione.",
+        "Compaiono due gruppi di immagini amichevoli — gatti, cani, anatre, pesci, mele, banane, arance o fragole — e il bambino tocca il gruppo che ne ha di più. Le quantità arrivano fino a otto e il confronto si fa guardando e contando, non leggendo i numeri scritti. È un'attività di conteggio per la scuola dell'infanzia, interattiva, che funziona nel browser su telefono, tablet e computer di classe, senza registrazione.",
         "L'idea importante è che «di più» riguarda quanti sono, non quanto spazio occupa un gruppo. Poiché i due gruppi possono essere vicini come quantità — sette contro sei, oppure sei contro cinque — il bambino non può vincere con una semplice occhiata al mucchio più grande: deve davvero contare ogni gruppo e confrontare i totali. Così si supera il tipico inganno dell'occhio, per cui poche immagini sparpagliate sembrano più di un gruppetto fitto.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: capire se la quantità di oggetti di un gruppo è maggiore, minore o uguale a quella di un altro. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
       ],
@@ -1667,7 +1667,7 @@
     },
     "choice-board.compare-length.k-md-2": {
       "about": [
-        "Due oggetti di tutti i giorni stanno uno accanto all'altro e il bambino tocca quello più alto, più lungo o più corto — confrontando immagini reali e familiari come un pino o una palma, una matita, un pastello, un pennarello o un righello, una carota o un cetriolo, una giraffa, un girasole o una candela. È un'attività di misura per la scuola dell'infanzia, gratuita, che si gioca in qualsiasi browser senza download e senza account.",
+        "Due oggetti di tutti i giorni stanno uno accanto all'altro e il bambino tocca quello più alto, più lungo o più corto — confrontando immagini reali e familiari come un pino o una palma, una matita, un pastello, un pennarello o un righello, una carota o un cetriolo, una giraffa, un girasole o una candela. È un'attività di misura per la scuola dell'infanzia, che si gioca in qualsiasi browser senza download e senza account.",
         "Non c'è nessun conteggio e non ci sono numeri: il bambino guarda semplicemente e confronta una caratteristica misurabile per volta. La consegna pronuncia la parola — più alto, più lungo o più corto — e il bambino decide quale dei due oggetti corrisponde. Confrontare l'altezza per «più alto» (una giraffa) e la lunghezza per «più lungo» (un cetriolo) costruisce il linguaggio della misura prima ancora di introdurre un righello o un numero.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito della misura: confrontare direttamente due oggetti rispetto a una grandezza e dire quale è più alto, più lungo o più corto. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
       ],
@@ -1690,7 +1690,7 @@
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {
       "about": [
-        "Appaiono due numeri a due cifre — come 47 e 52, oppure 63 e 38 — e il bambino tocca l'affermazione vera, usando i simboli maggiore (>), minore (<) e uguale (=). Alcune coppie sono uguali, come 45 e 45 o 88 e 88, quindi anche il segno di uguale conta. È un'attività sul valore posizionale per la prima elementare, gratuita, che si gioca direttamente nel browser senza registrazione.",
+        "Appaiono due numeri a due cifre — come 47 e 52, oppure 63 e 38 — e il bambino tocca l'affermazione vera, usando i simboli maggiore (>), minore (<) e uguale (=). Alcune coppie sono uguali, come 45 e 45 o 88 e 88, quindi anche il segno di uguale conta. È un'attività sul valore posizionale per la prima elementare, che si gioca direttamente nel browser senza registrazione.",
         "La strategia è guardare prima le decine e poi le unità. Con 47 e 52, le 5 decine battono le 4 decine, quindi 47 è minore di 52 — anche se 7 è più grande di 2. Le coppie insidiose come 29 e 92 usano le stesse cifre in posizioni diverse, perciò il bambino deve leggere il valore posizionale e non le cifre da sole. Scegliere il simbolo corretto trasforma quel confronto nel linguaggio formale di >, = e <.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: confrontare due numeri a due cifre basandosi sul significato delle decine e delle unità e registrare il risultato con i simboli >, = e <. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
       ],
@@ -1713,7 +1713,7 @@
     },
     "clock.set-clock.1-md-b-3": {
       "about": [
-        "Viene indicata un'ora scritta — come le 3:00, le 7:30, le 9:00, le 6:30 oppure l'una e mezza — e il bambino trascina le lancette lunga e corta sul quadrante analogico per mostrarla, mentre un display digitale si aggiorna man mano. «Metti l'ora» è un'attività di matematica per la classe prima, gratuita, che si gioca direttamente nel browser su tablet, telefono e computer di classe, senza installare nulla e senza account.",
+        "Viene indicata un'ora scritta — come le 3:00, le 7:30, le 9:00, le 6:30 oppure l'una e mezza — e il bambino trascina le lancette lunga e corta sul quadrante analogico per mostrarla, mentre un display digitale si aggiorna man mano. «Metti l'ora» è un'attività di matematica per la classe prima, che si gioca direttamente nel browser su tablet, telefono e computer di classe, senza installare nulla e senza account.",
         "Mettere l'ora su un orologio è più difficile che leggerla, perché il bambino deve posizionare entrambe le lancette e non solo riconoscere un'immagine. Nelle mezze ore la lancetta corta sta tra due numeri, non su uno: chi sposta l'ora soltanto fino a un numero sbaglia, perché deve metterla a metà. Vedere il display digitale cambiare mentre le lancette si muovono collega l'immagine analogica ai numeri che i bambini già conoscono, e le ore restano intere e a mezza ora, così l'attenzione è tutta sul posizionare bene le lancette.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito della misura del tempo: leggere e scrivere l'ora intera e la mezz'ora sull'orologio analogico e digitale, pensata per i bambini di classe prima (6-7 anni). Nessun timer, nessun punteggio: solo pratica serena e giocosa."
       ],
@@ -1736,7 +1736,7 @@
     },
     "match-pairs.make-the-number.k-oa-a-3": {
       "about": [
-        "Appare un numero obiettivo — per esempio 5 — e il bambino trova le coppie di numeri che lo formano, come 1 e 4 oppure 2 e 3, toccando un numero e poi il suo compagno per collegare la coppia. È un gioco di abbinamento dei numeri per la scuola dell'infanzia, gratuito e interattivo, che si gioca direttamente nel browser, senza installazione e senza account.",
+        "Appare un numero obiettivo — per esempio 5 — e il bambino trova le coppie di numeri che lo formano, come 1 e 4 oppure 2 e 3, toccando un numero e poi il suo compagno per collegare la coppia. È un gioco di abbinamento dei numeri per la scuola dell'infanzia, interattivo, che si gioca direttamente nel browser, senza installazione e senza account.",
         "L'idea importante è che uno stesso numero si può formare in più di un modo. Con un obiettivo di 7, il bambino può collegare 0 e 7, poi 3 e 4, scoprendo che lo stesso totale ha diverse coppie di compagni. Poiché l'attività chiede le coppie che formano l'obiettivo e non una sola risposta giusta, costruisce con calma il senso di parte-parte-tutto su cui poggerà ogni addizione successiva.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: scomporre numeri fino a 10 in coppie in più di un modo. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
       ],
@@ -1759,7 +1759,7 @@
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {
       "about": [
-        "Il bambino vede carte con addizioni come 4 + 7 e 7 + 4, oppure 5 + 9 e 9 + 5, e collega ogni addizione agli stessi due numeri sommati al contrario — tocca una carta, poi tocca la sua gemella scambiata, e la coppia abbinata si unisce. È un gioco di abbinamento di carte per la classe prima, gratuito e interattivo, che si gioca direttamente nel browser, senza installazione e senza account.",
+        "Il bambino vede carte con addizioni come 4 + 7 e 7 + 4, oppure 5 + 9 e 9 + 5, e collega ogni addizione agli stessi due numeri sommati al contrario — tocca una carta, poi tocca la sua gemella scambiata, e la coppia abbinata si unisce. È un gioco di abbinamento di carte per la classe prima, interattivo, che si gioca direttamente nel browser, senza installazione e senza account.",
         "L'idea importante è la proprietà commutativa: 4 + 7 e 7 + 4 fanno entrambe 11, quindi l'ordine degli addendi non cambia il totale. Ogni turno mostra sei carte — tre coppie scambiate mescolate tra loro — così il bambino calcola i totali e nota quali addizioni usano proprio gli stessi numeri girati. Non sta abbinando carte identiche: sta riconoscendo che due somme dall'aspetto diverso sono uguali.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: usare le proprietà delle operazioni, come la proprietà commutativa, come strategie per addizionare. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
       ],
@@ -1782,7 +1782,7 @@
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {
       "about": [
-        "Per una somma come 8 + 5, il bambino spezza il secondo numero su un grafo dei numeri così che una parte completi il primo fino a dieci (8 + 2 = 10), poi aggiunge quel che resta (10 + 3 = 13). La strategia del «fare dieci» prende vita in un'attività di matematica per la classe prima, gratuita e interattiva, che si gioca direttamente nel browser senza account.",
+        "Per una somma come 8 + 5, il bambino spezza il secondo numero su un grafo dei numeri così che una parte completi il primo fino a dieci (8 + 2 = 10), poi aggiunge quel che resta (10 + 3 = 13). La strategia del «fare dieci» prende vita in un'attività di matematica per la classe prima, interattiva, che si gioca direttamente nel browser senza account.",
         "L'idea importante è trasformare un calcolo difficile in uno facile: arrivare a un dieci amico, poi aggiungere ciò che avanza. Il bambino tocca per riempire la parte che fa dieci del grafo, e il grafo mostra esattamente come si spezza il secondo numero — così la strategia è qualcosa che vede e fa, non che impara a memoria.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: addizionare entro il 20 usando la strategia del fare dieci con gli amici del 10. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
       ],
@@ -1805,7 +1805,7 @@
     },
     "place-value.tens-and-ones.1-nbt-b-2": {
       "about": [
-        "Per formare 47, il bambino posa quattro barre da dieci e sette cubetti da uno e vede il «quaranta» diventare qualcosa di concreto invece di una semplice cifra. I numeri vanno da 12 fino a 95 — comprese le decine tonde 30, 50, 70 e 90 — costruiti un tocco di blocco alla volta, in un'attività di matematica per la prima elementare, gratuita e interattiva, che si gioca nel browser senza registrazione.",
+        "Per formare 47, il bambino posa quattro barre da dieci e sette cubetti da uno e vede il «quaranta» diventare qualcosa di concreto invece di una semplice cifra. I numeri vanno da 12 fino a 95 — comprese le decine tonde 30, 50, 70 e 90 — costruiti un tocco di blocco alla volta, in un'attività di matematica per la prima elementare, interattiva, che si gioca nel browser senza registrazione.",
         "L'idea importante è che un numero a due cifre è fatto di decine e unità. Per costruire 47, il bambino usa quattro barre da dieci e sette cubetti da uno, e vedere le quattro barre rende concreto il «quaranta» invece di lasciarlo una semplice cifra. I numeri tondi come 70 e 90 rinforzano che uno zero nelle unità significa che non c'è nessun cubetto sciolto: solo decine complete.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: capire che un numero a due cifre è formato da un certo numero di decine e di unità. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
       ],
@@ -1828,7 +1828,7 @@
     },
     "syllable-builder.forma-la-parola-con-le-sillabe.rf-k-2-b": {
       "about": [
-        "Il bambino guarda un'immagine — per esempio un gatto, una mela o una farfalla — e forma la parola mettendo le sillabe in ordine. Tocca le tessere delle sillabe come GA e TTO, oppure FAR, FAL e LA, e le sistema nei posti giusti per comporre la parola intera. È un'attività di fonetica per la scuola dell'infanzia, gratuita e interattiva, che si gioca direttamente nel browser, senza download e senza account.",
+        "Il bambino guarda un'immagine — per esempio un gatto, una mela o una farfalla — e forma la parola mettendo le sillabe in ordine. Tocca le tessere delle sillabe come GA e TTO, oppure FAR, FAL e LA, e le sistema nei posti giusti per comporre la parola intera. È un'attività di fonetica per la scuola dell'infanzia, interattiva, che si gioca direttamente nel browser, senza download e senza account.",
         "L'idea importante è che le parole sono fatte di pezzi più piccoli, le sillabe, che si possono separare e unire. Mettendo le sillabe nel giusto ordine il bambino fonde i suoni in una parola che corrisponde all'immagine, e a ogni tessera può ascoltarne il suono per ritrovare l'ordine. Questo lavoro di conteggio, fusione e segmentazione delle sillabe è il primo passo verso la lettura.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito della consapevolezza fonologica: contare, pronunciare, fondere e segmentare le sillabe nelle parole parlate. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
       ],
@@ -1851,7 +1851,7 @@
     },
     "array.equal-groups.2-oa-c-4": {
       "about": [
-        "In questa attività di matematica per la classe seconda il bambino forma gruppi uguali — la stessa quantità di oggetti in ognuno — e li somma per trovare il totale. Si gioca direttamente nel browser, è gratuita e non serve alcun account. I turni vanno da 2 gruppi da 3 fino a 3 gruppi da 5, passando per 4 gruppi da 4 e 5 gruppi da 2, così il bambino incontra molte disposizioni diverse di gruppi uguali.",
+        "In questa attività di matematica per la classe seconda il bambino forma gruppi uguali — la stessa quantità di oggetti in ognuno — e li somma per trovare il totale. Si gioca direttamente nel browser, è non serve alcun account. I turni vanno da 2 gruppi da 3 fino a 3 gruppi da 5, passando per 4 gruppi da 4 e 5 gruppi da 2, così il bambino incontra molte disposizioni diverse di gruppi uguali.",
         "A differenza di uno schieramento rettangolare ordinato, qui gli oggetti stanno in gruppi separati: ed è proprio questo a rendere centrale l'idea della «stessa quantità in ognuno». Man mano che il bambino riempie ogni gruppo, accanto cresce una striscia di addizione ripetuta — 4 + 4 + 4 — che trasforma i gruppi uguali in una somma; poi si scrive quanti sono in tutto. Il bambino costruisce e somma i gruppi: non moltiplica ancora, ma incontra esattamente il ragionamento su cui si fonda la moltiplicazione.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri e delle operazioni: usare l'addizione ripetuta di addendi uguali per trovare un totale. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
       ],
@@ -1874,7 +1874,7 @@
     },
     "choice-board.even-odd.2-oa-c-3": {
       "about": [
-        "Compare un numero da 1 a 20 e il bambino decide se è pari o dispari, poi tocca la casella «Pari» oppure «Dispari». Con due sole scelte, ogni numero va valutato per quello che è: è del tipo che si accoppia in modo esatto, oppure di quello che lascia un elemento da solo? È un'attività di matematica gratuita e interattiva per la classe seconda, che funziona nel browser senza registrazione.",
+        "Compare un numero da 1 a 20 e il bambino decide se è pari o dispari, poi tocca la casella «Pari» oppure «Dispari». Con due sole scelte, ogni numero va valutato per quello che è: è del tipo che si accoppia in modo esatto, oppure di quello che lascia un elemento da solo? È un'attività di matematica interattiva per la classe seconda, che funziona nel browser senza registrazione.",
         "L'idea importante è che pari e dispari riguardano la possibilità di dividere una quantità in due gruppi uguali senza che resti nulla. Qui il bambino non addiziona né sottrae: ordina i numeri interi in base alla loro struttura. Lavorando su tutto l'intervallo da 1 a 20, con entrambe le scelte sempre presenti, si costruisce il riconoscimento rapido — e l'abitudine a guardare la cifra delle unità — che rende pari e dispari quasi automatici.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito del senso del numero: stabilire se un gruppo di oggetti ha un numero pari o dispari di elementi. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
       ],
@@ -1897,7 +1897,7 @@
     },
     "choice-board.describe-attribute.k-md-a-1": {
       "about": [
-        "Sullo schermo appare un oggetto di tutti i giorni e il bambino tocca la parola che lo descrive meglio — lungo, alto o pesante. Gli oggetti sono scelti perché una caratteristica spicca con chiarezza: una matita e una carota sono lunghe, una giraffa è alta, un sasso e una zucca sono pesanti. È un'attività gratuita e interattiva di misura per la scuola dell'infanzia, che si gioca direttamente nel browser, senza account.",
+        "Sullo schermo appare un oggetto di tutti i giorni e il bambino tocca la parola che lo descrive meglio — lungo, alto o pesante. Gli oggetti sono scelti perché una caratteristica spicca con chiarezza: una matita e una carota sono lunghe, una giraffa è alta, un sasso e una zucca sono pesanti. È un'attività interattiva di misura per la scuola dell'infanzia, che si gioca direttamente nel browser, senza account.",
         "Lo scopo è dare un nome ai modi in cui misuriamo le cose, prima ancora di numeri e righelli. Qui il bambino non conta e non misura: osserva un oggetto reale e decide quale caratteristica misurabile gli si addice — lunghezza, altezza o peso. Poiché ogni oggetto ha una caratteristica nettamente prevalente, il bambino si esercita a notare che tipo di misura invita ciascuna cosa, e questo è il fondamento linguistico di ogni misurazione futura.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito della misura: descrivere le caratteristiche misurabili di un oggetto, come lunghezza, altezza e peso. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
       ],
@@ -1920,7 +1920,7 @@
     },
     "choice-board.ten-more-less.1-nbt-c-5": {
       "about": [
-        "Appare un numero come 34, 57, 60 o 82 insieme alle parole «dieci in più» o «dieci in meno», e il bambino lo calcola a mente e tocca la risposta tra quattro scelte. È un'attività gratuita e interattiva per la classe prima, che si gioca direttamente nel browser su tablet, telefono o computer di classe: niente da installare e nessun account.",
+        "Appare un numero come 34, 57, 60 o 82 insieme alle parole «dieci in più» o «dieci in meno», e il bambino lo calcola a mente e tocca la risposta tra quattro scelte. È un'attività interattiva per la classe prima, che si gioca direttamente nel browser su tablet, telefono o computer di classe: niente da installare e nessun account.",
         "L'intuizione chiave è che trovare dieci in più o dieci in meno non richiede affatto di contare: cambia solo la cifra delle decine, mentre le unità restano identiche; così 34 con dieci in più fa 44, e 57 con dieci in meno fa 47. Le scelte sbagliate sono numeri vicini, comprese alcune che cambiano la cifra delle unità: un bambino che conta a uno a uno o aggiunge una decina nel posto sbagliato si accorge che non torna. Il punto è vedere le decine, non contare.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito del valore posizionale: trovare a mente 10 in più o 10 in meno di un numero di due cifre, senza dover contare. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
       ],
@@ -1943,7 +1943,7 @@
     },
     "clock.tell-time-5-min.2-md-c-7": {
       "about": [
-        "Appare un'ora scritta — 3:15, 7:45, 6:10, 9:20, 4:40, 1:50, 10:05 o 12:25 — e il bambino trascina le lancette dell'orologio analogico fino a mostrarla, con un display digitale che si aggiorna mentre le muove. È un'attività di matematica gratuita per la classe seconda che porta la lettura dell'ora ai cinque minuti e funziona nel browser, senza account.",
+        "Appare un'ora scritta — 3:15, 7:45, 6:10, 9:20, 4:40, 1:50, 10:05 o 12:25 — e il bambino trascina le lancette dell'orologio analogico fino a mostrarla, con un display digitale che si aggiorna mentre le muove. È un'attività di matematica per la classe seconda che porta la lettura dell'ora ai cinque minuti e funziona nel browser, senza account.",
         "Leggere e impostare l'ora ai cinque minuti significa che la lancetta dei minuti conta finalmente nei dettagli: «e un quarto» la mette sul 3, «meno un quarto» la mette sul 9, «e dieci» sul 2, e il bambino conta di cinque in cinque attorno al quadrante per fermarla nel punto esatto. Le ore più insidiose — come 7:45, dove «le otto meno un quarto» si scrive 7:45 e non 8:45 — spingono a leggere la lancetta delle ore mentre avanza verso il numero successivo. Il display digitale conferma ogni posizione, così il conteggio di cinque in cinque si collega all'ora scritta.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito della misura del tempo: leggere e scrivere l'ora ai cinque minuti su orologi analogici e digitali. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
       ],
@@ -1966,7 +1966,7 @@
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {
       "about": [
-        "Il bambino calcola carte come 2 + 3 e 9 − 4 (entrambe 5), oppure 3 + 4 e 9 − 2 (entrambe 7), poi tocca un'addizione e la sottrazione con lo stesso risultato per collegare la coppia. È un'attività di matematica gratuita e interattiva per la classe prima, che funziona direttamente nel browser: niente da installare e nessun account.",
+        "Il bambino calcola carte come 2 + 3 e 9 − 4 (entrambe 5), oppure 3 + 4 e 9 − 2 (entrambe 7), poi tocca un'addizione e la sottrazione con lo stesso risultato per collegare la coppia. È un'attività di matematica interattiva per la classe prima, che funziona direttamente nel browser: niente da installare e nessun account.",
         "L'idea importante è che un'addizione e una sottrazione possono valere la stessa quantità: il segno di uguale significa «la stessa cosa di», non «ecco la risposta». Le carte non mostrano i risultati, quindi il bambino deve davvero calcolare ciascuna e poi cercare un'espressione di aspetto diverso con lo stesso valore. Ogni turno ha due (a volte tre) valori da trovare, mescolando addizioni e sottrazioni.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito delle relazioni e del calcolo: comprendere il significato del segno di uguale e stabilire se uguaglianze con addizioni e sottrazioni sono vere. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
       ],
@@ -1989,7 +1989,7 @@
     },
     "match-pairs.match-facts-to-20.2-oa-b-2": {
       "about": [
-        "Il bambino calcola carte come 8 + 5, 9 + 7, 14 − 6 e 17 − 8, poi tocca ogni operazione e il numero che è la sua risposta per collegare la coppia e rafforzare la padronanza entro il 20. È un'attività di matematica gratuita e interattiva per la scuola primaria, che funziona direttamente nel browser: niente da installare e nessun account.",
+        "Il bambino calcola carte come 8 + 5, 9 + 7, 14 − 6 e 17 − 8, poi tocca ogni operazione e il numero che è la sua risposta per collegare la coppia e rafforzare la padronanza entro il 20. È un'attività di matematica interattiva per la scuola primaria, che funziona direttamente nel browser: niente da installare e nessun account.",
         "L'idea importante è il richiamo rapido e sicuro dei fatti di addizione e sottrazione entro il 20. Ogni turno mescola tre operazioni — alcune addizioni, alcune sottrazioni — con le loro tre risposte mischiate, così il bambino calcola ciascuna e poi trova il valore corrispondente. L'esercizio ripetuto nei vari turni porta fatti come 9 + 9 = 18 e 16 − 9 = 7 dal contare verso la memoria.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito del calcolo: addizionare e sottrarre con sicurezza entro il 20 e conoscere a memoria le somme dei numeri a una cifra. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
       ],
@@ -2012,7 +2012,7 @@
     },
     "numberbond.find-the-total.1-oa-a-1": {
       "about": [
-        "Un legame tra numeri mostra due parti, come 7 e 4, e il bambino trova quanti sono in tutto — contando insieme le parti e scrivendo il totale. È un'attività di matematica gratuita e interattiva per la classe prima, che funziona direttamente nel browser senza registrazione.",
+        "Un legame tra numeri mostra due parti, come 7 e 4, e il bambino trova quanti sono in tutto — contando insieme le parti e scrivendo il totale. È un'attività di matematica interattiva per la classe prima, che funziona direttamente nel browser senza registrazione.",
         "L'intero sta in alto e le due parti sotto, così il «mettere insieme» diventa qualcosa che il bambino può vedere. Può contare in avanti a partire dalla parte più grande oppure conoscere già il fatto; i pallini in ogni parte sono lì da contare quando un fatto non è ancora automatico. La risposta è l'intero, in cima al legame.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito delle operazioni: usare l'addizione per mettere insieme e addizionare entro il 20. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
       ],
@@ -2035,7 +2035,7 @@
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {
       "about": [
-        "Tocca una piastra, una barra o un cubo e guarda crescere un numero di tre cifre man mano che si impilano i blocchi in base dieci — piastre da cento, barre da dieci e cubi da uno — costruendo numeri da 108 a 974, compresi gli zeri insidiosi come 200, 305 e 906. È un'attività di matematica gratuita e interattiva per la classe seconda, che funziona direttamente nel browser senza account.",
+        "Tocca una piastra, una barra o un cubo e guarda crescere un numero di tre cifre man mano che si impilano i blocchi in base dieci — piastre da cento, barre da dieci e cubi da uno — costruendo numeri da 108 a 974, compresi gli zeri insidiosi come 200, 305 e 906. È un'attività di matematica interattiva per la classe seconda, che funziona direttamente nel browser senza account.",
         "L'idea importante è che le tre cifre di un numero rappresentano centinaia, decine e unità. Per costruire 463 servono quattro piastre da cento, sei barre da dieci e tre cubi da uno, e vedere i blocchi accumularsi lega ogni cifra a una quantità reale. Numeri come 305 e 906 insegnano in silenzio che uno zero significa nessuno di quel posto — nessuna barra da dieci — ed è proprio lì che di solito nasce la confusione sul valore posizionale.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito del valore posizionale: comprendere che le tre cifre di un numero di tre cifre rappresentano quantità di centinaia, decine e unità. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
       ],
@@ -2058,7 +2058,7 @@
     },
     "ten-frame.show-the-operation.k-oa-a-1": {
       "about": [
-        "Per «3 + 2» il bambino mette 3 gettoni e poi altri 2 di un secondo colore, così le due parti sono facili da vedere; per «5 − 2» parte da 5 e tocca per toglierne 2. Il lavoro è proprio rappresentare l'operazione sulla tabella del dieci, non scrivere un numero. È un'attività di matematica gratuita e interattiva per la scuola dell'infanzia, che si gioca nel browser senza registrazione.",
+        "Per «3 + 2» il bambino mette 3 gettoni e poi altri 2 di un secondo colore, così le due parti sono facili da vedere; per «5 − 2» parte da 5 e tocca per toglierne 2. Il lavoro è proprio rappresentare l'operazione sulla tabella del dieci, non scrivere un numero. È un'attività di matematica interattiva per la scuola dell'infanzia, che si gioca nel browser senza registrazione.",
         "L'idea importante è che addizione e sottrazione sono azioni che si possono mostrare, non solo risposte da scrivere. Il secondo colore dei gettoni rende visibili i due addendi come gruppi distinti, e togliere i gettoni rende concreto il «togliere». Il bambino rappresenta l'operazione invece di digitare un numero, così il significato del mettere insieme e del separare viene prima del calcolo.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito delle operazioni: rappresentare addizioni e sottrazioni con oggetti, dita, disegni e altri strumenti. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
       ],
@@ -2081,7 +2081,7 @@
     },
     "choice-board.shape-id.k-g-a-2": {
       "about": [
-        "Ad ogni richiesta compare il nome di una forma — cerchio, quadrato, triangolo, rettangolo, esagono, ovale, stella, rombo, cuore o pentagono — e il bambino la cerca con lo sguardo, toccandola tra quattro figure proposte. È un'attività di geometria per la scuola dell'infanzia, gratuita e interattiva, che funziona nel browser su tablet, telefono o computer di classe, senza installare nulla e senza registrazione.",
+        "Ad ogni richiesta compare il nome di una forma — cerchio, quadrato, triangolo, rettangolo, esagono, ovale, stella, rombo, cuore o pentagono — e il bambino la cerca con lo sguardo, toccandola tra quattro figure proposte. È un'attività di geometria per la scuola dell'infanzia, interattiva, che funziona nel browser su tablet, telefono o computer di classe, senza installare nulla e senza registrazione.",
         "L'idea importante è che una forma resta la stessa forma, comunque sia girata o grande sia disegnata. Un triangolo appoggiato sulla punta o un quadrato piccolissimo sono pur sempre un triangolo e un quadrato: il bambino deve riconoscere la figura in sé, non una sola immagine «da libro». Le tre scelte sbagliate sono altre forme vere dell'insieme, così non si può vincere scegliendo l'unica forma presente: bisogna sapere quale nome appartiene a quale figura.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito dello spazio e delle figure: nominare correttamente le forme indipendentemente dall'orientamento e dalle dimensioni. Nessun timer e nessun punteggio: il bambino osserva con calma e gioca."
       ],
@@ -2104,7 +2104,7 @@
     },
     "choice-board.flat-solid.k-g-a-3": {
       "about": [
-        "Compare una forma alla volta e il bambino tocca se è piatta o solida — forme piatte (2D) come il cerchio, il triangolo, il quadrato e l'esagono, e forme solide (3D) come il cubo, la sfera, il cilindro e il cono. È un'attività di geometria per la scuola dell'infanzia, gratuita e interattiva, che si gioca nel browser su tablet, telefono e computer, senza installare nulla e senza account.",
+        "Compare una forma alla volta e il bambino tocca se è piatta o solida — forme piatte (2D) come il cerchio, il triangolo, il quadrato e l'esagono, e forme solide (3D) come il cubo, la sfera, il cilindro e il cono. È un'attività di geometria per la scuola dell'infanzia, interattiva, che si gioca nel browser su tablet, telefono e computer, senza installare nulla e senza account.",
         "L'idea importante è la differenza tra una forma che potresti disegnare su un foglio e una forma che potresti prendere in mano. Qui il bambino non nomina le forme: le ordina in bidimensionali e tridimensionali. Mettere vicino le forme piatte e le loro cugine solide — un cerchio accanto a una sfera, un quadrato accanto a un cubo — porta a osservare se una forma ha spessore, che è il primo passo verso i solidi.",
         "L'attività è allineata alle Indicazioni nazionali: identificare le forme come bidimensionali (piatte) o tridimensionali (solide). Nessun timer e nessun punteggio: solo pratica serena e giocosa."
       ],
@@ -2127,7 +2127,7 @@
     },
     "choice-board.next-number.k-cc-a-2": {
       "about": [
-        "Appare un numero da 1 a 9 e il bambino tocca quello che viene subito dopo — vede un 4 e trova il 5, vede un 8 e trova il 9. È un'attività di conteggio per la scuola dell'infanzia, gratuita e interattiva, che funziona nel browser su tablet, telefono e computer, senza installare nulla e senza account.",
+        "Appare un numero da 1 a 9 e il bambino tocca quello che viene subito dopo — vede un 4 e trova il 5, vede un 8 e trova il 9. È un'attività di conteggio per la scuola dell'infanzia, interattiva, che funziona nel browser su tablet, telefono e computer, senza installare nulla e senza account.",
         "L'idea importante è contare in avanti a partire da un numero dato, invece di ricominciare ogni volta da uno. Le scelte sono numeri tra 0 e 10 vicini alla risposta giusta, così il bambino deve davvero sapere qual è il successivo e non tirare a indovinare. Riprendere il conteggio nel mezzo della successione è proprio ciò che rende il contare rapido e flessibile.",
         "L'attività è allineata alle Indicazioni nazionali: contare in avanti a partire da un numero dato all'interno della successione conosciuta. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
       ],
@@ -2150,7 +2150,7 @@
     },
     "choice-board.read-ruler.2-md-a-1": {
       "about": [
-        "Un oggetto è appoggiato lungo un righello in centimetri — una matita, un nastro, un pastello, un pennarello — e il bambino legge quanto è lungo e tocca la risposta in centimetri, con lunghezze che vanno da un pastello corto di 5 cm a un pennarello di 14 cm o un bastoncino di 17 cm. È un'attività di misura per la classe seconda, gratuita e interattiva, che si gioca nel browser senza account.",
+        "Un oggetto è appoggiato lungo un righello in centimetri — una matita, un nastro, un pastello, un pennarello — e il bambino legge quanto è lungo e tocca la risposta in centimetri, con lunghezze che vanno da un pastello corto di 5 cm a un pennarello di 14 cm o un bastoncino di 17 cm. È un'attività di misura per la classe seconda, interattiva, che si gioca nel browser senza account.",
         "L'idea importante è leggere bene il righello: allineare l'estremità sinistra dell'oggetto allo zero, seguirlo fino all'altra estremità e leggere la tacca lì. Il bambino non stima: legge una lunghezza esatta sulla scala. Poiché le risposte sono numeri vicini tra loro, partire da 1 invece che da 0 — il classico errore di misura — viene allo scoperto, e così si costruisce l'abitudine di iniziare ogni misura dallo zero.",
         "L'attività è allineata alle Indicazioni nazionali: misurare la lunghezza di un oggetto scegliendo e usando uno strumento adatto come il righello. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
       ],
@@ -2173,7 +2173,7 @@
     },
     "fractions.partition-equal-shares.1-g-a-3": {
       "about": [
-        "Compare una forma — un cerchio, un quadrato, un rettangolo, un triangolo, un'ellisse, un rombo, un esagono o un pentagono — e il bambino tocca le linee di taglio per dividerla in 2 parti uguali (metà) o in 4 parti uguali (quarti). È un'attività di geometria per la classe prima, gratuita e interattiva, che si gioca nel browser su qualsiasi dispositivo, senza registrazione.",
+        "Compare una forma — un cerchio, un quadrato, un rettangolo, un triangolo, un'ellisse, un rombo, un esagono o un pentagono — e il bambino tocca le linee di taglio per dividerla in 2 parti uguali (metà) o in 4 parti uguali (quarti). È un'attività di geometria per la classe prima, interattiva, che si gioca nel browser su qualsiasi dispositivo, senza registrazione.",
         "L'idea importante è che le parti uguali devono essere giuste: i pezzi devono avere la stessa grandezza. Tagliare forme diverse, non solo cerchi, mostra che metà e quarti riguardano l'area uguale, e non una sola immagine familiare: un quadrato diviso in una griglia di quattro e un cerchio diviso in quattro fanno entrambi dei quarti. Poiché è il bambino a fare il taglio, è lui stesso a rendere le parti uguali, invece di riconoscere una figura già pronta.",
         "L'attività è allineata alle Indicazioni nazionali: dividere cerchi e rettangoli in due e quattro parti uguali e descriverle come metà e quarti. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
       ],
@@ -2196,7 +2196,7 @@
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {
       "about": [
-        "Il bambino collega le carte che mostrano lo stesso valore — il numero in cifre (305), il numero in parole (trecentocinque) e la forma scomposta (300 + 5) — toccando una carta e poi una carta che ne ha lo stesso valore, finché il terzetto è collegato. È un gioco di abbinamento di matematica per la classe seconda, gratuito e interattivo, che si gioca nel browser, senza installare nulla e senza account.",
+        "Il bambino collega le carte che mostrano lo stesso valore — il numero in cifre (305), il numero in parole (trecentocinque) e la forma scomposta (300 + 5) — toccando una carta e poi una carta che ne ha lo stesso valore, finché il terzetto è collegato. È un gioco di abbinamento di matematica per la classe seconda, interattivo, che si gioca nel browser, senza installare nulla e senza account.",
         "L'idea importante è che le cifre, il nome del numero e la forma scomposta nominano un solo numero — e i «vuoti» del valore posizionale sono il punto interessante. Numeri come 305 e 208 hanno uno zero nelle decine, quindi la forma scomposta è 300 + 5 e non 300 + 0 + 5, e bisogna leggere con attenzione per abbinare «duecentootto» a 208 e non a 280. In ogni round ci sono tre numeri diversi da sistemare insieme.",
         "L'attività è allineata alle Indicazioni nazionali: leggere e scrivere i numeri fino a 1000 in cifre, in parole e in forma scomposta. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
       ],
@@ -2219,7 +2219,7 @@
     },
     "money.count-out.2-md-c-8": {
       "about": [
-        "Il bambino compone un importo, moneta dopo moneta, toccando le monete in euro per metterle nel vassoio finché il totale corrisponde — per esempio 30 centesimi con una moneta da 20 e una da 10 centesimi, oppure 15 centesimi con una da 10 e una da 5. È un'attività di matematica per la classe seconda, gratuita e interattiva, che si gioca nel browser senza installare nulla e senza account.",
+        "Il bambino compone un importo, moneta dopo moneta, toccando le monete in euro per metterle nel vassoio finché il totale corrisponde — per esempio 30 centesimi con una moneta da 20 e una da 10 centesimi, oppure 15 centesimi con una da 10 e una da 5. È un'attività di matematica per la classe seconda, interattiva, che si gioca nel browser senza installare nulla e senza account.",
         "L'idea importante è che il valore di una moneta non si vede dalla sua grandezza: bisogna sapere quanto vale ciascuna e sommare man mano. Una moneta da 5 centesimi è più grande di una da 10 ma vale meno, e una sola moneta da 50 centesimi può valere più di una manciata di monete da 1 e 2 centesimi. Raggiungere ogni importo scegliendo e aggiungendo monete costruisce il conteggio con il totale che cresce, proprio come quando si maneggiano i soldi veri.",
         "L'attività è allineata alle Indicazioni nazionali: risolvere problemi con gli euro e i centesimi, usando il simbolo dell'euro (€). Nessun timer e nessun punteggio: solo pratica serena e giocosa."
       ],
@@ -2242,7 +2242,7 @@
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {
       "about": [
-        "Una sottrazione come 8 − 3 compare sotto forma di schema parte-parte-intero: sono dati l'intero (8) e una parte (3), e il bambino completa la parte mancante. È un'attività di matematica per la classe prima, gratuita e interattiva, che funziona nel browser senza registrazione.",
+        "Una sottrazione come 8 − 3 compare sotto forma di schema parte-parte-intero: sono dati l'intero (8) e una parte (3), e il bambino completa la parte mancante. È un'attività di matematica per la classe prima, interattiva, che funziona nel browser senza registrazione.",
         "L'idea importante è leggere la sottrazione come «cosa va insieme a 3 per fare 8?» — un addendo mancante, e non un conteggio del «togliere». Il bambino riempie la parte vuota finché le due parti ricostruiscono l'intero, così il legame profondo tra sottrazione e addizione è proprio ciò che fa, con round che arrivano a interi fino a 16.",
         "L'attività è allineata alle Indicazioni nazionali: comprendere la sottrazione come la ricerca di un addendo mancante. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
       ],
@@ -2265,7 +2265,7 @@
     },
     "place-value.expanded-form.2-nbt-a-3": {
       "about": [
-        "Il bambino costruisce un numero di tre cifre con i blocchi in base dieci — toccando per aggiungere piastre da cento, barre da dieci e cubetti da uno — e quando la costruzione è corretta i blocchi rivelano la forma estesa, così 247 diventa 200 + 40 + 7, con numeri da raggiungere da 108 fino a 974, compresi quelli insidiosi come 305. È un'attività di matematica per la classe seconda, gratuita e interattiva, che funziona nel browser senza account.",
+        "Il bambino costruisce un numero di tre cifre con i blocchi in base dieci — toccando per aggiungere piastre da cento, barre da dieci e cubetti da uno — e quando la costruzione è corretta i blocchi rivelano la forma estesa, così 247 diventa 200 + 40 + 7, con numeri da raggiungere da 108 fino a 974, compresi quelli insidiosi come 305. È un'attività di matematica per la classe seconda, interattiva, che funziona nel browser senza account.",
         "L'idea importante è che un numero è la somma di quanto vale ciascuna cifra. Costruendo 247 con due centinaia, quattro decine e sette unità, il bambino vede che il 4 significa 40 e non soltanto «quattro». I numeri con uno zero sono i veri maestri: 305 mostra che una decina vuota non aggiunge nulla, quindi la forma estesa è solo 300 + 5. I blocchi collegano le cifre al loro valore reale.",
         "L'attività è allineata alle Indicazioni nazionali: leggere e scrivere i numeri di tre cifre in forma estesa. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
       ],
@@ -2288,7 +2288,7 @@
     },
     "ten-frame.solve-the-story.k-oa-a-2": {
       "about": [
-        "«3 uccellini sono su un ramo, ne arrivano altri 2 — quanti sono adesso?» Compare una piccola storia, il bambino la rappresenta con i gettoni sulla tabella del dieci per decidere se unire o togliere, poi scrive la risposta sul tastierino. È un'attività di matematica per la scuola dell'infanzia, gratuita e interattiva, dedicata ai problemi entro il 10, che si gioca nel browser senza account.",
+        "«3 uccellini sono su un ramo, ne arrivano altri 2 — quanti sono adesso?» Compare una piccola storia, il bambino la rappresenta con i gettoni sulla tabella del dieci per decidere se unire o togliere, poi scrive la risposta sul tastierino. È un'attività di matematica per la scuola dell'infanzia, interattiva, dedicata ai problemi entro il 10, che si gioca nel browser senza account.",
         "I problemi con le storie sono il punto in cui i numeri incontrano il significato. Il bambino deve capire se la storia unisce dei gruppi o ne toglie una parte, che è più difficile che ricevere già il segno più o meno. La tabella del dieci è un aiuto per rappresentare e «recitare» la storia, ma la risposta va scritta sul tastierino — così il lavoro è leggere, scegliere l'operazione e poi contare per essere sicuri.",
         "L'attività è allineata alle Indicazioni nazionali: risolvere problemi di addizione e sottrazione entro il 10 usando oggetti o disegni per rappresentare la situazione. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
       ],
@@ -2311,7 +2311,7 @@
     },
     "choice-board.count-sides.k-g-b-4": {
       "about": [
-        "Compare una sola forma alla volta e il bambino conta i suoi lati dritti, poi tocca il numero giusto: un triangolo con 3 lati, un quadrato con 4, un pentagono con 5 o un esagono con 6, scegliendo tra numeri che vanno dal 3 all'8. È un'attività di geometria gratuita e interattiva per la scuola dell'infanzia, che funziona direttamente nel browser su tablet, telefono o computer di classe, senza installare nulla e senza registrazione.",
+        "Compare una sola forma alla volta e il bambino conta i suoi lati dritti, poi tocca il numero giusto: un triangolo con 3 lati, un quadrato con 4, un pentagono con 5 o un esagono con 6, scegliendo tra numeri che vanno dal 3 all'8. È un'attività di geometria interattiva per la scuola dell'infanzia, che funziona direttamente nel browser su tablet, telefono o computer di classe, senza installare nulla e senza registrazione.",
         "L'idea importante è che una forma non è soltanto il suo nome: è fatta di parti che si possono contare. Il bambino non può rispondere riconoscendo «un triangolo», ma deve seguire ogni lato con gli occhi e contarlo uno per uno. Poiché tra i numeri proposti ci sono valori vicini, come il 5 accanto al 6, un conteggio sbagliato di un'unità viene subito alla luce: così il bambino impara a contare con calma, lato per lato, invece di tirare a indovinare.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito dello spazio e delle figure: analizzare e confrontare le forme descrivendone le parti, come il numero di lati. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
       ],
@@ -2334,7 +2334,7 @@
     },
     "choice-board.pick-smaller.k-c-c-7": {
       "about": [
-        "Sullo schermo appaiono due numeri scritti in cifre e il bambino tocca quello più piccolo: ad esempio 3 e 5, oppure 8 e 9. Alcune coppie sono molto distanti, come 1 e 9, altre sono vicinissime, come 5 e 6. È un'attività di conteggio gratuita e interattiva per la scuola dell'infanzia, che si gioca direttamente nel browser, senza account.",
+        "Sullo schermo appaiono due numeri scritti in cifre e il bambino tocca quello più piccolo: ad esempio 3 e 5, oppure 8 e 9. Alcune coppie sono molto distanti, come 1 e 9, altre sono vicinissime, come 5 e 6. È un'attività di conteggio interattiva per la scuola dell'infanzia, che si gioca direttamente nel browser, senza account.",
         "L'idea importante è confrontare i numeri guardando al loro valore e cercando «di meno» invece di «di più»: un piccolo ma significativo spostamento dell'attenzione. Senza oggetti da contare, il bambino legge ogni cifra e decide quale numero è minore. Le coppie vicine rendono l'esercizio autentico: sapere che l'8 viene appena prima del 9 è ciò che fa capire che 8 è il più piccolo.",
         "L'attività è allineata alle Indicazioni nazionali: confrontare due numeri compresi tra 1 e 10 scritti in cifre. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
       ],
@@ -2357,7 +2357,7 @@
     },
     "choice-board.read-sight-word.rf-k-3-c": {
       "about": [
-        "Il bambino ascolta una parola ad alta frequenza pronunciata ad alta voce, poi tocca la parola scritta giusta tra quattro scelte molto simili tra loro: le parole più comuni che compaiono di continuo nei primi testi. È un'attività di lettura gratuita e interattiva per la classe prima della scuola primaria, che funziona direttamente nel browser su tablet, telefono e computer, senza installare nulla e senza registrazione.",
+        "Il bambino ascolta una parola ad alta frequenza pronunciata ad alta voce, poi tocca la parola scritta giusta tra quattro scelte molto simili tra loro: le parole più comuni che compaiono di continuo nei primi testi. È un'attività di lettura interattiva per la classe prima della scuola primaria, che funziona direttamente nel browser su tablet, telefono e computer, senza installare nulla e senza registrazione.",
         "L'idea importante è riconoscere le parole frequenti a colpo d'occhio, in modo immediato, così che la lettura possa scorrere. Poiché molte di queste parole si assomigliano, le scelte sbagliate sono parenti strette, con piccole differenze di lettere o di lunghezza, e il bambino deve riconoscere la parola esatta, non solo una forma simile. Ascoltare la parola e ritrovarla scritta collega il suono all'ortografia delle parole che i bambini incontrano più spesso.",
         "L'attività è allineata alle Indicazioni nazionali: leggere a prima vista le parole più comuni ad alta frequenza. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
       ],
@@ -2380,7 +2380,7 @@
     },
     "choice-board.letter-case.rf-k-1-d": {
       "about": [
-        "Appare una lettera e il bambino tocca la stessa lettera nell'altra forma: dalla maiuscola alla minuscola, oppure dalla minuscola alla maiuscola. Compare una grande B e il bambino trova la piccola b; una grande R trova la r; una grande E trova la e. È un'attività di lettura gratuita e interattiva per la scuola dell'infanzia, che si gioca direttamente nel browser, senza registrazione.",
+        "Appare una lettera e il bambino tocca la stessa lettera nell'altra forma: dalla maiuscola alla minuscola, oppure dalla minuscola alla maiuscola. Compare una grande B e il bambino trova la piccola b; una grande R trova la r; una grande E trova la e. È un'attività di lettura interattiva per la scuola dell'infanzia, che si gioca direttamente nel browser, senza registrazione.",
         "L'idea importante è che ogni lettera ha due aspetti che indicano la stessa lettera. Le scelte sbagliate sono volutamente vicine: per la B le minuscole proposte sono b, d, p e h, così il bambino deve riconoscere la vera forma della lettera e non scegliere semplicemente qualcosa di tondeggiante. Distinguere le lettere che si girano e si specchiano, come b e d, è proprio quell'osservazione attenta che costruisce un riconoscimento sicuro delle lettere.",
         "L'attività è allineata alle Indicazioni nazionali: riconoscere e nominare tutte le lettere dell'alfabeto, maiuscole e minuscole. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
       ],
@@ -2403,7 +2403,7 @@
     },
     "fractions.partition-thirds.2-g-a-3": {
       "about": [
-        "Compare un cerchio, un triangolo, un esagono, un quadrato, un rettangolo, un rombo o un'ellisse, e il bambino tocca le linee di taglio per dividerlo in tre parti uguali: i terzi. È un'attività di geometria gratuita e interattiva per la classe seconda della scuola primaria, che funziona nel browser su qualsiasi dispositivo, senza installare nulla e senza account.",
+        "Compare un cerchio, un triangolo, un esagono, un quadrato, un rettangolo, un rombo o un'ellisse, e il bambino tocca le linee di taglio per dividerlo in tre parti uguali: i terzi. È un'attività di geometria interattiva per la classe seconda della scuola primaria, che funziona nel browser su qualsiasi dispositivo, senza installare nulla e senza account.",
         "L'idea importante è che i terzi sono più difficili delle metà, perché tre parti uguali non cadono su una linea di mezzo evidente. Un cerchio si divide con tre linee dal centro, un rettangolo in tre strisce uguali, un triangolo in tre parti corrispondenti: così il bambino impara che «terzi» significa tre parti della stessa grandezza, comunque sia tagliata la forma. Fare i tagli da sé costruisce quel senso della divisione in parti uguali che la sola osservazione di un'immagine non può dare.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito dello spazio e delle figure: dividere cerchi e rettangoli in due, tre o quattro parti uguali e descrivere le parti con la parola terzi. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
       ],
@@ -2426,7 +2426,7 @@
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {
       "about": [
-        "Il bambino risolve carte come ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 e 10 − ? = 6, poi tocca l'operazione e il numero che la completa per collegare la coppia. È un'attività di matematica gratuita e interattiva per la classe prima della scuola primaria, che funziona direttamente nel browser, senza installare nulla e senza account.",
+        "Il bambino risolve carte come ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 e 10 − ? = 6, poi tocca l'operazione e il numero che la completa per collegare la coppia. È un'attività di matematica interattiva per la classe prima della scuola primaria, che funziona direttamente nel browser, senza installare nulla e senza account.",
         "L'idea importante è che il numero sconosciuto può trovarsi in qualsiasi posizione: un addendo mancante, un numero da togliere, il numero di partenza o il totale. Così il bambino deve ragionare ogni volta sulla relazione tra i numeri, invece di «aggiungere sempre per trovare la risposta». A volte lo spazio vuoto è il totale (5 + 4 = ?) e a volte è nascosto dentro l'operazione (? − 4 = 1): questo costruisce una vera flessibilità con le famiglie di numeri.",
         "L'attività è allineata alle Indicazioni nazionali: trovare il numero sconosciuto in un'addizione o in una sottrazione, in qualsiasi posizione. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
       ],
@@ -2449,7 +2449,7 @@
     },
     "money.make-change.2-md-c-8": {
       "about": [
-        "Un oggetto costa 70 centesimi e si paga con 1 euro: il bambino deve dare il resto giusto, qui 30 centesimi, toccando le monete e mettendole nel vassoio. Calcolare la differenza e comporla con le monete in euro unisce la sottrazione al conteggio concreto del denaro, in un'attività di matematica gratuita e interattiva per la classe seconda della scuola primaria, che si gioca direttamente nel browser, senza installare nulla e senza account.",
+        "Un oggetto costa 70 centesimi e si paga con 1 euro: il bambino deve dare il resto giusto, qui 30 centesimi, toccando le monete e mettendole nel vassoio. Calcolare la differenza e comporla con le monete in euro unisce la sottrazione al conteggio concreto del denaro, in un'attività di matematica interattiva per la classe seconda della scuola primaria, che si gioca direttamente nel browser, senza installare nulla e senza account.",
         "L'idea importante è che il resto è la differenza tra quanto si è pagato e quanto costa l'oggetto. Il bambino prima calcola quanto deve restituire, poi compone quella cifra scegliendo tra le monete da 1, 2, 5, 10, 20 e 50 centesimi e da 1 e 2 euro. Poiché il valore non è scritto su ogni moneta, deve conoscere quanto vale ciascuna e contare fino ad arrivare al resto dovuto.",
         "L'attività è allineata alle Indicazioni nazionali, sul tema del denaro: risolvere problemi con gli euro e i centesimi e usare il simbolo €. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
       ],
@@ -2472,7 +2472,7 @@
     },
     "numberbond.add-three.1-oa-a-2": {
       "about": [
-        "Un grafo numerico a tre parti unisce tre numeri, come 3, 4 e 5, in un unico intero, e il bambino somma tutti e tre e scrive il totale sul tastierino. È un'attività di matematica gratuita e interattiva per la classe prima della scuola primaria, che si gioca direttamente nel browser, senza account.",
+        "Un grafo numerico a tre parti unisce tre numeri, come 3, 4 e 5, in un unico intero, e il bambino somma tutti e tre e scrive il totale sul tastierino. È un'attività di matematica interattiva per la classe prima della scuola primaria, che si gioca direttamente nel browser, senza account.",
         "Vedere tre parti confluire in un solo intero mostra che si possono combinare i numeri in qualsiasi ordine e un passo alla volta. Coppie come 4 + 4 + 5 invitano con discrezione a formare prima un numero comodo, poi ad aggiungere l'ultima parte. Il bambino legge le tre parti e scrive la somma; i puntini dentro ciascuna parte sono lì per essere contati quando un risultato non è ancora automatico.",
         "L'attività è allineata alle Indicazioni nazionali: sommare tre numeri il cui totale rimane entro il 20. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
       ],
@@ -2495,7 +2495,7 @@
     },
     "sort-bins.sort-by-sides.2-g-a-1": {
       "about": [
-        "A ogni giro cade un insieme disordinato di figure — triangoli rettangoli e ottusangoli, quadrati, rombi, pentagoni ed esagoni irregolari — e il bambino conta i lati di ciascuna e la trascina nel contenitore giusto. È un'attività di geometria gratuita e interattiva per la classe seconda della scuola primaria, che si gioca nel browser, senza registrazione.",
+        "A ogni giro cade un insieme disordinato di figure — triangoli rettangoli e ottusangoli, quadrati, rombi, pentagoni ed esagoni irregolari — e il bambino conta i lati di ciascuna e la trascina nel contenitore giusto. È un'attività di geometria interattiva per la classe seconda della scuola primaria, che si gioca nel browser, senza registrazione.",
         "La mossa decisiva è contare i lati invece di abbinare un'immagine già vista, perché una figura a cinque lati allungata o inclinata è comunque un pentagono. Affrontando le forme irregolari e ruotate accanto a quelle ordinate, il bambino impara a usare il numero di lati come la regola che dà il nome a un poligono. Così costruisce il lessico — quadrilatero, pentagono, esagono — e l'abitudine ad analizzare le figure attraverso le loro parti.",
         "L'attività è allineata alle Indicazioni nazionali: riconoscere e disegnare figure con attributi indicati, come un dato numero di lati, e identificare triangoli, quadrilateri, pentagoni ed esagoni. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
       ],
@@ -2518,7 +2518,7 @@
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {
       "about": [
-        "Compare un calcolo rapido — 2 + 1, 5 − 2, 4 − 1 — e il bambino tocca la risposta giusta tra tre numeri vicini tra loro, con una tabella del dieci accanto da usare come aiuto facoltativo. L'obiettivo è il richiamo veloce e sicuro dei fatti numerici entro il 5. È un'attività di matematica gratuita e interattiva per la scuola dell'infanzia, che si gioca nel browser, senza registrazione.",
+        "Compare un calcolo rapido — 2 + 1, 5 − 2, 4 − 1 — e il bambino tocca la risposta giusta tra tre numeri vicini tra loro, con una tabella del dieci accanto da usare come aiuto facoltativo. L'obiettivo è il richiamo veloce e sicuro dei fatti numerici entro il 5. È un'attività di matematica interattiva per la scuola dell'infanzia, che si gioca nel browser, senza registrazione.",
         "La padronanza entro il 5 è il ponte tra il contare e il vero calcolo. Le tre risposte sono vicine tra loro — per 2 + 2 le opzioni sono 3, 4 e 5 — così il bambino non può rispondere scegliendo il più grande o il più piccolo: deve conoscere il risultato o ricavarlo sulla tabella. Giro dopo giro, i calcoli che all'inizio venivano contati cominciano ad arrivare immediatamente, ed è esattamente questo che significa padronanza.",
         "L'attività è allineata alle Indicazioni nazionali: addizionare e sottrarre con sicurezza entro il 5. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
       ],
@@ -2541,7 +2541,7 @@
     },
     "choice-board.pick-bigger.k-c-c-7": {
       "about": [
-        "Sullo schermo compaiono due numeri scritti in cifre e il bambino tocca quello più grande: per esempio 7 e 6, oppure 8 e 7. Alcune coppie sono molto distanti, come 9 e 2, altre sono vicinissime, come 8 e 7. È un'attività interattiva e gratuita di matematica per la scuola dell'infanzia, da fare nel browser su tablet, telefono o computer, senza installare nulla e senza account.",
+        "Sullo schermo compaiono due numeri scritti in cifre e il bambino tocca quello più grande: per esempio 7 e 6, oppure 8 e 7. Alcune coppie sono molto distanti, come 9 e 2, altre sono vicinissime, come 8 e 7. È un'attività interattiva di matematica per la scuola dell'infanzia, da fare nel browser su tablet, telefono o computer, senza installare nulla e senza account.",
         "L'idea importante è confrontare i numeri così come sono scritti, senza contare oggetti o immagini. Non ci sono disegni d'aiuto: il bambino deve sapere che 8 vale più di 7 semplicemente leggendo le cifre. Le coppie ravvicinate sono ciò che rende l'esercizio davvero utile, perché non basta scegliere il numero \"dall'aria più grande\": bisogna conoscere il valore di ogni cifra.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: confrontare due numeri tra 1 e 10 scritti in cifre. Nessun timer e nessun punteggio, solo un gioco tranquillo da ripetere con calma quante volte si vuole."
       ],
@@ -2564,7 +2564,7 @@
     },
     "choice-board.how-many-group.k-c-c-b-5": {
       "about": [
-        "Compare un gruppo di immagini simpatiche — un gufo, quattro volpi, otto elefanti — e il bambino conta gli oggetti e tocca il numero corrispondente. È un'attività interattiva e gratuita di conteggio per la scuola dell'infanzia, da usare direttamente nel browser su tablet, telefono o computer di classe, senza nulla da installare e senza registrazione.",
+        "Compare un gruppo di immagini simpatiche — un gufo, quattro volpi, otto elefanti — e il bambino conta gli oggetti e tocca il numero corrispondente. È un'attività interattiva di conteggio per la scuola dell'infanzia, da usare direttamente nel browser su tablet, telefono o computer di classe, senza nulla da installare e senza registrazione.",
         "L'idea centrale è la cardinalità: l'ultimo numero che diciamo contando indica quanti elementi ci sono in tutto. Poiché gli oggetti appaiono in fila, in piccoli schieramenti o sparsi, il bambino non può affidarsi a uno schema imparato a memoria, ma deve contare ogni immagine una volta sola. I numeri tra cui scegliere sono vicini, come 7, 8 e 9, così un errore di uno solo si nota subito e invita a ricontare con calma.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: contare per rispondere alla domanda \"quanti ce ne sono?\" fino a 10 oggetti disposti in fila, in schieramento o sparsi. Nessun timer e nessun punteggio."
       ],
@@ -2587,7 +2587,7 @@
     },
     "choice-board.tell-words-apart.rf-k-3-c": {
       "about": [
-        "Il bambino ascolta una parola di uso frequente letta ad alta voce e poi la riconosce tra tre \"gemelle\" molto somiglianti: per esempio distingue una parola dalle sue compagne che cambiano solo per una o due lettere. È un'attività interattiva e gratuita di lettura per la classe prima, con il suono e senza registrazione, da fare comodamente nel browser.",
+        "Il bambino ascolta una parola di uso frequente letta ad alta voce e poi la riconosce tra tre \"gemelle\" molto somiglianti: per esempio distingue una parola dalle sue compagne che cambiano solo per una o due lettere. È un'attività interattiva di lettura per la classe prima, con il suono e senza registrazione, da fare comodamente nel browser.",
         "Queste parole si assomigliano moltissimo, perciò un'occhiata veloce non basta. Il bambino deve tenere a mente la parola ascoltata e controllare le scelte scritte lettera per lettera, fino a trovare quella esatta, notando le piccole differenze di ordine o di lettera che cambiano tutto. È proprio questa lettura attenta che trasforma i tentativi incerti nel riconoscimento rapido e sicuro delle parole su cui si basa una lettura scorrevole.",
         "L'attività è allineata alle Indicazioni nazionali per la scuola primaria, nell'ambito della lettura: riconoscere a colpo d'occhio le parole più frequenti. Nessun timer e nessun punteggio, solo pratica serena."
       ],
@@ -2610,7 +2610,7 @@
     },
     "choice-board.beginning-sound.rf-k-3-a": {
       "about": [
-        "Appare una sola lettera — per esempio D, F o M — e il bambino tocca l'immagine la cui parola inizia con quel suono, scegliendo tra gruppi familiari come animali, cibi e oggetti di tutti i giorni. È un'attività di fonologia gratuita per la scuola dell'infanzia, da fare direttamente nel browser, senza nulla da installare e senza account.",
+        "Appare una sola lettera — per esempio D, F o M — e il bambino tocca l'immagine la cui parola inizia con quel suono, scegliendo tra gruppi familiari come animali, cibi e oggetti di tutti i giorni. È un'attività di fonologia per la scuola dell'infanzia, da fare direttamente nel browser, senza nulla da installare e senza account.",
         "Ogni turno mostra un'immagine giusta e tre che iniziano con altri suoni, così il bambino non può tirare a indovinare: deve dire il nome di ogni immagine e ascoltarne il primissimo suono. Collegare la lettera al suono con cui comincia una parola è il legame fondamentale tra segno e suono, e sentirlo a confronto con le altre immagini fa risaltare con chiarezza quel suono iniziale.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito della consapevolezza fonologica: riconoscere il suono iniziale di una parola e collegarlo alla lettera. Nessun timer e nessun punteggio, solo piccoli successi da festeggiare insieme."
       ],
@@ -2633,7 +2633,7 @@
     },
     "fractions.make-and-count-squares.2-g-a-2": {
       "about": [
-        "Il bambino tocca le linee tratteggiate per dividere un rettangolo in righe e colonne di quadrati tutti della stessa grandezza — 2 righe e 3 colonne, 3 righe e 4 colonne, fino a 4 righe e 5 colonne — e poi scrive quanti quadrati ci sono in tutto. È un'attività interattiva e gratuita di geometria per la seconda elementare, da fare nel browser su qualsiasi dispositivo, senza installare nulla e senza account.",
+        "Il bambino tocca le linee tratteggiate per dividere un rettangolo in righe e colonne di quadrati tutti della stessa grandezza — 2 righe e 3 colonne, 3 righe e 4 colonne, fino a 4 righe e 5 colonne — e poi scrive quanti quadrati ci sono in tutto. È un'attività interattiva di geometria per la seconda elementare, da fare nel browser su qualsiasi dispositivo, senza installare nulla e senza account.",
         "L'idea importante è che un rettangolo si può dividere in quadrati uguali disposti in righe e colonne ordinate, e che questa struttura aiuta a contarli. Poiché è il bambino stesso a costruire la griglia e poi a contare, comincia a sentire che 3 righe di 4 quadrati significano contare per gruppi uguali: l'inizio silenzioso degli schieramenti e della moltiplicazione. I quadrati sono tutti uguali apposta, così il \"quanti\" è davvero un totale di parti uguali.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito dello spazio e delle figure: dividere un rettangolo in righe e colonne di quadrati uguali e contarli per trovare il totale. Nessun timer e nessun punteggio, solo gioco tranquillo."
       ],
@@ -2656,7 +2656,7 @@
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {
       "about": [
-        "Il bambino legge un confronto come 247 ___ 274 oppure 583 ___ 419 e lo collega al simbolo che lo rende vero — minore di (<) o maggiore di (>) — toccando la carta del confronto e poi il simbolo giusto. È un gioco interattivo e gratuito di abbinamento a carte per la seconda elementare, da giocare direttamente nel browser, senza installare nulla e senza account.",
+        "Il bambino legge un confronto come 247 ___ 274 oppure 583 ___ 419 e lo collega al simbolo che lo rende vero — minore di (<) o maggiore di (>) — toccando la carta del confronto e poi il simbolo giusto. È un gioco interattivo di abbinamento a carte per la seconda elementare, da giocare direttamente nel browser, senza installare nulla e senza account.",
         "L'idea importante è confrontare in base al valore posizionale, partendo dalle centinaia. Le coppie sono scelte in modo che non basti uno sguardo veloce: numeri come 655 e 658 hanno le stesse centinaia e le stesse decine, quindi a decidere sono le unità, mentre 480 e 408 obbligano a guardare le decine. Procedere da sinistra a destra — prima le centinaia, poi le decine, infine le unità — è proprio il ragionamento che l'abbinamento fa esercitare.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: confrontare due numeri a tre cifre usando >, = e < in base al valore di centinaia, decine e unità. Nessun timer e nessun punteggio."
       ],
@@ -2679,7 +2679,7 @@
     },
     "numberbond.make-ten.k-oa-a-4": {
       "about": [
-        "L'intero è 10 e una parte del legame tra numeri è già riempita — per esempio 7 — e il bambino tocca la parte vuota per aggiungere pedine finché le due parti insieme formano 10. È un'attività interattiva e gratuita di matematica per la scuola dell'infanzia, da fare direttamente nel browser, senza account e senza registrazione.",
+        "L'intero è 10 e una parte del legame tra numeri è già riempita — per esempio 7 — e il bambino tocca la parte vuota per aggiungere pedine finché le due parti insieme formano 10. È un'attività interattiva di matematica per la scuola dell'infanzia, da fare direttamente nel browser, senza account e senza registrazione.",
         "Ogni numero da 1 a 9 ha un compagno che completa il dieci, e qui il bambino costruisce quel compagno aggiungendo le pedine una alla volta e guardando le due parti crescere fino a 10, non leggendo un risultato su una pagina. Il legame stesso è la risposta: il bambino si ferma quando le due parti fanno esattamente dieci, così una parte troppo piccola o troppo grande è facile da sentire e da correggere.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: trovare il numero che, aggiunto a un numero dato, forma 10. Nessun timer e nessun punteggio, ogni tentativo è un piccolo passo per imparare."
       ],
@@ -2702,7 +2702,7 @@
     },
     "numberbond.story-problem.2-oa-a-1": {
       "about": [
-        "Il bambino legge un breve problema — 20 tulipani rossi e 30 gialli, uno scaffale con 45 libri, le anatre che arrivano allo stagno — lo vede rappresentato come un legame tra numeri e poi scrive il numero mancante. È un'attività interattiva e gratuita di matematica per la classe seconda, da fare direttamente nel browser, senza account.",
+        "Il bambino legge un breve problema — 20 tulipani rossi e 30 gialli, uno scaffale con 45 libri, le anatre che arrivano allo stagno — lo vede rappresentato come un legame tra numeri e poi scrive il numero mancante. È un'attività interattiva di matematica per la classe seconda, da fare direttamente nel browser, senza account.",
         "Il legame tra numeri trasforma ogni storia nella stessa immagine: due parti e un intero. Così il bambino vede se l'incognita è il totale, una parte rimasta o una quantità di partenza. Alcuni problemi sono di addizione (quanti in tutto), altri di sottrazione (quanti ne restano, quanti ne sono arrivati), e il legame rende chiara questa scelta, invece di affidarsi a una parola chiave indovinata.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri e dei problemi: risolvere problemi a una sola operazione, di addizione e sottrazione, entro il 100. Nessun timer e nessun punteggio."
       ],
@@ -2725,7 +2725,7 @@
     },
     "sort-bins.defining-attributes.1-g-a-1": {
       "about": [
-        "È ancora un triangolo se è rosso, grande o inclinato? Ogni turno nomina una figura e il bambino trascina ogni forma nella scatola giusta decidendo che cosa è, non come appare, separando i veri triangoli da quadrati, pentagoni ed esagoni. È un'attività interattiva e gratuita di geometria per la classe prima, da fare nel browser, senza nulla da installare.",
+        "È ancora un triangolo se è rosso, grande o inclinato? Ogni turno nomina una figura e il bambino trascina ogni forma nella scatola giusta decidendo che cosa è, non come appare, separando i veri triangoli da quadrati, pentagoni ed esagoni. È un'attività interattiva di geometria per la classe prima, da fare nel browser, senza nulla da installare.",
         "Tutta l'idea sta nella differenza tra una caratteristica che definisce e una che no. Un triangolo è definito dall'avere tre lati — e basta — mentre essere rosso, grande o inclinato è solo l'aspetto di quel particolare triangolo. Smistando gli esempi a confronto con i \"finti amici\", il bambino impara a ignorare l'apparenza e a giudicare in base alla proprietà che conta davvero: è l'inizio del vero ragionamento geometrico.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito dello spazio e delle figure: distinguere le caratteristiche che definiscono una figura da quelle che non la definiscono. Nessun timer e nessun punteggio."
       ],
@@ -2750,7 +2750,7 @@
       "about": [
         "Alla bancarella del succo di Bramble ci sono sempre due bicchieri uno accanto all'altro: un bicchiere alto e stretto vicino a una ciotola bassa e larga, oppure una brocca vicino a una tazza. Prima di servire, Bramble fa una sola domanda: «Quale bicchiere contiene più succo?» Il bambino sceglie sinistra, destra o uguale, e poi Bramble versa il succo per scoprire chi ha indovinato.",
         "L'idea è confrontare la capacità dei recipienti senza numeri e senza misurare. La forma inganna: un bicchiere alto e stretto sembra contenere di più, ma una ciotola bassa e larga può contenere molto più succo — essere alto non vuol dire contenere di più. Qui un'ipotesi sbagliata non è un errore, è una scoperta: quando il succo viene versato, il bambino vede con i propri occhi ciò che l'aspetto nascondeva.",
-        "L'attività è gratuita, senza registrazione, senza timer, senza punteggio e senza contare. È pensata per la classe prima e allineata alle Indicazioni nazionali, nell'ambito relativo a relazioni, dati e previsioni: il confronto diretto delle capacità è un primo passo importante prima di misurare, più avanti, con litri e millilitri."
+        "L'attività è senza registrazione, senza timer, senza punteggio e senza contare. È pensata per la classe prima e allineata alle Indicazioni nazionali, nell'ambito relativo a relazioni, dati e previsioni: il confronto diretto delle capacità è un primo passo importante prima di misurare, più avanti, con litri e millilitri."
       ],
       "practices": [
         "Prevedere quale dei due bicchieri contiene più succo di frutti di bosco, guardando solo la loro forma.",
@@ -2773,7 +2773,7 @@
       "about": [
         "Nel museo del pinguino Professor Pip i tesori scorrono su un nastro trasportatore e ogni figura compare girata, minuscola o messa di traverso, come appena scovata in un baule polveroso.",
         "Il gioco allena a riconoscere e denominare le figure a prescindere da orientamento e grandezza: un quadrato ruotato resta un quadrato e non diventa un rombo, mentre il rombo e l’ovale finiscono nella «Sala dei misteri» perché non sono nessuna delle cinque figure, e si impara anche a distinguere il quadrato dal rettangolo.",
-        "L’attività è allineata alle Indicazioni nazionali ed è pensata per la classe prima: è gratuita, senza registrazione, senza timer e senza punteggio."
+        "L’attività è allineata alle Indicazioni nazionali ed è pensata per la classe prima: è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "Riconoscere e nominare le cinque figure: cerchio, triangolo, quadrato, rettangolo ed esagono.",
@@ -2796,7 +2796,7 @@
       "about": [
         "Allo scalo di smistamento il trenino Chuffer aspetta su un binario: una carica di casse va sistemata su due vagoni, uno azzurro e uno rosso, e il bambino decide quante casse mettere su ciascuno.",
         "L’idea è la scomposizione: uno stesso numero si scompone in due parti in molti modi diversi e resta sempre lo stesso: è il tutto e le parti. Il bambino scopre tutti i modi, incontra gli amici del dieci e capisce che «2 e 3 è come 3 e 2» — cambia solo l’ordine dei vagoni, la carica è la stessa (la commutatività).",
-        "Pensata per la classe prima e allineata alle Indicazioni nazionali, è un’attività gratuita, senza registrazione, senza timer e senza punteggio, perché comporre e scomporre è la base dell’addizione e della sottrazione."
+        "Pensata per la classe prima e allineata alle Indicazioni nazionali, è un’attività senza registrazione, senza timer e senza punteggio, perché comporre e scomporre è la base dell’addizione e della sottrazione."
       ],
       "practices": [
         "Scomporre un numero entro il 10 in due parti spostando le casse tra i due vagoni.",
@@ -2819,7 +2819,7 @@
       "about": [
         "Sul ponte dell’amicizia si incontrano Big, tondo e teal, e Bit, tondo e corallo: ognuno arriva con il suo mucchietto di amici tondi e la domanda è semplice: chi ne ha portati di più?",
         "Si confrontano i due gruppi facendo le coppie uno a uno, non contando a occhio: così si scopre chi ne ha di più, di meno o se sono uguali. L’occhio inganna, perché una fila sparsa sembra di più, ma la stessa quantità resta la stessa, sparsa o raccolta in un mucchietto; e se si vuole, si possono pareggiare i due gruppi aggiungendo amici al mucchietto più piccolo.",
-        "Pensata per la classe prima e allineata alle Indicazioni nazionali, è un’attività gratuita, senza registrazione, senza timer e senza punteggio: confrontare le quantità con di più, di meno e uguale è la base tranquilla per imparare poi a contare e a sommare."
+        "Pensata per la classe prima e allineata alle Indicazioni nazionali, è un’attività senza registrazione, senza timer e senza punteggio: confrontare le quantità con di più, di meno e uguale è la base tranquilla per imparare poi a contare e a sommare."
       ],
       "practices": [
         "Fare le coppie uno a uno sul ponte, dando a ogni amico di un lato un compagno dall’altro lato.",
@@ -2842,7 +2842,7 @@
       "about": [
         "C’è una volpe che sogna una collana di perline uguale a quella della sua amica: non le importano i colori, le importa la stessa quantità, ed è proprio questo che rende il gioco così semplice e così ricco.",
         "Si conta per sapere quante sono, e l’ultimo numero detto dice la quantità: così, quando la volpe nasconde, scuote o sparpaglia le perline e sembra tutto cambiato, il bambino scopre la conservazione del numero, perché la quantità non cambia — l’occhio inganna, il numero no.",
-        "Allineata alle Indicazioni nazionali e pensata per la classe prima, l’attività è gratuita, senza registrazione, senza timer e senza punteggio: contare per sapere quante sono è la base tranquilla per confrontare e sommare."
+        "Allineata alle Indicazioni nazionali e pensata per la classe prima, l’attività è senza registrazione, senza timer e senza punteggio: contare per sapere quante sono è la base tranquilla per confrontare e sommare."
       ],
       "practices": [
         "Contare ogni perlina una sola volta, una a una, senza saltarne nessuna e senza ripeterla.",
@@ -2865,7 +2865,7 @@
       "about": [
         "Di notte il cielo è un buio pieno di stelle spente: una sola brilla già e porta scritto il numero da cui iniziare, mentre la lucciola aspetta di volare di stella in stella e, in fondo alla sequenza dei numeri, una creatura nascosta — una volpe, un gufo, un orso — dorme finché l’intera costellazione non si accende.",
         "Contare in avanti a partire da un numero dato senza ricominciare da 1 è la sovraconta: è il ponte verso l’addizione, perché «ho già 7, quindi conto ancora — 8, 9, 10». Ogni numero viene subito dopo l’altro nella sequenza dei numeri, e il conteggio può partire da qualsiasi punto, non solo dall’inizio.",
-        "Allineata alle Indicazioni nazionali per la classe prima, l’attività è gratuita, senza registrazione, senza timer e senza punteggio: la sovraconta è la prima base per sommare senza ricontare ogni volta tutto da 1."
+        "Allineata alle Indicazioni nazionali per la classe prima, l’attività è senza registrazione, senza timer e senza punteggio: la sovraconta è la prima base per sommare senza ricontare ogni volta tutto da 1."
       ],
       "practices": [
         "Continuare a contare a partire da un numero dato, senza tornare a 1.",
@@ -2888,7 +2888,7 @@
       "about": [
         "Mochi è affamato e a ogni giro chiede un numero esatto di golosità: il bambino tocca il piatto e riempie la ciotola una golosità per volta, contando uno a uno, e si ferma quando arriva al numero giusto, togliendone una se per caso ne ha messe troppe.",
         "Qui non si tratta solo di dire quante golosità ci sono, ma di formare una collezione della grandezza richiesta: si conta uno a uno fino al numero e ci si ferma, senza numeri nella ciotola, perché è la ciotola che si riempie a fare da conteggio, e il bambino vede la quantità crescere e sente da solo dove fermarsi.",
-        "Allineata alle Indicazioni nazionali e pensata per la classe prima, è un’attività gratuita, senza registrazione, senza timer e senza punteggio: formare una quantità data è una base tranquilla e sicura prima di unire e sommare le quantità."
+        "Allineata alle Indicazioni nazionali e pensata per la classe prima, è un’attività senza registrazione, senza timer e senza punteggio: formare una quantità data è una base tranquilla e sicura prima di unire e sommare le quantità."
       ],
       "practices": [
         "Contare uno a uno fino alla quantità richiesta, aggiungendo una golosità per volta.",
@@ -2911,7 +2911,7 @@
       "about": [
         "Dewey, un simpatico paperotto, ci mostra la sua vasca: basta un tocco e le bolle scendono una alla volta: quando arriva la decima bolla, le dieci si uniscono e brillano tutte insieme formando una decina, mentre le bolle in più galleggiano sciolte accanto come unità.",
         "Guardando le bolle, il bambino vede i numeri da 11 a 19 come una decina e alcune unità (10 + N): impara a comporre e scomporre il numero, a separare la decina dalle unità, a raggruppare dieci unità in una decina e a confrontare due numeri osservando prima le decine e poi le unità: è la base del valore posizionale, capita con le mani e non con regole da memorizzare.",
-        "Allineata alle Indicazioni nazionali e pensata per la classe prima, l’attività è gratuita, senza registrazione, senza timer e senza punteggio: capire le decine e le unità con i numeri da 11 a 19 è la base per lavorare più avanti con i numeri fino al 100."
+        "Allineata alle Indicazioni nazionali e pensata per la classe prima, l’attività è senza registrazione, senza timer e senza punteggio: capire le decine e le unità con i numeri da 11 a 19 è la base per lavorare più avanti con i numeri fino al 100."
       ],
       "practices": [
         "Raggruppare dieci unità per formare una decina.",
@@ -2934,7 +2934,7 @@
       "about": [
         "Un gufo pieno di curiosità mostra un barattolo colmo di caramelle e chiede: «Secondo te, quante sono?». Il bambino esprime prima un desiderio — la sua stima sulla linea dei numeri — poi il barattolo si apre, le caramelle si sparpagliano e lui le conta a uno a uno per scoprire quante erano davvero. La previsione non viene mai giudicata: il gioco è proprio nella sorpresa di scoprirlo.",
         "Il bambino allena la stima della numerosità e impara a contare a uno a uno, senza saltare e senza ripetere, per rispondere alla domanda «quante sono?» entro il 20. Alla fine confronta la sua stima con il numero reale e riconosce se ha immaginato di più o di meno.",
-        "Attività allineata alle Indicazioni nazionali e pensata per la classe prima. È completamente gratuita, senza registrazione, senza timer e senza punteggi: solo il piacere di contare e scoprire con calma."
+        "Attività allineata alle Indicazioni nazionali e pensata per la classe prima. Senza registrazione, senza timer e senza punteggi: solo il piacere di contare e scoprire con calma."
       ],
       "practices": [
         "Contare a uno a uno senza saltare né ripetere",
@@ -2957,7 +2957,7 @@
       "about": [
         "Pip è una topina postina con una borsa piena di lettere, e ogni busta porta un numero da consegnare. Il bambino legge la cifra scritta sulla lettera, cerca la casa con lo stesso numero e la tocca: se ha letto bene, il vicino si affaccia e saluta dalla finestra.",
         "Il cuore dell’attività è leggere e riconoscere i numeri scritti da 0 a 20. Il bambino impara a riconoscere lo stesso numero anche in caratteri diversi e a distinguere numeri facili da confondere, come 13 e 31: l’ordine delle cifre conta e cambia tutto.",
-        "Un’attività allineata alle Indicazioni nazionali e pensata per la classe prima, gratuita e senza registrazione, senza timer e senza punteggio: solo il piacere di leggere i numeri e aiutare Pip a consegnare la posta."
+        "Un’attività allineata alle Indicazioni nazionali e pensata per la classe prima, senza registrazione, senza timer e senza punteggio: solo il piacere di leggere i numeri e aiutare Pip a consegnare la posta."
       ],
       "practices": [
         "Leggere i numeri scritti da 0 a 20",
@@ -2980,7 +2980,7 @@
       "about": [
         "Posy è una gallina indaffarata che sistema le sue uova in scatole che ne contengono esattamente dieci l’una: a ogni turno compaiono alcune scatole piene e il bambino le conta di dieci in dieci per scoprire quante uova ci sono in tutto, toccando poi il numero totale, da 20 fino a 100.",
         "È il primo passo verso il calcolo veloce: contando di dieci in dieci il bambino capisce che ogni scatola è una decina e che saltare di dieci — 10, 20, 30… — è molto più rapido e sicuro che contare le uova a una a una.",
-        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali: è completamente gratuita, senza registrazione, senza timer e senza punteggio, così il bambino può esercitarsi con calma e senza pressioni."
+        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali: è senza registrazione, senza timer e senza punteggio, così il bambino può esercitarsi con calma e senza pressioni."
       ],
       "practices": [
         "Contare di dieci in dieci fino a 100",
@@ -3003,7 +3003,7 @@
       "about": [
         "Sprocket, il galletto, indica un’ora sul suo orologio analogico e chiede: che ora sarà tra un po’? Tuo figlio legge le lancette, conta avanti i minuti un quarto d’ora o mezz’ora alla volta e tocca l’ora di arrivo giusta.",
         "Qui si allena una vera abilità matematica: leggere l’ora sull’orologio analogico, calcolare il tempo trascorso contando avanti o indietro i minuti a intervalli di 15 e 30 minuti, e capire quanto dura un’attività dall’inizio alla fine.",
-        "L’attività è pensata per la classe terza ed è allineata alle Indicazioni nazionali. È completamente gratuita: senza registrazione, senza timer e senza punteggi, così il bambino impara con calma e senza fretta."
+        "L’attività è pensata per la classe terza ed è allineata alle Indicazioni nazionali. È: senza registrazione, senza timer e senza punteggi, così il bambino impara con calma e senza fretta."
       ],
       "practices": [
         "Leggere l’ora sull’orologio analogico",
@@ -3026,7 +3026,7 @@
       "about": [
         "Qui le lancette si muovono in tutt’e due i sensi: Sprocket il galletto mostra un’ora di partenza e il bambino deve decidere se andare avanti o tornare indietro, perché a volte l’ora deve ancora arrivare e a volte è già passata. La parte più interessante è quando i minuti superano il sessanta e si cambia numero all’ora: da e:45 a un intervallo di trenta minuti si passa all’ora dopo, mentre andando indietro si torna a quella prima.",
         "Il bambino somma e sottrae i minuti direttamente sull’orologio analogico, contando avanti o indietro con intervalli di 10, 15, 20, 25, 30, 40 e 45 minuti. Impara così a calcolare il tempo trascorso anche quando si passa da un’ora all’altra, unendo la lettura dell’orologio a un piccolo calcolo mentale che tiene insieme le due operazioni.",
-        "L’attività è pensata per la classe terza ed è allineata alle Indicazioni nazionali. È completamente gratuita, senza registrazione, senza timer e senza punteggi: il bambino può provare, sbagliare e riprovare con calma, tutte le volte che vuole."
+        "L’attività è pensata per la classe terza ed è allineata alle Indicazioni nazionali. Senza registrazione, senza timer e senza punteggi: il bambino può provare, sbagliare e riprovare con calma, tutte le volte che vuole."
       ],
       "practices": [
         "Sommare i minuti per contare in avanti",
@@ -3049,7 +3049,7 @@
       "about": [
         "Il coniglietto giardiniere Sprout deve rivestire di verde i suoi prati fioriti, uno più storto dell’altro: il bambino posa soffici zolle di muschio a forma di quadretto, le sistema una accanto all’altra fino a ricoprire ogni angolo e scopre che l’area del prato è semplicemente il numero di quadretti che servono per coprirlo.",
         "L’attività allena a misurare l’area contando i quadretti che ricoprono una superficie: si riempie tutto lo spazio senza lasciare buchi e senza sovrapporre le zolle, e si capisce che l’area è il numero di quadretti usati — un’unità arbitraria, senza formule e senza centimetri quadrati.",
-        "Pensata per la classe terza e allineata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggi: solo tempo tranquillo per esplorare, sbagliare e riprovare con Sprout."
+        "Pensata per la classe terza e allineata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggi: solo tempo tranquillo per esplorare, sbagliare e riprovare con Sprout."
       ],
       "practices": [
         "Ricoprire una superficie con i quadretti, senza buchi né sovrapposizioni",
@@ -3072,7 +3072,7 @@
       "about": [
         "Il cane Digby fa da guida: mostra al bambino ogni numero da 0 a 9 disegnato con una linea tratteggiata e un punto di partenza. Il bambino appoggia il dito sul punto e segue un tratto dopo l’altro, nell’ordine giusto, finché la cifra si colora e appare completa sullo schermo.",
         "È un allenamento al gesto grafico del numero: scrivere e tracciare le cifre da 0 a 9 seguendo l’ordine corretto dei tratti, imparare la forma di ogni numero e memorizzarne il movimento della mano, tratto dopo tratto.",
-        "L’attività è pensata per la classe prima ed è allineata alle Indicazioni nazionali. È completamente gratuita, senza registrazione, senza timer e senza punteggio: il bambino traccia con calma, ai suoi tempi."
+        "L’attività è pensata per la classe prima ed è allineata alle Indicazioni nazionali. Senza registrazione, senza timer e senza punteggio: il bambino traccia con calma, ai suoi tempi."
       ],
       "practices": [
         "Tracciare le cifre da 0 a 9",
@@ -3095,7 +3095,7 @@
       "about": [
         "Il gallo Sprocket accompagna il bambino attraverso la giornata: a ogni turno mostra un evento quotidiano — la colazione, il gioco al parco, le stelle prima di dormire — e chiede se succede di mattina oppure di pomeriggio e sera.",
         "L’attività allena a riconoscere i momenti della giornata — la mattina, il pomeriggio e la sera — a collocare gli eventi quotidiani nel momento giusto e a usare l’ora come piccolo indizio, senza dover leggere l’orologio.",
-        "Pensata per la classe prima e allineata alle Indicazioni nazionali, è un’attività completamente gratuita, senza registrazione, senza timer e senza punteggio: il bambino impara con calma e a modo suo."
+        "Pensata per la classe prima e allineata alle Indicazioni nazionali, è un’attività senza registrazione, senza timer e senza punteggio: il bambino impara con calma e a modo suo."
       ],
       "practices": [
         "Riconoscere la mattina, il pomeriggio e la sera",
@@ -3118,7 +3118,7 @@
       "about": [
         "Nonno Pip intaglia i suoi vasetti di legno e su ciascuno dipinge un numero da 1 a 10: il bambino li annida uno dentro l’altro, dal numero più grande al più piccolo, finché il piccolo Wee Olen non trova posto al sicuro nel mezzo della famiglia.",
         "L’attività allena a confrontare e ordinare i numeri scritti da 1 a 10: il bambino legge il numero dipinto sul vasetto — non la sua grandezza, che è un simpatico tranello — e capisce quale numero è più grande e quale più piccolo.",
-        "È pensata per la classe prima ed è allineata alle Indicazioni nazionali; è completamente gratuita, senza registrazione, senza timer e senza punteggio, così il bambino impara con calma e senza pressioni."
+        "È pensata per la classe prima ed è allineata alle Indicazioni nazionali; è senza registrazione, senza timer e senza punteggio, così il bambino impara con calma e senza pressioni."
       ],
       "practices": [
         "Confrontare due numeri scritti e capire quale è più grande e quale più piccolo.",
@@ -3141,7 +3141,7 @@
       "about": [
         "Clunk è un robot goloso che ha smarrito il suo pranzo: per accontentarlo il bambino riempie il cestino di snack numerati fino a raggiungere esattamente il numero che gli serve, poi glielo dà da mangiare e ricomincia formando lo stesso totale in un altro modo.",
         "In questo modo impara a comporre e scomporre un numero in più modi (10 = 6+4 = 7+3 = 8+2…), a leggere i numeri e a muovere i primi passi con l’addizione.",
-        "L’attività è pensata sulle Indicazioni nazionali per la classe prima ed è gratuita, senza registrazione, senza timer e senza punteggio."
+        "L’attività è pensata sulle Indicazioni nazionali per la classe prima ed è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "Comporre uno stesso numero in più modi diversi",
@@ -3164,7 +3164,7 @@
       "about": [
         "Fixit è una talpa aggiustatutto così miope da non riuscire a leggere il numerino consumato sui congegni rotti: tocca a tuo figlio scoprire la cifra che manca, infilarla al posto giusto e sentire l’apparecchio ripartire ronzando.",
         "L’attività allena a trovare il numero mancante in addizioni e sottrazioni in qualsiasi posizione — somma, addendo, sottraendo o minuendo — usando strategie come fare 10, contare in avanti e all’indietro e le famiglie di operazioni.",
-        "È pensata sulle Indicazioni nazionali per la classe prima, all’interno dei «Numeri», ed è del tutto gratuita, senza registrazione, senza timer e senza punteggio."
+        "È pensata sulle Indicazioni nazionali per la classe prima, all’interno dei «Numeri», ed è del senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "Trovare l’addendo mancante",
@@ -3187,7 +3187,7 @@
       "about": [
         "Il folletto gemello raccoglie un mucchietto di ghiande e sogna un gemello: non un disegno uguale, ma un mucchietto con lo stesso numero di ghiande, e tocca al bambino crearlo.",
         "L’attività allena a contare «quanti sono» toccando gli oggetti uno a uno e poi a formare la stessa quantità disposta in modo diverso — su una riga, sparsa, in schieramento o persino leggendo un numero scritto — scoprendo che la quantità non cambia (conservazione del numero).",
-        "Costruita seguendo le Indicazioni nazionali per la classe prima, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+        "Costruita seguendo le Indicazioni nazionali per la classe prima, è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "Contare «quanti sono» toccando ogni oggetto uno a uno",
@@ -3210,7 +3210,7 @@
       "about": [
         "Rivet, il procione, ha una piccola fucina che trasforma il tesoro sparso — ghiande, bottoni, lucciole e biglie — in carte da collezione: il bambino conta quello che trova e forgia il numero che dice quanti sono.",
         "L’attività allena a contare «quanti sono» e a scrivere e forgiare il numero corrispondente fino a 20, compreso lo zero — perché anche una bustina vuota ha il suo numero — riconoscendo che il numero rappresenta la quantità.",
-        "Segue le Indicazioni nazionali per la classe prima ed è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+        "Segue le Indicazioni nazionali per la classe prima ed è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "Contare quanti sono, toccando ogni oggetto una volta sola",
@@ -3233,7 +3233,7 @@
       "about": [
         "È mattina al laghetto e Mamma Papera fa l’appello: chiama i suoi anatroccoli e tuo figlio le manda dalla zattera esattamente il numero che chiede, contandoli uno per uno.",
         "L’attività allena a contare la quantità giusta di anatroccoli e poi a scrivere il numero corrispondente da 0 a 9, compreso lo zero, perché anche una mattina tranquilla ha il suo numero.",
-        "È pensata sulle Indicazioni nazionali per la classe prima ed è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+        "È pensata sulle Indicazioni nazionali per la classe prima ed è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "Contare e mandare la quantità giusta di anatroccoli",
@@ -3256,7 +3256,7 @@
       "about": [
         "Bruno il castoro gestisce una torre-parcheggio vista di lato, con tanti piani, e a ogni turno consegna a tuo figlio un veicolo da sistemare al posto giusto: sopra, sotto, accanto o tra le altre automobili.",
         "L’attività allena a imparare e usare le parole di posizione — sopra, sotto, accanto e tra — ascoltando la parola e collocando il veicolo nel punto corretto rispetto a un altro mezzo, per imparare a orientarsi nello spazio.",
-        "È pensata per la classe prima e allineata alle Indicazioni nazionali, ed è gratuita, senza registrazione, senza timer e senza punteggio."
+        "È pensata per la classe prima e allineata alle Indicazioni nazionali, ed è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "Usare le parole sopra e sotto",
@@ -3279,7 +3279,7 @@
       "about": [
         "Nella sua casetta con il cucù abita il Gufo, e oggi il piccolo guardiano del tempo sei tu: leggi l’orologio a muro per capire cosa sta facendo il gufo e sposta le lancette sull’ora giusta finché il cucù salta fuori a salutare.",
         "L’attività allena a leggere l’orologio analogico e a regolare le lancette — l’ora esatta, la mezza e i quarti — collegando ogni ora a un momento della giornata, dalla colazione alla nanna.",
-        "Pensata per la classe seconda e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+        "Pensata per la classe seconda e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "Leggere l’ora esatta sull’orologio analogico",
@@ -3302,7 +3302,7 @@
       "about": [
         "La tartaruga Tempo ha un piano per tutta la giornata e invita i bambini a raccontarla con lei, toccando di volta in volta la parolina giusta — prima, durante o dopo — per completare ogni frase.",
         "Giocando, i bambini imparano a riconoscere prima, durante e dopo, a ordinare i momenti della giornata e a completare frasi con la preposizione di tempo corretta.",
-        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "Completare frasi con prima, durante e dopo",
@@ -3325,7 +3325,7 @@
       "about": [
         "L’orso Booker apre il suo grande dizionario sul banco e mostra in cima alla pagina due parole guida: tocca a te capire quale parola si nasconde proprio in mezzo, in ordine alfabetico.",
         "Questa attività aiuta a usare le parole guida del dizionario, a mettere le parole in ordine alfabetico e a confrontarle lettera per lettera — la 1ª, poi la 2ª, poi la 3ª — per consultare il dizionario con sicurezza.",
-        "Pensata per la classe terza e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+        "Pensata per la classe terza e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "Usare le parole guida del dizionario",
@@ -3348,7 +3348,7 @@
       "about": [
         "Nel suo giardino degli indizi, Fern il cerbiatto raccoglie parole speciali che nascondono più di un significato e invita i bambini a scoprire quale senso si nasconde in ogni frase.",
         "Giocando, il bambino impara a capire il significato di una parola dal contesto, a riconoscere le parole con più significati e a leggere con attenzione ogni frase prima di scegliere.",
-        "Pensata per la classe seconda e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+        "Pensata per la classe seconda e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "capire il significato di una parola dal contesto",
@@ -3371,7 +3371,7 @@
       "about": [
         "La ghiandaia Jasper adora osservare la vita di tutti i giorni e, a ogni turno, racconta una piccola scena chiedendo al bambino quale oggetto serve per risolverla.",
         "Toccando l’immagine giusta, il bambino impara a collegare gli oggetti al loro uso, arricchisce il vocabolario del quotidiano e capisce a cosa serve ogni cosa.",
-        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "Collegare gli oggetti al loro uso",
@@ -3394,7 +3394,7 @@
       "about": [
         "L’armadillo Atlas adora collezionare piccole schede di curiosità: mostra ai bambini un breve testo informativo di due frasi, poi fa una domanda su un dettaglio nascosto tra le righe.",
         "L’attività allena a leggere un breve testo informativo, a trovare le informazioni chiave nel testo e a rispondere a domande di comprensione toccando la risposta giusta.",
-        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "Leggere un breve testo informativo",
@@ -3417,7 +3417,7 @@
       "about": [
         "L’oca Gabby adora le frasi buffe: ogni volta apre il becco e racconta un modo di dire, aspettando che tu scopra che cosa vuole dire davvero.",
         "Questa attività aiuta a capire il senso figurato di un modo di dire, a distinguere il senso letterale da quello figurato e ad arricchire il lessico di ogni giorno.",
-        "Pensata per la classe terza e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+        "Pensata per la classe terza e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "capire il senso figurato dei modi di dire",
@@ -3440,7 +3440,7 @@
       "about": [
         "Detective Dewey apre la sua guida naturalistica su creature mai viste e invita il bambino a fare il detective delle pagine, seguendo gli indizi che ogni strumento del libro sa offrire.",
         "L’attività allena a usare gli strumenti del testo — l’indice, il glossario, la didascalia e il titolo — per cercare e trovare le informazioni, imparando a leggere non solo per capire, ma anche per ricercare.",
-        "Pensata per la classe seconda e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+        "Pensata per la classe seconda e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "Usare l’indice e il glossario",
@@ -3463,7 +3463,7 @@
       "about": [
         "Bea, il bruco dei libri, ha due scaffali speciali: su uno mette le storie inventate e sull’altro i libri che parlano di cose vere, e chiede ai bambini di leggere le copertine per capire dove va ciascun libro.",
         "L’attività aiuta a riconoscere se un libro racconta una storia o dà informazioni vere, a distinguere il testo narrativo da quello informativo e a leggere le copertine con attenzione.",
-        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "Distinguere una storia da un libro di informazioni",
@@ -3486,7 +3486,7 @@
       "about": [
         "Fabio la volpe adora raccontare storie: apre il suo taccuino, mostra tre piccole scene disegnate e invita i bambini a scoprire che cosa succede.",
         "Questa attività aiuta a leggere e capire una breve storia illustrata, a rispondere a domande sui dettagli — chi, che cosa, dove e perché — e a ricordare l’ordine dei fatti.",
-        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "Capire una breve storia illustrata",
@@ -3509,7 +3509,7 @@
       "about": [
         "Al mercato degli specchi del riccio Spino ogni parola cerca il suo opposto: solo portando il contrario giusto lo sportello si apre, la bilancia si mette in equilibrio e la scena della buonanotte si raddrizza.",
         "Giocando, il bambino impara a riconoscere i contrari e a distinguere l’antonimo da una parola dello stesso tipo — il contrario di «nero» è «bianco», non «rosso» — ampliando poco a poco il proprio lessico.",
-        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "riconoscere i contrari",
@@ -3532,7 +3532,7 @@
       "about": [
         "Sul molo del porto, il pellicano postino Marino raccoglie i bigliettini che i marinai gli lasciano e ha bisogno di aiuto: ogni nota va messa nel cesto giusto a seconda del motivo per cui è stata scritta.",
         "L’attività allena a capire che ogni testo ha uno scopo — informare, divertire o istruire — e il bambino lo riconosce leggendo con attenzione gli indizi: i fatti veri, una sorpresa buffa, oppure le parole «prima, poi, infine».",
-        "Pensata per la classe seconda e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+        "Pensata per la classe seconda e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "Riconoscere lo scopo di un testo",
@@ -3555,7 +3555,7 @@
       "about": [
         "Quando la lanterna si accende, il riccio Ginepro apre il suo libro e racconta a bassa voce una favola di un tempo, popolata di animali furbi e lenti, di formiche laboriose e cicale spensierate.",
         "Ogni favola nasconde una morale — una piccola lezione che va oltre la storia — e il bambino impara a riconoscerla, distinguendola da un semplice dettaglio del racconto e da una frase che «suona bene» ma non c’entra davvero: cogliere la morale è vera comprensione del testo.",
-        "Pensata per la classe terza e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+        "Pensata per la classe terza e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "riconoscere la morale di una favola",
@@ -3578,7 +3578,7 @@
       "about": [
         "Nino è un polpo che, nella sua piccola bottega dei libri in fondo al mare, mostra al bambino un lavoro appena fatto su un libro e lo invita a indovinare di chi è quel compito con un semplice tocco.",
         "Ogni libro ha un autore che scrive le parole e la storia e un illustratore che disegna le immagini, mentre il bambino stesso è il lettore che si gode il libro: conoscere questi ruoli è un primo passo per capire come è fatto un libro.",
-        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "Distinguere autore, illustratore e lettore",
@@ -3601,7 +3601,7 @@
       "about": [
         "Pim, il piccione postino, ha la borsa piena di lettere da recapitare, ma le consegna soltanto quando il bambino sceglie la cartolina scritta bene, con la virgola al posto giusto nel saluto e nella chiusura.",
         "Quando si scrive una lettera, il saluto e la chiusura finiscono con una virgola — «Caro Nonno,» e «Un abbraccio,» — e la virgola non va mai messa nel mezzo: giocando con Pim, il bambino allena l’occhio a riconoscerla e a collocarla dove serve davvero.",
-        "Pensata per la classe terza e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+        "Pensata per la classe terza e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "mettere la virgola dopo il saluto",
@@ -3624,7 +3624,7 @@
       "about": [
         "In cima al suo faro, il gufo Lumen apre le finestre affacciate sul porto: da ognuna, a un’altezza diversa, un piccolo animale guarda il mare e racconta ciò che vede.",
         "Dall’alto tutto sembra un puntino piccolo e lontano; laggiù, vicino all’acqua, ogni cosa sembra enorme e vicina — così il bambino legge la frase e capisce da quale finestra, cioè da quale punto di vista, è stata raccontata.",
-        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "riconoscere da quale punto di vista è raccontata una frase",
@@ -3647,7 +3647,7 @@
       "about": [
         "Nel museo della gazza Gemma ogni sala è dedicata a un solo argomento, e in ciascuna si nasconde una frase che è vera ma non c’entra con il tema.",
         "Il bambino legge le quattro frasi della sala, ascolta la lettura ad alta voce se vuole e tocca l’unica frase fuori tema.",
-        "Allineata alle Indicazioni nazionali per la classe seconda, l’attività è gratuita, senza registrazione, senza timer e senza punteggio."
+        "Allineata alle Indicazioni nazionali per la classe seconda, l’attività è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "riconoscere il tema di un breve testo",
@@ -3670,7 +3670,7 @@
       "about": [
         "Al banco dei titoli, Marina la lontra scrive intestazioni e invita i bambini a capire di che cosa parla soprattutto un breve testo.",
         "Si legge il testo informativo, con la lettura ad alta voce sempre a disposizione, e si sceglie la carta che nomina il tema principale, lasciando da parte i dettagli e le informazioni fuori tema.",
-        "È un’attività allineata alle Indicazioni nazionali, pensata per la classe terza, gratuita, senza registrazione, senza timer e senza punteggio."
+        "È un’attività allineata alle Indicazioni nazionali, pensata per la classe terza, senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "riconoscere il tema principale di un testo",
@@ -3693,7 +3693,7 @@
       "about": [
         "Nella bottega di storie di Dot il drago ogni racconto illustrato si legge in tre parti: l’inizio che presenta i personaggi, il problema che scombina tutto e la soluzione che rimette le cose a posto.",
         "I bambini leggono le didascalie — con l’aiuto del pulsante 🔊 che le legge ad alta voce — e toccano la parte giusta, imparando a riconoscere la struttura di una storia.",
-        "L’attività è allineata alle Indicazioni nazionali per la classe prima ed è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+        "L’attività è allineata alle Indicazioni nazionali per la classe prima ed è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "riconoscere l’inizio di una storia",
@@ -3716,7 +3716,7 @@
       "about": [
         "Nella pagina delle opinioni di Perla la foca, il bambino legge un’opinione e sceglie la carta che offre un motivo capace di sostenerla, imparando a distinguere un buon motivo da una semplice ripetizione dell’idea o da un fatto fuori tema.",
         "Un motivo forte spiega perché l’opinione ha senso, e toccare la carta giusta aiuta a capire come le idee si tengono insieme in un breve testo argomentativo.",
-        "L’attività è pensata per la classe terza ed è allineata alle Indicazioni nazionali: è gratuita, senza registrazione e senza timer o punteggi."
+        "L’attività è pensata per la classe terza ed è allineata alle Indicazioni nazionali: è senza registrazione e senza timer o punteggi."
       ],
       "practices": [
         "riconoscere il motivo che sostiene un’opinione",
@@ -3739,7 +3739,7 @@
       "about": [
         "Con la lente di Marlo il procione i bambini diventano piccoli detective delle storie: leggono un breve racconto e un’affermazione su un personaggio, poi cercano la prova che la conferma.",
         "Toccano il dettaglio giusto — un’azione raccontata nel testo — imparando a distinguerlo da una parola ripetuta o da un dettaglio qualsiasi, con un comodo aiuto 🔊 che legge tutto ad alta voce.",
-        "Pensata per la classe terza e allineata alle Indicazioni nazionali, l’attività è gratuita, senza registrazione, senza timer e senza punteggio."
+        "Pensata per la classe terza e allineata alle Indicazioni nazionali, l’attività è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "descrivere un personaggio con i dettagli",
@@ -3762,7 +3762,7 @@
       "about": [
         "Con Lia la lucertola i fatti si uniscono come una catena: si legge un fatto e si tocca quello che gli si collega davvero.",
         "A volte è ciò che succede subito dopo, a volte è ciò che quel fatto provoca, così i bambini scoprono la sequenza e il legame di causa ed effetto in un breve testo informativo, con la lettura ad alta voce 🔗 che accompagna ogni passo.",
-        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali: è gratuita, senza registrazione, senza timer e senza punteggio."
+        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali: è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "collegare due fatti",
@@ -3785,7 +3785,7 @@
       "about": [
         "Con Barbamuschio la tartaruga, sotto la luna d’oro e la luna d’argento, i bambini leggono due brevi storie e le mettono a confronto con calma.",
         "Toccano l’esperienza che si ripete uguale in tutt’e due i racconti oppure quella accaduta in una storia sola, mentre un aiuto 🔊 legge ogni parola ad alta voce.",
-        "È un’attività allineata alle Indicazioni nazionali per la classe seconda: gratuita, senza registrazione, senza timer e senza punteggio."
+        "È un’attività allineata alle Indicazioni nazionali per la classe seconda: senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "confrontare due storie",
@@ -3808,7 +3808,7 @@
       "about": [
         "Pip si è addormentato e ha perso la storia: tocca ai bambini raccontargliela dall’inizio alla fine.",
         "Dopo aver guardato un breve film in quattro scene, rimettono le vignette nel giusto ordine di causa ed effetto e scelgono i dettagli che contano davvero, lasciando fuori ciò che non è successo.",
-        "Pensata per la classe seconda e allineata alle Indicazioni nazionali, è un’attività gratuita, senza registrazione, senza timer e senza punteggio."
+        "Pensata per la classe seconda e allineata alle Indicazioni nazionali, è un’attività senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "raccontare una storia nell’ordine giusto",
@@ -3831,7 +3831,7 @@
       "about": [
         "Otto il gufo ha disegnato una piccola storia illustrata in quattro scene, tutta da guardare e ascoltare.",
         "Il bambino sente e legge una frase, poi tocca l’immagine che la mostra, imparando a collegare il testo all’illustrazione giusta.",
-        "Pensata per la classe prima e allineata alle Indicazioni nazionali, è un’attività gratuita, senza registrazione e senza timer né punteggio."
+        "Pensata per la classe prima e allineata alle Indicazioni nazionali, è un’attività senza registrazione e senza timer né punteggio."
       ],
       "practices": [
         "collegare una frase all’immagine",
@@ -3854,7 +3854,7 @@
       "about": [
         "Due parole che diventano una parola sola: «in» e «il» si uniscono e nasce «nel».",
         "Il bambino guarda la coppia di parole, pensa alla forma unita e tocca quella giusta tra tre proposte, mentre il 🔊 legge ogni parola ad alta voce.",
-        "È un’attività gratuita, senza registrazione, senza timer e senza punteggio, allineata alle Indicazioni nazionali per la classe terza."
+        "È un’attività senza registrazione, senza timer e senza punteggio, allineata alle Indicazioni nazionali per la classe terza."
       ],
       "practices": [
         "unire preposizione e articolo",
@@ -3877,7 +3877,7 @@
       "about": [
         "Aiuta il burattino a descrivere un oggetto così bene che l’amico capisce subito qual è, senza nemmeno guardarlo.",
         "Il bambino sceglie il colore, la grandezza o il posto giusto e dice solo quello che serve, così Ombra prende proprio l’oggetto giusto.",
-        "È un’attività di lingua orale allineata alle Indicazioni nazionali per la classe prima, gratuita, senza registrazione, senza timer e senza punteggio."
+        "È un’attività di lingua orale allineata alle Indicazioni nazionali per la classe prima, senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "descrivere con precisione",
@@ -3900,7 +3900,7 @@
       "about": [
         "Le parole possono giocare tra loro: alcune finiscono con lo stesso suono e fanno rima, come gatto e piatto o limone e melone. In questa attività un simpatico animaletto guida il suo vagone delle rime e invita i bambini a scoprire, ascoltando, quali parole «suonano» allo stesso modo.",
         "I bambini ascoltano le parole illustrate e giocano con tanti mini-giochi diversi: queste due parole fanno rima? quale delle immagini rima con la parola data? quale invece non rima? Poi imparano a raggruppare le parole che rimano e a completare la rima. Il pulsante 🔊 legge ad alta voce ogni parola, così i più piccoli possono affidarsi soprattutto all’orecchio, ancora prima di saper leggere.",
-        "Pensata per i primi passi nell’ascolto delle parole, questa attività è allineata alle Indicazioni nazionali e sostiene lo sviluppo della consapevolezza fonologica, un’abilità che prepara alla lettura. È completamente gratuita, senza registrazione, senza timer e senza punteggio: solo tempo sereno per giocare con i suoni della lingua, al ritmo di ogni bambino."
+        "Pensata per i primi passi nell’ascolto delle parole, questa attività è allineata alle Indicazioni nazionali e sostiene lo sviluppo della consapevolezza fonologica, un’abilità che prepara alla lettura. Senza registrazione, senza timer e senza punteggio: solo tempo sereno per giocare con i suoni della lingua, al ritmo di ogni bambino."
       ],
       "practices": [
         "Riconoscere le rime",
@@ -3923,7 +3923,7 @@
       "about": [
         "Come si chiama un gruppo di pecore? E un gruppo di api o di uccelli? Le parole di gruppo degli animali — i nomi collettivi — sono piccole parole speciali tutte da scoprire.",
         "Insieme a Mango la scimmia, il bambino osserva un animale e sceglie fra tre parole quella che indica il suo gruppo: un gregge di pecore, uno sciame di api, uno stormo di uccelli. Le immagini e la lettura ad alta voce accompagnano ogni passo, per imparare giocando.",
-        "Un’attività pensata per la scuola primaria per arricchire il lessico in modo sereno: è allineata alle Indicazioni nazionali ed è gratuita, senza registrazione, senza timer e senza punteggio. I bambini imparano al proprio ritmo, senza fretta e senza pressioni."
+        "Un’attività pensata per la scuola primaria per arricchire il lessico in modo sereno: è allineata alle Indicazioni nazionali ed è senza registrazione, senza timer e senza punteggio. I bambini imparano al proprio ritmo, senza fretta e senza pressioni."
       ],
       "practices": [
         "Riconoscere i nomi collettivi degli animali",
@@ -3946,7 +3946,7 @@
       "about": [
         "Ti ricordi l’emozione della prima lettera scritta tutta da soli? Qui il tuo bambino la ritrova, un tratto alla volta.",
         "Penny la matita accompagna il bambino lettera per lettera: si guarda la forma, si parte dal puntino e si seguono i tratti nell’ordine corretto, per le maiuscole e per le minuscole di tutto l’alfabeto.",
-        "L’attività è allineata alle «Indicazioni nazionali» ed è completamente gratuita: senza registrazione, senza timer e senza punteggio, così ogni bambino può imparare al proprio ritmo."
+        "L’attività è allineata alle «Indicazioni nazionali» ed è: senza registrazione, senza timer e senza punteggio, così ogni bambino può imparare al proprio ritmo."
       ],
       "practices": [
         "Tracciare le lettere maiuscole e minuscole",
@@ -3969,7 +3969,7 @@
       "about": [
         "Le 15:00 e le 3 del pomeriggio sono davvero la stessa ora?",
         "Chicco il gallo mostra un orario in un formato: il bambino lo legge, pensa alla stessa ora nell’altro formato e tocca la risposta giusta, passando dall’orologio delle 24 ore alla forma colloquiale e ritorno.",
-        "L’attività è allineata alle «Indicazioni nazionali» per la misura del tempo ed è gratis, senza registrazione, senza timer e senza punteggio: ogni bambino procede al proprio ritmo."
+        "L’attività è allineata alle «Indicazioni nazionali» per la misura del tempo ed è senza registrazione, senza timer e senza punteggio: ogni bambino procede al proprio ritmo."
       ],
       "practices": [
         "Leggere l’orologio delle 24 ore",
@@ -3992,7 +3992,7 @@
       "about": [
         "Quanti suoni si nascondono dentro una parola? «Sole» comincia con /s/, «gatto» finisce con /o/: imparare a sentirli è il primo passo verso la lettura.",
         "Nino il koala pronuncia una parola, poi si illumina una casella — il suono iniziale, centrale o finale — e il bambino tocca la figura che ha lo stesso suono in quella posizione.",
-        "Allineato alle «Indicazioni nazionali», è gratis e senza registrazione, senza timer e senza punteggio: ogni bambino gioca al proprio ritmo."
+        "Allineato alle «Indicazioni nazionali», è senza registrazione, senza timer e senza punteggio: ogni bambino gioca al proprio ritmo."
       ],
       "practices": [
         "Riconoscere il suono iniziale delle parole",
@@ -4015,7 +4015,7 @@
       "about": [
         "Leggere la prima parola da soli è un traguardo emozionante: qui il bambino guarda una parola stampata e scopre, lettera dopo lettera, che cosa dice.",
         "Si legge la parola breve e si tocca la figura che le corrisponde. Tra le quattro immagini ce n’è una che inizia con le stesse lettere: per non sbagliare bisogna leggere la parola intera, non indovinare dalla prima lettera.",
-        "Un’attività allineata alle «Indicazioni nazionali», gratis e senza registrazione, senza timer e senza punteggio, così ogni bambino può leggere con calma, al proprio ritmo."
+        "Un’attività allineata alle «Indicazioni nazionali», senza registrazione, senza timer e senza punteggio, così ogni bambino può leggere con calma, al proprio ritmo."
       ],
       "practices": [
         "Leggere le prime parole",
@@ -4038,7 +4038,7 @@
       "about": [
         "1/2 e 2/4 sono davvero la stessa quantità? Con Briciola i bambini lo scoprono guardando le barre colorate, non imparando regole a memoria.",
         "Briciola la topina mostra una frazione di riferimento come barra colorata; il bambino confronta le barre e tocca la frazione che copre esattamente la stessa parte, per esempio 1/2 = 2/4 = 3/6.",
-        "Allineata alle «Indicazioni nazionali», l’attività è gratis, senza registrazione, senza timer e senza punteggio: ogni bambino procede al proprio ritmo."
+        "Allineata alle «Indicazioni nazionali», l’attività è senza registrazione, senza timer e senza punteggio: ogni bambino procede al proprio ritmo."
       ],
       "practices": [
         "Riconoscere le frazioni equivalenti",
@@ -4061,7 +4061,7 @@
       "about": [
         "Un gatto, due… gatti o gatte? Il plurale dei nomi nasconde piccole regole che vale la pena scoprire con calma.",
         "Margherita la papera propone una frase con uno spazio vuoto: il bambino sceglie il plurale corretto tra tre parole, come gatto→gatti o casa→case, e riceve sempre un incoraggiamento gentile.",
-        "Un percorso allineato alle «Indicazioni nazionali»: gratis, senza registrazione, senza timer e senza punteggio, per imparare al proprio ritmo."
+        "Un percorso allineato alle «Indicazioni nazionali»: senza registrazione, senza timer e senza punteggio, per imparare al proprio ritmo."
       ],
       "practices": [
         "Formare il plurale dei nomi",
@@ -4084,7 +4084,7 @@
       "about": [
         "Quante monete servono per pagare 30 centesimi? E se il cliente ti dà 1 euro, quanto resto gli devi dare?",
         "Alla bancarella di Otto il bambino legge il prezzo, conta le monete in euro e centesimi, compone l’importo esatto per pagare e impara a dare il resto scambiando le monete quando serve.",
-        "L’attività è allineata alle «Indicazioni nazionali» ed è completamente gratuita: senza registrazione, senza timer e senza punteggio, così ogni bambino può imparare al proprio ritmo."
+        "L’attività è allineata alle «Indicazioni nazionali» ed è: senza registrazione, senza timer e senza punteggio, così ogni bambino può imparare al proprio ritmo."
       ],
       "practices": [
         "Contare le monete in euro e centesimi",
@@ -4107,7 +4107,7 @@
       "about": [
         "Leggere una parola non è indovinarla: è pronunciare una sillaba dopo l’altra e sentirle diventare una parola intera. Qui ogni parola arriva già divisa, come le tessere di un domino, così il bambino vede la strada da percorrere.",
         "Il bambino legge le due sillabe che compongono la parola (ga·to), le fonde in un’unica parola e poi tocca il disegno che le corrisponde. Un pinguino amico accompagna ogni tentativo con dolcezza.",
-        "L’attività è pensata in linea con le «Indicazioni nazionali» ed è completamente gratis: senza registrazione, senza timer e senza punteggio. Il bambino procede al proprio ritmo, senza fretta e senza pressioni."
+        "L’attività è pensata in linea con le «Indicazioni nazionali» ed è: senza registrazione, senza timer e senza punteggio. Il bambino procede al proprio ritmo, senza fretta e senza pressioni."
       ],
       "practices": [
         "Leggere le parole per sillabe",

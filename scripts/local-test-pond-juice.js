@@ -132,6 +132,69 @@ function serve() {
     console.log(`  FAIL pond-juice/en — ${e.message}`);
   } finally { await page.close(); }
 
+  /* ---- sv: no English may reach text, aria-labels or speech ----------------------- */
+  const svFailsAt = fails.length;
+  const svPage = await browser.newPage();
+  await svPage.setViewport({ width: 412, height: 900 });
+  try {
+    await svPage.goto(`http://127.0.0.1:${PORT}/pond-juice-activity.html?lang=sv&activity=${ACTIVITY}&embed=1`, { waitUntil: 'networkidle2', timeout: 30000 });
+    await svPage.evaluate(() => { window.__spoke = []; const o = window.LCSAudio && window.LCSAudio.speak; if (o) window.LCSAudio.speak = function (opts) { window.__spoke.push(opts && opts.text); return o.apply(this, arguments); }; });
+    await svPage.waitForFunction(() => { const a = window.PondJuiceActivity; return a && a._activityRow && document.querySelector('.pj-root'); }, { timeout: 15000 });
+
+    /* the expectation comes from the tool's OWN en strings — only keys where sv differs */
+    const pairs = await svPage.evaluate(() => {
+      const S = window.PondJuiceActivity.strings || {};
+      return Object.keys(S).filter(k => S[k] && S[k].en && S[k].sv && S[k].en !== S[k].sv).map(k => [k, S[k].en]);
+    });
+    note(pairs.length >= 8, `sv: only ${pairs.length} string keys differ from en — the leak check would be near-vacuous`);
+
+    const rounds = ['est-six-is-five', 'read-seven', 'compare-six-four', 'diff-big-small', 'est-four-is-five', 'read-between-five', 'compare-eight-nine', 'diff-full-small', 'est-seven-is-six'];
+    for (const rid of rounds) {
+      await svPage.evaluate((r) => {
+        const a = window.PondJuiceActivity, n = a._pool.length, o = []; for (let i = 0; i < n; i++) o.push(i);
+        const k = a._pool.findIndex(x => x.id === 'pond-juice.' + r);
+        const at = o.indexOf(k); if (at > 0) { o.splice(at, 1); o.unshift(k); }
+        a._order = o; a._orderForPool = a._pool; a._curPass = 0; window.__spoke = []; window.LCS_reloadFirstTask();
+      }, rid);
+      await svPage.waitForFunction(() => window.PondJuiceActivity.round, { timeout: 4000 });
+      await sleep(60);
+      /* drive it far enough to trigger the spoken + aria paths of every cog */
+      await svPage.evaluate(() => { const b = document.querySelector('.pj-pour'); if (b) b.click(); });
+      await sleep(80);
+      await svPage.evaluate(() => {
+        const n = document.querySelector('.pj-num'); if (n) n.click();
+        const p = document.querySelector('.pj-pick'); if (p) p.click();
+      });
+      await sleep(90);
+      const seen = await svPage.evaluate(() => ({
+        id: window.PondJuiceActivity.round && window.PondJuiceActivity.round.id,
+        text: (document.querySelector('.lcs-app') || document.body).innerText || '',
+        aria: [...document.querySelectorAll('.lcs-app [aria-label]')].map(e => e.getAttribute('aria-label')).join(' | '),
+        spoke: (window.__spoke || []).join(' | ')
+      }));
+      note(seen.id === rid, `sv: forced '${rid}' but the round is '${seen.id}' — the check would be vacuous`);
+      note(seen.text.trim().length > 0, `sv/${rid}: nothing rendered — the check would be vacuous`);
+      note(seen.aria.length > 0, `sv/${rid}: no aria-label found — four of the eleven chains only surface there`);
+      const hay = seen.text + ' | ' + seen.aria + ' | ' + seen.spoke;
+      for (const [key, enVal] of pairs) {
+        const probe = String(enVal).replace(/\{[a-z]+\}/gi, '').replace(/[^A-Za-z ]/g, ' ').trim().split(/\s+/).filter(w => w.length > 3).slice(0, 3).join(' ');
+        if (probe.length < 5) continue;
+        note(hay.indexOf(probe) === -1, `sv/${rid}: the ENGLISH '${key}' reached the child — found "${probe}"`);
+      }
+      /* fragments only the LANG ternaries can produce (not in the strings table) */
+      for (const frag of ['the frog', 'juice reaches', 'has more', ' cups']) {
+        note(hay.indexOf(frag) === -1, `sv/${rid}: an English code fragment reached the child — "${frag}"`);
+      }
+    }
+    const svBad = fails.length - svFailsAt;
+    console.log(svBad
+      ? `  FAIL pond-juice/sv — ${svBad} English leak(s) across ${rounds.length} rounds`
+      : `  ok   pond-juice/sv — no English reached text, aria or speech across ${rounds.length} rounds`);
+  } catch (e) {
+    fails.push('pond-juice/sv: ' + e.message);
+    console.log(`  FAIL pond-juice/sv — ${e.message}`);
+  } finally { await svPage.close(); }
+
   await browser.close();
   server.close();
   console.log('');

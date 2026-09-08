@@ -1973,6 +1973,29 @@
         "Barnet kan svara på hur många, hur många fler och vilken längd som är vanligast utifrån kryssen",
         "Barnet förstår att en lucka i diagrammet betyder att ingen snäcka hade just den längden"
       ]
+    },
+    "hoppers-number-line.jump-sums.2-md-b-6": {
+      "about": [
+        "Grodan Hopper sitter på tallinjen och ska hoppa till ett nytt tal. Barnet läser vad som ska hända — till exempel att Hopper sitter på 45 och hoppar 20 bakåt — och bygger sedan hoppet självt: var han börjar, åt vilket håll han hoppar och hur långt hoppet är. Sist knappas talet han landar på in.",
+        "Det som gör det här till årskurs 2 är inte räkningen utan modellen. Hoppet görs i ETT enda språng, inte som en rad små steg, och tallinjen är graderad så att långtifrån alla tal är utsatta: linjen kan vara märkt varannat, var tredje, var femte eller vart tionde tal. Barnet måste alltså läsa skalan för att veta var 45 ligger, och räkna ut landningen i huvudet i stället för att stega sig fram.",
+        "Nio omgångar inom talområdet 0–100, fem framåt och fyra bakåt. Allt fyra måste stämma — start, riktning, hopplängd och landning — så det räcker inte att veta att 30 plus 40 är 70 om hoppet byggs från fel tal. Hopper läser upp uppgiften, och den går att höra igen. Aktiviteten följer Lgr22, körs direkt i webbläsaren utan nedladdning och har varken timer eller poäng."
+      ],
+      "practices": [
+        "Addera och subtrahera inom talområdet 0–100 i ett enda hopp på tallinjen",
+        "Läsa av en graderad tallinje där varannat, var tredje, var femte eller vart tionde tal är utsatt",
+        "Skilja på att hoppa framåt och att hoppa bakåt, och välja rätt håll utifrån vad som händer",
+        "Bygga hela hoppet självt och kontrollera att start, håll och längd hänger ihop med landningen"
+      ],
+      "howToPlay": [
+        "Läs vad som ska hända, eller tryck på 🔊 Lyssna igen för att höra det en gång till.",
+        "Välj var Hopper börjar, åt vilket håll han ska hoppa och hur långt hoppet är.",
+        "Knappa in talet han landar på och tryck sedan på Hoppa! Blev det inte rätt hoppar ni bara en gång till."
+      ],
+      "learningGoals": [
+        "Barnet kan addera och subtrahera inom 0–100 med tallinjen som modell",
+        "Barnet kan läsa av en tallinje även när alla tal inte är utsatta",
+        "Barnet kan visa ett helt hopp med start, riktning och längd, och säga var det landar"
+      ]
     }
   }
 }

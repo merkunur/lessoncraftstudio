@@ -26,7 +26,7 @@
   function speak(text, rate) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG === 'nl' ? 'nl-NL' : 'en-US'; u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = LANG === 'sv' ? 'sv-SE' : LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG === 'nl' ? 'nl-NL' : 'en-US'; u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
@@ -49,22 +49,22 @@
        #15 tally-squirrel "kaal optellen", NIET #16 sharing-jar "Getallen en bewerkingen" = OA-relatie; auto
        "Meten en gegevens" = domeinfout). */
     strings: {
-      title: { en: "Hopper's Number Line", de: 'Hopper am Zahlenstrahl', fr: 'Hopper sur la droite graduée', es: 'La recta numérica de Hopper', pt: 'A Reta Numérica do Saltão', it: 'La linea dei numeri di Hopper', nl: 'Hopper op de getallenlijn' },
-      prompt: { en: 'Hop to the answer.', de: 'Hüpf zur Lösung.', fr: 'Saute jusqu’à la réponse.', es: 'Brinca hasta la respuesta.', pt: 'Pule até a resposta.', it: 'Salta fino alla risposta.', nl: 'Spring naar het antwoord.' },
-      hop: { en: 'Hop! 🐸', de: 'Hüpf! 🐸', fr: 'Saute ! 🐸', es: '¡Brinca! 🐸', pt: 'Pula! 🐸', it: 'Salta! 🐸', nl: 'Spring! 🐸' },
-      replay: { en: '🔊 Read again', de: '🔊 Nochmal vorlesen', fr: '🔊 Réécouter', es: '🔊 Escuchar otra vez', pt: '🔊 Ouvir de novo', it: '🔊 Ascolta di nuovo', nl: '🔊 Nog eens voorlezen' },
-      fwd: { en: '▶ Forward', de: '▶ Nach vorne', fr: '▶ En avant', es: '▶ Hacia adelante', pt: '▶ Para frente', it: '▶ Avanti', nl: '▶ Vooruit' },
-      back: { en: '◀ Back', de: '◀ Zurück', fr: '◀ En arrière', es: '◀ Hacia atrás', pt: '◀ Para trás', it: '◀ Indietro', nl: '◀ Achteruit' },
-      sizeHint: { en: 'How big is the hop?', de: 'Wie weit geht der Sprung?', fr: 'De combien est le saut ?', es: '¿De qué tamaño es el brinco?', pt: 'De quanto é o pulo?', it: 'Di quanto è il salto?', nl: 'Hoe groot is de sprong?' },
-      sayWelcome: { en: 'Read the hop, then show me on the line!', de: 'Lies den Sprung und zeig ihn mir am Zahlenstrahl!', fr: 'Lis le saut et montre-le-moi sur la droite graduée !', es: 'Lee el brinco y muéstramelo en la recta.', pt: 'Ouça o pulo e mostre na reta!', it: 'Leggi il salto, poi mostramelo sulla linea dei numeri!', nl: 'Lees de sprong en laat hem zien op de getallenlijn!' },
-      sayDial: { en: 'Where does Hopper land? Dial it!', de: 'Wo landet Hopper? Tipp die Zahl ein!', fr: 'Où arrive Hopper ? Tape le nombre !', es: '¿Dónde cae Hopper? ¡Márcalo!', pt: 'Onde o Saltão vai cair? Digite o número!', it: 'Dove arriva Hopper? Digita il numero!', nl: 'Waar landt Hopper? Tik het getal in!' },
-      sayWin: { en: 'Splash! Right on the lily. 🪷', de: 'Platsch! Genau auf der Seerose. 🪷', fr: 'Plouf ! Pile sur le nénuphar. 🪷', es: '¡Plaf! Justo en la flor de loto. 🪷', pt: 'Tchibum! Bem na vitória-régia. 🪷', it: 'Plof! Proprio sulla ninfea. 🪷', nl: 'Plons! Precies op de waterlelie. 🪷' },
-      sayWait: { en: "Hmm, let's hop again.", de: 'Hmm, lass uns nochmal hüpfen.', fr: 'Hmm, on refait un saut.', es: 'Mmm, vamos a brincar otra vez.', pt: 'Hmm, vamos pular de novo.', it: 'Mmm, saltiamo di nuovo.', nl: 'Hmm, laten we nog eens springen.' },
-      hintCheck: { en: 'Set the start, the way, and the hop size — then dial the landing.', de: 'Stell den Start, die Richtung und die Sprungweite ein – dann tipp die Landung ein.', fr: 'Choisis le départ, la direction et la longueur du saut, puis tape le nombre d’arrivée.', es: 'Elige el inicio, la dirección y el tamaño del brinco; luego marca dónde cae.', pt: 'Escolha o início, a direção e o tamanho do pulo — depois digite onde ele cai.', it: 'Scegli la partenza, la direzione e la lunghezza del salto, poi digita dove arriva.', nl: 'Kies de start, de richting en de spronggrootte – tik dan de landing in.' },
-      ariaStart: { en: 'start at {v}', de: 'Start bei {v}', fr: 'départ sur {v}', es: 'empieza en {v}', pt: 'começar em {v}', it: 'parti da {v}', nl: 'Start bij {v}' },
-      ariaHop: { en: 'hop {sz}', de: 'Sprung {sz}', fr: 'saut de {sz}', es: 'brinca {sz}', pt: 'pular {sz}', it: 'salto di {sz}', nl: 'Sprong {sz}' },
-      ariaEdit: { en: 'change the hop', de: 'Sprung ändern', fr: 'changer le saut', es: 'cambiar el brinco', pt: 'mudar o pulo', it: 'cambia il salto', nl: 'Sprong wijzigen' },
-      ariaClear: { en: 'clear', de: 'löschen', fr: 'effacer', es: 'borrar', pt: 'limpar', it: 'cancella', nl: 'wissen' }
+      title: { en: "Hopper's Number Line", de: 'Hopper am Zahlenstrahl', fr: 'Hopper sur la droite graduée', es: 'La recta numérica de Hopper', pt: 'A Reta Numérica do Saltão', it: 'La linea dei numeri di Hopper', nl: 'Hopper op de getallenlijn', sv: 'Hoppers tallinje' },
+      prompt: { en: 'Hop to the answer.', de: 'Hüpf zur Lösung.', fr: 'Saute jusqu’à la réponse.', es: 'Brinca hasta la respuesta.', pt: 'Pule até a resposta.', it: 'Salta fino alla risposta.', nl: 'Spring naar het antwoord.', sv: 'Hoppa till svaret.' },
+      hop: { en: 'Hop! 🐸', de: 'Hüpf! 🐸', fr: 'Saute ! 🐸', es: '¡Brinca! 🐸', pt: 'Pula! 🐸', it: 'Salta! 🐸', nl: 'Spring! 🐸', sv: 'Hoppa! 🐸' },
+      replay: { en: '🔊 Read again', de: '🔊 Nochmal vorlesen', fr: '🔊 Réécouter', es: '🔊 Escuchar otra vez', pt: '🔊 Ouvir de novo', it: '🔊 Ascolta di nuovo', nl: '🔊 Nog eens voorlezen', sv: '🔊 Lyssna igen' },
+      fwd: { en: '▶ Forward', de: '▶ Nach vorne', fr: '▶ En avant', es: '▶ Hacia adelante', pt: '▶ Para frente', it: '▶ Avanti', nl: '▶ Vooruit', sv: '▶ Framåt' },
+      back: { en: '◀ Back', de: '◀ Zurück', fr: '◀ En arrière', es: '◀ Hacia atrás', pt: '◀ Para trás', it: '◀ Indietro', nl: '◀ Achteruit', sv: '◀ Bakåt' },
+      sizeHint: { en: 'How big is the hop?', de: 'Wie weit geht der Sprung?', fr: 'De combien est le saut ?', es: '¿De qué tamaño es el brinco?', pt: 'De quanto é o pulo?', it: 'Di quanto è il salto?', nl: 'Hoe groot is de sprong?', sv: 'Hur långt är hoppet?' },
+      sayWelcome: { en: 'Read the hop, then show me on the line!', de: 'Lies den Sprung und zeig ihn mir am Zahlenstrahl!', fr: 'Lis le saut et montre-le-moi sur la droite graduée !', es: 'Lee el brinco y muéstramelo en la recta.', pt: 'Ouça o pulo e mostre na reta!', it: 'Leggi il salto, poi mostramelo sulla linea dei numeri!', nl: 'Lees de sprong en laat hem zien op de getallenlijn!', sv: 'Läs hoppet och visa det på tallinjen!' },
+      sayDial: { en: 'Where does Hopper land? Dial it!', de: 'Wo landet Hopper? Tipp die Zahl ein!', fr: 'Où arrive Hopper ? Tape le nombre !', es: '¿Dónde cae Hopper? ¡Márcalo!', pt: 'Onde o Saltão vai cair? Digite o número!', it: 'Dove arriva Hopper? Digita il numero!', nl: 'Waar landt Hopper? Tik het getal in!', sv: 'Var landar Hopper? Knappa in talet!' },
+      sayWin: { en: 'Splash! Right on the lily. 🪷', de: 'Platsch! Genau auf der Seerose. 🪷', fr: 'Plouf ! Pile sur le nénuphar. 🪷', es: '¡Plaf! Justo en la flor de loto. 🪷', pt: 'Tchibum! Bem na vitória-régia. 🪷', it: 'Plof! Proprio sulla ninfea. 🪷', nl: 'Plons! Precies op de waterlelie. 🪷', sv: 'Plask! Mitt på näckrosen. 🪷' },
+      sayWait: { en: "Hmm, let's hop again.", de: 'Hmm, lass uns nochmal hüpfen.', fr: 'Hmm, on refait un saut.', es: 'Mmm, vamos a brincar otra vez.', pt: 'Hmm, vamos pular de novo.', it: 'Mmm, saltiamo di nuovo.', nl: 'Hmm, laten we nog eens springen.', sv: 'Hmm, vi hoppar en gång till.' },
+      hintCheck: { en: 'Set the start, the way, and the hop size — then dial the landing.', de: 'Stell den Start, die Richtung und die Sprungweite ein – dann tipp die Landung ein.', fr: 'Choisis le départ, la direction et la longueur du saut, puis tape le nombre d’arrivée.', es: 'Elige el inicio, la dirección y el tamaño del brinco; luego marca dónde cae.', pt: 'Escolha o início, a direção e o tamanho do pulo — depois digite onde ele cai.', it: 'Scegli la partenza, la direzione e la lunghezza del salto, poi digita dove arriva.', nl: 'Kies de start, de richting en de spronggrootte – tik dan de landing in.', sv: 'Välj var Hopper börjar, åt vilket håll och hur långt. Knappa sedan in talet han landar på.' },
+      ariaStart: { en: 'start at {v}', de: 'Start bei {v}', fr: 'départ sur {v}', es: 'empieza en {v}', pt: 'começar em {v}', it: 'parti da {v}', nl: 'Start bij {v}', sv: 'börja på {v}' },
+      ariaHop: { en: 'hop {sz}', de: 'Sprung {sz}', fr: 'saut de {sz}', es: 'brinca {sz}', pt: 'pular {sz}', it: 'salto di {sz}', nl: 'Sprong {sz}', sv: 'hoppa {sz}' },
+      ariaEdit: { en: 'change the hop', de: 'Sprung ändern', fr: 'changer le saut', es: 'cambiar el brinco', pt: 'mudar o pulo', it: 'cambia il salto', nl: 'Sprong wijzigen', sv: 'ändra hoppet' },
+      ariaClear: { en: 'clear', de: 'löschen', fr: 'effacer', es: 'borrar', pt: 'limpar', it: 'cancella', nl: 'wissen', sv: 'sudda' }
     },
     defaults: {},
 
@@ -243,13 +243,13 @@
         + '@keyframes hnlBounce{0%{transform:scale(.8)}60%{transform:scale(1.12)}100%{transform:none}}'
         + '.hnl-story{background:#fff;border-radius:11px;padding:clamp(5px,1.4vw,8px) clamp(7px,1.8vw,10px);box-shadow:inset 0 0 0 2px rgba(20,107,94,.1);display:flex;align-items:flex-start;gap:6px;}'
         + '.hnl-storytext{margin:0;font:600 clamp(11.5px,2.9vw,14px)/1.28 "Nunito",sans-serif;color:' + C.INK + ';flex:1 1 auto;min-width:0;overflow-wrap:break-word;}'
-        + '.hnl-replay{border:0;background:rgba(20,107,94,.1);color:' + C.T + ';border-radius:12px;padding:4px 8px;min-height:34px;font:700 clamp(10px,2.4vw,12px)/1 "Baloo 2",sans-serif;cursor:pointer;flex:0 0 auto;white-space:nowrap;}.hnl-replay:active{transform:translateY(1px);}'
+        + '.hnl-replay{border:0;background:rgba(20,107,94,.1);color:' + C.T + ';border-radius:12px;padding:4px 10px;min-height:44px;font:700 clamp(10px,2.4vw,12px)/1 "Baloo 2",sans-serif;cursor:pointer;flex:0 0 auto;white-space:nowrap;}.hnl-replay:active{transform:translateY(1px);}'
         /* the number line */
         + '.hnl-line{position:relative;height:clamp(64px,15vw,82px);margin:1px 0 0;}'
         + '.hnl-axis{position:absolute;left:' + PAD + '%;right:' + PAD + '%;top:54%;height:4px;border-radius:2px;background:' + C.POND + ';}'
         + '.hnl-tick{position:absolute;top:54%;width:2px;height:11px;background:rgba(20,107,94,.6);transform:translate(-50%,-3px);}'
         + '.hnl-ticklab{position:absolute;top:calc(54% + 12px);transform:translateX(-50%);font:700 clamp(9px,2.3vw,11px)/1 "Baloo 2",sans-serif;color:' + C.T + ';}'
-        + '.hnl-tickhit{position:absolute;top:54%;width:clamp(26px,7vw,34px);height:34px;transform:translate(-50%,-17px);background:transparent;border:0;border-radius:8px;cursor:pointer;touch-action:manipulation;padding:0;}'
+        + '.hnl-tickhit{position:absolute;top:54%;width:clamp(26px,7vw,34px);height:44px;transform:translate(-50%,-22px);background:transparent;border:0;border-radius:8px;cursor:pointer;touch-action:manipulation;padding:0;}'
         + '.hnl-tickhit:active{background:rgba(242,120,75,.12);}'
         + '.hnl-span{position:absolute;top:calc(54% - 9px);height:11px;background:rgba(242,120,75,.4);border:2px solid ' + C.CORAL + ';border-radius:7px;display:flex;align-items:center;justify-content:center;pointer-events:none;}'
         + '.hnl-arrow{font-size:11px;color:' + C.CORAL2 + ';line-height:1;}'

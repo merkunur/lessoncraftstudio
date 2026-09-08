@@ -30,7 +30,8 @@
             "es": "Hopper empieza en 6 y brinca 8 hacia adelante. ¿Dónde cae?",
             "pt": "O Saltão está no 6 e pula 8 para frente. Onde ele vai parar?",
             "it": "Hopper è sul 6 e salta di 8 in avanti. Dove va a finire?",
-            "nl": "Hopper zit op 6 en springt 8 vooruit. Waar landt hij?"
+            "nl": "Hopper zit op 6 en springt 8 vooruit. Waar landt hij?",
+          "sv": "Hopper sitter på 6 och hoppar 8 framåt. Var landar han?"
           }
         },
         {
@@ -52,7 +53,8 @@
             "es": "Hopper empieza en 9 y brinca 12 hacia adelante. ¿Dónde cae?",
             "pt": "O Saltão está no 9 e pula 12 para frente. Onde ele vai parar?",
             "it": "Hopper è sul 9 e salta di 12 in avanti. Dove va a finire?",
-            "nl": "Hopper zit op 9 en springt 12 vooruit. Waar landt hij?"
+            "nl": "Hopper zit op 9 en springt 12 vooruit. Waar landt hij?",
+          "sv": "Hopper sitter på 9 och hoppar 12 framåt. Var landar han?"
           }
         },
         {
@@ -74,7 +76,8 @@
             "es": "Hopper empieza en 16 y brinca 6 hacia atrás. ¿Dónde cae?",
             "pt": "O Saltão está no 16 e pula 6 para trás. Onde ele vai parar?",
             "it": "Hopper è sul 16 e salta di 6 indietro. Dove va a finire?",
-            "nl": "Hopper zit op 16 en springt 6 achteruit. Waar landt hij?"
+            "nl": "Hopper zit op 16 en springt 6 achteruit. Waar landt hij?",
+          "sv": "Hopper sitter på 16 och hoppar 6 bakåt. Var landar han?"
           }
         },
         {
@@ -96,7 +99,8 @@
             "es": "Hopper empieza en 24 y brinca 9 hacia atrás. ¿Dónde cae?",
             "pt": "O Saltão está no 24 e pula 9 para trás. Onde ele vai parar?",
             "it": "Hopper è sul 24 e salta di 9 indietro. Dove va a finire?",
-            "nl": "Hopper zit op 24 en springt 9 achteruit. Waar landt hij?"
+            "nl": "Hopper zit op 24 en springt 9 achteruit. Waar landt hij?",
+          "sv": "Hopper sitter på 24 och hoppar 9 bakåt. Var landar han?"
           }
         },
         {
@@ -118,7 +122,8 @@
             "es": "Hopper empieza en 15 y brinca 20 hacia adelante. ¿Dónde cae?",
             "pt": "O Saltão está no 15 e pula 20 para frente. Onde ele vai parar?",
             "it": "Hopper è sul 15 e salta di 20 in avanti. Dove va a finire?",
-            "nl": "Hopper zit op 15 en springt 20 vooruit. Waar landt hij?"
+            "nl": "Hopper zit op 15 en springt 20 vooruit. Waar landt hij?",
+          "sv": "Hopper sitter på 15 och hoppar 20 framåt. Var landar han?"
           }
         },
         {
@@ -140,7 +145,8 @@
             "es": "Hopper empieza en 45 y brinca 20 hacia atrás. ¿Dónde cae?",
             "pt": "O Saltão está no 45 e pula 20 para trás. Onde ele vai parar?",
             "it": "Hopper è sul 45 e salta di 20 indietro. Dove va a finire?",
-            "nl": "Hopper zit op 45 en springt 20 achteruit. Waar landt hij?"
+            "nl": "Hopper zit op 45 en springt 20 achteruit. Waar landt hij?",
+          "sv": "Hopper sitter på 45 och hoppar 20 bakåt. Var landar han?"
           }
         },
         {
@@ -162,7 +168,8 @@
             "es": "Hopper empieza en 30 y brinca 40 hacia adelante. ¿Dónde cae?",
             "pt": "O Saltão está no 30 e pula 40 para frente. Onde ele vai parar?",
             "it": "Hopper è sul 30 e salta di 40 in avanti. Dove va a finire?",
-            "nl": "Hopper zit op 30 en springt 40 vooruit. Waar landt hij?"
+            "nl": "Hopper zit op 30 en springt 40 vooruit. Waar landt hij?",
+          "sv": "Hopper sitter på 30 och hoppar 40 framåt. Var landar han?"
           }
         },
         {
@@ -184,7 +191,8 @@
             "es": "Hopper empieza en 80 y brinca 50 hacia atrás. ¿Dónde cae?",
             "pt": "O Saltão está no 80 e pula 50 para trás. Onde ele vai parar?",
             "it": "Hopper è sull'80 e salta di 50 indietro. Dove va a finire?",
-            "nl": "Hopper zit op 80 en springt 50 achteruit. Waar landt hij?"
+            "nl": "Hopper zit op 80 en springt 50 achteruit. Waar landt hij?",
+          "sv": "Hopper sitter på 80 och hoppar 50 bakåt. Var landar han?"
           }
         },
         {
@@ -206,7 +214,8 @@
             "es": "Hopper empieza en 40 y brinca 30 hacia adelante. ¿Dónde cae?",
             "pt": "O Saltão está no 40 e pula 30 para frente. Onde ele vai parar?",
             "it": "Hopper è sul 40 e salta di 30 in avanti. Dove va a finire?",
-            "nl": "Hopper zit op 40 en springt 30 vooruit. Waar landt hij?"
+            "nl": "Hopper zit op 40 en springt 30 vooruit. Waar landt hij?",
+          "sv": "Hopper sitter på 40 och hoppar 30 framåt. Var landar han?"
           }
         }
       ]
@@ -219,7 +228,7 @@
       "es": "sumar-y-restar-en-la-recta-numerica-hasta-100-2-primaria",
       "pt": "somar-e-subtrair-na-reta-numerica-ate-100-2-ano",
       "it": "sommare-e-sottrarre-sulla-linea-dei-numeri-entro-100-classe-seconda",
-      "nl": "optellen-en-aftrekken-op-de-getallenlijn-tot-100-groep-4"
+      "nl": "optellen-en-aftrekken-op-de-getallenlijn-tot-100-groep-4", "sv": "addition-och-subtraktion-till-100-ak-2"
     },
     "page_title": {
       "en": "Hopper's Number Line — Add & Subtract by Hopping (Grade 2)",
@@ -228,7 +237,7 @@
       "es": "La recta numérica de Hopper — sumar y restar hasta 100 (2.º primaria)",
       "pt": "Saltão na reta numérica: somar e subtrair até 100 (2º ano)",
       "it": "Sommare e sottrarre entro il 100 con Hopper (classe seconda)",
-      "nl": "Hopper op de getallenlijn – Optellen en aftrekken tot 100 (groep 4)"
+      "nl": "Hopper op de getallenlijn – Optellen en aftrekken tot 100 (groep 4)", "sv": "Addition och subtraktion till 100 – ett hopp på tallinjen (åk 2)"
     },
     "page_intro": {
       "en": "Hopper the frog adds and subtracts by HOPPING along a number line of lily pads. Read each hop, then model it: put Hopper on the start, point the hop forward (to add) or back (to take away), pick the right hop size, and work out which number Hopper lands on. A warm Grade 2 game about representing sums and differences within 100 on a number-line diagram, aligned to Common Core 2.MD.B.6.",
@@ -237,7 +246,7 @@
       "es": "Con Hopper, la rana, brinca en la recta numérica: toca el número inicial, elige hacia adelante para sumar o hacia atrás para restar, escoge el tamaño del brinco y descubre dónde cae. Suma y resta hasta 100. Juego interactivo de segundo grado, sin registro, alineado a los Planes y programas de estudio (SEP).",
       "pt": "Ajude o Saltão, o sapo, a pular pelas vitórias-régias e some ou subtraia até 100 na reta numérica. Descubra onde ele vai parar. Atividade de 2º ano.",
       "it": "Hopper è una rana che somma e sottrae saltando lungo la linea dei numeri, da una ninfea all'altra. Tu leggi il salto — un numero di partenza e una lunghezza — poi lo costruisci insieme a lui: metti Hopper sulla ninfea di partenza, scegli in avanti per sommare o indietro per sottrarre, indica quanto è lungo il salto e il balzo si disegna sulla linea. Poi scopri su quale numero va a finire. È un modo tranquillo per rappresentare somme e sottrazioni entro il 100 sulla linea dei numeri, per bambini di 7 e 8 anni. L'attività è senza registrazione, direttamente nel browser, ed è allineata alle Indicazioni nazionali, nel nucleo Numeri.",
-      "nl": "Spring mee met Hopper de kikker over de waterlelies! Op deze interactieve getallenlijn maakt je kind een som of een aftrekking als één duidelijke sprong: vooruit als je erbij doet, achteruit als je eraf haalt. Zo oefent je kind spelenderwijs met optellen en aftrekken tot 100 — bijvoorbeeld 6 + 8, 24 − 9 of 80 − 50 — en ziet het meteen waar Hopper landt. De activiteit sluit aan bij de SLO-kerndoelen voor groep 4."
+      "nl": "Spring mee met Hopper de kikker over de waterlelies! Op deze interactieve getallenlijn maakt je kind een som of een aftrekking als één duidelijke sprong: vooruit als je erbij doet, achteruit als je eraf haalt. Zo oefent je kind spelenderwijs met optellen en aftrekken tot 100 — bijvoorbeeld 6 + 8, 24 − 9 of 80 − 50 — en ziet het meteen waar Hopper landt. De activiteit sluit aan bij de SLO-kerndoelen voor groep 4.", "sv": "Hopper sitter på tallinjen. Barnet väljer start, riktning och hur långt hoppet är, och räknar ut var han landar. Addition och subtraktion till 100, åk 2 enligt Lgr22."
     },
     "kid_prompt_template": "hoppers-number-line"
   }

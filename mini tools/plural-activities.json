@@ -81,7 +81,7 @@
           { "id": "pl-bal",   "singular": "bal",   "rule": "vowel-change", "ruleSpec": { "from": "al",  "to": "allen" },  "family": "verdubbeling", "q": "Wat is het meervoud van ‘bal’?" },
           { "id": "pl-kip",   "singular": "kip",   "rule": "vowel-change", "ruleSpec": { "from": "ip",  "to": "ippen" },  "family": "verdubbeling", "q": "Wat is het meervoud van ‘kip’?" },
           { "id": "pl-brief", "singular": "brief", "rule": "vowel-change", "ruleSpec": { "from": "ief", "to": "ieven" }, "family": "f-v",          "q": "Wat is het meervoud van ‘brief’?" },
-          { "id": "pl-huis",  "singular": "huis",  "rule": "vowel-change", "ruleSpec": { "from": "uis", "to": "uizen" }, "family": "s-z",          "q": "Wat is het meervoud van ‘huis’?" },
+          { "id": "pl-schip", "singular": "schip", "rule": "vowel-change", "ruleSpec": { "from": "ip",  "to": "epen" }, "family": "onregelmatig", "q": "Wat is het meervoud van ‘schip’?" },
           { "id": "pl-kind",  "singular": "kind",  "rule": "suffix",       "ruleSpec": { "add": "eren" },                "family": "eren",         "q": "Wat is het meervoud van ‘kind’?" }
         ]
       }

@@ -93,6 +93,10 @@ console.log('  ok   manifest coherence — every locale complete across slug/pag
         if (pred === 'true') return C.isTrue(r);
         if (pred === 'false') return !C.isTrue(r);
         if (pred === 'commutative') return r.form === 'commutative';
+        /* the round that used to be unwinnable: _deposit ignored the token operator, so the
+           pan filled to a + b while the win test needed a − b. buildPool ALWAYS includes
+           one, and 'true' above never reached it because commutative comes first. */
+        if (pred === 'subtraction-true') return r.form === 'subtraction' && C.isTrue(r);
         if (pred === 'repair') return C.isGold(r) && !C.isTrue(r) && !!C.repairTarget(r);
         return false;
       }
@@ -160,6 +164,25 @@ console.log('  ok   manifest coherence — every locale complete across slug/pag
     await clickSel('.nc-vtrue');
     for (let k = 0; k < 8 && !(await done()); k++) { const b = await page.$('.nc-num-tap:not(.nc-num-used)'); if (b) { await b.click(); await sleep(90); } else break; }
     note(await done(), 'commutative TRUE round did not complete');
+
+    /* ⛔ SUBTRACTION-TRUE: the guaranteed dead end. On `6 = 8 − 2` the child rules
+       correctly and taps both operands; before the fix the right pan reached 10 against a
+       target of 6, every token was spent, and Check could never succeed — 1.00 per deck
+       across 200 simulated decks. */
+    await forceKind('subtraction-true');
+    {
+      const claim = await page.evaluate(() => {
+        const r = window.NumbersCourtActivity.round;
+        const s = (x) => x.map((k, i) => (i ? (k.op === '-' ? ' - ' : ' + ') : '') + k.t).join('');
+        return s(r.expr.left) + ' = ' + s(r.expr.right);
+      });
+      const hasMinus = await page.evaluate(() => (window.NumbersCourtActivity.round.expr.right || []).some((k) => k.op === '-'));
+      note(hasMinus, 'forced round is not a subtraction — the check would be vacuous');
+      await clickSel('.nc-vtrue');
+      note(await stageOf() === 'justify', 'subtraction TRUE verdict did not reveal justify');
+      for (let k = 0; k < 8 && !(await done()); k++) { const b = await page.$('.nc-num-tap:not(.nc-num-used)'); if (b) { await b.click(); await sleep(90); } else break; }
+      note(await done(), 'subtraction TRUE round did not complete after depositing every operand — SOFT-LOCK (' + claim + ')');
+    }
 
     /* REPAIR round: verdict FALSE → justify → place the leveling tile → done */
     await forceKind('repair', true);

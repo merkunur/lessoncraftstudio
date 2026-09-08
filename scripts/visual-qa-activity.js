@@ -73,6 +73,7 @@ const MIN_CONTENT_PX = 14;     // "not tiny"
 const SPARSE_AREA = 0.32;      // content/card area floor
 const SPARSE_WIDTH = 0.45;     // content/card width floor
 const MIN_TAP = 44;            // answer-card tap target
+const MIN_KEYPAD_TAP = 36;     // §A.13.55 K-2 shell-control minimum; the shell ships minmax(36px,1fr)
 
 function serve() {
   return http.createServer((req, res) => {
@@ -140,7 +141,19 @@ function measureInPage() {
   )).filter(el => !/(^|\s)lcs-/.test(el.getAttribute('class') || '')).filter(vis)
     .filter(el => { const r = el.getBoundingClientRect(); return r.width > 8 && r.height > 8; });
 
+  /* the shell KEYPAD is the answer surface for answerType:'number' activities. Counted for
+     FITS + TAP only; NOT as an answer card, so SPARSE/NOT-TINY are unchanged elsewhere. */
+  const keypadKeys = Array.from(document.querySelectorAll('.lcs-activity-keypad .lcs-activity-key, .lcs-activity-keypad button'))
+    .filter(vis).filter(el => { const r = el.getBoundingClientRect(); return r.width > 8 && r.height > 8; });
+
   let worstSparse = null, minTap = Infinity, controlBottom = 0, unmeasured = 0;
+  let minKeypadTap = Infinity;
+  keypadKeys.forEach(el => {
+    const r = el.getBoundingClientRect();
+    /* NOT folded into minTap: a 37px key must never mask an undersized answer CARD */
+    minKeypadTap = Math.min(minKeypadTap, Math.min(r.width, r.height));
+    controlBottom = Math.max(controlBottom, r.bottom);
+  });
   fallbackControls.forEach(el => {
     const r = el.getBoundingClientRect();
     minTap = Math.min(minTap, Math.min(r.width, r.height));
@@ -267,7 +280,7 @@ function measureInPage() {
     vw, vh, appH, overflowX,
     controlBottom: Math.round(controlBottom),
     minContent: minContent === Infinity ? null : Math.round(minContent), minContentCls,
-    cards: cards.length, unmeasured, fallbackControls: fallbackControls.length, headerClip, textClip,
+    cards: cards.length, unmeasured, fallbackControls: fallbackControls.length, keypadKeys: keypadKeys.length, minKeypadTap: (minKeypadTap === Infinity ? null : Math.round(minKeypadTap)), headerClip, textClip,
     worstSparse, minTap: minTap === Infinity ? null : Math.round(minTap),
   };
 }
@@ -287,9 +300,12 @@ function evalGates(m) {
      different answers and only one of them is a pass. Every activity puts at least
      one control of its own on the screen; measuring none means the instrument
      missed, not that the layout is good. */
-  const measuredControls = m.cards + (m.fallbackControls || 0);
+  const measuredControls = m.cards + (m.fallbackControls || 0) + (m.keypadKeys || 0);
   if (measuredControls === 0) fails.push('NO-CONTROLS-MEASURED(neither an answer card nor a tool button was found — the gate measured nothing)');
   if (measuredControls > 0 && m.minTap != null && m.minTap < MIN_TAP) fails.push(`TAP(${m.minTap}px<${MIN_TAP})`);
+  /* the shell keypad's own floor — 36px, the recorded K-2 minimum for shell controls
+     (audit-activity-mobile.js WARNs below it; the shell ships minmax(36px,1fr)). */
+  if (m.minKeypadTap != null && m.minKeypadTap < MIN_KEYPAD_TAP) fails.push(`KEYPAD-TAP(${m.minKeypadTap}px<${MIN_KEYPAD_TAP})`);
   if (m.headerClip) fails.push(`HEADER-CLIP(shell title ${m.headerClip.overlapPx ? 'overlaps controls ' + m.headerClip.overlapPx + 'px' : 'ellipsized ' + m.headerClip.textClipPx + 'px'})`);
   if (m.textClip) fails.push(`TEXT-CLIP(${m.textClip.cls} line-clamp:${m.textClip.lines} hides ${m.textClip.clipPx}px — "${m.textClip.text}")`);
   return fails;

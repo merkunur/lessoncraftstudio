@@ -24,7 +24,8 @@
       "es": "area-contar-cuadritos-3-primaria",
       "pt": "area-contar-quadradinhos-ladrilhamento-3-ano",
       "it": "area-contare-quadretti-mosaici-classe-quarta",
-      "nl": "oppervlakte-tegeltjes-tellen-groep-6"
+      "nl": "oppervlakte-tegeltjes-tellen-groep-6",
+      "sv": "area-rakna-rutor-mosaik-ak-4"
     },
     "page_title": {
       "en": "The Mosaic Menders — Area as Counting Unit Squares (Grade 3)",
@@ -33,7 +34,8 @@
       "es": "El taller de mosaicos de Tessa — el área contando cuadritos (3.º primaria)",
       "pt": "Mosaicos da Tessa: área e contar quadradinhos — 3º ano",
       "it": "Tessa e i mosaici: l'area contando i quadretti (classe quarta)",
-      "nl": "Tessa’s mozaïekwerkplaats — oppervlakte tellen met tegeltjes (Groep 6)"
+      "nl": "Tessa’s mozaïekwerkplaats — oppervlakte tellen met tegeltjes (Groep 6)",
+      "sv": "Alva lägger mosaik – räkna rutor och hitta samma area (åk 4)"
     },
     "page_intro": {
       "en": "An interactive Grade 3 math activity: help Tessa find the mosaic that uses the same number of unit tiles. One look-alike has a bigger shape but the wrong count, so children must measure area by counting unit squares — not by which looks biggest. Area is a count of unit squares, the same no matter the shape. Common Core 3.MD.C.6.",
@@ -42,7 +44,8 @@
       "es": "Mide el área contando cuadritos: ayuda a Tessa a encontrar el mosaico hecho con la misma cantidad de cuadritos, aunque tenga otra forma. Un contorno más grande no significa más área. Juego interactivo de tercer grado, sin registro, alineado a los Planes y programas de estudio (SEP).",
       "pt": "Ajude a Tessa a achar o mosaico com a mesma área contando os quadradinhos — o tamanho engana! Atividade interativa de 3º ano.",
       "it": "Tessa è una mosaicista e ha bisogno di un mosaico fatto con un certo numero di quadretti: tra tre mosaici, aiuta il tuo bambino a trovare quello formato dallo stesso numero di quadretti, cioè con la stessa area. Attenzione però, perché un mosaico dal contorno più grande può ingannare: l'area non dipende dalla forma, ma dal numero di quadretti che la compongono. Così il bambino impara a misurare e confrontare l'area contando i quadretti, e scopre che due figure diverse possono avere la stessa area (equiestensione). Si gioca senza registrazione, direttamente nel browser, ed è un'attività allineata alle Indicazioni nazionali, nel nucleo Spazio e figure.",
-      "nl": "Tel interactief mee in Tessa’s mozaïekwerkplaats: welk mozaïek heeft evenveel tegeltjes en dus dezelfde oppervlakte, ook al is de vorm anders? Sluit aan bij de SLO-kerndoelen."
+      "nl": "Tel interactief mee in Tessa’s mozaïekwerkplaats: welk mozaïek heeft evenveel tegeltjes en dus dezelfde oppervlakte, ook al is de vorm anders? Sluit aan bij de SLO-kerndoelen.",
+      "sv": "Tryck på mosaiken som har lika många rutor som Alvas. Den som ser störst ut har fler rutor – area är antalet rutor, oavsett form. Åtta rundor, åk 4."
     },
     "kid_prompt_template": "area-match"
   }

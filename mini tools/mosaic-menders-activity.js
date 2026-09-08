@@ -56,8 +56,8 @@
   }
 
   /* ---- Tessa the tile-mason — SVG PLACEHOLDER (CA5 sprite swaps in via _setPose) ---- */
-  function tessaSVG() {
-    return '<svg class="mm-tessa-svg" viewBox="0 0 120 120" role="img" aria-label="Tessa">' +
+  function tessaSVG(api) {
+    return '<svg class="mm-tessa-svg" viewBox="0 0 120 120" role="img" aria-label="' + esc(api && api.t ? api.t('mascotName') : 'Tessa') + '">' +
       '<path d="M26 60 C26 32 94 32 94 60 C94 88 79 100 60 100 C41 100 26 88 26 60 Z" fill="' + C.T + '"/>' +
       '<ellipse cx="44" cy="46" rx="10" ry="7" fill="' + C.RIM + '" opacity="0.3"/>' +
       '<path d="M60 54 Q46 58 46 74 Q46 90 60 93 Q74 90 74 74 Q74 58 60 54 Z" fill="' + C.BODY + '" opacity="0.5"/>' +
@@ -129,14 +129,17 @@
          ⚠ GEEN "omtrek" (klassieke NL-misvatting omtrek↔oppervlakte). Tessa BEHOUDEN (alle 6
          locales). het mozaïek (neuter) → "dat mozaïek"; het tegeltje (verkleinwoord → het);
          "één van de" met accenten; Controleer = shell-knop. */
-      title:       { en: 'The Mosaic Menders', de: 'Tessas Mosaik-Werkstatt', fr: 'L’atelier de mosaïque de Tessa', es: 'El taller de mosaicos de Tessa', pt: 'O ateliê de mosaicos da Tessa', it: 'Il laboratorio dei mosaici di Tessa', nl: 'Tessa’s mozaïekwerkplaats' },
-      instruction: { en: 'Help Tessa: tap the mosaic that uses the same number of tiles. Tap Check when ready.', de: 'Hilf Tessa: Tippe auf das Mosaik, das gleich viele Plättchen hat. Tippe auf „Prüfen“, wenn du fertig bist.', fr: 'Aide Tessa : touche la mosaïque qui a le même nombre de carreaux. Touche Vérifier quand tu as choisi.', es: 'Ayuda a Tessa: toca el mosaico que usa la misma cantidad de cuadritos. Toca Comprobar cuando estés listo.', pt: 'Ajude a Tessa: toque no mosaico que usa a mesma quantidade de quadradinhos. Toque em Verificar quando terminar.', it: 'Aiuta Tessa: tocca il mosaico che usa lo stesso numero di quadretti. Tocca Verifica quando hai scelto.', nl: 'Help Tessa: tik op het mozaïek met evenveel tegeltjes. Tik op Controleer als je klaar bent.' },
-      prompt:      { en: 'Tap the mosaic that uses {n} tiles.', de: 'Tippe auf das Mosaik mit {n} Plättchen.', fr: 'Touche la mosaïque qui a {n} carreaux.', es: 'Toca el mosaico que usa {n} cuadritos.', pt: 'Toque no mosaico que usa {n} quadradinhos.', it: 'Tocca il mosaico che usa {n} quadretti.', nl: 'Tik op het mozaïek met {n} tegeltjes.' },
-      hintPickOne: { en: 'Tap one of the mosaics first.', de: 'Tippe zuerst auf eines der Mosaike.', fr: 'Touche d’abord une mosaïque.', es: 'Primero toca uno de los mosaicos.', pt: 'Toque em um dos mosaicos primeiro.', it: 'Prima tocca uno dei mosaici.', nl: 'Tik eerst op één van de mozaïeken.' },
-      hintCount:   { en: 'Not that one — count the tiles, not the size.', de: 'Nicht dieses — zähle die Plättchen, nicht die Größe.', fr: 'Pas celle-ci — compte les carreaux, pas la taille.', es: 'Ese no — cuenta los cuadritos, no el tamaño.', pt: 'Esse não — conte os quadradinhos, não vá pelo tamanho.', it: 'Non quello — conta i quadretti, non la grandezza.', nl: 'Niet dat mozaïek — tel de tegeltjes, niet de grootte.' },
-      targetLabel: { en: '{n} tiles', de: '{n} Plättchen', fr: '{n} carreaux', es: '{n} cuadritos', pt: '{n} quadradinhos', it: '{n} quadretti', nl: '{n} tegeltjes' },
-      srTarget:    { en: 'Tessa needs a mosaic with {n} tiles.', de: 'Tessa braucht ein Mosaik mit {n} Plättchen.', fr: 'Tessa a besoin d’une mosaïque de {n} carreaux.', es: 'Tessa necesita un mosaico con {n} cuadritos.', pt: 'A Tessa precisa de um mosaico com {n} quadradinhos.', it: 'Tessa ha bisogno di un mosaico con {n} quadretti.', nl: 'Tessa heeft een mozaïek met {n} tegeltjes nodig.' },
-      srCand:      { en: 'a mosaic with {n} tiles', de: 'ein Mosaik mit {n} Plättchen', fr: 'une mosaïque de {n} carreaux', es: 'un mosaico con {n} cuadritos', pt: 'um mosaico com {n} quadradinhos', it: 'un mosaico con {n} quadretti', nl: 'een mozaïek met {n} tegeltjes' }
+      mascotName:  { en: 'Tessa', de: 'Tessa', fr: 'Tessa', es: 'Tessa', pt: 'Tessa', it: 'Tessa', nl: 'Tessa', sv: 'Alva' },
+      title:       { en: 'The Mosaic Menders', de: 'Tessas Mosaik-Werkstatt', fr: 'L’atelier de mosaïque de Tessa', es: 'El taller de mosaicos de Tessa', pt: 'O ateliê de mosaicos da Tessa', it: 'Il laboratorio dei mosaici di Tessa', nl: 'Tessa’s mozaïekwerkplaats', sv: 'Alvas mosaiker' },
+      instruction: { en: 'Help Tessa: tap the mosaic that uses the same number of tiles. Tap Check when ready.', de: 'Hilf Tessa: Tippe auf das Mosaik, das gleich viele Plättchen hat. Tippe auf „Prüfen“, wenn du fertig bist.', fr: 'Aide Tessa : touche la mosaïque qui a le même nombre de carreaux. Touche Vérifier quand tu as choisi.', es: 'Ayuda a Tessa: toca el mosaico que usa la misma cantidad de cuadritos. Toca Comprobar cuando estés listo.', pt: 'Ajude a Tessa: toque no mosaico que usa a mesma quantidade de quadradinhos. Toque em Verificar quando terminar.', it: 'Aiuta Tessa: tocca il mosaico che usa lo stesso numero di quadretti. Tocca Verifica quando hai scelto.', nl: 'Help Tessa: tik op het mozaïek met evenveel tegeltjes. Tik op Controleer als je klaar bent.', sv: 'Hjälp Alva: tryck på mosaiken med lika många rutor som den där uppe, och tryck sedan på Kontrollera.' },
+      prompt:      { en: 'Tap the mosaic that uses {n} tiles.', de: 'Tippe auf das Mosaik mit {n} Plättchen.', fr: 'Touche la mosaïque qui a {n} carreaux.', es: 'Toca el mosaico que usa {n} cuadritos.', pt: 'Toque no mosaico que usa {n} quadradinhos.', it: 'Tocca il mosaico che usa {n} quadretti.', nl: 'Tik op het mozaïek met {n} tegeltjes.', sv: 'Tryck på mosaiken som har {n} rutor.' },
+      hintPickOne: { en: 'Tap one of the mosaics first.', de: 'Tippe zuerst auf eines der Mosaike.', fr: 'Touche d’abord une mosaïque.', es: 'Primero toca uno de los mosaicos.', pt: 'Toque em um dos mosaicos primeiro.', it: 'Prima tocca uno dei mosaici.', nl: 'Tik eerst op één van de mozaïeken.', sv: 'Tryck först på en av mosaikerna nedanför.' },
+      hintCount:   { en: 'Not that one — count the tiles, not the size.', de: 'Nicht dieses — zähle die Plättchen, nicht die Größe.', fr: 'Pas celle-ci — compte les carreaux, pas la taille.', es: 'Ese no — cuenta los cuadritos, no el tamaño.', pt: 'Esse não — conte os quadradinhos, não vá pelo tamanho.', it: 'Non quello — conta i quadretti, non la grandezza.', nl: 'Niet dat mozaïek — tel de tegeltjes, niet de grootte.', sv: 'Räkna rutorna — gå inte efter vilken som ser störst ut.' },
+      targetLabel: { en: '{n} tiles', de: '{n} Plättchen', fr: '{n} carreaux', es: '{n} cuadritos', pt: '{n} quadradinhos', it: '{n} quadretti', nl: '{n} tegeltjes', sv: '{n} rutor' },
+      srTarget:    { en: 'Tessa needs a mosaic with {n} tiles.', de: 'Tessa braucht ein Mosaik mit {n} Plättchen.', fr: 'Tessa a besoin d’une mosaïque de {n} carreaux.', es: 'Tessa necesita un mosaico con {n} cuadritos.', pt: 'A Tessa precisa de um mosaico com {n} quadradinhos.', it: 'Tessa ha bisogno di un mosaico con {n} quadretti.', nl: 'Tessa heeft een mozaïek met {n} tegeltjes nodig.', sv: 'Alva behöver en mosaik med {n} rutor.' },
+      srRowOne:    { en: 'one square', sv: '1 ruta' },
+      srRowMany:   { en: '{n} squares', sv: '{n} rutor' },
+      srCand:      { en: 'Mosaic {i}, row by row: {rows}.', de: 'ein Mosaik mit {n} Plättchen', fr: 'une mosaïque de {n} carreaux', es: 'un mosaico con {n} cuadritos', pt: 'um mosaico com {n} quadradinhos', it: 'un mosaico con {n} quadretti', nl: 'een mozaïek met {n} tegeltjes', sv: 'Mosaik {i}, rad för rad: {rows}.' }
     },
 
     defaults: {},
@@ -160,6 +163,20 @@
 
     targetArea: function () { return Core.area(this.target); },
 
+    /* A candidate's label must NOT state its own tile count — that is the answer. Read it
+       row by row instead, which is the addition a sighted child does. Locales that have not
+       authored the row strings keep the legacy label, so none of them regresses. */
+    _candLabel: function (name, idx) {
+      var lang = this.api.lang, S = this.strings;
+      var hasRows = S && S.srRowMany && S.srRowMany[lang] && S.srRowOne && S.srRowOne[lang];
+      if (!hasRows) return interp(this.api.t('srCand'), { n: Core.area(name) });
+      var rows = Core.mask(name).map(function (row) {
+        var c = (row.match(/1/g) || []).length;
+        return c === 1 ? S.srRowOne[lang] : interp(S.srRowMany[lang], { n: c });
+      });
+      return interp(this.api.t('srCand'), { i: idx + 1, rows: rows.join(', ') });
+    },
+
     render: function () {
       this.injectCSS();
       var api = this.api, self = this;
@@ -169,7 +186,7 @@
 
       /* header strip: Tessa + target panel (mosaic + N badge) */
       var strip = api.el('div', 'mm-strip');
-      var tessa = api.el('div', 'mm-tessa'); tessa.setAttribute('data-pose', 'idle'); tessa.innerHTML = tessaSVG();
+      var tessa = api.el('div', 'mm-tessa'); tessa.setAttribute('data-pose', 'idle'); tessa.innerHTML = tessaSVG(api);
       this._tessaEl = tessa;
       var n = this.targetArea();
       var tpanel = api.el('div', 'mm-target');
@@ -197,7 +214,7 @@
         var d = maskDims(name);
         var VBW = (d.cols + PAD2) * U, VBH = (d.rows + PAD2) * U;
         var btn = api.el('button', 'mm-cand'); btn.type = 'button';
-        btn.setAttribute('aria-label', interp(api.t('srCand'), { n: Core.area(name) }));
+        btn.setAttribute('aria-label', self._candLabel(name, i));
         btn.style.setProperty('--mm-c', (d.cols + PAD2).toFixed(2));   // card width = (cols+pad) × --mm-tu
         btn.innerHTML = '<svg class="mm-card-svg" viewBox="0 0 ' + VBW + ' ' + VBH + '" aria-hidden="true">' + defs + mosaicSVG(name, U, VBW, VBH) + '</svg>' +
           '<span class="mm-check" aria-hidden="true">' + CHECK_SVG + '</span>';

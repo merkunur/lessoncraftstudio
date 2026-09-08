@@ -66,7 +66,10 @@ rounds.forEach((r) => {
   check(S.roteSolver(r).result === 'refused', `${L}: a ROTE (pull-at-any-fill) solver was not refused at sub-ten`);
 
   /* #3 scatter not a clean ten-frame */
-  check(f.scatterNotCleanTenFrame === true, `${L}: scatterNotCleanTenFrame !== true`);
+  /* ⚠ REMOVED — it asserted a HARD-CODED LITERAL (bundle-machine-core.js:85) against itself, so
+     it was green on any codebase, and it is a claim about the VIEW that this headless model
+     cannot see. It is now measured for real in local-test-bundle-bot.js, which inspects the
+     rendered grid in both the scattered and the tidied state. */
 
   /* #7 count-and-author solves */
   check(S.countAndAuthorSolver(r).solved === true, `${L}: the COUNT-AND-AUTHOR solver did not solve`);

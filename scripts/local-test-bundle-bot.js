@@ -128,6 +128,51 @@ function serve() {
     for (let k = 0; k < 4; k++) { await feedTo(10); await pull(); }
     s = await st(); note(s.solved && s.tens === 4 && s.ones === 0, `decade did not solve as 4 tens 0 ones (tens=${s.tens}, ones=${s.ones}, solved=${s.solved})`);
 
+    /* the tray must never form a clean ten-frame — scattered or tidied */
+    await page.setViewport({ width: 412, height: 900 });
+    await force('build-twenty-three');
+    await feedTo(10); await sleep(40);
+    const tenFrame = async () => page.evaluate(() => {
+      const s = document.querySelector('.bb-scatter');
+      if (!s) return { cols: -1, cubes: -1, raw: '(no .bb-scatter)' };
+      const g = getComputedStyle(s).gridTemplateColumns;
+      return { cols: (g && g !== 'none') ? g.trim().split(/\s+/).length : 0, cubes: s.querySelectorAll('.bb-cube').length, raw: g };
+    });
+    const scat = await tenFrame();
+    note(scat.cubes === 10, `ten-frame check: tray holds ${scat.cubes} cubes, expected 10 — the check would be vacuous`);
+    note(scat.cols !== 5, `the SCATTERED tray is a 5-column ten-frame (${scat.raw})`);
+    const tidyClicked = await page.evaluate(() => { const b = document.querySelector('.bb-tidybtn'); if (!b) return false; b.click(); return true; });
+    note(tidyClicked, 'ten-frame check: no .bb-tidybtn — the tidied state would go unchecked');
+    await sleep(40);
+    note(await page.evaluate(() => !!document.querySelector('.bb-tray.bb-tidy')), 'ten-frame check: Tidy did not apply .bb-tidy — the next assertion would be vacuous');
+    const tid = await tenFrame();
+    note(tid.cubes === 10, `ten-frame check: ${tid.cubes} cubes after Tidy, expected 10 — vacuous`);
+    note(tid.cols !== 5, `the TIDIED tray is a 5-column ten-frame (${tid.raw}) — one tap hands the child the is-it-ten scaffold`);
+    await page.evaluate(() => { const b = document.querySelector('.bb-tidybtn'); if (b) b.click(); });   // leave it scattered
+
+    /* no unsubstituted placeholder may reach the child, in the prompt OR the hint */
+    for (const rid of ['unbundle-thirty-two', 'decade-forty', 'read-state-twenty-four']) {
+      await force(rid); await sleep(30);
+      const ph = await page.evaluate(() => {
+        const a = window.BundleBotActivity, S = a.strings || {};
+        /* ⚠ READ THE REAL DESCRIPTOR, DO NOT REIMPLEMENT IT. The first version copied the
+           cog->key map into the test, so poisoning the tool's actual hintKey changed nothing
+           and the poison SURVIVED: the gate was testing its own copy, not the tool. */
+        const task = (a._pool || []).find(x => x && x.id === 'bundle-bot.' + a.round.id);
+        const hk = (task && typeof task.hintKey === 'function') ? task.hintKey(a) : null;
+        const p = document.querySelector('.lcs-activity-prompt-text');
+        const bubble = document.querySelector('.bb-say');
+        return { prompt: p ? p.textContent : '', bubble: bubble ? bubble.textContent : '',
+                 hintKey: hk, hintEn: (S[hk] && S[hk].en) || '' };
+      });
+      note(ph.bubble.trim().length > 0, `placeholder check/${rid}: Bolt's bubble is empty — vacuous`);
+      note(ph.bubble.indexOf('{') === -1, `placeholder check/${rid}: an UNSUBSTITUTED placeholder is in the bubble — "${ph.bubble}"`);
+      note(ph.prompt.indexOf('{') === -1, `placeholder check/${rid}: an UNSUBSTITUTED placeholder is in the prompt — "${ph.prompt}"`);
+      note(!!ph.hintKey, `placeholder check/${rid}: could not read the task's real hintKey — the check would be vacuous`);
+      note(!!ph.hintEn, `placeholder check/${rid}: hint key ${ph.hintKey} has no en string — vacuous`);
+      note(!/\{\w+\}/.test(ph.hintEn), `placeholder check/${rid}: hintKey resolves to ${ph.hintKey}, which carries a placeholder the shell will NOT interpolate — "${ph.hintEn}"`);
+    }
+
     /* mobile overflow 280→768 */
     for (const w of [280, 360, 412, 768]) {
       await page.setViewport({ width: w, height: 820 });

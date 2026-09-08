@@ -130,7 +130,10 @@ function serve() {
 
     const pairs = await svPage.evaluate(() => {
       const S = window.TallySquirrelActivity.strings || {};
-      return Object.keys(S).filter(k => S[k] && S[k].en && S[k].sv && S[k].en !== S[k].sv).map(k => [k, S[k].en]);
+      /* ⚠ derived from `en` ALONE. Keying this off `S[k].sv` would mean a MISSING Swedish
+         string removes its own assertion — the gate marking its own homework. Only keys
+         whose Swedish is deliberately identical (the names) are excluded. */
+      return Object.keys(S).filter(k => S[k] && S[k].en && S[k].sv !== S[k].en).map(k => [k, S[k].en]);
     });
     note(pairs.length >= 4, `sv: only ${pairs.length} string keys differ from en — the leak check would be near-vacuous`);
 
@@ -156,8 +159,12 @@ function serve() {
       note(seen.spoke.length > 0, `sv/r${idx}: the read-aloud button produced NO speech — the channel that matters here is unchecked`);
       const hay = seen.text + ' | ' + seen.aria + ' | ' + seen.spoke;
       for (const [key, enVal] of pairs) {
-        const probe = String(enVal).replace(/[^A-Za-z ]/g, ' ').trim().split(/\s+/).filter(w => w.length > 3).slice(0, 3).join(' ');
-        if (probe.length < 5) continue;
+        /* a CONSECUTIVE run, not a filtered join: "Make it fair!" must not become "Make fair",
+           which the page can never contain. Split on ICU placeholders first — they are
+           substituted at render, so the literal segments are what actually appear. */
+        const segs = String(enVal).split(/\{[^}]*\}/).map(s => s.replace(/\s+/g, ' ').trim()).filter(s => s.length >= 6);
+        if (!segs.length) continue;
+        const probe = segs.sort((a, b) => b.length - a.length)[0];
         note(hay.indexOf(probe) === -1, `sv/r${idx}: the ENGLISH '${key}' reached the child — found "${probe}"`);
       }
       /* fragments only the three LANG chains can produce, none of which is in the strings table */

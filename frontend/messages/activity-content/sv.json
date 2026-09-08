@@ -1694,6 +1694,52 @@
         "Barnet vet att stapelns höjd visar hur många det finns, och kan läsa av antalet",
         "Barnet kan svara på frågor om hur många fler, hur många färre och hur många tillsammans genom att jämföra staplar i ett diagram"
       ]
+    },
+    "clock-digital.read-hour.1-md-b-3": {
+      "about": [
+        "Tuppen Tore visar en klocka som står på en hel timme — som 3, 9 eller 6 — och barnet läser av den analoga urtavlan och trycker på den digitala tid som stämmer, bland tre alternativ. Det är en interaktiv tidsövning för årskurs 1 och barnets första steg i att läsa klockan, som körs direkt i webbläsaren utan att något behöver installeras och utan konto.",
+        "Den stora idén är att när klockan är hel timme pekar den långa minutvisaren rakt upp på tolvan, medan den korta timvisaren pekar på timmen — så klockan 3 skrivs 3:00. De alternativ som är fel är andra hela timmar, så barnet måste läsa av vilken siffra den korta visaren pekar på i stället för att gissa. Att koppla ihop urtavlan med den digitala tiden är en lugn början på klockläsningen.",
+        "Aktiviteten följer Lgr22 inom geometri: mätning av tid med vanliga nutida måttenheter, här till hel timme. Den här interaktiva övningen passar årskurs 1. Ingen timer, inga poäng — bara lugn, lekfull träning."
+      ],
+      "practices": [
+        "Läsa av vilken timme den korta visaren pekar på",
+        "Lägga märke till att den långa visaren pekar rakt upp på tolvan när klockan är hel",
+        "Koppla en hel timme till dess digitala form (klockan 3 = 3:00)",
+        "Para ihop urtavlan med rätt digital tid"
+      ],
+      "howToPlay": [
+        "Titta på klockan och läs av vilken timme den korta visaren pekar på.",
+        "Tryck på den digitala tid som stämmer och kolla ditt svar.",
+        "Blev det inte rätt? Försök igen så många gånger du vill — det finns ingen timer och inga poäng."
+      ],
+      "learningGoals": [
+        "Barnet kan läsa av hela timmar på en analog klocka",
+        "Barnet kopplar en hel timme på urtavlan till den digitala tiden 3:00",
+        "Barnet bygger den första klockläsningen som halva timmar och finare tider växer ur"
+      ]
+    },
+    "clock-digital.read-half-hour.1-md-b-3": {
+      "about": [
+        "Tuppen Tores klocka visar en tid som 3:00, 3:30, 9:30 eller 6:00, och barnet läser båda visarna och trycker på den digitala tid som stämmer, bland tre alternativ. Det är en interaktiv tidsövning för årskurs 2 om hela och halva timmar, som körs direkt i webbläsaren utan att något behöver installeras och utan konto.",
+        "Den stora idén är att det är minutvisaren som avgör om klockan är hel eller halv: pekar den rakt upp på tolvan har timmen just börjat, pekar den rakt ner på sexan har det gått trettio minuter. Eftersom de felaktiga alternativen innehåller samma timme vid den andra tiden — 3:00 mot 3:30 — räcker det inte att titta på den korta visaren; barnet måste läsa båda visarna för att skilja 3:00 från 3:30. Här är det också värt att stanna upp vid det svenska sättet att säga tiden: halv fyra är samma sak som 3:30, inte 4:30, eftersom halv pekar framåt mot nästa timme.",
+        "Aktiviteten följer Lgr22 inom geometri: mätning av tid med vanliga nutida måttenheter, till hel och halv timme. Den här interaktiva övningen passar årskurs 2, när hela och halva timmar blandas. Ingen timer, inga poäng — bara lugn, lekfull träning."
+      ],
+      "practices": [
+        "Läsa minutvisaren: på tolvan är klockan hel, på sexan är den halv",
+        "Läsa båda visarna i stället för bara timvisaren",
+        "Skilja hel timme från halv timme inom samma timme (3:00 mot 3:30)",
+        "Veta att halv fyra skrivs 3:30 och inte 4:30"
+      ],
+      "howToPlay": [
+        "Titta på klockan och läs båda visarna — lång visare på tolvan betyder hel timme, på sexan betyder halv.",
+        "Tryck på den digitala tid som stämmer och kolla ditt svar.",
+        "Blev det inte rätt? Försök igen så många gånger du vill — det finns ingen timer och inga poäng."
+      ],
+      "learningGoals": [
+        "Barnet kan läsa av hela och halva timmar på en analog klocka",
+        "Barnet läser båda visarna och kan skilja 3:00 från 3:30",
+        "Barnet vet att halv fyra skrivs 3:30 — ett steg mot kvart över, kvart i och tider på fem minuter"
+      ]
     }
   }
 }

@@ -140,9 +140,9 @@
       s.textContent = [
         '.lcs-app.activity .lcs-stage{display:flex;flex-direction:column;justify-content:center;}',
         '.ds-root{display:flex;flex-direction:column;align-items:center;gap:10px;width:100%;max-width:min(96vw,640px);margin:0 auto;}',
-        '.ds-say{display:flex;align-items:center;gap:8px;width:100%;}',
+        '.ds-say{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;}',
         '.ds-dot{flex:0 0 auto;}',
-        '.ds-line-msg{flex:1 1 auto;min-height:1.1em;text-align:center;font:700 .86rem/1.2 Nunito,system-ui,sans-serif;color:#146B5E;margin:0;}',
+        '.ds-line-msg{flex:0 1 auto;min-height:1.1em;text-align:center;font:700 clamp(0.86rem,2.1vw,1.12rem)/1.3 Nunito,system-ui,sans-serif;color:#146B5E;margin:0;}',
         '.ds-line-msg.miss{color:#C2410C;}',
         '.ds-strip{display:flex;justify-content:center;gap:10px;width:100%;max-width:min(96vw,600px);align-items:stretch;}',
         '.ds-cand{flex:1 1 0;min-width:0;display:flex;flex-direction:column;align-items:center;gap:2px;padding:3px 4px;border:3px solid #146B5E;border-radius:14px;background:#fff;cursor:pointer;min-height:44px;}',

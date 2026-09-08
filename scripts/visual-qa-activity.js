@@ -166,6 +166,19 @@ function measureInPage() {
       axis = { n: els.length, worstOverlap: Math.round(worstOverlap * 10) / 10, minW: Math.round(minW * 10) / 10, minH: Math.round(minH * 10) / 10, minPitch: Math.round(minPitch * 10) / 10 };
     }
   }
+  /* the activity's own feedback region — where a nudge, a hint or a win line renders */
+  /* ⚠ prefer the STAGE's own live region, and never a visually-hidden one. querySelector with a
+     comma-list returns the first match in DOCUMENT ORDER, not the first selector's match, so a
+     combined selector found the SHELL's announce region (inheriting the root 16px) and reported
+     16px at every width for twelve activities whose feedback line I had just fixed. */
+  const liveEl = [...document.querySelectorAll('.lcs-stage [aria-live]')].find((n) => {
+    const cs = getComputedStyle(n);
+    if (cs.position === 'absolute' && (cs.clip !== 'auto' || parseFloat(cs.width) <= 2)) return false; // sr-only mirror
+    return true;
+  }) || null;
+  const liveFont = liveEl ? Math.round(parseFloat(getComputedStyle(liveEl).fontSize) * 100) / 100 : null;
+  const cardEl = document.querySelector('.lcs-app');
+  const cardW = cardEl ? Math.round(cardEl.getBoundingClientRect().width) : null;
   const keypadKeys = Array.from(document.querySelectorAll('.lcs-activity-keypad .lcs-activity-key, .lcs-activity-keypad button'))
     .filter(vis).filter(el => { const r = el.getBoundingClientRect(); return r.width > 8 && r.height > 8; });
 
@@ -307,7 +320,7 @@ function measureInPage() {
     vw, vh, appH, overflowX,
     controlBottom: Math.round(controlBottom),
     minContent: minContent === Infinity ? null : Math.round(minContent), minContentCls,
-    minTapCls, minKeypadCls, axis,
+    minTapCls, minKeypadCls, axis, liveFont, cardW,
     cards: cards.length, unmeasured, fallbackControls: fallbackControls.length, keypadKeys: keypadKeys.length, minKeypadTap: (minKeypadTap === Infinity ? null : Math.round(minKeypadTap)), headerClip, textClip,
     worstSparse, minTap: minTap === Infinity ? null : Math.round(minTap),
   };
@@ -493,8 +506,35 @@ function controlSignature() {
   await browser.close();
   server.close();
 
+  /* ---- SCALE: does the feedback region grow with the card? ---- */
+  const scaleFails = [];
+  {
+    const widths = [...new Set(records.map(r => r.w))].sort((a, b) => a - b);
+    const narrow = widths[0], wide = widths[widths.length - 1];
+    if (widths.length >= 2) {
+      const key = (r) => r.round + '/' + (r.phase || 'open');
+      const seen = new Set();
+      for (const r of records) {
+        const k = key(r);
+        if (seen.has(k)) continue;
+        const n = records.find(x => key(x) === k && x.w === narrow);
+        const w = records.find(x => key(x) === k && x.w === wide);
+        if (!n || !w || n.m.liveFont == null || w.m.liveFont == null) continue;
+        /* only meaningful where the card itself actually grew */
+        if (!(n.m.cardW && w.m.cardW && w.m.cardW > n.m.cardW * 1.3)) continue;
+        seen.add(k);
+        if (n.m.liveFont === w.m.liveFont) scaleFails.push(`${k}: the feedback region is ${n.m.liveFont}px at ${narrow} AND at ${wide}, while the card grows ${n.m.cardW}→${w.m.cardW}px — it does not scale, so it shrinks relative to everything around it`);
+      }
+    }
+  }
   const failed = records.filter(r => r.fails.length);
   console.log('');
+  if (scaleFails.length) {
+    console.error(`VISUAL-QA FAILED — SCALE: ${scaleFails.length} state(s) whose feedback text is the same size on a phone and on a desktop:`);
+    scaleFails.slice(0, 4).forEach(f => console.error('  • ' + f));
+    if (scaleFails.length > 4) console.error(`  … and ${scaleFails.length - 4} more`);
+    process.exit(1);
+  }
   if (phaseFaults.length) {
     console.error(`VISUAL-QA FAILED — ${phaseFaults.length} phase driver fault(s):`);
     phaseFaults.forEach(f => console.error('  • ' + f));

@@ -69,6 +69,20 @@ function serve() {
   async function tapSide(side) { const el = await page.$('.cc-channel[data-side="' + side + '"]'); if (el) { await el.click(); return true; } return false; }
   async function tapBeacon() { const el = await page.$('.cc-beacon'); if (el) await el.click(); }
   async function tapRel(word) { const bs = await page.$$('.cc-relbtn'); for (const b of bs) { const t = await (await b.getProperty('textContent')).jsonValue(); if (String(t).trim().toLowerCase() === word) { await b.click(); return true; } } return false; }
+  /* the shell's polite live region — api.announce() writes here on the next rAF */
+  const announced = () => page.evaluate(() => { const e = document.querySelector('.lcs-sr-only[aria-live]'); return e ? e.textContent.trim() : ''; });
+  /* ⚠ record EVERY announcement, not the last one: _answer announces the read-back and then
+     _win/_bonk announce over it in the same frame, so a single read measures the wrong one. */
+  const recordAnnouncements = () => page.evaluate(() => {
+    const e = document.querySelector('.lcs-sr-only[aria-live]');
+    if (!e) return false;
+    window.__ccSaid = [];
+    if (window.__ccObs) window.__ccObs.disconnect();
+    window.__ccObs = new MutationObserver(() => { const s = e.textContent.trim(); if (s && window.__ccSaid[window.__ccSaid.length - 1] !== s) window.__ccSaid.push(s); });
+    window.__ccObs.observe(e, { childList: true, characterData: true, subtree: true });
+    return true;
+  });
+  const saidAll = () => page.evaluate(() => (window.__ccSaid || []).slice());
   async function solve(m) { if (m.mode === 'side') await tapSide(m.correct); else if (m.mode === 'equal') await tapBeacon(); else await tapRel(m.correct); await new Promise(r => setTimeout(r, 120)); }
 
   try {
@@ -113,6 +127,75 @@ function serve() {
       const st = await state();
       note(st.done, `fork '${id}' (${m.mode}) did not complete via the reader-correct response`);
       if (st.done) { await page.click('.lcs-activity-check'); const fin = await state(); note(fin.celebrated && fin.readOnly, `${id}: Check did not celebrate + lock`); }
+    }
+
+    /* ⛔ THE RE-TEACH MUST NAME THE CORRECT BUOY.
+       `_bonk` used to branch on promptKey, which has no 'between' case, so btw-5-8 (5 vs 8,
+       'which is between 4 and 6?', answer 5) announced "8 is more than 5 — which channel has
+       8 now?" and looped the child back into the same wrong steer, forever, in all 7 locales. */
+    await force('btw-5-8');
+    {
+      const m = await meta();
+      note(m.id === 'btw-5-8', `forced the wrong round (${m.id}) — the check would be vacuous`);
+      const vals = await page.evaluate(() => { const C = window.RiverSteerCore, f = window.ComparisonCreekActivity.fork; return { L: C.forkVal(f, 'L'), R: C.forkVal(f, 'R') }; });
+      const right = m.correct === 'L' ? vals.L : vals.R, other = m.correct === 'L' ? vals.R : vals.L;
+      note(right !== other, `btw-5-8 buoys are equal (${right}) — the check would be vacuous`);
+      await tapSide(m.correct === 'L' ? 'R' : 'L');
+      await new Promise(r => setTimeout(r, 160));
+      const msg = await announced();
+      note(msg.length > 0, 'btw-5-8: a wrong steer announced NOTHING — the check would be vacuous');
+      const re = (n) => new RegExp('(?<![0-9])' + n + '(?![0-9])');
+      note(re(right).test(msg), `btw-5-8: the re-teach never names the correct buoy ${right} — "${msg}"`);
+      note(!re(other).test(msg) || msg.indexOf(String(right)) < msg.indexOf(String(other)),
+        `btw-5-8: the re-teach leads with the WRONG buoy ${other} instead of ${right} — "${msg}"`);
+    }
+
+    /* ⛔ THE RELATION ROUND MUST NOT STATE ITS OWN ANSWER, NAME A CHANNEL IT DOES NOT RENDER,
+       OR PROMISE A SWAP IT NEVER PERFORMS. It rendered only MORE/LESS buttons, and `swap`
+       fires only for responseMode 'side' — yet it announced "6 is less than 7. Look again —
+       which channel has 6 now?": the answer, a phantom control, and a false 'now'. */
+    await force('name-6-7');
+    {
+      const m = await meta();
+      note(m.id === 'name-6-7' && m.mode === 'relation', `forced ${m.id}/${m.mode}, wanted the relation round — vacuous`);
+      note((await page.$$('.cc-channel')).length === 0, 'the relation round rendered channels — this check assumes it does not');
+      const wrongWord = m.correct === 'more' ? 'less' : 'more';
+      note(await tapRel(wrongWord), `could not tap the ${wrongWord} button — vacuous`);
+      await new Promise(r => setTimeout(r, 160));
+      const msg = await announced();
+      note(msg.length > 0, 'name-6-7: a wrong answer announced NOTHING — vacuous');
+      /* ⚠ NOT "must not contain the answer word": the re-asked prompt necessarily offers BOTH
+         options, and the first version of this check failed the CORRECT fix for saying
+         "more or less". The defect is asserting ONE relation to the exclusion of the other. */
+      const hasMore = /\bmore\b/i.test(msg), hasLess = /\bless\b/i.test(msg);
+      const picksOne = (m.correct === 'more') ? (hasMore && !hasLess) : (hasLess && !hasMore);
+      note(!picksOne, `name-6-7: the re-teach asserts the ANSWER (${m.correct}) instead of re-asking — "${msg}"`);
+      note(!/channel/i.test(msg), `name-6-7: the re-teach names a channel, but this round renders none — "${msg}"`);
+    }
+
+    /* ⛔ THE SUM ROUND'S READ-BACK MUST NAME THE SUM, NOT 0. A sum channel carries value:0
+       with the quantity in `addends`; _answer read `.value` raw, so the commit read-back
+       announced and SPOKE "0" for either side, on the round built to contrast the two. */
+    await force('sum-4-5');
+    {
+      const m = await meta();
+      note(m.id === 'sum-4-5', `forced the wrong round (${m.id}) — vacuous`);
+      const sums = await page.evaluate(() => { const C = window.RiverSteerCore, f = window.ComparisonCreekActivity.fork; return { L: C.forkVal(f, 'L'), R: C.forkVal(f, 'R') }; });
+      note(sums.L > 0 && sums.R > 0, `sum-4-5 sums are ${sums.L}/${sums.R} — the check would be vacuous`);
+      note(await recordAnnouncements(), 'sum-4-5: no live region to observe — vacuous');
+      await tapSide('L');
+      await new Promise(r => setTimeout(r, 220));
+      const said = await saidAll();
+      note(said.length > 0, 'sum-4-5: tapping a side announced NOTHING — vacuous');
+      /* find the read-back by its TEMPLATE, not by position — the shell announces the prompt
+         on load and _bonk announces over it, so the stream holds three unrelated strings. */
+      const tpl = await page.evaluate(() => window.ComparisonCreekActivity.api.t('readback'));
+      note(!!tpl && tpl.indexOf('{n}') !== -1, `readback template unusable ("${tpl}") — the check would be vacuous`);
+      const rx = new RegExp('^' + tpl.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace('\\{n\\}', '(\\d+)') + '$');
+      const backs = said.map((s) => rx.exec(s)).filter(Boolean);
+      note(backs.length === 1, `sum-4-5: expected exactly one commit read-back, saw ${backs.length} — (all: ${JSON.stringify(said)})`);
+      if (backs.length === 1) note(Number(backs[0][1]) === sums.L,
+        `sum-4-5: the commit read-back says ${backs[0][1]}, not the sum ${sums.L} — "${backs[0][0]}"`);
     }
 
     /* mobile overflow 280→768 */

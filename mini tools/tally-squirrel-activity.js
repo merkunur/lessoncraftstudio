@@ -17,11 +17,11 @@
 
   function speak(text, rate) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG === 'nl' ? 'nl-NL' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG === 'nl' ? 'nl-NL' : LANG === 'sv' ? 'sv-SE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
 
   function squirrelSVG() {
-    return '<svg class="tsq-sq-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Tally, das Eichhörnchen' : LANG === 'fr' ? 'Tally l’écureuil' : LANG === 'es' ? 'Tally, la ardilla' : LANG === 'pt' ? 'Tally, o esquilo' : LANG === 'it' ? 'Tally, lo scoiattolo' : LANG === 'nl' ? 'Tally, de eekhoorn' : 'Tally the squirrel') + '">' +
+    return '<svg class="tsq-sq-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Tally, das Eichhörnchen' : LANG === 'fr' ? 'Tally l’écureuil' : LANG === 'es' ? 'Tally, la ardilla' : LANG === 'pt' ? 'Tally, o esquilo' : LANG === 'it' ? 'Tally, lo scoiattolo' : LANG === 'nl' ? 'Tally, de eekhoorn' : LANG === 'sv' ? 'ekorren Kurre' : 'Tally the squirrel') + '">' +
       '<path d="M30 78 q-16 -6 -14 -26 q2 -14 16 -10 q-10 8 -4 20 q4 8 6 12 Z" fill="#A65B33"/>' +   /* bushy tail */
       '<ellipse cx="52" cy="66" rx="18" ry="17" fill="#C2703F"/>' +                  /* body */
       '<ellipse cx="52" cy="72" rx="11" ry="9" fill="#E8C49C"/>' +                  /* belly */
@@ -55,11 +55,11 @@
        nl:'Getallen' (de auto-calque «Getallen en het tientallig stelsel» is GEEN SLO-domeinnaam; de SLO-domeinen
        zijn Getallen · Verhoudingen · Meten & Meetkunde · Verbanden). TTS-join = default ' plus '. */
     strings: {
-      title: { en: "Tally the Squirrel", de: 'Tallys Eichelkörbe', fr: 'Les paniers de glands de Tally', es: 'Tally la ardilla', pt: 'As cestas de bolotas do Tally', it: 'I cestini di ghiande di Tally', nl: 'Tally’s eikelmandjes' },
-      instruction: { en: 'Tally fills the baskets with acorns. Add them all up and type the total.', de: 'Tally füllt die Körbe mit Eicheln. Zähle alle zusammen und tippe die Summe ein.', fr: 'Tally remplit ses paniers de glands. Additionne-les tous et écris le total.', es: 'Tally llena las canastas con bellotas. Súmalas todas y escribe el total.', pt: 'O Tally enche as cestas com bolotas. Some todas e digite o total.', it: 'Tally riempie i cestini di ghiande. Sommale tutte e scrivi il totale.', nl: 'Tally vult de mandjes met eikels. Tel ze allemaal bij elkaar op en typ het totaal in.' },
-      prompt: { en: 'How many acorns in all?', de: 'Wie viele Eicheln sind es zusammen?', fr: 'Combien de glands en tout ?', es: '¿Cuántas bellotas hay en total?', pt: 'Quantas bolotas no total?', it: 'Quante ghiande in tutto?', nl: 'Hoeveel eikels zijn het samen?' },
-      hint: { en: 'Add the baskets one at a time — tens with tens, ones with ones.', de: 'Zähle erst alle Zehner zusammen, dann alle Einer — und dann beides.', fr: 'Additionne d’abord toutes les dizaines, puis toutes les unités — et enfin rassemble le tout.', es: 'Suma las canastas de una en una: las decenas con las decenas y las unidades con las unidades.', pt: 'Some as cestas uma de cada vez — primeiro as dezenas, depois as unidades, e junte tudo.', it: 'Somma un cestino alla volta: le decine con le decine, le unità con le unità.', nl: 'Tel eerst alle tientallen bij elkaar op, dan alle eenheden — en dan allebei samen.' },
-      readAria: { en: 'hear the baskets', de: 'die Körbe anhören', fr: 'écouter les paniers', es: 'escuchar las canastas', pt: 'ouvir as cestas', it: 'ascolta i cestini', nl: 'de mandjes beluisteren' }
+      title: { en: "Tally the Squirrel", de: 'Tallys Eichelkörbe', fr: 'Les paniers de glands de Tally', es: 'Tally la ardilla', pt: 'As cestas de bolotas do Tally', it: 'I cestini di ghiande di Tally', nl: 'Tally’s eikelmandjes', sv: 'Kurres ekollonkorgar' },
+      instruction: { en: 'Tally fills the baskets with acorns. Add them all up and type the total.', de: 'Tally füllt die Körbe mit Eicheln. Zähle alle zusammen und tippe die Summe ein.', fr: 'Tally remplit ses paniers de glands. Additionne-les tous et écris le total.', es: 'Tally llena las canastas con bellotas. Súmalas todas y escribe el total.', pt: 'O Tally enche as cestas com bolotas. Some todas e digite o total.', it: 'Tally riempie i cestini di ghiande. Sommale tutte e scrivi il totale.', nl: 'Tally vult de mandjes met eikels. Tel ze allemaal bij elkaar op en typ het totaal in.', sv: 'Kurre fyller korgarna med ekollon. Siffran på varje korg visar hur många. Lägg ihop alla och skriv summan.' },
+      prompt: { en: 'How many acorns in all?', de: 'Wie viele Eicheln sind es zusammen?', fr: 'Combien de glands en tout ?', es: '¿Cuántas bellotas hay en total?', pt: 'Quantas bolotas no total?', it: 'Quante ghiande in tutto?', nl: 'Hoeveel eikels zijn het samen?', sv: 'Hur många ekollon blir det tillsammans?' },
+      hint: { en: 'Add the baskets one at a time — tens with tens, ones with ones.', de: 'Zähle erst alle Zehner zusammen, dann alle Einer — und dann beides.', fr: 'Additionne d’abord toutes les dizaines, puis toutes les unités — et enfin rassemble le tout.', es: 'Suma las canastas de una en una: las decenas con las decenas y las unidades con las unidades.', pt: 'Some as cestas uma de cada vez — primeiro as dezenas, depois as unidades, e junte tudo.', it: 'Somma un cestino alla volta: le decine con le decine, le unità con le unità.', nl: 'Tel eerst alle tientallen bij elkaar op, dan alle eenheden — en dan allebei samen.', sv: 'Räkna först ihop alla tiotal, sedan alla ental, och lägg till sist ihop de två summorna.' },
+      readAria: { en: 'hear the baskets', de: 'die Körbe anhören', fr: 'écouter les paniers', es: 'escuchar las canastas', pt: 'ouvir as cestas', it: 'ascolta i cestini', nl: 'de mandjes beluisteren', sv: 'lyssna på uppgiften' }
     },
     defaults: {},
 
@@ -96,7 +96,7 @@
       root.appendChild(row);
 
       var read = api.el('button', 'tsq-read'); read.type = 'button'; read.setAttribute('aria-label', api.t('readAria'));
-      var sayLine = v.addends.join(LANG === 'it' ? ' più ' : LANG === 'es' ? ' más ' : LANG === 'pt' ? ' mais ' : ' plus ') + (LANG === 'de' ? '. Wie viele sind das zusammen?' : LANG === 'fr' ? '. Combien ça fait en tout ?' : LANG === 'es' ? '. ¿Cuántas son en total?' : LANG === 'pt' ? '. Quantas são no total?' : LANG === 'it' ? '. Quante sono in tutto?' : LANG === 'nl' ? '. Hoeveel zijn het samen?' : '. How many in all?');
+      var sayLine = v.addends.join(LANG === 'it' ? ' più ' : LANG === 'es' ? ' más ' : LANG === 'pt' ? ' mais ' : LANG === 'sv' ? ' plus ' : ' plus ') + (LANG === 'de' ? '. Wie viele sind das zusammen?' : LANG === 'fr' ? '. Combien ça fait en tout ?' : LANG === 'es' ? '. ¿Cuántas son en total?' : LANG === 'pt' ? '. Quantas são no total?' : LANG === 'it' ? '. Quante sono in tutto?' : LANG === 'nl' ? '. Hoeveel zijn het samen?' : LANG === 'sv' ? '. Hur många blir det tillsammans?' : '. How many in all?');
       read.innerHTML = '<span class="tsq-read-ic">🔊</span> ' + v.addends.join(' + ') + ' = ?';
       read.addEventListener('click', function () { speak(sayLine); });
       root.appendChild(read);

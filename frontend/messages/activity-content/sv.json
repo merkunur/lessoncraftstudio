@@ -192,6 +192,29 @@
     "whatsInsideCode": "Följer Lgr22"
   },
   "prose": {
+    "tense.past-present-future.l-1-1-e": {
+      "about": [
+        "Barnet ser en mening där verbet saknas — Båtarna ___ i går — och tre former att välja mellan. Överst lyser ett av tre tidsfönster: dåtid, nutid eller framtid. Juniper står bredvid och säger till när formen stämmer.",
+        "Det som övas är att verbet byter form efter när något händer. Tidsordet är ledtråden: i går hör ihop med dåtid, just nu med nutid och i morgon med framtid. De tre formerna kommer i ny ordning varje omgång, så barnet måste läsa dem i stället för att gå på var svaret brukar ligga.",
+        "På svenska går det ofta att säga framtid med nutidsform — I morgon seglar båtarna är lika riktigt som I morgon ska båtarna segla. Trycker barnet på nutidsformen på en framtidsmening får det därför inget rött, utan ett Ja, så säger man också, och en uppmaning att leta efter ordet som bara betyder framtid. Nio meningar, i ny ordning varje gång, utan tidtagning och utan poäng."
+      ],
+      "practices": [
+        "Välja verbets form efter tidsordet i meningen — i går, just nu eller i morgon",
+        "Skilja på dåtid, nutid och framtid i en och samma mening",
+        "Känna igen preteritumformen av vanliga verb, som lekte och simmade",
+        "Känna igen att en del verb byter vokal i dåtid — sover blir sov, sjunger blir sjöng"
+      ],
+      "howToPlay": [
+        "Läs meningen och leta upp tidsordet. Tryck på 🔊 Lyssna om du vill höra den uppläst.",
+        "Tryck på den av de tre formerna som passar tiden. Blir det fel tonas den rutan ner och du väljer bland de andra.",
+        "När rätt form är vald tänds den, och knappen Kontrollera dyker upp så att du kan gå vidare."
+      ],
+      "learningGoals": [
+        "Barnet kan välja den verbform som hör till dåtid, nutid eller framtid",
+        "Barnet vet att tidsordet i meningen styr vilken form verbet ska ha",
+        "Barnet märker att en del verb byter vokal i dåtid i stället för att få en ändelse"
+      ]
+    },
     "plural.irregular.l-2-1-b": {
       "about": [
         "Ett ord visas i singular — en fot, en bok, ett barn — och barnet trycker på den av tre former som betyder flera. När rätt form är vald visas hela förvandlingen: fot blir fötter.",

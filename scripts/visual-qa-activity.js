@@ -373,7 +373,13 @@ function controlSignature() {
   const app = document.querySelector('.lcs-app');
   if (!app) return '';
   const nodes = [...app.querySelectorAll('button,input,select,[role="button"]')];
-  return nodes.length + '|' + nodes.map(n => (n.className || '') + ':' + (n.textContent || '').trim().slice(0, 12)).join(',');
+  /* ⚠ include the LIVE-REGION TEXT. A phase whose whole content is a message — an affirming
+     response that deliberately does not dim the chip or resolve the round — leaves the button
+     set identical, so a controls-only signature reported the step as a no-op and condemned
+     correct behaviour. The no-op check is not weakened: a step that does nothing still moves
+     nothing. */
+  const live = [...app.querySelectorAll('[aria-live]')].map(n => (n.textContent || '').trim()).join('~');
+  return nodes.length + '|' + nodes.map(n => (n.className || '') + ':' + (n.textContent || '').trim().slice(0, 12)).join(',') + '|' + live;
 }
 
 (async () => {

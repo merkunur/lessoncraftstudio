@@ -1881,6 +1881,29 @@
         "Barnet kan skilja på en uppskattning och en avläst mätning, och vet att det är avläsningen som ger mängden.",
         "Barnet kan jämföra två mängder genom att läsa båda skalorna, även när det fullaste mätglaset inte är det som rymmer mest."
       ]
+    },
+    "tally-squirrel.add-four.2-nbt-b-6": {
+      "about": [
+        "Ekorren Kurre har fyllt sina korgar med ekollon, och på varje korg står ett tvåsiffrigt tal. I en omgång står två, tre eller fyra korgar framme — från 23 + 14 till 15 + 22 + 34 + 11 — och barnet lägger ihop alla talen och skriver summan på knappsatsen. Summan håller sig alltid inom 100.",
+        "Den stora idén är att flera tvåsiffriga tal blir mycket lättare att lägga ihop om man använder tiotal och ental i stället för att räkna uppåt ett steg i taget. Barnet kan addera alla tiotal först, sedan alla ental, och till sist sätta ihop delarna — eller leta efter tal som tillsammans blir ett helt tiotal. Med upp till fyra tal i samma omgång håller ingen gissning; talen måste ordnas.",
+        "I fem av de nio omgångarna blir entalen tillsammans fler än tio, så barnet får också öva på att hålla ihop det tiotal som uppstår på vägen. Aktiviteten är anpassad till Lgr22 och tränar naturliga tal och deras egenskaper samt metoder för addition inom talområdet 0–100. Den passar årskurs 2, körs direkt i webbläsaren utan nedladdning och utan konto, och har varken timer eller poäng."
+      ],
+      "practices": [
+        "Addera två, tre eller fyra tvåsiffriga tal till en enda summa",
+        "Lägga ihop tiotalen för sig och entalen för sig och sedan sätta ihop delarna",
+        "Hitta tal som tillsammans bildar ett helt tiotal",
+        "Hålla ordning på summan när entalen tillsammans blir fler än tio, inom talområdet 0–100"
+      ],
+      "howToPlay": [
+        "Titta på Kurres korgar och läs det tvåsiffriga talet som står på varje korg.",
+        "Lägg ihop alla talen, skriv summan på knappsatsen och tryck sedan på Kontrollera.",
+        "Stämmer det inte? Pröva en gång till, så många gånger du vill — det finns varken timer eller poäng."
+      ],
+      "learningGoals": [
+        "Barnet kan addera upp till fyra tvåsiffriga tal inom talområdet 0–100.",
+        "Barnet kan använda tiotal och ental som strategi i stället för att räkna ett steg i taget.",
+        "Barnet kan hantera en summa där entalen tillsammans blir fler än tio, och bygger den additionsvana som senare uppställd räkning vilar på."
+      ]
     }
   }
 }

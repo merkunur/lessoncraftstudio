@@ -180,9 +180,9 @@
       s.textContent = [
         '.lcs-app.activity .lcs-stage{display:flex;flex-direction:column;justify-content:center;}',
         '.mb-root{display:flex;flex-direction:column;align-items:center;gap:10px;width:100%;max-width:min(96vw,640px);margin:0 auto;}',
-        '.mb-say{display:flex;align-items:center;gap:8px;width:100%;}',
+        '.mb-say{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;}',
         '.mb-maple{flex:0 0 auto;}',
-        '.mb-line-msg{flex:1 1 auto;min-height:1.1em;text-align:center;font:700 .88rem/1.2 Nunito,system-ui,sans-serif;color:#146B5E;margin:0;}',
+        '.mb-line-msg{flex:0 1 auto;min-height:1.1em;text-align:center;font:700 clamp(0.88rem,2.1vw,1.14rem)/1.3 Nunito,system-ui,sans-serif;color:#146B5E;margin:0;}',
         '.mb-line-msg.miss{color:#C2410C;}',
         '.mb-board{width:100%;max-width:min(96vw,640px);display:flex;flex-direction:column;gap:14px;align-items:center;}',
         '.mb-scene{width:100%;height:auto;display:block;}',

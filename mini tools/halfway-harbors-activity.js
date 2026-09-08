@@ -211,9 +211,9 @@
       s.textContent = [
         '.lcs-app.activity .lcs-stage{display:flex;flex-direction:column;justify-content:center;}',
         '.hh-root{display:flex;flex-direction:column;align-items:center;gap:10px;width:100%;max-width:min(96vw,560px);margin:0 auto;}',
-        '.hh-say{display:flex;align-items:center;gap:8px;width:100%;}',
+        '.hh-say{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;}',
         '.hh-marina,.hh-coast{flex:0 0 auto;}',
-        '.hh-line-msg{flex:1 1 auto;min-height:1.1em;text-align:center;font:700 .84rem/1.18 Nunito,system-ui,sans-serif;color:#146B5E;margin:0;}',
+        '.hh-line-msg{flex:0 1 auto;min-height:1.1em;text-align:center;font:700 clamp(0.84rem,2.1vw,1.09rem)/1.3 Nunito,system-ui,sans-serif;color:#146B5E;margin:0;}',
         '.hh-line-msg.miss{color:#C2410C;}',
         '.hh-prompt{font:700 clamp(1rem,4.2vw,1.5rem)/1.25 "Baloo 2",Nunito,sans-serif;color:#0F4A40;text-align:center;max-width:min(92vw,500px);}',
         /* the number-line strip + the aligned harbor/marker tap row share one width */

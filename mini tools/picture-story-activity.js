@@ -134,9 +134,9 @@
       s.textContent = [
         '.lcs-app.activity .lcs-stage{display:flex;flex-direction:column;justify-content:center;}',
         '.ps-root{display:flex;flex-direction:column;align-items:center;gap:9px;width:100%;max-width:min(96vw,620px);margin:0 auto;}',
-        '.ps-say{display:flex;align-items:center;gap:8px;width:100%;}',
+        '.ps-say{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;}',
         '.ps-fable{flex:0 0 auto;}',
-        '.ps-line-msg{flex:1 1 auto;min-height:1.1em;text-align:center;font:700 .86rem/1.2 Nunito,system-ui,sans-serif;color:#146B5E;margin:0;}',
+        '.ps-line-msg{flex:0 1 auto;min-height:1.1em;text-align:center;font:700 clamp(0.86rem,2.1vw,1.12rem)/1.3 Nunito,system-ui,sans-serif;color:#146B5E;margin:0;}',
         '.ps-line-msg.miss{color:#C2410C;}',
         '.ps-strip{display:flex;justify-content:center;gap:9px;width:100%;max-width:min(96vw,580px);}',
         '.ps-panel{flex:1 1 0;min-width:0;display:flex;flex-direction:column;align-items:center;gap:3px;}',

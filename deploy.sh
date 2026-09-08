@@ -267,6 +267,15 @@ node /opt/lessoncraftstudio/scripts/preflight-activity-routes.js || { echo "ERRO
 echo "🔎 Activity prose price-claim check..."
 node /opt/lessoncraftstudio/scripts/verify-activity-prose-claims.js || { echo "ERROR: an activity claims to be free, but plays are metered — see frontend/lib/quota.ts"; exit 1; }
 
+# Guard: the clock activity's screen-reader strings. A missing key does NOT throw — txt()
+# falls back to English and then to the KEY NAME, so the defect ships as the literal string
+# "srReadOffMark" read aloud to a blind child, and nothing reports it. This also asserts that
+# no hand description states a time (which is the answer) and that four native-panel
+# invariants hold — the Dutch "één" acutes, the German accusative, the Italian "numero".
+# Browser-free, so it belongs in the deploy rather than in a dev run.
+echo "🔎 Clock activity screen-reader strings..."
+node /opt/lessoncraftstudio/scripts/verify-clock-digital-strings.js || { echo "ERROR: a clock screen-reader string is missing, dead, or states the answer"; exit 1; }
+
 # Guard: a printable VARIATION must differ from the deck its base already
 # publishes. A variation spec spreads base.difficulty[src] and applies an
 # override; when that override is empty and src is the level the base wave itself

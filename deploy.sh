@@ -258,6 +258,15 @@ node /opt/lessoncraftstudio/scripts/preflight-tool-registration.js || { echo "ER
 echo "🔎 Activity route + thumbnail check..."
 node /opt/lessoncraftstudio/scripts/preflight-activity-routes.js || { echo "ERROR: an activity would 404 or ship with no card thumbnail — see CLAUDE.md §21.5"; exit 1; }
 
+# Guard: no false price claim in the activity BODY prose. verify-activity-serp-copy
+# gates page_title + page_intro — the search-results surface — and nothing gated the
+# body, so when "free" was removed from the 939 landing meta fields, 1,261 body strings
+# and 88 `templates` strings kept it. Plays are metered (frontend/lib/quota.ts), so the
+# claim is false. This also bans the claim's SECOND carrier ("frei zugänglich",
+# "vrij toegankelijk"), which two native panels found and no pattern check had.
+echo "🔎 Activity prose price-claim check..."
+node /opt/lessoncraftstudio/scripts/verify-activity-prose-claims.js || { echo "ERROR: an activity claims to be free, but plays are metered — see frontend/lib/quota.ts"; exit 1; }
+
 # Guard: a printable VARIATION must differ from the deck its base already
 # publishes. A variation spec spreads base.difficulty[src] and applies an
 # override; when that override is empty and src is the level the base wave itself

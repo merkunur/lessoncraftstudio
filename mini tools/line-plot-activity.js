@@ -277,7 +277,7 @@
         var n = cnt[v] || 0;
         for (var i = 0; i < n; i++) {
           var isNew = isPlot && this._resolved && v === r.placeLength && i === n - 1;
-          parts += '<text x="' + x(v) + '" y="' + (baseY - 10 - i * 14) + '" font-family="Baloo 2,Nunito,sans-serif" font-weight="800" font-size="15" fill="' + (isNew ? C.CORAL : C.T) + '" text-anchor="middle">✕</text>';
+          parts += '<text x="' + x(v) + '" y="' + (baseY - 10 - i * 20) + '" font-family="Baloo 2,Nunito,sans-serif" font-weight="800" font-size="17" fill="' + (isNew ? C.CORAL : C.T) + '" text-anchor="middle">✕</text>';
         }
       }
       /* plot mode: the measure-bar (0 → placeLength) below the labels + a 0 origin */
@@ -285,7 +285,7 @@
         var barY = baseY + 22;
         parts += '<text x="' + x(0) + '" y="' + (baseY + 17) + '" font-family="Baloo 2,Nunito,sans-serif" font-weight="800" font-size="14" fill="' + C.INK + '" text-anchor="middle">0</text>';
         parts += '<rect x="' + x(0) + '" y="' + barY + '" width="' + (x(r.placeLength) - x(0)) + '" height="11" rx="4" fill="' + C.CORAL + '"/>';
-        parts += '<line x1="' + x(r.placeLength) + '" y1="' + (baseY + 6) + '" x2="' + x(r.placeLength) + '" y2="' + (barY + 11) + '" stroke="' + C.CORAL + '" stroke-width="1.5" stroke-dasharray="3 3" opacity=".7"/>';
+        parts += '<line x1="' + x(r.placeLength) + '" y1="' + (baseY + 21) + '" x2="' + x(r.placeLength) + '" y2="' + (barY + 11) + '" stroke="' + C.CORAL + '" stroke-width="1.5" stroke-dasharray="3 3" opacity=".7"/>';
       }
       var svg = '<svg class="tl-scene" viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="xMidYMid meet" aria-hidden="true">' + parts + '</svg>';
       /* read scenes can grow (more vertical headroom); plot scenes stay capped (the resolved measure-bar state is the FITS constraint) */

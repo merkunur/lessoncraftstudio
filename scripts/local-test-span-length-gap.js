@@ -112,6 +112,50 @@ function serve() {
     console.log(`  FAIL span-length-gap/en — ${e.message}`);
   } finally { await page.close(); }
 
+  /* ---- sv: no English label may reach the DOM ------------------------------------ */
+  const svFailsAt = fails.length;
+  const svPage = await browser.newPage();
+  await svPage.setViewport({ width: 412, height: 900 });
+  try {
+    const rounds = JSON.parse(fs.readFileSync(path.join(MINI, 'span-length-gap-activities.json'), 'utf8'))[0].params.rounds;
+    note(rounds.length >= 8, `only ${rounds.length} rounds in the manifest — the sv check would be vacuous`);
+    await svPage.goto(`http://127.0.0.1:${PORT}/span-length-gap-activity.html?lang=sv&activity=${ACTIVITY}&embed=1`, { waitUntil: 'networkidle2', timeout: 30000 });
+    await svPage.waitForFunction(() => window.SpanLengthGapActivity && document.querySelector('.slg-bars'), { timeout: 15000 });
+    for (const r of rounds) {
+      await svPage.evaluate((rid) => {
+        const t2 = window.SpanLengthGapActivity, n = t2._pool.length, order = []; for (let i = 0; i < n; i++) order.push(i);
+        const k = t2._pool.findIndex(x => x.id === 'span-length-gap.' + rid);
+        const at = order.indexOf(k); if (at > 0) { order.splice(at, 1); order.unshift(k); }
+        t2._order = order; t2._orderForPool = t2._pool; t2._curPass = 0; window.LCS_reloadFirstTask();
+      }, r.id);
+      await svPage.waitForFunction(() => window.SpanLengthGapActivity.round && document.querySelector('.slg-q'), { timeout: 4000 });
+      await sleep(60);
+      const seen = await svPage.evaluate(() => ({
+        id: window.SpanLengthGapActivity.round.id,
+        names: [...document.querySelectorAll('.slg-name')].map(e => e.textContent.trim()),
+        q: (document.querySelector('.slg-q') || {}).textContent || ''
+      }));
+      /* non-vacuity FIRST: the right round, two real captions, a real question */
+      note(seen.id === r.id, `sv: forced '${r.id}' but the round is '${seen.id}' — the check would be vacuous`);
+      note(seen.names.length === 2 && seen.names.every(Boolean), `sv/${r.id}: expected two non-empty bar captions, got ${JSON.stringify(seen.names)}`);
+      note(seen.q.trim().length > 0, `sv/${r.id}: the question rendered empty — the check would be vacuous`);
+      /* the assertion: no English round-data label anywhere on screen */
+      for (const en of [r.aLabel, r.bLabel]) {
+        const word = String(en).split(' ').pop();       // 'blue bar' -> 'bar'
+        const rx = new RegExp('(?<![A-Za-zÅÄÖåäö])' + word + '(?![A-Za-zÅÄÖåäö])', 'i');
+        note(!seen.names.some(nm => rx.test(nm)), `sv/${r.id}: bar caption still shows the ENGLISH label '${en}' — ${JSON.stringify(seen.names)}`);
+        note(!rx.test(seen.q), `sv/${r.id}: the question still shows the ENGLISH label '${en}' — "${seen.q}"`);
+      }
+    }
+    const svBad = fails.length - svFailsAt;
+    console.log(svBad
+      ? `  FAIL span-length-gap/sv — ${svBad} English label(s) still reaching the DOM across ${rounds.length} rounds`
+      : `  ok   span-length-gap/sv — no English label reached the DOM across ${rounds.length} rounds`);
+  } catch (e) {
+    fails.push('span-length-gap/sv: ' + e.message);
+    console.log(`  FAIL span-length-gap/sv — ${e.message}`);
+  } finally { await svPage.close(); }
+
   await browser.close();
   server.close();
   console.log('');

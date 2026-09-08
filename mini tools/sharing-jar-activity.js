@@ -159,7 +159,7 @@
         box.appendChild(this._bridge(reconcile, u));
         box.appendChild(this._jar('pim', 'pim', pimCount, { quiet: !reconcile && (n.b | 0) < (n.a | 0), newBeads: reconcile && this.schema === 'equalize-add' ? u : 0 }));
       } else if (this.schema === 'restore') {
-        box.appendChild(this._jar('pim', 'pim', reconcile ? n.s : n.r, { quiet: !reconcile, newBeads: reconcile ? u : 0, badge: api.t('had').replace('{n}', n.s), ghost: reconcile ? 0 : u }));
+        box.appendChild(this._jar('pim', 'pim', reconcile ? n.s : n.r, { quiet: !reconcile, newBeads: reconcile ? u : 0, badge: api.t('had').replace('{n}', n.s), ghost: 0 }));
         if (reconcile) box.appendChild(this._bridge(true, u));
       } else if (this.schema === 'reduce-to-target') {
         box.appendChild(this._jar('pim', 'pim', reconcile ? n.T : n.a, { full: !reconcile, hideCount: this._ceiling() && !reconcile, badge: api.t('fairIs').replace('{n}', n.T), removed: reconcile ? u : 0 }));

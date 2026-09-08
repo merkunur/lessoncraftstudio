@@ -214,7 +214,9 @@
       if (this.readOnly) return;
       this.committed = response;
       // commit-locked read-back (the chosen buoy speaks AFTER the choice)
-      if (response === 'L' || response === 'R') { var v = this.chan(response).value; if (this.api.announce) this.api.announce(interp(this.api.t('readback'), { n: v })); speak(String(v)); }
+      /* ⚠ Core.val, NOT .value — a sum channel carries value:0 with the quantity in
+         `addends`, so the raw read announced and SPOKE "0" on sum-4-5 for either side. */
+      if (response === 'L' || response === 'R') { var v = Core.val(this.chan(response)); if (this.api.announce) this.api.announce(interp(this.api.t('readback'), { n: v })); speak(String(v)); }
       if (Core.isCorrect(this.fork, response)) { this._win(); }
       else { this.misses++; this._bonk(); }
     },
@@ -231,10 +233,19 @@
       this._setPose('idle'); this.api.sound && this.api.sound(300);
       var f = this.fork, L = Core.forkVal(f, 'L'), R = Core.forkVal(f, 'R'), msg;
       if (f.responseMode === 'equal') msg = this.api.t('reEqual');
-      else if (f.responseMode === 'relation') msg = interp(this.api.t(L > R ? 'reBig' : 'reSmall'), { a: L, b: R });
+      /* the relation round renders MORE/LESS buttons and NO channels, and `swap` below
+         fires only for responseMode 'side'. The old reBig/reSmall here stated the ANSWER
+         ('6 is less than 7'), then pointed at a channel that does not exist, and said
+         'now' about a swap that never happened. Re-ask the question instead. */
+      else if (f.responseMode === 'relation') msg = interp(this.api.t('promptName'), { a: L, b: R });
       else {
-        var hi = Math.max(L, R), lo = Math.min(L, R);
-        msg = interp(this.api.t(f.promptKey === 'smaller' ? 'reSmall' : 'reBig'), { a: f.promptKey === 'smaller' ? lo : hi, b: f.promptKey === 'smaller' ? hi : lo });
+        /* ⚠ a/b come from Core.deriveCorrect — the file's declared ONLY answer source.
+           This used to branch on promptKey, which has no 'between' case, so btw-5-8 named
+           the WRONG buoy and looped the child back into the same wrong steer forever.
+           Identical output on the other eleven rounds. */
+        var correct = Core.deriveCorrect(f);
+        var a = correct === 'L' ? L : R, b = correct === 'L' ? R : L;
+        msg = interp(this.api.t(a > b ? 'reBig' : 'reSmall'), { a: a, b: b });
       }
       if (this.api.announce) this.api.announce(msg); speak(msg);
       // POSITION-FLIP: swap the buoys so the child must re-read (only for side rounds)

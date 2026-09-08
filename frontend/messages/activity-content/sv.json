@@ -1764,6 +1764,31 @@
         "Barnet ser tian som en plats att stanna på och delar upp talet efter hur långt det är dit",
         "Barnet känner igen sambandet mellan addition och subtraktion — samma hopp åt andra hållet"
       ]
+    },
+    "numbers-court.judge-balance.1-oa-d-7": {
+      "about": [
+        "I Sifferdomstolen står ett påstående om tal i taget inför rätta, och barnet är domare. Ett vittne — en kanin, en kråka, en mus eller en bäver — påstår något, till exempel att 8 = 5 + 3 eller att 4 + 3 = 5 + 2, och barnet avgör om det stämmer eller inte. Domaren Tess, en gammal och vänlig sköldpadda i stor vit peruk, presiderar. Det är en interaktiv matteaktivitet för årskurs 1 som körs direkt i webbläsaren på surfplatta, telefon eller klassrumsdator — utan installation och utan konto.",
+        "Den stora idén är vad likhetstecknet betyder. Många barn läser det som en uppmaning — räkna ut och skriv svaret här — och då känns 8 = 5 + 3 som ett misstag, för talet står ju först. Här är likhetstecknet i stället vridpunkten på en balansvåg: det säger att det är lika mycket på båda sidor. Påståendena är gjorda för att den läsningen ska vara den enda som håller. De flesta har ingen ensam summa att fylla i: talet kan stå först (8 = 5 + 3), samma tal kan komma i omvänd ordning (4 + 3 = 3 + 4), det kan stå en uträkning på båda sidor (4 + 3 = 5 + 2), och ibland är det minus (7 = 9 − 2). Ett barn som bara räknar ut den vänstra sidan och väntar på svaret till höger kommer inte igenom.",
+        "Domen kommer först, och beviset sedan. Medan barnet tänker står balken alldeles rak — balansvågen avslöjar ingenting, den rör sig först när barnet har visat varför. Stämmer det inte trycker barnet på den tyngre vågskålen, och då tippar balken åt det hållet. Stämmer det trycker barnet i stället på ett tal i taget, och varje tal gör precis vad det säger: en fyra lägger fyra kulor i skålen, och i 9 − 2 tar tvåan bort två av de nio. När båda sidorna är färdiga ligger det lika många kulor i var skål, och balken står kvar precis så rak som den ska. Ibland får barnet också laga en likhet som inte stämmer — lägga in den bricka i rutan med frågetecknet som gör sidorna lika mycket värda. Blir de inte lika kommer ett nytt, liknande fall i stället, så ingen behöver stå och prova sig fram på samma våg.",
+        "Tolv fall, med tal upp till 10, och de blandas om till en ny ordning varje gång — de enklaste formerna först. Aktiviteten följer Lgr22 inom området Algebra: matematiska likheter och likhetstecknets betydelse. Den här övningen passar årskurs 1, när likhetstecknet och de första likheterna kommer in; i årskurs 2 och 3 växer samma tanke vidare till öppna utsagor med ett okänt tal. Ingen timer, inga poäng och ingen som vinner — ett svar som inte stämmer möts av en lugn fråga och en ny titt på båda sidorna."
+      ],
+      "practices": [
+        "Läsa likhetstecknet som lika mycket på båda sidor i stället för som här kommer svaret",
+        "Avgöra om en likhet är sann eller falsk: 8 = 5 + 3, 4 + 3 = 3 + 4, 4 + 3 = 5 + 2, 7 = 9 − 2",
+        "Räkna ut båda sidorna och jämföra dem, i stället för att bara räkna ut den vänstra",
+        "Visa vilken sida som väger mest när likheten inte stämmer",
+        "Laga en falsk likhet genom att välja talet som gör de båda sidorna lika mycket värda"
+      ],
+      "howToPlay": [
+        "Läs vad vittnet påstår, till exempel 8 = 5 + 3, och tryck på Det stämmer! eller Stämmer inte! — balken står rak så länge, så den skvallrar inte.",
+        "Visa sedan varför: stämmer det inte trycker du på den tyngre vågskålen och ser balken tippa åt det hållet; stämmer det trycker du på ett tal i taget tills det ligger lika många kulor i båda skålarna.",
+        "Ibland ska du laga en likhet som inte stämmer — tryck in den bricka i rutan med frågetecknet som gör sidorna lika mycket värda. Ingen timer och inga poäng, så ta den tid du behöver."
+      ],
+      "learningGoals": [
+        "Barnet läser likhetstecknet som lika mycket på båda sidor, inte som en uppmaning att räkna ut ett svar",
+        "Barnet kan avgöra om en likhet är sann eller falsk även när talet står ensamt först (8 = 5 + 3) eller när det står en uträkning på båda sidor (4 + 3 = 5 + 2)",
+        "Barnet kan göra en falsk likhet sann genom att byta ut ett tal — ett första steg mot okänt tal och enkla ekvationer"
+      ]
     }
   }
 }

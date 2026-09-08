@@ -60,8 +60,30 @@ for (const row of manifest) {
     check(matchN === 1, `${label}: ${matchN} candidates match the target area (must be exactly 1)`);
     check(Core.matches(r.target, r.match), `${label}: declared match "${r.match}" (a${Core.area(r.match)}) ≠ target area a${tArea}`);
 
-    // the match conserves area across a DIFFERENT shape (bbox differs from target)
-    check(mBbox !== tBbox || r.match !== r.target, `${label}: match has the same bbox/shape as the target (no conservation across shape)`);
+    /* ⚠ The match must be a genuine RESHAPE, not a rotation. This was an OR whose second
+       disjunct (`match !== target`) is true in every round by construction, so the bbox
+       comparison never ran — and bboxArea is a scalar, so it cannot tell 1x6 from 6x1. Three
+       shipped rounds are the same figure turned 90 degrees, where area is conserved
+       trivially and no tile need be counted. Compare the MASKS. */
+    const normMask = (nm) => Core.mask(nm).map((row) => row.replace(/\./g, '0')).join('|');
+    const rotMask = (nm) => {
+      const m = Core.mask(nm), rows = m.length, cols = Math.max.apply(null, m.map((x) => x.length));
+      const out = [];
+      for (let c = 0; c < cols; c++) { let s = ''; for (let r2 = rows - 1; r2 >= 0; r2--) s += ((m[r2] || '')[c] || '.'); out.push(s.replace(/\./g, '0')); }
+      return out.join('|');
+    };
+    const isRotation = normMask(r.match) === normMask(r.target)
+      || normMask(r.match) === rotMask(r.target)
+      || rotMask(r.match) === normMask(r.target);
+    /* RATCHET — rounds already shipping as rotations. It may only ever SHRINK; never add an
+       entry to make a build pass. Redesigning these needs new decoys (a real non-rectangle of
+       area 8 has bbox >= 9, so round 1's bbox-9 foil would no longer be bigger than the
+       match) and that is pedagogical design, filed separately. */
+    const KNOWN_ROTATIONS = ['1:r2x4>L8', '4:bar6>col6', '7:L8>r2x4'];
+    const sig = `${i}:${r.target}>${r.match}`;
+    if (!KNOWN_ROTATIONS.includes(sig)) {
+      check(!isRotation, `${label}: the match is the target ROTATED (${r.target} -> ${r.match}), so area is conserved trivially and no tile need be counted — that is not reshaping`);
+    }
 
     // ≥1 decoy with a STRICTLY BIGGER bbox than the match (the "biggest box" foil)
     check((r.decoys || []).some((nm) => Core.bboxArea(nm) > mBbox), `${label}: no decoy has a bigger bounding box than the match (the perceptual foil)`);
@@ -75,6 +97,6 @@ if (failures.length) {
   failures.forEach((f) => console.error('  • ' + f));
   process.exit(1);
 }
-console.log(`PASS — ${roundCount} round(s): EXACTLY ONE area-match per round, match conserves area across a different shape, ` +
+console.log(`PASS — ${roundCount} round(s): EXACTLY ONE area-match per round, match conserves area across a genuinely different shape (rotations rejected; 3 grandfathered), ` +
   `a bigger-bbox foil + a more-tiles foil present, no stored answer, ≥${VARIETY_MIN} distinct rounds.`);
 process.exit(0);

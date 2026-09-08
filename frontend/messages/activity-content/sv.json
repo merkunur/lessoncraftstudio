@@ -1927,6 +1927,29 @@
         "Barnet kan välja räknesätt utifrån vad en händelse handlar om",
         "Barnet kan skilja på hur många fler någon har och hur många fler någon behöver"
       ]
+    },
+    "bundle-bot.bundle-machine.1-nbt-b-2-a": {
+      "about": [
+        "Roboten Bult har en buntmaskin, men den gör ingenting av sig själv. Barnet lägger i ett ental i taget, räknar till tio och drar sedan i spaken — då buntas de tio entalen ihop till ett tiotal. Ett tiotal som redan ligger på plats går att trycka på för att lösa upp igen, så att det blir tio lösa ental.",
+        "Det är den vändbarheten som är kärnan. I en av omgångarna räcker det inte att bygga talet på det vanliga sättet: barnet ska visa 32 som två tiotal och tolv ental, alltså ta isär ett tiotal igen. Att kunna göra och ogöra ett tiotal är det som senare bär subtraktion med växling.",
+        "Maskinen vägrar också att bunta när det inte är tio, även när högen ser full ut, så barnet måste räkna i stället för att gissa. Omgångarna rör sig mellan 23 och 45. Aktiviteten följer Lgr22, körs direkt i webbläsaren utan nedladdning och utan konto, och har varken timer eller poäng."
+      ],
+      "practices": [
+        "Bunta ihop tio ental till ett tiotal och lösa upp ett tiotal igen",
+        "Skriva och visa tvåsiffriga tal med tiotal och ental",
+        "Visa samma tal på mer än ett sätt, till exempel 32 som två tiotal och tolv ental",
+        "Räkna efter i stället för att gissa när en hög ser ut att vara tio"
+      ],
+      "howToPlay": [
+        "Lägg i ett ental i taget och räkna högt medan du gör det.",
+        "När det ligger tio lösa ental drar du i spaken, så blir de ett tiotal.",
+        "Behöver du lösa upp ett tiotal trycker du på tiostaven, så blir den tio ental igen."
+      ],
+      "learningGoals": [
+        "Barnet kan bunta ihop tio ental till ett tiotal och lösa upp det igen",
+        "Barnet kan visa ett tvåsiffrigt tal med tiotal och ental",
+        "Barnet kan visa samma tal på flera sätt och förstår att ett tiotal alltid är tio ental"
+      ]
     }
   }
 }

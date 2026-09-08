@@ -188,6 +188,93 @@ function serve() {
     console.log(`  FAIL bundle-bot/en — ${e.message}`);
   } finally { await page.close(); }
 
+  /* ---- sv: no English may reach text, aria-labels or SPEECH ------------------------ */
+  const svAt = fails.length;
+  try {
+    const sp = await browser.newPage();
+    await sp.setViewport({ width: 412, height: 900 });
+    await sp.goto(`http://127.0.0.1:${PORT}/bundle-bot-activity.html?lang=sv&activity=${ACTIVITY}&embed=1`, { waitUntil: 'networkidle2', timeout: 30000 });
+    await sp.evaluate(() => { window.__spoke = []; const o = window.LCSAudio && window.LCSAudio.speak; if (o) window.LCSAudio.speak = function (a) { window.__spoke.push(a && a.text); return o.apply(this, arguments); }; });
+    await sp.waitForFunction(() => window.BundleBotActivity && window.BundleBotActivity._activityRow, { timeout: 15000 });
+    note(await sp.evaluate(() => Array.isArray(window.__spoke)), 'sv: the speak recorder did not install — the channel carrying the number word would be unchecked');
+
+    const pairs = await sp.evaluate(() => {
+      const S = window.BundleBotActivity.strings || {};
+      /* ⚠ from `en` ALONE — see the header. Only keys whose Swedish is deliberately identical
+         would be excluded, and there are none here. */
+      return Object.keys(S).filter(k => S[k] && S[k].en && S[k].sv !== S[k].en).map(k => [k, S[k].en]);
+    });
+    note(pairs.length >= 20, `sv: only ${pairs.length} keys differ from en — expected ~24, the check would be weak`);
+
+    const ids = await sp.evaluate(() => window.BundleBotActivity._pool.map(r => r.id.replace(/^bundle-bot\./, '')));
+    note(ids.length >= 9, `sv: only ${ids.length} rounds — vacuous`);
+    let spokeTotal = 0;
+    for (const rid of ids) {
+      await sp.evaluate((id) => {
+        const a = window.BundleBotActivity, n = a._pool.length, order = []; for (let i = 0; i < n; i++) order.push(i);
+        const k = a._pool.findIndex(x => x.id === 'bundle-bot.' + id); if (k > 0) { order.splice(k, 1); order.unshift(k); }
+        a._order = order; a._orderForPool = a._pool; a._curPass = 0; window.__spoke = []; window.LCS_reloadFirstTask();
+      }, rid);
+      await sp.waitForFunction(() => window.BundleBotActivity.round, { timeout: 4000 });
+      await sleep(60);
+      /* ⚠ COLLECT ACROSS THE WHOLE ROUND, NOT ONE FRAME. The first version clicked the lever
+         first, which sets this.msg and REPLACES the question in Bolt's bubble — so stripping an
+         sv q-string survived the poison because the question was never on screen. And it set
+         cstate directly instead of solving, so _win never ran and the NUMBER WORD (spoken and
+         rendered) was never produced, letting a missing numWordSV survive too. Two poisons
+         passed against a gate that never reached the strings it was testing. */
+      const snap = async () => sp.evaluate(() => ({
+        text: (document.querySelector('.lcs-app') || document.body).innerText || '',
+        aria: [...document.querySelectorAll('.lcs-app [aria-label]')].map(e => e.getAttribute('aria-label')).join(' | '),
+        spoke: (window.__spoke || []).join(' | ')
+      }));
+      const frames = [await snap()];                                  // the QUESTION state
+      await sp.evaluate(() => { const l = document.querySelector('.bb-lever'); if (l) l.click(); });
+      await sleep(60);
+      frames.push(await snap());                                      // the REFUSE state
+      /* ⚠ _win is reached ONLY from the activity's own handlers (feed / pull / unbundle), never by
+         setting cstate and clicking Check — isCorrect() just reports this.solved, which _win sets.
+         So park the machine ONE REAL ACTION short of the solution and perform that action. Without
+         this the win line never rendered and a missing numWordSV survived the poison. */
+      await sp.evaluate(() => {
+        const a = window.BundleBotActivity, C = window.BundleMachineCore;
+        /* Park ONE loose one ABOVE the solution and remove it. Removing an over-shoot lands the
+           target for every cog (the activity checks isSolved in _removeOne too), whereas FEEDING
+           one does not: on the overfill round the clump feeder adds three at a time, so a feed
+           overshot and that round never reached the win. One uniform real action. */
+        a.cstate.tens = C.solveTens(a.round); a.cstate.ones = C.solveOnes(a.round) + 1; a.render();
+      });
+      await sleep(40);
+      await sp.evaluate(() => { const c = document.querySelector('.bb-cube'); if (c) c.click(); });
+      await sleep(160);
+      frames.push(await snap());                                      // the WIN state
+      const seen = {
+        text: frames.map(f => f.text).join(' | '),
+        aria: frames.map(f => f.aria).join(' | '),
+        spoke: frames.map(f => f.spoke).join(' | ')
+      };
+      const won = await sp.evaluate(() => !!window.BundleBotActivity.solved);
+      note(won, `sv/${rid}: the round did not reach the win state — the number-word channel is unchecked`);
+      spokeTotal += seen.spoke.length;
+      const hay = seen.text + ' | ' + seen.aria + ' | ' + seen.spoke;
+      note(seen.text.trim().length > 0, `sv/${rid}: nothing rendered — vacuous`);
+      for (const [key, enVal] of pairs) {
+        const segs = String(enVal).split(/\{[^}]*\}/).map(s => s.replace(/\s+/g, ' ').trim()).filter(s => s.length >= 6);
+        if (!segs.length) continue;
+        const probe = segs.sort((a, b) => b.length - a.length)[0];
+        note(hay.indexOf(probe) === -1, `sv/${rid}: the ENGLISH '${key}' reached the child — "${probe}"`);
+      }
+      /* fragments only the LANG chains can produce — none is in the strings table */
+      for (const frag of ['not ten yet', 'all bundled', 'Bundle Bot', 'twenty', 'thirty', 'forty']) {
+        note(hay.toLowerCase().indexOf(frag.toLowerCase()) === -1, `sv/${rid}: an English code fragment reached the child — "${frag}"`);
+      }
+    }
+    note(spokeTotal > 0, 'sv: NOTHING was spoken across 9 rounds — the speech channel is unchecked');
+    const bad = fails.length - svAt;
+    console.log(bad ? `  FAIL bundle-bot/sv — ${bad} English leak(s)` : `  ok   bundle-bot/sv — no English in text, aria or speech across ${ids.length} rounds`);
+    await sp.close();
+  } catch (e) { fails.push('bundle-bot/sv: ' + e.message); console.log(`  FAIL bundle-bot/sv — ${e.message}`); }
+
   await browser.close();
   server.close();
   console.log('');

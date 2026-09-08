@@ -141,6 +141,16 @@
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
   function elNS(tag, attrs) { var e = document.createElementNS(NS, tag); for (var k in attrs) { if (attrs.hasOwnProperty(k)) e.setAttribute(k, attrs[k]); } return e; }
   function wrapH(n) { return n > 12 ? n - 12 : n; }
+  /* the dial, named in the reader's own language. Words taken verbatim from the sibling
+     engines clock-read / clock-elapsed, which already localize this exact label; sv added
+     (clock-core's Swedish calls the dial "urtavla"). Anything else falls back to English,
+     as the siblings do — this engine ships 8 locales. */
+  var CLOCK_FACE = {
+    de: 'Zifferblatt', fr: 'cadran de l’horloge', es: 'carátula del reloj',
+    pt: 'mostrador do relógio', it: 'il quadrante', nl: 'de wijzerplaat',
+    sv: 'urtavla', en: 'clock face'
+  };
+  function clockFaceLabel() { return CLOCK_FACE[LANG] || CLOCK_FACE.en; }
   /* Digital-time chip/readout format. FR writes « 3 h 30 » (lowercase h, spaces,
      keep 00, NO colon — the Anglo-Saxon „3:30" is wrong for a French child);
      en/de keep the core's colon form. 0 lines to the core. */
@@ -245,17 +255,24 @@
   }
 
   function clockSVG(h, m, opts) {
-    var svg = elNS('svg', { viewBox: '0 0 100 100', class: 'cd-clock', role: 'img', 'aria-label': 'clock face' });
+    var svg = elNS('svg', { viewBox: '0 0 100 100', class: 'cd-clock', role: 'img', 'aria-label': clockFaceLabel() });
     svg.appendChild(elNS('circle', { cx: 50, cy: 50, r: 46, fill: C.FACE, stroke: C.RIM, 'stroke-width': 3.5 }));
-    /* minute-tick ring (only for the to-the-minute activity): 48 fine marks at the non-5 positions */
+    /* minute-tick ring (only for the to-the-minute activity): ALL 60 marks.
+       ⚠ This used to skip the multiples of 5 (`if (mm % 5 === 0) continue;`), which left
+       a gap in the rim at every five minutes while the hour ticks sat further in, on a
+       different radius — so "count the little marks, each one is a minute" was false and
+       a child counting the rim lost one mark in every five. Every minute now has a mark;
+       the five-minute positions are drawn longer and heavier so they still read as the
+       landmarks that hintFive ("count by fives") tells the child to use. */
     if (opts && opts.minuteTicks) {
       for (var mm = 0; mm < 60; mm++) {
-        if (mm % 5 === 0) continue;
         var ma = mm * 6 * Math.PI / 180;
+        var isFive = (mm % 5 === 0);
+        var inner = isFive ? 41.5 : 43.5;
         svg.appendChild(elNS('line', {
           x1: (50 + 46 * Math.sin(ma)).toFixed(2), y1: (50 - 46 * Math.cos(ma)).toFixed(2),
-          x2: (50 + 43.5 * Math.sin(ma)).toFixed(2), y2: (50 - 43.5 * Math.cos(ma)).toFixed(2),
-          stroke: C.TICK, 'stroke-width': 0.7, 'stroke-linecap': 'round'
+          x2: (50 + inner * Math.sin(ma)).toFixed(2), y2: (50 - inner * Math.cos(ma)).toFixed(2),
+          stroke: C.TICK, 'stroke-width': isFive ? 1.6 : 0.7, 'stroke-linecap': 'round'
         }));
       }
     }
@@ -348,11 +365,32 @@
           .then(function (rows) {
             var row = rows.find(function (x) { return x.id === id; }) || rows[0];
             self._activityRow = row;
+            self._applyDirectionInstruction();
             self._pool = (row && row.params && row.params.rounds) || [];
             self._order = null; self._orderForPool = null; self._curPass = 0;
             if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
           }).catch(function () { attempt(i + 1); });
       }(0));
+    },
+
+    /* A1: swap in the direction-true instruction for the digital-to-analog row, on the
+       visible <p> AND inside the container's accessible name. Touches only nodes the
+       shell already rendered; 0 lines to lcs-shell.js. */
+    _applyDirectionInstruction: function () {
+      var row = this._activityRow;
+      if (!row || !row.params || row.params.direction !== 'digital-to-analog') return;
+      /* prefer a dedicated imperative when a locale has authored one; otherwise reuse
+         qMatch, which is already native in all 8 locales and true of this row. */
+      var txt2 = (L[LANG] && L[LANG].instructionMatch) || (L.en && L.en.instructionMatch) || txt('qMatch');
+      if (!txt2) return;
+      var app = this._app; if (!app) return;
+      var p = app.querySelector('.lcs-instruction');
+      var old = p && p.textContent;
+      if (p) p.textContent = txt2;
+      var lbl = app.getAttribute('aria-label');
+      /* replace the old sentence inside the composed label rather than rebuilding it,
+         so the shell's own chrome template stays the single source of that wording */
+      if (lbl && old && lbl.indexOf(old) !== -1) app.setAttribute('aria-label', lbl.split(old).join(txt2));
     },
 
     _shuffle: function (a) { for (var k = a.length - 1; k > 0; k--) { var j = Math.floor(Math.random() * (k + 1)); var t = a[k]; a[k] = a[j]; a[j] = t; } return a; },
@@ -410,9 +448,18 @@
         var t = round.options[oi];
         var isClockCard = _dir === 'digital-to-analog';
         var b = el('button', 'cd-choice' + (isClockCard ? ' cd-clockcard' : '') + (self._nonAns[oi] ? ' dim' : '') + (self._lit === oi ? ' lit' : ''));
-        b.type = 'button'; b.setAttribute('data-oi', oi); b.setAttribute('aria-label', spoken(t));
-        if (isClockCard) { b.appendChild(clockSVG(t.h, t.m)); }   /* choice = analog clock face */
-        else { b.textContent = fmtDigital(t); }              /* choice = digital time text */
+        b.type = 'button'; b.setAttribute('data-oi', oi);
+        if (isClockCard) {
+          /* no visible text -> the button must carry the name itself */
+          b.setAttribute('aria-label', spoken(t));
+          var face = clockSVG(t.h, t.m);
+          face.setAttribute('aria-hidden', 'true'); face.removeAttribute('role');
+          b.appendChild(face);                               /* choice = analog clock face */
+        } else {
+          /* WCAG 2.5.3: the visible "3:00" IS the accessible name. An aria-label of
+             spoken(t) ("3 o'clock") would hide the visible label from voice control. */
+          b.textContent = fmtDigital(t);                     /* choice = digital time text */
+        }
         b.addEventListener('click', function () {
           if (self._resolved || self._nonAns[oi] || self._token !== tok) return;
           if (Core.isAnswer(round, oi)) { self._lit = oi; self._resolve(); }

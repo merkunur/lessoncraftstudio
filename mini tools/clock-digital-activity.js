@@ -505,11 +505,15 @@
     _srMirror: function (round) {
       var wrap = el('div', 'cd-sronly'); wrap.setAttribute('aria-live', 'polite');
       var dir = (this._activityRow && this._activityRow.params && this._activityRow.params.direction) || 'analog-to-digital';
-      var cs = (round.options || []).map(function (t) { return spoken(t); }).join(', ');
+      /* ⚠ the SAME order render() draws in — _optOrder is a per-round shuffle, and reading
+         raw round.options here put the spoken list out of step with the buttons. */
+      var _opts = round.options || [];
+      var _ord = this._optOrder || _opts.map(function (_, i) { return i; });
+      var cs = _ord.map(function (oi) { return spoken(_opts[oi]); }).join(', ');
       if (dir === 'digital-to-analog') {
         wrap.innerHTML = '<p>' + txt('qMatch') + txt('srMatchBody', { t: fmtDigital(round.target), cs: cs }) + '</p>';
       } else {
-        var ds = (round.options || []).map(function (t) { return fmtDigital(t); }).join(', ');
+        var ds = _ord.map(function (oi) { return fmtDigital(_opts[oi]); }).join(', ');
         wrap.innerHTML = '<p>' + txt('q') + txt('srReadBody', { t: spoken(round.target), ds: ds }) + '</p>';
       }
       return wrap;

@@ -29,7 +29,12 @@
     /* it (#21 fan-out): grammatical window labels — the classe-2 terms i tempi del verbo (matches es/pt) */
     it: { past: 'Passato', present: 'Presente', future: 'Futuro' },
     /* nl: korte categorie-namen die 1:1 bij de tijdwoorden Gisteren/Nu/Morgen passen + de tijd-namen echoën */
-    nl: { past: 'Verleden', present: 'Nu', future: 'Toekomst' }
+    nl: { past: 'Verleden', present: 'Nu', future: 'Toekomst' },
+    /* sv: the everyday åk-2 terms, not the Latin ones. ⚠ *Futurum* is doubly wrong here — it is
+       högstadiet vocabulary AND it implies Swedish inflects a future tense, which is the exact
+       misconception this build exists to avoid. Puts sv with en/nl, not with de/fr/es/pt/it.
+       They are also the only labels short enough for the ≤380px .tn-win (78px, .68rem). */
+    sv: { past: 'Dåtid', present: 'Nutid', future: 'Framtid' }
   };
 
   /* time-window meta: which window each tense lights, its label + glyph */
@@ -101,6 +106,25 @@
        roundsL10n.nl = 9 rondes (3 verleden / 3 tegenwoordige / 3 toekomende; 6 zwak [kofschip -te/-de] + 3 sterk
        [ablaut voeren/sprongen/liepen]). ⚠ Aanhalingstekens = de Nederlandse KRUL ‘…’ (U+2018/U+2019), NOOIT de
        Duitse laag-open ‚ (U+201A, leest als komma voor een kind — #20-les). */
+    /* sv (Lgr22, åk 2; strand «Language» → «Språkliga strukturer och normer», already in
+       strand-names.ts). ⚠⚠ SWEDISH PRESENS IS THE ORDINARY FUTURE — *I morgon seglar båtarna* is
+       not a near-miss, it is what a Swede says — so on a future round the presens chip is CORRECT
+       Swedish. It cannot simply be accepted (the child would never meet *ska rita* and the
+       activity would fail to teach the construction it exists for), so it gets `nAlsoOk`:
+       affirming, and it does NOT resolve. See the alsoOk branch in _renderChips.
+       ⚠ nFuture never names *ska*. "Välj formen med ska" would teach framtid = the word ska,
+       which is precisely the misconception above; en/de/nl all make that mistake.
+       ⚠ `Vilket ord`, never `Vilken form` — in the shipped sv catalogue *form* reads as a
+       geometric SHAPE in 5 of its 6 occurrences. Quotes are ”…” (U+201D twice). */
+    sv: {
+      q: '{subj} ___ {tw}. Vilket ord passar?',
+      win: 'Precis! {note}', winNote: 'Ordet passar till tiden!',
+      hear: '🔊 Lyssna',
+      nPast: '”{tw}” har redan hänt. Tryck på ordet i dåtid.',
+      nPresent: '”{tw}” händer nu. Tryck på ordet i nutid.',
+      nFuture: '”{tw}” har inte hänt än. Tryck på ordet i framtid.',
+      nAlsoOk: 'Ja, så säger man också! Men leta efter ordet som bara betyder framtid.'
+    },
     nl: {
       q: '{subj} — welke vorm past bij ‘{tw}’?',
       win: 'Ja! {note}', winNote: 'Deze vorm past bij de tijd!',
@@ -129,9 +153,9 @@
   var TenseActivity = {
     id: 'tense-activity',
     strings: {
-      title: { en: 'The Clock Tower', de: 'Junipers Uhrturm', fr: 'La tour du temps de Juniper', es: 'La torre del tiempo de Juniper', pt: 'A Torre do Tempo do Juniper', it: 'La torre del tempo di Juniper', nl: 'Junipers klokkentoren' },
-      instruction: { en: 'Read the time, then tap the verb that fits!', de: 'Schau auf die Zeit und tippe die passende Zeitform!', fr: 'Regarde le temps et touche la bonne forme du verbe !', es: '¡Lee el tiempo y toca el verbo que va con él!', pt: 'Leia o tempo e toque no verbo que combina!', it: 'Leggi il tempo e tocca il verbo che va bene!', nl: 'Kijk naar de tijd en tik op de juiste werkwoordsvorm!' },
-      q: { en: '{q}', de: '{q}', fr: '{q}', pt: '{q}', it: '{q}', nl: '{q}' }
+      title: { en: 'The Clock Tower', de: 'Junipers Uhrturm', fr: 'La tour du temps de Juniper', es: 'La torre del tiempo de Juniper', pt: 'A Torre do Tempo do Juniper', it: 'La torre del tempo di Juniper', nl: 'Junipers klokkentoren', sv: 'Junipers tidstorn' },
+      instruction: { en: 'Read the time, then tap the verb that fits!', de: 'Schau auf die Zeit und tippe die passende Zeitform!', fr: 'Regarde le temps et touche la bonne forme du verbe !', es: '¡Lee el tiempo y toca el verbo que va con él!', pt: 'Leia o tempo e toque no verbo que combina!', it: 'Leggi il tempo e tocca il verbo che va bene!', nl: 'Kijk naar de tijd en tik op de juiste werkwoordsvorm!', sv: 'Läs tidsordet och tryck på verbet som passar!' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', pt: '{q}', it: '{q}', nl: '{q}', sv: '{q}' }
     },
 
     init: function (api) {
@@ -257,6 +281,8 @@
           ? (round.timeWord + ', ' + round.subject + '… Qual palavra combina? ' + _c[0] + ', ' + _c[1] + "' ou '" + _c[2] + '?')
           : LANG === 'it'
           ? (round.timeWord + ', ' + round.subject + '… Quale parola va bene? ' + _c[0] + ', ' + _c[1] + "' o '" + _c[2] + '?')
+          : LANG === 'sv'
+          ? (round.subject + '. Vilket ord passar till ' + round.timeWord + '? ' + _c[0] + ', ' + _c[1] + ' eller ' + _c[2] + '?')
           : LANG === 'nl'
           ? (round.subject + '. Welke vorm past bij ' + round.timeWord + '? ' + _c[0] + ', ' + _c[1] + ' of ' + _c[2] + '?')
           : (round.timeWord + ', ' + round.subject + '. Which word fits? ' + _c[0] + ', ' + _c[1] + "', or '" + _c[2] + '?');
@@ -282,6 +308,15 @@
         b.addEventListener('click', function () {
           if (self._resolved || self._nonConf[tense] || self._token !== tok) return;
           if (Core.isAnswer(round, tense)) { self._lit = tense; self._resolve(); }
+          /* ⚠ A THIRD RESPONSE CLASS. Some languages have more than one grammatical way to say a
+             time: Swedish expresses the future with plain presens plus a time adverbial, so on a
+             future round the presens chip is CORRECT Swedish. Marking it wrong would teach a
+             seven-year-old to distrust their own språkkänsla exactly where their instinct is
+             right. It affirms and does NOT resolve — accepting it outright would mean the child
+             never meets the future construction the round exists to teach.
+             Guarded on per-round DATA + an authored string, never on LANG, so da and no inherit
+             it for free; they have the identical property. */
+          else if (round.alsoOk && round.alsoOk.indexOf(tense) >= 0 && (L[LANG] || {}).nAlsoOk) { self._alsoOk(); }
           else { self._nonConf[tense] = 1; self._nudge(round.time); }
         });
         strip.appendChild(b);
@@ -298,6 +333,16 @@
       this._api.sound && this._api.sound(880);
       this._api.announce && this._api.announce(txt('win', { note: txt('winNote') }));
     },
+    _alsoOk: function () {
+      this._api.sound && this._api.sound(660);
+      this.render();
+      var line = this._api.stage.querySelector('.tn-line-msg');
+      /* NOT .miss — this is an affirmation, not a correction. The chip is not dimmed either:
+         the child said something true and nothing about it should look spent. */
+      if (line) { line.textContent = txt('nAlsoOk'); line.classList.remove('miss'); }
+      this._api.announce && this._api.announce(txt('nAlsoOk'));
+    },
+
     _nudge: function (time) {
       var key = time === 'past' ? 'nPast' : time === 'future' ? 'nFuture' : 'nPresent';
       this._api.sound && this._api.sound(440);
@@ -323,6 +368,12 @@
         ? ('Janela do ' + (((WIN_LABELS.pt && WIN_LABELS.pt[round.time]) || w.label) + '').toLowerCase() + ' acesa. ' + round.timeWord + ', ' + round.subject + ', espaço em branco. Opções: ' + _o[0] + ', ' + _o[1] + "' ou '" + _o[2] + '.')
         : LANG === 'it'
         ? ('La finestra «' + ((WIN_LABELS.it && WIN_LABELS.it[round.time]) || w.label) + '» è accesa. ' + round.timeWord + ', ' + round.subject + ' ___. Quale parola va bene? Scelte: ' + _o[0] + ', ' + _o[1] + "', '" + _o[2] + '.')
+        : LANG === 'sv'
+        /* ⚠ .toLowerCase() is required, as pt already does: *Fönstret Dåtid lyser* is a bare
+           apposition after a definite noun and is not Swedish; *Fönstret för dåtid lyser* is. */
+        ? ('Fönstret för ' + (((WIN_LABELS.sv && WIN_LABELS.sv[round.time]) || w.label) + '').toLowerCase()
+           + ' lyser. ' + round.subject + '. Vilket ord passar till ' + round.timeWord
+           + '? Alternativ: ' + _o[0] + ', ' + _o[1] + ' eller ' + _o[2] + '.')
         : LANG === 'nl'
         ? ('Het venster ‘' + ((WIN_LABELS.nl && WIN_LABELS.nl[round.time]) || w.label) + '’ is verlicht. Werkwoordstijden: ' + round.subject + '. Kies de vorm die past bij ' + round.timeWord + '. Keuze: ' + _o[0] + ', ' + _o[1] + "', '" + _o[2] + '.')
         : ('The "' + w.label + '" window is lit. ' + round.timeWord + ', ' + round.subject + ' blank. Which word fits? Choices: ' + _o[0] + ', ' + _o[1] + "', '" + _o[2] + '.');

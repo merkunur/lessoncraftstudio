@@ -127,6 +127,122 @@ function serve() {
     console.log(`  FAIL tense/en — ${e.message}`);
   } finally { await page.close(); }
 
+  /* ---- sv: no English may reach text, aria-labels or SPEECH, on any surface ---------- */
+  const svAt = fails.length;
+  try {
+    const path = require('path');
+    const mf = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'mini tools', 'tense-activities.json'), 'utf8'));
+    const row = Array.isArray(mf) ? mf[0] : mf;
+    const enRounds = row.params.rounds, svRounds = (row.params.roundsL10n || {}).sv;
+    note(Array.isArray(svRounds) && svRounds.length === enRounds.length, `sv: ${svRounds ? svRounds.length : 0} sv rounds vs ${enRounds.length} en`);
+    note(svRounds && svRounds.some(r => r.alsoOk && r.alsoOk.length), 'sv: no round carries alsoOk — the affirming response class would never be driven');
+
+    const src = fs.readFileSync(path.join(__dirname, '..', 'mini tools', 'tense-activity.js'), 'utf8');
+    /* ⚠ anchor INSIDE `var L = {`. WIN_LABELS has the identical `en: {` / `nl: {` shape and comes
+       FIRST in the file, so an unanchored indexOf captured the window-label table for `en` and
+       inverted to an empty slice for `sv`. The non-vacuity assertions below are what caught it. */
+    const Lstart = src.indexOf('var L = {');
+    const slab = (from, to) => src.slice(src.indexOf(from, Lstart), src.indexOf(to, Lstart));
+    const pairsOf = (s) => [...s.matchAll(/(\w+):\s*'((?:[^'\\]|\\.)*)'/g)].map(m => [m[1], m[2].replace(/\\'/g, "'")]);
+    const enL = pairsOf(slab('\n    en: {', '\n    de: {'));
+    const svL = pairsOf(slab('\n    sv: {\n      q:', '\n    nl: {'));
+    note(enL.length >= 6, `sv: only ${enL.length} English L strings parsed — the probe list is too thin`);
+    note(svL.length >= 7, `sv: only ${svL.length} Swedish L strings parsed — reachability would be vacuous`);
+    const enWin = pairsOf(src.slice(src.indexOf('en: { past:'), src.indexOf('de: { past:')));
+    const enQ = enRounds.map(r => ['q:' + r.id, r.q || '']).filter(p => p[1]);
+    const probes = enL.map(([k, v]) => ['L.' + k, v])
+      .concat(enWin.map(([k, v]) => ['WIN.' + k, v]))
+      .concat(enRounds.map(r => ['subj:' + r.id, r.subject]))
+      .concat(enRounds.map(r => ['tw:' + r.id, r.timeWord]))
+      .concat(enRounds.map(r => ['form:' + r.id, r.verb.forms[r.time]]));
+    note(probes.length >= 30, `sv: only ${probes.length} probes across all surfaces`);
+
+    const sp = await browser.newPage();
+    await sp.setViewport({ width: 412, height: 900 });
+    await sp.evaluateOnNewDocument(() => {
+      window.__spoke = [];
+      const iv = setInterval(() => {
+        if (window.LCSAudio && window.LCSAudio.speak && !window.LCSAudio.__wrapped) {
+          const o = window.LCSAudio.speak;
+          window.LCSAudio.speak = function (x) { window.__spoke.push(x && x.text); return o.apply(this, arguments); };
+          window.LCSAudio.__wrapped = 1; clearInterval(iv);
+        }
+      }, 10);
+    });
+    await sp.goto(`http://127.0.0.1:${PORT}/tense-activity.html?lang=sv&activity=${ACTIVITY}&embed=1`, { waitUntil: 'networkidle2', timeout: 30000 });
+    await sp.waitForFunction(() => window.TenseActivity && window.TenseActivity._pool && window.TenseActivity._pool.length, { timeout: 15000 });
+    note(await sp.evaluate(() => !!(window.LCSAudio && window.LCSAudio.__wrapped)), 'sv: the speech recorder never attached');
+    note(await sp.evaluate(() => window.TenseActivity._pool.length === 9), 'sv: the sv pool did not load — the page is running the ENGLISH rounds');
+
+    let sawNudge = 0, sawWin = 0, sawAlsoOk = 0, spoke = 0;
+    const allHay = [];
+    for (const r of svRounds) {
+      await sp.evaluate((id) => {
+        const t = window.TenseActivity, n = t._pool.length, order = [];
+        for (let i = 0; i < n; i++) order.push(i);
+        const k = t._pool.findIndex(x => x.id === id); if (k > 0) { order.splice(k, 1); order.unshift(k); }
+        t._order = order; t._orderForPool = t._pool; t._curPass = 0; window.__spoke = [];
+        window.LCS_reloadFirstTask();
+      }, r.id);
+      await sp.waitForFunction(() => document.querySelector('.tn-cand'), { timeout: 5000 });
+      await sleep(60);
+      const snap = () => sp.evaluate(() => ({
+        text: (document.querySelector('.lcs-app') || document.body).innerText || '',
+        aria: [...document.querySelectorAll('.lcs-app [aria-label]')].map(e => e.getAttribute('aria-label')).join(' | '),
+        spoke: (window.__spoke || []).join(' | ')
+      }));
+      const frames = [await snap()];
+      await sp.evaluate(() => { const b = document.querySelector('.tn-hear'); if (b) b.click(); });
+      await sleep(70); frames.push(await snap());
+      const plan = await sp.evaluate(() => {
+        const t = window.TenseActivity, rr = t._round, C = window.TenseCore;
+        const ok = (rr.alsoOk || []).filter(x => x !== rr.time);
+        return { answer: rr.time, alsoOk: ok, other: C.TENSES.filter(x => x !== rr.time && ok.indexOf(x) < 0) };
+      });
+      const tap = (tn) => sp.evaluate((x) => { const b = [...document.querySelectorAll('.tn-cand')].find(e => e.getAttribute('data-tense') === x); if (b) b.click(); }, tn);
+      /* the affirming class renders ONLY here, and only on a round that carries alsoOk */
+      if (plan.alsoOk.length) { await tap(plan.alsoOk[0]); await sleep(80); frames.push(await snap()); sawAlsoOk++; }
+      /* a plain wrong form — the three nudges render ONLY here */
+      if (plan.other.length) { await tap(plan.other[0]); await sleep(80); frames.push(await snap()); if (await sp.evaluate(() => !!document.querySelector('.tn-line-msg.miss'))) sawNudge++; }
+      await tap(plan.answer); await sleep(90); frames.push(await snap());
+      if (await sp.evaluate(() => window.TenseActivity._resolved)) sawWin++;
+      spoke += frames.map(f => f.spoke).join('').length;
+      const hay = frames.map(f => f.text + ' | ' + f.aria + ' | ' + f.spoke).join(' | ');
+      allHay.push(hay);
+      note(hay.trim().length > 0, `sv/${r.id}: nothing rendered — vacuous`);
+      for (const [key, enVal] of probes) {
+        const segs = String(enVal).split(/\{[^}]*\}/).map(s => s.replace(/\s+/g, ' ').trim()).filter(s => s.length >= 5);
+        if (!segs.length) continue;
+        const probe = segs.sort((x, y) => y.length - x.length)[0];
+        note(hay.indexOf(probe) === -1, `sv/${r.id}: the ENGLISH '${key}' reached the child — "${probe}"`);
+      }
+    }
+    note(sawNudge >= 7, `sv: only ${sawNudge} rounds showed a corrective nudge — those strings are unchecked`);
+    note(sawWin >= 7, `sv: only ${sawWin} rounds reached the win — win/winNote unchecked`);
+    note(sawAlsoOk >= 3, `sv: only ${sawAlsoOk} rounds drove the affirming response — nAlsoOk unchecked`);
+    note(spoke > 0, 'sv: NOTHING was spoken — the Hear-it sentence is unchecked');
+
+    /* every AUTHORED Swedish string must actually be reached (§23.6: "exists" ≠ "is reached") */
+    const corpus = allHay.join(' || ');
+    for (const [key, val] of svL) {
+      if (key === 'q') continue;   // the identity passthrough; its text is the round question
+      const segs = String(val).split(/\{[^}]*\}/).map(s => s.replace(/\s+/g, ' ').trim()).filter(s => s.length >= 6);
+      if (!segs.length) continue;
+      const probe = segs.sort((x, y) => y.length - x.length)[0];
+      note(corpus.indexOf(probe) !== -1, `sv: the authored string L.sv.${key} is NEVER REACHED in any state — a dead string ("${probe.slice(0, 44)}")`);
+    }
+    /* ⚠ the only check that can see a leak in a key with NO English twin (WIN_LABELS.sv, nAlsoOk).
+       `and` (a duck), `is` (ice) and `just` (just nu) are EXCLUDED — they are real Swedish words,
+       and a ban that condemns correct Swedish teaches the next author to write around it. */
+    for (const w of ['the', 'not', 'does', 'word', 'which', 'yesterday', 'tomorrow', 'right now', 'happened', 'pick the']) {
+      const re = new RegExp('(?<!\\p{L})' + w + '(?!\\p{L})', 'iu');
+      note(!re.test(corpus), `sv: the English "${w}" reached the child somewhere in the Swedish render`);
+    }
+    const bad = fails.length - svAt;
+    console.log(bad ? `  FAIL tense/sv — ${bad} English leak(s)` : `  ok   tense/sv — no English in text, aria or speech across ${svRounds.length} rounds x 5 states, every surface`);
+    await sp.close();
+  } catch (e) { fails.push('tense/sv: ' + e.message); console.log(`  FAIL tense/sv — ${e.message}`); }
+
   await browser.close();
   server.close();
   console.log('');

@@ -131,7 +131,8 @@
             "pt": "3 + 8. Em qual número a Lily deve ficar para chegar ao dez mais rápido?",
             "it": "3 + 8. Su quale numero conviene che Lily si metta per arrivare al dieci più in fretta?",
             "nl": "3 + 8. Op welk getal kan Ties het beste gaan staan om het snelst bij tien te komen? Denk aan de grootste eerst."
-          }
+          },
+          "target": 11
         },
         {
           "id": "findten-8-6",
@@ -172,7 +173,8 @@
             "pt": "7 + 8. Qual DOBRO está a só um de distância e pode ajudar?",
             "it": "7 + 8. Quale DOPPIO è a un solo passo dall'aiutarti?",
             "nl": "7 + 8. Welke dubbel zit er maar één vanaf om je te helpen? Denk aan de bijna-dubbel."
-          }
+          },
+          "target": 15
         },
         {
           "id": "maketen-9-4",
@@ -227,7 +229,8 @@
             "pt": "9 + 2. Em qual número a Lily deve ficar para chegar ao dez mais rápido?",
             "it": "9 + 2. Su quale numero conviene che Lily si metta per arrivare al dieci più in fretta?",
             "nl": "9 + 2. Op welk getal kan Ties het beste gaan staan om het snelst bij tien te komen? Denk aan de grootste eerst."
-          }
+          },
+          "target": 11
         },
         {
           "id": "relation-8-6",

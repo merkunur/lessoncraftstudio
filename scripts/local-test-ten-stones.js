@@ -33,6 +33,43 @@ function serve() {
   });
 }
 
+/* ─── manifest coherence, browser-free, runs FIRST ────────────────────────────────
+   A locale that appears in ANY of slug / page_title / page_intro must appear in ALL
+   THREE. A fan-out adds them one at a time, so a half-added locale is the natural
+   failure — it renders a route with an English title, or 404s, and nothing else here
+   would notice. Six sibling gates were found asserting EN-only on manifests that had
+   been multi-locale for months; this is the shape that replaced them. */
+function checkManifest() {
+  const rows = JSON.parse(fs.readFileSync(path.join(MINI, 'ten-stones-activities.json'), 'utf8'));
+  const bad = [];
+  if (!Array.isArray(rows) || !rows.length) { console.error('FAULT: manifest has no rows — the check would be vacuous'); process.exit(1); }
+  const seen = new Set();
+  rows.forEach((r) => {
+    const fields = ['slug', 'page_title', 'page_intro'];
+    const locs = new Set();
+    fields.forEach((f) => Object.keys(r[f] || {}).forEach((l) => locs.add(l)));
+    if (!locs.size) { console.error('FAULT: row ' + r.id + ' has no localized fields — vacuous'); process.exit(1); }
+    locs.forEach((l) => {
+      const missing = fields.filter((f) => !(r[f] || {})[l]);
+      if (missing.length) bad.push(r.id + ' [' + l + '] present in some fields but missing from: ' + missing.join(', '));
+    });
+    Object.entries(r.slug || {}).forEach(([l, s]) => {
+      if (!/^[a-z0-9-]+$/.test(s)) bad.push(r.id + ' [' + l + '] slug not url-safe: "' + s + '"');
+      const key = l + '|' + s;
+      if (seen.has(key)) bad.push('duplicate slug within ' + l + ': "' + s + '"');
+      seen.add(key);
+    });
+  });
+  return bad;
+}
+const manifestFails = checkManifest();
+if (manifestFails.length) {
+  console.error('TEN-STONES MANIFEST COHERENCE FAILED — ' + manifestFails.length + ' issue(s):');
+  manifestFails.forEach((f) => console.error('  • ' + f));
+  process.exit(1);
+}
+console.log('  ok   manifest coherence — every locale complete across slug/page_title/page_intro');
+
 (async () => {
   const puppeteer = require('puppeteer');
   const server = serve();

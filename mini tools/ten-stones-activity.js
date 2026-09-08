@@ -32,6 +32,16 @@
   var LANG = 'en';
   function numWord(n) { return (LANG === 'de' ? WORDS_DE : LANG === 'fr' ? WORDS_FR : LANG === 'es' ? WORDS_ES : LANG === 'pt' ? WORDS_PT : LANG === 'it' ? WORDS_IT : LANG === 'nl' ? WORDS_NL : WORDS)[n]; }
   function cap(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
+  /* aria-labels that were hardcoded English in every locale. The spinner pair matters most:
+     the buttons are bare − and + glyphs, so this is a speech user's ONLY signal for which
+     way the control moves. Locales without a row fall through to English, as they did
+     before — no regression, pending their own panels. */
+  var ARIA = {
+    line: { en: 'a number line from 0 to 20', sv: 'en tallinje från 0 till 20' },
+    less: { en: 'less', sv: 'ett mindre' },
+    more: { en: 'more', sv: 'ett till' }
+  };
+  function aria(k) { return (ARIA[k] && (ARIA[k][LANG] || ARIA[k].en)) || ''; }
   function speak(text, rate) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
@@ -142,9 +152,19 @@
     /* the equation chip: "8 + 6 = ?" (answer hidden until Lily lands). */
     _eqChip: function () {
       var api = this.api, r = this.round, chip = api.el('span', 'ts-eq');
-      var ans = this.solved ? r.target : '?';
+      /* ⚠ guard: three rounds shipped with no `target`, so this rendered "= undefined"
+         on screen and spoke "equals undefined" the moment the child got it right. The
+         data is fixed too; this stops a future round reintroducing it. */
+      var ans = (this.solved && r.target != null) ? r.target : '?';
       var eqWord = LANG === 'fr' ? ' égale ' : LANG === 'de' ? ' ist ' : LANG === 'es' ? ' es ' : LANG === 'pt' ? ' é igual a ' : LANG === 'it' ? ' fa ' : LANG === 'nl' ? ' is ' : ' equals ';
-      chip.setAttribute('aria-label', numWord(r.a) + ' ' + (r.op === '-' ? (LANG === 'it' ? 'meno' : LANG === 'nl' ? 'min' : 'minus') : (LANG === 'it' ? 'più' : 'plus')) + ' ' + numWord(r.b) + (this.solved ? (eqWord + numWord(r.target)) : ''));
+      /* ⚠ fr/es/pt were getting the ENGLISH "minus", and es/pt the English "plus".
+         sv deliberately has NO branch: plus/minus ARE the Swedish words, so the generic
+         fallback is accidentally correct — which is precisely how this class survives
+         review, so nobody should "fix" it later. */
+      var opWord = r.op === '-'
+        ? (LANG === 'it' ? 'meno' : LANG === 'nl' ? 'min' : LANG === 'fr' ? 'moins' : (LANG === 'es' || LANG === 'pt') ? 'menos' : 'minus')
+        : (LANG === 'it' ? 'più' : LANG === 'es' ? 'más' : LANG === 'pt' ? 'mais' : 'plus');
+      chip.setAttribute('aria-label', numWord(r.a) + ' ' + opWord + ' ' + numWord(r.b) + ((this.solved && r.target != null) ? (eqWord + numWord(r.target)) : ''));
       chip.innerHTML = '<b>' + r.a + '</b> ' + (r.op === '-' ? '−' : '+') + ' <b>' + r.b + '</b> = <b class="ts-ans">' + ans + '</b>';
       return chip;
     },
@@ -154,7 +174,7 @@
       var self = this, api = this.api, r = this.round;
       var wrap = api.el('div', 'ts-linewrap');
       var VW = MARGIN * 2 + LINE_W, VH = 42;
-      var sv = svg('svg', { viewBox: '0 0 ' + VW + ' ' + VH, class: 'ts-svg', 'aria-label': 'a number line from 0 to 20' });
+      var sv = svg('svg', { viewBox: '0 0 ' + VW + ' ' + VH, class: 'ts-svg', 'aria-label': aria('line') });
       sv.style.aspectRatio = (VW / VH).toFixed(2);
       /* the line */
       sv.appendChild(svg('line', { x1: lineX(0), y1: 28, x2: lineX(20), y2: 28, stroke: 'rgba(20,107,94,.5)', 'stroke-width': 1 }));
@@ -185,9 +205,9 @@
       var lead = api.el('span', 'ts-bondtxt'); lead.textContent = fromN + ' ' + (r.op === '-' ? '−' : '+'); bond.appendChild(lead);
       /* the spinner [−] (n) [+] */
       var spin = api.el('div', 'ts-spin');
-      var minus = api.el('button', 'ts-spinbtn'); minus.type = 'button'; minus.textContent = '−'; minus.setAttribute('aria-label', 'less'); minus.addEventListener('click', function () { self._setSpin(self.spin - 1); }); spin.appendChild(minus);
+      var minus = api.el('button', 'ts-spinbtn'); minus.type = 'button'; minus.textContent = '−'; minus.setAttribute('aria-label', aria('less')); minus.addEventListener('click', function () { self._setSpin(self.spin - 1); }); spin.appendChild(minus);
       var box = api.el('span', 'ts-spinval'); box.setAttribute('aria-live', 'polite'); box.textContent = this.spin; spin.appendChild(box);
-      var plus = api.el('button', 'ts-spinbtn'); plus.type = 'button'; plus.textContent = '+'; plus.setAttribute('aria-label', 'more'); plus.addEventListener('click', function () { self._setSpin(self.spin + 1); }); spin.appendChild(plus);
+      var plus = api.el('button', 'ts-spinbtn'); plus.type = 'button'; plus.textContent = '+'; plus.setAttribute('aria-label', aria('more')); plus.addEventListener('click', function () { self._setSpin(self.spin + 1); }); spin.appendChild(plus);
       bond.appendChild(spin);
       var tail = api.el('span', 'ts-bondtxt'); tail.textContent = '= ' + rhs; bond.appendChild(tail);
       root.appendChild(bond);

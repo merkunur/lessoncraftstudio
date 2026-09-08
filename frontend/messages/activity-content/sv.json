@@ -1835,6 +1835,29 @@
         "Barnet förstår att jämföra två längder betyder att hitta skillnaden mellan dem",
         "Barnet går från att mäta en enskild längd med linjal till att räkna med två kända längder — grunden för längd- och diagramuppgifter längre fram"
       ]
+    },
+    "mosaic-menders.area-match.3-md-c-6": {
+      "about": [
+        "Alva bygger mosaiker av små rutor. Hon visar en mosaik i taget och berättar hur många rutor den är byggd av – nedanför ligger tre mosaiker att välja mellan.",
+        "Barnet ska hitta den mosaik som är byggd av precis lika många rutor som Alvas, även när den har en helt annan form: en 2×3-rektangel och en lång 1×6-rektangel har båda sex rutor.",
+        "Det finns ingen tid att hålla och inget som räknas ihop. Barnet kan räkna om och prova igen så många gånger det vill. Aktiviteten körs direkt i webbläsaren, utan nedladdning och utan konto."
+      ],
+      "practices": [
+        "Att bestämma area genom att räkna enhetsrutor, i stället för att mäta med linjal.",
+        "Att se att arean är densamma även när formen ändras – en 2×3-rektangel och en lång 1×6-rektangel är byggda av lika många rutor fast de ser helt olika ut.",
+        "Att inte döma på ögat: den mosaik som ser störst ut har fler rutor än förlagan i alla åtta rundorna, till exempel en 3×3-mosaik med nio rutor bredvid en förlaga på sex.",
+        "Att räkna rutor systematiskt i en L-formad figur, där raderna är olika långa och barnet måste dela upp figuren i rader för att hålla räkningen."
+      ],
+      "howToPlay": [
+        "Alva visar sin mosaik och säger hur många rutor den är byggd av. Under den ligger tre mosaiker med olika form.",
+        "Barnet räknar rutorna i de tre förslagen, trycker på den som har lika många rutor som Alvas och trycker sedan på Kontrollera.",
+        "Stämmer det inte händer ingenting dramatiskt – mosaiken ligger kvar och barnet kan räkna om och trycka på en annan. Med Nästa går barnet vidare till en ny mosaik, åtta rundor i taget."
+      ],
+      "learningGoals": [
+        "Barnet kan bestämma arean hos en figur genom att räkna enhetsrutorna, och säga svaret som ett antal rutor.",
+        "Barnet vet att arean är densamma även om figuren byter form, och kan visa det med två mosaiker som ser olika ut men har lika många rutor.",
+        "Barnet väljer inte längre den figur som ser störst ut, utan räknar rutorna innan det bestämmer sig."
+      ]
     }
   }
 }

@@ -440,12 +440,12 @@
           { "id": "snt-dog",    "seed": 2, "canonical": ["Il","cane","marrone","abbaia."],    "subject": { "noun": "dog",    "themeDir": "animals",  "label": "il cane" } },
           { "id": "snt-cat",    "seed": 5, "canonical": ["La","gatta","arancione","dorme."],  "subject": { "noun": "cat",    "themeDir": "animals",  "label": "la gatta" } },
           { "id": "snt-sun",    "seed": 8, "canonical": ["Il","sole","giallo","splende."],    "subject": { "noun": "sun",    "themeDir": "beach",    "label": "il sole" } },
-          { "id": "snt-bus",    "seed": 12, "canonical": ["Il","pullman","blu","corre."],      "subject": { "noun": "bus",    "themeDir": "vehicles", "label": "il pullman" } },
+          { "id": "snt-bus",    "seed": 12, "canonical": ["Il","pulmino","blu","parte."],      "subject": { "noun": "bus",    "themeDir": "vehicles", "label": "il pulmino" } },
           { "id": "snt-frog",   "seed": 13, "canonical": ["La","rana","verde","salta."],       "subject": { "noun": "frog",   "themeDir": "camping",  "label": "la rana" } },
           { "id": "snt-pig",    "seed": 19, "canonical": ["Il","maiale","rosa","grugnisce."],  "subject": { "noun": "pig",    "themeDir": "animals",  "label": "il maiale" } },
           { "id": "snt-hen",    "seed": 21, "canonical": ["La","gallina","bianca","becca."],   "subject": { "noun": "hen",    "themeDir": "farm animals",  "label": "la gallina" } },
           { "id": "snt-fish",   "seed": 27, "canonical": ["Il","pesce","rosso","nuota."],      "subject": { "noun": "fish",   "themeDir": "animals",  "label": "il pesce" } },
-          { "id": "snt-flower", "seed": 35, "canonical": ["Il","fiore","viola","cresce."],     "subject": { "noun": "flower", "themeDir": "spring",   "label": "il fiore" } }
+          { "id": "snt-flower", "seed": 35, "canonical": ["Il","fiore","rosso","cresce."],     "subject": { "noun": "flower", "themeDir": "spring",   "label": "il fiore" } }
         ],
         "nl": [
           { "id": "snt-dog",    "seed": 2, "canonical": ["De","grote","hond","blaft."],     "subject": { "noun": "dog",    "themeDir": "animals",  "label": "de hond" } },

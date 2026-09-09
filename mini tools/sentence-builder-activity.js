@@ -63,7 +63,10 @@
       hear: '🔊 Ascolta',
       win: 'Hai costruito una frase!',
       hintFill: 'Usa tutte le parole: riempi ogni casella.',
-      hintOrder: 'Comincia con la lettera maiuscola (Il o La), metti il punto alla fine e costruisci una frase che abbia senso.'
+      /* ⚠ DEAD, like every other L.*.hintOrder — the shell resolves api.t('hintOrder')
+         against `strings`, not `L`. Kept in sync so an editor who lands here (this is
+         where the Italian comment block sits) does not fix the copy nobody renders. */
+      hintOrder: 'Ci siamo quasi: maiuscola all’inizio, punto alla fine e una frase che si capisce.'
     },
     /* nl: shape Lidwoord+Bijv.nw+Zelfst.nw+Werkw. (Germaanse volgorde = het Duitse model, NIET de Romaanse
        Art+Nome+Agg). Nederlands kapitaliseert ALLEEN het eerste woord (het lidwoord) → 1 hoofdletter-tegel.
@@ -112,7 +115,7 @@
       instruction: { en: 'Tap the words to put them in order and build a sentence.', de: 'Tippe die Wörter an und bringe sie in die richtige Reihenfolge, um einen Satz zu bauen.', fr: 'Touche les mots et mets-les dans le bon ordre pour construire une phrase.', es: 'Toca las palabras para ponerlas en orden y armar una oración.', pt: 'Toque nas palavras para colocá-las em ordem e formar uma frase.', it: 'Tocca le parole per metterle in ordine e costruire una frase.', nl: 'Tik de woorden aan en zet ze in de goede volgorde om een zin te bouwen.', sv: 'Tryck på orden i rätt ordning för att bygga en mening om bilden.' },
       q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', pt: '{q}', it: '{q}', nl: '{q}', sv: '{q}' },
       hintFill: { en: 'Use all the words — fill every box.', de: 'Nutze alle Wörter – fülle jedes Feld.', fr: 'Utilise tous les mots — remplis chaque case.', es: 'Usa todas las palabras: llena todas las casillas.', pt: 'Use todas as palavras — preencha todos os espaços.', it: 'Usa tutte le parole: riempi ogni casella.', nl: 'Gebruik alle woorden — vul elk vakje.', sv: 'Lägg ett ord i varje ruta och tryck sedan på Kontrollera.' },
-      hintOrder: { en: 'Not a sentence yet — start with the capital word, end with the period, and make it make sense.', de: 'Noch kein Satz – fang mit Der, Die oder Das an, setze den Punkt ans Ende und bau einen sinnvollen Satz.', fr: 'Ce n’est pas encore une phrase — commence par « Le » ou « La », mets le point à la fin, et fais une phrase qui a du sens.', es: 'Todavía no es una oración: empieza con El o La, pon el punto al final, y arma una oración que tenga sentido.', pt: 'Ainda não é uma frase — comece com a maiúscula (O ou A), termine com o ponto e deixe a frase com sentido.', it: 'Comincia con la lettera maiuscola (Il o La), metti il punto alla fine e costruisci una frase che abbia senso.', nl: 'Nog geen zin — begin met De of Het, zet de punt aan het eind en maak een zinvolle zin.', sv: 'Nästan! Börja med ordet som har stor bokstav och lägg ordet med punkt sist.' }
+      hintOrder: { en: 'Not a sentence yet — start with the capital word, end with the period, and make it make sense.', de: 'Noch kein Satz – fang mit Der, Die oder Das an, setze den Punkt ans Ende und bau einen sinnvollen Satz.', fr: 'Ce n’est pas encore une phrase — commence par « Le » ou « La », mets le point à la fin, et fais une phrase qui a du sens.', es: 'Todavía no es una oración: empieza con El o La, pon el punto al final, y arma una oración que tenga sentido.', pt: 'Ainda não é uma frase — comece com a maiúscula (O ou A), termine com o ponto e deixe a frase com sentido.', it: 'Ci siamo quasi: maiuscola all’inizio, punto alla fine e una frase che si capisce.', nl: 'Nog geen zin — begin met De of Het, zet de punt aan het eind en maak een zinvolle zin.', sv: 'Nästan! Börja med ordet som har stor bokstav och lägg ordet med punkt sist.' }
     },
 
     init: function (api) {

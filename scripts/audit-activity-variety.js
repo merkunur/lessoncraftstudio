@@ -41,6 +41,17 @@ const MINI = path.join(__dirname, '..', 'mini tools');
 /* engine-agnostic pool-size extractor from a manifest row's params */
 function poolSize(row) {
   const p = row.params || {};
+  /* ⚠ per-locale round pools (params.roundsL10n.<loc>) — report the SMALLEST pool,
+     not the English one. This branch was missing, so a locale pool shorter than the
+     >=7 floor cleared the static half of this gate silently; the live probe does drive
+     each locale, so the floor was never actually unguarded, but the static half was blind. */
+  if (p.roundsL10n && typeof p.roundsL10n === 'object') {
+    const sizes = Object.keys(p.roundsL10n)
+      .map((k) => (Array.isArray(p.roundsL10n[k]) ? p.roundsL10n[k].length : null))
+      .filter((n) => n != null);
+    if (Array.isArray(p.rounds)) sizes.push(p.rounds.length);
+    if (sizes.length) return Math.min.apply(null, sizes);
+  }
   if (Array.isArray(p.rounds)) return p.rounds.length;
   if (Array.isArray(p.targets)) return p.targets.length;
   if (Array.isArray(p.items)) return p.items.length;

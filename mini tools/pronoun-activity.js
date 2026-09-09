@@ -95,8 +95,44 @@
       nSubject: 'Bijna! Vraag: wie doet iets? Dan past het andere woord.',
       nObject: 'Bijna! Vraag: met wie gebeurt er iets? Dan past het andere woord.',
       nPossessive: 'Bijna! Vraag: van wie is het? Dan past het andere woord.'
+    },
+    /* sv: possessive agreement min/mitt/mina — the German er/ihn CASE deck does NOT
+       transfer. `*Mig ritar en katt` is not a child error, it is a string no Swede
+       produces, so a transliterated deck would be six dead rounds out of nine.
+       ⚠ `pronomen` never reaches the child: Lgr22 names no ordklass in åk 1-3, so the
+       framing is språkkänsla, not metalanguage (parent-facing prose may name it).
+       ⚠ `Vilket ord`, never `Vilken form` — in the shipped sv catalogue *form* reads as
+       a geometric SHAPE in 5 of its 6 occurrences.
+       ⚠⚠ notePossessive/nPossessive are RE-AUTHORED, not translated. The en/de note says
+       it shows what BELONGS to someone — which is FALSE for every round of this deck: the
+       owner is Sigge in all six, and only the FORM varies. Both strings name the TEST
+       (heter det en, ett eller flera?) and never the answer.
+       ⚠ The de/nl nudges end "dann passt das andere Wort" / "dan past het andere woord".
+       With two chips and the wrong one dimmed, that makes the round a no-op — Swedish
+       does not inherit it. `luckan` is deliberate: it is the same word BLANK_WORD.sv puts
+       into the Hear-it text and the screen-reader mirror, so the sighted child and the
+       blind child are pointed at the same thing by the same noun. */
+    sv: {
+      q: 'Vilket ord passar i meningen?',
+      win: 'Precis! {note}', hear: '🔊 Lyssna',
+      noteSubject: 'Här är det någon som GÖR något!',
+      noteObject: 'Här händer det något MED någon!',
+      notePossessive: 'Det är ordet efter luckan som bestämmer — en, ett eller flera!',
+      nSubject: 'Fråga dig: vem GÖR något? Läs meningen igen.',
+      nObject: 'Det är någon annan som gör något här. Läs meningen igen.',
+      nPossessive: 'Titta på ordet efter luckan: heter det en, ett eller flera? Läs igen.'
     }
   };
+
+  /* ⚠ THESE WERE TWO TERNARY CHAINS ENDING IN ENGLISH, and the blank-word one was
+     DUPLICATED VERBATIM at the Hear-it call site and in the screen-reader mirror. A new
+     locale that patched one and missed the other would ship half its blind surface in
+     English with nothing failing — so they are one table each, read from both sites.
+     `lucka` is the ordinary Swedish word for a gap in a sentence. */
+  var BLANK_WORD = { en: 'blank', de: 'Lücke', fr: 'trou', es: 'espacio', pt: 'espaço', it: 'spazio', nl: 'gaatje', sv: 'lucka' };
+  var CHIP_JOIN  = { en: ' or ', de: ' oder ', fr: ' ou ', es: ' o ', pt: ' ou ', it: ' o ', nl: ' of ', sv: ' eller ' };
+  function blankWord() { return BLANK_WORD[LANG] || BLANK_WORD.en; }
+  function chipJoin() { return CHIP_JOIN[LANG] || CHIP_JOIN.en; }
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   /* German + French rounds carry their own forms (the protected core's CASE_TABLE is EN-only) */
   function pnChips(r) { var loc = r && r[LANG]; return (loc && loc.correct) ? [loc.correct, loc.wrong] : Core.chipStrings(r); }
@@ -119,9 +155,9 @@
   var PronounActivity = {
     id: 'pronoun-activity',
     strings: {
-      title: { en: 'The Borrowed Hat', de: 'Hatties Hutladen', fr: 'La boutique de Hattie', es: 'La sombrerería de Hattie', pt: 'A Chapelaria da Hattie', it: 'La cappelleria di Hattie', nl: 'Hatties hoedenwinkel' },
-      instruction: { en: 'Give the character the right word — the one that fits its job!', de: 'Gib Hattie das richtige Wort — das, das in den Satz passt!', fr: 'Donne à Hattie le bon mot — celui qui va dans la phrase !', es: 'Dale a Hattie la palabra correcta: ¡la que sí queda en la oración!', pt: 'Dê à Hattie a palavra certa — a que encaixa na frase!', it: 'Dai a Hattie la parola giusta: quella che va bene nella frase!', nl: 'Geef Hattie het juiste woord — het woord dat in de zin past!' },
-      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', pt: '{q}', it: '{q}', nl: '{q}' }
+      title: { en: 'The Borrowed Hat', de: 'Hatties Hutladen', fr: 'La boutique de Hattie', es: 'La sombrerería de Hattie', pt: 'A Chapelaria da Hattie', it: 'La cappelleria di Hattie', nl: 'Hatties hoedenwinkel', sv: 'Sigges koja' },
+      instruction: { en: 'Give the character the right word — the one that fits its job!', de: 'Gib Hattie das richtige Wort — das, das in den Satz passt!', fr: 'Donne à Hattie le bon mot — celui qui va dans la phrase !', es: 'Dale a Hattie la palabra correcta: ¡la que sí queda en la oración!', pt: 'Dê à Hattie a palavra certa — a que encaixa na frase!', it: 'Dai a Hattie la parola giusta: quella che va bene nella frase!', nl: 'Geef Hattie het juiste woord — het woord dat in de zin past!', sv: 'Sigge bär in sakerna i kojan. Tryck på ordet som passar i meningen!' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', pt: '{q}', it: '{q}', nl: '{q}', sv: '{q}' }
     },
 
     init: function (api) {
@@ -140,17 +176,31 @@
       var s = el('style'); s.id = 'pn-style';
       s.textContent = [
         '.lcs-app.activity .lcs-stage{display:flex;flex-direction:column;justify-content:center;}',
+        '@media (min-width:768px){.lcs-app.activity .lcs-activity-prompt-text{font-size:clamp(1.25rem,2.9vw,1.75rem);}}',
         '.pn-root{display:flex;flex-direction:column;align-items:center;gap:11px;width:100%;max-width:min(96vw,620px);margin:0 auto;}',
-        '.pn-sentence{width:100%;text-align:center;font:700 clamp(1.1rem,4.4vw,1.42rem)/1.45 Nunito,system-ui,sans-serif;color:#2A3A36;}',
+        /* ⚠ MEASURED INVERTED HIERARCHY AT DESKTOP. The shell prompt above this line is
+           INVARIANT chrome — the same question every round — and it reaches 48px at >=768.
+           This sentence is the CONTENT: it is the only thing that changes and the only thing
+           the child can read to decide. It was capped at 1.42rem, so the ratio measured
+           0.96 at 360 (peers, correct) but 0.47 at 768/1024/1366 — the chrome outgrowing the
+           content by more than 2x. The floor and the vw slope are untouched, so the phone
+           layout is byte-identical; only the desktop cap moves. */
+        '.pn-sentence{width:100%;text-align:center;font:700 clamp(1.1rem,4.4vw,2rem)/1.45 Nunito,system-ui,sans-serif;color:#2A3A36;}',
         '.pn-blank{display:inline-block;min-width:58px;border-bottom:3px solid #146B5E;margin:0 4px;color:#146B5E;font-weight:800;}',
-        '.pn-blank.filled{border-bottom-color:#F2784B;color:#C2410C;}',
+        /* ⚠ THE ANSWER AND THE NUDGE USED TO SHARE #C2410C — one colour meaning both
+           "wrong" and "right", one tap apart. The filled answer now carries the same
+           teal as the win note it appears with; coral is only ever "look again".
+           `min-width:0` lets the slot shrink to its answer so the completed line reads
+           as a sentence — which matters here, because the child is meant to re-read it. */
+        '.pn-blank.filled{border-bottom-color:#146B5E;color:#146B5E;min-width:0;}',
         '.pn-say{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;}',
         '.pn-hat{flex:0 0 auto;}',
+        '.pn-hat svg{width:clamp(38px,5.2vw,60px);height:auto;}',
         '.pn-line-msg{flex:0 1 auto;min-height:1.1em;text-align:center;font:700 clamp(0.88rem,2.1vw,1.14rem)/1.3 Nunito,system-ui,sans-serif;color:#146B5E;margin:0;}',
         '.pn-line-msg.miss{color:#C2410C;}',
         '.pn-hear{align-self:center;border:2px solid #146B5E;border-radius:999px;background:#fff;color:#146B5E;font:700 .82rem/1 Nunito,sans-serif;padding:6px 16px;min-height:44px;cursor:pointer;}',
         '.pn-strip{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;width:100%;}',
-        '.pn-cand{display:flex;align-items:center;justify-content:center;text-align:center;padding:12px 24px;border:3px solid #146B5E;border-radius:14px;background:#fff;cursor:pointer;min-height:52px;min-width:104px;font:800 clamp(1.05rem,4vw,1.28rem)/1.1 "Baloo 2",Nunito,system-ui,sans-serif;color:#0F4A40;}',
+        '.pn-cand{display:flex;align-items:center;justify-content:center;text-align:center;padding:12px 24px;border:3px solid #146B5E;border-radius:14px;background:#fff;cursor:pointer;min-height:52px;min-width:104px;font:800 clamp(1.05rem,4vw,1.6rem)/1.1 "Baloo 2",Nunito,system-ui,sans-serif;color:#0F4A40;}',
         '.pn-cand.dim{opacity:.4;}',
         '.pn-cand.lit{box-shadow:0 0 0 3px #F2C14E;background:#FFFBEF;}',
         '.pn-hat-svg .pn-eyes-happy{display:none;}.pn-hat[data-pose=happy] .pn-eyes-open{display:none;}.pn-hat[data-pose=happy] .pn-eyes-happy{display:block;}',
@@ -220,7 +270,12 @@
       var blank = el('span', 'pn-blank' + (this._filled ? ' filled' : ''));
       blank.textContent = this._filled ? this._filled : '   ';
       sent.appendChild(blank);
-      sent.appendChild(document.createTextNode(parts[1] || ''));
+      /* ⚠ a SENTENCE-FINAL blank left the slot's right margin sitting between the word
+         and its full stop — "Mamma ropade på ___ ." Trim it when what follows opens with
+         punctuation. EN has three such rounds, so this was never Swedish-only. */
+      var after = parts[1] || '';
+      if (/^\s*[.,!?;:]/.test(after)) blank.style.marginRight = '0';
+      sent.appendChild(document.createTextNode(after));
       root.appendChild(sent);
 
       /* Hattie + live line */
@@ -232,7 +287,7 @@
       /* Hear it */
       var self = this, hear = el('button', 'pn-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
-        var t = String(round.sentence).replace('___', LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : LANG === 'es' ? 'espacio' : LANG === 'pt' ? 'espaço' : LANG === 'it' ? 'spazio' : LANG === 'nl' ? 'gaatje' : 'blank') + ' ' + txt('q');
+        var t = String(round.sentence).replace('___', blankWord()) + ' ' + txt('q');
         if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.92 }); } catch (e) { } }
       });
       root.appendChild(hear);
@@ -281,8 +336,14 @@
 
     _srMirror: function (round) {
       var wrap = el('div', 'pn-sronly'); wrap.setAttribute('aria-live', 'polite');
-      var chips = pnChips(round).join(LANG === 'de' ? ' oder ' : LANG === 'fr' ? ' ou ' : LANG === 'es' ? ' o ' : LANG === 'pt' ? ' ou ' : LANG === 'it' ? ' o ' : LANG === 'nl' ? ' of ' : ' or ');
-      var sent = String(round.sentence).replace('___', LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : LANG === 'es' ? 'espacio' : LANG === 'pt' ? 'espaço' : LANG === 'it' ? 'spazio' : LANG === 'nl' ? 'gaatje' : 'blank');
+      /* ⚠⚠ THIS ANNOUNCED THE CORRECT ANSWER FIRST, EVERY ROUND, IN EVERY LOCALE.
+         The eye gets `this._chipOrder`, which _beginRound SHUFFLES ("position ≠ answer").
+         The screen reader got `pnChips(round)`, which is ALWAYS [correct, wrong] — so a
+         screen-reader child could solve the whole deck without reading a sentence, and the
+         announced order contradicted the visible one about half the time. Announce what is
+         actually on screen. */
+      var chips = (this._chipOrder || pnChips(round)).join(chipJoin());
+      var sent = String(round.sentence).replace('___', blankWord());
       wrap.innerHTML = '<p>' + sent + ' ' + txt('q') + ' ' + chips + '?</p>';
       return wrap;
     },

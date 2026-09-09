@@ -28,7 +28,11 @@
 
   var C = {
     T: '#146B5E', T2: '#1B7E6E', CORAL: '#F2784B', CORAL2: '#D9572F',
-    CREAM: '#FBF3E4', INK: '#2A2A35', RIM: '#FFFFFF', GOOD: '#2FA56A', WOOD: '#C7956A'
+    CREAM: '#FBF3E4', INK: '#2A2A35', RIM: '#FFFFFF', GOOD: '#2FA56A', WOOD: '#C7956A',
+    /* text-only coral. COMPUTED, not eyeballed: CORAL2 #D9572F on CREAM is 3.56:1 (below the
+       4.5 AA floor) and my first replacement guess, #C24A22, measured 4.43 and would have
+       shipped still failing. This is 4.94:1. */
+    MISS: '#B8431C'
   };
 
   function esc(s) {
@@ -44,11 +48,27 @@
     do { for (i = n - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = idx[i]; idx[i] = idx[j]; idx[j] = t; } } while (same(idx, prev));
     return idx;
   }
+  /* BCP-47 voice per locale. ⚠ A TABLE, never a ternary chain: the chain this replaces ended in
+     'en-US', so every locale added after it was silently read aloud in English. */
+  var VOICE = { en: 'en-US', de: 'de-DE', fr: 'fr-FR', es: 'es-MX', pt: 'pt-BR', it: 'it-IT', nl: 'nl-NL', sv: 'sv-SE' };
+
+  /* Accessible names for the three affordances that carry NO text of their own. ⚠ All three were
+     hard-coded English or absent in all seven shipped locales. The seam is the PRIMARY control of
+     the split round — and in that round the ONLY one — yet every seam carried the identical label,
+     so a blind child could not tell seam 1 from seam 4. Position is appended, exactly as
+     sentence-builder's EMPTY_SLOT/emptySlotLabel(i) already does. */
+  var A11Y = {
+    seam: { en: 'split here', de: 'hier trennen', fr: 'couper ici', es: 'separar aquí', pt: 'separar aqui', it: 'dividi qui', nl: 'hier splitsen', sv: 'dela här' },
+    gap:  { en: 'empty slot', de: 'leere Lücke', fr: 'case vide', es: 'espacio vacío', pt: 'espaço vazio', it: 'spazio vuoto', nl: 'leeg vakje', sv: 'tom ruta' },
+    owl:  { en: 'Dr. Plume the owl', de: 'Dr. Plume, die Eule', fr: 'Dr Plume, la chouette', es: 'la Dra. Plume, el búho', pt: 'a Dra. Plume, a coruja', it: 'la Dott.ssa Plume, la civetta', nl: 'Dr. Plume de uil', sv: 'Doktor Fjäder, ugglan' }
+  };
+  function a11y(k, i) { var t = (A11Y[k][LANG] || A11Y[k].en); return i == null ? t : t + ' ' + i; }
+
   function speak(text) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'ui', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG), rate: 0.92 }); return; }
       if (global.speechSynthesis && global.SpeechSynthesisUtterance) {
-        var u = new global.SpeechSynthesisUtterance(text); u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG === 'nl' ? 'nl-NL' : 'en-US'; u.rate = 0.92; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u);
+        var u = new global.SpeechSynthesisUtterance(text); u.lang = VOICE[LANG] || 'en-US'; u.rate = 0.92; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u);
       }
     } catch (e) { /* audio is a scaffold; visual is the spine */ }
   }
@@ -56,7 +76,7 @@
   /* Dr. Plume — gentle grandmother-owl SVG PLACEHOLDER (CA5 swaps in via _setPose).
      Round body, a soft coral shawl, big spectacles, ear tufts, a knitted cap. */
   function plumeSVG() {
-    return '<svg class="sc-plume-svg" viewBox="0 0 120 120" role="img" aria-label="Dr. Plume the owl">' +
+    return '<svg class="sc-plume-svg" viewBox="0 0 120 120" role="img" aria-label="' + esc(a11y('owl')) + '">' +
       '<ellipse cx="60" cy="114" rx="33" ry="6" fill="rgba(0,0,0,.08)"/>' +
       /* ear tufts (clear triangles) */
       '<path d="M30 40 L22 18 L46 32 Z" fill="' + C.T + '"/><path d="M90 40 L98 18 L74 32 Z" fill="' + C.T + '"/>' +
@@ -91,22 +111,40 @@
     id: 'sentence-clinic-activity',
 
     strings: {
+      /* sv (#25 — Lgr22, årskurs 2, «Språkliga strukturer och normer»). REBUILT, not translated:
+         Swedish has NO subject–verb agreement (barnet/barnen/jag springer are one form), so the
+         swap round could not be the family's agreement round — it teaches å → och instead.
+         ⚠⚠ THE FRAME IS `rätt skriven`, NEVER `låter rätt`. Two of the seven English faults are
+         inaudible (a missing capital, a missing full stop), and in Swedish it is three, because
+         å and och are HOMOPHONES — that is the whole teaching point. So promptSwap says `fel
+         skrivet`, soundsRight says `rätt skriven`, and giggle says `Titta`, never `Lyssna`.
+         ⚠ Check button = `Kontrollera` (the shell's sv label) in instruction + hintCheck.
+         ⚠ `Hoppsan` over `Fniss`: this string fires at the child's moment of failure and fniss
+         carries a note of being laughed AT. It also differs from the shell's `Inte än — försök igen!`.
+         ⚠ alright says `leta vidare` (wrong PLACE) and giggle says `titta igen` (right place, wrong
+         CHOICE) — matching where each actually fires: _alright on a bad diagnosis, _giggle on a
+         bad repair chip.
+         ⚠ NO ordklass metalanguage reaches the child: Lgr22 names none in åk 1–3 (they enter åk
+         4–6), so nothing says `verb` or `substantiv`. The metalanguage lives in page_title /
+         page_intro, which adults read.
+         ⚠ `mening`, NEVER `sats`: Swedish `sats` is a CLAUSE (huvudsats/bisats, åk 4+) and also
+         `batch`. Pattern-matching de's `Satzklinik` would be wrong Swedish AND wrong band. */
       /* it (#25 fan-out — 5th it literacy, Indicazioni «riflessione linguistica», classe seconda): the 7-action
          fix-it clinic. ⚠ Check button = «Verifica» (shell it label) in instruction + hintCheck; giggle = «Ih ih»
          (it onomatopoeia, not en «Hi hi»); character «Dott.ssa Plume» (feminine title abbrev). «...» caporali. */
-      title:        { en: "Dr. Plume's Sentence Clinic", de: 'Dr. Plumes Satzklinik', fr: 'La clinique des phrases du Dr. Plume', es: 'La clínica de oraciones de la Dra. Plume', pt: 'A Clínica de Frases da Dra. Plume', it: 'La clinica delle frasi della Dott.ssa Plume', nl: 'Dr. Plumes zinnenkliniek' },
-      instruction:  { en: 'Help each muddled sentence sound right again. Tap Check when it sounds good.', de: 'Hilf jedem verdrehten Satz, wieder richtig zu klingen. Tippe auf Prüfen, wenn er gut klingt.', fr: 'Aide chaque phrase mélangée à sonner juste. Touche Vérifier quand elle sonne bien.', es: 'Ayuda a que cada oración enredada suene bien otra vez. Toca Comprobar cuando suene bien.', pt: 'Ajude cada frase bagunçada a ficar certinha. Toque em Verificar quando ela ficar boa.', it: 'Aiuta ogni frase pasticciata a suonare bene. Poi tocca Verifica.', nl: 'Help elke verdraaide zin weer goed te klinken. Tik op Controleer als hij goed klinkt.' },
-      promptCap:    { en: 'Tap the word that needs a capital letter.', de: 'Tippe das Wort an, das einen großen Buchstaben braucht.', fr: 'Touche le mot qui a besoin d’une majuscule.', es: 'Toca la palabra que necesita mayúscula.', pt: 'Toque na palavra que precisa de letra maiúscula.', it: 'Tocca la parola che ha bisogno della lettera maiuscola.', nl: 'Tik op het woord dat een hoofdletter nodig heeft.' },
-      promptPunct:  { en: 'Tap the mark that finishes the sentence.', de: 'Tippe das Satzzeichen an, das den Satz beendet.', fr: 'Touche le signe qui termine la phrase.', es: 'Toca el signo que termina la oración.', pt: 'Toque no sinal que termina a frase.', it: 'Tocca il segno che chiude la frase.', nl: 'Tik op het leesteken dat de zin afmaakt.' },
-      promptSwap:   { en: "Tap the word that sounds wrong, then pick the right one.", de: 'Tippe das falsche Wort an und wähle das richtige.', fr: 'Touche le mot qui sonne faux, puis choisis le bon.', es: 'Toca la palabra que suena mal y luego elige la correcta.', pt: 'Toque na palavra que soa errada e depois escolha a certa.', it: 'Tocca la parola che suona male, poi scegli quella giusta.', nl: 'Tik op het foute woord en kies het juiste.' },
-      promptInsert: { en: 'Tap the word that fills the gap.', de: 'Wähle das Wort, das in die Lücke passt.', fr: 'Choisis le mot qui remplit le trou.', es: 'Toca la palabra que llena el espacio.', pt: 'Toque na palavra que preenche o espaço.', it: 'Tocca la parola che riempie lo spazio.', nl: 'Kies het woord dat in het gaatje past.' },
-      promptReorder:{ en: 'Tap the words in order to build the sentence.', de: 'Tippe die Wörter der Reihe nach an, um den Satz zu bauen.', fr: 'Touche les mots dans l’ordre pour construire la phrase.', es: 'Toca las palabras en orden para formar la oración.', pt: 'Toque nas palavras em ordem para montar a frase.', it: 'Tocca le parole in ordine per costruire la frase.', nl: 'Tik de woorden op volgorde aan om de zin te bouwen.' },
-      promptDelete: { en: "Tap the word that doesn't belong.", de: 'Tippe das Wort an, das zu viel ist.', fr: 'Touche le mot qui est en trop.', es: 'Toca la palabra que sobra.', pt: 'Toque na palavra que está sobrando.', it: 'Tocca la parola che è di troppo.', nl: 'Tik op het woord dat te veel is.' },
-      promptSplit:  { en: 'Tap where two sentences bump together.', de: 'Tippe dort, wo zwei Sätze zusammenstoßen.', fr: 'Touche l’endroit où deux phrases se cognent.', es: 'Toca donde se juntan dos oraciones.', pt: 'Toque onde duas frases se esbarram.', it: 'Tocca dove due frasi si scontrano.', nl: 'Tik waar twee zinnen tegen elkaar botsen.' },
-      alright:      { en: "That one's alright — look again!", de: 'Der ist schon richtig — schau noch mal!', fr: 'C’est déjà correct — regarde encore !', es: '¡Esa está bien, mira otra vez!', pt: 'Essa aí já está certa — olhe de novo!', it: 'Quella è già giusta — guarda di nuovo!', nl: 'Die is al goed — kijk nog eens!' },
-      giggle:       { en: 'Hee hee — not quite. Listen again!', de: 'Hi hi — nicht ganz. Hör noch mal hin!', fr: 'Hi hi — presque ! Écoute encore.', es: '¡Ji ji, casi! ¡Escucha otra vez!', pt: 'Hi hi — quase! Escute de novo!', it: 'Ih ih — quasi! Ascolta di nuovo!', nl: 'Hihi — net niet. Luister nog eens!' },
-      soundsRight:  { en: 'Yes! Now it sounds right.', de: 'Ja! Jetzt klingt er richtig.', fr: 'Oui ! Maintenant, ça sonne juste.', es: '¡Sí! Ahora sí suena bien.', pt: 'Isso! Agora ficou certinho.', it: 'Sì! Adesso suona bene.', nl: 'Ja! Nu klinkt hij goed.' },
-      hintCheck:    { en: "Keep helping the sentence — then tap Check.", de: 'Hilf dem Satz weiter — tippe dann auf Prüfen.', fr: 'Aide la phrase — puis touche Vérifier.', es: 'Sigue ayudando a la oración y luego toca Comprobar.', pt: 'Continue ajudando a frase — depois toque em Verificar.', it: 'Continua ad aiutare la frase — poi tocca Verifica.', nl: 'Help de zin verder — tik dan op Controleer.' }
+      title:        { en: "Dr. Plume's Sentence Clinic", de: 'Dr. Plumes Satzklinik', fr: 'La clinique des phrases du Dr. Plume', es: 'La clínica de oraciones de la Dra. Plume', pt: 'A Clínica de Frases da Dra. Plume', it: 'La clinica delle frasi della Dott.ssa Plume', nl: 'Dr. Plumes zinnenkliniek', sv: 'Doktor Fjäders meningsklinik' },
+      instruction:  { en: 'Help each muddled sentence sound right again. Tap Check when it sounds good.', de: 'Hilf jedem verdrehten Satz, wieder richtig zu klingen. Tippe auf Prüfen, wenn er gut klingt.', fr: 'Aide chaque phrase mélangée à sonner juste. Touche Vérifier quand elle sonne bien.', es: 'Ayuda a que cada oración enredada suene bien otra vez. Toca Comprobar cuando suene bien.', pt: 'Ajude cada frase bagunçada a ficar certinha. Toque em Verificar quando ela ficar boa.', it: 'Aiuta ogni frase pasticciata a suonare bene. Poi tocca Verifica.', nl: 'Help elke verdraaide zin weer goed te klinken. Tik op Controleer als hij goed klinkt.', sv: 'Varje mening är lite trasslig. Laga den och tryck sedan på Kontrollera.' },
+      promptCap:    { en: 'Tap the word that needs a capital letter.', de: 'Tippe das Wort an, das einen großen Buchstaben braucht.', fr: 'Touche le mot qui a besoin d’une majuscule.', es: 'Toca la palabra que necesita mayúscula.', pt: 'Toque na palavra que precisa de letra maiúscula.', it: 'Tocca la parola che ha bisogno della lettera maiuscola.', nl: 'Tik op het woord dat een hoofdletter nodig heeft.', sv: 'Tryck på ordet som ska ha stor bokstav.' },
+      promptPunct:  { en: 'Tap the mark that finishes the sentence.', de: 'Tippe das Satzzeichen an, das den Satz beendet.', fr: 'Touche le signe qui termine la phrase.', es: 'Toca el signo que termina la oración.', pt: 'Toque no sinal que termina a frase.', it: 'Tocca il segno che chiude la frase.', nl: 'Tik op het leesteken dat de zin afmaakt.', sv: 'Tryck på tecknet som avslutar meningen.' },
+      promptSwap:   { en: "Tap the word that sounds wrong, then pick the right one.", de: 'Tippe das falsche Wort an und wähle das richtige.', fr: 'Touche le mot qui sonne faux, puis choisis le bon.', es: 'Toca la palabra que suena mal y luego elige la correcta.', pt: 'Toque na palavra que soa errada e depois escolha a certa.', it: 'Tocca la parola che suona male, poi scegli quella giusta.', nl: 'Tik op het foute woord en kies het juiste.', sv: 'Tryck på ordet som är fel skrivet. Välj sedan rätt ord.' },
+      promptInsert: { en: 'Tap the word that fills the gap.', de: 'Wähle das Wort, das in die Lücke passt.', fr: 'Choisis le mot qui remplit le trou.', es: 'Toca la palabra que llena el espacio.', pt: 'Toque na palavra que preenche o espaço.', it: 'Tocca la parola che riempie lo spazio.', nl: 'Kies het woord dat in het gaatje past.', sv: 'Tryck på ordet som passar i luckan.' },
+      promptReorder:{ en: 'Tap the words in order to build the sentence.', de: 'Tippe die Wörter der Reihe nach an, um den Satz zu bauen.', fr: 'Touche les mots dans l’ordre pour construire la phrase.', es: 'Toca las palabras en orden para formar la oración.', pt: 'Toque nas palavras em ordem para montar a frase.', it: 'Tocca le parole in ordine per costruire la frase.', nl: 'Tik de woorden op volgorde aan om de zin te bouwen.', sv: 'Tryck på orden i rätt ordning och bygg meningen.' },
+      promptDelete: { en: "Tap the word that doesn't belong.", de: 'Tippe das Wort an, das zu viel ist.', fr: 'Touche le mot qui est en trop.', es: 'Toca la palabra que sobra.', pt: 'Toque na palavra que está sobrando.', it: 'Tocca la parola che è di troppo.', nl: 'Tik op het woord dat te veel is.', sv: 'Tryck på ordet som är för mycket.' },
+      promptSplit:  { en: 'Tap where two sentences bump together.', de: 'Tippe dort, wo zwei Sätze zusammenstoßen.', fr: 'Touche l’endroit où deux phrases se cognent.', es: 'Toca donde se juntan dos oraciones.', pt: 'Toque onde duas frases se esbarram.', it: 'Tocca dove due frasi si scontrano.', nl: 'Tik waar twee zinnen tegen elkaar botsen.', sv: 'Tryck där två meningar krockar.' },
+      alright:      { en: "That one's alright — look again!", de: 'Der ist schon richtig — schau noch mal!', fr: 'C’est déjà correct — regarde encore !', es: '¡Esa está bien, mira otra vez!', pt: 'Essa aí já está certa — olhe de novo!', it: 'Quella è già giusta — guarda di nuovo!', nl: 'Die is al goed — kijk nog eens!', sv: 'Där är det redan rätt — leta vidare!' },
+      giggle:       { en: 'Hee hee — not quite. Listen again!', de: 'Hi hi — nicht ganz. Hör noch mal hin!', fr: 'Hi hi — presque ! Écoute encore.', es: '¡Ji ji, casi! ¡Escucha otra vez!', pt: 'Hi hi — quase! Escute de novo!', it: 'Ih ih — quasi! Ascolta di nuovo!', nl: 'Hihi — net niet. Luister nog eens!', sv: 'Hoppsan — inte riktigt. Titta igen!' },
+      soundsRight:  { en: 'Yes! Now it sounds right.', de: 'Ja! Jetzt klingt er richtig.', fr: 'Oui ! Maintenant, ça sonne juste.', es: '¡Sí! Ahora sí suena bien.', pt: 'Isso! Agora ficou certinho.', it: 'Sì! Adesso suona bene.', nl: 'Ja! Nu klinkt hij goed.', sv: 'Precis! Nu är meningen rätt skriven.' },
+      hintCheck:    { en: "Keep helping the sentence — then tap Check.", de: 'Hilf dem Satz weiter — tippe dann auf Prüfen.', fr: 'Aide la phrase — puis touche Vérifier.', es: 'Sigue ayudando a la oración y luego toca Comprobar.', pt: 'Continue ajudando a frase — depois toque em Verificar.', it: 'Continua ad aiutare la frase — poi tocca Verifica.', nl: 'Help de zin verder — tik dan op Controleer.', sv: 'Fortsätt laga meningen — tryck sedan på Kontrollera.' }
     },
 
     defaults: {},
@@ -126,11 +164,13 @@
       this.round = round;
       this.tokens = round.tokens.slice();
       this.diagnosed = -1; this.placed = []; this.readOnly = false; this.solvedNow = false;
+      this._fixedIndex = -1;
       // insert actions show the gap + option chips from the start; reorder = arrange; rest = diagnose
       this.phase = (round.action === 'insert-punct' || round.action === 'insert-word') ? 'repair'
         : (round.action === 'reorder') ? 'arrange' : 'diagnose';
       var seed = 0; for (var i = 0; i < round.id.length; i++) seed = (seed * 31 + round.id.charCodeAt(i)) | 0;
       this._optOrder = null; this._reorderTray = null; this._seed = seed;
+      if (this._msgEl) { this._msgEl.textContent = ''; this._msgEl.classList.remove('miss'); }
     },
 
     render: function () {
@@ -148,6 +188,12 @@
       nook.append(leaf, plume);
 
       var card = api.el('div', 'sc-card'); this._cardEl = card;
+
+      /* The feedback line — see the note above. It is also what enrolls this activity in the
+         visual-qa SCALE gate, which locates the feedback region as `.lcs-stage [aria-live]` and
+         SKIPS the check entirely when there is none: this deck has never been measured by it. */
+      var msg = api.el('p', 'sc-msg'); msg.setAttribute('aria-live', 'polite'); this._msgEl = msg;
+      card.appendChild(msg);
 
       /* sounds-right pulse meter (only climbs) */
       var pulse = api.el('div', 'sc-pulse');
@@ -167,36 +213,73 @@
       if (!this.round) return;                                   // mount-time render before the first task loads
       if (this.round.action === 'reorder') { this._renderReorder(card); return; }
 
+      if (this._msgEl) card.appendChild(this._msgEl);
       var sent = api.el('div', 'sc-sentence');
       var action = this.round.action, gapIndex = this.round.gapIndex;
       var isInsert = (action === 'insert-punct' || action === 'insert-word');
 
+      /* ⚠⚠ WRAPPING IS A TEACHING SURFACE IN THIS ACTIVITY, so the row cannot break wherever it
+         likes. Two defects came out of the 360px renders, both from free wrapping:
+           • the split round broke the line between `det` and `var` — and a line break is the
+             strongest "a sentence ends here" cue a seven-year-old has, so the LAYOUT was pointing
+             at the wrong boundary while the real seam sat mid-line. A coral seam tick was also
+             left dangling at the end of a line with no word after it.
+           • the final full stop wrapped ONTO ITS OWN LINE, centred and alone above the option
+             tray, where a narrow tall pill reads as a fourth option rather than as punctuation.
+         So chips are emitted in NON-BREAKING GROUPS: punctuation is glued to the word before it,
+         and a seam is glued to the word after it (a seam belongs to the boundary it opens). The
+         row still wraps between groups, which is the only place a break is honest. */
+      var grp = null;
+      function group(startNew) {
+        if (startNew || !grp) { grp = api.el('span', 'sc-grp'); sent.appendChild(grp); }
+        return grp;
+      }
+
       for (var i = 0; i <= this.tokens.length; i++) {
         // gap slot for insert actions (at gapIndex)
-        if (isInsert && i === gapIndex) {
+        if (isInsert && i === gapIndex && !this.readOnly) {
           var slot = api.el('span', 'sc-gap' + (this._gapFilled ? ' is-filled' : ''));
           slot.textContent = this._gapFilled ? this._gapFilled : '';
-          sent.appendChild(slot);
+          slot.setAttribute('aria-label', a11y('gap'));
+          group(true).appendChild(slot);
         }
         if (i === this.tokens.length) break;
         // seam (split action): a tappable gap BEFORE each word except the first
-        if (action === 'split' && i > 0 && !this.readOnly) {
+        /* ⚠ and NEVER before a punctuation mark: a seam there offers to end the first sentence
+           immediately before the full stop, which is not a split any child should weigh. */
+        if (action === 'split' && i > 0 && !this.readOnly && /[\p{L}\p{N}]/u.test(this.tokens[i])) {
           (function (seam) {
-            var s = api.el('button', 'sc-seam'); s.type = 'button'; s.setAttribute('aria-label', 'split here');
+            var s = api.el('button', 'sc-seam'); s.type = 'button'; s.setAttribute('aria-label', a11y('seam', i));
             s.innerHTML = '<span class="sc-seam-mark"></span>';
             s.addEventListener('click', function () { self._tapSeam(seam - 1); }); // seam BEFORE word i ⇒ after word i-1
-            sent.appendChild(s);
+            group(true).appendChild(s);                 // opens the group its word will join
           }(i));
         }
         var tok = this.tokens[i];
-        var chip = api.el(this._tappableWord(action) && !this.readOnly ? 'button' : 'span', 'sc-chip');
+        /* ⚠ A PUNCTUATION MARK IS NOT A WORD. Every token used to become a <button> in the
+           capitalize/swap/delete rounds, so tapping the full stop answered ‘that one is already
+           right’ — the activity calling a mark a word, in a deck that teaches punctuation. It was
+           also the narrowest control on screen (23px at 320, 37px at desktop) and so the thing
+           that failed the 44px tap floor in every locale. No round diagnoses a punctuation token,
+           so excluding it costs nothing and lets the mark stay narrow — which is what keeps the
+           six-token Swedish sentence on ONE row at desktop. */
+        var isWord = /[\p{L}\p{N}]/u.test(tok);
+        var chip = api.el(this._tappableWord(action) && !this.readOnly && isWord ? 'button' : 'span', 'sc-chip' + (isWord ? '' : ' sc-punct'));
         if (chip.tagName === 'BUTTON') chip.type = 'button';
         chip.textContent = tok;
-        if (this.diagnosed === i && action === 'swap') chip.classList.add('is-target');
-        if (this._tappableWord(action) && !this.readOnly) {
+        /* ⚠ COral MUST MEAN EXACTLY ONE THING — "look again". `is-target` is the coral pulsing ring
+           on the word the child diagnosed, and `diagnosed` is never cleared, so it survived onto the
+           SOLVED card: a coral ring around `och` directly under the words "Precis! Nu är meningen
+           rätt skriven." Once the round is done the same word is marked GREEN, matching `.sc-placed`,
+           so green says repaired and coral only ever says look again. */
+        if (this.readOnly && i === this._fixedIndex) chip.classList.add('is-fixed');
+        else if (this.diagnosed === i && action === 'swap') chip.classList.add('is-target');
+        if (this._tappableWord(action) && !this.readOnly && isWord) {
           (function (idx) { chip.addEventListener('click', function () { self._tapWord(idx); }); }(i));
         }
-        sent.appendChild(chip);
+        /* a WORD opens a group unless a seam just opened one for it; PUNCTUATION always joins the
+           group already open, so a mark can never wrap away from the word it belongs to */
+        group(isWord && !(action === 'split' && i > 0 && !this.readOnly)).appendChild(chip);
       }
       card.appendChild(sent);
 
@@ -223,6 +306,7 @@
 
     _renderReorder: function (card) {
       var self = this, api = this.api, total = this.round.tokens.length;
+      if (this._msgEl) card.appendChild(this._msgEl);
       /* a row of slots (one per word) — filled slots show the placed word, empty
          slots glow as clear "drop a word here" targets (the tray→line wiring). */
       var build = api.el('div', 'sc-sentence sc-build');
@@ -234,6 +318,7 @@
           build.appendChild(b);
         } else {
           var slot = api.el('span', 'sc-slot' + (pos === this.placed.length && !this.readOnly ? ' is-next' : ''));
+          slot.setAttribute('aria-label', a11y('gap', pos + 1));
           build.appendChild(slot);
         }
       }
@@ -260,6 +345,7 @@
       if (a === 'swap' && this.phase === 'repair') { return; } // words locked once diagnosed
       if (Core.diagnoseCorrect(this.round, i)) {
         if (a === 'capitalize' || a === 'delete') {
+          if (a === 'capitalize') this._fixedIndex = this.round.targetIndex;   // delete removes a token: nothing to mark
           this.tokens = Core.applyRepair(this.round); this._win();
         } else if (a === 'swap') {
           this.diagnosed = i; this.phase = 'repair'; this._setPose('examine'); this.api.sound && this.api.sound(660);
@@ -270,15 +356,15 @@
 
     _tapSeam: function (afterIndex) {
       if (this.readOnly) return;
-      if (Core.diagnoseCorrect(this.round, afterIndex)) { this.tokens = Core.applyRepair(this.round); this._win(); }
+      if (Core.diagnoseCorrect(this.round, afterIndex)) { this._fixedIndex = this.round.seamIndex + 1; this.tokens = Core.applyRepair(this.round); this._win(); }
       else this._alright();
     },
 
     _tapOption: function (val) {
       if (this.readOnly) return;
       if (Core.repairCorrect(this.round, val)) {
-        if (this.round.action === 'swap') this.tokens = Core.applyRepair(this.round);
-        else { this._gapFilled = val; this.tokens = Core.applyRepair(this.round); }
+        if (this.round.action === 'swap') { this._fixedIndex = this.round.targetIndex; this.tokens = Core.applyRepair(this.round); }
+        else { this._gapFilled = val; this._fixedIndex = this.round.gapIndex; this.tokens = Core.applyRepair(this.round); }
         this._win();
       } else { this._giggle(); }
     },
@@ -297,17 +383,24 @@
       this._setPose('happy'); this.api.sound && this.api.sound(880);
       this.solved = Math.min(this.solved + 1, (this._pool && this._pool.length) || 7);
       this._renderCard(); this._paintPulse(); this._sparkle();
-      if (this.api.announce) this.api.announce(this.api.t('soundsRight'));
-      speak(Core.applyRepair(this.round).join(' ').replace(/ \./g, '.').replace(/ ,/g, ','));
+      this._say(this.api.t('soundsRight'), false);
+      speak(Core.applyRepair(this.round).join(' ').replace(/ \./g, '.').replace(/ ,/g, ',').replace(/ \?/g, '?').replace(/ !/g, '!'));
     },
-    _alright: function () { this._setPose('examine'); this.api.sound && this.api.sound(520); if (this.api.announce) this.api.announce(this.api.t('alright')); },
+    _alright: function () { this._setPose('examine'); this.api.sound && this.api.sound(520); this._say(this.api.t('alright'), false); },
     _giggle: function () {
       this._setPose('examine'); this.api.sound && this.api.sound(360);
-      if (this.api.announce) this.api.announce(interp(this.api.t('giggle'), {}) + ' ' + this.round.convention);
+      this._say(interp(this.api.t('giggle'), {}), true);
       var card = this._cardEl; if (card) { card.classList.add('sc-giggle'); var self = this; setTimeout(function () { card.classList.remove('sc-giggle'); }, 480); }
     },
 
     _paintPulse: function () { if (this._pulseFill) { var n = (this._pool && this._pool.length) || 7; this._pulseFill.style.width = Math.round(100 * this.solved / n) + '%'; } },
+    /* ONE place paints the line, so the visible and the announced text can never disagree.
+       `miss` is reserved for a wrong REPAIR: _alright is informational ("that one is already
+       right"), not an error, and colouring it as one would contradict its own sentence. */
+    _say: function (text, miss) {
+      var m = this._msgEl; if (m) { m.textContent = text; m.classList.toggle('miss', !!miss); }
+      if (this.api.announce) this.api.announce(text);
+    },
     _setPose: function (name) { if (this._plumeEl) this._plumeEl.setAttribute('data-pose', name === 'happy' ? 'happy' : 'idle'); },
     _sparkle: function () {
       if (global.matchMedia && global.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
@@ -370,24 +463,39 @@
         + '@keyframes scGiggle{0%,100%{transform:translateX(0) rotate(0);}25%{transform:translateX(-4px) rotate(-1.5deg);}75%{transform:translateX(4px) rotate(1.5deg);}}'
         /* the sentence — word chips */
         + '.sc-sentence{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:clamp(5px,1.4vw,9px);}'
+        /* a non-breaking group: punctuation stays with its word, a seam with the word it opens */
+        + '.sc-grp{display:inline-flex;align-items:center;gap:clamp(5px,1.4vw,9px);}'
         + '.sc-chip{font-family:"Baloo 2",var(--lcs-font-display,sans-serif);font-weight:700;font-size:clamp(16px,4.4vw,22px);color:' + C.T + ';'
-        +   'background:#FFFDF7;border:2px solid rgba(20,107,94,.2);border-radius:12px;padding:clamp(6px,1.6vw,10px) clamp(9px,2.4vw,14px);line-height:1;min-height:44px;display:inline-flex;align-items:center;cursor:default;}'
+        +   'background:#FFFDF7;border:2px solid rgba(20,107,94,.2);border-radius:12px;padding:clamp(6px,1.6vw,10px) clamp(9px,2.4vw,14px);line-height:1;min-height:44px;min-width:44px;display:inline-flex;align-items:center;justify-content:center;cursor:default;}'
         + 'button.sc-chip{cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation;transition:transform .1s,border-color .15s,box-shadow .15s;}'
         + 'button.sc-chip:active{transform:scale(.96);}'
         + 'button.sc-chip:focus-visible,.sc-opt:focus-visible,.sc-seam:focus-visible{outline:3px solid var(--lcs-focus,#1E8FD4);outline-offset:2px;}'
-        + '.sc-chip.is-target{border-color:' + C.CORAL + ';box-shadow:0 0 0 3px rgba(242,120,75,.25),0 0 12px rgba(242,120,75,.4);animation:scGlow 1.2s ease-in-out infinite;}'
+        + '.sc-chip.is-target{border-color:' + C.GOOD + ';box-shadow:0 0 0 3px rgba(47,165,106,.25),0 0 12px rgba(47,165,106,.4);animation:scFound 1.2s ease-in-out infinite;}'
+        + '@keyframes scFound{0%,100%{box-shadow:0 0 0 3px rgba(47,165,106,.22),0 0 8px rgba(47,165,106,.3);}50%{box-shadow:0 0 0 3px rgba(47,165,106,.32),0 0 16px rgba(47,165,106,.5);}}'
         + '@keyframes scGlow{0%,100%{box-shadow:0 0 0 3px rgba(242,120,75,.22),0 0 8px rgba(242,120,75,.3);}50%{box-shadow:0 0 0 3px rgba(242,120,75,.32),0 0 16px rgba(242,120,75,.5);}}'
+        /* a mark is not a control, so the 44px floor does not apply to it — and keeping it
+           narrow is what stops the sentence wrapping to a second row. */
+        + '.sc-chip.sc-punct{min-width:0;padding-left:clamp(5px,1.4vw,8px);padding-right:clamp(5px,1.4vw,8px);}'
+        + '.sc-chip.is-fixed{background:#EAF7EF;border-color:' + C.GOOD + ';box-shadow:0 0 0 2px rgba(47,165,106,.28);}'
         + '.sc-placed{background:#EAF7EF;border-color:' + C.GOOD + ';}'
         + '.sc-build{min-height:48px;}'
         /* reorder empty slots — clear "drop a word here" targets */
-        + '.sc-slot{min-width:clamp(40px,11vw,58px);min-height:44px;border-radius:12px;background:rgba(20,107,94,.06);box-shadow:inset 0 0 0 2px rgba(20,107,94,.18);display:inline-block;}'
+        + '.sc-slot{min-width:clamp(44px,11vw,58px);min-height:44px;border-radius:12px;background:rgba(20,107,94,.06);box-shadow:inset 0 0 0 2px rgba(20,107,94,.18);display:inline-block;}'
         + '.sc-slot.is-next{box-shadow:inset 0 0 0 2px rgba(242,120,75,.55),inset 0 0 10px rgba(242,120,75,.3);animation:scGlow 1.3s ease-in-out infinite;}'
         /* gap slot (insert) — a soft empty notch with a glow (no dashed ghost) */
-        + '.sc-gap{min-width:clamp(34px,9vw,46px);min-height:44px;display:inline-flex;align-items:center;justify-content:center;border-radius:12px;'
+        + '.sc-gap{min-width:clamp(44px,9vw,46px);min-height:44px;display:inline-flex;align-items:center;justify-content:center;border-radius:12px;'
         +   'background:rgba(20,107,94,.07);box-shadow:inset 0 0 0 2px rgba(242,120,75,.4),0 0 10px rgba(242,120,75,.25) inset;font-weight:800;color:' + C.T + ';font-size:clamp(16px,4.4vw,22px);animation:scGlow 1.3s ease-in-out infinite;}'
         + '.sc-gap.is-filled{background:#EAF7EF;box-shadow:inset 0 0 0 2px ' + C.GOOD + ';animation:none;}'
         /* seam (split) — a tappable hairline between words */
-        + '.sc-seam{align-self:stretch;min-width:14px;min-height:44px;background:none;border:0;padding:0 1px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;-webkit-tap-highlight-color:transparent;}'
+        /* ⚠ THE SEAM IS 44px TO THE FINGER AND 14px TO THE LAYOUT. It shipped at 14px wide — the
+           only control of the split round, and far under the tap floor. But a split sentence has
+           one seam before every word except the first, so five honest 44px boxes eat 220px of a
+           320px screen and wrapped the sentence into rows that pushed Check past the fold in three
+           locales. The negative margin gives the element a real 44px hit box while it contributes
+           only 14px of width, and it is safe BY CONSTRUCTION rather than by tuning: `_tappableWord`
+           is false for `split`, so in the only round where seams exist the neighbouring chips are
+           <span>s and there is no control for the overhang to steal a tap from. */
+        + '.sc-seam{align-self:stretch;min-width:44px;min-height:44px;margin-left:-15px;margin-right:-15px;background:none;border:0;padding:0 1px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;-webkit-tap-highlight-color:transparent;}'
         + '.sc-seam-mark{width:4px;height:60%;border-radius:3px;background:rgba(242,120,75,.45);animation:scSeam 1.2s ease-in-out infinite;}'
         + '@keyframes scSeam{0%,100%{opacity:.4;}50%{opacity:.9;}}'
         /* repair option chips */
@@ -395,19 +503,70 @@
         + '.sc-opt{font-family:"Baloo 2",var(--lcs-font-display,sans-serif);font-weight:700;font-size:clamp(15px,4vw,20px);color:#fff;background:' + C.T + ';border:0;border-radius:12px;'
         +   'padding:clamp(8px,2vw,11px) clamp(12px,3vw,18px);min-height:44px;min-width:44px;cursor:pointer;box-shadow:0 3px 0 rgba(20,107,94,.4);-webkit-tap-highlight-color:transparent;touch-action:manipulation;transition:transform .1s,box-shadow .1s;}'
         + '.sc-opt:active{transform:translateY(2px);box-shadow:0 1px 0 rgba(20,107,94,.4);}'
-        + '.sc-rule{font-family:"Nunito",sans-serif;font-weight:700;font-size:clamp(12px,3vw,15px);color:' + C.CORAL2 + ';text-align:center;}'
+        + '.sc-rule{font-family:"Nunito",sans-serif;font-weight:700;font-size:clamp(12px,3vw,15px);color:' + C.T + ';text-align:center;}'
+        /* the feedback line. min-height reserves the row so appearing text cannot shift the
+           layout under the FITS gate; the size GROWS with the card (the SCALE gate). */
+        + '.sc-msg{margin:0;min-height:1.15em;text-align:center;font-family:"Nunito",sans-serif;font-weight:700;font-size:clamp(13px,3.2vw,17px);line-height:1.3;padding:0 6px;color:' + C.T + ';}'
+        + '.sc-msg.miss{color:' + C.MISS + ';}'
         /* pulse meter */
-        + '.sc-pulse{width:min(70%,300px);height:10px;border-radius:6px;background:rgba(20,107,94,.12);overflow:hidden;}'
+        + '.sc-pulse{width:min(86%,320px);align-self:center;height:10px;border-radius:6px;background:rgba(20,107,94,.12);overflow:hidden;}'
         + '.sc-pulse-fill{height:100%;width:0;border-radius:6px;background:linear-gradient(90deg,' + C.T2 + ',' + C.GOOD + ');transition:width .4s var(--lcs-ease,ease);}'
         /* Plume pose */
         + '.sc-pl-eyes-happy{display:none;} .sc-plume[data-pose="happy"] .sc-pl-eyes-open{display:none;} .sc-plume[data-pose="happy"] .sc-pl-eyes-happy{display:inline;}'
         + '.sc-sparkle{position:absolute;left:50%;top:2px;transform:translateX(-50%);color:' + C.CORAL + ';font-size:20px;animation:scSpark .7s ease forwards;pointer-events:none;}'
         + '@keyframes scSpark{0%{opacity:0;transform:translate(-50%,6px) scale(.5);}30%{opacity:1;}100%{opacity:0;transform:translate(-50%,-22px) scale(1.1);}}'
+        /* ⚠ DESKTOP HEADROOM. The .sc-msg feedback line added in this build costs a real 31px
+           (a 20px reserved row + the card's own gap), measured en 762→793 / 831→862 at 1024×900.
+           English clears 900 with it; Swedish does not, because the sv prompt wraps to more lines
+           — the recorded 'Swedish copy is the longest in the family' trap, which already left a
+           sibling 3px from an overflow. Reclaim the 31px from this activity's own generous
+           desktop padding rather than shrinking the owl (sv #24: the mascot reading as a stray
+           emoji at desktop was itself a defect) and rather than touching the shell.
+           ⚠ This block sits AFTER the rules it overrides — a media query adds NO specificity, so
+           placing it earlier would silently lose. It is disjoint from the max-width:360 block. */
+        + '@media (min-width:768px){'
+        /* ⚠ AND GIVE THE SENTENCE ROOM. The scene is capped at 500px even on a 1366px screen, and
+           `Jag och min bror cyklar .` measures ~467px against ~455px of content width — so it
+           wrapped to a SECOND ROW, and that row, not the message line, is what pushed Check below
+           a 900px fold. The horizontal room was there and unused; widening is the honest fix,
+           where shaving the type or the owl would have been shaving to pass. */
+        +   '.sc-scene{max-width:min(94vw,580px);gap:6px;padding-bottom:10px;}'
+        /* ⚠⚠ AND BRING THE PROMPT DOWN TO MEET THE CONTENT. The shell gives the prompt
+           clamp(22px,6vh,48px), which pins to 48px on a desktop viewport while the sentence chips
+           are 22px — the INVARIANT question rendered nearly twice the size of the only thing on
+           screen the child has to read to answer it, and taking more vertical space than the whole
+           card. This is the sv #24 inverted-hierarchy defect, and no gate can see it: the SCALE
+           check only asks whether the feedback line grows. Read off the render, not measured by an
+           instrument. 28px still leads the 22px chips, so the prompt stays the heading it is. */
+        +   '.lcs-app.activity .lcs-activity-prompt{font-size:clamp(24px,2.6vw,30px);}'
+        +   '.sc-card{gap:7px;}'
+        +   '.sc-nook{margin-bottom:2px;}'
+        + '}'
         /* narrowest phones (Galaxy Fold cover ~320px) — the tray rounds add a
            second chip row; shave the panel so the card + Check clear the fold. */
         + '@media (max-width:360px){'
-        +   '.sc-scene{padding:6px 8px;gap:3px;} .sc-board{gap:5px;} .sc-plume{width:38px;} .sc-card{padding:6px;gap:4px;}'
-        +   '.sc-chip,.sc-opt{font-size:15px;min-height:40px;padding:4px 8px;} .sc-gap,.sc-seam{min-height:40px;} .sc-pulse{height:7px;}'
+        /* ⚠ WIDTH, NOT HEIGHT, IS WHAT BREAKS THE FOLD COVER. Measured at 320: the scene renders
+           243px (the shell's own padding takes 77 of the 320), leaving the card ~211px of inner
+           width against a 227px three-option tray — so the tray wrapped to a second row, and it is
+           that row, not the type size, that pushed Check past 640. Giving the two boxes back 20px
+           of horizontal padding un-wraps it and buys ~48px of height, without shrinking a single
+           thing the child reads or taps. */
+        +   '.sc-scene{padding:6px 2px;gap:3px;} .sc-board{gap:5px;} .sc-plume{width:38px;} .sc-card{padding:6px 2px;gap:4px;}'
+        +   '.sc-chip,.sc-opt{font-size:15px;min-height:44px;padding:4px 6px;} .sc-gap,.sc-seam{min-height:44px;} .sc-pulse{height:7px;}'
+        /* ⚠ AND SCOPE THE SHELL PROMPT DOWN — on the Fold cover only. The prompt is
+           clamp(22px,4.2vmin,32px), so at 320 it pins to 22px while the sentence chips are 15px:
+           the INVARIANT question rendered half again the size of the one thing on screen the child
+           must read to answer it, wrapping to four lines and pushing Check past the fold in
+           fr/pt/it. That is the sv #24 inverted-hierarchy finding at the other end of the range.
+           18px still sits above the 15px chips, so the hierarchy is preserved, not flipped.
+           ⚠ 0 lines to lcs-shell.css: this is a same-specificity override in the activity's own
+           injected stylesheet, which the document head loads AFTER the shell's. */
+        /* ⚠⚠ AND IT MUST CARRY THE SHELL'S OWN SPECIFICITY. The strongest shell rule is
+           `.lcs-app.activity .lcs-activity-prompt` — TWO classes — so a single-class override loses
+           however late it is injected, and it loses SILENTLY: the computed size stayed put while
+           the declaration sat in the stylesheet looking applied. Same family as the recorded
+           "a media query adds no specificity" trap. Matched here, not forced with !important. */
+        +   '.lcs-app.activity .lcs-activity-prompt{font-size:17px;line-height:1.12;padding-top:2px;}'
         + '}'
         + '@media (prefers-reduced-motion: reduce){.sc-chip.is-target,.sc-gap,.sc-seam-mark,.sc-giggle,.sc-sparkle{animation:none;}}';
       var tag = document.createElement('style'); tag.setAttribute('data-sentence-clinic', ''); tag.textContent = css;

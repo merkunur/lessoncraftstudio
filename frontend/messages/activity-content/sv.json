@@ -2065,6 +2065,29 @@
         "Barnet vet att o- vänder ordets betydelse, medan -full och -lös pekar åt varsitt håll",
         "Barnet bygger den vana att titta på orddelarna som gör att nya ord går att förstå på egen hand"
       ]
+    },
+    "sentence-builder.build-a-sentence.l-1-1-j": {
+      "about": [
+        "Barnet ser en bild — en hund — och under den fyra tomma rutor och fyra ordkort i blandad ordning: skäller. brun En hund. Barnet trycker på ett kort i taget, och orden hamnar i rutorna från vänster till höger tills hela meningen står där: En brun hund skäller.",
+        "Det som övas är att en mening har en ordning. Först kommer den som meningen handlar om — en brun hund — och sedan verbet, det som händer. Kortet med stor bokstav visar var meningen börjar och kortet med punkt var den slutar; punkten sitter fast på det sista ordet, så barnet slipper leta efter den och kan lägga hela sin uppmärksamhet på ordningen.",
+        "Nio meningar, i ny ordning varje gång. En av dem är En vit höna pickar och en annan Ett vitt får bräker, så barnet möter en och ett bredvid varandra. Aktiviteten följer Lgr22 inom området språkliga strukturer och normer: grundläggande skrivregler med stor bokstav och punkt. Det finns varken tidtagning eller poäng, och ett kort som hamnat fel går att trycka tillbaka hur många gånger som helst."
+      ],
+      "practices": [
+        "Sätta lösa ord i den ordning som gör dem till en hel mening",
+        "Börja meningen med stor bokstav och avsluta den med punkt",
+        "Se att orden om vem meningen handlar om hör ihop — en, brun och hund — och kommer före verbet",
+        "Läsa igenom den byggda meningen och höra efter om den låter rätt"
+      ],
+      "howToPlay": [
+        "Titta på bilden och läs de blandade ordkorten. Ett kort börjar med stor bokstav och ett slutar med punkt — de visar var meningen börjar och slutar.",
+        "Tryck på ett kort i taget, så hamnar ordet i nästa tomma ruta från vänster. Trycker du på en ruta som redan är fylld åker ordet tillbaka till korthögen. Ingenting behöver dras med fingret.",
+        "När alla rutor är fyllda trycker du på Kontrollera. Blir det fel låses ingenting — du får en vänlig påminnelse och flyttar om korten. Tryck på Lyssna om du vill höra det du byggt så här långt."
+      ],
+      "learningGoals": [
+        "Barnet kan sätta ihop en hel mening av lösa ord i rätt ordning",
+        "Barnet vet att en mening börjar med stor bokstav och slutar med punkt",
+        "Barnet känner igen att orden om vem meningen handlar om hör ihop och står före verbet"
+      ]
     }
   }
 }

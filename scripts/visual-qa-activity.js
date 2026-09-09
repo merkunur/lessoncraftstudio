@@ -40,6 +40,26 @@ const fs = require('fs');
 const path = require('path');
 
 const arg = (k, d) => { const m = process.argv.find(a => a.startsWith('--' + k + '=')); return m ? m.split('=')[1] : d; };
+
+/* ⚠⚠ AN UNKNOWN FLAG USED TO BE SILENTLY IGNORED, AND THAT IS INDISTINGUISHABLE
+   FROM A CORRECT RUN. `--lang=sv` (the plausible-but-wrong spelling of `--locale=sv`)
+   fell through to the 'en' default, so the sweep rendered ENGLISH, printed a normal
+   PASS, and wrote English screenshots — while the operator was told the Swedish
+   build had been swept at every width. It cost two false reports in one session,
+   and it is the same class as the recorded `--activities=` trap on the mobile audit
+   and the "filtered run that matches nothing looks exactly like one that passes".
+   A wrong RUN is worse than a failed run, because it carries a green verdict.
+   Refuse anything not in KNOWN, and name the near-miss. */
+const KNOWN = ['activity', 'locale', 'widths'];
+const unknown = process.argv.slice(2).filter((a) => a.startsWith('--') && KNOWN.indexOf(a.slice(2).split('=')[0]) < 0);
+if (unknown.length) {
+  const near = (k) => KNOWN.find((n) => n[0] === k[0] || n.indexOf(k) >= 0 || k.indexOf(n) >= 0);
+  console.error('FAIL: unrecognised flag(s): ' + unknown.join(' '));
+  unknown.forEach((u) => { const k = u.slice(2).split('=')[0], n = near(k); if (n) console.error('  did you mean --' + n + '= ?'); });
+  console.error('Known flags: ' + KNOWN.map((k) => '--' + k + '=').join(' '));
+  process.exit(2);
+}
+
 const ACTIVITY = arg('activity', null);
 const LOCALE = arg('locale', 'en');
 if (!ACTIVITY) { console.error('Usage: node scripts/visual-qa-activity.js --activity=<manifest-id> [--locale=en]'); process.exit(2); }

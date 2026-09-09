@@ -196,6 +196,21 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     pt: 'Ampliação do vocabulário', // BNCC LP descriptor within Análise linguística/semiótica (formação de palavras — prefixos/sufixos); DISTINCT from the grammar strand "Language"→pt "Análise linguística/semiótica" (preserves the sibling vocab/grammar split, mirrors es "Ampliación del vocabulario"); pt literacy fan-out — reused by future pt vocabulary activities
     it: 'Lessico', // Indicazioni nazionali area "Acquisizione ed espansione del lessico ricettivo e produttivo" (prefissi/suffissi, arricchimento lessicale); DISTINCT from the grammar strand "Language"→it "Riflessione linguistica" (preserves the vocab/grammar split, mirrors fr "Le lexique"/es "Ampliación del vocabulario"); it literacy fan-out — reused by every future it vocabulary activity
     nl: 'Woordenschat en woordvorming', // SLO-domein Woordenschat (leergebied Nederlands) — woordvorming/morfologie (voor-/achtervoegsels); DUIDELIJK onderscheiden van de grammatica-strand "Language"→nl "Taal" (behoudt de woordenschat/grammatica-splitsing, mirrors de "Wortschatz untersuchen"/it "Lessico"); nl literacy/vocab fan-out (#22 affix) — herbruikbaar door toekomstige nl woordenschat-activiteiten
+    // sv: the Lgr22 svenska centralt-innehall bullet under the heading "Sprakbruk", arskurs 1-3
+    // ("Ord och begrepp som anvands for att uttrycka kanslor, kunskaper och asikter"). Chosen over
+    // 'Ordforrad och ordbildning' because THIS NAME IS INHERITED BY TEN Vocabulary-cluster
+    // activities (antonyms, hyperonyms, categories, shades of meaning, context clues, compounds,
+    // word families) and *ordbildning* is simply wrong for five of them - it fits the affix
+    // activity perfectly, which is the trap. Rejected 'Sprakbruk' too: it is a HEADING, while the
+    // sibling grammar strand 'Language' -> sv 'Sprakliga strukturer och normer' is a BULLET, so
+    // pairing them would mix kursplan levels; it also covers kroppssprak and tonfall.
+    // Distinct from that grammar strand in both wording and scope: what words MEAN vs how they
+    // are built and spelt. Corollary: *ordbildning* is the right word in the SLUG, not here.
+    // ⚠ PROVENANCE: this repo contains NO Swedish language-arts kursplan text (same note as the
+    // 'Language' sv entry). High confidence this is real Lgr22 wording; MEDIUM that it is
+    // verbatim to the character - spot-check against Skolverket before quoting it as a citation.
+    // sv literacy/vocab fan-out (#22 affix) - the platform's FIRST sv Vocabulary activity.
+    sv: 'Ord och begrepp',
   },
   'Number & Operations—Fractions': {
     en: 'Number & Operations—Fractions',

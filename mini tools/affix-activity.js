@@ -24,16 +24,24 @@
   var SENSE = {
     en: { un: 'NOT', re: 'AGAIN', ful: 'FULL OF', less: 'WITHOUT' },
     de: { un: 'NICHT', ful: 'VOLLER', less: 'OHNE' },
-    fr: { un: 'LE CONTRAIRE', re: 'À NOUVEAU', ful: 'PLEIN DE' },
-    es: { un: 'LO CONTRARIO', re: 'OTRA VEZ', ful: 'LLENO DE' },
-    pt: { un: 'O CONTRÁRIO', re: 'DE NOVO', ful: 'CHEIO DE' },
-    /* it (#22 fan-out — FIRST it VOCABULARY strand «Lessico»): the "opposite" prefix = dis- (ensemble-decisive:
-       zero allomorphy, pairs with ri-; in- rejected for im-/il-/ir- allomorphy, s- rejected as thin/noisy) */
-    it: { un: 'IL CONTRARIO', re: 'DI NUOVO', ful: 'PIENO DI' },
-    /* nl (#22 fan-out — FIRST nl VOCABULARY strand "Woordenschat en woordvorming"): Germanic-cognate = the German
-       model — 3 affixen on-/-loos/-vol, GEEN `re`/her- (minder K-2-transparant). SENSE = één kort hoofdletterwoord
-       (VOL, NIET "VOL VAN" — natuurlijker + past op de chip; rijmt qua vorm met NIET/ZONDER) */
-    nl: { un: 'NIET', ful: 'VOL', less: 'ZONDER' }
+    nl: { un: 'NIET', ful: 'VOL', less: 'ZONDER' },
+    /* sv (#22 fan-out — the platform's FIRST sv VOCABULARY strand 'Ord och begrepp'): the Germanic
+       branch o- / -full / -lös. NOT a calque of de — every candidate in the handover note (-lig, -het,
+       -are, -bar) has an exact German cognate, so the affixes were never the divergence; the ROOTS
+       are (de's farb/hoffnung/wert are all fenced in sv). Set chosen on the ENGINE's contract:
+       facts() needs a wrong-affix distractor = the meaning the OTHER cog gives on the SAME root, so
+       the set must be closed under shared roots — and -full<->-lös is the only pair that is
+       (kraftfull/kraftlös). -are REJECTED: it is ALSO the Swedish comparative (snäll->snällare;
+       ~119 comparative tokens ship on this platform vs ~45 agent nouns), so 'EN SOM' would be flatly
+       wrong for half the -are words a child meets — and since o- takes adjectives, a which-round on
+       'snäll' would put o- and -are in ONE cog row with snällare a real word. -bar strands every
+       round (verb-stem roots, nothing to contrast). -het changes category; -lig has no single sense.
+       WARN SENSE.un is MOTSATSEN and must NEVER be INTE: winApply renders '”{label}” betyder
+       {sense}.' and 'betyder INTE' means DOES NOT MEAN — the sentence inverts. de ('bedeutet NICHT.')
+       and nl ('betekent NIET.') SHIP that bug; the four Romance locales escaped via a noun phrase.
+       MOTSATSEN is also truer: o- derives opposites, it does not negate a clause.
+       WARN FULL AV, never bare FULL — 'full' in Swedish reads first as DRUNK. */
+    sv: { un: 'MOTSATSEN', ful: 'FULL AV', less: 'UTAN' }
   };
   var LABEL = {
     en: { un: 'un-', re: 're-', ful: '-ful', less: '-less' },
@@ -42,7 +50,15 @@
     es: { un: 'des-', re: 're-', ful: '-oso' },
     pt: { un: 'des-', re: 're-', ful: '-oso' },
     it: { un: 'dis-', re: 'ri-', ful: '-oso' },
-    nl: { un: 'on-', ful: '-vol', less: '-loos' }
+    nl: { un: 'on-', ful: '-vol', less: '-loos' },
+    /* sv: Swedish schools use the same bindestreck placement as en/de/nl — trailing on a prefix,
+       leading on a suffix. The child never meets the word 'prefix'/'suffix' anywhere (no shipped
+       locale's strings do); the metalanguage lives only in slug/page_title/page_intro, which adults
+       read. WARN 'förstavelse' is REJECTED even there: it decomposes as för- + STAVELSE, and this
+       catalogue has spent 32 strings teaching that stavelse = SYLLABLE (Stavelsebyggaren, Klappa
+       stavelser). The child would form the rule 'prefix = the first syllable' — and nothing in this
+       deck would ever contradict it, because the affix falls on a syllable boundary in every round. */
+    sv: { un: 'o-', ful: '-full', less: '-lös' }
   };
   function label(a) { return (LABEL[LANG] || LABEL.en)[a] || (LABEL.en[a] || a); }
   function sense(a) { return (SENSE[LANG] || SENSE.en)[a] || (SENSE.en[a] || ''); }
@@ -100,6 +116,20 @@
       winWhich: '‘{label}’ betekent {sense} – zo ontstaat het woord!',
       nApply: 'Lees het woord: wat doet het tandwiel ermee?',
       nWhich: 'Welk tandwiel geeft deze betekenis?'
+    },
+    /* sv: quotes are ”…” (U+201D on BOTH sides) — measured across the shipped sv strings, never
+       the German low-open and never guillemets. Dash is the em dash with spaces. No apostrophes, so
+       every string is safe single-quoted. WARN nApply/nWhich fire ONLY on a WRONG tap, so they reach
+       a child who has just failed: both name what to look at rather than repeating the question, and
+       both differ from the shell's own retry line 'Inte än — försök igen!'. WARN typo watch: 'Läs' =
+       read, one letter from 'Lös' = solve. 'Just det!' over a literal 'Ja!', which is flat as praise
+       in Swedish. Agreement: den->betydelsen (en-gender), det->ordet (ett-gender). */
+    sv: {
+      win: 'Just det! {note}',
+      winApply: '”{label}” betyder {sense}.',
+      winWhich: '”{label}” betyder {sense} — så blir ordet till!',
+      nApply: 'Läs ordet igen — vad gör kugghjulet med det?',
+      nWhich: 'Läs betydelsen igen — vilket kugghjul ger den?'
     }
   };
   function txt(k, a) {
@@ -142,10 +172,10 @@
   var AffixActivity = {
     id: 'affix-activity',
     strings: {
-      title: { en: "Marigold's Knowing Machine", de: 'Marigolds Wortmaschine', fr: 'La machine à mots de Marigold', es: 'La máquina de palabras de Marigold', pt: 'A Máquina de Palavras da Marigold', it: 'La macchina delle parole di Marigold', nl: 'Marigolds Woordmachine' },
-      instruction: { en: 'Help Marigold the mole figure out what the new word means!', de: 'Hilf dem Maulwurf Marigold herauszufinden, was das neue Wort bedeutet!', fr: 'Aide Marigold la taupe à découvrir ce que veut dire le nouveau mot !', es: '¡Ayuda a Marigold el topo a descubrir qué significa la palabra nueva!', pt: 'Ajude a toupeira Marigold a descobrir o que a nova palavra quer dizer!', it: 'Aiuta la talpa Marigold a scoprire che cosa significa la nuova parola!', nl: 'Help mol Marigold ontdekken wat het nieuwe woord betekent!' },
-      qapply: { en: 'What does {word} mean?', de: 'Was bedeutet ‚{word}‘?', fr: 'Que veut dire « {word} » ?', es: '¿Qué significa {word}?', pt: 'O que quer dizer {word}?', it: 'Che cosa significa {word}?', nl: 'Wat betekent ‘{word}’?' },
-      qwhich: { en: 'Which cog makes a word meaning “{meaning}”?', de: 'Welches Zahnrad macht ein Wort, das ‚{meaning}‘ bedeutet?', fr: 'Quel rouage fabrique un mot qui veut dire « {meaning} » ?', es: '¿Qué engrane forma una palabra que significa «{meaning}»?', pt: 'Qual engrenagem forma uma palavra que significa “{meaning}”?', it: 'Quale ingranaggio forma una parola che significa «{meaning}»?', nl: 'Welk tandwiel maakt een woord dat ‘{meaning}’ betekent?' }
+      title: { en: "Marigold's Knowing Machine", de: 'Marigolds Wortmaschine', fr: 'La machine à mots de Marigold', es: 'La máquina de palabras de Marigold', pt: 'A Máquina de Palavras da Marigold', it: 'La macchina delle parole di Marigold', nl: 'Marigolds Woordmachine', sv: 'Marigolds ordmaskin' },
+      instruction: { en: 'Help Marigold the mole figure out what the new word means!', de: 'Hilf dem Maulwurf Marigold herauszufinden, was das neue Wort bedeutet!', fr: 'Aide Marigold la taupe à découvrir ce que veut dire le nouveau mot !', es: '¡Ayuda a Marigold el topo a descubrir qué significa la palabra nueva!', pt: 'Ajude a toupeira Marigold a descobrir o que a nova palavra quer dizer!', it: 'Aiuta la talpa Marigold a scoprire che cosa significa la nuova parola!', nl: 'Help mol Marigold ontdekken wat het nieuwe woord betekent!', sv: 'Hjälp mullvaden Marigold att lista ut vad det nya ordet betyder!' },
+      qapply: { en: 'What does {word} mean?', de: 'Was bedeutet ‚{word}‘?', fr: 'Que veut dire « {word} » ?', es: '¿Qué significa {word}?', pt: 'O que quer dizer {word}?', it: 'Che cosa significa {word}?', nl: 'Wat betekent ‘{word}’?', sv: 'Vad betyder ”{word}”?' },
+      qwhich: { en: 'Which cog makes a word meaning “{meaning}”?', de: 'Welches Zahnrad macht ein Wort, das ‚{meaning}‘ bedeutet?', fr: 'Quel rouage fabrique un mot qui veut dire « {meaning} » ?', es: '¿Qué engrane forma una palabra que significa «{meaning}»?', pt: 'Qual engrenagem forma uma palavra que significa “{meaning}”?', it: 'Quale ingranaggio forma una parola che significa «{meaning}»?', nl: 'Welk tandwiel maakt een woord dat ‘{meaning}’ betekent?', sv: 'Vilket kugghjul gör ett ord som betyder ”{meaning}”?' }
     },
 
     init: function (api) {
@@ -180,11 +210,25 @@
         '.af-cog-label{font:800 clamp(1.05rem,3.6vw,1.5rem)/1 "Baloo 2",Nunito,sans-serif;color:#0F4A40;}',
         '.af-cog-sense{font:700 clamp(.7rem,2.2vw,.84rem)/1 Nunito,sans-serif;color:#146B5E;letter-spacing:.02em;}',
         '.af-cand{border:3px solid #146B5E;border-radius:15px;background:#fff;color:#0F4A40;cursor:pointer;display:flex;align-items:center;justify-content:center;text-align:center;box-sizing:border-box;}',
-        '.af-cand.sel{box-shadow:0 0 0 3px #F2784B;}',
+        /* ⚠ this rule used to be `.af-cand.sel` with a CORAL ring, and the class `sel` was
+           applied NOWHERE — dead CSS, and the consequence was visible in the render: on
+           resolving, the correct card looked identical to the untouched one, so a child who
+           tapped the right answer saw the card not change. Coral would have been the wrong
+           ink anyway: on this platform coral = NOT YET, teal = RIGHT. */
+        '.af-cand.ok{border-color:#146B5E;background:#E8F3F0;box-shadow:0 0 0 3px rgba(20,107,94,.32);}',
         '.af-cand.dim{opacity:.4;}',
         '.af-mari-svg .af-eyes-happy{display:none;}.af-mari[data-pose=happy] .af-eyes-open{display:none;}.af-mari[data-pose=happy] .af-eyes-happy{display:block;}',
         '.af-sronly{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);}',
         '@media (max-width:380px){.af-root{gap:9px;}.af-cogrow .af-cand{min-height:88px;}}',
+        /* ⚠ 320px, RESOLVED phase only — a state no sweep had ever photographed until this
+           activity got a visual-qa phase driver. With the shell Check revealed, the English
+           `which` rounds land at ctrlBottom 637 against vh 640: THREE pixels of slack. Swedish's
+           win line wraps to three lines instead of two (measured 55px vs 37px) because MOTSATSEN
+           is the longest sense word in the set, and 653 > 640. The Swedish is correct and stays —
+           bare INTE would inverte the sentence ('betyder INTE' = DOES NOT MEAN) — so THE LAYOUT
+           GIVES: the cog glyph shrinks at the narrowest width only. Locale-neutral, shrink-only,
+           and the button stays far above the 44px tap floor (measured ~110px tall after this). */
+        '@media (max-width:340px){.af-cogrow .af-cand > svg{width:58px;height:58px;}}',
         '.lcs-app:not(.marigold-resolved) .lcs-activity-check{display:none !important;}'
       ].join('');
       document.head.appendChild(s);
@@ -281,8 +325,8 @@
         var rowc = el('div', 'af-cogrow');
         this._choiceOrder.forEach(function (oi) {
           var affix = opts[oi];
-          var b = el('button', 'af-cand af-cog' + (self._nonConf[affix] ? ' dim' : ''));
-          b.type = 'button'; b.setAttribute('aria-label', label(affix) + (LANG === 'de' ? ' bedeutet ' : LANG === 'fr' ? ' veut dire ' : LANG === 'es' ? ' significa ' : LANG === 'pt' ? ' significa ' : LANG === 'it' ? ' significa ' : LANG === 'nl' ? ' betekent ' : ' meaning ') + sense(affix));
+          var b = el('button', 'af-cand af-cog' + (self._nonConf[affix] ? ' dim' : '') + (self._resolved && affix === r.affix ? ' ok' : ''));
+          b.type = 'button'; b.setAttribute('aria-label', label(affix) + (LANG === 'de' ? ' bedeutet ' : LANG === 'fr' ? ' veut dire ' : LANG === 'es' ? ' significa ' : LANG === 'pt' ? ' significa ' : LANG === 'it' ? ' significa ' : LANG === 'nl' ? ' betekent ' : LANG === 'sv' ? ' betyder ' : ' meaning ') + sense(affix));
           b.innerHTML = '<svg viewBox="0 0 48 48" width="78" height="78" aria-hidden="true">' + cogInner(affix, 24, 24, 19) + '</svg>' +
             '<span class="af-cog-label">' + label(affix) + '</span><span class="af-cog-sense">' + sense(affix) + '</span>';
           b.addEventListener('click', function () { self._pick(affix, tok); });
@@ -293,7 +337,7 @@
         var rowm = el('div', 'af-row');
         this._choiceOrder.forEach(function (oi) {
           var o = opts[oi];
-          var b = el('button', 'af-cand' + (self._nonConf[o.affix] ? ' dim' : ''));
+          var b = el('button', 'af-cand' + (self._nonConf[o.affix] ? ' dim' : '') + (self._resolved && o.affix === r.affix ? ' ok' : ''));
           b.type = 'button'; b.textContent = o.text; b.setAttribute('aria-label', o.text);
           b.addEventListener('click', function () { self._pick(o.affix, tok); });
           rowm.appendChild(b);
@@ -330,9 +374,20 @@
 
     _srMirror: function () {
       var r = this._round, snap = Core.snapshot(r), wrap = el('div', 'af-sronly'); wrap.setAttribute('aria-live', 'polite');
+      /* WARN ANNOUNCE IN THE RENDERED ORDER. _renderOptions walks this._choiceOrder (shuffled in
+         _beginRound) while Core.snapshot returns the UNSHUFFLED manifest order, so a screen-reader
+         user heard one order and tabbed through another — and because the authored order is not
+         random, the correct answer was ANNOUNCED FIRST in 9 of 11 rounds in both fr and it (4 of 11
+         in pt). Fourth instance of this class here, after clock-digital, plural and tense. Repairing
+         it in the mirror rather than in six manifests costs no strings in any language and makes the
+         authored order permanently irrelevant. WARN keep every sentence below free of positional
+         language ('the first', 'last') or this repair silently stops being enough. */
+      var ord = (this._choiceOrder && this._choiceOrder.length === (snap.options || []).length)
+        ? this._choiceOrder
+        : (snap.options || []).map(function (_, i) { return i; });
       var msg;
       if (r.cog === 'which') {
-        var opts = snap.options.map(function (a) { return label(a) + ' (' + sense(a) + ')'; }).join(', ');
+        var opts = ord.map(function (i) { var a = snap.options[i]; return label(a) + ' (' + sense(a) + ')'; }).join(', ');
         msg = LANG === 'de'
           ? ('Das Grundwort ist ‚' + r.root + '‘. Welcher Wortbaustein macht ein Wort, das ‚' + r.meaning + '‘ bedeutet? Auswahl: ' + opts + '.')
           : LANG === 'fr'
@@ -345,9 +400,11 @@
           ? ('La parola di base è ' + r.root + '. Quale ingranaggio forma una parola che significa «' + r.meaning + '»? Scelte: ' + opts + '.')
           : LANG === 'nl'
           ? ('Het basiswoord is ‘' + r.root + '’. Welk tandwiel maakt een woord dat ‘' + r.meaning + '’ betekent? Keuze: ' + opts + '.')
+          : LANG === 'sv'
+          ? ('Grundordet är ”' + r.root + '”. Vilket kugghjul gör ett ord som betyder ”' + r.meaning + '”? Alternativ: ' + opts + '.')
           : ('The root word is ' + r.root + '. Which affix makes a word meaning "' + r.meaning + '"? Choices: ' + opts + '.');
       } else {
-        var texts = snap.options.map(function (o) { return o.text; }).join('; ');
+        var texts = ord.map(function (i) { return snap.options[i].text; }).join('; ');
         msg = LANG === 'de'
           ? ('Das Wort ist ‚' + r.word + '‘. Was bedeutet es? Auswahl: ' + texts + '.')
           : LANG === 'fr'
@@ -360,6 +417,8 @@
           ? ('La parola è ' + r.word + '. Che cosa significa? Scelte: ' + texts + '.')
           : LANG === 'nl'
           ? ('Het woord is ‘' + r.word + '’. Wat betekent het? Keuze: ' + texts + '.')
+          : LANG === 'sv'
+          ? ('Ordet är ”' + r.word + '”. Vad betyder det? Alternativ: ' + texts + '.')
           : ('The word is ' + r.word + '. What does it mean? Choices: ' + texts + '.');
       }
       wrap.innerHTML = '<p>' + msg + '</p>';

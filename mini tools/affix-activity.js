@@ -24,6 +24,15 @@
   var SENSE = {
     en: { un: 'NOT', re: 'AGAIN', ful: 'FULL OF', less: 'WITHOUT' },
     de: { un: 'NICHT', ful: 'VOLLER', less: 'OHNE' },
+    fr: { un: 'LE CONTRAIRE', re: 'À NOUVEAU', ful: 'PLEIN DE' },
+    es: { un: 'LO CONTRARIO', re: 'OTRA VEZ', ful: 'LLENO DE' },
+    pt: { un: 'O CONTRÁRIO', re: 'DE NOVO', ful: 'CHEIO DE' },
+    /* it (#22 fan-out — FIRST it VOCABULARY strand «Lessico»): the "opposite" prefix = dis- (ensemble-decisive:
+       zero allomorphy, pairs with ri-; in- rejected for im-/il-/ir- allomorphy, s- rejected as thin/noisy) */
+    it: { un: 'IL CONTRARIO', re: 'DI NUOVO', ful: 'PIENO DI' },
+    /* nl (#22 fan-out — FIRST nl VOCABULARY strand "Woordenschat en woordvorming"): Germanic-cognate = the German
+       model — 3 affixen on-/-loos/-vol, GEEN `re`/her- (minder K-2-transparant). SENSE = één kort hoofdletterwoord
+       (VOL, NIET "VOL VAN" — natuurlijker + past op de chip; rijmt qua vorm met NIET/ZONDER) */
     nl: { un: 'NIET', ful: 'VOL', less: 'ZONDER' },
     /* sv (#22 fan-out — the platform's FIRST sv VOCABULARY strand 'Ord och begrepp'): the Germanic
        branch o- / -full / -lös. NOT a calque of de — every candidate in the handover note (-lig, -het,

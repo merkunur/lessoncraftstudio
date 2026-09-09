@@ -47,11 +47,39 @@ function scanKeys(obj, label) {
   Object.keys(obj).forEach((k) => { if (FORBIDDEN_KEYS.indexOf(k) >= 0) failures.push(`${label}: forbidden stored-answer key "${k}"`); scanKeys(obj[k], label + '.' + k); });
 }
 
+/* ⚠⚠ THIS GATE READ `params.rounds` ONLY — the ENGLISH pool — so six shipped localized
+   decks (de/fr/es/pt/it/nl, 9 rounds each = 54 rounds) had NEVER been machine-verified.
+   Fifth occurrence of that class in this activity family (plural -> tense -> affix ->
+   sentence-builder -> here).
+
+   ⚠ AND THE NAIVE FIX IS ACTIVELY WRONG HERE, unlike sentence-builder. The two shapes are
+   not the same kind of object:
+     • EN rounds are DERIVED — {referent, role, wrongRole, cap} and the core's CASE_TABLE
+       computes both chips. The pronoun literal is never stored.
+     • localized rounds STORE the pair — {role, sentence, <loc>:{correct, wrong}} — because
+       CASE_TABLE is English-only.
+   So `scanKeys`, whose FORBIDDEN_KEYS includes 'correct', would condemn EVERY localized deck
+   for the very thing that makes it work, and every CASE_TABLE assertion is inapplicable.
+   Three scopes, named on every failure line so nobody has to guess which one fired. */
+function localizedPools(row) {
+  const l = (row.params && row.params.roundsL10n) || {};
+  return Object.keys(l).map((loc) => [loc, l[loc] || []]);
+}
+/* Unicode-safe standalone-token test. ⚠ `\b` is ASCII-only and would pass every accented
+   Swedish/German form silently — the recorded \b trap. */
+function hasToken(hay, needle) {
+  if (!needle) return false;
+  const esc = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return new RegExp('(?<!\\p{L})' + esc + '(?!\\p{L})', 'iu').test(hay);
+}
+
 let roundCount = 0;
+let poolCount = 0;
 
 for (const row of manifest) {
   const rounds = (row.params && row.params.rounds) || [];
-  check(rounds.length >= VARIETY_MIN, `${row.id}: ${rounds.length} rounds < ${VARIETY_MIN} (§A.13.60)`);
+  check(rounds.length >= VARIETY_MIN, `${row.id}[en]: ${rounds.length} rounds < ${VARIETY_MIN} (§A.13.60)`);
+  poolCount++;
 
   rounds.forEach((r) => {
     roundCount++;
@@ -79,8 +107,42 @@ for (const row of manifest) {
     check(Core.deriveCorrect(m) !== correct, `${label}: deriveCorrect did not change under mutated role (not derived)`);
   });
 
+  /* ---- LOCALIZED scope: the pools the core cannot see ------------------------ */
+  for (const [loc, pool] of localizedPools(row)) {
+    poolCount++;
+    const tag = `${row.id}[${loc}]`;
+    check(pool.length >= VARIETY_MIN, `${tag}: ${pool.length} rounds < ${VARIETY_MIN} (§A.13.60)`);
+    const seenIds = {}, seenSentences = {}, roles = {};
+    pool.forEach((r) => {
+      roundCount++;
+      const label = `${tag} ${r.id}`;
+      const loc2 = r[loc];
+      check(['subject', 'object', 'possessive'].indexOf(r.role) >= 0,
+        `${label}: role "${r.role}" is not subject/object/possessive — the runtime picks the praise note and the nudge off it`);
+      roles[r.role] = 1;
+      check(!seenIds[r.id], `${label}: duplicate round id`); seenIds[r.id] = 1;
+      check(typeof r.sentence === 'string' && r.sentence.indexOf('___') >= 0, `${label}: sentence has no "___" blank`);
+      seenSentences[String(r.sentence)] = 1;
+      if (!loc2 || !loc2.correct) {
+        check(false, `${label}: no ${loc}:{correct,wrong} — the round would fall through to the EN-only CASE_TABLE and render English chips`);
+        return;
+      }
+      check(typeof loc2.correct === 'string' && loc2.correct.trim() !== '', `${label}: empty correct chip`);
+      check(typeof loc2.wrong === 'string' && loc2.wrong.trim() !== '', `${label}: empty wrong chip`);
+      check(loc2.correct !== loc2.wrong, `${label}: the 2 chips are identical ("${loc2.correct}")`);
+      /* the answer must not stand elsewhere in its own sentence, and neither may the
+         distractor — either one turns the round into a copy exercise. */
+      const bare = String(r.sentence).replace('___', ' ');
+      check(!hasToken(bare, loc2.correct), `${label}: the answer "${loc2.correct}" already stands in the sentence (leak)`);
+      check(!hasToken(bare, loc2.wrong), `${label}: the distractor "${loc2.wrong}" already stands in the sentence (cue)`);
+    });
+    check(Object.keys(seenSentences).length >= VARIETY_MIN, `${tag}: only ${Object.keys(seenSentences).length} distinct sentences (<${VARIETY_MIN})`);
+    ['subject', 'object', 'possessive'].forEach((role) => check(roles[role], `${tag}: deck missing role "${role}"`));
+  }
+
+  /* ---- EN-DERIVED scope: everything below needs the CASE_TABLE shape ---------- */
   const df = Core.deckFacts(rounds);
-  ['subject', 'object', 'possessive'].forEach((role) => check(df.distinctRoles.indexOf(role) >= 0, `deck missing role "${role}"`));
+  ['subject', 'object', 'possessive'].forEach((role) => check(df.distinctRoles.indexOf(role) >= 0, `${row.id}[en]: deck missing role "${role}"`));
   check(df.compoundSubjectCount >= 1, `no compound-subject round`);
   check(df.compoundObjectCount >= 1, `no compound-object round`);
   check(df.formByFunctionCount >= 1, `no form-by-function round (his↔him / their↔them)`);
@@ -93,5 +155,5 @@ if (failures.length) {
   process.exit(1);
 }
 const df0 = Core.deckFacts(manifest[0].params.rounds);
-console.log(`PASS — ${roundCount} round(s), roles [${df0.distinctRoles.join('/')}], compound-subj ${df0.compoundSubjectCount} / compound-obj ${df0.compoundObjectCount} / form-by-function ${df0.formByFunctionCount}: displayForm vs CASE_TABLE; 2 distinct same-referent chips; oracle 100% (role-correct accepted, wrong-case rejected); derived-not-stored (role-mutation crosses case); no answer-leak; ≥${VARIETY_MIN} distinct rounds. [clarity-first redesign of #84]`);
+console.log(`PASS — ${roundCount} round(s) across ${poolCount} pool(s), roles [${df0.distinctRoles.join('/')}], compound-subj ${df0.compoundSubjectCount} / compound-obj ${df0.compoundObjectCount} / form-by-function ${df0.formByFunctionCount}: displayForm vs CASE_TABLE; 2 distinct same-referent chips; oracle 100% (role-correct accepted, wrong-case rejected); derived-not-stored (role-mutation crosses case); no answer-leak; ≥${VARIETY_MIN} distinct rounds. [clarity-first redesign of #84]`);
 process.exit(0);

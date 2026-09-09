@@ -2088,6 +2088,29 @@
         "Barnet vet att en mening börjar med stor bokstav och slutar med punkt",
         "Barnet känner igen att orden om vem meningen handlar om hör ihop och står före verbet"
       ]
+    },
+    "pronoun.case.l-1-1-d": {
+      "about": [
+        "En mening visas med en lucka — Här är ___ boll — och bredvid står två ord att välja mellan. Barnet trycker på det ord som passar, och då fylls luckan i. Sigge har byggt en koja och bär in sina egna saker, så allt i meningarna tillhör honom och det enda som ändrar sig är ordets form.",
+        "Orden min, mitt och mina är possessiva pronomen, och det som övas är att de rättar sig efter ordet som kommer efter. Heter det en boll blir det min boll, heter det ett äpple blir det mitt äpple, och när det är flera blir det mina vantar. Frågan barnet ställer sig är alltså inte vem saken tillhör — ägaren är densamma hela vägen — utan om ordet efter är ett en-ord, ett ett-ord eller står i flertal.",
+        "Tre av meningarna handlar i stället om jag, mig, vi och oss: jag och vi när någon gör något, mig när något händer med någon. Nio meningar, i ny ordning varje gång. Aktiviteten följer Lgr22 inom området språkliga strukturer och normer. Det finns varken tidtagning eller poäng, och barnet får pröva igen tills rätt ord är hittat."
+      ],
+      "practices": [
+        "Välja min, mitt eller mina efter ordet som kommer efter — min boll, mitt äpple, mina vantar",
+        "Höra skillnad på en-ord och ett-ord, som en boll och ett äpple",
+        "Använda mina när det är flera saker",
+        "Skilja på jag och mig — jag när någon gör något, mig när något händer med någon"
+      ],
+      "howToPlay": [
+        "Läs meningen och titta på ordet efter luckan. Tryck på 🔊 Lyssna om du vill höra meningen uppläst.",
+        "Tryck på det av de två orden som passar. Blir det fel tonas den rutan ner, och du kan pröva det andra.",
+        "När rätt ord är valt fylls luckan i, och knappen Kontrollera dyker upp så att du kan gå vidare."
+      ],
+      "learningGoals": [
+        "Barnet kan välja min, mitt eller mina efter ordet som kommer efter",
+        "Barnet vet att det är en-ord, ett-ord eller flertal som avgör formen, inte vem saken tillhör",
+        "Barnet skiljer på jag och mig i enkla meningar"
+      ]
     }
   }
 }

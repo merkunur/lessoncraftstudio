@@ -2042,6 +2042,29 @@
         "Barnet kan läsa av en tallinje även när alla tal inte är utsatta",
         "Barnet kan visa ett helt hopp med start, riktning och längd, och säga var det landar"
       ]
+    },
+    "affix.apply.l-2-4-b": {
+      "about": [
+        "Marigold är en mullvad med en ordmaskin. I de flesta omgångarna står det färdiga ordet i maskinen — osnäll, färglös, kraftfull — och under maskinen ligger tre betydelser. Barnet läser ordet och trycker på den betydelse som stämmer.",
+        "Det som övas är att en liten orddel kan vända hela ordets betydelse. Förleden o- betyder motsatsen: osnäll är motsatsen till snäll. Efterleden -full betyder full av: kraftfull är full av kraft. Efterleden -lös betyder utan: färglös är utan färg. Eftersom -full och -lös sätts på samma grundord måste barnet läsa orddelen och inte gissa utifrån grundordet — kraftfull och kraftlös har precis samma tre svar att välja mellan.",
+        "I tre av omgångarna går maskinen åt andra hållet: den visar ett grundord och en betydelse, och barnet trycker på det kugghjul som bygger ordet. Elva omgångar, i ny ordning varje gång. Övningen hör till årskurs 2 och området ord och begrepp i Lgr22. Det finns varken tidtagning eller poäng, och barnet får pröva igen tills rätt svar är hittat."
+      ],
+      "practices": [
+        "Veta att förleden o- betyder motsatsen, att efterleden -full betyder full av och att efterleden -lös betyder utan",
+        "Läsa ett byggt ord som orädd eller smaklös och välja den betydelse som passar",
+        "Gå åt andra hållet: utgå från en betydelse och hitta den orddel som bygger ordet",
+        "Skilja på -full och -lös, som sätts på samma grundord men betyder tvärtom"
+      ],
+      "howToPlay": [
+        "Läs frågan högst upp och titta på ordmaskinen: där står antingen det färdiga ordet eller ett grundord med ett tomt kugghjul.",
+        "Tryck på det av de tre alternativen som stämmer — en betydelse när ordet är färdigt, ett kugghjul när det är betydelsen som visas. Blir det fel tonas den rutan ner och du väljer bland de andra.",
+        "När rätt svar är valt berättar Marigold vad orddelen gör, och knappen Kontrollera dyker upp så att du kan gå vidare."
+      ],
+      "learningGoals": [
+        "Barnet kan använda en känd förled eller efterled som ledtråd till vad ett nytt ord betyder",
+        "Barnet vet att o- vänder ordets betydelse, medan -full och -lös pekar åt varsitt håll",
+        "Barnet bygger den vana att titta på orddelarna som gör att nya ord går att förstå på egen hand"
+      ]
     }
   }
 }

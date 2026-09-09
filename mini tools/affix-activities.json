@@ -143,6 +143,28 @@
           { "id": "af-which-geluidloos", "cog": "which", "root": "geluid", "affix": "less", "meaning": "zonder geluid", "options": ["un","ful","less"] },
           { "id": "af-which-onhandig",   "cog": "which", "root": "handig", "affix": "un",   "meaning": "niet handig",   "options": ["un","ful","less"] },
           { "id": "af-which-waardevol",  "cog": "which", "root": "waarde", "affix": "ful",  "meaning": "vol waarde",    "options": ["un","ful","less"] }
+        ],
+        "sv": [
+          { "id": "af-sv-osnall",   "cog": "apply", "word": "osnäll",   "root": "snäll",  "affix": "un",
+            "options": [ {"affix":"root","text":"snäll"}, {"affix":"ful","text":"full av snällhet"}, {"affix":"un","text":"motsatsen till snäll"} ] },
+          { "id": "af-sv-olycklig", "cog": "apply", "word": "olycklig", "root": "lycklig", "affix": "un",
+            "options": [ {"affix":"root","text":"lycklig"}, {"affix":"un","text":"motsatsen till lycklig"}, {"affix":"ful","text":"full av lycka"} ] },
+          { "id": "af-sv-oradd",    "cog": "apply", "word": "orädd",    "root": "rädd",   "affix": "un",
+            "options": [ {"affix":"root","text":"rädd"}, {"affix":"ful","text":"full av rädsla"}, {"affix":"un","text":"motsatsen till rädd"} ] },
+          { "id": "af-sv-farglos",  "cog": "apply", "word": "färglös",  "root": "färg",   "affix": "less",
+            "options": [ {"affix":"root","text":"färg"}, {"affix":"less","text":"utan färg"}, {"affix":"ful","text":"full av färg"} ] },
+          { "id": "af-sv-smaklos",  "cog": "apply", "word": "smaklös",  "root": "smak",   "affix": "less",
+            "options": [ {"affix":"root","text":"smak"}, {"affix":"ful","text":"full av smak"}, {"affix":"less","text":"utan smak"} ] },
+          { "id": "af-sv-kraftlos", "cog": "apply", "word": "kraftlös", "root": "kraft",  "affix": "less",
+            "options": [ {"affix":"root","text":"kraft"}, {"affix":"less","text":"utan kraft"}, {"affix":"ful","text":"full av kraft"} ] },
+          { "id": "af-sv-kraftfull","cog": "apply", "word": "kraftfull","root": "kraft",  "affix": "ful",
+            "options": [ {"affix":"root","text":"kraft"}, {"affix":"less","text":"utan kraft"}, {"affix":"ful","text":"full av kraft"} ] },
+          { "id": "af-sv-fantasifull","cog": "apply", "word": "fantasifull","root": "fantasi", "affix": "ful",
+            "options": [ {"affix":"root","text":"fantasi"}, {"affix":"ful","text":"full av fantasi"}, {"affix":"less","text":"utan fantasi"} ] },
+
+          { "id": "af-sv-which-smaklos",     "cog": "which", "root": "smak",    "affix": "less", "meaning": "som saknar all smak",      "options": ["un","ful","less"] },
+          { "id": "af-sv-which-respektfull", "cog": "which", "root": "respekt", "affix": "ful",  "meaning": "som visar mycket respekt", "options": ["un","ful","less"] },
+          { "id": "af-sv-which-otrevlig",    "cog": "which", "root": "trevlig", "affix": "un",   "meaning": "tvärtom mot trevlig",      "options": ["ful","un","less"] }
         ]
       }
     },
@@ -153,7 +175,8 @@
       "es": "prefijos-y-sufijos-formacion-de-palabras-2-primaria",
       "pt": "maquina-de-palavras-marigold-prefixos-sufixos-formacao-de-palavras-2-ano",
       "it": "prefissi-e-suffissi-significato-delle-parole-classe-seconda",
-      "nl": "woordbouwstenen-voor-en-achtervoegsels-groep-4"
+      "nl": "woordbouwstenen-voor-en-achtervoegsels-groep-4",
+      "sv": "prefix-och-suffix-vad-betyder-ordet-ak-2"
     },
     "page_title": {
       "en": "Marigold's Knowing Machine — Prefixes & Suffixes Word Meaning (Grade 2)",
@@ -162,16 +185,18 @@
       "es": "Prefijos y sufijos para niños: forma palabras (2.º primaria)",
       "pt": "A Máquina de Palavras da Marigold: prefixos e sufixos",
       "it": "La macchina delle parole di Marigold: prefissi e suffissi (classe seconda)",
-      "nl": "Marigolds Woordmachine: voor- en achtervoegsels – Groep 4"
+      "nl": "Marigolds Woordmachine: voor- en achtervoegsels – Groep 4",
+      "sv": "Prefix och suffix – o-, -full och -lös: vad betyder ordet? (åk 2)"
     },
     "page_intro": {
-      "en": "An interactive Grade 2 reading activity: help Marigold the mole work out what a new word means when a prefix or suffix is added. Drop the un-, re-, -ful, or -less cog into the Knowing Machine and read the new word — then tap what it means. A clear, friendly way to learn how prefixes and suffixes change a word's meaning. Common Core L.2.4.b and L.2.4.c.",
+      "en": "An interactive Grade 2 reading activity: help Marigold the mole work out what a new word means when a prefix or suffix is added. Read the word her Knowing Machine has built — unkind, retell, colorful, fearless — then tap what it means. A clear, friendly way to learn how prefixes and suffixes change a word's meaning. Common Core L.2.4.b.",
       "de": "Mit Marigold un-, -voll und -los entdecken: Dein Kind verändert mit Vorsilben und Nachsilben die Wortbedeutung. Interaktiv üben – Deutsch Klasse 2.",
       "fr": "Avec Marigold la taupe, découvrez comment les préfixes et suffixes (re-, dé-, -eux) changent le sens des mots. Activité interactive, niveau CE1.",
       "es": "Con Marigold y su máquina de engranes, tu peque descubre cómo los prefijos y sufijos cambian el significado de las palabras: des- es lo contrario, re- es otra vez y -oso es lleno de. Actividad interactiva de formación de palabras para 2.º de primaria, alineada a los Planes y programas de estudio (SEP).",
       "pt": "A Marigold, uma toupeira, tem uma máquina que cola prefixos e sufixos às palavras e muda o sentido delas. Formação de palavras para o 2º ano, no seu ritmo.",
       "it": "Marigold la talpa ha costruito una macchina delle parole piena di ingranaggi: ogni ingranaggio è un prefisso o un suffisso. Girando gli ingranaggi, il bambino scopre come prefissi e suffissi cambiano il significato delle parole — il «contrario» con dis-, il «di nuovo» con ri-, il «pieno di» con -oso. È un'attività senza registrazione, che si gioca direttamente nel browser, senza punteggi e senza fretta. Pensata per la classe seconda e allineata alle Indicazioni nazionali, nell'area del lessico, aiuta a collegare ogni parola nuova al suo significato.",
-      "nl": "Ontdek met Marigold on-, -vol en -loos: je kind verandert met voor- en achtervoegsels de betekenis van een woord. Interactief oefenen – Nederlands, Groep 4, aansluitend op de SLO-kerndoelen."
+      "nl": "Ontdek met Marigold on-, -vol en -loos: je kind verandert met voor- en achtervoegsels de betekenis van een woord. Interactief oefenen – Nederlands, Groep 4, aansluitend op de SLO-kerndoelen.",
+      "sv": "Barnet läser ett ord som byggts med o-, -full eller -lös — osnäll, färglös, kraftfull — och trycker på vad det betyder. Ibland tvärtom: vilket kugghjul ger betydelsen? Åk 2, Lgr22."
     },
     "kid_prompt_template": "affix"
   }

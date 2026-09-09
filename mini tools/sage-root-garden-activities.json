@@ -464,6 +464,16 @@
           { "id": "nl-brand",  "band": 2, "root": "brand",  "correct": "brandweer",   "choices": [ { "word": "brandweer" },   { "word": "krant" },  { "word": "hand" } ] },
           { "id": "nl-regen",  "band": 3, "root": "regen",  "correct": "regenboog",   "choices": [ { "word": "regenboog" },   { "word": "regel" },  { "word": "tegen" } ] },
           { "id": "nl-spel",   "band": 3, "root": "spel",   "correct": "speler",      "choices": [ { "word": "speler" },      { "word": "spek" },   { "word": "snel" } ] }
+        ],
+        "sv": [
+          { "id": "sv-sol",  "band": 1, "root": "sol",  "correct": "solig",    "choices": [ { "word": "solig" },    { "word": "soldat" },    { "word": "soppa" } ] },
+          { "id": "sv-sand", "band": 1, "root": "sand", "correct": "sandig",   "choices": [ { "word": "sandal" },   { "word": "sandig" },    { "word": "sadel" } ] },
+          { "id": "sv-sno",  "band": 1, "root": "snö",  "correct": "snöboll",  "choices": [ { "word": "snöre" },    { "word": "snickare" },  { "word": "snöboll" } ] },
+          { "id": "sv-hund", "band": 2, "root": "hund", "correct": "hundvalp", "choices": [ { "word": "hundra" },   { "word": "hundvalp" },  { "word": "hus" } ] },
+          { "id": "sv-mat",  "band": 2, "root": "mat",  "correct": "matsäck",  "choices": [ { "word": "matta" },    { "word": "matematik" }, { "word": "matsäck" } ] },
+          { "id": "sv-har",  "band": 2, "root": "hår",  "correct": "hårig",    "choices": [ { "word": "hårig" },    { "word": "hård" },      { "word": "hammare" } ] },
+          { "id": "sv-bil",  "band": 3, "root": "bil",  "correct": "bilbana",  "choices": [ { "word": "bild" },     { "word": "biljett" },   { "word": "bilbana" } ] },
+          { "id": "sv-stor", "band": 3, "root": "stor", "correct": "storlek",  "choices": [ { "word": "storlek" },  { "word": "stork" },     { "word": "storm" } ] }
         ]
       }
     },
@@ -475,7 +485,8 @@
       "es": "familias-de-palabras-la-raiz-2-primaria",
       "pt": "jardim-de-palavras-da-sage-familia-de-palavras-raiz-2-ano",
       "it": "famiglie-di-parole-la-radice-classe-seconda",
-      "nl": "woordfamilies-woordstam-herkennen-groep-4"
+      "nl": "woordfamilies-woordstam-herkennen-groep-4",
+      "sv": "ord-som-hor-ihop-ordbildning-ak-2"
     },
     "page_title": {
       "en": "Sage's Root Garden — Find the Root Word Family (Grade 2)",
@@ -484,7 +495,8 @@
       "es": "Familias de palabras y la raíz: actividad de 2.º primaria",
       "pt": "Jardim de Palavras da Sage: família de palavras (2º ano)",
       "it": "Le famiglie di parole e la radice (classe seconda)",
-      "nl": "Sages Woordtuin: woordfamilies & woordstam – groep 4"
+      "nl": "Sages Woordtuin: woordfamilies & woordstam – groep 4",
+      "sv": "Ord som hör ihop – vilket ord växer ur det lilla ordet? (åk 2)"
     },
     "page_intro": {
       "en": "Sage the tortoise grows word families from a single root! Big words often grow from a smaller root word you already know — farm grows into farmer. Read the root, then tap the word that GROWS from it (watch out for words that just look alike). A Grade 2 vocabulary game about using root words as a clue to meaning, aligned to Common Core L.2.4.c.",
@@ -493,7 +505,8 @@
       "es": "Con Sage la tortuga, tu peque encuentra la raíz de una palabra y elige la que crece de la misma familia. Actividad interactiva de español para 2.º de primaria, alineado a los Planes y programas de estudio (SEP).",
       "pt": "No Jardim de Palavras da Sage, uma tartaruga tranquila, a criança do 2º ano lê a raiz e toca na palavra da mesma família — florzinha vem de flor. No seu ritmo.",
       "it": "Sage è una gentile tartaruga che coltiva un giardino speciale: il giardino delle parole. Qui si scoprono le famiglie di parole cercando la radice nascosta dentro ogni parola — da «fiore» nasce «fioraio», da «gatto» spunta «gattino». Basta toccare la parola che cresce dalla stessa radice, evitando quelle che le somigliano soltanto. Un'attività senza registrazione e senza punteggi, tutta nel browser, pensata per la classe seconda e allineata alle Indicazioni nazionali, nell'area del lessico.",
-      "nl": "Ontdek met Sage de schildpad de woordstam in een woord en kies het juiste woord uit de woordfamilie. Interactief en helemaal passend bij groep 4 en de SLO-kerndoelen Nederlands."
+      "nl": "Ontdek met Sage de schildpad de woordstam in een woord en kies het juiste woord uit de woordfamilie. Interactief en helemaal passend bij groep 4 en de SLO-kerndoelen Nederlands.",
+      "sv": "Sköldpaddan Salvia odlar ord i sin trädgård. Barnet läser ett litet ord — sol, hund, mat — och trycker på ordet som växer ur det: solig, hundvalp, matsäck. Fällorna börjar likadant men handlar om något helt annat: soldat, hundra, matta, så det räcker inte att titta på bokstäverna. Åtta ord, i ny ordning varje gång. Årskurs 2, Lgr22."
     },
     "kid_prompt_template": "Tap the word that grows from the root."
   }

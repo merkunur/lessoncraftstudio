@@ -6,6 +6,12 @@
      • tapping the family member → shell Check → celebrate;
      • tapping a non-family word → tryagain, NO card marked (no leak);
      • cards SHUFFLED; tap-to-deselect; ≥8 distinct rounds + reshuffle; no overflow 280→768.
+
+   ⚠ WAS an EN-only pilot in three separate ways: the URL hard-coded `lang=en`, the header
+   title was asserted as an English literal, and the force() calls carried ENGLISH ROUND IDS.
+   ⚠⚠ Round ids are PER-LOCALE in this manifest (en `farm`, de `spiel`, it `it-gatto`) — unlike
+   sentence-clinic, where they are invariant — so the ids are now read off the POOL and the
+   title off the SHIPPED strings table, never a literal.
    ===================================================================== */
 'use strict';
 const http = require('http');
@@ -35,6 +41,19 @@ function serve() {
   const browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
   const fails = [];
   const note = (cond, msg) => { if (!cond) fails.push(msg); };
+  /* the expected header per locale, read from the SHIPPED strings table rather than re-typed,
+     so a rename cannot make this gate silently wrong */
+  const activitySrc = fs.readFileSync(path.join(MINI, 'sage-root-garden-activity.js'), 'utf8');
+  function shippedTitle(loc) {
+    const m = activitySrc.match(/\n      title:\s*\{([^\n]*)\}/);
+    if (!m) throw new Error('could not read the title table');
+    const e = new RegExp('(?:^|[,{])\\s*' + loc + ":\\s*('(?:[^'\\\\]|\\\\.)*'|\"(?:[^\"\\\\]|\\\\.)*\")").exec(m[1]);
+    if (!e) throw new Error('no title.' + loc);
+    return e[1].slice(1, -1).replace(/\\(['\"])/g, '$1');
+  }
+  const LOCALES = ['en', 'sv'];
+  const seenTitles = {};
+for (const LOC of LOCALES) {
   const page = await browser.newPage();
   await page.setViewport({ width: 412, height: 900 });
   const errs = [];
@@ -42,7 +61,7 @@ function serve() {
   page.on('console', m => { if (m.type() === 'error' && !isNoise(m.text())) errs.push(m.text()); });
   page.on('pageerror', e => { if (!isNoise(e.message)) errs.push(e.message); });
 
-  const url = `http://127.0.0.1:${PORT}/sage-root-garden-activity.html?lang=en&activity=${ACTIVITY}&embed=1`;
+  const url = `http://127.0.0.1:${PORT}/sage-root-garden-activity.html?lang=${LOC}&activity=${ACTIVITY}&embed=1`;
   const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
   async function force(id) {
@@ -68,7 +87,12 @@ function serve() {
     await page.waitForFunction(() => { const t = window.SageRootGardenActivity; return t && t._activityRow && document.querySelector('.srg-root') && document.querySelector('.lcs-activity-check'); }, { timeout: 15000 });
 
     const title = await page.$eval('.lcs-title', e => e.textContent.trim()).catch(() => '');
-    note(title === "Sage's Root Garden", `header title "${title}"`);
+    seenTitles[LOC] = title;
+    note(title === shippedTitle(LOC), `header title "${title}" != shipped strings.title.${LOC} "${shippedTitle(LOC)}"`);
+
+    /* ⚠ ROUND IDS COME FROM THE POOL. `_pool` prefixes them with the activity name, so strip it. */
+    const RIDS = await page.evaluate(() => window.SageRootGardenActivity._pool.map(t => t.id.replace(/^sage-root-garden\./, '')));
+    note(RIDS.length >= 8, `pool has ${RIDS.length} ids`);
 
     const Np = await page.evaluate(() => window.SageRootGardenActivity._pool.length);
     note(Np >= 8, `only ${Np} rounds (<8)`);
@@ -76,14 +100,14 @@ function serve() {
     note(new Set(ids.slice(0, Np)).size >= 8, `only ${new Set(ids.slice(0, Np)).size} distinct rounds (<8)`);
     note(ids.slice(0, Np).join(',') !== ids.slice(Np, 2 * Np).join(',') || Np < 2, 'second pass did not reshuffle');
 
-    await force('farm');
+    await force(RIDS[0]);
     note(!!(await page.$('.srg-rootword')), 'no root word');
     note(await page.$$eval('.srg-opt', els => els.length) === 3, 'did not render 3 word cards');
 
     await tap(await correctId()); await check();
     note(await celebrated(), 'the family word did not celebrate');
 
-    await force('help');
+    await force(RIDS[1]);
     await tap(await wrongId()); await check();
     note(await triedAgain(), 'a non-family word did not show try-again');
     note(!(await celebrated()), 'a non-family word celebrated (must not)');
@@ -93,27 +117,57 @@ function serve() {
     note(await celebrated(), 'the family word did not celebrate after the wrong attempt');
 
     const firsts = [];
-    for (const id of ['farm', 'help', 'paint', 'care', 'play']) { await force(id); firsts.push(await firstCardText()); }
+    for (const id of RIDS.slice(0, 5)) { await force(id); firsts.push(await firstCardText()); }
     note(new Set(firsts).size >= 2, `the first card is identical across rounds (${firsts.join(' / ')}) — cards not shuffled`);
 
-    await force('jump');
+    await force(RIDS[RIDS.length - 1]);
     const cw = await correctId();
     await tap(cw); note(await page.evaluate(() => window.SageRootGardenActivity.sel != null), 'first tap did not select');
     await tap(cw); note(await page.evaluate(() => window.SageRootGardenActivity.sel == null), 'second tap did not deselect');
 
     for (const w of [280, 360, 412, 768]) {
       await page.setViewport({ width: w, height: 820 });
-      await force('sun');
+      await force(RIDS[RIDS.length - 2]);
       const over = await page.evaluate(() => { const d = document.scrollingElement || document.documentElement; return d.scrollWidth - d.clientWidth; });
       note(over <= 2, `overflow ${over}px at ${w}px`);
     }
 
+    /* ⭐ the locale runs its OWN pool, not a silent English fallback */
+    if (LOC !== 'en') {
+      const enRoots = JSON.parse(fs.readFileSync(path.join(MINI, 'sage-root-garden-activities.json'), 'utf8'))[0].params.rounds.map(r => r.root);
+      const roots = await page.evaluate(() => window.SageRootGardenActivity._pool.map(t => { let r = null; t.setup({ setupTask: (x) => { r = x.root; } }); return r; }));
+      const leaked = roots.filter(r => enRoots.includes(r));
+      note(leaked.length === 0, `${leaked.length} round(s) served the ENGLISH root — the pool fell back (first: "${leaked[0]}")`);
+
+      /* ⭐ AND THE DECK MUST NOT BE SOLVABLE BY MATCHING LETTERS. This is the whole point of the
+         Swedish rebuild, asserted at RUNTIME on the pool the child actually gets: a bot that
+         picks the one word beginning with the root scores 8/8 in en/de/fr/es/nl and 0/8 here. */
+      const botScore = await page.evaluate(() => {
+        let hit = 0, tot = 0;
+        for (const t of window.SageRootGardenActivity._pool) {
+          let r = null; t.setup({ setupTask: (x) => { r = x; } }); if (!r) continue;
+          tot++;
+          const m = r.choices.filter(c => c.word.toLowerCase().startsWith(r.root.toLowerCase()));
+          if (m.length === 1 && m[0].word === r.correct) hit++;
+        }
+        return { hit, tot };
+      });
+      note(botScore.tot > 0, 'letter-bot probe measured no rounds');
+      note(botScore.hit === 0, `the letter bot solves ${botScore.hit}/${botScore.tot} rounds — the deck can be won without reading a meaning`);
+    }
+
     note(errs.length === 0, `console error(s): ${errs.slice(0, 2).join(' | ')}`);
-    console.log(`  ${fails.length ? 'FAIL' : 'ok  '} sage-root-garden/en — "${title}"`);
+    console.log(`  ${fails.filter(f => f.startsWith('[' + LOC + ']')).length ? 'FAIL' : 'ok  '} sage-root-garden/${LOC} — "${title}"`);
   } catch (e) {
-    fails.push('sage-root-garden/en: ' + e.message);
-    console.log(`  FAIL sage-root-garden/en — ${e.message}`);
+    fails.push('[' + LOC + '] ' + e.message);
+    console.log(`  FAIL sage-root-garden/${LOC} — ${e.message}`);
   } finally { await page.close(); }
+}
+
+  /* cross-locale chrome leak: the two headers must not be the same string */
+  if (seenTitles.en && seenTitles.sv && seenTitles.en === seenTitles.sv) {
+    fails.push(`both locales rendered the SAME header "${seenTitles.en}" — the locale never took`);
+  }
 
   await browser.close();
   server.close();

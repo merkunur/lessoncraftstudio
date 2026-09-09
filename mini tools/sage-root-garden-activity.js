@@ -13,11 +13,29 @@
 
   var Core = global.RootWordCore;
   var LANG = 'en';
-  var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOLD: '#E8A53A', GREEN: '#2FA56A' };
+  var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOLD: '#E8A53A', GREEN: '#2FA56A',
+    /* text-only coral. COMPUTED: CORAL2 is 3.39:1 on the panel ground and 3.68:1 on a selected
+       card — both under the 4.5 AA floor, on the two strings a struggling child most needs.
+       This is 4.70 / 5.11. CORAL2 keeps the borders, where no text floor applies. */
+    MISS: '#B8431C' };
+
+  /* BCP-47 voice per locale. ⚠ A TABLE, never a ternary chain: the chain this replaces ended in
+     'en-US', so Swedish would have been read aloud in an American voice — on an activity whose
+     root word is spoken automatically every single round. */
+  var VOICE = { en: 'en-US', de: 'de-DE', fr: 'fr-FR', es: 'es-MX', pt: 'pt-BR', it: 'it-IT', nl: 'nl-NL', sv: 'sv-SE' };
+
+  /* The root box carries no text of its own beyond the word, so this label IS its accessible
+     name. ⚠ It was a ternary ending in English, so a blind Swedish child would have been told
+     “hear the root snö”. Each locale names the root with the same noun its own rootLab uses, so
+     the sighted child and the blind child are pointed at the same thing by the same word. */
+  var HEAR = {
+    en: 'hear the root ', de: 'Wortstamm anhören: ', fr: 'écouter le radical ', es: 'escuchar la raíz ',
+    pt: 'ouvir a raiz ', it: 'ascolta la radice ', nl: 'woordstam beluisteren: ', sv: 'lyssna på det lilla ordet '
+  };
 
   function speak(text) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG), rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG === 'nl' ? 'nl-NL' : 'en-US'; u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = VOICE[LANG] || 'en-US'; u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -40,14 +58,36 @@
        famiglie di parole from the parola primitiva, a real sayable word; matches the pt precedent). Sage = FEMININE
        (la tartaruga). sageIntro SHORT (2-line bubble clips at 360px). «radice» not «radicale». «...» caporali. */
     strings: {
-      title: { en: "Sage's Root Garden", de: 'Sages Wortgarten', fr: 'Le jardin des mots de Sage', es: 'El jardín de palabras de Sage', pt: 'O Jardim de Palavras da Sage', it: 'Il giardino delle parole di Sage', nl: 'Sages woordtuin' },
-      prompt: { en: 'Which word grows from the root?', de: 'Welches Wort wächst aus dem Wortstamm?', fr: 'Quel mot pousse à partir du radical ?', es: '¿Qué palabra crece de la raíz?', pt: 'Qual palavra cresce desta raiz?', it: 'Quale parola cresce da questa radice?', nl: 'Welk woord groeit uit de woordstam?' },
-      sageIntro: { en: 'Big words grow from little root words — find the family!', de: 'Aus kleinen Wortstämmen wachsen große Wörter – finde die Wortfamilie!', fr: 'De petits radicaux poussent de grands mots !', es: 'Las palabras grandes crecen de raíces pequeñas: ¡encuentra la familia!', pt: 'Grandes palavras crescem de raízes pequenas!', it: 'Le parole crescono da piccole radici!', nl: 'Uit een kleine stam groeit een groot woord — vind de familie!' },
-      rootLab: { en: 'Root word:', de: 'Wortstamm:', fr: 'Radical :', es: 'Raíz:', pt: 'Raiz:', it: 'Radice:', nl: 'Woordstam:' },
-      theAsk: { en: 'Tap the word that grows from this root.', de: 'Tippe das Wort an, das aus diesem Wortstamm wächst.', fr: 'Touche le mot qui pousse à partir de ce radical.', es: 'Toca la palabra que crece de esta raíz.', pt: 'Toque na palavra que cresce desta raiz.', it: 'Tocca la parola che cresce da questa radice.', nl: 'Tik het woord aan dat uit deze woordstam groeit.' },
-      hintPick: { en: 'Find the root hiding inside one of the words!', de: 'Finde den Wortstamm, der sich in einem der Wörter versteckt!', fr: 'Cherche le radical caché au début d’un des mots !', es: '¡Busca la raíz escondida dentro de una de las palabras!', pt: 'Ache a raiz escondida dentro de uma das palavras!', it: 'Cerca la radice nascosta dentro una delle parole!', nl: 'Zoek de woordstam die in een van de woorden verstopt zit!' },
-      hintWrong: { en: "That one just looks alike — look for the root inside.", de: 'Das sieht nur ähnlich aus – suche den Wortstamm darin.', fr: 'Il se ressemble seulement — cherche bien le radical à l’intérieur.', es: 'Esa solo se parece; busca la raíz adentro.', pt: 'Essa é só parecida — procure a raiz de verdade dentro dela.', it: 'Quella somiglia soltanto — cerca dentro la radice vera!', nl: 'Dit lijkt er alleen maar op — zoek de woordstam erin.' },
-      win: { en: 'Yes! That word grew from the root. 🌱', de: 'Ja! Dieses Wort ist aus dem Wortstamm gewachsen. 🌱', fr: 'Bravo ! Ce mot a poussé à partir du radical. 🌱', es: '¡Sí! Esa palabra creció de la raíz. 🌱', pt: 'Isso! Essa palavra cresceu da raiz. 🌱', it: 'Sì! Questa parola è cresciuta dalla radice. 🌱', nl: 'Ja! Dit woord is uit de woordstam gegroeid. 🌱' }
+      /* sv (#26 — Lgr22, årskurs 2, «Ord och begrepp» via the STRAND_OVERRIDE row). REBUILT:
+         ⚠⚠ THE FRAME IS MEANING, NOT LETTERS. The core only checks that the answer STARTS WITH
+         the root, so a bot that picks the one word beginning with the root scores 8/8 in en, de,
+         fr, es and nl — no meaning is ever consulted, on a standard that is entirely about
+         meaning. The sv deck gives every round TWO root-initial choices (solig/soldat,
+         hundvalp/hundra, matsäck/matta+matematik), so that strategy resolves 0 of 8.
+         ⚠⚠ CONSEQUENCE FOR THE HINTS: the English says the root HIDES INSIDE a word (it is
+         always at position 0 — French alone corrected this to «au début» and the fix never
+         travelled back) and that a wrong pick JUST LOOKS ALIKE. In Swedish that second one is a
+         FLAT LIE in six of eight rounds — soldat really does contain sol — so hintWrong admits
+         it: «börjar likadant, men handlar om något helt annat».
+         ⚠ hintWrong REPLACES the shell's own «Inte än — försök igen!» rather than appending to
+         it (lcs-shell.js:877), so it must both name what to look at AND invite another try. And
+         promptArgs is {} — neither hint can name the root, which is why rootLab is a phrase they
+         can point back at.
+         ⚠ `Lilla ordet:` — NOT `Ordstam:`/`Ordrot:`. Lgr22 names no ordklass at åk 1–3, and it
+         states the whole idea of the activity in two words. (`affix` says «Grundordet» to sv
+         children, but only in its screen-reader mirror, so the sighted child has never met it.)
+         ⚠ `Salvia` = the herb; the wisdom half of the English pun has no Swedish equivalent and
+         chasing both produces a worse name. ⛔ `Skalman` is FORBIDDEN — Bamse's tortoise is the
+         most recognisable tortoise in Swedish children's culture and a live trademark. */
+      title: { en: "Sage's Root Garden", de: 'Sages Wortgarten', fr: 'Le jardin des mots de Sage', es: 'El jardín de palabras de Sage', pt: 'O Jardim de Palavras da Sage', it: 'Il giardino delle parole di Sage', nl: 'Sages woordtuin', sv: 'Salvias ordträdgård' },
+      prompt: { en: 'Which word grows from the root?', de: 'Welches Wort wächst aus dem Wortstamm?', fr: 'Quel mot pousse à partir du radical ?', es: '¿Qué palabra crece de la raíz?', pt: 'Qual palavra cresce desta raiz?', it: 'Quale parola cresce da questa radice?', nl: 'Welk woord groeit uit de woordstam?', sv: 'Vilket ord växer ur det lilla ordet?' },
+      instruction: { en: 'Which word grows from the root?', de: 'Welches Wort wächst aus dem Wortstamm?', fr: 'Quel mot pousse à partir du radical ?', es: '¿Qué palabra crece de la raíz?', pt: 'Qual palavra cresce desta raiz?', it: 'Quale parola cresce da questa radice?', nl: 'Welk woord groeit uit de woordstam?', sv: 'Vilket ord växer ur det lilla ordet?' },
+      sageIntro: { en: 'Big words grow from little root words — find the family!', de: 'Aus kleinen Wortstämmen wachsen große Wörter – finde die Wortfamilie!', fr: 'De petits radicaux poussent de grands mots !', es: 'Las palabras grandes crecen de raíces pequeñas: ¡encuentra la familia!', pt: 'Grandes palavras crescem de raízes pequenas!', it: 'Le parole crescono da piccole radici!', nl: 'Uit een kleine stam groeit een groot woord — vind de familie!', sv: 'Stora ord växer ur små ord. Så växer det i min trädgård!' },
+      rootLab: { en: 'Root word:', de: 'Wortstamm:', fr: 'Radical :', es: 'Raíz:', pt: 'Raiz:', it: 'Radice:', nl: 'Woordstam:', sv: 'Lilla ordet:' },
+      theAsk: { en: 'Tap the word that grows from this root.', de: 'Tippe das Wort an, das aus diesem Wortstamm wächst.', fr: 'Touche le mot qui pousse à partir de ce radical.', es: 'Toca la palabra que crece de esta raíz.', pt: 'Toque na palavra que cresce desta raiz.', it: 'Tocca la parola che cresce da questa radice.', nl: 'Tik het woord aan dat uit deze woordstam groeit.', sv: 'Titta på vad orden betyder — inte bara på bokstäverna.' },
+      hintPick: { en: 'Find the root hiding inside one of the words!', de: 'Finde den Wortstamm, der sich in einem der Wörter versteckt!', fr: 'Cherche le radical caché au début d’un des mots !', es: '¡Busca la raíz escondida dentro de una de las palabras!', pt: 'Ache a raiz escondida dentro de uma das palavras!', it: 'Cerca la radice nascosta dentro una delle parole!', nl: 'Zoek de woordstam die in een van de woorden verstopt zit!', sv: 'Tryck på ett av orden. Vilket ord hör ihop med det lilla ordet?' },
+      hintWrong: { en: "That one just looks alike — look for the root inside.", de: 'Das sieht nur ähnlich aus – suche den Wortstamm darin.', fr: 'Il se ressemble seulement — cherche bien le radical à l’intérieur.', es: 'Esa solo se parece; busca la raíz adentro.', pt: 'Essa é só parecida — procure a raiz de verdade dentro dela.', it: 'Quella somiglia soltanto — cerca dentro la radice vera!', nl: 'Dit lijkt er alleen maar op — zoek de woordstam erin.', sv: 'Det ordet börjar likadant — men det handlar om något helt annat. Vilket ord hör ihop?' },
+      win: { en: 'Yes! That word grew from the root. 🌱', de: 'Ja! Dieses Wort ist aus dem Wortstamm gewachsen. 🌱', fr: 'Bravo ! Ce mot a poussé à partir du radical. 🌱', es: '¡Sí! Esa palabra creció de la raíz. 🌱', pt: 'Isso! Essa palavra cresceu da raiz. 🌱', it: 'Sì! Questa parola è cresciuta dalla radice. 🌱', nl: 'Ja! Dit woord is uit de woordstam gegroeid. 🌱', sv: 'Precis! Det ordet växte ur det lilla ordet. 🌱' }
     },
     defaults: {},
 
@@ -77,7 +117,7 @@
       var say = api.el('div', 'srg-say'); say.textContent = api.t('sageIntro'); row.appendChild(say);
       root.appendChild(row);
 
-      var rootBox = api.el('button', 'srg-rootbox'); rootBox.type = 'button'; rootBox.setAttribute('aria-label', LANG === 'de' ? ('Wortstamm ' + v.root + ' anhören') : LANG === 'fr' ? ('écouter le radical ' + v.root) : LANG === 'es' ? ('escuchar la raíz ' + v.root) : LANG === 'pt' ? ('ouvir a raiz ' + v.root) : LANG === 'it' ? ('ascolta la radice ' + v.root) : LANG === 'nl' ? ('woordstam ' + v.root + ' beluisteren') : ('hear the root ' + v.root));
+      var rootBox = api.el('button', 'srg-rootbox'); rootBox.type = 'button'; rootBox.setAttribute('aria-label', (HEAR[LANG] || HEAR.en) + v.root);
       var rl = api.el('span', 'srg-rootlab'); rl.textContent = api.t('rootLab'); rootBox.appendChild(rl);
       var rw = api.el('span', 'srg-rootword'); rw.textContent = v.root; rootBox.appendChild(rw);
       rootBox.addEventListener('click', function () { speak(v.root); });
@@ -128,20 +168,34 @@
         + '.srg-root{position:relative;width:100%;display:flex;flex-direction:column;align-items:center;gap:clamp(7px,1.8vw,12px);background:linear-gradient(180deg,#FBF3E4,#EAF0E2);border-radius:20px;padding:clamp(9px,2.2vw,16px);box-shadow:inset 0 2px 0 rgba(255,255,255,.5),0 5px 0 rgba(120,140,60,.08);}'
         + '.srg-row{display:flex;align-items:center;gap:clamp(6px,2vw,12px);justify-content:center;}'
         + '.srg-tor{width:clamp(46px,10vw,60px);flex:0 0 auto;}.srg-tor-svg{width:100%;height:auto;display:block;}'
-        + '.srg-say{background:#fff;border:2px solid rgba(20,107,94,.18);border-radius:13px 13px 13px 3px;padding:6px 11px;font:700 clamp(12px,3.1vw,15px)/1.3 "Baloo 2",sans-serif;color:' + C.T + ';max-width:78%;display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}'
+        /* ⚠ THREE lines, not two. At two the sweep caught the tortoise's own line CLIPPED
+           MID-SENTENCE at 360 and 412px in German and Spanish — 16-17px of
+           «finde die Wortfamilie!» / «¡encuentra la familia!» simply gone. A CSS fix, so it
+           repairs both locales without touching a word either panel wrote; the card has
+           ample room (ctrlBottom 619 against vh 740 at the tightest). */
+        + '.srg-say{background:#fff;border:2px solid rgba(20,107,94,.18);border-radius:13px 13px 13px 3px;padding:6px 11px;font:700 clamp(12px,3.1vw,15px)/1.3 "Baloo 2",sans-serif;color:' + C.T + ';max-width:78%;display:-webkit-box;-webkit-line-clamp:3;line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;}'
         + '.srg-rootbox{display:inline-flex;align-items:center;gap:8px;background:#E6F2EC;border:3px solid ' + C.GREEN + ';border-radius:14px;padding:8px 18px;cursor:pointer;box-shadow:0 2px 0 rgba(47,165,106,.2);touch-action:manipulation;}'
         + '.srg-rootlab{font:800 clamp(10px,2.5vw,12px)/1 "Baloo 2",sans-serif;color:' + C.T + ';text-transform:uppercase;letter-spacing:.04em;}'
         + '.srg-rootword{font:800 clamp(22px,6vw,30px)/1 "Baloo 2",sans-serif;color:' + C.T + ';}'
-        + '.srg-ask{text-align:center;font:800 clamp(11.5px,2.9vw,13.5px)/1.2 "Baloo 2",sans-serif;color:' + C.CORAL2 + ';}'
+        + '.srg-ask{text-align:center;font:800 clamp(14px,3.2vw,17px)/1.25 "Baloo 2",sans-serif;color:' + C.MISS + ';}'
         + '.srg-opts{display:flex;flex-wrap:wrap;gap:clamp(8px,2.4vw,12px);justify-content:center;}'
         + '.srg-opt{min-width:clamp(82px,25vw,124px);min-height:52px;padding:11px 18px;border-radius:14px;border:2px solid rgba(20,107,94,.26);background:#fff;color:' + C.INK + ';font:800 clamp(16px,4.4vw,21px)/1 "Baloo 2",sans-serif;cursor:pointer;box-shadow:0 2px 0 rgba(160,120,60,.16);touch-action:manipulation;}'
-        + '.srg-opt.srg-sel{border-color:' + C.CORAL + ';box-shadow:0 0 0 3px rgba(242,120,75,.34);background:#FFF6F1;color:' + C.CORAL2 + ';transform:translateY(-2px);}'
+        + '.srg-opt.srg-sel{border-color:' + C.CORAL + ';box-shadow:0 0 0 3px rgba(242,120,75,.34);background:#FFF6F1;color:' + C.MISS + ';transform:translateY(-2px);}'
         + '.srg-opt:active{transform:translateY(1px);}'
         + '.srg-rootbox:focus-visible,.srg-opt:focus-visible{outline:3px solid var(--lcs-focus,#1E8FD4);outline-offset:2px;}'
         + '@media (max-height:920px){.srg-root{gap:clamp(5px,1.4vw,10px);}.srg-tor{width:clamp(42px,8vw,52px);}.srg-opt{min-height:50px;}}'
         + '@media (max-height:700px){.srg-root{gap:6px;padding:11px;}.srg-tor{width:clamp(40px,7vw,46px);}.srg-rootword{font-size:24px;}.srg-opt{min-height:48px;padding:9px 15px;font-size:18px;}}'
         + '@media (max-height:640px){.srg-root{gap:5px;padding:9px;}.srg-row{display:none;}.srg-opt{min-height:46px;font-size:17px;}}'
-        + '@media (max-width:380px){.srg-opt{min-width:72px;font-size:17px;}.srg-rootword{font-size:24px;}}';
+        /* the answer, once CHECKED and correct, takes the success colour — coral is reserved
+           for an unjudged selection. */
+        + '.srg-opt.srg-right{border-color:' + C.GREEN + ';background:#EAF7EF;color:' + C.T + ';box-shadow:0 0 0 3px rgba(47,165,106,.30);}'
+        + '.srg-opt.srg-miss{border-color:rgba(20,107,94,.20);background:#F4F1E9;color:rgba(42,42,53,.55);box-shadow:none;}'
+        + '@media (max-width:380px){.srg-opt{min-width:72px;font-size:17px;}.srg-rootword{font-size:24px;}}'
+        /* ⚠⚠ bring the shell prompt down to meet the content. It is clamp(22px,6vh,48px), so at
+           desktop the INVARIANT question renders at 48px against 24px word cards — the child
+           reads the cards to answer, not the heading. 30px still leads them. ⚠ Two classes,
+           matching the shell's own rule: a single-class override loses SILENTLY. */
+        + '@media (min-width:768px){.lcs-app.activity .lcs-activity-prompt{font-size:clamp(24px,2.6vw,30px);}}';
       var tag = document.createElement('style'); tag.setAttribute('data-sage-root-garden', ''); tag.textContent = css; document.head.appendChild(tag);
     }
   };
@@ -151,7 +205,12 @@
       return {
         id: 'sage-root-garden.' + round.id, band: round.band || 1, promptKey: 'prompt', promptArgs: {}, answerType: 'state',
         setup: function (tool) { tool.setupTask(round); },
-        check: function (tool) { return Core.grade(round, tool.sel); },
+        check: function (tool) {
+          var ok = Core.grade(round, tool.sel);
+          var el = document.querySelector('.srg-opt.srg-sel');
+          if (el) el.classList.add(ok ? 'srg-right' : 'srg-miss');
+          return ok;
+        },
         hintKey: function (tool) { return tool.sel != null ? 'hintWrong' : 'hintPick'; }
       };
     });

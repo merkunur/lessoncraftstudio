@@ -2134,6 +2134,29 @@
         "Barnet kan skrivreglerna för stor bokstav på namn, frågetecken, och punkt mellan två meningar",
         "Barnet vet att och skrivs med o-c-h, även när vi säger å"
       ]
+    },
+    "sage-root-garden.roots.l-2-4-c": {
+      "about": [
+        "Sköldpaddan Salvia odlar ord i sin trädgård. Ett litet ord står på skylten — sol, hund, mat — och bredvid ligger tre ord att välja mellan. Barnet trycker på det ord som växer ur det lilla ordet. Tryck på skylten om du vill höra ordet uppläst.",
+        "Åtta ord, ett för varje liten ordfamilj: sol blir solig, sand blir sandig, snö blir snöboll, hund blir hundvalp, mat blir matsäck, hår blir hårig, bil blir bilbana och stor blir storlek. Det handlar om att förstå vad orden betyder, inte om att stava.",
+        "Fällorna börjar med precis samma bokstäver men hör till en annan familj: soldat har inget med solen att göra, hundra är ett tal och inte en hund, en matta är inget man äter. Därför räcker det aldrig att titta på de första bokstäverna — barnet måste tänka på vad ordet betyder. Aktiviteten följer Lgr22 inom området ord och begrepp, för årskurs 2. Det finns varken tidtagning eller poäng, och barnet får pröva igen tills rätt ord är hittat."
+      ],
+      "practices": [
+        "Se att ett litet ord kan finnas kvar inne i ett större ord — sol i solig",
+        "Välja det ord som hör ihop med det lilla ordet i betydelse, inte i bokstäver",
+        "Känna igen ord som börjar likadant men betyder något helt annat — soldat, hundra, matta",
+        "Använda ett ord man redan kan för att lista ut vad ett nytt ord betyder"
+      ],
+      "howToPlay": [
+        "Läs det lilla ordet på skylten. Tryck på skylten om du vill höra det.",
+        "Läs de tre orden. Fråga dig: vilket av dem hör ihop med det lilla ordet?",
+        "Tryck på ditt ord och sedan på Kontrollera. Blir det fel får du veta vad du ska titta efter och kan pröva igen."
+      ],
+      "learningGoals": [
+        "Barnet hittar ordet som växer ur ett litet ord det redan kan",
+        "Barnet vet att två ord kan börja likadant utan att höra ihop",
+        "Barnet använder ett känt ord som ledtråd till vad ett nytt ord betyder"
+      ]
     }
   }
 }

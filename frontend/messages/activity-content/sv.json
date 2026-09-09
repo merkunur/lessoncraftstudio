@@ -2157,6 +2157,29 @@
         "Barnet vet att två ord kan börja likadant utan att höra ihop",
         "Barnet använder ett känt ord som ledtråd till vad ett nytt ord betyder"
       ]
+    },
+    "olive-kind-of.category-attribute.l-1-5-b": {
+      "about": [
+        "Olga är en uggla som vet vad allting är för sorts sak. Barnet ser en bild – en pannkaka, ett får, en kanot – läser en kort ledtråd och trycker sedan på ordet som säger vilken sorts sak det är: Djur, Mat, Fordon, Kläder, Växter eller Möbler.",
+        "Det svåra är inte att känna igen bilden, utan att hitta ordet som rymmer den. Ett får är ett djur även om ullen blir tröjor, och en kanot är ett fordon fast den saknar hjul. Det är ledtråden som avgör, inte hur saken ser ut.",
+        "Åtta uppgifter i tre steg. De sex orden på knapparna är alltid desamma, så barnet möter dem om och om igen i nya sammanhang och lär sig dem genom att använda dem."
+      ],
+      "practices": [
+        "Läs ledtråden högt tillsammans första gången, innan ni tittar på knapparna. Fråga vad ledtråden egentligen berättar om saken.",
+        "Låt barnet svara med en hel mening: ”En kanot är ett fordon.” Ett överbegrepp fastnar bättre när det används i en mening än när det bara pekas på.",
+        "Stanna vid de knepiga. Varför är ett får inte kläder, fast ullen blir tröjor? Varför är ägg mat och inte djur? Det är i de frågorna tänkandet sitter.",
+        "Fortsätt utanför skärmen: plocka fram tre saker i klassrummet och fråga vilken sorts sak var och en är."
+      ],
+      "howToPlay": [
+        "Titta på bilden. Tryck på högtalaren om du vill höra ordet.",
+        "Läs ledtråden. Den säger något om vad saken gör, eller vad den är gjord av.",
+        "Tryck på rätt sort och sedan på Kontrollera. Blir det fel får du en ny ledtråd och kan försöka igen."
+      ],
+      "learningGoals": [
+        "Känna igen och använda överbegrepp som djur, mat, fordon, kläder, växter och möbler.",
+        "Använda en egenskap i en ledtråd för att avgöra vilken sorts sak något är.",
+        "Sätta ord på varför något tillhör en viss sort, i linje med Lgr22 och arbetet med ord och begrepp i årskurs 1–3."
+      ]
     }
   }
 }

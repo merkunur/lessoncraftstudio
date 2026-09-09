@@ -421,7 +421,7 @@
           { "id": "snt-bus",    "seed": 12, "canonical": ["El","camión","azul","avanza."],    "subject": { "noun": "bus",    "themeDir": "vehicles", "label": "el camión" } },
           { "id": "snt-frog",   "seed": 13, "canonical": ["La","rana","verde","salta."],      "subject": { "noun": "frog",   "themeDir": "camping",  "label": "la rana" } },
           { "id": "snt-pig",    "seed": 19, "canonical": ["El","cerdo","rosa","gruñe."],      "subject": { "noun": "pig",    "themeDir": "animals",  "label": "el cerdo" } },
-          { "id": "snt-hen",    "seed": 21, "canonical": ["La","gallina","blanca","picotea."],"subject": { "noun": "hen",    "themeDir": "birds 2",  "label": "la gallina" } },
+          { "id": "snt-hen",    "seed": 21, "canonical": ["La","gallina","blanca","picotea."],"subject": { "noun": "hen",    "themeDir": "farm animals",  "label": "la gallina" } },
           { "id": "snt-fish",   "seed": 27, "canonical": ["El","pez","rojo","nada."],         "subject": { "noun": "fish",   "themeDir": "animals",  "label": "el pez" } },
           { "id": "snt-flower", "seed": 35, "canonical": ["La","flor","roja","crece."],       "subject": { "noun": "flower", "themeDir": "spring",   "label": "la flor" } }
         ],
@@ -432,7 +432,7 @@
           { "id": "snt-bus",    "seed": 12, "canonical": ["O","ônibus","azul","anda."],      "subject": { "noun": "bus",    "themeDir": "vehicles", "label": "o ônibus" } },
           { "id": "snt-frog",   "seed": 13, "canonical": ["A","rã","verde","pula."],         "subject": { "noun": "frog",   "themeDir": "camping",  "label": "a rã" } },
           { "id": "snt-pig",    "seed": 19, "canonical": ["O","porco","rosa","grunhe."],     "subject": { "noun": "pig",    "themeDir": "animals",  "label": "o porco" } },
-          { "id": "snt-hen",    "seed": 21, "canonical": ["A","galinha","branca","bica."],   "subject": { "noun": "hen",    "themeDir": "birds 2",  "label": "a galinha" } },
+          { "id": "snt-hen",    "seed": 21, "canonical": ["A","galinha","branca","bica."],   "subject": { "noun": "hen",    "themeDir": "farm animals",  "label": "a galinha" } },
           { "id": "snt-fish",   "seed": 27, "canonical": ["O","peixe","vermelho","nada."],   "subject": { "noun": "fish",   "themeDir": "animals",  "label": "o peixe" } },
           { "id": "snt-flower", "seed": 35, "canonical": ["A","flor","roxa","cresce."],      "subject": { "noun": "flower", "themeDir": "spring",   "label": "a flor" } }
         ],
@@ -443,7 +443,7 @@
           { "id": "snt-bus",    "seed": 12, "canonical": ["Il","pullman","blu","corre."],      "subject": { "noun": "bus",    "themeDir": "vehicles", "label": "il pullman" } },
           { "id": "snt-frog",   "seed": 13, "canonical": ["La","rana","verde","salta."],       "subject": { "noun": "frog",   "themeDir": "camping",  "label": "la rana" } },
           { "id": "snt-pig",    "seed": 19, "canonical": ["Il","maiale","rosa","grugnisce."],  "subject": { "noun": "pig",    "themeDir": "animals",  "label": "il maiale" } },
-          { "id": "snt-hen",    "seed": 21, "canonical": ["La","gallina","bianca","becca."],   "subject": { "noun": "hen",    "themeDir": "birds 2",  "label": "la gallina" } },
+          { "id": "snt-hen",    "seed": 21, "canonical": ["La","gallina","bianca","becca."],   "subject": { "noun": "hen",    "themeDir": "farm animals",  "label": "la gallina" } },
           { "id": "snt-fish",   "seed": 27, "canonical": ["Il","pesce","rosso","nuota."],      "subject": { "noun": "fish",   "themeDir": "animals",  "label": "il pesce" } },
           { "id": "snt-flower", "seed": 35, "canonical": ["Il","fiore","viola","cresce."],     "subject": { "noun": "flower", "themeDir": "spring",   "label": "il fiore" } }
         ],

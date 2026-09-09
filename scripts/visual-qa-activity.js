@@ -151,7 +151,18 @@ function measureInPage() {
 
   // answer cards (the big tappable choices) — convention substrings across engines.
   const cards = Array.from(document.querySelectorAll(
-    '[class*="-cand"],[class*="choice-card"],[class*="-choice"],[class*="-card"]'
+    /* ⭐⭐ `-opt` WAS MISSING, AND IT IS THE COMMONEST ANSWER-CARD CONVENTION IN THE
+       CATALOGUE: 36 activities name their choice buttons `<prefix>-opt` (vvm-opt,
+       okt-opt, srg-opt, ts-opt…). None of them matched, so `cards` was 0, the
+       CONVENTION-INDEPENDENT FALLBACK engaged, and TINY + SPARSE — which key on
+       `minContent` and on `cards > 0` — measured NOTHING on all 36 while the run
+       printed `content=—  sparse=—` and PASSED. The non-vacuity check could not see
+       it either: it counts fallbackControls, so the instrument reported "I measured
+       controls" while two of six gates were dark. A gate that measures nothing must
+       not certify. ⚠ Scoped to TAPPABLE elements by the filter below, so the
+       `<prefix>-opts` WRAPPER divs are excluded; the shell itself ships no `-opt`
+       class, so no drawer chip can be swept in. */
+    '[class*="-cand"],[class*="choice-card"],[class*="-choice"],[class*="-card"],[class*="-opt"]'
   )).filter(el => el.tagName === 'BUTTON' || el.getAttribute('role') === 'button' || el.onclick || el.tabIndex >= 0)
     .filter(vis);
 

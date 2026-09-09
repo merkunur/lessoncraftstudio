@@ -68,6 +68,12 @@
     /* nl: shape Lidwoord+Bijv.nw+Zelfst.nw+Werkw. (Germaanse volgorde = het Duitse model, NIET de Romaanse
        Art+Nome+Agg). Nederlands kapitaliseert ALLEEN het eerste woord (het lidwoord) → 1 hoofdletter-tegel.
        ⚠ Nederlands heeft maar 2 lidwoorden "De of Het" (niet de Duitse drie). Geen aanhalingstekens nodig. */
+    /* sv: only `q` and `hear` are live — see the note above. `Lyssna` is the shipped
+       sv read-aloud label in both `plural` and `tense`, the two nearest literacy siblings. */
+    sv: {
+      q: 'Lägg orden i rätt ordning.',
+      hear: '🔊 Lyssna'
+    },
     nl: {
       q: 'Zet de woorden in de goede volgorde.',
       hear: '🔊 Voorlezen',
@@ -78,6 +84,11 @@
   };
   function txt(k) { return (L[LANG] && L[LANG][k]) || L.en[k] || k; }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
+  var EMPTY_SLOT = {
+    en: 'blank', de: 'leere Stelle', fr: 'case vide', es: 'espacio vacío',
+    pt: 'espaço vazio', it: 'spazio vuoto', nl: 'lege plek', sv: 'tom ruta'
+  };
+  function emptySlotLabel(i) { return (EMPTY_SLOT[LANG] || EMPTY_SLOT.en) + ' ' + i; }
   function imgUrl(s) { return '/image-library-webp/themes/' + s.themeDir + '/' + s.noun + '@2x.webp'; }
 
   function wiggleSVG() {
@@ -97,11 +108,11 @@
   var SentenceBuilderActivity = {
     id: 'sentence-builder-activity',
     strings: {
-      title: { en: "Wiggles' Sentence Builder", de: 'Wiggles baut Sätze', fr: 'Wiggles construit des phrases', es: 'Wiggles arma oraciones', pt: 'Wiggles Monta Frases', it: 'Wiggles costruisce le frasi', nl: 'Wiggles bouwt zinnen' },
-      instruction: { en: 'Tap the words to put them in order and build a sentence.', de: 'Tippe die Wörter an und bringe sie in die richtige Reihenfolge, um einen Satz zu bauen.', fr: 'Touche les mots et mets-les dans le bon ordre pour construire une phrase.', es: 'Toca las palabras para ponerlas en orden y armar una oración.', pt: 'Toque nas palavras para colocá-las em ordem e formar uma frase.', it: 'Tocca le parole per metterle in ordine e costruire una frase.', nl: 'Tik de woorden aan en zet ze in de goede volgorde om een zin te bouwen.' },
-      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', pt: '{q}', it: '{q}', nl: '{q}' },
-      hintFill: { en: 'Use all the words — fill every box.', de: 'Nutze alle Wörter – fülle jedes Feld.', fr: 'Utilise tous les mots — remplis chaque case.', es: 'Usa todas las palabras: llena todas las casillas.', pt: 'Use todas as palavras — preencha todos os espaços.', it: 'Usa tutte le parole: riempi ogni casella.', nl: 'Gebruik alle woorden — vul elk vakje.' },
-      hintOrder: { en: 'Not a sentence yet — start with the capital word, end with the period, and make it make sense.', de: 'Noch kein Satz – fang mit Der, Die oder Das an, setze den Punkt ans Ende und bau einen sinnvollen Satz.', fr: 'Ce n’est pas encore une phrase — commence par « Le » ou « La », mets le point à la fin, et fais une phrase qui a du sens.', es: 'Todavía no es una oración: empieza con El o La, pon el punto al final, y arma una oración que tenga sentido.', pt: 'Ainda não é uma frase — comece com a maiúscula (O ou A), termine com o ponto e deixe a frase com sentido.', it: 'Comincia con la lettera maiuscola (Il o La), metti il punto alla fine e costruisci una frase che abbia senso.', nl: 'Nog geen zin — begin met De of Het, zet de punt aan het eind en maak een zinvolle zin.' }
+      title: { en: "Wiggles' Sentence Builder", de: 'Wiggles baut Sätze', fr: 'Wiggles construit des phrases', es: 'Wiggles arma oraciones', pt: 'Wiggles Monta Frases', it: 'Wiggles costruisce le frasi', nl: 'Wiggles bouwt zinnen', sv: 'Krumelur bygger meningar' },
+      instruction: { en: 'Tap the words to put them in order and build a sentence.', de: 'Tippe die Wörter an und bringe sie in die richtige Reihenfolge, um einen Satz zu bauen.', fr: 'Touche les mots et mets-les dans le bon ordre pour construire une phrase.', es: 'Toca las palabras para ponerlas en orden y armar una oración.', pt: 'Toque nas palavras para colocá-las em ordem e formar uma frase.', it: 'Tocca le parole per metterle in ordine e costruire una frase.', nl: 'Tik de woorden aan en zet ze in de goede volgorde om een zin te bouwen.', sv: 'Tryck på orden i rätt ordning för att bygga en mening om bilden.' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', pt: '{q}', it: '{q}', nl: '{q}', sv: '{q}' },
+      hintFill: { en: 'Use all the words — fill every box.', de: 'Nutze alle Wörter – fülle jedes Feld.', fr: 'Utilise tous les mots — remplis chaque case.', es: 'Usa todas las palabras: llena todas las casillas.', pt: 'Use todas as palavras — preencha todos os espaços.', it: 'Usa tutte le parole: riempi ogni casella.', nl: 'Gebruik alle woorden — vul elk vakje.', sv: 'Lägg ett ord i varje ruta och tryck sedan på Kontrollera.' },
+      hintOrder: { en: 'Not a sentence yet — start with the capital word, end with the period, and make it make sense.', de: 'Noch kein Satz – fang mit Der, Die oder Das an, setze den Punkt ans Ende und bau einen sinnvollen Satz.', fr: 'Ce n’est pas encore une phrase — commence par « Le » ou « La », mets le point à la fin, et fais une phrase qui a du sens.', es: 'Todavía no es una oración: empieza con El o La, pon el punto al final, y arma una oración que tenga sentido.', pt: 'Ainda não é uma frase — comece com a maiúscula (O ou A), termine com o ponto e deixe a frase com sentido.', it: 'Comincia con la lettera maiuscola (Il o La), metti il punto alla fine e costruisci una frase che abbia senso.', nl: 'Nog geen zin — begin met De of Het, zet de punt aan het eind en maak een zinvolle zin.', sv: 'Nästan! Börja med ordet som har stor bokstav och lägg ordet med punkt sist.' }
     },
 
     init: function (api) {
@@ -121,20 +132,41 @@
       s.textContent = [
         '.lcs-app.activity .lcs-stage{display:flex;flex-direction:column;justify-content:center;}',
         '.snt-root{display:flex;flex-direction:column;align-items:center;gap:8px;width:100%;max-width:min(96vw,560px);margin:0 auto;}',
-        '.snt-subject{width:52px;height:52px;border:3px solid #146B5E;border-radius:12px;background:#FFFDF6;display:flex;align-items:center;justify-content:center;overflow:hidden;}',
+        /* ⚠ THE PICTURE IS NOT DECORATION — IT IS THE EVIDENCE FOR THE ADJECTIVE.
+           Every target sentence names a colour or a pattern (`En randig fisk`, `En vit
+           höna`), and the only place the child can check it is this thumbnail. It was
+           FIXED at 52px while the card grows past 700px, so at desktop it was the
+           smallest meaningful thing on screen next to a 48px prompt — and `randig`
+           (striped) is genuinely hard to judge at 52px. A per-box floor cannot see this:
+           52px clears a 14px minimum comfortably. What matters is the RATIO to the card,
+           so it is sized in card-relative units and capped. */
+        '.snt-subject{width:clamp(56px,20vw,128px);height:clamp(56px,20vw,128px);border:3px solid #146B5E;border-radius:12px;background:#FFFDF6;display:flex;align-items:center;justify-content:center;overflow:hidden;}',
         '.snt-subject img{width:100%;height:100%;object-fit:contain;}',
         '.snt-slots{display:flex;flex-wrap:wrap;gap:5px;justify-content:center;width:100%;}',
         '.snt-slot{min-width:54px;min-height:44px;border:2.5px dashed #C9B98E;border-radius:10px;background:#FFFDF6;font:800 1rem/1 "Baloo 2",Nunito,sans-serif;color:#0F4A40;cursor:pointer;padding:6px 10px;display:flex;align-items:center;justify-content:center;}',
         '.snt-slot.filled{border-style:solid;border-color:#146B5E;background:#EAF4F1;}',
         '.snt-palette{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;width:100%;}',
-        '.snt-tile{min-height:44px;border:3px solid #146B5E;border-radius:12px;background:#fff;font:800 1rem/1 "Baloo 2",Nunito,sans-serif;color:#146B5E;cursor:pointer;padding:9px 13px;}',
+        '.snt-tile{min-height:44px;min-width:44px;border:3px solid #146B5E;border-radius:12px;background:#fff;font:800 1rem/1 "Baloo 2",Nunito,sans-serif;color:#146B5E;cursor:pointer;padding:9px 13px;}',
         '.snt-tile.used{visibility:hidden;}',
+        '@media (max-width:340px){.snt-palette.allused{display:none;}}',
         '.snt-say{display:flex;align-items:center;gap:8px;width:100%;justify-content:center;min-height:34px;}',
         '.snt-wiggle{flex:0 0 auto;line-height:0;}',
         '.snt-hear{flex:0 0 auto;border:2px solid #146B5E;border-radius:999px;background:#fff;color:#146B5E;font:700 .8rem/1 Nunito,sans-serif;padding:7px 14px;min-height:44px;cursor:pointer;}',
         '.snt-wiggle-svg .snt-eyes-happy{display:none;}.snt-wiggle[data-pose=happy] .snt-eyes-open{display:none;}.snt-wiggle[data-pose=happy] .snt-eyes-happy{display:block;}',
         '.snt-sronly{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);}',
-        '@media (max-width:380px){.snt-root{gap:6px;}.snt-subject{width:44px;height:44px;}.snt-slot{min-width:46px;font-size:.92rem;padding:5px 7px;}.snt-tile{font-size:.92rem;padding:8px 10px;}.snt-hear{padding:6px 11px;}}'
+/* ⭐ DESKTOP FILL. `.snt-root` caps the working area at 560px, which is right on a
+           phone and leaves a ~230x570 cluster adrift in a 720px card at 768/1024 — the
+           card reads as a big sheet of cream with a headline and a small toy in the
+           middle. The shell's own sparse gate cannot see it: it measures ANSWER CARDS,
+           and this activity has none (its controls are tiles). Grow the type and the
+           measure at the width where the room appears; the phone layout is untouched. */
+        '@media (min-width:768px){.snt-root{max-width:min(96vw,640px);gap:12px;}.snt-slot{min-width:76px;font-size:1.3rem;padding:10px 14px;}.snt-tile{font-size:1.3rem;padding:12px 18px;}.snt-hear{font-size:.95rem;padding:10px 18px;}}',
+        '@media (max-width:380px){.snt-root{gap:6px;}.snt-subject{width:clamp(56px,21vw,76px);height:clamp(56px,21vw,76px);}.snt-slot{min-width:46px;font-size:.92rem;padding:5px 7px;}.snt-tile{font-size:.92rem;padding:8px 10px;}.snt-hear{padding:6px 11px;}}',
+        /* ⚠ AFTER the 380 block on purpose: a media query adds no specificity, so the
+           narrower rule only wins if it comes later. 320x640 is the binding state
+           (measured ~35px of headroom) and takes the smaller picture; 341-380 has
+           ~157px and can afford the size `randig` actually needs. */
+        '@media (max-width:340px){.snt-subject{width:clamp(48px,16vw,54px);height:clamp(48px,16vw,54px);}}'
       ].join('');
       document.head.appendChild(s);
     },
@@ -240,14 +272,14 @@
         var b = el('button', 'snt-slot' + (s ? ' filled' : ''));
         b.type = 'button'; b.setAttribute('data-si', si);
         b.textContent = s ? s.word : '';
-        b.setAttribute('aria-label', s ? s.word : 'empty slot ' + (si + 1));
+        b.setAttribute('aria-label', s ? s.word : emptySlotLabel(si + 1));
         b.addEventListener('click', function () { self.clearSlot(si); });
         slots.appendChild(b);
       });
       root.appendChild(slots);
 
       /* scrambled tile palette */
-      var pal = el('div', 'snt-palette');
+      var pal = el('div', 'snt-palette' + (this._used.length && this._used.every(function (u) { return u; }) ? ' allused' : ''));
       this._tiles.forEach(function (w, ti) {
         var b = el('button', 'snt-tile' + (self._used[ti] ? ' used' : ''));
         b.type = 'button'; b.setAttribute('data-ti', ti); b.textContent = w;
@@ -284,6 +316,8 @@
         ? ('Costruisci una frase. Le parole sono: ' + this._tiles.join(', ') + '.')
         : LANG === 'nl'
         ? ('Bouw een zin. De woorden zijn: ' + this._tiles.join(', ') + '.')
+        : LANG === 'sv'
+        ? ('Bygg en mening. Orden är: ' + this._tiles.join(', ') + '.')
         : ('Build a sentence. The words are: ' + this._tiles.join(', ') + '.');
       wrap.innerHTML = '<p>' + msg + '</p>';
       return wrap;

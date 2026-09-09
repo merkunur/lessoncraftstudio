@@ -2111,6 +2111,29 @@
         "Barnet vet att det är en-ord, ett-ord eller flertal som avgör formen, inte vem saken tillhör",
         "Barnet skiljer på jag och mig i enkla meningar"
       ]
+    },
+    "sentence-clinic.fix-it.l-2-1": {
+      "about": [
+        "En mening kommer in i kliniken med ett litet fel i sig, och orden står som brickor i rad. Barnet trycker på det som är fel — ett ord, en lucka, eller stället där två meningar sitter ihop — och lagar det sedan. Doktor Fjäder, en uggla med glasögon och sjal, tar emot en mening i taget.",
+        "Sju meningar, en för varje sorts lagning: stor bokstav i ett namn (Min hund heter bella), frågetecken efter en fråga (Vad heter din hund), ordet och i stället för talspråkets å (Jag å min bror cyklar), ett verb som saknas (Katten mjölk), ordföljden när meningen börjar med ett tidsord (Imorgon ska jag läsa), ett ord för mycket (Jag kan att simma) och två meningar som skrivits ihop (Jag sprang det var roligt).",
+        "Decket är ombyggt för svenskan, inte översatt. Den engelska versionen övar att verbet rättar sig efter subjektet, och det finns inte i svenskan — barnet springer och barnen springer är samma form — så den rundan övar i stället skillnaden mellan hur vi säger och hur vi skriver. Aktiviteten följer Lgr22 inom området språkliga strukturer och normer, för årskurs 2. Det finns varken tidtagning eller poäng, och barnet får pröva igen tills meningen är rätt skriven."
+      ],
+      "practices": [
+        "Sätta stor bokstav på namn, även mitt inne i en mening",
+        "Välja frågetecken när meningen är en fråga",
+        "Skriva och, fast vi säger å",
+        "Se när ett ord saknas, när ett ord är för mycket, och när två meningar behöver en punkt emellan"
+      ],
+      "howToPlay": [
+        "Läs meningen som kommer in i kliniken. Något i den är fel.",
+        "Tryck på ordet, luckan eller stället där felet sitter. Är det rätt ställe får du välja hur det ska lagas; är det fel ställe säger Doktor Fjäder att det ordet redan är rätt.",
+        "När meningen är lagad står regeln under den, och knappen Kontrollera dyker upp så att du kan gå vidare."
+      ],
+      "learningGoals": [
+        "Barnet hittar felet i en mening och kan säga vad som behöver ändras",
+        "Barnet kan skrivreglerna för stor bokstav på namn, frågetecken, och punkt mellan två meningar",
+        "Barnet vet att och skrivs med o-c-h, även när vi säger å"
+      ]
     }
   }
 }

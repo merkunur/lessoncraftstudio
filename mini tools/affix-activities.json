@@ -32,8 +32,8 @@
         "de": [
           { "id": "af-mutlos",   "cog": "apply", "word": "mutlos",   "root": "Mut",   "affix": "less",
             "options": [ {"affix":"root","text":"Mut"}, {"affix":"less","text":"ohne Mut"}, {"affix":"ful","text":"voller Mut"} ] },
-          { "id": "af-farblos",  "cog": "apply", "word": "farblos",  "root": "Farbe", "affix": "less",
-            "options": [ {"affix":"root","text":"Farbe"}, {"affix":"less","text":"ohne Farbe"}, {"affix":"ful","text":"voller Farbe"} ] },
+          { "id": "af-fehlerlos", "cog": "apply", "word": "fehlerlos", "root": "Fehler", "affix": "less",
+            "options": [ {"affix":"root","text":"Fehler"}, {"affix":"less","text":"ohne Fehler"}, {"affix":"ful","text":"voller Fehler"} ] },
           { "id": "af-kraftlos", "cog": "apply", "word": "kraftlos", "root": "Kraft", "affix": "less",
             "options": [ {"affix":"root","text":"Kraft"}, {"affix":"less","text":"ohne Kraft"}, {"affix":"ful","text":"voller Kraft"} ] },
           { "id": "af-liebevoll", "cog": "apply", "word": "liebevoll", "root": "Liebe", "affix": "ful",
@@ -47,7 +47,7 @@
           { "id": "af-ungluecklich", "cog": "apply", "word": "unglücklich", "root": "glücklich", "affix": "un",
             "options": [ {"affix":"root","text":"glücklich"}, {"affix":"un","text":"nicht glücklich"}, {"affix":"ful","text":"voller Glück"} ] },
 
-          { "id": "af-which-farblos", "cog": "which", "root": "Farbe", "affix": "less", "meaning": "ohne Farbe", "options": ["un","ful","less"] },
+          { "id": "af-which-fehlerlos", "cog": "which", "root": "Fehler", "affix": "less", "meaning": "ohne Fehler", "options": ["un","ful","less"] },
           { "id": "af-which-liebevoll", "cog": "which", "root": "Liebe", "affix": "ful", "meaning": "voller Liebe", "options": ["un","ful","less"] },
           { "id": "af-which-unfreundlich", "cog": "which", "root": "freundlich", "affix": "un", "meaning": "nicht freundlich", "options": ["un","ful","less"] }
         ],
@@ -131,9 +131,9 @@
           { "id": "af-which-gioioso",   "cog": "which", "root": "gioia",  "affix": "ful", "meaning": "pieno di gioia",         "options": ["un","re","ful"] }
         ],
         "nl": [
-          { "id": "af-ongelukkig", "cog": "apply", "word": "ongelukkig", "root": "gelukkig", "affix": "un",  "options": [ { "affix": "root", "text": "gelukkig" }, { "affix": "un", "text": "niet gelukkig" }, { "affix": "ful", "text": "heel gelukkig" } ] },
-          { "id": "af-ongezond",   "cog": "apply", "word": "ongezond",   "root": "gezond",   "affix": "un",  "options": [ { "affix": "root", "text": "gezond" }, { "affix": "un", "text": "niet gezond" }, { "affix": "ful", "text": "heel gezond" } ] },
-          { "id": "af-oneerlijk",  "cog": "apply", "word": "oneerlijk",  "root": "eerlijk",  "affix": "un",  "options": [ { "affix": "root", "text": "eerlijk" }, { "affix": "un", "text": "niet eerlijk" }, { "affix": "ful", "text": "heel eerlijk" } ] },
+          { "id": "af-ongelukkig", "cog": "apply", "word": "ongelukkig", "root": "gelukkig", "affix": "un",  "options": [ { "affix": "root", "text": "gelukkig" }, { "affix": "un", "text": "niet gelukkig" }, { "affix": "int", "text": "heel gelukkig" } ] },
+          { "id": "af-ongezond",   "cog": "apply", "word": "ongezond",   "root": "gezond",   "affix": "un",  "options": [ { "affix": "root", "text": "gezond" }, { "affix": "un", "text": "niet gezond" }, { "affix": "int", "text": "heel gezond" } ] },
+          { "id": "af-oneerlijk",  "cog": "apply", "word": "oneerlijk",  "root": "eerlijk",  "affix": "un",  "options": [ { "affix": "root", "text": "eerlijk" }, { "affix": "un", "text": "niet eerlijk" }, { "affix": "int", "text": "heel eerlijk" } ] },
           { "id": "af-kleurloos",  "cog": "apply", "word": "kleurloos",  "root": "kleur",    "affix": "less", "options": [ { "affix": "root", "text": "kleur" }, { "affix": "less", "text": "zonder kleur" }, { "affix": "ful", "text": "vol kleur" } ] },
           { "id": "af-waardeloos", "cog": "apply", "word": "waardeloos", "root": "waarde",   "affix": "less", "options": [ { "affix": "root", "text": "waarde" }, { "affix": "less", "text": "zonder waarde" }, { "affix": "ful", "text": "vol waarde" } ] },
           { "id": "af-geurloos",   "cog": "apply", "word": "geurloos",   "root": "geur",     "affix": "less", "options": [ { "affix": "root", "text": "geur" }, { "affix": "less", "text": "zonder geur" }, { "affix": "ful", "text": "vol geur" } ] },
@@ -185,7 +185,7 @@
       "es": "Prefijos y sufijos para niños: forma palabras (2.º primaria)",
       "pt": "A Máquina de Palavras da Marigold: prefixos e sufixos",
       "it": "La macchina delle parole di Marigold: prefissi e suffissi (classe seconda)",
-      "nl": "Marigolds Woordmachine: voor- en achtervoegsels – Groep 4",
+      "nl": "Marigolds woordmachine: voor- en achtervoegsels – groep 4",
       "sv": "Prefix och suffix – o-, -full och -lös: vad betyder ordet? (åk 2)"
     },
     "page_intro": {

@@ -23,7 +23,24 @@
   var LANG = 'en';
   var SENSE = {
     en: { un: 'NOT', re: 'AGAIN', ful: 'FULL OF', less: 'WITHOUT' },
-    de: { un: 'NICHT', ful: 'VOLLER', less: 'OHNE' },
+    /* ⚠⚠ de: `un` was 'NICHT' and `ful` was 'VOLLER', ruled by a native German panel.
+       `nicht` sits in exactly the post-verbal slot the object of `bedeuten` would occupy, so
+       „un-“ bedeutet NICHT. has a fully well-formed competing parse — 'un- does NOT mean.' The
+       capitals cannot rescue it, and the proof is in this file: _renderOptions builds the
+       aria-label as label + ' bedeutet ' + sense, and THE ACCESSIBILITY TREE HAS NO CAPITALS AT
+       ALL, so a screen-reader child gets the inverted sentence with no typographic cue. es/fr
+       were structurally immune (`no significa` is pre-verbal, `ne…pas` discontinuous), which is
+       why they were free to pick a noun phrase and German was not. `das Gegenteil` is also the
+       Grundschule term. ⚠ The article is REQUIRED: *`bedeutet Gegenteil` is ungrammatical.
+       'VOLLER' was ambiguous three ways and a child reaches the COMPARATIVE first ('means
+       fuller'), while -voll -> VOLLER looks like the cog's job is to add -er — a false rule the
+       deck never contradicts. 'VOLL DAVON' is a complete sentence, keeps VOLL visible next to the
+       label, and its DAVON always has an on-screen antecedent (the sense chip renders only in
+       `which` rounds, which display the root). ⚠ bare VOLL was rejected: German children's
+       `voll` is first an intensifier and colloquially 'drunk' — the sv `full` trap again.
+       ⛔ `less: 'OHNE'` IS CORRECT — a bare preposition with no competing parse after `bedeutet`.
+       Do NOT let a consistency sweep touch it; it only LOOKS like the same shape as NICHT. */
+    de: { un: 'DAS GEGENTEIL', ful: 'VOLL DAVON', less: 'OHNE' },
     fr: { un: 'LE CONTRAIRE', re: 'À NOUVEAU', ful: 'PLEIN DE' },
     es: { un: 'LO CONTRARIO', re: 'OTRA VEZ', ful: 'LLENO DE' },
     pt: { un: 'O CONTRÁRIO', re: 'DE NOVO', ful: 'CHEIO DE' },
@@ -46,8 +63,8 @@
        'snäll' would put o- and -are in ONE cog row with snällare a real word. -bar strands every
        round (verb-stem roots, nothing to contrast). -het changes category; -lig has no single sense.
        WARN SENSE.un is MOTSATSEN and must NEVER be INTE: winApply renders '”{label}” betyder
-       {sense}.' and 'betyder INTE' means DOES NOT MEAN — the sentence inverts. de ('bedeutet NICHT.')
-       and nl ('betekent NIET.') SHIP that bug; the four Romance locales escaped via a noun phrase.
+       {sense}.' and 'betyder INTE' means DOES NOT MEAN — the sentence inverts. de shipped exactly
+       that bug ('bedeutet NICHT.') until it was fixed below; nl still does ('betekent NIET.').
        MOTSATSEN is also truer: o- derives opposites, it does not negate a clause.
        WARN FULL AV, never bare FULL — 'full' in Swedish reads first as DRUNK. */
     sv: { un: 'MOTSATSEN', ful: 'FULL AV', less: 'UTAN' }
@@ -81,11 +98,11 @@
       nWhich: 'Which cog gives that meaning?'
     },
     de: {
-      win: 'Ja! {note}',
-      winApply: '‚{label}‘ bedeutet {sense}.',
-      winWhich: '‚{label}‘ bedeutet {sense} – so entsteht das Wort!',
+      win: 'Genau! {note}',
+      winApply: '„{label}“ bedeutet {sense}.',
+      winWhich: '„{label}“ bedeutet {sense} – so entsteht das Wort!',
       nApply: 'Lies das Wort: Was macht das Zahnrad damit?',
-      nWhich: 'Welches Zahnrad ergibt diese Bedeutung?'
+      nWhich: 'Lies die Bedeutung noch einmal – welches Zahnrad passt dazu?'
     },
     fr: {
       win: 'Bravo ! {note}',
@@ -121,10 +138,10 @@
        kind — de #20-les). Het machine-thema = het TANDWIEL (nl voor "cog/Zahnrad"). */
     nl: {
       win: 'Ja! {note}',
-      winApply: '‘{label}’ betekent {sense}.',
-      winWhich: '‘{label}’ betekent {sense} – zo ontstaat het woord!',
+      winApply: '‘{label}’ staat voor ‘{sense}’.',
+      winWhich: '‘{label}’ staat voor ‘{sense}’ – zo ontstaat het woord!',
       nApply: 'Lees het woord: wat doet het tandwiel ermee?',
-      nWhich: 'Welk tandwiel geeft deze betekenis?'
+      nWhich: 'Lees de betekenis nog eens – welk tandwiel geeft die?'
     },
     /* sv: quotes are ”…” (U+201D on BOTH sides) — measured across the shipped sv strings, never
        the German low-open and never guillemets. Dash is the em dash with spaces. No apostrophes, so
@@ -147,7 +164,11 @@
   }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
 
-  var C = { T: '#146B5E', INK: '#0F4A40', CORAL: '#F2784B', BRASS: '#D8B26A', BRASSDK: '#A07C3A', CREAM: '#FBF3E4' };
+  /* ⚠ SYM is the affix-symbol ink and is deliberately NOT C.CORAL: measured, coral #F2784B is
+     2.73:1 on the machine window and 2.52:1 on the cog's cream disc, under the 3:1 floor for an
+     icon that carries meaning — and these glyphs are the only non-text statement of what the affix
+     DOES. #C2410C measures 4.78:1 on the same cream. A projector crushes the pale one first. */
+  var C = { T: '#146B5E', INK: '#0F4A40', CORAL: '#F2784B', SYM: '#C2410C', BRASS: '#D8B26A', BRASSDK: '#A07C3A', CREAM: '#FBF3E4' };
 
   function marigoldSVG() {
     return '<svg class="af-mari-svg" viewBox="0 0 56 52" width="36" height="34" aria-hidden="true">' +
@@ -166,13 +187,13 @@
     for (var i = 0; i < 8; i++) { var a = i * Math.PI / 4, tx = cx + Math.cos(a) * r, ty = cy + Math.sin(a) * r; teeth += '<circle cx="' + tx.toFixed(1) + '" cy="' + ty.toFixed(1) + '" r="' + (r * 0.16).toFixed(1) + '" fill="' + C.T + '"/>'; }
     var gear = teeth + '<circle cx="' + cx + '" cy="' + cy + '" r="' + r + '" fill="' + C.T + '"/><circle cx="' + cx + '" cy="' + cy + '" r="' + (r * 0.66) + '" fill="' + C.CREAM + '"/>';
     var s = r * 0.42, sym = '';
-    if (affix === 'un') sym = '<circle cx="' + cx + '" cy="' + cy + '" r="' + s + '" fill="none" stroke="' + C.CORAL + '" stroke-width="' + (r * 0.16) + '"/><line x1="' + (cx - s * 0.72) + '" y1="' + (cy + s * 0.72) + '" x2="' + (cx + s * 0.72) + '" y2="' + (cy - s * 0.72) + '" stroke="' + C.CORAL + '" stroke-width="' + (r * 0.16) + '" stroke-linecap="round"/>';
-    else if (affix === 're') sym = '<path d="M' + (cx + s) + ' ' + cy + ' A' + s + ' ' + s + ' 0 1 1 ' + (cx) + ' ' + (cy - s) + '" fill="none" stroke="' + C.CORAL + '" stroke-width="' + (r * 0.16) + '" stroke-linecap="round"/><path d="M' + (cx - 1) + ' ' + (cy - s - r * 0.28) + ' l' + (r * 0.3) + ' ' + (r * 0.28) + ' l-' + (r * 0.34) + ' ' + (r * 0.16) + ' z" fill="' + C.CORAL + '"/>';
+    if (affix === 'un') sym = '<circle cx="' + cx + '" cy="' + cy + '" r="' + s + '" fill="none" stroke="' + C.SYM + '" stroke-width="' + (r * 0.16) + '"/><line x1="' + (cx - s * 0.72) + '" y1="' + (cy + s * 0.72) + '" x2="' + (cx + s * 0.72) + '" y2="' + (cy - s * 0.72) + '" stroke="' + C.SYM + '" stroke-width="' + (r * 0.16) + '" stroke-linecap="round"/>';
+    else if (affix === 're') sym = '<path d="M' + (cx + s) + ' ' + cy + ' A' + s + ' ' + s + ' 0 1 1 ' + (cx) + ' ' + (cy - s) + '" fill="none" stroke="' + C.SYM + '" stroke-width="' + (r * 0.16) + '" stroke-linecap="round"/><path d="M' + (cx - 1) + ' ' + (cy - s - r * 0.28) + ' l' + (r * 0.3) + ' ' + (r * 0.28) + ' l-' + (r * 0.34) + ' ' + (r * 0.16) + ' z" fill="' + C.SYM + '"/>';
     else if (affix === 'ful' || affix === 'less') {
       var cup = 'M' + (cx - s) + ' ' + (cy - s * 0.85) + ' v' + (s * 1.15) + ' a' + s + ' ' + (s * 0.9) + ' 0 0 0 ' + (2 * s) + ' 0 v-' + (s * 1.15);   /* shared cup outline */
-      var rim = '<line x1="' + (cx - s - r * 0.12) + '" y1="' + (cy - s * 0.85) + '" x2="' + (cx + s + r * 0.12) + '" y2="' + (cy - s * 0.85) + '" stroke="' + (affix === 'ful' ? C.CORAL : C.BRASSDK) + '" stroke-width="' + (r * 0.14) + '" stroke-linecap="round"/>';
+      var rim = '<line x1="' + (cx - s - r * 0.12) + '" y1="' + (cy - s * 0.85) + '" x2="' + (cx + s + r * 0.12) + '" y2="' + (cy - s * 0.85) + '" stroke="' + (affix === 'ful' ? C.SYM : C.BRASSDK) + '" stroke-width="' + (r * 0.14) + '" stroke-linecap="round"/>';
       sym = (affix === 'ful')
-        ? '<path d="' + cup + ' z" fill="' + C.CORAL + '"/>' + rim                                                   /* full cup (filled) */
+        ? '<path d="' + cup + ' z" fill="' + C.SYM + '"/>' + rim                                                   /* full cup (filled) */
         : '<path d="' + cup + '" fill="none" stroke="' + C.BRASSDK + '" stroke-width="' + (r * 0.14) + '" stroke-linecap="round" stroke-linejoin="round"/>' + rim;   /* empty cup (outline) */
     }
     return gear + sym;
@@ -183,8 +204,8 @@
     strings: {
       title: { en: "Marigold's Knowing Machine", de: 'Marigolds Wortmaschine', fr: 'La machine à mots de Marigold', es: 'La máquina de palabras de Marigold', pt: 'A Máquina de Palavras da Marigold', it: 'La macchina delle parole di Marigold', nl: 'Marigolds Woordmachine', sv: 'Marigolds ordmaskin' },
       instruction: { en: 'Help Marigold the mole figure out what the new word means!', de: 'Hilf dem Maulwurf Marigold herauszufinden, was das neue Wort bedeutet!', fr: 'Aide Marigold la taupe à découvrir ce que veut dire le nouveau mot !', es: '¡Ayuda a Marigold el topo a descubrir qué significa la palabra nueva!', pt: 'Ajude a toupeira Marigold a descobrir o que a nova palavra quer dizer!', it: 'Aiuta la talpa Marigold a scoprire che cosa significa la nuova parola!', nl: 'Help mol Marigold ontdekken wat het nieuwe woord betekent!', sv: 'Hjälp mullvaden Marigold att lista ut vad det nya ordet betyder!' },
-      qapply: { en: 'What does {word} mean?', de: 'Was bedeutet ‚{word}‘?', fr: 'Que veut dire « {word} » ?', es: '¿Qué significa {word}?', pt: 'O que quer dizer {word}?', it: 'Che cosa significa {word}?', nl: 'Wat betekent ‘{word}’?', sv: 'Vad betyder ”{word}”?' },
-      qwhich: { en: 'Which cog makes a word meaning “{meaning}”?', de: 'Welches Zahnrad macht ein Wort, das ‚{meaning}‘ bedeutet?', fr: 'Quel rouage fabrique un mot qui veut dire « {meaning} » ?', es: '¿Qué engrane forma una palabra que significa «{meaning}»?', pt: 'Qual engrenagem forma uma palavra que significa “{meaning}”?', it: 'Quale ingranaggio forma una parola che significa «{meaning}»?', nl: 'Welk tandwiel maakt een woord dat ‘{meaning}’ betekent?', sv: 'Vilket kugghjul gör ett ord som betyder ”{meaning}”?' }
+      qapply: { en: 'What does {word} mean?', de: 'Was bedeutet „{word}“?', fr: 'Que veut dire « {word} » ?', es: '¿Qué significa {word}?', pt: 'O que quer dizer {word}?', it: 'Che cosa significa {word}?', nl: 'Wat betekent ‘{word}’?', sv: 'Vad betyder ”{word}”?' },
+      qwhich: { en: 'Which cog makes a word meaning “{meaning}”?', de: 'Welches Zahnrad macht ein Wort, das „{meaning}“ bedeutet?', fr: 'Quel rouage fabrique un mot qui veut dire « {meaning} » ?', es: '¿Qué engrane forma una palabra que significa «{meaning}»?', pt: 'Qual engrenagem forma uma palavra que significa “{meaning}”?', it: 'Quale ingranaggio forma una parola che significa «{meaning}»?', nl: 'Welk tandwiel maakt een woord dat ‘{meaning}’ betekent?', sv: 'Vilket kugghjul gör ett ord som betyder ”{meaning}”?' }
     },
 
     init: function (api) {
@@ -206,7 +227,10 @@
         '.af-root{display:flex;flex-direction:column;align-items:center;gap:12px;width:100%;max-width:min(96vw,600px);margin:0 auto;}',
         '.af-say{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;}',
         '.af-mari{flex:0 0 auto;}',
-        '.af-line-msg{flex:0 1 auto;min-height:1.1em;text-align:center;font:700 clamp(0.88rem,2.1vw,1.14rem)/1.3 Nunito,system-ui,sans-serif;color:#146B5E;margin:0;}',
+        /* ⚠ the line that STATES THE RULE measured x-height 7.0 at 360 and 8.0 at 768 against the
+           passive KLARA counter's 8.0 cap-height — i.e. at or below the progress chrome, and 64%
+           of the answer text it explains. A FLOOR CANNOT SEE AN INVERTED HIERARCHY. */
+        '.af-line-msg{flex:0 1 auto;min-height:1.1em;text-align:center;font:700 clamp(1rem,2.6vw,1.3rem)/1.3 Nunito,system-ui,sans-serif;color:#146B5E;margin:0;}',
         '.af-line-msg.miss{color:#C2410C;}',
         '.af-scene{width:100%;max-width:min(92vw,420px);height:auto;display:block;}',
         '.af-board{width:100%;max-width:min(96vw,600px);display:flex;flex-direction:column;gap:12px;align-items:center;}',
@@ -215,20 +239,36 @@
         '.af-row .af-cand{flex:1 1 0;min-width:0;min-height:clamp(64px,11vw,116px);padding:8px 10px;font:700 clamp(1.05rem,3.6vw,1.6rem)/1.18 Nunito,system-ui,sans-serif;overflow-wrap:break-word;}',
         /* which = a row of cog buttons */
         '.af-cogrow{display:flex;justify-content:center;gap:14px;width:100%;}',
-        '.af-cogrow .af-cand{flex:1 1 0;min-width:0;max-width:138px;min-height:clamp(104px,17vw,134px);flex-direction:column;gap:3px;padding:6px 4px;}',
+        '.af-cogrow .af-cand{flex:1 1 0;min-width:0;max-width:138px;min-height:clamp(92px,13vw,108px);flex-direction:column;gap:3px;padding:6px 4px;}',
+        /* the glyph was a fixed width=78 attribute in the SVG markup; making it fluid is what pays
+           for the taller teaching line without growing the card */
+        '.af-cogrow .af-cand > svg{width:clamp(48px,13vw,64px);height:auto;}',
         '.af-cog-label{font:800 clamp(1.05rem,3.6vw,1.5rem)/1 "Baloo 2",Nunito,sans-serif;color:#0F4A40;}',
-        '.af-cog-sense{font:700 clamp(.7rem,2.2vw,.84rem)/1 Nunito,sans-serif;color:#146B5E;letter-spacing:.02em;}',
+        /* ⚠ MOTSATSEN measured 68.0px of ink in a 68.0px content box at 360 — zero slack both
+           sides. It does not overflow with Nunito loaded, but the fallback sans-serif is wider and
+           a single unbreakable word would push the flex item. Floor raised, tracking dropped. */
+        '.af-cog-sense{font:700 clamp(.78rem,2.2vw,.9rem)/1.05 Nunito,sans-serif;color:#146B5E;letter-spacing:0;overflow-wrap:anywhere;}',
         '.af-cand{border:3px solid #146B5E;border-radius:15px;background:#fff;color:#0F4A40;cursor:pointer;display:flex;align-items:center;justify-content:center;text-align:center;box-sizing:border-box;}',
         /* ⚠ this rule used to be `.af-cand.sel` with a CORAL ring, and the class `sel` was
            applied NOWHERE — dead CSS, and the consequence was visible in the render: on
            resolving, the correct card looked identical to the untouched one, so a child who
            tapped the right answer saw the card not change. Coral would have been the wrong
            ink anyway: on this platform coral = NOT YET, teal = RIGHT. */
-        '.af-cand.ok{border-color:#146B5E;background:#E8F3F0;box-shadow:0 0 0 3px rgba(20,107,94,.32);}',
-        '.af-cand.dim{opacity:.4;}',
+        /* ⚠ this rule's border-color RESTATED .af-cand's own border and was a no-op, leaving the
+           whole confirmation resting on a 3px halo measured at 1.63:1. The border carries it now. */
+        '.af-cand.ok{border-width:5px;border-color:#0F4A40;background:#DCEEE9;box-shadow:0 0 0 3px rgba(20,107,94,.45);}',
+        '.af-cand.dim{opacity:.55;}',
+        '.af-mari-svg{width:clamp(36px,5.2vw,52px);height:auto;}',
         '.af-mari-svg .af-eyes-happy{display:none;}.af-mari[data-pose=happy] .af-eyes-open{display:none;}.af-mari[data-pose=happy] .af-eyes-happy{display:block;}',
         '.af-sronly{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);}',
         '@media (max-width:380px){.af-root{gap:9px;}.af-cogrow .af-cand{min-height:88px;}}',
+        /* ⚠ 320x640, RESOLVED phase, `which` rounds — the tightest state this activity has, and
+           one no sweep saw until it got a phase driver. With the Check revealed and a three-line
+           win message there is no room left, and the teaching line must NOT be the thing that
+           gives (it was already at/below the passive KLARA counter's lettering height). So the
+           gap and the machine's generous brass frame give instead. preserveAspectRatio=meet keeps
+           the scene undistorted — it scales down and centres. Locale-neutral and shrink-only. */
+        '@media (max-width:340px){.af-root{gap:6px;}.af-scene{max-height:56px;}}',
         /* ⚠ 320px, RESOLVED phase only — a state no sweep had ever photographed until this
            activity got a visual-qa phase driver. With the shell Check revealed, the English
            `which` rounds land at ctrlBottom 637 against vh 640: THREE pixels of slack. Swedish's
@@ -237,7 +277,6 @@
            bare INTE would inverte the sentence ('betyder INTE' = DOES NOT MEAN) — so THE LAYOUT
            GIVES: the cog glyph shrinks at the narrowest width only. Locale-neutral, shrink-only,
            and the button stays far above the 44px tap floor (measured ~110px tall after this). */
-        '@media (max-width:340px){.af-cogrow .af-cand > svg{width:58px;height:58px;}}',
         '.lcs-app:not(.marigold-resolved) .lcs-activity-check{display:none !important;}'
       ].join('');
       document.head.appendChild(s);
@@ -319,7 +358,10 @@
           '<text x="' + (W * 0.26) + '" y="' + ((H - 14) / 2 + 9) + '" font-family="Baloo 2,Nunito,sans-serif" font-weight="800" font-size="22" fill="' + C.CORAL + '" text-anchor="middle">?</text>' +
           '<text x="' + (W * 0.6) + '" y="' + ((H - 14) / 2 + 9) + '" font-family="Baloo 2,Nunito,sans-serif" font-weight="800" font-size="30" fill="' + C.INK + '" text-anchor="middle">' + r.root + '</text>';
       } else {
-        content = cogInner(r.affix, W * 0.2, (H - 14) / 2 + 4, 18) +
+        /* ⚠ NOT cogInner(r.affix) until the round is resolved. Drawing the answer's own symbol
+           here let a child match the filled cup to 'full av X' and the empty cup to 'utan X'
+           without reading the built word at all. The 'q' branch renders teeth with no symbol. */
+        content = cogInner(this._resolved ? r.affix : 'q', W * 0.2, (H - 14) / 2 + 4, 18) +
           '<text x="' + (W * 0.58) + '" y="' + ((H - 14) / 2 + 10) + '" font-family="Baloo 2,Nunito,sans-serif" font-weight="800" font-size="30" fill="' + C.INK + '" text-anchor="middle">' + r.word + '</text>';
       }
       var svg = '<svg class="af-scene" viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="xMidYMid meet" aria-hidden="true">' + frame + content + '</svg>';
@@ -335,7 +377,8 @@
         this._choiceOrder.forEach(function (oi) {
           var affix = opts[oi];
           var b = el('button', 'af-cand af-cog' + (self._nonConf[affix] ? ' dim' : '') + (self._resolved && affix === r.affix ? ' ok' : ''));
-          b.type = 'button'; b.setAttribute('aria-label', label(affix) + (LANG === 'de' ? ' bedeutet ' : LANG === 'fr' ? ' veut dire ' : LANG === 'es' ? ' significa ' : LANG === 'pt' ? ' significa ' : LANG === 'it' ? ' significa ' : LANG === 'nl' ? ' betekent ' : LANG === 'sv' ? ' betyder ' : ' meaning ') + sense(affix));
+          b.type = 'button'; b.setAttribute('aria-label', label(affix) + (LANG === 'de' ? ' bedeutet ' : LANG === 'fr' ? ' veut dire ' : LANG === 'es' ? ' significa ' : LANG === 'pt' ? ' significa ' : LANG === 'it' ? ' significa ' : LANG === 'nl' ? ' staat voor ' : LANG === 'sv' ? ' betyder ' : ' meaning ') + sense(affix));
+          if (self._nonConf[affix]) b.disabled = true;   /* inert: _pick already refuses it, so do not leave it focusable and announced */
           b.innerHTML = '<svg viewBox="0 0 48 48" width="78" height="78" aria-hidden="true">' + cogInner(affix, 24, 24, 19) + '</svg>' +
             '<span class="af-cog-label">' + label(affix) + '</span><span class="af-cog-sense">' + sense(affix) + '</span>';
           b.addEventListener('click', function () { self._pick(affix, tok); });
@@ -348,6 +391,7 @@
           var o = opts[oi];
           var b = el('button', 'af-cand' + (self._nonConf[o.affix] ? ' dim' : '') + (self._resolved && o.affix === r.affix ? ' ok' : ''));
           b.type = 'button'; b.textContent = o.text; b.setAttribute('aria-label', o.text);
+          if (self._nonConf[o.affix]) b.disabled = true;   /* it is inert: _pick already refuses it, so do not leave it focusable and announced */
           b.addEventListener('click', function () { self._pick(o.affix, tok); });
           rowm.appendChild(b);
         });
@@ -408,7 +452,7 @@
           : LANG === 'it'
           ? ('La parola di base è ' + r.root + '. Quale ingranaggio forma una parola che significa «' + r.meaning + '»? Scelte: ' + opts + '.')
           : LANG === 'nl'
-          ? ('Het basiswoord is ‘' + r.root + '’. Welk tandwiel maakt een woord dat ‘' + r.meaning + '’ betekent? Keuze: ' + opts + '.')
+          ? ('Het basiswoord is ‘' + r.root + '’. Welk tandwiel maakt een woord dat ‘' + r.meaning + '’ betekent? Kies uit: ' + opts + '.')
           : LANG === 'sv'
           ? ('Grundordet är ”' + r.root + '”. Vilket kugghjul gör ett ord som betyder ”' + r.meaning + '”? Alternativ: ' + opts + '.')
           : ('The root word is ' + r.root + '. Which affix makes a word meaning "' + r.meaning + '"? Choices: ' + opts + '.');
@@ -425,7 +469,7 @@
           : LANG === 'it'
           ? ('La parola è ' + r.word + '. Che cosa significa? Scelte: ' + texts + '.')
           : LANG === 'nl'
-          ? ('Het woord is ‘' + r.word + '’. Wat betekent het? Keuze: ' + texts + '.')
+          ? ('Het woord is ‘' + r.word + '’. Wat betekent het? Kies uit: ' + texts + '.')
           : LANG === 'sv'
           ? ('Ordet är ”' + r.word + '”. Vad betyder det? Alternativ: ' + texts + '.')
           : ('The word is ' + r.word + '. What does it mean? Choices: ' + texts + '.');

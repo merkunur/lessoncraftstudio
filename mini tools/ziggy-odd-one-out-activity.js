@@ -39,13 +39,13 @@
     id: 'ziggy-odd-one-out-activity',
 
     strings: {
-      title: { en: "Ziggy's Odd One Out", de: 'Ziggys Was-passt-nicht?', fr: 'Ziggy et l’intrus', es: 'Ziggy y el intruso', pt: 'Ziggy e a Diferente', it: 'Ziggy e l’intruso', nl: "Ziggy's Welke hoort er niet bij?" },
-      prompt: { en: 'Which one does not belong?', de: 'Welches Bild passt nicht?', fr: 'Quelle image ne va pas avec les autres ?', es: '¿Qué imagen no pertenece?', pt: 'Qual imagem não pertence?', it: 'Quale non appartiene al gruppo?', nl: 'Welk plaatje hoort er niet bij?' },
-      ziggyIntro: { en: 'Three of these go together — which one is different?', de: 'Hallo, ich bin Ziggy das Zebra! Drei gehören zusammen – eines ist anders.', fr: '🦓 Trois vont ensemble, une est différente. Trouve l’intrus !', es: '¡Hola, soy Ziggy la cebra! Tres van juntas y una es diferente.', pt: 'Oi! Sou a Ziggy, a zebra. Uma é diferente! 🦓', it: 'Ciao, sono Ziggy la zebra! Tre vanno insieme, una è diversa.', nl: 'Drie horen bij elkaar. Welke is anders?' },
-      theAsk: { en: "Tap the one that doesn't belong.", de: 'Tippe das Bild an, das nicht dazugehört.', fr: 'Touche l’image qui ne va pas avec les autres.', es: 'Toca la imagen que no pertenece.', pt: 'Toque na que não pertence.', it: 'Tocca quella che non va con le altre.', nl: 'Tik het plaatje aan dat er niet bij hoort.' },
-      hintPick: { en: 'Three are alike — tap the odd one out!', de: 'Schau dir alle vier an. Welche drei gehören zusammen?', fr: 'Regarde bien les quatre images. Lesquelles vont ensemble ?', es: 'Mira las cuatro. ¿Cuáles tres van juntas?', pt: 'Três são parecidas — toque na diferente!', it: 'Guarda tutte e quattro. Quali tre vanno insieme?', nl: 'Bekijk alle vier. Welke drie horen bij elkaar?' },
-      hintWrong: { en: "Look again — which three make a group?", de: 'Fast! Drei passen zusammen – eines ist anders. Versuch es noch einmal.', fr: 'Presque ! Trois images vont ensemble, une seule est différente. Regarde encore.', es: '¡Casi! Tres van juntas y una es diferente. Inténtalo otra vez.', pt: 'Quase! Três vão juntas e uma é diferente. Tente de novo.', it: 'Quasi! Tre vanno insieme, una è diversa. Riprova.', nl: 'Bijna! Drie horen bij elkaar en één is anders. Kijk nog eens goed.' },
-      win: { en: 'Yes! That one is different. 🦓', de: 'Super gemacht – du hast es gefunden! 🦓', fr: 'Bravo ! Tu as trouvé l’intrus ! 🦓', es: '¡Muy bien, lo encontraste! 🦓', pt: 'Isso! Essa é a diferente. 🦓', it: 'Sì! Quella è l’intrusa. 🦓', nl: 'Goed gevonden! Die hoort er niet bij. 🦓' }
+      title: { en: "Ziggy's Odd One Out", de: 'Ziggys Was-passt-nicht?', fr: 'Ziggy et l’intrus', es: 'Ziggy y el intruso', pt: 'Ziggy e a Diferente', it: 'Ziggy e l’intruso', nl: "Ziggy's Welke hoort er niet bij?", sv: 'Sebbes bildhage' },
+      prompt: { en: 'Which one does not belong?', de: 'Welches Bild passt nicht?', fr: 'Quelle image ne va pas avec les autres ?', es: '¿Qué imagen no pertenece?', pt: 'Qual imagem não pertence?', it: 'Quale non appartiene al gruppo?', nl: 'Welk plaatje hoort er niet bij?', sv: 'Vilken bild passar inte ihop med de andra?' },
+      ziggyIntro: { en: 'Three of these go together — which one is different?', de: 'Hallo, ich bin Ziggy das Zebra! Drei gehören zusammen – eines ist anders.', fr: '🦓 Trois vont ensemble, une est différente. Trouve l’intrus !', es: '¡Hola, soy Ziggy la cebra! Tres van juntas y una es diferente.', pt: 'Oi! Sou a Ziggy, a zebra. Uma é diferente! 🦓', it: 'Ciao, sono Ziggy la zebra! Tre vanno insieme, una è diversa.', nl: 'Drie horen bij elkaar. Welke is anders?', sv: 'Tre av dem hör hemma i hagen. En har smugit sig in!' },
+      instruction: { en: 'Four pictures are shown. Three belong together and one does not. Tap the picture that does not belong.', de: 'Vier Bilder werden gezeigt. Drei gehören zusammen, eines nicht. Tippe das Bild an, das nicht dazugehört.', fr: 'Quatre images sont affichées. Trois vont ensemble, une non. Touche l\u2019image qui ne va pas avec les autres.', es: 'Se muestran cuatro imágenes. Tres van juntas y una no. Toca la imagen que no pertenece.', pt: 'Quatro imagens são mostradas. Três combinam entre si e uma não. Toque na imagem que não pertence.', it: 'Vengono mostrate quattro immagini. Tre stanno insieme e una no. Tocca l\u2019immagine che non appartiene.', nl: 'Er staan vier plaatjes. Drie horen bij elkaar en één niet. Tik het plaatje aan dat er niet bij hoort.', sv: 'Titta på de fyra bilderna och tryck på den som inte passar ihop med de andra.' },
+      theAsk: { en: "Tap the one that doesn't belong.", de: 'Tippe das Bild an, das nicht dazugehört.', fr: 'Touche l’image qui ne va pas avec les autres.', es: 'Toca la imagen que no pertenece.', pt: 'Toque na que não pertence.', it: 'Tocca quella che non va con le altre.', nl: 'Tik het plaatje aan dat er niet bij hoort.', sv: 'Tryck på bilden – tryck sedan på Kontrollera.' },
+      hintPick: { en: 'Three are alike — tap the odd one out!', de: 'Schau dir alle vier an. Welche drei gehören zusammen?', fr: 'Regarde bien les quatre images. Lesquelles vont ensemble ?', es: 'Mira las cuatro. ¿Cuáles tres van juntas?', pt: 'Três são parecidas — toque na diferente!', it: 'Guarda tutte e quattro. Quali tre vanno insieme?', nl: 'Bekijk alle vier. Welke drie horen bij elkaar?', sv: 'Du har inte valt någon bild än. Tryck på en bild först.' },
+      hintWrong: { en: "Look again — which three make a group?", de: 'Fast! Drei passen zusammen – eines ist anders. Versuch es noch einmal.', fr: 'Presque ! Trois images vont ensemble, une seule est différente. Regarde encore.', es: '¡Casi! Tres van juntas y una es diferente. Inténtalo otra vez.', pt: 'Quase! Três vão juntas e uma é diferente. Tente de novo.', it: 'Quasi! Tre vanno insieme, una è diversa. Riprova.', nl: 'Bijna! Drie horen bij elkaar en één is anders. Kijk nog eens goed.', sv: 'Inte den. Tre av bilderna är av samma slag – vilka tre?' }
     },
     defaults: {},
 
@@ -53,7 +53,7 @@
       this.api = api;
       LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
-      this.round = null; this.view = null; this.sel = null; this._cards = null; this._spoke = false;
+      this.round = null; this.view = null; this.sel = null; this._cards = null; this._spoke = false; this._mark = null;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
       this._activityId = params ? params.get('activity') : null;
       if (this._activityId) this._loadActivity();
@@ -61,7 +61,7 @@
 
     setupTask: function (round) {
       this.round = round; this.view = Core.childView(round); this.sel = null; this._spoke = false;
-      this._cards = shuffle(this.view.items.slice());
+      this._cards = shuffle(this.view.items.slice()); this._mark = null;
     },
 
     render: function () {
@@ -80,7 +80,8 @@
       var opts = api.el('div', 'zoo-opts');
       this._cards.forEach(function (o) {
         var label = (self.round.items[o.id] && self.round.items[o.id].label) || o.noun;
-        var b = api.el('button', 'zoo-tile zoo-opt' + (self.sel === o.id ? ' zoo-sel' : '')); b.type = 'button'; b.setAttribute('data-id', o.id); b.setAttribute('aria-label', label);
+        var mk = (self._mark && self._mark.id === o.id) ? (self._mark.ok ? ' zoo-right' : ' zoo-tried') : '';
+        var b = api.el('button', 'zoo-tile zoo-opt' + (self.sel === o.id ? ' zoo-sel' : '') + mk); b.type = 'button'; b.setAttribute('data-id', o.id); b.setAttribute('aria-label', label);
         b.innerHTML = '<img class="zoo-img" src="' + imgUrl(o) + '" alt="' + esc(label) + '" onerror="this.style.visibility=\'hidden\'"><span class="zoo-word">' + esc(label) + '</span>';
         b.addEventListener('click', function () { self._tap(o.id, label); });
         opts.appendChild(b);
@@ -127,7 +128,9 @@
         + '.zoo-tile{display:flex;flex-direction:column;align-items:center;gap:3px;border-radius:14px;border:2px solid rgba(20,107,94,.2);background:#fff;padding:clamp(6px,1.6vw,10px);cursor:pointer;box-shadow:0 2px 0 rgba(160,120,60,.16);touch-action:manipulation;}'
         + '.zoo-img{width:clamp(56px,16vw,84px);height:clamp(56px,16vw,84px);object-fit:contain;display:block;}'
         + '.zoo-word{font:700 clamp(12px,3.2vw,15px)/1 "Nunito",sans-serif;color:' + C.INK + ';}'
-        + '.zoo-opt.zoo-sel{border-color:' + C.CORAL + ';box-shadow:0 0 0 3px rgba(242,120,75,.34);background:#FFF6F1;transform:translateY(-2px);}'
+        + '.zoo-opt.zoo-sel{border-color:#C8891B;box-shadow:0 0 0 3px rgba(200,137,27,.30);background:#FFF7E6;transform:translateY(-2px);}'
+        + '.zoo-opt.zoo-tried{border-color:' + C.CORAL + ';box-shadow:0 0 0 3px rgba(242,120,75,.34);background:#FFF1EA;}'
+        + '.zoo-opt.zoo-right{border-color:#2E7D5B;box-shadow:0 0 0 3px rgba(46,125,91,.30);background:#EAF7F0;}'
         + '.zoo-opt:active{transform:translateY(1px);}'
         + '.zoo-tile:focus-visible{outline:3px solid var(--lcs-focus,#1E8FD4);outline-offset:2px;}'
         + '@media (max-height:920px){.zoo-root{gap:clamp(4px,1.1vw,8px);}.zoo-zeb{width:clamp(40px,7vw,48px);}.zoo-img{width:clamp(50px,13vw,70px);height:clamp(50px,13vw,70px);}}'
@@ -143,7 +146,11 @@
       return {
         id: 'ziggy-odd-one-out.' + round.id, band: round.band || 1, promptKey: 'prompt', promptArgs: {}, answerType: 'state',
         setup: function (tool) { tool.setupTask(round); },
-        check: function (tool) { return Core.grade(round, tool.sel); },
+        check: function (tool) {
+          var ok = Core.grade(round, tool.sel);
+          if (tool.sel != null) { tool._mark = { id: tool.sel, ok: ok }; tool.render(); }
+          return ok;
+        },
         hintKey: function (tool) { return tool.sel != null ? 'hintWrong' : 'hintPick'; }
       };
     });

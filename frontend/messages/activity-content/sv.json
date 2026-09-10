@@ -236,6 +236,28 @@
         "Barnet börjar välja mer målande ord när det skriver självt"
       ]
     },
+    "ziggy-odd-one-out.category.l-1-5-a": {
+      "about": [
+        "Sebbes bildhage är en interaktiv övning i svenska för åk 1. Fyra bilder visas med sitt ord under sig — tre hör hemma i hagen och en har smugit sig in. Barnet trycker på den som inte passar ihop med de andra. Övningen körs direkt i webbläsaren på surfplatta, telefon eller dator: inget att installera och inget konto.",
+        "Aktiviteten följer Lgr22 inom ord och begrepp. Ingen kategori står utskriven på skärmen, så barnet måste självt upptäcka vad de tre har gemensamt innan det kan pröva den fjärde. Varje ord läses också upp när man trycker på bilden. Det finns ingen tid som tickar och inga poäng."
+      ],
+      "practices": [
+        "Jämföra fyra saker och hitta vad tre av dem har gemensamt",
+        "Upptäcka den som inte passar ihop med de andra",
+        "Koppla ihop en bild med ordet som står under den",
+        "Märka att samma sak kan höra till flera slag — ett bär är också en frukt, en räv är också ett djur"
+      ],
+      "howToPlay": [
+        "Barnet ser Sebbe och fyra bilder med varsitt ord under.",
+        "Barnet trycker på den bild som inte passar ihop med de andra och sedan på kontrollknappen.",
+        "Blir det fel påminner Sebbe om att tre av bilderna är av samma slag, och barnet får försöka igen så många gånger som behövs."
+      ],
+      "learningGoals": [
+        "Barnet kan säga vad tre saker har gemensamt utan att få ordet för det",
+        "Barnet jämför alla fyra bilderna innan det svarar",
+        "Barnet börjar sortera saker i huvudet när det möter nya ord"
+      ]
+    },
     "tense.past-present-future.l-1-1-e": {
       "about": [
         "Barnet ser en mening där verbet saknas — Båtarna ___ i går — och tre former att välja mellan. Överst lyser ett av tre tidsfönster: dåtid, nutid eller framtid. Juniper står bredvid och säger till när formen stämmer.",

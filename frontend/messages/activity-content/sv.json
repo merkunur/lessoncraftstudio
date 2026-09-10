@@ -2226,6 +2226,29 @@
         "Höra skillnad på att lägga till, välja, sätta emot och förklara, och koppla varje betydelse till ett eget ord.",
         "Skriva meningar som hänger ihop i stället för att radas upp, i linje med Lgr22 och arbetet med språkliga strukturer och normer i årskurs 1–3."
       ]
+    },
+    "cleo-packing-list.series-commas.l-1-2-b": {
+      "about": [
+        "Ranka är en kameleont som hänger i sin ordkedja och tycker om att räkna upp saker. Barnet ser samma mening skriven på tre sätt och trycker på den där kommatecknen står rätt: mellan orden i listan, men inte bredvid ordet och.",
+        "Det svåra är att de tre meningarna ser nästan likadana ut. Alla tre har ett kommatecken efter det första ordet, så hela frågan är det andra: finns det över huvud taget, och står det mellan två av orden eller tätt intill ordet och? Det är regelns två halvor, och ingen av dem räcker ensam.",
+        "Åtta meningar i tre steg. Varje lista har fyra saker, och det är därför två kommatecken behövs. Med bara tre saker syns ett enda, och då går det att lära sig att en lista har ett kommatecken utan att någonsin märka var det ska stå."
+      ],
+      "practices": [
+        "Läs meningarna högt tillsammans. Kommatecknen hörs inte — och det är just därför de är en skrivregel och inte något man kan höra sig fram till.",
+        "Peka på mellanrummen mellan orden i listan och räkna dem: fyra saker ger tre mellanrum, och kommatecknen står i de två första.",
+        "Prova fel med flit. Sätt ett kommatecken alldeles intill ordet och och fråga barnet om meningen ser rätt ut.",
+        "Fortsätt utanför skärmen. Skriv en önskelista eller en packlista tillsammans, och låt barnet placera kommatecknen medan du skriver."
+      ],
+      "howToPlay": [
+        "Läs alla tre meningarna innan du trycker. De skiljer sig bara åt på kommatecknen.",
+        "Leta upp det andra kommatecknet. Står det mellan två av orden, eller intill ordet och?",
+        "Tryck på meningen som ser rätt ut och sedan på Kontrollera. Blir det fel får du en ledtråd och kan försöka igen."
+      ],
+      "learningGoals": [
+        "Känna igen var kommatecknen står i en uppräkning: mellan orden, men inte bredvid det avslutande ordet och.",
+        "Se att samma regel gäller när uppräkningen binds ihop med orden eller och samt.",
+        "Förbereda arbetet med skiljetecken i årskurs 4–6, i linje med Lgr22 — eleven känner igen kommatecknets plats men skriver det inte själv."
+      ]
     }
   }
 }

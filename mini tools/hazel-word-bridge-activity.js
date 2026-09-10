@@ -32,23 +32,54 @@
   // NOT the subordinating «omdat» (verb-final). Direct analogue of de und/oder/aber/denn.
   var REL_CONJ_NL = { addition: 'en', alternative: 'of', contrast: 'maar', cause: 'want' };
   var CHIPS_NL = ['en', 'of', 'maar', 'want'];
-  var REL_CONJ_L10N = { de: REL_CONJ_DE, fr: REL_CONJ_FR, es: REL_CONJ_ES, pt: REL_CONJ_PT, it: REL_CONJ_IT, nl: REL_CONJ_NL };
-  var CHIPS_L10N = { de: CHIPS_DE, fr: CHIPS_FR, es: CHIPS_ES, pt: CHIPS_PT, it: CHIPS_IT, nl: CHIPS_NL };
+  /* sv (#29): och/eller/men/för — four uncontroversial SAMORDNANDE KONJUNKTIONER that behave
+     identically (no inversion after any of them, none can front its own clause), so the child forms
+     ONE rule and it holds.
+     ⚠ `så` is deliberately NOT here. It is a konjunktionellt adverb, not a coordinator; it is the
+     worst-behaved small word in Swedish (result / degree / manner / the verb "så" / the resumptive
+     filler in «När det regnade, SÅ stannade vi hemma»); and it is unusable *because `och` is in the
+     set* — a result frame accepts `och` AND reverse-`för` («Det blev mörkt ___ vi gick in» = because
+     we went inside), i.e. three live chips. The English pool has that same hole and does not enforce
+     uniqueness; sv follows the six localized decks instead, on Swedish grounds.
+     ⭐⭐ The causal is `för`, not `eftersom`, and BIFF is what decides it: a Swedish SUBORDINATE clause
+     puts the sentence adverbial before the finite verb («eftersom det INTE regnade»), but this engine
+     prints ONE fixed frame and swaps only the chip. Any clause 2 with a post-verbal `inte`/`ändå`/
+     `också` would make an `eftersom` chip render ILL-FORMED Swedish as the CORRECT answer. Those are
+     exactly the adverbs the sv rounds use to force uniqueness, so the deck requires a coordinator. */
+  var REL_CONJ_SV = { addition: 'och', alternative: 'eller', contrast: 'men', cause: 'för' };
+  var CHIPS_SV = ['och', 'eller', 'men', 'för'];
+  /* ⚠⚠ A LOCALE MUST APPEAR IN BOTH MAPS. Ship roundsL10n.<loc> while missing REL_CONJ_<LOC> and
+     hwbOracle() falls through to the English core, which returns '' for relation 'alternative' — so
+     NO chip is ever correct, with no error, no console warning and a normal-looking screen. */
+  var REL_CONJ_L10N = { de: REL_CONJ_DE, fr: REL_CONJ_FR, es: REL_CONJ_ES, pt: REL_CONJ_PT, it: REL_CONJ_IT, nl: REL_CONJ_NL, sv: REL_CONJ_SV };
+  var CHIPS_L10N = { de: CHIPS_DE, fr: CHIPS_FR, es: CHIPS_ES, pt: CHIPS_PT, it: CHIPS_IT, nl: CHIPS_NL, sv: CHIPS_SV };
   function hwbOracle(round) { var m = REL_CONJ_L10N[LANG]; return m ? (m[round.relation] || '') : Core.oracle(round); }
   function hwbIsAnswer(round, str) { return str === hwbOracle(round); }
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG), rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG === 'nl' ? 'nl-NL' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    /* ⚠ The SpeechSynthesis branch below is effectively DEAD CODE: lcs-shell.js always exports
+       global.LCSAudio, and its own ttsLang() already maps sv -> 'sv-SE'. The sv arm is added for
+       consistency, not as a fix. The LIVE arm is the LCSAudio one. */
+    var voice = VOICE[LANG] || LANG || 'en-US';
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: voice, rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = voice; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
-  function sayable(s) { return String(s || '').replace(/___/g, LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : LANG === 'es' ? 'espacio' : LANG === 'pt' ? 'lacuna' : LANG === 'it' ? 'spazio' : LANG === 'nl' ? 'gaatje' : 'blank'); }
+  /* one table, not a seventh ternary arm — the chain ENDED IN ENGLISH, so any new locale silently
+     had the word "blank" read aloud in the middle of its own sentence. */
+  var GAPWORD = { de: 'Lücke', fr: 'trou', es: 'espacio', pt: 'lacuna', it: 'spazio', nl: 'gaatje', sv: 'lucka', en: 'blank' };
+  var SPEAK_LABEL = { de: 'Satz anhören', fr: 'écouter la phrase', es: 'escuchar la oración', pt: 'ouvir a frase', it: 'ascolta la frase', nl: 'de zin beluisteren', sv: 'lyssna på meningen', en: 'hear the sentence' };
+  /* ⚠ the character's NAME, spoken to a screen-reader. It was hard-coded English in ALL SEVEN
+     shipped locales, with no localization chain at all; sv is repaired here, the rest stay filed. */
+  var HERON_LABEL = { sv: 'Hägern Vide', en: 'Hazel the heron' };
+  var VOICE = { de: 'de-DE', fr: 'fr-FR', es: 'es-MX', pt: 'pt-BR', it: 'it-IT', nl: 'nl-NL', sv: 'sv-SE', en: 'en-US' };
+  function sayable(s) { return String(s || '').replace(/___/g, GAPWORD[LANG] || GAPWORD.en); }
 
   function heronSVG(mood) {
     var happy = mood === 'happy';
     var eye = happy ? '<path d="M52 30 q3 -3 6 0" stroke="#2A2A35" stroke-width="2" fill="none" stroke-linecap="round"/>' : '<circle cx="55" cy="31" r="2.4" fill="#2A2A35"/>';
-    return '<svg class="hwb-heron-svg" viewBox="0 0 100 100" role="img" aria-label="Hazel the heron">' +
+    return '<svg class="hwb-heron-svg" viewBox="0 0 100 100" role="img" aria-label="' + (HERON_LABEL[LANG] || HERON_LABEL.en) + '">' +
       '<ellipse cx="42" cy="66" rx="24" ry="16" fill="#8AA6BD"/>' +              /* body */
       '<path d="M46 56 q4 -22 12 -28" stroke="#9DB6CA" stroke-width="9" fill="none" stroke-linecap="round"/>' +  /* neck */
       '<circle cx="56" cy="30" r="11" fill="#9DB6CA"/>' +                        /* head */
@@ -62,13 +93,13 @@
     id: 'hazel-word-bridge-activity',
 
     strings: {
-      title: { en: "Hazel's Word Bridge", de: 'Hazels Wortbrücke', fr: 'Le pont des mots de Hazel', es: 'El puente de palabras de Hazel', pt: 'A ponte de palavras da Hazel', it: 'Il ponte di parole di Hazel', nl: 'Hazels woordbrug' },
-      prompt: { en: 'Which joining word fits?', de: 'Welches Bindewort passt?', fr: 'Quel mot de liaison va bien ?', es: '¿Qué palabra une las dos partes?', pt: 'Qual palavrinha de ligação combina?', it: 'Quale parolina di collegamento va bene?', nl: 'Welk verbindingswoord past?' },
-      hazelIntro: { en: 'A joining word bridges the two ideas!', de: 'Ein Bindewort schlägt eine Brücke zwischen den zwei Sätzen!', fr: 'Un mot de liaison fait un pont entre les deux phrases !', es: 'Algunas palabras son como un puente: unen las dos partes de la oración.', pt: 'Uma palavrinha de ligação faz a ponte entre as duas ideias!', it: 'Una parolina fa da ponte tra le due idee!', nl: 'Een verbindingswoord slaat een brug tussen de twee zinnen!' },
-      theAsk: { en: 'Which word joins the two parts?', de: 'Welches Wort verbindet die zwei Teile?', fr: 'Quel mot relie les deux parties ?', es: '¿Qué palabra va con el sentido?', pt: 'Qual palavra combina com o sentido?', it: 'Quale parola unisce le due idee?', nl: 'Welk woord verbindt de twee delen?' },
-      hintPick: { en: 'Tap the joining word that makes sense!', de: 'Tippe auf ein Bindewort, das in die Lücke passt.', fr: 'Touche le mot de liaison qui va dans le trou.', es: 'Toca la palabra que une las dos partes con sentido.', pt: 'Toque na palavra que liga as duas partes com sentido!', it: 'Tocca la parola di collegamento che ha senso!', nl: 'Tik op een verbindingswoord dat in het gaatje past.' },
-      hintWrong: { en: "That joining word doesn't fit — read it again.", de: 'Lies den ganzen Satz noch einmal. Welches Wort passt zur Bedeutung?', fr: 'Relis toute la phrase : quel mot va avec le sens ?', es: 'Lee otra vez toda la oración. ¿Qué palabra tiene sentido aquí?', pt: 'Leia a frase toda de novo — qual palavrinha combina com o sentido?', it: 'Rileggi tutta la frase — quale parola ha senso qui?', nl: 'Lees de hele zin nog een keer. Welk woord past bij de betekenis?' },
-      win: { en: 'Yes! That word bridges the two ideas. 🌉', de: 'Stark gemacht! Du hast die richtige Brücke gebaut! 🌉', fr: 'Bravo ! Tu as construit le bon pont ! 🌉', es: '¡Muy bien! Uniste las dos partes con el puente correcto. 🌉', pt: 'Muito bem! Você ligou as duas partes com a ponte certa. 🌉', it: 'Sì! Hai unito le due idee con il ponte giusto. 🌉', nl: 'Goed gedaan! Je hebt de juiste brug gebouwd! 🌉' }
+      title: { en: "Hazel's Word Bridge", de: 'Hazels Wortbrücke', fr: 'Le pont des mots de Hazel', es: 'El puente de palabras de Hazel', pt: 'A ponte de palavras da Hazel', it: 'Il ponte di parole di Hazel', nl: 'Hazels woordbrug', sv: 'Vides ordbro' },
+      prompt: { en: 'Which joining word fits?', de: 'Welches Bindewort passt?', fr: 'Quel mot de liaison va bien ?', es: '¿Qué palabra une las dos partes?', pt: 'Qual palavrinha de ligação combina?', it: 'Quale parolina di collegamento va bene?', nl: 'Welk verbindingswoord past?', sv: 'Vilket bindeord passar i meningen?' },
+      hazelIntro: { en: 'A joining word bridges the two ideas!', de: 'Ein Bindewort schlägt eine Brücke zwischen den zwei Sätzen!', fr: 'Un mot de liaison fait un pont entre les deux phrases !', es: 'Algunas palabras son como un puente: unen las dos partes de la oración.', pt: 'Uma palavrinha de ligação faz a ponte entre as duas ideias!', it: 'Una parolina fa da ponte tra le due idee!', nl: 'Een verbindingswoord slaat een brug tussen de twee zinnen!', sv: 'Ett ord kan bygga en bro mellan två tankar.' },
+      theAsk: { en: 'Which word joins the two parts?', de: 'Welches Wort verbindet die zwei Teile?', fr: 'Quel mot relie les deux parties ?', es: '¿Qué palabra va con el sentido?', pt: 'Qual palavra combina com o sentido?', it: 'Quale parola unisce le due idee?', nl: 'Welk woord verbindt de twee delen?', sv: 'Välj ordet som saknas.' },
+      hintPick: { en: 'Tap the joining word that makes sense!', de: 'Tippe auf ein Bindewort, das in die Lücke passt.', fr: 'Touche le mot de liaison qui va dans le trou.', es: 'Toca la palabra que une las dos partes con sentido.', pt: 'Toque na palavra que liga as duas partes com sentido!', it: 'Tocca la parola di collegamento che ha senso!', nl: 'Tik op een verbindingswoord dat in het gaatje past.', sv: 'Prova ett ord i luckan. Hur låter det då?' },
+      hintWrong: { en: "That joining word doesn't fit — read it again.", de: 'Lies den ganzen Satz noch einmal. Welches Wort passt zur Bedeutung?', fr: 'Relis toute la phrase : quel mot va avec le sens ?', es: 'Lee otra vez toda la oración. ¿Qué palabra tiene sentido aquí?', pt: 'Leia a frase toda de novo — qual palavrinha combina com o sentido?', it: 'Rileggi tutta la frase — quale parola ha senso qui?', nl: 'Lees de hele zin nog een keer. Welk woord past bij de betekenis?', sv: 'Vad gör den andra delen med den första?' },
+      win: { en: 'Yes! That word bridges the two ideas. 🌉', de: 'Stark gemacht! Du hast die richtige Brücke gebaut! 🌉', fr: 'Bravo ! Tu as construit le bon pont ! 🌉', es: '¡Muy bien! Uniste las dos partes con el puente correcto. 🌉', pt: 'Muito bem! Você ligou as duas partes com a ponte certa. 🌉', it: 'Sì! Hai unito le due idee con il ponte giusto. 🌉', nl: 'Goed gedaan! Je hebt de juiste brug gebouwd! 🌉', sv: 'Snyggt! Nu står alla broar stadigt. 🌉' }
     },
     defaults: {},
 
@@ -101,7 +132,7 @@
 
       var sent = api.el('div', 'hwb-sent');
       var txt = api.el('span', 'hwb-senttxt'); txt.textContent = v.sentence; sent.appendChild(txt);
-      var sp = api.el('button', 'hwb-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'de' ? 'Satz anhören' : LANG === 'fr' ? 'écouter la phrase' : LANG === 'es' ? 'escuchar la oración' : LANG === 'pt' ? 'ouvir a frase' : LANG === 'it' ? 'ascolta la frase' : LANG === 'nl' ? 'de zin beluisteren' : 'hear the sentence'); sp.textContent = '🔊';
+      var sp = api.el('button', 'hwb-spk'); sp.type = 'button'; sp.setAttribute('aria-label', SPEAK_LABEL[LANG] || SPEAK_LABEL.en); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(sayable(v.sentence)); }); sent.appendChild(sp);
       root.appendChild(sent);
 
@@ -150,14 +181,55 @@
         + '.hwb-root{position:relative;width:100%;display:flex;flex-direction:column;align-items:stretch;gap:clamp(5px,1.4vw,9px);background:linear-gradient(180deg,#FBF3E4,#E6EEF2);border-radius:20px;padding:clamp(7px,1.7vw,12px);box-shadow:inset 0 2px 0 rgba(255,255,255,.5),0 5px 0 rgba(20,107,94,.07);}'
         + '.hwb-row{display:flex;align-items:center;gap:clamp(6px,2vw,12px);justify-content:center;}'
         + '.hwb-heron{width:clamp(42px,9.5vw,54px);flex:0 0 auto;}.hwb-heron-svg{width:100%;height:auto;display:block;}'
-        + '.hwb-say{background:#fff;border:2px solid rgba(20,107,94,.18);border-radius:13px 13px 13px 3px;padding:6px 11px;font:700 clamp(12px,3.1vw,15px)/1.3 "Baloo 2",sans-serif;color:' + C.T + ';max-width:78%;display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}'
-        + '.hwb-sent{display:flex;align-items:center;gap:8px;background:#FFFDF6;border:2px solid ' + C.GOLD + ';border-radius:13px;padding:9px 13px;}'
+        /* ⚠ THE BUBBLE CARRIES THE RULE, AND TWO LOCALES CLIPPED IT. A 2-line clamp at 78%
+           hid 16px of the German «Ein Bindewort schlägt eine Brücke zwischen den zwei
+           Sätzen!» and of the Spanish line at 360px — 32 and 40 renders. A clamp does not
+           overflow, it just quietly stops, so nothing ever reported it. Pre-existing in all
+           seven shipped locales; the identical defect to the sibling deck's Spanish bubble. */
+        + '.hwb-say{background:#fff;border:2px solid rgba(20,107,94,.18);border-radius:13px 13px 13px 3px;padding:6px 11px;font:700 clamp(12px,3.1vw,15px)/1.3 "Baloo 2",sans-serif;color:' + C.T + ';max-width:84%;display:-webkit-box;-webkit-line-clamp:3;line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;}'
+        /* ⚠⚠ THIS BORDER USED TO BE GOLD — THE SAME GOLD THAT NOW MEANS "I CHOSE THIS".
+           I picked gold for the selected chip *because* it matched this panel, and called that
+           semantic. The visual critic showed it is the opposite: this outline is on screen
+           permanently, in every state including the opening frame, at roughly four times the
+           size of the chip ring — so the verdict colour was competing with a larger, constant,
+           meaningless instance of itself. A signal colour has to be EXCLUSIVE to the signal. */
+        + '.hwb-sent{display:flex;align-items:center;gap:8px;background:#FFFDF6;border:2px solid rgba(20,107,94,.20);border-radius:13px;padding:9px 13px;}'
         + '.hwb-senttxt{flex:1;min-width:0;font:700 clamp(14px,3.6vw,18px)/1.3 "Nunito",sans-serif;color:' + C.INK + ';}'
-        + '.hwb-spk{flex:0 0 auto;width:34px;height:34px;border-radius:10px;border:0;background:#EAF2EE;font-size:17px;cursor:pointer;touch-action:manipulation;}'
-        + '.hwb-ask{text-align:center;font:800 clamp(11.5px,2.9vw,13.5px)/1.2 "Baloo 2",sans-serif;color:' + C.CORAL2 + ';}'
+        /* ⚠⚠ 34px SHIPPED IN ALL SEVEN LOCALES AND IS UNDER THE 44px K-2 TAP FLOOR.
+           This is the button a child presses to hear the sentence read aloud — the one
+           control a struggling reader needs most — and it failed the tap gate in every
+           round, every phase and every viewport, in English too (288 findings). It went
+           unseen because this activity had no visual-qa phase driver until sv #29, so only
+           the opening frame had ever been photographed.
+           ⚠ It is measured only BY ACCIDENT: `.hwb-chip` matches none of the harness's
+           answer-card conventions, so `cards` is 0 and the convention-independent FALLBACK
+           engages and happens to catch this button. Add `-chip` to that selector and this
+           control stops being measured at all — see the filed note in the sv #29 plan. */
+        + '.hwb-spk{flex:0 0 auto;width:44px;height:44px;border-radius:12px;border:0;background:#EAF2EE;font-size:19px;cursor:pointer;touch-action:manipulation;}'
+        /* ⚠ AND THIS LINE USED TO BE CORAL — the wrong-answer colour, on a line that never
+           signals an error, in EVERY state. On the green celebration frame a coral line was
+           still telling the child to go and choose the missing word: a stale instruction, in
+           the alarm colour, under a success heading. Neutral now, and hidden once the round
+           is answered (see the check hook). */
+        + '.hwb-ask{text-align:center;font:800 clamp(11.5px,2.9vw,13.5px)/1.2 "Baloo 2",sans-serif;color:' + C.T + ';}'
         + '.hwb-chips{display:flex;flex-wrap:wrap;gap:clamp(6px,1.8vw,10px);justify-content:center;}'
-        + '.hwb-chip{min-height:48px;padding:9px 16px;border-radius:14px;border:2px solid rgba(20,107,94,.28);background:#fff;color:' + C.T + ';font:800 clamp(15px,4vw,19px)/1 "Baloo 2",sans-serif;cursor:pointer;box-shadow:0 2px 0 rgba(160,120,60,.16);touch-action:manipulation;}'
-        + '.hwb-chip.hwb-sel{border-color:' + C.CORAL + ';box-shadow:0 0 0 3px rgba(242,120,75,.34);background:#FFF6F1;color:' + C.CORAL2 + ';transform:translateY(-2px);}'
+        /* ⚠⚠ NO min-width SHIPPED, AND THREE LOCALES' CHIPS ARE ONE CHARACTER LONG.
+           es `y`/`o`, pt `e`, it `e`/`o` rendered ~40px wide — under the 44px K-2 tap floor —
+           in 48 of 192 renders each, while en/de/fr/nl/sv passed because their shortest
+           conjunction happens to be two or three letters. A control sized by its TEXT gets a
+           different size in every language, and the shortest word loses; the floor has to be
+           declared. (Same lesson as the sibling deck, where dropping a width floor to fit a
+           long Swedish word collapsed «am» to 36px in four locales.) */
+        + '.hwb-chip{min-height:48px;min-width:48px;padding:9px 16px;border-radius:14px;border:2px solid rgba(20,107,94,.28);background:#fff;color:' + C.T + ';font:800 clamp(15px,4vw,19px)/1 "Baloo 2",sans-serif;cursor:pointer;box-shadow:0 2px 0 rgba(160,120,60,.16);touch-action:manipulation;}'
+        /* CHOSEN — gold, the sentence card's own border colour. NOT coral: coral is this
+           screen's try-again colour, and using it for a selection told the child they were
+           wrong at the very moment they committed. */
+        + '.hwb-chip.hwb-sel{border-color:' + C.GOLD + ';box-shadow:0 0 0 3px rgba(232,165,58,.34);background:#FFF9EC;color:#8A5A12;transform:translateY(-2px);}'
+        /* ⚠⚠ THE NEXT TWO MUST STAY AFTER .hwb-sel AND IN THIS ORDER. All three are two-class
+           rules, so the cascade breaks every tie on SOURCE ORDER alone — reorder them and the
+           meaning reverts SILENTLY, with the class list still perfectly correct. */
+        + '.hwb-chip.hwb-tried{border-color:' + C.CORAL + ';box-shadow:0 0 0 3px rgba(242,120,75,.34);background:#FFF6F1;color:' + C.CORAL2 + ';transform:translateY(-2px);}'
+        + '.hwb-chip.hwb-right{border-color:' + C.GOOD + ';box-shadow:0 0 0 3px rgba(47,165,106,.30);background:#F1FAF4;color:#1B6B45;transform:translateY(-2px);}'
         + '.hwb-chip:active{transform:translateY(1px);}'
         + '.hwb-spk:focus-visible,.hwb-chip:focus-visible{outline:3px solid var(--lcs-focus,#1E8FD4);outline-offset:2px;}'
         + '@media (max-height:920px){.hwb-root{gap:clamp(4px,1.1vw,7px);}.hwb-heron{width:clamp(40px,8vw,48px);}}'
@@ -174,7 +246,21 @@
       return {
         id: 'hazel-word-bridge.' + round.id, band: round.band || 1, promptKey: 'prompt', promptArgs: {}, answerType: 'state',
         setup: function (tool) { tool.setupTask(round); },
-        check: function (tool) { return tool.isCorrect(); },
+        check: function (tool) {
+          var ok = tool.isCorrect();
+          /* ⭐ ONE COLOUR MUST NOT MEAN BOTH THINGS. Until this build the chosen chip kept its
+             coral treatment through Check, so the "I picked this" frame and the "this is wrong"
+             frame were pixel-identical and only the heading disagreed. Gold = chosen, coral =
+             wrong, green = right. ⚠ Only the TAPPED chip is ever marked, so a miss still never
+             reveals which chip was right — the no-leak contract is unchanged. */
+          var el = document.querySelector('.hwb-chip.hwb-sel');
+          if (el) el.classList.add(ok ? 'hwb-right' : 'hwb-tried');
+          /* the ask line is an instruction, and the round is over — leaving "choose the missing
+             word" under a celebration heading is a contradictory screen. */
+          var ask = document.querySelector('.hwb-ask');
+          if (ask && ok) ask.style.visibility = 'hidden';
+          return ok;
+        },
         hintKey: function (tool) { return tool.sel ? 'hintWrong' : 'hintPick'; }
       };
     });

@@ -113,6 +113,8 @@ if (!scope.length) {
   const puppeteer = require('puppeteer');
   const browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
   const hardFails = [];
+  /* built but not deployed — reported, never silently dropped */
+  const notLive = [];
 
   console.log('\n=== LIVE probe (' + BASE + ') — in-scope: ' + scope.map(r => r.id).join(', ') + ' ===');
   for (const row of scope) {
@@ -124,7 +126,25 @@ if (!scope.length) {
       const page = await browser.newPage();
       await page.setViewport({ width: 412, height: 900 });
       try {
-        await page.goto(`${BASE}/${loc}/activities/${slug}`, { waitUntil: 'networkidle2', timeout: 60000 });
+        /* ⚠⚠ BASE DEFAULTS TO PRODUCTION. A locale that has been BUILT but not yet
+           DEPLOYED has no page there, and the gate used to report that as
+           "FAIL — Waiting for selector `iframe` failed" — indistinguishable from a
+           real variety defect, on every build of the commit-but-do-not-deploy loop.
+           A gate that cries wolf for "not deployed yet" teaches you to ignore it.
+           ⭐ Distinguish on the HTTP STATUS, not on the missing iframe: 404 is
+           NOT-LIVE and is reported as a skip; 200-with-no-iframe stays a hard FAIL,
+           because that is a page that exists and is broken. */
+        const resp = await page.goto(`${BASE}/${loc}/activities/${slug}`, { waitUntil: 'networkidle2', timeout: 60000 });
+        const status = resp ? resp.status() : 0;
+        if (status === 404 || status === 410) {
+          notLive.push(label);
+          console.log(`  skip ${label} — not live at ${BASE} (HTTP ${status}); verify it locally instead`);
+          /* ⚠ do NOT close the page here — `continue` inside try still runs the
+             finally block, so an explicit close double-closes and the second one
+             throws "Target.closeTarget: No target with given id found", which the
+             outer catch then reports as a run-ending ERROR. */
+          continue;
+        }
         const fh = await page.waitForSelector('iframe', { timeout: 20000 });
         const fr = await fh.contentFrame();
         // wait for the mounted tool + its manifest pool to load
@@ -164,6 +184,10 @@ if (!scope.length) {
   await browser.close();
 
   console.log('');
+  if (notLive.length) {
+    console.log('NOT LIVE at ' + BASE + ' (' + notLive.length + '): ' + notLive.join(', '));
+    console.log('  -> these were NOT checked here. A built-but-undeployed locale must be proven by its own local-test.');
+  }
   const backlogFail = STRICT && backlog.length;
   if (hardFails.length || backlogFail) {
     console.error(`VARIETY GATE FAILED — ${hardFails.length} in-scope failure(s)` + (backlogFail ? ` + ${backlog.length} backlog (--strict)` : '') + '.');

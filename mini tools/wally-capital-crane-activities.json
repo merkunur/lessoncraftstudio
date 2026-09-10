@@ -374,6 +374,16 @@
           { "id": "nichtje-utrecht", "band": 2, "tokens": ["Mijn", "nichtje", "woont", "in", "utrecht", "."], "proper": "utrecht" },
           { "id": "zomer-rotterdam", "band": 3, "tokens": ["In", "de", "zomer", "gaan", "wij", "naar", "rotterdam", "."], "proper": "rotterdam" },
           { "id": "vakantie-nederland", "band": 3, "tokens": ["Volgende", "week", "ga", "ik", "op", "vakantie", "naar", "nederland", "."], "proper": "nederland" }
+        ],
+        "sv": [
+          { "id": "snö-sverige", "band": 1, "tokens": ["I", "sverige", "finns", "mycket", "snö", "."], "proper": "sverige" },
+          { "id": "resa-stockholm", "band": 1, "tokens": ["Vi", "åker", "till", "stockholm", "tillsammans", "."], "proper": "stockholm" },
+          { "id": "strand-danmark", "band": 1, "tokens": ["Vid", "stranden", "i", "danmark", "bor", "kompisarna", "."], "proper": "danmark" },
+          { "id": "simhall-goteborg", "band": 2, "tokens": ["På", "fredag", "öppnar", "simhallen", "i", "göteborg", "."], "proper": "göteborg" },
+          { "id": "lager-gotland", "band": 2, "tokens": ["På", "gotland", "övernattar", "eleverna", "i", "maj", "."], "proper": "gotland" },
+          { "id": "mote-kiruna", "band": 2, "tokens": ["Vi", "möter", "kompisen", "i", "kiruna", "i", "oktober", "."], "proper": "kiruna" },
+          { "id": "sommar-finland", "band": 3, "tokens": ["På", "somrarna", "hör", "vi", "svenska", "i", "finland", "."], "proper": "finland" },
+          { "id": "pepparkakor-umea", "band": 3, "tokens": ["Vi", "bakar", "pepparkakor", "i", "umeå", "till", "jul", "."], "proper": "umeå" }
         ]
       }
     },
@@ -385,7 +395,8 @@
       "es": "mayuscula-en-nombres-propios-2-primaria",
       "pt": "nomes-proprios-letra-maiuscula-2-ano",
       "it": "maiuscola-nomi-propri-classe-seconda",
-      "nl": "hoofdletter-bij-eigennamen-oefenen-groep-4"
+      "nl": "hoofdletter-bij-eigennamen-oefenen-groep-4",
+      "sv": "egennamn-som-ska-ha-stor-bokstav-ak-3"
     },
     "page_title": {
       "en": "Wally's Capital Crane — Capitalize Special Names (Grade 2)",
@@ -394,7 +405,8 @@
       "es": "Wally y su grúa: la mayúscula en nombres propios (2.º primaria)",
       "pt": "Nomes próprios com letra maiúscula: a Wally — 2º ano",
       "it": "La gru di Wally: la maiuscola nei nomi propri (classe seconda)",
-      "nl": "Wally's hoofdletterkraan – hoofdletter bij eigennamen oefenen (groep 4)"
+      "nl": "Wally's hoofdletterkraan – hoofdletter bij eigennamen oefenen (groep 4)",
+      "sv": "Egennamn som ska ha stor bokstav – interaktiv övning åk 3"
     },
     "page_intro": {
       "en": "Wally the walrus runs a crane that lifts a little letter up into a big CAPITAL! Special names — holidays like Halloween, places like Texas, and products like Lego — always start with a capital letter. Read the sentence and tap the word that needs Wally's big letter. A Grade 2 grammar game about capitalizing holidays, places, and product names, aligned to Common Core L.2.2.a.",
@@ -403,7 +415,8 @@
       "es": "Wally la morsa maneja su grúa para levantar la mayúscula en los nombres propios. Actividad interactiva para 2.º de primaria, alineada a los Planes y programas de estudio (SEP). Sin registro, sin cronómetro.",
       "pt": "Com a Wally e seu guindaste, a criança acha o nome próprio escrito com letra minúscula e o transforma em maiúscula. Ortografia do 2º ano, no seu ritmo.",
       "it": "Wally il tricheco ha una gru speciale: solleva una letterina minuscola e la trasforma in una grande MAIUSCOLA. Alcuni nomi sono speciali — i nomi di persona e i nomi di luogo — e vogliono sempre la lettera maiuscola. Leggi la frase, trova il nome proprio e toccalo: Wally lo aggancia e gli regala la sua lettera grande («marco» diventa «Marco», «roma» diventa «Roma»). Senza registrazione e senza punteggi, e funziona direttamente nel browser. Un'attività pensata per la classe seconda e allineata alle Indicazioni nazionali.",
-      "nl": "Help Wally de walrus om de hoofdletter op de juiste plek te zetten: een eigennaam – de naam van een persoon, een stad of een land – krijgt een hoofdletter, maar een gewoon woord blijft klein. Een interactieve oefening voor groep 4, aansluitend bij de SLO-kerndoelen Nederlands."
+      "nl": "Help Wally de walrus om de hoofdletter op de juiste plek te zetten: een eigennaam – de naam van een persoon, een stad of een land – krijgt een hoofdletter, maar een gewoon woord blijft klein. Een interactieve oefening voor groep 4, aansluitend bij de SLO-kerndoelen Nederlands.",
+      "sv": "Alma kör en kran som lyfter en liten bokstav och gör den stor. Barnet läser en kort mening och trycker på ordet som ska ha stor bokstav — namnet på en plats. I meningarna finns också ord som ser viktiga ut men som skrivs med liten bokstav på svenska, som veckodagar, månader, högtider och språk. Namn på personer, djur och platser skrivs med stor bokstav. Övningen följer Lgr22 och det centrala innehållet om språkliga strukturer och normer, årskurs 1–3. Passar åk 3."
     },
     "kid_prompt_template": "Tap the special name that needs a capital letter."
   }

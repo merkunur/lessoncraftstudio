@@ -2272,6 +2272,29 @@
         "Välja rätt ord i luckan efter vem det är som gör något, och märka att ett och samma ord räcker för han, hon, den, det och de.",
         "Förbereda ordklassarbetet i årskurs 4–6, i linje med Lgr22 — eleven väljer rätt ord i meningen men behöver inte namnge någon ordklass."
       ]
+    },
+    "wally-capital-crane.special-names.l-2-2-a": {
+      "about": [
+        "Alma kör en kran som lyfter en liten bokstav och gör den stor. Barnet läser en kort mening där ett ord står med liten bokstav trots att det ska ha stor — namnet på en plats — och trycker på just det ordet.",
+        "Det svåra är inte att veta att namn får stor bokstav, utan att se vilket ord som är ett namn. I varje mening från och med det andra steget står också ett ord som ser viktigt ut men som svenskan skriver litet: en veckodag, en månad, en högtid eller ett språk. Det ordet ligger kvar som lockbete, och barnet får läsa hela meningen för att skilja dem åt.",
+        "Decket är ombyggt för svenskan, inte översatt. Den engelska förlagan övar också högtider och produktnamn, och båda skulle bli fel här: jul, påsk och midsommar skrivs med liten bokstav på svenska, och varumärken skrivs olika i olika sammanhang. Därför håller sig det svenska decket till platsnamn. Övningen följer Lgr22 inom språkliga strukturer och normer, för årskurs 3."
+      ],
+      "practices": [
+        "Säg regeln högt tillsammans: namn på personer, djur och platser skrivs med stor bokstav — Bella, Sverige, Stockholm.",
+        "Läs hela meningen innan barnet trycker. Ordet som ska ha stor bokstav står inte alltid sist.",
+        "Prova fel med flit. Fråga om måndag eller jul ska ha stor bokstav, och prata om varför de inte ska det.",
+        "Fortsätt utanför skärmen. Skriv en kort resedagbok tillsammans och låt barnet sätta ut de stora bokstäverna."
+      ],
+      "howToPlay": [
+        "Läs meningen. Ett av orden står med liten bokstav fast det ska ha stor.",
+        "Tryck på det ordet. Kranen lyfter bokstaven och gör den stor, så att du ser hur ordet ska se ut.",
+        "Tryck sedan på Kontrollera. Blir det fel får du en ledtråd och kan försöka igen."
+      ],
+      "learningGoals": [
+        "Känna igen ett egennamn inne i en mening och ge det stor bokstav.",
+        "Veta att veckodagar, månader, högtider och språk skrivs med liten bokstav på svenska.",
+        "Förbereda arbetet med ordklasser i årskurs 4–6 — eleven väljer rätt ord i meningen men behöver inte namnge någon ordklass."
+      ]
     }
   }
 }

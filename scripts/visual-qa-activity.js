@@ -162,13 +162,38 @@ function measureInPage() {
        not certify. ⚠ Scoped to TAPPABLE elements by the filter below, so the
        `<prefix>-opts` WRAPPER divs are excluded; the shell itself ships no `-opt`
        class, so no drawer chip can be swept in. */
-    '[class*="-cand"],[class*="choice-card"],[class*="-choice"],[class*="-card"],[class*="-opt"]'
+    /* ⭐⭐ `-chip` WAS MISSING TOO, and it is the SECOND commonest: ELEVEN activities
+       name their answer buttons `<prefix>-chip` (rmr-chip, hwb-chip, cf-chip, cl-chip,
+       dps-chip, fb-chip, gi-chip, sc-chip, ss-chip, wcc-chip, wqw-chip). Same symptom
+       as `-opt`, same silence: cards 0 -> fallback -> TINY and SPARSE dark, run green.
+       Adding one convention did not make the list complete; it made the list one longer.
+       ⚠ UNLIKE `-opt`, THE SHELL DOES SHIP A `-chip` CLASS — `lcs-chip` is the settings
+       drawer's segmented control (lcs-shell.js:600, :827) and buildDrawer appends the
+       drawer INSIDE `.lcs-app`. Without the exclusion below, every drawer chip in the
+       catalogue would be measured as an answer card. */
+    '[class*="-cand"],[class*="choice-card"],[class*="-choice"],[class*="-card"],[class*="-opt"],[class*="-chip"]'
   )).filter(el => el.tagName === 'BUTTON' || el.getAttribute('role') === 'button' || el.onclick || el.tabIndex >= 0)
+    /* shell chrome is never an answer card — same predicate the fallback uses */
+    .filter(el => !/(^|\s)lcs-/.test(el.getAttribute('class') || ''))
     .filter(vis);
 
-  /* Convention-independent fallback: the tool's own tappable controls. Engages ONLY
-     when the card selector found nothing, so measured activities are unaffected. */
-  const fallbackControls = cards.length ? [] : Array.from(document.querySelectorAll(
+  /* ⚠⚠ NON-WEAKENING GUARD FOR THE `-chip` ADDITION ABOVE.
+     The fallback engages only when the card selector finds nothing — and it feeds
+     TAP and controlBottom. So the moment `-chip` started matching, those eleven
+     activities went from "every tool button measured for TAP" to "only the chips
+     measured", and any undersized NON-card control (a speaker button, a reset) would
+     have stopped being measured. Widening one gate must not narrow another.
+     ⭐ So the engage condition keys on what the card selector matched BEFORE the
+     `-chip` addition: those eleven keep exactly the coverage they had, and the other
+     ~120 activities are untouched. Measuring EVERY tool control for TAP everywhere is
+     the right eventual answer, but it is new coverage across the whole catalogue and
+     belongs to its own measured commission, not to a side effect of this line. */
+  const legacyCards = Array.from(document.querySelectorAll(
+    '[class*="-cand"],[class*="choice-card"],[class*="-choice"],[class*="-card"],[class*="-opt"]'
+  )).filter(el => el.tagName === 'BUTTON' || el.getAttribute('role') === 'button' || el.onclick || el.tabIndex >= 0)
+    .filter(el => !/(^|\s)lcs-/.test(el.getAttribute('class') || '')).filter(vis);
+
+  const fallbackControls = legacyCards.length ? [] : Array.from(document.querySelectorAll(
     '.lcs-app button, .lcs-app [role="button"]'
   )).filter(el => !/(^|\s)lcs-/.test(el.getAttribute('class') || ''))
     /* an axis control is judged by the axis rule instead — never by both */

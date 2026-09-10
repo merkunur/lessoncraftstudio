@@ -49,9 +49,27 @@
      pair two subjects that collapse to the same form (two 3rd-person → both «zich» = duplicate
      chip) — the round data guarantees 3 distinct chips, not this code. */
   var REFL_NL = { ik: 'me', jij: 'je', hij: 'zich', zij: 'zich', het: 'zich', wij: 'ons' };
+  /* Swedish reflexive pronouns (#31 native ensemble; 0 lines to reflexive-pronoun-core.js).
+     ⚠ ONLY `sig` is a dedicated reflexive. mig/dig/oss/er ARE the ordinary object pronouns,
+     unchanged — so four of the five cells add no new form to a Swedish child's inventory,
+     and `sig` collapses han/hon/den/det/de (plus generic `man` and any 3rd-person lexical
+     subject) onto ONE word. That collapse is the entire novel content of the paradigm.
+     ⭐ Which is why the deck is a LADDER, not a flat fan-out: band 1 is an adjacent pronoun
+     subject (a Swedish åk-2 child answers those by ear), band 2 is a COORDINATED NP the child
+     must map to a person — `Ali och jag` -> vi -> oss, with the visible `jag` as the trap chip
+     — and band 3 puts the subject behind the finite verb under V2 inversion, where the first
+     word is a decoy. Flat subject agreement is a lookup; the ladder is a task, and band 3 is
+     one English cannot pose at all.
+     ⚠⚠ EVERY VERB IS ONE SWEDISH REQUIRES A REFLEXIVE FOR (sätta/skynda/gömma/klä på/lära/
+     torka/lägga/tvätta sig), so the only question is WHICH FORM. That is the invariant nothing
+     in this repo gates: exactly one chip may yield a GRAMMATICAL sentence. A transitive verb
+     breaks it — `Jag tvättar dig` is perfectly good Swedish, so a wash/hide/dry round has more
+     than one right answer. ⚠ The round data guarantees 3 distinct chips, not this code: never
+     pair two of han/hon/den/det/de, which all collapse to `sig`. */
+  var REFL_SV = { jag: 'mig', du: 'dig', han: 'sig', hon: 'sig', den: 'sig', det: 'sig', de: 'sig', vi: 'oss', ni: 'er' };
   /* Per-locale table (en falls to the English core). Behaviour-identical to the
      prior LANG==='de' ternary for en/de. */
-  var REFL_L10N = { de: REFL_DE, fr: REFL_FR, es: REFL_ES, pt: REFL_PT, it: REFL_IT, nl: REFL_NL };
+  var REFL_L10N = { de: REFL_DE, fr: REFL_FR, es: REFL_ES, pt: REFL_PT, it: REFL_IT, nl: REFL_NL, sv: REFL_SV };
   function rmReflexiveOf(ref) { var m = REFL_L10N[LANG]; return m ? (m[ref] || '') : Core.reflexiveOf(ref); }
   function rmOracle(r) { return rmReflexiveOf(r.referent); }
   function rmChips(r) { return [rmReflexiveOf(r.referent), rmReflexiveOf(r.wrongA), rmReflexiveOf(r.wrongB)]; }
@@ -60,15 +78,28 @@
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG), rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG === 'nl' ? 'nl-NL' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG === 'nl' ? 'nl-NL' : LANG === 'sv' ? 'sv-SE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
-  function sayable(s) { return String(s || '').replace(/___/g, LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : LANG === 'es' ? 'espacio' : LANG === 'pt' ? 'lacuna' : LANG === 'it' ? 'spazio' : LANG === 'nl' ? 'gaatje' : 'blank'); }
+  /* ⚠ the character's NAME, spoken to a screen reader. It was hard-coded ENGLISH in all
+     seven shipped locales with no localisation chain at all. Every non-sv value is lifted
+     from that locale's own shipped page_intro rather than invented. */
+  var BIRD_LABEL = {
+    de: 'Robin das Rotkehlchen', fr: 'Robin le rouge-gorge', es: 'Robin el petirrojo',
+    pt: 'Robin, o passarinho', it: 'Robin il pettirosso', nl: 'Robin het roodborstje', sv: 'Rödhaken Kotte',
+    en: 'Robin the robin'
+  };
+  /* ⭐ a TABLE, not a ternary ending in English — the sibling pronoun deck already made
+     this exact refactor (BLANK_WORD, with sv: 'lucka'); this one had been left behind. */
+  var BLANK_WORD = { de: 'Lücke', fr: 'trou', es: 'espacio', pt: 'lacuna', it: 'spazio', nl: 'gaatje', sv: 'lucka', en: 'blank' };
+  var SPEAK_LABEL = { de: 'Satz anhören', fr: 'écouter la phrase', es: 'escuchar la oración', pt: 'ouvir a frase', it: 'ascolta la frase', nl: 'de zin beluisteren', sv: 'lyssna på meningen', en: 'hear the sentence' };
+  function sayable(s) { return String(s || '').replace(/___/g, BLANK_WORD[LANG] || BLANK_WORD.en); }
 
   function robinSVG(mood) {
     var happy = mood === 'happy';
     var eye = happy ? '<path d="M55 42 q3 -4 6 0" stroke="#2A2A35" stroke-width="2.2" fill="none" stroke-linecap="round"/>' : '<circle cx="58" cy="43" r="2.6" fill="#2A2A35"/>';
-    return '<svg class="rmr-bird-svg" viewBox="0 0 100 100" role="img" aria-label="Robin the robin">' +
+    var label = BIRD_LABEL[LANG] || BIRD_LABEL.en;
+    return '<svg class="rmr-bird-svg" viewBox="0 0 100 100" role="img" aria-label="' + label + '">' +
       '<ellipse cx="46" cy="52" rx="26" ry="24" fill="#6E7B86"/>' +              /* body */
       '<ellipse cx="46" cy="62" rx="16" ry="13" fill="#E2693C"/>' +             /* red breast */
       '<circle cx="58" cy="44" r="12" fill="#7C8995"/>' +                        /* head */
@@ -82,13 +113,12 @@
     id: 'robin-mirror-activity',
 
     strings: {
-      title: { en: "Robin's Mirror", de: 'Robins Spiegel', fr: 'Robin et le miroir magique', es: 'El espejo de Robin', pt: 'O espelho do Robin', it: 'Lo specchio di Robin', nl: 'Robins spiegel' },
-      prompt: { en: 'Which word fills the blank?', de: 'Welches Wort passt?', fr: 'Quel petit mot va dans le trou ?', es: '¿Qué palabra va en el espacio?', pt: 'Qual palavra vai no espaço?', it: 'Quale parola va nello spazio?', nl: 'Welk woord past?' },
-      robinIntro: { en: 'A reflexive word points back at who did it!', de: 'Wie ein Spiegel zeigt das Wort zurück auf den, der etwas tut!', fr: 'Mon miroir renvoie le petit mot vers celui qui fait l’action !', es: 'Como un espejo, la palabra apunta de regreso a quien hace la acción.', pt: 'Como um espelho, a palavra volta para quem faz a ação.', it: 'Come uno specchio, la parolina torna a chi fa l’azione!', nl: 'Net als een spiegel wijst het woord terug naar wie iets doet!' },
-      theAsk: { en: 'Which word fills the blank?', de: 'Welches Wort passt in die Lücke?', fr: 'Quel petit mot va dans le trou ?', es: '¿Cuál palabra completa la oración?', pt: 'Qual palavra completa a frase?', it: 'Quale parola completa la frase?', nl: 'Welk woord past in het gaatje?' },
-      hintPick: { en: 'Tap the word that matches who did it!', de: 'Schau zuerst: Wer tut es? Tippe dann das passende Wort an.', fr: 'Regarde d’abord qui fait l’action, puis tape le petit mot qui va avec.', es: 'Primero mira quién hace la acción y luego toca la palabra que va con esa persona.', pt: 'Primeiro veja quem faz a ação e depois toque na palavra que combina com essa pessoa.', it: 'Prima guarda chi fa l’azione, poi tocca la parola giusta!', nl: 'Kijk eerst: wie doet het? Tik dan het juiste woord aan.' },
-      hintWrong: { en: "That word doesn't match — read it again.", de: 'Fast! Schau auf das erste Wort: ich → mich, du → dich, er/sie/es → sich, wir → uns, ihr → euch.', fr: 'je → me, tu → te, il/elle → se, nous → nous, vous → vous', es: '¡Casi! Fíjate en el sujeto: yo → me, tú → te, él/ella → se, nosotros → nos, ustedes → se.', pt: 'Quase! Olhe o sujeito: eu → me, você/ele/ela/a gente → se, nós → nos.', it: 'Quasi! Guarda il soggetto: io → mi, tu → ti, lui/lei → si, noi → ci, voi → vi.', nl: 'Bijna! Kijk naar het eerste woord: ik → me, jij → je, hij/zij/het → zich, wij → ons.' },
-      win: { en: 'Yes! That word points right back. 🪞', de: 'Super – das Wort zeigt genau zurück! 🪞', fr: 'Bravo ! Le miroir de Robin brille rien que pour toi ! 🪞', es: '¡Muy bien! La palabra apunta justo de regreso. 🪞', pt: 'Isso! A palavra volta certinho. 🪞', it: 'Sì! La parola torna proprio indietro. 🪞', nl: 'Goed zo – het woord wijst precies terug! 🪞' }
+      title: { en: "Robin's Mirror", de: 'Robins Spiegel', fr: 'Robin et le miroir magique', es: 'El espejo de Robin', pt: 'O espelho do Robin', it: 'Lo specchio di Robin', nl: 'Robins spiegel', sv: 'Kottes ordspegel' },
+      prompt: { en: 'Which word fills the blank?', de: 'Welches Wort passt?', fr: 'Quel petit mot va dans le trou ?', es: '¿Qué palabra va en el espacio?', pt: 'Qual palavra vai no espaço?', it: 'Quale parola va nello spazio?', nl: 'Welk woord past?', sv: 'Vilket ord passar i meningen?' },
+      robinIntro: { en: 'These words all point back at the same person!', de: 'Wie ein Spiegel zeigt das Wort zurück auf den, der etwas tut!', fr: 'Mon miroir renvoie le petit mot vers celui qui fait l’action !', es: 'Como un espejo, la palabra apunta de regreso a quien hace la acción.', pt: 'Como um espelho, a palavra volta para quem faz a ação.', it: 'Come uno specchio, la parolina torna a chi fa l’azione!', nl: 'Net als een spiegel wijst het woord terug naar wie iets doet!', sv: 'Leta upp vem som gör något!' },
+      theAsk: { en: 'Which word fills the blank?', de: 'Welches Wort passt in die Lücke?', fr: 'Quel petit mot va dans le trou ?', es: '¿Cuál palabra completa la oración?', pt: 'Qual palavra completa a frase?', it: 'Quale parola completa la frase?', nl: 'Welk woord past in het gaatje?', sv: 'Läs meningen. Tryck på ordet som passar.' },
+      hintPick: { en: 'Tap the word that matches who did it!', de: 'Schau zuerst: Wer tut es? Tippe dann das passende Wort an.', fr: 'Regarde d’abord qui fait l’action, puis tape le petit mot qui va avec.', es: 'Primero mira quién hace la acción y luego toca la palabra que va con esa persona.', pt: 'Primeiro veja quem faz a ação e depois toque na palavra que combina com essa pessoa.', it: 'Prima guarda chi fa l’azione, poi tocca la parola giusta!', nl: 'Kijk eerst: wie doet het? Tik dan het juiste woord aan.', sv: 'Läs hela meningen. Första ordet lurar ibland!' },
+      hintWrong: { en: "That word doesn't match — read it again.", de: 'Fast! Schau auf das erste Wort: ich → mich, du → dich, er/sie/es → sich, wir → uns, ihr → euch.', fr: 'je → me, tu → te, il/elle → se, nous → nous, vous → vous', es: '¡Casi! Fíjate en el sujeto: yo → me, tú → te, él/ella → se, nosotros → nos, ustedes → se.', pt: 'Quase! Olhe o sujeito: eu → me, você/ele/ela/a gente → se, nós → nos.', it: 'Quasi! Guarda il soggetto: io → mi, tu → ti, lui/lei → si, noi → ci, voi → vi.', nl: 'Bijna! Kijk naar het eerste woord: ik → me, jij → je, hij/zij/het → zich, wij → ons.', sv: 'Nära! Vem är det som gör något? Titta där först.' }
     },
     defaults: {},
 
@@ -120,7 +150,7 @@
 
       var sent = api.el('div', 'rmr-sent');
       var txt = api.el('span', 'rmr-senttxt'); txt.textContent = v.sentence; sent.appendChild(txt);
-      var sp = api.el('button', 'rmr-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'de' ? 'Satz anhören' : LANG === 'fr' ? 'écouter la phrase' : LANG === 'es' ? 'escuchar la oración' : LANG === 'pt' ? 'ouvir a frase' : LANG === 'it' ? 'ascolta la frase' : LANG === 'nl' ? 'de zin beluisteren' : 'hear the sentence'); sp.textContent = '🔊';
+      var sp = api.el('button', 'rmr-spk'); sp.type = 'button'; sp.setAttribute('aria-label', SPEAK_LABEL[LANG] || SPEAK_LABEL.en); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(sayable(v.sentence)); }); sent.appendChild(sp);
       root.appendChild(sent);
 
@@ -169,20 +199,29 @@
         + '.rmr-root{position:relative;width:100%;display:flex;flex-direction:column;align-items:stretch;gap:clamp(5px,1.4vw,9px);background:linear-gradient(180deg,#FBF3E4,#EAEEF1);border-radius:20px;padding:clamp(7px,1.7vw,12px);box-shadow:inset 0 2px 0 rgba(255,255,255,.5),0 5px 0 rgba(20,107,94,.07);}'
         + '.rmr-row{display:flex;align-items:center;gap:clamp(6px,2vw,12px);justify-content:center;}'
         + '.rmr-bird{width:clamp(42px,9.5vw,54px);flex:0 0 auto;}.rmr-bird-svg{width:100%;height:auto;display:block;}'
-        + '.rmr-say{background:#fff;border:2px solid rgba(20,107,94,.18);border-radius:13px 13px 13px 3px;padding:6px 11px;font:700 clamp(12px,3.1vw,15px)/1.3 "Baloo 2",sans-serif;color:' + C.T + ';max-width:78%;display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}'
-        + '.rmr-sent{display:flex;align-items:center;gap:8px;background:#FFFDF6;border:2px solid ' + C.GOLD + ';border-radius:13px;padding:9px 13px;}'
-        + '.rmr-senttxt{flex:1;min-width:0;font:700 clamp(14px,3.6vw,18px)/1.3 "Nunito",sans-serif;color:' + C.INK + ';}'
-        + '.rmr-spk{flex:0 0 auto;width:34px;height:34px;border-radius:10px;border:0;background:#EAF2EE;font-size:17px;cursor:pointer;touch-action:manipulation;}'
-        + '.rmr-ask{text-align:center;font:800 clamp(11.5px,2.9vw,13.5px)/1.2 "Baloo 2",sans-serif;color:' + C.CORAL2 + ';}'
+        + '.rmr-say{background:#fff;border:2px solid rgba(20,107,94,.18);border-radius:13px 13px 13px 3px;padding:6px 11px;font:700 clamp(12px,3.1vw,15px)/1.3 "Baloo 2",sans-serif;color:' + C.T + ';max-width:84%;display:-webkit-box;-webkit-line-clamp:3;line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;}'
+        /* ⚠ NEUTRAL border, not C.GOLD. The three chip states are GOLD chosen / CORAL tried /
+           GREEN right, and a permanent gold border on the sentence panel spends that ink on
+           standing chrome — the child sees it on every frame before choosing anything. The warm
+           fill still carries the focus; only the ink moves. */
+        + '.rmr-sent{display:flex;align-items:center;gap:8px;background:#FFFDF6;border:2px solid rgba(20,107,94,.22);border-radius:13px;padding:9px 13px;}'
+        + '.rmr-senttxt{flex:1;min-width:0;font:700 clamp(15px,5vw,30px)/1.3 "Nunito",sans-serif;color:' + C.INK + ';}'
+        + '.rmr-spk{flex:0 0 auto;width:44px;height:44px;border-radius:12px;border:0;background:#fff;box-shadow:0 2px 0 rgba(20,107,94,.16),0 0 0 1px rgba(20,107,94,.14);font-size:19px;line-height:1;cursor:pointer;touch-action:manipulation;}'
+        + '.rmr-ask{text-align:center;font:800 clamp(12.5px,3vw,16px)/1.25 "Baloo 2",sans-serif;color:rgba(20,107,94,.78);}'
         + '.rmr-chips{display:flex;flex-wrap:wrap;gap:clamp(7px,2vw,11px);justify-content:center;}'
-        + '.rmr-chip{min-height:48px;padding:9px 18px;border-radius:14px;border:2px solid rgba(20,107,94,.28);background:#fff;color:' + C.T + ';font:800 clamp(15px,4vw,19px)/1 "Baloo 2",sans-serif;cursor:pointer;box-shadow:0 2px 0 rgba(160,120,60,.16);touch-action:manipulation;}'
-        + '.rmr-chip.rmr-sel{border-color:' + C.CORAL + ';box-shadow:0 0 0 3px rgba(242,120,75,.34);background:#FFF6F1;color:' + C.CORAL2 + ';transform:translateY(-2px);}'
+        + '.rmr-chip{min-height:48px;min-width:48px;padding:9px 18px;border-radius:14px;border:2px solid rgba(20,107,94,.28);background:#fff;color:' + C.T + ';font:800 clamp(15px,4vw,19px)/1 "Baloo 2",sans-serif;cursor:pointer;box-shadow:0 2px 0 rgba(160,120,60,.16);touch-action:manipulation;}'
+        /* chosen — NOT a verdict. Gold says "this is the one I picked" and nothing else. */
+        + '.rmr-chip.rmr-sel{border-color:' + C.GOLD + ';box-shadow:0 0 0 3px rgba(232,165,58,.34);background:#FFF3D6;color:#6B430A;transform:translateY(-2px);}'
+        /* ⚠ ORDER-DEPENDENT: equal-specificity two-class rules, so these win over .rmr-sel
+           only by sitting AFTER it. Reordering reverts the meaning silently. */
+        + '.rmr-chip.rmr-tried{border-color:' + C.CORAL + ';box-shadow:0 0 0 3px rgba(242,120,75,.34);background:#FFEDE4;color:#8F2F0F;transform:translateY(-2px);}'
+        + '.rmr-chip.rmr-right{border-color:' + C.GOOD + ';box-shadow:0 0 0 3px rgba(47,165,106,.30);background:#E6F6EC;color:#14563A;transform:translateY(-2px);}'
         + '.rmr-chip:active{transform:translateY(1px);}'
         + '.rmr-spk:focus-visible,.rmr-chip:focus-visible{outline:3px solid var(--lcs-focus,#1E8FD4);outline-offset:2px;}'
         + '@media (max-height:920px){.rmr-root{gap:clamp(4px,1.1vw,7px);}.rmr-bird{width:clamp(40px,8vw,48px);}}'
-        + '@media (max-height:700px){.rmr-root{gap:4px;}.rmr-bird{width:clamp(36px,7vw,44px);}.rmr-sent{padding:7px 11px;}.rmr-senttxt{font-size:15px;}.rmr-chip{min-height:46px;padding:8px 15px;font-size:16px;}}'
-        + '@media (max-height:640px){.rmr-root{gap:3px;padding:6px;}.rmr-row{display:none;}.rmr-sent{padding:6px 10px;}.rmr-senttxt{font-size:14px;}.rmr-chip{min-height:44px;padding:7px 13px;font-size:15px;}}'
-        + '@media (max-width:380px){.rmr-root{gap:4px;padding:7px;}.rmr-senttxt{font-size:14px;}.rmr-chip{font-size:16px;padding:8px 14px;}}'
+        + '@media (max-height:700px){.rmr-root{gap:4px;}.rmr-bird{width:clamp(36px,7vw,44px);}.rmr-sent{padding:7px 11px;}.rmr-senttxt{font-size:18px;}.rmr-chip{min-height:46px;padding:8px 15px;font-size:16px;}}'
+        + '@media (max-height:640px){.rmr-root{gap:3px;padding:6px;}.rmr-row{display:none;}.rmr-sent{padding:6px 10px;}.rmr-senttxt{font-size:16px;}.rmr-chip{min-height:44px;padding:7px 13px;font-size:15px;}}'
+        + '@media (max-width:380px){.rmr-root{gap:4px;padding:7px;}.rmr-senttxt{font-size:17px;}.rmr-chip{font-size:16px;padding:8px 14px;}}'
         + '@media (prefers-reduced-motion: reduce){.rmr-chip{transition:none!important;}}';
       var tag = document.createElement('style'); tag.setAttribute('data-robin-mirror', ''); tag.textContent = css; document.head.appendChild(tag);
     }
@@ -193,7 +232,16 @@
       return {
         id: 'robin-mirror.' + round.id, band: round.band || 1, promptKey: 'prompt', promptArgs: {}, answerType: 'state',
         setup: function (tool) { tool.setupTask(round); },
-        check: function (tool) { return tool.isCorrect(); },
+        check: function (tool) {
+          var ok = tool.isCorrect();
+          /* ⚠ the TAPPED chip only. Marking the correct chip here would print the answer. */
+          var el = document.querySelector('.rmr-chip.rmr-sel');
+          if (el) el.classList.add(ok ? 'rmr-right' : 'rmr-tried');
+          /* ⭐ on a WIN, complete the sentence in place — seeing it whole is the payoff.
+             Never on a miss, where it would print the answer. */
+          if (ok) { var s = document.querySelector('.rmr-senttxt'); if (s && tool.round) s.textContent = String(tool.round.sentence).replace('___', rmOracle(tool.round)); }
+          return ok;
+        },
         hintKey: function (tool) { return tool.sel ? 'hintWrong' : 'hintPick'; }
       };
     });

@@ -2249,6 +2249,29 @@
         "Se att samma regel gäller när uppräkningen binds ihop med orden eller och samt.",
         "Förbereda arbetet med skiljetecken i årskurs 4–6, i linje med Lgr22 — eleven känner igen kommatecknets plats men skriver det inte själv."
       ]
+    },
+    "robin-mirror.reflexive.l-2-1-c": {
+      "about": [
+        "Kotte är en rödhake som bor i en ordspegel. Barnet läser en kort mening med en lucka i och trycker på det ord som passar. Spegeln är bilden av regeln: ordet i luckan pekar tillbaka på den i meningen som gör något.",
+        "Det svenska i den här övningen är inte formerna. Mig, dig, oss och er är samma ord som barnet redan säger varje dag, och det enda som är nytt är sig, som täcker han, hon, den, det och de på en gång. Det svåra är i stället att hitta vem det är som gör något — och i svenskan står den personen långt ifrån alltid först i meningen.",
+        "Åtta meningar i tre steg. Först står den som gör något först i meningen. Sedan är det två personer tillsammans, som Ali och jag, och barnet måste räkna ut vilka det blir. Till sist börjar meningen med en tidsuppgift och den som gör något står efter verbet, så att det första ordet lurar."
+      ],
+      "practices": [
+        "Fråga alltid samma sak innan barnet trycker: vem är det som gör något här? Låt barnet peka på personen i meningen, inte på luckan.",
+        "Håll för luckan och låt barnet säga meningen högt. De flesta säger den redan rätt — poängen är att visa att det man säger och det man skriver ska vara samma sak.",
+        "Flytta om en mening tillsammans. Ta Katten lägger sig varje kväll och gör om den till Varje kväll lägger katten sig, och låt barnet visa att det fortfarande är katten som gör något.",
+        "Fortsätt utanför skärmen. Berätta om dagen i korta meningar och låt barnet fylla i ordet som fattas, med två personer ibland: du och jag, mormor och jag."
+      ],
+      "howToPlay": [
+        "Läs hela meningen innan du trycker. Det första ordet är inte alltid den som gör något.",
+        "Leta upp vem som gör något, och välj sedan ordet som pekar tillbaka på just den.",
+        "Tryck på Kontrollera. Blir det fel får du en ledtråd och kan försöka igen. Högtalaren läser meningen högt."
+      ],
+      "learningGoals": [
+        "Hitta den som gör något i en mening, också när den står efter verbet eller är två personer tillsammans.",
+        "Välja rätt ord i luckan efter vem det är som gör något, och märka att ett och samma ord räcker för han, hon, den, det och de.",
+        "Förbereda ordklassarbetet i årskurs 4–6, i linje med Lgr22 — eleven väljer rätt ord i meningen men behöver inte namnge någon ordklass."
+      ]
     }
   }
 }

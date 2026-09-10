@@ -192,6 +192,28 @@
     "whatsInsideCode": "Följer Lgr22"
   },
   "prose": {
+    "rusty-yesterday.irregular-past.l-2-1-d": {
+      "about": [
+        "Murklas ordsluss är en interaktiv övning i svenska för åk 3. Ett verb i nutid åker in i slussen och lämnar den i dåtid — och barnet väljer vilket av tre ord som är det rätta. Övningen körs direkt i webbläsaren på surfplatta, telefon eller dator: inget att installera, inget konto och inga förberedelser för läraren.",
+        "Aktiviteten följer Lgr22 inom språkliga strukturer och normer. Alla tre orden i en uppgift liknar varandra, så barnet måste tänka efter i stället för att gissa. Återkopplingen är vänlig och förklarar varför just det valda ordet inte fungerar — det finns ingen tid som tickar och inga poäng."
+      ],
+      "practices": [
+        "Välja rätt verbform när meningen handlar om i går",
+        "Skilja dåtidsordet från har-ordet: jag lekte, men jag har lekt",
+        "Märka att verb bildar dåtid på olika sätt — en del får en ändelse, andra ändrar sig i stället",
+        "Säga nej till påhittade former som ”springade” och ”gådde”"
+      ],
+      "howToPlay": [
+        "Barnet läser meningen i nutid högst upp — «I dag målar jag.» — där verbet står i fetstil.",
+        "Under den står samma mening om i går, med ett tomrum. Barnet trycker på ett av de tre orden och sedan på kontrollknappen.",
+        "Blir det fel förklarar Murkla vad just det ordet är för slags ord, och barnet får försöka igen så många gånger som behövs."
+      ],
+      "learningGoals": [
+        "Barnet skriver rätt verbform i dåtid i en enkel mening",
+        "Barnet vet att har-formen behöver ”har” eller ”hade” framför sig och inte klarar sig ensam",
+        "Barnet kontrollerar hur just det här verbet ser ut i dåtid i stället för att lägga till en ändelse av gammal vana"
+      ]
+    },
     "tense.past-present-future.l-1-1-e": {
       "about": [
         "Barnet ser en mening där verbet saknas — Båtarna ___ i går — och tre former att välja mellan. Överst lyser ett av tre tidsfönster: dåtid, nutid eller framtid. Juniper står bredvid och säger till när formen stämmer.",
@@ -202,7 +224,7 @@
         "Välja verbets form efter tidsordet i meningen — i går, just nu eller i morgon",
         "Skilja på dåtid, nutid och framtid i en och samma mening",
         "Känna igen preteritumformen av vanliga verb, som lekte och simmade",
-        "Känna igen att en del verb byter vokal i dåtid — sover blir sov, sjunger blir sjöng"
+        "Känna igen att en del verb byter vokal i dåtid — springer blir sprang, sjunger blir sjöng"
       ],
       "howToPlay": [
         "Läs meningen och leta upp tidsordet. Tryck på 🔊 Lyssna om du vill höra den uppläst.",

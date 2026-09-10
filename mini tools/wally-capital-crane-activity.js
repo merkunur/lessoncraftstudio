@@ -14,7 +14,7 @@
   'use strict';
 
   var Core = global.CapitalNameCore;
-  var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', BLUE: '#3F7CAC' };
+  var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', BLUE: '#3F7CAC', GOLD: '#E8A53A', GOOD: '#2FA56A' };
   var LANG = 'en';   /* used only for the roundsL10n pick; strings localize via api.t */
 
   function isWord(t) { return /[A-Za-z]/.test(t); }
@@ -34,13 +34,12 @@
     id: 'wally-capital-crane-activity',
 
     strings: {
-      title: { en: "Wally's Capital Crane", de: 'Wallys Großbuchstaben-Kran', fr: 'Wally et la grue à majuscules', es: 'La grúa de mayúsculas de Wally', pt: 'Wally e seu guindaste', it: 'La gru delle maiuscole di Wally', nl: "Wally's hoofdletterkraan" },
-      instruction: { en: 'Tap the special name that needs a capital letter.', de: 'Tippe das Nomen an, das großgeschrieben wird.', fr: 'Touche le nom propre qui a oublié sa majuscule.', es: 'Toca el nombre propio que necesita mayúscula.', pt: 'Toque no nome próprio que precisa de letra maiúscula.', it: 'Tocca il nome proprio che ha bisogno della maiuscola.', nl: 'Tik op de naam die zijn hoofdletter is vergeten.' },
-      prompt: { en: 'Tap the word that needs a capital letter.', de: 'Welches Wort ist ein Nomen und wird großgeschrieben?', fr: 'Quel mot est un nom propre et prend une majuscule ?', es: '¿Qué palabra es un nombre propio y necesita mayúscula?', pt: 'Toque na palavra que precisa de letra maiúscula.', it: 'Quale parola è un nome proprio e vuole la maiuscola?', nl: 'Welk woord is een naam en krijgt een hoofdletter?' },
-      wallyIntro: { en: 'Special names get a BIG letter — lift it up with the crane!', de: 'Nomen schreibt man groß — mein Kran hebt den Buchstaben hoch!', fr: 'Personne, ville ou pays : ma grue lui met sa majuscule !', es: 'Persona, ciudad o país: ¡mi grúa le pone su mayúscula!', pt: 'Nome próprio começa com letra maiúscula!', it: 'Persona, città o paese: la mia gru mette la maiuscola!', nl: 'Persoon, stad of land: hoofdletter erop!' },
-      hintPick: { en: 'Holidays, places, and products are special names — they need a capital.', de: 'Nomen (Namenwörter für Menschen, Tiere und Dinge) schreibt man immer groß. Welches Wort ist ein Nomen?', fr: 'Cherche le nom d’une personne, d’une ville ou d’un pays : il prend une majuscule.', es: 'Busca el nombre de una persona, una ciudad o un país: lleva mayúscula.', pt: 'Nomes de pessoas e lugares são nomes próprios — começam com maiúscula.', it: 'Cerca il nome di una persona, di una città o di un paese: vuole la maiuscola.', nl: 'Zoek de naam van een persoon, stad of land. Die krijgt een hoofdletter.' },
-      hintWrong: { en: 'That one is fine. Find the special name (a holiday, place, or product).', de: 'Fast! Das ist kein Nomen. Suche das Wort für einen Menschen, ein Tier oder ein Ding.', fr: 'Ce mot n’est pas un nom propre. Cherche plutôt le nom d’une personne, d’une ville ou d’un pays.', es: 'Esa palabra no es un nombre propio. Busca el nombre de una persona, una ciudad o un país.', pt: 'Esse está certo. Ache o nome próprio (de uma pessoa ou de um lugar).', it: 'Quella parola non è un nome proprio. Cerca il nome di una persona o di un luogo.', nl: 'Dat is geen naam. Zoek de naam van een persoon, stad of land.' },
-      win: { en: 'Yes! That special name gets a big capital letter. 🏗️', de: 'Stark! Du hast das Nomen großgeschrieben! 🏗️', fr: 'Bravo ! Wally a soulevé la majuscule ! 🏗️', es: '¡Muy bien! Wally levantó la mayúscula. 🏗️', pt: 'Isso! Esse nome próprio ganha uma letra maiúscula bem grande. 🏗️', it: 'Sì! Il nome proprio prende una bella maiuscola. 🏗️', nl: 'Goed gedaan! Wally heeft de hoofdletter opgetild! 🏗️' }
+      title: { en: "Wally's Capital Crane", de: 'Wallys Großbuchstaben-Kran', fr: 'Wally et la grue à majuscules', es: 'La grúa de mayúsculas de Wally', pt: 'Wally e seu guindaste', it: 'La gru delle maiuscole di Wally', nl: "Wally's hoofdletterkraan", sv: 'Almas namnkran' },
+      instruction: { en: 'Tap the special name that needs a capital letter.', de: 'Tippe das Nomen an, das großgeschrieben wird.', fr: 'Touche le nom propre qui a oublié sa majuscule.', es: 'Toca el nombre propio que necesita mayúscula.', pt: 'Toque no nome próprio que precisa de letra maiúscula.', it: 'Tocca il nome proprio che ha bisogno della maiuscola.', nl: 'Tik op de naam die zijn hoofdletter is vergeten.', sv: 'Egennamn måste ha stor bokstav. Hitta egennamnet!' },
+      prompt: { en: 'Tap the word that needs a capital letter.', de: 'Welches Wort ist ein Nomen und wird großgeschrieben?', fr: 'Quel mot est un nom propre et prend une majuscule ?', es: '¿Qué palabra es un nombre propio y necesita mayúscula?', pt: 'Toque na palavra que precisa de letra maiúscula.', it: 'Quale parola è un nome proprio e vuole la maiuscola?', nl: 'Welk woord is een naam en krijgt een hoofdletter?', sv: 'Peka ut ordet som behöver stor bokstav.' },
+      wallyIntro: { en: 'Special names get a BIG letter — lift it up with the crane!', de: 'Nomen schreibt man groß — mein Kran hebt den Buchstaben hoch!', fr: 'Personne, ville ou pays : ma grue lui met sa majuscule !', es: 'Persona, ciudad o país: ¡mi grúa le pone su mayúscula!', pt: 'Nome próprio começa com letra maiúscula!', it: 'Persona, città o paese: la mia gru mette la maiuscola!', nl: 'Persoon, stad of land: hoofdletter erop!', sv: 'Egennamn måste lyftas upp. Hjälper du mig?' },
+      hintPick: { en: 'Holidays, places, and products are special names — they need a capital.', de: 'Nomen (Namenwörter für Menschen, Tiere und Dinge) schreibt man immer groß. Welches Wort ist ein Nomen?', fr: 'Cherche le nom d’une personne, d’une ville ou d’un pays : il prend une majuscule.', es: 'Busca el nombre de una persona, una ciudad o un país: lleva mayúscula.', pt: 'Nomes de pessoas e lugares são nomes próprios — começam com maiúscula.', it: 'Cerca il nome di una persona, di una città o di un paese: vuole la maiuscola.', nl: 'Zoek de naam van een persoon, stad of land. Die krijgt een hoofdletter.', sv: 'Leta efter platsens namn.' },
+      hintWrong: { en: 'That one is fine. Find the special name (a holiday, place, or product).', de: 'Fast! Das ist kein Nomen. Suche das Wort für einen Menschen, ein Tier oder ein Ding.', fr: 'Ce mot n’est pas un nom propre. Cherche plutôt le nom d’une personne, d’une ville ou d’un pays.', es: 'Esa palabra no es un nombre propio. Busca el nombre de una persona, una ciudad o un país.', pt: 'Esse está certo. Ache o nome próprio (de uma pessoa ou de um lugar).', it: 'Quella parola non è un nome proprio. Cerca il nome di una persona o di un luogo.', nl: 'Dat is geen naam. Zoek de naam van een persoon, stad of land.', sv: 'Nära! Veckodagar, månader och högtider har liten bokstav.' }
     },
     defaults: {},
 
@@ -112,16 +111,18 @@
         + '.wcc-root{position:relative;width:100%;display:flex;flex-direction:column;align-items:center;gap:clamp(10px,2.4vw,16px);background:linear-gradient(180deg,#FBF3E4,#E7EEF4);border-radius:20px;padding:clamp(11px,2.6vw,18px);box-shadow:inset 0 2px 0 rgba(255,255,255,.5),0 5px 0 rgba(90,120,150,.1);}'
         + '.wcc-row{display:flex;align-items:center;gap:clamp(6px,2vw,12px);justify-content:center;}'
         + '.wcc-wal{width:clamp(46px,10vw,60px);flex:0 0 auto;}.wcc-wal-svg{width:100%;height:auto;display:block;}'
-        + '.wcc-say{background:#fff;border:2px solid rgba(20,107,94,.18);border-radius:13px 13px 13px 3px;padding:6px 11px;font:700 clamp(12px,3.1vw,15px)/1.3 "Baloo 2",sans-serif;color:' + C.T + ';max-width:74%;display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}'
+        + '.wcc-say{background:#fff;border:2px solid rgba(20,107,94,.18);border-radius:13px 13px 13px 3px;padding:6px 11px;font:700 clamp(12px,3.1vw,15px)/1.3 "Baloo 2",sans-serif;color:' + C.T + ';max-width:84%;display:-webkit-box;-webkit-line-clamp:3;line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;}'
         + '.wcc-sent{display:flex;flex-wrap:wrap;gap:6px 7px;justify-content:center;align-items:flex-end;background:#fff;border:2px dashed rgba(63,124,172,.3);border-radius:14px;padding:clamp(11px,2.8vw,18px);}'
-        + '.wcc-chip{min-height:46px;padding:9px 13px;border-radius:11px;border:2px solid rgba(20,107,94,.22);background:#FCFBF7;color:' + C.INK + ';font:800 clamp(16px,4.2vw,21px)/1 "Baloo 2",sans-serif;cursor:pointer;box-shadow:0 2px 0 rgba(120,120,90,.16);touch-action:manipulation;}'
-        + '.wcc-chip.wcc-sel{border-color:' + C.CORAL + ';background:#FFF6F1;color:' + C.CORAL2 + ';transform:translateY(-7px);box-shadow:0 9px 0 rgba(242,120,75,.18);}'
+        + '.wcc-chip{min-height:46px;min-width:44px;padding:9px 13px;border-radius:11px;border:2px solid rgba(20,107,94,.22);background:#FCFBF7;color:' + C.INK + ';font:800 clamp(16px,4.2vw,21px)/1 "Baloo 2",sans-serif;cursor:pointer;box-shadow:0 2px 0 rgba(120,120,90,.16);touch-action:manipulation;}'
+        + '.wcc-chip.wcc-sel{border-color:' + C.GOLD + ';background:#FFF3D6;transform:translateY(-7px);box-shadow:0 9px 0 rgba(232,165,58,.20);}'
+        + '.wcc-chip.wcc-tried{border-color:' + C.CORAL + ';background:#FFEDE4;box-shadow:0 9px 0 rgba(242,120,75,.20);}'
+        + '.wcc-chip.wcc-right{border-color:' + C.GOOD + ';background:#E6F6EC;box-shadow:0 9px 0 rgba(47,165,106,.20);}'
         + '.wcc-chip:active{transform:translateY(1px);}'
         + '.wcc-chip:focus-visible{outline:3px solid var(--lcs-focus,#1E8FD4);outline-offset:2px;}'
         + '.wcc-punct{align-self:flex-end;font:800 clamp(16px,4.2vw,21px)/1 "Baloo 2",sans-serif;color:' + C.INK + ';padding-bottom:9px;}'
         + '@media (max-height:920px){.wcc-root{gap:clamp(7px,1.8vw,12px);}.wcc-wal{width:clamp(42px,8vw,52px);}.wcc-chip{min-height:44px;}}'
-        + '@media (max-height:700px){.wcc-root{gap:8px;padding:12px;}.wcc-row{display:none;}.wcc-chip{min-height:42px;padding:8px 11px;font-size:18px;}.wcc-punct{font-size:18px;}}'
-        + '@media (max-height:640px){.wcc-root{gap:7px;padding:10px;}.wcc-sent{padding:11px;}.wcc-chip{min-height:40px;font-size:17px;}.wcc-punct{font-size:17px;}}'
+        + '@media (max-height:700px){.wcc-root{gap:8px;padding:12px;}.wcc-row{display:none;}.wcc-chip{min-height:44px;padding:8px 11px;font-size:18px;}.wcc-punct{font-size:18px;}}'
+        + '@media (max-height:640px){.wcc-root{gap:4px;padding:7px;}.wcc-sent{padding:6px;gap:4px 5px;}.wcc-chip{min-height:44px;font-size:17px;}.wcc-punct{font-size:17px;}}'
         + '@media (max-width:380px){.wcc-chip{font-size:17px;padding:8px 10px;}}';
       var tag = document.createElement('style'); tag.setAttribute('data-wally-capital-crane', ''); tag.textContent = css; document.head.appendChild(tag);
     }
@@ -132,7 +133,13 @@
       return {
         id: 'wally-capital-crane.' + round.id, band: round.band || 1, promptKey: 'prompt', promptArgs: {}, answerType: 'state',
         setup: function (tool) { tool.setupTask(round); },
-        check: function (tool) { return Core.grade(round, tool.sel); },
+        check: function (tool) {
+          var ok = Core.grade(round, tool.sel);
+          /* the TAPPED chip only — marking the correct one would print the answer */
+          var el = document.querySelector('.wcc-chip.wcc-sel');
+          if (el) el.classList.add(ok ? 'wcc-right' : 'wcc-tried');
+          return ok;
+        },
         hintKey: function (tool) { return tool.sel != null ? 'hintWrong' : 'hintPick'; }
       };
     });

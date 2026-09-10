@@ -2203,6 +2203,29 @@
         "Använda substantivets bestämda slut som ledtråd till vilken form adjektivet ska ha.",
         "Hålla kvar början av meningen i huvudet och tillämpa den längre fram i satsen, i linje med Lgr22 och det centrala innehållet om ords böjningsformer i årskurs 1–3."
       ]
+    },
+    "hazel-word-bridge.joining-words.l-1-1-g": {
+      "about": [
+        "Vide är en häger som står stilla i vassen och bygger broar mellan tankar. Barnet läser en mening där ett litet ord fattas mitt i — ”Det regnade hela dagen ___ barnen badade ändå i sjön” — och trycker på det bindeord som håller ihop de två delarna: och, eller, men eller för.",
+        "Det svåra är inte att läsa meningen, utan att höra vad den andra delen gör med den första. Lägger den till något? Ger den ett val? Överraskar den? Eller förklarar den varför? Fyra ord, fyra sätt att hänga ihop, och bara ett av dem passar i varje mening.",
+        "Åtta meningar i tre steg. De sista är med flit lömska: två av dem ser likadana ut men har olika svar, så barnet måste läsa vad meningen faktiskt betyder i stället för att känna igen en form."
+      ],
+      "practices": [
+        "Läs meningen högt tillsammans och stanna vid luckan. Fråga vad den andra delen gör med den första innan ni tittar på orden.",
+        "Prova fel med flit. Sätt in ”och” i en mening där ”men” ska stå och läs den högt — barnet hör oftast själv att det skaver, och just det hörandet är det som ska tränas.",
+        "Låt barnet läsa hela meningen med sitt ord i luckan. Ett bindeord känns sällan rätt förrän man hör hela meningen i ett svep.",
+        "Fortsätt utanför skärmen: säg en halv mening vid matbordet — ”Jag ville gå ut …” — och låt barnet fortsätta den fyra gånger, en gång med varje ord."
+      ],
+      "howToPlay": [
+        "Läs meningen. Ett ord fattas mitt i, där strecket står.",
+        "Fundera på vad den andra delen gör: lägger till, ger ett val, överraskar eller förklarar.",
+        "Tryck på ordet som passar och sedan på Kontrollera. Blir det fel får du en ny ledtråd och kan försöka igen."
+      ],
+      "learningGoals": [
+        "Välja rätt bindeord — och, eller, men, för — utifrån vad meningens två delar gör med varandra.",
+        "Höra skillnad på att lägga till, välja, sätta emot och förklara, och koppla varje betydelse till ett eget ord.",
+        "Skriva meningar som hänger ihop i stället för att radas upp, i linje med Lgr22 och arbetet med språkliga strukturer och normer i årskurs 1–3."
+      ]
     }
   }
 }

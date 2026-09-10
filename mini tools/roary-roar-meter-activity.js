@@ -35,14 +35,16 @@
     id: 'roary-roar-meter-activity',
 
     strings: {
-      title: { en: "Roary's Roar Meter", de: 'Roarys Brüll-Meter', fr: 'Roary et le rugissomètre', es: 'El rugidómetro de Roary', pt: 'Roary e o Rugidômetro', it: 'Il ruggitometro di Roary', nl: "Roary's brulmeter" },
-      prompt: { en: 'Find the strongest or weakest word!', de: 'Welches Wort ist am stärksten oder schwächsten?', fr: 'Quel mot est le plus fort ou le plus faible ?', es: '¿Cuál palabra es la más fuerte o la más suave?', pt: 'Ache a palavra mais forte ou mais fraca!', it: 'Trova la parola più forte o più debole!', nl: 'Zoek het sterkste of zwakste woord!' },
-      roaryIntro: { en: 'These words are alike — but how strong is each one?', de: 'Ich bin Roary! Diese Wörter sind sich ähnlich, aber manche brüllen lauter als andere. Hörst du den Unterschied?', fr: '🦁 Ces mots se ressemblent, mais l’un est plus fort !', es: '¡Soy Roary! Estas palabras se parecen, pero unas rugen más fuerte que otras. ¿Oyes la diferencia?', pt: 'Sou o Roary! Umas palavras rugem mais forte…', it: 'Sono Roary! Alcune parole ruggiscono più forte…', nl: 'Deze woorden lijken op elkaar. Hoe sterk?' },
-      askStrong: { en: 'Tap the STRONGEST word.', de: 'Tippe das STÄRKSTE Wort an.', fr: 'Touche le mot le plus fort.', es: 'Toca la palabra más fuerte.', pt: 'Toque na palavra MAIS FORTE.', it: 'Tocca la parola più FORTE.', nl: 'Tik het STERKSTE woord aan.' },
-      askWeak: { en: 'Tap the WEAKEST word.', de: 'Tippe das SCHWÄCHSTE Wort an.', fr: 'Touche le mot le plus faible.', es: 'Toca la palabra más suave.', pt: 'Toque na palavra MAIS FRACA.', it: 'Tocca la parola più DEBOLE.', nl: 'Tik het ZWAKSTE woord aan.' },
-      hintPick: { en: 'Read all three, then tap a word!', de: 'Lies alle drei Wörter. Welches passt zur Frage – das stärkste oder das schwächste?', fr: 'Lis bien les trois mots. Roary veut le plus fort ou le plus faible ?', es: 'Lee las tres palabras. ¿Cuál va con la pregunta: la más fuerte o la más suave?', pt: 'Leia as três e toque em uma palavra!', it: 'Leggi tutte e tre, poi tocca una parola!', nl: 'Lees alle drie, tik dan een woord aan!' },
-      hintWrong: { en: "Not quite — think about how strong each word feels.", de: 'Fast! Achte genau darauf, ob Roary das stärkste oder das schwächste Wort sucht. Vergleiche die drei noch einmal.', fr: 'Presque ! Regarde encore : Roary cherche-t-il le mot le plus fort ou le plus faible ? Compare les trois.', es: '¡Casi! Fíjate bien si Roary busca la palabra más fuerte o la más suave. Compara las tres otra vez.', pt: 'Quase! Pense em como cada palavra soa forte.', it: 'Quasi! Pensa a quanto è forte ogni parola.', nl: 'Bijna! Zoek het sterkste óf het zwakste woord. Vergelijk de drie nog eens.' },
-      win: { en: 'Roar! You found it. 🦁', de: 'Stark gebrüllt! Du hörst die feinen Unterschiede ganz genau. 🦁', fr: '🦁 Bravo ! Roary rugit de joie, tu as trouvé le bon mot !', es: '¡Bien rugido! Oyes muy bien las pequeñas diferencias. 🦁', pt: 'Que rugido! Você achou! 🦁', it: 'Che bel ruggito! Hai trovato la parola giusta! 🦁', nl: 'Goed gebruld! Je hoort de kleine verschillen. 🦁' }
+      title: { en: "Roary's Roar Meter", de: 'Roarys Brüll-Meter', fr: 'Roary et le rugissomètre', es: 'El rugidómetro de Roary', pt: 'Roary e o Rugidômetro', it: 'Il ruggitometro di Roary', nl: "Roary's brulmeter", sv: 'Leos ordtrappa' },
+      prompt: { en: 'Find the strongest or weakest word!', de: 'Welches Wort ist am stärksten oder schwächsten?', fr: 'Quel mot est le plus fort ou le plus faible ?', es: '¿Cuál palabra es la más fuerte o la más suave?', pt: 'Ache a palavra mais forte ou mais fraca!', it: 'Trova la parola più forte o più debole!', nl: 'Zoek het sterkste of zwakste woord!', sv: 'Starkast eller svagast? Läs frågan!' },
+      roaryIntro: { en: 'These words are alike — but how strong is each one?', de: 'Ich bin Roary! Diese Wörter sind sich ähnlich, aber manche brüllen lauter als andere. Hörst du den Unterschied?', fr: '🦁 Ces mots se ressemblent, mais l’un est plus fort !', es: '¡Soy Roary! Estas palabras se parecen, pero unas rugen más fuerte que otras. ¿Oyes la diferencia?', pt: 'Sou o Roary! Umas palavras rugem mais forte…', it: 'Sono Roary! Alcune parole ruggiscono più forte…', nl: 'Deze woorden lijken op elkaar. Hoe sterk?', sv: 'De här orden betyder nästan samma sak – men olika starkt.' },
+      instruction: { en: 'Three words that mean almost the same thing are shown. Tap the one the question asks for — the strongest or the weakest.', de: 'Drei Wörter mit fast gleicher Bedeutung werden gezeigt. Tippe das Wort an, nach dem gefragt wird – das stärkste oder das schwächste.', fr: 'Trois mots de sens proche sont affichés. Touche celui que la question demande : le plus fort ou le plus faible.', es: 'Se muestran tres palabras de significado parecido. Toca la que pide la pregunta: la más fuerte o la más suave.', pt: 'Três palavras de sentido parecido são mostradas. Toque na que a pergunta pede: a mais forte ou a mais fraca.', it: 'Vengono mostrate tre parole di significato simile. Tocca quella che chiede la domanda: la più forte o la più debole.', nl: 'Er staan drie woorden die bijna hetzelfde betekenen. Tik het woord aan waar de vraag om vraagt: het sterkste of het zwakste.', sv: 'Tre ord som betyder nästan samma sak visas. Tryck på det ord som frågan ber om – det starkaste eller det svagaste.' },
+      askStrong: { en: 'Tap the STRONGEST word.', de: 'Tippe das STÄRKSTE Wort an.', fr: 'Touche le mot le plus fort.', es: 'Toca la palabra más fuerte.', pt: 'Toque na palavra MAIS FORTE.', it: 'Tocca la parola più FORTE.', nl: 'Tik het STERKSTE woord aan.', sv: 'Tryck på det STARKASTE ordet.' },
+      askWeak: { en: 'Tap the WEAKEST word.', de: 'Tippe das SCHWÄCHSTE Wort an.', fr: 'Touche le mot le plus faible.', es: 'Toca la palabra más suave.', pt: 'Toque na palavra MAIS FRACA.', it: 'Tocca la parola più DEBOLE.', nl: 'Tik het ZWAKSTE woord aan.', sv: 'Tryck på det SVAGASTE ordet.' },
+      hintPick: { en: 'Read all three, then tap a word!', de: 'Lies alle drei Wörter. Welches passt zur Frage – das stärkste oder das schwächste?', fr: 'Lis bien les trois mots. Roary veut le plus fort ou le plus faible ?', es: 'Lee las tres palabras. ¿Cuál va con la pregunta: la más fuerte o la más suave?', pt: 'Leia as três e toque em uma palavra!', it: 'Leggi tutte e tre, poi tocca una parola!', nl: 'Lees alle drie, tik dan een woord aan!', sv: 'Läs alla tre orden och tryck sedan på ett!' },
+      hintWrongMiddle: { sv: 'Nästan! Jämför alla tre orden – vilket är starkast och vilket är svagast?' },
+      hintWrongOtherEnd: { sv: 'Nästan! Du hittade rätt ände av trappan, men frågan gällde den andra. Läs frågan igen.' },
+      hintWrong: { en: "Not quite — think about how strong each word feels.", de: 'Fast! Achte genau darauf, ob Roary das stärkste oder das schwächste Wort sucht. Vergleiche die drei noch einmal.', fr: 'Presque ! Regarde encore : Roary cherche-t-il le mot le plus fort ou le plus faible ? Compare les trois.', es: '¡Casi! Fíjate bien si Roary busca la palabra más fuerte o la más suave. Compara las tres otra vez.', pt: 'Quase! Pense em como cada palavra soa forte.', it: 'Quasi! Pensa a quanto è forte ogni parola.', nl: 'Bijna! Zoek het sterkste óf het zwakste woord. Vergelijk de drie nog eens.', sv: 'Nästan! Tänk på hur starkt varje ord känns.' }
     },
     defaults: {},
 
@@ -57,7 +59,7 @@
     },
 
     setupTask: function (round) {
-      this.round = round; this.view = Core.childView(round); this.sel = null;
+      this.round = round; this.view = Core.childView(round); this.sel = null; this._mark = null;
       this._cards = shuffle(this.view.words.slice());
     },
 
@@ -77,7 +79,8 @@
 
       var opts = api.el('div', 'rrm-opts');
       this._cards.forEach(function (o) {
-        var b = api.el('button', 'rrm-opt' + (self.sel === o.id ? ' rrm-sel' : '')); b.type = 'button'; b.setAttribute('data-id', o.id); b.setAttribute('aria-label', o.word);
+        var mk = (self._mark && self._mark.id === o.id) ? (self._mark.ok ? ' rrm-right' : ' rrm-tried') : '';
+        var b = api.el('button', 'rrm-opt' + (self.sel === o.id ? ' rrm-sel' : '') + mk); b.type = 'button'; b.setAttribute('data-id', o.id); b.setAttribute('aria-label', o.word);
         b.textContent = o.word;
         b.addEventListener('click', function () { self._tap(o.id, o.word); });
         opts.appendChild(b);
@@ -123,7 +126,9 @@
         + '.rrm-weak{color:' + C.T + ';background:#E6F2EC;}'
         + '.rrm-opts{display:flex;flex-wrap:wrap;gap:clamp(8px,2.4vw,12px);justify-content:center;}'
         + '.rrm-opt{min-width:clamp(80px,24vw,120px);min-height:52px;padding:11px 18px;border-radius:14px;border:2px solid rgba(20,107,94,.26);background:#fff;color:' + C.T + ';font:800 clamp(16px,4.4vw,21px)/1 "Baloo 2",sans-serif;cursor:pointer;box-shadow:0 2px 0 rgba(160,120,60,.16);touch-action:manipulation;}'
-        + '.rrm-opt.rrm-sel{border-color:' + C.CORAL + ';box-shadow:0 0 0 3px rgba(242,120,75,.34);background:#FFF6F1;color:' + C.CORAL2 + ';transform:translateY(-2px);}'
+        + '.rrm-opt.rrm-sel{border-color:#C8891B;box-shadow:0 0 0 3px rgba(200,137,27,.30);background:#FFF7E6;transform:translateY(-2px);}'
+        + '.rrm-opt.rrm-tried{border-color:' + C.CORAL + ';box-shadow:0 0 0 3px rgba(242,120,75,.34);background:#FFF1EA;}'
+        + '.rrm-opt.rrm-right{border-color:#2E7D5B;box-shadow:0 0 0 3px rgba(46,125,91,.30);background:#EAF7F0;}'
         + '.rrm-opt:active{transform:translateY(1px);}'
         + '.rrm-opt:focus-visible{outline:3px solid var(--lcs-focus,#1E8FD4);outline-offset:2px;}'
         + '@media (max-height:920px){.rrm-root{gap:clamp(6px,1.4vw,10px);}.rrm-lion{width:clamp(42px,8vw,50px);}.rrm-opt{min-height:50px;}}'
@@ -139,8 +144,20 @@
       return {
         id: 'roary-roar-meter.' + round.id, band: round.band || 1, promptKey: 'prompt', promptArgs: {}, answerType: 'state',
         setup: function (tool) { tool.setupTask(round); },
-        check: function (tool) { return Core.grade(round, tool.sel); },
-        hintKey: function (tool) { return tool.sel != null ? 'hintWrong' : 'hintPick'; }
+        check: function (tool) {
+          var ok = Core.grade(round, tool.sel);
+          if (tool.sel != null) { tool._mark = { id: tool.sel, ok: ok }; tool.render(); }
+          return ok;
+        },
+        hintKey: function (tool) {
+          if (tool.sel == null) return 'hintPick';
+          var ws = round.words || [], sel = ws[tool.sel];
+          if (!sel) return 'hintWrong';
+          var mid = ws.map(function (w) { return w.rank; }).sort(function (x, y) { return x - y; })[1];
+          var k = (sel.rank === mid) ? 'hintWrongMiddle' : 'hintWrongOtherEnd';
+          var s = tool.strings[k];
+          return (s && s[LANG]) ? k : 'hintWrong';
+        }
       };
     });
   }

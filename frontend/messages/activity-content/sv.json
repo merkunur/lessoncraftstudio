@@ -214,6 +214,28 @@
         "Barnet kontrollerar hur just det här verbet ser ut i dåtid i stället för att lägga till en ändelse av gammal vana"
       ]
     },
+    "roary-roar-meter.shades.l-2-5-b": {
+      "about": [
+        "Leos ordtrappa är en interaktiv övning i svenska för åk 3. Tre ord som betyder nästan samma sak visas — till exempel ljummen, varm och het — och barnet trycker på det ord som frågan ber om. Övningen körs direkt i webbläsaren på surfplatta, telefon eller dator: inget att installera, inget konto och inga förberedelser för läraren.",
+        "Aktiviteten följer Lgr22 inom ord och begrepp. Frågan växlar mellan starkast och svagast, så barnet måste läsa den varje gång — det räcker inte att lära sig ett knep. Återkopplingen säger vad som gick fel, och det finns ingen tid som tickar och inga poäng."
+      ],
+      "practices": [
+        "Jämföra ord som betyder nästan samma sak och känna skillnad på hur starka de är",
+        "Läsa frågan noga — ibland söks det starkaste ordet, ibland det svagaste",
+        "Sätta tre ord i ordning från svagast till starkast",
+        "Välja ett mer målande ord än det vanligaste, till exempel viska eller skrika i stället för prata"
+      ],
+      "howToPlay": [
+        "Barnet ser Leo och tre ord som ligger nära varandra i betydelse.",
+        "Ovanför orden står frågan: tryck på det starkaste ordet, eller på det svagaste.",
+        "Blir det fel säger Leo om barnet behöver jämföra orden en gång till eller läsa om frågan, och barnet får försöka igen så många gånger som behövs."
+      ],
+      "learningGoals": [
+        "Barnet märker att ord som betyder nästan samma sak kan vara olika starka",
+        "Barnet läser frågan innan det svarar, även när orden känns bekanta",
+        "Barnet börjar välja mer målande ord när det skriver självt"
+      ]
+    },
     "tense.past-present-future.l-1-1-e": {
       "about": [
         "Barnet ser en mening där verbet saknas — Båtarna ___ i går — och tre former att välja mellan. Överst lyser ett av tre tidsfönster: dåtid, nutid eller framtid. Juniper står bredvid och säger till när formen stämmer.",

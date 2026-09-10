@@ -36,15 +36,18 @@
     id: 'rusty-yesterday-activity',
 
     strings: {
-      title: { en: "Rusty's Yesterday Machine", de: 'Rustys Gestern-Maschine', fr: 'La machine à hier de Rusty', es: 'La máquina del ayer de Rusty', pt: 'Rusty e a Máquina de Ontem', it: 'Rusty e la macchina di ieri', nl: "Rusty's gisteren-machine" },
-      prompt: { en: 'Which word is right for yesterday?', de: 'Welches Wort passt zu gestern?', fr: 'Quel mot va avec hier ?', es: '¿Qué palabra va con ayer?', pt: 'Qual palavra é a certa para ontem?', it: 'Quale parola è giusta per ieri?', nl: 'Welk woord past bij gisteren?' },
-      rustyIntro: { en: 'My machine turns today-verbs into yesterday-verbs!', de: 'Ich bin Rusty! Meine Maschine macht aus Heute-Wörtern Gestern-Wörter. Probier es aus! 🤖', fr: '🤖 Ma machine change les mots d’aujourd’hui en mots d’hier !', es: '¡Soy Rusty! Mi máquina cambia las palabras de hoy por las de ayer. ¡Pruébala! 🤖', pt: 'Sou o Rusty! Minha máquina vira hoje em ontem. 🤖', it: 'Sono Rusty! La mia macchina trasforma oggi in ieri. 🤖', nl: 'Ik ben Rusty! Van vandaag maak ik gisteren. 🤖' },
-      todayTpl: { en: 'Today I {present}.', de: 'Heute {present} ich.', fr: 'Aujourd’hui, je {present}.', es: 'Hoy {present}.', pt: 'Hoje eu {present}.', it: 'Oggi {present}.', nl: 'Vandaag {present} ik.' },
-      yTpl: { en: 'Yesterday I …', de: 'Gestern … ich?', fr: 'Hier, j’ai …?', es: '¿Y ayer?', pt: 'E ontem?', it: 'Ieri ho …?', nl: 'Gisteren … ik?' },
-      theAsk: { en: 'Tap the word that tells about yesterday.', de: 'Tippe das Wort für gestern an.', fr: 'Touche le mot d’hier.', es: 'Toca la palabra de ayer.', pt: 'Toque na palavra que fala de ontem.', it: 'Tocca la parola che parla di ieri.', nl: 'Tik het woord voor gisteren aan.' },
-      hintPick: { en: 'Some verbs change in a tricky way — tap your pick!', de: 'Tippe ein Wort an, das zu gestern passt.', fr: 'Cherche le mot qui va avec hier.', es: 'Toca la palabra que va con ayer.', pt: 'Alguns verbos mudam de um jeito diferente — toque na sua escolha!', it: 'Alcuni verbi cambiano in modo speciale — tocca la tua scelta!', nl: 'Tik een woord aan dat bij gisteren past.' },
-      hintWrong: { en: "Not quite — yesterday's word doesn't just add -ed.", de: 'Fast! Starke Verben hängen kein „-te" an – sie ändern ihren Selbstlaut: gehe → ging.', fr: 'Oups ! Ces mots changent : « faire » devient « fait », pas « faisé ».', es: '¡Casi! Estos verbos cambian: «hago» se vuelve «hice», no «hací».', pt: 'Quase! Alguns verbos mudam bem diferente no passado — não é só juntar um final.', it: 'Quasi! Alcuni verbi cambiano nel passato: «prendere» diventa «preso», non «prenduto».', nl: 'Bijna! Sterke werkwoorden krijgen geen -te of -de. Ze veranderen de klinker: loop → liep.' },
-      win: { en: 'Beep boop — that is yesterday’s word! 🤖', de: 'Stark gemacht! Die Maschine hat es geschafft. 🤖', fr: '🤖 Bravo ! Ta machine à voyager dans le temps marche super bien !', es: '¡Muy bien! La máquina lo logró. 🤖', pt: 'Bip bop — essa é a palavra de ontem! 🤖', it: 'Bip bop — questa è la parola di ieri! 🤖', nl: 'Sterk gedaan! De machine is gelukt. 🤖' }
+      title: { en: "Rusty's Yesterday Machine", de: 'Rustys Gestern-Maschine', fr: 'La machine à hier de Rusty', es: 'La máquina del ayer de Rusty', pt: 'Rusty e a Máquina de Ontem', it: 'Rusty e la macchina di ieri', nl: "Rusty's gisteren-machine", sv: 'Murklas ordsluss' },
+      prompt: { en: 'Which word is right for yesterday?', de: 'Welches Wort passt zu gestern?', fr: 'Quel mot va avec hier ?', es: '¿Qué palabra va con ayer?', pt: 'Qual palavra é a certa para ontem?', it: 'Quale parola è giusta per ieri?', nl: 'Welk woord past bij gisteren?', sv: 'Vilket ord står i dåtid?' },
+      rustyIntro: { en: 'My machine turns today-verbs into yesterday-verbs!', de: 'Ich bin Rusty! Meine Maschine macht aus Heute-Wörtern Gestern-Wörter. Probier es aus! 🤖', fr: '🤖 Ma machine change les mots d’aujourd’hui en mots d’hier !', es: '¡Soy Rusty! Mi máquina cambia las palabras de hoy por las de ayer. ¡Pruébala! 🤖', pt: 'Sou o Rusty! Minha máquina vira hoje em ontem. 🤖', it: 'Sono Rusty! La mia macchina trasforma oggi in ieri. 🤖', nl: 'Ik ben Rusty! Van vandaag maak ik gisteren. 🤖', sv: 'Min sluss gör om nutid till dåtid!' },
+      todayTpl: { en: 'Today I {present}.', de: 'Heute {present} ich.', fr: 'Aujourd’hui, je {present}.', es: 'Hoy {present}.', pt: 'Hoje eu {present}.', it: 'Oggi {present}.', nl: 'Vandaag {present} ik.', sv: 'I dag {present} jag.' },
+      yTpl: { en: 'Yesterday I …', de: 'Gestern … ich?', fr: 'Hier, j’ai …?', es: '¿Y ayer?', pt: 'E ontem?', it: 'Ieri ho …?', nl: 'Gisteren … ik?', sv: 'I går ___ jag.' },
+      theAsk: { en: 'Tap the word that tells about yesterday.', de: 'Tippe das Wort für gestern an.', fr: 'Touche le mot d’hier.', es: 'Toca la palabra de ayer.', pt: 'Toque na palavra que fala de ontem.', it: 'Tocca la parola che parla di ieri.', nl: 'Tik het woord voor gisteren aan.', sv: 'Tryck på ett ord. Bara ett är rätt.' },
+      instruction: { en: 'Tap the word that tells about yesterday.', de: 'Tippe das Wort für gestern an.', fr: 'Touche le mot d’hier.', es: 'Toca la palabra de ayer.', pt: 'Toque na palavra que fala de ontem.', it: 'Tocca la parola che parla di ieri.', nl: 'Tik het woord voor gisteren aan.', sv: 'Tryck på ett ord. Bara ett är rätt.' },
+      hintPick: { en: 'Some verbs change in a tricky way — tap your pick!', de: 'Tippe ein Wort an, das zu gestern passt.', fr: 'Cherche le mot qui va avec hier.', es: 'Toca la palabra que va con ayer.', pt: 'Alguns verbos mudam de um jeito diferente — toque na sua escolha!', it: 'Alcuni verbi cambiano in modo speciale — tocca la tua scelta!', nl: 'Tik een woord aan dat bij gisteren past.', sv: 'Vissa verb får en ändelse, andra ändrar sig.' },
+      hintWrong: { en: "Not quite — yesterday's word doesn't just add -ed.", de: 'Fast! Starke Verben hängen kein „-te" an – sie ändern ihren Selbstlaut: gehe → ging.', fr: 'Oups ! Ces mots changent : « faire » devient « fait », pas « faisé ».', es: '¡Casi! Estos verbos cambian: «hago» se vuelve «hice», no «hací».', pt: 'Quase! Alguns verbos mudam bem diferente no passado — não é só juntar um final.', it: 'Quasi! Alcuni verbi cambiano nel passato: «prendere» diventa «preso», non «prenduto».', nl: 'Bijna! Sterke werkwoorden krijgen geen -te of -de. Ze veranderen de klinker: loop → liep.', sv: 'Nästan! Det är inte det ordet vi skriver i dåtid.' },
+      hintWrongHar: { sv: 'Nära! Det där är har-ordet. Det behöver ”har” eller ”hade” framför sig. När vi skriver i dåtid använder vi ordet som klarar sig ensamt.' },
+      hintWrongFake: { sv: 'Nästan! Det ordet finns inte i svenskan. Verb gör olika i dåtid: en del får en ändelse, andra ändrar sig i stället.' },
+      hintWrongAtt: { sv: 'Nästan! Det där är att-ordet – ordet vi sätter efter ”att” och ”ska”. När vi skriver i dåtid behöver vi ett annat ord.' }
     },
     defaults: {},
 
@@ -59,7 +62,7 @@
     },
 
     setupTask: function (round) {
-      this.round = round; this.view = Core.childView(round); this.sel = null; this._spoke = false;
+      this.round = round; this.view = Core.childView(round); this.sel = null; this._spoke = false; this._mark = null;
       this._cards = shuffle(this.view.choices.slice());
     },
 
@@ -76,7 +79,17 @@
 
       var panel = api.el('button', 'ryd-panel'); panel.type = 'button'; panel.setAttribute('aria-label', LANG === 'de' ? 'Satz anhören' : LANG === 'fr' ? 'écouter la phrase' : LANG === 'es' ? 'escuchar la oración' : LANG === 'pt' ? 'ouvir a frase' : LANG === 'it' ? 'ascolta la frase' : LANG === 'nl' ? 'de zin beluisteren' : 'hear the sentence');
       var today = api.el('div', 'ryd-today'); today.innerHTML = api.t('todayTpl').replace('{present}', '<b>' + esc(v.present) + '</b>'); panel.appendChild(today);
-      var yest = api.el('div', 'ryd-yest'); yest.textContent = api.t('yTpl'); panel.appendChild(yest);
+      /* ⭐ THE PAYOFF IS READING THE SENTENCE WHOLE. Until sv #33 the gap stayed a gap
+         even after a correct Check, so the child never once saw the finished Swedish
+         sentence they had just built — the identical defect the visual critic caught on
+         sv #31, where my driver had asserted the OPPOSITE. Filled ONLY when the locale's
+         template actually carries a slot: es «¿Y ayer?» and pt «E ontem?» have none, and
+         appending to them would produce nonsense, so they are left exactly as shipped. */
+      var yest = api.el('div', 'ryd-yest'); var yTxt = api.t('yTpl');
+      if (this._mark && this._mark.ok && /___|…/.test(yTxt)) {
+        yest.innerHTML = esc(yTxt).replace(/___|…/, '<b class="ryd-fill">' + esc(this.round.correct) + '</b>');
+      } else { yest.textContent = yTxt; }
+      panel.appendChild(yest);
       panel.addEventListener('click', function () { speak(api.t('todayTpl').replace('{present}', v.present) + ' ' + api.t('yTpl')); });
       root.appendChild(panel);
 
@@ -84,7 +97,8 @@
 
       var opts = api.el('div', 'ryd-opts');
       this._cards.forEach(function (o) {
-        var b = api.el('button', 'ryd-opt' + (self.sel === o.id ? ' ryd-sel' : '')); b.type = 'button'; b.setAttribute('data-id', o.id); b.setAttribute('aria-label', o.word);
+        var mk = (self._mark && self._mark.id === o.id) ? (self._mark.ok ? ' ryd-right' : ' ryd-tried') : '';
+        var b = api.el('button', 'ryd-opt' + (self.sel === o.id ? ' ryd-sel' : '') + mk); b.type = 'button'; b.setAttribute('data-id', o.id); b.setAttribute('aria-label', o.word);
         b.textContent = o.word;
         b.addEventListener('click', function () { self._tap(o.id, o.word); });
         opts.appendChild(b);
@@ -96,6 +110,7 @@
     },
 
     _tap: function (id, word) {
+      this._mark = null;
       if (this.sel === id) { this.sel = null; this.render(); return; }
       this.sel = id; this.api.sound && this.api.sound(540); speak(word); this.render();
     },
@@ -130,10 +145,13 @@
         + '.ryd-today{font:700 clamp(15px,4vw,19px)/1.2 "Nunito",sans-serif;color:' + C.INK + ';}'
         + '.ryd-today b{color:' + C.T + ';}'
         + '.ryd-yest{font:800 clamp(15px,4vw,19px)/1.2 "Baloo 2",sans-serif;color:' + C.CORAL2 + ';}'
-        + '.ryd-ask{text-align:center;font:800 clamp(11.5px,2.9vw,13.5px)/1.2 "Baloo 2",sans-serif;color:' + C.CORAL2 + ';}'
+        + '.ryd-ask{text-align:center;font:800 clamp(11.5px,2.9vw,13.5px)/1.2 "Baloo 2",sans-serif;color:' + C.INK + ';}'
         + '.ryd-opts{display:flex;flex-wrap:wrap;gap:clamp(8px,2.4vw,12px);justify-content:center;}'
         + '.ryd-opt{min-width:clamp(82px,25vw,124px);min-height:52px;padding:11px 18px;border-radius:14px;border:2px solid rgba(20,107,94,.26);background:#fff;color:' + C.INK + ';font:800 clamp(16px,4.4vw,21px)/1 "Baloo 2",sans-serif;cursor:pointer;box-shadow:0 2px 0 rgba(160,120,60,.16);touch-action:manipulation;}'
-        + '.ryd-opt.ryd-sel{border-color:' + C.CORAL + ';box-shadow:0 0 0 3px rgba(242,120,75,.34);background:#FFF6F1;color:' + C.CORAL2 + ';transform:translateY(-2px);}'
+        + '.ryd-opt.ryd-sel{border-color:#C8891B;box-shadow:0 0 0 3px rgba(200,137,27,.30);background:#FFF7E6;transform:translateY(-2px);}'
+        + '.ryd-opt.ryd-tried{border-color:' + C.CORAL + ';box-shadow:0 0 0 3px rgba(242,120,75,.34);background:#FFF1EA;}'
+        + '.ryd-fill{color:#2E7D5B;}'
+        + '.ryd-opt.ryd-right{border-color:#2E7D5B;box-shadow:0 0 0 3px rgba(46,125,91,.30);background:#EAF7F0;}'
         + '.ryd-opt:active{transform:translateY(1px);}'
         + '.ryd-panel:focus-visible,.ryd-opt:focus-visible{outline:3px solid var(--lcs-focus,#1E8FD4);outline-offset:2px;}'
         + '@media (max-height:920px){.ryd-root{gap:clamp(5px,1.4vw,10px);}.ryd-bot{width:clamp(42px,8vw,52px);}.ryd-opt{min-height:50px;}}'
@@ -149,8 +167,18 @@
       return {
         id: 'rusty-yesterday.' + round.id, band: round.band || 1, promptKey: 'prompt', promptArgs: {}, answerType: 'state',
         setup: function (tool) { tool.setupTask(round); },
-        check: function (tool) { return Core.grade(round, tool.sel); },
-        hintKey: function (tool) { return tool.sel != null ? 'hintWrong' : 'hintPick'; }
+        check: function (tool) {
+          var ok = Core.grade(round, tool.sel);
+          if (tool.sel != null) { tool._mark = { id: tool.sel, ok: ok }; tool.render(); }
+          return ok;
+        },
+        hintKey: function (tool) {
+          if (tool.sel == null) return 'hintPick';
+          var c = (round.choices || [])[tool.sel] || {};
+          var k = { har: 'hintWrongHar', fake: 'hintWrongFake', att: 'hintWrongAtt' }[c.cls];
+          var s = k && tool.strings[k];
+          return (s && s[LANG]) ? k : 'hintWrong';
+        }
       };
     });
   }

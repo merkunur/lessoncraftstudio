@@ -464,6 +464,16 @@
           { "id": "zwemmen", "band": 2, "present": "zwem", "correct": "zwom", "choices": [ { "word": "zwom" }, { "word": "zwem" }, { "word": "zwemde" } ] },
           { "id": "lezen", "band": 3, "present": "lees", "correct": "las", "choices": [ { "word": "las" }, { "word": "lees" }, { "word": "leesde" } ] },
           { "id": "vliegen", "band": 3, "present": "vlieg", "correct": "vloog", "choices": [ { "word": "vloog" }, { "word": "vlieg" }, { "word": "vliegde" } ] }
+        ],
+        "sv": [
+          { "id": "mala", "band": 1, "present": "målar", "correct": "målade", "choices": [ { "word": "målat", "cls": "har" }, { "word": "målade" }, { "word": "måla", "cls": "att" } ] },
+          { "id": "springa", "band": 1, "present": "springer", "correct": "sprang", "choices": [ { "word": "sprungit", "cls": "har" }, { "word": "springa", "cls": "att" }, { "word": "sprang" } ] },
+          { "id": "leka", "band": 1, "present": "leker", "correct": "lekte", "choices": [ { "word": "lekte" }, { "word": "lekt", "cls": "har" }, { "word": "lekade", "cls": "fake" } ] },
+          { "id": "bygga", "band": 2, "present": "bygger", "correct": "byggde", "choices": [ { "word": "byggt", "cls": "har" }, { "word": "byggte", "cls": "fake" }, { "word": "byggde" } ] },
+          { "id": "komma", "band": 2, "present": "kommer", "correct": "kom", "choices": [ { "word": "kommit", "cls": "har" }, { "word": "kom" }, { "word": "komma", "cls": "att" } ] },
+          { "id": "lasa", "band": 2, "present": "läser", "correct": "läste", "choices": [ { "word": "läsa", "cls": "att" }, { "word": "läste" }, { "word": "läst", "cls": "har" } ] },
+          { "id": "ata", "band": 3, "present": "äter", "correct": "åt", "choices": [ { "word": "ätit", "cls": "har" }, { "word": "ätade", "cls": "fake" }, { "word": "åt" } ] },
+          { "id": "ga", "band": 3, "present": "går", "correct": "gick", "choices": [ { "word": "gick" }, { "word": "gått", "cls": "har" }, { "word": "gådde", "cls": "fake" } ] }
         ]
       }
     },
@@ -475,7 +485,8 @@
       "es": "preterito-verbos-irregulares-pasado-3-primaria",
       "pt": "verbos-irregulares-preterito-perfeito-passado-3-ano",
       "it": "verbi-irregolari-passato-classe-terza",
-      "nl": "sterke-werkwoorden-verleden-tijd-oefenen-groep-5"
+      "nl": "sterke-werkwoorden-verleden-tijd-oefenen-groep-5",
+      "sv": "verb-i-datid-malade-sprang-gick-ak-3"
     },
     "page_title": {
       "en": "Rusty's Yesterday Machine — Irregular Past-Tense Verbs (Grade 2)",
@@ -484,7 +495,8 @@
       "es": "Rusty y la máquina del tiempo: verbos irregulares en pretérito (3.º primaria)",
       "pt": "Verbos irregulares no passado com o Rusty | 3º ano",
       "it": "Rusty e la macchina di ieri: i verbi irregolari al passato (classe terza)",
-      "nl": "Rusty's gisteren-machine – Sterke werkwoorden in de verleden tijd oefenen (groep 5)"
+      "nl": "Rusty's gisteren-machine – Sterke werkwoorden in de verleden tijd oefenen (groep 5)",
+      "sv": "Verb i dåtid – målade, sprang, gick (åk 3)"
     },
     "page_intro": {
       "en": "Rusty the robot's machine turns today's verbs into yesterday's! Some verbs are tricky — they don't just add -ed. Today I go, but yesterday I went (not 'goed'). Read the verb, then tap the right way to say it about yesterday. A Grade 2 grammar game about irregular past-tense verbs, aligned to Common Core L.2.1.d.",
@@ -493,7 +505,8 @@
       "es": "Rusty el robot enciende su máquina del tiempo para viajar de «hoy» a «ayer»: tu hijo toca el pretérito correcto de los verbos irregulares. Interactivo para 3.º de primaria, alineado a los Planes y programas de estudio (SEP).",
       "pt": "Com o Rusty e a máquina de ontem, a criança do 3º ano lê a frase no presente e toca na forma certa do passado: verbos irregulares no pretérito perfeito.",
       "it": "Rusty il robot ha costruito una macchina speciale: da una parte entra un verbo di «oggi» e dall'altra esce come era «ieri». Il bambino legge la frase al presente — «Oggi prendo una mela» — e tocca la forma giusta del passato prossimo: «ho preso», non «ho prenduto». Un modo divertente per imparare i verbi irregolari e per non cadere nell'errore più comune. È: nessuna registrazione, nessun punteggio, nessuna gara — si gioca direttamente dal browser. Pensata per la classe terza e allineata alle Indicazioni nazionali.",
-      "nl": "Help Rusty de robot met zijn gisteren-machine om de juiste verleden tijd van sterke (onregelmatige) werkwoorden te vinden: lopen wordt liep, niet 'loopte' – de klinker verandert. Interactief oefenen voor groep 5, aansluitend bij de SLO-kerndoelen Nederlands."
+      "nl": "Help Rusty de robot met zijn gisteren-machine om de juiste verleden tijd van sterke (onregelmatige) werkwoorden te vinden: lopen wordt liep, niet 'loopte' – de klinker verandert. Interactief oefenen voor groep 5, aansluitend bij de SLO-kerndoelen Nederlands.",
+      "sv": "Murklas ordsluss tar ett verb i nutid och släpper ut det i dåtid. Barnet läser meningen «I dag målar jag.» och trycker sedan på ordet som står i dåtid: målade — inte målat och inte måla. Vissa verb får en ändelse, andra ändrar sig i stället: springer blir sprang, äter blir åt. En interaktiv grammatikövning för åk 3 om verb i dåtid, kopplad till Lgr22."
     },
     "kid_prompt_template": "Yesterday — which word is right?"
   }

@@ -2,6 +2,12 @@
 #
 # LessonCraftStudio Deck Asset-Tree Backup Script
 # ================================================
+# ⚠ RETIRED 2026-09-11 (manual use only; cron line removed). The same-host tarball
+# sat on the SAME disk as the data it protected and cost 67-134 GB of production
+# disk. The off-host backup is now the PC pulling the tree over SSH every Sunday:
+# scripts/ops/pull-deck-backup.sh (Task Scheduler "LCS deck backup pull"). See
+# docs/ops/server-access.md "Deck backup" and CLAUDE.md §A.14.6.
+#
 # Creates timestamped backups of the published deck asset-tree at
 # /var/www/lcs-media/decks/. Closes the URGENT backup-gap finding from
 # Scaling Arc 3 audit-report (commit 9850df93 / docs/scaling-arc-3-asset-tree-audit-2026-05-05.md).

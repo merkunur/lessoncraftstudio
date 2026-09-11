@@ -363,6 +363,24 @@ for V in LEMONSQUEEZY_WEBHOOK_SECRET LEMONSQUEEZY_API_KEY LEMONSQUEEZY_STORE_ID;
 done
 echo "✅ Payment env present (webhook secret + API key + store id)"
 
+# Disk-space guard (added 2026-09-11 after the disk audit). A Next build writes several GB
+# (.next/cache alone is ~2.6 GB) and the 2026-06-16 full disk crashed Postgres. Abort well
+# before that; warn early so the weekly housekeeping/backup trend is visible at every deploy.
+# Override the floor for a genuine emergency deploy: DEPLOY_MIN_FREE_GB=5 bash deploy.sh
+DEPLOY_MIN_FREE_GB="${DEPLOY_MIN_FREE_GB:-20}"
+DEPLOY_WARN_FREE_GB="${DEPLOY_WARN_FREE_GB:-60}"
+FREE_GB=$(df --output=avail -BG / | tail -1 | tr -dc '0-9')
+echo "💽 Disk guard: ${FREE_GB} GB free on / (abort < ${DEPLOY_MIN_FREE_GB}, warn < ${DEPLOY_WARN_FREE_GB})"
+if [ "${FREE_GB:-0}" -lt "$DEPLOY_MIN_FREE_GB" ]; then
+    echo ""
+    echo "⛔ FATAL: only ${FREE_GB} GB free — a build needs headroom and a full disk takes Postgres down."
+    echo "   Run server-scripts/housekeeping.sh, check /opt/lessoncraftstudio/backups, then redeploy."
+    echo ""
+    exit 1
+elif [ "${FREE_GB:-0}" -lt "$DEPLOY_WARN_FREE_GB" ]; then
+    echo "⚠️  WARNING: ${FREE_GB} GB free is below the ${DEPLOY_WARN_FREE_GB} GB comfort line — see CLAUDE.md §A.14.12"
+fi
+
 echo ""
 echo "🧹 Cleaning stale build output to force full regeneration..."
 echo "   (safe while live: the running server serves releases/current/, not .next/)"
@@ -496,14 +514,19 @@ KEEP_RELEASES=3
 CURRENT_TARGET="$(readlink -f releases/current 2>/dev/null || true)"
 PRUNED=0
 KEPT=0
+RETIRED_CACHE=0
 for rel in $(ls -1dt releases/*/ 2>/dev/null); do
   rel="${rel%/}"
   [ "$(basename "$rel")" = "current" ] && continue
   if [ "$(readlink -f "$rel")" = "$CURRENT_TARGET" ]; then KEPT=$((KEPT+1)); continue; fi
   KEPT=$((KEPT+1))
-  if [ "$KEPT" -gt "$KEEP_RELEASES" ]; then rm -rf "$rel"; PRUNED=$((PRUNED+1)); fi
+  if [ "$KEPT" -gt "$KEEP_RELEASES" ]; then rm -rf "$rel"; PRUNED=$((PRUNED+1)); continue; fi
+  # A RETIRED release keeps the image-optimizer cache it grew while it was live
+  # (.next/cache/images — 3.1 GB in 8 days, measured 2026-09-11). Rollback to it still
+  # works; the cache regrows. Never touch the current release (compared by realpath above).
+  if [ -d "$rel/.next/cache/images" ]; then rm -rf "$rel/.next/cache/images"; RETIRED_CACHE=$((RETIRED_CACHE+1)); fi
 done
-echo "🧹 Release pruning: kept $((KEPT - PRUNED)), pruned ${PRUNED}"
+echo "🧹 Release pruning: kept $((KEPT - PRUNED)), pruned ${PRUNED}, retired image caches emptied ${RETIRED_CACHE}"
 
 # 8b. Cleanup legacy pre-releases-model dirs if still present
 rm -rf .next-old

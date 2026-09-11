@@ -93,13 +93,13 @@ echo "   File: $BACKUP_FILE"
 echo "   Size: $BACKUP_SIZE ($BACKUP_BYTES bytes)"
 echo ""
 
-# Final retention: keep last 2 (reduced from 3 — at ~78 GB/tarball, 3 overflowed the
+# Final retention: keep last 1 (reduced from 2 on 2026-09-11 — the prune-before-create step already leaves exactly one prior tarball during tar, so a second copy never widened the safe window; it only parked ~67 GB; previously reduced from 3 — at ~78 GB/tarball, 3 overflowed the
 # 436 GB volume). Combined with the prune-before-create guard above, steady state = 2.
-echo "🧹 Final retention: keeping last 2 deck backups..."
+echo "🧹 Final retention: keeping last 1 deck backup..."
 BACKUP_COUNT=$(ls -t $BACKUP_DIR/decks_*.tar.gz 2>/dev/null | wc -l)
-if [ "$BACKUP_COUNT" -gt 2 ]; then
-    ls -t $BACKUP_DIR/decks_*.tar.gz | tail -n +3 | xargs -r rm -v
-    echo "   Removed $(($BACKUP_COUNT - 2)) old backup(s)"
+if [ "$BACKUP_COUNT" -gt 1 ]; then
+    ls -t $BACKUP_DIR/decks_*.tar.gz | tail -n +2 | xargs -r rm -v
+    echo "   Removed $(($BACKUP_COUNT - 1)) old backup(s)"
 else
     echo "   No old backups to remove"
 fi

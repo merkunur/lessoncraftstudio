@@ -74,3 +74,24 @@ Two things live outside git on the server. If the box is ever rebuilt, reinstall
 Also hand-set the same day: `journald` `SystemMaxUse=300M` (`/etc/systemd/journald.conf`).
 The one-shot backlog cleanup that preceded these is `/root/lcs-disk-cleanup-2026-09-11.sh`
 (dry-run by default, `--apply` to run); `deploy.sh` now refuses to build below 20 GB free.
+
+## Deck backup — the PC pulls it (2026-09-11)
+
+**No deck tarball lives on the server any more.** Every Sunday 03:00 (local) the PC's Task Scheduler job
+`LCS deck backup pull` runs `scripts/ops/pull-deck-backup.sh` (Git Bash), which streams
+`tar -czf - decks` over SSH straight into `C:Userskgenlcs-backupsdecks_<UTC>.tar.gz` (~40 GB,
+~75 min at the measured 9 MB/s), verifies it (`gzip -t` + full listing + deck.html count vs the
+server's live count), keeps the newest 4, and copies the newest `db_*.sql.gz` + `studio_*.tar.gz`
+alongside. Log: `C:Userskgenlcs-backupspull.log`. Re-register the task with
+`powershell -ExecutionPolicy Bypass -File scriptsopsinstall-pull-deck-backup-task.ps1`.
+`backup-decks.sh` on the server is retired (manual use only; its cron line and the broken
+`backup-samples.sh` line were removed — the samples dir has been empty since the seller-era teardown).
+
+**Restore** (a lost deck tree; the DB rows are in the daily `db_*.sql.gz`):
+```
+scp -i %USERPROFILE%/.ssh/id_ed25519 C:Userskgenlcs-backupsdecks_<stamp>.tar.gz root@65.108.5.250:/tmp/
+ssh -i %USERPROFILE%/.ssh/id_ed25519 root@65.108.5.250 "tar -xzf /tmp/decks_<stamp>.tar.gz -C /var/www/lcs-media/ && chown -R lcs-media:lcs-media /var/www/lcs-media/decks && rm /tmp/decks_<stamp>.tar.gz && find /var/www/lcs-media/decks -maxdepth 2 -xtype l | wc -l"
+```
+(The last command counts dangling symlinks — expect 0 or 1; the archive preserves the `<slug> → <slug>-vN`
+symlinks.) A single deck can be pulled out with `tar -xzf … decks/<locale>/<slug>-vN`. The archive
+excludes `deck.html.bak.*` retrofit copies and `.pre-mode-rewrite-*` snapshots on purpose.

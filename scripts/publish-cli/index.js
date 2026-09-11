@@ -62,7 +62,8 @@ var SCHEMAS = {
       '--confirm': 'bool',
       '--updates-manifest': 'value',
       '--batch-id': 'value',
-      '--staging-dir': 'value'
+      '--staging-dir': 'value',
+      '--keep-staging': 'bool'
     }
   },
   'unpublish': {
@@ -390,7 +391,8 @@ async function publishBulkCmd(parsed) {
       publish: publishMod.publish,
       findExistingBySlug: db.findExistingBySlug,
       resolveLanguage: resolveLanguageFromZip,
-      confirm: true
+      confirm: true,
+      keepStaging: !!parsed.flags['--keep-staging']
     });
 
     if (real.abortReason) {
@@ -411,6 +413,12 @@ async function publishBulkCmd(parsed) {
     console.log('  ' + path.join(real.stagingDir, '_summary.txt'));
     if (failed > 0) {
       console.log('  ' + path.join(real.stagingDir, '_failures/'));
+    }
+    if (real.staging) {
+      console.log('[bulk publish] Staging pruned: ' + real.staging.removed + ' extraction dir(s), ' +
+        (real.staging.bytes / 1048576).toFixed(0) + ' MB freed; reports kept (' + real.staging.kept + '). --keep-staging to retain.');
+    } else {
+      console.log('[bulk publish] Staging kept (--keep-staging): ' + real.stagingDir);
     }
     await db.disconnect();
     process.exit(failed > 0 ? 1 : 0);

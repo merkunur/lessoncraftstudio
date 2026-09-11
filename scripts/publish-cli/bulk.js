@@ -620,6 +620,37 @@ async function dryRunBatch(opts) {
 }
 
 /**
+ * Remove the per-deck extraction dirs (<stagingDir>/<deck_id>/ — manifest.json,
+ * deck.html, deck.html.diff, substitution-report.json) once a REAL publish has
+ * completed. The real publish reads from the input ZIP, never from these dirs;
+ * they exist only for dry-run inspection. Left in place they accumulate ~2.4 MB
+ * per deck forever (13 GB / 123 batches measured 2026-09-11). The `_*.txt`
+ * reports and `_failures/` are kept — they are the batch's audit trail.
+ *
+ * Returns { removed, kept, bytes } for the caller's summary line.
+ */
+function pruneStagingExtractions(stagingDir) {
+  var removed = 0, kept = 0, bytes = 0;
+  if (!fs.existsSync(stagingDir)) return { removed: 0, kept: 0, bytes: 0 };
+  var entries = fs.readdirSync(stagingDir);
+  for (var i = 0; i < entries.length; i++) {
+    var name = entries[i];
+    var full = path.join(stagingDir, name);
+    var st = fs.lstatSync(full);
+    // Keep reports (_summary.txt, _results.txt, _collisions.txt, _errors.txt,
+    // _reconciliation.txt) and the _failures/ stderr dir — anything underscore-prefixed.
+    if (name.charAt(0) === '_' || !st.isDirectory()) { kept++; continue; }
+    var files = fs.readdirSync(full);
+    for (var j = 0; j < files.length; j++) {
+      try { bytes += fs.statSync(path.join(full, files[j])).size; } catch (e) { /* best-effort size */ }
+    }
+    fs.rmSync(full, { recursive: true, force: true });
+    removed++;
+  }
+  return { removed: removed, kept: kept, bytes: bytes };
+}
+
+/**
  * Write _results.txt + _failures/<zip>.stderr for real-publish outcomes.
  */
 function writeRealResults(stagingDir, outcomes, ctx) {
@@ -699,8 +730,10 @@ function writeRealResults(stagingDir, outcomes, ctx) {
  *   findExistingBySlug  — async (language, slug) → row | null, injected from db.js
  *   resolveLanguage     — async (zipPath) → language string
  *   confirm             — must be true (caller verified --confirm)
+ *   keepStaging         — optional; true leaves the per-deck extraction dirs in place
+ *                         (default false: pruneStagingExtractions runs after the results are written)
  *
- * Returns { batchId, stagingDir, outcomes, abortReason }.
+ * Returns { batchId, stagingDir, outcomes, abortReason, staging: {removed, kept, bytes}|null }.
  */
 async function publishBatch(opts) {
   if (!opts.confirm) {
@@ -800,7 +833,11 @@ async function publishBatch(opts) {
 
   writeRealResults(dry.stagingDir, outcomes, ctx);
 
-  return { batchId: dry.batchId, stagingDir: dry.stagingDir, outcomes: outcomes, abortReason: null };
+  // The extraction dirs were the pre-flight dry-run's inspection material; the
+  // publish above read every deck from its input ZIP. Drop them unless asked not to.
+  var staging = opts.keepStaging ? null : pruneStagingExtractions(dry.stagingDir);
+
+  return { batchId: dry.batchId, stagingDir: dry.stagingDir, outcomes: outcomes, abortReason: null, staging: staging };
 }
 
 module.exports = {
@@ -810,5 +847,6 @@ module.exports = {
   dryRunBatch: dryRunBatch,
   publishBatch: publishBatch,
   writeBatchArtifacts: writeBatchArtifacts,
-  writeRealResults: writeRealResults
+  writeRealResults: writeRealResults,
+  pruneStagingExtractions: pruneStagingExtractions
 };

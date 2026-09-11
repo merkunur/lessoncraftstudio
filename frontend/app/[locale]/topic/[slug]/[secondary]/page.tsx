@@ -308,6 +308,10 @@ async function getIntersectionProse(locale: string, axisKey1: string, axisKey2: 
   try {
     const tp = await getTranslations({ locale, namespace: 'topicProse' });
     const sorted = [axisKey1, axisKey2].sort().join('__');
+    // Probe with has() first: next-intl 4 logs a full MISSING_MESSAGE stack for
+    // every t() miss, and this runs for every unauthored pair a crawler hits
+    // (measured 2026-09-11: ~38k traces/hour, 60 MB/h of pm2 log).
+    if (!tp.has(sorted)) return null;
     const v = tp(sorted);
     // Reject both next-intl miss forms — bare-key + namespaced-path.
     if (!v || v === sorted || v === 'topicProse.' + sorted) return null;
@@ -330,6 +334,7 @@ async function getIntersectionMeta(locale: string, axisKey1: string, axisKey2: s
   try {
     const tm = await getTranslations({ locale, namespace: 'topicMeta' });
     const sorted = [axisKey1, axisKey2].sort().join('__');
+    if (!tm.has(sorted)) return null; // has() first — see resolveIntersectionProse (MISSING_MESSAGE trace per miss)
     const v = tm(sorted);
     if (!v || v === sorted || v === 'topicMeta.' + sorted) return null;
     return v;

@@ -205,6 +205,10 @@ async function getTopicProse(locale: string, axisKey: string): Promise<string | 
   if (ovProse && ovProse.trim()) return ovProse;
   try {
     const tp = await getTranslations({ locale, namespace: 'topicProse' });
+    // Probe with has() first: next-intl 4 logs a full MISSING_MESSAGE stack for
+    // every t() miss, and the topic/sitemap routes probe thousands of unauthored
+    // keys per fetch (measured 2026-09-11: ~38k traces/hour, 60 MB/h of pm2 log).
+    if (!tp.has(axisKey)) return null;
     const v = tp(axisKey);
     // next-intl returns the key itself OR the namespaced path on missing key.
     // Both forms must be treated as "no prose" — without the namespaced check
@@ -229,6 +233,7 @@ async function getTopicMeta(locale: string, axisKey: string): Promise<string | n
   if (ovMeta && ovMeta.trim()) return ovMeta;
   try {
     const tm = await getTranslations({ locale, namespace: 'topicMeta' });
+    if (!tm.has(axisKey)) return null; // has() first — see getTopicProse (MISSING_MESSAGE trace per miss)
     const v = tm(axisKey);
     // Defensive against both missing-key return forms from next-intl. See
     // getTopicProse comment for why both checks matter.

@@ -162,21 +162,12 @@ function poison() {
    skipcount 1 = 37). The nl edits added NO `font:` shorthand — only text strings —
    so this is a pure line-move; the underlying shorthands remain accepted debt
    awaiting the longhand fix arc. */
-const KNOWN = new Set([
-  'affix-activity.js:180', 'bramble-activity.js:295', 'compound-meaning-activity.js:159',
-  'compound-meaning-activity.js:164', 'compound-meaning-activity.js:165', 'compound-meaning-activity.js:173',
-  'compound-meaning-activity.js:177', 'compound-meaning-activity.js:187', 'field-guide-activity.js:179',
-  'field-guide-activity.js:184', 'graph-it-activity.js:324', 'graph-it-activity.js:328',
-  'halfway-harbors-activity.js:218', 'halfway-harbors-activity.js:223', 'line-plot-activity.js:173',
-  'maple-bakery-activity.js:191', 'mending-fences-activity.js:398', 'mending-fences-activity.js:416',
-  'mending-fences-activity.js:424', 'opposites-activity.js:342', 'opposites-activity.js:343',
-  'opposites-activity.js:361', 'opposites-activity.js:362', 'opposites-activity.js:365',
-  'opposites-activity.js:373', 'opposites-activity.js:376', 'patchwork-meadow-activity.js:273',
-  'patchwork-meadow-activity.js:279', 'point-of-view-activity.js:189', 'rhyme-shop-activity.js:180',
-  'rhyme-shop-activity.js:181', 'rhyme-shop-activity.js:200', 'rhyme-shop-activity.js:204',
-  'shades-activity.js:113', 'shades-activity.js:117', 'shades-activity.js:121',
-  'skipcount-activity.js:204'
-]);
+/* Ratchet shrunk 37 -> 0 on 2026-09-11: every one of the 37 declarations was
+   FIXED (family quoted) in bc9134f1, which also introduced the sibling gate
+   audit-css-font-shorthand.js. The gate measured 0 offenders on disk and 37 stale
+   entries; per its own rule ("if they were FIXED, delete them from KNOWN") the
+   set is now empty and may never grow again. */
+const KNOWN = new Set([]);
 
 const hits = scan();
 if (JSONOUT) { console.log(JSON.stringify(hits, null, 1)); process.exit(0); }

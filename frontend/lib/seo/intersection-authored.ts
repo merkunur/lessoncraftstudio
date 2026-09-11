@@ -32,6 +32,10 @@ export async function intersectionIsAuthored(
   for (const ns of ['topicProse', 'topicMeta'] as const) {
     try {
       const t = await getTranslations({ locale, namespace: ns });
+      // has() first — this runs for every (pair × ns × locale) while a sitemap
+      // shard renders; a bare t() miss logs a full MISSING_MESSAGE stack each
+      // time (2026-09-11: ~38k/hour — the pm2 error log's entire growth).
+      if (!t.has(sorted)) continue;
       const v = t(sorted);
       if (v && v !== sorted && v !== `${ns}.${sorted}`) return true;
     } catch {

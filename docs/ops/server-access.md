@@ -95,3 +95,20 @@ ssh -i %USERPROFILE%/.ssh/id_ed25519 root@65.108.5.250 "tar -xzf /tmp/decks_<sta
 (The last command counts dangling symlinks — expect 0 or 1; the archive preserves the `<slug> → <slug>-vN`
 symlinks.) A single deck can be pulled out with `tar -xzf … decks/<locale>/<slug>-vN`. The archive
 excludes `deck.html.bak.*` retrofit copies and `.pre-mode-rewrite-*` snapshots on purpose.
+
+## Server disk rule — what lives where (2026-09-11, CLAUDE.md §A.14.12 rule 6)
+
+The server hosts only what it serves or builds. Everything else is on the PC:
+- `C:\Users\rkgen\lcs-backups\` — the weekly catalog pull + EVERY daily `db_*.sql.gz` (the server keeps
+  7 days: crontab `-mtime +7` on both dump-prune lines).
+- `C:\Users\rkgen\lcs-archive\` — cold archives made by
+  `scripts/ops/archive-from-server.sh <name> <abs-path>… --delete` (absolute paths inside; restore on the
+  server with `tar -xzPf`). Archived 2026-09-11: `samples_*` (the orphaned `/samples` tree),
+  `root-leftovers_*` (session staging/logs/nginx+env backups from /root), `publish-inbound_*`
+  (+ `backups/staging-reports`), `decks-archived_*` (`decks/.archived`), `server-audit-results_*`
+  (server-generated audit reports). The 1,811 superseded `<slug>-vN` deck dirs were deleted outright —
+  they are inside `decks_20260911_144618.tar.gz`.
+- The server's git checkout **excludes `docs/audit-results`** (11k QA PNGs, 3.5 GB) via
+  `git sparse-checkout set --no-cone '/*' '!/docs/audit-results/'`. `git pull`/`deploy.sh` are unaffected.
+  Undo: `git sparse-checkout disable`. Scripts that write reports there still work (the dir is simply
+  untracked on the server) — archive + remove with the tool above when they pile up.

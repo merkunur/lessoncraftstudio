@@ -81,14 +81,15 @@ say "OK: $OUT ($((SIZE/1048576)) MB)"
 # Rotate: keep the newest KEEP full copies.
 ls -1t "$BACKUP_DIR"/decks_*.tar.gz 2>/dev/null | tail -n +$((KEEP+1)) | while read -r old; do say "rotate: rm $old"; rm -f "$old"; done
 
-# Small companions: newest DB dump + Story Studio tenant tree.
+# Small companions. The server keeps only 7 days of daily DB dumps (operator rule: the server hosts
+# only what it serves — CLAUDE.md §A.14.12 rule 6); the PC keeps the whole history. So copy EVERY
+# db_*.sql.gz / studio_*.tar.gz the PC does not have yet (22 MB / 1 MB each — cheap), never delete
+# them locally.
 for pat in 'db_*.sql.gz' 'studio_*.tar.gz'; do
-  newest=$($SSH "ls -t /opt/lessoncraftstudio/backups/$pat 2>/dev/null | head -1")
-  if [ -n "$newest" ]; then
-    scp -q -o BatchMode=yes -i "$KEY" "$HOST:$newest" "$BACKUP_DIR/" && say "copied $(basename "$newest")"
-  fi
+  for f in $($SSH "ls /opt/lessoncraftstudio/backups/$pat 2>/dev/null"); do
+    [ -f "$BACKUP_DIR/$(basename "$f")" ] && continue
+    scp -q -o BatchMode=yes -i "$KEY" "$HOST:$f" "$BACKUP_DIR/" && say "copied $(basename "$f")"
+  done
 done
-ls -1t "$BACKUP_DIR"/db_*.sql.gz 2>/dev/null | tail -n +9 | xargs -r rm -f      # keep 8 DB dumps
-ls -1t "$BACKUP_DIR"/studio_*.tar.gz 2>/dev/null | tail -n +5 | xargs -r rm -f  # keep 4
 
 say "=== done. copies on disk:"; ls -lh "$BACKUP_DIR"/decks_*.tar.gz | awk '{print "   " $5 "  " $9}'

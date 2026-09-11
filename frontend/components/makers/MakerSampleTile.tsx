@@ -17,7 +17,7 @@ import Image from 'next/image';
 
 interface MakerSampleTileProps {
   variant: 'interactive' | 'pdf';
-  title: string;            // shown under the thumbnail (and in the modal header)
+  title: string;            // shown under the thumbnail (a11y-only in the modal)
   thumbnailUrl: string;     // already wwwImg-normalized
   deckUrl?: string;         // interactive: iframe src in the modal
   pdfUrl?: string;          // pdf: link target
@@ -164,8 +164,9 @@ export default function MakerSampleTile({
             className="relative w-full max-w-5xl h-full max-h-[90vh] bg-[#FBF3E4] rounded-3xl overflow-hidden flex flex-col shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="flex items-center justify-between px-5 py-4 border-b border-[#146B5E]/15 flex-shrink-0">
-              <span className="font-display font-semibold text-base text-[#146B5E] truncate">{title}</span>
+            {/* No title here: the sticky CategoryNav shows through at this row and the
+                text collided with its first item (operator, 2026-09-11). Only the close. */}
+            <div className="flex items-center justify-end px-5 py-4 border-b border-[#146B5E]/15 flex-shrink-0">
               <button
                 type="button"
                 onClick={() => setOpen(false)}

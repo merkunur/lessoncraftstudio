@@ -51,3 +51,26 @@ on sshd purely as a lockout fallback.
 Root password: `echo "root:<NEW>" | chpasswd` via a key-auth session; update
 the two storage locations above; verify key auth still works BEFORE closing
 the session.
+
+## Disk hygiene — hand-installed pieces (2026-09-11; CLAUDE.md §A.14.12)
+
+Two things live outside git on the server. If the box is ever rebuilt, reinstall both.
+
+1. **Weekly housekeeping cron** (root crontab; Sun 04:30, after the 01:00 deck backup and
+   the 04:00 DB-dump prunes):
+   ```
+   30 4 * * 0 /opt/lessoncraftstudio/server-scripts/housekeeping.sh >> /var/log/lessoncraftstudio-housekeeping.log 2>&1
+   ```
+   Preview any time with `bash server-scripts/housekeeping.sh --dry-run`.
+2. **`/tmp` expiry** — Ubuntu's default (`D /tmp 1777 root root -`) cleans `/tmp` only at boot,
+   and this server goes months between reboots. `/etc/tmpfiles.d/lcs-tmp-age.conf`:
+   ```
+   # LCS 2026-09-11: expire /tmp entries untouched for 14 days (systemd-tmpfiles-clean.timer runs daily)
+   D /tmp 1777 root root 14d
+   ```
+   Nothing long-lived uses `/tmp` (pm2 → `/root/.pm2`, Postgres socket → `/var/run`). Stage
+   wave ZIPs under `/var/www/lcs-media/_staging/<wave>/`, not `/tmp`.
+
+Also hand-set the same day: `journald` `SystemMaxUse=300M` (`/etc/systemd/journald.conf`).
+The one-shot backlog cleanup that preceded these is `/root/lcs-disk-cleanup-2026-09-11.sh`
+(dry-run by default, `--apply` to run); `deploy.sh` now refuses to build below 20 GB free.

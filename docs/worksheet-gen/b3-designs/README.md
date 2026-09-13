@@ -1,0 +1,73 @@
+# nt20-C — the third (LAST) batch of 20 printable worksheet types × (1 base + 5 variations) × 11 locales = 1,320 worksheets
+
+**Status: DESIGNED 2026-09-13, NOT BUILT.** Trigger for the build session: **"build the last batch of 20 worksheet types and their expansion"** → read this README, then the 20 design files, then run the recipe below. Do not re-research type selection or demand (four expert panels + harvest mining did it; `_PANEL-FINDINGS.md` is the record). Do not re-design (each file is the contract; a native panel may refine a locale's teaching point per the rules in `_STUDIO-BRIEF.md`).
+
+## Files in this directory
+- `_STUDIO-BRIEF.md` — the house rules, variation doctrine, band tables, native-rebuild rules, hub contract (every agent read it).
+- `_SUBSTRATE.md` — measured facts about the generator: tokens, primitives, components, CSS classes, lint selectors, themes + noun counts, verified-phonics coverage per locale × theme, existing types not to duplicate, id blocks.
+- `_PANEL-FINDINGS.md` — per type: native genre heads ×11, demand tiers, teaching points, traps (from the pedagogy + 3 native SEO panels).
+- `<ID>-<family-key>.md` × 20 — the design files (7 sections each: identity · base page · faces 2-6 · native rebuild ×11 · data + gates · SEO · hub contract).
+- `_work/` — the studio's intermediate role outputs (pedagogy, design, critic per type); keep for provenance, never brief a panel from them.
+
+## The 20 types and their ids (variation faces take the next free id in the band their content belongs to; the emitter assigns)
+| # | id | family key | band | EN working name |
+|---|---|---|---|---|
+| 1 | K-317 | letter-of-the-week | K | Letter of the Week |
+| 2 | K-318 | sound-boxes | K/G1 | Sound Boxes |
+| 3 | G1-305 | syllable-split | G1 | Split into Syllables |
+| 4 | G1-306 | syllable-reading | G1 | Read the Syllables / Word Families |
+| 5 | G2-315 | spelling-rules | G2 | Spelling Rule of the Week |
+| 6 | G1-307 | opposites | G1 | Opposites |
+| 7 | G2-316 | compound-words | G2 | Compound Words / Word Families |
+| 8 | G2-317 | verb-forms | G2/G3 | Verb Forms |
+| 9 | G1-308 | read-and-do | G1 | Read and Do |
+| 10 | G1-309 | rhyming-words | G1 | Rhyme and Write |
+| 11 | K-319 | emotions | K | Feelings |
+| 12 | G2-318 | animal-fact-file | G2 | Animal Fact File |
+| 13 | G1-310 | hundreds-chart-puzzles | G1/G2 | Hundreds-Chart Pieces |
+| 14 | G3-377 | division-with-remainder | G3 | Division with Remainder |
+| 15 | K-320 | ordinal-numbers | K/G1 | Ordinal Numbers |
+| 16 | K-321 | days-and-months | K/G1 | Days and Months |
+| 17 | K-323 | all-about-me | K | All About Me |
+| 18 | K-322 | seasons | K | Four Seasons Sort |
+| 19 | G2-319 | logic-puzzles | G2 | Logic Grid Puzzles |
+| 20 | K-324 | picture-word-cards | K | Picture Word Cards (operator ruled INCLUDED 2026-09-13) |
+
+Free id blocks for the 100 variation faces: K-325+, G1-311+, G2-320+, G3-378+ (append at the top of each band; never use the K-081..200 / G1-161..200 separators).
+
+## Build recipe (clone of nt20-B/nt20-B-VAR, measured 2026-09-13; commit anchors `4b767963` `8c5cf294` `8cc3e5eb` `3c948b48` `ece76ed1`)
+Order of work: **EN base build → EN variation faces → 10 native panels (base+faces together) → waves → generate → landings → publish → repoint → verify hub.** One commit per phase; `git add` explicit paths (`scripts/worksheet-gen/data/` and `out/` are gitignored — force-add the generated data modules).
+
+1. `tools/b3-baseline.js --capture` (clone `b2-baseline.js`; TYPES = every nt20/b2/b2var id) BEFORE any shared edit; `--check` after every edit of a shared file; 0 drift is the release condition.
+2. Registration (EN): `tools/register-b3-taxonomy.js` writes `apps.<key>` (`default_subject` from the design file; age 5-7/6-8/7-9/8-10 by band) + `axes['exercise-type'].<key>.slug/name.en`; `tools/register-b3-en-content.js` writes `i18n/skill-sentences.en.json` (full 60-180 / short 15-90) + `frontend/messages/en.json topicMeta.<key>` (≥50). Run BEFORE the EN wave. Never add a key to `frontend/config/interactive-exercise-types.ts`.
+3. Specs: `types/<band>/<ID>-<slug>.js` per the design file §2 (contract in `_SUBSTRATE.md`); `templates/components-b3.js` (new components only; never edit `components.js`/`components-b2.js`); new primitives only where the design file says NEW; `data/b3/*.js` en blocks; `lib/b3-common.js` (`approvedSyllables(loc)` over `scripts/v2-data/verify-syllable-boundaries/output/approved-words-<loc>.json`, `graphemeHunt`, `ordinalFor`); `qa/verify-b3-*.js` data gates with poison cases. `node i18n/build-en.js` (band title uniqueness). `render/one.js <ID> <theme> <d> en` per face and level; visual critic on every PNG; read the contact sheet yourself (`qa/contact-sheet.js`).
+4. Variation faces: `tools/gen-b3var-specs.js` (clone `gen-b2var-specs.js`: PARAM faces spread the base + override `{id, slug, difficulty, i18n}`; CODE faces hand-written with additive knobs stamped only when declared); `tools/gate-variation-distinct.js` extended to the b3 ROWS (resolved config at the shipped level must differ from the base); `tools/gen-b3-probe-jobs.js` derives the review render jobs FROM THE WAVE files.
+5. Panels ×10 (≤4 in flight; locale-scoped scratch paths): `b3-panel-brief.md` (clone the b2 + b2var briefs; the EN is a SOURCE TO AUDIT → `enAudit`) → `i18n/.draft-b3-<loc>.json` (types 120 × {title, instruction}; families 20 × {slug, name}; skills 20; topicMeta 20; data banks per the design files §4-5) → `tools/validate-b3-draft.js` (+ `.test.js` poison both directions) → `tools/apply-b3-locale.js <loc>` (validate ALL before writing ANY) → `i18n/lint-locale.js <loc>` = 0. Measure the description window per locale (`tools/measure-instruction-window.js`).
+6. Waves ×11: `waves/wave-b3-<loc>.json` `{seedEpoch:1, locales:[loc], themes:[…], themesPerType:1, difficulties:[2], types:[120 ids], themeOverrides:{…}}` — `themeOverrides` is the ONLY source of the shipped theme (the landing composer reads it back); read themes off `cli.js generate --wave … --dry-run`, never a hand map; `themePinned` guard.
+7. Generate: `node scripts/worksheet-gen/cli.js generate --wave waves/wave-b3-<loc>.json` (QA gate = lints + verify, else no ZIP) → `tools/prune-stale-zips.js` after any re-pin → `scripts/publish-cli/scan-staged-desc-band.js` + `gate-deck-title-similarity.js` + `tools/scan-duplicate-problems.js` → `tools/publish-readiness.js` (11 of 11 READY).
+8. Landings ×11: `b3-landing-brief.md` (clone b2 + the "quote numbers from the SHIPPED config" rule) → `i18n/.landing-b3-<loc>.json` (120 × 9 fields) → `scripts/seo-landing/gen-b3-landings.js` (clone `gen-b2var-landings.js`: TYPES map for 120 faces incl. the STANDARD map for every id, LEVEL_KEYS, `deckSlugFor` = `<famSlug>[-<themeSlug>]-<idlower>` with the theme from `themeOverrides`; refuses <200 words / meta outside 120-170 / title >75; idempotent by slug) → `scripts/seo-landing/gate.js` 0 FAIL.
+9. Publish (Hetzner; env `cd frontend && set -a && source .env.production && set +a`): stage under `/var/www/lcs-media/_staging/b3-<loc>/` (never /tmp) → `index.js publish-bulk <dir> --dry-run` (ok=120, collisions=0) → `--confirm` → slugs from `grep "^\[publish\] Slug: " _confirm.log` → `regenerate-og-images.js --slugs-file=<f> --locales=<all 11>` (`=` syntax!) → `populate-and-inject-hreflang.js --confirm --locales=<all 11>` → `audit-deck-html.js --slugs-file=<f> --locales=<loc>` (120/120). Commit landing JSON → push → `bash deploy.sh > log 2>&1; echo EXIT=$?` (never `| tail`) → `scripts/seo-landing/repoint-deck-canonical.js --types=<20 families> --locale=<loc>` (read its argv parser first; `--help` is NOT a flag) → `refresh-deck-noindex-exempt.sh` → `indexnow-submit.js`.
+10. **Hub verification (the operator's OBS):** `node scripts/verify-hub-type-rows.js` (NEW in the build session: for every locale × new key, the hub's own row selection via the transpiled `worksheets-catalog.ts` `expandHubRows` + `applyLandingFilters` must return EXACTLY the expected slugs read from the design index per (key × locale): 6 minus the faces the design file REFUSES for that locale (e.g. syllable-split en 4 / fr 5), never padded with fillers; the SSR rail must carry a `?type=<key>` link; poison = drop one landing / drop `apps.<key>` must FAIL; refuses to run on an empty corpus) + `node scripts/verify-worksheets-hub-order.js` + `node scripts/verify-worksheets-hub-render.js --locales=<11>`. Then open `https://www.lessoncraftstudio.com/<loc>/worksheets?type=<key>` for a sample of locales in a REAL browser on the **All** tab (printables are correctly absent under Interactive).
+11. Close-out: memory `project_nt20c_worksheet_types.md`, MEMORY.md pointer, CLAUDE.md §14.10 family count (95 → 115), honest click math.
+
+## Why the hub failed before and how this batch cannot fail (measured 2026-09-13)
+The sidebar is built from the landing corpus grouped by taxonomy subject: `buildLandingFacets` (`frontend/lib/worksheets-catalog.ts:125-145`) counts distinct `coordinate.type`, then `page.tsx` buckets each key into a `<details>` disc via `apps.<key>.default_subject` — **a key with no `apps.<key>` entry is rendered nowhere in the rail** (typed `?type=` still works, which is why it looked "random"). Labels use `axes['exercise-type'].<key>.name.<locale>` with no `en` fallback. Rows = the landing corpus only (`applyLandingFilters`: `l.coordinate.type !== f.type`, exact raw key); a deck without a landing never shows. The old hub strip (`worksheets-new-highlights.ts`) is deleted; the per-process landing cache (`landing-content.ts loadFile`) only refreshes on deploy. So: `apps.<key>` + slug/name ×11 + exactly 6 landings per key per locale with `coordinate.type === <key>` + commit + deploy + the gate in step 10.
+
+## Honest click model (from the panels; not invented)
+2,640 pages (1,320 landings + 1,320 deck pages). Tier-A genres with winnable tails 3-8 clicks/landing/day, B 1-3, deck pages 0.5-1, ramp near-zero for 2-3 months → roughly 1,500-3,000/day at 9-15-month maturity across the batch if every face ships with native genre heads and distinct query faces. The 1,000/day target is reachable on this batch alone because the variation faces are the demand tail (per-letter, per-rule, per-animal, per-theme cards, per-consonant, per-divisor), not because of page count.
+
+## Open items for the build session (recorded 2026-09-13; not resolvable at design time)
+1. **Meta-description lead vs tier truth.** Printable deck metas are assembled by `scripts/publish-cli/build-seo-head.js` (`descLeadBase = freeInteractive + type + worksheetWord …`) and `emit/deck-html.js` passes each locale's `seo.words.free_printable` ("Free printable" / "Kostenloses druckbares" / "Ficha imprimible gratis:" / "Fiche imprimable gratuite :" / "Ilmainen tulostettava" …, measured 2026-09-13 in `frontend/messages/<loc>.json`). The operator's ruling is "nothing is free — limited trial only" (memory `feedback_tier_truth_before_marketing_copy.md`). This is catalogue-wide (tens of thousands of decks) and changing it is a §21.5a mass-rewrite decision: **surface to the operator before the first b3 publish; the batch inherits whatever lead is live.** Panels measure their description window from the LIVE lead (`tools/measure-instruction-window.js`), not from a brief.
+2. **`scripts/verify-hub-type-rows.js` does not exist yet** — build it first (spec in step 10 above), poison-test it, then wire it into `deploy.sh`.
+3. **A LETTER fan axis.** K-317 (and any per-letter/per-rule face) cannot be theme-pinned; `enumerate.js` today fans `themes` × `variantsPerType`. The K-317 design file names the additive wave knob it needs; implement it once, additive-with-fallback, and prove 0 drift with `b3-baseline --check`.
+4. **`chunks` grapheme layer exists only in de/nl/sv/no** (see `_SUBSTRATE.md`); K-318 and any grapheme-box face use the panel-authored bank + gate the design file specifies for the other seven locales.
+5. **da K-1 strict pool** = entries where `policy_managed` is ABSENT (measured; `policy_managed:false` occurs 0 times — CLAUDE.md §20.7 wording is stale).
+6. **EN (and a small es/pt/it class of) approved syllable BOUNDARIES are rule-only VC/CV splits that TeX disagrees with** (`ac-orn`, `cam-el`, `kiw-i`; measured by the G1-305 pedagogy pass: 397/607 en multi-syllable entries lack `'TeX'` in `sources_agreed`). The COUNT is right, the boundary is not. Any face that PRINTS or grades a boundary uses only entries with `'TeX'` in `sources_agreed` (the design files say which faces/themes ship in en under that filter). A pipeline commission to repair the en rule-syllabifier is the proper fix (§20.7 / §A.13.57 territory); do not widen the gate.
+7. **nl data is lettergrepen, not the Staal method's klankgroepen** (`kat-ten` vs `ka-tten`): nl titles/prose must say lettergrepen.
+
+## Cross-type rulings (override any per-file naming; recorded as the files were finalised)
+- **ONE fan mechanism for every non-theme axis: `unitAxis`** (spec `unitAxis:{applicable:true}`; wave `unitsPerType:N` + `unitOverrides:{'<id>':'m'}` pinned like `themePinned`; `enumerate.js` loops units into `instance.unit`; `deckIdFor` appends `-u<asciiFold(unit)>`; `instanceSeed` folds the unit; `render-instance` passes `unit` to `build()`; `emit/manifest.js` `variant_id += '-' + unit`; `emit/deck-html.js` resolves `{U}{L}` tokens). Where a design file says `letterAxis` (K-317), `ruleAxis` (G2-315) or `familyAxis`, read `unitAxis`; the semantics in those files stand. Additive-with-fallback: with no unit configured the spec reads its bank's `exemplar`, so every already-published coordinate is byte-identical (`b3-baseline --check`).
+- **Themeless types** (`themeAxis:{applicable:false}`, cross-theme pools via a `lib/b3-picture-index.js` vocabKey→picture index): K-317, G1-306, G1-307, G2-315 (and any file that measured a per-theme pool below the floor). Their landings carry `coordinate.theme:''` (the corpus' themeless convention, K-239/letter-tracing precedent).
+- **texPool rule** (G1-305/G1-306): any face that PRINTS or GRADES a syllable boundary draws only entries with `'TeX'` in `sources_agreed`; count-only faces use the full approved pool.
+- **Refusals lower the hub-gate expectation per (key × locale) explicitly; fillers never pad a page.**
+8. **`frontend/lib/seo/strand-names.ts` `Language` row has NO `da` and NO `no` entry** (verified 2026-09-13; a Danish/Norwegian landing would print "Language" via the en fallback). The da/no panels author the national domain names for that row in the same wave (Fælles Mål "Sprog og sprogbrug"? / LK20 "Språket som system og mulighet"? — panel decides), added additively to `STRAND_NAMES`.

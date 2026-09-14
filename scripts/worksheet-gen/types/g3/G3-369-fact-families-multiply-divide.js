@@ -15,12 +15,10 @@ const { answerBox } = require('../../templates/components.js');
 const tokens = require('../../primitives/_tokens.js');
 const { svgRoot, el, label } = require('../../primitives/_svg.js');
 
-const MUL_DOT = new Set(['de', 'sv', 'da', 'no', 'fi']);
-// sv panel ruling: division is written with '/' in Swedish lågstadiet — ':'
-// is Danish/Norwegian and '÷' is FORBIDDEN (it meant MINUS in older Swedish
-// notation). de/it/nl/da/no/fi use ':'; en/fr/es/pt use '÷'.
-const DIV_SLASH = new Set(['sv']);
-const DIV_COLON = new Set(['de', 'it', 'nl', 'da', 'no', 'fi']);
+// the per-locale sign table lives in _shared/notation.js (sv panel ruling:
+// '/' in Swedish, ':' in de/it/nl/da/no/fi, '÷' elsewhere; '·' for × in
+// de/sv/da/no/fi) — shared with array-tasks / number-line-tasks since C1.
+const { divGlyph, mulGlyph } = require('../_shared/notation.js');
 
 const NUM = (v) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:24px;color:#3A3530">${v}</span>`;
 const OP = (op) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:22px;color:${op === '×' || op === '·' ? '#146B5E' : '#F2784B'}">${op}</span>`;
@@ -59,9 +57,8 @@ module.exports = {
   build({ difficulty, locale }, ctx) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
-    const loc = (locale || 'en').slice(0, 2);
-    const mul = MUL_DOT.has(loc) ? '·' : '×';
-    const div = DIV_SLASH.has(loc) ? '/' : DIV_COLON.has(loc) ? ':' : '÷';
+    const mul = mulGlyph(locale);
+    const div = divGlyph(locale);
     const used = new Set();
     const cards = [];
     for (let i = 0; i < d.cards; i++) {

@@ -14,6 +14,7 @@
  *  - 'commutative':   same array both ways → r × c = c × r (G3-314)
  */
 'use strict';
+const { divGlyph } = require('./notation.js');
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const diceFace = require('../../primitives/dice.js');
 const domino = require('../../primitives/domino.js');
@@ -71,9 +72,10 @@ function makeArrayType(cfg) {
     },
     i18n,
 
-    build({ theme, difficulty }, ctx) {
+    build({ theme, difficulty, locale }, ctx) {
       const d = this.difficulty[difficulty];
       const rng = ctx.rng;
+      const div = divGlyph(locale);   // C1 2026-09-14: was a hard-coded '÷' (a MINUS in older sv notation)
       const nouns = this.themeAxis.applicable ? rng.sample(labelSafeNouns(theme), d.cards) : null;
       const cards = [];
       const used = new Set();
@@ -138,7 +140,7 @@ function makeArrayType(cfg) {
             `<span style="display:flex;flex-wrap:wrap;gap:6px;justify-content:center;max-width:520px">${pile}</span>` +
             `<span style="display:flex;gap:18px;width:80%;justify-content:center">${binEls}</span>` +
             `<span style="display:inline-flex;align-items:center;gap:8px">` +
-            NUM(total) + OP('÷') + NUM(bins) + OP('=') + answerBox({ w: 60, h: 48, answer: each }) + `</span></div>`;
+            NUM(total) + OP(div) + NUM(bins) + OP('=') + answerBox({ w: 60, h: 48, answer: each }) + `</span></div>`;
         } else if (mode === 'group-rings') {
           const k = rng.int(2, 5);
           const groups = rng.int(2, 4);
@@ -148,7 +150,7 @@ function makeArrayType(cfg) {
           stage = `<div class="ws-card-stage" style="flex-direction:column;gap:14px" data-lcs-total="${total}" data-lcs-k="${k}" data-lcs-groups="${groups}">` +
             `<span style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap">${rings}</span>` +
             `<span style="display:inline-flex;align-items:center;gap:8px">` +
-            NUM(total) + OP('÷') + NUM(k) + OP('=') + answerBox({ w: 60, h: 48, answer: groups }) + `</span></div>`;
+            NUM(total) + OP(div) + NUM(k) + OP('=') + answerBox({ w: 60, h: 48, answer: groups }) + `</span></div>`;
         } else if (mode === 'fact-family') {
           let r, c, g = 0;
           do { r = rng.int(2, 5); c = rng.int(2, 6); g++; } while ((r === c || used.has(r + 'x' + c)) && g < 30);
@@ -156,7 +158,7 @@ function makeArrayType(cfg) {
           const px = Math.min(34, Math.floor(190 / c));
           const line = (x, op, y, ans) =>
             `<span style="display:inline-flex;align-items:center;gap:6px" data-lcs-fact="${x}${op}${y}=${ans}">` +
-            NUM(x) + OP(op === '*' ? '×' : '÷') + NUM(y) + OP('=') + answerBox({ w: 50, h: 40, answer: ans }) + `</span>`;
+            NUM(x) + OP(op === '*' ? '×' : div) + NUM(y) + OP('=') + answerBox({ w: 50, h: 40, answer: ans }) + `</span>`;
           stage = `<div class="ws-card-stage" style="gap:24px;justify-content:space-between;padding:6px 14px" data-lcs-r="${r}" data-lcs-c="${c}">` +
             iconArrayHtml(theme, nouns[i].noun, r, c, px) +
             `<span style="display:inline-flex;flex-direction:column;gap:10px">` +

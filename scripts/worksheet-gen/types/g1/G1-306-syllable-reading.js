@@ -161,7 +161,8 @@ function prepareCarpet({ d, cfg, loc, unitId, difficulty, rng }) {
   // On the carpet face every card colours ONE cell, so two cards sharing a first syllable
   // (fr papaye + parapluie, both "pa", read off the fr contact sheet 2026-09-14) would ask
   // for one cell in two colours: in colourMode the picks are distinct by unit as well.
-  const unitOf = (w) => String(w.unit).toLocaleLowerCase(loc);
+  // the CELL a card colours: the unit (syllable shape) or onset|rime (rime shape — 'r' colours r|an and r|at, two cells)
+  const unitOf = (w) => String(w.unit).toLocaleLowerCase(loc) + (shape === 'rime' ? '|' + String(w.rime).toLocaleLowerCase(loc) : '');
   const byUnit = (ws) => (d.colourMode ? distinctByWord(rng.shuffle(ws.slice()), unitOf) : ws);
   let picks = [];
   eligibleByRow.forEach((ws) => {
@@ -691,7 +692,7 @@ module.exports = {
         const rowsUsed = new Set(cards.map((c) => c.dataset.lcsRowId));
         if (rowsUsed.size < Math.min(3, rows.length)) fails.push(`carpet targets come from ${rowsUsed.size} rows (want >= 3)`);
         // one cell per colour: no two cards may name the same unit
-        const units = cards.map((c) => c.dataset.lcsUnit);
+        const units = cards.map((c) => c.dataset.lcsUnit + (c.dataset.lcsRime ? '|' + c.dataset.lcsRime : ''));
         const dup = units.filter((u, i) => units.indexOf(u) !== i);
         if (dup.length) fails.push(`carpet: two cards colour the same cell (${[...new Set(dup)].join(', ')})`);
       }

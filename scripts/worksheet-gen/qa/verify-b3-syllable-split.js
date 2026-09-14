@@ -164,19 +164,21 @@ function sectionData() {
       console.log(line.join(' '));
     }
   }
-  // the design's d2 ship table (measured 2026-09-13) must still hold on today's data
+  // the d2 ship table: the design's 2026-09-13 snapshot, RE-MEASURED 2026-09-14 after all
+  // 11 native panels authored their pools (da strict pool, fr/fi TeX-agreed pools): a theme
+  // may only refuse in the locales listed here, and MUST refuse there — either drift means
+  // the data moved and the table is re-measured, never the assertion loosened.
   const d2 = (t, l) => record[`${t}|d2|${l}`];
-  // design §1 table (zoo animals is listed 11/11 there but da zoo is in the same file's refused list —
-  // measured 6 < 8 on the strict pool; the refused list wins, so zoo = 10/11)
-  for (const t of ['around the house', 'At the Supermarket', 'clothing', 'forest creatures', 'toys', 'animals']) {
-    ok(LOCALES.every((l) => !d2(t, l).refused), `design table: ${t} ships 11/11 at d2`);
+  const SHIP_TABLE = {
+    'around the house': [], 'forest creatures': [], 'animals': [],
+    'At the Supermarket': ['da'], 'zoo animals': ['da'], 'clothing': ['fr'], 'toys': ['da'],
+    'fruits': ['fr', 'da'], 'vehicles': ['da'], 'ocean life': ['fr', 'da', 'fi'],
+    'pets': ['sv', 'da', 'no'], 'body parts': ['en', 'nl', 'sv', 'da'],
+  };
+  for (const [t, refusing] of Object.entries(SHIP_TABLE)) {
+    const got = LOCALES.filter((l) => d2(t, l) && d2(t, l).refused);
+    ok(got.join() === refusing.join(), `design table: ${t} ships ${11 - refusing.length}/11 at d2 (refused: ${refusing.join(',') || 'none'}; measured refused: ${got.join(',') || 'none'})`);
   }
-  ok(d2('zoo animals', 'da').refused && LOCALES.filter((l) => l !== 'da').every((l) => !d2('zoo animals', l).refused), 'design table: zoo animals 10/11 (da refused, strict pool 6)');
-  ok(d2('fruits', 'da').refused && LOCALES.filter((l) => l !== 'da').every((l) => !d2('fruits', l).refused), 'design table: fruits 10/11 (da refused)');
-  ok(d2('vehicles', 'da').refused && LOCALES.filter((l) => l !== 'da').every((l) => !d2('vehicles', l).refused), 'design table: vehicles 10/11 (da refused)');
-  ok(d2('ocean life', 'da').refused && LOCALES.filter((l) => l !== 'da').every((l) => !d2('ocean life', l).refused), 'design table: ocean life 10/11 (da refused)');
-  ok(d2('pets', 'da').refused && d2('pets', 'no').refused && LOCALES.filter((l) => !['da', 'no'].includes(l)).every((l) => !d2('pets', l).refused), 'design table: pets 9/11 (da, no refused)');
-  ok(d2('body parts', 'en').refused && d2('body parts', 'da').refused && LOCALES.filter((l) => !['en', 'da'].includes(l)).every((l) => !d2('body parts', l).refused), 'design table: body parts 9/11 (en, da refused)');
   // the count-3 shortfall the spec records on the page (minLongCards honoured only where the pool has them)
   const short = [];
   for (const t of WAVE_THEMES) for (const l of LOCALES) { const r = d2(t, l); if (!r.refused && r.long < spec.difficulty[2].minLongCards) short.push(`${t}/${l}:${r.long}`); }
@@ -358,8 +360,8 @@ async function sectionPoisons(page) {
   try { spec.build({ theme: 'body parts', difficulty: 2, locale: 'en' }, { rng: require('../lib/rng.js').makeRng('G1-305|poison|1') }); } catch (e) { threw = e.message; }
   poison('en body parts d2 (pool 6 < 8) builds', /REFUSED/.test(threw || ''), threw);
   threw = null;
-  try { spec.build({ theme: EXEMPLAR, difficulty: 2, locale: 'de' }, { rng: require('../lib/rng.js').makeRng('G1-305|poison|1') }); } catch (e) { threw = e.message; }
-  poison('a locale without a bank block builds (de)', /no xx block/.test(threw || ''), threw);
+  try { spec.build({ theme: EXEMPLAR, difficulty: 2, locale: 'xx' }, { rng: require('../lib/rng.js').makeRng('G1-305|poison|1') }); } catch (e) { threw = e.message; }
+  poison('a locale without a bank block builds (xx)', /no xx block/.test(threw || ''), threw);
   const baseKilled = killed, baseTotal = total;
   await sectionFacePoisons(page, poison);
   console.log(`  poisons ${killed}/${total} killed (base ${baseKilled}/${baseTotal}, faces ${killed - baseKilled}/${total - baseTotal})`);
@@ -442,7 +444,13 @@ function sectionFaceData() {
   for (const t of WAVE_THEMES) ok(en('rewrite', t).refused === (t === 'body parts'), `design: rewrite en ${t} (full pool, same cells as the base)`);
   // fr kings refused by the (provisional) bank too; de/pt/nl/fi kings every wave theme except the base's refused cells
   for (const t of WAVE_THEMES) ok(rec[`kings|${t}|fr`].refused && rec[`kings|${t}|fr`].why === 'bank kings:false', `design: kings fr ${t} REFUSED by the bank`);
-  for (const loc of ['de', 'pt', 'nl', 'fi']) for (const t of WAVE_THEMES) ok(!rec[`kings|${t}|${loc}`].refused, `design: kings ${loc} ${t} ships (${rec[`kings|${t}|${loc}`].why})`);
+  // re-measured 2026-09-14 on the panels' TeX-agreed pools: the kings face refuses these cells (pool < 8)
+  // and MUST refuse them; every other de/pt/nl/fi cell ships. A moved cell = re-measure, never loosen.
+  const KINGS_REFUSED = { de: [], pt: [], nl: ['body parts'], fi: ['vehicles', 'ocean life', 'pets'] };
+  for (const loc of ['de', 'pt', 'nl', 'fi']) for (const t of WAVE_THEMES) {
+    const want = KINGS_REFUSED[loc].includes(t);
+    ok(!!rec[`kings|${t}|${loc}`].refused === want, `design: kings ${loc} ${t} ${want ? 'REFUSED' : 'ships'} (${rec[`kings|${t}|${loc}`].why})`);
+  }
   const refusedCells = Object.entries(rec).filter(([, v]) => v.refused).length, total = Object.keys(rec).length;
   console.log(`face cells: ${total - refusedCells} ship / ${refusedCells} REFUSED of ${total}`);
   return rec;

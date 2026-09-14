@@ -594,7 +594,12 @@ async function facesSection(page, note, addAssertions, THEME) {
     }
     console.log(`[E] ${id} sweep over ${SEEDS} seeds: ${pages.size} distinct pages` + (mode === 'exact' ? `, ${sweep.exactPos.size} exact layouts` : '') + (mode === 'error' ? `, ${sweep.errorPos.size} kind layouts` : ''));
     if (mode === 'exact') note(sweep.exactPos.size >= 2, `${id}: the exact positions never vary over ${SEEDS} seeds`);
-    if (mode === 'error') note(sweep.errorPos.size >= 2, `${id}: the error positions never vary over ${SEEDS} seeds`);
+    // G3-383 ships kinds {rBig: 8} since 2026-09-14 (every error on the page IS the titled
+    // 'remainder too big'); with ONE kind the kind-layout has nothing to vary, so the
+    // assertion holds only when the shipped config mixes kinds — and then it must fire.
+    const kindCount = mode === 'error' ? Object.keys((type.difficulty[2] && type.difficulty[2].kinds) || {}).filter((k) => (type.difficulty[2].kinds[k] | 0) > 0).length + ((type.difficulty[2].clean | 0) > 0 ? 1 : 0) : 0;
+    if (mode === 'error' && kindCount >= 2) note(sweep.errorPos.size >= 2, `${id}: the error positions never vary over ${SEEDS} seeds`);
+    if (mode === 'error' && kindCount < 2) note(sweep.errorPos.size === 1, `${id}: a single error kind must give one kind layout, got ${sweep.errorPos.size}`);
 
     // ---- refusals
     const refusals = [];

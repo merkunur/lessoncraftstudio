@@ -90,7 +90,7 @@ const MIN_ICON = tokens.density.K.minElement;   // 56
 const BIN_INNER = 150 - 6 - 16;                 // 128
 const NORTH = ['winter', 'winter', 'spring', 'spring', 'spring', 'summer', 'summer', 'summer', 'autumn', 'autumn', 'autumn', 'winter'];
 const SOUTH = ['summer', 'summer', 'autumn', 'autumn', 'autumn', 'winter', 'winter', 'winter', 'spring', 'spring', 'spring', 'summer'];
-const COLLECTIVE = { en: ['seasons'], de: ['jahreszeiten'], es: ['estaciones'], pt: ['estações'], fr: ['saisons'], it: ['stagioni'], nl: ['seizoenen'], sv: ['årstider'], da: ['årstider'], no: ['årstider'], fi: ['vuodenajat', 'vuodenaikoja'] };
+const COLLECTIVE = { en: ['seasons'], de: ['jahreszeiten'], es: ['estaciones'], pt: ['estações'], fr: ['saisons'], it: ['stagioni'], nl: ['seizoenen'], sv: ['årstider', 'årstiderna'], da: ['årstider', 'årstiderne'], no: ['årstider', 'årstidene'], fi: ['vuodenajat', 'vuodenaikoja', 'vuodenaikaa'] };
 const WORKSHEET_WORD = /worksheet|arbeitsblatt|ficha|fiche|scheda|werkblad|arbetsblad|arbejdsark|arbeidsark|tehtävä/i;
 const CALENDAR_STEM = /kalender|calendar|calendario|calendário|calendrier|kalenteri/i;
 

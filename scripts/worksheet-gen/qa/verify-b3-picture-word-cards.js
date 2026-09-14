@@ -496,7 +496,7 @@ async function main() {
       ok(/only 8 eligible nouns, need 9/.test(msg), `a short pool must REFUSE (throw): ${msg}`);
       try { TYPE._buildWith(en, { theme: null, difficulty: 2, locale: 'en' }, { rng: makeRng('x') }); msg = ''; } catch (e) { msg = e.message; }
       ok(/theme is required/.test(msg), `a themeless build must refuse: ${msg}`);
-      try { TYPE.build({ theme: EXEMPLAR_THEME, difficulty: 2, locale: 'de' }, { rng: makeRng('x') }); msg = ''; } catch (e) { msg = e.message; }
+      try { TYPE.build({ theme: EXEMPLAR_THEME, difficulty: 2, locale: 'xx' }, { rng: makeRng('x') }); msg = ''; } catch (e) { msg = e.message; }
       ok(/no xx block/.test(msg), `an unauthored locale must REFUSE (throw), never fall back to en: ${msg}`);
     }
 
@@ -855,7 +855,7 @@ async function main() {
           .replace(`data-lcs-chip="${chip}"`, 'data-lcs-chip="en"').replace(/data-lcs-base="[^"]+"/, 'data-lcs-base="klossar"').replace(`data-lcs-word="${word}"`, `data-lcs-word="${bad}"`).replace(`data-lcs-line>${word}<`, `data-lcs-line>${bad}<`);
         return o;
       });
-      const r = await renderWith(page, t, { theme: 'toys', difficulty: 2, baseName: 'K-348-gate-poison-P20', strings, locale: 'sv' });
+      const r = await renderWith(page, t, { theme: 'farm animals', difficulty: 2, baseName: 'K-348-gate-poison-P20', strings, locale: 'sv' });
       const found = rederive('article', FACE.article, r, sv, 'sv');
       const b = judge('P20 render', found, /card 1: blocks is a refused key for sv/);
       if (a && b) killed++;

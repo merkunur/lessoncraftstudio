@@ -43,10 +43,16 @@
  *              (_work/G1-308-build.md).
  *   fixed      noun-free position phrases: first · last · ordPic{2..8} ·
  *              between ({A} {B}) · rightof ({A}) · leftof ({A})
- *   truth      F4 (Phase 2): { yes, no, frames:[{text, cue}] } ≥ 8 frames; slots
+ *   truth      F4: { yes, no, frames:[{text, cue, rel?, k?}] } ≥ 8 frames; slots
  *              {n} {pl} {obj} {obj2} only (a frame never OPENS with a noun slot —
- *              the code never capitalises)
- *   draw       F5 (Phase 2): [{text}] ≥ 4, each with {n} + {pl}
+ *              the code never capitalises). cue 'count' frames carry rel 'eq' |
+ *              'gt' | 'lt' (how {n} relates to the strip count); cue 'ordinal'
+ *              frames are WHOLE literals per k (k 2..4, "The third picture is
+ *              {obj}."); first/last take {obj}; rightof/leftof take {obj} (unique
+ *              on the strip) + {obj2}. {obj}/{obj2} = the noun's `unique` form.
+ *   numbers    optional {1..5: word} — F4/F5 print {n} as the word when present,
+ *              else the numeral (panel's call per locale)
+ *   draw       F5: [{text}] ≥ 4, each with {n} + {pl}
  *   exemplar   the theme rendered when none is pinned
  *   strings    per-face title + instruction (G1-308 = the base; F1..F5 the faces
  *              of §3) — EN is the SOURCE the panels audit.
@@ -226,18 +232,24 @@ const INSTRUCTIONS = {
       yes: 'true',
       no: 'false',
       frames: [
-        { text: 'There are {n} {pl} in the row.', cue: 'count' },
-        { text: 'There are exactly {n} {pl} in the row.', cue: 'count' },
-        { text: 'There are more than {n} {pl} in the row.', cue: 'count' },
-        { text: 'There are fewer than {n} {pl} in the row.', cue: 'count' },
+        { text: 'There are {n} {pl} in the row.', cue: 'count', rel: 'eq' },
+        { text: 'There are exactly {n} {pl} in the row.', cue: 'count', rel: 'eq' },
+        { text: 'There are more than {n} {pl} in the row.', cue: 'count', rel: 'gt' },
+        { text: 'There are fewer than {n} {pl} in the row.', cue: 'count', rel: 'lt' },
         { text: 'The first picture is {obj}.', cue: 'first' },
         { text: 'The last picture is {obj}.', cue: 'last' },
         { text: 'The row starts with {obj}.', cue: 'first' },
         { text: 'The row ends with {obj}.', cue: 'last' },
+        { text: 'The second picture is {obj}.', cue: 'ordinal', k: 2 },
+        { text: 'The third picture is {obj}.', cue: 'ordinal', k: 3 },
+        { text: 'The fourth picture is {obj}.', cue: 'ordinal', k: 4 },
         { text: 'The picture right after {obj} is {obj2}.', cue: 'rightof' },
         { text: 'The picture right before {obj} is {obj2}.', cue: 'leftof' },
       ],
     },
+    // F4 + F5: {n} prints the NUMBER WORD when this map carries it (a reading face reads
+    // "two", not "2"); a locale without the map prints the numeral. Panels decide (build record item 5).
+    numbers: { 1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five' },
     draw: [
       { text: 'Draw {n} {pl} in the box.' },
       { text: 'Draw {n} {pl}. Make them big.' },

@@ -22,7 +22,14 @@
  *      500-sentence sample per theme through fillSlots (no {, no double space,
  *      no " .", capital, ".", <= 96 chars); truth ≥ 8 / draw ≥ 4; strings
  *      (title <= 70, no worksheet word, unique; instruction <= 150; no free
- *      claim). The spec's i18n.en must equal strings['G1-308'].
+ *      claim). The spec's i18n.en must equal strings['G1-308']; strings.F1..F5
+ *      must equal the EMITTED face specs' i18n.en (G1-338..G1-342).
+ *      FACES (Phase 2): truth frames — count frames carry rel eq|gt|lt and
+ *      {n} + {pl} (fi {part}); ordinal frames carry k 2..4 + {obj}; first/last
+ *      {obj}; rightof/leftof {obj} + {obj2}; no frame opens with a slot; a
+ *      500-statement sample per theme through the gate's own truth re-fill
+ *      (<= 80 chars). draw frames: {n} + {pl} (fi {part}) and nothing else.
+ *      `numbers` (optional): non-empty strings for 1..5.
  *   B  pools: every fan theme >= 8 countable entries in all 11 locales
  *      (measured); every en picture on disk; no BW marker; the lookalike table's
  *      nouns are real vocab keys.
@@ -36,6 +43,19 @@
  *      · no lookalike pair on the strip · non-vacuity. Sweep: every config verb
  *      appears, every config cue is asked, write answers not constant, first AND
  *      last both occur, every ordinal k inside 2..ordMax (the k set is printed).
+ *   F  the five faces (G1-338 F1 · G1-339 F2 · G1-340 F3 · G1-341 F4 · G1-342
+ *      F5), each through the real pipeline at d2 en on the exemplar + 2 themes
+ *      (quick: + 1), LONG chrome (733) and WORST chrome (710), plus a seed
+ *      sweep: lints + verify() clean, the base's size floors, Node-side re-fill
+ *      of every sentence / statement / draw text from the bank (F2 re-JOINS
+ *      both clauses; F4 re-fills frame[i] with the stamped n / noun; F5 re-fills
+ *      draw[frame]); F1 every action circle, cues ⊆ unique+all, 8 rings over 8
+ *      tiles every page; F2 8 steps, two verbs per row, union disjoint, "and"
+ *      present, ≤ 96 chars; F3 every cue positional, ≥ 3 cue kinds per page,
+ *      ordinal k 2..4 with ≥ 2 distinct k and ≥ 3 distinct target indices over
+ *      the sweep; F4 3/3 every seed, every false row names a strip noun, chips
+ *      = bank yes/no at h 44, statement ≤ 80; F5 no img, 6 cards, box ≥ 300×140,
+ *      n varies, ≥ 3 frames per page.
  *   D  poisons (each must FAIL; control = the correct bank + page): P1 two rows
  *      on one tile · P2 ordinal:3 over two cats · P3 de dat "dem Elefant" · P4
  *      sv unique "en hund" on the base · P6 "zoo animals bw" refused · P7 double
@@ -45,8 +65,17 @@
  *      pictures squashed · P15 blank list · P16 unfilled slot · P17 a numeral in a
  *      tile · P18 a wrong write answer · P19 a wrong target stamp · P20 a
  *      lookalike pair on one strip · P21 a colour verb in a frame · P22 a
- *      worksheet-word title. DEFERRED (need face code): P5 F4 false statement
- *      about an absent noun · P8 F2 both clauses circle.
+ *      worksheet-word title. FACE poisons (Phase 2; the base deferred P5 + P8):
+ *      P5 F4 false statement about a noun absent from the strip · P8 F2 both
+ *      clauses circle · PF1 F1 a row's ring dropped (fewer than 8 rings over 8
+ *      tiles) · PF2a F2 both steps of one row on one tile · PF2b F2 the joined
+ *      sentence hand-edited (the re-join) · PF3 F3 a unique-cue row (not
+ *      positional) · PF4a F4 a truth stamp flipped · PF4b F4 chips reordered
+ *      no | yes · PF4c F4 four true statements · PF4d F4 a hand-edited noun in
+ *      a statement (the re-fill) · PF5a F5 a picture on the page · PF5b F5 a
+ *      draw box below 140 · PF5c F5 the count constant · PB1 a count frame
+ *      without rel · PB2 a fi draw frame taking {pl} · PB3 an 81-char statement
+ *      · PB4 F-strings drifting from the emitted spec.
  * Exit 1 on any real failure OR any silent poison.
  */
 'use strict';
@@ -75,6 +104,7 @@ const BOX_FLOOR = 44;
 const DONE_BOX = 28;
 const TEXT_MAX_H = 50;
 const SENTENCE_CAP = 96;
+const STATEMENT_CAP = 80;
 const BW_MARK = /(^|\s)(bw|sw|bn|nb|zw|sh|pb|mv|sv)$/i;
 const VERB_IDS = ['circle', 'cross', 'underline', 'line', 'mark', 'write'];
 const OBJ_SLOTS = { obj: 'unique', all: 'unique', allDef: 'def', def: 'def', dat: 'dat', gen: 'gen' };
@@ -160,6 +190,48 @@ function refill(bankLoc, action, cue, k, noun, noun2) {
   }
   try { return fillSlots(verb.frame, slots); } catch (e) { return null; }
 }
+
+/** {n} the way the page prints it: the bank's number word when `numbers` carries it, else the numeral. */
+function numText(bankLoc, n) { const w = bankLoc.numbers && bankLoc.numbers[n]; return typeof w === 'string' && w.length ? w : String(n); }
+/** F4: re-fill truth frame[fi] for (noun, noun2, nval) — the gate's own copy of the spec's slot rule. */
+function refillTruth(bankLoc, fi, noun, noun2, nval) {
+  const f = bankLoc.truth && bankLoc.truth.frames && bankLoc.truth.frames[fi];
+  if (!f) return null;
+  const F = bankLoc.objForms || {};
+  const sl = slotsIn(f.text);
+  const slots = {};
+  for (const k of sl) {
+    if (k === 'n') slots.n = numText(bankLoc, nval);
+    else if (k === 'pl' || k === 'part') { const v = usable(F[noun]) ? F[noun][k] : null; if (!v) return null; slots[k] = v; }
+    else if (k === 'obj') { const v = usable(F[noun]) ? F[noun].unique : null; if (!v) return null; slots.obj = v; }
+    else if (k === 'obj2') { const v = usable(F[noun2]) ? F[noun2].unique : null; if (!v) return null; slots.obj2 = v; }
+    else return null;
+  }
+  try { return fillSlots(f.text, slots); } catch (e) { return null; }
+}
+/** F5: re-fill draw frame[fi] for (noun, nval). */
+function refillDraw(bankLoc, fi, noun, nval) {
+  const f = bankLoc.draw && bankLoc.draw[fi];
+  if (!f) return null;
+  const F = bankLoc.objForms || {};
+  const sl = slotsIn(f.text);
+  const key = sl.includes('part') ? 'part' : 'pl';
+  const v = usable(F[noun]) ? F[noun][key] : null;
+  if (!v) return null;
+  try { return fillSlots(f.text, { n: numText(bankLoc, nval), [key]: v }); } catch (e) { return null; }
+}
+/** F2: re-join two re-filled clauses the way the spec does (clause 1 minus its stop + " and " + clause 2 lowered / frame2). */
+function rejoin(bankLoc, loc, s1, s2) {
+  const t1 = refill(bankLoc, s1.action, s1.cue, s1.k, s1.noun, s1.noun2);
+  if (t1 == null) return null;
+  const v2 = (bankLoc.verbs || []).find((v) => v.id === s2.action);
+  let t2;
+  if (v2 && v2.frame2) t2 = refill({ ...bankLoc, verbs: bankLoc.verbs.map((v) => (v.id === s2.action ? { ...v, frame: v.frame2 } : v)) }, s2.action, s2.cue, s2.k, s2.noun, s2.noun2);
+  else { const t = refill(bankLoc, s2.action, s2.cue, s2.k, s2.noun, s2.noun2); t2 = t == null ? null : t.charAt(0).toLocaleLowerCase(loc) + t.slice(1); }
+  if (t2 == null) return null;
+  return t1.replace(/\.$/, '') + ' ' + bankLoc.and + ' ' + t2;
+}
+const FACE_IDS = { F1: 'G1-338', F2: 'G1-339', F3: 'G1-340', F4: 'G1-341', F5: 'G1-342' };
 
 /* ---------------- A. bank data (pure node; any locale block) ---------------- */
 function checkBank(cfg, loc, spec, opts = {}) {
@@ -253,16 +325,81 @@ function checkBank(cfg, loc, spec, opts = {}) {
     const msg = `A ${L}: REFUSED themes (< ${MIN_NOUNS} usable nouns): ${refused.join('; ')}`;
     if (L === 'en' || refused.length === themes.length) F.push(msg); else console.log('  [A] ' + msg + ' (reported)');
   }
-  // truth + draw (Phase 2 data, shape-gated now)
+  // truth + draw (F4 / F5 data)
   const tr = cfg.truth || {};
   const tf = Array.isArray(tr.frames) ? tr.frames : [];
   if (tf.length < 8) F.push(`A ${L}: truth.frames ${tf.length} < 8`);
-  for (const f of tf) if (!TRUTH_CUES.has(f.cue)) F.push(`A ${L}: truth frame "${f.text}" has no evaluable cue`);
   if (!tr.yes || !tr.no || tr.yes === tr.no) F.push(`A ${L}: truth.yes/no missing or equal`);
   for (const v of verbs) { const head = String(v.frame).split(/\s/)[0].toLowerCase(); if (tr.yes && tr.yes.toLowerCase() === head) F.push(`A ${L}: truth.yes is a verb`); if (tr.no && tr.no.toLowerCase() === head) F.push(`A ${L}: truth.no is a verb`); }
+  const truthKinds = new Set();
+  tf.forEach((f, i) => {
+    const t = String(f.text || '');
+    const sl = slotsIn(t);
+    if (!TRUTH_CUES.has(f.cue)) F.push(`A ${L}: truth frame "${t}" has no evaluable cue`);
+    if (/^\{/.test(t)) F.push(`A ${L}: truth frame "${t}" opens with a slot (the code never capitalises)`);
+    if (!/^\p{Lu}/u.test(t)) F.push(`A ${L}: truth frame "${t}" does not start with a capital`);
+    if (!/\.$/.test(t)) F.push(`A ${L}: truth frame "${t}" does not end with a full stop`);
+    if (COLOUR_VERB.test(t)) F.push(`A ${L}: truth frame "${t}" carries a colour verb`);
+    if (sl.some((x) => !['n', 'pl', 'part', 'obj', 'obj2'].includes(x))) F.push(`A ${L}: truth frame "${t}" carries a slot outside {n} {pl} {part} {obj} {obj2}`);
+    if (f.cue === 'count') {
+      if (!['eq', 'gt', 'lt'].includes(f.rel)) F.push(`A ${L}: count frame "${t}" has no rel eq|gt|lt`);
+      if (!sl.includes('n') || !(sl.includes('pl') || sl.includes('part')) || sl.includes('obj')) F.push(`A ${L}: count frame "${t}" must carry {n} + {pl} (fi {part})`);
+      if (L === 'fi' && !sl.includes('part')) F.push(`A fi: count frame "${t}" must take {part} (partitive after a numeral)`);
+    } else if (f.cue === 'ordinal') {
+      if (!(+f.k >= 2 && +f.k <= 4)) F.push(`A ${L}: ordinal frame "${t}" needs k 2..4 (has ${f.k})`);
+      if (sl.join(',') !== 'obj') F.push(`A ${L}: ordinal frame "${t}" must carry exactly {obj}`);
+    } else if (f.cue === 'first' || f.cue === 'last') {
+      if (sl.join(',') !== 'obj') F.push(`A ${L}: ${f.cue} frame "${t}" must carry exactly {obj}`);
+    } else if (f.cue === 'rightof' || f.cue === 'leftof') {
+      if (sl.slice().sort().join(',') !== 'obj,obj2') F.push(`A ${L}: ${f.cue} frame "${t}" must carry {obj} + {obj2}`);
+    }
+    truthKinds.add(f.cue);
+    void i;
+  });
+  if (!truthKinds.has('count') || !(truthKinds.has('first') || truthKinds.has('last'))) F.push(`A ${L}: truth frames need a count frame and a first/last frame`);
   const dr = Array.isArray(cfg.draw) ? cfg.draw : [];
   if (dr.length < 4) F.push(`A ${L}: draw ${dr.length} < 4`);
-  for (const d of dr) { const s = slotsIn(d.text || ''); if (!s.includes('n') || !s.includes('pl')) F.push(`A ${L}: draw frame "${d.text}" lacks {n} + {pl}`); if (COLOUR_VERB.test(d.text || '')) F.push(`A ${L}: draw frame carries a colour verb`); }
+  for (const d of dr) {
+    const t = String(d.text || ''); const sl = slotsIn(t);
+    if (!sl.includes('n') || !(sl.includes('pl') || sl.includes('part'))) F.push(`A ${L}: draw frame "${t}" lacks {n} + {pl} (fi {part})`);
+    if (sl.some((x) => !['n', 'pl', 'part'].includes(x))) F.push(`A ${L}: draw frame "${t}" carries a slot outside {n} {pl} {part}`);
+    if (L === 'fi' && !sl.includes('part')) F.push(`A fi: draw frame "${t}" must take {part}`);
+    if (COLOUR_VERB.test(t)) F.push(`A ${L}: draw frame carries a colour verb`);
+    if (!/^\p{Lu}/u.test(t) || !/\.$/.test(t)) F.push(`A ${L}: draw frame "${t}" must start with a capital and end with a full stop`);
+  }
+  if (cfg.numbers != null) {
+    if (typeof cfg.numbers !== 'object') F.push(`A ${L}: numbers is not a map`);
+    else for (let k = 1; k <= 5; k++) if (typeof cfg.numbers[k] !== 'string' || !cfg.numbers[k].trim()) F.push(`A ${L}: numbers[${k}] missing (1..5 are all printable)`);
+  }
+  // a 500-statement + 200-draw sample per theme through the gate's own re-fill (statements <= 80, draw <= 96)
+  for (const theme of themes) {
+    const keys = entriesFor(theme, L).filter(countable).map((e) => e.vocabKey).filter((k) => usable(OF[k]));
+    if (keys.length < MIN_NOUNS) continue;
+    let sampled = 0, guard = 0;
+    while (sampled < 500 && guard++ < 5000 && tf.length) {
+      const fi = Math.floor(rng() * tf.length);
+      const a = keys[Math.floor(rng() * keys.length)], b = keys[(keys.indexOf(a) + 1 + Math.floor(rng() * (keys.length - 1))) % keys.length];
+      const nv = 1 + Math.floor(rng() * 5);
+      const text = refillTruth(cfg, fi, a, b, nv);
+      if (text == null) continue;
+      sampled++;
+      if (/\{/.test(text) || /  /.test(text) || / \./.test(text)) F.push(`A ${L}: statement "${text}" is malformed`);
+      if (!/^\p{Lu}/u.test(text) || !/\.$/.test(text)) F.push(`A ${L}: statement "${text}" capital/full stop`);
+      if ([...text].length > STATEMENT_CAP) F.push(`A ${L}: statement "${text}" is ${[...text].length} chars > ${STATEMENT_CAP}`);
+    }
+    if (tf.length && sampled < 100) { const msg = `A ${L}: ${theme} — only ${sampled} statements could be filled (F4 REFUSED for the theme)`; if (L === 'en') F.push(msg); else console.log('  [A] ' + msg + ' (reported)'); }
+    let ds = 0; guard = 0;
+    while (ds < 200 && guard++ < 2000 && dr.length) {
+      const fi = Math.floor(rng() * dr.length);
+      const a = keys[Math.floor(rng() * keys.length)];
+      const text = refillDraw(cfg, fi, a, 2 + Math.floor(rng() * 3));
+      if (text == null) continue;
+      ds++;
+      if (/\{/.test(text) || /  /.test(text) || / \./.test(text) || !/^\p{Lu}/u.test(text) || !/\.$/.test(text)) F.push(`A ${L}: draw text "${text}" is malformed`);
+      if ([...text].length > SENTENCE_CAP) F.push(`A ${L}: draw text "${text}" is ${[...text].length} chars > ${SENTENCE_CAP}`);
+    }
+    if (dr.length && ds < 50) { const msg = `A ${L}: ${theme} — only ${ds} draw texts could be filled (F5 REFUSED for the theme)`; if (L === 'en') F.push(msg); else console.log('  [A] ' + msg + ' (reported)'); }
+  }
   // strings
   const S = cfg.strings || {};
   const faces = ['G1-308', 'F1', 'F2', 'F3', 'F4', 'F5'];
@@ -280,6 +417,11 @@ function checkBank(cfg, loc, spec, opts = {}) {
   }
   if (new Set(titles).size !== titles.length) F.push(`A ${L}: face titles repeat`);
   if (spec && L === 'en' && S['G1-308'] && (S['G1-308'].title !== spec.i18n.en.title || S['G1-308'].instruction !== spec.i18n.en.instruction)) F.push('A en: strings[G1-308] != the spec i18n.en (two sources)');
+  if (spec && L === 'en' && opts.faceSpecs) for (const [fk, id] of Object.entries(FACE_IDS)) {
+    const fs2 = opts.faceSpecs[id];
+    if (!fs2) { F.push(`A en: face spec ${id} not loadable`); continue; }
+    if (!S[fk] || S[fk].title !== fs2.i18n.en.title || S[fk].instruction !== fs2.i18n.en.instruction) F.push(`A en: strings.${fk} != the emitted ${id} i18n.en (two sources)`);
+  }
   if (JSON.stringify(cfg).includes('{name}')) F.push(`A ${L}: a {name} slot exists in the block`);
   return F;
 }
@@ -386,11 +528,231 @@ async function renderCheck(page, type, inj, job, opts) {
   return { fails, rows: m.rows, strip: m.strip, body: m.body, instrLines: m.instrLines, laneH: m.laneH, textW: m.textW, pngPath: out.pngPath };
 }
 
+/* ---------------- F. the faces (real pipeline; face-aware measurement) ---------------- */
+const FACE_KIND = { 'G1-338': 'circle', 'G1-339': 'steps', 'G1-340': 'position', 'G1-341': 'truth', 'G1-342': 'draw' };
+const TILE_VERBS = ['circle', 'cross', 'underline', 'mark'];
+const POSITIONAL = new Set(['ordinal', 'first', 'last', 'between', 'rightof', 'leftof']);
+
+async function renderFace(page, faceType, inj, job, opts) {
+  let t = faceType;
+  if (inj) t = { ...faceType, build: (o, ctx) => faceType._buildWith(inj.bank || loadBank()[o.locale.slice(0, 2)], inj.cfg || faceType.difficulty[o.difficulty], { theme: o.theme, locale: o.locale }, ctx) };
+  if (opts && opts.post) { const inner = t.build; t = { ...t, build: async (o, ctx) => { const b = await inner.call(t, o, ctx); b.bodyHtml = opts.post(b.bodyHtml); return b; } }; }
+  const out = await renderInstance({ type: t, theme: job.theme, difficulty: 2, locale: job.locale, strings: job.strings, seedEpoch: job.seedEpoch || 1, page, outDir: OUT, baseName: job.baseName });
+  const fails = [...out.qa.lints.map((x) => 'lint: ' + x), ...out.qa.verify.map((x) => 'verify: ' + x)];
+  const cfg = (inj && inj.cfg) || faceType.difficulty[2];
+  const kind = FACE_KIND[faceType.id];
+  const m = await page.evaluate(({ pic, tile, picFloor, boxFloor, doneBox, textMaxH, laneInner, kind }) => {
+    const res = { fails: [], rows: [], cards: [], strip: [], body: 0, instrLines: 0, tiles: 0, laneH: 0, textW: 0, chipsW: 0 };
+    const body = document.querySelector('[data-lcs-body]').getBoundingClientRect();
+    res.body = Math.round(body.height);
+    res.instrLines = Math.round(document.querySelector('[data-lcs-instruction]').getBoundingClientRect().height / 23);
+    const root = document.querySelector('[data-lcs-rad]');
+    if (!root) { res.fails.push('no root'); return res; }
+    res.mode = root.dataset.lcsMode || ''; res.steps = +(root.dataset.lcsSteps || 1);
+    res.strip = (root.dataset.lcsStrip || '').split(',').filter(Boolean);
+    const inside = (r, what) => { if (r.top < body.top - 0.6 || r.bottom > body.bottom + 0.6 || r.left < body.left - 0.6 || r.right > body.right + 0.6) res.fails.push(what + ' outside the body'); };
+    if (kind !== 'draw') {
+      const lane = root.querySelector('[data-lcs-panel]');
+      if (!lane) res.fails.push('no strip panel');
+      else {
+        const lb = lane.getBoundingClientRect(); inside(lb, 'strip panel');
+        const strip = lane.querySelector('[data-lcs-lineup]');
+        if (!strip) res.fails.push('no line-up block');
+        else { const sb = strip.getBoundingClientRect(); if (sb.width > laneInner + 0.6) res.fails.push(`strip ${sb.width.toFixed(1)} > ${laneInner}`); if (sb.left < lb.left + 14 - 0.6 || sb.right > lb.right - 14 + 0.6) res.fails.push('strip outside the lane padding'); }
+        res.laneH = Math.round(lb.height);
+      }
+      const tiles = [...root.querySelectorAll('[data-lcs-idx]')];
+      res.tiles = tiles.length;
+      tiles.forEach((t, j) => {
+        const tr = t.getBoundingClientRect();
+        if (tr.width < picFloor - 0.6 || tr.height < picFloor - 0.6) res.fails.push(`tile ${j} < floor ${picFloor}`);
+        if (Math.abs(tr.width - tile) > 0.6) res.fails.push(`tile ${j} ${tr.width.toFixed(1)} wide, config says ${tile}`);
+        const img = t.querySelector('img'); const r = img ? img.getBoundingClientRect() : { width: 0, height: 0 };
+        if (Math.abs(r.height - pic) > 0.6 || Math.abs(r.width - pic) > 0.6) res.fails.push(`picture ${j} ${r.width.toFixed(1)}x${r.height.toFixed(1)}, config says ${pic}`);
+      });
+      const list = root.querySelector('[data-lcs-list]');
+      if (!list) res.fails.push('no instruction list');
+      else { const lr = list.getBoundingClientRect(); inside(lr, 'list'); if (lane && lr.top < lane.getBoundingClientRect().bottom - 0.6) res.fails.push('list overlaps the strip panel'); }
+      [...root.querySelectorAll('[data-lcs-row]')].forEach((r, i) => {
+        const R = `row ${i + 1}`;
+        const rb = r.getBoundingClientRect(); inside(rb, R);
+        const p = r.querySelector('[data-lcs-textnode]');
+        if (!p) res.fails.push(`${R}: no text node`);
+        else {
+          if (p.clientHeight > textMaxH) res.fails.push(`${R}: text ${p.clientHeight}px high > ${textMaxH} (three lines)`);
+          if (p.scrollWidth > p.clientWidth + 0.6) res.fails.push(`${R}: text overflows its column`);
+          const pr = p.getBoundingClientRect(); if (pr.bottom > rb.bottom + 0.6 || pr.top < rb.top - 0.6) res.fails.push(`${R}: text outside its row`);
+          res.textW = res.textW || Math.round(pr.width);
+        }
+        const box = r.querySelector('.ws-answerbox');
+        if (box) { const b = box.getBoundingClientRect(); if (b.height < boxFloor - 0.6) res.fails.push(`${R}: answer box ${b.height.toFixed(1)} < ${boxFloor}`); if (b.right > rb.right - 8) res.fails.push(`${R}: answer box outside the row`); }
+        const done = r.querySelector('[data-lcs-done]');
+        if (kind === 'truth') { if (done) res.fails.push(`${R}: a truth row carries a done box`); }
+        else if (!done) res.fails.push(`${R}: no done box`);
+        else { const b = done.getBoundingClientRect(); if (Math.abs(b.height - doneBox) > 0.6 || Math.abs(b.width - doneBox) > 0.6) res.fails.push(`${R}: done box != ${doneBox}`); }
+        const chips = [...r.querySelectorAll('[data-lcs-truth-chip]')];
+        if (kind === 'truth') {
+          if (chips.length !== 2) res.fails.push(`${R}: ${chips.length} chips`);
+          chips.forEach((ch) => { const cb = ch.getBoundingClientRect(); if (cb.height < 44 - 0.6) res.fails.push(`${R}: chip ${cb.height.toFixed(1)} < 44`); if (cb.right > rb.right - 8 + 0.6) res.fails.push(`${R}: chip outside the row`); if (ch.scrollWidth > ch.clientWidth + 0.6) res.fails.push(`${R}: chip text clipped`); });
+          const holder = r.querySelector('[data-lcs-truth-chips]'); if (holder) res.chipsW = Math.max(res.chipsW, Math.round(holder.getBoundingClientRect().width));
+        } else if (chips.length) res.fails.push(`${R}: chips on a non-truth row`);
+        const steps = [...r.querySelectorAll('[data-lcs-step]')].map((s) => ({ action: s.dataset.lcsAction, cue: s.dataset.lcsCue, k: s.dataset.lcsK ? +s.dataset.lcsK : null, noun: s.dataset.lcsNoun, noun2: s.dataset.lcsNoun2, targets: s.dataset.lcsTargets }));
+        res.rows.push({ action: r.dataset.lcsAction, cue: r.dataset.lcsCue, k: r.dataset.lcsK ? +r.dataset.lcsK : null, noun: r.dataset.lcsNoun, noun2: r.dataset.lcsNoun2, targets: r.dataset.lcsTargets, text: r.dataset.lcsText, answer: box ? box.dataset.lcsAnswer : null, h: Math.round(rb.height),
+          truth: r.dataset.lcsTruth, falseBy: r.dataset.lcsFalseBy, nval: r.dataset.lcsNval, rel: r.dataset.lcsRel, frame: r.dataset.lcsFrame, steps, chips: chips.map((c) => c.textContent.trim()) });
+      });
+    } else {
+      if (root.querySelector('img')) res.fails.push('an img on the draw page');
+      [...root.querySelectorAll('[data-lcs-drawcard]')].forEach((c, i) => {
+        const R = `card ${i + 1}`;
+        const sec = c.closest('.ws-card'); const cr = (sec || c).getBoundingClientRect(); inside(cr, R);
+        const p = c.querySelector('[data-lcs-textnode]');
+        if (!p) res.fails.push(`${R}: no text node`);
+        else { if (p.clientHeight > textMaxH) res.fails.push(`${R}: text ${p.clientHeight}px high > ${textMaxH}`); if (p.scrollWidth > p.clientWidth + 0.6) res.fails.push(`${R}: text overflows`); res.textW = res.textW || Math.round(p.getBoundingClientRect().width); }
+        const b = c.querySelector('[data-lcs-drawbox]'); const br = b ? b.getBoundingClientRect() : null;
+        if (!br) res.fails.push(`${R}: no draw box`);
+        res.cards.push({ noun: c.dataset.lcsNoun, nval: +c.dataset.lcsNval, frame: c.dataset.lcsFrame, text: c.dataset.lcsText, boxW: br ? Math.round(br.width) : 0, boxH: br ? Math.round(br.height) : 0, cardH: Math.round(cr.height) });
+      });
+    }
+    return res;
+  }, { pic: cfg.pic, tile: cfg.tile, picFloor: PIC_FLOOR, boxFloor: BOX_FLOOR, doneBox: DONE_BOX, textMaxH: TEXT_MAX_H, laneInner: LANE_INNER, kind });
+  fails.push(...m.fails.map((x) => 'size: ' + x));
+  if (job.strings === WORST_CHROME && m.body > WORST_BODY) fails.push(`chrome: body ${m.body} > ${WORST_BODY}`);
+  if (job.strings === WORST_CHROME && m.instrLines < 3) fails.push('chrome: WORST_CHROME wrapped to fewer than 3 instruction lines (the probe is vacuous)');
+  const bankLoc = ((inj && inj.bank) || loadBank())[job.locale.slice(0, 2)];
+  const loc = job.locale.slice(0, 2);
+  const occ = {}; m.strip.forEach((x, i) => { (occ[x] = occ[x] || []).push(i); });
+  // ---- per-face node checks + re-fill
+  if (kind === 'circle') {
+    if (m.tiles !== cfg.pics) fails.push(`count: ${m.tiles} tiles, config says ${cfg.pics}`);
+    if (m.rows.length !== cfg.rows) fails.push(`count: ${m.rows.length} rows, config says ${cfg.rows}`);
+    const ringed = new Set();
+    m.rows.forEach((r, i) => {
+      if (r.action !== 'circle') fails.push(`F1 row ${i + 1}: action "${r.action}" (every row circles)`);
+      if (!['unique', 'all'].includes(String(r.cue).split(':')[0])) fails.push(`F1 row ${i + 1}: cue "${r.cue}" outside unique/all`);
+      r.targets.split(',').filter((x) => x !== '').forEach((t) => ringed.add(+t));
+      const want = refill(bankLoc, r.action, r.cue, r.k, r.noun, r.noun2);
+      if (want == null) fails.push(`refill: row ${i + 1} has no legal sentence in the bank`); else if (want !== r.text) fails.push(`refill: row ${i + 1} prints "${r.text}", the bank fills "${want}"`);
+    });
+    if (ringed.size !== m.strip.length) fails.push(`F1: ${ringed.size} rings over ${m.strip.length} tiles (every tile is ringed exactly once)`);
+  } else if (kind === 'steps') {
+    if (m.tiles !== cfg.pics) fails.push(`count: ${m.tiles} tiles, config says ${cfg.pics}`);
+    if (m.rows.length !== cfg.rows) fails.push(`count: ${m.rows.length} rows, config says ${cfg.rows}`);
+    const used = new Set();
+    m.rows.forEach((r, i) => {
+      if (r.steps.length !== 2) { fails.push(`F2 row ${i + 1}: ${r.steps.length} steps`); return; }
+      if (r.steps[0].action === r.steps[1].action) fails.push(`F2 row ${i + 1}: both clauses ${r.steps[0].action}`);
+      r.steps.forEach((s, j) => s.targets.split(',').filter((x) => x !== '').forEach((t) => { if (used.has(+t)) fails.push(`F2 row ${i + 1} step ${j + 1}: tile ${t} marked twice on the page`); used.add(+t); }));
+      const want = rejoin(bankLoc, loc, r.steps[0], r.steps[1]);
+      if (want == null) fails.push(`rejoin: row ${i + 1} has no legal pair in the bank`); else if (want !== r.text) fails.push(`rejoin: row ${i + 1} prints "${r.text}", the bank joins "${want}"`);
+      if ([...r.text].length > SENTENCE_CAP) fails.push(`F2 row ${i + 1}: ${[...r.text].length} chars > ${SENTENCE_CAP}`);
+      if (!r.text.includes(' ' + bankLoc.and + ' ')) fails.push(`F2 row ${i + 1}: no "${bankLoc.and}" in the sentence`);
+    });
+    if (used.size > m.strip.length) fails.push('F2: more marks than tiles');
+  } else if (kind === 'position') {
+    if (m.tiles !== cfg.pics) fails.push(`count: ${m.tiles} tiles, config says ${cfg.pics}`);
+    if (m.rows.length !== cfg.rows) fails.push(`count: ${m.rows.length} rows, config says ${cfg.rows}`);
+    const kinds = new Set();
+    m.rows.forEach((r, i) => {
+      const k = String(r.cue).split(':')[0];
+      if (!POSITIONAL.has(k)) fails.push(`F3 row ${i + 1}: cue "${r.cue}" is not positional`);
+      if (!TILE_VERBS.includes(r.action)) fails.push(`F3 row ${i + 1}: action "${r.action}" is not a tile verb`);
+      kinds.add(k);
+      const want = refill(bankLoc, r.action, r.cue, r.k, r.noun, r.noun2);
+      if (want == null) fails.push(`refill: row ${i + 1} has no legal sentence in the bank`); else if (want !== r.text) fails.push(`refill: row ${i + 1} prints "${r.text}", the bank fills "${want}"`);
+    });
+    if (kinds.size < 3) fails.push(`F3: ${kinds.size} cue kinds on the page < 3 (floor)`);
+    if (new Set(m.rows.map((r) => r.action)).size < 3) fails.push('F3: fewer than 3 verbs on the page (floor)');
+  } else if (kind === 'truth') {
+    if (m.tiles !== cfg.pics) fails.push(`count: ${m.tiles} tiles, config says ${cfg.pics}`);
+    if (m.rows.length !== cfg.rows) fails.push(`count: ${m.rows.length} rows, config says ${cfg.rows}`);
+    let trues = 0;
+    m.rows.forEach((r, i) => {
+      if (r.truth === '1') trues++;
+      if (!occ[r.noun]) fails.push(`F4 row ${i + 1}: names "${r.noun}", not on the strip`);
+      if (r.noun2 && !occ[r.noun2]) fails.push(`F4 row ${i + 1}: names "${r.noun2}", not on the strip`);
+      const want = refillTruth(bankLoc, +r.frame, r.noun, r.noun2, r.nval === '' ? null : +r.nval);
+      if (want == null) fails.push(`refill: row ${i + 1} frame ${r.frame} has no legal statement in the bank`); else if (want !== r.text) fails.push(`refill: row ${i + 1} prints "${r.text}", the bank fills "${want}"`);
+      if ([...r.text].length > STATEMENT_CAP) fails.push(`F4 row ${i + 1}: ${[...r.text].length} chars > ${STATEMENT_CAP}`);
+      if (r.chips.join('|') !== bankLoc.truth.yes + '|' + bankLoc.truth.no) fails.push(`F4 row ${i + 1}: chips "${r.chips.join('|')}" != bank "${bankLoc.truth.yes}|${bankLoc.truth.no}"`);
+    });
+    if (trues !== cfg.truePerPage) fails.push(`F4: ${trues} true, config says ${cfg.truePerPage}`);
+  } else if (kind === 'draw') {
+    if (m.cards.length !== cfg.cards) fails.push(`count: ${m.cards.length} cards, config says ${cfg.cards}`);
+    const ns = new Set(), frames = new Set(), nouns = new Set();
+    m.cards.forEach((c, i) => {
+      ns.add(c.nval); frames.add(c.frame);
+      if (nouns.has(c.noun)) fails.push(`F5 card ${i + 1}: noun "${c.noun}" twice`); nouns.add(c.noun);
+      if (c.boxW !== cfg.drawW || c.boxH < cfg.drawH) fails.push(`F5 card ${i + 1}: draw box ${c.boxW}x${c.boxH} (want ${cfg.drawW} wide, >= ${cfg.drawH} high)`);
+      const want = refillDraw(bankLoc, +c.frame, c.noun, c.nval);
+      if (want == null) fails.push(`refill: card ${i + 1} frame ${c.frame} has no legal text in the bank`); else if (want !== c.text) fails.push(`refill: card ${i + 1} prints "${c.text}", the bank fills "${want}"`);
+      if (!(c.nval >= cfg.nMin && c.nval <= cfg.nMax)) fails.push(`F5 card ${i + 1}: n ${c.nval} outside ${cfg.nMin}..${cfg.nMax}`);
+    });
+    if (cfg.nMax > cfg.nMin && ns.size < 2) fails.push('F5: the count is constant across the page');
+    if (frames.size < Math.min(3, (bankLoc.draw || []).length)) fails.push(`F5: only ${frames.size} distinct frames on the page`);
+  }
+  if (kind !== 'draw' && !m.rows.length) fails.push('non-vacuity: 0 rows checked');
+  if (kind === 'draw' && !m.cards.length) fails.push('non-vacuity: 0 cards checked');
+  if (kind !== 'draw' && !m.tiles) fails.push('non-vacuity: 0 tiles checked');
+  return { fails, rows: m.rows, cards: m.cards, strip: m.strip, body: m.body, instrLines: m.instrLines, laneH: m.laneH, textW: m.textW, chipsW: m.chipsW, pngPath: out.pngPath };
+}
+
+async function runFaces(page, note, addAssertions, loc, themes, seeds) {
+  const bankLoc = loadBank()[loc];
+  const ex = bankLoc.exemplar || EXEMPLAR;
+  const faceTypes = {};
+  for (const id of Object.keys(FACE_KIND)) faceTypes[id] = loadType(id);
+  const sweepThemes = QUICK ? [ex, ...themes.filter((t) => t !== ex).slice(0, 1)] : [ex, ...themes.filter((t) => t !== ex).slice(0, 2)];
+  for (const [id, kind] of Object.entries(FACE_KIND)) {
+    const type = faceTypes[id];
+    const jobs = [];
+    for (const theme of sweepThemes) jobs.push({ theme, locale: loc, baseName: `${id}-${theme}-d2-${loc}`, tag: 'theme' });
+    jobs.push({ theme: ex, locale: loc, strings: LONG_CHROME, baseName: `${id}-${ex}-d2-${loc}-longchrome`, tag: 'long' });
+    jobs.push({ theme: ex, locale: loc, strings: WORST_CHROME, baseName: `${id}-${ex}-d2-${loc}-worstchrome`, tag: 'worst' });
+    for (let s = 2; s <= seeds; s++) jobs.push({ theme: ex, locale: loc, seedEpoch: s, baseName: `${id}-${ex}-d2-${loc}-seed${s}`, tag: 'seed' });
+    const seen = { verbs: new Set(), cues: new Set(), ks: new Set(), targets: new Set(), ordTargets: new Set(), answers: new Set(), pages: new Map(), ns: new Set(), frames: new Set(), writes: 0, trues: [] };
+    for (const job of jobs) {
+      let r;
+      try { r = await renderFace(page, type, null, job); } catch (e) { r = { thrown: e.message }; }
+      note(!r.thrown, `${job.baseName}: threw ${r.thrown}`);
+      if (r.thrown) { console.log(`[F] ${job.baseName}: THREW ${r.thrown}`); continue; }
+      addAssertions(10 * (r.rows.length + r.cards.length) + 3 * r.strip.length);
+      note(r.fails.length === 0, `${job.baseName}: ${r.fails.join(' | ')}`);
+      const key = r.strip.join(',') + '|' + r.rows.map((x) => x.text).join('/') + r.cards.map((x) => x.text).join('/');
+      if (job.tag === 'seed' || (job.tag === 'theme' && job.theme === ex)) { const prev = seen.pages.get(key); note(!prev, `${job.baseName}: byte-identical page to ${prev}`); seen.pages.set(key, job.baseName); }
+      for (const row of r.rows) {
+        const steps = row.steps.length ? row.steps : [row];
+        for (const s of steps) { seen.verbs.add(s.action); seen.cues.add(String(s.cue).split(':')[0]); if (s.k) seen.ks.add(s.k); String(s.targets || '').split(',').filter((x) => x !== '').forEach((t) => { seen.targets.add(+t); if (String(s.cue).startsWith('ordinal') || ['between', 'rightof', 'leftof'].includes(String(s.cue))) seen.ordTargets.add(+t); }); if (s.action === 'write') seen.writes++; }
+        if (row.answer != null) seen.answers.add(row.answer);
+        if (row.truth) seen.trues.push(row.truth);
+      }
+      for (const c of r.cards) { seen.ns.add(c.nval); seen.frames.add(c.frame); }
+      if (job.tag !== 'seed') console.log(`[F] ${job.baseName}: body ${r.body} (${r.instrLines}-line instruction), lane ${r.laneH}, rows ${r.rows.map((x) => x.h).join('/')}${r.cards.length ? ' cards ' + r.cards.map((x) => x.cardH + ':' + x.boxH).join('/') : ''}${r.chipsW ? ' chips ' + r.chipsW : ''} [${r.rows.map((x) => (x.steps.length ? x.steps.map((s) => s.action[0] + ':' + s.cue).join('+') : (x.truth != null ? (x.truth === '1' ? 'T' : 'F') + ':' : x.action[0] + ':') + x.cue)).join(' ')}${r.cards.map((x) => x.nval + x.noun).join(' ')}] ${r.fails.length ? 'FAIL ' + r.fails.join(' | ') : 'ok'}`);
+    }
+    // sweep floors
+    const cfg = type.difficulty[2];
+    if (kind === 'circle') { note([...seen.verbs].join(',') === 'circle', `F1 sweep: verbs ${[...seen.verbs].join(',')} (want circle only)`); note(seen.cues.has('unique') && seen.cues.has('all'), `F1 sweep: cues ${[...seen.cues].join(',')} (want unique + all)`); }
+    if (kind === 'steps') {
+      // `line` (two disjoint unique tiles inside the 3-per-cue cap) surfaces on ~1 page in 12 (measured 120-page probe): the full 20-seed sweep asks every verb; --quick asks all but at most one
+      const missing = cfg.verbs.filter((v) => !seen.verbs.has(v));
+      note(QUICK ? missing.length <= 1 && !missing.includes('write') : missing.length === 0, `F2 sweep: verbs never asked: ${missing.join(',')}`);
+      note(seen.writes > 0 && seen.answers.size >= 2, `F2 sweep: write steps ${seen.writes}, answers ${[...seen.answers].join(',')}`);
+    }
+    if (kind === 'position') { note(cfg.cues.every((c) => seen.cues.has(c)), `F3 sweep: cues never asked: ${cfg.cues.filter((c) => !seen.cues.has(c)).join(',')}`); note([...seen.ks].filter((k) => k >= 2 && k <= cfg.ordMax).length >= 2, `F3 sweep: ordinal k ${[...seen.ks].join(',')} (want >= 2 distinct in 2..${cfg.ordMax})`); note(seen.ordTargets.size >= 3, `F3 sweep: positional targets ${[...seen.ordTargets].join(',')} (constant — want >= 3 distinct indices)`); }
+    if (kind === 'truth') { note(cfg.cues.every((c) => seen.cues.has(c)), `F4 sweep: cues never asked: ${cfg.cues.filter((c) => !seen.cues.has(c)).join(',')}`); note(seen.trues.length > 0, 'F4 sweep: no truth stamps'); }
+    if (kind === 'draw') { note(seen.ns.size >= 2, `F5 sweep: n ${[...seen.ns].join(',')}`); note(seen.frames.size >= Math.min(4, (bankLoc.draw || []).length), `F5 sweep: frames ${[...seen.frames].join(',')} (want >= 4 distinct)`); }
+    console.log(`[F] ${id} (${kind}) sweep over ${seeds} seeds: verbs ${[...seen.verbs].join(',')} · cues ${[...seen.cues].join(',')} · k ${[...seen.ks].sort().join(',')} · targets ${[...seen.targets].sort((a, b) => a - b).join(',')} · n ${[...seen.ns].sort().join(',')} · ${seen.pages.size} distinct pages`);
+  }
+  return faceTypes;
+}
+
 async function main() {
   const locales = arg('locales', 'en').split(',');
   const themesArg = arg('themes');
   const seeds = +arg('seeds', QUICK ? 6 : 20);
   const type = loadType('G1-308');
+  const faceSpecs = {};
+  for (const id of Object.values(FACE_IDS)) { try { faceSpecs[id] = loadType(id); } catch (e) { faceSpecs[id] = null; } }
+  let faceTypes = null;
   let assertions = 0;
   const failures = [];
   const note = (ok, msg) => { assertions++; if (!ok) failures.push(msg); };
@@ -405,7 +767,7 @@ async function main() {
       note(!!cfg, `no ${loc} block in the bank`);
       if (!cfg) continue;
       // ---- A
-      const a = checkBank(cfg, loc, type);
+      const a = checkBank(cfg, loc, type, { faceSpecs });
       assertions += 80;
       failures.push(...a);
       console.log(`[A] ${loc}: ${Object.keys(cfg.objForms || {}).length} object entries · ${a.length} data faults`);
@@ -467,6 +829,9 @@ async function main() {
         note(missingCues.length === 0, `d${d} sweep: cues never asked: ${missingCues.join(',')}`);
         console.log(`[C] d${d} sweep over ${seeds} seeds: verbs ${[...S.verbs].join(',')} · cues ${[...S.cues].join(',')} · ordinal k ${[...S.ks].sort().join(',')} · write answers ${[...S.answers].sort().join(',')} · ${S.pages.size} distinct pages`);
       }
+      // ---- F. the five faces
+      const ft = await runFaces(page, note, (n) => { assertions += n; }, loc, themes, seeds);
+      if (loc === 'en') faceTypes = ft;
     }
 
     // ---- D. poisons (en; each must FAIL; control = the correct bank + page)
@@ -479,7 +844,7 @@ async function main() {
     note(controlD3.fails.length === 0, 'control d3 did not pass: ' + controlD3.fails.join(' | '));
 
     const poisons = [];
-    const deferred = ['P5 F4 false statement about a noun absent from the strip', 'P8 F2 both clauses circle'];
+    const deferred = [];   // P5 + P8 are FACE poisons now (below)
     const silent = (f) => 'silent (' + (f[0] || 'no fault') + ')';
     // synthetic correct-shaped non-EN blocks (the correct shape is asserted clean FIRST, then mutated)
     const synth = (ploc, mut, themes) => {
@@ -499,6 +864,10 @@ async function main() {
       if (ploc === 'sv') { b.endpointForm = 'def'; b.verbs = [{ id: 'circle', frame: 'Ringa in {obj}.' }, { id: 'cross', frame: 'Stryk över {all}.' }, { id: 'underline', frame: 'Stryk under {obj}.' }, { id: 'line', frame: 'Dra ett streck mellan {def} och {def2}.' }, { id: 'mark', frame: 'Sätt ett kryss på {def}.' }, { id: 'write', frame: 'Skriv hur många {pl} det finns.' }]; b.fixed = { first: 'den första bilden', last: 'den sista bilden', ordPic: cfg.fixed.ordPic, between: 'bilden mellan {A} och {B}', rightof: 'bilden till höger om {A}', leftof: 'bilden till vänster om {A}' }; b.mark = 'cross'; b.and = 'och'; }
       if (ploc === 'fi') { b.endpointForm = 'gen'; b.verbs = [{ id: 'circle', frame: 'Ympyröi {obj}.' }, { id: 'cross', frame: 'Yliviivaa {all}.' }, { id: 'underline', frame: 'Alleviivaa {obj}.' }, { id: 'line', frame: 'Yhdistä {obj} ja {obj2} viivalla.' }, { id: 'mark', frame: 'Merkitse {obj} rastilla.' }, { id: 'write', frame: 'Kirjoita, montako {part} on.' }]; b.fixed = { first: 'ensimmäinen kuva', last: 'viimeinen kuva', ordPic: cfg.fixed.ordPic, between: 'kuva, joka on {A} ja {B} välissä', rightof: 'kuva {A} oikealla puolella', leftof: 'kuva {A} vasemmalla puolella' }; b.mark = 'cross'; b.and = 'ja'; }
       b.strings = clone(cfg.strings);
+      if (ploc === 'fi') {   // fi count/draw frames take the partitive (the gate's own fi rule)
+        b.truth = clone(cfg.truth); b.truth.frames = b.truth.frames.map((f) => ({ ...f, text: f.text.replace('{pl}', '{part}') }));
+        b.draw = cfg.draw.map((f) => ({ ...f, text: f.text.replace('{pl}', '{part}') }));
+      }
       const ctrl = checkBank(b, ploc, null, { themes: T });
       if (ctrl.length) throw new Error('synthetic ' + ploc + ' control is not clean: ' + ctrl.join(' | '));
       mut(b);
@@ -629,6 +998,96 @@ async function main() {
       return 'silent (no seed offered an unreferenced tile to swap)';
     } });
 
+    // ---- face poisons (Phase 2): each face's clean d2 page is its control (asserted in section F)
+    if (!faceTypes) throw new Error('face poisons need the en faces (run with en in --locales)');
+    const faceSpecsEn = faceTypes;
+    const facePoison = (name, id, post, want, extra) => poisons.push({ name, run: async () => {
+      const r = await renderFace(page, faceSpecsEn[id], (extra && extra.inj) || null, { theme: ex, locale: loc, ...((extra && extra.job) || {}), baseName: 'G1-308-poison-' + name.replace(/[^a-z0-9]+/gi, '-').slice(0, 28).toLowerCase() }, { post });
+      return r.fails.some((x) => want.test(x)) ? null : silent(r.fails);
+    } });
+    const tagOf = (html, sel) => { const m = html.match(sel); if (!m) throw new Error('NEEDLE MATCHED NOTHING (' + sel + ')'); return m[0]; };
+    const setAttr = (tag, name, val) => { const re = new RegExp(name + '="[^"]*"'); if (!re.test(tag)) throw new Error('NEEDLE MATCHED NOTHING (' + name + ')'); return tag.replace(re, name + '="' + esc(val) + '"'); };
+    const attrOf = (tag, name) => { const m = tag.match(new RegExp(name + '="([^"]*)"')); return m ? m[1].replace(/&quot;/g, '"').replace(/&amp;/g, '&') : null; };
+    const reEsc = (x) => String(x).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const setText = (html, oldText, newText) => need(html, new RegExp('(data-lcs-textnode[^>]*>)' + reEsc(esc(oldText)) + '(</p>)'), (m, a, b) => a + esc(newText) + b, 'text node');
+    const rowTag = (html, i, extraSel) => tagOf(html, new RegExp('<div data-lcs-row data-lcs-n="' + i + '"[^>]*' + (extraSel || '') + '[^>]*>'));
+    const stripOfF = (html) => html.match(/data-lcs-strip="([^"]+)"/)[1].split(',');
+    // P5 — F4: a FALSE positional statement re-pointed at a noun that is NOT on the strip (text re-filled so only the strip rule can catch it)
+    facePoison('P5 F4 false statement about a noun absent from the strip', 'G1-341', (html) => {
+      const strip = stripOfF(html);
+      const cueTag = tagOf(html, /<div data-lcs-row data-lcs-n="\d+"[^>]*data-lcs-cue="(first|last|ordinal:\d)"[^>]*data-lcs-truth="0"[^>]*>/);
+      const absent = Object.keys(cfg.objForms).find((k) => !strip.includes(k) && entriesFor(ex, 'en').some((e) => e.vocabKey === k));
+      const oldText = attrOf(cueTag, 'data-lcs-text');
+      const newText = refillTruth(cfg, +attrOf(cueTag, 'data-lcs-frame'), absent, '', null);
+      let nt = setAttr(cueTag, 'data-lcs-noun', absent); nt = setAttr(nt, 'data-lcs-text', newText);
+      return setText(html.replace(cueTag, nt), oldText, newText);
+    }, /not on the strip/);
+    // P8 — F2: both clauses the same verb (step 2's action set to step 1's)
+    facePoison('P8 F2 both clauses circle', 'G1-339', (html) => {
+      const s1 = tagOf(html, /<span data-lcs-step="1"[^>]*>/), s2 = tagOf(html, /<span data-lcs-step="2"[^>]*>/);
+      return html.replace(s2, setAttr(s2, 'data-lcs-action', attrOf(s1, 'data-lcs-action')));
+    }, /both clauses|DIFFERENT/);
+    // PF1 — F1: a row's ring dropped (targets emptied) → fewer than 8 rings over 8 tiles
+    facePoison('PF1 F1 a ring dropped (7 rings over 8 tiles)', 'G1-338', (html) => { const t = rowTag(html, 1); return html.replace(t, setAttr(t, 'data-lcs-targets', '')); }, /rings over|re-derive|no targets/);
+    // PF2a — F2: both steps of one row on one tile
+    facePoison('PF2a F2 both steps of one row on one tile', 'G1-339', (html) => {
+      // the first row whose step 1 MARKS a tile (a write step marks none — mutating its partner to "0" could be a no-op)
+      const rows = html.match(/<div data-lcs-row [^>]*>[\s\S]*?<span data-lcs-step="2"[^>]*>/g) || [];
+      for (const row of rows) {
+        const s1 = tagOf(row, /<span data-lcs-step="1"[^>]*>/), s2 = tagOf(row, /<span data-lcs-step="2"[^>]*>/);
+        const t1 = (attrOf(s1, 'data-lcs-targets') || '').split(',').filter((x) => x !== '');
+        if (!t1.length) continue;
+        return html.replace(s2, setAttr(s2, 'data-lcs-targets', t1[0]));
+      }
+      throw new Error('NEEDLE MATCHED NOTHING (a row whose step 1 marks a tile)');
+    }, /marked twice in one row/);
+    // PF2b — F2: the joined sentence hand-edited (" and " → " then ")
+    facePoison('PF2b F2 the joined sentence hand-edited', 'G1-339', (html) => {
+      const t = rowTag(html, 1); const old = attrOf(t, 'data-lcs-text');
+      if (!old.includes(' and ')) throw new Error('NEEDLE MATCHED NOTHING (and)');
+      const nt = old.replace(' and ', ' then ');
+      return setText(html.replace(t, setAttr(t, 'data-lcs-text', nt)), old, nt);
+    }, /rejoin|"and"/);
+    // PF3 — F3: a row re-cued to `unique` (not positional), text re-filled
+    facePoison('PF3 F3 a unique-cue row on the position face', 'G1-340', (html) => {
+      const strip = stripOfF(html); const occ = {}; strip.forEach((n, i) => { (occ[n] = occ[n] || []).push(i); });
+      const uniq = Object.keys(occ).find((n) => occ[n].length === 1);
+      const t = rowTag(html, 1); const old = attrOf(t, 'data-lcs-text'); const action = attrOf(t, 'data-lcs-action');
+      const nt = refill(cfg, action, 'unique', null, uniq, '');
+      let x = setAttr(t, 'data-lcs-cue', 'unique'); x = setAttr(x, 'data-lcs-noun', uniq); x = setAttr(x, 'data-lcs-noun2', ''); x = setAttr(x, 'data-lcs-targets', String(occ[uniq][0])); x = setAttr(x, 'data-lcs-text', nt); x = x.replace(/ data-lcs-k="\d+"/, '');
+      return setText(html.replace(t, x), old, nt);
+    }, /not positional|not in the config cues/);
+    // PF4a — F4: a truth stamp flipped
+    facePoison('PF4a F4 a truth stamp flipped', 'G1-341', (html) => { const t = rowTag(html, 1); return html.replace(t, setAttr(t, 'data-lcs-truth', attrOf(t, 'data-lcs-truth') === '1' ? '0' : '1')); }, /the strip says/);
+    // PF4b — F4: chips reordered no | yes
+    facePoison('PF4b F4 chips reordered (no | yes)', 'G1-341', (html) => {
+      const holder = tagOf(html, /<span data-lcs-truth-chips[^>]*>[\s\S]*?<\/span><\/span>/);
+      const chips = holder.match(/<span class="ws-pill" data-lcs-truth-chip="[^"]+"[^>]*>[^<]*<\/span>/g);
+      if (!chips || chips.length !== 2) throw new Error('NEEDLE MATCHED NOTHING (chips)');
+      return html.replace(holder, holder.replace(chips[0] + chips[1], chips[1] + chips[0]));
+    }, /yes \| no|not to the right/);
+    // PF4c — F4: the page claims four true statements (root stamp) over a 3/3 page
+    facePoison('PF4c F4 four true statements claimed', 'G1-341', (html) => need(html, /data-lcs-trueper="3"/, () => 'data-lcs-trueper="4"', 'trueper'), /true statements, config says/);
+    // PF4d — F4: a hand-edited noun in a statement (the re-fill)
+    facePoison('PF4d F4 a hand-edited noun in a statement', 'G1-341', (html) => {
+      const t = rowTag(html, '\\d+', 'data-lcs-cue="count"'); const old = attrOf(t, 'data-lcs-text'); const noun = attrOf(t, 'data-lcs-noun');
+      const lit = cfg.objForms[noun].pl; const other = Object.keys(cfg.objForms).find((k) => k !== noun && cfg.objForms[k].pl.length !== lit.length);
+      if (!old.includes(lit)) throw new Error('NEEDLE MATCHED NOTHING (pl literal)');
+      const nt = old.replace(lit, cfg.objForms[other].pl);
+      return setText(html.replace(t, setAttr(t, 'data-lcs-text', nt)), old, nt);
+    }, /^refill: .* the bank fills/);
+    // PF5a — F5: a picture on the draw page
+    facePoison('PF5a F5 a picture on the draw page', 'G1-342', (html) => need(html, /(<div data-lcs-drawcard[^>]*>)/, (m, a) => a + '<img src="' + fileUri(ex, 'cat') + '" style="width:44px;height:44px">', 'card'), /picture|img/);
+    // PF5b — F5: a draw box below the 140 floor
+    facePoison('PF5b F5 a draw box below 140', 'G1-342', (html) => need(html, /flex:1 1 140px;min-height:140px/, () => 'flex:0 0 100px;min-height:100px', 'draw box'), />= 140/);
+    // PF5c — F5: the count constant across the page
+    facePoison('PF5c F5 the count constant', 'G1-342', (html) => need(html, /data-lcs-nval="\d"/g, () => 'data-lcs-nval="2"', 'nval'), /constant|refill/);
+    // bank-side face poisons
+    enBankPoison('PB1 a count frame without rel', (b) => { delete b.truth.frames[0].rel; }, /no rel/);
+    bankPoison('PB2 a fi draw frame taking {pl}', 'fi', (b) => { b.draw[0].text = b.draw[0].text.replace('{part}', '{pl}'); }, /must take \{part\}/);
+    enBankPoison('PB3 an 81-char statement frame', (b) => { b.truth.frames.push({ text: 'There are {n} {pl} in the row, and every one of them is looking straight at you now.', cue: 'count', rel: 'eq' }); }, /> 80/);
+    poisons.push({ name: 'PB4 strings.F1 drifting from the emitted G1-338', run: async () => { const b = clone(cfg); b.strings.F1.title = 'Read and Ring'; const f = checkBank(b, 'en', type, { faceSpecs }); return f.some((x) => /!= the emitted/.test(x)) ? null : silent(f); } });
+
     let killed = 0;
     for (const p of poisons) {
       let res; try { res = await p.run(); } catch (e) { res = 'threw ' + e.message; }
@@ -640,7 +1099,7 @@ async function main() {
     note(killed === poisons.length, `${poisons.length - killed} poison(s) survived`);
     const verdict = failures.length === 0;
     if (failures.length) console.log('FAILS:\n  ' + failures.join('\n  '));
-    console.log(`G1-308 gate: ${assertions} assertions, ${failures.length} failures, poisons ${killed}/${poisons.length} killed (${deferred.length} deferred to the faces) → ${verdict ? 'PASS' : 'FAIL'}`);
+    console.log(`G1-308 gate: ${verdict ? 'PASS' : 'FAIL'} (${assertions} assertions, ${killed}/${poisons.length} poisons killed${failures.length ? ', ' + failures.length + ' failures' : ''})`);
     process.exitCode = verdict ? 0 : 1;
   } finally {
     await browser.close();
@@ -648,4 +1107,4 @@ async function main() {
 }
 
 if (require.main === module) main().catch((e) => { console.error(e && e.stack || e); process.exit(1); });
-module.exports = { checkBank, refill, FAN_THEMES, LONG_CHROME, WORST_CHROME };
+module.exports = { checkBank, refill, refillTruth, refillDraw, rejoin, FAN_THEMES, LONG_CHROME, WORST_CHROME, FACE_IDS };

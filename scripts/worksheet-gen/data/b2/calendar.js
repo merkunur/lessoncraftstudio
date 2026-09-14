@@ -26,7 +26,7 @@ function ordinal(style, n) {
   if (style === 'dot') return n + '.';
   if (style === 'fr') return n === 1 ? '1er' : String(n);
   if (style === 'nl') return n + 'e';
-  if (style === 'sv') return n + ':e';
+  if (style === 'sv') { const t = n % 10, h = n % 100; return n + ((t === 1 || t === 2) && h !== 11 && h !== 12 ? ':a' : ':e'); } // 1:a 2:a 21:a 22:a 31:a; 3:e 11:e 12:e
   return String(n);
 }
 

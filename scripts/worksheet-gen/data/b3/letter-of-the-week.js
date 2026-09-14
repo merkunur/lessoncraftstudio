@@ -14,7 +14,9 @@
  *     letters: [{ L, upper, pair, avoid,
  *        items: [{theme, noun, key, word, graphemes, pos, split}],   pos 0 = initial hit; > 0 medial/final (faces 2-4)
  *        foils: [{theme, noun, key, word}] }],                       NFD base free of L
- *     units: [{u, upper, band, items, foils}],   face 5 (>= 3 or refuse)
+ *     unitExemplar: 'sh',             the unit a unit-less G1-311 build() renders (face 5)
+ *     units: [{u, upper, band, items, foils}],   face 5 (>= 3 or refuse): items carry the unit as
+ *        ONE grapheme (pos = its index); foils carry the component letters separately, no unit substring
  *     refuse: {},  strings: {'K-317': {title, instruction}, ...faces}
  *   }
  *
@@ -277,14 +279,128 @@ const LETTER_OF_THE_WEEK = {
       ],
     },
     ],
-    // face 5 units (sh / ch / th) are authored with the faces in Phase 2 — the
-    // grapheme-true subset needs the en panel's marking (critic open item 4).
-    units: [],
+    unitExemplar: 'sh',
+    // face 5 units (design §3 F5): every item carries the unit as ONE grapheme (the digraph is never a
+    // morpheme-seam s+h / t+h: grasshopper, lighthouse, mishap-class words are excluded by hand); every
+    // foil carries the component letters SEPARATELY and no unit substring. en F5 = K readiness, no code.
+    units: [
+    {
+      u: 'sh', upper: 'Sh', band: 'K',
+      items: [
+      { theme: 'ocean life', noun: 'shark', key: 'shark', word: 'shark', graphemes: ['sh', 'a', 'r', 'k'], pos: 0, split: ['shark'] },
+      { theme: 'animals', noun: 'sheep', key: 'sheep', word: 'sheep', graphemes: ['sh', 'e', 'e', 'p'], pos: 0, split: ['sheep'] },
+      { theme: 'vehicles', noun: 'ship', key: 'ship', word: 'ship', graphemes: ['sh', 'i', 'p'], pos: 0, split: ['ship'] },
+      { theme: 'clothing', noun: 'shirt', key: 'shirt', word: 'shirt', graphemes: ['sh', 'i', 'r', 't'], pos: 0, split: ['shirt'] },
+      { theme: 'clothing', noun: 'shoe', key: 'shoe', word: 'shoe', graphemes: ['sh', 'o', 'e'], pos: 0, split: ['shoe'] },
+      { theme: 'clothing', noun: 'shorts', key: 'shorts', word: 'shorts', graphemes: ['sh', 'o', 'r', 't', 's'], pos: 0, split: ['shorts'] },
+      { theme: 'beach', noun: 'shovel', key: 'shovel', word: 'shovel', graphemes: ['sh', 'o', 'v', 'e', 'l'], pos: 0, split: ['shov', 'el'] },
+      { theme: 'furniture', noun: 'shelf', key: 'shelf', word: 'shelf', graphemes: ['sh', 'e', 'l', 'f'], pos: 0, split: ['shelf'] },
+      { theme: 'pets', noun: 'fish', key: 'fish', word: 'fish', graphemes: ['f', 'i', 'sh'], pos: 2, split: ['fish'] },
+      { theme: 'around the house', noun: 'brush', key: 'brush', word: 'brush', graphemes: ['b', 'r', 'u', 'sh'], pos: 3, split: ['brush'] },
+      { theme: 'ocean life', noun: 'shrimp', key: 'shrimp', word: 'shrimp', graphemes: ['sh', 'r', 'i', 'm', 'p'], pos: 0, split: ['shrimp'] },
+      { theme: 'ocean life', noun: 'starfish', key: 'starfish', word: 'starfish', graphemes: ['s', 't', 'a', 'r', 'f', 'i', 'sh'], pos: 6, split: ['star', 'fish'] },
+      { theme: 'beach', noun: 'jellyfish', key: 'jellyfish', word: 'jellyfish', graphemes: ['j', 'e', 'l', 'l', 'y', 'f', 'i', 'sh'], pos: 7, split: ['jel', 'lyf', 'ish'] },
+      { theme: 'vegetables', noun: 'radish', key: 'radish', word: 'radish', graphemes: ['r', 'a', 'd', 'i', 'sh'], pos: 4, split: ['rad', 'ish'] },
+      { theme: 'around the house', noun: 'toothbrush', key: 'toothbrush', word: 'toothbrush', graphemes: ['t', 'o', 'o', 't', 'h', 'b', 'r', 'u', 'sh'], pos: 8, split: ['toot', 'hbrush'] },
+      { theme: 'desserts and sweets', noun: 'milkshake', key: 'milkshake', word: 'milkshake', graphemes: ['m', 'i', 'l', 'k', 'sh', 'a', 'k', 'e'], pos: 4, split: ['mil', 'kshake'] },
+      { theme: 'beach', noun: 'seashell', key: 'seashell', word: 'seashell', graphemes: ['s', 'e', 'a', 'sh', 'e', 'l', 'l'], pos: 3, split: ['seas', 'hell'] },
+      ],
+      foils: [
+      { theme: 'animals', noun: 'horse', key: 'horse', word: 'horse' },
+      { theme: 'miscellaneous', noun: 'house', key: 'house', word: 'house' },
+      { theme: 'around the house', noun: 'hose', key: 'hose', word: 'hose' },
+      { theme: 'pets', noun: 'hamster', key: 'hamster', word: 'hamster' },
+      { theme: 'kitchen tools', noun: 'whisk', key: 'whisk', word: 'whisk' },
+      { theme: 'miscellaneous', noun: 'ghost', key: 'ghost', word: 'ghost' },
+      { theme: 'christmas', noun: 'sleigh', key: 'sleigh', word: 'sleigh' },
+      { theme: 'tools', noun: 'handsaw', key: 'handsaw', word: 'handsaw' },
+      ],
+    },
+    {
+      u: 'ch', upper: 'Ch', band: 'K',
+      items: [
+      { theme: 'furniture', noun: 'chair', key: 'chair', word: 'chair', graphemes: ['ch', 'a', 'i', 'r'], pos: 0, split: ['chair'] },
+      { theme: 'breakfast', noun: 'cheese', key: 'cheese', word: 'cheese', graphemes: ['ch', 'e', 'e', 's', 'e'], pos: 0, split: ['cheese'] },
+      { theme: 'fruits', noun: 'cherry', key: 'cherry', word: 'cherry', graphemes: ['ch', 'e', 'r', 'r', 'y'], pos: 0, split: ['cher', 'ry'] },
+      { theme: 'easter', noun: 'chick', key: 'chick', word: 'chick', graphemes: ['ch', 'i', 'c', 'k'], pos: 0, split: ['chick'] },
+      { theme: 'farm animals', noun: 'chicken', key: 'chicken', word: 'chicken', graphemes: ['ch', 'i', 'c', 'k', 'e', 'n'], pos: 0, split: ['chic', 'ken'] },
+      { theme: 'easter', noun: 'chocolate', key: 'chocolate', word: 'chocolate', graphemes: ['ch', 'o', 'c', 'o', 'l', 'a', 't', 'e'], pos: 0, split: ['choc', 'ol', 'ate'] },
+      { theme: 'christmas', noun: 'church', key: 'church', word: 'church', graphemes: ['ch', 'u', 'r', 'ch'], pos: 0, split: ['church'] },
+      { theme: 'furniture', noun: 'couch', key: 'couch', word: 'couch', graphemes: ['c', 'o', 'u', 'ch'], pos: 3, split: ['couch'] },
+      { theme: 'furniture', noun: 'bench', key: 'bench', word: 'bench', graphemes: ['b', 'e', 'n', 'ch'], pos: 3, split: ['bench'] },
+      { theme: 'fruits', noun: 'peach', key: 'peach', word: 'peach', graphemes: ['p', 'e', 'a', 'ch'], pos: 3, split: ['peach'] },
+      { theme: 'accessories', noun: 'watch', key: 'watch', word: 'watch', graphemes: ['w', 'a', 't', 'ch'], pos: 3, split: ['watch'] },
+      { theme: 'zoo animals', noun: 'cheetah', key: 'cheetah', word: 'cheetah', graphemes: ['ch', 'e', 'e', 't', 'a', 'h'], pos: 0, split: ['cheet', 'ah'] },
+      { theme: 'christmas', noun: 'chimney', key: 'chimney', word: 'chimney', graphemes: ['ch', 'i', 'm', 'n', 'e', 'y'], pos: 0, split: ['chim', 'ney'] },
+      { theme: 'classroom', noun: 'lunchbox', key: 'lunchbox', word: 'lunchbox', graphemes: ['l', 'u', 'n', 'ch', 'b', 'o', 'x'], pos: 3, split: ['lun', 'chbox'] },
+      { theme: 'around the house', noun: 'kitchen', key: 'kitchen', word: 'kitchen', graphemes: ['k', 'i', 't', 'ch', 'e', 'n'], pos: 3, split: ['kit', 'chen'] },
+      { theme: 'hospital', noun: 'wheelchair', key: 'wheelchair', word: 'wheelchair', graphemes: ['w', 'h', 'e', 'e', 'l', 'ch', 'a', 'i', 'r'], pos: 5, split: ['wheel', 'chair'] },
+      { theme: 'birds', noun: 'ostrich', key: 'ostrich', word: 'ostrich', graphemes: ['o', 's', 't', 'r', 'i', 'ch'], pos: 5, split: ['os', 'trich'] },
+      ],
+      foils: [
+      { theme: 'camping', noun: 'hammock', key: 'hammock', word: 'hammock' },
+      { theme: 'vehicles', noun: 'helicopter', key: 'helicopter', word: 'helicopter' },
+      { theme: 'flowers', noun: 'hibiscus', key: 'hibiscus', word: 'hibiscus' },
+      { theme: 'winter', noun: 'hockey', key: 'hockey', word: 'hockey' },
+      { theme: 'zoo animals', noun: 'rhinoceros', key: 'rhinoceros', word: 'rhinoceros' },
+      { theme: 'occupations', noun: 'pharmacist', key: 'pharmacist', word: 'pharmacist' },
+      ],
+    },
+    {
+      u: 'th', upper: 'Th', band: 'K',
+      items: [
+      { theme: 'body parts', noun: 'thumb', key: 'thumb', word: 'thumb', graphemes: ['th', 'u', 'm', 'b'], pos: 0, split: ['thumb'] },
+      { theme: 'body parts', noun: 'tooth', key: 'tooth', word: 'tooth', graphemes: ['t', 'o', 'o', 'th'], pos: 3, split: ['tooth'] },
+      { theme: 'around the house', noun: 'toothbrush', key: 'toothbrush', word: 'toothbrush', graphemes: ['t', 'o', 'o', 'th', 'b', 'r', 'u', 's', 'h'], pos: 3, split: ['toot', 'hbrush'] },
+      { theme: 'around the house', noun: 'toothpaste', key: 'toothpaste', word: 'toothpaste', graphemes: ['t', 'o', 'o', 'th', 'p', 'a', 's', 't', 'e'], pos: 3, split: ['toot', 'hpaste'] },
+      { theme: 'around the house', noun: 'bathtub', key: 'bathtub', word: 'bathtub', graphemes: ['b', 'a', 'th', 't', 'u', 'b'], pos: 2, split: ['bat', 'htub'] },
+      { theme: 'easter', noun: 'feather', key: 'feather', word: 'feather', graphemes: ['f', 'e', 'a', 'th', 'e', 'r'], pos: 3, split: ['feat', 'her'] },
+      { theme: 'body parts', noun: 'mouth', key: 'mouth', word: 'mouth', graphemes: ['m', 'o', 'u', 'th'], pos: 3, split: ['mouth'] },
+      { theme: 'space', noun: 'earth', key: 'earth', word: 'earth', graphemes: ['e', 'a', 'r', 'th'], pos: 3, split: ['earth'] },
+      { theme: 'forest creatures', noun: 'earthworm', key: 'earthworm', word: 'earthworm', graphemes: ['e', 'a', 'r', 'th', 'w', 'o', 'r', 'm'], pos: 3, split: ['ear', 'thworm'] },
+      { theme: 'christmas', noun: 'wreath', key: 'wreath', word: 'wreath', graphemes: ['w', 'r', 'e', 'a', 'th'], pos: 4, split: ['wreath'] },
+      { theme: 'weather', noun: 'thermometer', key: 'thermometer', word: 'thermometer', graphemes: ['th', 'e', 'r', 'm', 'o', 'm', 'e', 't', 'e', 'r'], pos: 0, split: ['ther', 'mom', 'et', 'er'] },
+      { theme: 'zoo animals', noun: 'sloth', key: 'sloth', word: 'sloth', graphemes: ['s', 'l', 'o', 'th'], pos: 3, split: ['sloth'] },
+      ],
+      foils: [
+      { theme: 'clothing', noun: 'hat', key: 'hat', word: 'hat' },
+      { theme: 'shapes', noun: 'heart', key: 'heart', word: 'heart' },
+      { theme: 'zoo animals', noun: 'elephant', key: 'elephant', word: 'elephant' },
+      { theme: 'around the house', noun: 'telephone', key: 'telephone', word: 'telephone' },
+      { theme: 'pets', noun: 'hamster', key: 'hamster', word: 'hamster' },
+      { theme: 'bakery', noun: 'doughnut', key: 'doughnut', word: 'doughnut' },
+      { theme: 'christmas', noun: 'lights', key: 'lights', word: 'lights' },
+      { theme: 'occupations', noun: 'firefighter', key: 'firefighter', word: 'firefighter' },
+      ],
+    },
+    ],
     refuse: {},
     strings: {
       'K-317': {
         title: 'Letter of the Week: {U}{L}',
         instruction: 'Trace the big and small letter, circle the four pictures whose name begins with {U}, then write a row of each.',
+      },
+      // faces (nt20-C Phase 2) — the SAME strings live in the emitted specs' i18n.en (tools/b3var-rows/letter-of-the-week.js);
+      // the gate asserts bank === spec so the two copies cannot drift.
+      'K-325': {
+        title: 'Words with {U}: Hear It Anywhere',
+        instruction: 'Trace the letter, then circle the four pictures that have the {U} sound somewhere inside the word, not at the start.',
+      },
+      'K-326': {
+        title: 'Beginning, Middle or End: Where Is the {U}?',
+        instruction: 'Say each picture. Colour the box that shows where you hear {U}: at the beginning, in the middle or at the end.',
+      },
+      'K-327': {
+        title: 'Circle the {U} in the Words and Count',
+        instruction: 'Find every {U} or {L} in each word and circle it. Then write in the box how many you found.',
+      },
+      'G1-311': {
+        title: 'Sound of the Week: {L}',
+        instruction: 'Trace {L}, circle the four pictures that have the {L} sound, then write a row of it.',
+      },
+      'K-328': {
+        title: 'M or N? Hear the Difference',
+        instruction: 'Say each picture. Circle the letter it begins with: m or n.',
       },
     },
   },

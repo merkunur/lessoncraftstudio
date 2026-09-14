@@ -51,7 +51,7 @@
   },
   "G1-305": {
    "title": "Dela upp ord i stavelser",
-   "instruction": "Säg ordet till bilden och klappa stavelserna. Rita en båge under varje stavelse och skriv hur många det blev."
+   "instruction": "Säg ordet till bilden och klappa stavelserna. Rita en båge under varje stavelse."
   },
   "G1-325": {
    "title": "Skriv ordet i stavelser",
@@ -71,7 +71,7 @@
   },
   "G1-329": {
    "title": "Vokalen är kungen: en vokal i varje stavelse",
-   "instruction": "Ringa in vokalerna i ordet. Varje stavelse har precis en vokalkung. Rita en båge under varje stavelse och skriv hur många de är."
+   "instruction": "Titta på exemplet. Bågarna visar stavelserna. Sätt en prick under vokalen i varje stavelse: en vokalkung i varje båge."
   },
   "G1-306": {
    "title": "Ljuda ihop ord: läs och skriv",
@@ -138,7 +138,7 @@
    "instruction": "Läs ordet. Ett av de tre orden under betyder motsatsen. Ringa in det, inte det som betyder samma sak."
   },
   "G2-320": {
-   "title": "Motsatsord med o-: olycklig, ovänlig, orättvis",
+   "title": "Motsatsord med förstavelsen o-",
    "instruction": "Sätt o- framför varje ord och skriv det nya motsatsordet på raden."
   },
   "G2-316": {
@@ -147,7 +147,7 @@
   },
   "G2-330": {
    "title": "Dela det sammansatta ordet i två ord",
-   "instruction": "Hela ordet står i bokstavsrutor bredvid bilden. Dra ett streck där det andra ordet börjar."
+   "instruction": "Läs hela ordet bredvid bilden. Dra ett streck där det andra ordet börjar."
   },
   "G2-331": {
    "title": "Para ihop halvorna: två bilder, ett ord",
@@ -159,7 +159,7 @@
   },
   "G2-333": {
    "title": "Ordspindel: ett ord, många sammansättningar",
-   "instruction": "Ett ord sitter i mitten. Varje bild runt omkring bildar ett nytt ord med det. Skriv de fyra nya orden på raderna."
+   "instruction": "Ett ord sitter i mitten. Varje bild runt omkring bildar ett nytt ord med det. Skriv varje nytt ord på sin rad."
   },
   "G2-317": {
    "title": "Verb i presens och preteritum: nu och i går",
@@ -174,7 +174,7 @@
    "instruction": "Titta på bilden och läs verbet i bubblan. Skriv den form som passar i meningen i den streckade rutan."
   },
   "G2-336": {
-   "title": "Starka verb: vara, ha, gå, få",
+   "title": "Oregelbundna verb: nu och i går",
    "instruction": "De här verben ändrar sig mycket. Skriv formen för nu och formen för i går i de streckade rutorna."
   },
   "G2-337": {
@@ -262,15 +262,15 @@
    "instruction": "Ta reda på fakta om djuret. Skriv något du vet på varje rad i faktabladet och fyll sedan resten av sidan med en egen teckning eller egna ord."
   },
   "G2-339": {
-   "title": "Faktablad om {U}: kryssa rätt fakta",
+   "title": "Faktablad om {L}: ringa in rätt fakta",
    "instruction": "Läs alternativen på varje rad och ringa in det som stämmer för djuret. Rita sedan var det bor och gör meningen färdig."
   },
   "G2-340": {
-   "title": "Faktablad om {U} med ordbank",
+   "title": "Faktablad om {L} med ordbank",
    "instruction": "Hitta varje fakta som stämmer i ordbanken och skriv den på rätt rad i faktabladet. Gör sedan meningen längst ner färdig."
   },
   "G2-341": {
-   "title": "Faktablad om {U}: skriv tre meningar",
+   "title": "Faktablad om {L}: skriv tre meningar",
    "instruction": "Läs faktabladet. Gör de tre meningarna färdiga med fakta ur bladet och skriv sedan en egen fakta på sista raden."
   },
   "G2-342": {
@@ -323,7 +323,7 @@
   },
   "G3-383": {
    "title": "Hitta felet: resten är för stor",
-   "instruction": "Varje division är felräknad. Stryk över de fel talen och skriv rätt svar och rätt rest i rutorna."
+   "instruction": "Varje division är felräknad. Stryk över de felaktiga talen och skriv rätt svar och rätt rest i rutorna."
   },
   "G3-384": {
    "title": "Hoppa bakåt på tallinjen: vad blir kvar?",
@@ -387,7 +387,7 @@
   },
   "K-343": {
    "title": "Min familj: rita och räkna",
-   "instruction": "Rita din familj. Visa sedan i tioramarna hur många personer, bröder, systrar och husdjur ni är och skriv siffran."
+   "instruction": "Rita din familj. Visa sedan i tioramarna hur många personer, bröder, systrar och husdjur det finns i din familj och skriv siffran."
   },
   "K-344": {
    "title": "Mitt ansikte: skriv orden på rätt plats",
@@ -1251,34 +1251,38 @@
        ]
       },
       {
-       "theme": "flowers",
-       "noun": "carnation",
-       "key": "carnation",
-       "word": "nejlika",
+       "theme": "insects and bugs",
+       "noun": "ladybug",
+       "key": "ladybug",
+       "word": "nyckelpiga",
        "graphemes": [
         "n",
-        "e",
-        "j",
-        "l",
-        "i",
+        "y",
+        "c",
         "k",
+        "e",
+        "l",
+        "p",
+        "i",
+        "g",
         "a"
        ]
       },
       {
-       "theme": "fruits",
-       "noun": "nectarine",
-       "key": "nectarine",
-       "word": "nektarin",
+       "theme": "zoo animals",
+       "noun": "rhinoceros",
+       "key": "rhinoceros",
+       "word": "noshörning",
        "graphemes": [
         "n",
-        "e",
-        "k",
-        "t",
-        "a",
+        "o",
+        "s",
+        "h",
+        "ö",
         "r",
+        "n",
         "i",
-        "n"
+        "ng"
        ]
       },
       {
@@ -3773,675 +3777,6 @@
      ]
     },
     {
-     "L": "f",
-     "upper": "F",
-     "pair": "v",
-     "avoid": [
-      "v",
-      "t"
-     ],
-     "items": [
-      {
-       "theme": "farm animals",
-       "noun": "sheep",
-       "key": "sheep",
-       "word": "får",
-       "graphemes": [
-        "f",
-        "å",
-        "r"
-       ],
-       "pos": 0,
-       "split": [
-        "får"
-       ]
-      },
-      {
-       "theme": "beach",
-       "noun": "lighthouse",
-       "key": "lighthouse",
-       "word": "fyr",
-       "graphemes": [
-        "f",
-        "y",
-        "r"
-       ],
-       "pos": 0,
-       "split": [
-        "fyr"
-       ]
-      },
-      {
-       "theme": "body parts",
-       "noun": "foot",
-       "key": "foot",
-       "word": "fot",
-       "graphemes": [
-        "f",
-        "o",
-        "t"
-       ],
-       "pos": 0,
-       "split": [
-        "fot"
-       ]
-      },
-      {
-       "theme": "farm animals",
-       "noun": "foal",
-       "key": "foal",
-       "word": "föl",
-       "graphemes": [
-        "f",
-        "ö",
-        "l"
-       ],
-       "pos": 0,
-       "split": [
-        "föl"
-       ]
-      },
-      {
-       "theme": "ocean life",
-       "noun": "fish",
-       "key": "fish",
-       "word": "fisk",
-       "graphemes": [
-        "f",
-        "i",
-        "s",
-        "k"
-       ],
-       "pos": 0,
-       "split": [
-        "fisk"
-       ]
-      },
-      {
-       "theme": "birds 2",
-       "noun": "finch",
-       "key": "finch",
-       "word": "fink",
-       "graphemes": [
-        "f",
-        "i",
-        "n",
-        "k"
-       ],
-       "pos": 0,
-       "split": [
-        "fink"
-       ]
-      },
-      {
-       "theme": "spring",
-       "noun": "bird",
-       "key": "bird",
-       "word": "fågel",
-       "graphemes": [
-        "f",
-        "å",
-        "g",
-        "e",
-        "l"
-       ],
-       "pos": 0,
-       "split": [
-        "få",
-        "gel"
-       ]
-      },
-      {
-       "theme": "around the house",
-       "noun": "fan",
-       "key": "fan",
-       "word": "fläkt",
-       "graphemes": [
-        "f",
-        "l",
-        "ä",
-        "k",
-        "t"
-       ],
-       "pos": 0,
-       "split": [
-        "fläkt"
-       ]
-      },
-      {
-       "theme": "fruits",
-       "noun": "fig",
-       "key": "fig",
-       "word": "fikon",
-       "graphemes": [
-        "f",
-        "i",
-        "k",
-        "o",
-        "n"
-       ],
-       "pos": 0,
-       "split": [
-        "fi",
-        "kon"
-       ]
-      },
-      {
-       "theme": "music",
-       "noun": "flute",
-       "key": "flute",
-       "word": "flöjt",
-       "graphemes": [
-        "f",
-        "l",
-        "ö",
-        "j",
-        "t"
-       ],
-       "pos": 0,
-       "split": [
-        "flöjt"
-       ]
-      },
-      {
-       "theme": "4th of July",
-       "noun": "flag",
-       "key": "flag",
-       "word": "flagga",
-       "graphemes": [
-        "f",
-        "l",
-        "a",
-        "g",
-        "g",
-        "a"
-       ],
-       "pos": 0,
-       "split": [
-        "flag",
-        "ga"
-       ]
-      },
-      {
-       "theme": "insects and bugs",
-       "noun": "butterfly",
-       "key": "butterfly",
-       "word": "fjäril",
-       "graphemes": [
-        "f",
-        "j",
-        "ä",
-        "r",
-        "i",
-        "l"
-       ],
-       "pos": 0,
-       "split": [
-        "fjä",
-        "ril"
-       ]
-      },
-      {
-       "theme": "body parts",
-       "noun": "finger",
-       "key": "finger",
-       "word": "finger",
-       "graphemes": [
-        "f",
-        "i",
-        "ng",
-        "e",
-        "r"
-       ],
-       "pos": 0,
-       "split": [
-        "fing",
-        "er"
-       ]
-      },
-      {
-       "theme": "easter",
-       "noun": "feather",
-       "key": "feather",
-       "word": "fjäder",
-       "graphemes": [
-        "f",
-        "j",
-        "ä",
-        "d",
-        "e",
-        "r"
-       ],
-       "pos": 0,
-       "split": [
-        "fjä",
-        "der"
-       ]
-      },
-      {
-       "theme": "kitchen tools",
-       "noun": "bottle",
-       "key": "bottle",
-       "word": "flaska",
-       "graphemes": [
-        "f",
-        "l",
-        "a",
-        "s",
-        "k",
-        "a"
-       ],
-       "pos": 0,
-       "split": [
-        "flas",
-        "ka"
-       ]
-      },
-      {
-       "theme": "around the house",
-       "noun": "window",
-       "key": "window",
-       "word": "fönster",
-       "graphemes": [
-        "f",
-        "ö",
-        "n",
-        "s",
-        "t",
-        "e",
-        "r"
-       ],
-       "pos": 0,
-       "split": [
-        "föns",
-        "ter"
-       ]
-      },
-      {
-       "theme": "furniture",
-       "noun": "sofa",
-       "key": "sofa",
-       "word": "soffa",
-       "graphemes": [
-        "s",
-        "o",
-        "f",
-        "f",
-        "a"
-       ],
-       "pos": 2,
-       "split": [
-        "sof",
-        "fa"
-       ]
-      },
-      {
-       "theme": "clothing",
-       "noun": "cardigan",
-       "key": "cardigan",
-       "word": "kofta",
-       "graphemes": [
-        "k",
-        "o",
-        "f",
-        "t",
-        "a"
-       ],
-       "pos": 2,
-       "split": [
-        "kof",
-        "ta"
-       ]
-      },
-      {
-       "theme": "ocean life",
-       "noun": "dolphin",
-       "key": "dolphin",
-       "word": "delfin",
-       "graphemes": [
-        "d",
-        "e",
-        "l",
-        "f",
-        "i",
-        "n"
-       ],
-       "pos": 3,
-       "split": [
-        "del",
-        "fin"
-       ]
-      },
-      {
-       "theme": "animals",
-       "noun": "giraffe",
-       "key": "giraffe",
-       "word": "giraff",
-       "graphemes": [
-        "g",
-        "i",
-        "r",
-        "a",
-        "f",
-        "f"
-       ],
-       "pos": 4,
-       "split": [
-        "gi",
-        "raff"
-       ]
-      },
-      {
-       "theme": "kitchen tools",
-       "noun": "fork",
-       "key": "fork",
-       "word": "gaffel",
-       "graphemes": [
-        "g",
-        "a",
-        "f",
-        "f",
-        "e",
-        "l"
-       ],
-       "pos": 2,
-       "split": [
-        "gaf",
-        "fel"
-       ]
-      },
-      {
-       "theme": "bakery",
-       "noun": "waffle",
-       "key": "waffle",
-       "word": "våffla",
-       "graphemes": [
-        "v",
-        "å",
-        "f",
-        "f",
-        "l",
-        "a"
-       ],
-       "pos": 2,
-       "split": [
-        "våff",
-        "la"
-       ]
-      },
-      {
-       "theme": "around the house",
-       "noun": "telephone",
-       "key": "telephone",
-       "word": "telefon",
-       "graphemes": [
-        "t",
-        "e",
-        "l",
-        "e",
-        "f",
-        "o",
-        "n"
-       ],
-       "pos": 4,
-       "split": [
-        "te",
-        "le",
-        "fon"
-       ]
-      },
-      {
-       "theme": "clothing",
-       "noun": "slippers",
-       "key": "slippers",
-       "word": "tofflor",
-       "graphemes": [
-        "t",
-        "o",
-        "f",
-        "f",
-        "l",
-        "o",
-        "r"
-       ],
-       "pos": 2,
-       "split": [
-        "toff",
-        "lor"
-       ]
-      }
-     ],
-     "foils": [
-      {
-       "theme": "ocean life",
-       "noun": "whale",
-       "key": "whale",
-       "word": "val",
-       "graphemes": [
-        "v",
-        "a",
-        "l"
-       ]
-      },
-      {
-       "theme": "around the house",
-       "noun": "vase",
-       "key": "vase",
-       "word": "vas",
-       "graphemes": [
-        "v",
-        "a",
-        "s"
-       ]
-      },
-      {
-       "theme": "beach",
-       "noun": "wave",
-       "key": "wave",
-       "word": "våg",
-       "graphemes": [
-        "v",
-        "å",
-        "g"
-       ]
-      },
-      {
-       "theme": "clothing",
-       "noun": "vest",
-       "key": "vest",
-       "word": "väst",
-       "graphemes": [
-        "v",
-        "ä",
-        "s",
-        "t"
-       ]
-      },
-      {
-       "theme": "zoo animals",
-       "noun": "wolf",
-       "key": "wolf",
-       "word": "varg",
-       "graphemes": [
-        "v",
-        "a",
-        "r",
-        "g"
-       ]
-      },
-      {
-       "theme": "kitchen tools",
-       "noun": "whisk",
-       "key": "whisk",
-       "word": "visp",
-       "graphemes": [
-        "v",
-        "i",
-        "s",
-        "p"
-       ]
-      },
-      {
-       "theme": "vehicles",
-       "noun": "train",
-       "key": "train",
-       "word": "tåg",
-       "graphemes": [
-        "t",
-        "å",
-        "g"
-       ]
-      },
-      {
-       "theme": "farm animals",
-       "noun": "rooster",
-       "key": "rooster",
-       "word": "tupp",
-       "graphemes": [
-        "t",
-        "u",
-        "p",
-        "p"
-       ]
-      },
-      {
-       "theme": "body parts",
-       "noun": "tooth",
-       "key": "tooth",
-       "word": "tand",
-       "graphemes": [
-        "t",
-        "a",
-        "n",
-        "d"
-       ]
-      },
-      {
-       "theme": "camping",
-       "noun": "tent",
-       "key": "tent",
-       "word": "tält",
-       "graphemes": [
-        "t",
-        "ä",
-        "l",
-        "t"
-       ]
-      },
-      {
-       "theme": "classroom",
-       "noun": "tape",
-       "key": "tape",
-       "word": "tejp",
-       "graphemes": [
-        "t",
-        "e",
-        "j",
-        "p"
-       ]
-      },
-      {
-       "theme": "bakery",
-       "noun": "cake",
-       "key": "cake",
-       "word": "tårta",
-       "graphemes": [
-        "t",
-        "å",
-        "r",
-        "t",
-        "a"
-       ]
-      },
-      {
-       "theme": "vegetables",
-       "noun": "onion",
-       "key": "onion",
-       "word": "lök",
-       "graphemes": [
-        "l",
-        "ö",
-        "k"
-       ]
-      },
-      {
-       "theme": "insects and bugs",
-       "noun": "bee",
-       "key": "bee",
-       "word": "bi",
-       "graphemes": [
-        "b",
-        "i"
-       ]
-      },
-      {
-       "theme": "spring",
-       "noun": "nest",
-       "key": "nest",
-       "word": "bo",
-       "graphemes": [
-        "b",
-        "o"
-       ]
-      },
-      {
-       "theme": "4th of July",
-       "noun": "eagle",
-       "key": "eagle",
-       "word": "örn",
-       "graphemes": [
-        "ö",
-        "r",
-        "n"
-       ]
-      },
-      {
-       "theme": "At the Supermarket",
-       "noun": "cheese",
-       "key": "cheese",
-       "word": "ost",
-       "graphemes": [
-        "o",
-        "s",
-        "t"
-       ]
-      },
-      {
-       "theme": "At the Supermarket",
-       "noun": "egg",
-       "key": "egg",
-       "word": "ägg",
-       "graphemes": [
-        "ä",
-        "g",
-        "g"
-       ]
-      },
-      {
-       "theme": "bakery",
-       "noun": "pie",
-       "key": "pie",
-       "word": "paj",
-       "graphemes": [
-        "p",
-        "a",
-        "j"
-       ]
-      },
-      {
-       "theme": "At the Supermarket",
-       "noun": "sauce",
-       "key": "sauce",
-       "word": "sås",
-       "graphemes": [
-        "s",
-        "å",
-        "s"
-       ]
-      }
-     ]
-    },
-    {
      "L": "l",
      "upper": "L",
      "pair": "r",
@@ -5525,17 +4860,6 @@
      "foils": [
       {
        "theme": "around the house",
-       "noun": "oven",
-       "key": "oven",
-       "word": "ugn",
-       "graphemes": [
-        "u",
-        "g",
-        "n"
-       ]
-      },
-      {
-       "theme": "around the house",
        "noun": "gate",
        "key": "gate",
        "word": "grind",
@@ -5562,21 +4886,6 @@
        ]
       },
       {
-       "theme": "flowers",
-       "noun": "wisteria",
-       "key": "wisteria",
-       "word": "blåregn",
-       "graphemes": [
-        "b",
-        "l",
-        "å",
-        "r",
-        "e",
-        "g",
-        "n"
-       ]
-      },
-      {
        "theme": "tools",
        "noun": "handsaw",
        "key": "handsaw",
@@ -5589,22 +4898,6 @@
         "s",
         "å",
         "g"
-       ]
-      },
-      {
-       "theme": "At the Supermarket",
-       "noun": "cart",
-       "key": "cart",
-       "word": "kundvagn",
-       "graphemes": [
-        "k",
-        "u",
-        "n",
-        "d",
-        "v",
-        "a",
-        "g",
-        "n"
        ]
       },
       {
@@ -5656,19 +4949,38 @@
        ]
       },
       {
-       "theme": "clothing",
-       "noun": "raincoat",
-       "key": "raincoat",
-       "word": "regnrock",
+       "theme": "accessories",
+       "noun": "sunglasses",
+       "key": "sunglasses",
+       "word": "solglasögon",
        "graphemes": [
-        "r",
-        "e",
-        "g",
-        "n",
-        "r",
+        "s",
         "o",
-        "c",
-        "k"
+        "l",
+        "g",
+        "l",
+        "a",
+        "s",
+        "ö",
+        "g",
+        "o",
+        "n"
+       ]
+      },
+      {
+       "theme": "forest creatures",
+       "noun": "porcupine",
+       "key": "porcupine",
+       "word": "piggsvin",
+       "graphemes": [
+        "p",
+        "i",
+        "g",
+        "g",
+        "s",
+        "v",
+        "i",
+        "n"
        ]
       }
      ]
@@ -13714,6 +13026,7 @@
     "hair",
     "happy",
     "harvest",
+    "heater",
     "heel",
     "hiking",
     "hot",
@@ -14556,7 +13869,8 @@
          "t",
          "t"
         ]
-       ]
+       ],
+       "pictureTheme": "clothing"
       },
       {
        "key": "cup",
@@ -17990,7 +17304,8 @@
     "girl",
     "baby",
     "lego",
-    "football"
+    "football",
+    "skateboard"
    ],
    "strings": {
     "K-324": {
@@ -18619,11 +17934,6 @@
       "expected": "oärlig"
      },
      {
-      "base": "nöjd",
-      "prefix": "o",
-      "expected": "onöjd"
-     },
-     {
       "base": "jämn",
       "prefix": "o",
       "expected": "ojämn"
@@ -18707,7 +18017,7 @@
      "instruction": "Läs ordet. Ett av de tre orden under betyder motsatsen. Ringa in det, inte det som betyder samma sak."
     },
     "G2-320": {
-     "title": "Motsatsord med o-: olycklig, ovänlig, orättvis",
+     "title": "Motsatsord med förstavelsen o-",
      "instruction": "Sätt o- framför varje ord och skriv det nya motsatsordet på raden."
     }
    }
@@ -20118,34 +19428,6 @@
       },
       {
        "a": {
-        "vocabKey": "blue",
-        "word": "blå",
-        "pic": {
-         "theme": "colors",
-         "noun": "blue"
-        }
-       },
-       "aStem": null,
-       "link": "",
-       "b": {
-        "vocabKey": "bell",
-        "word": "klocka",
-        "pic": {
-         "theme": "christmas",
-         "noun": "bell"
-        }
-       },
-       "whole": {
-        "word": "blåklocka",
-        "vocabKey": "bluebell",
-        "scale": 1
-       },
-       "hubSide": "b",
-       "opaque": false,
-       "picOpened": true
-      },
-      {
-       "a": {
         "vocabKey": "water",
         "word": "vatten",
         "pic": {
@@ -21406,7 +20688,7 @@
     },
     "G2-330": {
      "title": "Dela det sammansatta ordet i två ord",
-     "instruction": "Hela ordet står i bokstavsrutor bredvid bilden. Dra ett streck där det andra ordet börjar."
+     "instruction": "Läs hela ordet bredvid bilden. Dra ett streck där det andra ordet börjar."
     },
     "G2-331": {
      "title": "Para ihop halvorna: två bilder, ett ord",
@@ -21418,7 +20700,7 @@
     },
     "G2-333": {
      "title": "Ordspindel: ett ord, många sammansättningar",
-     "instruction": "Ett ord sitter i mitten. Varje bild runt omkring bildar ett nytt ord med det. Skriv de fyra nya orden på raderna."
+     "instruction": "Ett ord sitter i mitten. Varje bild runt omkring bildar ett nytt ord med det. Skriv varje nytt ord på sin rad."
     }
    }
   },
@@ -26313,7 +25595,7 @@
    "frames": [
     {
      "id": "f01",
-     "text": "Varje dag {form} Elsa i parken.",
+     "text": "Just nu {form} Elsa i parken.",
      "col": "pres",
      "unit": "nu-igar",
      "fits": [
@@ -26347,7 +25629,7 @@
     },
     {
      "id": "f03",
-     "text": "Alma {form} varje eftermiddag.",
+     "text": "Alma {form} just nu.",
      "col": "pres",
      "unit": "nu-igar",
      "fits": [
@@ -26425,7 +25707,7 @@
     },
     {
      "id": "f09",
-     "text": "Elsa {form} varje kväll.",
+     "text": "Nu {form} Elsa.",
      "col": "pres",
      "unit": "nu-igar",
      "fits": [
@@ -26506,9 +25788,7 @@
      "col": "pres",
      "unit": "nu-igar",
      "fits": [
-      "tvätta",
-      "leta",
-      "samla"
+      "tvätta"
      ],
      "subjectLiteral": "Vera",
      "pic": null
@@ -26539,7 +25819,7 @@
     },
     {
      "id": "f18",
-     "text": "Elias {form} glad i dag.",
+     "text": "Elias {form} glad just nu.",
      "col": "pres",
      "unit": "nu-igar",
      "fits": [
@@ -26561,7 +25841,7 @@
     },
     {
      "id": "f20",
-     "text": "Hugo {form} en hund.",
+     "text": "Nu {form} Hugo en hund.",
      "col": "pres",
      "unit": "nu-igar",
      "fits": [
@@ -26605,7 +25885,7 @@
     },
     {
      "id": "f24",
-     "text": "Oscar {form} en present i dag.",
+     "text": "Just nu {form} Oscar en present.",
      "col": "pres",
      "unit": "nu-igar",
      "fits": [
@@ -26624,6 +25904,17 @@
       "se"
      ],
      "subjectLiteral": "Vera",
+     "pic": null
+    },
+    {
+     "id": "f26",
+     "text": "Just nu {form} Liam efter sin mössa.",
+     "col": "pres",
+     "unit": "nu-igar",
+     "fits": [
+      "leta"
+     ],
+     "subjectLiteral": "Liam",
      "pic": null
     }
    ],
@@ -26644,7 +25935,7 @@
      "instruction": "Titta på bilden och läs verbet i bubblan. Skriv den form som passar i meningen i den streckade rutan."
     },
     "F4": {
-     "title": "Starka verb: vara, ha, gå, få",
+     "title": "Oregelbundna verb: nu och i går",
      "instruction": "De här verben ändrar sig mycket. Skriv formen för nu och formen för i går i de streckade rutorna."
     },
     "F5": {
@@ -29184,18 +28475,18 @@
      "reviewed": true
     },
     "chicken": {
-     "unique": "kycklingen",
-     "all": "alla kycklingar",
-     "pl": "kycklingar",
+     "unique": "hönan",
+     "all": "alla hönor",
+     "pl": "hönor",
      "ord": {
-      "2": "den andra kycklingen",
-      "3": "den tredje kycklingen",
-      "4": "den fjärde kycklingen",
-      "5": "den femte kycklingen"
+      "2": "den andra hönan",
+      "3": "den tredje hönan",
+      "4": "den fjärde hönan",
+      "5": "den femte hönan"
      },
      "dat": null,
-     "def": "kycklingen",
-     "defPl": "kycklingarna",
+     "def": "hönan",
+     "defPl": "hönorna",
      "part": null,
      "gen": null,
      "a2": null,

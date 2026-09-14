@@ -40,34 +40,6 @@
         },
         {
           "a": {
-            "vocabKey": "blue",
-            "word": "blå",
-            "pic": {
-              "theme": "colors",
-              "noun": "blue"
-            }
-          },
-          "aStem": null,
-          "link": "",
-          "b": {
-            "vocabKey": "bell",
-            "word": "klocka",
-            "pic": {
-              "theme": "christmas",
-              "noun": "bell"
-            }
-          },
-          "whole": {
-            "word": "blåklocka",
-            "vocabKey": "bluebell",
-            "scale": 1
-          },
-          "hubSide": "b",
-          "opaque": false,
-          "picOpened": true
-        },
-        {
-          "a": {
             "vocabKey": "water",
             "word": "vatten",
             "pic": {
@@ -1328,7 +1300,7 @@
     },
     "G2-330": {
       "title": "Dela det sammansatta ordet i två ord",
-      "instruction": "Hela ordet står i bokstavsrutor bredvid bilden. Dra ett streck där det andra ordet börjar."
+      "instruction": "Läs hela ordet bredvid bilden. Dra ett streck där det andra ordet börjar."
     },
     "G2-331": {
       "title": "Para ihop halvorna: två bilder, ett ord",
@@ -1340,7 +1312,7 @@
     },
     "G2-333": {
       "title": "Ordspindel: ett ord, många sammansättningar",
-      "instruction": "Ett ord sitter i mitten. Varje bild runt omkring bildar ett nytt ord med det. Skriv de fyra nya orden på raderna."
+      "instruction": "Ett ord sitter i mitten. Varje bild runt omkring bildar ett nytt ord med det. Skriv varje nytt ord på sin rad."
     }
   }
 }

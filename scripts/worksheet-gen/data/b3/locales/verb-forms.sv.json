@@ -583,7 +583,7 @@
   "frames": [
     {
       "id": "f01",
-      "text": "Varje dag {form} Elsa i parken.",
+      "text": "Just nu {form} Elsa i parken.",
       "col": "pres",
       "unit": "nu-igar",
       "fits": [
@@ -617,7 +617,7 @@
     },
     {
       "id": "f03",
-      "text": "Alma {form} varje eftermiddag.",
+      "text": "Alma {form} just nu.",
       "col": "pres",
       "unit": "nu-igar",
       "fits": [
@@ -695,7 +695,7 @@
     },
     {
       "id": "f09",
-      "text": "Elsa {form} varje kväll.",
+      "text": "Nu {form} Elsa.",
       "col": "pres",
       "unit": "nu-igar",
       "fits": [
@@ -776,9 +776,7 @@
       "col": "pres",
       "unit": "nu-igar",
       "fits": [
-        "tvätta",
-        "leta",
-        "samla"
+        "tvätta"
       ],
       "subjectLiteral": "Vera",
       "pic": null
@@ -809,7 +807,7 @@
     },
     {
       "id": "f18",
-      "text": "Elias {form} glad i dag.",
+      "text": "Elias {form} glad just nu.",
       "col": "pres",
       "unit": "nu-igar",
       "fits": [
@@ -831,7 +829,7 @@
     },
     {
       "id": "f20",
-      "text": "Hugo {form} en hund.",
+      "text": "Nu {form} Hugo en hund.",
       "col": "pres",
       "unit": "nu-igar",
       "fits": [
@@ -875,7 +873,7 @@
     },
     {
       "id": "f24",
-      "text": "Oscar {form} en present i dag.",
+      "text": "Just nu {form} Oscar en present.",
       "col": "pres",
       "unit": "nu-igar",
       "fits": [
@@ -894,6 +892,17 @@
         "se"
       ],
       "subjectLiteral": "Vera",
+      "pic": null
+    },
+    {
+      "id": "f26",
+      "text": "Just nu {form} Liam efter sin mössa.",
+      "col": "pres",
+      "unit": "nu-igar",
+      "fits": [
+        "leta"
+      ],
+      "subjectLiteral": "Liam",
       "pic": null
     }
   ],
@@ -914,7 +923,7 @@
       "instruction": "Titta på bilden och läs verbet i bubblan. Skriv den form som passar i meningen i den streckade rutan."
     },
     "F4": {
-      "title": "Starka verb: vara, ha, gå, få",
+      "title": "Oregelbundna verb: nu och i går",
       "instruction": "De här verben ändrar sig mycket. Skriv formen för nu och formen för i går i de streckade rutorna."
     },
     "F5": {

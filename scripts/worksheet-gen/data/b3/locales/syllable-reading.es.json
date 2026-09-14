@@ -3371,14 +3371,6 @@
       ]
     },
     {
-      "key": "leggings",
-      "word": "leggings",
-      "split": [
-        "leg",
-        "gings"
-      ]
-    },
-    {
       "key": "lemon",
       "word": "limón",
       "split": [
@@ -4802,6 +4794,7 @@
     "knee",
     "lavender",
     "leg",
+    "leggings",
     "liberty",
     "lilac",
     "lily",

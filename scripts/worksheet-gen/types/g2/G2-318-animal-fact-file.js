@@ -428,7 +428,12 @@ module.exports = {
       `<span data-lcs-caption style="font-family:${F.body},sans-serif;font-weight:800;font-size:16px;line-height:22px;color:${T.ink};flex:0 0 auto">${esc(caption)}</span>` +
       `<div data-lcs-frame-rows style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:6px;min-height:0">${starterRows(laneRows, { w: laneW, h: frameH, glyphH: frameGlyphH, lines: frameLines })}</div></div>`;
     const banner = nameBanner({ name: lit.name, w: colW, h: bannerH, fontPx: d.namePx || 30, minPx: 30 });
-    const mini = miniFactFile({ rows, w: colW, rowH: miniRowH, labelW: 160, labelPx: 14, valuePx: 16 })
+    // the label column takes the longest printed label (fr "Ce qui couvre son corps" ran 12 px into
+    // its value at the fixed 160) — same rule as the compare face; the value keeps >= 110 px
+    const longestLbl = Math.max(...rows.map((r) => len(r.label)));
+    const frameLabelW = Math.max(160, Math.ceil(longestLbl * 7.8) + 20);
+    if (colW - frameLabelW < 110) throw new Error(`G2-318: ${loc} frames label column ${frameLabelW} px leaves ${colW - frameLabelW} px for the value (< 110) — a shorter label is needed (refusal)`);
+    const mini = miniFactFile({ rows, w: colW, rowH: miniRowH, labelW: frameLabelW, labelPx: 14, valuePx: 16 })
       .replace('style="width:', 'style="flex:1 1 auto;width:').replace(`grid-auto-rows:${miniRowH}px`, `grid-auto-rows:minmax(${miniRowH}px,1fr)`);
     const top = `<div data-lcs-top style="display:flex;gap:${TOP_GAP}px;align-items:stretch;flex:0 0 auto">` +
       heroFrame({ src, size: d.hero, pic: d.pic, noun, unit: key }) +

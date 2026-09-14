@@ -3101,7 +3101,7 @@
     "plural-tilde": {
       "id": "plural-tilde",
       "head": "de -ón a -ones",
-      "chip": "ones ines",
+      "chip": "ones ines anes",
       "band": "G2",
       "gap": {
         "kind": "plural",
@@ -3112,9 +3112,7 @@
       "cands": [
         "ones",
         "ines",
-        "enes",
-        "anes",
-        "uses"
+        "anes"
       ],
       "pair": null,
       "proof": {
@@ -3345,22 +3343,6 @@
           "pluralGap": null
         },
         {
-          "theme": "around the house",
-          "noun": "pan",
-          "vocabKey": "pan",
-          "word": "sartén",
-          "gaps": [
-            {
-              "from": 4,
-              "len": 4
-            }
-          ],
-          "g": "enes",
-          "side": "rule",
-          "plural": "sartenes",
-          "pluralGap": null
-        },
-        {
           "theme": "ocean life",
           "noun": "shark",
           "vocabKey": "shark",
@@ -3470,22 +3452,6 @@
           "g": "ines",
           "side": "rule",
           "plural": "violines",
-          "pluralGap": null
-        },
-        {
-          "theme": "vehicles",
-          "noun": "bus",
-          "vocabKey": "bus",
-          "word": "autobús",
-          "gaps": [
-            {
-              "from": 5,
-              "len": 4
-            }
-          ],
-          "g": "uses",
-          "side": "rule",
-          "plural": "autobuses",
           "pluralGap": null
         },
         {

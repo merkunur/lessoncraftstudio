@@ -158,10 +158,21 @@ function prepareCarpet({ d, cfg, loc, unitId, difficulty, rng }) {
   if (d.perRowMin * carpetRows.length > d.cards) throw new Error('G1-306: perRowMin × rows exceeds cards — ladder defect');
 
   // sample: perRowMin from every row, then the rest of the cards from the remainder; card order shuffled, row order never
+  // On the carpet face every card colours ONE cell, so two cards sharing a first syllable
+  // (fr papaye + parapluie, both "pa", read off the fr contact sheet 2026-09-14) would ask
+  // for one cell in two colours: in colourMode the picks are distinct by unit as well.
+  const unitOf = (w) => String(w.unit).toLocaleLowerCase(loc);
+  const byUnit = (ws) => (d.colourMode ? distinctByWord(rng.shuffle(ws.slice()), unitOf) : ws);
   let picks = [];
-  eligibleByRow.forEach((ws) => { picks.push(...sampleEntries(rng, ws, d.perRowMin, 'G1-306 row')); });
+  eligibleByRow.forEach((ws) => {
+    const cand = byUnit(ws);
+    if (cand.length < d.perRowMin) throw new Error(`G1-306: row "${ws[0] && ws[0].rowId}" has ${cand.length} distinct first syllables < perRowMin ${d.perRowMin} (${loc} ${unitId} d${difficulty}) — refuse`);
+    picks.push(...sampleEntries(rng, cand, d.perRowMin, 'G1-306 row'));
+  });
   const chosen = new Set(picks.map((w) => w.key));
-  const rest = pool.filter((w) => !chosen.has(w.key));
+  const usedUnits = new Set(picks.map(unitOf));
+  const rest = byUnit(pool.filter((w) => !chosen.has(w.key) && !(d.colourMode && usedUnits.has(unitOf(w)))));
+  if (rest.length < d.cards - picks.length) throw new Error(`G1-306: unit "${unitId}" offers ${picks.length + rest.length} cards with distinct first syllables < ${d.cards} (${loc} d${difficulty}) — REFUSED, never filled`);
   picks.push(...sampleEntries(rng, rest, d.cards - picks.length, 'G1-306'));
   picks = rng.shuffle(picks);
 
@@ -679,6 +690,10 @@ module.exports = {
       if (face === 'carpet') {
         const rowsUsed = new Set(cards.map((c) => c.dataset.lcsRowId));
         if (rowsUsed.size < Math.min(3, rows.length)) fails.push(`carpet targets come from ${rowsUsed.size} rows (want >= 3)`);
+        // one cell per colour: no two cards may name the same unit
+        const units = cards.map((c) => c.dataset.lcsUnit);
+        const dup = units.filter((u, i) => units.indexOf(u) !== i);
+        if (dup.length) fails.push(`carpet: two cards colour the same cell (${[...new Set(dup)].join(', ')})`);
       }
       const carpetRowIds = new Set(cards.map((c) => c.dataset.lcsRowId));
       for (const [rid, n] of perRow) if (n < perRowMin) fails.push(`row "${rid}": ${n} cards < perRowMin ${perRowMin}`);

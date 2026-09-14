@@ -32152,7 +32152,8 @@
       "bins": "ei kahta lajittelukoria: kaikki sanat noudattavat samaa astevaihtelua",
       "anchor": "ankkurikirjain kuuluu monikkoon, ei yksikköön"
      },
-     "note": ""
+     "note": "",
+     "chipsAreExamples": true
     }
    },
    "strings": {

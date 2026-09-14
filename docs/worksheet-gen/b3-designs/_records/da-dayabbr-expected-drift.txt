@@ -1,0 +1,15 @@
+G2-277|nothm|d1|da
+G2-277|nothm|d2|da
+G2-277|nothm|d3|da
+G2-296|nothm|d1|da
+G2-296|nothm|d2|da
+G2-296|nothm|d3|da
+G2-297|nothm|d1|da
+G2-297|nothm|d2|da
+G2-297|nothm|d3|da
+G2-298|nothm|d1|da
+G2-298|nothm|d2|da
+G2-298|nothm|d3|da
+G2-312|nothm|d1|da
+G2-312|nothm|d2|da
+G2-312|nothm|d3|da

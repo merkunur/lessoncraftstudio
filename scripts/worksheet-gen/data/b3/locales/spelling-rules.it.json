@@ -11,7 +11,7 @@
     "doppie": {
       "id": "doppie",
       "head": "le doppie",
-      "chip": "ll tt cc nn ss",
+      "chip": "ll tt cc nn zz ff",
       "band": "G2",
       "gap": {
         "kind": "regex",
@@ -335,38 +335,6 @@
           "pluralGap": null
         },
         {
-          "theme": "classroom",
-          "noun": "map",
-          "vocabKey": "map",
-          "word": "mappa",
-          "gaps": [
-            {
-              "from": 2,
-              "len": 2
-            }
-          ],
-          "g": "pp",
-          "side": "rule",
-          "plural": "mappe",
-          "pluralGap": null
-        },
-        {
-          "theme": "around the house",
-          "noun": "carpet",
-          "vocabKey": "carpet",
-          "word": "tappeto",
-          "gaps": [
-            {
-              "from": 2,
-              "len": 2
-            }
-          ],
-          "g": "pp",
-          "side": "rule",
-          "plural": "tappeti",
-          "pluralGap": null
-        },
-        {
           "theme": "accessories",
           "noun": "necklace",
           "vocabKey": "necklace",
@@ -396,22 +364,6 @@
           "g": "tt",
           "side": "rule",
           "plural": "piatti",
-          "pluralGap": null
-        },
-        {
-          "theme": "summer",
-          "noun": "sand",
-          "vocabKey": "sand",
-          "word": "sabbia",
-          "gaps": [
-            {
-              "from": 2,
-              "len": 2
-            }
-          ],
-          "g": "bb",
-          "side": "rule",
-          "plural": "sabbia",
           "pluralGap": null
         },
         {
@@ -767,22 +719,6 @@
           "pluralGap": null
         },
         {
-          "theme": "Things That Fly",
-          "noun": "seagull",
-          "vocabKey": "seagull",
-          "word": "gabbiano",
-          "gaps": [
-            {
-              "from": 2,
-              "len": 2
-            }
-          ],
-          "g": "bb",
-          "side": "rule",
-          "plural": "gabbiani",
-          "pluralGap": null
-        },
-        {
           "theme": "beach",
           "noun": "rock",
           "vocabKey": "rock",
@@ -812,22 +748,6 @@
           "g": "ff",
           "side": "rule",
           "plural": "scaffali",
-          "pluralGap": null
-        },
-        {
-          "theme": "At the Supermarket",
-          "noun": "muffin",
-          "vocabKey": "muffin",
-          "word": "muffin",
-          "gaps": [
-            {
-              "from": 2,
-              "len": 2
-            }
-          ],
-          "g": "ff",
-          "side": "rule",
-          "plural": "muffin",
           "pluralGap": null
         }
       ],

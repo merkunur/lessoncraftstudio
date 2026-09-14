@@ -62,7 +62,7 @@
    "instruction": "Leggi la parola e disegna nel cerchio vuoto una faccia che mostra quell'emozione."
   },
   "K-333": {
-   "title": "Piacevole o spiacevole? Ordina le facce",
+   "title": "Piacevole o spiacevole? Dividi le facce",
    "instruction": "Collega con una linea ogni faccia alla scatola che dice se l'emozione è piacevole o spiacevole."
   },
   "K-334": {
@@ -122,7 +122,7 @@
    "instruction": "Leggi ogni abbreviazione e collega con una linea il giorno che indica."
   },
   "K-322": {
-   "title": "Le quattro stagioni: ordina i disegni",
+   "title": "Le quattro stagioni: collega i disegni",
    "instruction": "Collega con una linea il puntino di ogni disegno alla scatola della sua stagione."
   },
   "K-338": {
@@ -18767,7 +18767,7 @@
      "instruction": "Leggi la parola e disegna nel cerchio vuoto una faccia che mostra quell'emozione."
     },
     "K-333": {
-     "title": "Piacevole o spiacevole? Ordina le facce",
+     "title": "Piacevole o spiacevole? Dividi le facce",
      "instruction": "Collega con una linea ogni faccia alla scatola che dice se l'emozione è piacevole o spiacevole."
     },
     "K-334": {
@@ -19337,7 +19337,7 @@
    },
    "strings": {
     "K-322": {
-     "title": "Le quattro stagioni: ordina i disegni",
+     "title": "Le quattro stagioni: collega i disegni",
      "instruction": "Collega con una linea il puntino di ogni disegno alla scatola della sua stagione."
     },
     "K-338": {
@@ -19966,16 +19966,6 @@
        ]
       },
       {
-       "key": "pilot",
-       "word": "pilota",
-       "unit": "pi",
-       "split": [
-        "pi",
-        "lo",
-        "ta"
-       ]
-      },
-      {
        "key": "pinecone",
        "word": "pigna",
        "unit": "pi",
@@ -20444,16 +20434,6 @@
        ]
       },
       {
-       "key": "pitcher",
-       "word": "caraffa",
-       "unit": "ca",
-       "split": [
-        "ca",
-        "raf",
-        "fa"
-       ]
-      },
-      {
        "key": "rabbit",
        "word": "coniglio",
        "unit": "co",
@@ -20513,7 +20493,8 @@
        "split": [
         "ca",
         "mion"
-       ]
+       ],
+       "pictureTheme": "vehicles"
       },
       {
        "key": "waitress",
@@ -23636,29 +23617,11 @@
      ]
     },
     {
-     "key": "pilot",
-     "word": "pilota",
-     "split": [
-      "pi",
-      "lo",
-      "ta"
-     ]
-    },
-    {
      "key": "pinecone",
      "word": "pigna",
      "split": [
       "pi",
       "gna"
-     ]
-    },
-    {
-     "key": "pitcher",
-     "word": "caraffa",
-     "split": [
-      "ca",
-      "raf",
-      "fa"
      ]
     },
     {
@@ -24340,7 +24303,8 @@
      "split": [
       "ca",
       "mion"
-     ]
+     ],
+     "pictureTheme": "vehicles"
     },
     {
      "key": "trumpet",
@@ -24499,14 +24463,14 @@
     "barrette",
     "baseball",
     "basketball",
-    "beige",
     "begonia",
+    "beige",
     "biking",
     "biscuit",
     "black",
     "blue",
-    "bookshelf",
     "bookcase",
+    "bookshelf",
     "brown",
     "brownie",
     "bud",
@@ -24523,8 +24487,8 @@
     "chimney",
     "chin",
     "closet",
-    "clover",
     "cloudy",
+    "clover",
     "cold",
     "computer",
     "confused",
@@ -24616,7 +24580,9 @@
     "picnic",
     "pie",
     "pillow",
+    "pilot",
     "pink",
+    "pitcher",
     "plum",
     "popcorn",
     "porridge",
@@ -24642,6 +24608,7 @@
     "scared",
     "scarlet",
     "science",
+    "scooter",
     "sewing",
     "shoulder",
     "shy",
@@ -24694,8 +24661,7 @@
     "x-ray",
     "yacht",
     "yellow",
-    "zinnia",
-    "scooter"
+    "zinnia"
    ],
    "whitelist": {},
    "refuse": {
@@ -29822,7 +29788,7 @@
     "doppie": {
      "id": "doppie",
      "head": "le doppie",
-     "chip": "ll tt cc nn ss",
+     "chip": "ll tt cc nn zz ff",
      "band": "G2",
      "gap": {
       "kind": "regex",
@@ -30146,38 +30112,6 @@
        "pluralGap": null
       },
       {
-       "theme": "classroom",
-       "noun": "map",
-       "vocabKey": "map",
-       "word": "mappa",
-       "gaps": [
-        {
-         "from": 2,
-         "len": 2
-        }
-       ],
-       "g": "pp",
-       "side": "rule",
-       "plural": "mappe",
-       "pluralGap": null
-      },
-      {
-       "theme": "around the house",
-       "noun": "carpet",
-       "vocabKey": "carpet",
-       "word": "tappeto",
-       "gaps": [
-        {
-         "from": 2,
-         "len": 2
-        }
-       ],
-       "g": "pp",
-       "side": "rule",
-       "plural": "tappeti",
-       "pluralGap": null
-      },
-      {
        "theme": "accessories",
        "noun": "necklace",
        "vocabKey": "necklace",
@@ -30207,22 +30141,6 @@
        "g": "tt",
        "side": "rule",
        "plural": "piatti",
-       "pluralGap": null
-      },
-      {
-       "theme": "summer",
-       "noun": "sand",
-       "vocabKey": "sand",
-       "word": "sabbia",
-       "gaps": [
-        {
-         "from": 2,
-         "len": 2
-        }
-       ],
-       "g": "bb",
-       "side": "rule",
-       "plural": "sabbia",
        "pluralGap": null
       },
       {
@@ -30578,22 +30496,6 @@
        "pluralGap": null
       },
       {
-       "theme": "Things That Fly",
-       "noun": "seagull",
-       "vocabKey": "seagull",
-       "word": "gabbiano",
-       "gaps": [
-        {
-         "from": 2,
-         "len": 2
-        }
-       ],
-       "g": "bb",
-       "side": "rule",
-       "plural": "gabbiani",
-       "pluralGap": null
-      },
-      {
        "theme": "beach",
        "noun": "rock",
        "vocabKey": "rock",
@@ -30623,22 +30525,6 @@
        "g": "ff",
        "side": "rule",
        "plural": "scaffali",
-       "pluralGap": null
-      },
-      {
-       "theme": "At the Supermarket",
-       "noun": "muffin",
-       "vocabKey": "muffin",
-       "word": "muffin",
-       "gaps": [
-        {
-         "from": 2,
-         "len": 2
-        }
-       ],
-       "g": "ff",
-       "side": "rule",
-       "plural": "muffin",
        "pluralGap": null
       }
      ],
@@ -34078,17 +33964,17 @@
       },
       {
        "a": {
-        "vocabKey": "ice",
-        "word": "ghiaccio"
+        "vocabKey": "bird",
+        "word": "uccello"
        },
-       "aStem": "ghiacci",
+       "aStem": "uccell",
        "link": "",
        "b": {
-        "affix": "-olo"
+        "affix": "-ino"
        },
        "whole": {
-        "word": "ghiacciolo",
-        "vocabKey": "popsicle",
+        "word": "uccellino",
+        "vocabKey": null,
         "scale": 1
        },
        "hubSide": "a",
@@ -34969,9 +34855,7 @@
     "summer/cap": [
      "cap"
     ],
-    "winter/ice": [
-     "ice"
-    ],
+    "winter/ice": [],
     "desserts and sweets/popsicle": [
      "popsicle"
     ],
@@ -35258,6 +35142,12 @@
     ],
     "around the house/vase": [
      "vase"
+    ],
+    "Things That Fly/bird": [
+     "bird"
+    ],
+    "spring/bird": [
+     "bird"
     ]
    },
    "strings": {
@@ -35989,7 +35879,6 @@
       "disegnare",
       "parlare",
       "ballare",
-      "ascoltare",
       "dipingere",
       "ridere",
       "mangiare"
@@ -36005,9 +35894,7 @@
      "fits": [
       "leggere",
       "dormire",
-      "disegnare",
-      "ascoltare",
-      "ridere"
+      "disegnare"
      ],
      "subjectLiteral": "io",
      "pic": null
@@ -36021,9 +35908,7 @@
       "cucinare",
       "mangiare",
       "disegnare",
-      "dipingere",
-      "guardare",
-      "vedere"
+      "dipingere"
      ],
      "subjectLiteral": "Io",
      "pic": null
@@ -36058,8 +35943,7 @@
       "disegnare",
       "dipingere",
       "guardare",
-      "vedere",
-      "sentire"
+      "vedere"
      ],
      "subjectLiteral": "Io",
      "pic": null
@@ -36133,7 +36017,6 @@
       "disegnare",
       "dipingere",
       "camminare",
-      "dormire",
       "mangiare"
      ],
      "subjectLiteral": "Tu",
@@ -36161,8 +36044,7 @@
       "vedere",
       "guardare",
       "disegnare",
-      "dipingere",
-      "sentire"
+      "dipingere"
      ],
      "subjectLiteral": "Tu",
      "pic": null
@@ -36191,7 +36073,6 @@
       "fare",
       "finire",
       "scrivere",
-      "guardare",
       "leggere"
      ],
      "subjectLiteral": "Tu",
@@ -36226,11 +36107,9 @@
      "fits": [
       "leggere",
       "scrivere",
-      "disegnare",
       "guardare",
       "aprire",
-      "finire",
-      "vedere"
+      "finire"
      ],
      "subjectLiteral": "Matteo",
      "pic": null
@@ -36263,8 +36142,7 @@
       "pulire",
       "disegnare",
       "dipingere",
-      "guardare",
-      "vedere"
+      "guardare"
      ],
      "subjectLiteral": "Giulia",
      "pic": null
@@ -36306,8 +36184,7 @@
       "disegnare",
       "dipingere",
       "guardare",
-      "vedere",
-      "sentire"
+      "vedere"
      ],
      "subjectLiteral": "Alice",
      "pic": null
@@ -36321,7 +36198,6 @@
       "fare",
       "finire",
       "scrivere",
-      "guardare",
       "leggere"
      ],
      "subjectLiteral": "Francesco",
@@ -36336,8 +36212,7 @@
       "leggere",
       "aprire",
       "guardare",
-      "finire",
-      "vedere"
+      "finire"
      ],
      "subjectLiteral": "Il nonno",
      "pic": null
@@ -36351,8 +36226,7 @@
       "aprire",
       "guardare",
       "pulire",
-      "dipingere",
-      "vedere"
+      "dipingere"
      ],
      "subjectLiteral": "Matteo",
      "pic": null
@@ -36400,9 +36274,7 @@
      "unit": "presente",
      "fits": [
       "cucinare",
-      "mangiare",
-      "guardare",
-      "vedere"
+      "mangiare"
      ],
      "subjectLiteral": "Noi",
      "pic": null
@@ -36413,13 +36285,7 @@
      "col": "noi",
      "unit": "presente",
      "fits": [
-      "essere",
-      "leggere",
-      "scrivere",
-      "disegnare",
-      "cantare",
-      "parlare",
-      "ascoltare"
+      "essere"
      ],
      "subjectLiteral": "Noi",
      "pic": null
@@ -36431,9 +36297,7 @@
      "unit": "presente",
      "fits": [
       "avere",
-      "vedere",
-      "sentire",
-      "ascoltare"
+      "vedere"
      ],
      "subjectLiteral": "Noi",
      "pic": null
@@ -36477,8 +36341,7 @@
      "unit": "presente",
      "fits": [
       "lavare",
-      "pulire",
-      "guardare"
+      "pulire"
      ],
      "subjectLiteral": "Voi",
      "pic": null
@@ -36540,7 +36403,6 @@
       "fare",
       "finire",
       "scrivere",
-      "guardare",
       "leggere"
      ],
      "subjectLiteral": "Voi",
@@ -36612,9 +36474,7 @@
       "cucinare",
       "mangiare",
       "disegnare",
-      "dipingere",
-      "guardare",
-      "vedere"
+      "dipingere"
      ],
      "subjectLiteral": "Giulia e Alice",
      "pic": null
@@ -36627,11 +36487,9 @@
      "fits": [
       "leggere",
       "scrivere",
-      "disegnare",
       "guardare",
       "aprire",
-      "finire",
-      "vedere"
+      "finire"
      ],
      "subjectLiteral": "Lorenzo e Matteo",
      "pic": null
@@ -36685,7 +36543,6 @@
       "fare",
       "finire",
       "scrivere",
-      "guardare",
       "leggere"
      ],
      "subjectLiteral": "Sofia e Leonardo",
@@ -36704,6 +36561,18 @@
       "correre"
      ],
      "subjectLiteral": "Le bambine",
+     "pic": null
+    },
+    {
+     "id": "f47",
+     "text": "La sera io {form} la musica.",
+     "col": "io",
+     "unit": "presente",
+     "fits": [
+      "ascoltare",
+      "sentire"
+     ],
+     "subjectLiteral": "io",
      "pic": null
     }
    ],

@@ -133,11 +133,14 @@ const LOGIC_PUZZLES = {
       },
       F3: {
         title: 'Picture Clue Logic Puzzles: Cross Out and Find',
-        instruction: 'A crossed-out picture means the child does not have it. Cross out on the grid, then circle the picture each child has.',
+        instruction: 'A crossed-out picture means the child does not have it, a ringed one means the child has it. Cross out on the grid, then circle each answer.',
       },
       F4: {
-        title: 'Two-Attribute Logic Puzzles: Which Pet, Which Colour',
-        instruction: 'Each child has one picture and one colour. Use the linking clues to fill all three grids.',
+        // the second attribute is a PICTURE set (fruits; pets on the fruits fan), not the design's colour
+        // drops: six hue-only drops print as one grey silhouette (luma 88-182, _work/G2-319-build.md) —
+        // the title says what the child sees (record _work/G2-319-faces.md)
+        title: 'Two-Attribute Logic Puzzles: Two Pictures per Child',
+        instruction: 'Each child has one picture from each set. Use the linking clues to fill all three grids.',
       },
       F5: {
         title: 'Read the Logic Grid: True or False',

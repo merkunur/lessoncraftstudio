@@ -15,7 +15,9 @@
  *   eligible({theme, loc, cfg, d, inner}) → the card pool for a resolved
  *                                 difficulty: entriesFor() joined to the bank,
  *                                 /^\p{L}+$/u, distinct by word, n in
- *                                 minG..maxG, wide ≤ maxWide, fit ≥ 44 px.
+ *                                 minG..maxG, wide ≤ maxWide, fit ≥ 44 px;
+ *                                 the face knobs d.strip / d.tiers narrow it
+ *                                 (see the function's own comment).
  *                                 A bank row whose flat join is not the
  *                                 display word THROWS (a data defect must
  *                                 surface, never vanish).
@@ -39,8 +41,20 @@ function fitBox({ n, wideCount, inner = 302, box, gap, wide = 1.5, floor = 44 })
   return b < floor ? null : b;
 }
 
+/**
+ * The card pool for a resolved difficulty `d`. Face knobs on `d` narrow it
+ * (nothing here fires for the base's d1-d3, which carry none of them):
+ *   d.strip       Sound Strip — every box is `d.box` wide (a multigraph is
+ *                 written into ONE box), so the fit rule sees no wide box.
+ *   d.tiers       Syllables and Sounds — syllables in minSyl..maxSyl AND the
+ *                 key is in `cfg.texBoundary` (the arcs PRINT a syllable
+ *                 boundary: README texPool rule — only a TeX-agreed split whose
+ *                 bank rows match it may be drawn); the inter-syllable gap
+ *                 (`d.interGap`, 22) widens the row the fit rule budgets.
+ */
 function eligible({ theme, loc, cfg, d, inner = 302 }) {
   const out = [];
+  const texOk = d.tiers ? new Set(cfg.texBoundary || []) : null;
   for (const e of entriesFor(theme, loc)) {
     const word = displayWord(e.singular, loc);
     if (!/^\p{L}+$/u.test(word)) continue;
@@ -54,7 +68,12 @@ function eligible({ theme, loc, cfg, d, inner = 302 }) {
     const wideCount = seg.flat.filter((g) => [...g].length >= 2).length;
     if (n < d.minG || n > d.maxG) continue;
     if (wideCount > d.maxWide) continue;
-    const box = fitBox({ n, wideCount, inner, box: d.box, gap: d.gap });
+    if (d.tiers) {
+      if (seg.rows.length < d.minSyl || seg.rows.length > d.maxSyl) continue;
+      if (!texOk.has(e.vocabKey)) continue;
+    }
+    const extra = d.tiers ? (seg.rows.length - 1) * ((d.interGap || 22) - d.gap) : 0;
+    const box = fitBox({ n, wideCount: d.strip ? 0 : wideCount, inner: inner - extra, box: d.box, gap: d.gap });
     if (!box) continue;
     out.push({ ...e, word, chunks: seg.flat, rows: seg.rows, n, wideCount, box });
   }

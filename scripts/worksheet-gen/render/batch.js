@@ -39,10 +39,15 @@ async function runBatch(jobs, opts) {
     for (const job of jobs) {
       const type = loadType(job.type);
       const baseName = `${job.type}-${job.theme}-d${job.difficulty}-${job.locale}`;
+      // a job without its own strings takes the locale's authored strings.<loc>.json
+      // (as cli.js and render/one.js do) — without them render-instance falls back
+      // to the spec's i18n.en and a de/fi probe render shows English chrome
+      let strings = job.strings;
+      if (!strings) { try { strings = require('../i18n/strings.js').resolveStrings(type.id, job.locale || 'en', type); } catch (e) { strings = undefined; } }
       try {
         const out = await renderInstance({
           type, theme: job.theme, difficulty: job.difficulty, locale: job.locale,
-          page, outDir, baseName, strings: job.strings, seedEpoch: job.seedEpoch, unit: job.unit || null,
+          page, outDir, baseName, strings, seedEpoch: job.seedEpoch, unit: job.unit || null,
         });
         const fails = [...out.qa.lints, ...out.qa.verify];
         results.push({ job, baseName, ok: fails.length === 0, fails, pngPath: out.pngPath });

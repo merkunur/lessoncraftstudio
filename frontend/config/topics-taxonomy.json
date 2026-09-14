@@ -474,6 +474,106 @@
       "default_subject": "spatial-reasoning",
       "default_age_range": "7-9",
       "exercise_type_axis_key": "grid-coordinates"
+    },
+    "letter-of-the-week": {
+      "default_subject": "letters",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "letter-of-the-week"
+    },
+    "sound-boxes": {
+      "default_subject": "letters",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "sound-boxes"
+    },
+    "ordinal-numbers": {
+      "default_subject": "math",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "ordinal-numbers"
+    },
+    "days-and-months": {
+      "default_subject": "math",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "days-and-months"
+    },
+    "seasons": {
+      "default_subject": "science",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "seasons"
+    },
+    "all-about-me": {
+      "default_subject": "letters",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "all-about-me"
+    },
+    "picture-word-cards": {
+      "default_subject": "letters",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "picture-word-cards"
+    },
+    "syllable-split": {
+      "default_subject": "letters",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "syllable-split"
+    },
+    "syllable-reading": {
+      "default_subject": "letters",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "syllable-reading"
+    },
+    "opposites": {
+      "default_subject": "letters",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "opposites"
+    },
+    "read-and-do": {
+      "default_subject": "letters",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "read-and-do"
+    },
+    "rhyming-words": {
+      "default_subject": "letters",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "rhyming-words"
+    },
+    "hundreds-chart-puzzles": {
+      "default_subject": "math",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "hundreds-chart-puzzles"
+    },
+    "spelling-rules": {
+      "default_subject": "letters",
+      "default_age_range": "7-9",
+      "exercise_type_axis_key": "spelling-rules"
+    },
+    "compound-words": {
+      "default_subject": "letters",
+      "default_age_range": "7-9",
+      "exercise_type_axis_key": "compound-words"
+    },
+    "verb-forms": {
+      "default_subject": "letters",
+      "default_age_range": "7-9",
+      "exercise_type_axis_key": "verb-forms"
+    },
+    "animal-fact-file": {
+      "default_subject": "science",
+      "default_age_range": "7-9",
+      "exercise_type_axis_key": "animal-fact-file"
+    },
+    "logic-puzzles": {
+      "default_subject": "logic",
+      "default_age_range": "7-9",
+      "exercise_type_axis_key": "logic-puzzles"
+    },
+    "division-with-remainder": {
+      "default_subject": "math",
+      "default_age_range": "8-10",
+      "exercise_type_axis_key": "division-with-remainder"
+    },
+    "feelings": {
+      "default_subject": "letters",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "feelings"
     }
   },
   "$comment_subjects": "Subject×grade hub registry (2026-07-05). Powers /[locale]/topic/<subject>/<grade> hub pages that match how teachers search (Fach×Klasse, e.g. 'Mathe Klasse 1'). Keys = the apps.*.default_subject buckets (math/logic/letters/spatial-reasoning/science). slug+name per locale; bucket→exercise-type mapping derived from apps.* in code (exerciseTypeKeysForSubject). NOTE: the older $comment_subject_vocabulary claim of '4 values, no science' is stale — the corpus has 5 (science = science-sort/match/sequence). Added de+en at MVP; other locales added per the per-locale SEO rollout with native Fach terms.",
@@ -3259,6 +3359,166 @@
           "da": "Koordinater i kvadratnet",
           "no": "Koordinater i rutenett",
           "fi": "Koordinaatit"
+        }
+      },
+      "letter-of-the-week": {
+        "slug": {
+          "en": "letter-of-the-week"
+        },
+        "name": {
+          "en": "Letter of the Week"
+        }
+      },
+      "sound-boxes": {
+        "slug": {
+          "en": "sound-boxes"
+        },
+        "name": {
+          "en": "Sound Boxes"
+        }
+      },
+      "ordinal-numbers": {
+        "slug": {
+          "en": "ordinal-numbers"
+        },
+        "name": {
+          "en": "Ordinal Numbers"
+        }
+      },
+      "days-and-months": {
+        "slug": {
+          "en": "days-and-months"
+        },
+        "name": {
+          "en": "Days and Months"
+        }
+      },
+      "seasons": {
+        "slug": {
+          "en": "seasons"
+        },
+        "name": {
+          "en": "Four Seasons"
+        }
+      },
+      "all-about-me": {
+        "slug": {
+          "en": "all-about-me"
+        },
+        "name": {
+          "en": "All About Me"
+        }
+      },
+      "picture-word-cards": {
+        "slug": {
+          "en": "picture-word-cards"
+        },
+        "name": {
+          "en": "Picture Word Cards"
+        }
+      },
+      "syllable-split": {
+        "slug": {
+          "en": "syllable-split"
+        },
+        "name": {
+          "en": "Syllable Division"
+        }
+      },
+      "syllable-reading": {
+        "slug": {
+          "en": "syllable-reading"
+        },
+        "name": {
+          "en": "Word Families"
+        }
+      },
+      "opposites": {
+        "slug": {
+          "en": "opposites"
+        },
+        "name": {
+          "en": "Opposites"
+        }
+      },
+      "read-and-do": {
+        "slug": {
+          "en": "read-and-do"
+        },
+        "name": {
+          "en": "Read and Do"
+        }
+      },
+      "rhyming-words": {
+        "slug": {
+          "en": "rhyming-words"
+        },
+        "name": {
+          "en": "Rhyming Words"
+        }
+      },
+      "hundreds-chart-puzzles": {
+        "slug": {
+          "en": "hundreds-chart-puzzles"
+        },
+        "name": {
+          "en": "Hundreds Chart Puzzles"
+        }
+      },
+      "spelling-rules": {
+        "slug": {
+          "en": "spelling-rules"
+        },
+        "name": {
+          "en": "Spelling Rules"
+        }
+      },
+      "compound-words": {
+        "slug": {
+          "en": "compound-words"
+        },
+        "name": {
+          "en": "Compound Words"
+        }
+      },
+      "verb-forms": {
+        "slug": {
+          "en": "verb-forms"
+        },
+        "name": {
+          "en": "Verb Forms"
+        }
+      },
+      "animal-fact-file": {
+        "slug": {
+          "en": "animal-fact-file"
+        },
+        "name": {
+          "en": "Animal Fact File"
+        }
+      },
+      "logic-puzzles": {
+        "slug": {
+          "en": "logic-puzzles"
+        },
+        "name": {
+          "en": "Logic Grid Puzzles"
+        }
+      },
+      "division-with-remainder": {
+        "slug": {
+          "en": "division-with-remainder"
+        },
+        "name": {
+          "en": "Division with Remainders"
+        }
+      },
+      "feelings": {
+        "slug": {
+          "en": "feelings"
+        },
+        "name": {
+          "en": "Feelings"
         }
       }
     },

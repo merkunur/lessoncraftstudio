@@ -22,6 +22,20 @@
  *                 <= 30 chars, ends "?", no slot; printed:false by default
  *   wordPx        22 | 20 — set by the validator's measured worst 5-of-8 F2 row
  *   exemplar      the theme the type renders when no theme is pinned
+ *   lookalikes    { <theme>: [[noun, noun, ...], ...] } — art that TWINS at 60 px
+ *                 (every picture of the 10 fan themes was opened, 2026-09-14,
+ *                 the faces session). F3 (find the pictured query in its strip)
+ *                 never seats two nouns of one group in one strip; the base /
+ *                 F1 / F2 / F4 count positions and are unaffected. Noun keys are
+ *                 language-independent: the panels do not touch this table.
+ *   racers        F5's theme list = the fan set minus fruits and toys (things
+ *                 that move); a wave pinning another theme is REFUSED at build
+ *   facing        { <theme>: { default:'front', <noun>:'left'|'right'|'front' } }
+ *                 — the side the art LOOKS toward, read off every racer picture;
+ *                 'left' is mirrored on the race lane so the runner heads for the
+ *                 finish (design §3 F5: an additive mirror knob, only where needed)
+ *   noRace        { <theme>: [noun] } — art that cannot race even mirrored
+ *                 (lettering that would print backwards)
  *   strings       per-face title + instruction (K-320 = the base; F1..F5 the
  *                 faces of §3) — the panel's authored copy; EN = the source the
  *                 panels audit. Noun-free by construction (no {noun}/{ordinal}
@@ -54,13 +68,40 @@ const ORDINALS = {
     where: { label: 'Which place?', printed: false },
     wordPx: 22,
     exemplar: 'animals',
+    lookalikes: {
+      animals: [['jaguar', 'leopard'], ['antelope', 'reindeer'], ['cat', 'tiger'], ['dolphin', 'whale']],
+      'zoo animals': [['antelope', 'gazelle', 'reindeer'], ['jaguar', 'leopard', 'cheetah'], ['chimpanzee', 'gorilla'], ['monkey', 'orangutan'], ['meerkat', 'otter'], ['tiger', 'hyena']],
+      'farm animals': [['chicken', 'hen'], ['chick', 'duckling', 'duck'], ['calf', 'cow'], ['foal', 'horse'], ['lamb', 'sheep'], ['bull', 'ox']],
+      pets: [['fish', 'goldfish'], ['gecko', 'iguana'], ['hamster', 'gerbil', 'mouse'], ['tortoise', 'turtle'], ['cockatiel', 'finch']],
+      vehicles: [['boat', 'ship', 'ferry'], ['car', 'jeep'], ['airplane', 'jet'], ['bulldozer', 'excavator', 'crane'], ['truck', 'van']],
+      toys: [['doll', 'girl'], ['dice', 'domino'], ['blocks', 'lego'], ['airplane', 'helicopter'], ['train', 'truck']],
+      dinosaurs: [['argentinosaurus', 'brontosaurus'], ['diplodocus', 'therizinosaurus'], ['maiasaura', 'parasaurolophus'], ['carnotaurus', 'deinonychus', 'mosasaurus']],
+      'birds 2': [['chicken', 'hen'], ['crane', 'seagull'], ['goose', 'swan'], ['canary', 'finch'], ['swallow', 'sparrow', 'magpie'], ['robin', 'quail'], ['macaw', 'parrot']],
+      'forest creatures': [['chipmunk', 'squirrel'], ['frog', 'toad'], ['hedgehog', 'porcupine'], ['bear', 'beaver'], ['gopher', 'weasel'], ['snail', 'slug'], ['deer', 'moose'], ['eagle', 'hawk'], ['ant', 'spider']],
+      fruits: [['apricot', 'clementine', 'orange', 'persimmon', 'nectarine', 'peach', 'mango'], ['apple', 'cherry', 'cranberry', 'plum', 'pomegranate'], ['lemon', 'lime'], ['blackberry', 'raspberry']],
+    },
+    racers: ['animals', 'zoo animals', 'farm animals', 'pets', 'vehicles', 'dinosaurs', 'birds 2', 'forest creatures'],
+    // 'left' = the art looks LEFT (mirrored on the race lane); 'right' = looks right (drawn as is);
+    // 'front' = faces the child (drawn as is). default applies to every noun not listed. Read off
+    // every racer picture 2026-09-14: most side-view art in this library looks left.
+    facing: {
+      animals: { default: 'left', duck: 'right' },
+      'zoo animals': { default: 'left' },
+      'farm animals': { default: 'left', chick: 'right' },
+      pets: { default: 'left', fish: 'right', parrot: 'right', tortoise: 'right', mouse: 'right' },
+      vehicles: { default: 'left', bicycle: 'right', bulldozer: 'right', forklift: 'right', rocket: 'right', yacht: 'right', canoe: 'front', sailboat: 'front' },
+      dinosaurs: { default: 'left', deinonychus: 'right', oviraptor: 'right', velociraptor: 'right', carnotaurus: 'front' },
+      'birds 2': { default: 'left', cardinal: 'right', canary: 'right', dove: 'right', duck: 'right', finch: 'right', hawk: 'right', hen: 'right', heron: 'right', magpie: 'right', kingfisher: 'right', ostrich: 'right', pelican: 'right', rooster: 'right', toucan: 'right', woodpecker: 'right' },
+      'forest creatures': { default: 'left', ant: 'right', cardinal: 'right', caterpillar: 'right', earthworm: 'right', finch: 'right', firefly: 'right', snail: 'right' },
+    },
+    noRace: { vehicles: ['taxi'] },   // the TAXI sign would print backwards when mirrored
     strings: {
       'K-320': {
         title: 'Ordinal Numbers: Find the Place',
         instruction: 'Start at the flag. Count to the number of each chip and make the mark it shows.',
       },
       F1: {
-        title: 'Write the Ordinal Numbers 1st to 10th',
+        title: 'Write the Missing Ordinal Numbers',
         instruction: 'Some places are already written. Write the missing ordinal numbers in the empty boxes, counting from the flag.',
       },
       F2: {

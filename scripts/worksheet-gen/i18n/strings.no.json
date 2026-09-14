@@ -2305,7 +2305,7 @@
   },
   "G2-333": {
     "title": "Ordstjerne: Ett ord, mange ord",
-    "instruction": "Ett ord står i midten. Hvert bilde rundt danner et nytt ord sammen med det. Skriv de fire nye ordene på linjene."
+    "instruction": "Ett ord står i midten. Hvert bilde rundt danner et nytt ord sammen med det. Skriv hvert nye ord på linjen sin."
   },
   "G2-334": {
     "title": "Koble verbet til preteritumsformen",
@@ -2316,7 +2316,7 @@
     "instruction": "Se på bildet og les verbet i brikken. Skriv formen som passer i setningen, i den stiplede ruten."
   },
   "G2-336": {
-    "title": "De uregelrette verbene: være, ha, gå, få, se",
+    "title": "De uregelrette verbene: nå og i går",
     "instruction": "Disse verbene forandrer seg mye. Skriv formen for nå og formen for i går for hvert av dem i de stiplede rutene."
   },
   "G2-337": {
@@ -2328,15 +2328,15 @@
     "instruction": "Sett strek under verbet i hver setning. Skriv så infinitiven, formen med å, i den stiplede ruten."
   },
   "G2-339": {
-    "title": "Faktaark om {U}: Kryss av det som stemmer",
+    "title": "Faktaark om {L}: sett ring rundt det som stemmer",
     "instruction": "Les valgene i hver rad og sett ring rundt det som stemmer for dette dyret. Tegn så hvor det lever, og fullfør setningen."
   },
   "G2-340": {
-    "title": "Faktaark om {U} med ordbank",
+    "title": "Faktaark om {L} med ordbank",
     "instruction": "Finn hvert riktige faktum i ordbanken og skriv det i riktig rad på faktaarket. Fullfør så setningen nederst."
   },
   "G2-341": {
-    "title": "Faktaark om {U}: Skriv tre setninger",
+    "title": "Faktaark om {L}: skriv tre setninger",
     "instruction": "Les faktaarket. Fullfør de tre setningene med fakta fra det, og skriv ett faktum til på den siste linja."
   },
   "G2-342": {

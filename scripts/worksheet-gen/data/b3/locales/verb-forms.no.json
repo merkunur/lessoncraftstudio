@@ -653,7 +653,7 @@
     },
     {
       "id": "f04",
-      "text": "Etter skolen {form} Oliver hjemme.",
+      "text": "Hver dag etter skolen {form} Oliver hjemme.",
       "col": "pres",
       "unit": "na-igar",
       "fits": [
@@ -767,7 +767,7 @@
     },
     {
       "id": "f11",
-      "text": "På søndag {form} Jakob i sjøen.",
+      "text": "Forrige søndag {form} Jakob i sjøen.",
       "col": "past",
       "unit": "na-igar",
       "fits": [
@@ -877,7 +877,7 @@
     },
     {
       "id": "f19",
-      "text": "Jakob {form} en rød sykkel.",
+      "text": "Nå {form} Jakob en rød sykkel.",
       "col": "pres",
       "unit": "na-igar",
       "fits": [
@@ -903,7 +903,7 @@
     },
     {
       "id": "f21",
-      "text": "Ella {form} en gave av bestemor.",
+      "text": "Hver jul {form} Ella en gave av bestemor.",
       "col": "pres",
       "unit": "na-igar",
       "fits": [
@@ -956,7 +956,7 @@
     },
     {
       "id": "f25",
-      "text": "Theodor {form} en elg i skogen.",
+      "text": "I går {form} Theodor en elg i skogen.",
       "col": "past",
       "unit": "na-igar",
       "fits": [
@@ -987,7 +987,7 @@
       "instruction": "Se på bildet og les verbet i brikken. Skriv formen som passer i setningen, i den stiplede ruten."
     },
     "F4": {
-      "title": "De uregelrette verbene: være, ha, gå, få, se",
+      "title": "De uregelrette verbene: nå og i går",
       "instruction": "Disse verbene forandrer seg mye. Skriv formen for nå og formen for i går for hvert av dem i de stiplede rutene."
     },
     "F5": {

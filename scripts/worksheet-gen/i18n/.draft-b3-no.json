@@ -379,7 +379,7 @@
   },
   "G2-333": {
    "title": "Ordstjerne: Ett ord, mange ord",
-   "instruction": "Ett ord står i midten. Hvert bilde rundt danner et nytt ord sammen med det. Skriv de fire nye ordene på linjene."
+   "instruction": "Ett ord står i midten. Hvert bilde rundt danner et nytt ord sammen med det. Skriv hvert nye ord på linjen sin."
   },
   "G2-317": {
    "title": "Verb: Presens og preteritum",
@@ -394,7 +394,7 @@
    "instruction": "Se på bildet og les verbet i brikken. Skriv formen som passer i setningen, i den stiplede ruten."
   },
   "G2-336": {
-   "title": "De uregelrette verbene: være, ha, gå, få, se",
+   "title": "De uregelrette verbene: nå og i går",
    "instruction": "Disse verbene forandrer seg mye. Skriv formen for nå og formen for i går for hvert av dem i de stiplede rutene."
   },
   "G2-337": {
@@ -410,15 +410,15 @@
    "instruction": "Finn ut hva du vet om dette dyret. Skriv ett faktum i hver rad på faktaarket, og fyll resten av siden med tegning eller ord."
   },
   "G2-339": {
-   "title": "Faktaark om {U}: Kryss av det som stemmer",
+   "title": "Faktaark om {L}: sett ring rundt det som stemmer",
    "instruction": "Les valgene i hver rad og sett ring rundt det som stemmer for dette dyret. Tegn så hvor det lever, og fullfør setningen."
   },
   "G2-340": {
-   "title": "Faktaark om {U} med ordbank",
+   "title": "Faktaark om {L} med ordbank",
    "instruction": "Finn hvert riktige faktum i ordbanken og skriv det i riktig rad på faktaarket. Fullfør så setningen nederst."
   },
   "G2-341": {
-   "title": "Faktaark om {U}: Skriv tre setninger",
+   "title": "Faktaark om {L}: skriv tre setninger",
    "instruction": "Les faktaarket. Fullfør de tre setningene med fakta fra det, og skriv ett faktum til på den siste linja."
   },
   "G2-342": {
@@ -20665,7 +20665,8 @@
     "brush",
     "leggings",
     "shorts",
-    "pajamas"
+    "pajamas",
+    "scooter"
    ],
    "strings": {
     "K-324": {
@@ -21742,7 +21743,8 @@
     "triceratops",
     "pegasus",
     "dragon",
-    "swimming"
+    "swimming",
+    "weasel"
    ],
    "refuse": {
     "finalMuteE": false
@@ -24318,14 +24320,6 @@
      ]
     },
     {
-     "key": "weasel",
-     "word": "snømus",
-     "split": [
-      "snø",
-      "mus"
-     ]
-    },
-    {
      "key": "whistle",
      "word": "fløyte",
      "split": [
@@ -26410,18 +26404,18 @@
      "reviewed": true
     },
     "scooter": {
-     "unique": "sparkesykkelen",
-     "all": "alle sparkesyklene",
-     "pl": "sparkesykler",
+     "unique": "mopeden",
+     "all": "alle mopedene",
+     "pl": "mopeder",
      "ord": {
-      "2": "den andre sparkesykkelen",
-      "3": "den tredje sparkesykkelen",
-      "4": "den fjerde sparkesykkelen",
-      "5": "den femte sparkesykkelen"
+      "2": "den andre mopeden",
+      "3": "den tredje mopeden",
+      "4": "den fjerde mopeden",
+      "5": "den femte mopeden"
      },
      "dat": null,
-     "def": "sparkesykkelen",
-     "defPl": "sparkesyklene",
+     "def": "mopeden",
+     "defPl": "mopedene",
      "part": null,
      "gen": null,
      "a2": null,
@@ -29657,22 +29651,6 @@
        "pluralGap": null
       },
       {
-       "theme": "beach",
-       "noun": "net",
-       "vocabKey": "net",
-       "word": "nett",
-       "gaps": [
-        {
-         "from": 2,
-         "len": 2
-        }
-       ],
-       "g": "tt",
-       "side": "rule",
-       "plural": "nett",
-       "pluralGap": null
-      },
-      {
        "theme": "around the house",
        "noun": "pen",
        "vocabKey": "pen",
@@ -30052,22 +30030,6 @@
        "pluralGap": null
       },
       {
-       "theme": "beach",
-       "noun": "net",
-       "vocabKey": "net",
-       "word": "nett",
-       "gaps": [
-        {
-         "from": 2,
-         "len": 2
-        }
-       ],
-       "g": "tt",
-       "side": "rule",
-       "plural": "nett",
-       "pluralGap": null
-      },
-      {
        "theme": "Things That Fly",
        "noun": "rocket",
        "vocabKey": "rocket",
@@ -30337,22 +30299,6 @@
        "g": "t",
        "side": "contrast",
        "plural": "grøt",
-       "pluralGap": null
-      },
-      {
-       "theme": "vegetables",
-       "noun": "turnip",
-       "vocabKey": "turnip",
-       "word": "kålrot",
-       "gaps": [
-        {
-         "from": 5,
-         "len": 1
-        }
-       ],
-       "g": "t",
-       "side": "contrast",
-       "plural": "kålrøtter",
        "pluralGap": null
       },
       {
@@ -33418,7 +33364,7 @@
     },
     "G2-333": {
      "title": "Ordstjerne: Ett ord, mange ord",
-     "instruction": "Ett ord står i midten. Hvert bilde rundt danner et nytt ord sammen med det. Skriv de fire nye ordene på linjene."
+     "instruction": "Ett ord står i midten. Hvert bilde rundt danner et nytt ord sammen med det. Skriv hvert nye ord på linjen sin."
     }
    }
   },
@@ -34077,7 +34023,7 @@
     },
     {
      "id": "f04",
-     "text": "Etter skolen {form} Oliver hjemme.",
+     "text": "Hver dag etter skolen {form} Oliver hjemme.",
      "col": "pres",
      "unit": "na-igar",
      "fits": [
@@ -34191,7 +34137,7 @@
     },
     {
      "id": "f11",
-     "text": "På søndag {form} Jakob i sjøen.",
+     "text": "Forrige søndag {form} Jakob i sjøen.",
      "col": "past",
      "unit": "na-igar",
      "fits": [
@@ -34301,7 +34247,7 @@
     },
     {
      "id": "f19",
-     "text": "Jakob {form} en rød sykkel.",
+     "text": "Nå {form} Jakob en rød sykkel.",
      "col": "pres",
      "unit": "na-igar",
      "fits": [
@@ -34327,7 +34273,7 @@
     },
     {
      "id": "f21",
-     "text": "Ella {form} en gave av bestemor.",
+     "text": "Hver jul {form} Ella en gave av bestemor.",
      "col": "pres",
      "unit": "na-igar",
      "fits": [
@@ -34380,7 +34326,7 @@
     },
     {
      "id": "f25",
-     "text": "Theodor {form} en elg i skogen.",
+     "text": "I går {form} Theodor en elg i skogen.",
      "col": "past",
      "unit": "na-igar",
      "fits": [
@@ -34411,7 +34357,7 @@
      "instruction": "Se på bildet og les verbet i brikken. Skriv formen som passer i setningen, i den stiplede ruten."
     },
     "F4": {
-     "title": "De uregelrette verbene: være, ha, gå, få, se",
+     "title": "De uregelrette verbene: nå og i går",
      "instruction": "Disse verbene forandrer seg mye. Skriv formen for nå og formen for i går for hvert av dem i de stiplede rutene."
     },
     "F5": {
@@ -35219,6 +35165,9 @@
   "Design K-318 §4 says 'no: doubles two'; the panel rules mergeDoubles:true — in lydering a dobbel konsonant is ONE sound marking a short vowel (LK20 1.-2. trinn), so 'katt' is k·a·tt in one wide box; remergeAcrossSyllable carries the 86 words where the double straddles the approved seam.",
   "Gate (rhyming-words, still open): the couplet rule lowers the line but not rhymeWith — the no block stores rhymeWith lower-cased as the recorded workaround.",
   "Gate (compound-words): a vocab key must be spelled identically as an a-part and a b-part, so 'kake' can be a b-part in only one set item per set (pannekake/ostekake split across sets A and B).",
-  "The nt20-C hub table expects 6 read-and-do rows for no only 'once the def (+defPl) tables are authored' — they are (117 nouns over the six fan themes, definite forms hand-checked: bulldoserne/oterne, kua/kyr/kyrne, tigre, helikoptre, gjessene), so all six faces ship."
+  "The nt20-C hub table expects 6 read-and-do rows for no only 'once the def (+defPl) tables are authored' — they are (117 nouns over the six fan themes, definite forms hand-checked: bulldoserne/oterne, kua/kyr/kyrne, tigre, helikoptre, gjessene), so all six faces ship.",
+  "image library beach/net.png is a badminton racket, not a net — every locale pinning {theme:\"beach\", noun:\"net\"} (spelling-rules \"nett\") prints a racket over the word net.",
+  "image library vehicles/scooter.png and toys/scooter.png are a Vespa-style motor scooter; the vocabulary noun (en \"scooter\", no \"sparkesykkel\" = kick scooter) does not match the picture in K-348 / G1-341 — the no block excludes the key and renames the read-and-do literals to \"moped\".",
+  "image library vegetables/turnip.png is a beetroot (magenta, round) — neither a turnip nor the no vocab \"kålrot\" (swede); dropped from the no spelling-rules t-eller-tt contrast side."
  ]
 }

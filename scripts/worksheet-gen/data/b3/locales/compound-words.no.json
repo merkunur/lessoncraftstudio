@@ -1658,7 +1658,7 @@
     },
     "G2-333": {
       "title": "Ordstjerne: Ett ord, mange ord",
-      "instruction": "Ett ord står i midten. Hvert bilde rundt danner et nytt ord sammen med det. Skriv de fire nye ordene på linjene."
+      "instruction": "Ett ord står i midten. Hvert bilde rundt danner et nytt ord sammen med det. Skriv hvert nye ord på linjen sin."
     }
   }
 }

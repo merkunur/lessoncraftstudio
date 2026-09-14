@@ -393,6 +393,21 @@ function validateBank(bank, loc, opts = {}) {
     if (s.instruction && !/[.!?…]$/u.test(s.instruction.trim())) push('instruction has no end mark');
     if (loc === 'en' && (s.title !== TYPE.i18n.en.title || s.instruction !== TYPE.i18n.en.instruction)) push('en strings ≠ the spec i18n.en');
   }
+  // rule 8 for the faces (Phase 2): every face block obeys the same limits; titles distinct within the family
+  const faceTitles = [];
+  for (const fid of ['G2-329', 'G2-330', 'G2-331', 'G2-332', 'G2-333']) {
+    const fs = bank.strings && bank.strings[fid];
+    if (!fs) continue;
+    if (!fs.title || [...fs.title].length > 70) push(`strings ${fid}: title > 70 chars`);
+    if (WORKSHEET_WORD.test(fs.title || '')) push(`strings ${fid}: title carries the worksheet word`);
+    if (!fs.instruction || [...fs.instruction].length > 150) push(`strings ${fid}: instruction > 150 chars`);
+    if (fs.instruction && !/[.!?…]$/u.test(fs.instruction.trim())) push(`strings ${fid}: instruction has no end mark`);
+    faceTitles.push(fs.title);
+  }
+  if (s) faceTitles.push(s.title);
+  if (new Set(faceTitles).size !== faceTitles.length) push('a title repeats within the family');
+  // rule 11 (Phase 2): the panel's F5 lanes ruling is 3 or 4, never anything else
+  if (bank.webLanes != null && ![3, 4].includes(bank.webLanes)) push(`webLanes ${bank.webLanes} must be 3 or 4`);
   // rule 9 — forced refusals
   const refuse = bank.refuse || {};
   if (F1_FORCED.includes(loc) && refuse.F1 !== true) push('refuse.F1 must be true in ' + loc + ' (the joint is no decision / has no joint)');
@@ -600,6 +615,595 @@ const LONG = {
     instruction: 'Nimeä jokaisen rivin molemmat kuvat huolellisesti. Yhdistä kaksi sanaa yhdeksi uudeksi yhdyssanaksi ja kirjoita se siististi viivalle kuvien oikealle.' },
 };
 
+
+/* ================================================================== Phase 2: the five faces */
+/**
+ * 5. FACES (design §3; brief deliverable 3). Rows = tools/b3var-rows/compound-words.js (the emitted
+ *    specs types/g2/G2-329..G2-333). Per face: bank strings === the row (one source), a render through
+ *    the REAL pipeline at d2 en (+ the de/fi long chromes), verify() + lints empty, the face's floors
+ *    asserted HERE (pictures >= 36 / config, tiles >= 36 high, chips >= 44 icons, rulings >= 50 high
+ *    with glyphH >= 24, the school-hand model × 1.5 inside every lane), every unit inside the body
+ *    and above the footer, and the NODE cross-check (`crossCheckFace`: every stamped unit is a bank
+ *    item VERBATIM, every rendered picture a colour candidate that honours the pin and is OPENED,
+ *    F3 cross pairs against the pictured words, F4 foils ∈ bank.foils, F5 satellites ∈ bank.hubs).
+ *    F1 is REFUSED by the en bank (refuse.F1) — asserted — and rendered through a synthetic de-shaped
+ *    fixture bank on en pictures (Fugen-n / -er / -s joints; validator-clean under 'de'); F5 REFUSES
+ *    in en at the design floor (one hub with >= 4) — asserted — and renders through the en bank with
+ *    the panel's `webLanes:3` ruling; the size rows render through a synthetic alterati fixture.
+ *    Sweep: 20 seeds × every renderable face (build only). Poisons (each judged on its OWN message):
+ *      PF1r  F1 in en                                → the spec REFUSES (refuse.F1)
+ *      PF1a  a 48 px joint box on card 1            → verify() (the box width must never follow the answer)
+ *      PF1b  a fixture with 2 linked items          → the spec REFUSES (minLinked)
+ *      PF1c  tile b prints the whole                → verify()
+ *      PF1s  a graded stem stamped on a card        → verify()
+ *      PF2a  a seam tick on the cut face            → the spec REFUSES (d.seam) + verify() (a stamped tick)
+ *      PF2b  one letter cell dropped                → verify()
+ *      PF2c  "sun-flower" printed on a cut row      → verify()
+ *      PF2d  a wrong cut stamp                      → verify()
+ *      PF3a  row 1's right item is its own partner  → verify() (not deranged)
+ *      PF3b  a cross pair on the page (angel+fish)  → the spec REFUSES (a 6-item set that cannot avoid it) + the node cross-check
+ *      PF3c  a lane that is not empty               → verify()
+ *      PF4a  7 foil chips                           → verify()
+ *      PF4b  a foil chip that is not a bank foil    → the node cross-check
+ *      PF4c  the bank not mixed (compounds first)   → verify()
+ *      PF4d  a lane with one ruling                 → verify()
+ *      PF5r  F5 in en at lanes 4                    → the spec REFUSES (the design floor)
+ *      PF5w  bank.webLanes 2                        → the validator (rule 11) + the spec REFUSES
+ *      PF5a  a ghost at opacity 1                   → verify()
+ *      PF5b  a satellite that does not carry the hub → verify()
+ *      PF5c  the hub word printed twice             → verify()
+ *      PS1   a size picture that is not sizePic × scale → verify()
+ *      PS2   a chip on a size row                   → verify()
+ *      PS3   7 sizePairs                            → the validator (rule 7) + the spec REFUSES
+ */
+const FACE_ROWS = require('../tools/b3var-rows/compound-words.js').ROWS;
+const FACE_ID = { link: 'G2-329', cut: 'G2-330', match: 'G2-331', detect: 'G2-332', web: 'G2-333' };
+const FACE_TOTAL = 24;
+
+function faceSpec(mode) {
+  const id = FACE_ID[mode];
+  const dir = path.join(__dirname, '..', 'types', 'g2');
+  const f = require('fs').readdirSync(dir).find((x) => x.startsWith(id + '-'));
+  if (!f) throw new Error('face spec missing on disk: ' + id + ' (run tools/gen-b3var-specs.js)');
+  return require(path.join(dir, f));
+}
+/** A face type over an injected bank + an optional html patch (the poison seam). */
+function faceTypeWith(mode, bank, patch, cfg) {
+  const spec0 = faceSpec(mode);
+  const D = cfg ? Object.assign({}, spec0.difficulty[2], cfg) : null;
+  const spec = D ? Object.assign({}, spec0, { difficulty: { 1: D, 2: D, 3: D } }) : spec0;
+  return Object.assign({}, spec, {
+    build(args, ctx) {
+      const b = spec._buildWith(bank || bankModule('compound-words')[(args.locale || 'en').slice(0, 2)], args, ctx);
+      if (patch) b.bodyHtml = patch(b.bodyHtml);
+      return b;
+    },
+  });
+}
+function faceRefusal(mode, bank, unit, cfg) {
+  try { faceTypeWith(mode, bank, null, cfg).build({ difficulty: 2, locale: 'en', unit: unit || null }, { rng: makeRng('poison') }); return []; } catch (e) { return [e.message]; }
+}
+
+/** The measurement every face render shares (rects, stamps, pictures, lanes, tiles, chips, texts). */
+async function measureFace(page) {
+  return page.evaluate(() => {
+    const rect = (el) => { const r = el.getBoundingClientRect(); return { left: r.left, right: r.right, top: r.top, bottom: r.bottom, w: r.width, h: r.height }; };
+    const root = document.querySelector('[data-lcs-compound]');
+    const unitOf = (el) => ({
+      ds: Object.assign({}, el.dataset), ...rect(el),
+      pics: [...el.querySelectorAll('img')].map((im) => ({ key: im.dataset.lcsPic, src: decodeURIComponent(im.src), ghost: im.dataset.lcsGhost === '1', opacity: parseFloat(getComputedStyle(im).opacity), ...rect(im) })),
+      lanes: [...el.querySelectorAll('[data-lcs-prim="writing-row"]')].map((l) => ({ h: +l.getAttribute('height'), empty: !l.querySelector('text, path'), ...rect(l) })),
+      tiles: [...el.querySelectorAll('.ws-tile')].map((t) => ({ text: t.textContent.trim(), px: parseFloat(getComputedStyle(t).fontSize), ...rect(t) })),
+      letters: [...el.querySelectorAll('[data-lcs-letter]')].map((l) => l.textContent),
+      boxes: [...el.querySelectorAll('[data-lcs-linkbox]')].map((b) => rect(b)),
+      label: (el.querySelector('[data-lcs-hub-label]') || {}).textContent,
+      ops: [...el.querySelectorAll('[data-lcs-op]')].map((o) => o.dataset.lcsOp),
+    });
+    const sel = '[data-lcs-row], [data-lcs-link-card], [data-lcs-match-row], [data-lcs-web-lane], [data-lcs-detect-lane]';
+    const bank = root.querySelector('[data-lcs-detect-bank]');
+    const chips = bank ? [...bank.querySelectorAll('[data-lcs-detect-word]')].map((c) => ({ ds: Object.assign({}, c.dataset), text: (c.querySelector('span:last-child') || {}).textContent, px: parseFloat(getComputedStyle(c.querySelector('span:last-child')).fontSize), pic: (() => { const im = c.querySelector('img'); return { key: im.dataset.lcsPic, src: decodeURIComponent(im.src), ...rect(im) }; })(), ...rect(c) })) : [];
+    return {
+      root: Object.assign({}, root.dataset),
+      units: [...root.querySelectorAll(sel)].map(unitOf),
+      webs: [...root.querySelectorAll('[data-lcs-web]')].map(unitOf),
+      chips, bank: bank ? rect(bank) : null, bankRows: bank ? new Set(chips.map((c) => Math.round(c.top))).size : 0,
+      body: rect(document.querySelector('[data-lcs-body]')), foot: document.querySelector('.ws-foot').getBoundingClientRect().top, titleH: rect(document.querySelector('.ws-head')).h,
+    };
+  });
+}
+async function renderFace(page, type, { baseName, strings, unit, locale }) {
+  const out = await renderInstance({ type, theme: null, difficulty: 2, locale: locale || 'en', page, outDir: OUT, baseName, strings, unit: unit || null });
+  const m = await measureFace(page);
+  return { lints: out.qa.lints, verify: out.qa.verify, m, png: out.pngPath, meta: out.meta };
+}
+
+/** Node cross-check for a face page: every stamped unit VERBATIM from the bank, pictures candidates + OPENED, face rules. */
+function crossCheckFace(name, mode, m, bank, opened) {
+  const out = [];
+  const O = opened || OPENED;
+  const lower = (s) => String(s).toLowerCase();
+  const items = [];
+  (bank.units || []).forEach((u) => (u.items || []).forEach((it) => items.push({ it, where: 'set ' + u.id })));
+  (bank.opaque || []).forEach((it) => items.push({ it, where: 'opaque' }));
+  (bank.onePart || []).forEach((it) => items.push({ it, where: 'onePart' }));
+  const byWhole = new Map(items.map((x) => [x.it.whole.word, x]));
+  const pinFor = (key) => {
+    for (const { it } of items) for (const p of [it.a, it.b]) if (p && p.vocabKey === key && p.pic) return p.pic;
+    for (const sp of bank.sizePairs || []) if (sp.base && sp.base.vocabKey === key && sp.base.pic) return sp.base.pic;
+    return null;
+  };
+  const picOk = (p, what) => {
+    const [theme, file] = p.src.split('/').slice(-2);
+    const noun = file.replace(/\.[a-z0-9]+$/i, '').replace(/@\dx$/, '');
+    if (!candidates(p.key, 'en').some((c) => c.theme === theme && c.noun === noun)) out.push(`${name}: ${what}: picture ${theme}/${noun} is not a colour candidate for "${p.key}"`);
+    const pin = pinFor(p.key);
+    if (pin && (pin.theme !== theme || pin.noun !== noun)) out.push(`${name}: ${what}: "${p.key}" rendered ${theme}/${noun}, the bank pins ${pin.theme}/${pin.noun}`);
+    const o = O[`${theme}/${noun}`];
+    if (!o || !o.includes(p.key)) out.push(`${name}: ${what}: picture ${theme}/${noun} rendered for "${p.key}" was not opened as honest`);
+  };
+  const verbatim = (ds, what) => {
+    const x = byWhole.get(ds.lcsWhole);
+    if (!x) { out.push(`${name}: ${what}: stamped whole "${ds.lcsWhole}" is not a bank item`); return null; }
+    const it = x.it;
+    const aKey = it.a.vocabKey || it.a.word, bKey = it.b.affix != null ? it.b.affix : (it.b.vocabKey || it.b.word);
+    if (aKey !== ds.lcsA || bKey !== ds.lcsB || it.a.word !== ds.lcsAWord || (it.b.word || '') !== ds.lcsBWord || (it.aStem || '') !== ds.lcsAStem || (it.link || '') !== ds.lcsLink) out.push(`${name}: ${what}: stamps (${ds.lcsA},${ds.lcsB},${ds.lcsAWord},${ds.lcsBWord},${ds.lcsAStem},${ds.lcsLink}) ≠ the bank item "${it.whole.word}" — not verbatim`);
+    const cut = [...(it.aStem || it.a.word)].length + [...(it.link || '')].length;
+    if (+ds.lcsCut !== cut) out.push(`${name}: ${what}: cut ${ds.lcsCut} ≠ ${cut}`);
+    return x;
+  };
+  if (mode === 'link' || mode === 'cut' || mode === 'match') {
+    const seen = new Set();
+    const rows = [];
+    m.units.forEach((u, i) => {
+      const what = `unit ${i + 1}`;
+      const x = verbatim(u.ds, what);
+      if (!x) return;
+      if (x.it.opaque && mode !== 'cut') out.push(`${name}: ${what}: opaque "${x.it.whole.word}" on the ${mode} face (analysis faces only)`);
+      if (mode === 'link' && x.it.aStem) out.push(`${name}: ${what}: a graded stem on the link face`);
+      for (const k of [u.ds.lcsA, u.ds.lcsB]) { if (k.startsWith('-')) continue; if (seen.has(k)) out.push(`${name}: part "${k}" twice on the page`); seen.add(k); }
+      rows.push({ it: x.it, u, aWord: u.ds.lcsAWord, bWord: u.ds.lcsBWord });
+      u.pics.forEach((p, j) => picOk(p, `${what} picture ${j + 1}`));
+    });
+    if (mode === 'match') {
+      // the right column: each right key/word must be the b of an item on the page; cross pairs against the pictured words
+      const pw = picturedWords('en');
+      const byB = new Map(rows.map((r) => [r.it.b.vocabKey, r.it]));
+      m.units.forEach((u, i) => {
+        const R = u.pics.find((p) => p.key !== u.ds.lcsA);
+        // the right item's key is read from the element stamps in verify(); here: the second picture must be a b of the page
+        if (R && !byB.has(R.key)) out.push(`${name}: unit ${i + 1}: right picture "${R.key}" is not a second part on the page`);
+      });
+      for (const i of rows) for (const j of rows) {
+        if (i === j) continue;
+        for (const l of bank.links || ['']) {
+          const joined = lower(i.aWord + l + j.bWord);
+          if (pw.has(joined) || byWhole.has(joined) || (bank.crossWords || []).some((p) => lower(p[0]) === lower(i.aWord) && lower(p[1]) === lower(j.bWord))) out.push(`${name}: cross pair ${i.aWord}+${l ? l + '+' : ''}${j.bWord} = "${joined}" is a word a child can legitimately make (F3 rule 3)`);
+        }
+      }
+    }
+  }
+  if (mode === 'detect') {
+    const foils = new Map((bank.foils || []).map((f) => [f.word, f]));
+    const seen = new Set();
+    m.chips.forEach((c, i) => {
+      const what = `chip ${i + 1} "${c.ds.lcsDetectWord}"`;
+      if (c.ds.lcsFoil === '1') {
+        const f = foils.get(c.ds.lcsDetectWord);
+        if (!f) out.push(`${name}: ${what}: foil "${c.ds.lcsDetectWord}" is not a bank foil`);
+        else if (f.vocabKey !== c.ds.lcsDetectKey) out.push(`${name}: ${what}: foil key ≠ the bank's`);
+      } else {
+        const x = byWhole.get(c.ds.lcsDetectWord);
+        if (!x) { out.push(`${name}: ${what}: compound "${c.ds.lcsDetectWord}" is not a bank whole`); return; }
+        const it = x.it;
+        const parts = [it.aStem || it.a.word, it.link || '', it.b.affix != null ? it.b.affix.replace(/^-/, '') : it.b.word].join('|');
+        if (c.ds.lcsCompound !== parts) out.push(`${name}: ${what}: parts "${c.ds.lcsCompound}" ≠ the bank's "${parts}"`);
+        if (it.whole.vocabKey !== c.ds.lcsDetectKey) out.push(`${name}: ${what}: key ≠ the bank's`);
+        for (const p of [it.a, it.b]) { const k = p.vocabKey || lower(p.word); if (seen.has(k)) out.push(`${name}: part "${k}" twice among the compounds`); seen.add(k); }
+      }
+      picOk(c.pic, what);
+    });
+  }
+  if (mode === 'web' && m.root.lcsSizeRows == null) {
+    const hubs = new Map((bank.hubs || []).map((h) => [h.hub.vocabKey, h]));
+    const seen = new Set();
+    m.webs.forEach((w, wi) => {
+      const what = `web ${wi + 1}`;
+      const h = hubs.get(w.ds.lcsHub);
+      if (!h) { out.push(`${name}: ${what}: hub "${w.ds.lcsHub}" is not a bank hub`); return; }
+      if (h.hub.word !== w.ds.lcsHubWord || h.side !== w.ds.lcsHubSide) out.push(`${name}: ${what}: hub word/side ≠ the bank's`);
+      const sats = new Set(h.satellites.map(lower));
+      w.pics.forEach((p, j) => picOk(p, `${what} picture ${j + 1}`));
+      const lanes = m.units.filter((u) => u.top >= w.top - 0.6 && u.bottom <= w.bottom + 0.6 && u.ds.lcsWhole != null);
+      lanes.forEach((u, i) => {
+        const lw = `${what} lane ${i + 1}`;
+        const x = verbatim(u.ds, lw);
+        if (!x) return;
+        if (!sats.has(lower(x.it.whole.word))) out.push(`${name}: ${lw}: "${x.it.whole.word}" is not a satellite of "${h.hub.word}" in the bank`);
+        if (x.it.opaque) out.push(`${name}: ${lw}: opaque "${x.it.whole.word}" on the web face`);
+        if (seen.has(lower(x.it.whole.word))) out.push(`${name}: satellite "${x.it.whole.word}" twice`); seen.add(lower(x.it.whole.word));
+      });
+    });
+  }
+  if (mode === 'web' && m.root.lcsSizeRows != null) {
+    const pairs = bank.sizePairs || [];
+    m.units.forEach((u, i) => {
+      const what = `row ${i + 1}`;
+      const sp = pairs.find((p) => p.base.word === u.ds.lcsBaseWord && p.base.vocabKey === u.ds.lcsBase);
+      if (!sp) { out.push(`${name}: ${what}: base "${u.ds.lcsBaseWord}" is not a sizePair`); return; }
+      if (sp[u.ds.lcsSize] !== u.ds.lcsWhole) out.push(`${name}: ${what}: ${u.ds.lcsSize} "${u.ds.lcsWhole}" ≠ the bank's "${sp[u.ds.lcsSize]}"`);
+      u.pics.forEach((p, j) => picOk(p, `${what} picture ${j + 1}`));
+    });
+  }
+  return out;
+}
+
+/** The floors the gate asserts itself on a face render. */
+function assertFace(name, mode, r, cfg, bank, opened) {
+  ok(r.verify.length === 0, `${name}: verify() ${JSON.stringify(r.verify)}`);
+  ok(r.lints.length === 0, `${name}: lints ${JSON.stringify(r.lints)}`);
+  const m = r.m;
+  const lowest = Math.max(...[...m.units, ...m.webs, ...m.chips].map((u) => u.bottom), 0);
+  ok(lowest <= m.foot + 0.6, `${name}: content reaches ${Math.round(lowest)} vs the footer ${Math.round(m.foot)}`);
+  const inBody = (u, what) => ok(u.left >= m.body.left - 0.6 && u.right <= m.body.right + 0.6 && u.top >= m.body.top - 0.6 && u.bottom <= m.body.bottom + 0.6, `${name}: ${what} outside the body column`);
+  const glyphH = cfg.glyphH, laneH = cfg.laneH;
+  ok(glyphH >= MIN_GLYPH, `${name}: glyphH ${glyphH} < ${MIN_GLYPH}`);
+  let minIcon = Infinity, maxHand = 0;
+  const hand = (whole, w) => { const hw = handWidth(whole, laneH, glyphH); if (hw != null) { maxHand = Math.max(maxHand, hw); ok(hw * HAND_MARGIN <= w - 16, `${name}: "${whole}" needs ${Math.round(hw * HAND_MARGIN)} px of hand-width, the lane gives ${Math.round(w - 16)}`); } };
+  const picFloor = mode === 'link' ? cfg.wholePic : mode === 'cut' ? cfg.cutPic : mode === 'match' ? cfg.pic : mode === 'detect' ? cfg.iconPx : cfg.pic;
+  const units = mode === 'detect' ? m.units : m.units;
+  units.forEach((u, i) => {
+    const what = `unit ${i + 1}`;
+    inBody(u, what);
+    for (const p of u.pics) {
+      const side = Math.min(p.w, p.h);
+      minIcon = Math.min(minIcon, side);
+      ok(side >= MIN_ICON - 0.6, `${name}: ${what}: picture "${p.key}" ${Math.round(side)} px < the G2 floor ${MIN_ICON}`);
+      if (mode !== 'web' || m.root.lcsSizeRows == null) ok(side >= picFloor - 0.6, `${name}: ${what}: picture "${p.key}" ${Math.round(side)} px < config ${picFloor}`);
+    }
+    for (const t of u.tiles) { ok(t.h >= 36 - 0.6, `${name}: ${what}: tile "${t.text}" ${Math.round(t.h)} px high (< 36)`); ok(t.px >= 18 - 0.6, `${name}: ${what}: tile "${t.text}" ${t.px} px (< 18)`); }
+    for (const l of u.lanes) {
+      ok(l.h >= MIN_LANE_H && l.empty, `${name}: ${what}: lane ${l.h} px / empty ${l.empty}`);
+      ok(l.left >= u.left - 0.6 && l.right <= u.right + 0.6 && l.top >= u.top - 0.6 && l.bottom <= u.bottom + 0.6, `${name}: ${what}: lane outside its unit`);
+    }
+    if (u.ds.lcsWhole && mode !== 'detect' && u.lanes.length) hand(u.ds.lcsWhole, u.lanes[0].w);
+  });
+  if (mode === 'detect') {
+    m.chips.forEach((c, i) => {
+      const side = Math.min(c.pic.w, c.pic.h);
+      minIcon = Math.min(minIcon, side);
+      ok(side >= cfg.iconPx - 0.6, `${name}: chip ${i + 1}: icon ${Math.round(side)} < ${cfg.iconPx}`);
+      ok(c.px >= 18 - 0.6, `${name}: chip ${i + 1}: word ${c.px} px < 18`);
+    });
+    ok(m.bankRows <= 3, `${name}: bank wraps to ${m.bankRows} rows`);
+    ok(m.units.length === cfg.compounds, `${name}: ${m.units.length} lanes ≠ ${cfg.compounds}`);
+    ok(m.chips.length === cfg.bank, `${name}: ${m.chips.length} chips ≠ ${cfg.bank}`);
+  }
+  if (mode === 'link') ok(m.units.length === cfg.cards, `${name}: ${m.units.length} cards ≠ ${cfg.cards}`);
+  if (mode === 'cut') ok(m.units.length === cfg.rows, `${name}: ${m.units.length} rows ≠ ${cfg.rows}`);
+  if (mode === 'match') ok(m.units.length === cfg.pairs, `${name}: ${m.units.length} rows ≠ ${cfg.pairs}`);
+  if (mode === 'web' && m.root.lcsSizeRows == null) {
+    ok(m.webs.length === cfg.webs, `${name}: ${m.webs.length} webs ≠ ${cfg.webs}`);
+    ok(m.units.length === m.webs.length * +m.root.lcsLanes, `${name}: ${m.units.length} lanes ≠ ${m.webs.length} × ${m.root.lcsLanes}`);
+    m.webs.forEach((w, i) => { inBody(w, `web ${i + 1}`); for (const p of w.pics.filter((p) => !p.ghost)) ok(Math.min(p.w, p.h) >= MIN_ICON - 0.6, `${name}: web ${i + 1}: picture ${Math.round(p.w)} < 36`); });
+  }
+  if (mode === 'web' && m.root.lcsSizeRows != null) ok(m.units.length === (cfg.sizeRows || cfg.rows), `${name}: ${m.units.length} size rows ≠ ${cfg.sizeRows || cfg.rows}`);
+  const heights = m.units.map((u) => Math.round(u.h));
+  if (mode === 'cut' || mode === 'match' || (mode === 'web' && m.root.lcsSizeRows != null)) ok(Math.max(...heights) - Math.min(...heights) <= 1, `${name}: rows differ in height ${JSON.stringify(heights)}`);
+  const xc = crossCheckFace(name, mode, m, bank, opened);
+  ok(xc.length === 0, xc.join('\n    '));
+  return { minIcon: Number.isFinite(minIcon) ? Math.round(minIcon) : null, maxHand: Math.round(maxHand), lowest: Math.round(lowest), unitH: heights.length ? Math.round(Math.max(...heights)) : 0 };
+}
+
+/* ---- fixtures ---- */
+const DE_P = (theme, noun) => ({ theme, noun });
+const dePart = (vocabKey, word, pic) => (pic ? { vocabKey, word, pic } : { vocabKey, word });
+const deItem = (a, link, b, whole, wholeKey) => ({ a, aStem: null, link, b, whole: { word: whole, vocabKey: wholeKey, scale: 1 }, hubSide: 'b', opaque: false, picOpened: true });
+/** A de-SHAPED synthetic bank on en pictures (Fugen-n / -er / -s): the F1 render fixture (en refuses F1 by design). */
+function deFixture(en) {
+  return {
+    shape: 'compound', casing: 'keep-first', links: ['', 'n', 's', 'er'], linkBoxW: 36, exemplar: 'A',
+    units: [{ id: 'A', items: [
+      deItem(dePart('bell', 'Glocke'), 'n', dePart('flower', 'Blume', DE_P('spring', 'flower')), 'Glockenblume', 'bluebell'),
+      deItem(dePart('rain', 'Regen'), '', dePart('coat', 'Mantel'), 'Regenmantel', 'raincoat'),
+      deItem(dePart('tooth', 'Zahn'), '', dePart('brush', 'Bürste'), 'Zahnbürste', 'toothbrush'),
+      deItem(dePart('bag', 'Tasche'), 'n', dePart('lamp', 'Lampe'), 'Taschenlampe', 'flashlight'),
+      deItem(dePart('water', 'Wasser', DE_P('beach', 'water')), '', dePart('melon', 'Melone'), 'Wassermelone', 'watermelon'),
+      deItem(dePart('foot', 'Fuß'), '', dePart('ball', 'Ball', DE_P('toys', 'ball')), 'Fußball', 'football'),
+      deItem(dePart('cheese', 'Käse'), '', dePart('cake', 'Kuchen', DE_P('bakery', 'cake')), 'Käsekuchen', 'cheesecake'),
+      deItem(dePart('bird', 'Vogel'), '', dePart('house', 'Haus'), 'Vogelhaus', 'birdhouse'),
+      deItem(dePart('dress', 'Kleid'), 'er', dePart('cabinet', 'Schrank', DE_P('furniture', 'cabinet')), 'Kleiderschrank', 'wardrobe'),   // 14 letters: over the F1 cap (12) — dropped by the face (the drop control)
+    ] }],
+    opaque: [],
+    onePart: [
+      deItem(dePart('sun', 'Sonne'), 'n', { vocabKey: null, word: 'Brille' }, 'Sonnenbrille', 'sunglasses'),
+      deItem(dePart('sand', 'Sand'), '', { vocabKey: null, word: 'Burg' }, 'Sandburg', 'sandcastle'),
+    ],
+    hubs: [], foils: [], sizePairs: [], crossWords: [], refuse: { F1: false, F3: false, F5: false },
+    strings: clone(en.strings),
+  };
+}
+/** A synthetic ALTERATI fixture on en pictures (Spanish-shaped size pairs) — the size-rows render fixture. */
+function sizeFixture(en) {
+  const b = clone(en);
+  b.shape = 'alterati'; b.casing = 'lower'; b.refuse = { F1: true, F3: true, F5: false };
+  const base = (vocabKey, word, pic) => (pic ? { vocabKey, word, pic } : { vocabKey, word });
+  b.sizePairs = [
+    { base: base('house', 'casa'), small: 'casita', big: 'casona' },
+    { base: base('ball', 'bola', DE_P('toys', 'ball')), small: 'bolita', big: 'bolota' },
+    { base: base('book', 'libro'), small: 'librito', big: 'librote' },
+    { base: base('chair', 'silla', DE_P('furniture', 'chair')), small: 'sillita', big: 'sillota' },
+    { base: base('cake', 'pastel', DE_P('bakery', 'cake')), small: 'pastelito', big: 'pastelote' },
+    { base: base('sun', 'sol'), small: 'solecito', big: 'solote' },
+    { base: base('apple', 'manzana', DE_P('fruits', 'apple')), small: 'manzanita', big: 'manzanota' },
+    { base: base('flower', 'flor', DE_P('spring', 'flower')), small: 'florecita', big: 'florota' },
+    { base: base('star', 'estrella', DE_P('christmas', 'star')), small: 'estrellita', big: 'estrellota' },
+  ];
+  return b;
+}
+const FACE_OPENED = Object.assign({}, OPENED, { 'around the house/wardrobe': ['wardrobe'], 'clothing/dress': ['dress'], 'around the house/lamp': ['lamp'], 'furniture/lamp': ['lamp'], 'camping/flashlight': ['flashlight'], 'tools/flashlight': ['flashlight'] });   // opened 2026-09-14 for the de fixture (contact sheet G2-316-faces-pictures.png)
+
+async function facesSection(page, en, banks) {
+  const pngs = [];
+  let killed = 0;
+  const cfgOf = (mode) => faceSpec(mode).difficulty[2];
+  // 5a. one source: bank strings === the rows; titles distinct in the family; F1/F5 refusals in en
+  for (const r of FACE_ROWS) {
+    const s = en.strings[r[1]];
+    ok(!!s && s.title === r[6] && s.instruction === r[7], `bank en strings ${r[1]} ≠ the row (one source)`);
+    const spec = faceSpec(Object.keys(FACE_ID).find((k) => FACE_ID[k] === r[1]));
+    ok(spec.i18n.en.title === r[6] && spec.i18n.en.instruction === r[7], `emitted spec ${r[1]} i18n ≠ the row (re-run gen-b3var-specs)`);
+    ok([...r[6]].length <= 70 && !WORKSHEET_WORD.test(r[6]) && [...r[7]].length <= 150 && /[.!?…]$/u.test(r[7]), `${r[1]}: title/instruction outside the limits`);
+  }
+  const titles = FACE_ROWS.map((r) => r[6]).concat(en.strings['G2-316'].title);
+  ok(new Set(titles).size === titles.length, 'face titles repeat within the family');
+  ok(/REFUSES the link face \(refuse\.F1/.test(faceRefusal('link', en)[0] || ''), 'F1 in en must REFUSE by the bank (refuse.F1)');
+  // The en bank RULES webLanes:3 (reviewer 2026-09-14), so the floor is measured with the ruling
+  // stripped: at the design's 4 lanes en still has one hub and REFUSES; with the ruling it ships.
+  const enNoRuling = { ...en }; delete enNoRuling.webLanes;
+  const f5 = faceRefusal('web', enNoRuling)[0] || '';
+  ok(/has 1 hub\(s\) with >= 4 usable satellites, need 2 webs of 4 \(the design floor\) — REFUSED/.test(f5), `F5 in en at lanes 4 must REFUSE at the design floor (got: ${f5})`);
+  ok(faceRefusal('web', en).length === 0, 'F5 in en with the bank webLanes:3 ruling must BUILD');
+  // the fixtures are validator-clean under their own locale rules
+  const deFx = deFixture(en);
+  const vDe = validateBank(deFx, 'de', { opened: FACE_OPENED });
+  ok(vDe.fails.length === 0, `de fixture: ${vDe.fails.length} findings\n    ` + vDe.fails.slice(0, 8).join('\n    '));
+  const szFx = sizeFixture(en);
+  const vSz = validateBank(szFx, 'it', { opened: FACE_OPENED });
+  ok(vSz.fails.length === 0, `size fixture: ${vSz.fails.length} findings\n    ` + vSz.fails.slice(0, 8).join('\n    '));
+  const lanes3 = Object.assign(clone(en), { webLanes: 3 });
+  const vL3 = validateBank(lanes3, 'en');
+  ok(vL3.fails.length === 0, `webLanes:3 bank: ${vL3.fails.join(' · ')}`);
+
+  // 5b. renders: the three en faces + the two fixture-borne faces + size rows, each under the en chrome and the de/fi long chromes
+  const plan = [
+    { mode: 'cut', type: faceTypeWith('cut'), bank: en, base: 'G2-330-gate-d2-en' },
+    { mode: 'match', type: faceTypeWith('match'), bank: en, base: 'G2-331-gate-d2-en' },
+    { mode: 'detect', type: faceTypeWith('detect'), bank: en, base: 'G2-332-gate-d2-en' },
+    { mode: 'link', type: faceTypeWith('link', deFx), bank: deFx, base: 'G2-329-gate-d2-en-fixture-de', opened: FACE_OPENED },
+    { mode: 'web', type: faceTypeWith('web', lanes3), bank: lanes3, base: 'G2-333-gate-d2-en-lanes3' },
+    { mode: 'web', type: faceTypeWith('web', szFx), bank: szFx, base: 'G2-333-gate-d2-en-size-fixture', opened: FACE_OPENED, size: true },
+  ];
+  const chromes = QUICK ? ['fi'] : ['de', 'fi'];
+  for (const p of plan) {
+    const cfg = cfgOf(p.mode);
+    const r = await renderFace(page, p.type, { baseName: p.base });
+    const s = assertFace(p.base, p.mode, r, cfg, p.bank, p.opened);
+    pngs.push(r.png);
+    console.log(`render ${p.base}: verify ${r.verify.length} lints ${r.lints.length} units ${r.m.units.length}${r.m.webs.length ? ' webs ' + r.m.webs.length : ''}${r.m.chips.length ? ' chips ' + r.m.chips.length + ' in ' + r.m.bankRows + ' rows' : ''} unit h ${s.unitH} pic min ${s.minIcon} hand max ${s.maxHand} body ${Math.round(r.m.body.h)} px, lowest ${s.lowest} vs foot ${Math.round(r.m.foot)}${r.meta && r.meta.wholes ? ' wholes ' + r.meta.wholes.join(' ') : ''}${r.meta && r.meta.order ? ' order ' + JSON.stringify(r.meta.order) : ''}`);
+    for (const k of chromes) {
+      const rr = await renderFace(page, p.type, { baseName: `${p.base}-longchrome-${k}`, strings: LONG[k] });
+      const ss = assertFace(`${p.base} long chrome ${k}`, p.mode, rr, cfg, p.bank, p.opened);
+      ok(rr.m.body.h <= 740, `${p.base} long chrome ${k}: body ${Math.round(rr.m.body.h)} — the fixture did not squeeze the body`);
+      pngs.push(rr.png);
+      console.log(`render ${p.base} long chrome ${k}: verify ${rr.verify.length} lints ${rr.lints.length} body ${Math.round(rr.m.body.h)} px (head ${Math.round(rr.m.titleH)}) unit h ${ss.unitH}, lowest ${ss.lowest} vs foot ${Math.round(rr.m.foot)}`);
+    }
+  }
+  // the unit path: the match face over set A explicitly (the fan lever reaches the faces)
+  {
+    const r = await renderFace(page, faceTypeWith('match'), { baseName: 'G2-331-gate-d2-en-uA', unit: 'A' });
+    assertFace('G2-331 unit A', 'match', r, cfgOf('match'), en);
+    ok(r.m.root.lcsSet === 'A', 'match unit A: the root stamps set A');
+    ok(/set B has 4 items < 8 — REFUSED/.test(faceRefusal('match', en, 'B')[0] || ''), 'match unit B (4 items) must REFUSE, never fill');
+  }
+
+  // 5c. sweep (build only)
+  if (!QUICK) {
+    const sweep = [['cut', en], ['match', en], ['detect', en], ['link', deFx], ['web', lanes3], ['web', szFx]];
+    const line = [];
+    for (const [mode, bank] of sweep) {
+      const spec = faceSpec(mode);
+      const sets = new Set();
+      for (let k = 1; k <= 20; k++) {
+        const rng = makeRng(instanceSeed({ typeId: spec.id, theme: null, difficulty: 2, seedEpoch: k }));
+        const b = spec._buildWith(bank, { difficulty: 2, locale: 'en', unit: null }, { rng });
+        const w = b.meta.wholes;
+        ok(new Set(w.map((x) => x.toLowerCase())).size === w.length, `sweep ${mode} seed ${k}: a whole twice`);
+        if (mode === 'detect') ok(/f/.test(b.meta.order.slice(0, 6)) && /c/.test(b.meta.order.slice(0, 6)), `sweep detect seed ${k}: bank not mixed ${b.meta.order}`);
+        if (mode === 'match') ok(b.meta.order.every((v, i) => v !== i), `sweep match seed ${k}: not a derangement`);
+        if (mode === 'link') ok(b.meta.links.filter(Boolean).length >= 3 && b.meta.links.filter((x) => !x).length >= 3, `sweep link seed ${k}: joints ${JSON.stringify(b.meta.links)}`);
+        ok(!new RegExp('>(' + w.join('|') + ')<', 'i').test(b.bodyHtml.replace(/<span class="ws-bankword"[\s\S]*?<\/span><\/span>/g, '')), `sweep ${mode} seed ${k}: a whole printed as text`);
+        sets.add(w.slice().sort().join(','));
+      }
+      ok(sets.size >= 2, `sweep ${mode}: only ${sets.size} distinct sets over 20 seeds`);
+      line.push(`${mode}${bank === szFx ? '-size' : bank === deFx ? '-de' : bank === lanes3 ? '-lanes3' : ''} ${sets.size}`);
+    }
+    console.log(`sweep faces: distinct sets over 20 seeds ${line.join(' / ')}; detect always mixed, match always deranged, link >= 3 + 3 joints`);
+  }
+
+  // 5d. poisons
+  const poisonRender = async (mode, bank, base, patch, opened, cfg) => {
+    const t = faceTypeWith(mode, bank, patch, cfg);
+    const r = await renderFace(page, t, { baseName: base });
+    const before = fails.length, saved = assertions;
+    assertFace(base, mode, r, t.difficulty[2], bank, opened);
+    const own = fails.splice(before);
+    assertions = saved;
+    return { r, own };
+  };
+  // PF1r — F1 in en
+  if (judge('PF1r', faceRefusal('link', en), /REFUSES the link face \(refuse\.F1/)) killed++;
+  // PF1a — a 48 px joint box on card 1
+  {
+    const { r } = await poisonRender('link', deFx, 'G2-316-gate-poison-PF1a', (h) => h.replace('width="36" height="36"', 'width="48" height="36"').replace('data-lcs-linkbox="36"', 'data-lcs-linkbox="48"'), FACE_OPENED);
+    if (judge('PF1a', r.verify, /joint box 48 px ≠ 36/)) killed++;
+  }
+  // PF1b — only two linked items
+  {
+    const b = clone(deFx); b.units[0].items = b.units[0].items.filter((it) => it.whole.word !== 'Taschenlampe');
+    if (judge('PF1b', faceRefusal('link', b), /link pool has 2 linked \/ 7 empty usable items \(need 3 \/ 3\) — REFUSED/)) killed++;
+  }
+  // PF1c — tile b prints the whole
+  {
+    const { r } = await poisonRender('link', deFx, 'G2-316-gate-poison-PF1c', (h) => h.replace(/(<span data-lcs-tile="b"[^>]*><div class="ws-tilerow"><span class="ws-tile"[^>]*>)([^<]+)/, (m0, p1) => p1 + 'Glockenblume'), FACE_OPENED);
+    if (judge('PF1c', r.verify, /tile b prints "Glockenblume"|the whole "glockenblume" is printed/)) killed++;
+  }
+  // PF1s — a graded stem stamped on a card
+  {
+    const { r } = await poisonRender('link', deFx, 'G2-316-gate-poison-PF1s', (h) => h.replace('data-lcs-a-stem=""', 'data-lcs-a-stem="Glocken"'), FACE_OPENED);
+    if (judge('PF1s', r.verify, /a graded stem "Glocken" on the link face/)) killed++;
+  }
+  // PF2a — a seam tick: the spec refuses `seam`, and a stamped tick fails verify
+  {
+    const spec = faceSpec('cut');
+    let msg = ''; try { spec._buildWith(en, { difficulty: 2, locale: 'en' }, { rng: makeRng('p') }); } catch (e) { msg = e.message; }
+    const d2 = Object.assign({}, spec.difficulty[2], { seam: 3 });
+    const t = Object.assign({}, spec, { difficulty: { 1: d2, 2: d2, 3: d2 } });
+    let ref = ''; try { t._buildWith(en, { difficulty: 2, locale: 'en' }, { rng: makeRng('p') }); } catch (e) { ref = e.message; }
+    const a = judge('PF2a spec', [ref], /a seam tick is never printed on the shipped cut face/);
+    const { r } = await poisonRender('cut', en, 'G2-316-gate-poison-PF2a', (h) => h.replace('</svg></span></div>', '<line x1="96" y1="4" x2="96" y2="42" stroke="#C8BFAE" stroke-width="2" data-lcs-seam="3"/></svg></span></div>'));
+    const c = judge('PF2a verify', r.verify, /a seam tick is printed/);
+    if (a && c) killed++;
+  }
+  // PF2b — one letter cell dropped from row 1
+  {
+    const { r } = await poisonRender('cut', en, 'G2-316-gate-poison-PF2b', (h) => h.replace(/<text([^>]*)data-lcs-letter="1"[^>]*>[^<]*<\/text>/, ''));
+    if (judge('PF2b', r.verify, /row 1: \d+ cells for \d+ letters|cells print/)) killed++;
+  }
+  // PF2c — a split printed on a cut row
+  {
+    const { r } = await poisonRender('cut', en, 'G2-316-gate-poison-PF2c', (h) => {
+      const w = /data-lcs-whole="([^"]+)" data-lcs-cut="(\d+)"/.exec(h);
+      const split = w[1].slice(0, +w[2]) + '-' + w[1].slice(+w[2]);
+      return h.replace('</svg></span></div>', `</svg></span><span style="font-size:18px">${split}</span></div>`);
+    });
+    if (judge('PF2c', r.verify, /row 1: prints the split "[^"]+-[^"]+"/)) killed++;
+  }
+  // PF2d — a wrong cut stamp
+  {
+    const { r } = await poisonRender('cut', en, 'G2-316-gate-poison-PF2d', (h) => h.replace(/data-lcs-cut="(\d+)"/, (m0, n) => `data-lcs-cut="${+n + 1}"`));
+    if (judge('PF2d', r.verify, /row 1: cut \d+ ≠ \d+/)) killed++;
+  }
+  // PF3a — row 1's right item is its own partner
+  {
+    const { r } = await poisonRender('match', en, 'G2-316-gate-poison-PF3a', (h) => {
+      const row = /<div data-ws-content data-lcs-match-row="1"[^>]*data-lcs-b="([^"]+)"[^>]*data-lcs-b-word="([^"]+)"[\s\S]*?<\/div>/.exec(h);
+      const b = row[1];
+      return h.replace(/(data-lcs-match-row="1"[\s\S]*?)data-lcs-right="[^"]+"/, `$1data-lcs-right="${b}"`);
+    });
+    if (judge('PF3a', r.verify, /row 1: the right item is this row's own partner \(not deranged\)/)) killed++;
+  }
+  // PF3b — a cross pair: a set that must seat angel+fish (spec refuses); a page stamped with it (node)
+  {
+    const A = en.units[0].items, B = en.units[1].items;
+    // an 8-item set seated in full (pairs 8) that holds starfish AND angel|coat: every page carries angel+fish → the spec refuses
+    const eightX = [A.find((i) => i.whole.word === 'starfish'), Object.assign(clone(B[0]), { b: { vocabKey: 'coat', word: 'coat' }, whole: { word: 'angelcoat', vocabKey: 'raincoat', scale: 1 } }),
+      ...['watermelon', 'toothbrush', 'handbag', 'birdhouse', 'earthworm', 'bookshelf'].map((w) => A.find((i) => i.whole.word === w))];
+    const b = Object.assign(clone(en), { units: [{ id: 'A', items: eightX }, ...en.units.slice(1)] });
+    const a = judge('PF3b spec', faceRefusal('match', b, null, { pairs: 8, pic: 56 }), /cannot seat 8 pairs without a cross pair \(angel\+fish \(a bank whole\)\)/);
+    // a page past the guard: an 8-item set seated in full (pairs 8, pictures 56) so starfish AND raincoat are on the page,
+    // then raincoat's first part re-stamped "angel" → angel+fish is a pictured word (the node sees the STAMPED words)
+    const eight = ['starfish', 'raincoat', 'watermelon', 'toothbrush', 'handbag', 'birdhouse', 'earthworm', 'bookshelf'].map((w) => A.find((i) => i.whole.word === w));
+    const b2 = Object.assign(clone(en), { units: [{ id: 'A', items: eight }, ...en.units.slice(1)] });
+    const { own } = await poisonRender('match', b2, 'G2-316-gate-poison-PF3b', (h) => {
+      if (!/data-lcs-b="fish"/.test(h)) throw new Error('PF3b: starfish is not on the page');
+      const rowRe = /(data-lcs-match-row="\d+" data-lcs-a=")rain(" data-lcs-b="coat" data-lcs-a-word=")rain"/;
+      if (!rowRe.test(h)) throw new Error('PF3b: raincoat is not on the page');
+      return h.replace(rowRe, '$1angel$2angel"');
+    }, null, { pairs: 8, pic: 56 });
+    const c = judge('PF3b node', own, /cross pair angel\+fish = "angelfish"/);
+    if (a && c) killed++;
+  }
+  // PF3c — a lane that is not empty
+  {
+    const { r } = await poisonRender('match', en, 'G2-316-gate-poison-PF3c', (h) => h.replace(/(data-lcs-match-row="1"[\s\S]*?<svg[^>]*data-lcs-prim="writing-row"[^>]*>)/, '$1<text x="20" y="40" font-size="20">hint</text>'));
+    if (judge('PF3c', r.verify, /row 1: writing row 1 is not empty/)) killed++;
+  }
+  // PF4a — 7 foil chips
+  {
+    const { r } = await poisonRender('detect', en, 'G2-316-gate-poison-PF4a', (h) => h.replace(/data-lcs-compound="[^"]+"/, 'data-lcs-foil="1"'));
+    if (judge('PF4a', r.verify, /7 foil chips ≠ 6/)) killed++;
+  }
+  // PF4b — a foil chip that is not a bank foil (the word swapped; stamps agree; only the node sees it)
+  {
+    const { own } = await poisonRender('detect', en, 'G2-316-gate-poison-PF4b', (h) => {
+      const re = /data-lcs-detect-word="(\w+)" data-lcs-detect-key="\1" data-lcs-foil="1">(<img[^>]*data-lcs-pic=")\1("[^>]*>)<span>\1<\/span>/;
+      if (!re.test(h)) throw new Error('PF4b: no foil chip matched');
+      return h.replace(re, (m0, w, p2, p3) => `data-lcs-detect-word="parrot" data-lcs-detect-key="parrot" data-lcs-foil="1">${p2}parrot${p3}<span>parrot</span>`);
+    });
+    if (judge('PF4b', own, /foil "parrot" is not a bank foil|picture .* is not a colour candidate for "parrot"/)) killed++;
+  }
+  // PF4c — the bank not mixed (compounds first)
+  {
+    const { r } = await poisonRender('detect', en, 'G2-316-gate-poison-PF4c', (h) => {
+      const m0 = /(<div class="ws-scene-banner ws-bank ws-bank--icons"[^>]*>)([\s\S]*?)(<\/div><div style="flex:1 1 auto;display:grid)/.exec(h);
+      const chips = m0[2].match(/<span class="ws-bankword"[\s\S]*?<\/span><\/span>/g);
+      const sorted = chips.filter((c) => /data-lcs-compound=/.test(c)).concat(chips.filter((c) => /data-lcs-foil=/.test(c)));
+      return h.replace(m0[0], m0[1] + sorted.join('') + m0[3]);
+    });
+    if (judge('PF4c', r.verify, /the bank is not mixed/)) killed++;
+  }
+  // PF4d — a lane with one ruling
+  {
+    const { r } = await poisonRender('detect', en, 'G2-316-gate-poison-PF4d', (h) => h.replace(/(data-lcs-detect-lane="6"[\s\S]*?)<span data-lcs-lane style="flex:0 0 auto;display:flex;"><svg[\s\S]*?<\/svg><\/span>(<span style="flex:0 0 auto;display:flex"><svg)/, '$1$2'));
+    if (judge('PF4d', r.verify, /lane 6: 1 writing rows \(want 2\)/)) killed++;
+  }
+  // PF5r — F5 in en at lanes 4 (the design floor)
+  { const enNoRuling = { ...en }; delete enNoRuling.webLanes;   // the bank rules webLanes:3; the floor is tested without it
+    if (judge('PF5r', faceRefusal('web', enNoRuling), /has 1 hub\(s\) with >= 4 usable satellites, need 2 webs of 4 \(the design floor\) — REFUSED/)) killed++; }
+  // PF5w — bank.webLanes 2
+  {
+    const b = Object.assign(clone(en), { webLanes: 2 });
+    const a = judge('PF5w bank', validateBank(b, 'en').fails, /webLanes 2 must be 3 or 4/);
+    const c = judge('PF5w build', faceRefusal('web', b), /bank\.webLanes 2 must be 3 or 4/);
+    if (a && c) killed++;
+  }
+  // PF5a — a ghost at opacity 1
+  {
+    const { r } = await poisonRender('web', lanes3, 'G2-316-gate-poison-PF5a', (h) => h.replace('opacity:0.55;', 'opacity:1;'));
+    if (judge('PF5a', r.verify, /ghost opacity 1 ≠ 0\.55/)) killed++;
+  }
+  // PF5b — a satellite that does not carry the hub (lane 1 of web 1 re-stamped as sunflower / raincoat)
+  {
+    const { r } = await poisonRender('web', lanes3, 'G2-316-gate-poison-PF5b', (h) => h.replace(/(<div data-lcs-web-lane )data-lcs-a="[^"]+" data-lcs-b="[^"]+" data-lcs-a-word="[^"]+" data-lcs-b-word="[^"]+" data-lcs-a-stem="" data-lcs-link="" data-lcs-whole="[^"]+" data-lcs-cut="\d+"/,
+      '$1data-lcs-a="bird" data-lcs-b="house" data-lcs-a-word="bird" data-lcs-b-word="house" data-lcs-a-stem="" data-lcs-link="" data-lcs-whole="birdhouse" data-lcs-cut="4"'));
+    if (judge('PF5b', r.verify, /"birdhouse" does not carry the hub/)) killed++;
+  }
+  // PF5c — the hub word printed twice
+  {
+    const { r } = await poisonRender('web', lanes3, 'G2-316-gate-poison-PF5c', (h) => h.replace(/(<span data-lcs-hub-label[^>]*>)([^<]+)(<\/span><\/div>)/, '$1$2$3<span style="font-size:18px">$2</span>'));
+    if (judge('PF5c', r.verify, /the hub word "[a-z]+" is printed 2 times/)) killed++;
+  }
+  // PS1 — a size picture that is not sizePic × scale
+  {
+    const { r } = await poisonRender('web', szFx, 'G2-316-gate-poison-PS1', (h) => h.replace(/width:40px;height:40px/, 'width:60px;height:60px'), FACE_OPENED);
+    if (judge('PS1', r.verify, /picture 60 px ≠ 40 \(sizePic × scale\)/)) killed++;
+  }
+  // PS2 — a chip on a size row
+  {
+    const { r } = await poisonRender('web', szFx, 'G2-316-gate-poison-PS2', (h) => h.replace(/(data-lcs-row="1"[\s\S]*?<\/span>)(<span style="flex:0 0 auto;display:flex"><svg)/, '$1<span class="ws-tile" style="height:36px;font-size:18px">-ito</span>$2'), FACE_OPENED);
+    if (judge('PS2', r.verify, /a chip on the size face/)) killed++;
+  }
+  // PS3 — 7 sizePairs
+  {
+    const b = clone(szFx); b.sizePairs = b.sizePairs.slice(0, 7);
+    const a = judge('PS3 bank', validateBank(b, 'it', { opened: FACE_OPENED }).fails, /sizePairs 7 < 8 for the alterati shape/);
+    const c = judge('PS3 build', faceRefusal('web', b), /has 7 sizePairs < 8 — the size face is REFUSED/);
+    if (a && c) killed++;
+  }
+  console.log('face renders: ' + pngs.map((p) => path.basename(p)).join(' '));
+  return killed;
+}
+
 async function main() {
   const banks = bankModule('compound-words');
   const locales = Object.keys(banks);
@@ -616,7 +1220,7 @@ async function main() {
   const browser = await puppeteer.launch({ headless: 'new' });
   const page = await browser.newPage();
   const pngs = [];
-  const TOTAL = 28;
+  const TOTAL = 28 + FACE_TOTAL;
   let killed = 0;
   try {
     // 2. renders through the real pipeline
@@ -845,9 +1449,12 @@ async function main() {
       if (judge('GL', r.verify, /lane 410 px > 380/)) killed++;
     }
 
+    console.log('renders: ' + pngs.map((p) => path.basename(p)).join(' '));
+
+    // 5. the faces (Phase 2)
+    killed += await facesSection(page, en, banks);
     console.log('poison:\n' + poisonLog.join('\n'));
     ok(killed === TOTAL, `poisons killed ${killed}/${TOTAL}`);
-    console.log('renders: ' + pngs.map((p) => path.basename(p)).join(' '));
   } finally {
     await browser.close();
   }
@@ -857,4 +1464,4 @@ async function main() {
 }
 
 if (require.main === module) main().catch((e) => { console.error(e); process.exit(1); });
-module.exports = { validateBank, OPENED, crossCheck, expectedWhole };
+module.exports = { validateBank, OPENED, FACE_OPENED, crossCheck, crossCheckFace, expectedWhole };

@@ -30,8 +30,12 @@
  *       ink); a whitespace run → an 8 px spacer (so `R{r}` prints "R1", never
  *       "R 1"); `lines:2` breaks after `=`; `ghost:true` renders every non-box
  *       token `visibility:hidden` so two boxes sit exactly under a `shown`
- *       line (F4). `boxStyle:'casita'` delegates the drawing to casitaFrame and
- *       keeps the template for the aria-label only.
+ *       line (F4). A ghost token carries NO stamp (no data-lcs-num / -op /
+ *       -word): it is a width-holder for alignment, so a face's verify counts
+ *       the SHOWN line's numerals only. `boxStyle:'casita'` delegates the
+ *       drawing to casitaFrame and keeps the template for the aria-label only;
+ *       `casitaH` (default 88) is the open frame's height (F3 draws 84 so a
+ *       pill row fits under it in the deepest legal chrome).
  *   casitaFrame({n, d, locale, remWord='', w=200, h=88, shown?, ghost?})   the
  *       es galera / pt-BR chave / it colonna in ONE SVG, the design's 200-px
  *       geometry scaled by w (>= 170): dividend numeral at (0.2w, 22), a teal
@@ -41,8 +45,12 @@
  *       THE DIVIDEND, `remWord` (it `r.`) Nunito 16 left of the r box — the r
  *       box slides right to make room and the frame THROWS when a word cannot
  *       fit left of the bracket (pt "resto" needs '' or a 2-char form: open
- *       item). `shown` prints q / r in solid boxes; `ghost` hides the numerals
- *       and bracket. divisionLine passes `casitaW` (the spec: min(200, zone)).
+ *       item). `shown` prints q / r in solid 44 × 30 boxes (frame h 80);
+ *       `ghost` draws ONLY the two open boxes (44 × 36 at y 4, frame h 44) at
+ *       the same x as the shown frame's boxes, so they sit exactly under them
+ *       (F4 row 2). A shown casita pair is a `<g data-lcs-shown-q|r>` wrapping
+ *       the rect and its numeral, so the stamp's textContent IS the numeral.
+ *       divisionLine passes `casitaW` (the spec: min(200, zone)).
  *   dealBoxes({d, slotW, slotH=44, leftoverW=64, leftoverLabel, gap=10})   the
  *       F1 row: d `.ws-groupbox` slots (white, tealSoft rim, `data-lcs-slot=k`)
  *       + one `.ws-groupbox--empty` (dashed coral) `data-lcs-leftover` carrying
@@ -99,18 +107,31 @@ function tokenise(template) {
 }
 
 /* ------------------------------------------------------------------ inline line */
-function divisionLine({ template, n, d, locale, boxStyle = 'inline', remWord = '', lines = 1, shown = null, ghost = false, w = null, casitaW = 200 }) {
+function divisionLine({ template, n, d, locale, boxStyle = 'inline', remWord = '', lines = 1, shown = null, ghost = false, w = null, casitaW = 200, casitaH = null }) {
   const loc = String(locale || 'en').slice(0, 2);
   const toks = tokenise(template);
   const div = divGlyph(loc), mul = mulGlyph(loc);
   if (boxStyle === 'casita') {
-    const svg = casitaFrame({ n, d, locale: loc, remWord, shown, ghost, ariaTemplate: template, w: casitaW });
-    return `<div data-lcs-notation data-lcs-style="casita" data-lcs-lines="1" data-lcs-template="${esc(template)}" style="display:flex;justify-content:center;align-items:center${w ? `;width:${w}px` : ''}">${svg}</div>`;
+    const svg = casitaFrame({ n, d, locale: loc, remWord, shown, ghost, ariaTemplate: template, w: casitaW, ...(casitaH ? { h: casitaH } : {}) });
+    return `<div data-lcs-notation data-lcs-style="casita" data-lcs-lines="1" data-lcs-template="${esc(template)}"${ghost ? ' data-lcs-ghost="1"' : ''} style="display:flex;justify-content:center;align-items:center${w ? `;width:${w}px` : ''}">${svg}</div>`;
   }
   if (boxStyle !== 'inline') throw new Error('divisionLine: boxStyle must be inline|casita, got ' + boxStyle);
   if (lines !== 1 && lines !== 2) throw new Error('divisionLine: lines must be 1|2');
   const hide = ghost ? 'visibility:hidden;' : '';
+  // ghost: every printed token becomes an UNSTAMPED invisible width-holder in the same font (same width as
+  // the shown line's token); the two boxes stay open — the F4 answer row sits exactly under the shown row.
+  const ghostTok = (t) => {
+    if (t === '{q}') return remBox({ role: 'q' });
+    if (t === '{r}') return remBox({ role: 'r' });
+    if (/^\s+$/.test(t)) return spacer();
+    const isNum = t === '{n}' || t === '{d}';
+    const text = t === '{n}' ? String(n) : t === '{d}' ? String(d) : DIV_GLYPHS.has(t) ? div : MUL_GLYPHS.has(t) ? mul : t;
+    const px = isNum ? NUM_PX : (DIV_GLYPHS.has(t) || MUL_GLYPHS.has(t) || t === '=' || OTHER_OPS.has(t)) ? OP_PX : WORD_PX;
+    const fam = px === WORD_PX ? `${F.body},sans-serif;font-weight:800` : `${F.display},cursive;font-weight:700`;
+    return `<span aria-hidden="true" style="visibility:hidden;display:inline-flex;font-family:${fam};font-size:${px}px;line-height:1;white-space:nowrap">${esc(text)}</span>`;
+  };
   const render = (t) => {
+    if (ghost) return ghostTok(t);
     if (t === '{n}') return `<span style="${hide}display:inline-flex">${numeral(n)}</span>`;
     if (t === '{d}') return `<span style="${hide}display:inline-flex">${numeral(d)}</span>`;
     if (t === '{q}') return shown ? shownBox({ role: 'q', value: shown.q }) : remBox({ role: 'q' });
@@ -138,35 +159,42 @@ function divisionLine({ template, n, d, locale, boxStyle = 'inline', remWord = '
     rowsToks.push(a, b);
   } else rowsToks.push(toks);
   const rows = rowsToks.map((r) => `<div data-lcs-line style="display:flex;align-items:center;justify-content:center;height:${BOX_H}px;white-space:nowrap">${r.map(render).join('')}</div>`);
-  return `<div data-lcs-notation data-lcs-style="inline" data-lcs-lines="${lines}" data-lcs-template="${esc(template)}" aria-label="${esc(template.replace('{n}', n).replace('{d}', d).replace('{q}', '_').replace('{r}', '_'))}" ` +
+  return `<div data-lcs-notation data-lcs-style="inline" data-lcs-lines="${lines}" data-lcs-template="${esc(template)}"${ghost ? ' data-lcs-ghost="1"' : ''} aria-label="${esc(template.replace('{n}', n).replace('{d}', d).replace('{q}', '_').replace('{r}', '_'))}" ` +
     `style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px${w ? `;width:${w}px` : ''}">${rows.join('')}</div>`;
 }
 
 /* ------------------------------------------------------------------ casita */
-function casitaFrame({ n, d, locale, remWord = '', w = 200, h = 88, shown = null, ghost = false, ariaTemplate = null }) {
+function casitaFrame({ n, d, locale, remWord = '', w = 200, h = null, shown = null, ghost = false, ariaTemplate = null }) {
   const loc = String(locale || 'en').slice(0, 2);
   if (!(w >= 170)) throw new Error('casitaFrame: w ' + w + ' < 170 (the boxes and bracket no longer fit)');
-  const hide = ghost ? { visibility: 'hidden' } : {};
-  const numAttr = (v) => ({ 'data-lcs-num': v, ...hide });
+  if (h == null) h = shown ? 80 : 88;
+  if (ghost && shown) throw new Error('casitaFrame: ghost and shown are exclusive');
+  const numAttr = (v) => ({ 'data-lcs-num': v });
   // the design's 200-px geometry, scaled by w: dividend at 0.2w, bracket at 0.5w, divisor at 0.74w
   const mid = Math.round(w / 2), cxN = Math.round(w * 0.2), cxD = Math.round(w * 0.74);
   const boxH = shown ? 30 : 36;
+  if (h < 48 + boxH) throw new Error('casitaFrame: h ' + h + ' < ' + (48 + boxH) + ' (the boxes leave the frame)');
   const wordW = remWord ? Math.ceil([...String(remWord)].length * 8.5) : 0;   // Nunito 800 16 ≈ 8.5 px/char
   const rX = Math.max(cxN - 22, wordW ? wordW + 6 : 0);                         // the r box slides right to make room for the word
   if (rX + 44 > mid - 6) throw new Error(`casitaFrame: remWord "${remWord}" does not fit left of the r box in a ${w}-px casita — author '' or a 2-char form (it "r.")`);
+  const aria = ariaTemplate ? ariaTemplate.replace('{n}', n).replace('{d}', d).replace('{q}', '_').replace('{r}', '_') : `${n} ${divGlyph(loc)} ${d}`;
+  if (ghost) {
+    // the F4 answer row: only the two open boxes, at the shown frame's x, frame h 44
+    const gb = (x, role) => roundedRect({ x, y: 4, w: 44, h: 36, r: 10, fill: T.white, strokeColor: T.coral, strokeWidth: 2.5, dash: '6 4', data: { 'data-lcs-answer': '', 'data-lcs-role': role } });
+    return svgRoot({ width: w, height: 44, label: aria }, gb(cxD - 22, 'q') + gb(rX, 'r'), { 'data-lcs-casita': 1, 'data-lcs-ghost': 1 });
+  }
   const parts = [];
   parts.push(label({ x: cxN, y: 22, text: String(n), size: NUM_PX, color: T.ink, fontFamily: F.display, weight: 700, anchor: 'middle', data: numAttr(n) }));
-  parts.push(line({ x1: mid, y1: 2, x2: mid, y2: 44, strokeColor: T.teal, strokeWidth: tokens.stroke.primitive, cap: 'round', data: hide }));
-  parts.push(line({ x1: mid, y1: 44, x2: w - 4, y2: 44, strokeColor: T.teal, strokeWidth: tokens.stroke.primitive, cap: 'round', data: hide }));
+  parts.push(line({ x1: mid, y1: 2, x2: mid, y2: 44, strokeColor: T.teal, strokeWidth: tokens.stroke.primitive, cap: 'round' }));
+  parts.push(line({ x1: mid, y1: 44, x2: w - 4, y2: 44, strokeColor: T.teal, strokeWidth: tokens.stroke.primitive, cap: 'round' }));
   parts.push(label({ x: cxD, y: 22, text: String(d), size: NUM_PX, color: T.ink, fontFamily: F.display, weight: 700, anchor: 'middle', data: numAttr(d) }));
   const box = (x, role) => shown
-    ? roundedRect({ x, y: 48, w: 44, h: boxH, r: 8, fill: T.white, strokeColor: T.grid, strokeWidth: 2, data: { [`data-lcs-shown-${role}`]: shown[role] } }) +
-      label({ x: x + 22, y: 48 + boxH / 2, text: String(shown[role]), size: 22, color: T.coral, fontFamily: F.display, weight: 700, anchor: 'middle' })
+    ? `<g data-lcs-shown-${role}="${esc(shown[role])}">` + roundedRect({ x, y: 48, w: 44, h: boxH, r: 8, fill: T.white, strokeColor: T.grid, strokeWidth: 2 }) +
+      label({ x: x + 22, y: 48 + boxH / 2, text: String(shown[role]), size: 22, color: T.coral, fontFamily: F.display, weight: 700, anchor: 'middle' }) + '</g>'
     : roundedRect({ x, y: 48, w: 44, h: boxH, r: 10, fill: T.white, strokeColor: T.coral, strokeWidth: 2.5, dash: '6 4', data: { 'data-lcs-answer': '', 'data-lcs-role': role } });
   parts.push(box(cxD - 22, 'q'));   // the quotient UNDER THE DIVISOR
   parts.push(box(rX, 'r'));         // the remainder UNDER THE DIVIDEND
-  if (remWord) parts.push(label({ x: rX - 4, y: 48 + boxH / 2, text: remWord, size: 16, color: T.ink, fontFamily: F.body, weight: 800, anchor: 'end', data: { 'data-lcs-word': 1, ...hide } }));
-  const aria = ariaTemplate ? ariaTemplate.replace('{n}', n).replace('{d}', d).replace('{q}', '_').replace('{r}', '_') : `${n} ${divGlyph(loc)} ${d}`;
+  if (remWord) parts.push(label({ x: rX - 4, y: 48 + boxH / 2, text: remWord, size: 16, color: T.ink, fontFamily: F.body, weight: 800, anchor: 'end', data: { 'data-lcs-word': 1 } }));
   return svgRoot({ width: w, height: h, label: aria }, parts.join(''), { 'data-lcs-casita': 1 });
 }
 

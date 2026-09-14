@@ -26,11 +26,37 @@
  *   vowelDot({ x, y })
  *     `circle r 5 fill T.coral data-lcs-vowel-dot` — ONLY in the Vowel King
  *     worked-example banner, never on a card.
+ *
+ * FACE components (Phase 2, 2026-09-14 — design §3):
+ *
+ *   syllableModel({ word, fontPx, w })
+ *     The Write face's printed model: the whole word, Baloo 2 700, in a fixed
+ *     column `w` (`<span data-lcs-model>`). Proportional text — the child copies
+ *     it onto the hyphen lane, so no cell geometry is needed here.
+ *
+ *   syllableSortBank({ words:[{word, vocabKey, src, count, rank}], wordPx=18 })
+ *     The Sort face's word bank (the b2 wordBank markup — .ws-scene-banner
+ *     .ws-bank--icons / .ws-bankword — re-emitted here so every chip carries
+ *     the hidden `data-lcs-count` + `data-lcs-rank` stamps the design asks
+ *     for; components-b2.js is never edited). Chips are emitted in the order
+ *     given (the caller sorts by collation, never by count).
+ *
+ *   syllableSortColumn({ n, text, rows, w, h, glyphH })
+ *     One Sort column: a `.ws-lane` with the heading (`.ws-nchip` 44 numeral +
+ *     the panel's sortLabels literal, Nunito 800 20) over `rows` empty school
+ *     rulings (rulingBlock). Stamped `data-lcs-col=n`.
+ *
+ *   kingsExampleBanner({ word, split, kings, cell, arcH })
+ *     The Vowel King worked example: `.ws-scene-banner` holding the word in
+ *     cells over PRINTED arcs, with one vowelDot inside each bowl under its
+ *     king (kings = [{at, len}] in letters, from the spec's kingRuns). The
+ *     only place a vowel dot is ever drawn. Stamped `data-lcs-kings-example`.
  */
 'use strict';
-const { svgRoot, roundedRect, label, circle } = require('../../primitives/_svg.js');
+const { svgRoot, roundedRect, label, circle, esc } = require('../../primitives/_svg.js');
 const { syllableArcs } = require('../../primitives/syllable-arcs.js');
 const { writingRow } = require('../../primitives/trace-path.js');
+const { rulingBlock } = require('../components-b2.js');
 const tokens = require('../../primitives/_tokens.js');
 const T = tokens.color, F = tokens.font;
 
@@ -109,4 +135,42 @@ function vowelDot({ x, y }) {
   return circle({ cx: x, cy: y, r: 5, fill: T.coral, data: { 'data-lcs-vowel-dot': 1 } });
 }
 
-module.exports = { syllableWord, syllableArcsForWord, hyphenLane, vowelDot };
+/* ---------------- face components (design §3) ---------------- */
+
+function syllableModel({ word, fontPx = 26, w = 196 }) {
+  return `<span data-lcs-model style="display:inline-block;width:${w}px;flex:none;font-family:${F.display};font-weight:700;font-size:${fontPx}px;line-height:1.1;color:${T.ink};white-space:nowrap;overflow:visible">${esc(word)}</span>`;
+}
+
+function syllableSortBank({ words, wordPx = 18 }) {
+  const items = words.map((wd) =>
+    `<span class="ws-bankword" style="font-size:${wordPx}px" data-lcs-bank-word="${esc(wd.word)}" data-lcs-bank="${esc(wd.vocabKey)}" ` +
+    `data-lcs-count="${wd.count}" data-lcs-rank="${wd.rank}">` +
+    (wd.src ? `<img class="ws-icon" src="${wd.src}" alt="" data-lcs-pic="${esc(wd.vocabKey)}" style="width:44px;height:44px">` : '') +
+    `<span>${esc(wd.word)}</span></span>`).join('');
+  return `<div class="ws-scene-banner ws-bank ws-bank--icons" data-lcs-bank-banner data-lcs-bank-size="${words.length}">${items}</div>`;
+}
+
+function syllableSortColumn({ n, text, rows, w = 290, h = 64, glyphH = 28, chip = 44, maxGap = 36 }) {
+  return `<div class="ws-lane" style="display:flex;flex-direction:column;gap:8px;min-width:0" data-ws-content data-lcs-col="${n}" data-lcs-col-rows="${rows}">` +
+    `<div style="display:flex;align-items:center;gap:10px;height:${chip}px" data-lcs-col-head>` +
+    `<span class="ws-nchip" style="width:${chip}px;height:${chip}px;font-size:${Math.round(chip * 0.55)}px;flex:none" data-lcs-col-numeral="${n}">${n}</span>` +
+    `<span style="font-family:${F.body};font-weight:800;font-size:20px;color:${T.ink};white-space:nowrap;overflow:hidden;text-overflow:clip" data-lcs-col-label>${esc(text)}</span></div>` +
+    // the rulings take the column's remaining height with the gaps spread evenly, capped at maxGap
+    // (rows·h + (rows+1)·maxGap) so a tall column never floats four rows 100 px apart
+    `<div style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:flex-start;min-height:0" data-lcs-col-rulings>` +
+    rulingBlock({ rows, w, h, glyphH }).replace('style="display:flex;flex-direction:column;gap:',
+      `style="flex:1 1 auto;max-height:${rows * h + (rows + 1) * maxGap}px;justify-content:space-evenly;display:flex;flex-direction:column;gap:`) + `</div></div>`;
+}
+
+function kingsExampleBanner({ word, split, kings, cell = 24, arcH = 22 }) {
+  const wordSvg = syllableWord({ word, cell, fontPx: cell - 2 });
+  let arcs = syllableArcsForWord({ split, cell, h: arcH, mode: 'printed' });
+  // one dot per king, centred under its vowel run, inside the bowl (y = arcH·0.42 sits
+  // between the shelf line of the letters and the bowl's lowest point at 0.95·h/2 + 1.5)
+  const dots = kings.map((k) => vowelDot({ x: +((k.at + k.len / 2) * cell).toFixed(2), y: +(arcH * 0.42).toFixed(1) })).join('');
+  arcs = arcs.replace('</svg>', dots + '</svg>');
+  return `<div class="ws-scene-banner" style="flex-direction:column;gap:0;padding:6px 10px 8px;margin-bottom:10px;align-self:center;min-width:220px" data-ws-content data-lcs-kings-example="${esc(word)}" data-lcs-kings-stamp="${kings.map((k) => k.at + ':' + k.len).join('|')}">` +
+    `<div style="line-height:0">${wordSvg}</div><div style="line-height:0">${arcs}</div></div>`;
+}
+
+module.exports = { syllableWord, syllableArcsForWord, hyphenLane, vowelDot, syllableModel, syllableSortBank, syllableSortColumn, kingsExampleBanner };

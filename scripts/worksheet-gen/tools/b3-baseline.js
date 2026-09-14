@@ -177,6 +177,9 @@ async function main() {
   const unexpected = drift.filter((k) => !expect.has(k));
   const notDrifted = [...expect].filter((k) => !drift.includes(k) && (k in now.build || k in now.enum));
   console.log(`checked build ${nb} + enum ${ne} in ${secs}s: ${drift.length} drifted (${expect.size} expected), ${missing.length} missing`);
+  // --dump=<file>: the FULL drift / missing / expected-but-stable sets, one key per line, so a
+  // 4,974-key drift can be classified by type instead of read off a 40-line truncation
+  if (arg('dump')) fs.writeFileSync(arg('dump'), ['# drift', ...unexpected, '# expected-but-stable', ...notDrifted, '# missing', ...missing].join(String.fromCharCode(10)) + String.fromCharCode(10));
   unexpected.slice(0, 40).forEach((k) => console.log('  DRIFT ' + k));
   if (unexpected.length > 40) console.log('  … +' + (unexpected.length - 40) + ' more');
   notDrifted.slice(0, 40).forEach((k) => console.log('  EXPECTED-BUT-STABLE ' + k));

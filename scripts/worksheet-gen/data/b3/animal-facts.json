@@ -1,0 +1,870 @@
+{
+ "fields": [
+  "class",
+  "covering",
+  "diet",
+  "habitat",
+  "legs",
+  "fly",
+  "swim"
+ ],
+ "choices": {
+  "class": [
+   "mammal",
+   "bird",
+   "reptile",
+   "fish",
+   "insect"
+  ],
+  "covering": [
+   "fur",
+   "feathers",
+   "scales",
+   "shell",
+   "spines",
+   "skin"
+  ],
+  "diet": [
+   "plants",
+   "meat",
+   "both"
+  ],
+  "habitat": [
+   "land",
+   "water",
+   "air"
+  ],
+  "legs": [
+   0,
+   2,
+   4,
+   6,
+   8
+  ]
+ },
+ "animals": {
+  "cat": {
+   "pic": {
+    "theme": "animals",
+    "noun": "cat"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "meat",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "dog": {
+   "pic": {
+    "theme": "animals",
+    "noun": "dog"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "both",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "horse": {
+   "pic": {
+    "theme": "animals",
+    "noun": "horse"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "plants",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "rabbit": {
+   "pic": {
+    "theme": "animals",
+    "noun": "rabbit"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "plants",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "cow": {
+   "pic": {
+    "theme": "farm animals",
+    "noun": "cow"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "plants",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "pig": {
+   "pic": {
+    "theme": "animals",
+    "noun": "pig"
+   },
+   "class": "mammal",
+   "covering": "skin",
+   "diet": "both",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "sheep": {
+   "pic": {
+    "theme": "animals",
+    "noun": "sheep"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "plants",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "goat": {
+   "pic": {
+    "theme": "farm animals",
+    "noun": "goat"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "plants",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "donkey": {
+   "pic": {
+    "theme": "animals",
+    "noun": "donkey"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "plants",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "duck": {
+   "pic": {
+    "theme": "animals",
+    "noun": "duck"
+   },
+   "class": "bird",
+   "covering": "feathers",
+   "diet": "both",
+   "habitat": "water",
+   "legs": 2,
+   "fly": true,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "hen": {
+   "pic": {
+    "theme": "birds 2",
+    "noun": "hen"
+   },
+   "class": "bird",
+   "covering": "feathers",
+   "diet": "both",
+   "habitat": "land",
+   "legs": 2,
+   "fly": false,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "rooster": {
+   "pic": {
+    "theme": "birds 2",
+    "noun": "rooster"
+   },
+   "class": "bird",
+   "covering": "feathers",
+   "diet": "both",
+   "habitat": "land",
+   "legs": 2,
+   "fly": false,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "goose": {
+   "pic": {
+    "theme": "birds 2",
+    "noun": "goose"
+   },
+   "class": "bird",
+   "covering": "feathers",
+   "diet": "plants",
+   "habitat": "water",
+   "legs": 2,
+   "fly": true,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "fox": {
+   "pic": {
+    "theme": "animals",
+    "noun": "fox"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "meat",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "hedgehog": {
+   "pic": {
+    "theme": "forest creatures",
+    "noun": "hedgehog"
+   },
+   "class": "mammal",
+   "covering": "spines",
+   "diet": "both",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "owl": {
+   "pic": {
+    "theme": "animals",
+    "noun": "owl"
+   },
+   "class": "bird",
+   "covering": "feathers",
+   "diet": "meat",
+   "habitat": "air",
+   "legs": 2,
+   "fly": true,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "squirrel": {
+   "pic": {
+    "theme": "forest creatures",
+    "noun": "squirrel"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "plants",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "deer": {
+   "pic": {
+    "theme": "forest creatures",
+    "noun": "deer"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "plants",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "bear": {
+   "pic": {
+    "theme": "forest creatures",
+    "noun": "bear"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "both",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "wolf": {
+   "pic": {
+    "theme": "animals",
+    "noun": "wolf"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "meat",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "bat": {
+   "pic": {
+    "theme": "animals",
+    "noun": "bat"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "both",
+   "habitat": "air",
+   "legs": 2,
+   "fly": true,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "beaver": {
+   "pic": {
+    "theme": "forest creatures",
+    "noun": "beaver"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "plants",
+   "habitat": "water",
+   "legs": 4,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "moose": {
+   "pic": {
+    "theme": "animals",
+    "noun": "moose"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "plants",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "raccoon": {
+   "pic": {
+    "theme": "animals",
+    "noun": "raccoon"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "both",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "butterfly": {
+   "pic": {
+    "theme": "forest creatures",
+    "noun": "butterfly"
+   },
+   "class": "insect",
+   "covering": "skin",
+   "diet": "plants",
+   "habitat": "air",
+   "legs": 6,
+   "fly": true,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "bee": {
+   "pic": {
+    "theme": "farm animals",
+    "noun": "bee"
+   },
+   "class": "insect",
+   "covering": "skin",
+   "diet": "plants",
+   "habitat": "air",
+   "legs": 6,
+   "fly": true,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "ladybug": {
+   "pic": {
+    "theme": "forest creatures",
+    "noun": "ladybug"
+   },
+   "class": "insect",
+   "covering": "shell",
+   "diet": "meat",
+   "habitat": "air",
+   "legs": 6,
+   "fly": true,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "ant": {
+   "pic": {
+    "theme": "forest creatures",
+    "noun": "ant"
+   },
+   "class": "insect",
+   "covering": "shell",
+   "diet": "both",
+   "habitat": "land",
+   "legs": 6,
+   "fly": false,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "lion": {
+   "pic": {
+    "theme": "zoo animals",
+    "noun": "lion"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "meat",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "tiger": {
+   "pic": {
+    "theme": "animals",
+    "noun": "tiger"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "meat",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "elephant": {
+   "pic": {
+    "theme": "animals",
+    "noun": "elephant"
+   },
+   "class": "mammal",
+   "covering": "skin",
+   "diet": "plants",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "giraffe": {
+   "pic": {
+    "theme": "animals",
+    "noun": "giraffe"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "plants",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "zebra": {
+   "pic": {
+    "theme": "animals",
+    "noun": "zebra"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "plants",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "monkey": {
+   "pic": {
+    "theme": "zoo animals",
+    "noun": "monkey"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "both",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "kangaroo": {
+   "pic": {
+    "theme": "zoo animals",
+    "noun": "kangaroo"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "plants",
+   "habitat": "land",
+   "legs": 2,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "camel": {
+   "pic": {
+    "theme": "animals",
+    "noun": "camel"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "plants",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "hippopotamus": {
+   "pic": {
+    "theme": "animals",
+    "noun": "hippopotamus"
+   },
+   "class": "mammal",
+   "covering": "skin",
+   "diet": "plants",
+   "habitat": "water",
+   "legs": 4,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "panda": {
+   "pic": {
+    "theme": "animals",
+    "noun": "panda"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "plants",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "koala": {
+   "pic": {
+    "theme": "animals",
+    "noun": "koala"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "plants",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "penguin": {
+   "pic": {
+    "theme": "animals",
+    "noun": "penguin"
+   },
+   "class": "bird",
+   "covering": "feathers",
+   "diet": "meat",
+   "habitat": "water",
+   "legs": 2,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "eagle": {
+   "pic": {
+    "theme": "birds",
+    "noun": "eagle"
+   },
+   "class": "bird",
+   "covering": "feathers",
+   "diet": "meat",
+   "habitat": "air",
+   "legs": 2,
+   "fly": true,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "parrot": {
+   "pic": {
+    "theme": "birds",
+    "noun": "parrot"
+   },
+   "class": "bird",
+   "covering": "feathers",
+   "diet": "plants",
+   "habitat": "air",
+   "legs": 2,
+   "fly": true,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "flamingo": {
+   "pic": {
+    "theme": "birds",
+    "noun": "flamingo"
+   },
+   "class": "bird",
+   "covering": "feathers",
+   "diet": "both",
+   "habitat": "air",
+   "legs": 2,
+   "fly": true,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "ostrich": {
+   "pic": {
+    "theme": "birds",
+    "noun": "ostrich"
+   },
+   "class": "bird",
+   "covering": "feathers",
+   "diet": "both",
+   "habitat": "land",
+   "legs": 2,
+   "fly": false,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "swan": {
+   "pic": {
+    "theme": "animals",
+    "noun": "swan"
+   },
+   "class": "bird",
+   "covering": "feathers",
+   "diet": "plants",
+   "habitat": "water",
+   "legs": 2,
+   "fly": true,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "tortoise": {
+   "pic": {
+    "theme": "pets",
+    "noun": "tortoise"
+   },
+   "class": "reptile",
+   "covering": "shell",
+   "diet": "plants",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "lizard": {
+   "pic": {
+    "theme": "forest creatures",
+    "noun": "lizard"
+   },
+   "class": "reptile",
+   "covering": "scales",
+   "diet": "meat",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "turtle": {
+   "pic": {
+    "theme": "animals",
+    "noun": "turtle"
+   },
+   "class": "reptile",
+   "covering": null,
+   "diet": "both",
+   "habitat": null,
+   "legs": 4,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "fish": {
+   "pic": {
+    "theme": "animals",
+    "noun": "fish"
+   },
+   "class": "fish",
+   "covering": "scales",
+   "diet": "both",
+   "habitat": "water",
+   "legs": 0,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "goldfish": {
+   "pic": {
+    "theme": "pets",
+    "noun": "goldfish"
+   },
+   "class": "fish",
+   "covering": "scales",
+   "diet": "both",
+   "habitat": "water",
+   "legs": 0,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "shark": {
+   "pic": {
+    "theme": "ocean life",
+    "noun": "shark"
+   },
+   "class": "fish",
+   "covering": "skin",
+   "diet": "meat",
+   "habitat": "water",
+   "legs": 0,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "hamster": {
+   "pic": {
+    "theme": "pets",
+    "noun": "hamster"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "both",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": false,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "mouse": {
+   "pic": {
+    "theme": "forest creatures",
+    "noun": "mouse"
+   },
+   "class": "mammal",
+   "covering": "fur",
+   "diet": "both",
+   "habitat": "land",
+   "legs": 4,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  },
+  "frog": {
+   "pic": {
+    "theme": "forest creatures",
+    "noun": "frog"
+   },
+   "class": null,
+   "covering": "skin",
+   "diet": "meat",
+   "habitat": null,
+   "legs": 4,
+   "fly": false,
+   "swim": true,
+   "picOpened": true,
+   "reviewed": true
+  }
+ },
+ "exemplars": {
+  "forest creatures": "hedgehog",
+  "animals": "fox",
+  "zoo animals": "lion",
+  "farm animals": "cow",
+  "pets": "rabbit",
+  "birds": "owl",
+  "birds 2": "owl",
+  "ocean life": "shark",
+  "insects and bugs": "bee",
+  "reptiles and Amphibians": "tortoise"
+ },
+ "_note": "nt20-C G2-318 (authored 2026-09-14): K-2 honest values; null = ambiguous at K-2 or outside the chip set (drops the animal from every non-base face, never invents). fox diet = meat and rabbit = plants agree with what-animals-eat.json; a bird habitat is air where the bank says so. The five data/science banks are a cross-check (tools/gate-fact-file-data.js), never the ceiling."
+}

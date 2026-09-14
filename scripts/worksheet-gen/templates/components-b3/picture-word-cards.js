@@ -39,12 +39,30 @@
  *   wordOnlyCard(...)                           word only (twin rows 3-4)
  *   twinSheet(...)                              8 picture cards + 8 word cards (deranged by the caller)
  *
- * Phase 2 (faces 3-5) adds articleLabel / pluralPair / bilingualLabel here;
- * they are NOT exported yet (nothing on the base consumes them).
+ * Phase 2 (the faces, 2026-09-14) — additive, the base output is byte-identical:
+ *   cutCard / wordCard gain a `gap` param (default 6 = the base)
+ *   articleCard(...)                            picture over [dot][chip word] — the article face;
+ *                                               stamps data-lcs-chip / data-lcs-base beside
+ *                                               data-lcs-word (= the joined label)
+ *   legendDots({ legend, chips, dots, sep })    the strip legend with a 12 px dot before each
+ *                                               segment of the bank's authored legend literal
+ *   cloneRow({ src, vocabKey, n, iconPx, rng }) n same-picture imgs in one centred row
+ *                                               (components.js iconRows' idiom + the
+ *                                               data-lcs-pic stamp verify() requires)
+ *   pluralPair(...)                             [oneCard, manyCard] — ONE picture + singular
+ *                                               beside THREE pictures + plural, equal sizes
+ *   bilingualLabel / bilingualCard(...)         host Baloo 2 26 / 30 T.ink over partner
+ *                                               Nunito 700 20 / 24 T.teal in one plate (60)
+ *   syllableCard(...)                           picture + syllableWord + printed arcs (arc
+ *                                               locales) or picture + a hyphenated plate
  */
 'use strict';
 const tokens = require('../../primitives/_tokens.js');
 const { svgRoot, el, circle, roundedRect, line, esc } = require('../../primitives/_svg.js');
+// G1-305's syllable word + arcs (design §3 F6 dependency). Required from the
+// sibling file directly: this file is itself loaded by components-b3.js, so
+// requiring the namespace here would be a circular require.
+const { syllableWord, syllableArcsForWord } = require('./syllable-split.js');
 
 const T = tokens.color;
 const CUT_STROKE = tokens.stroke.grid + 1;   // 2.5 — K-240's dashed cut line
@@ -99,13 +117,13 @@ function cardSheet({ cards, cols, rows, w = 674, h = 692, kind = 'word', legend 
     `style="flex:0 0 auto;margin:auto 0;display:flex;flex-direction:column;width:${w}px;align-self:center">${strip}${grid}</div>`;
 }
 
-function cutCard({ inner, kind = 'word', vocabKey, word, twin = null, pad = 12, attrs = '' }) {
+function cutCard({ inner, kind = 'word', vocabKey, word, twin = null, pad = 12, attrs = '', gap = 6 }) {
   const stamps = [`data-lcs-card="${esc(kind)}"`];
   if (vocabKey != null) stamps.push(`data-lcs-vocab="${esc(vocabKey)}"`);
   if (word != null) stamps.push(`data-lcs-word="${esc(word)}"`);
   if (twin != null) stamps.push(`data-lcs-twin="${esc(twin)}"`);
   return `<section class="ws-cutcard" ${stamps.join(' ')}${attrs ? ' ' + attrs : ''} ` +
-    `style="background:${T.white};border:0;padding:${pad}px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;overflow:hidden;min-width:0;min-height:0">` +
+    `style="background:${T.white};border:0;padding:${pad}px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:${gap}px;overflow:hidden;min-width:0;min-height:0">` +
     inner + `</section>`;
 }
 
@@ -146,11 +164,103 @@ function wordPlate({ lines, px = 26, lineH, family = tokens.font.display, color 
 }
 
 /** picture over word (the base card). `lines` = labelLines(word) already resolved. */
-function wordCard({ src, vocabKey, word, lines, pic, px, lineH, pad = 12, innerW, kind = 'word', dot = null, padX = 10, twin = null, extra = '' }) {
+function wordCard({ src, vocabKey, word, lines, pic, px, lineH, pad = 12, innerW, kind = 'word', dot = null, padX = 10, twin = null, extra = '', gap = 6 }) {
   const inner =
     `<img class="ws-icon" src="${src}" alt="" data-lcs-pic="${esc(vocabKey)}" style="width:${pic}px;height:${pic}px;flex:0 0 auto">` +
     wordPlate({ lines, px, lineH, dot, padX, maxW: innerW });
-  return cutCard({ inner, kind, vocabKey, word, twin, pad, attrs: extra });
+  return cutCard({ inner, kind, vocabKey, word, twin, pad, attrs: extra, gap });
+}
+
+/* ------------------------------------------------------------ the faces */
+
+/**
+ * The article face card: picture over [dot 16][6][chip word]. `word` is the
+ * JOINED label (chip + ' ' + base, or chip + base when the chip ends with an
+ * apostrophe — l'arbre); `lines` = labelLines(word) already resolved.
+ */
+function articleCard({ src, vocabKey, chip, base, word, lines, pic, px, lineH, pad = 12, innerW, dot = null, extra = '' }) {
+  const stamps = `data-lcs-chip="${esc(chip)}" data-lcs-base="${esc(base)}"${extra ? ' ' + extra : ''}`;
+  return wordCard({ src, vocabKey, word, lines, pic, px, lineH, pad, innerW, kind: 'article', dot, extra: stamps });
+}
+
+/** The strip legend: the authored literal split at `sep`, a 12 px dot before segment i (= chip i). */
+function legendDots({ legend, chips, dots, sep = ' · ' }) {
+  const segs = String(legend).split(sep);
+  if (segs.length !== chips.length || segs.length !== dots.length) throw new Error(`legendDots: ${segs.length} legend segments for ${chips.length} chips / ${dots.length} dots`);
+  return segs.map((seg, i) => {
+    const fill = tokens.codeColors[dots[i]];
+    if (!fill) throw new Error('legendDots: dot "' + dots[i] + '" is not a codeColors key');
+    const d = svgRoot({ width: 12, height: 12, label: 'article colour' }, circle({ cx: 6, cy: 6, r: 5.5, fill, strokeColor: T.ink, strokeWidth: 1 }), { 'data-lcs-legend-dot': dots[i], style: 'flex:0 0 auto' });
+    return `<span style="display:inline-flex;align-items:center;gap:4px" data-lcs-legend-seg="${i}">${d}<span>${esc(seg.trim())}</span></span>`;
+  }).join(`<span aria-hidden="true">${esc(sep.trim())}</span>`);
+}
+
+/** n same-picture imgs in one centred row (iconRows' rotation warmth, plus the data-lcs-pic stamp). */
+function cloneRow({ src, vocabKey, n, iconPx, rng, gap = 10 }) {
+  const imgs = [];
+  for (let k = 0; k < n; k++) {
+    const rot = (rng.next() * 8 - 4).toFixed(1);
+    imgs.push(`<img class="ws-icon" src="${src}" alt="" data-lcs-pic="${esc(vocabKey)}" style="width:${iconPx}px;height:${iconPx}px;flex:0 0 auto;transform:rotate(${rot}deg)">`);
+  }
+  return `<div class="ws-clone-row" style="display:flex;justify-content:center;gap:${gap}px;flex:0 0 auto" data-lcs-clones="${n}">${imgs.join('')}</div>`;
+}
+
+/**
+ * One row of the plural face: [one picture + singular] [three pictures + plural].
+ * Returns the two cards in grid order. Equal picture sizes — the only
+ * difference the child sees is NUMBER.
+ */
+function pluralPair({ src, vocabKey, singular, plural, sLines, pLines, sPx, sLineH, pPx, pLineH, pic, clones = 3, pad = 12, innerW, rng, extra = '' }) {
+  const img = `<img class="ws-icon" src="${src}" alt="" data-lcs-pic="${esc(vocabKey)}" style="width:${pic}px;height:${pic}px;flex:0 0 auto">`;
+  const one = cutCard({ inner: img + wordPlate({ lines: sLines, px: sPx, lineH: sLineH, maxW: innerW }), kind: 'plural', vocabKey, word: singular, pad, attrs: `data-lcs-role="one"${extra ? ' ' + extra : ''}` });
+  const many = cutCard({ inner: cloneRow({ src, vocabKey, n: clones, iconPx: pic, rng }) + wordPlate({ lines: pLines, px: pPx, lineH: pLineH, maxW: innerW }), kind: 'plural', vocabKey, word: plural, pad, attrs: `data-lcs-role="many"${extra ? ' ' + extra : ''}` });
+  return [one, many];
+}
+
+/**
+ * The bilingual plate: host line (Baloo 2 700 hostPx / +4, T.ink) over the
+ * partner line (Nunito 700 partnerPx / +4, T.teal). data-lcs-lines counts the
+ * HOST lines only (the partner line carries data-lcs-partner-line, never
+ * data-lcs-line, so the base plate rule reads the host word unchanged).
+ */
+function bilingualLabel({ host, partner, hostPx = 26, partnerPx = 20, maxW = null }) {
+  const hl = hostPx + 4, pl = partnerPx + 4;
+  return `<span class="ws-wordplate" data-lcs-lines="1" data-lcs-px="${hostPx}" ` +
+    `style="display:inline-flex;align-items:center;background:${T.cream};border-radius:10px;padding:3px 10px;` +
+    `font-family:${tokens.font.display},sans-serif;font-weight:700;font-size:${hostPx}px;line-height:${hl}px;color:${T.ink};text-align:center;` +
+    `max-width:${maxW ? maxW + 'px' : '100%'};flex:0 0 auto"><span style="display:block">` +
+    `<span class="ws-wordplate-line" style="display:block;white-space:nowrap;line-height:${hl}px" data-lcs-line>${esc(host)}</span>` +
+    `<span class="ws-wordplate-partner" style="display:block;white-space:nowrap;font-family:${tokens.font.body},sans-serif;font-weight:700;font-size:${partnerPx}px;line-height:${pl}px;color:${T.teal}" data-lcs-partner-line>${esc(partner)}</span>` +
+    `</span></span>`;
+}
+
+function bilingualCard({ src, vocabKey, host, partner, pic, hostPx, partnerPx, pad = 12, innerW, gap = 4, extra = '' }) {
+  const inner =
+    `<img class="ws-icon" src="${src}" alt="" data-lcs-pic="${esc(vocabKey)}" style="width:${pic}px;height:${pic}px;flex:0 0 auto">` +
+    bilingualLabel({ host, partner, hostPx, partnerPx, maxW: innerW });
+  return cutCard({ inner, kind: 'bilingual', vocabKey, word: host, pad, attrs: `data-lcs-partner-word="${esc(partner)}"${extra ? ' ' + extra : ''}`, gap });
+}
+
+/**
+ * The syllable face card. mark 'arc': picture + syllableWord (equal letter
+ * cells, the display word — de keeps its capital in cell 1) + printed arcs from
+ * the split; mark 'hyphen': picture + a plate printing split.join(hyphen).
+ * Stamps data-lcs-split (syllables joined by '|'), data-lcs-count, data-lcs-mark.
+ */
+function syllableCard({ src, vocabKey, word, split, pic, mark = 'arc', cell = 28, fontPx = 26, arcH = 26, hyphen = '-', px = 26, lineH = 30, pad = 12, innerW, extra = '' }) {
+  const img = `<img class="ws-icon" src="${src}" alt="" data-lcs-pic="${esc(vocabKey)}" style="width:${pic}px;height:${pic}px;flex:0 0 auto">`;
+  const stamps = `data-lcs-split="${esc(split.join('|'))}" data-lcs-count="${split.length}" data-lcs-mark="${esc(mark)}"${extra ? ' ' + extra : ''}`;
+  if (mark === 'hyphen') {
+    const label = split.join(hyphen);
+    const inner = img + wordPlate({ lines: [label], px, lineH, maxW: innerW });
+    return cutCard({ inner, kind: 'syllable', vocabKey, word, pad, attrs: stamps, gap: 6 });
+  }
+  const inner = img +
+    `<div style="display:flex;flex-direction:column;align-items:center;gap:2px;flex:0 0 auto" data-lcs-syllable-stack>` +
+    syllableWord({ word, cell, fontPx }) +
+    syllableArcsForWord({ split, cell, h: arcH, mode: 'printed' }) +
+    `</div>`;
+  return cutCard({ inner, kind: 'syllable', vocabKey, word, pad, attrs: stamps, gap: 4 });
 }
 
 /** picture only (twin rows 1-2). */
@@ -179,4 +289,4 @@ function twinSheet({ pictures, words, cols = 4, rows = 4, w = 674, h = 692, pic 
   return cardSheet({ cards, cols, rows, w, h, kind: 'twin', legend, extra });
 }
 
-module.exports = { scissorsGlyph, cutLines, cardSheet, cutCard, labelLines, wordPlate, wordCard, pictureCard, wordOnlyCard, twinSheet };
+module.exports = { scissorsGlyph, cutLines, cardSheet, cutCard, labelLines, wordPlate, wordCard, pictureCard, wordOnlyCard, twinSheet, articleCard, legendDots, cloneRow, pluralPair, bilingualLabel, bilingualCard, syllableCard };

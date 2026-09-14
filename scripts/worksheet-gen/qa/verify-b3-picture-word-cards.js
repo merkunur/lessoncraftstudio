@@ -49,24 +49,46 @@
  *      P16 a 760 block under three-line chrome             → qa/lints.js footer overlap
  *      P17 twin word 12 glyphs at 26                       → the gate's tier check
  *      P18 cream `.ws-cutcard`                             → verify() white background
- *    DEFERRED (Phase 2 — the face they poison is not built): P6 de `die
- *    Hund` / P19 fr `l' arbre` / P20 sv `blocks` (article face), P7 two
- *    clones (plural face), P8 partner line in the host language (bilingual
- *    face), P9 en `acorn` non-TeX (syllable face). Listed, not counted.
+ *      P6  de `die Hund` (article face)                    → the gate re-derives chips[keyFor(e)]
+ *      P7  plural many-card with 2 clones                  → verify() picture count
+ *      P8  bilingual partner line in the host language      → the gate re-derives vocab[key][unit]
+ *      P9  syllable en `acorn` (rule-only boundary)         → the pool's texPool filter + the gate's TeX check
+ *      P19 fr `l' arbre` with a space                        → verify() join rule
+ *      P20 sv `blocks` on an article card                    → the pool's refuseKeys + the gate's stamp check
+ * 5. FACES (Phase 2) — the five variation faces K-347 (twin, PARAM) · K-348
+ *    (article) · K-349 (plural) · K-350 (bilingual, unitAxis) · G1-324
+ *    (syllable) each render through the real pipeline at d2 en on the
+ *    exemplar theme + the worst legal chrome; assertRender runs per kind
+ *    (icons per card, tiers, widths, overlay); the gate RE-DERIVES from the
+ *    stamps what verify() cannot see in the DOM: the article chip from
+ *    ARTICLES[loc].keyFor, the plural label from the vocab, the partner line
+ *    from vocab[key][unit], the syllable split + TeX agreement from the
+ *    approved words; face strings === the bank's strings.<mode> (bilingual
+ *    through its unit tokens); en pools per face over every colour theme +
+ *    the per-locale refusal census over bank-shaped blocks (no en fallback).
  */
 'use strict';
 const path = require('path');
 const puppeteer = require('puppeteer');
 const { renderInstance } = require('../render/render-instance.js');
 const { makeRng, instanceSeed } = require('../lib/rng.js');
-const { bankModule } = require('../lib/b3-common.js');
-const { vocab, entriesFor } = require('../lib/b2-common.js');
+const { bankModule, approvedByKey, texAgreed, daStrict } = require('../lib/b3-common.js');
+const { vocab, entriesFor, countable } = require('../lib/b2-common.js');
+const { resolveUnitTokens } = require('../lib/unit-axis.js');
 const { loadAllTypes } = require('../lib/load-types.js');
 const { ARTICLES } = require('../data/b2/articles.js');
 const C3 = require('../templates/components-b3.js');
 const tokens = require('../primitives/_tokens.js');
 
 const TYPE = require('../types/k/K-324-picture-word-cards.js');
+const FACE = {
+  twin: require('../types/k/K-347-picture-word-cards-twin-set.js'),
+  article: require('../types/k/K-348-picture-word-cards-article-cards.js'),
+  plural: require('../types/k/K-349-picture-word-cards-one-and-many.js'),
+  bilingual: require('../types/k/K-350-picture-word-cards-bilingual-cards.js'),
+  syllable: require('../types/g1/G1-324-picture-word-cards-syllable-cards.js'),
+};
+const FACE_IDS = { twin: 'K-347', article: 'K-348', plural: 'K-349', bilingual: 'K-350', syllable: 'G1-324' };
 const QUICK = process.argv.includes('--quick');
 const OUT = path.join(__dirname, '..', 'out', 'dev');
 const MIN_ICON = tokens.density.K.minElement;   // 56
@@ -129,6 +151,7 @@ function validateBank(bank, loc, opts = {}) {
   const b = bank.bilingual || {};
   if (!LOCALES.includes(b.partnerExemplar) || b.partnerExemplar === loc) push(`bilingual.partnerExemplar "${b.partnerExemplar}" is not another of the 11`);
   const others = LOCALES.filter((l) => l !== loc);
+  if (typeof b.hostName !== 'string' || !b.hostName.trim()) push('bilingual.hostName missing (the legend prints hostName · partner)');
   const names = b.partnerNames || {};
   others.forEach((l) => { if (typeof names[l] !== 'string' || !names[l].trim()) push(`bilingual.partnerNames.${l} missing`); });
   Object.keys(names).forEach((l) => { if (!others.includes(l)) push(`bilingual.partnerNames.${l} is not a partner`); });
@@ -137,6 +160,14 @@ function validateBank(bank, loc, opts = {}) {
   if (!['arc', 'hyphen', 'colour'].includes(s.mark)) push(`syllable.mark "${s.mark}"`);
   if (loc === 'fi' && s.mark !== 'hyphen') push('fi syllable.mark must be hyphen');
   if (loc === 'da' && s.strictPool !== true) push('da syllable.strictPool must be true');
+  if (s.exclude != null) {
+    if (!Array.isArray(s.exclude)) push('syllable.exclude must be an array');
+    else if (!opts.skipApproved) {
+      let ap = null;
+      try { ap = approvedByKey(loc); } catch (e) { ap = null; }
+      s.exclude.forEach((k) => { if (ap && !ap.has(k)) push(`syllable.exclude "${k}" is not an approved word in ${loc}`); });
+    }
+  }
   if (!(bank.plural && bank.plural.clones === 3)) push('plural.clones must be 3');
   if (!(bank.twinLayout && bank.twinLayout.cols === 4 && bank.twinLayout.blockRows === 2)) push('twinLayout must be {cols:4, blockRows:2}');
   // (5)
@@ -155,7 +186,7 @@ function validateBank(bank, loc, opts = {}) {
   }
   // (6)
   const walk = (o, p) => { for (const [k, v] of Object.entries(o || {})) { if (typeof v === 'string') { if (v.includes('{')) push(`${p}.${k} carries "{"`); if (/color:/i.test(v)) push(`${p}.${k} carries "color:"`); } else if (v && typeof v === 'object') walk(v, p + '.' + k); } };
-  walk(strings, 'strings'); walk({ legend: a.legend, elisionChip: a.elisionChip }, 'articleStyle'); walk(names, 'partnerNames');
+  walk(strings, 'strings'); walk({ legend: a.legend, elisionChip: a.elisionChip }, 'articleStyle'); walk(names, 'partnerNames'); walk({ hostName: b.hostName }, 'bilingual');
   // (7)
   const V = opts.vocab || vocab();
   (bank.exclude || []).forEach((k) => { if (!V[k]) push(`exclude key "${k}" is not in the vocab`); });
@@ -163,8 +194,8 @@ function validateBank(bank, loc, opts = {}) {
 }
 
 /* ---------------------------------------------------------------- render */
-async function renderWith(page, type, { theme, difficulty, baseName, seedEpoch, strings, locale }) {
-  const out = await renderInstance({ type, theme, difficulty, locale: locale || 'en', page, outDir: OUT, baseName, seedEpoch, strings });
+async function renderWith(page, type, { theme, difficulty, baseName, seedEpoch, strings, locale, unit }) {
+  const out = await renderInstance({ type, theme, difficulty, locale: locale || 'en', page, outDir: OUT, baseName, seedEpoch, strings, unit: unit || null });
   const m = await page.evaluate(() => {
     const sheet = document.querySelector('[data-lcs-sheet]');
     const grid = sheet && sheet.querySelector('[data-lcs-grid]');
@@ -173,9 +204,18 @@ async function renderWith(page, type, { theme, difficulty, baseName, seedEpoch, 
     const cards = [...document.querySelectorAll('[data-lcs-card]')].map((c) => {
       const p = c.querySelector('.ws-wordplate');
       const lines = p ? [...p.querySelectorAll('[data-lcs-line]')] : [];
+      const dot = p && p.querySelector('[data-lcs-dot]');
+      const pl = c.querySelector('[data-lcs-partner-line]');
+      const sw = c.querySelector('[data-lcs-prim="syllable-word"]');
       return { ...rect(c), word: c.dataset.lcsWord || null, vocab: c.dataset.lcsVocab, twin: c.dataset.lcsTwin || null, px: p ? +p.dataset.lcsPx : null, lines: lines.map((l) => l.textContent), plateRect: p ? rect(p) : null,
-        overflow: p ? [p, ...lines].some((el) => el.scrollWidth > el.clientWidth + 0.5) : false, icon: (() => { const i = c.querySelector('img'); return i ? Math.min(i.offsetWidth, i.offsetHeight) : null; })() };
+        overflow: p ? [p, ...lines].some((el) => el.scrollWidth > el.clientWidth + 0.5) : false, icon: (() => { const i = c.querySelector('img'); return i ? Math.min(i.offsetWidth, i.offsetHeight) : null; })(),
+        imgs: c.querySelectorAll('img').length, kind: c.dataset.lcsCard, role: c.dataset.lcsRole || null,
+        chip: c.dataset.lcsChip || null, base: c.dataset.lcsBase || null, dot: dot ? dot.dataset.lcsDot : null,
+        partner: c.dataset.lcsPartnerWord || null, partnerText: pl ? pl.textContent : null, partnerOverflow: pl ? pl.scrollWidth > pl.clientWidth + 0.5 : false,
+        split: c.dataset.lcsSplit || null, count: c.dataset.lcsCount ? +c.dataset.lcsCount : null, cellsW: sw ? rect(sw).width : null,
+        stackRect: (() => { const st = c.querySelector('[data-lcs-syllable-stack]'); return st ? rect(st) : null; })() };
     });
+    const legendEl = sheet && sheet.querySelector('[data-lcs-legend]');
     const ov = grid && grid.querySelector('[data-lcs-cutlines]');
     const cuts = ov ? [...ov.querySelectorAll('[data-lcs-cut-v], [data-lcs-cut-h]')].map((l) => ({ v: l.dataset.lcsCutV, h: l.dataset.lcsCutH, x1: +l.getAttribute('x1'), x2: +l.getAttribute('x2'), y1: +l.getAttribute('y1'), y2: +l.getAttribute('y2'), stroke: l.getAttribute('stroke'), dash: l.getAttribute('stroke-dasharray') })) : [];
     const frame = ov && ov.querySelector('[data-lcs-cut-frame]');
@@ -183,6 +223,7 @@ async function renderWith(page, type, { theme, difficulty, baseName, seedEpoch, 
       stamps: sheet ? { ...sheet.dataset } : null, sheet: sheet ? rect(sheet) : null, grid: grid ? rect(grid) : null, overlay: ov ? rect(ov) : null, cuts,
       frame: frame ? { stroke: frame.getAttribute('stroke'), dash: frame.getAttribute('stroke-dasharray') } : null,
       scissors: document.querySelectorAll('[data-lcs-scissors]').length, cards,
+      legend: legendEl ? { text: legendEl.textContent, dots: [...legendEl.querySelectorAll('[data-lcs-legend-dot]')].map((d) => d.dataset.lcsLegendDot) } : null,
       body: { left: body.left, right: body.right, top: body.top, bottom: body.bottom, height: body.height },
       foot: document.querySelector('.ws-foot').getBoundingClientRect().top,
       titleLines: Math.round(document.querySelector('[data-lcs-title]').getBoundingClientRect().height / 33),
@@ -192,7 +233,8 @@ async function renderWith(page, type, { theme, difficulty, baseName, seedEpoch, 
 }
 
 function assertRender(name, r, d, opts = {}) {
-  const cfg = TYPE.difficulty[d];
+  const type = opts.type || TYPE;
+  const cfg = type.difficulty[d];
   const m = r.m;
   ok(r.verify.length === 0, `${name}: verify() ${JSON.stringify(r.verify)}`);
   ok(r.lints.length === 0, `${name}: lints ${JSON.stringify(r.lints)}`);
@@ -227,6 +269,14 @@ function assertRender(name, r, d, opts = {}) {
   let minIcon = Infinity;
   m.cards.forEach((c, i) => {
     if (c.icon != null) minIcon = Math.min(minIcon, c.icon);
+    if (cfg.kind === 'syllable') {
+      // no tier rule: the arc card has letter cells (verify() checks them), the hyphen card one 26 px line
+      const wantPic = m.stamps.lcsMark === 'hyphen' ? (cfg.hyphenPic || cfg.pic) : cfg.pic;
+      ok(c.icon === wantPic, `${name}: card ${i + 1} picture ${c.icon} ≠ ${wantPic}`);
+      if (c.stackRect) ok(c.stackRect.width <= cellW - 2 * cfg.pad + 0.6 && c.stackRect.bottom <= c.bottom - cfg.pad + 0.6, `${name}: card ${i + 1} syllable stack ${Math.round(c.stackRect.width)} wide / bottom ${Math.round(c.stackRect.bottom)} vs card ${Math.round(c.bottom - cfg.pad)}`);
+      if (c.px != null) { ok(c.px === 26 && !c.overflow, `${name}: card ${i + 1} hyphen plate at ${c.px} px / overflow ${c.overflow}`); }
+      return;
+    }
     if (c.word != null) {
       const lines = C3.labelLines(c.word, { cap: cfg.cap, lineCap: cfg.lineCap, maxLines: cfg.maxLines });
       ok(!!lines && JSON.stringify(lines) === JSON.stringify(c.lines), `${name}: card ${i + 1} lines ${JSON.stringify(c.lines)} ≠ labelLines ${JSON.stringify(lines)}`);
@@ -241,7 +291,12 @@ function assertRender(name, r, d, opts = {}) {
   });
   const icons = m.cards.filter((c) => c.icon != null).length;
   ok(icons === (cfg.kind === 'twin' ? cfg.cards : want), `${name}: ${icons} pictures`);
-  ok(minIcon >= MIN_ICON, `${name}: picture ${minIcon} px < K floor ${MIN_ICON}`);
+  const totalImgs = m.cards.reduce((n, c) => n + c.imgs, 0);
+  const wantImgs = cfg.kind === 'twin' ? cfg.cards : cfg.kind === 'plural' ? cfg.cards * (1 + (m.stamps.lcsClones ? +m.stamps.lcsClones : 3)) : want;
+  ok(totalImgs === wantImgs, `${name}: ${totalImgs} pictures in total ≠ ${wantImgs}`);
+  if (cfg.kind === 'bilingual') m.cards.forEach((c, i) => { ok(!!c.partner && c.partnerText === c.partner && !c.partnerOverflow, `${name}: card ${i + 1} partner "${c.partnerText}" (stamp "${c.partner}", overflow ${c.partnerOverflow})`); });
+  const floor = type.gradeBand === 'G1' ? tokens.density.G1.minElement : MIN_ICON;
+  ok(minIcon >= floor, `${name}: picture ${minIcon} px < ${type.gradeBand} floor ${floor}`);
   if (opts.longChrome) ok(m.titleLines >= 3, `${name}: title wrapped to ${m.titleLines} lines (want 3)`);
   return minIcon;
 }
@@ -260,14 +315,120 @@ function judge(name, findings, re, note) {
   return hit;
 }
 /** run assertRender on a poison without counting its findings against the control */
-function gateFindings(name, r, d) {
+function gateFindings(name, r, d, type) {
   const before = fails.length, saved = assertions;
-  assertRender(name, r, d);
+  assertRender(name, r, d, { type: type || TYPE });
   const found = fails.splice(before);
   assertions = saved;
   return found;
 }
 const SECTION_RE = /<section class="ws-cutcard"[\s\S]*?<\/section>/g;
+
+/**
+ * A bank block SHAPED for another locale (the panels' data is not authored
+ * yet): the en block with the locale's articleStyle (de dots + legend, it
+ * level 3, fi refused), bilingual (exemplar en, names placeholders),
+ * syllable (fi hyphen, da strict). Used for the refusal census + the
+ * locale-bound poisons; NEVER a fallback in the pipeline (bank() refuses).
+ */
+function shaped(loc, patch = {}) {
+  const b = clone(EN());
+  b.cardCase = loc === 'de' ? 'keep' : 'lower';
+  b.articleStyle = loc === 'fi' ? { enabled: false }
+    : { enabled: true, level: loc === 'it' ? 3 : 2, dots: loc === 'de' ? ['codeBlue', 'codeRed', 'codeGreen'] : null, elision: 'refuse', elisionChip: null, legend: loc === 'de' ? 'der = blau · die = rot · das = grün' : null };
+  const names = {};
+  LOCALES.filter((l) => l !== loc).forEach((l) => { names[l] = l.toUpperCase(); });
+  b.bilingual = { partnerExemplar: loc === 'en' ? 'es' : 'en', hostName: loc.toUpperCase(), partnerNames: names, legendSep: ' · ' };
+  b.syllable = { enabled: true, mark: loc === 'fi' ? 'hyphen' : 'arc', hyphen: '-', strictPool: loc === 'da', exclude: loc === 'en' ? ['seagull'] : [] };
+  if (loc === 'fi') delete b.strings.article;
+  return Object.assign(b, patch);
+}
+/** A face spec over an injected bank (+ an html patch) — the face's own difficulty, the base's _buildWith. */
+function faceWith(mode, bank, patch) {
+  const F = FACE[mode];
+  return Object.assign({}, F, { build(args, ctx) { const out = F._buildWith(bank, args, ctx); return patch ? patch(out) : out; } });
+}
+const lowerIn = (loc) => (w) => String(w).toLocaleLowerCase(loc);
+
+/**
+ * What verify() cannot see in the DOM, re-derived in node from the stamps:
+ * the article chip from ARTICLES[loc].keyFor (+ refuseKeys, dots, legend),
+ * the plural label from the vocab, the partner line from vocab[key][unit],
+ * the syllable split / count / TeX agreement / da strict from the approved
+ * words. Returns findings (the caller counts or judges them).
+ */
+function rederive(mode, type, r, bank, loc) {
+  const f = [];
+  const cfg = type.difficulty[2];
+  const theme = r.meta.theme;
+  const exclude = new Set(bank.exclude || []);
+  const cards = r.m.cards;
+  if (mode === 'article') {
+    const { pool, dots, chips } = TYPE._articlePool(bank, theme, loc, bank.cardCase, exclude);
+    const refuse = new Set((ARTICLES[loc].refuseKeys || []).map((k) => String(k).toLowerCase()));
+    cards.forEach((c, i) => {
+      if (refuse.has(String(c.vocab).toLowerCase())) f.push(`card ${i + 1}: ${c.vocab} is a refused key for ${loc}`);
+      const e = pool.find((x) => x.vocabKey === c.vocab);
+      if (!e) { f.push(`card ${i + 1}: ${c.vocab} is not an eligible article entry for ${loc}`); return; }
+      if (c.chip !== e.chip) f.push(`card ${i + 1}: chip ${c.chip} ≠ ${e.chip} (${c.vocab})`);
+      if (c.word !== e.word) f.push(`card ${i + 1}: label "${c.word}" ≠ "${e.word}"`);
+      const wantDot = dots && e.key >= 0 ? dots[e.key] : null;
+      if ((c.dot || null) !== wantDot) f.push(`card ${i + 1}: dot ${c.dot} ≠ ${wantDot}`);
+      if (!chips.includes(c.chip) && c.chip !== (bank.articleStyle || {}).elisionChip) f.push(`card ${i + 1}: chip "${c.chip}" is not one of ${chips.join('/')}`);
+    });
+    if (dots) { if (!r.m.legend || r.m.legend.dots.join(',') !== dots.join(',')) f.push(`legend dots ${r.m.legend && r.m.legend.dots} ≠ ${dots}`); }
+    else if (r.m.legend) f.push('a legend without dots');
+  } else if (mode === 'plural') {
+    const { pool } = TYPE._pluralPool(bank, cfg, theme, loc, bank.cardCase, exclude);
+    cards.forEach((c, i) => {
+      const e = pool.find((x) => x.vocabKey === c.vocab);
+      if (!e) { f.push(`card ${i + 1}: ${c.vocab} is not a countable entry for ${loc}`); return; }
+      const want = c.role === 'many' ? e.plural_ : e.word;
+      if (c.word !== want) f.push(`card ${i + 1}: ${c.role} label "${c.word}" ≠ vocab "${want}"`);
+    });
+  } else if (mode === 'bilingual') {
+    const unit = r.m.stamps.lcsPartner;
+    if (!LOCALES.includes(unit) || unit === loc) f.push(`partner stamp ${unit}`);
+    cards.forEach((c, i) => {
+      const want = TYPE._partnerLabel({ vocabKey: c.vocab }, unit);
+      if (c.partner !== want) f.push(`card ${i + 1}: partner "${c.partner}" ≠ vocab ${unit} "${want}"`);
+      if (c.partnerText !== want) f.push(`card ${i + 1}: partner line "${c.partnerText}" ≠ vocab ${unit} "${want}"`);
+      if (glyphs(c.partner || '') > cfg.partnerCap) f.push(`card ${i + 1}: partner ${glyphs(c.partner)} glyphs > ${cfg.partnerCap}`);
+    });
+  } else if (mode === 'syllable') {
+    const ap = approvedByKey(loc);
+    const lower = lowerIn(loc);
+    const sexcl = new Set(((bank.syllable || {}).exclude) || []);
+    cards.forEach((c, i) => {
+      const a = ap.get(c.vocab);
+      if (!a) { f.push(`card ${i + 1}: ${c.vocab} is not an approved word in ${loc}`); return; }
+      if (cfg.pool === 'tex' && !texAgreed(a)) f.push(`card ${i + 1}: ${c.vocab} is not TeX-agreed (${a.split.join('-')})`);
+      if (c.split !== a.split.map(lower).join('|')) f.push(`card ${i + 1}: split ${c.split} ≠ approved ${a.split.join('|')}`);
+      if (!(a.count >= cfg.minCount && a.count <= cfg.maxCount)) f.push(`card ${i + 1}: ${c.vocab} has ${a.count} syllables (${cfg.minCount}..${cfg.maxCount})`);
+      if (glyphs(c.word) > cfg.maxLetters) f.push(`card ${i + 1}: ${c.word} > ${cfg.maxLetters} letters`);
+      if ((loc === 'da' || (bank.syllable || {}).strictPool === true) && !daStrict(a)) f.push(`card ${i + 1}: ${c.vocab} is outside the strict pool`);
+      if (sexcl.has(c.vocab)) f.push(`card ${i + 1}: ${c.vocab} is excluded by the bank`);
+    });
+  }
+  return f;
+}
+
+/** The eligible pool size of a face on (theme, loc) over a bank block; -1 = the face refuses the locale/theme by rule. */
+function poolSize(mode, bank, theme, loc) {
+  const cfg = FACE[mode].difficulty[2];
+  const exclude = new Set(bank.exclude || []);
+  try {
+    if (mode === 'twin') {
+      const pool = entriesFor(theme, loc).map((e) => TYPE.labelFor(e, loc, bank.cardCase)).filter((w) => C3.labelLines(w, { cap: cfg.cap, lineCap: cfg.lineCap, maxLines: cfg.maxLines }));
+      return new Set(pool).size;
+    }
+    if (mode === 'article') return TYPE._articlePool(bank, theme, loc, bank.cardCase, exclude).pool.filter((e) => C3.labelLines(e.word, { cap: cfg.cap, lineCap: cfg.lineCap, maxLines: cfg.maxLines })).length;
+    if (mode === 'plural') return TYPE._pluralPool(bank, cfg, theme, loc, bank.cardCase, exclude).pool.length;
+    if (mode === 'bilingual') return TYPE._bilingualPool(bank, cfg, theme, loc, bank.cardCase, exclude, bank.bilingual.partnerExemplar).pool.length;
+    if (mode === 'syllable') return TYPE._syllablePool(bank, cfg, theme, loc, bank.cardCase, exclude).pool.length;
+  } catch (e) { if (/REFUSED/.test(e.message)) return -1; throw e; }
+  throw new Error('poolSize: ' + mode);
+}
 
 async function main() {
   const banks = bankModule('picture-word-cards');
@@ -360,9 +521,97 @@ async function main() {
       console.log(`sweep: d2 ${sets.size} distinct word sets, d3 0/20 identity slots`);
     }
 
+    // 5. FACES — through the real pipeline, per kind, + node re-derivations
+    const colourThemes = Object.keys(require('../image-cache/resolve.js').manifest().themes).filter((t) => !/\b(BW|SW|BN|NB|ZW|SH|PB|MV|SV)$/i.test(t));
+    for (const mode of FACES) {
+      const t = FACE[mode];
+      ok(t.id === FACE_IDS[mode], `${mode}: id ${t.id} ≠ ${FACE_IDS[mode]}`);
+      const want = en.strings[mode];
+      const got = resolveUnitTokens(t.i18n.en, t, null, 'en');
+      ok(!!want && got.title === want.title && got.instruction === want.instruction, `${t.id}: spec i18n.en ≠ bank strings.${mode} ("${got.title}" vs "${want && want.title}")`);
+      ok(glyphs(got.title) <= 70 && glyphs(got.instruction) <= 150 && !WORKSHEET_WORD.test(got.title), `${t.id}: title/instruction outside the caps`);
+      ok(t.difficulty[2].kind === (mode === 'twin' ? 'twin' : mode), `${t.id}: kind ${t.difficulty[2].kind}`);
+      const r = await renderWith(page, t, { theme: EXEMPLAR_THEME, difficulty: 2, baseName: `${t.id}-gate-${EXEMPLAR_THEME}-d2-en` });
+      const mi = assertRender(`${t.id} d2 ${EXEMPLAR_THEME}`, r, 2, { type: t });
+      const rd = rederive(mode, t, r, en, 'en');
+      ok(rd.length === 0, `${t.id} re-derive: ${JSON.stringify(rd)}`);
+      pngs.push(r.png);
+      const rl = await renderWith(page, t, { theme: EXEMPLAR_THEME, difficulty: 2, baseName: `${t.id}-gate-d2-en-longchrome`, strings: LONG_STRINGS });
+      assertRender(`${t.id} long chrome`, rl, 2, { type: t, longChrome: true });
+      const words = mode === 'syllable' ? r.meta.words.map((w, i) => r.meta.splits[i].join('-')) : mode === 'bilingual' ? r.meta.words.map((w, i) => w + '/' + r.meta.partners[i]) : mode === 'plural' ? r.meta.words.map((w, i) => w + '/' + r.meta.plurals[i]) : r.meta.words;
+      console.log(`render ${t.id} ${mode} d2 ${EXEMPLAR_THEME}: verify ${r.verify.length} lints ${r.lints.length} icons>=${mi} cards ${r.m.cards.length} block ${Math.round(r.m.sheet.height)} body ${Math.round(r.m.body.height)} | long chrome body ${Math.round(rl.m.body.height)} bottom ${Math.round(rl.m.sheet.bottom)} vs footer ${Math.round(rl.m.foot)} | ${words.join(' ')}`);
+    }
+    // bilingual with a configured unit (the fan): partner de keeps its noun capital
+    {
+      const r = await renderWith(page, FACE.bilingual, { theme: EXEMPLAR_THEME, difficulty: 2, baseName: 'K-350-gate-animals-d2-en-ude', unit: 'de' });
+      assertRender('K-350 unit de', r, 2, { type: FACE.bilingual });
+      const rd = rederive('bilingual', FACE.bilingual, r, en, 'en');
+      ok(rd.length === 0 && r.m.stamps.lcsPartner === 'de', `K-350 unit de: ${JSON.stringify(rd)} partner ${r.m.stamps.lcsPartner}`);
+      ok(r.m.cards.every((c) => /^\p{Lu}/u.test(c.partner)), `K-350 unit de: a German noun without its capital: ${r.m.cards.map((c) => c.partner).join(' ')}`);
+      ok(/English/.test(r.m.legend.text) && /German/.test(r.m.legend.text), `K-350 unit de legend "${r.m.legend.text}"`);
+      pngs.push(r.png);
+      console.log(`render K-350 unit de: verify ${r.verify.length} lints ${r.lints.length} legend "${r.m.legend.text}" | ${r.m.cards.map((c) => c.word + '/' + c.partner).join(' ')}`);
+      let msg = '';
+      try { FACE.bilingual.build({ theme: EXEMPLAR_THEME, difficulty: 2, locale: 'en', unit: 'en' }, { rng: makeRng('x') }); } catch (e) { msg = e.message; }
+      ok(/partner en is the host language/.test(msg), `a host-language partner must refuse: ${msg}`);
+      try { FACE.bilingual.build({ theme: EXEMPLAR_THEME, difficulty: 2, locale: 'en', unit: 'xx' }, { rng: makeRng('x') }); msg = ''; } catch (e) { msg = e.message; }
+      ok(/not one of the 11 locales/.test(msg), `an unknown partner must refuse: ${msg}`);
+      ok(FACE.bilingual.unitAxis.exemplar('en') === 'es' && FACE.bilingual.unitAxis.units('en').length === 10, 'K-350 unitAxis en: exemplar es, 10 units');
+    }
+    // the hyphen mark (fi) through the real pipeline over a fi-shaped block
+    {
+      const fi = shaped('fi');
+      const r = await renderWith(page, faceWith('syllable', fi), { theme: EXEMPLAR_THEME, difficulty: 2, baseName: 'G1-324-gate-animals-d2-fi-hyphen', locale: 'fi', strings: { title: 'Tavutetut kuvakortit', instruction: 'Leikkaa kortit irti. Lue sana tavu kerrallaan.' } });
+      assertRender('G1-324 fi hyphen', r, 2, { type: FACE.syllable });
+      const rd = rederive('syllable', FACE.syllable, r, fi, 'fi');
+      ok(rd.length === 0 && r.m.stamps.lcsMark === 'hyphen' && r.m.cards.every((c) => c.px === 26 && c.icon === 96), `G1-324 fi hyphen: ${JSON.stringify(rd)} mark ${r.m.stamps.lcsMark}`);
+      pngs.push(r.png);
+      console.log(`render G1-324 fi hyphen: verify ${r.verify.length} lints ${r.lints.length} | ${r.m.cards.map((c) => c.lines.join(' ')).join(' ')}`);
+    }
+    // en pools per face over every colour theme (the pinned theme must hold 8 on every face)
+    for (const mode of FACES) {
+      const short = colourThemes.map((t) => [t, poolSize(mode, en, t, 'en')]).filter(([, n]) => n < 8);
+      const pinned = poolSize(mode, en, EXEMPLAR_THEME, 'en');
+      ok(pinned >= 8, `${FACE_IDS[mode]}: ${EXEMPLAR_THEME} en pool ${pinned} < 8`);
+      console.log(`pools ${FACE_IDS[mode]} ${mode} en: ${colourThemes.length - short.length}/${colourThemes.length} themes >= 8, ${EXEMPLAR_THEME} ${pinned}${short.length ? '; below 8: ' + short.map(([t, n]) => t + ':' + n).join(' ') : ''}`);
+    }
+    // per-locale refusal census over bank-SHAPED blocks (measured, reported; the pinned theme asserted)
+    {
+      const rows = [];
+      for (const loc of LOCALES) {
+        const b = shaped(loc);
+        const cells = FACES.map((mode) => {
+          const sizes = colourThemes.map((t) => poolSize(mode, b, t, loc));
+          const refused = sizes.every((n) => n === -1);
+          const okN = sizes.filter((n) => n >= 8).length;
+          const pinned = poolSize(mode, b, EXEMPLAR_THEME, loc);
+          if (!refused) ok(pinned >= 8, `${FACE_IDS[mode]} ${loc}: ${EXEMPLAR_THEME} pool ${pinned} < 8`);
+          const short = colourThemes.map((t, i) => [t, sizes[i]]).filter(([, n]) => n >= 0 && n < 8 && !/^(colors|emotions)$/.test(n === -1 ? '' : ''));
+          const shortTxt = short.length && short.length <= 8 ? ' below: ' + short.map(([t, n]) => t + ':' + n).join(' ') : '';
+          return refused ? 'REFUSED' : `${okN}/${colourThemes.length} (${EXEMPLAR_THEME} ${pinned})${shortTxt}`;
+        });
+        rows.push(`  ${loc}: ` + FACES.map((m, i) => `${m} ${cells[i]}`).join(' · '));
+      }
+      console.log('census (themes >= 8 per face, bank-shaped blocks):\n' + rows.join('\n'));
+    }
+    // face seed sweeps (build only)
+    if (!QUICK) {
+      for (const mode of FACES) {
+        const t = FACE[mode];
+        const sets = new Set();
+        for (let k = 1; k <= 10; k++) {
+          const rng = makeRng(instanceSeed({ typeId: t.id, theme: EXEMPLAR_THEME, difficulty: 2, seedEpoch: k }));
+          const b = t.build({ theme: EXEMPLAR_THEME, difficulty: 2, locale: 'en' }, { rng });
+          ok(new Set(b.meta.vocab).size === t.difficulty[2].cards, `sweep ${t.id} seed ${k}: ${new Set(b.meta.vocab).size} distinct entries`);
+          sets.add(b.meta.vocab.slice().sort().join(','));
+        }
+        console.log(`sweep ${t.id}: ${sets.size} distinct entry sets over 10 seeds${sets.size === 1 ? ' (the pool is exactly the card count)' : ''}`);
+      }
+    }
+
     // 4. poisons
     let killed = 0;
-    const TOTAL = 14;
+    const TOTAL = 20;
     // P1 — a base card without its img
     {
       const t = typeWith(en, (o) => { o.bodyHtml = o.bodyHtml.replace(/<img class="ws-icon"[^>]*>/, ''); return o; });
@@ -394,7 +643,7 @@ async function main() {
     }
     // P4 — de `Wütend` capitalised: a gender-null entry printed with the noun capital
     {
-      const de = { ...clone(en), cardCase: 'keep', articleStyle: { enabled: true, level: 2, dots: ['codeBlue', 'codeRed', 'codeGreen'], elision: 'refuse', elisionChip: null, legend: 'der = blau · die = rot · das = grün' }, bilingual: { partnerExemplar: 'en', partnerNames: { en: 'Englisch', es: 'Spanisch', pt: 'Portugiesisch', fr: 'Französisch', it: 'Italienisch', nl: 'Niederländisch', sv: 'Schwedisch', da: 'Dänisch', no: 'Norwegisch', fi: 'Finnisch' }, legendSep: ' · ' } };
+      const de = { ...clone(en), cardCase: 'keep', articleStyle: { enabled: true, level: 2, dots: ['codeBlue', 'codeRed', 'codeGreen'], elision: 'refuse', elisionChip: null, legend: 'der = blau · die = rot · das = grün' }, bilingual: { partnerExemplar: 'en', hostName: 'Deutsch', partnerNames: { en: 'Englisch', es: 'Spanisch', pt: 'Portugiesisch', fr: 'Französisch', it: 'Italienisch', nl: 'Niederländisch', sv: 'Schwedisch', da: 'Dänisch', no: 'Norwegisch', fi: 'Finnisch' }, legendSep: ' · ' } };
       const strings = { title: 'Bildkarten', instruction: 'Schneide die Karten aus.' };
       // control: the de emotions page prints every adjective lower ("wütend"), nouns would keep the capital
       const ctl = await renderWith(page, typeWith(de), { theme: 'emotions', difficulty: 2, baseName: 'K-324-gate-P4-control', strings, locale: 'de' });
@@ -411,7 +660,7 @@ async function main() {
     }
     // P5 — fi articleStyle.enabled:true
     {
-      const fi = { ...clone(en), articleStyle: { enabled: true, level: 2, dots: null, elision: 'refuse', elisionChip: null, legend: null }, syllable: { enabled: true, mark: 'hyphen', hyphen: '-', strictPool: false }, bilingual: { partnerExemplar: 'en', partnerNames: { en: 'englanti', de: 'saksa', es: 'espanja', pt: 'portugali', fr: 'ranska', it: 'italia', nl: 'hollanti', sv: 'ruotsi', da: 'tanska', no: 'norja' }, legendSep: ' · ' } };
+      const fi = { ...clone(en), articleStyle: { enabled: true, level: 2, dots: null, elision: 'refuse', elisionChip: null, legend: null }, syllable: { enabled: true, mark: 'hyphen', hyphen: '-', strictPool: false }, bilingual: { partnerExemplar: 'en', hostName: 'suomi', partnerNames: { en: 'englanti', de: 'saksa', es: 'espanja', pt: 'portugali', fr: 'ranska', it: 'italia', nl: 'hollanti', sv: 'ruotsi', da: 'tanska', no: 'norja' }, legendSep: ' · ' } };
       delete fi.strings.article;
       const control = validateBank({ ...fi, articleStyle: { enabled: false } }, 'fi');
       ok(control.length === 0, `P5 control (fi enabled:false) must validate: ${control.join('; ')}`);
@@ -502,15 +751,121 @@ async function main() {
       const r = await renderWith(page, t, { theme: EXEMPLAR_THEME, difficulty: 2, baseName: 'K-324-gate-poison-P18' });
       if (judge('P18', r.verify, /card 1 background rgb\(251, 243, 228\) \(must be white\)/)) killed++;
     }
-    for (const d of ['P6 de `die Hund` (article face)', 'P7 F4 right card with 2 clones (plural face)', 'P8 F5 partner line in the host language (bilingual face)', 'P9 F6 en `acorn` non-TeX (syllable face)', 'P19 fr `l\' arbre` (article face)', 'P20 sv `blocks` on an article card (article face)']) {
-      poisonLog.push(`  ${d}: DEFERRED — Phase 2, the face is not built`);
+    // P6 — de `die Hund`: the chip on card 1 swapped for another chip (stamp + text agree; only the vocab re-derivation sees it)
+    {
+      const de = shaped('de');
+      const strings = { title: 'Der, die, das: Bildkarten mit Artikel', instruction: 'Schneide die acht Karten aus.' };
+      const ctl = await renderWith(page, faceWith('article', de), { theme: EXEMPLAR_THEME, difficulty: 2, baseName: 'K-348-gate-P6-control-de', strings, locale: 'de' });
+      const ctlRd = rederive('article', FACE.article, ctl, de, 'de');
+      ok(ctl.verify.length === 0 && ctl.lints.length === 0 && ctlRd.length === 0 && ctl.m.cards.every((c) => c.dot) && ctl.m.legend && ctl.m.legend.dots.length === 3, `P6 control (de dots + legend) must render clean: ${JSON.stringify(ctl.verify)} ${JSON.stringify(ctlRd)} legend ${JSON.stringify(ctl.m.legend)}`);
+      pngs.push(ctl.png);
+      console.log(`render K-348 de (P6 control): verify ${ctl.verify.length} lints ${ctl.lints.length} legend "${ctl.m.legend.text}" | ${ctl.m.cards.map((c) => c.word).join(' · ')}`);
+      const t = faceWith('article', de, (o) => {
+        const chip = o.meta.chips[0], word = o.meta.words[0];
+        const other = ['der', 'die', 'das'].find((x) => x !== chip);
+        const bad = word.replace(chip + ' ', other + ' ');
+        o.bodyHtml = o.bodyHtml.replace(`data-lcs-chip="${chip}"`, `data-lcs-chip="${other}"`).replace(`data-lcs-word="${word}"`, `data-lcs-word="${bad}"`).replace(`data-lcs-line>${word}<`, `data-lcs-line>${bad}<`);
+        return o;
+      });
+      const r = await renderWith(page, t, { theme: EXEMPLAR_THEME, difficulty: 2, baseName: 'K-348-gate-poison-P6', strings, locale: 'de' });
+      const found = rederive('article', FACE.article, r, de, 'de');
+      if (judge('P6', found, /card 1: chip d\w\w ≠ d\w\w \(/, `verify ${r.verify.length} (the DOM is self-consistent), re-derive ${found.length}`)) killed++;
+    }
+    // P7 — a many-card with two clones
+    {
+      const t = faceWith('plural', en, (o) => {
+        const secs = o.bodyHtml.match(SECTION_RE);
+        const many = secs.find((x) => /data-lcs-role="many"/.test(x));
+        o.bodyHtml = o.bodyHtml.replace(many, many.replace(/<img class="ws-icon"[^>]*>/, ''));
+        return o;
+      });
+      const r = await renderWith(page, t, { theme: EXEMPLAR_THEME, difficulty: 2, baseName: 'K-349-gate-poison-P7' });
+      if (judge('P7', r.verify, /card 2: 2 pictures ≠ 3/)) killed++;
+    }
+    // P8 — the partner line printed in the host language
+    {
+      const t = faceWith('bilingual', en, (o) => {
+        const i = o.meta.words.findIndex((w, k) => w !== o.meta.partners[k]);
+        if (i < 0) throw new Error('P8: every drawn pair is a shared word');
+        const host = o.meta.words[i], partner = o.meta.partners[i];
+        o.bodyHtml = o.bodyHtml.replace(`data-lcs-partner-word="${partner}"`, `data-lcs-partner-word="${host}"`).replace(`data-lcs-partner-line>${partner}<`, `data-lcs-partner-line>${host}<`);
+        return o;
+      });
+      const r = await renderWith(page, t, { theme: EXEMPLAR_THEME, difficulty: 2, baseName: 'K-350-gate-poison-P8' });
+      const found = rederive('bilingual', FACE.bilingual, r, en, 'en');
+      if (judge('P8', found, /card \d+: partner "[^"]+" ≠ vocab es "[^"]+"/, `verify ${r.verify.length} (the DOM is self-consistent), re-derive ${found.length}`)) killed++;
+    }
+    // P9 — en `acorn`: a rule-only boundary (ac-orn; TeX says acorn). (a) the texPool filter drops it from the
+    // pool where the full pool keeps it; (b) forced onto a rendered card past the spec, the gate's TeX check sees the stamp
+    {
+      const cfg = FACE.syllable.difficulty[2];
+      const full = TYPE._syllablePool(en, { ...cfg, pool: 'full' }, 'miscellaneous', 'en', 'lower', new Set()).pool.map((e) => e.vocabKey);
+      const tex = TYPE._syllablePool(en, cfg, 'miscellaneous', 'en', 'lower', new Set()).pool.map((e) => e.vocabKey);
+      ok(full.includes('acorn'), 'P9 control: the FULL en pool of miscellaneous carries acorn (ac-orn)');
+      const a = judge('P9 pool', tex.includes('acorn') ? [] : ['acorn dropped by the texPool filter'], /acorn dropped/, `full ${full.length} → tex ${tex.length}`);
+      const t = faceWith('syllable', en, (o) => {
+        const v = o.meta.vocab[0], w = o.meta.words[0], sp = o.meta.splits[0].join('|');
+        o.bodyHtml = o.bodyHtml.replace(`data-lcs-vocab="${v}"`, 'data-lcs-vocab="acorn"').replace(`data-lcs-pic="${v}"`, 'data-lcs-pic="acorn"').replace(`data-lcs-word="${w}"`, 'data-lcs-word="acorn"').replace(`data-lcs-split="${sp}"`, 'data-lcs-split="ac|orn"');
+        return o;
+      });
+      const r = await renderWith(page, t, { theme: EXEMPLAR_THEME, difficulty: 2, baseName: 'G1-324-gate-poison-P9' });
+      const found = rederive('syllable', FACE.syllable, r, en, 'en');
+      const b = judge('P9 render', found, /card 1: acorn is not TeX-agreed \(ac-orn\)/, `verify ${r.verify.length}`);
+      if (a && b) killed++;
+    }
+    // P19 — fr `l' arbre`: the elided article printed with a space (fr-shaped block with elision:'print')
+    {
+      const fr = shaped('fr', { articleStyle: { enabled: true, level: 2, dots: null, elision: 'print', elisionChip: "l'", legend: null } });
+      const strings = { title: "Imagier : le, la ou l'", instruction: 'Découpe les huit cartes.' };
+      const refuseDefault = TYPE._articlePool(shaped('fr'), EXEMPLAR_THEME, 'fr', 'lower', new Set()).pool;
+      const printPool = TYPE._articlePool(fr, EXEMPLAR_THEME, 'fr', 'lower', new Set()).pool;
+      ok(refuseDefault.every((e) => !/^[aeiouyhéèêàâîïôûù]/i.test(e.base)), 'fr default (elision refuse): no vowel/h-initial noun in the pool');
+      ok(printPool.some((e) => e.chip === "l'" && /^l'\S/.test(e.word)), `fr elision print: an l'noun in the pool (${printPool.filter((e) => e.chip === "l'").map((e) => e.word).join(' ')})`);
+      // h aspiré / h muet and y are undecidable from the vocab: print never elides an h- or y-initial noun (hibou → refused, never "l'hibou")
+      ok(printPool.every((e) => !/^[hy]/i.test(e.base)), `fr elision print elided an h/y-initial noun: ${printPool.filter((e) => /^[hy]/i.test(e.base)).map((e) => e.word).join(' ')}`);
+      ok(entriesFor(EXEMPLAR_THEME, 'fr').some((e) => /^h/i.test(e.singular)), 'fr control: the exemplar theme carries an h-initial noun (hibou / hippopotame) so the rule is exercised');
+      const ctl = await renderWith(page, faceWith('article', fr), { theme: EXEMPLAR_THEME, difficulty: 2, baseName: 'K-348-gate-P19-control-fr', strings, locale: 'fr' });
+      const ctlRd = rederive('article', FACE.article, ctl, fr, 'fr');
+      ok(ctl.verify.length === 0 && ctl.lints.length === 0 && ctlRd.length === 0, `P19 control (fr elision print) must render clean: ${JSON.stringify(ctl.verify)} ${JSON.stringify(ctlRd)}`);
+      pngs.push(ctl.png);
+      console.log(`render K-348 fr (P19 control, elision print): verify ${ctl.verify.length} lints ${ctl.lints.length} | ${ctl.m.cards.map((c) => c.word).join(' · ')}`);
+      const t = faceWith('article', fr, (o) => {
+        const chip = o.meta.chips[0], word = o.meta.words[0];
+        const base = chip.endsWith("'") ? word.slice(chip.length) : word.slice(chip.length + 1);
+        const bad = "l' " + base;
+        o.bodyHtml = o.bodyHtml.replace(`data-lcs-chip="${chip}"`, `data-lcs-chip="l'"`).replace(`data-lcs-word="${word}"`, `data-lcs-word="${bad}"`).replace(`data-lcs-line>${word}<`, `data-lcs-line>${bad}<`);
+        return o;
+      });
+      const r = await renderWith(page, t, { theme: EXEMPLAR_THEME, difficulty: 2, baseName: 'K-348-gate-poison-P19', strings, locale: 'fr' });
+      if (judge('P19', r.verify, /card 1: elided article "l'" printed with a space/)) killed++;
+    }
+    // P20 — sv `blocks` on an article card: (a) the pool honours refuseKeys (en toys keeps domino, sv drops it);
+    // (b) a refused key forced onto a rendered card past the spec is caught on the stamp
+    {
+      const sv = shaped('sv');
+      const svPool = TYPE._articlePool(sv, 'toys', 'sv', 'lower', new Set()).pool.map((e) => e.vocabKey);
+      const enPool = TYPE._articlePool(en, 'toys', 'en', 'lower', new Set()).pool.map((e) => e.vocabKey);
+      ok(enPool.includes('domino'), 'P20 control: the en toys article pool keeps domino (no refuseKeys)');
+      const a = judge('P20 pool', ['blocks', 'lego', 'domino', 'crayons', 'chess'].filter((k) => svPool.includes(k)).length ? [] : ['sv refuseKeys dropped'], /sv refuseKeys dropped/, `sv toys pool ${svPool.length}`);
+      const strings = { title: 'En eller ett: bildkort', instruction: 'Klipp ut de åtta korten.' };
+      const t = faceWith('article', sv, (o) => {
+        const v = o.meta.vocab[0], chip = o.meta.chips[0], word = o.meta.words[0];
+        const bad = 'en klossar';
+        o.bodyHtml = o.bodyHtml.replace(`data-lcs-vocab="${v}"`, 'data-lcs-vocab="blocks"').replace(`data-lcs-pic="${v}"`, 'data-lcs-pic="blocks"')
+          .replace(`data-lcs-chip="${chip}"`, 'data-lcs-chip="en"').replace(/data-lcs-base="[^"]+"/, 'data-lcs-base="klossar"').replace(`data-lcs-word="${word}"`, `data-lcs-word="${bad}"`).replace(`data-lcs-line>${word}<`, `data-lcs-line>${bad}<`);
+        return o;
+      });
+      const r = await renderWith(page, t, { theme: 'toys', difficulty: 2, baseName: 'K-348-gate-poison-P20', strings, locale: 'sv' });
+      const found = rederive('article', FACE.article, r, sv, 'sv');
+      const b = judge('P20 render', found, /card 1: blocks is a refused key for sv/);
+      if (a && b) killed++;
     }
     console.log('poison:\n' + poisonLog.join('\n'));
     const allKilled = killed === TOTAL;
     if (fails.length) console.log('FAILS:\n  ' + fails.join('\n  '));
     console.log('PNGs: ' + pngs.map((p) => path.relative(process.cwd(), p)).join(' '));
     const pass = !fails.length && allKilled;
-    console.log(pass ? `PASS (${assertions} assertions, ${killed}/${TOTAL} poisons killed, 6 deferred to Phase 2${QUICK ? ', --quick: sweep skipped' : ''})` : `FAIL (${fails.length} findings, ${killed}/${TOTAL} poisons killed)`);
+    console.log(pass ? `PASS (${assertions} assertions, ${killed}/${TOTAL} poisons killed${QUICK ? ', --quick: sweeps skipped' : ''})` : `FAIL (${fails.length} findings, ${killed}/${TOTAL} poisons killed)`);
     process.exit(pass ? 0 : 1);
   } finally {
     await browser.close();

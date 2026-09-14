@@ -6,7 +6,7 @@
  * never carries a word, a numeral or an `alt` (the answer is never printed).
  *
  * Exports (the NEW names the design file lists, plus two the base needs today):
- *   lineUpPanel({strip, below, minH})     the `.ws-lane` wrapper: inline
+ *   lineUpPanel({strip, below, minH, justify='space-between'})   the `.ws-lane` wrapper: inline
  *       `padding:10px 12px` (inner 647), flex column, space-between, stamped
  *       [data-ws-content]; the slack of a taller row opens BETWEEN strip and
  *       chip row, never inside the tiles.
@@ -16,6 +16,10 @@
  *       pic=64, gap=5, arrow=true, band=true}) plus K-320's three ADDITIVE
  *       options, defaults byte-identical: `start:'left'|'right'` (mirrors the
  *       arrow row only), `flagScale:1|1.5`, `under:'band'|'box'|'none'`.
+ *       Phase 2 (F1, additive, default null): `given[]` = the literal printed in
+ *       a solid cell at that index; `answers[]` = the hidden ground truth of the
+ *       open cell at that index (blankNumeralBox data-lcs-answer). When
+ *       `answers` is passed every cell also stamps data-lcs-box="<idx>".
  *       NAMED lineUpStrip, not pictureStrip: G1-308 owns `pictureStrip` and is
  *       absent from the tree today; a same-name export from two family files
  *       makes the namespace THROW for every b3 family (recorded deviation,
@@ -32,9 +36,14 @@
  *       answer (its dashes are `grid` and it stamps "undefined").
  *   wordChipRow({words:[{k,text}], px=22, gap=8})   F2's bank row of `.ws-achip`
  *       h 44, padding 0 12, data-lcs-word-k; stamped data-lcs-bank.
- *   queryCell({src, noun, k, pic=56, notation})   F3's [clone][arrow][box] = 180
+ *   queryCell({src, noun, pic=56, answer})   F3's [clone 68][12][arrow 24][12][box 72]
+ *       = 188 wide (the design's "180" was the sum with the gaps dropped — measured),
+ *       data-lcs-query + data-lcs-noun; the box carries the hidden answer
  *   finishLine({h})   F5's 16 px two-column chequer (teal / white, 8 px squares)
- *   raceLane({src, noun, x, laneW=543, pic=64})   F5's dashed trail + runner
+ *   raceLane({src, noun, x, laneW=543, pic=64, h=84, mirror=false})   F5's dashed
+ *       trail (6..x, BEHIND the runner) + the runner at left x; `mirror` flips
+ *       art that faces left (the bank's `facing` table) so every racer runs
+ *       toward the finish; stamped data-lcs-runner/-noun/-x (+ data-lcs-mirror)
  * The F2/F3/F5 components are exported so the faces (Phase 2) add only a
  * `layout` knob; the base renders none of them.
  */
@@ -82,7 +91,7 @@ function pictureTile({ theme, item, tile, pic, idx }) {
     `<img class="ws-icon" src="${fileUri(theme, item.noun)}" style="width:${pic}px;height:${pic}px"></span>`;
 }
 
-function lineUpStrip({ theme, items, tile = 76, pic = 64, gap = 5, arrow = true, band = true, start = 'left', flagScale = 1, under = 'band', given = null }) {
+function lineUpStrip({ theme, items, tile = 76, pic = 64, gap = 5, arrow = true, band = true, start = 'left', flagScale = 1, under = 'band', given = null, answers = null }) {
   const n = items.length;
   const w = n * tile + (n - 1) * gap;
   const rows = [];
@@ -97,10 +106,11 @@ function lineUpStrip({ theme, items, tile = 76, pic = 64, gap = 5, arrow = true,
     // F1: one numeral cell under every tile — a GIVEN literal (solid white, ink) or an open blankNumeralBox
     const cells = items.map((_, i) => {
       const g = given && given[i];
+      const idxAttr = answers ? ` data-lcs-box="${i}"` : '';   // stamped only on the F1 path (byte-identical otherwise)
       return g != null
-        ? `<span data-lcs-given="${esc(g)}" style="display:inline-flex;align-items:center;justify-content:center;width:${tile - 8}px;height:44px;` +
+        ? `<span data-lcs-given="${esc(g)}"${idxAttr} style="display:inline-flex;align-items:center;justify-content:center;width:${tile - 8}px;height:44px;` +
           `background:${T.white};border:2px solid ${T.creamDeep};border-radius:10px;font-family:${F.display},cursive;font-weight:700;font-size:26px;color:${T.ink}">${esc(g)}</span>`
-        : blankNumeralBox({ w: tile - 8, h: 44, answer: '' });
+        : blankNumeralBox({ w: tile - 8, h: 44, answer: (answers && answers[i] != null) ? answers[i] : '', attrs: idxAttr.trim() });
     });
     rows.push(`<div style="display:flex;gap:${gap + 8}px;width:${w}px;justify-content:space-between">${cells.join('')}</div>`);
   }
@@ -108,8 +118,8 @@ function lineUpStrip({ theme, items, tile = 76, pic = 64, gap = 5, arrow = true,
 }
 
 /* ------------------------------------------------------------------ panel */
-function lineUpPanel({ strip, below, minH, attrs = '' }) {
-  return `<div class="ws-lane" data-ws-content ${attrs} style="padding:10px 12px;display:flex;flex-direction:column;justify-content:space-between;align-items:center;min-height:${minH}px;min-width:0">` +
+function lineUpPanel({ strip, below, minH, attrs = '', justify = 'space-between' }) {
+  return `<div class="ws-lane" data-ws-content ${attrs} style="padding:10px 12px;display:flex;flex-direction:column;justify-content:${justify};align-items:center;min-height:${minH}px;min-width:0">` +
     strip + below + `</div>`;
 }
 
@@ -149,12 +159,13 @@ function wordChipRow({ words, px = 22, gap = 8 }) {
     `</div>`;
 }
 
-function queryCell({ src, noun, k, pic = 56, answer = '' }) {
+function queryCell({ src, noun, pic = 56, answer = '' }) {
   const box = pic + 12;
+  const w = box + 12 + 24 + 12 + 72;   // 188 at pic 56 (measured: the design's 180 dropped the two gaps)
   const arrow = svgRoot({ width: 24, height: 24, label: '' },
     line({ x1: 2, y1: 12, x2: 14, y2: 12, strokeColor: T.ink, strokeWidth: 3 }) +
     el('polygon', { points: '13,5 22,12 13,19', fill: T.ink }), { 'aria-hidden': 'true' });
-  return `<span data-lcs-query data-lcs-noun="${esc(noun)}" style="display:inline-flex;align-items:center;gap:12px;width:180px">` +
+  return `<span data-lcs-query data-lcs-noun="${esc(noun)}" style="display:inline-flex;align-items:center;gap:12px;width:${w}px;flex:0 0 ${w}px">` +
     `<span style="display:inline-flex;align-items:center;justify-content:center;width:${box}px;height:${box}px;background:${T.white};border:2px solid ${T.creamDeep};border-radius:10px">` +
     `<img class="ws-icon" src="${src}" style="width:${pic}px;height:${pic}px"></span>${arrow}` +
     blankNumeralBox({ w: 72, h: 44, answer }) + `</span>`;
@@ -167,11 +178,12 @@ function finishLine({ h }) {
   return svgRoot({ width: sq * cols, height: h, label: '' }, cells.join(''), { 'aria-hidden': 'true', 'data-lcs-finish': 1 });
 }
 
-function raceLane({ src, noun, x, laneW = 543, pic = 64, h = 84 }) {
+function raceLane({ src, noun, x, laneW = 543, pic = 64, h = 84, mirror = false }) {
   const trail = line({ x1: 6, y1: h / 2, x2: x, y2: h / 2, strokeColor: T.inkSoft, strokeWidth: 3, dash: '6 6' });
-  return `<span data-lcs-runner data-lcs-noun="${esc(noun)}" data-lcs-x="${x}" style="position:relative;display:inline-block;width:${laneW}px;height:${h}px">` +
+  const flip = mirror ? ';transform:scaleX(-1)' : '';
+  return `<span data-lcs-runner data-lcs-noun="${esc(noun)}" data-lcs-x="${x}"${mirror ? ' data-lcs-mirror="1"' : ''} style="position:relative;display:inline-block;width:${laneW}px;height:${h}px;flex:0 0 ${laneW}px">` +
     svgRoot({ width: laneW, height: h, label: '' }, trail, { 'aria-hidden': 'true', style: 'position:absolute;left:0;top:0' }) +
-    `<img class="ws-icon" src="${src}" style="position:absolute;left:${x}px;top:${(h - pic) / 2}px;width:${pic}px;height:${pic}px"></span>`;
+    `<img class="ws-icon" src="${src}" style="position:absolute;left:${x}px;top:${(h - pic) / 2}px;width:${pic}px;height:${pic}px${flip}"></span>`;
 }
 
 module.exports = { lineUpPanel, lineUpStrip, ordinalChip, markIcon, blankNumeralBox, wordChipRow, queryCell, finishLine, raceLane };

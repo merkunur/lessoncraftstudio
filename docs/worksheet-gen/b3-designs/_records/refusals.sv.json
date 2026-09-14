@@ -1,0 +1,7 @@
+{
+  "locale": "sv",
+  "refusals": {
+    "G2-328": "sv: det finns ingen stavningsregel där pluralformen ändrar stavningen — böjning (cykel–cyklar, synkope) är formlära, inte en stavningsregel i Lgr22 åk 2; ansiktet F6 avvisas",
+    "G2-329": "sv: foge-s-ansiktet kräver minst 3 sammansättningar med en avbildad del och ett foge-s under 12 bokstäver; bildbanken ger bara sjukhussäng (vars helhetsbild kan bli en vanlig säng) — färre än 3, ansiktet avvisas"
+  }
+}

@@ -1,0 +1,693 @@
+{
+  "nameSlot": true,
+  "pairs": [
+    {
+      "id": "stor-liten",
+      "a": "stor",
+      "b": "liten",
+      "tier": 1,
+      "pos": "adj",
+      "family": "size",
+      "alt": {
+        "a": [
+          "jättestor"
+        ],
+        "b": [
+          "lilla",
+          "små"
+        ]
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "jättestor"
+      },
+      "far": "våt",
+      "pic": {
+        "kind": "scale",
+        "theme": "animals",
+        "noun": "dog",
+        "scales": [
+          1,
+          0.42
+        ]
+      },
+      "picOpened": true
+    },
+    {
+      "id": "varm-kall",
+      "a": "varm",
+      "b": "kall",
+      "tier": 1,
+      "pos": "adj",
+      "family": "temperature",
+      "alt": {
+        "a": [
+          "het"
+        ],
+        "b": [
+          "kylig"
+        ]
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "het"
+      },
+      "far": "stor",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "camping",
+          "noun": "campfire"
+        },
+        "b": {
+          "theme": "weather",
+          "noun": "snowflake"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "glad-ledsen",
+      "a": "glad",
+      "b": "ledsen",
+      "tier": 1,
+      "pos": "adj",
+      "family": "feeling",
+      "alt": {
+        "a": [
+          "lycklig"
+        ],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "lycklig"
+      },
+      "far": "kall",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "emotions",
+          "noun": "happy"
+        },
+        "b": {
+          "theme": "emotions",
+          "noun": "sad"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "snabb-långsam",
+      "a": "snabb",
+      "b": "långsam",
+      "tier": 1,
+      "pos": "adj",
+      "family": "speed",
+      "alt": {
+        "a": [
+          "kvick"
+        ],
+        "b": [
+          "sölig"
+        ]
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "kvick"
+      },
+      "far": "mjuk",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "zoo animals",
+          "noun": "cheetah"
+        },
+        "b": {
+          "theme": "forest creatures",
+          "noun": "snail"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "tung-lätt",
+      "a": "tung",
+      "b": "lätt",
+      "tier": 2,
+      "pos": "adj",
+      "family": "weight",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "glad",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "zoo animals",
+          "noun": "elephant"
+        },
+        "b": {
+          "theme": "easter",
+          "noun": "feather"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "dag-natt",
+      "a": "dag",
+      "b": "natt",
+      "tier": 1,
+      "pos": "noun",
+      "family": "time",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "hård",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "weather",
+          "noun": "sun"
+        },
+        "b": {
+          "theme": "space",
+          "noun": "moon"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "mjuk-hård",
+      "a": "mjuk",
+      "b": "hård",
+      "tier": 1,
+      "pos": "adj",
+      "family": "texture",
+      "alt": {
+        "a": [
+          "fluffig"
+        ],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "fluffig"
+      },
+      "far": "snabb",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "around the house",
+          "noun": "pillow"
+        },
+        "b": {
+          "theme": "camping",
+          "noun": "rock"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "söt-sur",
+      "a": "söt",
+      "b": "sur",
+      "tier": 2,
+      "pos": "adj",
+      "family": "taste",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "lång",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "At the Supermarket",
+          "noun": "candy"
+        },
+        "b": {
+          "theme": "fruits",
+          "noun": "lemon"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "våt-torr",
+      "a": "våt",
+      "b": "torr",
+      "tier": 1,
+      "pos": "adj",
+      "family": "moisture",
+      "alt": {
+        "a": [
+          "blöt"
+        ],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "blöt"
+      },
+      "far": "högljudd",
+      "pic": null,
+      "picOpened": true
+    },
+    {
+      "id": "lång-kort",
+      "a": "lång",
+      "b": "kort",
+      "tier": 1,
+      "pos": "adj",
+      "family": "length",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "söt",
+      "pic": null,
+      "picOpened": true
+    },
+    {
+      "id": "högljudd-tyst",
+      "a": "högljudd",
+      "b": "tyst",
+      "tier": 2,
+      "pos": "adj",
+      "family": "sound",
+      "alt": {
+        "a": [
+          "bullrig"
+        ],
+        "b": []
+      },
+      "exclusiveWith": [
+        "hög-låg"
+      ],
+      "syn": {
+        "a": "bullrig"
+      },
+      "far": "ny",
+      "pic": null,
+      "picOpened": true
+    },
+    {
+      "id": "gammal-ny",
+      "a": "gammal",
+      "b": "ny",
+      "tier": 1,
+      "pos": "adj",
+      "family": "age",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "ren",
+      "pic": null,
+      "picOpened": true
+    },
+    {
+      "id": "ren-smutsig",
+      "a": "ren",
+      "b": "smutsig",
+      "tier": 1,
+      "pos": "adj",
+      "family": "cleanliness",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "öppen",
+      "pic": null,
+      "picOpened": true
+    },
+    {
+      "id": "full-tom",
+      "a": "full",
+      "b": "tom",
+      "tier": 1,
+      "pos": "adj",
+      "family": "fill",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "torr",
+      "pic": null,
+      "picOpened": true
+    },
+    {
+      "id": "öppen-stängd",
+      "a": "öppen",
+      "b": "stängd",
+      "tier": 1,
+      "pos": "adj",
+      "family": "state",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "tunn",
+      "pic": null,
+      "picOpened": true
+    },
+    {
+      "id": "hög-låg",
+      "a": "hög",
+      "b": "låg",
+      "tier": 1,
+      "pos": "adj",
+      "family": "level",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [
+        "högljudd-tyst"
+      ],
+      "syn": null,
+      "far": "sur",
+      "pic": null,
+      "picOpened": true
+    },
+    {
+      "id": "tjock-tunn",
+      "a": "tjock",
+      "b": "tunn",
+      "tier": 2,
+      "pos": "adj",
+      "family": "thickness",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "full",
+      "pic": null,
+      "picOpened": true
+    },
+    {
+      "id": "stark-svag",
+      "a": "stark",
+      "b": "svag",
+      "tier": 2,
+      "pos": "adj",
+      "family": "strength",
+      "alt": {
+        "a": [
+          "kraftig"
+        ],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "kraftig"
+      },
+      "far": "dag",
+      "pic": null,
+      "picOpened": true
+    },
+    {
+      "id": "ljus-mörk",
+      "a": "ljus",
+      "b": "mörk",
+      "tier": 2,
+      "pos": "adj",
+      "family": "brightness",
+      "alt": {
+        "a": [
+          "klar"
+        ],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "klar"
+      },
+      "far": "långsam",
+      "pic": null,
+      "picOpened": true
+    },
+    {
+      "id": "grov-slät",
+      "a": "grov",
+      "b": "slät",
+      "tier": 2,
+      "pos": "adj",
+      "family": "surface",
+      "alt": {
+        "a": [
+          "skrovlig"
+        ],
+        "b": [
+          "len"
+        ]
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "skrovlig"
+      },
+      "far": "natt",
+      "pic": null,
+      "picOpened": true
+    }
+  ],
+  "frames": [
+    {
+      "pair": "stor-liten",
+      "text": "Elefanten är inte liten. Den är ___.",
+      "answer": "stor",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "elephant"
+      }
+    },
+    {
+      "pair": "varm-kall",
+      "text": "Snöflingan är inte varm. Den är ___.",
+      "answer": "kall",
+      "pic": {
+        "theme": "weather",
+        "noun": "snowflake"
+      }
+    },
+    {
+      "pair": "snabb-långsam",
+      "text": "Snigeln är inte snabb. Den är ___.",
+      "answer": "långsam",
+      "pic": {
+        "theme": "forest creatures",
+        "noun": "snail"
+      }
+    },
+    {
+      "pair": "mjuk-hård",
+      "text": "Kudden är inte hård. Den är ___.",
+      "answer": "mjuk",
+      "pic": {
+        "theme": "around the house",
+        "noun": "pillow"
+      }
+    },
+    {
+      "pair": "tung-lätt",
+      "text": "Fjädern är inte tung. Den är ___.",
+      "answer": "lätt",
+      "pic": {
+        "theme": "easter",
+        "noun": "feather"
+      }
+    },
+    {
+      "pair": "glad-ledsen",
+      "text": "{name} är inte ledsen i dag. {name} är ___.",
+      "answer": "glad",
+      "pic": {
+        "theme": "emotions",
+        "noun": "happy"
+      }
+    },
+    {
+      "pair": "söt-sur",
+      "text": "Citronen är inte söt. Den är ___.",
+      "answer": "sur",
+      "pic": {
+        "theme": "fruits",
+        "noun": "lemon"
+      }
+    },
+    {
+      "pair": "dag-natt",
+      "text": "Månen är uppe. Det är inte dag. Det är ___.",
+      "answer": "natt",
+      "pic": {
+        "theme": "space",
+        "noun": "moon"
+      }
+    }
+  ],
+  "prefix": {
+    "prefixes": [
+      "o"
+    ],
+    "items": [
+      {
+        "base": "lycklig",
+        "prefix": "o",
+        "expected": "olycklig"
+      },
+      {
+        "base": "vänlig",
+        "prefix": "o",
+        "expected": "ovänlig"
+      },
+      {
+        "base": "snäll",
+        "prefix": "o",
+        "expected": "osnäll"
+      },
+      {
+        "base": "trevlig",
+        "prefix": "o",
+        "expected": "otrevlig"
+      },
+      {
+        "base": "säker",
+        "prefix": "o",
+        "expected": "osäker"
+      },
+      {
+        "base": "känd",
+        "prefix": "o",
+        "expected": "okänd"
+      },
+      {
+        "base": "artig",
+        "prefix": "o",
+        "expected": "oartig"
+      },
+      {
+        "base": "rättvis",
+        "prefix": "o",
+        "expected": "orättvis"
+      },
+      {
+        "base": "ärlig",
+        "prefix": "o",
+        "expected": "oärlig"
+      },
+      {
+        "base": "nöjd",
+        "prefix": "o",
+        "expected": "onöjd"
+      },
+      {
+        "base": "jämn",
+        "prefix": "o",
+        "expected": "ojämn"
+      },
+      {
+        "base": "klar",
+        "prefix": "o",
+        "expected": "oklar"
+      }
+    ],
+    "ban": [
+      "rolig"
+    ]
+  },
+  "opened": {
+    "animals/dog": [
+      "stor-liten:scale"
+    ],
+    "camping/campfire": [
+      "varm-kall:a"
+    ],
+    "weather/snowflake": [
+      "varm-kall:b"
+    ],
+    "emotions/happy": [
+      "glad-ledsen:a"
+    ],
+    "emotions/sad": [
+      "glad-ledsen:b"
+    ],
+    "zoo animals/cheetah": [
+      "snabb-långsam:a"
+    ],
+    "forest creatures/snail": [
+      "snabb-långsam:b"
+    ],
+    "zoo animals/elephant": [
+      "tung-lätt:a"
+    ],
+    "easter/feather": [
+      "tung-lätt:b"
+    ],
+    "weather/sun": [
+      "dag-natt:a"
+    ],
+    "space/moon": [
+      "dag-natt:b"
+    ],
+    "around the house/pillow": [
+      "mjuk-hård:a"
+    ],
+    "camping/rock": [
+      "mjuk-hård:b"
+    ],
+    "At the Supermarket/candy": [
+      "söt-sur:a"
+    ],
+    "fruits/lemon": [
+      "söt-sur:b"
+    ]
+  },
+  "strings": {
+    "G1-307": {
+      "title": "Motsatsord: skriv motsatsen",
+      "instruction": "Läs ordet på varje kort. Hitta motsatsordet i ordbanken och skriv det på raden."
+    },
+    "K-351": {
+      "title": "Motsatser med bilder: para ihop",
+      "instruction": "Dra ett streck från varje bild till den bild och det ord som visar motsatsen."
+    },
+    "G1-335": {
+      "title": "Motsatsord i meningar",
+      "instruction": "Läs varje mening. Skriv motsatsen till ordet efter \"inte\" på raden. Ordbanken hjälper dig."
+    },
+    "G1-336": {
+      "title": "Para ihop motsatsorden",
+      "instruction": "Hitta de två ord som är motsatser. Skriv varje par på en rad, ett ord på varje sida om pilen."
+    },
+    "G1-337": {
+      "title": "Motsats eller samma sak? Ringa in motsatsen",
+      "instruction": "Läs ordet. Ett av de tre orden under betyder motsatsen. Ringa in det, inte det som betyder samma sak."
+    },
+    "G2-320": {
+      "title": "Motsatsord med o-: olycklig, ovänlig, orättvis",
+      "instruction": "Sätt o- framför varje ord och skriv det nya motsatsordet på raden."
+    }
+  }
+}

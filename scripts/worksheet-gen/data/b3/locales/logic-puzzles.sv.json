@@ -1,0 +1,100 @@
+{
+  "head": "Logikpussel",
+  "names": [
+    {
+      "nom": "Elsa"
+    },
+    {
+      "nom": "Hugo"
+    },
+    {
+      "nom": "Alma"
+    },
+    {
+      "nom": "Liam"
+    },
+    {
+      "nom": "Maja"
+    },
+    {
+      "nom": "Oscar"
+    },
+    {
+      "nom": "Vera"
+    },
+    {
+      "nom": "Elias"
+    }
+  ],
+  "namePx": 22,
+  "picSep": "",
+  "frames": {
+    "neg": [
+      "{name} har inte {pic}.",
+      "{pic} tillhör inte {name}."
+    ],
+    "pos": [
+      "{name} har {pic}.",
+      "{pic} tillhör {name}."
+    ],
+    "either": [
+      "{name} har {pic} eller {pic}.",
+      "Antingen {pic} eller {pic} tillhör {name}."
+    ],
+    "holderNot": [
+      "Barnet med {pic} är inte {name}.",
+      "{name} är inte barnet med {pic}."
+    ],
+    "cross": [
+      "Barnet med {pic} har också {pic2}.",
+      "Den som har {pic} har också {pic2}."
+    ],
+    "crossNot": [
+      "Barnet med {pic} har inte {pic2}.",
+      "Den som har {pic} har inte {pic2}."
+    ]
+  },
+  "truth": {
+    "has": [
+      "{name} har {pic}."
+    ],
+    "hasNot": [
+      "{name} har inte {pic}."
+    ],
+    "holderIs": [
+      "Barnet med {pic} är {name}."
+    ],
+    "either": [
+      "{name} har {pic} eller {pic}."
+    ],
+    "nobody": [
+      "Ingen har {pic}."
+    ]
+  },
+  "strings": {
+    "G2-319": {
+      "title": "Logikpussel: tre ledtrådar, ett svar",
+      "instruction": "Läs ledtrådarna. Kryssa över det som inte kan stämma i rutnätet, bocka av det som måste stämma och ringa sedan in bilden varje barn har."
+    },
+    "F1": {
+      "title": "Logikpussel med ja-, nej- och antingen-ledtrådar",
+      "instruction": "Ja ger en bock, nej ger ett kryss och antingen-eller stryker den tredje bilden. Gör rutnätet färdigt och ringa sedan in varje svar."
+    },
+    "F2": {
+      "title": "Logikpussel 4 gånger 4: sex ledtrådar",
+      "instruction": "Fyra barn och fyra bilder. Använd varje ledtråd: kryssa över det som inte går och bocka av det som måste stämma tills varje rad har ett svar."
+    },
+    "F3": {
+      "title": "Logikpussel med bildledtrådar: stryk och hitta",
+      "instruction": "En överstruken bild betyder att barnet inte har den, en inringad att barnet har den. Kryssa över i rutnätet och ringa sedan in varje svar."
+    },
+    "F4": {
+      "title": "Logikpussel med två saker per barn: vilket djur, vilken frukt",
+      "instruction": "Varje barn har en bild ur varje samling. Använd ledtrådarna som binder ihop samlingarna för att fylla i alla tre rutnäten."
+    },
+    "F5": {
+      "title": "Läs logikpusslet: sant eller falskt?",
+      "instruction": "Rutnätet är redan löst. Läs det och ringa in bocken om meningen är sann eller krysset om den är falsk."
+    }
+  }
+}

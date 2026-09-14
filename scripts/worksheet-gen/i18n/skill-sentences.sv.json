@@ -258,5 +258,85 @@
   "grid-coordinates": {
     "full": "Att hitta varje ruta med bokstav och siffra och måla den tränar att läsa koordinater och avslöjar en dold bild.",
     "short": "Tränar att läsa koordinater i rutnät."
+  },
+  "letter-of-the-week": {
+    "full": "Veckans bokstav för förskoleklass och åk 1: spåra bokstaven, hitta bilder som börjar på ljudet och skriv en rad. Gratis utskrivbara bokstavsblad.",
+    "short": "Veckans bokstav: spåra, hitta ljudet, skriv"
+  },
+  "sound-boxes": {
+    "full": "Ljuda ord med ljudrutor: barnet säger ordet långsamt, skriver ett ljud i varje ruta och räknar ljuden. Fonologisk medvetenhet för förskoleklass och åk 1.",
+    "short": "Ljuda ord: ett ljud i varje ruta"
+  },
+  "feelings": {
+    "full": "Känslor för förskoleklass: para ihop ansikten med känsloord, sortera vad som känns bra och dåligt, rita känslan och gör en känslokoll för dagen. Gratis utskrivbara blad.",
+    "short": "Känslor: ansikten, känsloord och dagens känsla"
+  },
+  "ordinal-numbers": {
+    "full": "Ordningstal för förskoleklass och åk 1: första, andra, tredje. Räkna från flaggan, skriv 1:a, 2:a, 3:e, hitta platsen i raden och vem som vinner loppet.",
+    "short": "Ordningstal: första, andra, tredje"
+  },
+  "days-and-months": {
+    "full": "Veckodagar och månader för förskoleklass och åk 1: skriv veckan i ordning, i går, i dag och i morgon, årets månader, månaden före och efter samt förkortningar.",
+    "short": "Veckodagar och månader i rätt ordning"
+  },
+  "seasons": {
+    "full": "De fyra årstiderna för förskoleklass: sortera bilder efter årstid, årstidshjulet i rätt ordning, månader och årstider samt rita trädet under året. NO enligt Lgr22.",
+    "short": "Årstider: sortera, ordna och rita"
+  },
+  "all-about-me": {
+    "full": "Det här är jag för förskoleklass: skriv namn och ålder, rita dig själv och din familj, dina favoritsaker, ansiktets delar, vad du kan och bokstäverna i ditt namn.",
+    "short": "Det här är jag: namn, familj och favoritsaker"
+  },
+  "picture-word-cards": {
+    "full": "Bildordkort att klippa ut för förskoleklass: bild och ord, memory-par, en eller ett, singular och plural, tvåspråkiga kort och stavelsekort. Gratis utskrivbara ordkort.",
+    "short": "Bildordkort: bild, ord, en/ett och plural"
+  },
+  "syllable-split": {
+    "full": "Dela upp ord i stavelser: klappa, rita stavelsebågar, skriv ordet med bindestreck och sortera efter antal stavelser. Läsinlärning åk 1 enligt Lgr22.",
+    "short": "Stavelser: klappa, dela och sortera ord"
+  },
+  "syllable-reading": {
+    "full": "Ljuda ihop ord på en läsmatta: läs korta ljudenliga ord, hitta ordet till bilden och skriv det. Avkodning för åk 1 med ord med dubbelteckning och konsonantkluster.",
+    "short": "Ljuda ihop korta ord och skriv dem"
+  },
+  "opposites": {
+    "full": "Motsatsord för åk 1: skriv motsatsen, para ihop bilder, använd motsatsordet i en mening och bilda motsatser med o-. Ord och begrepp enligt Lgr22.",
+    "short": "Motsatsord: skriv, para ihop och använd i meningar"
+  },
+  "read-and-do": {
+    "full": "Läs och gör för åk 1: korta instruktioner som barnet läser och utför med pennan i en bildrad. Läsförståelse med ringa in, stryk under, dra streck, sant eller falskt och rita.",
+    "short": "Läs instruktionen och gör det med pennan"
+  },
+  "rhyming-words": {
+    "full": "Rimord för förskoleklass och åk 1: hitta ordet som rimmar, sortera rim, gör rimmet färdigt och skriv egna rimord. Språklig medvetenhet enligt Lgr22.",
+    "short": "Rimord: hitta, sortera och skriv rim"
+  },
+  "hundreds-chart-puzzles": {
+    "full": "Hundrarutans pusselbitar för åk 1 och 2: fyll i talen som fattas, hitta bitens plats, följ pilarna, hitta felet och räkna hoppen. Taluppfattning 1 till 100 enligt Lgr22.",
+    "short": "Hundrarutan: pusselbitar, hopp och tal som fattas"
+  },
+  "spelling-rules": {
+    "full": "Stavningsregler för åk 2: dubbelteckning, ng-ljudet, j-ljudet och sj-ljudet. Skriv de bokstäver som fattas, sortera ord och hitta regeln. Gratis utskrivbara stavningsövningar.",
+    "short": "Stavningsregler: dubbelteckning, ng, j och sj"
+  },
+  "compound-words": {
+    "full": "Sammansatta ord för åk 2: sätt ihop två bilder till ett ord, dela ordet i sina delar, hitta foge-s och bygg ordspindlar. Ordbildning enligt Lgr22.",
+    "short": "Sammansatta ord: sätt ihop, dela och hitta delarna"
+  },
+  "verb-forms": {
+    "full": "Verb i presens och preteritum för åk 3: skriv verbformerna för nu och i går, para ihop verb och preteritum, välj rätt form i meningen, starka verb och grundformen. Lgr22.",
+    "short": "Verb: presens, preteritum och grundform"
+  },
+  "animal-fact-file": {
+    "full": "Faktablad om djur för åk 2: fyll i klass, föda, boplats och kroppstäckning, jämför två djur, lös djurgåtor och skriv egna faktameningar. Faktatexter i NO och svenska.",
+    "short": "Faktablad om djur: skriv, jämför och gissa"
+  },
+  "logic-puzzles": {
+    "full": "Logikpussel för åk 2 och 3: läs ledtrådarna, kryssa över det som inte stämmer i rutnätet och hitta vad varje barn har. Logiskt tänkande och problemlösning enligt Lgr22.",
+    "short": "Logikpussel: ledtrådar och rutnät"
+  },
+  "division-with-remainder": {
+    "full": "Division med rest för åk 3: ringa in högar, dela lika, räkna divisioner med rest, hitta felet och hoppa bakåt på tallinjen. Skrivs med snedstreck enligt svensk skolpraxis.",
+    "short": "Division med rest: högar, räknerader och tallinje"
   }
 }

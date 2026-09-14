@@ -1910,5 +1910,477 @@
   "G1-304": {
     "title": "Skriv ordet med alla ledtrådar",
     "instruction": "Ordbank, rutor och första bokstaven hjälper dig."
+  },
+  "K-317": {
+    "title": "Veckans bokstav: {U} {L}",
+    "instruction": "Spåra stora och lilla {U}, ringa in de fyra bilderna som börjar på {L} och skriv sedan en rad av varje bokstav."
+  },
+  "K-318": {
+    "title": "Ljuda ord i ljudrutor",
+    "instruction": "Säg ordet till bilden långsamt, ljud för ljud. Skriv ett ljud i varje ruta. En bred ruta med en båge under rymmer två bokstäver som bildar ett ljud."
+  },
+  "K-319": {
+    "title": "Känslor: para ihop ansiktet med ordet",
+    "instruction": "Dra ett streck från varje ansikte till det känsloord som visar hur det känner sig."
+  },
+  "K-320": {
+    "title": "Ordningstal: hitta platsen i raden",
+    "instruction": "Börja vid flaggan. Räkna fram till talet på varje bricka och gör det märke som brickan visar."
+  },
+  "K-321": {
+    "title": "Veckans dagar i rätt ordning",
+    "instruction": "Veckans första dag har redan en 1:a. Numrera de andra dagarna 2 till 7 i den ordning de kommer."
+  },
+  "K-322": {
+    "title": "Sortera de fyra årstiderna",
+    "instruction": "Dra ett streck från pricken på varje bild till den årstidsruta där bilden hör hemma."
+  },
+  "K-323": {
+    "title": "Det här är jag",
+    "instruction": "Skriv ditt namn och din ålder, rita dig själv och din familj och rita sedan dina tre favoritsaker."
+  },
+  "K-324": {
+    "title": "Bildordkort att klippa ut",
+    "instruction": "Klipp längs de streckade linjerna så att du får kort. Säg vad varje bild heter och läs sedan ordet."
+  },
+  "G1-305": {
+    "title": "Dela upp ord i stavelser",
+    "instruction": "Säg ordet till bilden och klappa stavelserna. Rita en båge under varje stavelse och skriv hur många det blev."
+  },
+  "G1-306": {
+    "title": "Ljuda ihop ord: läs och skriv",
+    "instruction": "Läs alla ord på läsmattan högt. Säg ordet till varje bild, hitta det på mattan och skriv det på raden."
+  },
+  "G1-307": {
+    "title": "Motsatsord: skriv motsatsen",
+    "instruction": "Läs ordet på varje kort. Hitta motsatsordet i ordbanken och skriv det på raden."
+  },
+  "G1-308": {
+    "title": "Läs och gör: följ instruktionerna",
+    "instruction": "Titta på raden med bilder och börja vid flaggan. Läs varje mening och gör precis som det står med din penna. Sätt sedan ett kryss i den lilla rutan."
+  },
+  "G1-309": {
+    "title": "Rimord: rimma och skriv",
+    "instruction": "Säg den första bilden. Ringa in bilden som rimmar på den och skriv sedan ordet på raden."
+  },
+  "G1-310": {
+    "title": "Pusselbitar ur hundrarutan: fyll i talen",
+    "instruction": "Ett tal står på varje bit. Skriv alla tal som fattas: 1 mer åt höger, 1 mindre åt vänster, 10 mer nedanför och 10 mindre ovanför."
+  },
+  "G2-315": {
+    "title": "Stavningsregel: {UNIT}",
+    "instruction": "Läs regeln i rutan. Säg ordet till varje bild och skriv sedan de bokstäver som fattas i de streckade rutorna."
+  },
+  "G2-316": {
+    "title": "Sammansatta ord",
+    "instruction": "Säg vad de två bilderna heter, sätt ihop orden och skriv det nya ordet på raden."
+  },
+  "G2-317": {
+    "title": "Verb i presens och preteritum: nu och i går",
+    "instruction": "Titta på bilden och läs verbet. Skriv hur det heter nu och hur det hette i går i de streckade rutorna. Gör sedan meningarna färdiga."
+  },
+  "G2-318": {
+    "title": "Faktablad om djur: {U}",
+    "instruction": "Ta reda på fakta om djuret. Skriv något du vet på varje rad i faktabladet och fyll sedan resten av sidan med en egen teckning eller egna ord."
+  },
+  "G2-319": {
+    "title": "Logikpussel: tre ledtrådar, ett svar",
+    "instruction": "Läs ledtrådarna. Kryssa över det som inte kan stämma i rutnätet, bocka av det som måste stämma och ringa sedan in bilden varje barn har."
+  },
+  "G3-377": {
+    "title": "Division med rest: ringa in högarna",
+    "instruction": "Ringa in högar med lika många som det andra talet i varje samling. Skriv hur många högar du fick och hur många bilder som blev över."
+  },
+  "K-325": {
+    "title": "Ord med {U}: hör du {L} inne i ordet?",
+    "instruction": "Spåra bokstaven. Ringa in de fyra bilderna där du hör {L} någonstans inne i ordet, inte först."
+  },
+  "K-326": {
+    "title": "Först, i mitten eller sist: var hör du {U}?",
+    "instruction": "Säg varje ord. Färglägg rutan som visar var du hör {L}: först, i mitten eller sist i ordet."
+  },
+  "K-327": {
+    "title": "Ringa in {U} i orden och räkna",
+    "instruction": "Leta upp varje {U} och {L} i orden och ringa in dem. Skriv sedan i rutan hur många du hittade."
+  },
+  "G1-311": {
+    "title": "Veckans ljud: {L}",
+    "instruction": "Spåra {L}, ringa in de fyra bilderna där du hör {L} och skriv sedan en rad."
+  },
+  "K-328": {
+    "title": "Börjar ordet på {U}? Välj rätt bokstav",
+    "instruction": "Säg varje ord. Ringa in den bokstav som ordet börjar på."
+  },
+  "K-329": {
+    "title": "Räkna ljuden i ordet",
+    "instruction": "Säg ordet till bilden långsamt. Rita en prick för varje ljud du hör och skriv sedan siffran i rutan."
+  },
+  "K-330": {
+    "title": "Första ljudet står redan: ljuda resten",
+    "instruction": "Det första ljudet är skrivet i rutan. Säg ordet långsamt och skriv de ljud som fattas, ett i varje ruta."
+  },
+  "G1-312": {
+    "title": "Ljudremsa: hur många ljud hör du?",
+    "instruction": "Säg ordet till bilden och lägg ett finger på en ruta för varje ljud. Skriv sedan hur många ljud ordet har."
+  },
+  "G1-313": {
+    "title": "Stavelser och ljud: klappa och ljuda",
+    "instruction": "Klappa stavelserna i ordet och läs bågen under varje stavelse. Skriv sedan ett ljud i varje ruta."
+  },
+  "G1-314": {
+    "title": "Ljuda ihop bokstäverna till ett ord",
+    "instruction": "Läs ljuden i rutorna ett i taget. Ljuda ihop dem till ett ord och skriv ordet på raden."
+  },
+  "K-331": {
+    "title": "Hur känner du dig? Ringa in ansiktet",
+    "instruction": "Titta på bilden. Tänk efter hur du skulle känna dig då och ringa in det ansikte som passar."
+  },
+  "K-332": {
+    "title": "Rita känslan i ansiktet",
+    "instruction": "Läs känsloordet och rita ett ansikte som visar den känslan i den tomma cirkeln."
+  },
+  "K-333": {
+    "title": "Känns bra eller känns dåligt? Sortera ansiktena",
+    "instruction": "Dra ett streck från varje ansikte till den ruta som visar om känslan känns bra eller dåligt."
+  },
+  "K-334": {
+    "title": "Vilket ansikte visar känslan?",
+    "instruction": "Läs känsloordet och ringa in det ansikte i raden som visar just den känslan."
+  },
+  "K-335": {
+    "title": "Hur känner jag mig i dag?",
+    "instruction": "Ringa in det ansikte som visar hur du känner dig i dag. Rita sedan ditt eget ansikte."
+  },
+  "G1-315": {
+    "title": "Skriv de ordningstal som saknas",
+    "instruction": "Några platser är redan skrivna. Skriv ordningstalen som saknas i de tomma rutorna. Räkna från flaggan."
+  },
+  "G1-316": {
+    "title": "Ordningstal med bokstäver: dra ett streck till bilden",
+    "instruction": "Läs varje ordningstal och dra ett streck till bilden som står på den platsen. Räkna från flaggan."
+  },
+  "G1-317": {
+    "title": "Vilken plats? Skriv ordningstalet",
+    "instruction": "Hitta varje liten bild i sin rad och skriv vilken plats den står på. Räkna från flaggan."
+  },
+  "K-336": {
+    "title": "Ordningstal från andra hållet: börja vid flaggan",
+    "instruction": "Leta först upp flaggan: den kan stå i vilken ände som helst. Börja där, räkna till talet på brickan och gör märket som brickan visar."
+  },
+  "G1-318": {
+    "title": "Vem vinner loppet? Skriv placeringen",
+    "instruction": "Titta hur nära mållinjen varje löpare är. Den närmaste är 1:a. Skriv 1:a, 2:a, 3:e, 4:e, 5:e och 6:e."
+  },
+  "K-337": {
+    "title": "Veckodagar som saknas: skriv veckan i ordning",
+    "instruction": "Några dagar står redan på stegen. Skriv av dagarna som saknas från ordbanken på rätt plats."
+  },
+  "G1-319": {
+    "title": "I går, i dag, i morgon",
+    "instruction": "Dagen i mitten är i dag. Skriv dagen som var i går och dagen som kommer i morgon."
+  },
+  "G1-320": {
+    "title": "Årets månader i rätt ordning",
+    "instruction": "Januari har redan en 1:a. Numrera de andra månaderna 2 till 12 i årets ordning."
+  },
+  "G1-321": {
+    "title": "Månaden före och månaden efter",
+    "instruction": "En månad står i mitten. Skriv månaden som kommer före och månaden som kommer efter."
+  },
+  "G1-322": {
+    "title": "Veckodagarnas förkortningar",
+    "instruction": "Läs varje förkortning och dra ett streck till den dag den står för."
+  },
+  "K-338": {
+    "title": "Vilken årstid är det?",
+    "instruction": "Titta på de tre bilderna på varje kort och ringa in den årstidssymbol de hör till."
+  },
+  "K-339": {
+    "title": "Årstidshjulet: årstiderna i ordning",
+    "instruction": "En årstid sitter redan på hjulet. Rita de tre andra symbolerna i de tomma cirklarna i rätt ordning."
+  },
+  "K-340": {
+    "title": "Årstider: vilken bild passar inte in?",
+    "instruction": "Stryk över den bild i varje rad som hör till en annan årstid."
+  },
+  "G1-323": {
+    "title": "Månader och årstider: färglägg årstiden",
+    "instruction": "Färglägg cirkeln bredvid varje månad i dess årstids färg."
+  },
+  "K-341": {
+    "title": "Rita trädet under de fyra årstiderna",
+    "instruction": "Rita hur trädet ser ut under var och en av de fyra årstiderna."
+  },
+  "K-342": {
+    "title": "Mina favoritsaker: ringa in och skriv",
+    "instruction": "Ringa in din favoritbild i varje rad och skriv av ordet på raden."
+  },
+  "K-343": {
+    "title": "Min familj: rita och räkna",
+    "instruction": "Rita din familj. Visa sedan i tioramarna hur många personer, bröder, systrar och husdjur ni är och skriv siffran."
+  },
+  "K-344": {
+    "title": "Mitt ansikte: skriv orden på rätt plats",
+    "instruction": "Skriv av varje ord från ordbanken på raden som pekar på den delen av ansiktet. Rita sedan ditt eget ansikte."
+  },
+  "K-345": {
+    "title": "Jag kan: kryssa i det du redan kan",
+    "instruction": "Läs varje mening och kryssa i det du redan kan. Skriv sedan en sak som du vill lära dig."
+  },
+  "K-346": {
+    "title": "Mitt namn: skriv, räkna och jämför",
+    "instruction": "Skriv ditt namn med en bokstav i varje ruta och räkna bokstäverna. Gör samma sak för en kompis och ringa in vem som har flest bokstäver."
+  },
+  "K-347": {
+    "title": "Bildkort och ordkort: hitta paren",
+    "instruction": "Klipp ut de sexton korten. Lägg varje ordkort bredvid bilden det hör till, eller vänd alla kort och spela memory."
+  },
+  "K-348": {
+    "title": "En eller ett: ordkort med artikel",
+    "instruction": "Klipp ut de åtta korten. Säg varje ord med en eller ett framför, precis som det står på kortet."
+  },
+  "K-349": {
+    "title": "En och flera: kort med singular och plural",
+    "instruction": "Klipp ut korten. Säg ordet för en och ordet för flera och lägg sedan ihop paren."
+  },
+  "K-350": {
+    "title": "Tvåspråkiga bildkort: svenska och engelska",
+    "instruction": "Klipp ut de åtta korten. Säg ordet på svenska och sedan på engelska och spara korten till din ordvägg."
+  },
+  "G1-324": {
+    "title": "Stavelsekort: läs ordet i delar",
+    "instruction": "Klipp ut de åtta korten. Läs varje ord stavelse för stavelse och säg sedan hela ordet."
+  },
+  "G1-325": {
+    "title": "Skriv ordet i stavelser",
+    "instruction": "Säg ordet till bilden och klappa stavelserna. Skriv ordet på raden med ett bindestreck mellan stavelserna."
+  },
+  "G1-326": {
+    "title": "Vilken stavelse saknas?",
+    "instruction": "Säg ordet till bilden. En stavelse fattas i ordet. Skriv den stavelse som saknas i rutan."
+  },
+  "G1-327": {
+    "title": "Blanda stavelserna rätt",
+    "instruction": "Stavelserna har hamnat i fel ordning. Säg ordet till bilden, lägg stavelserna rätt och skriv hela ordet på raden."
+  },
+  "G1-328": {
+    "title": "Två eller tre stavelser? Dela och sortera",
+    "instruction": "Klappa stavelserna i varje ord. Skriv ordet i rätt spalt: två stavelser eller tre stavelser."
+  },
+  "G1-329": {
+    "title": "Vokalen är kungen: en vokal i varje stavelse",
+    "instruction": "Ringa in vokalerna i ordet. Varje stavelse har precis en vokalkung. Rita en båge under varje stavelse och skriv hur många de är."
+  },
+  "G1-330": {
+    "title": "Ljuda ihop ord: läs och ringa in",
+    "instruction": "Läs orden på läsmattan högt. Säg ordet till varje bild och ringa in det ord under bilden som passar."
+  },
+  "G1-331": {
+    "title": "Sätt ihop stavelserna och skriv ordet",
+    "instruction": "Läs de två stavelserna på varje kort i ordning. Säg dem tillsammans och skriv hela ordet på raden."
+  },
+  "G1-332": {
+    "title": "Läsmatta: läs och färglägg orden",
+    "instruction": "Läs alla ord på läsmattan högt. Hitta sedan ordet till varje bild på mattan och färglägg det i bildens färg."
+  },
+  "G1-333": {
+    "title": "Ord med konsonanter som hör ihop: läs och skriv",
+    "instruction": "Läs alla ord på läsmattan högt. Säg ordet till varje bild, hitta det på mattan och skriv det på raden."
+  },
+  "G1-334": {
+    "title": "Läs stavelserna och hitta bilden",
+    "instruction": "Läs varje ord stavelse för stavelse. Hitta bilden i banken högst upp och skriv bildens siffra i rutan."
+  },
+  "K-351": {
+    "title": "Motsatser med bilder: para ihop",
+    "instruction": "Dra ett streck från varje bild till den bild och det ord som visar motsatsen."
+  },
+  "G1-335": {
+    "title": "Motsatsord i meningar",
+    "instruction": "Läs varje mening. Skriv motsatsen till ordet efter \"inte\" på raden. Ordbanken hjälper dig."
+  },
+  "G1-336": {
+    "title": "Para ihop motsatsorden",
+    "instruction": "Hitta de två ord som är motsatser. Skriv varje par på en rad, ett ord på varje sida om pilen."
+  },
+  "G1-337": {
+    "title": "Motsats eller samma sak? Ringa in motsatsen",
+    "instruction": "Läs ordet. Ett av de tre orden under betyder motsatsen. Ringa in det, inte det som betyder samma sak."
+  },
+  "G2-320": {
+    "title": "Motsatsord med o-: olycklig, ovänlig, orättvis",
+    "instruction": "Sätt o- framför varje ord och skriv det nya motsatsordet på raden."
+  },
+  "G1-338": {
+    "title": "Läs och ringa in",
+    "instruction": "Läs varje mening. Hitta bilden eller bilderna som nämns i raden och ringa in dem. Sätt sedan ett kryss i den lilla rutan."
+  },
+  "G1-339": {
+    "title": "Läs och gör: instruktioner i två steg",
+    "instruction": "Varje mening säger två saker att göra. Läs den till slutet innan du börjar och gör sedan båda stegen i bildraden."
+  },
+  "G1-340": {
+    "title": "Läs och gör: första, andra, mellan",
+    "instruction": "Börja vid flaggan och räkna längs raden. Hitta bilden på sin plats och gör sedan det som meningen säger med din penna."
+  },
+  "G1-341": {
+    "title": "Läs och kryssa: sant eller falskt?",
+    "instruction": "Läs varje mening och titta på raden med bilder. Är meningen sann eller falsk? Ringa in rätt ord."
+  },
+  "G1-342": {
+    "title": "Läs och rita",
+    "instruction": "Läs varje mening noga. Rita sedan precis det som står i rutan."
+  },
+  "K-352": {
+    "title": "Rimmar det? Ja eller nej",
+    "instruction": "Säg båda bilderna högt. Om orden rimmar ringar du in bocken. Om de inte rimmar ringar du in krysset."
+  },
+  "G1-343": {
+    "title": "Sortera rimorden",
+    "instruction": "Säg varje bild i banken. Hitta den stora bild den rimmar på och skriv ordet på en rad under den bilden."
+  },
+  "G1-344": {
+    "title": "Gör rimmet färdigt",
+    "instruction": "Läs de två raderna högt. Titta på bilden, hör rimmet och skriv rimordet som saknas på raden."
+  },
+  "G1-345": {
+    "title": "Rimkedjor: tre ord som rimmar",
+    "instruction": "Säg varje bild. Hitta de två ord i banken som rimmar på den och skriv dem på raderna. Några ord passar ingenstans."
+  },
+  "G1-346": {
+    "title": "Hitta på egna rimord",
+    "instruction": "Läs ordet bredvid varje bild. Kom på två ord som rimmar på det och skriv ett på varje rad."
+  },
+  "G1-347": {
+    "title": "Var passar pusselbiten i hundrarutan?",
+    "instruction": "Läs talen på varje bit, hitta dess plats i den tomma hundrarutan och skriv in dem där."
+  },
+  "G2-321": {
+    "title": "Hopp i hundrarutan: följ pilarna",
+    "instruction": "Börja på talet och följ pilarna: uppåt är 10 mindre, nedåt är 10 mer, åt höger är 1 mer. Skriv talet du landar på."
+  },
+  "G2-322": {
+    "title": "Hemligt tal: två pilar, en ruta",
+    "instruction": "Följ båda pilarna. De pekar på samma ruta i hundrarutan. Skriv det hemliga talet."
+  },
+  "G1-348": {
+    "title": "Hitta felet på pusselbiten",
+    "instruction": "Ett tal på varje bit är fel. Ringa in det och skriv rätt tal i rutan."
+  },
+  "G2-323": {
+    "title": "Hur långt ifrån? Räkna hoppen i hundrarutan",
+    "instruction": "Räkna hur många hopp nedåt och hur många hopp åt höger du behöver för att komma från det första talet till det andra."
+  },
+  "G2-324": {
+    "title": "Vilket är rätt? {UNIT}",
+    "instruction": "Titta på bilden och läs ordet. Ringa in de rätta bokstäverna under ordet och skriv dem sedan i den streckade rutan."
+  },
+  "G2-325": {
+    "title": "Regeldetektiven: {UNIT}",
+    "instruction": "Läs varje ord. Hitta regelbokstäverna, ringa in dem i ordet och skriv av dem i den lilla rutan."
+  },
+  "G2-326": {
+    "title": "Sortera orden efter stavning: {UNIT}",
+    "instruction": "Säg ordet till varje bild. Skriv det i lådan med rätt stavning, ett ord på varje rad."
+  },
+  "G2-327": {
+    "title": "Skriv ordet, regelbokstäverna står redan: {UNIT}",
+    "instruction": "Regelbokstäverna är skrivna i orange. Säg ordet till bilden och skriv alla andra bokstäver i rutorna."
+  },
+  "G2-330": {
+    "title": "Dela det sammansatta ordet i två ord",
+    "instruction": "Hela ordet står i bokstavsrutor bredvid bilden. Dra ett streck där det andra ordet börjar."
+  },
+  "G2-331": {
+    "title": "Para ihop halvorna: två bilder, ett ord",
+    "instruction": "Dra ett streck från varje första bild till den bild som gör ordet färdigt. Skriv sedan det nya ordet på raden bredvid den första bilden."
+  },
+  "G2-332": {
+    "title": "Orddetektiven: vilka ord är sammansatta?",
+    "instruction": "Tolv ord, sex av dem är sammansatta av två ord. Ringa in de sex sammansatta orden och skriv deras två delar på raderna."
+  },
+  "G2-333": {
+    "title": "Ordspindel: ett ord, många sammansättningar",
+    "instruction": "Ett ord sitter i mitten. Varje bild runt omkring bildar ett nytt ord med det. Skriv de fyra nya orden på raderna."
+  },
+  "G2-334": {
+    "title": "Para ihop verbet med preteritum",
+    "instruction": "Läs varje verb till vänster. Dra ett streck till dess dåtidsform, den som säger vad som hände i går, ett streck för varje verb."
+  },
+  "G2-335": {
+    "title": "Verbformer i meningar med bilder",
+    "instruction": "Titta på bilden och läs verbet i bubblan. Skriv den form som passar i meningen i den streckade rutan."
+  },
+  "G2-336": {
+    "title": "Starka verb: vara, ha, gå, få",
+    "instruction": "De här verben ändrar sig mycket. Skriv formen för nu och formen för i går i de streckade rutorna."
+  },
+  "G2-337": {
+    "title": "Välj rätt verbform",
+    "instruction": "Läs meningen. Tre former av verbet står under den. Ringa in den som passar."
+  },
+  "G2-338": {
+    "title": "Hitta verbet och skriv grundformen",
+    "instruction": "Stryk under verbet i varje mening. Skriv sedan verbets grundform, som efter \"att\", i den streckade rutan."
+  },
+  "G2-339": {
+    "title": "Faktablad om {U}: kryssa rätt fakta",
+    "instruction": "Läs alternativen på varje rad och ringa in det som stämmer för djuret. Rita sedan var det bor och gör meningen färdig."
+  },
+  "G2-340": {
+    "title": "Faktablad om {U} med ordbank",
+    "instruction": "Hitta varje fakta som stämmer i ordbanken och skriv den på rätt rad i faktabladet. Gör sedan meningen längst ner färdig."
+  },
+  "G2-341": {
+    "title": "Faktablad om {U}: skriv tre meningar",
+    "instruction": "Läs faktabladet. Gör de tre meningarna färdiga med fakta ur bladet och skriv sedan en egen fakta på sista raden."
+  },
+  "G2-342": {
+    "title": "Jämför två djur: lika och olika",
+    "instruction": "Läs båda faktabladen. Ringa in lika eller olika för varje fakta. Skriv sedan två saker som är lika och två som är olika."
+  },
+  "G2-343": {
+    "title": "Vem är jag? Gåtor om djur",
+    "instruction": "Läs de fem ledtrådarna på varje kort. Hitta djuret i bildbanken, skriv dess namn på raden och rita det i rutan."
+  },
+  "G2-344": {
+    "title": "Logikpussel med ja-, nej- och antingen-ledtrådar",
+    "instruction": "Ja ger en bock, nej ger ett kryss och antingen-eller stryker den tredje bilden. Gör rutnätet färdigt och ringa sedan in varje svar."
+  },
+  "G3-378": {
+    "title": "Logikpussel 4 gånger 4: sex ledtrådar",
+    "instruction": "Fyra barn och fyra bilder. Använd varje ledtråd: kryssa över det som inte går och bocka av det som måste stämma tills varje rad har ett svar."
+  },
+  "G1-349": {
+    "title": "Logikpussel med bildledtrådar: stryk och hitta",
+    "instruction": "En överstruken bild betyder att barnet inte har den, en inringad att barnet har den. Kryssa över i rutnätet och ringa sedan in varje svar."
+  },
+  "G3-379": {
+    "title": "Logikpussel med två saker per barn: vilket djur, vilken frukt",
+    "instruction": "Varje barn har en bild ur varje samling. Använd ledtrådarna som binder ihop samlingarna för att fylla i alla tre rutnäten."
+  },
+  "G2-345": {
+    "title": "Läs logikpusslet: sant eller falskt?",
+    "instruction": "Rutnätet är redan löst. Läs det och ringa in bocken om meningen är sann eller krysset om den är falsk."
+  },
+  "G3-380": {
+    "title": "Dela lika med rest: vad blir över?",
+    "instruction": "Dela ut samlingen en i taget i rutorna. Skriv hur många varje ruta får och hur många som inte går att dela ut."
+  },
+  "G3-381": {
+    "title": "Division med rest: räknerader",
+    "instruction": "Varje division får något över. Skriv svaret och resten på varje rad."
+  },
+  "G3-382": {
+    "title": "Går det jämnt ut? Division med och utan rest",
+    "instruction": "Avgör om varje division går jämnt ut. Ringa in ditt val och skriv resten, 0 om det inte blir någon rest."
+  },
+  "G3-383": {
+    "title": "Hitta felet: resten är för stor",
+    "instruction": "Varje division är felräknad. Stryk över de fel talen och skriv rätt svar och rätt rest i rutorna."
+  },
+  "G3-384": {
+    "title": "Hoppa bakåt på tallinjen: vad blir kvar?",
+    "instruction": "Börja på det markerade talet och rita lika långa hopp bakåt tills ett helt hopp inte får plats. Skriv hoppen och var du landar."
   }
 }

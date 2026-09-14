@@ -1,0 +1,57 @@
+{
+  "names": "calendar",
+  "labels": {
+    "yesterday": "i går",
+    "today": "i dag",
+    "tomorrow": "i morgon",
+    "before": "före",
+    "after": "efter"
+  },
+  "alt": {
+    "days": {},
+    "labels": {
+      "yesterday": [
+        "igår"
+      ],
+      "today": [
+        "idag"
+      ],
+      "tomorrow": [
+        "imorgon"
+      ]
+    }
+  },
+  "dayShort": null,
+  "laneGlyphH": {
+    "days": 40,
+    "months": 32,
+    "neighbours": 32
+  },
+  "abbrev": "calendar",
+  "strings": {
+    "K-321": {
+      "title": "Veckans dagar i rätt ordning",
+      "instruction": "Veckans första dag har redan en 1:a. Numrera de andra dagarna 2 till 7 i den ordning de kommer."
+    },
+    "K-337": {
+      "title": "Veckodagar som saknas: skriv veckan i ordning",
+      "instruction": "Några dagar står redan på stegen. Skriv av dagarna som saknas från ordbanken på rätt plats."
+    },
+    "G1-319": {
+      "title": "I går, i dag, i morgon",
+      "instruction": "Dagen i mitten är i dag. Skriv dagen som var i går och dagen som kommer i morgon."
+    },
+    "G1-320": {
+      "title": "Årets månader i rätt ordning",
+      "instruction": "Januari har redan en 1:a. Numrera de andra månaderna 2 till 12 i årets ordning."
+    },
+    "G1-321": {
+      "title": "Månaden före och månaden efter",
+      "instruction": "En månad står i mitten. Skriv månaden som kommer före och månaden som kommer efter."
+    },
+    "G1-322": {
+      "title": "Veckodagarnas förkortningar",
+      "instruction": "Läs varje förkortning och dra ett streck till den dag den står för."
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "exemplar": "2-5",
+  "unitLabels": {
+    "2-5": "med 2 till 5",
+    "6-9": "med 6 till 9",
+    "2-9": "med 2 till 9"
+  },
+  "notation": {
+    "op": "/",
+    "template": "{n} / {d} = {q} rest {r}",
+    "boxStyle": "inline",
+    "remWord": "rest",
+    "exactWord": "jämnt",
+    "restWord": "rest",
+    "leftoverLabel": "blir över",
+    "rightWord": "rätt",
+    "wrongWord": "fel",
+    "kinds": {
+      "quotative": "innehållsdivision",
+      "partitive": "delningsdivision"
+    }
+  },
+  "strings": {
+    "G3-377": {
+      "title": "Division med rest: ringa in högarna",
+      "instruction": "Ringa in högar med lika många som det andra talet i varje samling. Skriv hur många högar du fick och hur många bilder som blev över."
+    },
+    "F1": {
+      "title": "Dela lika med rest: vad blir över?",
+      "instruction": "Dela ut samlingen en i taget i rutorna. Skriv hur många varje ruta får och hur många som inte går att dela ut."
+    },
+    "F2": {
+      "title": "Division med rest: räknerader",
+      "instruction": "Varje division får något över. Skriv svaret och resten på varje rad."
+    },
+    "F3": {
+      "title": "Går det jämnt ut? Division med och utan rest",
+      "instruction": "Avgör om varje division går jämnt ut. Ringa in ditt val och skriv resten, 0 om det inte blir någon rest."
+    },
+    "F4": {
+      "title": "Hitta felet: resten är för stor",
+      "instruction": "Varje division är felräknad. Stryk över de fel talen och skriv rätt svar och rätt rest i rutorna."
+    },
+    "F5": {
+      "title": "Hoppa bakåt på tallinjen: vad blir kvar?",
+      "instruction": "Börja på det markerade talet och rita lika långa hopp bakåt tills ett helt hopp inte får plats. Skriv hoppen och var du landar."
+    }
+  }
+}

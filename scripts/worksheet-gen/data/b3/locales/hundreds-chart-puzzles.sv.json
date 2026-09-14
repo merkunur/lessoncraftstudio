@@ -1,0 +1,29 @@
+{
+  "exemplar": "1-100",
+  "strings": {
+    "G1-310": {
+      "title": "Pusselbitar ur hundrarutan: fyll i talen",
+      "instruction": "Ett tal står på varje bit. Skriv alla tal som fattas: 1 mer åt höger, 1 mindre åt vänster, 10 mer nedanför och 10 mindre ovanför."
+    },
+    "F1": {
+      "title": "Var passar pusselbiten i hundrarutan?",
+      "instruction": "Läs talen på varje bit, hitta dess plats i den tomma hundrarutan och skriv in dem där."
+    },
+    "F2": {
+      "title": "Hopp i hundrarutan: följ pilarna",
+      "instruction": "Börja på talet och följ pilarna: uppåt är 10 mindre, nedåt är 10 mer, åt höger är 1 mer. Skriv talet du landar på."
+    },
+    "F3": {
+      "title": "Hemligt tal: två pilar, en ruta",
+      "instruction": "Följ båda pilarna. De pekar på samma ruta i hundrarutan. Skriv det hemliga talet."
+    },
+    "F4": {
+      "title": "Hitta felet på pusselbiten",
+      "instruction": "Ett tal på varje bit är fel. Ringa in det och skriv rätt tal i rutan."
+    },
+    "F5": {
+      "title": "Hur långt ifrån? Räkna hoppen i hundrarutan",
+      "instruction": "Räkna hur många hopp nedåt och hur många hopp åt höger du behöver för att komma från det första talet till det andra."
+    }
+  }
+}

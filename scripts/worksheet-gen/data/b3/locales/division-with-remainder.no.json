@@ -1,0 +1,49 @@
+{
+  "exemplar": "2-5",
+  "unitLabels": {
+    "2-5": "med 2 til 5",
+    "6-9": "med 6 til 9",
+    "2-9": "med 2 til 9"
+  },
+  "notation": {
+    "op": ":",
+    "template": "{n} : {d} = {q} rest {r}",
+    "boxStyle": "inline",
+    "remWord": "rest",
+    "exactWord": "går opp",
+    "restWord": "rest",
+    "leftoverLabel": "til overs",
+    "rightWord": "riktig",
+    "wrongWord": "feil",
+    "kinds": {
+      "quotative": "målingsdivisjon",
+      "partitive": "delingsdivisjon"
+    }
+  },
+  "strings": {
+    "G3-377": {
+      "title": "Divisjon med rest: Sett ring rundt gruppene",
+      "instruction": "Sett ring rundt grupper på like mange som det andre tallet i hver haug. Skriv hvor mange grupper du fikk, og hvor mange bilder som ble til overs."
+    },
+    "F1": {
+      "title": "Del likt: Hva blir til overs?",
+      "instruction": "Del ut haugen i boksene, én og én om gangen. Skriv hvor mange hver boks får, og hvor mange som ikke kan deles ut."
+    },
+    "F2": {
+      "title": "Divisjon med rest: Øvingsrekker",
+      "instruction": "I hvert stykke blir det noe til overs. Skriv svaret og resten i hver rad."
+    },
+    "F3": {
+      "title": "Går det opp? Divisjon med og uten rest",
+      "instruction": "Avgjør om hvert stykke går opp. Sett ring rundt svaret ditt og skriv resten, 0 hvis det ikke er noen."
+    },
+    "F4": {
+      "title": "Finn feilen: Resten er for stor",
+      "instruction": "Hvert stykke er regnet feil. Stryk over tallene som er feil, og skriv riktig svar og rest i rutene."
+    },
+    "F5": {
+      "title": "Hopp bakover på tallinja: Hva blir igjen?",
+      "instruction": "Start på det merkede tallet og hopp bakover med like lange hopp til det ikke er plass til et helt hopp. Skriv hoppene og hvor du lander."
+    }
+  }
+}

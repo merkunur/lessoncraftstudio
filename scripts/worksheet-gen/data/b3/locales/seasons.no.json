@@ -1,0 +1,72 @@
+{
+  "names": {
+    "winter": "vinter",
+    "spring": "vår",
+    "summer": "sommer",
+    "autumn": "høst"
+  },
+  "alt": {},
+  "model": "temperate-north",
+  "cycleStart": "winter",
+  "cycle": [
+    "winter",
+    "spring",
+    "summer",
+    "autumn"
+  ],
+  "monthSeason": [
+    "winter",
+    "winter",
+    "spring",
+    "spring",
+    "spring",
+    "summer",
+    "summer",
+    "summer",
+    "autumn",
+    "autumn",
+    "autumn",
+    "winter"
+  ],
+  "veto": [],
+  "override": {},
+  "legend": {
+    "winter": "codeBlue",
+    "spring": "codeGreen",
+    "summer": "codeYellow",
+    "autumn": "codeOrange"
+  },
+  "faces": {
+    "tree": {
+      "figure": "tree",
+      "captions": null
+    }
+  },
+  "strings": {
+    "K-322": {
+      "title": "De fire årstidene: Sorter bildene",
+      "instruction": "Tegn en strek fra prikken på hvert bilde til boksen for årstiden det hører til."
+    },
+    "K-338": {
+      "title": "Hvilken årstid er det?",
+      "instruction": "Se på de tre bildene på hvert kort og sett ring rundt tegnet for årstiden de hører til."
+    },
+    "K-339": {
+      "title": "Årstidshjulet: Årstidene i rekkefølge",
+      "instruction": "Én årstid står allerede på hjulet. Tegn de tre andre tegnene i de tomme sirklene i riktig rekkefølge."
+    },
+    "K-340": {
+      "title": "Årstider: Hva passer ikke inn?",
+      "instruction": "Sett strek over det ene bildet i hver rad som hører til en annen årstid."
+    },
+    "G1-323": {
+      "title": "Måneder og årstider: Fargelegg årstiden",
+      "instruction": "Fargelegg sirkelen ved hver måned i fargen til årstiden den hører til."
+    },
+    "K-341": {
+      "title": "Tegn treet i de fire årstidene",
+      "instruction": "Tegn hvordan treet ser ut i hver av de fire årstidene."
+    }
+  },
+  "strand": "Naturfag: årstidene og naturen gjennom året"
+}

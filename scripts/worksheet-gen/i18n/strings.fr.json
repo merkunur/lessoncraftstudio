@@ -2005,7 +2005,7 @@
   },
   "G1-311": {
     "title": "Le son de la semaine : [{L}]",
-    "instruction": "Repasse {L}, entoure les quatre images dont le nom contient le son [{L}], puis écris une ligne de {L}."
+    "instruction": "Repasse le son {L}, entoure les quatre images dont le nom contient le son [{L}], puis écris toute une ligne de {L} sur les lignes d'écriture."
   },
   "K-328": {
     "title": "L ou R ? Écoute la différence",
@@ -2089,7 +2089,7 @@
   },
   "G1-322": {
     "title": "Les jours de la semaine en abrégé",
-    "instruction": "Lis chaque abréviation et relie-la au jour qu'elle désigne."
+    "instruction": "Lis chaque abréviation des jours de la semaine et relie-la au nom entier du jour qu'elle désigne."
   },
   "K-338": {
     "title": "Quelle saison est-ce ? Trois images, une saison",

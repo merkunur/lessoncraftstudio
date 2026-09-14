@@ -300,8 +300,8 @@
     "short": "Mkm-woorden lezen op een leesmat"
   },
   "opposites": {
-    "full": "Tegenstellingen voor groep 3 en 4: het kind leest een woord en schrijft het tegenovergestelde, met plaatjes, zinnen en het voorvoegsel on-.",
-    "short": "Tegenstellingen: het tegenovergestelde woord schrijven"
+    "full": "Tegenstellingen voor groep 3 en 4: het kind leest een woord en schrijft het tegenovergestelde woord, met plaatjes, in zinnen en met het voorvoegsel on-.",
+    "short": "Schrijf bij elk woord de tegenstelling."
   },
   "read-and-do": {
     "full": "Lees en doe voor groep 3: het kind leest een korte opdrachtzin en doet precies wat er staat met een rij plaatjes, ook waar of niet waar en tekenen.",
@@ -332,8 +332,8 @@
     "short": "Dierenpaspoort: weetjes over één dier"
   },
   "logic-puzzles": {
-    "full": "Logigrammen voor groep 4 en 5: het kind leest aanwijzingen, streept in een rooster door wat niet kan en vindt welk plaatje bij welk kind hoort.",
-    "short": "Logigrammen: aanwijzingen lezen en het rooster oplossen"
+    "full": "Logigrammen voor groep 4 en 5: het kind leest de aanwijzingen, streept in het rooster door wat niet kan en ontdekt zo welk plaatje bij welk kind hoort.",
+    "short": "Lees de aanwijzingen en los het logigram op."
   },
   "division-with-remainder": {
     "full": "Delen met rest voor groep 5 en 6: het kind maakt groepjes, verdeelt eerlijk, schrijft deelsommen met rest en controleert of een deelsom opgaat.",

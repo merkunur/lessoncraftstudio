@@ -137,6 +137,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     da: 'Læsning: fagtekster', // nt20-C panel (tools/apply-b3-locale.js)
     pt: 'Leitura de textos informativos', // nt20-C panel (tools/apply-b3-locale.js)
     sv: 'Läsa: faktatexter', // nt20-C panel (tools/apply-b3-locale.js)
+    no: 'Lesing av fagtekster', // nt20-C panel (tools/apply-b3-locale.js)
   },
   // Reading: Literature (RL — answer key-detail questions about an erzählende Geschichte). de literacy
   // fan-out opener (picture-story RL.K.1); literary COMPREHENSION — the distinct literary Bereich
@@ -165,6 +166,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     it: 'Scrittura', // nt20-C panel (tools/apply-b3-locale.js)
     da: 'Fremstilling', // nt20-C panel (tools/apply-b3-locale.js)
     sv: 'Skriva', // nt20-C panel (tools/apply-b3-locale.js)
+    no: 'Skriving', // nt20-C panel (tools/apply-b3-locale.js)
   },
   // Phonological Awareness (pre-reading sound awareness; literacy). No deployed
   // activity uses this strand yet (forward-looking); all 11 locales curriculum-reviewed.
@@ -205,6 +207,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     // This wording is from professional knowledge and is NOT a checked verbatim quote.
     sv: 'Språkliga strukturer och normer',
     da: 'Sprog og sprogbrug', // nt20-C panel (tools/apply-b3-locale.js)
+    no: 'Språket som system og mulighet', // nt20-C panel (tools/apply-b3-locale.js)
   },
   'Vocabulary Acquisition and Use': {
     en: 'Vocabulary Acquisition and Use',

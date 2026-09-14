@@ -1945,11 +1945,11 @@
   },
   "G1-305": {
     "title": "Separa las palabras en sílabas",
-    "instruction": "Di el nombre de cada dibujo dando palmadas. Dibuja una rayita entre cada sílaba que oigas."
+    "instruction": "Da palmadas y marca cada sílaba con una rayita."
   },
   "G1-306": {
     "title": "Sílabas directas: {UNIT}",
-    "instruction": "Lee en voz alta todas las sílabas del tapete. Di el nombre de cada dibujo, busca su primera sílaba en el tapete y escríbela en la línea."
+    "instruction": "Lee el tapete y escribe la primera sílaba."
   },
   "G1-307": {
     "title": "Antónimos: escribe la palabra contraria",
@@ -1961,7 +1961,7 @@
   },
   "G1-309": {
     "title": "Palabras que riman: escribe la rima",
-    "instruction": "Di el nombre del dibujo grande. De los tres dibujos, rodea el que rima con él y escribe su nombre en la línea."
+    "instruction": "Rodea el que rima y escribe su nombre."
   },
   "G1-310": {
     "title": "Tabla del 100: completa las piezas del rompecabezas",
@@ -1969,7 +1969,7 @@
   },
   "G2-315": {
     "title": "Reglas de ortografía: {UNIT}",
-    "instruction": "Mira el dibujo y di la palabra. Escribe en la caja punteada la letra o las letras que faltan y usa la regla del recuadro."
+    "instruction": "Escribe en la caja las letras que faltan."
   },
   "G2-316": {
     "title": "Familias de palabras: raíz y sufijo",
@@ -2153,43 +2153,43 @@
   },
   "G1-325": {
     "title": "Escribe la palabra separada en sílabas",
-    "instruction": "Lee la palabra del modelo. Escríbela en la línea con un guion entre cada sílaba."
+    "instruction": "Copia la palabra separada por guiones."
   },
   "G1-326": {
     "title": "La sílaba que falta",
-    "instruction": "Di el nombre del dibujo, lee la parte que está escrita y escribe en la caja la sílaba que falta."
+    "instruction": "Lee la parte escrita y escribe la sílaba que falta."
   },
   "G1-327": {
     "title": "Ordena las sílabas y escribe la palabra",
-    "instruction": "Las sílabas del nombre de cada dibujo están revueltas. Léelas, ponlas en orden y escribe la palabra en la línea."
+    "instruction": "Pon las sílabas en orden y escríbela."
   },
   "G1-328": {
     "title": "¿Bisílabas o trisílabas? Separa y clasifica",
-    "instruction": "Copia cada palabra del banco separada en sílabas en la columna de dos o de tres sílabas."
+    "instruction": "Copia cada palabra en su columna."
   },
   "G1-329": {
     "title": "La vocal de cada sílaba",
-    "instruction": "Cada sílaba tiene una vocal. Mira el ejemplo y pon un punto sobre la vocal de cada sílaba, dentro de su arco."
+    "instruction": "Pon un punto sobre la vocal de cada sílaba."
   },
   "G1-330": {
     "title": "Encierra la sílaba que oyes: {UNIT}",
-    "instruction": "Lee las sílabas del tapete en voz alta. Di el nombre de cada dibujo y rodea la sílaba con la que empieza."
+    "instruction": "Rodea la sílaba con la que empieza."
   },
   "G1-331": {
     "title": "Une las sílabas y escribe la palabra",
-    "instruction": "Lee las dos sílabas en orden, únelas y escribe la palabra completa en la línea."
+    "instruction": "Une las dos sílabas y escribe la palabra."
   },
   "G1-332": {
     "title": "Tapete de sílabas: lee y colorea",
-    "instruction": "Lee todo el tapete en voz alta. Luego colorea la sílaba con la que empieza cada dibujo, del color de su círculo."
+    "instruction": "Colorea la primera sílaba de cada dibujo."
   },
   "G1-333": {
     "title": "Sílabas trabadas: {UNIT}",
-    "instruction": "Lee las sílabas trabadas del tapete. Di el nombre de cada dibujo, búscalo en el tapete y escribe su primera sílaba en la línea."
+    "instruction": "Lee las sílabas trabadas y escribe la primera."
   },
   "G1-334": {
     "title": "Lee las palabras en sílabas y busca el dibujo",
-    "instruction": "Lee cada palabra sílaba por sílaba. Busca su dibujo en el banco de arriba y escribe su número en la casilla."
+    "instruction": "Lee y anota el número del dibujo."
   },
   "K-351": {
     "title": "Antónimos con dibujos: une los contrarios",
@@ -2233,23 +2233,23 @@
   },
   "K-352": {
     "title": "¿Riman o no riman?",
-    "instruction": "Di los nombres de los dos dibujos. Si terminan igual, marca sí; si no, marca no."
+    "instruction": "Di los dos nombres: si terminan igual, marca sí; si no, marca no."
   },
   "G1-343": {
     "title": "Familias de rimas: clasifica",
-    "instruction": "Di el nombre de cada dibujo del banco. Escríbelo en la columna del dibujo con el que rima."
+    "instruction": "Escribe cada palabra junto al dibujo que rima."
   },
   "G1-344": {
     "title": "Completa la rima",
-    "instruction": "Lee los dos versos. La última palabra rima con la que está antes. Mira el dibujo y escríbela en la línea."
+    "instruction": "Lee los versos y escribe la palabra que rima con la anterior."
   },
   "G1-345": {
     "title": "Cadenas de rimas",
-    "instruction": "Busca en el banco las dos palabras que riman con cada dibujo y escríbelas en sus líneas. Cuidado: hay palabras que no riman con nada."
+    "instruction": "Busca en el banco las dos palabras que riman con cada dibujo."
   },
   "G1-346": {
     "title": "Inventa tus propias rimas",
-    "instruction": "Lee la palabra de cada dibujo. Escribe dos palabras que rimen con ella."
+    "instruction": "Escribe dos palabras que rimen con la de cada dibujo."
   },
   "G1-347": {
     "title": "¿Dónde va la pieza en la tabla del 100?",
@@ -2273,23 +2273,23 @@
   },
   "G2-324": {
     "title": "¿Cuál es? Elige la letra correcta: {UNIT}",
-    "instruction": "Mira el dibujo y lee la palabra. Rodea las letras correctas debajo y escríbelas en la caja punteada."
+    "instruction": "Rodea la letra correcta y escríbela."
   },
   "G2-325": {
     "title": "Detective de ortografía: {UNIT}",
-    "instruction": "Lee cada palabra. Busca las letras de la regla, rodéalas en la palabra y cópialas en la caja pequeña."
+    "instruction": "Rodea las letras de la regla y cópialas."
   },
   "G2-326": {
-    "title": "Clasifica las palabras según su ortografía: {UNIT}",
-    "instruction": "Di el nombre de cada dibujo. Escríbelo en la caja de su ortografía, una palabra en cada línea."
+    "title": "Clasifica según la ortografía: {UNIT}",
+    "instruction": "Escribe cada palabra en su caja."
   },
   "G2-327": {
     "title": "Escribe la palabra completa: {UNIT}",
-    "instruction": "Las letras de la regla están en naranja. Di el nombre del dibujo y escribe las demás letras en las casillas."
+    "instruction": "Completa las demás letras de la palabra."
   },
   "G2-328": {
     "title": "Plurales: {UNIT}",
-    "instruction": "Lee la palabra en singular. Escribe el plural en las casillas. Fíjate en cómo cambia la escritura."
+    "instruction": "Lee el singular y escribe el plural en las casillas."
   },
   "G2-330": {
     "title": "Divide la palabra: encuentra la raíz",

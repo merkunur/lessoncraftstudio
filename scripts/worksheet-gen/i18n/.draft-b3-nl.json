@@ -247,7 +247,7 @@
   },
   "K-351": {
    "title": "Tegenstellingen met plaatjes: verbind de tegenpolen",
-   "instruction": "Trek een lijn van elk plaatje naar het plaatje en het woord die het tegenovergestelde laten zien."
+   "instruction": "Trek een lijn van elk plaatje links naar het plaatje en het woord rechts die samen het tegenovergestelde laten zien."
   },
   "G1-335": {
    "title": "Tegenstellingen in een zin",
@@ -435,7 +435,7 @@
   },
   "G1-349": {
    "title": "Logigram met plaatjes: streep door en zoek",
-   "instruction": "Een doorgestreept plaatje heeft het kind niet, een omcirkeld plaatje wel. Streep door in het rooster en omcirkel elk antwoord."
+   "instruction": "Een doorgestreept plaatje heeft het kind niet, een omcirkeld plaatje heeft het wel. Streep door in het rooster en omcirkel dan elk antwoord."
   },
   "G3-379": {
    "title": "Logigram met twee kenmerken: twee plaatjes per kind",
@@ -574,8 +574,8 @@
    "short": "Spellingregels: d of t, ei of ij"
   },
   "opposites": {
-   "full": "Tegenstellingen voor groep 3 en 4: het kind leest een woord en schrijft het tegenovergestelde, met plaatjes, zinnen en het voorvoegsel on-.",
-   "short": "Tegenstellingen: het tegenovergestelde woord schrijven"
+   "full": "Tegenstellingen voor groep 3 en 4: het kind leest een woord en schrijft het tegenovergestelde woord, met plaatjes, in zinnen en met het voorvoegsel on-.",
+   "short": "Schrijf bij elk woord de tegenstelling."
   },
   "compound-words": {
    "full": "Samenstellingen voor groep 4: het kind plakt twee plaatjeswoorden aan elkaar, ontdekt de tussen-n en verdeelt lange woorden in hun delen.",
@@ -626,8 +626,8 @@
    "short": "De vier seizoenen sorteren en op volgorde zetten"
   },
   "logic-puzzles": {
-   "full": "Logigrammen voor groep 4 en 5: het kind leest aanwijzingen, streept in een rooster door wat niet kan en vindt welk plaatje bij welk kind hoort.",
-   "short": "Logigrammen: aanwijzingen lezen en het rooster oplossen"
+   "full": "Logigrammen voor groep 4 en 5: het kind leest de aanwijzingen, streept in het rooster door wat niet kan en ontdekt zo welk plaatje bij welk kind hoort.",
+   "short": "Lees de aanwijzingen en los het logigram op."
   },
   "picture-word-cards": {
    "full": "Woordkaartjes met plaatjes voor groep 2 en 3: knip de kaartjes uit, lees de woorden, oefen de of het, enkelvoud en meervoud en lettergrepen.",
@@ -17065,7 +17065,7 @@
     },
     "K-351": {
      "title": "Tegenstellingen met plaatjes: verbind de tegenpolen",
-     "instruction": "Trek een lijn van elk plaatje naar het plaatje en het woord die het tegenovergestelde laten zien."
+     "instruction": "Trek een lijn van elk plaatje links naar het plaatje en het woord rechts die samen het tegenovergestelde laten zien."
     },
     "G1-335": {
      "title": "Tegenstellingen in een zin",
@@ -24664,7 +24664,7 @@
     },
     "F3": {
      "title": "Logigram met plaatjes: streep door en zoek",
-     "instruction": "Een doorgestreept plaatje heeft het kind niet, een omcirkeld plaatje wel. Streep door in het rooster en omcirkel elk antwoord."
+     "instruction": "Een doorgestreept plaatje heeft het kind niet, een omcirkeld plaatje heeft het wel. Streep door in het rooster en omcirkel dan elk antwoord."
     },
     "F4": {
      "title": "Logigram met twee kenmerken: twee plaatjes per kind",

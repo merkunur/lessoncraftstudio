@@ -1,0 +1,4134 @@
+{
+  "shape": "soundout",
+  "exemplar": "å",
+  "casing": "lower",
+  "strictPool": null,
+  "units": [
+    {
+      "id": "å",
+      "label": "ord med å: får, gås, tåg",
+      "cells": [
+        "får",
+        "gås",
+        "tåg",
+        "kål",
+        "lås",
+        "sås",
+        "mås"
+      ],
+      "readOnly": [
+        "mås"
+      ],
+      "words": [
+        {
+          "key": "sheep",
+          "word": "får",
+          "unit": "får",
+          "chunks": [
+            [
+              "f",
+              "å",
+              "r"
+            ]
+          ]
+        },
+        {
+          "key": "goose",
+          "word": "gås",
+          "unit": "gås",
+          "chunks": [
+            [
+              "g",
+              "å",
+              "s"
+            ]
+          ]
+        },
+        {
+          "key": "train",
+          "word": "tåg",
+          "unit": "tåg",
+          "chunks": [
+            [
+              "t",
+              "å",
+              "g"
+            ]
+          ]
+        },
+        {
+          "key": "cabbage",
+          "word": "kål",
+          "unit": "kål",
+          "chunks": [
+            [
+              "k",
+              "å",
+              "l"
+            ]
+          ]
+        },
+        {
+          "key": "lock",
+          "word": "lås",
+          "unit": "lås",
+          "chunks": [
+            [
+              "l",
+              "å",
+              "s"
+            ]
+          ]
+        },
+        {
+          "key": "sauce",
+          "word": "sås",
+          "unit": "sås",
+          "chunks": [
+            [
+              "s",
+              "å",
+              "s"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "o",
+      "label": "ord med o: sol, bok, ros",
+      "cells": [
+        "sol",
+        "bok",
+        "ros",
+        "fot",
+        "sko",
+        "kol",
+        "lov"
+      ],
+      "readOnly": [
+        "kol",
+        "lov"
+      ],
+      "words": [
+        {
+          "key": "sun",
+          "word": "sol",
+          "unit": "sol",
+          "chunks": [
+            [
+              "s",
+              "o",
+              "l"
+            ]
+          ]
+        },
+        {
+          "key": "book",
+          "word": "bok",
+          "unit": "bok",
+          "chunks": [
+            [
+              "b",
+              "o",
+              "k"
+            ]
+          ]
+        },
+        {
+          "key": "rose",
+          "word": "ros",
+          "unit": "ros",
+          "chunks": [
+            [
+              "r",
+              "o",
+              "s"
+            ]
+          ]
+        },
+        {
+          "key": "foot",
+          "word": "fot",
+          "unit": "fot",
+          "chunks": [
+            [
+              "f",
+              "o",
+              "t"
+            ]
+          ]
+        },
+        {
+          "key": "shoe",
+          "word": "sko",
+          "unit": "sko",
+          "chunks": [
+            [
+              "s",
+              "k",
+              "o"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a",
+      "label": "ord med a: val, sax, vas",
+      "cells": [
+        "val",
+        "vas",
+        "paj",
+        "kam",
+        "haj",
+        "salt",
+        "ram"
+      ],
+      "readOnly": [
+        "ram"
+      ],
+      "words": [
+        {
+          "key": "whale",
+          "word": "val",
+          "unit": "val",
+          "chunks": [
+            [
+              "v",
+              "a",
+              "l"
+            ]
+          ]
+        },
+        {
+          "key": "vase",
+          "word": "vas",
+          "unit": "vas",
+          "chunks": [
+            [
+              "v",
+              "a",
+              "s"
+            ]
+          ]
+        },
+        {
+          "key": "pie",
+          "word": "paj",
+          "unit": "paj",
+          "chunks": [
+            [
+              "p",
+              "a",
+              "j"
+            ]
+          ]
+        },
+        {
+          "key": "comb",
+          "word": "kam",
+          "unit": "kam",
+          "chunks": [
+            [
+              "k",
+              "a",
+              "m"
+            ]
+          ]
+        },
+        {
+          "key": "shark",
+          "word": "haj",
+          "unit": "haj",
+          "chunks": [
+            [
+              "h",
+              "a",
+              "j"
+            ]
+          ]
+        },
+        {
+          "key": "salt",
+          "word": "salt",
+          "unit": "salt",
+          "chunks": [
+            [
+              "s",
+              "a",
+              "l",
+              "t"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i",
+      "label": "ord med i: bil, is, ris",
+      "cells": [
+        "bil",
+        "bi",
+        "lim",
+        "fink",
+        "hink",
+        "fisk",
+        "vin"
+      ],
+      "readOnly": [
+        "vin"
+      ],
+      "words": [
+        {
+          "key": "car",
+          "word": "bil",
+          "unit": "bil",
+          "chunks": [
+            [
+              "b",
+              "i",
+              "l"
+            ]
+          ]
+        },
+        {
+          "key": "bee",
+          "word": "bi",
+          "unit": "bi",
+          "chunks": [
+            [
+              "b",
+              "i"
+            ]
+          ]
+        },
+        {
+          "key": "glue",
+          "word": "lim",
+          "unit": "lim",
+          "chunks": [
+            [
+              "l",
+              "i",
+              "m"
+            ]
+          ]
+        },
+        {
+          "key": "finch",
+          "word": "fink",
+          "unit": "fink",
+          "chunks": [
+            [
+              "f",
+              "i",
+              "n",
+              "k"
+            ]
+          ]
+        },
+        {
+          "key": "bucket",
+          "word": "hink",
+          "unit": "hink",
+          "chunks": [
+            [
+              "h",
+              "i",
+              "n",
+              "k"
+            ]
+          ]
+        },
+        {
+          "key": "fish",
+          "word": "fisk",
+          "unit": "fisk",
+          "chunks": [
+            [
+              "f",
+              "i",
+              "s",
+              "k"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ö",
+      "label": "ord med ö: lök, löv, hök",
+      "cells": [
+        "lök",
+        "löv",
+        "hök",
+        "föl",
+        "pöl",
+        "björn",
+        "söt"
+      ],
+      "readOnly": [
+        "söt"
+      ],
+      "words": [
+        {
+          "key": "onion",
+          "word": "lök",
+          "unit": "lök",
+          "chunks": [
+            [
+              "l",
+              "ö",
+              "k"
+            ]
+          ]
+        },
+        {
+          "key": "leaf",
+          "word": "löv",
+          "unit": "löv",
+          "chunks": [
+            [
+              "l",
+              "ö",
+              "v"
+            ]
+          ]
+        },
+        {
+          "key": "hawk",
+          "word": "hök",
+          "unit": "hök",
+          "chunks": [
+            [
+              "h",
+              "ö",
+              "k"
+            ]
+          ]
+        },
+        {
+          "key": "foal",
+          "word": "föl",
+          "unit": "föl",
+          "chunks": [
+            [
+              "f",
+              "ö",
+              "l"
+            ]
+          ]
+        },
+        {
+          "key": "puddle",
+          "word": "pöl",
+          "unit": "pöl",
+          "chunks": [
+            [
+              "p",
+              "ö",
+              "l"
+            ]
+          ]
+        },
+        {
+          "key": "bear",
+          "word": "björn",
+          "unit": "björn",
+          "chunks": [
+            [
+              "b",
+              "j",
+              "ö",
+              "r",
+              "n"
+            ]
+          ],
+          "pictureTheme": "forest creatures"
+        }
+      ]
+    },
+    {
+      "id": "u",
+      "label": "ord med u: hus, mus, mun",
+      "cells": [
+        "hus",
+        "mus",
+        "mun",
+        "bult",
+        "hund",
+        "bur",
+        "lus"
+      ],
+      "readOnly": [
+        "bur",
+        "lus"
+      ],
+      "words": [
+        {
+          "key": "house",
+          "word": "hus",
+          "unit": "hus",
+          "chunks": [
+            [
+              "h",
+              "u",
+              "s"
+            ]
+          ]
+        },
+        {
+          "key": "mouse",
+          "word": "mus",
+          "unit": "mus",
+          "chunks": [
+            [
+              "m",
+              "u",
+              "s"
+            ]
+          ]
+        },
+        {
+          "key": "mouth",
+          "word": "mun",
+          "unit": "mun",
+          "chunks": [
+            [
+              "m",
+              "u",
+              "n"
+            ]
+          ]
+        },
+        {
+          "key": "bolt",
+          "word": "bult",
+          "unit": "bult",
+          "chunks": [
+            [
+              "b",
+              "u",
+              "l",
+              "t"
+            ]
+          ]
+        },
+        {
+          "key": "dog",
+          "word": "hund",
+          "unit": "hund",
+          "chunks": [
+            [
+              "h",
+              "u",
+              "n",
+              "d"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ä",
+      "label": "ord med ä: räv, säl, nät",
+      "cells": [
+        "räv",
+        "säl",
+        "nät",
+        "ägg",
+        "häst",
+        "tält",
+        "väg"
+      ],
+      "readOnly": [
+        "väg"
+      ],
+      "words": [
+        {
+          "key": "fox",
+          "word": "räv",
+          "unit": "räv",
+          "chunks": [
+            [
+              "r",
+              "ä",
+              "v"
+            ]
+          ]
+        },
+        {
+          "key": "seal",
+          "word": "säl",
+          "unit": "säl",
+          "chunks": [
+            [
+              "s",
+              "ä",
+              "l"
+            ]
+          ]
+        },
+        {
+          "key": "net",
+          "word": "nät",
+          "unit": "nät",
+          "chunks": [
+            [
+              "n",
+              "ä",
+              "t"
+            ]
+          ]
+        },
+        {
+          "key": "egg",
+          "word": "ägg",
+          "unit": "ägg",
+          "chunks": [
+            [
+              "ä",
+              "g",
+              "g"
+            ]
+          ]
+        },
+        {
+          "key": "horse",
+          "word": "häst",
+          "unit": "häst",
+          "chunks": [
+            [
+              "h",
+              "ä",
+              "s",
+              "t"
+            ]
+          ]
+        },
+        {
+          "key": "tent",
+          "word": "tält",
+          "unit": "tält",
+          "chunks": [
+            [
+              "t",
+              "ä",
+              "l",
+              "t"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "label": "ord med e: ben, rep, ren",
+      "cells": [
+        "ben",
+        "rep",
+        "ren",
+        "get",
+        "keps",
+        "brev",
+        "fem"
+      ],
+      "readOnly": [
+        "fem"
+      ],
+      "words": [
+        {
+          "key": "leg",
+          "word": "ben",
+          "unit": "ben",
+          "chunks": [
+            [
+              "b",
+              "e",
+              "n"
+            ]
+          ]
+        },
+        {
+          "key": "rope",
+          "word": "rep",
+          "unit": "rep",
+          "chunks": [
+            [
+              "r",
+              "e",
+              "p"
+            ]
+          ]
+        },
+        {
+          "key": "reindeer",
+          "word": "ren",
+          "unit": "ren",
+          "chunks": [
+            [
+              "r",
+              "e",
+              "n"
+            ]
+          ]
+        },
+        {
+          "key": "goat",
+          "word": "get",
+          "unit": "get",
+          "chunks": [
+            [
+              "g",
+              "e",
+              "t"
+            ]
+          ]
+        },
+        {
+          "key": "cap",
+          "word": "keps",
+          "unit": "keps",
+          "chunks": [
+            [
+              "k",
+              "e",
+              "p",
+              "s"
+            ]
+          ]
+        },
+        {
+          "key": "letter",
+          "word": "brev",
+          "unit": "brev",
+          "chunks": [
+            [
+              "b",
+              "r",
+              "e",
+              "v"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "complexExemplar": "r1",
+  "complexUnits": [
+    {
+      "id": "r1",
+      "label": "ord med dubbelteckning: katt, boll, hatt",
+      "cells": [
+        "katt",
+        "boll",
+        "hatt",
+        "kopp",
+        "buss",
+        "mugg"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "cat",
+          "word": "katt",
+          "unit": "katt",
+          "chunks": [
+            [
+              "k",
+              "a",
+              "t",
+              "t"
+            ]
+          ]
+        },
+        {
+          "key": "ball",
+          "word": "boll",
+          "unit": "boll",
+          "chunks": [
+            [
+              "b",
+              "o",
+              "l",
+              "l"
+            ]
+          ]
+        },
+        {
+          "key": "hat",
+          "word": "hatt",
+          "unit": "hatt",
+          "chunks": [
+            [
+              "h",
+              "a",
+              "t",
+              "t"
+            ]
+          ]
+        },
+        {
+          "key": "cup",
+          "word": "kopp",
+          "unit": "kopp",
+          "chunks": [
+            [
+              "k",
+              "o",
+              "p",
+              "p"
+            ]
+          ]
+        },
+        {
+          "key": "bus",
+          "word": "buss",
+          "unit": "buss",
+          "chunks": [
+            [
+              "b",
+              "u",
+              "s",
+              "s"
+            ]
+          ]
+        },
+        {
+          "key": "mug",
+          "word": "mugg",
+          "unit": "mugg",
+          "chunks": [
+            [
+              "m",
+              "u",
+              "g",
+              "g"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "label": "ord som börjar med två konsonanter: glas, gris, kran",
+      "cells": [
+        "glas",
+        "gris",
+        "kran",
+        "svan",
+        "bröd",
+        "brev"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "glass",
+          "word": "glas",
+          "unit": "glas",
+          "chunks": [
+            [
+              "g",
+              "l",
+              "a",
+              "s"
+            ]
+          ],
+          "pictureTheme": "kitchen tools"
+        },
+        {
+          "key": "pig",
+          "word": "gris",
+          "unit": "gris",
+          "chunks": [
+            [
+              "g",
+              "r",
+              "i",
+              "s"
+            ]
+          ]
+        },
+        {
+          "key": "faucet",
+          "word": "kran",
+          "unit": "kran",
+          "chunks": [
+            [
+              "k",
+              "r",
+              "a",
+              "n"
+            ]
+          ]
+        },
+        {
+          "key": "swan",
+          "word": "svan",
+          "unit": "svan",
+          "chunks": [
+            [
+              "s",
+              "v",
+              "a",
+              "n"
+            ]
+          ]
+        },
+        {
+          "key": "bread",
+          "word": "bröd",
+          "unit": "bröd",
+          "chunks": [
+            [
+              "b",
+              "r",
+              "ö",
+              "d"
+            ]
+          ]
+        },
+        {
+          "key": "letter",
+          "word": "brev",
+          "unit": "brev",
+          "chunks": [
+            [
+              "b",
+              "r",
+              "e",
+              "v"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "label": "ord som slutar med två konsonanter: arm, hand, tand",
+      "cells": [
+        "arm",
+        "hand",
+        "tand",
+        "sand",
+        "korg",
+        "älg"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "arm",
+          "word": "arm",
+          "unit": "arm",
+          "chunks": [
+            [
+              "a",
+              "r",
+              "m"
+            ]
+          ]
+        },
+        {
+          "key": "hand",
+          "word": "hand",
+          "unit": "hand",
+          "chunks": [
+            [
+              "h",
+              "a",
+              "n",
+              "d"
+            ]
+          ]
+        },
+        {
+          "key": "tooth",
+          "word": "tand",
+          "unit": "tand",
+          "chunks": [
+            [
+              "t",
+              "a",
+              "n",
+              "d"
+            ]
+          ]
+        },
+        {
+          "key": "sand",
+          "word": "sand",
+          "unit": "sand",
+          "chunks": [
+            [
+              "s",
+              "a",
+              "n",
+              "d"
+            ]
+          ]
+        },
+        {
+          "key": "basket",
+          "word": "korg",
+          "unit": "korg",
+          "chunks": [
+            [
+              "k",
+              "o",
+              "r",
+              "g"
+            ]
+          ]
+        },
+        {
+          "key": "moose",
+          "word": "älg",
+          "unit": "älg",
+          "chunks": [
+            [
+              "ä",
+              "l",
+              "g"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "label": "fler ord med dubbelteckning: lamm, kopp, tupp",
+      "cells": [
+        "lamm",
+        "tupp",
+        "mapp",
+        "mopp",
+        "knopp",
+        "läpp"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "lamb",
+          "word": "lamm",
+          "unit": "lamm",
+          "chunks": [
+            [
+              "l",
+              "a",
+              "m",
+              "m"
+            ]
+          ]
+        },
+        {
+          "key": "rooster",
+          "word": "tupp",
+          "unit": "tupp",
+          "chunks": [
+            [
+              "t",
+              "u",
+              "p",
+              "p"
+            ]
+          ]
+        },
+        {
+          "key": "folder",
+          "word": "mapp",
+          "unit": "mapp",
+          "chunks": [
+            [
+              "m",
+              "a",
+              "p",
+              "p"
+            ]
+          ]
+        },
+        {
+          "key": "mop",
+          "word": "mopp",
+          "unit": "mopp",
+          "chunks": [
+            [
+              "m",
+              "o",
+              "p",
+              "p"
+            ]
+          ]
+        },
+        {
+          "key": "bud",
+          "word": "knopp",
+          "unit": "knopp",
+          "chunks": [
+            [
+              "k",
+              "n",
+              "o",
+              "p",
+              "p"
+            ]
+          ]
+        },
+        {
+          "key": "lip",
+          "word": "läpp",
+          "unit": "läpp",
+          "chunks": [
+            [
+              "l",
+              "ä",
+              "p",
+              "p"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "label": "fler ord med två konsonanter: tält, häst, fläkt",
+      "cells": [
+        "tält",
+        "gräs",
+        "fläkt",
+        "bult",
+        "bänk",
+        "salt"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "tent",
+          "word": "tält",
+          "unit": "tält",
+          "chunks": [
+            [
+              "t",
+              "ä",
+              "l",
+              "t"
+            ]
+          ]
+        },
+        {
+          "key": "grass",
+          "word": "gräs",
+          "unit": "gräs",
+          "chunks": [
+            [
+              "g",
+              "r",
+              "ä",
+              "s"
+            ]
+          ]
+        },
+        {
+          "key": "fan",
+          "word": "fläkt",
+          "unit": "fläkt",
+          "chunks": [
+            [
+              "f",
+              "l",
+              "ä",
+              "k",
+              "t"
+            ]
+          ]
+        },
+        {
+          "key": "bolt",
+          "word": "bult",
+          "unit": "bult",
+          "chunks": [
+            [
+              "b",
+              "u",
+              "l",
+              "t"
+            ]
+          ]
+        },
+        {
+          "key": "bench",
+          "word": "bänk",
+          "unit": "bänk",
+          "chunks": [
+            [
+              "b",
+              "ä",
+              "n",
+              "k"
+            ]
+          ]
+        },
+        {
+          "key": "salt",
+          "word": "salt",
+          "unit": "salt",
+          "chunks": [
+            [
+              "s",
+              "a",
+              "l",
+              "t"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "simple": "^[^aeiouyåäö]?[aeiouyåäö][^aeiouyåäö]?$",
+  "complex": "(^[^aeiouyåäö]{2}|[^aeiouyåäö]{2}$|([bdfgklmnprstv])\\2)",
+  "vowels": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "y",
+    "å",
+    "ä",
+    "ö"
+  ],
+  "multi": [
+    {
+      "key": "accordion",
+      "word": "dragspel",
+      "split": [
+        "drag",
+        "spel"
+      ]
+    },
+    {
+      "key": "airplane",
+      "word": "flygplan",
+      "split": [
+        "flyg",
+        "plan"
+      ]
+    },
+    {
+      "key": "ambulance",
+      "word": "ambulans",
+      "split": [
+        "am",
+        "bu",
+        "lans"
+      ]
+    },
+    {
+      "key": "angel",
+      "word": "ängel",
+      "split": [
+        "äng",
+        "el"
+      ]
+    },
+    {
+      "key": "angelfish",
+      "word": "ängelfisk",
+      "split": [
+        "äng",
+        "el",
+        "fisk"
+      ]
+    },
+    {
+      "key": "antelope",
+      "word": "antilop",
+      "split": [
+        "an",
+        "ti",
+        "lop"
+      ]
+    },
+    {
+      "key": "apple",
+      "word": "äpple",
+      "split": [
+        "äpp",
+        "le"
+      ]
+    },
+    {
+      "key": "apron",
+      "word": "förkläde",
+      "split": [
+        "för",
+        "klä",
+        "de"
+      ]
+    },
+    {
+      "key": "architect",
+      "word": "arkitekt",
+      "split": [
+        "ar",
+        "ki",
+        "tekt"
+      ]
+    },
+    {
+      "key": "armadillo",
+      "word": "bältdjur",
+      "split": [
+        "bält",
+        "djur"
+      ]
+    },
+    {
+      "key": "armchair",
+      "word": "fåtölj",
+      "split": [
+        "få",
+        "tölj"
+      ]
+    },
+    {
+      "key": "artist",
+      "word": "konstnär",
+      "split": [
+        "konst",
+        "när"
+      ]
+    },
+    {
+      "key": "asparagus",
+      "word": "sparris",
+      "split": [
+        "spar",
+        "ris"
+      ]
+    },
+    {
+      "key": "athlete",
+      "word": "atlet",
+      "split": [
+        "at",
+        "let"
+      ]
+    },
+    {
+      "key": "badger",
+      "word": "grävling",
+      "split": [
+        "gräv",
+        "ling"
+      ]
+    },
+    {
+      "key": "bagel",
+      "word": "bagel",
+      "split": [
+        "ba",
+        "gel"
+      ]
+    },
+    {
+      "key": "baker",
+      "word": "bagare",
+      "split": [
+        "ba",
+        "ga",
+        "re"
+      ]
+    },
+    {
+      "key": "balloon",
+      "word": "ballong",
+      "split": [
+        "bal",
+        "long"
+      ]
+    },
+    {
+      "key": "banana",
+      "word": "banan",
+      "split": [
+        "ba",
+        "nan"
+      ]
+    },
+    {
+      "key": "barber",
+      "word": "frisör",
+      "split": [
+        "fri",
+        "sör"
+      ]
+    },
+    {
+      "key": "bat",
+      "word": "fladdermus",
+      "split": [
+        "flad",
+        "der",
+        "mus"
+      ]
+    },
+    {
+      "key": "bathtub",
+      "word": "badkar",
+      "split": [
+        "bad",
+        "kar"
+      ]
+    },
+    {
+      "key": "beaver",
+      "word": "bäver",
+      "split": [
+        "bä",
+        "ver"
+      ]
+    },
+    {
+      "key": "beetle",
+      "word": "skalbagge",
+      "split": [
+        "skal",
+        "bag",
+        "ge"
+      ]
+    },
+    {
+      "key": "beetroot",
+      "word": "rödbeta",
+      "split": [
+        "röd",
+        "be",
+        "ta"
+      ]
+    },
+    {
+      "key": "belt",
+      "word": "bälte",
+      "split": [
+        "bäl",
+        "te"
+      ]
+    },
+    {
+      "key": "bicycle",
+      "word": "cykel",
+      "split": [
+        "cy",
+        "kel"
+      ]
+    },
+    {
+      "key": "binoculars",
+      "word": "kikare",
+      "split": [
+        "ki",
+        "ka",
+        "re"
+      ]
+    },
+    {
+      "key": "bird",
+      "word": "fågel",
+      "split": [
+        "få",
+        "gel"
+      ]
+    },
+    {
+      "key": "birdhouse",
+      "word": "fågelholk",
+      "split": [
+        "få",
+        "gel",
+        "holk"
+      ]
+    },
+    {
+      "key": "bison",
+      "word": "bison",
+      "split": [
+        "bi",
+        "son"
+      ]
+    },
+    {
+      "key": "blackberry",
+      "word": "björnbär",
+      "split": [
+        "björn",
+        "bär"
+      ]
+    },
+    {
+      "key": "blender",
+      "word": "mixer",
+      "split": [
+        "mix",
+        "er"
+      ]
+    },
+    {
+      "key": "blocks",
+      "word": "klossar",
+      "split": [
+        "klos",
+        "sar"
+      ]
+    },
+    {
+      "key": "blueberry",
+      "word": "blåbär",
+      "split": [
+        "blå",
+        "bär"
+      ]
+    },
+    {
+      "key": "bonfire",
+      "word": "lägereld",
+      "split": [
+        "lä",
+        "ger",
+        "eld"
+      ]
+    },
+    {
+      "key": "boots",
+      "word": "stövlar",
+      "split": [
+        "stöv",
+        "lar"
+      ]
+    },
+    {
+      "key": "bottle",
+      "word": "flaska",
+      "split": [
+        "flas",
+        "ka"
+      ]
+    },
+    {
+      "key": "bracelet",
+      "word": "armband",
+      "split": [
+        "arm",
+        "band"
+      ]
+    },
+    {
+      "key": "broccoli",
+      "word": "broccoli",
+      "split": [
+        "broc",
+        "co",
+        "li"
+      ]
+    },
+    {
+      "key": "brush",
+      "word": "borste",
+      "split": [
+        "bors",
+        "te"
+      ]
+    },
+    {
+      "key": "bulldozer",
+      "word": "bulldozer",
+      "split": [
+        "bull",
+        "do",
+        "zer"
+      ]
+    },
+    {
+      "key": "bun",
+      "word": "bulle",
+      "split": [
+        "bul",
+        "le"
+      ]
+    },
+    {
+      "key": "bunny",
+      "word": "kanin",
+      "split": [
+        "ka",
+        "nin"
+      ]
+    },
+    {
+      "key": "buttercup",
+      "word": "smörblomma",
+      "split": [
+        "smör",
+        "blom",
+        "ma"
+      ]
+    },
+    {
+      "key": "butterfly",
+      "word": "fjäril",
+      "split": [
+        "fjä",
+        "ril"
+      ]
+    },
+    {
+      "key": "cabin",
+      "word": "stuga",
+      "split": [
+        "stu",
+        "ga"
+      ]
+    },
+    {
+      "key": "cake",
+      "word": "tårta",
+      "split": [
+        "tår",
+        "ta"
+      ]
+    },
+    {
+      "key": "camel",
+      "word": "kamel",
+      "split": [
+        "ka",
+        "mel"
+      ]
+    },
+    {
+      "key": "camper",
+      "word": "husbil",
+      "split": [
+        "hus",
+        "bil"
+      ]
+    },
+    {
+      "key": "campfire",
+      "word": "lägereld",
+      "split": [
+        "lä",
+        "ger",
+        "eld"
+      ]
+    },
+    {
+      "key": "candy",
+      "word": "godis",
+      "split": [
+        "go",
+        "dis"
+      ]
+    },
+    {
+      "key": "canoe",
+      "word": "kanot",
+      "split": [
+        "ka",
+        "not"
+      ]
+    },
+    {
+      "key": "cardigan",
+      "word": "kofta",
+      "split": [
+        "kof",
+        "ta"
+      ]
+    },
+    {
+      "key": "cardinal",
+      "word": "kardinal",
+      "split": [
+        "kar",
+        "di",
+        "nal"
+      ]
+    },
+    {
+      "key": "carnation",
+      "word": "nejlika",
+      "split": [
+        "nej",
+        "li",
+        "ka"
+      ]
+    },
+    {
+      "key": "carrot",
+      "word": "morot",
+      "split": [
+        "mo",
+        "rot"
+      ]
+    },
+    {
+      "key": "cart",
+      "word": "kundvagn",
+      "split": [
+        "kund",
+        "vagn"
+      ]
+    },
+    {
+      "key": "cashier",
+      "word": "kassör",
+      "split": [
+        "kas",
+        "sör"
+      ]
+    },
+    {
+      "key": "cauliflower",
+      "word": "blomkål",
+      "split": [
+        "blom",
+        "kål"
+      ]
+    },
+    {
+      "key": "celery",
+      "word": "selleri",
+      "split": [
+        "sel",
+        "le",
+        "ri"
+      ]
+    },
+    {
+      "key": "cereal",
+      "word": "flingor",
+      "split": [
+        "fling",
+        "or"
+      ]
+    },
+    {
+      "key": "cheetah",
+      "word": "gepard",
+      "split": [
+        "ge",
+        "pard"
+      ]
+    },
+    {
+      "key": "cherry",
+      "word": "körsbär",
+      "split": [
+        "körs",
+        "bär"
+      ]
+    },
+    {
+      "key": "chick",
+      "word": "kyckling",
+      "split": [
+        "kyck",
+        "ling"
+      ]
+    },
+    {
+      "key": "chicken",
+      "word": "kyckling",
+      "split": [
+        "kyck",
+        "ling"
+      ]
+    },
+    {
+      "key": "chimney",
+      "word": "skorsten",
+      "split": [
+        "skor",
+        "sten"
+      ]
+    },
+    {
+      "key": "chocolate",
+      "word": "choklad",
+      "split": [
+        "cho",
+        "klad"
+      ]
+    },
+    {
+      "key": "church",
+      "word": "kyrka",
+      "split": [
+        "kyr",
+        "ka"
+      ]
+    },
+    {
+      "key": "circle",
+      "word": "cirkel",
+      "split": [
+        "cir",
+        "kel"
+      ]
+    },
+    {
+      "key": "closet",
+      "word": "garderob",
+      "split": [
+        "gar",
+        "de",
+        "rob"
+      ]
+    },
+    {
+      "key": "clover",
+      "word": "klöver",
+      "split": [
+        "klö",
+        "ver"
+      ]
+    },
+    {
+      "key": "coach",
+      "word": "tränare",
+      "split": [
+        "trä",
+        "na",
+        "re"
+      ]
+    },
+    {
+      "key": "coat",
+      "word": "kappa",
+      "split": [
+        "kap",
+        "pa"
+      ]
+    },
+    {
+      "key": "compass",
+      "word": "kompass",
+      "split": [
+        "kom",
+        "pass"
+      ]
+    },
+    {
+      "key": "computer",
+      "word": "dator",
+      "split": [
+        "da",
+        "tor"
+      ]
+    },
+    {
+      "key": "cooler",
+      "word": "kylväska",
+      "split": [
+        "kyl",
+        "väs",
+        "ka"
+      ]
+    },
+    {
+      "key": "crab",
+      "word": "krabba",
+      "split": [
+        "krab",
+        "ba"
+      ]
+    },
+    {
+      "key": "cranberry",
+      "word": "tranbär",
+      "split": [
+        "tran",
+        "bär"
+      ]
+    },
+    {
+      "key": "crayon",
+      "word": "krita",
+      "split": [
+        "kri",
+        "ta"
+      ]
+    },
+    {
+      "key": "crayons",
+      "word": "kritor",
+      "split": [
+        "kri",
+        "tor"
+      ]
+    },
+    {
+      "key": "crib",
+      "word": "spjälsäng",
+      "split": [
+        "spjäl",
+        "säng"
+      ]
+    },
+    {
+      "key": "cricket",
+      "word": "syrsa",
+      "split": [
+        "syr",
+        "sa"
+      ]
+    },
+    {
+      "key": "crow",
+      "word": "kråka",
+      "split": [
+        "krå",
+        "ka"
+      ]
+    },
+    {
+      "key": "crown",
+      "word": "krona",
+      "split": [
+        "kro",
+        "na"
+      ]
+    },
+    {
+      "key": "cucumber",
+      "word": "gurka",
+      "split": [
+        "gur",
+        "ka"
+      ]
+    },
+    {
+      "key": "curtains",
+      "word": "gardiner",
+      "split": [
+        "gar",
+        "di",
+        "ner"
+      ]
+    },
+    {
+      "key": "cushion",
+      "word": "kudde",
+      "split": [
+        "kud",
+        "de"
+      ]
+    },
+    {
+      "key": "cylinder",
+      "word": "cylinder",
+      "split": [
+        "cy",
+        "lin",
+        "der"
+      ]
+    },
+    {
+      "key": "daffodil",
+      "word": "påsklilja",
+      "split": [
+        "påsk",
+        "lil",
+        "ja"
+      ]
+    },
+    {
+      "key": "dandelion",
+      "word": "maskros",
+      "split": [
+        "mask",
+        "ros"
+      ]
+    },
+    {
+      "key": "desk",
+      "word": "skrivbord",
+      "split": [
+        "skriv",
+        "bord"
+      ]
+    },
+    {
+      "key": "detective",
+      "word": "detektiv",
+      "split": [
+        "de",
+        "tek",
+        "tiv"
+      ]
+    },
+    {
+      "key": "dice",
+      "word": "tärningar",
+      "split": [
+        "tär",
+        "ning",
+        "ar"
+      ]
+    },
+    {
+      "key": "dishwasher",
+      "word": "diskmaskin",
+      "split": [
+        "disk",
+        "ma",
+        "skin"
+      ]
+    },
+    {
+      "key": "doctor",
+      "word": "läkare",
+      "split": [
+        "lä",
+        "ka",
+        "re"
+      ]
+    },
+    {
+      "key": "dolphin",
+      "word": "delfin",
+      "split": [
+        "del",
+        "fin"
+      ]
+    },
+    {
+      "key": "domino",
+      "word": "domino",
+      "split": [
+        "do",
+        "mi",
+        "no"
+      ]
+    },
+    {
+      "key": "dragon",
+      "word": "drake",
+      "split": [
+        "dra",
+        "ke"
+      ]
+    },
+    {
+      "key": "dress",
+      "word": "klänning",
+      "split": [
+        "klän",
+        "ning"
+      ]
+    },
+    {
+      "key": "driftwood",
+      "word": "drivved",
+      "split": [
+        "driv",
+        "ved"
+      ]
+    },
+    {
+      "key": "drum",
+      "word": "trumma",
+      "split": [
+        "trum",
+        "ma"
+      ]
+    },
+    {
+      "key": "dustpan",
+      "word": "sopskyffel",
+      "split": [
+        "sop",
+        "skyf",
+        "fel"
+      ]
+    },
+    {
+      "key": "earthworm",
+      "word": "daggmask",
+      "split": [
+        "dagg",
+        "mask"
+      ]
+    },
+    {
+      "key": "envelope",
+      "word": "kuvert",
+      "split": [
+        "ku",
+        "vert"
+      ]
+    },
+    {
+      "key": "eraser",
+      "word": "suddgummi",
+      "split": [
+        "sudd",
+        "gum",
+        "mi"
+      ]
+    },
+    {
+      "key": "excavator",
+      "word": "grävmaskin",
+      "split": [
+        "gräv",
+        "ma",
+        "skin"
+      ]
+    },
+    {
+      "key": "face",
+      "word": "ansikte",
+      "split": [
+        "an",
+        "sik",
+        "te"
+      ]
+    },
+    {
+      "key": "farmer",
+      "word": "bonde",
+      "split": [
+        "bon",
+        "de"
+      ]
+    },
+    {
+      "key": "feather",
+      "word": "fjäder",
+      "split": [
+        "fjä",
+        "der"
+      ]
+    },
+    {
+      "key": "fence",
+      "word": "staket",
+      "split": [
+        "sta",
+        "ket"
+      ]
+    },
+    {
+      "key": "ferry",
+      "word": "färja",
+      "split": [
+        "fär",
+        "ja"
+      ]
+    },
+    {
+      "key": "fig",
+      "word": "fikon",
+      "split": [
+        "fi",
+        "kon"
+      ]
+    },
+    {
+      "key": "finger",
+      "word": "finger",
+      "split": [
+        "fing",
+        "er"
+      ]
+    },
+    {
+      "key": "firefighter",
+      "word": "brandman",
+      "split": [
+        "brand",
+        "man"
+      ]
+    },
+    {
+      "key": "firefly",
+      "word": "eldfluga",
+      "split": [
+        "eld",
+        "flu",
+        "ga"
+      ]
+    },
+    {
+      "key": "flag",
+      "word": "flagga",
+      "split": [
+        "flag",
+        "ga"
+      ]
+    },
+    {
+      "key": "flashlight",
+      "word": "ficklampa",
+      "split": [
+        "fick",
+        "lam",
+        "pa"
+      ]
+    },
+    {
+      "key": "florist",
+      "word": "florist",
+      "split": [
+        "flo",
+        "rist"
+      ]
+    },
+    {
+      "key": "flower",
+      "word": "blomma",
+      "split": [
+        "blom",
+        "ma"
+      ]
+    },
+    {
+      "key": "fork",
+      "word": "gaffel",
+      "split": [
+        "gaf",
+        "fel"
+      ]
+    },
+    {
+      "key": "fridge",
+      "word": "kylskåp",
+      "split": [
+        "kyl",
+        "skåp"
+      ]
+    },
+    {
+      "key": "frog",
+      "word": "groda",
+      "split": [
+        "gro",
+        "da"
+      ]
+    },
+    {
+      "key": "garlic",
+      "word": "vitlök",
+      "split": [
+        "vit",
+        "lök"
+      ]
+    },
+    {
+      "key": "ghost",
+      "word": "spöke",
+      "split": [
+        "spö",
+        "ke"
+      ]
+    },
+    {
+      "key": "giraffe",
+      "word": "giraff",
+      "split": [
+        "gi",
+        "raff"
+      ]
+    },
+    {
+      "key": "globe",
+      "word": "jordglob",
+      "split": [
+        "jord",
+        "glob"
+      ]
+    },
+    {
+      "key": "gloves",
+      "word": "handskar",
+      "split": [
+        "hands",
+        "kar"
+      ]
+    },
+    {
+      "key": "goldfish",
+      "word": "guldfisk",
+      "split": [
+        "guld",
+        "fisk"
+      ]
+    },
+    {
+      "key": "gorilla",
+      "word": "gorilla",
+      "split": [
+        "go",
+        "ril",
+        "la"
+      ]
+    },
+    {
+      "key": "grapes",
+      "word": "druvor",
+      "split": [
+        "dru",
+        "vor"
+      ]
+    },
+    {
+      "key": "grasshopper",
+      "word": "gräshoppa",
+      "split": [
+        "gräs",
+        "hop",
+        "pa"
+      ]
+    },
+    {
+      "key": "guitar",
+      "word": "gitarr",
+      "split": [
+        "gi",
+        "tarr"
+      ]
+    },
+    {
+      "key": "ham",
+      "word": "skinka",
+      "split": [
+        "skin",
+        "ka"
+      ]
+    },
+    {
+      "key": "hammer",
+      "word": "hammare",
+      "split": [
+        "ham",
+        "ma",
+        "re"
+      ]
+    },
+    {
+      "key": "hammock",
+      "word": "hängmatta",
+      "split": [
+        "häng",
+        "mat",
+        "ta"
+      ]
+    },
+    {
+      "key": "hamster",
+      "word": "hamster",
+      "split": [
+        "hams",
+        "ter"
+      ]
+    },
+    {
+      "key": "handbag",
+      "word": "handväska",
+      "split": [
+        "hand",
+        "väs",
+        "ka"
+      ]
+    },
+    {
+      "key": "handsaw",
+      "word": "handsåg",
+      "split": [
+        "hand",
+        "såg"
+      ]
+    },
+    {
+      "key": "harp",
+      "word": "harpa",
+      "split": [
+        "har",
+        "pa"
+      ]
+    },
+    {
+      "key": "head",
+      "word": "huvud",
+      "split": [
+        "hu",
+        "vud"
+      ]
+    },
+    {
+      "key": "headband",
+      "word": "pannband",
+      "split": [
+        "pann",
+        "band"
+      ]
+    },
+    {
+      "key": "heart",
+      "word": "hjärta",
+      "split": [
+        "hjär",
+        "ta"
+      ]
+    },
+    {
+      "key": "heater",
+      "word": "värmare",
+      "split": [
+        "vär",
+        "ma",
+        "re"
+      ]
+    },
+    {
+      "key": "heptagon",
+      "word": "sjuhörning",
+      "split": [
+        "sju",
+        "hör",
+        "ning"
+      ]
+    },
+    {
+      "key": "heron",
+      "word": "häger",
+      "split": [
+        "hä",
+        "ger"
+      ]
+    },
+    {
+      "key": "hexagon",
+      "word": "sexhörning",
+      "split": [
+        "sex",
+        "hör",
+        "ning"
+      ]
+    },
+    {
+      "key": "hibiscus",
+      "word": "hibiskus",
+      "split": [
+        "hi",
+        "bis",
+        "kus"
+      ]
+    },
+    {
+      "key": "hippopotamus",
+      "word": "flodhäst",
+      "split": [
+        "flod",
+        "häst"
+      ]
+    },
+    {
+      "key": "honey",
+      "word": "honung",
+      "split": [
+        "ho",
+        "nung"
+      ]
+    },
+    {
+      "key": "hoodie",
+      "word": "huvtröja",
+      "split": [
+        "huv",
+        "trö",
+        "ja"
+      ]
+    },
+    {
+      "key": "hummingbird",
+      "word": "kolibri",
+      "split": [
+        "ko",
+        "li",
+        "bri"
+      ]
+    },
+    {
+      "key": "iron",
+      "word": "strykjärn",
+      "split": [
+        "stryk",
+        "järn"
+      ]
+    },
+    {
+      "key": "jellyfish",
+      "word": "manet",
+      "split": [
+        "ma",
+        "net"
+      ]
+    },
+    {
+      "key": "jet",
+      "word": "jetplan",
+      "split": [
+        "jet",
+        "plan"
+      ]
+    },
+    {
+      "key": "jug",
+      "word": "kanna",
+      "split": [
+        "kan",
+        "na"
+      ]
+    },
+    {
+      "key": "kayak",
+      "word": "kajak",
+      "split": [
+        "ka",
+        "jak"
+      ]
+    },
+    {
+      "key": "kite",
+      "word": "drake",
+      "split": [
+        "dra",
+        "ke"
+      ]
+    },
+    {
+      "key": "ladder",
+      "word": "stege",
+      "split": [
+        "ste",
+        "ge"
+      ]
+    },
+    {
+      "key": "lamp",
+      "word": "lampa",
+      "split": [
+        "lam",
+        "pa"
+      ]
+    },
+    {
+      "key": "lantern",
+      "word": "lykta",
+      "split": [
+        "lyk",
+        "ta"
+      ]
+    },
+    {
+      "key": "lavender",
+      "word": "lavendel",
+      "split": [
+        "la",
+        "ven",
+        "del"
+      ]
+    },
+    {
+      "key": "leek",
+      "word": "purjolök",
+      "split": [
+        "pur",
+        "jo",
+        "lök"
+      ]
+    },
+    {
+      "key": "leggings",
+      "word": "leggings",
+      "split": [
+        "leg",
+        "gings"
+      ]
+    },
+    {
+      "key": "lemon",
+      "word": "citron",
+      "split": [
+        "ci",
+        "tron"
+      ]
+    },
+    {
+      "key": "lemonade",
+      "word": "lemonad",
+      "split": [
+        "le",
+        "mo",
+        "nad"
+      ]
+    },
+    {
+      "key": "lettuce",
+      "word": "sallad",
+      "split": [
+        "sal",
+        "lad"
+      ]
+    },
+    {
+      "key": "lily",
+      "word": "lilja",
+      "split": [
+        "lil",
+        "ja"
+      ]
+    },
+    {
+      "key": "lion",
+      "word": "lejon",
+      "split": [
+        "le",
+        "jon"
+      ]
+    },
+    {
+      "key": "lollipop",
+      "word": "klubba",
+      "split": [
+        "klub",
+        "ba"
+      ]
+    },
+    {
+      "key": "lunchbox",
+      "word": "matlåda",
+      "split": [
+        "mat",
+        "lå",
+        "da"
+      ]
+    },
+    {
+      "key": "mailbox",
+      "word": "brevlåda",
+      "split": [
+        "brev",
+        "lå",
+        "da"
+      ]
+    },
+    {
+      "key": "map",
+      "word": "karta",
+      "split": [
+        "kar",
+        "ta"
+      ]
+    },
+    {
+      "key": "marigold",
+      "word": "ringblomma",
+      "split": [
+        "ring",
+        "blom",
+        "ma"
+      ]
+    },
+    {
+      "key": "marker",
+      "word": "tuschpenna",
+      "split": [
+        "tusch",
+        "pen",
+        "na"
+      ]
+    },
+    {
+      "key": "medal",
+      "word": "medalj",
+      "split": [
+        "me",
+        "dalj"
+      ]
+    },
+    {
+      "key": "melon",
+      "word": "melon",
+      "split": [
+        "me",
+        "lon"
+      ]
+    },
+    {
+      "key": "millipede",
+      "word": "mångfoting",
+      "split": [
+        "mång",
+        "fo",
+        "ting"
+      ]
+    },
+    {
+      "key": "mirror",
+      "word": "spegel",
+      "split": [
+        "spe",
+        "gel"
+      ]
+    },
+    {
+      "key": "mitten",
+      "word": "vante",
+      "split": [
+        "van",
+        "te"
+      ]
+    },
+    {
+      "key": "mixer",
+      "word": "elvisp",
+      "split": [
+        "el",
+        "visp"
+      ]
+    },
+    {
+      "key": "mosquito",
+      "word": "mygga",
+      "split": [
+        "myg",
+        "ga"
+      ]
+    },
+    {
+      "key": "muffin",
+      "word": "muffin",
+      "split": [
+        "muf",
+        "fin"
+      ]
+    },
+    {
+      "key": "musician",
+      "word": "musiker",
+      "split": [
+        "mu",
+        "si",
+        "ker"
+      ]
+    },
+    {
+      "key": "narwhal",
+      "word": "narval",
+      "split": [
+        "nar",
+        "val"
+      ]
+    },
+    {
+      "key": "necklace",
+      "word": "halsband",
+      "split": [
+        "hals",
+        "band"
+      ]
+    },
+    {
+      "key": "nectarine",
+      "word": "nektarin",
+      "split": [
+        "nek",
+        "ta",
+        "rin"
+      ]
+    },
+    {
+      "key": "nut",
+      "word": "mutter",
+      "split": [
+        "mut",
+        "ter"
+      ]
+    },
+    {
+      "key": "oatmeal",
+      "word": "havregryn",
+      "split": [
+        "hav",
+        "re",
+        "gryn"
+      ]
+    },
+    {
+      "key": "ornament",
+      "word": "julkula",
+      "split": [
+        "jul",
+        "ku",
+        "la"
+      ]
+    },
+    {
+      "key": "otter",
+      "word": "utter",
+      "split": [
+        "ut",
+        "ter"
+      ]
+    },
+    {
+      "key": "owl",
+      "word": "uggla",
+      "split": [
+        "ugg",
+        "la"
+      ]
+    },
+    {
+      "key": "package",
+      "word": "paket",
+      "split": [
+        "pa",
+        "ket"
+      ]
+    },
+    {
+      "key": "pajamas",
+      "word": "pyjamas",
+      "split": [
+        "py",
+        "ja",
+        "mas"
+      ]
+    },
+    {
+      "key": "pan",
+      "word": "stekpanna",
+      "split": [
+        "stek",
+        "pan",
+        "na"
+      ]
+    },
+    {
+      "key": "pancake",
+      "word": "pannkaka",
+      "split": [
+        "pann",
+        "ka",
+        "ka"
+      ]
+    },
+    {
+      "key": "panda",
+      "word": "panda",
+      "split": [
+        "pan",
+        "da"
+      ]
+    },
+    {
+      "key": "pants",
+      "word": "byxor",
+      "split": [
+        "byx",
+        "or"
+      ]
+    },
+    {
+      "key": "paper",
+      "word": "papper",
+      "split": [
+        "pap",
+        "per"
+      ]
+    },
+    {
+      "key": "pasta",
+      "word": "pasta",
+      "split": [
+        "pas",
+        "ta"
+      ]
+    },
+    {
+      "key": "peach",
+      "word": "persika",
+      "split": [
+        "per",
+        "si",
+        "ka"
+      ]
+    },
+    {
+      "key": "peacock",
+      "word": "påfågel",
+      "split": [
+        "på",
+        "få",
+        "gel"
+      ]
+    },
+    {
+      "key": "pear",
+      "word": "päron",
+      "split": [
+        "pä",
+        "ron"
+      ]
+    },
+    {
+      "key": "peas",
+      "word": "ärtor",
+      "split": [
+        "är",
+        "tor"
+      ]
+    },
+    {
+      "key": "peeler",
+      "word": "skalare",
+      "split": [
+        "ska",
+        "la",
+        "re"
+      ]
+    },
+    {
+      "key": "pegasus",
+      "word": "pegasus",
+      "split": [
+        "pe",
+        "ga",
+        "sus"
+      ]
+    },
+    {
+      "key": "pen",
+      "word": "penna",
+      "split": [
+        "pen",
+        "na"
+      ]
+    },
+    {
+      "key": "pencil",
+      "word": "penna",
+      "split": [
+        "pen",
+        "na"
+      ]
+    },
+    {
+      "key": "penguin",
+      "word": "pingvin",
+      "split": [
+        "ping",
+        "vin"
+      ]
+    },
+    {
+      "key": "pentagon",
+      "word": "femhörning",
+      "split": [
+        "fem",
+        "hör",
+        "ning"
+      ]
+    },
+    {
+      "key": "photographer",
+      "word": "fotograf",
+      "split": [
+        "fo",
+        "to",
+        "graf"
+      ]
+    },
+    {
+      "key": "picnic",
+      "word": "picknick",
+      "split": [
+        "pick",
+        "nick"
+      ]
+    },
+    {
+      "key": "pillow",
+      "word": "kudde",
+      "split": [
+        "kud",
+        "de"
+      ]
+    },
+    {
+      "key": "pilot",
+      "word": "pilot",
+      "split": [
+        "pi",
+        "lot"
+      ]
+    },
+    {
+      "key": "pinecone",
+      "word": "kotte",
+      "split": [
+        "kot",
+        "te"
+      ]
+    },
+    {
+      "key": "pitcher",
+      "word": "kanna",
+      "split": [
+        "kan",
+        "na"
+      ]
+    },
+    {
+      "key": "pizza",
+      "word": "pizza",
+      "split": [
+        "piz",
+        "za"
+      ]
+    },
+    {
+      "key": "planet",
+      "word": "planet",
+      "split": [
+        "pla",
+        "net"
+      ]
+    },
+    {
+      "key": "plate",
+      "word": "tallrik",
+      "split": [
+        "tall",
+        "rik"
+      ]
+    },
+    {
+      "key": "popsicle",
+      "word": "isglass",
+      "split": [
+        "is",
+        "glass"
+      ]
+    },
+    {
+      "key": "porcupine",
+      "word": "piggsvin",
+      "split": [
+        "pigg",
+        "svin"
+      ]
+    },
+    {
+      "key": "pot",
+      "word": "gryta",
+      "split": [
+        "gry",
+        "ta"
+      ]
+    },
+    {
+      "key": "potato",
+      "word": "potatis",
+      "split": [
+        "po",
+        "ta",
+        "tis"
+      ]
+    },
+    {
+      "key": "present",
+      "word": "present",
+      "split": [
+        "pre",
+        "sent"
+      ]
+    },
+    {
+      "key": "pretzel",
+      "word": "kringla",
+      "split": [
+        "kring",
+        "la"
+      ]
+    },
+    {
+      "key": "pudding",
+      "word": "pudding",
+      "split": [
+        "pud",
+        "ding"
+      ]
+    },
+    {
+      "key": "pufferfish",
+      "word": "blåsfisk",
+      "split": [
+        "blås",
+        "fisk"
+      ]
+    },
+    {
+      "key": "pumpkin",
+      "word": "pumpa",
+      "split": [
+        "pum",
+        "pa"
+      ]
+    },
+    {
+      "key": "puzzle",
+      "word": "pussel",
+      "split": [
+        "pus",
+        "sel"
+      ]
+    },
+    {
+      "key": "pyramid",
+      "word": "pyramid",
+      "split": [
+        "py",
+        "ra",
+        "mid"
+      ]
+    },
+    {
+      "key": "quail",
+      "word": "vaktel",
+      "split": [
+        "vak",
+        "tel"
+      ]
+    },
+    {
+      "key": "rabbit",
+      "word": "kanin",
+      "split": [
+        "ka",
+        "nin"
+      ]
+    },
+    {
+      "key": "raccoon",
+      "word": "tvättbjörn",
+      "split": [
+        "tvätt",
+        "björn"
+      ]
+    },
+    {
+      "key": "radish",
+      "word": "rädisa",
+      "split": [
+        "rä",
+        "di",
+        "sa"
+      ]
+    },
+    {
+      "key": "rainbow",
+      "word": "regnbåge",
+      "split": [
+        "regn",
+        "bå",
+        "ge"
+      ]
+    },
+    {
+      "key": "raincoat",
+      "word": "regnrock",
+      "split": [
+        "regn",
+        "rock"
+      ]
+    },
+    {
+      "key": "raindrop",
+      "word": "regndroppe",
+      "split": [
+        "regn",
+        "drop",
+        "pe"
+      ]
+    },
+    {
+      "key": "rake",
+      "word": "kratta",
+      "split": [
+        "krat",
+        "ta"
+      ]
+    },
+    {
+      "key": "raspberry",
+      "word": "hallon",
+      "split": [
+        "hal",
+        "lon"
+      ]
+    },
+    {
+      "key": "rectangle",
+      "word": "rektangel",
+      "split": [
+        "rek",
+        "tang",
+        "el"
+      ]
+    },
+    {
+      "key": "refrigerator",
+      "word": "kylskåp",
+      "split": [
+        "kyl",
+        "skåp"
+      ]
+    },
+    {
+      "key": "rhinoceros",
+      "word": "noshörning",
+      "split": [
+        "nos",
+        "hör",
+        "ning"
+      ]
+    },
+    {
+      "key": "robin",
+      "word": "rödhake",
+      "split": [
+        "röd",
+        "ha",
+        "ke"
+      ]
+    },
+    {
+      "key": "robot",
+      "word": "robot",
+      "split": [
+        "ro",
+        "bot"
+      ]
+    },
+    {
+      "key": "rock",
+      "word": "klippa",
+      "split": [
+        "klip",
+        "pa"
+      ]
+    },
+    {
+      "key": "rocket",
+      "word": "raket",
+      "split": [
+        "ra",
+        "ket"
+      ]
+    },
+    {
+      "key": "rug",
+      "word": "matta",
+      "split": [
+        "mat",
+        "ta"
+      ]
+    },
+    {
+      "key": "ruler",
+      "word": "linjal",
+      "split": [
+        "lin",
+        "jal"
+      ]
+    },
+    {
+      "key": "sailboat",
+      "word": "segelbåt",
+      "split": [
+        "se",
+        "gel",
+        "båt"
+      ]
+    },
+    {
+      "key": "sandals",
+      "word": "sandaler",
+      "split": [
+        "san",
+        "da",
+        "ler"
+      ]
+    },
+    {
+      "key": "sandbox",
+      "word": "sandlåda",
+      "split": [
+        "sand",
+        "lå",
+        "da"
+      ]
+    },
+    {
+      "key": "sandcastle",
+      "word": "sandslott",
+      "split": [
+        "sand",
+        "slott"
+      ]
+    },
+    {
+      "key": "santa",
+      "word": "jultomten",
+      "split": [
+        "jul",
+        "tom",
+        "ten"
+      ]
+    },
+    {
+      "key": "satellite",
+      "word": "satellit",
+      "split": [
+        "sa",
+        "tel",
+        "lit"
+      ]
+    },
+    {
+      "key": "saxophone",
+      "word": "saxofon",
+      "split": [
+        "sax",
+        "o",
+        "fon"
+      ]
+    },
+    {
+      "key": "scarf",
+      "word": "halsduk",
+      "split": [
+        "hals",
+        "duk"
+      ]
+    },
+    {
+      "key": "scooter",
+      "word": "sparkcykel",
+      "split": [
+        "spark",
+        "cy",
+        "kel"
+      ]
+    },
+    {
+      "key": "seagull",
+      "word": "fiskmås",
+      "split": [
+        "fisk",
+        "mås"
+      ]
+    },
+    {
+      "key": "seaweed",
+      "word": "sjögräs",
+      "split": [
+        "sjö",
+        "gräs"
+      ]
+    },
+    {
+      "key": "shampoo",
+      "word": "schampo",
+      "split": [
+        "scham",
+        "po"
+      ]
+    },
+    {
+      "key": "shelf",
+      "word": "hylla",
+      "split": [
+        "hyl",
+        "la"
+      ]
+    },
+    {
+      "key": "shirt",
+      "word": "skjorta",
+      "split": [
+        "skjor",
+        "ta"
+      ]
+    },
+    {
+      "key": "shovel",
+      "word": "spade",
+      "split": [
+        "spa",
+        "de"
+      ]
+    },
+    {
+      "key": "singer",
+      "word": "sångare",
+      "split": [
+        "sång",
+        "a",
+        "re"
+      ]
+    },
+    {
+      "key": "sink",
+      "word": "diskbank",
+      "split": [
+        "disk",
+        "bank"
+      ]
+    },
+    {
+      "key": "skiing",
+      "word": "skidåkning",
+      "split": [
+        "ski",
+        "dåk",
+        "ning"
+      ]
+    },
+    {
+      "key": "sleigh",
+      "word": "släde",
+      "split": [
+        "slä",
+        "de"
+      ]
+    },
+    {
+      "key": "slide",
+      "word": "rutschkana",
+      "split": [
+        "rutsch",
+        "ka",
+        "na"
+      ]
+    },
+    {
+      "key": "slippers",
+      "word": "tofflor",
+      "split": [
+        "toff",
+        "lor"
+      ]
+    },
+    {
+      "key": "slug",
+      "word": "snigel",
+      "split": [
+        "sni",
+        "gel"
+      ]
+    },
+    {
+      "key": "snail",
+      "word": "snigel",
+      "split": [
+        "sni",
+        "gel"
+      ]
+    },
+    {
+      "key": "snorkel",
+      "word": "snorkel",
+      "split": [
+        "snor",
+        "kel"
+      ]
+    },
+    {
+      "key": "snowman",
+      "word": "snögubbe",
+      "split": [
+        "snö",
+        "gub",
+        "be"
+      ]
+    },
+    {
+      "key": "snowsuit",
+      "word": "snödräkt",
+      "split": [
+        "snö",
+        "dräkt"
+      ]
+    },
+    {
+      "key": "sock",
+      "word": "strumpa",
+      "split": [
+        "strum",
+        "pa"
+      ]
+    },
+    {
+      "key": "sofa",
+      "word": "soffa",
+      "split": [
+        "sof",
+        "fa"
+      ]
+    },
+    {
+      "key": "spider",
+      "word": "spindel",
+      "split": [
+        "spin",
+        "del"
+      ]
+    },
+    {
+      "key": "spinach",
+      "word": "spenat",
+      "split": [
+        "spe",
+        "nat"
+      ]
+    },
+    {
+      "key": "squid",
+      "word": "bläckfisk",
+      "split": [
+        "bläck",
+        "fisk"
+      ]
+    },
+    {
+      "key": "stairs",
+      "word": "trappa",
+      "split": [
+        "trap",
+        "pa"
+      ]
+    },
+    {
+      "key": "stamp",
+      "word": "stämpel",
+      "split": [
+        "stäm",
+        "pel"
+      ]
+    },
+    {
+      "key": "star",
+      "word": "stjärna",
+      "split": [
+        "stjär",
+        "na"
+      ]
+    },
+    {
+      "key": "starfish",
+      "word": "sjöstjärna",
+      "split": [
+        "sjö",
+        "stjär",
+        "na"
+      ]
+    },
+    {
+      "key": "stethoscope",
+      "word": "stetoskop",
+      "split": [
+        "ste",
+        "to",
+        "skop"
+      ]
+    },
+    {
+      "key": "strawberry",
+      "word": "jordgubbe",
+      "split": [
+        "jord",
+        "gub",
+        "be"
+      ]
+    },
+    {
+      "key": "sunflower",
+      "word": "solros",
+      "split": [
+        "sol",
+        "ros"
+      ]
+    },
+    {
+      "key": "surfboard",
+      "word": "surfbräda",
+      "split": [
+        "surf",
+        "brä",
+        "da"
+      ]
+    },
+    {
+      "key": "sweater",
+      "word": "tröja",
+      "split": [
+        "trö",
+        "ja"
+      ]
+    },
+    {
+      "key": "swimsuit",
+      "word": "baddräkt",
+      "split": [
+        "bad",
+        "dräkt"
+      ]
+    },
+    {
+      "key": "syringe",
+      "word": "spruta",
+      "split": [
+        "spru",
+        "ta"
+      ]
+    },
+    {
+      "key": "tablet",
+      "word": "surfplatta",
+      "split": [
+        "surf",
+        "plat",
+        "ta"
+      ]
+    },
+    {
+      "key": "tailor",
+      "word": "skräddare",
+      "split": [
+        "skräd",
+        "da",
+        "re"
+      ]
+    },
+    {
+      "key": "tart",
+      "word": "tårta",
+      "split": [
+        "tår",
+        "ta"
+      ]
+    },
+    {
+      "key": "teacher",
+      "word": "lärare",
+      "split": [
+        "lä",
+        "ra",
+        "re"
+      ]
+    },
+    {
+      "key": "teapot",
+      "word": "tekanna",
+      "split": [
+        "te",
+        "kan",
+        "na"
+      ]
+    },
+    {
+      "key": "telephone",
+      "word": "telefon",
+      "split": [
+        "te",
+        "le",
+        "fon"
+      ]
+    },
+    {
+      "key": "thumb",
+      "word": "tumme",
+      "split": [
+        "tum",
+        "me"
+      ]
+    },
+    {
+      "key": "tiger",
+      "word": "tiger",
+      "split": [
+        "ti",
+        "ger"
+      ]
+    },
+    {
+      "key": "timer",
+      "word": "timer",
+      "split": [
+        "ti",
+        "mer"
+      ]
+    },
+    {
+      "key": "tissue",
+      "word": "näsduk",
+      "split": [
+        "näs",
+        "duk"
+      ]
+    },
+    {
+      "key": "toad",
+      "word": "padda",
+      "split": [
+        "pad",
+        "da"
+      ]
+    },
+    {
+      "key": "toaster",
+      "word": "brödrost",
+      "split": [
+        "bröd",
+        "rost"
+      ]
+    },
+    {
+      "key": "tomato",
+      "word": "tomat",
+      "split": [
+        "to",
+        "mat"
+      ]
+    },
+    {
+      "key": "toothbrush",
+      "word": "tandborste",
+      "split": [
+        "tand",
+        "bors",
+        "te"
+      ]
+    },
+    {
+      "key": "toothpaste",
+      "word": "tandkräm",
+      "split": [
+        "tand",
+        "kräm"
+      ]
+    },
+    {
+      "key": "toucan",
+      "word": "tukan",
+      "split": [
+        "tu",
+        "kan"
+      ]
+    },
+    {
+      "key": "tractor",
+      "word": "traktor",
+      "split": [
+        "trak",
+        "tor"
+      ]
+    },
+    {
+      "key": "trapezoid",
+      "word": "trapets",
+      "split": [
+        "tra",
+        "pets"
+      ]
+    },
+    {
+      "key": "trombone",
+      "word": "trombon",
+      "split": [
+        "trom",
+        "bon"
+      ]
+    },
+    {
+      "key": "truck",
+      "word": "lastbil",
+      "split": [
+        "last",
+        "bil"
+      ]
+    },
+    {
+      "key": "trumpet",
+      "word": "trumpet",
+      "split": [
+        "trum",
+        "pet"
+      ]
+    },
+    {
+      "key": "tulip",
+      "word": "tulpan",
+      "split": [
+        "tul",
+        "pan"
+      ]
+    },
+    {
+      "key": "tuna",
+      "word": "tonfisk",
+      "split": [
+        "ton",
+        "fisk"
+      ]
+    },
+    {
+      "key": "turkey",
+      "word": "kalkon",
+      "split": [
+        "kal",
+        "kon"
+      ]
+    },
+    {
+      "key": "turtle",
+      "word": "sköldpadda",
+      "split": [
+        "sköld",
+        "pad",
+        "da"
+      ]
+    },
+    {
+      "key": "umbrella",
+      "word": "paraply",
+      "split": [
+        "pa",
+        "ra",
+        "ply"
+      ]
+    },
+    {
+      "key": "underpants",
+      "word": "kalsonger",
+      "split": [
+        "kal",
+        "song",
+        "er"
+      ]
+    },
+    {
+      "key": "van",
+      "word": "skåpbil",
+      "split": [
+        "skåp",
+        "bil"
+      ]
+    },
+    {
+      "key": "waffle",
+      "word": "våffla",
+      "split": [
+        "våff",
+        "la"
+      ]
+    },
+    {
+      "key": "waitress",
+      "word": "servitris",
+      "split": [
+        "ser",
+        "vi",
+        "tris"
+      ]
+    },
+    {
+      "key": "wallet",
+      "word": "plånbok",
+      "split": [
+        "plån",
+        "bok"
+      ]
+    },
+    {
+      "key": "walrus",
+      "word": "valross",
+      "split": [
+        "val",
+        "ross"
+      ]
+    },
+    {
+      "key": "wand",
+      "word": "trollstav",
+      "split": [
+        "troll",
+        "stav"
+      ]
+    },
+    {
+      "key": "wardrobe",
+      "word": "garderob",
+      "split": [
+        "gar",
+        "de",
+        "rob"
+      ]
+    },
+    {
+      "key": "wasp",
+      "word": "geting",
+      "split": [
+        "ge",
+        "ting"
+      ]
+    },
+    {
+      "key": "water",
+      "word": "vatten",
+      "split": [
+        "vat",
+        "ten"
+      ]
+    },
+    {
+      "key": "wheelchair",
+      "word": "rullstol",
+      "split": [
+        "rull",
+        "stol"
+      ]
+    },
+    {
+      "key": "window",
+      "word": "fönster",
+      "split": [
+        "föns",
+        "ter"
+      ]
+    },
+    {
+      "key": "woodpecker",
+      "word": "hackspett",
+      "split": [
+        "hack",
+        "spett"
+      ]
+    },
+    {
+      "key": "xylophone",
+      "word": "xylofon",
+      "split": [
+        "xy",
+        "lo",
+        "fon"
+      ]
+    }
+  ],
+  "whitelist": {},
+  "ban": [
+    "angry",
+    "ankle",
+    "aster",
+    "author",
+    "badge",
+    "barbecue",
+    "barrette",
+    "basketball",
+    "beanie",
+    "biking",
+    "black",
+    "blue",
+    "bookcase",
+    "bookshelf",
+    "brain",
+    "brown",
+    "butter",
+    "cabana",
+    "camping",
+    "capricious",
+    "carpet",
+    "cast",
+    "cheeks",
+    "chess",
+    "chimpanzee",
+    "chinchilla",
+    "clementine",
+    "cloudy",
+    "colander",
+    "cold",
+    "comet",
+    "confused",
+    "content",
+    "cook",
+    "coral",
+    "couch",
+    "crocus",
+    "cymbals",
+    "dancing",
+    "delivery",
+    "doughnut",
+    "earth",
+    "elbow",
+    "excited",
+    "falcon",
+    "ferret",
+    "fireplace",
+    "fishing",
+    "forehead",
+    "forest",
+    "galaxy",
+    "garden",
+    "garland",
+    "gazelle",
+    "gecko",
+    "girl",
+    "gopher",
+    "gray",
+    "green",
+    "gymnastics",
+    "hair",
+    "happy",
+    "harvest",
+    "heel",
+    "hiking",
+    "hornbill",
+    "hot",
+    "ice",
+    "island",
+    "jar",
+    "jasmine",
+    "judge",
+    "jumping",
+    "jupiter",
+    "kingfisher",
+    "kitchen",
+    "knitting",
+    "lake",
+    "lemur",
+    "liberty",
+    "lotus",
+    "magpie",
+    "manatee",
+    "mars",
+    "mask",
+    "medicine",
+    "meerkat",
+    "merry",
+    "mistletoe",
+    "mittens",
+    "muscles",
+    "nail",
+    "nativity",
+    "neptune",
+    "octopus",
+    "orchard",
+    "ottoman",
+    "paramedic",
+    "pelican",
+    "persimmon",
+    "phlox",
+    "photography",
+    "playground",
+    "pliers",
+    "plum",
+    "pottery",
+    "pretzels",
+    "rain",
+    "rainy",
+    "red",
+    "rice",
+    "river",
+    "rudolph",
+    "sad",
+    "scale",
+    "scared",
+    "scarlet",
+    "science",
+    "sewing",
+    "shorts",
+    "shy",
+    "skeleton",
+    "sled",
+    "snowdrop",
+    "soccer",
+    "spade",
+    "sparrow",
+    "sphere",
+    "sponge",
+    "stage",
+    "statue",
+    "stormy",
+    "subway",
+    "sunny",
+    "surprised",
+    "suspenders",
+    "swallow",
+    "swimming",
+    "tennis",
+    "tired",
+    "toe",
+    "tongs",
+    "trail",
+    "tree",
+    "trillium",
+    "trousers",
+    "turquoise",
+    "venus",
+    "weasel",
+    "white",
+    "wisteria",
+    "worm",
+    "wrist",
+    "writing",
+    "x-ray",
+    "yellow"
+  ],
+  "refuse": {
+    "finalMuteE": false
+  },
+  "sepMode": "hyphen",
+  "strings": {
+    "G1-306": {
+      "title": "Ljuda ihop ord: läs och skriv",
+      "instruction": "Läs alla ord på läsmattan högt. Säg ordet till varje bild, hitta det på mattan och skriv det på raden."
+    },
+    "G1-330": {
+      "title": "Ljuda ihop ord: läs och ringa in",
+      "instruction": "Läs orden på läsmattan högt. Säg ordet till varje bild och ringa in det ord under bilden som passar."
+    },
+    "G1-331": {
+      "title": "Sätt ihop stavelserna och skriv ordet",
+      "instruction": "Läs de två stavelserna på varje kort i ordning. Säg dem tillsammans och skriv hela ordet på raden."
+    },
+    "G1-332": {
+      "title": "Läsmatta: läs och färglägg orden",
+      "instruction": "Läs alla ord på läsmattan högt. Hitta sedan ordet till varje bild på mattan och färglägg det i bildens färg."
+    },
+    "G1-333": {
+      "title": "Ord med konsonanter som hör ihop: läs och skriv",
+      "instruction": "Läs alla ord på läsmattan högt. Säg ordet till varje bild, hitta det på mattan och skriv det på raden."
+    },
+    "G1-334": {
+      "title": "Läs stavelserna och hitta bilden",
+      "instruction": "Läs varje ord stavelse för stavelse. Hitta bilden i banken högst upp och skriv bildens siffra i rutan."
+    }
+  }
+}

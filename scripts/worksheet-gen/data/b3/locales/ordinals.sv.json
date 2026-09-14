@@ -1,0 +1,440 @@
+{
+  "notation": {
+    "1": "1:a",
+    "2": "2:a",
+    "3": "3:e",
+    "4": "4:e",
+    "5": "5:e",
+    "6": "6:e",
+    "7": "7:e",
+    "8": "8:e",
+    "9": "9:e",
+    "10": "10:e"
+  },
+  "notationF": null,
+  "alt": {},
+  "words": [
+    {
+      "k": 1,
+      "m": "första",
+      "f": null
+    },
+    {
+      "k": 2,
+      "m": "andra",
+      "f": null
+    },
+    {
+      "k": 3,
+      "m": "tredje",
+      "f": null
+    },
+    {
+      "k": 4,
+      "m": "fjärde",
+      "f": null
+    },
+    {
+      "k": 5,
+      "m": "femte",
+      "f": null
+    },
+    {
+      "k": 6,
+      "m": "sjätte",
+      "f": null
+    },
+    {
+      "k": 7,
+      "m": "sjunde",
+      "f": null
+    },
+    {
+      "k": 8,
+      "m": "åttonde",
+      "f": null
+    },
+    {
+      "k": 9,
+      "m": "nionde",
+      "f": null
+    },
+    {
+      "k": 10,
+      "m": "tionde",
+      "f": null
+    }
+  ],
+  "capital": false,
+  "genderPolicy": "position",
+  "where": {
+    "label": "Vilken plats?",
+    "printed": false
+  },
+  "wordPx": 22,
+  "exemplar": "animals",
+  "lookalikes": {
+    "animals": [
+      [
+        "jaguar",
+        "leopard"
+      ],
+      [
+        "antelope",
+        "reindeer"
+      ],
+      [
+        "cat",
+        "tiger"
+      ],
+      [
+        "dolphin",
+        "whale"
+      ]
+    ],
+    "zoo animals": [
+      [
+        "antelope",
+        "gazelle",
+        "reindeer"
+      ],
+      [
+        "jaguar",
+        "leopard",
+        "cheetah"
+      ],
+      [
+        "chimpanzee",
+        "gorilla"
+      ],
+      [
+        "monkey",
+        "orangutan"
+      ],
+      [
+        "meerkat",
+        "otter"
+      ],
+      [
+        "tiger",
+        "hyena"
+      ]
+    ],
+    "farm animals": [
+      [
+        "chicken",
+        "hen"
+      ],
+      [
+        "chick",
+        "duckling",
+        "duck"
+      ],
+      [
+        "calf",
+        "cow"
+      ],
+      [
+        "foal",
+        "horse"
+      ],
+      [
+        "lamb",
+        "sheep"
+      ],
+      [
+        "bull",
+        "ox"
+      ]
+    ],
+    "pets": [
+      [
+        "fish",
+        "goldfish"
+      ],
+      [
+        "gecko",
+        "iguana"
+      ],
+      [
+        "hamster",
+        "gerbil",
+        "mouse"
+      ],
+      [
+        "tortoise",
+        "turtle"
+      ],
+      [
+        "cockatiel",
+        "finch"
+      ]
+    ],
+    "vehicles": [
+      [
+        "boat",
+        "ship",
+        "ferry"
+      ],
+      [
+        "car",
+        "jeep"
+      ],
+      [
+        "airplane",
+        "jet"
+      ],
+      [
+        "bulldozer",
+        "excavator",
+        "crane"
+      ],
+      [
+        "truck",
+        "van"
+      ]
+    ],
+    "toys": [
+      [
+        "doll",
+        "girl"
+      ],
+      [
+        "dice",
+        "domino"
+      ],
+      [
+        "blocks",
+        "lego"
+      ],
+      [
+        "airplane",
+        "helicopter"
+      ],
+      [
+        "train",
+        "truck"
+      ]
+    ],
+    "dinosaurs": [
+      [
+        "argentinosaurus",
+        "brontosaurus"
+      ],
+      [
+        "diplodocus",
+        "therizinosaurus"
+      ],
+      [
+        "maiasaura",
+        "parasaurolophus"
+      ],
+      [
+        "carnotaurus",
+        "deinonychus",
+        "mosasaurus"
+      ]
+    ],
+    "birds 2": [
+      [
+        "chicken",
+        "hen"
+      ],
+      [
+        "crane",
+        "seagull"
+      ],
+      [
+        "goose",
+        "swan"
+      ],
+      [
+        "canary",
+        "finch"
+      ],
+      [
+        "swallow",
+        "sparrow",
+        "magpie"
+      ],
+      [
+        "robin",
+        "quail"
+      ],
+      [
+        "macaw",
+        "parrot"
+      ]
+    ],
+    "forest creatures": [
+      [
+        "chipmunk",
+        "squirrel"
+      ],
+      [
+        "frog",
+        "toad"
+      ],
+      [
+        "hedgehog",
+        "porcupine"
+      ],
+      [
+        "bear",
+        "beaver"
+      ],
+      [
+        "gopher",
+        "weasel"
+      ],
+      [
+        "snail",
+        "slug"
+      ],
+      [
+        "deer",
+        "moose"
+      ],
+      [
+        "eagle",
+        "hawk"
+      ],
+      [
+        "ant",
+        "spider"
+      ]
+    ],
+    "fruits": [
+      [
+        "apricot",
+        "clementine",
+        "orange",
+        "persimmon",
+        "nectarine",
+        "peach",
+        "mango"
+      ],
+      [
+        "apple",
+        "cherry",
+        "cranberry",
+        "plum",
+        "pomegranate"
+      ],
+      [
+        "lemon",
+        "lime"
+      ],
+      [
+        "blackberry",
+        "raspberry"
+      ]
+    ]
+  },
+  "racers": [
+    "animals",
+    "zoo animals",
+    "farm animals",
+    "pets",
+    "vehicles",
+    "dinosaurs",
+    "birds 2",
+    "forest creatures"
+  ],
+  "facing": {
+    "animals": {
+      "default": "left",
+      "duck": "right"
+    },
+    "zoo animals": {
+      "default": "left"
+    },
+    "farm animals": {
+      "default": "left",
+      "chick": "right"
+    },
+    "pets": {
+      "default": "left",
+      "fish": "right",
+      "parrot": "right",
+      "tortoise": "right",
+      "mouse": "right"
+    },
+    "vehicles": {
+      "default": "left",
+      "bicycle": "right",
+      "bulldozer": "right",
+      "forklift": "right",
+      "rocket": "right",
+      "yacht": "right",
+      "canoe": "front",
+      "sailboat": "front"
+    },
+    "dinosaurs": {
+      "default": "left",
+      "deinonychus": "right",
+      "oviraptor": "right",
+      "velociraptor": "right",
+      "carnotaurus": "front"
+    },
+    "birds 2": {
+      "default": "left",
+      "cardinal": "right",
+      "canary": "right",
+      "dove": "right",
+      "duck": "right",
+      "finch": "right",
+      "hawk": "right",
+      "hen": "right",
+      "heron": "right",
+      "magpie": "right",
+      "kingfisher": "right",
+      "ostrich": "right",
+      "pelican": "right",
+      "rooster": "right",
+      "toucan": "right",
+      "woodpecker": "right"
+    },
+    "forest creatures": {
+      "default": "left",
+      "ant": "right",
+      "cardinal": "right",
+      "caterpillar": "right",
+      "earthworm": "right",
+      "finch": "right",
+      "firefly": "right",
+      "snail": "right"
+    }
+  },
+  "noRace": {
+    "vehicles": [
+      "taxi"
+    ]
+  },
+  "strings": {
+    "K-320": {
+      "title": "Ordningstal: hitta platsen i raden",
+      "instruction": "Börja vid flaggan. Räkna fram till talet på varje bricka och gör det märke som brickan visar."
+    },
+    "F1": {
+      "title": "Skriv de ordningstal som saknas",
+      "instruction": "Några platser är redan skrivna. Skriv ordningstalen som saknas i de tomma rutorna. Räkna från flaggan."
+    },
+    "F2": {
+      "title": "Ordningstal med bokstäver: dra ett streck till bilden",
+      "instruction": "Läs varje ordningstal och dra ett streck till bilden som står på den platsen. Räkna från flaggan."
+    },
+    "F3": {
+      "title": "Vilken plats? Skriv ordningstalet",
+      "instruction": "Hitta varje liten bild i sin rad och skriv vilken plats den står på. Räkna från flaggan."
+    },
+    "F4": {
+      "title": "Ordningstal från andra hållet: börja vid flaggan",
+      "instruction": "Leta först upp flaggan: den kan stå i vilken ände som helst. Börja där, räkna till talet på brickan och gör märket som brickan visar."
+    },
+    "F5": {
+      "title": "Vem vinner loppet? Skriv placeringen",
+      "instruction": "Titta hur nära mållinjen varje löpare är. Den närmaste är 1:a. Skriv 1:a, 2:a, 3:e, 4:e, 5:e och 6:e."
+    }
+  }
+}

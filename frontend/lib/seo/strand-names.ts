@@ -136,6 +136,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     it: 'Lettura: testi informativi', // nt20-C panel (tools/apply-b3-locale.js)
     da: 'Læsning: fagtekster', // nt20-C panel (tools/apply-b3-locale.js)
     pt: 'Leitura de textos informativos', // nt20-C panel (tools/apply-b3-locale.js)
+    sv: 'Läsa: faktatexter', // nt20-C panel (tools/apply-b3-locale.js)
   },
   // Reading: Literature (RL — answer key-detail questions about an erzählende Geschichte). de literacy
   // fan-out opener (picture-story RL.K.1); literary COMPREHENSION — the distinct literary Bereich
@@ -150,6 +151,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     es: 'Lectura de textos literarios', // nt20-C panel (tools/apply-b3-locale.js)
     it: 'Lettura: testi narrativi', // nt20-C panel (tools/apply-b3-locale.js)
     da: 'Læsning: skønlitteratur', // nt20-C panel (tools/apply-b3-locale.js)
+    sv: 'Läsa: berättande texter', // nt20-C panel (tools/apply-b3-locale.js)
   },
   // Writing (composing texts). KMK Bereich „Texte verfassen"; opens the Writing
   // strand — the platform's first W activity (wobble-museum, beim Thema bleiben).
@@ -162,6 +164,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     fr: 'Écriture', // nt20-C panel (tools/apply-b3-locale.js)
     it: 'Scrittura', // nt20-C panel (tools/apply-b3-locale.js)
     da: 'Fremstilling', // nt20-C panel (tools/apply-b3-locale.js)
+    sv: 'Skriva', // nt20-C panel (tools/apply-b3-locale.js)
   },
   // Phonological Awareness (pre-reading sound awareness; literacy). No deployed
   // activity uses this strand yet (forward-looking); all 11 locales curriculum-reviewed.

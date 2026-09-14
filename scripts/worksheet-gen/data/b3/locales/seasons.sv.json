@@ -1,0 +1,72 @@
+{
+  "names": {
+    "winter": "vinter",
+    "spring": "vår",
+    "summer": "sommar",
+    "autumn": "höst"
+  },
+  "alt": {},
+  "model": "temperate-north",
+  "cycleStart": "winter",
+  "cycle": [
+    "winter",
+    "spring",
+    "summer",
+    "autumn"
+  ],
+  "monthSeason": [
+    "winter",
+    "winter",
+    "spring",
+    "spring",
+    "spring",
+    "summer",
+    "summer",
+    "summer",
+    "autumn",
+    "autumn",
+    "autumn",
+    "winter"
+  ],
+  "veto": [],
+  "override": {},
+  "legend": {
+    "winter": "codeBlue",
+    "spring": "codeGreen",
+    "summer": "codeYellow",
+    "autumn": "codeOrange"
+  },
+  "faces": {
+    "tree": {
+      "figure": "tree",
+      "captions": null
+    }
+  },
+  "strings": {
+    "K-322": {
+      "title": "Sortera de fyra årstiderna",
+      "instruction": "Dra ett streck från pricken på varje bild till den årstidsruta där bilden hör hemma."
+    },
+    "K-338": {
+      "title": "Vilken årstid är det?",
+      "instruction": "Titta på de tre bilderna på varje kort och ringa in den årstidssymbol de hör till."
+    },
+    "K-339": {
+      "title": "Årstidshjulet: årstiderna i ordning",
+      "instruction": "En årstid sitter redan på hjulet. Rita de tre andra symbolerna i de tomma cirklarna i rätt ordning."
+    },
+    "K-340": {
+      "title": "Årstider: vilken bild passar inte in?",
+      "instruction": "Stryk över den bild i varje rad som hör till en annan årstid."
+    },
+    "G1-323": {
+      "title": "Månader och årstider: färglägg årstiden",
+      "instruction": "Färglägg cirkeln bredvid varje månad i dess årstids färg."
+    },
+    "K-341": {
+      "title": "Rita trädet under de fyra årstiderna",
+      "instruction": "Rita hur trädet ser ut under var och en av de fyra årstiderna."
+    }
+  },
+  "strand": "Naturorienterande ämnen: året runt i naturen (årstider)"
+}

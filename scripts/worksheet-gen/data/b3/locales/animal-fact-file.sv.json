@@ -1,0 +1,604 @@
+{
+  "labels": {
+    "class": "Djurklass",
+    "habitat": "Var det bor",
+    "diet": "Vad det äter",
+    "legs": "Ben",
+    "covering": "Kroppen har",
+    "fly": "Kan det flyga?",
+    "swim": "Kan det simma?",
+    "special": "Något speciellt:"
+  },
+  "eyebrow": "Namn:",
+  "drawLabel": "Rita var det bor.",
+  "sentence": "En mening om djuret:",
+  "factStarter": "{def} kan",
+  "options": {
+    "class": {
+      "mammal": {
+        "cell": "däggdjur",
+        "inFrame": "ett däggdjur"
+      },
+      "bird": {
+        "cell": "fågel",
+        "inFrame": "en fågel"
+      },
+      "reptile": {
+        "cell": "kräldjur",
+        "inFrame": "ett kräldjur"
+      },
+      "fish": {
+        "cell": "fisk",
+        "inFrame": "en fisk"
+      },
+      "insect": {
+        "cell": "insekt",
+        "inFrame": "en insekt"
+      }
+    },
+    "covering": {
+      "fur": {
+        "cell": "päls",
+        "inFrame": "päls"
+      },
+      "feathers": {
+        "cell": "fjädrar",
+        "inFrame": "fjädrar"
+      },
+      "scales": {
+        "cell": "fjäll",
+        "inFrame": "fjäll"
+      },
+      "shell": {
+        "cell": "skal",
+        "inFrame": "ett skal"
+      },
+      "spines": {
+        "cell": "taggar",
+        "inFrame": "taggar"
+      },
+      "skin": {
+        "cell": "slät hud",
+        "inFrame": "slät hud"
+      }
+    },
+    "diet": {
+      "plants": {
+        "cell": "växter",
+        "inFrame": "växter"
+      },
+      "meat": {
+        "cell": "kött",
+        "inFrame": "kött"
+      },
+      "both": {
+        "cell": "både och",
+        "inFrame": "växter och kött"
+      }
+    },
+    "habitat": {
+      "land": {
+        "cell": "land",
+        "inFrame": "på land"
+      },
+      "water": {
+        "cell": "vatten",
+        "inFrame": "i vatten"
+      },
+      "air": {
+        "cell": "luft",
+        "inFrame": "i luften"
+      }
+    }
+  },
+  "yesno": {
+    "yes": "ja",
+    "no": "nej"
+  },
+  "legsFrames": {
+    "0": "Jag har inga ben.",
+    "2": "Jag har 2 ben.",
+    "4": "Jag har 4 ben.",
+    "6": "Jag har 6 ben.",
+    "8": "Jag har 8 ben."
+  },
+  "animals": {
+    "cat": {
+      "name": "Katt",
+      "title": "Katt",
+      "def": "katten",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "dog": {
+      "name": "Hund",
+      "title": "Hund",
+      "def": "hunden",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "horse": {
+      "name": "Häst",
+      "title": "Häst",
+      "def": "hästen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "rabbit": {
+      "name": "Kanin",
+      "title": "Kanin",
+      "def": "kaninen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "cow": {
+      "name": "Ko",
+      "title": "Ko",
+      "def": "kon",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "pig": {
+      "name": "Gris",
+      "title": "Gris",
+      "def": "grisen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "sheep": {
+      "name": "Får",
+      "title": "Får",
+      "def": "fåret",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "goat": {
+      "name": "Get",
+      "title": "Get",
+      "def": "geten",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "donkey": {
+      "name": "Åsna",
+      "title": "Åsna",
+      "def": "åsnan",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "duck": {
+      "name": "Anka",
+      "title": "Anka",
+      "def": "ankan",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "hen": {
+      "name": "Höna",
+      "title": "Höna",
+      "def": "hönan",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "rooster": {
+      "name": "Tupp",
+      "title": "Tupp",
+      "def": "tuppen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "goose": {
+      "name": "Gås",
+      "title": "Gås",
+      "def": "gåsen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "fox": {
+      "name": "Räv",
+      "title": "Räv",
+      "def": "räven",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "hedgehog": {
+      "name": "Igelkott",
+      "title": "Igelkott",
+      "def": "igelkotten",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "owl": {
+      "name": "Uggla",
+      "title": "Uggla",
+      "def": "ugglan",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "squirrel": {
+      "name": "Ekorre",
+      "title": "Ekorre",
+      "def": "ekorren",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "deer": {
+      "name": "Hjort",
+      "title": "Hjort",
+      "def": "hjorten",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "bear": {
+      "name": "Björn",
+      "title": "Björn",
+      "def": "björnen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "wolf": {
+      "name": "Varg",
+      "title": "Varg",
+      "def": "vargen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "bat": {
+      "name": "Fladdermus",
+      "title": "Fladdermus",
+      "def": "fladdermusen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "beaver": {
+      "name": "Bäver",
+      "title": "Bäver",
+      "def": "bävern",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "moose": {
+      "name": "Älg",
+      "title": "Älg",
+      "def": "älgen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "raccoon": {
+      "name": "Tvättbjörn",
+      "title": "Tvättbjörn",
+      "def": "tvättbjörnen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "butterfly": {
+      "name": "Fjäril",
+      "title": "Fjäril",
+      "def": "fjärilen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "bee": {
+      "name": "Bi",
+      "title": "Bi",
+      "def": "biet",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "ladybug": {
+      "name": "Nyckelpiga",
+      "title": "Nyckelpiga",
+      "def": "nyckelpigan",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "ant": {
+      "name": "Myra",
+      "title": "Myra",
+      "def": "myran",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "lion": {
+      "name": "Lejon",
+      "title": "Lejon",
+      "def": "lejonet",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "tiger": {
+      "name": "Tiger",
+      "title": "Tiger",
+      "def": "tigern",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "elephant": {
+      "name": "Elefant",
+      "title": "Elefant",
+      "def": "elefanten",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "giraffe": {
+      "name": "Giraff",
+      "title": "Giraff",
+      "def": "giraffen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "zebra": {
+      "name": "Sebra",
+      "title": "Sebra",
+      "def": "sebran",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "monkey": {
+      "name": "Apa",
+      "title": "Apa",
+      "def": "apan",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "kangaroo": {
+      "name": "Känguru",
+      "title": "Känguru",
+      "def": "kängurun",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "camel": {
+      "name": "Kamel",
+      "title": "Kamel",
+      "def": "kamelen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "hippopotamus": {
+      "name": "Flodhäst",
+      "title": "Flodhäst",
+      "def": "flodhästen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "panda": {
+      "name": "Panda",
+      "title": "Panda",
+      "def": "pandan",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "koala": {
+      "name": "Koala",
+      "title": "Koala",
+      "def": "koalan",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "penguin": {
+      "name": "Pingvin",
+      "title": "Pingvin",
+      "def": "pingvinen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "eagle": {
+      "name": "Örn",
+      "title": "Örn",
+      "def": "örnen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "parrot": {
+      "name": "Papegoja",
+      "title": "Papegoja",
+      "def": "papegojan",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "flamingo": {
+      "name": "Flamingo",
+      "title": "Flamingo",
+      "def": "flamingon",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "ostrich": {
+      "name": "Struts",
+      "title": "Struts",
+      "def": "strutsen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "swan": {
+      "name": "Svan",
+      "title": "Svan",
+      "def": "svanen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "tortoise": {
+      "name": "Landsköldpadda",
+      "title": "Landsköldpadda",
+      "def": "landsköldpaddan",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "lizard": {
+      "name": "Ödla",
+      "title": "Ödla",
+      "def": "ödlan",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "turtle": {
+      "name": "Sköldpadda",
+      "title": "Sköldpadda",
+      "def": "sköldpaddan",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "fish": {
+      "name": "Fisk",
+      "title": "Fisk",
+      "def": "fisken",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "goldfish": {
+      "name": "Guldfisk",
+      "title": "Guldfisk",
+      "def": "guldfisken",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "shark": {
+      "name": "Haj",
+      "title": "Haj",
+      "def": "hajen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "hamster": {
+      "name": "Hamster",
+      "title": "Hamster",
+      "def": "hamstern",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "mouse": {
+      "name": "Mus",
+      "title": "Mus",
+      "def": "musen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "frog": {
+      "name": "Groda",
+      "title": "Groda",
+      "def": "grodan",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    }
+  },
+  "frames": [
+    {
+      "field": "class",
+      "text": "{def} är"
+    },
+    {
+      "field": "covering",
+      "text": "{def} har"
+    },
+    {
+      "field": "diet",
+      "text": "{def} äter"
+    }
+  ],
+  "frameCaption": "Skriv tre meningar om djuret:",
+  "sameDiff": {
+    "same": "lika",
+    "diff": "olika",
+    "laneSame": "Lika:",
+    "laneDiff": "Olika:",
+    "caption": "Skriv vad som är lika och vad som är olika:"
+  },
+  "mystery": {
+    "class": "Jag är {inFrame}.",
+    "covering": "Jag har {inFrame}.",
+    "diet": "Jag äter {inFrame}.",
+    "habitat": "Jag bor {inFrame}.",
+    "fly": {
+      "true": "Jag kan flyga.",
+      "false": "Jag kan inte flyga."
+    },
+    "swim": {
+      "true": "Jag kan simma.",
+      "false": "Jag kan inte simma."
+    },
+    "prompt": "Vem är jag?"
+  },
+  "allowCompound": [],
+  "blankTitle": "Mall",
+  "strings": {
+    "G2-318": {
+      "title": "Faktablad om djur: {U}",
+      "instruction": "Ta reda på fakta om djuret. Skriv något du vet på varje rad i faktabladet och fyll sedan resten av sidan med en egen teckning eller egna ord."
+    },
+    "G2-339": {
+      "title": "Faktablad om {U}: kryssa rätt fakta",
+      "instruction": "Läs alternativen på varje rad och ringa in det som stämmer för djuret. Rita sedan var det bor och gör meningen färdig."
+    },
+    "G2-340": {
+      "title": "Faktablad om {U} med ordbank",
+      "instruction": "Hitta varje fakta som stämmer i ordbanken och skriv den på rätt rad i faktabladet. Gör sedan meningen längst ner färdig."
+    },
+    "G2-341": {
+      "title": "Faktablad om {U}: skriv tre meningar",
+      "instruction": "Läs faktabladet. Gör de tre meningarna färdiga med fakta ur bladet och skriv sedan en egen fakta på sista raden."
+    },
+    "G2-342": {
+      "title": "Jämför två djur: lika och olika",
+      "instruction": "Läs båda faktabladen. Ringa in lika eller olika för varje fakta. Skriv sedan två saker som är lika och två som är olika."
+    },
+    "G2-343": {
+      "title": "Vem är jag? Gåtor om djur",
+      "instruction": "Läs de fem ledtrådarna på varje kort. Hitta djuret i bildbanken, skriv dess namn på raden och rita det i rutan."
+    }
+  }
+}

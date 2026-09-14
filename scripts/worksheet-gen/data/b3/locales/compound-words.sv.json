@@ -1,0 +1,1346 @@
+{
+  "shape": "compound",
+  "casing": "lower",
+  "links": [
+    ""
+  ],
+  "linkBoxW": 36,
+  "exemplar": "A",
+  "units": [
+    {
+      "id": "A",
+      "items": [
+        {
+          "a": {
+            "vocabKey": "sun",
+            "word": "sol",
+            "pic": {
+              "theme": "weather",
+              "noun": "sun"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "rose",
+            "word": "ros",
+            "pic": {
+              "theme": "flowers",
+              "noun": "rose"
+            }
+          },
+          "whole": {
+            "word": "solros",
+            "vocabKey": "sunflower",
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "blue",
+            "word": "blå",
+            "pic": {
+              "theme": "colors",
+              "noun": "blue"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "bell",
+            "word": "klocka",
+            "pic": {
+              "theme": "christmas",
+              "noun": "bell"
+            }
+          },
+          "whole": {
+            "word": "blåklocka",
+            "vocabKey": "bluebell",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "water",
+            "word": "vatten",
+            "pic": {
+              "theme": "At the Supermarket",
+              "noun": "water"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "melon",
+            "word": "melon",
+            "pic": {
+              "theme": "At the Supermarket",
+              "noun": "melon"
+            }
+          },
+          "whole": {
+            "word": "vattenmelon",
+            "vocabKey": "watermelon",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "tooth",
+            "word": "tand",
+            "pic": {
+              "theme": "body parts",
+              "noun": "tooth"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "brush",
+            "word": "borste",
+            "pic": {
+              "theme": "around the house",
+              "noun": "brush"
+            }
+          },
+          "whole": {
+            "word": "tandborste",
+            "vocabKey": "toothbrush",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "foot",
+            "word": "fot",
+            "pic": {
+              "theme": "body parts",
+              "noun": "foot"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "ball",
+            "word": "boll",
+            "pic": {
+              "theme": "toys",
+              "noun": "ball"
+            }
+          },
+          "whole": {
+            "word": "fotboll",
+            "vocabKey": "soccer",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "book",
+            "word": "bok",
+            "pic": {
+              "theme": "classroom",
+              "noun": "book"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "shelf",
+            "word": "hylla",
+            "pic": {
+              "theme": "furniture",
+              "noun": "shelf"
+            }
+          },
+          "whole": {
+            "word": "bokhylla",
+            "vocabKey": "bookcase",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "cabinet",
+            "word": "skåp",
+            "pic": {
+              "theme": "furniture",
+              "noun": "cabinet"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "car",
+            "word": "bil",
+            "pic": {
+              "theme": "vehicles",
+              "noun": "car"
+            }
+          },
+          "whole": {
+            "word": "skåpbil",
+            "vocabKey": "van",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "lake",
+            "word": "sjö",
+            "pic": {
+              "theme": "camping",
+              "noun": "lake"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "star",
+            "word": "stjärna",
+            "pic": {
+              "theme": "christmas",
+              "noun": "star"
+            }
+          },
+          "whole": {
+            "word": "sjöstjärna",
+            "vocabKey": "starfish",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "river",
+            "word": "flod",
+            "pic": {
+              "theme": "camping",
+              "noun": "river"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "horse",
+            "word": "häst",
+            "pic": {
+              "theme": "farm animals",
+              "noun": "horse"
+            }
+          },
+          "whole": {
+            "word": "flodhäst",
+            "vocabKey": "hippopotamus",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "items": [
+        {
+          "a": {
+            "vocabKey": "foot",
+            "word": "fot",
+            "pic": {
+              "theme": "body parts",
+              "noun": "foot"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "stool",
+            "word": "pall",
+            "pic": {
+              "theme": "furniture",
+              "noun": "stool"
+            }
+          },
+          "whole": {
+            "word": "fotpall",
+            "vocabKey": "ottoman",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "arm",
+            "word": "arm",
+            "pic": {
+              "theme": "body parts",
+              "noun": "arm"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "ribbon",
+            "word": "band",
+            "pic": {
+              "theme": "accessories",
+              "noun": "ribbon"
+            }
+          },
+          "whole": {
+            "word": "armband",
+            "vocabKey": "bracelet",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "house",
+            "word": "hus",
+            "pic": {
+              "theme": "miscellaneous",
+              "noun": "house"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "car",
+            "word": "bil",
+            "pic": {
+              "theme": "vehicles",
+              "noun": "car"
+            }
+          },
+          "whole": {
+            "word": "husbil",
+            "vocabKey": "camper",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "worm",
+            "word": "mask",
+            "pic": {
+              "theme": "insects and bugs",
+              "noun": "worm"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "rose",
+            "word": "ros",
+            "pic": {
+              "theme": "flowers",
+              "noun": "rose"
+            }
+          },
+          "whole": {
+            "word": "maskros",
+            "vocabKey": "dandelion",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        }
+      ]
+    }
+  ],
+  "opaque": [],
+  "onePart": [
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "smör"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "flower",
+        "word": "blomma",
+        "pic": {
+          "theme": "spring",
+          "noun": "flower"
+        }
+      },
+      "whole": {
+        "word": "smörblomma",
+        "vocabKey": "buttercup",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "rain",
+        "word": "regn",
+        "pic": {
+          "theme": "spring",
+          "noun": "rain"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "båge"
+      },
+      "whole": {
+        "word": "regnbåge",
+        "vocabKey": "rainbow",
+        "scale": 1
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "letter",
+        "word": "brev",
+        "pic": {
+          "theme": "post office",
+          "noun": "letter"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "låda"
+      },
+      "whole": {
+        "word": "brevlåda",
+        "vocabKey": "mailbox",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "sand",
+        "word": "sand",
+        "pic": {
+          "theme": "summer",
+          "noun": "sand"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "låda"
+      },
+      "whole": {
+        "word": "sandlåda",
+        "vocabKey": "sandbox",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "sand",
+        "word": "sand",
+        "pic": {
+          "theme": "summer",
+          "noun": "sand"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "slott"
+      },
+      "whole": {
+        "word": "sandslott",
+        "vocabKey": "sandcastle",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "hand",
+        "word": "hand",
+        "pic": {
+          "theme": "body parts",
+          "noun": "hand"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "väska"
+      },
+      "whole": {
+        "word": "handväska",
+        "vocabKey": "handbag",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "fish",
+        "word": "fisk",
+        "pic": {
+          "theme": "ocean life",
+          "noun": "fish"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "mås"
+      },
+      "whole": {
+        "word": "fiskmås",
+        "vocabKey": "seagull",
+        "scale": 1
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "bear",
+        "word": "björn",
+        "pic": {
+          "theme": "forest creatures",
+          "noun": "bear"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "bär"
+      },
+      "whole": {
+        "word": "björnbär",
+        "vocabKey": "blackberry",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "blue",
+        "word": "blå",
+        "pic": {
+          "theme": "colors",
+          "noun": "blue"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "bär"
+      },
+      "whole": {
+        "word": "blåbär",
+        "vocabKey": "blueberry",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "sun",
+        "word": "sol",
+        "pic": {
+          "theme": "weather",
+          "noun": "sun"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "glasögon"
+      },
+      "whole": {
+        "word": "solglasögon",
+        "vocabKey": "sunglasses",
+        "scale": 1
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "bird",
+        "word": "fågel",
+        "pic": {
+          "theme": "spring",
+          "noun": "bird"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "holk"
+      },
+      "whole": {
+        "word": "fågelholk",
+        "vocabKey": "birdhouse",
+        "scale": 1
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "rygg"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "sack",
+        "word": "säck",
+        "pic": {
+          "theme": "christmas",
+          "noun": "sack"
+        }
+      },
+      "whole": {
+        "word": "ryggsäck",
+        "vocabKey": "backpack",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "peppar"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "cookie",
+        "word": "kaka",
+        "pic": {
+          "theme": "At the Supermarket",
+          "noun": "cookie"
+        }
+      },
+      "whole": {
+        "word": "pepparkaka",
+        "vocabKey": "gingerbread",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "spjäl"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "bed",
+        "word": "säng",
+        "pic": {
+          "theme": "furniture",
+          "noun": "bed"
+        }
+      },
+      "whole": {
+        "word": "spjälsäng",
+        "vocabKey": "crib",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "fick"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "lamp",
+        "word": "lampa",
+        "pic": {
+          "theme": "furniture",
+          "noun": "lamp"
+        }
+      },
+      "whole": {
+        "word": "ficklampa",
+        "vocabKey": "flashlight",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "key",
+        "word": "nyckel",
+        "pic": {
+          "theme": "around the house",
+          "noun": "key"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "piga"
+      },
+      "whole": {
+        "word": "nyckelpiga",
+        "vocabKey": "ladybug",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "dagg"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "worm",
+        "word": "mask",
+        "pic": {
+          "theme": "insects and bugs",
+          "noun": "worm"
+        }
+      },
+      "whole": {
+        "word": "daggmask",
+        "vocabKey": "earthworm",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "last"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "car",
+        "word": "bil",
+        "pic": {
+          "theme": "vehicles",
+          "noun": "car"
+        }
+      },
+      "whole": {
+        "word": "lastbil",
+        "vocabKey": "truck",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "pann"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "ribbon",
+        "word": "band",
+        "pic": {
+          "theme": "accessories",
+          "noun": "ribbon"
+        }
+      },
+      "whole": {
+        "word": "pannband",
+        "vocabKey": "headband",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "guld"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "fish",
+        "word": "fisk",
+        "pic": {
+          "theme": "ocean life",
+          "noun": "fish"
+        }
+      },
+      "whole": {
+        "word": "guldfisk",
+        "vocabKey": "goldfish",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "ton"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "fish",
+        "word": "fisk",
+        "pic": {
+          "theme": "ocean life",
+          "noun": "fish"
+        }
+      },
+      "whole": {
+        "word": "tonfisk",
+        "vocabKey": "tuna",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "bläck"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "fish",
+        "word": "fisk",
+        "pic": {
+          "theme": "ocean life",
+          "noun": "fish"
+        }
+      },
+      "whole": {
+        "word": "bläckfisk",
+        "vocabKey": "squid",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "blås"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "fish",
+        "word": "fisk",
+        "pic": {
+          "theme": "ocean life",
+          "noun": "fish"
+        }
+      },
+      "whole": {
+        "word": "blåsfisk",
+        "vocabKey": "pufferfish",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "clown"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "fish",
+        "word": "fisk",
+        "pic": {
+          "theme": "ocean life",
+          "noun": "fish"
+        }
+      },
+      "whole": {
+        "word": "clownfisk",
+        "vocabKey": "clownfish",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "angel",
+        "word": "ängel",
+        "pic": {
+          "theme": "christmas",
+          "noun": "angel"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "fisk"
+      },
+      "whole": {
+        "word": "ängelfisk",
+        "vocabKey": "angelfish",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    }
+  ],
+  "hubs": [
+    {
+      "hub": {
+        "vocabKey": "fish",
+        "word": "fisk"
+      },
+      "side": "b",
+      "satellites": [
+        "guldfisk",
+        "tonfisk",
+        "bläckfisk",
+        "blåsfisk",
+        "clownfisk"
+      ]
+    },
+    {
+      "hub": {
+        "vocabKey": "car",
+        "word": "bil"
+      },
+      "side": "b",
+      "satellites": [
+        "skåpbil",
+        "husbil",
+        "lastbil"
+      ]
+    },
+    {
+      "hub": {
+        "vocabKey": "ribbon",
+        "word": "band"
+      },
+      "side": "b",
+      "satellites": [
+        "armband",
+        "pannband"
+      ]
+    },
+    {
+      "hub": {
+        "vocabKey": "sun",
+        "word": "sol"
+      },
+      "side": "a",
+      "satellites": [
+        "solros",
+        "solglasögon"
+      ]
+    }
+  ],
+  "foils": [
+    {
+      "vocabKey": "hamster",
+      "word": "hamster",
+      "looksLike": []
+    },
+    {
+      "vocabKey": "pumpkin",
+      "word": "pumpa",
+      "looksLike": []
+    },
+    {
+      "vocabKey": "rabbit",
+      "word": "kanin",
+      "looksLike": []
+    },
+    {
+      "vocabKey": "zebra",
+      "word": "sebra",
+      "looksLike": []
+    },
+    {
+      "vocabKey": "tomato",
+      "word": "tomat",
+      "looksLike": []
+    },
+    {
+      "vocabKey": "penguin",
+      "word": "pingvin",
+      "looksLike": []
+    },
+    {
+      "vocabKey": "giraffe",
+      "word": "giraff",
+      "looksLike": []
+    },
+    {
+      "vocabKey": "camel",
+      "word": "kamel",
+      "looksLike": []
+    },
+    {
+      "vocabKey": "dolphin",
+      "word": "delfin",
+      "looksLike": []
+    },
+    {
+      "vocabKey": "elephant",
+      "word": "elefant",
+      "looksLike": []
+    },
+    {
+      "vocabKey": "balloon",
+      "word": "ballong",
+      "looksLike": []
+    },
+    {
+      "vocabKey": "telephone",
+      "word": "telefon",
+      "looksLike": []
+    }
+  ],
+  "sizePairs": [],
+  "crossWords": [
+    [
+      "sjö",
+      "häst"
+    ]
+  ],
+  "refuse": {
+    "F1": true,
+    "F3": false,
+    "F5": false
+  },
+  "webLanes": 3,
+  "opened": {
+    "weather/sun": [
+      "sun"
+    ],
+    "flowers/rose": [
+      "rose"
+    ],
+    "colors/blue": [
+      "blue"
+    ],
+    "christmas/bell": [
+      "bell"
+    ],
+    "At the Supermarket/water": [
+      "water"
+    ],
+    "At the Supermarket/melon": [
+      "melon"
+    ],
+    "body parts/tooth": [
+      "tooth"
+    ],
+    "around the house/brush": [
+      "brush"
+    ],
+    "body parts/foot": [
+      "foot"
+    ],
+    "toys/ball": [
+      "ball"
+    ],
+    "classroom/book": [
+      "book"
+    ],
+    "furniture/shelf": [
+      "shelf"
+    ],
+    "furniture/cabinet": [
+      "cabinet"
+    ],
+    "vehicles/car": [
+      "car"
+    ],
+    "camping/lake": [
+      "lake"
+    ],
+    "christmas/star": [
+      "star"
+    ],
+    "camping/river": [
+      "river"
+    ],
+    "farm animals/horse": [
+      "horse"
+    ],
+    "furniture/stool": [
+      "stool"
+    ],
+    "body parts/arm": [
+      "arm"
+    ],
+    "accessories/ribbon": [
+      "ribbon"
+    ],
+    "miscellaneous/house": [
+      "house"
+    ],
+    "insects and bugs/worm": [
+      "worm"
+    ],
+    "spring/flower": [
+      "flower"
+    ],
+    "spring/rain": [
+      "rain"
+    ],
+    "post office/letter": [
+      "letter"
+    ],
+    "summer/sand": [
+      "sand"
+    ],
+    "body parts/hand": [
+      "hand"
+    ],
+    "ocean life/fish": [
+      "fish"
+    ],
+    "forest creatures/bear": [
+      "bear"
+    ],
+    "spring/bird": [
+      "bird"
+    ],
+    "christmas/sack": [
+      "sack"
+    ],
+    "At the Supermarket/cookie": [
+      "cookie"
+    ],
+    "furniture/bed": [
+      "bed"
+    ],
+    "furniture/lamp": [
+      "lamp"
+    ],
+    "around the house/key": [
+      "key"
+    ],
+    "christmas/angel": [
+      "angel"
+    ],
+    "pets/hamster": [
+      "hamster"
+    ],
+    "At the Supermarket/pumpkin": [
+      "pumpkin"
+    ],
+    "thanksgivinng/pumpkin": [
+      "pumpkin"
+    ],
+    "vegetables/pumpkin": [
+      "pumpkin"
+    ],
+    "animals/rabbit": [
+      "rabbit"
+    ],
+    "camping/rabbit": [
+      "rabbit"
+    ],
+    "farm animals/rabbit": [
+      "rabbit"
+    ],
+    "forest creatures/rabbit": [
+      "rabbit"
+    ],
+    "pets/rabbit": [
+      "rabbit"
+    ],
+    "animals/zebra": [
+      "zebra"
+    ],
+    "zoo animals/zebra": [
+      "zebra"
+    ],
+    "At the Supermarket/tomato": [
+      "tomato"
+    ],
+    "vegetables/tomato": [
+      "tomato"
+    ],
+    "animals/penguin": [
+      "penguin"
+    ],
+    "birds/penguin": [
+      "penguin"
+    ],
+    "birds 2/penguin": [
+      "penguin"
+    ],
+    "winter/penguin": [
+      "penguin"
+    ],
+    "animals/giraffe": [
+      "giraffe"
+    ],
+    "zoo animals/giraffe": [
+      "giraffe"
+    ],
+    "animals/camel": [
+      "camel"
+    ],
+    "zoo animals/camel": [
+      "camel"
+    ],
+    "animals/dolphin": [
+      "dolphin"
+    ],
+    "beach/dolphin": [
+      "dolphin"
+    ],
+    "ocean life/dolphin": [
+      "dolphin"
+    ],
+    "summer/dolphin": [
+      "dolphin"
+    ],
+    "animals/elephant": [
+      "elephant"
+    ],
+    "zoo animals/elephant": [
+      "elephant"
+    ],
+    "4th of July/balloon": [
+      "balloon"
+    ],
+    "Things That Fly/balloon": [
+      "balloon"
+    ],
+    "toys/balloon": [
+      "balloon"
+    ],
+    "around the house/telephone": [
+      "telephone"
+    ]
+  },
+  "_panelOpened": "sv-panel-sheet-compound-*.png",
+  "strings": {
+    "G2-316": {
+      "title": "Sammansatta ord",
+      "instruction": "Säg vad de två bilderna heter, sätt ihop orden och skriv det nya ordet på raden."
+    },
+    "G2-329": {
+      "title": "Vad hamnar i mitten? Sammansatta ord med foge-s",
+      "instruction": "Båda orden står skrivna. Skriv bokstaven som binder ihop dem i rutan, eller låt rutan vara tom. Skriv sedan hela ordet på raden."
+    },
+    "G2-330": {
+      "title": "Dela det sammansatta ordet i två ord",
+      "instruction": "Hela ordet står i bokstavsrutor bredvid bilden. Dra ett streck där det andra ordet börjar."
+    },
+    "G2-331": {
+      "title": "Para ihop halvorna: två bilder, ett ord",
+      "instruction": "Dra ett streck från varje första bild till den bild som gör ordet färdigt. Skriv sedan det nya ordet på raden bredvid den första bilden."
+    },
+    "G2-332": {
+      "title": "Orddetektiven: vilka ord är sammansatta?",
+      "instruction": "Tolv ord, sex av dem är sammansatta av två ord. Ringa in de sex sammansatta orden och skriv deras två delar på raderna."
+    },
+    "G2-333": {
+      "title": "Ordspindel: ett ord, många sammansättningar",
+      "instruction": "Ett ord sitter i mitten. Varje bild runt omkring bildar ett nytt ord med det. Skriv de fyra nya orden på raderna."
+    }
+  }
+}

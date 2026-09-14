@@ -1,0 +1,98 @@
+{
+  "cardCase": "lower",
+  "articleStyle": {
+    "enabled": true,
+    "level": 2,
+    "dots": null,
+    "elision": "refuse",
+    "elisionChip": null,
+    "legend": null
+  },
+  "plural": {
+    "enabled": true,
+    "clones": 3
+  },
+  "bilingual": {
+    "partnerExemplar": "en",
+    "hostName": "svenska",
+    "partnerNames": {
+      "en": "engelska",
+      "de": "tyska",
+      "es": "spanska",
+      "pt": "portugisiska",
+      "fr": "franska",
+      "it": "italienska",
+      "nl": "nederländska",
+      "da": "danska",
+      "no": "norska",
+      "fi": "finska"
+    },
+    "legendSep": " · "
+  },
+  "syllable": {
+    "enabled": true,
+    "mark": "arc",
+    "hyphen": "-",
+    "strictPool": false,
+    "exclude": []
+  },
+  "twinLayout": {
+    "cols": 4,
+    "blockRows": 2
+  },
+  "exclude": [
+    "paramedic",
+    "plum",
+    "pelican",
+    "tree",
+    "sparrow",
+    "tuna",
+    "rice",
+    "ice",
+    "nut",
+    "comet",
+    "cast",
+    "us",
+    "scooter",
+    "octopus",
+    "beanie",
+    "clementine",
+    "nail",
+    "badge",
+    "hair",
+    "toe",
+    "statue",
+    "butter",
+    "carpet",
+    "girl",
+    "baby",
+    "lego",
+    "football"
+  ],
+  "strings": {
+    "K-324": {
+      "title": "Bildordkort att klippa ut",
+      "instruction": "Klipp längs de streckade linjerna så att du får kort. Säg vad varje bild heter och läs sedan ordet."
+    },
+    "twin": {
+      "title": "Bildkort och ordkort: hitta paren",
+      "instruction": "Klipp ut de sexton korten. Lägg varje ordkort bredvid bilden det hör till, eller vänd alla kort och spela memory."
+    },
+    "article": {
+      "title": "En eller ett: ordkort med artikel",
+      "instruction": "Klipp ut de åtta korten. Säg varje ord med en eller ett framför, precis som det står på kortet."
+    },
+    "plural": {
+      "title": "En och flera: kort med singular och plural",
+      "instruction": "Klipp ut korten. Säg ordet för en och ordet för flera och lägg sedan ihop paren."
+    },
+    "bilingual": {
+      "title": "Tvåspråkiga bildkort: svenska och engelska",
+      "instruction": "Klipp ut de åtta korten. Säg ordet på svenska och sedan på engelska och spara korten till din ordvägg."
+    },
+    "syllable": {
+      "title": "Stavelsekort: läs ordet i delar",
+      "instruction": "Klipp ut de åtta korten. Läs varje ord stavelse för stavelse och säg sedan hela ordet."
+    }
+  }
+}

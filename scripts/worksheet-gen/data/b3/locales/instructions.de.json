@@ -2430,22 +2430,22 @@
     "no": "falsch",
     "frames": [
       {
-        "text": "Von den {pl} siehst du {n} Stück.",
+        "text": "Du siehst {n} {pl}.",
         "cue": "count",
         "rel": "eq"
       },
       {
-        "text": "Von den {pl} siehst du genau {n} Stück.",
+        "text": "Du siehst genau {n} {pl}.",
         "cue": "count",
         "rel": "eq"
       },
       {
-        "text": "Von den {pl} siehst du mehr als {n} Stück.",
+        "text": "Du siehst mehr als {n} {pl}.",
         "cue": "count",
         "rel": "gt"
       },
       {
-        "text": "Von den {pl} siehst du weniger als {n} Stück.",
+        "text": "Du siehst weniger als {n} {pl}.",
         "cue": "count",
         "rel": "lt"
       },

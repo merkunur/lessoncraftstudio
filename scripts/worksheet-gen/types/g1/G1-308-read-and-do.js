@@ -530,7 +530,7 @@ function VERIFY_TRUTH(stripSrc, textSrc) {
     if (noun2 && !nouns.includes(noun2)) fails.push(`${R}: names "${noun2}", which is not on the strip`);   // P5
     let want = null;
     if (kind === 'count') {
-      if (!(nval >= 1)) fails.push(`${R}: count statement without a number`);
+      if (!(nval >= 2)) fails.push(`${R}: count statement number ${nval} — the frames are plural, n must be ≥ 2`);
       if (!['eq', 'gt', 'lt'].includes(rel)) fails.push(`${R}: count statement rel "${rel}"`);
       if (nouns.length < 2) fails.push(`${R}: count over a one-noun strip`);
       if (noun2) fails.push(`${R}: count statement names a second noun`);
@@ -893,7 +893,11 @@ module.exports = {
           const c = occ.get(a).length;
           const pl = bankLoc.objForms[a] && bankLoc.objForms[a].reviewed ? bankLoc.objForms[a].pl : null;
           if (!pl || c > 4) continue;
-          for (let v = 1; v <= N_MAX; v++) {
+          // v starts at 2: every truth count frame is PLURAL ({n} {pl}), so v = 1 printed
+          // "There are exactly one sandboxes" / "more than one trucks" on the shipped en
+          // G1-341 (found reading the de contact sheet, 2026-09-14; the draw frames already
+          // refuse n = 1 at the config check below). A singular frame per locale is unauthored.
+          for (let v = 2; v <= N_MAX; v++) {
             const t = TRUTH_RELS[rel](c, v);
             if (rel === 'eq' && !t && v > 4) continue;        // a false "exactly five" over a 4-max strip reads as a trick
             if (rel !== 'eq' && Math.abs(c - v) > 2) continue;  // more/fewer than N stays within 2 of the count ("fewer than five" over one pig is a trick)

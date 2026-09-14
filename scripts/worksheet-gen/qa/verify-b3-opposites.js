@@ -697,7 +697,7 @@ async function main() {
     }
     // a locale without a bank block REFUSES (never an en fallback)
     let refused = false;
-    try { TYPE.build({ theme: null, difficulty: 2, locale: 'de' }, { rng: makeRng('x') }); } catch (e) { refused = /no de block/.test(e.message); }
+    try { TYPE.build({ theme: null, difficulty: 2, locale: 'xx' }, { rng: makeRng('x') }); } catch (e) { refused = /no xx block/.test(e.message); }
     ok(refused, 'an unauthored locale must REFUSE (throw), not fall back to en');
 
     // 3. seed sweep (build only)
@@ -908,7 +908,7 @@ async function main() {
     // an unauthored locale refuses on every face
     for (const t of Object.values(faceTypes)) {
       let refused = false;
-      try { t.build({ theme: null, difficulty: 2, locale: 'de' }, { rng: makeRng('x') }); } catch (e) { refused = /no de block/.test(e.message); }
+      try { t.build({ theme: null, difficulty: 2, locale: 'xx' }, { rng: makeRng('x') }); } catch (e) { refused = /no xx block/.test(e.message); }
       ok(refused, `${t.id}: an unauthored locale must REFUSE`);
     }
 

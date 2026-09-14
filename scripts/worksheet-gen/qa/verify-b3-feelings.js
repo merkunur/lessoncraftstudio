@@ -535,7 +535,7 @@ async function runFaces({ page, ok, judge, banks, LONG, QUICK, typeWithBank }) {
   // an unauthored locale REFUSES on every face
   for (const [layout, id] of Object.entries(FACES)) {
     let refused = false;
-    try { T[layout].build({ theme: null, difficulty: 2, locale: 'de' }, { rng: makeRng('x') }); } catch (e) { refused = /no de block/.test(e.message); }
+    try { T[layout].build({ theme: null, difficulty: 2, locale: 'xx' }, { rng: makeRng('x') }); } catch (e) { refused = /no xx block/.test(e.message); }
     ok(refused, `${id} ${layout}: an unauthored locale must REFUSE (throw), not fall back to en`);
   }
   // F1 odd-grid CONTROL: the syringe veto → 5 cards (2 + 1 + 2), the fifth centred; still a legal K page
@@ -724,7 +724,7 @@ async function main() {
     }
     // a locale without a bank block REFUSES (never an en fallback)
     let refused = false;
-    try { TYPE.build({ theme: null, difficulty: 2, locale: 'de' }, { rng: makeRng('x') }); } catch (e) { refused = /no de block/.test(e.message); }
+    try { TYPE.build({ theme: null, difficulty: 2, locale: 'xx' }, { rng: makeRng('x') }); } catch (e) { refused = /no xx block/.test(e.message); }
     ok(refused, 'an unauthored locale must REFUSE (throw), not fall back to en');
 
     // 3. seed sweep (build only)

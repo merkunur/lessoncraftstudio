@@ -211,7 +211,7 @@ const COMPOUND_WORDS = {
       },
       'G2-333': {
         title: "Word Web: One Word, Many Compounds",
-        instruction: "One word sits in the middle. Each picture around it makes a new word with it. Write the four new words on the lines.",
+        instruction: "One word sits in the middle. Each picture around it makes a new word with it. Write each new word on its line.",
       },
     },
   },

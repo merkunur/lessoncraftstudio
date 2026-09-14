@@ -497,7 +497,7 @@ async function main() {
       try { TYPE._buildWith(en, { theme: null, difficulty: 2, locale: 'en' }, { rng: makeRng('x') }); msg = ''; } catch (e) { msg = e.message; }
       ok(/theme is required/.test(msg), `a themeless build must refuse: ${msg}`);
       try { TYPE.build({ theme: EXEMPLAR_THEME, difficulty: 2, locale: 'de' }, { rng: makeRng('x') }); msg = ''; } catch (e) { msg = e.message; }
-      ok(/no de block/.test(msg), `an unauthored locale must REFUSE (throw), never fall back to en: ${msg}`);
+      ok(/no xx block/.test(msg), `an unauthored locale must REFUSE (throw), never fall back to en: ${msg}`);
     }
 
     // 3. seed sweep (build only, no browser)

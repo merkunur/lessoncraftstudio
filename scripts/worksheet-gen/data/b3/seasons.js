@@ -128,8 +128,8 @@ const SEASONS = {
         instruction: 'Cross out the one picture in each row that belongs to a different season.',
       },
       'G1-323': {
-        title: 'Months and Seasons: Colour the Season',
-        instruction: 'Colour the circle next to each month in the colour of its season.',
+        title: 'Months and Seasons: Color the Season',
+        instruction: 'Color the circle next to each month in the color of its season.',
       },
       'K-341': {
         title: 'Draw the Tree in Four Seasons',

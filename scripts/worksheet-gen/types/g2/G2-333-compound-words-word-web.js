@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-333',
   slug: 'compound-words-word-web',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Word Web: One Word, Many Compounds", instruction: "One word sits in the middle. Each picture around it makes a new word with it. Write the four new words on the lines." } },
+  i18n: { en: { title: "Word Web: One Word, Many Compounds", instruction: "One word sits in the middle. Each picture around it makes a new word with it. Write each new word on its line." } },
 };

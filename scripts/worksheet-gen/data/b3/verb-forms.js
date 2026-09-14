@@ -146,7 +146,7 @@ const VERB_FORMS = {
       },
       F2: { title: 'Match the Verb to Its Past Form', instruction: 'Read each verb on the left. Draw a line to its yesterday form on the right — one line for each verb.' },
       F3: { title: 'Verb Forms in Sentences with Pictures', instruction: 'Look at the picture and read the verb in the chip. Write the form that fits the sentence in the dashed box.' },
-      F4: { title: 'The Helper Verbs: be, have, do, go', instruction: 'These verbs change a lot. Write the today form and the yesterday form of each one in the dashed boxes.' },
+      F4: { title: 'The Irregular Verbs: be, have, do, go', instruction: 'These verbs change a lot. Write the today form and the yesterday form of each one in the dashed boxes.' },
       F5: { title: 'Choose the Right Verb Form', instruction: 'Read the sentence. Three forms of the verb are printed under it. Circle the one that fits.' },
       F6: { title: 'Find the Verb, Write Its Base Form', instruction: 'Underline the verb in each sentence. Then write its base form in the dashed box.' },
     },

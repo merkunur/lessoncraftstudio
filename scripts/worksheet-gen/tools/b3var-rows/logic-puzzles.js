@@ -45,7 +45,7 @@ const ROWS = [
     'Logic Grid Puzzles with Yes, No and Either-Or Clues',
     'A yes clue gets a tick, a no clue gets a cross and an either-or clue crosses out the third picture. Finish the grid, then circle each answer.'],
   ['g3', 'G3-378', 'logic-puzzles-4-by-4-six-clues', 'G2-319-logic-puzzles.js', 2,
-    { size: 4, clues: [4, 6], kinds: ['neg', 'either'], maxEither: 2, headW: 104, namePx: 18, picPx: 52, answer: 'none' },
+    { size: 4, clues: [6, 6], kinds: ['neg', 'either'], maxEither: 2, headW: 104, namePx: 18, picPx: 52, answer: 'none' },
     '4 by 4 Logic Grid Puzzles: Six Clues',
     'Four children and four pictures. Use every clue: cross out what cannot be true and tick what must be true until each row has one answer.',
     { gradeBand: 'G3' }],

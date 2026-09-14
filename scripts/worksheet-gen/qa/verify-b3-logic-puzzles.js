@@ -897,7 +897,7 @@ async function main() {
     buildPoison('an allowlist of 5 refuses', () => renderCheck(page, type, { sets: { ...SETS, distinct: { ...SETS.distinct, pets: ['dog', 'cat', 'rabbit', 'fish', 'parrot'] } } }, { difficulty: 2, locale: loc, baseName: `${ID}-poison-allow5` }), /< 6/);
     setsPoison('an allowlist of 5 fails the bank check', { ...SETS, distinct: { ...SETS.distinct, pets: ['dog', 'cat', 'rabbit', 'fish', 'parrot'] } }, /< 6/);
     setsPoison('an allowlist with a BW marker', { ...SETS, distinct: { ...SETS.distinct, 'pets BW': ['dog', 'cat', 'rabbit', 'fish', 'parrot', 'frog'] } }, /BW/);
-    buildPoison('a locale without a bank block refuses (de)', () => renderCheck(page, type, null, { difficulty: 2, locale: 'de', baseName: `${ID}-poison-de` }), /no de block/);
+    buildPoison('a locale without a bank block refuses (xx)', () => renderCheck(page, type, null, { difficulty: 2, locale: 'xx', baseName: `${ID}-poison-xx` }), /no xx block/);
     buildPoison('an either kind on a bank that refuses it', () => renderCheck(page, type, { bank: (() => { const b = clone(cfgB); b.frames.either = []; return b; })(), cfg: { ...type.difficulty[2], kinds: ['neg', 'either'], minEither: 1 } }, { difficulty: 2, locale: loc, baseName: `${ID}-poison-either` }), /refuses the either/);
     buildPoison('cell 30 (below the G2 floor)', () => renderCheck(page, type, { cfg: { ...type.difficulty[2], cell: 30, picPx: 30 } }, { difficulty: 2, locale: loc, baseName: `${ID}-poison-cell30` }), /G2 floor/);
     buildPoison("answer:'box' (the unbuilt fallback)", () => renderCheck(page, type, { cfg: { ...type.difficulty[2], answer: 'box' } }, { difficulty: 2, locale: loc, baseName: `${ID}-poison-box` }), /box/);

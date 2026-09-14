@@ -7,7 +7,7 @@
  *
  * Four CODE faces set an additive knob the base spec reads
  * (types/g1/G1-306-syllable-reading.js `faceOf(d)`): choices / join /
- * colourMode / mode:'syllabified'. Every row spreads the base's d2 config (the
+ * colorMode / mode:'syllabified'. Every row spreads the base's d2 config (the
  * level every b3 wave ships), so the keys below are the ONLY difference from
  * the published base deck (tools/gate-variation-distinct.js --batch=b3
  * --family=syllable-reading). G1-333 Complex is `{...d2, structure:'complex'}`
@@ -38,11 +38,11 @@ const ROWS = [
     'Join the Syllables and Write the Word',
     'Read the two syllables on each card in order. Say them together, then write the whole word on the line.',
     { unitAxis: { applicable: false } }],
-  // F4 — fluency read of a 5-row carpet, then colour each picture's cell in its ring colour. No lane; perRowMin 1 (5 rows × 1 ≤ 6 cards, targets from ≥ 3 rows).
-  ['g1', 'G1-332', 'syllable-reading-carpet-read-and-colour', 'G1-306-syllable-reading.js', 2,
-    { carpetRows: 5, cell: 56, cellFont: 28, pic: 96, colourMode: true, reps: 1, perRowMin: 1 },
-    'Word Family Carpet: Read and Colour',
-    'Read every word on the carpet out loud. Then find each picture\'s word on the carpet and colour that word in the picture\'s colour.'],
+  // F4 — fluency read of a 5-row carpet, then color each picture's cell in its ring color. No lane; perRowMin 1 (5 rows × 1 ≤ 6 cards, targets from ≥ 3 rows).
+  ['g1', 'G1-332', 'syllable-reading-carpet-read-and-color', 'G1-306-syllable-reading.js', 2,
+    { carpetRows: 5, cell: 56, cellFont: 28, pic: 96, colorMode: true, reps: 1, perRowMin: 1 },
+    'Word Family Carpet: Read and Color',
+    'Read every word on the carpet out loud. Then find each picture\'s word on the carpet and color that word in the picture\'s color.'],
   // F6 — longer words printed PRE-SPLIT over a numbered picture bank (6 targets + 2 distractors); write the picture's number.
   ['g1', 'G1-334', 'syllable-reading-read-the-syllabified-words', 'G1-306-syllable-reading.js', 2,
     { mode: 'syllabified', lines: 6, distractors: 2, bankPic: 64, wordFont: 30, rowH: 92, boxPx: 44, minCount: 2, maxCount: 3, maxLetters: 10, minThree: 1, poolMin: 8 },

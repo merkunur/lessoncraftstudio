@@ -1247,7 +1247,7 @@ async function main() {
     for (const d of [1, 2, 3]) ok(deepest[d] <= 705, `d${d}: no long-chrome fixture squeezed the body to <= 705 (deepest ${Math.round(deepest[d])})`);
     // refusals: an unauthored locale, a set below the floor, an unknown set
     let refused = false;
-    try { TYPE.build({ theme: null, difficulty: 2, locale: 'de' }, { rng: makeRng('x') }); } catch (e) { refused = /no de block/.test(e.message); }
+    try { TYPE.build({ theme: null, difficulty: 2, locale: 'xx' }, { rng: makeRng('x') }); } catch (e) { refused = /no xx block/.test(e.message); }
     ok(refused, 'an unauthored locale must REFUSE (throw), not fall back to en');
     ok(/set B has 4 items < 8 — REFUSED/.test(buildRefusal(en, 2, null, 'B')[0] || ''), 'unit B (4 items) must REFUSE, never fill');
     ok(/set "Z" is not a en unit/.test(buildRefusal(en, 2, null, 'Z')[0] || ''), 'an unknown unit must REFUSE');

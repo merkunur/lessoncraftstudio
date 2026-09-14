@@ -575,7 +575,7 @@ async function runFaces({ page, neutral, en, pngs }) {
   // an unauthored locale REFUSES on every face
   for (const [layout, id] of Object.entries(FACES)) {
     let refused = false;
-    try { T[layout].build({ theme: null, difficulty: 2, locale: 'de' }, { rng: makeRng('x') }); } catch (e) { refused = /no de block/.test(e.message); }
+    try { T[layout].build({ theme: null, difficulty: 2, locale: 'xx' }, { rng: makeRng('x') }); } catch (e) { refused = /no xx block/.test(e.message); }
     ok(refused, `${id} ${layout}: an unauthored locale must REFUSE (throw), not fall back to en`);
   }
   // 5c. the pt-BR CONTROL (the §4 block in memory): F4 follows the inverted tuple, F5 re-targets to the frame,

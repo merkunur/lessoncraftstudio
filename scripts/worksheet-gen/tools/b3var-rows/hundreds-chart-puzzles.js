@@ -35,7 +35,7 @@ const ROWS = [
   ['g2', 'G2-321', 'hundreds-chart-puzzles-jump-puzzles', 'G1-310-hundreds-chart-puzzles.js', 2,
     { mode: 'jumps', items: 8, arrows: 3, noReverse: true, showSteps: false, pointer: true, chip: 36, gap: 8 },
     'Jump Puzzles: Follow the Arrows',
-    'Start at the number and follow the arrows: up is 10 less, down is 10 more, right is 1 more. Write where you land.',
+    'Start at the number and follow the arrows: up is 10 less, down is 10 more, left is 1 less, right is 1 more. Write where you land.',
     { gradeBand: 'G2' }],
   ['g2', 'G2-322', 'hundreds-chart-puzzles-mystery-number', 'G1-310-hundreds-chart-puzzles.js', 2,
     { mode: 'riddle', items: 8, kinds: [10, 1], chip: 36, box: { w: 84, h: 56 }, gap: 8 },

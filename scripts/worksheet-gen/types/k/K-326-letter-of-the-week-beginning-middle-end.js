@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-326',
   slug: 'letter-of-the-week-beginning-middle-end',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Beginning, Middle or End: Where Is the {U}?", instruction: "Say each picture. Colour the box that shows where you hear {U}: at the beginning, in the middle or at the end." } },
+  i18n: { en: { title: "Beginning, Middle or End: Where Is the {U}?", instruction: "Say each picture. Color the box that shows where you hear {U}: at the beginning, in the middle or at the end." } },
 };

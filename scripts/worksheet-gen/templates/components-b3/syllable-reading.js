@@ -187,16 +187,77 @@ function colourRing({ color }) {
 
 /* ---------- Syllabified face: a numbered picture bank ---------- */
 /**
- * numberedBank({ items:[{ src, vocabKey }], iconPx=64 }) — a .ws-scene-banner
- * of pictures, each with countBadge(i+1) at its corner; stamps
+ * numberedBank({ items:[{ src, vocabKey }], iconPx=64, gap=14 }) — a .ws-scene-banner
+ * of pictures, each with countBadge(i+1) at its corner (8 × (iconPx + 8) +
+ * 7 × gap must stay inside the banner's 658 px, or the bank wraps); stamps
  * data-lcs-bank-index (1-based) + data-lcs-vocab per item.
  */
-function numberedBank({ items, iconPx = 64 }) {
+function numberedBank({ items, iconPx = 64, gap = 14 }) {
   const cells = items.map((it, i) =>
     `<span style="position:relative;display:inline-flex;padding:8px 0 0 8px" data-lcs-bank-index="${i + 1}" data-lcs-vocab="${esc(it.vocabKey)}">` +
     `<img class="ws-icon" src="${it.src}" alt="" style="width:${iconPx}px;height:${iconPx}px">` +
     `<span style="position:absolute;left:0;top:0">${countBadge(i + 1)}</span></span>`).join('');
-  return `<div class="ws-scene-banner" style="gap:14px;flex-wrap:wrap" data-lcs-numbered-bank="${items.length}">${cells}</div>`;
+  return `<div class="ws-scene-banner" style="gap:${gap}px;flex-wrap:wrap" data-lcs-numbered-bank="${items.length}">${cells}</div>`;
 }
 
-module.exports = { syllableRow, syllableCarpet, syllableLane, syllableJoin, colourRing, numberedBank };
+/* ---------- Circle face (G1-330): a column of pills, each a carpet cell ---------- */
+/**
+ * syllablePills({ cells, fontPx=26, h=44, gap=6, minW=88 }) — the cells to
+ * circle, stacked, all the SAME width (the widest text + 40, never narrower
+ * than minW) so the column reads as one apparatus. An R cell prints the onset
+ * in ink and the rime in coral like its carpet cell; S / B cells print the
+ * text. Stamps data-lcs-choices on the column, data-lcs-choice (the cell
+ * text) + data-lcs-pos on every pill. NO pill says which is right.
+ * Returns { html, width }.
+ */
+function syllablePills({ cells, fontPx = 26, h = 44, gap = 6, minW = 88 }) {
+  const parsed = cells.map(parseCell);
+  const maxText = Math.max(...parsed.map((p) => textAdvance(p.text, fontPx)));
+  const W = Math.max(minW, Math.ceil(maxText + 40));
+  const pills = parsed.map((p, i) => {
+    const label = p.onset != null
+      ? `<span style="color:${T.ink}">${esc(p.onset)}</span><span style="color:${T.coral}">${esc(p.rime)}</span>`
+      : esc(p.text);
+    return `<span class="ws-pill" style="width:${W}px;height:${h}px;padding:0;font-size:${fontPx}px;line-height:1" ` +
+      `data-lcs-choice="${esc(p.text)}" data-lcs-pos="${i}">${label}</span>`;
+  });
+  return {
+    html: `<div style="display:flex;flex-direction:column;align-items:center;gap:${gap}px" data-lcs-choices="${cells.length}">${pills.join('')}</div>`,
+    width: W,
+  };
+}
+
+/* ---------- Syllabified face (G1-334): the empty number box ---------- */
+/** numberBox({ size=44 }) — a dashed T.coral r10 white square, empty; stamps data-lcs-number-box. */
+function numberBox({ size = 44 }) {
+  return `<span data-lcs-number-box style="display:inline-flex;width:${size}px;height:${size}px;flex:0 0 auto;` +
+    `background:${T.white};border:2.5px dashed ${T.coral};border-radius:10px"></span>`;
+}
+
+/* ---------- Syllabified face (G1-334): one word row ---------- */
+/**
+ * syllabifiedRow({ tokens, sepMode='hyphen', fontPx=30, h=92, hMin=70, boxPx=44, data={} })
+ * A .ws-lane row (flex 1 1 0 between hMin and h: six rows fill a normal body
+ * at h and shrink under a 3-line title to hMin — measured 2026-09-14: the
+ * worst legal chrome leaves ~668 px, not the 733 the base record budgeted, and
+ * six fixed 92 px rows ran 29 px into the footer). The word is printed
+ * PRE-SPLIT on the left — `hyphen` = ONE text
+ * node 'ka-me-ra' (no text node ever equals the whole word); `color` = the
+ * syllables as alternating T.teal / T.coral spans — and a numberBox at the
+ * right. `data` = the data-lcs-* stamps for the row element. Stamps
+ * data-lcs-printed on the word.
+ */
+function syllabifiedRow({ tokens: toks, sepMode = 'hyphen', fontPx = 30, h = 92, hMin = 70, boxPx = 44, data = {} }) {
+  let word;
+  if (sepMode === 'color') {
+    word = toks.map((t, i) => `<span style="color:${i % 2 === 0 ? T.teal : T.coral}">${esc(t)}</span>`).join('');
+  } else {
+    word = esc(toks.join('-'));
+  }
+  const attrs = Object.entries(data).map(([k, v]) => ` ${k}="${esc(String(v))}"`).join('');
+  return `<div class="ws-lane"${attrs} style="flex:1 1 0;min-height:${hMin}px;max-height:${h}px;display:flex;align-items:center;justify-content:space-between;gap:16px">` +
+    `<span data-lcs-printed style="font-family:${F.display};font-weight:700;font-size:${fontPx}px;color:${T.ink};line-height:1;white-space:nowrap">${word}</span>` +
+    numberBox({ size: boxPx }) + `</div>`;
+}
+
+module.exports = { syllableRow, syllableCarpet, syllableLane, syllableJoin, colourRing, numberedBank, syllablePills, numberBox, syllabifiedRow };

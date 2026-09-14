@@ -104,11 +104,26 @@ const ALL_ABOUT_ME = {
       brushteeth: 'I can brush my teeth',
     },
     refuse: [],
+    // F1 tile labels, one per option vocabKey (Phase 2, 2026-09-14): each must === displayWord(vocab[key][loc][0], loc)
+    // (the gate cross-checks; the spec never reads image-vocabulary.js at render). An option with no label in a
+    // locale DROPS from that locale's page (never a vocab fallback); a category under 6 labelled options drops.
+    // Colour labels come from data/color-words.js COLOR_WORDS[loc] and are not listed here.
+    optionWords: {
+      cat: 'cat', dog: 'dog', fish: 'fish', horse: 'horse', rabbit: 'rabbit', duck: 'duck', pig: 'pig', sheep: 'sheep', elephant: 'elephant', giraffe: 'giraffe', penguin: 'penguin', tiger: 'tiger',
+      apple: 'apple', banana: 'banana', bread: 'bread', cheese: 'cheese', pizza: 'pizza', carrot: 'carrot', strawberry: 'strawberry', cookie: 'cookie', pasta: 'pasta', milk: 'milk', grapes: 'grapes', cake: 'cake',
+      ball: 'ball', doll: 'doll', car: 'car', train: 'train', kite: 'kite', blocks: 'blocks', robot: 'robot', balloon: 'balloon', dinosaur: 'dinosaur', boat: 'boat',
+    },
     strings: {
       'K-323': {
         title: 'All About Me',
         instruction: 'Write your name and your age, draw yourself and your family, then draw your three favorite things.',
       },
+      // Phase 2 faces (design §6 title patterns; en = US spelling; <= 70 / <= 150; unique in band K)
+      'K-342': { title: 'My Favorite Things: Circle and Write', instruction: 'In each row, circle your favorite picture and copy its word onto the line.' },
+      'K-343': { title: 'All About My Family: Draw and Count', instruction: 'Draw your family. Then show how many people, brothers, sisters and pets on the ten-frames and write the number.' },
+      'K-344': { title: 'This Is Me: Label the Face', instruction: 'Copy each word from the bank onto the line that points to that part of the face. Then draw your own face.' },
+      'K-345': { title: 'I Can: Tick What You Can Do', instruction: 'Read each sentence and tick the things you can do. Then write one thing you want to learn.' },
+      'K-346': { title: 'My Name: Write, Count and Compare', instruction: 'Write your name with one letter in each box and count the letters. Then do the same for a friend and circle who has more.' },
     },
   },
 };
@@ -147,8 +162,11 @@ const ALL_ABOUT_ME_PICTURES = {
   ],
   face: {
     theme: 'body parts', noun: 'face', picOpened: true,
+    // `lane` (optional, a fraction of the figure height) pins a lane's TOP where the anchor-centred slot would
+    // run the pointer through another feature: the nose lane at the design's y 196 sends its line THROUGH the
+    // left ear (measured 10.5 px from the ear's centre); at 0.73 (y 263 of 360) it clears every disc by >= 37 px.
     anchors: {
-      hair: { x: 0.50, y: 0.20, side: 'L' }, nose: { x: 0.50, y: 0.68, side: 'L' },
+      hair: { x: 0.50, y: 0.20, side: 'L' }, nose: { x: 0.50, y: 0.68, side: 'L', lane: 0.73 },
       eye: { x: 0.655, y: 0.59, side: 'R' }, ear: { x: 0.86, y: 0.64, side: 'R' }, mouth: { x: 0.50, y: 0.84, side: 'R' },
       eyebrow: { x: 0.32, y: 0.47, side: 'L' }, chin: { x: 0.50, y: 0.93, side: 'R' },
     },

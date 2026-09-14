@@ -3,23 +3,27 @@
   "pairs": [
     {
       "id": "big-small",
-      "a": "groot",
-      "b": "klein",
+      "a": "stor",
+      "b": "liten",
       "tier": 1,
       "pos": "adj",
       "family": "size",
       "alt": {
         "a": [
-          "enorm",
-          "reusachtig"
+          "diger",
+          "svær"
         ],
-        "b": []
+        "b": [
+          "lita",
+          "lite",
+          "små"
+        ]
       },
       "exclusiveWith": [],
       "syn": {
-        "a": "enorm"
+        "a": "kjempestor"
       },
-      "far": "nat",
+      "far": "våt",
       "pic": {
         "kind": "scale",
         "theme": "animals",
@@ -33,24 +37,24 @@
     },
     {
       "id": "hot-cold",
-      "a": "heet",
-      "b": "koud",
+      "a": "varm",
+      "b": "kald",
       "tier": 1,
       "pos": "adj",
       "family": "temperature",
       "alt": {
         "a": [
-          "warm"
+          "het"
         ],
         "b": [
-          "koel"
+          "kjølig"
         ]
       },
       "exclusiveWith": [],
       "syn": {
-        "a": "warm"
+        "a": "het"
       },
-      "far": "groot",
+      "far": "stor",
       "pic": {
         "kind": "two",
         "a": {
@@ -66,22 +70,24 @@
     },
     {
       "id": "happy-sad",
-      "a": "blij",
-      "b": "verdrietig",
+      "a": "glad",
+      "b": "trist",
       "tier": 1,
       "pos": "adj",
       "family": "feeling",
       "alt": {
         "a": [
-          "vrolijk"
+          "fornøyd"
         ],
-        "b": []
+        "b": [
+          "lei seg"
+        ]
       },
       "exclusiveWith": [],
       "syn": {
-        "a": "vrolijk"
+        "a": "fornøyd"
       },
-      "far": "koud",
+      "far": "kald",
       "pic": {
         "kind": "two",
         "a": {
@@ -97,24 +103,26 @@
     },
     {
       "id": "fast-slow",
-      "a": "snel",
-      "b": "langzaam",
+      "a": "rask",
+      "b": "langsom",
       "tier": 1,
       "pos": "adj",
       "family": "speed",
       "alt": {
         "a": [
-          "vlug"
+          "kjapp",
+          "fort"
         ],
         "b": [
-          "traag"
+          "sakte",
+          "treg"
         ]
       },
       "exclusiveWith": [],
       "syn": {
-        "a": "vlug"
+        "a": "kjapp"
       },
-      "far": "zacht",
+      "far": "myk",
       "pic": {
         "kind": "two",
         "a": {
@@ -130,8 +138,8 @@
     },
     {
       "id": "heavy-light",
-      "a": "zwaar",
-      "b": "licht",
+      "a": "tung",
+      "b": "lett",
       "tier": 2,
       "pos": "adj",
       "family": "weight",
@@ -139,9 +147,11 @@
         "a": [],
         "b": []
       },
-      "exclusiveWith": [],
+      "exclusiveWith": [
+        "bright-dark"
+      ],
       "syn": null,
-      "far": "blij",
+      "far": "glad",
       "pic": {
         "kind": "two",
         "a": {
@@ -158,7 +168,7 @@
     {
       "id": "day-night",
       "a": "dag",
-      "b": "nacht",
+      "b": "natt",
       "tier": 1,
       "pos": "noun",
       "family": "time",
@@ -184,22 +194,22 @@
     },
     {
       "id": "soft-hard",
-      "a": "zacht",
+      "a": "myk",
       "b": "hard",
       "tier": 1,
       "pos": "adj",
       "family": "texture",
       "alt": {
-        "a": [],
+        "a": [
+          "bløt"
+        ],
         "b": []
       },
-      "exclusiveWith": [
-        "loud-quiet"
-      ],
+      "exclusiveWith": [],
       "syn": {
-        "a": "pluizig"
+        "a": "bløt"
       },
-      "far": "snel",
+      "far": "rask",
       "pic": {
         "kind": "two",
         "a": {
@@ -215,8 +225,8 @@
     },
     {
       "id": "sweet-sour",
-      "a": "zoet",
-      "b": "zuur",
+      "a": "søt",
+      "b": "sur",
       "tier": 2,
       "pos": "adj",
       "family": "taste",
@@ -242,22 +252,22 @@
     },
     {
       "id": "wet-dry",
-      "a": "nat",
-      "b": "droog",
+      "a": "våt",
+      "b": "tørr",
       "tier": 1,
       "pos": "adj",
       "family": "moisture",
       "alt": {
         "a": [
-          "vochtig"
+          "fuktig"
         ],
         "b": []
       },
       "exclusiveWith": [],
       "syn": {
-        "a": "vochtig"
+        "a": "fuktig"
       },
-      "far": "luid",
+      "far": "bråkete",
       "pic": null,
       "picOpened": true
     },
@@ -276,37 +286,37 @@
         "high-low"
       ],
       "syn": null,
-      "far": "zoet",
+      "far": "søt",
       "pic": null,
       "picOpened": true
     },
     {
       "id": "loud-quiet",
-      "a": "luid",
-      "b": "stil",
+      "a": "bråkete",
+      "b": "stille",
       "tier": 2,
       "pos": "adj",
       "family": "sound",
       "alt": {
         "a": [
-          "hard"
+          "høylytt"
         ],
         "b": [
-          "zacht"
+          "rolig"
         ]
       },
-      "exclusiveWith": [
-        "soft-hard"
-      ],
-      "syn": null,
-      "far": "nieuw",
+      "exclusiveWith": [],
+      "syn": {
+        "a": "høylytt"
+      },
+      "far": "ny",
       "pic": null,
       "picOpened": true
     },
     {
       "id": "old-new",
-      "a": "oud",
-      "b": "nieuw",
+      "a": "gammel",
+      "b": "ny",
       "tier": 1,
       "pos": "adj",
       "family": "age",
@@ -316,37 +326,36 @@
       },
       "exclusiveWith": [],
       "syn": null,
-      "far": "schoon",
+      "far": "ren",
       "pic": null,
       "picOpened": true
     },
     {
       "id": "clean-dirty",
-      "a": "schoon",
-      "b": "vuil",
+      "a": "ren",
+      "b": "skitten",
       "tier": 1,
       "pos": "adj",
       "family": "cleanliness",
       "alt": {
         "a": [
-          "netjes"
+          "rein",
+          "ryddig"
         ],
         "b": [
-          "vies"
+          "møkkete"
         ]
       },
       "exclusiveWith": [],
-      "syn": {
-        "a": "netjes"
-      },
-      "far": "open",
+      "syn": null,
+      "far": "åpen",
       "pic": null,
       "picOpened": true
     },
     {
       "id": "full-empty",
-      "a": "vol",
-      "b": "leeg",
+      "a": "full",
+      "b": "tom",
       "tier": 1,
       "pos": "adj",
       "family": "fill",
@@ -356,33 +365,34 @@
       },
       "exclusiveWith": [],
       "syn": null,
-      "far": "droog",
+      "far": "tørr",
       "pic": null,
       "picOpened": true
     },
     {
       "id": "open-closed",
-      "a": "open",
-      "b": "dicht",
+      "a": "åpen",
+      "b": "lukket",
       "tier": 1,
       "pos": "adj",
       "family": "state",
       "alt": {
         "a": [],
         "b": [
-          "gesloten"
+          "stengt",
+          "igjen"
         ]
       },
       "exclusiveWith": [],
       "syn": null,
-      "far": "dun",
+      "far": "tynn",
       "pic": null,
       "picOpened": true
     },
     {
       "id": "high-low",
-      "a": "hoog",
-      "b": "laag",
+      "a": "høy",
+      "b": "lav",
       "tier": 1,
       "pos": "adj",
       "family": "level",
@@ -394,89 +404,97 @@
         "long-short"
       ],
       "syn": null,
-      "far": "zuur",
+      "far": "sur",
       "pic": null,
       "picOpened": true
     },
     {
       "id": "thick-thin",
-      "a": "dik",
-      "b": "dun",
+      "a": "tykk",
+      "b": "tynn",
       "tier": 2,
       "pos": "adj",
       "family": "thickness",
       "alt": {
-        "a": [],
+        "a": [
+          "feit"
+        ],
         "b": [
-          "mager"
+          "smal"
         ]
       },
       "exclusiveWith": [],
       "syn": null,
-      "far": "vol",
+      "far": "full",
       "pic": null,
       "picOpened": true
     },
     {
       "id": "strong-weak",
       "a": "sterk",
-      "b": "zwak",
+      "b": "svak",
       "tier": 2,
       "pos": "adj",
       "family": "strength",
       "alt": {
         "a": [
-          "stevig"
+          "kraftig"
         ],
         "b": []
       },
       "exclusiveWith": [],
       "syn": {
-        "a": "stevig"
+        "a": "kraftig"
       },
       "far": "dag",
       "pic": null,
       "picOpened": true
     },
     {
+      "id": "bright-dark",
+      "a": "lys",
+      "b": "mørk",
+      "tier": 2,
+      "pos": "adj",
+      "family": "brightness",
+      "alt": {
+        "a": [
+          "klar"
+        ],
+        "b": [
+          "dunkel"
+        ]
+      },
+      "exclusiveWith": [
+        "heavy-light"
+      ],
+      "syn": {
+        "a": "klar"
+      },
+      "far": "langsom",
+      "pic": null,
+      "picOpened": true
+    },
+    {
       "id": "rough-smooth",
-      "a": "ruw",
-      "b": "glad",
+      "a": "ru",
+      "b": "glatt",
       "tier": 2,
       "pos": "adj",
       "family": "surface",
       "alt": {
         "a": [
-          "hobbelig"
+          "ujevn"
         ],
-        "b": []
+        "b": [
+          "jevn"
+        ]
       },
       "exclusiveWith": [],
       "syn": {
-        "a": "hobbelig"
+        "a": "ujevn"
       },
-      "far": "nacht",
-      "pic": null,
-      "picOpened": true
-    },
-    {
-      "id": "wide-narrow",
-      "a": "breed",
-      "b": "smal",
-      "tier": 2,
-      "pos": "adj",
-      "family": "width",
-      "alt": {
-        "a": [
-          "wijd"
-        ],
-        "b": []
-      },
-      "exclusiveWith": [],
-      "syn": {
-        "a": "wijd"
-      },
-      "far": "langzaam",
+      "far": "natt",
       "pic": null,
       "picOpened": true
     }
@@ -484,8 +502,8 @@
   "frames": [
     {
       "pair": "big-small",
-      "text": "De olifant is niet klein. Hij is ___.",
-      "answer": "groot",
+      "text": "Elefanten er ikke liten. Den er ___.",
+      "answer": "stor",
       "pic": {
         "theme": "zoo animals",
         "noun": "elephant"
@@ -493,8 +511,8 @@
     },
     {
       "pair": "hot-cold",
-      "text": "De sneeuwvlok is niet heet. Zij is ___.",
-      "answer": "koud",
+      "text": "Snøen er ikke varm. Den er ___.",
+      "answer": "kald",
       "pic": {
         "theme": "weather",
         "noun": "snowflake"
@@ -502,8 +520,8 @@
     },
     {
       "pair": "fast-slow",
-      "text": "De slak is niet snel. Hij is ___.",
-      "answer": "langzaam",
+      "text": "Sneglen er ikke rask. Den er ___.",
+      "answer": "langsom",
       "pic": {
         "theme": "forest creatures",
         "noun": "snail"
@@ -511,8 +529,8 @@
     },
     {
       "pair": "soft-hard",
-      "text": "Het kussen is niet hard. Het is ___.",
-      "answer": "zacht",
+      "text": "Puta er ikke hard. Den er ___.",
+      "answer": "myk",
       "pic": {
         "theme": "around the house",
         "noun": "pillow"
@@ -520,8 +538,8 @@
     },
     {
       "pair": "heavy-light",
-      "text": "De veer is niet zwaar. Zij is ___.",
-      "answer": "licht",
+      "text": "Fjæra er ikke tung. Den er ___.",
+      "answer": "lett",
       "pic": {
         "theme": "easter",
         "noun": "feather"
@@ -529,8 +547,8 @@
     },
     {
       "pair": "happy-sad",
-      "text": "{name} is vandaag niet verdrietig. {name} is ___.",
-      "answer": "blij",
+      "text": "{name} er ikke trist i dag. {name} er ___.",
+      "answer": "glad",
       "pic": {
         "theme": "emotions",
         "noun": "happy"
@@ -538,8 +556,8 @@
     },
     {
       "pair": "sweet-sour",
-      "text": "De citroen is niet zoet. Hij is ___.",
-      "answer": "zuur",
+      "text": "Sitronen er ikke søt. Den er ___.",
+      "answer": "sur",
       "pic": {
         "theme": "fruits",
         "noun": "lemon"
@@ -547,8 +565,8 @@
     },
     {
       "pair": "day-night",
-      "text": "De maan schijnt. Het is geen dag. Het is ___.",
-      "answer": "nacht",
+      "text": "Månen er oppe. Det er ikke dag. Det er ___.",
+      "answer": "natt",
       "pic": {
         "theme": "space",
         "noun": "moon"
@@ -557,86 +575,96 @@
   ],
   "prefix": {
     "prefixes": [
-      "on"
+      "u"
     ],
     "items": [
       {
-        "base": "eerlijk",
-        "prefix": "on",
-        "expected": "oneerlijk"
+        "base": "vennlig",
+        "prefix": "u",
+        "expected": "uvennlig"
       },
       {
-        "base": "rustig",
-        "prefix": "on",
-        "expected": "onrustig"
+        "base": "høflig",
+        "prefix": "u",
+        "expected": "uhøflig"
       },
       {
-        "base": "beleefd",
-        "prefix": "on",
-        "expected": "onbeleefd"
+        "base": "sikker",
+        "prefix": "u",
+        "expected": "usikker"
       },
       {
-        "base": "gezond",
-        "prefix": "on",
-        "expected": "ongezond"
+        "base": "kjent",
+        "prefix": "u",
+        "expected": "ukjent"
       },
       {
-        "base": "bekend",
-        "prefix": "on",
-        "expected": "onbekend"
+        "base": "rolig",
+        "prefix": "u",
+        "expected": "urolig"
       },
       {
-        "base": "veilig",
-        "prefix": "on",
-        "expected": "onveilig"
+        "base": "sunn",
+        "prefix": "u",
+        "expected": "usunn"
       },
       {
-        "base": "handig",
-        "prefix": "on",
-        "expected": "onhandig"
+        "base": "heldig",
+        "prefix": "u",
+        "expected": "uheldig"
       },
       {
-        "base": "gelukkig",
-        "prefix": "on",
-        "expected": "ongelukkig"
+        "base": "lykkelig",
+        "prefix": "u",
+        "expected": "ulykkelig"
       },
       {
-        "base": "aardig",
-        "prefix": "on",
-        "expected": "onaardig"
+        "base": "ærlig",
+        "prefix": "u",
+        "expected": "uærlig"
       },
       {
-        "base": "zeker",
-        "prefix": "on",
-        "expected": "onzeker"
+        "base": "synlig",
+        "prefix": "u",
+        "expected": "usynlig"
+      },
+      {
+        "base": "ryddig",
+        "prefix": "u",
+        "expected": "uryddig"
+      },
+      {
+        "base": "tydelig",
+        "prefix": "u",
+        "expected": "utydelig"
       }
     ],
     "ban": []
   },
   "strings": {
     "G1-307": {
-      "title": "Tegenstellingen: schrijf het tegenovergestelde woord",
-      "instruction": "Lees het woord op elke kaart. Zoek het tegenovergestelde in de woordenbank en schrijf het op de lijn."
+      "title": "Motsetninger: Skriv det motsatte ordet",
+      "instruction": "Les ordet på hvert kort. Finn det motsatte ordet i ordbanken og skriv det på linja."
     },
     "K-351": {
-      "title": "Tegenstellingen met plaatjes: verbind de tegenpolen",
-      "instruction": "Trek een lijn van elk plaatje links naar het plaatje en het woord rechts die samen het tegenovergestelde laten zien."
+      "title": "Motsetninger med bilder: Finn parene",
+      "instruction": "Tegn en strek fra hvert bilde til bildet og ordet som viser det motsatte."
     },
     "G1-335": {
-      "title": "Tegenstellingen in een zin",
-      "instruction": "Lees elke zin. Schrijf het tegenovergestelde van het woord na \"niet\" op de lijn. De woordenbank helpt je."
+      "title": "Motsetninger i setninger",
+      "instruction": "Les hver setning. Skriv det motsatte av ordet etter «ikke» på linja. Ordbanken hjelper deg."
     },
     "G1-336": {
-      "title": "Zoek de paren: welke woorden zijn tegenstellingen?",
-      "instruction": "Zoek de twee woorden die tegenstellingen zijn. Schrijf elk paar op een lijn, één woord aan elke kant van de pijl."
+      "title": "Finn ordparene som er motsetninger",
+      "instruction": "Finn de to ordene som er motsetninger. Skriv hvert par på en linje, ett ord på hver side av pila."
     },
     "G1-337": {
-      "title": "Tegengesteld of hetzelfde? Omcirkel het tegenovergestelde",
-      "instruction": "Lees het woord. Eén van de drie woorden eronder betekent het tegenovergestelde. Omcirkel dat woord, niet het woord dat hetzelfde betekent."
+      "title": "Motsatt eller det samme? Sett ring rundt det motsatte",
+      "instruction": "Les ordet. Ett av de tre ordene under betyr det motsatte. Sett ring rundt det, ikke rundt ordet som betyr det samme."
     },
     "G2-320": {
-      "title": "Tegenstellingen met on-",
-      "instruction": "Zet on- voor elk woord en schrijf het nieuwe tegenovergestelde woord op de lijn."
+      "title": "Motsetninger med forstavelsen u-",
+      "instruction": "Sett forstavelsen u- foran hvert ord og skriv det nye, motsatte ordet på linja."
     }
   }
 }

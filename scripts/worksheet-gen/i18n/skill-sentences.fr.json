@@ -261,7 +261,7 @@
   },
   "letter-of-the-week": {
     "full": "Repasser la lettre de la semaine, entourer les images dont le nom commence par elle, puis l'écrire seul : le geste et le son de la lettre s'installent ensemble.",
-    "short": "Installe la lettre de la semaine : repasser, reconnaître, écrire."
+    "short": "Repasser, reconnaître et écrire une lettre."
   },
   "sound-boxes": {
     "full": "Écrire un son par case, avec une case plus large pour les lettres qui ne font qu'un seul son, rend visible le nombre de sons d'un mot avant de l'écrire en entier.",
@@ -277,7 +277,7 @@
   },
   "days-and-months": {
     "full": "Numéroter les jours de la semaine et les mois de l'année, trouver hier et demain, le mois d'avant et d'après : les repères du temps, de la maternelle au CP.",
-    "short": "Ordonner les jours de la semaine et les mois de l'année."
+    "short": "Ordonner les jours et les mois."
   },
   "seasons": {
     "full": "Trier des images par saison, ordonner les saisons sur la roue et relier chaque mois à sa saison : le temps qui passe devient concret pour un enfant de maternelle.",

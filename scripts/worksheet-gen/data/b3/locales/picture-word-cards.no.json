@@ -1,0 +1,80 @@
+{
+  "cardCase": "lower",
+  "articleStyle": {
+    "enabled": true,
+    "level": 2,
+    "dots": null,
+    "elision": "refuse",
+    "elisionChip": null,
+    "legend": null
+  },
+  "plural": {
+    "enabled": true,
+    "clones": 3
+  },
+  "bilingual": {
+    "partnerExemplar": "en",
+    "hostName": "norsk",
+    "partnerNames": {
+      "en": "engelsk",
+      "de": "tysk",
+      "es": "spansk",
+      "pt": "portugisisk",
+      "fr": "fransk",
+      "it": "italiensk",
+      "nl": "nederlandsk",
+      "sv": "svensk",
+      "da": "dansk",
+      "fi": "finsk"
+    },
+    "legendSep": " · "
+  },
+  "syllable": {
+    "enabled": true,
+    "mark": "arc",
+    "hyphen": "-",
+    "strictPool": false,
+    "exclude": []
+  },
+  "twinLayout": {
+    "cols": 4,
+    "blockRows": 2
+  },
+  "exclude": [
+    "plum",
+    "pelican",
+    "tree",
+    "comet",
+    "girl",
+    "brush",
+    "leggings",
+    "shorts",
+    "pajamas"
+  ],
+  "strings": {
+    "K-324": {
+      "title": "Bildekort med ord",
+      "instruction": "Klipp langs klippelinjene så du får kortene. Si navnet på hvert bilde, og les så ordet."
+    },
+    "twin": {
+      "title": "Bildekort og ordkort: Finn parene",
+      "instruction": "Klipp ut de seksten kortene. Legg ordkortene ved bildene de passer til, eller snu alle og spill memory."
+    },
+    "article": {
+      "title": "En eller et? Ordkort med artikkel",
+      "instruction": "Klipp ut de åtte kortene. Si hvert ord sammen med artikkelen sin, akkurat slik det står på kortet."
+    },
+    "plural": {
+      "title": "Én og flere: Kort i entall og flertall",
+      "instruction": "Klipp ut kortene. Si ordet for én og ordet for flere, og legg så parene sammen."
+    },
+    "bilingual": {
+      "title": "Tospråklige bildekort: Norsk og engelsk",
+      "instruction": "Klipp ut de åtte kortene. Si ordet på norsk og så på engelsk, og ta vare på kortene til ordveggen din."
+    },
+    "syllable": {
+      "title": "Stavelseskort: Les ordet stavelse for stavelse",
+      "instruction": "Klipp ut de åtte kortene. Les hvert ord én stavelse om gangen, og si så hele ordet."
+    }
+  }
+}

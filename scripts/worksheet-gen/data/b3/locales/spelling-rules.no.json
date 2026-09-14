@@ -1,0 +1,2630 @@
+{
+  "head": "Rettskriving",
+  "exemplar": "dobbel-konsonant",
+  "capital": "lower",
+  "pool": "approved-full",
+  "exclude": {
+    "re": "saurus$",
+    "why": "dinosaurnavn er ikke rettskrivingsord på 3. trinn"
+  },
+  "rules": {
+    "dobbel-konsonant": {
+      "id": "dobbel-konsonant",
+      "head": "Dobbel konsonant",
+      "chip": "kk ll mm nn pp ss tt gg",
+      "band": "G2",
+      "gap": {
+        "kind": "regex",
+        "re": "([bdfgklmnprstv])\\1",
+        "boxes": "wide"
+      },
+      "cands": [
+        "kk",
+        "ll",
+        "mm",
+        "nn",
+        "pp",
+        "ss",
+        "tt",
+        "gg",
+        "ff",
+        "dd",
+        "bb",
+        "rr",
+        "vv"
+      ],
+      "pair": null,
+      "pairHead": "Dobbel konsonant",
+      "proof": null,
+      "models": [
+        {
+          "vocabKey": "cat",
+          "theme": "animals",
+          "noun": "cat",
+          "word": "katt",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "tt"
+        },
+        {
+          "vocabKey": "ball",
+          "theme": "toys",
+          "noun": "ball",
+          "word": "ball",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll"
+        },
+        {
+          "vocabKey": "bus",
+          "theme": "vehicles",
+          "noun": "bus",
+          "word": "buss",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ss"
+        }
+      ],
+      "items": [
+        {
+          "theme": "Things That Fly",
+          "noun": "balloon",
+          "vocabKey": "balloon",
+          "word": "ballong",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "ballonger",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "beetle",
+          "vocabKey": "beetle",
+          "word": "bille",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "biller",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "bell",
+          "vocabKey": "bell",
+          "word": "bjelle",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "bjeller",
+          "pluralGap": null
+        },
+        {
+          "theme": "spring",
+          "noun": "bicycle",
+          "vocabKey": "bicycle",
+          "word": "sykkel",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "sykler",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "bowl",
+          "vocabKey": "bowl",
+          "word": "bolle",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "boller",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "bucket",
+          "vocabKey": "bucket",
+          "word": "bøtte",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "bøtter",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "cape",
+          "vocabKey": "cape",
+          "word": "kappe",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "pp",
+          "side": "rule",
+          "plural": "kapper",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "carpet",
+          "vocabKey": "carpet",
+          "word": "teppe",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "pp",
+          "side": "rule",
+          "plural": "tepper",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "clock",
+          "vocabKey": "clock",
+          "word": "klokke",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "klokker",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "coat",
+          "vocabKey": "coat",
+          "word": "frakk",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "frakker",
+          "pluralGap": null
+        },
+        {
+          "theme": "toys",
+          "noun": "doll",
+          "vocabKey": "doll",
+          "word": "dukke",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "dukker",
+          "pluralGap": null
+        },
+        {
+          "theme": "music",
+          "noun": "drum",
+          "vocabKey": "drum",
+          "word": "tromme",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "mm",
+          "side": "rule",
+          "plural": "trommer",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "egg",
+          "vocabKey": "egg",
+          "word": "egg",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 2
+            }
+          ],
+          "g": "gg",
+          "side": "rule",
+          "plural": "egg",
+          "pluralGap": null
+        },
+        {
+          "theme": "4th of July",
+          "noun": "flag",
+          "vocabKey": "flag",
+          "word": "flagg",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "gg",
+          "side": "rule",
+          "plural": "flagg",
+          "pluralGap": null
+        },
+        {
+          "theme": "classroom",
+          "noun": "folder",
+          "vocabKey": "folder",
+          "word": "mappe",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "pp",
+          "side": "rule",
+          "plural": "mapper",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "hammer",
+          "vocabKey": "hammer",
+          "word": "hammer",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "mm",
+          "side": "rule",
+          "plural": "hammere",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "hat",
+          "vocabKey": "hat",
+          "word": "hatt",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "hatter",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "jacket",
+          "vocabKey": "jacket",
+          "word": "jakke",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "jakker",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "jar",
+          "vocabKey": "jar",
+          "word": "krukke",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "krukker",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "jug",
+          "vocabKey": "jug",
+          "word": "mugge",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "gg",
+          "side": "rule",
+          "plural": "mugger",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "key",
+          "vocabKey": "key",
+          "word": "nøkkel",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "nøkler",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "lid",
+          "vocabKey": "lid",
+          "word": "lokk",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "lokk",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "lip",
+          "vocabKey": "lip",
+          "word": "leppe",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "pp",
+          "side": "rule",
+          "plural": "lepper",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "mop",
+          "vocabKey": "mop",
+          "word": "mopp",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "pp",
+          "side": "rule",
+          "plural": "mopper",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "mosquito",
+          "vocabKey": "mosquito",
+          "word": "mygg",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "gg",
+          "side": "rule",
+          "plural": "mygger",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "mountain",
+          "vocabKey": "mountain",
+          "word": "fjell",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "fjell",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "mouth",
+          "vocabKey": "mouth",
+          "word": "munn",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "nn",
+          "side": "rule",
+          "plural": "munner",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "neck",
+          "vocabKey": "neck",
+          "word": "nakke",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "nakker",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "net",
+          "vocabKey": "net",
+          "word": "nett",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "nett",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "pen",
+          "vocabKey": "pen",
+          "word": "penn",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "nn",
+          "side": "rule",
+          "plural": "penner",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "sack",
+          "vocabKey": "sack",
+          "word": "sekk",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "sekker",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "stairs",
+          "vocabKey": "stairs",
+          "word": "trapp",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "pp",
+          "side": "rule",
+          "plural": "trapper",
+          "pluralGap": null
+        },
+        {
+          "theme": "furniture",
+          "noun": "stool",
+          "vocabKey": "stool",
+          "word": "krakk",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "krakker",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "tooth",
+          "vocabKey": "tooth",
+          "word": "tann",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "nn",
+          "side": "rule",
+          "plural": "tenner",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "water",
+          "vocabKey": "water",
+          "word": "vann",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "nn",
+          "side": "rule",
+          "plural": "vann",
+          "pluralGap": null
+        },
+        {
+          "theme": "bakery",
+          "noun": "waffle",
+          "vocabKey": "waffle",
+          "word": "vaffel",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ff",
+          "side": "rule",
+          "plural": "vafler",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "fork",
+          "vocabKey": "fork",
+          "word": "gaffel",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ff",
+          "side": "rule",
+          "plural": "gafler",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "seashell",
+          "vocabKey": "seashell",
+          "word": "skjell",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "skjell",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "rocket",
+          "vocabKey": "rocket",
+          "word": "rakett",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "raketter",
+          "pluralGap": null
+        },
+        {
+          "theme": "fruits",
+          "noun": "coconut",
+          "vocabKey": "coconut",
+          "word": "kokosnøtt",
+          "gaps": [
+            {
+              "from": 7,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "kokosnøtter",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "mitten",
+          "vocabKey": "mitten",
+          "word": "vott",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "votter",
+          "pluralGap": null
+        },
+        {
+          "theme": "spring",
+          "noun": "grass",
+          "vocabKey": "grass",
+          "word": "gress",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ss",
+          "side": "rule",
+          "plural": "gress",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "glass",
+          "vocabKey": "glass",
+          "word": "glass",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ss",
+          "side": "rule",
+          "plural": "glass",
+          "pluralGap": null
+        }
+      ],
+      "foils": [
+        {
+          "theme": "beach",
+          "noun": "sun",
+          "vocabKey": "sun",
+          "word": "sol"
+        },
+        {
+          "theme": "miscellaneous",
+          "noun": "house",
+          "vocabKey": "house",
+          "word": "hus"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "mouse",
+          "vocabKey": "mouse",
+          "word": "mus"
+        },
+        {
+          "theme": "toys",
+          "noun": "car",
+          "vocabKey": "car",
+          "word": "bil"
+        },
+        {
+          "theme": "animals",
+          "noun": "sheep",
+          "vocabKey": "sheep",
+          "word": "sau"
+        },
+        {
+          "theme": "farm animals",
+          "noun": "cow",
+          "vocabKey": "cow",
+          "word": "ku"
+        }
+      ],
+      "refuse": {
+        "choice": "ingen motsetning i ett bokstavpar: dobbel konsonant øves per konsonant (se t eller tt, k eller kk)",
+        "bins": "ingen motsetning i ett bokstavpar (se t eller tt, k eller kk)"
+      },
+      "note": "kort vokal etterfulgt av dobbel konsonant"
+    },
+    "t-eller-tt": {
+      "id": "t-eller-tt",
+      "head": "t eller tt",
+      "chip": "t tt",
+      "band": "G2",
+      "gap": {
+        "kind": "regex",
+        "re": "(?<=[aeiouyæøå])tt|(?<=[aeiouyæøå])t(?=[aeiouyæøå]|$)",
+        "boxes": "wide"
+      },
+      "cands": [
+        "t",
+        "tt"
+      ],
+      "pair": [
+        "tt",
+        "t"
+      ],
+      "pairHead": "t eller tt",
+      "proof": null,
+      "models": [
+        {
+          "vocabKey": "cat",
+          "theme": "animals",
+          "noun": "cat",
+          "word": "katt",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "tt"
+        },
+        {
+          "vocabKey": "boat",
+          "theme": "beach",
+          "noun": "boat",
+          "word": "båt",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "t"
+        },
+        {
+          "vocabKey": "hat",
+          "theme": "accessories",
+          "noun": "hat",
+          "word": "hatt",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "tt"
+        }
+      ],
+      "items": [
+        {
+          "theme": "beach",
+          "noun": "bucket",
+          "vocabKey": "bucket",
+          "word": "bøtte",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "bøtter",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "cabin",
+          "vocabKey": "cabin",
+          "word": "hytte",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "hytter",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "mitten",
+          "vocabKey": "mitten",
+          "word": "vott",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "votter",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "net",
+          "vocabKey": "net",
+          "word": "nett",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "nett",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "rocket",
+          "vocabKey": "rocket",
+          "word": "rakett",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "raketter",
+          "pluralGap": null
+        },
+        {
+          "theme": "fruits",
+          "noun": "coconut",
+          "vocabKey": "coconut",
+          "word": "kokosnøtt",
+          "gaps": [
+            {
+              "from": 7,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "kokosnøtter",
+          "pluralGap": null
+        },
+        {
+          "theme": "post office",
+          "noun": "envelope",
+          "vocabKey": "envelope",
+          "word": "konvolutt",
+          "gaps": [
+            {
+              "from": 7,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "konvolutter",
+          "pluralGap": null
+        },
+        {
+          "theme": "winter",
+          "noun": "snowboarding",
+          "vocabKey": "snowboarding",
+          "word": "snøbrett",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "snøbrett",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "sandcastle",
+          "vocabKey": "sandcastle",
+          "word": "sandslott",
+          "gaps": [
+            {
+              "from": 7,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "sandslott",
+          "pluralGap": null
+        },
+        {
+          "theme": "weather",
+          "noun": "mittens",
+          "vocabKey": "mittens",
+          "word": "votter",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "votter",
+          "pluralGap": null
+        },
+        {
+          "theme": "occupations",
+          "noun": "author",
+          "vocabKey": "author",
+          "word": "forfatter",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "forfattere",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "foot",
+          "vocabKey": "foot",
+          "word": "fot",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "føtter",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "goat",
+          "vocabKey": "goat",
+          "word": "geit",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "geiter",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "lettuce",
+          "vocabKey": "lettuce",
+          "word": "salat",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "salater",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "tomato",
+          "vocabKey": "tomato",
+          "word": "tomat",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "tomater",
+          "pluralGap": null
+        },
+        {
+          "theme": "toys",
+          "noun": "robot",
+          "vocabKey": "robot",
+          "word": "robot",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "roboter",
+          "pluralGap": null
+        },
+        {
+          "theme": "space",
+          "noun": "planet",
+          "vocabKey": "planet",
+          "word": "planet",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "planeter",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "pot",
+          "vocabKey": "pot",
+          "word": "gryte",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "gryter",
+          "pluralGap": null
+        },
+        {
+          "theme": "music",
+          "noun": "flute",
+          "vocabKey": "flute",
+          "word": "fløyte",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "fløyter",
+          "pluralGap": null
+        },
+        {
+          "theme": "occupations",
+          "noun": "pilot",
+          "vocabKey": "pilot",
+          "word": "pilot",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "piloter",
+          "pluralGap": null
+        },
+        {
+          "theme": "breakfast",
+          "noun": "porridge",
+          "vocabKey": "porridge",
+          "word": "grøt",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "grøt",
+          "pluralGap": null
+        },
+        {
+          "theme": "vegetables",
+          "noun": "turnip",
+          "vocabKey": "turnip",
+          "word": "kålrot",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "kålrøtter",
+          "pluralGap": null
+        },
+        {
+          "theme": "music",
+          "noun": "trumpet",
+          "vocabKey": "trumpet",
+          "word": "trompet",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "trompeter",
+          "pluralGap": null
+        },
+        {
+          "theme": "vegetables",
+          "noun": "spinach",
+          "vocabKey": "spinach",
+          "word": "spinat",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "spinat",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "jellyfish",
+          "vocabKey": "jellyfish",
+          "word": "manet",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "maneter",
+          "pluralGap": null
+        }
+      ],
+      "foils": [
+        {
+          "theme": "beach",
+          "noun": "sun",
+          "vocabKey": "sun",
+          "word": "sol"
+        },
+        {
+          "theme": "miscellaneous",
+          "noun": "house",
+          "vocabKey": "house",
+          "word": "hus"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "mouse",
+          "vocabKey": "mouse",
+          "word": "mus"
+        },
+        {
+          "theme": "toys",
+          "noun": "car",
+          "vocabKey": "car",
+          "word": "bil"
+        },
+        {
+          "theme": "animals",
+          "noun": "sheep",
+          "vocabKey": "sheep",
+          "word": "sau"
+        },
+        {
+          "theme": "farm animals",
+          "noun": "cow",
+          "vocabKey": "cow",
+          "word": "ku"
+        }
+      ],
+      "refuse": {},
+      "note": "kort vokal + tt, lang vokal + t"
+    },
+    "k-eller-kk": {
+      "id": "k-eller-kk",
+      "head": "k eller kk",
+      "chip": "k kk",
+      "band": "G2",
+      "gap": {
+        "kind": "regex",
+        "re": "(?<=[aeiouyæøå])kk|(?<=[aeiouyæøå])k(?=[aeiouyæøå]|$)",
+        "boxes": "wide"
+      },
+      "cands": [
+        "k",
+        "kk"
+      ],
+      "pair": [
+        "kk",
+        "k"
+      ],
+      "pairHead": "k eller kk",
+      "proof": null,
+      "models": [
+        {
+          "vocabKey": "sack",
+          "theme": "christmas",
+          "noun": "sack",
+          "word": "sekk",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk"
+        },
+        {
+          "vocabKey": "book",
+          "theme": "classroom",
+          "noun": "book",
+          "word": "bok",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "k"
+        },
+        {
+          "vocabKey": "sock",
+          "theme": "accessories",
+          "noun": "sock",
+          "word": "sokk",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk"
+        }
+      ],
+      "items": [
+        {
+          "theme": "spring",
+          "noun": "bicycle",
+          "vocabKey": "bicycle",
+          "word": "sykkel",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "sykler",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "clock",
+          "vocabKey": "clock",
+          "word": "klokke",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "klokker",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "coat",
+          "vocabKey": "coat",
+          "word": "frakk",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "frakker",
+          "pluralGap": null
+        },
+        {
+          "theme": "toys",
+          "noun": "doll",
+          "vocabKey": "doll",
+          "word": "dukke",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "dukker",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "jacket",
+          "vocabKey": "jacket",
+          "word": "jakke",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "jakker",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "jar",
+          "vocabKey": "jar",
+          "word": "krukke",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "krukker",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "key",
+          "vocabKey": "key",
+          "word": "nøkkel",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "nøkler",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "lid",
+          "vocabKey": "lid",
+          "word": "lokk",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "lokk",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "neck",
+          "vocabKey": "neck",
+          "word": "nakke",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "nakker",
+          "pluralGap": null
+        },
+        {
+          "theme": "furniture",
+          "noun": "stool",
+          "vocabKey": "stool",
+          "word": "krakk",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "krakker",
+          "pluralGap": null
+        },
+        {
+          "theme": "ocean life",
+          "noun": "ray",
+          "vocabKey": "ray",
+          "word": "rokke",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "rokker",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "binoculars",
+          "vocabKey": "binoculars",
+          "word": "kikkert",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "kikkerter",
+          "pluralGap": null
+        },
+        {
+          "theme": "occupations",
+          "noun": "carpenter",
+          "vocabKey": "carpenter",
+          "word": "snekker",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "snekkere",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "broccoli",
+          "vocabKey": "broccoli",
+          "word": "brokkoli",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "brokkolier",
+          "pluralGap": null
+        },
+        {
+          "theme": "occupations",
+          "noun": "chef",
+          "vocabKey": "chef",
+          "word": "kokk",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "kokker",
+          "pluralGap": null
+        },
+        {
+          "theme": "occupations",
+          "noun": "baker",
+          "vocabKey": "baker",
+          "word": "baker",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "bakere",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "onion",
+          "vocabKey": "onion",
+          "word": "løk",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "løker",
+          "pluralGap": null
+        },
+        {
+          "theme": "fruits",
+          "noun": "fig",
+          "vocabKey": "fig",
+          "word": "fiken",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "fikener",
+          "pluralGap": null
+        },
+        {
+          "theme": "flowers",
+          "noun": "crocus",
+          "vocabKey": "crocus",
+          "word": "krokus",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "krokuser",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "teapot",
+          "vocabKey": "teapot",
+          "word": "tekanne",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "tekanner",
+          "pluralGap": null
+        },
+        {
+          "theme": "shapes",
+          "noun": "triangle",
+          "vocabKey": "triangle",
+          "word": "trekant",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "trekanter",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "wallet",
+          "vocabKey": "wallet",
+          "word": "lommebok",
+          "gaps": [
+            {
+              "from": 7,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "lommebøker",
+          "pluralGap": null
+        },
+        {
+          "theme": "classroom",
+          "noun": "notebook",
+          "vocabKey": "notebook",
+          "word": "notatbok",
+          "gaps": [
+            {
+              "from": 7,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "notatbøker",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "garlic",
+          "vocabKey": "garlic",
+          "word": "hvitløk",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "hvitløk",
+          "pluralGap": null
+        }
+      ],
+      "foils": [
+        {
+          "theme": "beach",
+          "noun": "sun",
+          "vocabKey": "sun",
+          "word": "sol"
+        },
+        {
+          "theme": "miscellaneous",
+          "noun": "house",
+          "vocabKey": "house",
+          "word": "hus"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "mouse",
+          "vocabKey": "mouse",
+          "word": "mus"
+        },
+        {
+          "theme": "toys",
+          "noun": "car",
+          "vocabKey": "car",
+          "word": "bil"
+        },
+        {
+          "theme": "body parts",
+          "noun": "toe",
+          "vocabKey": "toe",
+          "word": "tå"
+        },
+        {
+          "theme": "animals",
+          "noun": "sheep",
+          "vocabKey": "sheep",
+          "word": "sau"
+        }
+      ],
+      "refuse": {},
+      "note": "kort vokal + kk, lang vokal + k"
+    },
+    "ng-lyden": {
+      "id": "ng-lyden",
+      "head": "ng-lyden",
+      "chip": "ng n",
+      "band": "G2",
+      "gap": {
+        "kind": "regex",
+        "re": "ng|n(?=k)",
+        "boxes": "wide"
+      },
+      "cands": [
+        "ng",
+        "n"
+      ],
+      "pair": [
+        "ng",
+        "n"
+      ],
+      "pairHead": "ng eller n foran k",
+      "proof": null,
+      "models": [
+        {
+          "vocabKey": "bed",
+          "theme": "around the house",
+          "noun": "bed",
+          "word": "seng",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ng"
+        },
+        {
+          "vocabKey": "bench",
+          "theme": "furniture",
+          "noun": "bench",
+          "word": "benk",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "n"
+        },
+        {
+          "vocabKey": "ring",
+          "theme": "accessories",
+          "noun": "ring",
+          "word": "ring",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ng"
+        }
+      ],
+      "items": [
+        {
+          "theme": "Things That Fly",
+          "noun": "balloon",
+          "vocabKey": "balloon",
+          "word": "ballong",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "ng",
+          "side": "rule",
+          "plural": "ballonger",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "chick",
+          "vocabKey": "chick",
+          "word": "kylling",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "ng",
+          "side": "rule",
+          "plural": "kyllinger",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "hose",
+          "vocabKey": "hose",
+          "word": "slange",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ng",
+          "side": "rule",
+          "plural": "slanger",
+          "pluralGap": null
+        },
+        {
+          "theme": "tools",
+          "noun": "pliers",
+          "vocabKey": "pliers",
+          "word": "tang",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ng",
+          "side": "rule",
+          "plural": "tenger",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "pinecone",
+          "vocabKey": "pinecone",
+          "word": "kongle",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ng",
+          "side": "rule",
+          "plural": "kongler",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "tongue",
+          "vocabKey": "tongue",
+          "word": "tunge",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ng",
+          "side": "rule",
+          "plural": "tunger",
+          "pluralGap": null
+        },
+        {
+          "theme": "fruits",
+          "noun": "mango",
+          "vocabKey": "mango",
+          "word": "mango",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ng",
+          "side": "rule",
+          "plural": "mangoer",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "angel",
+          "vocabKey": "angel",
+          "word": "engel",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 2
+            }
+          ],
+          "g": "ng",
+          "side": "rule",
+          "plural": "engler",
+          "pluralGap": null
+        },
+        {
+          "theme": "animals",
+          "noun": "penguin",
+          "vocabKey": "penguin",
+          "word": "pingvin",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ng",
+          "side": "rule",
+          "plural": "pingviner",
+          "pluralGap": null
+        },
+        {
+          "theme": "bakery",
+          "noun": "pretzel",
+          "vocabKey": "pretzel",
+          "word": "kringle",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ng",
+          "side": "rule",
+          "plural": "kringler",
+          "pluralGap": null
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "kangaroo",
+          "vocabKey": "kangaroo",
+          "word": "kenguru",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ng",
+          "side": "rule",
+          "plural": "kenguruer",
+          "pluralGap": null
+        },
+        {
+          "theme": "breakfast",
+          "noun": "honey",
+          "vocabKey": "honey",
+          "word": "honning",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "ng",
+          "side": "rule",
+          "plural": "honning",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "donut",
+          "vocabKey": "donut",
+          "word": "smultring",
+          "gaps": [
+            {
+              "from": 7,
+              "len": 2
+            }
+          ],
+          "g": "ng",
+          "side": "rule",
+          "plural": "smultringer",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "finger",
+          "vocabKey": "finger",
+          "word": "finger",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ng",
+          "side": "rule",
+          "plural": "fingrer",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "flamingo",
+          "vocabKey": "flamingo",
+          "word": "flamingo",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "ng",
+          "side": "rule",
+          "plural": "flamingoer",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "ankle",
+          "vocabKey": "ankle",
+          "word": "ankel",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 1
+            }
+          ],
+          "g": "n",
+          "side": "contrast",
+          "plural": "ankler",
+          "pluralGap": null
+        },
+        {
+          "theme": "birds 2",
+          "noun": "finch",
+          "vocabKey": "finch",
+          "word": "finke",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "n",
+          "side": "contrast",
+          "plural": "finker",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "ham",
+          "vocabKey": "ham",
+          "word": "skinke",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "n",
+          "side": "contrast",
+          "plural": "skinker",
+          "pluralGap": null
+        }
+      ],
+      "foils": [
+        {
+          "theme": "beach",
+          "noun": "sun",
+          "vocabKey": "sun",
+          "word": "sol"
+        },
+        {
+          "theme": "miscellaneous",
+          "noun": "house",
+          "vocabKey": "house",
+          "word": "hus"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "mouse",
+          "vocabKey": "mouse",
+          "word": "mus"
+        },
+        {
+          "theme": "toys",
+          "noun": "car",
+          "vocabKey": "car",
+          "word": "bil"
+        },
+        {
+          "theme": "body parts",
+          "noun": "toe",
+          "vocabKey": "toe",
+          "word": "tå"
+        },
+        {
+          "theme": "animals",
+          "noun": "sheep",
+          "vocabKey": "sheep",
+          "word": "sau"
+        }
+      ],
+      "refuse": {},
+      "note": "ng-lyden skrives ng, men n foran k (benk, tanke)"
+    },
+    "sj-lyden": {
+      "id": "sj-lyden",
+      "head": "sj-lyden",
+      "chip": "sj skj sk",
+      "band": "G3",
+      "gap": {
+        "kind": "regex",
+        "re": "skj|sj|sk(?=[iy]|ei|øy)",
+        "boxes": "wide"
+      },
+      "cands": [
+        "sj",
+        "skj",
+        "sk"
+      ],
+      "pair": null,
+      "pairHead": "sj-lyden",
+      "proof": null,
+      "models": [
+        {
+          "vocabKey": "spoon",
+          "theme": "around the house",
+          "noun": "spoon",
+          "word": "skje",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 3
+            }
+          ],
+          "g": "skj"
+        },
+        {
+          "vocabKey": "giraffe",
+          "theme": "animals",
+          "noun": "giraffe",
+          "word": "sjiraff",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "sj"
+        },
+        {
+          "vocabKey": "skiing",
+          "theme": "activities",
+          "noun": "skiing",
+          "word": "ski",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "sk"
+        }
+      ],
+      "items": [
+        {
+          "theme": "zoo animals",
+          "noun": "chimpanzee",
+          "vocabKey": "chimpanzee",
+          "word": "sjimpanse",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "sj",
+          "side": "rule",
+          "plural": "sjimpanser",
+          "pluralGap": null
+        },
+        {
+          "theme": "easter",
+          "noun": "chocolate",
+          "vocabKey": "chocolate",
+          "word": "sjokolade",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "sj",
+          "side": "rule",
+          "plural": "sjokolade",
+          "pluralGap": null
+        },
+        {
+          "theme": "shapes",
+          "noun": "heptagon",
+          "vocabKey": "heptagon",
+          "word": "sjukant",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "sj",
+          "side": "rule",
+          "plural": "sjukanter",
+          "pluralGap": null
+        },
+        {
+          "theme": "ocean life",
+          "noun": "manatee",
+          "vocabKey": "manatee",
+          "word": "sjøku",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "sj",
+          "side": "rule",
+          "plural": "sjøkuer",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "shampoo",
+          "vocabKey": "shampoo",
+          "word": "sjampo",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "sj",
+          "side": "rule",
+          "plural": "sjampoer",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "scarf",
+          "vocabKey": "scarf",
+          "word": "skjerf",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 3
+            }
+          ],
+          "g": "skj",
+          "side": "rule",
+          "plural": "skjerf",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "seashell",
+          "vocabKey": "seashell",
+          "word": "skjell",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 3
+            }
+          ],
+          "g": "skj",
+          "side": "rule",
+          "plural": "skjell",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "shirt",
+          "vocabKey": "shirt",
+          "word": "skjorte",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 3
+            }
+          ],
+          "g": "skj",
+          "side": "rule",
+          "plural": "skjorter",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "skirt",
+          "vocabKey": "skirt",
+          "word": "skjørt",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 3
+            }
+          ],
+          "g": "skj",
+          "side": "rule",
+          "plural": "skjørt",
+          "pluralGap": null
+        },
+        {
+          "theme": "birds 2",
+          "noun": "magpie",
+          "vocabKey": "magpie",
+          "word": "skjære",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 3
+            }
+          ],
+          "g": "skj",
+          "side": "rule",
+          "plural": "skjærer",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "cloud",
+          "vocabKey": "cloud",
+          "word": "sky",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "sk",
+          "side": "rule",
+          "plural": "skyer",
+          "pluralGap": null
+        },
+        {
+          "theme": "vehicles",
+          "noun": "ship",
+          "vocabKey": "ship",
+          "word": "skip",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "sk",
+          "side": "rule",
+          "plural": "skip",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "ham",
+          "vocabKey": "ham",
+          "word": "skinke",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "sk",
+          "side": "rule",
+          "plural": "skinker",
+          "pluralGap": null
+        },
+        {
+          "theme": "vehicles",
+          "noun": "taxi",
+          "vocabKey": "taxi",
+          "word": "drosje",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "sj",
+          "side": "rule",
+          "plural": "drosjer",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "garage",
+          "vocabKey": "garage",
+          "word": "garasje",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "sj",
+          "side": "rule",
+          "plural": "garasjer",
+          "pluralGap": null
+        },
+        {
+          "theme": "hospital",
+          "noun": "bandage",
+          "vocabKey": "bandage",
+          "word": "bandasje",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "sj",
+          "side": "rule",
+          "plural": "bandasjer",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "lake",
+          "vocabKey": "lake",
+          "word": "innsjø",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "sj",
+          "side": "rule",
+          "plural": "innsjøer",
+          "pluralGap": null
+        },
+        {
+          "theme": "classroom",
+          "noun": "marker",
+          "vocabKey": "marker",
+          "word": "tusj",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "sj",
+          "side": "rule",
+          "plural": "tusjer",
+          "pluralGap": null
+        },
+        {
+          "theme": "ocean life",
+          "noun": "scallop",
+          "vocabKey": "scallop",
+          "word": "kamskjell",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "skj",
+          "side": "rule",
+          "plural": "kamskjell",
+          "pluralGap": null
+        }
+      ],
+      "foils": [
+        {
+          "theme": "beach",
+          "noun": "sun",
+          "vocabKey": "sun",
+          "word": "sol"
+        },
+        {
+          "theme": "miscellaneous",
+          "noun": "house",
+          "vocabKey": "house",
+          "word": "hus"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "mouse",
+          "vocabKey": "mouse",
+          "word": "mus"
+        },
+        {
+          "theme": "toys",
+          "noun": "car",
+          "vocabKey": "car",
+          "word": "bil"
+        },
+        {
+          "theme": "body parts",
+          "noun": "toe",
+          "vocabKey": "toe",
+          "word": "tå"
+        },
+        {
+          "theme": "animals",
+          "noun": "sheep",
+          "vocabKey": "sheep",
+          "word": "sau"
+        }
+      ],
+      "refuse": {
+        "choice": "sj-lyden har ingen motsetning i ett bokstavpar",
+        "bins": "sj-lyden har ingen motsetning i ett bokstavpar"
+      },
+      "note": "sj-lyden skrives sj, skj og sk foran i, y, ei og øy"
+    }
+  },
+  "strings": {
+    "G2-315": {
+      "title": "Ukas rettskrivingsregel: {UNIT}",
+      "instruction": "Les regelen i boksen. Si ordet til hvert bilde og skriv bokstavene som mangler i de stiplede rutene."
+    },
+    "G2-324": {
+      "title": "Hvilken skrivemåte er riktig? {UNIT}",
+      "instruction": "Se på bildet og les ordet. Sett ring rundt de riktige bokstavene under, og skriv dem i den stiplede ruten."
+    },
+    "G2-325": {
+      "title": "Regeldetektiv: {UNIT}",
+      "instruction": "Les hvert ord. Finn regelbokstavene, sett ring rundt dem i ordet og skriv dem i den lille ruten."
+    },
+    "G2-326": {
+      "title": "Sorter ordene etter skrivemåte: {UNIT}",
+      "instruction": "Si ordet til hvert bilde. Skriv det i boksen med riktig skrivemåte, ett ord på hver linje."
+    },
+    "G2-327": {
+      "title": "Skriv ordet: {UNIT}",
+      "instruction": "Regelbokstavene står allerede i oransje. Si ordet til bildet og skriv alle de andre bokstavene i rutene."
+    }
+  }
+}

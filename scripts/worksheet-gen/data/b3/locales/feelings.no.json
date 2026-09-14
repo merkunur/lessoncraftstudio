@@ -1,0 +1,414 @@
+{
+  "feelings": [
+    {
+      "id": "happy",
+      "word": "glad",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [
+        "fornøyd"
+      ],
+      "face": {
+        "theme": "emotions",
+        "noun": "happy"
+      },
+      "matchable": true,
+      "valence": "good",
+      "confusable": [],
+      "faceOpened": true
+    },
+    {
+      "id": "sad",
+      "word": "lei seg",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [
+        "trist"
+      ],
+      "override": "lei seg",
+      "face": {
+        "theme": "emotions",
+        "noun": "sad"
+      },
+      "matchable": true,
+      "valence": "bad",
+      "confusable": [],
+      "faceOpened": true
+    },
+    {
+      "id": "angry",
+      "word": "sint",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [
+        "sinna"
+      ],
+      "face": {
+        "theme": "emotions",
+        "noun": "angry"
+      },
+      "matchable": true,
+      "valence": "bad",
+      "confusable": [],
+      "faceOpened": true
+    },
+    {
+      "id": "scared",
+      "word": "redd",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [
+        "skummelt"
+      ],
+      "face": {
+        "theme": "emotions",
+        "noun": "scared"
+      },
+      "matchable": true,
+      "valence": "bad",
+      "confusable": [
+        "surprised"
+      ],
+      "faceOpened": true
+    },
+    {
+      "id": "surprised",
+      "word": "overrasket",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "surprised"
+      },
+      "matchable": true,
+      "valence": null,
+      "confusable": [
+        "scared"
+      ],
+      "faceOpened": true
+    },
+    {
+      "id": "tired",
+      "word": "trøtt",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [
+        "søvnig",
+        "trett"
+      ],
+      "override": "trøtt",
+      "face": {
+        "theme": "emotions",
+        "noun": "tired"
+      },
+      "matchable": true,
+      "valence": null,
+      "confusable": [],
+      "faceOpened": true
+    },
+    {
+      "id": "merry",
+      "word": "lystig",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "merry"
+      },
+      "matchable": false,
+      "valence": "good",
+      "confusable": [
+        "happy"
+      ],
+      "faceOpened": true
+    },
+    {
+      "id": "content",
+      "word": "fornøyd",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "content"
+      },
+      "matchable": false,
+      "valence": "good",
+      "confusable": [
+        "happy"
+      ],
+      "faceOpened": true
+    },
+    {
+      "id": "excited",
+      "word": "begeistret",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "excited"
+      },
+      "matchable": false,
+      "valence": "good",
+      "confusable": [
+        "happy"
+      ],
+      "faceOpened": true
+    },
+    {
+      "id": "capricious",
+      "word": "lunefull",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "capricious"
+      },
+      "matchable": false,
+      "valence": "bad",
+      "confusable": [
+        "sad"
+      ],
+      "faceOpened": true
+    },
+    {
+      "id": "disgusted",
+      "word": "kvalm",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "disgusted"
+      },
+      "matchable": false,
+      "valence": "bad",
+      "confusable": [],
+      "faceOpened": true
+    }
+  ],
+  "scenes": [
+    {
+      "id": "present",
+      "objects": [
+        {
+          "theme": "christmas",
+          "noun": "present"
+        }
+      ],
+      "feeling": "happy",
+      "alsoPlausible": [
+        "surprised"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a wrapped present"
+      }
+    },
+    {
+      "id": "balloon",
+      "objects": [
+        {
+          "theme": "toys",
+          "noun": "balloon"
+        }
+      ],
+      "feeling": "happy",
+      "alsoPlausible": [],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a green balloon"
+      }
+    },
+    {
+      "id": "medal",
+      "objects": [
+        {
+          "theme": "accessories",
+          "noun": "medal"
+        }
+      ],
+      "feeling": "happy",
+      "alsoPlausible": [
+        "surprised"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a gold medal"
+      }
+    },
+    {
+      "id": "teddy",
+      "objects": [
+        {
+          "theme": "toys",
+          "noun": "teddy_bear"
+        }
+      ],
+      "feeling": "happy",
+      "alsoPlausible": [
+        "tired"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a teddy bear"
+      }
+    },
+    {
+      "id": "thunderstorm",
+      "objects": [
+        {
+          "theme": "weather",
+          "noun": "thunderstorm"
+        }
+      ],
+      "feeling": "scared",
+      "alsoPlausible": [
+        "surprised"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a thunderstorm"
+      }
+    },
+    {
+      "id": "syringe",
+      "objects": [
+        {
+          "theme": "hospital",
+          "noun": "syringe"
+        }
+      ],
+      "feeling": "scared",
+      "alsoPlausible": [
+        "sad"
+      ],
+      "vetoable": true,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a syringe"
+      }
+    },
+    {
+      "id": "bed",
+      "objects": [
+        {
+          "theme": "furniture",
+          "noun": "bed"
+        }
+      ],
+      "feeling": "tired",
+      "alsoPlausible": [],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a bed"
+      }
+    },
+    {
+      "id": "pillow-moon",
+      "objects": [
+        {
+          "theme": "around the house",
+          "noun": "pillow"
+        },
+        {
+          "theme": "space",
+          "noun": "moon"
+        }
+      ],
+      "feeling": "tired",
+      "alsoPlausible": [
+        "scared"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a pillow and the moon"
+      }
+    },
+    {
+      "id": "pajamas-moon",
+      "objects": [
+        {
+          "theme": "clothing",
+          "noun": "pajamas"
+        },
+        {
+          "theme": "space",
+          "noun": "moon"
+        }
+      ],
+      "feeling": "tired",
+      "alsoPlausible": [
+        "scared"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "pajamas and the moon"
+      }
+    }
+  ],
+  "veto": [],
+  "bins": {
+    "good": {
+      "label": "Kjennes godt"
+    },
+    "bad": {
+      "label": "Kjennes vondt"
+    }
+  },
+  "checkin": {
+    "today": "I dag føler jeg meg…",
+    "draw": "Tegn ansiktet ditt",
+    "because": "fordi",
+    "helps": null
+  },
+  "strings": {
+    "K-319": {
+      "title": "Følelser: Koble ansiktet til ordet",
+      "instruction": "Tegn en strek fra hvert ansikt til følelsesordet som sier hvordan det har det."
+    },
+    "K-331": {
+      "title": "Hvordan føler du deg? Sett ring rundt ansiktet",
+      "instruction": "Se på bildet, tenk på hvordan du ville følt deg, og sett ring rundt ansiktet som passer."
+    },
+    "K-332": {
+      "title": "Tegn følelsen som et ansikt",
+      "instruction": "Les følelsesordet og tegn et ansikt som viser det i den tomme sirkelen."
+    },
+    "K-333": {
+      "title": "Kjennes det godt eller vondt? Sorter ansiktene",
+      "instruction": "Tegn en strek fra hvert ansikt til boksen som sier om følelsen kjennes godt eller vondt."
+    },
+    "K-334": {
+      "title": "Hvilket ansikt viser følelsen?",
+      "instruction": "Les følelsesordet og sett ring rundt det ene ansiktet i raden som viser det."
+    },
+    "K-335": {
+      "title": "Hvordan føler jeg meg i dag?",
+      "instruction": "Sett ring rundt ansiktet som viser hvordan du føler deg i dag. Tegn så ditt eget ansikt."
+    }
+  }
+}

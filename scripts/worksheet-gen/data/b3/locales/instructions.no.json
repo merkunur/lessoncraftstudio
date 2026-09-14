@@ -1,0 +1,2255 @@
+{
+  "nounCase": "lower",
+  "mark": "cross",
+  "cross": "strike",
+  "and": "og",
+  "endpointForm": "def",
+  "exemplar": "animals",
+  "verbs": [
+    {
+      "id": "circle",
+      "frame": "Sett ring rundt {obj}."
+    },
+    {
+      "id": "cross",
+      "frame": "Stryk over {obj}."
+    },
+    {
+      "id": "underline",
+      "frame": "Sett strek under {obj}."
+    },
+    {
+      "id": "line",
+      "frame": "Tegn en strek fra {obj} til {obj2}."
+    },
+    {
+      "id": "mark",
+      "frame": "Sett et kryss under {obj}."
+    },
+    {
+      "id": "write",
+      "frame": "Skriv hvor mange {pl} det er."
+    }
+  ],
+  "fixed": {
+    "first": "det første bildet",
+    "last": "det siste bildet",
+    "ordPic": {
+      "2": "det andre bildet",
+      "3": "det tredje bildet",
+      "4": "det fjerde bildet",
+      "5": "det femte bildet",
+      "6": "det sjette bildet",
+      "7": "det sjuende bildet",
+      "8": "det åttende bildet"
+    },
+    "between": "bildet mellom {A} og {B}",
+    "rightof": "bildet til høyre for {A}",
+    "leftof": "bildet til venstre for {A}"
+  },
+  "objForms": {
+    "antelope": {
+      "unique": "antilopen",
+      "all": "alle antilopene",
+      "pl": "antiloper",
+      "ord": {
+        "2": "den andre antilopen",
+        "3": "den tredje antilopen",
+        "4": "den fjerde antilopen",
+        "5": "den femte antilopen"
+      },
+      "dat": null,
+      "def": "antilopen",
+      "defPl": "antilopene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "camel": {
+      "unique": "kamelen",
+      "all": "alle kamelene",
+      "pl": "kameler",
+      "ord": {
+        "2": "den andre kamelen",
+        "3": "den tredje kamelen",
+        "4": "den fjerde kamelen",
+        "5": "den femte kamelen"
+      },
+      "dat": null,
+      "def": "kamelen",
+      "defPl": "kamelene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "cat": {
+      "unique": "katten",
+      "all": "alle kattene",
+      "pl": "katter",
+      "ord": {
+        "2": "den andre katten",
+        "3": "den tredje katten",
+        "4": "den fjerde katten",
+        "5": "den femte katten"
+      },
+      "dat": null,
+      "def": "katten",
+      "defPl": "kattene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "dog": {
+      "unique": "hunden",
+      "all": "alle hundene",
+      "pl": "hunder",
+      "ord": {
+        "2": "den andre hunden",
+        "3": "den tredje hunden",
+        "4": "den fjerde hunden",
+        "5": "den femte hunden"
+      },
+      "dat": null,
+      "def": "hunden",
+      "defPl": "hundene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "dolphin": {
+      "unique": "delfinen",
+      "all": "alle delfinene",
+      "pl": "delfiner",
+      "ord": {
+        "2": "den andre delfinen",
+        "3": "den tredje delfinen",
+        "4": "den fjerde delfinen",
+        "5": "den femte delfinen"
+      },
+      "dat": null,
+      "def": "delfinen",
+      "defPl": "delfinene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "donkey": {
+      "unique": "eselet",
+      "all": "alle eslene",
+      "pl": "esler",
+      "ord": {
+        "2": "det andre eselet",
+        "3": "det tredje eselet",
+        "4": "det fjerde eselet",
+        "5": "det femte eselet"
+      },
+      "dat": null,
+      "def": "eselet",
+      "defPl": "eslene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "duck": {
+      "unique": "anden",
+      "all": "alle endene",
+      "pl": "ender",
+      "ord": {
+        "2": "den andre anden",
+        "3": "den tredje anden",
+        "4": "den fjerde anden",
+        "5": "den femte anden"
+      },
+      "dat": null,
+      "def": "anden",
+      "defPl": "endene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "elephant": {
+      "unique": "elefanten",
+      "all": "alle elefantene",
+      "pl": "elefanter",
+      "ord": {
+        "2": "den andre elefanten",
+        "3": "den tredje elefanten",
+        "4": "den fjerde elefanten",
+        "5": "den femte elefanten"
+      },
+      "dat": null,
+      "def": "elefanten",
+      "defPl": "elefantene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "fox": {
+      "unique": "reven",
+      "all": "alle revene",
+      "pl": "rever",
+      "ord": {
+        "2": "den andre reven",
+        "3": "den tredje reven",
+        "4": "den fjerde reven",
+        "5": "den femte reven"
+      },
+      "dat": null,
+      "def": "reven",
+      "defPl": "revene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "fish": {
+      "unique": "fisken",
+      "all": "alle fiskene",
+      "pl": "fisker",
+      "ord": {
+        "2": "den andre fisken",
+        "3": "den tredje fisken",
+        "4": "den fjerde fisken",
+        "5": "den femte fisken"
+      },
+      "dat": null,
+      "def": "fisken",
+      "defPl": "fiskene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "giraffe": {
+      "unique": "sjiraffen",
+      "all": "alle sjiraffene",
+      "pl": "sjiraffer",
+      "ord": {
+        "2": "den andre sjiraffen",
+        "3": "den tredje sjiraffen",
+        "4": "den fjerde sjiraffen",
+        "5": "den femte sjiraffen"
+      },
+      "dat": null,
+      "def": "sjiraffen",
+      "defPl": "sjiraffene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "hippopotamus": {
+      "unique": "flodhesten",
+      "all": "alle flodhestene",
+      "pl": "flodhester",
+      "ord": {
+        "2": "den andre flodhesten",
+        "3": "den tredje flodhesten",
+        "4": "den fjerde flodhesten",
+        "5": "den femte flodhesten"
+      },
+      "dat": null,
+      "def": "flodhesten",
+      "defPl": "flodhestene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "horse": {
+      "unique": "hesten",
+      "all": "alle hestene",
+      "pl": "hester",
+      "ord": {
+        "2": "den andre hesten",
+        "3": "den tredje hesten",
+        "4": "den fjerde hesten",
+        "5": "den femte hesten"
+      },
+      "dat": null,
+      "def": "hesten",
+      "defPl": "hestene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "iguana": {
+      "unique": "leguanen",
+      "all": "alle leguanene",
+      "pl": "leguaner",
+      "ord": {
+        "2": "den andre leguanen",
+        "3": "den tredje leguanen",
+        "4": "den fjerde leguanen",
+        "5": "den femte leguanen"
+      },
+      "dat": null,
+      "def": "leguanen",
+      "defPl": "leguanene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "jaguar": {
+      "unique": "jaguaren",
+      "all": "alle jaguarene",
+      "pl": "jaguarer",
+      "ord": {
+        "2": "den andre jaguaren",
+        "3": "den tredje jaguaren",
+        "4": "den fjerde jaguaren",
+        "5": "den femte jaguaren"
+      },
+      "dat": null,
+      "def": "jaguaren",
+      "defPl": "jaguarene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "koala": {
+      "unique": "koalaen",
+      "all": "alle koalaene",
+      "pl": "koalaer",
+      "ord": {
+        "2": "den andre koalaen",
+        "3": "den tredje koalaen",
+        "4": "den fjerde koalaen",
+        "5": "den femte koalaen"
+      },
+      "dat": null,
+      "def": "koalaen",
+      "defPl": "koalaene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "leopard": {
+      "unique": "leoparden",
+      "all": "alle leopardene",
+      "pl": "leoparder",
+      "ord": {
+        "2": "den andre leoparden",
+        "3": "den tredje leoparden",
+        "4": "den fjerde leoparden",
+        "5": "den femte leoparden"
+      },
+      "dat": null,
+      "def": "leoparden",
+      "defPl": "leopardene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "moose": {
+      "unique": "elgen",
+      "all": "alle elgene",
+      "pl": "elger",
+      "ord": {
+        "2": "den andre elgen",
+        "3": "den tredje elgen",
+        "4": "den fjerde elgen",
+        "5": "den femte elgen"
+      },
+      "dat": null,
+      "def": "elgen",
+      "defPl": "elgene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "orangutan": {
+      "unique": "orangutangen",
+      "all": "alle orangutangene",
+      "pl": "orangutanger",
+      "ord": {
+        "2": "den andre orangutangen",
+        "3": "den tredje orangutangen",
+        "4": "den fjerde orangutangen",
+        "5": "den femte orangutangen"
+      },
+      "dat": null,
+      "def": "orangutangen",
+      "defPl": "orangutangene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "owl": {
+      "unique": "uglen",
+      "all": "alle uglene",
+      "pl": "ugler",
+      "ord": {
+        "2": "den andre uglen",
+        "3": "den tredje uglen",
+        "4": "den fjerde uglen",
+        "5": "den femte uglen"
+      },
+      "dat": null,
+      "def": "uglen",
+      "defPl": "uglene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "panda": {
+      "unique": "pandaen",
+      "all": "alle pandaene",
+      "pl": "pandaer",
+      "ord": {
+        "2": "den andre pandaen",
+        "3": "den tredje pandaen",
+        "4": "den fjerde pandaen",
+        "5": "den femte pandaen"
+      },
+      "dat": null,
+      "def": "pandaen",
+      "defPl": "pandaene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "penguin": {
+      "unique": "pingvinen",
+      "all": "alle pingvinene",
+      "pl": "pingviner",
+      "ord": {
+        "2": "den andre pingvinen",
+        "3": "den tredje pingvinen",
+        "4": "den fjerde pingvinen",
+        "5": "den femte pingvinen"
+      },
+      "dat": null,
+      "def": "pingvinen",
+      "defPl": "pingvinene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "pig": {
+      "unique": "grisen",
+      "all": "alle grisene",
+      "pl": "griser",
+      "ord": {
+        "2": "den andre grisen",
+        "3": "den tredje grisen",
+        "4": "den fjerde grisen",
+        "5": "den femte grisen"
+      },
+      "dat": null,
+      "def": "grisen",
+      "defPl": "grisene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "raccoon": {
+      "unique": "vaskebjørnen",
+      "all": "alle vaskebjørnene",
+      "pl": "vaskebjørner",
+      "ord": {
+        "2": "den andre vaskebjørnen",
+        "3": "den tredje vaskebjørnen",
+        "4": "den fjerde vaskebjørnen",
+        "5": "den femte vaskebjørnen"
+      },
+      "dat": null,
+      "def": "vaskebjørnen",
+      "defPl": "vaskebjørnene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "rabbit": {
+      "unique": "kaninen",
+      "all": "alle kaninene",
+      "pl": "kaniner",
+      "ord": {
+        "2": "den andre kaninen",
+        "3": "den tredje kaninen",
+        "4": "den fjerde kaninen",
+        "5": "den femte kaninen"
+      },
+      "dat": null,
+      "def": "kaninen",
+      "defPl": "kaninene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "sheep": {
+      "unique": "sauen",
+      "all": "alle sauene",
+      "pl": "sauer",
+      "ord": {
+        "2": "den andre sauen",
+        "3": "den tredje sauen",
+        "4": "den fjerde sauen",
+        "5": "den femte sauen"
+      },
+      "dat": null,
+      "def": "sauen",
+      "defPl": "sauene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "seagull": {
+      "unique": "måken",
+      "all": "alle måkene",
+      "pl": "måker",
+      "ord": {
+        "2": "den andre måken",
+        "3": "den tredje måken",
+        "4": "den fjerde måken",
+        "5": "den femte måken"
+      },
+      "dat": null,
+      "def": "måken",
+      "defPl": "måkene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "swan": {
+      "unique": "svanen",
+      "all": "alle svanene",
+      "pl": "svaner",
+      "ord": {
+        "2": "den andre svanen",
+        "3": "den tredje svanen",
+        "4": "den fjerde svanen",
+        "5": "den femte svanen"
+      },
+      "dat": null,
+      "def": "svanen",
+      "defPl": "svanene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "tiger": {
+      "unique": "tigeren",
+      "all": "alle tigrene",
+      "pl": "tigre",
+      "ord": {
+        "2": "den andre tigeren",
+        "3": "den tredje tigeren",
+        "4": "den fjerde tigeren",
+        "5": "den femte tigeren"
+      },
+      "dat": null,
+      "def": "tigeren",
+      "defPl": "tigrene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "turtle": {
+      "unique": "skilpadden",
+      "all": "alle skilpaddene",
+      "pl": "skilpadder",
+      "ord": {
+        "2": "den andre skilpadden",
+        "3": "den tredje skilpadden",
+        "4": "den fjerde skilpadden",
+        "5": "den femte skilpadden"
+      },
+      "dat": null,
+      "def": "skilpadden",
+      "defPl": "skilpaddene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "vulture": {
+      "unique": "gribben",
+      "all": "alle gribbene",
+      "pl": "gribber",
+      "ord": {
+        "2": "den andre gribben",
+        "3": "den tredje gribben",
+        "4": "den fjerde gribben",
+        "5": "den femte gribben"
+      },
+      "dat": null,
+      "def": "gribben",
+      "defPl": "gribbene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "whale": {
+      "unique": "hvalen",
+      "all": "alle hvalene",
+      "pl": "hvaler",
+      "ord": {
+        "2": "den andre hvalen",
+        "3": "den tredje hvalen",
+        "4": "den fjerde hvalen",
+        "5": "den femte hvalen"
+      },
+      "dat": null,
+      "def": "hvalen",
+      "defPl": "hvalene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "wolf": {
+      "unique": "ulven",
+      "all": "alle ulvene",
+      "pl": "ulver",
+      "ord": {
+        "2": "den andre ulven",
+        "3": "den tredje ulven",
+        "4": "den fjerde ulven",
+        "5": "den femte ulven"
+      },
+      "dat": null,
+      "def": "ulven",
+      "defPl": "ulvene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "woodpecker": {
+      "unique": "hakkespetten",
+      "all": "alle hakkespettene",
+      "pl": "hakkespetter",
+      "ord": {
+        "2": "den andre hakkespetten",
+        "3": "den tredje hakkespetten",
+        "4": "den fjerde hakkespetten",
+        "5": "den femte hakkespetten"
+      },
+      "dat": null,
+      "def": "hakkespetten",
+      "defPl": "hakkespettene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "zebra": {
+      "unique": "sebraen",
+      "all": "alle sebraene",
+      "pl": "sebraer",
+      "ord": {
+        "2": "den andre sebraen",
+        "3": "den tredje sebraen",
+        "4": "den fjerde sebraen",
+        "5": "den femte sebraen"
+      },
+      "dat": null,
+      "def": "sebraen",
+      "defPl": "sebraene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "avocado": {
+      "unique": "avokadoen",
+      "all": "alle avokadoene",
+      "pl": "avokadoer",
+      "ord": {
+        "2": "den andre avokadoen",
+        "3": "den tredje avokadoen",
+        "4": "den fjerde avokadoen",
+        "5": "den femte avokadoen"
+      },
+      "dat": null,
+      "def": "avokadoen",
+      "defPl": "avokadoene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "apricot": {
+      "unique": "aprikosen",
+      "all": "alle aprikosene",
+      "pl": "aprikoser",
+      "ord": {
+        "2": "den andre aprikosen",
+        "3": "den tredje aprikosen",
+        "4": "den fjerde aprikosen",
+        "5": "den femte aprikosen"
+      },
+      "dat": null,
+      "def": "aprikosen",
+      "defPl": "aprikosene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "banana": {
+      "unique": "bananen",
+      "all": "alle bananene",
+      "pl": "bananer",
+      "ord": {
+        "2": "den andre bananen",
+        "3": "den tredje bananen",
+        "4": "den fjerde bananen",
+        "5": "den femte bananen"
+      },
+      "dat": null,
+      "def": "bananen",
+      "defPl": "bananene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "apple": {
+      "unique": "eplet",
+      "all": "alle eplene",
+      "pl": "epler",
+      "ord": {
+        "2": "det andre eplet",
+        "3": "det tredje eplet",
+        "4": "det fjerde eplet",
+        "5": "det femte eplet"
+      },
+      "dat": null,
+      "def": "eplet",
+      "defPl": "eplene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "clementine": {
+      "unique": "klementinen",
+      "all": "alle klementinene",
+      "pl": "klementiner",
+      "ord": {
+        "2": "den andre klementinen",
+        "3": "den tredje klementinen",
+        "4": "den fjerde klementinen",
+        "5": "den femte klementinen"
+      },
+      "dat": null,
+      "def": "klementinen",
+      "defPl": "klementinene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "coconut": {
+      "unique": "kokosnøtten",
+      "all": "alle kokosnøttene",
+      "pl": "kokosnøtter",
+      "ord": {
+        "2": "den andre kokosnøtten",
+        "3": "den tredje kokosnøtten",
+        "4": "den fjerde kokosnøtten",
+        "5": "den femte kokosnøtten"
+      },
+      "dat": null,
+      "def": "kokosnøtten",
+      "defPl": "kokosnøttene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "fig": {
+      "unique": "fikenen",
+      "all": "alle fikenene",
+      "pl": "fikener",
+      "ord": {
+        "2": "den andre fikenen",
+        "3": "den tredje fikenen",
+        "4": "den fjerde fikenen",
+        "5": "den femte fikenen"
+      },
+      "dat": null,
+      "def": "fikenen",
+      "defPl": "fikenene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "grapefruit": {
+      "unique": "grapefrukten",
+      "all": "alle grapefruktene",
+      "pl": "grapefrukter",
+      "ord": {
+        "2": "den andre grapefrukten",
+        "3": "den tredje grapefrukten",
+        "4": "den fjerde grapefrukten",
+        "5": "den femte grapefrukten"
+      },
+      "dat": null,
+      "def": "grapefrukten",
+      "defPl": "grapefruktene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "kiwi": {
+      "unique": "kiwien",
+      "all": "alle kiwiene",
+      "pl": "kiwier",
+      "ord": {
+        "2": "den andre kiwien",
+        "3": "den tredje kiwien",
+        "4": "den fjerde kiwien",
+        "5": "den femte kiwien"
+      },
+      "dat": null,
+      "def": "kiwien",
+      "defPl": "kiwiene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "lemon": {
+      "unique": "sitronen",
+      "all": "alle sitronene",
+      "pl": "sitroner",
+      "ord": {
+        "2": "den andre sitronen",
+        "3": "den tredje sitronen",
+        "4": "den fjerde sitronen",
+        "5": "den femte sitronen"
+      },
+      "dat": null,
+      "def": "sitronen",
+      "defPl": "sitronene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "lime": {
+      "unique": "limen",
+      "all": "alle limene",
+      "pl": "limer",
+      "ord": {
+        "2": "den andre limen",
+        "3": "den tredje limen",
+        "4": "den fjerde limen",
+        "5": "den femte limen"
+      },
+      "dat": null,
+      "def": "limen",
+      "defPl": "limene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "mango": {
+      "unique": "mangoen",
+      "all": "alle mangoene",
+      "pl": "mangoer",
+      "ord": {
+        "2": "den andre mangoen",
+        "3": "den tredje mangoen",
+        "4": "den fjerde mangoen",
+        "5": "den femte mangoen"
+      },
+      "dat": null,
+      "def": "mangoen",
+      "defPl": "mangoene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "orange": {
+      "unique": "appelsinen",
+      "all": "alle appelsinene",
+      "pl": "appelsiner",
+      "ord": {
+        "2": "den andre appelsinen",
+        "3": "den tredje appelsinen",
+        "4": "den fjerde appelsinen",
+        "5": "den femte appelsinen"
+      },
+      "dat": null,
+      "def": "appelsinen",
+      "defPl": "appelsinene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "papaya": {
+      "unique": "papayaen",
+      "all": "alle papayaene",
+      "pl": "papayaer",
+      "ord": {
+        "2": "den andre papayaen",
+        "3": "den tredje papayaen",
+        "4": "den fjerde papayaen",
+        "5": "den femte papayaen"
+      },
+      "dat": null,
+      "def": "papayaen",
+      "defPl": "papayaene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "peach": {
+      "unique": "ferskenen",
+      "all": "alle ferskenene",
+      "pl": "ferskener",
+      "ord": {
+        "2": "den andre ferskenen",
+        "3": "den tredje ferskenen",
+        "4": "den fjerde ferskenen",
+        "5": "den femte ferskenen"
+      },
+      "dat": null,
+      "def": "ferskenen",
+      "defPl": "ferskenene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "nectarine": {
+      "unique": "nektarinen",
+      "all": "alle nektarinene",
+      "pl": "nektariner",
+      "ord": {
+        "2": "den andre nektarinen",
+        "3": "den tredje nektarinen",
+        "4": "den fjerde nektarinen",
+        "5": "den femte nektarinen"
+      },
+      "dat": null,
+      "def": "nektarinen",
+      "defPl": "nektarinene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "pear": {
+      "unique": "pæren",
+      "all": "alle pærene",
+      "pl": "pærer",
+      "ord": {
+        "2": "den andre pæren",
+        "3": "den tredje pæren",
+        "4": "den fjerde pæren",
+        "5": "den femte pæren"
+      },
+      "dat": null,
+      "def": "pæren",
+      "defPl": "pærene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "persimmon": {
+      "unique": "kakien",
+      "all": "alle kakiene",
+      "pl": "kakier",
+      "ord": {
+        "2": "den andre kakien",
+        "3": "den tredje kakien",
+        "4": "den fjerde kakien",
+        "5": "den femte kakien"
+      },
+      "dat": null,
+      "def": "kakien",
+      "defPl": "kakiene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "pineapple": {
+      "unique": "ananasen",
+      "all": "alle ananasene",
+      "pl": "ananaser",
+      "ord": {
+        "2": "den andre ananasen",
+        "3": "den tredje ananasen",
+        "4": "den fjerde ananasen",
+        "5": "den femte ananasen"
+      },
+      "dat": null,
+      "def": "ananasen",
+      "defPl": "ananasene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "plum": {
+      "unique": "plommen",
+      "all": "alle plommene",
+      "pl": "plommer",
+      "ord": {
+        "2": "den andre plommen",
+        "3": "den tredje plommen",
+        "4": "den fjerde plommen",
+        "5": "den femte plommen"
+      },
+      "dat": null,
+      "def": "plommen",
+      "defPl": "plommene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "pomegranate": {
+      "unique": "granateplet",
+      "all": "alle granateplene",
+      "pl": "granatepler",
+      "ord": {
+        "2": "det andre granateplet",
+        "3": "det tredje granateplet",
+        "4": "det fjerde granateplet",
+        "5": "det femte granateplet"
+      },
+      "dat": null,
+      "def": "granateplet",
+      "defPl": "granateplene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "watermelon": {
+      "unique": "vannmelonen",
+      "all": "alle vannmelonene",
+      "pl": "vannmeloner",
+      "ord": {
+        "2": "den andre vannmelonen",
+        "3": "den tredje vannmelonen",
+        "4": "den fjerde vannmelonen",
+        "5": "den femte vannmelonen"
+      },
+      "dat": null,
+      "def": "vannmelonen",
+      "defPl": "vannmelonene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "ambulance": {
+      "unique": "ambulansen",
+      "all": "alle ambulansene",
+      "pl": "ambulanser",
+      "ord": {
+        "2": "den andre ambulansen",
+        "3": "den tredje ambulansen",
+        "4": "den fjerde ambulansen",
+        "5": "den femte ambulansen"
+      },
+      "dat": null,
+      "def": "ambulansen",
+      "defPl": "ambulansene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "bicycle": {
+      "unique": "sykkelen",
+      "all": "alle syklene",
+      "pl": "sykler",
+      "ord": {
+        "2": "den andre sykkelen",
+        "3": "den tredje sykkelen",
+        "4": "den fjerde sykkelen",
+        "5": "den femte sykkelen"
+      },
+      "dat": null,
+      "def": "sykkelen",
+      "defPl": "syklene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "boat": {
+      "unique": "båten",
+      "all": "alle båtene",
+      "pl": "båter",
+      "ord": {
+        "2": "den andre båten",
+        "3": "den tredje båten",
+        "4": "den fjerde båten",
+        "5": "den femte båten"
+      },
+      "dat": null,
+      "def": "båten",
+      "defPl": "båtene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "bulldozer": {
+      "unique": "bulldoseren",
+      "all": "alle bulldoserne",
+      "pl": "bulldosere",
+      "ord": {
+        "2": "den andre bulldoseren",
+        "3": "den tredje bulldoseren",
+        "4": "den fjerde bulldoseren",
+        "5": "den femte bulldoseren"
+      },
+      "dat": null,
+      "def": "bulldoseren",
+      "defPl": "bulldoserne",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "bus": {
+      "unique": "bussen",
+      "all": "alle bussene",
+      "pl": "busser",
+      "ord": {
+        "2": "den andre bussen",
+        "3": "den tredje bussen",
+        "4": "den fjerde bussen",
+        "5": "den femte bussen"
+      },
+      "dat": null,
+      "def": "bussen",
+      "defPl": "bussene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "car": {
+      "unique": "bilen",
+      "all": "alle bilene",
+      "pl": "biler",
+      "ord": {
+        "2": "den andre bilen",
+        "3": "den tredje bilen",
+        "4": "den fjerde bilen",
+        "5": "den femte bilen"
+      },
+      "dat": null,
+      "def": "bilen",
+      "defPl": "bilene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "canoe": {
+      "unique": "kanoen",
+      "all": "alle kanoene",
+      "pl": "kanoer",
+      "ord": {
+        "2": "den andre kanoen",
+        "3": "den tredje kanoen",
+        "4": "den fjerde kanoen",
+        "5": "den femte kanoen"
+      },
+      "dat": null,
+      "def": "kanoen",
+      "defPl": "kanoene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "excavator": {
+      "unique": "gravemaskinen",
+      "all": "alle gravemaskinene",
+      "pl": "gravemaskiner",
+      "ord": {
+        "2": "den andre gravemaskinen",
+        "3": "den tredje gravemaskinen",
+        "4": "den fjerde gravemaskinen",
+        "5": "den femte gravemaskinen"
+      },
+      "dat": null,
+      "def": "gravemaskinen",
+      "defPl": "gravemaskinene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "ferry": {
+      "unique": "fergen",
+      "all": "alle fergene",
+      "pl": "ferger",
+      "ord": {
+        "2": "den andre fergen",
+        "3": "den tredje fergen",
+        "4": "den fjerde fergen",
+        "5": "den femte fergen"
+      },
+      "dat": null,
+      "def": "fergen",
+      "defPl": "fergene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "forklift": {
+      "unique": "gaffeltrucken",
+      "all": "alle gaffeltruckene",
+      "pl": "gaffeltrucker",
+      "ord": {
+        "2": "den andre gaffeltrucken",
+        "3": "den tredje gaffeltrucken",
+        "4": "den fjerde gaffeltrucken",
+        "5": "den femte gaffeltrucken"
+      },
+      "dat": null,
+      "def": "gaffeltrucken",
+      "defPl": "gaffeltruckene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "helicopter": {
+      "unique": "helikopteret",
+      "all": "alle helikoptrene",
+      "pl": "helikoptre",
+      "ord": {
+        "2": "det andre helikopteret",
+        "3": "det tredje helikopteret",
+        "4": "det fjerde helikopteret",
+        "5": "det femte helikopteret"
+      },
+      "dat": null,
+      "def": "helikopteret",
+      "defPl": "helikoptrene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "jeep": {
+      "unique": "jeepen",
+      "all": "alle jeepene",
+      "pl": "jeeper",
+      "ord": {
+        "2": "den andre jeepen",
+        "3": "den tredje jeepen",
+        "4": "den fjerde jeepen",
+        "5": "den femte jeepen"
+      },
+      "dat": null,
+      "def": "jeepen",
+      "defPl": "jeepene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "motorcycle": {
+      "unique": "motorsykkelen",
+      "all": "alle motorsyklene",
+      "pl": "motorsykler",
+      "ord": {
+        "2": "den andre motorsykkelen",
+        "3": "den tredje motorsykkelen",
+        "4": "den fjerde motorsykkelen",
+        "5": "den femte motorsykkelen"
+      },
+      "dat": null,
+      "def": "motorsykkelen",
+      "defPl": "motorsyklene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "rocket": {
+      "unique": "raketten",
+      "all": "alle rakettene",
+      "pl": "raketter",
+      "ord": {
+        "2": "den andre raketten",
+        "3": "den tredje raketten",
+        "4": "den fjerde raketten",
+        "5": "den femte raketten"
+      },
+      "dat": null,
+      "def": "raketten",
+      "defPl": "rakettene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "sailboat": {
+      "unique": "seilbåten",
+      "all": "alle seilbåtene",
+      "pl": "seilbåter",
+      "ord": {
+        "2": "den andre seilbåten",
+        "3": "den tredje seilbåten",
+        "4": "den fjerde seilbåten",
+        "5": "den femte seilbåten"
+      },
+      "dat": null,
+      "def": "seilbåten",
+      "defPl": "seilbåtene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "scooter": {
+      "unique": "sparkesykkelen",
+      "all": "alle sparkesyklene",
+      "pl": "sparkesykler",
+      "ord": {
+        "2": "den andre sparkesykkelen",
+        "3": "den tredje sparkesykkelen",
+        "4": "den fjerde sparkesykkelen",
+        "5": "den femte sparkesykkelen"
+      },
+      "dat": null,
+      "def": "sparkesykkelen",
+      "defPl": "sparkesyklene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "skateboard": {
+      "unique": "skateboarden",
+      "all": "alle skateboardene",
+      "pl": "skateboarder",
+      "ord": {
+        "2": "den andre skateboarden",
+        "3": "den tredje skateboarden",
+        "4": "den fjerde skateboarden",
+        "5": "den femte skateboarden"
+      },
+      "dat": null,
+      "def": "skateboarden",
+      "defPl": "skateboardene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "submarine": {
+      "unique": "ubåten",
+      "all": "alle ubåtene",
+      "pl": "ubåter",
+      "ord": {
+        "2": "den andre ubåten",
+        "3": "den tredje ubåten",
+        "4": "den fjerde ubåten",
+        "5": "den femte ubåten"
+      },
+      "dat": null,
+      "def": "ubåten",
+      "defPl": "ubåtene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "taxi": {
+      "unique": "drosjen",
+      "all": "alle drosjene",
+      "pl": "drosjer",
+      "ord": {
+        "2": "den andre drosjen",
+        "3": "den tredje drosjen",
+        "4": "den fjerde drosjen",
+        "5": "den femte drosjen"
+      },
+      "dat": null,
+      "def": "drosjen",
+      "defPl": "drosjene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "tractor": {
+      "unique": "traktoren",
+      "all": "alle traktorene",
+      "pl": "traktorer",
+      "ord": {
+        "2": "den andre traktoren",
+        "3": "den tredje traktoren",
+        "4": "den fjerde traktoren",
+        "5": "den femte traktoren"
+      },
+      "dat": null,
+      "def": "traktoren",
+      "defPl": "traktorene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "truck": {
+      "unique": "lastebilen",
+      "all": "alle lastebilene",
+      "pl": "lastebiler",
+      "ord": {
+        "2": "den andre lastebilen",
+        "3": "den tredje lastebilen",
+        "4": "den fjerde lastebilen",
+        "5": "den femte lastebilen"
+      },
+      "dat": null,
+      "def": "lastebilen",
+      "defPl": "lastebilene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "van": {
+      "unique": "varebilen",
+      "all": "alle varebilene",
+      "pl": "varebiler",
+      "ord": {
+        "2": "den andre varebilen",
+        "3": "den tredje varebilen",
+        "4": "den fjerde varebilen",
+        "5": "den femte varebilen"
+      },
+      "dat": null,
+      "def": "varebilen",
+      "defPl": "varebilene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "ball": {
+      "unique": "ballen",
+      "all": "alle ballene",
+      "pl": "baller",
+      "ord": {
+        "2": "den andre ballen",
+        "3": "den tredje ballen",
+        "4": "den fjerde ballen",
+        "5": "den femte ballen"
+      },
+      "dat": null,
+      "def": "ballen",
+      "defPl": "ballene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "balloon": {
+      "unique": "ballongen",
+      "all": "alle ballongene",
+      "pl": "ballonger",
+      "ord": {
+        "2": "den andre ballongen",
+        "3": "den tredje ballongen",
+        "4": "den fjerde ballongen",
+        "5": "den femte ballongen"
+      },
+      "dat": null,
+      "def": "ballongen",
+      "defPl": "ballongene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "bucket": {
+      "unique": "bøtten",
+      "all": "alle bøttene",
+      "pl": "bøtter",
+      "ord": {
+        "2": "den andre bøtten",
+        "3": "den tredje bøtten",
+        "4": "den fjerde bøtten",
+        "5": "den femte bøtten"
+      },
+      "dat": null,
+      "def": "bøtten",
+      "defPl": "bøttene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "dinosaur": {
+      "unique": "dinosauren",
+      "all": "alle dinosaurene",
+      "pl": "dinosaurer",
+      "ord": {
+        "2": "den andre dinosauren",
+        "3": "den tredje dinosauren",
+        "4": "den fjerde dinosauren",
+        "5": "den femte dinosauren"
+      },
+      "dat": null,
+      "def": "dinosauren",
+      "defPl": "dinosaurene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "doll": {
+      "unique": "dukken",
+      "all": "alle dukkene",
+      "pl": "dukker",
+      "ord": {
+        "2": "den andre dukken",
+        "3": "den tredje dukken",
+        "4": "den fjerde dukken",
+        "5": "den femte dukken"
+      },
+      "dat": null,
+      "def": "dukken",
+      "defPl": "dukkene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "kite": {
+      "unique": "dragen",
+      "all": "alle dragene",
+      "pl": "drager",
+      "ord": {
+        "2": "den andre dragen",
+        "3": "den tredje dragen",
+        "4": "den fjerde dragen",
+        "5": "den femte dragen"
+      },
+      "dat": null,
+      "def": "dragen",
+      "defPl": "dragene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "robot": {
+      "unique": "roboten",
+      "all": "alle robotene",
+      "pl": "roboter",
+      "ord": {
+        "2": "den andre roboten",
+        "3": "den tredje roboten",
+        "4": "den fjerde roboten",
+        "5": "den femte roboten"
+      },
+      "dat": null,
+      "def": "roboten",
+      "defPl": "robotene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "sandbox": {
+      "unique": "sandkassen",
+      "all": "alle sandkassene",
+      "pl": "sandkasser",
+      "ord": {
+        "2": "den andre sandkassen",
+        "3": "den tredje sandkassen",
+        "4": "den fjerde sandkassen",
+        "5": "den femte sandkassen"
+      },
+      "dat": null,
+      "def": "sandkassen",
+      "defPl": "sandkassene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "shovel": {
+      "unique": "spaden",
+      "all": "alle spadene",
+      "pl": "spader",
+      "ord": {
+        "2": "den andre spaden",
+        "3": "den tredje spaden",
+        "4": "den fjerde spaden",
+        "5": "den femte spaden"
+      },
+      "dat": null,
+      "def": "spaden",
+      "defPl": "spadene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "slide": {
+      "unique": "sklien",
+      "all": "alle skliene",
+      "pl": "sklier",
+      "ord": {
+        "2": "den andre sklien",
+        "3": "den tredje sklien",
+        "4": "den fjerde sklien",
+        "5": "den femte sklien"
+      },
+      "dat": null,
+      "def": "sklien",
+      "defPl": "skliene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "swing": {
+      "unique": "husken",
+      "all": "alle huskene",
+      "pl": "husker",
+      "ord": {
+        "2": "den andre husken",
+        "3": "den tredje husken",
+        "4": "den fjerde husken",
+        "5": "den femte husken"
+      },
+      "dat": null,
+      "def": "husken",
+      "defPl": "huskene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "bear": {
+      "unique": "bjørnen",
+      "all": "alle bjørnene",
+      "pl": "bjørner",
+      "ord": {
+        "2": "den andre bjørnen",
+        "3": "den tredje bjørnen",
+        "4": "den fjerde bjørnen",
+        "5": "den femte bjørnen"
+      },
+      "dat": null,
+      "def": "bjørnen",
+      "defPl": "bjørnene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "bison": {
+      "unique": "bisonen",
+      "all": "alle bisonene",
+      "pl": "bisoner",
+      "ord": {
+        "2": "den andre bisonen",
+        "3": "den tredje bisonen",
+        "4": "den fjerde bisonen",
+        "5": "den femte bisonen"
+      },
+      "dat": null,
+      "def": "bisonen",
+      "defPl": "bisonene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "cheetah": {
+      "unique": "geparden",
+      "all": "alle gepardene",
+      "pl": "geparder",
+      "ord": {
+        "2": "den andre geparden",
+        "3": "den tredje geparden",
+        "4": "den fjerde geparden",
+        "5": "den femte geparden"
+      },
+      "dat": null,
+      "def": "geparden",
+      "defPl": "gepardene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "chimpanzee": {
+      "unique": "sjimpansen",
+      "all": "alle sjimpansene",
+      "pl": "sjimpanser",
+      "ord": {
+        "2": "den andre sjimpansen",
+        "3": "den tredje sjimpansen",
+        "4": "den fjerde sjimpansen",
+        "5": "den femte sjimpansen"
+      },
+      "dat": null,
+      "def": "sjimpansen",
+      "defPl": "sjimpansene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "gorilla": {
+      "unique": "gorillaen",
+      "all": "alle gorillaene",
+      "pl": "gorillaer",
+      "ord": {
+        "2": "den andre gorillaen",
+        "3": "den tredje gorillaen",
+        "4": "den fjerde gorillaen",
+        "5": "den femte gorillaen"
+      },
+      "dat": null,
+      "def": "gorillaen",
+      "defPl": "gorillaene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "gazelle": {
+      "unique": "gasellen",
+      "all": "alle gasellene",
+      "pl": "gaseller",
+      "ord": {
+        "2": "den andre gasellen",
+        "3": "den tredje gasellen",
+        "4": "den fjerde gasellen",
+        "5": "den femte gasellen"
+      },
+      "dat": null,
+      "def": "gasellen",
+      "defPl": "gasellene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "hyena": {
+      "unique": "hyenen",
+      "all": "alle hyenene",
+      "pl": "hyener",
+      "ord": {
+        "2": "den andre hyenen",
+        "3": "den tredje hyenen",
+        "4": "den fjerde hyenen",
+        "5": "den femte hyenen"
+      },
+      "dat": null,
+      "def": "hyenen",
+      "defPl": "hyenene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "kangaroo": {
+      "unique": "kenguruen",
+      "all": "alle kenguruene",
+      "pl": "kenguruer",
+      "ord": {
+        "2": "den andre kenguruen",
+        "3": "den tredje kenguruen",
+        "4": "den fjerde kenguruen",
+        "5": "den femte kenguruen"
+      },
+      "dat": null,
+      "def": "kenguruen",
+      "defPl": "kenguruene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "lemur": {
+      "unique": "lemuren",
+      "all": "alle lemurene",
+      "pl": "lemurer",
+      "ord": {
+        "2": "den andre lemuren",
+        "3": "den tredje lemuren",
+        "4": "den fjerde lemuren",
+        "5": "den femte lemuren"
+      },
+      "dat": null,
+      "def": "lemuren",
+      "defPl": "lemurene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "lion": {
+      "unique": "løven",
+      "all": "alle løvene",
+      "pl": "løver",
+      "ord": {
+        "2": "den andre løven",
+        "3": "den tredje løven",
+        "4": "den fjerde løven",
+        "5": "den femte løven"
+      },
+      "dat": null,
+      "def": "løven",
+      "defPl": "løvene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "meerkat": {
+      "unique": "surikaten",
+      "all": "alle surikatene",
+      "pl": "surikater",
+      "ord": {
+        "2": "den andre surikaten",
+        "3": "den tredje surikaten",
+        "4": "den fjerde surikaten",
+        "5": "den femte surikaten"
+      },
+      "dat": null,
+      "def": "surikaten",
+      "defPl": "surikatene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "monkey": {
+      "unique": "apen",
+      "all": "alle apene",
+      "pl": "aper",
+      "ord": {
+        "2": "den andre apen",
+        "3": "den tredje apen",
+        "4": "den fjerde apen",
+        "5": "den femte apen"
+      },
+      "dat": null,
+      "def": "apen",
+      "defPl": "apene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "otter": {
+      "unique": "oteren",
+      "all": "alle oterne",
+      "pl": "otere",
+      "ord": {
+        "2": "den andre oteren",
+        "3": "den tredje oteren",
+        "4": "den fjerde oteren",
+        "5": "den femte oteren"
+      },
+      "dat": null,
+      "def": "oteren",
+      "defPl": "oterne",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "seal": {
+      "unique": "selen",
+      "all": "alle selene",
+      "pl": "seler",
+      "ord": {
+        "2": "den andre selen",
+        "3": "den tredje selen",
+        "4": "den fjerde selen",
+        "5": "den femte selen"
+      },
+      "dat": null,
+      "def": "selen",
+      "defPl": "selene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "bee": {
+      "unique": "bien",
+      "all": "alle biene",
+      "pl": "bier",
+      "ord": {
+        "2": "den andre bien",
+        "3": "den tredje bien",
+        "4": "den fjerde bien",
+        "5": "den femte bien"
+      },
+      "dat": null,
+      "def": "bien",
+      "defPl": "biene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "bull": {
+      "unique": "oksen",
+      "all": "alle oksene",
+      "pl": "okser",
+      "ord": {
+        "2": "den andre oksen",
+        "3": "den tredje oksen",
+        "4": "den fjerde oksen",
+        "5": "den femte oksen"
+      },
+      "dat": null,
+      "def": "oksen",
+      "defPl": "oksene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "calf": {
+      "unique": "kalven",
+      "all": "alle kalvene",
+      "pl": "kalver",
+      "ord": {
+        "2": "den andre kalven",
+        "3": "den tredje kalven",
+        "4": "den fjerde kalven",
+        "5": "den femte kalven"
+      },
+      "dat": null,
+      "def": "kalven",
+      "defPl": "kalvene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "chick": {
+      "unique": "kyllingen",
+      "all": "alle kyllingene",
+      "pl": "kyllinger",
+      "ord": {
+        "2": "den andre kyllingen",
+        "3": "den tredje kyllingen",
+        "4": "den fjerde kyllingen",
+        "5": "den femte kyllingen"
+      },
+      "dat": null,
+      "def": "kyllingen",
+      "defPl": "kyllingene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "cow": {
+      "unique": "kua",
+      "all": "alle kyrne",
+      "pl": "kyr",
+      "ord": {
+        "2": "den andre kua",
+        "3": "den tredje kua",
+        "4": "den fjerde kua",
+        "5": "den femte kua"
+      },
+      "dat": null,
+      "def": "kua",
+      "defPl": "kyrne",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "duckling": {
+      "unique": "andungen",
+      "all": "alle andungene",
+      "pl": "andunger",
+      "ord": {
+        "2": "den andre andungen",
+        "3": "den tredje andungen",
+        "4": "den fjerde andungen",
+        "5": "den femte andungen"
+      },
+      "dat": null,
+      "def": "andungen",
+      "defPl": "andungene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "goat": {
+      "unique": "geiten",
+      "all": "alle geitene",
+      "pl": "geiter",
+      "ord": {
+        "2": "den andre geiten",
+        "3": "den tredje geiten",
+        "4": "den fjerde geiten",
+        "5": "den femte geiten"
+      },
+      "dat": null,
+      "def": "geiten",
+      "defPl": "geitene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "goose": {
+      "unique": "gåsen",
+      "all": "alle gjessene",
+      "pl": "gjess",
+      "ord": {
+        "2": "den andre gåsen",
+        "3": "den tredje gåsen",
+        "4": "den fjerde gåsen",
+        "5": "den femte gåsen"
+      },
+      "dat": null,
+      "def": "gåsen",
+      "defPl": "gjessene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "hen": {
+      "unique": "hønen",
+      "all": "alle hønene",
+      "pl": "høner",
+      "ord": {
+        "2": "den andre hønen",
+        "3": "den tredje hønen",
+        "4": "den fjerde hønen",
+        "5": "den femte hønen"
+      },
+      "dat": null,
+      "def": "hønen",
+      "defPl": "hønene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "llama": {
+      "unique": "lamaen",
+      "all": "alle lamaene",
+      "pl": "lamaer",
+      "ord": {
+        "2": "den andre lamaen",
+        "3": "den tredje lamaen",
+        "4": "den fjerde lamaen",
+        "5": "den femte lamaen"
+      },
+      "dat": null,
+      "def": "lamaen",
+      "defPl": "lamaene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "rooster": {
+      "unique": "hanen",
+      "all": "alle hanene",
+      "pl": "haner",
+      "ord": {
+        "2": "den andre hanen",
+        "3": "den tredje hanen",
+        "4": "den fjerde hanen",
+        "5": "den femte hanen"
+      },
+      "dat": null,
+      "def": "hanen",
+      "defPl": "hanene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "turkey": {
+      "unique": "kalkunen",
+      "all": "alle kalkunene",
+      "pl": "kalkuner",
+      "ord": {
+        "2": "den andre kalkunen",
+        "3": "den tredje kalkunen",
+        "4": "den fjerde kalkunen",
+        "5": "den femte kalkunen"
+      },
+      "dat": null,
+      "def": "kalkunen",
+      "defPl": "kalkunene",
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    }
+  },
+  "truth": {
+    "yes": "sant",
+    "no": "usant",
+    "frames": [
+      {
+        "text": "Det er {n} {pl} i rekka.",
+        "cue": "count",
+        "rel": "eq"
+      },
+      {
+        "text": "Det er nøyaktig {n} {pl} i rekka.",
+        "cue": "count",
+        "rel": "eq"
+      },
+      {
+        "text": "Det er flere enn {n} {pl} i rekka.",
+        "cue": "count",
+        "rel": "gt"
+      },
+      {
+        "text": "Det er færre enn {n} {pl} i rekka.",
+        "cue": "count",
+        "rel": "lt"
+      },
+      {
+        "text": "Det første bildet er {obj}.",
+        "cue": "first"
+      },
+      {
+        "text": "Det siste bildet er {obj}.",
+        "cue": "last"
+      },
+      {
+        "text": "Rekka begynner med {obj}.",
+        "cue": "first"
+      },
+      {
+        "text": "Rekka slutter med {obj}.",
+        "cue": "last"
+      },
+      {
+        "text": "Det andre bildet er {obj}.",
+        "cue": "ordinal",
+        "k": 2
+      },
+      {
+        "text": "Det tredje bildet er {obj}.",
+        "cue": "ordinal",
+        "k": 3
+      },
+      {
+        "text": "Det fjerde bildet er {obj}.",
+        "cue": "ordinal",
+        "k": 4
+      },
+      {
+        "text": "Bildet rett etter {obj} er {obj2}.",
+        "cue": "rightof"
+      },
+      {
+        "text": "Bildet rett før {obj} er {obj2}.",
+        "cue": "leftof"
+      }
+    ]
+  },
+  "numbers": {
+    "1": "én",
+    "2": "to",
+    "3": "tre",
+    "4": "fire",
+    "5": "fem"
+  },
+  "draw": [
+    {
+      "text": "Tegn {n} {pl} i boksen."
+    },
+    {
+      "text": "Tegn {n} {pl}. Tegn dem store."
+    },
+    {
+      "text": "Tegn {n} {pl} på rekke."
+    },
+    {
+      "text": "Tegn {n} {pl} og en sol over dem."
+    },
+    {
+      "text": "Tegn {n} små {pl} i boksen."
+    }
+  ],
+  "strings": {
+    "G1-308": {
+      "title": "Les og gjør: Følg instruksjonene",
+      "instruction": "Se på bilderekka og start ved flagget. Les hver setning og gjør nøyaktig det den sier med blyanten. Kryss så av i den lille ruten."
+    },
+    "F1": {
+      "title": "Les og sett ring rundt",
+      "instruction": "Les hver setning. Finn bildet eller bildene den nevner i rekka, og sett ring rundt dem. Kryss så av i den lille ruten."
+    },
+    "F2": {
+      "title": "Les og gjør: Instruksjoner med to steg",
+      "instruction": "Hver setning sier to ting du skal gjøre. Les den helt ut før du begynner, og gjør så begge stegene i bilderekka."
+    },
+    "F3": {
+      "title": "Les og gjør: Første, andre, mellom",
+      "instruction": "Start ved flagget og tell bortover rekka. Finn bildet etter plassen det har, og gjør det setningen sier med blyanten."
+    },
+    "F4": {
+      "title": "Les og sjekk: Sant eller usant?",
+      "instruction": "Les hver setning og se på bilderekka. Er setningen sann eller usann? Sett ring rundt riktig ord."
+    },
+    "F5": {
+      "title": "Les og tegn",
+      "instruction": "Les hver setning nøye. Tegn så nøyaktig det den sier inni boksen."
+    }
+  }
+}

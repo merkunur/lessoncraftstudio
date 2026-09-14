@@ -86,7 +86,7 @@
     },
     "F3": {
       "title": "Logigram met plaatjes: streep door en zoek",
-      "instruction": "Een doorgestreept plaatje heeft het kind niet, een omcirkeld plaatje wel. Streep door in het rooster en omcirkel elk antwoord."
+      "instruction": "Een doorgestreept plaatje heeft het kind niet, een omcirkeld plaatje heeft het wel. Streep door in het rooster en omcirkel dan elk antwoord."
     },
     "F4": {
       "title": "Logigram met twee kenmerken: twee plaatjes per kind",

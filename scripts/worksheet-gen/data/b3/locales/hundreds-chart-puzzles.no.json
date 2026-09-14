@@ -1,0 +1,29 @@
+{
+  "exemplar": "1-100",
+  "strings": {
+    "G1-310": {
+      "title": "Puslebiter fra hundrerruta: Fyll inn tallene",
+      "instruction": "Ett tall står på hver bit. Skriv alle tallene som mangler: 1 mer til høyre, 1 mindre til venstre, 10 mer nedenfor og 10 mindre ovenfor."
+    },
+    "F1": {
+      "title": "Hvor passer puslebiten i hundrerruta?",
+      "instruction": "Les tallene på hver bit, finn plassen dens i den tomme hundrerruta og skriv dem inn der."
+    },
+    "F2": {
+      "title": "Hopp i hundrerruta: Følg pilene",
+      "instruction": "Start på tallet og følg pilene: opp er 10 mindre, ned er 10 mer, til høyre er 1 mer. Skriv tallet du lander på."
+    },
+    "F3": {
+      "title": "Hemmelig tall: To piler, én rute",
+      "instruction": "Følg begge pilene. De peker på den samme ruta i hundrerruta. Skriv det hemmelige tallet."
+    },
+    "F4": {
+      "title": "Finn feilen på puslebiten",
+      "instruction": "Ett tall på hver bit er feil. Sett ring rundt det og skriv riktig tall i ruten."
+    },
+    "F5": {
+      "title": "Hvor langt fra hverandre? Tell hoppene i hundrerruta",
+      "instruction": "Tell hvor mange hopp nedover og hvor mange hopp til høyre du trenger for å komme fra det første tallet til det andre."
+    }
+  }
+}

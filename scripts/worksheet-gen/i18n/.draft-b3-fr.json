@@ -95,7 +95,7 @@
     },
     "G1-311": {
       "title": "Le son de la semaine : [{L}]",
-      "instruction": "Repasse {L}, entoure les quatre images dont le nom contient le son [{L}], puis écris une ligne de {L}."
+      "instruction": "Repasse le son {L}, entoure les quatre images dont le nom contient le son [{L}], puis écris toute une ligne de {L} sur les lignes d'écriture."
     },
     "K-328": {
       "title": "L ou R ? Écoute la différence",
@@ -179,7 +179,7 @@
     },
     "G1-322": {
       "title": "Les jours de la semaine en abrégé",
-      "instruction": "Lis chaque abréviation et relie-la au jour qu'elle désigne."
+      "instruction": "Lis chaque abréviation des jours de la semaine et relie-la au nom entier du jour qu'elle désigne."
     },
     "K-338": {
       "title": "Quelle saison est-ce ? Trois images, une saison",
@@ -551,7 +551,7 @@
   "skills": {
     "letter-of-the-week": {
       "full": "Repasser la lettre de la semaine, entourer les images dont le nom commence par elle, puis l'écrire seul : le geste et le son de la lettre s'installent ensemble.",
-      "short": "Installe la lettre de la semaine : repasser, reconnaître, écrire."
+      "short": "Repasser, reconnaître et écrire une lettre."
     },
     "sound-boxes": {
       "full": "Écrire un son par case, avec une case plus large pour les lettres qui ne font qu'un seul son, rend visible le nombre de sons d'un mot avant de l'écrire en entier.",
@@ -567,7 +567,7 @@
     },
     "days-and-months": {
       "full": "Numéroter les jours de la semaine et les mois de l'année, trouver hier et demain, le mois d'avant et d'après : les repères du temps, de la maternelle au CP.",
-      "short": "Ordonner les jours de la semaine et les mois de l'année."
+      "short": "Ordonner les jours et les mois."
     },
     "seasons": {
       "full": "Trier des images par saison, ordonner les saisons sur la roue et relier chaque mois à sa saison : le temps qui passe devient concret pour un enfant de maternelle.",
@@ -7066,7 +7066,7 @@
         },
         "G1-311": {
           "title": "Le son de la semaine : [{L}]",
-          "instruction": "Repasse {L}, entoure les quatre images dont le nom contient le son [{L}], puis écris une ligne de {L}."
+          "instruction": "Repasse le son {L}, entoure les quatre images dont le nom contient le son [{L}], puis écris toute une ligne de {L} sur les lignes d'écriture."
         },
         "K-328": {
           "title": "L ou R ? Écoute la différence",
@@ -9987,7 +9987,7 @@
         },
         "G1-322": {
           "title": "Les jours de la semaine en abrégé",
-          "instruction": "Lis chaque abréviation et relie-la au jour qu'elle désigne."
+          "instruction": "Lis chaque abréviation des jours de la semaine et relie-la au nom entier du jour qu'elle désigne."
         }
       }
     },
@@ -10123,17 +10123,17 @@
       "can": {
         "swim": "Je sais nager",
         "run": "Je sais courir",
-        "skip": "Je sais sauter à la corde",
+        "skip": "Je saute à la corde",
         "bike": "Je sais faire du vélo",
         "read": "Je sais lire un livre",
-        "soccer": "Je sais taper dans un ballon",
-        "puzzle": "Je sais faire un puzzle",
-        "paint": "Je sais faire de la peinture",
-        "sing": "Je sais chanter une chanson",
+        "soccer": "Je tape dans le ballon",
+        "puzzle": "Je fais un puzzle",
+        "paint": "Je sais peindre",
+        "sing": "Je sais chanter",
         "skate": "Je sais patiner",
         "ski": "Je sais skier",
-        "writename": "Je sais écrire mon prénom",
-        "brushteeth": "Je sais me brosser les dents"
+        "writename": "J'écris mon prénom",
+        "brushteeth": "Je me lave les dents"
       },
       "refuse": [],
       "optionWords": {

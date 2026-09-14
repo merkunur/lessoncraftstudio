@@ -1,0 +1,57 @@
+{
+  "names": "calendar",
+  "labels": {
+    "yesterday": "i går",
+    "today": "i dag",
+    "tomorrow": "i morgen",
+    "before": "før",
+    "after": "etter"
+  },
+  "alt": {
+    "days": {},
+    "labels": {
+      "yesterday": [
+        "igår"
+      ],
+      "today": [
+        "idag"
+      ],
+      "tomorrow": [
+        "imorgen"
+      ]
+    }
+  },
+  "dayShort": null,
+  "laneGlyphH": {
+    "days": 40,
+    "months": 32,
+    "neighbours": 32
+  },
+  "abbrev": "calendar",
+  "strings": {
+    "K-321": {
+      "title": "Ukedagene i riktig rekkefølge",
+      "instruction": "Den første dagen i uka har allerede fått 1. Nummerer de andre dagene fra 2 til 7 i den rekkefølgen de kommer."
+    },
+    "K-337": {
+      "title": "Ukedager som mangler: Skriv uka i rekkefølge",
+      "instruction": "Noen dager står allerede på stigen. Skriv dagene som mangler fra ordbanken på riktig plass."
+    },
+    "G1-319": {
+      "title": "I går, i dag, i morgen",
+      "instruction": "Dagen i midten er i dag. Skriv dagen som var i går, og dagen som kommer i morgen."
+    },
+    "G1-320": {
+      "title": "Månedene i riktig rekkefølge",
+      "instruction": "Januar har allerede fått 1. Nummerer de andre månedene fra 2 til 12 i årets rekkefølge."
+    },
+    "G1-321": {
+      "title": "Måneden før og måneden etter",
+      "instruction": "En måned står i midten. Skriv måneden som kommer før, og måneden som kommer etter."
+    },
+    "G1-322": {
+      "title": "Ukedagene og forkortelsene deres",
+      "instruction": "Les hver forkortelse og tegn en strek til ukedagen den står for."
+    }
+  }
+}

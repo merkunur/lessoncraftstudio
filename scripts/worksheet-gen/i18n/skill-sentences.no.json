@@ -258,5 +258,85 @@
   "grid-coordinates": {
     "full": "Å finne hver rute med bokstav og tall og fargelegge den trener å lese koordinater og avslører et skjult bilde.",
     "short": "Trener å lese koordinater i rutenett."
+  },
+  "letter-of-the-week": {
+    "full": "Ukens bokstav for 1. trinn: spore stor og liten bokstav, sette ring rundt bilder med lyden først i ordet, høre hvor i ordet lyden er, og skrive bokstaven selv.",
+    "short": "Spore, høre og skrive ukens bokstav"
+  },
+  "sound-boxes": {
+    "full": "Lydering for 1. og 2. trinn: si ordet til bildet sakte, telle lydene og skrive én lyd i hver rute. Lydbokser med brede ruter for lyder som skrives med to bokstaver.",
+    "short": "Dele ord i lyder, én lyd i hver rute"
+  },
+  "feelings": {
+    "full": "Følelser for 1. trinn: koble ansikter til følelsesord, sortere følelser som kjennes godt eller vondt, velge riktig ansikt og vise hvordan du har det i dag.",
+    "short": "Kjenne igjen og sette ord på følelser"
+  },
+  "ordinal-numbers": {
+    "full": "Ordenstall fra første til tiende: finne plasser i rekka, skrive ordenstall med tall og bokstaver, telle fra begge sider og finne plassen i et løp.",
+    "short": "Ordenstall fra første til tiende"
+  },
+  "days-and-months": {
+    "full": "Ukedager og måneder for 1. og 2. trinn: sette uka og året i rekkefølge, i går, i dag og i morgen, måneden før og etter, og forkortelsene for ukedagene.",
+    "short": "Ukedager og måneder i riktig rekkefølge"
+  },
+  "seasons": {
+    "full": "De fire årstidene: sortere bilder etter årstid, fylle ut årstidshjulet, finne det som ikke passer, koble måneder til årstider og tegne treet gjennom året.",
+    "short": "Kjenne igjen og ordne de fire årstidene"
+  },
+  "all-about-me": {
+    "full": "Alt om meg for 1. trinn: skrive navn og alder, tegne seg selv og familien, favorittene sine, ansiktet, det jeg kan, og telle bokstavene i navnet mitt.",
+    "short": "Et ark om meg selv"
+  },
+  "picture-word-cards": {
+    "full": "Bildekort med ord til å klippe ut: lese bilde og ord, finne par, en eller et, entall og flertall, norsk og engelsk, og lese ord stavelse for stavelse.",
+    "short": "Bildekort til å klippe ut og lese"
+  },
+  "syllable-split": {
+    "full": "Dele ord i stavelser for 2. trinn: klappe stavelser, tegne buer, skrive ord delt i stavelser, finne stavelsen som mangler, sortere etter antall og finne vokalen i hver stavelse.",
+    "short": "Klappe og dele ord i stavelser"
+  },
+  "syllable-reading": {
+    "full": "Lydrette ord for 1. og 2. trinn: lese ord på leseteppet, finne ordet til bildet, skrive og fargelegge, sette stavelser sammen og lese ord delt i stavelser.",
+    "short": "Lese og skrive lydrette ord"
+  },
+  "opposites": {
+    "full": "Motsetninger for 2. trinn: finne ordpar som er motsetninger, skrive det motsatte ordet, fylle ut setninger, velge motsatt eller likt, og lage motsetninger med u-.",
+    "short": "Finne og skrive motsetninger"
+  },
+  "read-and-do": {
+    "full": "Les og gjør for 2. trinn: lese korte instruksjoner og gjøre nøyaktig det de sier med blyanten, sette ring, stryke over, koble, sjekke sant eller usant og tegne.",
+    "short": "Lese instruksjoner og gjøre det de sier"
+  },
+  "rhyming-words": {
+    "full": "Rimord for 1. trinn: finne bilder som rimer, avgjøre om to ord rimer, sortere rimord, fullføre rim, lage rimrekker og skrive egne rimord.",
+    "short": "Høre, finne og skrive rimord"
+  },
+  "hundreds-chart-puzzles": {
+    "full": "Hundrerrute-puslespill for 2. og 3. trinn: fylle inn tall på puslebiter, finne bitens plass, følge piler med 1 og 10, finne feil og telle hopp.",
+    "short": "Fylle inn tall på biter av hundrerruta"
+  },
+  "spelling-rules": {
+    "full": "Rettskriving for 3. trinn: dobbel konsonant, t eller tt, k eller kk, ng-lyden og sj-lyden. Skrive bokstavene som mangler, velge riktig skrivemåte og sortere ord.",
+    "short": "Rettskrivingsregler med bildeord"
+  },
+  "compound-words": {
+    "full": "Sammensatte ord for 3. trinn: sette to ord sammen til ett nytt ord, binde-e, dele opp sammensatte ord, koble orddeler, finne sammensatte ord og lage ordstjerner.",
+    "short": "Sette sammen og dele opp sammensatte ord"
+  },
+  "verb-forms": {
+    "full": "Verb i presens og preteritum for 3. trinn: skrive formen for nå og for i går, koble verb til preteritum, velge riktig form i setninger og finne infinitiven.",
+    "short": "Verb i presens og preteritum"
+  },
+  "animal-fact-file": {
+    "full": "Faktaark om dyr for 3. trinn: fylle ut dyregruppe, hvor det lever, hva det spiser, bein og kropp, sammenligne to dyr og gjette mystiske dyr ut fra ledetråder.",
+    "short": "Fylle ut et faktaark om et dyr"
+  },
+  "logic-puzzles": {
+    "full": "Logikkoppgaver for barn: lese ledetråder, stryke og sette haker i tabellen og finne ut hvilket barn som har hvilket bilde. For 2. til 4. trinn.",
+    "short": "Løse logikkoppgaver med tabell"
+  },
+  "division-with-remainder": {
+    "full": "Divisjon med rest for 4. trinn: sette ring rundt grupper, dele likt, regne divisjonsstykker med rest, avgjøre om det går opp, finne feil og hoppe bakover på tallinja.",
+    "short": "Regne divisjonsstykker med rest"
   }
 }

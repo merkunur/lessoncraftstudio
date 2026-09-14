@@ -47,17 +47,17 @@
   "can": {
     "swim": "Je sais nager",
     "run": "Je sais courir",
-    "skip": "Je sais sauter à la corde",
+    "skip": "Je saute à la corde",
     "bike": "Je sais faire du vélo",
     "read": "Je sais lire un livre",
-    "soccer": "Je sais taper dans un ballon",
-    "puzzle": "Je sais faire un puzzle",
-    "paint": "Je sais faire de la peinture",
-    "sing": "Je sais chanter une chanson",
+    "soccer": "Je tape dans le ballon",
+    "puzzle": "Je fais un puzzle",
+    "paint": "Je sais peindre",
+    "sing": "Je sais chanter",
     "skate": "Je sais patiner",
     "ski": "Je sais skier",
-    "writename": "Je sais écrire mon prénom",
-    "brushteeth": "Je sais me brosser les dents"
+    "writename": "J'écris mon prénom",
+    "brushteeth": "Je me lave les dents"
   },
   "refuse": [],
   "optionWords": {

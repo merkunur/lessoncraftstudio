@@ -1,0 +1,1002 @@
+{
+  "head": "Verb: presens og preteritum",
+  "mode": "tense",
+  "band": "G3",
+  "exemplar": "na-igar",
+  "columns": [
+    {
+      "key": "pres",
+      "label": "nå"
+    },
+    {
+      "key": "past",
+      "label": "i går"
+    }
+  ],
+  "units": [
+    {
+      "key": "na-igar",
+      "kind": "tense",
+      "label": "Nå og i går",
+      "band": "G3"
+    }
+  ],
+  "poolMap": {
+    "regular": "all"
+  },
+  "matchPersons": [],
+  "verbs": [
+    {
+      "inf": "løpe",
+      "group": "irregular",
+      "irregular": true,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "running"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "løper",
+          "past": "løp"
+        }
+      }
+    },
+    {
+      "inf": "hoppe",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "jumping"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "hopper",
+          "past": "hoppet"
+        }
+      }
+    },
+    {
+      "inf": "sove",
+      "group": "irregular",
+      "irregular": true,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "sover",
+          "past": "sov"
+        }
+      }
+    },
+    {
+      "inf": "spise",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "spiser",
+          "past": "spiste"
+        }
+      }
+    },
+    {
+      "inf": "synge",
+      "group": "irregular",
+      "irregular": true,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "occupations",
+        "noun": "singer"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "synger",
+          "past": "sang"
+        }
+      }
+    },
+    {
+      "inf": "lese",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "reading"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "leser",
+          "past": "leste"
+        }
+      }
+    },
+    {
+      "inf": "svømme",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "svømmer",
+          "past": "svømte"
+        }
+      }
+    },
+    {
+      "inf": "leke",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "leker",
+          "past": "lekte"
+        }
+      }
+    },
+    {
+      "inf": "sitte",
+      "group": "irregular",
+      "irregular": true,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "sitter",
+          "past": "satt"
+        }
+      }
+    },
+    {
+      "inf": "drikke",
+      "group": "irregular",
+      "irregular": true,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "drikker",
+          "past": "drakk"
+        }
+      }
+    },
+    {
+      "inf": "fly",
+      "group": "irregular",
+      "irregular": true,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "flyr",
+          "past": "fløy"
+        }
+      }
+    },
+    {
+      "inf": "klatre",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "klatrer",
+          "past": "klatret"
+        }
+      }
+    },
+    {
+      "inf": "le",
+      "group": "irregular",
+      "irregular": true,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "ler",
+          "past": "lo"
+        }
+      }
+    },
+    {
+      "inf": "tegne",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "tegner",
+          "past": "tegnet"
+        }
+      }
+    },
+    {
+      "inf": "vaske",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "vasker",
+          "past": "vasket"
+        }
+      }
+    },
+    {
+      "inf": "dytte",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "dytter",
+          "past": "dyttet"
+        }
+      }
+    },
+    {
+      "inf": "dra",
+      "group": "irregular",
+      "irregular": true,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "drar",
+          "past": "dro"
+        }
+      }
+    },
+    {
+      "inf": "kaste",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "kaster",
+          "past": "kastet"
+        }
+      }
+    },
+    {
+      "inf": "fange",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "fanger",
+          "past": "fanget"
+        }
+      }
+    },
+    {
+      "inf": "danse",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": {
+        "theme": "activities",
+        "noun": "dancing"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "danser",
+          "past": "danset"
+        }
+      }
+    },
+    {
+      "inf": "gjemme",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "gjemmer",
+          "past": "gjemte"
+        }
+      }
+    },
+    {
+      "inf": "lete",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "leter",
+          "past": "lette"
+        }
+      }
+    },
+    {
+      "inf": "hviske",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "hvisker",
+          "past": "hvisket"
+        }
+      }
+    },
+    {
+      "inf": "vandre",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": {
+        "theme": "activities",
+        "noun": "hiking"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "vandrer",
+          "past": "vandret"
+        }
+      }
+    },
+    {
+      "inf": "fnise",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "fniser",
+          "past": "fniste"
+        }
+      }
+    },
+    {
+      "inf": "samle",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "samler",
+          "past": "samlet"
+        }
+      }
+    },
+    {
+      "inf": "lytte",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "lytter",
+          "past": "lyttet"
+        }
+      }
+    },
+    {
+      "inf": "bære",
+      "group": "irregular",
+      "irregular": true,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "bærer",
+          "past": "bar"
+        }
+      }
+    },
+    {
+      "inf": "bygge",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "bygger",
+          "past": "bygde"
+        }
+      }
+    },
+    {
+      "inf": "rope",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "roper",
+          "past": "ropte"
+        }
+      }
+    },
+    {
+      "inf": "bake",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": {
+        "theme": "activities",
+        "noun": "baking"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "na-igar": {
+          "pres": "baker",
+          "past": "bakte"
+        }
+      }
+    }
+  ],
+  "irregularCore": [
+    {
+      "inf": "være",
+      "pic": null,
+      "forms": {
+        "na-igar": {
+          "pres": "er",
+          "past": "var"
+        }
+      }
+    },
+    {
+      "inf": "ha",
+      "pic": null,
+      "forms": {
+        "na-igar": {
+          "pres": "har",
+          "past": "hadde"
+        }
+      }
+    },
+    {
+      "inf": "gå",
+      "pic": null,
+      "forms": {
+        "na-igar": {
+          "pres": "går",
+          "past": "gikk"
+        }
+      }
+    },
+    {
+      "inf": "få",
+      "pic": null,
+      "forms": {
+        "na-igar": {
+          "pres": "får",
+          "past": "fikk"
+        }
+      }
+    },
+    {
+      "inf": "se",
+      "pic": null,
+      "forms": {
+        "na-igar": {
+          "pres": "ser",
+          "past": "så"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "Hver dag {form} Nora i parken.",
+      "col": "pres",
+      "unit": "na-igar",
+      "fits": [
+        "løpe",
+        "hoppe",
+        "danse",
+        "synge",
+        "leke",
+        "vandre"
+      ],
+      "subjectLiteral": "Nora",
+      "pic": null
+    },
+    {
+      "id": "f02",
+      "text": "I dag {form} Jakob sammen med søsteren sin.",
+      "col": "pres",
+      "unit": "na-igar",
+      "fits": [
+        "leke",
+        "lese",
+        "svømme",
+        "løpe",
+        "danse",
+        "synge",
+        "tegne",
+        "hoppe",
+        "bake"
+      ],
+      "subjectLiteral": "Jakob",
+      "pic": null
+    },
+    {
+      "id": "f03",
+      "text": "Emma {form} hver ettermiddag.",
+      "col": "pres",
+      "unit": "na-igar",
+      "fits": [
+        "lese",
+        "svømme",
+        "leke",
+        "danse",
+        "synge",
+        "tegne",
+        "løpe",
+        "sove",
+        "bake"
+      ],
+      "subjectLiteral": "Emma",
+      "pic": null
+    },
+    {
+      "id": "f04",
+      "text": "Etter skolen {form} Oliver hjemme.",
+      "col": "pres",
+      "unit": "na-igar",
+      "fits": [
+        "lese",
+        "tegne",
+        "leke",
+        "sove",
+        "synge",
+        "danse",
+        "bygge",
+        "bake"
+      ],
+      "subjectLiteral": "Oliver",
+      "pic": null
+    },
+    {
+      "id": "f05",
+      "text": "På mandager {form} Ella på klubben.",
+      "col": "pres",
+      "unit": "na-igar",
+      "fits": [
+        "svømme",
+        "danse",
+        "synge",
+        "løpe",
+        "hoppe",
+        "klatre"
+      ],
+      "subjectLiteral": "Ella",
+      "pic": null
+    },
+    {
+      "id": "f06",
+      "text": "Aksel {form} den store kassen hver gang.",
+      "col": "pres",
+      "unit": "na-igar",
+      "fits": [
+        "dytte",
+        "dra",
+        "bære",
+        "gjemme"
+      ],
+      "subjectLiteral": "Aksel",
+      "pic": null
+    },
+    {
+      "id": "f07",
+      "text": "Sofie {form} i hagen i dag.",
+      "col": "pres",
+      "unit": "na-igar",
+      "fits": [
+        "løpe",
+        "hoppe",
+        "leke",
+        "danse",
+        "lese",
+        "synge",
+        "vandre",
+        "tegne"
+      ],
+      "subjectLiteral": "Sofie",
+      "pic": null
+    },
+    {
+      "id": "f08",
+      "text": "Theodor {form} i bassenget hver uke.",
+      "col": "pres",
+      "unit": "na-igar",
+      "fits": [
+        "svømme",
+        "hoppe",
+        "leke"
+      ],
+      "subjectLiteral": "Theodor",
+      "pic": null
+    },
+    {
+      "id": "f09",
+      "text": "I går {form} Theodor på festen.",
+      "col": "past",
+      "unit": "na-igar",
+      "fits": [
+        "danse",
+        "synge",
+        "spise",
+        "le",
+        "leke",
+        "hoppe",
+        "fnise",
+        "rope"
+      ],
+      "subjectLiteral": "Theodor",
+      "pic": null
+    },
+    {
+      "id": "f10",
+      "text": "I går kveld {form} Nora i en time.",
+      "col": "past",
+      "unit": "na-igar",
+      "fits": [
+        "lese",
+        "sove",
+        "danse",
+        "synge",
+        "tegne",
+        "leke",
+        "bygge"
+      ],
+      "subjectLiteral": "Nora",
+      "pic": null
+    },
+    {
+      "id": "f11",
+      "text": "På søndag {form} Jakob i sjøen.",
+      "col": "past",
+      "unit": "na-igar",
+      "fits": [
+        "svømme"
+      ],
+      "subjectLiteral": "Jakob",
+      "pic": null
+    },
+    {
+      "id": "f12",
+      "text": "I går {form} Emma ballen.",
+      "col": "past",
+      "unit": "na-igar",
+      "fits": [
+        "kaste",
+        "fange",
+        "gjemme",
+        "bære",
+        "dytte",
+        "dra"
+      ],
+      "subjectLiteral": "Emma",
+      "pic": null
+    },
+    {
+      "id": "f13",
+      "text": "Forrige uke {form} Oliver i skogen.",
+      "col": "past",
+      "unit": "na-igar",
+      "fits": [
+        "vandre",
+        "løpe",
+        "leke",
+        "gjemme",
+        "klatre"
+      ],
+      "subjectLiteral": "Oliver",
+      "pic": null
+    },
+    {
+      "id": "f14",
+      "text": "Ella {form} på pikniken i går.",
+      "col": "past",
+      "unit": "na-igar",
+      "fits": [
+        "spise",
+        "le",
+        "synge",
+        "danse",
+        "løpe",
+        "fnise"
+      ],
+      "subjectLiteral": "Ella",
+      "pic": null
+    },
+    {
+      "id": "f15",
+      "text": "Aksel {form} i bassenget i går.",
+      "col": "past",
+      "unit": "na-igar",
+      "fits": [
+        "svømme",
+        "hoppe",
+        "leke"
+      ],
+      "subjectLiteral": "Aksel",
+      "pic": null
+    },
+    {
+      "id": "f16",
+      "text": "I går {form} Sofie et høyt tårn.",
+      "col": "past",
+      "unit": "na-igar",
+      "fits": [
+        "bygge",
+        "tegne"
+      ],
+      "subjectLiteral": "Sofie",
+      "pic": null
+    },
+    {
+      "id": "f17",
+      "text": "I går kveld {form} Theodor på sofaen.",
+      "col": "past",
+      "unit": "na-igar",
+      "fits": [
+        "sove",
+        "lese",
+        "sitte"
+      ],
+      "subjectLiteral": "Theodor",
+      "pic": null
+    },
+    {
+      "id": "f18",
+      "text": "I dag {form} Nora hjemme.",
+      "col": "pres",
+      "unit": "na-igar",
+      "fits": [
+        "være",
+        "sove",
+        "leke",
+        "tegne"
+      ],
+      "subjectLiteral": "Nora",
+      "pic": null
+    },
+    {
+      "id": "f19",
+      "text": "Jakob {form} en rød sykkel.",
+      "col": "pres",
+      "unit": "na-igar",
+      "fits": [
+        "ha",
+        "dytte",
+        "dra",
+        "vaske",
+        "gjemme"
+      ],
+      "subjectLiteral": "Jakob",
+      "pic": null
+    },
+    {
+      "id": "f20",
+      "text": "Hver morgen {form} Oliver til skolen.",
+      "col": "pres",
+      "unit": "na-igar",
+      "fits": [
+        "gå"
+      ],
+      "subjectLiteral": "Oliver",
+      "pic": null
+    },
+    {
+      "id": "f21",
+      "text": "Ella {form} en gave av bestemor.",
+      "col": "pres",
+      "unit": "na-igar",
+      "fits": [
+        "få"
+      ],
+      "subjectLiteral": "Ella",
+      "pic": null
+    },
+    {
+      "id": "f22",
+      "text": "I går {form} Aksel i dyreparken.",
+      "col": "past",
+      "unit": "na-igar",
+      "fits": [
+        "være",
+        "spise",
+        "le",
+        "tegne",
+        "sitte",
+        "leke",
+        "fnise",
+        "rope"
+      ],
+      "subjectLiteral": "Aksel",
+      "pic": null
+    },
+    {
+      "id": "f23",
+      "text": "Forrige uke {form} Emma til sjøen.",
+      "col": "past",
+      "unit": "na-igar",
+      "fits": [
+        "gå",
+        "dra"
+      ],
+      "subjectLiteral": "Emma",
+      "pic": null
+    },
+    {
+      "id": "f24",
+      "text": "I går {form} Sofie en ny bok.",
+      "col": "past",
+      "unit": "na-igar",
+      "fits": [
+        "få",
+        "lese"
+      ],
+      "subjectLiteral": "Sofie",
+      "pic": null
+    },
+    {
+      "id": "f25",
+      "text": "Theodor {form} en elg i skogen.",
+      "col": "past",
+      "unit": "na-igar",
+      "fits": [
+        "se"
+      ],
+      "subjectLiteral": "Theodor",
+      "pic": null
+    }
+  ],
+  "hunt": {
+    "nounHomographs": [
+      "fly",
+      "leke",
+      "hoppe"
+    ]
+  },
+  "strings": {
+    "G2-317": {
+      "title": "Verb: Presens og preteritum",
+      "instruction": "Se på bildet og les verbet. Skriv formen for nå og formen for i går i de stiplede rutene, og fullfør så setningene."
+    },
+    "F2": {
+      "title": "Koble verbet til preteritumsformen",
+      "instruction": "Les hvert verb til venstre. Tegn en strek til formen for i går til høyre, én strek for hvert verb."
+    },
+    "F3": {
+      "title": "Verbformer i setninger med bilder",
+      "instruction": "Se på bildet og les verbet i brikken. Skriv formen som passer i setningen, i den stiplede ruten."
+    },
+    "F4": {
+      "title": "De uregelrette verbene: være, ha, gå, få, se",
+      "instruction": "Disse verbene forandrer seg mye. Skriv formen for nå og formen for i går for hvert av dem i de stiplede rutene."
+    },
+    "F5": {
+      "title": "Velg riktig verbform",
+      "instruction": "Les setningen. Under står tre former av verbet. Sett ring rundt den som passer."
+    },
+    "F6": {
+      "title": "Finn verbet og skriv infinitiven",
+      "instruction": "Sett strek under verbet i hver setning. Skriv så infinitiven, formen med å, i den stiplede ruten."
+    }
+  }
+}

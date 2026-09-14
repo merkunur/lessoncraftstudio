@@ -15168,8 +15168,8 @@
     },
     "flertal-dobbelt": {
      "id": "flertal-dobbelt",
-     "head": "flertal med dobbeltkonsonant",
-     "chip": "sser kker mme pper tter kke bbe tte",
+     "head": "dobbeltkonsonant i flertal",
+     "chip": "tte kker",
      "band": "G2",
      "gap": {
       "kind": "plural",

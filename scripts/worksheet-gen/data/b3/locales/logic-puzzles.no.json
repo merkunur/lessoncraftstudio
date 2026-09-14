@@ -1,0 +1,100 @@
+{
+  "head": "Logikkoppgaver",
+  "names": [
+    {
+      "nom": "Nora"
+    },
+    {
+      "nom": "Jakob"
+    },
+    {
+      "nom": "Emma"
+    },
+    {
+      "nom": "Oliver"
+    },
+    {
+      "nom": "Ella"
+    },
+    {
+      "nom": "Aksel"
+    },
+    {
+      "nom": "Sofie"
+    },
+    {
+      "nom": "Theodor"
+    }
+  ],
+  "namePx": 22,
+  "picSep": "",
+  "frames": {
+    "neg": [
+      "{name} har ikke {pic}.",
+      "{pic} tilhører ikke {name}."
+    ],
+    "pos": [
+      "{name} har {pic}.",
+      "{pic} tilhører {name}."
+    ],
+    "either": [
+      "{name} har {pic} eller {pic}.",
+      "Enten {pic} eller {pic} tilhører {name}."
+    ],
+    "holderNot": [
+      "Barnet med {pic} er ikke {name}.",
+      "{name} er ikke barnet med {pic}."
+    ],
+    "cross": [
+      "Barnet med {pic} har også {pic2}.",
+      "Den som har {pic}, har også {pic2}."
+    ],
+    "crossNot": [
+      "Barnet med {pic} har ikke {pic2}.",
+      "Den som har {pic}, har ikke {pic2}."
+    ]
+  },
+  "truth": {
+    "has": [
+      "{name} har {pic}."
+    ],
+    "hasNot": [
+      "{name} har ikke {pic}."
+    ],
+    "holderIs": [
+      "Barnet med {pic} er {name}."
+    ],
+    "either": [
+      "{name} har {pic} eller {pic}."
+    ],
+    "nobody": [
+      "Ingen har {pic}."
+    ]
+  },
+  "strings": {
+    "G2-319": {
+      "title": "Logikkoppgaver: Tre ledetråder, én løsning",
+      "instruction": "Les ledetrådene. Sett strek over det som ikke kan stemme i tabellen, sett hake ved det som må stemme, og sett så ring rundt bildet til hvert barn."
+    },
+    "F1": {
+      "title": "Logikkoppgaver med enten-eller-ledetråder",
+      "instruction": "En ja-ledetråd får en hake, en nei-ledetråd får et kryss, en enten-eller-ledetråd stryker det tredje bildet. Løs tabellen og sett ring."
+    },
+    "F2": {
+      "title": "Logikkoppgaver 4 x 4: Seks ledetråder",
+      "instruction": "Fire barn og fire bilder. Bruk hver ledetråd: Stryk det som ikke kan stemme, og sett hake ved det som må stemme, til hver rad har én løsning."
+    },
+    "F3": {
+      "title": "Logikkoppgaver med bildeledetråder",
+      "instruction": "Et bilde med strek over betyr: Barnet har det ikke. Et bilde med ring rundt betyr: Barnet har det. Løs tabellen og sett ring."
+    },
+    "F4": {
+      "title": "Logikkoppgaver med to kjennetegn",
+      "instruction": "Hvert barn har ett bilde fra hver gruppe. Bruk ledetrådene som kobler dem, og løs alle de tre tabellene."
+    },
+    "F5": {
+      "title": "Les logikktabellen: Sant eller usant?",
+      "instruction": "Tabellen er allerede løst. Les den og sett ring rundt haken hvis setningen stemmer, eller rundt krysset hvis den er feil."
+    }
+  }
+}

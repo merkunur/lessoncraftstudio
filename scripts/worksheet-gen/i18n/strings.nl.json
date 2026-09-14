@@ -2193,7 +2193,7 @@
   },
   "K-351": {
     "title": "Tegenstellingen met plaatjes: verbind de tegenpolen",
-    "instruction": "Trek een lijn van elk plaatje naar het plaatje en het woord die het tegenovergestelde laten zien."
+    "instruction": "Trek een lijn van elk plaatje links naar het plaatje en het woord rechts die samen het tegenovergestelde laten zien."
   },
   "G1-335": {
     "title": "Tegenstellingen in een zin",
@@ -2349,7 +2349,7 @@
   },
   "G1-349": {
     "title": "Logigram met plaatjes: streep door en zoek",
-    "instruction": "Een doorgestreept plaatje heeft het kind niet, een omcirkeld plaatje wel. Streep door in het rooster en omcirkel elk antwoord."
+    "instruction": "Een doorgestreept plaatje heeft het kind niet, een omcirkeld plaatje heeft het wel. Streep door in het rooster en omcirkel dan elk antwoord."
   },
   "G3-379": {
     "title": "Logigram met twee kenmerken: twee plaatjes per kind",

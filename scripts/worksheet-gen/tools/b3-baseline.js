@@ -83,6 +83,8 @@ async function computeBuild(opts) {
   return res;
 }
 
+const SKIPPED_ENUM = new Set();   // legacy types:'all' wave keys (filled by computeEnum; dropped from the baseline at --check)
+
 function computeEnum(opts) {
   const poison = opts.poison || null;
   const res = {};
@@ -91,12 +93,16 @@ function computeEnum(opts) {
   for (const f of files) {
     let plan;
     try { plan = JSON.parse(fs.readFileSync(path.join(WAVES_DIR, f), 'utf8')); } catch (e) { res['wave:' + f] = 'ERR:parse ' + e.message.slice(0, 60); continue; }
-    const key = 'wave:' + (plan.id || f);
+    // key by id, but by FILENAME when the file is not <id>.json — the divfix pin waves
+    // (wave-00N-divfix-{a,b}.json) keep id "wave-00N" so deckIdFor reproduces the live
+    // basenames, and keyed by id they overwrote the legacy key (measured 2026-09-14:
+    // 222 files → 200 keys, 11 phantom "drifts").
+    const key = 'wave:' + (plan.id && f === plan.id + '.json' ? plan.id : f.replace(/.json$/, ''));
     // the eleven legacy types:'all' waves (001-011) enumerate by the spec's POSITION in loadAllTypes(),
     // so ANY new spec file shifts their theme round-robin — inherent, and harmless because those waves
     // are only ever regenerated PINNED (tools/divfix-regen.js). Snapshotting them would fail every
     // new family; skip them and hash only the explicit-type waves.
-    if (plan.types === 'all') continue;
+    if (plan.types === 'all') { SKIPPED_ENUM.add(key); continue; }
     try {
       const { instances, skipped } = enumerate(plan);
       const lines = instances.map((i) => i.deckId + '=' + i.seed);
@@ -163,7 +169,8 @@ async function main() {
   if (!fs.existsSync(OUT)) { console.error('no baseline captured'); process.exit(2); }
   const base = JSON.parse(fs.readFileSync(OUT, 'utf8'));
   // narrow the baseline to what was recomputed (quick/filtered runs)
-  const narrowed = { build: {}, enum: base.enum };
+  const narrowed = { build: {}, enum: {} };
+  for (const k of Object.keys(base.enum)) if (!SKIPPED_ENUM.has(k)) narrowed.enum[k] = base.enum[k];
   for (const k of Object.keys(base.build)) if (k in now.build) narrowed.build[k] = base.build[k];
   const { drift, missing } = diffSets(narrowed, now);
   const expect = readExpect(arg('expect'));

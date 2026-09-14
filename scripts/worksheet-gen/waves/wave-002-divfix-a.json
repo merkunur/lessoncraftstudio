@@ -1,0 +1,32 @@
+{
+  "id": "wave-002",
+  "seedEpoch": 1,
+  "locales": [
+    "de"
+  ],
+  "themes": [
+    "animals",
+    "fruits",
+    "vehicles",
+    "toys",
+    "shapes"
+  ],
+  "themesPerType": 1,
+  "difficulties": [
+    2
+  ],
+  "types": [
+    "G2-216",
+    "G2-217",
+    "G3-309",
+    "G3-310",
+    "G3-311"
+  ],
+  "themeOverrides": {
+    "G2-216": "animals",
+    "G2-217": "animals",
+    "G3-309": "fruits",
+    "G3-311": "shapes"
+  },
+  "_note": "nt20-C prerequisite C2 (2026-09-14): pinned re-generation of live decks after the notation + G3-311 gap fixes; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

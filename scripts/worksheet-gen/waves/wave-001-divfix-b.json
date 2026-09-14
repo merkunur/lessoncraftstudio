@@ -1,0 +1,25 @@
+{
+  "id": "wave-001",
+  "seedEpoch": 1,
+  "locales": [
+    "en"
+  ],
+  "themes": [
+    "animals",
+    "fruits",
+    "vehicles",
+    "toys",
+    "shapes"
+  ],
+  "themesPerType": 1,
+  "difficulties": [
+    2
+  ],
+  "types": [
+    "G3-311"
+  ],
+  "themeOverrides": {
+    "G3-311": "toys"
+  },
+  "_note": "nt20-C prerequisite C2 (2026-09-14): pinned re-generation of live decks after the notation + G3-311 gap fixes; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

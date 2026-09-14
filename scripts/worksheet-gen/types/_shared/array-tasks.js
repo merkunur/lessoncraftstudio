@@ -161,7 +161,9 @@ function makeArrayType(cfg) {
             NUM(x) + OP(op === '*' ? '×' : div) + NUM(y) + OP('=') + answerBox({ w: 50, h: 40, answer: ans }) + `</span>`;
           stage = `<div class="ws-card-stage" style="gap:24px;justify-content:space-between;padding:6px 14px" data-lcs-r="${r}" data-lcs-c="${c}">` +
             iconArrayHtml(theme, nouns[i].noun, r, c, px) +
-            `<span style="display:inline-flex;flex-direction:column;gap:10px">` +
+            // gap 10 → 8 (2026-09-14): four 40 px boxes + three 10 px gaps put the last box 3 px into the
+            // attribution band (lint added 2026-09-03, after these decks shipped); 8 keeps the column clear.
+            `<span style="display:inline-flex;flex-direction:column;gap:8px">` +
             line(r, '*', c, r * c) + line(c, '*', r, r * c) + line(r * c, '/', r, c) + line(r * c, '/', c, r) +
             `</span></div>`;
         } else if (mode === 'missing-factor') {

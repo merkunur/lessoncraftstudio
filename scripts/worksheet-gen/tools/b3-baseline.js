@@ -92,6 +92,11 @@ function computeEnum(opts) {
     let plan;
     try { plan = JSON.parse(fs.readFileSync(path.join(WAVES_DIR, f), 'utf8')); } catch (e) { res['wave:' + f] = 'ERR:parse ' + e.message.slice(0, 60); continue; }
     const key = 'wave:' + (plan.id || f);
+    // the eleven legacy types:'all' waves (001-011) enumerate by the spec's POSITION in loadAllTypes(),
+    // so ANY new spec file shifts their theme round-robin — inherent, and harmless because those waves
+    // are only ever regenerated PINNED (tools/divfix-regen.js). Snapshotting them would fail every
+    // new family; skip them and hash only the explicit-type waves.
+    if (plan.types === 'all') continue;
     try {
       const { instances, skipped } = enumerate(plan);
       const lines = instances.map((i) => i.deckId + '=' + i.seed);

@@ -35,7 +35,12 @@
  *            targets:[{k, values:[]}], fontSize}) → the F1 board: a 10-column
  *            chart with a teal 3 px frame r 10, inkSoft 1.5 px interior lines,
  *            printed guides, and every target cell stamped
- *            `data-lcs-target="k" data-lcs-answer="<v>"`.
+ *            `data-lcs-target="k" data-lcs-answer="<v>"`. A target rect IS the cell
+ *            (white on white: the write-in space the child has is the cell between
+ *            the grid lines, so the floor is measured on the cell; Phase 2, F1).
+ *   guideValues({start, end, step, guides}) → the values chartOutline PRINTS for
+ *            that guide mode (the F1 composer keeps every piece off them; the
+ *            gate re-derives the same set in its own code).
  *
  * Stamps: piece root `data-lcs-prim="chart-fragment" data-lcs-shape data-lcs-rot
  * data-lcs-w data-lcs-h data-lcs-origin data-lcs-anchor data-lcs-anchor-idx
@@ -265,6 +270,21 @@ function boundaryLoops(cells, cell, pad) {
 }
 
 /* ------------------------------------------------------------------ board (F1) */
+/** The values a chartOutline prints as guides: 'edges' = row 1 + column 1; 'rich' adds every multiple of 10 + column 10; 'corners' = start + end. */
+function guideValues({ start = 1, end = 100, step = 1, guides = 'edges' }) {
+  const cols = 10;
+  const count = (end - start) / step + 1;
+  const out = [];
+  for (let i = 0; i < count; i++) {
+    const v = start + i * step;
+    const r = Math.floor(i / cols), c = i % cols;
+    const isGuide = guides === 'corners' ? (i === 0 || i === count - 1)
+      : (r === 0 || c === 0 || (guides === 'rich' && (v % 10 === 0 || c === cols - 1)));
+    if (isGuide) out.push(v);
+  }
+  return out;
+}
+
 function chartOutline({ start = 1, end = 100, step = 1, cell = 46, guides = 'edges', targets = [], fontSize = 16 }, ctx) {
   const t = (ctx && ctx.tokens) || tokens;
   const cols = 10;
@@ -281,14 +301,7 @@ function chartOutline({ start = 1, end = 100, step = 1, cell = 46, guides = 'edg
     targetOf.set(v, tg.k);
   }
   const parts = [roundedRect({ x: pad / 2, y: pad / 2, w: W - pad, h: H - pad, r: 10, fill: t.color.white, strokeColor: t.color.teal, strokeWidth: t.stroke.primitive })];
-  const guideCells = new Set();
-  for (let i = 0; i < count; i++) {
-    const v = start + i * step;
-    const r = Math.floor(i / cols), c = i % cols;
-    const isGuide = guides === 'corners' ? (i === 0 || i === count - 1)
-      : (r === 0 || c === 0 || (guides === 'rich' && (v % 10 === 0 || c === cols - 1)));
-    if (isGuide) guideCells.add(v);
-  }
+  const guideCells = new Set(guideValues({ start, end, step, guides }));
   for (let i = 0; i < count; i++) {
     const v = start + i * step;
     const r = Math.floor(i / cols), c = i % cols;
@@ -297,7 +310,7 @@ function chartOutline({ start = 1, end = 100, step = 1, cell = 46, guides = 'edg
       if (targetOf.has(v)) throw new Error('chartOutline: target ' + v + ' sits on a printed guide');
       parts.push(label({ x: cx + cell / 2, y: cy + cell / 2 + 1, text: v, size: fontSize, color: t.color.inkSoft, fontFamily: t.font.display, weight: 700, data: { 'data-lcs-guide': v } }));
     } else if (targetOf.has(v)) {
-      parts.push(roundedRect({ x: cx + 2, y: cy + 2, w: cell - 4, h: cell - 4, r: 4, fill: t.color.white, data: { 'data-lcs-target': targetOf.get(v), 'data-lcs-answer': v } }));
+      parts.push(roundedRect({ x: cx, y: cy, w: cell, h: cell, r: 0, fill: t.color.white, data: { 'data-lcs-target': targetOf.get(v), 'data-lcs-answer': v } }));
     }
     if (c !== cols - 1) parts.push(line({ x1: cx + cell, y1: cy + 3, x2: cx + cell, y2: cy + cell - 3, strokeColor: t.color.inkSoft, strokeWidth: t.stroke.grid, cap: 'butt' }));
     if (r !== rows - 1) parts.push(line({ x1: cx + 3, y1: cy + cell, x2: cx + cell - 3, y2: cy + cell, strokeColor: t.color.inkSoft, strokeWidth: t.stroke.grid, cap: 'butt' }));
@@ -309,4 +322,4 @@ function chartOutline({ start = 1, end = 100, step = 1, cell = 46, guides = 'edg
   };
 }
 
-module.exports = { chartFragment, chartOutline, SHAPES, UNITS, CELL_COUNT, shapeInfo, valueAt, boundaryLoops };
+module.exports = { chartFragment, chartOutline, guideValues, SHAPES, UNITS, CELL_COUNT, shapeInfo, valueAt, boundaryLoops };

@@ -1,0 +1,6 @@
+{
+  "locale": "da",
+  "refusals": {
+    "G1-313": "da: lydkasserne følger \"én lyd = én kasse\", så en dobbeltkonsonant (jak-ke, duk-ke) er ÉN bred kasse, der ligger hen over den TeX-godkendte stavelsesgrænse (remergeAcrossSyllable) og derfor ikke kan få en bue; den resterende pulje med både gyldig grænse og 4-7 lyde er under 8 på alle fire temaer (around the house 7, animals 6, At the Supermarket 5, clothing 5) — ansigtet ville skulle fyldes op eller bryde reglen"
+  }
+}

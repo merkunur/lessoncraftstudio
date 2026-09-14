@@ -1,0 +1,47 @@
+{
+  "names": "calendar",
+  "labels": {
+    "yesterday": "i går",
+    "today": "i dag",
+    "tomorrow": "i morgen",
+    "before": "før",
+    "after": "efter"
+  },
+  "alt": {
+    "days": {},
+    "labels": {}
+  },
+  "dayShort": null,
+  "laneGlyphH": {
+    "days": 40,
+    "months": 32,
+    "neighbours": 32
+  },
+  "abbrev": "calendar",
+  "strings": {
+    "K-321": {
+      "title": "Ugens dage i rækkefølge",
+      "instruction": "Ugens første dag har allerede tallet 1. Skriv tallene 2 til 7 ved de andre dage i den rækkefølge, de kommer."
+    },
+    "K-337": {
+      "title": "Manglende ugedage: skriv ugen i rækkefølge",
+      "instruction": "Nogle dage står allerede på stigen. Skriv de dage, der mangler, fra ordbanken på de rigtige pladser."
+    },
+    "G1-319": {
+      "title": "I går, i dag og i morgen",
+      "instruction": "Dagen i midten er i dag. Skriv den dag, det var i går, og den dag, det bliver i morgen."
+    },
+    "G1-320": {
+      "title": "Årets måneder i rækkefølge",
+      "instruction": "Januar har allerede tallet 1. Skriv tallene 2 til 12 ved de andre måneder i årets rækkefølge."
+    },
+    "G1-321": {
+      "title": "Måneden før og måneden efter",
+      "instruction": "En måned står i midten. Skriv den måned, der kommer før, og den måned, der kommer efter."
+    },
+    "G1-322": {
+      "title": "Ugedagenes forkortelser",
+      "instruction": "Læs hver forkortelse, og tegn en streg til den dag, den står for."
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "exemplar": "2-5",
+  "unitLabels": {
+    "2-5": "med 2 til 5",
+    "6-9": "med 6 til 9",
+    "2-9": "med 2 til 9"
+  },
+  "notation": {
+    "op": ":",
+    "template": "{n} : {d} = {q} rest {r}",
+    "boxStyle": "inline",
+    "remWord": "rest",
+    "exactWord": "går op",
+    "restWord": "rest",
+    "leftoverLabel": "til overs",
+    "rightWord": "rigtigt",
+    "wrongWord": "forkert",
+    "kinds": {
+      "quotative": "måling",
+      "partitive": "deling"
+    }
+  },
+  "strings": {
+    "G3-377": {
+      "title": "Division med rest: sæt ring om grupperne",
+      "instruction": "Sæt ring om grupper på det andet tal i hver bunke. Skriv, hvor mange grupper du lavede, og hvor mange billeder der er til overs."
+    },
+    "F1": {
+      "title": "Del ud: hvad bliver der til overs?",
+      "instruction": "Del bunken ud i kasserne én ad gangen. Skriv, hvor mange hver kasse får, og hvor mange der ikke kan deles ud."
+    },
+    "F2": {
+      "title": "Division med rest: øverækker",
+      "instruction": "Alle stykkerne giver noget til overs. Skriv svaret og resten i hver række."
+    },
+    "F3": {
+      "title": "Går det op? Division med og uden rest",
+      "instruction": "Afgør, om hvert stykke går op. Sæt ring om dit svar, og skriv resten: 0, hvis der ingen er."
+    },
+    "F4": {
+      "title": "Find fejlen: resten er for stor",
+      "instruction": "Alle stykkerne er regnet forkert. Streg de forkerte tal ud, og skriv det rigtige svar og den rigtige rest i kasserne."
+    },
+    "F5": {
+      "title": "Hop tilbage på tallinjen: hvad er til overs?",
+      "instruction": "Start ved det markerede tal, og tegn lige store hop tilbage, til et helt hop ikke kan være der mere. Skriv antallet af hop, og hvor du lander."
+    }
+  }
+}

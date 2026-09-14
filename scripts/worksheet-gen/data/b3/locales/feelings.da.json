@@ -1,0 +1,409 @@
+{
+  "feelings": [
+    {
+      "id": "happy",
+      "word": "glad",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "happy"
+      },
+      "matchable": true,
+      "valence": "good",
+      "confusable": [],
+      "faceOpened": true
+    },
+    {
+      "id": "sad",
+      "word": "ked af det",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [
+        "trist"
+      ],
+      "face": {
+        "theme": "emotions",
+        "noun": "sad"
+      },
+      "matchable": true,
+      "valence": "bad",
+      "confusable": [],
+      "faceOpened": true,
+      "override": "ked af det"
+    },
+    {
+      "id": "angry",
+      "word": "vred",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [
+        "sur"
+      ],
+      "face": {
+        "theme": "emotions",
+        "noun": "angry"
+      },
+      "matchable": true,
+      "valence": "bad",
+      "confusable": [],
+      "faceOpened": true
+    },
+    {
+      "id": "scared",
+      "word": "bange",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "scared"
+      },
+      "matchable": true,
+      "valence": "bad",
+      "confusable": [
+        "surprised"
+      ],
+      "faceOpened": true
+    },
+    {
+      "id": "surprised",
+      "word": "overrasket",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "surprised"
+      },
+      "matchable": true,
+      "valence": null,
+      "confusable": [
+        "scared"
+      ],
+      "faceOpened": true
+    },
+    {
+      "id": "tired",
+      "word": "træt",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "tired"
+      },
+      "matchable": true,
+      "valence": null,
+      "confusable": [],
+      "faceOpened": true
+    },
+    {
+      "id": "merry",
+      "word": "munter",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "merry"
+      },
+      "matchable": false,
+      "valence": "good",
+      "confusable": [
+        "happy"
+      ],
+      "faceOpened": true,
+      "override": "munter"
+    },
+    {
+      "id": "content",
+      "word": "tilfreds",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "content"
+      },
+      "matchable": false,
+      "valence": "good",
+      "confusable": [
+        "happy"
+      ],
+      "faceOpened": true
+    },
+    {
+      "id": "excited",
+      "word": "begejstret",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "excited"
+      },
+      "matchable": false,
+      "valence": "good",
+      "confusable": [
+        "happy"
+      ],
+      "faceOpened": true
+    },
+    {
+      "id": "capricious",
+      "word": "pylret",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "capricious"
+      },
+      "matchable": false,
+      "valence": "bad",
+      "confusable": [
+        "sad"
+      ],
+      "faceOpened": true,
+      "override": "pylret"
+    },
+    {
+      "id": "disgusted",
+      "word": "væmmet",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "disgusted"
+      },
+      "matchable": false,
+      "valence": "bad",
+      "confusable": [],
+      "faceOpened": true
+    }
+  ],
+  "scenes": [
+    {
+      "id": "present",
+      "objects": [
+        {
+          "theme": "christmas",
+          "noun": "present"
+        }
+      ],
+      "feeling": "happy",
+      "alsoPlausible": [
+        "surprised"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a wrapped present"
+      }
+    },
+    {
+      "id": "balloon",
+      "objects": [
+        {
+          "theme": "toys",
+          "noun": "balloon"
+        }
+      ],
+      "feeling": "happy",
+      "alsoPlausible": [],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a green balloon"
+      }
+    },
+    {
+      "id": "medal",
+      "objects": [
+        {
+          "theme": "accessories",
+          "noun": "medal"
+        }
+      ],
+      "feeling": "happy",
+      "alsoPlausible": [
+        "surprised"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a gold medal"
+      }
+    },
+    {
+      "id": "teddy",
+      "objects": [
+        {
+          "theme": "toys",
+          "noun": "teddy_bear"
+        }
+      ],
+      "feeling": "happy",
+      "alsoPlausible": [
+        "tired"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a teddy bear"
+      }
+    },
+    {
+      "id": "thunderstorm",
+      "objects": [
+        {
+          "theme": "weather",
+          "noun": "thunderstorm"
+        }
+      ],
+      "feeling": "scared",
+      "alsoPlausible": [
+        "surprised"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a thunderstorm"
+      }
+    },
+    {
+      "id": "syringe",
+      "objects": [
+        {
+          "theme": "hospital",
+          "noun": "syringe"
+        }
+      ],
+      "feeling": "scared",
+      "alsoPlausible": [
+        "sad"
+      ],
+      "vetoable": true,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a syringe"
+      }
+    },
+    {
+      "id": "bed",
+      "objects": [
+        {
+          "theme": "furniture",
+          "noun": "bed"
+        }
+      ],
+      "feeling": "tired",
+      "alsoPlausible": [],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a bed"
+      }
+    },
+    {
+      "id": "pillow-moon",
+      "objects": [
+        {
+          "theme": "around the house",
+          "noun": "pillow"
+        },
+        {
+          "theme": "space",
+          "noun": "moon"
+        }
+      ],
+      "feeling": "tired",
+      "alsoPlausible": [
+        "scared"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a pillow and the moon"
+      }
+    },
+    {
+      "id": "pajamas-moon",
+      "objects": [
+        {
+          "theme": "clothing",
+          "noun": "pajamas"
+        },
+        {
+          "theme": "space",
+          "noun": "moon"
+        }
+      ],
+      "feeling": "tired",
+      "alsoPlausible": [
+        "scared"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "pajamas and the moon"
+      }
+    }
+  ],
+  "veto": [],
+  "bins": {
+    "good": {
+      "label": "rar"
+    },
+    "bad": {
+      "label": "ikke rar"
+    }
+  },
+  "checkin": {
+    "today": "I dag har jeg det…",
+    "draw": "Tegn dit ansigt",
+    "because": "fordi",
+    "helps": null,
+    "labelPx": 17
+  },
+  "strings": {
+    "K-319": {
+      "title": "Følelser: forbind ansigt og ord",
+      "instruction": "Tegn en streg fra hvert ansigt til det ord, der fortæller, hvordan det har det."
+    },
+    "K-331": {
+      "title": "Hvordan har du det? Sæt ring om ansigtet",
+      "instruction": "Se på billedet, og tænk over, hvordan du ville have det. Sæt en ring om det ansigt, der passer."
+    },
+    "K-332": {
+      "title": "Tegn følelsen som et ansigt",
+      "instruction": "Læs ordet, og tegn et ansigt, der viser følelsen, i den tomme cirkel."
+    },
+    "K-333": {
+      "title": "Rar eller ikke rar? Sortér følelserne",
+      "instruction": "Tegn en streg fra hvert ansigt til den kasse, der fortæller, om følelsen er rar eller ikke rar."
+    },
+    "K-334": {
+      "title": "Hvilket ansigt viser følelsen?",
+      "instruction": "Læs ordet, og sæt en ring om det ene ansigt i rækken, der viser følelsen."
+    },
+    "K-335": {
+      "title": "Sådan har jeg det i dag",
+      "instruction": "Sæt en ring om det ansigt, der viser, hvordan du har det i dag. Tegn så dit eget ansigt."
+    }
+  }
+}

@@ -1,0 +1,604 @@
+{
+  "labels": {
+    "class": "Dyregruppe",
+    "habitat": "Hvor det lever",
+    "diet": "Hvad det spiser",
+    "legs": "Ben",
+    "covering": "Pels eller hud",
+    "fly": "Kan det flyve?",
+    "swim": "Kan det svømme?",
+    "special": "Noget særligt:"
+  },
+  "eyebrow": "Navn:",
+  "drawLabel": "Tegn, hvor det lever.",
+  "sentence": "En sætning om dyret:",
+  "factStarter": "{def} kan",
+  "options": {
+    "class": {
+      "mammal": {
+        "cell": "pattedyr",
+        "inFrame": "et pattedyr"
+      },
+      "bird": {
+        "cell": "fugl",
+        "inFrame": "en fugl"
+      },
+      "reptile": {
+        "cell": "krybdyr",
+        "inFrame": "et krybdyr"
+      },
+      "fish": {
+        "cell": "fisk",
+        "inFrame": "en fisk"
+      },
+      "insect": {
+        "cell": "insekt",
+        "inFrame": "et insekt"
+      }
+    },
+    "covering": {
+      "fur": {
+        "cell": "pels",
+        "inFrame": "pels"
+      },
+      "feathers": {
+        "cell": "fjer",
+        "inFrame": "fjer"
+      },
+      "scales": {
+        "cell": "skæl",
+        "inFrame": "skæl"
+      },
+      "shell": {
+        "cell": "skjold",
+        "inFrame": "et skjold"
+      },
+      "spines": {
+        "cell": "pigge",
+        "inFrame": "pigge"
+      },
+      "skin": {
+        "cell": "glat hud",
+        "inFrame": "glat hud"
+      }
+    },
+    "diet": {
+      "plants": {
+        "cell": "planter",
+        "inFrame": "planter"
+      },
+      "meat": {
+        "cell": "kød",
+        "inFrame": "kød"
+      },
+      "both": {
+        "cell": "begge dele",
+        "inFrame": "planter og kød"
+      }
+    },
+    "habitat": {
+      "land": {
+        "cell": "land",
+        "inFrame": "på land"
+      },
+      "water": {
+        "cell": "vand",
+        "inFrame": "i vandet"
+      },
+      "air": {
+        "cell": "luft",
+        "inFrame": "i luften"
+      }
+    }
+  },
+  "yesno": {
+    "yes": "ja",
+    "no": "nej"
+  },
+  "legsFrames": {
+    "0": "Jeg har ingen ben.",
+    "2": "Jeg har 2 ben.",
+    "4": "Jeg har 4 ben.",
+    "6": "Jeg har 6 ben.",
+    "8": "Jeg har 8 ben."
+  },
+  "animals": {
+    "cat": {
+      "name": "Kat",
+      "title": "Kat",
+      "def": "katten",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "dog": {
+      "name": "Hund",
+      "title": "Hund",
+      "def": "hunden",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "horse": {
+      "name": "Hest",
+      "title": "Hest",
+      "def": "hesten",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "rabbit": {
+      "name": "Kanin",
+      "title": "Kanin",
+      "def": "kaninen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "cow": {
+      "name": "Ko",
+      "title": "Ko",
+      "def": "koen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "pig": {
+      "name": "Gris",
+      "title": "Gris",
+      "def": "grisen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "sheep": {
+      "name": "Får",
+      "title": "Får",
+      "def": "fåret",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "goat": {
+      "name": "Ged",
+      "title": "Ged",
+      "def": "geden",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "donkey": {
+      "name": "Æsel",
+      "title": "Æsel",
+      "def": "æslet",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "duck": {
+      "name": "And",
+      "title": "And",
+      "def": "anden",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "hen": {
+      "name": "Høne",
+      "title": "Høne",
+      "def": "hønen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "rooster": {
+      "name": "Hane",
+      "title": "Hane",
+      "def": "hanen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "goose": {
+      "name": "Gås",
+      "title": "Gås",
+      "def": "gåsen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "fox": {
+      "name": "Ræv",
+      "title": "Ræv",
+      "def": "ræven",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "hedgehog": {
+      "name": "Pindsvin",
+      "title": "Pindsvin",
+      "def": "pindsvinet",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "owl": {
+      "name": "Ugle",
+      "title": "Ugle",
+      "def": "uglen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "squirrel": {
+      "name": "Egern",
+      "title": "Egern",
+      "def": "egernet",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "deer": {
+      "name": "Hjort",
+      "title": "Hjort",
+      "def": "hjorten",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "bear": {
+      "name": "Bjørn",
+      "title": "Bjørn",
+      "def": "bjørnen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "wolf": {
+      "name": "Ulv",
+      "title": "Ulv",
+      "def": "ulven",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "bat": {
+      "name": "Flagermus",
+      "title": "Flagermus",
+      "def": "flagermusen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "beaver": {
+      "name": "Bæver",
+      "title": "Bæver",
+      "def": "bæveren",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "moose": {
+      "name": "Elg",
+      "title": "Elg",
+      "def": "elgen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "raccoon": {
+      "name": "Vaskebjørn",
+      "title": "Vaskebjørn",
+      "def": "vaskebjørnen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "butterfly": {
+      "name": "Sommerfugl",
+      "title": "Sommerfugl",
+      "def": "sommerfuglen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "bee": {
+      "name": "Bi",
+      "title": "Bi",
+      "def": "bien",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "ladybug": {
+      "name": "Mariehøne",
+      "title": "Mariehøne",
+      "def": "mariehønen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "ant": {
+      "name": "Myre",
+      "title": "Myre",
+      "def": "myren",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "lion": {
+      "name": "Løve",
+      "title": "Løve",
+      "def": "løven",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "tiger": {
+      "name": "Tiger",
+      "title": "Tiger",
+      "def": "tigeren",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "elephant": {
+      "name": "Elefant",
+      "title": "Elefant",
+      "def": "elefanten",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "giraffe": {
+      "name": "Giraf",
+      "title": "Giraf",
+      "def": "giraffen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "zebra": {
+      "name": "Zebra",
+      "title": "Zebra",
+      "def": "zebraen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "monkey": {
+      "name": "Abe",
+      "title": "Abe",
+      "def": "aben",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "kangaroo": {
+      "name": "Kænguru",
+      "title": "Kænguru",
+      "def": "kænguruen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "camel": {
+      "name": "Kamel",
+      "title": "Kamel",
+      "def": "kamelen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "hippopotamus": {
+      "name": "Flodhest",
+      "title": "Flodhest",
+      "def": "flodhesten",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "panda": {
+      "name": "Panda",
+      "title": "Panda",
+      "def": "pandaen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "koala": {
+      "name": "Koala",
+      "title": "Koala",
+      "def": "koalaen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "penguin": {
+      "name": "Pingvin",
+      "title": "Pingvin",
+      "def": "pingvinen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "eagle": {
+      "name": "Ørn",
+      "title": "Ørn",
+      "def": "ørnen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "parrot": {
+      "name": "Papegøje",
+      "title": "Papegøje",
+      "def": "papegøjen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "flamingo": {
+      "name": "Flamingo",
+      "title": "Flamingo",
+      "def": "flamingoen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "ostrich": {
+      "name": "Struds",
+      "title": "Struds",
+      "def": "strudsen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "swan": {
+      "name": "Svane",
+      "title": "Svane",
+      "def": "svanen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "tortoise": {
+      "name": "Landskildpadde",
+      "title": "Landskildpadde",
+      "def": "landskildpadden",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "lizard": {
+      "name": "Firben",
+      "title": "Firben",
+      "def": "firbenet",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "turtle": {
+      "name": "Skildpadde",
+      "title": "Skildpadde",
+      "def": "skildpadden",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "fish": {
+      "name": "Fisk",
+      "title": "Fisk",
+      "def": "fisken",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "goldfish": {
+      "name": "Guldfisk",
+      "title": "Guldfisk",
+      "def": "guldfisken",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "shark": {
+      "name": "Haj",
+      "title": "Haj",
+      "def": "hajen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "hamster": {
+      "name": "Hamster",
+      "title": "Hamster",
+      "def": "hamsteren",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "mouse": {
+      "name": "Mus",
+      "title": "Mus",
+      "def": "musen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "frog": {
+      "name": "Frø",
+      "title": "Frø",
+      "def": "frøen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    }
+  },
+  "frames": [
+    {
+      "field": "class",
+      "text": "{def} er"
+    },
+    {
+      "field": "covering",
+      "text": "{def} har"
+    },
+    {
+      "field": "diet",
+      "text": "{def} spiser"
+    }
+  ],
+  "frameCaption": "Skriv tre sætninger om dyret:",
+  "sameDiff": {
+    "same": "ens",
+    "diff": "forskelligt",
+    "laneSame": "Ens:",
+    "laneDiff": "Forskelligt:",
+    "caption": "Skriv, hvad der er ens, og hvad der er forskelligt:"
+  },
+  "mystery": {
+    "class": "Jeg er {inFrame}.",
+    "covering": "Jeg har {inFrame}.",
+    "diet": "Jeg spiser {inFrame}.",
+    "habitat": "Jeg lever {inFrame}.",
+    "fly": {
+      "true": "Jeg kan flyve.",
+      "false": "Jeg kan ikke flyve."
+    },
+    "swim": {
+      "true": "Jeg kan svømme.",
+      "false": "Jeg kan ikke svømme."
+    },
+    "prompt": "Hvem er jeg?"
+  },
+  "allowCompound": [],
+  "blankTitle": "Tomt faktakort",
+  "strings": {
+    "G2-318": {
+      "title": "Faktakort om dyr: {U}",
+      "instruction": "Find ud af noget om dyret. Skriv én oplysning i hver række på faktakortet, og fyld resten af siden med din egen tegning eller dine egne ord."
+    },
+    "G2-339": {
+      "title": "Faktakort om {U}: sæt ring om det rigtige",
+      "instruction": "Læs mulighederne i hver række, og sæt ring om den, der passer på dyret. Tegn så, hvor det bor, og gør sætningen færdig."
+    },
+    "G2-340": {
+      "title": "Faktakort med ordbank: {U}",
+      "instruction": "Find hver rigtig oplysning i ordbanken, og skriv den i den rigtige række på faktakortet. Gør så sætningen nederst færdig."
+    },
+    "G2-341": {
+      "title": "Faktakort: skriv tre sætninger om {U}",
+      "instruction": "Læs faktakortet. Gør de tre sætninger færdige med oplysninger fra det, og skriv så én oplysning mere selv på den sidste linje."
+    },
+    "G2-342": {
+      "title": "Sammenlign to dyr: ens og forskelligt",
+      "instruction": "Læs begge faktakort. Sæt ring om ens eller forskelligt ved hver oplysning. Skriv så to ting, der er ens, og to, der er forskellige."
+    },
+    "G2-343": {
+      "title": "Hvem er jeg? Det hemmelige dyr",
+      "instruction": "Læs de fem spor på hvert kort. Find dyret i billedbanken, skriv dets navn på linjen, og tegn det i kassen."
+    }
+  }
+}

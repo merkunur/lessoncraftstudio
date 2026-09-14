@@ -1,0 +1,116 @@
+{
+  "mark": "arc",
+  "hyphen": "-",
+  "casing": "lower",
+  "kings": true,
+  "vowelExtra": [],
+  "strictPool": "policy_managed_absent",
+  "refuse": {
+    "finalMuteE": false
+  },
+  "sortLabels": {
+    "2": "2 stavelser",
+    "3": "3 stavelser"
+  },
+  "example": {
+    "vocabKey": "banana"
+  },
+  "instructionTavutettu": null,
+  "exclude": [
+    "orange",
+    "antelope",
+    "flamingo",
+    "trombone",
+    "forget-me-not",
+    "dahlia",
+    "forsythia",
+    "hibiscus",
+    "chinchilla",
+    "stage",
+    "squash",
+    "jeep",
+    "frisbee",
+    "bacon",
+    "cardigan",
+    "ambulance",
+    "broccoli",
+    "lemon",
+    "bicycle",
+    "motorcycle",
+    "medicine",
+    "shorts",
+    "marker",
+    "xylophone",
+    "pajamas",
+    "blue",
+    "brown",
+    "green",
+    "gray",
+    "yellow",
+    "purple",
+    "crimson",
+    "scarlet",
+    "coral",
+    "scared",
+    "content",
+    "dancing",
+    "fishing",
+    "jumping",
+    "pottery",
+    "writing",
+    "sewing",
+    "singing",
+    "gymnastics",
+    "science",
+    "chess",
+    "tennis",
+    "basketball",
+    "playground",
+    "mars",
+    "venus",
+    "neptune",
+    "galaxy",
+    "island",
+    "kitchen",
+    "forest",
+    "trail",
+    "ice",
+    "rain",
+    "rudolph",
+    "dragon",
+    "cook",
+    "refrigerator",
+    "barbecue",
+    "closet",
+    "rug",
+    "sleigh",
+    "sponge",
+    "bunny"
+  ],
+  "strings": {
+    "G1-305": {
+      "title": "Stavelser: klap ordet, og tegn buer",
+      "instruction": "Sig ordet til hvert billede, og klap dets dele. Tegn én bue under hver stavelse, du hører."
+    },
+    "G1-325": {
+      "title": "Skriv ordet i stavelser",
+      "instruction": "Læs ordet ved hvert billede. Skriv det på linjen med en lille streg mellem stavelserne."
+    },
+    "G1-326": {
+      "title": "Den manglende stavelse",
+      "instruction": "Sig ordet til billedet. Én stavelse mangler. Skriv den manglende stavelse i kassen."
+    },
+    "G1-327": {
+      "title": "Stavelser i uorden",
+      "instruction": "Stavelserne i hvert ord er blandet. Læs dem, sæt dem i rækkefølge, og skriv ordet på linjen."
+    },
+    "G1-328": {
+      "title": "To eller tre stavelser? Del og sortér",
+      "instruction": "Klap hvert ord i ordbanken. Skriv det med en streg mellem stavelserne i kolonnen for 2 eller for 3."
+    },
+    "G1-329": {
+      "title": "Vokalen i hver stavelse",
+      "instruction": "Hver stavelse har én vokal. Se på eksemplet, og sæt en prik på vokalen inde i hver stavelsesbue."
+    }
+  }
+}

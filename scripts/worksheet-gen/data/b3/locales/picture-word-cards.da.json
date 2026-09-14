@@ -1,0 +1,97 @@
+{
+  "cardCase": "lower",
+  "articleStyle": {
+    "enabled": true,
+    "level": 2,
+    "dots": null,
+    "elision": "refuse",
+    "elisionChip": null,
+    "legend": null
+  },
+  "plural": {
+    "enabled": true,
+    "clones": 3
+  },
+  "bilingual": {
+    "partnerExemplar": "en",
+    "hostName": "dansk",
+    "partnerNames": {
+      "en": "engelsk",
+      "de": "tysk",
+      "es": "spansk",
+      "pt": "portugisisk",
+      "fr": "fransk",
+      "it": "italiensk",
+      "nl": "nederlandsk",
+      "sv": "svensk",
+      "no": "norsk",
+      "fi": "finsk"
+    },
+    "legendSep": " · "
+  },
+  "syllable": {
+    "enabled": true,
+    "mark": "arc",
+    "hyphen": "-",
+    "strictPool": true,
+    "exclude": [
+      "orange",
+      "antelope",
+      "flamingo",
+      "trombone",
+      "dahlia",
+      "forsythia",
+      "hibiscus",
+      "forget-me-not"
+    ]
+  },
+  "twinLayout": {
+    "cols": 4,
+    "blockRows": 2
+  },
+  "exclude": [
+    "paramedic",
+    "plum",
+    "pelican",
+    "tree",
+    "sparrow",
+    "tuna",
+    "rice",
+    "ice",
+    "nut",
+    "comet",
+    "cast",
+    "us",
+    "scooter",
+    "subway",
+    "lemonade",
+    "biscuit",
+    "hose"
+  ],
+  "strings": {
+    "K-324": {
+      "title": "Ordkort med billeder",
+      "instruction": "Klip langs de stiplede linjer, så du får kortene. Sig navnet på hvert billede, og læs så ordet."
+    },
+    "twin": {
+      "title": "Billedkort og ordkort: find par",
+      "instruction": "Klip de seksten kort ud. Læg ordkortene ved de billeder, de passer til, eller vend dem alle om, og spil vendespil."
+    },
+    "article": {
+      "title": "En eller et: ordkort med kendeord",
+      "instruction": "Klip de otte kort ud. Sig hvert ord med sit kendeord, præcis som det står på kortet."
+    },
+    "plural": {
+      "title": "Én og flere: kort med ental og flertal",
+      "instruction": "Klip kortene ud. Sig ordet for én og ordet for flere, og find så parrene."
+    },
+    "bilingual": {
+      "title": "Tosprogede billedkort: dansk og engelsk",
+      "instruction": "Klip de otte kort ud. Sig ordet på dansk og så på engelsk, og gem kortene til din ordvæg."
+    },
+    "syllable": {
+      "title": "Stavelseskort: læs ordet i bidder",
+      "instruction": "Klip de otte kort ud. Læs hvert ord én stavelse ad gangen, og sig så hele ordet."
+    }
+  }
+}

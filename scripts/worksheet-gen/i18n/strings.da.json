@@ -1910,5 +1910,481 @@
   "G1-304": {
     "title": "Skriv ordet med hjælp hele vejen",
     "instruction": "Brug ordbanken, bogstavfelterne og det første bogstav, og skriv ordet."
+  },
+  "K-317": {
+    "title": "Ugens bogstav: {U}{L}",
+    "instruction": "Skriv oven i det store og det lille bogstav. Sæt en ring om de fire billeder, der begynder med {U}, og skriv så en række af hvert bogstav."
+  },
+  "K-318": {
+    "title": "Lydkasser: skriv lyd for lyd",
+    "instruction": "Sig ordet til billedet langsomt. Skriv én lyd i hver kasse. En bred kasse med en bue under rummer to bogstaver, der giver én lyd."
+  },
+  "K-319": {
+    "title": "Følelser: forbind ansigt og ord",
+    "instruction": "Tegn en streg fra hvert ansigt til det ord, der fortæller, hvordan det har det."
+  },
+  "K-320": {
+    "title": "Ordenstal: find pladsen i rækken",
+    "instruction": "Start ved flaget. Tæl hen til tallet på hver brik, og lav det mærke, brikken viser."
+  },
+  "K-321": {
+    "title": "Ugens dage i rækkefølge",
+    "instruction": "Ugens første dag har allerede tallet 1. Skriv tallene 2 til 7 ved de andre dage i den rækkefølge, de kommer."
+  },
+  "K-322": {
+    "title": "De fire årstider: sortér billederne",
+    "instruction": "Tegn en streg fra prikken på hvert billede til den årstid, det hører til."
+  },
+  "K-323": {
+    "title": "Alt om mig",
+    "instruction": "Skriv dit navn og din alder, tegn dig selv og din familie, og tegn så dine tre yndlingsting."
+  },
+  "K-324": {
+    "title": "Ordkort med billeder",
+    "instruction": "Klip langs de stiplede linjer, så du får kortene. Sig navnet på hvert billede, og læs så ordet."
+  },
+  "G1-305": {
+    "title": "Stavelser: klap ordet, og tegn buer",
+    "instruction": "Sig ordet til hvert billede, og klap dets dele. Tegn én bue under hver stavelse, du hører."
+  },
+  "G1-306": {
+    "title": "Lydrette ord: læs og skriv",
+    "instruction": "Læs alle ordene på tæppet højt. Sig ordet til hvert billede, find det på tæppet, og skriv det på linjen."
+  },
+  "G1-307": {
+    "title": "Modsætninger: skriv det modsatte ord",
+    "instruction": "Læs ordet på hvert kort. Find det modsatte ord i ordbanken, og skriv det på linjen."
+  },
+  "G1-308": {
+    "title": "Læs og gør: følg instruktionerne",
+    "instruction": "Se på rækken af billeder, og start ved flaget. Læs hver sætning, og gør præcis det, den siger, med din blyant. Sæt så kryds i den lille kasse."
+  },
+  "G1-309": {
+    "title": "Rimord: find rimet, og skriv det",
+    "instruction": "Sig det første billede. Sæt en ring om det billede, der rimer på det, og skriv ordet på linjen."
+  },
+  "G1-310": {
+    "title": "Hundredtavlen: udfyld brikkerne",
+    "instruction": "Ét tal står på hver brik. Skriv alle de tal, der mangler: 1 mere til højre, 1 mindre til venstre, 10 mere nedenunder, 10 mindre ovenover."
+  },
+  "G2-315": {
+    "title": "Staveregler: {UNIT}",
+    "instruction": "Læs reglen i kassen. Sig ordet til hvert billede, og skriv så de bogstaver, reglen handler om, i de stiplede kasser."
+  },
+  "G2-316": {
+    "title": "Sammensatte ord: billede + billede",
+    "instruction": "Sig navnet på de to billeder, sæt de to ord sammen, og skriv det nye ord på linjen."
+  },
+  "G2-317": {
+    "title": "Udsagnsord: nutid og datid",
+    "instruction": "Se på billedet, og læs udsagnsordet. Skriv dets nutid og datid i de stiplede kasser, og gør så sætningerne færdige."
+  },
+  "G2-318": {
+    "title": "Faktakort om dyr: {U}",
+    "instruction": "Find ud af noget om dyret. Skriv én oplysning i hver række på faktakortet, og fyld resten af siden med din egen tegning eller dine egne ord."
+  },
+  "G2-319": {
+    "title": "Logikopgaver: tre spor, ét svar",
+    "instruction": "Læs sporene. Sæt kryds i skemaet ved det, der ikke kan passe, og flueben ved det, der må passe. Sæt så ring om hvert barns billede."
+  },
+  "G3-377": {
+    "title": "Division med rest: sæt ring om grupperne",
+    "instruction": "Sæt ring om grupper på det andet tal i hver bunke. Skriv, hvor mange grupper du lavede, og hvor mange billeder der er til overs."
+  },
+  "K-325": {
+    "title": "Ord med {U}: hør lyden inde i ordet",
+    "instruction": "Skriv bogstavet efter. Sæt en ring om de fire billeder, hvor du hører {U} inde i ordet og ikke forrest."
+  },
+  "K-326": {
+    "title": "Forrest, i midten eller bagest: hvor er {U}?",
+    "instruction": "Sig hvert ord. Farvelæg den kasse, der viser, hvor du hører {U}: forrest, i midten eller bagest."
+  },
+  "K-327": {
+    "title": "Sæt ring om {U} i ordene, og tæl",
+    "instruction": "Find hvert {U} og {L} i ordene, og sæt en ring om dem. Skriv i kassen, hvor mange du fandt."
+  },
+  "G1-311": {
+    "title": "Ugens lyd: {L}",
+    "instruction": "Skriv {L} efter. Sæt en ring om de fire billeder, hvor du hører lyden {L}, og skriv så en række."
+  },
+  "K-328": {
+    "title": "S eller F? Hør forskellen",
+    "instruction": "Sig hvert ord. Sæt en ring om det bogstav, ordet begynder med: s eller f."
+  },
+  "K-329": {
+    "title": "Tæl lydene i ordet",
+    "instruction": "Sig ordet langsomt. Tegn én prik i den lange kasse for hver lyd, du hører. Skriv så antallet i den lille kasse."
+  },
+  "K-330": {
+    "title": "Lydkasser med den første lyd givet",
+    "instruction": "Den første lyd er skrevet. Sig ordet langsomt, og skriv én lyd i hver tom kasse. En bred kasse rummer to bogstaver til én lyd."
+  },
+  "G1-312": {
+    "title": "Lydstrimmel: hvor mange lyde?",
+    "instruction": "Sig ordet langsomt. Skriv én lyd i hver kasse fra venstre. Lad de kasser stå tomme, som du ikke skal bruge."
+  },
+  "G1-314": {
+    "title": "Lyd ordet sammen, og find billedet",
+    "instruction": "Læs lydene i kasserne, og lyd dem sammen til et ord. Sæt en ring om det billede, der passer."
+  },
+  "K-331": {
+    "title": "Hvordan har du det? Sæt ring om ansigtet",
+    "instruction": "Se på billedet, og tænk over, hvordan du ville have det. Sæt en ring om det ansigt, der passer."
+  },
+  "K-332": {
+    "title": "Tegn følelsen som et ansigt",
+    "instruction": "Læs ordet, og tegn et ansigt, der viser følelsen, i den tomme cirkel."
+  },
+  "K-333": {
+    "title": "Rar eller ikke rar? Sortér følelserne",
+    "instruction": "Tegn en streg fra hvert ansigt til den kasse, der fortæller, om følelsen er rar eller ikke rar."
+  },
+  "K-334": {
+    "title": "Hvilket ansigt viser følelsen?",
+    "instruction": "Læs ordet, og sæt en ring om det ene ansigt i rækken, der viser følelsen."
+  },
+  "K-335": {
+    "title": "Sådan har jeg det i dag",
+    "instruction": "Sæt en ring om det ansigt, der viser, hvordan du har det i dag. Tegn så dit eget ansigt."
+  },
+  "G1-315": {
+    "title": "Skriv de manglende ordenstal",
+    "instruction": "Nogle pladser er allerede skrevet. Skriv de ordenstal, der mangler, i de tomme kasser. Tæl fra flaget."
+  },
+  "G1-316": {
+    "title": "Ordenstal med ord: tegn en streg til billedet",
+    "instruction": "Læs hvert ordenstal, og tegn en streg til det billede, der står på den plads. Tæl fra flaget."
+  },
+  "G1-317": {
+    "title": "Hvilken plads? Skriv ordenstallet",
+    "instruction": "Find hvert lille billede i sin række, og skriv, hvilken plads det står på. Tæl fra flaget."
+  },
+  "K-336": {
+    "title": "Ordenstal fra begge sider: start ved flaget",
+    "instruction": "Find først flaget: det kan stå i begge ender. Start dér, tæl hen til tallet på hver brik, og lav det mærke, den viser."
+  },
+  "G1-318": {
+    "title": "Hvem vinder løbet? Skriv pladsen",
+    "instruction": "Se, hvor tæt hver løber er på målstregen. Den nærmeste er nr. 1. Skriv 1., 2., 3., 4., 5. og 6."
+  },
+  "K-337": {
+    "title": "Manglende ugedage: skriv ugen i rækkefølge",
+    "instruction": "Nogle dage står allerede på stigen. Skriv de dage, der mangler, fra ordbanken på de rigtige pladser."
+  },
+  "G1-319": {
+    "title": "I går, i dag og i morgen",
+    "instruction": "Dagen i midten er i dag. Skriv den dag, det var i går, og den dag, det bliver i morgen."
+  },
+  "G1-320": {
+    "title": "Årets måneder i rækkefølge",
+    "instruction": "Januar har allerede tallet 1. Skriv tallene 2 til 12 ved de andre måneder i årets rækkefølge."
+  },
+  "G1-321": {
+    "title": "Måneden før og måneden efter",
+    "instruction": "En måned står i midten. Skriv den måned, der kommer før, og den måned, der kommer efter."
+  },
+  "G1-322": {
+    "title": "Ugedagenes forkortelser",
+    "instruction": "Læs hver forkortelse, og tegn en streg til den dag, den står for."
+  },
+  "K-338": {
+    "title": "Hvilken årstid er det?",
+    "instruction": "Se på de tre billeder på hvert kort, og sæt en ring om den årstid, de hører til."
+  },
+  "K-339": {
+    "title": "Årstidshjulet: årstiderne i rækkefølge",
+    "instruction": "Én årstid er allerede på hjulet. Tegn de tre andre tegn i de tomme cirkler i den rigtige rækkefølge."
+  },
+  "K-340": {
+    "title": "Årstider: hvad hører ikke til?",
+    "instruction": "Sæt kryds over det ene billede i hver række, der hører til en anden årstid."
+  },
+  "G1-323": {
+    "title": "Måneder og årstider: farvelæg årstiden",
+    "instruction": "Farvelæg cirklen ved hver måned i den farve, årstiden har."
+  },
+  "K-341": {
+    "title": "Tegn træet i de fire årstider",
+    "instruction": "Tegn, hvordan træet ser ud i hver af de fire årstider."
+  },
+  "K-342": {
+    "title": "Mine yndlingsting: sæt ring, og skriv",
+    "instruction": "Sæt en ring om dit yndlingsbillede i hver række, og skriv ordet på linjen."
+  },
+  "K-343": {
+    "title": "Min familie: tegn og tæl",
+    "instruction": "Tegn din familie. Vis så på tierammerne, hvor mange personer, brødre, søstre og kæledyr I er, og skriv tallet."
+  },
+  "K-344": {
+    "title": "Det er mig: sæt ord på ansigtet",
+    "instruction": "Skriv hvert ord fra ordbanken på den linje, der peger på den del af ansigtet. Tegn så dit eget ansigt."
+  },
+  "K-345": {
+    "title": "Jeg kan: sæt kryds ved det, du kan",
+    "instruction": "Læs hver sætning, og sæt kryds ved det, du kan. Skriv så én ting, du gerne vil lære."
+  },
+  "K-346": {
+    "title": "Mit navn: skriv, tæl og sammenlign",
+    "instruction": "Skriv dit navn med ét bogstav i hver kasse, og tæl bogstaverne. Gør det samme med en ven, og sæt ring om den, der har flest."
+  },
+  "K-347": {
+    "title": "Billedkort og ordkort: find par",
+    "instruction": "Klip de seksten kort ud. Læg ordkortene ved de billeder, de passer til, eller vend dem alle om, og spil vendespil."
+  },
+  "K-348": {
+    "title": "En eller et: ordkort med kendeord",
+    "instruction": "Klip de otte kort ud. Sig hvert ord med sit kendeord, præcis som det står på kortet."
+  },
+  "K-349": {
+    "title": "Én og flere: kort med ental og flertal",
+    "instruction": "Klip kortene ud. Sig ordet for én og ordet for flere, og find så parrene."
+  },
+  "K-350": {
+    "title": "Tosprogede billedkort: dansk og engelsk",
+    "instruction": "Klip de otte kort ud. Sig ordet på dansk og så på engelsk, og gem kortene til din ordvæg."
+  },
+  "G1-324": {
+    "title": "Stavelseskort: læs ordet i bidder",
+    "instruction": "Klip de otte kort ud. Læs hvert ord én stavelse ad gangen, og sig så hele ordet."
+  },
+  "G1-325": {
+    "title": "Skriv ordet i stavelser",
+    "instruction": "Læs ordet ved hvert billede. Skriv det på linjen med en lille streg mellem stavelserne."
+  },
+  "G1-326": {
+    "title": "Den manglende stavelse",
+    "instruction": "Sig ordet til billedet. Én stavelse mangler. Skriv den manglende stavelse i kassen."
+  },
+  "G1-327": {
+    "title": "Stavelser i uorden",
+    "instruction": "Stavelserne i hvert ord er blandet. Læs dem, sæt dem i rækkefølge, og skriv ordet på linjen."
+  },
+  "G1-328": {
+    "title": "To eller tre stavelser? Del og sortér",
+    "instruction": "Klap hvert ord i ordbanken. Skriv det med en streg mellem stavelserne i kolonnen for 2 eller for 3."
+  },
+  "G1-329": {
+    "title": "Vokalen i hver stavelse",
+    "instruction": "Hver stavelse har én vokal. Se på eksemplet, og sæt en prik på vokalen inde i hver stavelsesbue."
+  },
+  "G1-330": {
+    "title": "Lydrette ord: læs og sæt ring",
+    "instruction": "Læs ordene på tæppet højt. Sig ordet til hvert billede, og sæt en ring om det ene ord under billedet, der passer."
+  },
+  "G1-331": {
+    "title": "Sæt stavelserne sammen, og skriv ordet",
+    "instruction": "Læs de to stavelser på hvert kort i rækkefølge. Sig dem sammen, og skriv hele ordet på linjen."
+  },
+  "G1-332": {
+    "title": "Læsetæppet: læs og farvelæg",
+    "instruction": "Læs alle ordene på tæppet højt. Find ordet til hvert billede på tæppet, og farvelæg det i billedets farve."
+  },
+  "G1-333": {
+    "title": "Lydrette ord med konsonantklynger",
+    "instruction": "Læs alle ordene på tæppet højt. Sig ordet til hvert billede, find det på tæppet, og skriv det på linjen."
+  },
+  "G1-334": {
+    "title": "Læs stavelserne, og find billedet",
+    "instruction": "Læs hvert ord stavelse for stavelse. Find billedet i banken øverst, og skriv billedets nummer i kassen."
+  },
+  "K-351": {
+    "title": "Modsætninger med billeder: find par",
+    "instruction": "Tegn en streg fra hvert billede til det billede og ord, der viser det modsatte."
+  },
+  "G1-335": {
+    "title": "Modsætninger i en sætning",
+    "instruction": "Læs hver sætning. Skriv det modsatte af ordet efter \"ikke\" på linjen. Ordbanken hjælper dig."
+  },
+  "G1-336": {
+    "title": "Find modsætningsparrene",
+    "instruction": "Find de to ord, der er modsætninger. Skriv hvert par på en linje, ét ord på hver side af pilen."
+  },
+  "G1-337": {
+    "title": "Modsat eller det samme? Sæt ring om det modsatte",
+    "instruction": "Læs ordet. Ét af de tre ord under det betyder det modsatte. Sæt ring om det, ikke om det, der betyder det samme."
+  },
+  "G2-320": {
+    "title": "Modsætninger med forstavelsen u-",
+    "instruction": "Sæt forstavelsen foran hvert ord, og skriv det nye, modsatte ord på linjen."
+  },
+  "G1-338": {
+    "title": "Læs og sæt ring",
+    "instruction": "Læs hver sætning. Find det eller de billeder, den nævner, i rækken, og tegn en ring om dem. Sæt så kryds i den lille kasse."
+  },
+  "G1-339": {
+    "title": "Læs og gør: to ting ad gangen",
+    "instruction": "Hver sætning siger to ting, du skal gøre. Læs den til ende, før du starter, og gør så begge dele i billedrækken."
+  },
+  "G1-340": {
+    "title": "Læs og gør: første, anden og mellem",
+    "instruction": "Start ved flaget, og tæl langs rækken. Find billedet ud fra dets plads, og gør det, sætningen siger, med din blyant."
+  },
+  "G1-341": {
+    "title": "Læs og tjek: rigtigt eller forkert",
+    "instruction": "Læs hver sætning, og se på billedrækken. Er sætningen rigtig eller forkert? Sæt ring om det rigtige ord."
+  },
+  "G1-342": {
+    "title": "Læs og tegn",
+    "instruction": "Læs hver sætning grundigt. Tegn så præcis det, der står, inde i kassen."
+  },
+  "K-352": {
+    "title": "Rimord eller ej? Rimer de to ord?",
+    "instruction": "Sig begge billeder højt. Rimer de to ord, så sæt ring om fluebenet. Rimer de ikke, så sæt ring om krydset."
+  },
+  "G1-343": {
+    "title": "Sortér rimordene",
+    "instruction": "Sig hvert billede i banken. Find det store billede, det rimer på, og skriv ordet på en linje under det."
+  },
+  "G1-344": {
+    "title": "Rimord: gør rimet færdigt",
+    "instruction": "Læs de to linjer højt. Se på billedet, hør rimet, og skriv det manglende rimord på linjen."
+  },
+  "G1-345": {
+    "title": "Rimord i kæder",
+    "instruction": "Sig hvert billede. Find de to ord i banken, der rimer på det, og skriv dem på linjerne. Nogle ord passer ingen steder."
+  },
+  "G1-346": {
+    "title": "Skriv dine egne rimord",
+    "instruction": "Læs ordet ved hvert billede. Find på to ord, der rimer på det, og skriv ét på hver linje."
+  },
+  "G1-347": {
+    "title": "Hvor hører brikken til?",
+    "instruction": "Læs tallene på hver brik, find dens plads på den tomme tavle, og skriv tallene ind."
+  },
+  "G2-321": {
+    "title": "Hop på hundredtavlen: følg pilene",
+    "instruction": "Start ved tallet, og følg pilene: op er 10 mindre, ned er 10 mere, til højre er 1 mere. Skriv, hvor du lander."
+  },
+  "G2-322": {
+    "title": "Det hemmelige tal: to pile, ét felt",
+    "instruction": "Følg begge pile. De peger på det samme felt på tavlen. Skriv det hemmelige tal."
+  },
+  "G1-348": {
+    "title": "Find det forkerte tal på brikken",
+    "instruction": "Ét tal på hver brik er forkert. Sæt ring om det, og skriv det rigtige tal i kassen."
+  },
+  "G2-323": {
+    "title": "Hvor langt fra hinanden? Tæl hoppene",
+    "instruction": "Tæl, hvor mange hop ned og hvor mange hop til højre der fører fra det første tal til det andet."
+  },
+  "G2-324": {
+    "title": "Hvilken stavemåde? {UNIT}",
+    "instruction": "Se på billedet, og læs ordet. Sæt ring om de rigtige bogstaver under det, og skriv dem i den stiplede kasse."
+  },
+  "G2-325": {
+    "title": "Stavedetektiv: {UNIT}",
+    "instruction": "Læs hvert ord. Find regelbogstaverne, sæt ring om dem i ordet, og skriv dem så i den lille kasse."
+  },
+  "G2-326": {
+    "title": "Sortér efter staveregel: {UNIT}",
+    "instruction": "Sig ordet til hvert billede. Skriv det i kassen med dets stavemåde, ét ord på hver linje."
+  },
+  "G2-327": {
+    "title": "Skriv hele ordet: {UNIT}",
+    "instruction": "Regelbogstaverne står med orange. Sig ordet til billedet, og skriv alle de andre bogstaver i kasserne."
+  },
+  "G2-328": {
+    "title": "Flertal ændrer stavemåden: {UNIT}",
+    "instruction": "Læs ordet for én. Skriv ordet for flere i kasserne. Flertallet ændrer stavemåden."
+  },
+  "G2-329": {
+    "title": "Hvad skal ind i midten? Binde-s og binde-e",
+    "instruction": "Begge ord står skrevet. Skriv det bogstav, der binder dem sammen, i kassen, eller lad den stå tom. Skriv så hele ordet på linjen."
+  },
+  "G2-330": {
+    "title": "Del det sammensatte ord: find de to ord",
+    "instruction": "Hele ordet står i bogstavkasser ved sit billede. Tegn én streg dér, hvor det andet ord begynder."
+  },
+  "G2-331": {
+    "title": "Find halvdelene: to billeder, ét ord",
+    "instruction": "Tegn en streg fra hvert første billede til det billede, der gør ordet færdigt. Skriv så det nye ord på linjen ved det første billede."
+  },
+  "G2-332": {
+    "title": "Detektiv for sammensatte ord",
+    "instruction": "Tolv ord, og seks af dem er sat sammen af to ord. Sæt ring om de seks sammensatte ord, og skriv deres to dele på linjerne."
+  },
+  "G2-333": {
+    "title": "Ordnet: ét ord, mange sammensatte ord",
+    "instruction": "Ét ord står i midten. Hvert billede rundt om det danner et nyt ord sammen med det. Skriv de fire nye ord på linjerne."
+  },
+  "G2-334": {
+    "title": "Forbind udsagnsordet med dets datid",
+    "instruction": "Læs hvert udsagnsord til venstre. Tegn en streg til dets datid til højre, én streg til hvert ord."
+  },
+  "G2-335": {
+    "title": "Udsagnsord i sætninger med billeder",
+    "instruction": "Se på billedet, og læs udsagnsordet i brikken. Skriv den form, der passer i sætningen, i den stiplede kasse."
+  },
+  "G2-336": {
+    "title": "De uregelmæssige udsagnsord: være, have, gå, få, se",
+    "instruction": "Disse udsagnsord bøjes helt anderledes. Skriv nutid og datid af hvert af dem i de stiplede kasser."
+  },
+  "G2-337": {
+    "title": "Vælg den rigtige form af udsagnsordet",
+    "instruction": "Læs sætningen. Tre former af udsagnsordet står under den. Sæt ring om den, der passer."
+  },
+  "G2-338": {
+    "title": "Find udsagnsordet, og skriv navnemåden",
+    "instruction": "Sæt streg under udsagnsordet i hver sætning. Skriv så dets navnemåde i den stiplede kasse."
+  },
+  "G2-339": {
+    "title": "Faktakort om {U}: sæt ring om det rigtige",
+    "instruction": "Læs mulighederne i hver række, og sæt ring om den, der passer på dyret. Tegn så, hvor det bor, og gør sætningen færdig."
+  },
+  "G2-340": {
+    "title": "Faktakort med ordbank: {U}",
+    "instruction": "Find hver rigtig oplysning i ordbanken, og skriv den i den rigtige række på faktakortet. Gør så sætningen nederst færdig."
+  },
+  "G2-341": {
+    "title": "Faktakort: skriv tre sætninger om {U}",
+    "instruction": "Læs faktakortet. Gør de tre sætninger færdige med oplysninger fra det, og skriv så én oplysning mere selv på den sidste linje."
+  },
+  "G2-342": {
+    "title": "Sammenlign to dyr: ens og forskelligt",
+    "instruction": "Læs begge faktakort. Sæt ring om ens eller forskelligt ved hver oplysning. Skriv så to ting, der er ens, og to, der er forskellige."
+  },
+  "G2-343": {
+    "title": "Hvem er jeg? Det hemmelige dyr",
+    "instruction": "Læs de fem spor på hvert kort. Find dyret i billedbanken, skriv dets navn på linjen, og tegn det i kassen."
+  },
+  "G2-344": {
+    "title": "Logikopgaver med ja, nej og enten-eller",
+    "instruction": "Et ja-spor får et flueben, et nej-spor et kryds, og et enten-eller-spor streger det tredje billede ud. Gør skemaet færdigt, og sæt ring om hvert svar."
+  },
+  "G3-378": {
+    "title": "Logikopgaver 4 gange 4: seks spor",
+    "instruction": "Fire børn og fire billeder. Brug alle sporene: sæt kryds ved det, der ikke kan passe, og flueben ved det, der må passe, til hver række har ét svar."
+  },
+  "G1-349": {
+    "title": "Logikopgaver med billedspor: streg ud, og find",
+    "instruction": "Et overstreget billede betyder, at barnet ikke har det. Et indringet betyder, at barnet har det. Sæt kryds i skemaet, og sæt ring om hvert svar."
+  },
+  "G3-379": {
+    "title": "Logikopgaver med to ting til hvert barn",
+    "instruction": "Hvert barn har ét billede fra hvert sæt. Brug de spor, der binder dem sammen, til at udfylde alle tre skemaer."
+  },
+  "G2-345": {
+    "title": "Læs logikskemaet: rigtigt eller forkert",
+    "instruction": "Skemaet er allerede løst. Læs det, og sæt ring om fluebenet, hvis sætningen er rigtig, eller om krydset, hvis den er forkert."
+  },
+  "G3-380": {
+    "title": "Del ud: hvad bliver der til overs?",
+    "instruction": "Del bunken ud i kasserne én ad gangen. Skriv, hvor mange hver kasse får, og hvor mange der ikke kan deles ud."
+  },
+  "G3-381": {
+    "title": "Division med rest: øverækker",
+    "instruction": "Alle stykkerne giver noget til overs. Skriv svaret og resten i hver række."
+  },
+  "G3-382": {
+    "title": "Går det op? Division med og uden rest",
+    "instruction": "Afgør, om hvert stykke går op. Sæt ring om dit svar, og skriv resten: 0, hvis der ingen er."
+  },
+  "G3-383": {
+    "title": "Find fejlen: resten er for stor",
+    "instruction": "Alle stykkerne er regnet forkert. Streg de forkerte tal ud, og skriv det rigtige svar og den rigtige rest i kasserne."
+  },
+  "G3-384": {
+    "title": "Hop tilbage på tallinjen: hvad er til overs?",
+    "instruction": "Start ved det markerede tal, og tegn lige store hop tilbage, til et helt hop ikke kan være der mere. Skriv antallet af hop, og hvor du lander."
   }
 }

@@ -50,9 +50,10 @@
  *     word-classes bank (write / bake / paint are not citation forms there) and stay
  *     unassigned; athlete (a second runner) is DROPPED; swimming / singing / painting /
  *     playground are OBJECTS (goggles, microphone, palette, climbing frame) — refused;
- *   - frames: 17, every subject a SENTENCES.en name inside the literal, `{form}` once,
- *     <= 36 chars (cap 44), 8 present + 9 past, no `dance / play / jump` noun token
- *     (hunt.nounHomographs), no free claim.
+ *   - frames: 17 (base) + 8 (Phase 2, f18-f25: the irregular core's lanes; fits = core +
+ *     UNPICTURED verbs only, so the base's table-slot filter never sees them), every
+ *     subject a SENTENCES.en name inside the literal, `{form}` once, <= 44 chars, no
+ *     `dance / play / jump` noun token (hunt.nounHomographs), no free claim.
  */
 'use strict';
 
@@ -125,6 +126,17 @@ const VERB_FORMS = {
       { id: 'f15', text: 'Tom {form} at the pool yesterday.', col: 'past', unit: 'today-yesterday', fits: ['swim', 'jump', 'play'], subjectLiteral: 'Tom', pic: null },
       { id: 'f16', text: 'Yesterday Lily {form} a tall tower.', col: 'past', unit: 'today-yesterday', fits: ['build', 'draw'], subjectLiteral: 'Lily', pic: null },
       { id: 'f17', text: 'Last night Max {form} on the sofa.', col: 'past', unit: 'today-yesterday', fits: ['sleep', 'read', 'sit'], subjectLiteral: 'Max', pic: null },
+      // Phase 2 (faces): frames the irregular core (be have do go) can fill — Face 4 keeps its three lanes. Their `fits`
+      // name ONLY core verbs + UNPICTURED verbs, so no base-table slot (pictured verbs only) ever sees them and the
+      // base's lane RNG path stays byte-identical (tools/b3-baseline.js). Every subject a SENTENCES.en name; <= 44 chars.
+      { id: 'f18', text: 'Today Mia {form} at home.', col: 'pres', unit: 'today-yesterday', fits: ['be', 'sleep', 'play', 'draw'], subjectLiteral: 'Mia', pic: null },
+      { id: 'f19', text: 'Ben {form} a red bike.', col: 'pres', unit: 'today-yesterday', fits: ['have', 'push', 'pull', 'wash', 'hide'], subjectLiteral: 'Ben', pic: null },
+      { id: 'f20', text: 'Every morning Leo {form} to school.', col: 'pres', unit: 'today-yesterday', fits: ['go'], subjectLiteral: 'Leo', pic: null },
+      { id: 'f21', text: 'Anna {form} her homework after school.', col: 'pres', unit: 'today-yesterday', fits: ['do'], subjectLiteral: 'Anna', pic: null },
+      { id: 'f22', text: 'Yesterday Tom {form} at the zoo.', col: 'past', unit: 'today-yesterday', fits: ['be', 'eat', 'laugh', 'draw', 'sit', 'play', 'giggle', 'shout'], subjectLiteral: 'Tom', pic: null },
+      { id: 'f23', text: 'Last week Emma {form} to the sea.', col: 'past', unit: 'today-yesterday', fits: ['go'], subjectLiteral: 'Emma', pic: null },
+      { id: 'f24', text: 'Yesterday Lily {form} a bad cold.', col: 'past', unit: 'today-yesterday', fits: ['have'], subjectLiteral: 'Lily', pic: null },
+      { id: 'f25', text: 'Max {form} the dishes last night.', col: 'past', unit: 'today-yesterday', fits: ['do', 'wash'], subjectLiteral: 'Max', pic: null },
     ],
     hunt: { nounHomographs: ['dance', 'play', 'jump'] },
     strings: {

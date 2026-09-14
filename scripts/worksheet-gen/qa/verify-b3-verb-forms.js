@@ -60,9 +60,37 @@
  *      title · P20 a free claim in the instruction · P21 the old 760 stack
  *      under the worst chrome · P22 a verb twice on the page · P23 a lane on an
  *      anchor cell · P24 a hand-edited frame text · P25 an object picture on
- *      an en verb. DEFERRED (need face code): P6 Face 5 candidate not in the
- *      paradigm · P10 Face 2 tense column without present distractors.
- * Exit 1 on any real failure OR any silent poison.
+ *      an en verb. P6 + P10 (deferred by the base) land in section F.
+ *   F  the faces (Phase 2; `renderFace` / `renderIrregular` / `runFaces`):
+ *      G2-334 match · G2-335 sentences · G2-336 irregular · G2-337 choice ·
+ *      G2-338 hunt. One source (spec i18n.en === bank strings.F2..F6, themeless,
+ *      unitAxis kept). Renders through the REAL pipeline: en (shipped chrome +
+ *      the WORST chrome) · the de persons fixture (+ core frames d15-d20 for
+ *      F4's lanes) · the nl fixture (3 pictured regular verbs → the F2 STACK
+ *      variant). Per render: lints + verify() + geometry (every block / row
+ *      inside the body, items >= 36 with their text inside, the two dot columns
+ *      >= 6 px apart, lane pictures 56, pills == pillH >= 36 inside their row,
+ *      the choice sentence ONE line at the worst chrome, the hunt box == infBox)
+ *      + the Node re-derivation of EVERY stamp (left labels / right forms /
+ *      roles / lanes / pills ⊆ paradigm / the hunt form's owner + no other bank
+ *      form printed) + the STEM BOT on the tense match (longest-common-prefix,
+ *      a tie = a miss; must score < n/n) + non-vacuity. Seed sweep per face
+ *      (pages / orders / verbs / frames vary; idx covers 0..2). Poisons (each
+ *      must FAIL; the un-poisoned render is the control): P10 the present
+ *      distractors stripped → stem bot n/n · P6 a pill outside the paradigm ·
+ *      PF2a a target level with its verb (derangement) · PF2b a hand-edited
+ *      right form · PF2c the infinitive printed on the right · PF2d a persons
+ *      row without its form · PF3a a chip ≠ the infinitive · PF3b a verb twice
+ *      · PF3c a lane printing its form · PF4a a table verb outside the core ·
+ *      PF4b 3 tables over a 2-verb core (refused) · PF5a the correct pill always
+ *      first · PF5b two identical pills · PF5c the sentence printing a candidate
+ *      · PF5d idx ≠ DOM · PF6a the answer box carrying text · PF6b the form
+ *      removed · PF6c a noun-homograph token · PF6d a hand-edited inf stamp ·
+ *      PF6e a second bank form printed · PF1 a pill squashed below 36 · PB1 F5
+ *      rowMin 120 under the worst chrome · PB2 F2 left items 130 high · PB3 a
+ *      pictured floor of 7 over 6 pictured verbs · PB4 9 candidates over 8 rows.
+ * Exit 1 on any real failure OR any silent poison. Final line:
+ *   G2-317 gate: PASS (N assertions, M/M poisons killed; …)
  */
 'use strict';
 const fs = require('fs');
@@ -155,6 +183,13 @@ const SYNTH_DE = {
     { id: 'd12', text: 'Ihr {form} am Sonntag im Park.', col: 'ihr', unit: 'praesens', fits: ['laufen', 'spielen', 'tanzen', 'singen', 'springen', 'wandern', 'lesen', 'malen'], subjectLiteral: 'Ihr', pic: null },
     { id: 'd13', text: 'Am Samstag {form} Lina einen Kuchen.', col: 'er', unit: 'praesens', fits: ['backen'], subjectLiteral: 'Lina', pic: null },
     { id: 'd14', text: 'Heute {form} ich ein Haus.', col: 'ich', unit: 'praesens', fits: ['bauen', 'malen'], subjectLiteral: 'ich', pic: null },
+    // Phase 2: frames the core (sein / haben) fills — Face 4's lanes; fits name core verbs only
+    { id: 'd15', text: 'Heute {form} ich zu Hause.', col: 'ich', unit: 'praesens', fits: ['sein'], subjectLiteral: 'ich', pic: null },
+    { id: 'd16', text: 'Emma {form} einen kleinen Hund.', col: 'er', unit: 'praesens', fits: ['haben'], subjectLiteral: 'Emma', pic: null },
+    { id: 'd17', text: 'Du {form} ein rotes Rad.', col: 'du', unit: 'praesens', fits: ['haben'], subjectLiteral: 'Du', pic: null },
+    { id: 'd18', text: 'Wir {form} heute im Garten.', col: 'wir', unit: 'praesens', fits: ['sein'], subjectLiteral: 'Wir', pic: null },
+    { id: 'd19', text: 'Ben und Mia {form} müde.', col: 'sie', unit: 'praesens', fits: ['sein'], subjectLiteral: 'Ben und Mia', pic: null },
+    { id: 'd20', text: 'Ihr {form} viele Bücher.', col: 'ihr', unit: 'praesens', fits: ['haben'], subjectLiteral: 'Ihr', pic: null },
   ],
   hunt: { nounHomographs: ['Tanz', 'Spiel'] },
   strings: {
@@ -187,9 +222,14 @@ const SYNTH_NL = {
   head: 'De persoonsvorm: stam + t', mode: 'persons', band: 'G2', exemplar: 'tt',
   columns: [{ key: 'ik', label: 'ik' }, { key: 'jij', label: 'jij' }, { key: 'hij', label: 'hij/zij' }, { key: 'wij', label: 'wij' }, { key: 'jullie', label: 'jullie' }, { key: 'zij', label: 'zij' }],
   units: [{ key: 'tt', kind: 'tense', label: 'tegenwoordige tijd', band: 'G2' }], poolMap: {}, matchPersons: ['ik', 'jij', 'wij'],
-  verbs: [{ inf: 'lopen', group: 'regular', irregular: false, gradation: false, tier: 1, pic: { theme: 'activities', noun: 'hiking' }, picOpened: true, labelOverride: {}, forms: { tt: { ik: 'loop', jij: 'loopt', hij: 'loopt', wij: 'lopen', jullie: 'lopen', zij: 'lopen' } } }],
+  verbs: [
+    { inf: 'lopen', group: 'regular', irregular: false, gradation: false, tier: 1, pic: { theme: 'activities', noun: 'hiking' }, picOpened: true, labelOverride: {}, forms: { tt: { ik: 'loop', jij: 'loopt', hij: 'loopt', wij: 'lopen', jullie: 'lopen', zij: 'lopen' } } },
+    // Phase 2: two more pictured regular verbs so the Face 2 STACK variant (3 blocks × 3 persons) renders from this fixture
+    { inf: 'rennen', group: 'regular', irregular: false, gradation: false, tier: 1, pic: { theme: 'activities', noun: 'running' }, picOpened: true, labelOverride: {}, forms: { tt: { ik: 'ren', jij: 'rent', hij: 'rent', wij: 'rennen', jullie: 'rennen', zij: 'rennen' } } },
+    { inf: 'dansen', group: 'regular', irregular: false, gradation: false, tier: 1, pic: { theme: 'activities', noun: 'dancing' }, picOpened: true, labelOverride: {}, forms: { tt: { ik: 'dans', jij: 'danst', hij: 'danst', wij: 'dansen', jullie: 'dansen', zij: 'dansen' } } },
+  ],
   irregularCore: [],
-  frames: [{ id: 'n01', text: 'Emma {form} in het park.', col: 'hij', unit: 'tt', fits: ['lopen'], subjectLiteral: 'Emma', pic: null }],
+  frames: [{ id: 'n01', text: 'Emma {form} in het park.', col: 'hij', unit: 'tt', fits: ['lopen', 'rennen', 'dansen'], subjectLiteral: 'Emma', pic: null }],
   hunt: { nounHomographs: [] }, strings: {},
 };
 const SYNTH_SV = {
@@ -366,6 +406,8 @@ async function renderCheck(page, type, inj, job, opts) {
     if (!root) { res.fails.push('no root'); return res; }
     res.mode = root.dataset.lcsMode;
     res.unit = root.dataset.lcsUnit;
+    res.face = root.dataset.lcsFace;
+    const core = root.dataset.lcsPool === 'irregular';   // Face 4: chip-only, no action pictures
     const inside = (r, what) => { if (r.top < body.top - 0.6 || r.bottom > body.bottom + 0.6 || r.left < body.left - 0.6 || r.right > body.right + 0.6) res.fails.push(`${what} outside the body`); };
     const fits = (el, box, what) => {
       if (el.scrollWidth > el.clientWidth + 0.6) res.fails.push(`${what} overflows its grid cell (${el.scrollWidth} > ${el.clientWidth})`);
@@ -406,8 +448,8 @@ async function renderCheck(page, type, inj, job, opts) {
       const lb = l.getBoundingClientRect();
       inside(lb, `lane ${i + 1}`);
       const img = l.querySelector('img');
-      if (!img) res.fails.push(`lane ${i + 1}: no picture`);
-      else { const r = img.getBoundingClientRect(); if (Math.abs(r.width - lanePic) > 0.6 || Math.abs(r.height - lanePic) > 0.6) res.fails.push(`lane ${i + 1} picture ${r.width.toFixed(1)}x${r.height.toFixed(1)} != ${lanePic}`); }
+      if (!img && !core) res.fails.push(`lane ${i + 1}: no picture`);
+      else if (img) { const r = img.getBoundingClientRect(); if (Math.abs(r.width - lanePic) > 0.6 || Math.abs(r.height - lanePic) > 0.6) res.fails.push(`lane ${i + 1} picture ${r.width.toFixed(1)}x${r.height.toFixed(1)} != ${lanePic}`); }
       const p = l.querySelector('[data-lcs-sentence]');
       if (!p) res.fails.push(`lane ${i + 1}: no sentence`);
       else { if (p.clientHeight > laneMaxH) res.fails.push(`lane ${i + 1}: sentence ${p.clientHeight}px high > ${laneMaxH} (three lines)`); if (p.scrollWidth > p.clientWidth + 0.6) res.fails.push(`lane ${i + 1}: sentence overflows`); const pr = p.getBoundingClientRect(); if (pr.bottom > lb.bottom + 0.6 || pr.top < lb.top - 0.6) res.fails.push(`lane ${i + 1}: sentence outside its lane`); }
@@ -457,6 +499,352 @@ async function renderCheck(page, type, inj, job, opts) {
   return { fails, cells: m.cells, lanes: m.lanes, body: m.body, instrLines: m.instrLines, tables: m.tables, mode: m.mode, widths: m.widths, pngPath: out.pngPath };
 }
 
+/* ---------------- F. the faces (Phase 2): G2-334 match · G2-335 sentences · G2-336 irregular · G2-337 choice · G2-338 hunt ---------------- */
+const FACE_IDS = { match: 'G2-334', sentences: 'G2-335', irregular: 'G2-336', choice: 'G2-337', hunt: 'G2-338' };
+const OUT_F = path.join(ROOT, 'out', 'dev', 'g2317-gate');
+const PILL_FLOOR = 36;
+
+/** The stem bot (design §5): for each left infinitive pick the right-column text with the longest common prefix; a tie = no information = a miss. */
+function stemBot(lefts, rights) {
+  const lcp = (a, b) => { let i = 0; while (i < a.length && i < b.length && a[i] === b[i]) i++; return i; };
+  let hits = 0;
+  for (const l of lefts) {
+    let best = -1, bestForm = null, tie = false;
+    for (const r of rights) { const n = lcp(fold(l.inf), fold(r.text)); if (n > best) { best = n; bestForm = r; tie = false; } else if (n === best) tie = true; }
+    if (!tie && bestForm && fold(bestForm.text) === fold(l.past)) hits++;
+  }
+  return hits;
+}
+
+/** The paradigm of a bank verb (node-side twin of the spec's, own code): unit forms + the infinitive in tense mode. */
+function paradigm(bankLoc, unitKey, v) {
+  const out = new Set();
+  if (bankLoc.mode === 'tense') out.add(fold(v.inf));
+  for (const c of bankLoc.columns) out.add(fold(v.forms[unitKey][c.key]));
+  return out;
+}
+
+/**
+ * Render ONE face through the real pipeline (an injected bank / cfg = the poison
+ * seam) and measure it: lints + verify() + geometry (every block / lane / row
+ * inside the body, pictures at their floors, item texts inside their items,
+ * pills / boxes at their sizes, one-line sentences on the choice face at the
+ * worst chrome) + the Node-side re-derivation of EVERY stamp from the bank.
+ */
+async function renderFace(page, faceKey, inj, job, opts) {
+  const type = loadType(FACE_IDS[faceKey]);
+  let t = { ...type, build: (o, ctx) => type._buildWith((inj && inj.bank) || loadBank()[o.locale.slice(0, 2)], (inj && inj.cfg) || type.difficulty[o.difficulty], { locale: o.locale, unit: o.unit }, ctx) };
+  if (opts && opts.post) { const inner = t.build; t = { ...t, build: async (o, ctx) => { const b = await inner.call(t, o, ctx); b.bodyHtml = opts.post(b.bodyHtml); return b; } }; }
+  const out = await renderInstance({ type: t, theme: null, difficulty: 2, locale: job.locale || 'en', strings: job.strings, unit: job.unit || null, seedEpoch: job.seedEpoch || 1, page, outDir: OUT_F, baseName: job.baseName });
+  const fails = [...out.qa.lints.map((x) => 'lint: ' + x), ...out.qa.verify.map((x) => 'verify: ' + x)];
+  const m = await page.evaluate(({ floor, boxFloor, lanePic, laneMaxH, pillFloor, worst }) => {
+    const res = { fails: [], body: 0, instrLines: 0, face: '', unit: '', blocks: [], lanes: [], rows: [], pictured: 0 };
+    const body = document.querySelector('[data-lcs-body]').getBoundingClientRect();
+    res.body = Math.round(body.height);
+    res.instrLines = Math.round(document.querySelector('[data-lcs-instruction]').getBoundingClientRect().height / 23);
+    const root = document.querySelector('[data-lcs-vf]');
+    if (!root) { res.fails.push('no root'); return res; }
+    res.face = root.dataset.lcsFace; res.unit = root.dataset.lcsUnit; res.kind = root.dataset.lcsMatchkind || '';
+    res.minPictured = +(root.dataset.lcsMinpictured || 0);
+    const inside = (r, what) => { if (r.top < body.top - 0.6 || r.bottom > body.bottom + 0.6 || r.left < body.left - 0.6 || r.right > body.right + 0.6) res.fails.push(`${what} outside the body (${r.top.toFixed(0)}-${r.bottom.toFixed(0)} vs ${body.top.toFixed(0)}-${body.bottom.toFixed(0)})`); };
+    const textFits = (span, box, what) => { if (!span) return; if (span.scrollWidth > span.clientWidth + 0.6) res.fails.push(`${what} overflows (${span.scrollWidth} > ${span.clientWidth})`); const r = span.getBoundingClientRect(); if (r.right > box.right + 0.6 || r.left < box.left - 0.6) res.fails.push(`${what} outside its item`); };
+    root.querySelectorAll('[data-ws-content]').forEach((el, i) => inside(el.getBoundingClientRect(), `content ${i + 1}`));
+    // blocks (match)
+    [...root.querySelectorAll('[data-lcs-matchblock]')].forEach((b, bi) => {
+      const br = b.getBoundingClientRect();
+      inside(br, `block ${bi + 1}`);
+      const L = [...b.querySelectorAll('[data-lcs-match-left]')].map((it) => {
+        const r = it.getBoundingClientRect(); textFits(it.querySelector('[data-lcs-match-text]'), r, `left "${it.textContent.trim()}"`);
+        if (r.height < floor - 0.6) res.fails.push(`left item ${r.height.toFixed(1)} < ${floor}`);
+        if (r.bottom > br.bottom + 0.6 || r.top < br.top - 0.6) res.fails.push('a left item is clipped by its block');
+        const img = it.querySelector('img'); if (img) { const ir = img.getBoundingClientRect(); if (ir.width < floor - 0.6 || ir.height < floor - 0.6) res.fails.push(`a match picture ${ir.width.toFixed(0)}x${ir.height.toFixed(0)} < ${floor}`); }
+        const dot = it.querySelector('.ws-match-dot'); const dr = dot ? dot.getBoundingClientRect() : null;
+        return { verb: it.dataset.lcsVerb || '', col: it.dataset.lcsCol || '', text: it.textContent.trim(), pictured: !!img, dotRight: dr ? dr.right : null, h: Math.round(r.height) };
+      });
+      const R = [...b.querySelectorAll('[data-lcs-match-right]')].map((it) => {
+        const r = it.getBoundingClientRect(); textFits(it.querySelector('[data-lcs-match-text]'), r, `right "${it.textContent.trim()}"`);
+        if (r.height < floor - 0.6) res.fails.push(`right item ${r.height.toFixed(1)} < ${floor}`);
+        if (r.bottom > br.bottom + 0.6 || r.top < br.top - 0.6) res.fails.push('a right item is clipped by its block');
+        const dot = it.querySelector('.ws-match-dot'); const dr = dot ? dot.getBoundingClientRect() : null;
+        return { verb: it.dataset.lcsVerb || '', col: it.dataset.lcsCol || '', role: it.dataset.lcsRole, stamp: it.dataset.lcsMatchRight, text: it.textContent.trim(), dotLeft: dr ? dr.left : null, h: Math.round(r.height) };
+      });
+      const lDot = Math.max(...L.map((x) => x.dotRight || 0)), rDot = Math.min(...R.map((x) => x.dotLeft == null ? 1e9 : x.dotLeft));
+      if (rDot - lDot < 6) res.fails.push(`block ${bi + 1}: the two dot columns are ${(rDot - lDot).toFixed(1)} px apart (< 6)`);
+      const head = b.querySelector('[data-lcs-thead]');
+      if (head) { const hi = head.querySelector('[data-lcs-inf]'); textFits(hi, head.getBoundingClientRect(), `header "${hi && hi.textContent.trim()}"`); const img = head.querySelector('img'); if (img) { const ir = img.getBoundingClientRect(); if (ir.width < floor - 0.6) res.fails.push(`a header picture ${ir.width.toFixed(0)} < ${floor}`); } }
+      res.blocks.push({ verb: b.dataset.lcsVerb, inf: b.dataset.lcsInf, left: L, right: R, header: !!head, headerPic: !!(head && head.querySelector('img')) });
+    });
+    // lanes / rows (every face but the tense match)
+    const laneGrid = root.querySelector('[data-lcs-lanes]');
+    if (laneGrid) { inside(laneGrid.getBoundingClientRect(), 'lanes'); const blocks = root.querySelectorAll('[data-lcs-matchblock]'); if (blocks.length && laneGrid.getBoundingClientRect().top < blocks[blocks.length - 1].getBoundingClientRect().bottom - 0.6) res.fails.push('lanes overlap the blocks'); }
+    [...root.querySelectorAll('[data-lcs-lane]')].forEach((l, i) => {
+      const lb = l.getBoundingClientRect();
+      inside(lb, `row ${i + 1}`);
+      const img = l.querySelector('img');
+      if (img) { const r = img.getBoundingClientRect(); if (Math.abs(r.width - lanePic) > 0.6 || Math.abs(r.height - lanePic) > 0.6) res.fails.push(`row ${i + 1} picture ${r.width.toFixed(1)}x${r.height.toFixed(1)} != ${lanePic}`); res.pictured++; }
+      const p = l.querySelector('[data-lcs-sentence]');
+      let sentH = 0;
+      if (!p) res.fails.push(`row ${i + 1}: no sentence`);
+      else {
+        sentH = p.clientHeight;
+        if (sentH > laneMaxH) res.fails.push(`row ${i + 1}: sentence ${sentH}px high > ${laneMaxH} (three lines)`);
+        if (p.scrollWidth > p.clientWidth + 0.6) res.fails.push(`row ${i + 1}: sentence overflows`);
+        const pr = p.getBoundingClientRect(); if (pr.bottom > lb.bottom + 0.6 || pr.top < lb.top - 0.6) res.fails.push(`row ${i + 1}: sentence outside its row`);
+        if (res.face === 'choice' && worst && sentH > 27) res.fails.push(`row ${i + 1}: the choice sentence wraps to ${Math.round(sentH / 24)} lines at the worst chrome (one line only)`);
+      }
+      const pills = [...l.querySelectorAll('[data-lcs-pill]')].map((pl) => { const r = pl.getBoundingClientRect(); if (r.height < pillFloor - 0.6) res.fails.push(`row ${i + 1}: pill ${r.height.toFixed(1)} < ${pillFloor}`); if (r.bottom > lb.bottom + 0.6 || r.right > lb.right + 0.6) res.fails.push(`row ${i + 1}: a pill outside its row`); if (pl.scrollWidth > pl.clientWidth + 0.6) res.fails.push(`row ${i + 1}: pill text overflows`); return { text: pl.textContent.trim(), stamp: pl.dataset.lcsPill, h: Math.round(r.height), w: Math.round(r.width) }; });
+      const box = l.querySelector('.ws-blankbox');
+      let boxR = null;
+      if (box) { const b = box.getBoundingClientRect(); boxR = { w: Math.round(b.width), h: Math.round(b.height) }; if (b.height < boxFloor - 0.6) res.fails.push(`row ${i + 1}: box ${b.height.toFixed(1)} < ${boxFloor}`); if (b.bottom > lb.bottom + 0.6 || b.right > lb.right + 0.6) res.fails.push(`row ${i + 1}: box outside its row`); }
+      const hint = l.querySelector('[data-lcs-hint]');
+      const printed = l.querySelector('[data-lcs-printed-form]');
+      res.lanes.push({ verb: l.dataset.lcsVerb, inf: l.dataset.lcsInf || '', col: l.dataset.lcsCol, form: l.dataset.lcsForm, frame: l.dataset.lcsFrame, render: l.dataset.lcsRender, idx: l.dataset.lcsIdx, text: p ? p.textContent.replace(/\s*\([^)]*\)\s*$/, '').trim() : '', hint: hint ? hint.textContent.replace(/[()]/g, '').trim() : null, pills, box: boxR, printed: printed ? printed.textContent.trim() : null, sentH, h: Math.round(lb.height), pictured: !!img });
+    });
+    return res;
+  }, { floor: ELEMENT_FLOOR, boxFloor: BOX_FLOOR, lanePic: LANE_PIC, laneMaxH: LANE_TEXT_MAX_H, pillFloor: PILL_FLOOR, worst: job.strings === WORST_CHROME });
+  fails.push(...m.fails.map((x) => 'size: ' + x));
+  if (job.strings === WORST_CHROME && m.body > WORST_BODY) fails.push(`chrome: the 3-line/3-line body measured ${m.body}, expected <= ${WORST_BODY}`);
+  if (job.strings === WORST_CHROME && m.instrLines < 3) fails.push(`chrome: WORST_CHROME wrapped to ${m.instrLines} instruction lines, not 3 (the probe is vacuous)`);
+  // ---- Node re-derivation from the bank (diff, not trust)
+  const bankLoc = (inj && inj.bank) || loadBank()[(job.locale || 'en').slice(0, 2)];
+  const unitKey = m.unit;
+  const findVerb = (inf) => bankLoc && [...(bankLoc.verbs || []), ...(bankLoc.irregularCore || [])].find((v) => fold(v.inf) === fold(inf));
+  const bankVerb = (inf) => bankLoc && (bankLoc.verbs || []).find((v) => fold(v.inf) === fold(inf));
+  const refillLane = (l, i, what) => {
+    const f = bankLoc && (bankLoc.frames || []).find((x) => x.id === l.frame);
+    if (!f) { fails.push(`refill: ${what} ${i + 1} frame ${l.frame} is not in the bank`); return null; }
+    if (f.col !== l.col) fails.push(`refill: ${what} ${i + 1} col ${l.col} != frame col ${f.col}`);
+    if (f.unit !== unitKey) fails.push(`refill: ${what} ${i + 1} frame unit ${f.unit} != ${unitKey}`);
+    if (!f.fits.some((x) => fold(x) === fold(l.verb))) fails.push(`refill: ${what} ${i + 1} verb ${l.verb} does not fit frame ${l.frame}`);
+    const v = findVerb(l.verb);
+    const want = v && v.forms && v.forms[unitKey] && v.forms[unitKey][l.col];
+    if (!want || want !== l.form) fails.push(`refill: ${what} ${i + 1} form "${l.form}", the bank says "${want}"`);
+    const wantText = String(f.text).replace('{form}', l.render === 'text' ? l.form : '').replace(/\s+/g, ' ').trim();
+    if (l.text.replace(/\s+/g, ' ').trim() !== wantText) fails.push(`refill: ${what} ${i + 1} prints "${l.text}", the bank frame is "${wantText}"`);
+    return v;
+  };
+  const bot = { hits: 0, n: 0 };
+  if (m.face === 'match') {
+    if (!m.blocks.length) fails.push('non-vacuity: 0 blocks');
+    m.blocks.forEach((b, bi) => {
+      const B = `block ${bi + 1}`;
+      if (m.kind === 'tense') {
+        const lefts = [];
+        b.left.forEach((l) => {
+          const v = bankVerb(l.verb);
+          if (!v) { fails.push(`refill: ${B} left "${l.verb}" is not a bank verb`); return; }
+          if (l.text !== v.inf) fails.push(`refill: ${B} left prints "${l.text}", the bank infinitive is "${v.inf}"`);
+          const f = v.forms[unitKey];
+          if (fold(f.past) === fold(v.inf)) fails.push(`refill: ${B} "${v.inf}": its past is the infinitive (an anchor on the match page)`);
+          if (!!v.pic !== l.pictured) fails.push(`refill: ${B} "${v.inf}" pictured ${l.pictured}, the bank pic is ${v.pic ? 'set' : 'null'}`);
+          lefts.push({ inf: v.inf, past: f.past });
+        });
+        b.right.forEach((r) => {
+          const v = bankVerb(r.verb);
+          if (!v) { fails.push(`refill: ${B} right "${r.text}" names no bank verb`); return; }
+          const want = v.forms[unitKey][r.col];
+          if (r.text !== want || r.stamp !== want) fails.push(`refill: ${B} right prints "${r.text}" (stamp "${r.stamp}"), the bank ${v.inf}/${r.col} is "${want}"`);
+          if ((r.col === 'past') !== (r.role === 'target')) fails.push(`refill: ${B} ${v.inf}/${r.col} role ${r.role}`);
+        });
+        bot.n += lefts.length;
+        bot.hits += stemBot(lefts, b.right);
+        if (b.left.filter((l) => l.pictured).length < m.minPictured) fails.push(`${B}: ${b.left.filter((l) => l.pictured).length} pictured verbs < ${m.minPictured}`);
+      } else {
+        const v = bankVerb(b.verb);
+        if (!v) { fails.push(`refill: ${B} verb "${b.verb}" is not a bank verb`); return; }
+        if (v.match === false || v.irregular || !v.pic) fails.push(`refill: ${B} "${v.inf}" is not a pictured match-able regular verb (match ${v.match}, irregular ${v.irregular}, pic ${!!v.pic})`);
+        if (!b.headerPic) fails.push(`${B}: no action picture in the header`);
+        const mp = bankLoc.matchPersons || [];
+        if (b.left.length !== mp.length) fails.push(`refill: ${B} ${b.left.length} persons, matchPersons has ${mp.length}`);
+        b.left.forEach((l, i) => {
+          const col = mp[i];
+          if (l.col !== col) fails.push(`refill: ${B} left ${i + 1} col ${l.col}, matchPersons says ${col}`);
+          const label = (v.labelOverride && v.labelOverride[col]) || (bankLoc.columns.find((c) => c.key === col) || {}).label;
+          if (l.text !== label) fails.push(`refill: ${B} left prints "${l.text}", the bank label for ${col} is "${label}"`);
+        });
+        b.right.forEach((r) => { const want = v.forms[unitKey][r.col]; if (r.text !== want || r.stamp !== want) fails.push(`refill: ${B} right prints "${r.text}", the bank ${v.inf}/${r.col} is "${want}"`); });
+      }
+    });
+    m.lanes.forEach((l, i) => refillLane(l, i, 'lane'));
+    if (m.kind === 'tense' && bot.n && bot.hits >= bot.n) fails.push(`stem bot ${bot.hits}/${bot.n}: the right column has no present distractors to defeat a longest-common-prefix matcher`);
+    if (m.kind === 'tense' && !bot.n) fails.push('non-vacuity: the stem bot saw 0 verbs');
+  } else if (m.face === 'sentences') {
+    if (!m.lanes.length) fails.push('non-vacuity: 0 lanes');
+    m.lanes.forEach((l, i) => { const v = refillLane(l, i, 'lane'); if (v && l.hint !== v.inf) fails.push(`refill: lane ${i + 1} chip "${l.hint}" != the infinitive "${v.inf}"`); });
+    if (m.pictured < m.minPictured) fails.push(`${m.pictured} pictured lanes < ${m.minPictured}`);
+  } else if (m.face === 'choice') {
+    if (!m.lanes.length) fails.push('non-vacuity: 0 rows');
+    m.lanes.forEach((l, i) => {
+      const v = refillLane(l, i, 'row');
+      if (!v) return;
+      const par = paradigm(bankLoc, unitKey, v);
+      l.pills.forEach((p) => { if (!par.has(fold(p.text))) fails.push(`refill: row ${i + 1} pill "${p.text}" is not in the paradigm of ${v.inf} (${[...par].join('/')})`); });
+      if (!l.pills.some((p) => fold(p.text) === fold(l.form))) fails.push(`refill: row ${i + 1} no pill equals the form "${l.form}"`);
+      if (par.size < l.pills.length) fails.push(`refill: row ${i + 1} ${v.inf} has ${par.size} distinct forms < ${l.pills.length} pills (F5-excluded)`);
+    });
+    if (m.pictured < m.minPictured) fails.push(`${m.pictured} pictured rows < ${m.minPictured}`);
+  } else if (m.face === 'hunt') {
+    if (!m.lanes.length) fails.push('non-vacuity: 0 rows');
+    const owner = new Map();
+    const allForms = new Set();
+    for (const v of [...(bankLoc.verbs || []), ...(bankLoc.irregularCore || [])]) { const f = v.forms && v.forms[unitKey]; if (!f) continue; for (const c of bankLoc.columns) { owner.set(fold(f[c.key]), fold(v.inf)); allForms.add(fold(f[c.key])); } allForms.add(fold(v.inf)); }
+    const homos = new Set(((bankLoc.hunt && bankLoc.hunt.nounHomographs) || []).map(fold));
+    m.lanes.forEach((l, i) => {
+      const v = refillLane(l, i, 'row');
+      if (!v) return;
+      if (fold(l.inf) !== fold(v.inf)) fails.push(`refill: row ${i + 1} inf stamp "${l.inf}", the bank owner of "${l.form}" is "${owner.get(fold(l.form))}"`);
+      if (owner.get(fold(l.form)) !== fold(v.inf)) fails.push(`refill: row ${i + 1} form "${l.form}" belongs to "${owner.get(fold(l.form))}", not "${v.inf}"`);
+      if (l.printed !== l.form) fails.push(`refill: row ${i + 1} prints "${l.printed}" in the form span, not "${l.form}"`);
+      const t = toks(l.text);
+      const others = t.filter((w) => w !== fold(l.form) && allForms.has(w));
+      if (others.length) fails.push(`refill: row ${i + 1} prints another bank verb form: ${others.join(', ')}`);
+      for (const h of homos) if (t.includes(h)) fails.push(`refill: row ${i + 1} carries the noun-homograph token "${h}"`);
+    });
+    if (m.pictured < m.minPictured) fails.push(`${m.pictured} pictured rows < ${m.minPictured}`);
+  } else fails.push(`face stamp "${m.face}" is not a Phase-2 face`);
+  return { fails, m, bot, pngPath: out.pngPath };
+}
+
+/** The irregular face (G2-336) renders through the BASE checker (tables + lanes) + the core-membership check. */
+async function renderIrregular(page, inj, job, opts) {
+  const type = loadType(FACE_IDS.irregular);
+  const r = await renderCheck(page, type, inj || {}, job, opts);
+  const bankLoc = (inj && inj.bank) || loadBank()[(job.locale || 'en').slice(0, 2)];
+  const core = new Set((bankLoc.irregularCore || []).map((v) => fold(v.inf)));
+  const verbs = [...new Set(r.cells.map((c) => c.verb))];
+  if (!verbs.length) r.fails.push('non-vacuity: 0 table verbs');
+  verbs.forEach((v) => { if (!core.has(fold(v))) r.fails.push(`refill: table verb "${v}" is not in irregularCore`); });
+  r.lanes.forEach((l, i) => { if (!core.has(fold(l.verb))) r.fails.push(`refill: lane ${i + 1} verb "${l.verb}" is not in irregularCore`); });
+  return r;
+}
+
+async function runFaces(page, note, failures, seeds, bankAll) {
+  const need = (html, re, to, what) => { if (!re.test(html)) throw new Error(`poison needle matched nothing: ${what}`); re.lastIndex = 0; return html.replace(re, to); };
+  const DE = { bank: SYNTH_DE }, NL = { bank: SYNTH_NL };
+  // spec strings === bank strings (one source; the emitted specs carry the bank's F2..F6 verbatim)
+  const en = bankAll.en;
+  for (const [key, id] of Object.entries(FACE_IDS)) {
+    const spec = loadType(id);
+    const face = { match: 'F2', sentences: 'F3', irregular: 'F4', choice: 'F5', hunt: 'F6' }[key];
+    note(spec.i18n.en.title === en.strings[face].title && spec.i18n.en.instruction === en.strings[face].instruction, `F ${id}: i18n.en != bank strings.${face} (two sources)`);
+    note(spec.themeAxis && spec.themeAxis.applicable === false, `F ${id}: not themeless`);
+    note(spec.unitAxis && spec.unitAxis.applicable === true, `F ${id}: lost the unit axis`);
+  }
+  // ---- renders: en (shipped chrome + WORST), the de persons fixture, the nl stack fixture (F2)
+  const jobs = [
+    ['match', null, { locale: 'en', baseName: 'G2-334-en' }], ['match', null, { locale: 'en', strings: WORST_CHROME, baseName: 'G2-334-worst-en' }],
+    ['match', DE, { locale: 'de', baseName: 'G2-334-fixture-de' }], ['match', DE, { locale: 'de', strings: WORST_CHROME, baseName: 'G2-334-worst-de' }],
+    ['match', NL, { locale: 'nl', baseName: 'G2-334-fixture-nl' }], ['match', NL, { locale: 'nl', strings: WORST_CHROME, baseName: 'G2-334-worst-nl' }],
+    ['sentences', null, { locale: 'en', baseName: 'G2-335-en' }], ['sentences', null, { locale: 'en', strings: WORST_CHROME, baseName: 'G2-335-worst-en' }], ['sentences', DE, { locale: 'de', baseName: 'G2-335-fixture-de' }],
+    ['irregular', null, { locale: 'en', baseName: 'G2-336-en' }], ['irregular', null, { locale: 'en', strings: WORST_CHROME, baseName: 'G2-336-worst-en' }], ['irregular', DE, { locale: 'de', baseName: 'G2-336-fixture-de' }], ['irregular', DE, { locale: 'de', strings: WORST_CHROME, baseName: 'G2-336-worst-de' }],
+    ['choice', null, { locale: 'en', baseName: 'G2-337-en' }], ['choice', null, { locale: 'en', strings: WORST_CHROME, baseName: 'G2-337-worst-en' }], ['choice', DE, { locale: 'de', baseName: 'G2-337-fixture-de' }], ['choice', DE, { locale: 'de', strings: WORST_CHROME, baseName: 'G2-337-worst-de' }],
+    ['hunt', null, { locale: 'en', baseName: 'G2-338-en' }], ['hunt', null, { locale: 'en', strings: WORST_CHROME, baseName: 'G2-338-worst-en' }], ['hunt', DE, { locale: 'de', baseName: 'G2-338-fixture-de' }], ['hunt', DE, { locale: 'de', strings: WORST_CHROME, baseName: 'G2-338-worst-de' }],
+  ];
+  for (const [key, inj, job] of jobs) {
+    const r = key === 'irregular' ? await renderIrregular(page, inj, { difficulty: 2, ...job }) : await renderFace(page, key, inj, job);
+    note(!r.fails.length, `F ${job.baseName}: ${r.fails.slice(0, 6).join(' | ')}`);
+    const m = r.m || {};
+    const desc = key === 'irregular'
+      ? `${r.tables} table(s), ${r.cells.length} cells (${r.cells.filter((c) => c.state === 'gap').length} gaps), ${r.lanes.length} lanes`
+      : key === 'match' ? `${m.kind}: ${m.blocks.length} block(s) (${m.blocks.map((b) => b.left.length + '→' + b.right.length).join(', ')}), ${m.lanes.length} lanes, bot ${r.bot.hits}/${r.bot.n}`
+        : `${m.lanes.length} rows (${m.pictured} pictured; h ${[...new Set(m.lanes.map((l) => l.h))].join('/')}${key === 'choice' ? '; pills h ' + [...new Set(m.lanes.flatMap((l) => l.pills.map((p) => p.h)))].join('/') + ', idx ' + m.lanes.map((l) => l.idx).join('') : ''}${key === 'hunt' ? '; box ' + (m.lanes[0] && m.lanes[0].box ? m.lanes[0].box.w + 'x' + m.lanes[0].box.h : '?') : ''})`;
+    console.log(`[F] ${job.baseName}: body ${r.body || m.body}, instr lines ${r.instrLines || m.instrLines}, ${desc} → ${r.fails.length ? 'FAIL' : 'ok'}`);
+  }
+  // ---- seed sweeps (en d2): variety + the stem bot on every page
+  for (const key of ['match', 'sentences', 'irregular', 'choice', 'hunt']) {
+    const pages = new Set(), frames = new Set(), verbs = new Set(), orders = new Set();
+    let fails = 0, botMax = 0, idxAll = new Set();
+    for (let s = 1; s <= seeds; s++) {
+      const r = key === 'irregular' ? await renderIrregular(page, null, { difficulty: 2, locale: 'en', seedEpoch: s, baseName: `${FACE_IDS[key]}-sweep-s${s}` }) : await renderFace(page, key, null, { locale: 'en', seedEpoch: s, baseName: `${FACE_IDS[key]}-sweep-s${s}` });
+      if (r.fails.length) { fails++; failures.push(`F sweep ${key} seed ${s}: ${r.fails.slice(0, 4).join(' | ')}`); }
+      assertions_bump();
+      if (key === 'irregular') { pages.add(r.cells.map((c) => c.verb + '/' + c.col + ':' + c.state).join(',')); r.lanes.forEach((l) => { frames.add(l.frame); verbs.add(l.verb); }); }
+      else if (key === 'match') { const b = r.m.blocks[0]; pages.add(b.left.map((l) => l.verb).join(',')); orders.add(b.right.map((x) => x.text).join(',')); b.left.forEach((l) => verbs.add(l.verb)); botMax = Math.max(botMax, r.bot.hits); }
+      else { pages.add(r.m.lanes.map((l) => l.verb + '/' + l.frame).join(',')); r.m.lanes.forEach((l) => { frames.add(l.frame); verbs.add(l.verb); if (l.idx != null) idxAll.add(l.idx); }); }
+    }
+    note(pages.size > 1, `F sweep ${key}: the page is constant across ${seeds} seeds`);
+    if (key === 'match') { note(orders.size > 1, `F sweep match: the right-column order is constant`); note(verbs.size > 6, `F sweep match: only ${verbs.size} distinct verbs over ${seeds} seeds (the unpictured fill never varies)`); }
+    if (['sentences', 'choice', 'hunt', 'irregular'].includes(key)) note(frames.size >= 4, `F sweep ${key}: only ${frames.size} distinct frames`);
+    if (['sentences', 'choice', 'hunt'].includes(key)) note(verbs.size > 8, `F sweep ${key}: only ${verbs.size} distinct verbs over ${seeds} seeds`);
+    console.log(`[F] sweep ${key}: ${seeds} seeds, ${fails} fails, ${pages.size} distinct pages, ${verbs.size} verbs, ${frames.size} frames${key === 'match' ? `, ${orders.size} orders, bot max ${botMax}` : ''}${key === 'choice' ? `, idx ${[...idxAll].sort().join('')}` : ''}`);
+  }
+  // ---- poisons (each must FAIL; the un-poisoned render above is the control)
+  const silent = (f) => 'silent' + (f.length ? ' (failed for another reason: ' + f.slice(0, 2).join(' | ') + ')' : '');
+  const poisons = [];
+  const htmlPoison = (name, key, post, want, job) => poisons.push({ name, run: async () => {
+    const j = { locale: (job && job.locale) || 'en', seedEpoch: (job && job.seedEpoch) || 1, strings: job && job.strings, baseName: `${FACE_IDS[key]}-poison-` + name.replace(/[^a-z0-9]+/gi, '-').slice(0, 28).toLowerCase() };
+    const r = key === 'irregular' ? await renderIrregular(page, (job && job.inj) || null, { difficulty: 2, ...j }, { post }) : await renderFace(page, key, (job && job.inj) || null, j, { post });
+    return r.fails.some((x) => want.test(x)) ? null : silent(r.fails);
+  } });
+  const cfgPoison = (name, key, cfg, want, job) => poisons.push({ name, run: async () => {
+    const spec = loadType(FACE_IDS[key]);
+    const inj = { cfg: { ...spec.difficulty[2], ...cfg }, bank: job && job.inj && job.inj.bank };
+    const j = { locale: (job && job.locale) || 'en', strings: job && job.strings, baseName: `${FACE_IDS[key]}-poison-` + name.replace(/[^a-z0-9]+/gi, '-').slice(0, 28).toLowerCase() };
+    try {
+      const r = key === 'irregular' ? await renderIrregular(page, inj, { difficulty: 2, ...j }) : await renderFace(page, key, inj, j);
+      return r.fails.some((x) => want.test(x)) ? null : silent(r.fails);
+    } catch (e) { return want.test(e.message) ? null : 'wrong error: ' + e.message; }
+  } });
+  // P10 — the deferred one: strip every present distractor from the tense right column → the stem bot scores n/n
+  htmlPoison('P10 F2 tense right column without present distractors — stem bot', 'match',
+    (html) => need(html, /<div class="ws-match-item ws-match-item--plain" data-lcs-match-right="[^"]*" data-lcs-role="distractor" [^>]*>[\s\S]*?<\/span><\/div>/g, '', 'distractor items'), /stem bot \d+\/\d+/);
+  // P6 — the deferred one: a Face-5 pill outside the paradigm
+  htmlPoison('P6 F5 a candidate not in the paradigm', 'choice',
+    (html) => need(html, /data-lcs-pill="([a-z]+)"([^>]*)>\1</, 'data-lcs-pill="$1st"$2>$1st<', 'a pill'), /not in the paradigm/);
+  htmlPoison('PF2a F2 a target level with its own verb (derangement)', 'match', (html) => {
+    // move the FIRST left verb's past-form item to the head of the right column
+    const lv = /data-lcs-match-left="([a-z]+)"/.exec(html); if (!lv) throw new Error('poison needle matched nothing: left verb');
+    const re = new RegExp(`<div class="ws-match-item ws-match-item--plain" data-lcs-match-right="[^"]*" data-lcs-role="target" data-lcs-verb="${lv[1]}" [^>]*>[\\s\\S]*?<\\/span><\\/div>`);
+    const item = re.exec(html); if (!item) throw new Error('poison needle matched nothing: the target item');
+    const rest = html.replace(item[0], '');
+    return rest.replace(/(<div class="ws-match-col">)(<div class="ws-match-item ws-match-item--plain")/, `$1${item[0]}$2`);
+  }, /derangement/);
+  htmlPoison('PF2b F2 a hand-edited right form (node re-derivation)', 'match', (html) => need(html, /(data-lcs-match-right="([a-z]+)ed"[^>]*>[\s\S]*?<span data-lcs-match-text[^>]*>)\2ed</, '$1$2t<', 'an -ed target'), /prints ".*" \(stamp|prints ".*", the bank/);
+  htmlPoison('PF2c F2 a right item printing the infinitive (gap equals anchor)', 'match', (html) => {
+    const lv = /data-lcs-match-left="([a-z]+)"/.exec(html); if (!lv) throw new Error('poison needle matched nothing: left verb');
+    return need(html, /(data-lcs-role="distractor"[^>]*>[\s\S]*?<span data-lcs-match-text[^>]*>)[a-z]+</, `$1${lv[1]}<`, 'a distractor text');
+  }, /printed on the right|gap equals anchor/);
+  htmlPoison('PF2d F2 persons: a pronoun row without its form (one per column)', 'match', (html) => need(html, /data-lcs-match-right="[^"]*" data-lcs-role="target" data-lcs-col="([a-z]+)"/, 'data-lcs-match-right="x" data-lcs-role="target" data-lcs-col="zz"', 'a persons right item'), /right items for|want 1|col zz|missing or repeated|the bank/, { locale: 'de', inj: DE });
+  htmlPoison('PF3a F3 a chip that is not the infinitive', 'sentences', (html) => need(html, /(<span class="ws-nchip" data-lcs-hint[^>]*>)\(([a-z]+)\)/, '$1($2s)', 'a hint chip'), /is not the infinitive|chip/);
+  htmlPoison('PF3b F3 a verb twice on the page', 'sentences', (html) => { const rows = [...html.matchAll(/data-lcs-lane data-lcs-render="gap" data-lcs-verb="([a-z]+)"/g)]; if (rows.length < 2) throw new Error('poison needle matched nothing: two lanes'); return html.replace(rows[1][0], rows[0][0]); }, /twice on the page|does not fit/);
+  htmlPoison('PF3c F3 a lane sentence printing its form', 'sentences', (html) => need(html, /(data-lcs-form="([a-z]+)" data-lcs-frame="f\d+"[^>]*>[\s\S]*?<p data-lcs-sentence[^>]*>)/, '$1$2 ', 'a lane sentence'), /prints its form/);
+  htmlPoison('PF4a F4 a table verb outside the core', 'irregular', (html) => need(html, /data-lcs-row data-lcs-verb="go" data-lcs-inf="go"/, 'data-lcs-row data-lcs-verb="jump" data-lcs-inf="jump"', 'the go row'), /not in irregularCore|the bank says|no bank form/);
+  cfgPoison('PF4b F4 the core pool with 3 tables in persons mode (only 2 core verbs)', 'irregular', { tables: 3, verbsPerPage: 3 }, /REFUSED|outside the persons contract/, { locale: 'de', inj: DE });
+  htmlPoison('PF5a F5 the correct pill always first (index constant)', 'choice', (html) => {
+    // rewrite every row: put the correct pill first (stamp idx 0) — the page-side idx cover check fires
+    return html.replace(/<div class="ws-lane" data-lcs-lane data-lcs-render="choice" data-lcs-idx="\d"( [^>]*data-lcs-form="([a-z]+)"[^>]*>[\s\S]*?<div data-lcs-chips[^>]*>)([\s\S]*?)(<\/div><\/div><\/div>)/g, (m0, head, form, pills, tail) => {
+      const items = pills.match(/<span class="ws-pill"[\s\S]*?<\/span>/g) || [];
+      const correct = items.find((it) => new RegExp(`data-lcs-pill="${form}"`).test(it));
+      if (!correct) throw new Error('poison needle matched nothing: the correct pill');
+      return `<div class="ws-lane" data-lcs-lane data-lcs-render="choice" data-lcs-idx="0"${head}${[correct, ...items.filter((it) => it !== correct)].join('')}${tail}`;
+    });
+  }, /never sits at position/);
+  htmlPoison('PF5b F5 two identical pills', 'choice', (html) => need(html, /(<span class="ws-pill" data-lcs-pill="([a-z]+)"[^>]*>\2<\/span>)(<span class="ws-pill" data-lcs-pill=")[a-z]+("[^>]*>)[a-z]+(<\/span>)/, '$1$3$2$4$2$5', 'two pills'), /duplicate pill/);
+  htmlPoison('PF5c F5 the sentence printing a candidate', 'choice', (html) => need(html, /(data-lcs-form="([a-z]+)" data-lcs-frame="f\d+"[^>]*>[\s\S]*?<p data-lcs-sentence[^>]*>)/, '$1$2 ', 'a choice sentence'), /prints the candidate/);
+  htmlPoison('PF5d F5 the stamped idx disagreeing with the DOM', 'choice', (html) => need(html, /data-lcs-idx="0"/, 'data-lcs-idx="2"', 'an idx-0 row'), /stamped idx/);
+  htmlPoison('PF6a F6 the answer box carrying text', 'hunt', (html) => need(html, /(<span class="ws-blankbox" data-lcs-infbox[^>]*>)(<\/span>)/, '$1run$2', 'an answer box'), /box carries text|dashed box carries text/);
+  htmlPoison('PF6b F6 the printed form removed (0 occurrences)', 'hunt', (html) => need(html, /<span data-lcs-printed-form>[a-z]+<\/span>/, '<span data-lcs-printed-form></span>', 'a printed form'), /occurs 0 times|form span is not/);
+  htmlPoison('PF6c F6 a noun-homograph token in a sentence', 'hunt', (html) => need(html, /(<p data-lcs-sentence[^>]*>)/, '$1At the dance, ', 'a hunt sentence'), /noun-homograph/);
+  htmlPoison('PF6d F6 a hand-edited infinitive stamp', 'hunt', (html) => need(html, /data-lcs-verb="([a-z]+)" data-lcs-inf="\1"/, 'data-lcs-verb="$1" data-lcs-inf="$1x"', 'an inf stamp'), /inf stamp/);
+  htmlPoison('PF6e F6 a second bank verb form printed in the sentence', 'hunt', (html) => need(html, /(<p data-lcs-sentence[^>]*>)/, '$1Ben sleeps and ', 'a hunt sentence'), /another bank verb form|occurs 2 times/);
+  htmlPoison('PF1 F5 a pill squashed below 36', 'choice', (html) => need(html, /height:36px;padding:0 18px/g, 'height:24px;padding:0 18px', 'pills'), /< 36|want 36/);
+  cfgPoison('PB1 F5 rowMin 120 under the worst chrome (the old 84-row stack)', 'choice', { rowMin: 120, rowMax: 120 }, /outside the body|overflow|footer overlap|clipped/, { strings: WORST_CHROME });
+  cfgPoison('PB2 F2 tense left items 130 high under the worst chrome', 'match', { mTense: { ...loadType(FACE_IDS.match).difficulty[2].mTense, leftH: 130 } }, /outside the body|overflow|footer overlap|clipped/, { strings: WORST_CHROME });
+  cfgPoison('PB3 F3 a pictured floor of 7 over 6 pictured verbs (refused)', 'sentences', { pictured: 7 }, /REFUSED|pictured/, {});
+  cfgPoison('PB4 F5 nine candidates over eight rows (the index cannot cover)', 'choice', { candidates: 9 }, /cannot cover|REFUSED/, {});
+  let killed = 0;
+  for (const p of poisons) {
+    let res;
+    try { res = await p.run(); } catch (e) { res = 'threw: ' + e.message; }
+    if (res == null) { killed++; console.log(`[F] killed  ${p.name}`); } else { failures.push(`F ${p.name}: ${res}`); console.log(`[F] SILENT  ${p.name}: ${res}`); }
+    assertions_bump();
+  }
+  note(killed === poisons.length, `${poisons.length - killed} face poison(s) survived`);
+  return { poisons: poisons.length, killed };
+}
+let _assertionsBump = () => {};
+function assertions_bump() { _assertionsBump(); }
+
 async function main() {
   const locales = arg('locales', 'en').split(',');
   const seeds = +arg('seeds', QUICK ? 6 : 20);
@@ -464,6 +852,7 @@ async function main() {
   let assertions = 0;
   const failures = [];
   const note = (ok, msg) => { assertions++; if (!ok) failures.push(msg); };
+  _assertionsBump = () => { assertions++; };
   const bankAll = loadBank();
   fs.mkdirSync(OUT, { recursive: true });
   const browser = await puppeteer.launch({ headless: 'new' });
@@ -588,9 +977,13 @@ async function main() {
       assertions++;
     }
     note(killed === poisons.length, `${poisons.length - killed} poison(s) survived`);
+    // ---- F. the faces (Phase 2) — incl. the two poisons the base deferred (P6, P10)
+    fs.mkdirSync(OUT_F, { recursive: true });
+    const F = await runFaces(page, note, failures, seeds, bankAll);
     const verdict = failures.length === 0;
     failures.forEach((f) => console.log('FAIL ' + f));
-    console.log(`${ID} gate: ${assertions} assertions, ${failures.length} failures, poisons ${killed}/${poisons.length} killed (${deferred.length} deferred to the faces) → ${verdict ? 'PASS' : 'FAIL'}`);
+    const pk = killed + F.killed, pn = poisons.length + F.poisons;
+    console.log(`${ID} gate: ${verdict ? 'PASS' : 'FAIL'} (${assertions} assertions, ${pk}/${pn} poisons killed; base ${killed}/${poisons.length} + faces ${F.killed}/${F.poisons}, the ${deferred.length} deferred now land in the faces)`);
     process.exitCode = verdict ? 0 : 1;
   } finally {
     await browser.close();

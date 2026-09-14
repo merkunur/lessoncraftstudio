@@ -38,14 +38,35 @@
  *       (Face 5). `hint` (the infinitive) → a `.ws-nchip` h 30 Baloo 2 700 16
  *       teal `(run)` after the sentence. Stamps data-lcs-lane data-lcs-render
  *       + the caller's `attrs` (verb / col / form / frame).
- *   formMatch({left, right, order, itemH=56, itemW=250, w, attrs})
+ *       Phase 2 (faces; ADDITIVE, absent = today's markup byte-for-byte):
+ *       `padding` (an inline override of the .ws-lane padding), `lineHeight`
+ *       (1.3), `chipsGap` (6), `pillPx` / `pillH` / `pillPad` (Face 5 pills —
+ *       pillH set → own fixed-height markup, else the shared pillChoice),
+ *       `answerBox {w,h}` (Face 6: a right-aligned dashed box on line 2, stamped
+ *       data-lcs-infbox), `idx` (stamped data-lcs-idx = the correct pill's
+ *       position, Face 5). render 'choice' refuses < 2 chips or a duplicate chip.
+ *   formMatch({left, right, order, itemH=56, itemW=250, w, attrs, padY=6,
+ *              padX=30, leftW, rightW, leftH, rightH, fontPx=20, leftPad=14,
+ *              iconPx})
  *       Face 2 (Phase 2): the lit-letter-knowledge match markup — a `.ws-match`
- *       with two `.ws-match-col`; left items {label, src?} carry a right dot,
- *       right items {form, role:'target'|'distractor'} a left dot, rendered in
- *       `order` (a derangement the caller computed). The right column may hold
- *       2n items (tense mode: past + present of each verb). Left stamps
- *       data-lcs-match-left="<label>", right data-lcs-match-right="<form>"
- *       data-lcs-role. Not exercised by the base page.
+ *       with two `.ws-match-col`; left items {label, src?, spacer?, attrs?} (spacer
+ *       = an iconPx blank where an unpictured label keeps the pictured rows'
+ *       alignment) carry a right
+ *       dot, right items {form, role:'target'|'distractor', attrs?} a left dot,
+ *       rendered in `order` (a derangement the caller computed). The right
+ *       column may hold 2n items (tense mode: past + present of each verb).
+ *       Left stamps data-lcs-match-left="<label>", right
+ *       data-lcs-match-right="<form>" data-lcs-role; every text span stamps
+ *       data-lcs-match-text (the gate measures it against its item). Per-column
+ *       width / height (leftW rightW leftH rightH) fall back to itemW / itemH;
+ *       padY / padX are the .ws-match padding. Not exercised by the base page.
+ *   matchBlock({header:{inf, src}|null, w=330, headerH=60, iconPx=44, verb,
+ *               inf, match})
+ *       Face 2: a bordered block (border 2 teal r 14, white, `w`) = an optional
+ *       header strip (headerH on tealSoft: the action picture + the infinitive
+ *       Baloo 2 700 22 teal; header:null = no strip, the tense face) + a
+ *       formMatch body (`match` = its options). Stamps data-lcs-matchblock
+ *       data-lcs-verb data-lcs-inf; the header's infinitive stamps data-lcs-inf.
  */
 'use strict';
 const tokens = require('../../primitives/_tokens.js');
@@ -118,11 +139,13 @@ function verbTable(o) {
   throw new Error(`verbTable: mode "${o.mode}"`);
 }
 
-function sentenceGap({ src, text, gapW = 170, gapH = 38, hint, render = 'gap', chips = [], form, minH, attrs = '' }) {
+function sentenceGap({ src, text, gapW = 170, gapH = 38, hint, render = 'gap', chips = [], form, minH, attrs = '', padding, lineHeight = 1.3, chipsGap = 6, pillPx = 20, pillH, pillPad = 18, answerBox, idx }) {
   const n = (String(text).match(FORM_SLOT) || []).length;
   if (n !== 1) throw new Error(`sentenceGap: text must carry {form} exactly once ("${text}")`);
   if (!['gap', 'text', 'choice'].includes(render)) throw new Error(`sentenceGap: render "${render}"`);
   if (render === 'text' && !form) throw new Error('sentenceGap: render "text" needs the form');
+  if (render === 'choice' && (!Array.isArray(chips) || chips.length < 2)) throw new Error('sentenceGap: render "choice" needs >= 2 chips');
+  if (render === 'choice' && new Set(chips.map((c) => String(c).trim().toLocaleLowerCase())).size !== chips.length) throw new Error('sentenceGap: duplicate chips');
   const slot = render === 'text'
     ? `<span data-lcs-printed-form>${esc(form)}</span>`
     : `<span class="ws-blankbox" data-lcs-gapbox style="width:${gapW}px;height:${gapH}px;vertical-align:middle;margin:0 4px"></span>`;
@@ -132,26 +155,51 @@ function sentenceGap({ src, text, gapW = 170, gapH = 38, hint, render = 'gap', c
   const pic = src
     ? `<img class="ws-icon" src="${src}" alt="" data-lcs-lanepic style="width:56px;height:56px;flex:0 0 56px">`
     : `<span data-lcs-nopic style="display:inline-block;width:56px;height:56px"></span>`;
+  // Face 5 pills: pillH set → own fixed-height markup (the row budget is measured against it); absent → the shared pillChoice (b2)
   const pills = render === 'choice' && chips.length
-    ? `<div data-lcs-chips style="margin-top:6px">${pillChoice({ items: chips.map((c) => ({ key: c, label: c })), fontPx: 20 })}</div>` : '';
-  return `<div class="ws-lane" data-lcs-lane data-lcs-render="${render}" ${attrs} style="display:grid;grid-template-columns:56px 1fr;column-gap:12px;align-items:center;min-width:0${minH ? ';min-height:' + minH + 'px' : ''}">` +
-    pic + `<div style="min-width:0"><p data-lcs-sentence style="margin:0;font-family:${F.body},sans-serif;font-weight:800;font-size:19px;line-height:1.3;color:${T.ink}">${sentence}${chip}</p>${pills}</div></div>`;
+    ? (pillH
+      ? `<div data-lcs-chips style="margin-top:${chipsGap}px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap">` +
+        chips.map((c) => `<span class="ws-pill" data-lcs-pill="${esc(c)}" style="font-size:${pillPx}px;height:${pillH}px;padding:0 ${pillPad}px;line-height:1;white-space:nowrap">${esc(c)}</span>`).join('') + `</div>`
+      : `<div data-lcs-chips style="margin-top:${chipsGap}px">${pillChoice({ items: chips.map((c) => ({ key: c, label: c })), fontPx: pillPx })}</div>`)
+    : '';
+  // Face 6: a right-aligned dashed box on line 2 (the child writes the base form)
+  const answer = render === 'text' && answerBox
+    ? `<div data-lcs-answer style="display:flex;justify-content:flex-end;margin-top:${chipsGap}px"><span class="ws-blankbox" data-lcs-infbox style="width:${answerBox.w}px;height:${answerBox.h}px"></span></div>`
+    : '';
+  const idxAttr = idx != null ? ` data-lcs-idx="${idx}"` : '';
+  return `<div class="ws-lane" data-lcs-lane data-lcs-render="${render}"${idxAttr} ${attrs} style="display:grid;grid-template-columns:56px 1fr;column-gap:12px;align-items:center;min-width:0${minH ? ';min-height:' + minH + 'px' : ''}${padding ? ';padding:' + padding : ''}">` +
+    pic + `<div style="min-width:0"><p data-lcs-sentence style="margin:0;font-family:${F.body},sans-serif;font-weight:800;font-size:19px;line-height:${lineHeight};color:${T.ink}">${sentence}${chip}</p>${pills}${answer}</div></div>`;
 }
 
-function formMatch({ left, right, order, itemH = 56, itemW = 250, w, attrs = '' }) {
+function formMatch({ left, right, order, itemH = 56, itemW = 250, w, attrs = '', padY = 6, padX = 30, leftW, rightW, leftH, rightH, fontPx = 20, leftPad = 14, iconPx }) {
   if (!Array.isArray(left) || !left.length || !Array.isArray(right) || !right.length) throw new Error('formMatch: left and right are required');
   const ord = Array.isArray(order) ? order : right.map((_, i) => i);
   if (ord.length !== right.length || new Set(ord).size !== ord.length) throw new Error('formMatch: order must be a permutation of the right items');
+  const lw = leftW || itemW, rw = rightW || itemW, lh = leftH || itemH, rh = rightH || itemH;
+  const ip = iconPx || Math.min(44, lh - 12);
   const L = left.map((it) =>
-    `<div class="ws-match-item" data-lcs-match-left="${esc(it.label)}" style="width:${itemW}px;height:${itemH}px;gap:10px;justify-content:flex-start;padding:0 14px">` +
-    (it.src ? `<img class="ws-icon" src="${it.src}" alt="" style="width:${Math.min(44, itemH - 12)}px;height:${Math.min(44, itemH - 12)}px">` : '') +
-    `<span style="font-family:${F.body},sans-serif;font-weight:800;font-size:20px;color:${T.ink};white-space:nowrap">${esc(it.label)}</span>` +
+    `<div class="ws-match-item" data-lcs-match-left="${esc(it.label)}" ${it.attrs || ''} style="width:${lw}px;height:${lh}px;gap:10px;justify-content:flex-start;padding:0 ${leftPad}px">` +
+    (it.src ? `<img class="ws-icon" src="${it.src}" alt="" style="width:${ip}px;height:${ip}px;flex:0 0 ${ip}px">` : it.spacer ? `<span data-lcs-nopic style="display:inline-block;width:${ip}px;height:${ip}px;flex:0 0 ${ip}px"></span>` : '') +
+    `<span data-lcs-match-text style="font-family:${F.body},sans-serif;font-weight:800;font-size:${fontPx}px;color:${T.ink};white-space:nowrap;min-width:0">${esc(it.label)}</span>` +
     `<span class="ws-match-dot ws-match-dot--right"></span></div>`).join('');
   const R = ord.map((i) => right[i]).map((it) =>
-    `<div class="ws-match-item ws-match-item--plain" data-lcs-match-right="${esc(it.form)}" data-lcs-role="${esc(it.role || 'target')}" style="width:${itemW}px;height:${itemH}px">` +
+    `<div class="ws-match-item ws-match-item--plain" data-lcs-match-right="${esc(it.form)}" data-lcs-role="${esc(it.role || 'target')}" ${it.attrs || ''} style="width:${rw}px;height:${rh}px">` +
     `<span class="ws-match-dot ws-match-dot--left"></span>` +
-    `<span style="font-family:${F.body},sans-serif;font-weight:800;font-size:20px;color:${T.ink};white-space:nowrap">${esc(it.form)}</span></div>`).join('');
-  return `<div class="ws-match" data-lcs-match data-ws-content ${attrs} style="padding:6px 30px${w ? ';width:' + w + 'px' : ''}"><div class="ws-match-col">${L}</div><div class="ws-match-col">${R}</div></div>`;
+    `<span data-lcs-match-text style="font-family:${F.body},sans-serif;font-weight:800;font-size:${fontPx}px;color:${T.ink};white-space:nowrap;min-width:0">${esc(it.form)}</span></div>`).join('');
+  return `<div class="ws-match" data-lcs-match data-ws-content ${attrs} style="padding:${padY}px ${padX}px${w ? ';width:' + w + 'px' : ''}"><div class="ws-match-col">${L}</div><div class="ws-match-col">${R}</div></div>`;
 }
 
-module.exports = { verbTable, sentenceGap, formMatch };
+function matchBlock({ header, w = 330, headerH = 60, iconPx = 44, verb, inf, match }) {
+  if (!match) throw new Error('matchBlock: match options are required');
+  const head = header
+    ? `<div data-lcs-thead style="display:flex;align-items:center;gap:12px;height:${headerH}px;flex:0 0 ${headerH}px;padding:0 12px;background:${T.tealSoft};border-radius:12px 12px 0 0">` +
+      (header.src
+        ? `<img class="ws-icon" src="${header.src}" alt="" data-lcs-pic="${esc(verb || header.inf)}" style="width:${iconPx}px;height:${iconPx}px;flex:0 0 ${iconPx}px">`
+        : `<span data-lcs-nopic style="display:inline-block;width:${iconPx}px;height:${iconPx}px;flex:0 0 ${iconPx}px"></span>`) +
+      `<span data-lcs-inf style="font-family:${F.display},cursive;font-weight:700;font-size:22px;line-height:1.1;color:${T.teal};min-width:0">${esc(header.inf)}</span></div>`
+    : '';
+  const v = verb || (header && header.inf) || '';
+  return `<div data-lcs-matchblock data-lcs-verb="${esc(v)}" data-lcs-inf="${esc(inf || v)}" style="width:${w}px;flex:1 1 ${w}px;min-width:0;display:flex;flex-direction:column;background:${T.white};border:2px solid ${T.teal};border-radius:14px;overflow:hidden">${head}${formMatch(match)}</div>`;
+}
+
+module.exports = { verbTable, sentenceGap, formMatch, matchBlock };

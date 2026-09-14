@@ -476,6 +476,13 @@ module.exports = {
     const pad = 8, inner = cardW - 2 * pad - 4;
     const heroSz = d.miniHero || 120, pic = d.miniPic || 100, bannerH = d.miniBanner || 44, rowH = d.miniRowH || 34;
     if (pic < G23_FLOOR) throw new Error(`G2-318: compare picture ${pic} < the G2-3 floor ${G23_FLOOR}`);
+    // The label column takes the LONGEST printed label: at 14 px Nunito 800 a glyph runs ~7.8 px, and
+    // the fixed 120 px column let pt "Cobertura do corpo" (18) run into its value ("Cobertura do corpocasco",
+    // read off the pt contact sheet 2026-09-14); fr "Ce qui couvre son corps" (23) and no "Kroppen er dekket av"
+    // (20) overflowed the same way. The value column keeps >= 110 px or the face refuses the locale.
+    const longest = Math.max(...d.fields.map((f) => len(literal(bankLoc, 'labels.' + f, loc))));
+    const miniLabelW = Math.max(d.miniLabelW || 120, Math.ceil(longest * 7.8) + 20);
+    if (inner - miniLabelW < 110) throw new Error(`G2-318: ${loc} compare label column ${miniLabelW} px leaves ${inner - miniLabelW} px for the value (< 110) — a shorter label is needed (refusal)`);
     const cards = pair.map((k) => {
       const n = nouns.find((x) => x.vocabKey === k);
       const a = table.animals[k], l = bankLoc.animals[k];
@@ -484,7 +491,7 @@ module.exports = {
       return `<div data-lcs-file="${esc(k)}" style="width:${cardW}px;padding:${pad}px;background:${T.white};border:2px solid ${T.teal};border-radius:14px;display:flex;flex-direction:column;align-items:center;gap:6px;min-width:0">` +
         heroFrame({ src: fileUri(theme, n.noun), size: heroSz, pic, noun: n.noun, unit: k }) +
         nameBanner({ name: l.name, w: inner, h: bannerH, fontPx: d.miniNamePx || 26, minPx: 22, longAt: 13 }) +
-        miniFactFile({ rows, w: inner, rowH, labelW: d.miniLabelW || 120, labelPx: 14, valuePx: 16 }) + '</div>';
+        miniFactFile({ rows, w: inner, rowH, labelW: miniLabelW, labelPx: 14, valuePx: 16 }) + '</div>';
     });
     const sd = bankLoc.sameDiff || {};
     for (const k of ['same', 'diff', 'laneSame', 'laneDiff', 'caption']) literal(bankLoc, 'sameDiff.' + k, loc);
@@ -668,7 +675,7 @@ function VERIFY_CARD(face) {
             const f = r.dataset.lcsField;
             const lab = r.querySelector('[data-lcs-label-text]'), val = r.querySelector('[data-lcs-printed]');
             if (!lab || !lab.textContent.trim()) fails.push(`printed row ${f}: no label`);
-            else if (lab.scrollWidth > lab.clientWidth + 0.6) fails.push(`printed row ${f}: label clipped`);
+            else { const cell = lab.closest('[data-lcs-mini-label]'), lr = rect(lab), cr = rect(cell); const padR = parseFloat(getComputedStyle(cell).paddingRight) || 0; if (lr.right > cr.right - padR + 0.6) fails.push(`printed row ${f}: label "${lab.textContent.trim()}" runs ${Math.round(lr.right - (cr.right - padR))} px past its column into the value`); }
             if (!val || !val.textContent.trim()) fails.push(`printed row ${f}: no printed value`);
             else {
               if (val.textContent.trim() !== r.dataset.lcsValue) fails.push(`printed row ${f}: text "${val.textContent.trim()}" ≠ stamp "${r.dataset.lcsValue}"`);
@@ -937,7 +944,15 @@ function VERIFY_COMPARE() {
         if (val.scrollWidth > val.clientWidth + 0.6) fails.push(`file ${k} row ${fld}: value clipped`);
         const vr = rect(val); if (vr.right > fr.right + 0.6 || vr.bottom > fr.bottom + 0.6) fails.push(`file ${k} row ${fld}: the value leaves the card`);
       }
-      if (!lab || lab.scrollWidth > lab.clientWidth + 0.6) fails.push(`file ${k} row ${fld}: label missing/clipped`);
+      if (!lab || !lab.textContent.trim()) fails.push(`file ${k} row ${fld}: label missing`);
+      else {
+        // a nowrap span grows past its cell without ever clipping (scrollWidth == clientWidth), so the
+        // old check could not see "Cobertura do corpocasco" — measure the span against its own cell
+        const cell = lab.closest('[data-lcs-mini-label]'), lr = rect(lab), cr = rect(cell);
+        const padR = parseFloat(getComputedStyle(cell).paddingRight) || 0;
+        if (lr.right > cr.right - padR + 0.6) fails.push(`file ${k} row ${fld}: label "${lab.textContent.trim()}" runs ${Math.round(lr.right - (cr.right - padR))} px past its column into the value`);
+      }
+      if (val) { const vc = val.closest('[data-lcs-mini-value]'), vr2 = rect(val), vcr = rect(vc); if (vr2.right > vcr.right + 0.6 || vr2.left < vcr.left - 0.6) fails.push(`file ${k} row ${fld}: value "${val.textContent.trim()}" leaves its column`); }
       const stamp = r.getAttribute('data-lcs-fact-' + fld);
       if (!stamp || stamp === 'null') fails.push(`file ${k} row ${fld}: no fact stamp`);
       values[k][fld] = stamp;

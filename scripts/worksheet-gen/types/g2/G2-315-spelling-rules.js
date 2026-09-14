@@ -471,6 +471,20 @@ module.exports = {
     const picks = rng.shuffle(sampleEntries(rng, pool, f.rows, ID));
     const seenK = new Set();
     for (const p of picks) { if (seenK.has(p.vocabKey)) throw new Error(`${ID}: duplicate vocab key on the page: ${p.vocabKey}`); seenK.add(p.vocabKey); }
+    // Every plural ending the page asks for must be one of the rule-box chips: es
+    // "plural-tilde" authored chip "ones ines" over cands [ones ines enes anes uses], so
+    // a page with tucán → tucanes and autobús → autobuses offered no chip a child could
+    // copy (read off the es contact sheet, 2026-09-14). A pick whose gapped ending is
+    // not a chip is a refusal, never a page.
+    // A rule may instead declare `chipsAreExamples: true` — its chips MODEL the pattern
+    // (da flertal-dobbelt "tte kker" over sser/pper/kke…, fi astevaihtelu "kat tut put"
+    // over kot/kit/tit…) and the child applies the rule; then the endings need not be chips.
+    if (!rule.chipsAreExamples) {
+      for (const p of picks) {
+        const ending = (p.gaps || []).map((g) => [...p.plural].slice(g.from, g.from + g.len).join('')).join('');
+        if (ending && !chips.includes(ending)) throw new Error(`${ID}: rule ${ruleId}/${loc} plural "${p.plural}" needs the ending "${ending}" but the rule chips are [${chips.join(' ')}] — REFUSED (author the chip, drop the item, or declare chipsAreExamples)`);
+      }
+    }
     const modelPills = models.map((m) => {
       if (!m.plural) throw new Error(`${ID}: plural model "${m.word}" has no plural — REFUSED`);
       return { src: pictureOf(m, loc), lead: displayWord(m.word, loc, bank.capital), word: displayWord(m.plural, loc, bank.capital), gaps: m.gaps };

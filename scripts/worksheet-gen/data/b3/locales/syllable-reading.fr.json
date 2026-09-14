@@ -81,16 +81,6 @@
             "mou",
             "ton"
           ]
-        },
-        {
-          "key": "musician",
-          "word": "musicien",
-          "unit": "mu",
-          "split": [
-            "mu",
-            "si",
-            "cien"
-          ]
         }
       ]
     },
@@ -108,15 +98,6 @@
       ],
       "readOnly": [],
       "words": [
-        {
-          "key": "lettuce",
-          "word": "laitue",
-          "unit": "lai",
-          "split": [
-            "lai",
-            "tue"
-          ]
-        },
         {
           "key": "rabbit",
           "word": "lapin",
@@ -1602,14 +1583,6 @@
       ]
     },
     {
-      "key": "lettuce",
-      "word": "laitue",
-      "split": [
-        "lai",
-        "tue"
-      ]
-    },
-    {
       "key": "rabbit",
       "word": "lapin",
       "split": [
@@ -1722,15 +1695,6 @@
       "split": [
         "mou",
         "ton"
-      ]
-    },
-    {
-      "key": "musician",
-      "word": "musicien",
-      "split": [
-        "mu",
-        "si",
-        "cien"
       ]
     },
     {
@@ -2172,73 +2136,75 @@
     }
   ],
   "ban": [
-    "brown",
-    "crimson",
-    "excited",
-    "happy",
-    "surprised",
+    "aster",
+    "author",
     "bacon",
     "bagel",
+    "baking",
     "baseball",
     "basketball",
+    "brown",
     "brownie",
     "bulldozer",
     "camping",
+    "cardigan",
+    "chin",
+    "columbine",
+    "crimson",
+    "crocus",
+    "delivery",
+    "duckling",
+    "excited",
+    "eyebrow",
+    "falcon",
     "ferry",
+    "finch",
     "frisbee",
     "hamburger",
-    "leggings",
-    "muffin",
-    "popcorn",
-    "pudding",
-    "rudolph",
-    "author",
-    "baking",
-    "delivery",
-    "hiking",
-    "jumping",
-    "swimming",
-    "lifeguard",
-    "pottery",
-    "stamp",
-    "timer",
-    "slippers",
-    "pants",
-    "turnip",
-    "pelican",
-    "subway",
-    "mixer",
-    "stretcher",
-    "orchard",
-    "liberty",
-    "parsnip",
-    "aster",
-    "columbine",
-    "crocus",
+    "happy",
+    "heel",
     "hibiscus",
+    "hiking",
     "jasmine",
+    "jumping",
+    "jupiter",
+    "knee",
+    "leggings",
+    "lettuce",
+    "liberty",
+    "lifeguard",
     "lilac",
     "lotus",
-    "marigold",
-    "orchid",
-    "chin",
-    "eyebrow",
-    "heel",
-    "knee",
-    "toe",
-    "wrist",
-    "falcon",
-    "finch",
-    "sparrow",
-    "jupiter",
-    "venus",
-    "duckling",
-    "pretzels",
-    "cardigan",
-    "onion",
     "manatee",
+    "marigold",
+    "mixer",
+    "muffin",
+    "musician",
+    "onion",
+    "orchard",
+    "orchid",
+    "pants",
+    "parsnip",
+    "pelican",
+    "popcorn",
+    "pottery",
+    "pretzels",
+    "pudding",
     "puffin",
-    "toad"
+    "rudolph",
+    "slippers",
+    "sparrow",
+    "stamp",
+    "stretcher",
+    "subway",
+    "surprised",
+    "swimming",
+    "timer",
+    "toad",
+    "toe",
+    "turnip",
+    "venus",
+    "wrist"
   ],
   "whitelist": {},
   "refuse": {

@@ -375,7 +375,7 @@
   },
   "G2-333": {
    "title": "Diminutivos y aumentativos: -ito y -ote",
-   "instruction": "Fíjate en el tamaño del dibujo. Si es pequeño, escribe la palabra con -ito; si es grande, escríbela con -ote."
+   "instruction": "Fíjate en el tamaño del dibujo. Si es pequeño, escribe la palabra con -ito o -ita; si es grande, escríbela con -ote u -ota."
   },
   "G2-317": {
    "title": "Conjugar verbos en presente",
@@ -18609,14 +18609,6 @@
      ]
     },
     {
-     "key": "leggings",
-     "word": "leggings",
-     "split": [
-      "leg",
-      "gings"
-     ]
-    },
-    {
      "key": "lemon",
      "word": "limón",
      "split": [
@@ -20040,6 +20032,7 @@
     "knee",
     "lavender",
     "leg",
+    "leggings",
     "liberty",
     "lilac",
     "lily",
@@ -26583,7 +26576,7 @@
     "plural-tilde": {
      "id": "plural-tilde",
      "head": "de -ón a -ones",
-     "chip": "ones ines",
+     "chip": "ones ines anes",
      "band": "G2",
      "gap": {
       "kind": "plural",
@@ -26594,9 +26587,7 @@
      "cands": [
       "ones",
       "ines",
-      "enes",
-      "anes",
-      "uses"
+      "anes"
      ],
      "pair": null,
      "proof": {
@@ -26827,22 +26818,6 @@
        "pluralGap": null
       },
       {
-       "theme": "around the house",
-       "noun": "pan",
-       "vocabKey": "pan",
-       "word": "sartén",
-       "gaps": [
-        {
-         "from": 4,
-         "len": 4
-        }
-       ],
-       "g": "enes",
-       "side": "rule",
-       "plural": "sartenes",
-       "pluralGap": null
-      },
-      {
        "theme": "ocean life",
        "noun": "shark",
        "vocabKey": "shark",
@@ -26952,22 +26927,6 @@
        "g": "ines",
        "side": "rule",
        "plural": "violines",
-       "pluralGap": null
-      },
-      {
-       "theme": "vehicles",
-       "noun": "bus",
-       "vocabKey": "bus",
-       "word": "autobús",
-       "gaps": [
-        {
-         "from": 5,
-         "len": 4
-        }
-       ],
-       "g": "uses",
-       "side": "rule",
-       "plural": "autobuses",
        "pluralGap": null
       },
       {
@@ -29176,18 +29135,6 @@
      }
     },
     {
-     "vocabKey": "lollipop",
-     "word": "paleta",
-     "looksLike": [
-      "pal",
-      "eta"
-     ],
-     "pic": {
-      "theme": "desserts and sweets",
-      "noun": "lollipop"
-     }
-    },
-    {
      "vocabKey": "cookie",
      "word": "galleta",
      "looksLike": [
@@ -29197,18 +29144,6 @@
      "pic": {
       "theme": "bakery",
       "noun": "cookie"
-     }
-    },
-    {
-     "vocabKey": "colander",
-     "word": "colador",
-     "looksLike": [
-      "col",
-      "ador"
-     ],
-     "pic": {
-      "theme": "kitchen tools",
-      "noun": "colander"
      }
     },
     {

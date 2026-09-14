@@ -356,18 +356,6 @@
       }
     },
     {
-      "vocabKey": "lollipop",
-      "word": "paleta",
-      "looksLike": [
-        "pal",
-        "eta"
-      ],
-      "pic": {
-        "theme": "desserts and sweets",
-        "noun": "lollipop"
-      }
-    },
-    {
       "vocabKey": "cookie",
       "word": "galleta",
       "looksLike": [
@@ -377,18 +365,6 @@
       "pic": {
         "theme": "bakery",
         "noun": "cookie"
-      }
-    },
-    {
-      "vocabKey": "colander",
-      "word": "colador",
-      "looksLike": [
-        "col",
-        "ador"
-      ],
-      "pic": {
-        "theme": "kitchen tools",
-        "noun": "colander"
       }
     },
     {

@@ -5,6 +5,9 @@
  */
 'use strict';
 const tokens = require('../primitives/_tokens.js');
+const freeClaim = require('../../lib/free-claim.js');
+
+freeClaim.selfTest();   // a ban is trusted only after it fires on MUST_FIRE and stays silent on MUST_PASS
 
 const PALETTE = new Set([
   ...Object.values(tokens.color).map((c) => c.toUpperCase()),
@@ -14,9 +17,9 @@ const PALETTE = new Set([
   ...Object.values(tokens.codeColors || {}).map((c) => c.toUpperCase()),
 ]);
 
-function runLints(page, { gradeBand }) {
+async function runLints(page, { gradeBand }) {
   const density = tokens.density[gradeBand] || tokens.density.K;
-  return page.evaluate(({ palette: paletteArr, density }) => {
+  const fails = await page.evaluate(({ palette: paletteArr, density }) => {
     const palette = new Set(paletteArr);
     const fails = [];
     const pageEl = document.querySelector('[data-lcs-page]');
@@ -96,6 +99,17 @@ function runLints(page, { gradeBand }) {
 
     return fails;
   }, { palette: Array.from(PALETTE), density });
+
+  // 5. visible copy never claims "free" (operator ruling 2026-09-14: the free
+  // tier grants 3 PDF downloads a month, so SEO METADATA may say "free
+  // printable" — the printed sheet, which the child and teacher SEE, may not).
+  // Price words + carrier collocations per locale; bare frei/vrij/fritt stay
+  // legal (scripts/lib/free-claim.js, self-tested both directions on load).
+  // Measured 2026-09-14: 0 hits across all 10,444 live sheet strings.
+  const visible = await page.evaluate(() => ((document.querySelector('.ws-page') || document.body).innerText || ''));
+  const claim = freeClaim.hit(visible);
+  if (claim) fails.push(`visible copy claims free ("${claim}") — metadata only, never on the sheet`);
+  return fails;
 }
 
 module.exports = { runLints };

@@ -1,0 +1,105 @@
+{
+ "measured": "2026-09-14",
+ "note": "visible-field free-claims per landing locale (h1/eyebrow/strand/p1-p3) — a RATCHET: a locale may only go DOWN; new landings must be clean (operator ruling 2026-09-14: metadata may say free, visible copy may not). The live counts are a pre-existing corpus-wide finding surfaced to the operator.",
+ "counts": {
+  "en": {
+   "h1": 0,
+   "eyebrow": 0,
+   "strand": 0,
+   "p1": 472,
+   "p2": 382,
+   "p3": 3707,
+   "pages": 3734
+  },
+  "de": {
+   "h1": 0,
+   "eyebrow": 0,
+   "strand": 0,
+   "p1": 132,
+   "p2": 167,
+   "p3": 2413,
+   "pages": 2420
+  },
+  "es": {
+   "h1": 0,
+   "eyebrow": 0,
+   "strand": 0,
+   "p1": 161,
+   "p2": 176,
+   "p3": 2363,
+   "pages": 2384
+  },
+  "pt": {
+   "h1": 0,
+   "eyebrow": 0,
+   "strand": 0,
+   "p1": 1650,
+   "p2": 1537,
+   "p3": 2704,
+   "pages": 3018
+  },
+  "fr": {
+   "h1": 0,
+   "eyebrow": 0,
+   "strand": 0,
+   "p1": 834,
+   "p2": 1798,
+   "p3": 2933,
+   "pages": 2946
+  },
+  "it": {
+   "h1": 0,
+   "eyebrow": 0,
+   "strand": 0,
+   "p1": 522,
+   "p2": 475,
+   "p3": 1898,
+   "pages": 1961
+  },
+  "nl": {
+   "h1": 0,
+   "eyebrow": 0,
+   "strand": 0,
+   "p1": 74,
+   "p2": 1021,
+   "p3": 2861,
+   "pages": 2876
+  },
+  "sv": {
+   "h1": 0,
+   "eyebrow": 0,
+   "strand": 0,
+   "p1": 123,
+   "p2": 96,
+   "p3": 2917,
+   "pages": 2925
+  },
+  "da": {
+   "h1": 0,
+   "eyebrow": 0,
+   "strand": 0,
+   "p1": 54,
+   "p2": 1898,
+   "p3": 2962,
+   "pages": 2963
+  },
+  "no": {
+   "h1": 0,
+   "eyebrow": 0,
+   "strand": 0,
+   "p1": 1370,
+   "p2": 2442,
+   "p3": 3018,
+   "pages": 3019
+  },
+  "fi": {
+   "h1": 0,
+   "eyebrow": 0,
+   "strand": 0,
+   "p1": 2256,
+   "p2": 2168,
+   "p3": 2973,
+   "pages": 2980
+  }
+ }
+}

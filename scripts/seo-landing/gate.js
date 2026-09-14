@@ -13,6 +13,18 @@ const IS_FI = /\bfi\.json$/.test(path.replace(/\\/g, '/'));
 const data = JSON.parse(fs.readFileSync(path, 'utf8'));
 const pages = data.landings;
 
+// ---- visible-copy "free" claims — a RATCHET (operator ruling 2026-09-14: the free tier
+// grants 3 PDF downloads a month, so SEO METADATA may say "free printable"; the visible
+// page — h1 / eyebrow / strand / p1-p3 — may not). Measured 2026-09-14: h1/eyebrow/strand
+// are clean in all 11 locales; ~31,000 live landing BODIES claim it (mostly the closing
+// paragraph) — a pre-existing corpus-wide finding surfaced to the operator, NOT fixable in
+// a gate. So: a locale's count may only go DOWN (scripts/seo-landing/free-claims-baseline.json),
+// and every NEW landing must be clean (gen-b3-landings.js refuses pre-write).
+const freeClaim = require('../lib/free-claim.js');
+freeClaim.selfTest();
+const FREE_BASE = JSON.parse(fs.readFileSync(require('path').join(__dirname, 'free-claims-baseline.json'), 'utf8')).counts;
+const LOCALE = (path.replace(/\\/g, '/').match(/\/([a-z]{2})\.json$/) || [])[1] || 'en';
+
 const BANNED = [
   'fun and engaging','fun and interactive','perfect for','ideal for','great for',
   'dive into','dive in','great way to','wonderful way to','excellent way to',
@@ -43,9 +55,21 @@ for(const p of pages){
   if(hits.length) issues.push('BANNED ['+hits.join(', ')+']');
   if(!themeNounInP1) issues.push('NO theme-noun in P1');
   if(RESERVED_SLUGS.has(p.slug)) issues.push('RESERVED SLUG "'+p.slug+'"');
+  // U+00AD soft hyphens (nt20-C item 12b: 15 were found in fi.json titles/h1/prose) — never in a landing field
+  for (const k of ['h1','eyebrow','strand','p1','p2','p3','title','metaDescription']) if (/\u00AD/.test(p[k]||'')) issues.push('SOFT-HYPHEN in '+k);
   if(issues.length){ lintFails++; console.log('  FAIL '+p.slug+': '+issues.join(' | ')); }
 }
 console.log(lintFails? ('  -> '+lintFails+' lint fails'):'  -> all '+pages.length+' pages pass lint (≥200 words, no banned phrases, theme-noun in P1)');
+
+// ---- free-claim ratchet over the visible fields
+{
+  const cnt = { h1: 0, eyebrow: 0, strand: 0, p1: 0, p2: 0, p3: 0, pages: 0 };
+  for (const p of pages) { let any = false; for (const k of ['h1','eyebrow','strand','p1','p2','p3']) if (freeClaim.hit(p[k] || '')) { cnt[k]++; any = true; } if (any) cnt.pages++; }
+  const base = FREE_BASE[LOCALE];
+  const grew = base ? Object.keys(cnt).filter((k) => cnt[k] > base[k]) : Object.keys(cnt).filter((k) => cnt[k] > 0);
+  if (grew.length) { lintFails++; console.log('  FAIL free-claims grew in ' + LOCALE + ': ' + grew.map((k) => k + ' ' + (base ? base[k] : 0) + '->' + cnt[k]).join(', ') + ' (visible copy may not claim free; the baseline may only shrink)'); }
+  else console.log('  -> free-claims (visible fields) ' + LOCALE + ': ' + cnt.pages + ' pages' + (base ? ' (baseline ' + base.pages + ', ratchet holds)' : ''));
+}
 
 // ---- similarity
 const N=3;

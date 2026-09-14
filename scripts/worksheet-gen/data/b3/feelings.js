@@ -17,7 +17,12 @@
  *     veto:     [],                    a locale veto; apply- propagates it to ALL 11 (locale-neutral seed)
  *     bins:     { good:{label}, bad:{label} },
  *     checkin:  { today, draw, because, helps },
- *     strings:  { 'K-319':{title, instruction} }   (faces F1..F5 added in Phase 2)
+ *     strings:  { 'K-319':{title, instruction}, 'K-331'..'K-335':{title, instruction} }
+ *               (the faces, keyed by their allocated ids: F1 K-331 scene ·
+ *               F2 K-332 draw · F3 K-333 valence sort · F4 K-334 choice ·
+ *               F5 K-335 check-in; Phase 2, 2026-09-14)
+ *   `checkin.labelPx` (optional, 17|18): a panel whose widest feeling word
+ *   overflows the 94 px F5 tile label at 18 declares 17 for its locale.
  *   }
  *   `scenes`, `face`, `matchable`, `valence`, `confusable` are LOCALE-NEUTRAL
  *   (copied from en by apply-); a locale may only VETO a scene.
@@ -78,6 +83,12 @@ const FEELINGS = {
         title: 'Feelings: Match the Face to the Word',
         instruction: 'Draw a line from each face to the feeling word that says how it feels.',
       },
+      // the five faces (Phase 2); F1 cards print no text, so the instruction carries "how you would feel"
+      'K-331': { title: 'How Do You Feel? Circle the Face', instruction: 'Look at the picture, think how you would feel, and circle the face that matches.' },
+      'K-332': { title: 'Draw the Feeling Face', instruction: 'Read the feeling word and draw a face that shows it in the empty circle.' },
+      'K-333': { title: 'Feels Good or Feels Bad? Sort the Faces', instruction: 'Draw a line from each face to the box that says whether the feeling feels good or bad.' },
+      'K-334': { title: 'Which Face Shows the Feeling?', instruction: 'Read the feeling word and circle the one face in the row that shows it.' },
+      'K-335': { title: 'How Do I Feel Today?', instruction: 'Circle the face that shows how you feel today, then draw your own face.' },
     },
   },
 };

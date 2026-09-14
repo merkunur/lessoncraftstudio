@@ -55,7 +55,40 @@
  *      PF  a fixed point in the right column           → verify()
  *      PI  face icon forced to 48 px                   → the spec guard + the gate's own floor
  *      PW  a word tile printing another feeling's word → verify() + the node cross-check
- *    P3 P4 P5 P9 P13 are F1 / F3 / F4 poisons (Phase 2).
+ *    P3 P4 P5 P9 P13 are F1 / F3 / F4 poisons — PHASE 2 (2026-09-14), sections 5-7 below.
+ *
+ * PHASE 2 — THE FACES (types/k/): K-331 scene · K-332 draw · K-333 valence
+ * sort (handwritten factory instance) · K-334 choice · K-335 check-in.
+ *
+ * 5. RENDER — every face through the real pipeline at d2 en, plus the two
+ *    long-chrome fixtures (3-line de title → body 733; 4-line fi title → 700):
+ *    verify() empty, qa/lints.js clean, and the gate's OWN floors: every
+ *    `.ws-icon` >= 56 (token) and === the face's facePx / objPx (72 / 88;
+ *    F3 78 from the factory's formula), choice tiles === 84 (F5 100×108),
+ *    everything above the footer; per face the NODE cross-checks the page
+ *    cannot make (verify runs in page.evaluate, no require):
+ *      F1 every card's data-lcs-answer === the bank scene's feeling, its
+ *         objects === the bank scene's objects, no tile ∈ alsoPlausible;
+ *      F3 the spec's ITEMS literal ≡ the bank's valence set, every strip
+ *         face filed under its bank valence, bin labels === bank.bins;
+ *      F4 every row's word === bank word; F5 every label === bank word,
+ *         today/draw literals === bank.checkin, every label inside its tile (96 px inner).
+ *    F1 ODD-GRID CONTROL: a bank with veto:['syringe'] fills 5 cards (2+1+2),
+ *    the fifth centred under the grid — verify 0, lints 0 (a legal K page).
+ * 6. SWEEP (skipped by --quick) — 20 seeds: F1 >= 2 distinct scene sets, the
+ *    correct tile in >= 2 positions and no feeling on > 2 cards every seed;
+ *    F4 all 3 positions every seed; F2 >= 2 distinct orders.
+ * 7. POISON — the five §5 poisons the base deferred, plus face-structure ones:
+ *      P3  F1 `present` with tiles [happy, surprised, tired]  → node gate (alsoPlausible)
+ *      P4  F1 page with `happy` on 4 of 6 cards                → verify() maxPerFeeling
+ *      P5  F3 `tired` filed under `bad`                         → verify() valence + node bank cross-check
+ *      P9  F4 row `scared` with distractor `surprised`          → verify() confusable
+ *      P13 F3 perBin:4                                          → the spec guard + the strip wraps past it
+ *      PX  F1 correct tile in position 1 on every card          → verify()
+ *      PO  F1 the same object on two cards                      → verify()
+ *      PS  F1 six cards, two feelings only                      → verify() minFeelings
+ *      PM  F2 a model face printed beside the word              → verify() (the child draws it)
+ *      PL  F5 a label wider than its tile                       → verify() clipped label
  */
 'use strict';
 const path = require('path');
@@ -92,6 +125,8 @@ const PINNED = { teddy_bear: 'toys', bed: 'furniture' };
 let assertions = 0;
 const fails = [];
 function ok(cond, msg) { assertions++; if (!cond) fails.push(msg); return !!cond; }
+/** Run assertions and RETURN their findings instead of counting them (a poisoned page judged by the gate's own checks). */
+ok.collect = (fn) => { const before = fails.length, saved = assertions; fn(); const own = fails.splice(before); assertions = saved; return own; };
 
 /* ------------------------------------------------------------------ bank */
 function validateBank(bank, loc) {
@@ -186,14 +221,19 @@ function validateBank(bank, loc) {
   if (c.because != null && !/^\p{L}+$/u.test(c.because)) push(`checkin.because "${c.because}" is not one word`);
   // bins
   if (!bank.bins || !bank.bins.good || !bank.bins.bad || !bank.bins.good.label || !bank.bins.bad.label) push('bins.good/bad labels missing');
-  // rule 6 — strings
-  const s = bank.strings && bank.strings['K-319'];
-  if (!s) push('strings K-319 missing');
-  else {
-    if (!s.title || [...s.title].length > 70) push('title > 70 chars');
-    if (WORKSHEET_WORD.test(s.title || '')) push('title carries the worksheet word');
-    if (!s.instruction || [...s.instruction].length > 150) push('instruction > 150 chars');
+  // rule 6 — strings: the base + the five faces (Phase 2 ids), titles distinct within the family
+  const titles = new Set();
+  for (const id of ['K-319', 'K-331', 'K-332', 'K-333', 'K-334', 'K-335']) {
+    const s = bank.strings && bank.strings[id];
+    if (!s) { push(`strings ${id} missing`); continue; }
+    if (!s.title || [...s.title].length > 70) push(`${id} title > 70 chars`);
+    if (WORKSHEET_WORD.test(s.title || '')) push(`${id} title carries the worksheet word`);
+    if (!s.instruction || [...s.instruction].length > 150) push(`${id} instruction > 150 chars`);
+    const t = (s.title || '').toLocaleLowerCase(loc);
+    if (titles.has(t)) push(`${id} title "${s.title}" duplicates a sibling face`); titles.add(t);
   }
+  // F5 label size: optional, 17 or 18 (a panel declares 17 when its widest word overflows the 94 px tile at 18)
+  if (c.labelPx != null && ![17, 18].includes(c.labelPx)) push(`checkin.labelPx ${c.labelPx} is not 17 or 18`);
   return f;
 }
 
@@ -297,6 +337,359 @@ const LONG = {
   fi: { title: 'Tunteet: yhdistä jokaiset kasvot oikeaan tunnesanaan viivalla ja mieti',
     instruction: 'Katso jokaisia kasvoja tarkasti, mieti, miltä niistä tuntuu, ja piirrä sitten lyijykynällä viiva kasvoista siihen tunnesanaan, joka kuvaa tunnetta parhaiten.'.slice(0, 150), body: 705 },
 };
+
+
+/* ====================================================================== PHASE 2 — the faces (sections 5-7) */
+const { loadType } = require('../lib/load-types.js');
+const { makeScienceCategorySort } = require('../types/_shared/science-category-sort.js');
+const C3 = require('../templates/components-b3.js');   // the face components (feelingScene*/feelingChoice*/feelingDrawCard)
+
+const FACES = { scene: 'K-331', draw: 'K-332', valence: 'K-333', choice: 'K-334', checkin: 'K-335' };
+
+function src(id) { return fileUri('emotions', id); }
+
+/* ------------------------------------------------------------ measure */
+async function measure(page) {
+  return page.evaluate(() => {
+    const rect = (el) => { const r = el.getBoundingClientRect(); return { left: r.left, right: r.right, top: r.top, bottom: r.bottom, w: r.width, h: r.height }; };
+    const root = document.querySelector('[data-lcs-feelings]');
+    const layout = root ? root.dataset.lcsLayout : (document.querySelector('.sci-sort') ? 'valence' : null);
+    const icons = [...document.querySelectorAll('.ws-icon')].map((el) => { const r = rect(el); return { px: Math.min(r.w, r.h), obj: el.dataset.lcsSceneObj || null, choice: el.closest('[data-lcs-choice]') ? el.closest('[data-lcs-choice]').dataset.lcsChoice : null }; });
+    const tiles = [...document.querySelectorAll('[data-lcs-choice]')].map((el) => { const l = el.querySelector('[data-lcs-label]'); return { id: el.dataset.lcsChoice, ...rect(el), label: l ? l.textContent.trim() : null, labelW: l ? l.scrollWidth : 0, labelInner: l ? l.clientWidth : 0 }; });
+    const cards = [...document.querySelectorAll('[data-lcs-scene]')].map((c) => ({
+      id: c.dataset.lcsScene, answer: c.dataset.lcsAnswer, correct: +c.dataset.lcsCorrect,
+      objects: [...c.querySelectorAll('[data-lcs-scene-obj]')].map((o) => o.dataset.lcsSceneObj),
+      tiles: [...c.querySelectorAll('[data-lcs-choice]')].map((t) => t.dataset.lcsChoice),
+      ...rect(c.closest('.ws-card')),
+    }));
+    const rows = [...document.querySelectorAll('[data-lcs-row]')].map((r) => { const w = r.querySelector('[data-lcs-targetword]'); return { target: r.dataset.lcsTarget, correct: +r.dataset.lcsCorrect, word: w.textContent.trim(), wordW: w.scrollWidth, wordInner: w.clientWidth, tiles: [...r.querySelectorAll('[data-lcs-choice]')].map((t) => t.dataset.lcsChoice), ...rect(r) }; });
+    const draws = [...document.querySelectorAll('[data-lcs-drawcard]')].map((c) => { const w = c.querySelector('[data-lcs-word]'); const f = c.querySelector('[data-lcs-blankface]'); return { id: w ? w.dataset.lcsWord : null, word: w ? w.textContent.trim() : null, d: f ? +f.dataset.lcsBlankface : 0, face: f ? rect(f) : null, ...rect(c) }; });
+    const sci = [...document.querySelectorAll('[data-sci-item]')].map((i) => { const im = i.querySelector('img'); return { bin: i.dataset.sciItem, noun: decodeURIComponent(im.src).split('/').pop().replace(/@3x\.webp$/, ''), top: Math.round(i.getBoundingClientRect().top) }; });
+    const binLabels = [...document.querySelectorAll('.sci-bin-label')].map((l) => l.textContent.trim());
+    const today = document.querySelector('[data-lcs-today-literal]'), draw = document.querySelector('[data-lcs-draw-literal]');
+    // the lowest INK on the page: pictures, choice tiles, text, the blank face, ruling rows, bins — never a layout
+    // box (a flex container legitimately ends ON the footer's top edge, as the base's .ws-match does; the lint
+    // guards the band itself, this measures the printed content's margin above it)
+    const INK = '[data-lcs-body] img, [data-lcs-body] [data-lcs-choice], [data-lcs-body] span:not(.ws-card-badge), [data-lcs-body] [data-lcs-blankface], [data-lcs-body] [data-lcs-ruling-row], [data-lcs-body] .sci-bin, [data-lcs-body] .sci-item';
+    const all = [...document.querySelectorAll(INK)].filter((e) => e.getBoundingClientRect().height > 0);
+    const lowest = all.length ? Math.max(...all.map((e) => e.getBoundingClientRect().bottom)) : 0;
+    return {
+      layout, icons, tiles, cards, rows, draws, sci, binLabels,
+      today: today ? today.textContent.trim() : null, draw: draw ? draw.textContent.trim() : null,
+      ruling: document.querySelectorAll('[data-lcs-ruling-row]').length,
+      body: rect(document.querySelector('[data-lcs-body]')), foot: document.querySelector('.ws-foot').getBoundingClientRect().top,
+      titleH: rect(document.querySelector('.ws-head')).h, lowest,
+    };
+  });
+}
+
+async function renderFace(page, type, { baseName, strings, difficulty }) {
+  const out = await renderInstance({ type, theme: null, difficulty: difficulty || 2, locale: 'en', page, outDir: OUT, baseName, strings });
+  const m = await measure(page);
+  return { lints: out.qa.lints, verify: out.qa.verify, m, png: out.pngPath, meta: out.meta };
+}
+
+/* ------------------------------------------------------- assertions */
+function assertCommon(ok, name, r, { icons }) {
+  ok(r.verify.length === 0, `${name}: verify() ${JSON.stringify(r.verify)}`);
+  ok(r.lints.length === 0, `${name}: lints ${JSON.stringify(r.lints)}`);
+  ok(r.m.icons.length > 0, `${name}: no pictures on the page`);
+  for (const ic of r.m.icons) ok(ic.px >= MIN_ICON, `${name}: icon ${Math.round(ic.px)} px < K floor ${MIN_ICON}`);
+  if (icons) for (const ic of r.m.icons) {
+    const want = ic.obj ? icons.obj : icons.face;
+    ok(Math.abs(ic.px - want) < 1, `${name}: ${ic.obj ? 'object ' + ic.obj : 'face ' + ic.choice} icon ${Math.round(ic.px)} ≠ ${want}`);
+  }
+  ok(r.m.lowest <= r.m.foot - 0.6, `${name}: content reaches ${Math.round(r.m.lowest)} against the footer at ${Math.round(r.m.foot)}`);
+}
+
+function assertScene(ok, name, r, bank, cfg) {
+  assertCommon(ok, name, r, { icons: { face: cfg.facePx, obj: cfg.objPx } });
+  const veto = new Set(bank.veto || []);
+  const scenes = Object.fromEntries(bank.scenes.map((s) => [s.id, s]));
+  ok(r.m.cards.length === cfg.expectCards, `${name}: ${r.m.cards.length} cards, want ${cfg.expectCards}`);
+  for (const t of r.m.tiles) ok(Math.abs(t.w - cfg.tilePx) < 1 && Math.abs(t.h - cfg.tilePx) < 1, `${name}: tile ${t.id} ${Math.round(t.w)}×${Math.round(t.h)} ≠ ${cfg.tilePx}`);
+  const per = {};
+  r.m.cards.forEach((c, i) => {
+    const s = scenes[c.id];
+    ok(!!s, `${name}: card ${i + 1} scene "${c.id}" is not in the bank`);
+    if (!s) return;
+    ok(!veto.has(c.id), `${name}: card ${i + 1} scene "${c.id}" is vetoed`);
+    ok(c.answer === s.feeling, `${name}: card ${i + 1} answer "${c.answer}" ≠ bank scene ${c.id} → ${s.feeling}`);
+    ok(c.objects.join('|') === s.objects.map((o) => `${o.theme}/${o.noun}`).join('|'), `${name}: card ${i + 1} objects ${c.objects.join('|')} ≠ bank ${s.objects.map((o) => `${o.theme}/${o.noun}`).join('|')}`);
+    for (const ap of s.alsoPlausible || []) ok(!c.tiles.includes(ap), `${name}: card ${i + 1} (${c.id}) offers "${ap}", alsoPlausible for ${s.feeling} — two right answers`);
+    ok(c.tiles.length === cfg.choices, `${name}: card ${i + 1} has ${c.tiles.length} tiles`);
+    per[c.answer] = (per[c.answer] || 0) + 1;
+    ok(c.bottom <= r.m.foot + 0.6 && c.left >= r.m.body.left - 0.6 && c.right <= r.m.body.right + 0.6, `${name}: card ${i + 1} outside the body`);
+  });
+  for (const [f, k] of Object.entries(per)) ok(k <= cfg.maxPerFeeling, `${name}: "${f}" answers ${k} cards > ${cfg.maxPerFeeling}`);
+  ok(Object.keys(per).length >= cfg.minFeelings, `${name}: ${Object.keys(per).length} distinct answers < ${cfg.minFeelings}`);
+  ok(new Set(r.m.cards.map((c) => c.correct)).size >= 2, `${name}: the correct tile sits in one position on every card`);
+}
+
+function assertDraw(ok, name, r, bank, cfg) {
+  ok(r.verify.length === 0, `${name}: verify() ${JSON.stringify(r.verify)}`);
+  ok(r.lints.length === 0, `${name}: lints ${JSON.stringify(r.lints)}`);
+  ok(r.m.icons.length === 0, `${name}: ${r.m.icons.length} pictures on an open-ended draw page`);
+  ok(r.m.draws.length === cfg.cards, `${name}: ${r.m.draws.length} cards ≠ ${cfg.cards}`);
+  r.m.draws.forEach((c, i) => {
+    const b = bank.feelings.find((x) => x.id === c.id);
+    ok(!!b && b.word === c.word, `${name}: card ${i + 1} prints "${c.word}" ≠ bank "${b && b.word}"`);
+    ok(cfg.pool.includes(c.id), `${name}: card ${i + 1} "${c.id}" outside the draw pool`);
+    ok(c.d === cfg.d && c.face && Math.abs(c.face.w - cfg.d) < 1, `${name}: card ${i + 1} blank face ${c.d}/${c.face && Math.round(c.face.w)} ≠ ${cfg.d}`);
+    ok(c.face && c.face.bottom <= c.bottom + 0.6 && c.face.top >= c.top - 0.6, `${name}: card ${i + 1} blank face outside its card`);
+  });
+  ok(r.m.lowest <= r.m.foot - 0.6, `${name}: content reaches the footer`);
+}
+
+function assertValence(ok, name, r, bank, spec) {
+  ok(r.verify.length === 0, `${name}: verify() ${JSON.stringify(r.verify)}`);
+  ok(r.lints.length === 0, `${name}: lints ${JSON.stringify(r.lints)}`);
+  const val = Object.fromEntries(bank.feelings.filter((f) => f.valence).map((f) => [f.face.noun, f.valence]));
+  // the spec's locale-neutral ITEMS literal ≡ the bank's valence set
+  const specSet = spec.items.map((i) => `${i.noun}=${i.bin}`).sort().join(',');
+  const bankSet = Object.entries(val).map(([n, v]) => `${n}=${v}`).sort().join(',');
+  ok(specSet === bankSet, `${name}: spec ITEMS ${specSet} ≠ bank valence ${bankSet}`);
+  ok(r.m.sci.length === 6, `${name}: ${r.m.sci.length} faces on the strip, want 6`);
+  ok(new Set(r.m.sci.map((i) => i.top)).size === 1, `${name}: the strip wraps (${new Set(r.m.sci.map((i) => i.top)).size} rows)`);
+  for (const it of r.m.sci) ok(val[it.noun] === it.bin, `${name}: strip face "${it.noun}" filed under "${it.bin}", bank valence "${val[it.noun]}"`);
+  const good = r.m.sci.filter((i) => i.bin === 'good').length;
+  ok(good === 3 && r.m.sci.length - good === 3, `${name}: ${good} good / ${r.m.sci.length - good} bad, want 3 / 3`);
+  for (const ic of r.m.icons) ok(Math.abs(ic.px - 78) < 1, `${name}: face icon ${Math.round(ic.px)} ≠ the factory's 78 at six items`);
+  ok(r.m.binLabels.join('|') === `${bank.bins.good.label}|${bank.bins.bad.label}`, `${name}: bin labels ${r.m.binLabels.join('|')} ≠ bank`);
+  ok(r.m.lowest <= r.m.foot - 0.6, `${name}: content reaches the footer`);
+}
+
+function assertChoice(ok, name, r, bank, cfg, opts) {
+  assertCommon(ok, name, r, { icons: { face: cfg.facePx } });
+  ok(r.m.rows.length === cfg.rows, `${name}: ${r.m.rows.length} rows ≠ ${cfg.rows}`);
+  for (const t of r.m.tiles) ok(Math.abs(t.w - cfg.tilePx) < 1 && Math.abs(t.h - cfg.tilePx) < 1, `${name}: tile ${t.id} ${Math.round(t.w)}×${Math.round(t.h)} ≠ ${cfg.tilePx}`);
+  const minRow = cfg.minRow;   // the grid's minmax floor holds under every chrome (the rows GROW at 778, never shrink below it)
+  void opts;
+  r.m.rows.forEach((row, i) => {
+    const b = bank.feelings.find((x) => x.id === row.target);
+    ok(!!b && b.word === row.word, `${name}: row ${i + 1} prints "${row.word}" ≠ bank "${b && b.word}"`);
+    ok(row.wordW <= row.wordInner + 0.6, `${name}: row ${i + 1} word "${row.word}" ${row.wordW} px wider than its ${row.wordInner} px column`);
+    ok(row.h >= minRow - 0.6, `${name}: row ${i + 1} ${Math.round(row.h)} px < ${minRow}`);
+    ok(row.tiles.length === cfg.choices, `${name}: row ${i + 1} ${row.tiles.length} tiles`);
+    ok(row.bottom <= r.m.foot + 0.6, `${name}: row ${i + 1} past the footer's top edge`);
+  });
+  ok(new Set(r.m.rows.map((x) => x.correct)).size === cfg.choices, `${name}: the correct tile takes ${new Set(r.m.rows.map((x) => x.correct)).size} of ${cfg.choices} positions`);
+}
+
+function assertCheckin(ok, name, r, bank, cfg) {
+  assertCommon(ok, name, r, { icons: { face: cfg.facePx } });
+  ok(r.m.tiles.length === cfg.faces, `${name}: ${r.m.tiles.length} faces ≠ ${cfg.faces}`);
+  r.m.tiles.forEach((t, i) => {
+    ok(Math.abs(t.w - 100) < 1 && Math.abs(t.h - 108) < 1, `${name}: tile ${t.id} ${Math.round(t.w)}×${Math.round(t.h)} ≠ 100×108`);
+    const b = bank.feelings.find((x) => x.id === t.id);
+    ok(!!b && b.word === t.label, `${name}: tile ${i + 1} label "${t.label}" ≠ bank "${b && b.word}"`);
+    ok(t.labelW <= t.labelInner + 0.6, `${name}: label "${t.label}" ${t.labelW} px > the tile's ${t.labelInner} px inner width (declare checkin.labelPx 17 for this locale)`);
+  });
+  ok(r.m.today === bank.checkin.today && r.m.draw === bank.checkin.draw, `${name}: literals "${r.m.today}" / "${r.m.draw}" ≠ bank`);
+  ok(r.m.draws.length === 1 && r.m.draws[0].d === cfg.d, `${name}: blank face ${r.m.draws[0] && r.m.draws[0].d} ≠ ${cfg.d}`);
+  ok(r.m.ruling === cfg.rows, `${name}: ${r.m.ruling} ruling rows ≠ ${cfg.rows}`);
+}
+
+/* ----------------------------------------------------------- poison seams */
+/** A type whose build returns an EXPLICIT body (past every spec guard) with the base's verify(). */
+function fixedPage(base, bodyHtml) { return Object.assign({}, base, { build() { return { bodyHtml, meta: {} }; } }); }
+function sceneRoot(inner, n, cfg) {
+  return `<div style="display:flex;flex-direction:column;flex:1 1 auto;min-height:0" data-ws-content data-lcs-feelings data-lcs-layout="scene" data-lcs-cards="${n}" data-lcs-choices="${cfg.choices}" data-lcs-minfeelings="${cfg.minFeelings}" data-lcs-maxper="${cfg.maxPerFeeling}">${inner}</div>`;
+}
+function sceneCards(list, cfg) {
+  return list.map((c) => C3.feelingSceneCard({ sceneId: c.id, answer: c.answer, correct: c.tiles.indexOf(c.answer), objects: c.objects.map((ref) => ({ ref, src: fileUri(ref.split('/')[0], ref.split('/')[1]) })), faces: c.tiles.map((id) => ({ id, src: src(id) })), objPx: cfg.objPx, tilePx: cfg.tilePx, facePx: cfg.facePx }));
+}
+function choiceRoot(lanes, cfg) {
+  return `<div style="display:flex;flex-direction:column;flex:1 1 auto;min-height:0" data-ws-content data-lcs-feelings data-lcs-layout="choice" data-lcs-rows="${lanes.length}" data-lcs-choices="${cfg.choices}" data-lcs-confusable="0">${C3.feelingChoicePage({ lanes, minRow: cfg.minRow })}</div>`;
+}
+
+/* ================================================================== run */
+async function runFaces({ page, ok, judge, banks, LONG, QUICK, typeWithBank }) {
+  const en = banks.en;
+  const T = Object.fromEntries(Object.entries(FACES).map(([k, id]) => [k, loadType(id)]));
+  const cfg = { scene: T.scene.difficulty[2], draw: T.draw.difficulty[2], choice: T.choice.difficulty[2], checkin: T.checkin.difficulty[2] };
+  const pngs = [];
+  const results = {};
+
+  // 5. renders — en chrome + both long-chrome fixtures
+  const fixtures = [['en', null], ['de', LONG.de], ['fi', LONG.fi]];
+  for (const [layout, id] of Object.entries(FACES)) {
+    for (const [fx, strings] of fixtures) {
+      const name = `${id} ${layout}${fx === 'en' ? '' : ' long chrome ' + fx}`;
+      const r = await renderFace(page, T[layout], { baseName: `${id}-gate-d2-en${fx === 'en' ? '' : '-longchrome-' + fx}`, strings });
+      pngs.push(r.png);
+      if (strings) ok(r.m.body.h <= LONG[fx].body, `${name}: body ${Math.round(r.m.body.h)} px — the fixture did not squeeze the body to <= ${LONG[fx].body}`);
+      if (layout === 'scene') assertScene(ok, name, r, en, { ...cfg.scene, expectCards: 6 });
+      else if (layout === 'draw') assertDraw(ok, name, r, en, cfg.draw);
+      else if (layout === 'valence') assertValence(ok, name, r, en, T.valence);
+      else if (layout === 'choice') assertChoice(ok, name, r, en, cfg.choice, { squeezed: !!strings });
+      else assertCheckin(ok, name, r, en, cfg.checkin);
+      if (fx === 'en') results[layout] = r;
+      console.log(`render ${name}: verify ${r.verify.length} lints ${r.lints.length} body ${Math.round(r.m.body.h)} px lowest ${Math.round(r.m.lowest)} vs foot ${Math.round(r.m.foot)}` +
+        (layout === 'scene' ? ` cards ${r.m.cards.length} answers ${r.m.cards.map((c) => c.answer).join('/')} positions ${r.m.cards.map((c) => c.correct).join('')}` : '') +
+        (layout === 'choice' ? ` rows ${r.m.rows.length} × ${Math.round(r.m.rows[0].h)} px positions ${r.m.rows.map((x) => x.correct).join('')}` : '') +
+        (layout === 'valence' ? ` strip ${r.m.sci.map((i) => i.noun + '=' + i.bin).join(' ')}` : '') +
+        (layout === 'checkin' ? ` labels ${r.m.tiles.map((t) => Math.round(t.labelW)).join('/')} px` : ''));
+    }
+  }
+  // an unauthored locale REFUSES on every face
+  for (const [layout, id] of Object.entries(FACES)) {
+    let refused = false;
+    try { T[layout].build({ theme: null, difficulty: 2, locale: 'de' }, { rng: makeRng('x') }); } catch (e) { refused = /no de block/.test(e.message); }
+    ok(refused, `${id} ${layout}: an unauthored locale must REFUSE (throw), not fall back to en`);
+  }
+  // F1 odd-grid CONTROL: the syringe veto → 5 cards (2 + 1 + 2), the fifth centred; still a legal K page
+  {
+    const b = clone(en); b.veto = ['syringe'];
+    const t = Object.assign({}, T.scene, { build(args, ctx) { return T.scene._buildWith(b, args, ctx); } });
+    const r = await renderFace(page, t, { baseName: 'K-331-gate-d2-en-veto-syringe' });
+    pngs.push(r.png);
+    assertScene(ok, 'K-331 scene veto control', r, b, { ...cfg.scene, expectCards: 5 });
+    const last = r.m.cards[4], first = r.m.cards[0];
+    ok(last && first && last.left > first.left + 20 && last.right < r.m.body.right - 20, `K-331 veto control: the fifth card is not centred (${last && Math.round(last.left)}…${last && Math.round(last.right)})`);
+    ok(r.m.cards.filter((c) => c.answer === 'scared').length === 1, 'K-331 veto control: scared should keep exactly one scene');
+    const rfi = await renderFace(page, t, { baseName: 'K-331-gate-d2-en-veto-syringe-longchrome-fi', strings: LONG.fi });
+    assertScene(ok, 'K-331 scene veto control long chrome fi', rfi, b, { ...cfg.scene, expectCards: 5 });
+    console.log(`render K-331 veto control: cards ${r.m.cards.length} answers ${r.m.cards.map((c) => c.answer).join('/')} fifth card x ${Math.round(last.left)}…${Math.round(last.right)}; long chrome fi lowest ${Math.round(rfi.m.lowest)} vs foot ${Math.round(rfi.m.foot)}`);
+  }
+
+  // 6. sweep
+  if (!QUICK) {
+    const sets = new Set(), orders = new Set();
+    for (let k = 1; k <= 20; k++) {
+      const rs = makeRng(instanceSeed({ typeId: 'K-331', theme: null, difficulty: 2, seedEpoch: k }));
+      const s = T.scene.build({ theme: null, difficulty: 2, locale: 'en' }, { rng: rs });
+      sets.add(s.meta.scenes.slice().sort().join(','));
+      ok(s.meta.scenes.length === 6, `sweep F1 seed ${k}: ${s.meta.scenes.length} cards`);
+      ok(new Set(s.meta.correct).size >= 2, `sweep F1 seed ${k}: correct positions ${s.meta.correct.join('')}`);
+      const per = {}; s.meta.answers.forEach((a) => { per[a] = (per[a] || 0) + 1; });
+      ok(Object.values(per).every((n) => n <= 2) && Object.keys(per).length >= 3, `sweep F1 seed ${k}: answers ${JSON.stringify(per)}`);
+      const rc = makeRng(instanceSeed({ typeId: 'K-334', theme: null, difficulty: 2, seedEpoch: k }));
+      const c = T.choice.build({ theme: null, difficulty: 2, locale: 'en' }, { rng: rc });
+      ok(new Set(c.meta.correct).size === 3, `sweep F4 seed ${k}: correct positions ${c.meta.correct.join('')}`);
+      const rd = makeRng(instanceSeed({ typeId: 'K-332', theme: null, difficulty: 2, seedEpoch: k }));
+      orders.add(T.draw.build({ theme: null, difficulty: 2, locale: 'en' }, { rng: rd }).meta.words.join(','));
+    }
+    ok(sets.size >= 2, `sweep F1: only ${sets.size} distinct scene sets over 20 seeds`);
+    ok(orders.size >= 2, `sweep F2: only ${orders.size} distinct orders over 20 seeds`);
+    console.log(`sweep faces: F1 ${sets.size} distinct scene sets, F2 ${orders.size} distinct orders, F4 all 3 positions on every seed`);
+  }
+
+  // 7. poisons
+  let killed = 0;
+  const TOTAL = 10;
+  const sc = cfg.scene, ch = cfg.choice;
+  const good6 = [   // the control page (2 happy + 2 scared + 2 tired, positions spread)
+    { id: 'present', answer: 'happy', objects: ['christmas/present'], tiles: ['happy', 'sad', 'tired'] },
+    { id: 'thunderstorm', answer: 'scared', objects: ['weather/thunderstorm'], tiles: ['sad', 'scared', 'happy'] },
+    { id: 'bed', answer: 'tired', objects: ['furniture/bed'], tiles: ['happy', 'sad', 'tired'] },
+    { id: 'balloon', answer: 'happy', objects: ['toys/balloon'], tiles: ['angry', 'happy', 'tired'] },
+    { id: 'syringe', answer: 'scared', objects: ['hospital/syringe'], tiles: ['scared', 'tired', 'happy'] },
+    { id: 'pillow-moon', answer: 'tired', objects: ['around the house/pillow', 'space/moon'], tiles: ['tired', 'angry', 'happy'] },
+  ];
+  const render6 = async (list, baseName) => {
+    const t = fixedPage(T.scene, sceneRoot(C3.feelingSceneGrid({ cards: sceneCards(list, sc), cols: 2 }), list.length, sc));
+    return renderFace(page, t, { baseName });
+  };
+  // control: the hand-built page passes verify + the node gate (so a poison below fails for its OWN reason)
+  {
+    const r = await render6(good6, 'K-331-gate-poison-control');
+    assertScene(ok, 'K-331 poison control', r, en, { ...sc, expectCards: 6 });
+  }
+  // P3 — `present` with tiles [happy, surprised, tired]: surprised is alsoPlausible → two right answers (node gate)
+  {
+    const list = clone(good6); list[0].tiles = ['happy', 'surprised', 'tired'];
+    const r = await render6(list, 'K-331-gate-poison-P3');
+    const own = ok.collect(() => assertScene(ok, 'P3', r, en, { ...sc, expectCards: 6 }));
+    if (judge('P3', own, /offers "surprised", alsoPlausible for happy/, `verify ${r.verify.length} (the page cannot see the bank)`)) killed++;
+  }
+  // P4 — happy on 4 of 6 cards → verify() maxPerFeeling
+  {
+    const list = clone(good6);
+    list[2] = { id: 'medal', answer: 'happy', objects: ['accessories/medal'], tiles: ['happy', 'sad', 'tired'] };
+    list[5] = { id: 'teddy', answer: 'happy', objects: ['toys/teddy_bear'], tiles: ['sad', 'happy', 'angry'] };
+    const r = await render6(list, 'K-331-gate-poison-P4');
+    if (judge('P4', r.verify, /"happy" is the answer on 4 cards > 2/)) killed++;
+  }
+  // PX — the correct tile in position 1 on every card → verify()
+  {
+    const list = clone(good6).map((c) => { const d = c.tiles.filter((x) => x !== c.answer); return { ...c, tiles: [d[0], c.answer, d[1]] }; });
+    const r = await render6(list, 'K-331-gate-poison-PX');
+    if (judge('PX', r.verify, /the correct tile sits in position 1 on every card/)) killed++;
+  }
+  // PO — the same object on two cards → verify()
+  {
+    const list = clone(good6); list[3] = { id: 'pajamas-moon', answer: 'tired', objects: ['clothing/pajamas', 'space/moon'], tiles: ['angry', 'happy', 'tired'] };
+    const r = await render6(list, 'K-331-gate-poison-PO');
+    if (judge('PO', r.verify, /object space\/moon already on another card/)) killed++;
+  }
+  // PS — six cards, two feelings only → verify() minFeelings
+  {
+    const list = clone(good6);
+    list[1] = { id: 'medal', answer: 'happy', objects: ['accessories/medal'], tiles: ['sad', 'happy', 'tired'] };
+    list[4] = { id: 'pajamas-moon', answer: 'tired', objects: ['clothing/pajamas', 'space/moon'], tiles: ['tired', 'angry', 'happy'] };
+    list[5] = { id: 'bed', answer: 'tired', objects: ['furniture/bed'], tiles: ['sad', 'happy', 'tired'] };
+    list[2] = { id: 'teddy', answer: 'happy', objects: ['toys/teddy_bear'], tiles: ['happy', 'sad', 'angry'] };
+    // 3 happy + 3 tired: both maxPer AND minFeelings fire — judge on minFeelings
+    const r = await render6(list, 'K-331-gate-poison-PS');
+    if (judge('PS', r.verify, /2 distinct answers < 3/)) killed++;
+  }
+  // P5 — F3 `tired` filed under `bad` → verify() valence + the node bank cross-check
+  {
+    const items = T.valence.items.map((i) => (i.noun === 'sad' ? { theme: 'emotions', noun: 'tired', bin: 'bad' } : i));
+    const poisoned = Object.assign({}, T.valence, { items, build(args, ctx) {
+      const f = makeScienceCategorySort({ id: 'K-333', slug: 'x', gradeBand: 'K', exerciseType: 'feelings', data: { bins: [{ key: 'good', label: { en: 'Feels good' } }, { key: 'bad', label: { en: 'Feels bad' } }], items }, difficulty: { 2: { perBin: 3 } }, i18n: T.valence.i18n });
+      // force tired onto the strip: sample the bad bin from [tired, angry, scared] only
+      const rng = makeRng('p5-tired');
+      return f.build(args, { rng: { ...rng, sample: (arr, n) => arr.filter((x) => x.bin === 'good' ? true : ['tired', 'angry', 'scared'].includes(x.noun)).slice(0, n), shuffle: rng.shuffle } });
+    } });
+    const r = await renderFace(page, poisoned, { baseName: 'K-333-gate-poison-P5' });
+    const a = judge('P5 verify', r.verify, /"tired" has no unmistakable valence/);
+    const own = ok.collect(() => assertValence(ok, 'P5', r, en, poisoned));
+    const c = judge('P5 node', own, /spec ITEMS .* ≠ bank valence|strip face "tired" filed under "bad", bank valence "undefined"/);
+    if (a && c) killed++;
+  }
+  // P13 — F3 perBin 4: the spec guard refuses; a page built past it wraps the strip → the gate's one-row assertion + verify()
+  {
+    let guard = [];
+    const four = Object.assign({}, T.valence, { difficulty: { 1: { perBin: 4 }, 2: { perBin: 4 }, 3: { perBin: 4 } } });
+    try { four.build({ theme: null, difficulty: 2, locale: 'en' }, { rng: makeRng('p13') }); } catch (e) { guard = [e.message]; }
+    const a = judge('P13 guard', guard, /perBin 4 > 3 wraps the one-row strip/);
+    const past = makeScienceCategorySort({ id: 'K-333', slug: 'x', gradeBand: 'K', exerciseType: 'feelings', data: { bins: [{ key: 'good', label: { en: 'Feels good' } }, { key: 'bad', label: { en: 'Feels bad' } }], items: T.valence.items }, difficulty: { 2: { perBin: 4 } }, i18n: T.valence.i18n });
+    const pastT = Object.assign({}, past, { verify: T.valence.verify });
+    const r = await renderFace(page, pastT, { baseName: 'K-333-gate-poison-P13' });
+    const b = judge('P13 verify', r.verify, /the strip wraps: 2 rows of faces/, `${r.m.sci.length} faces, ${new Set(r.m.sci.map((i) => i.top)).size} rows`);
+    if (a && b) killed++;
+  }
+  // P9 — F4 row `scared` with distractor `surprised` → verify() confusable
+  {
+    const lanes = ACCEPTED_MATCH.map((t, i) => {
+      const others = ACCEPTED_MATCH.filter((x) => x !== t && !(t === 'scared' && x === 'surprised') && !(t === 'surprised' && x === 'scared'));
+      let tiles;
+      if (t === 'scared') tiles = ['surprised', 'scared', 'sad'];       // the poison row
+      else { const d = others.slice(0, 2); tiles = d.slice(); tiles.splice(i % 3, 0, t); }
+      return C3.feelingChoiceLane({ id: t, word: en.feelings.find((x) => x.id === t).word, wordPx: ch.wordPx, wordW: ch.wordW, correct: tiles.indexOf(t), faces: tiles.map((id) => ({ id, src: src(id) })), tilePx: ch.tilePx, facePx: ch.facePx });
+    });
+    const r = await renderFace(page, fixedPage(T.choice, choiceRoot(lanes, ch)), { baseName: 'K-334-gate-poison-P9' });
+    if (judge('P9', r.verify, /distractor "surprised" is confusable with "scared"/)) killed++;
+  }
+  // PM — F2 a model face printed beside the word → verify() (the child draws it; a model is d1 copy, not this face)
+  {
+    const cards = cfg.draw.pool.map((id) => C3.feelingDrawCard({ id, word: en.feelings.find((x) => x.id === id).word, wordPx: cfg.draw.wordPx, d: cfg.draw.d })
+      .replace('</div>', `<img class="ws-icon" src="${src(id)}" alt="" style="width:56px;height:56px"></div>`));
+    const body = `<div style="display:flex;flex-direction:column;flex:1 1 auto;min-height:0" data-ws-content data-lcs-feelings data-lcs-layout="draw" data-lcs-cards="4">${C3.feelingSceneGrid({ cards, cols: 2, rows: 2 })}</div>`;
+    const r = await renderFace(page, fixedPage(T.draw, body), { baseName: 'K-332-gate-poison-PM' });
+    if (judge('PM', r.verify, /a model face is printed/)) killed++;
+  }
+  // PL — F5 a label wider than its tile → verify() clipped label
+  {
+    const b = clone(en); b.feelings.find((x) => x.id === 'surprised').word = 'surprisedsurprised';
+    const t = Object.assign({}, T.checkin, { build(args, ctx) { return T.checkin._buildWith(b, args, ctx); } });
+    const r = await renderFace(page, t, { baseName: 'K-335-gate-poison-PL' });
+    if (judge('PL', r.verify, /label "surprisedsurprised" clipped in its tile/)) killed++;
+  }
+  return { killed, TOTAL, pngs };
+}
 
 async function main() {
   const banks = bankModule('feelings');
@@ -448,12 +841,17 @@ async function main() {
       const c = judge('PW node', own, /word tile tired prints "happy" ≠ bank "tired"/);
       if (a && c) killed++;
     }
+    // 5-7. the FACES (Phase 2): renders + node cross-checks + veto control + sweep + 10 poisons
+    const faces = await runFaces({ page, ok, judge, banks, LONG, QUICK, typeWithBank });
+    killed += faces.killed;
+    const GRAND = TOTAL + faces.TOTAL;
+    pngs.push(...faces.pngs);
     console.log('poison:\n' + poisonLog.join('\n'));
-    const allKilled = killed === TOTAL;
+    const allKilled = killed === GRAND;
     if (fails.length) console.log('FAILS:\n  ' + fails.join('\n  '));
     console.log('PNGs: ' + pngs.map((p) => path.relative(process.cwd(), p)).join(' '));
     const pass = !fails.length && allKilled;
-    console.log(pass ? `PASS (${assertions} assertions, ${killed}/${TOTAL} poisons killed${QUICK ? ', --quick: sweep skipped' : ''})` : `FAIL (${fails.length} findings, ${killed}/${TOTAL} poisons killed)`);
+    console.log(pass ? `PASS (${assertions} assertions, ${killed}/${GRAND} poisons killed${QUICK ? ', --quick: sweep skipped' : ''})` : `FAIL (${fails.length} findings, ${killed}/${GRAND} poisons killed)`);
     process.exit(pass ? 0 : 1);
   } finally {
     await browser.close();

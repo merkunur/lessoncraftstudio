@@ -619,7 +619,7 @@
     },
     {
       "id": "f05",
-      "text": "Alma {form} en kage til sin mor.",
+      "text": "Hver søndag {form} Alma en kage.",
       "col": "pres",
       "unit": "nutid-datid",
       "fits": [
@@ -641,7 +641,7 @@
     },
     {
       "id": "f07",
-      "text": "William {form} et billede af sin hund.",
+      "text": "Lige nu {form} William sin hund.",
       "col": "pres",
       "unit": "nutid-datid",
       "fits": [
@@ -652,7 +652,7 @@
     },
     {
       "id": "f08",
-      "text": "Om aftenen {form} Freja en bog.",
+      "text": "Hver aften {form} Freja en bog.",
       "col": "pres",
       "unit": "nutid-datid",
       "fits": [
@@ -679,7 +679,7 @@
     },
     {
       "id": "f10",
-      "text": "Clara {form} sine hænder før maden.",
+      "text": "Hver dag {form} Clara sine hænder.",
       "col": "pres",
       "unit": "nutid-datid",
       "fits": [
@@ -701,7 +701,7 @@
     },
     {
       "id": "f12",
-      "text": "Noah {form} altid til musik.",
+      "text": "Hver dag {form} Noah til musik.",
       "col": "pres",
       "unit": "nutid-datid",
       "fits": [
@@ -724,7 +724,7 @@
     },
     {
       "id": "f14",
-      "text": "Oscar {form} højt af den sjove film.",
+      "text": "Lige nu {form} Oscar af den sjove film.",
       "col": "pres",
       "unit": "nutid-datid",
       "fits": [
@@ -746,7 +746,7 @@
     },
     {
       "id": "f16",
-      "text": "Freja {form} op i træet.",
+      "text": "Lige nu {form} Freja op i træet.",
       "col": "pres",
       "unit": "nutid-datid",
       "fits": [
@@ -768,7 +768,7 @@
     },
     {
       "id": "f18",
-      "text": "Ida {form} saftevand til frokost.",
+      "text": "Hver dag {form} Ida saftevand.",
       "col": "pres",
       "unit": "nutid-datid",
       "fits": [
@@ -790,7 +790,7 @@
     },
     {
       "id": "f20",
-      "text": "Emma {form} sig bag sofaen.",
+      "text": "Lige nu {form} Emma sig bag sofaen.",
       "col": "pres",
       "unit": "nutid-datid",
       "fits": [
@@ -813,7 +813,7 @@
     },
     {
       "id": "f22",
-      "text": "Oscar {form} på en stol i klassen.",
+      "text": "Lige nu {form} Oscar på en stol.",
       "col": "pres",
       "unit": "nutid-datid",
       "fits": [
@@ -835,7 +835,7 @@
     },
     {
       "id": "f24",
-      "text": "Emil {form} tasken hele vejen.",
+      "text": "Hver dag {form} Emil sin taske.",
       "col": "pres",
       "unit": "nutid-datid",
       "fits": [
@@ -871,7 +871,7 @@
     },
     {
       "id": "f27",
-      "text": "Noah {form} en ny cykel.",
+      "text": "Nu {form} Noah en ny cykel.",
       "col": "pres",
       "unit": "nutid-datid",
       "fits": [
@@ -894,7 +894,7 @@
     },
     {
       "id": "f29",
-      "text": "Alma {form} glad i dag.",
+      "text": "Alma {form} glad lige nu.",
       "col": "pres",
       "unit": "nutid-datid",
       "fits": [
@@ -917,7 +917,7 @@
     },
     {
       "id": "f31",
-      "text": "William {form} en hund derhjemme.",
+      "text": "Nu {form} William en hund derhjemme.",
       "col": "pres",
       "unit": "nutid-datid",
       "fits": [
@@ -947,8 +947,8 @@
       "instruction": "Læs hvert udsagnsord til venstre. Tegn en streg til dets datid til højre, én streg til hvert ord."
     },
     "F3": {
-      "title": "Udsagnsord i sætninger med billeder",
-      "instruction": "Se på billedet, og læs udsagnsordet i brikken. Skriv den form, der passer i sætningen, i den stiplede kasse."
+      "title": "Uregelmæssige udsagnsord: nutid og datid",
+      "instruction": "Disse udsagnsord bøjes helt anderledes. Skriv nutid og datid af hvert af dem i de stiplede kasser."
     },
     "F4": {
       "title": "De uregelmæssige udsagnsord: være, have, gå, få, se",

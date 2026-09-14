@@ -3,8 +3,7 @@
   "casing": "lower",
   "links": [
     "",
-    "e",
-    "s"
+    "e"
   ],
   "linkBoxW": 36,
   "exemplar": "A",
@@ -262,38 +261,6 @@
             "pic": {
               "theme": "christmas",
               "noun": "gingerbread"
-            }
-          },
-          "hubSide": "b",
-          "opaque": false,
-          "picOpened": true
-        },
-        {
-          "a": {
-            "vocabKey": "arm",
-            "word": "arm",
-            "pic": {
-              "theme": "body parts",
-              "noun": "arm"
-            }
-          },
-          "aStem": null,
-          "link": "",
-          "b": {
-            "vocabKey": "ribbon",
-            "word": "bånd",
-            "pic": {
-              "theme": "accessories",
-              "noun": "ribbon"
-            }
-          },
-          "whole": {
-            "word": "armbånd",
-            "vocabKey": "bracelet",
-            "scale": 1,
-            "pic": {
-              "theme": "accessories",
-              "noun": "bracelet"
             }
           },
           "hubSide": "b",
@@ -1257,15 +1224,6 @@
     "christmas/gingerbread": [
       "gingerbread"
     ],
-    "body parts/arm": [
-      "arm"
-    ],
-    "accessories/ribbon": [
-      "ribbon"
-    ],
-    "accessories/bracelet": [
-      "bracelet"
-    ],
     "camping/river": [
       "river"
     ],
@@ -1438,8 +1396,8 @@
       "instruction": "Sig navnet på de to billeder, sæt de to ord sammen, og skriv det nye ord på linjen."
     },
     "F1": {
-      "title": "Hvad skal ind i midten? Binde-s og binde-e",
-      "instruction": "Begge ord står skrevet. Skriv det bogstav, der binder dem sammen, i kassen, eller lad den stå tom. Skriv så hele ordet på linjen."
+      "title": "Hvad skal ind i midten? Binde-e eller ingenting",
+      "instruction": "Begge ord står skrevet. Skal der et binde-e i kassen? Skriv det, eller lad kassen stå tom. Skriv så hele ordet på linjen."
     },
     "F2": {
       "title": "Del det sammensatte ord: find de to ord",

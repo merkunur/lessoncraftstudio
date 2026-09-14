@@ -1495,7 +1495,7 @@
       "id": "hus-mus",
       "lines": [
         "Inde i det gamle hus",
-        "bor der en lille grå ___."
+        "bor der en lille ___."
       ],
       "answer": {
         "vocabKey": "mouse"
@@ -1531,7 +1531,7 @@
       "id": "sol-stol",
       "lines": [
         "Far sidder ude i den varme sol",
-        "på sin gamle grønne ___."
+        "på sin gode gamle ___."
       ],
       "answer": {
         "vocabKey": "chair"
@@ -1555,7 +1555,7 @@
       "id": "hest-vest",
       "lines": [
         "Manden rider på sin hest,",
-        "han har en flot og rød ___."
+        "han har en flot og fin ___."
       ],
       "answer": {
         "vocabKey": "vest"

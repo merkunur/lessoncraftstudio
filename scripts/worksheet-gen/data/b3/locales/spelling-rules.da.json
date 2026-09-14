@@ -10,7 +10,7 @@
   "rules": {
     "ll": {
       "id": "ll",
-      "head": "dobbelt l",
+      "head": "l eller ll",
       "chip": "ll",
       "band": "G2",
       "gap": {
@@ -26,7 +26,7 @@
         "ll",
         "l"
       ],
-      "pairHead": "ll eller l",
+      "pairHead": "l eller ll",
       "proof": null,
       "models": [
         {
@@ -122,19 +122,19 @@
           "pluralGap": null
         },
         {
-          "theme": "flowers",
-          "noun": "carnation",
-          "vocabKey": "carnation",
-          "word": "nellike",
+          "theme": "activities",
+          "noun": "basketball",
+          "vocabKey": "basketball",
+          "word": "basketball",
           "gaps": [
             {
-              "from": 2,
+              "from": 8,
               "len": 2
             }
           ],
           "g": "ll",
           "side": "rule",
-          "plural": "nelliker",
+          "plural": "basketball",
           "pluralGap": null
         },
         {
@@ -410,10 +410,10 @@
           "pluralGap": null
         },
         {
-          "theme": "shapes",
-          "noun": "cone",
-          "vocabKey": "cone",
-          "word": "kegle",
+          "theme": "furniture",
+          "noun": "chair",
+          "vocabKey": "chair",
+          "word": "stol",
           "gaps": [
             {
               "from": 3,
@@ -422,7 +422,7 @@
           ],
           "g": "l",
           "side": "contrast",
-          "plural": "kegler",
+          "plural": "stole",
           "pluralGap": null
         },
         {
@@ -1758,7 +1758,7 @@
   "strings": {
     "G2-315": {
       "title": "Staveregler: {UNIT}",
-      "instruction": "Læs reglen i kassen. Sig ordet til hvert billede, og skriv så de bogstaver, reglen handler om, i de stiplede kasser."
+      "instruction": "Læs reglen i kassen. Sig ordet til hvert billede, og skriv det, der mangler, i kassen: ét bogstav eller to. Ikke alle ord følger reglen."
     },
     "G2-324": {
       "title": "Hvilken stavemåde? {UNIT}",
@@ -1766,10 +1766,10 @@
     },
     "G2-325": {
       "title": "Stavedetektiv: {UNIT}",
-      "instruction": "Læs hvert ord. Find regelbogstaverne, sæt ring om dem i ordet, og skriv dem så i den lille kasse."
+      "instruction": "Læs hvert ord. Find det sted, reglen handler om. Sæt ring om bogstavet eller bogstaverne der, og skriv dem i den lille kasse."
     },
     "G2-326": {
-      "title": "Sortér efter staveregel: {UNIT}",
+      "title": "Sortér ordene efter staveregel: {UNIT}",
       "instruction": "Sig ordet til hvert billede. Skriv det i kassen med dets stavemåde, ét ord på hver linje."
     },
     "G2-327": {

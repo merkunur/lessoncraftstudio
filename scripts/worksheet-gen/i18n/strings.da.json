@@ -1969,7 +1969,7 @@
   },
   "G2-315": {
     "title": "Staveregler: {UNIT}",
-    "instruction": "Læs reglen i kassen. Sig ordet til hvert billede, og skriv så de bogstaver, reglen handler om, i de stiplede kasser."
+    "instruction": "Læs reglen i kassen. Sig ordet til hvert billede, og skriv det, der mangler, i kassen: ét bogstav eller to. Ikke alle ord følger reglen."
   },
   "G2-316": {
     "title": "Sammensatte ord: billede + billede",
@@ -2273,10 +2273,10 @@
   },
   "G2-325": {
     "title": "Stavedetektiv: {UNIT}",
-    "instruction": "Læs hvert ord. Find regelbogstaverne, sæt ring om dem i ordet, og skriv dem så i den lille kasse."
+    "instruction": "Læs hvert ord. Find det sted, reglen handler om. Sæt ring om bogstavet eller bogstaverne der, og skriv dem i den lille kasse."
   },
   "G2-326": {
-    "title": "Sortér efter staveregel: {UNIT}",
+    "title": "Sortér ordene efter staveregel: {UNIT}",
     "instruction": "Sig ordet til hvert billede. Skriv det i kassen med dets stavemåde, ét ord på hver linje."
   },
   "G2-327": {
@@ -2288,8 +2288,8 @@
     "instruction": "Læs ordet for én. Skriv ordet for flere i kasserne. Flertallet ændrer stavemåden."
   },
   "G2-329": {
-    "title": "Hvad skal ind i midten? Binde-s og binde-e",
-    "instruction": "Begge ord står skrevet. Skriv det bogstav, der binder dem sammen, i kassen, eller lad den stå tom. Skriv så hele ordet på linjen."
+    "title": "Hvad skal ind i midten? Binde-e eller ingenting",
+    "instruction": "Begge ord står skrevet. Skal der et binde-e i kassen? Skriv det, eller lad kassen stå tom. Skriv så hele ordet på linjen."
   },
   "G2-330": {
     "title": "Del det sammensatte ord: find de to ord",
@@ -2316,7 +2316,7 @@
     "instruction": "Se på billedet, og læs udsagnsordet i brikken. Skriv den form, der passer i sætningen, i den stiplede kasse."
   },
   "G2-336": {
-    "title": "De uregelmæssige udsagnsord: være, have, gå, få, se",
+    "title": "Uregelmæssige udsagnsord: nutid og datid",
     "instruction": "Disse udsagnsord bøjes helt anderledes. Skriv nutid og datid af hvert af dem i de stiplede kasser."
   },
   "G2-337": {
@@ -2328,15 +2328,15 @@
     "instruction": "Sæt streg under udsagnsordet i hver sætning. Skriv så dets navnemåde i den stiplede kasse."
   },
   "G2-339": {
-    "title": "Faktakort om {U}: sæt ring om det rigtige",
+    "title": "Faktakort om {L}: sæt ring om det rigtige",
     "instruction": "Læs mulighederne i hver række, og sæt ring om den, der passer på dyret. Tegn så, hvor det bor, og gør sætningen færdig."
   },
   "G2-340": {
-    "title": "Faktakort med ordbank: {U}",
+    "title": "Faktakort med ordbank: {L}",
     "instruction": "Find hver rigtig oplysning i ordbanken, og skriv den i den rigtige række på faktakortet. Gør så sætningen nederst færdig."
   },
   "G2-341": {
-    "title": "Faktakort: skriv tre sætninger om {U}",
+    "title": "Faktakort: skriv tre sætninger om {L}",
     "instruction": "Læs faktakortet. Gør de tre sætninger færdige med oplysninger fra det, og skriv så én oplysning mere selv på den sidste linje."
   },
   "G2-342": {

@@ -10,6 +10,6 @@ module.exports = {
   id: 'G2-321',
   slug: 'hundreds-chart-puzzles-jump-puzzles',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Jump Puzzles: Follow the Arrows", instruction: "Start at the number and follow the arrows: up is 10 less, down is 10 more, right is 1 more. Write where you land." } },
+  i18n: { en: { title: "Jump Puzzles: Follow the Arrows", instruction: "Start at the number and follow the arrows: up is 10 less, down is 10 more, left is 1 less, right is 1 more. Write where you land." } },
   gradeBand: "G2",
 };

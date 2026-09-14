@@ -967,7 +967,7 @@ async function main() {
     refuse({ theme: 'animals bw', difficulty: 2, locale: 'en', unit: 'fox' }, /B&W/, 'a B&W theme');
     refuse({ theme: THEME, difficulty: 2, locale: 'en', unit: 'lion' }, /not pictured in theme/, 'an unpictured unit');
     refuse({ theme: 'animals', difficulty: 2, locale: 'en' }, /pin the unit/, 'a unit-less build on a theme whose exemplar is not the title exemplar');
-    refuse({ theme: THEME, difficulty: 2, locale: 'de' }, /no de block/, 'an unauthored locale');
+    refuse({ theme: THEME, difficulty: 2, locale: 'xx' }, /no xx block/, 'an unauthored locale');
     refuse({ theme: THEME, difficulty: 2, locale: 'en', unit: 'dragon' }, /not in animal-facts/, 'an unknown unit');
     {
       const units = TYPE.unitAxis.units('en');

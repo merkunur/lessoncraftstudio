@@ -50,7 +50,7 @@ const ROWS = [
     'Decide whether each division comes out exactly. Circle your choice and write the remainder, 0 if there is none.',
     { themeAxis: { applicable: false } }],
   ['g3', 'G3-383', 'division-with-remainder-find-the-error', 'G3-377-division-with-remainder.js', 2,
-    { mode: 'error', cards: 8, kinds: { rBig: 6, sum: 2 }, clean: 0, nMin: 7, nMax: null, qMax: 10, minR: 1, maxPerD: 3, minDistinctD: 3, minQ2Cards: 0, rVaries: true, distinctN: true, rowGap: 4 },
+    { mode: 'error', cards: 8, kinds: { rBig: 8 }, clean: 0, nMin: 7, nMax: null, qMax: 10, minR: 1, maxPerD: 3, minDistinctD: 3, minQ2Cards: 0, rVaries: true, distinctN: true, rowGap: 4 },
     'Find the Error: The Remainder Is Too Big',
     'Every division has been worked out wrongly. Cross out the wrong numbers and write the right answer and remainder in the boxes.',
     { themeAxis: { applicable: false } }],

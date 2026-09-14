@@ -356,7 +356,7 @@ const SYLLABLE_READING = {
       // the five faces (Phase 2) — the emitted specs types/g1/G1-33x-*.js carry the same EN text
       'G1-330': { title: 'Word Families: Read and Circle', instruction: 'Read the words on the carpet out loud. Say each picture word, then circle the one word under the picture that names it.' },
       'G1-331': { title: 'Join the Syllables and Write the Word', instruction: 'Read the two syllables on each card in order. Say them together, then write the whole word on the line.' },
-      'G1-332': { title: 'Word Family Carpet: Read and Colour', instruction: 'Read every word on the carpet out loud. Then find each picture\'s word on the carpet and colour that word in the picture\'s colour.' },
+      'G1-332': { title: 'Word Family Carpet: Read and Color', instruction: 'Read every word on the carpet out loud. Then find each picture\'s word on the carpet and color that word in the picture\'s color.' },
       'G1-333': { title: 'Word Families with Blends', instruction: 'Read every word on the carpet out loud. Say each picture word, find it on the carpet, then write the two letters it starts with on the line.' },
       'G1-334': { title: 'Read the Syllables, Find the Picture', instruction: 'Read each word syllable by syllable. Find its picture in the bank at the top and write the picture\'s number in the box.' },
     },

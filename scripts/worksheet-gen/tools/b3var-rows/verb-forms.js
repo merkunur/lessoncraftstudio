@@ -49,7 +49,7 @@ const ROWS = [
   // + 3 lanes = 9 items; persons 2 tables (sein/haben), 1 given, >= 4 hard gaps, + 3 lanes. Headers chip-only (no action picture).
   ['g2', 'G2-336', 'verb-forms-helper-verbs', 'G2-317-verb-forms.js', 2,
     { pool: 'irregular', tables: 2, verbsPerPage: 2, given: 1, minHardGaps: 4, tenseRows: 4, tenseGaps: 6, minPerCol: 3 },
-    'The Helper Verbs: be, have, do, go',
+    'The Irregular Verbs: be, have, do, go',
     'These verbs change a lot. Write the today form and the yesterday form of each one in the dashed boxes.'],
   // F5 — DISCRIMINATE: 8 rows × 3 pills. 8 × 80 + 7 × 8 = 696 <= 710; inner 70 (padding 5) = the sentence line 28 (its INLINE
   // slot box is 26 high — a 38 box lifts the line to 40 and the pills leave the row at the worst chrome, measured) + 4 + pills 36.

@@ -4,7 +4,7 @@ const base = require('./G3-377-division-with-remainder.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"mode":"error","cards":8,"kinds":{"rBig":6,"sum":2},"clean":0,"nMin":7,"nMax":null,"qMax":10,"minR":1,"maxPerD":3,"minDistinctD":3,"minQ2Cards":0,"rVaries":true,"distinctN":true,"rowGap":4} };
+const D = { ...base.difficulty[2], ...{"mode":"error","cards":8,"kinds":{"rBig":8},"clean":0,"nMin":7,"nMax":null,"qMax":10,"minR":1,"maxPerD":3,"minDistinctD":3,"minQ2Cards":0,"rVaries":true,"distinctN":true,"rowGap":4} };
 module.exports = {
   ...base,
   id: 'G3-383',

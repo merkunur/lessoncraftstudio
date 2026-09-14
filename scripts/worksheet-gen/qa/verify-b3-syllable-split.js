@@ -359,7 +359,7 @@ async function sectionPoisons(page) {
   poison('en body parts d2 (pool 6 < 8) builds', /REFUSED/.test(threw || ''), threw);
   threw = null;
   try { spec.build({ theme: EXEMPLAR, difficulty: 2, locale: 'de' }, { rng: require('../lib/rng.js').makeRng('G1-305|poison|1') }); } catch (e) { threw = e.message; }
-  poison('a locale without a bank block builds (de)', /no de block/.test(threw || ''), threw);
+  poison('a locale without a bank block builds (de)', /no xx block/.test(threw || ''), threw);
   const baseKilled = killed, baseTotal = total;
   await sectionFacePoisons(page, poison);
   console.log(`  poisons ${killed}/${total} killed (base ${baseKilled}/${baseTotal}, faces ${killed - baseKilled}/${total - baseTotal})`);

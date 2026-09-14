@@ -29,7 +29,7 @@ const ROWS = [
   // correct index takes all three positions. Chips Baloo 16, padding 4 20, h 40 (3 × ≤ 132 + 16 ≤ 495).
   ['g2', 'G2-339', 'animal-fact-file-tick-the-facts', 'G2-318-animal-fact-file.js', 2,
     { cell: 'chips', choices: 3, chipPx: 16, chipH: 40, chipPadX: 20 },
-    '{U} Fact File: Tick the Facts', 'Read the choices in each row and circle the one that is true for this animal. Then draw where it lives and finish the sentence.'],
+    '{U} Fact File: Circle the True Facts', 'Read the choices in each row and circle the one that is true for this animal. Then draw where it lives and finish the sentence.'],
   // F3 — SELECT + SPELL: the draw-box slot (417 × 156) holds a bank of the 6 truths + 4 distractors
   // from ≥ 2 fields, shuffled (10 words on ≤ 3 rows at 17 px — the gate measures scrollHeight); lanes stay.
   ['g2', 'G2-340', 'animal-fact-file-with-a-word-bank', 'G2-318-animal-fact-file.js', 2,

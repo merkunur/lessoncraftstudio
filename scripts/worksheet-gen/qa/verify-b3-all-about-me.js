@@ -619,7 +619,7 @@ async function main() {
     }
     // a locale without a bank block REFUSES (never an en fallback)
     let refused = false;
-    try { TYPE.build({ theme: null, difficulty: 2, locale: 'de' }, { rng: makeRng('x') }); } catch (e) { refused = /no de block/.test(e.message); }
+    try { TYPE.build({ theme: null, difficulty: 2, locale: 'xx' }, { rng: makeRng('x') }); } catch (e) { refused = /no xx block/.test(e.message); }
     ok(refused, 'an unauthored locale must REFUSE (throw), not fall back to en');
 
     // 3. seed sweep: the base is seedless → byte-identical

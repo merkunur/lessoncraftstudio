@@ -649,7 +649,15 @@ module.exports = {
       sats.forEach((it) => usedWholes.add(lower(it.whole.word)));
       const rows = sats.map((it) => {
         const wp = resolveKey(rng, bank, it.whole.vocabKey, loc, who);
-        return { whole: { src: wp.src, key: it.whole.vocabKey, px: d.pic }, ghost: { src: hp.src, key: x.h.hub.vocabKey, px: d.pic, opacity: d.ghost }, lane, stamps: stampsOf(it) };
+        // The hub-side part of a onePart satellite may carry no vocabKey of its own (fi
+        // kuppikakku: kuppi pictured, kakku = the hub) — stampsOf then falls back to the
+        // WORD and the verify's "stamp = hub key" check fails on a correct page (fi
+        // G2-333 QA-FAIL, 2026-09-14). On the web the hub side IS the hub, whose key the
+        // hub block already carries: stamp that key.
+        const stamps = stampsOf(it);
+        const hubPart = it[x.h.side];
+        if (hubPart && !hubPart.vocabKey && lower(hubPart.word) === lower(x.h.hub.word)) stamps[x.h.side] = x.h.hub.vocabKey;
+        return { whole: { src: wp.src, key: it.whole.vocabKey, px: d.pic }, ghost: { src: hp.src, key: x.h.hub.vocabKey, px: d.pic, opacity: d.ghost }, lane, stamps };
       });
       return compoundWebBlock({ hub: { src: hp.src, key: x.h.hub.vocabKey, word: x.h.hub.word }, side: x.h.side, lanes: rows, hubPx: d.hubPx, hubWordPx: d.hubWordPx, laneGap: lanes === 3 ? d.webLaneGap * 3 : d.webLaneGap, pad: '8px 6px' });
     });

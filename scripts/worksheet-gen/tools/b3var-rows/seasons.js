@@ -38,7 +38,7 @@ const ROWS = [
     'Seasons: What Does Not Belong?', 'Cross out the one picture in each row that belongs to a different season.'],
   ['g1', 'G1-323', 'seasons-months-and-seasons', 'K-322-seasons.js', 2,
     { layout: 'months', months: 12, legend: 'color', mode: 'circle', tileW: 217, colGap: 12, tileH: 88, tileMax: 128, circle: 48, namePx: 22 },
-    'Months and Seasons: Colour the Season', 'Colour the circle next to each month in the colour of its season.',
+    'Months and Seasons: Color the Season', 'Color the circle next to each month in the color of its season.',
     { gradeBand: 'G1' }],
   ['k', 'K-341', 'seasons-draw-the-tree', 'K-322-seasons.js', 2,
     { layout: 'tree', figure: 'tree', caption: false },

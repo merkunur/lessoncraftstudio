@@ -50,7 +50,7 @@ const ROWS = [
   ['g2', 'G2-333', 'compound-words-word-web', 'G2-316-compound-words.js', 2,
     { mode: 'web', webs: 2, lanes: 4, hubPx: 96, hubWordPx: 24, pic: 56, ghost: 0.55, laneW: 300, laneH: 64, glyphH: 28, webLaneGap: 8, maxLetters: 13, gap: 8, sizeRows: 6, sizePic: 72, sizeLaneW: 410, minEach: 3 },
     'Word Web: One Word, Many Compounds',
-    'One word sits in the middle. Each picture around it makes a new word with it. Write the four new words on the lines.'],
+    'One word sits in the middle. Each picture around it makes a new word with it. Write each new word on its line.'],
 ];
 const HANDWRITTEN = []; // [{ id, dir, file, base: 'G2-316' }]
 module.exports = { ROWS, HANDWRITTEN };

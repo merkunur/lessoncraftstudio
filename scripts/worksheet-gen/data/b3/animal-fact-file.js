@@ -200,7 +200,7 @@ const FACT_FILE = {
         instruction: 'Find out about this animal. Write one fact in each row of the fact file, then fill in the rest of the page with your own drawing or words.',
       },
       'G2-339': {
-        title: '{U} Fact File: Tick the Facts',
+        title: '{U} Fact File: Circle the True Facts',
         instruction: 'Read the choices in each row and circle the one that is true for this animal. Then draw where it lives and finish the sentence.',
       },
       'G2-340': {

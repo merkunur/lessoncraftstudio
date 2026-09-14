@@ -4,7 +4,7 @@ const base = require('../g2/G2-319-logic-puzzles.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"size":4,"clues":[4,6],"kinds":["neg","either"],"maxEither":2,"headW":104,"namePx":18,"picPx":52,"answer":"none"} };
+const D = { ...base.difficulty[2], ...{"size":4,"clues":[6,6],"kinds":["neg","either"],"maxEither":2,"headW":104,"namePx":18,"picPx":52,"answer":"none"} };
 module.exports = {
   ...base,
   id: 'G3-378',

@@ -388,7 +388,7 @@ const LETTER_OF_THE_WEEK = {
       },
       'K-326': {
         title: 'Beginning, Middle or End: Where Is the {U}?',
-        instruction: 'Say each picture. Colour the box that shows where you hear {U}: at the beginning, in the middle or at the end.',
+        instruction: 'Say each picture. Color the box that shows where you hear {U}: at the beginning, in the middle or at the end.',
       },
       'K-327': {
         title: 'Circle the {U} in the Words and Count',

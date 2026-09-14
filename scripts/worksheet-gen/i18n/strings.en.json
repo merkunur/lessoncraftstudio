@@ -717,7 +717,7 @@
   },
   "K-326": {
     "title": "Beginning, Middle or End: Where Is the {U}?",
-    "instruction": "Say each picture. Colour the box that shows where you hear {U}: at the beginning, in the middle or at the end."
+    "instruction": "Say each picture. Color the box that shows where you hear {U}: at the beginning, in the middle or at the end."
   },
   "K-327": {
     "title": "Circle the {U} in the Words and Count",
@@ -1460,8 +1460,8 @@
     "instruction": "Read each short form and draw a line to the day it stands for."
   },
   "G1-323": {
-    "title": "Months and Seasons: Colour the Season",
-    "instruction": "Colour the circle next to each month in the colour of its season."
+    "title": "Months and Seasons: Color the Season",
+    "instruction": "Color the circle next to each month in the color of its season."
   },
   "G1-324": {
     "title": "Syllable Cards: Read the Word in Parts",
@@ -1496,8 +1496,8 @@
     "instruction": "Read the two syllables on each card in order. Say them together, then write the whole word on the line."
   },
   "G1-332": {
-    "title": "Word Family Carpet: Read and Colour",
-    "instruction": "Read every word on the carpet out loud. Then find each picture's word on the carpet and colour that word in the picture's colour."
+    "title": "Word Family Carpet: Read and Color",
+    "instruction": "Read every word on the carpet out loud. Then find each picture's word on the carpet and color that word in the picture's color."
   },
   "G1-333": {
     "title": "Word Families with Blends",
@@ -2001,7 +2001,7 @@
   },
   "G2-321": {
     "title": "Jump Puzzles: Follow the Arrows",
-    "instruction": "Start at the number and follow the arrows: up is 10 less, down is 10 more, right is 1 more. Write where you land."
+    "instruction": "Start at the number and follow the arrows: up is 10 less, down is 10 more, left is 1 less, right is 1 more. Write where you land."
   },
   "G2-322": {
     "title": "Mystery Number: Two Arrows, One Square",
@@ -2049,7 +2049,7 @@
   },
   "G2-333": {
     "title": "Word Web: One Word, Many Compounds",
-    "instruction": "One word sits in the middle. Each picture around it makes a new word with it. Write the four new words on the lines."
+    "instruction": "One word sits in the middle. Each picture around it makes a new word with it. Write each new word on its line."
   },
   "G2-334": {
     "title": "Match the Verb to Its Past Form",
@@ -2060,7 +2060,7 @@
     "instruction": "Look at the picture and read the verb in the chip. Write the form that fits the sentence in the dashed box."
   },
   "G2-336": {
-    "title": "The Helper Verbs: be, have, do, go",
+    "title": "The Irregular Verbs: be, have, do, go",
     "instruction": "These verbs change a lot. Write the today form and the yesterday form of each one in the dashed boxes."
   },
   "G2-337": {
@@ -2072,7 +2072,7 @@
     "instruction": "Underline the verb in each sentence. Then write its base form in the dashed box."
   },
   "G2-339": {
-    "title": "{U} Fact File: Tick the Facts",
+    "title": "{U} Fact File: Circle the True Facts",
     "instruction": "Read the choices in each row and circle the one that is true for this animal. Then draw where it lives and finish the sentence."
   },
   "G2-340": {

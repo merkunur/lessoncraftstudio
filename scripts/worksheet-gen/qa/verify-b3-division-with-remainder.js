@@ -768,7 +768,7 @@ async function main() {
       ['a BW theme (zoo animals bw)', { theme: 'zoo animals bw' }, /B&W/],
       ['a theme below the noun floor (emotions)', { theme: 'emotions' }, /countable nouns/],
       ['an unknown unit (3-4)', { theme: THEME, unit: '3-4' }, /unknown unit/],
-      ['an unauthored locale (de: no bank block)', { theme: THEME, locale: 'de' }, /no de block/],
+      ['an unauthored locale (xx: no bank block)', { theme: THEME, locale: 'xx' }, /no xx block/],
     ];
     for (const [name, job, want] of refusals) {
       let err = null;
@@ -841,7 +841,7 @@ async function main() {
     htmlPoison('a casita r box carrying text', (h) => mustReplace(h, /(<rect[^>]*data-lcs-answer="" data-lcs-role="r")\/>/, '$1></rect><text x="40" y="66" font-family="\'Baloo 2\'" font-size="22" fill="#3A3530" text-anchor="middle" dominant-baseline="central">3</text>', 'casita r box'), /answer printed|prints the answer/, { locale: 'es', inj: { bank: synthBlock('es', SYNTH.es) } });
     buildPoison('an unknown unit (3-4) refused at build', () => renderCheck(page, type, null, { difficulty: 2, locale: loc, theme: THEME, unit: '3-4', baseName: 'G3-377-poison-unit' }), /unknown unit/);
     buildPoison('a theme below the noun floor refused', () => renderCheck(page, type, null, { difficulty: 2, locale: loc, theme: 'emotions', baseName: 'G3-377-poison-emotions' }), /countable nouns/);
-    buildPoison('an unauthored locale refused (no bank block)', () => renderCheck(page, type, null, { difficulty: 2, locale: 'de', theme: THEME, baseName: 'G3-377-poison-de' }), /no de block/);
+    buildPoison('an unauthored locale refused (no bank block)', () => renderCheck(page, type, null, { difficulty: 2, locale: 'xx', theme: THEME, baseName: 'G3-377-poison-xx' }), /no xx block/);
     buildPoison('a template with {q} twice refused', () => renderCheck(page, type, { bank: (() => { const b = clone(en); b.notation.template = '{n} ÷ {d} = {q} R{q}'; return b; })() }, { difficulty: 2, locale: loc, theme: THEME, baseName: 'G3-377-poison-tpl' }), /exactly once/);
     buildPoison('a config with minR 0 refused', () => renderCheck(page, type, { cfg: { ...type.difficulty[2], minR: 0 } }, { difficulty: 2, locale: loc, theme: THEME, baseName: 'G3-377-poison-minr' }), /minR must be/);
     buildPoison('a casita with remWord "residuo" refused (no room left of the r box)', () => renderCheck(page, type, { bank: synthBlock('pt', { op: '÷', template: '{n} ÷ {d} = {q} R{r}', boxStyle: 'casita', remWord: 'residuo' }) }, { difficulty: 2, locale: 'pt', theme: THEME, baseName: 'G3-377-poison-resto' }), /does not fit/);

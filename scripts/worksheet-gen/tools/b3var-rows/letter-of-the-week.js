@@ -27,7 +27,7 @@ const ROWS = [
   ['k', 'K-326', 'letter-of-the-week-beginning-middle-end', 'K-317-letter-of-the-week.js', 2,
     { ...SLIM, positions: { cards: 6, cols: 2, split: [2, 2, 2], cardW: 323, cardH: 180, iconPx: 96, boxPx: 44, glyphH: 30, laneH: 42 } },
     'Beginning, Middle or End: Where Is the {U}?',
-    'Say each picture. Colour the box that shows where you hear {U}: at the beginning, in the middle or at the end.'],
+    'Say each picture. Color the box that shows where you hear {U}: at the beginning, in the middle or at the end.'],
   ['k', 'K-327', 'letter-of-the-week-circle-and-count', 'K-317-letter-of-the-week.js', 2,
     { ...SLIM, wordHunt: { rows: 6, capsRows: 2, maxLetters: 9, occ: [1, 2], minTotal: 8, iconPx: 72, laneW: 440, laneH: 56, glyphH: 40, boxPx: 56, gap: 10 } },
     'Circle the {U} in the Words and Count',

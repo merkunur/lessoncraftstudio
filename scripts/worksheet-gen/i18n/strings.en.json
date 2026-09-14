@@ -711,6 +711,118 @@
     "title": "Picture Word Cards",
     "instruction": "Cut along the dotted lines to make the cards. Say the name of each picture, then read its word."
   },
+  "K-325": {
+    "title": "Words with {U}: Hear It Anywhere",
+    "instruction": "Trace the letter, then circle the four pictures that have the {U} sound somewhere inside the word, not at the start."
+  },
+  "K-326": {
+    "title": "Beginning, Middle or End: Where Is the {U}?",
+    "instruction": "Say each picture. Colour the box that shows where you hear {U}: at the beginning, in the middle or at the end."
+  },
+  "K-327": {
+    "title": "Circle the {U} in the Words and Count",
+    "instruction": "Find every {U} or {L} in each word and circle it. Then write in the box how many you found."
+  },
+  "K-328": {
+    "title": "M or N? Hear the Difference",
+    "instruction": "Say each picture. Circle the letter it begins with: m or n."
+  },
+  "K-329": {
+    "title": "Count the Sounds",
+    "instruction": "Say the picture word slowly. Draw one dot in the long box for every sound you hear. Then write how many sounds in the small box."
+  },
+  "K-330": {
+    "title": "First Sound Given",
+    "instruction": "The first sound is written for you. Say the picture word slowly and write one sound in each empty box. A wide box holds two letters for one sound."
+  },
+  "K-331": {
+    "title": "How Do You Feel? Circle the Face",
+    "instruction": "Look at the picture, think how you would feel, and circle the face that matches."
+  },
+  "K-332": {
+    "title": "Draw the Feeling Face",
+    "instruction": "Read the feeling word and draw a face that shows it in the empty circle."
+  },
+  "K-333": {
+    "title": "Feels Good or Feels Bad? Sort the Faces",
+    "instruction": "Draw a line from each face to the box that says whether the feeling feels good or bad."
+  },
+  "K-334": {
+    "title": "Which Face Shows the Feeling?",
+    "instruction": "Read the feeling word and circle the one face in the row that shows it."
+  },
+  "K-335": {
+    "title": "How Do I Feel Today?",
+    "instruction": "Circle the face that shows how you feel today, then draw your own face."
+  },
+  "K-336": {
+    "title": "Ordinal Numbers from Either End: Start at the Flag",
+    "instruction": "Look for the flag first: it can stand at either end. Start there, count to the number of each chip and make the mark it shows."
+  },
+  "K-337": {
+    "title": "Missing Days: Write the Week in Order",
+    "instruction": "Some days are already written on the ladder. Copy the missing days from the word bank into the right places."
+  },
+  "K-338": {
+    "title": "Which Season Is It?",
+    "instruction": "Look at the three pictures on each card and circle the season sign they belong to."
+  },
+  "K-339": {
+    "title": "Season Wheel: Seasons in Order",
+    "instruction": "One season is already on the wheel. Draw the other three signs in the empty circles in the right order."
+  },
+  "K-340": {
+    "title": "Seasons: What Does Not Belong?",
+    "instruction": "Cross out the one picture in each row that belongs to a different season."
+  },
+  "K-341": {
+    "title": "Draw the Tree in Four Seasons",
+    "instruction": "Draw what the tree looks like in each of the four seasons."
+  },
+  "K-342": {
+    "title": "My Favorite Things: Circle and Write",
+    "instruction": "In each row, circle your favorite picture and copy its word onto the line."
+  },
+  "K-343": {
+    "title": "All About My Family: Draw and Count",
+    "instruction": "Draw your family. Then show how many people, brothers, sisters and pets on the ten-frames and write the number."
+  },
+  "K-344": {
+    "title": "This Is Me: Label the Face",
+    "instruction": "Copy each word from the bank onto the line that points to that part of the face. Then draw your own face."
+  },
+  "K-345": {
+    "title": "I Can: Tick What You Can Do",
+    "instruction": "Read each sentence and tick the things you can do. Then write one thing you want to learn."
+  },
+  "K-346": {
+    "title": "My Name: Write, Count and Compare",
+    "instruction": "Write your name with one letter in each box and count the letters. Then do the same for a friend and circle who has more."
+  },
+  "K-347": {
+    "title": "Picture Cards and Word Cards: Matching Pairs",
+    "instruction": "Cut out the sixteen cards. Lay the word cards next to the pictures they name, or turn them all face down and play Memory."
+  },
+  "K-348": {
+    "title": "A or An: Word Cards with the Article",
+    "instruction": "Cut out the eight cards. Say each word with its article, just as it is written on the card."
+  },
+  "K-349": {
+    "title": "One and Many: Singular and Plural Cards",
+    "instruction": "Cut out the cards. Say the word for one and the word for many, then match each pair."
+  },
+  "K-350": {
+    "title": "Bilingual Picture Cards: English and {U}",
+    "instruction": "Cut out the eight cards. Say the word in English, then in {U}, and keep the cards for your word wall."
+  },
+  "K-351": {
+    "title": "Opposites with Pictures: Match the Opposites",
+    "instruction": "Draw a line from each picture to the picture and word that show its opposite."
+  },
+  "K-352": {
+    "title": "Rhyme or Not?",
+    "instruction": "Say both pictures out loud. If the two words rhyme, circle the tick. If they do not rhyme, circle the cross."
+  },
   "G1-101": {
     "title": "Add the Pictures",
     "instruction": "Count both groups. Write how many altogether."
@@ -1299,6 +1411,162 @@
     "title": "Hundreds Chart Puzzle Pieces: Fill In the Numbers",
     "instruction": "One number is printed on each piece. Write every missing number: 1 more to the right, 1 less to the left, 10 more below, 10 less above."
   },
+  "G1-311": {
+    "title": "Sound of the Week: {L}",
+    "instruction": "Trace {L}, circle the four pictures that have the {L} sound, then write a row of it."
+  },
+  "G1-312": {
+    "title": "Sound Strip: How Many Sounds?",
+    "instruction": "Say the word slowly. Write one sound in each box, starting from the left. Leave the boxes you do not need empty."
+  },
+  "G1-313": {
+    "title": "Syllables and Sounds",
+    "instruction": "Clap the syllables of the picture word. Then say each syllable slowly and write one sound in each box under its arc."
+  },
+  "G1-314": {
+    "title": "Blend the Sounds",
+    "instruction": "Read the sounds in the boxes and blend them into a word. Circle the picture that matches the word."
+  },
+  "G1-315": {
+    "title": "Write the Missing Ordinal Numbers",
+    "instruction": "Some places are already written. Write the missing ordinal numbers in the empty boxes, counting from the flag."
+  },
+  "G1-316": {
+    "title": "Ordinal Words: Draw a Line to the Picture",
+    "instruction": "Read each ordinal word and draw a line to the picture standing in that place, counting from the flag."
+  },
+  "G1-317": {
+    "title": "Which Place? Write the Ordinal Number",
+    "instruction": "Find each small picture in its line and write which place it stands in, counting from the flag."
+  },
+  "G1-318": {
+    "title": "Who Wins the Race? Write the Place",
+    "instruction": "Look how close each runner is to the finish line. The nearest is 1st. Write 1st, 2nd, 3rd, 4th, 5th and 6th."
+  },
+  "G1-319": {
+    "title": "Yesterday, Today, Tomorrow",
+    "instruction": "The day in the middle is today. Write the day that was yesterday and the day that will be tomorrow."
+  },
+  "G1-320": {
+    "title": "Months of the Year in Order",
+    "instruction": "January is already marked 1. Number the other months 2 to 12 in the order of the year."
+  },
+  "G1-321": {
+    "title": "The Month Before and After",
+    "instruction": "One month is given in the middle. Write the month that comes before it and the month that comes after it."
+  },
+  "G1-322": {
+    "title": "Days of the Week: Abbreviations",
+    "instruction": "Read each short form and draw a line to the day it stands for."
+  },
+  "G1-323": {
+    "title": "Months and Seasons: Colour the Season",
+    "instruction": "Colour the circle next to each month in the colour of its season."
+  },
+  "G1-324": {
+    "title": "Syllable Cards: Read the Word in Parts",
+    "instruction": "Cut out the eight cards. Read each word one syllable at a time, then say the whole word."
+  },
+  "G1-325": {
+    "title": "Write the Word in Syllables",
+    "instruction": "Read the word beside each picture. Copy it on the line and write a small dash between its syllables."
+  },
+  "G1-326": {
+    "title": "Missing Syllable",
+    "instruction": "Say the picture word. One syllable is missing. Write the missing syllable in the box."
+  },
+  "G1-327": {
+    "title": "Syllable Scramble",
+    "instruction": "The syllables of each picture word are mixed up. Read them, put them in order, and write the word on the line."
+  },
+  "G1-328": {
+    "title": "Two or Three Syllables? Split and Sort",
+    "instruction": "Clap each word in the bank. Write it with a dash between its syllables in the 2 column or the 3 column."
+  },
+  "G1-329": {
+    "title": "Vowel King",
+    "instruction": "Every syllable has one vowel. Look at the example, then put a dot on the vowel inside each syllable arc."
+  },
+  "G1-330": {
+    "title": "Word Families: Read and Circle",
+    "instruction": "Read the words on the carpet out loud. Say each picture word, then circle the one word under the picture that names it."
+  },
+  "G1-331": {
+    "title": "Join the Syllables and Write the Word",
+    "instruction": "Read the two syllables on each card in order. Say them together, then write the whole word on the line."
+  },
+  "G1-332": {
+    "title": "Word Family Carpet: Read and Colour",
+    "instruction": "Read every word on the carpet out loud. Then find each picture's word on the carpet and colour that word in the picture's colour."
+  },
+  "G1-333": {
+    "title": "Word Families with Blends",
+    "instruction": "Read every word on the carpet out loud. Say each picture word, find it on the carpet, then write the two letters it starts with on the line."
+  },
+  "G1-334": {
+    "title": "Read the Syllables, Find the Picture",
+    "instruction": "Read each word syllable by syllable. Find its picture in the bank at the top and write the picture's number in the box."
+  },
+  "G1-335": {
+    "title": "Opposites in a Sentence",
+    "instruction": "Read each sentence. Write the opposite of the word after \"not\" on the line. The word bank helps you."
+  },
+  "G1-336": {
+    "title": "Pair Up the Opposites",
+    "instruction": "Find the two words that are opposites. Write each pair on a line, one word on each side of the arrow."
+  },
+  "G1-337": {
+    "title": "Opposite or the Same? Circle the Opposite",
+    "instruction": "Read the word. One of the three words under it means the opposite. Circle it, not the one that means the same."
+  },
+  "G1-338": {
+    "title": "Read and Circle",
+    "instruction": "Read each sentence. Find the picture or pictures it names in the row and draw a circle around them. Then check the little box."
+  },
+  "G1-339": {
+    "title": "Read and Do: Two-Step Instructions",
+    "instruction": "Each sentence tells you two things to do. Read it to the end before you start, then do both steps in the row of pictures."
+  },
+  "G1-340": {
+    "title": "Read and Do: First, Second, Between",
+    "instruction": "Start at the flag and count along the row. Find the picture by its place, then do what the sentence says with your pencil."
+  },
+  "G1-341": {
+    "title": "Read and Check: True or False",
+    "instruction": "Read each sentence and look at the row of pictures. Is the sentence true or false? Circle the right word."
+  },
+  "G1-342": {
+    "title": "Read and Draw",
+    "instruction": "Read each sentence carefully. Then draw exactly what it says inside the box."
+  },
+  "G1-343": {
+    "title": "Sort the Rhymes",
+    "instruction": "Say each picture in the bank. Find the big picture it rhymes with and write its word on a line under that picture."
+  },
+  "G1-344": {
+    "title": "Finish the Rhyme",
+    "instruction": "Read the two lines out loud. Look at the picture, hear the rhyme and write the missing rhyming word on the line."
+  },
+  "G1-345": {
+    "title": "Rhyme Strings",
+    "instruction": "Say each picture. Find the two words in the bank that rhyme with it and write them on its lines. Some words fit nowhere."
+  },
+  "G1-346": {
+    "title": "Write Your Own Rhymes",
+    "instruction": "Read the word beside each picture. Think of two words that rhyme with it and write one on each line."
+  },
+  "G1-347": {
+    "title": "Where Does the Piece Go?",
+    "instruction": "Read the numbers on each piece, find its place on the empty chart and write them in."
+  },
+  "G1-348": {
+    "title": "Find the Wrong Number on the Piece",
+    "instruction": "One number on each piece is wrong. Circle it and write the right number in the box."
+  },
+  "G1-349": {
+    "title": "Picture Clue Logic Puzzles: Cross Out and Find",
+    "instruction": "A crossed-out picture means the child does not have it, a ringed one means the child has it. Cross out on the grid, then circle each answer."
+  },
   "G2-203": {
     "title": "Add the Blocks",
     "instruction": "Add the two block groups. Write the total."
@@ -1727,6 +1995,110 @@
     "title": "Logic Grid Puzzles: Three Clues, One Answer",
     "instruction": "Read the clues. Cross out on the grid what cannot be true, tick what must be true, then circle the picture each child has."
   },
+  "G2-320": {
+    "title": "Antonyms with un-, dis-, in-",
+    "instruction": "Add the prefix to each word and write the new opposite word on the line."
+  },
+  "G2-321": {
+    "title": "Jump Puzzles: Follow the Arrows",
+    "instruction": "Start at the number and follow the arrows: up is 10 less, down is 10 more, right is 1 more. Write where you land."
+  },
+  "G2-322": {
+    "title": "Mystery Number: Two Arrows, One Square",
+    "instruction": "Follow both arrows. They point to the same square of the chart. Write the mystery number."
+  },
+  "G2-323": {
+    "title": "How Far Apart? Count the Jumps",
+    "instruction": "Count how many jumps down and how many jumps right take you from the first number to the second."
+  },
+  "G2-324": {
+    "title": "Which One? {UNIT}",
+    "instruction": "Look at the picture and read the word. Circle the right letters under it, then write them in the dashed box."
+  },
+  "G2-325": {
+    "title": "Rule Detective: {UNIT}",
+    "instruction": "Read each word. Find the rule letters, circle them in the word, then copy them into the small box."
+  },
+  "G2-326": {
+    "title": "Sort by Spelling Rule: {UNIT}",
+    "instruction": "Say each picture word. Write it in the bin with its spelling, one word on each line."
+  },
+  "G2-327": {
+    "title": "Write the Word: {UNIT}",
+    "instruction": "The rule letters are printed in orange. Say the picture word and write all the other letters in the boxes."
+  },
+  "G2-328": {
+    "title": "Plurals: {UNIT}",
+    "instruction": "Read the word for one. Write the word for many in the boxes. The plural changes the spelling."
+  },
+  "G2-329": {
+    "title": "What Goes in the Middle?",
+    "instruction": "Both words are printed. Write the letter that joins them in the box, or leave it empty, then write the whole word on the line."
+  },
+  "G2-330": {
+    "title": "Split the Compound: Find the Two Words",
+    "instruction": "The whole word is printed in letter boxes next to its picture. Draw one line where the second word starts."
+  },
+  "G2-331": {
+    "title": "Match the Halves: Two Pictures, One Word",
+    "instruction": "Draw a line from each first picture to the picture that finishes the word. Then write the new word on the line beside the first picture."
+  },
+  "G2-332": {
+    "title": "Compound Detective",
+    "instruction": "Twelve words, six of them are made of two words. Circle the six compound words and write their two parts on the lines."
+  },
+  "G2-333": {
+    "title": "Word Web: One Word, Many Compounds",
+    "instruction": "One word sits in the middle. Each picture around it makes a new word with it. Write the four new words on the lines."
+  },
+  "G2-334": {
+    "title": "Match the Verb to Its Past Form",
+    "instruction": "Read each verb on the left. Draw a line to its yesterday form on the right — one line for each verb."
+  },
+  "G2-335": {
+    "title": "Verb Forms in Sentences with Pictures",
+    "instruction": "Look at the picture and read the verb in the chip. Write the form that fits the sentence in the dashed box."
+  },
+  "G2-336": {
+    "title": "The Helper Verbs: be, have, do, go",
+    "instruction": "These verbs change a lot. Write the today form and the yesterday form of each one in the dashed boxes."
+  },
+  "G2-337": {
+    "title": "Choose the Right Verb Form",
+    "instruction": "Read the sentence. Three forms of the verb are printed under it. Circle the one that fits."
+  },
+  "G2-338": {
+    "title": "Find the Verb, Write Its Base Form",
+    "instruction": "Underline the verb in each sentence. Then write its base form in the dashed box."
+  },
+  "G2-339": {
+    "title": "{U} Fact File: Tick the Facts",
+    "instruction": "Read the choices in each row and circle the one that is true for this animal. Then draw where it lives and finish the sentence."
+  },
+  "G2-340": {
+    "title": "{U} Fact File with a Word Bank",
+    "instruction": "Find each true fact in the word bank and copy it into the right row of the fact file. Then finish the sentence at the bottom."
+  },
+  "G2-341": {
+    "title": "{U} Fact File: Write Three Sentences",
+    "instruction": "Read the fact file. Finish the three sentences with facts from it, then write one more fact of your own on the last line."
+  },
+  "G2-342": {
+    "title": "Compare Two Animals: Same and Different",
+    "instruction": "Read both fact files. For each fact, circle same or different. Then write two things that are the same and two that are different."
+  },
+  "G2-343": {
+    "title": "Who Am I? Mystery Animal",
+    "instruction": "Read the five clues on each card. Find the animal in the picture bank, write its name on the line and draw it in the box."
+  },
+  "G2-344": {
+    "title": "Logic Grid Puzzles with Yes, No and Either-Or Clues",
+    "instruction": "A yes clue gets a tick, a no clue gets a cross and an either-or clue crosses out the third picture. Finish the grid, then circle each answer."
+  },
+  "G2-345": {
+    "title": "Read the Logic Grid: True or False",
+    "instruction": "The grid is already solved. Read it, then circle the tick if the sentence is true or the cross if it is false."
+  },
   "G3-301": {
     "title": "Big Arrays",
     "instruction": "Count the rows of pictures. Write how many in all."
@@ -1990,5 +2362,33 @@
   "G3-377": {
     "title": "Division with Remainders: Ring the Groups",
     "instruction": "Ring groups of the second number in each pile. Write how many groups you made and how many pictures are left over."
+  },
+  "G3-378": {
+    "title": "4 by 4 Logic Grid Puzzles: Six Clues",
+    "instruction": "Four children and four pictures. Use every clue: cross out what cannot be true and tick what must be true until each row has one answer."
+  },
+  "G3-379": {
+    "title": "Two-Attribute Logic Puzzles: Two Pictures per Child",
+    "instruction": "Each child has one picture from each set. Use the linking clues to fill all three grids."
+  },
+  "G3-380": {
+    "title": "Share It Out: What Is Left Over?",
+    "instruction": "Deal the pile into the boxes one at a time. Write how many each box gets and how many cannot be shared."
+  },
+  "G3-381": {
+    "title": "Division with Remainders: Practice Rows",
+    "instruction": "Every division leaves something over. Write the answer and the remainder in each row."
+  },
+  "G3-382": {
+    "title": "Exact or Not? Divisions With and Without a Remainder",
+    "instruction": "Decide whether each division comes out exactly. Circle your choice and write the remainder, 0 if there is none."
+  },
+  "G3-383": {
+    "title": "Find the Error: The Remainder Is Too Big",
+    "instruction": "Every division has been worked out wrongly. Cross out the wrong numbers and write the right answer and remainder in the boxes."
+  },
+  "G3-384": {
+    "title": "Hop Back on the Number Line: What Is Left?",
+    "instruction": "Start at the marked number and draw hops back of the same size until a whole hop no longer fits. Write the hops and where you land."
   }
 }

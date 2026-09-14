@@ -1,0 +1,8 @@
+{
+  "locale": "it",
+  "refusals": {
+    "G1-345": "Catene di rime (F4) REFUSED: le parole in rima italiane hanno 2-4 sillabe (7-10 lettere) e la scatola di 12 parole a 18 px misura 1427 px, oltre le due righe consentite (1302) — il build rifiuta sul seed della wave (seedEpoch 1); un knob wordPx 16 sulla faccia string lo sbloccherebbe, ma la soglia non si abbassa nel blocco.",
+    "G2-329": "Nei nomi alterati e derivati italiani non c'è una lettera di collegamento: la parola base perde la vocale finale e prende il suffisso (gatt-ino), quindi la faccia della \"lettera in mezzo\" non ha nulla da decidere — refuse.F1 forzato dal design (§3 F1: REFUSED it pt).",
+    "G2-331": "La faccia \"unisci le due metà\" abbina due PARTI con disegno: in italiano la seconda parte è un suffisso senza disegno, quindi non ci sono metà da unire — refuse.F3 forzato dal design (§3 F3: REFUSED it, 0 derivazioni con entrambe le parti illustrate)."
+  }
+}

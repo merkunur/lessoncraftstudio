@@ -1,0 +1,29 @@
+{
+  "exemplar": "1-100",
+  "strings": {
+    "G1-310": {
+      "title": "Tavola del 100: completa i pezzi del puzzle",
+      "instruction": "Su ogni pezzo c'è un numero. Scrivi tutti quelli che mancano: 1 in più a destra, 1 in meno a sinistra, 10 in più sotto, 10 in meno sopra."
+    },
+    "F1": {
+      "title": "Dove va il pezzo nella tavola del 100?",
+      "instruction": "Leggi i numeri di ogni pezzo, trova il suo posto nella tavola vuota e scrivili lì."
+    },
+    "F2": {
+      "title": "Salti sulla tavola del 100: segui le frecce",
+      "instruction": "Parti dal numero e segui le frecce: su 10 in meno, giù 10 in più, a sinistra 1 in meno, a destra 1 in più. Scrivi dove arrivi."
+    },
+    "F3": {
+      "title": "Il numero misterioso: due frecce, una casella",
+      "instruction": "Segui le due frecce. Arrivano tutte e due alla stessa casella della tavola. Scrivi il numero misterioso."
+    },
+    "F4": {
+      "title": "Trova il numero sbagliato sul pezzo",
+      "instruction": "Su ogni pezzo c'è un numero sbagliato. Cerchialo e scrivi nel riquadro il numero giusto."
+    },
+    "F5": {
+      "title": "Quanti salti? Conta sulla tavola del 100",
+      "instruction": "Conta quanti salti in giù e quanti salti a destra ti portano dal primo numero al secondo."
+    }
+  }
+}

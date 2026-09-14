@@ -1910,5 +1910,473 @@
   "G1-304": {
     "title": "Dettato muto con tutti gli aiuti",
     "instruction": "Ci sono lista, caselle e iniziale."
+  },
+  "K-317": {
+    "title": "La lettera {U}{L}: ripassa, cerchia e scrivi",
+    "instruction": "Ripassa la lettera grande e quella piccola, cerchia i quattro disegni che iniziano con {U} e scrivi una riga di ognuna."
+  },
+  "K-318": {
+    "title": "Scatole dei suoni: un suono in ogni casella",
+    "instruction": "Di' la parola piano piano e scrivi un suono in ogni casella. La casella larga con l'archetto sotto tiene più lettere per un suono solo."
+  },
+  "K-319": {
+    "title": "Le emozioni: collega la faccia alla parola",
+    "instruction": "Collega con una linea ogni faccia alla parola che dice come si sente."
+  },
+  "K-320": {
+    "title": "Numeri ordinali: trova il posto",
+    "instruction": "Parti dalla bandierina. Conta fino al numero di ogni gettone e fai il segno che mostra."
+  },
+  "K-321": {
+    "title": "I giorni della settimana in ordine",
+    "instruction": "Il primo giorno della settimana ha già il numero 1. Numera gli altri giorni da 2 a 7 nell'ordine in cui vengono."
+  },
+  "K-322": {
+    "title": "Le quattro stagioni: ordina i disegni",
+    "instruction": "Collega con una linea il puntino di ogni disegno alla scatola della sua stagione."
+  },
+  "K-323": {
+    "title": "Mi presento",
+    "instruction": "Scrivi il tuo nome e la tua età, disegna te e la tua famiglia, poi disegna le tue tre cose preferite."
+  },
+  "K-324": {
+    "title": "Carte illustrate con la parola",
+    "instruction": "Ritaglia lungo le linee tratteggiate per fare le carte. Di' il nome di ogni disegno, poi leggi la sua parola."
+  },
+  "G1-305": {
+    "title": "Divisione in sillabe",
+    "instruction": "Di' il nome di ogni disegno battendo le mani. Disegna una barra tra una sillaba e l'altra."
+  },
+  "G1-306": {
+    "title": "Sillabe da leggere: {UNIT}",
+    "instruction": "Leggi ad alta voce tutte le sillabe della tabella. Di' il nome di ogni disegno, cerca la sua prima sillaba nella tabella e scrivila sulla riga."
+  },
+  "G1-307": {
+    "title": "I contrari: scrivi la parola contraria",
+    "instruction": "Leggi la parola su ogni cartellino. Cerca il suo contrario nella scatola delle parole e scrivilo sulla riga."
+  },
+  "G1-308": {
+    "title": "Leggi ed esegui: segui le istruzioni",
+    "instruction": "Guarda la fila di disegni e parti dalla bandierina. Leggi ogni frase e fai proprio quello che dice con la matita. Poi segna la casellina."
+  },
+  "G1-309": {
+    "title": "Parole in rima: trova la rima e scrivila",
+    "instruction": "Di' il nome del disegno grande. Fra i tre disegni cerchia quello che fa rima con il primo e scrivi la sua parola sulla riga."
+  },
+  "G1-310": {
+    "title": "Tavola del 100: completa i pezzi del puzzle",
+    "instruction": "Su ogni pezzo c'è un numero. Scrivi tutti quelli che mancano: 1 in più a destra, 1 in meno a sinistra, 10 in più sotto, 10 in meno sopra."
+  },
+  "G2-315": {
+    "title": "Regole di ortografia: {UNIT}",
+    "instruction": "Leggi la regola nel riquadro. Guarda ogni disegno, di' la parola e scrivi le lettere che mancano nella casella tratteggiata."
+  },
+  "G2-316": {
+    "title": "Nomi alterati: parola base + suffisso",
+    "instruction": "Guarda il disegno e leggi il suffisso. Unisci la parola base al suffisso e scrivi sulla riga il nome alterato."
+  },
+  "G2-317": {
+    "title": "Il presente dei verbi: completa la tabella",
+    "instruction": "Guarda il disegno e leggi il verbo. Scrivi le forme che mancano nelle caselle, poi completa le frasi."
+  },
+  "G2-318": {
+    "title": "Carta d'identità dell'animale: {U}",
+    "instruction": "Scopri com'è questo animale. Scrivi un dato in ogni riga della carta d'identità, poi completa il resto della pagina con un disegno o con parole tue."
+  },
+  "G2-319": {
+    "title": "Giochi di logica con la griglia: tre indizi, una risposta",
+    "instruction": "Leggi gli indizi. Sulla griglia barra quello che non può essere, metti una spunta su quello che è sicuro, poi cerchia il disegno di ogni bambino."
+  },
+  "G3-377": {
+    "title": "Divisioni con il resto: cerchia i gruppi",
+    "instruction": "In ogni mucchio cerchia gruppi grandi come il secondo numero. Scrivi quanti gruppi hai fatto e quanti disegni restano fuori."
+  },
+  "K-325": {
+    "title": "Parole con la {U}: il suono in mezzo o alla fine",
+    "instruction": "Ripassa la lettera, poi cerchia i quattro disegni che hanno il suono {U} dentro la parola, non all'inizio."
+  },
+  "K-326": {
+    "title": "All'inizio, in mezzo o alla fine? Dove senti la {U}",
+    "instruction": "Di' il nome di ogni disegno. Colora la casella che mostra dove senti la {U}: all'inizio, in mezzo o alla fine."
+  },
+  "K-327": {
+    "title": "Cerchia la {U} nelle parole e conta",
+    "instruction": "Cerca tutte le {U} e le {L} in ogni parola e cerchiale. Poi scrivi nel quadratino quante ne hai trovate."
+  },
+  "G1-311": {
+    "title": "Suoni difficili: il suono {U}",
+    "instruction": "Ripassa {U} e {L}, cerchia i quattro disegni che hanno il suono {U} e scrivi una riga."
+  },
+  "K-328": {
+    "title": "A o O? Ascolta il suono iniziale",
+    "instruction": "Di' il nome di ogni disegno. Cerchia la lettera con cui inizia: a oppure o."
+  },
+  "K-329": {
+    "title": "Conta i suoni della parola",
+    "instruction": "Di' la parola piano piano. Fai un puntino nella striscia per ogni suono che senti. Poi scrivi nel quadratino quanti suoni sono."
+  },
+  "K-330": {
+    "title": "Scatole dei suoni con il primo suono già scritto",
+    "instruction": "Il primo suono è già scritto. Di' la parola piano piano e scrivi un suono in ogni casella vuota."
+  },
+  "G1-312": {
+    "title": "Striscia dei suoni: quanti suoni senti?",
+    "instruction": "Di' la parola piano piano. Scrivi un suono in ogni casella partendo da sinistra. Lascia vuote le caselle che non ti servono."
+  },
+  "G1-313": {
+    "title": "Sillabe e suoni: batti le mani e scrivi",
+    "instruction": "Batti le mani per ogni sillaba. Poi di' ogni sillaba piano piano e scrivi un suono in ogni casella sotto il suo archetto."
+  },
+  "G1-314": {
+    "title": "Fondi i suoni e trova il disegno",
+    "instruction": "Leggi i suoni nelle caselle e uniscili in una parola. Cerchia il disegno giusto."
+  },
+  "K-331": {
+    "title": "Come ti senti? Cerchia la faccia",
+    "instruction": "Guarda il disegno, pensa a come ti sentiresti tu e cerchia la faccia giusta."
+  },
+  "K-332": {
+    "title": "Disegna la faccia dell'emozione",
+    "instruction": "Leggi la parola e disegna nel cerchio vuoto una faccia che mostra quell'emozione."
+  },
+  "K-333": {
+    "title": "Piacevole o spiacevole? Ordina le facce",
+    "instruction": "Collega con una linea ogni faccia alla scatola che dice se l'emozione è piacevole o spiacevole."
+  },
+  "K-334": {
+    "title": "Quale faccia mostra l'emozione?",
+    "instruction": "Leggi la parola e cerchia l'unica faccia della fila che mostra quell'emozione."
+  },
+  "K-335": {
+    "title": "Come mi sento oggi?",
+    "instruction": "Cerchia la faccia che mostra come ti senti oggi, poi disegna la tua faccia."
+  },
+  "G1-315": {
+    "title": "Scrivi i numeri ordinali che mancano",
+    "instruction": "Alcuni posti sono già scritti. Scrivi i numeri ordinali che mancano nelle caselle vuote, contando dalla bandierina."
+  },
+  "G1-316": {
+    "title": "Ordinali in parole: collega alla figura",
+    "instruction": "Leggi ogni parola ordinale e collega con una linea la figura che sta in quel posto, contando dalla bandierina."
+  },
+  "G1-317": {
+    "title": "In che posto è? Scrivi il numero ordinale",
+    "instruction": "Cerca ogni figura piccola nella sua fila e scrivi in che posto sta, contando dalla bandierina."
+  },
+  "K-336": {
+    "title": "Ordinali dai due lati: parti dalla bandierina",
+    "instruction": "Cerca prima la bandierina: può stare a un capo o all'altro della fila. Parti da lì, conta fino al numero di ogni gettone e fai il segno."
+  },
+  "G1-318": {
+    "title": "Chi vince la gara? Scrivi il posto",
+    "instruction": "Guarda quanto è vicino al traguardo ogni corridore. Il più vicino è 1º. Scrivi 1º, 2º, 3º, 4º, 5º e 6º."
+  },
+  "K-337": {
+    "title": "Giorni mancanti: completa la settimana",
+    "instruction": "Alcuni giorni sono già scritti sulla scala. Copia i giorni che mancano dalla lista delle parole al posto giusto."
+  },
+  "G1-319": {
+    "title": "Ieri, oggi e domani",
+    "instruction": "Il giorno al centro è oggi. Scrivi il giorno che era ieri e il giorno che sarà domani."
+  },
+  "G1-320": {
+    "title": "I mesi dell'anno in ordine",
+    "instruction": "Gennaio ha già il numero 1. Numera gli altri mesi da 2 a 12 nell'ordine dell'anno."
+  },
+  "G1-321": {
+    "title": "Il mese prima e il mese dopo",
+    "instruction": "Al centro c'è un mese. Scrivi il mese che viene prima e il mese che viene dopo."
+  },
+  "G1-322": {
+    "title": "I giorni della settimana: le abbreviazioni",
+    "instruction": "Leggi ogni abbreviazione e collega con una linea il giorno che indica."
+  },
+  "K-338": {
+    "title": "Che stagione è?",
+    "instruction": "Guarda i tre disegni di ogni carta e cerchia il simbolo della stagione a cui appartengono."
+  },
+  "K-339": {
+    "title": "La ruota delle stagioni in ordine",
+    "instruction": "Una stagione è già sulla ruota. Disegna gli altri tre simboli nei cerchi vuoti nell'ordine giusto."
+  },
+  "K-340": {
+    "title": "Le stagioni: qual è l'intruso?",
+    "instruction": "Fai una croce sull'unico disegno di ogni fila che appartiene a un'altra stagione."
+  },
+  "G1-323": {
+    "title": "Mesi e stagioni: colora la stagione",
+    "instruction": "Colora il cerchio accanto a ogni mese con il colore della sua stagione."
+  },
+  "K-341": {
+    "title": "Disegna l'albero nelle quattro stagioni",
+    "instruction": "Disegna com'è l'albero in ognuna delle quattro stagioni."
+  },
+  "K-342": {
+    "title": "Le mie cose preferite: cerchia e scrivi",
+    "instruction": "In ogni fila cerchia il tuo disegno preferito e copia la sua parola sulla riga."
+  },
+  "K-343": {
+    "title": "La mia famiglia: disegna e conta",
+    "instruction": "Disegna la tua famiglia. Poi mostra sulle tabelle del dieci quante persone, fratelli, sorelle e animali ci sono e scrivi il numero."
+  },
+  "K-344": {
+    "title": "Sono io: le parti del viso",
+    "instruction": "Copia ogni parola della lista sulla riga che indica quella parte del viso. Poi disegna la tua faccia."
+  },
+  "K-345": {
+    "title": "So fare: metti una crocetta",
+    "instruction": "Leggi ogni frase e metti una crocetta sulle cose che sai fare. Poi scrivi una cosa che vuoi imparare."
+  },
+  "K-346": {
+    "title": "Il mio nome: scrivi, conta e confronta",
+    "instruction": "Scrivi il tuo nome con una lettera in ogni casella e conta le lettere. Fai lo stesso con il nome di un amico e cerchia chi ne ha di più."
+  },
+  "K-347": {
+    "title": "Carte delle figure e carte delle parole: le coppie",
+    "instruction": "Ritaglia le sedici carte. Metti ogni parola accanto alla sua figura, oppure girale tutte e gioca a memory."
+  },
+  "K-348": {
+    "title": "Il, lo, la o l'? Carte con l'articolo",
+    "instruction": "Ritaglia le otto carte. Di' ogni parola con il suo articolo, proprio come è scritta sulla carta."
+  },
+  "K-349": {
+    "title": "Uno e tanti: carte del singolare e del plurale",
+    "instruction": "Ritaglia le carte. Di' la parola per uno e la parola per tanti, poi unisci ogni coppia."
+  },
+  "K-350": {
+    "title": "Carte bilingui: italiano e inglese",
+    "instruction": "Ritaglia le otto carte. Di' la parola in italiano e poi in inglese, e conserva le carte per il tuo muro delle parole."
+  },
+  "G1-324": {
+    "title": "Carte delle sillabe: leggi la parola a pezzi",
+    "instruction": "Ritaglia le otto carte. Leggi ogni parola una sillaba alla volta, poi dilla tutta intera."
+  },
+  "G1-325": {
+    "title": "Scrivi la parola divisa in sillabe",
+    "instruction": "Leggi la parola accanto al disegno. Copiala sulla riga e metti un trattino tra una sillaba e l'altra."
+  },
+  "G1-326": {
+    "title": "La sillaba mancante",
+    "instruction": "Di' il nome del disegno, leggi la parte scritta e scrivi nel riquadro la sillaba che manca."
+  },
+  "G1-327": {
+    "title": "Sillabe in disordine: rimettile in ordine",
+    "instruction": "Le sillabe del nome di ogni disegno sono mescolate. Leggile, mettile in ordine e scrivi la parola sulla riga."
+  },
+  "G1-328": {
+    "title": "Bisillabe o trisillabe? Dividi e classifica",
+    "instruction": "Leggi ogni parola della lista battendo le mani. Scrivila con i trattini nella colonna del 2 o del 3."
+  },
+  "G1-329": {
+    "title": "La vocale di ogni sillaba",
+    "instruction": "Ogni sillaba ha una vocale. Guarda l'esempio, poi metti un punto sulla vocale di ogni sillaba, dentro il suo arco."
+  },
+  "G1-330": {
+    "title": "Cerchia la sillaba che senti: {UNIT}",
+    "instruction": "Leggi ad alta voce le sillabe della tabella. Di' il nome di ogni disegno e cerchia la sillaba con cui comincia."
+  },
+  "G1-331": {
+    "title": "Unisci le sillabe e scrivi la parola",
+    "instruction": "Leggi le due sillabe in ordine, uniscile e scrivi la parola intera sulla riga."
+  },
+  "G1-332": {
+    "title": "Tabella delle sillabe: leggi e colora",
+    "instruction": "Leggi tutta la tabella ad alta voce. Poi colora la sillaba con cui comincia ogni disegno, del colore del suo cerchietto."
+  },
+  "G1-333": {
+    "title": "Sillabe complesse: {UNIT}",
+    "instruction": "Leggi le sillabe della tabella. Di' il nome di ogni disegno, cercalo nella tabella e scrivi la sua prima sillaba sulla riga."
+  },
+  "G1-334": {
+    "title": "Leggi le parole divise in sillabe e trova il disegno",
+    "instruction": "Leggi ogni parola sillaba per sillaba. Cerca il suo disegno in alto e scrivi il suo numero nel riquadro."
+  },
+  "K-351": {
+    "title": "I contrari con i disegni: collega gli opposti",
+    "instruction": "Traccia una linea da ogni disegno al disegno e alla parola che mostrano il suo contrario."
+  },
+  "G1-335": {
+    "title": "I contrari nella frase",
+    "instruction": "Leggi ogni frase. Sulla riga scrivi il contrario della parola che viene dopo \"non\". La scatola delle parole ti aiuta."
+  },
+  "G1-336": {
+    "title": "Forma le coppie di contrari",
+    "instruction": "Trova le due parole che sono contrarie. Scrivi ogni coppia su una riga, una parola da ogni lato della freccia."
+  },
+  "G1-337": {
+    "title": "Sinonimi e contrari: cerchia il contrario",
+    "instruction": "Leggi la parola. Fra le tre parole sotto, una vuol dire il contrario. Cerchia quella, non quella che vuol dire la stessa cosa."
+  },
+  "G2-320": {
+    "title": "I contrari con i prefissi in-, s- e dis-",
+    "instruction": "Aggiungi il prefisso a ogni parola e scrivi sulla riga la nuova parola, che vuol dire il contrario."
+  },
+  "G1-338": {
+    "title": "Leggi e cerchia",
+    "instruction": "Leggi ogni frase. Trova nella fila il disegno o i disegni che nomina e cerchiali. Poi segna la casellina."
+  },
+  "G1-339": {
+    "title": "Leggi ed esegui: istruzioni in due passi",
+    "instruction": "Ogni frase ti chiede due cose. Leggila fino in fondo prima di cominciare, poi fai tutti e due i passi nella fila di disegni."
+  },
+  "G1-340": {
+    "title": "Leggi ed esegui: primo, secondo, in mezzo",
+    "instruction": "Parti dalla bandierina e conta lungo la fila. Trova il disegno dal suo posto, poi fai quello che dice la frase con la matita."
+  },
+  "G1-341": {
+    "title": "Leggi e controlla: vero o falso?",
+    "instruction": "Leggi ogni frase e guarda la fila di disegni. La frase è vera o falsa? Cerchia la parola giusta."
+  },
+  "G1-342": {
+    "title": "Leggi e disegna",
+    "instruction": "Leggi ogni frase con attenzione. Poi disegna nel riquadro proprio quello che dice."
+  },
+  "K-352": {
+    "title": "Fanno rima o no?",
+    "instruction": "Di' ad alta voce i nomi dei due disegni. Se fanno rima cerchia il segno di spunta, se non fanno rima cerchia la croce."
+  },
+  "G1-343": {
+    "title": "Famiglie di rime: scrivi ogni parola sotto la sua rima",
+    "instruction": "Di' il nome di ogni disegno in alto. Trova il disegno grande con cui fa rima e scrivi la parola su una riga sotto quel disegno."
+  },
+  "G1-344": {
+    "title": "Completa la filastrocca con la parola in rima",
+    "instruction": "Leggi i due versi ad alta voce. Guarda il disegno, ascolta la rima e scrivi sulla riga la parola che manca."
+  },
+  "G1-346": {
+    "title": "Inventa le tue rime",
+    "instruction": "Leggi la parola accanto a ogni disegno. Pensa a due parole che fanno rima con quella e scrivine una su ogni riga."
+  },
+  "G1-347": {
+    "title": "Dove va il pezzo nella tavola del 100?",
+    "instruction": "Leggi i numeri di ogni pezzo, trova il suo posto nella tavola vuota e scrivili lì."
+  },
+  "G2-321": {
+    "title": "Salti sulla tavola del 100: segui le frecce",
+    "instruction": "Parti dal numero e segui le frecce: su 10 in meno, giù 10 in più, a sinistra 1 in meno, a destra 1 in più. Scrivi dove arrivi."
+  },
+  "G2-322": {
+    "title": "Il numero misterioso: due frecce, una casella",
+    "instruction": "Segui le due frecce. Arrivano tutte e due alla stessa casella della tavola. Scrivi il numero misterioso."
+  },
+  "G1-348": {
+    "title": "Trova il numero sbagliato sul pezzo",
+    "instruction": "Su ogni pezzo c'è un numero sbagliato. Cerchialo e scrivi nel riquadro il numero giusto."
+  },
+  "G2-323": {
+    "title": "Quanti salti? Conta sulla tavola del 100",
+    "instruction": "Conta quanti salti in giù e quanti salti a destra ti portano dal primo numero al secondo."
+  },
+  "G2-324": {
+    "title": "Scegli le lettere giuste: {UNIT}",
+    "instruction": "Guarda il disegno e leggi la parola. Cerchia le lettere giuste sotto la parola e scrivile nella casella tratteggiata."
+  },
+  "G2-325": {
+    "title": "Detective dell'ortografia: {UNIT}",
+    "instruction": "Leggi ogni parola. Trova le lettere della regola, cerchiale nella parola e poi copiale nella casella piccola."
+  },
+  "G2-326": {
+    "title": "Classifica le parole: {UNIT}",
+    "instruction": "Di' il nome di ogni disegno. Scrivi la parola nella colonna giusta, una parola per ogni riga."
+  },
+  "G2-327": {
+    "title": "Scrivi la parola intera: {UNIT}",
+    "instruction": "Le lettere della regola sono già scritte in arancione. Di' il nome del disegno e scrivi tutte le altre lettere nelle caselle."
+  },
+  "G2-328": {
+    "title": "Il plurale dei nomi: {UNIT}",
+    "instruction": "Leggi la parola al singolare. Scrivi il plurale nelle caselle: attento, il plurale cambia la scrittura!"
+  },
+  "G2-330": {
+    "title": "Trova la parola base: dividi alterati e derivati",
+    "instruction": "Leggi la parola. Traccia una riga dove finisce la parola base e comincia il suffisso."
+  },
+  "G2-332": {
+    "title": "Derivati e alterati: scopri i falsi alterati",
+    "instruction": "Cerchia le parole fatte da una parola base più un suffisso e scrivi le due parti. Attenzione: alcune sembrano alterate ma non lo sono!"
+  },
+  "G2-333": {
+    "title": "Grande o piccolo? Scrivi il nome alterato",
+    "instruction": "Guarda quanto è grande il disegno. Se è piccolo scrivi il nome con -ino/-ina o -etto/-etta, se è grande con -one."
+  },
+  "G2-334": {
+    "title": "Collega il pronome alla forma del verbo",
+    "instruction": "Leggi il verbo di ogni tabella. Collega con una linea ogni pronome alla forma giusta del verbo."
+  },
+  "G2-335": {
+    "title": "Completa le frasi con il verbo al presente",
+    "instruction": "Guarda il disegno e leggi il verbo nel cartellino. Scrivi nella casella la forma che completa la frase."
+  },
+  "G2-336": {
+    "title": "Essere e avere al presente",
+    "instruction": "Essere e avere cambiano molto. Scrivi tutte le forme che mancano nelle caselle, poi completa le frasi."
+  },
+  "G2-337": {
+    "title": "Scegli la forma giusta del verbo",
+    "instruction": "Leggi la frase. Sotto ci sono tre forme del verbo: cerchia quella giusta."
+  },
+  "G2-338": {
+    "title": "Trova il verbo e scrivi l'infinito",
+    "instruction": "Sottolinea il verbo in ogni frase. Poi scrivi il suo infinito nella casella."
+  },
+  "G2-339": {
+    "title": "Carta d'identità con le scelte: {U}",
+    "instruction": "Leggi le scelte di ogni riga e cerchia quella vera per questo animale. Poi disegna dove vive e completa la frase."
+  },
+  "G2-340": {
+    "title": "Carta d'identità con le parole da usare: {U}",
+    "instruction": "Cerca ogni dato vero tra le parole da usare e copialo nella riga giusta della carta. Poi completa la frase in fondo."
+  },
+  "G2-341": {
+    "title": "Tre frasi sull'animale: {U}",
+    "instruction": "Leggi la carta d'identità. Completa le tre frasi con i suoi dati, poi scrivi un altro dato che sai tu nell'ultima riga."
+  },
+  "G2-342": {
+    "title": "Confronta due animali: uguale o diverso?",
+    "instruction": "Leggi le due carte d'identità. Per ogni dato cerchia uguale o diverso. Poi scrivi due cose uguali e due cose diverse."
+  },
+  "G2-343": {
+    "title": "Chi sono? L'animale misterioso",
+    "instruction": "Leggi i cinque indizi di ogni carta. Trova l'animale tra i disegni, scrivi il suo nome sulla riga e disegnalo nel riquadro."
+  },
+  "G2-344": {
+    "title": "Giochi di logica con indizi sì, no e oppure",
+    "instruction": "Un indizio sì vuole una spunta, un indizio no una crocetta e un indizio con \"o\" barra il terzo disegno. Completa la griglia e cerchia le risposte."
+  },
+  "G3-378": {
+    "title": "Giochi di logica 4 per 4: sei indizi",
+    "instruction": "Quattro bambini e quattro disegni. Usa tutti gli indizi: barra quello che non può essere e segna quello sicuro, finché ogni riga ha una risposta."
+  },
+  "G1-349": {
+    "title": "Giochi di logica con indizi a disegni: barra e trova",
+    "instruction": "Un disegno barrato vuol dire che il bambino non ce l'ha, un disegno cerchiato che ce l'ha. Barra sulla griglia, poi cerchia ogni risposta."
+  },
+  "G3-379": {
+    "title": "Giochi di logica a due attributi: due disegni a testa",
+    "instruction": "Ogni bambino ha un disegno di ogni gruppo. Usa gli indizi che li collegano per completare tutte e tre le griglie."
+  },
+  "G2-345": {
+    "title": "Leggi la griglia di logica: vero o falso?",
+    "instruction": "La griglia è già risolta. Leggila, poi cerchia la spunta se la frase è vera o la crocetta se è falsa."
+  },
+  "G3-380": {
+    "title": "Ripartizione con il resto: quanto avanza?",
+    "instruction": "Distribuisci il mucchio nelle scatole uno alla volta. Scrivi quanti ne riceve ogni scatola e quanti non si possono distribuire."
+  },
+  "G3-381": {
+    "title": "Divisioni con il resto: esercizi in riga",
+    "instruction": "In ogni divisione avanza qualcosa. Scrivi il risultato e il resto di ogni riga."
+  },
+  "G3-382": {
+    "title": "Esatta o con il resto? Divisioni con e senza resto",
+    "instruction": "Decidi se ogni divisione è esatta. Cerchia la tua risposta e scrivi il resto: 0 se non avanza niente."
+  },
+  "G3-383": {
+    "title": "Trova l'errore: il resto è troppo grande",
+    "instruction": "Tutte le divisioni sono sbagliate. Barra i numeri sbagliati e scrivi nei riquadri il risultato e il resto giusti."
+  },
+  "G3-384": {
+    "title": "Salti indietro sulla linea dei numeri: cosa resta?",
+    "instruction": "Parti dal numero segnato e disegna salti indietro tutti uguali finché un salto intero non ci sta più. Scrivi i salti e dove arrivi."
   }
 }

@@ -258,5 +258,85 @@
   "grid-coordinates": {
     "full": "Colorare ogni casella indicata su una griglia con lettere e numeri insegna a leggere le coordinate e fa comparire un disegno nascosto.",
     "short": "Insegna a leggere le coordinate sulla griglia."
+  },
+  "letter-of-the-week": {
+    "full": "Ripassare la lettera, cercarla nei disegni e scriverla in riga insegna a riconoscere la lettera e il suo suono all'inizio, in mezzo e alla fine della parola.",
+    "short": "Insegna a riconoscere la lettera e il suo suono."
+  },
+  "sound-boxes": {
+    "full": "Dire la parola piano piano e scrivere un suono in ogni casella allena la consapevolezza fonologica: sentire, contare e fondere i suoni prima di scrivere la parola intera.",
+    "short": "Allena a sentire e scrivere i suoni di una parola."
+  },
+  "feelings": {
+    "full": "Collegare le facce alle parole, riconoscere un'emozione in una situazione e disegnare la propria faccia dà ai bambini le parole per dire come si sentono.",
+    "short": "Insegna a riconoscere e nominare le emozioni."
+  },
+  "ordinal-numbers": {
+    "full": "Contare dalla bandierina fino al posto indicato da ogni gettone insegna i numeri ordinali dal primo al decimo e mostra che tutto dipende dal punto di partenza.",
+    "short": "Insegna i numeri ordinali con file di figure."
+  },
+  "days-and-months": {
+    "full": "Numerare e completare i giorni della settimana e i mesi dell'anno, e dire quale viene prima e quale dopo, fissa l'ordine del tempo che i bambini usano ogni giorno.",
+    "short": "Fissa l'ordine dei giorni e dei mesi."
+  },
+  "seasons": {
+    "full": "Ordinare i disegni per stagione, mettere in fila il ciclo dell'anno e collegare ogni mese alla sua stagione costruisce l'idea del tempo che passa e dei cambiamenti della natura.",
+    "short": "Insegna le quattro stagioni dell'anno."
+  },
+  "all-about-me": {
+    "full": "Scrivere il proprio nome e la propria età, disegnare la famiglia e scegliere le cose preferite rende le prime scritture personali e piene di senso per il bambino.",
+    "short": "Una pagina personale per le prime scritture."
+  },
+  "picture-word-cards": {
+    "full": "Ritagliare carte con figura e parola per nominare, leggere, abbinare e giocare a memory costruisce il vocabolario e la lettura della parola intera fin dalla scuola dell'infanzia.",
+    "short": "Carte da ritagliare per leggere e giocare."
+  },
+  "syllable-split": {
+    "full": "Battere le mani e segnare ogni sillaba di una parola illustrata insegna a sentire le parti delle parole, la base per leggere e scrivere in classe prima.",
+    "short": "Insegna a dividere le parole in sillabe."
+  },
+  "syllable-reading": {
+    "full": "Leggere ad alta voce una tabella di sillabe e ritrovare la prima sillaba di ogni disegno è il passaggio dalla sillaba alla parola che dà scioltezza ai primi lettori.",
+    "short": "Allena la lettura di sillabe piane e complesse."
+  },
+  "opposites": {
+    "full": "Leggere una parola e scrivere, abbinare o scegliere il suo contrario amplia il lessico e insegna che le parole si legano per significato, non solo per suono.",
+    "short": "Riconoscere e scrivere i contrari."
+  },
+  "read-and-do": {
+    "full": "Leggere una consegna e fare proprio quello che dice sulla fila di disegni allena la comprensione delle istruzioni scritte fin dalla classe prima.",
+    "short": "Allena la comprensione delle consegne scritte."
+  },
+  "rhyming-words": {
+    "full": "Ascoltare la fine delle parole, riconoscere quali fanno rima e scrivere la parola in rima allena l'orecchio fonologico dei bambini che iniziano a leggere e a scrivere.",
+    "short": "Riconoscere e scrivere le parole in rima."
+  },
+  "hundreds-chart-puzzles": {
+    "full": "Completare i pezzi ritagliati dalla tavola del 100 con i numeri che mancano consolida l'ordine dei numeri e le relazioni 1 in più, 1 in meno, 10 in più e 10 in meno.",
+    "short": "Consolida la tavola del 100 con i puzzle."
+  },
+  "spelling-rules": {
+    "full": "Completare parole illustrate con una regola di ortografia alla volta (doppie, ce ci che chi, ge gi ghe ghi, gn e gli, mp e mb, plurali in -chi) fissa la regola dentro la parola.",
+    "short": "Una regola di ortografia per pagina, con i disegni."
+  },
+  "compound-words": {
+    "full": "Unire una parola base a un suffisso, ritrovare la base dentro un nome alterato o derivato e smascherare i falsi alterati insegna come si formano le parole italiane.",
+    "short": "Formare e riconoscere nomi alterati e derivati."
+  },
+  "verb-forms": {
+    "full": "Scrivere tutte le persone di un verbo al presente partendo dal disegno e dall'infinito fissa le desinenze che il bambino sente ma non sempre sa scrivere.",
+    "short": "Fissa le desinenze del presente indicativo."
+  },
+  "animal-fact-file": {
+    "full": "Compilare la carta d'identità di un animale, con classe, habitat, alimentazione e rivestimento, insegna a osservare, classificare e scrivere un testo informativo semplice.",
+    "short": "Insegna a descrivere e classificare un animale."
+  },
+  "logic-puzzles": {
+    "full": "Risolvere un gioco di logica con la griglia, barrando quello che non può essere finché resta una sola risposta, allena il ragionamento logico e la lettura attenta degli indizi.",
+    "short": "Allena il ragionamento logico con gli indizi."
+  },
+  "division-with-remainder": {
+    "full": "Cerchiare gruppi, distribuire uno alla volta e scrivere la divisione in riga con mucchi che non si dividono esattamente insegna che cos'è il resto e perché è minore del divisore.",
+    "short": "Insegna la divisione con il resto passo dopo passo."
   }
 }

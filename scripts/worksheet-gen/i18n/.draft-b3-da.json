@@ -335,7 +335,7 @@
   },
   "G2-315": {
    "title": "Staveregler: {UNIT}",
-   "instruction": "Læs reglen i kassen. Sig ordet til hvert billede, og skriv så de bogstaver, reglen handler om, i de stiplede kasser."
+   "instruction": "Læs reglen i kassen. Sig ordet til hvert billede, og skriv det, der mangler, i kassen: ét bogstav eller to. Ikke alle ord følger reglen."
   },
   "G2-324": {
    "title": "Hvilken stavemåde? {UNIT}",
@@ -343,10 +343,10 @@
   },
   "G2-325": {
    "title": "Stavedetektiv: {UNIT}",
-   "instruction": "Læs hvert ord. Find regelbogstaverne, sæt ring om dem i ordet, og skriv dem så i den lille kasse."
+   "instruction": "Læs hvert ord. Find det sted, reglen handler om. Sæt ring om bogstavet eller bogstaverne der, og skriv dem i den lille kasse."
   },
   "G2-326": {
-   "title": "Sortér efter staveregel: {UNIT}",
+   "title": "Sortér ordene efter staveregel: {UNIT}",
    "instruction": "Sig ordet til hvert billede. Skriv det i kassen med dets stavemåde, ét ord på hver linje."
   },
   "G2-327": {
@@ -362,8 +362,8 @@
    "instruction": "Sig navnet på de to billeder, sæt de to ord sammen, og skriv det nye ord på linjen."
   },
   "G2-329": {
-   "title": "Hvad skal ind i midten? Binde-s og binde-e",
-   "instruction": "Begge ord står skrevet. Skriv det bogstav, der binder dem sammen, i kassen, eller lad den stå tom. Skriv så hele ordet på linjen."
+   "title": "Hvad skal ind i midten? Binde-e eller ingenting",
+   "instruction": "Begge ord står skrevet. Skal der et binde-e i kassen? Skriv det, eller lad kassen stå tom. Skriv så hele ordet på linjen."
   },
   "G2-330": {
    "title": "Del det sammensatte ord: find de to ord",
@@ -394,7 +394,7 @@
    "instruction": "Se på billedet, og læs udsagnsordet i brikken. Skriv den form, der passer i sætningen, i den stiplede kasse."
   },
   "G2-336": {
-   "title": "De uregelmæssige udsagnsord: være, have, gå, få, se",
+   "title": "Uregelmæssige udsagnsord: nutid og datid",
    "instruction": "Disse udsagnsord bøjes helt anderledes. Skriv nutid og datid af hvert af dem i de stiplede kasser."
   },
   "G2-337": {
@@ -410,15 +410,15 @@
    "instruction": "Find ud af noget om dyret. Skriv én oplysning i hver række på faktakortet, og fyld resten af siden med din egen tegning eller dine egne ord."
   },
   "G2-339": {
-   "title": "Faktakort om {U}: sæt ring om det rigtige",
+   "title": "Faktakort om {L}: sæt ring om det rigtige",
    "instruction": "Læs mulighederne i hver række, og sæt ring om den, der passer på dyret. Tegn så, hvor det bor, og gør sætningen færdig."
   },
   "G2-340": {
-   "title": "Faktakort med ordbank: {U}",
+   "title": "Faktakort med ordbank: {L}",
    "instruction": "Find hver rigtig oplysning i ordbanken, og skriv den i den rigtige række på faktakortet. Gør så sætningen nederst færdig."
   },
   "G2-341": {
-   "title": "Faktakort: skriv tre sætninger om {U}",
+   "title": "Faktakort: skriv tre sætninger om {L}",
    "instruction": "Læs faktakortet. Gør de tre sætninger færdige med oplysninger fra det, og skriv så én oplysning mere selv på den sidste linje."
   },
   "G2-342": {
@@ -7603,7 +7603,8 @@
      "split": [
       "last",
       "bil"
-     ]
+     ],
+     "pictureTheme": "vehicles"
     },
     {
      "key": "turkey",
@@ -8968,7 +8969,8 @@
     "subway",
     "lemonade",
     "biscuit",
-    "hose"
+    "hose",
+    "donkey"
    ],
    "strings": {
     "K-324": {
@@ -9786,10 +9788,10 @@
      "allDef": "alle æslerne",
      "pl": "æsler",
      "ord": {
-      "2": "den anden æsel",
-      "3": "den tredje æsel",
-      "4": "den fjerde æsel",
-      "5": "den femte æsel"
+      "2": "det andet æsel",
+      "3": "det tredje æsel",
+      "4": "det fjerde æsel",
+      "5": "det femte æsel"
      },
      "dat": null,
      "def": "æslet",
@@ -10067,9 +10069,9 @@
     },
     "pig": {
      "unique": "grisen",
-     "all": "alle griserne",
-     "allDef": "alle griserne",
-     "pl": "griser",
+     "all": "alle grisene",
+     "allDef": "alle grisene",
+     "pl": "grise",
      "ord": {
       "2": "den anden gris",
       "3": "den tredje gris",
@@ -10078,7 +10080,7 @@
      },
      "dat": null,
      "def": "grisen",
-     "defPl": "griserne",
+     "defPl": "grisene",
      "part": null,
      "gen": null,
      "a2": null,
@@ -10162,9 +10164,9 @@
     },
     "tiger": {
      "unique": "tigeren",
-     "all": "alle tigerne",
-     "allDef": "alle tigerne",
-     "pl": "tigere",
+     "all": "alle tigrene",
+     "allDef": "alle tigrene",
+     "pl": "tigre",
      "ord": {
       "2": "den anden tiger",
       "3": "den tredje tiger",
@@ -10173,7 +10175,7 @@
      },
      "dat": null,
      "def": "tigeren",
-     "defPl": "tigerne",
+     "defPl": "tigrene",
      "part": null,
      "gen": null,
      "a2": null,
@@ -11718,25 +11720,6 @@
      "a2": null,
      "reviewed": true
     },
-    "chicken": {
-     "unique": "kyllingen",
-     "all": "alle kyllingerne",
-     "allDef": "alle kyllingerne",
-     "pl": "kyllinger",
-     "ord": {
-      "2": "den anden kylling",
-      "3": "den tredje kylling",
-      "4": "den fjerde kylling",
-      "5": "den femte kylling"
-     },
-     "dat": null,
-     "def": "kyllingen",
-     "defPl": "kyllingerne",
-     "part": null,
-     "gen": null,
-     "a2": null,
-     "reviewed": true
-    },
     "cow": {
      "unique": "koen",
      "all": "alle køerne",
@@ -11962,7 +11945,7 @@
       "rel": "eq"
      },
      {
-      "text": "Der er mere end {n} {pl} i rækken.",
+      "text": "Der er flere end {n} {pl} i rækken.",
       "cue": "count",
       "rel": "gt"
      },
@@ -13560,7 +13543,7 @@
      "id": "hus-mus",
      "lines": [
       "Inde i det gamle hus",
-      "bor der en lille grå ___."
+      "bor der en lille ___."
      ],
      "answer": {
       "vocabKey": "mouse"
@@ -13596,7 +13579,7 @@
      "id": "sol-stol",
      "lines": [
       "Far sidder ude i den varme sol",
-      "på sin gamle grønne ___."
+      "på sin gode gamle ___."
      ],
      "answer": {
       "vocabKey": "chair"
@@ -13620,7 +13603,7 @@
      "id": "hest-vest",
      "lines": [
       "Manden rider på sin hest,",
-      "han har en flot og rød ___."
+      "han har en flot og fin ___."
      ],
      "answer": {
       "vocabKey": "vest"
@@ -13757,7 +13740,7 @@
    "rules": {
     "ll": {
      "id": "ll",
-     "head": "dobbelt l",
+     "head": "l eller ll",
      "chip": "ll",
      "band": "G2",
      "gap": {
@@ -13773,7 +13756,7 @@
       "ll",
       "l"
      ],
-     "pairHead": "ll eller l",
+     "pairHead": "l eller ll",
      "proof": null,
      "models": [
       {
@@ -13869,19 +13852,19 @@
        "pluralGap": null
       },
       {
-       "theme": "flowers",
-       "noun": "carnation",
-       "vocabKey": "carnation",
-       "word": "nellike",
+       "theme": "activities",
+       "noun": "basketball",
+       "vocabKey": "basketball",
+       "word": "basketball",
        "gaps": [
         {
-         "from": 2,
+         "from": 8,
          "len": 2
         }
        ],
        "g": "ll",
        "side": "rule",
-       "plural": "nelliker",
+       "plural": "basketball",
        "pluralGap": null
       },
       {
@@ -14157,10 +14140,10 @@
        "pluralGap": null
       },
       {
-       "theme": "shapes",
-       "noun": "cone",
-       "vocabKey": "cone",
-       "word": "kegle",
+       "theme": "furniture",
+       "noun": "chair",
+       "vocabKey": "chair",
+       "word": "stol",
        "gaps": [
         {
          "from": 3,
@@ -14169,7 +14152,7 @@
        ],
        "g": "l",
        "side": "contrast",
-       "plural": "kegler",
+       "plural": "stole",
        "pluralGap": null
       },
       {
@@ -15505,7 +15488,7 @@
    "strings": {
     "G2-315": {
      "title": "Staveregler: {UNIT}",
-     "instruction": "Læs reglen i kassen. Sig ordet til hvert billede, og skriv så de bogstaver, reglen handler om, i de stiplede kasser."
+     "instruction": "Læs reglen i kassen. Sig ordet til hvert billede, og skriv det, der mangler, i kassen: ét bogstav eller to. Ikke alle ord følger reglen."
     },
     "G2-324": {
      "title": "Hvilken stavemåde? {UNIT}",
@@ -15513,10 +15496,10 @@
     },
     "G2-325": {
      "title": "Stavedetektiv: {UNIT}",
-     "instruction": "Læs hvert ord. Find regelbogstaverne, sæt ring om dem i ordet, og skriv dem så i den lille kasse."
+     "instruction": "Læs hvert ord. Find det sted, reglen handler om. Sæt ring om bogstavet eller bogstaverne der, og skriv dem i den lille kasse."
     },
     "G2-326": {
-     "title": "Sortér efter staveregel: {UNIT}",
+     "title": "Sortér ordene efter staveregel: {UNIT}",
      "instruction": "Sig ordet til hvert billede. Skriv det i kassen med dets stavemåde, ét ord på hver linje."
     },
     "G2-327": {
@@ -15534,8 +15517,7 @@
    "casing": "lower",
    "links": [
     "",
-    "e",
-    "s"
+    "e"
    ],
    "linkBoxW": 36,
    "exemplar": "A",
@@ -15793,38 +15775,6 @@
         "pic": {
          "theme": "christmas",
          "noun": "gingerbread"
-        }
-       },
-       "hubSide": "b",
-       "opaque": false,
-       "picOpened": true
-      },
-      {
-       "a": {
-        "vocabKey": "arm",
-        "word": "arm",
-        "pic": {
-         "theme": "body parts",
-         "noun": "arm"
-        }
-       },
-       "aStem": null,
-       "link": "",
-       "b": {
-        "vocabKey": "ribbon",
-        "word": "bånd",
-        "pic": {
-         "theme": "accessories",
-         "noun": "ribbon"
-        }
-       },
-       "whole": {
-        "word": "armbånd",
-        "vocabKey": "bracelet",
-        "scale": 1,
-        "pic": {
-         "theme": "accessories",
-         "noun": "bracelet"
         }
        },
        "hubSide": "b",
@@ -16788,15 +16738,6 @@
     "christmas/gingerbread": [
      "gingerbread"
     ],
-    "body parts/arm": [
-     "arm"
-    ],
-    "accessories/ribbon": [
-     "ribbon"
-    ],
-    "accessories/bracelet": [
-     "bracelet"
-    ],
     "camping/river": [
      "river"
     ],
@@ -16969,8 +16910,8 @@
      "instruction": "Sig navnet på de to billeder, sæt de to ord sammen, og skriv det nye ord på linjen."
     },
     "F1": {
-     "title": "Hvad skal ind i midten? Binde-s og binde-e",
-     "instruction": "Begge ord står skrevet. Skriv det bogstav, der binder dem sammen, i kassen, eller lad den stå tom. Skriv så hele ordet på linjen."
+     "title": "Hvad skal ind i midten? Binde-e eller ingenting",
+     "instruction": "Begge ord står skrevet. Skal der et binde-e i kassen? Skriv det, eller lad kassen stå tom. Skriv så hele ordet på linjen."
     },
     "F2": {
      "title": "Del det sammensatte ord: find de to ord",
@@ -17611,7 +17552,7 @@
     },
     {
      "id": "f05",
-     "text": "Alma {form} en kage til sin mor.",
+     "text": "Hver søndag {form} Alma en kage.",
      "col": "pres",
      "unit": "nutid-datid",
      "fits": [
@@ -17633,7 +17574,7 @@
     },
     {
      "id": "f07",
-     "text": "William {form} et billede af sin hund.",
+     "text": "Lige nu {form} William sin hund.",
      "col": "pres",
      "unit": "nutid-datid",
      "fits": [
@@ -17644,7 +17585,7 @@
     },
     {
      "id": "f08",
-     "text": "Om aftenen {form} Freja en bog.",
+     "text": "Hver aften {form} Freja en bog.",
      "col": "pres",
      "unit": "nutid-datid",
      "fits": [
@@ -17671,7 +17612,7 @@
     },
     {
      "id": "f10",
-     "text": "Clara {form} sine hænder før maden.",
+     "text": "Hver dag {form} Clara sine hænder.",
      "col": "pres",
      "unit": "nutid-datid",
      "fits": [
@@ -17693,7 +17634,7 @@
     },
     {
      "id": "f12",
-     "text": "Noah {form} altid til musik.",
+     "text": "Hver dag {form} Noah til musik.",
      "col": "pres",
      "unit": "nutid-datid",
      "fits": [
@@ -17716,7 +17657,7 @@
     },
     {
      "id": "f14",
-     "text": "Oscar {form} højt af den sjove film.",
+     "text": "Lige nu {form} Oscar af den sjove film.",
      "col": "pres",
      "unit": "nutid-datid",
      "fits": [
@@ -17738,7 +17679,7 @@
     },
     {
      "id": "f16",
-     "text": "Freja {form} op i træet.",
+     "text": "Lige nu {form} Freja op i træet.",
      "col": "pres",
      "unit": "nutid-datid",
      "fits": [
@@ -17760,7 +17701,7 @@
     },
     {
      "id": "f18",
-     "text": "Ida {form} saftevand til frokost.",
+     "text": "Hver dag {form} Ida saftevand.",
      "col": "pres",
      "unit": "nutid-datid",
      "fits": [
@@ -17782,7 +17723,7 @@
     },
     {
      "id": "f20",
-     "text": "Emma {form} sig bag sofaen.",
+     "text": "Lige nu {form} Emma sig bag sofaen.",
      "col": "pres",
      "unit": "nutid-datid",
      "fits": [
@@ -17805,7 +17746,7 @@
     },
     {
      "id": "f22",
-     "text": "Oscar {form} på en stol i klassen.",
+     "text": "Lige nu {form} Oscar på en stol.",
      "col": "pres",
      "unit": "nutid-datid",
      "fits": [
@@ -17827,7 +17768,7 @@
     },
     {
      "id": "f24",
-     "text": "Emil {form} tasken hele vejen.",
+     "text": "Hver dag {form} Emil sin taske.",
      "col": "pres",
      "unit": "nutid-datid",
      "fits": [
@@ -17863,7 +17804,7 @@
     },
     {
      "id": "f27",
-     "text": "Noah {form} en ny cykel.",
+     "text": "Nu {form} Noah en ny cykel.",
      "col": "pres",
      "unit": "nutid-datid",
      "fits": [
@@ -17886,7 +17827,7 @@
     },
     {
      "id": "f29",
-     "text": "Alma {form} glad i dag.",
+     "text": "Alma {form} glad lige nu.",
      "col": "pres",
      "unit": "nutid-datid",
      "fits": [
@@ -17909,7 +17850,7 @@
     },
     {
      "id": "f31",
-     "text": "William {form} en hund derhjemme.",
+     "text": "Nu {form} William en hund derhjemme.",
      "col": "pres",
      "unit": "nutid-datid",
      "fits": [
@@ -17939,8 +17880,8 @@
      "instruction": "Læs hvert udsagnsord til venstre. Tegn en streg til dets datid til højre, én streg til hvert ord."
     },
     "F3": {
-     "title": "Udsagnsord i sætninger med billeder",
-     "instruction": "Se på billedet, og læs udsagnsordet i brikken. Skriv den form, der passer i sætningen, i den stiplede kasse."
+     "title": "Uregelmæssige udsagnsord: nutid og datid",
+     "instruction": "Disse udsagnsord bøjes helt anderledes. Skriv nutid og datid af hvert af dem i de stiplede kasser."
     },
     "F4": {
      "title": "De uregelmæssige udsagnsord: være, have, gå, få, se",
@@ -18735,6 +18676,8 @@
   "data: pictures whose filename is not the picture, found opening the da pins: around the house/brush = a PAINTbrush (not a brush for teeth or hair), accessories/ribbon = a bow, body parts/hair = a girl's face, body parts/heel + chin = a whole foot / face, hospital/cast = a boy, winter/ice = a puddle, At the Supermarket/biscuit = a pie, vehicles/subway = an ordinary train, summer/lemonade = a glass of juice, around the house/hose = a coil that reads as rope, flowers/forget-me-not = a red poppy-like flower, birds 2/pelican = a stork",
   "data: image-vocabulary da has two keys printing the same Danish word in one theme (Things That Fly: dragon + kite = \"drage\"; occupations: chef + cook = \"kok\"; around the house: fridge + refrigerator = \"køleskab\", cabinet + closet = \"skab\", carpet + rug = \"tæppe\"; winter: sled + sleigh = \"slæde\"; kitchen tools/vegetables: sponge + mushroom = \"svamp\") — every picture-word type must dedupe by word, not by key",
   "K-321 instruction \"The first day of the week is already marked 1\" is ambiguous in EN (Sunday-first US calendars vs Monday-first ISO) — the sheet should name the day it marked",
-  "G1-306 base instruction is 141 chars on a family whose measured meta window is 49-78 — the EN instruction cannot carry its own SERP description"
+  "G1-306 base instruction is 141 chars on a family whose measured meta window is 49-78 — the EN instruction cannot carry its own SERP description",
+  "data: image-vocabulary.js donkey da gender is \"n\" — æsel is neuter (et æsel, æslet); K-348 would print \"en æsel\" (donkey excluded in the da picture-word-cards block until the vocab is fixed)",
+  "data: data/b2/calendar.js da dayAbbr uses tir/tor; Retskrivningsordbogen abbreviates tirs./tors. — G1-322 reads them from calendar.js, so the draft cannot change them"
  ]
 }

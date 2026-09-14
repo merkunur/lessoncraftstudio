@@ -73,7 +73,7 @@ const NAMES = {
     monthNames: ['januari', 'februari', 'mars', 'april', 'maj', 'juni', 'juli', 'augusti', 'september', 'oktober', 'november', 'december'] },
   da: { weekStart: 1, ordinalStyle: 'dot',
     dayNames: ['søndag', 'mandag', 'tirsdag', 'onsdag', 'torsdag', 'fredag', 'lørdag'],
-    dayAbbr: ['søn', 'man', 'tir', 'ons', 'tor', 'fre', 'lør'],
+    dayAbbr: ['søn', 'man', 'tirs', 'ons', 'tors', 'fre', 'lør'],
     dayPlural: ['søndage', 'mandage', 'tirsdage', 'onsdage', 'torsdage', 'fredage', 'lørdage'],
     monthNames: ['januar', 'februar', 'marts', 'april', 'maj', 'juni', 'juli', 'august', 'september', 'oktober', 'november', 'december'] },
   no: { weekStart: 1, ordinalStyle: 'dot',

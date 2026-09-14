@@ -1816,7 +1816,8 @@
       "split": [
         "last",
         "bil"
-      ]
+      ],
+      "pictureTheme": "vehicles"
     },
     {
       "key": "turkey",

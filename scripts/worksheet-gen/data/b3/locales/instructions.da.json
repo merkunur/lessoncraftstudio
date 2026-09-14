@@ -168,10 +168,10 @@
       "allDef": "alle æslerne",
       "pl": "æsler",
       "ord": {
-        "2": "den anden æsel",
-        "3": "den tredje æsel",
-        "4": "den fjerde æsel",
-        "5": "den femte æsel"
+        "2": "det andet æsel",
+        "3": "det tredje æsel",
+        "4": "det fjerde æsel",
+        "5": "det femte æsel"
       },
       "dat": null,
       "def": "æslet",
@@ -449,9 +449,9 @@
     },
     "pig": {
       "unique": "grisen",
-      "all": "alle griserne",
-      "allDef": "alle griserne",
-      "pl": "griser",
+      "all": "alle grisene",
+      "allDef": "alle grisene",
+      "pl": "grise",
       "ord": {
         "2": "den anden gris",
         "3": "den tredje gris",
@@ -460,7 +460,7 @@
       },
       "dat": null,
       "def": "grisen",
-      "defPl": "griserne",
+      "defPl": "grisene",
       "part": null,
       "gen": null,
       "a2": null,
@@ -544,9 +544,9 @@
     },
     "tiger": {
       "unique": "tigeren",
-      "all": "alle tigerne",
-      "allDef": "alle tigerne",
-      "pl": "tigere",
+      "all": "alle tigrene",
+      "allDef": "alle tigrene",
+      "pl": "tigre",
       "ord": {
         "2": "den anden tiger",
         "3": "den tredje tiger",
@@ -555,7 +555,7 @@
       },
       "dat": null,
       "def": "tigeren",
-      "defPl": "tigerne",
+      "defPl": "tigrene",
       "part": null,
       "gen": null,
       "a2": null,
@@ -2100,25 +2100,6 @@
       "a2": null,
       "reviewed": true
     },
-    "chicken": {
-      "unique": "kyllingen",
-      "all": "alle kyllingerne",
-      "allDef": "alle kyllingerne",
-      "pl": "kyllinger",
-      "ord": {
-        "2": "den anden kylling",
-        "3": "den tredje kylling",
-        "4": "den fjerde kylling",
-        "5": "den femte kylling"
-      },
-      "dat": null,
-      "def": "kyllingen",
-      "defPl": "kyllingerne",
-      "part": null,
-      "gen": null,
-      "a2": null,
-      "reviewed": true
-    },
     "cow": {
       "unique": "koen",
       "all": "alle køerne",
@@ -2344,7 +2325,7 @@
         "rel": "eq"
       },
       {
-        "text": "Der er mere end {n} {pl} i rækken.",
+        "text": "Der er flere end {n} {pl} i rækken.",
         "cue": "count",
         "rel": "gt"
       },

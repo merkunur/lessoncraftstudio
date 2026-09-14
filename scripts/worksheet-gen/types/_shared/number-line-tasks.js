@@ -9,6 +9,7 @@
  *  - 'repeated-sub': start n, hops of −k to 0 → n − k − k … = 0, write hop count (G3-310)
  */
 'use strict';
+const { divGlyph } = require('./notation.js');
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const numberLine = require('../../primitives/number-line.js');
 const { answerBox } = require('../../templates/components.js');
@@ -32,9 +33,10 @@ function makeNumberLineTaskType(cfg) {
     },
     i18n,
 
-    build({ difficulty }, ctx) {
+    build({ difficulty, locale }, ctx) {
       const d = this.difficulty[difficulty];
       const rng = ctx.rng;
+      const div = divGlyph(locale);   // C1 2026-09-14: was a hard-coded '÷'
       const cards = [];
       for (let i = 0; i < d.rows; i++) {
         let stage;
@@ -92,7 +94,7 @@ function makeNumberLineTaskType(cfg) {
           stage = `<div class="ws-card-stage" style="flex-direction:column;gap:8px" data-lcs-n="${n}" data-lcs-k="${k}" data-lcs-hops="${hops}">` +
             nl.svg +
             `<span style="display:inline-flex;align-items:center;gap:10px">` +
-            NUM(n) + OP('÷') + NUM(k) + OP('=') + answerBox({ w: 56, h: 46, answer: hops }) + `</span></div>`;
+            NUM(n) + OP(div) + NUM(k) + OP('=') + answerBox({ w: 56, h: 46, answer: hops }) + `</span></div>`;
         }
         cards.push(stage);
       }

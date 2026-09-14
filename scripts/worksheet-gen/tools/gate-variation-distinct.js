@@ -23,48 +23,98 @@
  * The comparison is on the RESOLVED config, not on the override literal: an
  * override that merely restates the base's own values is the same defect
  * wearing a different hat.
+ *
+ * BATCHES (2026-09-14). Default = nt20-B-VAR (gen-b2var-specs ROWS against
+ * wave-b2-en / wave-b2var-en). `--batch=b3` = nt20-C (tools/b3var-rows/* via
+ * gen-b3var-specs + the handwritten faces, against wave-b3-en / wave-b3var-en;
+ * before those wave files exist — Phase 2 — pass `--diffs=2`, the level every
+ * b3 wave ships). `--family=<key>` narrows b3 to one rows module for the edit
+ * loop. Faces are ALSO compared pairwise within a family: two faces resolving
+ * to the same config are one face wearing two titles.
  */
 'use strict';
 const fs = require('fs');
 const path = require('path');
 const ROOT = path.join(__dirname, '..');
-const { ROWS } = require('./gen-b2var-specs.js');
 const { loadType } = require('../lib/load-types.js');
 
-// Which difficulties does the BASE b2 wave publish? Read it, never assume.
-const basePlan = JSON.parse(fs.readFileSync(path.join(ROOT, 'waves', 'wave-b2-en.json'), 'utf8'));
-const varPlan = JSON.parse(fs.readFileSync(path.join(ROOT, 'waves', 'wave-b2var-en.json'), 'utf8'));
-const basePublished = new Set(basePlan.difficulties || []);
-const varPublished = varPlan.difficulties || [];
-if (!basePublished.size || !varPublished.length) {
-  console.error('VACUOUS: could not read published difficulties from the wave files');
+function arg(name, def) { const a = process.argv.find((x) => x.startsWith('--' + name + '=')); return a ? a.slice(name.length + 3) : def; }
+const batch = arg('batch', 'b2');
+const family = arg('family', null);
+const diffsArg = arg('diffs', null);
+
+let rows, hand = [];
+let baseWave, varWave;
+if (batch === 'b2') {
+  rows = require('./gen-b2var-specs.js').ROWS;
+  baseWave = 'wave-b2-en.json'; varWave = 'wave-b2var-en.json';
+} else if (batch === 'b3') {
+  const gen = require('./gen-b3var-specs.js');
+  const loaded = gen.loadRows();
+  rows = loaded.rows; hand = loaded.hand;
+  if (family) {
+    const mod = require(path.join(gen.ROWS_DIR, family + '.js'));
+    const ids = new Set([...(mod.ROWS || []).map((r) => r[1]), ...(mod.HANDWRITTEN || []).map((h) => h.id)]);
+    rows = rows.filter((r) => ids.has(r[1])); hand = hand.filter((h) => ids.has(h.id));
+  }
+  baseWave = 'wave-b3-en.json'; varWave = 'wave-b3var-en.json';
+} else { console.error('unknown --batch ' + batch); process.exit(2); }
+
+function readDiffs(file) {
+  const p = path.join(ROOT, 'waves', file);
+  if (!fs.existsSync(p)) return null;
+  return JSON.parse(fs.readFileSync(p, 'utf8')).difficulties || null;
+}
+let basePublished = readDiffs(baseWave), varPublished = readDiffs(varWave);
+if ((!basePublished || !varPublished) && diffsArg) { basePublished = basePublished || diffsArg.split(',').map(Number); varPublished = varPublished || diffsArg.split(',').map(Number); }
+if (!basePublished || !basePublished.length || !varPublished || !varPublished.length) {
+  console.error('VACUOUS: could not read published difficulties from ' + baseWave + ' / ' + varWave + ' (pass --diffs=2 before the wave files exist)');
   process.exit(2);
 }
+basePublished = new Set(basePublished);
+
+// face id -> base id. Rows carry the base file; handwritten faces declare `base`.
+const faces = [];
+for (const r of rows) faces.push({ id: r[1], baseId: r[3].replace(/^([A-Z0-9]+-[0-9]+)-.*$/, '$1') });
+for (const h of hand) faces.push({ id: h.id, baseId: h.base || null });
 
 const clashes = [];
 let checked = 0;
-for (const r of ROWS) {
-  const [, id, , baseFile] = r;
-  const baseId = baseFile.replace(/^([A-Z0-9]+-[0-9]+)-.*$/, '$1');
+const byBase = new Map();
+for (const f of faces) {
   let v, b;
-  try { v = loadType(id); b = loadType(baseId); } catch (e) { clashes.push(`${id}: cannot load (${e.message})`); continue; }
-  for (const d of varPublished) {
-    checked++;
-    if (!basePublished.has(d)) continue;          // the base never ships this level
-    const cv = JSON.stringify(v.difficulty[d]);
-    const cb = JSON.stringify(b.difficulty[d]);
-    if (cv === cb) {
-      clashes.push(`${id} resolves to the SAME config as its base ${baseId} at d${d} — ` +
-        `the base wave publishes d${d}, so this is the published base deck with a new theme and title`);
+  try { v = loadType(f.id); } catch (e) { clashes.push(`${f.id}: cannot load (${e.message})`); continue; }
+  const baseId = f.baseId || (v.exerciseType && null);
+  if (baseId) {
+    try { b = loadType(baseId); } catch (e) { clashes.push(`${f.id}: base ${baseId} cannot load (${e.message})`); continue; }
+    for (const d of varPublished) {
+      checked++;
+      if (!basePublished.has(d)) continue;          // the base never ships this level
+      if (JSON.stringify(v.difficulty[d]) === JSON.stringify(b.difficulty[d])) {
+        clashes.push(`${f.id} resolves to the SAME config as its base ${baseId} at d${d} — ` +
+          `the base wave publishes d${d}, so this is the published base deck with a new theme and title`);
+      }
+    }
+  }
+  const fam = baseId || v.exerciseType;
+  if (!byBase.has(fam)) byBase.set(fam, []);
+  byBase.get(fam).push({ id: f.id, cfg: varPublished.map((d) => JSON.stringify(v.difficulty[d])).join('|') });
+}
+// pairwise within a family (b3 only — the b2 batch predates this check and is frozen)
+if (batch === 'b3') {
+  for (const [fam, list] of byBase) {
+    for (let i = 0; i < list.length; i++) for (let j = i + 1; j < list.length; j++) {
+      checked++;
+      if (list[i].cfg === list[j].cfg) clashes.push(`${list[i].id} and ${list[j].id} (family ${fam}) resolve to the SAME config — one face wearing two titles`);
     }
   }
 }
 
 if (!checked) { console.error('VACUOUS: no (face, difficulty) pairs compared'); process.exit(2); }
-console.log(`compared ${checked} (face, published difficulty) pairs against their base`);
+console.log(`[${batch}${family ? ':' + family : ''}] compared ${checked} pairs over ${faces.length} faces against their bases` + (batch === 'b3' ? ' + pairwise within family' : ''));
 if (clashes.length) {
   console.error(`\n${clashes.length} variation(s) are not variations:`);
   clashes.forEach((c) => console.error('  ' + c));
   process.exit(1);
 }
-console.log('every variation differs from the deck its base publishes');
+console.log('every variation differs from the deck its base publishes' + (batch === 'b3' ? ' and from its siblings' : ''));

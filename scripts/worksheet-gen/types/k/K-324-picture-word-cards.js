@@ -253,7 +253,18 @@ module.exports = {
     const refused = [];
     const pool = raw.map((e) => ({ ...e, lines: C3.labelLines(e.word, { cap: d.cap, lineCap: d.lineCap, maxLines: d.maxLines }) }))
       .filter((e) => { if (!e.lines) { refused.push(e.word); return false; } return true; });
-    const picks = sampleEntries(rng, pool, d.cards, `K-324 ${theme}/${loc} (article, ${refused.length} refused by the label rule)`);
+    // The face promises a CONTRAST ("en eller ett", "der, die oder das"): a page whose eight cards
+    // all carry one article teaches nothing (sv/da/no shipped K-348 on vehicles = eight "en"
+    // cards, read off the contact sheets 2026-09-14). A theme whose pool offers only one
+    // article REFUSES (the wave re-pins); otherwise every article the pool offers is on the
+    // page at least once, the rest sampled freely.
+    const byChip = new Map();
+    for (const e of pool) { if (!byChip.has(e.chip)) byChip.set(e.chip, []); byChip.get(e.chip).push(e); }
+    if (byChip.size < 2) throw new Error(`K-324 ${theme}/${loc}: the article face needs two articles on the page, this theme offers only "${[...byChip.keys()][0]}" (${pool.length} words) — refuse the theme`);
+    const seedPicks = [...byChip.values()].slice(0, d.cards).map((g) => sampleEntries(rng, g, 1, 'K-324 article contrast')[0]);
+    const seeded = new Set(seedPicks.map((e) => e.vocabKey));
+    const rest = pool.filter((e) => !seeded.has(e.vocabKey));
+    const picks = rng.shuffle([...seedPicks, ...sampleEntries(rng, rest, d.cards - seedPicks.length, `K-324 ${theme}/${loc} (article, ${refused.length} refused by the label rule)`)]);
     const cards = picks.map((e) => {
       const p = plateFor(e.lines, d);
       return C3.articleCard({
@@ -527,6 +538,9 @@ module.exports = {
         if (dots && !legend) f.push('article: dots without a legend');
         if (!dots && legend) f.push('article: a legend without dots');
         if (dots && legend && legend.querySelectorAll('[data-lcs-legend-dot]').length < 2) f.push('article: legend carries no colour dots');
+        // the contrast: at least two distinct articles on the page
+        const chipsOnPage = new Set(cells.map((c) => c.dataset.lcsChip).filter(Boolean));
+        if (chipsOnPage.size < 2) f.push(`article: every card carries the same article "${[...chipsOnPage][0]}" — no contrast on the page`);
         cells.forEach((c, i) => {
           if (c.dataset.lcsCard !== 'article') f.push(`card ${i + 1}: kind ${c.dataset.lcsCard}`);
           checkStamped(c, i);

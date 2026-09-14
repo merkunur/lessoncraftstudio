@@ -19,17 +19,25 @@
  *        id, head, chip: 'a_e i_e o_e u_e',      chip = the rule-box chips (space-separated;
  *                                                 an underscore is the "any letter" slot)
  *        band: 'G2'|'G3',
- *        gap: { kind: 'regex'|'chunks'|'plural', re, boxes: 'wide'|'split' },
+ *        gap: { kind: 'regex'|'chunks'|'plural', re, boxes: 'wide'|'split', stem? },
+ *                                                 kind 'plural' = a Face-6 rule: `re` fires on the PLURAL, `stem` is
+ *                                                 what the singular drops (en '(?:y|fe?)$'); items carry `plural` and
+ *                                                 their `gaps` sit ON THE PLURAL (the changed grapheme); such a rule
+ *                                                 REFUSES the base and every gap face (types/g2 faceRefusal)
  *        cands: [...],                            every grapheme the rule can put in the gap
  *        pair: [a, b] | null,                     F2 chips / F4 bin heads (null = no contrast side)
+ *        pairHead: 'c or k',                       the {UNIT} of the pair faces (choice / bins) — the opposition, not the rule name
  *        proof: null | { kind: 'plural', re },
  *        models: [{ vocabKey, theme, noun, word, gaps: [{from,len}], g }],   the rule-box models,
  *                                                 EXCLUDED from the cards; build() prints the first d.models
- *        items:  [{ theme, noun, vocabKey, word, gaps: [{from,len}], g, side: 'rule'|'contrast', plural, pluralGap }],
+ *        items:  [{ theme, noun, vocabKey, word, gaps: [{from,len}], g, side: 'rule'|'contrast', plural, pluralGap, not?: [face], why? }],
+ *                                                 `not` keeps an item off the named FACES only (the base ignores it; a why is required)
  *        foils:  [{ theme, noun, vocabKey, word }],   F3 d3: carry NO candidate of cands
  *        refuse: { choice?, detective?, bins?, anchor?, plural? },   a face refused for this rule (reason)
  *        note }, ... },
- *     strings: { 'G2-315': { title, instruction } }   ({UNIT} = rule.head at the strings boundary)
+ *     strings: { 'G2-315': { title, instruction }, 'G2-324'..'G2-328': {…} }   ({UNIT} = rule.head — rule.pairHead on
+ *                                                 the pair faces — at the strings boundary; the face blocks = the rows
+ *                                                 module / handwritten specs verbatim, the gate asserts one source)
  *   }
  *
  * EN data rules applied here (measured with node against the real files;
@@ -54,7 +62,14 @@
  *     drops), cold (a snowman), christmas/tree (a decorated Christmas tree — the recorded
  *     trap), millipede (identical to centipede), carpet (reads as rug), falcon (reads as
  *     hawk), subway + rainy (read as train / rain), hornbill (reads as toucan);
- *   - `plural` = the vocab plural (F6 literal; en y-ies/f-ves items are a Phase-2 rule).
+ *   - `plural` = the vocab plural (F6 literal);
+ *   - PHASE 2 (2026-09-14): the `y-ies-f-ves` plural-form rule (Face 6) — 15 pairs measured
+ *     from the vocab (consonant+y → ies, f/fe → ves; singular ≤ 8, plural ≤ 10 letters,
+ *     pictured, approved), every picture opened on out/dev/G2-328-plural-pictures-sheet.png:
+ *     dropped firefly (all three pictures read as a housefly / bee), delivery liberty
+ *     nativity pottery (no honest child plural); shelf pinned to furniture/shelf (the
+ *     classroom picture shows TWO shelves); cherry to the supermarket fruit (tree/cherry is
+ *     a blossoming tree). Models cherry → cherries, leaf → leaves; 13 items.
  */
 'use strict';
 const SPELLING_RULES = {
@@ -115,7 +130,7 @@ const SPELLING_RULES = {
         { theme: 'post office', noun: 'scale', vocabKey: 'scale', word: 'scale', gaps: [{ from: 2, len: 1 }, { from: 4, len: 1 }], g: 'ae', side: 'rule', plural: 'scales', pluralGap: null },
         { theme: 'shapes', noun: 'cone', vocabKey: 'cone', word: 'cone', gaps: [{ from: 1, len: 1 }, { from: 3, len: 1 }], g: 'oe', side: 'rule', plural: 'cones', pluralGap: null },
         { theme: 'shapes', noun: 'cube', vocabKey: 'cube', word: 'cube', gaps: [{ from: 1, len: 1 }, { from: 3, len: 1 }], g: 'ue', side: 'rule', plural: 'cubes', pluralGap: null },
-        { theme: 'space', noun: 'neptune', vocabKey: 'neptune', word: 'neptune', gaps: [{ from: 4, len: 1 }, { from: 6, len: 1 }], g: 'ue', side: 'rule', plural: 'neptune', pluralGap: null },
+        { theme: 'space', noun: 'neptune', vocabKey: 'neptune', word: 'neptune', gaps: [{ from: 4, len: 1 }, { from: 6, len: 1 }], g: 'ue', side: 'rule', plural: 'neptune', pluralGap: null, not: ['anchor'], why: 'a proper noun (the planet): a seven-year-old cannot produce it whole from a blue globe' },
         { theme: 'space', noun: 'satellite', vocabKey: 'satellite', word: 'satellite', gaps: [{ from: 6, len: 1 }, { from: 8, len: 1 }], g: 'ie', side: 'rule', plural: 'satellites', pluralGap: null },
         { theme: 'space', noun: 'telescope', vocabKey: 'telescope', word: 'telescope', gaps: [{ from: 6, len: 1 }, { from: 8, len: 1 }], g: 'oe', side: 'rule', plural: 'telescopes', pluralGap: null },
         { theme: 'toys', noun: 'dice', vocabKey: 'dice', word: 'dice', gaps: [{ from: 1, len: 1 }, { from: 3, len: 1 }], g: 'ie', side: 'rule', plural: 'dice', pluralGap: null },
@@ -138,7 +153,7 @@ const SPELLING_RULES = {
     'c-k-ck': {
       id: 'c-k-ck', head: 'c, k or ck', chip: 'c k ck', band: 'G2',
       gap: { kind: 'regex', re: 'ck|(?<!c)k|c(?=[aou])', boxes: 'wide' },
-      cands: ['c', 'k', 'ck'], pair: ['c', 'k'], proof: null,
+      cands: ['c', 'k', 'ck'], pair: ['c', 'k'], pairHead: 'c or k', proof: null,
       models: [
         { vocabKey: 'cat', theme: 'animals', noun: 'cat', word: 'cat', gaps: [{ from: 0, len: 1 }], g: 'c' },
         { vocabKey: 'kite', theme: 'Things That Fly', noun: 'kite', word: 'kite', gaps: [{ from: 0, len: 1 }], g: 'k' },
@@ -244,7 +259,7 @@ const SPELLING_RULES = {
     'ee-ea': {
       id: 'ee-ea', head: 'ee or ea', chip: 'ee ea', band: 'G2',
       gap: { kind: 'regex', re: 'ee|ea', boxes: 'wide' },
-      cands: ['ee', 'ea'], pair: ['ee', 'ea'], proof: null,
+      cands: ['ee', 'ea'], pair: ['ee', 'ea'], pairHead: 'ee or ea', proof: null,
       models: [
         { vocabKey: 'bee', theme: 'Things That Fly', noun: 'bee', word: 'bee', gaps: [{ from: 1, len: 2 }], g: 'ee' },
         { vocabKey: 'leaf', theme: 'miscellaneous', noun: 'leaf', word: 'leaf', gaps: [{ from: 1, len: 2 }], g: 'ea' },
@@ -306,7 +321,7 @@ const SPELLING_RULES = {
     'ai-ay': {
       id: 'ai-ay', head: 'ai or ay', chip: 'ai ay', band: 'G2',
       gap: { kind: 'regex', re: 'ai|ay', boxes: 'wide' },
-      cands: ['ai', 'ay'], pair: ['ai', 'ay'], proof: null,
+      cands: ['ai', 'ay'], pair: ['ai', 'ay'], pairHead: 'ai or ay', proof: null,
       models: [
         { vocabKey: 'rain', theme: 'spring', noun: 'rain', word: 'rain', gaps: [{ from: 1, len: 2 }], g: 'ai' },
         { vocabKey: 'ray', theme: 'ocean life', noun: 'ray', word: 'ray', gaps: [{ from: 1, len: 2 }], g: 'ay' },
@@ -383,12 +398,50 @@ const SPELLING_RULES = {
       refuse: { choice: 'no contrast side (the rule is absolute in English)', bins: 'no contrast side' },
       note: 'the 19 usable words = the full pool',
     },
+    'y-ies-f-ves': {
+      id: 'y-ies-f-ves', head: 'y to ies, f to ves', chip: 'ies ves', band: 'G2',
+      gap: { kind: 'plural', re: '(ies|ves)$', stem: '(?:y|fe?)$', boxes: 'wide' },
+      cands: ['ies', 'ves'], pair: null, proof: { kind: 'plural', re: '(ies|ves)$' },
+      models: [
+        { vocabKey: 'cherry', theme: 'At the Supermarket', noun: 'cherry', word: 'cherry', plural: 'cherries', gaps: [{ from: 5, len: 3 }], g: 'ies' },
+        { vocabKey: 'leaf', theme: 'miscellaneous', noun: 'leaf', word: 'leaf', plural: 'leaves', gaps: [{ from: 3, len: 3 }], g: 'ves' },
+      ],
+      items: [
+        { theme: 'toys', noun: 'baby', vocabKey: 'baby', word: 'baby', plural: 'babies', gaps: [{ from: 3, len: 3 }], g: 'ies', side: 'rule' },
+        { theme: 'easter', noun: 'bunny', vocabKey: 'bunny', word: 'bunny', plural: 'bunnies', gaps: [{ from: 4, len: 3 }], g: 'ies', side: 'rule' },
+        { theme: 'birds 2', noun: 'canary', vocabKey: 'canary', word: 'canary', plural: 'canaries', gaps: [{ from: 5, len: 3 }], g: 'ies', side: 'rule' },
+        { theme: 'At the Supermarket', noun: 'candy', vocabKey: 'candy', word: 'candy', plural: 'candies', gaps: [{ from: 4, len: 3 }], g: 'ies', side: 'rule' },
+        { theme: 'vehicles', noun: 'ferry', vocabKey: 'ferry', word: 'ferry', plural: 'ferries', gaps: [{ from: 4, len: 3 }], g: 'ies', side: 'rule' },
+        { theme: 'space', noun: 'galaxy', vocabKey: 'galaxy', word: 'galaxy', plural: 'galaxies', gaps: [{ from: 5, len: 3 }], g: 'ies', side: 'rule' },
+        { theme: 'flowers', noun: 'lily', vocabKey: 'lily', word: 'lily', plural: 'lilies', gaps: [{ from: 3, len: 3 }], g: 'ies', side: 'rule' },
+        { theme: 'farm animals', noun: 'calf', vocabKey: 'calf', word: 'calf', plural: 'calves', gaps: [{ from: 3, len: 3 }], g: 'ves', side: 'rule' },
+        { theme: 'christmas', noun: 'elf', vocabKey: 'elf', word: 'elf', plural: 'elves', gaps: [{ from: 2, len: 3 }], g: 'ves', side: 'rule' },
+        { theme: 'around the house', noun: 'knife', vocabKey: 'knife', word: 'knife', plural: 'knives', gaps: [{ from: 3, len: 3 }], g: 'ves', side: 'rule' },
+        { theme: 'accessories', noun: 'scarf', vocabKey: 'scarf', word: 'scarf', plural: 'scarves', gaps: [{ from: 4, len: 3 }], g: 'ves', side: 'rule' },
+        { theme: 'furniture', noun: 'shelf', vocabKey: 'shelf', word: 'shelf', plural: 'shelves', gaps: [{ from: 4, len: 3 }], g: 'ves', side: 'rule' },
+        { theme: 'animals', noun: 'wolf', vocabKey: 'wolf', word: 'wolf', plural: 'wolves', gaps: [{ from: 3, len: 3 }], g: 'ves', side: 'rule' },
+      ],
+      foils: [
+        { theme: 'animals', noun: 'cat', vocabKey: 'cat', word: 'cat' },
+        { theme: 'animals', noun: 'dog', vocabKey: 'dog', word: 'dog' },
+        { theme: 'accessories', noun: 'hat', vocabKey: 'hat', word: 'hat' },
+        { theme: 'beach', noun: 'sun', vocabKey: 'sun', word: 'sun' },
+      ],
+      refuse: { base: 'a plural-form rule: the singular carries no rule letters', choice: 'plural-form rule', detective: 'plural-form rule', bins: 'plural-form rule', anchor: 'plural-form rule' },
+      note: 'Face 6 only (design section 3 F6): consonant + y -> ies, f / fe -> ves; 20 usable vocab pairs, 5 dropped after opening the pictures (firefly reads as a housefly; delivery liberty nativity pottery have no honest child plural); 15 kept = 2 models + 13 items',
+    },
     },
     strings: {
       'G2-315': {
         title: 'Spelling Rules: {UNIT}',
         instruction: 'Read the rule in the box. Say each picture word, then write the missing rule letters in the dashed boxes.',
       },
+      // Phase 2 faces (verbatim = tools/b3var-rows/spelling-rules.js rows / the handwritten specs; the gate asserts one source)
+      'G2-324': { title: 'Which One? {UNIT}', instruction: 'Look at the picture and read the word. Circle the right letters under it, then write them in the dashed box.' },
+      'G2-325': { title: 'Rule Detective: {UNIT}', instruction: 'Read each word. Find the rule letters, circle them in the word, then copy them into the small box.' },
+      'G2-326': { title: 'Sort by Spelling Rule: {UNIT}', instruction: 'Say each picture word. Write it in the bin with its spelling, one word on each line.' },
+      'G2-327': { title: 'Write the Word: {UNIT}', instruction: 'The rule letters are printed in orange. Say the picture word and write all the other letters in the boxes.' },
+      'G2-328': { title: 'Plurals: {UNIT}', instruction: 'Read the word for one. Write the word for many in the boxes. The plural changes the spelling.' },
     },
   },
 };

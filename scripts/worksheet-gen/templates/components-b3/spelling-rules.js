@@ -2,9 +2,9 @@
  * components-b3/spelling-rules.js — the G2-315 `spelling-rules` components
  * (design file §2 "NEW in templates/components-b3.js"). Type-scoped; merged
  * into the components-b3 namespace by templates/components-b3.js (names are
- * unique across every family file — `proofLane`, `pictureBank`, `ruleBins`
- * are Phase-2 faces and are NOT exported yet: nothing on the base consumes
- * them).
+ * unique across every family file). The base consumes gapWord + ruleBox; the
+ * Phase-2 faces add pictureBank / ruleBins / ruleCopyBox (`proofLane` is the
+ * unshipped F2 d3 knob and stays unbuilt — the waves publish d2 only).
  *
  *   gapWord({ word, gaps:[{from,len}], gapCells, cell, fontPx, mode })
  *     The word in EQUAL LETTER CELLS (the G1-305 `syllableWord` idea: build()
@@ -25,16 +25,23 @@
  *     `gaps` is an ARRAY: en magic e prints TWO non-adjacent boxes
  *     (c[a]k[e]); every other rule one element.
  *
- *   ruleBox({ chips, models:[{src, word, gaps}], w, h })
+ *   ruleBox({ chips, models:[{src, word, gaps, lead?}], w, h })
  *     The rule banner: `<div class="ws-scene-banner" data-lcs-rulebox>`
  *     (white, 2.5 dashed coral, r 12 — page.css) holding one coral chip per
  *     grapheme (`chips`, e.g. ['tt'] / ['a_e','i_e','o_e','u_e']; Baloo 2 700
  *     white, 20 px, 16 px at ≥ 3 chars) and the MODEL pills (`.ws-bankword`
  *     + `.ws-icon` 36 px + the word in Baloo 2 700 22 T.ink with the rule
- *     letters in a coral span). `models: []` = chips only (d3).
+ *     letters in a coral span). `models: []` = chips only (d3). A model with
+ *     `lead` (Face 6) prints `lead → word` (pluralModelHtml).
+ *
+ *   Phase 2 (2026-09-14, the five faces; type-scoped names, K-317 owns letterChips):
+ *   pictureBank({ items, px })          Face 4 — one row of picture-only pills
+ *   ruleBins({ bins, w, rows, ... })    Face 4 — two chip-labelled bins of empty rulings
+ *   ruleCopyBox({ w, h })               Face 3 — an empty answer box, never stamped
  */
 'use strict';
 const { svgRoot, roundedRect, label, esc } = require('../../primitives/_svg.js');
+const { writingRow } = require('../../primitives/trace-path.js');
 const tokens = require('../../primitives/_tokens.js');
 const T = tokens.color, F = tokens.font;
 
@@ -134,6 +141,7 @@ function chipHtml(text) {
 }
 
 function modelHtml(m) {
+  if (m.lead) return pluralModelHtml(m);   // Phase 2 (Face 6): `singular → plural`, the changed letters coral
   const letters = [...String(m.word)];
   const inGap = new Set();
   for (const g of m.gaps || []) for (let k = 0; k < g.len; k++) inGap.add(g.from + k);
@@ -145,6 +153,70 @@ function modelHtml(m) {
     `<img class="ws-icon" src="${m.src}" alt="" style="width:36px;height:36px"><span>${spelled}</span></span>`;
 }
 
+/* ------------------------------------------------------------- Phase 2 faces (2026-09-14) */
+
+/**
+ * pluralModelHtml({ src, lead, word, gaps })  (Face 6 model pill, reached through
+ * ruleBox `models[].lead`): `[img 36] lead → word` with the changed letters of
+ * `word` (the plural) in coral. `data-lcs-model` = the plural, `data-lcs-model-lead`
+ * = the singular; the base pill is byte-untouched (no `lead` → the old renderer).
+ */
+function pluralModelHtml(m) {
+  const letters = [...String(m.word)];
+  const inGap = new Set();
+  for (const g of m.gaps || []) for (let k = 0; k < g.len; k++) inGap.add(g.from + k);
+  const spelled = letters.map((ch, i) => inGap.has(i)
+    ? `<span data-lcs-rule-letter="${i}" style="color:${T.coral}">${esc(ch)}</span>` : esc(ch)).join('');
+  const gapStamp = (m.gaps || []).map((g) => g.from + ':' + g.len).join(',');
+  return `<span class="ws-bankword" data-lcs-model="${esc(m.word)}" data-lcs-model-lead="${esc(m.lead)}" data-lcs-model-gaps="${esc(gapStamp)}" ` +
+    `style="padding:2px 12px 2px 8px;gap:8px;font-family:${F.display};font-weight:700;font-size:22px;color:${T.ink};line-height:1.1">` +
+    `<img class="ws-icon" src="${m.src}" alt="" style="width:36px;height:36px"><span data-lcs-model-leadword>${esc(m.lead)}</span>` +
+    `<span aria-hidden="true" style="color:${T.inkSoft};font-size:20px">→</span><span data-lcs-model-word>${spelled}</span></span>`;
+}
+
+/**
+ * pictureBank({ items:[{src, vocabKey, word}], px=56 })  (Face 4)
+ *   `.ws-scene-banner ws-bank ws-bank--icons` (dashed coral banner) of picture-ONLY
+ *   pills in ONE row: `<span class="ws-bankword" data-lcs-bank="<vocabKey>"
+ *   data-lcs-word="<word>"><img 56></span>`; pill padding 4 px so eight pills
+ *   (68 wide) + seven 10 px gaps = 614 fit the 675 banner. Nothing printed —
+ *   the child spells the word from the picture.
+ */
+function pictureBank({ items = [], px = 56 }) {
+  if (!items.length) throw new Error('pictureBank: no items');
+  const pills = items.map((it) => `<span class="ws-bankword" data-lcs-bank="${esc(it.vocabKey)}" data-lcs-word="${esc(it.word)}" ` +
+    `style="padding:4px;gap:0;flex:0 0 auto"><img class="ws-icon" src="${it.src}" alt="" data-lcs-pic="${esc(it.vocabKey)}" style="width:${px}px;height:${px}px"></span>`).join('');
+  return `<div class="ws-scene-banner ws-bank ws-bank--icons" data-lcs-bank-row="${items.length}" ` +
+    `style="width:675px;margin:0;padding:8px 10px;gap:10px;flex:0 0 auto;flex-wrap:nowrap;justify-content:center">${pills}</div>`;
+}
+
+/**
+ * ruleBins({ bins:[{key, chip}], w=300, rows=5, rowH=56, glyphH=28, gap=10, top=40 })  (Face 4)
+ *   Two `.ws-bin` (white, teal, dashed top — page.css) side by side, gap 40, each
+ *   `w` wide and FILLING the remaining body (`flex:1`), `.ws-bin-label` holding the
+ *   coral rule chip (44 px inside the 56 px circle), and `rows` EMPTY
+ *   `writingRow` rulings (w − 40 × rowH, glyphH) spread evenly down the bin
+ *   (`data-lcs-bin-lines="<rows>"`, each row `data-lcs-bin-row`). The line count
+ *   is the same in every bin — it never states the split (design §3 F4).
+ */
+function ruleBins({ bins = [], w = 300, rows = 5, rowH = 56, glyphH = 28, gap = 10, top = 40 }) {
+  if (bins.length < 2) throw new Error('ruleBins: at least two bins');
+  const laneW = w - 40;
+  const html = bins.map((b) => {
+    const lines = [];
+    for (let i = 0; i < rows; i++) lines.push(`<div data-lcs-bin-row="${i + 1}" style="flex:0 0 auto;line-height:0">${writingRow({ w: laneW, h: rowH, glyphH, xHeight: true }).svg}</div>`);
+    return `<div class="ws-bin" data-lcs-bin="${esc(b.key)}" style="width:${w}px;max-width:${w}px;height:auto;flex:0 0 ${w}px;align-self:stretch">` +
+      `<span class="ws-bin-label" data-lcs-bin-label="${esc(b.key)}">${chipHtml(b.chip)}</span>` +
+      `<div class="ws-bin-lines" data-lcs-bin-lines="${rows}" style="box-sizing:border-box;height:100%;padding:${top}px 17px 12px;display:flex;flex-direction:column;justify-content:space-evenly;gap:${gap}px">${lines.join('')}</div></div>`;
+  }).join('');
+  return `<div data-lcs-bins="${bins.length}" style="display:flex;justify-content:center;gap:40px;flex:1 1 auto;min-height:0">${html}</div>`;
+}
+
+/** ruleCopyBox({ w=56, h=44 })  (Face 3): an EMPTY `.ws-answerbox` (`data-lcs-copybox`) — the family never stamps the answer, so components.js answerBox (which does) is not used. */
+function ruleCopyBox({ w = 56, h = 44 } = {}) {
+  return `<span class="ws-answerbox" data-lcs-copybox style="width:${w}px;height:${h}px;flex:0 0 auto"></span>`;
+}
+
 function ruleBox({ chips = [], models = [], w = 675, h = 60 }) {
   if (!chips.length) throw new Error('ruleBox: at least one chip');
   const chipRow = `<span data-lcs-chips style="display:inline-flex;gap:8px;align-items:center;flex:0 0 auto">${chips.map(chipHtml).join('')}</span>`;
@@ -153,4 +225,4 @@ function ruleBox({ chips = [], models = [], w = 675, h = 60 }) {
     `style="width:${w}px;min-height:${h}px;margin:0;padding:4px 10px;gap:18px;flex:0 0 auto">${chipRow}${pills}</div>`;
 }
 
-module.exports = { gapWord, ruleBox };
+module.exports = { gapWord, ruleBox, pictureBank, ruleBins, ruleCopyBox };

@@ -225,6 +225,16 @@ function carpetCard(d, shape, w, pic, loc, color) {
     C3.colourRing({ color }) + `</div>`;
 }
 
+/** The approved-words split is lower-case; print it in the word's own case (de nouns keep
+ *  their capital — de panel 2026-09-14). Byte-identical where the word is already lower-case. */
+function caseAlign(split, word) {
+  const chars = [...String(word)];
+  if (split.join('') === word || split.join('').toLocaleLowerCase() !== String(word).toLocaleLowerCase()) return split;
+  const out = []; let i = 0;
+  for (const t of split) { const n = [...t].length; out.push(chars.slice(i, i + n).join('')); i += n; }
+  return out;
+}
+
 /* ------------------------------------------------------------------ the multi pool (join / syllabified) */
 function multiPool(d, cfg, loc, who) {
   if (!Array.isArray(cfg.multi) || !cfg.multi.length) throw new Error(`G1-306 ${who}: the ${loc} bank has no multi pool (not authored) — refuse`);
@@ -294,7 +304,7 @@ function buildSyllabified({ d, cfg, loc, rng, difficulty }) {
   if (!bankItems) throw new Error('G1-306 syllabified: could not order the bank against the rows — refuse');
   const bank = C3.numberedBank({ items: bankItems.map((w) => ({ src: pickPicture(rng, w, loc).src, vocabKey: w.key })), iconPx: d.bankPic, gap: d.bankGap || 8 });
   const lines = rows.map((w, i) => C3.syllabifiedRow({
-    tokens: w.split, sepMode: cfg.sepMode || 'hyphen', fontPx: d.wordFont, h: d.rowH, hMin: d.rowMin || 70, boxPx: d.boxPx,
+    tokens: caseAlign(w.split, w.word), sepMode: cfg.sepMode || 'hyphen', fontPx: d.wordFont, h: d.rowH, hMin: d.rowMin || 70, boxPx: d.boxPx,
     data: {
       'data-lcs-sr-row': i + 1, 'data-lcs-word': w.word, 'data-lcs-vocab': w.key, 'data-lcs-split': w.split.join('|'),
       'data-lcs-count': w.count, 'data-lcs-pic': bankItems.indexOf(w) + 1, 'data-lcs-face': 'syllabified',

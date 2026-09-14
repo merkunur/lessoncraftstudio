@@ -105,7 +105,8 @@ function pickFoils(rng, block, cfg, hits) {
     if (arr.length < n) throw new Error(`K-317: letter ${L} has ${arr.length} ${what} foils < ${n}`);
     return rng.sample(arr, n);
   };
-  if (policy === 'avoid') return want(clean.filter((f) => (block.avoid || []).includes([...f.word][0])), nFoils, `avoid-initial (${(block.avoid || []).join('/')})`);
+  // folded initial: verify() folds too; an un-folded de capital never matched an avoid letter (de panel 2026-09-14)
+  if (policy === 'avoid') return want(clean.filter((f) => (block.avoid || []).includes([...f.word.toLocaleLowerCase()][0])), nFoils, `avoid-initial (${(block.avoid || []).join('/')})`);
   if (policy === 'pair-noninitial') {
     const pairFoils = want(clean.filter((f) => [...f.word][0] === block.pair), 2, `pair-initial (${block.pair})`);
     const usedWords = new Set([...hits, ...pairFoils].map((x) => x.word));

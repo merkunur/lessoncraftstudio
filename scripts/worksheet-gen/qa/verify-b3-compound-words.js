@@ -228,7 +228,10 @@ function validateBank(bank, loc, opts = {}) {
   const notes = [];
   const push = (m) => f.push(`[${loc}] ${m}`);
   const lower = (s) => String(s).toLocaleLowerCase(loc);
-  const opened = opts.opened || OPENED;
+  // the human open is the gate — for a non-en locale the human is the PANEL: the block's own
+  // `opened` record ({"theme/noun": [vocabKeys]}, the OPENED shape) is merged for that locale only
+  if (loc === 'en' && bank && bank.opened) push("en block must not carry `opened` (the build's OPENED table is the en record)");
+  const opened = opts.opened || ((loc !== 'en' && bank && bank.opened && typeof bank.opened === 'object') ? { ...OPENED, ...bank.opened } : OPENED);
   if (!bank || typeof bank !== 'object') return { fails: [`[${loc}] no bank`], notes, counts: {} };
   if (SHAPE_BY_LOC[loc] && bank.shape !== SHAPE_BY_LOC[loc]) push(`shape "${bank.shape}" ≠ ${SHAPE_BY_LOC[loc]}`);
   if (!['keep-first', 'lower'].includes(bank.casing)) push(`casing "${bank.casing}"`);

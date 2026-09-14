@@ -20,6 +20,16 @@
  *                         rows.length === count but NOT rows[s].join === split[s].
  *   exclude               vocabKeys the locale refuses even though the word is
  *                         approved (the reason is the comment beside the group)
+ *   texBoundary           the banked keys whose bank rows may be DRAWN as a
+ *                         syllable boundary (the Syllables and Sounds face prints
+ *                         one arc per row): multi-syllable, 'TeX' in the approved
+ *                         entry's sources_agreed, and NOT in remergeAcrossSyllable
+ *                         (a re-seated seam is not the approved boundary). The
+ *                         gate re-derives the set and fails in either direction
+ *                         (a listed rule-only key, an omitted TeX-agreed key).
+ *                         EN measured 2026-09-14: 24 of 182 rows (397/607 EN
+ *                         multi-syllable approvals are rule-only), so the Tiers
+ *                         face ships in EN for `around the house` only (pool 10).
  *   bank                  { vocabKey: [[graphemes of syllable 1], [syllable 2], ...] }
  *                         nested by the APPROVED split (approved-words-<loc>.json
  *                         `split`), one string per box; a string of >= 2 letters is a
@@ -274,6 +284,16 @@ const SOUND_BOXES = {
       trousers: [['t', 'r', 'ou', 's'], ['er', 's']],
       vest: [['v', 'e', 's', 't']],
     },
+    // the arcs-printable keys (derived; the gate diffs this list against the approved file)
+    texBoundary: [
+      'dolphin', 'donkey', 'panda', 'reindeer',
+      'bookshelf', 'carpet', 'closet', 'curtains', 'mailbox', 'outlet', 'shampoo', 'shovel', 'toolbox', 'window',
+      'chipmunk',
+      'scooter',
+      'monkey',
+      'sailboat', 'subway', 'tractor',
+      'hoodie', 'raincoat', 'sweatshirt', 'sweatpants',
+    ],
     dots: false,
   },
 };

@@ -7,10 +7,15 @@
  * graphemes; `starter` prints exactly one box).
  *
  * Exports (all NEW, per the design file):
- *   soundBoxes({chunks, box, gap, wide, dash, starter, printed, uniform})
+ *   soundBoxes({chunks, box, gap, wide, dash, starter, printed, uniform, sylRows, interGap})
  *       one dashed coral box per grapheme; a multigraph (>= 2 letters) is a
  *       1.5x-wide box with a teal tie arc under it (one sound, more letters).
  *       `uniform:N` ignores the chunks and draws N equal boxes (Sound Strip).
+ *       `sylRows:[[chunks of syllable 1], …]` (Syllables and Sounds) widens the
+ *       gap AFTER the last box of every syllable to `interGap` (22), stamps
+ *       `data-lcs-sylboxes="3|2"` and returns `spans:[{x,w}]` per cluster for
+ *       the shared syllable arcs. `printed:true` prints every chunk (Blend);
+ *       `starter:{i,text}` prints exactly one box (First Sound Given).
  *   hakDots({centers, filled})   nl hak-stippen: one teal dot over each box centre
  *   soundLane({w, h})            a white dashed lane with NO ticks (Count face)
  * The syllable arcs of the Tiers face come from G1-305's shared
@@ -34,14 +39,20 @@ function rowWidth(widths, gap) {
   return widths.reduce((a, b) => a + b, 0) + gap * (widths.length - 1) + 2;
 }
 
-function soundBoxes({ chunks, box = 48, gap = 8, wide = 1.5, dash = '6 5', starter = null, printed = false, uniform = null }) {
+function soundBoxes({ chunks, box = 48, gap = 8, wide = 1.5, dash = '6 5', starter = null, printed = false, uniform = null, sylRows = null, interGap = 22 }) {
   const list = uniform ? Array.from({ length: uniform }, () => '') : chunks.map(String);
   const widths = uniform ? list.map(() => box) : boxWidths(list, box, wide);
   const anyWide = !uniform && widths.some((w) => w !== box);
-  const W = rowWidth(widths, gap);
+  // the Tiers face: the gap AFTER the last box of each syllable is `interGap`
+  const sylEnd = new Set();
+  if (sylRows) { let k = -1; sylRows.forEach((r) => { k += r.length; sylEnd.add(k); }); }
+  const gapAfter = (i) => (sylEnd.has(i) && i < list.length - 1 ? interGap : gap);
+  const W = sylRows ? widths.reduce((a, w, i) => a + w + (i < widths.length - 1 ? gapAfter(i) : 0), 0) + 2 : rowWidth(widths, gap);
   const H = box + 2 + (anyWide ? 8 : 0);   // 8 px tie allowance (design 10; re-budgeted at the measured 710 px body)
   const parts = [];
   const centers = [];
+  const spans = [];
+  let spanStart = 1;
   let x = 1;
   const y = 1;
   list.forEach((c, i) => {
@@ -66,14 +77,16 @@ function soundBoxes({ chunks, box = 48, gap = 8, wide = 1.5, dash = '6 5', start
       }));
     }
     centers.push(x + w / 2);
-    x += w + gap;
+    if (sylRows && sylEnd.has(i)) { spans.push({ x: spanStart, w: x + w - spanStart }); spanStart = x + w + gapAfter(i); }
+    x += w + gapAfter(i);
   });
   const svg = svgRoot({ width: W, height: H, label: `${list.length} sound boxes` }, parts.join(''), {
     'data-lcs-soundboxes': list.length,
     ...(uniform ? { 'data-lcs-strip': uniform } : {}),
     ...(anyWide ? { 'data-lcs-anywide': 1 } : {}),
+    ...(sylRows ? { 'data-lcs-sylboxes': sylRows.map((r) => r.length).join('|') } : {}),
   });
-  return { svg, width: W, height: H, centers, widths };
+  return { svg, width: W, height: H, centers, widths, spans };
 }
 
 /** nl hak-stippen: a filled teal dot above every box centre; 12 px tall, the row's width. */

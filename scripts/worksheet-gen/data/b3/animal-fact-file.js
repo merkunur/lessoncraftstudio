@@ -38,8 +38,12 @@
  *                  // fi authors nom + ade instead of def; a missing literal
  *                  // drops the ANIMAL from the face that needs it, never the face
  *     frames:      [{field, text}] × 3, `{def}` exactly once (F4)
- *     sameDiff:    { same, diff, laneSame, laneDiff }                     (F5)
+ *     frameCaption: 'Write three sentences about the animal:'   // the F4 lane caption
+ *     sameDiff:    { same, diff, laneSame, laneDiff, caption }            (F5; caption = the lane caption)
  *     mystery:     { class, covering, diet, habitat, fly:{true,false}, swim:{true,false}, prompt }   (F6)
+ *                  // each frame takes {cell} OR {inFrame} — en covering takes
+ *                  // {inFrame} so `shell` reads "I have a shell." (the article
+ *                  // travels inside the literal, never computed)
  *     allowCompound: []            // sv only: the compounds carrying `grupp`
  *     blankTitle:  'Template'       // the {U} of the wave-pinnable `blank` unit
  *     strings:     { 'G2-318': {title, instruction} }   (F2..F6 added in Phase 2)
@@ -56,6 +60,12 @@
  *   - the base prints ONLY labels.* / drawLabel / factStarter (or sentence)
  *     / labels.special / animals[unit].name + strings['G2-318']; the rest is
  *     authored so the panels see the whole shape.
+ *   - Phase 2 (2026-09-14): the five faces print options.*.cell (chips, bank
+ *     words, printed cells), yesno, legsFrames + mystery.* (clues), frames +
+ *     frameCaption (starters), sameDiff.* (chips + starters + caption),
+ *     eyebrow ("Name:" on a riddle card), mystery.prompt; strings['G2-339'..
+ *     'G2-343'] mirror the emitted face specs' EN title/instruction (the gate
+ *     asserts equality) so the panels see every string the family prints.
  */
 'use strict';
 
@@ -171,10 +181,11 @@ const FACT_FILE = {
       { field: 'covering', text: '{def} has' },
       { field: 'diet', text: '{def} eats' },
     ],
-    sameDiff: { same: 'same', diff: 'different', laneSame: 'Same:', laneDiff: 'Different:' },
+    frameCaption: 'Write three sentences about the animal:',
+    sameDiff: { same: 'same', diff: 'different', laneSame: 'Same:', laneDiff: 'Different:', caption: 'Write what is the same and what is different:' },
     mystery: {
       class: 'I am {inFrame}.',
-      covering: 'I have {cell}.',
+      covering: 'I have {inFrame}.',
       diet: 'I eat {inFrame}.',
       habitat: 'I live {inFrame}.',
       fly: { true: 'I can fly.', false: 'I cannot fly.' },
@@ -187,6 +198,26 @@ const FACT_FILE = {
       'G2-318': {
         title: 'Animal Fact File: {U}',
         instruction: 'Find out about this animal. Write one fact in each row of the fact file, then fill in the rest of the page with your own drawing or words.',
+      },
+      'G2-339': {
+        title: '{U} Fact File: Tick the Facts',
+        instruction: 'Read the choices in each row and circle the one that is true for this animal. Then draw where it lives and finish the sentence.',
+      },
+      'G2-340': {
+        title: '{U} Fact File with a Word Bank',
+        instruction: 'Find each true fact in the word bank and copy it into the right row of the fact file. Then finish the sentence at the bottom.',
+      },
+      'G2-341': {
+        title: '{U} Fact File: Write Three Sentences',
+        instruction: 'Read the fact file. Finish the three sentences with facts from it, then write one more fact of your own on the last line.',
+      },
+      'G2-342': {
+        title: 'Compare Two Animals: Same and Different',
+        instruction: 'Read both fact files. For each fact, circle same or different. Then write two things that are the same and two that are different.',
+      },
+      'G2-343': {
+        title: 'Who Am I? Mystery Animal',
+        instruction: 'Read the five clues on each card. Find the animal in the picture bank, write its name on the line and draw it in the box.',
       },
     },
   },

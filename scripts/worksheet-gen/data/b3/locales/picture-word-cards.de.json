@@ -1,0 +1,82 @@
+{
+  "cardCase": "keep",
+  "articleStyle": {
+    "enabled": true,
+    "level": 2,
+    "dots": [
+      "codeBlue",
+      "codeRed",
+      "codeGreen"
+    ],
+    "elision": "refuse",
+    "elisionChip": null,
+    "legend": "der = blau · die = rot · das = grün"
+  },
+  "plural": {
+    "enabled": true,
+    "clones": 3
+  },
+  "bilingual": {
+    "partnerExemplar": "en",
+    "hostName": "Deutsch",
+    "partnerNames": {
+      "en": "Englisch",
+      "es": "Spanisch",
+      "pt": "Portugiesisch",
+      "fr": "Französisch",
+      "it": "Italienisch",
+      "nl": "Niederländisch",
+      "sv": "Schwedisch",
+      "da": "Dänisch",
+      "no": "Norwegisch",
+      "fi": "Finnisch"
+    },
+    "legendSep": " · "
+  },
+  "syllable": {
+    "enabled": true,
+    "mark": "arc",
+    "hyphen": "-",
+    "strictPool": false,
+    "exclude": []
+  },
+  "twinLayout": {
+    "cols": 4,
+    "blockRows": 2
+  },
+  "exclude": [
+    "plum",
+    "tree",
+    "girl",
+    "baby",
+    "persimmon",
+    "comet",
+    "nut"
+  ],
+  "strings": {
+    "K-324": {
+      "title": "Bildkarten mit Wort",
+      "instruction": "Schneide an den gestrichelten Linien entlang, um die Karten zu bekommen. Sprich den Namen jedes Bildes und lies dann sein Wort."
+    },
+    "twin": {
+      "title": "Bildkarten und Wortkarten: Paare finden",
+      "instruction": "Schneide die sechzehn Karten aus. Lege die Wortkarten zu den passenden Bildern oder drehe alle um und spiele Memory."
+    },
+    "article": {
+      "title": "Der, die oder das? Wortkarten mit Artikel",
+      "instruction": "Schneide die acht Karten aus. Sprich jedes Wort mit seinem Artikel, genau so, wie es auf der Karte steht."
+    },
+    "plural": {
+      "title": "Einzahl und Mehrzahl: Kartenpaare",
+      "instruction": "Schneide die Karten aus. Sprich das Wort für eins und das Wort für viele und lege dann jedes Paar zusammen."
+    },
+    "bilingual": {
+      "title": "Zweisprachige Bildkarten: Deutsch und Englisch",
+      "instruction": "Schneide die acht Karten aus. Sprich das Wort auf Deutsch und dann auf Englisch und bewahre die Karten für deine Wörterwand auf."
+    },
+    "syllable": {
+      "title": "Silbenkarten: Lies das Wort in Silben",
+      "instruction": "Schneide die acht Karten aus. Lies jedes Wort Silbe für Silbe und sprich dann das ganze Wort."
+    }
+  }
+}

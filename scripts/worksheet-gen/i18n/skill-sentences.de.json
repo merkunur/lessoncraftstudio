@@ -258,5 +258,85 @@
   "grid-coordinates": {
     "full": "Jedes Feld im Gitter über Buchstabe und Zahl zu finden und anzumalen übt das Lesen von Koordinaten und enthüllt ein verstecktes Bild.",
     "short": "Übt das Lesen von Gitterkoordinaten."
+  },
+  "letter-of-the-week": {
+    "full": "Buchstabeneinführung für Vorschule und 1. Klasse: einen Buchstaben nachspuren, Bilder mit dem Anlaut einkreisen und den Buchstaben selbst schreiben.",
+    "short": "Einen Buchstaben nachspuren, hören und schreiben"
+  },
+  "sound-boxes": {
+    "full": "Laute hören und schreiben: Bildwörter langsam sprechen und in jedes Kästchen einen Laut schreiben. Lautboxen für die 1. Klasse zum Ausdrucken.",
+    "short": "Wörter in Laute zerlegen, ein Laut pro Kästchen"
+  },
+  "feelings": {
+    "full": "Gefühle erkennen und benennen: Gesichter mit Gefühlswörtern verbinden, angenehme und unangenehme Gefühle sortieren und das eigene Befinden zeigen.",
+    "short": "Gefühle an Gesichtern erkennen und benennen"
+  },
+  "ordinal-numbers": {
+    "full": "Ordnungszahlen erste bis zehnte: Plätze in einer Reihe finden, Ordnungszahlen schreiben und Zahlwörter dem richtigen Bild zuordnen.",
+    "short": "Ordnungszahlen von erste bis zehnte üben"
+  },
+  "days-and-months": {
+    "full": "Wochentage und Monate lernen: die Woche und das Jahr ordnen, gestern, heute und morgen benennen und Abkürzungen der Wochentage zuordnen.",
+    "short": "Wochentage und Monate in der richtigen Reihenfolge"
+  },
+  "seasons": {
+    "full": "Die vier Jahreszeiten: Bilder den Jahreszeiten zuordnen, die Jahreszeitenuhr vervollständigen und Monate ihrer Jahreszeit zuordnen.",
+    "short": "Jahreszeiten erkennen und ordnen"
+  },
+  "all-about-me": {
+    "full": "Das bin ich: Name, Alter, Familie und Lieblingsdinge aufschreiben und zeichnen. Ein Steckbrief über sich selbst für Vorschule und Schulanfang.",
+    "short": "Ein Steckbrief über mich selbst"
+  },
+  "picture-word-cards": {
+    "full": "Bildkarten mit Wort zum Ausschneiden: Bild und Wort lesen, Paare finden, der, die, das üben, Einzahl und Mehrzahl und Silbenkarten.",
+    "short": "Bildkarten zum Ausschneiden und Lesen"
+  },
+  "syllable-split": {
+    "full": "Silbenbögen schwingen: Wörter in Silben gliedern, Silbenbögen malen, Silben zählen, sortieren und den Silbenkönig finden.",
+    "short": "Wörter in Silben schwingen und gliedern"
+  },
+  "syllable-reading": {
+    "full": "Silbenteppich lesen: Silben laut lesen, Bildwörter auf dem Teppich finden, Silben zusammensetzen und Silbenwörter lesen.",
+    "short": "Silben auf dem Silbenteppich lesen"
+  },
+  "opposites": {
+    "full": "Gegenteile üben: Gegensatzpaare finden, das Gegenteil schreiben, Gegenteile im Satz ergänzen und Gegenteile mit der Vorsilbe un- bilden.",
+    "short": "Gegensatzpaare finden und schreiben"
+  },
+  "read-and-do": {
+    "full": "Leseaufträge für die 1. Klasse: Sätze genau lesen und mit dem Stift ausführen, einkreisen, durchstreichen, verbinden, prüfen und zeichnen.",
+    "short": "Sätze lesen und genau ausführen"
+  },
+  "rhyming-words": {
+    "full": "Reimwörter finden: Reimpaare erkennen, Reime sortieren, Reime vervollständigen und eigene Reimwörter schreiben.",
+    "short": "Reimwörter erkennen und schreiben"
+  },
+  "hundreds-chart-puzzles": {
+    "full": "Hundertertafel-Puzzle: Ausschnitte der Hundertertafel ergänzen, Puzzleteile einordnen, Sprünge um 1 und 10 verfolgen und Fehler finden.",
+    "short": "Ausschnitte der Hundertertafel ergänzen"
+  },
+  "spelling-rules": {
+    "full": "Rechtschreibregeln üben: Wörter mit tt, ll, nn, ss, ck, tz und ie, fehlende Regelbuchstaben eintragen, Schreibweisen wählen und sortieren.",
+    "short": "Rechtschreibregeln mit Bildwörtern üben"
+  },
+  "compound-words": {
+    "full": "Zusammengesetzte Nomen: zwei Wörter zu einem neuen Wort verbinden, Fugenelemente eintragen, Komposita trennen und Wortfamilien bilden.",
+    "short": "Zusammengesetzte Nomen bilden und trennen"
+  },
+  "verb-forms": {
+    "full": "Verbformen üben: Personalformen im Präsens schreiben, die Hilfsverben sein und haben beugen, die passende Form wählen und die Grundform finden.",
+    "short": "Personalformen der Verben im Präsens"
+  },
+  "animal-fact-file": {
+    "full": "Tiersteckbrief ausfüllen: Tiergruppe, Lebensraum, Nahrung, Beine und Körperbedeckung eintragen, Tiere vergleichen und Rätseltiere erraten.",
+    "short": "Einen Tiersteckbrief ausfüllen"
+  },
+  "logic-puzzles": {
+    "full": "Logicals für Kinder: Hinweise lesen, in der Tabelle durchstreichen und abhaken und herausfinden, welches Kind welches Bild hat.",
+    "short": "Logicals mit Tabelle lösen"
+  },
+  "division-with-remainder": {
+    "full": "Teilen mit Rest: Gruppen einkreisen, verteilen, Divisionsaufgaben mit Rest lösen, prüfen, ob eine Aufgabe aufgeht, und Fehler finden.",
+    "short": "Divisionsaufgaben mit Rest lösen"
   }
 }

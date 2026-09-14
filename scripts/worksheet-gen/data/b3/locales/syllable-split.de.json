@@ -1,0 +1,71 @@
+{
+  "mark": "arc",
+  "hyphen": "-",
+  "casing": "keep",
+  "kings": true,
+  "vowelExtra": [],
+  "strictPool": null,
+  "refuse": {
+    "finalMuteE": false
+  },
+  "sortLabels": {
+    "2": "2 Silben",
+    "3": "3 Silben"
+  },
+  "example": {
+    "vocabKey": "tomato"
+  },
+  "instructionTavutettu": null,
+  "exclude": [
+    "plum",
+    "tree",
+    "girl",
+    "baby",
+    "comet",
+    "nut",
+    "satellite",
+    "galaxy",
+    "computer",
+    "camping",
+    "jeep",
+    "shampoo",
+    "frisbee",
+    "halloween",
+    "brownie",
+    "chinchilla",
+    "clementine",
+    "popcorn",
+    "timer",
+    "tablet",
+    "marker",
+    "blender",
+    "plunger",
+    "pretzels"
+  ],
+  "strings": {
+    "G1-305": {
+      "title": "Silbenbögen: Wörter in Silben schwingen",
+      "instruction": "Sprich jedes Bildwort und klatsche seine Silben. Male unter jede Silbe, die du hörst, einen Bogen."
+    },
+    "G1-325": {
+      "title": "Wörter in Silben schreiben",
+      "instruction": "Lies das Wort neben jedem Bild. Schreibe es auf die Linie und setze zwischen die Silben einen kleinen Strich."
+    },
+    "G1-326": {
+      "title": "Fehlende Silbe eintragen",
+      "instruction": "Sprich das Bildwort. Eine Silbe fehlt. Schreibe die fehlende Silbe in das Kästchen."
+    },
+    "G1-327": {
+      "title": "Silbensalat: Silben ordnen",
+      "instruction": "Die Silben jedes Bildwortes sind durcheinander. Lies sie, bringe sie in die richtige Reihenfolge und schreibe das Wort auf die Linie."
+    },
+    "G1-328": {
+      "title": "Zwei oder drei Silben? Schwingen und sortieren",
+      "instruction": "Klatsche jedes Wort aus der Wortliste. Schreibe es mit einem Strich zwischen den Silben in die Spalte 2 oder in die Spalte 3."
+    },
+    "G1-329": {
+      "title": "Silbenkönig: Der Vokal in jeder Silbe",
+      "instruction": "Jede Silbe hat einen König: einen Vokal. Schau dir das Beispiel an und setze in jedem Silbenbogen einen Punkt auf den König."
+    }
+  }
+}

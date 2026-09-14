@@ -1910,5 +1910,481 @@
   "G1-304": {
     "title": "Bilder beschriften mit allen Hilfen",
     "instruction": "Wortspeicher, Kästchen und Anfang helfen."
+  },
+  "K-317": {
+    "title": "Der Buchstabe {U} {L}",
+    "instruction": "Spure das große und das kleine {U} nach. Kreise die vier Bilder ein, die mit {U} beginnen, und schreibe dann jede Form eine Reihe lang."
+  },
+  "K-318": {
+    "title": "Laute hören: Ein Laut, ein Kästchen",
+    "instruction": "Sprich das Bildwort langsam. Schreibe in jedes Kästchen einen Laut. Ein breites Kästchen mit Bogen hält zwei Buchstaben, die einen Laut bilden."
+  },
+  "K-319": {
+    "title": "Gefühle erkennen: Gesicht und Wort verbinden",
+    "instruction": "Verbinde jedes Gesicht mit dem Gefühlswort, das sagt, wie es sich fühlt."
+  },
+  "K-320": {
+    "title": "Ordnungszahlen: Finde den Platz",
+    "instruction": "Beginne bei der Fahne. Zähle bis zur Zahl auf dem Plättchen und mache das Zeichen, das darauf steht."
+  },
+  "K-321": {
+    "title": "Wochentage in die richtige Reihenfolge bringen",
+    "instruction": "Der erste Tag der Woche hat schon die 1. Nummeriere die anderen Tage von 2 bis 7 in der Reihenfolge, wie sie kommen."
+  },
+  "K-322": {
+    "title": "Die vier Jahreszeiten: Bilder zuordnen",
+    "instruction": "Verbinde den Punkt an jedem Bild mit dem Kasten der Jahreszeit, zu der es gehört."
+  },
+  "K-323": {
+    "title": "Das bin ich",
+    "instruction": "Schreibe deinen Namen und dein Alter, zeichne dich und deine Familie und dann deine drei Lieblingsdinge."
+  },
+  "K-324": {
+    "title": "Bildkarten mit Wort",
+    "instruction": "Schneide an den gestrichelten Linien entlang, um die Karten zu bekommen. Sprich den Namen jedes Bildes und lies dann sein Wort."
+  },
+  "G1-305": {
+    "title": "Silbenbögen: Wörter in Silben schwingen",
+    "instruction": "Sprich jedes Bildwort und klatsche seine Silben. Male unter jede Silbe, die du hörst, einen Bogen."
+  },
+  "G1-306": {
+    "title": "Silbenteppich: {UNIT}",
+    "instruction": "Lies alle Silben auf dem Teppich laut. Sprich jedes Bildwort, finde seine erste Silbe auf dem Teppich und schreibe sie auf die Linie."
+  },
+  "G1-307": {
+    "title": "Gegenteile: Schreibe das Gegenteil",
+    "instruction": "Lies das Wort auf jeder Karte. Suche sein Gegenteil in der Wortliste und schreibe es auf die Linie."
+  },
+  "G1-308": {
+    "title": "Leseaufträge: Lies und tu, was da steht",
+    "instruction": "Schau dir die Bilderreihe an und beginne bei der Fahne. Lies jeden Satz und tu mit deinem Stift genau, was er sagt. Hake dann das Kästchen ab."
+  },
+  "G1-309": {
+    "title": "Reimwörter: Reimen und schreiben",
+    "instruction": "Sprich das erste Bild. Kreise das Bild ein, das sich darauf reimt, und schreibe sein Wort auf die Linie."
+  },
+  "G1-310": {
+    "title": "Hundertertafel-Puzzle: Zahlen ergänzen",
+    "instruction": "Auf jedem Puzzleteil steht eine Zahl. Schreibe alle fehlenden Zahlen: rechts 1 mehr, links 1 weniger, unten 10 mehr, oben 10 weniger."
+  },
+  "G2-315": {
+    "title": "Rechtschreibregel der Woche: {UNIT}",
+    "instruction": "Lies die Regel im Kasten. Sprich jedes Bildwort und schreibe die fehlenden Regelbuchstaben in die gestrichelten Kästchen."
+  },
+  "G2-316": {
+    "title": "Zusammengesetzte Nomen: Bild + Bild",
+    "instruction": "Benenne die zwei Bilder, setze die zwei Wörter zusammen und schreibe das neue Wort auf die Linie."
+  },
+  "G2-317": {
+    "title": "Verbformen: ich, du, er, wir, ihr, sie",
+    "instruction": "Schau das Bild an und lies das Verb. Schreibe seine Personalformen in die gestrichelten Kästchen und vervollständige dann die Sätze."
+  },
+  "G2-318": {
+    "title": "Tiersteckbrief: {U}",
+    "instruction": "Finde heraus, was du über dieses Tier weißt. Schreibe in jede Zeile des Steckbriefs eine Angabe und fülle den Rest der Seite mit Bild oder Wörtern."
+  },
+  "G2-319": {
+    "title": "Logicals: Drei Hinweise, eine Lösung",
+    "instruction": "Lies die Hinweise. Streiche in der Tabelle durch, was nicht stimmen kann, hake ab, was stimmen muss, und kreise dann das Bild jedes Kindes ein."
+  },
+  "G3-377": {
+    "title": "Teilen mit Rest: Gruppen einkreisen",
+    "instruction": "Kreise in jedem Haufen Gruppen ein, so groß wie die zweite Zahl. Schreibe, wie viele Gruppen es sind und wie viele Bilder übrig bleiben."
+  },
+  "K-325": {
+    "title": "Wörter mit {U}: Hörst du das {U} im Wort?",
+    "instruction": "Spure den Buchstaben nach. Kreise dann die vier Bilder ein, in denen du {U} irgendwo im Wort hörst, aber nicht am Anfang."
+  },
+  "K-326": {
+    "title": "Anlaut, Inlaut, Auslaut: Wo hörst du das {U}?",
+    "instruction": "Sprich jedes Bild laut. Male das Kästchen an, das zeigt, wo du {U} hörst: am Anfang, in der Mitte oder am Ende."
+  },
+  "K-327": {
+    "title": "{U} in Wörtern finden und zählen",
+    "instruction": "Suche in jedem Wort jedes {U} oder {L} und kreise es ein. Schreibe dann in das Kästchen, wie viele du gefunden hast."
+  },
+  "G1-311": {
+    "title": "Laut der Woche: {L}",
+    "instruction": "Spure {L} nach, kreise die vier Bilder ein, in denen du {L} hörst, und schreibe dann eine Reihe davon."
+  },
+  "K-328": {
+    "title": "M oder N? Höre genau hin",
+    "instruction": "Sprich jedes Bild laut. Kreise den Buchstaben ein, mit dem es beginnt: m oder n."
+  },
+  "K-329": {
+    "title": "Laute zählen: Wie viele Laute hörst du?",
+    "instruction": "Sprich das Bildwort langsam. Male für jeden Laut, den du hörst, einen Punkt in das lange Kästchen. Schreibe dann die Zahl in das kleine Kästchen."
+  },
+  "K-330": {
+    "title": "Anlaut vorgegeben: Schreibe die Laute weiter",
+    "instruction": "Der erste Laut steht schon da. Sprich das Bildwort langsam und schreibe in jedes leere Kästchen einen Laut. Ein breites Kästchen hält zwei Buchstaben."
+  },
+  "G1-312": {
+    "title": "Lautstreifen: Wie viele Laute hat das Wort?",
+    "instruction": "Sprich das Wort langsam. Schreibe von links beginnend in jedes Kästchen einen Laut. Die Kästchen, die du nicht brauchst, bleiben leer."
+  },
+  "G1-313": {
+    "title": "Silben und Laute",
+    "instruction": "Klatsche die Silben des Bildwortes. Sprich dann jede Silbe langsam und schreibe unter ihrem Bogen in jedes Kästchen einen Laut."
+  },
+  "G1-314": {
+    "title": "Laute zusammenziehen: Welches Bild passt?",
+    "instruction": "Lies die Laute in den Kästchen und ziehe sie zu einem Wort zusammen. Kreise das Bild ein, das zum Wort passt."
+  },
+  "K-331": {
+    "title": "Wie fühlst du dich? Kreise das Gesicht ein",
+    "instruction": "Schau das Bild an, überlege, wie du dich fühlen würdest, und kreise das passende Gesicht ein."
+  },
+  "K-332": {
+    "title": "Zeichne das Gefühlsgesicht",
+    "instruction": "Lies das Gefühlswort und zeichne in den leeren Kreis ein Gesicht, das dieses Gefühl zeigt."
+  },
+  "K-333": {
+    "title": "Angenehm oder unangenehm? Gesichter sortieren",
+    "instruction": "Verbinde jedes Gesicht mit dem Kasten, der sagt, ob sich das Gefühl angenehm oder unangenehm anfühlt."
+  },
+  "K-334": {
+    "title": "Welches Gesicht zeigt das Gefühl?",
+    "instruction": "Lies das Gefühlswort und kreise in der Reihe das eine Gesicht ein, das es zeigt."
+  },
+  "K-335": {
+    "title": "Wie fühle ich mich heute?",
+    "instruction": "Kreise das Gesicht ein, das zeigt, wie du dich heute fühlst. Zeichne dann dein eigenes Gesicht."
+  },
+  "G1-315": {
+    "title": "Fehlende Ordnungszahlen eintragen",
+    "instruction": "Einige Plätze stehen schon da. Schreibe die fehlenden Ordnungszahlen in die leeren Kästchen. Zähle von der Fahne aus."
+  },
+  "G1-316": {
+    "title": "Ordnungszahl-Wörter mit dem Bild verbinden",
+    "instruction": "Lies jedes Zahlwort und verbinde es mit dem Bild, das an diesem Platz steht. Zähle von der Fahne aus."
+  },
+  "G1-317": {
+    "title": "An welcher Stelle? Schreibe die Ordnungszahl",
+    "instruction": "Suche jedes kleine Bild in seiner Reihe und schreibe auf, an welcher Stelle es steht. Zähle von der Fahne aus."
+  },
+  "K-336": {
+    "title": "Ordnungszahlen von links und von rechts",
+    "instruction": "Suche zuerst die Fahne: Sie kann links oder rechts stehen. Beginne dort, zähle bis zur Zahl auf dem Plättchen und mache das Zeichen."
+  },
+  "G1-318": {
+    "title": "Wer gewinnt das Rennen? Schreibe den Platz",
+    "instruction": "Schau, wie nah jeder Läufer am Ziel ist. Wer dem Ziel am nächsten ist, wird 1. Schreibe die Plätze 1. bis 6. auf."
+  },
+  "K-337": {
+    "title": "Fehlende Wochentage eintragen",
+    "instruction": "Einige Tage stehen schon auf der Leiter. Schreibe die fehlenden Tage aus der Wortliste an die richtigen Stellen."
+  },
+  "G1-319": {
+    "title": "Gestern, heute, morgen: Wochentage",
+    "instruction": "Der Tag in der Mitte ist heute. Schreibe den Tag, der gestern war, und den Tag, der morgen sein wird."
+  },
+  "G1-320": {
+    "title": "Monate in die richtige Reihenfolge bringen",
+    "instruction": "Der Januar hat schon die 1. Nummeriere die anderen Monate von 2 bis 12 in der Reihenfolge des Jahres."
+  },
+  "G1-321": {
+    "title": "Welcher Monat kommt davor und danach?",
+    "instruction": "Ein Monat steht in der Mitte. Schreibe den Monat, der davor kommt, und den Monat, der danach kommt."
+  },
+  "G1-322": {
+    "title": "Wochentage und ihre Abkürzungen",
+    "instruction": "Lies jede Abkürzung und verbinde sie mit dem Wochentag, für den sie steht."
+  },
+  "K-338": {
+    "title": "Welche Jahreszeit ist das?",
+    "instruction": "Schau dir die drei Bilder auf jeder Karte an und kreise das Zeichen der Jahreszeit ein, zu der sie gehören."
+  },
+  "K-339": {
+    "title": "Jahreszeitenuhr: Was kommt als Nächstes?",
+    "instruction": "Eine Jahreszeit steht schon auf der Uhr. Zeichne die anderen drei Zeichen in der richtigen Reihenfolge in die leeren Kreise."
+  },
+  "K-340": {
+    "title": "Jahreszeiten: Was passt nicht dazu?",
+    "instruction": "Streiche in jeder Reihe das eine Bild durch, das zu einer anderen Jahreszeit gehört."
+  },
+  "G1-323": {
+    "title": "Monate und Jahreszeiten: Male die Jahreszeit an",
+    "instruction": "Male den Kreis neben jedem Monat in der Farbe seiner Jahreszeit an."
+  },
+  "K-341": {
+    "title": "Der Baum in den vier Jahreszeiten",
+    "instruction": "Zeichne, wie der Baum in jeder der vier Jahreszeiten aussieht."
+  },
+  "K-342": {
+    "title": "Meine Lieblingsdinge: Einkreisen und abschreiben",
+    "instruction": "Kreise in jeder Reihe dein Lieblingsbild ein und schreibe sein Wort auf die Linie."
+  },
+  "K-343": {
+    "title": "Meine Familie: Zeichnen und zählen",
+    "instruction": "Zeichne deine Familie. Zeige dann auf den Zehnerfeldern, wie viele Personen, Brüder, Schwestern und Haustiere es sind, und schreibe die Zahl."
+  },
+  "K-344": {
+    "title": "Mein Gesicht: Beschrifte die Teile",
+    "instruction": "Schreibe jedes Wort aus der Wortliste auf die Linie, die zu diesem Teil des Gesichts zeigt. Zeichne dann dein eigenes Gesicht."
+  },
+  "K-345": {
+    "title": "Ich kann das schon: Hake ab, was du kannst",
+    "instruction": "Lies jeden Satz und hake ab, was du schon kannst. Schreibe dann eine Sache auf, die du noch lernen möchtest."
+  },
+  "K-346": {
+    "title": "Mein Name: Schreiben, zählen und vergleichen",
+    "instruction": "Schreibe deinen Namen mit einem Buchstaben pro Kästchen und zähle die Buchstaben. Mach dasselbe für einen Freund und kreise ein, wer mehr hat."
+  },
+  "K-347": {
+    "title": "Bildkarten und Wortkarten: Paare finden",
+    "instruction": "Schneide die sechzehn Karten aus. Lege die Wortkarten zu den passenden Bildern oder drehe alle um und spiele Memory."
+  },
+  "K-348": {
+    "title": "Der, die oder das? Wortkarten mit Artikel",
+    "instruction": "Schneide die acht Karten aus. Sprich jedes Wort mit seinem Artikel, genau so, wie es auf der Karte steht."
+  },
+  "K-349": {
+    "title": "Einzahl und Mehrzahl: Kartenpaare",
+    "instruction": "Schneide die Karten aus. Sprich das Wort für eins und das Wort für viele und lege dann jedes Paar zusammen."
+  },
+  "K-350": {
+    "title": "Zweisprachige Bildkarten: Deutsch und Englisch",
+    "instruction": "Schneide die acht Karten aus. Sprich das Wort auf Deutsch und dann auf Englisch und bewahre die Karten für deine Wörterwand auf."
+  },
+  "G1-324": {
+    "title": "Silbenkarten: Lies das Wort in Silben",
+    "instruction": "Schneide die acht Karten aus. Lies jedes Wort Silbe für Silbe und sprich dann das ganze Wort."
+  },
+  "G1-325": {
+    "title": "Wörter in Silben schreiben",
+    "instruction": "Lies das Wort neben jedem Bild. Schreibe es auf die Linie und setze zwischen die Silben einen kleinen Strich."
+  },
+  "G1-326": {
+    "title": "Fehlende Silbe eintragen",
+    "instruction": "Sprich das Bildwort. Eine Silbe fehlt. Schreibe die fehlende Silbe in das Kästchen."
+  },
+  "G1-327": {
+    "title": "Silbensalat: Silben ordnen",
+    "instruction": "Die Silben jedes Bildwortes sind durcheinander. Lies sie, bringe sie in die richtige Reihenfolge und schreibe das Wort auf die Linie."
+  },
+  "G1-328": {
+    "title": "Zwei oder drei Silben? Schwingen und sortieren",
+    "instruction": "Klatsche jedes Wort aus der Wortliste. Schreibe es mit einem Strich zwischen den Silben in die Spalte 2 oder in die Spalte 3."
+  },
+  "G1-329": {
+    "title": "Silbenkönig: Der Vokal in jeder Silbe",
+    "instruction": "Jede Silbe hat einen König: einen Vokal. Schau dir das Beispiel an und setze in jedem Silbenbogen einen Punkt auf den König."
+  },
+  "G1-330": {
+    "title": "Silbenteppich: Lies und kreise die Silbe ein",
+    "instruction": "Lies die Silben auf dem Teppich laut. Sprich jedes Bildwort und kreise darunter die Silbe ein, mit der es beginnt."
+  },
+  "G1-331": {
+    "title": "Silben zusammensetzen und das Wort schreiben",
+    "instruction": "Lies die Silben auf jeder Karte der Reihe nach. Sprich sie zusammen und schreibe dann das ganze Wort auf die Linie."
+  },
+  "G1-332": {
+    "title": "Silbenteppich: Lies und male die Silbe an",
+    "instruction": "Lies alle Silben auf dem Teppich laut. Finde dann die erste Silbe jedes Bildwortes und male sie in der Farbe des Bildes an."
+  },
+  "G1-333": {
+    "title": "Schwere Silben lesen: {UNIT}",
+    "instruction": "Lies alle Silben auf dem Teppich laut. Sprich jedes Bildwort, finde seine erste Silbe und schreibe sie auf die Linie."
+  },
+  "G1-334": {
+    "title": "Silbenwörter lesen und das Bild finden",
+    "instruction": "Lies jedes Wort Silbe für Silbe. Suche sein Bild oben in der Bildleiste und schreibe die Nummer des Bildes in das Kästchen."
+  },
+  "K-351": {
+    "title": "Gegensatzpaare mit Bildern verbinden",
+    "instruction": "Verbinde jedes Bild mit dem Bild und dem Wort, die sein Gegenteil zeigen."
+  },
+  "G1-335": {
+    "title": "Gegenteile im Satz",
+    "instruction": "Lies jeden Satz. Schreibe das Gegenteil des Wortes nach „nicht“ auf die Linie. Die Wortliste hilft dir."
+  },
+  "G1-336": {
+    "title": "Gegensatzpaare finden",
+    "instruction": "Suche die zwei Wörter, die Gegenteile sind. Schreibe jedes Paar auf eine Linie, ein Wort auf jede Seite des Pfeils."
+  },
+  "G1-337": {
+    "title": "Gegenteil oder gleiche Bedeutung?",
+    "instruction": "Lies das Wort. Eines der drei Wörter darunter bedeutet das Gegenteil. Kreise es ein, nicht das Wort mit der gleichen Bedeutung."
+  },
+  "G2-320": {
+    "title": "Gegenteile mit der Vorsilbe un-",
+    "instruction": "Setze die Vorsilbe vor jedes Wort und schreibe das neue Gegenteil auf die Linie."
+  },
+  "G1-338": {
+    "title": "Leseaufträge: Lies und kreise ein",
+    "instruction": "Lies jeden Satz. Suche in der Reihe das Bild oder die Bilder, die er nennt, und kreise sie ein. Hake dann das Kästchen ab."
+  },
+  "G1-339": {
+    "title": "Leseaufträge mit zwei Schritten",
+    "instruction": "Jeder Satz sagt dir zwei Dinge. Lies ihn bis zum Ende, bevor du beginnst, und mache dann beide Schritte in der Bilderreihe."
+  },
+  "G1-340": {
+    "title": "Leseaufträge: erstes, zweites, dazwischen",
+    "instruction": "Beginne bei der Fahne und zähle die Reihe entlang. Finde das Bild nach seinem Platz und tu mit deinem Stift, was der Satz sagt."
+  },
+  "G1-341": {
+    "title": "Lies und prüfe: Richtig oder falsch?",
+    "instruction": "Lies jeden Satz und schau die Bilderreihe an. Ist der Satz richtig oder falsch? Kreise das passende Wort ein."
+  },
+  "G1-342": {
+    "title": "Lies und zeichne",
+    "instruction": "Lies jeden Satz genau. Zeichne dann in den Kasten genau das, was er sagt."
+  },
+  "K-352": {
+    "title": "Reimt sich das?",
+    "instruction": "Sprich beide Bilder laut. Wenn sich die zwei Wörter reimen, kreise den Haken ein. Wenn nicht, kreise das Kreuz ein."
+  },
+  "G1-343": {
+    "title": "Reimwörter sortieren",
+    "instruction": "Sprich jedes Bild in der Wortliste. Finde das große Bild, auf das es sich reimt, und schreibe sein Wort auf eine Linie darunter."
+  },
+  "G1-344": {
+    "title": "Reime vervollständigen",
+    "instruction": "Lies die zwei Zeilen laut. Schau das Bild an, höre den Reim und schreibe das fehlende Reimwort auf die Linie."
+  },
+  "G1-345": {
+    "title": "Reimketten",
+    "instruction": "Sprich jedes Bild. Finde die zwei Wörter in der Wortliste, die sich darauf reimen, und schreibe sie auf seine Linien. Manche passen nirgends."
+  },
+  "G1-346": {
+    "title": "Eigene Reimwörter schreiben",
+    "instruction": "Lies das Wort neben jedem Bild. Überlege dir zwei Wörter, die sich darauf reimen, und schreibe auf jede Linie eines."
+  },
+  "G1-347": {
+    "title": "Wohin gehört das Puzzleteil?",
+    "instruction": "Lies die Zahlen auf jedem Teil, finde seinen Platz auf der leeren Tafel und trage sie dort ein."
+  },
+  "G2-321": {
+    "title": "Sprungrätsel: Folge den Pfeilen",
+    "instruction": "Beginne bei der Zahl und folge den Pfeilen: nach oben 10 weniger, nach unten 10 mehr, nach rechts 1 mehr. Schreibe auf, wo du landest."
+  },
+  "G2-322": {
+    "title": "Geheimzahl: Zwei Pfeile, ein Feld",
+    "instruction": "Folge beiden Pfeilen. Sie zeigen auf dasselbe Feld der Tafel. Schreibe die Geheimzahl auf."
+  },
+  "G1-348": {
+    "title": "Finde die falsche Zahl auf dem Puzzleteil",
+    "instruction": "Auf jedem Teil ist eine Zahl falsch. Kreise sie ein und schreibe die richtige Zahl in das Kästchen."
+  },
+  "G2-323": {
+    "title": "Wie weit auseinander? Zähle die Sprünge",
+    "instruction": "Zähle, wie viele Sprünge nach unten und wie viele nach rechts dich von der ersten Zahl zur zweiten bringen."
+  },
+  "G2-324": {
+    "title": "Welche Schreibweise stimmt? {UNIT}",
+    "instruction": "Schau das Bild an und lies das Wort. Kreise die richtigen Buchstaben darunter ein und schreibe sie in das gestrichelte Kästchen."
+  },
+  "G2-325": {
+    "title": "Regel-Detektiv: {UNIT}",
+    "instruction": "Lies jedes Wort. Finde die Regelbuchstaben, kreise sie im Wort ein und schreibe sie in das kleine Kästchen."
+  },
+  "G2-326": {
+    "title": "Wörter nach Schreibweise sortieren: {UNIT}",
+    "instruction": "Sprich jedes Bildwort. Schreibe es in den Kasten mit seiner Schreibweise, ein Wort auf jede Linie."
+  },
+  "G2-327": {
+    "title": "Schreibe das Wort: {UNIT}",
+    "instruction": "Die Regelbuchstaben stehen schon in Orange. Sprich das Bildwort und schreibe alle anderen Buchstaben in die Kästchen."
+  },
+  "G2-329": {
+    "title": "Fugen-n oder nicht? Zusammengesetzte Nomen",
+    "instruction": "Beide Wörter stehen schon da. Schreibe den Buchstaben, der sie verbindet, in das Kästchen, oder lass es leer. Schreibe dann das ganze Wort."
+  },
+  "G2-330": {
+    "title": "Zusammengesetzte Nomen trennen",
+    "instruction": "Das ganze Wort steht in Buchstabenkästchen neben seinem Bild. Male einen Strich dort, wo das zweite Wort beginnt."
+  },
+  "G2-331": {
+    "title": "Wortteile verbinden: Zwei Bilder, ein Wort",
+    "instruction": "Verbinde jedes erste Bild mit dem Bild, das das Wort vollendet. Schreibe dann das neue Wort auf die Linie neben dem ersten Bild."
+  },
+  "G2-332": {
+    "title": "Wort-Detektiv: zusammengesetzt oder nicht?",
+    "instruction": "Zwölf Wörter, sechs davon bestehen aus zwei Wörtern. Kreise die sechs zusammengesetzten Nomen ein und schreibe ihre zwei Teile auf die Linien."
+  },
+  "G2-333": {
+    "title": "Wortstern: Ein Wort, viele Wörter",
+    "instruction": "Ein Wort steht in der Mitte. Jedes Bild darum herum bildet mit ihm ein neues Wort. Schreibe die vier neuen Wörter auf die Linien."
+  },
+  "G2-334": {
+    "title": "Verbformen zuordnen: Wer macht was?",
+    "instruction": "Lies jedes Personalwort links. Verbinde es mit der passenden Verbform rechts, eine Linie für jedes Wort."
+  },
+  "G2-335": {
+    "title": "Verbformen im Satz mit Bildern",
+    "instruction": "Schau das Bild an und lies das Verb im Kästchen. Schreibe die Form, die in den Satz passt, in das gestrichelte Kästchen."
+  },
+  "G2-336": {
+    "title": "Die Hilfsverben sein und haben",
+    "instruction": "Diese Verben verändern sich stark. Schreibe zu jeder Person die richtige Form in das gestrichelte Kästchen."
+  },
+  "G2-337": {
+    "title": "Wähle die richtige Verbform",
+    "instruction": "Lies den Satz. Darunter stehen drei Formen des Verbs. Kreise die Form ein, die passt."
+  },
+  "G2-338": {
+    "title": "Finde das Verb und schreibe die Grundform",
+    "instruction": "Unterstreiche das Verb in jedem Satz. Schreibe dann seine Grundform in das gestrichelte Kästchen."
+  },
+  "G2-339": {
+    "title": "Steckbrief {U}: Kreuze an, was stimmt",
+    "instruction": "Lies die Auswahl in jeder Zeile und kreise das ein, was für dieses Tier stimmt. Zeichne dann, wo es lebt, und vervollständige den Satz."
+  },
+  "G2-340": {
+    "title": "Steckbrief {U} mit Wortliste",
+    "instruction": "Suche jede richtige Angabe in der Wortliste und schreibe sie in die passende Zeile des Steckbriefs. Vervollständige dann den Satz unten."
+  },
+  "G2-341": {
+    "title": "Steckbrief {U}: Schreibe drei Sätze",
+    "instruction": "Lies den Steckbrief. Vervollständige die drei Sätze mit Angaben daraus und schreibe auf die letzte Linie eine eigene Angabe."
+  },
+  "G2-342": {
+    "title": "Zwei Tiere vergleichen: gleich oder verschieden?",
+    "instruction": "Lies beide Steckbriefe. Kreise bei jeder Angabe gleich oder verschieden ein. Schreibe dann zwei Gemeinsamkeiten und zwei Unterschiede."
+  },
+  "G2-343": {
+    "title": "Wer bin ich? Das Rätseltier",
+    "instruction": "Lies die fünf Hinweise auf jeder Karte. Finde das Tier in der Bildleiste, schreibe seinen Namen auf die Linie und zeichne es in den Kasten."
+  },
+  "G2-344": {
+    "title": "Logicals mit Entweder-oder-Hinweisen",
+    "instruction": "Ein Ja-Hinweis bekommt einen Haken, ein Nein-Hinweis ein Kreuz, ein Entweder-oder-Hinweis streicht das dritte Bild. Löse die Tabelle und kreise ein."
+  },
+  "G3-378": {
+    "title": "Logicals 4 mal 4: Sechs Hinweise",
+    "instruction": "Vier Kinder und vier Bilder. Nutze jeden Hinweis: Streiche durch, was nicht sein kann, und hake ab, was sein muss, bis jede Zeile eine Lösung hat."
+  },
+  "G1-349": {
+    "title": "Logicals mit Bildhinweisen",
+    "instruction": "Ein durchgestrichenes Bild heißt: Das Kind hat es nicht. Ein eingekreistes Bild heißt: Das Kind hat es. Löse die Tabelle und kreise ein."
+  },
+  "G3-379": {
+    "title": "Logicals mit zwei Merkmalen",
+    "instruction": "Jedes Kind hat aus jeder Gruppe ein Bild. Nutze die Verbindungshinweise, um alle drei Tabellen zu lösen."
+  },
+  "G2-345": {
+    "title": "Lies die Logical-Tabelle: Richtig oder falsch?",
+    "instruction": "Die Tabelle ist schon gelöst. Lies sie und kreise den Haken ein, wenn der Satz stimmt, oder das Kreuz, wenn er falsch ist."
+  },
+  "G3-380": {
+    "title": "Verteilen mit Rest: Was bleibt übrig?",
+    "instruction": "Verteile den Haufen nacheinander auf die Kästen. Schreibe, wie viele jeder Kasten bekommt und wie viele nicht verteilt werden können."
+  },
+  "G3-381": {
+    "title": "Teilen mit Rest: Übungsreihen",
+    "instruction": "Bei jeder Aufgabe bleibt etwas übrig. Schreibe in jede Reihe das Ergebnis und den Rest."
+  },
+  "G3-382": {
+    "title": "Geht die Aufgabe auf? Teilen mit und ohne Rest",
+    "instruction": "Entscheide, ob jede Aufgabe aufgeht. Kreise deine Antwort ein und schreibe den Rest auf, 0 wenn es keinen gibt."
+  },
+  "G3-383": {
+    "title": "Fehler finden: Der Rest ist zu groß",
+    "instruction": "Jede Aufgabe wurde falsch gerechnet. Streiche die falschen Zahlen durch und schreibe das richtige Ergebnis und den Rest in die Kästchen."
+  },
+  "G3-384": {
+    "title": "Rückwärts hüpfen am Zahlenstrahl: Was bleibt?",
+    "instruction": "Beginne bei der markierten Zahl und hüpfe in gleich großen Sprüngen zurück, bis kein ganzer Sprung mehr passt. Schreibe die Sprünge und wo du landest."
   }
 }

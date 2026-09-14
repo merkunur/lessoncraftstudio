@@ -1,0 +1,58 @@
+{
+  "names": "calendar",
+  "labels": {
+    "yesterday": "gestern",
+    "today": "heute",
+    "tomorrow": "morgen",
+    "before": "davor",
+    "after": "danach"
+  },
+  "alt": {
+    "days": {
+      "6": [
+        "Sonnabend"
+      ]
+    },
+    "labels": {
+      "before": [
+        "vorher"
+      ],
+      "after": [
+        "nachher"
+      ]
+    }
+  },
+  "dayShort": null,
+  "laneGlyphH": {
+    "days": 40,
+    "months": 32,
+    "neighbours": 32
+  },
+  "abbrev": "calendar",
+  "strings": {
+    "K-321": {
+      "title": "Wochentage in die richtige Reihenfolge bringen",
+      "instruction": "Der erste Tag der Woche hat schon die 1. Nummeriere die anderen Tage von 2 bis 7 in der Reihenfolge, wie sie kommen."
+    },
+    "K-337": {
+      "title": "Fehlende Wochentage eintragen",
+      "instruction": "Einige Tage stehen schon auf der Leiter. Schreibe die fehlenden Tage aus der Wortliste an die richtigen Stellen."
+    },
+    "G1-319": {
+      "title": "Gestern, heute, morgen: Wochentage",
+      "instruction": "Der Tag in der Mitte ist heute. Schreibe den Tag, der gestern war, und den Tag, der morgen sein wird."
+    },
+    "G1-320": {
+      "title": "Monate in die richtige Reihenfolge bringen",
+      "instruction": "Der Januar hat schon die 1. Nummeriere die anderen Monate von 2 bis 12 in der Reihenfolge des Jahres."
+    },
+    "G1-321": {
+      "title": "Welcher Monat kommt davor und danach?",
+      "instruction": "Ein Monat steht in der Mitte. Schreibe den Monat, der davor kommt, und den Monat, der danach kommt."
+    },
+    "G1-322": {
+      "title": "Wochentage und ihre Abkürzungen",
+      "instruction": "Lies jede Abkürzung und verbinde sie mit dem Wochentag, für den sie steht."
+    }
+  }
+}

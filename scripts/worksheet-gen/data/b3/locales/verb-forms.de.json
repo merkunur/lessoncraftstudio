@@ -1,0 +1,929 @@
+{
+  "head": "Verbformen",
+  "mode": "persons",
+  "band": "G2",
+  "exemplar": "praesens",
+  "columns": [
+    {
+      "key": "ich",
+      "label": "ich"
+    },
+    {
+      "key": "du",
+      "label": "du"
+    },
+    {
+      "key": "er",
+      "label": "er/sie/es"
+    },
+    {
+      "key": "wir",
+      "label": "wir"
+    },
+    {
+      "key": "ihr",
+      "label": "ihr"
+    },
+    {
+      "key": "sie",
+      "label": "sie"
+    }
+  ],
+  "units": [
+    {
+      "key": "praesens",
+      "kind": "tense",
+      "label": "Präsens",
+      "band": "G2"
+    }
+  ],
+  "poolMap": {
+    "regular": "regular",
+    "all": "all"
+  },
+  "matchPersons": [
+    "ich",
+    "du",
+    "er",
+    "wir"
+  ],
+  "verbs": [
+    {
+      "inf": "springen",
+      "group": "regelmäßig",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "jumping"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "praesens": {
+          "ich": "springe",
+          "du": "springst",
+          "er": "springt",
+          "wir": "springen",
+          "ihr": "springt",
+          "sie": "springen"
+        }
+      }
+    },
+    {
+      "inf": "singen",
+      "group": "regelmäßig",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "occupations",
+        "noun": "singer"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "praesens": {
+          "ich": "singe",
+          "du": "singst",
+          "er": "singt",
+          "wir": "singen",
+          "ihr": "singt",
+          "sie": "singen"
+        }
+      }
+    },
+    {
+      "inf": "malen",
+      "group": "regelmäßig",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "occupations",
+        "noun": "artist"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "praesens": {
+          "ich": "male",
+          "du": "malst",
+          "er": "malt",
+          "wir": "malen",
+          "ihr": "malt",
+          "sie": "malen"
+        }
+      }
+    },
+    {
+      "inf": "wandern",
+      "group": "regelmäßig",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": {
+        "theme": "activities",
+        "noun": "hiking"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "praesens": {
+          "ich": "wandere",
+          "du": "wanderst",
+          "er": "wandert",
+          "wir": "wandern",
+          "ihr": "wandert",
+          "sie": "wandern"
+        }
+      }
+    },
+    {
+      "inf": "tanzen",
+      "group": "regelmäßig",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "match": false,
+      "pic": {
+        "theme": "activities",
+        "noun": "dancing"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "praesens": {
+          "ich": "tanze",
+          "du": "tanzt",
+          "er": "tanzt",
+          "wir": "tanzen",
+          "ihr": "tanzt",
+          "sie": "tanzen"
+        }
+      }
+    },
+    {
+      "inf": "spielen",
+      "group": "regelmäßig",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "praesens": {
+          "ich": "spiele",
+          "du": "spielst",
+          "er": "spielt",
+          "wir": "spielen",
+          "ihr": "spielt",
+          "sie": "spielen"
+        }
+      }
+    },
+    {
+      "inf": "lachen",
+      "group": "regelmäßig",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "praesens": {
+          "ich": "lache",
+          "du": "lachst",
+          "er": "lacht",
+          "wir": "lachen",
+          "ihr": "lacht",
+          "sie": "lachen"
+        }
+      }
+    },
+    {
+      "inf": "bauen",
+      "group": "regelmäßig",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "praesens": {
+          "ich": "baue",
+          "du": "baust",
+          "er": "baut",
+          "wir": "bauen",
+          "ihr": "baut",
+          "sie": "bauen"
+        }
+      }
+    },
+    {
+      "inf": "rufen",
+      "group": "regelmäßig",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "praesens": {
+          "ich": "rufe",
+          "du": "rufst",
+          "er": "ruft",
+          "wir": "rufen",
+          "ihr": "ruft",
+          "sie": "rufen"
+        }
+      }
+    },
+    {
+      "inf": "suchen",
+      "group": "regelmäßig",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "praesens": {
+          "ich": "suche",
+          "du": "suchst",
+          "er": "sucht",
+          "wir": "suchen",
+          "ihr": "sucht",
+          "sie": "suchen"
+        }
+      }
+    },
+    {
+      "inf": "hüpfen",
+      "group": "regelmäßig",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "praesens": {
+          "ich": "hüpfe",
+          "du": "hüpfst",
+          "er": "hüpft",
+          "wir": "hüpfen",
+          "ihr": "hüpft",
+          "sie": "hüpfen"
+        }
+      }
+    },
+    {
+      "inf": "trinken",
+      "group": "regelmäßig",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "praesens": {
+          "ich": "trinke",
+          "du": "trinkst",
+          "er": "trinkt",
+          "wir": "trinken",
+          "ihr": "trinkt",
+          "sie": "trinken"
+        }
+      }
+    },
+    {
+      "inf": "schwimmen",
+      "group": "regelmäßig",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "praesens": {
+          "ich": "schwimme",
+          "du": "schwimmst",
+          "er": "schwimmt",
+          "wir": "schwimmen",
+          "ihr": "schwimmt",
+          "sie": "schwimmen"
+        }
+      }
+    },
+    {
+      "inf": "klettern",
+      "group": "regelmäßig",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "praesens": {
+          "ich": "klettere",
+          "du": "kletterst",
+          "er": "klettert",
+          "wir": "klettern",
+          "ihr": "klettert",
+          "sie": "klettern"
+        }
+      }
+    },
+    {
+      "inf": "sammeln",
+      "group": "regelmäßig",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "praesens": {
+          "ich": "sammle",
+          "du": "sammelst",
+          "er": "sammelt",
+          "wir": "sammeln",
+          "ihr": "sammelt",
+          "sie": "sammeln"
+        }
+      }
+    },
+    {
+      "inf": "flüstern",
+      "group": "regelmäßig",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "praesens": {
+          "ich": "flüstere",
+          "du": "flüsterst",
+          "er": "flüstert",
+          "wir": "flüstern",
+          "ihr": "flüstert",
+          "sie": "flüstern"
+        }
+      }
+    },
+    {
+      "inf": "laufen",
+      "group": "Vokalwechsel",
+      "irregular": true,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "running"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "praesens": {
+          "ich": "laufe",
+          "du": "läufst",
+          "er": "läuft",
+          "wir": "laufen",
+          "ihr": "lauft",
+          "sie": "laufen"
+        }
+      }
+    },
+    {
+      "inf": "lesen",
+      "group": "Vokalwechsel",
+      "irregular": true,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "reading"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "praesens": {
+          "ich": "lese",
+          "du": "liest",
+          "er": "liest",
+          "wir": "lesen",
+          "ihr": "lest",
+          "sie": "lesen"
+        }
+      }
+    },
+    {
+      "inf": "schlafen",
+      "group": "Vokalwechsel",
+      "irregular": true,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "praesens": {
+          "ich": "schlafe",
+          "du": "schläfst",
+          "er": "schläft",
+          "wir": "schlafen",
+          "ihr": "schlaft",
+          "sie": "schlafen"
+        }
+      }
+    },
+    {
+      "inf": "essen",
+      "group": "Vokalwechsel",
+      "irregular": true,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "praesens": {
+          "ich": "esse",
+          "du": "isst",
+          "er": "isst",
+          "wir": "essen",
+          "ihr": "esst",
+          "sie": "essen"
+        }
+      }
+    },
+    {
+      "inf": "fangen",
+      "group": "Vokalwechsel",
+      "irregular": true,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "praesens": {
+          "ich": "fange",
+          "du": "fängst",
+          "er": "fängt",
+          "wir": "fangen",
+          "ihr": "fangt",
+          "sie": "fangen"
+        }
+      }
+    },
+    {
+      "inf": "tragen",
+      "group": "Vokalwechsel",
+      "irregular": true,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "praesens": {
+          "ich": "trage",
+          "du": "trägst",
+          "er": "trägt",
+          "wir": "tragen",
+          "ihr": "tragt",
+          "sie": "tragen"
+        }
+      }
+    }
+  ],
+  "irregularCore": [
+    {
+      "inf": "sein",
+      "pic": null,
+      "forms": {
+        "praesens": {
+          "ich": "bin",
+          "du": "bist",
+          "er": "ist",
+          "wir": "sind",
+          "ihr": "seid",
+          "sie": "sind"
+        }
+      }
+    },
+    {
+      "inf": "haben",
+      "pic": null,
+      "forms": {
+        "praesens": {
+          "ich": "habe",
+          "du": "hast",
+          "er": "hat",
+          "wir": "haben",
+          "ihr": "habt",
+          "sie": "haben"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "Jeden Sonntag {form} Emma im Park.",
+      "col": "er",
+      "unit": "praesens",
+      "fits": [
+        "laufen",
+        "singen",
+        "tanzen",
+        "spielen",
+        "malen",
+        "wandern",
+        "lesen"
+      ],
+      "subjectLiteral": "Emma",
+      "pic": null
+    },
+    {
+      "id": "f02",
+      "text": "Ich {form} gern im Garten.",
+      "col": "ich",
+      "unit": "praesens",
+      "fits": [
+        "spielen",
+        "singen",
+        "lesen",
+        "malen",
+        "tanzen",
+        "bauen",
+        "schlafen"
+      ],
+      "subjectLiteral": "Ich",
+      "pic": null
+    },
+    {
+      "id": "f03",
+      "text": "Du {form} heute sehr laut.",
+      "col": "du",
+      "unit": "praesens",
+      "fits": [
+        "singen",
+        "lachen",
+        "rufen"
+      ],
+      "subjectLiteral": "Du",
+      "pic": null
+    },
+    {
+      "id": "f04",
+      "text": "Wir {form} am Nachmittag.",
+      "col": "wir",
+      "unit": "praesens",
+      "fits": [
+        "spielen",
+        "singen",
+        "tanzen",
+        "malen",
+        "lesen",
+        "schwimmen",
+        "wandern",
+        "bauen"
+      ],
+      "subjectLiteral": "Wir",
+      "pic": null
+    },
+    {
+      "id": "f05",
+      "text": "Ihr {form} auf dem Schulhof.",
+      "col": "ihr",
+      "unit": "praesens",
+      "fits": [
+        "spielen",
+        "springen",
+        "laufen",
+        "hüpfen",
+        "lachen",
+        "tanzen"
+      ],
+      "subjectLiteral": "Ihr",
+      "pic": null
+    },
+    {
+      "id": "f06",
+      "text": "Ben und Mia {form} im Wald.",
+      "col": "sie",
+      "unit": "praesens",
+      "fits": [
+        "wandern",
+        "spielen",
+        "singen",
+        "laufen",
+        "klettern"
+      ],
+      "subjectLiteral": "Ben und Mia",
+      "pic": null
+    },
+    {
+      "id": "f07",
+      "text": "Paul {form} ein Buch.",
+      "col": "er",
+      "unit": "praesens",
+      "fits": [
+        "lesen",
+        "suchen",
+        "tragen"
+      ],
+      "subjectLiteral": "Paul",
+      "pic": null
+    },
+    {
+      "id": "f08",
+      "text": "Lina {form} jeden Morgen.",
+      "col": "er",
+      "unit": "praesens",
+      "fits": [
+        "laufen",
+        "singen",
+        "lesen",
+        "tanzen",
+        "schwimmen",
+        "malen"
+      ],
+      "subjectLiteral": "Lina",
+      "pic": null
+    },
+    {
+      "id": "f09",
+      "text": "Ich {form} einen hohen Turm.",
+      "col": "ich",
+      "unit": "praesens",
+      "fits": [
+        "bauen"
+      ],
+      "subjectLiteral": "Ich",
+      "pic": null
+    },
+    {
+      "id": "f10",
+      "text": "Du {form} über den Witz.",
+      "col": "du",
+      "unit": "praesens",
+      "fits": [
+        "lachen"
+      ],
+      "subjectLiteral": "Du",
+      "pic": null
+    },
+    {
+      "id": "f11",
+      "text": "Finn und Lea {form} am See.",
+      "col": "sie",
+      "unit": "praesens",
+      "fits": [
+        "schwimmen",
+        "spielen",
+        "singen",
+        "laufen",
+        "malen"
+      ],
+      "subjectLiteral": "Finn und Lea",
+      "pic": null
+    },
+    {
+      "id": "f12",
+      "text": "Wir {form} ganz leise.",
+      "col": "wir",
+      "unit": "praesens",
+      "fits": [
+        "flüstern",
+        "lachen",
+        "singen",
+        "lesen",
+        "spielen"
+      ],
+      "subjectLiteral": "Wir",
+      "pic": null
+    },
+    {
+      "id": "f13",
+      "text": "Noah {form} nach dem Ball.",
+      "col": "er",
+      "unit": "praesens",
+      "fits": [
+        "suchen",
+        "rufen"
+      ],
+      "subjectLiteral": "Noah",
+      "pic": null
+    },
+    {
+      "id": "f14",
+      "text": "Mia {form} einen Apfel.",
+      "col": "er",
+      "unit": "praesens",
+      "fits": [
+        "essen",
+        "suchen",
+        "malen",
+        "tragen"
+      ],
+      "subjectLiteral": "Mia",
+      "pic": null
+    },
+    {
+      "id": "h01",
+      "text": "Ich {form} heute sehr müde.",
+      "col": "ich",
+      "unit": "praesens",
+      "fits": [
+        "sein"
+      ],
+      "subjectLiteral": "Ich",
+      "pic": null
+    },
+    {
+      "id": "h02",
+      "text": "Du {form} ein tolles Kind.",
+      "col": "du",
+      "unit": "praesens",
+      "fits": [
+        "sein"
+      ],
+      "subjectLiteral": "Du",
+      "pic": null
+    },
+    {
+      "id": "h03",
+      "text": "Emma {form} schon in der Schule.",
+      "col": "er",
+      "unit": "praesens",
+      "fits": [
+        "sein"
+      ],
+      "subjectLiteral": "Emma",
+      "pic": null
+    },
+    {
+      "id": "h04",
+      "text": "Wir {form} beste Freunde.",
+      "col": "wir",
+      "unit": "praesens",
+      "fits": [
+        "sein"
+      ],
+      "subjectLiteral": "Wir",
+      "pic": null
+    },
+    {
+      "id": "h05",
+      "text": "Ihr {form} heute sehr schnell.",
+      "col": "ihr",
+      "unit": "praesens",
+      "fits": [
+        "sein"
+      ],
+      "subjectLiteral": "Ihr",
+      "pic": null
+    },
+    {
+      "id": "h06",
+      "text": "Paul und Lea {form} im Garten.",
+      "col": "sie",
+      "unit": "praesens",
+      "fits": [
+        "sein",
+        "spielen",
+        "singen",
+        "lachen",
+        "bauen"
+      ],
+      "subjectLiteral": "Paul und Lea",
+      "pic": null
+    },
+    {
+      "id": "h07",
+      "text": "Ich {form} einen kleinen Hund.",
+      "col": "ich",
+      "unit": "praesens",
+      "fits": [
+        "haben",
+        "suchen",
+        "malen"
+      ],
+      "subjectLiteral": "Ich",
+      "pic": null
+    },
+    {
+      "id": "h08",
+      "text": "Du {form} ein rotes Fahrrad.",
+      "col": "du",
+      "unit": "praesens",
+      "fits": [
+        "haben",
+        "suchen",
+        "malen"
+      ],
+      "subjectLiteral": "Du",
+      "pic": null
+    },
+    {
+      "id": "h09",
+      "text": "Ben {form} großen Hunger.",
+      "col": "er",
+      "unit": "praesens",
+      "fits": [
+        "haben"
+      ],
+      "subjectLiteral": "Ben",
+      "pic": null
+    },
+    {
+      "id": "h10",
+      "text": "Wir {form} heute frei.",
+      "col": "wir",
+      "unit": "praesens",
+      "fits": [
+        "haben"
+      ],
+      "subjectLiteral": "Wir",
+      "pic": null
+    },
+    {
+      "id": "h11",
+      "text": "Ihr {form} viele Bücher.",
+      "col": "ihr",
+      "unit": "praesens",
+      "fits": [
+        "haben",
+        "lesen",
+        "suchen",
+        "tragen"
+      ],
+      "subjectLiteral": "Ihr",
+      "pic": null
+    },
+    {
+      "id": "h12",
+      "text": "Noah und Lina {form} einen Ball.",
+      "col": "sie",
+      "unit": "praesens",
+      "fits": [
+        "haben",
+        "suchen",
+        "malen"
+      ],
+      "subjectLiteral": "Noah und Lina",
+      "pic": null
+    }
+  ],
+  "hunt": {
+    "nounHomographs": [
+      "Tanz",
+      "Spiel",
+      "Lauf",
+      "Bau",
+      "Ruf"
+    ]
+  },
+  "strings": {
+    "G2-317": {
+      "title": "Verbformen: ich, du, er, wir, ihr, sie",
+      "instruction": "Schau das Bild an und lies das Verb. Schreibe seine Personalformen in die gestrichelten Kästchen und vervollständige dann die Sätze."
+    },
+    "F2": {
+      "title": "Verbformen zuordnen: Wer macht was?",
+      "instruction": "Lies jedes Personalwort links. Verbinde es mit der passenden Verbform rechts, eine Linie für jedes Wort."
+    },
+    "F3": {
+      "title": "Verbformen im Satz mit Bildern",
+      "instruction": "Schau das Bild an und lies das Verb im Kästchen. Schreibe die Form, die in den Satz passt, in das gestrichelte Kästchen."
+    },
+    "F4": {
+      "title": "Die Hilfsverben sein und haben",
+      "instruction": "Diese Verben verändern sich stark. Schreibe zu jeder Person die richtige Form in das gestrichelte Kästchen."
+    },
+    "F5": {
+      "title": "Wähle die richtige Verbform",
+      "instruction": "Lies den Satz. Darunter stehen drei Formen des Verbs. Kreise die Form ein, die passt."
+    },
+    "F6": {
+      "title": "Finde das Verb und schreibe die Grundform",
+      "instruction": "Unterstreiche das Verb in jedem Satz. Schreibe dann seine Grundform in das gestrichelte Kästchen."
+    }
+  }
+}

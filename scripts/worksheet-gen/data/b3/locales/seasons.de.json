@@ -1,0 +1,74 @@
+{
+  "names": {
+    "winter": "Winter",
+    "spring": "Frühling",
+    "summer": "Sommer",
+    "autumn": "Herbst"
+  },
+  "alt": {
+    "autumn": null
+  },
+  "model": "temperate-north",
+  "cycleStart": "spring",
+  "cycle": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+  ],
+  "monthSeason": [
+    "winter",
+    "winter",
+    "spring",
+    "spring",
+    "spring",
+    "summer",
+    "summer",
+    "summer",
+    "autumn",
+    "autumn",
+    "autumn",
+    "winter"
+  ],
+  "veto": [],
+  "override": {},
+  "legend": {
+    "winter": "codeBlue",
+    "spring": "codeGreen",
+    "summer": "codeYellow",
+    "autumn": "codeOrange"
+  },
+  "faces": {
+    "tree": {
+      "figure": "tree",
+      "captions": null
+    }
+  },
+  "strings": {
+    "K-322": {
+      "title": "Die vier Jahreszeiten: Bilder zuordnen",
+      "instruction": "Verbinde den Punkt an jedem Bild mit dem Kasten der Jahreszeit, zu der es gehört."
+    },
+    "K-338": {
+      "title": "Welche Jahreszeit ist das?",
+      "instruction": "Schau dir die drei Bilder auf jeder Karte an und kreise das Zeichen der Jahreszeit ein, zu der sie gehören."
+    },
+    "K-339": {
+      "title": "Jahreszeitenuhr: Was kommt als Nächstes?",
+      "instruction": "Eine Jahreszeit steht schon auf der Uhr. Zeichne die anderen drei Zeichen in der richtigen Reihenfolge in die leeren Kreise."
+    },
+    "K-340": {
+      "title": "Jahreszeiten: Was passt nicht dazu?",
+      "instruction": "Streiche in jeder Reihe das eine Bild durch, das zu einer anderen Jahreszeit gehört."
+    },
+    "G1-323": {
+      "title": "Monate und Jahreszeiten: Male die Jahreszeit an",
+      "instruction": "Male den Kreis neben jedem Monat in der Farbe seiner Jahreszeit an."
+    },
+    "K-341": {
+      "title": "Der Baum in den vier Jahreszeiten",
+      "instruction": "Zeichne, wie der Baum in jeder der vier Jahreszeiten aussieht."
+    }
+  },
+  "strand": "Sachunterricht: Jahreszeiten"
+}

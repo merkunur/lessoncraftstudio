@@ -1,0 +1,1011 @@
+{
+ "generated": "2026-09-14",
+ "next": {
+  "K": 353,
+  "G1": 350,
+  "G2": 346,
+  "G3": 385
+ },
+ "faces": [
+  {
+   "family": "K-317",
+   "key": "letter-of-the-week",
+   "face": 1,
+   "band": "K",
+   "dir": "k",
+   "id": "K-325",
+   "title": "Words with M",
+   "heading": "Face 2 : Words with M (K, `K-3xx TBD by emitter`)"
+  },
+  {
+   "family": "K-317",
+   "key": "letter-of-the-week",
+   "face": 2,
+   "band": "K",
+   "dir": "k",
+   "id": "K-326",
+   "title": "Beginning, Middle or End",
+   "heading": "Face 3 : Beginning, Middle or End (K, `K-3xx TBD`)"
+  },
+  {
+   "family": "K-317",
+   "key": "letter-of-the-week",
+   "face": 3,
+   "band": "K",
+   "dir": "k",
+   "id": "K-327",
+   "title": "Circle the M in the Words",
+   "heading": "Face 4 : Circle the M in the Words (K, `K-3xx TBD`)"
+  },
+  {
+   "family": "K-317",
+   "key": "letter-of-the-week",
+   "face": 4,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-311",
+   "title": "Sound of the Week",
+   "heading": "Face 5 : Sound of the Week (id band G1, `G1-3xx TBD`; landing level per locale from `units[].band`)"
+  },
+  {
+   "family": "K-317",
+   "key": "letter-of-the-week",
+   "face": 5,
+   "band": "K",
+   "dir": "k",
+   "id": "K-328",
+   "title": "M or N?",
+   "heading": "Face 6 : M or N? (K, `K-3xx TBD`)"
+  },
+  {
+   "family": "K-318",
+   "key": "sound-boxes",
+   "face": 1,
+   "band": "K",
+   "dir": "k",
+   "id": "K-329",
+   "title": "Count the Sounds",
+   "heading": "Face 2 - Count the Sounds (K-3xx, band K, id TBD by emitter)"
+  },
+  {
+   "family": "K-318",
+   "key": "sound-boxes",
+   "face": 2,
+   "band": "K",
+   "dir": "k",
+   "id": "K-330",
+   "title": "First Sound Given",
+   "heading": "Face 3 - First Sound Given (K-3xx, band K)"
+  },
+  {
+   "family": "K-318",
+   "key": "sound-boxes",
+   "face": 3,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-312",
+   "title": "Sound Strip: How Many Sounds?",
+   "heading": "Face 4 - Sound Strip: How Many Sounds? (G1-3xx, band G1)"
+  },
+  {
+   "family": "K-318",
+   "key": "sound-boxes",
+   "face": 4,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-313",
+   "title": "Syllables and Sounds",
+   "heading": "Face 5 - Syllables and Sounds (G1-3xx, band G1)"
+  },
+  {
+   "family": "K-318",
+   "key": "sound-boxes",
+   "face": 5,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-314",
+   "title": "Blend the Sounds",
+   "heading": "Face 6 - Blend the Sounds (G1-3xx, band G1)"
+  },
+  {
+   "family": "K-319",
+   "key": "emotions",
+   "face": 1,
+   "band": "K",
+   "dir": "k",
+   "id": "K-331",
+   "title": "How Do You Feel? Circle the Face",
+   "heading": "F1 : How Do You Feel? Circle the Face (`layout:'scene'`, K)"
+  },
+  {
+   "family": "K-319",
+   "key": "emotions",
+   "face": 2,
+   "band": "K",
+   "dir": "k",
+   "id": "K-332",
+   "title": "Draw the Feeling Face",
+   "heading": "F2 : Draw the Feeling Face (`layout:'draw'`, K, OPEN-ENDED)"
+  },
+  {
+   "family": "K-319",
+   "key": "emotions",
+   "face": 3,
+   "band": "K",
+   "dir": "k",
+   "id": "K-333",
+   "title": "Feels Good or Feels Bad? Sort the Faces",
+   "heading": "F3 : Feels Good or Feels Bad? Sort the Faces (factory, K)"
+  },
+  {
+   "family": "K-319",
+   "key": "emotions",
+   "face": 4,
+   "band": "K",
+   "dir": "k",
+   "id": "K-334",
+   "title": "Which Face Shows the Feeling?",
+   "heading": "F4 : Which Face Shows the Feeling? (`layout:'choice'`, K)"
+  },
+  {
+   "family": "K-319",
+   "key": "emotions",
+   "face": 5,
+   "band": "K",
+   "dir": "k",
+   "id": "K-335",
+   "title": "How Do I Feel Today?",
+   "heading": "F5 : How Do I Feel Today? (`layout:'checkin'`, K, OPEN-ENDED)"
+  },
+  {
+   "family": "K-320",
+   "key": "ordinal-numbers",
+   "face": 1,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-315",
+   "title": "Write the Ordinal Numbers",
+   "heading": "F1 : Write the Ordinal Numbers (G1, CODE `layout:'write'`)"
+  },
+  {
+   "family": "K-320",
+   "key": "ordinal-numbers",
+   "face": 2,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-316",
+   "title": "Ordinal Words: Draw a Line to the Picture",
+   "heading": "F2 : Ordinal Words: Draw a Line to the Picture (G1, CODE `layout:'words'`)"
+  },
+  {
+   "family": "K-320",
+   "key": "ordinal-numbers",
+   "face": 3,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-317",
+   "title": "Which Place? Write the Ordinal Number",
+   "heading": "F3 : Which Place? Write the Ordinal Number (G1, CODE `layout:'where'`)"
+  },
+  {
+   "family": "K-320",
+   "key": "ordinal-numbers",
+   "face": 4,
+   "band": "K",
+   "dir": "k",
+   "id": "K-336",
+   "title": "Start From the Other Side",
+   "heading": "F4 : Start From the Other Side (K, PARAM `start:'mixed'`)"
+  },
+  {
+   "family": "K-320",
+   "key": "ordinal-numbers",
+   "face": 5,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-318",
+   "title": "Who Wins the Race?",
+   "heading": "F5 : Who Wins the Race? (G1, CODE `layout:'race'`, themes `racers`)"
+  },
+  {
+   "family": "K-321",
+   "key": "days-and-months",
+   "face": 1,
+   "band": "K",
+   "dir": "k",
+   "id": "K-337",
+   "title": "Missing Days: Write the Week in Order",
+   "heading": "F1 : Missing Days: Write the Week in Order (K, CODE `layout:'gaps'`)"
+  },
+  {
+   "family": "K-321",
+   "key": "days-and-months",
+   "face": 2,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-319",
+   "title": "Yesterday, Today, Tomorrow",
+   "heading": "F2 : Yesterday, Today, Tomorrow (G1, CODE `layout:'neighbours'`)"
+  },
+  {
+   "family": "K-321",
+   "key": "days-and-months",
+   "face": 3,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-320",
+   "title": "Months of the Year in Order",
+   "heading": "F3 : Months of the Year in Order (G1, PARAM `{...base.difficulty[2], unit:'months', cols:2, tileW:240, boxPx:52, namePx:24, given:[1]}`)"
+  },
+  {
+   "family": "K-321",
+   "key": "days-and-months",
+   "face": 4,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-321",
+   "title": "The Month Before and After",
+   "heading": "F4 : The Month Before and After (G1, PARAM `{...F2.difficulty[2], unit:'months', heads:'beforeAfter'}`)"
+  },
+  {
+   "family": "K-321",
+   "key": "days-and-months",
+   "face": 5,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-322",
+   "title": "Days of the Week: Abbreviations",
+   "heading": "F5 : Days of the Week: Abbreviations (G1, CODE `layout:'abbrev'`)"
+  },
+  {
+   "family": "K-322",
+   "key": "seasons",
+   "face": 1,
+   "band": "K",
+   "dir": "k",
+   "id": "K-338",
+   "title": "Which Season Is It?",
+   "heading": "F1 : Which Season Is It? (`layout:'which'`, K)"
+  },
+  {
+   "family": "K-322",
+   "key": "seasons",
+   "face": 2,
+   "band": "K",
+   "dir": "k",
+   "id": "K-339",
+   "title": "Season Wheel: Seasons in Order",
+   "heading": "F2 : Season Wheel: Seasons in Order (`layout:'wheel'`, K)"
+  },
+  {
+   "family": "K-322",
+   "key": "seasons",
+   "face": 3,
+   "band": "K",
+   "dir": "k",
+   "id": "K-340",
+   "title": "What Does Not Belong?",
+   "heading": "F3 : What Does Not Belong? (`layout:'odd'`, K)"
+  },
+  {
+   "family": "K-322",
+   "key": "seasons",
+   "face": 4,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-323",
+   "title": "Months and Seasons: Colour the Season",
+   "heading": "F4 : Months and Seasons: Colour the Season (`layout:'months'`, **G1**)"
+  },
+  {
+   "family": "K-322",
+   "key": "seasons",
+   "face": 5,
+   "band": "K",
+   "dir": "k",
+   "id": "K-341",
+   "title": "Draw the Tree in Four Seasons",
+   "heading": "F5 : Draw the Tree in Four Seasons (`layout:'tree'`, K, OPEN-ENDED)"
+  },
+  {
+   "family": "K-323",
+   "key": "all-about-me",
+   "face": 1,
+   "band": "K",
+   "dir": "k",
+   "id": "K-342",
+   "title": "My Favourite Things",
+   "heading": "F1 : My Favourite Things (`layout:'favourites'`, K, STRUCTURED)"
+  },
+  {
+   "family": "K-323",
+   "key": "all-about-me",
+   "face": 2,
+   "band": "K",
+   "dir": "k",
+   "id": "K-343",
+   "title": "All About My Family",
+   "heading": "F2 : All About My Family (`layout:'family'`, K, K.CC.A.3, STRUCTURED COUNT)"
+  },
+  {
+   "family": "K-323",
+   "key": "all-about-me",
+   "face": 3,
+   "band": "K",
+   "dir": "k",
+   "id": "K-344",
+   "title": "This Is Me: Label the Face",
+   "heading": "F3 : This Is Me: Label the Face (`layout:'face'`, K, STRUCTURED, VERIFIABLE)"
+  },
+  {
+   "family": "K-323",
+   "key": "all-about-me",
+   "face": 4,
+   "band": "K",
+   "dir": "k",
+   "id": "K-345",
+   "title": "I Can",
+   "heading": "F4 : I Can (`layout:'ican'`, K, OPEN-ENDED self-report)"
+  },
+  {
+   "family": "K-323",
+   "key": "all-about-me",
+   "face": 5,
+   "band": "K",
+   "dir": "k",
+   "id": "K-346",
+   "title": "My Name",
+   "heading": "F5 : My Name (`layout:'name'`, K, K.CC.B.5 + K.CC.C.6, STRUCTURED COUNT)"
+  },
+  {
+   "family": "K-324",
+   "key": "picture-word-cards",
+   "face": 1,
+   "band": "K",
+   "dir": "k",
+   "id": "K-347",
+   "title": "Twin Set",
+   "heading": "Face 2 : Twin Set (K, `K-3xx TBD`, `mode:'twin'`; PARAM)"
+  },
+  {
+   "family": "K-324",
+   "key": "picture-word-cards",
+   "face": 2,
+   "band": "K",
+   "dir": "k",
+   "id": "K-348",
+   "title": "Article Cards",
+   "heading": "Face 3 : Article Cards (K, `K-3xx TBD`, `mode:'article'`; CODE)"
+  },
+  {
+   "family": "K-324",
+   "key": "picture-word-cards",
+   "face": 3,
+   "band": "K",
+   "dir": "k",
+   "id": "K-349",
+   "title": "One and Many",
+   "heading": "Face 4 : One and Many (K, `K-3xx TBD`, `mode:'plural'`; CODE)"
+  },
+  {
+   "family": "K-324",
+   "key": "picture-word-cards",
+   "face": 4,
+   "band": "K",
+   "dir": "k",
+   "id": "K-350",
+   "title": "Bilingual Cards",
+   "heading": "Face 5 : Bilingual Cards (K, `K-3xx TBD`, `mode:'bilingual-<partner>'`; CODE + `unitAxis`)"
+  },
+  {
+   "family": "K-324",
+   "key": "picture-word-cards",
+   "face": 5,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-324",
+   "title": "Syllable Cards",
+   "heading": "Face 6 : Syllable Cards (G1, `G1-3xx TBD`, `mode:'syllable'`; CODE)"
+  },
+  {
+   "family": "G1-305",
+   "key": "syllable-split",
+   "face": 1,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-325",
+   "title": "Write the Word in Syllables",
+   "heading": "Face 2 - Write the Word in Syllables (G1-3xx, `mode:'rewrite'`)"
+  },
+  {
+   "family": "G1-305",
+   "key": "syllable-split",
+   "face": 2,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-326",
+   "title": "Missing Syllable",
+   "heading": "Face 3 - Missing Syllable (G1-3xx, `mode:'cloze'`, pool tex)"
+  },
+  {
+   "family": "G1-305",
+   "key": "syllable-split",
+   "face": 3,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-327",
+   "title": "Syllable Scramble",
+   "heading": "Face 4 - Syllable Scramble (G1-3xx, `mode:'scramble'`, pool tex)"
+  },
+  {
+   "family": "G1-305",
+   "key": "syllable-split",
+   "face": 4,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-328",
+   "title": "Two or Three Syllables? Split and Sort",
+   "heading": "Face 5 - Two or Three Syllables? Split and Sort (G1-3xx, `mode:'sort'`)"
+  },
+  {
+   "family": "G1-305",
+   "key": "syllable-split",
+   "face": 5,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-329",
+   "title": "Vowel King",
+   "heading": "Face 6 - Vowel King (G1-3xx, `kings:true`, pool tex; REFUSED en, fr)"
+  },
+  {
+   "family": "G1-306",
+   "key": "syllable-reading",
+   "face": 1,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-330",
+   "title": "Circle the Syllable",
+   "heading": "Face 2 - Circle the Syllable (CODE `choices:3`)"
+  },
+  {
+   "family": "G1-306",
+   "key": "syllable-reading",
+   "face": 2,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-331",
+   "title": "Join the Syllables",
+   "heading": "Face 3 - Join the Syllables (CODE `join:true`)"
+  },
+  {
+   "family": "G1-306",
+   "key": "syllable-reading",
+   "face": 3,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-332",
+   "title": "Syllable Carpet: Read and Colour",
+   "heading": "Face 4 - Syllable Carpet: Read and Colour (CODE `colourMode:true`)"
+  },
+  {
+   "family": "G1-306",
+   "key": "syllable-reading",
+   "face": 4,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-333",
+   "title": "Complex Syllables",
+   "heading": "Face 5 - Complex Syllables (PARAM `structure:'complex'`)"
+  },
+  {
+   "family": "G1-306",
+   "key": "syllable-reading",
+   "face": 5,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-334",
+   "title": "Read the Syllabified Words",
+   "heading": "Face 6 - Read the Syllabified Words (CODE `mode:'syllabified'`)"
+  },
+  {
+   "family": "G1-307",
+   "key": "opposites",
+   "face": 1,
+   "band": "K",
+   "dir": "k",
+   "id": "K-351",
+   "title": "Match the Opposite Pictures",
+   "heading": "F1 : Match the Opposite Pictures (K, `K-3xx TBD`, `layout:'match'`)"
+  },
+  {
+   "family": "G1-307",
+   "key": "opposites",
+   "face": 2,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-335",
+   "title": "Opposites in a Sentence",
+   "heading": "F2 : Opposites in a Sentence (G1, `layout:'frames'`)"
+  },
+  {
+   "family": "G1-307",
+   "key": "opposites",
+   "face": 3,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-336",
+   "title": "Pair Up the Opposites",
+   "heading": "F3 : Pair Up the Opposites (G1, `layout:'pairup'`)"
+  },
+  {
+   "family": "G1-307",
+   "key": "opposites",
+   "face": 4,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-337",
+   "title": "Opposite or the Same?",
+   "heading": "F4 : Opposite or the Same? (G1, `layout:'choice'`)"
+  },
+  {
+   "family": "G1-307",
+   "key": "opposites",
+   "face": 5,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-320",
+   "title": "Make the Opposite with a Prefix",
+   "heading": "F5 : Make the Opposite with a Prefix (G2, `G2-3xx TBD`, `layout:'prefix'`)"
+  },
+  {
+   "family": "G1-308",
+   "key": "read-and-do",
+   "face": 1,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-338",
+   "title": "Read and Circle",
+   "heading": "F1 : Read and Circle (PARAM)"
+  },
+  {
+   "family": "G1-308",
+   "key": "read-and-do",
+   "face": 2,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-339",
+   "title": "Read and Do: Two-Step Instructions",
+   "heading": "F2 : Read and Do: Two-Step Instructions (CODE `steps:2`)"
+  },
+  {
+   "family": "G1-308",
+   "key": "read-and-do",
+   "face": 3,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-340",
+   "title": "Read and Do: First, Second, Between",
+   "heading": "F3 : Read and Do: First, Second, Between (PARAM)"
+  },
+  {
+   "family": "G1-308",
+   "key": "read-and-do",
+   "face": 4,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-341",
+   "title": "Read and Check: True or False",
+   "heading": "F4 : Read and Check: True or False (CODE `mode:'truth'`)"
+  },
+  {
+   "family": "G1-308",
+   "key": "read-and-do",
+   "face": 5,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-342",
+   "title": "Read and Draw",
+   "heading": "F5 : Read and Draw (CODE `mode:'draw'`, open-ended)"
+  },
+  {
+   "family": "G1-309",
+   "key": "rhyming-words",
+   "face": 1,
+   "band": "K",
+   "dir": "k",
+   "id": "K-352",
+   "title": "Rhyme or Not?",
+   "heading": "F1 : Rhyme or Not? (K in all 11, `K-3xx TBD`, `mode:'judge'`)"
+  },
+  {
+   "family": "G1-309",
+   "key": "rhyming-words",
+   "face": 2,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-343",
+   "title": "Sort the Rhymes",
+   "heading": "F2 : Sort the Rhymes (base band, `mode:'sort'`)"
+  },
+  {
+   "family": "G1-309",
+   "key": "rhyming-words",
+   "face": 3,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-344",
+   "title": "Finish the Rhyme",
+   "heading": "F3 : Finish the Rhyme (G1 key in all 11, `mode:'couplet'`)"
+  },
+  {
+   "family": "G1-309",
+   "key": "rhyming-words",
+   "face": 4,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-345",
+   "title": "Rhyme Strings",
+   "heading": "F4 : Rhyme Strings (base band, `mode:'string'`)"
+  },
+  {
+   "family": "G1-309",
+   "key": "rhyming-words",
+   "face": 5,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-346",
+   "title": "Write Your Own Rhymes",
+   "heading": "F5 : Write Your Own Rhymes (G1 key in all 11, `mode:'open'`, open-ended, no `verify()`)"
+  },
+  {
+   "family": "G1-310",
+   "key": "hundreds-chart-puzzles",
+   "face": 1,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-347",
+   "title": "Where Does the Piece Go?",
+   "heading": "F1 : Where Does the Piece Go? (`mode:'place'`, G1)"
+  },
+  {
+   "family": "G1-310",
+   "key": "hundreds-chart-puzzles",
+   "face": 2,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-321",
+   "title": "Jump Puzzles: Follow the Arrows",
+   "heading": "F2 : Jump Puzzles: Follow the Arrows (`mode:'jumps'`, G2)"
+  },
+  {
+   "family": "G1-310",
+   "key": "hundreds-chart-puzzles",
+   "face": 3,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-322",
+   "title": "Mystery Number: Two Arrows, One Square",
+   "heading": "F3 : Mystery Number: Two Arrows, One Square (`mode:'riddle'`, G2, LANGUAGE-FREE)"
+  },
+  {
+   "family": "G1-310",
+   "key": "hundreds-chart-puzzles",
+   "face": 4,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-348",
+   "title": "Find the Wrong Number on the Piece",
+   "heading": "F4 : Find the Wrong Number on the Piece (`mode:'error'`, G1)"
+  },
+  {
+   "family": "G1-310",
+   "key": "hundreds-chart-puzzles",
+   "face": 5,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-323",
+   "title": "How Far Apart? Count the Jumps",
+   "heading": "F5 : How Far Apart? Count the Jumps (`mode:'distance'`, G2)"
+  },
+  {
+   "family": "G2-315",
+   "key": "spelling-rules",
+   "face": 1,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-324",
+   "title": "Which One?",
+   "heading": "Face 2 : Which One? (`choice`)"
+  },
+  {
+   "family": "G2-315",
+   "key": "spelling-rules",
+   "face": 2,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-325",
+   "title": "Rule Detective",
+   "heading": "Face 3 : Rule Detective (`detective`)"
+  },
+  {
+   "family": "G2-315",
+   "key": "spelling-rules",
+   "face": 3,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-326",
+   "title": "Sort the Words by Spelling Rule",
+   "heading": "Face 4 : Sort the Words by Spelling Rule (`bins`)"
+  },
+  {
+   "family": "G2-315",
+   "key": "spelling-rules",
+   "face": 4,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-327",
+   "title": "Write the Word, Rule Letters Given",
+   "heading": "Face 5 : Write the Word, Rule Letters Given (`anchor`)"
+  },
+  {
+   "family": "G2-315",
+   "key": "spelling-rules",
+   "face": 5,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-328",
+   "title": "The Plural Changes the Spelling",
+   "heading": "Face 6 : The Plural Changes the Spelling (`form:'plural'`)"
+  },
+  {
+   "family": "G2-316",
+   "key": "compound-words",
+   "face": 1,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-329",
+   "title": "What Goes in the Middle?",
+   "heading": "F1 : What Goes in the Middle? (`mode:'link'`) : the joint"
+  },
+  {
+   "family": "G2-316",
+   "key": "compound-words",
+   "face": 2,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-330",
+   "title": "Split the Compound",
+   "heading": "F2 : Split the Compound (`mode:'cut'`)"
+  },
+  {
+   "family": "G2-316",
+   "key": "compound-words",
+   "face": 3,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-331",
+   "title": "Match the Halves",
+   "heading": "F3 : Match the Halves (`mode:'match'`)"
+  },
+  {
+   "family": "G2-316",
+   "key": "compound-words",
+   "face": 4,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-332",
+   "title": "Compound Detective",
+   "heading": "F4 : Compound Detective (`mode:'detect'`)"
+  },
+  {
+   "family": "G2-316",
+   "key": "compound-words",
+   "face": 5,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-333",
+   "title": "One Head, Many Words",
+   "heading": "F5 : One Head, Many Words (`mode:'web'`) : word web = word star, merged"
+  },
+  {
+   "family": "G2-317",
+   "key": "verb-forms",
+   "face": 1,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-334",
+   "title": "Match the Pronoun to the Verb Form",
+   "heading": "Face 2 : Match the Pronoun to the Verb Form (CODE, `match`)"
+  },
+  {
+   "family": "G2-317",
+   "key": "verb-forms",
+   "face": 2,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-335",
+   "title": "Verb Forms in Sentences with Pictures",
+   "heading": "Face 3 : Verb Forms in Sentences with Pictures (CODE, `lanes:6, tables:0`)"
+  },
+  {
+   "family": "G2-317",
+   "key": "verb-forms",
+   "face": 3,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-336",
+   "title": "The Irregular Core",
+   "heading": "Face 4 : The Irregular Core (PARAM, `pool:'irregular'`)"
+  },
+  {
+   "family": "G2-317",
+   "key": "verb-forms",
+   "face": 4,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-337",
+   "title": "Choose the Right Verb Form",
+   "heading": "Face 5 : Choose the Right Verb Form (CODE, `choice`)"
+  },
+  {
+   "family": "G2-317",
+   "key": "verb-forms",
+   "face": 5,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-338",
+   "title": "Find the Verb, Write Its Base Form",
+   "heading": "Face 6 : Find the Verb, Write Its Base Form (CODE, `hunt`)"
+  },
+  {
+   "family": "G2-318",
+   "key": "animal-fact-file",
+   "face": 1,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-339",
+   "title": "Animal Fact File: Tick the Facts",
+   "heading": "F2 : Animal Fact File: Tick the Facts (CODE, `cell:'chips'`; verifiable)"
+  },
+  {
+   "family": "G2-318",
+   "key": "animal-fact-file",
+   "face": 2,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-340",
+   "title": "Animal Fact File with a Word Bank",
+   "heading": "F3 : Animal Fact File with a Word Bank (CODE, `bank:true`; open)"
+  },
+  {
+   "family": "G2-318",
+   "key": "animal-fact-file",
+   "face": 3,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-341",
+   "title": "Animal Fact File: Write Three Sentences",
+   "heading": "F4 : Animal Fact File: Write Three Sentences (CODE, `frames:3`; open, W.2.2)"
+  },
+  {
+   "family": "G2-318",
+   "key": "animal-fact-file",
+   "face": 4,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-342",
+   "title": "Compare Two Animals: Same and Different",
+   "heading": "F5 : Compare Two Animals: Same and Different (CODE, `mode:'compare'`; lanes open, chips verifiable)"
+  },
+  {
+   "family": "G2-318",
+   "key": "animal-fact-file",
+   "face": 5,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-343",
+   "title": "Who Am I? Mystery Animal",
+   "heading": "F6 : Who Am I? Mystery Animal (CODE, `mode:'mystery'`; verifiable, RI.2.1)"
+  },
+  {
+   "family": "G2-319",
+   "key": "logic-puzzles",
+   "face": 1,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-344",
+   "title": "Logic Grid Puzzles with Yes, No and Either-Or Clues",
+   "heading": "F1 : Logic Grid Puzzles with Yes, No and Either-Or Clues (PARAM, G2)"
+  },
+  {
+   "family": "G2-319",
+   "key": "logic-puzzles",
+   "face": 2,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-378",
+   "title": "4 by 4 Logic Grid Puzzles: Six Clues",
+   "heading": "F2 : 4 by 4 Logic Grid Puzzles: Six Clues (PARAM, G3, `G3-378+ TBD`)"
+  },
+  {
+   "family": "G2-319",
+   "key": "logic-puzzles",
+   "face": 3,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-349",
+   "title": "Picture Clue Logic Puzzles: Cross Out and Find",
+   "heading": "F3 : Picture Clue Logic Puzzles: Cross Out and Find (CODE `mode:'picture'`, G1, `G1-311+ TBD`)"
+  },
+  {
+   "family": "G2-319",
+   "key": "logic-puzzles",
+   "face": 4,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-379",
+   "title": "Two-Attribute Logic Puzzles: Which Pet, Which Colour",
+   "heading": "F4 : Two-Attribute Logic Puzzles: Which Pet, Which Colour (CODE `mode:'two-attr'`, G3)"
+  },
+  {
+   "family": "G2-319",
+   "key": "logic-puzzles",
+   "face": 5,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-345",
+   "title": "Read the Logic Grid: True or False",
+   "heading": "F5 : Read the Logic Grid: True or False (CODE `mode:'read'`, G2)"
+  },
+  {
+   "family": "G3-377",
+   "key": "division-with-remainder",
+   "face": 1,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-380",
+   "title": "Share It Out, What Is Left Over?",
+   "heading": "F1 : Share It Out, What Is Left Over? (`mode:'share'`, themed)"
+  },
+  {
+   "family": "G3-377",
+   "key": "division-with-remainder",
+   "face": 2,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-381",
+   "title": "Practice Rows",
+   "heading": "F2 : Practice Rows (`mode:'practice'`, themeless)"
+  },
+  {
+   "family": "G3-377",
+   "key": "division-with-remainder",
+   "face": 3,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-382",
+   "title": "Exact or Not?",
+   "heading": "F3 : Exact or Not? (`mode:'exact'`, themeless)"
+  },
+  {
+   "family": "G3-377",
+   "key": "division-with-remainder",
+   "face": 4,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-383",
+   "title": "Find the Error, the Remainder Is Too Big",
+   "heading": "F4 : Find the Error, the Remainder Is Too Big (`mode:'error'`, themeless)"
+  },
+  {
+   "family": "G3-377",
+   "key": "division-with-remainder",
+   "face": 5,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-384",
+   "title": "Hop Back on the Number Line",
+   "heading": "F5 : Hop Back on the Number Line (`mode:'line'`, themeless)"
+  }
+ ]
+}

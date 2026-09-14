@@ -1,0 +1,49 @@
+{
+  "exemplar": "2-5",
+  "unitLabels": {
+    "2-5": "per 2, 3, 4 e 5",
+    "6-9": "per 6, 7, 8 e 9",
+    "2-9": "per 2 fino a 9"
+  },
+  "notation": {
+    "op": ":",
+    "template": "{n} : {d} = {q} r. {r}",
+    "boxStyle": "inline",
+    "remWord": "r.",
+    "exactWord": "esatta",
+    "restWord": "con il resto",
+    "leftoverLabel": "resto",
+    "rightWord": "giusto",
+    "wrongWord": "sbagliato",
+    "kinds": {
+      "quotative": "contenenza",
+      "partitive": "ripartizione"
+    }
+  },
+  "strings": {
+    "G3-377": {
+      "title": "Divisioni con il resto: cerchia i gruppi",
+      "instruction": "In ogni mucchio cerchia gruppi grandi come il secondo numero. Scrivi quanti gruppi hai fatto e quanti disegni restano fuori."
+    },
+    "F1": {
+      "title": "Ripartizione con il resto: quanto avanza?",
+      "instruction": "Distribuisci il mucchio nelle scatole uno alla volta. Scrivi quanti ne riceve ogni scatola e quanti non si possono distribuire."
+    },
+    "F2": {
+      "title": "Divisioni con il resto: esercizi in riga",
+      "instruction": "In ogni divisione avanza qualcosa. Scrivi il risultato e il resto di ogni riga."
+    },
+    "F3": {
+      "title": "Esatta o con il resto? Divisioni con e senza resto",
+      "instruction": "Decidi se ogni divisione è esatta. Cerchia la tua risposta e scrivi il resto: 0 se non avanza niente."
+    },
+    "F4": {
+      "title": "Trova l'errore: il resto è troppo grande",
+      "instruction": "Tutte le divisioni sono sbagliate. Barra i numeri sbagliati e scrivi nei riquadri il risultato e il resto giusti."
+    },
+    "F5": {
+      "title": "Salti indietro sulla linea dei numeri: cosa resta?",
+      "instruction": "Parti dal numero segnato e disegna salti indietro tutti uguali finché un salto intero non ci sta più. Scrivi i salti e dove arrivi."
+    }
+  }
+}

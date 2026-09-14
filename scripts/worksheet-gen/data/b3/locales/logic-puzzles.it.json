@@ -1,0 +1,100 @@
+{
+  "head": "Giochi di logica",
+  "names": [
+    {
+      "nom": "Sofia"
+    },
+    {
+      "nom": "Luca"
+    },
+    {
+      "nom": "Giulia"
+    },
+    {
+      "nom": "Marco"
+    },
+    {
+      "nom": "Alice"
+    },
+    {
+      "nom": "Paolo"
+    },
+    {
+      "nom": "Anna"
+    },
+    {
+      "nom": "Matteo"
+    }
+  ],
+  "namePx": 22,
+  "picSep": "",
+  "frames": {
+    "neg": [
+      "{name} non ha {pic}.",
+      "{pic} non è di {name}."
+    ],
+    "pos": [
+      "{name} ha {pic}.",
+      "{pic} è di {name}."
+    ],
+    "either": [
+      "{name} ha {pic} o {pic}.",
+      "{pic} o {pic} è di {name}."
+    ],
+    "holderNot": [
+      "Chi ha {pic} non è {name}.",
+      "Chi ha {pic} non si chiama {name}."
+    ],
+    "cross": [
+      "Chi ha {pic} ha anche {pic2}.",
+      "Insieme a {pic} c'è sempre {pic2}."
+    ],
+    "crossNot": [
+      "Chi ha {pic} non ha {pic2}.",
+      "Insieme a {pic} non c'è mai {pic2}."
+    ]
+  },
+  "truth": {
+    "has": [
+      "{name} ha {pic}."
+    ],
+    "hasNot": [
+      "{name} non ha {pic}."
+    ],
+    "holderIs": [
+      "Chi ha {pic} è {name}."
+    ],
+    "either": [
+      "{name} ha {pic} o {pic}."
+    ],
+    "nobody": [
+      "Nessuno ha {pic}."
+    ]
+  },
+  "strings": {
+    "G2-319": {
+      "title": "Giochi di logica con la griglia: tre indizi, una risposta",
+      "instruction": "Leggi gli indizi. Sulla griglia barra quello che non può essere, metti una spunta su quello che è sicuro, poi cerchia il disegno di ogni bambino."
+    },
+    "F1": {
+      "title": "Giochi di logica con indizi sì, no e oppure",
+      "instruction": "Un indizio sì vuole una spunta, un indizio no una crocetta e un indizio con \"o\" barra il terzo disegno. Completa la griglia e cerchia le risposte."
+    },
+    "F2": {
+      "title": "Giochi di logica 4 per 4: sei indizi",
+      "instruction": "Quattro bambini e quattro disegni. Usa tutti gli indizi: barra quello che non può essere e segna quello sicuro, finché ogni riga ha una risposta."
+    },
+    "F3": {
+      "title": "Giochi di logica con indizi a disegni: barra e trova",
+      "instruction": "Un disegno barrato vuol dire che il bambino non ce l'ha, un disegno cerchiato che ce l'ha. Barra sulla griglia, poi cerchia ogni risposta."
+    },
+    "F4": {
+      "title": "Giochi di logica a due attributi: due disegni a testa",
+      "instruction": "Ogni bambino ha un disegno di ogni gruppo. Usa gli indizi che li collegano per completare tutte e tre le griglie."
+    },
+    "F5": {
+      "title": "Leggi la griglia di logica: vero o falso?",
+      "instruction": "La griglia è già risolta. Leggila, poi cerchia la spunta se la frase è vera o la crocetta se è falsa."
+    }
+  }
+}

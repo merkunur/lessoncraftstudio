@@ -1,0 +1,4080 @@
+{
+  "head": "Regole di ortografia",
+  "exemplar": "doppie",
+  "capital": "lower",
+  "pool": "approved-full",
+  "exclude": {
+    "re": "sauro$",
+    "why": "i nomi dei dinosauri non sono parole di ortografia di classe seconda"
+  },
+  "rules": {
+    "doppie": {
+      "id": "doppie",
+      "head": "le doppie",
+      "chip": "ll tt cc nn ss",
+      "band": "G2",
+      "gap": {
+        "kind": "regex",
+        "re": "([bcdfglmnprstvz])\\1",
+        "boxes": "wide"
+      },
+      "cands": [
+        "bb",
+        "cc",
+        "dd",
+        "ff",
+        "gg",
+        "ll",
+        "mm",
+        "nn",
+        "pp",
+        "rr",
+        "ss",
+        "tt",
+        "vv",
+        "zz"
+      ],
+      "pair": null,
+      "proof": null,
+      "models": [
+        {
+          "vocabKey": "ball",
+          "theme": "toys",
+          "noun": "ball",
+          "word": "palla",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll"
+        },
+        {
+          "vocabKey": "cow",
+          "theme": "farm animals",
+          "noun": "cow",
+          "word": "mucca",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "cc"
+        },
+        {
+          "vocabKey": "pen",
+          "theme": "classroom",
+          "noun": "pen",
+          "word": "penna",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "nn"
+        }
+      ],
+      "items": [
+        {
+          "theme": "animals",
+          "noun": "horse",
+          "vocabKey": "horse",
+          "word": "cavallo",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "cavalli",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "ring",
+          "vocabKey": "ring",
+          "word": "anello",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "anelli",
+          "pluralGap": null
+        },
+        {
+          "theme": "tools",
+          "noun": "hammer",
+          "vocabKey": "hammer",
+          "word": "martello",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "martelli",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "knife",
+          "vocabKey": "knife",
+          "word": "coltello",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "coltelli",
+          "pluralGap": null
+        },
+        {
+          "theme": "shapes",
+          "noun": "star",
+          "vocabKey": "star",
+          "word": "stella",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "stelle",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "butterfly",
+          "vocabKey": "butterfly",
+          "word": "farfalla",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "farfalle",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "hen",
+          "vocabKey": "hen",
+          "word": "gallina",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "galline",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "lamb",
+          "vocabKey": "lamb",
+          "word": "agnello",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "agnelli",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "calf",
+          "vocabKey": "calf",
+          "word": "vitello",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "vitelli",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "umbrella",
+          "vocabKey": "umbrella",
+          "word": "ombrello",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "ombrelli",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "cup",
+          "vocabKey": "cup",
+          "word": "tazza",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "zz",
+          "side": "rule",
+          "plural": "tazze",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "pizza",
+          "vocabKey": "pizza",
+          "word": "pizza",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "zz",
+          "side": "rule",
+          "plural": "pizze",
+          "pluralGap": null
+        },
+        {
+          "theme": "toys",
+          "noun": "bicycle",
+          "vocabKey": "bicycle",
+          "word": "bicicletta",
+          "gaps": [
+            {
+              "from": 7,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "biciclette",
+          "pluralGap": null
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "giraffe",
+          "vocabKey": "giraffe",
+          "word": "giraffa",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "ff",
+          "side": "rule",
+          "plural": "giraffe",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "tie",
+          "vocabKey": "tie",
+          "word": "cravatta",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "cravatte",
+          "pluralGap": null
+        },
+        {
+          "theme": "breakfast",
+          "noun": "biscuit",
+          "vocabKey": "biscuit",
+          "word": "biscotto",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "biscotti",
+          "pluralGap": null
+        },
+        {
+          "theme": "classroom",
+          "noun": "map",
+          "vocabKey": "map",
+          "word": "mappa",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "pp",
+          "side": "rule",
+          "plural": "mappe",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "carpet",
+          "vocabKey": "carpet",
+          "word": "tappeto",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "pp",
+          "side": "rule",
+          "plural": "tappeti",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "necklace",
+          "vocabKey": "necklace",
+          "word": "collana",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "collane",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "plate",
+          "vocabKey": "plate",
+          "word": "piatto",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "piatti",
+          "pluralGap": null
+        },
+        {
+          "theme": "summer",
+          "noun": "sand",
+          "vocabKey": "sand",
+          "word": "sabbia",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "bb",
+          "side": "rule",
+          "plural": "sabbia",
+          "pluralGap": null
+        },
+        {
+          "theme": "animals",
+          "noun": "reindeer",
+          "vocabKey": "reindeer",
+          "word": "renna",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "nn",
+          "side": "rule",
+          "plural": "renne",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "mouth",
+          "vocabKey": "mouth",
+          "word": "bocca",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "cc",
+          "side": "rule",
+          "plural": "bocche",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "pumpkin",
+          "vocabKey": "pumpkin",
+          "word": "zucca",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "cc",
+          "side": "rule",
+          "plural": "zucche",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "sack",
+          "vocabKey": "sack",
+          "word": "sacco",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "cc",
+          "side": "rule",
+          "plural": "sacchi",
+          "pluralGap": null
+        },
+        {
+          "theme": "post office",
+          "noun": "package",
+          "vocabKey": "package",
+          "word": "pacco",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "cc",
+          "side": "rule",
+          "plural": "pacchi",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "mitten",
+          "vocabKey": "mitten",
+          "word": "muffola",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ff",
+          "side": "rule",
+          "plural": "muffole",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "rocket",
+          "vocabKey": "rocket",
+          "word": "razzo",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "zz",
+          "side": "rule",
+          "plural": "razzi",
+          "pluralGap": null
+        },
+        {
+          "theme": "birds",
+          "noun": "ostrich",
+          "vocabKey": "ostrich",
+          "word": "struzzo",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "zz",
+          "side": "rule",
+          "plural": "struzzi",
+          "pluralGap": null
+        },
+        {
+          "theme": "insects and bugs",
+          "noun": "cricket",
+          "vocabKey": "cricket",
+          "word": "grillo",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "grilli",
+          "pluralGap": null
+        },
+        {
+          "theme": "furniture",
+          "noun": "crib",
+          "vocabKey": "crib",
+          "word": "culla",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "culle",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "pan",
+          "vocabKey": "pan",
+          "word": "padella",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "padelle",
+          "pluralGap": null
+        },
+        {
+          "theme": "vegetables",
+          "noun": "onion",
+          "vocabKey": "onion",
+          "word": "cipolla",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "cipolle",
+          "pluralGap": null
+        },
+        {
+          "theme": "post office",
+          "noun": "letter",
+          "vocabKey": "letter",
+          "word": "lettera",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "lettere",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "milk",
+          "vocabKey": "milk",
+          "word": "latte",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "latte",
+          "pluralGap": null
+        },
+        {
+          "theme": "occupations",
+          "noun": "ballerina",
+          "vocabKey": "ballerina",
+          "word": "ballerina",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "ballerine",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "bat",
+          "vocabKey": "bat",
+          "word": "pipistrello",
+          "gaps": [
+            {
+              "from": 8,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "pipistrelli",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "gate",
+          "vocabKey": "gate",
+          "word": "cancello",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "cancelli",
+          "pluralGap": null
+        },
+        {
+          "theme": "furniture",
+          "noun": "stool",
+          "vocabKey": "stool",
+          "word": "sgabello",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "sgabelli",
+          "pluralGap": null
+        },
+        {
+          "theme": "toys",
+          "noun": "crayons",
+          "vocabKey": "crayons",
+          "word": "pastelli",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "pastelli",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "peas",
+          "vocabKey": "peas",
+          "word": "piselli",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "piselli",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "hair",
+          "vocabKey": "hair",
+          "word": "capelli",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "capelli",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "fork",
+          "vocabKey": "fork",
+          "word": "forchetta",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "forchette",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "seagull",
+          "vocabKey": "seagull",
+          "word": "gabbiano",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "bb",
+          "side": "rule",
+          "plural": "gabbiani",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "rock",
+          "vocabKey": "rock",
+          "word": "roccia",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "cc",
+          "side": "rule",
+          "plural": "rocce",
+          "pluralGap": null
+        },
+        {
+          "theme": "classroom",
+          "noun": "shelf",
+          "vocabKey": "shelf",
+          "word": "scaffale",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ff",
+          "side": "rule",
+          "plural": "scaffali",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "muffin",
+          "vocabKey": "muffin",
+          "word": "muffin",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ff",
+          "side": "rule",
+          "plural": "muffin",
+          "pluralGap": null
+        }
+      ],
+      "foils": [
+        {
+          "theme": "animals",
+          "noun": "dog",
+          "vocabKey": "dog",
+          "word": "cane"
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "apple",
+          "vocabKey": "apple",
+          "word": "mela"
+        },
+        {
+          "theme": "camping",
+          "noun": "moon",
+          "vocabKey": "moon",
+          "word": "luna"
+        },
+        {
+          "theme": "beach",
+          "noun": "sun",
+          "vocabKey": "sun",
+          "word": "sole"
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "bread",
+          "vocabKey": "bread",
+          "word": "pane"
+        },
+        {
+          "theme": "spring",
+          "noun": "nest",
+          "vocabKey": "nest",
+          "word": "nido"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "frog",
+          "vocabKey": "frog",
+          "word": "rana"
+        },
+        {
+          "theme": "fruits",
+          "noun": "pear",
+          "vocabKey": "pear",
+          "word": "pera"
+        },
+        {
+          "theme": "pets",
+          "noun": "mouse",
+          "vocabKey": "mouse",
+          "word": "topo"
+        },
+        {
+          "theme": "body parts",
+          "noun": "nose",
+          "vocabKey": "nose",
+          "word": "naso"
+        }
+      ],
+      "refuse": {},
+      "note": "the base exemplar: the double consonant is the one graphme the child writes; every printed word carries ONE double; cands = the doubles only (a single consonant is never a candidate, so palla/pala minimal pairs are not a frame collision here — the k-2 \"doppia o no?\" opposition is not this rule)"
+    },
+    "c-ch": {
+      "id": "c-ch",
+      "head": "ce ci che chi",
+      "chip": "c ch",
+      "band": "G2",
+      "gap": {
+        "kind": "regex",
+        "re": "ch(?=[ei])|(?<!s)c(?=[ei])",
+        "boxes": "wide"
+      },
+      "cands": [
+        "c",
+        "ch"
+      ],
+      "pair": [
+        "c",
+        "ch"
+      ],
+      "pairHead": "c o ch",
+      "proof": null,
+      "models": [
+        {
+          "vocabKey": "basket",
+          "theme": "easter",
+          "noun": "basket",
+          "word": "cestino",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c"
+        },
+        {
+          "vocabKey": "key",
+          "theme": "around the house",
+          "noun": "key",
+          "word": "chiave",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "ch"
+        }
+      ],
+      "items": [
+        {
+          "theme": "vegetables",
+          "noun": "onion",
+          "vocabKey": "onion",
+          "word": "cipolla",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "cipolle",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "orange",
+          "vocabKey": "orange",
+          "word": "arancia",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "arance",
+          "pluralGap": null
+        },
+        {
+          "theme": "fruits",
+          "noun": "cherry",
+          "vocabKey": "cherry",
+          "word": "ciliegia",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "ciliegie",
+          "pluralGap": null
+        },
+        {
+          "theme": "easter",
+          "noun": "chocolate",
+          "vocabKey": "chocolate",
+          "word": "cioccolato",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "cioccolato",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "chick",
+          "vocabKey": "chick",
+          "word": "pulcino",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "pulcini",
+          "pluralGap": null
+        },
+        {
+          "theme": "spring",
+          "noun": "bird",
+          "vocabKey": "bird",
+          "word": "uccello",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "uccelli",
+          "pluralGap": null
+        },
+        {
+          "theme": "insects and bugs",
+          "noun": "ladybug",
+          "vocabKey": "ladybug",
+          "word": "coccinella",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "coccinelle",
+          "pluralGap": null
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "deer",
+          "vocabKey": "deer",
+          "word": "cervo",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "cervi",
+          "pluralGap": null
+        },
+        {
+          "theme": "vegetables",
+          "noun": "cucumber",
+          "vocabKey": "cucumber",
+          "word": "cetriolo",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "cetrioli",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "belt",
+          "vocabKey": "belt",
+          "word": "cintura",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "cinture",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "arm",
+          "vocabKey": "arm",
+          "word": "braccio",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "braccia",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "bowl",
+          "vocabKey": "bowl",
+          "word": "ciotola",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "ciotole",
+          "pluralGap": null
+        },
+        {
+          "theme": "toys",
+          "noun": "bicycle",
+          "vocabKey": "bicycle",
+          "word": "bicicletta",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "biciclette",
+          "pluralGap": null
+        },
+        {
+          "theme": "easter",
+          "noun": "cross",
+          "vocabKey": "cross",
+          "word": "croce",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "croci",
+          "pluralGap": null
+        },
+        {
+          "theme": "shapes",
+          "noun": "cylinder",
+          "vocabKey": "cylinder",
+          "word": "cilindro",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "cilindri",
+          "pluralGap": null
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "hedgehog",
+          "vocabKey": "hedgehog",
+          "word": "riccio",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "ricci",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "kitchen",
+          "vocabKey": "kitchen",
+          "word": "cucina",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "cucine",
+          "pluralGap": null
+        },
+        {
+          "theme": "hospital",
+          "noun": "medicine",
+          "vocabKey": "medicine",
+          "word": "medicina",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "medicine",
+          "pluralGap": null
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "lizard",
+          "vocabKey": "lizard",
+          "word": "lucertola",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "lucertole",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "pigeon",
+          "vocabKey": "pigeon",
+          "word": "piccione",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "piccioni",
+          "pluralGap": null
+        },
+        {
+          "theme": "animals",
+          "noun": "raccoon",
+          "vocabKey": "raccoon",
+          "word": "procione",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "procioni",
+          "pluralGap": null
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "rhinoceros",
+          "vocabKey": "rhinoceros",
+          "word": "rinoceronte",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "rinoceronti",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "rock",
+          "vocabKey": "rock",
+          "word": "roccia",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "rocce",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "sausage",
+          "vocabKey": "sausage",
+          "word": "salsiccia",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "salsicce",
+          "pluralGap": null
+        },
+        {
+          "theme": "post office",
+          "noun": "scale",
+          "vocabKey": "scale",
+          "word": "bilancia",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "bilance",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "scissors",
+          "vocabKey": "scissors",
+          "word": "forbici",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "forbici",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "shirt",
+          "vocabKey": "shirt",
+          "word": "camicia",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "camicie",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "thumb",
+          "vocabKey": "thumb",
+          "word": "pollice",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "pollici",
+          "pluralGap": null
+        },
+        {
+          "theme": "animals",
+          "noun": "swan",
+          "vocabKey": "swan",
+          "word": "cigno",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "cigni",
+          "pluralGap": null
+        },
+        {
+          "theme": "birds 2",
+          "noun": "stork",
+          "vocabKey": "stork",
+          "word": "cicogna",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "cicogne",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "flashlight",
+          "vocabKey": "flashlight",
+          "word": "torcia",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "torce",
+          "pluralGap": null
+        },
+        {
+          "theme": "tools",
+          "noun": "screwdriver",
+          "vocabKey": "screwdriver",
+          "word": "cacciavite",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "cacciaviti",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "bacon",
+          "vocabKey": "bacon",
+          "word": "pancetta",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "pancetta",
+          "pluralGap": null
+        },
+        {
+          "theme": "pets",
+          "noun": "hamster",
+          "vocabKey": "hamster",
+          "word": "criceto",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "criceti",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "donut",
+          "vocabKey": "donut",
+          "word": "ciambella",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "ciambelle",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "eye",
+          "vocabKey": "eye",
+          "word": "occhio",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ch",
+          "side": "contrast",
+          "plural": "occhi",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "ear",
+          "vocabKey": "ear",
+          "word": "orecchio",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "ch",
+          "side": "contrast",
+          "plural": "orecchie",
+          "pluralGap": null
+        },
+        {
+          "theme": "furniture",
+          "noun": "mirror",
+          "vocabKey": "mirror",
+          "word": "specchio",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "ch",
+          "side": "contrast",
+          "plural": "specchi",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "fork",
+          "vocabKey": "fork",
+          "word": "forchetta",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ch",
+          "side": "contrast",
+          "plural": "forchette",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "glass",
+          "vocabKey": "glass",
+          "word": "bicchiere",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ch",
+          "side": "contrast",
+          "plural": "bicchieri",
+          "pluralGap": null
+        },
+        {
+          "theme": "music",
+          "noun": "guitar",
+          "vocabKey": "guitar",
+          "word": "chitarra",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "ch",
+          "side": "contrast",
+          "plural": "chitarre",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "turkey",
+          "vocabKey": "turkey",
+          "word": "tacchino",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ch",
+          "side": "contrast",
+          "plural": "tacchini",
+          "pluralGap": null
+        },
+        {
+          "theme": "ocean life",
+          "noun": "crab",
+          "vocabKey": "crab",
+          "word": "granchio",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "ch",
+          "side": "contrast",
+          "plural": "granchi",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "knee",
+          "vocabKey": "knee",
+          "word": "ginocchio",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "ch",
+          "side": "contrast",
+          "plural": "ginocchia",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "lock",
+          "vocabKey": "lock",
+          "word": "lucchetto",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ch",
+          "side": "contrast",
+          "plural": "lucchetti",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "church",
+          "vocabKey": "church",
+          "word": "chiesa",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "ch",
+          "side": "contrast",
+          "plural": "chiese",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "bag",
+          "vocabKey": "bag",
+          "word": "sacchetto",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ch",
+          "side": "contrast",
+          "plural": "sacchetti",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "bucket",
+          "vocabKey": "bucket",
+          "word": "secchiello",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ch",
+          "side": "contrast",
+          "plural": "secchielli",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "seashell",
+          "vocabKey": "seashell",
+          "word": "conchiglia",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ch",
+          "side": "contrast",
+          "plural": "conchiglie",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "lid",
+          "vocabKey": "lid",
+          "word": "coperchio",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "ch",
+          "side": "contrast",
+          "plural": "coperchi",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "mask",
+          "vocabKey": "mask",
+          "word": "maschera",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ch",
+          "side": "contrast",
+          "plural": "maschere",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "skeleton",
+          "vocabKey": "skeleton",
+          "word": "scheletro",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 2
+            }
+          ],
+          "g": "ch",
+          "side": "contrast",
+          "plural": "scheletri",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "whistle",
+          "vocabKey": "whistle",
+          "word": "fischietto",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ch",
+          "side": "contrast",
+          "plural": "fischietti",
+          "pluralGap": null
+        },
+        {
+          "theme": "animals",
+          "noun": "woodpecker",
+          "vocabKey": "woodpecker",
+          "word": "picchio",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ch",
+          "side": "contrast",
+          "plural": "picchi",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "goggles",
+          "vocabKey": "goggles",
+          "word": "occhialini",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ch",
+          "side": "contrast",
+          "plural": "occhialini",
+          "pluralGap": null
+        },
+        {
+          "theme": "winter",
+          "noun": "walrus",
+          "vocabKey": "walrus",
+          "word": "tricheco",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ch",
+          "side": "contrast",
+          "plural": "trichechi",
+          "pluralGap": null
+        }
+      ],
+      "foils": [
+        {
+          "theme": "At the Supermarket",
+          "noun": "apple",
+          "vocabKey": "apple",
+          "word": "mela"
+        },
+        {
+          "theme": "camping",
+          "noun": "moon",
+          "vocabKey": "moon",
+          "word": "luna"
+        },
+        {
+          "theme": "beach",
+          "noun": "sun",
+          "vocabKey": "sun",
+          "word": "sole"
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "bread",
+          "vocabKey": "bread",
+          "word": "pane"
+        },
+        {
+          "theme": "spring",
+          "noun": "nest",
+          "vocabKey": "nest",
+          "word": "nido"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "frog",
+          "vocabKey": "frog",
+          "word": "rana"
+        },
+        {
+          "theme": "fruits",
+          "noun": "pear",
+          "vocabKey": "pear",
+          "word": "pera"
+        },
+        {
+          "theme": "pets",
+          "noun": "mouse",
+          "vocabKey": "mouse",
+          "word": "topo"
+        },
+        {
+          "theme": "body parts",
+          "noun": "nose",
+          "vocabKey": "nose",
+          "word": "naso"
+        },
+        {
+          "theme": "body parts",
+          "noun": "hand",
+          "vocabKey": "hand",
+          "word": "mano"
+        }
+      ],
+      "refuse": {},
+      "note": "suoni dolci e duri della c: ce/ci vs che/chi; the gap is the c or the ch before e/i; loanwords with a hard c before e/i (chef) and sc-words (asciugatrice, the sc rule) are kept out"
+    },
+    "g-gh": {
+      "id": "g-gh",
+      "head": "ge gi ghe ghi",
+      "chip": "g gh",
+      "band": "G2",
+      "gap": {
+        "kind": "regex",
+        "re": "gh(?=[ei])|(?<!s)g(?=[ei])",
+        "boxes": "wide"
+      },
+      "cands": [
+        "g",
+        "gh"
+      ],
+      "pair": [
+        "g",
+        "gh"
+      ],
+      "pairHead": "g o gh",
+      "proof": null,
+      "models": [
+        {
+          "vocabKey": "giraffe",
+          "theme": "zoo animals",
+          "noun": "giraffe",
+          "word": "giraffa",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "g"
+        },
+        {
+          "vocabKey": "acorn",
+          "theme": "miscellaneous",
+          "noun": "acorn",
+          "word": "ghianda",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "gh"
+        }
+      ],
+      "items": [
+        {
+          "theme": "clothing",
+          "noun": "jacket",
+          "vocabKey": "jacket",
+          "word": "giacca",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "giacche",
+          "pluralGap": null
+        },
+        {
+          "theme": "spring",
+          "noun": "garden",
+          "vocabKey": "garden",
+          "word": "giardino",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "giardini",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "cheese",
+          "vocabKey": "cheese",
+          "word": "formaggio",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "formaggi",
+          "pluralGap": null
+        },
+        {
+          "theme": "classroom",
+          "noun": "clock",
+          "vocabKey": "clock",
+          "word": "orologio",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "orologi",
+          "pluralGap": null
+        },
+        {
+          "theme": "summer",
+          "noun": "beach",
+          "vocabKey": "beach",
+          "word": "spiaggia",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "spiagge",
+          "pluralGap": null
+        },
+        {
+          "theme": "spring",
+          "noun": "rain",
+          "vocabKey": "rain",
+          "word": "pioggia",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "piogge",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "angel",
+          "vocabKey": "angel",
+          "word": "angelo",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "angeli",
+          "pluralGap": null
+        },
+        {
+          "theme": "reptiles and Amphibians",
+          "noun": "gecko",
+          "vocabKey": "gecko",
+          "word": "geco",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "gechi",
+          "pluralGap": null
+        },
+        {
+          "theme": "flowers",
+          "noun": "lily",
+          "vocabKey": "lily",
+          "word": "giglio",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "gigli",
+          "pluralGap": null
+        },
+        {
+          "theme": "flowers",
+          "noun": "sunflower",
+          "vocabKey": "sunflower",
+          "word": "girasole",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "girasoli",
+          "pluralGap": null
+        },
+        {
+          "theme": "fruits",
+          "noun": "cherry",
+          "vocabKey": "cherry",
+          "word": "ciliegia",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "ciliegie",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "knee",
+          "vocabKey": "knee",
+          "word": "ginocchio",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "ginocchia",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "pajamas",
+          "vocabKey": "pajamas",
+          "word": "pigiama",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "pigiami",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "grater",
+          "vocabKey": "grater",
+          "word": "grattugia",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "grattugie",
+          "pluralGap": null
+        },
+        {
+          "theme": "occupations",
+          "noun": "gardener",
+          "vocabKey": "gardener",
+          "word": "giardiniere",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "giardinieri",
+          "pluralGap": null
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "cheetah",
+          "vocabKey": "cheetah",
+          "word": "ghepardo",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "gh",
+          "side": "contrast",
+          "plural": "ghepardi",
+          "pluralGap": null
+        },
+        {
+          "theme": "vehicles",
+          "noun": "ferry",
+          "vocabKey": "ferry",
+          "word": "traghetto",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "gh",
+          "side": "contrast",
+          "plural": "traghetti",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "garland",
+          "vocabKey": "garland",
+          "word": "ghirlanda",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "gh",
+          "side": "contrast",
+          "plural": "ghirlande",
+          "pluralGap": null
+        },
+        {
+          "theme": "winter",
+          "noun": "ice",
+          "vocabKey": "ice",
+          "word": "ghiaccio",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "gh",
+          "side": "contrast",
+          "plural": "ghiaccio",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "nail",
+          "vocabKey": "nail",
+          "word": "unghia",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "gh",
+          "side": "contrast",
+          "plural": "unghie",
+          "pluralGap": null
+        },
+        {
+          "theme": "weather",
+          "noun": "puddle",
+          "vocabKey": "puddle",
+          "word": "pozzanghera",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 2
+            }
+          ],
+          "g": "gh",
+          "side": "contrast",
+          "plural": "pozzanghere",
+          "pluralGap": null
+        },
+        {
+          "theme": "classroom",
+          "noun": "ruler",
+          "vocabKey": "ruler",
+          "word": "righello",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "gh",
+          "side": "contrast",
+          "plural": "righelli",
+          "pluralGap": null
+        }
+      ],
+      "foils": [
+        {
+          "theme": "At the Supermarket",
+          "noun": "apple",
+          "vocabKey": "apple",
+          "word": "mela"
+        },
+        {
+          "theme": "camping",
+          "noun": "moon",
+          "vocabKey": "moon",
+          "word": "luna"
+        },
+        {
+          "theme": "beach",
+          "noun": "sun",
+          "vocabKey": "sun",
+          "word": "sole"
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "bread",
+          "vocabKey": "bread",
+          "word": "pane"
+        },
+        {
+          "theme": "spring",
+          "noun": "nest",
+          "vocabKey": "nest",
+          "word": "nido"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "frog",
+          "vocabKey": "frog",
+          "word": "rana"
+        },
+        {
+          "theme": "fruits",
+          "noun": "pear",
+          "vocabKey": "pear",
+          "word": "pera"
+        },
+        {
+          "theme": "pets",
+          "noun": "mouse",
+          "vocabKey": "mouse",
+          "word": "topo"
+        },
+        {
+          "theme": "body parts",
+          "noun": "nose",
+          "vocabKey": "nose",
+          "word": "naso"
+        },
+        {
+          "theme": "body parts",
+          "noun": "hand",
+          "vocabKey": "hand",
+          "word": "mano"
+        }
+      ],
+      "refuse": {},
+      "note": "suoni dolci e duri della g: ge/gi vs ghe/ghi; loanwords (bagel, beige, garage, hamburger, porridge, leggings, gilet) and the colour paint-drops (giallo, grigio) are kept out; giove is a proper noun"
+    },
+    "gn-gli": {
+      "id": "gn-gli",
+      "head": "gn e gli",
+      "chip": "gn gli",
+      "band": "G2",
+      "gap": {
+        "kind": "regex",
+        "re": "gn|gli",
+        "boxes": "wide"
+      },
+      "cands": [
+        "gn",
+        "gli"
+      ],
+      "pair": [
+        "gn",
+        "gli"
+      ],
+      "pairHead": "gn o gli",
+      "proof": null,
+      "models": [
+        {
+          "vocabKey": "spider",
+          "theme": "insects and bugs",
+          "noun": "spider",
+          "word": "ragno",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "gn"
+        },
+        {
+          "vocabKey": "leaf",
+          "theme": "spring",
+          "noun": "leaf",
+          "word": "foglia",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "gli"
+        }
+      ],
+      "items": [
+        {
+          "theme": "camping",
+          "noun": "mountain",
+          "vocabKey": "mountain",
+          "word": "montagna",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "gn",
+          "side": "rule",
+          "plural": "montagne",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "pinecone",
+          "vocabKey": "pinecone",
+          "word": "pigna",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "gn",
+          "side": "rule",
+          "plural": "pigne",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "sponge",
+          "vocabKey": "sponge",
+          "word": "spugna",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "gn",
+          "side": "rule",
+          "plural": "spugne",
+          "pluralGap": null
+        },
+        {
+          "theme": "animals",
+          "noun": "swan",
+          "vocabKey": "swan",
+          "word": "cigno",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "gn",
+          "side": "rule",
+          "plural": "cigni",
+          "pluralGap": null
+        },
+        {
+          "theme": "birds 2",
+          "noun": "stork",
+          "vocabKey": "stork",
+          "word": "cicogna",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "gn",
+          "side": "rule",
+          "plural": "cicogne",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "lamb",
+          "vocabKey": "lamb",
+          "word": "agnello",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 2
+            }
+          ],
+          "g": "gn",
+          "side": "rule",
+          "plural": "agnelli",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "lifeguard",
+          "vocabKey": "lifeguard",
+          "word": "bagnino",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "gn",
+          "side": "rule",
+          "plural": "bagnini",
+          "pluralGap": null
+        },
+        {
+          "theme": "classroom",
+          "noun": "teacher",
+          "vocabKey": "teacher",
+          "word": "insegnante",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "gn",
+          "side": "rule",
+          "plural": "insegnanti",
+          "pluralGap": null
+        },
+        {
+          "theme": "occupations",
+          "noun": "carpenter",
+          "vocabKey": "carpenter",
+          "word": "falegname",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "gn",
+          "side": "rule",
+          "plural": "falegnami",
+          "pluralGap": null
+        },
+        {
+          "theme": "animals",
+          "noun": "rabbit",
+          "vocabKey": "rabbit",
+          "word": "coniglio",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 3
+            }
+          ],
+          "g": "gli",
+          "side": "contrast",
+          "plural": "conigli",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "bottle",
+          "vocabKey": "bottle",
+          "word": "bottiglia",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 3
+            }
+          ],
+          "g": "gli",
+          "side": "contrast",
+          "plural": "bottiglie",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "sweater",
+          "vocabKey": "sweater",
+          "word": "maglione",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "gli",
+          "side": "contrast",
+          "plural": "maglioni",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "t-shirt",
+          "vocabKey": "t-shirt",
+          "word": "maglietta",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "gli",
+          "side": "contrast",
+          "plural": "magliette",
+          "pluralGap": null
+        },
+        {
+          "theme": "vegetables",
+          "noun": "garlic",
+          "vocabKey": "garlic",
+          "word": "aglio",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 3
+            }
+          ],
+          "g": "gli",
+          "side": "contrast",
+          "plural": "aglio",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "medal",
+          "vocabKey": "medal",
+          "word": "medaglia",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 3
+            }
+          ],
+          "g": "gli",
+          "side": "contrast",
+          "plural": "medaglie",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "seashell",
+          "vocabKey": "seashell",
+          "word": "conchiglia",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 3
+            }
+          ],
+          "g": "gli",
+          "side": "contrast",
+          "plural": "conchiglie",
+          "pluralGap": null
+        },
+        {
+          "theme": "flowers",
+          "noun": "lily",
+          "vocabKey": "lily",
+          "word": "giglio",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "gli",
+          "side": "contrast",
+          "plural": "gigli",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "ankle",
+          "vocabKey": "ankle",
+          "word": "caviglia",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 3
+            }
+          ],
+          "g": "gli",
+          "side": "contrast",
+          "plural": "caviglie",
+          "pluralGap": null
+        },
+        {
+          "theme": "birds 2",
+          "noun": "quail",
+          "vocabKey": "quail",
+          "word": "quaglia",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "gli",
+          "side": "contrast",
+          "plural": "quaglie",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "wallet",
+          "vocabKey": "wallet",
+          "word": "portafoglio",
+          "gaps": [
+            {
+              "from": 7,
+              "len": 3
+            }
+          ],
+          "g": "gli",
+          "side": "contrast",
+          "plural": "portafogli",
+          "pluralGap": null
+        },
+        {
+          "theme": "easter",
+          "noun": "bunny",
+          "vocabKey": "bunny",
+          "word": "coniglietto",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 3
+            }
+          ],
+          "g": "gli",
+          "side": "contrast",
+          "plural": "coniglietti",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "eyelashes",
+          "vocabKey": "eyelashes",
+          "word": "ciglia",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "gli",
+          "side": "contrast",
+          "plural": "ciglia",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "eyebrow",
+          "vocabKey": "eyebrow",
+          "word": "sopracciglio",
+          "gaps": [
+            {
+              "from": 8,
+              "len": 3
+            }
+          ],
+          "g": "gli",
+          "side": "contrast",
+          "plural": "sopraccigli",
+          "pluralGap": null
+        }
+      ],
+      "foils": [
+        {
+          "theme": "At the Supermarket",
+          "noun": "apple",
+          "vocabKey": "apple",
+          "word": "mela"
+        },
+        {
+          "theme": "camping",
+          "noun": "moon",
+          "vocabKey": "moon",
+          "word": "luna"
+        },
+        {
+          "theme": "beach",
+          "noun": "sun",
+          "vocabKey": "sun",
+          "word": "sole"
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "bread",
+          "vocabKey": "bread",
+          "word": "pane"
+        },
+        {
+          "theme": "spring",
+          "noun": "nest",
+          "vocabKey": "nest",
+          "word": "nido"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "frog",
+          "vocabKey": "frog",
+          "word": "rana"
+        },
+        {
+          "theme": "fruits",
+          "noun": "pear",
+          "vocabKey": "pear",
+          "word": "pera"
+        },
+        {
+          "theme": "pets",
+          "noun": "mouse",
+          "vocabKey": "mouse",
+          "word": "topo"
+        },
+        {
+          "theme": "body parts",
+          "noun": "nose",
+          "vocabKey": "nose",
+          "word": "naso"
+        },
+        {
+          "theme": "body parts",
+          "noun": "hand",
+          "vocabKey": "hand",
+          "word": "mano"
+        }
+      ],
+      "refuse": {},
+      "note": "i suoni gn e gli; glicine (hard gl, an exception) is kept out"
+    },
+    "sc-sch": {
+      "id": "sc-sch",
+      "head": "sce sci sche schi",
+      "chip": "sc sch",
+      "band": "G2",
+      "gap": {
+        "kind": "regex",
+        "re": "sch(?=[ei])|sc(?=[ei])",
+        "boxes": "wide"
+      },
+      "cands": [
+        "sc",
+        "sch"
+      ],
+      "pair": [
+        "sc",
+        "sch"
+      ],
+      "pairHead": "sc o sch",
+      "proof": null,
+      "models": [
+        {
+          "vocabKey": "fish",
+          "theme": "animals",
+          "noun": "fish",
+          "word": "pesce",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "sc"
+        },
+        {
+          "vocabKey": "mask",
+          "theme": "accessories",
+          "noun": "mask",
+          "word": "maschera",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "sch"
+        }
+      ],
+      "items": [
+        {
+          "theme": "zoo animals",
+          "noun": "monkey",
+          "vocabKey": "monkey",
+          "word": "scimmia",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "sc",
+          "side": "rule",
+          "plural": "scimmie",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "scarf",
+          "vocabKey": "scarf",
+          "word": "sciarpa",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "sc",
+          "side": "rule",
+          "plural": "sciarpe",
+          "pluralGap": null
+        },
+        {
+          "theme": "furniture",
+          "noun": "cushion",
+          "vocabKey": "cushion",
+          "word": "cuscino",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "sc",
+          "side": "rule",
+          "plural": "cuscini",
+          "pluralGap": null
+        },
+        {
+          "theme": "summer",
+          "noun": "pool",
+          "vocabKey": "pool",
+          "word": "piscina",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "sc",
+          "side": "rule",
+          "plural": "piscine",
+          "pluralGap": null
+        },
+        {
+          "theme": "toys",
+          "noun": "slide",
+          "vocabKey": "slide",
+          "word": "scivolo",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "sc",
+          "side": "rule",
+          "plural": "scivoli",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "ham",
+          "vocabKey": "ham",
+          "word": "prosciutto",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "sc",
+          "side": "rule",
+          "plural": "prosciutti",
+          "pluralGap": null
+        },
+        {
+          "theme": "winter",
+          "noun": "skiing",
+          "vocabKey": "skiing",
+          "word": "sciare",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "sc",
+          "side": "rule",
+          "plural": "sciare",
+          "pluralGap": null
+        },
+        {
+          "theme": "music",
+          "noun": "stage",
+          "vocabKey": "stage",
+          "word": "palcoscenico",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "sc",
+          "side": "rule",
+          "plural": "palcoscenici",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "skeleton",
+          "vocabKey": "skeleton",
+          "word": "scheletro",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 3
+            }
+          ],
+          "g": "sch",
+          "side": "contrast",
+          "plural": "scheletri",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "whistle",
+          "vocabKey": "whistle",
+          "word": "fischietto",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "sch",
+          "side": "contrast",
+          "plural": "fischietti",
+          "pluralGap": null
+        }
+      ],
+      "foils": [
+        {
+          "theme": "At the Supermarket",
+          "noun": "apple",
+          "vocabKey": "apple",
+          "word": "mela"
+        },
+        {
+          "theme": "camping",
+          "noun": "moon",
+          "vocabKey": "moon",
+          "word": "luna"
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "bread",
+          "vocabKey": "bread",
+          "word": "pane"
+        },
+        {
+          "theme": "spring",
+          "noun": "nest",
+          "vocabKey": "nest",
+          "word": "nido"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "frog",
+          "vocabKey": "frog",
+          "word": "rana"
+        },
+        {
+          "theme": "fruits",
+          "noun": "pear",
+          "vocabKey": "pear",
+          "word": "pera"
+        },
+        {
+          "theme": "pets",
+          "noun": "mouse",
+          "vocabKey": "mouse",
+          "word": "topo"
+        },
+        {
+          "theme": "body parts",
+          "noun": "nose",
+          "vocabKey": "nose",
+          "word": "naso"
+        },
+        {
+          "theme": "body parts",
+          "noun": "hand",
+          "vocabKey": "hand",
+          "word": "mano"
+        },
+        {
+          "theme": "animals",
+          "noun": "dog",
+          "vocabKey": "dog",
+          "word": "cane"
+        }
+      ],
+      "refuse": {
+        "choice": "the sche/schi contrast side has 3 pictured words (scheletro, fischietto, maschera) < the 6 the choice face needs",
+        "bins": "the sche/schi side has 3 pictured words < 6 per bin",
+        "detective": "7 words of <= 9 letters < the 8 cards (measured on the it pool)",
+        "anchor": "6 words of <= 8 letters < the 8 cards (measured on the it pool)"
+      },
+      "note": "sce/sci vs sche/schi; scienza (the scie exception) is kept out"
+    },
+    "mp-mb": {
+      "id": "mp-mb",
+      "head": "mp e mb",
+      "chip": "mp mb",
+      "band": "G2",
+      "gap": {
+        "kind": "regex",
+        "re": "mp|mb",
+        "boxes": "wide"
+      },
+      "cands": [
+        "mp",
+        "mb"
+      ],
+      "pair": [
+        "mp",
+        "mb"
+      ],
+      "pairHead": "mp o mb",
+      "proof": null,
+      "models": [
+        {
+          "vocabKey": "lamp",
+          "theme": "furniture",
+          "noun": "lamp",
+          "word": "lampada",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "mp"
+        },
+        {
+          "vocabKey": "drum",
+          "theme": "music",
+          "noun": "drum",
+          "word": "tamburo",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "mb"
+        }
+      ],
+      "items": [
+        {
+          "theme": "christmas",
+          "noun": "bell",
+          "vocabKey": "bell",
+          "word": "campana",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "mp",
+          "side": "rule",
+          "plural": "campane",
+          "pluralGap": null
+        },
+        {
+          "theme": "fruits",
+          "noun": "raspberry",
+          "vocabKey": "raspberry",
+          "word": "lampone",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "mp",
+          "side": "rule",
+          "plural": "lamponi",
+          "pluralGap": null
+        },
+        {
+          "theme": "hospital",
+          "noun": "crutches",
+          "vocabKey": "crutches",
+          "word": "stampelle",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "mp",
+          "side": "rule",
+          "plural": "stampelle",
+          "pluralGap": null
+        },
+        {
+          "theme": "fruits",
+          "noun": "grapefruit",
+          "vocabKey": "grapefruit",
+          "word": "pompelmo",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "mp",
+          "side": "rule",
+          "plural": "pompelmi",
+          "pluralGap": null
+        },
+        {
+          "theme": "weather",
+          "noun": "thunderstorm",
+          "vocabKey": "thunderstorm",
+          "word": "temporale",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "mp",
+          "side": "rule",
+          "plural": "temporali",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "camper",
+          "vocabKey": "camper",
+          "word": "camper",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "mp",
+          "side": "rule",
+          "plural": "camper",
+          "pluralGap": null
+        },
+        {
+          "theme": "music",
+          "noun": "trumpet",
+          "vocabKey": "trumpet",
+          "word": "tromba",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "mb",
+          "side": "contrast",
+          "plural": "trombe",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "leg",
+          "vocabKey": "leg",
+          "word": "gamba",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "mb",
+          "side": "contrast",
+          "plural": "gambe",
+          "pluralGap": null
+        },
+        {
+          "theme": "toys",
+          "noun": "doll",
+          "vocabKey": "doll",
+          "word": "bambola",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "mb",
+          "side": "contrast",
+          "plural": "bambole",
+          "pluralGap": null
+        },
+        {
+          "theme": "toys",
+          "noun": "baby",
+          "vocabKey": "baby",
+          "word": "bambino",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "mb",
+          "side": "contrast",
+          "plural": "bambini",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "donut",
+          "vocabKey": "donut",
+          "word": "ciambella",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "mb",
+          "side": "contrast",
+          "plural": "ciambelle",
+          "pluralGap": null
+        },
+        {
+          "theme": "birds 2",
+          "noun": "dove",
+          "vocabKey": "dove",
+          "word": "colomba",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "mb",
+          "side": "contrast",
+          "plural": "colombe",
+          "pluralGap": null
+        },
+        {
+          "theme": "ocean life",
+          "noun": "shrimp",
+          "vocabKey": "shrimp",
+          "word": "gambero",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "mb",
+          "side": "contrast",
+          "plural": "gamberi",
+          "pluralGap": null
+        },
+        {
+          "theme": "vehicles",
+          "noun": "ambulance",
+          "vocabKey": "ambulance",
+          "word": "ambulanza",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 2
+            }
+          ],
+          "g": "mb",
+          "side": "contrast",
+          "plural": "ambulanze",
+          "pluralGap": null
+        },
+        {
+          "theme": "music",
+          "noun": "trombone",
+          "vocabKey": "trombone",
+          "word": "trombone",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "mb",
+          "side": "contrast",
+          "plural": "tromboni",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "umbrella",
+          "vocabKey": "umbrella",
+          "word": "ombrello",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 2
+            }
+          ],
+          "g": "mb",
+          "side": "contrast",
+          "plural": "ombrelli",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "apron",
+          "vocabKey": "apron",
+          "word": "grembiule",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "mb",
+          "side": "contrast",
+          "plural": "grembiuli",
+          "pluralGap": null
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "earthworm",
+          "vocabKey": "earthworm",
+          "word": "lombrico",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "mb",
+          "side": "contrast",
+          "plural": "lombrichi",
+          "pluralGap": null
+        },
+        {
+          "theme": "shapes",
+          "noun": "diamond",
+          "vocabKey": "diamond",
+          "word": "rombo",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "mb",
+          "side": "contrast",
+          "plural": "rombi",
+          "pluralGap": null
+        }
+      ],
+      "foils": [
+        {
+          "theme": "At the Supermarket",
+          "noun": "apple",
+          "vocabKey": "apple",
+          "word": "mela"
+        },
+        {
+          "theme": "camping",
+          "noun": "moon",
+          "vocabKey": "moon",
+          "word": "luna"
+        },
+        {
+          "theme": "beach",
+          "noun": "sun",
+          "vocabKey": "sun",
+          "word": "sole"
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "bread",
+          "vocabKey": "bread",
+          "word": "pane"
+        },
+        {
+          "theme": "spring",
+          "noun": "nest",
+          "vocabKey": "nest",
+          "word": "nido"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "frog",
+          "vocabKey": "frog",
+          "word": "rana"
+        },
+        {
+          "theme": "fruits",
+          "noun": "pear",
+          "vocabKey": "pear",
+          "word": "pera"
+        },
+        {
+          "theme": "pets",
+          "noun": "mouse",
+          "vocabKey": "mouse",
+          "word": "topo"
+        },
+        {
+          "theme": "body parts",
+          "noun": "nose",
+          "vocabKey": "nose",
+          "word": "naso"
+        },
+        {
+          "theme": "animals",
+          "noun": "dog",
+          "vocabKey": "dog",
+          "word": "cane"
+        }
+      ],
+      "refuse": {},
+      "note": "m davanti a p e b: the child writes the mp/mb pair (never np/nb); computer, hamburger, scimpanzé kept out"
+    },
+    "chi-ghi": {
+      "id": "chi-ghi",
+      "head": "-chi, -ghi, -che, -ghe",
+      "chip": "chi ghi che ghe",
+      "band": "G2",
+      "gap": {
+        "kind": "plural",
+        "re": "(chi|ghi|che|ghe)$",
+        "stem": "[cg][oa]$",
+        "boxes": "wide"
+      },
+      "cands": [
+        "chi",
+        "ghi",
+        "che",
+        "ghe"
+      ],
+      "pair": null,
+      "proof": {
+        "kind": "plural",
+        "re": "(chi|ghi|che|ghe)$"
+      },
+      "models": [
+        {
+          "vocabKey": "fig",
+          "theme": "fruits",
+          "noun": "fig",
+          "word": "fico",
+          "plural": "fichi",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "chi"
+        },
+        {
+          "vocabKey": "lake",
+          "theme": "camping",
+          "noun": "lake",
+          "word": "lago",
+          "plural": "laghi",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "ghi"
+        }
+      ],
+      "items": [
+        {
+          "theme": "vegetables",
+          "noun": "mushroom",
+          "vocabKey": "mushroom",
+          "word": "fungo",
+          "plural": "funghi",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "ghi",
+          "side": "rule"
+        },
+        {
+          "theme": "beach",
+          "noun": "boat",
+          "vocabKey": "boat",
+          "word": "barca",
+          "plural": "barche",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "che",
+          "side": "rule"
+        },
+        {
+          "theme": "birds 2",
+          "noun": "goose",
+          "vocabKey": "goose",
+          "word": "oca",
+          "plural": "oche",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 3
+            }
+          ],
+          "g": "che",
+          "side": "rule"
+        },
+        {
+          "theme": "ocean life",
+          "noun": "seal",
+          "vocabKey": "seal",
+          "word": "foca",
+          "plural": "foche",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "che",
+          "side": "rule"
+        },
+        {
+          "theme": "insects and bugs",
+          "noun": "caterpillar",
+          "vocabKey": "caterpillar",
+          "word": "bruco",
+          "plural": "bruchi",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "chi",
+          "side": "rule"
+        },
+        {
+          "theme": "occupations",
+          "noun": "cook",
+          "vocabKey": "cook",
+          "word": "cuoco",
+          "plural": "cuochi",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "chi",
+          "side": "rule"
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "dragon",
+          "vocabKey": "dragon",
+          "word": "drago",
+          "plural": "draghi",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "ghi",
+          "side": "rule"
+        },
+        {
+          "theme": "birds 2",
+          "noun": "falcon",
+          "vocabKey": "falcon",
+          "word": "falco",
+          "plural": "falchi",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "chi",
+          "side": "rule"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "snail",
+          "vocabKey": "snail",
+          "word": "lumaca",
+          "plural": "lumache",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 3
+            }
+          ],
+          "g": "che",
+          "side": "rule"
+        },
+        {
+          "theme": "furniture",
+          "noun": "bench",
+          "vocabKey": "bench",
+          "word": "panca",
+          "plural": "panche",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "che",
+          "side": "rule"
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "pumpkin",
+          "vocabKey": "pumpkin",
+          "word": "zucca",
+          "plural": "zucche",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "che",
+          "side": "rule"
+        },
+        {
+          "theme": "christmas",
+          "noun": "sack",
+          "vocabKey": "sack",
+          "word": "sacco",
+          "plural": "sacchi",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "chi",
+          "side": "rule"
+        },
+        {
+          "theme": "post office",
+          "noun": "package",
+          "vocabKey": "package",
+          "word": "pacco",
+          "plural": "pacchi",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "chi",
+          "side": "rule"
+        },
+        {
+          "theme": "body parts",
+          "noun": "mouth",
+          "vocabKey": "mouth",
+          "word": "bocca",
+          "plural": "bocche",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "che",
+          "side": "rule"
+        },
+        {
+          "theme": "camping",
+          "noun": "hammock",
+          "vocabKey": "hammock",
+          "word": "amaca",
+          "plural": "amache",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "che",
+          "side": "rule"
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "jug",
+          "vocabKey": "jug",
+          "word": "brocca",
+          "plural": "brocche",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 3
+            }
+          ],
+          "g": "che",
+          "side": "rule"
+        },
+        {
+          "theme": "vegetables",
+          "noun": "lettuce",
+          "vocabKey": "lettuce",
+          "word": "lattuga",
+          "plural": "lattughe",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 3
+            }
+          ],
+          "g": "ghe",
+          "side": "rule"
+        },
+        {
+          "theme": "fruits",
+          "noun": "mango",
+          "vocabKey": "mango",
+          "word": "mango",
+          "plural": "manghi",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "ghi",
+          "side": "rule"
+        },
+        {
+          "theme": "ocean life",
+          "noun": "orca",
+          "vocabKey": "orca",
+          "word": "orca",
+          "plural": "orche",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "che",
+          "side": "rule"
+        },
+        {
+          "theme": "breakfast",
+          "noun": "juice",
+          "vocabKey": "juice",
+          "word": "succo",
+          "plural": "succhi",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "chi",
+          "side": "rule"
+        },
+        {
+          "theme": "hospital",
+          "noun": "syringe",
+          "vocabKey": "syringe",
+          "word": "siringa",
+          "plural": "siringhe",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 3
+            }
+          ],
+          "g": "ghe",
+          "side": "rule"
+        },
+        {
+          "theme": "farm animals",
+          "noun": "cow",
+          "vocabKey": "cow",
+          "word": "mucca",
+          "plural": "mucche",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "che",
+          "side": "rule"
+        },
+        {
+          "theme": "insects and bugs",
+          "noun": "ant",
+          "vocabKey": "ant",
+          "word": "formica",
+          "plural": "formiche",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 3
+            }
+          ],
+          "g": "che",
+          "side": "rule"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "earthworm",
+          "vocabKey": "earthworm",
+          "word": "lombrico",
+          "plural": "lombrichi",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 3
+            }
+          ],
+          "g": "chi",
+          "side": "rule"
+        },
+        {
+          "theme": "fruits",
+          "noun": "coconut",
+          "vocabKey": "coconut",
+          "word": "cocco",
+          "plural": "cocchi",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "chi",
+          "side": "rule"
+        },
+        {
+          "theme": "clothing",
+          "noun": "jacket",
+          "vocabKey": "jacket",
+          "word": "giacca",
+          "plural": "giacche",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 3
+            }
+          ],
+          "g": "che",
+          "side": "rule"
+        },
+        {
+          "theme": "winter",
+          "noun": "walrus",
+          "vocabKey": "walrus",
+          "word": "tricheco",
+          "plural": "trichechi",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 3
+            }
+          ],
+          "g": "chi",
+          "side": "rule"
+        }
+      ],
+      "foils": [
+        {
+          "theme": "At the Supermarket",
+          "noun": "apple",
+          "vocabKey": "apple",
+          "word": "mela"
+        },
+        {
+          "theme": "camping",
+          "noun": "moon",
+          "vocabKey": "moon",
+          "word": "luna"
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "bread",
+          "vocabKey": "bread",
+          "word": "pane"
+        },
+        {
+          "theme": "spring",
+          "noun": "nest",
+          "vocabKey": "nest",
+          "word": "nido"
+        }
+      ],
+      "refuse": {
+        "base": "una regola del plurale: il singolare non contiene le lettere della regola",
+        "choice": "regola del plurale",
+        "detective": "regola del plurale",
+        "bins": "regola del plurale",
+        "anchor": "regola del plurale"
+      },
+      "note": "Face 6 only: nomi in -co/-go/-ca/-ga whose plural keeps the hard sound with an h (fico-fichi, lago-laghi, barca-barche); the -ci plurals (amico-amici, meccanico-meccanici) do not match the regex and are not on the page"
+    }
+  },
+  "strings": {
+    "G2-315": {
+      "title": "Regole di ortografia: {UNIT}",
+      "instruction": "Leggi la regola nel riquadro. Guarda ogni disegno, di' la parola e scrivi le lettere che mancano nella casella tratteggiata."
+    },
+    "G2-324": {
+      "title": "Scegli le lettere giuste: {UNIT}",
+      "instruction": "Guarda il disegno e leggi la parola. Cerchia le lettere giuste sotto la parola e scrivile nella casella tratteggiata."
+    },
+    "G2-325": {
+      "title": "Detective dell'ortografia: {UNIT}",
+      "instruction": "Leggi ogni parola. Trova le lettere della regola, cerchiale nella parola e poi copiale nella casella piccola."
+    },
+    "G2-326": {
+      "title": "Classifica le parole: {UNIT}",
+      "instruction": "Di' il nome di ogni disegno. Scrivi la parola nella colonna giusta, una parola per ogni riga."
+    },
+    "G2-327": {
+      "title": "Scrivi la parola intera: {UNIT}",
+      "instruction": "Le lettere della regola sono già scritte in arancione. Di' il nome del disegno e scrivi tutte le altre lettere nelle caselle."
+    },
+    "G2-328": {
+      "title": "Il plurale dei nomi: {UNIT}",
+      "instruction": "Leggi la parola al singolare. Scrivi il plurale nelle caselle: attento, il plurale cambia la scrittura!"
+    }
+  }
+}

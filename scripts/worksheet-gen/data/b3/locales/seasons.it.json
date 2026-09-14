@@ -1,0 +1,85 @@
+{
+  "names": {
+    "winter": "inverno",
+    "spring": "primavera",
+    "summer": "estate",
+    "autumn": "autunno"
+  },
+  "alt": {
+    "autumn": null
+  },
+  "model": "temperate-north",
+  "cycleStart": "spring",
+  "cycle": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+  ],
+  "monthSeason": [
+    "winter",
+    "winter",
+    "spring",
+    "spring",
+    "spring",
+    "summer",
+    "summer",
+    "summer",
+    "autumn",
+    "autumn",
+    "autumn",
+    "winter"
+  ],
+  "veto": [
+    {
+      "theme": "thanksgivinng",
+      "noun": "scarecrow",
+      "reason": "lo spaventapasseri è un simbolo del raccolto americano, non un segno dell'autunno nella scuola italiana"
+    },
+    {
+      "theme": "thanksgivinng",
+      "noun": "harvest",
+      "reason": "il covone di grano: in Italia il grano si miete d'estate (giugno-luglio), un bambino lo metterebbe nell'estate, non nell'autunno"
+    }
+  ],
+  "override": {},
+  "legend": {
+    "winter": "codeBlue",
+    "spring": "codeGreen",
+    "summer": "codeYellow",
+    "autumn": "codeOrange"
+  },
+  "faces": {
+    "tree": {
+      "figure": "tree",
+      "captions": null
+    }
+  },
+  "strings": {
+    "K-322": {
+      "title": "Le quattro stagioni: ordina i disegni",
+      "instruction": "Collega con una linea il puntino di ogni disegno alla scatola della sua stagione."
+    },
+    "K-338": {
+      "title": "Che stagione è?",
+      "instruction": "Guarda i tre disegni di ogni carta e cerchia il simbolo della stagione a cui appartengono."
+    },
+    "K-339": {
+      "title": "La ruota delle stagioni in ordine",
+      "instruction": "Una stagione è già sulla ruota. Disegna gli altri tre simboli nei cerchi vuoti nell'ordine giusto."
+    },
+    "K-340": {
+      "title": "Le stagioni: qual è l'intruso?",
+      "instruction": "Fai una croce sull'unico disegno di ogni fila che appartiene a un'altra stagione."
+    },
+    "G1-323": {
+      "title": "Mesi e stagioni: colora la stagione",
+      "instruction": "Colora il cerchio accanto a ogni mese con il colore della sua stagione."
+    },
+    "K-341": {
+      "title": "Disegna l'albero nelle quattro stagioni",
+      "instruction": "Disegna com'è l'albero in ognuna delle quattro stagioni."
+    }
+  },
+  "strand": "Scienze: il tempo e le stagioni"
+}

@@ -1,0 +1,108 @@
+{
+  "cardCase": "lower",
+  "articleStyle": {
+    "enabled": true,
+    "level": 3,
+    "dots": null,
+    "elision": "refuse",
+    "elisionChip": null,
+    "legend": null
+  },
+  "plural": {
+    "enabled": true,
+    "clones": 3
+  },
+  "bilingual": {
+    "partnerExemplar": "en",
+    "hostName": "italiano",
+    "partnerNames": {
+      "en": "inglese",
+      "de": "tedesco",
+      "es": "spagnolo",
+      "pt": "portoghese",
+      "fr": "francese",
+      "nl": "olandese",
+      "sv": "svedese",
+      "da": "danese",
+      "no": "norvegese",
+      "fi": "finlandese"
+    },
+    "legendSep": " · "
+  },
+  "syllable": {
+    "enabled": true,
+    "mark": "arc",
+    "hyphen": "-",
+    "strictPool": false,
+    "exclude": [
+      "triangle",
+      "statue",
+      "photography",
+      "x-ray",
+      "bookcase",
+      "bookshelf",
+      "desk",
+      "skiing",
+      "plum",
+      "garage"
+    ]
+  },
+  "twinLayout": {
+    "cols": 4,
+    "blockRows": 2
+  },
+  "exclude": [
+    "scooter",
+    "hamburger",
+    "hockey",
+    "hot-dog",
+    "hotel",
+    "halloween",
+    "finger",
+    "lip",
+    "ear",
+    "girl",
+    "underpants",
+    "bulldozer",
+    "jet",
+    "jeep",
+    "skateboard",
+    "yacht",
+    "lego",
+    "robot",
+    "cardigan",
+    "leggings",
+    "jeans",
+    "lime",
+    "persimmon",
+    "plum",
+    "us",
+    "rudolph"
+  ],
+  "strings": {
+    "K-324": {
+      "title": "Carte illustrate con la parola",
+      "instruction": "Ritaglia lungo le linee tratteggiate per fare le carte. Di' il nome di ogni disegno, poi leggi la sua parola."
+    },
+    "twin": {
+      "title": "Carte delle figure e carte delle parole: le coppie",
+      "instruction": "Ritaglia le sedici carte. Metti ogni parola accanto alla sua figura, oppure girale tutte e gioca a memory."
+    },
+    "article": {
+      "title": "Il, lo, la o l'? Carte con l'articolo",
+      "instruction": "Ritaglia le otto carte. Di' ogni parola con il suo articolo, proprio come è scritta sulla carta."
+    },
+    "plural": {
+      "title": "Uno e tanti: carte del singolare e del plurale",
+      "instruction": "Ritaglia le carte. Di' la parola per uno e la parola per tanti, poi unisci ogni coppia."
+    },
+    "bilingual": {
+      "title": "Carte bilingui: italiano e inglese",
+      "instruction": "Ritaglia le otto carte. Di' la parola in italiano e poi in inglese, e conserva le carte per il tuo muro delle parole."
+    },
+    "syllable": {
+      "title": "Carte delle sillabe: leggi la parola a pezzi",
+      "instruction": "Ritaglia le otto carte. Leggi ogni parola una sillaba alla volta, poi dilla tutta intera."
+    }
+  }
+}

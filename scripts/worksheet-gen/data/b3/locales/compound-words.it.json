@@ -1,0 +1,1398 @@
+{
+  "shape": "alterati",
+  "casing": "lower",
+  "links": [
+    ""
+  ],
+  "linkBoxW": 36,
+  "exemplar": "A",
+  "units": [
+    {
+      "id": "A",
+      "items": [
+        {
+          "a": {
+            "vocabKey": "cat",
+            "word": "gatto"
+          },
+          "aStem": "gatt",
+          "link": "",
+          "b": {
+            "affix": "-ino"
+          },
+          "whole": {
+            "word": "gattino",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "house",
+            "word": "casa"
+          },
+          "aStem": "cas",
+          "link": "",
+          "b": {
+            "affix": "-etta"
+          },
+          "whole": {
+            "word": "casetta",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "book",
+            "word": "libro"
+          },
+          "aStem": "libr",
+          "link": "",
+          "b": {
+            "affix": "-one"
+          },
+          "whole": {
+            "word": "librone",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "ball",
+            "word": "palla"
+          },
+          "aStem": "pall",
+          "link": "",
+          "b": {
+            "affix": "-ina"
+          },
+          "whole": {
+            "word": "pallina",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "shoe",
+            "word": "scarpa"
+          },
+          "aStem": "scarp",
+          "link": "",
+          "b": {
+            "affix": "-one"
+          },
+          "whole": {
+            "word": "scarpone",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "nose",
+            "word": "naso"
+          },
+          "aStem": "nas",
+          "link": "",
+          "b": {
+            "affix": "-ino"
+          },
+          "whole": {
+            "word": "nasino",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "table",
+            "word": "tavolo"
+          },
+          "aStem": "tavol",
+          "link": "",
+          "b": {
+            "affix": "-ino"
+          },
+          "whole": {
+            "word": "tavolino",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "hat",
+            "word": "cappello",
+            "pic": {
+              "theme": "accessories",
+              "noun": "hat"
+            }
+          },
+          "aStem": "cappell",
+          "link": "",
+          "b": {
+            "affix": "-ino"
+          },
+          "whole": {
+            "word": "cappellino",
+            "vocabKey": "cap",
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "rabbit",
+            "word": "coniglio"
+          },
+          "aStem": "conigli",
+          "link": "",
+          "b": {
+            "affix": "-etto"
+          },
+          "whole": {
+            "word": "coniglietto",
+            "vocabKey": "bunny",
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "ice",
+            "word": "ghiaccio"
+          },
+          "aStem": "ghiacci",
+          "link": "",
+          "b": {
+            "affix": "-olo"
+          },
+          "whole": {
+            "word": "ghiacciolo",
+            "vocabKey": "popsicle",
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "bear",
+            "word": "orso",
+            "pic": {
+              "theme": "camping",
+              "noun": "bear"
+            }
+          },
+          "aStem": "ors",
+          "link": "",
+          "b": {
+            "affix": "-etto"
+          },
+          "whole": {
+            "word": "orsetto",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "bed",
+            "word": "letto"
+          },
+          "aStem": "lett",
+          "link": "",
+          "b": {
+            "affix": "-ino"
+          },
+          "whole": {
+            "word": "lettino",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "backpack",
+            "word": "zaino"
+          },
+          "aStem": "zain",
+          "link": "",
+          "b": {
+            "affix": "-etto"
+          },
+          "whole": {
+            "word": "zainetto",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "hand",
+            "word": "mano"
+          },
+          "aStem": "man",
+          "link": "",
+          "b": {
+            "affix": "-ina"
+          },
+          "whole": {
+            "word": "manina",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "umbrella",
+            "word": "ombrello",
+            "pic": {
+              "theme": "accessories",
+              "noun": "umbrella"
+            }
+          },
+          "aStem": "ombrell",
+          "link": "",
+          "b": {
+            "affix": "-one"
+          },
+          "whole": {
+            "word": "ombrellone",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "cake",
+            "word": "torta"
+          },
+          "aStem": "tort",
+          "link": "",
+          "b": {
+            "affix": "-ina"
+          },
+          "whole": {
+            "word": "tortina",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "items": [
+        {
+          "a": {
+            "vocabKey": "foot",
+            "word": "piede"
+          },
+          "aStem": "pied",
+          "link": "",
+          "b": {
+            "affix": "-ino"
+          },
+          "whole": {
+            "word": "piedino",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "cup",
+            "word": "tazza"
+          },
+          "aStem": "tazz",
+          "link": "",
+          "b": {
+            "affix": "-ina"
+          },
+          "whole": {
+            "word": "tazzina",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "handbag",
+            "word": "borsa"
+          },
+          "aStem": "bors",
+          "link": "",
+          "b": {
+            "affix": "-etta"
+          },
+          "whole": {
+            "word": "borsetta",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "bread",
+            "word": "pane",
+            "pic": {
+              "theme": "At the Supermarket",
+              "noun": "bread"
+            }
+          },
+          "aStem": "pan",
+          "link": "",
+          "b": {
+            "affix": "-ino"
+          },
+          "whole": {
+            "word": "panino",
+            "vocabKey": "bun",
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "pot",
+            "word": "pentola"
+          },
+          "aStem": "pentol",
+          "link": "",
+          "b": {
+            "affix": "-ino"
+          },
+          "whole": {
+            "word": "pentolino",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "donkey",
+            "word": "asino"
+          },
+          "aStem": "asin",
+          "link": "",
+          "b": {
+            "affix": "-ello"
+          },
+          "whole": {
+            "word": "asinello",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "spider",
+            "word": "ragno"
+          },
+          "aStem": "ragn",
+          "link": "",
+          "b": {
+            "affix": "-etto"
+          },
+          "whole": {
+            "word": "ragnetto",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "horse",
+            "word": "cavallo"
+          },
+          "aStem": "cavall",
+          "link": "",
+          "b": {
+            "affix": "-ino"
+          },
+          "whole": {
+            "word": "cavallino",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "sheep",
+            "word": "pecora"
+          },
+          "aStem": "pecor",
+          "link": "",
+          "b": {
+            "affix": "-ella"
+          },
+          "whole": {
+            "word": "pecorella",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "star",
+            "word": "stella",
+            "pic": {
+              "theme": "christmas",
+              "noun": "star"
+            }
+          },
+          "aStem": "stell",
+          "link": "",
+          "b": {
+            "affix": "-ina"
+          },
+          "whole": {
+            "word": "stellina",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "cloud",
+            "word": "nuvola"
+          },
+          "aStem": "nuvol",
+          "link": "",
+          "b": {
+            "affix": "-etta"
+          },
+          "whole": {
+            "word": "nuvoletta",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "vase",
+            "word": "vaso"
+          },
+          "aStem": "vas",
+          "link": "",
+          "b": {
+            "affix": "-etto"
+          },
+          "whole": {
+            "word": "vasetto",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        }
+      ]
+    }
+  ],
+  "opaque": [],
+  "onePart": [
+    {
+      "a": {
+        "vocabKey": "flower",
+        "word": "fiore",
+        "pic": {
+          "theme": "spring",
+          "noun": "flower"
+        }
+      },
+      "aStem": "fior",
+      "link": "",
+      "b": {
+        "affix": "-ista"
+      },
+      "whole": {
+        "word": "fiorista",
+        "vocabKey": "florist",
+        "scale": 1
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "garden",
+        "word": "giardino"
+      },
+      "aStem": "giardin",
+      "link": "",
+      "b": {
+        "affix": "-iere"
+      },
+      "whole": {
+        "word": "giardiniere",
+        "vocabKey": "gardener",
+        "scale": 1
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "book",
+        "word": "libro"
+      },
+      "aStem": "libr",
+      "link": "",
+      "b": {
+        "affix": "-eria"
+      },
+      "whole": {
+        "word": "libreria",
+        "vocabKey": "bookcase",
+        "scale": 1
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "lemon",
+        "word": "limone",
+        "pic": {
+          "theme": "fruits",
+          "noun": "lemon"
+        }
+      },
+      "aStem": "limon",
+      "link": "",
+      "b": {
+        "affix": "-ata"
+      },
+      "whole": {
+        "word": "limonata",
+        "vocabKey": "lemonade",
+        "scale": 1
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "sewing",
+        "word": "cucire"
+      },
+      "aStem": "cuci",
+      "link": "",
+      "b": {
+        "affix": "-trice"
+      },
+      "whole": {
+        "word": "cucitrice",
+        "vocabKey": "stapler",
+        "scale": 1
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "singing",
+        "word": "cantare"
+      },
+      "aStem": "cant",
+      "link": "",
+      "b": {
+        "affix": "-ante"
+      },
+      "whole": {
+        "word": "cantante",
+        "vocabKey": "singer",
+        "scale": 1
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "neck",
+        "word": "collo"
+      },
+      "aStem": "coll",
+      "link": "",
+      "b": {
+        "affix": "-ana"
+      },
+      "whole": {
+        "word": "collana",
+        "vocabKey": "necklace",
+        "scale": 1
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    }
+  ],
+  "hubs": [],
+  "foils": [
+    {
+      "vocabKey": "turkey",
+      "word": "tacchino",
+      "looksLike": [
+        "tacch",
+        "ino"
+      ]
+    },
+    {
+      "vocabKey": "chick",
+      "word": "pulcino",
+      "looksLike": [
+        "pulc",
+        "ino"
+      ]
+    },
+    {
+      "vocabKey": "kite",
+      "word": "aquilone",
+      "looksLike": [
+        "aquil",
+        "one"
+      ]
+    },
+    {
+      "vocabKey": "ladybug",
+      "word": "coccinella",
+      "looksLike": [
+        "coccin",
+        "ella"
+      ]
+    },
+    {
+      "vocabKey": "grasshopper",
+      "word": "cavalletta",
+      "looksLike": [
+        "cavall",
+        "etta"
+      ]
+    },
+    {
+      "vocabKey": "tissue",
+      "word": "fazzoletto",
+      "looksLike": [
+        "fazzol",
+        "etto"
+      ]
+    },
+    {
+      "vocabKey": "faucet",
+      "word": "rubinetto",
+      "looksLike": [
+        "rubin",
+        "etto"
+      ]
+    },
+    {
+      "vocabKey": "raspberry",
+      "word": "lampone",
+      "looksLike": [
+        "lamp",
+        "one"
+      ]
+    },
+    {
+      "vocabKey": "melon",
+      "word": "melone",
+      "looksLike": [
+        "mel",
+        "one"
+      ]
+    },
+    {
+      "vocabKey": "pigeon",
+      "word": "piccione",
+      "looksLike": [
+        "picci",
+        "one"
+      ]
+    },
+    {
+      "vocabKey": "van",
+      "word": "furgone",
+      "looksLike": [
+        "furg",
+        "one"
+      ]
+    },
+    {
+      "vocabKey": "bolt",
+      "word": "bullone",
+      "looksLike": [
+        "bull",
+        "one"
+      ]
+    },
+    {
+      "vocabKey": "hen",
+      "word": "gallina",
+      "looksLike": [
+        "gall",
+        "ina"
+      ]
+    },
+    {
+      "vocabKey": "baby",
+      "word": "bambino",
+      "looksLike": [
+        "bamb",
+        "ino"
+      ]
+    },
+    {
+      "vocabKey": "fireplace",
+      "word": "camino",
+      "looksLike": [
+        "cam",
+        "ino"
+      ]
+    }
+  ],
+  "sizePairs": [
+    {
+      "base": {
+        "vocabKey": "cat",
+        "word": "gatto"
+      },
+      "small": "gattino",
+      "big": "gattone"
+    },
+    {
+      "base": {
+        "vocabKey": "house",
+        "word": "casa"
+      },
+      "small": "casetta",
+      "big": "casona"
+    },
+    {
+      "base": {
+        "vocabKey": "book",
+        "word": "libro"
+      },
+      "small": "libretto",
+      "big": "librone"
+    },
+    {
+      "base": {
+        "vocabKey": "ball",
+        "word": "palla"
+      },
+      "small": "pallina",
+      "big": "pallone"
+    },
+    {
+      "base": {
+        "vocabKey": "shoe",
+        "word": "scarpa"
+      },
+      "small": "scarpetta",
+      "big": "scarpone"
+    },
+    {
+      "base": {
+        "vocabKey": "nose",
+        "word": "naso"
+      },
+      "small": "nasino",
+      "big": "nasone"
+    },
+    {
+      "base": {
+        "vocabKey": "table",
+        "word": "tavolo"
+      },
+      "small": "tavolino",
+      "big": "tavolone"
+    },
+    {
+      "base": {
+        "vocabKey": "hat",
+        "word": "cappello",
+        "pic": {
+          "theme": "accessories",
+          "noun": "hat"
+        }
+      },
+      "small": "cappellino",
+      "big": "cappellone"
+    },
+    {
+      "base": {
+        "vocabKey": "umbrella",
+        "word": "ombrello",
+        "pic": {
+          "theme": "accessories",
+          "noun": "umbrella"
+        }
+      },
+      "small": "ombrellino",
+      "big": "ombrellone"
+    },
+    {
+      "base": {
+        "vocabKey": "bed",
+        "word": "letto"
+      },
+      "small": "lettino",
+      "big": "lettone"
+    },
+    {
+      "base": {
+        "vocabKey": "bear",
+        "word": "orso",
+        "pic": {
+          "theme": "camping",
+          "noun": "bear"
+        }
+      },
+      "small": "orsetto",
+      "big": "orsone"
+    },
+    {
+      "base": {
+        "vocabKey": "pot",
+        "word": "pentola"
+      },
+      "small": "pentolino",
+      "big": "pentolone"
+    },
+    {
+      "base": {
+        "vocabKey": "backpack",
+        "word": "zaino"
+      },
+      "small": "zainetto",
+      "big": "zainone"
+    },
+    {
+      "base": {
+        "vocabKey": "hand",
+        "word": "mano"
+      },
+      "small": "manina",
+      "big": "manona"
+    },
+    {
+      "base": {
+        "vocabKey": "foot",
+        "word": "piede"
+      },
+      "small": "piedino",
+      "big": "piedone"
+    },
+    {
+      "base": {
+        "vocabKey": "cup",
+        "word": "tazza"
+      },
+      "small": "tazzina",
+      "big": "tazzona"
+    },
+    {
+      "base": {
+        "vocabKey": "cake",
+        "word": "torta"
+      },
+      "small": "tortina",
+      "big": "tortona"
+    },
+    {
+      "base": {
+        "vocabKey": "handbag",
+        "word": "borsa"
+      },
+      "small": "borsetta",
+      "big": "borsona"
+    }
+  ],
+  "crossWords": [],
+  "refuse": {
+    "F1": true,
+    "F3": true,
+    "F5": false
+  },
+  "opened": {
+    "animals/cat": [
+      "cat"
+    ],
+    "farm animals/cat": [
+      "cat"
+    ],
+    "pets/cat": [
+      "cat"
+    ],
+    "miscellaneous/house": [
+      "house"
+    ],
+    "classroom/book": [
+      "book"
+    ],
+    "toys/ball": [
+      "ball"
+    ],
+    "clothing/shoe": [
+      "shoe"
+    ],
+    "body parts/nose": [
+      "nose"
+    ],
+    "around the house/table": [
+      "table"
+    ],
+    "classroom/table": [
+      "table"
+    ],
+    "furniture/table": [
+      "table"
+    ],
+    "accessories/hat": [
+      "hat"
+    ],
+    "beach/hat": [
+      "hat"
+    ],
+    "camping/hat": [
+      "hat"
+    ],
+    "clothing/hat": [
+      "hat"
+    ],
+    "winter/hat": [],
+    "animals/rabbit": [
+      "rabbit"
+    ],
+    "camping/rabbit": [
+      "rabbit"
+    ],
+    "farm animals/rabbit": [
+      "rabbit"
+    ],
+    "forest creatures/rabbit": [
+      "rabbit"
+    ],
+    "pets/rabbit": [
+      "rabbit"
+    ],
+    "easter/bunny": [
+      "bunny"
+    ],
+    "spring/bunny": [
+      "bunny"
+    ],
+    "accessories/cap": [
+      "cap"
+    ],
+    "clothing/cap": [
+      "cap"
+    ],
+    "summer/cap": [
+      "cap"
+    ],
+    "winter/ice": [
+      "ice"
+    ],
+    "desserts and sweets/popsicle": [
+      "popsicle"
+    ],
+    "summer/popsicle": [
+      "popsicle"
+    ],
+    "At the Supermarket/bread": [
+      "bread"
+    ],
+    "thanksgivinng/bread": [
+      "bread"
+    ],
+    "bakery/bun": [
+      "bun"
+    ],
+    "accessories/umbrella": [
+      "umbrella"
+    ],
+    "spring/umbrella": [
+      "umbrella"
+    ],
+    "summer/umbrella": [
+      "umbrella"
+    ],
+    "weather/umbrella": [
+      "umbrella"
+    ],
+    "beach/umbrella": [],
+    "camping/bear": [
+      "bear"
+    ],
+    "forest creatures/bear": [
+      "bear"
+    ],
+    "zoo animals/bear": [],
+    "around the house/bed": [
+      "bed"
+    ],
+    "furniture/bed": [
+      "bed"
+    ],
+    "hospital/bed": [
+      "bed"
+    ],
+    "accessories/backpack": [
+      "backpack"
+    ],
+    "camping/backpack": [
+      "backpack"
+    ],
+    "classroom/backpack": [
+      "backpack"
+    ],
+    "4th of July/cake": [
+      "cake"
+    ],
+    "At the Supermarket/cake": [
+      "cake"
+    ],
+    "bakery/cake": [
+      "cake"
+    ],
+    "desserts and sweets/cake": [
+      "cake"
+    ],
+    "body parts/hand": [
+      "hand"
+    ],
+    "body parts/foot": [
+      "foot"
+    ],
+    "spring/flower": [
+      "flower"
+    ],
+    "summer/flower": [
+      "flower"
+    ],
+    "easter/flower": [],
+    "occupations/florist": [
+      "florist"
+    ],
+    "spring/garden": [
+      "garden"
+    ],
+    "occupations/gardener": [
+      "gardener"
+    ],
+    "furniture/bookcase": [
+      "bookcase"
+    ],
+    "around the house/bookshelf": [
+      "bookshelf"
+    ],
+    "At the Supermarket/lemon": [
+      "lemon"
+    ],
+    "fruits/lemon": [
+      "lemon"
+    ],
+    "tree/lemon": [],
+    "4th of July/lemonade": [
+      "lemonade"
+    ],
+    "summer/lemonade": [
+      "lemonade"
+    ],
+    "activities/sewing": [
+      "sewing"
+    ],
+    "classroom/stapler": [
+      "stapler"
+    ],
+    "activities/singing": [
+      "singing"
+    ],
+    "music/singer": [
+      "singer"
+    ],
+    "occupations/singer": [
+      "singer"
+    ],
+    "body parts/neck": [
+      "neck"
+    ],
+    "accessories/necklace": [
+      "necklace"
+    ],
+    "birds 2/turkey": [
+      "turkey"
+    ],
+    "farm animals/turkey": [
+      "turkey"
+    ],
+    "forest creatures/turkey": [
+      "turkey"
+    ],
+    "thanksgivinng/turkey": [
+      "turkey"
+    ],
+    "easter/chick": [
+      "chick"
+    ],
+    "farm animals/chick": [
+      "chick"
+    ],
+    "spring/chick": [
+      "chick"
+    ],
+    "Things That Fly/kite": [
+      "kite"
+    ],
+    "beach/kite": [
+      "kite"
+    ],
+    "spring/kite": [
+      "kite"
+    ],
+    "summer/kite": [
+      "kite"
+    ],
+    "toys/kite": [
+      "kite"
+    ],
+    "Things That Fly/ladybug": [
+      "ladybug"
+    ],
+    "forest creatures/ladybug": [
+      "ladybug"
+    ],
+    "insects and bugs/ladybug": [
+      "ladybug"
+    ],
+    "summer/ladybug": [
+      "ladybug"
+    ],
+    "Things That Fly/grasshopper": [
+      "grasshopper"
+    ],
+    "forest creatures/grasshopper": [
+      "grasshopper"
+    ],
+    "hospital/tissue": [
+      "tissue"
+    ],
+    "around the house/faucet": [
+      "faucet"
+    ],
+    "At the Supermarket/raspberry": [
+      "raspberry"
+    ],
+    "breakfast/raspberry": [
+      "raspberry"
+    ],
+    "fruits/raspberry": [
+      "raspberry"
+    ],
+    "At the Supermarket/melon": [
+      "melon"
+    ],
+    "breakfast/melon": [
+      "melon"
+    ],
+    "Things That Fly/pigeon": [
+      "pigeon"
+    ],
+    "birds 2/pigeon": [
+      "pigeon"
+    ],
+    "vehicles/van": [
+      "van"
+    ],
+    "tools/bolt": [
+      "bolt"
+    ],
+    "birds 2/hen": [
+      "hen"
+    ],
+    "farm animals/hen": [
+      "hen"
+    ],
+    "toys/baby": [
+      "baby"
+    ],
+    "around the house/fireplace": [
+      "fireplace"
+    ],
+    "winter/fireplace": [
+      "fireplace"
+    ],
+    "around the house/pot": [
+      "pot"
+    ],
+    "kitchen tools/pot": [
+      "pot"
+    ],
+    "around the house/cup": [
+      "cup"
+    ],
+    "kitchen tools/cup": [
+      "cup"
+    ],
+    "accessories/handbag": [
+      "handbag"
+    ],
+    "animals/donkey": [
+      "donkey"
+    ],
+    "farm animals/donkey": [
+      "donkey"
+    ],
+    "forest creatures/spider": [
+      "spider"
+    ],
+    "miscellaneous/spider": [
+      "spider"
+    ],
+    "insects and bugs/spider": [
+      "spider"
+    ],
+    "animals/horse": [
+      "horse"
+    ],
+    "farm animals/horse": [
+      "horse"
+    ],
+    "animals/sheep": [
+      "sheep"
+    ],
+    "farm animals/sheep": [
+      "sheep"
+    ],
+    "christmas/star": [
+      "star"
+    ],
+    "shapes/star": [],
+    "beach/cloud": [
+      "cloud"
+    ],
+    "weather/cloud": [
+      "cloud"
+    ],
+    "spring/cloud": [
+      "cloud"
+    ],
+    "around the house/vase": [
+      "vase"
+    ]
+  },
+  "strings": {
+    "G2-316": {
+      "title": "Nomi alterati: parola base + suffisso",
+      "instruction": "Guarda il disegno e leggi il suffisso. Unisci la parola base al suffisso e scrivi sulla riga il nome alterato."
+    },
+    "G2-329": {
+      "title": "La lettera in mezzo: unisci le due parti",
+      "instruction": "Leggi le due parti. Scrivi nella casella la lettera che le unisce, oppure lasciala vuota, poi scrivi la parola intera."
+    },
+    "G2-330": {
+      "title": "Trova la parola base: dividi alterati e derivati",
+      "instruction": "Leggi la parola. Traccia una riga dove finisce la parola base e comincia il suffisso."
+    },
+    "G2-331": {
+      "title": "Unisci le due metà della parola",
+      "instruction": "Collega ogni disegno di sinistra al disegno di destra che completa la parola, poi scrivila sulla riga."
+    },
+    "G2-332": {
+      "title": "Derivati e alterati: scopri i falsi alterati",
+      "instruction": "Cerchia le parole fatte da una parola base più un suffisso e scrivi le due parti. Attenzione: alcune sembrano alterate ma non lo sono!"
+    },
+    "G2-333": {
+      "title": "Grande o piccolo? Scrivi il nome alterato",
+      "instruction": "Guarda quanto è grande il disegno. Se è piccolo scrivi il nome con -ino/-ina o -etto/-etta, se è grande con -one."
+    }
+  }
+}

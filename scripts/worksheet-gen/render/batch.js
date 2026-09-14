@@ -42,7 +42,7 @@ async function runBatch(jobs, opts) {
       try {
         const out = await renderInstance({
           type, theme: job.theme, difficulty: job.difficulty, locale: job.locale,
-          page, outDir, baseName, strings: job.strings, seedEpoch: job.seedEpoch,
+          page, outDir, baseName, strings: job.strings, seedEpoch: job.seedEpoch, unit: job.unit || null,
         });
         const fails = [...out.qa.lints, ...out.qa.verify];
         results.push({ job, baseName, ok: fails.length === 0, fails, pngPath: out.pngPath });

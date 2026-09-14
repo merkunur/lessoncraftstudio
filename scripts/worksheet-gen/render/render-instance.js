@@ -8,6 +8,7 @@ const fs = require('fs');
 const { buildPage } = require('../page/shell.js');
 const { makeRng, instanceSeed } = require('../lib/rng.js');
 const { runLints } = require('../qa/lints.js');
+const { resolveUnitTokens } = require('../lib/unit-axis.js');
 
 /**
  * @param {object} o { type, theme, difficulty, locale, variant, pageSize, outDir, baseName, page (puppeteer Page) }
@@ -16,10 +17,13 @@ const { runLints } = require('../qa/lints.js');
 async function renderInstance(o) {
   const { type, theme, difficulty, locale, page } = o;
   const pageSize = o.pageSize || (locale === 'en' ? 'letter' : 'a4');
-  const rng = makeRng(instanceSeed({ typeId: type.id, theme, difficulty, seedEpoch: o.seedEpoch || 1, variant: o.variant }));
+  const unit = o.unit || null;
+  const rng = makeRng(instanceSeed({ typeId: type.id, theme, difficulty, seedEpoch: o.seedEpoch || 1, variant: o.variant, unit }));
 
-  const strings = (o.strings) || (type.i18n && type.i18n[locale]) || type.i18n.en;
-  const built = await type.build({ theme, difficulty, locale }, { rng });
+  // unit axis: {U}/{L}/{UNIT} resolve HERE (the sheet prints strings.title) —
+  // the same object comes back for every type without the axis.
+  const strings = resolveUnitTokens((o.strings) || (type.i18n && type.i18n[locale]) || type.i18n.en, type, unit, locale);
+  const built = await type.build({ theme, difficulty, locale, unit }, { rng });
   const html = buildPage({
     title: strings.title,
     instruction: strings.instruction,

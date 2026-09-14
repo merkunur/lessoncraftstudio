@@ -29,8 +29,12 @@ function loadType(typeId) {
   const browser = await puppeteer.launch({ headless: 'new' });
   const page = await browser.newPage();
   try {
+    // the locale's authored strings (strings.<loc>.json) — the same source cli.js passes; without
+    // them render-instance falls back to the spec's i18n.en and a da/fi render shows English chrome
+    let strings;
+    try { strings = require('../i18n/strings.js').resolveStrings(type.id, locale || 'en', type); } catch (e) { strings = undefined; }
     const out = await renderInstance({
-      type, theme: theme === 'null' ? null : theme, difficulty: Number(difficulty) || 2, locale: locale || 'en', unit: unit || null,
+      type, theme: theme === 'null' ? null : theme, difficulty: Number(difficulty) || 2, locale: locale || 'en', unit: unit || null, strings,
       page,
       outDir: path.join(__dirname, '..', 'out', 'dev'),
       baseName: `${typeId}-${theme}-d${difficulty || 2}-${locale || 'en'}` + (unit ? '-u' + unit : ''),

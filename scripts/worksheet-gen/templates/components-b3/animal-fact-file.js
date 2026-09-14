@@ -59,6 +59,46 @@
  *     inkSoft, `data-lcs-caption`) — the "no `def` literal" fallback, never a
  *     bare vocab word. Root `data-lcs-factlane`.
  *
+ * Face exports (Phase 2, 2026-09-14 — design §3; every one ADDITIVE, the base
+ * output byte-identical, tools/b3-baseline.js is the proof):
+ *
+ *   factTable rows gained `r.attrs` (extra row attributes, e.g. F2's
+ *     `data-lcs-correct="<i>"`; absent on base rows → '' → byte-identical).
+ *
+ *   choiceRow({ options:[{key,label}], pillPx = 16, h = 40, gap = 8, padX = 20 })
+ *     F2's lane: N `.ws-pill` chips (Baloo 2 700 pillPx, padding 4 padX,
+ *     height h, gap) — `data-lcs-opt="<key>"` on each chip, NO glyph, NO
+ *     tint: the chips are styled identically, the truth rides on the ROW's
+ *     `data-lcs-correct` index (answer key, never a mark).
+ *
+ *   factBank({ words:[{word, field}], w, h, wordPx = 17 })
+ *     F3's word bank in the draw-box slot: the `.ws-scene-banner ws-bank`
+ *     look of components-b2 wordBank (same page.css classes, no icons),
+ *     `data-lcs-bank-word` + `data-lcs-bank-field` per word, the slot
+ *     `data-lcs-bankslot` w × h (the gate measures scrollHeight ≤ h).
+ *
+ *   miniFactFile({ rows:[{key,label,value,fact}], w, rowH = 20, labelW = 160,
+ *                  labelPx = 14, valuePx = 16, border = 2 })
+ *     A PRINTED fact table (F4's source, F5's two files): grid labelW 1fr,
+ *     rows rowH, label Nunito 800 labelPx inkSoft on tealSoft, value Nunito
+ *     800 valuePx ink, `data-lcs-mini-row data-lcs-field data-lcs-value`
+ *     (+ `data-lcs-fact-<key>` — the same answer-key stamp as the table).
+ *
+ *   sameDiffGrid({ cells:[{key,label,same}], sameLabel, diffLabel, w = 675,
+ *                  cols = 2, cellH = 48, gap = 8, pillPx = 16 })
+ *     F5's circle-same-or-different grid: per field a `.ws-lane` cell
+ *     [label 14][chips same | different, fixed order, no glyph],
+ *     `data-lcs-same="1|0"` on the cell (answer key), `data-lcs-sd="same|diff"`
+ *     on the chips.
+ *
+ *   riddleCard({ n, clues:[{text, field, value}], answer, prompt, nameLabel,
+ *                cluesW = 300, laneW = 165, drawW = 146, drawH = 140, minH = 180,
+ *                glyphH = 26, cluePx = 16 })
+ *     F6's card: a `.ws-lane` [prompt + clues cluesW][16][name lane:
+ *     nameLabel + writingRow laneW × 56][16][drawBox drawW × drawH]; each
+ *     clue line `data-lcs-clue="<field>=<value>"` (answer key); the card
+ *     `data-lcs-riddle="<n>" data-lcs-answer="<key>"`. No picture on a card.
+ *
  * The drawing box the base sets under the banner is G1-308's `drawBox`
  * (./read-and-do.js) REQUIRED through the namespace and wrapped by the spec
  * with its label — not redefined here (the namespace refuses a duplicate).
@@ -122,7 +162,8 @@ function factTable({ rows, w = 675, rowMin = 60, glyphH = 28, labelW = 160, labe
     if (r.lane === 'choice') lane = r.html || '';
     else if (r.lane === 'printed') lane = `<span data-lcs-printed style="font-family:${F.body},sans-serif;font-weight:800;font-size:16px;line-height:20px;color:${T.ink}">${esc(r.value == null ? '' : r.value)}</span>`;
     else lane = `<span data-lcs-lane="${esc(r.key)}" style="display:inline-flex;width:${laneW}px;height:${laneH}px">${writingRow({ w: laneW, h: laneH, glyphH, xHeight: true }).svg}</span>`;
-    return `<div data-lcs-row data-lcs-field="${esc(r.key)}"${factAttr} style="display:contents">` +
+    const extra = r.attrs ? ' ' + r.attrs : '';
+    return `<div data-lcs-row data-lcs-field="${esc(r.key)}"${factAttr}${extra} style="display:contents">` +
       `<div data-lcs-label="${esc(r.key)}" style="${top}border-right:${rule};background:${T.tealSoft};padding:0 8px;display:flex;align-items:center;min-width:0;min-height:0">` +
       `<span data-lcs-label-text style="font-family:${F.body},sans-serif;font-weight:800;font-size:${labelPx}px;line-height:${labelPx + 6}px;color:${T.ink};white-space:normal;overflow-wrap:normal;word-break:normal">${esc(r.label)}</span></div>` +
       `<div data-lcs-lane-cell style="${top}padding:${lanePad}px;display:flex;align-items:center;min-width:0;min-height:0">${lane}</div></div>`;
@@ -160,4 +201,63 @@ function fullWidthRow({ w, h, glyphH }) {
   return svg;
 }
 
-module.exports = { heroFrame, nameBanner, factTable, factLane };
+/* -------------------------------------------------------- F2: choice row */
+function choiceRow({ options, pillPx = 16, h = 40, gap = 8, padX = 20 }) {
+  if (!Array.isArray(options) || options.length < 2) throw new Error('choiceRow: needs >= 2 options');
+  const chips = options.map((o) =>
+    `<span class="ws-pill" data-lcs-opt="${esc(o.key)}" style="height:${h}px;padding:4px ${padX}px;font-size:${pillPx}px;line-height:1;white-space:nowrap;flex:0 0 auto">${esc(o.label)}</span>`).join('');
+  return `<span data-lcs-choicerow data-lcs-n="${options.length}" style="display:inline-flex;gap:${gap}px;align-items:center;min-width:0">${chips}</span>`;
+}
+
+/* -------------------------------------------------------- F3: fact bank */
+function factBank({ words, w, h, wordPx = 17 }) {
+  if (!Array.isArray(words) || !words.length) throw new Error('factBank: no words');
+  const items = words.map((wd) =>
+    `<span class="ws-bankword" style="font-size:${wordPx}px;line-height:1.2" data-lcs-bank-word="${esc(wd.word)}" data-lcs-bank-field="${esc(wd.field)}"><span>${esc(wd.word)}</span></span>`).join('');
+  return `<div data-lcs-bankslot data-lcs-bank-n="${words.length}" style="width:${w}px;height:${h}px;flex:0 0 ${h}px;display:flex;flex-direction:column;justify-content:center;min-width:0">` +
+    `<div class="ws-scene-banner ws-bank" data-lcs-bank-banner style="margin:0">${items}</div></div>`;
+}
+
+/* --------------------------------------------------- F4/F5: printed file */
+function miniFactFile({ rows, w, rowH = 20, labelW = 160, labelPx = 14, valuePx = 16, border = 2 }) {
+  if (!Array.isArray(rows) || !rows.length) throw new Error('miniFactFile: no rows');
+  const rule = `1px solid ${T.grid}`;
+  const labLine = Math.min(labelPx + 4, rowH - 2), valLine = Math.min(valuePx + 4, rowH - 2);   // the 1-px rule sits inside rowH
+  const cells = rows.map((r, i) => {
+    const top = i ? `border-top:${rule};` : '';
+    const factAttr = (r.fact !== null && r.fact !== undefined) ? ` data-lcs-fact-${esc(r.key)}="${esc(String(r.fact))}"` : '';
+    return `<div data-lcs-mini-row data-lcs-field="${esc(r.key)}" data-lcs-value="${esc(r.value)}"${factAttr} style="display:contents">` +
+      `<div data-lcs-mini-label style="${top}background:${T.tealSoft};padding:0 8px;display:flex;align-items:center;min-width:0;min-height:0"><span data-lcs-label-text style="font-family:${F.body},sans-serif;font-weight:800;font-size:${labelPx}px;line-height:${labLine}px;color:${T.inkSoft};white-space:nowrap">${esc(r.label)}</span></div>` +
+      `<div data-lcs-mini-value style="${top}padding:0 10px;display:flex;align-items:center;min-width:0;min-height:0"><span data-lcs-printed style="font-family:${F.body},sans-serif;font-weight:800;font-size:${valuePx}px;line-height:${valLine}px;color:${T.ink};white-space:nowrap">${esc(r.value)}</span></div></div>`;
+  });
+  return `<div data-lcs-mini data-lcs-rows="${rows.length}" style="width:${w}px;display:grid;grid-template-columns:${labelW}px 1fr;grid-auto-rows:${rowH}px;` +
+    `background:${T.white};border:${border}px solid ${T.teal};border-radius:12px;overflow:hidden;min-height:0">${cells.join('')}</div>`;
+}
+
+/* ---------------------------------------------------- F5: same / different */
+function sameDiffGrid({ cells, sameLabel, diffLabel, w = 675, cols = 2, cellH = 48, gap = 8, pillPx = 16 }) {
+  if (!Array.isArray(cells) || !cells.length) throw new Error('sameDiffGrid: no cells');
+  const chip = (k, text) => `<span class="ws-pill" data-lcs-sd="${k}" style="height:32px;padding:4px 12px;font-size:${pillPx}px;line-height:1;white-space:nowrap;flex:0 0 auto">${esc(text)}</span>`;
+  const items = cells.map((c) =>
+    `<div class="ws-lane" data-lcs-sdcell data-lcs-field="${esc(c.key)}" data-lcs-same="${c.same ? 1 : 0}" style="padding:4px 10px;height:${cellH}px;display:flex;align-items:center;justify-content:space-between;gap:8px;min-width:0">` +
+      `<span data-lcs-label-text style="font-family:${F.body},sans-serif;font-weight:800;font-size:14px;line-height:18px;color:${T.ink};min-width:0">${esc(c.label)}</span>` +
+      `<span data-lcs-sdchips style="display:inline-flex;gap:8px;align-items:center;flex:0 0 auto">${chip('same', sameLabel)}${chip('diff', diffLabel)}</span></div>`).join('');
+  return `<div data-lcs-sdgrid data-lcs-n="${cells.length}" style="width:${w}px;display:grid;grid-template-columns:repeat(${cols},1fr);gap:${gap}px;flex:0 0 auto">${items}</div>`;
+}
+
+/* ---------------------------------------------------------- F6: riddle card */
+function riddleCard({ n, clues, answer, prompt, nameLabel, cluesW = 300, laneW = 165, drawW = 146, drawH = 140, minH = 180, glyphH = 26, cluePx = 16 }) {
+  if (!Array.isArray(clues) || clues.length < 3) throw new Error('riddleCard: needs >= 3 clues');
+  const lines = clues.map((c) =>
+    `<span data-lcs-clue="${esc(c.field)}=${esc(String(c.value))}" style="display:block;font-family:${F.body},sans-serif;font-weight:800;font-size:${cluePx}px;line-height:1.35;color:${T.ink}">${esc(c.text)}</span>`).join('');
+  const laneH = 56;
+  return `<div class="ws-lane" data-lcs-riddle="${n}" data-lcs-answer="${esc(answer)}" data-lcs-clues="${clues.length}" style="padding:10px 16px;width:675px;min-height:${minH}px;flex:1 1 ${minH}px;display:flex;align-items:center;gap:16px;min-width:0">` +
+    `<div data-lcs-cluebox style="width:${cluesW}px;flex:0 0 ${cluesW}px;display:flex;flex-direction:column;gap:2px;min-width:0">` +
+      `<span data-lcs-prompt style="font-family:${F.display},cursive;font-weight:700;font-size:18px;line-height:22px;color:${T.teal};margin-bottom:2px">${esc(prompt)}</span>${lines}</div>` +
+    `<div data-lcs-namelane style="width:${laneW}px;flex:0 0 ${laneW}px;display:flex;flex-direction:column;gap:2px;min-width:0">` +
+      `<span data-lcs-eyebrow style="font-family:${F.body},sans-serif;font-weight:800;font-size:16px;line-height:20px;color:${T.inkSoft};white-space:nowrap">${esc(nameLabel)}</span>` +
+      `<span data-lcs-lane="name" style="display:inline-flex;width:${laneW}px;height:${laneH}px">${writingRow({ w: laneW, h: laneH, glyphH, xHeight: true }).svg}</span></div>` +
+    `<span data-lcs-drawbox="riddle" style="display:block;width:${drawW}px;height:${drawH}px;flex:0 0 ${drawW}px;background:${T.white};border:2.5px dashed ${T.coral};border-radius:12px"></span></div>`;
+}
+
+module.exports = { heroFrame, nameBanner, factTable, factLane, choiceRow, factBank, miniFactFile, sameDiffGrid, riddleCard };

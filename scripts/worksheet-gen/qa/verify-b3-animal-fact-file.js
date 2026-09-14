@@ -57,7 +57,44 @@
  *    PF data-lcs-face on the base, PB no [data-ws-content], PX a starter
  *    with an end mark (+ the caption-fallback control), PN a label with a
  *    slot, PU an animal without a name literal (never a vocab fallback) —
- *    18 in all. P2 P3 P6 P8 P12 P14 are F2/F3/F5/F6 poisons (Phase 2).
+ *    18 in all.
+ * F. FACES (Phase 2, 2026-09-14 — design §3; tools/b3var-rows/animal-fact-file.js):
+ *    the five emitted faces G2-339 tick · G2-340 bank · G2-341 frames ·
+ *    G2-342 compare · G2-343 mystery, each rendered through the real
+ *    pipeline at d2 en on the wave theme under the shipped chrome AND the
+ *    LONG de (740) + LONG fi (710 — the family's measured worst) fixtures;
+ *    verify() + lints clean; the gate's OWN measurements (chips / bank /
+ *    printed cells / starters / files / riddle cards inside their boxes, the
+ *    F6 bank on ONE row <= 110 px, nothing under the footer) and the
+ *    NODE-SIDE RE-DERIVATION of every answer-key stamp from animal-facts.json
+ *    + the EN bank (tick: the chip at data-lcs-correct === the table value
+ *    and every chip label === a bank cell; bank: the word set === truths +
+ *    distractors from >= 2 fields; frames: printed cells === cellOf(table),
+ *    starters === fillSlots(frames, def); compare: data-lcs-same per field
+ *    === (table a === table b), exactly half; mystery: every tile profile ===
+ *    the table, every clue === clueOf(table), the filter leaves EXACTLY the
+ *    stamped answer); the emitted specs' EN strings === bank.strings[id];
+ *    a seed sweep (quick 6 / full 20): tick correct index takes all 3
+ *    positions per page and pages differ, bank pages differ, compare pairs +
+ *    same-patterns vary, mystery answers vary and the best fixed-position
+ *    bank bot <= 2/6; refusals: a unit on compare/mystery, the blank unit on
+ *    a face, a null-field animal (turtle) on tick/bank/frames, a theme with
+ *    no legal pair (compare) / bank (mystery).
+ *    Face POISONS (design §5 P2 P3 P6 P8 P12 P14 + the faces' own): P2 an F6
+ *    bank with two 0-contradiction animals (verify + node), P3a an F2 row
+ *    with a repeated chip key, P3b data-lcs-correct pointing at a distractor
+ *    (verify + node), P6 an F3 bank missing the true covering (verify +
+ *    node), P8 an F5 pair printed as 4/4 same (verify + node) + the composer's
+ *    refusal on a table with no legal pair, P12 an F6 title naming Hedgehog
+ *    (validator), P14 an F6 bank of six 13-letter names (verify: two rows);
+ *    PF1 tick correct index constant at 0, PF2 a frames starter > 22 chars
+ *    (refusal), PF3 a frames starter printing its target fact (refusal), PF4
+ *    a mystery clue naming the answer (verify + node), PF5 compare chips
+ *    swapped, PF6 data-lcs-same flipped (verify + node), PF7 a draw box on
+ *    the frames face, PF8 a mystery tile profile edited (node), PF9 a
+ *    printed cell edited on frames (verify + node), PF10 a bank word edited
+ *    (verify + node) — 16 face poisons; the base's 18 stay.
+ *    Final line: G2-318 gate: PASS (N assertions, M/M poisons killed) | FAIL.
  */
 'use strict';
 const path = require('path');
@@ -71,6 +108,9 @@ const bankMod = require('../data/b3/animal-fact-file.js');
 const TABLE = require('../data/b3/animal-facts.json');
 
 const TYPE = require('../types/g2/G2-318-animal-fact-file.js');
+const { loadType } = require('../lib/load-types.js');
+const FACE_IDS = { tick: 'G2-339', bank: 'G2-340', frames: 'G2-341', compare: 'G2-342', mystery: 'G2-343' };
+const FACE_OUT = 'g2318-faces';
 const QUICK = process.argv.includes('--quick');
 const OUT = path.join(__dirname, '..', 'out', 'dev');
 const THEME = TYPE.WAVE_THEME;                       // 'forest creatures'
@@ -86,6 +126,8 @@ let assertions = 0;
 const fails = [];
 let killed = 0;
 const TOTAL = 18;
+const FACE_TOTAL = 16;
+let faceKilled = 0;
 function ok(cond, msg) { assertions++; if (!cond) fails.push(msg); return !!cond; }
 function len(s) { return [...String(s)].length; }
 function upperFirst(s, loc) { const cs = [...s]; return cs.length ? cs[0].toLocaleUpperCase(loc) + cs.slice(1).join('') : s; }
@@ -163,7 +205,32 @@ function validateBank(bank, loc) {
   const my = bank.mystery || {};
   for (const k of ['class', 'covering', 'diet', 'habitat', 'prompt']) if (typeof my[k] !== 'string' || !my[k].trim()) push(`mystery.${k} missing`);
   for (const k of ['fly', 'swim']) if (!my[k] || typeof my[k].true !== 'string' || typeof my[k].false !== 'string') push(`mystery.${k} needs true + false`);
-  if (!bank.sameDiff || ['same', 'diff', 'laneSame', 'laneDiff'].some((k) => typeof bank.sameDiff[k] !== 'string')) push('sameDiff needs same/diff/laneSame/laneDiff');
+  // Phase 2: every clue frame carries exactly one {cell}|{inFrame} slot and ends in an end mark; fly/swim/legs literals are whole sentences
+  for (const k of ['class', 'covering', 'diet', 'habitat']) if (typeof my[k] === 'string') {
+    const sl = slotsIn(my[k]);
+    if (sl.length !== 1 || !['cell', 'inFrame'].includes(sl[0])) push(`mystery.${k} "${my[k]}" must carry exactly one {cell}/{inFrame} slot`);
+    if (!/[.?!]$/.test(my[k].trim())) push(`mystery.${k} "${my[k]}" has no end mark`);
+  }
+  for (const k of ['fly', 'swim']) if (my[k]) for (const b of ['true', 'false']) if (typeof my[k][b] === 'string' && (!/[.?!]$/.test(my[k][b].trim()) || my[k][b].includes('{'))) push(`mystery.${k}.${b} "${my[k][b]}" is not a whole sentence`);
+  for (const n of TABLE.choices.legs) if (bank.legsFrames && typeof bank.legsFrames[n] === 'string' && (!/[.?!]$/.test(bank.legsFrames[n].trim()) || bank.legsFrames[n].includes('{'))) push(`legsFrames[${n}] is not a whole sentence`);
+  if (typeof bank.frameCaption !== 'string' || !bank.frameCaption.trim() || bank.frameCaption.includes('{')) push('frameCaption missing (the frames face lane caption)');
+  if (!bank.sameDiff || ['same', 'diff', 'laneSame', 'laneDiff', 'caption'].some((k) => typeof bank.sameDiff[k] !== 'string')) push('sameDiff needs same/diff/laneSame/laneDiff/caption');
+  else { for (const k of ['same', 'diff']) if (len(bank.sameDiff[k]) > 16) push(`sameDiff.${k} "${bank.sameDiff[k]}" > 16 chars`); for (const k of ['laneSame', 'laneDiff']) if (/[.?!]$/.test(bank.sameDiff[k].trim())) push(`sameDiff.${k} ends with an end mark`); }
+  // Phase 2: the face strings — one block per emitted face id; F2-F4 carry {U}; F5/F6 never name an animal (P12)
+  const titles = Object.values(bank.animals || {}).map((a) => a.title).filter((t) => typeof t === 'string' && t.trim());
+  for (const [face, id] of Object.entries(FACE_IDS)) {
+    const st = bank.strings && bank.strings[id];
+    if (!st || typeof st.title !== 'string' || typeof st.instruction !== 'string') { push(`strings[${id}] (${face}) needs title + instruction`); continue; }
+    if (len(st.title) > 70) push(`${id} title ${len(st.title)} chars > 70`);
+    if (WORKSHEET_WORD.test(st.title)) push(`${id} title "${st.title}" carries the worksheet word`);
+    if (len(st.instruction) > 150) push(`${id} instruction ${len(st.instruction)} chars > 150`);
+    if (/\{name\}/.test(st.title + st.instruction)) push(`${id} strings carry a {name} slot`);
+    if (['tick', 'bank', 'frames'].includes(face) && !/\{U\}/.test(st.title)) push(`${id} title "${st.title}" has no {U} token (every unit would share one title)`);
+    if (['compare', 'mystery'].includes(face)) {
+      if (/\{U\}|\{L\}|\{UNIT\}/.test(st.title + st.instruction)) push(`${id} (${face}) carries a unit token — it fans by theme`);
+      for (const t of titles) if (new RegExp('(?<!\\p{L})' + t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?!\\p{L})', 'iu').test(st.title)) push(`${id} title "${st.title}" names the animal "${t}" (the title would print the answer)`);
+    }
+  }
   // strings
   const s = bank.strings && bank.strings['G2-318'];
   if (!s || typeof s.title !== 'string' || typeof s.instruction !== 'string') push('strings[G2-318] needs title + instruction');
@@ -382,6 +449,463 @@ const LONG = {
   fi: { title: 'Siili: eläinryhmä, elinympäristö, ravintotottumukset ja ruumiinpeite!!',
     instruction: 'Ota selvää tästä eläimestä. Kirjoita jokaiselle riville yksi tosiasia, täydennä sitten lause alhaalla ja piirrä lopuksi eläimen kotipaikka laatikkoon.', body: 710 },
 };
+
+/* ============================================================== F. FACES */
+function cellOf(bank, field, value) {
+  if (field === 'legs') return String(value);
+  if (field === 'fly' || field === 'swim') return bank.yesno[value ? 'yes' : 'no'];
+  return bank.options[field][value].cell;
+}
+function clueOf(bank, field, value) {
+  if (field === 'legs') return bank.legsFrames[value];
+  if (field === 'fly' || field === 'swim') return bank.mystery[field][value ? 'true' : 'false'];
+  const o = bank.options[field][value];
+  return fillSlots(bank.mystery[field], { cell: o.cell, inFrame: o.inFrame });
+}
+function faceType(face) { return loadType(FACE_IDS[face]); }
+
+/** Everything the node side needs from one rendered face page (any face). */
+async function measureFace(page) {
+  return page.evaluate(() => {
+    const rect = (el) => { const r = el.getBoundingClientRect(); return { left: r.left, right: r.right, top: r.top, bottom: r.bottom, w: r.width, h: r.height }; };
+    const root = document.querySelector('[data-lcs-type="animal-fact-file"]');
+    const q = (s) => root ? root.querySelector(s) : null;
+    const qa = (s) => root ? [...root.querySelectorAll(s)] : [];
+    const attrsOf = (el, prefix) => { const o = {}; for (const a of el.attributes) if (a.name.startsWith(prefix)) o[a.name.slice(prefix.length)] = a.value; return o; };
+    const foot = document.querySelector('.ws-foot');
+    const body = document.querySelector('[data-lcs-body]');
+    const hero = q('img[data-lcs-hero]');
+    const slot = q('[data-lcs-bankslot]');
+    const banner = q('[data-lcs-bank-banner]');
+    return {
+      stamps: root ? { ...root.dataset } : null,
+      body: rect(body), foot: foot.getBoundingClientRect().top, titleLines: Math.round(rect(document.querySelector('.ws-title')).h / 33),
+      lowest: Math.max(...qa('*').map((el) => el.getBoundingClientRect().bottom)),
+      icons: qa('.ws-icon').map((i) => Math.min(rect(i).w, rect(i).h)),
+      hero: hero ? { src: hero.getAttribute('src'), unit: hero.dataset.lcsUnit, w: rect(hero).w } : null,
+      name: q('[data-lcs-banner] [data-lcs-name]') ? q('[data-lcs-banner] [data-lcs-name]').textContent.trim() : null,
+      rows: qa('[data-lcs-table] [data-lcs-row]').map((r) => {
+        const cell = r.querySelector('[data-lcs-lane-cell]'), cr = cell ? rect(cell) : null;
+        return { field: r.dataset.lcsField, correct: r.dataset.lcsCorrect, n: r.dataset.lcsN, facts: attrsOf(r, 'data-lcs-fact-'),
+          label: (r.querySelector('[data-lcs-label-text]') || { textContent: '' }).textContent.trim(),
+          cellH: cr ? cr.h : 0,
+          chips: [...r.querySelectorAll('[data-lcs-opt]')].map((c) => ({ key: c.dataset.lcsOpt, text: c.textContent.trim(), w: rect(c).w, h: rect(c).h, inside: cr ? rect(c).right <= cr.right + 0.6 && rect(c).bottom <= cr.bottom + 0.6 : false, clipped: c.scrollWidth > c.clientWidth + 0.6 })),
+          lane: !!r.querySelector('[data-lcs-lane]') };
+      }),
+      bank: slot ? { n: +slot.dataset.lcsBankN, h: rect(slot).h, bannerH: banner ? rect(banner).h : 0, overflow: banner ? (banner.scrollHeight > banner.clientHeight + 0.6 || banner.scrollWidth > banner.clientWidth + 0.6) : true,
+        words: [...slot.querySelectorAll('[data-lcs-bank-word]')].map((w) => ({ word: w.textContent.trim(), field: w.dataset.lcsBankField })) } : null,
+      mini: qa('[data-lcs-mini]').map((m) => ({ rows: [...m.querySelectorAll('[data-lcs-mini-row]')].map((r) => ({ field: r.dataset.lcsField, value: (r.querySelector('[data-lcs-printed]') || { textContent: '' }).textContent.trim(), facts: attrsOf(r, 'data-lcs-fact-'), clipped: r.querySelector('[data-lcs-printed]') ? r.querySelector('[data-lcs-printed]').scrollWidth > r.querySelector('[data-lcs-printed]').clientWidth + 0.6 : true })) })),
+      starters: qa('[data-lcs-framelane] [data-lcs-starter]').map((s) => s.textContent.trim()),
+      frameRows: qa('[data-lcs-frame-row]').map((r) => ({ field: r.dataset.lcsFrameField, lines: r.querySelectorAll('svg[data-lcs-prim="writing-row"]').length, h: rect(r).h })),
+      files: qa('[data-lcs-file]').map((f) => ({ key: f.dataset.lcsFile, src: (f.querySelector('img[data-lcs-hero]') || { getAttribute: () => null }).getAttribute('src'), name: (f.querySelector('[data-lcs-name]') || { textContent: '' }).textContent.trim(), h: rect(f).h })),
+      sd: qa('[data-lcs-sdcell]').map((c) => ({ field: c.dataset.lcsField, same: c.dataset.lcsSame, chips: [...c.querySelectorAll('[data-lcs-sd]')].map((x) => ({ k: x.dataset.lcsSd, text: x.textContent.trim() })) })),
+      tiles: banner && !slot ? { h: banner.clientHeight, w: rect(banner).w, list: [...banner.querySelectorAll('[data-lcs-bank]')].map((t) => ({ key: t.dataset.lcsBank, word: t.dataset.lcsBankWord, profile: t.dataset.lcsProfile, src: (t.querySelector('img') || { getAttribute: () => null }).getAttribute('src'), w: rect(t).w })) } : null,
+      cards: qa('[data-lcs-riddle]').map((c) => ({ n: c.dataset.lcsRiddle, answer: c.dataset.lcsAnswer, h: rect(c).h, clues: [...c.querySelectorAll('[data-lcs-clue]')].map((cl) => ({ stamp: cl.dataset.lcsClue, text: cl.textContent.trim() })), hasImg: !!c.querySelector('img'), draw: c.querySelector('[data-lcs-drawbox]') ? rect(c.querySelector('[data-lcs-drawbox]')) : null })),
+    };
+  });
+}
+
+async function renderFace(page, type, { theme = THEME, unit = null, baseName, strings, seedEpoch = 1 }) {
+  const out = await renderInstance({ type, theme, difficulty: 2, locale: 'en', unit, page, outDir: path.join(OUT, FACE_OUT), baseName, strings, seedEpoch });
+  const m = await measureFace(page);
+  return { lints: out.qa.lints, verify: out.qa.verify, m, png: out.pngPath, meta: out.meta };
+}
+
+/** The gate's OWN assertions + node re-derivation over one face render. */
+function assertFace(face, name, r, bank, table, { key, theme = THEME, squeezed = false } = {}) {
+  const m = r.m;
+  ok(r.verify.length === 0, `${name}: verify() ${JSON.stringify(r.verify)}`);
+  ok(r.lints.length === 0, `${name}: lints ${JSON.stringify(r.lints)}`);
+  if (!m.stamps) { ok(false, `${name}: no root`); return; }
+  ok(m.stamps.lcsFace === face, `${name}: face stamp "${m.stamps.lcsFace}" ≠ ${face}`);
+  ok(m.lowest <= m.foot + 0.6, `${name}: content reaches ${Math.round(m.lowest)} against the footer at ${Math.round(m.foot)}`);
+  if (squeezed) ok(m.body.h <= squeezed, `${name}: body ${Math.round(m.body.h)} px — the fixture did not squeeze the body to <= ${squeezed}`);
+  ok(m.icons.every((s) => s >= G23_FLOOR), `${name}: an icon under the G2-3 floor ${JSON.stringify(m.icons)}`);
+  const nounOf = (k) => safeNouns(theme, 'en').find((x) => x.vocabKey === k);
+  let checked = 0;
+  if (face === 'tick' || face === 'bank' || face === 'frames') {
+    const animal = table.animals[key];
+    ok(m.stamps.lcsAnimal === key, `${name}: root animal "${m.stamps.lcsAnimal}" ≠ ${key}`);
+    ok(!!m.hero && m.hero.src === fileUri(theme, nounOf(key).noun) && m.hero.unit === key, `${name}: hero src/unit ≠ ${key}`);
+    ok(m.name === bank.animals[key].name, `${name}: name "${m.name}" ≠ bank "${bank.animals[key].name}"`);
+    const fields = m.stamps.lcsFields.split(',');
+    ok(fields.every((f) => animal[f] !== null), `${name}: a null field on a face (${fields.filter((f) => animal[f] === null).join(',')})`);
+    if (face === 'tick') {
+      const n = +m.stamps.lcsChoices;
+      ok(m.rows.length === fields.length, `${name}: ${m.rows.length} rows ≠ ${fields.length}`);
+      const wide = [];
+      for (const row of m.rows) {
+        const f = row.field, truth = animal[f];
+        const wantN = (f === 'fly' || f === 'swim') ? 2 : Math.min(n, (f === 'legs' ? table.choices.legs.length : table.choices[f].length));
+        ok(row.chips.length === wantN && +row.n === wantN, `${name}: row ${f} ${row.chips.length} chips (want ${wantN})`);
+        ok(row.facts[f] === String(truth) && Object.keys(row.facts).length === 1, `${name}: row ${f} fact stamp ${JSON.stringify(row.facts)} ≠ table ${JSON.stringify(truth)}`);
+        const ci = +row.correct;
+        const at = row.chips[ci];
+        ok(!!at && at.key === String(truth), `${name}: row ${f} chip ${ci} "${at && at.key}" ≠ table "${truth}"`);
+        if (at && at.key === String(truth)) checked++;
+        const pool = f === 'legs' ? table.choices.legs.map(String) : (f === 'fly' || f === 'swim') ? ['true', 'false'] : table.choices[f];
+        ok(row.chips.every((c) => pool.includes(c.key)), `${name}: row ${f} a chip key outside choices (${row.chips.map((c) => c.key).join(',')})`);
+        ok(new Set(row.chips.map((c) => c.key)).size === row.chips.length, `${name}: row ${f} chip keys repeat`);
+        for (const c of row.chips) {
+          const v = f === 'legs' ? +c.key : (f === 'fly' || f === 'swim') ? c.key === 'true' : c.key;
+          ok(c.text === cellOf(bank, f, v), `${name}: row ${f} chip "${c.text}" ≠ bank cell "${cellOf(bank, f, v)}"`);
+          ok(c.inside && !c.clipped && c.h >= 36, `${name}: row ${f} chip "${c.text}" ${Math.round(c.w)}×${Math.round(c.h)} inside ${c.inside} clipped ${c.clipped}`);
+        }
+        ok(row.chips.reduce((sum, c) => sum + c.w, 0) + 8 * (row.chips.length - 1) <= 495 + 0.6, `${name}: row ${f} chips wider than the 495 lane`);
+        ok(row.cellH >= 60 - 0.6, `${name}: row ${f} ${Math.round(row.cellH)} px < the row floor 60`);
+        if (row.chips.length === n) wide.push(ci);
+      }
+      ok(new Set(wide).size === Math.min(n, wide.length), `${name}: the correct index takes only positions ${[...new Set(wide)].join(',')} over ${wide.length} ${n}-chip rows`);
+    }
+    if (face === 'bank') {
+      ok(!!m.bank, `${name}: no bank`);
+      if (m.bank) {
+        const truths = fields.map((f) => cellOf(bank, f, animal[f]));
+        const words = m.bank.words.map((w) => w.word);
+        ok(words.length === fields.length + (+m.stamps.lcsBankExtra) && m.bank.n === words.length, `${name}: ${words.length} bank words (want ${fields.length} + ${m.stamps.lcsBankExtra})`);
+        ok(new Set(words).size === words.length, `${name}: a bank word repeats`);
+        for (const t of truths) ok(words.includes(t), `${name}: the bank lacks the truth "${t}"`);
+        checked += truths.filter((t) => words.includes(t)).length;
+        const distractors = m.bank.words.filter((w) => !truths.includes(w.word));
+        ok(distractors.length === +m.stamps.lcsBankExtra, `${name}: ${distractors.length} distractors (want ${m.stamps.lcsBankExtra})`);
+        for (const w of distractors) {
+          const f = w.field;
+          const pool = f === 'legs' ? table.choices.legs : (f === 'fly' || f === 'swim') ? [true, false] : table.choices[f];
+          ok(fields.includes(f) && pool.some((v) => v !== animal[f] && cellOf(bank, f, v) === w.word), `${name}: distractor "${w.word}" is not another option of ${f}`);
+        }
+        ok(new Set(distractors.map((w) => w.field)).size >= Math.min(2, distractors.length), `${name}: the distractors come from ${new Set(distractors.map((w) => w.field)).size} field(s) (want >= 2)`);
+        for (const w of m.bank.words) ok(fields.includes(w.field) && (w.field === 'legs' ? table.choices.legs.map(String).includes(w.word) : (w.field === 'fly' || w.field === 'swim') ? [bank.yesno.yes, bank.yesno.no].includes(w.word) : Object.values(bank.options[w.field]).some((o) => o.cell === w.word)), `${name}: bank word "${w.word}" is not a ${w.field} cell`);
+        ok(!m.bank.overflow && m.bank.bannerH <= m.bank.h + 0.6 && Math.abs(m.bank.h - (+m.stamps.lcsBankslot)) < 1, `${name}: the bank overflows its ${Math.round(m.bank.h)}-px slot (banner ${Math.round(m.bank.bannerH)}, overflow ${m.bank.overflow})`);
+        for (const row of m.rows) ok(row.lane && row.facts[row.field] === String(animal[row.field]), `${name}: row ${row.field} lane/stamp ${JSON.stringify(row.facts)}`);
+      }
+    }
+    if (face === 'frames') {
+      ok(m.mini.length === 1, `${name}: ${m.mini.length} printed files`);
+      const rows = m.mini[0] ? m.mini[0].rows : [];
+      ok(rows.map((r) => r.field).join() === fields.join(), `${name}: printed rows ${rows.map((r) => r.field).join()}`);
+      for (const r of rows) {
+        ok(r.value === cellOf(bank, r.field, animal[r.field]) && r.facts[r.field] === String(animal[r.field]) && !r.clipped, `${name}: printed ${r.field} "${r.value}" (stamp ${JSON.stringify(r.facts)}) ≠ table "${cellOf(bank, r.field, animal[r.field])}"`);
+        if (r.value === cellOf(bank, r.field, animal[r.field])) checked++;
+      }
+      const lit = bank.animals[key];
+      const slots = {}; for (const k of ['def', 'nom', 'ade']) if (typeof lit[k] === 'string' && lit[k].trim()) slots[k] = lit[k];
+      const want = bank.frames.slice(0, +m.stamps.lcsFrames).map((fr) => upperFirst(fillSlots(fr.text, slots), 'en'));
+      ok(JSON.stringify(m.starters) === JSON.stringify(want), `${name}: starters ${JSON.stringify(m.starters)} ≠ re-filled ${JSON.stringify(want)}`);
+      for (const st of m.starters) ok(len(st) <= 22 && !/[.?!]$/.test(st), `${name}: starter "${st}" (${len(st)} chars)`);
+      bank.frames.slice(0, +m.stamps.lcsFrames).forEach((fr, i) => { const v = cellOf(bank, fr.field, animal[fr.field]); ok(!new RegExp('(?<!\\p{L})' + v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?!\\p{L})', 'iu').test(m.starters[i] || ''), `${name}: starter ${i + 1} prints its target "${v}"`); });
+      ok(m.frameRows.length === (+m.stamps.lcsFrames) + (+m.stamps.lcsFree) && m.frameRows.every((r) => r.lines === +m.stamps.lcsFrameLines), `${name}: frame rows ${JSON.stringify(m.frameRows.map((r) => r.lines))}`);
+      ok(m.rows.length === 0 && !m.bank, `${name}: the frames face renders a table/bank`);
+    }
+  }
+  if (face === 'compare') {
+    const keys = (m.stamps.lcsAnimals || '').split(',');
+    const fields = m.stamps.lcsFields.split(',');
+    ok(keys.length === 2 && keys[0] !== keys[1] && keys.every((k) => table.animals[k]), `${name}: animals ${m.stamps.lcsAnimals}`);
+    ok(m.files.map((f) => f.key).join() === keys.join(), `${name}: files ${m.files.map((f) => f.key).join()}`);
+    m.files.forEach((f) => {
+      ok(f.src === fileUri(theme, nounOf(f.key).noun), `${name}: file ${f.key} picture ≠ fileUri`);
+      ok(f.name === bank.animals[f.key].name, `${name}: file ${f.key} name "${f.name}"`);
+    });
+    ok(m.mini.length === 2, `${name}: ${m.mini.length} printed files`);
+    m.mini.forEach((mi, i) => {
+      const a = table.animals[keys[i]];
+      for (const r of mi.rows) { ok(r.value === cellOf(bank, r.field, a[r.field]) && r.facts[r.field] === String(a[r.field]) && !r.clipped, `${name}: file ${keys[i]} ${r.field} "${r.value}" ≠ table`); if (r.value === cellOf(bank, r.field, a[r.field])) checked++; }
+    });
+    let same = 0;
+    ok(m.sd.map((c) => c.field).join() === fields.join(), `${name}: grid fields ${m.sd.map((c) => c.field).join()}`);
+    for (const c of m.sd) {
+      const want = table.animals[keys[0]][c.field] === table.animals[keys[1]][c.field];
+      ok(c.same === (want ? '1' : '0'), `${name}: cell ${c.field} same="${c.same}" but the table says ${want}`);
+      if (want) same++;
+      ok(c.chips.map((x) => x.k).join() === 'same,diff' && c.chips[0].text === bank.sameDiff.same && c.chips[1].text === bank.sameDiff.diff, `${name}: cell ${c.field} chips ${JSON.stringify(c.chips)}`);
+    }
+    ok(same === fields.length / 2, `${name}: ${same}/${fields.length} same (want exactly half)`);
+    ok(m.frameRows.length === m.stamps.lcsLanes.split(',').map(Number).reduce((a, b) => a + b, 0), `${name}: ${m.frameRows.length} lane rows`);
+  }
+  if (face === 'mystery') {
+    ok(!!m.tiles, `${name}: no picture bank`);
+    if (m.tiles) {
+      ok(m.tiles.list.length === +m.stamps.lcsBankSize && m.tiles.h <= 110, `${name}: bank ${m.tiles.list.length} tiles, ${m.tiles.h} px high (want ${m.stamps.lcsBankSize} on one row <= 110)`);
+      for (const t of m.tiles.list) {
+        const a = table.animals[t.key];
+        ok(!!a && t.profile === table.fields.map((f) => f + '=' + String(a[f])).join(';'), `${name}: tile ${t.key} profile ≠ table`);
+        if (a && t.profile === table.fields.map((f) => f + '=' + String(a[f])).join(';')) checked++;
+        ok(!!a && t.word === bank.animals[t.key].name && t.src === fileUri(theme, nounOf(t.key).noun), `${name}: tile ${t.key} name/picture`);
+        ok(len(t.word) <= 9, `${name}: tile name "${t.word}" > 9 letters`);
+      }
+      const ks = m.tiles.list.map((t) => t.key);
+      for (let i = 0; i < ks.length; i++) for (let j = i + 1; j < ks.length; j++) ok(table.fields.some((f) => table.animals[ks[i]][f] !== table.animals[ks[j]][f]), `${name}: ${ks[i]} and ${ks[j]} share every table field`);
+      ok(m.cards.length === +m.stamps.lcsPuzzles, `${name}: ${m.cards.length} cards`);
+      const answers = new Set();
+      for (const c of m.cards) {
+        answers.add(c.answer);
+        ok(ks.includes(c.answer) && !c.hasImg, `${name}: card ${c.n} answer ${c.answer} in bank ${ks.includes(c.answer)}, picture ${c.hasImg}`);
+        ok(c.clues.length === +m.stamps.lcsClues, `${name}: card ${c.n} ${c.clues.length} clues`);
+        const a = table.animals[c.answer] || {};
+        for (const cl of c.clues) {
+          const [f, v] = cl.stamp.split('=');
+          ok(String(a[f]) === v, `${name}: card ${c.n} clue ${cl.stamp} ≠ table ${f}=${a[f]}`);
+          const val = f === 'legs' ? +v : (f === 'fly' || f === 'swim') ? v === 'true' : v;
+          ok(cl.text === clueOf(bank, f, val), `${name}: card ${c.n} clue "${cl.text}" ≠ bank "${clueOf(bank, f, val)}"`);
+          if (cl.text === clueOf(bank, f, val)) checked++;
+        }
+        const survivors = ks.filter((k) => c.clues.every((cl) => { const [f, v] = cl.stamp.split('='); return String(table.animals[k][f]) === v; }));
+        ok(survivors.length === 1 && survivors[0] === c.answer, `${name}: card ${c.n} the table leaves [${survivors.join(',')}] for the clues, answer ${c.answer}`);
+        ok(!!c.draw && c.draw.w >= 100 && c.draw.h >= 100, `${name}: card ${c.n} draw box`);
+      }
+      ok(answers.size === m.cards.length, `${name}: answers repeat`);
+    }
+  }
+  ok(checked > 0, `${name}: 0 answer-key stamps re-derived`);
+}
+
+const facePoisonLog = [];
+function judgeFace(name, findings, re, note) {
+  const hit = findings.some((x) => re.test(x));
+  const verdict = hit ? 'KILLED' : findings.length ? 'WRONG REASON' : 'SILENT';
+  facePoisonLog.push(`  ${name}: ${verdict}${note ? ' (' + note + ')' : ''}${hit ? '' : ' — ' + JSON.stringify(findings.slice(0, 3))}`);
+  return hit;
+}
+/** A face type whose bodyHtml is rewritten by fn (over the real build, an injected bank/table/config allowed). */
+function rewiredFace(face, { bank, table, cfgPatch, fn }) {
+  const ft = faceType(face);
+  return Object.assign({}, ft, { build(args, ctx) {
+    const cfg = cfgPatch ? { ...ft.difficulty[2], ...cfgPatch } : ft.difficulty[2];
+    const out = TYPE._buildWith.call(ft, bank || bankMod.FACT_FILE.en, table || TABLE, cfg, { theme: args.theme, locale: 'en', unit: args.unit || null }, ctx);
+    if (fn) out.bodyHtml = fn(out.bodyHtml);
+    return out;
+  } });
+}
+async function faceFindings(page, face, type, opts, key) {
+  const r = await renderFace(page, type, opts);
+  const before = fails.length, saved = assertions;
+  assertFace(face, opts.baseName, r, bankMod.FACT_FILE.en, TABLE, { key, theme: opts.theme || THEME });
+  const own = fails.splice(before);
+  assertions = saved;
+  return { r, own };
+}
+function faceRefusal(face, args, cfgPatch) {
+  const ft = faceType(face);
+  try { TYPE._buildWith.call(ft, bankMod.FACT_FILE.en, args.table || TABLE, { ...ft.difficulty[2], ...(cfgPatch || {}) }, { theme: args.theme || THEME, locale: 'en', unit: args.unit || null }, { rng: makeRng('x') }); return []; } catch (e) { return [e.message]; }
+}
+
+async function runFaces(page, en) {
+  const pngs = [];
+  const seeds = QUICK ? 6 : 20;
+  // strings: the emitted specs' EN title/instruction === the bank's block (the panels see every string the family prints)
+  for (const [face, id] of Object.entries(FACE_IDS)) {
+    const ft = faceType(face);
+    ok(ft.id === id && ft.exerciseType === 'animal-fact-file', `${id}: emitted spec id/type`);
+    ok(!!en.strings[id] && ft.i18n.en.title === en.strings[id].title && ft.i18n.en.instruction === en.strings[id].instruction, `${id}: the emitted EN strings ≠ bank.strings[${id}]`);
+    ok(JSON.stringify(ft.difficulty[2]) !== JSON.stringify(TYPE.difficulty[2]), `${id}: resolves to the base d2 config`);
+    if (face === 'compare' || face === 'mystery') ok(ft.unitAxis && ft.unitAxis.applicable === false, `${id}: must fan by theme (unitAxis off)`);
+    else ok(ft.unitAxis && ft.unitAxis.applicable === true && /\{U\}/.test(ft.i18n.en.title), `${id}: must fan by unit with {U}`);
+  }
+  // renders: shipped chrome + LONG de + LONG fi
+  for (const face of Object.keys(FACE_IDS)) {
+    const ft = faceType(face);
+    const unitFace = ['tick', 'bank', 'frames'].includes(face);
+    const key = unitFace ? EXEMPLAR : null;
+    const r = await renderFace(page, ft, { baseName: `${ft.id}-d2-en` });
+    assertFace(face, `${ft.id} ${face}`, r, en, TABLE, { key });
+    pngs.push(r.png);
+    const extra = face === 'tick' ? `correct ${r.m.rows.map((x) => x.correct).join('')}` : face === 'bank' ? `bank [${r.m.bank.words.map((w) => w.word).join(' ')}]` : face === 'frames' ? `starters ${JSON.stringify(r.m.starters)}` : face === 'compare' ? `${r.m.stamps.lcsAnimals} same ${r.m.sd.map((c) => c.same).join('')}` : `bank [${r.m.tiles.list.map((t) => t.key).join(' ')}] ${r.m.tiles.h} px, answers ${r.m.cards.map((c) => c.answer).join(',')}`;
+    console.log(`[F] ${ft.id} ${face}: verify ${r.verify.length} lints ${r.lints.length} body ${Math.round(r.m.body.h)} lowest ${Math.round(r.m.lowest)} vs foot ${Math.round(r.m.foot)} · ${extra}`);
+    for (const k of Object.keys(LONG)) {
+      const rl = await renderFace(page, ft, { baseName: `${ft.id}-d2-en-longchrome-${k}`, strings: LONG[k] });
+      assertFace(face, `${ft.id} ${face} long chrome ${k}`, rl, en, TABLE, { key, squeezed: LONG[k].body });
+      pngs.push(rl.png);
+      console.log(`[F] ${ft.id} ${face} long chrome ${k}: verify ${rl.verify.length} lints ${rl.lints.length} body ${Math.round(rl.m.body.h)} (title ${rl.m.titleLines} lines) lowest ${Math.round(rl.m.lowest)} vs foot ${Math.round(rl.m.foot)}`);
+    }
+    if (unitFace) {
+      const rf = await renderFace(page, ft, { unit: 'fox', baseName: `${ft.id}-d2-en-ufox` });
+      assertFace(face, `${ft.id} ${face} unit fox`, rf, en, TABLE, { key: 'fox' });
+      pngs.push(rf.png);
+    }
+  }
+  // the seed sweep (node build only): variety + the position bots
+  {
+    const rngFor = (id, k) => makeRng(instanceSeed({ typeId: id, theme: THEME, difficulty: 2, seedEpoch: k }));
+    const bodies = { tick: new Set(), bank: new Set(), compare: new Set(), mystery: new Set() };
+    const tickPos = new Set(); const pairs = new Set(); const patterns = new Set(); const answers = new Set();
+    const botHits = [0, 0, 0, 0, 0, 0]; let botTotal = 0; const slotAnswers = [new Set(), new Set(), new Set()];
+    for (let k = 1; k <= seeds; k++) {
+      const t = faceType('tick').build({ theme: THEME, difficulty: 2, locale: 'en' }, { rng: rngFor('G2-339', k) });
+      bodies.tick.add(t.bodyHtml); t.meta.correctIdx.forEach((i) => tickPos.add(i));
+      ok(new Set(t.meta.correctIdx.slice(0, 5)).size === 3, `tick seed ${k}: correct index ${t.meta.correctIdx.join('')} does not take all 3 positions`);
+      const b = faceType('bank').build({ theme: THEME, difficulty: 2, locale: 'en' }, { rng: rngFor('G2-340', k) });
+      bodies.bank.add(b.bodyHtml);
+      const c = faceType('compare').build({ theme: THEME, difficulty: 2, locale: 'en' }, { rng: rngFor('G2-342', k) });
+      bodies.compare.add(c.bodyHtml); pairs.add(c.meta.animals.slice().sort().join('+')); patterns.add(c.meta.same.join(''));
+      const my = faceType('mystery').build({ theme: THEME, difficulty: 2, locale: 'en' }, { rng: rngFor('G2-343', k) });
+      bodies.mystery.add(my.bodyHtml); my.meta.answers.forEach((a, i) => { answers.add(a); botHits[my.meta.bank.indexOf(a)]++; botTotal++; slotAnswers[i].add(my.meta.bank.indexOf(a)); });
+    }
+    ok(bodies.tick.size >= Math.min(seeds, 4) && bodies.bank.size >= Math.min(seeds, 4), `sweep: tick ${bodies.tick.size} / bank ${bodies.bank.size} distinct pages over ${seeds} seeds`);
+    ok(pairs.size >= Math.min(seeds, 3) && patterns.size >= 2, `sweep: compare ${pairs.size} pairs, ${patterns.size} same-patterns over ${seeds} seeds (the chip pattern must not be constant)`);
+    ok(answers.size >= 4 && bodies.mystery.size >= Math.min(seeds, 4), `sweep: mystery ${answers.size} distinct answers, ${bodies.mystery.size} distinct pages`);
+    const best = Math.max(...botHits) / botTotal;
+    ok(best <= 2 / 6 + 1e-9, `sweep: a fixed-position bank bot scores ${best.toFixed(2)} (> 2/6) over ${botTotal} riddles`);
+    ok(slotAnswers.every((sa) => sa.size >= 2), `sweep: a riddle slot always points at the same bank position ${JSON.stringify(slotAnswers.map((x) => [...x]))}`);
+    console.log(`[F] sweep ${seeds} seeds: tick positions ${[...tickPos].sort().join('')} · compare pairs ${pairs.size} patterns ${[...patterns].join(' ')} · mystery answers ${[...answers].join(' ')} best position bot ${best.toFixed(2)}`);
+  }
+  // refusals
+  {
+    const refuse = (face, args, cfgPatch, re, what) => { const f = faceRefusal(face, args, cfgPatch); ok(f.some((x) => re.test(x)), `${what}: expected /${re.source}/, got ${JSON.stringify(f)}`); };
+    refuse('compare', { unit: 'fox' }, null, /fans by theme — a unit/, 'a unit on compare');
+    refuse('mystery', { unit: 'fox' }, null, /fans by theme — a unit/, 'a unit on mystery');
+    refuse('tick', { unit: 'blank' }, null, /no blank unit/, 'the blank unit on tick');
+    refuse('bank', { unit: 'blank' }, null, /no blank unit/, 'the blank unit on bank');
+    refuse('frames', { unit: 'blank' }, null, /no blank unit/, 'the blank unit on frames');
+    for (const face of ['tick', 'bank', 'frames']) refuse(face, { unit: 'turtle' }, null, /not 7\/7/, `turtle (null covering/habitat) on ${face}`);
+    refuse('compare', { theme: 'fruits' }, null, /not an animal theme/, 'a fruit theme on compare');
+    refuse('mystery', { theme: 'animals bw' }, null, /B&W/, 'a B&W theme on mystery');
+    refuse('mystery', {}, { bankNameMax: 3 }, /names <= 3 letters < bank/, 'a bank cap no forest name fits');
+    // the compare face on a table where every forest animal prints the same 4 fields → no legal pair
+    const flat = clone(TABLE); for (const k of Object.keys(flat.animals)) Object.assign(flat.animals[k], { class: 'mammal', habitat: 'land', diet: 'both', covering: 'fur' });
+    refuse('compare', { table: flat }, null, /no two verifiable animals share exactly 2/, 'compare on a table with no legal pair');
+    const twin = clone(TABLE); for (const k of Object.keys(twin.animals)) Object.assign(twin.animals[k], { class: 'mammal', habitat: 'land', diet: 'both', covering: 'fur', legs: 4, fly: false, swim: true });
+    refuse('mystery', { table: twin }, null, /no 6-animal bank/, 'mystery on a table where every animal shares every field');
+  }
+  // ---- face poisons
+  // P2 — an F6 bank with two 0-contradiction animals: a non-target tile's profile := the target's (verify: two right answers; node: profile ≠ table)
+  {
+    const p = rewiredFace('mystery', { fn: (h) => {
+      const answer = /data-lcs-riddle="1" data-lcs-answer="([a-z]+)"/.exec(h)[1];
+      const prof = new RegExp('data-lcs-bank="' + answer + '" data-lcs-bank-word="[^"]*" data-lcs-profile="([^"]*)"').exec(h)[1];
+      const other = [...h.matchAll(/data-lcs-bank="([a-z]+)"/g)].map((x) => x[1]).find((k) => k !== answer);
+      return h.replace(new RegExp('(data-lcs-bank="' + other + '" data-lcs-bank-word="[^"]*" data-lcs-profile=")[^"]*"'), '$1' + prof + '"');
+    } });
+    const { r, own } = await faceFindings(page, 'mystery', p, { baseName: 'G2-343-poison-P2' });
+    const a = judgeFace('P2 verify', r.verify, /share every field \(two right answers\)|the clues leave \[[a-z]+,[a-z]+\]/);
+    const b = judgeFace('P2 node', own, /profile ≠ table/);
+    if (a && b) faceKilled++;
+  }
+  // P3a — an F2 row with a repeated chip key; P3b — data-lcs-correct pointing at a distractor
+  {
+    const pa = rewiredFace('tick', { fn: (h) => h.replace(/(data-lcs-field="class"[^>]*>[\s\S]*?<span class="ws-pill" data-lcs-opt=")([a-z]+)("[^>]*>)[a-z]+(<\/span><span class="ws-pill" data-lcs-opt=")[a-z]+("[^>]*>)[a-z]+(<\/span>)/, (m0, a1, k1, a2, a3, a4, a5) => a1 + 'mammal' + a2 + 'mammal' + a3 + 'mammal' + a4 + 'mammal' + a5) });
+    const ra = await faceFindings(page, 'tick', pa, { baseName: 'G2-339-poison-P3a' }, EXEMPLAR);
+    const a = judgeFace('P3a verify', ra.r.verify, /row class: chip keys repeat/);
+    const pb = rewiredFace('tick', { fn: (h) => h.replace(/data-lcs-correct="(\d)" data-lcs-n="3"/, (m0, i) => `data-lcs-correct="${(+i + 1) % 3}" data-lcs-n="3"`) });
+    const rb = await faceFindings(page, 'tick', pb, { baseName: 'G2-339-poison-P3b' }, EXEMPLAR);
+    const b = judgeFace('P3b verify', rb.r.verify, /≠ the fact stamp/);
+    const c = judgeFace('P3b node', rb.own, /chip \d "[a-z0-9]+" ≠ table/);
+    if (a && b && c) faceKilled++;
+  }
+  // P6 — an F3 bank missing the true covering (spines dropped): verify (count / no word for covering) + node (the bank lacks the truth)
+  {
+    const p = rewiredFace('bank', { fn: (h) => h.replace(/<span class="ws-bankword"[^>]*data-lcs-bank-word="spines"[^>]*><span>spines<\/span><\/span>/, '') });
+    const { r, own } = await faceFindings(page, 'bank', p, { baseName: 'G2-340-poison-P6' }, EXEMPLAR);
+    const a = judgeFace('P6 verify', r.verify, /bank words \(stamp|no word for field covering/);
+    const b = judgeFace('P6 node', own, /lacks the truth "spines"/);
+    if (a && b) faceKilled++;
+  }
+  // P8 — an F5 pair printed as 4/4 same: the second file's printed values + stamps := the first's (verify: half rule + same re-derived; node: stamp ≠ table)
+  {
+    const p = rewiredFace('compare', { fn: (h) => {
+      // the second file's printed rows := the first's (values + stamps), every cell stamped same
+      const parts = h.split('<div data-lcs-file="');
+      if (parts.length !== 3) return h;
+      const rows0 = [...parts[1].matchAll(/data-lcs-field="([a-z]+)" data-lcs-value="([^"]*)" data-lcs-fact-[a-z]+="([^"]*)"/g)];
+      let f1 = parts[2];
+      for (const [, fld, val, fact] of rows0) {
+        f1 = f1.replace(new RegExp('(data-lcs-field="' + fld + '" data-lcs-value=")[^"]*(" data-lcs-fact-' + fld + '=")[^"]*("[\\s\\S]*?<span data-lcs-printed[^>]*>)[^<]*(<\\/span>)'), (m0, a, b, c, d) => a + val + b + fact + c + val + d);
+      }
+      return (parts[0] + '<div data-lcs-file="' + parts[1] + '<div data-lcs-file="' + f1).replace(/data-lcs-same="0"/g, 'data-lcs-same="1"');
+    } });
+    const { r, own } = await faceFindings(page, 'compare', p, { baseName: 'G2-342-poison-P8' });
+    const a = judgeFace('P8 verify', r.verify, /4 of 4 fields are the same/);
+    const b = judgeFace('P8 node', own, /≠ table|same="1" but the table says false/);
+    if (a && b) faceKilled++;
+  }
+  // P12 — an F6 title naming the animal (validator)
+  {
+    const b = clone(en); b.strings['G2-343'].title = 'Who Am I? Hedgehog Mystery';
+    if (judgeFace('P12', validateBank(b, 'en'), /G2-343 title .* names the animal "Hedgehog"/)) faceKilled++;
+  }
+  // P14 — an F6 bank of six 13-letter names → the bank wraps to two rows (verify)
+  {
+    const p = rewiredFace('mystery', { fn: (h) => { let i = 0; return h.replace(/(data-lcs-bank-word=")[^"]*("[^>]*><img[^>]*><span>)[^<]*(<\/span>)/g, (m0, a, b, c) => a + 'Hippopotamus' + (i++) + b + 'Hippopotamus' + (i - 1) + c); } });
+    const { r } = await faceFindings(page, 'mystery', p, { baseName: 'G2-343-poison-P14' });
+    if (judgeFace('P14 verify', r.verify, /the bank is \d+ px high \(> 110/)) faceKilled++;
+  }
+  // PF1 — tick correct index constant at 0 (a position bot wins): every row's chips re-ordered so the truth is first
+  {
+    const p = rewiredFace('tick', { fn: (h) => h.replace(/data-lcs-correct="(\d)"/g, 'data-lcs-correct="0"') });
+    const { r, own } = await faceFindings(page, 'tick', p, { baseName: 'G2-339-poison-PF1' }, EXEMPLAR);
+    const a = judgeFace('PF1 verify', r.verify, /takes only positions 0 over|≠ the fact stamp/);
+    const b = judgeFace('PF1 node', own, /takes only positions|≠ table/);
+    if (a && b) faceKilled++;
+  }
+  // PF2 — a frames starter > 22 chars (refusal, the animal drops); PF3 — a frames starter printing its target fact (refusal)
+  {
+    const b2 = clone(en); b2.frames[0].text = '{def} is an animal that is';
+    const f2 = (() => { try { TYPE._buildWith.call(faceType('frames'), b2, TABLE, faceType('frames').difficulty[2], { theme: THEME, locale: 'en', unit: null }, { rng: makeRng('x') }); return []; } catch (e) { return [e.message]; } })();
+    const a = judgeFace('PF2', f2, /starter "The hedgehog is an animal that is" is 3\d chars > 22/);
+    const b3 = clone(en); b3.frames[2].text = '{def} eats both';   // 22 chars filled: the length rule stays silent, the target rule must fire
+    const f3 = (() => { try { TYPE._buildWith.call(faceType('frames'), b3, TABLE, faceType('frames').difficulty[2], { theme: THEME, locale: 'en', unit: null }, { rng: makeRng('x') }); return []; } catch (e) { return [e.message]; } })();
+    const b = judgeFace('PF3', f3, /prints its own target fact "both"/);
+    const c = judgeFace('PF3 validator', validateBank(b3, 'en'), /frame "\{def\} eats both" prints the option literal/);
+    if (a) faceKilled++;
+    if (b && c) faceKilled++;
+  }
+  // PF4 — a mystery clue naming the answer (verify: prints its answer; node: clue text ≠ bank)
+  {
+    const p = rewiredFace('mystery', { fn: (h) => {
+      const answer = /data-lcs-riddle="1" data-lcs-answer="([a-z]+)"/.exec(h)[1];
+      const word = new RegExp('data-lcs-bank="' + answer + '" data-lcs-bank-word="([^"]*)"').exec(h)[1];
+      return h.replace(/(data-lcs-riddle="1"[\s\S]*?<span data-lcs-clue="[^"]*"[^>]*>)[^<]*(<\/span>)/, '$1I am the ' + word.toLowerCase() + '.$2');
+    } });
+    const { r, own } = await faceFindings(page, 'mystery', p, { baseName: 'G2-343-poison-PF4' });
+    const a = judgeFace('PF4 verify', r.verify, /card 1: prints its answer/);
+    const b = judgeFace('PF4 node', own, /card 1 clue "I am the [a-z]+\." ≠ bank/);
+    if (a && b) faceKilled++;
+  }
+  // PF5 — compare chips swapped (different | same)
+  {
+    const p = rewiredFace('compare', { fn: (h) => h.replace(/(<span class="ws-pill" data-lcs-sd=")same("[^>]*>)same(<\/span>)(<span class="ws-pill" data-lcs-sd=")diff("[^>]*>)different(<\/span>)/, '$1diff$2different$3$4same$5same$6') });
+    const { r } = await faceFindings(page, 'compare', p, { baseName: 'G2-342-poison-PF5' });
+    if (judgeFace('PF5 verify', r.verify, /chips diff,same \(want same,diff/)) faceKilled++;
+  }
+  // PF6 — data-lcs-same flipped on one cell (verify re-derives from the printed stamps; node from the table)
+  {
+    const p = rewiredFace('compare', { fn: (h) => h.replace(/data-lcs-same="1"/, 'data-lcs-same="0"') });
+    const { r, own } = await faceFindings(page, 'compare', p, { baseName: 'G2-342-poison-PF6' });
+    const a = judgeFace('PF6 verify', r.verify, /data-lcs-same="0" but the files print the same/);
+    const b = judgeFace('PF6 node', own, /same="0" but the table says true/);
+    if (a && b) faceKilled++;
+  }
+  // PF7 — a draw box on the frames face
+  {
+    const p = rewiredFace('frames', { fn: (h) => h.replace('<div class="ws-lane" data-lcs-framelane', '<span data-lcs-drawbox style="display:block;width:300px;height:100px"></span><div class="ws-lane" data-lcs-framelane') });
+    const { r } = await faceFindings(page, 'frames', p, { baseName: 'G2-341-poison-PF7' }, EXEMPLAR);
+    if (judgeFace('PF7 verify', r.verify, /the frames face has a draw box/)) faceKilled++;
+  }
+  // PF8 — a mystery tile profile edited (node: ≠ table)
+  {
+    const p = rewiredFace('mystery', { fn: (h) => h.replace(/data-lcs-profile="class=([a-z]+);/, (m0, c) => `data-lcs-profile="class=${c === 'mammal' ? 'bird' : 'mammal'};`) });
+    const { own } = await faceFindings(page, 'mystery', p, { baseName: 'G2-343-poison-PF8' });
+    if (judgeFace('PF8 node', own, /profile ≠ table/)) faceKilled++;
+  }
+  // PF9 — a printed cell edited on the frames face (verify: text ≠ stamp; node: ≠ table)
+  {
+    const p = rewiredFace('frames', { fn: (h) => h.replace(/(<div data-lcs-mini-row data-lcs-field="diet"[\s\S]*?<span data-lcs-printed[^>]*>)both(<\/span>)/, '$1meat$2') });
+    const { r, own } = await faceFindings(page, 'frames', p, { baseName: 'G2-341-poison-PF9' }, EXEMPLAR);
+    const a = judgeFace('PF9 verify', r.verify, /printed row diet: text "meat" ≠ stamp "both"/);
+    const b = judgeFace('PF9 node', own, /printed diet "meat"/);
+    if (a && b) faceKilled++;
+  }
+  // PF10 — a bank word edited (verify: text ≠ stamp; node: lacks the truth)
+  {
+    const p = rewiredFace('bank', { fn: (h) => h.replace(/(data-lcs-bank-word="spines"[^>]*><span>)spines(<\/span>)/, '$1spine$2') });
+    const { r, own } = await faceFindings(page, 'bank', p, { baseName: 'G2-340-poison-PF10' }, EXEMPLAR);
+    const a = judgeFace('PF10 verify', r.verify, /bank word "spine" ≠ stamp "spines"/);
+    const b = judgeFace('PF10 node', own, /lacks the truth "spines"/);
+    if (a && b) faceKilled++;
+  }
+  console.log('face poisons:\n' + facePoisonLog.join('\n'));
+  ok(faceKilled === FACE_TOTAL, `face poison: ${faceKilled}/${FACE_TOTAL} killed`);
+  console.log(`[F] renders: ${pngs.length} PNGs under out/dev/${FACE_OUT}/`);
+}
 
 async function main() {
   const banks = bankMod.FACT_FILE;
@@ -602,14 +1126,17 @@ async function main() {
     console.log('poisons:\n' + poisonLog.join('\n'));
     ok(killed === TOTAL, `poison: ${killed}/${TOTAL} killed`);
     console.log(`renders: ${pngs.length} PNGs under out/dev/G2-318-gate-*`);
+    // F. the five faces
+    await runFaces(page, en);
   } finally {
     await browser.close();
   }
-  console.log(`verify-b3-animal-fact-file: ${assertions} assertions, ${fails.length} failures, poison ${killed}/${TOTAL}`);
+  console.log(`verify-b3-animal-fact-file: ${assertions} assertions, ${fails.length} failures, poison ${killed}/${TOTAL} base + ${faceKilled}/${FACE_TOTAL} faces`);
   fails.forEach((f) => console.log('  FAIL ' + f));
+  console.log(`G2-318 gate: ${fails.length ? 'FAIL' : 'PASS'} (${assertions} assertions, ${killed + faceKilled}/${TOTAL + FACE_TOTAL} poisons killed)`);
   process.exit(fails.length ? 1 : 0);
 }
 
 if (require.main === module) main().catch((e) => { console.error(e); process.exit(1); });
 
-module.exports = { validateBank, validateTable, LABEL_KEYS, CHIP_FIELDS };
+module.exports = { validateBank, validateTable, LABEL_KEYS, CHIP_FIELDS, FACE_IDS };

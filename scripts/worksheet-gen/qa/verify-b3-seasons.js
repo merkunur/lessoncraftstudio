@@ -1,8 +1,15 @@
 #!/usr/bin/env node
 /**
  * verify-b3-seasons.js — the K-322 `seasons` gate (design file §5; brief
- * deliverable 4). BASE face only; the face poisons P7 / P8 / P12 / P14 land
- * with Phase 2.
+ * deliverable 4) + the Phase-2 FACE sections (5-7, 2026-09-14): the five
+ * `layout` faces K-338 which · K-339 wheel · K-340 odd · G1-323 months ·
+ * K-341 tree render through the real pipeline at d2 under the en chrome and
+ * the de (3-line) / fi (4-line) long-chrome fixtures, the pt-BR §4 block in
+ * memory is the south-model control (inverted months, frame instead of tree,
+ * override winter pool), the F4 month widths are swept x11, a 20-seed face
+ * sweep, and the deferred face poisons P7 / P8 / P12 / P14 + PW / PC / PT / PM
+ * (each must FAIL for its own reason). Rule 8 now covers every face's
+ * strings; a locale block missing a face's strings records that face REFUSED.
  *
  *   node scripts/worksheet-gen/qa/verify-b3-seasons.js [--quick]
  *
@@ -235,22 +242,26 @@ function validateBlock(neutral, block, loc, opts) {
   const tree = block.faces && block.faces.tree;
   if (!tree || !['tree', 'frame'].includes(tree.figure)) push('faces.tree.figure must be tree|frame');
   else if (tree.captions !== null && !(tree.captions && KEYS.every((k) => typeof tree.captions[k] === 'string' && tree.captions[k].trim()))) push('faces.tree.captions must be null or x4');
-  // rule 8
-  const s = block.strings && block.strings['K-322'];
-  if (!s) push('strings K-322 missing');
-  else {
+  // rule 8 — the base's pair + every face's pair (Phase 2); a face without strings is REFUSED for the locale
+  const strings = block.strings || {};
+  if (!strings['K-322']) push('strings K-322 missing');
+  for (const id of ['K-338', 'K-339', 'K-340', 'G1-323', 'K-341']) if (!strings[id]) refusals.push(`${loc}: ${id} refused — no strings`);
+  const titles = new Set();
+  for (const [id, s] of Object.entries(strings)) {
     const title = s.title || '';
-    if (!title || [...title].length > 70) push(`title "${title}" > 70 chars or empty`);
-    if (WORKSHEET_WORD.test(title)) push('title carries the worksheet word');
+    if (!title || [...title].length > 70) push(`${id} title "${title}" > 70 chars or empty`);
+    if (WORKSHEET_WORD.test(title)) push(`${id} title carries the worksheet word`);
     const coll = COLLECTIVE[loc] || [];
-    if (coll.length && !coll.some((w) => nfd(title).includes(nfd(w)))) push(`title "${title}" lacks the collective season word (${coll.join('/')})`);
+    if (id === 'K-322' && coll.length && !coll.some((w) => nfd(title).includes(nfd(w)))) push(`title "${title}" lacks the collective season word (${coll.join('/')})`);
     for (const k of KEYS) {
       const n = names[k];
       if (n && new RegExp('(?<!\\p{L})' + nfd(n).replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?!\\p{L})', 'u').test(nfd(title))) push(`title "${title}" names a single season (${n})`);
     }
+    if (titles.has(nfd(title))) push(`${id} title "${title}" repeats another face's title`);
+    titles.add(nfd(title));
     const ins = s.instruction || '';
-    if (!ins || [...ins].length > 150) push('instruction > 150 chars or empty');
-    if (/[{}]/.test(ins)) push('instruction carries a slot');
+    if (!ins || [...ins].length > 150) push(`${id} instruction > 150 chars or empty`);
+    if (/[{}]/.test(ins)) push(`${id} instruction carries a slot`);
     if (CALENDAR_STEM.test(ins) || CALENDAR_STEM.test(title)) push('a calendar stem (K-321 owns it)');
   }
   if (typeof block.strand !== 'string' || !block.strand.trim()) push('no strand literal');
@@ -340,24 +351,417 @@ function collect(fn) {
   assertions = saved;
   return found;
 }
+/** The design's §4 pt-BR block in memory (the pt panel authors the real one): winter = no snow (K-207 nouns with a reason),
+ *  autumn = maple · persimmon (weak) · apple · harvest, spring = the neutral six + butterfly + bee; vetoes pumpkin / mushroom /
+ *  scarecrow / hedgehog. Strict autumn = 3 = the F1 / F3 floor exactly — one more pt autumn veto refuses both faces there. */
 const PT_OVERRIDE = {
   winter: { items: [
     { theme: 'winter', noun: 'coat', opened: true }, { theme: 'winter', noun: 'sweater', opened: true },
     { theme: 'winter', noun: 'boots', opened: true }, { theme: 'winter', noun: 'fireplace', opened: true },
     { theme: 'clothing', noun: 'scarf', opened: true }, { theme: 'clothing', noun: 'beanie', opened: true },
   ], reason: 'no snow in BR: the K-207 nouns coat/sweater/boots/scarf are a recorded exception' },
+  autumn: { items: [
+    { theme: 'tree', noun: 'maple', opened: true, vocabKey: null, alt: Object.fromEntries(LOCALES.map((l) => [l, 'a tree with red and orange leaves'])) },
+    { theme: 'fruits', noun: 'persimmon', opened: true, weak: true },
+    { theme: 'thanksgivinng', noun: 'apple', opened: true }, { theme: 'thanksgivinng', noun: 'harvest', opened: true },
+  ], reason: 'BR autumn: caqui + colheita; pumpkin / mushroom / scarecrow / hedgehog are not autumn markers in BR' },
+  spring: { items: [
+    { theme: 'spring', noun: 'tulip', opened: true }, { theme: 'spring', noun: 'bud', opened: true }, { theme: 'spring', noun: 'chick', opened: true },
+    { theme: 'spring', noun: 'duckling', opened: true }, { theme: 'spring', noun: 'lamb', opened: true }, { theme: 'spring', noun: 'nest', opened: true },
+    { theme: 'spring', noun: 'birdhouse', opened: true, weak: true }, { theme: 'spring', noun: 'butterfly', opened: true }, { theme: 'spring', noun: 'bee', opened: true },
+  ], reason: 'BR spring adds butterfly + bee (panel)' },
 };
+const PT_VETO = [
+  { theme: 'thanksgivinng', noun: 'pumpkin', reason: 'pt veto' }, { theme: 'vegetables', noun: 'mushroom', reason: 'pt veto' },
+  { theme: 'thanksgivinng', noun: 'scarecrow', reason: 'espantalho = festa junina (June)' }, { theme: 'forest creatures', noun: 'hedgehog', reason: 'pt veto' },
+];
 function ptBlock(en) {
   const b = clone(en);
   b.names = { winter: 'inverno', spring: 'primavera', summer: 'verão', autumn: 'outono' };
   b.alt = { autumn: null };
   b.model = 'temperate-south';
   b.monthSeason = SOUTH.slice();
-  b.veto = [];
+  b.veto = clone(PT_VETO);
   b.override = clone(PT_OVERRIDE);
   b.strings = { 'K-322': { title: 'As quatro estações do ano', instruction: 'Ligue o ponto de cada figura à caixa da estação a que ela pertence.' } };
   b.strand = 'BNCC EI: Espaços, tempos, quantidades, relações e transformações';
   return b;
+}
+
+const rx = (x) => String(x).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+/* ====================================================================== PHASE 2 — the faces (sections 5-7) */
+const { loadType } = require('../lib/load-types.js');
+const C3 = require('../templates/components-b3.js');
+const { NAMES: CAL_NAMES } = require('../data/b2/calendar.js');
+const { COLOR_WORDS } = require('../data/color-words.js');
+const FACE_ROWS = require('../tools/b3var-rows/seasons.js').ROWS;
+const FACES = { which: 'K-338', wheel: 'K-339', odd: 'K-340', months: 'G1-323', tree: 'K-341' };
+const WORD_OF = { codeRed: 'red', codeBlue: 'blue', codeYellow: 'yellow', codeGreen: 'green', codeOrange: 'orange', codePurple: 'purple', codeBrown: 'brown', codePink: 'pink' };
+/** Long-chrome fixtures: a 70-char title + a 150-char instruction; de wraps the title to 3 lines, fi (long words) to 4. body = the ceiling the render must squeeze to. */
+const LONG = {
+  de: { title: 'Jahreszeiten erkennen: Welche Bilder gehören zu welcher Jahreszeit? Ja', instruction: 'Schau dir die Bilder auf jeder Karte genau an, überlege dir, zu welcher Jahreszeit sie gehören, und kreise dann das passende Zeichen für diese Jahreszeit ein.'.slice(0, 150), body: 740 },
+  fi: { title: 'Vuodenaikojen tunnistaminen: ympyröi oikea vuodenaikamerkki jokaiselle', instruction: 'Katso jokaisen kortin kolmea kuvaa tarkasti, mieti mihin vuodenaikaan ne kuuluvat ja ympyröi sitten kortin alareunasta sen vuodenajan merkki huolellisesti.'.slice(0, 150), body: 710 },
+};
+
+/** The face-aware measurement: root stamps, the lowest content edge, and per-layout geometry. */
+async function renderFace(page, type, { locale = 'en', baseName, strings }) {
+  const out = await renderInstance({ type, theme: null, difficulty: 2, locale, page, outDir: OUT, baseName, strings });
+  const m = await page.evaluate(() => {
+    const root = document.querySelector('[data-ws-content][data-lcs-seasons]');
+    const body = document.querySelector('[data-lcs-body]').getBoundingClientRect();
+    const foot = document.querySelector('.ws-foot').getBoundingClientRect().top;
+    const rect = (el) => { const r = el.getBoundingClientRect(); return { left: r.left, right: r.right, top: r.top, bottom: r.bottom, w: r.width, h: r.height }; };
+    let lowest = 0;
+    if (root) root.querySelectorAll('*').forEach((el) => { const r = el.getBoundingClientRect(); if (r.width && r.height && r.bottom > lowest) lowest = r.bottom; });
+    const stamps = root ? { ...root.dataset } : null;
+    const layout = stamps ? stamps.lcsLayout : null;
+    const m = { stamps, layout, body: { ...rect(document.querySelector('[data-lcs-body]')) }, foot, lowest, stage: root ? rect(root) : null,
+      icons: [...document.querySelectorAll('[data-lcs-item] .ws-icon')].map((el) => Math.min(el.offsetWidth, el.offsetHeight)),
+      items: [...document.querySelectorAll('[data-lcs-item]')].map((el) => ({ item: el.dataset.lcsItem, season: el.dataset.lcsSeason })) };
+    if (layout === 'which') {
+      m.cards = [...root.querySelectorAll('[data-lcs-which]')].map((c) => ({ answer: c.dataset.lcsAnswer, markers: [...c.querySelectorAll('[data-lcs-item]')].map((e) => e.dataset.lcsItem),
+        choices: [...c.querySelectorAll('[data-lcs-choice]')].map((t) => ({ key: t.dataset.lcsChoice, w: t.getBoundingClientRect().width, glyph: Math.min(t.querySelector('[data-lcs-icon]').getBoundingClientRect().width, t.querySelector('[data-lcs-icon]').getBoundingClientRect().height) })),
+        stage: rect(c), card: rect(c.closest('.ws-card')) }));
+    }
+    if (layout === 'wheel') {
+      m.slots = [...root.querySelectorAll('[data-lcs-slot]')].map((s) => { const n = s.querySelector('.ws-season-slot-name'); return { key: s.dataset.lcsSlot, given: s.dataset.lcsGiven, w: s.getBoundingClientRect().width, name: n ? n.textContent.trim() : null, nameW: n ? n.scrollWidth : 0 }; });
+      m.bank = [...root.querySelectorAll('[data-lcs-model]')].map((b) => { const n = b.querySelector('.ws-season-model-name'); return { key: b.dataset.lcsModel, w: b.clientWidth, name: n ? n.textContent.trim() : null, nameW: n ? n.scrollWidth : 0 }; });
+      m.wheel = rect(root.querySelector('[data-lcs-wheel]'));
+    }
+    if (layout === 'odd') {
+      m.rows = [...root.querySelectorAll('[data-lcs-odd-row]')].map((r) => ({ majority: r.dataset.lcsMajority, odd: +r.dataset.lcsOdd, h: r.getBoundingClientRect().height, items: [...r.querySelectorAll('[data-lcs-item]')].map((e) => ({ item: e.dataset.lcsItem, season: e.dataset.lcsSeason, tile: e.getBoundingClientRect().width })) }));
+    }
+    if (layout === 'months') {
+      m.tiles = [...root.querySelectorAll('[data-lcs-month]')].map((t) => { const n = t.querySelector('.ws-month-name'); const a = t.querySelector('[data-lcs-circle],[data-lcs-write]'); const tr = t.getBoundingClientRect(); const nr = n.getBoundingClientRect(); const ar = a ? a.getBoundingClientRect() : null;
+        return { month: +t.dataset.lcsMonth, season: t.dataset.lcsSeason, name: n.textContent.trim(), nameW: n.scrollWidth, w: tr.width, h: tr.height, circle: ar ? Math.min(ar.width, ar.height) : 0, clearance: ar ? ar.left - nr.right : null, answerInside: ar ? ar.right <= tr.right - parseFloat(getComputedStyle(t).paddingRight) + 0.6 : false }; });
+      m.legend = [...root.querySelectorAll('[data-lcs-legend]')].map((l) => ({ key: l.dataset.lcsLegend, color: l.dataset.lcsColor, name: l.querySelector('.ws-season-legend-name').textContent.trim(), word: l.querySelector('[data-lcs-colorword]').textContent.trim(), swatchBg: getComputedStyle(l.querySelector('[data-lcs-swatch]')).backgroundColor }));
+      m.legendH = root.querySelector('[data-lcs-legend-row]').getBoundingClientRect().height;
+      m.grid = rect(root.querySelector('[data-lcs-months-grid]'));
+    }
+    if (layout === 'tree') {
+      m.cards = [...root.querySelectorAll('[data-lcs-tree-card]')].map((c) => { const o = c.querySelector('[data-lcs-open]'); const n = c.querySelector('.ws-season-tree-name'); return { key: c.dataset.lcsTreeCard, name: n ? n.textContent.trim() : null, open: o ? o.dataset.lcsOpen : null, openRect: o ? rect(o) : null, card: rect(c.closest('.ws-card')), imgs: c.querySelectorAll('img').length }; });
+    }
+    return m;
+  });
+  return { lints: out.qa.lints, verify: out.qa.verify, m, png: out.pngPath };
+}
+
+function assertFaceCommon(name, r, layout) {
+  ok(r.verify.length === 0, `${name}: verify() ${JSON.stringify(r.verify)}`);
+  ok(r.lints.length === 0, `${name}: lints ${JSON.stringify(r.lints)}`);
+  ok(r.m.layout === layout, `${name}: root stamp layout "${r.m.layout}" ≠ ${layout}`);
+  ok(r.m.stage && r.m.stage.left >= r.m.body.left - 0.6 && r.m.stage.right <= r.m.body.right + 0.6, `${name}: stage outside the body column`);
+  ok(r.m.lowest <= r.m.foot + 0.6, `${name}: content reaches ${Math.round(r.m.lowest)} into the footer band at ${Math.round(r.m.foot)}`);
+}
+function assertWhich(name, r, neutral, block, d) {
+  assertFaceCommon(name, r, 'which');
+  ok(r.m.cards.length === d.cards, `${name}: ${r.m.cards.length} cards ≠ ${d.cards}`);
+  ok(r.m.icons.length === d.cards * d.markers && r.m.icons.every((px) => Math.abs(px - d.iconPx) < 0.6) && Math.min(...r.m.icons) >= 88, `${name}: marker icons ${JSON.stringify(r.m.icons)} ≠ ${d.iconPx} (floor 88)`);
+  for (const c of r.m.cards) {
+    ok(c.choices.length === d.choices && c.choices.every((t) => t.w >= d.choiceTile - 0.6 && t.glyph >= 56 - 0.6), `${name}: choice tiles ${JSON.stringify(c.choices.map((t) => [Math.round(t.w), Math.round(t.glyph)]))} below 68 / glyph 56`);
+    ok(c.stage.left >= c.card.left - 0.6 && c.stage.right <= c.card.right + 0.6 && c.stage.bottom <= c.card.bottom + 0.6, `${name}: a card's stage spills out of its card`);
+  }
+  const answers = r.m.cards.map((c) => c.answer);
+  ok(new Set(answers).size === 4 && answers.every((a) => KEYS.includes(a)), `${name}: answers ${answers.join(',')} are not a permutation of the four seasons`);
+  nodeGate(name, r, neutral, block, d);
+}
+function assertWheel(name, r, block, d) {
+  assertFaceCommon(name, r, 'wheel');
+  ok(r.m.slots.map((s) => s.key).join(',') === block.cycle.join(','), `${name}: slots ${r.m.slots.map((s) => s.key).join(',')} ≠ the ${'bank'} cycle ${block.cycle.join(',')}`);
+  ok(r.m.slots.filter((s) => s.given === '1').length === d.given, `${name}: ${r.m.slots.filter((s) => s.given === '1').length} given slots ≠ ${d.given}`);
+  ok(r.m.slots.every((s) => s.w >= 110 - 0.6), `${name}: a slot is narrower than 110`);
+  ok(r.m.bank.length === d.tiles, `${name}: bank ${r.m.bank.length} tiles ≠ ${d.tiles}`);
+  for (const s of r.m.slots.filter((x) => x.given === '1')) ok(s.name === block.names[s.key], `${name}: slot ${s.key} prints "${s.name}" ≠ bank name "${block.names[s.key]}"`);
+  for (const b of r.m.bank) ok(b.name === block.names[b.key] && b.nameW <= b.w - 4 + 0.6, `${name}: bank tile ${b.key} "${b.name}" (${Math.round(b.nameW)} px) ≠ bank name or wider than its tile`);
+  ok(r.m.wheel && Math.abs(r.m.wheel.w - 440) < 0.6 && Math.abs(r.m.wheel.h - 440) < 0.6, `${name}: wheel ${r.m.wheel && Math.round(r.m.wheel.w)} px ≠ 440`);
+}
+function assertOdd(name, r, neutral, block, d) {
+  assertFaceCommon(name, r, 'odd');
+  ok(r.m.rows.length === d.rows, `${name}: ${r.m.rows.length} rows ≠ ${d.rows}`);
+  ok(r.m.icons.length === d.rows * d.items && r.m.icons.every((px) => Math.abs(px - d.iconPx) < 0.6) && Math.min(...r.m.icons) >= 96, `${name}: icons ${JSON.stringify(r.m.icons)} ≠ ${d.iconPx} (floor 96)`);
+  ok(r.m.rows.every((row) => row.h >= (d.rowMin || 140) - 0.6), `${name}: a row is shorter than ${d.rowMin || 140} (${r.m.rows.map((x) => Math.round(x.h)).join('/')})`);
+  ok(new Set(r.m.rows.map((row) => row.majority)).size === 4, `${name}: majorities ${r.m.rows.map((x) => x.majority).join(',')} are not the four seasons`);
+  ok(new Set(r.m.rows.map((row) => row.odd)).size >= 2, `${name}: the intruder index ${r.m.rows.map((x) => x.odd).join('')} is constant`);
+  nodeGate(name, r, neutral, block, d);
+  // the intruder's bank pool ≠ the majority (a second, independent reading of the bank)
+  let pools; try { pools = effectivePools(neutral, block, !!d.allowWeak); } catch (e) { pools = null; }
+  if (pools) for (const row of r.m.rows) {
+    const [theme, noun] = row.items[row.odd].item.split('/');
+    const home = KEYS.find((k) => pools[k].some((p) => p.theme === theme && p.noun === noun));
+    ok(home && home !== row.majority, `${name}: row ${row.majority} intruder ${row.items[row.odd].item} is pooled under ${home} — not an intruder`);
+  }
+}
+function assertMonths(name, r, block, d, loc) {
+  assertFaceCommon(name, r, 'months');
+  const cal = CAL_NAMES[loc].monthNames;
+  ok(r.m.tiles.length === 12, `${name}: ${r.m.tiles.length} tiles`);
+  r.m.tiles.forEach((t, i) => {
+    ok(t.month === i && t.name === cal[i], `${name}: tile ${i + 1} "${t.name}" (month ${t.month}) ≠ calendar "${cal[i]}"`);
+    ok(t.season === block.monthSeason[i], `${name}: node gate — ${t.name} stamped ${t.season} but the bank's monthSeason says ${block.monthSeason[i]}`);
+    ok(t.circle >= 44 - 0.6 && Math.abs(t.circle - d.circle) < 0.6, `${name}: ${t.name} circle ${Math.round(t.circle)} ≠ ${d.circle} (G1 floor 44)`);
+    ok(t.clearance != null && t.clearance >= 8 && t.answerInside, `${name}: "${t.name}" (${Math.round(t.nameW)} px) clears the circle by ${t.clearance == null ? '?' : Math.round(t.clearance)} px (< 8) or the circle leaves the tile ${Math.round(t.w)}`);
+    ok(t.h >= d.tileH - 0.6 && t.h <= (d.tileMax || 128) + 0.6 && Math.abs(t.w - d.tileW) < 0.6, `${name}: ${t.name} tile ${Math.round(t.w)} × ${Math.round(t.h)} outside ${d.tileW} × ${d.tileH}..${d.tileMax || 128}`);
+  });
+  ok(r.m.legend.map((l) => l.key).join(',') === block.cycle.join(','), `${name}: legend ${r.m.legend.map((l) => l.key).join(',')} ≠ the cycle`);
+  for (const l of r.m.legend) {
+    ok(l.color === block.legend[l.key] && l.name === block.names[l.key], `${name}: legend ${l.key} prints "${l.name}" / ${l.color} ≠ the bank`);
+    ok(l.word === COLOR_WORDS[loc][WORD_OF[l.color]], `${name}: legend ${l.key} colour word "${l.word}" ≠ COLOR_WORDS.${loc}.${WORD_OF[l.color]}`);
+  }
+  ok(r.m.grid && r.m.grid.right <= r.m.body.right + 0.6 && r.m.grid.left >= r.m.body.left - 0.6, `${name}: the month grid leaves the body column`);
+  return r.m.tiles.reduce((w, t) => Math.max(w, t.nameW), 0);
+}
+function assertTree(name, r, block, figure) {
+  assertFaceCommon(name, r, 'tree');
+  ok(r.m.cards.map((c) => c.key).join(',') === block.cycle.join(','), `${name}: cards ${r.m.cards.map((c) => c.key).join(',')} ≠ the cycle`);
+  ok(r.m.stamps.lcsFigure === figure, `${name}: figure stamp ${r.m.stamps.lcsFigure} ≠ ${figure}`);
+  for (const c of r.m.cards) {
+    ok(c.name === block.names[c.key], `${name}: card ${c.key} prints "${c.name}" ≠ bank name`);
+    ok(c.open === figure && c.openRect && c.openRect.w >= 260 - 0.6 && c.openRect.h >= 250 - 0.6, `${name}: card ${c.key} open area ${c.open} ${c.openRect && Math.round(c.openRect.w)} × ${c.openRect && Math.round(c.openRect.h)} ≠ ${figure} 260 × 250`);
+    ok(c.openRect && c.openRect.bottom <= c.card.bottom + 0.6 && c.openRect.right <= c.card.right + 0.6, `${name}: card ${c.key} open area leaves its card`);
+    ok(c.imgs === 0, `${name}: card ${c.key} prints a picture`);
+  }
+}
+
+function faceType(layout, neutral, block) {
+  const T = loadType(FACES[layout]);
+  return Object.assign({}, T, { build(args, ctx) { return this._buildWith({ neutral, block }, args, ctx); } });   // `this` = the copy, so a difficulty override on it is honoured
+}
+
+async function runFaces({ page, neutral, en, pngs }) {
+  const T = Object.fromEntries(Object.entries(FACES).map(([k, id]) => [k, loadType(id)]));
+  const cfg = Object.fromEntries(Object.keys(FACES).map((k) => [k, T[k].difficulty[2]]));
+  let killed = 0;
+  const log = [];
+
+  // 5a. the rows module, the emitted specs and the bank strings are ONE source
+  for (const row of FACE_ROWS) {
+    const [dir, id, slug, , , over, title, instr, extra] = row;
+    const layout = over.layout;
+    ok(FACES[layout] === id, `rows: ${id} layout "${layout}" is not the face the design gives that id`);
+    const file = path.join(__dirname, '..', 'types', dir, `${id}-${slug}.js`);
+    ok(fs.existsSync(file), `rows: ${id} not emitted at types/${dir}/${id}-${slug}.js (run tools/gen-b3var-specs.js)`);
+    const spec = T[layout];
+    ok(spec.id === id && spec.difficulty[2].layout === layout, `${id}: emitted spec id/layout drift`);
+    ok(spec.i18n.en.title === title && spec.i18n.en.instruction === instr, `${id}: emitted i18n ≠ the row`);
+    const s = en.strings[id];
+    ok(s && s.title === title && s.instruction === instr, `${id}: data/b3/seasons.js strings['${id}'] ≠ the row's EN pair (one source)`);
+    ok(spec.gradeBand === (extra && extra.gradeBand ? extra.gradeBand : 'K'), `${id}: gradeBand ${spec.gradeBand}`);
+    ok(spec.themeAxis && spec.themeAxis.applicable === false, `${id}: the face must stay themeless`);
+    for (const k of Object.keys(cfg[layout])) if (k in over) ok(JSON.stringify(cfg[layout][k]) === JSON.stringify(over[k]), `${id}: config ${k} ≠ the row`);
+  }
+  ok(FACE_ROWS.length === 5, `rows: ${FACE_ROWS.length} rows, want 5`);
+  for (const k of Object.keys(LONG)) ok([...LONG[k].title].length === 70 && [...LONG[k].instruction].length === 150, `long-chrome fixture ${k} is ${[...LONG[k].title].length}/${[...LONG[k].instruction].length} chars, want 70/150`);
+
+  // 5b. renders — en chrome + both long-chrome fixtures, every face
+  const fixtures = [['en', null], ['de', LONG.de], ['fi', LONG.fi]];
+  const results = {};
+  for (const [layout, id] of Object.entries(FACES)) {
+    for (const [fx, strings] of fixtures) {
+      const name = `${id} ${layout}${fx === 'en' ? '' : ' long chrome ' + fx}`;
+      const r = await renderFace(page, T[layout], { baseName: `${id}-gate-d2-en${fx === 'en' ? '' : '-longchrome-' + fx}`, strings });
+      pngs.push(r.png);
+      if (strings) ok(r.m.body.h <= LONG[fx].body, `${name}: body ${Math.round(r.m.body.h)} px — the fixture did not squeeze the body to <= ${LONG[fx].body}`);
+      let extra = '';
+      if (layout === 'which') { assertWhich(name, r, neutral, en, cfg.which); extra = ` cards ${r.m.cards.map((c) => c.answer).join('/')} positions ${r.m.cards.map((c) => c.choices.findIndex((t) => t.key === c.answer)).join('')}`; }
+      else if (layout === 'wheel') { assertWheel(name, r, en, cfg.wheel); extra = ` slots ${r.m.slots.map((s) => s.key + (s.given === '1' ? '*' : '')).join('>')} bank ${r.m.bank.map((b) => b.key).join(',')}`; }
+      else if (layout === 'odd') { assertOdd(name, r, neutral, en, cfg.odd); extra = ` rows ${r.m.rows.map((x) => Math.round(x.h)).join('/')} px majorities ${r.m.rows.map((x) => x.majority).join('/')} odd ${r.m.rows.map((x) => x.odd).join('')}`; }
+      else if (layout === 'months') { const w = assertMonths(name, r, en, cfg.months, 'en'); extra = ` tiles ${Math.round(r.m.tiles[0].h)} px widest month ${Math.round(w)} px legend ${Math.round(r.m.legendH)} px`; }
+      else { assertTree(name, r, en, 'tree'); extra = ` cards ${r.m.cards.map((c) => c.key).join('/')} open ${Math.round(r.m.cards[0].openRect.w)} × ${Math.round(r.m.cards[0].openRect.h)}`; }
+      if (fx === 'en') results[layout] = r;
+      console.log(`render ${name}: verify ${r.verify.length} lints ${r.lints.length} body ${Math.round(r.m.body.h)} px lowest ${Math.round(r.m.lowest)} vs foot ${Math.round(r.m.foot)}${extra}`);
+    }
+  }
+  // an unauthored locale REFUSES on every face
+  for (const [layout, id] of Object.entries(FACES)) {
+    let refused = false;
+    try { T[layout].build({ theme: null, difficulty: 2, locale: 'de' }, { rng: makeRng('x') }); } catch (e) { refused = /no de block/.test(e.message); }
+    ok(refused, `${id} ${layout}: an unauthored locale must REFUSE (throw), not fall back to en`);
+  }
+  // 5c. the pt-BR CONTROL (the §4 block in memory): F4 follows the inverted tuple, F5 re-targets to the frame,
+  // F1 / F3 draw the override winter pool (no snow marker ever), the base's node gate holds
+  {
+    const b = ptBlock(en);
+    b.faces = { tree: { figure: 'frame', captions: null } };
+    for (const id of Object.keys(FACES).map((k) => FACES[k])) b.strings[id] = en.strings[id];
+    const rm = await renderFace(page, faceType('months', neutral, b), { locale: 'pt', baseName: 'G1-323-gate-d2-pt-control', strings: en.strings['G1-323'] });
+    pngs.push(rm.png);
+    assertMonths('G1-323 pt control', rm, b, cfg.months, 'pt');
+    ok(rm.m.tiles.map((t) => t.season).join(',') === SOUTH.join(','), `G1-323 pt control: tiles ${rm.m.tiles.map((t) => t.season).join(',')} ≠ the inverted tuple`);
+    const rt = await renderFace(page, faceType('tree', neutral, b), { locale: 'pt', baseName: 'K-341-gate-d2-pt-control', strings: en.strings['K-341'] });
+    pngs.push(rt.png);
+    assertTree('K-341 pt control', rt, b, 'frame');
+    for (const layout of ['which', 'odd']) {
+      const r = await renderFace(page, faceType(layout, neutral, b), { locale: 'pt', baseName: `${FACES[layout]}-gate-d2-pt-control`, strings: en.strings[FACES[layout]] });
+      pngs.push(r.png);
+      if (layout === 'which') assertWhich(`${FACES[layout]} pt control`, r, neutral, b, cfg.which); else assertOdd(`${FACES[layout]} pt control`, r, neutral, b, cfg.odd);
+      ok(!r.m.items.some((it) => /^winter\/(snowman|sled|sledding|skiing|skating|snowboarding|icicle|ice)$/.test(it.item)), `${FACES[layout]} pt control: a snow marker on a pt page (${r.m.items.map((i) => i.item).join(' ')})`);
+      ok(r.m.items.some((it) => it.season === 'winter' && /^(winter|clothing)\/(coat|sweater|boots|fireplace|scarf|beanie)$/.test(it.item)) || layout === 'odd', `${FACES[layout]} pt control: no override winter marker on the page`);
+    }
+    console.log(`render pt control: months ${rm.m.tiles.map((t) => t.season[0]).join('')} tree figure ${rt.m.stamps.lcsFigure}`);
+  }
+  // 5e. F2 widest-name control: the widest §4 names (`printemps` 84 px, `primavera` 83 px at 18) in the GIVEN slot (a panel may
+  //     start the cycle at spring — de does; pt is open) must stay inside the 110 circle — verify() measures the name box against it
+  for (const [loc, names] of [['fr', { winter: 'hiver', spring: 'printemps', summer: 'été', autumn: 'automne' }], ['es', { winter: 'invierno', spring: 'primavera', summer: 'verano', autumn: 'otoño' }]]) {
+    const b = clone(en); b.names = names; b.alt = { autumn: null }; b.cycleStart = 'spring'; b.cycle = ['spring', 'summer', 'autumn', 'winter'];
+    const r = await renderFace(page, faceType('wheel', neutral, b), { locale: loc, baseName: `K-339-gate-d2-${loc}-spring-start`, strings: en.strings['K-339'] });
+    pngs.push(r.png);
+    assertWheel(`K-339 ${loc} spring-start control`, r, b, cfg.wheel);
+    const given = r.m.slots.find((x) => x.given === '1');
+    console.log(`render K-339 ${loc} spring-start control: verify ${r.verify.length} given "${given.name}" ${Math.round(given.nameW)} px bank ${r.m.bank.map((x) => x.name + ' ' + Math.round(x.nameW)).join(' / ')}`);
+  }
+  // 5d. F4 width sweep x11 (the en bank injected; the month names + colour words come from the locale): every widest month clears the circle
+  {
+    const widths = [];
+    for (const loc of LOCALES) {
+      const r = await renderFace(page, faceType('months', neutral, en), { locale: loc, baseName: `G1-323-gate-d2-${loc}-widths`, strings: en.strings['G1-323'] });
+      if (loc === 'es' || loc === 'fi') pngs.push(r.png);
+      const w = assertMonths(`G1-323 widths ${loc}`, r, en, cfg.months, loc);
+      const t = r.m.tiles.reduce((a, x) => (x.nameW > a.nameW ? x : a), r.m.tiles[0]);
+      widths.push(`${loc} ${t.name} ${Math.round(w)} (+${Math.round(t.clearance)})`);
+    }
+    console.log(`F4 widest month at 22 px: ${widths.join(' · ')}`);
+  }
+
+  // 6. face sweep — 20 seeds each (build only)
+  if (!QUICK) {
+    const whichSets = new Set(), oddSets = new Set(), wheelOrders = new Set();
+    for (let k = 1; k <= 20; k++) {
+      const rng = (id) => makeRng(instanceSeed({ typeId: id, theme: null, difficulty: 2, seedEpoch: k }));
+      const w = T.which.build({ theme: null, difficulty: 2, locale: 'en' }, { rng: rng('K-338') });
+      ok(new Set(w.meta.answers).size === 4, `sweep seed ${k}: F1 answers ${w.meta.answers.join(',')} repeat a season`);
+      const nouns = w.meta.cards.flat();
+      ok(new Set(nouns.map((x) => x.split('/')[1])).size === nouns.length, `sweep seed ${k}: F1 a noun twice`);
+      whichSets.add(nouns.slice().sort().join(','));
+      const o = T.odd.build({ theme: null, difficulty: 2, locale: 'en' }, { rng: rng('K-340') });
+      ok(new Set(o.meta.odd).size >= 2, `sweep seed ${k}: F3 odd index ${o.meta.odd.join('')} constant`);
+      ok(new Set(o.meta.majorities).size === 4, `sweep seed ${k}: F3 majorities ${o.meta.majorities.join(',')}`);
+      oddSets.add(o.meta.intruders.slice().sort().join(','));
+      const wh = T.wheel.build({ theme: null, difficulty: 2, locale: 'en' }, { rng: rng('K-339') });
+      const miss = en.cycle.slice(1);
+      ok(wh.meta.bank.join(',') !== miss.join(',') && wh.meta.bank.join(',') !== miss.slice().reverse().join(','), `sweep seed ${k}: F2 bank ${wh.meta.bank.join(',')} is clockwise or reversed`);
+      wheelOrders.add(wh.meta.bank.join(','));
+    }
+    ok(whichSets.size >= 2 && oddSets.size >= 2 && wheelOrders.size >= 2, `sweep faces: too few distinct pages (F1 ${whichSets.size} / F3 ${oddSets.size} / F2 ${wheelOrders.size})`);
+    console.log(`sweep faces: F1 ${whichSets.size} distinct marker sets, F3 ${oddSets.size} distinct intruder sets, F2 ${wheelOrders.size} distinct bank orders over 20 seeds`);
+  }
+
+  // 7. face poisons (each must FAIL for its OWN reason; the renders above are the controls)
+  const rewrite = (layout, block, fn) => Object.assign({}, T[layout], { build(args, ctx) { const o = T[layout]._buildWith({ neutral, block }, args, ctx); o.bodyHtml = fn(o.bodyHtml, o.meta); return o; } });
+  // P7 — an F1 card whose markers come from TWO pools (the first card's first marker re-stamped + re-pictured as a marker of another season)
+  {
+    const t = rewrite('which', en, (html, meta) => {
+      const first = meta.cards[0][0];                                   // theme/noun of card 1 marker 1
+      const other = KEYS.find((k) => k !== meta.answers[0]);
+      const swap = effectivePools(neutral, en, false)[other].find((it) => !meta.cards.flat().includes(it.theme + '/' + it.noun));
+      const [th, no] = first.split('/');
+      const re = new RegExp(`data-lcs-item="${th.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\$&')}/${no}" data-lcs-season="${meta.answers[0]}" style="[^"]*"><img class="ws-icon" src="[^"]*"`);
+      if (!re.test(html)) throw new Error('P7: marker not found');
+      return html.replace(re, (m) => m.replace(/data-lcs-item="[^"]*"/, `data-lcs-item="${swap.theme}/${swap.noun}"`).replace(/data-lcs-season="[^"]*"/, `data-lcs-season="${other}"`).replace(/src="[^"]*"/, `src="${fileUri(swap.theme, swap.noun)}"`));
+    });
+    const r = await renderFace(page, t, { baseName: 'K-338-gate-poison-P7' });
+    const found = collect(() => assertWhich('P7', r, neutral, en, cfg.which));
+    if (judge('P7', r.verify.concat(found), /markers from two pools|node gate — .* stamped/)) killed++;
+  }
+  // P8 — an F3 row with two intruders (the row's second majority item re-stamped + re-pictured from the intruder's pool)
+  {
+    const t = rewrite('odd', en, (html, meta) => {
+      const row0 = html.match(/<div class="ws-lane" data-lcs-odd-row="0"[\s\S]*?<\/div><\/div>/)[0];
+      const items = [...row0.matchAll(/data-lcs-item="([^"]+)" data-lcs-season="([^"]+)"/g)];
+      const maj = meta.majorities[0];
+      const majItems = items.filter((m) => m[2] === maj);
+      const victim = majItems[0];
+      const intr = items.find((m) => m[2] !== maj);
+      const pool = effectivePools(neutral, en, false)[intr[2]].filter((it) => !items.some((m) => m[1] === it.theme + '/' + it.noun));
+      const swap = pool[0];
+      const [th, no] = victim[1].split('/');
+      const re = new RegExp(`data-lcs-item="${th.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\$&')}/${no}" data-lcs-season="${maj}">\\s*<img class="ws-icon" src="[^"]*"`);
+      if (!re.test(row0)) throw new Error('P8: majority item not found');
+      const row0b = row0.replace(re, (m) => m.replace(/data-lcs-item="[^"]*"/, `data-lcs-item="${swap.theme}/${swap.noun}"`).replace(/data-lcs-season="[^"]*"/, `data-lcs-season="${intr[2]}"`).replace(/src="[^"]*"/, `src="${fileUri(swap.theme, swap.noun)}"`));
+      return html.replace(row0, row0b);
+    });
+    const r = await renderFace(page, t, { baseName: 'K-340-gate-poison-P8' });
+    if (judge('P8', r.verify, /row 1: 2 intruders/)) killed++;
+  }
+  // P12 — the F2 bank in clockwise order (built past the shuffle: the bank tiles re-ordered to the cycle)
+  {
+    const t = rewrite('wheel', en, (html, meta) => {
+      const tiles = [...html.matchAll(/<div class="ws-season-model" data-lcs-model="([^"]+)"[\s\S]*?<\/span><\/div>/g)];
+      if (tiles.length !== 3) throw new Error('P12: 3 tiles expected');
+      const byKey = Object.fromEntries(tiles.map((m) => [m[1], m[0]]));
+      const cw = en.cycle.slice(1).map((k) => byKey[k]).join('');
+      return html.replace(tiles.map((m) => m[0]).join(''), cw);
+    });
+    const r = await renderFace(page, t, { baseName: 'K-339-gate-poison-P12' });
+    if (judge('P12', r.verify, /bank .* is the clockwise order/)) killed++;
+  }
+  // P14 — F4 tiles 200 wide with `septiembre` at 22 + circle 44 (the design's poison): the name runs into the circle / the circle leaves the tile
+  {
+    const b = clone(en); b.names = { winter: 'invierno', spring: 'primavera', summer: 'verano', autumn: 'otoño' }; b.alt = { autumn: null };
+    const d2 = { ...cfg.months, tileW: 200, colGap: 22, circle: 44 };
+    const t = Object.assign({}, faceType('months', neutral, b), { difficulty: { 1: d2, 2: d2, 3: d2 } });
+    const r = await renderFace(page, t, { locale: 'es', baseName: 'G1-323-gate-poison-P14', strings: en.strings['G1-323'] });
+    const found = collect(() => assertMonths('P14', r, b, d2, 'es'));
+    const sep = r.m.tiles.find((x) => x.month === 8);
+    if (judge('P14', r.verify.concat(found), /septiembre.*(runs into the answer spot|clears the circle by|the circle leaves the tile)|answer spot: outside its container/, `septiembre ${sep ? Math.round(sep.nameW) : '?'} px, clearance ${sep ? Math.round(sep.clearance) : '?'} at tile 200`)) killed++;
+  }
+  // PW — F1 two cards with the same answer at distinctSeasons (the second card's answer stamp + markers cloned from the first)
+  {
+    const t = rewrite('which', en, (html) => {
+      const stages = [...html.matchAll(/<div class="ws-card-stage" data-lcs-which="(\d)"[\s\S]*?<\/div><\/div>/g)];
+      if (stages.length < 2) throw new Error('PW: stages');
+      const clone2 = stages[0][0].replace('data-lcs-which="1"', 'data-lcs-which="2"');
+      return html.replace(stages[1][0], clone2);
+    });
+    const r = await renderFace(page, t, { baseName: 'K-338-gate-poison-PW' });
+    if (judge('PW', r.verify, /repeat a season \(distinctSeasons\)|appears twice on the page/)) killed++;
+  }
+  // PC — F3 the intruder at the same index in every row (built past the spec: rows re-composed with odd 0 everywhere)
+  {
+    const d = cfg.odd;
+    const rng = makeRng('pc');
+    const pools = effectivePools(neutral, en, false);
+    const lanes = en.cycle.map((maj, i) => {
+      const other = en.cycle[(i + 1) % 4];
+      const seq = [{ ...rng.pick(pools[other]), season: other }, ...rng.sample(pools[maj], 3).map((it) => ({ ...it, season: maj }))];
+      return C3.oddRow({ index: i, items: seq.map((it) => ({ theme: it.theme, noun: it.noun, season: it.season, src: fileUri(it.theme, it.noun) })), px: d.iconPx, tile: d.tile, gap: 24, odd: 0, majority: maj });
+    });
+    const html = T.odd._faceRoot('odd', en.cycle, { rows: 4, items: 4, 'icon-px': d.iconPx }, lanes.join(''), 'display:grid;grid-template-rows:repeat(4, minmax(140px,1fr));gap:10px;flex:1 1 auto;min-height:0');
+    const t = Object.assign({}, T.odd, { build() { return { bodyHtml: html, meta: {} }; } });
+    const r = await renderFace(page, t, { baseName: 'K-340-gate-poison-PC' });
+    if (judge('PC', r.verify, /the intruder sits at position 0 in every row/)) killed++;
+  }
+  // PT — F5 a marker picture printed inside a card's open area (the answer drawn for the child)
+  {
+    const t = rewrite('tree', en, (html) => html.replace('<span data-lcs-open="tree" style="display:block;width:260px;height:250px">', `<span data-lcs-open="tree" style="display:block;width:260px;height:250px;position:relative"><img src="${fileUri('winter', 'snowman')}" alt="" style="position:absolute;left:10px;top:10px;width:60px;height:60px">`));
+    const r = await renderFace(page, t, { baseName: 'K-341-gate-poison-PT' });
+    if (judge('PT', r.verify, /the open area is not empty/)) killed++;
+  }
+  // PM — F4 two months swapped (January after February: the calendar order broken — K-321's scrambled-month move must never appear here)
+  {
+    const t = rewrite('months', en, (html) => {
+      const jan = html.match(/<div class="ws-month-tile" data-lcs-month="0"[\s\S]*?<\/span><\/div>/)[0];
+      const feb = html.match(/<div class="ws-month-tile" data-lcs-month="1"[\s\S]*?<\/span><\/div>/)[0];
+      return html.replace(jan + feb, feb + jan);
+    });
+    const r = await renderFace(page, t, { baseName: 'G1-323-gate-poison-PM' });
+    if (judge('PM', r.verify, /not calendar order/)) killed++;
+  }
+  // PR — the pt autumn floor: one more autumn veto (persimmon is weak, so strict autumn drops 3 → 2) and F1 + F3 REFUSE for pt (throw, no filler);
+  //      the base (needs 2) still builds — the control
+  {
+    const b = ptBlock(en);
+    b.override.autumn.items = b.override.autumn.items.filter((it) => it.noun !== 'harvest');
+    const thrown = {};
+    for (const layout of ['which', 'odd']) { try { faceType(layout, neutral, b).build({ theme: null, difficulty: 2, locale: 'pt' }, { rng: makeRng('pr') }); thrown[layout] = ''; } catch (e) { thrown[layout] = e.message; } }
+    let baseOk = false;
+    try { typeWith(neutral, b).build({ theme: null, difficulty: 2, locale: 'pt' }, { rng: makeRng('pr') }); baseOk = true; } catch (e) { baseOk = false; }
+    const a = judge('PR which', [thrown.which], /K-322 which pt: autumn pool has 2 unused markers < 3 \(refuse\)/);
+    const c = judge('PR odd', [thrown.odd], /K-322 odd pt: only 3 rows can be filled \(< 4: refuse\)/);
+    poisonLog.push(`  PR base: ${baseOk ? 'BUILDS (control — the base needs 2)' : 'REFUSED (wrong: the base needs only 2)'}`);
+    if (a && c && baseOk) killed++;
+  }
+  return { killed, total: 9 };
 }
 
 async function main() {
@@ -431,7 +835,7 @@ async function main() {
 
     // 4. poisons
     let killed = 0;
-    const TOTAL = 16;
+    const TOTAL = 16 + 9;   // base poisons + the Phase-2 face poisons
     // P1 — snowman in winter AND autumn (two right answers)
     {
       const n = clone(neutral); n.pools.autumn.push({ theme: 'winter', noun: 'snowman', opened: true });
@@ -556,6 +960,11 @@ async function main() {
     {
       const b = clone(en); b.strings = { 'K-322': { title: en.strings['K-322'].title, instruction: 'Schau auf den Kalender und male die Jahreszeit an.' } };
       if (judge('P16', validateBlock(neutral, b, 'en').f, /a calendar stem \(K-321 owns it\)/)) killed++;
+    }
+    // 5-7. the faces
+    {
+      const f = await runFaces({ page, neutral, en, pngs });
+      killed += f.killed;
     }
     console.log('poison:\n' + poisonLog.join('\n'));
     if (fails.length) console.log('FAILS:\n  ' + fails.join('\n  '));

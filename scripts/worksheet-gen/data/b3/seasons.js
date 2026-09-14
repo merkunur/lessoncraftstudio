@@ -28,6 +28,10 @@
  * EN block: names = the US K-chart words (Fall; the vocab's "Autumn" in
  * `alt` — OPEN 1 for the en panel), model temperate-north, cycle from
  * winter, en-US vetoes hedgehog + mushroom (design §1 / §4).
+ * Phase 2 (2026-09-14): `strings` also carries the five faces' title +
+ * instruction under their ids (K-338 which · K-339 wheel · K-340 odd ·
+ * G1-323 months · K-341 tree); `faces.tree.figure` is the F5 re-target knob
+ * ('frame' for pt-BR) and `legend` + `monthSeason` drive F4.
  */
 'use strict';
 const SEASONS = {
@@ -108,6 +112,28 @@ const SEASONS = {
       'K-322': {
         title: 'Four Seasons Sort',
         instruction: 'Draw a line from the dot on each picture to the season box it belongs to.',
+      },
+      // Phase 2 faces (2026-09-14): the EN pair of each face = tools/b3var-rows/seasons.js verbatim
+      // (the gate asserts the two are one source); the ten non-EN panels fill the same keys.
+      'K-338': {
+        title: 'Which Season Is It?',
+        instruction: 'Look at the three pictures on each card and circle the season sign they belong to.',
+      },
+      'K-339': {
+        title: 'Season Wheel: Seasons in Order',
+        instruction: 'One season is already on the wheel. Draw the other three signs in the empty circles in the right order.',
+      },
+      'K-340': {
+        title: 'Seasons: What Does Not Belong?',
+        instruction: 'Cross out the one picture in each row that belongs to a different season.',
+      },
+      'G1-323': {
+        title: 'Months and Seasons: Colour the Season',
+        instruction: 'Colour the circle next to each month in the colour of its season.',
+      },
+      'K-341': {
+        title: 'Draw the Tree in Four Seasons',
+        instruction: 'Draw what the tree looks like in each of the four seasons.',
       },
     },
     strand: 'Science: weather and seasons (readiness)',

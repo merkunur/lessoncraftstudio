@@ -1,6 +1,6 @@
 # nt20-C — the third (LAST) batch of 20 printable worksheet types × (1 base + 5 variations) × 11 locales = 1,320 worksheets
 
-**Status: DESIGNED 2026-09-13, NOT BUILT.** Trigger for the build session: **"build the last batch of 20 worksheet types and their expansion"** → read this README, then the 20 design files, then run the recipe below. Do not re-research type selection or demand (four expert panels + harvest mining did it; `_PANEL-FINDINGS.md` is the record). Do not re-design (each file is the contract; a native panel may refine a locale's teaching point per the rules in `_STUDIO-BRIEF.md`).
+**Status: DESIGN COMPLETE 2026-09-14 (20 of 20 final design files + `_work` pedagogy/design/critic per type), NOT BUILT.** Trigger for the build session: **"build the last batch of 20 worksheet types and their expansion"** → read this README, then the 20 design files, then run the recipe below. Do not re-research type selection or demand (four expert panels + harvest mining did it; `_PANEL-FINDINGS.md` is the record). Do not re-design (each file is the contract; a native panel may refine a locale's teaching point per the rules in `_STUDIO-BRIEF.md`).
 
 ## Files in this directory
 - `_STUDIO-BRIEF.md` — the house rules, variation doctrine, band tables, native-rebuild rules, hub contract (every agent read it).
@@ -106,5 +106,5 @@ Rows = faces with a landing per (key × locale) at design time; "contingent" = l
 | all-about-me | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | none; F1 pools clear the global 96 px gate (colours 7 everywhere) |
 | seasons | 6 | 6 | 6 | 6 (5) | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 (65) | pt-BR F5 re-targets to `figure:'frame'` or refuses |
 | logic-puzzles | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | none designed |
-| picture-word-cards | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 5 | 65 | fi F3 article cards refused (no articles) — confirm against the K-324 final |
+| picture-word-cards | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 5 | 65 | fi F3 article cards refused (no articles); no F3 ships on the K-288 no ruling (confirmed K-324 §7) |
 | **design total** | | | | | | | | | | | | **≈1,247 (ceiling ≈1,299)** | of 1,320 nominal; every gap is a recorded refusal, never a filler |

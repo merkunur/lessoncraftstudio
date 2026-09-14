@@ -258,5 +258,85 @@
   "grid-coordinates": {
     "full": "Colorier chaque case nommée sur un quadrillage à lettres et à nombres entraîne le repérage par coordonnées et fait apparaître un dessin caché.",
     "short": "Travaille le repérage par coordonnées sur quadrillage."
+  },
+  "letter-of-the-week": {
+    "full": "Repasser la lettre de la semaine, entourer les images dont le nom commence par elle, puis l'écrire seul : le geste et le son de la lettre s'installent ensemble.",
+    "short": "Installe la lettre de la semaine : repasser, reconnaître, écrire."
+  },
+  "sound-boxes": {
+    "full": "Écrire un son par case, avec une case plus large pour les lettres qui ne font qu'un seul son, rend visible le nombre de sons d'un mot avant de l'écrire en entier.",
+    "short": "Installe la conscience phonologique : un son, une case."
+  },
+  "feelings": {
+    "full": "Associer un visage à son mot, deviner l'émotion d'une situation et dire comment on se sent : le vocabulaire des émotions de la maternelle, à lire, trier et dessiner.",
+    "short": "Nommer et reconnaître les émotions de base."
+  },
+  "ordinal-numbers": {
+    "full": "Compter depuis le drapeau pour trouver le premier, le deuxième, le troisième… : lire et écrire les nombres ordinaux, 1er, 2e, 3e, et les mots qui vont avec.",
+    "short": "Lire et écrire les nombres ordinaux jusqu'au dixième."
+  },
+  "days-and-months": {
+    "full": "Numéroter les jours de la semaine et les mois de l'année, trouver hier et demain, le mois d'avant et d'après : les repères du temps, de la maternelle au CP.",
+    "short": "Ordonner les jours de la semaine et les mois de l'année."
+  },
+  "seasons": {
+    "full": "Trier des images par saison, ordonner les saisons sur la roue et relier chaque mois à sa saison : le temps qui passe devient concret pour un enfant de maternelle.",
+    "short": "Reconnaître les quatre saisons et leurs repères."
+  },
+  "all-about-me": {
+    "full": "Écrire son prénom et son âge, se dessiner, nommer ses préférences, compter sa famille et les lettres de son prénom : la carte d'identité de l'enfant en maternelle.",
+    "short": "Se présenter : prénom, âge, famille et préférences."
+  },
+  "picture-word-cards": {
+    "full": "Des cartes à découper avec une image et son mot servent aux jeux d'association, de tri et de lecture, à la table comme au mur de mots.",
+    "short": "Un imagier à découper pour associer images et mots."
+  },
+  "syllable-split": {
+    "full": "Découper les mots en syllabes avec des arcs ou des tirets montre à l'enfant comment un mot est construit et l'aide à le lire morceau par morceau.",
+    "short": "Découper les mots en syllabes pour mieux les lire."
+  },
+  "syllable-reading": {
+    "full": "Lire des syllabes dans un tableau, puis retrouver la première syllabe de chaque image et l'écrire, transforme la combinatoire en mots que l'enfant sait lire.",
+    "short": "Lire les syllabes pour former des mots."
+  },
+  "opposites": {
+    "full": "Lire un mot et écrire son contraire, ou relier deux images de sens opposé, installe au CP les paires grand/petit, chaud/froid, lourd/léger qui structurent le vocabulaire.",
+    "short": "Installe les mots de sens contraire du CP."
+  },
+  "read-and-do": {
+    "full": "Lire une consigne seul et l'exécuter avec le crayon : entourer, barrer, souligner, relier, cocher, compter, puis vérifier ce qui est vrai ou faux et dessiner ce qui est écrit.",
+    "short": "Lire et comprendre une consigne écrite au CP."
+  },
+  "rhyming-words": {
+    "full": "Trouver l'image qui rime et écrire son nom entraîne l'oreille à la fin des mots, le premier pas vers les régularités de l'orthographe.",
+    "short": "Développe la conscience des rimes et l'écriture des mots."
+  },
+  "hundreds-chart-puzzles": {
+    "full": "Compléter des morceaux du tableau des nombres en raisonnant sur les voisins : 1 de plus, 1 de moins, 10 de plus, 10 de moins, sans compter case par case.",
+    "short": "Raisonner sur le tableau des nombres : +1, −1, +10, −10."
+  },
+  "spelling-rules": {
+    "full": "Travailler une seule règle d'orthographe à la fois, sur des mots illustrés, puis trier et écrire ces mots fait tenir la règle au-delà de la liste apprise.",
+    "short": "Installe les règles d'orthographe du CE1 par le tri et l'écriture."
+  },
+  "compound-words": {
+    "full": "Partir d'une image et d'une terminaison pour écrire un mot de la même famille montre au CE1 comment un radical fabrique des mots nouveaux.",
+    "short": "Installe le radical et les mots de la même famille."
+  },
+  "verb-forms": {
+    "full": "Écrire toutes les personnes d'un verbe en -er à partir de son image et de son infinitif installe les terminaisons du présent que l'on n'entend pas mais qu'il faut écrire.",
+    "short": "Installe les terminaisons du présent des verbes en -er."
+  },
+  "animal-fact-file": {
+    "full": "Lire et compléter la carte d'identité d'un animal (famille, lieu de vie, nourriture, pattes), puis écrire des phrases documentaires : le premier écrit documentaire du CE1.",
+    "short": "Lire et écrire un document sur un animal."
+  },
+  "logic-puzzles": {
+    "full": "Lire des indices, barrer l'impossible et cocher le sûr sur une grille pour trouver qui a quoi : le raisonnement logique par déduction, du CP au CE2.",
+    "short": "Raisonner par déduction avec une grille de logique."
+  },
+  "division-with-remainder": {
+    "full": "Diviser un nombre par groupement ou par partage et trouver ce qui reste, en écrivant l'égalité : le début de la division euclidienne au CE2.",
+    "short": "Comprendre le reste d'une division."
   }
 }

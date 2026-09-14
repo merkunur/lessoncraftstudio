@@ -1,0 +1,49 @@
+{
+  "exemplar": "2-5",
+  "unitLabels": {
+    "2-5": "par 2, 3, 4 et 5",
+    "6-9": "par 6, 7, 8 et 9",
+    "2-9": "par 2 à 9"
+  },
+  "notation": {
+    "op": null,
+    "template": "{n} = ({d} × {q}) + {r}",
+    "boxStyle": "inline",
+    "remWord": "",
+    "exactWord": "exacte",
+    "restWord": "avec reste",
+    "leftoverLabel": "reste",
+    "rightWord": "juste",
+    "wrongWord": "faux",
+    "kinds": {
+      "quotative": "groupement",
+      "partitive": "partage"
+    }
+  },
+  "strings": {
+    "G3-377": {
+      "title": "Division avec reste : entoure les groupes",
+      "instruction": "Dans chaque tas, entoure des groupes de la taille du nombre entre parenthèses. Écris combien de groupes tu as faits et combien d'images il reste."
+    },
+    "F1": {
+      "title": "Partage avec reste : que reste-t-il ?",
+      "instruction": "Distribue le tas dans les cases, une image à la fois. Écris combien chaque case reçoit et combien d'images ne peuvent pas être partagées."
+    },
+    "F2": {
+      "title": "Division avec reste : exercices d'entraînement",
+      "instruction": "Chaque division laisse un reste. Écris le quotient et le reste sur chaque ligne."
+    },
+    "F3": {
+      "title": "Ça tombe juste ou pas ? Divisions avec et sans reste",
+      "instruction": "Décide si chaque division tombe juste. Entoure ton choix et écris le reste, 0 s'il n'y en a pas."
+    },
+    "F4": {
+      "title": "Trouve l'erreur : le reste est trop grand",
+      "instruction": "Chaque division est fausse. Barre les nombres faux et écris le bon quotient et le bon reste dans les cases."
+    },
+    "F5": {
+      "title": "Sauts en arrière sur la droite numérique : que reste-t-il ?",
+      "instruction": "Pars du nombre marqué et dessine des sauts en arrière de même longueur tant qu'un saut entier passe. Écris le nombre de sauts et l'arrivée."
+    }
+  }
+}

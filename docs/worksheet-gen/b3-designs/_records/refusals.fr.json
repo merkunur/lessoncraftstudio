@@ -1,0 +1,9 @@
+{
+  "locale": "fr",
+  "refusals": {
+    "G2-329": "F1 refusée (refuse.F1) : dans la forme « famille de mots » la terminaison est une étiquette, il n'y a pas de lettre de liaison à décider ; le build écarte tout item à affixe.",
+    "G2-331": "F3 refusée par le design (refuse.F3 forcé pour fr) : 4 dérivations illustrées mesurées, moins que les 6 paires nécessaires.",
+    "G2-333": "F5 refusée par défaut (design) : le français n'a pas d'augmentatif productif et -ette/-on/-eau sont irréguliers au CE1 ; aucune sizePair authored, la face « grand ou petit » ne peut pas s'écrire.",
+    "G1-329": "Roi des voyelles refusé en français (kings:false) : avec les syllabes écrites, la dernière syllabe d'un mot en e muet (lu-ne, ta-ble) porte une voyelle que l'enfant n'entend pas, et le point sur « la voyelle de chaque syllabe » contredit ce qu'il frappe ; aucune source ne rend la règle gate-provable."
+  }
+}

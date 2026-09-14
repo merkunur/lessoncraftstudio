@@ -1,0 +1,125 @@
+{
+  "labels": {
+    "nameIs": "Me llamo",
+    "age": {
+      "pre": "Tengo",
+      "post": "años",
+      "glue": false
+    },
+    "thisIsMe": "Así soy yo",
+    "family": "Mi familia",
+    "familyDraw": "Dibuja a tu familia",
+    "drawFace": "Ahora dibuja tu propia cara",
+    "school": "Mi escuela es",
+    "favHeading": {
+      "animal": "Mi animal favorito",
+      "food": "Mi comida favorita",
+      "color": "Mi color favorito",
+      "toy": "Mi juguete favorito"
+    },
+    "countHeads": {
+      "people": "Personas en mi familia:",
+      "brothers": "Hermanos:",
+      "sisters": "Hermanas:",
+      "pets": "Mascotas:"
+    },
+    "wantLearn": "Quiero aprender a",
+    "myName": "Mi nombre",
+    "friendName": "El nombre de mi amigo o amiga",
+    "oneLetterPerBox": "Escribe una letra en cada casilla",
+    "lettersCount": "Letras de mi nombre:",
+    "firstLetter": "La primera letra de mi nombre:",
+    "whoHasMore": {
+      "question": "¿Quién tiene más letras?",
+      "me": "yo",
+      "friend": "mi amigo"
+    }
+  },
+  "faceWords": {
+    "eye": "ojo",
+    "ear": "oreja",
+    "nose": "nariz",
+    "mouth": "boca",
+    "hair": "cabello",
+    "eyebrow": "ceja",
+    "chin": "barbilla"
+  },
+  "can": {
+    "swim": "Sé nadar",
+    "run": "Sé correr",
+    "skip": "Sé saltar la cuerda",
+    "bike": "Sé andar en bici",
+    "read": "Sé leer un libro",
+    "soccer": "Sé patear un balón",
+    "puzzle": "Sé armar un rompecabezas",
+    "paint": "Sé pintar un dibujo",
+    "sing": "Sé cantar una canción",
+    "skate": "Sé patinar",
+    "ski": "Sé esquiar",
+    "writename": "Sé escribir mi nombre",
+    "brushteeth": "Sé lavarme los dientes"
+  },
+  "refuse": [],
+  "optionWords": {
+    "cat": "gato",
+    "dog": "perro",
+    "fish": "pez",
+    "horse": "caballo",
+    "rabbit": "conejo",
+    "duck": "pato",
+    "pig": "cerdo",
+    "sheep": "oveja",
+    "elephant": "elefante",
+    "giraffe": "jirafa",
+    "penguin": "pingüino",
+    "tiger": "tigre",
+    "apple": "manzana",
+    "banana": "plátano",
+    "bread": "pan",
+    "cheese": "queso",
+    "pizza": "pizza",
+    "carrot": "zanahoria",
+    "strawberry": "fresa",
+    "cookie": "galleta",
+    "pasta": "pasta",
+    "milk": "leche",
+    "grapes": "uvas",
+    "cake": "pastel",
+    "ball": "pelota",
+    "doll": "muñeca",
+    "car": "carro",
+    "train": "tren",
+    "kite": "papalote",
+    "blocks": "bloques",
+    "robot": "robot",
+    "balloon": "globo",
+    "dinosaur": "dinosaurio",
+    "boat": "bote"
+  },
+  "strings": {
+    "K-323": {
+      "title": "Todo sobre mí",
+      "instruction": "Escribe tu nombre y tu edad, dibújate a ti y a tu familia y después dibuja tus tres cosas favoritas."
+    },
+    "K-342": {
+      "title": "Mis cosas favoritas: rodea y escribe",
+      "instruction": "En cada fila, rodea tu dibujo favorito y copia su palabra en la línea."
+    },
+    "K-343": {
+      "title": "Mi familia: dibuja y cuenta",
+      "instruction": "Dibuja a tu familia. Luego muestra en los marcos de diez cuántas personas, hermanos, hermanas y mascotas hay y escribe el número."
+    },
+    "K-344": {
+      "title": "Así soy yo: las partes de la cara",
+      "instruction": "Copia cada palabra del banco en la línea que apunta a esa parte de la cara. Después dibuja tu propia cara."
+    },
+    "K-345": {
+      "title": "Yo puedo: marca lo que sabes hacer",
+      "instruction": "Lee cada oración y marca las cosas que sabes hacer. Luego escribe una cosa que quieres aprender."
+    },
+    "K-346": {
+      "title": "Mi nombre: escribe, cuenta y compara",
+      "instruction": "Escribe tu nombre con una letra en cada casilla y cuenta las letras. Haz lo mismo con el nombre de un amigo y rodea quién tiene más."
+    }
+  }
+}

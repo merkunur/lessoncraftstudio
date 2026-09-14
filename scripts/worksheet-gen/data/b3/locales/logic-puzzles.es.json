@@ -1,0 +1,100 @@
+{
+  "head": "Acertijos de lógica",
+  "names": [
+    {
+      "nom": "Sofía"
+    },
+    {
+      "nom": "Mateo"
+    },
+    {
+      "nom": "Lucía"
+    },
+    {
+      "nom": "Diego"
+    },
+    {
+      "nom": "Ana"
+    },
+    {
+      "nom": "Hugo"
+    },
+    {
+      "nom": "Camila"
+    },
+    {
+      "nom": "Martín"
+    }
+  ],
+  "namePx": 22,
+  "picSep": "",
+  "frames": {
+    "neg": [
+      "{name} no tiene {pic}.",
+      "{pic} no es de {name}."
+    ],
+    "pos": [
+      "{name} tiene {pic}.",
+      "{pic} es de {name}."
+    ],
+    "either": [
+      "{name} tiene {pic} o {pic}.",
+      "{pic} o {pic} es de {name}."
+    ],
+    "holderNot": [
+      "Quien tiene {pic} no es {name}.",
+      "{name} no es quien tiene {pic}."
+    ],
+    "cross": [
+      "Quien tiene {pic} tiene {pic2}.",
+      "Si tiene {pic}, tiene {pic2}."
+    ],
+    "crossNot": [
+      "Quien tiene {pic} no tiene {pic2}.",
+      "Si tiene {pic}, no tiene {pic2}."
+    ]
+  },
+  "truth": {
+    "has": [
+      "{name} tiene {pic}."
+    ],
+    "hasNot": [
+      "{name} no tiene {pic}."
+    ],
+    "holderIs": [
+      "Quien tiene {pic} es {name}."
+    ],
+    "either": [
+      "{name} tiene {pic} o {pic}."
+    ],
+    "nobody": [
+      "Nadie tiene {pic}."
+    ]
+  },
+  "strings": {
+    "G2-319": {
+      "title": "Acertijos de lógica: tres pistas, una respuesta",
+      "instruction": "Lee las pistas. Tacha en la cuadrícula lo que no puede ser, marca lo que tiene que ser y rodea el dibujo de cada niño."
+    },
+    "F1": {
+      "title": "Acertijos de lógica con pistas de sí, no y o",
+      "instruction": "Una pista de sí lleva palomita, una de no lleva tacha y una pista con \"o\" tacha el tercer dibujo. Completa la cuadrícula y rodea cada respuesta."
+    },
+    "F2": {
+      "title": "Acertijos de lógica de 4 por 4: seis pistas",
+      "instruction": "Cuatro niños y cuatro dibujos. Usa todas las pistas: tacha lo que no puede ser y marca lo que tiene que ser hasta que cada fila tenga una respuesta."
+    },
+    "F3": {
+      "title": "Acertijos con pistas de dibujos: tacha y encuentra",
+      "instruction": "Un dibujo tachado quiere decir que el niño no lo tiene; uno rodeado, que sí lo tiene. Tacha en la cuadrícula y rodea cada respuesta."
+    },
+    "F4": {
+      "title": "Acertijos de dos atributos: dos dibujos por niño",
+      "instruction": "Cada niño tiene un dibujo de cada grupo. Usa las pistas que los unen para completar las tres cuadrículas."
+    },
+    "F5": {
+      "title": "Lee la cuadrícula de lógica: ¿verdadero o falso?",
+      "instruction": "La cuadrícula ya está resuelta. Léela y rodea la palomita si la oración es verdadera o la tacha si es falsa."
+    }
+  }
+}

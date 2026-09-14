@@ -1,0 +1,29 @@
+{
+  "exemplar": "0-99",
+  "strings": {
+    "G1-310": {
+      "title": "Tableau des nombres de 0 à 99 : complète les morceaux",
+      "instruction": "Un nombre est écrit sur chaque morceau. Écris les nombres qui manquent : +1 à droite, −1 à gauche, +10 en bas, −10 en haut."
+    },
+    "F1": {
+      "title": "Où va le morceau ? Replace-le dans le tableau",
+      "instruction": "Lis les nombres de chaque morceau, trouve sa place dans le tableau vide et écris-les."
+    },
+    "F2": {
+      "title": "Sauts dans le tableau des nombres : suis les flèches",
+      "instruction": "Pars du nombre et suis les flèches : en haut 10 de moins, en bas 10 de plus, à droite 1 de plus, à gauche 1 de moins. Écris où tu arrives."
+    },
+    "F3": {
+      "title": "Le nombre mystère : deux flèches, une case",
+      "instruction": "Suis les deux flèches. Elles arrivent sur la même case du tableau. Écris le nombre mystère."
+    },
+    "F4": {
+      "title": "Trouve l'erreur sur le morceau",
+      "instruction": "Sur chaque morceau, un nombre est faux. Entoure-le et écris le bon nombre dans la case."
+    },
+    "F5": {
+      "title": "Compte les sauts : à quelle distance ?",
+      "instruction": "Compte combien de sauts vers le bas et combien de sauts vers la droite mènent du premier nombre au second."
+    }
+  }
+}

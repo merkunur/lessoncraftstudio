@@ -1,0 +1,7 @@
+{
+  "locale": "es",
+  "refusals": {
+    "G2-329": "la unión de raíz y sufijo no lleva letra de enlace en español (flor+ero = florero): la cara del \"enlace\" no es una decisión ortográfica en la forma family — refuse.F1 por diseño (§4 es F1 default)",
+    "G2-331": "la cara match empareja dos PARTES con dibujo; en la forma family la segunda parte es un sufijo sin dibujo, así que el código no tiene mitades que unir en español (la variante raíz ↔ derivado del diseño no está implementada)"
+  }
+}

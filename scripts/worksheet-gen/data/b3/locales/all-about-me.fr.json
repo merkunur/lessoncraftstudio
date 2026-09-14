@@ -1,0 +1,124 @@
+{
+  "labels": {
+    "nameIs": "Je m'appelle",
+    "age": {
+      "pre": "J'ai",
+      "post": "ans",
+      "glue": false
+    },
+    "thisIsMe": "C'est moi",
+    "family": "Ma famille",
+    "familyDraw": "Dessine ta famille",
+    "drawFace": "Maintenant, dessine ton visage",
+    "school": "Mon école s'appelle",
+    "favHeading": {
+      "animal": "Mon animal préféré",
+      "food": "Mon plat préféré",
+      "color": "Ma couleur préférée",
+      "toy": "Mon jouet préféré"
+    },
+    "countHeads": {
+      "people": "Personnes dans ma famille :",
+      "brothers": "Frères :",
+      "sisters": "Sœurs :",
+      "pets": "Animaux :"
+    },
+    "wantLearn": "Je veux apprendre à",
+    "myName": "Mon prénom",
+    "friendName": "Le prénom d'un camarade",
+    "oneLetterPerBox": "Écris une lettre par case",
+    "lettersCount": "Lettres dans mon prénom :",
+    "firstLetter": "La première lettre de mon prénom :",
+    "whoHasMore": {
+      "question": "Qui a le plus de lettres ?",
+      "me": "moi",
+      "friend": "mon camarade"
+    }
+  },
+  "faceWords": {
+    "eye": "œil",
+    "ear": "oreille",
+    "nose": "nez",
+    "mouth": "bouche",
+    "hair": "cheveux",
+    "eyebrow": "sourcil",
+    "chin": "menton"
+  },
+  "can": {
+    "swim": "Je sais nager",
+    "run": "Je sais courir",
+    "skip": "Je sais sauter à la corde",
+    "bike": "Je sais faire du vélo",
+    "read": "Je sais lire un livre",
+    "soccer": "Je sais taper dans un ballon",
+    "puzzle": "Je sais faire un puzzle",
+    "paint": "Je sais faire de la peinture",
+    "sing": "Je sais chanter une chanson",
+    "skate": "Je sais patiner",
+    "ski": "Je sais skier",
+    "writename": "Je sais écrire mon prénom",
+    "brushteeth": "Je sais me brosser les dents"
+  },
+  "refuse": [],
+  "optionWords": {
+    "cat": "chat",
+    "dog": "chien",
+    "fish": "poisson",
+    "horse": "cheval",
+    "rabbit": "lapin",
+    "duck": "canard",
+    "pig": "cochon",
+    "sheep": "mouton",
+    "elephant": "éléphant",
+    "giraffe": "girafe",
+    "penguin": "manchot",
+    "tiger": "tigre",
+    "apple": "pomme",
+    "banana": "banane",
+    "bread": "pain",
+    "cheese": "fromage",
+    "pizza": "pizza",
+    "carrot": "carotte",
+    "strawberry": "fraise",
+    "cookie": "biscuit",
+    "pasta": "pâtes",
+    "milk": "lait",
+    "grapes": "raisins",
+    "cake": "gâteau",
+    "ball": "ballon",
+    "doll": "poupée",
+    "car": "voiture",
+    "train": "train",
+    "kite": "cerf-volant",
+    "blocks": "blocs",
+    "robot": "robot",
+    "dinosaur": "dinosaure",
+    "boat": "bateau"
+  },
+  "strings": {
+    "K-323": {
+      "title": "C'est moi : mon prénom, mon âge, ma famille",
+      "instruction": "Écris ton prénom et ton âge, dessine-toi avec ta famille, puis dessine tes trois choses préférées."
+    },
+    "K-342": {
+      "title": "Mes choses préférées : entoure et écris",
+      "instruction": "Dans chaque ligne, entoure ton image préférée et recopie son mot sur la ligne."
+    },
+    "K-343": {
+      "title": "Ma famille : dessine et compte",
+      "instruction": "Dessine ta famille. Montre sur les cartes à dix le nombre de personnes, de frères, de sœurs et d'animaux, puis écris-le."
+    },
+    "K-344": {
+      "title": "C'est moi : les parties du visage",
+      "instruction": "Recopie chaque mot de la liste sur la ligne qui montre cette partie du visage. Puis dessine ton propre visage."
+    },
+    "K-345": {
+      "title": "Je sais : coche ce que tu sais faire",
+      "instruction": "Lis chaque phrase et coche ce que tu sais faire. Puis écris une chose que tu veux apprendre."
+    },
+    "K-346": {
+      "title": "Mon prénom : écris, compte et compare",
+      "instruction": "Écris ton prénom, une lettre par case, et compte les lettres. Fais pareil pour un camarade et entoure qui en a le plus."
+    }
+  }
+}

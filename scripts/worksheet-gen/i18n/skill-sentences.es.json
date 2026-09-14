@@ -258,5 +258,85 @@
   "grid-coordinates": {
     "full": "Colorear cada casilla indicada en una cuadrícula con letras y números enseña a leer coordenadas y hace aparecer un dibujo escondido.",
     "short": "Enseña a leer coordenadas en una cuadrícula."
+  },
+  "letter-of-the-week": {
+    "full": "Repasar una sola letra, rodear los dibujos cuyo nombre empieza con su sonido y escribirla en fila fija la letra, su trazo y su sonido en una misma página.",
+    "short": "Presenta una letra y su sonido con dibujos."
+  },
+  "sound-boxes": {
+    "full": "Decir una palabra despacio y escribir un sonido en cada caja convierte la conciencia fonológica en escritura: el niño oye, cuenta y representa cada sonido.",
+    "short": "Segmenta palabras en sonidos con cajas."
+  },
+  "feelings": {
+    "full": "Unir caras con palabras, reconocer emociones en situaciones y dibujar la propia cara da a los niños el vocabulario para nombrar lo que sienten.",
+    "short": "Enseña a reconocer y nombrar las emociones."
+  },
+  "ordinal-numbers": {
+    "full": "Contar desde la bandera hasta el lugar que indica cada ficha enseña los números ordinales del primero al décimo y la importancia del punto de partida.",
+    "short": "Enseña los números ordinales con filas de dibujos."
+  },
+  "days-and-months": {
+    "full": "Numerar y completar los días de la semana y los meses del año, y nombrar el anterior y el siguiente, fija el orden del tiempo que los niños usan cada día.",
+    "short": "Afianza el orden de los días y los meses."
+  },
+  "seasons": {
+    "full": "Clasificar dibujos por estación, ordenar el ciclo del año y unir cada mes con su estación construye la noción del tiempo y de los cambios de la naturaleza.",
+    "short": "Enseña las cuatro estaciones del año."
+  },
+  "all-about-me": {
+    "full": "Escribir el nombre y la edad, dibujar a la familia y elegir las cosas favoritas convierte la primera escritura en algo personal y con sentido para el niño.",
+    "short": "Una página personal para las primeras escrituras."
+  },
+  "picture-word-cards": {
+    "full": "Recortar tarjetas de dibujo y palabra para nombrar, leer, emparejar y jugar al memorama construye el vocabulario y la lectura de palabras completas.",
+    "short": "Tarjetas recortables para leer y jugar."
+  },
+  "syllable-split": {
+    "full": "Dar palmadas y marcar cada sílaba de una palabra con dibujo enseña a oír las partes de las palabras, la base de la lectura y la escritura en español.",
+    "short": "Enseña a separar palabras en sílabas."
+  },
+  "syllable-reading": {
+    "full": "Leer un tapete de sílabas en voz alta y buscar la primera sílaba de cada dibujo es el paso de la sílaba a la palabra que da fluidez a los primeros lectores.",
+    "short": "Trabaja la lectura de sílabas directas y trabadas."
+  },
+  "opposites": {
+    "full": "Escribir, unir y elegir antónimos con dibujos amplía el vocabulario y enseña a los niños a pensar en el significado de las palabras, no solo en su forma.",
+    "short": "Trabaja los antónimos con dibujos y oraciones."
+  },
+  "read-and-do": {
+    "full": "Leer una instrucción y hacer exactamente lo que dice sobre una fila de dibujos convierte la lectura en acción: el niño demuestra que entendió cada palabra.",
+    "short": "Desarrolla la comprensión lectora con instrucciones."
+  },
+  "rhyming-words": {
+    "full": "Escuchar el final de las palabras, decidir si riman y escribir la palabra que rima entrena el oído fonológico que necesitan los lectores principiantes.",
+    "short": "Trabaja la rima con dibujos y versos."
+  },
+  "hundreds-chart-puzzles": {
+    "full": "Completar piezas recortadas de la tabla del 100 con los números que faltan afianza el orden de los números y las relaciones de 1 más, 1 menos, 10 más y 10 menos.",
+    "short": "Afianza la tabla del 100 con rompecabezas."
+  },
+  "spelling-rules": {
+    "full": "Escribir palabras con dibujo aplicando una regla de ortografía a la vez (b y v, c y qu, g y gu, r y rr, ll y y, plurales) fija la regla donde se usa: dentro de la palabra.",
+    "short": "Practica una regla de ortografía por página."
+  },
+  "compound-words": {
+    "full": "Formar palabras nuevas a partir de una raíz y un sufijo (flor, florero, florista) enseña cómo crecen las familias de palabras y ayuda a deducir el significado de palabras nuevas.",
+    "short": "Enseña las familias de palabras con raíz y sufijo."
+  },
+  "verb-forms": {
+    "full": "Escribir la forma del verbo que va con cada persona, en tablas y en oraciones con dibujos, enseña a conjugar en presente los verbos regulares y los irregulares más usados.",
+    "short": "Practica la conjugación de verbos en presente."
+  },
+  "animal-fact-file": {
+    "full": "Completar los datos de un animal, compararlo con otro y adivinarlo por sus pistas enseña a leer y escribir textos informativos con datos reales.",
+    "short": "Trabaja los textos informativos con animales."
+  },
+  "logic-puzzles": {
+    "full": "Resolver acertijos de cuadrícula con pistas de sí, no y o entrena el razonamiento lógico: descartar lo imposible hasta que solo queda una respuesta.",
+    "short": "Desarrolla el razonamiento lógico con pistas."
+  },
+  "division-with-remainder": {
+    "full": "Formar grupos, repartir y usar la casita de la división con montones que no salen exactos enseña qué es el residuo y por qué siempre es menor que el divisor.",
+    "short": "Enseña la división con residuo paso a paso."
   }
 }

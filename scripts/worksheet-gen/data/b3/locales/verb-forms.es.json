@@ -1,0 +1,1000 @@
+{
+  "head": "Conjugar verbos en presente",
+  "mode": "persons",
+  "band": "G2",
+  "exemplar": "presente",
+  "columns": [
+    {
+      "key": "yo",
+      "label": "yo"
+    },
+    {
+      "key": "tu",
+      "label": "tú"
+    },
+    {
+      "key": "el",
+      "label": "él / ella"
+    },
+    {
+      "key": "nosotros",
+      "label": "nosotros"
+    },
+    {
+      "key": "ustedes",
+      "label": "ustedes"
+    },
+    {
+      "key": "ellos",
+      "label": "ellos / ellas"
+    }
+  ],
+  "units": [
+    {
+      "key": "presente",
+      "kind": "tense",
+      "label": "Presente",
+      "band": "G2"
+    }
+  ],
+  "poolMap": {},
+  "matchPersons": [
+    "yo",
+    "tu",
+    "el",
+    "nosotros",
+    "ellos"
+  ],
+  "verbs": [
+    {
+      "inf": "correr",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "running"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "presente": {
+          "yo": "corro",
+          "tu": "corres",
+          "el": "corre",
+          "nosotros": "corremos",
+          "ustedes": "corren",
+          "ellos": "corren"
+        }
+      }
+    },
+    {
+      "inf": "saltar",
+      "group": "ar",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "jumping"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "presente": {
+          "yo": "salto",
+          "tu": "saltas",
+          "el": "salta",
+          "nosotros": "saltamos",
+          "ustedes": "saltan",
+          "ellos": "saltan"
+        }
+      }
+    },
+    {
+      "inf": "leer",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "reading"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "presente": {
+          "yo": "leo",
+          "tu": "lees",
+          "el": "lee",
+          "nosotros": "leemos",
+          "ustedes": "leen",
+          "ellos": "leen"
+        }
+      }
+    },
+    {
+      "inf": "bailar",
+      "group": "ar",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "dancing"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "presente": {
+          "yo": "bailo",
+          "tu": "bailas",
+          "el": "baila",
+          "nosotros": "bailamos",
+          "ustedes": "bailan",
+          "ellos": "bailan"
+        }
+      }
+    },
+    {
+      "inf": "caminar",
+      "group": "ar",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "hiking"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "presente": {
+          "yo": "camino",
+          "tu": "caminas",
+          "el": "camina",
+          "nosotros": "caminamos",
+          "ustedes": "caminan",
+          "ellos": "caminan"
+        }
+      }
+    },
+    {
+      "inf": "escribir",
+      "group": "ir",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "writing"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "presente": {
+          "yo": "escribo",
+          "tu": "escribes",
+          "el": "escribe",
+          "nosotros": "escribimos",
+          "ustedes": "escriben",
+          "ellos": "escriben"
+        }
+      }
+    },
+    {
+      "inf": "cantar",
+      "group": "ar",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "occupations",
+        "noun": "singer"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "presente": {
+          "yo": "canto",
+          "tu": "cantas",
+          "el": "canta",
+          "nosotros": "cantamos",
+          "ustedes": "cantan",
+          "ellos": "cantan"
+        }
+      }
+    },
+    {
+      "inf": "pintar",
+      "group": "ar",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "occupations",
+        "noun": "artist"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "presente": {
+          "yo": "pinto",
+          "tu": "pintas",
+          "el": "pinta",
+          "nosotros": "pintamos",
+          "ustedes": "pintan",
+          "ellos": "pintan"
+        }
+      }
+    },
+    {
+      "inf": "hornear",
+      "group": "ar",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": {
+        "theme": "activities",
+        "noun": "baking"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "presente": {
+          "yo": "horneo",
+          "tu": "horneas",
+          "el": "hornea",
+          "nosotros": "horneamos",
+          "ustedes": "hornean",
+          "ellos": "hornean"
+        }
+      }
+    },
+    {
+      "inf": "nadar",
+      "group": "ar",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "presente": {
+          "yo": "nado",
+          "tu": "nadas",
+          "el": "nada",
+          "nosotros": "nadamos",
+          "ustedes": "nadan",
+          "ellos": "nadan"
+        }
+      }
+    },
+    {
+      "inf": "comer",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "presente": {
+          "yo": "como",
+          "tu": "comes",
+          "el": "come",
+          "nosotros": "comemos",
+          "ustedes": "comen",
+          "ellos": "comen"
+        }
+      }
+    },
+    {
+      "inf": "beber",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "presente": {
+          "yo": "bebo",
+          "tu": "bebes",
+          "el": "bebe",
+          "nosotros": "bebemos",
+          "ustedes": "beben",
+          "ellos": "beben"
+        }
+      }
+    },
+    {
+      "inf": "dibujar",
+      "group": "ar",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "presente": {
+          "yo": "dibujo",
+          "tu": "dibujas",
+          "el": "dibuja",
+          "nosotros": "dibujamos",
+          "ustedes": "dibujan",
+          "ellos": "dibujan"
+        }
+      }
+    },
+    {
+      "inf": "lavar",
+      "group": "ar",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "presente": {
+          "yo": "lavo",
+          "tu": "lavas",
+          "el": "lava",
+          "nosotros": "lavamos",
+          "ustedes": "lavan",
+          "ellos": "lavan"
+        }
+      }
+    },
+    {
+      "inf": "abrir",
+      "group": "ir",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "presente": {
+          "yo": "abro",
+          "tu": "abres",
+          "el": "abre",
+          "nosotros": "abrimos",
+          "ustedes": "abren",
+          "ellos": "abren"
+        }
+      }
+    },
+    {
+      "inf": "subir",
+      "group": "ir",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "presente": {
+          "yo": "subo",
+          "tu": "subes",
+          "el": "sube",
+          "nosotros": "subimos",
+          "ustedes": "suben",
+          "ellos": "suben"
+        }
+      }
+    },
+    {
+      "inf": "vivir",
+      "group": "ir",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "presente": {
+          "yo": "vivo",
+          "tu": "vives",
+          "el": "vive",
+          "nosotros": "vivimos",
+          "ustedes": "viven",
+          "ellos": "viven"
+        }
+      }
+    },
+    {
+      "inf": "aprender",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "presente": {
+          "yo": "aprendo",
+          "tu": "aprendes",
+          "el": "aprende",
+          "nosotros": "aprendemos",
+          "ustedes": "aprenden",
+          "ellos": "aprenden"
+        }
+      }
+    },
+    {
+      "inf": "jugar",
+      "group": "ar",
+      "irregular": true,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "presente": {
+          "yo": "juego",
+          "tu": "juegas",
+          "el": "juega",
+          "nosotros": "jugamos",
+          "ustedes": "juegan",
+          "ellos": "juegan"
+        }
+      }
+    },
+    {
+      "inf": "dormir",
+      "group": "ir",
+      "irregular": true,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "presente": {
+          "yo": "duermo",
+          "tu": "duermes",
+          "el": "duerme",
+          "nosotros": "dormimos",
+          "ustedes": "duermen",
+          "ellos": "duermen"
+        }
+      }
+    }
+  ],
+  "irregularCore": [
+    {
+      "inf": "ser",
+      "pic": null,
+      "forms": {
+        "presente": {
+          "yo": "soy",
+          "tu": "eres",
+          "el": "es",
+          "nosotros": "somos",
+          "ustedes": "son",
+          "ellos": "son"
+        }
+      }
+    },
+    {
+      "inf": "estar",
+      "pic": null,
+      "forms": {
+        "presente": {
+          "yo": "estoy",
+          "tu": "estás",
+          "el": "está",
+          "nosotros": "estamos",
+          "ustedes": "están",
+          "ellos": "están"
+        }
+      }
+    },
+    {
+      "inf": "tener",
+      "pic": null,
+      "forms": {
+        "presente": {
+          "yo": "tengo",
+          "tu": "tienes",
+          "el": "tiene",
+          "nosotros": "tenemos",
+          "ustedes": "tienen",
+          "ellos": "tienen"
+        }
+      }
+    },
+    {
+      "inf": "ir",
+      "pic": null,
+      "forms": {
+        "presente": {
+          "yo": "voy",
+          "tu": "vas",
+          "el": "va",
+          "nosotros": "vamos",
+          "ustedes": "van",
+          "ellos": "van"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "Todos los días Sofía {form} en el parque.",
+      "col": "el",
+      "unit": "presente",
+      "fits": [
+        "correr",
+        "saltar",
+        "bailar",
+        "cantar",
+        "jugar",
+        "caminar",
+        "pintar",
+        "dibujar",
+        "leer"
+      ],
+      "subjectLiteral": "Sofía",
+      "pic": null
+    },
+    {
+      "id": "f02",
+      "text": "Hoy Mateo {form} con su hermana.",
+      "col": "el",
+      "unit": "presente",
+      "fits": [
+        "jugar",
+        "leer",
+        "nadar",
+        "correr",
+        "bailar",
+        "cantar",
+        "dibujar",
+        "saltar",
+        "comer",
+        "caminar"
+      ],
+      "subjectLiteral": "Mateo",
+      "pic": null
+    },
+    {
+      "id": "f03",
+      "text": "Lucía {form} todas las tardes.",
+      "col": "el",
+      "unit": "presente",
+      "fits": [
+        "leer",
+        "nadar",
+        "jugar",
+        "bailar",
+        "cantar",
+        "dibujar",
+        "correr",
+        "dormir",
+        "pintar",
+        "caminar"
+      ],
+      "subjectLiteral": "Lucía",
+      "pic": null
+    },
+    {
+      "id": "f04",
+      "text": "Después de la escuela Diego {form}.",
+      "col": "el",
+      "unit": "presente",
+      "fits": [
+        "leer",
+        "dibujar",
+        "jugar",
+        "dormir",
+        "cantar",
+        "bailar",
+        "nadar",
+        "pintar",
+        "comer"
+      ],
+      "subjectLiteral": "Diego",
+      "pic": null
+    },
+    {
+      "id": "f05",
+      "text": "Los lunes Valentina {form} en el club.",
+      "col": "el",
+      "unit": "presente",
+      "fits": [
+        "nadar",
+        "bailar",
+        "cantar",
+        "correr",
+        "saltar",
+        "jugar",
+        "pintar"
+      ],
+      "subjectLiteral": "Valentina",
+      "pic": null
+    },
+    {
+      "id": "f06",
+      "text": "Hugo {form} en la alberca cada semana.",
+      "col": "el",
+      "unit": "presente",
+      "fits": [
+        "nadar",
+        "saltar",
+        "jugar"
+      ],
+      "subjectLiteral": "Hugo",
+      "pic": null
+    },
+    {
+      "id": "f07",
+      "text": "Camila {form} en el jardín hoy.",
+      "col": "el",
+      "unit": "presente",
+      "fits": [
+        "correr",
+        "saltar",
+        "jugar",
+        "bailar",
+        "leer",
+        "cantar",
+        "dibujar",
+        "pintar",
+        "caminar"
+      ],
+      "subjectLiteral": "Camila",
+      "pic": null
+    },
+    {
+      "id": "f08",
+      "text": "Martín {form} un libro en la cama.",
+      "col": "el",
+      "unit": "presente",
+      "fits": [
+        "leer",
+        "abrir",
+        "tener"
+      ],
+      "subjectLiteral": "Martín",
+      "pic": null
+    },
+    {
+      "id": "f09",
+      "text": "Sofía {form} agua en el recreo.",
+      "col": "el",
+      "unit": "presente",
+      "fits": [
+        "beber"
+      ],
+      "subjectLiteral": "Sofía",
+      "pic": null
+    },
+    {
+      "id": "f10",
+      "text": "Mateo {form} las escaleras despacio.",
+      "col": "el",
+      "unit": "presente",
+      "fits": [
+        "subir"
+      ],
+      "subjectLiteral": "Mateo",
+      "pic": null
+    },
+    {
+      "id": "f11",
+      "text": "Lucía {form} en una casa azul.",
+      "col": "el",
+      "unit": "presente",
+      "fits": [
+        "vivir",
+        "estar"
+      ],
+      "subjectLiteral": "Lucía",
+      "pic": null
+    },
+    {
+      "id": "f12",
+      "text": "Diego {form} galletas con su abuela.",
+      "col": "el",
+      "unit": "presente",
+      "fits": [
+        "hornear",
+        "comer"
+      ],
+      "subjectLiteral": "Diego",
+      "pic": null
+    },
+    {
+      "id": "f13",
+      "text": "Valentina {form} los platos hoy.",
+      "col": "el",
+      "unit": "presente",
+      "fits": [
+        "lavar"
+      ],
+      "subjectLiteral": "Valentina",
+      "pic": null
+    },
+    {
+      "id": "f14",
+      "text": "Hugo {form} a la escuela en bici.",
+      "col": "el",
+      "unit": "presente",
+      "fits": [
+        "ir"
+      ],
+      "subjectLiteral": "Hugo",
+      "pic": null
+    },
+    {
+      "id": "f15",
+      "text": "Camila {form} un perro muy grande.",
+      "col": "el",
+      "unit": "presente",
+      "fits": [
+        "tener"
+      ],
+      "subjectLiteral": "Camila",
+      "pic": null
+    },
+    {
+      "id": "f16",
+      "text": "Martín {form} muy contento hoy.",
+      "col": "el",
+      "unit": "presente",
+      "fits": [
+        "estar"
+      ],
+      "subjectLiteral": "Martín",
+      "pic": null
+    },
+    {
+      "id": "f17",
+      "text": "Sofía {form} la mayor de la clase.",
+      "col": "el",
+      "unit": "presente",
+      "fits": [
+        "ser"
+      ],
+      "subjectLiteral": "Sofía",
+      "pic": null
+    },
+    {
+      "id": "f18",
+      "text": "Yo {form} en la alberca los sábados.",
+      "col": "yo",
+      "unit": "presente",
+      "fits": [
+        "nadar",
+        "jugar",
+        "saltar"
+      ],
+      "subjectLiteral": "Yo",
+      "pic": null
+    },
+    {
+      "id": "f19",
+      "text": "Yo {form} un cuento antes de dormir.",
+      "col": "yo",
+      "unit": "presente",
+      "fits": [
+        "leer",
+        "escribir",
+        "dibujar"
+      ],
+      "subjectLiteral": "Yo",
+      "pic": null
+    },
+    {
+      "id": "f20",
+      "text": "Tú {form} muy bien.",
+      "col": "tu",
+      "unit": "presente",
+      "fits": [
+        "cantar",
+        "bailar",
+        "dibujar",
+        "pintar",
+        "leer",
+        "nadar",
+        "correr",
+        "saltar",
+        "escribir",
+        "jugar"
+      ],
+      "subjectLiteral": "Tú",
+      "pic": null
+    },
+    {
+      "id": "f21",
+      "text": "Nosotros {form} después de comer.",
+      "col": "nosotros",
+      "unit": "presente",
+      "fits": [
+        "leer",
+        "dibujar",
+        "jugar",
+        "bailar",
+        "cantar",
+        "correr",
+        "saltar",
+        "nadar",
+        "caminar",
+        "dormir",
+        "pintar"
+      ],
+      "subjectLiteral": "Nosotros",
+      "pic": null
+    },
+    {
+      "id": "f22",
+      "text": "Nosotros {form} la puerta con cuidado.",
+      "col": "nosotros",
+      "unit": "presente",
+      "fits": [
+        "abrir"
+      ],
+      "subjectLiteral": "Nosotros",
+      "pic": null
+    },
+    {
+      "id": "f23",
+      "text": "Mateo {form} mi mejor amigo.",
+      "col": "el",
+      "unit": "presente",
+      "fits": [
+        "ser"
+      ],
+      "subjectLiteral": "Mateo",
+      "pic": null
+    },
+    {
+      "id": "f24",
+      "text": "Lucía {form} la más alta del salón.",
+      "col": "el",
+      "unit": "presente",
+      "fits": [
+        "ser"
+      ],
+      "subjectLiteral": "Lucía",
+      "pic": null
+    },
+    {
+      "id": "f25",
+      "text": "Diego {form} al parque los domingos.",
+      "col": "el",
+      "unit": "presente",
+      "fits": [
+        "ir"
+      ],
+      "subjectLiteral": "Diego",
+      "pic": null
+    },
+    {
+      "id": "f26",
+      "text": "Camila {form} a la playa en verano.",
+      "col": "el",
+      "unit": "presente",
+      "fits": [
+        "ir"
+      ],
+      "subjectLiteral": "Camila",
+      "pic": null
+    },
+    {
+      "id": "f27",
+      "text": "Hugo {form} dos gatos en su casa.",
+      "col": "el",
+      "unit": "presente",
+      "fits": [
+        "tener"
+      ],
+      "subjectLiteral": "Hugo",
+      "pic": null
+    },
+    {
+      "id": "f28",
+      "text": "Martín {form} en la escuela ahora.",
+      "col": "el",
+      "unit": "presente",
+      "fits": [
+        "estar"
+      ],
+      "subjectLiteral": "Martín",
+      "pic": null
+    },
+    {
+      "id": "f29",
+      "text": "Yo {form} en segundo grado.",
+      "col": "yo",
+      "unit": "presente",
+      "fits": [
+        "estar"
+      ],
+      "subjectLiteral": "Yo",
+      "pic": null
+    },
+    {
+      "id": "f30",
+      "text": "Nosotros {form} muy buenos amigos.",
+      "col": "nosotros",
+      "unit": "presente",
+      "fits": [
+        "ser"
+      ],
+      "subjectLiteral": "Nosotros",
+      "pic": null
+    },
+    {
+      "id": "f31",
+      "text": "Yo {form} una mochila nueva.",
+      "col": "yo",
+      "unit": "presente",
+      "fits": [
+        "tener"
+      ],
+      "subjectLiteral": "Yo",
+      "pic": null
+    },
+    {
+      "id": "f32",
+      "text": "Tú {form} al cine con tus primos.",
+      "col": "tu",
+      "unit": "presente",
+      "fits": [
+        "ir"
+      ],
+      "subjectLiteral": "Tú",
+      "pic": null
+    }
+  ],
+  "hunt": {
+    "nounHomographs": [
+      "baile",
+      "sueño",
+      "pintura",
+      "lectura"
+    ]
+  },
+  "strings": {
+    "G2-317": {
+      "title": "Conjugar verbos en presente",
+      "instruction": "Mira el dibujo y lee el verbo. Escribe en las cajas punteadas la forma que va con cada persona y completa las oraciones."
+    },
+    "F2": {
+      "title": "Une el pronombre con la forma del verbo",
+      "instruction": "Lee cada pronombre de la izquierda. Traza una línea hasta la forma del verbo que le corresponde, una línea por pronombre."
+    },
+    "F3": {
+      "title": "Verbos en oraciones con dibujos",
+      "instruction": "Mira el dibujo y lee el verbo de la ficha. Escribe en la caja punteada la forma que completa la oración."
+    },
+    "F4": {
+      "title": "Los verbos irregulares: ser, estar, tener e ir",
+      "instruction": "Estos verbos cambian mucho. Escribe en las cajas punteadas la forma que va con cada persona."
+    },
+    "F5": {
+      "title": "Elige la forma correcta del verbo",
+      "instruction": "Lee la oración. Debajo hay tres formas del mismo verbo. Rodea la que completa la oración."
+    },
+    "F6": {
+      "title": "Encuentra el verbo y escribe su infinitivo",
+      "instruction": "Subraya el verbo de cada oración. Luego escribe su infinitivo en la caja punteada."
+    }
+  }
+}

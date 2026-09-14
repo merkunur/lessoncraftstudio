@@ -1,0 +1,96 @@
+{
+  "cardCase": "lower",
+  "articleStyle": {
+    "enabled": true,
+    "level": 2,
+    "dots": null,
+    "elision": "refuse",
+    "elisionChip": null,
+    "legend": null
+  },
+  "plural": {
+    "enabled": true,
+    "clones": 3
+  },
+  "bilingual": {
+    "partnerExemplar": "en",
+    "hostName": "español",
+    "partnerNames": {
+      "en": "inglés",
+      "de": "alemán",
+      "pt": "portugués",
+      "fr": "francés",
+      "it": "italiano",
+      "nl": "neerlandés",
+      "sv": "sueco",
+      "da": "danés",
+      "no": "noruego",
+      "fi": "finés"
+    },
+    "legendSep": " · "
+  },
+  "syllable": {
+    "enabled": true,
+    "mark": "arc",
+    "hyphen": "-",
+    "strictPool": false,
+    "exclude": [
+      "beach",
+      "beech-tree",
+      "crayon",
+      "crayons",
+      "dragon-fruit",
+      "guinea-pig",
+      "hockey",
+      "kayak",
+      "macaw",
+      "papaya",
+      "projector",
+      "ray",
+      "stingray"
+    ]
+  },
+  "twinLayout": {
+    "cols": 4,
+    "blockRows": 2
+  },
+  "exclude": [
+    "anchor",
+    "axe",
+    "beech-tree",
+    "eagle",
+    "harp",
+    "water",
+    "subway",
+    "cranberry",
+    "antelope",
+    "plum",
+    "persimmon"
+  ],
+  "strings": {
+    "K-324": {
+      "title": "Tarjetas de dibujo y palabra",
+      "instruction": "Recorta por las líneas punteadas para hacer las tarjetas. Di el nombre de cada dibujo y después lee su palabra."
+    },
+    "twin": {
+      "title": "Tarjetas de dibujos y de palabras: parejas",
+      "instruction": "Recorta las dieciséis tarjetas. Pon cada palabra junto a su dibujo o voltéalas todas y juega al memorama."
+    },
+    "article": {
+      "title": "¿El o la? Tarjetas con artículo",
+      "instruction": "Recorta las ocho tarjetas. Di cada palabra con su artículo, tal como está escrita en la tarjeta."
+    },
+    "plural": {
+      "title": "Uno y muchos: tarjetas de singular y plural",
+      "instruction": "Recorta las tarjetas. Di la palabra de uno y la palabra de muchos y después junta cada pareja."
+    },
+    "bilingual": {
+      "title": "Tarjetas bilingües: español e inglés",
+      "instruction": "Recorta las ocho tarjetas. Di la palabra en español y luego en inglés, y guarda las tarjetas para tu muro de palabras."
+    },
+    "syllable": {
+      "title": "Tarjetas de sílabas: lee la palabra por partes",
+      "instruction": "Recorta las ocho tarjetas. Lee cada palabra sílaba por sílaba y después dila completa."
+    }
+  }
+}

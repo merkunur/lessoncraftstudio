@@ -1,0 +1,2518 @@
+{
+  "nounCase": "lower",
+  "mark": "check",
+  "cross": "strike",
+  "and": "et",
+  "endpointForm": "unique",
+  "exemplar": "animals",
+  "verbs": [
+    {
+      "id": "circle",
+      "frame": "Entoure {obj}."
+    },
+    {
+      "id": "cross",
+      "frame": "Barre {all}."
+    },
+    {
+      "id": "underline",
+      "frame": "Souligne {obj}."
+    },
+    {
+      "id": "line",
+      "frame": "Relie {obj} {a2}."
+    },
+    {
+      "id": "mark",
+      "frame": "Coche {obj}."
+    },
+    {
+      "id": "write",
+      "frame": "Compte les {pl}, puis écris le nombre."
+    }
+  ],
+  "fixed": {
+    "first": "la première image",
+    "last": "la dernière image",
+    "ordPic": {
+      "2": "la deuxième image",
+      "3": "la troisième image",
+      "4": "la quatrième image",
+      "5": "la cinquième image",
+      "6": "la sixième image",
+      "7": "la septième image",
+      "8": "la huitième image"
+    },
+    "between": "l'image entre {A} et {B}",
+    "rightof": "l'image à droite de {A}",
+    "leftof": "l'image à gauche de {A}"
+  },
+  "objForms": {
+    "airplane": {
+      "unique": "l'avion",
+      "all": "tous les avions",
+      "pl": "avions",
+      "ord": {
+        "2": "le deuxième avion",
+        "3": "le troisième avion",
+        "4": "le quatrième avion",
+        "5": "le cinquième avion"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à l'avion",
+      "reviewed": true
+    },
+    "ambulance": {
+      "unique": "l'ambulance",
+      "all": "toutes les ambulances",
+      "pl": "ambulances",
+      "ord": {
+        "2": "la deuxième ambulance",
+        "3": "la troisième ambulance",
+        "4": "la quatrième ambulance",
+        "5": "la cinquième ambulance"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à l'ambulance",
+      "reviewed": true
+    },
+    "antelope": {
+      "unique": "l'antilope",
+      "all": "toutes les antilopes",
+      "pl": "antilopes",
+      "ord": {
+        "2": "la deuxième antilope",
+        "3": "la troisième antilope",
+        "4": "la quatrième antilope",
+        "5": "la cinquième antilope"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à l'antilope",
+      "reviewed": true
+    },
+    "apple": {
+      "unique": "la pomme",
+      "all": "toutes les pommes",
+      "pl": "pommes",
+      "ord": {
+        "2": "la deuxième pomme",
+        "3": "la troisième pomme",
+        "4": "la quatrième pomme",
+        "5": "la cinquième pomme"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la pomme",
+      "reviewed": true
+    },
+    "apricot": {
+      "unique": "l'abricot",
+      "all": "tous les abricots",
+      "pl": "abricots",
+      "ord": {
+        "2": "le deuxième abricot",
+        "3": "le troisième abricot",
+        "4": "le quatrième abricot",
+        "5": "le cinquième abricot"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à l'abricot",
+      "reviewed": true
+    },
+    "armadillo": {
+      "unique": "le tatou",
+      "all": "tous les tatous",
+      "pl": "tatous",
+      "ord": {
+        "2": "le deuxième tatou",
+        "3": "le troisième tatou",
+        "4": "le quatrième tatou",
+        "5": "le cinquième tatou"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au tatou",
+      "reviewed": true
+    },
+    "avocado": {
+      "unique": "l'avocat",
+      "all": "tous les avocats",
+      "pl": "avocats",
+      "ord": {
+        "2": "le deuxième avocat",
+        "3": "le troisième avocat",
+        "4": "le quatrième avocat",
+        "5": "le cinquième avocat"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à l'avocat",
+      "reviewed": true
+    },
+    "ball": {
+      "unique": "le ballon",
+      "all": "tous les ballons",
+      "pl": "ballons",
+      "ord": {
+        "2": "le deuxième ballon",
+        "3": "le troisième ballon",
+        "4": "le quatrième ballon",
+        "5": "le cinquième ballon"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au ballon",
+      "reviewed": true
+    },
+    "banana": {
+      "unique": "la banane",
+      "all": "toutes les bananes",
+      "pl": "bananes",
+      "ord": {
+        "2": "la deuxième banane",
+        "3": "la troisième banane",
+        "4": "la quatrième banane",
+        "5": "la cinquième banane"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la banane",
+      "reviewed": true
+    },
+    "bat": {
+      "unique": "la chauve-souris",
+      "all": "toutes les chauves-souris",
+      "pl": "chauves-souris",
+      "ord": {
+        "2": "la deuxième chauve-souris",
+        "3": "la troisième chauve-souris",
+        "4": "la quatrième chauve-souris",
+        "5": "la cinquième chauve-souris"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la chauve-souris",
+      "reviewed": true
+    },
+    "bear": {
+      "unique": "l'ours",
+      "all": "tous les ours",
+      "pl": "ours",
+      "ord": {
+        "2": "le deuxième ours",
+        "3": "le troisième ours",
+        "4": "le quatrième ours",
+        "5": "le cinquième ours"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à l'ours",
+      "reviewed": true
+    },
+    "bee": {
+      "unique": "l'abeille",
+      "all": "toutes les abeilles",
+      "pl": "abeilles",
+      "ord": {
+        "2": "la deuxième abeille",
+        "3": "la troisième abeille",
+        "4": "la quatrième abeille",
+        "5": "la cinquième abeille"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à l'abeille",
+      "reviewed": true
+    },
+    "bicycle": {
+      "unique": "le vélo",
+      "all": "tous les vélos",
+      "pl": "vélos",
+      "ord": {
+        "2": "le deuxième vélo",
+        "3": "le troisième vélo",
+        "4": "le quatrième vélo",
+        "5": "le cinquième vélo"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au vélo",
+      "reviewed": true
+    },
+    "blackberry": {
+      "unique": "la mûre",
+      "all": "toutes les mûres",
+      "pl": "mûres",
+      "ord": {
+        "2": "la deuxième mûre",
+        "3": "la troisième mûre",
+        "4": "la quatrième mûre",
+        "5": "la cinquième mûre"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la mûre",
+      "reviewed": true
+    },
+    "blueberry": {
+      "unique": "la myrtille",
+      "all": "toutes les myrtilles",
+      "pl": "myrtilles",
+      "ord": {
+        "2": "la deuxième myrtille",
+        "3": "la troisième myrtille",
+        "4": "la quatrième myrtille",
+        "5": "la cinquième myrtille"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la myrtille",
+      "reviewed": true
+    },
+    "boat": {
+      "unique": "le bateau",
+      "all": "tous les bateaux",
+      "pl": "bateaux",
+      "ord": {
+        "2": "le deuxième bateau",
+        "3": "le troisième bateau",
+        "4": "le quatrième bateau",
+        "5": "le cinquième bateau"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au bateau",
+      "reviewed": true
+    },
+    "bucket": {
+      "unique": "le seau",
+      "all": "tous les seaux",
+      "pl": "seaux",
+      "ord": {
+        "2": "le deuxième seau",
+        "3": "le troisième seau",
+        "4": "le quatrième seau",
+        "5": "le cinquième seau"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au seau",
+      "reviewed": true
+    },
+    "bull": {
+      "unique": "le taureau",
+      "all": "tous les taureaux",
+      "pl": "taureaux",
+      "ord": {
+        "2": "le deuxième taureau",
+        "3": "le troisième taureau",
+        "4": "le quatrième taureau",
+        "5": "le cinquième taureau"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au taureau",
+      "reviewed": true
+    },
+    "bulldozer": {
+      "unique": "le bulldozer",
+      "all": "tous les bulldozers",
+      "pl": "bulldozers",
+      "ord": {
+        "2": "le deuxième bulldozer",
+        "3": "le troisième bulldozer",
+        "4": "le quatrième bulldozer",
+        "5": "le cinquième bulldozer"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au bulldozer",
+      "reviewed": true
+    },
+    "bus": {
+      "unique": "le bus",
+      "all": "tous les bus",
+      "pl": "bus",
+      "ord": {
+        "2": "le deuxième bus",
+        "3": "le troisième bus",
+        "4": "le quatrième bus",
+        "5": "le cinquième bus"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au bus",
+      "reviewed": true
+    },
+    "calf": {
+      "unique": "le veau",
+      "all": "tous les veaux",
+      "pl": "veaux",
+      "ord": {
+        "2": "le deuxième veau",
+        "3": "le troisième veau",
+        "4": "le quatrième veau",
+        "5": "le cinquième veau"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au veau",
+      "reviewed": true
+    },
+    "camel": {
+      "unique": "le chameau",
+      "all": "tous les chameaux",
+      "pl": "chameaux",
+      "ord": {
+        "2": "le deuxième chameau",
+        "3": "le troisième chameau",
+        "4": "le quatrième chameau",
+        "5": "le cinquième chameau"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au chameau",
+      "reviewed": true
+    },
+    "canoe": {
+      "unique": "le canoë",
+      "all": "tous les canoës",
+      "pl": "canoës",
+      "ord": {
+        "2": "le deuxième canoë",
+        "3": "le troisième canoë",
+        "4": "le quatrième canoë",
+        "5": "le cinquième canoë"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au canoë",
+      "reviewed": true
+    },
+    "car": {
+      "unique": "la voiture",
+      "all": "toutes les voitures",
+      "pl": "voitures",
+      "ord": {
+        "2": "la deuxième voiture",
+        "3": "la troisième voiture",
+        "4": "la quatrième voiture",
+        "5": "la cinquième voiture"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la voiture",
+      "reviewed": true
+    },
+    "cat": {
+      "unique": "le chat",
+      "all": "tous les chats",
+      "pl": "chats",
+      "ord": {
+        "2": "le deuxième chat",
+        "3": "le troisième chat",
+        "4": "le quatrième chat",
+        "5": "le cinquième chat"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au chat",
+      "reviewed": true
+    },
+    "cheetah": {
+      "unique": "le guépard",
+      "all": "tous les guépards",
+      "pl": "guépards",
+      "ord": {
+        "2": "le deuxième guépard",
+        "3": "le troisième guépard",
+        "4": "le quatrième guépard",
+        "5": "le cinquième guépard"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au guépard",
+      "reviewed": true
+    },
+    "cherry": {
+      "unique": "la cerise",
+      "all": "toutes les cerises",
+      "pl": "cerises",
+      "ord": {
+        "2": "la deuxième cerise",
+        "3": "la troisième cerise",
+        "4": "la quatrième cerise",
+        "5": "la cinquième cerise"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la cerise",
+      "reviewed": true
+    },
+    "chick": {
+      "unique": "le poussin",
+      "all": "tous les poussins",
+      "pl": "poussins",
+      "ord": {
+        "2": "le deuxième poussin",
+        "3": "le troisième poussin",
+        "4": "le quatrième poussin",
+        "5": "le cinquième poussin"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au poussin",
+      "reviewed": true
+    },
+    "chicken": {
+      "unique": "le poulet",
+      "all": "tous les poulets",
+      "pl": "poulets",
+      "ord": {
+        "2": "le deuxième poulet",
+        "3": "le troisième poulet",
+        "4": "le quatrième poulet",
+        "5": "le cinquième poulet"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au poulet",
+      "reviewed": true
+    },
+    "chimpanzee": {
+      "unique": "le chimpanzé",
+      "all": "tous les chimpanzés",
+      "pl": "chimpanzés",
+      "ord": {
+        "2": "le deuxième chimpanzé",
+        "3": "le troisième chimpanzé",
+        "4": "le quatrième chimpanzé",
+        "5": "le cinquième chimpanzé"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au chimpanzé",
+      "reviewed": true
+    },
+    "clementine": {
+      "unique": "la clémentine",
+      "all": "toutes les clémentines",
+      "pl": "clémentines",
+      "ord": {
+        "2": "la deuxième clémentine",
+        "3": "la troisième clémentine",
+        "4": "la quatrième clémentine",
+        "5": "la cinquième clémentine"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la clémentine",
+      "reviewed": true
+    },
+    "coconut": {
+      "unique": "la noix de coco",
+      "all": "toutes les noix de coco",
+      "pl": "noix de coco",
+      "ord": {
+        "2": "la deuxième noix de coco",
+        "3": "la troisième noix de coco",
+        "4": "la quatrième noix de coco",
+        "5": "la cinquième noix de coco"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la noix de coco",
+      "reviewed": true
+    },
+    "cow": {
+      "unique": "la vache",
+      "all": "toutes les vaches",
+      "pl": "vaches",
+      "ord": {
+        "2": "la deuxième vache",
+        "3": "la troisième vache",
+        "4": "la quatrième vache",
+        "5": "la cinquième vache"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la vache",
+      "reviewed": true
+    },
+    "cranberry": {
+      "unique": "la canneberge",
+      "all": "toutes les canneberges",
+      "pl": "canneberges",
+      "ord": {
+        "2": "la deuxième canneberge",
+        "3": "la troisième canneberge",
+        "4": "la quatrième canneberge",
+        "5": "la cinquième canneberge"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la canneberge",
+      "reviewed": true
+    },
+    "dinosaur": {
+      "unique": "le dinosaure",
+      "all": "tous les dinosaures",
+      "pl": "dinosaures",
+      "ord": {
+        "2": "le deuxième dinosaure",
+        "3": "le troisième dinosaure",
+        "4": "le quatrième dinosaure",
+        "5": "le cinquième dinosaure"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au dinosaure",
+      "reviewed": true
+    },
+    "dog": {
+      "unique": "le chien",
+      "all": "tous les chiens",
+      "pl": "chiens",
+      "ord": {
+        "2": "le deuxième chien",
+        "3": "le troisième chien",
+        "4": "le quatrième chien",
+        "5": "le cinquième chien"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au chien",
+      "reviewed": true
+    },
+    "doll": {
+      "unique": "la poupée",
+      "all": "toutes les poupées",
+      "pl": "poupées",
+      "ord": {
+        "2": "la deuxième poupée",
+        "3": "la troisième poupée",
+        "4": "la quatrième poupée",
+        "5": "la cinquième poupée"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la poupée",
+      "reviewed": true
+    },
+    "dolphin": {
+      "unique": "le dauphin",
+      "all": "tous les dauphins",
+      "pl": "dauphins",
+      "ord": {
+        "2": "le deuxième dauphin",
+        "3": "le troisième dauphin",
+        "4": "le quatrième dauphin",
+        "5": "le cinquième dauphin"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au dauphin",
+      "reviewed": true
+    },
+    "donkey": {
+      "unique": "l'âne",
+      "all": "tous les ânes",
+      "pl": "ânes",
+      "ord": {
+        "2": "le deuxième âne",
+        "3": "le troisième âne",
+        "4": "le quatrième âne",
+        "5": "le cinquième âne"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à l'âne",
+      "reviewed": true
+    },
+    "duck": {
+      "unique": "le canard",
+      "all": "tous les canards",
+      "pl": "canards",
+      "ord": {
+        "2": "le deuxième canard",
+        "3": "le troisième canard",
+        "4": "le quatrième canard",
+        "5": "le cinquième canard"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au canard",
+      "reviewed": true
+    },
+    "duckling": {
+      "unique": "le caneton",
+      "all": "tous les canetons",
+      "pl": "canetons",
+      "ord": {
+        "2": "le deuxième caneton",
+        "3": "le troisième caneton",
+        "4": "le quatrième caneton",
+        "5": "le cinquième caneton"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au caneton",
+      "reviewed": true
+    },
+    "elephant": {
+      "unique": "l'éléphant",
+      "all": "tous les éléphants",
+      "pl": "éléphants",
+      "ord": {
+        "2": "le deuxième éléphant",
+        "3": "le troisième éléphant",
+        "4": "le quatrième éléphant",
+        "5": "le cinquième éléphant"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à l'éléphant",
+      "reviewed": true
+    },
+    "excavator": {
+      "unique": "l'excavatrice",
+      "all": "toutes les excavatrices",
+      "pl": "excavatrices",
+      "ord": {
+        "2": "la deuxième excavatrice",
+        "3": "la troisième excavatrice",
+        "4": "la quatrième excavatrice",
+        "5": "la cinquième excavatrice"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à l'excavatrice",
+      "reviewed": true
+    },
+    "ferry": {
+      "unique": "le ferry",
+      "all": "tous les ferrys",
+      "pl": "ferrys",
+      "ord": {
+        "2": "le deuxième ferry",
+        "3": "le troisième ferry",
+        "4": "le quatrième ferry",
+        "5": "le cinquième ferry"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au ferry",
+      "reviewed": true
+    },
+    "fig": {
+      "unique": "la figue",
+      "all": "toutes les figues",
+      "pl": "figues",
+      "ord": {
+        "2": "la deuxième figue",
+        "3": "la troisième figue",
+        "4": "la quatrième figue",
+        "5": "la cinquième figue"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la figue",
+      "reviewed": true
+    },
+    "foal": {
+      "unique": "le poulain",
+      "all": "tous les poulains",
+      "pl": "poulains",
+      "ord": {
+        "2": "le deuxième poulain",
+        "3": "le troisième poulain",
+        "4": "le quatrième poulain",
+        "5": "le cinquième poulain"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au poulain",
+      "reviewed": true
+    },
+    "forklift": {
+      "unique": "le chariot élévateur",
+      "all": "tous les chariots élévateurs",
+      "pl": "chariots élévateurs",
+      "ord": {
+        "2": "le deuxième chariot élévateur",
+        "3": "le troisième chariot élévateur",
+        "4": "le quatrième chariot élévateur",
+        "5": "le cinquième chariot élévateur"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au chariot élévateur",
+      "reviewed": true
+    },
+    "fox": {
+      "unique": "le renard",
+      "all": "tous les renards",
+      "pl": "renards",
+      "ord": {
+        "2": "le deuxième renard",
+        "3": "le troisième renard",
+        "4": "le quatrième renard",
+        "5": "le cinquième renard"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au renard",
+      "reviewed": true
+    },
+    "gazelle": {
+      "unique": "la gazelle",
+      "all": "toutes les gazelles",
+      "pl": "gazelles",
+      "ord": {
+        "2": "la deuxième gazelle",
+        "3": "la troisième gazelle",
+        "4": "la quatrième gazelle",
+        "5": "la cinquième gazelle"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la gazelle",
+      "reviewed": true
+    },
+    "giraffe": {
+      "unique": "la girafe",
+      "all": "toutes les girafes",
+      "pl": "girafes",
+      "ord": {
+        "2": "la deuxième girafe",
+        "3": "la troisième girafe",
+        "4": "la quatrième girafe",
+        "5": "la cinquième girafe"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la girafe",
+      "reviewed": true
+    },
+    "goat": {
+      "unique": "la chèvre",
+      "all": "toutes les chèvres",
+      "pl": "chèvres",
+      "ord": {
+        "2": "la deuxième chèvre",
+        "3": "la troisième chèvre",
+        "4": "la quatrième chèvre",
+        "5": "la cinquième chèvre"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la chèvre",
+      "reviewed": true
+    },
+    "goose": {
+      "unique": "l'oie",
+      "all": "toutes les oies",
+      "pl": "oies",
+      "ord": {
+        "2": "la deuxième oie",
+        "3": "la troisième oie",
+        "4": "la quatrième oie",
+        "5": "la cinquième oie"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à l'oie",
+      "reviewed": true
+    },
+    "gorilla": {
+      "unique": "le gorille",
+      "all": "tous les gorilles",
+      "pl": "gorilles",
+      "ord": {
+        "2": "le deuxième gorille",
+        "3": "le troisième gorille",
+        "4": "le quatrième gorille",
+        "5": "le cinquième gorille"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au gorille",
+      "reviewed": true
+    },
+    "grapefruit": {
+      "unique": "le pamplemousse",
+      "all": "tous les pamplemousses",
+      "pl": "pamplemousses",
+      "ord": {
+        "2": "le deuxième pamplemousse",
+        "3": "le troisième pamplemousse",
+        "4": "le quatrième pamplemousse",
+        "5": "le cinquième pamplemousse"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au pamplemousse",
+      "reviewed": true
+    },
+    "helicopter": {
+      "unique": "l'hélicoptère",
+      "all": "tous les hélicoptères",
+      "pl": "hélicoptères",
+      "ord": {
+        "2": "le deuxième hélicoptère",
+        "3": "le troisième hélicoptère",
+        "4": "le quatrième hélicoptère",
+        "5": "le cinquième hélicoptère"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à l'hélicoptère",
+      "reviewed": true
+    },
+    "hen": {
+      "unique": "la poule",
+      "all": "toutes les poules",
+      "pl": "poules",
+      "ord": {
+        "2": "la deuxième poule",
+        "3": "la troisième poule",
+        "4": "la quatrième poule",
+        "5": "la cinquième poule"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la poule",
+      "reviewed": true
+    },
+    "hippopotamus": {
+      "unique": "l'hippopotame",
+      "all": "tous les hippopotames",
+      "pl": "hippopotames",
+      "ord": {
+        "2": "le deuxième hippopotame",
+        "3": "le troisième hippopotame",
+        "4": "le quatrième hippopotame",
+        "5": "le cinquième hippopotame"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à l'hippopotame",
+      "reviewed": true
+    },
+    "horse": {
+      "unique": "le cheval",
+      "all": "tous les chevaux",
+      "pl": "chevaux",
+      "ord": {
+        "2": "le deuxième cheval",
+        "3": "le troisième cheval",
+        "4": "le quatrième cheval",
+        "5": "le cinquième cheval"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au cheval",
+      "reviewed": true
+    },
+    "hyena": {
+      "unique": "l'hyène",
+      "all": "toutes les hyènes",
+      "pl": "hyènes",
+      "ord": {
+        "2": "la deuxième hyène",
+        "3": "la troisième hyène",
+        "4": "la quatrième hyène",
+        "5": "la cinquième hyène"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à l'hyène",
+      "reviewed": true
+    },
+    "iguana": {
+      "unique": "l'iguane",
+      "all": "tous les iguanes",
+      "pl": "iguanes",
+      "ord": {
+        "2": "le deuxième iguane",
+        "3": "le troisième iguane",
+        "4": "le quatrième iguane",
+        "5": "le cinquième iguane"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à l'iguane",
+      "reviewed": true
+    },
+    "jaguar": {
+      "unique": "le jaguar",
+      "all": "tous les jaguars",
+      "pl": "jaguars",
+      "ord": {
+        "2": "le deuxième jaguar",
+        "3": "le troisième jaguar",
+        "4": "le quatrième jaguar",
+        "5": "le cinquième jaguar"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au jaguar",
+      "reviewed": true
+    },
+    "jeep": {
+      "unique": "la jeep",
+      "all": "toutes les jeeps",
+      "pl": "jeeps",
+      "ord": {
+        "2": "la deuxième jeep",
+        "3": "la troisième jeep",
+        "4": "la quatrième jeep",
+        "5": "la cinquième jeep"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la jeep",
+      "reviewed": true
+    },
+    "jet": {
+      "unique": "le jet",
+      "all": "tous les jets",
+      "pl": "jets",
+      "ord": {
+        "2": "le deuxième jet",
+        "3": "le troisième jet",
+        "4": "le quatrième jet",
+        "5": "le cinquième jet"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au jet",
+      "reviewed": true
+    },
+    "kangaroo": {
+      "unique": "le kangourou",
+      "all": "tous les kangourous",
+      "pl": "kangourous",
+      "ord": {
+        "2": "le deuxième kangourou",
+        "3": "le troisième kangourou",
+        "4": "le quatrième kangourou",
+        "5": "le cinquième kangourou"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au kangourou",
+      "reviewed": true
+    },
+    "kite": {
+      "unique": "le cerf-volant",
+      "all": "tous les cerfs-volants",
+      "pl": "cerfs-volants",
+      "ord": {
+        "2": "le deuxième cerf-volant",
+        "3": "le troisième cerf-volant",
+        "4": "le quatrième cerf-volant",
+        "5": "le cinquième cerf-volant"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au cerf-volant",
+      "reviewed": true
+    },
+    "kiwi": {
+      "unique": "le kiwi",
+      "all": "tous les kiwis",
+      "pl": "kiwis",
+      "ord": {
+        "2": "le deuxième kiwi",
+        "3": "le troisième kiwi",
+        "4": "le quatrième kiwi",
+        "5": "le cinquième kiwi"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au kiwi",
+      "reviewed": true
+    },
+    "koala": {
+      "unique": "le koala",
+      "all": "tous les koalas",
+      "pl": "koalas",
+      "ord": {
+        "2": "le deuxième koala",
+        "3": "le troisième koala",
+        "4": "le quatrième koala",
+        "5": "le cinquième koala"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au koala",
+      "reviewed": true
+    },
+    "lamb": {
+      "unique": "l'agneau",
+      "all": "tous les agneaux",
+      "pl": "agneaux",
+      "ord": {
+        "2": "le deuxième agneau",
+        "3": "le troisième agneau",
+        "4": "le quatrième agneau",
+        "5": "le cinquième agneau"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à l'agneau",
+      "reviewed": true
+    },
+    "lemon": {
+      "unique": "le citron",
+      "all": "tous les citrons",
+      "pl": "citrons",
+      "ord": {
+        "2": "le deuxième citron",
+        "3": "le troisième citron",
+        "4": "le quatrième citron",
+        "5": "le cinquième citron"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au citron",
+      "reviewed": true
+    },
+    "lemur": {
+      "unique": "le lémurien",
+      "all": "tous les lémuriens",
+      "pl": "lémuriens",
+      "ord": {
+        "2": "le deuxième lémurien",
+        "3": "le troisième lémurien",
+        "4": "le quatrième lémurien",
+        "5": "le cinquième lémurien"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au lémurien",
+      "reviewed": true
+    },
+    "leopard": {
+      "unique": "le léopard",
+      "all": "tous les léopards",
+      "pl": "léopards",
+      "ord": {
+        "2": "le deuxième léopard",
+        "3": "le troisième léopard",
+        "4": "le quatrième léopard",
+        "5": "le cinquième léopard"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au léopard",
+      "reviewed": true
+    },
+    "lime": {
+      "unique": "le citron vert",
+      "all": "tous les citrons verts",
+      "pl": "citrons verts",
+      "ord": {
+        "2": "le deuxième citron vert",
+        "3": "le troisième citron vert",
+        "4": "le quatrième citron vert",
+        "5": "le cinquième citron vert"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au citron vert",
+      "reviewed": true
+    },
+    "lion": {
+      "unique": "le lion",
+      "all": "tous les lions",
+      "pl": "lions",
+      "ord": {
+        "2": "le deuxième lion",
+        "3": "le troisième lion",
+        "4": "le quatrième lion",
+        "5": "le cinquième lion"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au lion",
+      "reviewed": true
+    },
+    "llama": {
+      "unique": "le lama",
+      "all": "tous les lamas",
+      "pl": "lamas",
+      "ord": {
+        "2": "le deuxième lama",
+        "3": "le troisième lama",
+        "4": "le quatrième lama",
+        "5": "le cinquième lama"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au lama",
+      "reviewed": true
+    },
+    "mango": {
+      "unique": "la mangue",
+      "all": "toutes les mangues",
+      "pl": "mangues",
+      "ord": {
+        "2": "la deuxième mangue",
+        "3": "la troisième mangue",
+        "4": "la quatrième mangue",
+        "5": "la cinquième mangue"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la mangue",
+      "reviewed": true
+    },
+    "meerkat": {
+      "unique": "le suricate",
+      "all": "tous les suricates",
+      "pl": "suricates",
+      "ord": {
+        "2": "le deuxième suricate",
+        "3": "le troisième suricate",
+        "4": "le quatrième suricate",
+        "5": "le cinquième suricate"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au suricate",
+      "reviewed": true
+    },
+    "monkey": {
+      "unique": "le singe",
+      "all": "tous les singes",
+      "pl": "singes",
+      "ord": {
+        "2": "le deuxième singe",
+        "3": "le troisième singe",
+        "4": "le quatrième singe",
+        "5": "le cinquième singe"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au singe",
+      "reviewed": true
+    },
+    "motorcycle": {
+      "unique": "la moto",
+      "all": "toutes les motos",
+      "pl": "motos",
+      "ord": {
+        "2": "la deuxième moto",
+        "3": "la troisième moto",
+        "4": "la quatrième moto",
+        "5": "la cinquième moto"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la moto",
+      "reviewed": true
+    },
+    "nectarine": {
+      "unique": "la nectarine",
+      "all": "toutes les nectarines",
+      "pl": "nectarines",
+      "ord": {
+        "2": "la deuxième nectarine",
+        "3": "la troisième nectarine",
+        "4": "la quatrième nectarine",
+        "5": "la cinquième nectarine"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la nectarine",
+      "reviewed": true
+    },
+    "orange": {
+      "unique": "l'orange",
+      "all": "toutes les oranges",
+      "pl": "oranges",
+      "ord": {
+        "2": "la deuxième orange",
+        "3": "la troisième orange",
+        "4": "la quatrième orange",
+        "5": "la cinquième orange"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à l'orange",
+      "reviewed": true
+    },
+    "orangutan": {
+      "unique": "l'orang-outan",
+      "all": "tous les orangs-outans",
+      "pl": "orangs-outans",
+      "ord": {
+        "2": "le deuxième orang-outan",
+        "3": "le troisième orang-outan",
+        "4": "le quatrième orang-outan",
+        "5": "le cinquième orang-outan"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à l'orang-outan",
+      "reviewed": true
+    },
+    "otter": {
+      "unique": "la loutre",
+      "all": "toutes les loutres",
+      "pl": "loutres",
+      "ord": {
+        "2": "la deuxième loutre",
+        "3": "la troisième loutre",
+        "4": "la quatrième loutre",
+        "5": "la cinquième loutre"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la loutre",
+      "reviewed": true
+    },
+    "owl": {
+      "unique": "le hibou",
+      "all": "tous les hiboux",
+      "pl": "hiboux",
+      "ord": {
+        "2": "le deuxième hibou",
+        "3": "le troisième hibou",
+        "4": "le quatrième hibou",
+        "5": "le cinquième hibou"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au hibou",
+      "reviewed": true
+    },
+    "ox": {
+      "unique": "le bœuf",
+      "all": "tous les bœufs",
+      "pl": "bœufs",
+      "ord": {
+        "2": "le deuxième bœuf",
+        "3": "le troisième bœuf",
+        "4": "le quatrième bœuf",
+        "5": "le cinquième bœuf"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au bœuf",
+      "reviewed": true
+    },
+    "panda": {
+      "unique": "le panda",
+      "all": "tous les pandas",
+      "pl": "pandas",
+      "ord": {
+        "2": "le deuxième panda",
+        "3": "le troisième panda",
+        "4": "le quatrième panda",
+        "5": "le cinquième panda"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au panda",
+      "reviewed": true
+    },
+    "papaya": {
+      "unique": "la papaye",
+      "all": "toutes les papayes",
+      "pl": "papayes",
+      "ord": {
+        "2": "la deuxième papaye",
+        "3": "la troisième papaye",
+        "4": "la quatrième papaye",
+        "5": "la cinquième papaye"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la papaye",
+      "reviewed": true
+    },
+    "peach": {
+      "unique": "la pêche",
+      "all": "toutes les pêches",
+      "pl": "pêches",
+      "ord": {
+        "2": "la deuxième pêche",
+        "3": "la troisième pêche",
+        "4": "la quatrième pêche",
+        "5": "la cinquième pêche"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la pêche",
+      "reviewed": true
+    },
+    "pear": {
+      "unique": "la poire",
+      "all": "toutes les poires",
+      "pl": "poires",
+      "ord": {
+        "2": "la deuxième poire",
+        "3": "la troisième poire",
+        "4": "la quatrième poire",
+        "5": "la cinquième poire"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la poire",
+      "reviewed": true
+    },
+    "penguin": {
+      "unique": "le manchot",
+      "all": "tous les manchots",
+      "pl": "manchots",
+      "ord": {
+        "2": "le deuxième manchot",
+        "3": "le troisième manchot",
+        "4": "le quatrième manchot",
+        "5": "le cinquième manchot"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au manchot",
+      "reviewed": true
+    },
+    "persimmon": {
+      "unique": "le kaki",
+      "all": "tous les kakis",
+      "pl": "kakis",
+      "ord": {
+        "2": "le deuxième kaki",
+        "3": "le troisième kaki",
+        "4": "le quatrième kaki",
+        "5": "le cinquième kaki"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au kaki",
+      "reviewed": true
+    },
+    "pig": {
+      "unique": "le cochon",
+      "all": "tous les cochons",
+      "pl": "cochons",
+      "ord": {
+        "2": "le deuxième cochon",
+        "3": "le troisième cochon",
+        "4": "le quatrième cochon",
+        "5": "le cinquième cochon"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au cochon",
+      "reviewed": true
+    },
+    "pineapple": {
+      "unique": "l'ananas",
+      "all": "tous les ananas",
+      "pl": "ananas",
+      "ord": {
+        "2": "le deuxième ananas",
+        "3": "le troisième ananas",
+        "4": "le quatrième ananas",
+        "5": "le cinquième ananas"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à l'ananas",
+      "reviewed": true
+    },
+    "plum": {
+      "unique": "la prune",
+      "all": "toutes les prunes",
+      "pl": "prunes",
+      "ord": {
+        "2": "la deuxième prune",
+        "3": "la troisième prune",
+        "4": "la quatrième prune",
+        "5": "la cinquième prune"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la prune",
+      "reviewed": true
+    },
+    "pomegranate": {
+      "unique": "la grenade",
+      "all": "toutes les grenades",
+      "pl": "grenades",
+      "ord": {
+        "2": "la deuxième grenade",
+        "3": "la troisième grenade",
+        "4": "la quatrième grenade",
+        "5": "la cinquième grenade"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la grenade",
+      "reviewed": true
+    },
+    "rabbit": {
+      "unique": "le lapin",
+      "all": "tous les lapins",
+      "pl": "lapins",
+      "ord": {
+        "2": "le deuxième lapin",
+        "3": "le troisième lapin",
+        "4": "le quatrième lapin",
+        "5": "le cinquième lapin"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au lapin",
+      "reviewed": true
+    },
+    "raccoon": {
+      "unique": "le raton laveur",
+      "all": "tous les ratons laveurs",
+      "pl": "ratons laveurs",
+      "ord": {
+        "2": "le deuxième raton laveur",
+        "3": "le troisième raton laveur",
+        "4": "le quatrième raton laveur",
+        "5": "le cinquième raton laveur"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au raton laveur",
+      "reviewed": true
+    },
+    "raspberry": {
+      "unique": "la framboise",
+      "all": "toutes les framboises",
+      "pl": "framboises",
+      "ord": {
+        "2": "la deuxième framboise",
+        "3": "la troisième framboise",
+        "4": "la quatrième framboise",
+        "5": "la cinquième framboise"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la framboise",
+      "reviewed": true
+    },
+    "rhinoceros": {
+      "unique": "le rhinocéros",
+      "all": "tous les rhinocéros",
+      "pl": "rhinocéros",
+      "ord": {
+        "2": "le deuxième rhinocéros",
+        "3": "le troisième rhinocéros",
+        "4": "le quatrième rhinocéros",
+        "5": "le cinquième rhinocéros"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au rhinocéros",
+      "reviewed": true
+    },
+    "robot": {
+      "unique": "le robot",
+      "all": "tous les robots",
+      "pl": "robots",
+      "ord": {
+        "2": "le deuxième robot",
+        "3": "le troisième robot",
+        "4": "le quatrième robot",
+        "5": "le cinquième robot"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au robot",
+      "reviewed": true
+    },
+    "rocket": {
+      "unique": "la fusée",
+      "all": "toutes les fusées",
+      "pl": "fusées",
+      "ord": {
+        "2": "la deuxième fusée",
+        "3": "la troisième fusée",
+        "4": "la quatrième fusée",
+        "5": "la cinquième fusée"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la fusée",
+      "reviewed": true
+    },
+    "rooster": {
+      "unique": "le coq",
+      "all": "tous les coqs",
+      "pl": "coqs",
+      "ord": {
+        "2": "le deuxième coq",
+        "3": "le troisième coq",
+        "4": "le quatrième coq",
+        "5": "le cinquième coq"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au coq",
+      "reviewed": true
+    },
+    "sailboat": {
+      "unique": "le voilier",
+      "all": "tous les voiliers",
+      "pl": "voiliers",
+      "ord": {
+        "2": "le deuxième voilier",
+        "3": "le troisième voilier",
+        "4": "le quatrième voilier",
+        "5": "le cinquième voilier"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au voilier",
+      "reviewed": true
+    },
+    "sandbox": {
+      "unique": "le bac à sable",
+      "all": "tous les bacs à sable",
+      "pl": "bacs à sable",
+      "ord": {
+        "2": "le deuxième bac à sable",
+        "3": "le troisième bac à sable",
+        "4": "le quatrième bac à sable",
+        "5": "le cinquième bac à sable"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au bac à sable",
+      "reviewed": true
+    },
+    "scooter": {
+      "unique": "la trottinette",
+      "all": "toutes les trottinettes",
+      "pl": "trottinettes",
+      "ord": {
+        "2": "la deuxième trottinette",
+        "3": "la troisième trottinette",
+        "4": "la quatrième trottinette",
+        "5": "la cinquième trottinette"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la trottinette",
+      "reviewed": true
+    },
+    "seagull": {
+      "unique": "la mouette",
+      "all": "toutes les mouettes",
+      "pl": "mouettes",
+      "ord": {
+        "2": "la deuxième mouette",
+        "3": "la troisième mouette",
+        "4": "la quatrième mouette",
+        "5": "la cinquième mouette"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la mouette",
+      "reviewed": true
+    },
+    "seal": {
+      "unique": "le phoque",
+      "all": "tous les phoques",
+      "pl": "phoques",
+      "ord": {
+        "2": "le deuxième phoque",
+        "3": "le troisième phoque",
+        "4": "le quatrième phoque",
+        "5": "le cinquième phoque"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au phoque",
+      "reviewed": true
+    },
+    "ship": {
+      "unique": "le navire",
+      "all": "tous les navires",
+      "pl": "navires",
+      "ord": {
+        "2": "le deuxième navire",
+        "3": "le troisième navire",
+        "4": "le quatrième navire",
+        "5": "le cinquième navire"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au navire",
+      "reviewed": true
+    },
+    "shovel": {
+      "unique": "la pelle",
+      "all": "toutes les pelles",
+      "pl": "pelles",
+      "ord": {
+        "2": "la deuxième pelle",
+        "3": "la troisième pelle",
+        "4": "la quatrième pelle",
+        "5": "la cinquième pelle"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la pelle",
+      "reviewed": true
+    },
+    "skateboard": {
+      "unique": "le skateboard",
+      "all": "tous les skateboards",
+      "pl": "skateboards",
+      "ord": {
+        "2": "le deuxième skateboard",
+        "3": "le troisième skateboard",
+        "4": "le quatrième skateboard",
+        "5": "le cinquième skateboard"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au skateboard",
+      "reviewed": true
+    },
+    "slide": {
+      "unique": "le toboggan",
+      "all": "tous les toboggans",
+      "pl": "toboggans",
+      "ord": {
+        "2": "le deuxième toboggan",
+        "3": "le troisième toboggan",
+        "4": "le quatrième toboggan",
+        "5": "le cinquième toboggan"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au toboggan",
+      "reviewed": true
+    },
+    "sloth": {
+      "unique": "le paresseux",
+      "all": "tous les paresseux",
+      "pl": "paresseux",
+      "ord": {
+        "2": "le deuxième paresseux",
+        "3": "le troisième paresseux",
+        "4": "le quatrième paresseux",
+        "5": "le cinquième paresseux"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au paresseux",
+      "reviewed": true
+    },
+    "strawberry": {
+      "unique": "la fraise",
+      "all": "toutes les fraises",
+      "pl": "fraises",
+      "ord": {
+        "2": "la deuxième fraise",
+        "3": "la troisième fraise",
+        "4": "la quatrième fraise",
+        "5": "la cinquième fraise"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la fraise",
+      "reviewed": true
+    },
+    "submarine": {
+      "unique": "le sous-marin",
+      "all": "tous les sous-marins",
+      "pl": "sous-marins",
+      "ord": {
+        "2": "le deuxième sous-marin",
+        "3": "le troisième sous-marin",
+        "4": "le quatrième sous-marin",
+        "5": "le cinquième sous-marin"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au sous-marin",
+      "reviewed": true
+    },
+    "subway": {
+      "unique": "le métro",
+      "all": "tous les métros",
+      "pl": "métros",
+      "ord": {
+        "2": "le deuxième métro",
+        "3": "le troisième métro",
+        "4": "le quatrième métro",
+        "5": "le cinquième métro"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au métro",
+      "reviewed": true
+    },
+    "swan": {
+      "unique": "le cygne",
+      "all": "tous les cygnes",
+      "pl": "cygnes",
+      "ord": {
+        "2": "le deuxième cygne",
+        "3": "le troisième cygne",
+        "4": "le quatrième cygne",
+        "5": "le cinquième cygne"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au cygne",
+      "reviewed": true
+    },
+    "swing": {
+      "unique": "la balançoire",
+      "all": "toutes les balançoires",
+      "pl": "balançoires",
+      "ord": {
+        "2": "la deuxième balançoire",
+        "3": "la troisième balançoire",
+        "4": "la quatrième balançoire",
+        "5": "la cinquième balançoire"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la balançoire",
+      "reviewed": true
+    },
+    "taxi": {
+      "unique": "le taxi",
+      "all": "tous les taxis",
+      "pl": "taxis",
+      "ord": {
+        "2": "le deuxième taxi",
+        "3": "le troisième taxi",
+        "4": "le quatrième taxi",
+        "5": "le cinquième taxi"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au taxi",
+      "reviewed": true
+    },
+    "tiger": {
+      "unique": "le tigre",
+      "all": "tous les tigres",
+      "pl": "tigres",
+      "ord": {
+        "2": "le deuxième tigre",
+        "3": "le troisième tigre",
+        "4": "le quatrième tigre",
+        "5": "le cinquième tigre"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au tigre",
+      "reviewed": true
+    },
+    "tractor": {
+      "unique": "le tracteur",
+      "all": "tous les tracteurs",
+      "pl": "tracteurs",
+      "ord": {
+        "2": "le deuxième tracteur",
+        "3": "le troisième tracteur",
+        "4": "le quatrième tracteur",
+        "5": "le cinquième tracteur"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au tracteur",
+      "reviewed": true
+    },
+    "train": {
+      "unique": "le train",
+      "all": "tous les trains",
+      "pl": "trains",
+      "ord": {
+        "2": "le deuxième train",
+        "3": "le troisième train",
+        "4": "le quatrième train",
+        "5": "le cinquième train"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au train",
+      "reviewed": true
+    },
+    "truck": {
+      "unique": "le camion",
+      "all": "tous les camions",
+      "pl": "camions",
+      "ord": {
+        "2": "le deuxième camion",
+        "3": "le troisième camion",
+        "4": "le quatrième camion",
+        "5": "le cinquième camion"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au camion",
+      "reviewed": true
+    },
+    "turkey": {
+      "unique": "la dinde",
+      "all": "toutes les dindes",
+      "pl": "dindes",
+      "ord": {
+        "2": "la deuxième dinde",
+        "3": "la troisième dinde",
+        "4": "la quatrième dinde",
+        "5": "la cinquième dinde"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la dinde",
+      "reviewed": true
+    },
+    "turtle": {
+      "unique": "la tortue",
+      "all": "toutes les tortues",
+      "pl": "tortues",
+      "ord": {
+        "2": "la deuxième tortue",
+        "3": "la troisième tortue",
+        "4": "la quatrième tortue",
+        "5": "la cinquième tortue"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la tortue",
+      "reviewed": true
+    },
+    "van": {
+      "unique": "la camionnette",
+      "all": "toutes les camionnettes",
+      "pl": "camionnettes",
+      "ord": {
+        "2": "la deuxième camionnette",
+        "3": "la troisième camionnette",
+        "4": "la quatrième camionnette",
+        "5": "la cinquième camionnette"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la camionnette",
+      "reviewed": true
+    },
+    "vulture": {
+      "unique": "le vautour",
+      "all": "tous les vautours",
+      "pl": "vautours",
+      "ord": {
+        "2": "le deuxième vautour",
+        "3": "le troisième vautour",
+        "4": "le quatrième vautour",
+        "5": "le cinquième vautour"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au vautour",
+      "reviewed": true
+    },
+    "watermelon": {
+      "unique": "la pastèque",
+      "all": "toutes les pastèques",
+      "pl": "pastèques",
+      "ord": {
+        "2": "la deuxième pastèque",
+        "3": "la troisième pastèque",
+        "4": "la quatrième pastèque",
+        "5": "la cinquième pastèque"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la pastèque",
+      "reviewed": true
+    },
+    "whale": {
+      "unique": "la baleine",
+      "all": "toutes les baleines",
+      "pl": "baleines",
+      "ord": {
+        "2": "la deuxième baleine",
+        "3": "la troisième baleine",
+        "4": "la quatrième baleine",
+        "5": "la cinquième baleine"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "à la baleine",
+      "reviewed": true
+    },
+    "wolf": {
+      "unique": "le loup",
+      "all": "tous les loups",
+      "pl": "loups",
+      "ord": {
+        "2": "le deuxième loup",
+        "3": "le troisième loup",
+        "4": "le quatrième loup",
+        "5": "le cinquième loup"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au loup",
+      "reviewed": true
+    },
+    "woodpecker": {
+      "unique": "le pic",
+      "all": "tous les pics",
+      "pl": "pics",
+      "ord": {
+        "2": "le deuxième pic",
+        "3": "le troisième pic",
+        "4": "le quatrième pic",
+        "5": "le cinquième pic"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au pic",
+      "reviewed": true
+    },
+    "yacht": {
+      "unique": "le yacht",
+      "all": "tous les yachts",
+      "pl": "yachts",
+      "ord": {
+        "2": "le deuxième yacht",
+        "3": "le troisième yacht",
+        "4": "le quatrième yacht",
+        "5": "le cinquième yacht"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au yacht",
+      "reviewed": true
+    },
+    "zebra": {
+      "unique": "le zèbre",
+      "all": "tous les zèbres",
+      "pl": "zèbres",
+      "ord": {
+        "2": "le deuxième zèbre",
+        "3": "le troisième zèbre",
+        "4": "le quatrième zèbre",
+        "5": "le cinquième zèbre"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": "au zèbre",
+      "reviewed": true
+    }
+  },
+  "truth": {
+    "yes": "vrai",
+    "no": "faux",
+    "frames": [
+      {
+        "text": "Il y a {n} {pl} dans la ligne.",
+        "cue": "count",
+        "rel": "eq"
+      },
+      {
+        "text": "Il y a exactement {n} {pl} dans la ligne.",
+        "cue": "count",
+        "rel": "eq"
+      },
+      {
+        "text": "Il y a plus de {n} {pl} dans la ligne.",
+        "cue": "count",
+        "rel": "gt"
+      },
+      {
+        "text": "Il y a moins de {n} {pl} dans la ligne.",
+        "cue": "count",
+        "rel": "lt"
+      },
+      {
+        "text": "La première image est {obj}.",
+        "cue": "first"
+      },
+      {
+        "text": "La dernière image est {obj}.",
+        "cue": "last"
+      },
+      {
+        "text": "La ligne commence par {obj}.",
+        "cue": "first"
+      },
+      {
+        "text": "La ligne finit par {obj}.",
+        "cue": "last"
+      },
+      {
+        "text": "La deuxième image est {obj}.",
+        "cue": "ordinal",
+        "k": 2
+      },
+      {
+        "text": "La troisième image est {obj}.",
+        "cue": "ordinal",
+        "k": 3
+      },
+      {
+        "text": "La quatrième image est {obj}.",
+        "cue": "ordinal",
+        "k": 4
+      },
+      {
+        "text": "L'image juste après {obj} est {obj2}.",
+        "cue": "rightof"
+      },
+      {
+        "text": "L'image juste avant {obj} est {obj2}.",
+        "cue": "leftof"
+      }
+    ]
+  },
+  "draw": [
+    {
+      "text": "Dessine {n} {pl} dans la case."
+    },
+    {
+      "text": "Dessine {n} {pl} en très grand."
+    },
+    {
+      "text": "Dessine {n} {pl} en ligne."
+    },
+    {
+      "text": "Dessine {n} {pl} et un soleil au-dessus."
+    },
+    {
+      "text": "Dessine {n} {pl} en tout petit dans la case."
+    }
+  ],
+  "strings": {
+    "G1-308": {
+      "title": "Lecture de consignes : lis et fais",
+      "instruction": "Regarde la ligne d'images et pars du drapeau. Lis chaque phrase et fais exactement ce qu'elle dit avec ton crayon. Puis coche la petite case."
+    },
+    "F1": {
+      "title": "Lis et entoure",
+      "instruction": "Lis chaque phrase. Trouve dans la ligne l'image ou les images qu'elle nomme et entoure-les. Puis coche la petite case."
+    },
+    "F2": {
+      "title": "Lecture de consignes : deux actions à la suite",
+      "instruction": "Chaque phrase te demande deux choses. Lis-la jusqu'au bout avant de commencer, puis fais les deux actions dans la ligne d'images."
+    },
+    "F3": {
+      "title": "Lecture de consignes : première, deuxième, entre",
+      "instruction": "Pars du drapeau et compte le long de la ligne. Trouve l'image grâce à sa place, puis fais ce que dit la phrase avec ton crayon."
+    },
+    "F4": {
+      "title": "Lis et vérifie : vrai ou faux",
+      "instruction": "Lis chaque phrase et regarde la ligne d'images. La phrase est-elle vraie ou fausse ? Entoure le bon mot."
+    },
+    "F5": {
+      "title": "Lis et dessine",
+      "instruction": "Lis bien chaque phrase. Puis dessine exactement ce qu'elle dit dans la case."
+    }
+  }
+}

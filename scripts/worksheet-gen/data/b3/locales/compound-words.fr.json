@@ -1,0 +1,808 @@
+{
+  "shape": "family",
+  "casing": "lower",
+  "links": [
+    "",
+    "n",
+    "s"
+  ],
+  "linkBoxW": 36,
+  "exemplar": "A",
+  "units": [
+    {
+      "id": "A",
+      "items": [
+        {
+          "a": {
+            "vocabKey": "flower",
+            "word": "fleur",
+            "pic": {
+              "theme": "spring",
+              "noun": "flower"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "affix": "-iste"
+          },
+          "whole": {
+            "word": "fleuriste",
+            "vocabKey": "florist",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "tooth",
+            "word": "dent"
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "affix": "-ifrice"
+          },
+          "whole": {
+            "word": "dentifrice",
+            "vocabKey": "toothpaste",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "book",
+            "word": "livre"
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "affix": "-t"
+          },
+          "whole": {
+            "word": "livret",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "apple",
+            "word": "pomme",
+            "pic": {
+              "theme": "fruits",
+              "noun": "apple"
+            }
+          },
+          "aStem": "pomm",
+          "link": "",
+          "b": {
+            "affix": "-ier"
+          },
+          "whole": {
+            "word": "pommier",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "sand",
+            "word": "sable"
+          },
+          "aStem": "sabl",
+          "link": "",
+          "b": {
+            "affix": "-ier"
+          },
+          "whole": {
+            "word": "sablier",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "garden",
+            "word": "jardin"
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "affix": "-ier"
+          },
+          "whole": {
+            "word": "jardinier",
+            "vocabKey": "gardener",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "table",
+            "word": "table"
+          },
+          "aStem": "tabl",
+          "link": "",
+          "b": {
+            "affix": "-ette"
+          },
+          "whole": {
+            "word": "tablette",
+            "vocabKey": "tablet",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "pie",
+            "word": "tarte"
+          },
+          "aStem": "tart",
+          "link": "",
+          "b": {
+            "affix": "-elette"
+          },
+          "whole": {
+            "word": "tartelette",
+            "vocabKey": "tart",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "ice",
+            "word": "glace"
+          },
+          "aStem": "glac",
+          "link": "",
+          "b": {
+            "affix": "-ière"
+          },
+          "whole": {
+            "word": "glacière",
+            "vocabKey": "cooler",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "fish",
+            "word": "poisson"
+          },
+          "aStem": null,
+          "link": "n",
+          "b": {
+            "affix": "-ier"
+          },
+          "whole": {
+            "word": "poissonnier",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "house",
+            "word": "maison"
+          },
+          "aStem": null,
+          "link": "n",
+          "b": {
+            "affix": "-ette"
+          },
+          "whole": {
+            "word": "maisonnette",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "items": [
+        {
+          "a": {
+            "vocabKey": "flower",
+            "word": "fleur",
+            "pic": {
+              "theme": "spring",
+              "noun": "flower"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "affix": "-ir"
+          },
+          "whole": {
+            "word": "fleurir",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "tooth",
+            "word": "dent"
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "affix": "-iste"
+          },
+          "whole": {
+            "word": "dentiste",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "earth",
+            "word": "terre"
+          },
+          "aStem": "terr",
+          "link": "",
+          "b": {
+            "affix": "-ier"
+          },
+          "whole": {
+            "word": "terrier",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "bell",
+            "word": "cloche"
+          },
+          "aStem": "cloch",
+          "link": "",
+          "b": {
+            "affix": "-ette"
+          },
+          "whole": {
+            "word": "clochette",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "butter",
+            "word": "beurre"
+          },
+          "aStem": "beurr",
+          "link": "",
+          "b": {
+            "affix": "-ier"
+          },
+          "whole": {
+            "word": "beurrier",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "cheese",
+            "word": "fromage"
+          },
+          "aStem": "fromag",
+          "link": "",
+          "b": {
+            "affix": "-erie"
+          },
+          "whole": {
+            "word": "fromagerie",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "arm",
+            "word": "bras"
+          },
+          "aStem": null,
+          "link": "s",
+          "b": {
+            "affix": "-ard"
+          },
+          "whole": {
+            "word": "brassard",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "bag",
+            "word": "sac"
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "affix": "-oche"
+          },
+          "whole": {
+            "word": "sacoche",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "bird",
+            "word": "oiseau"
+          },
+          "aStem": "ois",
+          "link": "",
+          "b": {
+            "affix": "-illon"
+          },
+          "whole": {
+            "word": "oisillon",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "fish",
+            "word": "poisson"
+          },
+          "aStem": null,
+          "link": "n",
+          "b": {
+            "affix": "-erie"
+          },
+          "whole": {
+            "word": "poissonnerie",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "kitchen",
+            "word": "cuisine"
+          },
+          "aStem": "cuisin",
+          "link": "",
+          "b": {
+            "affix": "-ier"
+          },
+          "whole": {
+            "word": "cuisinier",
+            "vocabKey": "cook",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "shirt",
+            "word": "chemise"
+          },
+          "aStem": "chemis",
+          "link": "",
+          "b": {
+            "affix": "-ier"
+          },
+          "whole": {
+            "word": "chemisier",
+            "vocabKey": "blouse",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "ambulance",
+            "word": "ambulance"
+          },
+          "aStem": "ambulanc",
+          "link": "",
+          "b": {
+            "affix": "-ier"
+          },
+          "whole": {
+            "word": "ambulancier",
+            "vocabKey": "paramedic",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        }
+      ]
+    }
+  ],
+  "opaque": [],
+  "onePart": [
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "para"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "rain",
+        "word": "pluie"
+      },
+      "whole": {
+        "word": "parapluie",
+        "vocabKey": "umbrella",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "tourne"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "sun",
+        "word": "sol"
+      },
+      "whole": {
+        "word": "tournesol",
+        "vocabKey": "sunflower",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "rain",
+        "word": "pluie"
+      },
+      "aStem": "pluv",
+      "link": "",
+      "b": {
+        "affix": "-ieux"
+      },
+      "whole": {
+        "word": "pluvieux",
+        "vocabKey": "rainy",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "porte"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "leaf",
+        "word": "feuille"
+      },
+      "whole": {
+        "word": "portefeuille",
+        "vocabKey": "wallet",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    }
+  ],
+  "hubs": [],
+  "opened": {
+    "spring/garden": [
+      "garden"
+    ],
+    "occupations/gardener": [
+      "gardener"
+    ],
+    "around the house/table": [
+      "table"
+    ],
+    "classroom/table": [
+      "table"
+    ],
+    "furniture/table": [
+      "table"
+    ],
+    "classroom/tablet": [
+      "tablet"
+    ],
+    "At the Supermarket/pie": [
+      "pie"
+    ],
+    "bakery/pie": [
+      "pie"
+    ],
+    "desserts and sweets/pie": [
+      "pie"
+    ],
+    "thanksgivinng/pie": [
+      "pie"
+    ],
+    "bakery/tart": [
+      "tart"
+    ],
+    "desserts and sweets/tart": [
+      "tart"
+    ],
+    "clothing/shirt": [
+      "shirt"
+    ],
+    "clothing/blouse": [
+      "blouse"
+    ],
+    "hospital/ambulance": [
+      "ambulance"
+    ],
+    "vehicles/ambulance": [
+      "ambulance"
+    ],
+    "occupations/paramedic": [
+      "paramedic"
+    ],
+    "winter/ice": [
+      "ice"
+    ],
+    "beach/cooler": [
+      "cooler"
+    ],
+    "camping/cooler": [
+      "cooler"
+    ],
+    "miscellaneous/leaf": [
+      "leaf"
+    ],
+    "spring/leaf": [
+      "leaf"
+    ],
+    "accessories/wallet": [
+      "wallet"
+    ],
+    "occupations/florist": [
+      "florist"
+    ],
+    "occupations/cook": [
+      "cook"
+    ],
+    "around the house/stove": [
+      "stove"
+    ],
+    "accessories/umbrella": [
+      "umbrella"
+    ],
+    "beach/umbrella": [
+      "umbrella"
+    ],
+    "spring/umbrella": [
+      "umbrella"
+    ],
+    "summer/umbrella": [
+      "umbrella"
+    ],
+    "weather/umbrella": [
+      "umbrella"
+    ],
+    "flowers/sunflower": [
+      "sunflower"
+    ],
+    "weather/rainy": [
+      "rainy"
+    ],
+    "flowers/cornflower": [],
+    "activities/singing": []
+  },
+  "foils": [
+    {
+      "vocabKey": "carrot",
+      "word": "carotte",
+      "looksLike": [
+        "car",
+        "otte"
+      ]
+    },
+    {
+      "vocabKey": "pumpkin",
+      "word": "citrouille",
+      "looksLike": [
+        "citr",
+        "ouille"
+      ]
+    },
+    {
+      "vocabKey": "mushroom",
+      "word": "champignon",
+      "looksLike": [
+        "champ",
+        "ignon"
+      ]
+    },
+    {
+      "vocabKey": "eggplant",
+      "word": "aubergine",
+      "looksLike": [
+        "auberg",
+        "ine"
+      ]
+    },
+    {
+      "vocabKey": "penguin",
+      "word": "manchot",
+      "looksLike": [
+        "manch",
+        "ot"
+      ]
+    },
+    {
+      "vocabKey": "cabinet",
+      "word": "armoire",
+      "looksLike": [
+        "arm",
+        "oire"
+      ]
+    },
+    {
+      "vocabKey": "butterfly",
+      "word": "papillon",
+      "looksLike": [
+        "papi",
+        "llon"
+      ]
+    },
+    {
+      "vocabKey": "carpet",
+      "word": "tapis",
+      "looksLike": [
+        "tap",
+        "is"
+      ]
+    },
+    {
+      "vocabKey": "notebook",
+      "word": "cahier",
+      "looksLike": [
+        "cah",
+        "ier"
+      ]
+    },
+    {
+      "vocabKey": "watermelon",
+      "word": "pastèque",
+      "looksLike": [
+        "past",
+        "èque"
+      ]
+    },
+    {
+      "vocabKey": "hamster",
+      "word": "hamster",
+      "looksLike": [
+        "ham",
+        "ster"
+      ]
+    },
+    {
+      "vocabKey": "pineapple",
+      "word": "ananas",
+      "looksLike": [
+        "ana",
+        "nas"
+      ]
+    }
+  ],
+  "sizePairs": [],
+  "crossWords": [],
+  "refuse": {
+    "F1": true,
+    "F3": true,
+    "F5": true
+  },
+  "strings": {
+    "G2-316": {
+      "title": "Mots de la même famille : image + terminaison",
+      "instruction": "Dis le nom de l'image, c'est le radical. Ajoute la terminaison et écris le nouveau mot sur la ligne."
+    },
+    "G2-329": {
+      "title": "La lettre de liaison entre le radical et la terminaison",
+      "instruction": "Le radical et la terminaison sont écrits. Écris la lettre qui les relie dans la case, ou laisse-la vide, puis écris le mot entier."
+    },
+    "G2-330": {
+      "title": "Retrouve le radical : coupe le mot en deux",
+      "instruction": "Le mot est écrit dans des cases, à côté de son image. Trace un trait entre le radical et ce qu'on lui a ajouté."
+    },
+    "G2-331": {
+      "title": "Relie le radical au mot de sa famille",
+      "instruction": "Relie chaque image de gauche au mot de sa famille à droite, puis écris ce mot sur la ligne."
+    },
+    "G2-332": {
+      "title": "Mot simple ou mot construit ?",
+      "instruction": "Douze mots : six sont construits à partir d'un radical. Entoure-les et écris le radical et la terminaison sur les lignes."
+    },
+    "G2-333": {
+      "title": "Une famille de mots autour d'un même radical",
+      "instruction": "Un mot est au milieu. Chaque image autour forme un mot de sa famille. Écris les quatre mots sur les lignes."
+    }
+  }
+}

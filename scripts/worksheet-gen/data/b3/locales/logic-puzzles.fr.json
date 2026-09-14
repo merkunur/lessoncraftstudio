@@ -1,0 +1,100 @@
+{
+  "head": "Logigrammes",
+  "names": [
+    {
+      "nom": "Léa"
+    },
+    {
+      "nom": "Hugo"
+    },
+    {
+      "nom": "Chloé"
+    },
+    {
+      "nom": "Louis"
+    },
+    {
+      "nom": "Emma"
+    },
+    {
+      "nom": "Nathan"
+    },
+    {
+      "nom": "Inès"
+    },
+    {
+      "nom": "Jules"
+    }
+  ],
+  "namePx": 22,
+  "picSep": "",
+  "frames": {
+    "neg": [
+      "{name} n'a pas {pic}.",
+      "{pic} n'est pas à {name}."
+    ],
+    "pos": [
+      "{name} a {pic}.",
+      "{pic} est à {name}."
+    ],
+    "either": [
+      "{name} a {pic} ou {pic}.",
+      "{pic} ou {pic} est à {name}."
+    ],
+    "holderNot": [
+      "L'enfant qui a {pic} n'est pas {name}.",
+      "{name} n'est pas l'enfant qui a {pic}."
+    ],
+    "cross": [
+      "L'enfant qui a {pic} a {pic2}.",
+      "Qui a {pic} a aussi {pic2}."
+    ],
+    "crossNot": [
+      "L'enfant qui a {pic} n'a pas {pic2}.",
+      "Qui a {pic} n'a pas {pic2}."
+    ]
+  },
+  "truth": {
+    "has": [
+      "{name} a {pic}."
+    ],
+    "hasNot": [
+      "{name} n'a pas {pic}."
+    ],
+    "holderIs": [
+      "L'enfant qui a {pic} est {name}."
+    ],
+    "either": [
+      "{name} a {pic} ou {pic}."
+    ],
+    "nobody": [
+      "Personne n'a {pic}."
+    ]
+  },
+  "strings": {
+    "G2-319": {
+      "title": "Logigrammes : trois indices, une réponse",
+      "instruction": "Lis les indices. Sur la grille, barre ce qui est impossible, coche ce qui est sûr, puis entoure l'image de chaque enfant."
+    },
+    "F1": {
+      "title": "Logigrammes avec des indices oui, non et ou",
+      "instruction": "Un indice oui donne une coche, un indice non une croix, un indice « ou » barre la troisième image. Termine la grille, puis entoure chaque réponse."
+    },
+    "F2": {
+      "title": "Logigrammes 4 × 4 : six indices",
+      "instruction": "Quatre enfants et quatre images. Utilise tous les indices : barre l'impossible et coche le sûr jusqu'à une seule réponse par ligne."
+    },
+    "F3": {
+      "title": "Logigrammes en images : barre et trouve",
+      "instruction": "Une image barrée : l'enfant ne l'a pas. Une image entourée : l'enfant l'a. Barre sur la grille, puis entoure chaque réponse."
+    },
+    "F4": {
+      "title": "Logigrammes à deux critères : deux images par enfant",
+      "instruction": "Chaque enfant a une image de chaque série. Utilise les indices qui les relient pour remplir les trois grilles."
+    },
+    "F5": {
+      "title": "Lire un logigramme : vrai ou faux",
+      "instruction": "La grille est déjà résolue. Lis-la, puis entoure la coche si la phrase est vraie ou la croix si elle est fausse."
+    }
+  }
+}

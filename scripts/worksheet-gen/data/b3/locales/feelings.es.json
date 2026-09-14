@@ -1,0 +1,417 @@
+{
+  "feelings": [
+    {
+      "id": "happy",
+      "word": "feliz",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "happy"
+      },
+      "matchable": true,
+      "valence": "good",
+      "confusable": [],
+      "faceOpened": true
+    },
+    {
+      "id": "sad",
+      "word": "triste",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "sad"
+      },
+      "matchable": true,
+      "valence": "bad",
+      "confusable": [],
+      "faceOpened": true
+    },
+    {
+      "id": "angry",
+      "word": "enojado",
+      "wordF": "enojada",
+      "invariant": false,
+      "capital": false,
+      "alt": [
+        "enfadado"
+      ],
+      "face": {
+        "theme": "emotions",
+        "noun": "angry"
+      },
+      "matchable": true,
+      "valence": "bad",
+      "confusable": [],
+      "faceOpened": true
+    },
+    {
+      "id": "scared",
+      "word": "asustado",
+      "wordF": "asustada",
+      "invariant": false,
+      "capital": false,
+      "alt": [
+        "con miedo"
+      ],
+      "face": {
+        "theme": "emotions",
+        "noun": "scared"
+      },
+      "matchable": true,
+      "valence": "bad",
+      "confusable": [
+        "surprised"
+      ],
+      "faceOpened": true
+    },
+    {
+      "id": "surprised",
+      "word": "sorprendido",
+      "wordF": "sorprendida",
+      "invariant": false,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "surprised"
+      },
+      "matchable": true,
+      "valence": null,
+      "confusable": [
+        "scared"
+      ],
+      "faceOpened": true
+    },
+    {
+      "id": "tired",
+      "word": "cansado",
+      "wordF": "cansada",
+      "invariant": false,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "tired"
+      },
+      "matchable": true,
+      "valence": null,
+      "confusable": [],
+      "faceOpened": true
+    },
+    {
+      "id": "merry",
+      "word": "alegre",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [
+        "contento"
+      ],
+      "face": {
+        "theme": "emotions",
+        "noun": "merry"
+      },
+      "matchable": false,
+      "valence": "good",
+      "confusable": [
+        "happy"
+      ],
+      "faceOpened": true
+    },
+    {
+      "id": "content",
+      "word": "contento",
+      "wordF": "contenta",
+      "invariant": false,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "content"
+      },
+      "matchable": false,
+      "valence": "good",
+      "confusable": [
+        "happy"
+      ],
+      "faceOpened": true
+    },
+    {
+      "id": "excited",
+      "word": "emocionado",
+      "wordF": "emocionada",
+      "invariant": false,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "excited"
+      },
+      "matchable": false,
+      "valence": "good",
+      "confusable": [
+        "happy"
+      ],
+      "faceOpened": true
+    },
+    {
+      "id": "capricious",
+      "word": "caprichoso",
+      "wordF": "caprichosa",
+      "invariant": false,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "capricious"
+      },
+      "matchable": false,
+      "valence": "bad",
+      "confusable": [
+        "sad"
+      ],
+      "faceOpened": true
+    },
+    {
+      "id": "disgusted",
+      "word": "asqueado",
+      "wordF": "asqueada",
+      "invariant": false,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "disgusted"
+      },
+      "matchable": false,
+      "valence": "bad",
+      "confusable": [],
+      "faceOpened": true
+    }
+  ],
+  "scenes": [
+    {
+      "id": "present",
+      "objects": [
+        {
+          "theme": "christmas",
+          "noun": "present"
+        }
+      ],
+      "feeling": "happy",
+      "alsoPlausible": [
+        "surprised"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a wrapped present",
+        "es": "un regalo envuelto"
+      }
+    },
+    {
+      "id": "balloon",
+      "objects": [
+        {
+          "theme": "toys",
+          "noun": "balloon"
+        }
+      ],
+      "feeling": "happy",
+      "alsoPlausible": [],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a green balloon",
+        "es": "un globo verde"
+      }
+    },
+    {
+      "id": "medal",
+      "objects": [
+        {
+          "theme": "accessories",
+          "noun": "medal"
+        }
+      ],
+      "feeling": "happy",
+      "alsoPlausible": [
+        "surprised"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a gold medal",
+        "es": "una medalla de oro"
+      }
+    },
+    {
+      "id": "teddy",
+      "objects": [
+        {
+          "theme": "toys",
+          "noun": "teddy_bear"
+        }
+      ],
+      "feeling": "happy",
+      "alsoPlausible": [
+        "tired"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a teddy bear",
+        "es": "un oso de peluche"
+      }
+    },
+    {
+      "id": "thunderstorm",
+      "objects": [
+        {
+          "theme": "weather",
+          "noun": "thunderstorm"
+        }
+      ],
+      "feeling": "scared",
+      "alsoPlausible": [
+        "surprised"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a thunderstorm",
+        "es": "una tormenta"
+      }
+    },
+    {
+      "id": "syringe",
+      "objects": [
+        {
+          "theme": "hospital",
+          "noun": "syringe"
+        }
+      ],
+      "feeling": "scared",
+      "alsoPlausible": [
+        "sad"
+      ],
+      "vetoable": true,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a syringe",
+        "es": "una jeringa"
+      }
+    },
+    {
+      "id": "bed",
+      "objects": [
+        {
+          "theme": "furniture",
+          "noun": "bed"
+        }
+      ],
+      "feeling": "tired",
+      "alsoPlausible": [],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a bed",
+        "es": "una cama"
+      }
+    },
+    {
+      "id": "pillow-moon",
+      "objects": [
+        {
+          "theme": "around the house",
+          "noun": "pillow"
+        },
+        {
+          "theme": "space",
+          "noun": "moon"
+        }
+      ],
+      "feeling": "tired",
+      "alsoPlausible": [
+        "scared"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "a pillow and the moon",
+        "es": "una almohada y la luna"
+      }
+    },
+    {
+      "id": "pajamas-moon",
+      "objects": [
+        {
+          "theme": "clothing",
+          "noun": "pajamas"
+        },
+        {
+          "theme": "space",
+          "noun": "moon"
+        }
+      ],
+      "feeling": "tired",
+      "alsoPlausible": [
+        "scared"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "en": "pajamas and the moon",
+        "es": "una pijama y la luna"
+      }
+    }
+  ],
+  "veto": [],
+  "bins": {
+    "good": {
+      "label": "agradable"
+    },
+    "bad": {
+      "label": "desagradable"
+    }
+  },
+  "checkin": {
+    "today": "Hoy me siento…",
+    "draw": "Dibuja tu cara",
+    "because": "porque",
+    "helps": null,
+    "labelPx": 17
+  },
+  "strings": {
+    "K-319": {
+      "title": "Las emociones: une cada cara con su palabra",
+      "instruction": "Traza una línea desde cada cara hasta la palabra que dice cómo se siente."
+    },
+    "K-331": {
+      "title": "¿Cómo te sientes? Rodea la cara",
+      "instruction": "Mira el dibujo, piensa cómo te sentirías tú y rodea la cara que corresponde."
+    },
+    "K-332": {
+      "title": "Dibuja la cara de la emoción",
+      "instruction": "Lee la palabra y dibuja en el círculo vacío una cara que muestre esa emoción."
+    },
+    "K-333": {
+      "title": "¿Agradable o desagradable? Clasifica las caras",
+      "instruction": "Traza una línea desde cada cara hasta la caja que dice si esa emoción se siente agradable o desagradable."
+    },
+    "K-334": {
+      "title": "¿Qué cara muestra la emoción?",
+      "instruction": "Lee la palabra y rodea la única cara de la fila que muestra esa emoción."
+    },
+    "K-335": {
+      "title": "¿Cómo me siento hoy?",
+      "instruction": "Rodea la cara que muestra cómo te sientes hoy y después dibuja tu propia cara."
+    }
+  }
+}

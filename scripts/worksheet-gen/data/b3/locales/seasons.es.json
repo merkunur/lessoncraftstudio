@@ -1,0 +1,90 @@
+{
+  "names": {
+    "winter": "invierno",
+    "spring": "primavera",
+    "summer": "verano",
+    "autumn": "otoño"
+  },
+  "alt": {
+    "autumn": null
+  },
+  "model": "temperate-north",
+  "cycleStart": "spring",
+  "cycle": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+  ],
+  "monthSeason": [
+    "winter",
+    "winter",
+    "spring",
+    "spring",
+    "spring",
+    "summer",
+    "summer",
+    "summer",
+    "autumn",
+    "autumn",
+    "autumn",
+    "winter"
+  ],
+  "veto": [
+    {
+      "theme": "forest creatures",
+      "noun": "hedgehog",
+      "reason": "el erizo no es un símbolo del otoño en México"
+    },
+    {
+      "theme": "vegetables",
+      "noun": "mushroom",
+      "reason": "el hongo no es un símbolo del otoño en el aula mexicana"
+    },
+    {
+      "theme": "thanksgivinng",
+      "noun": "scarecrow",
+      "reason": "el espantapájaros es un símbolo de la cosecha estadounidense, no del otoño escolar en México"
+    }
+  ],
+  "override": {},
+  "legend": {
+    "winter": "codeBlue",
+    "spring": "codeGreen",
+    "summer": "codeYellow",
+    "autumn": "codeOrange"
+  },
+  "faces": {
+    "tree": {
+      "figure": "tree",
+      "captions": null
+    }
+  },
+  "strings": {
+    "K-322": {
+      "title": "Las estaciones del año: clasifica los dibujos",
+      "instruction": "Traza una línea desde el punto de cada dibujo hasta la caja de la estación a la que pertenece."
+    },
+    "K-338": {
+      "title": "¿Qué estación del año es?",
+      "instruction": "Mira los tres dibujos de cada tarjeta y rodea el símbolo de la estación a la que pertenecen."
+    },
+    "K-339": {
+      "title": "La rueda de las estaciones del año en orden",
+      "instruction": "Una estación ya está en la rueda. Dibuja los otros tres símbolos en los círculos vacíos en el orden correcto."
+    },
+    "K-340": {
+      "title": "Estaciones del año: ¿cuál no va?",
+      "instruction": "Tacha en cada fila el único dibujo que pertenece a otra estación."
+    },
+    "G1-323": {
+      "title": "Meses y estaciones: colorea cada estación",
+      "instruction": "Colorea el círculo de cada mes con el color de su estación."
+    },
+    "K-341": {
+      "title": "Dibuja el árbol en las cuatro estaciones",
+      "instruction": "Dibuja cómo se ve el árbol en cada una de las cuatro estaciones."
+    }
+  },
+  "strand": "Conocimiento del medio: las estaciones del año"
+}

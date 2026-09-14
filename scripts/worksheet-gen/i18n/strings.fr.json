@@ -1910,5 +1910,469 @@
   "G1-304": {
     "title": "Dictée muette : tous les indices",
     "instruction": "La liste, les cases et la première lettre."
+  },
+  "K-317": {
+    "title": "La lettre {U}",
+    "instruction": "Repasse le grand {U} et le petit {L}. Entoure les quatre images dont le nom commence par {L}, puis écris une ligne de chaque lettre."
+  },
+  "K-318": {
+    "title": "Boîtes à sons",
+    "instruction": "Dis le nom de l'image lentement. Écris un son dans chaque case. La case large, avec un arc dessous, reçoit plusieurs lettres pour un seul son."
+  },
+  "K-319": {
+    "title": "Les émotions : relie chaque visage à son mot",
+    "instruction": "Trace un trait de chaque visage jusqu'au mot qui dit ce qu'il ressent."
+  },
+  "K-320": {
+    "title": "Les nombres ordinaux : 1er, 2e, 3e… trouve le rang",
+    "instruction": "Pars du drapeau. Compte jusqu'au nombre de chaque étiquette et fais la marque qu'elle montre."
+  },
+  "K-321": {
+    "title": "Les jours de la semaine dans l'ordre",
+    "instruction": "Le premier jour de la semaine porte déjà le numéro 1. Numérote les autres jours de 2 à 7, dans l'ordre."
+  },
+  "K-322": {
+    "title": "Les quatre saisons : relie chaque image à sa saison",
+    "instruction": "Trace un trait du point de chaque image jusqu'à l'étiquette de sa saison."
+  },
+  "K-323": {
+    "title": "C'est moi : mon prénom, mon âge, ma famille",
+    "instruction": "Écris ton prénom et ton âge, dessine-toi avec ta famille, puis dessine tes trois choses préférées."
+  },
+  "K-324": {
+    "title": "Imagier à découper",
+    "instruction": "Découpe les cartes en suivant les pointillés. Dis le nom de chaque image, puis lis le mot."
+  },
+  "G1-305": {
+    "title": "Découper les mots en syllabes",
+    "instruction": "Dis le nom de l'image et frappe les syllabes dans tes mains. Dessine un arc sous chaque syllabe que tu entends."
+  },
+  "G1-306": {
+    "title": "Lecture de syllabes : {UNIT}",
+    "instruction": "Lis le tableau de syllabes à voix haute. Dis le nom de l'image, puis écris sa première syllabe sur la ligne."
+  },
+  "G1-307": {
+    "title": "Les contraires : écris le mot de sens contraire",
+    "instruction": "Lis le mot de chaque carte. Cherche son contraire dans la banque de mots et écris-le sur la ligne."
+  },
+  "G1-308": {
+    "title": "Lecture de consignes : lis et fais",
+    "instruction": "Regarde la ligne d'images et pars du drapeau. Lis chaque phrase et fais exactement ce qu'elle dit avec ton crayon. Puis coche la petite case."
+  },
+  "G1-309": {
+    "title": "Mots qui riment : entoure et écris",
+    "instruction": "Dis le nom de la première image. Entoure l'image qui rime avec elle, puis écris son nom sur la ligne."
+  },
+  "G1-310": {
+    "title": "Tableau des nombres de 0 à 99 : complète les morceaux",
+    "instruction": "Un nombre est écrit sur chaque morceau. Écris les nombres qui manquent : +1 à droite, −1 à gauche, +10 en bas, −10 en haut."
+  },
+  "G2-315": {
+    "title": "Règles d'orthographe : {UNIT}",
+    "instruction": "Lis la règle dans le cadre. Dis le mot de chaque image, puis écris les lettres qui manquent dans les cases en pointillés."
+  },
+  "G2-316": {
+    "title": "Mots de la même famille : image + terminaison",
+    "instruction": "Dis le nom de l'image, c'est le radical. Ajoute la terminaison et écris le nouveau mot sur la ligne."
+  },
+  "G2-317": {
+    "title": "Conjugaison au présent : verbes en -er",
+    "instruction": "Regarde l'image et lis le verbe. Écris les formes qui manquent dans les cases, puis complète les phrases."
+  },
+  "G2-318": {
+    "title": "Carte d'identité de l'animal : {U}",
+    "instruction": "Renseigne-toi sur cet animal. Écris un renseignement dans chaque ligne de la carte, puis complète la page avec un dessin ou tes propres mots."
+  },
+  "G2-319": {
+    "title": "Logigrammes : trois indices, une réponse",
+    "instruction": "Lis les indices. Sur la grille, barre ce qui est impossible, coche ce qui est sûr, puis entoure l'image de chaque enfant."
+  },
+  "G3-377": {
+    "title": "Division avec reste : entoure les groupes",
+    "instruction": "Dans chaque tas, entoure des groupes de la taille du nombre entre parenthèses. Écris combien de groupes tu as faits et combien d'images il reste."
+  },
+  "K-325": {
+    "title": "Des mots avec {U} : le {L} caché dans le mot",
+    "instruction": "Repasse la lettre, puis entoure les quatre images dont le nom cache un {L} au milieu ou à la fin, pas au début."
+  },
+  "K-326": {
+    "title": "Au début, au milieu ou à la fin ? La lettre {U}",
+    "instruction": "Lis le mot avec l'image. Colorie la case qui montre où se trouve la lettre {L} : au début, au milieu ou à la fin."
+  },
+  "K-327": {
+    "title": "Entoure les {U} dans les mots et compte",
+    "instruction": "Cherche chaque {U} ou {L} dans le mot et entoure-le. Puis écris dans la case combien tu en as trouvé."
+  },
+  "G1-311": {
+    "title": "Le son de la semaine : [{L}]",
+    "instruction": "Repasse {L}, entoure les quatre images dont le nom contient le son [{L}], puis écris une ligne de {L}."
+  },
+  "K-328": {
+    "title": "L ou R ? Écoute la différence",
+    "instruction": "Dis le nom de chaque image. Entoure la lettre que tu entends au début : l ou r."
+  },
+  "K-329": {
+    "title": "Compte les sons",
+    "instruction": "Dis le nom de l'image lentement. Dessine un point dans la longue case pour chaque son entendu, puis écris le nombre de sons dans la petite case."
+  },
+  "K-330": {
+    "title": "Boîtes à sons : le premier son est donné",
+    "instruction": "Le premier son est déjà écrit. Dis le nom de l'image lentement et écris un son dans chaque case vide. La case large reçoit plusieurs lettres."
+  },
+  "G1-312": {
+    "title": "Combien de sons dans le mot ?",
+    "instruction": "Dis le mot lentement. Écris un son dans chaque case en partant de la gauche. Laisse vides les cases dont tu n'as pas besoin."
+  },
+  "G1-313": {
+    "title": "Syllabes et sons : un arc par syllabe",
+    "instruction": "Frappe les syllabes du mot dans tes mains. Puis dis chaque syllabe lentement et écris un son dans chaque case sous son arc."
+  },
+  "G1-314": {
+    "title": "Combine les sons pour lire le mot",
+    "instruction": "Lis les sons écrits dans les cases et assemble-les pour lire le mot. Entoure l'image qui correspond à ce mot."
+  },
+  "K-331": {
+    "title": "Comment te sens-tu ? Entoure le visage",
+    "instruction": "Regarde l'image, pense à ce que tu ressentirais, puis entoure le visage qui correspond."
+  },
+  "K-332": {
+    "title": "Dessine le visage de l'émotion",
+    "instruction": "Lis le mot de l'émotion et dessine, dans le rond vide, un visage qui la montre."
+  },
+  "K-333": {
+    "title": "Agréable ou désagréable ? Trie les visages",
+    "instruction": "Relie chaque visage à la boîte qui dit si l'émotion est agréable ou désagréable."
+  },
+  "K-334": {
+    "title": "Quel visage montre l'émotion ?",
+    "instruction": "Lis le mot de l'émotion et entoure, dans la ligne, le seul visage qui la montre."
+  },
+  "K-335": {
+    "title": "Comment je me sens aujourd'hui ?",
+    "instruction": "Entoure le visage qui montre comment tu te sens aujourd'hui, puis dessine ton propre visage."
+  },
+  "G1-315": {
+    "title": "Écris les nombres ordinaux manquants",
+    "instruction": "Certains rangs sont déjà écrits. Écris les nombres ordinaux qui manquent, en comptant depuis le drapeau."
+  },
+  "G1-316": {
+    "title": "Les mots ordinaux : relie chaque mot à l'image",
+    "instruction": "Lis chaque mot ordinal et relie-le à l'image qui occupe ce rang, en comptant depuis le drapeau."
+  },
+  "G1-317": {
+    "title": "À quel rang ? Écris le nombre ordinal",
+    "instruction": "Retrouve chaque petite image de sa ligne et écris le rang qu'elle occupe, en comptant depuis le drapeau."
+  },
+  "K-336": {
+    "title": "Nombres ordinaux : le drapeau change de côté",
+    "instruction": "Cherche d'abord le drapeau : il peut être à un bout ou à l'autre. Pars de là, compte jusqu'au nombre de l'étiquette et fais la marque."
+  },
+  "G1-318": {
+    "title": "Qui gagne la course ? Écris le rang",
+    "instruction": "Regarde qui est le plus près de l'arrivée : c'est le 1er. Écris 1er, 2e, 3e, 4e, 5e et 6e."
+  },
+  "K-337": {
+    "title": "Jours manquants : complète la semaine",
+    "instruction": "Certains jours sont déjà écrits sur l'échelle. Recopie les jours qui manquent à leur place, à partir des mots proposés."
+  },
+  "G1-319": {
+    "title": "Hier, aujourd'hui, demain",
+    "instruction": "Le jour du milieu, c'est aujourd'hui. Écris le jour d'hier et le jour de demain."
+  },
+  "G1-320": {
+    "title": "Les mois de l'année dans l'ordre",
+    "instruction": "Janvier porte déjà le numéro 1. Numérote les autres mois de 2 à 12, dans l'ordre de l'année."
+  },
+  "G1-321": {
+    "title": "Le mois d'avant et le mois d'après",
+    "instruction": "Un mois est donné au milieu. Écris le mois qui vient avant et le mois qui vient après."
+  },
+  "G1-322": {
+    "title": "Les jours de la semaine en abrégé",
+    "instruction": "Lis chaque abréviation et relie-la au jour qu'elle désigne."
+  },
+  "K-338": {
+    "title": "Quelle saison est-ce ? Trois images, une saison",
+    "instruction": "Observe les trois images de chaque carte, puis entoure le signe de leur saison."
+  },
+  "K-339": {
+    "title": "La roue des saisons : les saisons dans l'ordre",
+    "instruction": "Une saison est déjà sur la roue. Dessine les trois autres signes dans les ronds vides, dans le bon ordre."
+  },
+  "K-340": {
+    "title": "Les saisons : barre l'intrus",
+    "instruction": "Dans chaque ligne, barre l'image qui appartient à une autre saison."
+  },
+  "G1-323": {
+    "title": "Les mois et les saisons : colorie chaque saison",
+    "instruction": "Colorie le rond à côté de chaque mois avec la couleur de sa saison."
+  },
+  "K-341": {
+    "title": "L'arbre des quatre saisons : à toi de dessiner",
+    "instruction": "Dessine l'arbre tel qu'il est à chacune des quatre saisons."
+  },
+  "K-342": {
+    "title": "Mes choses préférées : entoure et écris",
+    "instruction": "Dans chaque ligne, entoure ton image préférée et recopie son mot sur la ligne."
+  },
+  "K-343": {
+    "title": "Ma famille : dessine et compte",
+    "instruction": "Dessine ta famille. Montre sur les cartes à dix le nombre de personnes, de frères, de sœurs et d'animaux, puis écris-le."
+  },
+  "K-344": {
+    "title": "C'est moi : les parties du visage",
+    "instruction": "Recopie chaque mot de la liste sur la ligne qui montre cette partie du visage. Puis dessine ton propre visage."
+  },
+  "K-345": {
+    "title": "Je sais : coche ce que tu sais faire",
+    "instruction": "Lis chaque phrase et coche ce que tu sais faire. Puis écris une chose que tu veux apprendre."
+  },
+  "K-346": {
+    "title": "Mon prénom : écris, compte et compare",
+    "instruction": "Écris ton prénom, une lettre par case, et compte les lettres. Fais pareil pour un camarade et entoure qui en a le plus."
+  },
+  "K-347": {
+    "title": "Memory : cartes images et cartes mots",
+    "instruction": "Découpe les seize cartes. Pose chaque mot sous son image, ou retourne toutes les cartes et joue au memory."
+  },
+  "K-348": {
+    "title": "Le ou la : cartes avec l'article",
+    "instruction": "Découpe les huit cartes. Dis chaque mot avec son article, comme il est écrit sur la carte."
+  },
+  "K-349": {
+    "title": "Cartes singulier et pluriel : un ou plusieurs",
+    "instruction": "Découpe les cartes. Dis le mot pour un seul, puis le mot pour plusieurs, et associe les deux cartes."
+  },
+  "K-350": {
+    "title": "Imagier bilingue : français et {U}",
+    "instruction": "Découpe les huit cartes. Dis le mot en français, puis en {U}, et garde les cartes pour ton mur de mots."
+  },
+  "G1-324": {
+    "title": "Cartes de lecture : mots découpés en syllabes",
+    "instruction": "Découpe les huit cartes. Lis chaque mot syllabe par syllabe, puis dis le mot en entier."
+  },
+  "G1-325": {
+    "title": "Recopier le mot avec un tiret entre les syllabes",
+    "instruction": "Lis le mot à côté de l'image. Recopie-le sur la ligne avec un petit tiret entre chaque syllabe."
+  },
+  "G1-326": {
+    "title": "La syllabe manquante",
+    "instruction": "Dis le nom de l'image. Il manque une syllabe : écris-la dans la case."
+  },
+  "G1-327": {
+    "title": "Syllabes mélangées : remets-les dans l'ordre",
+    "instruction": "Les syllabes du mot sont mélangées. Lis-les, remets-les dans l'ordre et écris le mot sur la ligne."
+  },
+  "G1-328": {
+    "title": "Deux ou trois syllabes ? Classe les mots",
+    "instruction": "Frappe les syllabes de chaque mot de la liste. Écris-le avec des tirets dans la colonne 2 ou la colonne 3."
+  },
+  "G1-330": {
+    "title": "Entoure la bonne syllabe : {UNIT}",
+    "instruction": "Lis le tableau de syllabes à voix haute. Dis le nom de l'image, puis entoure la syllabe par laquelle le mot commence."
+  },
+  "G1-331": {
+    "title": "Assembler deux syllabes pour écrire le mot",
+    "instruction": "Lis les deux syllabes dans l'ordre. Dis-les ensemble, puis écris le mot entier sur la ligne."
+  },
+  "G1-332": {
+    "title": "Tableau de syllabes : lire et colorier",
+    "instruction": "Lis tout le tableau de syllabes à voix haute. Puis colorie la première syllabe de chaque image avec la couleur de son rond."
+  },
+  "G1-333": {
+    "title": "Syllabes complexes : {UNIT}",
+    "instruction": "Lis les syllabes à deux consonnes à voix haute. Dis le nom de l'image, puis écris sa première syllabe sur la ligne."
+  },
+  "G1-334": {
+    "title": "Lire les mots découpés en syllabes",
+    "instruction": "Lis chaque mot syllabe par syllabe. Trouve son image dans la liste en haut et écris son numéro dans la case."
+  },
+  "K-351": {
+    "title": "Les contraires en images : relie chaque paire",
+    "instruction": "Relie chaque image au dessin et au mot qui montrent son contraire."
+  },
+  "G1-335": {
+    "title": "Les contraires dans une phrase",
+    "instruction": "Lis chaque phrase. Écris sur la ligne le contraire du mot qui vient après « pas ». La banque de mots t'aide."
+  },
+  "G1-336": {
+    "title": "Retrouve les paires de contraires",
+    "instruction": "Trouve les deux mots qui sont contraires. Écris chaque paire sur une ligne, un mot de chaque côté de la flèche."
+  },
+  "G1-337": {
+    "title": "Contraire ou synonyme ? Entoure le contraire",
+    "instruction": "Lis le mot. Un des trois mots en dessous veut dire le contraire. Entoure-le, pas celui qui veut dire la même chose."
+  },
+  "G2-320": {
+    "title": "Le contraire avec un préfixe : in-, im-, mal-, dé-",
+    "instruction": "Ajoute le préfixe devant chaque mot et écris le nouveau mot, son contraire, sur la ligne."
+  },
+  "G1-338": {
+    "title": "Lis et entoure",
+    "instruction": "Lis chaque phrase. Trouve dans la ligne l'image ou les images qu'elle nomme et entoure-les. Puis coche la petite case."
+  },
+  "G1-339": {
+    "title": "Lecture de consignes : deux actions à la suite",
+    "instruction": "Chaque phrase te demande deux choses. Lis-la jusqu'au bout avant de commencer, puis fais les deux actions dans la ligne d'images."
+  },
+  "G1-340": {
+    "title": "Lecture de consignes : première, deuxième, entre",
+    "instruction": "Pars du drapeau et compte le long de la ligne. Trouve l'image grâce à sa place, puis fais ce que dit la phrase avec ton crayon."
+  },
+  "G1-341": {
+    "title": "Lis et vérifie : vrai ou faux",
+    "instruction": "Lis chaque phrase et regarde la ligne d'images. La phrase est-elle vraie ou fausse ? Entoure le bon mot."
+  },
+  "G1-342": {
+    "title": "Lis et dessine",
+    "instruction": "Lis bien chaque phrase. Puis dessine exactement ce qu'elle dit dans la case."
+  },
+  "K-352": {
+    "title": "Les rimes en maternelle : ça rime ou pas ?",
+    "instruction": "Dis les deux mots à voix haute. S'ils riment, entoure la coche. S'ils ne riment pas, entoure la croix."
+  },
+  "G1-343": {
+    "title": "Familles de rimes : trie les images",
+    "instruction": "Dis le nom de chaque image de la banque. Trouve la grande image qui rime avec elle et écris son nom sur une ligne dessous."
+  },
+  "G1-344": {
+    "title": "Complète la comptine : trouve la rime",
+    "instruction": "Lis les deux vers à voix haute. Regarde l'image, écoute la rime et écris le mot qui manque sur la ligne."
+  },
+  "G1-345": {
+    "title": "Chaînes de rimes : deux mots qui riment",
+    "instruction": "Dis le nom de chaque image. Trouve dans la banque les deux mots qui riment avec elle et écris-les. Certains mots ne vont nulle part."
+  },
+  "G1-346": {
+    "title": "Trouve tes rimes : écris deux mots",
+    "instruction": "Lis le mot à côté de chaque image. Pense à deux mots qui riment avec lui et écris-en un sur chaque ligne."
+  },
+  "G1-347": {
+    "title": "Où va le morceau ? Replace-le dans le tableau",
+    "instruction": "Lis les nombres de chaque morceau, trouve sa place dans le tableau vide et écris-les."
+  },
+  "G2-321": {
+    "title": "Sauts dans le tableau des nombres : suis les flèches",
+    "instruction": "Pars du nombre et suis les flèches : en haut 10 de moins, en bas 10 de plus, à droite 1 de plus, à gauche 1 de moins. Écris où tu arrives."
+  },
+  "G2-322": {
+    "title": "Le nombre mystère : deux flèches, une case",
+    "instruction": "Suis les deux flèches. Elles arrivent sur la même case du tableau. Écris le nombre mystère."
+  },
+  "G1-348": {
+    "title": "Trouve l'erreur sur le morceau",
+    "instruction": "Sur chaque morceau, un nombre est faux. Entoure-le et écris le bon nombre dans la case."
+  },
+  "G2-323": {
+    "title": "Compte les sauts : à quelle distance ?",
+    "instruction": "Compte combien de sauts vers le bas et combien de sauts vers la droite mènent du premier nombre au second."
+  },
+  "G2-324": {
+    "title": "Complète avec {UNIT}",
+    "instruction": "Regarde l'image et lis le mot. Entoure la bonne lettre sous le mot, puis écris-la dans la case en pointillés."
+  },
+  "G2-325": {
+    "title": "Entoure la règle : {UNIT}",
+    "instruction": "Lis chaque mot. Trouve les lettres de la règle, entoure-les dans le mot, puis recopie-les dans la petite case."
+  },
+  "G2-326": {
+    "title": "Trie les mots : {UNIT}",
+    "instruction": "Dis le mot de chaque image. Écris-le dans la colonne de son orthographe, un mot par ligne."
+  },
+  "G2-327": {
+    "title": "Écris le mot entier : {UNIT}",
+    "instruction": "Les lettres de la règle sont écrites en orange. Dis le mot de l'image et écris toutes les autres lettres dans les cases."
+  },
+  "G2-328": {
+    "title": "{UNIT} : bateau, bateaux",
+    "instruction": "Lis le mot au singulier. Écris le mot au pluriel dans les cases : au pluriel, l'orthographe change."
+  },
+  "G2-330": {
+    "title": "Retrouve le radical : coupe le mot en deux",
+    "instruction": "Le mot est écrit dans des cases, à côté de son image. Trace un trait entre le radical et ce qu'on lui a ajouté."
+  },
+  "G2-332": {
+    "title": "Mot simple ou mot construit ?",
+    "instruction": "Douze mots : six sont construits à partir d'un radical. Entoure-les et écris le radical et la terminaison sur les lignes."
+  },
+  "G2-334": {
+    "title": "Relie le pronom à la bonne forme du verbe",
+    "instruction": "Lis le verbe de chaque tableau. Relie chaque pronom à la forme du verbe qui va avec lui."
+  },
+  "G2-335": {
+    "title": "Complète les phrases avec le verbe au présent",
+    "instruction": "Regarde l'image et lis le verbe dans l'étiquette. Écris la forme qui convient dans la case."
+  },
+  "G2-336": {
+    "title": "Être et avoir au présent",
+    "instruction": "Être et avoir changent beaucoup. Écris toutes les formes qui manquent dans les cases, puis complète les phrases."
+  },
+  "G2-337": {
+    "title": "Entoure la bonne forme du verbe",
+    "instruction": "Lis la phrase. Trois formes du verbe sont écrites en dessous. Entoure celle qui convient."
+  },
+  "G2-338": {
+    "title": "Trouve le verbe et écris son infinitif",
+    "instruction": "Souligne le verbe dans chaque phrase. Puis écris son infinitif dans la case."
+  },
+  "G2-339": {
+    "title": "Coche les bonnes réponses : {U}",
+    "instruction": "Dans chaque ligne, lis les réponses proposées et entoure celle qui est vraie pour cet animal. Puis dessine son lieu de vie et termine la phrase."
+  },
+  "G2-340": {
+    "title": "Complète avec la banque de mots : {U}",
+    "instruction": "Cherche chaque renseignement vrai dans la banque de mots et recopie-le dans la bonne ligne. Puis termine la phrase du bas."
+  },
+  "G2-341": {
+    "title": "Écris trois phrases : {U}",
+    "instruction": "Lis la carte d'identité. Termine les trois phrases avec ses renseignements, puis écris un renseignement de plus sur la dernière ligne."
+  },
+  "G2-342": {
+    "title": "Compare deux animaux : pareil ou différent",
+    "instruction": "Lis les deux cartes. Pour chaque renseignement, entoure pareil ou différent. Puis écris deux points communs et deux différences."
+  },
+  "G2-343": {
+    "title": "Qui suis-je ? L'animal mystère",
+    "instruction": "Lis les cinq indices de chaque carte. Trouve l'animal dans la banque d'images, écris son nom sur la ligne et dessine-le dans la case."
+  },
+  "G2-344": {
+    "title": "Logigrammes avec des indices oui, non et ou",
+    "instruction": "Un indice oui donne une coche, un indice non une croix, un indice « ou » barre la troisième image. Termine la grille, puis entoure chaque réponse."
+  },
+  "G3-378": {
+    "title": "Logigrammes 4 × 4 : six indices",
+    "instruction": "Quatre enfants et quatre images. Utilise tous les indices : barre l'impossible et coche le sûr jusqu'à une seule réponse par ligne."
+  },
+  "G1-349": {
+    "title": "Logigrammes en images : barre et trouve",
+    "instruction": "Une image barrée : l'enfant ne l'a pas. Une image entourée : l'enfant l'a. Barre sur la grille, puis entoure chaque réponse."
+  },
+  "G3-379": {
+    "title": "Logigrammes à deux critères : deux images par enfant",
+    "instruction": "Chaque enfant a une image de chaque série. Utilise les indices qui les relient pour remplir les trois grilles."
+  },
+  "G2-345": {
+    "title": "Lire un logigramme : vrai ou faux",
+    "instruction": "La grille est déjà résolue. Lis-la, puis entoure la coche si la phrase est vraie ou la croix si elle est fausse."
+  },
+  "G3-380": {
+    "title": "Partage avec reste : que reste-t-il ?",
+    "instruction": "Distribue le tas dans les cases, une image à la fois. Écris combien chaque case reçoit et combien d'images ne peuvent pas être partagées."
+  },
+  "G3-381": {
+    "title": "Division avec reste : exercices d'entraînement",
+    "instruction": "Chaque division laisse un reste. Écris le quotient et le reste sur chaque ligne."
+  },
+  "G3-382": {
+    "title": "Ça tombe juste ou pas ? Divisions avec et sans reste",
+    "instruction": "Décide si chaque division tombe juste. Entoure ton choix et écris le reste, 0 s'il n'y en a pas."
+  },
+  "G3-383": {
+    "title": "Trouve l'erreur : le reste est trop grand",
+    "instruction": "Chaque division est fausse. Barre les nombres faux et écris le bon quotient et le bon reste dans les cases."
+  },
+  "G3-384": {
+    "title": "Sauts en arrière sur la droite numérique : que reste-t-il ?",
+    "instruction": "Pars du nombre marqué et dessine des sauts en arrière de même longueur tant qu'un saut entier passe. Écris le nombre de sauts et l'arrivée."
   }
 }

@@ -1,0 +1,870 @@
+{
+  "rule": "stressedVowelCoda",
+  "orthographyTrusted": true,
+  "exemplar": [
+    "ato",
+    "on",
+    "era",
+    "ana",
+    "ol",
+    "oca"
+  ],
+  "classes": [
+    {
+      "id": "on",
+      "rime": "-ón",
+      "sound": "on",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "mouse",
+          "word": "ratón",
+          "pic": {
+            "theme": "pets",
+            "noun": "mouse"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "truck",
+          "word": "camión",
+          "pic": {
+            "theme": "vehicles",
+            "noun": "truck"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "ham",
+          "word": "jamón",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "ham"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "belt",
+          "word": "cinturón",
+          "pic": {
+            "theme": "accessories",
+            "noun": "belt"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "gate",
+          "word": "portón",
+          "pic": {
+            "theme": "around the house",
+            "noun": "gate"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "lemon",
+          "word": "limón",
+          "pic": {
+            "theme": "fruits",
+            "noun": "lemon"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "bowl",
+          "word": "tazón",
+          "pic": {
+            "theme": "kitchen tools",
+            "noun": "bowl"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "balón",
+        "botón",
+        "melón",
+        "león"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ato",
+      "rime": "-ato",
+      "sound": "ato",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "cat",
+          "word": "gato",
+          "pic": {
+            "theme": "animals",
+            "noun": "cat"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "duck",
+          "word": "pato",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "duck"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "plate",
+          "word": "plato",
+          "pic": {
+            "theme": "kitchen tools",
+            "noun": "plate"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "zapato",
+        "rato"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "era",
+      "rime": "-era",
+      "sound": "era",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "pear",
+          "word": "pera",
+          "pic": {
+            "theme": "fruits",
+            "noun": "pear"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "flag",
+          "word": "bandera",
+          "pic": {
+            "theme": "4th of July",
+            "noun": "flag"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "hose",
+          "word": "manguera",
+          "pic": {
+            "theme": "around the house",
+            "noun": "hose"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "escalera",
+        "pecera"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ana",
+      "rime": "-ana",
+      "sound": "ana",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "frog",
+          "word": "rana",
+          "pic": {
+            "theme": "forest creatures",
+            "noun": "frog"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "bell",
+          "word": "campana",
+          "pic": {
+            "theme": "christmas",
+            "noun": "bell"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "window",
+          "word": "ventana",
+          "pic": {
+            "theme": "around the house",
+            "noun": "window"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "apple",
+          "word": "manzana",
+          "pic": {
+            "theme": "fruits",
+            "noun": "apple"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "mañana",
+        "banana"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ero",
+      "rime": "-ero",
+      "sound": "ero",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "hat",
+          "word": "sombrero",
+          "pic": {
+            "theme": "accessories",
+            "noun": "hat"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "vase",
+          "word": "florero",
+          "pic": {
+            "theme": "around the house",
+            "noun": "vase"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "bookcase",
+          "word": "librero",
+          "pic": {
+            "theme": "furniture",
+            "noun": "bookcase"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "firefighter",
+          "word": "bombero",
+          "pic": {
+            "theme": "occupations",
+            "noun": "firefighter"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "cero",
+        "dinero"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "eta",
+      "rime": "-eta",
+      "sound": "eta",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "cookie",
+          "word": "galleta",
+          "pic": {
+            "theme": "bakery",
+            "noun": "cookie"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "bucket",
+          "word": "cubeta",
+          "pic": {
+            "theme": "beach",
+            "noun": "bucket"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "t-shirt",
+          "word": "camiseta",
+          "pic": {
+            "theme": "clothing",
+            "noun": "t-shirt"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "maleta",
+        "bicicleta"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "illa",
+      "rime": "-illa",
+      "sound": "iʎa",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "chair",
+          "word": "silla",
+          "pic": {
+            "theme": "furniture",
+            "noun": "chair"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "squirrel",
+          "word": "ardilla",
+          "pic": {
+            "theme": "forest creatures",
+            "noun": "squirrel"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "stretcher",
+          "word": "camilla",
+          "pic": {
+            "theme": "hospital",
+            "noun": "stretcher"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "tortilla",
+        "rodilla"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "asa",
+      "rime": "-asa",
+      "sound": "asa",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "house",
+          "word": "casa",
+          "pic": {
+            "theme": "miscellaneous",
+            "noun": "house"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "mug",
+          "word": "taza",
+          "pic": {
+            "theme": "kitchen tools",
+            "noun": "mug"
+          },
+          "sameSpelling": false,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "masa",
+        "pasa"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ena",
+      "rime": "-ena",
+      "sound": "ena",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "whale",
+          "word": "ballena",
+          "pic": {
+            "theme": "ocean life",
+            "noun": "whale"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "sand",
+          "word": "arena",
+          "pic": {
+            "theme": "summer",
+            "noun": "sand"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "cadena",
+        "cena"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ata",
+      "rime": "-ata",
+      "sound": "ata",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "tie",
+          "word": "corbata",
+          "pic": {
+            "theme": "clothing",
+            "noun": "tie"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "can",
+          "word": "lata",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "can"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "rata",
+        "pata",
+        "bata"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ete",
+      "rime": "-ete",
+      "sound": "ete",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "rocket",
+          "word": "cohete",
+          "pic": {
+            "theme": "space",
+            "noun": "rocket"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "stool",
+          "word": "taburete",
+          "pic": {
+            "theme": "furniture",
+            "noun": "stool"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "juguete",
+        "paquete"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "oca",
+      "rime": "-oca",
+      "sound": "oca",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "mouth",
+          "word": "boca",
+          "pic": {
+            "theme": "body parts",
+            "noun": "mouth"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "rock",
+          "word": "roca",
+          "pic": {
+            "theme": "camping",
+            "noun": "rock"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "foca",
+        "loca"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ol",
+      "rime": "-ol",
+      "sound": "ol",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "sun",
+          "word": "sol",
+          "pic": {
+            "theme": "weather",
+            "noun": "sun"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "snail",
+          "word": "caracol",
+          "pic": {
+            "theme": "forest creatures",
+            "noun": "snail"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "girasol",
+        "gol",
+        "farol"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "illo",
+      "rime": "-illo",
+      "sound": "iʎo",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "ring",
+          "word": "anillo",
+          "pic": {
+            "theme": "accessories",
+            "noun": "ring"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "rake",
+          "word": "rastrillo",
+          "pic": {
+            "theme": "around the house",
+            "noun": "rake"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "martillo",
+        "castillo"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "arra",
+      "rime": "-arra",
+      "sound": "ara",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "jug",
+          "word": "jarra",
+          "pic": {
+            "theme": "kitchen tools",
+            "noun": "jug"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "guitar",
+          "word": "guitarra",
+          "pic": {
+            "theme": "music",
+            "noun": "guitar"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "garra",
+        "parra"
+      ],
+      "nearMiss": []
+    }
+  ],
+  "opened": {
+    "around the house/window": "window",
+    "fruits/apple": "apple",
+    "around the house/vase": "vase",
+    "furniture/bookcase": "bookcase",
+    "occupations/firefighter": "firefighter",
+    "bakery/cookie": "cookie",
+    "beach/bucket": "bucket",
+    "clothing/t-shirt": "t-shirt",
+    "forest creatures/squirrel": "squirrel",
+    "hospital/stretcher": "stretcher"
+  },
+  "couplets": [
+    {
+      "id": "gato-pato",
+      "lines": [
+        "En el patio duerme el gato",
+        "y a su lado nada el ___"
+      ],
+      "answer": {
+        "vocabKey": "duck"
+      },
+      "rhymeWith": "gato",
+      "cueFree": false
+    },
+    {
+      "id": "limon-raton",
+      "lines": [
+        "En la cocina hay un limón",
+        "y debajo se esconde un ___"
+      ],
+      "answer": {
+        "vocabKey": "mouse"
+      },
+      "rhymeWith": "limón",
+      "cueFree": false
+    },
+    {
+      "id": "pera-bandera",
+      "lines": [
+        "En el árbol cuelga una pera",
+        "y en la torre ondea la ___"
+      ],
+      "answer": {
+        "vocabKey": "flag"
+      },
+      "rhymeWith": "pera",
+      "cueFree": false
+    },
+    {
+      "id": "rana-campana",
+      "lines": [
+        "Croa la rana en la ventana",
+        "y en la torre suena la ___"
+      ],
+      "answer": {
+        "vocabKey": "bell"
+      },
+      "rhymeWith": "ventana",
+      "cueFree": false
+    },
+    {
+      "id": "casa-taza",
+      "lines": [
+        "Mi abuela vive en una casa",
+        "y toma su café en una ___"
+      ],
+      "answer": {
+        "vocabKey": "mug"
+      },
+      "rhymeWith": "casa",
+      "cueFree": false
+    },
+    {
+      "id": "ballena-arena",
+      "lines": [
+        "En el mar nada la ballena",
+        "y yo juego en la ___"
+      ],
+      "answer": {
+        "vocabKey": "sand"
+      },
+      "rhymeWith": "ballena",
+      "cueFree": false
+    },
+    {
+      "id": "sol-caracol",
+      "lines": [
+        "Por la mañana sale el sol",
+        "y despacio pasa el ___"
+      ],
+      "answer": {
+        "vocabKey": "snail"
+      },
+      "rhymeWith": "sol",
+      "cueFree": false
+    },
+    {
+      "id": "boca-roca",
+      "lines": [
+        "El cangrejo abre la boca",
+        "y se esconde bajo la ___"
+      ],
+      "answer": {
+        "vocabKey": "rock"
+      },
+      "rhymeWith": "boca",
+      "cueFree": false
+    },
+    {
+      "id": "corbata-lata",
+      "lines": [
+        "Papá se pone su corbata",
+        "y abre para el gato una ___"
+      ],
+      "answer": {
+        "vocabKey": "can"
+      },
+      "rhymeWith": "corbata",
+      "cueFree": false
+    },
+    {
+      "id": "anillo-rastrillo",
+      "lines": [
+        "Brilla en mi dedo un anillo",
+        "y en el jardín uso el ___"
+      ],
+      "answer": {
+        "vocabKey": "rake"
+      },
+      "rhymeWith": "anillo",
+      "cueFree": false
+    },
+    {
+      "id": "jarra-guitarra",
+      "lines": [
+        "En la mesa hay una jarra",
+        "y en la silla, una ___"
+      ],
+      "answer": {
+        "vocabKey": "guitar"
+      },
+      "rhymeWith": "jarra",
+      "cueFree": false
+    },
+    {
+      "id": "cohete-taburete",
+      "lines": [
+        "Al cielo sube el cohete",
+        "y yo lo miro desde el ___"
+      ],
+      "answer": {
+        "vocabKey": "stool"
+      },
+      "rhymeWith": "cohete",
+      "cueFree": false
+    }
+  ],
+  "strings": {
+    "G1-309": {
+      "title": "Palabras que riman: escribe la rima",
+      "instruction": "Di el nombre del dibujo grande. De los tres dibujos, rodea el que rima con él y escribe su nombre en la línea."
+    },
+    "K-352": {
+      "title": "¿Riman o no riman?",
+      "instruction": "Di los nombres de los dos dibujos. Si terminan igual, marca sí; si no, marca no."
+    },
+    "G1-343": {
+      "title": "Familias de rimas: clasifica",
+      "instruction": "Di el nombre de cada dibujo del banco. Escríbelo en la columna del dibujo con el que rima."
+    },
+    "G1-344": {
+      "title": "Completa la rima",
+      "instruction": "Lee los dos versos. La última palabra rima con la que está antes. Mira el dibujo y escríbela en la línea."
+    },
+    "G1-345": {
+      "title": "Cadenas de rimas",
+      "instruction": "Busca en el banco las dos palabras que riman con cada dibujo y escríbelas en sus líneas. Cuidado: hay palabras que no riman con nada."
+    },
+    "G1-346": {
+      "title": "Inventa tus propias rimas",
+      "instruction": "Lee la palabra de cada dibujo. Escribe dos palabras que rimen con ella."
+    }
+  }
+}

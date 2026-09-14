@@ -1,0 +1,49 @@
+{
+  "exemplar": "2-5",
+  "unitLabels": {
+    "2-5": "entre 2, 3, 4 y 5",
+    "6-9": "entre 6, 7, 8 y 9",
+    "2-9": "entre 2 y 9"
+  },
+  "notation": {
+    "op": "÷",
+    "template": "{n} ÷ {d} = {q} r {r}",
+    "boxStyle": "casita",
+    "remWord": "",
+    "exactWord": "exacta",
+    "restWord": "con residuo",
+    "leftoverLabel": "sobran",
+    "rightWord": "bien",
+    "wrongWord": "mal",
+    "kinds": {
+      "quotative": "formar grupos",
+      "partitive": "repartir"
+    }
+  },
+  "strings": {
+    "G3-377": {
+      "title": "Divisiones con residuo: encierra los grupos",
+      "instruction": "Encierra grupos del segundo número en cada montón. Escribe cuántos grupos formaste y cuántos dibujos sobran."
+    },
+    "F1": {
+      "title": "Reparte y escribe cuánto sobra",
+      "instruction": "Reparte el montón en las cajas de uno en uno. Escribe cuántos le tocan a cada caja y cuántos no se pueden repartir."
+    },
+    "F2": {
+      "title": "Divisiones con residuo: ejercicios",
+      "instruction": "En todas estas divisiones sobra algo. Escribe el cociente y el residuo de cada una."
+    },
+    "F3": {
+      "title": "¿Exacta o con residuo?",
+      "instruction": "Decide si cada división es exacta o no. Rodea tu respuesta y escribe el residuo; escribe 0 si no sobra nada."
+    },
+    "F4": {
+      "title": "Encuentra el error: el residuo es muy grande",
+      "instruction": "Todas las divisiones están mal resueltas. Tacha los números equivocados y escribe en las cajas el cociente y el residuo correctos."
+    },
+    "F5": {
+      "title": "Divide en la recta numérica: ¿cuánto sobra?",
+      "instruction": "Empieza en el número marcado y dibuja saltos hacia atrás del mismo tamaño hasta que ya no quepa uno entero. Escribe los saltos y dónde caes."
+    }
+  }
+}

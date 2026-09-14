@@ -1,0 +1,47 @@
+{
+  "names": "calendar",
+  "labels": {
+    "yesterday": "hier",
+    "today": "aujourd'hui",
+    "tomorrow": "demain",
+    "before": "avant",
+    "after": "après"
+  },
+  "alt": {
+    "days": {},
+    "labels": {}
+  },
+  "dayShort": null,
+  "laneGlyphH": {
+    "days": 40,
+    "months": 32,
+    "neighbours": 32
+  },
+  "abbrev": "calendar",
+  "strings": {
+    "K-321": {
+      "title": "Les jours de la semaine dans l'ordre",
+      "instruction": "Le premier jour de la semaine porte déjà le numéro 1. Numérote les autres jours de 2 à 7, dans l'ordre."
+    },
+    "K-337": {
+      "title": "Jours manquants : complète la semaine",
+      "instruction": "Certains jours sont déjà écrits sur l'échelle. Recopie les jours qui manquent à leur place, à partir des mots proposés."
+    },
+    "G1-319": {
+      "title": "Hier, aujourd'hui, demain",
+      "instruction": "Le jour du milieu, c'est aujourd'hui. Écris le jour d'hier et le jour de demain."
+    },
+    "G1-320": {
+      "title": "Les mois de l'année dans l'ordre",
+      "instruction": "Janvier porte déjà le numéro 1. Numérote les autres mois de 2 à 12, dans l'ordre de l'année."
+    },
+    "G1-321": {
+      "title": "Le mois d'avant et le mois d'après",
+      "instruction": "Un mois est donné au milieu. Écris le mois qui vient avant et le mois qui vient après."
+    },
+    "G1-322": {
+      "title": "Les jours de la semaine en abrégé",
+      "instruction": "Lis chaque abréviation et relie-la au jour qu'elle désigne."
+    }
+  }
+}

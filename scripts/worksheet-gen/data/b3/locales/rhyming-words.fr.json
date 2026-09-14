@@ -1,0 +1,1210 @@
+{
+  "rule": "stressedVowelCoda",
+  "orthographyTrusted": false,
+  "exemplar": [
+    "in",
+    "is",
+    "ee",
+    "on",
+    "eau",
+    "ure"
+  ],
+  "classes": [
+    {
+      "id": "eau",
+      "rime": "-eau",
+      "sound": "o",
+      "cap": 10,
+      "members": [
+        {
+          "vocabKey": "hat",
+          "word": "chapeau",
+          "pic": {
+            "theme": "accessories",
+            "noun": "hat"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "boat",
+          "word": "bateau",
+          "pic": {
+            "theme": "vehicles",
+            "noun": "boat"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "cake",
+          "word": "gâteau",
+          "pic": {
+            "theme": "bakery",
+            "noun": "cake"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "rake",
+          "word": "râteau",
+          "pic": {
+            "theme": "around the house",
+            "noun": "rake"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "coat",
+          "word": "manteau",
+          "pic": {
+            "theme": "clothing",
+            "noun": "coat"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "brain",
+          "word": "cerveau",
+          "pic": {
+            "theme": "body parts",
+            "noun": "brain"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "hose",
+          "word": "tuyau",
+          "pic": {
+            "theme": "around the house",
+            "noun": "hose"
+          },
+          "sameSpelling": false,
+          "productive": false,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "snail",
+          "word": "escargot",
+          "pic": {
+            "theme": "forest creatures",
+            "noun": "snail"
+          },
+          "sameSpelling": false,
+          "productive": false,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "robot",
+          "word": "robot",
+          "pic": {
+            "theme": "toys",
+            "noun": "robot"
+          },
+          "sameSpelling": false,
+          "productive": false,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pen",
+          "word": "stylo",
+          "pic": {
+            "theme": "classroom",
+            "noun": "pen"
+          },
+          "sameSpelling": false,
+          "productive": false,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "oiseau",
+        "cadeau",
+        "seau",
+        "vélo",
+        "dos",
+        "tôt"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "cat",
+          "word": "chat",
+          "pic": {
+            "theme": "animals",
+            "noun": "cat"
+          },
+          "picOpened": true
+        },
+        {
+          "vocabKey": "ring",
+          "word": "bague",
+          "pic": {
+            "theme": "accessories",
+            "noun": "ring"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "on",
+      "rime": "-on",
+      "sound": "ɔ̃",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "balloon",
+          "word": "ballon",
+          "pic": {
+            "theme": "toys",
+            "noun": "balloon"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "truck",
+          "word": "camion",
+          "pic": {
+            "theme": "vehicles",
+            "noun": "truck"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "ham",
+          "word": "jambon",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "ham"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "sheep",
+          "word": "mouton",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "sheep"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "lemon",
+          "word": "citron",
+          "pic": {
+            "theme": "fruits",
+            "noun": "lemon"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pepper",
+          "word": "poivron",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "pepper"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "house",
+          "word": "maison",
+          "pic": {
+            "theme": "miscellaneous",
+            "noun": "house"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "gazon",
+        "rond",
+        "bonbon",
+        "pont",
+        "chanson"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "leg",
+          "word": "jambe",
+          "pic": {
+            "theme": "body parts",
+            "noun": "leg"
+          },
+          "picOpened": true
+        },
+        {
+          "vocabKey": "duck",
+          "word": "canard",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "duck"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "in",
+      "rime": "-in",
+      "sound": "ɛ̃",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "bread",
+          "word": "pain",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "bread"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "hand",
+          "word": "main",
+          "pic": {
+            "theme": "body parts",
+            "noun": "hand"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "train",
+          "word": "train",
+          "pic": {
+            "theme": "vehicles",
+            "noun": "train"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "elf",
+          "word": "lutin",
+          "pic": {
+            "theme": "christmas",
+            "noun": "elf"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "sapin",
+        "lapin",
+        "matin",
+        "jardin",
+        "bain"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "house",
+          "word": "maison",
+          "pic": {
+            "theme": "miscellaneous",
+            "noun": "house"
+          },
+          "picOpened": true
+        },
+        {
+          "vocabKey": "peach",
+          "word": "pêche",
+          "pic": {
+            "theme": "fruits",
+            "noun": "peach"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "ette",
+      "rime": "-ette",
+      "sound": "ɛt",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "cap",
+          "word": "casquette",
+          "pic": {
+            "theme": "clothing",
+            "noun": "cap"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "plate",
+          "word": "assiette",
+          "pic": {
+            "theme": "around the house",
+            "noun": "plate"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "van",
+          "word": "camionnette",
+          "pic": {
+            "theme": "vehicles",
+            "noun": "van"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "head",
+          "word": "tête",
+          "pic": {
+            "theme": "body parts",
+            "noun": "head"
+          },
+          "sameSpelling": false,
+          "productive": false,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "chaussette",
+        "fourchette",
+        "trottinette",
+        "sucette",
+        "fête"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "duck",
+          "word": "canard",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "duck"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "ure",
+      "rime": "-ure",
+      "sound": "yʁ",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "belt",
+          "word": "ceinture",
+          "pic": {
+            "theme": "accessories",
+            "noun": "belt"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "car",
+          "word": "voiture",
+          "pic": {
+            "theme": "vehicles",
+            "noun": "car"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "confiture",
+        "peinture",
+        "chaussure",
+        "mur",
+        "dur"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ee",
+      "rime": "-ée",
+      "sound": "e",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "rocket",
+          "word": "fusée",
+          "pic": {
+            "theme": "space",
+            "noun": "rocket"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "doll",
+          "word": "poupée",
+          "pic": {
+            "theme": "toys",
+            "noun": "doll"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "rock",
+          "word": "rocher",
+          "pic": {
+            "theme": "camping",
+            "noun": "rock"
+          },
+          "sameSpelling": false,
+          "productive": false,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "key",
+          "word": "clé",
+          "pic": {
+            "theme": "around the house",
+            "noun": "key"
+          },
+          "sameSpelling": false,
+          "productive": false,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "nose",
+          "word": "nez",
+          "pic": {
+            "theme": "body parts",
+            "noun": "nose"
+          },
+          "sameSpelling": false,
+          "productive": false,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "épée",
+        "année",
+        "bébé",
+        "café",
+        "pied"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "hen",
+          "word": "poule",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "hen"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "is",
+      "rime": "-is",
+      "sound": "i",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "rug",
+          "word": "tapis",
+          "pic": {
+            "theme": "furniture",
+            "noun": "rug"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "mouse",
+          "word": "souris",
+          "pic": {
+            "theme": "pets",
+            "noun": "mouse"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "bed",
+          "word": "lit",
+          "pic": {
+            "theme": "around the house",
+            "noun": "bed"
+          },
+          "sameSpelling": false,
+          "productive": false,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "nest",
+          "word": "nid",
+          "pic": {
+            "theme": "spring",
+            "noun": "nest"
+          },
+          "sameSpelling": false,
+          "productive": false,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "radis",
+        "gris",
+        "ami",
+        "midi"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "pie",
+          "word": "tarte",
+          "pic": {
+            "theme": "bakery",
+            "noun": "pie"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "et",
+      "rime": "-et",
+      "sound": "ɛ",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "vest",
+          "word": "gilet",
+          "pic": {
+            "theme": "clothing",
+            "noun": "vest"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "stool",
+          "word": "tabouret",
+          "pic": {
+            "theme": "furniture",
+            "noun": "stool"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "poulet",
+        "jouet",
+        "lait",
+        "ballet"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "uche",
+      "rime": "-uche",
+      "sound": "yʃ",
+      "cap": 6,
+      "members": [
+        {
+          "vocabKey": "jug",
+          "word": "cruche",
+          "pic": {
+            "theme": "kitchen tools",
+            "noun": "jug"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "log",
+          "word": "bûche",
+          "pic": {
+            "theme": "camping",
+            "noun": "log"
+          },
+          "sameSpelling": false,
+          "productive": false,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "ruche",
+        "autruche"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "bus",
+          "word": "bus",
+          "pic": {
+            "theme": "vehicles",
+            "noun": "bus"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "ise",
+      "rime": "-ise",
+      "sound": "iz",
+      "cap": 6,
+      "members": [
+        {
+          "vocabKey": "cherry",
+          "word": "cerise",
+          "pic": {
+            "theme": "fruits",
+            "noun": "cherry"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "shirt",
+          "word": "chemise",
+          "pic": {
+            "theme": "clothing",
+            "noun": "shirt"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "valise",
+        "église",
+        "bêtise"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "brain",
+          "word": "cerveau",
+          "pic": {
+            "theme": "body parts",
+            "noun": "brain"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "arte",
+      "rime": "-arte",
+      "sound": "aʁt",
+      "cap": 6,
+      "members": [
+        {
+          "vocabKey": "pie",
+          "word": "tarte",
+          "pic": {
+            "theme": "bakery",
+            "noun": "pie"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "map",
+          "word": "carte",
+          "pic": {
+            "theme": "classroom",
+            "noun": "map"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "part",
+        "départ"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "cap",
+          "word": "casquette",
+          "pic": {
+            "theme": "clothing",
+            "noun": "cap"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "ague",
+      "rime": "-ague",
+      "sound": "aɡ",
+      "cap": 6,
+      "members": [
+        {
+          "vocabKey": "ring",
+          "word": "bague",
+          "pic": {
+            "theme": "accessories",
+            "noun": "ring"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "wave",
+          "word": "vague",
+          "pic": {
+            "theme": "beach",
+            "noun": "wave"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "blague",
+        "dague"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "balloon",
+          "word": "ballon",
+          "pic": {
+            "theme": "toys",
+            "noun": "balloon"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "asse",
+      "rime": "-asse",
+      "sound": "as",
+      "cap": 6,
+      "members": [
+        {
+          "vocabKey": "mug",
+          "word": "tasse",
+          "pic": {
+            "theme": "kitchen tools",
+            "noun": "mug"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "slug",
+          "word": "limace",
+          "pic": {
+            "theme": "forest creatures",
+            "noun": "slug"
+          },
+          "sameSpelling": false,
+          "productive": false,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "classe",
+        "chasse",
+        "glace"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "rug",
+          "word": "tapis",
+          "pic": {
+            "theme": "furniture",
+            "noun": "rug"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "oile",
+      "rime": "-oile",
+      "sound": "wal",
+      "cap": 6,
+      "members": [
+        {
+          "vocabKey": "star",
+          "word": "étoile",
+          "pic": {
+            "theme": "christmas",
+            "noun": "star"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pan",
+          "word": "poêle",
+          "pic": {
+            "theme": "around the house",
+            "noun": "pan"
+          },
+          "sameSpelling": false,
+          "productive": false,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "voile",
+        "toile"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ard",
+      "rime": "-ard",
+      "sound": "aʁ",
+      "cap": 6,
+      "members": [
+        {
+          "vocabKey": "duck",
+          "word": "canard",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "duck"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "guitar",
+          "word": "guitare",
+          "pic": {
+            "theme": "music",
+            "noun": "guitar"
+          },
+          "sameSpelling": false,
+          "productive": false,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "renard",
+        "placard",
+        "gare"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "map",
+          "word": "carte",
+          "pic": {
+            "theme": "classroom",
+            "noun": "map"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "eil",
+      "rime": "-eil",
+      "sound": "ɛj",
+      "cap": 6,
+      "members": [
+        {
+          "vocabKey": "sun",
+          "word": "soleil",
+          "pic": {
+            "theme": "beach",
+            "noun": "sun"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "bee",
+          "word": "abeille",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "bee"
+          },
+          "sameSpelling": false,
+          "productive": false,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "réveil",
+        "orteil",
+        "oreille"
+      ],
+      "nearMiss": []
+    }
+  ],
+  "couplets": [
+    {
+      "id": "bateau-gateau",
+      "lines": [
+        "Sur la mer flotte un beau bateau,",
+        "et dedans, un gros ___"
+      ],
+      "answer": {
+        "vocabKey": "cake"
+      },
+      "rhymeWith": "bateau",
+      "cueFree": false
+    },
+    {
+      "id": "tapis-souris",
+      "lines": [
+        "Le chat dort sur le tapis,",
+        "tout près passe une ___"
+      ],
+      "answer": {
+        "vocabKey": "mouse"
+      },
+      "rhymeWith": "tapis",
+      "cueFree": false
+    },
+    {
+      "id": "pain-main",
+      "lines": [
+        "Le lapin croque un bout de pain,",
+        "il le tient bien dans sa ___"
+      ],
+      "answer": {
+        "vocabKey": "hand"
+      },
+      "rhymeWith": "pain",
+      "cueFree": false
+    },
+    {
+      "id": "sapin-lutin",
+      "lines": [
+        "Il neige sur le grand sapin,",
+        "dessous dort un petit ___"
+      ],
+      "answer": {
+        "vocabKey": "elf"
+      },
+      "rhymeWith": "sapin",
+      "cueFree": false
+    },
+    {
+      "id": "fusee-poupee",
+      "lines": [
+        "Dans le ciel monte la fusée,",
+        "elle emporte ma ___"
+      ],
+      "answer": {
+        "vocabKey": "doll"
+      },
+      "rhymeWith": "fusée",
+      "cueFree": false
+    },
+    {
+      "id": "gazon-ballon",
+      "lines": [
+        "Je saute et danse sur le gazon,",
+        "au bout d'un fil vole mon ___"
+      ],
+      "answer": {
+        "vocabKey": "balloon"
+      },
+      "rhymeWith": "gazon",
+      "cueFree": false
+    },
+    {
+      "id": "bague-vague",
+      "lines": [
+        "Maman a perdu sa bague",
+        "dans l'eau, sous une ___"
+      ],
+      "answer": {
+        "vocabKey": "wave"
+      },
+      "rhymeWith": "bague",
+      "cueFree": false
+    },
+    {
+      "id": "carte-tarte",
+      "lines": [
+        "Papa regarde bien la carte,",
+        "puis il coupe une part de ___"
+      ],
+      "answer": {
+        "vocabKey": "pie"
+      },
+      "rhymeWith": "carte",
+      "cueFree": false
+    },
+    {
+      "id": "confiture-voiture",
+      "lines": [
+        "J'ai fini ma confiture,",
+        "je monte dans la ___"
+      ],
+      "answer": {
+        "vocabKey": "car"
+      },
+      "rhymeWith": "confiture",
+      "cueFree": false
+    },
+    {
+      "id": "jambon-mouton",
+      "lines": [
+        "Le loup a mangé le jambon,",
+        "puis il court après le ___"
+      ],
+      "answer": {
+        "vocabKey": "sheep"
+      },
+      "rhymeWith": "jambon",
+      "cueFree": false
+    },
+    {
+      "id": "chapeau-manteau",
+      "lines": [
+        "Il pleut, je prends mon chapeau,",
+        "et je boutonne mon ___"
+      ],
+      "answer": {
+        "vocabKey": "coat"
+      },
+      "rhymeWith": "chapeau",
+      "cueFree": false
+    },
+    {
+      "id": "buche-cruche",
+      "lines": [
+        "Le feu ronfle sur la bûche,",
+        "verse de l'eau avec la ___"
+      ],
+      "answer": {
+        "vocabKey": "jug"
+      },
+      "rhymeWith": "bûche",
+      "cueFree": false
+    },
+    {
+      "id": "cerise-chemise",
+      "lines": [
+        "Une tache de cerise",
+        "sur ma jolie ___"
+      ],
+      "answer": {
+        "vocabKey": "shirt"
+      },
+      "rhymeWith": "cerise",
+      "cueFree": false
+    },
+    {
+      "id": "nid-tapis",
+      "lines": [
+        "Deux oiseaux dorment dans le nid,",
+        "le chat ronronne sur le ___"
+      ],
+      "answer": {
+        "vocabKey": "rug"
+      },
+      "rhymeWith": "nid",
+      "cueFree": false
+    },
+    {
+      "id": "tabouret-gilet",
+      "lines": [
+        "Le chat saute du tabouret",
+        "et se roule sur mon ___"
+      ],
+      "answer": {
+        "vocabKey": "vest"
+      },
+      "rhymeWith": "tabouret",
+      "cueFree": false
+    },
+    {
+      "id": "poele-etoile",
+      "lines": [
+        "Le lait chauffe dans la poêle,",
+        "dehors brille une ___"
+      ],
+      "answer": {
+        "vocabKey": "star"
+      },
+      "rhymeWith": "poêle",
+      "cueFree": false
+    }
+  ],
+  "strings": {
+    "G1-309": {
+      "title": "Mots qui riment : entoure et écris",
+      "instruction": "Dis le nom de la première image. Entoure l'image qui rime avec elle, puis écris son nom sur la ligne."
+    },
+    "K-352": {
+      "title": "Les rimes en maternelle : ça rime ou pas ?",
+      "instruction": "Dis les deux mots à voix haute. S'ils riment, entoure la coche. S'ils ne riment pas, entoure la croix."
+    },
+    "G1-343": {
+      "title": "Familles de rimes : trie les images",
+      "instruction": "Dis le nom de chaque image de la banque. Trouve la grande image qui rime avec elle et écris son nom sur une ligne dessous."
+    },
+    "G1-344": {
+      "title": "Complète la comptine : trouve la rime",
+      "instruction": "Lis les deux vers à voix haute. Regarde l'image, écoute la rime et écris le mot qui manque sur la ligne."
+    },
+    "G1-345": {
+      "title": "Chaînes de rimes : deux mots qui riment",
+      "instruction": "Dis le nom de chaque image. Trouve dans la banque les deux mots qui riment avec elle et écris-les. Certains mots ne vont nulle part."
+    },
+    "G1-346": {
+      "title": "Trouve tes rimes : écris deux mots",
+      "instruction": "Lis le mot à côté de chaque image. Pense à deux mots qui riment avec lui et écris-en un sur chaque ligne."
+    }
+  }
+}

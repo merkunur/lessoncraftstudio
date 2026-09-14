@@ -29,6 +29,39 @@
  *   simpleRime R: the short-vowel rime regex a `structure:'simple'` page allows
  *              (single short vowel + consonants; no r-controlled, no long vowel)
  *   ban / whitelist / refuse / sepMode / strings — per the design file
+ *
+ * FACE fields (Phase 2, 2026-09-14; design §3 + §5):
+ *   complexUnits    the `structure:'complex'` rows (Face 5, G1-333): R = BLEND
+ *                   LADDERS — every cell 'blend|rime', the blend ∈ `blends`, the
+ *                   rime matches `complexRime`; a row has no shared rime (each
+ *                   lane prints its own word's rime, the child writes the blend)
+ *   complexExemplar the complex row a unit-less complex build() uses
+ *   complexRime     stricter than simpleRime: no `w` (own/ow = a diphthong or
+ *                   long o — brown crown crow are NOT short-vowel closed words)
+ *   multi           the shared pool of Join (G1-331, count 2) + Read the
+ *                   Syllabified Words (G1-334, count 2-3, <= maxLetters):
+ *                   { key, word, split, pictureTheme? } — EVERY count-2/3 texPool
+ *                   pictured letters-only word <= 10 letters minus `ban`; the
+ *                   gate re-derives the set from the approved file and diffs
+ *                   both ways (an omitted or invented word fails)
+ *   ban             per vocab key, EVERY face (opened 2026-09-14, a montage of
+ *                   all 328 candidate pictures of the multi + complex pools):
+ *                   colour DROPS (red black brown crimson scarlet yellow) ·
+ *                   emotion EMOJI faces (angry content excited happy merry
+ *                   sunny) · pictures that are NOT the word (asteroid = a moon,
+ *                   barrette = a bow tie, butter = a block of holey cheese,
+ *                   cymbals = a drum kit, harvest = a wheat sheaf, liberty = the
+ *                   statue, muscles = a flexing man, neptune / saturn = a planet
+ *                   a child cannot name, orchard = an apple tree, outlet = a
+ *                   wall socket, persimmon = a tomato, scallop = a shell, subway
+ *                   = a train, plum = a red APPLE in all three dirs) · pictures
+ *                   too INDISTINCT to find in a bank (elbow / shoulder skin
+ *                   crops; jasmine / orchid / snowdrop generic flowers; sparrow
+ *                   / swallow / magpie / falcon look-alike small birds) · TWINS
+ *                   of a word already in the pool (bookshelf = bookcase, bunny =
+ *                   rabbit, mittens / pretzels = the plural of a listed word) ·
+ *                   sloth (long o in most dialects; the complex rows are
+ *                   short-vowel closed words)
  */
 'use strict';
 const SYLLABLE_READING = {
@@ -95,13 +128,223 @@ const SYLLABLE_READING = {
         ] },
     ],
     blends: ['bl', 'cl', 'fl', 'gl', 'pl', 'sl', 'br', 'cr', 'dr', 'fr', 'gr', 'tr', 'st', 'sw'],
+    // Face 5 (G1-333, structure 'complex'): four BLEND LADDERS over the 19
+    // approved count-1 TeX pictured words whose onset is a true blend and whose
+    // rime is short-vowel closed (complexRime; plum / black / brown / sloth /
+    // crow / crown out — see ban + complexRime). Every row: distinct blends,
+    // distinct rimes; a word may also sit in a simple rime row (swan, clock,
+    // frog, sled, slug) — the two structures print different carpets. d2 = two
+    // consecutive ladders (10 / 10 / 9 pictured words >= 8): l1 l2 l3 ship; l4
+    // = the d1 tail. No read-only cells.
+    complexExemplar: 'l1',
+    complexRime: /^[aeiou][bcdfghjklmnpqstvz]+$/,
+    complexUnits: [
+      { id: 'l1', label: 'fl cr dr sw bl',
+        cells: ['fl|ag', 'cr|ab', 'dr|um', 'sw|an', 'bl|ocks'], readOnly: [],
+        words: [
+          { key: 'flag', word: 'flag', unit: 'fl' },
+          { key: 'crab', word: 'crab', unit: 'cr' },
+          { key: 'drum', word: 'drum', unit: 'dr' },
+          { key: 'swan', word: 'swan', unit: 'sw' },
+          { key: 'blocks', word: 'blocks', unit: 'bl' },
+        ] },
+      { id: 'l2', label: 'cl fr gl st tr',
+        cells: ['cl|ock', 'fr|og', 'gl|ass', 'st|amp', 'tr|uck'], readOnly: [],
+        words: [
+          { key: 'clock', word: 'clock', unit: 'cl' },
+          { key: 'frog', word: 'frog', unit: 'fr' },
+          { key: 'glass', word: 'glass', unit: 'gl', pictureTheme: 'kitchen tools' },   // around the house/glass is a WINE glass
+          { key: 'stamp', word: 'stamp', unit: 'st' },
+          { key: 'truck', word: 'truck', unit: 'tr' },
+        ] },
+      { id: 'l3', label: 'br sl gr sw cr',
+        cells: ['br|ush', 'sl|ed', 'gr|ill', 'sw|ing', 'cr|ib'], readOnly: [],
+        words: [
+          { key: 'brush', word: 'brush', unit: 'br' },
+          { key: 'sled', word: 'sled', unit: 'sl' },
+          { key: 'grill', word: 'grill', unit: 'gr' },
+          { key: 'swing', word: 'swing', unit: 'sw' },
+          { key: 'crib', word: 'crib', unit: 'cr' },
+        ] },
+      { id: 'l4', label: 'dr gr sl cr',
+        cells: ['dr|ess', 'gr|ass', 'sl|ug', 'cr|oss'], readOnly: [],
+        words: [
+          { key: 'dress', word: 'dress', unit: 'dr' },
+          { key: 'grass', word: 'grass', unit: 'gr' },
+          { key: 'slug', word: 'slug', unit: 'sl', pictureTheme: 'forest creatures' },   // insects/slug carries a snail-like shell
+          { key: 'cross', word: 'cross', unit: 'cr' },
+        ] },
+    ],
+    // Faces 3 + 6 (G1-331 Join, G1-334 Syllabified): the complete count-2/3
+    // texPool pictured letters-only <= 10-letter set minus ban (146 = 134 two-
+    // syllable + 12 three-syllable). GENERATED from approved-words-en.json
+    // 2026-09-14 (qa/verify-b3-syllable-reading.js re-derives + diffs). Pins:
+    // cherry -> fruits (tree/cherry is a pink blossom TREE), cranberry ->
+    // thanksgivinng (the dir's historical typo; fruits/cranberry is an apple-shaped fruit), orange -> fruits
+    // (colors/orange is a drop, tree/orange an orange TREE).
+    multi: [
+      { key: 'actor', word: 'actor', split: ['ac', 'tor'] },
+      { key: 'airplane', word: 'airplane', split: ['air', 'plane'] },
+      { key: 'angel', word: 'angel', split: ['an', 'gel'] },
+      { key: 'baker', word: 'baker', split: ['bak', 'er'] },
+      { key: 'baking', word: 'baking', split: ['bak', 'ing'] },
+      { key: 'balloon', word: 'balloon', split: ['bal', 'loon'] },
+      { key: 'bandage', word: 'bandage', split: ['ban', 'dage'] },
+      { key: 'barber', word: 'barber', split: ['bar', 'ber'] },
+      { key: 'basket', word: 'basket', split: ['bas', 'ket'] },
+      { key: 'basketball', word: 'basketball', split: ['bas', 'ket', 'ball'] },
+      { key: 'beetroot', word: 'beetroot', split: ['beet', 'root'] },
+      { key: 'biking', word: 'biking', split: ['bik', 'ing'] },
+      { key: 'biscuit', word: 'biscuit', split: ['bis', 'cuit'] },
+      { key: 'bonfire', word: 'bonfire', split: ['bon', 'fire'] },
+      { key: 'bookcase', word: 'bookcase', split: ['book', 'case'] },
+      { key: 'buttercup', word: 'buttercup', split: ['but', 'ter', 'cup'] },
+      { key: 'butterfly', word: 'butterfly', split: ['but', 'ter', 'fly'] },
+      { key: 'cabbage', word: 'cabbage', split: ['cab', 'bage'] },
+      { key: 'cabin', word: 'cabin', split: ['cab', 'in'] },
+      { key: 'candy', word: 'candy', split: ['can', 'dy'] },
+      { key: 'carpenter', word: 'carpenter', split: ['car', 'pen', 'ter'] },
+      { key: 'carpet', word: 'carpet', split: ['car', 'pet'] },
+      { key: 'carrot', word: 'carrot', split: ['car', 'rot'] },
+      { key: 'cherry', word: 'cherry', split: ['cher', 'ry'], pictureTheme: 'fruits' },
+      { key: 'chimney', word: 'chimney', split: ['chim', 'ney'] },
+      { key: 'chipmunk', word: 'chipmunk', split: ['chip', 'munk'] },
+      { key: 'closet', word: 'closet', split: ['clos', 'et'] },
+      { key: 'compass', word: 'compass', split: ['com', 'pass'] },
+      { key: 'computer', word: 'computer', split: ['com', 'put', 'er'] },
+      { key: 'cookie', word: 'cookie', split: ['cook', 'ie'] },
+      { key: 'cooler', word: 'cooler', split: ['cool', 'er'] },
+      { key: 'cranberry', word: 'cranberry', split: ['cran', 'ber', 'ry'], pictureTheme: 'thanksgivinng' },   // the cached dir carries the historical typo
+      { key: 'croissant', word: 'croissant', split: ['crois', 'sant'] },
+      { key: 'cupcake', word: 'cupcake', split: ['cup', 'cake'] },
+      { key: 'curtains', word: 'curtains', split: ['cur', 'tains'] },
+      { key: 'doctor', word: 'doctor', split: ['doc', 'tor'] },
+      { key: 'dolphin', word: 'dolphin', split: ['dol', 'phin'] },
+      { key: 'donkey', word: 'donkey', split: ['don', 'key'] },
+      { key: 'dragon', word: 'dragon', split: ['drag', 'on'] },
+      { key: 'dragonfly', word: 'dragonfly', split: ['drag', 'on', 'fly'] },
+      { key: 'earmuffs', word: 'earmuffs', split: ['ear', 'muffs'] },
+      { key: 'ferret', word: 'ferret', split: ['fer', 'ret'] },
+      { key: 'ferry', word: 'ferry', split: ['fer', 'ry'] },
+      { key: 'finger', word: 'finger', split: ['fin', 'ger'] },
+      { key: 'football', word: 'football', split: ['foot', 'ball'] },
+      { key: 'forest', word: 'forest', split: ['for', 'est'] },
+      { key: 'frisbee', word: 'frisbee', split: ['fris', 'bee'] },
+      { key: 'garden', word: 'garden', split: ['gar', 'den'] },
+      { key: 'gardener', word: 'gardener', split: ['gar', 'den', 'er'] },
+      { key: 'garland', word: 'garland', split: ['gar', 'land'] },
+      { key: 'garlic', word: 'garlic', split: ['gar', 'lic'] },
+      { key: 'gerbil', word: 'gerbil', split: ['ger', 'bil'] },
+      { key: 'goggles', word: 'goggles', split: ['gog', 'gles'] },
+      { key: 'gymnastics', word: 'gymnastics', split: ['gym', 'nas', 'tics'] },
+      { key: 'hammer', word: 'hammer', split: ['ham', 'mer'] },
+      { key: 'hammock', word: 'hammock', split: ['ham', 'mock'] },
+      { key: 'hamster', word: 'hamster', split: ['ham', 'ster'] },
+      { key: 'headband', word: 'headband', split: ['head', 'band'] },
+      { key: 'hiking', word: 'hiking', split: ['hik', 'ing'] },
+      { key: 'honey', word: 'honey', split: ['hon', 'ey'] },
+      { key: 'hoodie', word: 'hoodie', split: ['hood', 'ie'] },
+      { key: 'island', word: 'island', split: ['is', 'land'] },
+      { key: 'knitting', word: 'knitting', split: ['knit', 'ting'] },
+      { key: 'ladder', word: 'ladder', split: ['lad', 'der'] },
+      { key: 'leggings', word: 'leggings', split: ['leg', 'gings'] },
+      { key: 'letter', word: 'letter', split: ['let', 'ter'] },
+      { key: 'lettuce', word: 'lettuce', split: ['let', 'tuce'] },
+      { key: 'mailbox', word: 'mailbox', split: ['mail', 'box'] },
+      { key: 'mango', word: 'mango', split: ['man', 'go'] },
+      { key: 'melon', word: 'melon', split: ['mel', 'on'] },
+      { key: 'mirror', word: 'mirror', split: ['mir', 'ror'] },
+      { key: 'mitten', word: 'mitten', split: ['mit', 'ten'] },
+      { key: 'mixer', word: 'mixer', split: ['mix', 'er'] },
+      { key: 'monkey', word: 'monkey', split: ['mon', 'key'] },
+      { key: 'mountain', word: 'mountain', split: ['moun', 'tain'] },
+      { key: 'muffin', word: 'muffin', split: ['muf', 'fin'] },
+      { key: 'narwhal', word: 'narwhal', split: ['nar', 'whal'] },
+      { key: 'oatmeal', word: 'oatmeal', split: ['oat', 'meal'] },
+      { key: 'orange', word: 'orange', split: ['or', 'ange'], pictureTheme: 'fruits' },
+      { key: 'ostrich', word: 'ostrich', split: ['os', 'trich'] },
+      { key: 'otter', word: 'otter', split: ['ot', 'ter'] },
+      { key: 'oyster', word: 'oyster', split: ['oys', 'ter'] },
+      { key: 'pancake', word: 'pancake', split: ['pan', 'cake'] },
+      { key: 'panda', word: 'panda', split: ['pan', 'da'] },
+      { key: 'parrot', word: 'parrot', split: ['par', 'rot'] },
+      { key: 'pasta', word: 'pasta', split: ['pas', 'ta'] },
+      { key: 'peeler', word: 'peeler', split: ['peel', 'er'] },
+      { key: 'pencil', word: 'pencil', split: ['pen', 'cil'] },
+      { key: 'penguin', word: 'penguin', split: ['pen', 'guin'] },
+      { key: 'pepper', word: 'pepper', split: ['pep', 'per'] },
+      { key: 'picnic', word: 'picnic', split: ['pic', 'nic'] },
+      { key: 'pillow', word: 'pillow', split: ['pil', 'low'] },
+      { key: 'pizza', word: 'pizza', split: ['piz', 'za'] },
+      { key: 'planet', word: 'planet', split: ['plan', 'et'] },
+      { key: 'popcorn', word: 'popcorn', split: ['pop', 'corn'] },
+      { key: 'pretzel', word: 'pretzel', split: ['pret', 'zel'] },
+      { key: 'pudding', word: 'pudding', split: ['pud', 'ding'] },
+      { key: 'puffin', word: 'puffin', split: ['puf', 'fin'] },
+      { key: 'rabbit', word: 'rabbit', split: ['rab', 'bit'] },
+      { key: 'raccoon', word: 'raccoon', split: ['rac', 'coon'] },
+      { key: 'rainbow', word: 'rainbow', split: ['rain', 'bow'] },
+      { key: 'raincoat', word: 'raincoat', split: ['rain', 'coat'] },
+      { key: 'raindrop', word: 'raindrop', split: ['rain', 'drop'] },
+      { key: 'reading', word: 'reading', split: ['read', 'ing'] },
+      { key: 'reindeer', word: 'reindeer', split: ['rein', 'deer'] },
+      { key: 'ribbon', word: 'ribbon', split: ['rib', 'bon'] },
+      { key: 'river', word: 'river', split: ['riv', 'er'] },
+      { key: 'running', word: 'running', split: ['run', 'ning'] },
+      { key: 'sailboat', word: 'sailboat', split: ['sail', 'boat'] },
+      { key: 'sandals', word: 'sandals', split: ['san', 'dals'] },
+      { key: 'santa', word: 'santa', split: ['san', 'ta'] },
+      { key: 'scissors', word: 'scissors', split: ['scis', 'sors'] },
+      { key: 'scooter', word: 'scooter', split: ['scoot', 'er'] },
+      { key: 'seagull', word: 'seagull', split: ['seag', 'ull'] },
+      { key: 'shampoo', word: 'shampoo', split: ['sham', 'poo'] },
+      { key: 'shovel', word: 'shovel', split: ['shov', 'el'] },
+      { key: 'skating', word: 'skating', split: ['skat', 'ing'] },
+      { key: 'sledding', word: 'sledding', split: ['sled', 'ding'] },
+      { key: 'slippers', word: 'slippers', split: ['slip', 'pers'] },
+      { key: 'snowman', word: 'snowman', split: ['snow', 'man'] },
+      { key: 'snowsuit', word: 'snowsuit', split: ['snow', 'suit'] },
+      { key: 'soccer', word: 'soccer', split: ['soc', 'cer'] },
+      { key: 'squirrel', word: 'squirrel', split: ['squir', 'rel'] },
+      { key: 'statue', word: 'statue', split: ['stat', 'ue'] },
+      { key: 'strawberry', word: 'strawberry', split: ['straw', 'ber', 'ry'] },
+      { key: 'sunscreen', word: 'sunscreen', split: ['sun', 'screen'] },
+      { key: 'sweatpants', word: 'sweatpants', split: ['sweat', 'pants'] },
+      { key: 'sweatshirt', word: 'sweatshirt', split: ['sweat', 'shirt'] },
+      { key: 'swimming', word: 'swimming', split: ['swim', 'ming'] },
+      { key: 'swimsuit', word: 'swimsuit', split: ['swim', 'suit'] },
+      { key: 'tennis', word: 'tennis', split: ['ten', 'nis'] },
+      { key: 'tissue', word: 'tissue', split: ['tis', 'sue'] },
+      { key: 'toolbox', word: 'toolbox', split: ['tool', 'box'] },
+      { key: 'tortoise', word: 'tortoise', split: ['tor', 'toise'] },
+      { key: 'tractor', word: 'tractor', split: ['trac', 'tor'] },
+      { key: 'trombone', word: 'trombone', split: ['trom', 'bone'] },
+      { key: 'trumpet', word: 'trumpet', split: ['trum', 'pet'] },
+      { key: 'umbrella', word: 'umbrella', split: ['um', 'brel', 'la'] },
+      { key: 'underpants', word: 'underpants', split: ['un', 'der', 'pants'] },
+      { key: 'vulture', word: 'vulture', split: ['vul', 'ture'] },
+      { key: 'waitress', word: 'waitress', split: ['wait', 'ress'] },
+      { key: 'wallet', word: 'wallet', split: ['wal', 'let'] },
+      { key: 'walrus', word: 'walrus', split: ['wal', 'rus'] },
+      { key: 'wheelchair', word: 'wheelchair', split: ['wheel', 'chair'] },
+      { key: 'window', word: 'window', split: ['win', 'dow'] },
+      { key: 'writing', word: 'writing', split: ['writ', 'ing'] },
+    ],
     // a `structure:'simple'` R page: one short vowel then consonants; `r` is
     // absent from the class so every r-controlled rime (-ar, -orn) fails, and
     // a second vowel letter or a final e (long-vowel families) fails too
     simpleRime: /^[aeiou][bcdfghjklmnpqstvwxz]+$/,
     // `red` is approved, count 1, TeX and pictured — but its only picture (colors/red) is a
     // red DROP, which a six-year-old reads as blood or a drop, not as the word; opened 2026-09-14
-    ban: ['red'],
+    ban: [
+      'red', 'black', 'brown', 'crimson', 'scarlet', 'yellow',                                   // colour drops
+      'angry', 'content', 'excited', 'happy', 'merry', 'sunny',                                  // emotion emoji
+      'asteroid', 'barrette', 'butter', 'cymbals', 'harvest', 'liberty', 'muscles', 'neptune',   // not the word (opened)
+      'orchard', 'outlet', 'persimmon', 'saturn', 'scallop', 'subway', 'plum',
+      'elbow', 'shoulder', 'jasmine', 'orchid', 'snowdrop', 'sparrow', 'swallow', 'magpie', 'falcon',   // indistinct
+      'bookshelf', 'bunny', 'mittens', 'pretzels',                                               // twins of a listed word
+      'sloth',                                                                                   // long o
+    ],
     whitelist: {},
     refuse: { finalMuteE: false },
     sepMode: 'hyphen',
@@ -110,6 +353,12 @@ const SYLLABLE_READING = {
         title: 'Word Families: Read and Write',
         instruction: 'Read every word on the carpet out loud. Say each picture word, find it on the carpet, then write its beginning on the line before the ending.',
       },
+      // the five faces (Phase 2) — the emitted specs types/g1/G1-33x-*.js carry the same EN text
+      'G1-330': { title: 'Word Families: Read and Circle', instruction: 'Read the words on the carpet out loud. Say each picture word, then circle the one word under the picture that names it.' },
+      'G1-331': { title: 'Join the Syllables and Write the Word', instruction: 'Read the two syllables on each card in order. Say them together, then write the whole word on the line.' },
+      'G1-332': { title: 'Word Family Carpet: Read and Colour', instruction: 'Read every word on the carpet out loud. Then find each picture\'s word on the carpet and colour that word in the picture\'s colour.' },
+      'G1-333': { title: 'Word Families with Blends', instruction: 'Read every word on the carpet out loud. Say each picture word, find it on the carpet, then write the two letters it starts with on the line.' },
+      'G1-334': { title: 'Read the Syllables, Find the Picture', instruction: 'Read each word syllable by syllable. Find its picture in the bank at the top and write the picture\'s number in the box.' },
     },
   },
 };

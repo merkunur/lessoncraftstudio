@@ -3363,162 +3363,202 @@
       },
       "letter-of-the-week": {
         "slug": {
-          "en": "letter-of-the-week"
+          "en": "letter-of-the-week",
+          "nl": "letter-van-de-week"
         },
         "name": {
-          "en": "Letter of the Week"
+          "en": "Letter of the Week",
+          "nl": "Letter van de week"
         }
       },
       "sound-boxes": {
         "slug": {
-          "en": "sound-boxes"
+          "en": "sound-boxes",
+          "nl": "hakken-en-plakken"
         },
         "name": {
-          "en": "Sound Boxes"
+          "en": "Sound Boxes",
+          "nl": "Hakken en plakken"
         }
       },
       "ordinal-numbers": {
         "slug": {
-          "en": "ordinal-numbers"
+          "en": "ordinal-numbers",
+          "nl": "rangtelwoorden"
         },
         "name": {
-          "en": "Ordinal Numbers"
+          "en": "Ordinal Numbers",
+          "nl": "Rangtelwoorden"
         }
       },
       "days-and-months": {
         "slug": {
-          "en": "days-and-months"
+          "en": "days-and-months",
+          "nl": "dagen-en-maanden"
         },
         "name": {
-          "en": "Days and Months"
+          "en": "Days and Months",
+          "nl": "Dagen en maanden"
         }
       },
       "seasons": {
         "slug": {
-          "en": "seasons"
+          "en": "seasons",
+          "nl": "de-vier-seizoenen"
         },
         "name": {
-          "en": "Four Seasons"
+          "en": "Four Seasons",
+          "nl": "De vier seizoenen"
         }
       },
       "all-about-me": {
         "slug": {
-          "en": "all-about-me"
+          "en": "all-about-me",
+          "nl": "dit-ben-ik"
         },
         "name": {
-          "en": "All About Me"
+          "en": "All About Me",
+          "nl": "Dit ben ik"
         }
       },
       "picture-word-cards": {
         "slug": {
-          "en": "picture-word-cards"
+          "en": "picture-word-cards",
+          "nl": "woordkaartjes"
         },
         "name": {
-          "en": "Picture Word Cards"
+          "en": "Picture Word Cards",
+          "nl": "Woordkaartjes"
         }
       },
       "syllable-split": {
         "slug": {
-          "en": "syllable-split"
+          "en": "syllable-split",
+          "nl": "lettergrepen-verdelen"
         },
         "name": {
-          "en": "Syllable Division"
+          "en": "Syllable Division",
+          "nl": "Lettergrepen verdelen"
         }
       },
       "syllable-reading": {
         "slug": {
-          "en": "syllable-reading"
+          "en": "syllable-reading",
+          "nl": "mkm-woorden-lezen"
         },
         "name": {
-          "en": "Word Families"
+          "en": "Word Families",
+          "nl": "Mkm-woorden lezen"
         }
       },
       "opposites": {
         "slug": {
-          "en": "opposites"
+          "en": "opposites",
+          "nl": "tegenstellingen"
         },
         "name": {
-          "en": "Opposites"
+          "en": "Opposites",
+          "nl": "Tegenstellingen"
         }
       },
       "read-and-do": {
         "slug": {
-          "en": "read-and-do"
+          "en": "read-and-do",
+          "nl": "lees-en-doe"
         },
         "name": {
-          "en": "Read and Do"
+          "en": "Read and Do",
+          "nl": "Lees en doe"
         }
       },
       "rhyming-words": {
         "slug": {
-          "en": "rhyming-words"
+          "en": "rhyming-words",
+          "nl": "rijmwoorden"
         },
         "name": {
-          "en": "Rhyming Words"
+          "en": "Rhyming Words",
+          "nl": "Rijmwoorden"
         }
       },
       "hundreds-chart-puzzles": {
         "slug": {
-          "en": "hundreds-chart-puzzles"
+          "en": "hundreds-chart-puzzles",
+          "nl": "honderdveld-puzzels"
         },
         "name": {
-          "en": "Hundreds Chart Puzzles"
+          "en": "Hundreds Chart Puzzles",
+          "nl": "Honderdveld puzzels"
         }
       },
       "spelling-rules": {
         "slug": {
-          "en": "spelling-rules"
+          "en": "spelling-rules",
+          "nl": "spellingregels"
         },
         "name": {
-          "en": "Spelling Rules"
+          "en": "Spelling Rules",
+          "nl": "Spellingregels"
         }
       },
       "compound-words": {
         "slug": {
-          "en": "compound-words"
+          "en": "compound-words",
+          "nl": "samenstellingen"
         },
         "name": {
-          "en": "Compound Words"
+          "en": "Compound Words",
+          "nl": "Samenstellingen"
         }
       },
       "verb-forms": {
         "slug": {
-          "en": "verb-forms"
+          "en": "verb-forms",
+          "nl": "werkwoorden-vervoegen"
         },
         "name": {
-          "en": "Verb Forms"
+          "en": "Verb Forms",
+          "nl": "Werkwoorden vervoegen"
         }
       },
       "animal-fact-file": {
         "slug": {
-          "en": "animal-fact-file"
+          "en": "animal-fact-file",
+          "nl": "dierenpaspoort"
         },
         "name": {
-          "en": "Animal Fact File"
+          "en": "Animal Fact File",
+          "nl": "Dierenpaspoort"
         }
       },
       "logic-puzzles": {
         "slug": {
-          "en": "logic-puzzles"
+          "en": "logic-puzzles",
+          "nl": "logigrammen"
         },
         "name": {
-          "en": "Logic Grid Puzzles"
+          "en": "Logic Grid Puzzles",
+          "nl": "Logigrammen"
         }
       },
       "division-with-remainder": {
         "slug": {
-          "en": "division-with-remainder"
+          "en": "division-with-remainder",
+          "nl": "delen-met-rest"
         },
         "name": {
-          "en": "Division with Remainders"
+          "en": "Division with Remainders",
+          "nl": "Delen met rest"
         }
       },
       "feelings": {
         "slug": {
-          "en": "feelings"
+          "en": "feelings",
+          "nl": "gevoelens"
         },
         "name": {
-          "en": "Feelings"
+          "en": "Feelings",
+          "nl": "Gevoelens"
         }
       }
     },

@@ -258,5 +258,85 @@
   "grid-coordinates": {
     "full": "Elk hokje in het rooster opzoeken met een letter en een cijfer en inkleuren oefent het lezen van coördinaten en onthult een verborgen plaatje.",
     "short": "Oefent coördinaten lezen in het rooster."
+  },
+  "letter-of-the-week": {
+    "full": "Letter van de week voor groep 2 en 3: de kleuter trekt de hoofdletter en de kleine letter na, hoort de beginklank in plaatjes en schrijft een rij.",
+    "short": "Letter van de week: natrekken, beginklank horen, schrijven"
+  },
+  "sound-boxes": {
+    "full": "Hakken en plakken voor groep 2 en 3: het kind zegt het woord langzaam, hakt het in klanken en schrijft elke klank in een eigen hokje.",
+    "short": "Hakken en plakken: één klank per hokje"
+  },
+  "feelings": {
+    "full": "Gevoelens voor groep 1 en 2: de kleuter verbindt gezichtjes met gevoelswoorden als blij, boos en bang, sorteert fijn en niet fijn en tekent een eigen gezicht.",
+    "short": "Gevoelens herkennen en benoemen"
+  },
+  "ordinal-numbers": {
+    "full": "Rangtelwoorden voor groep 2 en 3: het kind telt vanaf de vlag, zet een teken op de eerste, tweede of derde plaats en schrijft 1e, 2e en 3e.",
+    "short": "Rangtelwoorden: eerste, tweede, derde"
+  },
+  "days-and-months": {
+    "full": "Dagen van de week en maanden van het jaar voor groep 2 en 3: op volgorde zetten, gisteren en morgen benoemen en afkortingen lezen.",
+    "short": "Dagen van de week en maanden op volgorde"
+  },
+  "seasons": {
+    "full": "De vier seizoenen voor groep 1 en 2: de kleuter sorteert plaatjes bij winter, lente, zomer en herfst, zet de seizoenen op volgorde en tekent een boom.",
+    "short": "De vier seizoenen sorteren en op volgorde zetten"
+  },
+  "all-about-me": {
+    "full": "Dit ben ik voor groep 1 en 2: de kleuter schrijft zijn naam en leeftijd, tekent zichzelf en het gezin en kiest lievelingsdieren, eten en kleuren.",
+    "short": "Dit ben ik: naam, leeftijd, gezin en lievelingsdingen"
+  },
+  "picture-word-cards": {
+    "full": "Woordkaartjes met plaatjes voor groep 2 en 3: knip de kaartjes uit, lees de woorden, oefen de of het, enkelvoud en meervoud en lettergrepen.",
+    "short": "Woordkaartjes met plaatjes om uit te knippen"
+  },
+  "syllable-split": {
+    "full": "Lettergrepen verdelen in groep 3 en 4: het kind klapt de lettergrepen van een woord, tekent boogjes en schrijft het woord met streepjes.",
+    "short": "Lettergrepen klappen, verdelen en schrijven"
+  },
+  "syllable-reading": {
+    "full": "Mkm-woorden lezen in groep 3: het kind leest korte klankzuivere woorden op een leesmat, zoekt het plaatje en schrijft of omcirkelt het woord.",
+    "short": "Mkm-woorden lezen op een leesmat"
+  },
+  "opposites": {
+    "full": "Tegenstellingen voor groep 3 en 4: het kind leest een woord en schrijft het tegenovergestelde, met plaatjes, zinnen en het voorvoegsel on-.",
+    "short": "Tegenstellingen: het tegenovergestelde woord schrijven"
+  },
+  "read-and-do": {
+    "full": "Lees en doe voor groep 3: het kind leest een korte opdrachtzin en doet precies wat er staat met een rij plaatjes, ook waar of niet waar en tekenen.",
+    "short": "Lees en doe: begrijpend lezen met opdrachten"
+  },
+  "rhyming-words": {
+    "full": "Rijmwoorden voor groep 2 en 3: het kind hoort welke plaatjes rijmen, schrijft rijmwoorden, sorteert ze en maakt een rijmpje af.",
+    "short": "Rijmwoorden horen, schrijven en sorteren"
+  },
+  "hundreds-chart-puzzles": {
+    "full": "Honderdveld puzzels voor groep 4: het kind vult puzzelstukken van het honderdveld in met 1 meer, 1 minder, 10 meer en 10 minder en volgt sprongen met pijlen.",
+    "short": "Honderdveld puzzels: 1 en 10 meer of minder"
+  },
+  "spelling-rules": {
+    "full": "Spellingregels voor groep 4: het kind leest de regel van de week, zoals d of t aan het eind en ei of ij, en schrijft de regelletters in het woord.",
+    "short": "Spellingregels: d of t, ei of ij"
+  },
+  "compound-words": {
+    "full": "Samenstellingen voor groep 4: het kind plakt twee plaatjeswoorden aan elkaar, ontdekt de tussen-n en verdeelt lange woorden in hun delen.",
+    "short": "Samenstellingen: twee woorden worden één woord"
+  },
+  "verb-forms": {
+    "full": "Werkwoorden vervoegen in de tegenwoordige tijd voor groep 4 en 5: het kind schrijft de vormen bij ik, jij, hij en wij en kiest de goede vorm in een zin.",
+    "short": "Werkwoorden vervoegen: ik, jij, hij, wij"
+  },
+  "animal-fact-file": {
+    "full": "Dierenpaspoort voor groep 4: het kind vult een paspoort in over één dier, met soort, huid of vacht, voedsel, poten en leefgebied, en schrijft zinnen erover.",
+    "short": "Dierenpaspoort: weetjes over één dier"
+  },
+  "logic-puzzles": {
+    "full": "Logigrammen voor groep 4 en 5: het kind leest aanwijzingen, streept in een rooster door wat niet kan en vindt welk plaatje bij welk kind hoort.",
+    "short": "Logigrammen: aanwijzingen lezen en het rooster oplossen"
+  },
+  "division-with-remainder": {
+    "full": "Delen met rest voor groep 5 en 6: het kind maakt groepjes, verdeelt eerlijk, schrijft deelsommen met rest en controleert of een deelsom opgaat.",
+    "short": "Delen met rest: groepjes maken en de rest schrijven"
   }
 }

@@ -1,0 +1,29 @@
+{
+  "exemplar": "1-100",
+  "strings": {
+    "G1-310": {
+      "title": "Honderdveld puzzelstukken: vul de getallen in",
+      "instruction": "Op elk stuk staat één getal. Schrijf elk ontbrekend getal: 1 meer naar rechts, 1 minder naar links, 10 meer eronder en 10 minder erboven."
+    },
+    "F1": {
+      "title": "Waar hoort het puzzelstuk op het honderdveld?",
+      "instruction": "Lees de getallen op elk stuk, zoek zijn plek op het lege honderdveld en schrijf ze erin."
+    },
+    "F2": {
+      "title": "Sprongen op het honderdveld: volg de pijlen",
+      "instruction": "Begin bij het getal en volg de pijlen: omhoog is 10 minder, omlaag is 10 meer, naar rechts is 1 meer. Schrijf waar je uitkomt."
+    },
+    "F3": {
+      "title": "Geheim getal: twee pijlen, één hokje",
+      "instruction": "Volg allebei de pijlen. Ze wijzen naar hetzelfde hokje van het honderdveld. Schrijf het geheime getal op."
+    },
+    "F4": {
+      "title": "Zoek de fout op het puzzelstuk",
+      "instruction": "Op elk stuk staat één getal fout. Omcirkel het en schrijf het goede getal in het vakje."
+    },
+    "F5": {
+      "title": "Hoeveel sprongen? Tel de afstand op het honderdveld",
+      "instruction": "Tel hoeveel sprongen omlaag en hoeveel sprongen naar rechts je nodig hebt om van het eerste getal bij het tweede te komen."
+    }
+  }
+}

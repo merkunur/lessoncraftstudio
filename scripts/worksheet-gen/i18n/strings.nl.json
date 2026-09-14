@@ -1910,5 +1910,473 @@
   "G1-304": {
     "title": "Schrijf het woord: alle hulp erbij",
     "instruction": "De woordbank, de hokjes en de beginletter helpen je samen."
+  },
+  "K-317": {
+    "title": "Letter van de week: {U}{L}",
+    "instruction": "Trek de hoofdletter en de kleine letter na, omcirkel de vier plaatjes die met de {L} beginnen en schrijf dan een rij van elke letter."
+  },
+  "K-318": {
+    "title": "Hakken en plakken: één klank per hokje",
+    "instruction": "Zeg het woord bij het plaatje langzaam. Schrijf in elk hokje één klank. Een breed hokje met een boogje is voor twee letters die samen één klank zijn."
+  },
+  "K-319": {
+    "title": "Gevoelens: verbind het gezichtje met het woord",
+    "instruction": "Trek een lijn van elk gezichtje naar het woord dat zegt hoe het zich voelt."
+  },
+  "K-320": {
+    "title": "Rangtelwoorden: op welke plaats?",
+    "instruction": "Begin bij de vlag. Tel tot het getal op elk fiche en zet het teken dat erop staat."
+  },
+  "K-321": {
+    "title": "Dagen van de week op volgorde",
+    "instruction": "De eerste dag van de week heeft al een 1. Nummer de andere dagen 2 tot en met 7 in de volgorde waarin ze komen."
+  },
+  "K-322": {
+    "title": "De vier seizoenen sorteren",
+    "instruction": "Trek een lijn van de stip op elk plaatje naar het vak van het seizoen waar het bij hoort."
+  },
+  "K-323": {
+    "title": "Dit ben ik",
+    "instruction": "Schrijf je naam en je leeftijd, teken jezelf en je gezin en teken daarna je drie lievelingsdingen."
+  },
+  "K-324": {
+    "title": "Woordkaartjes met plaatjes",
+    "instruction": "Knip de kaartjes langs de stippellijnen uit. Zeg de naam van elk plaatje en lees dan het woord."
+  },
+  "G1-305": {
+    "title": "Woorden in lettergrepen verdelen",
+    "instruction": "Zeg het woord bij elk plaatje en klap de stukjes. Teken onder elke lettergreep die je hoort een boogje."
+  },
+  "G1-306": {
+    "title": "Mkm-woorden lezen en schrijven",
+    "instruction": "Lees alle woorden op de leesmat hardop. Zeg het woord bij elk plaatje, zoek het op de leesmat en schrijf het op de lijn."
+  },
+  "G1-307": {
+    "title": "Tegenstellingen: schrijf het tegenovergestelde woord",
+    "instruction": "Lees het woord op elke kaart. Zoek het tegenovergestelde in de woordenbank en schrijf het op de lijn."
+  },
+  "G1-308": {
+    "title": "Lees en doe: volg de opdrachten",
+    "instruction": "Kijk naar de rij plaatjes en begin bij de vlag. Lees elke zin en doe precies wat er staat met je potlood. Zet daarna een vinkje in het kleine hokje."
+  },
+  "G1-309": {
+    "title": "Rijmwoorden: rijm en schrijf",
+    "instruction": "Zeg het eerste plaatje. Omcirkel het plaatje dat erop rijmt en schrijf dat woord op de lijn."
+  },
+  "G1-310": {
+    "title": "Honderdveld puzzelstukken: vul de getallen in",
+    "instruction": "Op elk stuk staat één getal. Schrijf elk ontbrekend getal: 1 meer naar rechts, 1 minder naar links, 10 meer eronder en 10 minder erboven."
+  },
+  "G2-315": {
+    "title": "Spellingregel van de week: {UNIT}",
+    "instruction": "Lees de regel in het kader. Zeg het woord bij elk plaatje en schrijf de ontbrekende letters van de regel in de stippelvakjes."
+  },
+  "G2-316": {
+    "title": "Samenstellingen: plaatje + plaatje",
+    "instruction": "Zeg de twee plaatjes, plak de twee woorden aan elkaar en schrijf het nieuwe woord op de lijn."
+  },
+  "G2-317": {
+    "title": "Werkwoorden in de tegenwoordige tijd: ik, jij, hij, wij",
+    "instruction": "Kijk naar het plaatje en lees het werkwoord. Schrijf de vormen bij ik, jij, hij en wij in de stippelvakjes en maak daarna de zinnen af."
+  },
+  "G2-318": {
+    "title": "Dierenpaspoort: {U}",
+    "instruction": "Zoek uit wat je over dit dier weet. Schrijf in elke rij van het paspoort één weetje en vul de rest van het blad met je eigen tekening of woorden."
+  },
+  "G2-319": {
+    "title": "Logigram: drie aanwijzingen, één antwoord",
+    "instruction": "Lees de aanwijzingen. Streep in het rooster door wat niet kan, zet een vinkje bij wat zeker is en omcirkel dan het plaatje dat elk kind heeft."
+  },
+  "G3-377": {
+    "title": "Delen met rest: omcirkel de groepjes",
+    "instruction": "Omcirkel in elke stapel groepjes van het tweede getal. Schrijf hoeveel groepjes je hebt gemaakt en hoeveel plaatjes er overblijven."
+  },
+  "K-325": {
+    "title": "Woorden met de {L}: waar hoor je de {L}?",
+    "instruction": "Trek de letter na en omcirkel de vier plaatjes waarin je de {L} ergens in het woord hoort, maar niet vooraan."
+  },
+  "K-326": {
+    "title": "Vooraan, in het midden of achteraan: waar hoor je de {L}?",
+    "instruction": "Zeg elk woord. Kleur het vakje dat laat zien waar je de {L} hoort: vooraan, in het midden of achteraan."
+  },
+  "K-327": {
+    "title": "Omcirkel de {L} in de woorden en tel",
+    "instruction": "Zoek in elk woord elke {U} of {L} en omcirkel die. Schrijf in het vakje hoeveel je er hebt gevonden."
+  },
+  "G1-311": {
+    "title": "Klank van de week: {L}",
+    "instruction": "Trek de {L} na, omcirkel de vier plaatjes waarin je de klank {L} hoort en schrijf dan een rij."
+  },
+  "K-328": {
+    "title": "Begint het met de {L}? Kies de goede letter",
+    "instruction": "Zeg elk woord. Omcirkel de letter waarmee het begint."
+  },
+  "K-329": {
+    "title": "Klanken tellen: hoeveel klanken hoor je?",
+    "instruction": "Zeg het woord langzaam. Zet in de lange balk een stip voor elke klank die je hoort. Schrijf in het kleine vakje hoeveel klanken het zijn."
+  },
+  "K-330": {
+    "title": "Hakken en plakken: de eerste klank staat er al",
+    "instruction": "De eerste klank staat er al. Zeg het woord langzaam en schrijf in elk leeg hokje één klank. Een breed hokje is voor twee letters die één klank zijn."
+  },
+  "G1-312": {
+    "title": "Klankstrook: hoeveel klanken?",
+    "instruction": "Zeg het woord langzaam. Schrijf van links af in elk hokje één klank. De hokjes die je niet nodig hebt, laat je leeg."
+  },
+  "G1-313": {
+    "title": "Lettergrepen en klanken",
+    "instruction": "Klap de lettergrepen van het woord. Zeg dan elke lettergreep langzaam en schrijf onder elk boogje één klank per hokje."
+  },
+  "G1-314": {
+    "title": "Plakken en lezen: welk plaatje hoort erbij?",
+    "instruction": "Lees de klanken in de hokjes en plak ze aan elkaar tot een woord. Omcirkel het plaatje dat bij het woord hoort."
+  },
+  "K-331": {
+    "title": "Hoe voel jij je? Omcirkel het gezichtje",
+    "instruction": "Kijk naar het plaatje. Bedenk hoe jij je dan zou voelen en omcirkel het gezichtje dat daarbij past."
+  },
+  "K-332": {
+    "title": "Teken het gevoel",
+    "instruction": "Lees het gevoelswoord en teken in de lege cirkel een gezichtje dat dit gevoel laat zien."
+  },
+  "K-333": {
+    "title": "Fijn of niet fijn? Sorteer de gezichtjes",
+    "instruction": "Trek een lijn van elk gezichtje naar het vak dat zegt of dit gevoel fijn is of niet fijn."
+  },
+  "K-334": {
+    "title": "Welk gezichtje laat het gevoel zien?",
+    "instruction": "Lees het gevoelswoord en omcirkel in de rij het ene gezichtje dat dit gevoel laat zien."
+  },
+  "K-335": {
+    "title": "Hoe voel ik me vandaag?",
+    "instruction": "Omcirkel het gezichtje dat laat zien hoe jij je vandaag voelt. Teken daarna je eigen gezicht."
+  },
+  "G1-315": {
+    "title": "Vul de ontbrekende rangtelwoorden in",
+    "instruction": "Sommige plaatsen zijn al ingevuld. Schrijf de ontbrekende rangtelwoorden in de lege vakjes. Tel vanaf de vlag."
+  },
+  "G1-316": {
+    "title": "Rangtelwoorden lezen: trek een lijn naar het plaatje",
+    "instruction": "Lees elk rangtelwoord en trek een lijn naar het plaatje dat op die plaats staat. Tel vanaf de vlag."
+  },
+  "G1-317": {
+    "title": "Welke plaats? Schrijf het rangtelwoord",
+    "instruction": "Zoek elk klein plaatje in zijn rij en schrijf op welke plaats het staat. Tel vanaf de vlag."
+  },
+  "K-336": {
+    "title": "Rangtelwoorden vanaf de andere kant: begin bij de vlag",
+    "instruction": "Zoek eerst de vlag: die kan aan beide kanten staan. Begin daar, tel tot het getal op het fiche en zet het teken dat erop staat."
+  },
+  "G1-318": {
+    "title": "Wie wint de race? Schrijf de plaats",
+    "instruction": "Kijk hoe dicht elke renner bij de finish is. De dichtstbijzijnde is 1e. Schrijf 1e, 2e, 3e, 4e, 5e en 6e."
+  },
+  "K-337": {
+    "title": "Ontbrekende dagen: schrijf de week op volgorde",
+    "instruction": "Op de ladder staan al een paar dagen. Schrijf de ontbrekende dagen uit de woordenbank op de goede plek."
+  },
+  "G1-319": {
+    "title": "Gisteren, vandaag, morgen",
+    "instruction": "De dag in het midden is vandaag. Schrijf de dag die gisteren was en de dag die morgen komt."
+  },
+  "G1-320": {
+    "title": "Maanden van het jaar op volgorde",
+    "instruction": "Januari heeft al een 1. Nummer de andere maanden 2 tot en met 12 in de volgorde van het jaar."
+  },
+  "G1-321": {
+    "title": "De maand ervoor en de maand erna",
+    "instruction": "In het midden staat een maand. Schrijf de maand die ervoor komt en de maand die erna komt."
+  },
+  "G1-322": {
+    "title": "Dagen van de week: afkortingen",
+    "instruction": "Lees elke afkorting en trek een lijn naar de dag waar ze bij hoort."
+  },
+  "K-338": {
+    "title": "Welk seizoen is het?",
+    "instruction": "Kijk naar de drie plaatjes op elke kaart en omcirkel het seizoensteken waar ze bij horen."
+  },
+  "K-339": {
+    "title": "Seizoenenwiel: de seizoenen op volgorde",
+    "instruction": "Eén seizoen staat al op het wiel. Teken de andere drie tekens in de lege cirkels, in de goede volgorde."
+  },
+  "K-340": {
+    "title": "Seizoenen: wat hoort er niet bij?",
+    "instruction": "Streep in elke rij het ene plaatje door dat bij een ander seizoen hoort."
+  },
+  "G1-323": {
+    "title": "Maanden en seizoenen: kleur het seizoen",
+    "instruction": "Kleur het rondje naast elke maand in de kleur van zijn seizoen."
+  },
+  "K-341": {
+    "title": "Teken de boom in de vier seizoenen",
+    "instruction": "Teken hoe de boom eruitziet in elk van de vier seizoenen."
+  },
+  "K-342": {
+    "title": "Mijn lievelingsdingen: omcirkel en schrijf",
+    "instruction": "Omcirkel in elke rij je lievelingsplaatje en schrijf het woord over op de lijn."
+  },
+  "K-343": {
+    "title": "Mijn gezin: teken en tel",
+    "instruction": "Teken je gezin. Laat dan in de tienvelden zien hoeveel mensen, broers, zussen en huisdieren er zijn en schrijf het getal."
+  },
+  "K-344": {
+    "title": "Dit is mijn gezicht: schrijf de woorden erbij",
+    "instruction": "Schrijf elk woord uit de woordenbank over op de lijn die naar dat deel van het gezicht wijst. Teken daarna je eigen gezicht."
+  },
+  "K-345": {
+    "title": "Ik kan: zet een vinkje bij wat je al kunt",
+    "instruction": "Lees elke zin en zet een vinkje bij de dingen die je al kunt. Schrijf daarna één ding dat je nog wilt leren."
+  },
+  "K-346": {
+    "title": "Mijn naam: schrijf, tel en vergelijk",
+    "instruction": "Schrijf je naam met één letter per hokje en tel de letters. Doe hetzelfde voor een vriend of vriendin en omcirkel wie er meer letters heeft."
+  },
+  "K-347": {
+    "title": "Plaatjeskaartjes en woordkaartjes: zoek de paren",
+    "instruction": "Knip de zestien kaartjes uit. Leg elk woordkaartje naast het plaatje waar het bij hoort, of leg alles omgekeerd en speel memory."
+  },
+  "K-348": {
+    "title": "Woordkaartjes met de of het",
+    "instruction": "Knip de acht kaartjes uit. Zeg elk woord met zijn lidwoord, precies zoals het op het kaartje staat."
+  },
+  "K-349": {
+    "title": "Eén en meer: kaartjes met enkelvoud en meervoud",
+    "instruction": "Knip de kaartjes uit. Zeg het woord voor één en het woord voor meer en leg dan de paren bij elkaar."
+  },
+  "K-350": {
+    "title": "Tweetalige woordkaartjes: Nederlands en {U}",
+    "instruction": "Knip de acht kaartjes uit. Zeg het woord in het Nederlands en dan in het {U} en bewaar de kaartjes voor je woordmuur."
+  },
+  "G1-324": {
+    "title": "Lettergreepkaartjes: lees het woord in stukjes",
+    "instruction": "Knip de acht kaartjes uit. Lees elk woord lettergreep voor lettergreep en zeg dan het hele woord."
+  },
+  "G1-325": {
+    "title": "Schrijf het woord in lettergrepen",
+    "instruction": "Lees het woord naast elk plaatje. Schrijf het over op de lijn en zet tussen de lettergrepen een streepje."
+  },
+  "G1-326": {
+    "title": "De ontbrekende lettergreep",
+    "instruction": "Zeg het woord bij het plaatje. Eén lettergreep ontbreekt. Schrijf de ontbrekende lettergreep in het vakje."
+  },
+  "G1-327": {
+    "title": "Lettergrepen door elkaar: zet ze op volgorde",
+    "instruction": "De lettergrepen van elk woord staan door elkaar. Lees ze, zet ze in de goede volgorde en schrijf het woord op de lijn."
+  },
+  "G1-328": {
+    "title": "Twee of drie lettergrepen? Verdeel en sorteer",
+    "instruction": "Klap elk woord uit de woordenbank. Schrijf het met streepjes tussen de lettergrepen in de kolom 2 of de kolom 3."
+  },
+  "G1-329": {
+    "title": "Elke lettergreep heeft een klinker",
+    "instruction": "Elke lettergreep heeft één klinker. Kijk naar het voorbeeld en zet dan een stip op de klinker in elk boogje."
+  },
+  "G1-330": {
+    "title": "Mkm-woorden: lees en omcirkel",
+    "instruction": "Lees de woorden op de leesmat hardop. Zeg het woord bij elk plaatje en omcirkel het ene woord eronder dat erbij hoort."
+  },
+  "G1-331": {
+    "title": "Plak de lettergrepen en schrijf het woord",
+    "instruction": "Lees de twee lettergrepen op elk kaartje op volgorde. Zeg ze achter elkaar en schrijf het hele woord op de lijn."
+  },
+  "G1-332": {
+    "title": "Leesmat met mkm-woorden: lees en kleur",
+    "instruction": "Lees alle woorden op de leesmat hardop. Zoek dan het woord van elk plaatje op de leesmat en kleur dat woord in de kleur van het plaatje."
+  },
+  "G1-333": {
+    "title": "Woorden met twee medeklinkers: mmkm en mkmm",
+    "instruction": "Lees alle woorden op de leesmat hardop. Zeg het woord bij elk plaatje, zoek het op de leesmat en schrijf het op de lijn."
+  },
+  "G1-334": {
+    "title": "Lees de lettergrepen en zoek het plaatje",
+    "instruction": "Lees elk woord lettergreep voor lettergreep. Zoek het plaatje in de bank bovenaan en schrijf het nummer van het plaatje in het vakje."
+  },
+  "K-351": {
+    "title": "Tegenstellingen met plaatjes: verbind de tegenpolen",
+    "instruction": "Trek een lijn van elk plaatje naar het plaatje en het woord die het tegenovergestelde laten zien."
+  },
+  "G1-335": {
+    "title": "Tegenstellingen in een zin",
+    "instruction": "Lees elke zin. Schrijf het tegenovergestelde van het woord na \"niet\" op de lijn. De woordenbank helpt je."
+  },
+  "G1-336": {
+    "title": "Zoek de paren: welke woorden zijn tegenstellingen?",
+    "instruction": "Zoek de twee woorden die tegenstellingen zijn. Schrijf elk paar op een lijn, één woord aan elke kant van de pijl."
+  },
+  "G1-337": {
+    "title": "Tegengesteld of hetzelfde? Omcirkel het tegenovergestelde",
+    "instruction": "Lees het woord. Eén van de drie woorden eronder betekent het tegenovergestelde. Omcirkel dat woord, niet het woord dat hetzelfde betekent."
+  },
+  "G2-320": {
+    "title": "Tegenstellingen met on-",
+    "instruction": "Zet on- voor elk woord en schrijf het nieuwe tegenovergestelde woord op de lijn."
+  },
+  "G1-338": {
+    "title": "Lees en omcirkel",
+    "instruction": "Lees elke zin. Zoek in de rij het plaatje of de plaatjes die erin staan en zet er een cirkel omheen. Zet daarna een vinkje in het hokje."
+  },
+  "G1-339": {
+    "title": "Lees en doe: opdrachten met twee stappen",
+    "instruction": "Elke zin zegt twee dingen die je moet doen. Lees de zin helemaal voordat je begint en doe dan allebei de stappen in de rij plaatjes."
+  },
+  "G1-340": {
+    "title": "Lees en doe: eerste, tweede, tussen",
+    "instruction": "Begin bij de vlag en tel langs de rij. Zoek het plaatje op zijn plaats en doe dan met je potlood wat de zin zegt."
+  },
+  "G1-341": {
+    "title": "Lees en controleer: waar of niet waar?",
+    "instruction": "Lees elke zin en kijk naar de rij plaatjes. Is de zin waar of niet waar? Omcirkel het goede woord."
+  },
+  "G1-342": {
+    "title": "Lees en teken",
+    "instruction": "Lees elke zin goed. Teken dan in het vak precies wat er staat."
+  },
+  "K-352": {
+    "title": "Rijmt het of niet?",
+    "instruction": "Zeg beide plaatjes hardop. Rijmen de twee woorden? Omcirkel dan het vinkje. Rijmen ze niet? Omcirkel dan het kruisje."
+  },
+  "G1-343": {
+    "title": "Sorteer de rijmwoorden",
+    "instruction": "Zeg elk plaatje uit de bank. Zoek het grote plaatje waarop het rijmt en schrijf het woord op een lijn onder dat plaatje."
+  },
+  "G1-344": {
+    "title": "Maak het rijmpje af",
+    "instruction": "Lees de twee regels hardop. Kijk naar het plaatje, hoor het rijm en schrijf het ontbrekende rijmwoord op de lijn."
+  },
+  "G1-345": {
+    "title": "Rijmrijen: twee rijmwoorden per plaatje",
+    "instruction": "Zeg elk plaatje. Zoek in de bank de twee woorden die erop rijmen en schrijf ze op de lijnen. Sommige woorden passen nergens."
+  },
+  "G1-346": {
+    "title": "Verzin je eigen rijmwoorden",
+    "instruction": "Lees het woord naast elk plaatje. Bedenk twee woorden die erop rijmen en schrijf er één op elke lijn."
+  },
+  "G1-347": {
+    "title": "Waar hoort het puzzelstuk op het honderdveld?",
+    "instruction": "Lees de getallen op elk stuk, zoek zijn plek op het lege honderdveld en schrijf ze erin."
+  },
+  "G2-321": {
+    "title": "Sprongen op het honderdveld: volg de pijlen",
+    "instruction": "Begin bij het getal en volg de pijlen: omhoog is 10 minder, omlaag is 10 meer, naar rechts is 1 meer. Schrijf waar je uitkomt."
+  },
+  "G2-322": {
+    "title": "Geheim getal: twee pijlen, één hokje",
+    "instruction": "Volg allebei de pijlen. Ze wijzen naar hetzelfde hokje van het honderdveld. Schrijf het geheime getal op."
+  },
+  "G1-348": {
+    "title": "Zoek de fout op het puzzelstuk",
+    "instruction": "Op elk stuk staat één getal fout. Omcirkel het en schrijf het goede getal in het vakje."
+  },
+  "G2-323": {
+    "title": "Hoeveel sprongen? Tel de afstand op het honderdveld",
+    "instruction": "Tel hoeveel sprongen omlaag en hoeveel sprongen naar rechts je nodig hebt om van het eerste getal bij het tweede te komen."
+  },
+  "G2-324": {
+    "title": "Welke is het? {UNIT}",
+    "instruction": "Kijk naar het plaatje en lees het woord. Omcirkel de goede letters eronder en schrijf ze daarna in het stippelvakje."
+  },
+  "G2-325": {
+    "title": "Spellingdetective: {UNIT}",
+    "instruction": "Lees elk woord. Zoek de letters van de regel, omcirkel ze in het woord en schrijf ze dan over in het kleine vakje."
+  },
+  "G2-326": {
+    "title": "Sorteer op spellingregel: {UNIT}",
+    "instruction": "Zeg het woord bij elk plaatje. Schrijf het in de bak van zijn spelling, één woord per lijn."
+  },
+  "G2-327": {
+    "title": "Schrijf het hele woord: {UNIT}",
+    "instruction": "De letters van de regel staan al in het oranje. Zeg het woord bij het plaatje en schrijf alle andere letters in de hokjes."
+  },
+  "G2-330": {
+    "title": "Verdeel de samenstelling: zoek de twee woorden",
+    "instruction": "Het hele woord staat in letterhokjes naast zijn plaatje. Zet één streep waar het tweede woord begint."
+  },
+  "G2-331": {
+    "title": "Verbind de helften: twee plaatjes, één woord",
+    "instruction": "Trek een lijn van elk eerste plaatje naar het plaatje dat het woord afmaakt. Schrijf dan het nieuwe woord op de lijn naast het eerste plaatje."
+  },
+  "G2-332": {
+    "title": "Speurtocht naar samenstellingen",
+    "instruction": "Twaalf woorden, zes ervan zijn uit twee woorden gemaakt. Omcirkel de zes samenstellingen en schrijf hun twee delen op de lijnen."
+  },
+  "G2-333": {
+    "title": "Woordweb: één woord, veel samenstellingen",
+    "instruction": "In het midden staat één woord. Elk plaatje eromheen maakt er een nieuw woord mee. Schrijf de vier nieuwe woorden op de lijnen."
+  },
+  "G2-334": {
+    "title": "Welke vorm hoort bij ik, jij en wij?",
+    "instruction": "Lees elk werkwoord links. Trek een lijn naar de vorm rechts die erbij hoort, één lijn per werkwoord."
+  },
+  "G2-335": {
+    "title": "Werkwoordsvormen in zinnen met plaatjes",
+    "instruction": "Kijk naar het plaatje en lees het werkwoord in het vakje. Schrijf de vorm die in de zin past in het stippelvakje."
+  },
+  "G2-337": {
+    "title": "Kies de goede werkwoordsvorm",
+    "instruction": "Lees de zin. Onder de zin staan drie vormen van het werkwoord. Omcirkel de vorm die past."
+  },
+  "G2-338": {
+    "title": "Zoek het werkwoord en schrijf het hele werkwoord",
+    "instruction": "Onderstreep het werkwoord in elke zin. Schrijf daarna het hele werkwoord in het stippelvakje."
+  },
+  "G2-339": {
+    "title": "Dierenpaspoort {U}: kies de juiste weetjes",
+    "instruction": "Lees in elke rij de keuzes en omcirkel de keuze die klopt voor dit dier. Teken daarna waar het leeft en maak de zin af."
+  },
+  "G2-340": {
+    "title": "Dierenpaspoort {U} met woordenbank",
+    "instruction": "Zoek elk juist weetje in de woordenbank en schrijf het over in de goede rij van het paspoort. Maak daarna de zin onderaan af."
+  },
+  "G2-341": {
+    "title": "Dierenpaspoort {U}: schrijf drie zinnen",
+    "instruction": "Lees het paspoort. Maak de drie zinnen af met weetjes uit het paspoort en schrijf op de laatste lijn nog één weetje van jezelf."
+  },
+  "G2-342": {
+    "title": "Vergelijk twee dieren: hetzelfde en anders",
+    "instruction": "Lees beide paspoorten. Omcirkel bij elk weetje hetzelfde of anders. Schrijf daarna twee dingen die hetzelfde zijn en twee die anders zijn."
+  },
+  "G2-343": {
+    "title": "Wie ben ik? Raad het dier",
+    "instruction": "Lees de vijf aanwijzingen op elke kaart. Zoek het dier in de plaatjesbank, schrijf zijn naam op de lijn en teken het in het vak."
+  },
+  "G2-344": {
+    "title": "Logigram met ja-, nee- en of-aanwijzingen",
+    "instruction": "Ja: zet een vinkje. Nee: zet een kruisje. Of: streep het derde plaatje door. Maak het rooster af en omcirkel elk antwoord."
+  },
+  "G3-378": {
+    "title": "Logigram 4 bij 4: zes aanwijzingen",
+    "instruction": "Vier kinderen en vier plaatjes. Gebruik elke aanwijzing: streep door wat niet kan en vink aan wat zeker is, tot elke rij één antwoord heeft."
+  },
+  "G1-349": {
+    "title": "Logigram met plaatjes: streep door en zoek",
+    "instruction": "Een doorgestreept plaatje heeft het kind niet, een omcirkeld plaatje wel. Streep door in het rooster en omcirkel elk antwoord."
+  },
+  "G3-379": {
+    "title": "Logigram met twee kenmerken: twee plaatjes per kind",
+    "instruction": "Elk kind heeft één plaatje uit elke set. Gebruik de aanwijzingen die de sets verbinden om alle drie de roosters in te vullen."
+  },
+  "G2-345": {
+    "title": "Lees het logigram: waar of niet waar?",
+    "instruction": "Het rooster is al opgelost. Lees het en omcirkel het vinkje als de zin waar is of het kruisje als de zin niet waar is."
+  },
+  "G3-380": {
+    "title": "Eerlijk verdelen met rest: wat blijft er over?",
+    "instruction": "Verdeel de stapel één voor één over de vakken. Schrijf hoeveel elk vak krijgt en hoeveel je niet kunt verdelen."
+  },
+  "G3-381": {
+    "title": "Deelsommen met rest: oefenrijen",
+    "instruction": "Elke deelsom houdt iets over. Schrijf in elke rij het antwoord en de rest."
+  },
+  "G3-382": {
+    "title": "Gaat het op? Deelsommen met en zonder rest",
+    "instruction": "Bepaal of elke deelsom precies opgaat. Omcirkel je keuze en schrijf de rest op, 0 als er geen rest is."
+  },
+  "G3-383": {
+    "title": "Zoek de fout: de rest is te groot",
+    "instruction": "Elke deelsom is fout uitgerekend. Streep de foute getallen door en schrijf het goede antwoord en de rest in de vakjes."
+  },
+  "G3-384": {
+    "title": "Terugspringen op de getallenlijn: wat blijft er over?",
+    "instruction": "Begin bij het gemarkeerde getal en teken even grote sprongen terug tot er geen hele sprong meer past. Schrijf de sprongen en waar je uitkomt."
   }
 }

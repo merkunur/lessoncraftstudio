@@ -1,0 +1,1374 @@
+{
+  "rule": "stressedVowelCoda",
+  "orthographyTrusted": true,
+  "exemplar": [
+    "as",
+    "and",
+    "ok",
+    "am",
+    "ap",
+    "aan"
+  ],
+  "opened": {
+    "kitchen tools/glass": "glass",
+    "spring/grass": "grass",
+    "spring/puddle": "puddle",
+    "At the Supermarket/basket": "basket",
+    "body parts/tooth": "tooth",
+    "occupations/cook": "cook",
+    "around the house/comb": "comb",
+    "farm animals/lamb": "lamb",
+    "breakfast/juice": "juice",
+    "around the house/stairs": "stairs",
+    "breakfast/porridge": "porridge",
+    "classroom/folder": "folder",
+    "easter/feather": "feather",
+    "animals/swan": "swan",
+    "around the house/faucet": "faucet",
+    "farm animals/rooster": "rooster",
+    "pets/ferret": "ferret",
+    "easter/cross": "cross",
+    "vegetables/leek": "leek",
+    "classroom/book": "book",
+    "toys/ball": "ball",
+    "beach/jellyfish": "jellyfish",
+    "farm animals/sheep": "sheep",
+    "zoo animals/monkey": "monkey",
+    "camping/forest": "forest",
+    "animals/fox": "fox",
+    "breakfast/bacon": "bacon",
+    "around the house/fence": "fence",
+    "around the house/hose": "hose",
+    "tools/pliers": "pliers",
+    "beach/shovel": "shovel"
+  },
+  "classes": [
+    {
+      "id": "as",
+      "rime": "-as",
+      "sound": "ɑs",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "bag",
+          "word": "tas",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "bag"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "coat",
+          "word": "jas",
+          "pic": {
+            "theme": "clothing",
+            "noun": "coat"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "glass",
+          "word": "glas",
+          "pic": {
+            "theme": "kitchen tools",
+            "noun": "glass"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "grass",
+          "word": "gras",
+          "pic": {
+            "theme": "spring",
+            "noun": "grass"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "puddle",
+          "word": "plas",
+          "pic": {
+            "theme": "spring",
+            "noun": "puddle"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "das",
+        "kas",
+        "was"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "hand",
+          "word": "hand",
+          "pic": {
+            "theme": "body parts",
+            "noun": "hand"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "and",
+      "rime": "-and",
+      "sound": "ɑnt",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "hand",
+          "word": "hand",
+          "pic": {
+            "theme": "body parts",
+            "noun": "hand"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "sand",
+          "word": "zand",
+          "pic": {
+            "theme": "summer",
+            "noun": "sand"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "beach",
+          "word": "strand",
+          "pic": {
+            "theme": "summer",
+            "noun": "beach"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "basket",
+          "word": "mand",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "basket"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "tooth",
+          "word": "tand",
+          "pic": {
+            "theme": "body parts",
+            "noun": "tooth"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "band",
+        "rand",
+        "wand"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "ham",
+          "word": "ham",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "ham"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "ok",
+      "rime": "-ok",
+      "sound": "ɔk",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "sock",
+          "word": "sok",
+          "pic": {
+            "theme": "accessories",
+            "noun": "sock"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "clock",
+          "word": "klok",
+          "pic": {
+            "theme": "around the house",
+            "noun": "clock"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "mug",
+          "word": "mok",
+          "pic": {
+            "theme": "kitchen tools",
+            "noun": "mug"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "skirt",
+          "word": "rok",
+          "pic": {
+            "theme": "clothing",
+            "noun": "skirt"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "cook",
+          "word": "kok",
+          "pic": {
+            "theme": "occupations",
+            "noun": "cook"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "bok",
+        "stok",
+        "hok"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "bowl",
+          "word": "kom",
+          "pic": {
+            "theme": "kitchen tools",
+            "noun": "bowl"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "am",
+      "rime": "-am",
+      "sound": "ɑm",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "ham",
+          "word": "ham",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "ham"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "jam",
+          "word": "jam",
+          "pic": {
+            "theme": "breakfast",
+            "noun": "jam"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "comb",
+          "word": "kam",
+          "pic": {
+            "theme": "around the house",
+            "noun": "comb"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "lamb",
+          "word": "lam",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "lamb"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "dam",
+        "ram",
+        "zwam"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "hand",
+          "word": "hand",
+          "pic": {
+            "theme": "body parts",
+            "noun": "hand"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "ap",
+      "rime": "-ap",
+      "sound": "ɑp",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "juice",
+          "word": "sap",
+          "pic": {
+            "theme": "breakfast",
+            "noun": "juice"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "stairs",
+          "word": "trap",
+          "pic": {
+            "theme": "around the house",
+            "noun": "stairs"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "porridge",
+          "word": "pap",
+          "pic": {
+            "theme": "breakfast",
+            "noun": "porridge"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "folder",
+          "word": "map",
+          "pic": {
+            "theme": "classroom",
+            "noun": "folder"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "kap",
+        "stap",
+        "hap"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "bag",
+          "word": "tas",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "bag"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "aan",
+      "rime": "-aan",
+      "sound": "aːn",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "swan",
+          "word": "zwaan",
+          "pic": {
+            "theme": "animals",
+            "noun": "swan"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "faucet",
+          "word": "kraan",
+          "pic": {
+            "theme": "around the house",
+            "noun": "faucet"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "rooster",
+          "word": "haan",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "rooster"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "moon",
+          "word": "maan",
+          "pic": {
+            "theme": "space",
+            "noun": "moon"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "baan",
+        "traan",
+        "laan"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "map",
+          "word": "kaart",
+          "pic": {
+            "theme": "camping",
+            "noun": "map"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "eer",
+      "rime": "-eer",
+      "sound": "eːr",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "pear",
+          "word": "peer",
+          "pic": {
+            "theme": "fruits",
+            "noun": "pear"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "bear",
+          "word": "beer",
+          "pic": {
+            "theme": "forest creatures",
+            "noun": "bear"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "feather",
+          "word": "veer",
+          "pic": {
+            "theme": "easter",
+            "noun": "feather"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "meer",
+        "heer",
+        "keer"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "cap",
+          "word": "pet",
+          "pic": {
+            "theme": "clothing",
+            "noun": "cap"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "et",
+      "rime": "-et",
+      "sound": "ɛt",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "cap",
+          "word": "pet",
+          "pic": {
+            "theme": "clothing",
+            "noun": "cap"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "net",
+          "word": "net",
+          "pic": {
+            "theme": "beach",
+            "noun": "net"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "ferret",
+          "word": "fret",
+          "pic": {
+            "theme": "pets",
+            "noun": "ferret"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "vet",
+        "zet",
+        "wet"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "pen",
+          "word": "pen",
+          "pic": {
+            "theme": "classroom",
+            "noun": "pen"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "uis",
+      "rime": "-uis",
+      "sound": "œys",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "mouse",
+          "word": "muis",
+          "pic": {
+            "theme": "pets",
+            "noun": "mouse"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "house",
+          "word": "huis",
+          "pic": {
+            "theme": "miscellaneous",
+            "noun": "house"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "cross",
+          "word": "kruis",
+          "pic": {
+            "theme": "easter",
+            "noun": "cross"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "buis",
+        "kluis",
+        "ruis"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "mug",
+          "word": "mok",
+          "pic": {
+            "theme": "kitchen tools",
+            "noun": "mug"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "ei",
+      "rime": "-ei",
+      "sound": "ɛi",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "egg",
+          "word": "ei",
+          "pic": {
+            "theme": "easter",
+            "noun": "egg"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "leek",
+          "word": "prei",
+          "pic": {
+            "theme": "vegetables",
+            "noun": "leek"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "bee",
+          "word": "bij",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "bee"
+          },
+          "sameSpelling": false,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "mei",
+        "zij",
+        "brei"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "pen",
+          "word": "pen",
+          "pic": {
+            "theme": "classroom",
+            "noun": "pen"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "ot",
+      "rime": "-ot",
+      "sound": "ɔt",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "lock",
+          "word": "slot",
+          "pic": {
+            "theme": "around the house",
+            "noun": "lock"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "jar",
+          "word": "pot",
+          "pic": {
+            "theme": "kitchen tools",
+            "noun": "jar"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "bot",
+        "rot",
+        "vlot"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "doll",
+          "word": "pop",
+          "pic": {
+            "theme": "toys",
+            "noun": "doll"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "en",
+      "rime": "-en",
+      "sound": "ɛn",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "pen",
+          "word": "pen",
+          "pic": {
+            "theme": "classroom",
+            "noun": "pen"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "hen",
+          "word": "hen",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "hen"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "ren",
+        "den",
+        "ben"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "cap",
+          "word": "pet",
+          "pic": {
+            "theme": "clothing",
+            "noun": "cap"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "est",
+      "rime": "-est",
+      "sound": "ɛst",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "nest",
+          "word": "nest",
+          "pic": {
+            "theme": "spring",
+            "noun": "nest"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "vest",
+          "word": "vest",
+          "pic": {
+            "theme": "clothing",
+            "noun": "vest"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "best",
+        "rest",
+        "west"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "net",
+          "word": "net",
+          "pic": {
+            "theme": "beach",
+            "noun": "net"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "ond",
+      "rime": "-ond",
+      "sound": "ɔnt",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "dog",
+          "word": "hond",
+          "pic": {
+            "theme": "animals",
+            "noun": "dog"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "mouth",
+          "word": "mond",
+          "pic": {
+            "theme": "body parts",
+            "noun": "mouth"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "rond",
+        "blond",
+        "grond"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "aart",
+      "rime": "-aart",
+      "sound": "aːrt",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "cake",
+          "word": "taart",
+          "pic": {
+            "theme": "bakery",
+            "noun": "cake"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "map",
+          "word": "kaart",
+          "pic": {
+            "theme": "camping",
+            "noun": "map"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "staart",
+        "vaart"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "bag",
+          "word": "tas",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "bag"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "oek",
+      "rime": "-oek",
+      "sound": "uk",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "book",
+          "word": "boek",
+          "pic": {
+            "theme": "classroom",
+            "noun": "book"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pants",
+          "word": "broek",
+          "pic": {
+            "theme": "clothing",
+            "noun": "pants"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "hoek",
+        "koek",
+        "doek"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "bowl",
+          "word": "kom",
+          "pic": {
+            "theme": "kitchen tools",
+            "noun": "bowl"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "al",
+      "rime": "-al",
+      "sound": "ɑl",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "jellyfish",
+          "word": "kwal",
+          "pic": {
+            "theme": "beach",
+            "noun": "jellyfish"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "ball",
+          "word": "bal",
+          "pic": {
+            "theme": "toys",
+            "noun": "ball"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "dal",
+        "stal",
+        "wal"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "basket",
+          "word": "mand",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "basket"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "aap",
+      "rime": "-aap",
+      "sound": "aːp",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "sheep",
+          "word": "schaap",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "sheep"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "monkey",
+          "word": "aap",
+          "pic": {
+            "theme": "zoo animals",
+            "noun": "monkey"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "raap",
+        "slaap",
+        "knaap"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "bag",
+          "word": "tas",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "bag"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "os",
+      "rime": "-os",
+      "sound": "ɔs",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "fox",
+          "word": "vos",
+          "pic": {
+            "theme": "animals",
+            "noun": "fox"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "forest",
+          "word": "bos",
+          "pic": {
+            "theme": "camping",
+            "noun": "forest"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "mos",
+        "dos",
+        "los"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "doll",
+          "word": "pop",
+          "pic": {
+            "theme": "toys",
+            "noun": "doll"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "ek",
+      "rime": "-ek",
+      "sound": "ɛk",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "bacon",
+          "word": "spek",
+          "pic": {
+            "theme": "breakfast",
+            "noun": "bacon"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "fence",
+          "word": "hek",
+          "pic": {
+            "theme": "around the house",
+            "noun": "fence"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "gek",
+        "plek",
+        "vlek"
+      ],
+      "nearMiss": [
+        {
+          "vocabKey": "pen",
+          "word": "pen",
+          "pic": {
+            "theme": "classroom",
+            "noun": "pen"
+          },
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "ang",
+      "rime": "-ang",
+      "sound": "ɑŋ",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "hose",
+          "word": "slang",
+          "pic": {
+            "theme": "around the house",
+            "noun": "hose"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pliers",
+          "word": "tang",
+          "pic": {
+            "theme": "tools",
+            "noun": "pliers"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "lang",
+        "wang",
+        "zang"
+      ],
+      "nearMiss": []
+    }
+  ],
+  "couplets": [
+    {
+      "id": "tas-jas",
+      "lines": [
+        "In de kast hangt een tas",
+        "en daarnaast hangt een warme ___"
+      ],
+      "answer": {
+        "vocabKey": "coat"
+      },
+      "rhymeWith": "tas",
+      "cueFree": false
+    },
+    {
+      "id": "sok-klok",
+      "lines": [
+        "Ik zoek mijn ene sok",
+        "onder de grote ronde ___"
+      ],
+      "answer": {
+        "vocabKey": "clock"
+      },
+      "rhymeWith": "sok",
+      "cueFree": false
+    },
+    {
+      "id": "hand-zand",
+      "lines": [
+        "Ik graaf met mijn hand",
+        "een diepe kuil in het ___"
+      ],
+      "answer": {
+        "vocabKey": "sand"
+      },
+      "rhymeWith": "hand",
+      "cueFree": false
+    },
+    {
+      "id": "pen-hen",
+      "lines": [
+        "Ik teken met mijn pen",
+        "een dikke witte ___"
+      ],
+      "answer": {
+        "vocabKey": "hen"
+      },
+      "rhymeWith": "pen",
+      "cueFree": false
+    },
+    {
+      "id": "muis-huis",
+      "lines": [
+        "Een kleine grijze muis",
+        "woont in een groot rood ___"
+      ],
+      "answer": {
+        "vocabKey": "house"
+      },
+      "rhymeWith": "muis",
+      "cueFree": false
+    },
+    {
+      "id": "hond-mond",
+      "lines": [
+        "Kijk, daar loopt een hond",
+        "met een bal in zijn ___"
+      ],
+      "answer": {
+        "vocabKey": "mouth"
+      },
+      "rhymeWith": "hond",
+      "cueFree": false
+    },
+    {
+      "id": "peer-beer",
+      "lines": [
+        "Ik eet een zoete peer",
+        "samen met een bruine ___"
+      ],
+      "answer": {
+        "vocabKey": "bear"
+      },
+      "rhymeWith": "peer",
+      "cueFree": false
+    },
+    {
+      "id": "ham-jam",
+      "lines": [
+        "Op mijn brood ligt ham",
+        "op jouw brood ligt ___"
+      ],
+      "answer": {
+        "vocabKey": "jam"
+      },
+      "rhymeWith": "ham",
+      "cueFree": false
+    },
+    {
+      "id": "nest-vest",
+      "lines": [
+        "Het vogeltje bouwt een nest",
+        "de jongen draagt een warm ___"
+      ],
+      "answer": {
+        "vocabKey": "vest"
+      },
+      "rhymeWith": "nest",
+      "cueFree": false
+    },
+    {
+      "id": "pet-net",
+      "lines": [
+        "De visser draagt een pet",
+        "en gooit een groot rond ___"
+      ],
+      "answer": {
+        "vocabKey": "net"
+      },
+      "rhymeWith": "pet",
+      "cueFree": false
+    },
+    {
+      "id": "jas-glas",
+      "lines": [
+        "Ik hang op de haak mijn jas",
+        "en drink dan water uit een ___"
+      ],
+      "answer": {
+        "vocabKey": "glass"
+      },
+      "rhymeWith": "jas",
+      "cueFree": false
+    },
+    {
+      "id": "maan-zwaan",
+      "lines": [
+        "Hoog aan de hemel staat de maan",
+        "op het meer zwemt een witte ___"
+      ],
+      "answer": {
+        "vocabKey": "swan"
+      },
+      "rhymeWith": "maan",
+      "cueFree": false
+    }
+  ],
+  "_panelOpened": "nl panel 2026-09-14: honest nl rhyme pictures OUTSIDE the EN OPENED record, each opened on nl-rh1.png — animals/sheep (schaap) + zoo animals/monkey (aap) for -aap; classroom/book (boek) + clothing/pants (broek) for -oek; toys/ball (bal) + beach/jellyfish (kwal) for -al; around the house/comb (kam) + farm animals/lamb (lam) for -am; At the Supermarket/basket (mand) + body parts/tooth (tand) for -and; farm animals/rooster (haan) + around the house/faucet (kraan) + space/moon (maan) for -aan; kitchen tools/jug (kan) + around the house/pan (pan) for -an; easter/cross (kruis) for -uis; farm animals/goat (geit) + vegetables/leek (prei) for -ei. Adding them to OPENED lifts G1-343 and G1-345 in nl.",
+  "strings": {
+    "G1-309": {
+      "title": "Rijmwoorden: rijm en schrijf",
+      "instruction": "Zeg het eerste plaatje. Omcirkel het plaatje dat erop rijmt en schrijf dat woord op de lijn."
+    },
+    "K-352": {
+      "title": "Rijmt het of niet?",
+      "instruction": "Zeg beide plaatjes hardop. Rijmen de twee woorden? Omcirkel dan het vinkje. Rijmen ze niet? Omcirkel dan het kruisje."
+    },
+    "G1-343": {
+      "title": "Sorteer de rijmwoorden",
+      "instruction": "Zeg elk plaatje uit de bank. Zoek het grote plaatje waarop het rijmt en schrijf het woord op een lijn onder dat plaatje."
+    },
+    "G1-344": {
+      "title": "Maak het rijmpje af",
+      "instruction": "Lees de twee regels hardop. Kijk naar het plaatje, hoor het rijm en schrijf het ontbrekende rijmwoord op de lijn."
+    },
+    "G1-345": {
+      "title": "Rijmrijen: twee rijmwoorden per plaatje",
+      "instruction": "Zeg elk plaatje. Zoek in de bank de twee woorden die erop rijmen en schrijf ze op de lijnen. Sommige woorden passen nergens."
+    },
+    "G1-346": {
+      "title": "Verzin je eigen rijmwoorden",
+      "instruction": "Lees het woord naast elk plaatje. Bedenk twee woorden die erop rijmen en schrijf er één op elke lijn."
+    }
+  }
+}

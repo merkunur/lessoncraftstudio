@@ -1,0 +1,1171 @@
+{
+  "head": "Werkwoorden in de tegenwoordige tijd",
+  "mode": "persons",
+  "band": "G2",
+  "exemplar": "tt",
+  "columns": [
+    {
+      "key": "ik",
+      "label": "ik"
+    },
+    {
+      "key": "jij",
+      "label": "jij"
+    },
+    {
+      "key": "hij",
+      "label": "hij / zij"
+    },
+    {
+      "key": "wij",
+      "label": "wij"
+    },
+    {
+      "key": "jullie",
+      "label": "jullie"
+    },
+    {
+      "key": "zij",
+      "label": "zij (mv)"
+    }
+  ],
+  "units": [
+    {
+      "key": "tt",
+      "kind": "tense",
+      "label": "tegenwoordige tijd",
+      "band": "G2"
+    }
+  ],
+  "poolMap": {},
+  "matchPersons": [
+    "ik",
+    "jij",
+    "wij"
+  ],
+  "verbs": [
+    {
+      "inf": "rennen",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "running"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "ren",
+          "jij": "rent",
+          "hij": "rent",
+          "wij": "rennen",
+          "jullie": "rennen",
+          "zij": "rennen"
+        }
+      }
+    },
+    {
+      "inf": "lezen",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "reading"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "lees",
+          "jij": "leest",
+          "hij": "leest",
+          "wij": "lezen",
+          "jullie": "lezen",
+          "zij": "lezen"
+        }
+      }
+    },
+    {
+      "inf": "springen",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "jumping"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "spring",
+          "jij": "springt",
+          "hij": "springt",
+          "wij": "springen",
+          "jullie": "springen",
+          "zij": "springen"
+        }
+      }
+    },
+    {
+      "inf": "dansen",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": {
+        "theme": "activities",
+        "noun": "dancing"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "dans",
+          "jij": "danst",
+          "hij": "danst",
+          "wij": "dansen",
+          "jullie": "dansen",
+          "zij": "dansen"
+        }
+      }
+    },
+    {
+      "inf": "wandelen",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": {
+        "theme": "activities",
+        "noun": "hiking"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "wandel",
+          "jij": "wandelt",
+          "hij": "wandelt",
+          "wij": "wandelen",
+          "jullie": "wandelen",
+          "zij": "wandelen"
+        }
+      }
+    },
+    {
+      "inf": "zingen",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "occupations",
+        "noun": "singer"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "zing",
+          "jij": "zingt",
+          "hij": "zingt",
+          "wij": "zingen",
+          "jullie": "zingen",
+          "zij": "zingen"
+        }
+      }
+    },
+    {
+      "inf": "bakken",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": {
+        "theme": "activities",
+        "noun": "baking"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "bak",
+          "jij": "bakt",
+          "hij": "bakt",
+          "wij": "bakken",
+          "jullie": "bakken",
+          "zij": "bakken"
+        }
+      }
+    },
+    {
+      "inf": "lopen",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "loop",
+          "jij": "loopt",
+          "hij": "loopt",
+          "wij": "lopen",
+          "jullie": "lopen",
+          "zij": "lopen"
+        }
+      }
+    },
+    {
+      "inf": "slapen",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "slaap",
+          "jij": "slaapt",
+          "hij": "slaapt",
+          "wij": "slapen",
+          "jullie": "slapen",
+          "zij": "slapen"
+        }
+      }
+    },
+    {
+      "inf": "eten",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": false,
+      "forms": {
+        "tt": {
+          "ik": "eet",
+          "jij": "eet",
+          "hij": "eet",
+          "wij": "eten",
+          "jullie": "eten",
+          "zij": "eten"
+        }
+      }
+    },
+    {
+      "inf": "zwemmen",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "zwem",
+          "jij": "zwemt",
+          "hij": "zwemt",
+          "wij": "zwemmen",
+          "jullie": "zwemmen",
+          "zij": "zwemmen"
+        }
+      }
+    },
+    {
+      "inf": "spelen",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "speel",
+          "jij": "speelt",
+          "hij": "speelt",
+          "wij": "spelen",
+          "jullie": "spelen",
+          "zij": "spelen"
+        }
+      }
+    },
+    {
+      "inf": "huppelen",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "huppel",
+          "jij": "huppelt",
+          "hij": "huppelt",
+          "wij": "huppelen",
+          "jullie": "huppelen",
+          "zij": "huppelen"
+        }
+      }
+    },
+    {
+      "inf": "zitten",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": false,
+      "forms": {
+        "tt": {
+          "ik": "zit",
+          "jij": "zit",
+          "hij": "zit",
+          "wij": "zitten",
+          "jullie": "zitten",
+          "zij": "zitten"
+        }
+      }
+    },
+    {
+      "inf": "drinken",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "drink",
+          "jij": "drinkt",
+          "hij": "drinkt",
+          "wij": "drinken",
+          "jullie": "drinken",
+          "zij": "drinken"
+        }
+      }
+    },
+    {
+      "inf": "klimmen",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "klim",
+          "jij": "klimt",
+          "hij": "klimt",
+          "wij": "klimmen",
+          "jullie": "klimmen",
+          "zij": "klimmen"
+        }
+      }
+    },
+    {
+      "inf": "lachen",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "lach",
+          "jij": "lacht",
+          "hij": "lacht",
+          "wij": "lachen",
+          "jullie": "lachen",
+          "zij": "lachen"
+        }
+      }
+    },
+    {
+      "inf": "tekenen",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "teken",
+          "jij": "tekent",
+          "hij": "tekent",
+          "wij": "tekenen",
+          "jullie": "tekenen",
+          "zij": "tekenen"
+        }
+      }
+    },
+    {
+      "inf": "wassen",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "was",
+          "jij": "wast",
+          "hij": "wast",
+          "wij": "wassen",
+          "jullie": "wassen",
+          "zij": "wassen"
+        }
+      }
+    },
+    {
+      "inf": "duwen",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "duw",
+          "jij": "duwt",
+          "hij": "duwt",
+          "wij": "duwen",
+          "jullie": "duwen",
+          "zij": "duwen"
+        }
+      }
+    },
+    {
+      "inf": "trekken",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "trek",
+          "jij": "trekt",
+          "hij": "trekt",
+          "wij": "trekken",
+          "jullie": "trekken",
+          "zij": "trekken"
+        }
+      }
+    },
+    {
+      "inf": "gooien",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "gooi",
+          "jij": "gooit",
+          "hij": "gooit",
+          "wij": "gooien",
+          "jullie": "gooien",
+          "zij": "gooien"
+        }
+      }
+    },
+    {
+      "inf": "vangen",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "vang",
+          "jij": "vangt",
+          "hij": "vangt",
+          "wij": "vangen",
+          "jullie": "vangen",
+          "zij": "vangen"
+        }
+      }
+    },
+    {
+      "inf": "zoeken",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "zoek",
+          "jij": "zoekt",
+          "hij": "zoekt",
+          "wij": "zoeken",
+          "jullie": "zoeken",
+          "zij": "zoeken"
+        }
+      }
+    },
+    {
+      "inf": "bouwen",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "bouw",
+          "jij": "bouwt",
+          "hij": "bouwt",
+          "wij": "bouwen",
+          "jullie": "bouwen",
+          "zij": "bouwen"
+        }
+      }
+    },
+    {
+      "inf": "fluisteren",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "fluister",
+          "jij": "fluistert",
+          "hij": "fluistert",
+          "wij": "fluisteren",
+          "jullie": "fluisteren",
+          "zij": "fluisteren"
+        }
+      }
+    },
+    {
+      "inf": "giechelen",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "giechel",
+          "jij": "giechelt",
+          "hij": "giechelt",
+          "wij": "giechelen",
+          "jullie": "giechelen",
+          "zij": "giechelen"
+        }
+      }
+    },
+    {
+      "inf": "verzamelen",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "verzamel",
+          "jij": "verzamelt",
+          "hij": "verzamelt",
+          "wij": "verzamelen",
+          "jullie": "verzamelen",
+          "zij": "verzamelen"
+        }
+      }
+    },
+    {
+      "inf": "luisteren",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "luister",
+          "jij": "luistert",
+          "hij": "luistert",
+          "wij": "luisteren",
+          "jullie": "luisteren",
+          "zij": "luisteren"
+        }
+      }
+    },
+    {
+      "inf": "dragen",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "draag",
+          "jij": "draagt",
+          "hij": "draagt",
+          "wij": "dragen",
+          "jullie": "dragen",
+          "zij": "dragen"
+        }
+      }
+    },
+    {
+      "inf": "roepen",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "roep",
+          "jij": "roept",
+          "hij": "roept",
+          "wij": "roepen",
+          "jullie": "roepen",
+          "zij": "roepen"
+        }
+      }
+    },
+    {
+      "inf": "verstoppen",
+      "group": "regular",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "match": true,
+      "forms": {
+        "tt": {
+          "ik": "verstop",
+          "jij": "verstopt",
+          "hij": "verstopt",
+          "wij": "verstoppen",
+          "jullie": "verstoppen",
+          "zij": "verstoppen"
+        }
+      }
+    }
+  ],
+  "irregularCore": [
+    {
+      "inf": "zijn",
+      "pic": null,
+      "forms": {
+        "tt": {
+          "ik": "ben",
+          "jij": "bent",
+          "hij": "is",
+          "wij": "zijn",
+          "jullie": "zijn",
+          "zij": "zijn"
+        }
+      }
+    },
+    {
+      "inf": "hebben",
+      "pic": null,
+      "forms": {
+        "tt": {
+          "ik": "heb",
+          "jij": "hebt",
+          "hij": "heeft",
+          "wij": "hebben",
+          "jullie": "hebben",
+          "zij": "hebben"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "Elke dag {form} Emma in het park.",
+      "col": "hij",
+      "unit": "tt",
+      "fits": [
+        "rennen",
+        "springen",
+        "dansen",
+        "zingen",
+        "spelen",
+        "wandelen",
+        "huppelen",
+        "lopen"
+      ],
+      "subjectLiteral": "Emma",
+      "pic": null
+    },
+    {
+      "id": "f02",
+      "text": "Daan {form} vandaag met zijn zus.",
+      "col": "hij",
+      "unit": "tt",
+      "fits": [
+        "spelen",
+        "lezen",
+        "zwemmen",
+        "rennen",
+        "dansen",
+        "zingen",
+        "tekenen",
+        "springen",
+        "bakken"
+      ],
+      "subjectLiteral": "Daan",
+      "pic": null
+    },
+    {
+      "id": "f03",
+      "text": "Julia {form} elke middag.",
+      "col": "hij",
+      "unit": "tt",
+      "fits": [
+        "lezen",
+        "zwemmen",
+        "spelen",
+        "dansen",
+        "zingen",
+        "tekenen",
+        "rennen",
+        "slapen",
+        "bakken"
+      ],
+      "subjectLiteral": "Julia",
+      "pic": null
+    },
+    {
+      "id": "f04",
+      "text": "Na school {form} Sem thuis.",
+      "col": "hij",
+      "unit": "tt",
+      "fits": [
+        "lezen",
+        "tekenen",
+        "spelen",
+        "slapen",
+        "zingen",
+        "dansen",
+        "bouwen",
+        "bakken"
+      ],
+      "subjectLiteral": "Sem",
+      "pic": null
+    },
+    {
+      "id": "f05",
+      "text": "Op maandag {form} Tess bij de club.",
+      "col": "hij",
+      "unit": "tt",
+      "fits": [
+        "zwemmen",
+        "dansen",
+        "zingen",
+        "rennen",
+        "springen",
+        "klimmen"
+      ],
+      "subjectLiteral": "Tess",
+      "pic": null
+    },
+    {
+      "id": "f06",
+      "text": "Finn {form} de grote doos elke keer.",
+      "col": "hij",
+      "unit": "tt",
+      "fits": [
+        "duwen",
+        "trekken",
+        "dragen",
+        "verstoppen",
+        "zoeken"
+      ],
+      "subjectLiteral": "Finn",
+      "pic": null
+    },
+    {
+      "id": "f07",
+      "text": "Lotte {form} vandaag in de tuin.",
+      "col": "hij",
+      "unit": "tt",
+      "fits": [
+        "rennen",
+        "springen",
+        "spelen",
+        "dansen",
+        "lezen",
+        "zingen",
+        "wandelen",
+        "tekenen",
+        "huppelen"
+      ],
+      "subjectLiteral": "Lotte",
+      "pic": null
+    },
+    {
+      "id": "f08",
+      "text": "Luuk {form} elke week in het zwembad.",
+      "col": "hij",
+      "unit": "tt",
+      "fits": [
+        "zwemmen",
+        "springen",
+        "spelen"
+      ],
+      "subjectLiteral": "Luuk",
+      "pic": null
+    },
+    {
+      "id": "f09",
+      "text": "Ik {form} elke ochtend een liedje.",
+      "col": "ik",
+      "unit": "tt",
+      "fits": [
+        "zingen",
+        "fluisteren"
+      ],
+      "subjectLiteral": "Ik",
+      "pic": null
+    },
+    {
+      "id": "f10",
+      "text": "Ik {form} graag met mijn vriend.",
+      "col": "ik",
+      "unit": "tt",
+      "fits": [
+        "spelen",
+        "lezen",
+        "zwemmen",
+        "rennen",
+        "dansen",
+        "zingen",
+        "tekenen",
+        "wandelen",
+        "bouwen",
+        "bakken",
+        "lachen"
+      ],
+      "subjectLiteral": "Ik",
+      "pic": null
+    },
+    {
+      "id": "f11",
+      "text": "Jij {form} de bal naar mij.",
+      "col": "jij",
+      "unit": "tt",
+      "fits": [
+        "gooien",
+        "duwen",
+        "trekken"
+      ],
+      "subjectLiteral": "Jij",
+      "pic": null
+    },
+    {
+      "id": "f12",
+      "text": "Jij {form} heel hard om de grap.",
+      "col": "jij",
+      "unit": "tt",
+      "fits": [
+        "lachen",
+        "giechelen"
+      ],
+      "subjectLiteral": "Jij",
+      "pic": null
+    },
+    {
+      "id": "f13",
+      "text": "Wij {form} samen een hoge toren.",
+      "col": "wij",
+      "unit": "tt",
+      "fits": [
+        "bouwen",
+        "tekenen"
+      ],
+      "subjectLiteral": "Wij",
+      "pic": null
+    },
+    {
+      "id": "f14",
+      "text": "Wij {form} in het bos.",
+      "col": "wij",
+      "unit": "tt",
+      "fits": [
+        "wandelen",
+        "rennen",
+        "spelen",
+        "klimmen",
+        "zoeken",
+        "verstoppen",
+        "zingen"
+      ],
+      "subjectLiteral": "Wij",
+      "pic": null
+    },
+    {
+      "id": "f15",
+      "text": "Jullie {form} naar de juf.",
+      "col": "jullie",
+      "unit": "tt",
+      "fits": [
+        "luisteren",
+        "roepen",
+        "lachen"
+      ],
+      "subjectLiteral": "Jullie",
+      "pic": null
+    },
+    {
+      "id": "f16",
+      "text": "Emma en Daan {form} in de zee.",
+      "col": "zij",
+      "unit": "tt",
+      "fits": [
+        "zwemmen",
+        "spelen",
+        "springen"
+      ],
+      "subjectLiteral": "Emma en Daan",
+      "pic": null
+    },
+    {
+      "id": "f17",
+      "text": "Tess en Finn {form} de bal.",
+      "col": "zij",
+      "unit": "tt",
+      "fits": [
+        "gooien",
+        "vangen",
+        "zoeken",
+        "verstoppen",
+        "dragen"
+      ],
+      "subjectLiteral": "Tess en Finn",
+      "pic": null
+    },
+    {
+      "id": "f18",
+      "text": "Vandaag {form} Emma thuis.",
+      "col": "hij",
+      "unit": "tt",
+      "fits": [
+        "zijn",
+        "slapen",
+        "spelen",
+        "tekenen",
+        "lezen"
+      ],
+      "subjectLiteral": "Emma",
+      "pic": null
+    },
+    {
+      "id": "f19",
+      "text": "Daan {form} een rode fiets.",
+      "col": "hij",
+      "unit": "tt",
+      "fits": [
+        "hebben",
+        "duwen",
+        "trekken",
+        "wassen",
+        "verstoppen",
+        "zoeken"
+      ],
+      "subjectLiteral": "Daan",
+      "pic": null
+    },
+    {
+      "id": "f20",
+      "text": "Ik {form} acht jaar oud.",
+      "col": "ik",
+      "unit": "tt",
+      "fits": [
+        "zijn"
+      ],
+      "subjectLiteral": "Ik",
+      "pic": null
+    },
+    {
+      "id": "f21",
+      "text": "Jij {form} een leuke hond.",
+      "col": "jij",
+      "unit": "tt",
+      "fits": [
+        "hebben"
+      ],
+      "subjectLiteral": "Jij",
+      "pic": null
+    },
+    {
+      "id": "f22",
+      "text": "Wij {form} vandaag in de klas.",
+      "col": "wij",
+      "unit": "tt",
+      "fits": [
+        "zijn",
+        "lezen",
+        "zingen",
+        "tekenen",
+        "luisteren",
+        "fluisteren"
+      ],
+      "subjectLiteral": "Wij",
+      "pic": null
+    },
+    {
+      "id": "f23",
+      "text": "Julia en Sem {form} een nieuwe bal.",
+      "col": "zij",
+      "unit": "tt",
+      "fits": [
+        "hebben",
+        "zoeken",
+        "gooien",
+        "vangen",
+        "dragen"
+      ],
+      "subjectLiteral": "Julia en Sem",
+      "pic": null
+    },
+    {
+      "id": "f24",
+      "text": "Jullie {form} morgen jarig.",
+      "col": "jullie",
+      "unit": "tt",
+      "fits": [
+        "zijn"
+      ],
+      "subjectLiteral": "Jullie",
+      "pic": null
+    }
+  ],
+  "hunt": {
+    "nounHomographs": [
+      "dans",
+      "bak",
+      "teken",
+      "trek",
+      "duw",
+      "roep",
+      "lach",
+      "slaap"
+    ]
+  },
+  "strings": {
+    "G2-317": {
+      "title": "Werkwoorden in de tegenwoordige tijd: ik, jij, hij, wij",
+      "instruction": "Kijk naar het plaatje en lees het werkwoord. Schrijf de vormen bij ik, jij, hij en wij in de stippelvakjes en maak daarna de zinnen af."
+    },
+    "F2": {
+      "title": "Welke vorm hoort bij ik, jij en wij?",
+      "instruction": "Lees elk werkwoord links. Trek een lijn naar de vorm rechts die erbij hoort, één lijn per werkwoord."
+    },
+    "F3": {
+      "title": "Werkwoordsvormen in zinnen met plaatjes",
+      "instruction": "Kijk naar het plaatje en lees het werkwoord in het vakje. Schrijf de vorm die in de zin past in het stippelvakje."
+    },
+    "F4": {
+      "title": "Zijn en hebben: de vormen van ik tot zij",
+      "instruction": "Deze werkwoorden veranderen veel. Schrijf bij elke persoon de goede vorm in de stippelvakjes."
+    },
+    "F5": {
+      "title": "Kies de goede werkwoordsvorm",
+      "instruction": "Lees de zin. Onder de zin staan drie vormen van het werkwoord. Omcirkel de vorm die past."
+    },
+    "F6": {
+      "title": "Zoek het werkwoord en schrijf het hele werkwoord",
+      "instruction": "Onderstreep het werkwoord in elke zin. Schrijf daarna het hele werkwoord in het stippelvakje."
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "labels": {
+    "nameIs": "Ik heet",
+    "age": {
+      "pre": "Ik ben",
+      "post": "jaar",
+      "glue": false
+    },
+    "thisIsMe": "Dit ben ik",
+    "family": "Mijn gezin",
+    "familyDraw": "Teken je gezin",
+    "drawFace": "Teken nu je eigen gezicht",
+    "school": "Mijn school is",
+    "favHeading": {
+      "animal": "Mijn lievelingsdier",
+      "food": "Mijn lievelingseten",
+      "color": "Mijn lievelingskleur",
+      "toy": "Mijn lievelingsspeelgoed"
+    },
+    "countHeads": {
+      "people": "Mensen in mijn gezin:",
+      "brothers": "Broers:",
+      "sisters": "Zussen:",
+      "pets": "Huisdieren:"
+    },
+    "wantLearn": "Ik wil nog leren",
+    "myName": "Mijn naam",
+    "friendName": "De naam van mijn vriend of vriendin",
+    "oneLetterPerBox": "Schrijf één letter in elk hokje",
+    "lettersCount": "Letters in mijn naam:",
+    "firstLetter": "De eerste letter van mijn naam:",
+    "whoHasMore": {
+      "question": "Wie heeft meer letters?",
+      "me": "ik",
+      "friend": "mijn vriend"
+    }
+  },
+  "faceWords": {
+    "eye": "oog",
+    "ear": "oor",
+    "nose": "neus",
+    "mouth": "mond",
+    "hair": "haar",
+    "eyebrow": "wenkbrauw",
+    "chin": "kin"
+  },
+  "can": {
+    "swim": "Ik kan zwemmen",
+    "run": "Ik kan rennen",
+    "skip": "Ik kan touwtjespringen",
+    "bike": "Ik kan fietsen",
+    "read": "Ik kan een boek lezen",
+    "soccer": "Ik kan tegen een bal schoppen",
+    "puzzle": "Ik kan een puzzel maken",
+    "paint": "Ik kan een tekening verven",
+    "sing": "Ik kan een liedje zingen",
+    "skate": "Ik kan schaatsen",
+    "ski": "Ik kan skiën",
+    "writename": "Ik kan mijn naam schrijven",
+    "brushteeth": "Ik kan mijn tanden poetsen"
+  },
+  "refuse": [],
+  "optionWords": {
+    "cat": "kat",
+    "dog": "hond",
+    "fish": "vis",
+    "horse": "paard",
+    "rabbit": "konijn",
+    "duck": "eend",
+    "pig": "varken",
+    "sheep": "schaap",
+    "elephant": "olifant",
+    "giraffe": "giraffe",
+    "penguin": "pinguïn",
+    "tiger": "tijger",
+    "apple": "appel",
+    "banana": "banaan",
+    "bread": "brood",
+    "cheese": "kaas",
+    "pizza": "pizza",
+    "carrot": "wortel",
+    "strawberry": "aardbei",
+    "cookie": "koekje",
+    "pasta": "pasta",
+    "milk": "melk",
+    "grapes": "druiven",
+    "cake": "taart",
+    "ball": "bal",
+    "doll": "pop",
+    "car": "auto",
+    "train": "trein",
+    "kite": "vlieger",
+    "blocks": "blokken",
+    "robot": "robot",
+    "balloon": "ballon",
+    "dinosaur": "dinosaurus",
+    "boat": "boot"
+  },
+  "strings": {
+    "K-323": {
+      "title": "Dit ben ik",
+      "instruction": "Schrijf je naam en je leeftijd, teken jezelf en je gezin en teken daarna je drie lievelingsdingen."
+    },
+    "K-342": {
+      "title": "Mijn lievelingsdingen: omcirkel en schrijf",
+      "instruction": "Omcirkel in elke rij je lievelingsplaatje en schrijf het woord over op de lijn."
+    },
+    "K-343": {
+      "title": "Mijn gezin: teken en tel",
+      "instruction": "Teken je gezin. Laat dan in de tienvelden zien hoeveel mensen, broers, zussen en huisdieren er zijn en schrijf het getal."
+    },
+    "K-344": {
+      "title": "Dit is mijn gezicht: schrijf de woorden erbij",
+      "instruction": "Schrijf elk woord uit de woordenbank over op de lijn die naar dat deel van het gezicht wijst. Teken daarna je eigen gezicht."
+    },
+    "K-345": {
+      "title": "Ik kan: zet een vinkje bij wat je al kunt",
+      "instruction": "Lees elke zin en zet een vinkje bij de dingen die je al kunt. Schrijf daarna één ding dat je nog wilt leren."
+    },
+    "K-346": {
+      "title": "Mijn naam: schrijf, tel en vergelijk",
+      "instruction": "Schrijf je naam met één letter per hokje en tel de letters. Doe hetzelfde voor een vriend of vriendin en omcirkel wie er meer letters heeft."
+    }
+  }
+}

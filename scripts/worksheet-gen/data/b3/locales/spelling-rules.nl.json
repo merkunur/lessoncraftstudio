@@ -1,0 +1,1322 @@
+{
+  "head": "Spellingregels",
+  "exemplar": "d-t",
+  "capital": "lower",
+  "pool": "approved-full",
+  "exclude": {
+    "re": "saurus$",
+    "why": "dinosaurusnamen zijn geen spellingwoorden voor groep 4 (de -saurus-familie, ontwerp paragraaf 4)"
+  },
+  "rules": {
+    "d-t": {
+      "id": "d-t",
+      "head": "d of t aan het eind: verlengen",
+      "chip": "d t",
+      "band": "G2",
+      "gap": {
+        "kind": "regex",
+        "re": "[dt]$",
+        "boxes": "wide"
+      },
+      "cands": [
+        "d",
+        "t"
+      ],
+      "pair": [
+        "d",
+        "t"
+      ],
+      "pairHead": "d of t",
+      "proof": null,
+      "models": [
+        {
+          "vocabKey": "dog",
+          "theme": "animals",
+          "noun": "dog",
+          "word": "hond",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "d"
+        },
+        {
+          "vocabKey": "cat",
+          "theme": "animals",
+          "noun": "cat",
+          "word": "kat",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "t"
+        },
+        {
+          "vocabKey": "hat",
+          "theme": "accessories",
+          "noun": "hat",
+          "word": "hoed",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "d"
+        }
+      ],
+      "items": [
+        {
+          "theme": "At the Supermarket",
+          "noun": "basket",
+          "vocabKey": "basket",
+          "word": "mand",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "d",
+          "side": "rule",
+          "plural": "manden",
+          "pluralGap": null
+        },
+        {
+          "theme": "summer",
+          "noun": "beach",
+          "vocabKey": "beach",
+          "word": "strand",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "d",
+          "side": "rule",
+          "plural": "stranden",
+          "pluralGap": null
+        },
+        {
+          "theme": "furniture",
+          "noun": "bed",
+          "vocabKey": "bed",
+          "word": "bed",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "d",
+          "side": "rule",
+          "plural": "bedden",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "bread",
+          "vocabKey": "bread",
+          "word": "brood",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "d",
+          "side": "rule",
+          "plural": "broden",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "duck",
+          "vocabKey": "duck",
+          "word": "eend",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "d",
+          "side": "rule",
+          "plural": "eenden",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "hand",
+          "vocabKey": "hand",
+          "word": "hand",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "d",
+          "side": "rule",
+          "plural": "handen",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "head",
+          "vocabKey": "head",
+          "word": "hoofd",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "d",
+          "side": "rule",
+          "plural": "hoofden",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "horse",
+          "vocabKey": "horse",
+          "word": "paard",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "d",
+          "side": "rule",
+          "plural": "paarden",
+          "pluralGap": null
+        },
+        {
+          "theme": "spring",
+          "noun": "leaf",
+          "vocabKey": "leaf",
+          "word": "blad",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "d",
+          "side": "rule",
+          "plural": "bladeren",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "mouth",
+          "vocabKey": "mouth",
+          "word": "mond",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "d",
+          "side": "rule",
+          "plural": "monden",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "plate",
+          "vocabKey": "plate",
+          "word": "bord",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "d",
+          "side": "rule",
+          "plural": "borden",
+          "pluralGap": null
+        },
+        {
+          "theme": "summer",
+          "noun": "sand",
+          "vocabKey": "sand",
+          "word": "zand",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "d",
+          "side": "rule",
+          "plural": "zand",
+          "pluralGap": null
+        },
+        {
+          "theme": "ocean life",
+          "noun": "seal",
+          "vocabKey": "seal",
+          "word": "zeehond",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 1
+            }
+          ],
+          "g": "d",
+          "side": "rule",
+          "plural": "zeehonden",
+          "pluralGap": null
+        },
+        {
+          "theme": "classroom",
+          "noun": "pencil",
+          "vocabKey": "pencil",
+          "word": "potlood",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 1
+            }
+          ],
+          "g": "d",
+          "side": "rule",
+          "plural": "potloden",
+          "pluralGap": null
+        },
+        {
+          "theme": "furniture",
+          "noun": "rug",
+          "vocabKey": "rug",
+          "word": "kleed",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "d",
+          "side": "rule",
+          "plural": "kleden",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "tooth",
+          "vocabKey": "tooth",
+          "word": "tand",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "d",
+          "side": "rule",
+          "plural": "tanden",
+          "pluralGap": null
+        },
+        {
+          "theme": "animals",
+          "noun": "turtle",
+          "vocabKey": "turtle",
+          "word": "schildpad",
+          "gaps": [
+            {
+              "from": 8,
+              "len": 1
+            }
+          ],
+          "g": "d",
+          "side": "rule",
+          "plural": "schildpadden",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "bracelet",
+          "vocabKey": "bracelet",
+          "word": "armband",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 1
+            }
+          ],
+          "g": "d",
+          "side": "rule",
+          "plural": "armbanden",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "island",
+          "vocabKey": "island",
+          "word": "eiland",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "d",
+          "side": "rule",
+          "plural": "eilanden",
+          "pluralGap": null
+        },
+        {
+          "theme": "summer",
+          "noun": "pool",
+          "vocabKey": "pool",
+          "word": "zwembad",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 1
+            }
+          ],
+          "g": "d",
+          "side": "rule",
+          "plural": "zwembaden",
+          "pluralGap": null
+        },
+        {
+          "theme": "vehicles",
+          "noun": "boat",
+          "vocabKey": "boat",
+          "word": "boot",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "boten",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "cabin",
+          "vocabKey": "cabin",
+          "word": "hut",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "hutten",
+          "pluralGap": null
+        },
+        {
+          "theme": "furniture",
+          "noun": "cabinet",
+          "vocabKey": "cabinet",
+          "word": "kast",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "kasten",
+          "pluralGap": null
+        },
+        {
+          "theme": "bakery",
+          "noun": "cake",
+          "vocabKey": "cake",
+          "word": "taart",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "taarten",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "cap",
+          "vocabKey": "cap",
+          "word": "pet",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "petten",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "vest",
+          "vocabKey": "vest",
+          "word": "vest",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "vesten",
+          "pluralGap": null
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "deer",
+          "vocabKey": "deer",
+          "word": "hert",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "herten",
+          "pluralGap": null
+        },
+        {
+          "theme": "music",
+          "noun": "flute",
+          "vocabKey": "flute",
+          "word": "fluit",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "fluiten",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "foot",
+          "vocabKey": "foot",
+          "word": "voet",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "voeten",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "gate",
+          "vocabKey": "gate",
+          "word": "poort",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "poorten",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "goat",
+          "vocabKey": "goat",
+          "word": "geit",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "geiten",
+          "pluralGap": null
+        },
+        {
+          "theme": "shapes",
+          "noun": "heart",
+          "vocabKey": "heart",
+          "word": "hart",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "harten",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "pot",
+          "vocabKey": "pot",
+          "word": "pot",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "potten",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "lock",
+          "vocabKey": "lock",
+          "word": "slot",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "sloten",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "net",
+          "vocabKey": "net",
+          "word": "net",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "netten",
+          "pluralGap": null
+        },
+        {
+          "theme": "spring",
+          "noun": "nest",
+          "vocabKey": "nest",
+          "word": "nest",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "nesten",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "tent",
+          "vocabKey": "tent",
+          "word": "tent",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "tenten",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "sausage",
+          "vocabKey": "sausage",
+          "word": "worst",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "worsten",
+          "pluralGap": null
+        },
+        {
+          "theme": "vegetables",
+          "noun": "tomato",
+          "vocabKey": "tomato",
+          "word": "tomaat",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "tomaten",
+          "pluralGap": null
+        },
+        {
+          "theme": "space",
+          "noun": "rocket",
+          "vocabKey": "rocket",
+          "word": "raket",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "raketten",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "ribbon",
+          "vocabKey": "ribbon",
+          "word": "lint",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "linten",
+          "pluralGap": null
+        },
+        {
+          "theme": "music",
+          "noun": "trumpet",
+          "vocabKey": "trumpet",
+          "word": "trompet",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "trompetten",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "map",
+          "vocabKey": "map",
+          "word": "kaart",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "kaarten",
+          "pluralGap": null
+        },
+        {
+          "theme": "classroom",
+          "noun": "marker",
+          "vocabKey": "marker",
+          "word": "stift",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "stiften",
+          "pluralGap": null
+        }
+      ],
+      "foils": [
+        {
+          "theme": "toys",
+          "noun": "ball",
+          "vocabKey": "ball",
+          "word": "bal"
+        },
+        {
+          "theme": "ocean life",
+          "noun": "fish",
+          "vocabKey": "fish",
+          "word": "vis"
+        },
+        {
+          "theme": "beach",
+          "noun": "sun",
+          "vocabKey": "sun",
+          "word": "zon"
+        },
+        {
+          "theme": "farm animals",
+          "noun": "chicken",
+          "vocabKey": "chicken",
+          "word": "kip"
+        },
+        {
+          "theme": "christmas",
+          "noun": "bell",
+          "vocabKey": "bell",
+          "word": "bel"
+        },
+        {
+          "theme": "animals",
+          "noun": "fox",
+          "vocabKey": "fox",
+          "word": "vos"
+        },
+        {
+          "theme": "accessories",
+          "noun": "sock",
+          "vocabKey": "sock",
+          "word": "sok"
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "mug",
+          "vocabKey": "mug",
+          "word": "mok"
+        }
+      ],
+      "refuse": {},
+      "note": "verlengen: hoor je een t aan het eind, maak het woord langer (hond - honden); de regelkant is de d, de contrastkant de t; dieren, lichaamsdelen en huis-woorden uit de hele bibliotheek"
+    },
+    "ei-ij": {
+      "id": "ei-ij",
+      "head": "korte ei of lange ij",
+      "chip": "ei ij",
+      "band": "G2",
+      "gap": {
+        "kind": "regex",
+        "re": "ei|ij",
+        "boxes": "wide"
+      },
+      "cands": [
+        "ei",
+        "ij"
+      ],
+      "pair": [
+        "ij",
+        "ei"
+      ],
+      "pairHead": "ei of ij",
+      "proof": null,
+      "models": [
+        {
+          "vocabKey": "rabbit",
+          "theme": "farm animals",
+          "noun": "rabbit",
+          "word": "konijn",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ij"
+        },
+        {
+          "vocabKey": "train",
+          "theme": "vehicles",
+          "noun": "train",
+          "word": "trein",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ei"
+        },
+        {
+          "vocabKey": "glue",
+          "theme": "classroom",
+          "noun": "glue",
+          "word": "lijm",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 2
+            }
+          ],
+          "g": "ij"
+        }
+      ],
+      "items": [
+        {
+          "theme": "farm animals",
+          "noun": "bee",
+          "vocabKey": "bee",
+          "word": "bij",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 2
+            }
+          ],
+          "g": "ij",
+          "side": "rule",
+          "plural": "bijen",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "carpet",
+          "vocabKey": "carpet",
+          "word": "tapijt",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ij",
+          "side": "rule",
+          "plural": "tapijten",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "curtains",
+          "vocabKey": "curtains",
+          "word": "gordijnen",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "ij",
+          "side": "rule",
+          "plural": "gordijnen",
+          "pluralGap": null
+        },
+        {
+          "theme": "ocean life",
+          "noun": "dolphin",
+          "vocabKey": "dolphin",
+          "word": "dolfijn",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "ij",
+          "side": "rule",
+          "plural": "dolfijnen",
+          "pluralGap": null
+        },
+        {
+          "theme": "fruits",
+          "noun": "fig",
+          "vocabKey": "fig",
+          "word": "vijg",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 2
+            }
+          ],
+          "g": "ij",
+          "side": "rule",
+          "plural": "vijgen",
+          "pluralGap": null
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "hippopotamus",
+          "vocabKey": "hippopotamus",
+          "word": "nijlpaard",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 2
+            }
+          ],
+          "g": "ij",
+          "side": "rule",
+          "plural": "nijlpaarden",
+          "pluralGap": null
+        },
+        {
+          "theme": "vegetables",
+          "noun": "radish",
+          "vocabKey": "radish",
+          "word": "radijs",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ij",
+          "side": "rule",
+          "plural": "radijzen",
+          "pluralGap": null
+        },
+        {
+          "theme": "toys",
+          "noun": "slide",
+          "vocabKey": "slide",
+          "word": "glijbaan",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ij",
+          "side": "rule",
+          "plural": "glijbanen",
+          "pluralGap": null
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "tiger",
+          "vocabKey": "tiger",
+          "word": "tijger",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 2
+            }
+          ],
+          "g": "ij",
+          "side": "rule",
+          "plural": "tijgers",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "jeans",
+          "vocabKey": "jeans",
+          "word": "spijkerbroek",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ij",
+          "side": "rule",
+          "plural": "spijkerbroeken",
+          "pluralGap": null
+        },
+        {
+          "theme": "hospital",
+          "noun": "medicine",
+          "vocabKey": "medicine",
+          "word": "medicijn",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "ij",
+          "side": "rule",
+          "plural": "medicijnen",
+          "pluralGap": null
+        },
+        {
+          "theme": "vegetables",
+          "noun": "celery",
+          "vocabKey": "celery",
+          "word": "selderij",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 2
+            }
+          ],
+          "g": "ij",
+          "side": "rule",
+          "plural": "selderij",
+          "pluralGap": null
+        },
+        {
+          "theme": "desserts and sweets",
+          "noun": "popsicle",
+          "vocabKey": "popsicle",
+          "word": "ijslolly",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "ij",
+          "side": "rule",
+          "plural": "ijslolly's",
+          "pluralGap": null
+        },
+        {
+          "theme": "miscellaneous",
+          "noun": "acorn",
+          "vocabKey": "acorn",
+          "word": "eikel",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "ei",
+          "side": "contrast",
+          "plural": "eikels",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "egg",
+          "vocabKey": "egg",
+          "word": "ei",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "ei",
+          "side": "contrast",
+          "plural": "eieren",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "goat",
+          "vocabKey": "goat",
+          "word": "geit",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 2
+            }
+          ],
+          "g": "ei",
+          "side": "contrast",
+          "plural": "geiten",
+          "pluralGap": null
+        },
+        {
+          "theme": "birds 2",
+          "noun": "heron",
+          "vocabKey": "heron",
+          "word": "reiger",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 2
+            }
+          ],
+          "g": "ei",
+          "side": "contrast",
+          "plural": "reigers",
+          "pluralGap": null
+        },
+        {
+          "theme": "vegetables",
+          "noun": "leek",
+          "vocabKey": "leek",
+          "word": "prei",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ei",
+          "side": "contrast",
+          "plural": "preien",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "mop",
+          "vocabKey": "mop",
+          "word": "dweil",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ei",
+          "side": "contrast",
+          "plural": "dweilen",
+          "pluralGap": null
+        },
+        {
+          "theme": "fruits",
+          "noun": "strawberry",
+          "vocabKey": "strawberry",
+          "word": "aardbei",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "ei",
+          "side": "contrast",
+          "plural": "aardbeien",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "island",
+          "vocabKey": "island",
+          "word": "eiland",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "ei",
+          "side": "contrast",
+          "plural": "eilanden",
+          "pluralGap": null
+        },
+        {
+          "theme": "vehicles",
+          "noun": "sailboat",
+          "vocabKey": "sailboat",
+          "word": "zeilboot",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 2
+            }
+          ],
+          "g": "ei",
+          "side": "contrast",
+          "plural": "zeilboten",
+          "pluralGap": null
+        }
+      ],
+      "foils": [
+        {
+          "theme": "animals",
+          "noun": "cat",
+          "vocabKey": "cat",
+          "word": "kat"
+        },
+        {
+          "theme": "toys",
+          "noun": "ball",
+          "vocabKey": "ball",
+          "word": "bal"
+        },
+        {
+          "theme": "ocean life",
+          "noun": "fish",
+          "vocabKey": "fish",
+          "word": "vis"
+        },
+        {
+          "theme": "beach",
+          "noun": "sun",
+          "vocabKey": "sun",
+          "word": "zon"
+        },
+        {
+          "theme": "animals",
+          "noun": "dog",
+          "vocabKey": "dog",
+          "word": "hond"
+        },
+        {
+          "theme": "furniture",
+          "noun": "bed",
+          "vocabKey": "bed",
+          "word": "bed"
+        },
+        {
+          "theme": "accessories",
+          "noun": "hat",
+          "vocabKey": "hat",
+          "word": "hoed"
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "mug",
+          "vocabKey": "mug",
+          "word": "mok"
+        }
+      ],
+      "refuse": {},
+      "note": "de lange ij is de regelkant (konijn, tijger), de korte ei de contrastkant (trein, geit); woorden met twee keer ei/ij (strijkijzer, verrekijker) vallen af; ijs (foto van ijswater) en rijst (een zak) afgekeurd op het plaatje"
+    }
+  },
+  "strings": {
+    "G2-315": {
+      "title": "Spellingregel van de week: {UNIT}",
+      "instruction": "Lees de regel in het kader. Zeg het woord bij elk plaatje en schrijf de ontbrekende letters van de regel in de stippelvakjes."
+    },
+    "G2-324": {
+      "title": "Welke is het? {UNIT}",
+      "instruction": "Kijk naar het plaatje en lees het woord. Omcirkel de goede letters eronder en schrijf ze daarna in het stippelvakje."
+    },
+    "G2-325": {
+      "title": "Spellingdetective: {UNIT}",
+      "instruction": "Lees elk woord. Zoek de letters van de regel, omcirkel ze in het woord en schrijf ze dan over in het kleine vakje."
+    },
+    "G2-326": {
+      "title": "Sorteer op spellingregel: {UNIT}",
+      "instruction": "Zeg het woord bij elk plaatje. Schrijf het in de bak van zijn spelling, één woord per lijn."
+    },
+    "G2-327": {
+      "title": "Schrijf het hele woord: {UNIT}",
+      "instruction": "De letters van de regel staan al in het oranje. Zeg het woord bij het plaatje en schrijf alle andere letters in de hokjes."
+    }
+  }
+}

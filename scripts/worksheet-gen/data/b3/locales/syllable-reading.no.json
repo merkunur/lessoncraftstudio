@@ -968,7 +968,8 @@
     "triceratops",
     "pegasus",
     "dragon",
-    "swimming"
+    "swimming",
+    "weasel"
   ],
   "refuse": {
     "finalMuteE": false
@@ -3541,14 +3542,6 @@
       "split": [
         "bøl",
         "ge"
-      ]
-    },
-    {
-      "key": "weasel",
-      "word": "snømus",
-      "split": [
-        "snø",
-        "mus"
       ]
     },
     {

@@ -1345,18 +1345,18 @@
       "reviewed": true
     },
     "scooter": {
-      "unique": "sparkesykkelen",
-      "all": "alle sparkesyklene",
-      "pl": "sparkesykler",
+      "unique": "mopeden",
+      "all": "alle mopedene",
+      "pl": "mopeder",
       "ord": {
-        "2": "den andre sparkesykkelen",
-        "3": "den tredje sparkesykkelen",
-        "4": "den fjerde sparkesykkelen",
-        "5": "den femte sparkesykkelen"
+        "2": "den andre mopeden",
+        "3": "den tredje mopeden",
+        "4": "den fjerde mopeden",
+        "5": "den femte mopeden"
       },
       "dat": null,
-      "def": "sparkesykkelen",
-      "defPl": "sparkesyklene",
+      "def": "mopeden",
+      "defPl": "mopedene",
       "part": null,
       "gen": null,
       "a2": null,

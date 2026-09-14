@@ -527,22 +527,6 @@
           "pluralGap": null
         },
         {
-          "theme": "beach",
-          "noun": "net",
-          "vocabKey": "net",
-          "word": "nett",
-          "gaps": [
-            {
-              "from": 2,
-              "len": 2
-            }
-          ],
-          "g": "tt",
-          "side": "rule",
-          "plural": "nett",
-          "pluralGap": null
-        },
-        {
           "theme": "around the house",
           "noun": "pen",
           "vocabKey": "pen",
@@ -922,22 +906,6 @@
           "pluralGap": null
         },
         {
-          "theme": "beach",
-          "noun": "net",
-          "vocabKey": "net",
-          "word": "nett",
-          "gaps": [
-            {
-              "from": 2,
-              "len": 2
-            }
-          ],
-          "g": "tt",
-          "side": "rule",
-          "plural": "nett",
-          "pluralGap": null
-        },
-        {
           "theme": "Things That Fly",
           "noun": "rocket",
           "vocabKey": "rocket",
@@ -1207,22 +1175,6 @@
           "g": "t",
           "side": "contrast",
           "plural": "grøt",
-          "pluralGap": null
-        },
-        {
-          "theme": "vegetables",
-          "noun": "turnip",
-          "vocabKey": "turnip",
-          "word": "kålrot",
-          "gaps": [
-            {
-              "from": 5,
-              "len": 1
-            }
-          ],
-          "g": "t",
-          "side": "contrast",
-          "plural": "kålrøtter",
           "pluralGap": null
         },
         {

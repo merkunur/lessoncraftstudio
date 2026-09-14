@@ -90,6 +90,7 @@ const LABEL_KEYS = ['nameIs', 'age.pre', 'age.post', 'thisIsMe', 'family', 'fami
   'countHeads.people', 'countHeads.brothers', 'countHeads.sisters', 'countHeads.pets',
   'wantLearn', 'myName', 'friendName', 'oneLetterPerBox', 'lettersCount', 'firstLetter',
   'whoHasMore.question', 'whoHasMore.me', 'whoHasMore.friend'];
+const FACE_IDS = ['K-342', 'K-343', 'K-344', 'K-345', 'K-346'];   // the five Phase 2 faces (_records/b3var-id-allocation.json)
 const POOL_CAP = 96;       // px at Nunito 800 16 — the F1 tile label ceiling (design §3 F1)
 const POOL_MIN = 6;        // survivors per category, else the category drops
 const BANNER_CAP = 191;
@@ -155,13 +156,26 @@ function validateBank(bank, loc) {
     if (cite && s.trim().toLocaleLowerCase(loc) === cite.toLocaleLowerCase(loc)) push(`can.${id} "${s}" equals the vocab word (a noun, not a sentence)`);
   }
   if (!refuse.includes('ican') && canIds.length < 8) push(`${canIds.length} can literals < 8 and ican is not refused`);
-  // rule 8 — strings
-  const s = bank.strings && bank.strings['K-323'];
-  if (!s) push('strings K-323 missing');
-  else {
-    if (!s.title || [...s.title].length > 70) push('title > 70 chars');
-    if (WORKSHEET_WORD.test(s.title || '')) push('title carries the worksheet word');
-    if (!s.instruction || [...s.instruction].length > 150) push('instruction > 150 chars');
+  // rule 8 — strings: the base + the five faces (title <= 70, no worksheet word, instruction <= 150, titles distinct in the family)
+  const titles = new Set();
+  for (const id of ['K-323', ...FACE_IDS]) {
+    const s = bank.strings && bank.strings[id];
+    if (!s) { push(`strings ${id} missing`); continue; }
+    if (!s.title || [...s.title].length > 70) push(`${id} title > 70 chars`);
+    if (WORKSHEET_WORD.test(s.title || '')) push(`${id} title carries the worksheet word`);
+    if (!s.instruction || [...s.instruction].length > 150) push(`${id} instruction > 150 chars`);
+    const t = (s.title || '').toLocaleLowerCase(loc);
+    if (titles.has(t)) push(`${id} title "${s.title}" repeats within the family`); titles.add(t);
+  }
+  // rule 9 (Phase 2, F1) — every optionWords literal present is the vocab singular via displayWord (a MISSING key is a
+  // per-locale drop, never a finding; a WRONG one is); no slot, no digit
+  const ow = bank.optionWords || {};
+  for (const [key, w] of Object.entries(ow)) {
+    if (typeof w !== 'string' || !w.trim()) { push(`optionWords.${key} empty`); continue; }
+    if (w.includes('{') || /\d/.test(w)) push(`optionWords.${key} "${w}" is not a whole literal`);
+    const cite = v[key] && v[key][loc] && v[key][loc][0];
+    if (!cite) push(`optionWords.${key}: no vocab singular in ${loc}`);
+    else if (w !== displayWord(cite, loc)) push(`optionWords.${key} "${w}" ≠ vocab singular "${displayWord(cite, loc)}"`);
   }
   return f;
 }
@@ -395,6 +409,157 @@ function syntheticBlock(loc) {
   return b;
 }
 
+/* ------------------------------------------------------------ Phase 2 faces */
+const fs = require('fs');
+/** The emitted face spec by id (types/k/<id>-<slug>.js — the slug is the rows module's). */
+function loadFace(id) {
+  const dir = path.join(__dirname, '..', 'types', 'k');
+  const f = fs.readdirSync(dir).find((x) => x.startsWith(id + '-'));
+  if (!f) throw new Error(`face spec ${id} is not on disk — run node tools/gen-b3var-specs.js`);
+  return require(path.join(dir, f));
+}
+const FACE_BY_LAYOUT = { favourites: 'K-342', family: 'K-343', face: 'K-344', ican: 'K-345', name: 'K-346' };
+/** A face type whose bodyHtml is the real build rewritten by `fn` (past the spec's guards); `seed` swaps the picture seed, `cfgPatch` the config. */
+function rewiredFace(face, bank, fn, cfgPatch, seed) {
+  const t = Object.assign({}, face, seed ? { _pictures: () => seed } : {});
+  return Object.assign({}, face, { build(args, ctx) {
+    const cfg = cfgPatch ? { ...face.difficulty[args.difficulty], ...cfgPatch } : face.difficulty[args.difficulty];
+    const out = t._buildWith(bank, cfg, args, ctx);
+    if (fn) out.bodyHtml = fn(out.bodyHtml);
+    return out;
+  } });
+}
+function faceRefusal(face, bank, cfgPatch, seed) {
+  const t = Object.assign({}, face, seed ? { _pictures: () => seed } : {});
+  try { t._buildWith(bank, { ...face.difficulty[2], ...(cfgPatch || {}) }, { locale: 'en' }, { rng: makeRng('poison') }); return []; } catch (e) { return [e.message]; }
+}
+
+/** Render a face through the real pipeline and measure what its gate asserts. */
+async function renderFace(page, type, { baseName, strings, seedEpoch }) {
+  const out = await renderInstance({ type, theme: null, difficulty: 2, locale: 'en', page, outDir: OUT, baseName, strings, seedEpoch });
+  const m = await page.evaluate(() => {
+    const rect = (el) => { const r = el.getBoundingClientRect(); return { left: r.left, right: r.right, top: r.top, bottom: r.bottom, w: r.width, h: r.height }; };
+    const root = document.querySelector('[data-lcs-type="all-about-me"]');
+    const qa = (s) => root ? [...root.querySelectorAll(s)] : [];
+    return {
+      body: rect(document.querySelector('[data-lcs-body]')),
+      foot: document.querySelector('.ws-foot').getBoundingClientRect().top,
+      headH: rect(document.querySelector('.ws-head')).h,
+      stamps: root ? { ...root.dataset } : null,
+      lowest: Math.max(...qa('*').map((el) => el.getBoundingClientRect().bottom)),
+      labels: qa('[data-lcs-label-key]').map((l) => ({ key: l.dataset.lcsLabelKey, text: l.textContent.trim(), w: l.scrollWidth, clientW: l.clientWidth, px: parseFloat(getComputedStyle(l).fontSize) })),
+      answers: qa('[data-lcs-answer]').map((a) => a.getAttribute('data-lcs-answer')),
+      // F1
+      rows: qa('[data-lcs-favrow]').map((r) => ({ cat: r.dataset.lcsFavrow, ...rect(r), tiles: [...r.querySelectorAll('[data-lcs-opt]')].map((t) => { const l = t.querySelector('[data-lcs-opt-label]'); return { key: t.dataset.lcsOpt, text: l ? l.textContent.trim() : '', labelW: l ? l.scrollWidth : 0, ...rect(t) }; }), strip: r.querySelector('[data-lcs-options]') ? r.querySelector('[data-lcs-options]').scrollWidth : 0 })),
+      // F2
+      frames: qa('[data-lcs-frame]').map((f) => ({ key: f.dataset.lcsFrame, ...rect(f), counters: f.querySelectorAll('[data-lcs-counter]').length, tf: f.querySelector('svg[data-lcs-prim="ten-frame"]') ? rect(f.querySelector('svg[data-lcs-prim="ten-frame"]')) : null, box: f.querySelector('[data-lcs-count]') ? rect(f.querySelector('[data-lcs-count]')) : null })),
+      drawboxes: qa('[data-lcs-drawbox]').map((b) => ({ key: b.dataset.lcsDrawbox, ...rect(b) })),
+      // F3
+      bank: qa('[data-lcs-bank-banner] [data-lcs-bank]').map((w) => ({ id: w.dataset.lcsBank, text: w.textContent.trim(), w: w.scrollWidth })),
+      lanes: qa('[data-lcs-label]').map((l) => ({ id: l.dataset.lcsLabel, side: l.dataset.lcsSide, ...rect(l) })),
+      facePic: qa('img[data-lcs-face-pic]').map(rect)[0] || null,
+      pointers: qa('line[data-lcs-pointer]').map((l) => ({ id: l.dataset.lcsPointer, ax: +l.dataset.lcsAx, ay: +l.dataset.lcsAy, lx: +l.dataset.lcsLx, ly: +l.dataset.lcsLy })),
+      // F4
+      cards: qa('[data-lcs-action]').map((c) => { const l = c.querySelector('[data-lcs-can]'); const im = c.querySelector('img'); return { id: c.dataset.lcsAction, ...rect(c), text: l ? l.textContent.trim() : '', lines: l ? Math.round(l.getBoundingClientRect().height / parseFloat(getComputedStyle(l).lineHeight)) : 0, pic: im ? Math.min(rect(im).w, rect(im).h) : 0, tick: c.querySelector('[data-lcs-tick]') ? rect(c.querySelector('[data-lcs-tick]')) : null }; }),
+      ruling: qa('[data-lcs-ruling-row]').map(rect),
+      // F5
+      boxes: qa('svg[data-lcs-letterboxes]').map((s) => ({ n: +s.getAttribute('data-lcs-letterboxes'), rects: [...s.querySelectorAll('rect')].map(rect) })),
+      pills: qa('[data-lcs-pill]').map((p) => ({ key: p.dataset.lcsPill, text: p.textContent.trim(), ...rect(p), clipped: p.scrollWidth > p.clientWidth + 0.6 })),
+      countBoxes: qa('[data-lcs-count], [data-lcs-first]').map((b) => ({ key: (b.dataset.lcsCount || '') + (b.dataset.lcsFirst ? ' first' : ''), ...rect(b) })),
+    };
+  });
+  return { lints: out.qa.lints, verify: out.qa.verify, m, png: out.pngPath, html: out.html };
+}
+
+/** The node-side assertions per face: floors + every printed literal === the bank (verify() is blind to the bank by design). */
+function assertFace(name, layout, r, bank, P, opts) {
+  const m = r.m, cfg = loadFace(FACE_BY_LAYOUT[layout]).difficulty[2];
+  const v = vocab(), man = resolve.manifest();
+  ok(r.verify.length === 0, `${name}: verify() ${JSON.stringify(r.verify)}`);
+  ok(r.lints.length === 0, `${name}: lints ${JSON.stringify(r.lints)}`);
+  if (!m.stamps) { ok(false, `${name}: no root`); return; }
+  ok(m.stamps.lcsLayout === layout, `${name}: layout stamp "${m.stamps.lcsLayout}" ≠ ${layout}`);
+  ok(m.answers.every((a) => a === ''), `${name}: an answer value is stamped: ${JSON.stringify(m.answers)}`);
+  ok(m.lowest <= m.foot + 0.6, `${name}: content reaches ${Math.round(m.lowest)} against the footer at ${Math.round(m.foot)}`);
+  for (const l of m.labels) {
+    ok(l.w <= l.clientW + 0.6, `${name}: label ${l.key} "${l.text}" clipped (${l.w} > ${l.clientW})`);
+    ok(l.px >= 14, `${name}: label ${l.key} at ${l.px}px < 14`);
+  }
+  const L = bank.labels;
+  const labelIs = (key, bankPath) => { const l = m.labels.find((x) => x.key === key); ok(!!l && l.text === get(L, bankPath), `${name}: label ${key} prints "${l && l.text}" ≠ bank "${get(L, bankPath)}"`); };
+  if (layout === 'favourites') {
+    ok(m.rows.length === cfg.categories.length && m.rows.map((r) => r.cat).join() === cfg.categories.join(), `${name}: rows ${m.rows.map((r) => r.cat).join()} ≠ ${cfg.categories.join()}`);
+    const keys = new Set();
+    for (const row of m.rows) {
+      labelIs('fav-' + row.cat, 'favHeading.' + row.cat);
+      ok(row.tiles.length === cfg.perRow, `${name}: row ${row.cat} has ${row.tiles.length} tiles ≠ ${cfg.perRow}`);
+      ok(row.strip <= row.w - 36 + 0.6, `${name}: row ${row.cat} tile strip ${row.strip} > lane inner ${Math.round(row.w - 36)}`);
+      ok(row.h >= cfg.favRowMin - 0.6, `${name}: row ${row.cat} ${Math.round(row.h)} < the floor ${cfg.favRowMin}`);
+      for (const t of row.tiles) {
+        ok(!keys.has(t.key), `${name}: option ${t.key} twice on the page`); keys.add(t.key);
+        ok(Math.abs(t.w - cfg.tile) < 1 && Math.abs(t.h - cfg.tileH) < 1, `${name}: tile ${t.key} ${Math.round(t.w)}×${Math.round(t.h)} ≠ ${cfg.tile}×${cfg.tileH}`);
+        const want = t.key.startsWith('color:') ? COLOR_WORDS.en[t.key.slice(6)] : displayWord(v[t.key].en[0], 'en');
+        ok(t.text === want, `${name}: tile ${t.key} prints "${t.text}" ≠ vocab "${want}"`);
+        ok(!!t.text && t.labelW <= POOL_CAP + 0.6, `${name}: tile ${t.key} label ${t.labelW} px > ${POOL_CAP}`);
+        const cat = (P.categories.find((c) => c.id === row.cat) || { options: [] }).options.some((o) => (o.color ? 'color:' + o.color : (man.themes[o.theme].nouns[o.noun] || {}).vocabKey) === t.key);
+        ok(cat, `${name}: tile ${t.key} is not an option of the ${row.cat} category`);
+      }
+    }
+  }
+  if (layout === 'family') {
+    ok(m.frames.map((f) => f.key).join() === cfg.frames.join(), `${name}: frames ${m.frames.map((f) => f.key).join()} ≠ ${cfg.frames.join()}`);
+    labelIs('familyDraw', 'familyDraw');
+    const draw = m.drawboxes.find((b) => b.key === 'family');
+    ok(!!draw && draw.h >= cfg.drawH - 0.6 && Math.abs(draw.w - 675) < 1, `${name}: draw box ${draw && Math.round(draw.w)}×${draw && Math.round(draw.h)} (want 675 × >= ${cfg.drawH})`);
+    for (const f of m.frames) {
+      labelIs('count-' + f.key, 'countHeads.' + f.key);
+      ok(f.counters === 0, `${name}: frame ${f.key} prints ${f.counters} counters`);
+      ok(!!f.tf && (f.tf.w - 3) / 5 >= K_FLOOR - 0.6, `${name}: frame ${f.key} cell ${f.tf && ((f.tf.w - 3) / 5).toFixed(1)} < ${K_FLOOR}`);
+      ok(!!f.box && Math.min(f.box.w, f.box.h) >= K_FLOOR - 0.6, `${name}: frame ${f.key} count box under ${K_FLOOR}`);
+      ok(f.h >= cfg.frameMin - 0.6, `${name}: frame ${f.key} ${Math.round(f.h)} < the floor ${cfg.frameMin}`);
+    }
+  }
+  if (layout === 'face') {
+    const fw = bank.faceWords;
+    ok(m.bank.map((w) => w.id).sort().join() === cfg.parts.slice().sort().join(), `${name}: bank ids ${m.bank.map((w) => w.id).sort().join()} ≠ parts`);
+    for (const w of m.bank) ok(w.text === fw[w.id], `${name}: bank word ${w.id} prints "${w.text}" ≠ bank "${fw[w.id]}"`);
+    for (const w of m.bank) ok(w.text === displayWord(v[w.id].en[0], 'en'), `${name}: bank word ${w.id} "${w.text}" ≠ vocab singular`);
+    ok(m.lanes.length === cfg.parts.length && m.pointers.length === cfg.parts.length, `${name}: ${m.lanes.length} lanes / ${m.pointers.length} pointers ≠ ${cfg.parts.length}`);
+    for (const l of m.lanes) ok(Math.abs(l.w - cfg.laneW) < 1 && Math.abs(l.h - cfg.laneH) < 1, `${name}: lane ${l.id} ${Math.round(l.w)}×${Math.round(l.h)} ≠ ${cfg.laneW}×${cfg.laneH}`);
+    ok(!!m.facePic && Math.abs(m.facePic.w - cfg.icon) < 1, `${name}: face picture ${m.facePic && Math.round(m.facePic.w)} ≠ ${cfg.icon}`);
+    labelIs('drawFace', 'drawFace');
+    const draw = m.drawboxes.find((b) => b.key === 'face');
+    ok(!!draw && draw.h >= cfg.drawMin - 0.6, `${name}: draw box ${draw && Math.round(draw.h)} < ${cfg.drawMin}`);
+  }
+  if (layout === 'ican') {
+    ok(m.cards.length === cfg.cards, `${name}: ${m.cards.length} cards ≠ ${cfg.cards}`);
+    labelIs('wantLearn', 'wantLearn');
+    const ids = new Set();
+    for (const c of m.cards) {
+      ok(!ids.has(c.id), `${name}: action ${c.id} twice`); ids.add(c.id);
+      ok(c.text === bank.can[c.id], `${name}: card ${c.id} prints "${c.text}" ≠ bank "${bank.can[c.id]}"`);
+      const a = P.actions.find((x) => x.id === c.id);
+      const n = a && man.themes[a.cue.theme] && man.themes[a.cue.theme].nouns[a.cue.noun];
+      const cite = n && n.vocabKey && v[n.vocabKey] && v[n.vocabKey].en && v[n.vocabKey].en[0];
+      ok(!cite || c.text.toLowerCase() !== cite.toLowerCase(), `${name}: card ${c.id} prints the vocab noun "${cite}"`);
+      ok(c.lines >= 1 && c.lines <= 2, `${name}: card ${c.id} literal runs ${c.lines} lines`);
+      ok(c.pic >= Math.max(K_FLOOR, cfg.pic) - 0.6, `${name}: card ${c.id} cue ${Math.round(c.pic)} < ${cfg.pic}`);
+      ok(!!c.tick && Math.min(c.tick.w, c.tick.h) >= cfg.tick - 0.6, `${name}: card ${c.id} tick under ${cfg.tick}`);
+      ok(c.h >= cfg.rowMin - 0.6, `${name}: card ${c.id} ${Math.round(c.h)} < the floor ${cfg.rowMin}`);
+    }
+    ok(m.ruling.length === 1 && m.ruling[0].h >= K_FLOOR, `${name}: ${m.ruling.length} ruling rows (want 1 >= ${K_FLOOR})`);
+  }
+  if (layout === 'name') {
+    for (const k of ['myName', 'friendName', 'oneLetterPerBox', 'lettersCount', 'firstLetter', 'whoHasMore.question']) labelIs(k, k);
+    ok(m.boxes.length === 2 && m.boxes.every((b) => b.n === cfg.boxes && b.rects.length === cfg.boxes), `${name}: letter boxes ${JSON.stringify(m.boxes.map((b) => [b.n, b.rects.length]))} ≠ 2 × ${cfg.boxes}`);
+    for (const b of m.boxes) for (const r of b.rects) ok(Math.min(r.w, r.h) >= cfg.box - 0.6, `${name}: a letter box ${Math.round(r.w)} < ${cfg.box}`);
+    ok(m.pills.map((p) => p.key).join() === 'me,friend', `${name}: pills ${m.pills.map((p) => p.key).join()}`);
+    ok(m.pills.every((p) => !p.clipped && p.h >= 40) && m.pills.map((p) => p.text).join('|') === `${L.whoHasMore.me}|${L.whoHasMore.friend}`, `${name}: pills ${JSON.stringify(m.pills.map((p) => [p.text, Math.round(p.h), p.clipped]))}`);
+    ok(m.countBoxes.length === 2 && m.countBoxes.every((b) => Math.min(b.w, b.h) >= K_FLOOR - 0.6), `${name}: count boxes ${JSON.stringify(m.countBoxes.map((b) => [b.key, Math.round(b.w), Math.round(b.h)]))}`);
+  }
+  void opts;
+}
+
 /**
  * Long-chrome fixtures (70-char title + 150-char instruction, both legal). The K-319 build
  * measured en chrome → body 778, a 3-line de title → ~733, a 4-line fi title → ~700.
@@ -478,9 +643,44 @@ async function main() {
     const widest = measured.slice().sort((a, b) => b.w - a.w).slice(0, 4).map((m) => `${m.loc} "${m.text}" ${m.w.toFixed(1)}`);
     console.log(`pool: ${measured.length} labels measured (${LOCALES.length} locales), widest ${widest.join(' · ')}`);
 
+    // 6. the five faces through the real pipeline: en chrome + the de 3-line + the fi 4-line fixtures (the 700 floor)
+    const faces = {};
+    for (const [layout, id] of Object.entries(FACE_BY_LAYOUT)) {
+      faces[layout] = loadFace(id);
+      for (const chrome of ['en', 'de', 'fi']) {
+        const strings = chrome === 'en' ? undefined : LONG[chrome];
+        const tag = chrome === 'en' ? '' : ' long chrome ' + chrome;
+        const r = await renderFace(page, faces[layout], { baseName: `${id}-gate-d2-en${chrome === 'en' ? '' : '-longchrome-' + chrome}`, strings });
+        assertFace(`${id} ${layout}${tag}`, layout, r, en, P);
+        if (chrome !== 'en') ok(r.m.body.h <= LONG[chrome].body, `${id} ${layout}${tag}: body ${Math.round(r.m.body.h)} px — the fixture did not squeeze the body to <= ${LONG[chrome].body}`);
+        pngs.push(r.png);
+        const m = r.m;
+        const detail = layout === 'favourites' ? `rows ${m.rows.map((x) => x.cat + '[' + x.tiles.map((t) => t.key.replace('color:', '')).join(' ') + ']').join(' ')} widest label ${Math.max(...m.rows.flatMap((x) => x.tiles.map((t) => t.labelW))).toFixed(1)} px`
+          : layout === 'family' ? `frames ${m.frames.map((f) => f.key + ' ' + Math.round(f.h)).join(' / ')}`
+          : layout === 'face' ? `bank ${m.bank.map((w) => w.text).join(' ')} lanes ${m.lanes.map((l) => l.id + '@' + Math.round(l.top - m.facePic.top + 50)).join(' ')}`
+          : layout === 'ican' ? `cards ${m.cards.map((c) => c.id).join(' ')} rows ${Math.round(m.cards[0].h)} lines ${m.cards.map((c) => c.lines).join('')}`
+          : `boxes ${m.boxes.map((b) => b.n).join('+')} pills ${m.pills.map((p) => Math.round(p.w)).join('/')}`;
+        console.log(`render ${id} ${layout}${tag}: verify ${r.verify.length} lints ${r.lints.length} body ${Math.round(m.body.h)} px lowest ${Math.round(m.lowest)} vs foot ${Math.round(m.foot)} ${detail}`);
+      }
+    }
+    // the face sweep: the seeded faces vary, the seedless ones are byte-identical (skipped by --quick)
+    if (!QUICK) {
+      const seen = { favourites: new Set(), family: new Set(), face: new Set(), ican: new Set(), name: new Set() };
+      for (const [layout, face] of Object.entries(faces)) for (let k = 1; k <= 20; k++) {
+        const rng = makeRng(instanceSeed({ typeId: face.id, theme: null, difficulty: 2, seedEpoch: k }));
+        const out = face.build({ theme: null, difficulty: 2, locale: 'en' }, { rng });
+        seen[layout].add(layout === 'favourites' ? JSON.stringify(out.meta.options) : layout === 'face' ? out.meta.bank.join() : layout === 'ican' ? out.meta.actions.slice().sort().join() : out.bodyHtml);
+      }
+      ok(seen.favourites.size > 1, `sweep favourites: ${seen.favourites.size} distinct option sets over 20 seeds`);
+      ok(seen.face.size > 1, `sweep face: ${seen.face.size} distinct bank orders over 20 seeds`);
+      ok(seen.ican.size > 1, `sweep ican: ${seen.ican.size} distinct action sets over 20 seeds`);
+      ok(seen.family.size === 1 && seen.name.size === 1, `sweep family/name: ${seen.family.size}/${seen.name.size} distinct bodies (seedless → 1)`);
+      console.log(`sweep faces: favourites ${seen.favourites.size} option sets, face ${seen.face.size} bank orders, ican ${seen.ican.size} action sets, family/name byte-identical`);
+    }
+
     // 5. poisons
     let killed = 0;
-    const TOTAL = 15;
+    const TOTAL = 26;
     // P1 — an option that is not cached
     {
       const p = clone(P); p.categories.find((c) => c.id === 'food').options.push({ theme: 'fruits', noun: 'durian', picOpened: true });
@@ -591,6 +791,88 @@ async function main() {
       const a = judge('PD', r.verify, /2 drawing zones|4 drawing zones, stamp 5/);
       const c = judge('PD window', r.verify, /favourite food: no draw zone/);
       if (a && c) killed++;
+    }
+    /* ------------------------------------------------ Phase 2 face poisons (design §5 P6 P8 P10 P11 + the build's own) */
+    const facePoison = async (name, layout, fn, cfgPatch, seed, re, note) => {
+      const r = await renderFace(page, rewiredFace(faces[layout], en, fn, cfgPatch, seed), { baseName: `${FACE_BY_LAYOUT[layout]}-gate-poison-${name.replace(/\W+/g, '')}` });
+      return { r, hit: judge(name, r.verify, re, note ? note(r) : undefined) };
+    };
+    // P6 — F3: one bank word removed → the bank <=> lanes bijection fails
+    {
+      const { hit } = await facePoison('P6', 'face', (h) => h.replace(/<span class="ws-bankword"[^>]*>.*?<\/span><\/span>/, ''), null, null, /bank ids \[.*\] ≠ lane ids \[.*\] \(no bijection\)/);
+      if (hit) killed++;
+    }
+    // P8 — F1: tile gap 8 → the row is 640 > 639: the spec guard refuses; past it, verify sees the strip over the lane inner
+    {
+      const a = judge('P8 guard', faceRefusal(faces.favourites, en, { tileGap: 8 }), /tile row 640 > the lane inner 639/);
+      const { hit: c } = await facePoison('P8 verify', 'favourites', (h) => h.replace(/gap:7px;align-items:center/g, 'gap:8px;align-items:center'), null, null, /the tile row 640 px > the lane inner 639/);
+      if (a && c) killed++;
+    }
+    // P10 — F3: the eye and nose sides swapped → the pointer to the RIGHT eye runs through the LEFT eye (the mirror disc)
+    {
+      const seed = clone(P); seed.face.anchors.eye.side = 'L'; seed.face.anchors.nose.side = 'R'; delete seed.face.anchors.nose.lane;
+      const { r, hit } = await facePoison('P10', 'face', null, null, seed, /pointer (eye|nose) crosses the [\w-]+ disc/, (r) => r.verify.filter((x) => /crosses/.test(x)).join('; '));
+      const ctl = faceRefusal(faces.face, en, null, seed);
+      if (hit && ctl.length === 0) killed++; else poisonLog.push(`  P10 control: the spec refused the swapped seed ${JSON.stringify(ctl)} (verify ${r.verify.length})`);
+    }
+    // PN2 — F3: the nose lane at the design's anchor-centred slot (no `lane` pin, y 196) → its pointer runs through the left ear
+    {
+      const seed = clone(P); delete seed.face.anchors.nose.lane;
+      const { hit } = await facePoison('PN2', 'face', null, null, seed, /pointer nose crosses the ear-mirror disc \([\d.]+ px < 16\)/, (r) => (r.verify.find((x) => /ear-mirror/.test(x)) || '').replace(/.*\(/, '('));
+      if (hit) killed++;
+    }
+    // P11 — F4: a 3-line `can` literal → the bank rule (> 34) + the spec refuse; past the guard verify() counts the lines
+    {
+      const b = clone(en); b.can.swim = 'I can swim across the whole swimming pool';
+      const a = judge('P11 bank', validateBank(b, 'en'), /can\.swim ".*" > 34 chars/);
+      const g = judge('P11 guard', faceRefusal(faces.ican, b), /can\.swim ".*" > 34 chars/);
+      const { hit: c } = await facePoison('P11 verify', 'ican', (h) => h.replace(/(data-lcs-can="[^"]+"[^>]*>)[^<]*</, '$1I can swim across the whole big pool at the beach<'), null, null, /literal ".*" runs [3-9] lines \(> 2\)/);
+      if (a && g && c) killed++;
+    }
+    // PT — F1: a starter on the copy lane + a marked tile → verify
+    {
+      const { r, hit } = await facePoison('PT lane', 'favourites', (h) => h.replace(/(<span data-lcs-copy-lane="animal"[^>]*>)/, '$1<span style="position:absolute">cat</span>').replace(/(<span data-lcs-opt="[^"]+")/, '$1 data-lcs-correct="1"'), null, null, /copy lane: the lane prints "cat"/);
+      const c = judge('PT tile', r.verify, /a tile is marked/);
+      if (hit && c) killed++;
+    }
+    // PC — F2: a counter printed on the "people" ten-frame → verify (the child fills the frame)
+    {
+      const tenFrame = require('../primitives/ten-frame.js');
+      const one = tenFrame({ a: 1, b: 0, cell: 56 }).svg;
+      const { r, hit } = await facePoison('PC', 'family', (h) => h.replace(/(<div data-lcs-tenframe="people"[^>]*>)<svg[\s\S]*?<\/svg>/, '$1' + one), null, null, /frame 1 \(people\): 1 counters printed on the ten-frame/);
+      const c = judge('PC stamp', r.verify, /ten-frame stamps a=1 b=0/);
+      if (hit && c) killed++;
+    }
+    // PK — F4: seven `can` literals → the spec refuses; `refuse:['ican']` → the spec refuses
+    {
+      const b = clone(en); for (const id of Object.keys(b.can).slice(7)) delete b.can[id];
+      const a = judge('PK seven', faceRefusal(faces.ican, b), /authors 7 can literals < 8 \(refuse/);
+      const b2 = clone(en); b2.refuse = ['ican'];
+      const c = judge('PK refuse', faceRefusal(faces.ican, b2), /refuses the face \(bank\.refuse\)/);
+      if (a && c) killed++;
+    }
+    // PB — F5: the friend's boxes at 9 → verify (both rows carry the stamped count)
+    {
+      const { letterBoxes } = require('../templates/components-b2.js');
+      const nine = letterBoxes({ n: 9, box: 56, gap: 6 });
+      const { hit } = await facePoison('PB', 'name', (h) => h.replace(/(<div class="ws-lane" data-lcs-nameboxes="friend"[^>]*>)<svg[\s\S]*?<\/svg>/, '$1' + nine), null, null, /friend: 9 boxes ≠ 10/);
+      if (hit) killed++;
+    }
+    // PL2 — F1: a tile label over the 96 px ceiling (the fi `vaaleanpunainen`, 128 px) → verify
+    {
+      const { hit } = await facePoison('PL2', 'favourites', (h) => h.replace(/(data-lcs-opt-label[^>]*>)[^<]*</, '$1vaaleanpunainen<'), null, null, /label "vaaleanpunainen" [\d.]+ px > the 96 px tile ceiling/);
+      if (hit) killed++;
+    }
+    // PU — F1: an unlabelled option DROPS; a category under 6 labelled options drops (control: 2 rows, clean); under 2 categories the face REFUSES
+    {
+      const b = clone(en); for (const k of ['cat', 'dog', 'fish', 'horse', 'rabbit', 'duck', 'pig']) delete b.optionWords[k];   // animals: 5 left
+      const r = await renderFace(page, rewiredFace(faces.favourites, b), { baseName: 'K-342-gate-poison-PU-control' });
+      const rows = r.m.rows.map((x) => x.cat).join();
+      const ctl = r.verify.length === 0 && r.lints.length === 0 && rows === 'food,color';
+      poisonLog.push(`  PU control: animals at 5 labels → rows ${rows}, verify ${r.verify.length} lints ${r.lints.length}`);
+      const b2 = clone(b); for (const k of ['apple', 'banana', 'bread', 'cheese', 'pizza', 'carrot', 'strawberry']) delete b2.optionWords[k];   // food: 5 left too
+      const a = judge('PU', faceRefusal(faces.favourites, b2), /keeps 1 category with >= 6 labelled options \(< 2: refuse\)/);
+      if (a && ctl) killed++;
     }
     console.log('poison:\n' + poisonLog.join('\n'));
     const allKilled = killed === TOTAL;

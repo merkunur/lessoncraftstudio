@@ -144,7 +144,7 @@
    "no": 6,
    "fi": 6
   },
-  "emotions": {
+  "feelings": {
    "en": 6,
    "de": 6,
    "es": 6,
@@ -406,7 +406,7 @@
    "no": 6,
    "fi": 6
   },
-  "emotions": {
+  "feelings": {
    "en": 6,
    "de": 6,
    "es": 6,
@@ -548,7 +548,7 @@
   "verb-forms": "nl F2 ships on the 3×3 variant",
   "read-and-do": "sv/da/no F1 only until the `def` (+`defPl`) tables (~150 literals each) are authored",
   "rhyming-words": "de F4 refused at 3 usable classes (lifts with a 4th class by sound); F3 couplets contingent on ≥8 per locale",
-  "emotions": "global syringe veto changes F1's card count, not the row",
+  "feelings": "global syringe veto changes F1's card count, not the row",
   "animal-fact-file": "PREREQUISITE `animal-facts.json`; sv/da/no/fi need one exemplar `def`/`ade`; a wave theme with <4 verifiable animals drops F6",
   "hundreds-chart-puzzles": "none (F3 is language-free)",
   "division-with-remainder": "none; F3 lowers only where a panel refuses `exactWord`",

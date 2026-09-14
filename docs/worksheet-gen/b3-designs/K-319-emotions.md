@@ -1,3 +1,5 @@
+> **BUILD RULING 2026-09-14: the family key is `feelings`, not `emotions`.** The THEME axis already owns the axis-key `emotions` (`/en/topic/emotions/`, `topicMeta.emotions`, `topicProse.emotions`), topic copy is keyed per axis-key across axes, and the taxonomy invariant is `slug.en === key`; this file already chose the slug `feelings`. Read every `emotions` family key / `exerciseType: emotions` / `coordinate.type: emotions` below as `feelings`. Image theme, data bank names and ids are unchanged.
+
 # K-319 `emotions` (K) : FINAL design (editor merge, 2026-09-14)
 
 Merged from `_work/K-319-pedagogy.md` + `_work/K-319-design.md`. Every file, primitive, class and option below was read in the repo; every picture named was OPENED at `cache/themes-512/<theme>/<noun>@3x.webp` (record + what each shows: `_work/K-319-critic.md`). (m) = re-measured 2026-09-14 (node over `cache/manifest.json` + `topics-taxonomy.json`; puppeteer with the shell's woff2, scratch `k319-critic-measure.js`). *est.* = the engineer measures. No em-dashes.

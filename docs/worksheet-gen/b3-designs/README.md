@@ -22,7 +22,7 @@
 | 8 | G2-317 | verb-forms | G2/G3 | Verb Forms |
 | 9 | G1-308 | read-and-do | G1 | Read and Do |
 | 10 | G1-309 | rhyming-words | G1 | Rhyme and Write |
-| 11 | K-319 | emotions | K | Feelings |
+| 11 | K-319 | feelings (key ruled 2026-09-14; the design file says `emotions`, which the THEME axis owns) | K | Feelings |
 | 12 | G2-318 | animal-fact-file | G2 | Animal Fact File |
 | 13 | G1-310 | hundreds-chart-puzzles | G1/G2 | Hundreds-Chart Pieces |
 | 14 | G3-377 | division-with-remainder | G3 | Division with Remainder |
@@ -97,7 +97,7 @@ Rows = faces with a landing per (key × locale) at design time; "contingent" = l
 | verb-forms | 6 | 6 | 6 | 6 | 6 | 6 | 6 (5 if F2 refused) | 6 | 6 | 6 | 6 | 66 (65) | nl F2 ships on the 3×3 variant |
 | read-and-do | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 1→6 | 1→6 | 1→6 | 6 | 51 (66 ceiling) | sv/da/no F1 only until the `def` (+`defPl`) tables (~150 literals each) are authored |
 | rhyming-words | 6 | 5→6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 65 (66) | de F4 refused at 3 usable classes (lifts with a 4th class by sound); F3 couplets contingent on ≥8 per locale |
-| emotions | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | global syringe veto changes F1's card count, not the row |
+| feelings | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | global syringe veto changes F1's card count, not the row |
 | animal-fact-file | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 (interim 11) | PREREQUISITE `animal-facts.json`; sv/da/no/fi need one exemplar `def`/`ade`; a wave theme with <4 verifiable animals drops F6 |
 | hundreds-chart-puzzles | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | none (F3 is language-free) |
 | division-with-remainder | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | none; F3 lowers only where a panel refuses `exactWord` |

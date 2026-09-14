@@ -258,5 +258,85 @@
   "grid-coordinates": {
     "full": "Coloring each named square on a lettered and numbered grid builds coordinate reading and reveals a hidden picture.",
     "short": "Builds grid coordinate reading."
+  },
+  "letter-of-the-week": {
+    "full": "Hunting one letter through a page of pictures, then tracing and sorting it, anchors the letter shape to its sound and to real words.",
+    "short": "Builds letter recognition and letter-sound links."
+  },
+  "sound-boxes": {
+    "full": "Saying a picture word slowly and marking one box per sound trains children to hear the separate sounds a word is made of.",
+    "short": "Builds phoneme segmentation with sound boxes."
+  },
+  "ordinal-numbers": {
+    "full": "Reading first to tenth along a line of pictures links position words to counting and to the place each thing holds in a row.",
+    "short": "Builds ordinal numbers from first to tenth."
+  },
+  "days-and-months": {
+    "full": "Ordering the days of the week and the months of the year, and filling the gaps, builds the calendar sequence children use every morning.",
+    "short": "Builds the sequence of days and months."
+  },
+  "seasons": {
+    "full": "Sorting pictures into spring, summer, autumn and winter links weather, clothes and activities to the season they belong to.",
+    "short": "Builds the four seasons and what belongs to each."
+  },
+  "all-about-me": {
+    "full": "Drawing, counting and writing about themselves gives children a first page of their own to read, share and keep.",
+    "short": "Builds self-description in words and pictures."
+  },
+  "picture-word-cards": {
+    "full": "Cut-out cards with a clear picture and its word support matching, sorting and reading games at the table and on the wall.",
+    "short": "Builds picture-word vocabulary with cut-out cards."
+  },
+  "syllable-split": {
+    "full": "Marking the syllable breaks in longer words with arcs or bars shows children how a word is built and where to read it in parts.",
+    "short": "Builds syllable division in longer words."
+  },
+  "syllable-reading": {
+    "full": "Reading syllables and word families in rows, then writing the word, turns blending practice into whole words children can read.",
+    "short": "Builds blending from syllables and word families."
+  },
+  "opposites": {
+    "full": "Matching each picture to its opposite builds pairs like big and small or hot and cold that anchor early vocabulary and comparison.",
+    "short": "Builds opposite pairs in vocabulary."
+  },
+  "read-and-do": {
+    "full": "Reading a short instruction and doing exactly what it says makes every sentence a comprehension check the child can see on the page.",
+    "short": "Builds reading comprehension by following directions."
+  },
+  "rhyming-words": {
+    "full": "Finding the picture that rhymes and writing its word tunes the ear to word endings, the first step toward spelling patterns.",
+    "short": "Builds rhyme awareness and word endings."
+  },
+  "hundreds-chart-puzzles": {
+    "full": "Filling the empty squares of a hundreds chart piece uses the row for tens and the column for ones, so every answer comes from position.",
+    "short": "Builds place value on the hundreds chart."
+  },
+  "spelling-rules": {
+    "full": "Practising one spelling rule at a time across many words, then sorting words by the rule, makes the pattern stick beyond the word list.",
+    "short": "Builds spelling rules through sorting and writing."
+  },
+  "compound-words": {
+    "full": "Joining two pictures into one compound word and splitting long words back into their parts shows how new words are built.",
+    "short": "Builds compound words from their parts."
+  },
+  "verb-forms": {
+    "full": "Writing what someone does today and did yesterday beside each picture builds verb forms and tense in sentences children use.",
+    "short": "Builds verb forms and simple tenses."
+  },
+  "animal-fact-file": {
+    "full": "Completing a fact file about an animal, from its class and covering to what it eats, turns reading facts into organised writing.",
+    "short": "Builds informational writing about animals."
+  },
+  "logic-puzzles": {
+    "full": "Using clues to cross out and confirm cells in a logic grid trains step-by-step deduction until only one answer fits.",
+    "short": "Builds logical deduction with grid puzzles."
+  },
+  "division-with-remainder": {
+    "full": "Sharing a pile into equal groups and writing what is left over introduces remainders as the honest answer when division does not come out even.",
+    "short": "Builds division with remainders."
+  },
+  "feelings": {
+    "full": "Naming the feeling on each face and matching it to a situation gives children the words they need to say how they feel.",
+    "short": "Builds feeling words and emotional awareness."
   }
 }

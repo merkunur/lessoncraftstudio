@@ -56,13 +56,35 @@ function daStrict(e) { return e.policy_managed === undefined; }
 function hasChunkLayer(loc) { return CHUNK_LAYER.has(String(loc).slice(0, 2)); }
 
 const _banks = new Map();
+/**
+ * Locale blocks authored by the native panels live OUTSIDE the bank module, as
+ * GENERATED data/b3/locales/<bank>.<loc>.json (tools/apply-b3-locale.js), and are
+ * merged here. The module keeps the hand-authored en block plus whatever the gates
+ * import from it (validateBank, SETS, FACES …) — rewriting it wholesale, as the b2
+ * apply did, would delete those. Two sources for one locale is refused. The dir is
+ * overridable (B3_LOCALES_DIR) so validate-b3-draft.js can probe a draft in a temp
+ * dir without touching the tree.
+ */
+const LOCALES_DIR = () => process.env.B3_LOCALES_DIR || path.join(__dirname, '..', 'data', 'b3', 'locales');
 function bankModule(name) {
   if (!_banks.has(name)) {
     const f = path.join(__dirname, '..', 'data', 'b3', name + '.js');
     if (!fs.existsSync(f)) throw new Error('b3-common: data/b3/' + name + '.js is absent (author the EN block / run apply-b3-locale.js)');
     const mod = require(f);
     const exportName = Object.keys(mod)[0];
-    _banks.set(name, mod[exportName]);
+    const all = mod[exportName];
+    const dir = LOCALES_DIR();
+    if (fs.existsSync(dir)) {
+      for (const file of fs.readdirSync(dir)) {
+        const m = new RegExp('^' + name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\.([a-z]{2})\\.json$').exec(file);
+        if (!m) continue;
+        const loc = m[1];
+        if (loc === 'en') throw new Error('b3-common: data/b3/locales/' + file + ' — the en block is authored in the module, never generated');
+        if (all[loc]) throw new Error('b3-common: data/b3/' + name + '.js already has a ' + loc + ' block AND data/b3/locales/' + file + ' exists — two sources, refuse');
+        all[loc] = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8'));
+      }
+    }
+    _banks.set(name, all);
   }
   return _banks.get(name);
 }

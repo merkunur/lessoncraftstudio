@@ -340,8 +340,8 @@ module.exports = {
     const shorts = {};
     const labels = {};
     try {
-      const mod = require('../../data/b3/days-and-months.js');
-      const all = mod[Object.keys(mod)[0]] || {};
+      // the merged table (module en block + generated data/b3/locales/*.json blocks)
+      const all = require('../../lib/b3-common.js').bankModule('days-and-months') || {};
       for (const [loc, b] of Object.entries(all)) {
         if (b && Array.isArray(b.dayShort)) shorts[loc] = b.dayShort;
         if (b && b.labels) labels[loc] = b.labels;

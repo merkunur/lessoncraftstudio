@@ -365,7 +365,7 @@
    "sv": 5,
    "da": 6,
    "no": 6,
-   "fi": 6
+   "fi": 5
   },
   "verb-forms": {
    "en": 6,
@@ -544,7 +544,7 @@
   "syllable-reading": "fr Complex = one page; no/da/sv base seed-only",
   "spelling-rules": "F6 plural refused de (Umlaut changes the stem, not the ending), nl (plural IS the base), sv, no (inflection, below floor)",
   "opposites": "contingent: F4 if `syn` < 8; F5 if prefix items < 8",
-  "compound-words": "F1 joint (G2-329) refused en/es/pt/it/nl/sv (no linking letter in family form; nl only 5 under the cap); F3 match (G2-331) refused fr/it/pt/es (the second part is a suffix without a picture); pt F2 cut (G2-330) refused (7 pictured augment./dimin., floor 8); F5 default refused fr",
+  "compound-words": "F1 joint (G2-329) refused en/es/pt/it/nl/sv/fi (fi: no joining letter, the -n is a genitive) (no linking letter in family form; nl only 5 under the cap); F3 match (G2-331) refused fr/it/pt/es (the second part is a suffix without a picture); pt F2 cut (G2-330) refused (7 pictured augment./dimin., floor 8); F5 default refused fr",
   "verb-forms": "nl F2 (G2-336) refused by the panel: zijn/hebben have only three present forms that differ from the infinitive",
   "read-and-do": "sv/da/no `def` (+`defPl`) tables authored by the panels — all six faces ship",
   "rhyming-words": "de F4 ships (the panel authored a 4th class by sound); it F4 (G1-345) refused: Italian rhyme words run 7–10 letters, the 12-word box measures 1427 px",

@@ -31,6 +31,24 @@
  *   tickPath / crossPath
  *     The two mark paths in a 60-unit box (exported so the components and
  *     the gate draw the SAME glyphs).
+ *
+ * Phase-2 faces (2026-09-14; design §2/§3 "lGrid", "glyphChip"), ADDITIVE:
+ * logicGrid / markKey / notMark are byte-identical (tools/b3-baseline.js).
+ *   lGrid({ names:[{label}], pics:[{src, alt}], pics2:[{src, alt}], cell=60,
+ *           headW=124, hdrH=64, namePx=22, picPx=56, puzzle })
+ *     The F4 two-attribute apparatus: THREE bodies sharing one header column
+ *     and one header row: names x attr-1 pictures (np, top-left), names x
+ *     attr-2 pictures (nc, top-right), attr-2 x attr-1 (pc, bottom-left, its
+ *     row headers = the attr-2 pictures again), inside ONE L-shaped teal
+ *     frame; the bottom-right quadrant is empty (no lines, no cells). Every
+ *     cell is an EMPTY <rect fill="none" data-lcs-cell="np|nc|pc:r:c"
+ *     data-lcs-body="np|nc|pc">. Header pictures are <img data-lcs-col="j">
+ *     (j < n attr-1, j >= n attr-2) across the top and <img data-lcs-rowpic="k">
+ *     (attr-2) down the pc rows. Returns {html, width, height}; 484 x 424 at
+ *     the base geometry.
+ *   markGlyph(kind, size)
+ *     A bare SVG of the tick (teal) or cross (coral) mark, size px square:
+ *     the F5 face's glyph chips draw it (components-b3/logic-puzzles.js glyphChip).
  */
 'use strict';
 const tokens = require('./_tokens.js');
@@ -127,4 +145,58 @@ function notMark(px) {
     { 'aria-hidden': 'true', 'data-lcs-notmark': px });
 }
 
-module.exports = { logicGrid, markKey, notMark, tickPath: TICK, crossPath: CROSS };
+/* ------------------------------------------------------------------ Phase-2 faces (additive) */
+function lGrid({ names, pics, pics2, cell = 60, headW = 124, hdrH = 64, namePx = 22, picPx = 56, puzzle = 0 }) {
+  if (!Array.isArray(names) || !Array.isArray(pics) || !Array.isArray(pics2) || !names.length) throw new Error('lGrid: names, pics, pics2 must be non-empty arrays');
+  const n = names.length;
+  if (pics.length !== n || pics2.length !== n) throw new Error('lGrid: pics and pics2 must each carry ' + n + ' entries');
+  if (!(cell > 0 && headW > 0 && hdrH > 0)) throw new Error('lGrid: cell/headW/hdrH must be > 0');
+  if (picPx > cell || picPx > hdrH || picPx > headW) throw new Error('lGrid: picPx ' + picPx + ' does not fit the header cells');
+  const W = headW + 2 * n * cell, H = hdrH + 2 * n * cell;
+  const xi = headW + n * cell, yi = hdrH + n * cell;   // the inner corner of the L
+  const parts = [];
+  // the L-shaped frame (white ground, teal 2.5, r 6 on every corner incl. the concave one)
+  const r = 6, i = 1.25;
+  const d = [
+    'M' + (i + r) + ' ' + i, 'H' + (W - i - r), 'a' + r + ' ' + r + ' 0 0 1 ' + r + ' ' + r,
+    'V' + (yi - r), 'a' + r + ' ' + r + ' 0 0 1 -' + r + ' ' + r, 'H' + (xi + r), 'a' + r + ' ' + r + ' 0 0 0 -' + r + ' ' + r,
+    'V' + (H - i - r), 'a' + r + ' ' + r + ' 0 0 1 -' + r + ' ' + r, 'H' + (i + r), 'a' + r + ' ' + r + ' 0 0 1 -' + r + ' -' + r,
+    'V' + (i + r), 'a' + r + ' ' + r + ' 0 0 1 ' + r + ' -' + r, 'Z',
+  ].join(' ');
+  parts.push(el('path', { d, fill: T.white, stroke: T.teal, 'stroke-width': 2.5, 'stroke-linejoin': 'round', 'data-lcs-lframe': 1 }));
+  // interior lines: columns k < n span the full height, k >= n only the top block; rows likewise
+  for (let k = 0; k < 2 * n; k++) {
+    const x = headW + k * cell;
+    parts.push(line({ x1: x, y1: i, x2: x, y2: k < n ? H - i : yi, strokeColor: T.grid, strokeWidth: tokens.stroke.grid, cap: 'butt' }));
+    const y = hdrH + k * cell;
+    parts.push(line({ x1: i, y1: y, x2: k < n ? W - i : xi, y2: y, strokeColor: T.grid, strokeWidth: tokens.stroke.grid, cap: 'butt' }));
+  }
+  // name tiles (rows 0..n-1), as logicGrid
+  const tileH = Math.min(48, cell - 8);
+  names.forEach((nm, k) => {
+    const y = hdrH + k * cell;
+    parts.push(roundedRect({ x: TILE_PAD - 6, y: y + (cell - tileH) / 2, w: headW - 2 * (TILE_PAD - 6), h: tileH, r: 10, fill: T.white, strokeColor: T.teal, strokeWidth: 2, data: { 'data-lcs-tile': k } }));
+    parts.push(label({ x: headW / 2, y: y + cell / 2 + 0.04 * namePx, text: nm.label, size: namePx, color: T.ink, fontFamily: F.display, weight: 700, anchor: 'middle', data: { 'data-lcs-row': k, 'data-lcs-tile-inner': headW - 2 * TILE_PAD } }));
+  });
+  // the three bodies of empty cells
+  const cellsOf = (g, x0, y0) => { for (let rr = 0; rr < n; rr++) for (let c = 0; c < n; c++) parts.push(el('rect', { x: x0 + c * cell, y: y0 + rr * cell, width: cell, height: cell, fill: 'none', 'data-lcs-cell': g + ':' + rr + ':' + c, 'data-lcs-body': g })); };
+  cellsOf('np', headW, hdrH);
+  cellsOf('nc', xi, hdrH);
+  cellsOf('pc', headW, yi);
+  const svg = svgRoot({ width: W, height: H, label: 'two-attribute elimination grid' }, parts, { 'data-lcs-prim': 'logic-lgrid', 'data-lcs-cell-px': cell, 'data-lcs-size': n, style: 'display:block' });
+  const img = (c, extra, left, top) => '<img class="ws-icon" src="' + esc(c.src) + '" alt="' + esc(c.alt || '') + '" ' + extra + ' style="position:absolute;left:' + left + 'px;top:' + top + 'px;width:' + picPx + 'px;height:' + picPx + 'px">';
+  const imgs = [
+    ...pics.map((c, j) => img(c, 'data-lcs-col="' + j + '"', headW + j * cell + (cell - picPx) / 2, (hdrH - picPx) / 2)),
+    ...pics2.map((c, j) => img(c, 'data-lcs-col="' + (n + j) + '"', xi + j * cell + (cell - picPx) / 2, (hdrH - picPx) / 2)),
+    ...pics2.map((c, k) => img(c, 'data-lcs-rowpic="' + k + '"', (headW - picPx) / 2, yi + k * cell + (cell - picPx) / 2)),
+  ].join('');
+  const html = '<div data-lcs-grid="' + puzzle + '" data-lcs-mode="blank" data-lcs-lgrid="np,nc,pc" style="position:relative;width:' + W + 'px;height:' + H + 'px;flex:0 0 auto">' + svg + imgs + '</div>';
+  return { html, width: W, height: H };
+}
+
+function markGlyph(kind, size) {
+  if (kind !== 'yes' && kind !== 'no') throw new Error('markGlyph: kind must be yes|no');
+  return svgRoot({ width: size, height: size, label: '' }, [mark(kind, size / 2, size / 2, size * 0.58)], { 'aria-hidden': 'true', 'data-lcs-glyphmark': kind });
+}
+
+module.exports = { logicGrid, markKey, notMark, lGrid, markGlyph, tickPath: TICK, crossPath: CROSS };

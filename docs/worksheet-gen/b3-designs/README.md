@@ -88,15 +88,15 @@ Rows = faces with a landing per (key × locale) at design time; "contingent" = l
 | key | en | de | es | pt | fr | it | nl | sv | da | no | fi | total | refusals / contingencies (see the file) |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | letter-of-the-week | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | F3 fi = syllable mode; F5 units per locale (≥3 or refuse) |
-| sound-boxes | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | da K faces ship on 2 themes (strict pool); en/fr bank yield UNKNOWN until authored |
+| sound-boxes | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 5 | 6 | 6 | 65 | da G1-313 refused (panel: "én lyd = én kasse" — a double consonant is ONE box, so the TeX boundary cannot print); da K faces ship on 2 themes (strict pool) |
 | syllable-split | 4 | 6 | 6 | 6 | 5 | 6 | 6 | 6 | 6 | 6 | 6 | 63 | en: Scramble + Vowel King refused (no TeX boundaries / silent e); fr: Vowel King refused (mute e) |
 | syllable-reading | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | fr Complex = one page; no/da/sv base seed-only |
-| spelling-rules | 6 | 6 | 6 | 6 | 6 | 6 | 5 | 5 | 6 | 5 | 6 | 63 | F6 plural refused nl (plural IS the base), sv, no (inflection, below floor) |
+| spelling-rules | 6 | 5 | 6 | 6 | 6 | 6 | 5 | 5 | 6 | 5 | 6 | 62 | F6 plural refused de (Umlaut changes the stem, not the ending), nl (plural IS the base), sv, no (inflection, below floor) |
 | opposites | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | contingent: F4 if `syn` < 8; F5 if prefix items < 8 |
-| compound-words | 5 | 6 | 5→6 | 4 | 3→5 | 4 | 6 | 5→6 | 6 | 5→6 | 5→6 | 47 (55 ceiling) | F1 joint refused en/it/pt (+es/fr default); F3 match refused fr/it/pt; F5 default refused fr |
-| verb-forms | 6 | 6 | 6 | 6 | 6 | 6 | 6 (5 if F2 refused) | 6 | 6 | 6 | 6 | 66 (65) | nl F2 ships on the 3×3 variant |
-| read-and-do | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 1→6 | 1→6 | 1→6 | 6 | 51 (66 ceiling) | sv/da/no F1 only until the `def` (+`defPl`) tables (~150 literals each) are authored |
-| rhyming-words | 6 | 5→6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 65 (66) | de F4 refused at 3 usable classes (lifts with a 4th class by sound); F3 couplets contingent on ≥8 per locale |
+| compound-words | 5 | 6 | 4 | 3 | 3→5 | 4 | 5 | 5 | 6 | 6 | 5→6 | 47 (50 ceiling) | F1 joint (G2-329) refused en/es/pt/it/nl/sv (no linking letter in family form; nl only 5 under the cap); F3 match (G2-331) refused fr/it/pt/es (the second part is a suffix without a picture); pt F2 cut (G2-330) refused (7 pictured augment./dimin., floor 8); F5 default refused fr |
+| verb-forms | 6 | 6 | 6 | 6 | 6 | 6 | 5 | 6 | 6 | 6 | 6 | 65 | nl F2 (G2-336) refused by the panel: zijn/hebben have only three present forms that differ from the infinitive |
+| read-and-do | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | sv/da/no `def` (+`defPl`) tables authored by the panels — all six faces ship |
+| rhyming-words | 6 | 6 | 6 | 6 | 6 | 5 | 6 | 6 | 6 | 6 | 6 | 65 | de F4 ships (the panel authored a 4th class by sound); it F4 (G1-345) refused: Italian rhyme words run 7–10 letters, the 12-word box measures 1427 px |
 | feelings | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | global syringe veto changes F1's card count, not the row |
 | animal-fact-file | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 (interim 11) | PREREQUISITE `animal-facts.json`; sv/da/no/fi need one exemplar `def`/`ade`; a wave theme with <4 verifiable animals drops F6 |
 | hundreds-chart-puzzles | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | none (F3 is language-free) |
@@ -107,4 +107,4 @@ Rows = faces with a landing per (key × locale) at design time; "contingent" = l
 | seasons | 6 | 6 | 6 | 6 (5) | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 (65) | pt-BR F5 re-targets to `figure:'frame'` or refuses |
 | logic-puzzles | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | none designed |
 | picture-word-cards | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 5 | 65 | fi F3 article cards refused (no articles); no F3 ships on the K-288 no ruling (confirmed K-324 §7) |
-| **design total** | | | | | | | | | | | | **≈1,247 (ceiling ≈1,299)** | of 1,320 nominal; every gap is a recorded refusal, never a filler |
+| **design total** | | | | | | | | | | | | **1,295 (ceiling 1,297)** | of 1,320 nominal; every gap is a recorded refusal (`_records/refusals.<loc>.json`), never a filler. Reconciled against the panels' declared refusals 2026-09-14 for en/de/es/pt/fr/it/nl/sv/da/no; fi pending its panel |

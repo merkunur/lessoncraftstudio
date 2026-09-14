@@ -1,0 +1,125 @@
+{
+  "labels": {
+    "nameIs": "Meu nome é",
+    "age": {
+      "pre": "Eu tenho",
+      "post": "anos",
+      "glue": false
+    },
+    "thisIsMe": "Sou eu!",
+    "family": "Minha família",
+    "familyDraw": "Desenhe a sua família",
+    "drawFace": "Agora desenhe o seu rosto",
+    "school": "Minha escola é a",
+    "favHeading": {
+      "animal": "Meu animal favorito",
+      "food": "Minha comida favorita",
+      "color": "Minha cor favorita",
+      "toy": "Meu brinquedo favorito"
+    },
+    "countHeads": {
+      "people": "Pessoas na minha família:",
+      "brothers": "Irmãos:",
+      "sisters": "Irmãs:",
+      "pets": "Bichinhos de estimação:"
+    },
+    "wantLearn": "Eu quero aprender a",
+    "myName": "Meu nome",
+    "friendName": "O nome do meu amigo ou da minha amiga",
+    "oneLetterPerBox": "Escreva uma letra em cada quadradinho",
+    "lettersCount": "Letras do meu nome:",
+    "firstLetter": "A primeira letra do meu nome:",
+    "whoHasMore": {
+      "question": "Quem tem mais letras?",
+      "me": "eu",
+      "friend": "meu amigo"
+    }
+  },
+  "faceWords": {
+    "eye": "olho",
+    "ear": "orelha",
+    "nose": "nariz",
+    "mouth": "boca",
+    "hair": "cabelo",
+    "eyebrow": "sobrancelha",
+    "chin": "queixo"
+  },
+  "can": {
+    "swim": "Eu sei nadar",
+    "run": "Eu sei correr",
+    "skip": "Eu sei pular corda",
+    "bike": "Eu sei andar de bicicleta",
+    "read": "Eu sei ler um livro",
+    "soccer": "Eu sei chutar uma bola",
+    "puzzle": "Eu sei montar um quebra-cabeça",
+    "paint": "Eu sei pintar um desenho",
+    "sing": "Eu sei cantar uma música",
+    "skate": "Eu sei patinar",
+    "ski": "Eu sei esquiar",
+    "writename": "Eu sei escrever meu nome",
+    "brushteeth": "Eu sei escovar os dentes"
+  },
+  "refuse": [],
+  "optionWords": {
+    "cat": "gato",
+    "dog": "cachorro",
+    "fish": "peixe",
+    "horse": "cavalo",
+    "rabbit": "coelho",
+    "duck": "pato",
+    "pig": "porco",
+    "sheep": "ovelha",
+    "elephant": "elefante",
+    "giraffe": "girafa",
+    "penguin": "pinguim",
+    "tiger": "tigre",
+    "apple": "maçã",
+    "banana": "banana",
+    "bread": "pão",
+    "cheese": "queijo",
+    "pizza": "pizza",
+    "carrot": "cenoura",
+    "strawberry": "morango",
+    "cookie": "biscoito",
+    "pasta": "macarrão",
+    "milk": "leite",
+    "grapes": "uvas",
+    "cake": "bolo",
+    "ball": "bola",
+    "doll": "boneca",
+    "car": "carro",
+    "train": "trem",
+    "kite": "pipa",
+    "blocks": "blocos",
+    "robot": "robô",
+    "balloon": "balão",
+    "dinosaur": "dinossauro",
+    "boat": "barco"
+  },
+  "strings": {
+    "K-323": {
+      "title": "Quem sou eu: tudo sobre mim",
+      "instruction": "Escreva seu nome e sua idade, desenhe você e a sua família e depois desenhe as suas três coisas favoritas."
+    },
+    "K-342": {
+      "title": "Minhas coisas favoritas: circule e escreva",
+      "instruction": "Em cada fileira, circule a sua figura favorita e copie a palavra dela na linha."
+    },
+    "K-343": {
+      "title": "Minha família: desenhe e conte",
+      "instruction": "Desenhe a sua família. Depois mostre nos quadros de dez quantas pessoas, irmãos, irmãs e bichinhos há e escreva o número."
+    },
+    "K-344": {
+      "title": "Sou eu! As partes do rosto",
+      "instruction": "Copie cada palavra do banco na linha que aponta para essa parte do rosto. Depois desenhe o seu rosto."
+    },
+    "K-345": {
+      "title": "Eu sei: marque o que você já sabe fazer",
+      "instruction": "Leia cada frase e marque as coisas que você sabe fazer. Depois escreva uma coisa que você quer aprender."
+    },
+    "K-346": {
+      "title": "Meu nome: escreva, conte e compare",
+      "instruction": "Escreva seu nome com uma letra em cada quadradinho e conte as letras. Faça o mesmo com o nome de um amigo e circule quem tem mais."
+    }
+  }
+}

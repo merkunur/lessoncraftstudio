@@ -1,0 +1,2934 @@
+{
+  "level": "sound",
+  "positionMode": "letter",
+  "showWordInPositions": false,
+  "exemplar": "a",
+  "letters": [
+    {
+      "L": "a",
+      "upper": "A",
+      "pair": "e",
+      "avoid": [
+        "e",
+        "o"
+      ],
+      "items": [
+        {
+          "theme": "insects and bugs",
+          "noun": "bee",
+          "key": "bee",
+          "word": "abelha",
+          "graphemes": [
+            "a",
+            "b",
+            "e",
+            "lh",
+            "a"
+          ],
+          "pos": 0,
+          "split": [
+            "a",
+            "be",
+            "lha"
+          ]
+        },
+        {
+          "theme": "accessories",
+          "noun": "ring",
+          "key": "ring",
+          "word": "anel",
+          "graphemes": [
+            "a",
+            "n",
+            "e",
+            "l"
+          ],
+          "pos": 0,
+          "split": [
+            "a",
+            "nel"
+          ]
+        },
+        {
+          "theme": "fruits",
+          "noun": "pineapple",
+          "key": "pineapple",
+          "word": "abacaxi",
+          "graphemes": [
+            "a",
+            "b",
+            "a",
+            "c",
+            "a",
+            "x",
+            "i"
+          ],
+          "pos": 0,
+          "split": [
+            "a",
+            "ba",
+            "ca",
+            "xi"
+          ]
+        },
+        {
+          "theme": "clothing",
+          "noun": "apron",
+          "key": "apron",
+          "word": "avental",
+          "graphemes": [
+            "a",
+            "v",
+            "e",
+            "n",
+            "t",
+            "a",
+            "l"
+          ],
+          "pos": 0,
+          "split": [
+            "a",
+            "ven",
+            "tal"
+          ]
+        },
+        {
+          "theme": "furniture",
+          "noun": "cabinet",
+          "key": "cabinet",
+          "word": "armário",
+          "graphemes": [
+            "a",
+            "r",
+            "m",
+            "á",
+            "r",
+            "i",
+            "o"
+          ],
+          "pos": 0,
+          "split": [
+            "ar",
+            "má",
+            "rio"
+          ]
+        },
+        {
+          "theme": "vegetables",
+          "noun": "lettuce",
+          "key": "lettuce",
+          "word": "alface",
+          "graphemes": [
+            "a",
+            "l",
+            "f",
+            "a",
+            "c",
+            "e"
+          ],
+          "pos": 0,
+          "split": [
+            "al",
+            "fa",
+            "ce"
+          ]
+        },
+        {
+          "theme": "birds 2",
+          "noun": "macaw",
+          "key": "macaw",
+          "word": "arara",
+          "graphemes": [
+            "a",
+            "r",
+            "a",
+            "r",
+            "a"
+          ],
+          "pos": 0,
+          "split": [
+            "a",
+            "ra",
+            "ra"
+          ]
+        },
+        {
+          "theme": "birds 2",
+          "noun": "ostrich",
+          "key": "ostrich",
+          "word": "avestruz",
+          "graphemes": [
+            "a",
+            "v",
+            "e",
+            "s",
+            "t",
+            "r",
+            "u",
+            "z"
+          ],
+          "pos": 0,
+          "split": [
+            "a",
+            "ves",
+            "truz"
+          ]
+        },
+        {
+          "theme": "insects and bugs",
+          "noun": "spider",
+          "key": "spider",
+          "word": "aranha",
+          "graphemes": [
+            "a",
+            "r",
+            "a",
+            "nh",
+            "a"
+          ],
+          "pos": 0,
+          "split": [
+            "a",
+            "ra",
+            "nha"
+          ]
+        },
+        {
+          "theme": "accessories",
+          "noun": "whistle",
+          "key": "whistle",
+          "word": "apito",
+          "graphemes": [
+            "a",
+            "p",
+            "i",
+            "t",
+            "o"
+          ],
+          "pos": 0,
+          "split": [
+            "a",
+            "pi",
+            "to"
+          ]
+        },
+        {
+          "theme": "fruits",
+          "noun": "blackberry",
+          "key": "blackberry",
+          "word": "amora",
+          "graphemes": [
+            "a",
+            "m",
+            "o",
+            "r",
+            "a"
+          ],
+          "pos": 0,
+          "split": [
+            "a",
+            "mo",
+            "ra"
+          ]
+        },
+        {
+          "theme": "vegetables",
+          "noun": "garlic",
+          "key": "garlic",
+          "word": "alho",
+          "graphemes": [
+            "a",
+            "lh",
+            "o"
+          ],
+          "pos": 0,
+          "split": [
+            "a",
+            "lho"
+          ]
+        },
+        {
+          "theme": "birds 2",
+          "noun": "swallow",
+          "key": "swallow",
+          "word": "andorinha",
+          "graphemes": [
+            "a",
+            "n",
+            "d",
+            "o",
+            "r",
+            "i",
+            "nh",
+            "a"
+          ],
+          "pos": 0,
+          "split": [
+            "an",
+            "do",
+            "ri",
+            "nha"
+          ]
+        },
+        {
+          "theme": "space",
+          "noun": "astronaut",
+          "key": "astronaut",
+          "word": "astronauta",
+          "graphemes": [
+            "a",
+            "s",
+            "t",
+            "r",
+            "o",
+            "n",
+            "a",
+            "u",
+            "t",
+            "a"
+          ],
+          "pos": 0,
+          "split": [
+            "as",
+            "tro",
+            "nau",
+            "ta"
+          ]
+        },
+        {
+          "theme": "vehicles",
+          "noun": "ambulance",
+          "key": "ambulance",
+          "word": "ambulância",
+          "graphemes": [
+            "a",
+            "m",
+            "b",
+            "u",
+            "l",
+            "â",
+            "n",
+            "c",
+            "i",
+            "a"
+          ],
+          "pos": 0,
+          "split": [
+            "am",
+            "bu",
+            "lân",
+            "cia"
+          ]
+        },
+        {
+          "theme": "fruits",
+          "noun": "avocado",
+          "key": "avocado",
+          "word": "abacate",
+          "graphemes": [
+            "a",
+            "b",
+            "a",
+            "c",
+            "a",
+            "t",
+            "e"
+          ],
+          "pos": 0,
+          "split": [
+            "a",
+            "ba",
+            "ca",
+            "te"
+          ]
+        },
+        {
+          "theme": "ocean life",
+          "noun": "tuna",
+          "key": "tuna",
+          "word": "atum",
+          "graphemes": [
+            "a",
+            "t",
+            "u",
+            "m"
+          ],
+          "pos": 0,
+          "split": [
+            "a",
+            "tum"
+          ]
+        },
+        {
+          "theme": "christmas",
+          "noun": "angel",
+          "key": "angel",
+          "word": "anjo",
+          "graphemes": [
+            "a",
+            "n",
+            "j",
+            "o"
+          ],
+          "pos": 0,
+          "split": [
+            "an",
+            "jo"
+          ]
+        },
+        {
+          "theme": "vegetables",
+          "noun": "pumpkin",
+          "key": "pumpkin",
+          "word": "abóbora",
+          "graphemes": [
+            "a",
+            "b",
+            "ó",
+            "b",
+            "o",
+            "r",
+            "a"
+          ],
+          "pos": 0,
+          "split": [
+            "a",
+            "bó",
+            "bo",
+            "ra"
+          ]
+        },
+        {
+          "theme": "pets",
+          "noun": "cat",
+          "key": "cat",
+          "word": "gato",
+          "graphemes": [
+            "g",
+            "a",
+            "t",
+            "o"
+          ],
+          "pos": 1,
+          "split": [
+            "ga",
+            "to"
+          ]
+        },
+        {
+          "theme": "farm animals",
+          "noun": "duck",
+          "key": "duck",
+          "word": "pato",
+          "graphemes": [
+            "p",
+            "a",
+            "t",
+            "o"
+          ],
+          "pos": 1,
+          "split": [
+            "pa",
+            "to"
+          ]
+        },
+        {
+          "theme": "pets",
+          "noun": "mouse",
+          "key": "mouse",
+          "word": "rato",
+          "graphemes": [
+            "r",
+            "a",
+            "t",
+            "o"
+          ],
+          "pos": 1,
+          "split": [
+            "ra",
+            "to"
+          ]
+        },
+        {
+          "theme": "around the house",
+          "noun": "key",
+          "key": "key",
+          "word": "chave",
+          "graphemes": [
+            "ch",
+            "a",
+            "v",
+            "e"
+          ],
+          "pos": 1,
+          "split": [
+            "cha",
+            "ve"
+          ]
+        },
+        {
+          "theme": "vehicles",
+          "noun": "car",
+          "key": "car",
+          "word": "carro",
+          "graphemes": [
+            "c",
+            "a",
+            "rr",
+            "o"
+          ],
+          "pos": 1,
+          "split": [
+            "car",
+            "ro"
+          ]
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "plate",
+          "key": "plate",
+          "word": "prato",
+          "graphemes": [
+            "p",
+            "r",
+            "a",
+            "t",
+            "o"
+          ],
+          "pos": 2,
+          "split": [
+            "pra",
+            "to"
+          ]
+        },
+        {
+          "theme": "vehicles",
+          "noun": "boat",
+          "key": "boat",
+          "word": "barco",
+          "graphemes": [
+            "b",
+            "a",
+            "r",
+            "c",
+            "o"
+          ],
+          "pos": 1,
+          "split": [
+            "bar",
+            "co"
+          ]
+        },
+        {
+          "theme": "toys",
+          "noun": "bucket",
+          "key": "bucket",
+          "word": "balde",
+          "graphemes": [
+            "b",
+            "a",
+            "l",
+            "d",
+            "e"
+          ],
+          "pos": 1,
+          "split": [
+            "bal",
+            "de"
+          ]
+        },
+        {
+          "theme": "farm animals",
+          "noun": "rooster",
+          "key": "rooster",
+          "word": "galo",
+          "graphemes": [
+            "g",
+            "a",
+            "l",
+            "o"
+          ],
+          "pos": 1,
+          "split": [
+            "ga",
+            "lo"
+          ]
+        },
+        {
+          "theme": "around the house",
+          "noun": "vase",
+          "key": "vase",
+          "word": "vaso",
+          "graphemes": [
+            "v",
+            "a",
+            "s",
+            "o"
+          ],
+          "pos": 1,
+          "split": [
+            "va",
+            "so"
+          ]
+        },
+        {
+          "theme": "music",
+          "noun": "drum",
+          "key": "drum",
+          "word": "tambor",
+          "graphemes": [
+            "t",
+            "a",
+            "m",
+            "b",
+            "o",
+            "r"
+          ],
+          "pos": 1,
+          "split": [
+            "tam",
+            "bor"
+          ]
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "armadillo",
+          "key": "armadillo",
+          "word": "tatu",
+          "graphemes": [
+            "t",
+            "a",
+            "t",
+            "u"
+          ],
+          "pos": 1,
+          "split": [
+            "ta",
+            "tu"
+          ]
+        },
+        {
+          "theme": "furniture",
+          "noun": "bench",
+          "key": "bench",
+          "word": "banco",
+          "graphemes": [
+            "b",
+            "a",
+            "n",
+            "c",
+            "o"
+          ],
+          "pos": 1,
+          "split": [
+            "ban",
+            "co"
+          ]
+        },
+        {
+          "theme": "furniture",
+          "noun": "table",
+          "key": "table",
+          "word": "mesa",
+          "graphemes": [
+            "m",
+            "e",
+            "s",
+            "a"
+          ],
+          "pos": 3,
+          "split": [
+            "me",
+            "sa"
+          ]
+        },
+        {
+          "theme": "space",
+          "noun": "moon",
+          "key": "moon",
+          "word": "lua",
+          "graphemes": [
+            "l",
+            "u",
+            "a"
+          ],
+          "pos": 2,
+          "split": [
+            "lu",
+            "a"
+          ]
+        },
+        {
+          "theme": "toys",
+          "noun": "ball",
+          "key": "ball",
+          "word": "bola",
+          "graphemes": [
+            "b",
+            "o",
+            "l",
+            "a"
+          ],
+          "pos": 3,
+          "split": [
+            "bo",
+            "la"
+          ]
+        },
+        {
+          "theme": "toys",
+          "noun": "kite",
+          "key": "kite",
+          "word": "pipa",
+          "graphemes": [
+            "p",
+            "i",
+            "p",
+            "a"
+          ],
+          "pos": 3,
+          "split": [
+            "pi",
+            "pa"
+          ]
+        },
+        {
+          "theme": "classroom",
+          "noun": "glue",
+          "key": "glue",
+          "word": "cola",
+          "graphemes": [
+            "c",
+            "o",
+            "l",
+            "a"
+          ],
+          "pos": 3,
+          "split": [
+            "co",
+            "la"
+          ]
+        },
+        {
+          "theme": "flowers",
+          "noun": "rose",
+          "key": "rose",
+          "word": "rosa",
+          "graphemes": [
+            "r",
+            "o",
+            "s",
+            "a"
+          ],
+          "pos": 3,
+          "split": [
+            "ro",
+            "sa"
+          ]
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "seal",
+          "key": "seal",
+          "word": "foca",
+          "graphemes": [
+            "f",
+            "o",
+            "c",
+            "a"
+          ],
+          "pos": 3,
+          "split": [
+            "fo",
+            "ca"
+          ]
+        },
+        {
+          "theme": "body parts",
+          "noun": "mouth",
+          "key": "mouth",
+          "word": "boca",
+          "graphemes": [
+            "b",
+            "o",
+            "c",
+            "a"
+          ],
+          "pos": 3,
+          "split": [
+            "bo",
+            "ca"
+          ]
+        },
+        {
+          "theme": "farm animals",
+          "noun": "owl",
+          "key": "owl",
+          "word": "coruja",
+          "graphemes": [
+            "c",
+            "o",
+            "r",
+            "u",
+            "j",
+            "a"
+          ],
+          "pos": 5,
+          "split": [
+            "co",
+            "ru",
+            "ja"
+          ]
+        },
+        {
+          "theme": "vegetables",
+          "noun": "onion",
+          "key": "onion",
+          "word": "cebola",
+          "graphemes": [
+            "c",
+            "e",
+            "b",
+            "o",
+            "l",
+            "a"
+          ],
+          "pos": 5,
+          "split": [
+            "ce",
+            "bo",
+            "la"
+          ]
+        },
+        {
+          "theme": "farm animals",
+          "noun": "sheep",
+          "key": "sheep",
+          "word": "ovelha",
+          "graphemes": [
+            "o",
+            "v",
+            "e",
+            "lh",
+            "a"
+          ],
+          "pos": 4,
+          "split": [
+            "o",
+            "ve",
+            "lha"
+          ]
+        },
+        {
+          "theme": "body parts",
+          "noun": "ear",
+          "key": "ear",
+          "word": "orelha",
+          "graphemes": [
+            "o",
+            "r",
+            "e",
+            "lh",
+            "a"
+          ],
+          "pos": 4,
+          "split": [
+            "o",
+            "re",
+            "lha"
+          ]
+        },
+        {
+          "theme": "miscellaneous",
+          "noun": "leaf",
+          "key": "leaf",
+          "word": "folha",
+          "graphemes": [
+            "f",
+            "o",
+            "lh",
+            "a"
+          ],
+          "pos": 3,
+          "split": [
+            "fo",
+            "lha"
+          ]
+        },
+        {
+          "theme": "vegetables",
+          "noun": "carrot",
+          "key": "carrot",
+          "word": "cenoura",
+          "graphemes": [
+            "c",
+            "e",
+            "n",
+            "o",
+            "u",
+            "r",
+            "a"
+          ],
+          "pos": 6,
+          "split": [
+            "ce",
+            "nou",
+            "ra"
+          ]
+        },
+        {
+          "theme": "fruits",
+          "noun": "cherry",
+          "key": "cherry",
+          "word": "cereja",
+          "graphemes": [
+            "c",
+            "e",
+            "r",
+            "e",
+            "j",
+            "a"
+          ],
+          "pos": 5,
+          "split": [
+            "ce",
+            "re",
+            "ja"
+          ]
+        },
+        {
+          "theme": "spring",
+          "noun": "rain",
+          "key": "rain",
+          "word": "chuva",
+          "graphemes": [
+            "ch",
+            "u",
+            "v",
+            "a"
+          ],
+          "pos": 3,
+          "split": [
+            "chu",
+            "va"
+          ]
+        },
+        {
+          "theme": "camping",
+          "noun": "rope",
+          "key": "rope",
+          "word": "corda",
+          "graphemes": [
+            "c",
+            "o",
+            "r",
+            "d",
+            "a"
+          ],
+          "pos": 4,
+          "split": [
+            "cor",
+            "da"
+          ]
+        },
+        {
+          "theme": "around the house",
+          "noun": "door",
+          "key": "door",
+          "word": "porta",
+          "graphemes": [
+            "p",
+            "o",
+            "r",
+            "t",
+            "a"
+          ],
+          "pos": 4,
+          "split": [
+            "por",
+            "ta"
+          ]
+        },
+        {
+          "theme": "insects and bugs",
+          "noun": "butterfly",
+          "key": "butterfly",
+          "word": "borboleta",
+          "graphemes": [
+            "b",
+            "o",
+            "r",
+            "b",
+            "o",
+            "l",
+            "e",
+            "t",
+            "a"
+          ],
+          "pos": 8,
+          "split": [
+            "bor",
+            "bo",
+            "le",
+            "ta"
+          ]
+        },
+        {
+          "theme": "christmas",
+          "noun": "star",
+          "key": "star",
+          "word": "estrela",
+          "graphemes": [
+            "e",
+            "s",
+            "t",
+            "r",
+            "e",
+            "l",
+            "a"
+          ],
+          "pos": 6,
+          "split": [
+            "es",
+            "tre",
+            "la"
+          ]
+        },
+        {
+          "theme": "classroom",
+          "noun": "scissors",
+          "key": "scissors",
+          "word": "tesoura",
+          "graphemes": [
+            "t",
+            "e",
+            "s",
+            "o",
+            "u",
+            "r",
+            "a"
+          ],
+          "pos": 6,
+          "split": [
+            "te",
+            "sou",
+            "ra"
+          ]
+        },
+        {
+          "theme": "easter",
+          "noun": "basket",
+          "key": "basket",
+          "word": "cesta",
+          "graphemes": [
+            "c",
+            "e",
+            "s",
+            "t",
+            "a"
+          ],
+          "pos": 4,
+          "split": [
+            "ces",
+            "ta"
+          ]
+        },
+        {
+          "theme": "christmas",
+          "noun": "candle",
+          "key": "candle",
+          "word": "vela",
+          "graphemes": [
+            "v",
+            "e",
+            "l",
+            "a"
+          ],
+          "pos": 3,
+          "split": [
+            "ve",
+            "la"
+          ]
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "zebra",
+          "key": "zebra",
+          "word": "zebra",
+          "graphemes": [
+            "z",
+            "e",
+            "b",
+            "r",
+            "a"
+          ],
+          "pos": 4,
+          "split": [
+            "ze",
+            "bra"
+          ]
+        },
+        {
+          "theme": "body parts",
+          "noun": "nail",
+          "key": "nail",
+          "word": "unha",
+          "graphemes": [
+            "u",
+            "nh",
+            "a"
+          ],
+          "pos": 2,
+          "split": [
+            "u",
+            "nha"
+          ]
+        },
+        {
+          "theme": "miscellaneous",
+          "noun": "house",
+          "key": "house",
+          "word": "casa",
+          "graphemes": [
+            "c",
+            "a",
+            "s",
+            "a"
+          ],
+          "pos": 1,
+          "split": [
+            "ca",
+            "sa"
+          ]
+        },
+        {
+          "theme": "farm animals",
+          "noun": "cow",
+          "key": "cow",
+          "word": "vaca",
+          "graphemes": [
+            "v",
+            "a",
+            "c",
+            "a"
+          ],
+          "pos": 1,
+          "split": [
+            "va",
+            "ca"
+          ]
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "knife",
+          "key": "knife",
+          "word": "faca",
+          "graphemes": [
+            "f",
+            "a",
+            "c",
+            "a"
+          ],
+          "pos": 1,
+          "split": [
+            "fa",
+            "ca"
+          ]
+        },
+        {
+          "theme": "furniture",
+          "noun": "bed",
+          "key": "bed",
+          "word": "cama",
+          "graphemes": [
+            "c",
+            "a",
+            "m",
+            "a"
+          ],
+          "pos": 1,
+          "split": [
+            "ca",
+            "ma"
+          ]
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "bag",
+          "key": "bag",
+          "word": "sacola",
+          "graphemes": [
+            "s",
+            "a",
+            "c",
+            "o",
+            "l",
+            "a"
+          ],
+          "pos": 1,
+          "split": [
+            "sa",
+            "co",
+            "la"
+          ]
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "giraffe",
+          "key": "giraffe",
+          "word": "girafa",
+          "graphemes": [
+            "g",
+            "i",
+            "r",
+            "a",
+            "f",
+            "a"
+          ],
+          "pos": 3,
+          "split": [
+            "gi",
+            "ra",
+            "fa"
+          ]
+        },
+        {
+          "theme": "farm animals",
+          "noun": "chicken",
+          "key": "chicken",
+          "word": "galinha",
+          "graphemes": [
+            "g",
+            "a",
+            "l",
+            "i",
+            "nh",
+            "a"
+          ],
+          "pos": 1,
+          "split": [
+            "ga",
+            "li",
+            "nha"
+          ]
+        },
+        {
+          "theme": "farm animals",
+          "noun": "goat",
+          "key": "goat",
+          "word": "cabra",
+          "graphemes": [
+            "c",
+            "a",
+            "b",
+            "r",
+            "a"
+          ],
+          "pos": 1,
+          "split": [
+            "ca",
+            "bra"
+          ]
+        },
+        {
+          "theme": "clothing",
+          "noun": "jacket",
+          "key": "jacket",
+          "word": "jaqueta",
+          "graphemes": [
+            "j",
+            "a",
+            "qu",
+            "e",
+            "t",
+            "a"
+          ],
+          "pos": 1,
+          "split": [
+            "ja",
+            "que",
+            "ta"
+          ]
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "monkey",
+          "key": "monkey",
+          "word": "macaco",
+          "graphemes": [
+            "m",
+            "a",
+            "c",
+            "a",
+            "c",
+            "o"
+          ],
+          "pos": 1,
+          "split": [
+            "ma",
+            "ca",
+            "co"
+          ]
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "panda",
+          "key": "panda",
+          "word": "panda",
+          "graphemes": [
+            "p",
+            "a",
+            "n",
+            "d",
+            "a"
+          ],
+          "pos": 1,
+          "split": [
+            "pan",
+            "da"
+          ]
+        },
+        {
+          "theme": "classroom",
+          "noun": "map",
+          "key": "map",
+          "word": "mapa",
+          "graphemes": [
+            "m",
+            "a",
+            "p",
+            "a"
+          ],
+          "pos": 1,
+          "split": [
+            "ma",
+            "pa"
+          ]
+        },
+        {
+          "theme": "farm animals",
+          "noun": "horse",
+          "key": "horse",
+          "word": "cavalo",
+          "graphemes": [
+            "c",
+            "a",
+            "v",
+            "a",
+            "l",
+            "o"
+          ],
+          "pos": 1,
+          "split": [
+            "ca",
+            "va",
+            "lo"
+          ]
+        }
+      ],
+      "foils": [
+        {
+          "theme": "christmas",
+          "noun": "elf",
+          "key": "elf",
+          "word": "elfo",
+          "graphemes": [
+            "e",
+            "l",
+            "f",
+            "o"
+          ]
+        },
+        {
+          "theme": "post office",
+          "noun": "envelope",
+          "key": "envelope",
+          "word": "envelope",
+          "graphemes": [
+            "e",
+            "n",
+            "v",
+            "e",
+            "l",
+            "o",
+            "p",
+            "e"
+          ]
+        },
+        {
+          "theme": "furniture",
+          "noun": "mirror",
+          "key": "mirror",
+          "word": "espelho",
+          "graphemes": [
+            "e",
+            "s",
+            "p",
+            "e",
+            "lh",
+            "o"
+          ]
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "squirrel",
+          "key": "squirrel",
+          "word": "esquilo",
+          "graphemes": [
+            "e",
+            "s",
+            "qu",
+            "i",
+            "l",
+            "o"
+          ]
+        },
+        {
+          "theme": "body parts",
+          "noun": "skeleton",
+          "key": "skeleton",
+          "word": "esqueleto",
+          "graphemes": [
+            "e",
+            "s",
+            "qu",
+            "e",
+            "l",
+            "e",
+            "t",
+            "o"
+          ]
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "egg",
+          "key": "egg",
+          "word": "ovo",
+          "graphemes": [
+            "o",
+            "v",
+            "o"
+          ]
+        },
+        {
+          "theme": "body parts",
+          "noun": "eye",
+          "key": "eye",
+          "word": "olho",
+          "graphemes": [
+            "o",
+            "lh",
+            "o"
+          ]
+        },
+        {
+          "theme": "ocean life",
+          "noun": "fish",
+          "key": "fish",
+          "word": "peixe",
+          "graphemes": [
+            "p",
+            "e",
+            "i",
+            "x",
+            "e"
+          ]
+        },
+        {
+          "theme": "bakery",
+          "noun": "cake",
+          "key": "cake",
+          "word": "bolo",
+          "graphemes": [
+            "b",
+            "o",
+            "l",
+            "o"
+          ]
+        },
+        {
+          "theme": "breakfast",
+          "noun": "milk",
+          "key": "milk",
+          "word": "leite",
+          "graphemes": [
+            "l",
+            "e",
+            "i",
+            "t",
+            "e"
+          ]
+        },
+        {
+          "theme": "classroom",
+          "noun": "book",
+          "key": "book",
+          "word": "livro",
+          "graphemes": [
+            "l",
+            "i",
+            "v",
+            "r",
+            "o"
+          ]
+        },
+        {
+          "theme": "body parts",
+          "noun": "finger",
+          "key": "finger",
+          "word": "dedo",
+          "graphemes": [
+            "d",
+            "e",
+            "d",
+            "o"
+          ]
+        },
+        {
+          "theme": "christmas",
+          "noun": "bell",
+          "key": "bell",
+          "word": "sino",
+          "graphemes": [
+            "s",
+            "i",
+            "n",
+            "o"
+          ]
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "bear",
+          "key": "bear",
+          "word": "urso",
+          "graphemes": [
+            "u",
+            "r",
+            "s",
+            "o"
+          ]
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "wolf",
+          "key": "wolf",
+          "word": "lobo",
+          "graphemes": [
+            "l",
+            "o",
+            "b",
+            "o"
+          ]
+        },
+        {
+          "theme": "farm animals",
+          "noun": "pig",
+          "key": "pig",
+          "word": "porco",
+          "graphemes": [
+            "p",
+            "o",
+            "r",
+            "c",
+            "o"
+          ]
+        },
+        {
+          "theme": "farm animals",
+          "noun": "donkey",
+          "key": "donkey",
+          "word": "burro",
+          "graphemes": [
+            "b",
+            "u",
+            "rr",
+            "o"
+          ]
+        },
+        {
+          "theme": "around the house",
+          "noun": "comb",
+          "key": "comb",
+          "word": "pente",
+          "graphemes": [
+            "p",
+            "e",
+            "n",
+            "t",
+            "e"
+          ]
+        },
+        {
+          "theme": "weather",
+          "noun": "sun",
+          "key": "sun",
+          "word": "sol",
+          "graphemes": [
+            "s",
+            "o",
+            "l"
+          ]
+        },
+        {
+          "theme": "space",
+          "noun": "rocket",
+          "key": "rocket",
+          "word": "foguete",
+          "graphemes": [
+            "f",
+            "o",
+            "gu",
+            "e",
+            "t",
+            "e"
+          ]
+        },
+        {
+          "theme": "vehicles",
+          "noun": "train",
+          "key": "train",
+          "word": "trem",
+          "graphemes": [
+            "t",
+            "r",
+            "e",
+            "m"
+          ]
+        }
+      ]
+    }
+  ],
+  "unitExemplar": "nh",
+  "units": [
+    {
+      "u": "nh",
+      "upper": "Nh",
+      "band": "G1",
+      "items": [
+        {
+          "theme": "around the house",
+          "noun": "bathtub",
+          "key": "bathtub",
+          "word": "banheira",
+          "graphemes": [
+            "b",
+            "a",
+            "nh",
+            "e",
+            "i",
+            "r",
+            "a"
+          ],
+          "pos": 2,
+          "split": [
+            "ba",
+            "nhei",
+            "ra"
+          ]
+        },
+        {
+          "theme": "farm animals",
+          "noun": "chick",
+          "key": "chick",
+          "word": "pintinho",
+          "graphemes": [
+            "p",
+            "i",
+            "n",
+            "t",
+            "i",
+            "nh",
+            "o"
+          ],
+          "pos": 5,
+          "split": [
+            "pin",
+            "ti",
+            "nho"
+          ]
+        },
+        {
+          "theme": "farm animals",
+          "noun": "chicken",
+          "key": "chicken",
+          "word": "galinha",
+          "graphemes": [
+            "g",
+            "a",
+            "l",
+            "i",
+            "nh",
+            "a"
+          ],
+          "pos": 4,
+          "split": [
+            "ga",
+            "li",
+            "nha"
+          ]
+        },
+        {
+          "theme": "animals",
+          "noun": "dolphin",
+          "key": "dolphin",
+          "word": "golfinho",
+          "graphemes": [
+            "g",
+            "o",
+            "l",
+            "f",
+            "i",
+            "nh",
+            "o"
+          ],
+          "pos": 5,
+          "split": [
+            "gol",
+            "fi",
+            "nho"
+          ]
+        },
+        {
+          "theme": "farm animals",
+          "noun": "duckling",
+          "key": "duckling",
+          "word": "patinho",
+          "graphemes": [
+            "p",
+            "a",
+            "t",
+            "i",
+            "nh",
+            "o"
+          ],
+          "pos": 4,
+          "split": [
+            "pa",
+            "ti",
+            "nho"
+          ]
+        },
+        {
+          "theme": "insects and bugs",
+          "noun": "worm",
+          "key": "worm",
+          "word": "minhoca",
+          "graphemes": [
+            "m",
+            "i",
+            "nh",
+            "o",
+            "c",
+            "a"
+          ],
+          "pos": 2,
+          "split": [
+            "mi",
+            "nho",
+            "ca"
+          ]
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "grasshopper",
+          "key": "grasshopper",
+          "word": "gafanhoto",
+          "graphemes": [
+            "g",
+            "a",
+            "f",
+            "a",
+            "nh",
+            "o",
+            "t",
+            "o"
+          ],
+          "pos": 4,
+          "split": [
+            "ga",
+            "fa",
+            "nho",
+            "to"
+          ]
+        },
+        {
+          "theme": "body parts",
+          "noun": "nail",
+          "key": "nail",
+          "word": "unha",
+          "graphemes": [
+            "u",
+            "nh",
+            "a"
+          ],
+          "pos": 1,
+          "split": [
+            "u",
+            "nha"
+          ]
+        },
+        {
+          "theme": "spring",
+          "noun": "nest",
+          "key": "nest",
+          "word": "ninho",
+          "graphemes": [
+            "n",
+            "i",
+            "nh",
+            "o"
+          ],
+          "pos": 2,
+          "split": [
+            "ni",
+            "nho"
+          ]
+        },
+        {
+          "theme": "camping",
+          "noun": "pinecone",
+          "key": "pinecone",
+          "word": "pinha",
+          "graphemes": [
+            "p",
+            "i",
+            "nh",
+            "a"
+          ],
+          "pos": 2,
+          "split": [
+            "pi",
+            "nha"
+          ]
+        },
+        {
+          "theme": "insects and bugs",
+          "noun": "spider",
+          "key": "spider",
+          "word": "aranha",
+          "graphemes": [
+            "a",
+            "r",
+            "a",
+            "nh",
+            "a"
+          ],
+          "pos": 3,
+          "split": [
+            "a",
+            "ra",
+            "nha"
+          ]
+        },
+        {
+          "theme": "birds 2",
+          "noun": "swallow",
+          "key": "swallow",
+          "word": "andorinha",
+          "graphemes": [
+            "a",
+            "n",
+            "d",
+            "o",
+            "r",
+            "i",
+            "nh",
+            "a"
+          ],
+          "pos": 6,
+          "split": [
+            "an",
+            "do",
+            "ri",
+            "nha"
+          ]
+        },
+        {
+          "theme": "camping",
+          "noun": "mountain",
+          "key": "mountain",
+          "word": "montanha",
+          "graphemes": [
+            "m",
+            "o",
+            "n",
+            "t",
+            "a",
+            "nh",
+            "a"
+          ],
+          "pos": 5,
+          "split": [
+            "mon",
+            "ta",
+            "nha"
+          ]
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "cart",
+          "key": "cart",
+          "word": "carrinho",
+          "graphemes": [
+            "c",
+            "a",
+            "rr",
+            "i",
+            "nh",
+            "o"
+          ],
+          "pos": 4,
+          "split": [
+            "car",
+            "ri",
+            "nho"
+          ]
+        },
+        {
+          "theme": "bakery",
+          "noun": "doughnut",
+          "key": "doughnut",
+          "word": "rosquinha",
+          "graphemes": [
+            "r",
+            "o",
+            "s",
+            "qu",
+            "i",
+            "nh",
+            "a"
+          ],
+          "pos": 5,
+          "split": [
+            "ros",
+            "qui",
+            "nha"
+          ]
+        },
+        {
+          "theme": "vehicles",
+          "noun": "truck",
+          "key": "truck",
+          "word": "caminhão",
+          "graphemes": [
+            "c",
+            "a",
+            "m",
+            "i",
+            "nh",
+            "ã",
+            "o"
+          ],
+          "pos": 4,
+          "split": [
+            "ca",
+            "mi",
+            "nhão"
+          ]
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "weasel",
+          "key": "weasel",
+          "word": "doninha",
+          "graphemes": [
+            "d",
+            "o",
+            "n",
+            "i",
+            "nh",
+            "a"
+          ],
+          "pos": 4,
+          "split": [
+            "do",
+            "ni",
+            "nha"
+          ]
+        },
+        {
+          "theme": "around the house",
+          "noun": "rake",
+          "key": "rake",
+          "word": "ancinho",
+          "graphemes": [
+            "a",
+            "n",
+            "c",
+            "i",
+            "nh",
+            "o"
+          ],
+          "pos": 4,
+          "split": [
+            "an",
+            "ci",
+            "nho"
+          ]
+        },
+        {
+          "theme": "beach",
+          "noun": "spade",
+          "key": "spade",
+          "word": "pazinha",
+          "graphemes": [
+            "p",
+            "a",
+            "z",
+            "i",
+            "nh",
+            "a"
+          ],
+          "pos": 4,
+          "split": [
+            "pa",
+            "zi",
+            "nha"
+          ]
+        },
+        {
+          "theme": "around the house",
+          "noun": "kitchen",
+          "key": "kitchen",
+          "word": "cozinha",
+          "graphemes": [
+            "c",
+            "o",
+            "z",
+            "i",
+            "nh",
+            "a"
+          ],
+          "pos": 4,
+          "split": [
+            "co",
+            "zi",
+            "nha"
+          ]
+        }
+      ],
+      "foils": [
+        {
+          "theme": "beach",
+          "noun": "flip-flops",
+          "key": "flip-flops",
+          "word": "chinelos",
+          "graphemes": [
+            "ch",
+            "i",
+            "n",
+            "e",
+            "l",
+            "o",
+            "s"
+          ]
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "chimpanzee",
+          "key": "chimpanzee",
+          "word": "chimpanzé",
+          "graphemes": [
+            "ch",
+            "i",
+            "m",
+            "p",
+            "a",
+            "n",
+            "z",
+            "é"
+          ]
+        },
+        {
+          "theme": "classroom",
+          "noun": "lunchbox",
+          "key": "lunchbox",
+          "word": "lancheira",
+          "graphemes": [
+            "l",
+            "a",
+            "n",
+            "ch",
+            "e",
+            "i",
+            "r",
+            "a"
+          ]
+        },
+        {
+          "theme": "beach",
+          "noun": "seashell",
+          "key": "seashell",
+          "word": "concha",
+          "graphemes": [
+            "c",
+            "o",
+            "n",
+            "ch",
+            "a"
+          ]
+        },
+        {
+          "theme": "pets",
+          "noun": "chinchilla",
+          "key": "chinchilla",
+          "word": "chinchila",
+          "graphemes": [
+            "ch",
+            "i",
+            "n",
+            "ch",
+            "i",
+            "l",
+            "a"
+          ]
+        },
+        {
+          "theme": "pets",
+          "noun": "cat",
+          "key": "cat",
+          "word": "gato",
+          "graphemes": [
+            "g",
+            "a",
+            "t",
+            "o"
+          ]
+        },
+        {
+          "theme": "toys",
+          "noun": "ball",
+          "key": "ball",
+          "word": "bola",
+          "graphemes": [
+            "b",
+            "o",
+            "l",
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "u": "lh",
+      "upper": "Lh",
+      "band": "G1",
+      "items": [
+        {
+          "theme": "insects and bugs",
+          "noun": "bee",
+          "key": "bee",
+          "word": "abelha",
+          "graphemes": [
+            "a",
+            "b",
+            "e",
+            "lh",
+            "a"
+          ],
+          "pos": 3,
+          "split": [
+            "a",
+            "be",
+            "lha"
+          ]
+        },
+        {
+          "theme": "vegetables",
+          "noun": "cabbage",
+          "key": "cabbage",
+          "word": "repolho",
+          "graphemes": [
+            "r",
+            "e",
+            "p",
+            "o",
+            "lh",
+            "o"
+          ],
+          "pos": 4,
+          "split": [
+            "re",
+            "po",
+            "lho"
+          ]
+        },
+        {
+          "theme": "vegetables",
+          "noun": "corn",
+          "key": "corn",
+          "word": "milho",
+          "graphemes": [
+            "m",
+            "i",
+            "lh",
+            "o"
+          ],
+          "pos": 2,
+          "split": [
+            "mi",
+            "lho"
+          ]
+        },
+        {
+          "theme": "body parts",
+          "noun": "ear",
+          "key": "ear",
+          "word": "orelha",
+          "graphemes": [
+            "o",
+            "r",
+            "e",
+            "lh",
+            "a"
+          ],
+          "pos": 3,
+          "split": [
+            "o",
+            "re",
+            "lha"
+          ]
+        },
+        {
+          "theme": "body parts",
+          "noun": "eye",
+          "key": "eye",
+          "word": "olho",
+          "graphemes": [
+            "o",
+            "lh",
+            "o"
+          ],
+          "pos": 1,
+          "split": [
+            "o",
+            "lho"
+          ]
+        },
+        {
+          "theme": "miscellaneous",
+          "noun": "leaf",
+          "key": "leaf",
+          "word": "folha",
+          "graphemes": [
+            "f",
+            "o",
+            "lh",
+            "a"
+          ],
+          "pos": 2,
+          "split": [
+            "fo",
+            "lha"
+          ]
+        },
+        {
+          "theme": "beach",
+          "noun": "island",
+          "key": "island",
+          "word": "ilha",
+          "graphemes": [
+            "i",
+            "lh",
+            "a"
+          ],
+          "pos": 1,
+          "split": [
+            "i",
+            "lha"
+          ]
+        },
+        {
+          "theme": "accessories",
+          "noun": "medal",
+          "key": "medal",
+          "word": "medalha",
+          "graphemes": [
+            "m",
+            "e",
+            "d",
+            "a",
+            "lh",
+            "a"
+          ],
+          "pos": 4,
+          "split": [
+            "me",
+            "da",
+            "lha"
+          ]
+        },
+        {
+          "theme": "furniture",
+          "noun": "mirror",
+          "key": "mirror",
+          "word": "espelho",
+          "graphemes": [
+            "e",
+            "s",
+            "p",
+            "e",
+            "lh",
+            "o"
+          ],
+          "pos": 4,
+          "split": [
+            "es",
+            "pe",
+            "lho"
+          ]
+        },
+        {
+          "theme": "farm animals",
+          "noun": "sheep",
+          "key": "sheep",
+          "word": "ovelha",
+          "graphemes": [
+            "o",
+            "v",
+            "e",
+            "lh",
+            "a"
+          ],
+          "pos": 3,
+          "split": [
+            "o",
+            "ve",
+            "lha"
+          ]
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "spoon",
+          "key": "spoon",
+          "word": "colher",
+          "graphemes": [
+            "c",
+            "o",
+            "lh",
+            "e",
+            "r"
+          ],
+          "pos": 2,
+          "split": [
+            "co",
+            "lher"
+          ]
+        },
+        {
+          "theme": "vegetables",
+          "noun": "garlic",
+          "key": "garlic",
+          "word": "alho",
+          "graphemes": [
+            "a",
+            "lh",
+            "o"
+          ],
+          "pos": 1,
+          "split": [
+            "a",
+            "lho"
+          ]
+        },
+        {
+          "theme": "farm animals",
+          "noun": "llama",
+          "key": "llama",
+          "word": "lhama",
+          "graphemes": [
+            "lh",
+            "a",
+            "m",
+            "a"
+          ],
+          "pos": 0,
+          "split": [
+            "lha",
+            "ma"
+          ]
+        },
+        {
+          "theme": "miscellaneous",
+          "noun": "scarecrow",
+          "key": "scarecrow",
+          "word": "espantalho",
+          "graphemes": [
+            "e",
+            "s",
+            "p",
+            "a",
+            "n",
+            "t",
+            "a",
+            "lh",
+            "o"
+          ],
+          "pos": 7,
+          "split": [
+            "es",
+            "pan",
+            "ta",
+            "lho"
+          ]
+        }
+      ],
+      "foils": [
+        {
+          "theme": "beach",
+          "noun": "flip-flops",
+          "key": "flip-flops",
+          "word": "chinelos",
+          "graphemes": [
+            "ch",
+            "i",
+            "n",
+            "e",
+            "l",
+            "o",
+            "s"
+          ]
+        },
+        {
+          "theme": "easter",
+          "noun": "chocolate",
+          "key": "chocolate",
+          "word": "chocolate",
+          "graphemes": [
+            "ch",
+            "o",
+            "c",
+            "o",
+            "l",
+            "a",
+            "t",
+            "e"
+          ]
+        },
+        {
+          "theme": "around the house",
+          "noun": "kettle",
+          "key": "kettle",
+          "word": "chaleira",
+          "graphemes": [
+            "ch",
+            "a",
+            "l",
+            "e",
+            "i",
+            "r",
+            "a"
+          ]
+        },
+        {
+          "theme": "vehicles",
+          "noun": "helicopter",
+          "key": "helicopter",
+          "word": "helicóptero",
+          "graphemes": [
+            "h",
+            "e",
+            "l",
+            "i",
+            "c",
+            "ó",
+            "p",
+            "t",
+            "e",
+            "r",
+            "o"
+          ]
+        },
+        {
+          "theme": "accessories",
+          "noun": "backpack",
+          "key": "backpack",
+          "word": "mochila",
+          "graphemes": [
+            "m",
+            "o",
+            "ch",
+            "i",
+            "l",
+            "a"
+          ]
+        },
+        {
+          "theme": "accessories",
+          "noun": "scarf",
+          "key": "scarf",
+          "word": "cachecol",
+          "graphemes": [
+            "c",
+            "a",
+            "ch",
+            "e",
+            "c",
+            "o",
+            "l"
+          ]
+        },
+        {
+          "theme": "pets",
+          "noun": "cat",
+          "key": "cat",
+          "word": "gato",
+          "graphemes": [
+            "g",
+            "a",
+            "t",
+            "o"
+          ]
+        },
+        {
+          "theme": "toys",
+          "noun": "ball",
+          "key": "ball",
+          "word": "bola",
+          "graphemes": [
+            "b",
+            "o",
+            "l",
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "u": "ch",
+      "upper": "Ch",
+      "band": "G1",
+      "items": [
+        {
+          "theme": "accessories",
+          "noun": "backpack",
+          "key": "backpack",
+          "word": "mochila",
+          "graphemes": [
+            "m",
+            "o",
+            "ch",
+            "i",
+            "l",
+            "a"
+          ],
+          "pos": 2,
+          "split": [
+            "mo",
+            "chi",
+            "la"
+          ]
+        },
+        {
+          "theme": "body parts",
+          "noun": "cheeks",
+          "key": "cheeks",
+          "word": "bochechas",
+          "graphemes": [
+            "b",
+            "o",
+            "ch",
+            "e",
+            "ch",
+            "a",
+            "s"
+          ],
+          "pos": 2,
+          "split": [
+            "bo",
+            "che",
+            "chas"
+          ]
+        },
+        {
+          "theme": "easter",
+          "noun": "chocolate",
+          "key": "chocolate",
+          "word": "chocolate",
+          "graphemes": [
+            "ch",
+            "o",
+            "c",
+            "o",
+            "l",
+            "a",
+            "t",
+            "e"
+          ],
+          "pos": 0,
+          "split": [
+            "cho",
+            "co",
+            "la",
+            "te"
+          ]
+        },
+        {
+          "theme": "pets",
+          "noun": "dog",
+          "key": "dog",
+          "word": "cachorro",
+          "graphemes": [
+            "c",
+            "a",
+            "ch",
+            "o",
+            "rr",
+            "o"
+          ],
+          "pos": 2,
+          "split": [
+            "ca",
+            "chor",
+            "ro"
+          ]
+        },
+        {
+          "theme": "classroom",
+          "noun": "eraser",
+          "key": "eraser",
+          "word": "borracha",
+          "graphemes": [
+            "b",
+            "o",
+            "rr",
+            "a",
+            "ch",
+            "a"
+          ],
+          "pos": 4,
+          "split": [
+            "bor",
+            "ra",
+            "cha"
+          ]
+        },
+        {
+          "theme": "beach",
+          "noun": "flip-flops",
+          "key": "flip-flops",
+          "word": "chinelos",
+          "graphemes": [
+            "ch",
+            "i",
+            "n",
+            "e",
+            "l",
+            "o",
+            "s"
+          ],
+          "pos": 0,
+          "split": [
+            "chi",
+            "ne",
+            "los"
+          ]
+        },
+        {
+          "theme": "accessories",
+          "noun": "hat",
+          "key": "hat",
+          "word": "chapéu",
+          "graphemes": [
+            "ch",
+            "a",
+            "p",
+            "é",
+            "u"
+          ],
+          "pos": 0,
+          "split": [
+            "cha",
+            "péu"
+          ]
+        },
+        {
+          "theme": "around the house",
+          "noun": "kettle",
+          "key": "kettle",
+          "word": "chaleira",
+          "graphemes": [
+            "ch",
+            "a",
+            "l",
+            "e",
+            "i",
+            "r",
+            "a"
+          ],
+          "pos": 0,
+          "split": [
+            "cha",
+            "lei",
+            "ra"
+          ]
+        },
+        {
+          "theme": "around the house",
+          "noun": "key",
+          "key": "key",
+          "word": "chave",
+          "graphemes": [
+            "ch",
+            "a",
+            "v",
+            "e"
+          ],
+          "pos": 0,
+          "split": [
+            "cha",
+            "ve"
+          ]
+        },
+        {
+          "theme": "beach",
+          "noun": "seashell",
+          "key": "seashell",
+          "word": "concha",
+          "graphemes": [
+            "c",
+            "o",
+            "n",
+            "ch",
+            "a"
+          ],
+          "pos": 3,
+          "split": [
+            "con",
+            "cha"
+          ]
+        },
+        {
+          "theme": "spring",
+          "noun": "rain",
+          "key": "rain",
+          "word": "chuva",
+          "graphemes": [
+            "ch",
+            "u",
+            "v",
+            "a"
+          ],
+          "pos": 0,
+          "split": [
+            "chu",
+            "va"
+          ]
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "sausage",
+          "key": "sausage",
+          "word": "salsicha",
+          "graphemes": [
+            "s",
+            "a",
+            "l",
+            "s",
+            "i",
+            "ch",
+            "a"
+          ],
+          "pos": 5,
+          "split": [
+            "sal",
+            "si",
+            "cha"
+          ]
+        },
+        {
+          "theme": "accessories",
+          "noun": "scarf",
+          "key": "scarf",
+          "word": "cachecol",
+          "graphemes": [
+            "c",
+            "a",
+            "ch",
+            "e",
+            "c",
+            "o",
+            "l"
+          ],
+          "pos": 2,
+          "split": [
+            "ca",
+            "che",
+            "col"
+          ]
+        },
+        {
+          "theme": "classroom",
+          "noun": "lunchbox",
+          "key": "lunchbox",
+          "word": "lancheira",
+          "graphemes": [
+            "l",
+            "a",
+            "n",
+            "ch",
+            "e",
+            "i",
+            "r",
+            "a"
+          ],
+          "pos": 3,
+          "split": [
+            "lan",
+            "chei",
+            "ra"
+          ]
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "chimpanzee",
+          "key": "chimpanzee",
+          "word": "chimpanzé",
+          "graphemes": [
+            "ch",
+            "i",
+            "m",
+            "p",
+            "a",
+            "n",
+            "z",
+            "é"
+          ],
+          "pos": 0,
+          "split": [
+            "chim",
+            "pan",
+            "zé"
+          ]
+        }
+      ],
+      "foils": [
+        {
+          "theme": "vehicles",
+          "noun": "helicopter",
+          "key": "helicopter",
+          "word": "helicóptero",
+          "graphemes": [
+            "h",
+            "e",
+            "l",
+            "i",
+            "c",
+            "ó",
+            "p",
+            "t",
+            "e",
+            "r",
+            "o"
+          ]
+        },
+        {
+          "theme": "around the house",
+          "noun": "kitchen",
+          "key": "kitchen",
+          "word": "cozinha",
+          "graphemes": [
+            "c",
+            "o",
+            "z",
+            "i",
+            "nh",
+            "a"
+          ]
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "spoon",
+          "key": "spoon",
+          "word": "colher",
+          "graphemes": [
+            "c",
+            "o",
+            "lh",
+            "e",
+            "r"
+          ]
+        },
+        {
+          "theme": "birds 2",
+          "noun": "stork",
+          "key": "stork",
+          "word": "cegonha",
+          "graphemes": [
+            "c",
+            "e",
+            "g",
+            "o",
+            "nh",
+            "a"
+          ]
+        },
+        {
+          "theme": "vegetables",
+          "noun": "cabbage",
+          "key": "cabbage",
+          "word": "repolho",
+          "graphemes": [
+            "r",
+            "e",
+            "p",
+            "o",
+            "lh",
+            "o"
+          ]
+        },
+        {
+          "theme": "pets",
+          "noun": "cat",
+          "key": "cat",
+          "word": "gato",
+          "graphemes": [
+            "g",
+            "a",
+            "t",
+            "o"
+          ]
+        },
+        {
+          "theme": "toys",
+          "noun": "ball",
+          "key": "ball",
+          "word": "bola",
+          "graphemes": [
+            "b",
+            "o",
+            "l",
+            "a"
+          ]
+        }
+      ]
+    }
+  ],
+  "refuse": {},
+  "strings": {
+    "K-317": {
+      "title": "Letra da semana: {U}{L}",
+      "instruction": "Cubra a letra maiúscula e a minúscula, circule as quatro figuras cujo nome começa com {U} e escreva uma linha de cada."
+    },
+    "K-325": {
+      "title": "Palavras com {U}: o som em qualquer lugar",
+      "instruction": "Cubra a letra e circule as quatro figuras que têm o som de {U} dentro da palavra, não no começo."
+    },
+    "K-326": {
+      "title": "No começo, no meio ou no fim? A letra {U}",
+      "instruction": "Fale o nome de cada figura. Pinte o quadradinho que mostra onde você ouve o {U}: no começo, no meio ou no fim."
+    },
+    "K-327": {
+      "title": "Circule a letra {U} nas palavras e conte",
+      "instruction": "Encontre todas as letras {U} e {L} de cada palavra e circule. Depois escreva no quadradinho quantas você achou."
+    },
+    "G1-311": {
+      "title": "Duas letras, um som só: {U}",
+      "instruction": "Cubra {L}, circule as quatro figuras que têm o som de {L} e escreva uma linha."
+    },
+    "K-328": {
+      "title": "A ou E? Escute a diferença",
+      "instruction": "Fale o nome de cada figura. Circule a letra com que ela começa: a ou e."
+    }
+  }
+}

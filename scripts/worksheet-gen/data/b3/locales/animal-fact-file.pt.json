@@ -1,0 +1,588 @@
+{
+  "labels": {
+    "class": "Classe",
+    "habitat": "Onde vive",
+    "diet": "O que come",
+    "legs": "Patas",
+    "covering": "Cobertura do corpo",
+    "fly": "Voa?",
+    "swim": "Nada?",
+    "special": "Característica especial:"
+  },
+  "eyebrow": "Nome:",
+  "drawLabel": "Desenhe onde ele vive.",
+  "sentence": "Uma frase sobre o animal:",
+  "factStarter": "{def} pode",
+  "options": {
+    "class": {
+      "mammal": {
+        "cell": "mamífero",
+        "inFrame": "um mamífero"
+      },
+      "bird": {
+        "cell": "ave",
+        "inFrame": "uma ave"
+      },
+      "reptile": {
+        "cell": "réptil",
+        "inFrame": "um réptil"
+      },
+      "fish": {
+        "cell": "peixe",
+        "inFrame": "um peixe"
+      },
+      "insect": {
+        "cell": "inseto",
+        "inFrame": "um inseto"
+      }
+    },
+    "covering": {
+      "fur": {
+        "cell": "pelos",
+        "inFrame": "pelos"
+      },
+      "feathers": {
+        "cell": "penas",
+        "inFrame": "penas"
+      },
+      "scales": {
+        "cell": "escamas",
+        "inFrame": "escamas"
+      },
+      "shell": {
+        "cell": "casco",
+        "inFrame": "um casco"
+      },
+      "spines": {
+        "cell": "espinhos",
+        "inFrame": "espinhos"
+      },
+      "skin": {
+        "cell": "pele lisa",
+        "inFrame": "pele lisa"
+      }
+    },
+    "diet": {
+      "plants": {
+        "cell": "plantas",
+        "inFrame": "plantas"
+      },
+      "meat": {
+        "cell": "carne",
+        "inFrame": "carne"
+      },
+      "both": {
+        "cell": "os dois",
+        "inFrame": "plantas e carne"
+      }
+    },
+    "habitat": {
+      "land": {
+        "cell": "terra",
+        "inFrame": "na terra"
+      },
+      "water": {
+        "cell": "água",
+        "inFrame": "na água"
+      },
+      "air": {
+        "cell": "ar",
+        "inFrame": "no ar"
+      }
+    }
+  },
+  "yesno": {
+    "yes": "sim",
+    "no": "não"
+  },
+  "legsFrames": {
+    "0": "Eu não tenho patas.",
+    "2": "Eu tenho 2 patas.",
+    "4": "Eu tenho 4 patas.",
+    "6": "Eu tenho 6 patas.",
+    "8": "Eu tenho 8 patas."
+  },
+  "animals": {
+    "cat": {
+      "name": "Gato",
+      "title": "Gato",
+      "def": "o gato",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "dog": {
+      "name": "Cachorro",
+      "title": "Cachorro",
+      "def": "o cachorro",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "horse": {
+      "name": "Cavalo",
+      "title": "Cavalo",
+      "def": "o cavalo",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "rabbit": {
+      "name": "Coelho",
+      "title": "Coelho",
+      "def": "o coelho",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "cow": {
+      "name": "Vaca",
+      "title": "Vaca",
+      "def": "a vaca",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "pig": {
+      "name": "Porco",
+      "title": "Porco",
+      "def": "o porco",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "sheep": {
+      "name": "Ovelha",
+      "title": "Ovelha",
+      "def": "a ovelha",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "goat": {
+      "name": "Cabra",
+      "title": "Cabra",
+      "def": "a cabra",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "donkey": {
+      "name": "Burro",
+      "title": "Burro",
+      "def": "o burro",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "duck": {
+      "name": "Pato",
+      "title": "Pato",
+      "def": "o pato",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "hen": {
+      "name": "Galinha",
+      "title": "Galinha",
+      "def": "a galinha",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "rooster": {
+      "name": "Galo",
+      "title": "Galo",
+      "def": "o galo",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "goose": {
+      "name": "Ganso",
+      "title": "Ganso",
+      "def": "o ganso",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "fox": {
+      "name": "Raposa",
+      "title": "Raposa",
+      "def": "a raposa",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "hedgehog": {
+      "name": "Ouriço",
+      "title": "Ouriço",
+      "def": "o ouriço",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "owl": {
+      "name": "Coruja",
+      "title": "Coruja",
+      "def": "a coruja",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "squirrel": {
+      "name": "Esquilo",
+      "title": "Esquilo",
+      "def": "o esquilo",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "bear": {
+      "name": "Urso",
+      "title": "Urso",
+      "def": "o urso",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "wolf": {
+      "name": "Lobo",
+      "title": "Lobo",
+      "def": "o lobo",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "bat": {
+      "name": "Morcego",
+      "title": "Morcego",
+      "def": "o morcego",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "beaver": {
+      "name": "Castor",
+      "title": "Castor",
+      "def": "o castor",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "moose": {
+      "name": "Alce",
+      "title": "Alce",
+      "def": "o alce",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "raccoon": {
+      "name": "Guaxinim",
+      "title": "Guaxinim",
+      "def": "o guaxinim",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "butterfly": {
+      "name": "Borboleta",
+      "title": "Borboleta",
+      "def": "a borboleta",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "bee": {
+      "name": "Abelha",
+      "title": "Abelha",
+      "def": "a abelha",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "ladybug": {
+      "name": "Joaninha",
+      "title": "Joaninha",
+      "def": "a joaninha",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "ant": {
+      "name": "Formiga",
+      "title": "Formiga",
+      "def": "a formiga",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "lion": {
+      "name": "Leão",
+      "title": "Leão",
+      "def": "o leão",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "tiger": {
+      "name": "Tigre",
+      "title": "Tigre",
+      "def": "o tigre",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "elephant": {
+      "name": "Elefante",
+      "title": "Elefante",
+      "def": "o elefante",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "giraffe": {
+      "name": "Girafa",
+      "title": "Girafa",
+      "def": "a girafa",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "zebra": {
+      "name": "Zebra",
+      "title": "Zebra",
+      "def": "a zebra",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "monkey": {
+      "name": "Macaco",
+      "title": "Macaco",
+      "def": "o macaco",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "kangaroo": {
+      "name": "Canguru",
+      "title": "Canguru",
+      "def": "o canguru",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "camel": {
+      "name": "Camelo",
+      "title": "Camelo",
+      "def": "o camelo",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "hippopotamus": {
+      "name": "Hipopótamo",
+      "title": "Hipopótamo",
+      "def": "o hipopótamo",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "panda": {
+      "name": "Panda",
+      "title": "Panda",
+      "def": "o panda",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "koala": {
+      "name": "Coala",
+      "title": "Coala",
+      "def": "o coala",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "penguin": {
+      "name": "Pinguim",
+      "title": "Pinguim",
+      "def": "o pinguim",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "eagle": {
+      "name": "Águia",
+      "title": "Águia",
+      "def": "a águia",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "parrot": {
+      "name": "Papagaio",
+      "title": "Papagaio",
+      "def": "o papagaio",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "flamingo": {
+      "name": "Flamingo",
+      "title": "Flamingo",
+      "def": "o flamingo",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "ostrich": {
+      "name": "Avestruz",
+      "title": "Avestruz",
+      "def": "o avestruz",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "swan": {
+      "name": "Cisne",
+      "title": "Cisne",
+      "def": "o cisne",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "lizard": {
+      "name": "Lagarto",
+      "title": "Lagarto",
+      "def": "o lagarto",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "turtle": {
+      "name": "Tartaruga",
+      "title": "Tartaruga",
+      "def": "a tartaruga",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "fish": {
+      "name": "Peixe",
+      "title": "Peixe",
+      "def": "o peixe",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "goldfish": {
+      "name": "Peixe dourado",
+      "title": "Peixe dourado",
+      "def": "o peixe dourado",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "shark": {
+      "name": "Tubarão",
+      "title": "Tubarão",
+      "def": "o tubarão",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "hamster": {
+      "name": "Hamster",
+      "title": "Hamster",
+      "def": "o hamster",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "mouse": {
+      "name": "Rato",
+      "title": "Rato",
+      "def": "o rato",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "frog": {
+      "name": "Rã",
+      "title": "Rã",
+      "def": "a rã",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    }
+  },
+  "frames": [
+    {
+      "field": "class",
+      "text": "{def} é"
+    },
+    {
+      "field": "covering",
+      "text": "{def} tem"
+    },
+    {
+      "field": "diet",
+      "text": "{def} come"
+    }
+  ],
+  "frameCaption": "Escreva três frases sobre o animal:",
+  "sameDiff": {
+    "same": "igual",
+    "diff": "diferente",
+    "laneSame": "Igual:",
+    "laneDiff": "Diferente:",
+    "caption": "Escreva o que é igual e o que é diferente:"
+  },
+  "mystery": {
+    "class": "Eu sou {inFrame}.",
+    "covering": "Eu tenho {inFrame}.",
+    "diet": "Eu como {inFrame}.",
+    "habitat": "Eu vivo {inFrame}.",
+    "fly": {
+      "true": "Eu sei voar.",
+      "false": "Eu não sei voar."
+    },
+    "swim": {
+      "true": "Eu sei nadar.",
+      "false": "Eu não sei nadar."
+    },
+    "prompt": "Quem sou eu?"
+  },
+  "allowCompound": [],
+  "blankTitle": "Modelo",
+  "strings": {
+    "G2-318": {
+      "title": "Tudo sobre o animal: {U}",
+      "instruction": "Pesquise sobre este animal. Escreva um fato em cada linha do quadro e depois complete o resto da página com desenhos ou palavras suas."
+    },
+    "G2-339": {
+      "title": "{U}: marque os fatos certos",
+      "instruction": "Leia as opções de cada linha e circule a que é verdadeira para este animal. Depois desenhe onde ele vive e complete a frase."
+    },
+    "G2-340": {
+      "title": "{U}: complete com o banco de palavras",
+      "instruction": "Ache cada fato verdadeiro no banco de palavras e copie na linha certa do quadro. Depois complete a frase de baixo."
+    },
+    "G2-341": {
+      "title": "{U}: escreva três frases",
+      "instruction": "Leia o quadro do animal. Complete as três frases com fatos dele e depois escreva mais um fato seu na última linha."
+    },
+    "G2-342": {
+      "title": "Compare dois animais: igual e diferente",
+      "instruction": "Leia os dois quadros. Em cada fato, circule igual ou diferente. Depois escreva duas coisas iguais e duas diferentes."
+    },
+    "G2-343": {
+      "title": "Quem sou eu? Animal misterioso",
+      "instruction": "Leia as cinco pistas de cada cartão. Ache o animal no banco de figuras, escreva o nome dele na linha e desenhe no quadro."
+    }
+  }
+}

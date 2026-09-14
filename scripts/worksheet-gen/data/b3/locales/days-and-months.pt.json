@@ -1,0 +1,47 @@
+{
+  "names": "calendar",
+  "labels": {
+    "yesterday": "ontem",
+    "today": "hoje",
+    "tomorrow": "amanhã",
+    "before": "antes",
+    "after": "depois"
+  },
+  "alt": {
+    "days": {},
+    "labels": {}
+  },
+  "dayShort": null,
+  "laneGlyphH": {
+    "days": 40,
+    "months": 32,
+    "neighbours": 28
+  },
+  "abbrev": "calendar",
+  "strings": {
+    "K-321": {
+      "title": "Os dias da semana em ordem",
+      "instruction": "O primeiro dia da semana já tem o número 1. Numere os outros dias de 2 a 7 na ordem em que eles vêm."
+    },
+    "K-337": {
+      "title": "Dias que faltam: complete a semana",
+      "instruction": "Alguns dias já estão escritos na escada. Copie os dias que faltam do banco de palavras para o lugar certo."
+    },
+    "G1-319": {
+      "title": "Ontem, hoje e amanhã",
+      "instruction": "O dia do meio é hoje. Escreva que dia foi ontem e que dia será amanhã."
+    },
+    "G1-320": {
+      "title": "Os meses do ano em ordem",
+      "instruction": "Janeiro já tem o número 1. Numere os outros meses de 2 a 12 na ordem do ano."
+    },
+    "G1-321": {
+      "title": "O mês anterior e o mês seguinte",
+      "instruction": "No meio há um mês. Escreva o mês que vem antes dele e o mês que vem depois."
+    },
+    "G1-322": {
+      "title": "Dias da semana: abreviaturas",
+      "instruction": "Leia cada abreviatura e ligue ao dia da semana que ela representa."
+    }
+  }
+}

@@ -258,5 +258,85 @@
   "grid-coordinates": {
     "full": "Pintar cada quadradinho indicado na malha de letras e números ensina a ler coordenadas e revela uma figura escondida.",
     "short": "Ensina a leitura de coordenadas na malha."
+  },
+  "letter-of-the-week": {
+    "full": "Atividades da letra da semana para imprimir: cubra a letra, circule as figuras que começam com ela e escreva uma linha na educação infantil.",
+    "short": "Letra da semana: cubra, circule e escreva"
+  },
+  "sound-boxes": {
+    "full": "Caixinhas de sons para imprimir: a criança fala a palavra devagar e escreve um som em cada caixinha, treinando a consciência fonêmica.",
+    "short": "Caixinhas de sons: um som por caixinha"
+  },
+  "feelings": {
+    "full": "Emoções e sentimentos para imprimir na educação infantil: ligue cada carinha à palavra, desenhe a emoção e conte como você se sente hoje.",
+    "short": "Emoções e sentimentos com carinhas"
+  },
+  "ordinal-numbers": {
+    "full": "Números ordinais para imprimir: primeiro, segundo, terceiro até décimo, contando a partir da bandeira e escrevendo a colocação.",
+    "short": "Números ordinais de 1º a 10º"
+  },
+  "days-and-months": {
+    "full": "Dias da semana e meses do ano para imprimir: numere em ordem, complete a escada, escreva ontem e amanhã e ligue as abreviaturas.",
+    "short": "Dias da semana e meses do ano"
+  },
+  "seasons": {
+    "full": "As quatro estações do ano para imprimir, do jeito que acontecem no Brasil: separe as figuras, monte a roda e pinte os meses de cada estação.",
+    "short": "Estações do ano no Brasil"
+  },
+  "all-about-me": {
+    "full": "Quem sou eu para imprimir na educação infantil: nome, idade, família, partes do rosto, coisas favoritas e o que eu já sei fazer.",
+    "short": "Quem sou eu: tudo sobre mim"
+  },
+  "picture-word-cards": {
+    "full": "Cartões de figura e palavra para recortar: jogo da memória, artigo o ou a, singular e plural, bilíngue e cartões silabados.",
+    "short": "Cartões de figura e palavra para recortar"
+  },
+  "syllable-split": {
+    "full": "Separação de sílabas para imprimir no 1º ano: bata palmas, marque cada sílaba com um tracinho e classifique as palavras.",
+    "short": "Separação de sílabas com figuras"
+  },
+  "syllable-reading": {
+    "full": "Famílias silábicas para imprimir: leia o tapete de sílabas em voz alta e escreva a primeira sílaba de cada figura no 1º ano.",
+    "short": "Família silábica: leia e escreva a sílaba"
+  },
+  "opposites": {
+    "full": "Antônimos para imprimir no 1º ano: ligue os contrários, complete frases e forme pares de palavras opostas com figuras.",
+    "short": "Antônimos: ligue e escreva o contrário"
+  },
+  "read-and-do": {
+    "full": "Leia e faça para imprimir: a criança lê uma frase e faz com o lápis o que ela manda na fileira de figuras, treinando a compreensão leitora.",
+    "short": "Leia e faça: compreensão de frases"
+  },
+  "rhyming-words": {
+    "full": "Palavras que rimam para imprimir no 1º ano: circule a figura que rima, separe as rimas e complete versinhos com a palavra certa.",
+    "short": "Palavras que rimam com figuras"
+  },
+  "hundreds-chart-puzzles": {
+    "full": "Peças do quadro numérico para imprimir: complete os números que faltam com 1 a mais, 1 a menos, 10 a mais e 10 a menos até 100.",
+    "short": "Quadro numérico: complete as peças"
+  },
+  "spelling-rules": {
+    "full": "Regras de ortografia do 2º ano para imprimir: s ou ss, r ou rr, ch ou x, m antes de p e b, c ou ç, com figuras e caixinhas para completar.",
+    "short": "Regras de ortografia com figuras"
+  },
+  "compound-words": {
+    "full": "Diminutivo e aumentativo para imprimir no 2º ano: raiz e sufixo, -inho e -ão, com figuras que mudam de tamanho e palavras que só parecem.",
+    "short": "Diminutivo e aumentativo: -inho e -ão"
+  },
+  "verb-forms": {
+    "full": "Conjugação de verbos no presente para imprimir: eu, você, ele, nós, vocês e eles, com figuras, frases e os verbos ser, estar, ter e ir.",
+    "short": "Conjugação de verbos no presente"
+  },
+  "animal-fact-file": {
+    "full": "Ficha técnica do animal para imprimir no 2º ano: classe, alimentação, onde vive, cobertura do corpo e patas, com frases para completar.",
+    "short": "Ficha do animal: pesquise e escreva"
+  },
+  "logic-puzzles": {
+    "full": "Desafios de raciocínio lógico para imprimir: leia as pistas, risque o que não pode ser na tabela e descubra a figura de cada criança.",
+    "short": "Raciocínio lógico com tabela e pistas"
+  },
+  "division-with-remainder": {
+    "full": "Divisão com resto para imprimir no 3º ano: circule grupos, reparta figuras, decida se a divisão é exata e encontre o erro no resto.",
+    "short": "Divisão com resto: grupos e quociente"
   }
 }

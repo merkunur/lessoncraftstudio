@@ -1,0 +1,52 @@
+{
+  "mark": "bar",
+  "hyphen": "-",
+  "casing": "lower",
+  "kings": true,
+  "vowelExtra": [
+    "á",
+    "é",
+    "í",
+    "ó",
+    "ú",
+    "â",
+    "ê",
+    "ô",
+    "ã",
+    "õ",
+    "à"
+  ],
+  "strictPool": null,
+  "refuse": {
+    "finalMuteE": false
+  },
+  "sortLabels": {
+    "2": "dissílabas",
+    "3": "trissílabas"
+  },
+  "example": {
+    "vocabKey": "monkey"
+  },
+  "instructionTavutettu": null,
+  "exclude": [
+    "projector",
+    "papaya",
+    "rudolph",
+    "bagel",
+    "macaron",
+    "muffin",
+    "brownie",
+    "cupcake",
+    "milkshake",
+    "bacon",
+    "closet",
+    "shorts",
+    "tablet",
+    "snorkel",
+    "lego",
+    "chef",
+    "kiwi",
+    "van",
+    "jet"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "exemplar": "2-5",
+  "unitLabels": {
+    "2-5": "por 2, 3, 4 e 5",
+    "6-9": "por 6, 7, 8 e 9",
+    "2-9": "por 2 a 9"
+  },
+  "notation": {
+    "op": "÷",
+    "template": "{n} ÷ {d} = {q} r {r}",
+    "boxStyle": "casita",
+    "remWord": "",
+    "exactWord": "exata",
+    "restWord": "não exata",
+    "leftoverLabel": "sobram",
+    "rightWord": "certo",
+    "wrongWord": "errado",
+    "kinds": {
+      "quotative": "formar grupos",
+      "partitive": "repartir"
+    }
+  },
+  "strings": {
+    "G3-377": {
+      "title": "Divisão com resto: circule os grupos",
+      "instruction": "Circule grupos do segundo número em cada monte. Escreva quantos grupos você formou e quantas figuras sobraram."
+    },
+    "F1": {
+      "title": "Reparta e descubra quanto sobra",
+      "instruction": "Reparta o monte nas caixas, um de cada vez. Escreva quantos cada caixa recebe e quantos não dá para repartir."
+    },
+    "F2": {
+      "title": "Divisão com resto: exercícios",
+      "instruction": "Em todas estas divisões sobra alguma coisa. Escreva o quociente e o resto de cada uma."
+    },
+    "F3": {
+      "title": "Divisão exata ou não exata?",
+      "instruction": "Decida se cada divisão é exata ou não. Circule a sua resposta e escreva o resto; escreva 0 se não sobra nada."
+    },
+    "F4": {
+      "title": "Encontre o erro: o resto é grande demais",
+      "instruction": "Todas as divisões foram feitas errado. Risque os números errados e escreva nas caixas o quociente e o resto certos."
+    },
+    "F5": {
+      "title": "Divisão na reta numérica: quanto sobra?",
+      "instruction": "Comece no número marcado e desenhe saltos para trás do mesmo tamanho até não caber mais um salto inteiro. Escreva os saltos e onde você para."
+    }
+  }
+}

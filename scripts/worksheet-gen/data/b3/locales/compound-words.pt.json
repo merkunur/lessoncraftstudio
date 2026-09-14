@@ -1,0 +1,834 @@
+{
+  "shape": "alterati",
+  "casing": "lower",
+  "links": [
+    ""
+  ],
+  "linkBoxW": 36,
+  "exemplar": "A",
+  "units": [
+    {
+      "id": "A",
+      "items": [
+        {
+          "a": {
+            "vocabKey": "duck",
+            "word": "pato",
+            "pic": {
+              "theme": "farm animals",
+              "noun": "duck"
+            }
+          },
+          "aStem": "pat",
+          "link": "",
+          "b": {
+            "affix": "-inho"
+          },
+          "whole": {
+            "word": "patinho",
+            "vocabKey": "duckling",
+            "scale": 1,
+            "pic": {
+              "theme": "farm animals",
+              "noun": "duckling"
+            }
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "bread",
+            "word": "pão",
+            "pic": {
+              "theme": "At the Supermarket",
+              "noun": "bread"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "affix": "-zinho"
+          },
+          "whole": {
+            "word": "pãozinho",
+            "vocabKey": "bun",
+            "scale": 1,
+            "pic": {
+              "theme": "bakery",
+              "noun": "bun"
+            }
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "shovel",
+            "word": "pá",
+            "pic": {
+              "theme": "toys",
+              "noun": "shovel"
+            }
+          },
+          "aStem": "pa",
+          "link": "",
+          "b": {
+            "affix": "-zinha"
+          },
+          "whole": {
+            "word": "pazinha",
+            "vocabKey": "spade",
+            "scale": 1,
+            "pic": {
+              "theme": "beach",
+              "noun": "spade"
+            }
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "door",
+            "word": "porta",
+            "pic": {
+              "theme": "around the house",
+              "noun": "door"
+            }
+          },
+          "aStem": "port",
+          "link": "",
+          "b": {
+            "affix": "-ão"
+          },
+          "whole": {
+            "word": "portão",
+            "vocabKey": "gate",
+            "scale": 1,
+            "pic": {
+              "theme": "around the house",
+              "noun": "gate"
+            }
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "house",
+            "word": "casa",
+            "pic": {
+              "theme": "miscellaneous",
+              "noun": "house"
+            }
+          },
+          "aStem": "cas",
+          "link": "",
+          "b": {
+            "affix": "-inha"
+          },
+          "whole": {
+            "word": "casinha",
+            "vocabKey": "birdhouse",
+            "scale": 1,
+            "pic": {
+              "theme": "spring",
+              "noun": "birdhouse"
+            }
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "lizard",
+            "word": "lagarto",
+            "pic": {
+              "theme": "forest creatures",
+              "noun": "lizard"
+            }
+          },
+          "aStem": "lagart",
+          "link": "",
+          "b": {
+            "affix": "-ixa"
+          },
+          "whole": {
+            "word": "lagartixa",
+            "vocabKey": "gecko",
+            "scale": 1,
+            "pic": {
+              "theme": "pets",
+              "noun": "gecko"
+            }
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "bench",
+            "word": "banco",
+            "pic": {
+              "theme": "furniture",
+              "noun": "bench"
+            }
+          },
+          "aStem": "banqu",
+          "link": "",
+          "b": {
+            "affix": "-eta"
+          },
+          "whole": {
+            "word": "banqueta",
+            "vocabKey": "stool",
+            "scale": 1,
+            "pic": {
+              "theme": "furniture",
+              "noun": "stool"
+            }
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "table",
+            "word": "mesa",
+            "pic": {
+              "theme": "furniture",
+              "noun": "table"
+            }
+          },
+          "aStem": "mes",
+          "link": "",
+          "b": {
+            "affix": "-ona"
+          },
+          "whole": {
+            "word": "mesona",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "mouth",
+            "word": "boca",
+            "pic": {
+              "theme": "body parts",
+              "noun": "mouth"
+            }
+          },
+          "aStem": "boc",
+          "link": "",
+          "b": {
+            "affix": "-arra"
+          },
+          "whole": {
+            "word": "bocarra",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "foot",
+            "word": "pé",
+            "pic": {
+              "theme": "body parts",
+              "noun": "foot"
+            }
+          },
+          "aStem": "pe",
+          "link": "",
+          "b": {
+            "affix": "-zão"
+          },
+          "whole": {
+            "word": "pezão",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "rain",
+            "word": "chuva",
+            "pic": {
+              "theme": "spring",
+              "noun": "rain"
+            }
+          },
+          "aStem": "chuv",
+          "link": "",
+          "b": {
+            "affix": "-isco"
+          },
+          "whole": {
+            "word": "chuvisco",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "island",
+            "word": "ilha",
+            "pic": {
+              "theme": "beach",
+              "noun": "island"
+            }
+          },
+          "aStem": "ilh",
+          "link": "",
+          "b": {
+            "affix": "-ota"
+          },
+          "whole": {
+            "word": "ilhota",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "mouse",
+            "word": "rato",
+            "pic": {
+              "theme": "pets",
+              "noun": "mouse"
+            }
+          },
+          "aStem": "rat",
+          "link": "",
+          "b": {
+            "affix": "-azana"
+          },
+          "whole": {
+            "word": "ratazana",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "head",
+            "word": "cabeça",
+            "pic": {
+              "theme": "body parts",
+              "noun": "head"
+            }
+          },
+          "aStem": "cabeç",
+          "link": "",
+          "b": {
+            "affix": "-orra"
+          },
+          "whole": {
+            "word": "cabeçorra",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "boat",
+            "word": "barco",
+            "pic": {
+              "theme": "vehicles",
+              "noun": "boat"
+            }
+          },
+          "aStem": "barc",
+          "link": "",
+          "b": {
+            "affix": "-aça"
+          },
+          "whole": {
+            "word": "barcaça",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        }
+      ]
+    }
+  ],
+  "opaque": [],
+  "onePart": [],
+  "hubs": [],
+  "foils": [
+    {
+      "vocabKey": "chicken",
+      "word": "galinha",
+      "looksLike": [],
+      "pic": {
+        "theme": "farm animals",
+        "noun": "chicken"
+      }
+    },
+    {
+      "vocabKey": "kitchen",
+      "word": "cozinha",
+      "looksLike": [],
+      "pic": {
+        "theme": "around the house",
+        "noun": "kitchen"
+      }
+    },
+    {
+      "vocabKey": "swallow",
+      "word": "andorinha",
+      "looksLike": [],
+      "pic": {
+        "theme": "birds 2",
+        "noun": "swallow"
+      }
+    },
+    {
+      "vocabKey": "worm",
+      "word": "minhoca",
+      "looksLike": [],
+      "pic": {
+        "theme": "insects and bugs",
+        "noun": "worm"
+      }
+    },
+    {
+      "vocabKey": "mountain",
+      "word": "montanha",
+      "looksLike": [],
+      "pic": {
+        "theme": "camping",
+        "noun": "mountain"
+      }
+    },
+    {
+      "vocabKey": "stork",
+      "word": "cegonha",
+      "looksLike": [],
+      "pic": {
+        "theme": "birds 2",
+        "noun": "stork"
+      }
+    },
+    {
+      "vocabKey": "handsaw",
+      "word": "serrote",
+      "looksLike": [],
+      "pic": {
+        "theme": "tools",
+        "noun": "handsaw"
+      }
+    },
+    {
+      "vocabKey": "package",
+      "word": "pacote",
+      "looksLike": [],
+      "pic": {
+        "theme": "post office",
+        "noun": "package"
+      }
+    },
+    {
+      "vocabKey": "heart",
+      "word": "coração",
+      "looksLike": [],
+      "pic": {
+        "theme": "shapes",
+        "noun": "heart"
+      }
+    },
+    {
+      "vocabKey": "shark",
+      "word": "tubarão",
+      "looksLike": [],
+      "pic": {
+        "theme": "ocean life",
+        "noun": "shark"
+      }
+    },
+    {
+      "vocabKey": "jumpsuit",
+      "word": "macacão",
+      "looksLike": [],
+      "pic": {
+        "theme": "clothing",
+        "noun": "jumpsuit"
+      }
+    },
+    {
+      "vocabKey": "gorilla",
+      "word": "gorila",
+      "looksLike": [],
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "gorilla"
+      }
+    },
+    {
+      "vocabKey": "backpack",
+      "word": "mochila",
+      "looksLike": [],
+      "pic": {
+        "theme": "accessories",
+        "noun": "backpack"
+      }
+    },
+    {
+      "vocabKey": "weasel",
+      "word": "doninha",
+      "looksLike": [],
+      "pic": {
+        "theme": "forest creatures",
+        "noun": "weasel"
+      }
+    }
+  ],
+  "sizePairs": [
+    {
+      "base": {
+        "vocabKey": "cat",
+        "word": "gato",
+        "pic": {
+          "theme": "pets",
+          "noun": "cat"
+        }
+      },
+      "small": "gatinho",
+      "big": "gatão"
+    },
+    {
+      "base": {
+        "vocabKey": "dog",
+        "word": "cachorro",
+        "pic": {
+          "theme": "pets",
+          "noun": "dog"
+        }
+      },
+      "small": "cachorrinho",
+      "big": "cachorrão"
+    },
+    {
+      "base": {
+        "vocabKey": "duck",
+        "word": "pato",
+        "pic": {
+          "theme": "farm animals",
+          "noun": "duck"
+        }
+      },
+      "small": "patinho",
+      "big": "patão"
+    },
+    {
+      "base": {
+        "vocabKey": "fish",
+        "word": "peixe",
+        "pic": {
+          "theme": "ocean life",
+          "noun": "fish"
+        }
+      },
+      "small": "peixinho",
+      "big": "peixão"
+    },
+    {
+      "base": {
+        "vocabKey": "bear",
+        "word": "urso",
+        "pic": {
+          "theme": "zoo animals",
+          "noun": "bear"
+        }
+      },
+      "small": "ursinho",
+      "big": "ursão"
+    },
+    {
+      "base": {
+        "vocabKey": "shoe",
+        "word": "sapato",
+        "pic": {
+          "theme": "clothing",
+          "noun": "shoe"
+        }
+      },
+      "small": "sapatinho",
+      "big": "sapatão"
+    },
+    {
+      "base": {
+        "vocabKey": "car",
+        "word": "carro",
+        "pic": {
+          "theme": "vehicles",
+          "noun": "car"
+        }
+      },
+      "small": "carrinho",
+      "big": "carrão"
+    },
+    {
+      "base": {
+        "vocabKey": "house",
+        "word": "casa",
+        "pic": {
+          "theme": "miscellaneous",
+          "noun": "house"
+        }
+      },
+      "small": "casinha",
+      "big": "casarão"
+    },
+    {
+      "base": {
+        "vocabKey": "ball",
+        "word": "bola",
+        "pic": {
+          "theme": "toys",
+          "noun": "ball"
+        }
+      },
+      "small": "bolinha",
+      "big": "bolão"
+    },
+    {
+      "base": {
+        "vocabKey": "glass",
+        "word": "copo",
+        "pic": {
+          "theme": "kitchen tools",
+          "noun": "glass"
+        }
+      },
+      "small": "copinho",
+      "big": "copão"
+    },
+    {
+      "base": {
+        "vocabKey": "book",
+        "word": "livro",
+        "pic": {
+          "theme": "classroom",
+          "noun": "book"
+        }
+      },
+      "small": "livrinho",
+      "big": "livrão"
+    },
+    {
+      "base": {
+        "vocabKey": "pot",
+        "word": "panela",
+        "pic": {
+          "theme": "kitchen tools",
+          "noun": "pot"
+        }
+      },
+      "small": "panelinha",
+      "big": "panelão"
+    }
+  ],
+  "crossWords": [],
+  "refuse": {
+    "F1": true,
+    "F3": true,
+    "F5": false
+  },
+  "opened": {
+    "farm animals/duck": [
+      "duck"
+    ],
+    "farm animals/duckling": [
+      "duckling"
+    ],
+    "At the Supermarket/bread": [
+      "bread"
+    ],
+    "bakery/bun": [
+      "bun"
+    ],
+    "toys/shovel": [
+      "shovel"
+    ],
+    "beach/spade": [
+      "spade"
+    ],
+    "around the house/door": [
+      "door"
+    ],
+    "around the house/gate": [
+      "gate"
+    ],
+    "miscellaneous/house": [
+      "house"
+    ],
+    "spring/birdhouse": [
+      "birdhouse"
+    ],
+    "forest creatures/lizard": [
+      "lizard"
+    ],
+    "pets/gecko": [
+      "gecko"
+    ],
+    "furniture/bench": [
+      "bench"
+    ],
+    "furniture/stool": [
+      "stool"
+    ],
+    "furniture/table": [
+      "table"
+    ],
+    "body parts/mouth": [
+      "mouth"
+    ],
+    "body parts/foot": [
+      "foot"
+    ],
+    "spring/rain": [
+      "rain"
+    ],
+    "beach/island": [
+      "island"
+    ],
+    "pets/mouse": [
+      "mouse"
+    ],
+    "body parts/head": [
+      "head"
+    ],
+    "vehicles/boat": [
+      "boat"
+    ],
+    "farm animals/chicken": [
+      "chicken"
+    ],
+    "around the house/kitchen": [
+      "kitchen"
+    ],
+    "birds 2/swallow": [
+      "swallow"
+    ],
+    "insects and bugs/worm": [
+      "worm"
+    ],
+    "camping/mountain": [
+      "mountain"
+    ],
+    "birds 2/stork": [
+      "stork"
+    ],
+    "tools/handsaw": [
+      "handsaw"
+    ],
+    "post office/package": [
+      "package"
+    ],
+    "shapes/heart": [
+      "heart"
+    ],
+    "ocean life/shark": [
+      "shark"
+    ],
+    "clothing/jumpsuit": [
+      "jumpsuit"
+    ],
+    "zoo animals/gorilla": [
+      "gorilla"
+    ],
+    "accessories/backpack": [
+      "backpack"
+    ],
+    "forest creatures/weasel": [
+      "weasel"
+    ],
+    "pets/cat": [
+      "cat"
+    ],
+    "pets/dog": [
+      "dog"
+    ],
+    "ocean life/fish": [
+      "fish"
+    ],
+    "zoo animals/bear": [
+      "bear"
+    ],
+    "clothing/shoe": [
+      "shoe"
+    ],
+    "vehicles/car": [
+      "car"
+    ],
+    "toys/ball": [
+      "ball"
+    ],
+    "kitchen tools/glass": [
+      "glass"
+    ],
+    "classroom/book": [
+      "book"
+    ],
+    "kitchen tools/pot": [
+      "pot"
+    ]
+  },
+  "strings": {
+    "G2-316": {
+      "title": "Diminutivo e aumentativo: raiz e sufixo",
+      "instruction": "Olhe a figura e leia o sufixo. Escreva na linha a palavra no diminutivo ou no aumentativo."
+    },
+    "G2-329": {
+      "title": "O que vai no meio? Junte a raiz e o sufixo",
+      "instruction": "Leia a raiz e o sufixo. Escreva no quadradinho a letra que liga as duas partes e depois a palavra inteira."
+    },
+    "G2-331": {
+      "title": "Ligue as metades das palavras",
+      "instruction": "Ligue cada figura da esquerda à figura da direita que forma uma palavra da mesma família e escreva a palavra."
+    },
+    "G2-332": {
+      "title": "Detetive do diminutivo e do aumentativo",
+      "instruction": "Circule as palavras que estão no diminutivo ou no aumentativo e escreva a raiz e o sufixo. Cuidado com as que só parecem."
+    },
+    "G2-333": {
+      "title": "Diminutivo e aumentativo: -inho e -ão",
+      "instruction": "Repare no tamanho da figura. Se ela é pequena, escreva a palavra com -inho; se é grande, escreva com -ão."
+    }
+  }
+}

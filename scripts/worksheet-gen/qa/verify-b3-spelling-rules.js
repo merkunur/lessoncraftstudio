@@ -440,8 +440,8 @@ async function sectionPoisons(page, en) {
   try { spec.build({ theme: null, difficulty: 2, locale: 'en', unit: 'ss-sz' }, { rng: rng() }); } catch (e) { threw = e.message; }
   poison('an unauthored unit (ss-sz) builds', [threw || ''], /not in the bank/);
   threw = null;
-  try { spec.build({ theme: null, difficulty: 2, locale: 'de' }, { rng: rng() }); } catch (e) { threw = e.message; }
-  poison('a locale without a bank block (de) builds', [threw || ''], /no xx block/);
+  try { spec.build({ theme: null, difficulty: 2, locale: 'xx' }, { rng: rng() }); } catch (e) { threw = e.message; }
+  poison('a locale without a bank block (xx) builds', [threw || ''], /no xx block/);
   threw = null;
   b = clone(en); b.rules['magic-e'].models = b.rules['magic-e'].models.slice(0, 1);
   try { spec._buildWith(b, { difficulty: 1, locale: 'en', unit: null }, { rng: rng() }); } catch (e) { threw = e.message; }

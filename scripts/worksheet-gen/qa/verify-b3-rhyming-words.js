@@ -818,8 +818,8 @@ async function main() {
     // a locale without a bank block REFUSES (never an en fallback)
     {
       let msg = '';
-      try { TYPE.build({ theme: null, difficulty: 2, locale: 'de' }, { rng: makeRng('x') }); } catch (e) { msg = e.message; }
-      if (judge('PL', msg ? [msg] : [], /has no de block/)) killed++;
+      try { TYPE.build({ theme: null, difficulty: 2, locale: 'xx' }, { rng: makeRng('x') }); } catch (e) { msg = e.message; }
+      if (judge('PL', msg ? [msg] : [], /has no xx block/)) killed++;
     }
 
     // 5. the faces through the real pipeline (d2 en; the worst legal chrome; the K shapes; a unit each)
@@ -1266,7 +1266,7 @@ async function main() {
       // FM — the base page stamped data-lcs-mode="judge": verify dispatches to the face and fails
       { const good = TYPE._buildWith(en, { difficulty: 2, locale: 'en' }, { rng: makeRng('fm') }); const t = Object.assign({}, TYPE, { build() { const out = clone(good); out.bodyHtml = out.bodyHtml.replace('data-lcs-rhyming ', 'data-lcs-rhyming data-lcs-mode="judge" '); return out; } }); const r = await renderWith(page, t, { difficulty: 2, baseName: 'G1-309-gate-poison-FM' }); const a = judge('FM verify', r.verify, /0 cards ≠ stamp|judge band "G1" is not K|a face root carries the base rows stamp/); const before = fails.length; assertRender('FM', r, TYPE.difficulty[2], en); const own = fails.splice(before); const b = judge('FM gate', own, /the BASE page carries data-lcs-mode="judge"/); if (a && b) killed++; }
       // FL — an unauthored locale refuses on every face
-      { const msgs = []; for (const f of FACES) { try { f.spec.build({ theme: null, difficulty: 2, locale: 'xx' }, { rng: makeRng('fl') }); msgs.push(f.id + ': built'); } catch (e) { msgs.push(f.id + ': ' + e.message); } } if (judge('FL', msgs.every((m) => /has no de block/.test(m)) ? msgs : [], /has no de block/, msgs.filter((m) => !/has no de block/.test(m)).join(' | ') || 'all five refuse')) killed++; }
+      { const msgs = []; for (const f of FACES) { try { f.spec.build({ theme: null, difficulty: 2, locale: 'xx' }, { rng: makeRng('fl') }); msgs.push(f.id + ': built'); } catch (e) { msgs.push(f.id + ': ' + e.message); } } if (judge('FL', msgs.every((m) => /has no xx block/.test(m)) ? msgs : [], /has no xx block/, msgs.filter((m) => !/has no xx block/.test(m)).join(' | ') || 'all five refuse')) killed++; }
     }
 
     console.log('poison:\n' + poisonLog.join('\n'));

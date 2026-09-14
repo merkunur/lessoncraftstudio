@@ -123,6 +123,7 @@ function writeWave(id, locale, m) {
   return { file, n: m.types.length, refused: Object.keys(m.refused).length, themes: themes.length };
 }
 
+function main() {
 const all = loadAllTypes();
 const baseIds = new Set(FAMILIES.map(([id]) => id));
 const faceIds = new Set(alloc.faces.map((f) => f.id));
@@ -135,4 +136,7 @@ for (const loc of LOCALES) {
   const wb = writeWave('wave-b3-' + loc, loc, mb), wf = writeWave('wave-b3var-' + loc, loc, mf);
   console.log(`${loc}: base ${wb.n}/20 (${wb.refused} refused, ${wb.themes} themes) · faces ${wf.n}/100 (${wf.refused} refused, ${wf.themes} themes)${DRY ? '  [dry-run]' : ''}`);
   for (const [id, why] of Object.entries({ ...mb.refused, ...mf.refused })) console.log('   refused ' + id + ': ' + why);
-}
+}}
+
+if (require.main === module) main();
+module.exports = { candidates, tryBuild, measure, GENERAL, PREF, HARD };

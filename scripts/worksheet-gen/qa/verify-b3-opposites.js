@@ -163,6 +163,10 @@ function validateBank(bank, loc) {
   const f = [];
   const notes = [];
   const push = (m) => f.push(`[${loc}] ${m}`);
+  // the human open is the gate — for a non-en locale the human is the PANEL: the block's own
+  // `opened` record ({"theme/noun": ["pairId:slot", …]}, the OPENED shape) is merged for that locale only
+  if (loc === 'en' && bank.opened) push("en block must not carry `opened` (the build's OPENED table is the en record)");
+  const OPENED_LOC = (loc !== 'en' && bank.opened && typeof bank.opened === 'object') ? { ...OPENED, ...bank.opened } : OPENED;
   const pairs = Array.isArray(bank.pairs) ? bank.pairs : [];
   if (!pairs.length) { push('no pairs'); return { fails: f, notes }; }
   if (typeof bank.nameSlot !== 'boolean') push('nameSlot missing');
@@ -240,8 +244,8 @@ function validateBank(bank, loc) {
       if (excluded(r.key || r.noun, loc)) push(tag(`picture ${ref} is B2_EXCLUDE'd in ${loc}`));
       try { fileUri(r.theme, r.noun); } catch (e) { push(tag(`picture ${ref} does not resolve: ${e.message}`)); }
       if (!candidates(r.key || r.noun, loc).some((c) => c.theme === r.theme && c.noun === r.noun)) push(tag(`picture ${ref} is not a colour-index candidate for "${r.key || r.noun}"`));
-      const opened = OPENED[ref];
-      if (!opened) push(tag(`picture ${ref} was never OPENED by the build (the human open is the gate)`));
+      const opened = OPENED_LOC[ref];
+      if (!opened) push(tag(`picture ${ref} was never OPENED (the human open is the gate — a locale block records its own opens under "opened")`));
       else if (!opened.includes(`${p.id}:${r.slot}`)) push(tag(`picture ${ref} was opened and is NOT an honest "${p.id}:${r.slot}" (opened as: ${opened.join('/') || 'refused'})`));
       if (!nounPairs.has(r.noun)) nounPairs.set(r.noun, new Set());
       nounPairs.get(r.noun).add(p.id);

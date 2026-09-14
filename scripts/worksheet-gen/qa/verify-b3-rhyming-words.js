@@ -239,6 +239,12 @@ function validateBank(bank, loc, opts = {}) {
   const notes = [];
   const push = (m) => f.push(`[${loc}] ${m}`);
   const lower = (s) => String(s).toLocaleLowerCase(loc);
+  // The human open is the gate — and for a non-en locale the human is the PANEL: a locale
+  // block may carry its own `opened` record ({"theme/noun": vocabKey|null}, the same shape as
+  // OPENED) which is merged for that locale only; en keeps the build's table (2026-09-14:
+  // de/nl/fr all lost rhyme faces to an EN-only table before this).
+  if (loc === 'en' && bank.opened) push("en block must not carry `opened` (the build's OPENED table is the en record)");
+  const OPENED_LOC = (loc !== 'en' && bank.opened && typeof bank.opened === 'object') ? { ...OPENED, ...bank.opened } : OPENED;
   const classes = Array.isArray(bank.classes) ? bank.classes : [];
   if (!classes.length) { push('no classes'); return { fails: f, notes, counts: {} }; }
   if (!['stressedVowelCoda', 'lastTwoSyllables'].includes(bank.rule)) push(`rule "${bank.rule}"`);
@@ -265,8 +271,8 @@ function validateBank(bank, loc, opts = {}) {
     else if (lower(displayWord(entry.singular, loc)) !== lower(m.word)) push(tag(`word "${m.word}" ≠ displayWord "${displayWord(entry.singular, loc)}"`));
     if (!candidates(m.vocabKey, loc).some((c) => c.theme === m.pic.theme && c.noun === m.pic.noun)) push(tag(`picture ${ref} is not a colour-index candidate`));
     if (m.picOpened !== true) push(tag('picOpened is not true'));
-    if (!(ref in OPENED)) push(tag(`picture ${ref} was never OPENED by the build (the human open is the gate)`));
-    else if (OPENED[ref] !== m.vocabKey) push(tag(`picture ${ref} was opened and is NOT an honest "${m.vocabKey}" (opened as: ${OPENED[ref] || 'refused'})`));
+    if (!(ref in OPENED_LOC)) push(tag(`picture ${ref} was never OPENED (the human open is the gate — a locale block records its own opens under "opened")`));
+    else if (OPENED_LOC[ref] !== m.vocabKey) push(tag(`picture ${ref} was opened and is NOT an honest "${m.vocabKey}" (opened as: ${OPENED_LOC[ref] || 'refused'})`));
     return true;
   };
   for (const c of classes) {

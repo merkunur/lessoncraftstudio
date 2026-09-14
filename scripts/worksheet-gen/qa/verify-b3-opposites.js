@@ -66,6 +66,38 @@
  *      PI  a 36 px cue icon                             → pairCard's floor + the gate's own floor
  *      PC  a 5-card page                                → the spec guard + verify()
  *      PW  a bank word equal to a given word            → verify()
+ *
+ * PHASE 2 — THE FACES (2026-09-14; sections 5-7, design §3; record
+ * _work/G1-307-faces.md): K-351 match · G1-335 frames · G1-336 pairup ·
+ * G1-337 choice · G2-320 prefix, every one a `layout` row over the base.
+ * 5. RENDER — each face at d2 en + under the de and fi long chromes (the
+ *    bodies the base measured: 766 / 733 / 700); F2 additionally under the
+ *    fi chrome WITH a two-row bank (six 8-glyph answers). Asserts verify()
+ *    empty, lints clean, the floors ITSELF (K pictures >= 56 on F1, G1 words
+ *    >= 26, writing rows >= 56 high, chips >= 44, pills >= 40, legend chips
+ *    >= 44, the F1 columns >= 90 px apart for the pencil line, the lowest ink
+ *    >= 6 px above the footer) and the node cross-check (crossCheckFace):
+ *    every stamped literal is the bank's VERBATIM — F1 words + pinned pictures,
+ *    F2 the whole frame text with {name} → a SENTENCES name and its picture
+ *    OPENED, F3 chip (word, pair), F4 (a, b, syn.a, far), F5 (base, prefix,
+ *    expected) — and no two exclusiveWith pairs share a page.
+ * 6. SWEEP — 20 seeds per face: F1 deranged, no noun twice, every pictured
+ *    pair drawn; F2 bank deranged, names from SENTENCES, distinct answers;
+ *    F3 adjacency 0; F4 the correct pill in all three positions, no word
+ *    twice; F5 legend within the bank's prefixes; >= 2 distinct sets each.
+ * 7. POISON (19, the face-level classes the base deferred):
+ *      PF1a right column not deranged · PF1b one noun on two pairs · PF1c a
+ *      44 px picture on the K page (component guard + gate floor) · PF1d the
+ *      right item prints "little" for small (node)
+ *      PF2a the answer printed in the frame · PF2b {name} unfilled · PF2c
+ *      bank in row order · PF2d a frame text that is not the bank's literal (node)
+ *      PF3a a pair's chips adjacent · PF3b eleven chips · PF3c a word
+ *      pre-printed on a lane
+ *      PF4a the correct pill in one position on every row · PF4b a word
+ *      twice on the page · PF4c two pills equal the antonym · PF4d a pill
+ *      outside the bank's triple (node)
+ *      PF5a the expected word printed · PF5b a legend chip no row uses ·
+ *      PF5c expected not ending with its base · PF5d a base twice
  */
 'use strict';
 const path = require('path');
@@ -280,6 +312,22 @@ function validateBank(bank, loc) {
     if (!s.instruction || [...s.instruction].length > 150) push('instruction > 150 chars');
     if (loc === 'en' && (s.title !== TYPE.i18n.en.title || s.instruction !== TYPE.i18n.en.instruction)) push('en strings ≠ the spec i18n.en');
   }
+  // rule 9, Phase 2: one block per face, titles distinct within the family, en === the emitted face spec's i18n.en
+  const titles = new Set([String((s && s.title) || '').toLocaleLowerCase(loc)]);
+  for (const id of FACE_IDS) {
+    const fs = bank.strings && bank.strings[id];
+    if (!fs) { push(`strings ${id} missing (the face has no title/instruction in ${loc})`); continue; }
+    if (!fs.title || [...fs.title].length > 70) push(`${id} title > 70 chars`);
+    if (WORKSHEET_WORD.test(fs.title || '')) push(`${id} title carries the worksheet word`);
+    if (!fs.instruction || [...fs.instruction].length > 150) push(`${id} instruction > 150 chars`);
+    const t = String(fs.title || '').toLocaleLowerCase(loc);
+    if (titles.has(t)) push(`${id} title "${fs.title}" duplicates a sibling face`); titles.add(t);
+    if (loc === 'en') {
+      let spec = null;
+      try { spec = loadType(id); } catch (e) { push(`${id}: face spec not on disk (run tools/gen-b3var-specs.js): ${e.message}`); }
+      if (spec && (spec.i18n.en.title !== fs.title || spec.i18n.en.instruction !== fs.instruction)) push(`${id} en strings ≠ the emitted spec's i18n.en (tools/b3var-rows/opposites.js is the source)`);
+    }
+  }
   return { fails: f, notes, counts: { pairs: pairs.length, pictured: pictured.length, f1Pool, syn: synCount, frames: frames.length, prefix: items.length, tier1: pairs.filter((p) => p.tier === 1).length, tier2: pairs.filter((p) => p.tier === 2).length } };
 }
 
@@ -422,6 +470,192 @@ const LONG = {
     instruction: 'Lue jokaisen kortin sana tarkasti. Etsi sanapankista se sana, joka tarkoittaa täsmälleen päinvastaista, ja kirjoita se huolellisesti kortin viivoille.' },
 };
 
+
+/* ====================================================================== PHASE 2 — the faces (sections 5-7) */
+const { loadType } = require('../lib/load-types.js');
+const { SENTENCES } = require('../data/b2/sentences.js');
+
+/** layout → face id (types/<band>/), and the band each face must declare (qa/lints.js + the manifest read spec.gradeBand). */
+const FACES = { match: 'K-351', frames: 'G1-335', pairup: 'G1-336', choice: 'G1-337', prefix: 'G2-320' };
+const FACE_BAND = { match: 'K', frames: 'G1', pairup: 'G1', choice: 'G1', prefix: 'G2' };
+const FACE_IDS = Object.values(FACES);
+
+async function renderFace(page, type, { baseName, strings }) {
+  const out = await renderInstance({ type, theme: null, difficulty: 2, locale: 'en', page, outDir: OUT, baseName, strings });
+  const m = await page.evaluate(() => {
+    const rect = (el) => { const r = el.getBoundingClientRect(); return { left: r.left, right: r.right, top: r.top, bottom: r.bottom, w: r.width, h: r.height }; };
+    const noun = (im) => { const parts = decodeURIComponent(im.src).split('/'); return { dir: parts.slice(-2, -1)[0], noun: parts.pop().replace(/@\dx\.webp$/, '') }; };
+    const root = document.querySelector('[data-lcs-opposites]');
+    const layout = root ? root.dataset.lcsLayout : null;
+    const icons = [...document.querySelectorAll('[data-lcs-body] .ws-icon')].map((el) => { const r = rect(el); return Math.min(r.w, r.h); });
+    const fontOf = (el) => (el ? parseFloat(getComputedStyle(el).fontSize) : 0);
+    const bank = document.querySelector('[data-lcs-bank-banner]');
+    const pills = bank ? [...bank.querySelectorAll('[data-lcs-bank-word]')].map((e) => ({ word: e.textContent.trim(), ...rect(e) })) : [];
+    const o = {
+      layout, icons, bank: bank ? rect(bank) : null, bankWords: pills.map((p) => p.word), bankRows: bank ? new Set(pills.map((p) => Math.round(p.top))).size : 0,
+      body: rect(document.querySelector('[data-lcs-body]')), foot: document.querySelector('.ws-foot').getBoundingClientRect().top, titleH: rect(document.querySelector('.ws-head')).h,
+    };
+    o.match = [...document.querySelectorAll('[data-lcs-left]')].map((el, i) => { const im = el.querySelector('img'); return { pair: el.dataset.lcsLeft, word: el.dataset.lcsWord, ...noun(im), px: Math.min(rect(im).w, rect(im).h), wordPx: fontOf(el.querySelector('[data-lcs-match-word]')), ...rect(el) }; });
+    o.matchRight = [...document.querySelectorAll('[data-lcs-right]')].map((el) => { const im = el.querySelector('img'); return { pair: el.dataset.lcsRight, word: el.dataset.lcsWord, ...noun(im), px: Math.min(rect(im).w, rect(im).h), wordPx: fontOf(el.querySelector('[data-lcs-match-word]')), ...rect(el) }; });
+    o.lanes = [...document.querySelectorAll('[data-lcs-frame]')].map((el) => {
+      const spans = (sel) => [...el.querySelectorAll(sel + ' span')].map((s) => s.textContent.trim());
+      const row = el.querySelector('[data-lcs-prim="writing-row"]'); const im = el.querySelector('img');
+      return { pair: el.dataset.lcsFrame, a: el.dataset.lcsA, b: el.dataset.lcsB, given: el.dataset.lcsGiven, answer: el.dataset.lcsAnswer, name: el.dataset.lcsName || null,
+        line1: spans('[data-lcs-frame-line="1"]').join(' '), line2: spans('[data-lcs-frame-line="2"]'), rowH: row ? +row.getAttribute('height') : 0, rowW: row ? +row.getAttribute('width') : 0,
+        fontPx: fontOf(el.querySelector('[data-lcs-frame-line] span')), pic: im ? noun(im) : null, picPx: im ? Math.min(rect(im).w, rect(im).h) : 0, ...rect(el) };
+    });
+    o.chips = [...document.querySelectorAll('[data-lcs-chip]')].map((el) => ({ word: el.dataset.lcsChip, pair: el.dataset.lcsChipPair, fontPx: fontOf(el), ...rect(el) }));
+    o.pairLanes = [...document.querySelectorAll('[data-lcs-pairlane]')].map((el) => ({ n: +el.dataset.lcsPairlane, rows: [...el.querySelectorAll('[data-lcs-prim="writing-row"]')].map((r) => +r.getAttribute('height')), ...rect(el) }));
+    o.choiceRows = [...document.querySelectorAll('[data-lcs-choice]')].map((el) => ({ pair: el.dataset.lcsChoice, target: el.dataset.lcsTarget, b: el.dataset.lcsB, correct: +el.dataset.lcsCorrect, targetPx: fontOf(el.querySelector('[data-lcs-target-word]')),
+      pills: [...el.querySelectorAll('[data-lcs-pill]')].map((p) => ({ word: p.dataset.lcsPill, role: p.dataset.lcsRole, fontPx: fontOf(p), ...rect(p) })), ...rect(el) }));
+    o.prefixRows = [...document.querySelectorAll('[data-lcs-prefix-row]')].map((el) => { const row = el.querySelector('[data-lcs-prim="writing-row"]'); return { n: +el.dataset.lcsPrefixRow, base: el.dataset.lcsBase, prefix: el.dataset.lcsPrefix, expected: el.dataset.lcsExpected, basePx: fontOf(el.querySelector('[data-lcs-base-word]')), rowH: row ? +row.getAttribute('height') : 0, ...rect(el) }; });
+    o.legend = [...document.querySelectorAll('[data-lcs-prefix-legend] [data-lcs-prefix]')].map((el) => ({ prefix: el.dataset.lcsPrefix, text: el.textContent.trim(), fontPx: fontOf(el), ...rect(el) }));
+    // the lowest INK on the page (pictures, words, chips, pills, writing rows, dots) — never a layout box
+    const INK = '[data-lcs-body] img, [data-lcs-body] span, [data-lcs-body] [data-lcs-prim="writing-row"], [data-lcs-body] .ws-match-dot, [data-lcs-body] [data-lcs-opp-arrow]';
+    const all = [...document.querySelectorAll(INK)].filter((e) => e.getBoundingClientRect().height > 0);
+    o.lowest = all.length ? Math.max(...all.map((e) => e.getBoundingClientRect().bottom)) : 0;
+    return o;
+  });
+  return { lints: out.qa.lints, verify: out.qa.verify, m, png: out.pngPath, meta: out.meta };
+}
+
+/** The node-side cross-check for a face: every stamped literal is the bank's VERBATIM; no exclusiveWith co-occurrence. */
+function crossCheckFace(name, layout, m, bank) {
+  const out = [];
+  const byId = new Map((bank.pairs || []).map((p) => [p.id, p]));
+  const excl = (ids) => { for (const a of ids) for (const b of ids) { const p = byId.get(a); if (a !== b && p && (p.exclusiveWith || []).includes(b)) out.push(`${name}: ${a} and ${b} are exclusiveWith and share the page`); } };
+  if (layout === 'match') {
+    for (const it of m.match) {
+      const p = byId.get(it.pair);
+      if (!p || !p.pic) { out.push(`${name}: left item "${it.pair}" is not a pictured bank pair`); continue; }
+      if (it.word !== p.a) out.push(`${name}: left item ${it.pair} prints "${it.word}" ≠ the bank's a "${p.a}"`);
+      const want = p.pic.kind === 'scale' ? p.pic : p.pic.a;
+      if (it.dir !== want.theme || it.noun !== want.noun) out.push(`${name}: left item ${it.pair} shows ${it.dir}/${it.noun} ≠ the pinned ${want.theme}/${want.noun}`);
+    }
+    for (const it of m.matchRight) {
+      const p = byId.get(it.pair);
+      if (!p || !p.pic) { out.push(`${name}: right item "${it.pair}" is not a pictured bank pair`); continue; }
+      if (it.word !== p.b) out.push(`${name}: right item ${it.pair} prints "${it.word}" ≠ the bank's b "${p.b}"`);
+      const want = p.pic.kind === 'scale' ? p.pic : p.pic.b;
+      if (it.dir !== want.theme || it.noun !== want.noun) out.push(`${name}: right item ${it.pair} shows ${it.dir}/${it.noun} ≠ the pinned ${want.theme}/${want.noun}`);
+    }
+    excl(m.match.map((i) => i.pair));
+  }
+  if (layout === 'frames') {
+    const names = new Set(((SENTENCES.en || {}).names) || []);
+    for (const l of m.lanes) {
+      const p = byId.get(l.pair);
+      const fr = (bank.frames || []).find((f) => f.pair === l.pair);
+      if (!p || !fr) { out.push(`${name}: lane ${l.pair} is not a bank frame`); continue; }
+      if (l.a !== p.a || l.b !== p.b) out.push(`${name}: lane ${l.pair} stamps (${l.a}, ${l.b}) ≠ bank (${p.a}, ${p.b})`);
+      if (l.answer !== fr.answer) out.push(`${name}: lane ${l.pair} answer "${l.answer}" ≠ the bank's "${fr.answer}"`);
+      let want = fr.text.replace(/\s*___\s*/, '___');
+      if (fr.text.includes('{name}')) { if (!l.name || !names.has(l.name)) out.push(`${name}: lane ${l.pair} name "${l.name}" is not a SENTENCES name`); want = want.split('{name}').join(l.name); }
+      const got = (l.line1 ? l.line1 + ' ' : '') + l.line2[0] + '___' + (l.line2[1] || '');
+      if (got !== want) out.push(`${name}: frame ${l.pair} text "${got.replace('___', ' ___ ').replace(/\s+/g, ' ').trim()}" is not the bank's literal "${want}"`);
+      if (fr.pic && l.pic && (l.pic.dir !== fr.pic.theme || l.pic.noun !== fr.pic.noun)) out.push(`${name}: frame ${l.pair} shows ${l.pic.dir}/${l.pic.noun} ≠ the pinned ${fr.pic.theme}/${fr.pic.noun}`);
+      if (fr.pic && !OPENED[`${fr.pic.theme}/${fr.pic.noun}`] || (fr.pic && OPENED[`${fr.pic.theme}/${fr.pic.noun}`] && !OPENED[`${fr.pic.theme}/${fr.pic.noun}`].length)) out.push(`${name}: frame ${l.pair} picture ${fr.pic.theme}/${fr.pic.noun} was never opened as honest (the human open is the gate)`);
+    }
+    excl(m.lanes.map((l) => l.pair));
+  }
+  if (layout === 'pairup') {
+    const seen = new Map();
+    for (const c of m.chips) {
+      const p = byId.get(c.pair);
+      if (!p) { out.push(`${name}: chip "${c.word}" claims an unknown pair ${c.pair}`); continue; }
+      if (c.word !== p.a && c.word !== p.b) out.push(`${name}: chip "${c.word}" is not a member of ${c.pair} (${p.a}, ${p.b})`);
+      seen.set(c.pair, (seen.get(c.pair) || new Set()).add(c.word));
+    }
+    for (const [id, words] of seen) { const p = byId.get(id); if (p && (words.size !== 2 || !words.has(p.a) || !words.has(p.b))) out.push(`${name}: pair ${id} chips ${[...words].join('/')} ≠ (${p.a}, ${p.b})`); }
+    excl([...seen.keys()]);
+  }
+  if (layout === 'choice') {
+    for (const r of m.choiceRows) {
+      const p = byId.get(r.pair);
+      if (!p) { out.push(`${name}: row "${r.pair}" is not a bank pair`); continue; }
+      if (r.target !== p.a) out.push(`${name}: row ${r.pair} target "${r.target}" ≠ the bank's a "${p.a}"`);
+      const by = (role) => (r.pills.find((x) => x.role === role) || {}).word;
+      if (by('antonym') !== p.b) out.push(`${name}: row ${r.pair} antonym pill "${by('antonym')}" ≠ the bank's b "${p.b}"`);
+      if (!p.syn || by('syn') !== p.syn.a) out.push(`${name}: row ${r.pair} syn pill "${by('syn')}" ≠ the bank's syn.a "${p.syn && p.syn.a}"`);
+      if (by('far') !== p.far) out.push(`${name}: row ${r.pair} far pill "${by('far')}" ≠ the bank's far "${p.far}"`);
+      if (p.alt && (p.alt.b || []).includes(by('syn'))) out.push(`${name}: row ${r.pair} syn pill "${by('syn')}" is an accepted answer for ${p.b}`);
+    }
+    excl(m.choiceRows.map((r) => r.pair));
+  }
+  if (layout === 'prefix') {
+    const items = (bank.prefix && bank.prefix.items) || [];
+    for (const r of m.prefixRows) {
+      const it = items.find((x) => x.base === r.base);
+      if (!it) { out.push(`${name}: row ${r.n} base "${r.base}" is not a bank item`); continue; }
+      if (it.prefix !== r.prefix || it.expected !== r.expected) out.push(`${name}: row ${r.n} (${r.prefix}, ${r.expected}) ≠ the bank's (${it.prefix}, ${it.expected})`);
+      if (!(bank.prefix.prefixes || []).includes(r.prefix)) out.push(`${name}: row ${r.n} prefix "${r.prefix}" outside the bank's prefixes`);
+    }
+  }
+  return out;
+}
+
+/** Floors + geometry asserted by the gate itself for one face render (verify() + lints are asserted first). */
+function assertFace(name, layout, r, bank) {
+  ok(r.m.layout === layout, `${name}: root layout "${r.m.layout}" ≠ ${layout}`);
+  ok(r.verify.length === 0, `${name}: verify() ${JSON.stringify(r.verify)}`);
+  ok(r.lints.length === 0, `${name}: lints ${JSON.stringify(r.lints)}`);
+  ok(r.m.lowest <= r.m.foot - 6, `${name}: lowest ink ${Math.round(r.m.lowest)} within 6 px of the footer ${Math.round(r.m.foot)}`);
+  const inBody = (it, what) => ok(it.left >= r.m.body.left - 0.6 && it.right <= r.m.body.right + 0.6 && it.bottom <= r.m.foot + 0.6, `${name}: ${what} outside the body / into the footer`);
+  if (layout === 'match') {
+    const cfg = TYPE.difficulty[2];   // the base config the face spreads; the face's own keys are read off the loaded type by the caller
+    const minIcon = r.m.icons.length ? Math.min(...r.m.icons) : 0;
+    ok(r.m.icons.length === 2 * r.m.match.length && r.m.match.length >= 4, `${name}: ${r.m.icons.length} pictures for ${r.m.match.length} pairs`);
+    ok(minIcon >= tokens.density.K.minElement, `${name}: icon ${minIcon} px < K floor ${tokens.density.K.minElement}`);
+    for (const it of r.m.match.concat(r.m.matchRight)) { ok(it.wordPx >= MIN_WORD - 0.6, `${name}: word "${it.word}" ${it.wordPx} px < ${MIN_WORD}`); inBody(it, `item ${it.pair}`); }
+    // the two columns leave room for a pencil line: >= 40 px between the dots
+    const gap = Math.min(...r.m.matchRight.map((rt, i) => rt.left - r.m.match[i].right));
+    ok(gap >= 90, `${name}: the columns are ${Math.round(gap)} px apart (the dots need >= 40 px of clear line)`);
+    void cfg;
+  }
+  if (layout === 'frames') {
+    ok(r.m.lanes.length >= 6 && r.m.lanes.length <= 8, `${name}: ${r.m.lanes.length} lanes`);
+    for (const l of r.m.lanes) {
+      ok(l.rowH >= 56 && l.rowW >= 200, `${name}: lane ${l.pair} writing row ${l.rowW}x${l.rowH} (floor 200x56)`);
+      ok(l.fontPx >= 19 - 0.6, `${name}: lane ${l.pair} text ${l.fontPx} px < 19`);
+      if (l.pic) ok(l.picPx >= MIN_ICON, `${name}: lane ${l.pair} picture ${Math.round(l.picPx)} px < ${MIN_ICON}`);
+      inBody(l, `lane ${l.pair}`);
+    }
+    ok(!!r.m.bank && r.m.bankRows <= 2, `${name}: bank rows ${r.m.bankRows}`);
+    if (r.m.bank) ok(r.m.bank.h <= MAX_BANK_H, `${name}: bank ${Math.round(r.m.bank.h)} px > ${MAX_BANK_H}`);
+  }
+  if (layout === 'pairup') {
+    ok(r.m.chips.length === 2 * r.m.pairLanes.length && r.m.pairLanes.length >= 6, `${name}: ${r.m.chips.length} chips / ${r.m.pairLanes.length} lanes`);
+    for (const c of r.m.chips) { ok(c.h >= 44 - 0.6 && c.fontPx >= 20 - 0.6, `${name}: chip "${c.word}" ${Math.round(c.h)} px / ${c.fontPx} px`); inBody(c, `chip ${c.word}`); }
+    ok(new Set(r.m.chips.map((c) => Math.round(c.top))).size <= 3, `${name}: chips wrap past 3 rows`);
+    for (const l of r.m.pairLanes) { ok(l.rows.length === 2 && l.rows.every((h) => h >= 56), `${name}: lane ${l.n} rows ${l.rows.join('/')}`); inBody(l, `lane ${l.n}`); }
+  }
+  if (layout === 'choice') {
+    ok(r.m.choiceRows.length >= 6 && r.m.choiceRows.length <= 8, `${name}: ${r.m.choiceRows.length} rows`);
+    for (const row of r.m.choiceRows) {
+      ok(row.targetPx >= MIN_WORD - 0.6, `${name}: row ${row.pair} target ${row.targetPx} px < ${MIN_WORD}`);
+      ok(row.pills.length === 3 && row.pills.every((p) => p.h >= 40 - 0.6 && p.fontPx >= 22 - 0.6), `${name}: row ${row.pair} pills ${row.pills.map((p) => Math.round(p.h) + '/' + p.fontPx).join(' ')}`);
+      inBody(row, `row ${row.pair}`);
+    }
+    ok(new Set(r.m.choiceRows.map((x) => x.correct)).size === 3, `${name}: correct positions ${r.m.choiceRows.map((x) => x.correct).join('')}`);
+  }
+  if (layout === 'prefix') {
+    ok(r.m.prefixRows.length >= 8 && r.m.prefixRows.length <= 10, `${name}: ${r.m.prefixRows.length} rows`);
+    for (const row of r.m.prefixRows) { ok(row.rowH >= 56 && row.basePx >= 24 - 0.6, `${name}: row ${row.n} lane ${row.rowH} / base ${row.basePx} px`); inBody(row, `row ${row.n}`); }
+    ok(r.m.legend.length >= 1 && r.m.legend.every((c) => c.h >= 44 - 0.6 && c.fontPx >= 22 - 0.6), `${name}: legend chips ${r.m.legend.map((c) => Math.round(c.h)).join('/')}`);
+  }
+  const xc = crossCheckFace(name, layout, r.m, bank);
+  ok(xc.length === 0, xc.join('\n    '));
+}
+
+function faceSummary(layout, r) {
+  if (layout === 'match') return `pairs ${r.m.match.map((i) => i.pair).join('/')} icons min ${Math.min(...r.m.icons)} gap ${Math.round(Math.min(...r.m.matchRight.map((rt, i) => rt.left - r.m.match[i].right)))}`;
+  if (layout === 'frames') return `lanes ${r.m.lanes.length} lane h ${Math.round(r.m.lanes[0].h)} bank ${Math.round(r.m.bank.h)}+rows ${r.m.bankRows} answers ${r.m.lanes.map((l) => l.answer).join('/')}`;
+  if (layout === 'pairup') return `chips ${r.m.chips.length} in ${new Set(r.m.chips.map((c) => Math.round(c.top))).size} rows, widest ${Math.round(Math.max(...r.m.chips.map((c) => c.w)))} lane h ${Math.round(r.m.pairLanes[0].h)}`;
+  if (layout === 'choice') return `rows ${r.m.choiceRows.length} h ${Math.round(r.m.choiceRows[0].h)} positions ${r.m.choiceRows.map((x) => x.correct).join('')} widest pill ${Math.round(Math.max(...r.m.choiceRows.flatMap((x) => x.pills.map((p) => p.w))))}`;
+  if (layout === 'prefix') return `rows ${r.m.prefixRows.length} h ${Math.round(r.m.prefixRows[0].h)} legend ${r.m.legend.map((c) => c.prefix).join('/')} bases ${r.m.prefixRows.map((x) => x.base).join('/')}`;
+  return '';
+}
+
 async function main() {
   const banks = bankModule('opposites');
   const locales = Object.keys(banks);
@@ -436,7 +670,7 @@ async function main() {
   const browser = await puppeteer.launch({ headless: 'new' });
   const page = await browser.newPage();
   const pngs = [];
-  const TOTAL = 16;
+  const TOTAL = 16 + 19;   // the base's 16 + the 19 face poisons (section 7)
   let killed = 0;
   try {
     // 2. renders through the real pipeline
@@ -609,6 +843,271 @@ async function main() {
       const r = await renderWith(page, pageFrom(cards, 2, { bankWords }), { difficulty: 2, baseName: 'G1-307-gate-poison-PW' });
       if (judge('PW', r.verify, /bank word ".*" is a given word/)) killed++;
     }
+
+
+    /* ====================================================================== PHASE 2 — the faces */
+    console.log('--- faces (Phase 2) ---');
+    const faceTypes = {};
+    for (const [layout, id] of Object.entries(FACES)) faceTypes[layout] = loadType(id);
+    for (const [layout, t] of Object.entries(faceTypes)) {
+      ok(t.difficulty[2].layout === layout, `${t.id}: resolved d2 layout "${t.difficulty[2].layout}" ≠ ${layout}`);
+      ok(t.gradeBand === FACE_BAND[layout], `${t.id}: gradeBand ${t.gradeBand} ≠ ${FACE_BAND[layout]}`);
+    }
+    // 5. renders — d2 en + the two long chromes, every face
+    const faceStats = {};
+    for (const [layout, t] of Object.entries(faceTypes)) {
+      for (const [chrome, strings] of [['', null], ['-longchrome-de', LONG.de], ['-longchrome-fi', LONG.fi]]) {
+        const name = `${t.id} ${layout}${chrome ? ' long chrome ' + chrome.slice(-2) : ''}`;
+        const r = await renderFace(page, t, { baseName: `${t.id}-gate-d2-en${chrome}`, strings });
+        pngs.push(r.png);
+        assertFace(name, layout, r, en);
+        if (strings) ok(r.m.body.h <= (chrome.endsWith('fi') ? 705 : 740), `${name}: body ${Math.round(r.m.body.h)} px — the fixture did not squeeze the body (head ${Math.round(r.m.titleH)} px)`);
+        if (!chrome) faceStats[layout] = r;
+        console.log(`render ${name}: verify ${r.verify.length} lints ${r.lints.length} body ${Math.round(r.m.body.h)} px lowest ink ${Math.round(r.m.lowest)} vs foot ${Math.round(r.m.foot)} ${faceSummary(layout, r)}`);
+      }
+    }
+    // F2 under the fi chrome AND a two-row bank (six long answers): the lanes must still hold the 80 px stack
+    {
+      const b = clone(en);
+      const longWords = { 'fast-slow': ['speedy', 'sluggish'], 'hot-cold': ['scorching', 'freezing'], 'soft-hard': ['squashy', 'granitic'], 'heavy-light': ['weighty', 'feathery'], 'sweet-sour': ['sugary', 'vinegary'], 'day-night': ['daylight', 'darkness'] };
+      for (const p of b.pairs) if (longWords[p.id]) { [p.a, p.b] = longWords[p.id]; }
+      b.frames = b.frames.filter((f) => longWords[f.pair]).map((f) => { const p = b.pairs.find((x) => x.id === f.pair); const fr = en.frames.find((x) => x.pair === f.pair); const ep = en.pairs.find((x) => x.id === f.pair); const given = wordRe(ep.a).test(fr.text) ? [ep.a, p.a] : [ep.b, p.b]; return { ...f, text: fr.text.replace(wordRe(given[0]), given[1]), answer: fr.answer === ep.a ? p.a : p.b }; });
+      const t = Object.assign({}, faceTypes.frames, { build(o, ctx) { return faceTypes.frames._buildWith(b, { difficulty: 2, locale: 'en' }, ctx); } });
+      const r = await renderFace(page, t, { baseName: 'G1-335-gate-d2-en-twoRowBank-longchrome-fi', strings: LONG.fi });
+      pngs.push(r.png);
+      assertFace('G1-335 frames two-row bank + fi chrome', 'frames', r, b);
+      ok(r.m.bankRows === 2, `G1-335 two-row-bank fixture: the bank has ${r.m.bankRows} rows (the fixture must actually wrap)`);
+      console.log(`render G1-335 frames two-row bank + fi chrome: verify ${r.verify.length} lints ${r.lints.length} body ${Math.round(r.m.body.h)} bank rows ${r.m.bankRows} lane inner ${Math.round(r.m.lanes[0].h - 16)} px lowest ink ${Math.round(r.m.lowest)} vs foot ${Math.round(r.m.foot)}`);
+    }
+    // F2 with one 12-glyph answer: the page lane widens (uniformly) to what that answer needs, never past laneMax
+    {
+      const b = clone(en);
+      const p = b.pairs.find((x) => x.id === 'fast-slow'); p.b = 'sluggishness';
+      const fr = b.frames.find((x) => x.pair === 'fast-slow'); fr.answer = 'sluggishness';
+      const t = Object.assign({}, faceTypes.frames, { build(o, ctx) { return faceTypes.frames._buildWith(b, { difficulty: 2, locale: 'en' }, ctx); } });
+      // force fast-slow onto the page: sample until it is drawn (the seed changes the frame set)
+      let r = null;
+      for (let k = 1; k <= 12 && !r; k++) {
+        const probe = faceTypes.frames._buildWith(b, { difficulty: 2, locale: 'en' }, { rng: makeRng(instanceSeed({ typeId: 'G1-335', theme: null, difficulty: 2, seedEpoch: k })) });
+        if (probe.meta.pairs.includes('fast-slow')) r = await renderFace(page, Object.assign({}, t, { build(o, ctx) { return faceTypes.frames._buildWith(b, { difficulty: 2, locale: 'en' }, { rng: makeRng(instanceSeed({ typeId: 'G1-335', theme: null, difficulty: 2, seedEpoch: k })) }); } }), { baseName: 'G1-335-gate-d2-en-wideLane' });
+      }
+      ok(!!r, 'G1-335 wide-lane fixture: fast-slow never drawn in 12 seeds');
+      if (r) {
+        pngs.push(r.png);
+        assertFace('G1-335 frames wide lane', 'frames', r, b);
+        const need = Math.ceil(12 * 0.75 * 28 + 16);
+        ok(r.meta.laneW === need && need > 200 && need <= 300, `G1-335 wide-lane fixture: page lane ${r.meta.laneW} ≠ the 12-glyph need ${need}`);
+        ok(r.m.lanes.every((l) => l.rowW === r.meta.laneW), `G1-335 wide-lane fixture: lane widths ${r.m.lanes.map((l) => l.rowW).join('/')} are not uniform at ${r.meta.laneW}`);
+        console.log(`render G1-335 frames wide lane: verify ${r.verify.length} lints ${r.lints.length} lane ${r.meta.laneW} px on every row, lowest ink ${Math.round(r.m.lowest)} vs foot ${Math.round(r.m.foot)}`);
+      }
+    }
+    // an unauthored locale refuses on every face
+    for (const t of Object.values(faceTypes)) {
+      let refused = false;
+      try { t.build({ theme: null, difficulty: 2, locale: 'de' }, { rng: makeRng('x') }); } catch (e) { refused = /no de block/.test(e.message); }
+      ok(refused, `${t.id}: an unauthored locale must REFUSE`);
+    }
+
+    // 6. face sweep — 20 seeds each (build only)
+    if (!QUICK) {
+      const sets = {};
+      const byId = new Map(en.pairs.map((p) => [p.id, p]));
+      const namesEn = new Set(SENTENCES.en.names);
+      const usedF1 = new Map();
+      let adjacent = 0, spread = 0;
+      for (let k = 1; k <= 20; k++) for (const [layout, t] of Object.entries(faceTypes)) {
+        const rng = makeRng(instanceSeed({ typeId: t.id, theme: null, difficulty: 2, seedEpoch: k }));
+        const m = t.build({ theme: null, difficulty: 2, locale: 'en' }, { rng }).meta;
+        sets[layout] = sets[layout] || new Set();
+        if (layout === 'match') {
+          ok(m.order.every((v, i) => v !== i), `sweep ${t.id} seed ${k}: right column not deranged`);
+          ok(new Set(m.nouns).size === m.nouns.length, `sweep ${t.id} seed ${k}: a noun twice`);
+          m.pairs.forEach((id) => usedF1.set(id, (usedF1.get(id) || 0) + 1));
+          sets[layout].add(m.pairs.slice().sort().join(','));
+        }
+        if (layout === 'frames') {
+          ok(m.bankOrder.every((v, i) => v !== i), `sweep ${t.id} seed ${k}: bank order has an answer at its own row`);
+          ok(m.names.every((n) => n === null || namesEn.has(n)), `sweep ${t.id} seed ${k}: a name outside SENTENCES.en`);
+          ok(new Set(m.answers).size === m.answers.length, `sweep ${t.id} seed ${k}: answers repeat`);
+          sets[layout].add(m.pairs.slice().sort().join(','));
+        }
+        if (layout === 'pairup') {
+          const adj = m.chipPairs.some((p, i) => i + 1 < m.chipPairs.length && m.chipPairs[i + 1] === p);
+          if (adj) adjacent++;
+          ok(!adj, `sweep ${t.id} seed ${k}: adjacent chips`);
+          sets[layout].add(m.pairs.slice().sort().join(','));
+        }
+        if (layout === 'choice') {
+          if (new Set(m.correct).size === 3) spread++;
+          ok(new Set(m.correct).size === 3, `sweep ${t.id} seed ${k}: correct positions ${m.correct.join('')}`);
+          const words = m.pills.flat().concat(m.pairs.map((id) => byId.get(id).a));
+          ok(new Set(words).size === words.length, `sweep ${t.id} seed ${k}: a word twice on the page`);
+          sets[layout].add(m.pairs.slice().sort().join(','));
+        }
+        if (layout === 'prefix') {
+          ok(m.prefixes.every((p) => en.prefix.prefixes.includes(p)), `sweep ${t.id} seed ${k}: legend outside the bank's prefixes`);
+          sets[layout].add(m.bases.slice().sort().join(','));
+        }
+        for (const id of m.pairs || []) for (const x of (byId.get(id) || {}).exclusiveWith || []) ok(!m.pairs.includes(x), `sweep ${t.id} seed ${k}: ${id} with ${x}`);
+      }
+      for (const [layout, s] of Object.entries(sets)) ok(s.size >= 2, `sweep ${layout}: only ${s.size} distinct sets over 20 seeds`);
+      const f1Pool = en.pairs.filter((p) => p.pic).map((p) => p.id);
+      ok(f1Pool.every((id) => usedF1.has(id)), `sweep K-351: pictured pairs never drawn: ${f1Pool.filter((id) => !usedF1.has(id)).join(', ')}`);
+      console.log(`sweep faces: distinct sets match ${sets.match.size} / frames ${sets.frames.size} / pairup ${sets.pairup.size} / choice ${sets.choice.size} / prefix ${sets.prefix.size}; F1 every pictured pair drawn (min ${Math.min(...f1Pool.map((id) => usedF1.get(id)))} seeds); F3 adjacency ${adjacent}; F4 all three positions on ${spread}/20 seeds`);
+    }
+
+    // 7. face poisons — each must FAIL for its OWN reason; the correct renders above are the control
+    const C3 = require('../templates/components-b3.js');
+    const facePage = (t, bodyHtml) => Object.assign({}, t, { build() { return { bodyHtml, meta: {} }; } });
+    const mutate = (t, fn) => Object.assign({}, t, { build(o, ctx) { const out = t.build(o, ctx); out.bodyHtml = fn(out.bodyHtml, out.meta); return out; } });
+    async function faceFindings(t, layout, baseName, bank) {
+      const r = await renderFace(page, t, { baseName });
+      const before = fails.length, saved = assertions;
+      assertFace(baseName, layout, r, bank || en);
+      const own = fails.splice(before);
+      assertions = saved;
+      return { r, own };
+    }
+    const pairOf = (id) => en.pairs.find((p) => p.id === id);
+    const picSrc = (theme, noun) => fileUri(theme, noun);
+    const matchItems = (ids) => ids.map((id) => { const p = pairOf(id); const two = p.pic.kind === 'two'; return {
+      left: { pair: id, word: p.a, src: two ? picSrc(p.pic.a.theme, p.pic.a.noun) : picSrc(p.pic.theme, p.pic.noun), px: 80 },
+      right: { pair: id, word: p.b, src: two ? picSrc(p.pic.b.theme, p.pic.b.noun) : picSrc(p.pic.theme, p.pic.noun), px: two ? 80 : 56 } }; });
+    const matchRoot = (items, order) => `<div style="flex:1 1 auto;display:flex;flex-direction:column;min-height:0" data-lcs-opposites data-lcs-layout="match" data-lcs-pairs="${items.length}" data-lcs-min-icon="56">` +
+      C3.oppositeMatch({ left: items.map((i) => i.left), right: order.map((i) => items[i].right), tileW: 250, itemH: 114, wordPx: 26 }) + '</div>';
+    const SIX = ['hot-cold', 'happy-sad', 'fast-slow', 'day-night', 'soft-hard', 'sweet-sour'];
+    // PF1a — the right column NOT deranged (row 3's partner sits in row 3)
+    {
+      const r = await renderFace(page, facePage(faceTypes.match, matchRoot(matchItems(SIX), [1, 0, 2, 4, 5, 3])), { baseName: 'K-351-gate-poison-PF1a' });
+      if (judge('PF1a', r.verify, /row 3: the right item is the left item's partner \(not deranged\)/)) killed++;
+    }
+    // PF1b — one noun (the sun) on two pairs of the page: day-night + a sunny-cloudy item
+    {
+      const items = matchItems(SIX.slice(0, 5));
+      items.push({ left: { pair: 'sunny-cloudy', word: 'sunny', src: picSrc('weather', 'sun'), px: 80 }, right: { pair: 'sunny-cloudy', word: 'cloudy', src: picSrc('weather', 'cloudy'), px: 80 } });
+      const r = await renderFace(page, facePage(faceTypes.match, matchRoot(items, [1, 2, 3, 4, 5, 0])), { baseName: 'K-351-gate-poison-PF1b' });
+      if (judge('PF1b', r.verify, /noun "sun" backs two pairs on the page \(day-night, sunny-cloudy\)/)) killed++;
+    }
+    // PF1c — a 44 px picture on the K page: the component refuses; a page past it fails verify + the gate floor
+    {
+      let guard = [];
+      try { C3.oppositeMatch({ left: [{ pair: 'x', word: 'a', src: 'x', px: 44 }], right: [{ pair: 'x', word: 'b', src: 'x', px: 44 }] }); } catch (e) { guard = [e.message]; }
+      const a = judge('PF1c guard', guard, /icon 44 px below the K floor 56/);
+      const items = matchItems(['big-small', ...SIX.slice(0, 5)]);
+      const t = facePage(faceTypes.match, matchRoot(items, [1, 2, 3, 4, 5, 0]).replace(/width:56px;height:56px/g, 'width:44px;height:44px'));
+      const { r, own } = await faceFindings(t, 'match', 'K-351-gate-poison-PF1c');
+      const c = judge('PF1c floor', own, /icon 44 px < K floor 56/, `verify ${r.verify.length} (its own floor fires too)`);
+      if (a && c) killed++;
+    }
+    // PF1d — the right item prints "little" for big-small (stamps agree with the print; only the node cross-check sees it)
+    {
+      const items = matchItems(['big-small', ...SIX.slice(0, 5)]);
+      items[0].right.word = 'little';
+      const { r, own } = await faceFindings(facePage(faceTypes.match, matchRoot(items, [1, 2, 3, 4, 5, 0])), 'match', 'K-351-gate-poison-PF1d');
+      if (judge('PF1d node', own, /right item big-small prints "little" ≠ the bank's b "small"/, `verify ${r.verify.length} (page-side, bank-blind by design)`)) killed++;
+    }
+    // PF2a — a frame that prints its answer ("The snail is not fast. It is slow ___.")
+    {
+      const t2 = mutate(faceTypes.frames, (html) => html.replace(/(data-lcs-answer="([^"]+)"[\s\S]*?data-lcs-frame-line="2"><span[^>]*>)([^<]*)(<\/span>)/, (m0, p1, ans, txt, p4) => p1 + txt + ' ' + ans + p4));
+      const r = await renderFace(page, t2, { baseName: 'G1-335-gate-poison-PF2a' });
+      if (judge('PF2a', r.verify, /lane 1: the answer "\w+" is printed in the text/)) killed++;
+    }
+    // PF2b — {name} left unfilled
+    {
+      const t2 = mutate(faceTypes.frames, (html) => html.replace(/(data-lcs-frame-line="1"><span[^>]*>)([^<]*)/, '$1{name} $2'));
+      const r = await renderFace(page, t2, { baseName: 'G1-335-gate-poison-PF2b' });
+      if (judge('PF2b', r.verify, /lane 1: an unfilled slot in/)) killed++;
+    }
+    // PF2c — the bank in row order
+    {
+      const t2 = mutate(faceTypes.frames, (html, meta) => html.replace(/<div class="ws-scene-banner ws-bank"[\s\S]*?<\/div>/, wordBank({ words: meta.answers.map((w) => ({ word: w })), wordPx: 18 })));
+      const r = await renderFace(page, t2, { baseName: 'G1-335-gate-poison-PF2c' });
+      if (judge('PF2c', r.verify, /bank is in row order/)) killed++;
+    }
+    // PF2d — a frame text that is not the bank's literal ("The snail is not fast." → "The snail is not quick." — prints a synonym, never the member)
+    {
+      const t2 = mutate(faceTypes.frames, (html) => html.replace(/(data-lcs-frame-line="1"><span[^>]*>[^<]*?) is not /, '$1 is not so '));
+      const { r, own } = await faceFindings(t2, 'frames', 'G1-335-gate-poison-PF2d');
+      if (judge('PF2d node', own, /frame [\w-]+ text ".* is not so .*" is not the bank's literal/, `verify ${r.verify.length} (the given word is still there)`)) killed++;
+    }
+    // PF3a — a pair's two chips adjacent
+    {
+      const t2 = mutate(faceTypes.pairup, (html, meta) => {
+        const chips = meta.chips.map((w, i) => ({ word: w, pair: meta.chipPairs[i] }));
+        const first = chips[0]; const j = chips.findIndex((c, i) => i > 0 && c.pair === first.pair);
+        const re = chips.filter((c, i) => i !== j); re.splice(1, 0, chips[j]);
+        return html.replace(/<div class="ws-tilerow"[\s\S]*?<\/div>/, C3.oppositeChipRow({ chips: re, fontPx: 20, tileH: 44 }));
+      });
+      const r = await renderFace(page, t2, { baseName: 'G1-336-gate-poison-PF3a' });
+      if (judge('PF3a', r.verify, /chips 1 and 2 are one pair, adjacent/)) killed++;
+    }
+    // PF3b — eleven chips (a pair lost one)
+    {
+      const t2 = mutate(faceTypes.pairup, (html) => html.replace(/<span class="ws-tile ws-tile--word"[^>]*>[^<]*<\/span>/, ''));
+      const r = await renderFace(page, t2, { baseName: 'G1-336-gate-poison-PF3b' });
+      if (judge('PF3b', r.verify, /11 chips ≠ 2 × 6|pair [\w-]+ has 1 chips/)) killed++;
+    }
+    // PF3c — a lane with a word pre-printed on its first writing row
+    {
+      const t2 = mutate(faceTypes.pairup, (html) => html.replace(/(data-lcs-pairlane="1"[\s\S]*?data-lcs-prim="writing-row"[^>]*>)/, '$1<text x="20" y="40" font-size="24">big</text>'));
+      const r = await renderFace(page, t2, { baseName: 'G1-336-gate-poison-PF3c' });
+      if (judge('PF3c', r.verify, /lane 1: writing row 1 is not empty|lane 1: prints "1 ?big"/)) killed++;
+    }
+    // PF4a — the correct pill in ONE position on every row
+    {
+      const t2 = mutate(faceTypes.choice, (html, meta) => {
+        const rows = meta.pairs.map((id) => { const p = pairOf(id); return C3.oppositeChoiceRow({ pair: id, target: p.a, b: p.b, pills: [{ word: p.b, role: 'antonym' }, { word: p.syn.a, role: 'syn' }, { word: p.far, role: 'far' }], correct: 0, targetPx: 26, pillPx: 22 }); }).join('');
+        return html.replace(/<div style="flex:1 1 auto;display:grid[^>]*data-lcs-choice-grid>[\s\S]*<\/div><\/div>$/, `<div style="flex:1 1 auto;display:grid;grid-template-rows:repeat(6,minmax(0,1fr));gap:10px;min-height:0" data-lcs-choice-grid>${rows}</div></div>`);
+      });
+      const r = await renderFace(page, t2, { baseName: 'G1-337-gate-poison-PF4a' });
+      if (judge('PF4a', r.verify, /the correct pill takes 1 of 3 positions/)) killed++;
+    }
+    // PF4b — a far word that is another row's target ("wet" on big-small while wet-dry is a row)
+    {
+      const ids = ['big-small', 'wet-dry', 'hot-cold', 'fast-slow', 'loud-quiet', 'clean-dirty'];
+      const rows = ids.map((id, i) => { const p = pairOf(id); const pills = [{ word: p.b, role: 'antonym' }, { word: p.syn.a, role: 'syn' }, { word: p.far, role: 'far' }]; const rot = i % 3; const ordered = pills.slice(rot).concat(pills.slice(0, rot)); return C3.oppositeChoiceRow({ pair: id, target: p.a, b: p.b, pills: ordered, correct: ordered.findIndex((x) => x.role === 'antonym'), targetPx: 26, pillPx: 22 }); }).join('');
+      const body = `<div style="flex:1 1 auto;display:flex;flex-direction:column;min-height:0" data-lcs-opposites data-lcs-layout="choice" data-lcs-rows="6" data-lcs-chips="3"><div style="flex:1 1 auto;display:grid;grid-template-rows:repeat(6,minmax(0,1fr));gap:10px;min-height:0" data-lcs-choice-grid>${rows}</div></div>`;
+      const r = await renderFace(page, facePage(faceTypes.choice, body), { baseName: 'G1-337-gate-poison-PF4b' });
+      if (judge('PF4b', r.verify, /"wet" is already on the page \(row 1\)/)) killed++;
+    }
+    // PF4c — the syn pill is the antonym too (two pills read "small")
+    {
+      const t2 = mutate(faceTypes.choice, (html, meta) => { const p = pairOf(meta.pairs[0]); return html.replace(`data-lcs-pill="${p.syn.a}" data-lcs-role="syn">${p.syn.a}<`, `data-lcs-pill="${p.b}" data-lcs-role="syn">${p.b}<`); });
+      const r = await renderFace(page, t2, { baseName: 'G1-337-gate-poison-PF4c' });
+      if (judge('PF4c', r.verify, /row 1: 2 pills equal the antonym|row 1: two pills print one word/)) killed++;
+    }
+    // PF4d — a pill word outside the bank's triple (syn "large" → "huge" for big)
+    {
+      const rows = ['big-small', 'hot-cold', 'fast-slow', 'loud-quiet', 'clean-dirty', 'strong-weak'].map((id, i) => { const p = pairOf(id); const syn = id === 'big-small' ? 'huge' : p.syn.a; const pills = [{ word: p.b, role: 'antonym' }, { word: syn, role: 'syn' }, { word: p.far, role: 'far' }]; const rot = i % 3; const ordered = pills.slice(rot).concat(pills.slice(0, rot)); return C3.oppositeChoiceRow({ pair: id, target: p.a, b: p.b, pills: ordered, correct: ordered.findIndex((x) => x.role === 'antonym'), targetPx: 26, pillPx: 22 }); }).join('');
+      const body = `<div style="flex:1 1 auto;display:flex;flex-direction:column;min-height:0" data-lcs-opposites data-lcs-layout="choice" data-lcs-rows="6" data-lcs-chips="3"><div style="flex:1 1 auto;display:grid;grid-template-rows:repeat(6,minmax(0,1fr));gap:10px;min-height:0" data-lcs-choice-grid>${rows}</div></div>`;
+      const { r, own } = await faceFindings(facePage(faceTypes.choice, body), 'choice', 'G1-337-gate-poison-PF4d');
+      if (judge('PF4d node', own, /row big-small syn pill "huge" ≠ the bank's syn\.a "large"/, `verify ${r.verify.length} (page-side, bank-blind by design)`)) killed++;
+    }
+    // PF5a — the expected word printed on its row
+    {
+      const t2 = mutate(faceTypes.prefix, (html) => html.replace(/(data-lcs-prefix-row="1"[^>]*data-lcs-expected="([^"]+)"[\s\S]*?data-lcs-base-word>)([^<]+)(<\/span>)/, (m0, p1, exp, base, p4) => p1 + base + ' ' + exp + p4));
+      const r = await renderFace(page, t2, { baseName: 'G2-320-gate-poison-PF5a' });
+      if (judge('PF5a', r.verify, /row 1: the answer "\w+" is printed|row 1: prints "1 ?\w+ \w+"/)) killed++;
+    }
+    // PF5b — a legend chip for a prefix no row uses ("re-")
+    {
+      const t2 = mutate(faceTypes.prefix, (html) => html.replace(/(data-lcs-prefix-legend=")(\d+)(">)/, (m0, a, n, c) => a + (+n + 1) + c + '<span class="ws-nchip" style="height:44px;padding:0 18px;font-size:22px" data-lcs-prefix="re">re-</span>'));
+      const r = await renderFace(page, t2, { baseName: 'G2-320-gate-poison-PF5b' });
+      if (judge('PF5b', r.verify, /legend \[.*"re".*\] ≠ the prefixes used/)) killed++;
+    }
+    // PF5c — an expected that does not end with its base (kind → unkindly)
+    {
+      const t2 = mutate(faceTypes.prefix, (html) => html.replace(/data-lcs-expected="([a-z]+)"/, 'data-lcs-expected="$1ly"'));
+      const r = await renderFace(page, t2, { baseName: 'G2-320-gate-poison-PF5c' });
+      if (judge('PF5c', r.verify, /expected "\w+ly" does not end with the base/)) killed++;
+    }
+    // PF5d — a base twice on the page
+    {
+      const t2 = mutate(faceTypes.prefix, (html) => { const first = /data-lcs-prefix-row="1" data-lcs-base="([^"]+)" data-lcs-prefix="([^"]+)" data-lcs-expected="([^"]+)"/.exec(html); const row2 = C3.oppositePrefixRow({ n: 2, base: first[1], prefix: first[2], expected: first[3], wordPx: 24, colW: 220, laneW: 300, laneH: 56, glyphH: 26 }); return html.replace(/<div class="ws-lane"[^>]*data-lcs-prefix-row="2"[\s\S]*?<\/svg><\/span><\/div>/, row2); });
+      const r = await renderFace(page, t2, { baseName: 'G2-320-gate-poison-PF5d' });
+      if (judge('PF5d', r.verify, /row 2: base "\w+" twice/)) killed++;
+    }
+    console.log('faces: ' + Object.values(faceTypes).map((t) => t.id).join(' '));
 
     console.log('poison:\n' + poisonLog.join('\n'));
     ok(killed === TOTAL, `poisons killed ${killed}/${TOTAL}`);

@@ -28,7 +28,12 @@
  *               picOpened: true }],         every pic was OPENED on the contact sheet
  *     frames:  [{ pair, text, answer, pic }],           F2 (whole literals, stored answer)
  *     prefix:  { prefixes, items:[{base, prefix, expected}], ban },   F5
- *     strings: { 'G1-307': {title, instruction} }      faces F1..F5 added in Phase 2
+ *     strings: { 'G1-307': {title, instruction},        the base
+ *                'K-351' | 'G1-335' | 'G1-336' | 'G1-337' | 'G2-320': {title, instruction} }
+ *                                                       the five faces (Phase 2, 2026-09-14): F1 match ·
+ *                                                       F2 frames · F3 pairup · F4 choice · F5 prefix —
+ *                                                       the EN pair is the rows module's title/instruction
+ *                                                       verbatim (the gate asserts one source)
  *   }
  *   `pic` and `frames[].pic` are LOCALE-NEUTRAL pictures (the word beside a
  *   picture is never a noun, so nothing agrees with it); a panel may swap a
@@ -123,6 +128,27 @@ const OPPOSITES = {
       'G1-307': {
         title: 'Opposites: Write the Opposite Word',
         instruction: 'Read the word on each card. Find its opposite in the word bank and write it on the line.',
+      },
+      // Phase 2 faces — EN = tools/b3var-rows/opposites.js verbatim (gate rule 9)
+      'K-351': {
+        title: 'Opposites with Pictures: Match the Opposites',
+        instruction: 'Draw a line from each picture to the picture and word that show its opposite.',
+      },
+      'G1-335': {
+        title: 'Opposites in a Sentence',
+        instruction: 'Read each sentence. Write the opposite of the word after "not" on the line. The word bank helps you.',
+      },
+      'G1-336': {
+        title: 'Pair Up the Opposites',
+        instruction: 'Find the two words that are opposites. Write each pair on a line, one word on each side of the arrow.',
+      },
+      'G1-337': {
+        title: 'Opposite or the Same? Circle the Opposite',
+        instruction: 'Read the word. One of the three words under it means the opposite. Circle it, not the one that means the same.',
+      },
+      'G2-320': {
+        title: 'Antonyms with un-, dis-, in-',
+        instruction: 'Add the prefix to each word and write the new opposite word on the line.',
       },
     },
   },

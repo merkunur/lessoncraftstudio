@@ -2,13 +2,13 @@
  * components-b3/opposites.js — the G1-307 `opposites` family components
  * (design: docs/worksheet-gen/b3-designs/G1-307-opposites.md §2 "NEW in
  * templates/components-b3.js"). Merged into the templates/components-b3.js
- * namespace; only the components the BASE consumes are exported here
- * (`oppositeArrow`, `pairCard`) plus the base's card body (`oppositeCard`),
- * lifted out of the spec so the gate can build a page past the spec's guards.
- * The five face components the design names (`matchColumns`, `frameRow`,
- * `pairLane`, `choiceRow`, `prefixChips`) are Phase 2 — nothing on the base
- * consumes them, so they are not exported yet (the K-317 / K-319 convention);
- * `matchColumns` stays a free name (K-319 exports `feelingMatch`).
+ * namespace. The base consumes `oppositeArrow` + `pairCard` and its card body
+ * `oppositeCard` (lifted out of the spec so the gate can build a page past the
+ * spec's guards); the Phase 2 faces (2026-09-14) add the seven type-scoped
+ * face components below (`oppositeMatch` … `oppositePrefixRow` — the design's
+ * matchColumns / frameRow / pairLane / choiceRow / prefixChips under the
+ * `opposite…` prefix, the K-319 `feeling…` convention against namespace
+ * collisions). The base's three exports are byte-untouched.
  *
  *   oppositeArrow({ w = 36, h = 20 })
  *     One shaft with two opposed heads, T.teal, stroke 3, round caps, on the
@@ -45,7 +45,7 @@
 'use strict';
 const tokens = require('../../primitives/_tokens.js');
 const { svgRoot, el, esc } = require('../../primitives/_svg.js');
-const { writingRow } = require('../../primitives/trace-path.js');
+const { writingRow, textLaneGeometry, LM } = require('../../primitives/trace-path.js');
 
 const T = tokens.color;
 const F = tokens.font;
@@ -95,4 +95,123 @@ function oppositeCard({ given, pair, a, b, dir, wordPx = 28, laneW = 302, laneH 
     `<div style="display:flex;justify-content:center" data-lcs-line="lane">${lane}</div></div>`;
 }
 
-module.exports = { oppositeArrow, pairCard, oppositeCard };
+/* ================================================================== faces (Phase 2, 2026-09-14) */
+/*
+ * Type-scoped names (the design's matchColumns / frameRow / pairLane / choiceRow / prefixChips are
+ * generic enough to collide with a sibling family in the shared namespace loader, which refuses a
+ * duplicate for every family at once — the K-319 precedent).
+ *
+ *   oppositeMatch({ left, right, tileW, itemH, minH, wordPx })            F1 K-351 `layout:'match'`
+ *     .ws-match with two columns: LEFT cream items (`data-lcs-left="<pair>"`, dot --right) print
+ *     picture + word of member a; RIGHT white items (`data-lcs-right="<pair>"`, dot --left) print the
+ *     OPPOSITE picture + word b, in the caller's (deranged) order. Each item = [img .ws-icon px][word
+ *     Baloo 2 700 wordPx]; `px` per item (a scale pair prints ONE noun at two sizes, both >= the K
+ *     floor 56). `flex:0 1 auto; min-height:minH` lets the column shrink under a long chrome.
+ *   oppositeFrameRow({ pair, a, b, given, answer, pic, line1, pre, post, picPx, textW, fontPx,
+ *                      laneW, laneH, glyphH })                                F2 G1-335 `layout:'frames'`
+ *     .ws-lane (padding 4 16 -> inner 639) stamped data-lcs-frame / -a / -b / -given / -answer:
+ *     [img picPx][text column textW: line 1 (Nunito 800 fontPx) / line 2 = pre + an inline
+ *     writingRow laneW x laneH + post (the end mark)]. The answer is never in the text.
+ *   oppositeChipRow({ chips, fontPx, tileH })                               F3 G1-336 `layout:'pairup'`
+ *     .ws-tilerow centred, `.ws-tile.ws-tile--word` chips stamped data-lcs-chip="<word>" and
+ *     data-lcs-chip-pair="<pair>" (the mapping the gate re-derives; nothing visible carries it).
+ *   oppositePairLane({ n, w, h, glyphH, arrowW, arrowH })                   F3 lane
+ *     .ws-lane (padding 5 16) stamped data-lcs-pairlane="n": [badge 30][writingRow w x h][arrow]
+ *     [writingRow w x h] — two EMPTY lanes round a two-way arrow; the child writes one pair per row.
+ *   oppositeChoiceRow({ pair, target, b, pills, correct, targetPx, pillPx })  F4 G1-337 `layout:'choice'`
+ *     .ws-lane (padding 8 16) stamped data-lcs-choice="<pair>" data-lcs-target data-lcs-b
+ *     data-lcs-correct="<i>": line 1 the target word (Baloo 2 700 targetPx, data-lcs-target-word);
+ *     line 2 three white .ws-pill (Baloo 700 pillPx, h >= 40) stamped data-lcs-pill="<word>"
+ *     data-lcs-role="antonym|syn|far".
+ *   oppositePrefixChips({ prefixes, px })                                   F5 G2-320 legend
+ *     .ws-nstrip of .ws-nchip 44 high printing "<prefix>-", data-lcs-prefix="<prefix>" — a legend,
+ *     never an answer (data-lcs-prefix-legend on the strip).
+ *   oppositePrefixRow({ n, base, prefix, expected, wordPx, colW, laneW, laneH, glyphH })   F5 row
+ *     .ws-lane (padding 6 12 -> inner 647) stamped data-lcs-prefix-row data-lcs-base data-lcs-prefix
+ *     data-lcs-expected: [badge 30][base word Baloo 2 700 wordPx in colW][arrow 48x24][writingRow
+ *     laneW x laneH]. Only the base word is printed; the child writes prefix + base on the lane.
+ */
+const K_FLOOR = tokens.density.K.minElement;   // 56
+
+const badge = (n) => `<span class="ws-card-badge" style="position:static;border-radius:50%;flex:0 0 auto" aria-hidden="true">${n}</span>`;
+const wordSpan = (word, px, attrs = '') =>
+  `<span style="font-family:${F.display},cursive;font-weight:700;font-size:${px}px;line-height:${px + 4}px;color:${T.ink};white-space:nowrap;flex:0 1 auto;min-width:0"${attrs}>${esc(word)}</span>`;
+
+function oppositeMatchItem({ side, pair, word, src, px, tileW, itemH, minH, wordPx }) {
+  if (px < K_FLOOR) throw new Error(`oppositeMatch: icon ${px} px below the K floor ${K_FLOOR}`);
+  const cls = side === 'left' ? 'ws-match-item' : 'ws-match-item ws-match-item--plain';
+  const dot = side === 'left' ? 'ws-match-dot ws-match-dot--right' : 'ws-match-dot ws-match-dot--left';
+  const stamp = side === 'left' ? `data-lcs-left="${esc(pair)}"` : `data-lcs-right="${esc(pair)}"`;
+  return `<div class="${cls}" style="width:${tileW}px;height:${itemH}px;min-height:${minH}px;flex:0 1 auto;gap:10px;padding:0 8px" ${stamp} data-lcs-word="${esc(word)}">` +
+    `<img class="ws-icon" src="${src}" alt="" style="width:${px}px;height:${px}px;flex:0 0 auto">` +
+    wordSpan(word, wordPx, ' data-lcs-match-word') +
+    `<span class="${dot}"></span></div>`;
+}
+
+function oppositeMatch({ left, right, tileW = 250, itemH = 114, minH, wordPx = 26 }) {
+  const picMax = Math.max(...left.map((i) => i.px), ...right.map((i) => i.px));
+  const mh = minH == null ? Math.max(picMax + 16, wordPx + 24) : minH;
+  const l = left.map((i) => oppositeMatchItem({ side: 'left', ...i, tileW, itemH, minH: mh, wordPx })).join('');
+  const r = right.map((i) => oppositeMatchItem({ side: 'right', ...i, tileW, itemH, minH: mh, wordPx })).join('');
+  return `<div class="ws-match" style="min-height:0" data-ws-content data-lcs-match-block data-lcs-pairs="${left.length}">` +
+    `<div class="ws-match-col" style="min-height:0" data-lcs-col="left">${l}</div>` +
+    `<div class="ws-match-col" style="min-height:0" data-lcs-col="right">${r}</div></div>`;
+}
+
+function oppositeFrameRow({ pair, a, b, given, answer, name = null, pic, line1, pre, post, picPx = 64, textW = 563, fontPx = 19, laneW = 200, laneH = 56, glyphH = 28 }) {
+  const lane = writingRow({ w: laneW, h: laneH, glyphH, xHeight: true }).svg;
+  // the sentence text sits ON the lane's base line: pad the line-2 spans up from the SVG's bottom edge by
+  // (laneH - yBase - the font's descent), measured off the same geometry the writing row rules itself by
+  const geo = textLaneGeometry({ h: laneH, glyphH, heightUnits: LM.base - LM.ascender, inkTop: LM.ascender, inkBottom: LM.desc });
+  const pad = Math.max(0, Math.round(laneH - geo.yBase - fontPx * 0.24));
+  const txt = (s, attr, onLane) => `<span style="font-family:${F.body},sans-serif;font-weight:800;font-size:${fontPx}px;line-height:${fontPx + 3}px;color:${T.ink};white-space:nowrap${onLane ? ';padding-bottom:' + pad + 'px' : ''}"${attr || ''}>${esc(s)}</span>`;
+  const img = pic && pic.src ? `<img class="ws-icon" src="${pic.src}" alt="" style="width:${picPx}px;height:${picPx}px;flex:0 0 auto" data-lcs-frame-pic="${esc(pic.theme + '/' + pic.noun)}">` : '';
+  return `<div class="ws-lane" style="padding:4px 16px;display:flex;align-items:center;gap:12px;min-height:0" data-ws-content ` +
+    `data-lcs-frame="${esc(pair)}" data-lcs-a="${esc(a)}" data-lcs-b="${esc(b)}" data-lcs-given="${esc(given)}" data-lcs-answer="${esc(answer)}"${name ? ` data-lcs-name="${esc(name)}"` : ''}>` +
+    img +
+    `<div style="display:flex;flex-direction:column;justify-content:center;gap:2px;width:${textW}px;min-height:0" data-lcs-frame-text>` +
+    `<div style="display:flex;align-items:center;min-height:0" data-lcs-frame-line="1">${line1 ? txt(line1) : ''}</div>` +
+    `<div style="display:flex;align-items:flex-end;gap:6px;min-height:0" data-lcs-frame-line="2">${pre ? txt(pre, '', true) : ''}${lane}${post ? txt(post, '', true) : ''}</div>` +
+    `</div></div>`;
+}
+
+function oppositeChipRow({ chips, fontPx = 20, tileH = 44 }) {
+  const items = chips.map((c) =>
+    `<span class="ws-tile ws-tile--word" style="height:${tileH}px;font-size:${fontPx}px" data-lcs-chip="${esc(c.word)}" data-lcs-chip-pair="${esc(c.pair)}">${esc(c.word)}</span>`).join('');
+  return `<div class="ws-tilerow" style="justify-content:center;flex:0 0 auto" data-lcs-chiprow="${chips.length}">${items}</div>`;
+}
+
+function oppositePairLane({ n, w = 260, h = 64, glyphH = 28, arrowW = 48, arrowH = 24 }) {
+  const lane = () => writingRow({ w, h, glyphH, xHeight: true }).svg;
+  return `<div class="ws-lane" style="padding:5px 16px;display:flex;align-items:center;justify-content:center;gap:12px;min-height:0" data-ws-content data-lcs-pairlane="${n}">` +
+    badge(n) + `<span data-lcs-pairlane-slot="1" style="display:flex">${lane()}</span>` + oppositeArrow({ w: arrowW, h: arrowH }) +
+    `<span data-lcs-pairlane-slot="2" style="display:flex">${lane()}</span></div>`;
+}
+
+function oppositeChoiceRow({ pair, target, b, pills, correct, targetPx = 26, pillPx = 22 }) {
+  const ps = pills.map((p, i) =>
+    `<span class="ws-pill" style="font-size:${pillPx}px;min-height:40px;line-height:${pillPx + 4}px" data-lcs-pill="${esc(p.word)}" data-lcs-role="${p.role}"${i === correct ? ' data-lcs-correct-pill="1"' : ''}>${esc(p.word)}</span>`).join('');
+  return `<div class="ws-lane" style="padding:8px 16px;display:flex;flex-direction:column;justify-content:space-evenly;gap:6px;min-height:0" data-ws-content ` +
+    `data-lcs-choice="${esc(pair)}" data-lcs-target="${esc(target)}" data-lcs-b="${esc(b)}" data-lcs-correct="${correct}">` +
+    `<div style="display:flex;align-items:center;gap:10px;min-height:0">${oppositeArrow()}${wordSpan(target, targetPx, ' data-lcs-target-word')}</div>` +
+    `<div style="display:flex;justify-content:center;gap:12px;min-height:0" data-lcs-pills="${pills.length}">${ps}</div></div>`;
+}
+
+function oppositePrefixChips({ prefixes, px = 22 }) {
+  const chips = prefixes.map((p) =>
+    `<span class="ws-nchip" style="height:44px;padding:0 18px;font-size:${px}px" data-lcs-prefix="${esc(p)}">${esc(p)}-</span>`).join('');
+  return `<div class="ws-nstrip" style="gap:12px;flex:0 0 auto;margin-bottom:12px" data-lcs-prefix-legend="${prefixes.length}">${chips}</div>`;
+}
+
+function oppositePrefixRow({ n, base, prefix, expected, wordPx = 24, colW = 220, laneW = 300, laneH = 56, glyphH = 26 }) {
+  const lane = writingRow({ w: laneW, h: laneH, glyphH, xHeight: true }).svg;
+  return `<div class="ws-lane" style="padding:6px 12px;display:flex;align-items:center;gap:12px;min-height:0" data-ws-content ` +
+    `data-lcs-prefix-row="${n}" data-lcs-base="${esc(base)}" data-lcs-prefix="${esc(prefix)}" data-lcs-expected="${esc(expected)}">` +
+    badge(n) +
+    `<div style="display:flex;align-items:center;width:${colW}px;min-width:0">${wordSpan(base, wordPx, ' data-lcs-base-word')}</div>` +
+    oppositeArrow({ w: 48, h: 24 }) +
+    `<span data-lcs-prefix-slot style="display:flex">${lane}</span></div>`;
+}
+
+module.exports = { oppositeArrow, pairCard, oppositeCard,
+  oppositeMatch, oppositeFrameRow, oppositeChipRow, oppositePairLane, oppositeChoiceRow, oppositePrefixChips, oppositePrefixRow };

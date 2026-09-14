@@ -134,6 +134,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     es: 'Lectura de textos informativos', // nt20-C panel (tools/apply-b3-locale.js)
     fr: 'Lecture de textes documentaires', // nt20-C panel (tools/apply-b3-locale.js)
     it: 'Lettura: testi informativi', // nt20-C panel (tools/apply-b3-locale.js)
+    da: 'Læsning: fagtekster', // nt20-C panel (tools/apply-b3-locale.js)
   },
   // Reading: Literature (RL — answer key-detail questions about an erzählende Geschichte). de literacy
   // fan-out opener (picture-story RL.K.1); literary COMPREHENSION — the distinct literary Bereich
@@ -147,6 +148,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     nl: 'Begrijpend lezen: verhalen', // nt20-C panel (tools/apply-b3-locale.js)
     es: 'Lectura de textos literarios', // nt20-C panel (tools/apply-b3-locale.js)
     it: 'Lettura: testi narrativi', // nt20-C panel (tools/apply-b3-locale.js)
+    da: 'Læsning: skønlitteratur', // nt20-C panel (tools/apply-b3-locale.js)
   },
   // Writing (composing texts). KMK Bereich „Texte verfassen"; opens the Writing
   // strand — the platform's first W activity (wobble-museum, beim Thema bleiben).
@@ -158,6 +160,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     nl: 'Schrijven', // nt20-C panel (tools/apply-b3-locale.js)
     fr: 'Écriture', // nt20-C panel (tools/apply-b3-locale.js)
     it: 'Scrittura', // nt20-C panel (tools/apply-b3-locale.js)
+    da: 'Fremstilling', // nt20-C panel (tools/apply-b3-locale.js)
   },
   // Phonological Awareness (pre-reading sound awareness; literacy). No deployed
   // activity uses this strand yet (forward-looking); all 11 locales curriculum-reviewed.
@@ -197,6 +200,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     // blogposts quote only the MATHEMATICS centralt innehåll and are self-authored marketing.
     // This wording is from professional knowledge and is NOT a checked verbatim quote.
     sv: 'Språkliga strukturer och normer',
+    da: 'Sprog og sprogbrug', // nt20-C panel (tools/apply-b3-locale.js)
   },
   'Vocabulary Acquisition and Use': {
     en: 'Vocabulary Acquisition and Use',
@@ -221,6 +225,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     // verbatim to the character - spot-check against Skolverket before quoting it as a citation.
     // sv literacy/vocab fan-out (#22 affix) - the platform's FIRST sv Vocabulary activity.
     sv: 'Ord och begrepp',
+    da: 'Ord og begreber', // nt20-C panel (tools/apply-b3-locale.js)
   },
   'Number & Operations—Fractions': {
     en: 'Number & Operations—Fractions',

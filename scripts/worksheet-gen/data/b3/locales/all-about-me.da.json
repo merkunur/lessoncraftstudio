@@ -1,0 +1,125 @@
+{
+  "labels": {
+    "nameIs": "Jeg hedder",
+    "age": {
+      "pre": "Jeg er",
+      "post": "år",
+      "glue": false
+    },
+    "thisIsMe": "Det er mig",
+    "family": "Min familie",
+    "familyDraw": "Tegn din familie",
+    "drawFace": "Tegn nu dit eget ansigt",
+    "school": "Min skole hedder",
+    "favHeading": {
+      "animal": "Mit yndlingsdyr",
+      "food": "Min yndlingsmad",
+      "color": "Min yndlingsfarve",
+      "toy": "Mit yndlingslegetøj"
+    },
+    "countHeads": {
+      "people": "Personer i min familie:",
+      "brothers": "Brødre:",
+      "sisters": "Søstre:",
+      "pets": "Kæledyr:"
+    },
+    "wantLearn": "Jeg vil gerne lære",
+    "myName": "Mit navn",
+    "friendName": "Min vens navn",
+    "oneLetterPerBox": "Skriv ét bogstav i hver kasse",
+    "lettersCount": "Bogstaver i mit navn:",
+    "firstLetter": "Det første bogstav i mit navn:",
+    "whoHasMore": {
+      "question": "Hvem har flest bogstaver?",
+      "me": "mig",
+      "friend": "min ven"
+    }
+  },
+  "faceWords": {
+    "eye": "øje",
+    "ear": "øre",
+    "nose": "næse",
+    "mouth": "mund",
+    "hair": "hår",
+    "eyebrow": "øjenbryn",
+    "chin": "hage"
+  },
+  "can": {
+    "swim": "Jeg kan svømme",
+    "run": "Jeg kan løbe",
+    "skip": "Jeg kan hoppe",
+    "bike": "Jeg kan cykle",
+    "read": "Jeg kan læse en bog",
+    "soccer": "Jeg kan sparke til en bold",
+    "puzzle": "Jeg kan lægge et puslespil",
+    "paint": "Jeg kan male et billede",
+    "sing": "Jeg kan synge en sang",
+    "skate": "Jeg kan stå på skøjter",
+    "ski": "Jeg kan stå på ski",
+    "writename": "Jeg kan skrive mit navn",
+    "brushteeth": "Jeg kan børste tænder"
+  },
+  "refuse": [],
+  "optionWords": {
+    "cat": "kat",
+    "dog": "hund",
+    "fish": "fisk",
+    "horse": "hest",
+    "rabbit": "kanin",
+    "duck": "and",
+    "pig": "gris",
+    "sheep": "får",
+    "elephant": "elefant",
+    "giraffe": "giraf",
+    "penguin": "pingvin",
+    "tiger": "tiger",
+    "apple": "æble",
+    "banana": "banan",
+    "bread": "brød",
+    "cheese": "ost",
+    "pizza": "pizza",
+    "carrot": "gulerod",
+    "strawberry": "jordbær",
+    "cookie": "småkage",
+    "pasta": "pasta",
+    "milk": "mælk",
+    "grapes": "druer",
+    "cake": "kage",
+    "ball": "bold",
+    "doll": "dukke",
+    "car": "bil",
+    "train": "tog",
+    "kite": "drage",
+    "blocks": "klodser",
+    "robot": "robot",
+    "balloon": "ballon",
+    "dinosaur": "dinosaur",
+    "boat": "båd"
+  },
+  "strings": {
+    "K-323": {
+      "title": "Alt om mig",
+      "instruction": "Skriv dit navn og din alder, tegn dig selv og din familie, og tegn så dine tre yndlingsting."
+    },
+    "K-342": {
+      "title": "Mine yndlingsting: sæt ring, og skriv",
+      "instruction": "Sæt en ring om dit yndlingsbillede i hver række, og skriv ordet på linjen."
+    },
+    "K-343": {
+      "title": "Min familie: tegn og tæl",
+      "instruction": "Tegn din familie. Vis så på tierammerne, hvor mange personer, brødre, søstre og kæledyr I er, og skriv tallet."
+    },
+    "K-344": {
+      "title": "Det er mig: sæt ord på ansigtet",
+      "instruction": "Skriv hvert ord fra ordbanken på den linje, der peger på den del af ansigtet. Tegn så dit eget ansigt."
+    },
+    "K-345": {
+      "title": "Jeg kan: sæt kryds ved det, du kan",
+      "instruction": "Læs hver sætning, og sæt kryds ved det, du kan. Skriv så én ting, du gerne vil lære."
+    },
+    "K-346": {
+      "title": "Mit navn: skriv, tæl og sammenlign",
+      "instruction": "Skriv dit navn med ét bogstav i hver kasse, og tæl bogstaverne. Gør det samme med en ven, og sæt ring om den, der har flest."
+    }
+  }
+}

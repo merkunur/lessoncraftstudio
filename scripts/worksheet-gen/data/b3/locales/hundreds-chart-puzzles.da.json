@@ -1,0 +1,29 @@
+{
+  "exemplar": "1-100",
+  "strings": {
+    "G1-310": {
+      "title": "Hundredtavlen: udfyld brikkerne",
+      "instruction": "Ét tal står på hver brik. Skriv alle de tal, der mangler: 1 mere til højre, 1 mindre til venstre, 10 mere nedenunder, 10 mindre ovenover."
+    },
+    "F1": {
+      "title": "Hvor hører brikken til?",
+      "instruction": "Læs tallene på hver brik, find dens plads på den tomme tavle, og skriv tallene ind."
+    },
+    "F2": {
+      "title": "Hop på hundredtavlen: følg pilene",
+      "instruction": "Start ved tallet, og følg pilene: op er 10 mindre, ned er 10 mere, til højre er 1 mere. Skriv, hvor du lander."
+    },
+    "F3": {
+      "title": "Det hemmelige tal: to pile, ét felt",
+      "instruction": "Følg begge pile. De peger på det samme felt på tavlen. Skriv det hemmelige tal."
+    },
+    "F4": {
+      "title": "Find det forkerte tal på brikken",
+      "instruction": "Ét tal på hver brik er forkert. Sæt ring om det, og skriv det rigtige tal i kassen."
+    },
+    "F5": {
+      "title": "Hvor langt fra hinanden? Tæl hoppene",
+      "instruction": "Tæl, hvor mange hop ned og hvor mange hop til højre der fører fra det første tal til det andet."
+    }
+  }
+}

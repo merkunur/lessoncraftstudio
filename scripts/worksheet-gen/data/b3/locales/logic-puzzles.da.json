@@ -1,0 +1,100 @@
+{
+  "head": "Logikopgave",
+  "names": [
+    {
+      "nom": "Ida"
+    },
+    {
+      "nom": "William"
+    },
+    {
+      "nom": "Freja"
+    },
+    {
+      "nom": "Oscar"
+    },
+    {
+      "nom": "Alma"
+    },
+    {
+      "nom": "Noah"
+    },
+    {
+      "nom": "Clara"
+    },
+    {
+      "nom": "Emil"
+    }
+  ],
+  "namePx": 22,
+  "picSep": "",
+  "frames": {
+    "neg": [
+      "{name} har ikke {pic}.",
+      "{pic} tilhører ikke {name}."
+    ],
+    "pos": [
+      "{name} har {pic}.",
+      "{pic} tilhører {name}."
+    ],
+    "either": [
+      "{name} har {pic} eller {pic}.",
+      "{pic} eller {pic} tilhører {name}."
+    ],
+    "holderNot": [
+      "Barnet med {pic} er ikke {name}.",
+      "{name} er ikke barnet med {pic}."
+    ],
+    "cross": [
+      "Barnet med {pic} har også {pic2}.",
+      "Den, der har {pic}, har også {pic2}."
+    ],
+    "crossNot": [
+      "Barnet med {pic} har ikke {pic2}.",
+      "Den, der har {pic}, har ikke {pic2}."
+    ]
+  },
+  "truth": {
+    "has": [
+      "{name} har {pic}."
+    ],
+    "hasNot": [
+      "{name} har ikke {pic}."
+    ],
+    "holderIs": [
+      "Barnet med {pic} er {name}."
+    ],
+    "either": [
+      "{name} har {pic} eller {pic}."
+    ],
+    "nobody": [
+      "Ingen har {pic}."
+    ]
+  },
+  "strings": {
+    "G2-319": {
+      "title": "Logikopgaver: tre spor, ét svar",
+      "instruction": "Læs sporene. Sæt kryds i skemaet ved det, der ikke kan passe, og flueben ved det, der må passe. Sæt så ring om hvert barns billede."
+    },
+    "F1": {
+      "title": "Logikopgaver med ja, nej og enten-eller",
+      "instruction": "Et ja-spor får et flueben, et nej-spor et kryds, og et enten-eller-spor streger det tredje billede ud. Gør skemaet færdigt, og sæt ring om hvert svar."
+    },
+    "F2": {
+      "title": "Logikopgaver 4 gange 4: seks spor",
+      "instruction": "Fire børn og fire billeder. Brug alle sporene: sæt kryds ved det, der ikke kan passe, og flueben ved det, der må passe, til hver række har ét svar."
+    },
+    "F3": {
+      "title": "Logikopgaver med billedspor: streg ud, og find",
+      "instruction": "Et overstreget billede betyder, at barnet ikke har det. Et indringet betyder, at barnet har det. Sæt kryds i skemaet, og sæt ring om hvert svar."
+    },
+    "F4": {
+      "title": "Logikopgaver med to ting til hvert barn",
+      "instruction": "Hvert barn har ét billede fra hvert sæt. Brug de spor, der binder dem sammen, til at udfylde alle tre skemaer."
+    },
+    "F5": {
+      "title": "Læs logikskemaet: rigtigt eller forkert",
+      "instruction": "Skemaet er allerede løst. Læs det, og sæt ring om fluebenet, hvis sætningen er rigtig, eller om krydset, hvis den er forkert."
+    }
+  }
+}

@@ -1,0 +1,966 @@
+{
+  "head": "Udsagnsord: nutid og datid",
+  "mode": "tense",
+  "band": "G2",
+  "exemplar": "nutid-datid",
+  "columns": [
+    {
+      "key": "pres",
+      "label": "nutid"
+    },
+    {
+      "key": "past",
+      "label": "datid"
+    }
+  ],
+  "units": [
+    {
+      "key": "nutid-datid",
+      "kind": "tense",
+      "label": "nutid og datid",
+      "band": "G2"
+    }
+  ],
+  "poolMap": {
+    "regular": "all"
+  },
+  "matchPersons": [],
+  "verbs": [
+    {
+      "inf": "løbe",
+      "group": "strong",
+      "irregular": true,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "running"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "løber",
+          "past": "løb"
+        }
+      }
+    },
+    {
+      "inf": "hoppe",
+      "group": "weak",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "jumping"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "hopper",
+          "past": "hoppede"
+        }
+      }
+    },
+    {
+      "inf": "læse",
+      "group": "weak",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "reading"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "læser",
+          "past": "læste"
+        }
+      }
+    },
+    {
+      "inf": "danse",
+      "group": "weak",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "dancing"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "danser",
+          "past": "dansede"
+        }
+      }
+    },
+    {
+      "inf": "vandre",
+      "group": "weak",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "hiking"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "vandrer",
+          "past": "vandrede"
+        }
+      }
+    },
+    {
+      "inf": "bage",
+      "group": "weak",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "baking"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "bager",
+          "past": "bagte"
+        }
+      }
+    },
+    {
+      "inf": "synge",
+      "group": "strong",
+      "irregular": true,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "occupations",
+        "noun": "singer"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "synger",
+          "past": "sang"
+        }
+      }
+    },
+    {
+      "inf": "tegne",
+      "group": "weak",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "occupations",
+        "noun": "artist"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "tegner",
+          "past": "tegnede"
+        }
+      }
+    },
+    {
+      "inf": "spise",
+      "group": "weak",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "spiser",
+          "past": "spiste"
+        }
+      }
+    },
+    {
+      "inf": "svømme",
+      "group": "weak",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "svømmer",
+          "past": "svømmede"
+        }
+      }
+    },
+    {
+      "inf": "lege",
+      "group": "weak",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "leger",
+          "past": "legede"
+        }
+      }
+    },
+    {
+      "inf": "klatre",
+      "group": "weak",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "klatrer",
+          "past": "klatrede"
+        }
+      }
+    },
+    {
+      "inf": "grine",
+      "group": "weak",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "griner",
+          "past": "grinede"
+        }
+      }
+    },
+    {
+      "inf": "vaske",
+      "group": "weak",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "vasker",
+          "past": "vaskede"
+        }
+      }
+    },
+    {
+      "inf": "skubbe",
+      "group": "weak",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "skubber",
+          "past": "skubbede"
+        }
+      }
+    },
+    {
+      "inf": "kaste",
+      "group": "weak",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "kaster",
+          "past": "kastede"
+        }
+      }
+    },
+    {
+      "inf": "gemme",
+      "group": "weak",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "gemmer",
+          "past": "gemte"
+        }
+      }
+    },
+    {
+      "inf": "hviske",
+      "group": "weak",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "hvisker",
+          "past": "hviskede"
+        }
+      }
+    },
+    {
+      "inf": "samle",
+      "group": "weak",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "samler",
+          "past": "samlede"
+        }
+      }
+    },
+    {
+      "inf": "lytte",
+      "group": "weak",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "lytter",
+          "past": "lyttede"
+        }
+      }
+    },
+    {
+      "inf": "bygge",
+      "group": "weak",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "bygger",
+          "past": "byggede"
+        }
+      }
+    },
+    {
+      "inf": "råbe",
+      "group": "weak",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "råber",
+          "past": "råbte"
+        }
+      }
+    },
+    {
+      "inf": "sove",
+      "group": "strong",
+      "irregular": true,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "sover",
+          "past": "sov"
+        }
+      }
+    },
+    {
+      "inf": "sidde",
+      "group": "strong",
+      "irregular": true,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "sidder",
+          "past": "sad"
+        }
+      }
+    },
+    {
+      "inf": "drikke",
+      "group": "strong",
+      "irregular": true,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "drikker",
+          "past": "drak"
+        }
+      }
+    },
+    {
+      "inf": "trække",
+      "group": "strong",
+      "irregular": true,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "trækker",
+          "past": "trak"
+        }
+      }
+    },
+    {
+      "inf": "gribe",
+      "group": "strong",
+      "irregular": true,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "griber",
+          "past": "greb"
+        }
+      }
+    },
+    {
+      "inf": "bære",
+      "group": "strong",
+      "irregular": true,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "nutid-datid": {
+          "pres": "bærer",
+          "past": "bar"
+        }
+      }
+    }
+  ],
+  "irregularCore": [
+    {
+      "inf": "være",
+      "pic": null,
+      "forms": {
+        "nutid-datid": {
+          "pres": "er",
+          "past": "var"
+        }
+      }
+    },
+    {
+      "inf": "have",
+      "pic": null,
+      "forms": {
+        "nutid-datid": {
+          "pres": "har",
+          "past": "havde"
+        }
+      }
+    },
+    {
+      "inf": "gå",
+      "pic": null,
+      "forms": {
+        "nutid-datid": {
+          "pres": "går",
+          "past": "gik"
+        }
+      }
+    },
+    {
+      "inf": "få",
+      "pic": null,
+      "forms": {
+        "nutid-datid": {
+          "pres": "får",
+          "past": "fik"
+        }
+      }
+    },
+    {
+      "inf": "se",
+      "pic": null,
+      "forms": {
+        "nutid-datid": {
+          "pres": "ser",
+          "past": "så"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "Hver dag {form} Emma i parken.",
+      "col": "pres",
+      "unit": "nutid-datid",
+      "fits": [
+        "løbe",
+        "hoppe",
+        "danse",
+        "lege",
+        "synge",
+        "vandre",
+        "læse"
+      ],
+      "subjectLiteral": "Emma",
+      "pic": null
+    },
+    {
+      "id": "f02",
+      "text": "I går {form} Oscar i parken.",
+      "col": "past",
+      "unit": "nutid-datid",
+      "fits": [
+        "løbe",
+        "hoppe",
+        "danse",
+        "lege",
+        "synge",
+        "vandre",
+        "læse"
+      ],
+      "subjectLiteral": "Oscar",
+      "pic": null
+    },
+    {
+      "id": "f03",
+      "text": "Ida {form} hver eftermiddag.",
+      "col": "pres",
+      "unit": "nutid-datid",
+      "fits": [
+        "læse",
+        "tegne",
+        "svømme",
+        "danse",
+        "synge",
+        "lege",
+        "sove"
+      ],
+      "subjectLiteral": "Ida",
+      "pic": null
+    },
+    {
+      "id": "f04",
+      "text": "I går {form} Noah for sin mor.",
+      "col": "past",
+      "unit": "nutid-datid",
+      "fits": [
+        "synge",
+        "danse",
+        "læse",
+        "bage"
+      ],
+      "subjectLiteral": "Noah",
+      "pic": null
+    },
+    {
+      "id": "f05",
+      "text": "Alma {form} en kage til sin mor.",
+      "col": "pres",
+      "unit": "nutid-datid",
+      "fits": [
+        "bage"
+      ],
+      "subjectLiteral": "Alma",
+      "pic": null
+    },
+    {
+      "id": "f06",
+      "text": "I går {form} Clara en kage.",
+      "col": "past",
+      "unit": "nutid-datid",
+      "fits": [
+        "bage"
+      ],
+      "subjectLiteral": "Clara",
+      "pic": null
+    },
+    {
+      "id": "f07",
+      "text": "William {form} et billede af sin hund.",
+      "col": "pres",
+      "unit": "nutid-datid",
+      "fits": [
+        "tegne"
+      ],
+      "subjectLiteral": "William",
+      "pic": null
+    },
+    {
+      "id": "f08",
+      "text": "Om aftenen {form} Freja en bog.",
+      "col": "pres",
+      "unit": "nutid-datid",
+      "fits": [
+        "læse"
+      ],
+      "subjectLiteral": "Freja",
+      "pic": null
+    },
+    {
+      "id": "f09",
+      "text": "I går {form} Emil på legepladsen.",
+      "col": "past",
+      "unit": "nutid-datid",
+      "fits": [
+        "lege",
+        "hoppe",
+        "løbe",
+        "klatre",
+        "danse",
+        "grine"
+      ],
+      "subjectLiteral": "Emil",
+      "pic": null
+    },
+    {
+      "id": "f10",
+      "text": "Clara {form} sine hænder før maden.",
+      "col": "pres",
+      "unit": "nutid-datid",
+      "fits": [
+        "vaske"
+      ],
+      "subjectLiteral": "Clara",
+      "pic": null
+    },
+    {
+      "id": "f11",
+      "text": "I går {form} Ida bolden til Emil.",
+      "col": "past",
+      "unit": "nutid-datid",
+      "fits": [
+        "kaste"
+      ],
+      "subjectLiteral": "Ida",
+      "pic": null
+    },
+    {
+      "id": "f12",
+      "text": "Noah {form} altid til musik.",
+      "col": "pres",
+      "unit": "nutid-datid",
+      "fits": [
+        "lytte",
+        "danse"
+      ],
+      "subjectLiteral": "Noah",
+      "pic": null
+    },
+    {
+      "id": "f13",
+      "text": "I går {form} Alma en snemand.",
+      "col": "past",
+      "unit": "nutid-datid",
+      "fits": [
+        "bygge"
+      ],
+      "subjectLiteral": "Alma",
+      "pic": null
+    },
+    {
+      "id": "f14",
+      "text": "Oscar {form} højt af den sjove film.",
+      "col": "pres",
+      "unit": "nutid-datid",
+      "fits": [
+        "grine"
+      ],
+      "subjectLiteral": "Oscar",
+      "pic": null
+    },
+    {
+      "id": "f15",
+      "text": "I går {form} William i søen.",
+      "col": "past",
+      "unit": "nutid-datid",
+      "fits": [
+        "svømme"
+      ],
+      "subjectLiteral": "William",
+      "pic": null
+    },
+    {
+      "id": "f16",
+      "text": "Freja {form} op i træet.",
+      "col": "pres",
+      "unit": "nutid-datid",
+      "fits": [
+        "klatre"
+      ],
+      "subjectLiteral": "Freja",
+      "pic": null
+    },
+    {
+      "id": "f17",
+      "text": "I går {form} Emil i sit telt.",
+      "col": "past",
+      "unit": "nutid-datid",
+      "fits": [
+        "sove"
+      ],
+      "subjectLiteral": "Emil",
+      "pic": null
+    },
+    {
+      "id": "f18",
+      "text": "Ida {form} saftevand til frokost.",
+      "col": "pres",
+      "unit": "nutid-datid",
+      "fits": [
+        "drikke"
+      ],
+      "subjectLiteral": "Ida",
+      "pic": null
+    },
+    {
+      "id": "f19",
+      "text": "I går {form} Noah efter sin kat.",
+      "col": "past",
+      "unit": "nutid-datid",
+      "fits": [
+        "råbe"
+      ],
+      "subjectLiteral": "Noah",
+      "pic": null
+    },
+    {
+      "id": "f20",
+      "text": "Emma {form} sig bag sofaen.",
+      "col": "pres",
+      "unit": "nutid-datid",
+      "fits": [
+        "gemme"
+      ],
+      "subjectLiteral": "Emma",
+      "pic": null
+    },
+    {
+      "id": "f21",
+      "text": "I går {form} Clara hele vejen hjem.",
+      "col": "past",
+      "unit": "nutid-datid",
+      "fits": [
+        "løbe",
+        "vandre"
+      ],
+      "subjectLiteral": "Clara",
+      "pic": null
+    },
+    {
+      "id": "f22",
+      "text": "Oscar {form} på en stol i klassen.",
+      "col": "pres",
+      "unit": "nutid-datid",
+      "fits": [
+        "sidde"
+      ],
+      "subjectLiteral": "Oscar",
+      "pic": null
+    },
+    {
+      "id": "f23",
+      "text": "I går {form} Freja bolden med to hænder.",
+      "col": "past",
+      "unit": "nutid-datid",
+      "fits": [
+        "gribe"
+      ],
+      "subjectLiteral": "Freja",
+      "pic": null
+    },
+    {
+      "id": "f24",
+      "text": "Emil {form} tasken hele vejen.",
+      "col": "pres",
+      "unit": "nutid-datid",
+      "fits": [
+        "bære",
+        "trække"
+      ],
+      "subjectLiteral": "Emil",
+      "pic": null
+    },
+    {
+      "id": "f25",
+      "text": "I går {form} Alma æbler i haven.",
+      "col": "past",
+      "unit": "nutid-datid",
+      "fits": [
+        "samle",
+        "spise"
+      ],
+      "subjectLiteral": "Alma",
+      "pic": null
+    },
+    {
+      "id": "f26",
+      "text": "I går {form} Emma i skole.",
+      "col": "past",
+      "unit": "nutid-datid",
+      "fits": [
+        "gå",
+        "være"
+      ],
+      "subjectLiteral": "Emma",
+      "pic": null
+    },
+    {
+      "id": "f27",
+      "text": "Noah {form} en ny cykel.",
+      "col": "pres",
+      "unit": "nutid-datid",
+      "fits": [
+        "have",
+        "få"
+      ],
+      "subjectLiteral": "Noah",
+      "pic": null
+    },
+    {
+      "id": "f28",
+      "text": "I går {form} Ida en sjov film.",
+      "col": "past",
+      "unit": "nutid-datid",
+      "fits": [
+        "se"
+      ],
+      "subjectLiteral": "Ida",
+      "pic": null
+    },
+    {
+      "id": "f29",
+      "text": "Alma {form} glad i dag.",
+      "col": "pres",
+      "unit": "nutid-datid",
+      "fits": [
+        "være"
+      ],
+      "subjectLiteral": "Alma",
+      "pic": null
+    },
+    {
+      "id": "f30",
+      "text": "I går {form} Oscar hjem fra skole.",
+      "col": "past",
+      "unit": "nutid-datid",
+      "fits": [
+        "gå",
+        "løbe"
+      ],
+      "subjectLiteral": "Oscar",
+      "pic": null
+    },
+    {
+      "id": "f31",
+      "text": "William {form} en hund derhjemme.",
+      "col": "pres",
+      "unit": "nutid-datid",
+      "fits": [
+        "have"
+      ],
+      "subjectLiteral": "William",
+      "pic": null
+    }
+  ],
+  "hunt": {
+    "nounHomographs": [
+      "dans",
+      "leg",
+      "sang",
+      "hop",
+      "kast",
+      "råb"
+    ]
+  },
+  "strings": {
+    "G2-317": {
+      "title": "Udsagnsord: nutid og datid",
+      "instruction": "Se på billedet, og læs udsagnsordet. Skriv dets nutid og datid i de stiplede kasser, og gør så sætningerne færdige."
+    },
+    "F2": {
+      "title": "Forbind udsagnsordet med dets datid",
+      "instruction": "Læs hvert udsagnsord til venstre. Tegn en streg til dets datid til højre, én streg til hvert ord."
+    },
+    "F3": {
+      "title": "Udsagnsord i sætninger med billeder",
+      "instruction": "Se på billedet, og læs udsagnsordet i brikken. Skriv den form, der passer i sætningen, i den stiplede kasse."
+    },
+    "F4": {
+      "title": "De uregelmæssige udsagnsord: være, have, gå, få, se",
+      "instruction": "Disse udsagnsord bøjes helt anderledes. Skriv nutid og datid af hvert af dem i de stiplede kasser."
+    },
+    "F5": {
+      "title": "Vælg den rigtige form af udsagnsordet",
+      "instruction": "Læs sætningen. Tre former af udsagnsordet står under den. Sæt ring om den, der passer."
+    },
+    "F6": {
+      "title": "Find udsagnsordet, og skriv navnemåden",
+      "instruction": "Sæt streg under udsagnsordet i hver sætning. Skriv så dets navnemåde i den stiplede kasse."
+    }
+  }
+}

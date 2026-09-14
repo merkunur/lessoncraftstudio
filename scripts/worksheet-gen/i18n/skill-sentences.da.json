@@ -258,5 +258,85 @@
   "grid-coordinates": {
     "full": "At finde hvert felt ud fra bogstav og tal og farvelægge det træner at læse koordinater og afslører et skjult billede.",
     "short": "Træner at læse koordinater i kvadratnet."
+  },
+  "letter-of-the-week": {
+    "full": "Ugens bogstav til 0. klasse: barnet skriver bogstavet efter, sætter ring om billeder med bogstavlyden og øver bogstavet i store og små former.",
+    "short": "Ugens bogstav: skriv efter, og find lyden"
+  },
+  "sound-boxes": {
+    "full": "Lydkasser til 0. og 1. klasse: barnet siger ordet langsomt og skriver én lyd i hver kasse, tæller lyde og lyder ord sammen.",
+    "short": "Lydkasser: skriv ordet lyd for lyd"
+  },
+  "feelings": {
+    "full": "Følelser til 0. klasse: barnet forbinder ansigter med følelsesord, sorterer rare og ikke rare følelser og tegner sin egen følelse.",
+    "short": "Følelser: sæt ord på ansigterne"
+  },
+  "ordinal-numbers": {
+    "full": "Ordenstal til 0. og 1. klasse: barnet tæller fra flaget, finder første, anden og tredje plads i rækken og skriver ordenstal med tal og ord.",
+    "short": "Ordenstal: første, anden, tredje"
+  },
+  "days-and-months": {
+    "full": "Ugedage og måneder til 0. og 1. klasse: barnet sætter ugedagene og månederne i rækkefølge og finder i går, i dag og i morgen.",
+    "short": "Ugedage og måneder i rækkefølge"
+  },
+  "seasons": {
+    "full": "De fire årstider til 0. klasse: barnet sorterer billeder efter årstid, sætter årstiderne i rækkefølge og tegner træet året rundt.",
+    "short": "De fire årstider: sortér, og tegn"
+  },
+  "all-about-me": {
+    "full": "Alt om mig til 0. klasse: barnet skriver sit navn, tegner sig selv og sin familie og fortæller om sine yndlingsting og det, det kan.",
+    "short": "Alt om mig: navn, familie og yndlingsting"
+  },
+  "picture-word-cards": {
+    "full": "Ordkort med billeder til 0. klasse: barnet klipper kort ud, siger ordet til billedet, læser ordet og spiller vendespil med kortene.",
+    "short": "Ordkort med billeder: klip, læs og spil"
+  },
+  "syllable-split": {
+    "full": "Stavelser til 1. klasse: barnet klapper ordet, tegner en bue under hver stavelse, deler og sorterer ord efter antal stavelser.",
+    "short": "Stavelser: klap, del og sortér ordene"
+  },
+  "syllable-reading": {
+    "full": "Lydrette ord til 1. klasse: barnet læser korte lydrette ord på læsetæppet, finder ordet til billedet og skriver det selv.",
+    "short": "Lydrette ord: læs, find og skriv"
+  },
+  "opposites": {
+    "full": "Modsætninger til 1. klasse: barnet finder det modsatte ord til billeder og ord, parrer modsætninger og bruger dem i sætninger.",
+    "short": "Modsætninger: find det modsatte ord"
+  },
+  "read-and-do": {
+    "full": "Læs og gør til 1. klasse: barnet læser korte sætninger og gør præcis det, der står, med blyanten i en række af billeder.",
+    "short": "Læs og gør: læs sætningen, og gør det"
+  },
+  "rhyming-words": {
+    "full": "Rimord til 1. klasse: barnet finder billeder, der rimer, sorterer rimord, gør rim færdige og skriver sine egne rimord.",
+    "short": "Rimord: find, sortér og skriv rim"
+  },
+  "hundreds-chart-puzzles": {
+    "full": "Hundredtavle-puslespil til 1. og 2. klasse: barnet udfylder brikker fra hundredtavlen med 1 mere, 1 mindre, 10 mere og 10 mindre.",
+    "short": "Hundredtavlen: udfyld brikkerne"
+  },
+  "spelling-rules": {
+    "full": "Staveregler til 2. klasse: barnet øver ugens staveregel med billedord, sorterer efter stavemåde og skriver hele ord med reglen.",
+    "short": "Ugens staveregel: find, sortér og skriv"
+  },
+  "compound-words": {
+    "full": "Sammensatte ord til 2. klasse: barnet sætter to billedord sammen til ét ord, deler sammensatte ord og finder bindebogstavet.",
+    "short": "Sammensatte ord: sæt to ord sammen"
+  },
+  "verb-forms": {
+    "full": "Udsagnsord til 2. klasse: barnet bøjer udsagnsord i nutid og datid, vælger den rigtige form i sætninger og finder navnemåden.",
+    "short": "Udsagnsord: bøj i nutid og datid"
+  },
+  "animal-fact-file": {
+    "full": "Faktakort om dyr til 2. klasse: barnet udfylder et faktakort om et dyr, sammenligner to dyr og gætter det hemmelige dyr ud fra spor.",
+    "short": "Faktakort om dyr: udfyld og sammenlign"
+  },
+  "logic-puzzles": {
+    "full": "Logikopgaver til 2. og 3. klasse: barnet læser spor, sætter kryds og flueben i skemaet og finder frem til, hvem der har hvad.",
+    "short": "Logikopgaver: læs sporene, og løs skemaet"
+  },
+  "division-with-remainder": {
+    "full": "Division med rest til 3. klasse: barnet deler billeder i grupper, skriver kvotient og rest, tjekker om det går op, og finder fejl.",
+    "short": "Division med rest: del, og find resten"
   }
 }

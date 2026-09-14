@@ -108,3 +108,14 @@ Rows = faces with a landing per (key × locale) at design time; "contingent" = l
 | logic-puzzles | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | none designed |
 | picture-word-cards | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 5 | 65 | fi F3 article cards refused (no articles); no F3 ships on the K-288 no ruling (confirmed K-324 §7) |
 | **design total** | | | | | | | | | | | | **1,295 (ceiling 1,296)** | of 1,320 nominal; every gap is a recorded refusal (`_records/refusals.<loc>.json`), never a filler. Reconciled against the panels' declared refusals 2026-09-14 for all 11 locales |
+
+## Vocabulary-level findings from the nt20-C panels (2026-09-14) — `REFERENCE TRANSLATIONS/image-vocabulary.js` / image library, §10.3, NOT fixed here
+The banks route around each one (exclude lists, own literals, pins); the vocab itself still carries the defect for every other consumer.
+- `scooter` — the picture (`vehicles/scooter`, `toys/scooter`) is a Vespa; **no** `sparkesykkel` and **nl** `step` name a kick scooter (no bank: excluded + `mopeden` literals).
+- `skateboard` — **sv** stored plural "skateboards"; SAOL: "skateboardar" (sv bank: excluded).
+- `chicken` — both farm pictures are an adult hen; **sv** "kyckling" / **da** "kylling" name the chick (sv bank prints höna-forms; da drops `chicken`, `hen` carries hønen).
+- `nail` (tools) — **sv** "nagel" is the fingernail; the picture is a spik.
+- `donkey` — **da** gender stored `n` (en); æsel is neuter (`t`) — would print "en æsel" (da bank: excluded from the article face; ordinal forms hand-set to `det andet æsel`).
+- `bulldozer` — **es** "bulldozers" is an English word; excavadora / topadora.
+- `turnip` (vegetables) is drawn as a beetroot; `net` (beach) is a badminton racket; `carnation` (flowers) is a poppy; `cone` (shapes) is a frustum; `ice` (winter) is a cracked frozen pool; `brush` (around the house) is a paint brush; `truck` (post office) is a postal van — every pin the panels replaced is recorded in the locale drafts' `enAudit`.
+- `flamingo` (Things That Fly) ships on an opaque white square (non-transparent asset).

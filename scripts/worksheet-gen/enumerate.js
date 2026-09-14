@@ -29,6 +29,7 @@ const fs = require('fs');
 const path = require('path');
 const { loadAllTypes } = require('./lib/load-types.js');
 const { instanceSeed } = require('./lib/rng.js');
+const { unitKey, unitListFor, assertUnitKnobsReach } = require('./lib/unit-axis.js');
 const { themeAxisKey, variantIdForSpec } = require('./emit/manifest.js');
 const resolve = require('./image-cache/resolve.js');
 const TAXONOMY = require('../../frontend/config/topics-taxonomy.json');
@@ -80,13 +81,15 @@ function eligibleThemes(spec, waveThemes) {
   });
 }
 
-function deckIdFor(waveId, spec, cacheTheme, difficulty, locale, variant) {
+function deckIdFor(waveId, spec, cacheTheme, difficulty, locale, variant, unit) {
   const waveShort = String(waveId).replace(/[^a-z0-9]/gi, '').replace(/^wave0*/i, 'w');
   const themePart = cacheTheme ? themeAxisKey(cacheTheme) : 'nothm';
   const parts = ['wsg', waveShort, variantIdForSpec(spec), themePart, 'd' + difficulty, locale];
   // variant 1 omits the suffix so single-variant waves keep their current ZIP
   // basename (idempotent resume); variant >1 gets a -vN tail (unique deckId).
   if (variant && variant > 1) parts.push('v' + variant);
+  // unit axis (nt20-C): -u<key> only when a unit is configured (byte-identical otherwise)
+  if (unit) parts.push('u' + unitKey(unit));
   return parts.join('-');
 }
 
@@ -108,6 +111,7 @@ function enumerate(plan) {
   });
 
   const specs = selectSpecs(plan.types);
+  assertUnitKnobsReach(plan, specs);   // a unit knob that reaches no spec is a wave-file error, not a silent no-op
 
   // Pre-flight: non-EN locales need the full authored i18n layer (the lint
   // gate's invariants, asserted fail-fast here before any render).
@@ -168,22 +172,35 @@ function enumerate(plan) {
     for (const cacheTheme of themeList) {
       for (const difficulty of plan.difficulties) {
         for (const locale of plan.locales) {
-          for (let variant = 1; variant <= variantsForType; variant++) {
-            instances.push({
-              typeId: spec.id,
-              cacheTheme: cacheTheme,
-              themePinned: themePinned,
-              difficulty: difficulty,
-              locale: locale,
-              variant: variant,
-              deckId: deckIdFor(plan.id, spec, cacheTheme, difficulty, locale, variant),
-              seed: instanceSeed({ typeId: spec.id, theme: cacheTheme, difficulty, seedEpoch: plan.seedEpoch || 1, variant }),
-            });
+          // unit axis (nt20-C): per locale, [null] unless the wave configures units
+          const { units, pinned: unitPinned } = unitListFor(spec, plan, locale);
+          for (const unit of units) {
+            for (let variant = 1; variant <= variantsForType; variant++) {
+              instances.push({
+                typeId: spec.id,
+                cacheTheme: cacheTheme,
+                themePinned: themePinned,
+                difficulty: difficulty,
+                locale: locale,
+                variant: variant,
+                unit: unit,
+                unitPinned: unitPinned,
+                deckId: deckIdFor(plan.id, spec, cacheTheme, difficulty, locale, variant, unit),
+                seed: instanceSeed({ typeId: spec.id, theme: cacheTheme, difficulty, seedEpoch: plan.seedEpoch || 1, variant, unit }),
+              });
+            }
           }
         }
       }
     }
   });
+  // two units that fold to one key (e.g. 'ä' and 'a') would collide on deckId
+  const seen = new Map();
+  for (const it of instances) {
+    if (!it.unit) continue;
+    if (seen.has(it.deckId)) throw new Error('enumerate: units "' + seen.get(it.deckId) + '" and "' + it.unit + '" of ' + it.typeId + ' fold to the same deckId ' + it.deckId);
+    seen.set(it.deckId, it.unit);
+  }
   return { instances, skipped };
 }
 

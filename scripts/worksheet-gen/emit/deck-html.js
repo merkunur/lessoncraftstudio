@@ -24,6 +24,7 @@
  * strip (visible + guard script), and <style id="lcs-embed-hide"> baked.
  */
 'use strict';
+const { assertNoUnitTokens } = require('../lib/unit-axis.js');
 const fs = require('fs');
 const path = require('path');
 const seoHead = require('../../publish-cli/build-seo-head.js');
@@ -161,6 +162,7 @@ const PAGE_CSS = [
  */
 function buildDeckHtml(o) {
   const { manifest, spec, strings, locale, preview } = o;
+  assertNoUnitTokens(strings, 'deck-html strings');   // unit tokens resolve upstream (render-instance / cli); none may reach the head
   const themeKey = manifest.theme;
   const typeAxis = typeAxisFor(spec.exerciseType, locale);
   const themeName = themeNameFor(themeKey, locale);

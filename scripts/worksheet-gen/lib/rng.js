@@ -36,9 +36,13 @@ function makeRng(seedString) {
   };
 }
 
-function instanceSeed({ typeId, theme, difficulty, seedEpoch, variant }) {
-  const base = `${typeId}|${theme || 'none'}|${difficulty}|${seedEpoch || 1}`;
-  return (variant && variant > 1) ? `${base}|v${variant}` : base;
+function instanceSeed({ typeId, theme, difficulty, seedEpoch, variant, unit }) {
+  let s = `${typeId}|${theme || 'none'}|${difficulty}|${seedEpoch || 1}`;
+  if (variant && variant > 1) s += `|v${variant}`;
+  // unit axis (nt20-C): appended ONLY when a unit is configured, so every
+  // unit-less instance keeps its published seed byte-for-byte.
+  if (unit) s += `|u${unit}`;
+  return s;
 }
 
 module.exports = { makeRng, instanceSeed };

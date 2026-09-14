@@ -18,6 +18,7 @@
  *   parseThemeFromImagePath(path) all agree at the §15.16 gate.
  */
 'use strict';
+const { unitKey } = require('../lib/unit-axis.js');
 
 const SCHEMA_VERSION = '1.1';
 const MODE_BY_DIFFICULTY = { 1: 'easy', 2: null, 3: 'hard' };
@@ -134,10 +135,12 @@ function buildManifest(o) {
     // and (via deck-html.js) drives the "Set N" title/description disambiguator —
     // so variant >1 yields a unique deterministic slug/title/desc, clearing the
     // §17.8.17 uniqueness HALT gates. variant 1 keeps the legacy compact type id.
-    variant_id: variant > 1 ? variantIdForSpec(spec) + '-' + variant : variantIdForSpec(spec),
+    variant_id: (variant > 1 ? variantIdForSpec(spec) + '-' + variant : variantIdForSpec(spec)) + (o.unit ? '-' + unitKey(o.unit) : ''),
     variant: variant,
     seo_trace: null,
   };
+  // unit axis (nt20-C): the key exists ONLY when a unit is configured — manifest bytes unchanged otherwise
+  if (o.unit) manifest.unit = o.unit;
   // Round-trip check (catalog-export.js convention): must JSON-serialize cleanly.
   JSON.parse(JSON.stringify(manifest));
   return manifest;

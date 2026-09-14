@@ -24,16 +24,16 @@ function loadType(typeId) {
 }
 
 (async () => {
-  const [typeId, theme, difficulty, locale] = process.argv.slice(2);
+  const [typeId, theme, difficulty, locale, unit] = process.argv.slice(2);   // unit: optional (unit-axis specs)
   const type = loadType(typeId);
   const browser = await puppeteer.launch({ headless: 'new' });
   const page = await browser.newPage();
   try {
     const out = await renderInstance({
-      type, theme, difficulty: Number(difficulty) || 2, locale: locale || 'en',
+      type, theme: theme === 'null' ? null : theme, difficulty: Number(difficulty) || 2, locale: locale || 'en', unit: unit || null,
       page,
       outDir: path.join(__dirname, '..', 'out', 'dev'),
-      baseName: `${typeId}-${theme}-d${difficulty || 2}-${locale || 'en'}`,
+      baseName: `${typeId}-${theme}-d${difficulty || 2}-${locale || 'en'}` + (unit ? '-u' + unit : ''),
     });
     console.log('PDF:', out.pdfPath);
     console.log('PNG:', out.pngPath);

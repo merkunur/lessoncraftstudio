@@ -23,6 +23,7 @@ const { buildManifest, scrapeImagesUsed } = require('./emit/manifest.js');
 const { buildDeckHtml } = require('./emit/deck-html.js');
 const { buildPreviewJpeg, buildThumbnail } = require('./emit/assets.js');
 const { writeDeckZip } = require('./emit/zip.js');
+const { resolveUnitTokens } = require('./lib/unit-axis.js');
 const cacheManifest = require('./image-cache/resolve.js').manifest();
 
 function parseArgs(argv) {
@@ -87,7 +88,7 @@ async function generate(args) {
   // retry must never duplicate a sibling slot's theme (same variant_id + theme +
   // mode would collide on slug).
   const assigned = new Map();
-  const slotKey = (it) => it.typeId + '|d' + it.difficulty + '|' + it.locale + '|v' + (it.variant || 1);
+  const slotKey = (it) => it.typeId + '|d' + it.difficulty + '|' + it.locale + '|v' + (it.variant || 1) + '|u' + (it.unit || '');
   list.forEach((it) => {
     if (!it.cacheTheme) return;
     if (!assigned.has(slotKey(it))) assigned.set(slotKey(it), new Set());
@@ -97,7 +98,7 @@ async function generate(args) {
   async function produce(spec, strings, it, deckId, cacheTheme) {
     const r = await renderInstance({
       type: spec, theme: cacheTheme, difficulty: it.difficulty, locale: it.locale,
-      variant: it.variant, page, outDir: workDir, baseName: deckId, seedEpoch: plan.seedEpoch || 1, strings,
+      variant: it.variant, unit: it.unit || null, page, outDir: workDir, baseName: deckId, seedEpoch: plan.seedEpoch || 1, strings,
     });
     const fails = [].concat(r.qa.lints || [], r.qa.verify || []);
     if (fails.length) return { qaFails: fails };
@@ -106,7 +107,7 @@ async function generate(args) {
     const imagesUsed = scrapeImagesUsed(r.html, cacheManifest);
     const manifest = buildManifest({
       spec, cacheTheme: cacheTheme, difficulty: it.difficulty, locale: it.locale,
-      variant: it.variant, deckId: deckId, generatedAt: new Date().toISOString(), strings, imagesUsed,
+      variant: it.variant, unit: it.unit || null, deckId: deckId, generatedAt: new Date().toISOString(), strings, imagesUsed,
     });
     const deckHtml = buildDeckHtml({ manifest, spec, strings, locale: it.locale, preview });
     writeDeckZip({ stagingDir, deckId: deckId, manifest, deckHtml, pdfPath: r.pdfPath, thumbnailBuf });
@@ -120,7 +121,7 @@ async function generate(args) {
       if (!args.force && fs.existsSync(zipPath)) { state.skippedExisting++; continue; }
 
       const spec = loadType(it.typeId);
-      const strings = resolveStrings(it.typeId, it.locale, spec);
+      const strings = resolveUnitTokens(resolveStrings(it.typeId, it.locale, spec), spec, it.unit || null, it.locale);
       try {
         const res = await produce(spec, strings, it, it.deckId, it.cacheTheme);
         if (res.qaFails) {
@@ -153,7 +154,7 @@ async function generate(args) {
           const candidates = eligibleThemes(spec, plan.themes || [])
             .filter((t) => !tried.has(t) && !taken.has(t));
           for (const altTheme of candidates) {
-            const altDeckId = deckIdFor(plan.id, spec, altTheme, it.difficulty, it.locale, it.variant);
+            const altDeckId = deckIdFor(plan.id, spec, altTheme, it.difficulty, it.locale, it.variant, it.unit || null);
             if (!args.force && fs.existsSync(path.join(stagingDir, altDeckId + '.zip'))) continue;
             try {
               const res = await produce(spec, strings, it, altDeckId, altTheme);

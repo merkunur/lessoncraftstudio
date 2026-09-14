@@ -1,0 +1,75 @@
+{
+  "names": {
+    "winter": "winter",
+    "spring": "lente",
+    "summer": "zomer",
+    "autumn": "herfst"
+  },
+  "alt": {
+    "spring": "voorjaar",
+    "autumn": "najaar"
+  },
+  "model": "temperate-north",
+  "cycleStart": "winter",
+  "cycle": [
+    "winter",
+    "spring",
+    "summer",
+    "autumn"
+  ],
+  "monthSeason": [
+    "winter",
+    "winter",
+    "spring",
+    "spring",
+    "spring",
+    "summer",
+    "summer",
+    "summer",
+    "autumn",
+    "autumn",
+    "autumn",
+    "winter"
+  ],
+  "veto": [],
+  "override": {},
+  "legend": {
+    "winter": "codeBlue",
+    "spring": "codeGreen",
+    "summer": "codeYellow",
+    "autumn": "codeOrange"
+  },
+  "faces": {
+    "tree": {
+      "figure": "tree",
+      "captions": null
+    }
+  },
+  "strings": {
+    "K-322": {
+      "title": "De vier seizoenen sorteren",
+      "instruction": "Trek een lijn van de stip op elk plaatje naar het vak van het seizoen waar het bij hoort."
+    },
+    "K-338": {
+      "title": "Welk seizoen is het?",
+      "instruction": "Kijk naar de drie plaatjes op elke kaart en omcirkel het seizoensteken waar ze bij horen."
+    },
+    "K-339": {
+      "title": "Seizoenenwiel: de seizoenen op volgorde",
+      "instruction": "Eén seizoen staat al op het wiel. Teken de andere drie tekens in de lege cirkels, in de goede volgorde."
+    },
+    "K-340": {
+      "title": "Seizoenen: wat hoort er niet bij?",
+      "instruction": "Streep in elke rij het ene plaatje door dat bij een ander seizoen hoort."
+    },
+    "G1-323": {
+      "title": "Maanden en seizoenen: kleur het seizoen",
+      "instruction": "Kleur het rondje naast elke maand in de kleur van zijn seizoen."
+    },
+    "K-341": {
+      "title": "Teken de boom in de vier seizoenen",
+      "instruction": "Teken hoe de boom eruitziet in elk van de vier seizoenen."
+    }
+  },
+  "strand": "Natuur en techniek: weer en seizoenen (oriëntatie op jezelf en de wereld)"
+}

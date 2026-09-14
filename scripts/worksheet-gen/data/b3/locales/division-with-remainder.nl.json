@@ -1,0 +1,49 @@
+{
+  "exemplar": "2-5",
+  "unitLabels": {
+    "2-5": "door 2 tot en met 5",
+    "6-9": "door 6 tot en met 9",
+    "2-9": "door 2 tot en met 9"
+  },
+  "notation": {
+    "op": ":",
+    "template": "{n} : {d} = {q} rest {r}",
+    "boxStyle": "inline",
+    "remWord": "rest",
+    "exactWord": "gaat op",
+    "restWord": "rest",
+    "leftoverLabel": "blijft over",
+    "rightWord": "goed",
+    "wrongWord": "fout",
+    "kinds": {
+      "quotative": "opdelen",
+      "partitive": "verdelen"
+    }
+  },
+  "strings": {
+    "G3-377": {
+      "title": "Delen met rest: omcirkel de groepjes",
+      "instruction": "Omcirkel in elke stapel groepjes van het tweede getal. Schrijf hoeveel groepjes je hebt gemaakt en hoeveel plaatjes er overblijven."
+    },
+    "F1": {
+      "title": "Eerlijk verdelen met rest: wat blijft er over?",
+      "instruction": "Verdeel de stapel één voor één over de vakken. Schrijf hoeveel elk vak krijgt en hoeveel je niet kunt verdelen."
+    },
+    "F2": {
+      "title": "Deelsommen met rest: oefenrijen",
+      "instruction": "Elke deelsom houdt iets over. Schrijf in elke rij het antwoord en de rest."
+    },
+    "F3": {
+      "title": "Gaat het op? Deelsommen met en zonder rest",
+      "instruction": "Bepaal of elke deelsom precies opgaat. Omcirkel je keuze en schrijf de rest op, 0 als er geen rest is."
+    },
+    "F4": {
+      "title": "Zoek de fout: de rest is te groot",
+      "instruction": "Elke deelsom is fout uitgerekend. Streep de foute getallen door en schrijf het goede antwoord en de rest in de vakjes."
+    },
+    "F5": {
+      "title": "Terugspringen op de getallenlijn: wat blijft er over?",
+      "instruction": "Begin bij het gemarkeerde getal en teken even grote sprongen terug tot er geen hele sprong meer past. Schrijf de sprongen en waar je uitkomt."
+    }
+  }
+}

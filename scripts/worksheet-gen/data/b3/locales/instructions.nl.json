@@ -1,0 +1,2021 @@
+{
+  "nounCase": "lower",
+  "mark": "check",
+  "cross": "strike",
+  "and": "en",
+  "endpointForm": "unique",
+  "exemplar": "animals",
+  "verbs": [
+    {
+      "id": "circle",
+      "frame": "Omcirkel {obj}."
+    },
+    {
+      "id": "cross",
+      "frame": "Streep {all} door."
+    },
+    {
+      "id": "underline",
+      "frame": "Onderstreep {obj}."
+    },
+    {
+      "id": "line",
+      "frame": "Verbind {obj} met {obj2}."
+    },
+    {
+      "id": "mark",
+      "frame": "Zet een vinkje bij {obj}."
+    },
+    {
+      "id": "write",
+      "frame": "Schrijf hoeveel {pl} er zijn."
+    }
+  ],
+  "fixed": {
+    "first": "het eerste plaatje",
+    "last": "het laatste plaatje",
+    "ordPic": {
+      "2": "het tweede plaatje",
+      "3": "het derde plaatje",
+      "4": "het vierde plaatje",
+      "5": "het vijfde plaatje",
+      "6": "het zesde plaatje",
+      "7": "het zevende plaatje",
+      "8": "het achtste plaatje"
+    },
+    "between": "het plaatje tussen {A} en {B}",
+    "rightof": "het plaatje rechts van {A}",
+    "leftof": "het plaatje links van {A}"
+  },
+  "objForms": {
+    "antelope": {
+      "unique": "de antilope",
+      "all": "alle antilopen",
+      "pl": "antilopen",
+      "ord": {
+        "2": "de tweede antilope",
+        "3": "de derde antilope",
+        "4": "de vierde antilope",
+        "5": "de vijfde antilope"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "bat": {
+      "unique": "de vleermuis",
+      "all": "alle vleermuizen",
+      "pl": "vleermuizen",
+      "ord": {
+        "2": "de tweede vleermuis",
+        "3": "de derde vleermuis",
+        "4": "de vierde vleermuis",
+        "5": "de vijfde vleermuis"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "camel": {
+      "unique": "de kameel",
+      "all": "alle kamelen",
+      "pl": "kamelen",
+      "ord": {
+        "2": "de tweede kameel",
+        "3": "de derde kameel",
+        "4": "de vierde kameel",
+        "5": "de vijfde kameel"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "cat": {
+      "unique": "de kat",
+      "all": "alle katten",
+      "pl": "katten",
+      "ord": {
+        "2": "de tweede kat",
+        "3": "de derde kat",
+        "4": "de vierde kat",
+        "5": "de vijfde kat"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "dog": {
+      "unique": "de hond",
+      "all": "alle honden",
+      "pl": "honden",
+      "ord": {
+        "2": "de tweede hond",
+        "3": "de derde hond",
+        "4": "de vierde hond",
+        "5": "de vijfde hond"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "dolphin": {
+      "unique": "de dolfijn",
+      "all": "alle dolfijnen",
+      "pl": "dolfijnen",
+      "ord": {
+        "2": "de tweede dolfijn",
+        "3": "de derde dolfijn",
+        "4": "de vierde dolfijn",
+        "5": "de vijfde dolfijn"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "donkey": {
+      "unique": "de ezel",
+      "all": "alle ezels",
+      "pl": "ezels",
+      "ord": {
+        "2": "de tweede ezel",
+        "3": "de derde ezel",
+        "4": "de vierde ezel",
+        "5": "de vijfde ezel"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "duck": {
+      "unique": "de eend",
+      "all": "alle eenden",
+      "pl": "eenden",
+      "ord": {
+        "2": "de tweede eend",
+        "3": "de derde eend",
+        "4": "de vierde eend",
+        "5": "de vijfde eend"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "elephant": {
+      "unique": "de olifant",
+      "all": "alle olifanten",
+      "pl": "olifanten",
+      "ord": {
+        "2": "de tweede olifant",
+        "3": "de derde olifant",
+        "4": "de vierde olifant",
+        "5": "de vijfde olifant"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "fox": {
+      "unique": "de vos",
+      "all": "alle vossen",
+      "pl": "vossen",
+      "ord": {
+        "2": "de tweede vos",
+        "3": "de derde vos",
+        "4": "de vierde vos",
+        "5": "de vijfde vos"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "fish": {
+      "unique": "de vis",
+      "all": "alle vissen",
+      "pl": "vissen",
+      "ord": {
+        "2": "de tweede vis",
+        "3": "de derde vis",
+        "4": "de vierde vis",
+        "5": "de vijfde vis"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "giraffe": {
+      "unique": "de giraffe",
+      "all": "alle giraffen",
+      "pl": "giraffen",
+      "ord": {
+        "2": "de tweede giraffe",
+        "3": "de derde giraffe",
+        "4": "de vierde giraffe",
+        "5": "de vijfde giraffe"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "hippopotamus": {
+      "unique": "het nijlpaard",
+      "all": "alle nijlpaarden",
+      "pl": "nijlpaarden",
+      "ord": {
+        "2": "het tweede nijlpaard",
+        "3": "het derde nijlpaard",
+        "4": "het vierde nijlpaard",
+        "5": "het vijfde nijlpaard"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "horse": {
+      "unique": "het paard",
+      "all": "alle paarden",
+      "pl": "paarden",
+      "ord": {
+        "2": "het tweede paard",
+        "3": "het derde paard",
+        "4": "het vierde paard",
+        "5": "het vijfde paard"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "jaguar": {
+      "unique": "de jaguar",
+      "all": "alle jaguars",
+      "pl": "jaguars",
+      "ord": {
+        "2": "de tweede jaguar",
+        "3": "de derde jaguar",
+        "4": "de vierde jaguar",
+        "5": "de vijfde jaguar"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "koala": {
+      "unique": "de koala",
+      "all": "alle koala's",
+      "pl": "koala's",
+      "ord": {
+        "2": "de tweede koala",
+        "3": "de derde koala",
+        "4": "de vierde koala",
+        "5": "de vijfde koala"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "leopard": {
+      "unique": "de luipaard",
+      "all": "alle luipaarden",
+      "pl": "luipaarden",
+      "ord": {
+        "2": "de tweede luipaard",
+        "3": "de derde luipaard",
+        "4": "de vierde luipaard",
+        "5": "de vijfde luipaard"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "owl": {
+      "unique": "de uil",
+      "all": "alle uilen",
+      "pl": "uilen",
+      "ord": {
+        "2": "de tweede uil",
+        "3": "de derde uil",
+        "4": "de vierde uil",
+        "5": "de vijfde uil"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "panda": {
+      "unique": "de panda",
+      "all": "alle panda's",
+      "pl": "panda's",
+      "ord": {
+        "2": "de tweede panda",
+        "3": "de derde panda",
+        "4": "de vierde panda",
+        "5": "de vijfde panda"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "penguin": {
+      "unique": "de pinguïn",
+      "all": "alle pinguïns",
+      "pl": "pinguïns",
+      "ord": {
+        "2": "de tweede pinguïn",
+        "3": "de derde pinguïn",
+        "4": "de vierde pinguïn",
+        "5": "de vijfde pinguïn"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "pig": {
+      "unique": "het varken",
+      "all": "alle varkens",
+      "pl": "varkens",
+      "ord": {
+        "2": "het tweede varken",
+        "3": "het derde varken",
+        "4": "het vierde varken",
+        "5": "het vijfde varken"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "rabbit": {
+      "unique": "het konijn",
+      "all": "alle konijnen",
+      "pl": "konijnen",
+      "ord": {
+        "2": "het tweede konijn",
+        "3": "het derde konijn",
+        "4": "het vierde konijn",
+        "5": "het vijfde konijn"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "sheep": {
+      "unique": "het schaap",
+      "all": "alle schapen",
+      "pl": "schapen",
+      "ord": {
+        "2": "het tweede schaap",
+        "3": "het derde schaap",
+        "4": "het vierde schaap",
+        "5": "het vijfde schaap"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "seagull": {
+      "unique": "de zeemeeuw",
+      "all": "alle zeemeeuwen",
+      "pl": "zeemeeuwen",
+      "ord": {
+        "2": "de tweede zeemeeuw",
+        "3": "de derde zeemeeuw",
+        "4": "de vierde zeemeeuw",
+        "5": "de vijfde zeemeeuw"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "swan": {
+      "unique": "de zwaan",
+      "all": "alle zwanen",
+      "pl": "zwanen",
+      "ord": {
+        "2": "de tweede zwaan",
+        "3": "de derde zwaan",
+        "4": "de vierde zwaan",
+        "5": "de vijfde zwaan"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "tiger": {
+      "unique": "de tijger",
+      "all": "alle tijgers",
+      "pl": "tijgers",
+      "ord": {
+        "2": "de tweede tijger",
+        "3": "de derde tijger",
+        "4": "de vierde tijger",
+        "5": "de vijfde tijger"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "turtle": {
+      "unique": "de schildpad",
+      "all": "alle schildpadden",
+      "pl": "schildpadden",
+      "ord": {
+        "2": "de tweede schildpad",
+        "3": "de derde schildpad",
+        "4": "de vierde schildpad",
+        "5": "de vijfde schildpad"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "whale": {
+      "unique": "de walvis",
+      "all": "alle walvissen",
+      "pl": "walvissen",
+      "ord": {
+        "2": "de tweede walvis",
+        "3": "de derde walvis",
+        "4": "de vierde walvis",
+        "5": "de vijfde walvis"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "wolf": {
+      "unique": "de wolf",
+      "all": "alle wolven",
+      "pl": "wolven",
+      "ord": {
+        "2": "de tweede wolf",
+        "3": "de derde wolf",
+        "4": "de vierde wolf",
+        "5": "de vijfde wolf"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "woodpecker": {
+      "unique": "de specht",
+      "all": "alle spechten",
+      "pl": "spechten",
+      "ord": {
+        "2": "de tweede specht",
+        "3": "de derde specht",
+        "4": "de vierde specht",
+        "5": "de vijfde specht"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "zebra": {
+      "unique": "de zebra",
+      "all": "alle zebra's",
+      "pl": "zebra's",
+      "ord": {
+        "2": "de tweede zebra",
+        "3": "de derde zebra",
+        "4": "de vierde zebra",
+        "5": "de vijfde zebra"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "avocado": {
+      "unique": "de avocado",
+      "all": "alle avocado's",
+      "pl": "avocado's",
+      "ord": {
+        "2": "de tweede avocado",
+        "3": "de derde avocado",
+        "4": "de vierde avocado",
+        "5": "de vijfde avocado"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "apricot": {
+      "unique": "de abrikoos",
+      "all": "alle abrikozen",
+      "pl": "abrikozen",
+      "ord": {
+        "2": "de tweede abrikoos",
+        "3": "de derde abrikoos",
+        "4": "de vierde abrikoos",
+        "5": "de vijfde abrikoos"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "banana": {
+      "unique": "de banaan",
+      "all": "alle bananen",
+      "pl": "bananen",
+      "ord": {
+        "2": "de tweede banaan",
+        "3": "de derde banaan",
+        "4": "de vierde banaan",
+        "5": "de vijfde banaan"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "apple": {
+      "unique": "de appel",
+      "all": "alle appels",
+      "pl": "appels",
+      "ord": {
+        "2": "de tweede appel",
+        "3": "de derde appel",
+        "4": "de vierde appel",
+        "5": "de vijfde appel"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "blackberry": {
+      "unique": "de braam",
+      "all": "alle bramen",
+      "pl": "bramen",
+      "ord": {
+        "2": "de tweede braam",
+        "3": "de derde braam",
+        "4": "de vierde braam",
+        "5": "de vijfde braam"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "blueberry": {
+      "unique": "de bosbes",
+      "all": "alle bosbessen",
+      "pl": "bosbessen",
+      "ord": {
+        "2": "de tweede bosbes",
+        "3": "de derde bosbes",
+        "4": "de vierde bosbes",
+        "5": "de vijfde bosbes"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "cherry": {
+      "unique": "de kers",
+      "all": "alle kersen",
+      "pl": "kersen",
+      "ord": {
+        "2": "de tweede kers",
+        "3": "de derde kers",
+        "4": "de vierde kers",
+        "5": "de vijfde kers"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "coconut": {
+      "unique": "de kokosnoot",
+      "all": "alle kokosnoten",
+      "pl": "kokosnoten",
+      "ord": {
+        "2": "de tweede kokosnoot",
+        "3": "de derde kokosnoot",
+        "4": "de vierde kokosnoot",
+        "5": "de vijfde kokosnoot"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "fig": {
+      "unique": "de vijg",
+      "all": "alle vijgen",
+      "pl": "vijgen",
+      "ord": {
+        "2": "de tweede vijg",
+        "3": "de derde vijg",
+        "4": "de vierde vijg",
+        "5": "de vijfde vijg"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "kiwi": {
+      "unique": "de kiwi",
+      "all": "alle kiwi's",
+      "pl": "kiwi's",
+      "ord": {
+        "2": "de tweede kiwi",
+        "3": "de derde kiwi",
+        "4": "de vierde kiwi",
+        "5": "de vijfde kiwi"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "lemon": {
+      "unique": "de citroen",
+      "all": "alle citroenen",
+      "pl": "citroenen",
+      "ord": {
+        "2": "de tweede citroen",
+        "3": "de derde citroen",
+        "4": "de vierde citroen",
+        "5": "de vijfde citroen"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "lime": {
+      "unique": "de limoen",
+      "all": "alle limoenen",
+      "pl": "limoenen",
+      "ord": {
+        "2": "de tweede limoen",
+        "3": "de derde limoen",
+        "4": "de vierde limoen",
+        "5": "de vijfde limoen"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "mango": {
+      "unique": "de mango",
+      "all": "alle mango's",
+      "pl": "mango's",
+      "ord": {
+        "2": "de tweede mango",
+        "3": "de derde mango",
+        "4": "de vierde mango",
+        "5": "de vijfde mango"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "orange": {
+      "unique": "de sinaasappel",
+      "all": "alle sinaasappels",
+      "pl": "sinaasappels",
+      "ord": {
+        "2": "de tweede sinaasappel",
+        "3": "de derde sinaasappel",
+        "4": "de vierde sinaasappel",
+        "5": "de vijfde sinaasappel"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "papaya": {
+      "unique": "de papaja",
+      "all": "alle papaja's",
+      "pl": "papaja's",
+      "ord": {
+        "2": "de tweede papaja",
+        "3": "de derde papaja",
+        "4": "de vierde papaja",
+        "5": "de vijfde papaja"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "peach": {
+      "unique": "de perzik",
+      "all": "alle perziken",
+      "pl": "perziken",
+      "ord": {
+        "2": "de tweede perzik",
+        "3": "de derde perzik",
+        "4": "de vierde perzik",
+        "5": "de vijfde perzik"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "pear": {
+      "unique": "de peer",
+      "all": "alle peren",
+      "pl": "peren",
+      "ord": {
+        "2": "de tweede peer",
+        "3": "de derde peer",
+        "4": "de vierde peer",
+        "5": "de vijfde peer"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "pineapple": {
+      "unique": "de ananas",
+      "all": "alle ananassen",
+      "pl": "ananassen",
+      "ord": {
+        "2": "de tweede ananas",
+        "3": "de derde ananas",
+        "4": "de vierde ananas",
+        "5": "de vijfde ananas"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "pomegranate": {
+      "unique": "de granaatappel",
+      "all": "alle granaatappels",
+      "pl": "granaatappels",
+      "ord": {
+        "2": "de tweede granaatappel",
+        "3": "de derde granaatappel",
+        "4": "de vierde granaatappel",
+        "5": "de vijfde granaatappel"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "watermelon": {
+      "unique": "de watermeloen",
+      "all": "alle watermeloenen",
+      "pl": "watermeloenen",
+      "ord": {
+        "2": "de tweede watermeloen",
+        "3": "de derde watermeloen",
+        "4": "de vierde watermeloen",
+        "5": "de vijfde watermeloen"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "strawberry": {
+      "unique": "de aardbei",
+      "all": "alle aardbeien",
+      "pl": "aardbeien",
+      "ord": {
+        "2": "de tweede aardbei",
+        "3": "de derde aardbei",
+        "4": "de vierde aardbei",
+        "5": "de vijfde aardbei"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "raspberry": {
+      "unique": "de framboos",
+      "all": "alle frambozen",
+      "pl": "frambozen",
+      "ord": {
+        "2": "de tweede framboos",
+        "3": "de derde framboos",
+        "4": "de vierde framboos",
+        "5": "de vijfde framboos"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "airplane": {
+      "unique": "het vliegtuig",
+      "all": "alle vliegtuigen",
+      "pl": "vliegtuigen",
+      "ord": {
+        "2": "het tweede vliegtuig",
+        "3": "het derde vliegtuig",
+        "4": "het vierde vliegtuig",
+        "5": "het vijfde vliegtuig"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "ambulance": {
+      "unique": "de ambulance",
+      "all": "alle ambulances",
+      "pl": "ambulances",
+      "ord": {
+        "2": "de tweede ambulance",
+        "3": "de derde ambulance",
+        "4": "de vierde ambulance",
+        "5": "de vijfde ambulance"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "bicycle": {
+      "unique": "de fiets",
+      "all": "alle fietsen",
+      "pl": "fietsen",
+      "ord": {
+        "2": "de tweede fiets",
+        "3": "de derde fiets",
+        "4": "de vierde fiets",
+        "5": "de vijfde fiets"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "boat": {
+      "unique": "de boot",
+      "all": "alle boten",
+      "pl": "boten",
+      "ord": {
+        "2": "de tweede boot",
+        "3": "de derde boot",
+        "4": "de vierde boot",
+        "5": "de vijfde boot"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "bulldozer": {
+      "unique": "de bulldozer",
+      "all": "alle bulldozers",
+      "pl": "bulldozers",
+      "ord": {
+        "2": "de tweede bulldozer",
+        "3": "de derde bulldozer",
+        "4": "de vierde bulldozer",
+        "5": "de vijfde bulldozer"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "bus": {
+      "unique": "de bus",
+      "all": "alle bussen",
+      "pl": "bussen",
+      "ord": {
+        "2": "de tweede bus",
+        "3": "de derde bus",
+        "4": "de vierde bus",
+        "5": "de vijfde bus"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "car": {
+      "unique": "de auto",
+      "all": "alle auto's",
+      "pl": "auto's",
+      "ord": {
+        "2": "de tweede auto",
+        "3": "de derde auto",
+        "4": "de vierde auto",
+        "5": "de vijfde auto"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "helicopter": {
+      "unique": "de helikopter",
+      "all": "alle helikopters",
+      "pl": "helikopters",
+      "ord": {
+        "2": "de tweede helikopter",
+        "3": "de derde helikopter",
+        "4": "de vierde helikopter",
+        "5": "de vijfde helikopter"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "jeep": {
+      "unique": "de jeep",
+      "all": "alle jeeps",
+      "pl": "jeeps",
+      "ord": {
+        "2": "de tweede jeep",
+        "3": "de derde jeep",
+        "4": "de vierde jeep",
+        "5": "de vijfde jeep"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "motorcycle": {
+      "unique": "de motor",
+      "all": "alle motoren",
+      "pl": "motoren",
+      "ord": {
+        "2": "de tweede motor",
+        "3": "de derde motor",
+        "4": "de vierde motor",
+        "5": "de vijfde motor"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "rocket": {
+      "unique": "de raket",
+      "all": "alle raketten",
+      "pl": "raketten",
+      "ord": {
+        "2": "de tweede raket",
+        "3": "de derde raket",
+        "4": "de vierde raket",
+        "5": "de vijfde raket"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "sailboat": {
+      "unique": "de zeilboot",
+      "all": "alle zeilboten",
+      "pl": "zeilboten",
+      "ord": {
+        "2": "de tweede zeilboot",
+        "3": "de derde zeilboot",
+        "4": "de vierde zeilboot",
+        "5": "de vijfde zeilboot"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "scooter": {
+      "unique": "de step",
+      "all": "alle steppen",
+      "pl": "steppen",
+      "ord": {
+        "2": "de tweede step",
+        "3": "de derde step",
+        "4": "de vierde step",
+        "5": "de vijfde step"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "ship": {
+      "unique": "het schip",
+      "all": "alle schepen",
+      "pl": "schepen",
+      "ord": {
+        "2": "het tweede schip",
+        "3": "het derde schip",
+        "4": "het vierde schip",
+        "5": "het vijfde schip"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "taxi": {
+      "unique": "de taxi",
+      "all": "alle taxi's",
+      "pl": "taxi's",
+      "ord": {
+        "2": "de tweede taxi",
+        "3": "de derde taxi",
+        "4": "de vierde taxi",
+        "5": "de vijfde taxi"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "tractor": {
+      "unique": "de tractor",
+      "all": "alle tractoren",
+      "pl": "tractoren",
+      "ord": {
+        "2": "de tweede tractor",
+        "3": "de derde tractor",
+        "4": "de vierde tractor",
+        "5": "de vijfde tractor"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "train": {
+      "unique": "de trein",
+      "all": "alle treinen",
+      "pl": "treinen",
+      "ord": {
+        "2": "de tweede trein",
+        "3": "de derde trein",
+        "4": "de vierde trein",
+        "5": "de vijfde trein"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "truck": {
+      "unique": "de vrachtwagen",
+      "all": "alle vrachtwagens",
+      "pl": "vrachtwagens",
+      "ord": {
+        "2": "de tweede vrachtwagen",
+        "3": "de derde vrachtwagen",
+        "4": "de vierde vrachtwagen",
+        "5": "de vijfde vrachtwagen"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "van": {
+      "unique": "het busje",
+      "all": "alle busjes",
+      "pl": "busjes",
+      "ord": {
+        "2": "het tweede busje",
+        "3": "het derde busje",
+        "4": "het vierde busje",
+        "5": "het vijfde busje"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "ball": {
+      "unique": "de bal",
+      "all": "alle ballen",
+      "pl": "ballen",
+      "ord": {
+        "2": "de tweede bal",
+        "3": "de derde bal",
+        "4": "de vierde bal",
+        "5": "de vijfde bal"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "balloon": {
+      "unique": "de ballon",
+      "all": "alle ballonnen",
+      "pl": "ballonnen",
+      "ord": {
+        "2": "de tweede ballon",
+        "3": "de derde ballon",
+        "4": "de vierde ballon",
+        "5": "de vijfde ballon"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "bucket": {
+      "unique": "de emmer",
+      "all": "alle emmers",
+      "pl": "emmers",
+      "ord": {
+        "2": "de tweede emmer",
+        "3": "de derde emmer",
+        "4": "de vierde emmer",
+        "5": "de vijfde emmer"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "dice": {
+      "unique": "de dobbelsteen",
+      "all": "alle dobbelstenen",
+      "pl": "dobbelstenen",
+      "ord": {
+        "2": "de tweede dobbelsteen",
+        "3": "de derde dobbelsteen",
+        "4": "de vierde dobbelsteen",
+        "5": "de vijfde dobbelsteen"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "dinosaur": {
+      "unique": "de dinosaurus",
+      "all": "alle dinosaurussen",
+      "pl": "dinosaurussen",
+      "ord": {
+        "2": "de tweede dinosaurus",
+        "3": "de derde dinosaurus",
+        "4": "de vierde dinosaurus",
+        "5": "de vijfde dinosaurus"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "doll": {
+      "unique": "de pop",
+      "all": "alle poppen",
+      "pl": "poppen",
+      "ord": {
+        "2": "de tweede pop",
+        "3": "de derde pop",
+        "4": "de vierde pop",
+        "5": "de vijfde pop"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "kite": {
+      "unique": "de vlieger",
+      "all": "alle vliegers",
+      "pl": "vliegers",
+      "ord": {
+        "2": "de tweede vlieger",
+        "3": "de derde vlieger",
+        "4": "de vierde vlieger",
+        "5": "de vijfde vlieger"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "robot": {
+      "unique": "de robot",
+      "all": "alle robots",
+      "pl": "robots",
+      "ord": {
+        "2": "de tweede robot",
+        "3": "de derde robot",
+        "4": "de vierde robot",
+        "5": "de vijfde robot"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "shovel": {
+      "unique": "de schop",
+      "all": "alle schoppen",
+      "pl": "schoppen",
+      "ord": {
+        "2": "de tweede schop",
+        "3": "de derde schop",
+        "4": "de vierde schop",
+        "5": "de vijfde schop"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "slide": {
+      "unique": "de glijbaan",
+      "all": "alle glijbanen",
+      "pl": "glijbanen",
+      "ord": {
+        "2": "de tweede glijbaan",
+        "3": "de derde glijbaan",
+        "4": "de vierde glijbaan",
+        "5": "de vijfde glijbaan"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "swing": {
+      "unique": "de schommel",
+      "all": "alle schommels",
+      "pl": "schommels",
+      "ord": {
+        "2": "de tweede schommel",
+        "3": "de derde schommel",
+        "4": "de vierde schommel",
+        "5": "de vijfde schommel"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "bear": {
+      "unique": "de beer",
+      "all": "alle beren",
+      "pl": "beren",
+      "ord": {
+        "2": "de tweede beer",
+        "3": "de derde beer",
+        "4": "de vierde beer",
+        "5": "de vijfde beer"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "armadillo": {
+      "unique": "het gordeldier",
+      "all": "alle gordeldieren",
+      "pl": "gordeldieren",
+      "ord": {
+        "2": "het tweede gordeldier",
+        "3": "het derde gordeldier",
+        "4": "het vierde gordeldier",
+        "5": "het vijfde gordeldier"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "chimpanzee": {
+      "unique": "de chimpansee",
+      "all": "alle chimpansees",
+      "pl": "chimpansees",
+      "ord": {
+        "2": "de tweede chimpansee",
+        "3": "de derde chimpansee",
+        "4": "de vierde chimpansee",
+        "5": "de vijfde chimpansee"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "gorilla": {
+      "unique": "de gorilla",
+      "all": "alle gorilla's",
+      "pl": "gorilla's",
+      "ord": {
+        "2": "de tweede gorilla",
+        "3": "de derde gorilla",
+        "4": "de vierde gorilla",
+        "5": "de vijfde gorilla"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "kangaroo": {
+      "unique": "de kangoeroe",
+      "all": "alle kangoeroes",
+      "pl": "kangoeroes",
+      "ord": {
+        "2": "de tweede kangoeroe",
+        "3": "de derde kangoeroe",
+        "4": "de vierde kangoeroe",
+        "5": "de vijfde kangoeroe"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "lion": {
+      "unique": "de leeuw",
+      "all": "alle leeuwen",
+      "pl": "leeuwen",
+      "ord": {
+        "2": "de tweede leeuw",
+        "3": "de derde leeuw",
+        "4": "de vierde leeuw",
+        "5": "de vijfde leeuw"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "monkey": {
+      "unique": "de aap",
+      "all": "alle apen",
+      "pl": "apen",
+      "ord": {
+        "2": "de tweede aap",
+        "3": "de derde aap",
+        "4": "de vierde aap",
+        "5": "de vijfde aap"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "otter": {
+      "unique": "de otter",
+      "all": "alle otters",
+      "pl": "otters",
+      "ord": {
+        "2": "de tweede otter",
+        "3": "de derde otter",
+        "4": "de vierde otter",
+        "5": "de vijfde otter"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "rhinoceros": {
+      "unique": "de neushoorn",
+      "all": "alle neushoorns",
+      "pl": "neushoorns",
+      "ord": {
+        "2": "de tweede neushoorn",
+        "3": "de derde neushoorn",
+        "4": "de vierde neushoorn",
+        "5": "de vijfde neushoorn"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "seal": {
+      "unique": "de zeehond",
+      "all": "alle zeehonden",
+      "pl": "zeehonden",
+      "ord": {
+        "2": "de tweede zeehond",
+        "3": "de derde zeehond",
+        "4": "de vierde zeehond",
+        "5": "de vijfde zeehond"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "bee": {
+      "unique": "de bij",
+      "all": "alle bijen",
+      "pl": "bijen",
+      "ord": {
+        "2": "de tweede bij",
+        "3": "de derde bij",
+        "4": "de vierde bij",
+        "5": "de vijfde bij"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "chick": {
+      "unique": "het kuiken",
+      "all": "alle kuikens",
+      "pl": "kuikens",
+      "ord": {
+        "2": "het tweede kuiken",
+        "3": "het derde kuiken",
+        "4": "het vierde kuiken",
+        "5": "het vijfde kuiken"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "chicken": {
+      "unique": "de kip",
+      "all": "alle kippen",
+      "pl": "kippen",
+      "ord": {
+        "2": "de tweede kip",
+        "3": "de derde kip",
+        "4": "de vierde kip",
+        "5": "de vijfde kip"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "cow": {
+      "unique": "de koe",
+      "all": "alle koeien",
+      "pl": "koeien",
+      "ord": {
+        "2": "de tweede koe",
+        "3": "de derde koe",
+        "4": "de vierde koe",
+        "5": "de vijfde koe"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "duckling": {
+      "unique": "het eendje",
+      "all": "alle eendjes",
+      "pl": "eendjes",
+      "ord": {
+        "2": "het tweede eendje",
+        "3": "het derde eendje",
+        "4": "het vierde eendje",
+        "5": "het vijfde eendje"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "goat": {
+      "unique": "de geit",
+      "all": "alle geiten",
+      "pl": "geiten",
+      "ord": {
+        "2": "de tweede geit",
+        "3": "de derde geit",
+        "4": "de vierde geit",
+        "5": "de vijfde geit"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "goose": {
+      "unique": "de gans",
+      "all": "alle ganzen",
+      "pl": "ganzen",
+      "ord": {
+        "2": "de tweede gans",
+        "3": "de derde gans",
+        "4": "de vierde gans",
+        "5": "de vijfde gans"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "lamb": {
+      "unique": "het lam",
+      "all": "alle lammeren",
+      "pl": "lammeren",
+      "ord": {
+        "2": "het tweede lam",
+        "3": "het derde lam",
+        "4": "het vierde lam",
+        "5": "het vijfde lam"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "rooster": {
+      "unique": "de haan",
+      "all": "alle hanen",
+      "pl": "hanen",
+      "ord": {
+        "2": "de tweede haan",
+        "3": "de derde haan",
+        "4": "de vierde haan",
+        "5": "de vijfde haan"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    },
+    "turkey": {
+      "unique": "de kalkoen",
+      "all": "alle kalkoenen",
+      "pl": "kalkoenen",
+      "ord": {
+        "2": "de tweede kalkoen",
+        "3": "de derde kalkoen",
+        "4": "de vierde kalkoen",
+        "5": "de vijfde kalkoen"
+      },
+      "dat": null,
+      "def": null,
+      "defPl": null,
+      "part": null,
+      "gen": null,
+      "a2": null,
+      "reviewed": true
+    }
+  },
+  "truth": {
+    "yes": "waar",
+    "no": "niet waar",
+    "frames": [
+      {
+        "text": "Er staan {n} {pl} in de rij.",
+        "cue": "count",
+        "rel": "eq"
+      },
+      {
+        "text": "Er staan precies {n} {pl} in de rij.",
+        "cue": "count",
+        "rel": "eq"
+      },
+      {
+        "text": "Er staan meer dan {n} {pl} in de rij.",
+        "cue": "count",
+        "rel": "gt"
+      },
+      {
+        "text": "Er staan minder dan {n} {pl} in de rij.",
+        "cue": "count",
+        "rel": "lt"
+      },
+      {
+        "text": "Het eerste plaatje is {obj}.",
+        "cue": "first"
+      },
+      {
+        "text": "Het laatste plaatje is {obj}.",
+        "cue": "last"
+      },
+      {
+        "text": "De rij begint met {obj}.",
+        "cue": "first"
+      },
+      {
+        "text": "De rij eindigt met {obj}.",
+        "cue": "last"
+      },
+      {
+        "text": "Het tweede plaatje is {obj}.",
+        "cue": "ordinal",
+        "k": 2
+      },
+      {
+        "text": "Het derde plaatje is {obj}.",
+        "cue": "ordinal",
+        "k": 3
+      },
+      {
+        "text": "Het vierde plaatje is {obj}.",
+        "cue": "ordinal",
+        "k": 4
+      },
+      {
+        "text": "Het plaatje meteen na {obj} is {obj2}.",
+        "cue": "rightof"
+      },
+      {
+        "text": "Het plaatje meteen voor {obj} is {obj2}.",
+        "cue": "leftof"
+      }
+    ]
+  },
+  "numbers": {
+    "1": "één",
+    "2": "twee",
+    "3": "drie",
+    "4": "vier",
+    "5": "vijf"
+  },
+  "draw": [
+    {
+      "text": "Teken {n} {pl} in het vak."
+    },
+    {
+      "text": "Teken {n} {pl}. Maak ze groot."
+    },
+    {
+      "text": "Teken {n} {pl} op een rij."
+    },
+    {
+      "text": "Teken {n} {pl} en een zon erboven."
+    },
+    {
+      "text": "Teken {n} kleine {pl} in het vak."
+    }
+  ],
+  "strings": {
+    "G1-308": {
+      "title": "Lees en doe: volg de opdrachten",
+      "instruction": "Kijk naar de rij plaatjes en begin bij de vlag. Lees elke zin en doe precies wat er staat met je potlood. Zet daarna een vinkje in het kleine hokje."
+    },
+    "F1": {
+      "title": "Lees en omcirkel",
+      "instruction": "Lees elke zin. Zoek in de rij het plaatje of de plaatjes die erin staan en zet er een cirkel omheen. Zet daarna een vinkje in het hokje."
+    },
+    "F2": {
+      "title": "Lees en doe: opdrachten met twee stappen",
+      "instruction": "Elke zin zegt twee dingen die je moet doen. Lees de zin helemaal voordat je begint en doe dan allebei de stappen in de rij plaatjes."
+    },
+    "F3": {
+      "title": "Lees en doe: eerste, tweede, tussen",
+      "instruction": "Begin bij de vlag en tel langs de rij. Zoek het plaatje op zijn plaats en doe dan met je potlood wat de zin zegt."
+    },
+    "F4": {
+      "title": "Lees en controleer: waar of niet waar?",
+      "instruction": "Lees elke zin en kijk naar de rij plaatjes. Is de zin waar of niet waar? Omcirkel het goede woord."
+    },
+    "F5": {
+      "title": "Lees en teken",
+      "instruction": "Lees elke zin goed. Teken dan in het vak precies wat er staat."
+    }
+  }
+}

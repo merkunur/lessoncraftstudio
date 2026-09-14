@@ -1,0 +1,47 @@
+{
+  "names": "calendar",
+  "labels": {
+    "yesterday": "gisteren",
+    "today": "vandaag",
+    "tomorrow": "morgen",
+    "before": "ervoor",
+    "after": "erna"
+  },
+  "alt": {
+    "days": {},
+    "labels": {}
+  },
+  "dayShort": null,
+  "laneGlyphH": {
+    "days": 40,
+    "months": 32,
+    "neighbours": 32
+  },
+  "abbrev": "calendar",
+  "strings": {
+    "K-321": {
+      "title": "Dagen van de week op volgorde",
+      "instruction": "De eerste dag van de week heeft al een 1. Nummer de andere dagen 2 tot en met 7 in de volgorde waarin ze komen."
+    },
+    "K-337": {
+      "title": "Ontbrekende dagen: schrijf de week op volgorde",
+      "instruction": "Op de ladder staan al een paar dagen. Schrijf de ontbrekende dagen uit de woordenbank op de goede plek."
+    },
+    "G1-319": {
+      "title": "Gisteren, vandaag, morgen",
+      "instruction": "De dag in het midden is vandaag. Schrijf de dag die gisteren was en de dag die morgen komt."
+    },
+    "G1-320": {
+      "title": "Maanden van het jaar op volgorde",
+      "instruction": "Januari heeft al een 1. Nummer de andere maanden 2 tot en met 12 in de volgorde van het jaar."
+    },
+    "G1-321": {
+      "title": "De maand ervoor en de maand erna",
+      "instruction": "In het midden staat een maand. Schrijf de maand die ervoor komt en de maand die erna komt."
+    },
+    "G1-322": {
+      "title": "Dagen van de week: afkortingen",
+      "instruction": "Lees elke afkorting en trek een lijn naar de dag waar ze bij hoort."
+    }
+  }
+}

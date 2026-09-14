@@ -1,0 +1,604 @@
+{
+  "labels": {
+    "class": "Soort dier",
+    "habitat": "Waar het leeft",
+    "diet": "Wat het eet",
+    "legs": "Poten",
+    "covering": "Huid of vacht",
+    "fly": "Kan het vliegen?",
+    "swim": "Kan het zwemmen?",
+    "special": "Bijzonder kenmerk:"
+  },
+  "eyebrow": "Naam:",
+  "drawLabel": "Teken waar het leeft.",
+  "sentence": "Een zin over het dier:",
+  "factStarter": "{def} kan",
+  "options": {
+    "class": {
+      "mammal": {
+        "cell": "zoogdier",
+        "inFrame": "een zoogdier"
+      },
+      "bird": {
+        "cell": "vogel",
+        "inFrame": "een vogel"
+      },
+      "reptile": {
+        "cell": "reptiel",
+        "inFrame": "een reptiel"
+      },
+      "fish": {
+        "cell": "vis",
+        "inFrame": "een vis"
+      },
+      "insect": {
+        "cell": "insect",
+        "inFrame": "een insect"
+      }
+    },
+    "covering": {
+      "fur": {
+        "cell": "vacht",
+        "inFrame": "een vacht"
+      },
+      "feathers": {
+        "cell": "veren",
+        "inFrame": "veren"
+      },
+      "scales": {
+        "cell": "schubben",
+        "inFrame": "schubben"
+      },
+      "shell": {
+        "cell": "schild",
+        "inFrame": "een schild"
+      },
+      "spines": {
+        "cell": "stekels",
+        "inFrame": "stekels"
+      },
+      "skin": {
+        "cell": "gladde huid",
+        "inFrame": "een gladde huid"
+      }
+    },
+    "diet": {
+      "plants": {
+        "cell": "planten",
+        "inFrame": "planten"
+      },
+      "meat": {
+        "cell": "vlees",
+        "inFrame": "vlees"
+      },
+      "both": {
+        "cell": "allebei",
+        "inFrame": "planten en vlees"
+      }
+    },
+    "habitat": {
+      "land": {
+        "cell": "land",
+        "inFrame": "op het land"
+      },
+      "water": {
+        "cell": "water",
+        "inFrame": "in het water"
+      },
+      "air": {
+        "cell": "lucht",
+        "inFrame": "in de lucht"
+      }
+    }
+  },
+  "yesno": {
+    "yes": "ja",
+    "no": "nee"
+  },
+  "legsFrames": {
+    "0": "Ik heb geen poten.",
+    "2": "Ik heb 2 poten.",
+    "4": "Ik heb 4 poten.",
+    "6": "Ik heb 6 poten.",
+    "8": "Ik heb 8 poten."
+  },
+  "animals": {
+    "cat": {
+      "name": "Kat",
+      "title": "Kat",
+      "def": "de kat",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "dog": {
+      "name": "Hond",
+      "title": "Hond",
+      "def": "de hond",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "horse": {
+      "name": "Paard",
+      "title": "Paard",
+      "def": "het paard",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "rabbit": {
+      "name": "Konijn",
+      "title": "Konijn",
+      "def": "het konijn",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "cow": {
+      "name": "Koe",
+      "title": "Koe",
+      "def": "de koe",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "pig": {
+      "name": "Varken",
+      "title": "Varken",
+      "def": "het varken",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "sheep": {
+      "name": "Schaap",
+      "title": "Schaap",
+      "def": "het schaap",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "goat": {
+      "name": "Geit",
+      "title": "Geit",
+      "def": "de geit",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "donkey": {
+      "name": "Ezel",
+      "title": "Ezel",
+      "def": "de ezel",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "duck": {
+      "name": "Eend",
+      "title": "Eend",
+      "def": "de eend",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "hen": {
+      "name": "Hen",
+      "title": "Hen",
+      "def": "de hen",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "rooster": {
+      "name": "Haan",
+      "title": "Haan",
+      "def": "de haan",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "goose": {
+      "name": "Gans",
+      "title": "Gans",
+      "def": "de gans",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "fox": {
+      "name": "Vos",
+      "title": "Vos",
+      "def": "de vos",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "hedgehog": {
+      "name": "Egel",
+      "title": "Egel",
+      "def": "de egel",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "owl": {
+      "name": "Uil",
+      "title": "Uil",
+      "def": "de uil",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "squirrel": {
+      "name": "Eekhoorn",
+      "title": "Eekhoorn",
+      "def": "de eekhoorn",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "deer": {
+      "name": "Hert",
+      "title": "Hert",
+      "def": "het hert",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "bear": {
+      "name": "Beer",
+      "title": "Beer",
+      "def": "de beer",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "wolf": {
+      "name": "Wolf",
+      "title": "Wolf",
+      "def": "de wolf",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "bat": {
+      "name": "Vleermuis",
+      "title": "Vleermuis",
+      "def": "de vleermuis",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "beaver": {
+      "name": "Bever",
+      "title": "Bever",
+      "def": "de bever",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "moose": {
+      "name": "Eland",
+      "title": "Eland",
+      "def": "de eland",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "raccoon": {
+      "name": "Wasbeer",
+      "title": "Wasbeer",
+      "def": "de wasbeer",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "butterfly": {
+      "name": "Vlinder",
+      "title": "Vlinder",
+      "def": "de vlinder",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "bee": {
+      "name": "Bij",
+      "title": "Bij",
+      "def": "de bij",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "ladybug": {
+      "name": "Lieveheersbeestje",
+      "title": "Lieveheersbeestje",
+      "def": "het lieveheersbeestje",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "ant": {
+      "name": "Mier",
+      "title": "Mier",
+      "def": "de mier",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "lion": {
+      "name": "Leeuw",
+      "title": "Leeuw",
+      "def": "de leeuw",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "tiger": {
+      "name": "Tijger",
+      "title": "Tijger",
+      "def": "de tijger",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "elephant": {
+      "name": "Olifant",
+      "title": "Olifant",
+      "def": "de olifant",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "giraffe": {
+      "name": "Giraffe",
+      "title": "Giraffe",
+      "def": "de giraffe",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "zebra": {
+      "name": "Zebra",
+      "title": "Zebra",
+      "def": "de zebra",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "monkey": {
+      "name": "Aap",
+      "title": "Aap",
+      "def": "de aap",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "kangaroo": {
+      "name": "Kangoeroe",
+      "title": "Kangoeroe",
+      "def": "de kangoeroe",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "camel": {
+      "name": "Kameel",
+      "title": "Kameel",
+      "def": "de kameel",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "hippopotamus": {
+      "name": "Nijlpaard",
+      "title": "Nijlpaard",
+      "def": "het nijlpaard",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "panda": {
+      "name": "Panda",
+      "title": "Panda",
+      "def": "de panda",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "koala": {
+      "name": "Koala",
+      "title": "Koala",
+      "def": "de koala",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "penguin": {
+      "name": "Pinguïn",
+      "title": "Pinguïn",
+      "def": "de pinguïn",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "eagle": {
+      "name": "Adelaar",
+      "title": "Adelaar",
+      "def": "de adelaar",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "parrot": {
+      "name": "Papegaai",
+      "title": "Papegaai",
+      "def": "de papegaai",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "flamingo": {
+      "name": "Flamingo",
+      "title": "Flamingo",
+      "def": "de flamingo",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "ostrich": {
+      "name": "Struisvogel",
+      "title": "Struisvogel",
+      "def": "de struisvogel",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "swan": {
+      "name": "Zwaan",
+      "title": "Zwaan",
+      "def": "de zwaan",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "tortoise": {
+      "name": "Landschildpad",
+      "title": "Landschildpad",
+      "def": "de landschildpad",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "lizard": {
+      "name": "Hagedis",
+      "title": "Hagedis",
+      "def": "de hagedis",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "turtle": {
+      "name": "Schildpad",
+      "title": "Schildpad",
+      "def": "de schildpad",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "fish": {
+      "name": "Vis",
+      "title": "Vis",
+      "def": "de vis",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "goldfish": {
+      "name": "Goudvis",
+      "title": "Goudvis",
+      "def": "de goudvis",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "shark": {
+      "name": "Haai",
+      "title": "Haai",
+      "def": "de haai",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "hamster": {
+      "name": "Hamster",
+      "title": "Hamster",
+      "def": "de hamster",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "mouse": {
+      "name": "Muis",
+      "title": "Muis",
+      "def": "de muis",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    },
+    "frog": {
+      "name": "Kikker",
+      "title": "Kikker",
+      "def": "de kikker",
+      "nom": null,
+      "ade": null,
+      "reviewed": true
+    }
+  },
+  "frames": [
+    {
+      "field": "class",
+      "text": "{def} is"
+    },
+    {
+      "field": "covering",
+      "text": "{def} heeft"
+    },
+    {
+      "field": "diet",
+      "text": "{def} eet"
+    }
+  ],
+  "frameCaption": "Schrijf drie zinnen over het dier:",
+  "sameDiff": {
+    "same": "hetzelfde",
+    "diff": "anders",
+    "laneSame": "Hetzelfde:",
+    "laneDiff": "Anders:",
+    "caption": "Schrijf wat hetzelfde is en wat anders is:"
+  },
+  "mystery": {
+    "class": "Ik ben {inFrame}.",
+    "covering": "Ik heb {inFrame}.",
+    "diet": "Ik eet {inFrame}.",
+    "habitat": "Ik leef {inFrame}.",
+    "fly": {
+      "true": "Ik kan vliegen.",
+      "false": "Ik kan niet vliegen."
+    },
+    "swim": {
+      "true": "Ik kan zwemmen.",
+      "false": "Ik kan niet zwemmen."
+    },
+    "prompt": "Wie ben ik?"
+  },
+  "allowCompound": [],
+  "blankTitle": "Leeg paspoort",
+  "strings": {
+    "G2-318": {
+      "title": "Dierenpaspoort: {U}",
+      "instruction": "Zoek uit wat je over dit dier weet. Schrijf in elke rij van het paspoort één weetje en vul de rest van het blad met je eigen tekening of woorden."
+    },
+    "G2-339": {
+      "title": "Dierenpaspoort {U}: kies de juiste weetjes",
+      "instruction": "Lees in elke rij de keuzes en omcirkel de keuze die klopt voor dit dier. Teken daarna waar het leeft en maak de zin af."
+    },
+    "G2-340": {
+      "title": "Dierenpaspoort {U} met woordenbank",
+      "instruction": "Zoek elk juist weetje in de woordenbank en schrijf het over in de goede rij van het paspoort. Maak daarna de zin onderaan af."
+    },
+    "G2-341": {
+      "title": "Dierenpaspoort {U}: schrijf drie zinnen",
+      "instruction": "Lees het paspoort. Maak de drie zinnen af met weetjes uit het paspoort en schrijf op de laatste lijn nog één weetje van jezelf."
+    },
+    "G2-342": {
+      "title": "Vergelijk twee dieren: hetzelfde en anders",
+      "instruction": "Lees beide paspoorten. Omcirkel bij elk weetje hetzelfde of anders. Schrijf daarna twee dingen die hetzelfde zijn en twee die anders zijn."
+    },
+    "G2-343": {
+      "title": "Wie ben ik? Raad het dier",
+      "instruction": "Lees de vijf aanwijzingen op elke kaart. Zoek het dier in de plaatjesbank, schrijf zijn naam op de lijn en teken het in het vak."
+    }
+  }
+}

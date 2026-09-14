@@ -1,0 +1,84 @@
+{
+  "cardCase": "lower",
+  "articleStyle": {
+    "enabled": true,
+    "level": 2,
+    "dots": null,
+    "elision": "refuse",
+    "elisionChip": null,
+    "legend": null
+  },
+  "plural": {
+    "enabled": true,
+    "clones": 3
+  },
+  "bilingual": {
+    "partnerExemplar": "en",
+    "hostName": "Nederlands",
+    "partnerNames": {
+      "en": "Engels",
+      "de": "Duits",
+      "es": "Spaans",
+      "pt": "Portugees",
+      "fr": "Frans",
+      "it": "Italiaans",
+      "sv": "Zweeds",
+      "da": "Deens",
+      "no": "Noors",
+      "fi": "Fins"
+    },
+    "legendSep": " · "
+  },
+  "syllable": {
+    "enabled": true,
+    "mark": "arc",
+    "hyphen": "-",
+    "strictPool": false,
+    "exclude": []
+  },
+  "twinLayout": {
+    "cols": 4,
+    "blockRows": 2
+  },
+  "exclude": [
+    "paramedic",
+    "plum",
+    "pelican",
+    "tree",
+    "sparrow",
+    "tuna",
+    "rice",
+    "ice",
+    "nut",
+    "comet",
+    "cast",
+    "us",
+    "scooter"
+  ],
+  "strings": {
+    "K-324": {
+      "title": "Woordkaartjes met plaatjes",
+      "instruction": "Knip de kaartjes langs de stippellijnen uit. Zeg de naam van elk plaatje en lees dan het woord."
+    },
+    "twin": {
+      "title": "Plaatjeskaartjes en woordkaartjes: zoek de paren",
+      "instruction": "Knip de zestien kaartjes uit. Leg elk woordkaartje naast het plaatje waar het bij hoort, of leg alles omgekeerd en speel memory."
+    },
+    "article": {
+      "title": "Woordkaartjes met de of het",
+      "instruction": "Knip de acht kaartjes uit. Zeg elk woord met zijn lidwoord, precies zoals het op het kaartje staat."
+    },
+    "plural": {
+      "title": "Eén en meer: kaartjes met enkelvoud en meervoud",
+      "instruction": "Knip de kaartjes uit. Zeg het woord voor één en het woord voor meer en leg dan de paren bij elkaar."
+    },
+    "bilingual": {
+      "title": "Tweetalige woordkaartjes: Nederlands en Engels",
+      "instruction": "Knip de acht kaartjes uit. Zeg het woord in het Nederlands en dan in het Engels en bewaar de kaartjes voor je woordmuur."
+    },
+    "syllable": {
+      "title": "Lettergreepkaartjes: lees het woord in stukjes",
+      "instruction": "Knip de acht kaartjes uit. Lees elk woord lettergreep voor lettergreep en zeg dan het hele woord."
+    }
+  }
+}

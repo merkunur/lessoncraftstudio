@@ -45,7 +45,16 @@ function lintLocale(locale) {
     return { errors, warnings };
   }
   const loc = readJson(stringsPath);
+  // nt20-C (2026-09-14): a native panel may DECLARE a face refused for its locale
+  // (docs/worksheet-gen/b3-designs/_records/refusals.<loc>.json, written by
+  // tools/apply-b3-locale.js from the validated draft). A declared id is expected
+  // ABSENT from strings.<loc>.json — it ships nowhere in that locale, so its absence
+  // is the honest state, not a gap. Only declared ids are exempt; an undeclared
+  // missing id is still an error.
+  const refusalsPath = path.join(__dirname, '..', '..', '..', 'docs', 'worksheet-gen', 'b3-designs', '_records', 'refusals.' + locale + '.json');
+  const refused = fs.existsSync(refusalsPath) ? (readJson(refusalsPath).refusals || {}) : {};
   for (const id of Object.keys(en)) {
+    if (refused[id]) { if (loc[id]) errors.push('strings: ' + id + ' is declared REFUSED for ' + locale + ' but strings.' + locale + '.json carries it'); continue; }
     if (!loc[id]) { errors.push('strings: missing type ' + id); continue; }
     if (!loc[id].title || !String(loc[id].title).trim()) errors.push('strings: ' + id + ' empty title');
     if (!loc[id].instruction || !String(loc[id].instruction).trim()) errors.push('strings: ' + id + ' empty instruction');

@@ -1,0 +1,970 @@
+{
+  "shape": "compound",
+  "casing": "lower",
+  "links": [
+    "",
+    "n",
+    "en",
+    "e",
+    "ne",
+    "s"
+  ],
+  "linkBoxW": 36,
+  "exemplar": "A",
+  "units": [
+    {
+      "id": "A",
+      "items": [
+        {
+          "a": {
+            "vocabKey": "tooth",
+            "word": "tand"
+          },
+          "aStem": null,
+          "link": "en",
+          "b": {
+            "vocabKey": "brush",
+            "word": "borstel",
+            "pic": {
+              "theme": "around the house",
+              "noun": "brush"
+            }
+          },
+          "whole": {
+            "word": "tandenborstel",
+            "vocabKey": "toothbrush",
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "book",
+            "word": "boek"
+          },
+          "aStem": null,
+          "link": "en",
+          "b": {
+            "vocabKey": "cabinet",
+            "word": "kast",
+            "pic": {
+              "theme": "furniture",
+              "noun": "cabinet"
+            }
+          },
+          "whole": {
+            "word": "boekenkast",
+            "vocabKey": "bookshelf",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "water",
+            "word": "water",
+            "pic": {
+              "theme": "beach",
+              "noun": "water"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "melon",
+            "word": "meloen"
+          },
+          "whole": {
+            "word": "watermeloen",
+            "vocabKey": "watermelon",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "rain",
+            "word": "regen"
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "coat",
+            "word": "jas"
+          },
+          "whole": {
+            "word": "regenjas",
+            "vocabKey": "raincoat",
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "sun",
+            "word": "zon"
+          },
+          "aStem": null,
+          "link": "ne",
+          "b": {
+            "vocabKey": "flower",
+            "word": "bloem",
+            "pic": {
+              "theme": "spring",
+              "noun": "flower"
+            }
+          },
+          "whole": {
+            "word": "zonnebloem",
+            "vocabKey": "sunflower",
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "hand",
+            "word": "hand"
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "bag",
+            "word": "tas",
+            "pic": {
+              "theme": "At the Supermarket",
+              "noun": "bag"
+            }
+          },
+          "whole": {
+            "word": "handtas",
+            "vocabKey": "handbag",
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "cheese",
+            "word": "kaas"
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "cake",
+            "word": "taart",
+            "pic": {
+              "theme": "bakery",
+              "noun": "cake"
+            }
+          },
+          "whole": {
+            "word": "kaastaart",
+            "vocabKey": "cheesecake",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "bird",
+            "word": "vogel"
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "house",
+            "word": "huisje"
+          },
+          "whole": {
+            "word": "vogelhuisje",
+            "vocabKey": "birdhouse",
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "items": [
+        {
+          "a": {
+            "vocabKey": "rain",
+            "word": "regen"
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "worm",
+            "word": "worm"
+          },
+          "whole": {
+            "word": "regenworm",
+            "vocabKey": "earthworm",
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "horse",
+            "word": "paard",
+            "pic": {
+              "theme": "farm animals",
+              "noun": "horse"
+            }
+          },
+          "aStem": null,
+          "link": "en",
+          "b": {
+            "vocabKey": "flower",
+            "word": "bloem",
+            "pic": {
+              "theme": "spring",
+              "noun": "flower"
+            }
+          },
+          "whole": {
+            "word": "paardenbloem",
+            "vocabKey": "dandelion",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "hand",
+            "word": "hand"
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "shoe",
+            "word": "schoen"
+          },
+          "whole": {
+            "word": "handschoen",
+            "vocabKey": "glove",
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "foot",
+            "word": "voet"
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "ball",
+            "word": "bal",
+            "pic": {
+              "theme": "toys",
+              "noun": "ball"
+            }
+          },
+          "whole": {
+            "word": "voetbal",
+            "vocabKey": "soccer",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "letter",
+            "word": "brief"
+          },
+          "aStem": "brieven",
+          "link": "",
+          "b": {
+            "vocabKey": "bus",
+            "word": "bus"
+          },
+          "whole": {
+            "word": "brievenbus",
+            "vocabKey": "mailbox",
+            "scale": 1
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "items": [
+        {
+          "a": {
+            "vocabKey": "flower",
+            "word": "bloem",
+            "pic": {
+              "theme": "spring",
+              "noun": "flower"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "cabbage",
+            "word": "kool"
+          },
+          "whole": {
+            "word": "bloemkool",
+            "vocabKey": "cauliflower",
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        }
+      ]
+    }
+  ],
+  "opaque": [
+    {
+      "a": {
+        "vocabKey": "butter",
+        "word": "boter"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "flower",
+        "word": "bloem",
+        "pic": {
+          "theme": "spring",
+          "noun": "flower"
+        }
+      },
+      "whole": {
+        "word": "boterbloem",
+        "vocabKey": "buttercup",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": true,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "earth",
+        "word": "aarde"
+      },
+      "aStem": "aard",
+      "link": "",
+      "b": {
+        "vocabKey": "apple",
+        "word": "appel",
+        "pic": {
+          "theme": "fruits",
+          "noun": "apple"
+        }
+      },
+      "whole": {
+        "word": "aardappel",
+        "vocabKey": "potato",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": true,
+      "picOpened": true
+    }
+  ],
+  "onePart": [
+    {
+      "a": {
+        "vocabKey": "tooth",
+        "word": "tand"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "pasta"
+      },
+      "whole": {
+        "word": "tandpasta",
+        "vocabKey": "toothpaste",
+        "scale": 1
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "sun",
+        "word": "zon"
+      },
+      "aStem": null,
+      "link": "ne",
+      "b": {
+        "vocabKey": null,
+        "word": "bril"
+      },
+      "whole": {
+        "word": "zonnebril",
+        "vocabKey": "sunglasses",
+        "scale": 1
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "rain",
+        "word": "regen"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "boog"
+      },
+      "whole": {
+        "word": "regenboog",
+        "vocabKey": "rainbow",
+        "scale": 1
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "rain",
+        "word": "regen"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "druppel"
+      },
+      "whole": {
+        "word": "regendruppel",
+        "vocabKey": "raindrop",
+        "scale": 1
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "sand",
+        "word": "zand"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "kasteel"
+      },
+      "whole": {
+        "word": "zandkasteel",
+        "vocabKey": "sandcastle",
+        "scale": 1
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "zee"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "star",
+        "word": "ster",
+        "pic": {
+          "theme": "christmas",
+          "noun": "star"
+        }
+      },
+      "whole": {
+        "word": "zeester",
+        "vocabKey": "starfish",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "goud"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "fish",
+        "word": "vis"
+      },
+      "whole": {
+        "word": "goudvis",
+        "vocabKey": "goldfish",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "clown"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "fish",
+        "word": "vis"
+      },
+      "whole": {
+        "word": "clownvis",
+        "vocabKey": "clownfish",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "kogel"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "fish",
+        "word": "vis"
+      },
+      "whole": {
+        "word": "kogelvis",
+        "vocabKey": "pufferfish",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "rol"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "chair",
+        "word": "stoel",
+        "pic": {
+          "theme": "furniture",
+          "noun": "chair"
+        }
+      },
+      "whole": {
+        "word": "rolstoel",
+        "vocabKey": "wheelchair",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "thee"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "pot",
+        "word": "pot",
+        "pic": {
+          "theme": "kitchen tools",
+          "noun": "pot"
+        }
+      },
+      "whole": {
+        "word": "theepot",
+        "vocabKey": "teapot",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "bird",
+        "word": "vogel"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "verschrikker"
+      },
+      "whole": {
+        "word": "vogelverschrikker",
+        "vocabKey": "scarecrow",
+        "scale": 1
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "pan",
+        "word": "pan",
+        "pic": {
+          "theme": "around the house",
+          "noun": "pan"
+        }
+      },
+      "aStem": "pannen",
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "koek"
+      },
+      "whole": {
+        "word": "pannenkoek",
+        "vocabKey": "pancake",
+        "scale": 1
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "zee"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "dog",
+        "word": "hond",
+        "pic": {
+          "theme": "animals",
+          "noun": "dog"
+        }
+      },
+      "whole": {
+        "word": "zeehond",
+        "vocabKey": "seal",
+        "scale": 1
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "sand",
+        "word": "zand"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "bak"
+      },
+      "whole": {
+        "word": "zandbak",
+        "vocabKey": "sandbox",
+        "scale": 1
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    }
+  ],
+  "opened": {
+    "farm animals/horse": [
+      "horse"
+    ],
+    "animals/horse": [
+      "horse"
+    ],
+    "clothing/shoe": [
+      "shoe"
+    ],
+    "accessories/glove": [
+      "glove"
+    ],
+    "clothing/glove": [
+      "glove"
+    ],
+    "body parts/foot": [
+      "foot"
+    ],
+    "activities/soccer": [
+      "soccer"
+    ],
+    "post office/letter": [
+      "letter"
+    ],
+    "vehicles/bus": [
+      "bus"
+    ],
+    "post office/mailbox": [
+      "mailbox"
+    ],
+    "around the house/mailbox": [
+      "mailbox"
+    ],
+    "vegetables/cabbage": [
+      "cabbage"
+    ],
+    "vegetables/cauliflower": [
+      "cauliflower"
+    ],
+    "animals/dog": [
+      "dog"
+    ],
+    "ocean life/seal": [
+      "seal"
+    ],
+    "winter/seal": [
+      "seal"
+    ],
+    "zoo animals/seal": [
+      "seal"
+    ],
+    "summer/sand": [
+      "sand"
+    ],
+    "toys/sandbox": [
+      "sandbox"
+    ],
+    "flowers/dandelion": [
+      "dandelion"
+    ]
+  },
+  "hubs": [
+    {
+      "hub": {
+        "vocabKey": "rain",
+        "word": "regen"
+      },
+      "side": "a",
+      "satellites": [
+        "regenjas",
+        "regenworm",
+        "regenboog",
+        "regendruppel"
+      ]
+    },
+    {
+      "hub": {
+        "vocabKey": "fish",
+        "word": "vis"
+      },
+      "side": "b",
+      "satellites": [
+        "goudvis",
+        "clownvis",
+        "kogelvis"
+      ]
+    },
+    {
+      "hub": {
+        "vocabKey": "sun",
+        "word": "zon"
+      },
+      "side": "a",
+      "satellites": [
+        "zonnebloem",
+        "zonnebril"
+      ]
+    },
+    {
+      "hub": {
+        "vocabKey": "hand",
+        "word": "hand"
+      },
+      "side": "a",
+      "satellites": [
+        "handtas",
+        "handschoen"
+      ]
+    },
+    {
+      "hub": {
+        "vocabKey": "sand",
+        "word": "zand"
+      },
+      "side": "a",
+      "satellites": [
+        "zandkasteel",
+        "zandbak"
+      ]
+    },
+    {
+      "hub": {
+        "vocabKey": "tooth",
+        "word": "tand"
+      },
+      "side": "a",
+      "satellites": [
+        "tandenborstel",
+        "tandpasta"
+      ]
+    }
+  ],
+  "foils": [
+    {
+      "vocabKey": "hamster",
+      "word": "hamster",
+      "looksLike": [
+        "ham",
+        "ster"
+      ]
+    },
+    {
+      "vocabKey": "carpet",
+      "word": "tapijt",
+      "looksLike": []
+    },
+    {
+      "vocabKey": "pineapple",
+      "word": "ananas",
+      "looksLike": []
+    },
+    {
+      "vocabKey": "eggplant",
+      "word": "aubergine",
+      "looksLike": []
+    },
+    {
+      "vocabKey": "butterfly",
+      "word": "vlinder",
+      "looksLike": []
+    },
+    {
+      "vocabKey": "notebook",
+      "word": "schrift",
+      "looksLike": []
+    },
+    {
+      "vocabKey": "necklace",
+      "word": "ketting",
+      "looksLike": []
+    },
+    {
+      "vocabKey": "key",
+      "word": "sleutel",
+      "looksLike": []
+    },
+    {
+      "vocabKey": "crow",
+      "word": "kraai",
+      "looksLike": []
+    },
+    {
+      "vocabKey": "pumpkin",
+      "word": "pompoen",
+      "looksLike": []
+    },
+    {
+      "vocabKey": "carrot",
+      "word": "wortel",
+      "looksLike": []
+    },
+    {
+      "vocabKey": "kitchen",
+      "word": "keuken",
+      "looksLike": []
+    },
+    {
+      "vocabKey": "donkey",
+      "word": "ezel",
+      "looksLike": []
+    }
+  ],
+  "sizePairs": [],
+  "crossWords": [
+    [
+      "boek",
+      "tas"
+    ],
+    [
+      "hand",
+      "bal"
+    ]
+  ],
+  "refuse": {
+    "F1": false,
+    "F3": false,
+    "F5": false
+  },
+  "webLanes": 3,
+  "_panelOpened": "nl panel 2026-09-14 opened every pinned picture on nl-cp.png: around the house/brush is a flat PAINT brush (kwast) — kept for tandenborstel because the library holds no other brush; spring/rain is a smiling raincloud; 4th of July/flag is the US flag (vlag). Outside the EN OPENED record and honest for nl: animals/horse (paard), clothing/shoe (schoen), body parts/foot (voet), summer/sand (zand), toys/ball (bal), spring/grass (gras) — the build session may extend OPENED with them (paardenbloem, handschoen, voetbal via soccer).",
+  "strings": {
+    "G2-316": {
+      "title": "Samenstellingen: plaatje + plaatje",
+      "instruction": "Zeg de twee plaatjes, plak de twee woorden aan elkaar en schrijf het nieuwe woord op de lijn."
+    },
+    "G2-329": {
+      "title": "Samenstellingen: wat komt er in het midden?",
+      "instruction": "Beide woorden staan er al. Schrijf de letters die ze verbinden in het vakje of laat het leeg, en schrijf dan het hele woord op de lijn."
+    },
+    "G2-330": {
+      "title": "Verdeel de samenstelling: zoek de twee woorden",
+      "instruction": "Het hele woord staat in letterhokjes naast zijn plaatje. Zet één streep waar het tweede woord begint."
+    },
+    "G2-331": {
+      "title": "Verbind de helften: twee plaatjes, één woord",
+      "instruction": "Trek een lijn van elk eerste plaatje naar het plaatje dat het woord afmaakt. Schrijf dan het nieuwe woord op de lijn naast het eerste plaatje."
+    },
+    "G2-332": {
+      "title": "Speurtocht naar samenstellingen",
+      "instruction": "Twaalf woorden, zes ervan zijn uit twee woorden gemaakt. Omcirkel de zes samenstellingen en schrijf hun twee delen op de lijnen."
+    },
+    "G2-333": {
+      "title": "Woordweb: één woord, veel samenstellingen",
+      "instruction": "In het midden staat één woord. Elk plaatje eromheen maakt er een nieuw woord mee. Schrijf de vier nieuwe woorden op de lijnen."
+    }
+  }
+}

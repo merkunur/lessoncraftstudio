@@ -1,0 +1,100 @@
+{
+  "head": "Logigram",
+  "names": [
+    {
+      "nom": "Emma"
+    },
+    {
+      "nom": "Daan"
+    },
+    {
+      "nom": "Julia"
+    },
+    {
+      "nom": "Sem"
+    },
+    {
+      "nom": "Tess"
+    },
+    {
+      "nom": "Finn"
+    },
+    {
+      "nom": "Lotte"
+    },
+    {
+      "nom": "Luuk"
+    }
+  ],
+  "namePx": 22,
+  "picSep": "",
+  "frames": {
+    "neg": [
+      "{name} heeft {pic} niet.",
+      "{pic} is niet van {name}."
+    ],
+    "pos": [
+      "{name} heeft {pic}.",
+      "{pic} is van {name}."
+    ],
+    "either": [
+      "{name} heeft {pic} of {pic}.",
+      "{pic} of {pic} is van {name}."
+    ],
+    "holderNot": [
+      "Het kind met {pic} is niet {name}.",
+      "{name} is niet het kind met {pic}."
+    ],
+    "cross": [
+      "Het kind met {pic} heeft ook {pic2}.",
+      "Wie {pic} heeft, heeft ook {pic2}."
+    ],
+    "crossNot": [
+      "Het kind met {pic} heeft {pic2} niet.",
+      "Wie {pic} heeft, heeft {pic2} niet."
+    ]
+  },
+  "truth": {
+    "has": [
+      "{name} heeft {pic}."
+    ],
+    "hasNot": [
+      "{name} heeft {pic} niet."
+    ],
+    "holderIs": [
+      "Het kind met {pic} is {name}."
+    ],
+    "either": [
+      "{name} heeft {pic} of {pic}."
+    ],
+    "nobody": [
+      "Niemand heeft {pic}."
+    ]
+  },
+  "strings": {
+    "G2-319": {
+      "title": "Logigram: drie aanwijzingen, één antwoord",
+      "instruction": "Lees de aanwijzingen. Streep in het rooster door wat niet kan, zet een vinkje bij wat zeker is en omcirkel dan het plaatje dat elk kind heeft."
+    },
+    "F1": {
+      "title": "Logigram met ja-, nee- en of-aanwijzingen",
+      "instruction": "Ja: zet een vinkje. Nee: zet een kruisje. Of: streep het derde plaatje door. Maak het rooster af en omcirkel elk antwoord."
+    },
+    "F2": {
+      "title": "Logigram 4 bij 4: zes aanwijzingen",
+      "instruction": "Vier kinderen en vier plaatjes. Gebruik elke aanwijzing: streep door wat niet kan en vink aan wat zeker is, tot elke rij één antwoord heeft."
+    },
+    "F3": {
+      "title": "Logigram met plaatjes: streep door en zoek",
+      "instruction": "Een doorgestreept plaatje heeft het kind niet, een omcirkeld plaatje wel. Streep door in het rooster en omcirkel elk antwoord."
+    },
+    "F4": {
+      "title": "Logigram met twee kenmerken: twee plaatjes per kind",
+      "instruction": "Elk kind heeft één plaatje uit elke set. Gebruik de aanwijzingen die de sets verbinden om alle drie de roosters in te vullen."
+    },
+    "F5": {
+      "title": "Lees het logigram: waar of niet waar?",
+      "instruction": "Het rooster is al opgelost. Lees het en omcirkel het vinkje als de zin waar is of het kruisje als de zin niet waar is."
+    }
+  }
+}

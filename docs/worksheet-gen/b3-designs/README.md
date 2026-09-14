@@ -81,3 +81,30 @@ The sidebar is built from the landing corpus grouped by taxonomy subject: `build
 - **Landing `coordinate.mode` for b3 faces: ALWAYS the face's mode string (base = `'base'`), never `null`** — `landing-content.ts coordKey()` is `type|mode|theme` WITHOUT level, so six themeless faces of one type with `mode:null` would collide on the coordinate index. (K-319 wrote `mode:null` on its base; the emitter uses `'base'`.)
 - ⚠ **Font-measurement trap (K-321 design, 2026-09-14): puppeteer only loads the shell's Baloo 2 / Nunito woff2 from a `file://` origin (as `render-instance.js` does); from a blank page it silently falls back to a system font that measures ~6 % NARROWER and makes Baloo 2 and Nunito identical.** Any px width quoted in a design file that was measured off a blank page is a lower bound (K-319's `sorprendido` 145.8 → real 155.2). The build session's gates measure in the real render pipeline (`render/one.js` / `render/batch.js`), never a bare puppeteer page; treat every "*est.*"/"(m)" width as re-measure-first.
 - ⚠ **`.ws-lane` inner width is 639 px at the default padding, not 647** (measured by the K-323 editor 2026-09-14: `page.css:401` `padding 12px 16px` + `border 2px` on a 675 px lane → 675 − 32 − 4 = 639; 647 only holds with an inline `padding:10px 12px` override, which G1-308 declares explicitly). Design files that budget a 647 lane WITHOUT stating the inline override (K-318, G1-307, G1-309, G2-315, G2-317, G3-377, K-320, K-321 quote 647 in places) are 8 px optimistic on those rows: the build session either adds the inline override or re-budgets at 639, and `render/one.js` + the overflow lint are the arbiter. Same family: `wordBank` renders 59 px + `margin-bottom:10`; `rulingBlock` wrappers add ~6 px per row (inline-SVG gap); `pillChoice` pills are 48 px high; `answerBox` without an `answer` stamps `data-lcs-answer="undefined"` and dashes in `grid` colour → every OPEN numeral box uses a new `blankNumeralBox` (`.ws-blankbox`, coral).
+
+## Hub-gate expectation matrix (design-time; consolidated 2026-09-14 from each file's §7 — the file is the SoT, this is the index the gate reads)
+Rows = faces with a landing per (key × locale) at design time; "contingent" = lowered only if the named panel data is withheld; "lifts" = rises when the named data is authored. `verify-hub-type-rows.js` reads THIS table (or a JSON export of it) and refuses to run on an empty corpus.
+
+| key | en | de | es | pt | fr | it | nl | sv | da | no | fi | total | refusals / contingencies (see the file) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| letter-of-the-week | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | F3 fi = syllable mode; F5 units per locale (≥3 or refuse) |
+| sound-boxes | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | da K faces ship on 2 themes (strict pool); en/fr bank yield UNKNOWN until authored |
+| syllable-split | 4 | 6 | 6 | 6 | 5 | 6 | 6 | 6 | 6 | 6 | 6 | 63 | en: Scramble + Vowel King refused (no TeX boundaries / silent e); fr: Vowel King refused (mute e) |
+| syllable-reading | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | fr Complex = one page; no/da/sv base seed-only |
+| spelling-rules | 6 | 6 | 6 | 6 | 6 | 6 | 5 | 5 | 6 | 5 | 6 | 63 | F6 plural refused nl (plural IS the base), sv, no (inflection, below floor) |
+| opposites | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | contingent: F4 if `syn` < 8; F5 if prefix items < 8 |
+| compound-words | 5 | 6 | 5→6 | 4 | 3→5 | 4 | 6 | 5→6 | 6 | 5→6 | 5→6 | 47 (55 ceiling) | F1 joint refused en/it/pt (+es/fr default); F3 match refused fr/it/pt; F5 default refused fr |
+| verb-forms | 6 | 6 | 6 | 6 | 6 | 6 | 6 (5 if F2 refused) | 6 | 6 | 6 | 6 | 66 (65) | nl F2 ships on the 3×3 variant |
+| read-and-do | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 1→6 | 1→6 | 1→6 | 6 | 51 (66 ceiling) | sv/da/no F1 only until the `def` (+`defPl`) tables (~150 literals each) are authored |
+| rhyming-words | 6 | 5→6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 65 (66) | de F4 refused at 3 usable classes (lifts with a 4th class by sound); F3 couplets contingent on ≥8 per locale |
+| emotions | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | global syringe veto changes F1's card count, not the row |
+| animal-fact-file | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 (interim 11) | PREREQUISITE `animal-facts.json`; sv/da/no/fi need one exemplar `def`/`ade`; a wave theme with <4 verifiable animals drops F6 |
+| hundreds-chart-puzzles | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | none (F3 is language-free) |
+| division-with-remainder | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | none; F3 lowers only where a panel refuses `exactWord` |
+| ordinal-numbers | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | none; F5 racers themes only (8) |
+| days-and-months | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | none |
+| all-about-me | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | none; F1 pools clear the global 96 px gate (colours 7 everywhere) |
+| seasons | 6 | 6 | 6 | 6 (5) | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 (65) | pt-BR F5 re-targets to `figure:'frame'` or refuses |
+| logic-puzzles | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | none designed |
+| picture-word-cards | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 5 | 65 | fi F3 article cards refused (no articles) — confirm against the K-324 final |
+| **design total** | | | | | | | | | | | | **≈1,247 (ceiling ≈1,299)** | of 1,320 nominal; every gap is a recorded refusal, never a filler |

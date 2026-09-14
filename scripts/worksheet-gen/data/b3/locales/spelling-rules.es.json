@@ -1,0 +1,3585 @@
+{
+  "head": "Reglas de ortografía",
+  "exemplar": "b-v",
+  "capital": "lower",
+  "pool": "approved-full",
+  "exclude": {
+    "re": "saurio$",
+    "why": "los nombres de dinosaurios no son palabras de ortografía de 2.º grado"
+  },
+  "rules": {
+    "b-v": {
+      "id": "b-v",
+      "head": "b y v",
+      "chip": "b v",
+      "band": "G2",
+      "gap": {
+        "kind": "regex",
+        "re": "[bv]",
+        "boxes": "wide"
+      },
+      "cands": [
+        "b",
+        "v"
+      ],
+      "pair": [
+        "b",
+        "v"
+      ],
+      "pairHead": "b o v",
+      "proof": null,
+      "models": [
+        {
+          "vocabKey": "ship",
+          "theme": "vehicles",
+          "noun": "ship",
+          "word": "barco",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "b"
+        },
+        {
+          "vocabKey": "cow",
+          "theme": "farm animals",
+          "noun": "cow",
+          "word": "vaca",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "v"
+        }
+      ],
+      "items": [
+        {
+          "theme": "At the Supermarket",
+          "noun": "bag",
+          "vocabKey": "bag",
+          "word": "bolsa",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "bolsas",
+          "pluralGap": null
+        },
+        {
+          "theme": "toys",
+          "noun": "balloon",
+          "vocabKey": "balloon",
+          "word": "globo",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "globos",
+          "pluralGap": null
+        },
+        {
+          "theme": "insects and bugs",
+          "noun": "bee",
+          "vocabKey": "bee",
+          "word": "abeja",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "abejas",
+          "pluralGap": null
+        },
+        {
+          "theme": "vehicles",
+          "noun": "bicycle",
+          "vocabKey": "bicycle",
+          "word": "bicicleta",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "bicicletas",
+          "pluralGap": null
+        },
+        {
+          "theme": "toys",
+          "noun": "blocks",
+          "vocabKey": "blocks",
+          "word": "bloques",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "bloques",
+          "pluralGap": null
+        },
+        {
+          "theme": "vehicles",
+          "noun": "boat",
+          "vocabKey": "boat",
+          "word": "bote",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "botes",
+          "pluralGap": null
+        },
+        {
+          "theme": "classroom",
+          "noun": "book",
+          "vocabKey": "book",
+          "word": "libro",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "libros",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "boots",
+          "vocabKey": "boots",
+          "word": "botas",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "botas",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "bottle",
+          "vocabKey": "bottle",
+          "word": "botella",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "botellas",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "broom",
+          "vocabKey": "broom",
+          "word": "escoba",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "escobas",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "bucket",
+          "vocabKey": "bucket",
+          "word": "cubeta",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "cubetas",
+          "pluralGap": null
+        },
+        {
+          "theme": "bakery",
+          "noun": "bun",
+          "vocabKey": "bun",
+          "word": "bollo",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "bollos",
+          "pluralGap": null
+        },
+        {
+          "theme": "vehicles",
+          "noun": "bus",
+          "vocabKey": "bus",
+          "word": "autobús",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "autobuses",
+          "pluralGap": null
+        },
+        {
+          "theme": "weather",
+          "noun": "cloud",
+          "vocabKey": "cloud",
+          "word": "nube",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "nubes",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "coat",
+          "vocabKey": "coat",
+          "word": "abrigo",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "abrigos",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "donkey",
+          "vocabKey": "donkey",
+          "word": "burro",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "burros",
+          "pluralGap": null
+        },
+        {
+          "theme": "music",
+          "noun": "drum",
+          "vocabKey": "drum",
+          "word": "tambor",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "tambores",
+          "pluralGap": null
+        },
+        {
+          "theme": "post office",
+          "noun": "envelope",
+          "vocabKey": "envelope",
+          "word": "sobre",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "sobres",
+          "pluralGap": null
+        },
+        {
+          "theme": "4th of July",
+          "noun": "flag",
+          "vocabKey": "flag",
+          "word": "bandera",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "banderas",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "goat",
+          "vocabKey": "goat",
+          "word": "cabra",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "cabras",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "hat",
+          "vocabKey": "hat",
+          "word": "sombrero",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "sombreros",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "horse",
+          "vocabKey": "horse",
+          "word": "caballo",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "caballos",
+          "pluralGap": null
+        },
+        {
+          "theme": "post office",
+          "noun": "mailbox",
+          "vocabKey": "mailbox",
+          "word": "buzón",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "buzones",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "mouth",
+          "vocabKey": "mouth",
+          "word": "boca",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "bocas",
+          "pluralGap": null
+        },
+        {
+          "theme": "vegetables",
+          "noun": "onion",
+          "vocabKey": "onion",
+          "word": "cebolla",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "cebollas",
+          "pluralGap": null
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "owl",
+          "vocabKey": "owl",
+          "word": "búho",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "búhos",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "scarf",
+          "vocabKey": "scarf",
+          "word": "bufanda",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "bufandas",
+          "pluralGap": null
+        },
+        {
+          "theme": "ocean life",
+          "noun": "shark",
+          "vocabKey": "shark",
+          "word": "tiburón",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "tiburones",
+          "pluralGap": null
+        },
+        {
+          "theme": "toys",
+          "noun": "robot",
+          "vocabKey": "robot",
+          "word": "robot",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "robots",
+          "pluralGap": null
+        },
+        {
+          "theme": "animals",
+          "noun": "wolf",
+          "vocabKey": "wolf",
+          "word": "lobo",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "lobos",
+          "pluralGap": null
+        },
+        {
+          "theme": "animals",
+          "noun": "zebra",
+          "vocabKey": "zebra",
+          "word": "cebra",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "cebras",
+          "pluralGap": null
+        },
+        {
+          "theme": "ocean life",
+          "noun": "whale",
+          "vocabKey": "whale",
+          "word": "ballena",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "b",
+          "side": "rule",
+          "plural": "ballenas",
+          "pluralGap": null
+        },
+        {
+          "theme": "vehicles",
+          "noun": "airplane",
+          "vocabKey": "airplane",
+          "word": "avión",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 1
+            }
+          ],
+          "g": "v",
+          "side": "contrast",
+          "plural": "aviones",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "candle",
+          "vocabKey": "candle",
+          "word": "vela",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "v",
+          "side": "contrast",
+          "plural": "velas",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "dress",
+          "vocabKey": "dress",
+          "word": "vestido",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "v",
+          "side": "contrast",
+          "plural": "vestidos",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "egg",
+          "vocabKey": "egg",
+          "word": "huevo",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "v",
+          "side": "contrast",
+          "plural": "huevos",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "fan",
+          "vocabKey": "fan",
+          "word": "ventilador",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "v",
+          "side": "contrast",
+          "plural": "ventiladores",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "grapes",
+          "vocabKey": "grapes",
+          "word": "uvas",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 1
+            }
+          ],
+          "g": "v",
+          "side": "contrast",
+          "plural": "uvas",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "key",
+          "vocabKey": "key",
+          "word": "llave",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "v",
+          "side": "contrast",
+          "plural": "llaves",
+          "pluralGap": null
+        },
+        {
+          "theme": "birds",
+          "noun": "ostrich",
+          "vocabKey": "ostrich",
+          "word": "avestruz",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 1
+            }
+          ],
+          "g": "v",
+          "side": "contrast",
+          "plural": "avestruces",
+          "pluralGap": null
+        },
+        {
+          "theme": "animals",
+          "noun": "sheep",
+          "vocabKey": "sheep",
+          "word": "oveja",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 1
+            }
+          ],
+          "g": "v",
+          "side": "contrast",
+          "plural": "ovejas",
+          "pluralGap": null
+        },
+        {
+          "theme": "vehicles",
+          "noun": "sailboat",
+          "vocabKey": "sailboat",
+          "word": "velero",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "v",
+          "side": "contrast",
+          "plural": "veleros",
+          "pluralGap": null
+        },
+        {
+          "theme": "music",
+          "noun": "violin",
+          "vocabKey": "violin",
+          "word": "violín",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "v",
+          "side": "contrast",
+          "plural": "violines",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "window",
+          "vocabKey": "window",
+          "word": "ventana",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "v",
+          "side": "contrast",
+          "plural": "ventanas",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "deer",
+          "vocabKey": "deer",
+          "word": "venado",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "v",
+          "side": "contrast",
+          "plural": "venados",
+          "pluralGap": null
+        },
+        {
+          "theme": "insects and bugs",
+          "noun": "wasp",
+          "vocabKey": "wasp",
+          "word": "avispa",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 1
+            }
+          ],
+          "g": "v",
+          "side": "contrast",
+          "plural": "avispas",
+          "pluralGap": null
+        },
+        {
+          "theme": "birds 2",
+          "noun": "crow",
+          "vocabKey": "crow",
+          "word": "cuervo",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "v",
+          "side": "contrast",
+          "plural": "cuervos",
+          "pluralGap": null
+        }
+      ],
+      "foils": [
+        {
+          "theme": "pets",
+          "noun": "cat",
+          "vocabKey": "cat",
+          "word": "gato"
+        },
+        {
+          "theme": "pets",
+          "noun": "dog",
+          "vocabKey": "dog",
+          "word": "perro"
+        },
+        {
+          "theme": "weather",
+          "noun": "sun",
+          "vocabKey": "sun",
+          "word": "sol"
+        },
+        {
+          "theme": "space",
+          "noun": "moon",
+          "vocabKey": "moon",
+          "word": "luna"
+        },
+        {
+          "theme": "fruits",
+          "noun": "pear",
+          "vocabKey": "pear",
+          "word": "pera"
+        },
+        {
+          "theme": "vehicles",
+          "noun": "train",
+          "vocabKey": "train",
+          "word": "tren"
+        }
+      ],
+      "refuse": {}
+    },
+    "c-qu": {
+      "id": "c-qu",
+      "head": "c y qu",
+      "chip": "c qu",
+      "band": "G2",
+      "gap": {
+        "kind": "regex",
+        "re": "qu(?=[ei])|c(?=[aou])",
+        "boxes": "wide"
+      },
+      "cands": [
+        "c",
+        "qu"
+      ],
+      "pair": [
+        "c",
+        "qu"
+      ],
+      "pairHead": "c o qu",
+      "proof": null,
+      "models": [
+        {
+          "vocabKey": "house",
+          "theme": "miscellaneous",
+          "noun": "house",
+          "word": "casa",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c"
+        },
+        {
+          "vocabKey": "cheese",
+          "theme": "At the Supermarket",
+          "noun": "cheese",
+          "word": "queso",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "qu"
+        }
+      ],
+      "items": [
+        {
+          "theme": "furniture",
+          "noun": "bed",
+          "vocabKey": "bed",
+          "word": "cama",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "camas",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "bell",
+          "vocabKey": "bell",
+          "word": "campana",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "campanas",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "basket",
+          "vocabKey": "basket",
+          "word": "canasta",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "canastas",
+          "pluralGap": null
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "camel",
+          "vocabKey": "camel",
+          "word": "camello",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "camellos",
+          "pluralGap": null
+        },
+        {
+          "theme": "vehicles",
+          "noun": "car",
+          "vocabKey": "car",
+          "word": "carro",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "carros",
+          "pluralGap": null
+        },
+        {
+          "theme": "pets",
+          "noun": "rabbit",
+          "vocabKey": "rabbit",
+          "word": "conejo",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "conejos",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "crown",
+          "vocabKey": "crown",
+          "word": "corona",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "coronas",
+          "pluralGap": null
+        },
+        {
+          "theme": "furniture",
+          "noun": "crib",
+          "vocabKey": "crib",
+          "word": "cuna",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "cunas",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "bucket",
+          "vocabKey": "bucket",
+          "word": "cubeta",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "cubetas",
+          "pluralGap": null
+        },
+        {
+          "theme": "space",
+          "noun": "comet",
+          "vocabKey": "comet",
+          "word": "cometa",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "cometas",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "shirt",
+          "vocabKey": "shirt",
+          "word": "camisa",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "camisas",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "face",
+          "vocabKey": "face",
+          "word": "cara",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "caras",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "lock",
+          "vocabKey": "lock",
+          "word": "candado",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "candados",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "spoon",
+          "vocabKey": "spoon",
+          "word": "cuchara",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "cucharas",
+          "pluralGap": null
+        },
+        {
+          "theme": "classroom",
+          "noun": "notebook",
+          "vocabKey": "notebook",
+          "word": "cuaderno",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "cuadernos",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "crab",
+          "vocabKey": "crab",
+          "word": "cangrejo",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "cangrejos",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "necklace",
+          "vocabKey": "necklace",
+          "word": "collar",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "collares",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "rope",
+          "vocabKey": "rope",
+          "word": "cuerda",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "cuerdas",
+          "pluralGap": null
+        },
+        {
+          "theme": "space",
+          "noun": "rocket",
+          "vocabKey": "rocket",
+          "word": "cohete",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "cohetes",
+          "pluralGap": null
+        },
+        {
+          "theme": "vehicles",
+          "noun": "truck",
+          "vocabKey": "truck",
+          "word": "camión",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "camiones",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "cow",
+          "vocabKey": "cow",
+          "word": "vaca",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "vacas",
+          "pluralGap": null
+        },
+        {
+          "theme": "ocean life",
+          "noun": "seal",
+          "vocabKey": "seal",
+          "word": "foca",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "focas",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "rock",
+          "vocabKey": "rock",
+          "word": "roca",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "rocas",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "broom",
+          "vocabKey": "broom",
+          "word": "escoba",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "escobas",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "kitchen",
+          "vocabKey": "kitchen",
+          "word": "cocina",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "cocinas",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "sock",
+          "vocabKey": "sock",
+          "word": "calcetín",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "c",
+          "side": "rule",
+          "plural": "calcetines",
+          "pluralGap": null
+        },
+        {
+          "theme": "post office",
+          "noun": "package",
+          "vocabKey": "package",
+          "word": "paquete",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "qu",
+          "side": "contrast",
+          "plural": "paquetes",
+          "pluralGap": null
+        },
+        {
+          "theme": "insects and bugs",
+          "noun": "mosquito",
+          "vocabKey": "mosquito",
+          "word": "mosquito",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "qu",
+          "side": "contrast",
+          "plural": "mosquitos",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "forest",
+          "vocabKey": "forest",
+          "word": "bosque",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "qu",
+          "side": "contrast",
+          "plural": "bosques",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "skeleton",
+          "vocabKey": "skeleton",
+          "word": "esqueleto",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "qu",
+          "side": "contrast",
+          "plural": "esqueletos",
+          "pluralGap": null
+        },
+        {
+          "theme": "toys",
+          "noun": "blocks",
+          "vocabKey": "blocks",
+          "word": "bloques",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "qu",
+          "side": "contrast",
+          "plural": "bloques",
+          "pluralGap": null
+        },
+        {
+          "theme": "bakery",
+          "noun": "cupcake",
+          "vocabKey": "cupcake",
+          "word": "panquecito",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "qu",
+          "side": "contrast",
+          "plural": "panquecitos",
+          "pluralGap": null
+        }
+      ],
+      "foils": [
+        {
+          "theme": "weather",
+          "noun": "sun",
+          "vocabKey": "sun",
+          "word": "sol"
+        },
+        {
+          "theme": "space",
+          "noun": "moon",
+          "vocabKey": "moon",
+          "word": "luna"
+        },
+        {
+          "theme": "fruits",
+          "noun": "pear",
+          "vocabKey": "pear",
+          "word": "pera"
+        },
+        {
+          "theme": "vehicles",
+          "noun": "train",
+          "vocabKey": "train",
+          "word": "tren"
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "bear",
+          "vocabKey": "bear",
+          "word": "oso"
+        },
+        {
+          "theme": "weather",
+          "noun": "cloud",
+          "vocabKey": "cloud",
+          "word": "nube"
+        }
+      ],
+      "refuse": {}
+    },
+    "g-gu": {
+      "id": "g-gu",
+      "head": "g y gu",
+      "chip": "g gu",
+      "band": "G2",
+      "gap": {
+        "kind": "regex",
+        "re": "gu(?=[ei])|g(?=[aou])",
+        "boxes": "wide"
+      },
+      "cands": [
+        "g",
+        "gu"
+      ],
+      "pair": [
+        "g",
+        "gu"
+      ],
+      "pairHead": "g o gu",
+      "proof": null,
+      "models": [
+        {
+          "vocabKey": "cat",
+          "theme": "pets",
+          "noun": "cat",
+          "word": "gato",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "g"
+        },
+        {
+          "vocabKey": "guitar",
+          "theme": "music",
+          "noun": "guitar",
+          "word": "guitarra",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "gu"
+        }
+      ],
+      "items": [
+        {
+          "theme": "insects and bugs",
+          "noun": "ant",
+          "vocabKey": "ant",
+          "word": "hormiga",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "hormigas",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "beanie",
+          "vocabKey": "beanie",
+          "word": "gorro",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "gorros",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "cap",
+          "vocabKey": "cap",
+          "word": "gorra",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "gorras",
+          "pluralGap": null
+        },
+        {
+          "theme": "insects and bugs",
+          "noun": "caterpillar",
+          "vocabKey": "caterpillar",
+          "word": "oruga",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "orugas",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "coat",
+          "vocabKey": "coat",
+          "word": "abrigo",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "abrigos",
+          "pluralGap": null
+        },
+        {
+          "theme": "bakery",
+          "noun": "cookie",
+          "vocabKey": "cookie",
+          "word": "galleta",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "galletas",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "glove",
+          "vocabKey": "glove",
+          "word": "guante",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "guantes",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "goose",
+          "vocabKey": "goose",
+          "word": "ganso",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "gansos",
+          "pluralGap": null
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "gorilla",
+          "vocabKey": "gorilla",
+          "word": "gorila",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "gorilas",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "hen",
+          "vocabKey": "hen",
+          "word": "gallina",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "gallinas",
+          "pluralGap": null
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "jaguar",
+          "vocabKey": "jaguar",
+          "word": "jaguar",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "jaguares",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "juice",
+          "vocabKey": "juice",
+          "word": "jugo",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "jugos",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "lake",
+          "vocabKey": "lake",
+          "word": "lago",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "lagos",
+          "pluralGap": null
+        },
+        {
+          "theme": "vegetables",
+          "noun": "lettuce",
+          "vocabKey": "lettuce",
+          "word": "lechuga",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "lechugas",
+          "pluralGap": null
+        },
+        {
+          "theme": "pets",
+          "noun": "lizard",
+          "vocabKey": "lizard",
+          "word": "lagarto",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "lagartos",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "present",
+          "vocabKey": "present",
+          "word": "regalo",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "regalos",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "rooster",
+          "vocabKey": "rooster",
+          "word": "gallo",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "gallos",
+          "pluralGap": null
+        },
+        {
+          "theme": "pets",
+          "noun": "turtle",
+          "vocabKey": "turtle",
+          "word": "tortuga",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "tortugas",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "umbrella",
+          "vocabKey": "umbrella",
+          "word": "paraguas",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "paraguas",
+          "pluralGap": null
+        },
+        {
+          "theme": "birds 2",
+          "noun": "heron",
+          "vocabKey": "heron",
+          "word": "garza",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "g",
+          "side": "rule",
+          "plural": "garzas",
+          "pluralGap": null
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "cheetah",
+          "vocabKey": "cheetah",
+          "word": "guepardo",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "gu",
+          "side": "contrast",
+          "plural": "guepardos",
+          "pluralGap": null
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "eagle",
+          "vocabKey": "eagle",
+          "word": "águila",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 2
+            }
+          ],
+          "g": "gu",
+          "side": "contrast",
+          "plural": "águilas",
+          "pluralGap": null
+        },
+        {
+          "theme": "4th of July",
+          "noun": "hamburger",
+          "vocabKey": "hamburger",
+          "word": "hamburguesa",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 2
+            }
+          ],
+          "g": "gu",
+          "side": "contrast",
+          "plural": "hamburguesas",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "hose",
+          "vocabKey": "hose",
+          "word": "manguera",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "gu",
+          "side": "contrast",
+          "plural": "mangueras",
+          "pluralGap": null
+        },
+        {
+          "theme": "bakery",
+          "noun": "baguette",
+          "vocabKey": "baguette",
+          "word": "baguette",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "gu",
+          "side": "contrast",
+          "plural": "baguettes",
+          "pluralGap": null
+        }
+      ],
+      "foils": [
+        {
+          "theme": "weather",
+          "noun": "sun",
+          "vocabKey": "sun",
+          "word": "sol"
+        },
+        {
+          "theme": "space",
+          "noun": "moon",
+          "vocabKey": "moon",
+          "word": "luna"
+        },
+        {
+          "theme": "fruits",
+          "noun": "pear",
+          "vocabKey": "pear",
+          "word": "pera"
+        },
+        {
+          "theme": "vehicles",
+          "noun": "train",
+          "vocabKey": "train",
+          "word": "tren"
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "bear",
+          "vocabKey": "bear",
+          "word": "oso"
+        },
+        {
+          "theme": "weather",
+          "noun": "cloud",
+          "vocabKey": "cloud",
+          "word": "nube"
+        }
+      ],
+      "refuse": {}
+    },
+    "r-rr": {
+      "id": "r-rr",
+      "head": "r y rr",
+      "chip": "r rr",
+      "band": "G2",
+      "gap": {
+        "kind": "regex",
+        "re": "rr|(?<=[aeiouáéíóú])r(?=[aeiouáéíóú])",
+        "boxes": "wide"
+      },
+      "cands": [
+        "r",
+        "rr"
+      ],
+      "pair": [
+        "rr",
+        "r"
+      ],
+      "pairHead": "rr o r",
+      "proof": null,
+      "models": [
+        {
+          "vocabKey": "dog",
+          "theme": "pets",
+          "noun": "dog",
+          "word": "perro",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "rr"
+        },
+        {
+          "vocabKey": "pear",
+          "theme": "fruits",
+          "noun": "pear",
+          "word": "pera",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "r"
+        }
+      ],
+      "items": [
+        {
+          "theme": "clothing",
+          "noun": "beanie",
+          "vocabKey": "beanie",
+          "word": "gorro",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "rr",
+          "side": "rule",
+          "plural": "gorros",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "cap",
+          "vocabKey": "cap",
+          "word": "gorra",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "rr",
+          "side": "rule",
+          "plural": "gorras",
+          "pluralGap": null
+        },
+        {
+          "theme": "vehicles",
+          "noun": "car",
+          "vocabKey": "car",
+          "word": "carro",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "rr",
+          "side": "rule",
+          "plural": "carros",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "cart",
+          "vocabKey": "cart",
+          "word": "carrito",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "rr",
+          "side": "rule",
+          "plural": "carritos",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "donkey",
+          "vocabKey": "donkey",
+          "word": "burro",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "rr",
+          "side": "rule",
+          "plural": "burros",
+          "pluralGap": null
+        },
+        {
+          "theme": "space",
+          "noun": "earth",
+          "vocabKey": "earth",
+          "word": "tierra",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "rr",
+          "side": "rule",
+          "plural": "tierra",
+          "pluralGap": null
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "fox",
+          "vocabKey": "fox",
+          "word": "zorro",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "rr",
+          "side": "rule",
+          "plural": "zorros",
+          "pluralGap": null
+        },
+        {
+          "theme": "music",
+          "noun": "guitar",
+          "vocabKey": "guitar",
+          "word": "guitarra",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "rr",
+          "side": "rule",
+          "plural": "guitarras",
+          "pluralGap": null
+        },
+        {
+          "theme": "tools",
+          "noun": "handsaw",
+          "vocabKey": "handsaw",
+          "word": "serrucho",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "rr",
+          "side": "rule",
+          "plural": "serruchos",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "jug",
+          "vocabKey": "jug",
+          "word": "jarra",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "rr",
+          "side": "rule",
+          "plural": "jarras",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "rice",
+          "vocabKey": "rice",
+          "word": "arroz",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 2
+            }
+          ],
+          "g": "rr",
+          "side": "rule",
+          "plural": "arroz",
+          "pluralGap": null
+        },
+        {
+          "theme": "classroom",
+          "noun": "whiteboard",
+          "vocabKey": "whiteboard",
+          "word": "pizarrón",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "rr",
+          "side": "rule",
+          "plural": "pizarrones",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "calf",
+          "vocabKey": "calf",
+          "word": "becerro",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "rr",
+          "side": "rule",
+          "plural": "becerros",
+          "pluralGap": null
+        },
+        {
+          "theme": "summer",
+          "noun": "barbecue",
+          "vocabKey": "barbecue",
+          "word": "parrilla",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "rr",
+          "side": "rule",
+          "plural": "parrillas",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "bull",
+          "vocabKey": "bull",
+          "word": "toro",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "r",
+          "side": "contrast",
+          "plural": "toros",
+          "pluralGap": null
+        },
+        {
+          "theme": "insects and bugs",
+          "noun": "butterfly",
+          "vocabKey": "butterfly",
+          "word": "mariposa",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "r",
+          "side": "contrast",
+          "plural": "mariposas",
+          "pluralGap": null
+        },
+        {
+          "theme": "vegetables",
+          "noun": "carrot",
+          "vocabKey": "carrot",
+          "word": "zanahoria",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 1
+            }
+          ],
+          "g": "r",
+          "side": "contrast",
+          "plural": "zanahorias",
+          "pluralGap": null
+        },
+        {
+          "theme": "insects and bugs",
+          "noun": "caterpillar",
+          "vocabKey": "caterpillar",
+          "word": "oruga",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 1
+            }
+          ],
+          "g": "r",
+          "side": "contrast",
+          "plural": "orugas",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "ear",
+          "vocabKey": "ear",
+          "word": "oreja",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 1
+            }
+          ],
+          "g": "r",
+          "side": "contrast",
+          "plural": "orejas",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "face",
+          "vocabKey": "face",
+          "word": "cara",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "r",
+          "side": "contrast",
+          "plural": "caras",
+          "pluralGap": null
+        },
+        {
+          "theme": "animals",
+          "noun": "giraffe",
+          "vocabKey": "giraffe",
+          "word": "jirafa",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "r",
+          "side": "contrast",
+          "plural": "jirafas",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "hat",
+          "vocabKey": "hat",
+          "word": "sombrero",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 1
+            }
+          ],
+          "g": "r",
+          "side": "contrast",
+          "plural": "sombreros",
+          "pluralGap": null
+        },
+        {
+          "theme": "pets",
+          "noun": "parrot",
+          "vocabKey": "parrot",
+          "word": "loro",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "r",
+          "side": "contrast",
+          "plural": "loros",
+          "pluralGap": null
+        },
+        {
+          "theme": "fruits",
+          "noun": "orange",
+          "vocabKey": "orange",
+          "word": "naranja",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "r",
+          "side": "contrast",
+          "plural": "naranjas",
+          "pluralGap": null
+        },
+        {
+          "theme": "summer",
+          "noun": "sand",
+          "vocabKey": "sand",
+          "word": "arena",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 1
+            }
+          ],
+          "g": "r",
+          "side": "contrast",
+          "plural": "arena",
+          "pluralGap": null
+        },
+        {
+          "theme": "classroom",
+          "noun": "scissors",
+          "vocabKey": "scissors",
+          "word": "tijeras",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "r",
+          "side": "contrast",
+          "plural": "tijeras",
+          "pluralGap": null
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "snail",
+          "vocabKey": "snail",
+          "word": "caracol",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "r",
+          "side": "contrast",
+          "plural": "caracoles",
+          "pluralGap": null
+        },
+        {
+          "theme": "insects and bugs",
+          "noun": "spider",
+          "vocabKey": "spider",
+          "word": "araña",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 1
+            }
+          ],
+          "g": "r",
+          "side": "contrast",
+          "plural": "arañas",
+          "pluralGap": null
+        },
+        {
+          "theme": "flowers",
+          "noun": "sunflower",
+          "vocabKey": "sunflower",
+          "word": "girasol",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "r",
+          "side": "contrast",
+          "plural": "girasoles",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "lantern",
+          "vocabKey": "lantern",
+          "word": "farol",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "r",
+          "side": "contrast",
+          "plural": "faroles",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "crown",
+          "vocabKey": "crown",
+          "word": "corona",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "r",
+          "side": "contrast",
+          "plural": "coronas",
+          "pluralGap": null
+        }
+      ],
+      "foils": [
+        {
+          "theme": "pets",
+          "noun": "cat",
+          "vocabKey": "cat",
+          "word": "gato"
+        },
+        {
+          "theme": "weather",
+          "noun": "sun",
+          "vocabKey": "sun",
+          "word": "sol"
+        },
+        {
+          "theme": "space",
+          "noun": "moon",
+          "vocabKey": "moon",
+          "word": "luna"
+        },
+        {
+          "theme": "ocean life",
+          "noun": "fish",
+          "vocabKey": "fish",
+          "word": "pez"
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "bear",
+          "vocabKey": "bear",
+          "word": "oso"
+        },
+        {
+          "theme": "weather",
+          "noun": "cloud",
+          "vocabKey": "cloud",
+          "word": "nube"
+        }
+      ],
+      "refuse": {}
+    },
+    "ll-y": {
+      "id": "ll-y",
+      "head": "ll y y",
+      "chip": "ll y",
+      "band": "G2",
+      "gap": {
+        "kind": "regex",
+        "re": "ll|y(?=[aeiou])",
+        "boxes": "wide"
+      },
+      "cands": [
+        "ll",
+        "y"
+      ],
+      "pair": [
+        "ll",
+        "y"
+      ],
+      "pairHead": "ll o y",
+      "proof": null,
+      "models": [
+        {
+          "vocabKey": "key",
+          "theme": "around the house",
+          "noun": "key",
+          "word": "llave",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "ll"
+        },
+        {
+          "vocabKey": "beach",
+          "theme": "summer",
+          "noun": "beach",
+          "word": "playa",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "y"
+        }
+      ],
+      "items": [
+        {
+          "theme": "zoo animals",
+          "noun": "armadillo",
+          "vocabKey": "armadillo",
+          "word": "armadillo",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "armadillos",
+          "pluralGap": null
+        },
+        {
+          "theme": "furniture",
+          "noun": "armchair",
+          "vocabKey": "armchair",
+          "word": "sillón",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "sillones",
+          "pluralGap": null
+        },
+        {
+          "theme": "tools",
+          "noun": "bolt",
+          "vocabKey": "bolt",
+          "word": "tornillo",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "tornillos",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "bottle",
+          "vocabKey": "bottle",
+          "word": "botella",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "botellas",
+          "pluralGap": null
+        },
+        {
+          "theme": "bakery",
+          "noun": "bun",
+          "vocabKey": "bun",
+          "word": "bollo",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "bollos",
+          "pluralGap": null
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "camel",
+          "vocabKey": "camel",
+          "word": "camello",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "camellos",
+          "pluralGap": null
+        },
+        {
+          "theme": "furniture",
+          "noun": "chair",
+          "vocabKey": "chair",
+          "word": "silla",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "sillas",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "chick",
+          "vocabKey": "chick",
+          "word": "pollito",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "pollitos",
+          "pluralGap": null
+        },
+        {
+          "theme": "insects and bugs",
+          "noun": "cricket",
+          "vocabKey": "cricket",
+          "word": "grillo",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "grillos",
+          "pluralGap": null
+        },
+        {
+          "theme": "bakery",
+          "noun": "cookie",
+          "vocabKey": "cookie",
+          "word": "galleta",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "galletas",
+          "pluralGap": null
+        },
+        {
+          "theme": "tools",
+          "noun": "hammer",
+          "vocabKey": "hammer",
+          "word": "martillo",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "martillos",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "hen",
+          "vocabKey": "hen",
+          "word": "gallina",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "gallinas",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "horse",
+          "vocabKey": "horse",
+          "word": "caballo",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "caballos",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "knife",
+          "vocabKey": "knife",
+          "word": "cuchillo",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "cuchillos",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "llama",
+          "vocabKey": "llama",
+          "word": "llama",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "llamas",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "medal",
+          "vocabKey": "medal",
+          "word": "medalla",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "medallas",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "necklace",
+          "vocabKey": "necklace",
+          "word": "collar",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "collares",
+          "pluralGap": null
+        },
+        {
+          "theme": "vegetables",
+          "noun": "onion",
+          "vocabKey": "onion",
+          "word": "cebolla",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "cebollas",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "pot",
+          "vocabKey": "pot",
+          "word": "olla",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "ollas",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "rake",
+          "vocabKey": "rake",
+          "word": "rastrillo",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "rastrillos",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "ring",
+          "vocabKey": "ring",
+          "word": "anillo",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "anillos",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "rooster",
+          "vocabKey": "rooster",
+          "word": "gallo",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "gallos",
+          "pluralGap": null
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "squirrel",
+          "vocabKey": "squirrel",
+          "word": "ardilla",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "ardillas",
+          "pluralGap": null
+        },
+        {
+          "theme": "post office",
+          "noun": "stamp",
+          "vocabKey": "stamp",
+          "word": "sello",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "sellos",
+          "pluralGap": null
+        },
+        {
+          "theme": "shapes",
+          "noun": "star",
+          "vocabKey": "star",
+          "word": "estrella",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "estrellas",
+          "pluralGap": null
+        },
+        {
+          "theme": "ocean life",
+          "noun": "whale",
+          "vocabKey": "whale",
+          "word": "ballena",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "ballenas",
+          "pluralGap": null
+        },
+        {
+          "theme": "toys",
+          "noun": "crayons",
+          "vocabKey": "crayons",
+          "word": "crayones",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "y",
+          "side": "contrast",
+          "plural": "crayones",
+          "pluralGap": null
+        },
+        {
+          "theme": "fruits",
+          "noun": "papaya",
+          "vocabKey": "papaya",
+          "word": "papaya",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "y",
+          "side": "contrast",
+          "plural": "papayas",
+          "pluralGap": null
+        },
+        {
+          "theme": "ocean life",
+          "noun": "ray",
+          "vocabKey": "ray",
+          "word": "raya",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "y",
+          "side": "contrast",
+          "plural": "rayas",
+          "pluralGap": null
+        },
+        {
+          "theme": "vehicles",
+          "noun": "yacht",
+          "vocabKey": "yacht",
+          "word": "yate",
+          "gaps": [
+            {
+              "from": 0,
+              "len": 1
+            }
+          ],
+          "g": "y",
+          "side": "contrast",
+          "plural": "yates",
+          "pluralGap": null
+        }
+      ],
+      "foils": [
+        {
+          "theme": "pets",
+          "noun": "cat",
+          "vocabKey": "cat",
+          "word": "gato"
+        },
+        {
+          "theme": "weather",
+          "noun": "sun",
+          "vocabKey": "sun",
+          "word": "sol"
+        },
+        {
+          "theme": "space",
+          "noun": "moon",
+          "vocabKey": "moon",
+          "word": "luna"
+        },
+        {
+          "theme": "vehicles",
+          "noun": "train",
+          "vocabKey": "train",
+          "word": "tren"
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "bear",
+          "vocabKey": "bear",
+          "word": "oso"
+        },
+        {
+          "theme": "weather",
+          "noun": "cloud",
+          "vocabKey": "cloud",
+          "word": "nube"
+        }
+      ],
+      "refuse": {}
+    },
+    "plural-tilde": {
+      "id": "plural-tilde",
+      "head": "de -ón a -ones",
+      "chip": "ones ines",
+      "band": "G2",
+      "gap": {
+        "kind": "plural",
+        "re": "(ones|ines|enes|anes|uses)$",
+        "stem": "[áéíóú][ns]$",
+        "boxes": "wide"
+      },
+      "cands": [
+        "ones",
+        "ines",
+        "enes",
+        "anes",
+        "uses"
+      ],
+      "pair": null,
+      "proof": {
+        "kind": "plural",
+        "re": "(ones|ines|enes|anes|uses)$"
+      },
+      "models": [
+        {
+          "vocabKey": "mouse",
+          "theme": "pets",
+          "noun": "mouse",
+          "word": "ratón",
+          "plural": "ratones",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 4
+            }
+          ],
+          "g": "ones"
+        },
+        {
+          "vocabKey": "dolphin",
+          "theme": "ocean life",
+          "noun": "dolphin",
+          "word": "delfín",
+          "plural": "delfines",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 4
+            }
+          ],
+          "g": "ines"
+        }
+      ],
+      "items": [
+        {
+          "theme": "vehicles",
+          "noun": "airplane",
+          "vocabKey": "airplane",
+          "word": "avión",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 4
+            }
+          ],
+          "g": "ones",
+          "side": "rule",
+          "plural": "aviones",
+          "pluralGap": null
+        },
+        {
+          "theme": "furniture",
+          "noun": "armchair",
+          "vocabKey": "armchair",
+          "word": "sillón",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 4
+            }
+          ],
+          "g": "ones",
+          "side": "rule",
+          "plural": "sillones",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "belt",
+          "vocabKey": "belt",
+          "word": "cinturón",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 4
+            }
+          ],
+          "g": "ones",
+          "side": "rule",
+          "plural": "cinturones",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "bowl",
+          "vocabKey": "bowl",
+          "word": "tazón",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 4
+            }
+          ],
+          "g": "ones",
+          "side": "rule",
+          "plural": "tazones",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "cushion",
+          "vocabKey": "cushion",
+          "word": "cojín",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 4
+            }
+          ],
+          "g": "ines",
+          "side": "rule",
+          "plural": "cojines",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "dragon",
+          "vocabKey": "dragon",
+          "word": "dragón",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 4
+            }
+          ],
+          "g": "ones",
+          "side": "rule",
+          "plural": "dragones",
+          "pluralGap": null
+        },
+        {
+          "theme": "spring",
+          "noun": "garden",
+          "vocabKey": "garden",
+          "word": "jardín",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 4
+            }
+          ],
+          "g": "ines",
+          "side": "rule",
+          "plural": "jardines",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "gate",
+          "vocabKey": "gate",
+          "word": "portón",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 4
+            }
+          ],
+          "g": "ones",
+          "side": "rule",
+          "plural": "portones",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "ham",
+          "vocabKey": "ham",
+          "word": "jamón",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 4
+            }
+          ],
+          "g": "ones",
+          "side": "rule",
+          "plural": "jamones",
+          "pluralGap": null
+        },
+        {
+          "theme": "fruits",
+          "noun": "lemon",
+          "vocabKey": "lemon",
+          "word": "limón",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 4
+            }
+          ],
+          "g": "ones",
+          "side": "rule",
+          "plural": "limones",
+          "pluralGap": null
+        },
+        {
+          "theme": "post office",
+          "noun": "mailbox",
+          "vocabKey": "mailbox",
+          "word": "buzón",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 4
+            }
+          ],
+          "g": "ones",
+          "side": "rule",
+          "plural": "buzones",
+          "pluralGap": null
+        },
+        {
+          "theme": "breakfast",
+          "noun": "melon",
+          "vocabKey": "melon",
+          "word": "melón",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 4
+            }
+          ],
+          "g": "ones",
+          "side": "rule",
+          "plural": "melones",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "pan",
+          "vocabKey": "pan",
+          "word": "sartén",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 4
+            }
+          ],
+          "g": "enes",
+          "side": "rule",
+          "plural": "sartenes",
+          "pluralGap": null
+        },
+        {
+          "theme": "ocean life",
+          "noun": "shark",
+          "vocabKey": "shark",
+          "word": "tiburón",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 4
+            }
+          ],
+          "g": "ones",
+          "side": "rule",
+          "plural": "tiburones",
+          "pluralGap": null
+        },
+        {
+          "theme": "ocean life",
+          "noun": "shrimp",
+          "vocabKey": "shrimp",
+          "word": "camarón",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 4
+            }
+          ],
+          "g": "ones",
+          "side": "rule",
+          "plural": "camarones",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "sock",
+          "vocabKey": "sock",
+          "word": "calcetín",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 4
+            }
+          ],
+          "g": "ines",
+          "side": "rule",
+          "plural": "calcetines",
+          "pluralGap": null
+        },
+        {
+          "theme": "birds 2",
+          "noun": "toucan",
+          "vocabKey": "toucan",
+          "word": "tucán",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 4
+            }
+          ],
+          "g": "anes",
+          "side": "rule",
+          "plural": "tucanes",
+          "pluralGap": null
+        },
+        {
+          "theme": "vehicles",
+          "noun": "truck",
+          "vocabKey": "truck",
+          "word": "camión",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 4
+            }
+          ],
+          "g": "ones",
+          "side": "rule",
+          "plural": "camiones",
+          "pluralGap": null
+        },
+        {
+          "theme": "flowers",
+          "noun": "tulip",
+          "vocabKey": "tulip",
+          "word": "tulipán",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 4
+            }
+          ],
+          "g": "anes",
+          "side": "rule",
+          "plural": "tulipanes",
+          "pluralGap": null
+        },
+        {
+          "theme": "music",
+          "noun": "violin",
+          "vocabKey": "violin",
+          "word": "violín",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 4
+            }
+          ],
+          "g": "ines",
+          "side": "rule",
+          "plural": "violines",
+          "pluralGap": null
+        },
+        {
+          "theme": "vehicles",
+          "noun": "bus",
+          "vocabKey": "bus",
+          "word": "autobús",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 4
+            }
+          ],
+          "g": "uses",
+          "side": "rule",
+          "plural": "autobuses",
+          "pluralGap": null
+        },
+        {
+          "theme": "reptiles and Amphibians",
+          "noun": "alligator",
+          "vocabKey": "alligator",
+          "word": "caimán",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 4
+            }
+          ],
+          "g": "anes",
+          "side": "rule",
+          "plural": "caimanes",
+          "pluralGap": null
+        },
+        {
+          "theme": "music",
+          "noun": "saxophone",
+          "vocabKey": "saxophone",
+          "word": "saxofón",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 4
+            }
+          ],
+          "g": "ones",
+          "side": "rule",
+          "plural": "saxofones",
+          "pluralGap": null
+        }
+      ],
+      "foils": [
+        {
+          "theme": "pets",
+          "noun": "cat",
+          "vocabKey": "cat",
+          "word": "gato"
+        },
+        {
+          "theme": "weather",
+          "noun": "sun",
+          "vocabKey": "sun",
+          "word": "sol"
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "bear",
+          "vocabKey": "bear",
+          "word": "oso"
+        },
+        {
+          "theme": "weather",
+          "noun": "cloud",
+          "vocabKey": "cloud",
+          "word": "nube"
+        }
+      ],
+      "refuse": {
+        "base": "una regla de plural: el singular no lleva las letras de la regla",
+        "choice": "regla de plural",
+        "detective": "regla de plural",
+        "bins": "regla de plural",
+        "anchor": "regla de plural"
+      }
+    }
+  },
+  "strings": {
+    "G2-315": {
+      "title": "Reglas de ortografía: {UNIT}",
+      "instruction": "Mira el dibujo y di la palabra. Escribe en la caja punteada la letra o las letras que faltan y usa la regla del recuadro."
+    },
+    "G2-324": {
+      "title": "¿Cuál es? Elige la letra correcta: {UNIT}",
+      "instruction": "Mira el dibujo y lee la palabra. Rodea las letras correctas debajo y escríbelas en la caja punteada."
+    },
+    "G2-325": {
+      "title": "Detective de ortografía: {UNIT}",
+      "instruction": "Lee cada palabra. Busca las letras de la regla, rodéalas en la palabra y cópialas en la caja pequeña."
+    },
+    "G2-326": {
+      "title": "Clasifica las palabras según su ortografía: {UNIT}",
+      "instruction": "Di el nombre de cada dibujo. Escríbelo en la caja de su ortografía, una palabra en cada línea."
+    },
+    "G2-327": {
+      "title": "Escribe la palabra completa: {UNIT}",
+      "instruction": "Las letras de la regla están en naranja. Di el nombre del dibujo y escribe las demás letras en las casillas."
+    },
+    "G2-328": {
+      "title": "Plurales: {UNIT}",
+      "instruction": "Lee la palabra en singular. Escribe el plural en las casillas. Fíjate en cómo cambia la escritura."
+    }
+  }
+}

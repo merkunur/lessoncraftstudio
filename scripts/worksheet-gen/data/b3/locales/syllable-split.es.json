@@ -1,0 +1,41 @@
+{
+  "mark": "bar",
+  "hyphen": "-",
+  "casing": "lower",
+  "kings": true,
+  "vowelExtra": [
+    "á",
+    "é",
+    "í",
+    "ó",
+    "ú",
+    "ü"
+  ],
+  "strictPool": null,
+  "refuse": {
+    "finalMuteE": false
+  },
+  "sortLabels": {
+    "2": "bisílabas",
+    "3": "trisílabas"
+  },
+  "example": {
+    "vocabKey": "camel"
+  },
+  "instructionTavutettu": null,
+  "exclude": [
+    "beach",
+    "beech-tree",
+    "crayon",
+    "crayons",
+    "dragon-fruit",
+    "guinea-pig",
+    "hockey",
+    "kayak",
+    "macaw",
+    "papaya",
+    "projector",
+    "ray",
+    "stingray"
+  ]
+}

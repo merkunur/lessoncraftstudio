@@ -1,0 +1,104 @@
+{
+  "cardCase": "lower",
+  "articleStyle": {
+    "enabled": true,
+    "level": 2,
+    "dots": null,
+    "elision": "print",
+    "elisionChip": "l'",
+    "legend": null
+  },
+  "plural": {
+    "enabled": true,
+    "clones": 3
+  },
+  "bilingual": {
+    "partnerExemplar": "en",
+    "hostName": "français",
+    "partnerNames": {
+      "en": "anglais",
+      "de": "allemand",
+      "es": "espagnol",
+      "pt": "portugais",
+      "it": "italien",
+      "nl": "néerlandais",
+      "sv": "suédois",
+      "da": "danois",
+      "no": "norvégien",
+      "fi": "finnois"
+    },
+    "legendSep": " · "
+  },
+  "syllable": {
+    "enabled": true,
+    "mark": "arc",
+    "hyphen": "-",
+    "strictPool": false,
+    "exclude": [
+      "bacon",
+      "bagel",
+      "baseball",
+      "basketball",
+      "brownie",
+      "bulldozer",
+      "camping",
+      "ferry",
+      "frisbee",
+      "hamburger",
+      "leggings",
+      "muffin",
+      "popcorn",
+      "pudding",
+      "rudolph",
+      "onion"
+    ]
+  },
+  "twinLayout": {
+    "cols": 4,
+    "blockRows": 2
+  },
+  "exclude": [
+    "plum",
+    "cranberry",
+    "persimmon",
+    "nectarine",
+    "clementine",
+    "scooter",
+    "subway",
+    "pants",
+    "slippers",
+    "stamp",
+    "timer",
+    "turnip",
+    "pelican",
+    "mixer",
+    "pottery",
+    "stretcher"
+  ],
+  "strings": {
+    "K-324": {
+      "title": "Imagier à découper",
+      "instruction": "Découpe les cartes en suivant les pointillés. Dis le nom de chaque image, puis lis le mot."
+    },
+    "twin": {
+      "title": "Memory : cartes images et cartes mots",
+      "instruction": "Découpe les seize cartes. Pose chaque mot sous son image, ou retourne toutes les cartes et joue au memory."
+    },
+    "article": {
+      "title": "Le ou la : cartes avec l'article",
+      "instruction": "Découpe les huit cartes. Dis chaque mot avec son article, comme il est écrit sur la carte."
+    },
+    "plural": {
+      "title": "Cartes singulier et pluriel : un ou plusieurs",
+      "instruction": "Découpe les cartes. Dis le mot pour un seul, puis le mot pour plusieurs, et associe les deux cartes."
+    },
+    "bilingual": {
+      "title": "Imagier bilingue : français et anglais",
+      "instruction": "Découpe les huit cartes. Dis le mot en français, puis en anglais, et garde les cartes pour ton mur de mots."
+    },
+    "syllable": {
+      "title": "Cartes de lecture : mots découpés en syllabes",
+      "instruction": "Découpe les huit cartes. Lis chaque mot syllabe par syllabe, puis dis le mot en entier."
+    }
+  }
+}

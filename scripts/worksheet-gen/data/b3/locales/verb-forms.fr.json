@@ -1,0 +1,955 @@
+{
+  "head": "Conjugaison au présent : verbes en -er",
+  "mode": "persons",
+  "band": "G2",
+  "exemplar": "present",
+  "columns": [
+    {
+      "key": "je",
+      "label": "je"
+    },
+    {
+      "key": "tu",
+      "label": "tu"
+    },
+    {
+      "key": "il",
+      "label": "il/elle"
+    },
+    {
+      "key": "nous",
+      "label": "nous"
+    },
+    {
+      "key": "vous",
+      "label": "vous"
+    },
+    {
+      "key": "ils",
+      "label": "ils/elles"
+    }
+  ],
+  "units": [
+    {
+      "key": "present",
+      "kind": "tense",
+      "label": "présent",
+      "band": "G2"
+    }
+  ],
+  "poolMap": {},
+  "irregularGroups": [
+    "3e"
+  ],
+  "matchPersons": [
+    "je",
+    "tu",
+    "nous",
+    "vous",
+    "ils"
+  ],
+  "verbs": [
+    {
+      "inf": "sauter",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "jumping"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "present": {
+          "je": "saute",
+          "tu": "sautes",
+          "il": "saute",
+          "nous": "sautons",
+          "vous": "sautez",
+          "ils": "sautent"
+        }
+      }
+    },
+    {
+      "inf": "manger",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "present": {
+          "je": "mange",
+          "tu": "manges",
+          "il": "mange",
+          "nous": "mangeons",
+          "vous": "mangez",
+          "ils": "mangent"
+        }
+      }
+    },
+    {
+      "inf": "chanter",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "occupations",
+        "noun": "singer"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "present": {
+          "je": "chante",
+          "tu": "chantes",
+          "il": "chante",
+          "nous": "chantons",
+          "vous": "chantez",
+          "ils": "chantent"
+        }
+      }
+    },
+    {
+      "inf": "jouer",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "present": {
+          "je": "joue",
+          "tu": "joues",
+          "il": "joue",
+          "nous": "jouons",
+          "vous": "jouez",
+          "ils": "jouent"
+        }
+      }
+    },
+    {
+      "inf": "marcher",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "hiking"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "present": {
+          "je": "marche",
+          "tu": "marches",
+          "il": "marche",
+          "nous": "marchons",
+          "vous": "marchez",
+          "ils": "marchent"
+        }
+      }
+    },
+    {
+      "inf": "regarder",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "present": {
+          "je": "regarde",
+          "tu": "regardes",
+          "il": "regarde",
+          "nous": "regardons",
+          "vous": "regardez",
+          "ils": "regardent"
+        }
+      }
+    },
+    {
+      "inf": "nager",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "present": {
+          "je": "nage",
+          "tu": "nages",
+          "il": "nage",
+          "nous": "nageons",
+          "vous": "nagez",
+          "ils": "nagent"
+        }
+      }
+    },
+    {
+      "inf": "grimper",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "present": {
+          "je": "grimpe",
+          "tu": "grimpes",
+          "il": "grimpe",
+          "nous": "grimpons",
+          "vous": "grimpez",
+          "ils": "grimpent"
+        }
+      }
+    },
+    {
+      "inf": "dessiner",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "present": {
+          "je": "dessine",
+          "tu": "dessines",
+          "il": "dessine",
+          "nous": "dessinons",
+          "vous": "dessinez",
+          "ils": "dessinent"
+        }
+      }
+    },
+    {
+      "inf": "laver",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "present": {
+          "je": "lave",
+          "tu": "laves",
+          "il": "lave",
+          "nous": "lavons",
+          "vous": "lavez",
+          "ils": "lavent"
+        }
+      }
+    },
+    {
+      "inf": "pousser",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "present": {
+          "je": "pousse",
+          "tu": "pousses",
+          "il": "pousse",
+          "nous": "poussons",
+          "vous": "poussez",
+          "ils": "poussent"
+        }
+      }
+    },
+    {
+      "inf": "tirer",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "present": {
+          "je": "tire",
+          "tu": "tires",
+          "il": "tire",
+          "nous": "tirons",
+          "vous": "tirez",
+          "ils": "tirent"
+        }
+      }
+    },
+    {
+      "inf": "lancer",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "present": {
+          "je": "lance",
+          "tu": "lances",
+          "il": "lance",
+          "nous": "lançons",
+          "vous": "lancez",
+          "ils": "lancent"
+        }
+      }
+    },
+    {
+      "inf": "attraper",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {
+        "je": "j'"
+      },
+      "forms": {
+        "present": {
+          "je": "attrape",
+          "tu": "attrapes",
+          "il": "attrape",
+          "nous": "attrapons",
+          "vous": "attrapez",
+          "ils": "attrapent"
+        }
+      }
+    },
+    {
+      "inf": "danser",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": {
+        "theme": "activities",
+        "noun": "dancing"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "present": {
+          "je": "danse",
+          "tu": "danses",
+          "il": "danse",
+          "nous": "dansons",
+          "vous": "dansez",
+          "ils": "dansent"
+        }
+      }
+    },
+    {
+      "inf": "chuchoter",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "present": {
+          "je": "chuchote",
+          "tu": "chuchotes",
+          "il": "chuchote",
+          "nous": "chuchotons",
+          "vous": "chuchotez",
+          "ils": "chuchotent"
+        }
+      }
+    },
+    {
+      "inf": "écouter",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {
+        "je": "j'"
+      },
+      "forms": {
+        "present": {
+          "je": "écoute",
+          "tu": "écoutes",
+          "il": "écoute",
+          "nous": "écoutons",
+          "vous": "écoutez",
+          "ils": "écoutent"
+        }
+      }
+    },
+    {
+      "inf": "porter",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "present": {
+          "je": "porte",
+          "tu": "portes",
+          "il": "porte",
+          "nous": "portons",
+          "vous": "portez",
+          "ils": "portent"
+        }
+      }
+    },
+    {
+      "inf": "ramasser",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "present": {
+          "je": "ramasse",
+          "tu": "ramasses",
+          "il": "ramasse",
+          "nous": "ramassons",
+          "vous": "ramassez",
+          "ils": "ramassent"
+        }
+      }
+    },
+    {
+      "inf": "crier",
+      "group": "er",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "present": {
+          "je": "crie",
+          "tu": "cries",
+          "il": "crie",
+          "nous": "crions",
+          "vous": "criez",
+          "ils": "crient"
+        }
+      }
+    }
+  ],
+  "irregularCore": [
+    {
+      "inf": "être",
+      "pic": null,
+      "labelOverride": {},
+      "forms": {
+        "present": {
+          "je": "suis",
+          "tu": "es",
+          "il": "est",
+          "nous": "sommes",
+          "vous": "êtes",
+          "ils": "sont"
+        }
+      }
+    },
+    {
+      "inf": "avoir",
+      "pic": null,
+      "labelOverride": {
+        "je": "j'"
+      },
+      "forms": {
+        "present": {
+          "je": "ai",
+          "tu": "as",
+          "il": "a",
+          "nous": "avons",
+          "vous": "avez",
+          "ils": "ont"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "Le matin, je {form} dans le jardin.",
+      "col": "je",
+      "unit": "present",
+      "fits": [
+        "sauter",
+        "chanter",
+        "danser",
+        "marcher",
+        "jouer",
+        "dessiner",
+        "crier"
+      ],
+      "subjectLiteral": "je",
+      "pic": null
+    },
+    {
+      "id": "f02",
+      "text": "Tu {form} avec ton frère.",
+      "col": "tu",
+      "unit": "present",
+      "fits": [
+        "jouer",
+        "chanter",
+        "danser",
+        "sauter",
+        "marcher",
+        "dessiner",
+        "nager"
+      ],
+      "subjectLiteral": "Tu",
+      "pic": null
+    },
+    {
+      "id": "f03",
+      "text": "Léa {form} dans la cour.",
+      "col": "il",
+      "unit": "present",
+      "fits": [
+        "sauter",
+        "danser",
+        "chanter",
+        "marcher",
+        "jouer",
+        "crier",
+        "dessiner"
+      ],
+      "subjectLiteral": "Léa",
+      "pic": null
+    },
+    {
+      "id": "f04",
+      "text": "Nous {form} à l'école.",
+      "col": "nous",
+      "unit": "present",
+      "fits": [
+        "chanter",
+        "danser",
+        "jouer",
+        "dessiner",
+        "écouter",
+        "manger",
+        "être"
+      ],
+      "subjectLiteral": "Nous",
+      "pic": null
+    },
+    {
+      "id": "f05",
+      "text": "Vous {form} dans le parc.",
+      "col": "vous",
+      "unit": "present",
+      "fits": [
+        "jouer",
+        "marcher",
+        "sauter",
+        "danser",
+        "chanter"
+      ],
+      "subjectLiteral": "Vous",
+      "pic": null
+    },
+    {
+      "id": "f06",
+      "text": "Hugo et Emma {form} en classe.",
+      "col": "ils",
+      "unit": "present",
+      "fits": [
+        "chanter",
+        "dessiner",
+        "écouter",
+        "jouer",
+        "danser",
+        "être"
+      ],
+      "subjectLiteral": "Hugo et Emma",
+      "pic": null
+    },
+    {
+      "id": "f07",
+      "text": "Le soir, Chloé {form} la vaisselle.",
+      "col": "il",
+      "unit": "present",
+      "fits": [
+        "laver"
+      ],
+      "subjectLiteral": "Chloé",
+      "pic": null
+    },
+    {
+      "id": "f08",
+      "text": "Louis {form} le ballon.",
+      "col": "il",
+      "unit": "present",
+      "fits": [
+        "lancer",
+        "attraper",
+        "pousser",
+        "ramasser",
+        "porter",
+        "regarder",
+        "tirer"
+      ],
+      "subjectLiteral": "Louis",
+      "pic": null
+    },
+    {
+      "id": "f09",
+      "text": "Nathan {form} un gros carton.",
+      "col": "il",
+      "unit": "present",
+      "fits": [
+        "porter",
+        "pousser",
+        "tirer",
+        "regarder",
+        "ramasser"
+      ],
+      "subjectLiteral": "Nathan",
+      "pic": null
+    },
+    {
+      "id": "f10",
+      "text": "Inès {form} une chanson.",
+      "col": "il",
+      "unit": "present",
+      "fits": [
+        "chanter",
+        "écouter"
+      ],
+      "subjectLiteral": "Inès",
+      "pic": null
+    },
+    {
+      "id": "f11",
+      "text": "Jules {form} un beau château.",
+      "col": "il",
+      "unit": "present",
+      "fits": [
+        "dessiner",
+        "regarder"
+      ],
+      "subjectLiteral": "Jules",
+      "pic": null
+    },
+    {
+      "id": "f12",
+      "text": "Vous {form} la musique.",
+      "col": "vous",
+      "unit": "present",
+      "fits": [
+        "écouter"
+      ],
+      "subjectLiteral": "Vous",
+      "pic": null
+    },
+    {
+      "id": "f13",
+      "text": "Ils {form} les feuilles mortes.",
+      "col": "ils",
+      "unit": "present",
+      "fits": [
+        "ramasser",
+        "regarder"
+      ],
+      "subjectLiteral": "Ils",
+      "pic": null
+    },
+    {
+      "id": "f14",
+      "text": "Tu {form} tout doucement.",
+      "col": "tu",
+      "unit": "present",
+      "fits": [
+        "chuchoter",
+        "marcher",
+        "chanter",
+        "danser"
+      ],
+      "subjectLiteral": "Tu",
+      "pic": null
+    },
+    {
+      "id": "f15",
+      "text": "Emma {form} très fort.",
+      "col": "il",
+      "unit": "present",
+      "fits": [
+        "crier",
+        "chanter",
+        "pousser",
+        "tirer",
+        "sauter"
+      ],
+      "subjectLiteral": "Emma",
+      "pic": null
+    },
+    {
+      "id": "f16",
+      "text": "Nous {form} une pomme.",
+      "col": "nous",
+      "unit": "present",
+      "fits": [
+        "manger",
+        "ramasser",
+        "regarder"
+      ],
+      "subjectLiteral": "Nous",
+      "pic": null
+    },
+    {
+      "id": "f17",
+      "text": "Le samedi, nous {form} à la piscine.",
+      "col": "nous",
+      "unit": "present",
+      "fits": [
+        "nager",
+        "sauter",
+        "jouer",
+        "être"
+      ],
+      "subjectLiteral": "nous",
+      "pic": null
+    },
+    {
+      "id": "f18",
+      "text": "Vous {form} sur le mur.",
+      "col": "vous",
+      "unit": "present",
+      "fits": [
+        "grimper",
+        "sauter",
+        "dessiner"
+      ],
+      "subjectLiteral": "Vous",
+      "pic": null
+    },
+    {
+      "id": "f19",
+      "text": "Hugo {form} la télé.",
+      "col": "il",
+      "unit": "present",
+      "fits": [
+        "regarder"
+      ],
+      "subjectLiteral": "Hugo",
+      "pic": null
+    },
+    {
+      "id": "f20",
+      "text": "Je {form} la corde.",
+      "col": "je",
+      "unit": "present",
+      "fits": [
+        "tirer",
+        "lancer",
+        "ramasser",
+        "regarder",
+        "porter"
+      ],
+      "subjectLiteral": "Je",
+      "pic": null
+    },
+    {
+      "id": "f21",
+      "text": "Aujourd'hui, Léa {form} contente.",
+      "col": "il",
+      "unit": "present",
+      "fits": [
+        "être"
+      ],
+      "subjectLiteral": "Léa",
+      "pic": null
+    },
+    {
+      "id": "f22",
+      "text": "Hugo {form} un vélo rouge.",
+      "col": "il",
+      "unit": "present",
+      "fits": [
+        "avoir",
+        "regarder",
+        "laver",
+        "porter"
+      ],
+      "subjectLiteral": "Hugo",
+      "pic": null
+    },
+    {
+      "id": "f23",
+      "text": "Nous {form} à la maison.",
+      "col": "nous",
+      "unit": "present",
+      "fits": [
+        "être",
+        "manger",
+        "jouer",
+        "dessiner",
+        "chanter",
+        "danser"
+      ],
+      "subjectLiteral": "Nous",
+      "pic": null
+    },
+    {
+      "id": "f24",
+      "text": "Vous {form} deux chats.",
+      "col": "vous",
+      "unit": "present",
+      "fits": [
+        "avoir",
+        "regarder"
+      ],
+      "subjectLiteral": "Vous",
+      "pic": null
+    },
+    {
+      "id": "f25",
+      "text": "Ils {form} en vacances.",
+      "col": "ils",
+      "unit": "present",
+      "fits": [
+        "être"
+      ],
+      "subjectLiteral": "Ils",
+      "pic": null
+    },
+    {
+      "id": "f26",
+      "text": "Tu {form} un chien noir.",
+      "col": "tu",
+      "unit": "present",
+      "fits": [
+        "avoir",
+        "regarder",
+        "laver"
+      ],
+      "subjectLiteral": "Tu",
+      "pic": null
+    },
+    {
+      "id": "f27",
+      "text": "Nous {form} deux lapins.",
+      "col": "nous",
+      "unit": "present",
+      "fits": [
+        "avoir",
+        "regarder"
+      ],
+      "subjectLiteral": "Nous",
+      "pic": null
+    },
+    {
+      "id": "f28",
+      "text": "Chloé {form} dans le jardin.",
+      "col": "il",
+      "unit": "present",
+      "fits": [
+        "être",
+        "jouer",
+        "marcher",
+        "sauter",
+        "danser",
+        "chanter",
+        "dessiner"
+      ],
+      "subjectLiteral": "Chloé",
+      "pic": null
+    },
+    {
+      "id": "f29",
+      "text": "Tu {form} en retard.",
+      "col": "tu",
+      "unit": "present",
+      "fits": [
+        "être"
+      ],
+      "subjectLiteral": "Tu",
+      "pic": null
+    },
+    {
+      "id": "f30",
+      "text": "Vous {form} fatigués.",
+      "col": "vous",
+      "unit": "present",
+      "fits": [
+        "être"
+      ],
+      "subjectLiteral": "Vous",
+      "pic": null
+    }
+  ],
+  "hunt": {
+    "nounHomographs": [
+      "saut",
+      "chant",
+      "dessin",
+      "cri",
+      "tir",
+      "jeu",
+      "regard",
+      "lavage"
+    ]
+  },
+  "strings": {
+    "G2-317": {
+      "title": "Conjugaison au présent : verbes en -er",
+      "instruction": "Regarde l'image et lis le verbe. Écris les formes qui manquent dans les cases, puis complète les phrases."
+    },
+    "F2": {
+      "title": "Relie le pronom à la bonne forme du verbe",
+      "instruction": "Lis le verbe de chaque tableau. Relie chaque pronom à la forme du verbe qui va avec lui."
+    },
+    "F3": {
+      "title": "Complète les phrases avec le verbe au présent",
+      "instruction": "Regarde l'image et lis le verbe dans l'étiquette. Écris la forme qui convient dans la case."
+    },
+    "F4": {
+      "title": "Être et avoir au présent",
+      "instruction": "Être et avoir changent beaucoup. Écris toutes les formes qui manquent dans les cases, puis complète les phrases."
+    },
+    "F5": {
+      "title": "Entoure la bonne forme du verbe",
+      "instruction": "Lis la phrase. Trois formes du verbe sont écrites en dessous. Entoure celle qui convient."
+    },
+    "F6": {
+      "title": "Trouve le verbe et écris son infinitif",
+      "instruction": "Souligne le verbe dans chaque phrase. Puis écris son infinitif dans la case."
+    }
+  }
+}

@@ -131,6 +131,8 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     en: 'Reading: Informational Text',
     de: 'Sachtexte verstehen',
     nl: 'Begrijpend lezen: informatieve teksten', // nt20-C panel (tools/apply-b3-locale.js)
+    es: 'Lectura de textos informativos', // nt20-C panel (tools/apply-b3-locale.js)
+    fr: 'Lecture de textes documentaires', // nt20-C panel (tools/apply-b3-locale.js)
   },
   // Reading: Literature (RL — answer key-detail questions about an erzählende Geschichte). de literacy
   // fan-out opener (picture-story RL.K.1); literary COMPREHENSION — the distinct literary Bereich
@@ -142,6 +144,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     en: 'Reading: Literature',
     de: 'Literarische Texte verstehen',
     nl: 'Begrijpend lezen: verhalen', // nt20-C panel (tools/apply-b3-locale.js)
+    es: 'Lectura de textos literarios', // nt20-C panel (tools/apply-b3-locale.js)
   },
   // Writing (composing texts). KMK Bereich „Texte verfassen"; opens the Writing
   // strand — the platform's first W activity (wobble-museum, beim Thema bleiben).
@@ -151,6 +154,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     es: 'Producción de textos',
     pt: 'Produção de textos',
     nl: 'Schrijven', // nt20-C panel (tools/apply-b3-locale.js)
+    fr: 'Écriture', // nt20-C panel (tools/apply-b3-locale.js)
   },
   // Phonological Awareness (pre-reading sound awareness; literacy). No deployed
   // activity uses this strand yet (forward-looking); all 11 locales curriculum-reviewed.

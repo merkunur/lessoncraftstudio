@@ -1,0 +1,716 @@
+{
+  "shape": "family",
+  "casing": "lower",
+  "links": [
+    ""
+  ],
+  "linkBoxW": 36,
+  "exemplar": "A",
+  "units": [
+    {
+      "id": "A",
+      "items": [
+        {
+          "a": {
+            "vocabKey": "flower",
+            "word": "flor",
+            "pic": {
+              "theme": "spring",
+              "noun": "flower"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "affix": "-ero"
+          },
+          "whole": {
+            "word": "florero",
+            "vocabKey": "vase",
+            "scale": 1,
+            "pic": {
+              "theme": "around the house",
+              "noun": "vase"
+            }
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "spoon",
+            "word": "cuchara",
+            "pic": {
+              "theme": "kitchen tools",
+              "noun": "spoon"
+            }
+          },
+          "aStem": "cuchar",
+          "link": "",
+          "b": {
+            "affix": "-ón"
+          },
+          "whole": {
+            "word": "cucharón",
+            "vocabKey": "ladle",
+            "scale": 1,
+            "pic": {
+              "theme": "kitchen tools",
+              "noun": "ladle"
+            }
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "car",
+            "word": "carro",
+            "pic": {
+              "theme": "vehicles",
+              "noun": "car"
+            }
+          },
+          "aStem": "carr",
+          "link": "",
+          "b": {
+            "affix": "-ito"
+          },
+          "whole": {
+            "word": "carrito",
+            "vocabKey": "cart",
+            "scale": 1,
+            "pic": {
+              "theme": "At the Supermarket",
+              "noun": "cart"
+            }
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "rooster",
+            "word": "gallo",
+            "pic": {
+              "theme": "farm animals",
+              "noun": "rooster"
+            }
+          },
+          "aStem": "gall",
+          "link": "",
+          "b": {
+            "affix": "-ina"
+          },
+          "whole": {
+            "word": "gallina",
+            "vocabKey": "hen",
+            "scale": 1,
+            "pic": {
+              "theme": "farm animals",
+              "noun": "hen"
+            }
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "shirt",
+            "word": "camisa",
+            "pic": {
+              "theme": "clothing",
+              "noun": "shirt"
+            }
+          },
+          "aStem": "camis",
+          "link": "",
+          "b": {
+            "affix": "-eta"
+          },
+          "whole": {
+            "word": "camiseta",
+            "vocabKey": "t-shirt",
+            "scale": 1,
+            "pic": {
+              "theme": "clothing",
+              "noun": "t-shirt"
+            }
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "letter",
+            "word": "carta",
+            "pic": {
+              "theme": "post office",
+              "noun": "letter"
+            }
+          },
+          "aStem": "cart",
+          "link": "",
+          "b": {
+            "affix": "-era"
+          },
+          "whole": {
+            "word": "cartera",
+            "vocabKey": "wallet",
+            "scale": 1,
+            "pic": {
+              "theme": "accessories",
+              "noun": "wallet"
+            }
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "bed",
+            "word": "cama",
+            "pic": {
+              "theme": "furniture",
+              "noun": "bed"
+            }
+          },
+          "aStem": "cam",
+          "link": "",
+          "b": {
+            "affix": "-illa"
+          },
+          "whole": {
+            "word": "camilla",
+            "vocabKey": "stretcher",
+            "scale": 1,
+            "pic": {
+              "theme": "hospital",
+              "noun": "stretcher"
+            }
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "bread",
+            "word": "pan",
+            "pic": {
+              "theme": "At the Supermarket",
+              "noun": "bread"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "affix": "-adero"
+          },
+          "whole": {
+            "word": "panadero",
+            "vocabKey": "baker",
+            "scale": 1,
+            "pic": {
+              "theme": "occupations",
+              "noun": "baker"
+            }
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "paper",
+            "word": "papel",
+            "pic": {
+              "theme": "classroom",
+              "noun": "paper"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "affix": "-ería"
+          },
+          "whole": {
+            "word": "papelería",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "sun",
+            "word": "sol",
+            "pic": {
+              "theme": "weather",
+              "noun": "sun"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "affix": "-ecito"
+          },
+          "whole": {
+            "word": "solecito",
+            "vocabKey": null,
+            "scale": 1
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        }
+      ]
+    }
+  ],
+  "opaque": [],
+  "onePart": [
+    {
+      "a": {
+        "vocabKey": "flower",
+        "word": "flor",
+        "pic": {
+          "theme": "spring",
+          "noun": "flower"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "affix": "-ista"
+      },
+      "whole": {
+        "word": "florista",
+        "vocabKey": "florist",
+        "scale": 1,
+        "pic": {
+          "theme": "occupations",
+          "noun": "florist"
+        }
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    }
+  ],
+  "hubs": [],
+  "foils": [
+    {
+      "vocabKey": "basket",
+      "word": "canasta",
+      "looksLike": [
+        "can",
+        "asta"
+      ],
+      "pic": {
+        "theme": "At the Supermarket",
+        "noun": "basket"
+      }
+    },
+    {
+      "vocabKey": "panda",
+      "word": "panda",
+      "looksLike": [
+        "pan",
+        "da"
+      ],
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "panda"
+      }
+    },
+    {
+      "vocabKey": "camel",
+      "word": "camello",
+      "looksLike": [
+        "came",
+        "llo"
+      ],
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "camel"
+      }
+    },
+    {
+      "vocabKey": "hammer",
+      "word": "martillo",
+      "looksLike": [
+        "mar",
+        "tillo"
+      ],
+      "pic": {
+        "theme": "tools",
+        "noun": "hammer"
+      }
+    },
+    {
+      "vocabKey": "lollipop",
+      "word": "paleta",
+      "looksLike": [
+        "pal",
+        "eta"
+      ],
+      "pic": {
+        "theme": "desserts and sweets",
+        "noun": "lollipop"
+      }
+    },
+    {
+      "vocabKey": "cookie",
+      "word": "galleta",
+      "looksLike": [
+        "gall",
+        "eta"
+      ],
+      "pic": {
+        "theme": "bakery",
+        "noun": "cookie"
+      }
+    },
+    {
+      "vocabKey": "colander",
+      "word": "colador",
+      "looksLike": [
+        "col",
+        "ador"
+      ],
+      "pic": {
+        "theme": "kitchen tools",
+        "noun": "colander"
+      }
+    },
+    {
+      "vocabKey": "comet",
+      "word": "cometa",
+      "looksLike": [
+        "come",
+        "ta"
+      ],
+      "pic": {
+        "theme": "space",
+        "noun": "comet"
+      }
+    },
+    {
+      "vocabKey": "butterfly",
+      "word": "mariposa",
+      "looksLike": [
+        "mar",
+        "iposa"
+      ],
+      "pic": {
+        "theme": "insects and bugs",
+        "noun": "butterfly"
+      }
+    }
+  ],
+  "sizePairs": [
+    {
+      "base": {
+        "vocabKey": "cat",
+        "word": "gato",
+        "pic": {
+          "theme": "pets",
+          "noun": "cat"
+        }
+      },
+      "small": "gatito",
+      "big": "gatote"
+    },
+    {
+      "base": {
+        "vocabKey": "dog",
+        "word": "perro",
+        "pic": {
+          "theme": "pets",
+          "noun": "dog"
+        }
+      },
+      "small": "perrito",
+      "big": "perrote"
+    },
+    {
+      "base": {
+        "vocabKey": "house",
+        "word": "casa",
+        "pic": {
+          "theme": "miscellaneous",
+          "noun": "house"
+        }
+      },
+      "small": "casita",
+      "big": "casota"
+    },
+    {
+      "base": {
+        "vocabKey": "ball",
+        "word": "pelota",
+        "pic": {
+          "theme": "toys",
+          "noun": "ball"
+        }
+      },
+      "small": "pelotita",
+      "big": "pelotota"
+    },
+    {
+      "base": {
+        "vocabKey": "book",
+        "word": "libro",
+        "pic": {
+          "theme": "classroom",
+          "noun": "book"
+        }
+      },
+      "small": "librito",
+      "big": "librote"
+    },
+    {
+      "base": {
+        "vocabKey": "table",
+        "word": "mesa",
+        "pic": {
+          "theme": "furniture",
+          "noun": "table"
+        }
+      },
+      "small": "mesita",
+      "big": "mesota"
+    },
+    {
+      "base": {
+        "vocabKey": "bear",
+        "word": "oso",
+        "pic": {
+          "theme": "zoo animals",
+          "noun": "bear"
+        }
+      },
+      "small": "osito",
+      "big": "osote"
+    },
+    {
+      "base": {
+        "vocabKey": "car",
+        "word": "carro",
+        "pic": {
+          "theme": "vehicles",
+          "noun": "car"
+        }
+      },
+      "small": "carrito",
+      "big": "carrote"
+    },
+    {
+      "base": {
+        "vocabKey": "shoe",
+        "word": "zapato",
+        "pic": {
+          "theme": "clothing",
+          "noun": "shoe"
+        }
+      },
+      "small": "zapatito",
+      "big": "zapatote"
+    },
+    {
+      "base": {
+        "vocabKey": "duck",
+        "word": "pato",
+        "pic": {
+          "theme": "farm animals",
+          "noun": "duck"
+        }
+      },
+      "small": "patito",
+      "big": "patote"
+    },
+    {
+      "base": {
+        "vocabKey": "horse",
+        "word": "caballo",
+        "pic": {
+          "theme": "farm animals",
+          "noun": "horse"
+        }
+      },
+      "small": "caballito",
+      "big": "caballote"
+    },
+    {
+      "base": {
+        "vocabKey": "balloon",
+        "word": "globo",
+        "pic": {
+          "theme": "toys",
+          "noun": "balloon"
+        }
+      },
+      "small": "globito",
+      "big": "globote"
+    }
+  ],
+  "crossWords": [],
+  "refuse": {
+    "F1": true,
+    "F3": false,
+    "F5": false
+  },
+  "opened": {
+    "spring/flower": [
+      "flower"
+    ],
+    "around the house/vase": [
+      "vase"
+    ],
+    "kitchen tools/spoon": [
+      "spoon"
+    ],
+    "kitchen tools/ladle": [
+      "ladle"
+    ],
+    "vehicles/car": [
+      "car"
+    ],
+    "At the Supermarket/cart": [
+      "cart"
+    ],
+    "farm animals/rooster": [
+      "rooster"
+    ],
+    "farm animals/hen": [
+      "hen"
+    ],
+    "clothing/shirt": [
+      "shirt"
+    ],
+    "clothing/t-shirt": [
+      "t-shirt"
+    ],
+    "post office/letter": [
+      "letter"
+    ],
+    "accessories/wallet": [
+      "wallet"
+    ],
+    "furniture/bed": [
+      "bed"
+    ],
+    "hospital/stretcher": [
+      "stretcher"
+    ],
+    "At the Supermarket/bread": [
+      "bread"
+    ],
+    "occupations/baker": [
+      "baker"
+    ],
+    "classroom/paper": [
+      "paper"
+    ],
+    "weather/sun": [
+      "sun"
+    ],
+    "occupations/florist": [
+      "florist"
+    ],
+    "At the Supermarket/basket": [
+      "basket"
+    ],
+    "zoo animals/panda": [
+      "panda"
+    ],
+    "zoo animals/camel": [
+      "camel"
+    ],
+    "tools/hammer": [
+      "hammer"
+    ],
+    "desserts and sweets/lollipop": [
+      "lollipop"
+    ],
+    "bakery/cookie": [
+      "cookie"
+    ],
+    "kitchen tools/colander": [
+      "colander"
+    ],
+    "space/comet": [
+      "comet"
+    ],
+    "insects and bugs/butterfly": [
+      "butterfly"
+    ],
+    "pets/cat": [
+      "cat"
+    ],
+    "pets/dog": [
+      "dog"
+    ],
+    "miscellaneous/house": [
+      "house"
+    ],
+    "toys/ball": [
+      "ball"
+    ],
+    "classroom/book": [
+      "book"
+    ],
+    "furniture/table": [
+      "table"
+    ],
+    "zoo animals/bear": [
+      "bear"
+    ],
+    "clothing/shoe": [
+      "shoe"
+    ],
+    "farm animals/duck": [
+      "duck"
+    ],
+    "farm animals/horse": [
+      "horse"
+    ],
+    "toys/balloon": [
+      "balloon"
+    ]
+  },
+  "strings": {
+    "G2-316": {
+      "title": "Familias de palabras: raíz y sufijo",
+      "instruction": "Mira el dibujo y lee el sufijo. Escribe la nueva palabra de la familia en la línea."
+    },
+    "G2-329": {
+      "title": "¿Qué va en medio? Une la raíz y el sufijo",
+      "instruction": "Lee la raíz y el sufijo. Escribe en la caja la letra que une las dos partes y después la palabra completa."
+    },
+    "G2-330": {
+      "title": "Divide la palabra: encuentra la raíz",
+      "instruction": "Lee la palabra completa. Traza una rayita donde termina la raíz y empieza el sufijo."
+    },
+    "G2-331": {
+      "title": "Une las mitades de las palabras",
+      "instruction": "Une cada dibujo de la izquierda con el de la derecha que forma una palabra de su familia y escríbela en la línea."
+    },
+    "G2-332": {
+      "title": "Detective de familias de palabras",
+      "instruction": "Rodea las palabras que pertenecen a una familia de palabras y escribe su raíz y su sufijo. Cuidado con las que solo lo parecen."
+    },
+    "G2-333": {
+      "title": "Diminutivos y aumentativos: -ito y -ote",
+      "instruction": "Fíjate en el tamaño del dibujo. Si es pequeño, escribe la palabra con -ito; si es grande, escríbela con -ote."
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "names": {
+    "winter": "hiver",
+    "spring": "printemps",
+    "summer": "été",
+    "autumn": "automne"
+  },
+  "alt": {},
+  "model": "temperate-north",
+  "cycleStart": "winter",
+  "cycle": [
+    "winter",
+    "spring",
+    "summer",
+    "autumn"
+  ],
+  "monthSeason": [
+    "winter",
+    "winter",
+    "spring",
+    "spring",
+    "spring",
+    "summer",
+    "summer",
+    "summer",
+    "autumn",
+    "autumn",
+    "autumn",
+    "winter"
+  ],
+  "veto": [
+    {
+      "theme": "thanksgivinng",
+      "noun": "harvest",
+      "reason": "une gerbe de blé = la moisson, repère d'été (juillet) en France, pas d'automne"
+    }
+  ],
+  "override": {},
+  "legend": {
+    "winter": "codeBlue",
+    "spring": "codeGreen",
+    "summer": "codeYellow",
+    "autumn": "codeOrange"
+  },
+  "faces": {
+    "tree": {
+      "figure": "tree",
+      "captions": {
+        "winter": "L'arbre en hiver",
+        "spring": "L'arbre au printemps",
+        "summer": "L'arbre en été",
+        "autumn": "L'arbre en automne"
+      }
+    }
+  },
+  "strings": {
+    "K-322": {
+      "title": "Les quatre saisons : relie chaque image à sa saison",
+      "instruction": "Trace un trait du point de chaque image jusqu'à l'étiquette de sa saison."
+    },
+    "K-338": {
+      "title": "Quelle saison est-ce ? Trois images, une saison",
+      "instruction": "Observe les trois images de chaque carte, puis entoure le signe de leur saison."
+    },
+    "K-339": {
+      "title": "La roue des saisons : les saisons dans l'ordre",
+      "instruction": "Une saison est déjà sur la roue. Dessine les trois autres signes dans les ronds vides, dans le bon ordre."
+    },
+    "K-340": {
+      "title": "Les saisons : barre l'intrus",
+      "instruction": "Dans chaque ligne, barre l'image qui appartient à une autre saison."
+    },
+    "G1-323": {
+      "title": "Les mois et les saisons : colorie chaque saison",
+      "instruction": "Colorie le rond à côté de chaque mois avec la couleur de sa saison."
+    },
+    "K-341": {
+      "title": "L'arbre des quatre saisons : à toi de dessiner",
+      "instruction": "Dessine l'arbre tel qu'il est à chacune des quatre saisons."
+    }
+  },
+  "strand": "Explorer le monde : le temps et les saisons"
+}

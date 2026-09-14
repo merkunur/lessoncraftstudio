@@ -1,0 +1,29 @@
+{
+  "exemplar": "1-100",
+  "strings": {
+    "G1-310": {
+      "title": "Tabla del 100: completa las piezas del rompecabezas",
+      "instruction": "Cada pieza tiene un número escrito. Escribe todos los que faltan: 1 más a la derecha, 1 menos a la izquierda, 10 más abajo y 10 menos arriba."
+    },
+    "F1": {
+      "title": "¿Dónde va la pieza en la tabla del 100?",
+      "instruction": "Lee los números de cada pieza, busca su lugar en la tabla vacía y escríbelos ahí."
+    },
+    "F2": {
+      "title": "Saltos en la tabla del 100: sigue las flechas",
+      "instruction": "Empieza en el número y sigue las flechas: arriba 10 menos, abajo 10 más, izquierda 1 menos, derecha 1 más. Escribe a dónde llegas."
+    },
+    "F3": {
+      "title": "Número misterioso: dos flechas, una casilla",
+      "instruction": "Sigue las dos flechas. Las dos llegan a la misma casilla de la tabla. Escribe el número misterioso."
+    },
+    "F4": {
+      "title": "Encuentra el error en la pieza",
+      "instruction": "En cada pieza hay un número equivocado. Rodéalo y escribe el número correcto en la casilla."
+    },
+    "F5": {
+      "title": "¿Cuántos saltos hay? Cuenta en la tabla del 100",
+      "instruction": "Cuenta cuántos saltos hacia abajo y cuántos hacia la derecha te llevan del primer número al segundo."
+    }
+  }
+}

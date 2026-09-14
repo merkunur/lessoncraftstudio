@@ -3364,201 +3364,281 @@
       "letter-of-the-week": {
         "slug": {
           "en": "letter-of-the-week",
-          "nl": "letter-van-de-week"
+          "nl": "letter-van-de-week",
+          "es": "la-letra-de-la-semana",
+          "fr": "lettre-de-la-semaine"
         },
         "name": {
           "en": "Letter of the Week",
-          "nl": "Letter van de week"
+          "nl": "Letter van de week",
+          "es": "La letra de la semana",
+          "fr": "La lettre de la semaine"
         }
       },
       "sound-boxes": {
         "slug": {
           "en": "sound-boxes",
-          "nl": "hakken-en-plakken"
+          "nl": "hakken-en-plakken",
+          "es": "cajas-de-sonidos",
+          "fr": "boites-a-sons"
         },
         "name": {
           "en": "Sound Boxes",
-          "nl": "Hakken en plakken"
+          "nl": "Hakken en plakken",
+          "es": "Cajas de sonidos",
+          "fr": "Boîtes à sons"
         }
       },
       "ordinal-numbers": {
         "slug": {
           "en": "ordinal-numbers",
-          "nl": "rangtelwoorden"
+          "nl": "rangtelwoorden",
+          "es": "numeros-ordinales",
+          "fr": "nombres-ordinaux"
         },
         "name": {
           "en": "Ordinal Numbers",
-          "nl": "Rangtelwoorden"
+          "nl": "Rangtelwoorden",
+          "es": "Números ordinales",
+          "fr": "Les nombres ordinaux"
         }
       },
       "days-and-months": {
         "slug": {
           "en": "days-and-months",
-          "nl": "dagen-en-maanden"
+          "nl": "dagen-en-maanden",
+          "es": "dias-y-meses",
+          "fr": "jours-et-mois"
         },
         "name": {
           "en": "Days and Months",
-          "nl": "Dagen en maanden"
+          "nl": "Dagen en maanden",
+          "es": "Días y meses",
+          "fr": "Jours et mois"
         }
       },
       "seasons": {
         "slug": {
           "en": "seasons",
-          "nl": "de-vier-seizoenen"
+          "nl": "de-vier-seizoenen",
+          "es": "estaciones-del-ano",
+          "fr": "les-saisons"
         },
         "name": {
           "en": "Four Seasons",
-          "nl": "De vier seizoenen"
+          "nl": "De vier seizoenen",
+          "es": "Las estaciones del año",
+          "fr": "Les saisons"
         }
       },
       "all-about-me": {
         "slug": {
           "en": "all-about-me",
-          "nl": "dit-ben-ik"
+          "nl": "dit-ben-ik",
+          "es": "todo-sobre-mi",
+          "fr": "c-est-moi"
         },
         "name": {
           "en": "All About Me",
-          "nl": "Dit ben ik"
+          "nl": "Dit ben ik",
+          "es": "Todo sobre mí",
+          "fr": "C'est moi"
         }
       },
       "picture-word-cards": {
         "slug": {
           "en": "picture-word-cards",
-          "nl": "woordkaartjes"
+          "nl": "woordkaartjes",
+          "es": "tarjetas-de-dibujo-y-palabra",
+          "fr": "imagier"
         },
         "name": {
           "en": "Picture Word Cards",
-          "nl": "Woordkaartjes"
+          "nl": "Woordkaartjes",
+          "es": "Tarjetas de dibujo y palabra",
+          "fr": "Imagier"
         }
       },
       "syllable-split": {
         "slug": {
           "en": "syllable-split",
-          "nl": "lettergrepen-verdelen"
+          "nl": "lettergrepen-verdelen",
+          "es": "separar-en-silabas",
+          "fr": "decouper-les-mots-en-syllabes"
         },
         "name": {
           "en": "Syllable Division",
-          "nl": "Lettergrepen verdelen"
+          "nl": "Lettergrepen verdelen",
+          "es": "Separar en sílabas",
+          "fr": "Découper en syllabes"
         }
       },
       "syllable-reading": {
         "slug": {
           "en": "syllable-reading",
-          "nl": "mkm-woorden-lezen"
+          "nl": "mkm-woorden-lezen",
+          "es": "lectura-de-silabas",
+          "fr": "lecture-de-syllabes"
         },
         "name": {
           "en": "Word Families",
-          "nl": "Mkm-woorden lezen"
+          "nl": "Mkm-woorden lezen",
+          "es": "Lectura de sílabas",
+          "fr": "Lecture de syllabes"
         }
       },
       "opposites": {
         "slug": {
           "en": "opposites",
-          "nl": "tegenstellingen"
+          "nl": "tegenstellingen",
+          "es": "antonimos",
+          "fr": "les-contraires"
         },
         "name": {
           "en": "Opposites",
-          "nl": "Tegenstellingen"
+          "nl": "Tegenstellingen",
+          "es": "Antónimos",
+          "fr": "Les contraires"
         }
       },
       "read-and-do": {
         "slug": {
           "en": "read-and-do",
-          "nl": "lees-en-doe"
+          "nl": "lees-en-doe",
+          "es": "lee-y-haz",
+          "fr": "lecture-de-consignes"
         },
         "name": {
           "en": "Read and Do",
-          "nl": "Lees en doe"
+          "nl": "Lees en doe",
+          "es": "Lee y haz",
+          "fr": "Lecture de consignes"
         }
       },
       "rhyming-words": {
         "slug": {
           "en": "rhyming-words",
-          "nl": "rijmwoorden"
+          "nl": "rijmwoorden",
+          "es": "palabras-que-riman",
+          "fr": "mots-qui-riment"
         },
         "name": {
           "en": "Rhyming Words",
-          "nl": "Rijmwoorden"
+          "nl": "Rijmwoorden",
+          "es": "Palabras que riman",
+          "fr": "Mots qui riment"
         }
       },
       "hundreds-chart-puzzles": {
         "slug": {
           "en": "hundreds-chart-puzzles",
-          "nl": "honderdveld-puzzels"
+          "nl": "honderdveld-puzzels",
+          "es": "rompecabezas-tabla-del-100",
+          "fr": "tableau-des-nombres-morceaux"
         },
         "name": {
           "en": "Hundreds Chart Puzzles",
-          "nl": "Honderdveld puzzels"
+          "nl": "Honderdveld puzzels",
+          "es": "Rompecabezas de la tabla del 100",
+          "fr": "Tableau des nombres : morceaux"
         }
       },
       "spelling-rules": {
         "slug": {
           "en": "spelling-rules",
-          "nl": "spellingregels"
+          "nl": "spellingregels",
+          "es": "reglas-de-ortografia",
+          "fr": "regles-d-orthographe"
         },
         "name": {
           "en": "Spelling Rules",
-          "nl": "Spellingregels"
+          "nl": "Spellingregels",
+          "es": "Reglas de ortografía",
+          "fr": "Règles d'orthographe"
         }
       },
       "compound-words": {
         "slug": {
           "en": "compound-words",
-          "nl": "samenstellingen"
+          "nl": "samenstellingen",
+          "es": "familias-de-palabras",
+          "fr": "mots-de-la-meme-famille"
         },
         "name": {
           "en": "Compound Words",
-          "nl": "Samenstellingen"
+          "nl": "Samenstellingen",
+          "es": "Familias de palabras",
+          "fr": "Mots de la même famille"
         }
       },
       "verb-forms": {
         "slug": {
           "en": "verb-forms",
-          "nl": "werkwoorden-vervoegen"
+          "nl": "werkwoorden-vervoegen",
+          "es": "conjugar-verbos",
+          "fr": "conjugaison-au-present"
         },
         "name": {
           "en": "Verb Forms",
-          "nl": "Werkwoorden vervoegen"
+          "nl": "Werkwoorden vervoegen",
+          "es": "Conjugar verbos",
+          "fr": "Conjugaison au présent"
         }
       },
       "animal-fact-file": {
         "slug": {
           "en": "animal-fact-file",
-          "nl": "dierenpaspoort"
+          "nl": "dierenpaspoort",
+          "es": "datos-de-animales",
+          "fr": "carte-d-identite-animal"
         },
         "name": {
           "en": "Animal Fact File",
-          "nl": "Dierenpaspoort"
+          "nl": "Dierenpaspoort",
+          "es": "Datos de animales",
+          "fr": "Carte d'identité de l'animal"
         }
       },
       "logic-puzzles": {
         "slug": {
           "en": "logic-puzzles",
-          "nl": "logigrammen"
+          "nl": "logigrammen",
+          "es": "acertijos-de-logica",
+          "fr": "logigrammes"
         },
         "name": {
           "en": "Logic Grid Puzzles",
-          "nl": "Logigrammen"
+          "nl": "Logigrammen",
+          "es": "Acertijos de lógica",
+          "fr": "Logigrammes"
         }
       },
       "division-with-remainder": {
         "slug": {
           "en": "division-with-remainder",
-          "nl": "delen-met-rest"
+          "nl": "delen-met-rest",
+          "es": "divisiones-con-residuo",
+          "fr": "division-avec-reste"
         },
         "name": {
           "en": "Division with Remainders",
-          "nl": "Delen met rest"
+          "nl": "Delen met rest",
+          "es": "Divisiones con residuo",
+          "fr": "Division avec reste"
         }
       },
       "feelings": {
         "slug": {
           "en": "feelings",
-          "nl": "gevoelens"
+          "nl": "gevoelens",
+          "es": "las-emociones",
+          "fr": "les-emotions"
         },
         "name": {
           "en": "Feelings",
-          "nl": "Gevoelens"
+          "nl": "Gevoelens",
+          "es": "Las emociones",
+          "fr": "Les émotions"
         }
       }
     },

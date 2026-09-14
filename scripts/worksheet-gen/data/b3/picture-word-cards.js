@@ -13,8 +13,10 @@
  *     articleStyle: { enabled, level: 2|3, dots: [codeColors keys] | null,
  *                     elision: 'refuse'|'print', elisionChip: "l'" | null, legend: string | null },
  *     plural:    { enabled, clones: 3 },
- *     bilingual: { partnerExemplar: <another of the 11>, partnerNames: { <10 others> }, legendSep: ' · ' },
- *     syllable:  { enabled, mark: 'arc'|'hyphen'|'colour', hyphen: '-', strictPool: false|true },
+ *     bilingual: { partnerExemplar: <another of the 11>, hostName: <this language, in itself>,
+ *                  partnerNames: { <10 others> }, legendSep: ' · ' },
+ *     syllable:  { enabled, mark: 'arc'|'hyphen'|'colour', hyphen: '-', strictPool: false|true,
+ *                  exclude: ['vocabKey'] },   // an APPROVED boundary the panel found wrong (seagull: seag-ull)
  *     twinLayout: { cols: 4, blockRows: 2 },
  *     exclude: ['vocabKey'],
  *     strings: { 'K-324': {title, instruction}, twin: …, article: …, plural: …, bilingual: …, syllable: … }
@@ -35,10 +37,14 @@ const PICTURE_WORD_CARDS = {
     plural: { enabled: true, clones: 3 },
     bilingual: {
       partnerExemplar: 'es',
+      hostName: 'English',
       partnerNames: { de: 'German', es: 'Spanish', pt: 'Portuguese', fr: 'French', it: 'Italian', nl: 'Dutch', sv: 'Swedish', da: 'Danish', no: 'Norwegian', fi: 'Finnish' },
       legendSep: ' · ',
     },
-    syllable: { enabled: true, mark: 'arc', hyphen: '-', strictPool: false },
+    // exclude: approved-words-en.json carries seagull as seag-ull with 'TeX' in sources_agreed —
+    // a wrong boundary (sea-gull, a compound) that the texPool rule cannot see; refused here, and
+    // reported for the pipeline (README item 6 territory). Never a filler in its place.
+    syllable: { enabled: true, mark: 'arc', hyphen: '-', strictPool: false, exclude: ['seagull'] },
     twinLayout: { cols: 4, blockRows: 2 },
     exclude: [],
     strings: {

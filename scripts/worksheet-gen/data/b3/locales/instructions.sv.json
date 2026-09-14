@@ -1921,18 +1921,18 @@
       "reviewed": true
     },
     "chicken": {
-      "unique": "kycklingen",
-      "all": "alla kycklingar",
-      "pl": "kycklingar",
+      "unique": "hönan",
+      "all": "alla hönor",
+      "pl": "hönor",
       "ord": {
-        "2": "den andra kycklingen",
-        "3": "den tredje kycklingen",
-        "4": "den fjärde kycklingen",
-        "5": "den femte kycklingen"
+        "2": "den andra hönan",
+        "3": "den tredje hönan",
+        "4": "den fjärde hönan",
+        "5": "den femte hönan"
       },
       "dat": null,
-      "def": "kycklingen",
-      "defPl": "kycklingarna",
+      "def": "hönan",
+      "defPl": "hönorna",
       "part": null,
       "gen": null,
       "a2": null,

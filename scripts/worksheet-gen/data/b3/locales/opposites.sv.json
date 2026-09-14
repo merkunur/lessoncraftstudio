@@ -598,11 +598,6 @@
         "expected": "oärlig"
       },
       {
-        "base": "nöjd",
-        "prefix": "o",
-        "expected": "onöjd"
-      },
-      {
         "base": "jämn",
         "prefix": "o",
         "expected": "ojämn"
@@ -686,7 +681,7 @@
       "instruction": "Läs ordet. Ett av de tre orden under betyder motsatsen. Ringa in det, inte det som betyder samma sak."
     },
     "G2-320": {
-      "title": "Motsatsord med o-: olycklig, ovänlig, orättvis",
+      "title": "Motsatsord med förstavelsen o-",
       "instruction": "Sätt o- framför varje ord och skriv det nya motsatsordet på raden."
     }
   }

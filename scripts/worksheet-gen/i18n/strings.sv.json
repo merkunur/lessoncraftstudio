@@ -1945,7 +1945,7 @@
   },
   "G1-305": {
     "title": "Dela upp ord i stavelser",
-    "instruction": "Säg ordet till bilden och klappa stavelserna. Rita en båge under varje stavelse och skriv hur många det blev."
+    "instruction": "Säg ordet till bilden och klappa stavelserna. Rita en båge under varje stavelse."
   },
   "G1-306": {
     "title": "Ljuda ihop ord: läs och skriv",
@@ -2117,7 +2117,7 @@
   },
   "K-343": {
     "title": "Min familj: rita och räkna",
-    "instruction": "Rita din familj. Visa sedan i tioramarna hur många personer, bröder, systrar och husdjur ni är och skriv siffran."
+    "instruction": "Rita din familj. Visa sedan i tioramarna hur många personer, bröder, systrar och husdjur det finns i din familj och skriv siffran."
   },
   "K-344": {
     "title": "Mitt ansikte: skriv orden på rätt plats",
@@ -2169,7 +2169,7 @@
   },
   "G1-329": {
     "title": "Vokalen är kungen: en vokal i varje stavelse",
-    "instruction": "Ringa in vokalerna i ordet. Varje stavelse har precis en vokalkung. Rita en båge under varje stavelse och skriv hur många de är."
+    "instruction": "Titta på exemplet. Bågarna visar stavelserna. Sätt en prick under vokalen i varje stavelse: en vokalkung i varje båge."
   },
   "G1-330": {
     "title": "Ljuda ihop ord: läs och ringa in",
@@ -2208,7 +2208,7 @@
     "instruction": "Läs ordet. Ett av de tre orden under betyder motsatsen. Ringa in det, inte det som betyder samma sak."
   },
   "G2-320": {
-    "title": "Motsatsord med o-: olycklig, ovänlig, orättvis",
+    "title": "Motsatsord med förstavelsen o-",
     "instruction": "Sätt o- framför varje ord och skriv det nya motsatsordet på raden."
   },
   "G1-338": {
@@ -2289,7 +2289,7 @@
   },
   "G2-330": {
     "title": "Dela det sammansatta ordet i två ord",
-    "instruction": "Hela ordet står i bokstavsrutor bredvid bilden. Dra ett streck där det andra ordet börjar."
+    "instruction": "Läs hela ordet bredvid bilden. Dra ett streck där det andra ordet börjar."
   },
   "G2-331": {
     "title": "Para ihop halvorna: två bilder, ett ord",
@@ -2301,7 +2301,7 @@
   },
   "G2-333": {
     "title": "Ordspindel: ett ord, många sammansättningar",
-    "instruction": "Ett ord sitter i mitten. Varje bild runt omkring bildar ett nytt ord med det. Skriv de fyra nya orden på raderna."
+    "instruction": "Ett ord sitter i mitten. Varje bild runt omkring bildar ett nytt ord med det. Skriv varje nytt ord på sin rad."
   },
   "G2-334": {
     "title": "Para ihop verbet med preteritum",
@@ -2312,7 +2312,7 @@
     "instruction": "Titta på bilden och läs verbet i bubblan. Skriv den form som passar i meningen i den streckade rutan."
   },
   "G2-336": {
-    "title": "Starka verb: vara, ha, gå, få",
+    "title": "Oregelbundna verb: nu och i går",
     "instruction": "De här verben ändrar sig mycket. Skriv formen för nu och formen för i går i de streckade rutorna."
   },
   "G2-337": {
@@ -2324,15 +2324,15 @@
     "instruction": "Stryk under verbet i varje mening. Skriv sedan verbets grundform, som efter \"att\", i den streckade rutan."
   },
   "G2-339": {
-    "title": "Faktablad om {U}: kryssa rätt fakta",
+    "title": "Faktablad om {L}: ringa in rätt fakta",
     "instruction": "Läs alternativen på varje rad och ringa in det som stämmer för djuret. Rita sedan var det bor och gör meningen färdig."
   },
   "G2-340": {
-    "title": "Faktablad om {U} med ordbank",
+    "title": "Faktablad om {L} med ordbank",
     "instruction": "Hitta varje fakta som stämmer i ordbanken och skriv den på rätt rad i faktabladet. Gör sedan meningen längst ner färdig."
   },
   "G2-341": {
-    "title": "Faktablad om {U}: skriv tre meningar",
+    "title": "Faktablad om {L}: skriv tre meningar",
     "instruction": "Läs faktabladet. Gör de tre meningarna färdiga med fakta ur bladet och skriv sedan en egen fakta på sista raden."
   },
   "G2-342": {
@@ -2377,7 +2377,7 @@
   },
   "G3-383": {
     "title": "Hitta felet: resten är för stor",
-    "instruction": "Varje division är felräknad. Stryk över de fel talen och skriv rätt svar och rätt rest i rutorna."
+    "instruction": "Varje division är felräknad. Stryk över de felaktiga talen och skriv rätt svar och rätt rest i rutorna."
   },
   "G3-384": {
     "title": "Hoppa bakåt på tallinjen: vad blir kvar?",

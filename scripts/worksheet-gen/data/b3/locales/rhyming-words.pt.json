@@ -1,0 +1,1459 @@
+{
+  "rule": "stressedVowelCoda",
+  "orthographyTrusted": true,
+  "exemplar": [
+    "ato",
+    "ola",
+    "oca",
+    "ama",
+    "ao",
+    "ela"
+  ],
+  "classes": [
+    {
+      "id": "ao",
+      "rime": "-ão",
+      "sound": "ɐ̃w̃",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "balloon",
+          "word": "balão",
+          "pic": {
+            "theme": "toys",
+            "noun": "balloon"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "bread",
+          "word": "pão",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "bread"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "dragon",
+          "word": "dragão",
+          "pic": {
+            "theme": "Things That Fly",
+            "noun": "dragon"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "gate",
+          "word": "portão",
+          "pic": {
+            "theme": "around the house",
+            "noun": "gate"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "hand",
+          "word": "mão",
+          "pic": {
+            "theme": "body parts",
+            "noun": "hand"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "lemon",
+          "word": "limão",
+          "pic": {
+            "theme": "fruits",
+            "noun": "lemon"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "melon",
+          "word": "melão",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "melon"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "shark",
+          "word": "tubarão",
+          "pic": {
+            "theme": "ocean life",
+            "noun": "shark"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "leão",
+        "avião",
+        "feijão",
+        "sabão",
+        "coração",
+        "botão"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "eira",
+      "rime": "-eira",
+      "sound": "ejɾɐ",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "bathtub",
+          "word": "banheira",
+          "pic": {
+            "theme": "around the house",
+            "noun": "bathtub"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "chair",
+          "word": "cadeira",
+          "pic": {
+            "theme": "furniture",
+            "noun": "chair"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "faucet",
+          "word": "torneira",
+          "pic": {
+            "theme": "around the house",
+            "noun": "faucet"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "fireplace",
+          "word": "lareira",
+          "pic": {
+            "theme": "winter",
+            "noun": "fireplace"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "bracelet",
+          "word": "pulseira",
+          "pic": {
+            "theme": "accessories",
+            "noun": "bracelet"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "fridge",
+          "word": "geladeira",
+          "pic": {
+            "theme": "around the house",
+            "noun": "fridge"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "kettle",
+          "word": "chaleira",
+          "pic": {
+            "theme": "around the house",
+            "noun": "kettle"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "wallet",
+          "word": "carteira",
+          "pic": {
+            "theme": "accessories",
+            "noun": "wallet"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "peneira",
+        "mamadeira",
+        "brincadeira"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "inho",
+      "rime": "-inho",
+      "sound": "ĩɲu",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "cart",
+          "word": "carrinho",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "cart"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "chick",
+          "word": "pintinho",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "chick"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "dolphin",
+          "word": "golfinho",
+          "pic": {
+            "theme": "animals",
+            "noun": "dolphin"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "duckling",
+          "word": "patinho",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "duckling"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "nest",
+          "word": "ninho",
+          "pic": {
+            "theme": "spring",
+            "noun": "nest"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "playground",
+          "word": "parquinho",
+          "pic": {
+            "theme": "activities",
+            "noun": "playground"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "caminho",
+        "vizinho",
+        "sapinho",
+        "sozinho"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "inha",
+      "rime": "-inha",
+      "sound": "ĩɲɐ",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "chicken",
+          "word": "galinha",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "chicken"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "kitchen",
+          "word": "cozinha",
+          "pic": {
+            "theme": "around the house",
+            "noun": "kitchen"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "doughnut",
+          "word": "rosquinha",
+          "pic": {
+            "theme": "bakery",
+            "noun": "doughnut"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pinecone",
+          "word": "pinha",
+          "pic": {
+            "theme": "camping",
+            "noun": "pinecone"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "swallow",
+          "word": "andorinha",
+          "pic": {
+            "theme": "birds 2",
+            "noun": "swallow"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "weasel",
+          "word": "doninha",
+          "pic": {
+            "theme": "forest creatures",
+            "noun": "weasel"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "sardinha",
+        "vizinha",
+        "sozinha",
+        "rainha"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "eta",
+      "rime": "-eta",
+      "sound": "etɐ",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "bicycle",
+          "word": "bicicleta",
+          "pic": {
+            "theme": "vehicles",
+            "noun": "bicycle"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "butterfly",
+          "word": "borboleta",
+          "pic": {
+            "theme": "insects and bugs",
+            "noun": "butterfly"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "comet",
+          "word": "cometa",
+          "pic": {
+            "theme": "space",
+            "noun": "comet"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "jacket",
+          "word": "jaqueta",
+          "pic": {
+            "theme": "clothing",
+            "noun": "jacket"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pen",
+          "word": "caneta",
+          "pic": {
+            "theme": "classroom",
+            "noun": "pen"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "planet",
+          "word": "planeta",
+          "pic": {
+            "theme": "space",
+            "noun": "planet"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "t-shirt",
+          "word": "camiseta",
+          "pic": {
+            "theme": "clothing",
+            "noun": "t-shirt"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "stool",
+          "word": "banqueta",
+          "pic": {
+            "theme": "furniture",
+            "noun": "stool"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "chupeta",
+        "gaveta",
+        "peteca"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ela",
+      "rime": "-ela",
+      "sound": "ɛlɐ",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "bowl",
+          "word": "tigela",
+          "pic": {
+            "theme": "kitchen tools",
+            "noun": "bowl"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "candle",
+          "word": "vela",
+          "pic": {
+            "theme": "christmas",
+            "noun": "candle"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pot",
+          "word": "panela",
+          "pic": {
+            "theme": "kitchen tools",
+            "noun": "pot"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "star",
+          "word": "estrela",
+          "pic": {
+            "theme": "christmas",
+            "noun": "star"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "window",
+          "word": "janela",
+          "pic": {
+            "theme": "around the house",
+            "noun": "window"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "gazelle",
+          "word": "gazela",
+          "pic": {
+            "theme": "zoo animals",
+            "noun": "gazelle"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "eggplant",
+          "word": "berinjela",
+          "pic": {
+            "theme": "vegetables",
+            "noun": "eggplant"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "bela",
+        "novela",
+        "canela"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ato",
+      "rime": "-ato",
+      "sound": "atu",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "cat",
+          "word": "gato",
+          "pic": {
+            "theme": "pets",
+            "noun": "cat"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "duck",
+          "word": "pato",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "duck"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "mouse",
+          "word": "rato",
+          "pic": {
+            "theme": "pets",
+            "noun": "mouse"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "plate",
+          "word": "prato",
+          "pic": {
+            "theme": "kitchen tools",
+            "noun": "plate"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "shoe",
+          "word": "sapato",
+          "pic": {
+            "theme": "clothing",
+            "noun": "shoe"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "mato",
+        "retrato",
+        "chato"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "e",
+      "rime": "-é",
+      "sound": "ɛ",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "alligator",
+          "word": "jacaré",
+          "pic": {
+            "theme": "reptiles and Amphibians",
+            "noun": "alligator"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "cap",
+          "word": "boné",
+          "pic": {
+            "theme": "accessories",
+            "noun": "cap"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "foot",
+          "word": "pé",
+          "pic": {
+            "theme": "body parts",
+            "noun": "foot"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "popsicle",
+          "word": "picolé",
+          "pic": {
+            "theme": "summer",
+            "noun": "popsicle"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "chimpanzee",
+          "word": "chimpanzé",
+          "pic": {
+            "theme": "zoo animals",
+            "noun": "chimpanzee"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "café",
+        "chulé"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "oca",
+      "rime": "-oca",
+      "sound": "ɔkɐ",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "worm",
+          "word": "minhoca",
+          "pic": {
+            "theme": "insects and bugs",
+            "noun": "worm"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "mouth",
+          "word": "boca",
+          "pic": {
+            "theme": "body parts",
+            "noun": "mouth"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "popcorn",
+          "word": "pipoca",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "popcorn"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "seal",
+          "word": "foca",
+          "pic": {
+            "theme": "zoo animals",
+            "noun": "seal"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "toca",
+        "troca"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ola",
+      "rime": "-ola",
+      "sound": "ɔlɐ",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "bag",
+          "word": "sacola",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "bag"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "ball",
+          "word": "bola",
+          "pic": {
+            "theme": "toys",
+            "noun": "ball"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "glue",
+          "word": "cola",
+          "pic": {
+            "theme": "classroom",
+            "noun": "glue"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "onion",
+          "word": "cebola",
+          "pic": {
+            "theme": "vegetables",
+            "noun": "onion"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "escola",
+        "viola"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ama",
+      "rime": "-ama",
+      "sound": "ɐ̃mɐ",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "bed",
+          "word": "cama",
+          "pic": {
+            "theme": "furniture",
+            "noun": "bed"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "llama",
+          "word": "lhama",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "llama"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pajamas",
+          "word": "pijama",
+          "pic": {
+            "theme": "clothing",
+            "noun": "pajamas"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "chama",
+        "dama",
+        "lama"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "aca",
+      "rime": "-aca",
+      "sound": "akɐ",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "cow",
+          "word": "vaca",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "cow"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "knife",
+          "word": "faca",
+          "pic": {
+            "theme": "kitchen tools",
+            "noun": "knife"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "tent",
+          "word": "barraca",
+          "pic": {
+            "theme": "camping",
+            "noun": "tent"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "jaca",
+        "macaca"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "eca",
+      "rime": "-eca",
+      "sound": "ɛkɐ",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "doll",
+          "word": "boneca",
+          "pic": {
+            "theme": "toys",
+            "noun": "doll"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "mug",
+          "word": "caneca",
+          "pic": {
+            "theme": "kitchen tools",
+            "noun": "mug"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pancake",
+          "word": "panqueca",
+          "pic": {
+            "theme": "breakfast",
+            "noun": "pancake"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "peteca",
+        "careca",
+        "biblioteca"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ino",
+      "rime": "-ino",
+      "sound": "inu",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "bell",
+          "word": "sino",
+          "pic": {
+            "theme": "christmas",
+            "noun": "bell"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "cucumber",
+          "word": "pepino",
+          "pic": {
+            "theme": "vegetables",
+            "noun": "cucumber"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "submarine",
+          "word": "submarino",
+          "pic": {
+            "theme": "vehicles",
+            "noun": "submarine"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "violin",
+          "word": "violino",
+          "pic": {
+            "theme": "music",
+            "noun": "violin"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "menino",
+        "pinguino",
+        "destino"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ata",
+      "rime": "-ata",
+      "sound": "atɐ",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "can",
+          "word": "lata",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "can"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "potato",
+          "word": "batata",
+          "pic": {
+            "theme": "vegetables",
+            "noun": "potato"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "tie",
+          "word": "gravata",
+          "pic": {
+            "theme": "clothing",
+            "noun": "tie"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "pata",
+        "mata",
+        "chapa"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "oura",
+      "rime": "-oura",
+      "sound": "owɾɐ",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "broom",
+          "word": "vassoura",
+          "pic": {
+            "theme": "around the house",
+            "noun": "broom"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "carrot",
+          "word": "cenoura",
+          "pic": {
+            "theme": "vegetables",
+            "noun": "carrot"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "scissors",
+          "word": "tesoura",
+          "pic": {
+            "theme": "classroom",
+            "noun": "scissors"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "loura",
+        "lavoura"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ena",
+      "rime": "-ena",
+      "sound": "enɐ",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "feather",
+          "word": "pena",
+          "pic": {
+            "theme": "easter",
+            "noun": "feather"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "reindeer",
+          "word": "rena",
+          "pic": {
+            "theme": "christmas",
+            "noun": "reindeer"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "cena",
+        "antena",
+        "pequena"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "olho",
+      "rime": "-olho",
+      "sound": "oʎu",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "cabbage",
+          "word": "repolho",
+          "pic": {
+            "theme": "vegetables",
+            "noun": "cabbage"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "eye",
+          "word": "olho",
+          "pic": {
+            "theme": "body parts",
+            "noun": "eye"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "sauce",
+          "word": "molho",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "sauce"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "piolho",
+        "folho"
+      ],
+      "nearMiss": []
+    }
+  ],
+  "opened": {
+    "toys/balloon": "balloon",
+    "At the Supermarket/bread": "bread",
+    "Things That Fly/dragon": "dragon",
+    "around the house/gate": "gate",
+    "body parts/hand": "hand",
+    "fruits/lemon": "lemon",
+    "At the Supermarket/melon": "melon",
+    "ocean life/shark": "shark",
+    "around the house/bathtub": "bathtub",
+    "furniture/chair": "chair",
+    "around the house/faucet": "faucet",
+    "winter/fireplace": "fireplace",
+    "accessories/bracelet": "bracelet",
+    "around the house/fridge": "fridge",
+    "around the house/kettle": "kettle",
+    "accessories/wallet": "wallet",
+    "At the Supermarket/cart": "cart",
+    "farm animals/chick": "chick",
+    "animals/dolphin": "dolphin",
+    "farm animals/duckling": "duckling",
+    "spring/nest": "nest",
+    "activities/playground": "playground",
+    "farm animals/chicken": "chicken",
+    "around the house/kitchen": "kitchen",
+    "bakery/doughnut": "doughnut",
+    "camping/pinecone": "pinecone",
+    "birds 2/swallow": "swallow",
+    "forest creatures/weasel": "weasel",
+    "vehicles/bicycle": "bicycle",
+    "insects and bugs/butterfly": "butterfly",
+    "space/comet": "comet",
+    "clothing/jacket": "jacket",
+    "classroom/pen": "pen",
+    "space/planet": "planet",
+    "clothing/t-shirt": "t-shirt",
+    "furniture/stool": "stool",
+    "kitchen tools/bowl": "bowl",
+    "christmas/candle": "candle",
+    "kitchen tools/pot": "pot",
+    "christmas/star": "star",
+    "around the house/window": "window",
+    "zoo animals/gazelle": "gazelle",
+    "vegetables/eggplant": "eggplant",
+    "pets/cat": "cat",
+    "farm animals/duck": "duck",
+    "pets/mouse": "mouse",
+    "kitchen tools/plate": "plate",
+    "clothing/shoe": "shoe",
+    "reptiles and Amphibians/alligator": "alligator",
+    "accessories/cap": "cap",
+    "body parts/foot": "foot",
+    "summer/popsicle": "popsicle",
+    "zoo animals/chimpanzee": "chimpanzee",
+    "insects and bugs/worm": "worm",
+    "body parts/mouth": "mouth",
+    "At the Supermarket/popcorn": "popcorn",
+    "zoo animals/seal": "seal",
+    "At the Supermarket/bag": "bag",
+    "toys/ball": "ball",
+    "classroom/glue": "glue",
+    "vegetables/onion": "onion",
+    "furniture/bed": "bed",
+    "farm animals/llama": "llama",
+    "clothing/pajamas": "pajamas",
+    "farm animals/cow": "cow",
+    "kitchen tools/knife": "knife",
+    "camping/tent": "tent",
+    "toys/doll": "doll",
+    "kitchen tools/mug": "mug",
+    "breakfast/pancake": "pancake",
+    "christmas/bell": "bell",
+    "vegetables/cucumber": "cucumber",
+    "vehicles/submarine": "submarine",
+    "music/violin": "violin",
+    "At the Supermarket/can": "can",
+    "vegetables/potato": "potato",
+    "clothing/tie": "tie",
+    "around the house/broom": "broom",
+    "vegetables/carrot": "carrot",
+    "classroom/scissors": "scissors",
+    "easter/feather": "feather",
+    "christmas/reindeer": "reindeer",
+    "vegetables/cabbage": "cabbage",
+    "body parts/eye": "eye",
+    "At the Supermarket/sauce": "sauce"
+  },
+  "couplets": [
+    {
+      "id": "gato-pato",
+      "lines": [
+        "No quintal dormia o gato",
+        "e no lago nadava o ___"
+      ],
+      "answer": {
+        "vocabKey": "duck"
+      },
+      "rhymeWith": "gato",
+      "cueFree": false
+    },
+    {
+      "id": "balao-limao",
+      "lines": [
+        "A menina soltou o balão",
+        "e na cozinha achou um ___"
+      ],
+      "answer": {
+        "vocabKey": "lemon"
+      },
+      "rhymeWith": "balão",
+      "cueFree": false
+    },
+    {
+      "id": "cadeira-geladeira",
+      "lines": [
+        "O vovô sentou na cadeira",
+        "bem ao lado da ___"
+      ],
+      "answer": {
+        "vocabKey": "fridge"
+      },
+      "rhymeWith": "cadeira",
+      "cueFree": false
+    },
+    {
+      "id": "ninho-patinho",
+      "lines": [
+        "O passarinho saiu do ninho",
+        "e foi brincar com o ___"
+      ],
+      "answer": {
+        "vocabKey": "duckling"
+      },
+      "rhymeWith": "ninho",
+      "cueFree": false
+    },
+    {
+      "id": "caneta-borboleta",
+      "lines": [
+        "Eu desenhei com a caneta",
+        "uma linda ___"
+      ],
+      "answer": {
+        "vocabKey": "butterfly"
+      },
+      "rhymeWith": "caneta",
+      "cueFree": false
+    },
+    {
+      "id": "janela-estrela",
+      "lines": [
+        "Olhei o céu pela janela",
+        "e vi brilhar uma ___"
+      ],
+      "answer": {
+        "vocabKey": "star"
+      },
+      "rhymeWith": "janela",
+      "cueFree": false
+    },
+    {
+      "id": "bola-cola",
+      "lines": [
+        "Eu perdi a minha bola",
+        "e achei um pote de ___"
+      ],
+      "answer": {
+        "vocabKey": "glue"
+      },
+      "rhymeWith": "bola",
+      "cueFree": false
+    },
+    {
+      "id": "boca-pipoca",
+      "lines": [
+        "Abri bem a minha boca",
+        "para comer a ___"
+      ],
+      "answer": {
+        "vocabKey": "popcorn"
+      },
+      "rhymeWith": "boca",
+      "cueFree": false
+    },
+    {
+      "id": "cama-pijama",
+      "lines": [
+        "Já está pronta a minha cama",
+        "e eu vesti o meu ___"
+      ],
+      "answer": {
+        "vocabKey": "pajamas"
+      },
+      "rhymeWith": "cama",
+      "cueFree": false
+    },
+    {
+      "id": "boneca-caneca",
+      "lines": [
+        "Eu dei chá para a boneca",
+        "na minha pequena ___"
+      ],
+      "answer": {
+        "vocabKey": "mug"
+      },
+      "rhymeWith": "boneca",
+      "cueFree": false
+    },
+    {
+      "id": "galinha-cozinha",
+      "lines": [
+        "A galinha entrou na sala",
+        "e depois foi pra ___"
+      ],
+      "answer": {
+        "vocabKey": "kitchen"
+      },
+      "rhymeWith": "galinha",
+      "cueFree": false
+    },
+    {
+      "id": "jacare-pe",
+      "lines": [
+        "O jacaré abriu a boca",
+        "quase mordeu o meu ___"
+      ],
+      "answer": {
+        "vocabKey": "foot"
+      },
+      "rhymeWith": "jacaré",
+      "cueFree": false
+    }
+  ],
+  "strings": {
+    "G1-309": {
+      "title": "Palavras que rimam: circule e escreva",
+      "instruction": "Fale o nome da primeira figura. Circule a figura que rima com ela e depois escreva a palavra na linha."
+    },
+    "K-352": {
+      "title": "Rima ou não rima?",
+      "instruction": "Fale o nome das duas figuras em voz alta. Se as duas palavras rimam, circule o certo. Se não rimam, circule o xis."
+    },
+    "G1-343": {
+      "title": "Separe as rimas",
+      "instruction": "Fale o nome de cada figura do banco. Ache a figura grande com que ela rima e escreva a palavra em uma linha embaixo dessa figura."
+    },
+    "G1-344": {
+      "title": "Complete a rima",
+      "instruction": "Leia os dois versos em voz alta. Olhe a figura, escute a rima e escreva na linha a palavra que rima e está faltando."
+    },
+    "G1-345": {
+      "title": "Cadeia de rimas: duas palavras para cada figura",
+      "instruction": "Fale o nome de cada figura. Ache no banco as duas palavras que rimam com ela e escreva nas linhas. Algumas palavras não cabem em nenhuma."
+    },
+    "G1-346": {
+      "title": "Invente as suas rimas",
+      "instruction": "Leia a palavra ao lado de cada figura. Pense em duas palavras que rimam com ela e escreva uma em cada linha."
+    }
+  }
+}

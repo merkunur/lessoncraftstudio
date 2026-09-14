@@ -1,0 +1,8 @@
+{
+  "locale": "pt",
+  "refusals": {
+    "G2-330": "a face cut precisa de 8 aumentativos/diminutivos com figura própria no acervo; o português tem 7 (patinho, pãozinho, pazinha, portão, casinha, lagartixa, banqueta) com sufixos distintos — o oitavo seria um segundo -inho (coelhinho/carrinho), e um sufixo repetido no conjunto quebra a verificação da face detetive (limite conhecido G2-316) — refuse, nunca preencher",
+    "G2-329": "a face \"o que vai no meio\" pede uma letra de ligação entre duas partes; na forma family do português a raiz recebe o sufixo direto (flor + -ista = florista), não há decisão ortográfica de junção — refuse.F1 por desenho (§4 pt F1)",
+    "G2-331": "a face match liga duas METADES com figura; na forma family a segunda parte é um sufixo sem figura (-eiro, -ista, -ada), então não existem metades para ligar em português — refuse.F3 por desenho (§4 pt F3)"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "cardCase": "lower",
+  "articleStyle": {
+    "enabled": true,
+    "level": 2,
+    "dots": null,
+    "elision": "refuse",
+    "elisionChip": null,
+    "legend": null
+  },
+  "plural": {
+    "enabled": true,
+    "clones": 3
+  },
+  "bilingual": {
+    "partnerExemplar": "en",
+    "hostName": "português",
+    "partnerNames": {
+      "en": "inglês",
+      "de": "alemão",
+      "es": "espanhol",
+      "fr": "francês",
+      "it": "italiano",
+      "nl": "holandês",
+      "sv": "sueco",
+      "da": "dinamarquês",
+      "no": "norueguês",
+      "fi": "finlandês"
+    },
+    "legendSep": " · "
+  },
+  "syllable": {
+    "enabled": true,
+    "mark": "hyphen",
+    "hyphen": "-",
+    "strictPool": false,
+    "exclude": [
+      "projector",
+      "papaya",
+      "kiwi",
+      "bagel",
+      "macaron",
+      "muffin",
+      "rudolph",
+      "brownie",
+      "cupcake",
+      "milkshake",
+      "bacon",
+      "closet",
+      "shorts",
+      "tablet",
+      "snorkel",
+      "lego"
+    ]
+  },
+  "twinLayout": {
+    "cols": 4,
+    "blockRows": 2
+  },
+  "exclude": [
+    "crane",
+    "plum",
+    "persimmon",
+    "antelope",
+    "cranberry",
+    "subway",
+    "water",
+    "harp",
+    "axe",
+    "anchor",
+    "eagle",
+    "beech-tree",
+    "firefly",
+    "pelican",
+    "chess",
+    "dice",
+    "cards",
+    "blocks",
+    "crayons",
+    "lego",
+    "bus"
+  ],
+  "strings": {
+    "K-324": {
+      "title": "Cartões de figura e palavra para recortar",
+      "instruction": "Recorte pelas linhas pontilhadas para fazer os cartões. Fale o nome de cada figura e depois leia a palavra."
+    },
+    "twin": {
+      "title": "Jogo da memória: figuras e palavras",
+      "instruction": "Recorte os dezesseis cartões. Coloque cada palavra ao lado da sua figura ou vire todos para baixo e jogue o jogo da memória."
+    },
+    "article": {
+      "title": "O ou a? Cartões com o artigo",
+      "instruction": "Recorte os oito cartões. Fale cada palavra com o seu artigo, do jeito que está escrito no cartão."
+    },
+    "plural": {
+      "title": "Um e muitos: cartões de singular e plural",
+      "instruction": "Recorte os cartões. Fale a palavra de um só e a palavra de muitos e depois junte cada par."
+    },
+    "bilingual": {
+      "title": "Cartões bilíngues: português e inglês",
+      "instruction": "Recorte os oito cartões. Fale a palavra em português e depois em inglês e guarde os cartões para o seu mural de palavras."
+    },
+    "syllable": {
+      "title": "Cartões silabados: leia a palavra por partes",
+      "instruction": "Recorte os oito cartões. Leia cada palavra sílaba por sílaba e depois fale a palavra inteira."
+    }
+  }
+}

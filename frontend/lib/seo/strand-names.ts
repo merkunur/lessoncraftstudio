@@ -135,6 +135,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     fr: 'Lecture de textes documentaires', // nt20-C panel (tools/apply-b3-locale.js)
     it: 'Lettura: testi informativi', // nt20-C panel (tools/apply-b3-locale.js)
     da: 'Læsning: fagtekster', // nt20-C panel (tools/apply-b3-locale.js)
+    pt: 'Leitura de textos informativos', // nt20-C panel (tools/apply-b3-locale.js)
   },
   // Reading: Literature (RL — answer key-detail questions about an erzählende Geschichte). de literacy
   // fan-out opener (picture-story RL.K.1); literary COMPREHENSION — the distinct literary Bereich

@@ -1,0 +1,4430 @@
+{
+  "shape": "syllable",
+  "exemplar": "b",
+  "casing": "lower",
+  "strictPool": null,
+  "units": [
+    {
+      "id": "b",
+      "label": "ba be bi bo bu",
+      "cells": [
+        "ba",
+        "be",
+        "bi",
+        "bo",
+        "bu"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "acorn",
+          "word": "bolota",
+          "unit": "bo",
+          "split": [
+            "bo",
+            "lo",
+            "ta"
+          ]
+        },
+        {
+          "key": "baguette",
+          "word": "baguete",
+          "unit": "ba",
+          "split": [
+            "ba",
+            "gue",
+            "te"
+          ]
+        },
+        {
+          "key": "balloon",
+          "word": "balão",
+          "unit": "ba",
+          "split": [
+            "ba",
+            "lão"
+          ]
+        },
+        {
+          "key": "banana",
+          "word": "banana",
+          "unit": "ba",
+          "split": [
+            "ba",
+            "na",
+            "na"
+          ]
+        },
+        {
+          "key": "bathtub",
+          "word": "banheira",
+          "unit": "ba",
+          "split": [
+            "ba",
+            "nhei",
+            "ra"
+          ]
+        },
+        {
+          "key": "beetle",
+          "word": "besouro",
+          "unit": "be",
+          "split": [
+            "be",
+            "sou",
+            "ro"
+          ]
+        },
+        {
+          "key": "bison",
+          "word": "bisão",
+          "unit": "bi",
+          "split": [
+            "bi",
+            "são"
+          ]
+        },
+        {
+          "key": "boots",
+          "word": "botas",
+          "unit": "bo",
+          "split": [
+            "bo",
+            "tas"
+          ]
+        },
+        {
+          "key": "bud",
+          "word": "botão",
+          "unit": "bo",
+          "split": [
+            "bo",
+            "tão"
+          ]
+        },
+        {
+          "key": "calf",
+          "word": "bezerro",
+          "unit": "be",
+          "split": [
+            "be",
+            "zer",
+            "ro"
+          ]
+        },
+        {
+          "key": "cheeks",
+          "word": "bochechas",
+          "unit": "bo",
+          "split": [
+            "bo",
+            "che",
+            "chas"
+          ]
+        },
+        {
+          "key": "doll",
+          "word": "boneca",
+          "unit": "bo",
+          "split": [
+            "bo",
+            "ne",
+            "ca"
+          ]
+        },
+        {
+          "key": "potato",
+          "word": "batata",
+          "unit": "ba",
+          "split": [
+            "ba",
+            "ta",
+            "ta"
+          ]
+        },
+        {
+          "key": "scale",
+          "word": "balança",
+          "unit": "ba",
+          "split": [
+            "ba",
+            "lan",
+            "ça"
+          ]
+        },
+        {
+          "key": "swing",
+          "word": "balanço",
+          "unit": "ba",
+          "split": [
+            "ba",
+            "lan",
+            "ço"
+          ]
+        },
+        {
+          "key": "whisk",
+          "word": "batedor",
+          "unit": "ba",
+          "split": [
+            "ba",
+            "te",
+            "dor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p",
+      "label": "pa pe pi po pu",
+      "cells": [
+        "pa",
+        "pe",
+        "pi",
+        "po",
+        "pu"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "baker",
+          "word": "padeiro",
+          "unit": "pa",
+          "split": [
+            "pa",
+            "dei",
+            "ro"
+          ]
+        },
+        {
+          "key": "cucumber",
+          "word": "pepino",
+          "unit": "pe",
+          "split": [
+            "pe",
+            "pi",
+            "no"
+          ]
+        },
+        {
+          "key": "duckling",
+          "word": "patinho",
+          "unit": "pa",
+          "split": [
+            "pa",
+            "ti",
+            "nho"
+          ],
+          "pictureTheme": "farm animals"
+        },
+        {
+          "key": "foal",
+          "word": "potro",
+          "unit": "po",
+          "split": [
+            "po",
+            "tro"
+          ]
+        },
+        {
+          "key": "package",
+          "word": "pacote",
+          "unit": "pa",
+          "split": [
+            "pa",
+            "co",
+            "te"
+          ]
+        },
+        {
+          "key": "pajamas",
+          "word": "pijama",
+          "unit": "pi",
+          "split": [
+            "pi",
+            "ja",
+            "ma"
+          ]
+        },
+        {
+          "key": "paper",
+          "word": "papel",
+          "unit": "pa",
+          "split": [
+            "pa",
+            "pel"
+          ]
+        },
+        {
+          "key": "peacock",
+          "word": "pavão",
+          "unit": "pa",
+          "split": [
+            "pa",
+            "vão"
+          ]
+        },
+        {
+          "key": "pepper",
+          "word": "pimentão",
+          "unit": "pi",
+          "split": [
+            "pi",
+            "men",
+            "tão"
+          ]
+        },
+        {
+          "key": "pilot",
+          "word": "piloto",
+          "unit": "pi",
+          "split": [
+            "pi",
+            "lo",
+            "to"
+          ]
+        },
+        {
+          "key": "pinecone",
+          "word": "pinha",
+          "unit": "pi",
+          "split": [
+            "pi",
+            "nha"
+          ]
+        },
+        {
+          "key": "popcorn",
+          "word": "pipoca",
+          "unit": "pi",
+          "split": [
+            "pi",
+            "po",
+            "ca"
+          ]
+        },
+        {
+          "key": "popsicle",
+          "word": "picolé",
+          "unit": "pi",
+          "split": [
+            "pi",
+            "co",
+            "lé"
+          ]
+        },
+        {
+          "key": "pot",
+          "word": "panela",
+          "unit": "pa",
+          "split": [
+            "pa",
+            "ne",
+            "la"
+          ]
+        },
+        {
+          "key": "pudding",
+          "word": "pudim",
+          "unit": "pu",
+          "split": [
+            "pu",
+            "dim"
+          ]
+        },
+        {
+          "key": "rock",
+          "word": "pedra",
+          "unit": "pe",
+          "split": [
+            "pe",
+            "dra"
+          ]
+        },
+        {
+          "key": "spade",
+          "word": "pazinha",
+          "unit": "pa",
+          "split": [
+            "pa",
+            "zi",
+            "nha"
+          ]
+        },
+        {
+          "key": "thumb",
+          "word": "polegar",
+          "unit": "po",
+          "split": [
+            "po",
+            "le",
+            "gar"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m",
+      "label": "ma me mi mo mu",
+      "cells": [
+        "ma",
+        "me",
+        "mi",
+        "mo",
+        "mu"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "backpack",
+          "word": "mochila",
+          "unit": "mo",
+          "split": [
+            "mo",
+            "chi",
+            "la"
+          ]
+        },
+        {
+          "key": "corn",
+          "word": "milho",
+          "unit": "mi",
+          "split": [
+            "mi",
+            "lho"
+          ]
+        },
+        {
+          "key": "crutches",
+          "word": "muletas",
+          "unit": "mu",
+          "split": [
+            "mu",
+            "le",
+            "tas"
+          ]
+        },
+        {
+          "key": "girl",
+          "word": "menina",
+          "unit": "me",
+          "split": [
+            "me",
+            "ni",
+            "na"
+          ]
+        },
+        {
+          "key": "jumpsuit",
+          "word": "macacão",
+          "unit": "ma",
+          "split": [
+            "ma",
+            "ca",
+            "cão"
+          ]
+        },
+        {
+          "key": "medal",
+          "word": "medalha",
+          "unit": "me",
+          "split": [
+            "me",
+            "da",
+            "lha"
+          ]
+        },
+        {
+          "key": "melon",
+          "word": "melão",
+          "unit": "me",
+          "split": [
+            "me",
+            "lão"
+          ]
+        },
+        {
+          "key": "monkey",
+          "word": "macaco",
+          "unit": "ma",
+          "split": [
+            "ma",
+            "ca",
+            "co"
+          ]
+        },
+        {
+          "key": "papaya",
+          "word": "mamão",
+          "unit": "ma",
+          "split": [
+            "ma",
+            "mão"
+          ]
+        },
+        {
+          "key": "pasta",
+          "word": "macarrão",
+          "unit": "ma",
+          "split": [
+            "ma",
+            "car",
+            "rão"
+          ]
+        },
+        {
+          "key": "sauce",
+          "word": "molho",
+          "unit": "mo",
+          "split": [
+            "mo",
+            "lho"
+          ]
+        },
+        {
+          "key": "strawberry",
+          "word": "morango",
+          "unit": "mo",
+          "split": [
+            "mo",
+            "ran",
+            "go"
+          ]
+        },
+        {
+          "key": "sweatshirt",
+          "word": "moletom",
+          "unit": "mo",
+          "split": [
+            "mo",
+            "le",
+            "tom"
+          ]
+        },
+        {
+          "key": "worm",
+          "word": "minhoca",
+          "unit": "mi",
+          "split": [
+            "mi",
+            "nho",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t",
+      "label": "ta te ti to tu",
+      "cells": [
+        "ta",
+        "te",
+        "ti",
+        "to",
+        "tu"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "badger",
+          "word": "texugo",
+          "unit": "te",
+          "split": [
+            "te",
+            "xu",
+            "go"
+          ]
+        },
+        {
+          "key": "bowl",
+          "word": "tigela",
+          "unit": "ti",
+          "split": [
+            "ti",
+            "ge",
+            "la"
+          ]
+        },
+        {
+          "key": "carpet",
+          "word": "tapete",
+          "unit": "ta",
+          "split": [
+            "ta",
+            "pe",
+            "te"
+          ]
+        },
+        {
+          "key": "keyboard",
+          "word": "teclado",
+          "unit": "te",
+          "split": [
+            "te",
+            "cla",
+            "do"
+          ]
+        },
+        {
+          "key": "outlet",
+          "word": "tomada",
+          "unit": "to",
+          "split": [
+            "to",
+            "ma",
+            "da"
+          ]
+        },
+        {
+          "key": "scissors",
+          "word": "tesoura",
+          "unit": "te",
+          "split": [
+            "te",
+            "sou",
+            "ra"
+          ]
+        },
+        {
+          "key": "shark",
+          "word": "tubarão",
+          "unit": "tu",
+          "split": [
+            "tu",
+            "ba",
+            "rão"
+          ]
+        },
+        {
+          "key": "tiger",
+          "word": "tigre",
+          "unit": "ti",
+          "split": [
+            "ti",
+            "gre"
+          ]
+        },
+        {
+          "key": "tomato",
+          "word": "tomate",
+          "unit": "to",
+          "split": [
+            "to",
+            "ma",
+            "te"
+          ]
+        },
+        {
+          "key": "toucan",
+          "word": "tucano",
+          "unit": "tu",
+          "split": [
+            "tu",
+            "ca",
+            "no"
+          ]
+        },
+        {
+          "key": "tulip",
+          "word": "tulipa",
+          "unit": "tu",
+          "split": [
+            "tu",
+            "li",
+            "pa"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "label": "ca co cu",
+      "cells": [
+        "ca",
+        "co",
+        "cu"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "cabin",
+          "word": "cabana",
+          "unit": "ca",
+          "split": [
+            "ca",
+            "ba",
+            "na"
+          ]
+        },
+        {
+          "key": "camel",
+          "word": "camelo",
+          "unit": "ca",
+          "split": [
+            "ca",
+            "me",
+            "lo"
+          ]
+        },
+        {
+          "key": "canary",
+          "word": "canário",
+          "unit": "ca",
+          "split": [
+            "ca",
+            "ná",
+            "rio"
+          ]
+        },
+        {
+          "key": "chair",
+          "word": "cadeira",
+          "unit": "ca",
+          "split": [
+            "ca",
+            "dei",
+            "ra"
+          ]
+        },
+        {
+          "key": "coat",
+          "word": "casaco",
+          "unit": "ca",
+          "split": [
+            "ca",
+            "sa",
+            "co"
+          ]
+        },
+        {
+          "key": "cobra",
+          "word": "cobra",
+          "unit": "co",
+          "split": [
+            "co",
+            "bra"
+          ]
+        },
+        {
+          "key": "comet",
+          "word": "cometa",
+          "unit": "co",
+          "split": [
+            "co",
+            "me",
+            "ta"
+          ]
+        },
+        {
+          "key": "dog",
+          "word": "cachorro",
+          "unit": "ca",
+          "split": [
+            "ca",
+            "chor",
+            "ro"
+          ],
+          "pictureTheme": "pets"
+        },
+        {
+          "key": "goat",
+          "word": "cabra",
+          "unit": "ca",
+          "split": [
+            "ca",
+            "bra"
+          ]
+        },
+        {
+          "key": "head",
+          "word": "cabeça",
+          "unit": "ca",
+          "split": [
+            "ca",
+            "be",
+            "ça"
+          ]
+        },
+        {
+          "key": "heart",
+          "word": "coração",
+          "unit": "co",
+          "split": [
+            "co",
+            "ra",
+            "ção"
+          ]
+        },
+        {
+          "key": "horse",
+          "word": "cavalo",
+          "unit": "ca",
+          "split": [
+            "ca",
+            "va",
+            "lo"
+          ]
+        },
+        {
+          "key": "kitchen",
+          "word": "cozinha",
+          "unit": "co",
+          "split": [
+            "co",
+            "zi",
+            "nha"
+          ]
+        },
+        {
+          "key": "mug",
+          "word": "caneca",
+          "unit": "ca",
+          "split": [
+            "ca",
+            "ne",
+            "ca"
+          ]
+        },
+        {
+          "key": "necklace",
+          "word": "colar",
+          "unit": "co",
+          "split": [
+            "co",
+            "lar"
+          ]
+        },
+        {
+          "key": "notebook",
+          "word": "caderno",
+          "unit": "ca",
+          "split": [
+            "ca",
+            "der",
+            "no"
+          ]
+        },
+        {
+          "key": "owl",
+          "word": "coruja",
+          "unit": "co",
+          "split": [
+            "co",
+            "ru",
+            "ja"
+          ]
+        },
+        {
+          "key": "pen",
+          "word": "caneta",
+          "unit": "ca",
+          "split": [
+            "ca",
+            "ne",
+            "ta"
+          ]
+        },
+        {
+          "key": "scarf",
+          "word": "cachecol",
+          "unit": "ca",
+          "split": [
+            "ca",
+            "che",
+            "col"
+          ]
+        },
+        {
+          "key": "shirt",
+          "word": "camisa",
+          "unit": "ca",
+          "split": [
+            "ca",
+            "mi",
+            "sa"
+          ]
+        },
+        {
+          "key": "shrimp",
+          "word": "camarão",
+          "unit": "ca",
+          "split": [
+            "ca",
+            "ma",
+            "rão"
+          ]
+        },
+        {
+          "key": "snail",
+          "word": "caracol",
+          "unit": "ca",
+          "split": [
+            "ca",
+            "ra",
+            "col"
+          ]
+        },
+        {
+          "key": "spoon",
+          "word": "colher",
+          "unit": "co",
+          "split": [
+            "co",
+            "lher"
+          ]
+        },
+        {
+          "key": "truck",
+          "word": "caminhão",
+          "unit": "ca",
+          "split": [
+            "ca",
+            "mi",
+            "nhão"
+          ],
+          "pictureTheme": "vehicles"
+        },
+        {
+          "key": "vest",
+          "word": "colete",
+          "unit": "co",
+          "split": [
+            "co",
+            "le",
+            "te"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l",
+      "label": "la le li lo lu",
+      "cells": [
+        "la",
+        "le",
+        "li",
+        "lo",
+        "lu"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "book",
+          "word": "livro",
+          "unit": "li",
+          "split": [
+            "li",
+            "vro"
+          ]
+        },
+        {
+          "key": "caterpillar",
+          "word": "lagarta",
+          "unit": "la",
+          "split": [
+            "la",
+            "gar",
+            "ta"
+          ]
+        },
+        {
+          "key": "diamond",
+          "word": "losango",
+          "unit": "lo",
+          "split": [
+            "lo",
+            "san",
+            "go"
+          ]
+        },
+        {
+          "key": "fireplace",
+          "word": "lareira",
+          "unit": "la",
+          "split": [
+            "la",
+            "rei",
+            "ra"
+          ]
+        },
+        {
+          "key": "gloves",
+          "word": "luvas",
+          "unit": "lu",
+          "split": [
+            "lu",
+            "vas"
+          ]
+        },
+        {
+          "key": "lemon",
+          "word": "limão",
+          "unit": "li",
+          "split": [
+            "li",
+            "mão"
+          ]
+        },
+        {
+          "key": "lights",
+          "word": "luzes",
+          "unit": "lu",
+          "split": [
+            "lu",
+            "zes"
+          ]
+        },
+        {
+          "key": "lizard",
+          "word": "lagarto",
+          "unit": "la",
+          "split": [
+            "la",
+            "gar",
+            "to"
+          ]
+        },
+        {
+          "key": "orange",
+          "word": "laranja",
+          "unit": "la",
+          "split": [
+            "la",
+            "ran",
+            "ja"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f",
+      "label": "fa fe fi fo fu",
+      "cells": [
+        "fa",
+        "fe",
+        "fi",
+        "fo",
+        "fu"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "binder",
+          "word": "fichário",
+          "unit": "fi",
+          "split": [
+            "fi",
+            "chá",
+            "rio"
+          ]
+        },
+        {
+          "key": "ferret",
+          "word": "furão",
+          "unit": "fu",
+          "split": [
+            "fu",
+            "rão"
+          ]
+        },
+        {
+          "key": "leaf",
+          "word": "folha",
+          "unit": "fo",
+          "split": [
+            "fo",
+            "lha"
+          ]
+        },
+        {
+          "key": "lighthouse",
+          "word": "farol",
+          "unit": "fa",
+          "split": [
+            "fa",
+            "rol"
+          ]
+        },
+        {
+          "key": "rocket",
+          "word": "foguete",
+          "unit": "fo",
+          "split": [
+            "fo",
+            "gue",
+            "te"
+          ]
+        },
+        {
+          "key": "stove",
+          "word": "fogão",
+          "unit": "fo",
+          "split": [
+            "fo",
+            "gão"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r",
+      "label": "ra re ri ro ru",
+      "cells": [
+        "ra",
+        "re",
+        "ri",
+        "ro",
+        "ru"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "cabbage",
+          "word": "repolho",
+          "unit": "re",
+          "split": [
+            "re",
+            "po",
+            "lho"
+          ]
+        },
+        {
+          "key": "clock",
+          "word": "relógio",
+          "unit": "re",
+          "split": [
+            "re",
+            "ló",
+            "gio"
+          ]
+        },
+        {
+          "key": "fox",
+          "word": "raposa",
+          "unit": "ra",
+          "split": [
+            "ra",
+            "po",
+            "sa"
+          ]
+        },
+        {
+          "key": "grater",
+          "word": "ralador",
+          "unit": "ra",
+          "split": [
+            "ra",
+            "la",
+            "dor"
+          ]
+        },
+        {
+          "key": "medicine",
+          "word": "remédio",
+          "unit": "re",
+          "split": [
+            "re",
+            "mé",
+            "dio"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n",
+      "label": "na ne ni no nu",
+      "cells": [
+        "na",
+        "ne",
+        "ni",
+        "no",
+        "nu"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "cloud",
+          "word": "nuvem",
+          "unit": "nu",
+          "split": [
+            "nu",
+            "vem"
+          ]
+        },
+        {
+          "key": "nest",
+          "word": "ninho",
+          "unit": "ni",
+          "split": [
+            "ni",
+            "nho"
+          ]
+        },
+        {
+          "key": "nose",
+          "word": "nariz",
+          "unit": "na",
+          "split": [
+            "na",
+            "riz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g",
+      "label": "ga go gu",
+      "cells": [
+        "ga",
+        "go",
+        "gu"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "chicken",
+          "word": "galinha",
+          "unit": "ga",
+          "split": [
+            "ga",
+            "li",
+            "nha"
+          ],
+          "pictureTheme": "farm animals"
+        },
+        {
+          "key": "garage",
+          "word": "garagem",
+          "unit": "ga",
+          "split": [
+            "ga",
+            "ra",
+            "gem"
+          ]
+        },
+        {
+          "key": "gazelle",
+          "word": "gazela",
+          "unit": "ga",
+          "split": [
+            "ga",
+            "ze",
+            "la"
+          ]
+        },
+        {
+          "key": "gorilla",
+          "word": "gorila",
+          "unit": "go",
+          "split": [
+            "go",
+            "ri",
+            "la"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "label": "da de di do du",
+      "cells": [
+        "da",
+        "de",
+        "di",
+        "do",
+        "du"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "dice",
+          "word": "dados",
+          "unit": "da",
+          "split": [
+            "da",
+            "dos"
+          ]
+        },
+        {
+          "key": "domino",
+          "word": "dominó",
+          "unit": "do",
+          "split": [
+            "do",
+            "mi",
+            "nó"
+          ]
+        },
+        {
+          "key": "weasel",
+          "word": "doninha",
+          "unit": "do",
+          "split": [
+            "do",
+            "ni",
+            "nha"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s",
+      "label": "sa se si so su",
+      "cells": [
+        "sa",
+        "se",
+        "si",
+        "so",
+        "su"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "bag",
+          "word": "sacola",
+          "unit": "sa",
+          "split": [
+            "sa",
+            "co",
+            "la"
+          ]
+        },
+        {
+          "key": "shoe",
+          "word": "sapato",
+          "unit": "sa",
+          "split": [
+            "sa",
+            "pa",
+            "to"
+          ]
+        },
+        {
+          "key": "syringe",
+          "word": "seringa",
+          "unit": "se",
+          "split": [
+            "se",
+            "rin",
+            "ga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch",
+      "label": "cha che chi cho chu",
+      "cells": [
+        "cha",
+        "che",
+        "chi",
+        "cho",
+        "chu"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "chimney",
+          "word": "chaminé",
+          "unit": "cha",
+          "split": [
+            "cha",
+            "mi",
+            "né"
+          ]
+        },
+        {
+          "key": "flip-flops",
+          "word": "chinelos",
+          "unit": "chi",
+          "split": [
+            "chi",
+            "ne",
+            "los"
+          ]
+        },
+        {
+          "key": "hat",
+          "word": "chapéu",
+          "unit": "cha",
+          "split": [
+            "cha",
+            "péu"
+          ]
+        },
+        {
+          "key": "kettle",
+          "word": "chaleira",
+          "unit": "cha",
+          "split": [
+            "cha",
+            "lei",
+            "ra"
+          ]
+        },
+        {
+          "key": "key",
+          "word": "chave",
+          "unit": "cha",
+          "split": [
+            "cha",
+            "ve"
+          ]
+        },
+        {
+          "key": "rain",
+          "word": "chuva",
+          "unit": "chu",
+          "split": [
+            "chu",
+            "va"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ce-ci",
+      "label": "ce ci",
+      "cells": [
+        "ce",
+        "ci"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "carrot",
+          "word": "cenoura",
+          "unit": "ce",
+          "split": [
+            "ce",
+            "nou",
+            "ra"
+          ]
+        },
+        {
+          "key": "cherry",
+          "word": "cereja",
+          "unit": "ce",
+          "split": [
+            "ce",
+            "re",
+            "ja"
+          ]
+        },
+        {
+          "key": "cylinder",
+          "word": "cilindro",
+          "unit": "ci",
+          "split": [
+            "ci",
+            "lin",
+            "dro"
+          ]
+        },
+        {
+          "key": "onion",
+          "word": "cebola",
+          "unit": "ce",
+          "split": [
+            "ce",
+            "bo",
+            "la"
+          ]
+        },
+        {
+          "key": "stork",
+          "word": "cegonha",
+          "unit": "ce",
+          "split": [
+            "ce",
+            "go",
+            "nha"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "j",
+      "label": "ja je ji jo ju",
+      "cells": [
+        "ja",
+        "je",
+        "ji",
+        "jo",
+        "ju"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "alligator",
+          "word": "jacaré",
+          "unit": "ja",
+          "split": [
+            "ja",
+            "ca",
+            "ré"
+          ]
+        },
+        {
+          "key": "jacket",
+          "word": "jaqueta",
+          "unit": "ja",
+          "split": [
+            "ja",
+            "que",
+            "ta"
+          ]
+        },
+        {
+          "key": "window",
+          "word": "janela",
+          "unit": "ja",
+          "split": [
+            "ja",
+            "ne",
+            "la"
+          ]
+        }
+      ]
+    }
+  ],
+  "complexExemplar": "tr-pr",
+  "complexUnits": [
+    {
+      "id": "tr-pr",
+      "label": "tra tre tri pra pre pro",
+      "cells": [
+        "tra",
+        "tre",
+        "tri",
+        "pra",
+        "pre",
+        "pro"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "clover",
+          "word": "trevo",
+          "unit": "tre",
+          "split": [
+            "tre",
+            "vo"
+          ]
+        },
+        {
+          "key": "ham",
+          "word": "presunto",
+          "unit": "pre",
+          "split": [
+            "pre",
+            "sun",
+            "to"
+          ]
+        },
+        {
+          "key": "nativity",
+          "word": "presépio",
+          "unit": "pre",
+          "split": [
+            "pre",
+            "sé",
+            "pio"
+          ]
+        },
+        {
+          "key": "plate",
+          "word": "prato",
+          "unit": "pra",
+          "split": [
+            "pra",
+            "to"
+          ]
+        },
+        {
+          "key": "present",
+          "word": "presente",
+          "unit": "pre",
+          "split": [
+            "pre",
+            "sen",
+            "te"
+          ]
+        },
+        {
+          "key": "sled",
+          "word": "trenó",
+          "unit": "tre",
+          "split": [
+            "tre",
+            "nó"
+          ]
+        },
+        {
+          "key": "sloth",
+          "word": "preguiça",
+          "unit": "pre",
+          "split": [
+            "pre",
+            "gui",
+            "ça"
+          ]
+        },
+        {
+          "key": "teacher",
+          "word": "professor",
+          "unit": "pro",
+          "split": [
+            "pro",
+            "fes",
+            "sor"
+          ]
+        },
+        {
+          "key": "tractor",
+          "word": "trator",
+          "unit": "tra",
+          "split": [
+            "tra",
+            "tor"
+          ]
+        },
+        {
+          "key": "trapezoid",
+          "word": "trapézio",
+          "unit": "tra",
+          "split": [
+            "tra",
+            "pé",
+            "zio"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bl-fl-gl",
+      "label": "blo blu fla flo glo",
+      "cells": [
+        "blo",
+        "blu",
+        "fla",
+        "flo",
+        "glo"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "blocks",
+          "word": "blocos",
+          "unit": "blo",
+          "split": [
+            "blo",
+            "cos"
+          ]
+        },
+        {
+          "key": "blouse",
+          "word": "blusa",
+          "unit": "blu",
+          "split": [
+            "blu",
+            "sa"
+          ]
+        },
+        {
+          "key": "flamingo",
+          "word": "flamingo",
+          "unit": "fla",
+          "split": [
+            "fla",
+            "min",
+            "go"
+          ]
+        },
+        {
+          "key": "florist",
+          "word": "florista",
+          "unit": "flo",
+          "split": [
+            "flo",
+            "ris",
+            "ta"
+          ]
+        },
+        {
+          "key": "forest",
+          "word": "floresta",
+          "unit": "flo",
+          "split": [
+            "flo",
+            "res",
+            "ta"
+          ]
+        },
+        {
+          "key": "globe",
+          "word": "globo",
+          "unit": "glo",
+          "split": [
+            "glo",
+            "bo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "br-cr-gr-dr",
+      "label": "bra cra gra gri dra",
+      "cells": [
+        "bra",
+        "cra",
+        "gra",
+        "gri",
+        "dra"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "arm",
+          "word": "braço",
+          "unit": "bra",
+          "split": [
+            "bra",
+            "ço"
+          ]
+        },
+        {
+          "key": "cricket",
+          "word": "grilo",
+          "unit": "gri",
+          "split": [
+            "gri",
+            "lo"
+          ]
+        },
+        {
+          "key": "dragon",
+          "word": "dragão",
+          "unit": "dra",
+          "split": [
+            "dra",
+            "gão"
+          ]
+        },
+        {
+          "key": "grass",
+          "word": "grama",
+          "unit": "gra",
+          "split": [
+            "gra",
+            "ma"
+          ]
+        },
+        {
+          "key": "tie",
+          "word": "gravata",
+          "unit": "gra",
+          "split": [
+            "gra",
+            "va",
+            "ta"
+          ]
+        }
+      ]
+    }
+  ],
+  "multi": [
+    {
+      "key": "acorn",
+      "word": "bolota",
+      "split": [
+        "bo",
+        "lo",
+        "ta"
+      ]
+    },
+    {
+      "key": "alligator",
+      "word": "jacaré",
+      "split": [
+        "ja",
+        "ca",
+        "ré"
+      ]
+    },
+    {
+      "key": "ant",
+      "word": "formiga",
+      "split": [
+        "for",
+        "mi",
+        "ga"
+      ]
+    },
+    {
+      "key": "arm",
+      "word": "braço",
+      "split": [
+        "bra",
+        "ço"
+      ]
+    },
+    {
+      "key": "armchair",
+      "word": "poltrona",
+      "split": [
+        "pol",
+        "tro",
+        "na"
+      ]
+    },
+    {
+      "key": "artist",
+      "word": "artista",
+      "split": [
+        "ar",
+        "tis",
+        "ta"
+      ]
+    },
+    {
+      "key": "asparagus",
+      "word": "aspargo",
+      "split": [
+        "as",
+        "par",
+        "go"
+      ]
+    },
+    {
+      "key": "backpack",
+      "word": "mochila",
+      "split": [
+        "mo",
+        "chi",
+        "la"
+      ]
+    },
+    {
+      "key": "badger",
+      "word": "texugo",
+      "split": [
+        "te",
+        "xu",
+        "go"
+      ]
+    },
+    {
+      "key": "bag",
+      "word": "sacola",
+      "split": [
+        "sa",
+        "co",
+        "la"
+      ]
+    },
+    {
+      "key": "baguette",
+      "word": "baguete",
+      "split": [
+        "ba",
+        "gue",
+        "te"
+      ]
+    },
+    {
+      "key": "baker",
+      "word": "padeiro",
+      "split": [
+        "pa",
+        "dei",
+        "ro"
+      ]
+    },
+    {
+      "key": "balloon",
+      "word": "balão",
+      "split": [
+        "ba",
+        "lão"
+      ]
+    },
+    {
+      "key": "banana",
+      "word": "banana",
+      "split": [
+        "ba",
+        "na",
+        "na"
+      ]
+    },
+    {
+      "key": "bandage",
+      "word": "bandagem",
+      "split": [
+        "ban",
+        "da",
+        "gem"
+      ]
+    },
+    {
+      "key": "barber",
+      "word": "barbeiro",
+      "split": [
+        "bar",
+        "bei",
+        "ro"
+      ]
+    },
+    {
+      "key": "basket",
+      "word": "cesta",
+      "split": [
+        "ces",
+        "ta"
+      ]
+    },
+    {
+      "key": "bat",
+      "word": "morcego",
+      "split": [
+        "mor",
+        "ce",
+        "go"
+      ]
+    },
+    {
+      "key": "bathtub",
+      "word": "banheira",
+      "split": [
+        "ba",
+        "nhei",
+        "ra"
+      ]
+    },
+    {
+      "key": "beanie",
+      "word": "gorro",
+      "split": [
+        "gor",
+        "ro"
+      ]
+    },
+    {
+      "key": "beaver",
+      "word": "castor",
+      "split": [
+        "cas",
+        "tor"
+      ]
+    },
+    {
+      "key": "beetle",
+      "word": "besouro",
+      "split": [
+        "be",
+        "sou",
+        "ro"
+      ]
+    },
+    {
+      "key": "belt",
+      "word": "cinto",
+      "split": [
+        "cin",
+        "to"
+      ]
+    },
+    {
+      "key": "bench",
+      "word": "banco",
+      "split": [
+        "ban",
+        "co"
+      ]
+    },
+    {
+      "key": "binder",
+      "word": "fichário",
+      "split": [
+        "fi",
+        "chá",
+        "rio"
+      ]
+    },
+    {
+      "key": "bird",
+      "word": "pássaro",
+      "split": [
+        "pás",
+        "sa",
+        "ro"
+      ]
+    },
+    {
+      "key": "biscuit",
+      "word": "biscoito",
+      "split": [
+        "bis",
+        "coi",
+        "to"
+      ]
+    },
+    {
+      "key": "bison",
+      "word": "bisão",
+      "split": [
+        "bi",
+        "são"
+      ]
+    },
+    {
+      "key": "blocks",
+      "word": "blocos",
+      "split": [
+        "blo",
+        "cos"
+      ]
+    },
+    {
+      "key": "blouse",
+      "word": "blusa",
+      "split": [
+        "blu",
+        "sa"
+      ]
+    },
+    {
+      "key": "boat",
+      "word": "barco",
+      "split": [
+        "bar",
+        "co"
+      ]
+    },
+    {
+      "key": "book",
+      "word": "livro",
+      "split": [
+        "li",
+        "vro"
+      ]
+    },
+    {
+      "key": "bookcase",
+      "word": "estante",
+      "split": [
+        "es",
+        "tan",
+        "te"
+      ]
+    },
+    {
+      "key": "boots",
+      "word": "botas",
+      "split": [
+        "bo",
+        "tas"
+      ]
+    },
+    {
+      "key": "bottle",
+      "word": "garrafa",
+      "split": [
+        "gar",
+        "ra",
+        "fa"
+      ]
+    },
+    {
+      "key": "bowl",
+      "word": "tigela",
+      "split": [
+        "ti",
+        "ge",
+        "la"
+      ]
+    },
+    {
+      "key": "bracelet",
+      "word": "pulseira",
+      "split": [
+        "pul",
+        "sei",
+        "ra"
+      ]
+    },
+    {
+      "key": "brain",
+      "word": "cérebro",
+      "split": [
+        "cé",
+        "re",
+        "bro"
+      ]
+    },
+    {
+      "key": "broccoli",
+      "word": "brócolis",
+      "split": [
+        "bró",
+        "co",
+        "lis"
+      ]
+    },
+    {
+      "key": "broom",
+      "word": "vassoura",
+      "split": [
+        "vas",
+        "sou",
+        "ra"
+      ]
+    },
+    {
+      "key": "bucket",
+      "word": "balde",
+      "split": [
+        "bal",
+        "de"
+      ]
+    },
+    {
+      "key": "bud",
+      "word": "botão",
+      "split": [
+        "bo",
+        "tão"
+      ]
+    },
+    {
+      "key": "bull",
+      "word": "touro",
+      "split": [
+        "tou",
+        "ro"
+      ]
+    },
+    {
+      "key": "bun",
+      "word": "pãozinho",
+      "split": [
+        "pão",
+        "zi",
+        "nho"
+      ]
+    },
+    {
+      "key": "cabbage",
+      "word": "repolho",
+      "split": [
+        "re",
+        "po",
+        "lho"
+      ]
+    },
+    {
+      "key": "cabin",
+      "word": "cabana",
+      "split": [
+        "ca",
+        "ba",
+        "na"
+      ]
+    },
+    {
+      "key": "cabinet",
+      "word": "armário",
+      "split": [
+        "ar",
+        "má",
+        "rio"
+      ]
+    },
+    {
+      "key": "calf",
+      "word": "bezerro",
+      "split": [
+        "be",
+        "zer",
+        "ro"
+      ]
+    },
+    {
+      "key": "camel",
+      "word": "camelo",
+      "split": [
+        "ca",
+        "me",
+        "lo"
+      ]
+    },
+    {
+      "key": "canary",
+      "word": "canário",
+      "split": [
+        "ca",
+        "ná",
+        "rio"
+      ]
+    },
+    {
+      "key": "car",
+      "word": "carro",
+      "split": [
+        "car",
+        "ro"
+      ]
+    },
+    {
+      "key": "cardigan",
+      "word": "cardigã",
+      "split": [
+        "car",
+        "di",
+        "gã"
+      ]
+    },
+    {
+      "key": "cards",
+      "word": "cartas",
+      "split": [
+        "car",
+        "tas"
+      ]
+    },
+    {
+      "key": "carpet",
+      "word": "tapete",
+      "split": [
+        "ta",
+        "pe",
+        "te"
+      ]
+    },
+    {
+      "key": "carrot",
+      "word": "cenoura",
+      "split": [
+        "ce",
+        "nou",
+        "ra"
+      ]
+    },
+    {
+      "key": "cart",
+      "word": "carrinho",
+      "split": [
+        "car",
+        "ri",
+        "nho"
+      ]
+    },
+    {
+      "key": "caterpillar",
+      "word": "lagarta",
+      "split": [
+        "la",
+        "gar",
+        "ta"
+      ]
+    },
+    {
+      "key": "chair",
+      "word": "cadeira",
+      "split": [
+        "ca",
+        "dei",
+        "ra"
+      ]
+    },
+    {
+      "key": "cheeks",
+      "word": "bochechas",
+      "split": [
+        "bo",
+        "che",
+        "chas"
+      ]
+    },
+    {
+      "key": "cheetah",
+      "word": "guepardo",
+      "split": [
+        "gue",
+        "par",
+        "do"
+      ]
+    },
+    {
+      "key": "cherry",
+      "word": "cereja",
+      "split": [
+        "ce",
+        "re",
+        "ja"
+      ]
+    },
+    {
+      "key": "chick",
+      "word": "pintinho",
+      "split": [
+        "pin",
+        "ti",
+        "nho"
+      ],
+      "pictureTheme": "farm animals"
+    },
+    {
+      "key": "chicken",
+      "word": "galinha",
+      "split": [
+        "ga",
+        "li",
+        "nha"
+      ],
+      "pictureTheme": "farm animals"
+    },
+    {
+      "key": "chimney",
+      "word": "chaminé",
+      "split": [
+        "cha",
+        "mi",
+        "né"
+      ]
+    },
+    {
+      "key": "chimpanzee",
+      "word": "chimpanzé",
+      "split": [
+        "chim",
+        "pan",
+        "zé"
+      ]
+    },
+    {
+      "key": "chinchilla",
+      "word": "chinchila",
+      "split": [
+        "chin",
+        "chi",
+        "la"
+      ]
+    },
+    {
+      "key": "circle",
+      "word": "círculo",
+      "split": [
+        "cír",
+        "cu",
+        "lo"
+      ]
+    },
+    {
+      "key": "clock",
+      "word": "relógio",
+      "split": [
+        "re",
+        "ló",
+        "gio"
+      ]
+    },
+    {
+      "key": "cloud",
+      "word": "nuvem",
+      "split": [
+        "nu",
+        "vem"
+      ]
+    },
+    {
+      "key": "clover",
+      "word": "trevo",
+      "split": [
+        "tre",
+        "vo"
+      ]
+    },
+    {
+      "key": "coat",
+      "word": "casaco",
+      "split": [
+        "ca",
+        "sa",
+        "co"
+      ]
+    },
+    {
+      "key": "cobra",
+      "word": "cobra",
+      "split": [
+        "co",
+        "bra"
+      ]
+    },
+    {
+      "key": "comb",
+      "word": "pente",
+      "split": [
+        "pen",
+        "te"
+      ]
+    },
+    {
+      "key": "comet",
+      "word": "cometa",
+      "split": [
+        "co",
+        "me",
+        "ta"
+      ]
+    },
+    {
+      "key": "compass",
+      "word": "bússola",
+      "split": [
+        "bús",
+        "so",
+        "la"
+      ]
+    },
+    {
+      "key": "cookie",
+      "word": "biscoito",
+      "split": [
+        "bis",
+        "coi",
+        "to"
+      ]
+    },
+    {
+      "key": "corn",
+      "word": "milho",
+      "split": [
+        "mi",
+        "lho"
+      ]
+    },
+    {
+      "key": "crib",
+      "word": "berço",
+      "split": [
+        "ber",
+        "ço"
+      ]
+    },
+    {
+      "key": "cricket",
+      "word": "grilo",
+      "split": [
+        "gri",
+        "lo"
+      ]
+    },
+    {
+      "key": "crow",
+      "word": "corvo",
+      "split": [
+        "cor",
+        "vo"
+      ]
+    },
+    {
+      "key": "crutches",
+      "word": "muletas",
+      "split": [
+        "mu",
+        "le",
+        "tas"
+      ]
+    },
+    {
+      "key": "cucumber",
+      "word": "pepino",
+      "split": [
+        "pe",
+        "pi",
+        "no"
+      ]
+    },
+    {
+      "key": "cup",
+      "word": "xícara",
+      "split": [
+        "xí",
+        "ca",
+        "ra"
+      ]
+    },
+    {
+      "key": "curtains",
+      "word": "cortinas",
+      "split": [
+        "cor",
+        "ti",
+        "nas"
+      ]
+    },
+    {
+      "key": "cylinder",
+      "word": "cilindro",
+      "split": [
+        "ci",
+        "lin",
+        "dro"
+      ]
+    },
+    {
+      "key": "diamond",
+      "word": "losango",
+      "split": [
+        "lo",
+        "san",
+        "go"
+      ]
+    },
+    {
+      "key": "dice",
+      "word": "dados",
+      "split": [
+        "da",
+        "dos"
+      ]
+    },
+    {
+      "key": "doctor",
+      "word": "médico",
+      "split": [
+        "mé",
+        "di",
+        "co"
+      ]
+    },
+    {
+      "key": "dog",
+      "word": "cachorro",
+      "split": [
+        "ca",
+        "chor",
+        "ro"
+      ],
+      "pictureTheme": "pets"
+    },
+    {
+      "key": "doll",
+      "word": "boneca",
+      "split": [
+        "bo",
+        "ne",
+        "ca"
+      ]
+    },
+    {
+      "key": "dolphin",
+      "word": "golfinho",
+      "split": [
+        "gol",
+        "fi",
+        "nho"
+      ]
+    },
+    {
+      "key": "domino",
+      "word": "dominó",
+      "split": [
+        "do",
+        "mi",
+        "nó"
+      ]
+    },
+    {
+      "key": "donkey",
+      "word": "burro",
+      "split": [
+        "bur",
+        "ro"
+      ]
+    },
+    {
+      "key": "door",
+      "word": "porta",
+      "split": [
+        "por",
+        "ta"
+      ]
+    },
+    {
+      "key": "doughnut",
+      "word": "rosquinha",
+      "split": [
+        "ros",
+        "qui",
+        "nha"
+      ]
+    },
+    {
+      "key": "dove",
+      "word": "pomba",
+      "split": [
+        "pom",
+        "ba"
+      ]
+    },
+    {
+      "key": "dragon",
+      "word": "dragão",
+      "split": [
+        "dra",
+        "gão"
+      ]
+    },
+    {
+      "key": "dress",
+      "word": "vestido",
+      "split": [
+        "ves",
+        "ti",
+        "do"
+      ]
+    },
+    {
+      "key": "dresser",
+      "word": "cômoda",
+      "split": [
+        "cô",
+        "mo",
+        "da"
+      ]
+    },
+    {
+      "key": "drum",
+      "word": "tambor",
+      "split": [
+        "tam",
+        "bor"
+      ]
+    },
+    {
+      "key": "duckling",
+      "word": "patinho",
+      "split": [
+        "pa",
+        "ti",
+        "nho"
+      ],
+      "pictureTheme": "farm animals"
+    },
+    {
+      "key": "earth",
+      "word": "terra",
+      "split": [
+        "ter",
+        "ra"
+      ]
+    },
+    {
+      "key": "eraser",
+      "word": "borracha",
+      "split": [
+        "bor",
+        "ra",
+        "cha"
+      ]
+    },
+    {
+      "key": "face",
+      "word": "rosto",
+      "split": [
+        "ros",
+        "to"
+      ]
+    },
+    {
+      "key": "faucet",
+      "word": "torneira",
+      "split": [
+        "tor",
+        "nei",
+        "ra"
+      ]
+    },
+    {
+      "key": "fence",
+      "word": "cerca",
+      "split": [
+        "cer",
+        "ca"
+      ]
+    },
+    {
+      "key": "ferret",
+      "word": "furão",
+      "split": [
+        "fu",
+        "rão"
+      ]
+    },
+    {
+      "key": "ferry",
+      "word": "balsa",
+      "split": [
+        "bal",
+        "sa"
+      ]
+    },
+    {
+      "key": "firefighter",
+      "word": "bombeiro",
+      "split": [
+        "bom",
+        "bei",
+        "ro"
+      ]
+    },
+    {
+      "key": "fireplace",
+      "word": "lareira",
+      "split": [
+        "la",
+        "rei",
+        "ra"
+      ]
+    },
+    {
+      "key": "fish",
+      "word": "peixe",
+      "split": [
+        "pei",
+        "xe"
+      ]
+    },
+    {
+      "key": "flamingo",
+      "word": "flamingo",
+      "split": [
+        "fla",
+        "min",
+        "go"
+      ]
+    },
+    {
+      "key": "flashlight",
+      "word": "lanterna",
+      "split": [
+        "lan",
+        "ter",
+        "na"
+      ]
+    },
+    {
+      "key": "flip-flops",
+      "word": "chinelos",
+      "split": [
+        "chi",
+        "ne",
+        "los"
+      ]
+    },
+    {
+      "key": "florist",
+      "word": "florista",
+      "split": [
+        "flo",
+        "ris",
+        "ta"
+      ]
+    },
+    {
+      "key": "flute",
+      "word": "flauta",
+      "split": [
+        "flau",
+        "ta"
+      ]
+    },
+    {
+      "key": "foal",
+      "word": "potro",
+      "split": [
+        "po",
+        "tro"
+      ]
+    },
+    {
+      "key": "folder",
+      "word": "pasta",
+      "split": [
+        "pas",
+        "ta"
+      ]
+    },
+    {
+      "key": "forest",
+      "word": "floresta",
+      "split": [
+        "flo",
+        "res",
+        "ta"
+      ]
+    },
+    {
+      "key": "fork",
+      "word": "garfo",
+      "split": [
+        "gar",
+        "fo"
+      ]
+    },
+    {
+      "key": "fox",
+      "word": "raposa",
+      "split": [
+        "ra",
+        "po",
+        "sa"
+      ]
+    },
+    {
+      "key": "garage",
+      "word": "garagem",
+      "split": [
+        "ga",
+        "ra",
+        "gem"
+      ]
+    },
+    {
+      "key": "garden",
+      "word": "jardim",
+      "split": [
+        "jar",
+        "dim"
+      ]
+    },
+    {
+      "key": "gate",
+      "word": "portão",
+      "split": [
+        "por",
+        "tão"
+      ]
+    },
+    {
+      "key": "gazelle",
+      "word": "gazela",
+      "split": [
+        "ga",
+        "ze",
+        "la"
+      ]
+    },
+    {
+      "key": "ghost",
+      "word": "fantasma",
+      "split": [
+        "fan",
+        "tas",
+        "ma"
+      ]
+    },
+    {
+      "key": "giraffe",
+      "word": "girafa",
+      "split": [
+        "gi",
+        "ra",
+        "fa"
+      ]
+    },
+    {
+      "key": "girl",
+      "word": "menina",
+      "split": [
+        "me",
+        "ni",
+        "na"
+      ]
+    },
+    {
+      "key": "globe",
+      "word": "globo",
+      "split": [
+        "glo",
+        "bo"
+      ]
+    },
+    {
+      "key": "gloves",
+      "word": "luvas",
+      "split": [
+        "lu",
+        "vas"
+      ]
+    },
+    {
+      "key": "goat",
+      "word": "cabra",
+      "split": [
+        "ca",
+        "bra"
+      ]
+    },
+    {
+      "key": "goose",
+      "word": "ganso",
+      "split": [
+        "gan",
+        "so"
+      ]
+    },
+    {
+      "key": "gorilla",
+      "word": "gorila",
+      "split": [
+        "go",
+        "ri",
+        "la"
+      ]
+    },
+    {
+      "key": "grass",
+      "word": "grama",
+      "split": [
+        "gra",
+        "ma"
+      ]
+    },
+    {
+      "key": "grater",
+      "word": "ralador",
+      "split": [
+        "ra",
+        "la",
+        "dor"
+      ]
+    },
+    {
+      "key": "ham",
+      "word": "presunto",
+      "split": [
+        "pre",
+        "sun",
+        "to"
+      ]
+    },
+    {
+      "key": "hamburger",
+      "word": "hambúrguer",
+      "split": [
+        "ham",
+        "búr",
+        "guer"
+      ]
+    },
+    {
+      "key": "hammer",
+      "word": "martelo",
+      "split": [
+        "mar",
+        "te",
+        "lo"
+      ]
+    },
+    {
+      "key": "hamster",
+      "word": "hamster",
+      "split": [
+        "hams",
+        "ter"
+      ]
+    },
+    {
+      "key": "handbag",
+      "word": "bolsa",
+      "split": [
+        "bol",
+        "sa"
+      ]
+    },
+    {
+      "key": "handsaw",
+      "word": "serrote",
+      "split": [
+        "ser",
+        "ro",
+        "te"
+      ]
+    },
+    {
+      "key": "harp",
+      "word": "harpa",
+      "split": [
+        "har",
+        "pa"
+      ]
+    },
+    {
+      "key": "hat",
+      "word": "chapéu",
+      "split": [
+        "cha",
+        "péu"
+      ]
+    },
+    {
+      "key": "head",
+      "word": "cabeça",
+      "split": [
+        "ca",
+        "be",
+        "ça"
+      ]
+    },
+    {
+      "key": "heart",
+      "word": "coração",
+      "split": [
+        "co",
+        "ra",
+        "ção"
+      ]
+    },
+    {
+      "key": "heron",
+      "word": "garça",
+      "split": [
+        "gar",
+        "ça"
+      ]
+    },
+    {
+      "key": "horse",
+      "word": "cavalo",
+      "split": [
+        "ca",
+        "va",
+        "lo"
+      ]
+    },
+    {
+      "key": "jacket",
+      "word": "jaqueta",
+      "split": [
+        "ja",
+        "que",
+        "ta"
+      ]
+    },
+    {
+      "key": "jug",
+      "word": "jarra",
+      "split": [
+        "jar",
+        "ra"
+      ]
+    },
+    {
+      "key": "jumpsuit",
+      "word": "macacão",
+      "split": [
+        "ma",
+        "ca",
+        "cão"
+      ]
+    },
+    {
+      "key": "kettle",
+      "word": "chaleira",
+      "split": [
+        "cha",
+        "lei",
+        "ra"
+      ]
+    },
+    {
+      "key": "key",
+      "word": "chave",
+      "split": [
+        "cha",
+        "ve"
+      ]
+    },
+    {
+      "key": "keyboard",
+      "word": "teclado",
+      "split": [
+        "te",
+        "cla",
+        "do"
+      ]
+    },
+    {
+      "key": "kitchen",
+      "word": "cozinha",
+      "split": [
+        "co",
+        "zi",
+        "nha"
+      ]
+    },
+    {
+      "key": "ladder",
+      "word": "escada",
+      "split": [
+        "es",
+        "ca",
+        "da"
+      ]
+    },
+    {
+      "key": "lamb",
+      "word": "cordeiro",
+      "split": [
+        "cor",
+        "dei",
+        "ro"
+      ]
+    },
+    {
+      "key": "lamp",
+      "word": "lâmpada",
+      "split": [
+        "lâm",
+        "pa",
+        "da"
+      ]
+    },
+    {
+      "key": "leaf",
+      "word": "folha",
+      "split": [
+        "fo",
+        "lha"
+      ]
+    },
+    {
+      "key": "lemon",
+      "word": "limão",
+      "split": [
+        "li",
+        "mão"
+      ]
+    },
+    {
+      "key": "letter",
+      "word": "carta",
+      "split": [
+        "car",
+        "ta"
+      ]
+    },
+    {
+      "key": "lettuce",
+      "word": "alface",
+      "split": [
+        "al",
+        "fa",
+        "ce"
+      ]
+    },
+    {
+      "key": "lid",
+      "word": "tampa",
+      "split": [
+        "tam",
+        "pa"
+      ]
+    },
+    {
+      "key": "lighthouse",
+      "word": "farol",
+      "split": [
+        "fa",
+        "rol"
+      ]
+    },
+    {
+      "key": "lights",
+      "word": "luzes",
+      "split": [
+        "lu",
+        "zes"
+      ]
+    },
+    {
+      "key": "lizard",
+      "word": "lagarto",
+      "split": [
+        "la",
+        "gar",
+        "to"
+      ]
+    },
+    {
+      "key": "llama",
+      "word": "lhama",
+      "split": [
+        "lha",
+        "ma"
+      ]
+    },
+    {
+      "key": "lunchbox",
+      "word": "lancheira",
+      "split": [
+        "lan",
+        "chei",
+        "ra"
+      ]
+    },
+    {
+      "key": "mango",
+      "word": "manga",
+      "split": [
+        "man",
+        "ga"
+      ]
+    },
+    {
+      "key": "marker",
+      "word": "marcador",
+      "split": [
+        "mar",
+        "ca",
+        "dor"
+      ]
+    },
+    {
+      "key": "mask",
+      "word": "máscara",
+      "split": [
+        "más",
+        "ca",
+        "ra"
+      ]
+    },
+    {
+      "key": "medal",
+      "word": "medalha",
+      "split": [
+        "me",
+        "da",
+        "lha"
+      ]
+    },
+    {
+      "key": "medicine",
+      "word": "remédio",
+      "split": [
+        "re",
+        "mé",
+        "dio"
+      ]
+    },
+    {
+      "key": "melon",
+      "word": "melão",
+      "split": [
+        "me",
+        "lão"
+      ]
+    },
+    {
+      "key": "milk",
+      "word": "leite",
+      "split": [
+        "lei",
+        "te"
+      ]
+    },
+    {
+      "key": "mirror",
+      "word": "espelho",
+      "split": [
+        "es",
+        "pe",
+        "lho"
+      ]
+    },
+    {
+      "key": "monkey",
+      "word": "macaco",
+      "split": [
+        "ma",
+        "ca",
+        "co"
+      ]
+    },
+    {
+      "key": "mosquito",
+      "word": "mosquito",
+      "split": [
+        "mos",
+        "qui",
+        "to"
+      ]
+    },
+    {
+      "key": "mountain",
+      "word": "montanha",
+      "split": [
+        "mon",
+        "ta",
+        "nha"
+      ]
+    },
+    {
+      "key": "mug",
+      "word": "caneca",
+      "split": [
+        "ca",
+        "ne",
+        "ca"
+      ]
+    },
+    {
+      "key": "nativity",
+      "word": "presépio",
+      "split": [
+        "pre",
+        "sé",
+        "pio"
+      ]
+    },
+    {
+      "key": "necklace",
+      "word": "colar",
+      "split": [
+        "co",
+        "lar"
+      ]
+    },
+    {
+      "key": "nest",
+      "word": "ninho",
+      "split": [
+        "ni",
+        "nho"
+      ]
+    },
+    {
+      "key": "nose",
+      "word": "nariz",
+      "split": [
+        "na",
+        "riz"
+      ]
+    },
+    {
+      "key": "notebook",
+      "word": "caderno",
+      "split": [
+        "ca",
+        "der",
+        "no"
+      ]
+    },
+    {
+      "key": "octopus",
+      "word": "polvo",
+      "split": [
+        "pol",
+        "vo"
+      ]
+    },
+    {
+      "key": "onion",
+      "word": "cebola",
+      "split": [
+        "ce",
+        "bo",
+        "la"
+      ]
+    },
+    {
+      "key": "orange",
+      "word": "laranja",
+      "split": [
+        "la",
+        "ran",
+        "ja"
+      ]
+    },
+    {
+      "key": "otter",
+      "word": "lontra",
+      "split": [
+        "lon",
+        "tra"
+      ]
+    },
+    {
+      "key": "outlet",
+      "word": "tomada",
+      "split": [
+        "to",
+        "ma",
+        "da"
+      ]
+    },
+    {
+      "key": "oven",
+      "word": "forno",
+      "split": [
+        "for",
+        "no"
+      ]
+    },
+    {
+      "key": "owl",
+      "word": "coruja",
+      "split": [
+        "co",
+        "ru",
+        "ja"
+      ]
+    },
+    {
+      "key": "oyster",
+      "word": "ostra",
+      "split": [
+        "os",
+        "tra"
+      ]
+    },
+    {
+      "key": "package",
+      "word": "pacote",
+      "split": [
+        "pa",
+        "co",
+        "te"
+      ]
+    },
+    {
+      "key": "pajamas",
+      "word": "pijama",
+      "split": [
+        "pi",
+        "ja",
+        "ma"
+      ]
+    },
+    {
+      "key": "pancake",
+      "word": "panqueca",
+      "split": [
+        "pan",
+        "que",
+        "ca"
+      ]
+    },
+    {
+      "key": "panda",
+      "word": "panda",
+      "split": [
+        "pan",
+        "da"
+      ]
+    },
+    {
+      "key": "papaya",
+      "word": "mamão",
+      "split": [
+        "ma",
+        "mão"
+      ]
+    },
+    {
+      "key": "paper",
+      "word": "papel",
+      "split": [
+        "pa",
+        "pel"
+      ]
+    },
+    {
+      "key": "pasta",
+      "word": "macarrão",
+      "split": [
+        "ma",
+        "car",
+        "rão"
+      ]
+    },
+    {
+      "key": "peacock",
+      "word": "pavão",
+      "split": [
+        "pa",
+        "vão"
+      ]
+    },
+    {
+      "key": "peas",
+      "word": "ervilhas",
+      "split": [
+        "er",
+        "vi",
+        "lhas"
+      ]
+    },
+    {
+      "key": "pen",
+      "word": "caneta",
+      "split": [
+        "ca",
+        "ne",
+        "ta"
+      ]
+    },
+    {
+      "key": "pencil",
+      "word": "lápis",
+      "split": [
+        "lá",
+        "pis"
+      ]
+    },
+    {
+      "key": "penguin",
+      "word": "pinguim",
+      "split": [
+        "pin",
+        "guim"
+      ]
+    },
+    {
+      "key": "pepper",
+      "word": "pimentão",
+      "split": [
+        "pi",
+        "men",
+        "tão"
+      ]
+    },
+    {
+      "key": "pie",
+      "word": "torta",
+      "split": [
+        "tor",
+        "ta"
+      ]
+    },
+    {
+      "key": "pig",
+      "word": "porco",
+      "split": [
+        "por",
+        "co"
+      ]
+    },
+    {
+      "key": "pigeon",
+      "word": "pombo",
+      "split": [
+        "pom",
+        "bo"
+      ]
+    },
+    {
+      "key": "pilot",
+      "word": "piloto",
+      "split": [
+        "pi",
+        "lo",
+        "to"
+      ]
+    },
+    {
+      "key": "pinecone",
+      "word": "pinha",
+      "split": [
+        "pi",
+        "nha"
+      ]
+    },
+    {
+      "key": "pizza",
+      "word": "pizza",
+      "split": [
+        "piz",
+        "za"
+      ]
+    },
+    {
+      "key": "planet",
+      "word": "planeta",
+      "split": [
+        "pla",
+        "ne",
+        "ta"
+      ]
+    },
+    {
+      "key": "plate",
+      "word": "prato",
+      "split": [
+        "pra",
+        "to"
+      ]
+    },
+    {
+      "key": "playground",
+      "word": "parquinho",
+      "split": [
+        "par",
+        "qui",
+        "nho"
+      ]
+    },
+    {
+      "key": "pool",
+      "word": "piscina",
+      "split": [
+        "pis",
+        "ci",
+        "na"
+      ]
+    },
+    {
+      "key": "popcorn",
+      "word": "pipoca",
+      "split": [
+        "pi",
+        "po",
+        "ca"
+      ]
+    },
+    {
+      "key": "popsicle",
+      "word": "picolé",
+      "split": [
+        "pi",
+        "co",
+        "lé"
+      ]
+    },
+    {
+      "key": "porridge",
+      "word": "mingau",
+      "split": [
+        "min",
+        "gau"
+      ]
+    },
+    {
+      "key": "pot",
+      "word": "panela",
+      "split": [
+        "pa",
+        "ne",
+        "la"
+      ]
+    },
+    {
+      "key": "potato",
+      "word": "batata",
+      "split": [
+        "ba",
+        "ta",
+        "ta"
+      ]
+    },
+    {
+      "key": "present",
+      "word": "presente",
+      "split": [
+        "pre",
+        "sen",
+        "te"
+      ]
+    },
+    {
+      "key": "pudding",
+      "word": "pudim",
+      "split": [
+        "pu",
+        "dim"
+      ]
+    },
+    {
+      "key": "raccoon",
+      "word": "guaxinim",
+      "split": [
+        "gua",
+        "xi",
+        "nim"
+      ]
+    },
+    {
+      "key": "rain",
+      "word": "chuva",
+      "split": [
+        "chu",
+        "va"
+      ]
+    },
+    {
+      "key": "rake",
+      "word": "ancinho",
+      "split": [
+        "an",
+        "ci",
+        "nho"
+      ]
+    },
+    {
+      "key": "rock",
+      "word": "pedra",
+      "split": [
+        "pe",
+        "dra"
+      ]
+    },
+    {
+      "key": "rocket",
+      "word": "foguete",
+      "split": [
+        "fo",
+        "gue",
+        "te"
+      ]
+    },
+    {
+      "key": "rope",
+      "word": "corda",
+      "split": [
+        "cor",
+        "da"
+      ]
+    },
+    {
+      "key": "ruler",
+      "word": "régua",
+      "split": [
+        "ré",
+        "gua"
+      ]
+    },
+    {
+      "key": "sailboat",
+      "word": "veleiro",
+      "split": [
+        "ve",
+        "lei",
+        "ro"
+      ]
+    },
+    {
+      "key": "sauce",
+      "word": "molho",
+      "split": [
+        "mo",
+        "lho"
+      ]
+    },
+    {
+      "key": "sausage",
+      "word": "salsicha",
+      "split": [
+        "sal",
+        "si",
+        "cha"
+      ]
+    },
+    {
+      "key": "scale",
+      "word": "balança",
+      "split": [
+        "ba",
+        "lan",
+        "ça"
+      ]
+    },
+    {
+      "key": "scarf",
+      "word": "cachecol",
+      "split": [
+        "ca",
+        "che",
+        "col"
+      ]
+    },
+    {
+      "key": "scissors",
+      "word": "tesoura",
+      "split": [
+        "te",
+        "sou",
+        "ra"
+      ]
+    },
+    {
+      "key": "seashell",
+      "word": "concha",
+      "split": [
+        "con",
+        "cha"
+      ]
+    },
+    {
+      "key": "shampoo",
+      "word": "xampu",
+      "split": [
+        "xam",
+        "pu"
+      ]
+    },
+    {
+      "key": "shark",
+      "word": "tubarão",
+      "split": [
+        "tu",
+        "ba",
+        "rão"
+      ]
+    },
+    {
+      "key": "shirt",
+      "word": "camisa",
+      "split": [
+        "ca",
+        "mi",
+        "sa"
+      ]
+    },
+    {
+      "key": "shoe",
+      "word": "sapato",
+      "split": [
+        "sa",
+        "pa",
+        "to"
+      ]
+    },
+    {
+      "key": "shrimp",
+      "word": "camarão",
+      "split": [
+        "ca",
+        "ma",
+        "rão"
+      ]
+    },
+    {
+      "key": "sled",
+      "word": "trenó",
+      "split": [
+        "tre",
+        "nó"
+      ]
+    },
+    {
+      "key": "slippers",
+      "word": "pantufas",
+      "split": [
+        "pan",
+        "tu",
+        "fas"
+      ]
+    },
+    {
+      "key": "sloth",
+      "word": "preguiça",
+      "split": [
+        "pre",
+        "gui",
+        "ça"
+      ]
+    },
+    {
+      "key": "slug",
+      "word": "lesma",
+      "split": [
+        "les",
+        "ma"
+      ]
+    },
+    {
+      "key": "snail",
+      "word": "caracol",
+      "split": [
+        "ca",
+        "ra",
+        "col"
+      ]
+    },
+    {
+      "key": "spade",
+      "word": "pazinha",
+      "split": [
+        "pa",
+        "zi",
+        "nha"
+      ]
+    },
+    {
+      "key": "sponge",
+      "word": "esponja",
+      "split": [
+        "es",
+        "pon",
+        "ja"
+      ]
+    },
+    {
+      "key": "spoon",
+      "word": "colher",
+      "split": [
+        "co",
+        "lher"
+      ]
+    },
+    {
+      "key": "square",
+      "word": "quadrado",
+      "split": [
+        "qua",
+        "dra",
+        "do"
+      ]
+    },
+    {
+      "key": "squirrel",
+      "word": "esquilo",
+      "split": [
+        "es",
+        "qui",
+        "lo"
+      ]
+    },
+    {
+      "key": "stage",
+      "word": "palco",
+      "split": [
+        "pal",
+        "co"
+      ]
+    },
+    {
+      "key": "star",
+      "word": "estrela",
+      "split": [
+        "es",
+        "tre",
+        "la"
+      ]
+    },
+    {
+      "key": "stool",
+      "word": "banqueta",
+      "split": [
+        "ban",
+        "que",
+        "ta"
+      ]
+    },
+    {
+      "key": "stork",
+      "word": "cegonha",
+      "split": [
+        "ce",
+        "go",
+        "nha"
+      ]
+    },
+    {
+      "key": "stove",
+      "word": "fogão",
+      "split": [
+        "fo",
+        "gão"
+      ]
+    },
+    {
+      "key": "strawberry",
+      "word": "morango",
+      "split": [
+        "mo",
+        "ran",
+        "go"
+      ]
+    },
+    {
+      "key": "sunflower",
+      "word": "girassol",
+      "split": [
+        "gi",
+        "ras",
+        "sol"
+      ]
+    },
+    {
+      "key": "swan",
+      "word": "cisne",
+      "split": [
+        "cis",
+        "ne"
+      ]
+    },
+    {
+      "key": "sweatshirt",
+      "word": "moletom",
+      "split": [
+        "mo",
+        "le",
+        "tom"
+      ]
+    },
+    {
+      "key": "swing",
+      "word": "balanço",
+      "split": [
+        "ba",
+        "lan",
+        "ço"
+      ]
+    },
+    {
+      "key": "syringe",
+      "word": "seringa",
+      "split": [
+        "se",
+        "rin",
+        "ga"
+      ]
+    },
+    {
+      "key": "teacher",
+      "word": "professor",
+      "split": [
+        "pro",
+        "fes",
+        "sor"
+      ]
+    },
+    {
+      "key": "tent",
+      "word": "barraca",
+      "split": [
+        "bar",
+        "ra",
+        "ca"
+      ]
+    },
+    {
+      "key": "thumb",
+      "word": "polegar",
+      "split": [
+        "po",
+        "le",
+        "gar"
+      ]
+    },
+    {
+      "key": "tie",
+      "word": "gravata",
+      "split": [
+        "gra",
+        "va",
+        "ta"
+      ]
+    },
+    {
+      "key": "tiger",
+      "word": "tigre",
+      "split": [
+        "ti",
+        "gre"
+      ]
+    },
+    {
+      "key": "tissue",
+      "word": "lenço",
+      "split": [
+        "len",
+        "ço"
+      ]
+    },
+    {
+      "key": "toast",
+      "word": "torrada",
+      "split": [
+        "tor",
+        "ra",
+        "da"
+      ]
+    },
+    {
+      "key": "tomato",
+      "word": "tomate",
+      "split": [
+        "to",
+        "ma",
+        "te"
+      ]
+    },
+    {
+      "key": "tongs",
+      "word": "pinça",
+      "split": [
+        "pin",
+        "ça"
+      ]
+    },
+    {
+      "key": "tongue",
+      "word": "língua",
+      "split": [
+        "lín",
+        "gua"
+      ]
+    },
+    {
+      "key": "tooth",
+      "word": "dente",
+      "split": [
+        "den",
+        "te"
+      ]
+    },
+    {
+      "key": "toucan",
+      "word": "tucano",
+      "split": [
+        "tu",
+        "ca",
+        "no"
+      ]
+    },
+    {
+      "key": "tractor",
+      "word": "trator",
+      "split": [
+        "tra",
+        "tor"
+      ]
+    },
+    {
+      "key": "trapezoid",
+      "word": "trapézio",
+      "split": [
+        "tra",
+        "pé",
+        "zio"
+      ]
+    },
+    {
+      "key": "trombone",
+      "word": "trombone",
+      "split": [
+        "trom",
+        "bo",
+        "ne"
+      ]
+    },
+    {
+      "key": "truck",
+      "word": "caminhão",
+      "split": [
+        "ca",
+        "mi",
+        "nhão"
+      ],
+      "pictureTheme": "vehicles"
+    },
+    {
+      "key": "trumpet",
+      "word": "trompete",
+      "split": [
+        "trom",
+        "pe",
+        "te"
+      ]
+    },
+    {
+      "key": "tulip",
+      "word": "tulipa",
+      "split": [
+        "tu",
+        "li",
+        "pa"
+      ]
+    },
+    {
+      "key": "vest",
+      "word": "colete",
+      "split": [
+        "co",
+        "le",
+        "te"
+      ]
+    },
+    {
+      "key": "wallet",
+      "word": "carteira",
+      "split": [
+        "car",
+        "tei",
+        "ra"
+      ]
+    },
+    {
+      "key": "walrus",
+      "word": "morsa",
+      "split": [
+        "mor",
+        "sa"
+      ]
+    },
+    {
+      "key": "wasp",
+      "word": "vespa",
+      "split": [
+        "ves",
+        "pa"
+      ]
+    },
+    {
+      "key": "weasel",
+      "word": "doninha",
+      "split": [
+        "do",
+        "ni",
+        "nha"
+      ]
+    },
+    {
+      "key": "whisk",
+      "word": "batedor",
+      "split": [
+        "ba",
+        "te",
+        "dor"
+      ]
+    },
+    {
+      "key": "window",
+      "word": "janela",
+      "split": [
+        "ja",
+        "ne",
+        "la"
+      ]
+    },
+    {
+      "key": "worm",
+      "word": "minhoca",
+      "split": [
+        "mi",
+        "nho",
+        "ca"
+      ]
+    },
+    {
+      "key": "wreath",
+      "word": "guirlanda",
+      "split": [
+        "guir",
+        "lan",
+        "da"
+      ]
+    },
+    {
+      "key": "zebra",
+      "word": "zebra",
+      "split": [
+        "ze",
+        "bra"
+      ]
+    }
+  ],
+  "ban": [
+    "angry",
+    "apricot",
+    "aster",
+    "author",
+    "autumn",
+    "bacon",
+    "bagel",
+    "barrette",
+    "baseball",
+    "basketball",
+    "begonia",
+    "biking",
+    "black",
+    "blueberry",
+    "bookshelf",
+    "bored",
+    "brown",
+    "brownie",
+    "brush",
+    "butter",
+    "cabana",
+    "camper",
+    "capricious",
+    "carnation",
+    "cashier",
+    "cast",
+    "chess",
+    "closet",
+    "cloudy",
+    "coach",
+    "confused",
+    "content",
+    "coral",
+    "crimson",
+    "croissant",
+    "cupcake",
+    "cymbals",
+    "daffodil",
+    "dahlia",
+    "dancing",
+    "delivery",
+    "disgusted",
+    "donut",
+    "earthworm",
+    "excited",
+    "falcon",
+    "finch",
+    "fishing",
+    "flag",
+    "forehead",
+    "forsythia",
+    "galaxy",
+    "garland",
+    "gerbil",
+    "grapefruit",
+    "gray",
+    "green",
+    "hair",
+    "happy",
+    "harvest",
+    "haystack",
+    "heel",
+    "hen",
+    "hibiscus",
+    "hornbill",
+    "hot",
+    "hydrangea",
+    "icicle",
+    "janitor",
+    "jasmine",
+    "jumping",
+    "jupiter",
+    "knitting",
+    "ladle",
+    "lavender",
+    "leg",
+    "leggings",
+    "lemur",
+    "lilac",
+    "lily",
+    "lime",
+    "lip",
+    "lotus",
+    "macaron",
+    "mars",
+    "mercury",
+    "merry",
+    "mistletoe",
+    "mittens",
+    "mop",
+    "muffin",
+    "muscles",
+    "musician",
+    "narwhal",
+    "neck",
+    "neptune",
+    "nut",
+    "orchard",
+    "painting",
+    "pants",
+    "peach",
+    "pegasus",
+    "persimmon",
+    "petunia",
+    "pitcher",
+    "plum",
+    "pretzel",
+    "pretzels",
+    "quail",
+    "rainy",
+    "red",
+    "rice",
+    "rudolph",
+    "rug",
+    "running",
+    "sad",
+    "saturn",
+    "saucepan",
+    "scared",
+    "seagull",
+    "sewing",
+    "shoulder",
+    "shy",
+    "singer",
+    "singing",
+    "skateboard",
+    "sleigh",
+    "snorkel",
+    "soccer",
+    "sparrow",
+    "sphere",
+    "stairs",
+    "stamp",
+    "statue",
+    "subway",
+    "surprised",
+    "swimming",
+    "tablet",
+    "tart",
+    "tennis",
+    "tired",
+    "trail",
+    "tree",
+    "trousers",
+    "turquoise",
+    "venus",
+    "waffle",
+    "watch",
+    "white",
+    "wisteria",
+    "wrist",
+    "writing",
+    "zinnia"
+  ],
+  "whitelist": {},
+  "refuse": {
+    "finalMuteE": false
+  },
+  "sepMode": "hyphen",
+  "strings": {
+    "G1-306": {
+      "title": "Família silábica: {UNIT}",
+      "instruction": "Leia em voz alta todas as sílabas do tapete. Fale o nome de cada figura, ache a primeira sílaba no tapete e escreva na linha."
+    },
+    "G1-330": {
+      "title": "Circule a sílaba que você ouve: {UNIT}",
+      "instruction": "Leia as sílabas do tapete em voz alta. Fale o nome de cada figura e circule a sílaba com que ela começa."
+    },
+    "G1-331": {
+      "title": "Junte as sílabas e escreva a palavra",
+      "instruction": "Leia as duas sílabas na ordem, junte as duas e escreva a palavra inteira na linha."
+    },
+    "G1-332": {
+      "title": "Tapete de sílabas: leia e pinte",
+      "instruction": "Leia todo o tapete em voz alta. Depois pinte a sílaba com que cada figura começa, na cor do círculo dela."
+    },
+    "G1-333": {
+      "title": "Sílabas com encontro consonantal: {UNIT}",
+      "instruction": "Leia as sílabas do tapete. Fale o nome de cada figura, ache a sílaba no tapete e escreva a primeira sílaba na linha."
+    },
+    "G1-334": {
+      "title": "Leia a palavra em sílabas e ache a figura",
+      "instruction": "Leia cada palavra sílaba por sílaba. Ache a figura dela no banco de cima e escreva o número no quadradinho."
+    }
+  }
+}

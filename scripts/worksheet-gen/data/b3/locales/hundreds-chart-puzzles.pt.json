@@ -1,0 +1,29 @@
+{
+  "exemplar": "1-100",
+  "strings": {
+    "G1-310": {
+      "title": "Quadro numérico: complete as peças do quebra-cabeça",
+      "instruction": "Cada peça tem um número escrito. Escreva todos os que faltam: 1 a mais à direita, 1 a menos à esquerda, 10 a mais embaixo e 10 a menos em cima."
+    },
+    "F1": {
+      "title": "Onde entra a peça no quadro numérico?",
+      "instruction": "Leia os números de cada peça, ache o lugar dela no quadro vazio e escreva os números lá."
+    },
+    "F2": {
+      "title": "Saltos no quadro numérico: siga as setas",
+      "instruction": "Comece no número e siga as setas: para cima é 10 a menos, para baixo 10 a mais, para a direita 1 a mais. Escreva onde você chega."
+    },
+    "F3": {
+      "title": "Número misterioso: duas setas, um quadradinho",
+      "instruction": "Siga as duas setas. As duas chegam ao mesmo quadradinho do quadro. Escreva o número misterioso."
+    },
+    "F4": {
+      "title": "Encontre o erro na peça do quadro numérico",
+      "instruction": "Em cada peça há um número errado. Circule esse número e escreva o número certo no quadradinho."
+    },
+    "F5": {
+      "title": "Quantos saltos? Conte no quadro numérico",
+      "instruction": "Conte quantos saltos para baixo e quantos saltos para a direita levam você do primeiro número até o segundo."
+    }
+  }
+}

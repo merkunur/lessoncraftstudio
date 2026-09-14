@@ -1,0 +1,757 @@
+{
+  "nameSlot": false,
+  "pairs": [
+    {
+      "id": "big-small",
+      "a": "grande",
+      "b": "pequeno",
+      "tier": 1,
+      "pos": "adj",
+      "family": "size",
+      "alt": {
+        "a": [
+          "enorme"
+        ],
+        "b": [
+          "pequenino"
+        ]
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "enorme"
+      },
+      "far": "molhado",
+      "pic": {
+        "kind": "scale",
+        "theme": "animals",
+        "noun": "dog",
+        "scales": [
+          1,
+          0.42
+        ]
+      },
+      "picOpened": true
+    },
+    {
+      "id": "hot-cold",
+      "a": "quente",
+      "b": "frio",
+      "tier": 1,
+      "pos": "adj",
+      "family": "temperature",
+      "alt": {
+        "a": [
+          "quentinho"
+        ],
+        "b": [
+          "gelado"
+        ]
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "quentinho"
+      },
+      "far": "grande",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "camping",
+          "noun": "campfire"
+        },
+        "b": {
+          "theme": "weather",
+          "noun": "snowflake"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "happy-sad",
+      "a": "feliz",
+      "b": "triste",
+      "tier": 1,
+      "pos": "adj",
+      "family": "feeling",
+      "alt": {
+        "a": [
+          "contente",
+          "alegre"
+        ],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "contente"
+      },
+      "far": "frio",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "emotions",
+          "noun": "happy"
+        },
+        "b": {
+          "theme": "emotions",
+          "noun": "sad"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "fast-slow",
+      "a": "rápido",
+      "b": "lento",
+      "tier": 1,
+      "pos": "adj",
+      "family": "speed",
+      "alt": {
+        "a": [
+          "veloz"
+        ],
+        "b": [
+          "devagar"
+        ]
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "veloz"
+      },
+      "far": "macio",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "zoo animals",
+          "noun": "cheetah"
+        },
+        "b": {
+          "theme": "forest creatures",
+          "noun": "snail"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "heavy-light",
+      "a": "pesado",
+      "b": "leve",
+      "tier": 2,
+      "pos": "adj",
+      "family": "weight",
+      "alt": {
+        "a": [],
+        "b": [
+          "levinho"
+        ]
+      },
+      "exclusiveWith": [
+        "bright-dark"
+      ],
+      "syn": null,
+      "far": "feliz",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "zoo animals",
+          "noun": "elephant"
+        },
+        "b": {
+          "theme": "easter",
+          "noun": "feather"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "day-night",
+      "a": "dia",
+      "b": "noite",
+      "tier": 1,
+      "pos": "noun",
+      "family": "time",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "duro",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "weather",
+          "noun": "sun"
+        },
+        "b": {
+          "theme": "space",
+          "noun": "moon"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "soft-hard",
+      "a": "macio",
+      "b": "duro",
+      "tier": 1,
+      "pos": "adj",
+      "family": "texture",
+      "alt": {
+        "a": [
+          "fofo",
+          "fofinho"
+        ],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "fofo"
+      },
+      "far": "rápido",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "around the house",
+          "noun": "pillow"
+        },
+        "b": {
+          "theme": "camping",
+          "noun": "rock"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "sweet-sour",
+      "a": "doce",
+      "b": "azedo",
+      "tier": 2,
+      "pos": "adj",
+      "family": "taste",
+      "alt": {
+        "a": [
+          "açucarado"
+        ],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "açucarado"
+      },
+      "far": "alto",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "At the Supermarket",
+          "noun": "candy"
+        },
+        "b": {
+          "theme": "fruits",
+          "noun": "lemon"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "wet-dry",
+      "a": "molhado",
+      "b": "seco",
+      "tier": 1,
+      "pos": "adj",
+      "family": "moisture",
+      "alt": {
+        "a": [
+          "úmido"
+        ],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "úmido"
+      },
+      "far": "barulhento",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "tall-short",
+      "a": "alto",
+      "b": "baixo",
+      "tier": 1,
+      "pos": "adj",
+      "family": "height",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [
+        "high-low"
+      ],
+      "syn": null,
+      "far": "doce",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "loud-quiet",
+      "a": "barulhento",
+      "b": "silencioso",
+      "tier": 2,
+      "pos": "adj",
+      "family": "sound",
+      "alt": {
+        "a": [
+          "ruidoso"
+        ],
+        "b": [
+          "quieto"
+        ]
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "ruidoso"
+      },
+      "far": "novo",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "old-new",
+      "a": "velho",
+      "b": "novo",
+      "tier": 1,
+      "pos": "adj",
+      "family": "age",
+      "alt": {
+        "a": [
+          "antigo"
+        ],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "antigo"
+      },
+      "far": "limpo",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "clean-dirty",
+      "a": "limpo",
+      "b": "sujo",
+      "tier": 1,
+      "pos": "adj",
+      "family": "cleanliness",
+      "alt": {
+        "a": [
+          "limpinho"
+        ],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "aberto",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "full-empty",
+      "a": "cheio",
+      "b": "vazio",
+      "tier": 1,
+      "pos": "adj",
+      "family": "fill",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "seco",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "open-closed",
+      "a": "aberto",
+      "b": "fechado",
+      "tier": 1,
+      "pos": "adj",
+      "family": "state",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "fino",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "high-low",
+      "a": "em cima",
+      "b": "embaixo",
+      "tier": 1,
+      "pos": "adj",
+      "family": "level",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [
+        "tall-short"
+      ],
+      "syn": null,
+      "far": "azedo",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "thick-thin",
+      "a": "grosso",
+      "b": "fino",
+      "tier": 2,
+      "pos": "adj",
+      "family": "thickness",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "cheio",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "strong-weak",
+      "a": "forte",
+      "b": "fraco",
+      "tier": 2,
+      "pos": "adj",
+      "family": "strength",
+      "alt": {
+        "a": [
+          "poderoso"
+        ],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "poderoso"
+      },
+      "far": "dia",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "bright-dark",
+      "a": "claro",
+      "b": "escuro",
+      "tier": 2,
+      "pos": "adj",
+      "family": "brightness",
+      "alt": {
+        "a": [
+          "iluminado"
+        ],
+        "b": []
+      },
+      "exclusiveWith": [
+        "heavy-light"
+      ],
+      "syn": {
+        "a": "iluminado"
+      },
+      "far": "lento",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "long-short",
+      "a": "comprido",
+      "b": "curto",
+      "tier": 2,
+      "pos": "adj",
+      "family": "length",
+      "alt": {
+        "a": [
+          "longo"
+        ],
+        "b": [
+          "curtinho"
+        ]
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "longo"
+      },
+      "far": "noite",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "near-far",
+      "a": "perto",
+      "b": "longe",
+      "tier": 2,
+      "pos": "adj",
+      "family": "distance",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "velho",
+      "pic": null,
+      "picOpened": false
+    }
+  ],
+  "opened": {
+    "animals/dog": [
+      "big-small:scale"
+    ],
+    "camping/campfire": [
+      "hot-cold:a"
+    ],
+    "weather/snowflake": [
+      "hot-cold:b"
+    ],
+    "emotions/happy": [
+      "happy-sad:a"
+    ],
+    "emotions/sad": [
+      "happy-sad:b"
+    ],
+    "zoo animals/cheetah": [
+      "fast-slow:a"
+    ],
+    "forest creatures/snail": [
+      "fast-slow:b"
+    ],
+    "zoo animals/elephant": [
+      "heavy-light:a"
+    ],
+    "easter/feather": [
+      "heavy-light:b"
+    ],
+    "weather/sun": [
+      "day-night:a"
+    ],
+    "space/moon": [
+      "day-night:b"
+    ],
+    "around the house/pillow": [
+      "soft-hard:a"
+    ],
+    "camping/rock": [
+      "soft-hard:b"
+    ],
+    "At the Supermarket/candy": [
+      "sweet-sour:a"
+    ],
+    "fruits/lemon": [
+      "sweet-sour:b"
+    ]
+  },
+  "frames": [
+    {
+      "pair": "big-small",
+      "text": "O elefante não é pequeno. Ele é ___.",
+      "answer": "grande",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "elephant"
+      }
+    },
+    {
+      "pair": "hot-cold",
+      "text": "O floco de neve não é quente. Ele é ___.",
+      "answer": "frio",
+      "pic": {
+        "theme": "weather",
+        "noun": "snowflake"
+      }
+    },
+    {
+      "pair": "fast-slow",
+      "text": "O caracol não é rápido. Ele é ___.",
+      "answer": "lento",
+      "pic": {
+        "theme": "forest creatures",
+        "noun": "snail"
+      }
+    },
+    {
+      "pair": "soft-hard",
+      "text": "O travesseiro não é duro. Ele é ___.",
+      "answer": "macio",
+      "pic": {
+        "theme": "around the house",
+        "noun": "pillow"
+      }
+    },
+    {
+      "pair": "heavy-light",
+      "text": "O balão não é pesado. Ele é ___.",
+      "answer": "leve",
+      "pic": {
+        "theme": "toys",
+        "noun": "balloon"
+      }
+    },
+    {
+      "pair": "sweet-sour",
+      "text": "O limão não é doce. Ele é ___.",
+      "answer": "azedo",
+      "pic": {
+        "theme": "fruits",
+        "noun": "lemon"
+      }
+    },
+    {
+      "pair": "day-night",
+      "text": "A lua apareceu. Não é dia. É ___.",
+      "answer": "noite",
+      "pic": {
+        "theme": "space",
+        "noun": "moon"
+      }
+    },
+    {
+      "pair": "clean-dirty",
+      "text": "O porco não está limpo. Ele está ___.",
+      "answer": "sujo",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "pig"
+      }
+    },
+    {
+      "pair": "full-empty",
+      "text": "O copo não está vazio. Ele está ___.",
+      "answer": "cheio",
+      "pic": {
+        "theme": "kitchen tools",
+        "noun": "glass"
+      }
+    },
+    {
+      "pair": "old-new",
+      "text": "O sapato não é velho. Ele é ___.",
+      "answer": "novo",
+      "pic": {
+        "theme": "clothing",
+        "noun": "shoe"
+      }
+    }
+  ],
+  "prefix": {
+    "prefixes": [
+      "in",
+      "des",
+      "im"
+    ],
+    "items": [
+      {
+        "base": "feliz",
+        "prefix": "in",
+        "expected": "infeliz"
+      },
+      {
+        "base": "justo",
+        "prefix": "in",
+        "expected": "injusto"
+      },
+      {
+        "base": "útil",
+        "prefix": "in",
+        "expected": "inútil"
+      },
+      {
+        "base": "correto",
+        "prefix": "in",
+        "expected": "incorreto"
+      },
+      {
+        "base": "completo",
+        "prefix": "in",
+        "expected": "incompleto"
+      },
+      {
+        "base": "seguro",
+        "prefix": "in",
+        "expected": "inseguro"
+      },
+      {
+        "base": "arrumado",
+        "prefix": "des",
+        "expected": "desarrumado"
+      },
+      {
+        "base": "conhecido",
+        "prefix": "des",
+        "expected": "desconhecido"
+      },
+      {
+        "base": "obediente",
+        "prefix": "des",
+        "expected": "desobediente"
+      },
+      {
+        "base": "ligado",
+        "prefix": "des",
+        "expected": "desligado"
+      },
+      {
+        "base": "cuidado",
+        "prefix": "des",
+        "expected": "descuidado"
+      },
+      {
+        "base": "paciente",
+        "prefix": "im",
+        "expected": "impaciente"
+      },
+      {
+        "base": "possível",
+        "prefix": "im",
+        "expected": "impossível"
+      },
+      {
+        "base": "perfeito",
+        "prefix": "im",
+        "expected": "imperfeito"
+      }
+    ],
+    "ban": []
+  },
+  "strings": {
+    "G1-307": {
+      "title": "Antônimos: escreva a palavra contrária",
+      "instruction": "Leia a palavra de cada cartão. Ache o antônimo dela no banco de palavras e escreva na linha."
+    },
+    "K-351": {
+      "title": "Antônimos com figuras: ligue os contrários",
+      "instruction": "Ligue cada figura à figura e à palavra que mostram o contrário dela."
+    },
+    "G1-335": {
+      "title": "Antônimos na frase",
+      "instruction": "Leia cada frase. Escreva na linha o antônimo da palavra que vem depois de \"não\". O banco de palavras ajuda você."
+    },
+    "G1-336": {
+      "title": "Forme os pares de antônimos",
+      "instruction": "Encontre as duas palavras que são contrárias. Escreva cada par em uma linha, uma palavra de cada lado da seta."
+    },
+    "G1-337": {
+      "title": "Sinônimo ou antônimo? Circule o antônimo",
+      "instruction": "Leia a palavra. Das três palavras de baixo, uma quer dizer o contrário. Circule essa, não a que quer dizer a mesma coisa."
+    },
+    "G2-320": {
+      "title": "Antônimos com prefixo: in-, des- e im-",
+      "instruction": "Junte o prefixo a cada palavra e escreva na linha a nova palavra contrária."
+    }
+  }
+}

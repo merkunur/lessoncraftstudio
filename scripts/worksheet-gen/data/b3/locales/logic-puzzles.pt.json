@@ -1,0 +1,100 @@
+{
+  "head": "Desafios de raciocínio lógico",
+  "names": [
+    {
+      "nom": "Sofia"
+    },
+    {
+      "nom": "Miguel"
+    },
+    {
+      "nom": "Alice"
+    },
+    {
+      "nom": "Davi"
+    },
+    {
+      "nom": "Laura"
+    },
+    {
+      "nom": "Pedro"
+    },
+    {
+      "nom": "Helena"
+    },
+    {
+      "nom": "Lucas"
+    }
+  ],
+  "namePx": 22,
+  "picSep": "",
+  "frames": {
+    "neg": [
+      "{name} não tem {pic}.",
+      "{pic} não é de {name}."
+    ],
+    "pos": [
+      "{name} tem {pic}.",
+      "{pic} é de {name}."
+    ],
+    "either": [
+      "{name} tem {pic} ou {pic}.",
+      "{pic} ou {pic} é de {name}."
+    ],
+    "holderNot": [
+      "Quem tem {pic} não é {name}.",
+      "{name} não é quem tem {pic}."
+    ],
+    "cross": [
+      "Quem tem {pic} tem {pic2}.",
+      "Quem tem {pic} também tem {pic2}."
+    ],
+    "crossNot": [
+      "Quem tem {pic} não tem {pic2}.",
+      "Quem tem {pic} não é quem tem {pic2}."
+    ]
+  },
+  "truth": {
+    "has": [
+      "{name} tem {pic}."
+    ],
+    "hasNot": [
+      "{name} não tem {pic}."
+    ],
+    "holderIs": [
+      "Quem tem {pic} é {name}."
+    ],
+    "either": [
+      "{name} tem {pic} ou {pic}."
+    ],
+    "nobody": [
+      "Ninguém tem {pic}."
+    ]
+  },
+  "strings": {
+    "G2-319": {
+      "title": "Desafios de raciocínio lógico: três pistas, uma resposta",
+      "instruction": "Leia as pistas. Risque na tabela o que não pode ser, marque o que tem de ser e depois circule a figura de cada criança."
+    },
+    "F1": {
+      "title": "Raciocínio lógico com pistas de sim, não e ou",
+      "instruction": "Uma pista de sim ganha um certo, uma de não ganha um xis e uma pista com \"ou\" risca a terceira figura. Complete a tabela e circule as respostas."
+    },
+    "F2": {
+      "title": "Raciocínio lógico 4 por 4: seis pistas",
+      "instruction": "Quatro crianças e quatro figuras. Use todas as pistas: risque o que não pode ser e marque o que tem de ser até cada linha ter uma resposta."
+    },
+    "F3": {
+      "title": "Raciocínio lógico com pistas de figuras: risque e descubra",
+      "instruction": "Uma figura riscada quer dizer que a criança não tem; uma circulada, que tem. Risque na tabela e depois circule cada resposta."
+    },
+    "F4": {
+      "title": "Raciocínio lógico com dois atributos: duas figuras por criança",
+      "instruction": "Cada criança tem uma figura de cada grupo. Use as pistas que ligam os grupos para completar as três tabelas."
+    },
+    "F5": {
+      "title": "Leia a tabela de lógica: verdadeiro ou falso?",
+      "instruction": "A tabela já está resolvida. Leia a tabela e circule o certo se a frase é verdadeira ou o xis se ela é falsa."
+    }
+  }
+}

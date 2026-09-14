@@ -1,0 +1,237 @@
+{
+  "names": {
+    "winter": "inverno",
+    "spring": "primavera",
+    "summer": "verão",
+    "autumn": "outono"
+  },
+  "alt": {
+    "autumn": null
+  },
+  "model": "temperate-south",
+  "cycleStart": "spring",
+  "cycle": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+  ],
+  "monthSeason": [
+    "summer",
+    "summer",
+    "autumn",
+    "autumn",
+    "autumn",
+    "winter",
+    "winter",
+    "winter",
+    "spring",
+    "spring",
+    "spring",
+    "summer"
+  ],
+  "veto": [
+    {
+      "theme": "thanksgivinng",
+      "noun": "pumpkin",
+      "reason": "a abóbora não é símbolo do outono no Brasil"
+    },
+    {
+      "theme": "vegetables",
+      "noun": "mushroom",
+      "reason": "o cogumelo não é símbolo do outono no Brasil"
+    },
+    {
+      "theme": "thanksgivinng",
+      "noun": "scarecrow",
+      "reason": "o espantalho é da colheita norte-americana, não do outono escolar brasileiro"
+    },
+    {
+      "theme": "forest creatures",
+      "noun": "hedgehog",
+      "reason": "o ouriço não é um animal do outono brasileiro"
+    }
+  ],
+  "override": {
+    "winter": {
+      "items": [
+        {
+          "theme": "winter",
+          "noun": "coat",
+          "opened": true
+        },
+        {
+          "theme": "winter",
+          "noun": "sweater",
+          "opened": true
+        },
+        {
+          "theme": "winter",
+          "noun": "boots",
+          "opened": true
+        },
+        {
+          "theme": "winter",
+          "noun": "fireplace",
+          "opened": true
+        },
+        {
+          "theme": "clothing",
+          "noun": "scarf",
+          "opened": true
+        },
+        {
+          "theme": "clothing",
+          "noun": "beanie",
+          "opened": true
+        }
+      ],
+      "reason": "sem neve no Brasil: o inverno é casaco, blusa de lã, botas, lareira, cachecol e touca — os nomes de K-207 (casaco, blusa, botas, cachecol) são uma exceção registrada"
+    },
+    "autumn": {
+      "items": [
+        {
+          "theme": "tree",
+          "noun": "maple",
+          "opened": true,
+          "vocabKey": null,
+          "alt": {
+            "en": "a tree with red and orange leaves",
+            "de": "ein Baum mit roten und orangen Blättern",
+            "es": "un árbol con hojas rojas y naranjas",
+            "pt": "uma árvore com folhas vermelhas e laranja",
+            "fr": "un arbre aux feuilles rouges et orange",
+            "it": "un albero con foglie rosse e arancioni",
+            "nl": "een boom met rode en oranje bladeren",
+            "sv": "ett träd med röda och orangea löv",
+            "da": "et træ med røde og orange blade",
+            "no": "et tre med røde og oransje blader",
+            "fi": "puu, jossa on punaisia ja oransseja lehtiä"
+          }
+        },
+        {
+          "theme": "fruits",
+          "noun": "persimmon",
+          "opened": true,
+          "weak": true
+        },
+        {
+          "theme": "thanksgivinng",
+          "noun": "apple",
+          "opened": true
+        },
+        {
+          "theme": "thanksgivinng",
+          "noun": "harvest",
+          "opened": true
+        },
+        {
+          "theme": "miscellaneous",
+          "noun": "leaf",
+          "opened": true
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "grapes",
+          "opened": true
+        },
+        {
+          "theme": "fruits",
+          "noun": "pear",
+          "opened": true
+        }
+      ],
+      "reason": "outono brasileiro: folhas que caem, caqui e colheita; abóbora, cogumelo, espantalho e ouriço não são marcadores de outono no Brasil"
+    },
+    "spring": {
+      "items": [
+        {
+          "theme": "spring",
+          "noun": "tulip",
+          "opened": true
+        },
+        {
+          "theme": "spring",
+          "noun": "bud",
+          "opened": true
+        },
+        {
+          "theme": "spring",
+          "noun": "chick",
+          "opened": true
+        },
+        {
+          "theme": "spring",
+          "noun": "duckling",
+          "opened": true
+        },
+        {
+          "theme": "spring",
+          "noun": "lamb",
+          "opened": true
+        },
+        {
+          "theme": "spring",
+          "noun": "nest",
+          "opened": true
+        },
+        {
+          "theme": "spring",
+          "noun": "birdhouse",
+          "opened": true,
+          "weak": true
+        },
+        {
+          "theme": "spring",
+          "noun": "butterfly",
+          "opened": true
+        },
+        {
+          "theme": "spring",
+          "noun": "bee",
+          "opened": true
+        }
+      ],
+      "reason": "primavera brasileira: os seis neutros mais borboleta e abelha (flores e bichos da primavera)"
+    }
+  },
+  "legend": {
+    "winter": "codeBlue",
+    "spring": "codeGreen",
+    "summer": "codeYellow",
+    "autumn": "codeOrange"
+  },
+  "faces": {
+    "tree": {
+      "figure": "frame",
+      "captions": null
+    }
+  },
+  "strings": {
+    "K-322": {
+      "title": "As quatro estações do ano: separe as figuras",
+      "instruction": "Ligue o pontinho de cada figura à caixa da estação do ano a que ela pertence."
+    },
+    "K-338": {
+      "title": "Que estação do ano é?",
+      "instruction": "Olhe as três figuras de cada cartão e circule o símbolo da estação do ano a que elas pertencem."
+    },
+    "K-339": {
+      "title": "Roda das estações do ano: a ordem certa",
+      "instruction": "Uma estação já está na roda. Desenhe os outros três símbolos nos círculos vazios na ordem certa."
+    },
+    "K-340": {
+      "title": "Estações do ano: qual não combina?",
+      "instruction": "Risque em cada fileira a única figura que pertence a outra estação do ano."
+    },
+    "G1-323": {
+      "title": "Meses e estações do ano: pinte a estação",
+      "instruction": "Pinte o círculo ao lado de cada mês com a cor da estação do ano dele."
+    },
+    "K-341": {
+      "title": "Desenhe as quatro estações do ano",
+      "instruction": "Desenhe em cada quadro como fica a natureza nessa estação do ano."
+    }
+  },
+  "strand": "Ciências: as estações do ano"
+}

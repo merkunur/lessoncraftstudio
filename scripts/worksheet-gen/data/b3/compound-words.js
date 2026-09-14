@@ -184,10 +184,34 @@ const COMPOUND_WORDS = {
     sizePairs: [],
     crossWords: [],
     refuse: { F1: true, F3: false, F5: false },
+    // Reviewer ruling 2026-09-14: en has ONE hub with >= 4 satellites (fish), so the design's
+    // 4-lane web refuses. A 3-satellite web is still an honest face (fish + rain measured);
+    // ship F5 in en at 3 lanes rather than drop the row.
+    webLanes: 3,
     strings: {
       'G2-316': {
         title: 'Compound Words: Picture + Picture',
         instruction: 'Name the two pictures, join the two words and write the new word on the line.',
+      },
+      'G2-329': {
+        title: "What Goes in the Middle?",
+        instruction: "Both words are printed. Write the letter that joins them in the box, or leave it empty, then write the whole word on the line.",
+      },
+      'G2-330': {
+        title: "Split the Compound: Find the Two Words",
+        instruction: "The whole word is printed in letter boxes next to its picture. Draw one line where the second word starts.",
+      },
+      'G2-331': {
+        title: "Match the Halves: Two Pictures, One Word",
+        instruction: "Draw a line from each first picture to the picture that finishes the word. Then write the new word on the line beside the first picture.",
+      },
+      'G2-332': {
+        title: "Compound Detective",
+        instruction: "Twelve words, six of them are made of two words. Circle the six compound words and write their two parts on the lines.",
+      },
+      'G2-333': {
+        title: "Word Web: One Word, Many Compounds",
+        instruction: "One word sits in the middle. Each picture around it makes a new word with it. Write the four new words on the lines.",
       },
     },
   },

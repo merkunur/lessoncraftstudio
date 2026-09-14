@@ -297,6 +297,18 @@ node /opt/lessoncraftstudio/scripts/worksheet-gen/tools/gate-variation-distinct.
 echo "🔎 Letter-tracing glyph check..."
 node /opt/lessoncraftstudio/scripts/verify-letter-strokes.js || { echo "ERROR: the letter tracing glyph set is broken — see scripts/worksheet-gen/data/tracing/letter-strokes.js"; exit 1; }
 
+# Worksheets hub sidebar: every printable family must list EXACTLY its expected
+# rows under its type (docs/worksheet-gen/b3-designs/hub-expectations.json), and
+# the key must reach the rail at all — apps.<key> with a legal default_subject,
+# slug/name in all 11 locales, absent from the interactive set. Measured
+# 2026-09-13: past batches vanished because a key without apps.<key> renders
+# NOWHERE in the rail while ?type= still works. Runs the hub's OWN
+# expandHubRows + applyLandingFilters + taxonomy.ts (transpiled), no stubs;
+# poison-tested 12/12. Browser-free, DB-free. --warn-missing-keys until the
+# nt20-C landings are committed (then dropped: CLAUDE.md §25).
+echo "🔎 Worksheets hub type-row check..."
+node /opt/lessoncraftstudio/scripts/verify-hub-type-rows.js --warn-missing-keys || { echo "ERROR: a printable family is missing or mis-counted on /worksheets — see docs/worksheet-gen/b3-designs/hub-expectations.json + scripts/verify-hub-type-rows.js"; exit 1; }
+
 # Guard: a `font:` shorthand with an UNQUOTED family whose identifier starts with a
 # digit — `Baloo 2` — is INVALID CSS, and an invalid component invalidates the WHOLE
 # shorthand: the size and the weight go down with the family. Measured in a browser:

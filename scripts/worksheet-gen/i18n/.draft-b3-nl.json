@@ -251,7 +251,7 @@
   },
   "G1-335": {
    "title": "Tegenstellingen in een zin",
-   "instruction": "Lees elke zin. Schrijf het tegenovergestelde van het woord na \"niet\" op de lijn. De woordenbank helpt je."
+   "instruction": "Lees elke zin. Schrijf het tegenovergestelde van het woord na \"niet\" of \"geen\" op de lijn. De woordenbank helpt je."
   },
   "G1-336": {
    "title": "Zoek de paren: welke woorden zijn tegenstellingen?",
@@ -375,11 +375,11 @@
   },
   "G2-333": {
    "title": "Woordweb: één woord, veel samenstellingen",
-   "instruction": "In het midden staat één woord. Elk plaatje eromheen maakt er een nieuw woord mee. Schrijf de vier nieuwe woorden op de lijnen."
+   "instruction": "In het midden staat één woord. Elk plaatje eromheen maakt er een nieuw woord mee. Schrijf elk nieuw woord op zijn lijn."
   },
   "G2-317": {
    "title": "Werkwoorden in de tegenwoordige tijd: ik, jij, hij, wij",
-   "instruction": "Kijk naar het plaatje en lees het werkwoord. Schrijf de vormen bij ik, jij, hij en wij in de stippelvakjes en maak daarna de zinnen af."
+   "instruction": "Kijk naar het plaatje en lees het werkwoord. Schrijf de ontbrekende vormen in de stippelvakjes en maak daarna de zinnen af."
   },
   "G2-334": {
    "title": "Welke vorm hoort bij ik, jij en wij?",
@@ -16288,7 +16288,7 @@
     "read": "Ik kan een boek lezen",
     "soccer": "Ik kan tegen een bal schoppen",
     "puzzle": "Ik kan een puzzel maken",
-    "paint": "Ik kan een tekening verven",
+    "paint": "Ik kan schilderen",
     "sing": "Ik kan een liedje zingen",
     "skate": "Ik kan schaatsen",
     "ski": "Ik kan skiën",
@@ -21856,11 +21856,11 @@
        "aStem": null,
        "link": "en",
        "b": {
-        "vocabKey": "brush",
+        "vocabKey": "toothbrush",
         "word": "borstel",
         "pic": {
          "theme": "around the house",
-         "noun": "brush"
+         "noun": "toothbrush"
         }
        },
        "whole": {

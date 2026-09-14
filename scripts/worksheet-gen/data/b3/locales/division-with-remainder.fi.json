@@ -1,0 +1,49 @@
+{
+  "exemplar": "2-5",
+  "unitLabels": {
+    "2-5": "jakajat 2–5",
+    "6-9": "jakajat 6–9",
+    "2-9": "jakajat 2–9"
+  },
+  "notation": {
+    "op": ":",
+    "template": "{n} : {d} = {q}, jää {r}",
+    "boxStyle": "inline",
+    "remWord": "jää",
+    "exactWord": "tasan",
+    "restWord": "jakojäännös",
+    "leftoverLabel": "jää yli",
+    "rightWord": "oikein",
+    "wrongWord": "väärin",
+    "kinds": {
+      "quotative": "sisältöjako",
+      "partitive": "ositusjako"
+    }
+  },
+  "strings": {
+    "G3-377": {
+      "title": "Jakojäännös: ympyröi ryhmät",
+      "instruction": "Ympyröi jokaisesta kasasta jakajan kokoisia ryhmiä. Kirjoita, montako ryhmää sait ja montako kuvaa jäi yli."
+    },
+    "F1": {
+      "title": "Jaa tasan: mitä jää yli?",
+      "instruction": "Jaa kasa laatikoihin yksi kerrallaan. Kirjoita, montako jokainen laatikko saa ja montako ei voi jakaa."
+    },
+    "F2": {
+      "title": "Jakojäännös: harjoitusrivit",
+      "instruction": "Jokaisesta jakolaskusta jää jotakin yli. Kirjoita jokaiselle riville vastaus ja jakojäännös."
+    },
+    "F3": {
+      "title": "Meneekö jako tasan?",
+      "instruction": "Päättele, meneekö jakolasku tasan. Ympyröi vastauksesi ja kirjoita jakojäännös, 0 jos sitä ei ole."
+    },
+    "F4": {
+      "title": "Etsi virhe: jakojäännös on liian suuri",
+      "instruction": "Jokainen jakolasku on laskettu väärin. Yliviivaa väärät luvut ja kirjoita ruutuihin oikea vastaus ja jakojäännös."
+    },
+    "F5": {
+      "title": "Hyppää taaksepäin lukusuoralla",
+      "instruction": "Aloita merkitystä luvusta ja piirrä yhtä pitkiä hyppyjä taaksepäin, kunnes kokonainen hyppy ei enää mahdu. Kirjoita hypyt ja luku, johon päädyt."
+    }
+  }
+}

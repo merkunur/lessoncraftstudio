@@ -1,0 +1,1625 @@
+{
+  "rule": "lastTwoSyllables",
+  "orthographyTrusted": true,
+  "exemplar": [
+    "una",
+    "ana",
+    "ukka",
+    "ika",
+    "okki",
+    "alo"
+  ],
+  "classes": [
+    {
+      "id": "ikka",
+      "rime": "-ka",
+      "sound": "ikka",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "blueberry",
+          "word": "mustikka",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "blueberry"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "calf",
+          "word": "vasikka",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "calf"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "cherry",
+          "word": "kirsikka",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "cherry"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "spoon",
+          "word": "lusikka",
+          "pic": {
+            "theme": "around the house",
+            "noun": "spoon"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "strawberry",
+          "word": "mansikka",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "strawberry"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "woodpecker",
+          "word": "tikka",
+          "pic": {
+            "theme": "animals",
+            "noun": "woodpecker"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "sikka",
+        "nikka"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "akka",
+      "rime": "-ka",
+      "sound": "akka",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "fireplace",
+          "word": "takka",
+          "pic": {
+            "theme": "around the house",
+            "noun": "fireplace"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "lighthouse",
+          "word": "majakka",
+          "pic": {
+            "theme": "beach",
+            "noun": "lighthouse"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "magpie",
+          "word": "harakka",
+          "pic": {
+            "theme": "birds 2",
+            "noun": "magpie"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pie",
+          "word": "piirakka",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "pie"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "nakka"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ukka",
+      "rime": "-ka",
+      "sound": "ukka",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "flower",
+          "word": "kukka",
+          "pic": {
+            "theme": "spring",
+            "noun": "flower"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "sock",
+          "word": "sukka",
+          "pic": {
+            "theme": "accessories",
+            "noun": "sock"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "fork",
+          "word": "haarukka",
+          "pic": {
+            "theme": "around the house",
+            "noun": "fork"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "seashell",
+          "word": "simpukka",
+          "pic": {
+            "theme": "beach",
+            "noun": "seashell"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "pukka",
+        "nukka"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ara",
+      "rime": "-ra",
+      "sound": "ara",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "guitar",
+          "word": "kitara",
+          "pic": {
+            "theme": "activities",
+            "noun": "guitar"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "hammer",
+          "word": "vasara",
+          "pic": {
+            "theme": "around the house",
+            "noun": "hammer"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "heron",
+          "word": "haikara",
+          "pic": {
+            "theme": "birds 2",
+            "noun": "heron"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "sausage",
+          "word": "makkara",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "sausage"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "stool",
+          "word": "jakkara",
+          "pic": {
+            "theme": "furniture",
+            "noun": "stool"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "sara",
+        "kamara"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "una",
+      "rime": "-na",
+      "sound": "una",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "egg",
+          "word": "muna",
+          "pic": {
+            "theme": "easter",
+            "noun": "egg"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "train",
+          "word": "juna",
+          "pic": {
+            "theme": "toys",
+            "noun": "train"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "potato",
+          "word": "peruna",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "potato"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "turkey",
+          "word": "kalkkuna",
+          "pic": {
+            "theme": "birds 2",
+            "noun": "turkey"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "window",
+          "word": "ikkuna",
+          "pic": {
+            "theme": "around the house",
+            "noun": "window"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "kuuna",
+        "luna"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ana",
+      "rime": "-na",
+      "sound": "ana",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "carrot",
+          "word": "porkkana",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "carrot"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "chicken",
+          "word": "kana",
+          "pic": {
+            "theme": "birds 2",
+            "noun": "chicken"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "faucet",
+          "word": "hana",
+          "pic": {
+            "theme": "around the house",
+            "noun": "faucet"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "slug",
+          "word": "etana",
+          "pic": {
+            "theme": "forest creatures",
+            "noun": "slug"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "sana",
+        "mana"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "eli",
+      "rime": "-li",
+      "sound": "eli",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "angel",
+          "word": "enkeli",
+          "pic": {
+            "theme": "christmas",
+            "noun": "angel"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "camel",
+          "word": "kameli",
+          "pic": {
+            "theme": "animals",
+            "noun": "camel"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pretzel",
+          "word": "rinkeli",
+          "pic": {
+            "theme": "bakery",
+            "noun": "pretzel"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "waffle",
+          "word": "vohveli",
+          "pic": {
+            "theme": "bakery",
+            "noun": "waffle"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "puzzle",
+          "word": "palapeli",
+          "pic": {
+            "theme": "activities",
+            "noun": "puzzle"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "peli",
+        "seli"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "eri",
+      "rime": "-ri",
+      "sound": "eri",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "aster",
+          "word": "asteri",
+          "pic": {
+            "theme": "flowers",
+            "noun": "aster"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "hamster",
+          "word": "hamsteri",
+          "pic": {
+            "theme": "pets",
+            "noun": "hamster"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "nut",
+          "word": "mutteri",
+          "pic": {
+            "theme": "tools",
+            "noun": "nut"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "paper",
+          "word": "paperi",
+          "pic": {
+            "theme": "classroom",
+            "noun": "paper"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "tiger",
+          "word": "tiikeri",
+          "pic": {
+            "theme": "animals",
+            "noun": "tiger"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "veri",
+        "meri"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ari",
+      "rime": "-ri",
+      "sound": "ari",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "accordion",
+          "word": "haitari",
+          "pic": {
+            "theme": "music",
+            "noun": "accordion"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "binoculars",
+          "word": "kiikari",
+          "pic": {
+            "theme": "camping",
+            "noun": "binoculars"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "hoodie",
+          "word": "huppari",
+          "pic": {
+            "theme": "clothing",
+            "noun": "hoodie"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "jumpsuit",
+          "word": "haalari",
+          "pic": {
+            "theme": "clothing",
+            "noun": "jumpsuit"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "lollipop",
+          "word": "tikkari",
+          "pic": {
+            "theme": "desserts and sweets",
+            "noun": "lollipop"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "sari",
+        "kari"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ori",
+      "rime": "-ri",
+      "sound": "ori",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "basket",
+          "word": "kori",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "basket"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "tractor",
+          "word": "traktori",
+          "pic": {
+            "theme": "vehicles",
+            "noun": "tractor"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "tori",
+        "sori"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "oni",
+      "rime": "-ni",
+      "sound": "oni",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "bacon",
+          "word": "pekoni",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "bacon"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "bison",
+          "word": "biisoni",
+          "pic": {
+            "theme": "zoo animals",
+            "noun": "bison"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "melon",
+          "word": "meloni",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "melon"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "poni",
+        "toni"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "akko",
+      "rime": "-ko",
+      "sound": "akko",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "bat",
+          "word": "lepakko",
+          "pic": {
+            "theme": "Things That Fly",
+            "noun": "bat"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "frog",
+          "word": "sammakko",
+          "pic": {
+            "theme": "camping",
+            "noun": "frog"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "vase",
+          "word": "maljakko",
+          "pic": {
+            "theme": "around the house",
+            "noun": "vase"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "wallet",
+          "word": "lompakko",
+          "pic": {
+            "theme": "accessories",
+            "noun": "wallet"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "takko",
+        "nakko"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ukko",
+      "rime": "-ko",
+      "sound": "ukko",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "lock",
+          "word": "lukko",
+          "pic": {
+            "theme": "around the house",
+            "noun": "lock"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "rooster",
+          "word": "kukko",
+          "pic": {
+            "theme": "birds 2",
+            "noun": "rooster"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "snowman",
+          "word": "lumiukko",
+          "pic": {
+            "theme": "christmas",
+            "noun": "snowman"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "ukko",
+        "tukko"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "aani",
+      "rime": "-ni",
+      "sound": "aani",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "banana",
+          "word": "banaani",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "banana"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "toucan",
+          "word": "tukaani",
+          "pic": {
+            "theme": "Things That Fly",
+            "noun": "toucan"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "tulip",
+          "word": "tulppaani",
+          "pic": {
+            "theme": "easter",
+            "noun": "tulip"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "saani"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ava",
+      "rime": "-va",
+      "sound": "ava",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "beaver",
+          "word": "majava",
+          "pic": {
+            "theme": "forest creatures",
+            "noun": "beaver"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "rake",
+          "word": "harava",
+          "pic": {
+            "theme": "around the house",
+            "noun": "rake"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "squirrel",
+          "word": "orava",
+          "pic": {
+            "theme": "camping",
+            "noun": "squirrel"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "lava",
+        "kava"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ilä",
+      "rime": "-lä",
+      "sound": "ilä",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "candle",
+          "word": "kynttilä",
+          "pic": {
+            "theme": "christmas",
+            "noun": "candle"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "colander",
+          "word": "siivilä",
+          "pic": {
+            "theme": "kitchen tools",
+            "noun": "colander"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "whisk",
+          "word": "vispilä",
+          "pic": {
+            "theme": "kitchen tools",
+            "noun": "whisk"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "pilä"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "iini",
+      "rime": "-ni",
+      "sound": "iini",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "dolphin",
+          "word": "delfiini",
+          "pic": {
+            "theme": "animals",
+            "noun": "dolphin"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "orange",
+          "word": "appelsiini",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "orange"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "penguin",
+          "word": "pingviini",
+          "pic": {
+            "theme": "animals",
+            "noun": "penguin"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "viini",
+        "tiini"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "etti",
+      "rime": "-ti",
+      "sound": "etti",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "package",
+          "word": "paketti",
+          "pic": {
+            "theme": "post office",
+            "noun": "package"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "rocket",
+          "word": "raketti",
+          "pic": {
+            "theme": "Things That Fly",
+            "noun": "rocket"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "trumpet",
+          "word": "trumpetti",
+          "pic": {
+            "theme": "music",
+            "noun": "trumpet"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "sketti"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "atto",
+      "rime": "-to",
+      "sound": "atto",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "carpet",
+          "word": "matto",
+          "pic": {
+            "theme": "around the house",
+            "noun": "carpet"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "hammock",
+          "word": "riippumatto",
+          "pic": {
+            "theme": "camping",
+            "noun": "hammock"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "katto",
+        "satto"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "okki",
+      "rime": "-ki",
+      "sound": "okki",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "chef",
+          "word": "kokki",
+          "pic": {
+            "theme": "occupations",
+            "noun": "chef"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "seagull",
+          "word": "lokki",
+          "pic": {
+            "theme": "Things That Fly",
+            "noun": "seagull"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "tokki",
+        "sokki"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ekko",
+      "rime": "-ko",
+      "sound": "ekko",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "dress",
+          "word": "mekko",
+          "pic": {
+            "theme": "clothing",
+            "noun": "dress"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "gecko",
+          "word": "gekko",
+          "pic": {
+            "theme": "pets",
+            "noun": "gecko"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "sekko"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "aita",
+      "rime": "-ta",
+      "sound": "aita",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "fence",
+          "word": "aita",
+          "pic": {
+            "theme": "around the house",
+            "noun": "fence"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "shirt",
+          "word": "paita",
+          "pic": {
+            "theme": "clothing",
+            "noun": "shirt"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "maita",
+        "saita"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ika",
+      "rime": "-ka",
+      "sound": "ika",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "pepper",
+          "word": "paprika",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "pepper"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pig",
+          "word": "sika",
+          "pic": {
+            "theme": "animals",
+            "noun": "pig"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "pika",
+        "vika"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ammas",
+      "rime": "-mas",
+      "sound": "ammas",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "sheep",
+          "word": "lammas",
+          "pic": {
+            "theme": "animals",
+            "noun": "sheep"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "tooth",
+          "word": "hammas",
+          "pic": {
+            "theme": "body parts",
+            "noun": "tooth"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "sammas"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "alo",
+      "rime": "-lo",
+      "sound": "alo",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "house",
+          "word": "talo",
+          "pic": {
+            "theme": "miscellaneous",
+            "noun": "house"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "thumb",
+          "word": "peukalo",
+          "pic": {
+            "theme": "body parts",
+            "noun": "thumb"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "valo",
+        "palo",
+        "salo"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ynä",
+      "rime": "-nä",
+      "sound": "ynä",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "pear",
+          "word": "päärynä",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "pear"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pen",
+          "word": "kynä",
+          "pic": {
+            "theme": "around the house",
+            "noun": "pen"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "synä"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ussi",
+      "rime": "-si",
+      "sound": "ussi",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "bus",
+          "word": "bussi",
+          "pic": {
+            "theme": "vehicles",
+            "noun": "bus"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "marker",
+          "word": "tussi",
+          "pic": {
+            "theme": "classroom",
+            "noun": "marker"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "pussi",
+        "kussi"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "onen",
+      "rime": "-nen",
+      "sound": "onen",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "butterfly",
+          "word": "perhonen",
+          "pic": {
+            "theme": "Things That Fly",
+            "noun": "butterfly"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "horse",
+          "word": "hevonen",
+          "pic": {
+            "theme": "animals",
+            "noun": "horse"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "tonen"
+      ],
+      "nearMiss": []
+    }
+  ],
+  "couplets": [
+    {
+      "id": "valo-talo",
+      "lines": [
+        "Illalla ikkunassa palaa lämmin valo,",
+        "sen takana on pieni punainen ___."
+      ],
+      "answer": {
+        "vocabKey": "house"
+      },
+      "rhymeWith": "valo",
+      "cueFree": false
+    },
+    {
+      "id": "etana-kana",
+      "lines": [
+        "Pihalla matelee pieni hidas etana,",
+        "sen perässä tepastelee ruskea ___."
+      ],
+      "answer": {
+        "vocabKey": "chicken"
+      },
+      "rhymeWith": "etana",
+      "cueFree": false
+    },
+    {
+      "id": "muna-juna",
+      "lines": [
+        "Kanalasta löytyi yksi valkoinen muna,",
+        "asemalle saapuu pitkä sininen ___."
+      ],
+      "answer": {
+        "vocabKey": "train"
+      },
+      "rhymeWith": "muna",
+      "cueFree": false
+    },
+    {
+      "id": "kukka-sukka",
+      "lines": [
+        "Pihalla kasvaa iso punainen kukka,",
+        "jalassani on lämmin villainen ___."
+      ],
+      "answer": {
+        "vocabKey": "sock"
+      },
+      "rhymeWith": "kukka",
+      "cueFree": false
+    },
+    {
+      "id": "kokki-lokki",
+      "lines": [
+        "Keittiössä hääräilee iloinen kokki,",
+        "rannalla kirkuu valkoinen ___."
+      ],
+      "answer": {
+        "vocabKey": "seagull"
+      },
+      "rhymeWith": "kokki",
+      "cueFree": false
+    },
+    {
+      "id": "tori-kori",
+      "lines": [
+        "Kaupungin keskellä on vilkas tori,",
+        "kädessäni on iso tyhjä ___."
+      ],
+      "answer": {
+        "vocabKey": "basket"
+      },
+      "rhymeWith": "tori",
+      "cueFree": false
+    },
+    {
+      "id": "katto-matto",
+      "lines": [
+        "Talon päällä on punainen katto,",
+        "lattialla on pehmeä värikäs ___."
+      ],
+      "answer": {
+        "vocabKey": "carpet"
+      },
+      "rhymeWith": "katto",
+      "cueFree": false
+    },
+    {
+      "id": "banaani-tukaani",
+      "lines": [
+        "Apinan herkkua on keltainen banaani,",
+        "puussa istuu värikäs ___."
+      ],
+      "answer": {
+        "vocabKey": "toucan"
+      },
+      "rhymeWith": "banaani",
+      "cueFree": false
+    },
+    {
+      "id": "sammakko-lepakko",
+      "lines": [
+        "Lammessa kurnuttaa vihreä sammakko,",
+        "yöllä lentelee pieni musta ___."
+      ],
+      "answer": {
+        "vocabKey": "bat"
+      },
+      "rhymeWith": "sammakko",
+      "cueFree": false
+    },
+    {
+      "id": "vasara-kitara",
+      "lines": [
+        "Isä naulaa laudan, apuna on vasara,",
+        "illalla soi kaunis ___."
+      ],
+      "answer": {
+        "vocabKey": "guitar"
+      },
+      "rhymeWith": "vasara",
+      "cueFree": false
+    },
+    {
+      "id": "lammas-hammas",
+      "lines": [
+        "Niityllä laiduntaa villainen lammas,",
+        "suussani heiluu irtoava ___."
+      ],
+      "answer": {
+        "vocabKey": "tooth"
+      },
+      "rhymeWith": "lammas",
+      "cueFree": false
+    },
+    {
+      "id": "kyna-paaryna",
+      "lines": [
+        "Kirjoitan tarinan, kädessä on kynä,",
+        "välipalaksi maistuu makea ___."
+      ],
+      "answer": {
+        "vocabKey": "pear"
+      },
+      "rhymeWith": "kynä",
+      "cueFree": false
+    }
+  ],
+  "opened": {
+    "At the Supermarket/blueberry": "blueberry",
+    "farm animals/calf": "calf",
+    "At the Supermarket/cherry": "cherry",
+    "around the house/spoon": "spoon",
+    "At the Supermarket/strawberry": "strawberry",
+    "animals/woodpecker": "woodpecker",
+    "around the house/fireplace": "fireplace",
+    "beach/lighthouse": "lighthouse",
+    "birds 2/magpie": "magpie",
+    "At the Supermarket/pie": "pie",
+    "spring/flower": "flower",
+    "accessories/sock": "sock",
+    "around the house/fork": "fork",
+    "beach/seashell": "seashell",
+    "activities/guitar": "guitar",
+    "around the house/hammer": "hammer",
+    "birds 2/heron": "heron",
+    "At the Supermarket/sausage": "sausage",
+    "furniture/stool": "stool",
+    "easter/egg": "egg",
+    "toys/train": "train",
+    "At the Supermarket/potato": "potato",
+    "birds 2/turkey": "turkey",
+    "around the house/window": "window",
+    "At the Supermarket/carrot": "carrot",
+    "birds 2/chicken": "chicken",
+    "around the house/faucet": "faucet",
+    "forest creatures/slug": "slug",
+    "christmas/angel": "angel",
+    "animals/camel": "camel",
+    "bakery/pretzel": "pretzel",
+    "bakery/waffle": "waffle",
+    "activities/puzzle": "puzzle",
+    "flowers/aster": "aster",
+    "pets/hamster": "hamster",
+    "tools/nut": "nut",
+    "classroom/paper": "paper",
+    "animals/tiger": "tiger",
+    "music/accordion": "accordion",
+    "camping/binoculars": "binoculars",
+    "clothing/hoodie": "hoodie",
+    "clothing/jumpsuit": "jumpsuit",
+    "desserts and sweets/lollipop": "lollipop",
+    "At the Supermarket/basket": "basket",
+    "vehicles/tractor": "tractor",
+    "At the Supermarket/bacon": "bacon",
+    "zoo animals/bison": "bison",
+    "At the Supermarket/melon": "melon",
+    "Things That Fly/bat": "bat",
+    "camping/frog": "frog",
+    "around the house/vase": "vase",
+    "accessories/wallet": "wallet",
+    "around the house/lock": "lock",
+    "birds 2/rooster": "rooster",
+    "christmas/snowman": "snowman",
+    "At the Supermarket/banana": "banana",
+    "Things That Fly/toucan": "toucan",
+    "easter/tulip": "tulip",
+    "forest creatures/beaver": "beaver",
+    "around the house/rake": "rake",
+    "camping/squirrel": "squirrel",
+    "christmas/candle": "candle",
+    "kitchen tools/colander": "colander",
+    "kitchen tools/whisk": "whisk",
+    "animals/dolphin": "dolphin",
+    "At the Supermarket/orange": "orange",
+    "animals/penguin": "penguin",
+    "post office/package": "package",
+    "Things That Fly/rocket": "rocket",
+    "music/trumpet": "trumpet",
+    "around the house/carpet": "carpet",
+    "camping/hammock": "hammock",
+    "occupations/chef": "chef",
+    "Things That Fly/seagull": "seagull",
+    "clothing/dress": "dress",
+    "pets/gecko": "gecko",
+    "around the house/fence": "fence",
+    "clothing/shirt": "shirt",
+    "At the Supermarket/pepper": "pepper",
+    "animals/pig": "pig",
+    "animals/sheep": "sheep",
+    "body parts/tooth": "tooth",
+    "miscellaneous/house": "house",
+    "body parts/thumb": "thumb",
+    "At the Supermarket/pear": "pear",
+    "around the house/pen": "pen",
+    "vehicles/bus": "bus",
+    "classroom/marker": "marker",
+    "Things That Fly/butterfly": "butterfly",
+    "animals/horse": "horse"
+  },
+  "strings": {
+    "G1-309": {
+      "title": "Riimisanat: rimmaa ja kirjoita",
+      "instruction": "Sano ensimmäinen kuva ääneen. Ympyröi kuva, joka rimmaa sen kanssa, ja kirjoita sitten sen sana viivalle."
+    },
+    "K-352": {
+      "title": "Rimmaako vai ei?",
+      "instruction": "Sano molemmat kuvat ääneen. Jos sanat rimmaavat, ympyröi väkänen. Jos ne eivät rimmaa, ympyröi ruksi."
+    },
+    "G1-343": {
+      "title": "Lajittele riimisanat",
+      "instruction": "Sano jokainen sanapankin kuva. Etsi iso kuva, jonka kanssa se rimmaa, ja kirjoita sana viivalle sen kuvan alle."
+    },
+    "G1-344": {
+      "title": "Täydennä loru: puuttuva riimisana",
+      "instruction": "Lue lorun kaksi riviä ääneen. Katso kuvaa, kuuntele riimi ja kirjoita puuttuva riimisana viivalle."
+    },
+    "G1-345": {
+      "title": "Riimiketjut",
+      "instruction": "Sano jokainen kuva. Etsi sanapankista kaksi sanaa, jotka rimmaavat sen kanssa, ja kirjoita ne viivoille. Osa sanoista ei sovi mihinkään."
+    },
+    "G1-346": {
+      "title": "Keksi omat riimisanat",
+      "instruction": "Lue kuvan vieressä oleva sana. Keksi kaksi sanaa, jotka rimmaavat sen kanssa, ja kirjoita yksi kummallekin viivalle."
+    }
+  }
+}

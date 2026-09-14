@@ -258,5 +258,85 @@
   "grid-coordinates": {
     "full": "Nimettyjen ruutujen värittäminen kirjaimin ja numeroin merkityssä ruudukossa harjoittaa koordinaattien lukemista ja paljastaa piilokuvan.",
     "short": "Harjoittaa koordinaattien lukemista."
+  },
+  "letter-of-the-week": {
+    "full": "Viikon kirjain -tehtävät esikouluun ja 1. luokalle: jäljennä iso ja pieni kirjain, ympyröi kuvat, jotka alkavat kirjaimella, ja etsi äänne sanan sisältä. Tulostettava PDF.",
+    "short": "Viikon kirjain: jäljennä, etsi ja kirjoita"
+  },
+  "sound-boxes": {
+    "full": "Äännelaatikot esikouluun ja 1. luokalle: sano sana hitaasti ja kirjoita yksi äänne jokaiseen laatikkoon, laske äänteet ja yhdistä ne sanaksi. Tulostettava PDF.",
+    "short": "Äännelaatikot: yksi äänne, yksi laatikko"
+  },
+  "feelings": {
+    "full": "Tunnetaidot esikouluun: tunnista tunneilmeet, yhdistä ilme ja tunnesana, lajittele mukavat ja ikävät tunteet ja kerro, miltä tänään tuntuu. Tulostettava PDF.",
+    "short": "Tunnetaidot: tunnista ja nimeä tunteet"
+  },
+  "ordinal-numbers": {
+    "full": "Järjestysluvut esikouluun ja 1. luokalle: ensimmäinen, toinen, kolmas — etsi paikka jonossa, kirjoita järjestysluvut ja kerro, kuka voittaa kilpailun. Tulostettava PDF.",
+    "short": "Järjestysluvut: ensimmäinen, toinen, kolmas"
+  },
+  "days-and-months": {
+    "full": "Viikonpäivät ja kuukaudet esikouluun ja 1. luokalle: viikonpäivät järjestykseen, eilen ja huomenna, kuukaudet järjestykseen ja viikonpäivien lyhenteet. Tulostettava PDF.",
+    "short": "Viikonpäivät ja kuukaudet järjestykseen"
+  },
+  "seasons": {
+    "full": "Vuodenajat esikouluun ja 1. luokalle: lajittele kuvat vuodenaikoihin, vuodenaikakello, mikä ei kuulu joukkoon, kuukaudet ja vuodenajat, puu neljänä vuodenaikana. PDF.",
+    "short": "Vuodenajat: talvi, kevät, kesä ja syksy"
+  },
+  "all-about-me": {
+    "full": "Minä itse -tehtävät esikouluun: kirjoita nimi ja ikä, piirrä itsesi ja perheesi, lempiasiat, kasvojen osat ja mitä osaan. Tulostettava PDF.",
+    "short": "Minä itse: nimi, ikä, perhe ja lempiasiat"
+  },
+  "picture-word-cards": {
+    "full": "Kuvakortit esikouluun: leikattavat kuva- ja sanakortit, parit, yksikkö ja monikko, kaksikieliset kortit sekä tavukortit sanaseinälle ja muistipeliin. Tulostettava PDF.",
+    "short": "Kuvakortit: leikkaa, nimeä ja lue"
+  },
+  "syllable-split": {
+    "full": "Tavutustehtävät 1. luokalle: taputa tavut, merkitse tavuviivat, täydennä puuttuva tavu ja lajittele sanat tavumäärän mukaan. Tulostettava PDF.",
+    "short": "Tavutus: taputa, merkitse ja kirjoita tavut"
+  },
+  "syllable-reading": {
+    "full": "Tavutaulukko 1. luokalle: lue tavut rivi kerrallaan, etsi kuvan sanan ensimmäinen tavu ja kirjoita se, umpitavut ja tavutetut sanat mukaan lukien. Tulostettava PDF.",
+    "short": "Tavutaulukko: lue tavut ja kirjoita"
+  },
+  "opposites": {
+    "full": "Vastakohdat 1. luokalle: kirjoita vastakohta, yhdistä kuvaparit, täydennä lause, erota vastakohta samaa tarkoittavasta sanasta ja muodosta epä-sanoja. Tulostettava PDF.",
+    "short": "Vastakohdat: iso ja pieni, kuuma ja kylmä"
+  },
+  "read-and-do": {
+    "full": "Lue ja tee -tehtävät 1. luokalle: lue lyhyt ohje ja tee se kuvariville — ympyröi, alleviivaa, yhdistä, laske, päättele totta vai tarua ja piirrä. Luetun ymmärtämisen PDF.",
+    "short": "Lue ja tee: ohjeen lukeminen ja toteutus"
+  },
+  "rhyming-words": {
+    "full": "Riimisanat esikouluun ja 1. luokalle: kuuntele loppusointu, ympyröi rimmaava kuva, lajittele riimisanat, täydennä loru ja keksi omia riimejä. Tulostettava PDF.",
+    "short": "Riimisanat: kuuntele ja kirjoita loppusointu"
+  },
+  "hundreds-chart-puzzles": {
+    "full": "Satataulun palat 1. ja 2. luokalle: täydennä luvut palaan, etsi palan paikka, seuraa nuolia, etsi virhe ja laske hypyt satataulussa. Tulostettava PDF.",
+    "short": "Satataulun palat: 1 enemmän, 10 enemmän"
+  },
+  "spelling-rules": {
+    "full": "Oikeinkirjoitus 2. luokalle: kaksoiskonsonantti vai yksi kirjain, pitkä vai lyhyt äänne, astevaihtelu monikossa. Täydennä, valitse, lajittele ja kirjoita. Tulostettava PDF.",
+    "short": "Oikeinkirjoitus: kk vai k, pitkä vai lyhyt"
+  },
+  "compound-words": {
+    "full": "Yhdyssanat 2. luokalle: yhdistä kaksi kuvaa yhdeksi sanaksi, jaa yhdyssana osiin, tunnista yhdyssanat ja rakenna sanatähti yhdestä sanasta. Tulostettava PDF.",
+    "short": "Yhdyssanat: kuva + kuva = uusi sana"
+  },
+  "verb-forms": {
+    "full": "Verbin persoonamuodot 3. luokalle: taivuta verbi minä, sinä, hän, me, te, he -muodoissa, täydennä lauseet, valitse oikea muoto ja etsi perusmuoto. Tulostettava PDF.",
+    "short": "Verbin persoonamuodot: minä, sinä, hän"
+  },
+  "animal-fact-file": {
+    "full": "Eläinkortit 2. luokalle: täytä eläinkortti, rastita oikeat tiedot, kirjoita lauseita eläimestä, vertaile kahta eläintä ja arvaa eläin vihjeistä. Tulostettava PDF.",
+    "short": "Eläinkortit: tietoa eläimistä, kirjoita ja vertaile"
+  },
+  "logic-puzzles": {
+    "full": "Päättelypulmat 1.–3. luokalle: lue vihjeet, täytä päättelyruudukko ja päättele, kenellä on mikäkin kuva — kyllä-, ei- ja jompikumpi-vihjeet, 4×4-ruudukot. Tulostettava PDF.",
+    "short": "Päättelypulmat: vihjeistä ratkaisuun"
+  },
+  "division-with-remainder": {
+    "full": "Jakojäännös 3. luokalle: ympyröi ryhmät, jaa tasan ja katso, mitä jää yli, harjoittele jakolaskuja jakojäännöksellä, etsi virhe ja hyppää lukusuoralla. Tulostettava PDF.",
+    "short": "Jakojäännös: jakolasku, josta jää yli"
   }
 }

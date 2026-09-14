@@ -1910,5 +1910,477 @@
   "G1-304": {
     "title": "Kirjoita sana: kaikki vihjeet apuna",
     "instruction": "Kirjoita sana. Kaikki kolme vihjettä auttavat."
+  },
+  "K-317": {
+    "title": "Viikon kirjain {U}{L}: kirjainjahti",
+    "instruction": "Jäljennä iso ja pieni kirjain. Ympyröi neljä kuvaa, joiden nimi alkaa {U}-kirjaimella, ja kirjoita sitten rivi kumpaakin."
+  },
+  "K-318": {
+    "title": "Äänteet laatikoihin: kuuntele ja kirjoita",
+    "instruction": "Sano kuvan sana hitaasti äänne kerrallaan. Kirjoita jokaiseen laatikkoon yksi äänne eli yksi kirjain. Pitkä äänne saa kaksi laatikkoa."
+  },
+  "K-319": {
+    "title": "Tunteet: yhdistä ilme ja sana",
+    "instruction": "Piirrä viiva jokaisesta ilmeestä siihen tunnesanaan, joka sopii ilmeeseen."
+  },
+  "K-320": {
+    "title": "Järjestysluvut: etsi paikka jonossa",
+    "instruction": "Aloita lipun kohdalta. Laske jonossa nappulan lukuun asti ja tee siihen kuvaan nappulan merkki."
+  },
+  "K-321": {
+    "title": "Viikonpäivät järjestyksessä",
+    "instruction": "Viikon ensimmäinen päivä on jo merkitty numerolla 1. Numeroi muut päivät 2–7 siinä järjestyksessä, jossa ne tulevat."
+  },
+  "K-322": {
+    "title": "Neljä vuodenaikaa: lajittele kuvat",
+    "instruction": "Piirrä viiva jokaisen kuvan pisteestä siihen vuodenajan laatikkoon, johon kuva kuuluu."
+  },
+  "K-323": {
+    "title": "Minä itse: tällainen minä olen",
+    "instruction": "Kirjoita nimesi ja ikäsi, piirrä itsesi ja perheesi ja piirrä sitten kolme lempiasiaasi."
+  },
+  "K-324": {
+    "title": "Kuvakortit ja sanakortit",
+    "instruction": "Leikkaa kortit irti katkoviivoja pitkin. Sano jokaisen kuvan nimi ja lue sitten sen sana."
+  },
+  "G1-305": {
+    "title": "Tavuta sanat: taputa ja merkitse tavut",
+    "instruction": "Sano kuvan sana ja taputa tavut. Piirrä sanaan tavuviiva jokaisen tavun väliin."
+  },
+  "G1-306": {
+    "title": "Tavutaulukko: lue tavut ja kirjoita",
+    "instruction": "Lue taulukon tavut ääneen rivi kerrallaan. Sano kuvan sana, etsi sen ensimmäinen tavu taulukosta ja kirjoita se viivalle."
+  },
+  "G1-307": {
+    "title": "Vastakohdat: kirjoita vastakohta",
+    "instruction": "Lue kortin sana. Etsi sen vastakohta sanapankista ja kirjoita se viivalle."
+  },
+  "G1-308": {
+    "title": "Lue ja tee: noudata ohjeita",
+    "instruction": "Katso kuvariviä ja aloita lipun kohdalta. Lue jokainen lause ja tee kynällä juuri niin kuin siinä sanotaan. Rastita lopuksi pieni ruutu."
+  },
+  "G1-309": {
+    "title": "Riimisanat: rimmaa ja kirjoita",
+    "instruction": "Sano ensimmäinen kuva ääneen. Ympyröi kuva, joka rimmaa sen kanssa, ja kirjoita sitten sen sana viivalle."
+  },
+  "G1-310": {
+    "title": "Satataulun palat: täydennä luvut",
+    "instruction": "Jokaisessa palassa on yksi luku. Kirjoita puuttuvat luvut: oikealle 1 enemmän, vasemmalle 1 vähemmän, alle 10 enemmän, ylle 10 vähemmän."
+  },
+  "G2-315": {
+    "title": "Oikeinkirjoitus: {UNIT}",
+    "instruction": "Lue sääntö laatikosta. Katso kuvaa ja sano sana. Kirjoita aukkoon puuttuvat kirjaimet: yksi vai kaksi?"
+  },
+  "G2-316": {
+    "title": "Yhdyssanat: kuva + kuva = sana",
+    "instruction": "Sano molempien kuvien sanat. Yhdistä ne yhdeksi sanaksi ja kirjoita uusi sana viivalle."
+  },
+  "G2-317": {
+    "title": "Verbin persoonamuodot: minä, sinä, hän",
+    "instruction": "Katso kuvaa ja lue verbi. Kirjoita sen persoonamuodot katkoviivaruutuihin ja täydennä sitten lauseet."
+  },
+  "G2-318": {
+    "title": "Eläinkortti: {U}",
+    "instruction": "Ota selvää eläimestä. Kirjoita eläinkortin jokaiselle riville yksi tieto ja täytä sitten sivun loppu omalla piirroksella tai omilla sanoilla."
+  },
+  "G2-319": {
+    "title": "Päättelypulmat: kolme vihjettä, yksi vastaus",
+    "instruction": "Lue vihjeet. Ruksi ruudukosta se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta. Ympyröi sitten jokaisen lapsen kuva."
+  },
+  "G3-377": {
+    "title": "Jakojäännös: ympyröi ryhmät",
+    "instruction": "Ympyröi jokaisesta kasasta jakajan kokoisia ryhmiä. Kirjoita, montako ryhmää sait ja montako kuvaa jäi yli."
+  },
+  "K-325": {
+    "title": "Kuuluuko {U}? Äänne sanan sisällä",
+    "instruction": "Jäljennä kirjain. Ympyröi neljä kuvaa, joiden nimessä {U}-äänne kuuluu sanan sisällä, ei alussa."
+  },
+  "K-326": {
+    "title": "Missä tavussa {U} kuuluu?",
+    "instruction": "Sano kuvan sana ja taputa tavut. Väritä ruutu, joka näyttää, missä tavussa {U} kuuluu: alussa, keskellä vai lopussa."
+  },
+  "K-327": {
+    "title": "Ympyröi {U} sanoista ja laske",
+    "instruction": "Etsi jokaisesta sanasta kaikki {U}- ja {L}-kirjaimet ja ympyröi ne. Kirjoita ruutuun, montako löysit."
+  },
+  "G1-311": {
+    "title": "Kaksoiskonsonantti {L}: pitkä äänne",
+    "instruction": "Jäljennä {L}. Ympyröi neljä kuvaa, joiden nimessä kuuluu pitkä {L}-äänne, ja kirjoita sitten rivi."
+  },
+  "K-328": {
+    "title": "N vai M? Kuuntele ero",
+    "instruction": "Sano kuvan sana. Ympyröi kirjain, jolla sana alkaa: n vai m."
+  },
+  "K-329": {
+    "title": "Laske sanan äänteet",
+    "instruction": "Sano kuvan sana hitaasti. Piirrä pitkään laatikkoon yksi piste jokaista äännettä kohti. Kirjoita sitten pieneen ruutuun, montako äännettä kuulit."
+  },
+  "K-330": {
+    "title": "Äänteet laatikoihin: alkuäänne valmiina",
+    "instruction": "Ensimmäinen äänne on jo kirjoitettu. Sano kuvan sana hitaasti ja kirjoita jokaiseen tyhjään laatikkoon yksi äänne."
+  },
+  "G1-312": {
+    "title": "Äännenauha: montako äännettä?",
+    "instruction": "Sano sana hitaasti. Kirjoita jokaiseen laatikkoon yksi äänne vasemmalta alkaen. Jätä ylimääräiset laatikot tyhjiksi."
+  },
+  "G1-313": {
+    "title": "Tavut ja äänteet",
+    "instruction": "Taputa kuvan sanan tavut. Sano sitten jokainen tavu hitaasti ja kirjoita yksi äänne jokaiseen laatikkoon kaaren alle."
+  },
+  "G1-314": {
+    "title": "Yhdistä äänteet sanaksi",
+    "instruction": "Lue laatikoiden äänteet ja liu’uta ne yhteen sanaksi. Ympyröi kuva, joka sopii sanaan."
+  },
+  "K-331": {
+    "title": "Miltä sinusta tuntuisi? Ympyröi ilme",
+    "instruction": "Katso kuvaa ja mieti, miltä sinusta tuntuisi. Ympyröi ilme, joka sopii siihen."
+  },
+  "K-332": {
+    "title": "Piirrä tunneilme",
+    "instruction": "Lue tunnesana ja piirrä tyhjään ympyrään kasvot, jotka näyttävät sen tunteen."
+  },
+  "K-333": {
+    "title": "Mukava vai ikävä tunne? Lajittele ilmeet",
+    "instruction": "Piirrä viiva jokaisesta ilmeestä siihen laatikkoon, joka kertoo, onko tunne mukava vai ikävä."
+  },
+  "K-334": {
+    "title": "Mikä ilme näyttää tunteen?",
+    "instruction": "Lue tunnesana ja ympyröi rivistä se yksi ilme, joka näyttää tunteen."
+  },
+  "K-335": {
+    "title": "Miltä minusta tuntuu tänään?",
+    "instruction": "Ympyröi ilme, joka näyttää, miltä sinusta tuntuu tänään. Piirrä sitten omat kasvosi."
+  },
+  "G1-315": {
+    "title": "Kirjoita puuttuvat järjestysluvut",
+    "instruction": "Osa paikoista on jo kirjoitettu. Kirjoita puuttuvat järjestysluvut tyhjiin ruutuihin. Laske lipusta alkaen."
+  },
+  "G1-316": {
+    "title": "Lue järjestysluku ja yhdistä kuvaan",
+    "instruction": "Lue jokainen järjestyslukusana ja piirrä viiva siihen kuvaan, joka on sillä paikalla jonossa. Laske lipusta alkaen."
+  },
+  "G1-317": {
+    "title": "Monesko? Kirjoita järjestysluku",
+    "instruction": "Etsi jokainen pieni kuva omasta jonostaan ja kirjoita, monesko se on. Laske lipusta alkaen."
+  },
+  "K-336": {
+    "title": "Aloita lipusta: laske kummastakin päästä",
+    "instruction": "Etsi ensin lippu: se voi olla kummassa päässä tahansa. Aloita siitä, laske nappulan lukuun asti ja tee nappulan merkki."
+  },
+  "G1-318": {
+    "title": "Kuka voittaa kilpailun? Kirjoita sijoitus",
+    "instruction": "Katso, kuinka lähellä maaliviivaa jokainen kilpailija on. Lähin on 1. Kirjoita 1., 2., 3., 4., 5. ja 6."
+  },
+  "K-337": {
+    "title": "Puuttuvat viikonpäivät: täydennä viikko",
+    "instruction": "Osa päivistä on jo kirjoitettu tikapuille. Kopioi puuttuvat päivät sanapankista oikeille paikoille."
+  },
+  "G1-319": {
+    "title": "Eilen, tänään, huomenna",
+    "instruction": "Keskimmäinen päivä on tänään. Kirjoita päivä, joka oli eilen, ja päivä, joka on huomenna."
+  },
+  "G1-320": {
+    "title": "Vuoden kuukaudet järjestyksessä",
+    "instruction": "Tammikuu on jo merkitty numerolla 1. Numeroi muut kuukaudet 2–12 vuoden järjestyksessä."
+  },
+  "G1-321": {
+    "title": "Edellinen ja seuraava kuukausi",
+    "instruction": "Keskellä on yksi kuukausi. Kirjoita kuukausi, joka tulee ennen sitä, ja kuukausi, joka tulee sen jälkeen."
+  },
+  "G1-322": {
+    "title": "Viikonpäivien lyhenteet",
+    "instruction": "Lue jokainen lyhenne ja piirrä viiva siihen päivään, jota se tarkoittaa."
+  },
+  "K-338": {
+    "title": "Mikä vuodenaika on?",
+    "instruction": "Katso kortin kolmea kuvaa ja ympyröi vuodenajan merkki, johon ne kuuluvat."
+  },
+  "K-339": {
+    "title": "Vuodenaikakello: vuodenajat järjestyksessä",
+    "instruction": "Yksi vuodenaika on jo kellossa. Piirrä kolme muuta merkkiä tyhjiin ympyröihin oikeassa järjestyksessä."
+  },
+  "K-340": {
+    "title": "Vuodenajat: mikä ei kuulu joukkoon?",
+    "instruction": "Yliviivaa jokaiselta riviltä se yksi kuva, joka kuuluu eri vuodenaikaan."
+  },
+  "G1-323": {
+    "title": "Kuukaudet ja vuodenajat: väritä vuodenaika",
+    "instruction": "Väritä jokaisen kuukauden vieressä oleva ympyrä sen vuodenajan värillä."
+  },
+  "K-341": {
+    "title": "Piirrä puu neljänä vuodenaikana",
+    "instruction": "Piirrä, miltä puu näyttää jokaisena neljänä vuodenaikana."
+  },
+  "K-342": {
+    "title": "Lempiasiani: ympyröi ja kirjoita",
+    "instruction": "Ympyröi jokaiselta riviltä lempikuvasi ja kopioi sen sana viivalle."
+  },
+  "K-343": {
+    "title": "Minun perheeni: piirrä ja laske",
+    "instruction": "Piirrä perheesi. Näytä sitten kymppiruuduissa, montako ihmistä, veljeä, siskoa ja lemmikkiä perheessäsi on, ja kirjoita luku."
+  },
+  "K-344": {
+    "title": "Tässä olen minä: nimeä kasvojen osat",
+    "instruction": "Kopioi jokainen sanapankin sana sille viivalle, joka osoittaa kasvojen osaan. Piirrä sitten omat kasvosi."
+  },
+  "K-345": {
+    "title": "Minä osaan: rastita, mitä osaat",
+    "instruction": "Lue jokainen lause ja rastita ne asiat, jotka osaat. Kirjoita sitten yksi asia, jonka haluat oppia."
+  },
+  "K-346": {
+    "title": "Minun nimeni: kirjoita, laske ja vertaa",
+    "instruction": "Kirjoita nimesi yksi kirjain jokaiseen ruutuun ja laske kirjaimet. Tee sama kaverisi nimelle ja ympyröi, kummalla on enemmän."
+  },
+  "K-347": {
+    "title": "Kuvakortit ja sanakortit: parit",
+    "instruction": "Leikkaa kuusitoista korttia irti. Aseta sanakortit niiden kuvien viereen, joita ne nimeävät, tai käännä kaikki nurin ja pelatkaa muistipeliä."
+  },
+  "K-349": {
+    "title": "Yksi ja monta: yksikkö- ja monikkokortit",
+    "instruction": "Leikkaa kortit irti. Sano yhden sana ja monen sana ja yhdistä sitten jokainen pari."
+  },
+  "K-350": {
+    "title": "Kaksikieliset kuvakortit: suomi ja englanti",
+    "instruction": "Leikkaa kahdeksan korttia irti. Sano sana ensin suomeksi ja sitten englanniksi ja säilytä kortit sanaseinää varten."
+  },
+  "G1-324": {
+    "title": "Tavukortit: lue sana tavu kerrallaan",
+    "instruction": "Leikkaa kahdeksan korttia irti. Lue jokainen sana tavu kerrallaan ja sano sitten koko sana."
+  },
+  "G1-325": {
+    "title": "Tavuta ja kirjoita sana",
+    "instruction": "Lue sana kuvan vierestä. Kirjoita se viivalle ja merkitse tavujen väliin tavuviiva."
+  },
+  "G1-326": {
+    "title": "Puuttuva tavu",
+    "instruction": "Sano kuvan sana. Yksi tavu puuttuu. Kirjoita puuttuva tavu laatikkoon."
+  },
+  "G1-327": {
+    "title": "Tavusekoitus: järjestä tavut sanaksi",
+    "instruction": "Kuvan sanan tavut ovat sekaisin. Lue tavut, laita ne oikeaan järjestykseen ja kirjoita sana viivalle."
+  },
+  "G1-328": {
+    "title": "Kaksi vai kolme tavua? Tavuta ja lajittele",
+    "instruction": "Taputa jokaisen sanapankin sanan tavut. Kirjoita sana tavuviivoineen kahden tai kolmen tavun sarakkeeseen."
+  },
+  "G1-329": {
+    "title": "Tavun vokaali: jokaisessa tavussa yksi",
+    "instruction": "Jokaisessa tavussa on yksi vokaaliäänne. Katso malli ja piirrä piste vokaalin kohdalle jokaisen tavukaaren sisään."
+  },
+  "G1-330": {
+    "title": "Tavutaulukko: lue ja ympyröi tavu",
+    "instruction": "Lue taulukon tavut ääneen. Sano kuvan sana ja ympyröi kuvan alta se tavu, jolla sana alkaa."
+  },
+  "G1-331": {
+    "title": "Yhdistä tavut sanaksi",
+    "instruction": "Lue kortin kaksi tavua järjestyksessä. Sano ne yhteen ja kirjoita koko sana viivalle."
+  },
+  "G1-332": {
+    "title": "Tavutaulukko: lue ja väritä",
+    "instruction": "Lue kaikki taulukon tavut ääneen. Etsi sitten jokaisen kuvan ensimmäinen tavu taulukosta ja väritä se kuvan värillä."
+  },
+  "G1-333": {
+    "title": "Umpitavut: lue ja kirjoita",
+    "instruction": "Lue umpitavut ääneen: ne päättyvät konsonanttiin. Sano kuvan sana ja kirjoita sen ensimmäinen tavu viivalle."
+  },
+  "G1-334": {
+    "title": "Lue tavutetut sanat, etsi kuva",
+    "instruction": "Lue jokainen sana tavu kerrallaan. Etsi sen kuva ylhäältä ja kirjoita kuvan numero ruutuun."
+  },
+  "K-351": {
+    "title": "Vastakohdat kuvina: yhdistä parit",
+    "instruction": "Piirrä viiva jokaisesta kuvasta siihen kuvaan ja sanaan, joka on sen vastakohta."
+  },
+  "G1-335": {
+    "title": "Vastakohdat lauseessa",
+    "instruction": "Lue lause. Kirjoita viivalle sen sanan vastakohta, joka tulee sanan \"ei\" jälkeen. Sanapankki auttaa."
+  },
+  "G1-336": {
+    "title": "Etsi vastakohtaparit",
+    "instruction": "Etsi sanoista kaksi, jotka ovat toistensa vastakohtia. Kirjoita jokainen pari viivalle nuolen molemmin puolin."
+  },
+  "G1-337": {
+    "title": "Vastakohta vai sama? Ympyröi vastakohta",
+    "instruction": "Lue sana. Yksi kolmesta sanasta sen alla tarkoittaa vastakohtaa. Ympyröi se, älä sanaa, joka tarkoittaa samaa."
+  },
+  "G2-320": {
+    "title": "Vastakohta etuliitteellä epä-",
+    "instruction": "Lisää sanan eteen etuliite epä- ja kirjoita uusi vastakohtasana viivalle."
+  },
+  "G1-338": {
+    "title": "Lue ja ympyröi",
+    "instruction": "Lue jokainen lause. Etsi rivistä kuva tai kuvat, jotka lause nimeää, ja ympyröi ne. Rastita sitten pieni ruutu."
+  },
+  "G1-339": {
+    "title": "Lue ja tee: kaksi ohjetta yhdessä",
+    "instruction": "Jokainen lause kertoo kaksi tehtävää. Lue lause loppuun asti ennen kuin aloitat ja tee molemmat kuvariville."
+  },
+  "G1-340": {
+    "title": "Lue ja tee: ensimmäinen, toinen, välissä",
+    "instruction": "Aloita lipun kohdalta ja laske riviä pitkin. Etsi kuva sen paikan mukaan ja tee, mitä lause käskee."
+  },
+  "G1-341": {
+    "title": "Lue ja tarkista: totta vai tarua?",
+    "instruction": "Lue lause ja katso kuvariviä. Onko lause totta vai tarua? Ympyröi oikea sana."
+  },
+  "G1-342": {
+    "title": "Lue ja piirrä",
+    "instruction": "Lue jokainen lause tarkasti. Piirrä sitten laatikkoon juuri se, mitä lauseessa sanotaan."
+  },
+  "K-352": {
+    "title": "Rimmaako vai ei?",
+    "instruction": "Sano molemmat kuvat ääneen. Jos sanat rimmaavat, ympyröi väkänen. Jos ne eivät rimmaa, ympyröi ruksi."
+  },
+  "G1-343": {
+    "title": "Lajittele riimisanat",
+    "instruction": "Sano jokainen sanapankin kuva. Etsi iso kuva, jonka kanssa se rimmaa, ja kirjoita sana viivalle sen kuvan alle."
+  },
+  "G1-344": {
+    "title": "Täydennä loru: puuttuva riimisana",
+    "instruction": "Lue lorun kaksi riviä ääneen. Katso kuvaa, kuuntele riimi ja kirjoita puuttuva riimisana viivalle."
+  },
+  "G1-345": {
+    "title": "Riimiketjut",
+    "instruction": "Sano jokainen kuva. Etsi sanapankista kaksi sanaa, jotka rimmaavat sen kanssa, ja kirjoita ne viivoille. Osa sanoista ei sovi mihinkään."
+  },
+  "G1-346": {
+    "title": "Keksi omat riimisanat",
+    "instruction": "Lue kuvan vieressä oleva sana. Keksi kaksi sanaa, jotka rimmaavat sen kanssa, ja kirjoita yksi kummallekin viivalle."
+  },
+  "G1-347": {
+    "title": "Mihin pala kuuluu?",
+    "instruction": "Lue palan luvut, etsi palan paikka tyhjästä satataulusta ja kirjoita luvut siihen."
+  },
+  "G2-321": {
+    "title": "Hypyt satataulussa: seuraa nuolia",
+    "instruction": "Aloita luvusta ja seuraa nuolia: ylös on 10 vähemmän, alas 10 enemmän, oikealle 1 enemmän. Kirjoita, mihin päädyt."
+  },
+  "G2-322": {
+    "title": "Lukuarvoitus: kaksi nuolta, yksi ruutu",
+    "instruction": "Seuraa molempia nuolia. Ne osoittavat satataulun samaan ruutuun. Kirjoita arvoituksen luku."
+  },
+  "G1-348": {
+    "title": "Etsi virhe palasta",
+    "instruction": "Jokaisessa palassa yksi luku on väärin. Ympyröi se ja kirjoita oikea luku ruutuun."
+  },
+  "G2-323": {
+    "title": "Montako hyppyä? Laske välimatka",
+    "instruction": "Laske, montako hyppyä alaspäin ja montako hyppyä oikealle vie ensimmäisestä luvusta toiseen."
+  },
+  "G2-324": {
+    "title": "Kumpi on oikein: {UNIT}?",
+    "instruction": "Sano kuvan sana ääneen. Kuuluuko äänne pitkänä vai lyhyenä? Ympyröi oikea vaihtoehto ja kirjoita se aukkoon."
+  },
+  "G2-325": {
+    "title": "Etsi sääntökirjaimet: {UNIT}",
+    "instruction": "Lue jokainen sana. Etsi sanasta sääntökirjaimet, ympyröi ne ja kirjoita ne ruutuun."
+  },
+  "G2-326": {
+    "title": "Lajittele sanat: {UNIT}",
+    "instruction": "Sano kuvan sana ääneen. Kirjoita koko sana siihen koriin, johon se kuuluu: pitkä vai lyhyt äänne."
+  },
+  "G2-327": {
+    "title": "Koko sana: {UNIT}",
+    "instruction": "Sääntökirjaimet on kirjoitettu valmiiksi. Sano kuvan sana ja kirjoita jokaiseen tyhjään ruutuun yksi kirjain."
+  },
+  "G2-328": {
+    "title": "Astevaihtelu: {UNIT}",
+    "instruction": "Lue yhden sana. Kirjoita monen sana viivalle: kaksoiskonsonantista jää monikossa vain yksi kirjain."
+  },
+  "G2-330": {
+    "title": "Jaa yhdyssana osiin",
+    "instruction": "Koko sana on kirjoitettu kuvan viereen kirjainruutuihin. Piirrä yksi viiva siihen kohtaan, josta toinen sana alkaa."
+  },
+  "G2-331": {
+    "title": "Yhdistä sanan osat: kaksi kuvaa, yksi sana",
+    "instruction": "Piirrä viiva kuvasta siihen kuvaan, joka täydentää sanan. Kirjoita sitten uusi sana ensimmäisen kuvan viereen."
+  },
+  "G2-332": {
+    "title": "Yhdyssanaetsivä: yhdyssana vai ei?",
+    "instruction": "Kaksitoista sanaa, joista kuusi on yhdyssanoja. Ympyröi yhdyssanat ja kirjoita niiden kaksi osaa viivoille."
+  },
+  "G2-333": {
+    "title": "Sanatähti: yksi sana, monta yhdyssanaa",
+    "instruction": "Keskellä on yksi sana. Jokainen kuva sen ympärillä tekee sen kanssa uuden sanan. Kirjoita neljä uutta sanaa viivoille."
+  },
+  "G2-334": {
+    "title": "Yhdistä persoona ja verbimuoto",
+    "instruction": "Lue vasemmalta persoonapronomini. Piirrä viiva siihen verbimuotoon, joka kuuluu sille: yksi viiva jokaista pronominia kohti."
+  },
+  "G2-335": {
+    "title": "Verbimuodot lauseissa kuvien avulla",
+    "instruction": "Katso kuvaa ja lue verbi laatikosta. Kirjoita lauseeseen sopiva persoonamuoto katkoviivaruutuun."
+  },
+  "G2-336": {
+    "title": "Olla, tulla, mennä: taivuta verbit",
+    "instruction": "Nämä verbit taipuvat eri tavalla kuin muut. Kirjoita jokaiselle persoonalle oikea muoto katkoviivaruutuun."
+  },
+  "G2-337": {
+    "title": "Valitse oikea verbimuoto",
+    "instruction": "Lue lause. Sen alla on kolme saman verbin muotoa. Ympyröi se muoto, joka sopii lauseeseen."
+  },
+  "G2-338": {
+    "title": "Etsi verbi ja kirjoita perusmuoto",
+    "instruction": "Alleviivaa lauseen verbi. Kirjoita sitten sen perusmuoto katkoviivaruutuun."
+  },
+  "G2-339": {
+    "title": "{U}: rastita oikeat tiedot",
+    "instruction": "Lue jokaisen rivin vaihtoehdot ja ympyröi se, joka pitää paikkansa tästä eläimestä. Piirrä sitten, missä se elää, ja täydennä lause."
+  },
+  "G2-340": {
+    "title": "{U}: eläinkortti sanapankin avulla",
+    "instruction": "Etsi sanapankista jokainen oikea tieto ja kirjoita se eläinkortin oikealle riville. Täydennä lopuksi lause sivun alalaidassa."
+  },
+  "G2-341": {
+    "title": "{U}: kirjoita kolme lausetta",
+    "instruction": "Lue eläinkortti. Täydennä kolme lausetta kortin tiedoilla ja kirjoita sitten viimeiselle riville yksi oma tieto."
+  },
+  "G2-342": {
+    "title": "Vertaile kahta eläintä: samaa vai erilaista?",
+    "instruction": "Lue molemmat eläinkortit. Ympyröi jokaisen tiedon kohdalla samaa tai erilaista. Kirjoita sitten kaksi samaa ja kaksi erilaista asiaa."
+  },
+  "G2-343": {
+    "title": "Kuka minä olen? Arvaa eläin",
+    "instruction": "Lue kortin viisi vihjettä. Etsi eläin kuvapankista, kirjoita sen nimi viivalle ja piirrä se laatikkoon."
+  },
+  "G2-344": {
+    "title": "Päättelypulmat: kyllä, ei tai jompikumpi",
+    "instruction": "Kyllä-vihje saa väkäsen, ei-vihje ruksin ja jompikumpi-vihje ruksaa kolmannen kuvan. Täytä ruudukko ja ympyröi sitten vastaukset."
+  },
+  "G3-378": {
+    "title": "Neljä lasta, neljä kuvaa: kuusi vihjettä",
+    "instruction": "Neljä lasta ja neljä kuvaa. Käytä jokainen vihje: ruksi se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta."
+  },
+  "G1-349": {
+    "title": "Kuvavihjeet: yliviivaa ja etsi",
+    "instruction": "Ruksittu kuva tarkoittaa, että lapsella ei ole sitä, ympyröity kuva, että lapsella on se. Ruksi ruudukosta ja ympyröi sitten vastaukset."
+  },
+  "G3-379": {
+    "title": "Kaksi kuvaa lasta kohti: päättele molemmat",
+    "instruction": "Jokaisella lapsella on yksi kuva kummastakin sarjasta. Täytä kaikki kolme ruudukkoa yhdistävien vihjeiden avulla."
+  },
+  "G2-345": {
+    "title": "Lue päättelyruudukko: totta vai tarua?",
+    "instruction": "Ruudukko on jo ratkaistu. Lue se ja ympyröi väkänen, jos lause on totta, tai ruksi, jos se on tarua."
+  },
+  "G3-380": {
+    "title": "Jaa tasan: mitä jää yli?",
+    "instruction": "Jaa kasa laatikoihin yksi kerrallaan. Kirjoita, montako jokainen laatikko saa ja montako ei voi jakaa."
+  },
+  "G3-381": {
+    "title": "Jakojäännös: harjoitusrivit",
+    "instruction": "Jokaisesta jakolaskusta jää jotakin yli. Kirjoita jokaiselle riville vastaus ja jakojäännös."
+  },
+  "G3-382": {
+    "title": "Meneekö jako tasan?",
+    "instruction": "Päättele, meneekö jakolasku tasan. Ympyröi vastauksesi ja kirjoita jakojäännös, 0 jos sitä ei ole."
+  },
+  "G3-383": {
+    "title": "Etsi virhe: jakojäännös on liian suuri",
+    "instruction": "Jokainen jakolasku on laskettu väärin. Yliviivaa väärät luvut ja kirjoita ruutuihin oikea vastaus ja jakojäännös."
+  },
+  "G3-384": {
+    "title": "Hyppää taaksepäin lukusuoralla",
+    "instruction": "Aloita merkitystä luvusta ja piirrä yhtä pitkiä hyppyjä taaksepäin, kunnes kokonainen hyppy ei enää mahdu. Kirjoita hypyt ja luku, johon päädyt."
   }
 }

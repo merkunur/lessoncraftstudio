@@ -1,0 +1,125 @@
+{
+  "labels": {
+    "nameIs": "Minun nimeni on",
+    "age": {
+      "pre": "Olen",
+      "post": "-vuotias",
+      "glue": true
+    },
+    "thisIsMe": "Tässä olen minä",
+    "family": "Minun perheeni",
+    "familyDraw": "Piirrä perheesi",
+    "drawFace": "Piirrä nyt omat kasvosi",
+    "school": "Minun kouluni on",
+    "favHeading": {
+      "animal": "Lempieläimeni",
+      "food": "Lempiruokani",
+      "color": "Lempivärini",
+      "toy": "Lempileluni"
+    },
+    "countHeads": {
+      "people": "Perheeni jäsenet:",
+      "brothers": "Veljet:",
+      "sisters": "Siskot:",
+      "pets": "Lemmikit:"
+    },
+    "wantLearn": "Haluan oppia",
+    "myName": "Minun nimeni",
+    "friendName": "Kaverini nimi",
+    "oneLetterPerBox": "Kirjoita yksi kirjain jokaiseen ruutuun",
+    "lettersCount": "Kirjaimia nimessäni:",
+    "firstLetter": "Nimeni ensimmäinen kirjain:",
+    "whoHasMore": {
+      "question": "Kummalla on enemmän kirjaimia?",
+      "me": "minulla",
+      "friend": "kaverillani"
+    }
+  },
+  "faceWords": {
+    "eye": "silmä",
+    "ear": "korva",
+    "nose": "nenä",
+    "mouth": "suu",
+    "hair": "hiukset",
+    "eyebrow": "kulmakarva",
+    "chin": "leuka"
+  },
+  "can": {
+    "swim": "Osaan uida",
+    "run": "Osaan juosta",
+    "skip": "Osaan hyppiä narua",
+    "bike": "Osaan ajaa pyörällä",
+    "read": "Osaan lukea kirjan",
+    "soccer": "Osaan potkaista palloa",
+    "puzzle": "Osaan koota palapelin",
+    "paint": "Osaan maalata kuvan",
+    "sing": "Osaan laulaa laulun",
+    "skate": "Osaan luistella",
+    "ski": "Osaan hiihtää",
+    "writename": "Osaan kirjoittaa nimeni",
+    "brushteeth": "Osaan pestä hampaat"
+  },
+  "refuse": [],
+  "optionWords": {
+    "cat": "kissa",
+    "dog": "koira",
+    "fish": "kala",
+    "horse": "hevonen",
+    "rabbit": "kani",
+    "duck": "ankka",
+    "pig": "sika",
+    "sheep": "lammas",
+    "elephant": "norsu",
+    "giraffe": "kirahvi",
+    "penguin": "pingviini",
+    "tiger": "tiikeri",
+    "apple": "omena",
+    "banana": "banaani",
+    "bread": "leipä",
+    "cheese": "juusto",
+    "pizza": "pizza",
+    "carrot": "porkkana",
+    "strawberry": "mansikka",
+    "cookie": "keksi",
+    "pasta": "pasta",
+    "milk": "maito",
+    "grapes": "viinirypäleet",
+    "cake": "kakku",
+    "ball": "pallo",
+    "doll": "nukke",
+    "car": "auto",
+    "train": "juna",
+    "kite": "leija",
+    "blocks": "palikat",
+    "robot": "robotti",
+    "balloon": "ilmapallo",
+    "dinosaur": "dinosaurus",
+    "boat": "vene"
+  },
+  "strings": {
+    "K-323": {
+      "title": "Minä itse: tällainen minä olen",
+      "instruction": "Kirjoita nimesi ja ikäsi, piirrä itsesi ja perheesi ja piirrä sitten kolme lempiasiaasi."
+    },
+    "K-342": {
+      "title": "Lempiasiani: ympyröi ja kirjoita",
+      "instruction": "Ympyröi jokaiselta riviltä lempikuvasi ja kopioi sen sana viivalle."
+    },
+    "K-343": {
+      "title": "Minun perheeni: piirrä ja laske",
+      "instruction": "Piirrä perheesi. Näytä sitten kymppiruuduissa, montako ihmistä, veljeä, siskoa ja lemmikkiä perheessäsi on, ja kirjoita luku."
+    },
+    "K-344": {
+      "title": "Tässä olen minä: nimeä kasvojen osat",
+      "instruction": "Kopioi jokainen sanapankin sana sille viivalle, joka osoittaa kasvojen osaan. Piirrä sitten omat kasvosi."
+    },
+    "K-345": {
+      "title": "Minä osaan: rastita, mitä osaat",
+      "instruction": "Lue jokainen lause ja rastita ne asiat, jotka osaat. Kirjoita sitten yksi asia, jonka haluat oppia."
+    },
+    "K-346": {
+      "title": "Minun nimeni: kirjoita, laske ja vertaa",
+      "instruction": "Kirjoita nimesi yksi kirjain jokaiseen ruutuun ja laske kirjaimet. Tee sama kaverisi nimelle ja ympyröi, kummalla on enemmän."
+    }
+  }
+}

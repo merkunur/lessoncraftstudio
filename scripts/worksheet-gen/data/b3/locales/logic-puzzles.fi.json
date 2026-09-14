@@ -1,0 +1,116 @@
+{
+  "head": "Päättelypulmat",
+  "names": [
+    {
+      "nom": "Aino",
+      "ade": "Ainolla",
+      "gen": "Ainon"
+    },
+    {
+      "nom": "Eeli",
+      "ade": "Eelillä",
+      "gen": "Eelin"
+    },
+    {
+      "nom": "Sofia",
+      "ade": "Sofialla",
+      "gen": "Sofian"
+    },
+    {
+      "nom": "Onni",
+      "ade": "Onnilla",
+      "gen": "Onnin"
+    },
+    {
+      "nom": "Aada",
+      "ade": "Aadalla",
+      "gen": "Aadan"
+    },
+    {
+      "nom": "Väinö",
+      "ade": "Väinöllä",
+      "gen": "Väinön"
+    },
+    {
+      "nom": "Helmi",
+      "ade": "Helmillä",
+      "gen": "Helmin"
+    },
+    {
+      "nom": "Leo",
+      "ade": "Leolla",
+      "gen": "Leon"
+    }
+  ],
+  "namePx": 22,
+  "picSep": "",
+  "frames": {
+    "neg": [
+      "{nameAde} ei ole {pic}.",
+      "{pic} ei ole {nameAde}."
+    ],
+    "pos": [
+      "{nameAde} on {pic}.",
+      "{pic} on {nameAde}."
+    ],
+    "either": [
+      "{nameAde} on {pic} tai {pic}.",
+      "{pic} tai {pic} on {nameAde}."
+    ],
+    "holderNot": [
+      "Se, jolla on {pic}, ei ole {name}.",
+      "{name} ei ole se, jolla on {pic}."
+    ],
+    "cross": [
+      "Sillä, jolla on {pic}, on myös {pic2}.",
+      "Jos jollakulla on {pic}, hänellä on myös {pic2}."
+    ],
+    "crossNot": [
+      "Sillä, jolla on {pic}, ei ole {pic2}.",
+      "Jos jollakulla on {pic}, hänellä ei ole {pic2}."
+    ]
+  },
+  "truth": {
+    "has": [
+      "{nameAde} on {pic}."
+    ],
+    "hasNot": [
+      "{nameAde} ei ole {pic}."
+    ],
+    "holderIs": [
+      "Se, jolla on {pic}, on {name}."
+    ],
+    "either": [
+      "{nameAde} on {pic} tai {pic}."
+    ],
+    "nobody": [
+      "Kenelläkään ei ole {pic}."
+    ]
+  },
+  "strings": {
+    "G2-319": {
+      "title": "Päättelypulmat: kolme vihjettä, yksi vastaus",
+      "instruction": "Lue vihjeet. Ruksi ruudukosta se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta. Ympyröi sitten jokaisen lapsen kuva."
+    },
+    "F1": {
+      "title": "Päättelypulmat: kyllä, ei tai jompikumpi",
+      "instruction": "Kyllä-vihje saa väkäsen, ei-vihje ruksin ja jompikumpi-vihje ruksaa kolmannen kuvan. Täytä ruudukko ja ympyröi sitten vastaukset."
+    },
+    "F2": {
+      "title": "Neljä lasta, neljä kuvaa: kuusi vihjettä",
+      "instruction": "Neljä lasta ja neljä kuvaa. Käytä jokainen vihje: ruksi se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta."
+    },
+    "F3": {
+      "title": "Kuvavihjeet: yliviivaa ja etsi",
+      "instruction": "Ruksittu kuva tarkoittaa, että lapsella ei ole sitä, ympyröity kuva, että lapsella on se. Ruksi ruudukosta ja ympyröi sitten vastaukset."
+    },
+    "F4": {
+      "title": "Kaksi kuvaa lasta kohti: päättele molemmat",
+      "instruction": "Jokaisella lapsella on yksi kuva kummastakin sarjasta. Täytä kaikki kolme ruudukkoa yhdistävien vihjeiden avulla."
+    },
+    "F5": {
+      "title": "Lue päättelyruudukko: totta vai tarua?",
+      "instruction": "Ruudukko on jo ratkaistu. Lue se ja ympyröi väkänen, jos lause on totta, tai ruksi, jos se on tarua."
+    }
+  }
+}

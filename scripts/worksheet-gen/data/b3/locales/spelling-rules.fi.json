@@ -1,0 +1,5540 @@
+{
+  "head": "Oikeinkirjoitus",
+  "exemplar": "kk",
+  "capital": "lower",
+  "pool": "approved-full",
+  "exclude": {
+    "re": "saurus$",
+    "why": "dinosaurusten latinalaiset nimet eivät ole 2. luokan oikeinkirjoitussanoja"
+  },
+  "rules": {
+    "kk": {
+      "id": "kk",
+      "head": "kk vai k",
+      "chip": "kk",
+      "band": "G2",
+      "gap": {
+        "kind": "regex",
+        "re": "(?<=[aeiouyäö])kk(?=[aeiouyäö])|(?<=[aeiouyäö])k(?=[aeiouyäö])",
+        "boxes": "wide"
+      },
+      "cands": [
+        "kk",
+        "k"
+      ],
+      "pair": [
+        "kk",
+        "k"
+      ],
+      "pairHead": "kk vai k",
+      "proof": null,
+      "models": [
+        {
+          "vocabKey": "coat",
+          "theme": "clothing",
+          "noun": "coat",
+          "word": "takki",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk"
+        },
+        {
+          "vocabKey": "flower",
+          "theme": "easter",
+          "noun": "flower",
+          "word": "kukka",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk"
+        }
+      ],
+      "items": [
+        {
+          "theme": "Things That Fly",
+          "noun": "bat",
+          "vocabKey": "bat",
+          "word": "lepakko",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "lepakot",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "blueberry",
+          "vocabKey": "blueberry",
+          "word": "mustikka",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "mustikat",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "cabin",
+          "vocabKey": "cabin",
+          "word": "mökki",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "mökit",
+          "pluralGap": null
+        },
+        {
+          "theme": "4th of July",
+          "noun": "cake",
+          "vocabKey": "cake",
+          "word": "kakku",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "kakut",
+          "pluralGap": null
+        },
+        {
+          "theme": "farm animals",
+          "noun": "calf",
+          "vocabKey": "calf",
+          "word": "vasikka",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "vasikat",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "cardigan",
+          "vocabKey": "cardigan",
+          "word": "neuletakki",
+          "gaps": [
+            {
+              "from": 7,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "neuletakit",
+          "pluralGap": null
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "caterpillar",
+          "vocabKey": "caterpillar",
+          "word": "toukka",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "toukat",
+          "pluralGap": null
+        },
+        {
+          "theme": "occupations",
+          "noun": "chef",
+          "vocabKey": "chef",
+          "word": "kokki",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "kokit",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "cherry",
+          "vocabKey": "cherry",
+          "word": "kirsikka",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "kirsikat",
+          "pluralGap": null
+        },
+        {
+          "theme": "toys",
+          "noun": "doll",
+          "vocabKey": "doll",
+          "word": "nukke",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "nuket",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "dress",
+          "vocabKey": "dress",
+          "word": "mekko",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "mekot",
+          "pluralGap": null
+        },
+        {
+          "theme": "birds 2",
+          "noun": "falcon",
+          "vocabKey": "falcon",
+          "word": "haukka",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "haukat",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "fireplace",
+          "vocabKey": "fireplace",
+          "word": "takka",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "takat",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "fork",
+          "vocabKey": "fork",
+          "word": "haarukka",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "haarukat",
+          "pluralGap": null
+        },
+        {
+          "theme": "vehicles",
+          "noun": "forklift",
+          "vocabKey": "forklift",
+          "word": "trukki",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "trukit",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "frog",
+          "vocabKey": "frog",
+          "word": "sammakko",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "sammakot",
+          "pluralGap": null
+        },
+        {
+          "theme": "pets",
+          "noun": "gecko",
+          "vocabKey": "gecko",
+          "word": "gekko",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "gekot",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "gingerbread",
+          "vocabKey": "gingerbread",
+          "word": "piparkakku",
+          "gaps": [
+            {
+              "from": 7,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "piparkakut",
+          "pluralGap": null
+        },
+        {
+          "theme": "winter",
+          "noun": "icicle",
+          "vocabKey": "icicle",
+          "word": "jääpuikko",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "jääpuikot",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "kayak",
+          "vocabKey": "kayak",
+          "word": "kajakki",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "kajakit",
+          "pluralGap": null
+        },
+        {
+          "theme": "tools",
+          "noun": "ladder",
+          "vocabKey": "ladder",
+          "word": "tikkaat",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "tikkaat",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "lighthouse",
+          "vocabKey": "lighthouse",
+          "word": "majakka",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "majakat",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "lock",
+          "vocabKey": "lock",
+          "word": "lukko",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "lukot",
+          "pluralGap": null
+        },
+        {
+          "theme": "desserts and sweets",
+          "noun": "lollipop",
+          "vocabKey": "lollipop",
+          "word": "tikkari",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "tikkarit",
+          "pluralGap": null
+        },
+        {
+          "theme": "birds 2",
+          "noun": "magpie",
+          "vocabKey": "magpie",
+          "word": "harakka",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "harakat",
+          "pluralGap": null
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "otter",
+          "vocabKey": "otter",
+          "word": "saukko",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "saukot",
+          "pluralGap": null
+        },
+        {
+          "theme": "vegetables",
+          "noun": "parsnip",
+          "vocabKey": "parsnip",
+          "word": "palsternakka",
+          "gaps": [
+            {
+              "from": 9,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "palsternakat",
+          "pluralGap": null
+        },
+        {
+          "theme": "colors",
+          "noun": "peach",
+          "vocabKey": "peach",
+          "word": "persikka",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "persikat",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "pie",
+          "vocabKey": "pie",
+          "word": "piirakka",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "piirakat",
+          "pluralGap": null
+        },
+        {
+          "theme": "spring",
+          "noun": "puddle",
+          "vocabKey": "puddle",
+          "word": "lätäkkö",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "lätäköt",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "raincoat",
+          "vocabKey": "raincoat",
+          "word": "sadetakki",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "sadetakit",
+          "pluralGap": null
+        },
+        {
+          "theme": "birds 2",
+          "noun": "rooster",
+          "vocabKey": "rooster",
+          "word": "kukko",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "kukot",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "sack",
+          "vocabKey": "sack",
+          "word": "säkki",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "säkit",
+          "pluralGap": null
+        },
+        {
+          "theme": "summer",
+          "noun": "sand",
+          "vocabKey": "sand",
+          "word": "hiekka",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "hiekka",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "sandcastle",
+          "vocabKey": "sandcastle",
+          "word": "hiekkalinna",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "hiekkalinnat",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "santa",
+          "vocabKey": "santa",
+          "word": "joulupukki",
+          "gaps": [
+            {
+              "from": 7,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "joulupukit",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "sausage",
+          "vocabKey": "sausage",
+          "word": "makkara",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "makkarat",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "seagull",
+          "vocabKey": "seagull",
+          "word": "lokki",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "lokit",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "seashell",
+          "vocabKey": "seashell",
+          "word": "simpukka",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "simpukat",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "snowman",
+          "vocabKey": "snowman",
+          "word": "lumiukko",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "lumiukot",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "sock",
+          "vocabKey": "sock",
+          "word": "sukka",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "sukat",
+          "pluralGap": null
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "spider",
+          "vocabKey": "spider",
+          "word": "hämähäkki",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "hämähäkit",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "spoon",
+          "vocabKey": "spoon",
+          "word": "lusikka",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "lusikat",
+          "pluralGap": null
+        },
+        {
+          "theme": "furniture",
+          "noun": "stool",
+          "vocabKey": "stool",
+          "word": "jakkara",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "jakkarat",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "strawberry",
+          "vocabKey": "strawberry",
+          "word": "mansikka",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "mansikat",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "vase",
+          "vocabKey": "vase",
+          "word": "maljakko",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "maljakot",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "wallet",
+          "vocabKey": "wallet",
+          "word": "lompakko",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "lompakot",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "window",
+          "vocabKey": "window",
+          "word": "ikkuna",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "ikkunat",
+          "pluralGap": null
+        },
+        {
+          "theme": "animals",
+          "noun": "woodpecker",
+          "vocabKey": "woodpecker",
+          "word": "tikka",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "kk",
+          "side": "rule",
+          "plural": "tikat",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "airplane",
+          "vocabKey": "airplane",
+          "word": "lentokone",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "lentokoneet",
+          "pluralGap": null
+        },
+        {
+          "theme": "fruits",
+          "noun": "avocado",
+          "vocabKey": "avocado",
+          "word": "avokado",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "avokadot",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "bacon",
+          "vocabKey": "bacon",
+          "word": "pekoni",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "pekoni",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "binoculars",
+          "vocabKey": "binoculars",
+          "word": "kiikari",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "kiikarit",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "blender",
+          "vocabKey": "blender",
+          "word": "tehosekoitin",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "tehosekoittimet",
+          "pluralGap": null
+        },
+        {
+          "theme": "toys",
+          "noun": "blocks",
+          "vocabKey": "blocks",
+          "word": "palikat",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "palikat",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "broccoli",
+          "vocabKey": "broccoli",
+          "word": "parsakaali",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "parsakaalit",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "chin",
+          "vocabKey": "chin",
+          "word": "leuka",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "leuat",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "closet",
+          "vocabKey": "closet",
+          "word": "vaatekaappi",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "vaatekaapit",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "computer",
+          "vocabKey": "computer",
+          "word": "tietokone",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "tietokoneet",
+          "pluralGap": null
+        },
+        {
+          "theme": "hospital",
+          "noun": "doctor",
+          "vocabKey": "doctor",
+          "word": "lääkäri",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "lääkärit",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "dragon",
+          "vocabKey": "dragon",
+          "word": "lohikäärme",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "lohikäärmeet",
+          "pluralGap": null
+        },
+        {
+          "theme": "vegetables",
+          "noun": "eggplant",
+          "vocabKey": "eggplant",
+          "word": "munakoiso",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "munakoisot",
+          "pluralGap": null
+        },
+        {
+          "theme": "classroom",
+          "noun": "eraser",
+          "vocabKey": "eraser",
+          "word": "pyyhekumi",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "pyyhekumit",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "fridge",
+          "vocabKey": "fridge",
+          "word": "jääkaappi",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "jääkaapit",
+          "pluralGap": null
+        },
+        {
+          "theme": "pets",
+          "noun": "goldfish",
+          "vocabKey": "goldfish",
+          "word": "kultakala",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "kultakalat",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "helicopter",
+          "vocabKey": "helicopter",
+          "word": "helikopteri",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "helikopterit",
+          "pluralGap": null
+        },
+        {
+          "theme": "birds 2",
+          "noun": "heron",
+          "vocabKey": "heron",
+          "word": "haikara",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "haikarat",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "jet",
+          "vocabKey": "jet",
+          "word": "suihkukone",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "suihkukoneet",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "ladybug",
+          "vocabKey": "ladybug",
+          "word": "leppäkerttu",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "leppäkertut",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "mug",
+          "vocabKey": "mug",
+          "word": "muki",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "mukit",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "necklace",
+          "vocabKey": "necklace",
+          "word": "kaulakoru",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "kaulakorut",
+          "pluralGap": null
+        },
+        {
+          "theme": "ocean life",
+          "noun": "octopus",
+          "vocabKey": "octopus",
+          "word": "mustekala",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "mustekalat",
+          "pluralGap": null
+        },
+        {
+          "theme": "post office",
+          "noun": "package",
+          "vocabKey": "package",
+          "word": "paketti",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "paketit",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "parrot",
+          "vocabKey": "parrot",
+          "word": "papukaija",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "papukaijat",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "pepper",
+          "vocabKey": "pepper",
+          "word": "paprika",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "paprikat",
+          "pluralGap": null
+        },
+        {
+          "theme": "animals",
+          "noun": "pig",
+          "vocabKey": "pig",
+          "word": "sika",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "siat",
+          "pluralGap": null
+        },
+        {
+          "theme": "animals",
+          "noun": "raccoon",
+          "vocabKey": "raccoon",
+          "word": "pesukarhu",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "pesukarhut",
+          "pluralGap": null
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "rhinoceros",
+          "vocabKey": "rhinoceros",
+          "word": "sarvikuono",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "sarvikuonot",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "river",
+          "vocabKey": "river",
+          "word": "joki",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "joet",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "rocket",
+          "vocabKey": "rocket",
+          "word": "raketti",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "raketit",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "sleigh",
+          "vocabKey": "sleigh",
+          "word": "reki",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "reet",
+          "pluralGap": null
+        },
+        {
+          "theme": "vehicles",
+          "noun": "submarine",
+          "vocabKey": "submarine",
+          "word": "sukellusvene",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "sukellusveneet",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "swimsuit",
+          "vocabKey": "swimsuit",
+          "word": "uimapuku",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "uimapuvut",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "teapot",
+          "vocabKey": "teapot",
+          "word": "teekannu",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "teekannut",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "thumb",
+          "vocabKey": "thumb",
+          "word": "peukalo",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "peukalot",
+          "pluralGap": null
+        },
+        {
+          "theme": "animals",
+          "noun": "tiger",
+          "vocabKey": "tiger",
+          "word": "tiikeri",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "tiikerit",
+          "pluralGap": null
+        },
+        {
+          "theme": "pets",
+          "noun": "tortoise",
+          "vocabKey": "tortoise",
+          "word": "kilpikonna",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "kilpikonnat",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "toucan",
+          "vocabKey": "toucan",
+          "word": "tukaani",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "tukaanit",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "wand",
+          "vocabKey": "wand",
+          "word": "taikasauva",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "taikasauvat",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "watch",
+          "vocabKey": "watch",
+          "word": "rannekello",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "k",
+          "side": "contrast",
+          "plural": "rannekellot",
+          "pluralGap": null
+        }
+      ],
+      "foils": [
+        {
+          "theme": "toys",
+          "noun": "ball",
+          "vocabKey": "ball",
+          "word": "pallo"
+        },
+        {
+          "theme": "around the house",
+          "noun": "couch",
+          "vocabKey": "couch",
+          "word": "sohva"
+        },
+        {
+          "theme": "accessories",
+          "noun": "hat",
+          "vocabKey": "hat",
+          "word": "hattu"
+        },
+        {
+          "theme": "animals",
+          "noun": "sheep",
+          "vocabKey": "sheep",
+          "word": "lammas"
+        }
+      ],
+      "refuse": {},
+      "note": ""
+    },
+    "tt": {
+      "id": "tt",
+      "head": "tt vai t",
+      "chip": "tt",
+      "band": "G2",
+      "gap": {
+        "kind": "regex",
+        "re": "(?<=[aeiouyäö])tt(?=[aeiouyäö])|(?<=[aeiouyäö])t(?=[aeiouyäö])",
+        "boxes": "wide"
+      },
+      "cands": [
+        "tt",
+        "t"
+      ],
+      "pair": [
+        "tt",
+        "t"
+      ],
+      "pairHead": "tt vai t",
+      "proof": null,
+      "models": [
+        {
+          "vocabKey": "fox",
+          "theme": "animals",
+          "noun": "fox",
+          "word": "kettu",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "tt"
+        },
+        {
+          "vocabKey": "hat",
+          "theme": "accessories",
+          "noun": "hat",
+          "word": "hattu",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "tt"
+        }
+      ],
+      "items": [
+        {
+          "theme": "reptiles and Amphibians",
+          "noun": "alligator",
+          "vocabKey": "alligator",
+          "word": "alligaattori",
+          "gaps": [
+            {
+              "from": 7,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "alligaattorit",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "canoe",
+          "vocabKey": "canoe",
+          "word": "kanootti",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "kanootit",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "cape",
+          "vocabKey": "cape",
+          "word": "viitta",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "viitat",
+          "pluralGap": null
+        },
+        {
+          "theme": "toys",
+          "noun": "girl",
+          "vocabKey": "girl",
+          "word": "tyttö",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "tytöt",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "hammock",
+          "vocabKey": "hammock",
+          "word": "riippumatto",
+          "gaps": [
+            {
+              "from": 8,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "riippumatot",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "lettuce",
+          "vocabKey": "lettuce",
+          "word": "salaatti",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "salaatit",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "mosquito",
+          "vocabKey": "mosquito",
+          "word": "hyttynen",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "hyttyset",
+          "pluralGap": null
+        },
+        {
+          "theme": "tools",
+          "noun": "nut",
+          "vocabKey": "nut",
+          "word": "mutteri",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "mutterit",
+          "pluralGap": null
+        },
+        {
+          "theme": "post office",
+          "noun": "package",
+          "vocabKey": "package",
+          "word": "paketti",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "paketit",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "pot",
+          "vocabKey": "pot",
+          "word": "kattila",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "kattilat",
+          "pluralGap": null
+        },
+        {
+          "theme": "toys",
+          "noun": "robot",
+          "vocabKey": "robot",
+          "word": "robotti",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "robotit",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "rocket",
+          "vocabKey": "rocket",
+          "word": "raketti",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "raketit",
+          "pluralGap": null
+        },
+        {
+          "theme": "hospital",
+          "noun": "thermometer",
+          "vocabKey": "thermometer",
+          "word": "lämpömittari",
+          "gaps": [
+            {
+              "from": 7,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "lämpömittarit",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "tomato",
+          "vocabKey": "tomato",
+          "word": "tomaatti",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "tomaatit",
+          "pluralGap": null
+        },
+        {
+          "theme": "music",
+          "noun": "trumpet",
+          "vocabKey": "trumpet",
+          "word": "trumpetti",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 2
+            }
+          ],
+          "g": "tt",
+          "side": "rule",
+          "plural": "trumpetit",
+          "pluralGap": null
+        },
+        {
+          "theme": "music",
+          "noun": "accordion",
+          "vocabKey": "accordion",
+          "word": "haitari",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "haitarit",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "armchair",
+          "vocabKey": "armchair",
+          "word": "nojatuoli",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "nojatuolit",
+          "pluralGap": null
+        },
+        {
+          "theme": "bakery",
+          "noun": "baguette",
+          "vocabKey": "baguette",
+          "word": "patonki",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "patongit",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "blender",
+          "vocabKey": "blender",
+          "word": "tehosekoitin",
+          "gaps": [
+            {
+              "from": 9,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "tehosekoittimet",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "broom",
+          "vocabKey": "broom",
+          "word": "luuta",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "luudat",
+          "pluralGap": null
+        },
+        {
+          "theme": "toys",
+          "noun": "car",
+          "vocabKey": "car",
+          "word": "auto",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "autot",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "cardigan",
+          "vocabKey": "cardigan",
+          "word": "neuletakki",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "neuletakit",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "closet",
+          "vocabKey": "closet",
+          "word": "vaatekaappi",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "vaatekaapit",
+          "pluralGap": null
+        },
+        {
+          "theme": "pets",
+          "noun": "cockatiel",
+          "vocabKey": "cockatiel",
+          "word": "neitokakadu",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "neitokakadut",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "computer",
+          "vocabKey": "computer",
+          "word": "tietokone",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "tietokoneet",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "desk",
+          "vocabKey": "desk",
+          "word": "työpöytä",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "työpöydät",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "fan",
+          "vocabKey": "fan",
+          "word": "tuuletin",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "tuulettimet",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "fence",
+          "vocabKey": "fence",
+          "word": "aita",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "aidat",
+          "pluralGap": null
+        },
+        {
+          "theme": "miscellaneous",
+          "noun": "ghost",
+          "vocabKey": "ghost",
+          "word": "kummitus",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "kummitukset",
+          "pluralGap": null
+        },
+        {
+          "theme": "activities",
+          "noun": "guitar",
+          "vocabKey": "guitar",
+          "word": "kitara",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "kitarat",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "kettle",
+          "vocabKey": "kettle",
+          "word": "vedenkeitin",
+          "gaps": [
+            {
+              "from": 8,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "vedenkeittimet",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "medal",
+          "vocabKey": "medal",
+          "word": "mitali",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "mitalit",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "milk",
+          "vocabKey": "milk",
+          "word": "maito",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "maito",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "plate",
+          "vocabKey": "plate",
+          "word": "lautanen",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "lautaset",
+          "pluralGap": null
+        },
+        {
+          "theme": "spring",
+          "noun": "puddle",
+          "vocabKey": "puddle",
+          "word": "lätäkkö",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "lätäköt",
+          "pluralGap": null
+        },
+        {
+          "theme": "vegetables",
+          "noun": "radish",
+          "vocabKey": "radish",
+          "word": "retiisi",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "retiisit",
+          "pluralGap": null
+        },
+        {
+          "theme": "easter",
+          "noun": "rainbow",
+          "vocabKey": "rainbow",
+          "word": "sateenkaari",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "sateenkaaret",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "raincoat",
+          "vocabKey": "raincoat",
+          "word": "sadetakki",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "sadetakit",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "shirt",
+          "vocabKey": "shirt",
+          "word": "paita",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "paidat",
+          "pluralGap": null
+        },
+        {
+          "theme": "toys",
+          "noun": "skateboard",
+          "vocabKey": "skateboard",
+          "word": "rullalauta",
+          "gaps": [
+            {
+              "from": 8,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "rullalaudat",
+          "pluralGap": null
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "slug",
+          "vocabKey": "slug",
+          "word": "etana",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "etanat",
+          "pluralGap": null
+        },
+        {
+          "theme": "weather",
+          "noun": "snowflake",
+          "vocabKey": "snowflake",
+          "word": "lumihiutale",
+          "gaps": [
+            {
+              "from": 7,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "lumihiutaleet",
+          "pluralGap": null
+        },
+        {
+          "theme": "classroom",
+          "noun": "stapler",
+          "vocabKey": "stapler",
+          "word": "nitoja",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "nitojat",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "starfish",
+          "vocabKey": "starfish",
+          "word": "meritähti",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "meritähdet",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "table",
+          "vocabKey": "table",
+          "word": "pöytä",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "pöydät",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "umbrella",
+          "vocabKey": "umbrella",
+          "word": "sateenvarjo",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "sateenvarjot",
+          "pluralGap": null
+        },
+        {
+          "theme": "hospital",
+          "noun": "wheelchair",
+          "vocabKey": "wheelchair",
+          "word": "pyörätuoli",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "t",
+          "side": "contrast",
+          "plural": "pyörätuolit",
+          "pluralGap": null
+        }
+      ],
+      "foils": [
+        {
+          "theme": "toys",
+          "noun": "ball",
+          "vocabKey": "ball",
+          "word": "pallo"
+        },
+        {
+          "theme": "around the house",
+          "noun": "couch",
+          "vocabKey": "couch",
+          "word": "sohva"
+        },
+        {
+          "theme": "easter",
+          "noun": "flower",
+          "vocabKey": "flower",
+          "word": "kukka"
+        },
+        {
+          "theme": "animals",
+          "noun": "sheep",
+          "vocabKey": "sheep",
+          "word": "lammas"
+        }
+      ],
+      "refuse": {},
+      "note": ""
+    },
+    "pp": {
+      "id": "pp",
+      "head": "pp vai p",
+      "chip": "pp",
+      "band": "G2",
+      "gap": {
+        "kind": "regex",
+        "re": "(?<=[aeiouyäö])pp(?=[aeiouyäö])|(?<=[aeiouyäö])p(?=[aeiouyäö])",
+        "boxes": "wide"
+      },
+      "cands": [
+        "pp",
+        "p"
+      ],
+      "pair": [
+        "pp",
+        "p"
+      ],
+      "pairHead": "pp vai p",
+      "proof": null,
+      "models": [
+        {
+          "vocabKey": "backpack",
+          "theme": "accessories",
+          "noun": "backpack",
+          "word": "reppu",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "pp"
+        },
+        {
+          "vocabKey": "cup",
+          "theme": "around the house",
+          "noun": "cup",
+          "word": "kuppi",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "pp"
+        }
+      ],
+      "items": [
+        {
+          "theme": "camping",
+          "noun": "boots",
+          "vocabKey": "boots",
+          "word": "saappaat",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "pp",
+          "side": "rule",
+          "plural": "saappaat",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "cabinet",
+          "vocabKey": "cabinet",
+          "word": "kaappi",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "pp",
+          "side": "rule",
+          "plural": "kaapit",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "cap",
+          "vocabKey": "cap",
+          "word": "lippis",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "pp",
+          "side": "rule",
+          "plural": "lippikset",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "closet",
+          "vocabKey": "closet",
+          "word": "vaatekaappi",
+          "gaps": [
+            {
+              "from": 8,
+              "len": 2
+            }
+          ],
+          "g": "pp",
+          "side": "rule",
+          "plural": "vaatekaapit",
+          "pluralGap": null
+        },
+        {
+          "theme": "4th of July",
+          "noun": "flag",
+          "vocabKey": "flag",
+          "word": "lippu",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "pp",
+          "side": "rule",
+          "plural": "liput",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "fridge",
+          "vocabKey": "fridge",
+          "word": "jääkaappi",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 2
+            }
+          ],
+          "g": "pp",
+          "side": "rule",
+          "plural": "jääkaapit",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "hammock",
+          "vocabKey": "hammock",
+          "word": "riippumatto",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "pp",
+          "side": "rule",
+          "plural": "riippumatot",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "hoodie",
+          "vocabKey": "hoodie",
+          "word": "huppari",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "pp",
+          "side": "rule",
+          "plural": "hupparit",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "ladybug",
+          "vocabKey": "ladybug",
+          "word": "leppäkerttu",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "pp",
+          "side": "rule",
+          "plural": "leppäkertut",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "mop",
+          "vocabKey": "mop",
+          "word": "moppi",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "pp",
+          "side": "rule",
+          "plural": "mopit",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "orange",
+          "vocabKey": "orange",
+          "word": "appelsiini",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 2
+            }
+          ],
+          "g": "pp",
+          "side": "rule",
+          "plural": "appelsiinit",
+          "pluralGap": null
+        },
+        {
+          "theme": "classroom",
+          "noun": "tape",
+          "vocabKey": "tape",
+          "word": "teippi",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "pp",
+          "side": "rule",
+          "plural": "teipit",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "wreath",
+          "vocabKey": "wreath",
+          "word": "seppele",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "pp",
+          "side": "rule",
+          "plural": "seppeleet",
+          "pluralGap": null
+        },
+        {
+          "theme": "4th of July",
+          "noun": "balloon",
+          "vocabKey": "balloon",
+          "word": "ilmapallo",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "ilmapallot",
+          "pluralGap": null
+        },
+        {
+          "theme": "activities",
+          "noun": "basketball",
+          "vocabKey": "basketball",
+          "word": "koripallo",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "koripallot",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "bat",
+          "vocabKey": "bat",
+          "word": "lepakko",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "lepakot",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "beanie",
+          "vocabKey": "beanie",
+          "word": "pipo",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "pipot",
+          "pluralGap": null
+        },
+        {
+          "theme": "spring",
+          "noun": "bicycle",
+          "vocabKey": "bicycle",
+          "word": "polkupyörä",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "polkupyörät",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "bread",
+          "vocabKey": "bread",
+          "word": "leipä",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "leivät",
+          "pluralGap": null
+        },
+        {
+          "theme": "easter",
+          "noun": "bunny",
+          "vocabKey": "bunny",
+          "word": "pupu",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "puput",
+          "pluralGap": null
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "cheetah",
+          "vocabKey": "cheetah",
+          "word": "gepardi",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "gepardit",
+          "pluralGap": null
+        },
+        {
+          "theme": "easter",
+          "noun": "chick",
+          "vocabKey": "chick",
+          "word": "tipu",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "tiput",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "crab",
+          "vocabKey": "crab",
+          "word": "rapu",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "ravut",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "desk",
+          "vocabKey": "desk",
+          "word": "työpöytä",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "työpöydät",
+          "pluralGap": null
+        },
+        {
+          "theme": "toys",
+          "noun": "dice",
+          "vocabKey": "dice",
+          "word": "nopat",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "nopat",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "dresser",
+          "vocabKey": "dresser",
+          "word": "lipasto",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "lipastot",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "garlic",
+          "vocabKey": "garlic",
+          "word": "valkosipuli",
+          "gaps": [
+            {
+              "from": 7,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "valkosipuli",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "gingerbread",
+          "vocabKey": "gingerbread",
+          "word": "piparkakku",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "piparkakut",
+          "pluralGap": null
+        },
+        {
+          "theme": "classroom",
+          "noun": "globe",
+          "vocabKey": "globe",
+          "word": "maapallo",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "maapallot",
+          "pluralGap": null
+        },
+        {
+          "theme": "animals",
+          "noun": "hippopotamus",
+          "vocabKey": "hippopotamus",
+          "word": "virtahepo",
+          "gaps": [
+            {
+              "from": 7,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "virtahepot",
+          "pluralGap": null
+        },
+        {
+          "theme": "winter",
+          "noun": "icicle",
+          "vocabKey": "icicle",
+          "word": "jääpuikko",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "jääpuikot",
+          "pluralGap": null
+        },
+        {
+          "theme": "weather",
+          "noun": "mittens",
+          "vocabKey": "mittens",
+          "word": "lapaset",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "lapaset",
+          "pluralGap": null
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "monkey",
+          "vocabKey": "monkey",
+          "word": "apina",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "apinat",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "onion",
+          "vocabKey": "onion",
+          "word": "sipuli",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "sipulit",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "ornament",
+          "vocabKey": "ornament",
+          "word": "joulupallo",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "joulupallot",
+          "pluralGap": null
+        },
+        {
+          "theme": "classroom",
+          "noun": "paper",
+          "vocabKey": "paper",
+          "word": "paperi",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "paperit",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "parrot",
+          "vocabKey": "parrot",
+          "word": "papukaija",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "papukaijat",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "pinecone",
+          "vocabKey": "pinecone",
+          "word": "käpy",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "kävyt",
+          "pluralGap": null
+        },
+        {
+          "theme": "activities",
+          "noun": "puzzle",
+          "vocabKey": "puzzle",
+          "word": "palapeli",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "palapelit",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "santa",
+          "vocabKey": "santa",
+          "word": "joulupukki",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "joulupukit",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "swimsuit",
+          "vocabKey": "swimsuit",
+          "word": "uimapuku",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "p",
+          "side": "contrast",
+          "plural": "uimapuvut",
+          "pluralGap": null
+        }
+      ],
+      "foils": [
+        {
+          "theme": "easter",
+          "noun": "flower",
+          "vocabKey": "flower",
+          "word": "kukka"
+        },
+        {
+          "theme": "around the house",
+          "noun": "couch",
+          "vocabKey": "couch",
+          "word": "sohva"
+        },
+        {
+          "theme": "accessories",
+          "noun": "hat",
+          "vocabKey": "hat",
+          "word": "hattu"
+        },
+        {
+          "theme": "animals",
+          "noun": "sheep",
+          "vocabKey": "sheep",
+          "word": "lammas"
+        }
+      ],
+      "refuse": {},
+      "note": ""
+    },
+    "ll": {
+      "id": "ll",
+      "head": "ll vai l",
+      "chip": "ll",
+      "band": "G2",
+      "gap": {
+        "kind": "regex",
+        "re": "(?<=[aeiouyäö])ll(?=[aeiouyäö])|(?<=[aeiouyäö])l(?=[aeiouyäö])",
+        "boxes": "wide"
+      },
+      "cands": [
+        "ll",
+        "l"
+      ],
+      "pair": [
+        "ll",
+        "l"
+      ],
+      "pairHead": "ll vai l",
+      "proof": null,
+      "models": [
+        {
+          "vocabKey": "ball",
+          "theme": "toys",
+          "noun": "ball",
+          "word": "pallo",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll"
+        },
+        {
+          "vocabKey": "bell",
+          "theme": "christmas",
+          "noun": "bell",
+          "word": "kello",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll"
+        }
+      ],
+      "items": [
+        {
+          "theme": "reptiles and Amphibians",
+          "noun": "alligator",
+          "vocabKey": "alligator",
+          "word": "alligaattori",
+          "gaps": [
+            {
+              "from": 1,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "alligaattorit",
+          "pluralGap": null
+        },
+        {
+          "theme": "4th of July",
+          "noun": "balloon",
+          "vocabKey": "balloon",
+          "word": "ilmapallo",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "ilmapallot",
+          "pluralGap": null
+        },
+        {
+          "theme": "summer",
+          "noun": "barbecue",
+          "vocabKey": "barbecue",
+          "word": "grilli",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "grillit",
+          "pluralGap": null
+        },
+        {
+          "theme": "activities",
+          "noun": "basketball",
+          "vocabKey": "basketball",
+          "word": "koripallo",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "koripallot",
+          "pluralGap": null
+        },
+        {
+          "theme": "furniture",
+          "noun": "bookcase",
+          "vocabKey": "bookcase",
+          "word": "kirjahylly",
+          "gaps": [
+            {
+              "from": 7,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "kirjahyllyt",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "bottle",
+          "vocabKey": "bottle",
+          "word": "pullo",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "pullot",
+          "pluralGap": null
+        },
+        {
+          "theme": "vegetables",
+          "noun": "celery",
+          "vocabKey": "celery",
+          "word": "selleri",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "sellerit",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "garage",
+          "vocabKey": "garage",
+          "word": "autotalli",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "autotallit",
+          "pluralGap": null
+        },
+        {
+          "theme": "classroom",
+          "noun": "globe",
+          "vocabKey": "globe",
+          "word": "maapallo",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "maapallot",
+          "pluralGap": null
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "gorilla",
+          "vocabKey": "gorilla",
+          "word": "gorilla",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "gorillat",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "jam",
+          "vocabKey": "jam",
+          "word": "hillo",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "hillot",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "owl",
+          "vocabKey": "owl",
+          "word": "pöllö",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "pöllöt",
+          "pluralGap": null
+        },
+        {
+          "theme": "classroom",
+          "noun": "shelf",
+          "vocabKey": "shelf",
+          "word": "hylly",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "hyllyt",
+          "pluralGap": null
+        },
+        {
+          "theme": "vehicles",
+          "noun": "submarine",
+          "vocabKey": "submarine",
+          "word": "sukellusvene",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "sukellusveneet",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "watch",
+          "vocabKey": "watch",
+          "word": "rannekello",
+          "gaps": [
+            {
+              "from": 7,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "rannekellot",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "whistle",
+          "vocabKey": "whistle",
+          "word": "pilli",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 2
+            }
+          ],
+          "g": "ll",
+          "side": "rule",
+          "plural": "pillit",
+          "pluralGap": null
+        },
+        {
+          "theme": "hospital",
+          "noun": "ambulance",
+          "vocabKey": "ambulance",
+          "word": "ambulanssi",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "ambulanssit",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "angel",
+          "vocabKey": "angel",
+          "word": "enkeli",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "enkelit",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "apron",
+          "vocabKey": "apron",
+          "word": "esiliina",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "esiliinat",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "armchair",
+          "vocabKey": "armchair",
+          "word": "nojatuoli",
+          "gaps": [
+            {
+              "from": 7,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "nojatuolit",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "bagel",
+          "vocabKey": "bagel",
+          "word": "bageli",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "bagelit",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "bee",
+          "vocabKey": "bee",
+          "word": "mehiläinen",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "mehiläiset",
+          "pluralGap": null
+        },
+        {
+          "theme": "activities",
+          "noun": "biking",
+          "vocabKey": "biking",
+          "word": "pyöräily",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "pyöräily",
+          "pluralGap": null
+        },
+        {
+          "theme": "toys",
+          "noun": "blocks",
+          "vocabKey": "blocks",
+          "word": "palikat",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "palikat",
+          "pluralGap": null
+        },
+        {
+          "theme": "flowers",
+          "noun": "bluebell",
+          "vocabKey": "bluebell",
+          "word": "sinililja",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "sinililjat",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "broccoli",
+          "vocabKey": "broccoli",
+          "word": "parsakaali",
+          "gaps": [
+            {
+              "from": 8,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "parsakaalit",
+          "pluralGap": null
+        },
+        {
+          "theme": "bakery",
+          "noun": "bun",
+          "vocabKey": "bun",
+          "word": "sämpylä",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "sämpylät",
+          "pluralGap": null
+        },
+        {
+          "theme": "vegetables",
+          "noun": "cabbage",
+          "vocabKey": "cabbage",
+          "word": "kaali",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "kaalit",
+          "pluralGap": null
+        },
+        {
+          "theme": "animals",
+          "noun": "camel",
+          "vocabKey": "camel",
+          "word": "kameli",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "kamelit",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "candle",
+          "vocabKey": "candle",
+          "word": "kynttilä",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "kynttilät",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "cardigan",
+          "vocabKey": "cardigan",
+          "word": "neuletakki",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "neuletakit",
+          "pluralGap": null
+        },
+        {
+          "theme": "vegetables",
+          "noun": "cauliflower",
+          "vocabKey": "cauliflower",
+          "word": "kukkakaali",
+          "gaps": [
+            {
+              "from": 8,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "kukkakaalit",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "chair",
+          "vocabKey": "chair",
+          "word": "tuoli",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "tuolit",
+          "pluralGap": null
+        },
+        {
+          "theme": "ocean life",
+          "noun": "clownfish",
+          "vocabKey": "clownfish",
+          "word": "vuokkokala",
+          "gaps": [
+            {
+              "from": 8,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "vuokkokalat",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "colander",
+          "vocabKey": "colander",
+          "word": "siivilä",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "siivilät",
+          "pluralGap": null
+        },
+        {
+          "theme": "music",
+          "noun": "cymbals",
+          "vocabKey": "cymbals",
+          "word": "symbaalit",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "symbaalit",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "fan",
+          "vocabKey": "fan",
+          "word": "tuuletin",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "tuulettimet",
+          "pluralGap": null
+        },
+        {
+          "theme": "occupations",
+          "noun": "firefighter",
+          "vocabKey": "firefighter",
+          "word": "palomies",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "palomiehet",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "fish",
+          "vocabKey": "fish",
+          "word": "kala",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "kalat",
+          "pluralGap": null
+        },
+        {
+          "theme": "camping",
+          "noun": "flashlight",
+          "vocabKey": "flashlight",
+          "word": "taskulamppu",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "taskulamput",
+          "pluralGap": null
+        },
+        {
+          "theme": "music",
+          "noun": "flute",
+          "vocabKey": "flute",
+          "word": "huilu",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "huilut",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "garlic",
+          "vocabKey": "garlic",
+          "word": "valkosipuli",
+          "gaps": [
+            {
+              "from": 9,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "valkosipuli",
+          "pluralGap": null
+        },
+        {
+          "theme": "pets",
+          "noun": "goldfish",
+          "vocabKey": "goldfish",
+          "word": "kultakala",
+          "gaps": [
+            {
+              "from": 7,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "kultakalat",
+          "pluralGap": null
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "hedgehog",
+          "vocabKey": "hedgehog",
+          "word": "siili",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "siilit",
+          "pluralGap": null
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "helicopter",
+          "vocabKey": "helicopter",
+          "word": "helikopteri",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "helikopterit",
+          "pluralGap": null
+        },
+        {
+          "theme": "miscellaneous",
+          "noun": "house",
+          "vocabKey": "house",
+          "word": "talo",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "talot",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "iron",
+          "vocabKey": "iron",
+          "word": "silitysrauta",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "silitysraudat",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "jumpsuit",
+          "vocabKey": "jumpsuit",
+          "word": "haalari",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "haalarit",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "lettuce",
+          "vocabKey": "lettuce",
+          "word": "salaatti",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "salaatit",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "lights",
+          "vocabKey": "lights",
+          "word": "valot",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "valot",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "lip",
+          "vocabKey": "lip",
+          "word": "huuli",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "huulet",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "medal",
+          "vocabKey": "medal",
+          "word": "mitali",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "mitalit",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "melon",
+          "vocabKey": "melon",
+          "word": "meloni",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "melonit",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "mirror",
+          "vocabKey": "mirror",
+          "word": "peili",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "peilit",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "necklace",
+          "vocabKey": "necklace",
+          "word": "kaulakoru",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "kaulakorut",
+          "pluralGap": null
+        },
+        {
+          "theme": "ocean life",
+          "noun": "octopus",
+          "vocabKey": "octopus",
+          "word": "mustekala",
+          "gaps": [
+            {
+              "from": 7,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "mustekalat",
+          "pluralGap": null
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "onion",
+          "vocabKey": "onion",
+          "word": "sipuli",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "sipulit",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "overalls",
+          "vocabKey": "overalls",
+          "word": "haalarit",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "haalarit",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "pot",
+          "vocabKey": "pot",
+          "word": "kattila",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "kattilat",
+          "pluralGap": null
+        },
+        {
+          "theme": "bakery",
+          "noun": "pretzel",
+          "vocabKey": "pretzel",
+          "word": "rinkeli",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "rinkelit",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "sandals",
+          "vocabKey": "sandals",
+          "word": "sandaalit",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "sandaalit",
+          "pluralGap": null
+        },
+        {
+          "theme": "beach",
+          "noun": "sandcastle",
+          "vocabKey": "sandcastle",
+          "word": "hiekkalinna",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "hiekkalinnat",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "santa",
+          "vocabKey": "santa",
+          "word": "joulupukki",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "joulupukit",
+          "pluralGap": null
+        },
+        {
+          "theme": "clothing",
+          "noun": "slippers",
+          "vocabKey": "slippers",
+          "word": "tohvelit",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "tohvelit",
+          "pluralGap": null
+        },
+        {
+          "theme": "weather",
+          "noun": "snowflake",
+          "vocabKey": "snowflake",
+          "word": "lumihiutale",
+          "gaps": [
+            {
+              "from": 9,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "lumihiutaleet",
+          "pluralGap": null
+        },
+        {
+          "theme": "accessories",
+          "noun": "sunglasses",
+          "vocabKey": "sunglasses",
+          "word": "aurinkolasit",
+          "gaps": [
+            {
+              "from": 7,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "aurinkolasit",
+          "pluralGap": null
+        },
+        {
+          "theme": "around the house",
+          "noun": "telephone",
+          "vocabKey": "telephone",
+          "word": "puhelin",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "puhelimet",
+          "pluralGap": null
+        },
+        {
+          "theme": "body parts",
+          "noun": "thumb",
+          "vocabKey": "thumb",
+          "word": "peukalo",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "peukalot",
+          "pluralGap": null
+        },
+        {
+          "theme": "hospital",
+          "noun": "tissue",
+          "vocabKey": "tissue",
+          "word": "nenäliina",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "nenäliinat",
+          "pluralGap": null
+        },
+        {
+          "theme": "activities",
+          "noun": "violin",
+          "vocabKey": "violin",
+          "word": "viulu",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "viulut",
+          "pluralGap": null
+        },
+        {
+          "theme": "bakery",
+          "noun": "waffle",
+          "vocabKey": "waffle",
+          "word": "vohveli",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "vohvelit",
+          "pluralGap": null
+        },
+        {
+          "theme": "4th of July",
+          "noun": "watermelon",
+          "vocabKey": "watermelon",
+          "word": "vesimeloni",
+          "gaps": [
+            {
+              "from": 6,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "vesimelonit",
+          "pluralGap": null
+        },
+        {
+          "theme": "animals",
+          "noun": "whale",
+          "vocabKey": "whale",
+          "word": "valas",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "valaat",
+          "pluralGap": null
+        },
+        {
+          "theme": "hospital",
+          "noun": "wheelchair",
+          "vocabKey": "wheelchair",
+          "word": "pyörätuoli",
+          "gaps": [
+            {
+              "from": 8,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "pyörätuolit",
+          "pluralGap": null
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "whisk",
+          "vocabKey": "whisk",
+          "word": "vispilä",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "vispilät",
+          "pluralGap": null
+        },
+        {
+          "theme": "christmas",
+          "noun": "wreath",
+          "vocabKey": "wreath",
+          "word": "seppele",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 1
+            }
+          ],
+          "g": "l",
+          "side": "contrast",
+          "plural": "seppeleet",
+          "pluralGap": null
+        }
+      ],
+      "foils": [
+        {
+          "theme": "easter",
+          "noun": "flower",
+          "vocabKey": "flower",
+          "word": "kukka"
+        },
+        {
+          "theme": "around the house",
+          "noun": "couch",
+          "vocabKey": "couch",
+          "word": "sohva"
+        },
+        {
+          "theme": "accessories",
+          "noun": "hat",
+          "vocabKey": "hat",
+          "word": "hattu"
+        },
+        {
+          "theme": "accessories",
+          "noun": "backpack",
+          "vocabKey": "backpack",
+          "word": "reppu"
+        }
+      ],
+      "refuse": {},
+      "note": ""
+    },
+    "astevaihtelu": {
+      "id": "astevaihtelu",
+      "head": "kukka, kukat",
+      "chip": "kat tut put",
+      "band": "G2",
+      "gap": {
+        "kind": "plural",
+        "re": "(?<=[aeiouyäölrn])[ktp][aeiouyäö]t$",
+        "stem": "([ktp])\\1[aeiouyäö]$",
+        "boxes": "wide"
+      },
+      "cands": [
+        "kat",
+        "ket",
+        "kit",
+        "kot",
+        "kut",
+        "köt",
+        "pit",
+        "put",
+        "tat",
+        "tit",
+        "tot",
+        "tut",
+        "töt"
+      ],
+      "pair": null,
+      "pairHead": null,
+      "proof": {
+        "kind": "plural",
+        "re": "(?<=[aeiouyäölrn])[ktp][aeiouyäö]t$"
+      },
+      "models": [
+        {
+          "vocabKey": "flower",
+          "theme": "easter",
+          "noun": "flower",
+          "word": "kukka",
+          "plural": "kukat",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "kat"
+        },
+        {
+          "vocabKey": "hat",
+          "theme": "accessories",
+          "noun": "hat",
+          "word": "hattu",
+          "plural": "hatut",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "tut"
+        }
+      ],
+      "items": [
+        {
+          "theme": "body parts",
+          "noun": "ankle",
+          "vocabKey": "ankle",
+          "word": "nilkka",
+          "plural": "nilkat",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "kat",
+          "side": "rule"
+        },
+        {
+          "theme": "accessories",
+          "noun": "backpack",
+          "vocabKey": "backpack",
+          "word": "reppu",
+          "plural": "reput",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "put",
+          "side": "rule"
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "bat",
+          "vocabKey": "bat",
+          "word": "lepakko",
+          "plural": "lepakot",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 3
+            }
+          ],
+          "g": "kot",
+          "side": "rule"
+        },
+        {
+          "theme": "furniture",
+          "noun": "bench",
+          "vocabKey": "bench",
+          "word": "penkki",
+          "plural": "penkit",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "kit",
+          "side": "rule"
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "blueberry",
+          "vocabKey": "blueberry",
+          "word": "mustikka",
+          "plural": "mustikat",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 3
+            }
+          ],
+          "g": "kat",
+          "side": "rule"
+        },
+        {
+          "theme": "tools",
+          "noun": "bolt",
+          "vocabKey": "bolt",
+          "word": "pultti",
+          "plural": "pultit",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "tit",
+          "side": "rule"
+        },
+        {
+          "theme": "camping",
+          "noun": "cabin",
+          "vocabKey": "cabin",
+          "word": "mökki",
+          "plural": "mökit",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "kit",
+          "side": "rule"
+        },
+        {
+          "theme": "around the house",
+          "noun": "cabinet",
+          "vocabKey": "cabinet",
+          "word": "kaappi",
+          "plural": "kaapit",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "pit",
+          "side": "rule"
+        },
+        {
+          "theme": "4th of July",
+          "noun": "cake",
+          "vocabKey": "cake",
+          "word": "kakku",
+          "plural": "kakut",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "kut",
+          "side": "rule"
+        },
+        {
+          "theme": "farm animals",
+          "noun": "calf",
+          "vocabKey": "calf",
+          "word": "vasikka",
+          "plural": "vasikat",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 3
+            }
+          ],
+          "g": "kat",
+          "side": "rule"
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "can",
+          "vocabKey": "can",
+          "word": "tölkki",
+          "plural": "tölkit",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "kit",
+          "side": "rule"
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "candy",
+          "vocabKey": "candy",
+          "word": "karkki",
+          "plural": "karkit",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "kit",
+          "side": "rule"
+        },
+        {
+          "theme": "camping",
+          "noun": "canoe",
+          "vocabKey": "canoe",
+          "word": "kanootti",
+          "plural": "kanootit",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 3
+            }
+          ],
+          "g": "tit",
+          "side": "rule"
+        },
+        {
+          "theme": "accessories",
+          "noun": "cape",
+          "vocabKey": "cape",
+          "word": "viitta",
+          "plural": "viitat",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "tat",
+          "side": "rule"
+        },
+        {
+          "theme": "around the house",
+          "noun": "carpet",
+          "vocabKey": "carpet",
+          "word": "matto",
+          "plural": "matot",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "tot",
+          "side": "rule"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "caterpillar",
+          "vocabKey": "caterpillar",
+          "word": "toukka",
+          "plural": "toukat",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "kat",
+          "side": "rule"
+        },
+        {
+          "theme": "occupations",
+          "noun": "chef",
+          "vocabKey": "chef",
+          "word": "kokki",
+          "plural": "kokit",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "kit",
+          "side": "rule"
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "cherry",
+          "vocabKey": "cherry",
+          "word": "kirsikka",
+          "plural": "kirsikat",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 3
+            }
+          ],
+          "g": "kat",
+          "side": "rule"
+        },
+        {
+          "theme": "christmas",
+          "noun": "church",
+          "vocabKey": "church",
+          "word": "kirkko",
+          "plural": "kirkot",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "kot",
+          "side": "rule"
+        },
+        {
+          "theme": "clothing",
+          "noun": "coat",
+          "vocabKey": "coat",
+          "word": "takki",
+          "plural": "takit",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "kit",
+          "side": "rule"
+        },
+        {
+          "theme": "insects and bugs",
+          "noun": "cricket",
+          "vocabKey": "cricket",
+          "word": "sirkka",
+          "plural": "sirkat",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "kat",
+          "side": "rule"
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "cucumber",
+          "vocabKey": "cucumber",
+          "word": "kurkku",
+          "plural": "kurkut",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "kut",
+          "side": "rule"
+        },
+        {
+          "theme": "around the house",
+          "noun": "cup",
+          "vocabKey": "cup",
+          "word": "kuppi",
+          "plural": "kupit",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "pit",
+          "side": "rule"
+        },
+        {
+          "theme": "toys",
+          "noun": "doll",
+          "vocabKey": "doll",
+          "word": "nukke",
+          "plural": "nuket",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "ket",
+          "side": "rule"
+        },
+        {
+          "theme": "clothing",
+          "noun": "dress",
+          "vocabKey": "dress",
+          "word": "mekko",
+          "plural": "mekot",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "kot",
+          "side": "rule"
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "duck",
+          "vocabKey": "duck",
+          "word": "ankka",
+          "plural": "ankat",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "kat",
+          "side": "rule"
+        },
+        {
+          "theme": "christmas",
+          "noun": "elf",
+          "vocabKey": "elf",
+          "word": "tonttu",
+          "plural": "tontut",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "tut",
+          "side": "rule"
+        },
+        {
+          "theme": "birds 2",
+          "noun": "falcon",
+          "vocabKey": "falcon",
+          "word": "haukka",
+          "plural": "haukat",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "kat",
+          "side": "rule"
+        },
+        {
+          "theme": "around the house",
+          "noun": "fireplace",
+          "vocabKey": "fireplace",
+          "word": "takka",
+          "plural": "takat",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "kat",
+          "side": "rule"
+        },
+        {
+          "theme": "4th of July",
+          "noun": "flag",
+          "vocabKey": "flag",
+          "word": "lippu",
+          "plural": "liput",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "put",
+          "side": "rule"
+        },
+        {
+          "theme": "around the house",
+          "noun": "fork",
+          "vocabKey": "fork",
+          "word": "haarukka",
+          "plural": "haarukat",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 3
+            }
+          ],
+          "g": "kat",
+          "side": "rule"
+        },
+        {
+          "theme": "vehicles",
+          "noun": "forklift",
+          "vocabKey": "forklift",
+          "word": "trukki",
+          "plural": "trukit",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "kit",
+          "side": "rule"
+        },
+        {
+          "theme": "animals",
+          "noun": "fox",
+          "vocabKey": "fox",
+          "word": "kettu",
+          "plural": "ketut",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "tut",
+          "side": "rule"
+        },
+        {
+          "theme": "camping",
+          "noun": "frog",
+          "vocabKey": "frog",
+          "word": "sammakko",
+          "plural": "sammakot",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 3
+            }
+          ],
+          "g": "kot",
+          "side": "rule"
+        },
+        {
+          "theme": "around the house",
+          "noun": "gate",
+          "vocabKey": "gate",
+          "word": "portti",
+          "plural": "portit",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "tit",
+          "side": "rule"
+        },
+        {
+          "theme": "pets",
+          "noun": "gecko",
+          "vocabKey": "gecko",
+          "word": "gekko",
+          "plural": "gekot",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "kot",
+          "side": "rule"
+        },
+        {
+          "theme": "toys",
+          "noun": "girl",
+          "vocabKey": "girl",
+          "word": "tyttö",
+          "plural": "tytöt",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "töt",
+          "side": "rule"
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "ham",
+          "vocabKey": "ham",
+          "word": "kinkku",
+          "plural": "kinkut",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "kut",
+          "side": "rule"
+        },
+        {
+          "theme": "music",
+          "noun": "harp",
+          "vocabKey": "harp",
+          "word": "harppu",
+          "plural": "harput",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "put",
+          "side": "rule"
+        },
+        {
+          "theme": "kitchen tools",
+          "noun": "jar",
+          "vocabKey": "jar",
+          "word": "purkki",
+          "plural": "purkit",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "kit",
+          "side": "rule"
+        },
+        {
+          "theme": "camping",
+          "noun": "kayak",
+          "vocabKey": "kayak",
+          "word": "kajakki",
+          "plural": "kajakit",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 3
+            }
+          ],
+          "g": "kit",
+          "side": "rule"
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "lettuce",
+          "vocabKey": "lettuce",
+          "word": "salaatti",
+          "plural": "salaatit",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 3
+            }
+          ],
+          "g": "tit",
+          "side": "rule"
+        },
+        {
+          "theme": "beach",
+          "noun": "lighthouse",
+          "vocabKey": "lighthouse",
+          "word": "majakka",
+          "plural": "majakat",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 3
+            }
+          ],
+          "g": "kat",
+          "side": "rule"
+        },
+        {
+          "theme": "around the house",
+          "noun": "lock",
+          "vocabKey": "lock",
+          "word": "lukko",
+          "plural": "lukot",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "kot",
+          "side": "rule"
+        },
+        {
+          "theme": "birds 2",
+          "noun": "magpie",
+          "vocabKey": "magpie",
+          "word": "harakka",
+          "plural": "harakat",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 3
+            }
+          ],
+          "g": "kat",
+          "side": "rule"
+        },
+        {
+          "theme": "camping",
+          "noun": "map",
+          "vocabKey": "map",
+          "word": "kartta",
+          "plural": "kartat",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "tat",
+          "side": "rule"
+        },
+        {
+          "theme": "around the house",
+          "noun": "mop",
+          "vocabKey": "mop",
+          "word": "moppi",
+          "plural": "mopit",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "pit",
+          "side": "rule"
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "otter",
+          "vocabKey": "otter",
+          "word": "saukko",
+          "plural": "saukot",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "kot",
+          "side": "rule"
+        },
+        {
+          "theme": "post office",
+          "noun": "package",
+          "vocabKey": "package",
+          "word": "paketti",
+          "plural": "paketit",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 3
+            }
+          ],
+          "g": "tit",
+          "side": "rule"
+        },
+        {
+          "theme": "colors",
+          "noun": "peach",
+          "vocabKey": "peach",
+          "word": "persikka",
+          "plural": "persikat",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 3
+            }
+          ],
+          "g": "kat",
+          "side": "rule"
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "pie",
+          "vocabKey": "pie",
+          "word": "piirakka",
+          "plural": "piirakat",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 3
+            }
+          ],
+          "g": "kat",
+          "side": "rule"
+        },
+        {
+          "theme": "spring",
+          "noun": "puddle",
+          "vocabKey": "puddle",
+          "word": "lätäkkö",
+          "plural": "lätäköt",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 3
+            }
+          ],
+          "g": "köt",
+          "side": "rule"
+        },
+        {
+          "theme": "toys",
+          "noun": "robot",
+          "vocabKey": "robot",
+          "word": "robotti",
+          "plural": "robotit",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 3
+            }
+          ],
+          "g": "tit",
+          "side": "rule"
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "rocket",
+          "vocabKey": "rocket",
+          "word": "raketti",
+          "plural": "raketit",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 3
+            }
+          ],
+          "g": "tit",
+          "side": "rule"
+        },
+        {
+          "theme": "birds 2",
+          "noun": "rooster",
+          "vocabKey": "rooster",
+          "word": "kukko",
+          "plural": "kukot",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "kot",
+          "side": "rule"
+        },
+        {
+          "theme": "christmas",
+          "noun": "sack",
+          "vocabKey": "sack",
+          "word": "säkki",
+          "plural": "säkit",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "kit",
+          "side": "rule"
+        },
+        {
+          "theme": "Things That Fly",
+          "noun": "seagull",
+          "vocabKey": "seagull",
+          "word": "lokki",
+          "plural": "lokit",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "kit",
+          "side": "rule"
+        },
+        {
+          "theme": "beach",
+          "noun": "seashell",
+          "vocabKey": "seashell",
+          "word": "simpukka",
+          "plural": "simpukat",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 3
+            }
+          ],
+          "g": "kat",
+          "side": "rule"
+        },
+        {
+          "theme": "winter",
+          "noun": "sled",
+          "vocabKey": "sled",
+          "word": "kelkka",
+          "plural": "kelkat",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "kat",
+          "side": "rule"
+        },
+        {
+          "theme": "christmas",
+          "noun": "snowman",
+          "vocabKey": "snowman",
+          "word": "lumiukko",
+          "plural": "lumiukot",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 3
+            }
+          ],
+          "g": "kot",
+          "side": "rule"
+        },
+        {
+          "theme": "accessories",
+          "noun": "sock",
+          "vocabKey": "sock",
+          "word": "sukka",
+          "plural": "sukat",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "kat",
+          "side": "rule"
+        },
+        {
+          "theme": "around the house",
+          "noun": "spoon",
+          "vocabKey": "spoon",
+          "word": "lusikka",
+          "plural": "lusikat",
+          "gaps": [
+            {
+              "from": 4,
+              "len": 3
+            }
+          ],
+          "g": "kat",
+          "side": "rule"
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "strawberry",
+          "vocabKey": "strawberry",
+          "word": "mansikka",
+          "plural": "mansikat",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 3
+            }
+          ],
+          "g": "kat",
+          "side": "rule"
+        },
+        {
+          "theme": "classroom",
+          "noun": "tape",
+          "vocabKey": "tape",
+          "word": "teippi",
+          "plural": "teipit",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "pit",
+          "side": "rule"
+        },
+        {
+          "theme": "camping",
+          "noun": "tent",
+          "vocabKey": "tent",
+          "word": "teltta",
+          "plural": "teltat",
+          "gaps": [
+            {
+              "from": 3,
+              "len": 3
+            }
+          ],
+          "g": "tat",
+          "side": "rule"
+        },
+        {
+          "theme": "At the Supermarket",
+          "noun": "tomato",
+          "vocabKey": "tomato",
+          "word": "tomaatti",
+          "plural": "tomaatit",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 3
+            }
+          ],
+          "g": "tit",
+          "side": "rule"
+        },
+        {
+          "theme": "around the house",
+          "noun": "vase",
+          "vocabKey": "vase",
+          "word": "maljakko",
+          "plural": "maljakot",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 3
+            }
+          ],
+          "g": "kot",
+          "side": "rule"
+        },
+        {
+          "theme": "accessories",
+          "noun": "wallet",
+          "vocabKey": "wallet",
+          "word": "lompakko",
+          "plural": "lompakot",
+          "gaps": [
+            {
+              "from": 5,
+              "len": 3
+            }
+          ],
+          "g": "kot",
+          "side": "rule"
+        },
+        {
+          "theme": "animals",
+          "noun": "woodpecker",
+          "vocabKey": "woodpecker",
+          "word": "tikka",
+          "plural": "tikat",
+          "gaps": [
+            {
+              "from": 2,
+              "len": 3
+            }
+          ],
+          "g": "kat",
+          "side": "rule"
+        }
+      ],
+      "foils": [
+        {
+          "theme": "toys",
+          "noun": "ball",
+          "vocabKey": "ball",
+          "word": "pallo"
+        },
+        {
+          "theme": "around the house",
+          "noun": "couch",
+          "vocabKey": "couch",
+          "word": "sohva"
+        }
+      ],
+      "refuse": {
+        "base": "astevaihtelu näkyy vasta taivutusmuodossa: yksikössä ei ole aukkoa täydennettäväksi",
+        "choice": "ei kirjainparia: sääntö koskee monikkomuotoa, ei yhtä aukkoa",
+        "detective": "yksikkösanassa ei ole etsittävää sääntökohtaa, muutos on monikossa",
+        "bins": "ei kahta lajittelukoria: kaikki sanat noudattavat samaa astevaihtelua",
+        "anchor": "ankkurikirjain kuuluu monikkoon, ei yksikköön"
+      },
+      "note": ""
+    }
+  },
+  "strings": {
+    "G2-315": {
+      "title": "Oikeinkirjoitus: {UNIT}",
+      "instruction": "Lue sääntö laatikosta. Katso kuvaa ja sano sana. Kirjoita aukkoon puuttuvat kirjaimet: yksi vai kaksi?"
+    },
+    "G2-324": {
+      "title": "Kumpi on oikein: {UNIT}?",
+      "instruction": "Sano kuvan sana ääneen. Kuuluuko äänne pitkänä vai lyhyenä? Ympyröi oikea vaihtoehto ja kirjoita se aukkoon."
+    },
+    "G2-325": {
+      "title": "Etsi sääntökirjaimet: {UNIT}",
+      "instruction": "Lue jokainen sana. Etsi sanasta sääntökirjaimet, ympyröi ne ja kirjoita ne ruutuun."
+    },
+    "G2-326": {
+      "title": "Lajittele sanat: {UNIT}",
+      "instruction": "Sano kuvan sana ääneen. Kirjoita koko sana siihen koriin, johon se kuuluu: pitkä vai lyhyt äänne."
+    },
+    "G2-327": {
+      "title": "Koko sana: {UNIT}",
+      "instruction": "Sääntökirjaimet on kirjoitettu valmiiksi. Sano kuvan sana ja kirjoita jokaiseen tyhjään ruutuun yksi kirjain."
+    },
+    "G2-328": {
+      "title": "Astevaihtelu: {UNIT}",
+      "instruction": "Lue yhden sana. Kirjoita monen sana viivalle: kaksoiskonsonantista jää monikossa vain yksi kirjain."
+    }
+  }
+}

@@ -1,0 +1,1686 @@
+{
+  "shape": "compound",
+  "casing": "lower",
+  "links": [
+    ""
+  ],
+  "linkBoxW": 36,
+  "exemplar": "A",
+  "units": [
+    {
+      "id": "A",
+      "items": [
+        {
+          "a": {
+            "vocabKey": "flower",
+            "word": "kukka",
+            "pic": {
+              "theme": "spring",
+              "noun": "flower"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "cabbage",
+            "word": "kaali",
+            "pic": {
+              "theme": "vegetables",
+              "noun": "cabbage"
+            }
+          },
+          "whole": {
+            "word": "kukkakaali",
+            "vocabKey": "cauliflower",
+            "scale": 1,
+            "pic": {
+              "theme": "vegetables",
+              "noun": "cauliflower"
+            }
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "foot",
+            "word": "jalka",
+            "pic": {
+              "theme": "body parts",
+              "noun": "foot"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "ball",
+            "word": "pallo",
+            "pic": {
+              "theme": "toys",
+              "noun": "ball"
+            }
+          },
+          "whole": {
+            "word": "jalkapallo",
+            "vocabKey": "soccer",
+            "scale": 1,
+            "pic": {
+              "theme": "activities",
+              "noun": "soccer"
+            }
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "book",
+            "word": "kirja",
+            "pic": {
+              "theme": "classroom",
+              "noun": "book"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "shelf",
+            "word": "hylly",
+            "pic": {
+              "theme": "furniture",
+              "noun": "shelf"
+            }
+          },
+          "whole": {
+            "word": "kirjahylly",
+            "vocabKey": "bookshelf",
+            "scale": 1,
+            "pic": {
+              "theme": "around the house",
+              "noun": "bookshelf"
+            }
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "cheese",
+            "word": "juusto",
+            "pic": {
+              "theme": "At the Supermarket",
+              "noun": "cheese"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "cake",
+            "word": "kakku",
+            "pic": {
+              "theme": "bakery",
+              "noun": "cake"
+            }
+          },
+          "whole": {
+            "word": "juustokakku",
+            "vocabKey": "cheesecake",
+            "scale": 1,
+            "pic": {
+              "theme": "bakery",
+              "noun": "cheesecake"
+            }
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "rain",
+            "word": "sade",
+            "pic": {
+              "theme": "spring",
+              "noun": "rain"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "coat",
+            "word": "takki",
+            "pic": {
+              "theme": "clothing",
+              "noun": "coat"
+            }
+          },
+          "whole": {
+            "word": "sadetakki",
+            "vocabKey": "raincoat",
+            "scale": 1,
+            "pic": {
+              "theme": "clothing",
+              "noun": "raincoat"
+            }
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "package",
+            "word": "paketti",
+            "pic": {
+              "theme": "post office",
+              "noun": "package"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "car",
+            "word": "auto",
+            "pic": {
+              "theme": "vehicles",
+              "noun": "car"
+            }
+          },
+          "whole": {
+            "word": "pakettiauto",
+            "vocabKey": "van",
+            "scale": 1,
+            "pic": {
+              "theme": "vehicles",
+              "noun": "van"
+            }
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "sock",
+            "word": "sukka",
+            "pic": {
+              "theme": "accessories",
+              "noun": "sock"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "pants",
+            "word": "housut",
+            "pic": {
+              "theme": "clothing",
+              "noun": "pants"
+            }
+          },
+          "whole": {
+            "word": "sukkahousut",
+            "vocabKey": "tights",
+            "scale": 1,
+            "pic": {
+              "theme": "accessories",
+              "noun": "tights"
+            }
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "water",
+            "word": "vesi",
+            "pic": {
+              "theme": "beach",
+              "noun": "water"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "melon",
+            "word": "meloni",
+            "pic": {
+              "theme": "At the Supermarket",
+              "noun": "melon"
+            }
+          },
+          "whole": {
+            "word": "vesimeloni",
+            "vocabKey": "watermelon",
+            "scale": 1,
+            "pic": {
+              "theme": "fruits",
+              "noun": "watermelon"
+            }
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        }
+      ]
+    }
+  ],
+  "opaque": [],
+  "onePart": [
+    {
+      "a": {
+        "vocabKey": "sand",
+        "word": "hiekka",
+        "pic": {
+          "theme": "summer",
+          "noun": "sand"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "linna"
+      },
+      "whole": {
+        "word": "hiekkalinna",
+        "vocabKey": "sandcastle",
+        "scale": 1,
+        "pic": {
+          "theme": "beach",
+          "noun": "sandcastle"
+        }
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "sand",
+        "word": "hiekka",
+        "pic": {
+          "theme": "summer",
+          "noun": "sand"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "laatikko"
+      },
+      "whole": {
+        "word": "hiekkalaatikko",
+        "vocabKey": "sandbox",
+        "scale": 1,
+        "pic": {
+          "theme": "toys",
+          "noun": "sandbox"
+        }
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "tooth",
+        "word": "hammas",
+        "pic": {
+          "theme": "body parts",
+          "noun": "tooth"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "tahna"
+      },
+      "whole": {
+        "word": "hammastahna",
+        "vocabKey": "toothpaste",
+        "scale": 1,
+        "pic": {
+          "theme": "around the house",
+          "noun": "toothpaste"
+        }
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "tooth",
+        "word": "hammas",
+        "pic": {
+          "theme": "body parts",
+          "noun": "tooth"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "harja"
+      },
+      "whole": {
+        "word": "hammasharja",
+        "vocabKey": "toothbrush",
+        "scale": 1,
+        "pic": {
+          "theme": "around the house",
+          "noun": "toothbrush"
+        }
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "sun",
+        "word": "aurinko",
+        "pic": {
+          "theme": "weather",
+          "noun": "sun"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "lasit"
+      },
+      "whole": {
+        "word": "aurinkolasit",
+        "vocabKey": "sunglasses",
+        "scale": 1,
+        "pic": {
+          "theme": "accessories",
+          "noun": "sunglasses"
+        }
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "sun",
+        "word": "aurinko",
+        "pic": {
+          "theme": "weather",
+          "noun": "sun"
+        }
+      },
+      "aStem": "auringon",
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "kukka"
+      },
+      "whole": {
+        "word": "auringonkukka",
+        "vocabKey": "sunflower",
+        "scale": 1,
+        "pic": {
+          "theme": "flowers",
+          "noun": "sunflower"
+        }
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "car",
+        "word": "auto",
+        "pic": {
+          "theme": "vehicles",
+          "noun": "car"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "talli"
+      },
+      "whole": {
+        "word": "autotalli",
+        "vocabKey": "garage",
+        "scale": 1,
+        "pic": {
+          "theme": "around the house",
+          "noun": "garage"
+        }
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "letter",
+        "word": "kirje",
+        "pic": {
+          "theme": "post office",
+          "noun": "letter"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "kuori"
+      },
+      "whole": {
+        "word": "kirjekuori",
+        "vocabKey": "envelope",
+        "scale": 1,
+        "pic": {
+          "theme": "post office",
+          "noun": "envelope"
+        }
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "rain",
+        "word": "sade",
+        "pic": {
+          "theme": "spring",
+          "noun": "rain"
+        }
+      },
+      "aStem": "sateen",
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "kaari"
+      },
+      "whole": {
+        "word": "sateenkaari",
+        "vocabKey": "rainbow",
+        "scale": 1,
+        "pic": {
+          "theme": "weather",
+          "noun": "rainbow"
+        }
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "rain",
+        "word": "sade",
+        "pic": {
+          "theme": "spring",
+          "noun": "rain"
+        }
+      },
+      "aStem": "sateen",
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "varjo"
+      },
+      "whole": {
+        "word": "sateenvarjo",
+        "vocabKey": "umbrella",
+        "scale": 1,
+        "pic": {
+          "theme": "weather",
+          "noun": "umbrella"
+        }
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "bear",
+        "word": "karhu",
+        "pic": {
+          "theme": "forest creatures",
+          "noun": "bear"
+        }
+      },
+      "aStem": "karhun",
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "vatukka"
+      },
+      "whole": {
+        "word": "karhunvatukka",
+        "vocabKey": "blackberry",
+        "scale": 1,
+        "pic": {
+          "theme": "fruits",
+          "noun": "blackberry"
+        }
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "bird",
+        "word": "lintu",
+        "pic": {
+          "theme": "spring",
+          "noun": "bird"
+        }
+      },
+      "aStem": "linnun",
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "pönttö"
+      },
+      "whole": {
+        "word": "linnunpönttö",
+        "vocabKey": "birdhouse",
+        "scale": 1,
+        "pic": {
+          "theme": "spring",
+          "noun": "birdhouse"
+        }
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "wolf",
+        "word": "susi",
+        "pic": {
+          "theme": "forest creatures",
+          "noun": "wolf"
+        }
+      },
+      "aStem": "suden",
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "korento"
+      },
+      "whole": {
+        "word": "sudenkorento",
+        "vocabKey": "dragonfly",
+        "scale": 1,
+        "pic": {
+          "theme": "insects and bugs",
+          "noun": "dragonfly"
+        }
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "ear",
+        "word": "korva",
+        "pic": {
+          "theme": "body parts",
+          "noun": "ear"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "lapput"
+      },
+      "whole": {
+        "word": "korvalapput",
+        "vocabKey": "earmuffs",
+        "scale": 1,
+        "pic": {
+          "theme": "winter",
+          "noun": "earmuffs"
+        }
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "juice",
+        "word": "mehu",
+        "pic": {
+          "theme": "At the Supermarket",
+          "noun": "juice"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "jää"
+      },
+      "whole": {
+        "word": "mehujää",
+        "vocabKey": "popsicle",
+        "scale": 1,
+        "pic": {
+          "theme": "desserts and sweets",
+          "noun": "popsicle"
+        }
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "cup",
+        "word": "kuppi",
+        "pic": {
+          "theme": "kitchen tools",
+          "noun": "cup"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "kakku"
+      },
+      "whole": {
+        "word": "kuppikakku",
+        "vocabKey": "cupcake",
+        "scale": 1,
+        "pic": {
+          "theme": "bakery",
+          "noun": "cupcake"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "pan",
+        "word": "pannu",
+        "pic": {
+          "theme": "kitchen tools",
+          "noun": "pan"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "kakku"
+      },
+      "whole": {
+        "word": "pannukakku",
+        "vocabKey": "pancake",
+        "scale": 1,
+        "pic": {
+          "theme": "desserts and sweets",
+          "noun": "pancake"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "basket",
+        "word": "kori",
+        "pic": {
+          "theme": "At the Supermarket",
+          "noun": "basket"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "pallo"
+      },
+      "whole": {
+        "word": "koripallo",
+        "vocabKey": "basketball",
+        "scale": 1,
+        "pic": {
+          "theme": "activities",
+          "noun": "basketball"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "pipar"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "cake",
+        "word": "kakku",
+        "pic": {
+          "theme": "bakery",
+          "noun": "cake"
+        }
+      },
+      "whole": {
+        "word": "piparkakku",
+        "vocabKey": "gingerbread",
+        "scale": 1,
+        "pic": {
+          "theme": "christmas",
+          "noun": "gingerbread"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "ilma"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "ball",
+        "word": "pallo",
+        "pic": {
+          "theme": "toys",
+          "noun": "ball"
+        }
+      },
+      "whole": {
+        "word": "ilmapallo",
+        "vocabKey": "balloon",
+        "scale": 1,
+        "pic": {
+          "theme": "toys",
+          "noun": "balloon"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "maa"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "ball",
+        "word": "pallo",
+        "pic": {
+          "theme": "toys",
+          "noun": "ball"
+        }
+      },
+      "whole": {
+        "word": "maapallo",
+        "vocabKey": "globe",
+        "scale": 1,
+        "pic": {
+          "theme": "classroom",
+          "noun": "globe"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "kulta"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "fish",
+        "word": "kala",
+        "pic": {
+          "theme": "ocean life",
+          "noun": "fish"
+        }
+      },
+      "whole": {
+        "word": "kultakala",
+        "vocabKey": "goldfish",
+        "scale": 1,
+        "pic": {
+          "theme": "pets",
+          "noun": "goldfish"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "muste"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "fish",
+        "word": "kala",
+        "pic": {
+          "theme": "ocean life",
+          "noun": "fish"
+        }
+      },
+      "whole": {
+        "word": "mustekala",
+        "vocabKey": "octopus",
+        "scale": 1,
+        "pic": {
+          "theme": "ocean life",
+          "noun": "octopus"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "pallo"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "fish",
+        "word": "kala",
+        "pic": {
+          "theme": "ocean life",
+          "noun": "fish"
+        }
+      },
+      "whole": {
+        "word": "pallokala",
+        "vocabKey": "pufferfish",
+        "scale": 1,
+        "pic": {
+          "theme": "ocean life",
+          "noun": "pufferfish"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "vuokko"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "fish",
+        "word": "kala",
+        "pic": {
+          "theme": "ocean life",
+          "noun": "fish"
+        }
+      },
+      "whole": {
+        "word": "vuokkokala",
+        "vocabKey": "clownfish",
+        "scale": 1,
+        "pic": {
+          "theme": "ocean life",
+          "noun": "clownfish"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "meri"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "star",
+        "word": "tähti",
+        "pic": {
+          "theme": "christmas",
+          "noun": "star"
+        }
+      },
+      "whole": {
+        "word": "meritähti",
+        "vocabKey": "starfish",
+        "scale": 1,
+        "pic": {
+          "theme": "beach",
+          "noun": "starfish"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "purje"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "boat",
+        "word": "vene",
+        "pic": {
+          "theme": "vehicles",
+          "noun": "boat"
+        }
+      },
+      "whole": {
+        "word": "purjevene",
+        "vocabKey": "sailboat",
+        "scale": 1,
+        "pic": {
+          "theme": "vehicles",
+          "noun": "sailboat"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "sukellus"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "boat",
+        "word": "vene",
+        "pic": {
+          "theme": "vehicles",
+          "noun": "boat"
+        }
+      },
+      "whole": {
+        "word": "sukellusvene",
+        "vocabKey": "submarine",
+        "scale": 1,
+        "pic": {
+          "theme": "vehicles",
+          "noun": "submarine"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "pesu"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "bear",
+        "word": "karhu",
+        "pic": {
+          "theme": "forest creatures",
+          "noun": "bear"
+        }
+      },
+      "whole": {
+        "word": "pesukarhu",
+        "vocabKey": "raccoon",
+        "scale": 1,
+        "pic": {
+          "theme": "forest creatures",
+          "noun": "raccoon"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "heinä"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "cricket",
+        "word": "sirkka",
+        "pic": {
+          "theme": "insects and bugs",
+          "noun": "cricket"
+        }
+      },
+      "whole": {
+        "word": "heinäsirkka",
+        "vocabKey": "grasshopper",
+        "scale": 1,
+        "pic": {
+          "theme": "forest creatures",
+          "noun": "grasshopper"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "ranne"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "clock",
+        "word": "kello",
+        "pic": {
+          "theme": "around the house",
+          "noun": "clock"
+        }
+      },
+      "whole": {
+        "word": "rannekello",
+        "vocabKey": "watch",
+        "scale": 1,
+        "pic": {
+          "theme": "accessories",
+          "noun": "watch"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "jää"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "cabinet",
+        "word": "kaappi",
+        "pic": {
+          "theme": "furniture",
+          "noun": "cabinet"
+        }
+      },
+      "whole": {
+        "word": "jääkaappi",
+        "vocabKey": "fridge",
+        "scale": 1,
+        "pic": {
+          "theme": "around the house",
+          "noun": "fridge"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "lumi"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "bell",
+        "word": "kello",
+        "pic": {
+          "theme": "christmas",
+          "noun": "bell"
+        }
+      },
+      "whole": {
+        "word": "lumikello",
+        "vocabKey": "snowdrop",
+        "scale": 1,
+        "pic": {
+          "theme": "flowers",
+          "noun": "snowdrop"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    }
+  ],
+  "hubs": [
+    {
+      "hub": {
+        "vocabKey": "ball",
+        "word": "pallo"
+      },
+      "side": "b",
+      "satellites": [
+        "jalkapallo",
+        "koripallo",
+        "ilmapallo",
+        "maapallo"
+      ]
+    },
+    {
+      "hub": {
+        "vocabKey": "cake",
+        "word": "kakku"
+      },
+      "side": "b",
+      "satellites": [
+        "juustokakku",
+        "pannukakku",
+        "kuppikakku",
+        "piparkakku"
+      ]
+    },
+    {
+      "hub": {
+        "vocabKey": "fish",
+        "word": "kala"
+      },
+      "side": "b",
+      "satellites": [
+        "kultakala",
+        "mustekala",
+        "pallokala",
+        "vuokkokala"
+      ]
+    }
+  ],
+  "foils": [
+    {
+      "vocabKey": "heron",
+      "word": "haikara",
+      "looksLike": [
+        "hai",
+        "kara"
+      ],
+      "pic": {
+        "theme": "birds 2",
+        "noun": "heron"
+      }
+    },
+    {
+      "vocabKey": "carrot",
+      "word": "porkkana",
+      "looksLike": [
+        "pork",
+        "kana"
+      ],
+      "pic": {
+        "theme": "vegetables",
+        "noun": "carrot"
+      }
+    },
+    {
+      "vocabKey": "tomato",
+      "word": "tomaatti",
+      "looksLike": [
+        "toma",
+        "atti"
+      ],
+      "pic": {
+        "theme": "vegetables",
+        "noun": "tomato"
+      }
+    },
+    {
+      "vocabKey": "banana",
+      "word": "banaani",
+      "looksLike": [
+        "bana",
+        "ani"
+      ],
+      "pic": {
+        "theme": "fruits",
+        "noun": "banana"
+      }
+    },
+    {
+      "vocabKey": "camel",
+      "word": "kameli",
+      "looksLike": [
+        "kame",
+        "li"
+      ],
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "camel"
+      }
+    },
+    {
+      "vocabKey": "bat",
+      "word": "lepakko",
+      "looksLike": [
+        "lepa",
+        "kko"
+      ],
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "bat"
+      }
+    },
+    {
+      "vocabKey": "hamster",
+      "word": "hamsteri",
+      "looksLike": [
+        "hams",
+        "teri"
+      ],
+      "pic": {
+        "theme": "pets",
+        "noun": "hamster"
+      }
+    },
+    {
+      "vocabKey": "sausage",
+      "word": "makkara",
+      "looksLike": [
+        "makka",
+        "ra"
+      ],
+      "pic": {
+        "theme": "At the Supermarket",
+        "noun": "sausage"
+      }
+    },
+    {
+      "vocabKey": "parrot",
+      "word": "papukaija",
+      "looksLike": [
+        "papu",
+        "kaija"
+      ],
+      "pic": {
+        "theme": "pets",
+        "noun": "parrot"
+      }
+    },
+    {
+      "vocabKey": "kangaroo",
+      "word": "kenguru",
+      "looksLike": [
+        "ken",
+        "guru"
+      ],
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "kangaroo"
+      }
+    },
+    {
+      "vocabKey": "strawberry",
+      "word": "mansikka",
+      "looksLike": [
+        "man",
+        "sikka"
+      ],
+      "pic": {
+        "theme": "fruits",
+        "noun": "strawberry"
+      }
+    },
+    {
+      "vocabKey": "magpie",
+      "word": "harakka",
+      "looksLike": [
+        "hara",
+        "kka"
+      ],
+      "pic": {
+        "theme": "birds 2",
+        "noun": "magpie"
+      }
+    }
+  ],
+  "sizePairs": [],
+  "crossWords": [],
+  "refuse": {
+    "F1": true,
+    "F3": false,
+    "F5": false
+  },
+  "webLanes": 4,
+  "opened": {
+    "spring/flower": [
+      "flower"
+    ],
+    "vegetables/cabbage": [
+      "cabbage"
+    ],
+    "vegetables/cauliflower": [
+      "cauliflower"
+    ],
+    "body parts/foot": [
+      "foot"
+    ],
+    "toys/ball": [
+      "ball"
+    ],
+    "activities/soccer": [
+      "soccer"
+    ],
+    "classroom/book": [
+      "book"
+    ],
+    "furniture/shelf": [
+      "shelf"
+    ],
+    "around the house/bookshelf": [
+      "bookshelf"
+    ],
+    "At the Supermarket/cheese": [
+      "cheese"
+    ],
+    "bakery/cake": [
+      "cake"
+    ],
+    "bakery/cheesecake": [
+      "cheesecake"
+    ],
+    "spring/rain": [
+      "rain"
+    ],
+    "clothing/coat": [
+      "coat"
+    ],
+    "clothing/raincoat": [
+      "raincoat"
+    ],
+    "post office/package": [
+      "package"
+    ],
+    "vehicles/car": [
+      "car"
+    ],
+    "vehicles/van": [
+      "van"
+    ],
+    "accessories/sock": [
+      "sock"
+    ],
+    "clothing/pants": [
+      "pants"
+    ],
+    "accessories/tights": [
+      "tights"
+    ],
+    "beach/water": [
+      "water"
+    ],
+    "At the Supermarket/melon": [
+      "melon"
+    ],
+    "fruits/watermelon": [
+      "watermelon"
+    ],
+    "summer/sand": [
+      "sand"
+    ],
+    "beach/sandcastle": [
+      "sandcastle"
+    ],
+    "toys/sandbox": [
+      "sandbox"
+    ],
+    "body parts/tooth": [
+      "tooth"
+    ],
+    "around the house/toothpaste": [
+      "toothpaste"
+    ],
+    "around the house/toothbrush": [
+      "toothbrush"
+    ],
+    "weather/sun": [
+      "sun"
+    ],
+    "accessories/sunglasses": [
+      "sunglasses"
+    ],
+    "flowers/sunflower": [
+      "sunflower"
+    ],
+    "around the house/garage": [
+      "garage"
+    ],
+    "post office/letter": [
+      "letter"
+    ],
+    "post office/envelope": [
+      "envelope"
+    ],
+    "weather/rainbow": [
+      "rainbow"
+    ],
+    "weather/umbrella": [
+      "umbrella"
+    ],
+    "forest creatures/bear": [
+      "bear"
+    ],
+    "fruits/blackberry": [
+      "blackberry"
+    ],
+    "spring/bird": [
+      "bird"
+    ],
+    "spring/birdhouse": [
+      "birdhouse"
+    ],
+    "forest creatures/wolf": [
+      "wolf"
+    ],
+    "insects and bugs/dragonfly": [
+      "dragonfly"
+    ],
+    "body parts/ear": [
+      "ear"
+    ],
+    "winter/earmuffs": [
+      "earmuffs"
+    ],
+    "At the Supermarket/juice": [
+      "juice"
+    ],
+    "desserts and sweets/popsicle": [
+      "popsicle"
+    ],
+    "kitchen tools/cup": [
+      "cup"
+    ],
+    "bakery/cupcake": [
+      "cupcake"
+    ],
+    "kitchen tools/pan": [
+      "pan"
+    ],
+    "desserts and sweets/pancake": [
+      "pancake"
+    ],
+    "At the Supermarket/basket": [
+      "basket"
+    ],
+    "activities/basketball": [
+      "basketball"
+    ],
+    "christmas/gingerbread": [
+      "gingerbread"
+    ],
+    "toys/balloon": [
+      "balloon"
+    ],
+    "classroom/globe": [
+      "globe"
+    ],
+    "ocean life/fish": [
+      "fish"
+    ],
+    "pets/goldfish": [
+      "goldfish"
+    ],
+    "ocean life/octopus": [
+      "octopus"
+    ],
+    "ocean life/pufferfish": [
+      "pufferfish"
+    ],
+    "ocean life/clownfish": [
+      "clownfish"
+    ],
+    "christmas/star": [
+      "star"
+    ],
+    "beach/starfish": [
+      "starfish"
+    ],
+    "vehicles/boat": [
+      "boat"
+    ],
+    "vehicles/sailboat": [
+      "sailboat"
+    ],
+    "vehicles/submarine": [
+      "submarine"
+    ],
+    "forest creatures/raccoon": [
+      "raccoon"
+    ],
+    "insects and bugs/cricket": [
+      "cricket"
+    ],
+    "forest creatures/grasshopper": [
+      "grasshopper"
+    ],
+    "around the house/clock": [
+      "clock"
+    ],
+    "accessories/watch": [
+      "watch"
+    ],
+    "furniture/cabinet": [
+      "cabinet"
+    ],
+    "around the house/fridge": [
+      "fridge"
+    ],
+    "christmas/bell": [
+      "bell"
+    ],
+    "flowers/snowdrop": [
+      "snowdrop"
+    ],
+    "birds 2/heron": [
+      "heron"
+    ],
+    "vegetables/carrot": [
+      "carrot"
+    ],
+    "vegetables/tomato": [
+      "tomato"
+    ],
+    "fruits/banana": [
+      "banana"
+    ],
+    "zoo animals/camel": [
+      "camel"
+    ],
+    "zoo animals/bat": [
+      "bat"
+    ],
+    "pets/hamster": [
+      "hamster"
+    ],
+    "At the Supermarket/sausage": [
+      "sausage"
+    ],
+    "pets/parrot": [
+      "parrot"
+    ],
+    "zoo animals/kangaroo": [
+      "kangaroo"
+    ],
+    "fruits/strawberry": [
+      "strawberry"
+    ],
+    "birds 2/magpie": [
+      "magpie"
+    ]
+  },
+  "strings": {
+    "G2-316": {
+      "title": "Yhdyssanat: kuva + kuva = sana",
+      "instruction": "Sano molempien kuvien sanat. Yhdistä ne yhdeksi sanaksi ja kirjoita uusi sana viivalle."
+    },
+    "G2-329": {
+      "title": "Mitä tulee väliin?",
+      "instruction": "Molemmat osat on kirjoitettu. Kirjoita laatikkoon osien väliin tuleva kirjain tai jätä se tyhjäksi ja kirjoita koko sana viivalle."
+    },
+    "G2-330": {
+      "title": "Jaa yhdyssana osiin",
+      "instruction": "Koko sana on kirjoitettu kuvan viereen kirjainruutuihin. Piirrä yksi viiva siihen kohtaan, josta toinen sana alkaa."
+    },
+    "G2-331": {
+      "title": "Yhdistä sanan osat: kaksi kuvaa, yksi sana",
+      "instruction": "Piirrä viiva kuvasta siihen kuvaan, joka täydentää sanan. Kirjoita sitten uusi sana ensimmäisen kuvan viereen."
+    },
+    "G2-332": {
+      "title": "Yhdyssanaetsivä: yhdyssana vai ei?",
+      "instruction": "Kaksitoista sanaa, joista kuusi on yhdyssanoja. Ympyröi yhdyssanat ja kirjoita niiden kaksi osaa viivoille."
+    },
+    "G2-333": {
+      "title": "Sanatähti: yksi sana, monta yhdyssanaa",
+      "instruction": "Keskellä on yksi sana. Jokainen kuva sen ympärillä tekee sen kanssa uuden sanan. Kirjoita neljä uutta sanaa viivoille."
+    }
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "feelings": [
+    {
+      "id": "happy",
+      "word": "iloinen",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [
+        "hyvillään"
+      ],
+      "face": {
+        "theme": "emotions",
+        "noun": "happy"
+      },
+      "matchable": true,
+      "valence": "good",
+      "confusable": [],
+      "faceOpened": true
+    },
+    {
+      "id": "sad",
+      "word": "surullinen",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "sad"
+      },
+      "matchable": true,
+      "valence": "bad",
+      "confusable": [],
+      "faceOpened": true
+    },
+    {
+      "id": "angry",
+      "word": "vihainen",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [
+        "kiukkuinen"
+      ],
+      "face": {
+        "theme": "emotions",
+        "noun": "angry"
+      },
+      "matchable": true,
+      "valence": "bad",
+      "confusable": [],
+      "faceOpened": true
+    },
+    {
+      "id": "scared",
+      "word": "pelokas",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [
+        "peloissaan"
+      ],
+      "face": {
+        "theme": "emotions",
+        "noun": "scared"
+      },
+      "matchable": true,
+      "valence": "bad",
+      "confusable": [
+        "surprised"
+      ],
+      "faceOpened": true,
+      "override": "Peloissaan"
+    },
+    {
+      "id": "surprised",
+      "word": "yllättynyt",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "surprised"
+      },
+      "matchable": true,
+      "valence": null,
+      "confusable": [
+        "scared"
+      ],
+      "faceOpened": true
+    },
+    {
+      "id": "tired",
+      "word": "väsynyt",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [
+        "uninen"
+      ],
+      "face": {
+        "theme": "emotions",
+        "noun": "tired"
+      },
+      "matchable": true,
+      "valence": null,
+      "confusable": [],
+      "faceOpened": true
+    },
+    {
+      "id": "merry",
+      "word": "hilpeä",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "merry"
+      },
+      "matchable": false,
+      "valence": "good",
+      "confusable": [
+        "happy"
+      ],
+      "faceOpened": true
+    },
+    {
+      "id": "content",
+      "word": "tyytyväinen",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "content"
+      },
+      "matchable": false,
+      "valence": "good",
+      "confusable": [
+        "happy"
+      ],
+      "faceOpened": true
+    },
+    {
+      "id": "excited",
+      "word": "innostunut",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "excited"
+      },
+      "matchable": false,
+      "valence": "good",
+      "confusable": [
+        "happy"
+      ],
+      "faceOpened": true
+    },
+    {
+      "id": "capricious",
+      "word": "oikukas",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "capricious"
+      },
+      "matchable": false,
+      "valence": "bad",
+      "confusable": [
+        "sad"
+      ],
+      "faceOpened": true
+    },
+    {
+      "id": "disgusted",
+      "word": "ällöttynyt",
+      "wordF": null,
+      "invariant": true,
+      "capital": false,
+      "alt": [],
+      "face": {
+        "theme": "emotions",
+        "noun": "disgusted"
+      },
+      "matchable": false,
+      "valence": "bad",
+      "confusable": [],
+      "faceOpened": true
+    }
+  ],
+  "scenes": [
+    {
+      "id": "present",
+      "objects": [
+        {
+          "theme": "christmas",
+          "noun": "present"
+        }
+      ],
+      "feeling": "happy",
+      "alsoPlausible": [
+        "surprised"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "fi": "käärepaperiin kääritty lahja"
+      }
+    },
+    {
+      "id": "balloon",
+      "objects": [
+        {
+          "theme": "toys",
+          "noun": "balloon"
+        }
+      ],
+      "feeling": "happy",
+      "alsoPlausible": [],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "fi": "vihreä ilmapallo"
+      }
+    },
+    {
+      "id": "medal",
+      "objects": [
+        {
+          "theme": "accessories",
+          "noun": "medal"
+        }
+      ],
+      "feeling": "happy",
+      "alsoPlausible": [
+        "surprised"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "fi": "kultainen mitali"
+      }
+    },
+    {
+      "id": "teddy",
+      "objects": [
+        {
+          "theme": "toys",
+          "noun": "teddy_bear"
+        }
+      ],
+      "feeling": "happy",
+      "alsoPlausible": [
+        "tired"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "fi": "nallekarhu"
+      }
+    },
+    {
+      "id": "thunderstorm",
+      "objects": [
+        {
+          "theme": "weather",
+          "noun": "thunderstorm"
+        }
+      ],
+      "feeling": "scared",
+      "alsoPlausible": [
+        "surprised"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "fi": "ukkosmyrsky"
+      }
+    },
+    {
+      "id": "syringe",
+      "objects": [
+        {
+          "theme": "hospital",
+          "noun": "syringe"
+        }
+      ],
+      "feeling": "scared",
+      "alsoPlausible": [
+        "sad"
+      ],
+      "vetoable": true,
+      "sceneOpened": true,
+      "alt": {
+        "fi": "ruisku"
+      }
+    },
+    {
+      "id": "bed",
+      "objects": [
+        {
+          "theme": "furniture",
+          "noun": "bed"
+        }
+      ],
+      "feeling": "tired",
+      "alsoPlausible": [],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "fi": "sänky"
+      }
+    },
+    {
+      "id": "pillow-moon",
+      "objects": [
+        {
+          "theme": "around the house",
+          "noun": "pillow"
+        },
+        {
+          "theme": "space",
+          "noun": "moon"
+        }
+      ],
+      "feeling": "tired",
+      "alsoPlausible": [
+        "scared"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "fi": "tyyny ja kuu"
+      }
+    },
+    {
+      "id": "pajamas-moon",
+      "objects": [
+        {
+          "theme": "clothing",
+          "noun": "pajamas"
+        },
+        {
+          "theme": "space",
+          "noun": "moon"
+        }
+      ],
+      "feeling": "tired",
+      "alsoPlausible": [
+        "scared"
+      ],
+      "vetoable": false,
+      "sceneOpened": true,
+      "alt": {
+        "fi": "pyjama ja kuu"
+      }
+    }
+  ],
+  "veto": [
+    "syringe"
+  ],
+  "bins": {
+    "good": {
+      "label": "mukava"
+    },
+    "bad": {
+      "label": "ikävä"
+    }
+  },
+  "checkin": {
+    "today": "Tänään minä olen…",
+    "draw": "Piirrä omat kasvosi",
+    "because": "koska",
+    "helps": null,
+    "labelPx": 17
+  },
+  "strings": {
+    "K-319": {
+      "title": "Tunteet: yhdistä ilme ja sana",
+      "instruction": "Piirrä viiva jokaisesta ilmeestä siihen tunnesanaan, joka sopii ilmeeseen."
+    },
+    "K-331": {
+      "title": "Miltä sinusta tuntuisi? Ympyröi ilme",
+      "instruction": "Katso kuvaa ja mieti, miltä sinusta tuntuisi. Ympyröi ilme, joka sopii siihen."
+    },
+    "K-332": {
+      "title": "Piirrä tunneilme",
+      "instruction": "Lue tunnesana ja piirrä tyhjään ympyrään kasvot, jotka näyttävät sen tunteen."
+    },
+    "K-333": {
+      "title": "Mukava vai ikävä tunne? Lajittele ilmeet",
+      "instruction": "Piirrä viiva jokaisesta ilmeestä siihen laatikkoon, joka kertoo, onko tunne mukava vai ikävä."
+    },
+    "K-334": {
+      "title": "Mikä ilme näyttää tunteen?",
+      "instruction": "Lue tunnesana ja ympyröi rivistä se yksi ilme, joka näyttää tunteen."
+    },
+    "K-335": {
+      "title": "Miltä minusta tuntuu tänään?",
+      "instruction": "Ympyröi ilme, joka näyttää, miltä sinusta tuntuu tänään. Piirrä sitten omat kasvosi."
+    }
+  }
+}

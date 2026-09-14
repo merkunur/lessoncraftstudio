@@ -3372,7 +3372,8 @@
           "da": "ugens-bogstav",
           "pt": "letra-da-semana",
           "sv": "veckans-bokstav",
-          "no": "ukens-bokstav"
+          "no": "ukens-bokstav",
+          "fi": "viikon-kirjain"
         },
         "name": {
           "en": "Letter of the Week",
@@ -3384,7 +3385,8 @@
           "da": "Ugens bogstav",
           "pt": "Letra da semana",
           "sv": "Veckans bokstav",
-          "no": "Ukens bokstav"
+          "no": "Ukens bokstav",
+          "fi": "Viikon kirjain"
         }
       },
       "sound-boxes": {
@@ -3398,7 +3400,8 @@
           "da": "lydkasser",
           "pt": "caixinhas-de-sons",
           "sv": "ljuda-ord",
-          "no": "lydering"
+          "no": "lydering",
+          "fi": "aannelaatikot"
         },
         "name": {
           "en": "Sound Boxes",
@@ -3410,7 +3413,8 @@
           "da": "Lydkasser",
           "pt": "Caixinhas de sons",
           "sv": "Ljuda ord",
-          "no": "Lydering"
+          "no": "Lydering",
+          "fi": "Äännelaatikot"
         }
       },
       "ordinal-numbers": {
@@ -3424,7 +3428,8 @@
           "da": "ordenstal",
           "pt": "numeros-ordinais",
           "sv": "ordningstal",
-          "no": "ordenstall"
+          "no": "ordenstall",
+          "fi": "jarjestysluvut"
         },
         "name": {
           "en": "Ordinal Numbers",
@@ -3436,7 +3441,8 @@
           "da": "Ordenstal",
           "pt": "Números ordinais",
           "sv": "Ordningstal",
-          "no": "Ordenstall"
+          "no": "Ordenstall",
+          "fi": "Järjestysluvut"
         }
       },
       "days-and-months": {
@@ -3450,7 +3456,8 @@
           "da": "ugedage-og-maaneder",
           "pt": "dias-e-meses",
           "sv": "veckodagar-och-manader",
-          "no": "ukedager-og-maneder"
+          "no": "ukedager-og-maneder",
+          "fi": "viikonpaivat-ja-kuukaudet"
         },
         "name": {
           "en": "Days and Months",
@@ -3462,7 +3469,8 @@
           "da": "Ugedage og måneder",
           "pt": "Dias e meses",
           "sv": "Veckodagar och månader",
-          "no": "Ukedager og måneder"
+          "no": "Ukedager og måneder",
+          "fi": "Viikonpäivät ja kuukaudet"
         }
       },
       "seasons": {
@@ -3476,7 +3484,8 @@
           "da": "de-fire-aarstider",
           "pt": "estacoes-do-ano",
           "sv": "de-fyra-arstiderna",
-          "no": "arstider"
+          "no": "arstider",
+          "fi": "vuodenajat"
         },
         "name": {
           "en": "Four Seasons",
@@ -3488,7 +3497,8 @@
           "da": "De fire årstider",
           "pt": "Estações do ano",
           "sv": "De fyra årstiderna",
-          "no": "Årstider"
+          "no": "Årstider",
+          "fi": "Vuodenajat"
         }
       },
       "all-about-me": {
@@ -3502,7 +3512,8 @@
           "da": "alt-om-mig",
           "pt": "quem-sou-eu",
           "sv": "det-har-ar-jag",
-          "no": "alt-om-meg"
+          "no": "alt-om-meg",
+          "fi": "mina-itse"
         },
         "name": {
           "en": "All About Me",
@@ -3514,7 +3525,8 @@
           "da": "Alt om mig",
           "pt": "Quem sou eu",
           "sv": "Det här är jag",
-          "no": "Alt om meg"
+          "no": "Alt om meg",
+          "fi": "Minä itse"
         }
       },
       "picture-word-cards": {
@@ -3528,7 +3540,8 @@
           "da": "ordkort-med-billeder",
           "pt": "cartoes-de-figura-e-palavra",
           "sv": "bildordkort",
-          "no": "bildekort"
+          "no": "bildekort",
+          "fi": "kuvakortit"
         },
         "name": {
           "en": "Picture Word Cards",
@@ -3540,7 +3553,8 @@
           "da": "Ordkort med billeder",
           "pt": "Cartões de figura e palavra",
           "sv": "Bildordkort",
-          "no": "Bildekort"
+          "no": "Bildekort",
+          "fi": "Kuvakortit"
         }
       },
       "syllable-split": {
@@ -3554,7 +3568,8 @@
           "da": "stavelser",
           "pt": "separacao-de-silabas",
           "sv": "dela-upp-ord-i-stavelser",
-          "no": "dele-ord-i-stavelser"
+          "no": "dele-ord-i-stavelser",
+          "fi": "tavutus"
         },
         "name": {
           "en": "Syllable Division",
@@ -3566,7 +3581,8 @@
           "da": "Stavelser",
           "pt": "Separação de sílabas",
           "sv": "Dela upp ord i stavelser",
-          "no": "Dele ord i stavelser"
+          "no": "Dele ord i stavelser",
+          "fi": "Tavutus"
         }
       },
       "syllable-reading": {
@@ -3580,7 +3596,8 @@
           "da": "lydrette-ord",
           "pt": "familia-silabica",
           "sv": "ljuda-ihop-ord",
-          "no": "lydrette-ord"
+          "no": "lydrette-ord",
+          "fi": "tavutaulukko"
         },
         "name": {
           "en": "Word Families",
@@ -3592,7 +3609,8 @@
           "da": "Lydrette ord",
           "pt": "Família silábica",
           "sv": "Ljuda ihop ord",
-          "no": "Lydrette ord"
+          "no": "Lydrette ord",
+          "fi": "Tavutaulukko"
         }
       },
       "opposites": {
@@ -3606,7 +3624,8 @@
           "da": "modsaetninger",
           "pt": "antonimos",
           "sv": "motsatsord",
-          "no": "motsetninger"
+          "no": "motsetninger",
+          "fi": "vastakohdat"
         },
         "name": {
           "en": "Opposites",
@@ -3618,7 +3637,8 @@
           "da": "Modsætninger",
           "pt": "Antônimos",
           "sv": "Motsatsord",
-          "no": "Motsetninger"
+          "no": "Motsetninger",
+          "fi": "Vastakohdat"
         }
       },
       "read-and-do": {
@@ -3632,7 +3652,8 @@
           "da": "laes-og-goer",
           "pt": "leia-e-faca",
           "sv": "las-och-gor",
-          "no": "les-og-gjor"
+          "no": "les-og-gjor",
+          "fi": "lue-ja-tee"
         },
         "name": {
           "en": "Read and Do",
@@ -3644,7 +3665,8 @@
           "da": "Læs og gør",
           "pt": "Leia e faça",
           "sv": "Läs och gör",
-          "no": "Les og gjør"
+          "no": "Les og gjør",
+          "fi": "Lue ja tee"
         }
       },
       "rhyming-words": {
@@ -3658,7 +3680,8 @@
           "da": "rimord",
           "pt": "palavras-que-rimam",
           "sv": "rimord",
-          "no": "rimord"
+          "no": "rimord",
+          "fi": "riimisanat"
         },
         "name": {
           "en": "Rhyming Words",
@@ -3670,7 +3693,8 @@
           "da": "Rimord",
           "pt": "Palavras que rimam",
           "sv": "Rimord",
-          "no": "Rimord"
+          "no": "Rimord",
+          "fi": "Riimisanat"
         }
       },
       "hundreds-chart-puzzles": {
@@ -3684,7 +3708,8 @@
           "da": "hundredtavle-puslespil",
           "pt": "quadro-numerico-pecas",
           "sv": "hundrarutans-pusselbitar",
-          "no": "hundrerrute-puslespill"
+          "no": "hundrerrute-puslespill",
+          "fi": "satataulun-palat"
         },
         "name": {
           "en": "Hundreds Chart Puzzles",
@@ -3696,7 +3721,8 @@
           "da": "Hundredtavle-puslespil",
           "pt": "Peças do quadro numérico",
           "sv": "Hundrarutans pusselbitar",
-          "no": "Hundrerrute-puslespill"
+          "no": "Hundrerrute-puslespill",
+          "fi": "Satataulun palat"
         }
       },
       "spelling-rules": {
@@ -3710,7 +3736,8 @@
           "da": "staveregler",
           "pt": "regras-de-ortografia",
           "sv": "stavningsregler",
-          "no": "rettskriving"
+          "no": "rettskriving",
+          "fi": "oikeinkirjoitus"
         },
         "name": {
           "en": "Spelling Rules",
@@ -3722,7 +3749,8 @@
           "da": "Staveregler",
           "pt": "Regras de ortografia",
           "sv": "Stavningsregler",
-          "no": "Rettskriving"
+          "no": "Rettskriving",
+          "fi": "Oikeinkirjoitus"
         }
       },
       "compound-words": {
@@ -3736,7 +3764,8 @@
           "da": "sammensatte-ord",
           "pt": "diminutivo-e-aumentativo",
           "sv": "sammansatta-ord",
-          "no": "sammensatte-ord"
+          "no": "sammensatte-ord",
+          "fi": "yhdyssanat"
         },
         "name": {
           "en": "Compound Words",
@@ -3748,7 +3777,8 @@
           "da": "Sammensatte ord",
           "pt": "Diminutivo e aumentativo",
           "sv": "Sammansatta ord",
-          "no": "Sammensatte ord"
+          "no": "Sammensatte ord",
+          "fi": "Yhdyssanat"
         }
       },
       "verb-forms": {
@@ -3762,7 +3792,8 @@
           "da": "udsagnsord-nutid-og-datid",
           "pt": "conjugacao-de-verbos",
           "sv": "verb-presens-och-preteritum",
-          "no": "verb-presens-og-preteritum"
+          "no": "verb-presens-og-preteritum",
+          "fi": "verbin-persoonamuodot"
         },
         "name": {
           "en": "Verb Forms",
@@ -3774,7 +3805,8 @@
           "da": "Udsagnsord: nutid og datid",
           "pt": "Conjugação de verbos",
           "sv": "Verb: presens och preteritum",
-          "no": "Verb: presens og preteritum"
+          "no": "Verb: presens og preteritum",
+          "fi": "Verbin persoonamuodot"
         }
       },
       "animal-fact-file": {
@@ -3788,7 +3820,8 @@
           "da": "faktakort-om-dyr",
           "pt": "tudo-sobre-o-animal",
           "sv": "faktablad-om-djur",
-          "no": "faktaark-om-dyr"
+          "no": "faktaark-om-dyr",
+          "fi": "elainkortit"
         },
         "name": {
           "en": "Animal Fact File",
@@ -3800,7 +3833,8 @@
           "da": "Faktakort om dyr",
           "pt": "Tudo sobre o animal",
           "sv": "Faktablad om djur",
-          "no": "Faktaark om dyr"
+          "no": "Faktaark om dyr",
+          "fi": "Eläinkortit"
         }
       },
       "logic-puzzles": {
@@ -3814,7 +3848,8 @@
           "da": "logikopgaver",
           "pt": "raciocinio-logico",
           "sv": "logikpussel",
-          "no": "logikkoppgaver"
+          "no": "logikkoppgaver",
+          "fi": "paattelypulmat"
         },
         "name": {
           "en": "Logic Grid Puzzles",
@@ -3826,7 +3861,8 @@
           "da": "Logikopgaver",
           "pt": "Raciocínio lógico",
           "sv": "Logikpussel",
-          "no": "Logikkoppgaver"
+          "no": "Logikkoppgaver",
+          "fi": "Päättelypulmat"
         }
       },
       "division-with-remainder": {
@@ -3840,7 +3876,8 @@
           "da": "division-med-rest",
           "pt": "divisao-com-resto",
           "sv": "division-med-rest",
-          "no": "divisjon-med-rest"
+          "no": "divisjon-med-rest",
+          "fi": "jakojaannos"
         },
         "name": {
           "en": "Division with Remainders",
@@ -3852,7 +3889,8 @@
           "da": "Division med rest",
           "pt": "Divisão com resto",
           "sv": "Division med rest",
-          "no": "Divisjon med rest"
+          "no": "Divisjon med rest",
+          "fi": "Jakojäännös"
         }
       },
       "feelings": {
@@ -3866,7 +3904,8 @@
           "da": "foelelser",
           "pt": "emocoes-e-sentimentos",
           "sv": "kanslor",
-          "no": "folelsene-mine"
+          "no": "folelsene-mine",
+          "fi": "tunnetaidot"
         },
         "name": {
           "en": "Feelings",
@@ -3878,7 +3917,8 @@
           "da": "Følelser",
           "pt": "Emoções e sentimentos",
           "sv": "Känslor",
-          "no": "Følelser"
+          "no": "Følelser",
+          "fi": "Tunnetaidot"
         }
       }
     },

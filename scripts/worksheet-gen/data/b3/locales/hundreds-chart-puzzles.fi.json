@@ -1,0 +1,29 @@
+{
+  "exemplar": "1-100",
+  "strings": {
+    "G1-310": {
+      "title": "Satataulun palat: täydennä luvut",
+      "instruction": "Jokaisessa palassa on yksi luku. Kirjoita puuttuvat luvut: oikealle 1 enemmän, vasemmalle 1 vähemmän, alle 10 enemmän, ylle 10 vähemmän."
+    },
+    "F1": {
+      "title": "Mihin pala kuuluu?",
+      "instruction": "Lue palan luvut, etsi palan paikka tyhjästä satataulusta ja kirjoita luvut siihen."
+    },
+    "F2": {
+      "title": "Hypyt satataulussa: seuraa nuolia",
+      "instruction": "Aloita luvusta ja seuraa nuolia: ylös on 10 vähemmän, alas 10 enemmän, oikealle 1 enemmän. Kirjoita, mihin päädyt."
+    },
+    "F3": {
+      "title": "Lukuarvoitus: kaksi nuolta, yksi ruutu",
+      "instruction": "Seuraa molempia nuolia. Ne osoittavat satataulun samaan ruutuun. Kirjoita arvoituksen luku."
+    },
+    "F4": {
+      "title": "Etsi virhe palasta",
+      "instruction": "Jokaisessa palassa yksi luku on väärin. Ympyröi se ja kirjoita oikea luku ruutuun."
+    },
+    "F5": {
+      "title": "Montako hyppyä? Laske välimatka",
+      "instruction": "Laske, montako hyppyä alaspäin ja montako hyppyä oikealle vie ensimmäisestä luvusta toiseen."
+    }
+  }
+}

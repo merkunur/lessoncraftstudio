@@ -1,0 +1,648 @@
+{
+  "nameSlot": true,
+  "pairs": [
+    {
+      "id": "big-small",
+      "a": "iso",
+      "b": "pieni",
+      "tier": 1,
+      "pos": "adj",
+      "family": "size",
+      "alt": {
+        "a": [
+          "suuri"
+        ],
+        "b": [
+          "pikkuinen"
+        ]
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "suuri"
+      },
+      "far": "märkä",
+      "pic": {
+        "kind": "scale",
+        "theme": "animals",
+        "noun": "dog",
+        "scales": [
+          1,
+          0.42
+        ]
+      },
+      "picOpened": true
+    },
+    {
+      "id": "hot-cold",
+      "a": "kuuma",
+      "b": "kylmä",
+      "tier": 1,
+      "pos": "adj",
+      "family": "temperature",
+      "alt": {
+        "a": [
+          "lämmin"
+        ],
+        "b": [
+          "viileä"
+        ]
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "lämmin"
+      },
+      "far": "iso",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "camping",
+          "noun": "campfire"
+        },
+        "b": {
+          "theme": "weather",
+          "noun": "snowflake"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "happy-sad",
+      "a": "iloinen",
+      "b": "surullinen",
+      "tier": 1,
+      "pos": "adj",
+      "family": "feeling",
+      "alt": {
+        "a": [
+          "onnellinen"
+        ],
+        "b": [
+          "alakuloinen"
+        ]
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "onnellinen"
+      },
+      "far": "kylmä",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "emotions",
+          "noun": "happy"
+        },
+        "b": {
+          "theme": "emotions",
+          "noun": "sad"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "fast-slow",
+      "a": "nopea",
+      "b": "hidas",
+      "tier": 1,
+      "pos": "adj",
+      "family": "speed",
+      "alt": {
+        "a": [
+          "vikkelä"
+        ],
+        "b": [
+          "verkkainen"
+        ]
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "vikkelä"
+      },
+      "far": "pehmeä",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "zoo animals",
+          "noun": "cheetah"
+        },
+        "b": {
+          "theme": "forest creatures",
+          "noun": "snail"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "heavy-light",
+      "a": "painava",
+      "b": "kevyt",
+      "tier": 1,
+      "pos": "adj",
+      "family": "weight",
+      "alt": {
+        "a": [
+          "raskas"
+        ],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "raskas"
+      },
+      "far": "valoisa",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "zoo animals",
+          "noun": "elephant"
+        },
+        "b": {
+          "theme": "easter",
+          "noun": "feather"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "day-night",
+      "a": "päivä",
+      "b": "yö",
+      "tier": 1,
+      "pos": "noun",
+      "family": "time",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "kova",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "weather",
+          "noun": "sun"
+        },
+        "b": {
+          "theme": "space",
+          "noun": "moon"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "soft-hard",
+      "a": "pehmeä",
+      "b": "kova",
+      "tier": 1,
+      "pos": "adj",
+      "family": "texture",
+      "alt": {
+        "a": [
+          "pehmoinen"
+        ],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "pehmoinen"
+      },
+      "far": "kuiva",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "around the house",
+          "noun": "pillow"
+        },
+        "b": {
+          "theme": "camping",
+          "noun": "rock"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "sweet-sour",
+      "a": "makea",
+      "b": "hapan",
+      "tier": 1,
+      "pos": "adj",
+      "family": "taste",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "pitkä",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "At the Supermarket",
+          "noun": "candy"
+        },
+        "b": {
+          "theme": "fruits",
+          "noun": "lemon"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "wet-dry",
+      "a": "märkä",
+      "b": "kuiva",
+      "tier": 1,
+      "pos": "adj",
+      "family": "wetness",
+      "alt": {
+        "a": [
+          "kostea"
+        ],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "kostea"
+      },
+      "far": "äänekäs",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "long-short",
+      "a": "pitkä",
+      "b": "lyhyt",
+      "tier": 1,
+      "pos": "adj",
+      "family": "length",
+      "alt": {
+        "a": [],
+        "b": [
+          "matala"
+        ]
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "korkea"
+      },
+      "far": "iloinen",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "loud-quiet",
+      "a": "äänekäs",
+      "b": "hiljainen",
+      "tier": 1,
+      "pos": "adj",
+      "family": "sound",
+      "alt": {
+        "a": [
+          "meluisa",
+          "kovaääninen"
+        ],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "meluisa"
+      },
+      "far": "uusi",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "old-new",
+      "a": "vanha",
+      "b": "uusi",
+      "tier": 1,
+      "pos": "adj",
+      "family": "age",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "puhdas",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "clean-dirty",
+      "a": "puhdas",
+      "b": "likainen",
+      "tier": 1,
+      "pos": "adj",
+      "family": "cleanliness",
+      "alt": {
+        "a": [
+          "siisti"
+        ],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "siisti"
+      },
+      "far": "auki",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "full-empty",
+      "a": "täysi",
+      "b": "tyhjä",
+      "tier": 1,
+      "pos": "adj",
+      "family": "fullness",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "ohut",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "open-closed",
+      "a": "auki",
+      "b": "kiinni",
+      "tier": 1,
+      "pos": "adj",
+      "family": "openness",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "hapan",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "thick-thin",
+      "a": "paksu",
+      "b": "ohut",
+      "tier": 1,
+      "pos": "adj",
+      "family": "thickness",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "täysi",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "strong-weak",
+      "a": "vahva",
+      "b": "heikko",
+      "tier": 1,
+      "pos": "adj",
+      "family": "strength",
+      "alt": {
+        "a": [
+          "voimakas"
+        ],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "voimakas"
+      },
+      "far": "päivä",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "bright-dark",
+      "a": "valoisa",
+      "b": "pimeä",
+      "tier": 1,
+      "pos": "adj",
+      "family": "light",
+      "alt": {
+        "a": [
+          "kirkas"
+        ],
+        "b": [
+          "hämärä"
+        ]
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "kirkas"
+      },
+      "far": "hidas",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "rough-smooth",
+      "a": "karhea",
+      "b": "sileä",
+      "tier": 1,
+      "pos": "adj",
+      "family": "surface",
+      "alt": {
+        "a": [
+          "karkea"
+        ],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "karkea"
+      },
+      "far": "yö",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "wide-narrow",
+      "a": "leveä",
+      "b": "kapea",
+      "tier": 1,
+      "pos": "adj",
+      "family": "width",
+      "alt": {
+        "a": [
+          "laaja"
+        ],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "laaja"
+      },
+      "far": "hiljainen",
+      "pic": null,
+      "picOpened": false
+    }
+  ],
+  "frames": [
+    {
+      "pair": "big-small",
+      "text": "Norsu ei ole pieni. Se on ___.",
+      "answer": "iso",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "elephant"
+      }
+    },
+    {
+      "pair": "hot-cold",
+      "text": "Lumihiutale ei ole kuuma. Se on ___.",
+      "answer": "kylmä",
+      "pic": {
+        "theme": "weather",
+        "noun": "snowflake"
+      }
+    },
+    {
+      "pair": "fast-slow",
+      "text": "Etana ei ole nopea. Se on ___.",
+      "answer": "hidas",
+      "pic": {
+        "theme": "forest creatures",
+        "noun": "snail"
+      }
+    },
+    {
+      "pair": "soft-hard",
+      "text": "Tyyny ei ole kova. Se on ___.",
+      "answer": "pehmeä",
+      "pic": {
+        "theme": "around the house",
+        "noun": "pillow"
+      }
+    },
+    {
+      "pair": "heavy-light",
+      "text": "Höyhen ei ole painava. Se on ___.",
+      "answer": "kevyt",
+      "pic": {
+        "theme": "easter",
+        "noun": "feather"
+      }
+    },
+    {
+      "pair": "happy-sad",
+      "text": "{name} ei ole tänään surullinen. {name} on ___.",
+      "answer": "iloinen",
+      "pic": {
+        "theme": "emotions",
+        "noun": "happy"
+      }
+    },
+    {
+      "pair": "sweet-sour",
+      "text": "Sitruuna ei ole makea. Se on ___.",
+      "answer": "hapan",
+      "pic": {
+        "theme": "fruits",
+        "noun": "lemon"
+      }
+    },
+    {
+      "pair": "wet-dry",
+      "text": "Kala ei ole kuiva. Se on ___.",
+      "answer": "märkä",
+      "pic": {
+        "theme": "ocean life",
+        "noun": "fish"
+      }
+    }
+  ],
+  "prefix": {
+    "prefixes": [
+      "epä"
+    ],
+    "items": [
+      {
+        "base": "rehellinen",
+        "prefix": "epä",
+        "expected": "epärehellinen"
+      },
+      {
+        "base": "siisti",
+        "prefix": "epä",
+        "expected": "epäsiisti"
+      },
+      {
+        "base": "kohtelias",
+        "prefix": "epä",
+        "expected": "epäkohtelias"
+      },
+      {
+        "base": "tavallinen",
+        "prefix": "epä",
+        "expected": "epätavallinen"
+      },
+      {
+        "base": "selvä",
+        "prefix": "epä",
+        "expected": "epäselvä"
+      },
+      {
+        "base": "varma",
+        "prefix": "epä",
+        "expected": "epävarma"
+      },
+      {
+        "base": "mukava",
+        "prefix": "epä",
+        "expected": "epämukava"
+      },
+      {
+        "base": "reilu",
+        "prefix": "epä",
+        "expected": "epäreilu"
+      },
+      {
+        "base": "terve",
+        "prefix": "epä",
+        "expected": "epäterve"
+      },
+      {
+        "base": "ystävällinen",
+        "prefix": "epä",
+        "expected": "epäystävällinen"
+      }
+    ],
+    "ban": []
+  },
+  "strings": {
+    "G1-307": {
+      "title": "Vastakohdat: kirjoita vastakohta",
+      "instruction": "Lue kortin sana. Etsi sen vastakohta sanapankista ja kirjoita se viivalle."
+    },
+    "K-351": {
+      "title": "Vastakohdat kuvina: yhdistä parit",
+      "instruction": "Piirrä viiva jokaisesta kuvasta siihen kuvaan ja sanaan, joka on sen vastakohta."
+    },
+    "G1-335": {
+      "title": "Vastakohdat lauseessa",
+      "instruction": "Lue lause. Kirjoita viivalle sen sanan vastakohta, joka tulee sanan \"ei\" jälkeen. Sanapankki auttaa."
+    },
+    "G1-336": {
+      "title": "Etsi vastakohtaparit",
+      "instruction": "Etsi sanoista kaksi, jotka ovat toistensa vastakohtia. Kirjoita jokainen pari viivalle nuolen molemmin puolin."
+    },
+    "G1-337": {
+      "title": "Vastakohta vai sama? Ympyröi vastakohta",
+      "instruction": "Lue sana. Yksi kolmesta sanasta sen alla tarkoittaa vastakohtaa. Ympyröi se, älä sanaa, joka tarkoittaa samaa."
+    },
+    "G2-320": {
+      "title": "Vastakohta etuliitteellä epä-",
+      "instruction": "Lisää sanan eteen etuliite epä- ja kirjoita uusi vastakohtasana viivalle."
+    }
+  }
+}

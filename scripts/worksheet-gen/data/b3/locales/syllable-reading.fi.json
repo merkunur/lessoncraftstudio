@@ -1,0 +1,4435 @@
+{
+  "shape": "syllable",
+  "exemplar": "k",
+  "casing": "lower",
+  "strictPool": null,
+  "units": [
+    {
+      "id": "k",
+      "label": "ka ke ki ko ku ky kä kö",
+      "cells": [
+        "ka",
+        "ke",
+        "ki",
+        "ko",
+        "ku",
+        "ky",
+        "kä",
+        "kö"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "camel",
+          "word": "kameli",
+          "unit": "ka",
+          "split": [
+            "ka",
+            "me",
+            "li"
+          ]
+        },
+        {
+          "key": "canoe",
+          "word": "kanootti",
+          "unit": "ka",
+          "split": [
+            "ka",
+            "noot",
+            "ti"
+          ]
+        },
+        {
+          "key": "giraffe",
+          "word": "kirahvi",
+          "unit": "ki",
+          "split": [
+            "ki",
+            "rah",
+            "vi"
+          ]
+        },
+        {
+          "key": "gloves",
+          "word": "käsineet",
+          "unit": "kä",
+          "split": [
+            "kä",
+            "si",
+            "neet"
+          ]
+        },
+        {
+          "key": "guitar",
+          "word": "kitara",
+          "unit": "ki",
+          "split": [
+            "ki",
+            "ta",
+            "ra"
+          ]
+        },
+        {
+          "key": "kayak",
+          "word": "kajakki",
+          "unit": "ka",
+          "split": [
+            "ka",
+            "jak",
+            "ki"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p",
+      "label": "pa pe pi po pu py pä pö",
+      "cells": [
+        "pa",
+        "pe",
+        "pi",
+        "po",
+        "pu",
+        "py",
+        "pä",
+        "pö"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "bacon",
+          "word": "pekoni",
+          "unit": "pe",
+          "split": [
+            "pe",
+            "ko",
+            "ni"
+          ]
+        },
+        {
+          "key": "baguette",
+          "word": "patonki",
+          "unit": "pa",
+          "split": [
+            "pa",
+            "ton",
+            "ki"
+          ]
+        },
+        {
+          "key": "blocks",
+          "word": "palikat",
+          "unit": "pa",
+          "split": [
+            "pa",
+            "li",
+            "kat"
+          ]
+        },
+        {
+          "key": "firefighter",
+          "word": "palomies",
+          "unit": "pa",
+          "split": [
+            "pa",
+            "lo",
+            "mies"
+          ]
+        },
+        {
+          "key": "package",
+          "word": "paketti",
+          "unit": "pa",
+          "split": [
+            "pa",
+            "ket",
+            "ti"
+          ]
+        },
+        {
+          "key": "pajamas",
+          "word": "pyjama",
+          "unit": "py",
+          "split": [
+            "py",
+            "ja",
+            "ma"
+          ]
+        },
+        {
+          "key": "paper",
+          "word": "paperi",
+          "unit": "pa",
+          "split": [
+            "pa",
+            "pe",
+            "ri"
+          ]
+        },
+        {
+          "key": "potato",
+          "word": "peruna",
+          "unit": "pe",
+          "split": [
+            "pe",
+            "ru",
+            "na"
+          ]
+        },
+        {
+          "key": "telephone",
+          "word": "puhelin",
+          "unit": "pu",
+          "split": [
+            "pu",
+            "he",
+            "lin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m",
+      "label": "ma me mi mo mu my mä mö",
+      "cells": [
+        "ma",
+        "me",
+        "mi",
+        "mo",
+        "mu",
+        "my",
+        "mä",
+        "mö"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "beaver",
+          "word": "majava",
+          "unit": "ma",
+          "split": [
+            "ma",
+            "ja",
+            "va"
+          ]
+        },
+        {
+          "key": "cereal",
+          "word": "murot",
+          "unit": "mu",
+          "split": [
+            "mu",
+            "rot"
+          ]
+        },
+        {
+          "key": "lighthouse",
+          "word": "majakka",
+          "unit": "ma",
+          "split": [
+            "ma",
+            "jak",
+            "ka"
+          ]
+        },
+        {
+          "key": "medal",
+          "word": "mitali",
+          "unit": "mi",
+          "split": [
+            "mi",
+            "ta",
+            "li"
+          ]
+        },
+        {
+          "key": "melon",
+          "word": "meloni",
+          "unit": "me",
+          "split": [
+            "me",
+            "lo",
+            "ni"
+          ]
+        },
+        {
+          "key": "popsicle",
+          "word": "mehujää",
+          "unit": "me",
+          "split": [
+            "me",
+            "hu",
+            "jää"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v",
+      "label": "va ve vi vo vu vy vä vö",
+      "cells": [
+        "va",
+        "ve",
+        "vi",
+        "vo",
+        "vu",
+        "vy",
+        "vä",
+        "vö"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "calf",
+          "word": "vasikka",
+          "unit": "va",
+          "split": [
+            "va",
+            "sik",
+            "ka"
+          ]
+        },
+        {
+          "key": "crow",
+          "word": "varis",
+          "unit": "va",
+          "split": [
+            "va",
+            "ris"
+          ]
+        },
+        {
+          "key": "hammer",
+          "word": "vasara",
+          "unit": "va",
+          "split": [
+            "va",
+            "sa",
+            "ra"
+          ]
+        },
+        {
+          "key": "lights",
+          "word": "valot",
+          "unit": "va",
+          "split": [
+            "va",
+            "lot"
+          ]
+        },
+        {
+          "key": "raspberry",
+          "word": "vadelma",
+          "unit": "va",
+          "split": [
+            "va",
+            "del",
+            "ma"
+          ]
+        },
+        {
+          "key": "whale",
+          "word": "valas",
+          "unit": "va",
+          "split": [
+            "va",
+            "las"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l",
+      "label": "la le li lo lu ly lä lö",
+      "cells": [
+        "la",
+        "le",
+        "li",
+        "lo",
+        "lu",
+        "ly",
+        "lä",
+        "lö"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "bat",
+          "word": "lepakko",
+          "unit": "le",
+          "split": [
+            "le",
+            "pak",
+            "ko"
+          ]
+        },
+        {
+          "key": "dresser",
+          "word": "lipasto",
+          "unit": "li",
+          "split": [
+            "li",
+            "pas",
+            "to"
+          ]
+        },
+        {
+          "key": "mittens",
+          "word": "lapaset",
+          "unit": "la",
+          "split": [
+            "la",
+            "pa",
+            "set"
+          ]
+        },
+        {
+          "key": "puddle",
+          "word": "lätäkkö",
+          "unit": "lä",
+          "split": [
+            "lä",
+            "täk",
+            "kö"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s",
+      "label": "sa se si so su sy sä sö",
+      "cells": [
+        "sa",
+        "se",
+        "si",
+        "so",
+        "su",
+        "sy",
+        "sä",
+        "sö"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "heart",
+          "word": "sydän",
+          "unit": "sy",
+          "split": [
+            "sy",
+            "dän"
+          ],
+          "pictureTheme": "shapes"
+        },
+        {
+          "key": "lettuce",
+          "word": "salaatti",
+          "unit": "sa",
+          "split": [
+            "sa",
+            "laat",
+            "ti"
+          ]
+        },
+        {
+          "key": "onion",
+          "word": "sipuli",
+          "unit": "si",
+          "split": [
+            "si",
+            "pu",
+            "li"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h",
+      "label": "ha he hi ho hu hy hä hö",
+      "cells": [
+        "ha",
+        "he",
+        "hi",
+        "ho",
+        "hu",
+        "hy",
+        "hä",
+        "hö"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "honey",
+          "word": "hunaja",
+          "unit": "hu",
+          "split": [
+            "hu",
+            "na",
+            "ja"
+          ]
+        },
+        {
+          "key": "horse",
+          "word": "hevonen",
+          "unit": "he",
+          "split": [
+            "he",
+            "vo",
+            "nen"
+          ]
+        },
+        {
+          "key": "magpie",
+          "word": "harakka",
+          "unit": "ha",
+          "split": [
+            "ha",
+            "rak",
+            "ka"
+          ]
+        },
+        {
+          "key": "rake",
+          "word": "harava",
+          "unit": "ha",
+          "split": [
+            "ha",
+            "ra",
+            "va"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r",
+      "label": "ra re ri ro ru ry rä rö",
+      "cells": [
+        "ra",
+        "re",
+        "ri",
+        "ro",
+        "ru",
+        "ry",
+        "rä",
+        "rö"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "radish",
+          "word": "retiisi",
+          "unit": "re",
+          "split": [
+            "re",
+            "tii",
+            "si"
+          ]
+        },
+        {
+          "key": "robot",
+          "word": "robotti",
+          "unit": "ro",
+          "split": [
+            "ro",
+            "bot",
+            "ti"
+          ]
+        },
+        {
+          "key": "rocket",
+          "word": "raketti",
+          "unit": "ra",
+          "split": [
+            "ra",
+            "ket",
+            "ti"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t",
+      "label": "ta te ti to tu ty tä tö",
+      "cells": [
+        "ta",
+        "te",
+        "ti",
+        "to",
+        "tu",
+        "ty",
+        "tä",
+        "tö"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "tomato",
+          "word": "tomaatti",
+          "unit": "to",
+          "split": [
+            "to",
+            "maat",
+            "ti"
+          ]
+        },
+        {
+          "key": "toucan",
+          "word": "tukaani",
+          "unit": "tu",
+          "split": [
+            "tu",
+            "kaa",
+            "ni"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n",
+      "label": "na ne ni no nu ny nä nö",
+      "cells": [
+        "na",
+        "ne",
+        "ni",
+        "no",
+        "nu",
+        "ny",
+        "nä",
+        "nö"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "dice",
+          "word": "nopat",
+          "unit": "no",
+          "split": [
+            "no",
+            "pat"
+          ]
+        },
+        {
+          "key": "stapler",
+          "word": "nitoja",
+          "unit": "ni",
+          "split": [
+            "ni",
+            "to",
+            "ja"
+          ]
+        }
+      ]
+    }
+  ],
+  "complexExemplar": "k",
+  "complexUnits": [
+    {
+      "id": "k",
+      "label": "kis kas kar kuk kel kir ken kor",
+      "cells": [
+        "kis",
+        "kas",
+        "kar",
+        "kuk",
+        "kel",
+        "kir",
+        "ken",
+        "kor"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "bag",
+          "word": "kassi",
+          "unit": "kas",
+          "split": [
+            "kas",
+            "si"
+          ]
+        },
+        {
+          "key": "bear",
+          "word": "karhu",
+          "unit": "kar",
+          "split": [
+            "kar",
+            "hu"
+          ]
+        },
+        {
+          "key": "bell",
+          "word": "kello",
+          "unit": "kel",
+          "split": [
+            "kel",
+            "lo"
+          ]
+        },
+        {
+          "key": "book",
+          "word": "kirja",
+          "unit": "kir",
+          "split": [
+            "kir",
+            "ja"
+          ]
+        },
+        {
+          "key": "cards",
+          "word": "kortit",
+          "unit": "kor",
+          "split": [
+            "kor",
+            "tit"
+          ]
+        },
+        {
+          "key": "cat",
+          "word": "kissa",
+          "unit": "kis",
+          "split": [
+            "kis",
+            "sa"
+          ]
+        },
+        {
+          "key": "cherry",
+          "word": "kirsikka",
+          "unit": "kir",
+          "split": [
+            "kir",
+            "sik",
+            "ka"
+          ],
+          "pictureTheme": "At the Supermarket"
+        },
+        {
+          "key": "clock",
+          "word": "kello",
+          "unit": "kel",
+          "split": [
+            "kel",
+            "lo"
+          ]
+        },
+        {
+          "key": "ear",
+          "word": "korva",
+          "unit": "kor",
+          "split": [
+            "kor",
+            "va"
+          ]
+        },
+        {
+          "key": "face",
+          "word": "kasvot",
+          "unit": "kas",
+          "split": [
+            "kas",
+            "vot"
+          ]
+        },
+        {
+          "key": "flower",
+          "word": "kukka",
+          "unit": "kuk",
+          "split": [
+            "kuk",
+            "ka"
+          ]
+        },
+        {
+          "key": "kangaroo",
+          "word": "kenguru",
+          "unit": "ken",
+          "split": [
+            "ken",
+            "gu",
+            "ru"
+          ]
+        },
+        {
+          "key": "letter",
+          "word": "kirje",
+          "unit": "kir",
+          "split": [
+            "kir",
+            "je"
+          ]
+        },
+        {
+          "key": "rooster",
+          "word": "kukko",
+          "unit": "kuk",
+          "split": [
+            "kuk",
+            "ko"
+          ]
+        },
+        {
+          "key": "shoe",
+          "word": "kenkä",
+          "unit": "ken",
+          "split": [
+            "ken",
+            "kä"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t",
+      "label": "tak tik tus tyt täh toh tal tel",
+      "cells": [
+        "tak",
+        "tik",
+        "tus",
+        "tyt",
+        "täh",
+        "toh",
+        "tal",
+        "tel"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "coat",
+          "word": "takki",
+          "unit": "tak",
+          "split": [
+            "tak",
+            "ki"
+          ]
+        },
+        {
+          "key": "fireplace",
+          "word": "takka",
+          "unit": "tak",
+          "split": [
+            "tak",
+            "ka"
+          ]
+        },
+        {
+          "key": "girl",
+          "word": "tyttö",
+          "unit": "tyt",
+          "split": [
+            "tyt",
+            "tö"
+          ]
+        },
+        {
+          "key": "jacket",
+          "word": "takki",
+          "unit": "tak",
+          "split": [
+            "tak",
+            "ki"
+          ]
+        },
+        {
+          "key": "ladder",
+          "word": "tikkaat",
+          "unit": "tik",
+          "split": [
+            "tik",
+            "kaat"
+          ]
+        },
+        {
+          "key": "lollipop",
+          "word": "tikkari",
+          "unit": "tik",
+          "split": [
+            "tik",
+            "ka",
+            "ri"
+          ]
+        },
+        {
+          "key": "marker",
+          "word": "tussi",
+          "unit": "tus",
+          "split": [
+            "tus",
+            "si"
+          ]
+        },
+        {
+          "key": "slippers",
+          "word": "tohvelit",
+          "unit": "toh",
+          "split": [
+            "toh",
+            "ve",
+            "lit"
+          ]
+        },
+        {
+          "key": "star",
+          "word": "tähti",
+          "unit": "täh",
+          "split": [
+            "täh",
+            "ti"
+          ]
+        },
+        {
+          "key": "taxi",
+          "word": "taksi",
+          "unit": "tak",
+          "split": [
+            "tak",
+            "si"
+          ]
+        },
+        {
+          "key": "woodpecker",
+          "word": "tikka",
+          "unit": "tik",
+          "split": [
+            "tik",
+            "ka"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p",
+      "label": "pal pan par per pil por pul pöl",
+      "cells": [
+        "pal",
+        "pan",
+        "par",
+        "per",
+        "pil",
+        "por",
+        "pul",
+        "pöl"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "asparagus",
+          "word": "parsa",
+          "unit": "par",
+          "split": [
+            "par",
+            "sa"
+          ]
+        },
+        {
+          "key": "ball",
+          "word": "pallo",
+          "unit": "pal",
+          "split": [
+            "pal",
+            "lo"
+          ]
+        },
+        {
+          "key": "bottle",
+          "word": "pullo",
+          "unit": "pul",
+          "split": [
+            "pul",
+            "lo"
+          ]
+        },
+        {
+          "key": "butterfly",
+          "word": "perhonen",
+          "unit": "per",
+          "split": [
+            "per",
+            "ho",
+            "nen"
+          ]
+        },
+        {
+          "key": "cloud",
+          "word": "pilvi",
+          "unit": "pil",
+          "split": [
+            "pil",
+            "vi"
+          ]
+        },
+        {
+          "key": "owl",
+          "word": "pöllö",
+          "unit": "pöl",
+          "split": [
+            "pöl",
+            "lö"
+          ]
+        },
+        {
+          "key": "pan",
+          "word": "pannu",
+          "unit": "pan",
+          "split": [
+            "pan",
+            "nu"
+          ]
+        },
+        {
+          "key": "panda",
+          "word": "panda",
+          "unit": "pan",
+          "split": [
+            "pan",
+            "da"
+          ]
+        },
+        {
+          "key": "peach",
+          "word": "persikka",
+          "unit": "per",
+          "split": [
+            "per",
+            "sik",
+            "ka"
+          ],
+          "pictureTheme": "colors"
+        },
+        {
+          "key": "sphere",
+          "word": "pallo",
+          "unit": "pal",
+          "split": [
+            "pal",
+            "lo"
+          ]
+        },
+        {
+          "key": "stairs",
+          "word": "portaat",
+          "unit": "por",
+          "split": [
+            "por",
+            "taat"
+          ]
+        },
+        {
+          "key": "whistle",
+          "word": "pilli",
+          "unit": "pil",
+          "split": [
+            "pil",
+            "li"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s",
+      "label": "sak sam san sel sil sit suk sän",
+      "cells": [
+        "sak",
+        "sam",
+        "san",
+        "sel",
+        "sil",
+        "sit",
+        "suk",
+        "sän"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "bed",
+          "word": "sänky",
+          "unit": "sän",
+          "split": [
+            "sän",
+            "ky"
+          ],
+          "pictureTheme": "around the house"
+        },
+        {
+          "key": "celery",
+          "word": "selleri",
+          "unit": "sel",
+          "split": [
+            "sel",
+            "le",
+            "ri"
+          ]
+        },
+        {
+          "key": "eye",
+          "word": "silmä",
+          "unit": "sil",
+          "split": [
+            "sil",
+            "mä"
+          ]
+        },
+        {
+          "key": "frog",
+          "word": "sammakko",
+          "unit": "sam",
+          "split": [
+            "sam",
+            "mak",
+            "ko"
+          ]
+        },
+        {
+          "key": "lemon",
+          "word": "sitruuna",
+          "unit": "sit",
+          "split": [
+            "sit",
+            "ruu",
+            "na"
+          ],
+          "pictureTheme": "At the Supermarket"
+        },
+        {
+          "key": "sandals",
+          "word": "sandaalit",
+          "unit": "san",
+          "split": [
+            "san",
+            "daa",
+            "lit"
+          ]
+        },
+        {
+          "key": "scissors",
+          "word": "sakset",
+          "unit": "sak",
+          "split": [
+            "sak",
+            "set"
+          ]
+        },
+        {
+          "key": "sock",
+          "word": "sukka",
+          "unit": "suk",
+          "split": [
+            "suk",
+            "ka"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l",
+      "label": "lam las leh let lin lip lok luk",
+      "cells": [
+        "lam",
+        "las",
+        "leh",
+        "let",
+        "lin",
+        "lip",
+        "lok",
+        "luk"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "bird",
+          "word": "lintu",
+          "unit": "lin",
+          "split": [
+            "lin",
+            "tu"
+          ]
+        },
+        {
+          "key": "calculator",
+          "word": "laskin",
+          "unit": "las",
+          "split": [
+            "las",
+            "kin"
+          ]
+        },
+        {
+          "key": "cap",
+          "word": "lippis",
+          "unit": "lip",
+          "split": [
+            "lip",
+            "pis"
+          ]
+        },
+        {
+          "key": "cow",
+          "word": "lehmä",
+          "unit": "leh",
+          "split": [
+            "leh",
+            "mä"
+          ]
+        },
+        {
+          "key": "flag",
+          "word": "lippu",
+          "unit": "lip",
+          "split": [
+            "lip",
+            "pu"
+          ]
+        },
+        {
+          "key": "hose",
+          "word": "letku",
+          "unit": "let",
+          "split": [
+            "let",
+            "ku"
+          ]
+        },
+        {
+          "key": "leaf",
+          "word": "lehti",
+          "unit": "leh",
+          "split": [
+            "leh",
+            "ti"
+          ]
+        },
+        {
+          "key": "lock",
+          "word": "lukko",
+          "unit": "luk",
+          "split": [
+            "luk",
+            "ko"
+          ]
+        },
+        {
+          "key": "seagull",
+          "word": "lokki",
+          "unit": "lok",
+          "split": [
+            "lok",
+            "ki"
+          ]
+        },
+        {
+          "key": "sheep",
+          "word": "lammas",
+          "unit": "lam",
+          "split": [
+            "lam",
+            "mas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m",
+      "label": "mak man mat mek met mur mus mök",
+      "cells": [
+        "mak",
+        "man",
+        "mat",
+        "mek",
+        "met",
+        "mur",
+        "mus",
+        "mök"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "blueberry",
+          "word": "mustikka",
+          "unit": "mus",
+          "split": [
+            "mus",
+            "tik",
+            "ka"
+          ]
+        },
+        {
+          "key": "cabin",
+          "word": "mökki",
+          "unit": "mök",
+          "split": [
+            "mök",
+            "ki"
+          ]
+        },
+        {
+          "key": "carpet",
+          "word": "matto",
+          "unit": "mat",
+          "split": [
+            "mat",
+            "to"
+          ]
+        },
+        {
+          "key": "dress",
+          "word": "mekko",
+          "unit": "mek",
+          "split": [
+            "mek",
+            "ko"
+          ]
+        },
+        {
+          "key": "forest",
+          "word": "metsä",
+          "unit": "met",
+          "split": [
+            "met",
+            "sä"
+          ]
+        },
+        {
+          "key": "mango",
+          "word": "mango",
+          "unit": "man",
+          "split": [
+            "man",
+            "go"
+          ]
+        },
+        {
+          "key": "rug",
+          "word": "matto",
+          "unit": "mat",
+          "split": [
+            "mat",
+            "to"
+          ]
+        },
+        {
+          "key": "sausage",
+          "word": "makkara",
+          "unit": "mak",
+          "split": [
+            "mak",
+            "ka",
+            "ra"
+          ]
+        },
+        {
+          "key": "strawberry",
+          "word": "mansikka",
+          "unit": "man",
+          "split": [
+            "man",
+            "sik",
+            "ka"
+          ]
+        },
+        {
+          "key": "walrus",
+          "word": "mursu",
+          "unit": "mur",
+          "split": [
+            "mur",
+            "su"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h",
+      "label": "ham han hat hil hir hup hyl här",
+      "cells": [
+        "ham",
+        "han",
+        "hat",
+        "hil",
+        "hir",
+        "hup",
+        "hyl",
+        "här"
+      ],
+      "readOnly": [],
+      "words": [
+        {
+          "key": "bull",
+          "word": "härkä",
+          "unit": "här",
+          "split": [
+            "här",
+            "kä"
+          ]
+        },
+        {
+          "key": "goose",
+          "word": "hanhi",
+          "unit": "han",
+          "split": [
+            "han",
+            "hi"
+          ]
+        },
+        {
+          "key": "hat",
+          "word": "hattu",
+          "unit": "hat",
+          "split": [
+            "hat",
+            "tu"
+          ]
+        },
+        {
+          "key": "hoodie",
+          "word": "huppari",
+          "unit": "hup",
+          "split": [
+            "hup",
+            "pa",
+            "ri"
+          ]
+        },
+        {
+          "key": "jam",
+          "word": "hillo",
+          "unit": "hil",
+          "split": [
+            "hil",
+            "lo"
+          ]
+        },
+        {
+          "key": "moose",
+          "word": "hirvi",
+          "unit": "hir",
+          "split": [
+            "hir",
+            "vi"
+          ]
+        },
+        {
+          "key": "ox",
+          "word": "härkä",
+          "unit": "här",
+          "split": [
+            "här",
+            "kä"
+          ]
+        },
+        {
+          "key": "seal",
+          "word": "hylje",
+          "unit": "hyl",
+          "split": [
+            "hyl",
+            "je"
+          ]
+        },
+        {
+          "key": "shelf",
+          "word": "hylly",
+          "unit": "hyl",
+          "split": [
+            "hyl",
+            "ly"
+          ]
+        },
+        {
+          "key": "tooth",
+          "word": "hammas",
+          "unit": "ham",
+          "split": [
+            "ham",
+            "mas"
+          ]
+        }
+      ]
+    }
+  ],
+  "multi": [
+    {
+      "key": "accordion",
+      "word": "haitari",
+      "split": [
+        "hai",
+        "ta",
+        "ri"
+      ]
+    },
+    {
+      "key": "angel",
+      "word": "enkeli",
+      "split": [
+        "en",
+        "ke",
+        "li"
+      ]
+    },
+    {
+      "key": "ankle",
+      "word": "nilkka",
+      "split": [
+        "nilk",
+        "ka"
+      ]
+    },
+    {
+      "key": "asparagus",
+      "word": "parsa",
+      "split": [
+        "par",
+        "sa"
+      ]
+    },
+    {
+      "key": "aster",
+      "word": "asteri",
+      "split": [
+        "as",
+        "te",
+        "ri"
+      ]
+    },
+    {
+      "key": "baby",
+      "word": "vauva",
+      "split": [
+        "vau",
+        "va"
+      ]
+    },
+    {
+      "key": "backpack",
+      "word": "reppu",
+      "split": [
+        "rep",
+        "pu"
+      ]
+    },
+    {
+      "key": "bacon",
+      "word": "pekoni",
+      "split": [
+        "pe",
+        "ko",
+        "ni"
+      ]
+    },
+    {
+      "key": "badger",
+      "word": "mäyrä",
+      "split": [
+        "mäy",
+        "rä"
+      ]
+    },
+    {
+      "key": "bag",
+      "word": "kassi",
+      "split": [
+        "kas",
+        "si"
+      ]
+    },
+    {
+      "key": "bagel",
+      "word": "bageli",
+      "split": [
+        "ba",
+        "ge",
+        "li"
+      ]
+    },
+    {
+      "key": "baguette",
+      "word": "patonki",
+      "split": [
+        "pa",
+        "ton",
+        "ki"
+      ]
+    },
+    {
+      "key": "ball",
+      "word": "pallo",
+      "split": [
+        "pal",
+        "lo"
+      ]
+    },
+    {
+      "key": "banana",
+      "word": "banaani",
+      "split": [
+        "ba",
+        "naa",
+        "ni"
+      ],
+      "pictureTheme": "At the Supermarket"
+    },
+    {
+      "key": "barbecue",
+      "word": "grilli",
+      "split": [
+        "gril",
+        "li"
+      ]
+    },
+    {
+      "key": "bat",
+      "word": "lepakko",
+      "split": [
+        "le",
+        "pak",
+        "ko"
+      ]
+    },
+    {
+      "key": "beach",
+      "word": "ranta",
+      "split": [
+        "ran",
+        "ta"
+      ]
+    },
+    {
+      "key": "bear",
+      "word": "karhu",
+      "split": [
+        "kar",
+        "hu"
+      ]
+    },
+    {
+      "key": "beaver",
+      "word": "majava",
+      "split": [
+        "ma",
+        "ja",
+        "va"
+      ]
+    },
+    {
+      "key": "bed",
+      "word": "sänky",
+      "split": [
+        "sän",
+        "ky"
+      ],
+      "pictureTheme": "around the house"
+    },
+    {
+      "key": "bell",
+      "word": "kello",
+      "split": [
+        "kel",
+        "lo"
+      ]
+    },
+    {
+      "key": "bench",
+      "word": "penkki",
+      "split": [
+        "penk",
+        "ki"
+      ]
+    },
+    {
+      "key": "biking",
+      "word": "pyöräily",
+      "split": [
+        "pyö",
+        "räi",
+        "ly"
+      ]
+    },
+    {
+      "key": "binoculars",
+      "word": "kiikari",
+      "split": [
+        "kii",
+        "ka",
+        "ri"
+      ]
+    },
+    {
+      "key": "bird",
+      "word": "lintu",
+      "split": [
+        "lin",
+        "tu"
+      ]
+    },
+    {
+      "key": "biscuit",
+      "word": "keksi",
+      "split": [
+        "kek",
+        "si"
+      ]
+    },
+    {
+      "key": "bison",
+      "word": "biisoni",
+      "split": [
+        "bii",
+        "so",
+        "ni"
+      ]
+    },
+    {
+      "key": "blocks",
+      "word": "palikat",
+      "split": [
+        "pa",
+        "li",
+        "kat"
+      ]
+    },
+    {
+      "key": "blueberry",
+      "word": "mustikka",
+      "split": [
+        "mus",
+        "tik",
+        "ka"
+      ]
+    },
+    {
+      "key": "bolt",
+      "word": "pultti",
+      "split": [
+        "pult",
+        "ti"
+      ]
+    },
+    {
+      "key": "book",
+      "word": "kirja",
+      "split": [
+        "kir",
+        "ja"
+      ]
+    },
+    {
+      "key": "boots",
+      "word": "saappaat",
+      "split": [
+        "saap",
+        "paat"
+      ]
+    },
+    {
+      "key": "bottle",
+      "word": "pullo",
+      "split": [
+        "pul",
+        "lo"
+      ]
+    },
+    {
+      "key": "bowl",
+      "word": "kulho",
+      "split": [
+        "kul",
+        "ho"
+      ]
+    },
+    {
+      "key": "brain",
+      "word": "aivot",
+      "split": [
+        "ai",
+        "vot"
+      ]
+    },
+    {
+      "key": "bread",
+      "word": "leipä",
+      "split": [
+        "lei",
+        "pä"
+      ]
+    },
+    {
+      "key": "broom",
+      "word": "luuta",
+      "split": [
+        "luu",
+        "ta"
+      ]
+    },
+    {
+      "key": "bucket",
+      "word": "ämpäri",
+      "split": [
+        "äm",
+        "pä",
+        "ri"
+      ]
+    },
+    {
+      "key": "bull",
+      "word": "härkä",
+      "split": [
+        "här",
+        "kä"
+      ]
+    },
+    {
+      "key": "bun",
+      "word": "sämpylä",
+      "split": [
+        "säm",
+        "py",
+        "lä"
+      ]
+    },
+    {
+      "key": "bus",
+      "word": "bussi",
+      "split": [
+        "bus",
+        "si"
+      ]
+    },
+    {
+      "key": "butterfly",
+      "word": "perhonen",
+      "split": [
+        "per",
+        "ho",
+        "nen"
+      ]
+    },
+    {
+      "key": "cabbage",
+      "word": "kaali",
+      "split": [
+        "kaa",
+        "li"
+      ]
+    },
+    {
+      "key": "cabin",
+      "word": "mökki",
+      "split": [
+        "mök",
+        "ki"
+      ]
+    },
+    {
+      "key": "cabinet",
+      "word": "kaappi",
+      "split": [
+        "kaap",
+        "pi"
+      ]
+    },
+    {
+      "key": "cake",
+      "word": "kakku",
+      "split": [
+        "kak",
+        "ku"
+      ]
+    },
+    {
+      "key": "calculator",
+      "word": "laskin",
+      "split": [
+        "las",
+        "kin"
+      ]
+    },
+    {
+      "key": "calf",
+      "word": "vasikka",
+      "split": [
+        "va",
+        "sik",
+        "ka"
+      ]
+    },
+    {
+      "key": "camel",
+      "word": "kameli",
+      "split": [
+        "ka",
+        "me",
+        "li"
+      ]
+    },
+    {
+      "key": "can",
+      "word": "tölkki",
+      "split": [
+        "tölk",
+        "ki"
+      ]
+    },
+    {
+      "key": "candle",
+      "word": "kynttilä",
+      "split": [
+        "kynt",
+        "ti",
+        "lä"
+      ]
+    },
+    {
+      "key": "candy",
+      "word": "karkki",
+      "split": [
+        "kark",
+        "ki"
+      ]
+    },
+    {
+      "key": "canoe",
+      "word": "kanootti",
+      "split": [
+        "ka",
+        "noot",
+        "ti"
+      ]
+    },
+    {
+      "key": "cap",
+      "word": "lippis",
+      "split": [
+        "lip",
+        "pis"
+      ]
+    },
+    {
+      "key": "cape",
+      "word": "viitta",
+      "split": [
+        "viit",
+        "ta"
+      ]
+    },
+    {
+      "key": "cards",
+      "word": "kortit",
+      "split": [
+        "kor",
+        "tit"
+      ]
+    },
+    {
+      "key": "carpet",
+      "word": "matto",
+      "split": [
+        "mat",
+        "to"
+      ]
+    },
+    {
+      "key": "carrot",
+      "word": "porkkana",
+      "split": [
+        "pork",
+        "ka",
+        "na"
+      ]
+    },
+    {
+      "key": "cast",
+      "word": "kipsi",
+      "split": [
+        "kip",
+        "si"
+      ]
+    },
+    {
+      "key": "cat",
+      "word": "kissa",
+      "split": [
+        "kis",
+        "sa"
+      ]
+    },
+    {
+      "key": "caterpillar",
+      "word": "toukka",
+      "split": [
+        "touk",
+        "ka"
+      ]
+    },
+    {
+      "key": "celery",
+      "word": "selleri",
+      "split": [
+        "sel",
+        "le",
+        "ri"
+      ]
+    },
+    {
+      "key": "cereal",
+      "word": "murot",
+      "split": [
+        "mu",
+        "rot"
+      ]
+    },
+    {
+      "key": "chair",
+      "word": "tuoli",
+      "split": [
+        "tuo",
+        "li"
+      ]
+    },
+    {
+      "key": "cheeks",
+      "word": "posket",
+      "split": [
+        "pos",
+        "ket"
+      ]
+    },
+    {
+      "key": "cheese",
+      "word": "juusto",
+      "split": [
+        "juus",
+        "to"
+      ]
+    },
+    {
+      "key": "cheetah",
+      "word": "gepardi",
+      "split": [
+        "ge",
+        "par",
+        "di"
+      ]
+    },
+    {
+      "key": "chef",
+      "word": "kokki",
+      "split": [
+        "kok",
+        "ki"
+      ]
+    },
+    {
+      "key": "cherry",
+      "word": "kirsikka",
+      "split": [
+        "kir",
+        "sik",
+        "ka"
+      ],
+      "pictureTheme": "At the Supermarket"
+    },
+    {
+      "key": "chimpanzee",
+      "word": "simpanssi",
+      "split": [
+        "sim",
+        "pans",
+        "si"
+      ]
+    },
+    {
+      "key": "chin",
+      "word": "leuka",
+      "split": [
+        "leu",
+        "ka"
+      ]
+    },
+    {
+      "key": "church",
+      "word": "kirkko",
+      "split": [
+        "kirk",
+        "ko"
+      ]
+    },
+    {
+      "key": "circle",
+      "word": "ympyrä",
+      "split": [
+        "ym",
+        "py",
+        "rä"
+      ]
+    },
+    {
+      "key": "clock",
+      "word": "kello",
+      "split": [
+        "kel",
+        "lo"
+      ]
+    },
+    {
+      "key": "cloud",
+      "word": "pilvi",
+      "split": [
+        "pil",
+        "vi"
+      ]
+    },
+    {
+      "key": "coat",
+      "word": "takki",
+      "split": [
+        "tak",
+        "ki"
+      ]
+    },
+    {
+      "key": "colander",
+      "word": "siivilä",
+      "split": [
+        "sii",
+        "vi",
+        "lä"
+      ]
+    },
+    {
+      "key": "comb",
+      "word": "kampa",
+      "split": [
+        "kam",
+        "pa"
+      ]
+    },
+    {
+      "key": "compass",
+      "word": "kompassi",
+      "split": [
+        "kom",
+        "pas",
+        "si"
+      ]
+    },
+    {
+      "key": "cook",
+      "word": "kokki",
+      "split": [
+        "kok",
+        "ki"
+      ]
+    },
+    {
+      "key": "cookie",
+      "word": "keksi",
+      "split": [
+        "kek",
+        "si"
+      ]
+    },
+    {
+      "key": "corn",
+      "word": "maissi",
+      "split": [
+        "mais",
+        "si"
+      ]
+    },
+    {
+      "key": "couch",
+      "word": "sohva",
+      "split": [
+        "soh",
+        "va"
+      ]
+    },
+    {
+      "key": "cow",
+      "word": "lehmä",
+      "split": [
+        "leh",
+        "mä"
+      ]
+    },
+    {
+      "key": "cricket",
+      "word": "sirkka",
+      "split": [
+        "sirk",
+        "ka"
+      ]
+    },
+    {
+      "key": "cross",
+      "word": "risti",
+      "split": [
+        "ris",
+        "ti"
+      ]
+    },
+    {
+      "key": "crow",
+      "word": "varis",
+      "split": [
+        "va",
+        "ris"
+      ]
+    },
+    {
+      "key": "crown",
+      "word": "kruunu",
+      "split": [
+        "kruu",
+        "nu"
+      ]
+    },
+    {
+      "key": "cucumber",
+      "word": "kurkku",
+      "split": [
+        "kurk",
+        "ku"
+      ]
+    },
+    {
+      "key": "cup",
+      "word": "kuppi",
+      "split": [
+        "kup",
+        "pi"
+      ]
+    },
+    {
+      "key": "curtains",
+      "word": "verhot",
+      "split": [
+        "ver",
+        "hot"
+      ]
+    },
+    {
+      "key": "cushion",
+      "word": "tyyny",
+      "split": [
+        "tyy",
+        "ny"
+      ]
+    },
+    {
+      "key": "cymbals",
+      "word": "symbaalit",
+      "split": [
+        "sym",
+        "baa",
+        "lit"
+      ]
+    },
+    {
+      "key": "daffodil",
+      "word": "narsissi",
+      "split": [
+        "nar",
+        "sis",
+        "si"
+      ]
+    },
+    {
+      "key": "deer",
+      "word": "peura",
+      "split": [
+        "peu",
+        "ra"
+      ]
+    },
+    {
+      "key": "desk",
+      "word": "työpöytä",
+      "split": [
+        "työ",
+        "pöy",
+        "tä"
+      ]
+    },
+    {
+      "key": "dice",
+      "word": "nopat",
+      "split": [
+        "no",
+        "pat"
+      ]
+    },
+    {
+      "key": "doctor",
+      "word": "lääkäri",
+      "split": [
+        "lää",
+        "kä",
+        "ri"
+      ]
+    },
+    {
+      "key": "dog",
+      "word": "koira",
+      "split": [
+        "koi",
+        "ra"
+      ]
+    },
+    {
+      "key": "doll",
+      "word": "nukke",
+      "split": [
+        "nuk",
+        "ke"
+      ]
+    },
+    {
+      "key": "dolphin",
+      "word": "delfiini",
+      "split": [
+        "del",
+        "fii",
+        "ni"
+      ]
+    },
+    {
+      "key": "domino",
+      "word": "domino",
+      "split": [
+        "do",
+        "mi",
+        "no"
+      ]
+    },
+    {
+      "key": "donut",
+      "word": "donitsi",
+      "split": [
+        "do",
+        "nit",
+        "si"
+      ]
+    },
+    {
+      "key": "doughnut",
+      "word": "donitsi",
+      "split": [
+        "do",
+        "nit",
+        "si"
+      ]
+    },
+    {
+      "key": "dove",
+      "word": "kyyhky",
+      "split": [
+        "kyyh",
+        "ky"
+      ]
+    },
+    {
+      "key": "dress",
+      "word": "mekko",
+      "split": [
+        "mek",
+        "ko"
+      ]
+    },
+    {
+      "key": "dresser",
+      "word": "lipasto",
+      "split": [
+        "li",
+        "pas",
+        "to"
+      ]
+    },
+    {
+      "key": "drum",
+      "word": "rumpu",
+      "split": [
+        "rum",
+        "pu"
+      ]
+    },
+    {
+      "key": "duck",
+      "word": "ankka",
+      "split": [
+        "ank",
+        "ka"
+      ]
+    },
+    {
+      "key": "eagle",
+      "word": "kotka",
+      "split": [
+        "kot",
+        "ka"
+      ]
+    },
+    {
+      "key": "ear",
+      "word": "korva",
+      "split": [
+        "kor",
+        "va"
+      ]
+    },
+    {
+      "key": "elephant",
+      "word": "norsu",
+      "split": [
+        "nor",
+        "su"
+      ]
+    },
+    {
+      "key": "elf",
+      "word": "tonttu",
+      "split": [
+        "tont",
+        "tu"
+      ]
+    },
+    {
+      "key": "eye",
+      "word": "silmä",
+      "split": [
+        "sil",
+        "mä"
+      ]
+    },
+    {
+      "key": "face",
+      "word": "kasvot",
+      "split": [
+        "kas",
+        "vot"
+      ]
+    },
+    {
+      "key": "falcon",
+      "word": "haukka",
+      "split": [
+        "hauk",
+        "ka"
+      ]
+    },
+    {
+      "key": "fan",
+      "word": "tuuletin",
+      "split": [
+        "tuu",
+        "le",
+        "tin"
+      ]
+    },
+    {
+      "key": "feather",
+      "word": "höyhen",
+      "split": [
+        "höy",
+        "hen"
+      ]
+    },
+    {
+      "key": "finger",
+      "word": "sormi",
+      "split": [
+        "sor",
+        "mi"
+      ]
+    },
+    {
+      "key": "firefighter",
+      "word": "palomies",
+      "split": [
+        "pa",
+        "lo",
+        "mies"
+      ]
+    },
+    {
+      "key": "fireplace",
+      "word": "takka",
+      "split": [
+        "tak",
+        "ka"
+      ]
+    },
+    {
+      "key": "flag",
+      "word": "lippu",
+      "split": [
+        "lip",
+        "pu"
+      ]
+    },
+    {
+      "key": "flamingo",
+      "word": "flamingo",
+      "split": [
+        "fla",
+        "min",
+        "go"
+      ]
+    },
+    {
+      "key": "flower",
+      "word": "kukka",
+      "split": [
+        "kuk",
+        "ka"
+      ]
+    },
+    {
+      "key": "flute",
+      "word": "huilu",
+      "split": [
+        "hui",
+        "lu"
+      ]
+    },
+    {
+      "key": "foal",
+      "word": "varsa",
+      "split": [
+        "var",
+        "sa"
+      ]
+    },
+    {
+      "key": "foot",
+      "word": "jalka",
+      "split": [
+        "jal",
+        "ka"
+      ]
+    },
+    {
+      "key": "forest",
+      "word": "metsä",
+      "split": [
+        "met",
+        "sä"
+      ]
+    },
+    {
+      "key": "fork",
+      "word": "haarukka",
+      "split": [
+        "haa",
+        "ruk",
+        "ka"
+      ]
+    },
+    {
+      "key": "forklift",
+      "word": "trukki",
+      "split": [
+        "truk",
+        "ki"
+      ]
+    },
+    {
+      "key": "fox",
+      "word": "kettu",
+      "split": [
+        "ket",
+        "tu"
+      ]
+    },
+    {
+      "key": "fridge",
+      "word": "jääkaappi",
+      "split": [
+        "jää",
+        "kaap",
+        "pi"
+      ]
+    },
+    {
+      "key": "frog",
+      "word": "sammakko",
+      "split": [
+        "sam",
+        "mak",
+        "ko"
+      ]
+    },
+    {
+      "key": "gate",
+      "word": "portti",
+      "split": [
+        "port",
+        "ti"
+      ]
+    },
+    {
+      "key": "gecko",
+      "word": "gekko",
+      "split": [
+        "gek",
+        "ko"
+      ]
+    },
+    {
+      "key": "ghost",
+      "word": "kummitus",
+      "split": [
+        "kum",
+        "mi",
+        "tus"
+      ]
+    },
+    {
+      "key": "giraffe",
+      "word": "kirahvi",
+      "split": [
+        "ki",
+        "rah",
+        "vi"
+      ]
+    },
+    {
+      "key": "girl",
+      "word": "tyttö",
+      "split": [
+        "tyt",
+        "tö"
+      ]
+    },
+    {
+      "key": "globe",
+      "word": "maapallo",
+      "split": [
+        "maa",
+        "pal",
+        "lo"
+      ]
+    },
+    {
+      "key": "gloves",
+      "word": "käsineet",
+      "split": [
+        "kä",
+        "si",
+        "neet"
+      ]
+    },
+    {
+      "key": "glue",
+      "word": "liima",
+      "split": [
+        "lii",
+        "ma"
+      ]
+    },
+    {
+      "key": "goat",
+      "word": "vuohi",
+      "split": [
+        "vuo",
+        "hi"
+      ]
+    },
+    {
+      "key": "goose",
+      "word": "hanhi",
+      "split": [
+        "han",
+        "hi"
+      ]
+    },
+    {
+      "key": "gorilla",
+      "word": "gorilla",
+      "split": [
+        "go",
+        "ril",
+        "la"
+      ]
+    },
+    {
+      "key": "grass",
+      "word": "ruoho",
+      "split": [
+        "ruo",
+        "ho"
+      ]
+    },
+    {
+      "key": "grater",
+      "word": "raastin",
+      "split": [
+        "raas",
+        "tin"
+      ]
+    },
+    {
+      "key": "grill",
+      "word": "grilli",
+      "split": [
+        "gril",
+        "li"
+      ],
+      "pictureTheme": "around the house"
+    },
+    {
+      "key": "guitar",
+      "word": "kitara",
+      "split": [
+        "ki",
+        "ta",
+        "ra"
+      ]
+    },
+    {
+      "key": "hair",
+      "word": "hiukset",
+      "split": [
+        "hiuk",
+        "set"
+      ]
+    },
+    {
+      "key": "ham",
+      "word": "kinkku",
+      "split": [
+        "kink",
+        "ku"
+      ]
+    },
+    {
+      "key": "hammer",
+      "word": "vasara",
+      "split": [
+        "va",
+        "sa",
+        "ra"
+      ]
+    },
+    {
+      "key": "hamster",
+      "word": "hamsteri",
+      "split": [
+        "hams",
+        "te",
+        "ri"
+      ]
+    },
+    {
+      "key": "harp",
+      "word": "harppu",
+      "split": [
+        "harp",
+        "pu"
+      ]
+    },
+    {
+      "key": "hat",
+      "word": "hattu",
+      "split": [
+        "hat",
+        "tu"
+      ]
+    },
+    {
+      "key": "hawk",
+      "word": "haukka",
+      "split": [
+        "hauk",
+        "ka"
+      ]
+    },
+    {
+      "key": "headband",
+      "word": "hiuspanta",
+      "split": [
+        "hius",
+        "pan",
+        "ta"
+      ]
+    },
+    {
+      "key": "heart",
+      "word": "sydän",
+      "split": [
+        "sy",
+        "dän"
+      ],
+      "pictureTheme": "shapes"
+    },
+    {
+      "key": "hedgehog",
+      "word": "siili",
+      "split": [
+        "sii",
+        "li"
+      ]
+    },
+    {
+      "key": "heron",
+      "word": "haikara",
+      "split": [
+        "hai",
+        "ka",
+        "ra"
+      ]
+    },
+    {
+      "key": "honey",
+      "word": "hunaja",
+      "split": [
+        "hu",
+        "na",
+        "ja"
+      ]
+    },
+    {
+      "key": "hoodie",
+      "word": "huppari",
+      "split": [
+        "hup",
+        "pa",
+        "ri"
+      ]
+    },
+    {
+      "key": "horse",
+      "word": "hevonen",
+      "split": [
+        "he",
+        "vo",
+        "nen"
+      ]
+    },
+    {
+      "key": "hose",
+      "word": "letku",
+      "split": [
+        "let",
+        "ku"
+      ]
+    },
+    {
+      "key": "icicle",
+      "word": "jääpuikko",
+      "split": [
+        "jää",
+        "puik",
+        "ko"
+      ]
+    },
+    {
+      "key": "island",
+      "word": "saari",
+      "split": [
+        "saa",
+        "ri"
+      ]
+    },
+    {
+      "key": "jacket",
+      "word": "takki",
+      "split": [
+        "tak",
+        "ki"
+      ]
+    },
+    {
+      "key": "jam",
+      "word": "hillo",
+      "split": [
+        "hil",
+        "lo"
+      ]
+    },
+    {
+      "key": "jar",
+      "word": "purkki",
+      "split": [
+        "purk",
+        "ki"
+      ]
+    },
+    {
+      "key": "jug",
+      "word": "kannu",
+      "split": [
+        "kan",
+        "nu"
+      ]
+    },
+    {
+      "key": "jumpsuit",
+      "word": "haalari",
+      "split": [
+        "haa",
+        "la",
+        "ri"
+      ]
+    },
+    {
+      "key": "kangaroo",
+      "word": "kenguru",
+      "split": [
+        "ken",
+        "gu",
+        "ru"
+      ]
+    },
+    {
+      "key": "kayak",
+      "word": "kajakki",
+      "split": [
+        "ka",
+        "jak",
+        "ki"
+      ]
+    },
+    {
+      "key": "kite",
+      "word": "leija",
+      "split": [
+        "lei",
+        "ja"
+      ]
+    },
+    {
+      "key": "kiwi",
+      "word": "kiivi",
+      "split": [
+        "kii",
+        "vi"
+      ]
+    },
+    {
+      "key": "knife",
+      "word": "veitsi",
+      "split": [
+        "veit",
+        "si"
+      ]
+    },
+    {
+      "key": "ladder",
+      "word": "tikkaat",
+      "split": [
+        "tik",
+        "kaat"
+      ]
+    },
+    {
+      "key": "ladle",
+      "word": "kauha",
+      "split": [
+        "kau",
+        "ha"
+      ]
+    },
+    {
+      "key": "lake",
+      "word": "järvi",
+      "split": [
+        "jär",
+        "vi"
+      ]
+    },
+    {
+      "key": "lamp",
+      "word": "lamppu",
+      "split": [
+        "lamp",
+        "pu"
+      ]
+    },
+    {
+      "key": "lantern",
+      "word": "lyhty",
+      "split": [
+        "lyh",
+        "ty"
+      ]
+    },
+    {
+      "key": "leaf",
+      "word": "lehti",
+      "split": [
+        "leh",
+        "ti"
+      ]
+    },
+    {
+      "key": "lemon",
+      "word": "sitruuna",
+      "split": [
+        "sit",
+        "ruu",
+        "na"
+      ],
+      "pictureTheme": "At the Supermarket"
+    },
+    {
+      "key": "letter",
+      "word": "kirje",
+      "split": [
+        "kir",
+        "je"
+      ]
+    },
+    {
+      "key": "lettuce",
+      "word": "salaatti",
+      "split": [
+        "sa",
+        "laat",
+        "ti"
+      ]
+    },
+    {
+      "key": "lighthouse",
+      "word": "majakka",
+      "split": [
+        "ma",
+        "jak",
+        "ka"
+      ]
+    },
+    {
+      "key": "lights",
+      "word": "valot",
+      "split": [
+        "va",
+        "lot"
+      ]
+    },
+    {
+      "key": "lion",
+      "word": "leijona",
+      "split": [
+        "lei",
+        "jo",
+        "na"
+      ]
+    },
+    {
+      "key": "lip",
+      "word": "huuli",
+      "split": [
+        "huu",
+        "li"
+      ]
+    },
+    {
+      "key": "lizard",
+      "word": "lisko",
+      "split": [
+        "lis",
+        "ko"
+      ]
+    },
+    {
+      "key": "llama",
+      "word": "laama",
+      "split": [
+        "laa",
+        "ma"
+      ]
+    },
+    {
+      "key": "lock",
+      "word": "lukko",
+      "split": [
+        "luk",
+        "ko"
+      ]
+    },
+    {
+      "key": "log",
+      "word": "halko",
+      "split": [
+        "hal",
+        "ko"
+      ]
+    },
+    {
+      "key": "lollipop",
+      "word": "tikkari",
+      "split": [
+        "tik",
+        "ka",
+        "ri"
+      ]
+    },
+    {
+      "key": "magpie",
+      "word": "harakka",
+      "split": [
+        "ha",
+        "rak",
+        "ka"
+      ]
+    },
+    {
+      "key": "mango",
+      "word": "mango",
+      "split": [
+        "man",
+        "go"
+      ]
+    },
+    {
+      "key": "map",
+      "word": "kartta",
+      "split": [
+        "kart",
+        "ta"
+      ]
+    },
+    {
+      "key": "marker",
+      "word": "tussi",
+      "split": [
+        "tus",
+        "si"
+      ]
+    },
+    {
+      "key": "medal",
+      "word": "mitali",
+      "split": [
+        "mi",
+        "ta",
+        "li"
+      ]
+    },
+    {
+      "key": "melon",
+      "word": "meloni",
+      "split": [
+        "me",
+        "lo",
+        "ni"
+      ]
+    },
+    {
+      "key": "milk",
+      "word": "maito",
+      "split": [
+        "mai",
+        "to"
+      ]
+    },
+    {
+      "key": "mirror",
+      "word": "peili",
+      "split": [
+        "pei",
+        "li"
+      ]
+    },
+    {
+      "key": "mittens",
+      "word": "lapaset",
+      "split": [
+        "la",
+        "pa",
+        "set"
+      ]
+    },
+    {
+      "key": "moose",
+      "word": "hirvi",
+      "split": [
+        "hir",
+        "vi"
+      ]
+    },
+    {
+      "key": "mop",
+      "word": "moppi",
+      "split": [
+        "mop",
+        "pi"
+      ]
+    },
+    {
+      "key": "mosquito",
+      "word": "hyttynen",
+      "split": [
+        "hyt",
+        "ty",
+        "nen"
+      ]
+    },
+    {
+      "key": "mountain",
+      "word": "vuori",
+      "split": [
+        "vuo",
+        "ri"
+      ]
+    },
+    {
+      "key": "mouse",
+      "word": "hiiri",
+      "split": [
+        "hii",
+        "ri"
+      ]
+    },
+    {
+      "key": "muffin",
+      "word": "muffini",
+      "split": [
+        "muf",
+        "fi",
+        "ni"
+      ]
+    },
+    {
+      "key": "mushroom",
+      "word": "sieni",
+      "split": [
+        "sie",
+        "ni"
+      ]
+    },
+    {
+      "key": "nail",
+      "word": "kynsi",
+      "split": [
+        "kyn",
+        "si"
+      ],
+      "pictureTheme": "body parts"
+    },
+    {
+      "key": "notebook",
+      "word": "vihko",
+      "split": [
+        "vih",
+        "ko"
+      ]
+    },
+    {
+      "key": "nut",
+      "word": "mutteri",
+      "split": [
+        "mut",
+        "te",
+        "ri"
+      ]
+    },
+    {
+      "key": "onion",
+      "word": "sipuli",
+      "split": [
+        "si",
+        "pu",
+        "li"
+      ]
+    },
+    {
+      "key": "ostrich",
+      "word": "strutsi",
+      "split": [
+        "strut",
+        "si"
+      ]
+    },
+    {
+      "key": "otter",
+      "word": "saukko",
+      "split": [
+        "sauk",
+        "ko"
+      ]
+    },
+    {
+      "key": "overalls",
+      "word": "haalarit",
+      "split": [
+        "haa",
+        "la",
+        "rit"
+      ]
+    },
+    {
+      "key": "owl",
+      "word": "pöllö",
+      "split": [
+        "pöl",
+        "lö"
+      ]
+    },
+    {
+      "key": "ox",
+      "word": "härkä",
+      "split": [
+        "här",
+        "kä"
+      ]
+    },
+    {
+      "key": "package",
+      "word": "paketti",
+      "split": [
+        "pa",
+        "ket",
+        "ti"
+      ]
+    },
+    {
+      "key": "pajamas",
+      "word": "pyjama",
+      "split": [
+        "py",
+        "ja",
+        "ma"
+      ]
+    },
+    {
+      "key": "pan",
+      "word": "pannu",
+      "split": [
+        "pan",
+        "nu"
+      ]
+    },
+    {
+      "key": "panda",
+      "word": "panda",
+      "split": [
+        "pan",
+        "da"
+      ]
+    },
+    {
+      "key": "paper",
+      "word": "paperi",
+      "split": [
+        "pa",
+        "pe",
+        "ri"
+      ]
+    },
+    {
+      "key": "peach",
+      "word": "persikka",
+      "split": [
+        "per",
+        "sik",
+        "ka"
+      ],
+      "pictureTheme": "colors"
+    },
+    {
+      "key": "pear",
+      "word": "päärynä",
+      "split": [
+        "pää",
+        "ry",
+        "nä"
+      ],
+      "pictureTheme": "At the Supermarket"
+    },
+    {
+      "key": "peas",
+      "word": "herneet",
+      "split": [
+        "her",
+        "neet"
+      ]
+    },
+    {
+      "key": "penguin",
+      "word": "pingviini",
+      "split": [
+        "ping",
+        "vii",
+        "ni"
+      ]
+    },
+    {
+      "key": "pie",
+      "word": "piirakka",
+      "split": [
+        "pii",
+        "rak",
+        "ka"
+      ]
+    },
+    {
+      "key": "pigeon",
+      "word": "kyyhkynen",
+      "split": [
+        "kyyh",
+        "ky",
+        "nen"
+      ]
+    },
+    {
+      "key": "pillow",
+      "word": "tyyny",
+      "split": [
+        "tyy",
+        "ny"
+      ]
+    },
+    {
+      "key": "pitcher",
+      "word": "kannu",
+      "split": [
+        "kan",
+        "nu"
+      ]
+    },
+    {
+      "key": "plate",
+      "word": "lautanen",
+      "split": [
+        "lau",
+        "ta",
+        "nen"
+      ]
+    },
+    {
+      "key": "popsicle",
+      "word": "mehujää",
+      "split": [
+        "me",
+        "hu",
+        "jää"
+      ]
+    },
+    {
+      "key": "porridge",
+      "word": "puuro",
+      "split": [
+        "puu",
+        "ro"
+      ]
+    },
+    {
+      "key": "pot",
+      "word": "kattila",
+      "split": [
+        "kat",
+        "ti",
+        "la"
+      ]
+    },
+    {
+      "key": "potato",
+      "word": "peruna",
+      "split": [
+        "pe",
+        "ru",
+        "na"
+      ]
+    },
+    {
+      "key": "present",
+      "word": "lahja",
+      "split": [
+        "lah",
+        "ja"
+      ]
+    },
+    {
+      "key": "pretzel",
+      "word": "rinkeli",
+      "split": [
+        "rin",
+        "ke",
+        "li"
+      ]
+    },
+    {
+      "key": "puddle",
+      "word": "lätäkkö",
+      "split": [
+        "lä",
+        "täk",
+        "kö"
+      ]
+    },
+    {
+      "key": "pumpkin",
+      "word": "kurpitsa",
+      "split": [
+        "kur",
+        "pit",
+        "sa"
+      ],
+      "pictureTheme": "At the Supermarket"
+    },
+    {
+      "key": "radish",
+      "word": "retiisi",
+      "split": [
+        "re",
+        "tii",
+        "si"
+      ]
+    },
+    {
+      "key": "rake",
+      "word": "harava",
+      "split": [
+        "ha",
+        "ra",
+        "va"
+      ]
+    },
+    {
+      "key": "raspberry",
+      "word": "vadelma",
+      "split": [
+        "va",
+        "del",
+        "ma"
+      ]
+    },
+    {
+      "key": "refrigerator",
+      "word": "jääkaappi",
+      "split": [
+        "jää",
+        "kaap",
+        "pi"
+      ]
+    },
+    {
+      "key": "ring",
+      "word": "sormus",
+      "split": [
+        "sor",
+        "mus"
+      ]
+    },
+    {
+      "key": "robot",
+      "word": "robotti",
+      "split": [
+        "ro",
+        "bot",
+        "ti"
+      ]
+    },
+    {
+      "key": "rocket",
+      "word": "raketti",
+      "split": [
+        "ra",
+        "ket",
+        "ti"
+      ]
+    },
+    {
+      "key": "rooster",
+      "word": "kukko",
+      "split": [
+        "kuk",
+        "ko"
+      ]
+    },
+    {
+      "key": "rope",
+      "word": "köysi",
+      "split": [
+        "köy",
+        "si"
+      ]
+    },
+    {
+      "key": "rug",
+      "word": "matto",
+      "split": [
+        "mat",
+        "to"
+      ]
+    },
+    {
+      "key": "ruler",
+      "word": "viivain",
+      "split": [
+        "vii",
+        "vain"
+      ]
+    },
+    {
+      "key": "sack",
+      "word": "säkki",
+      "split": [
+        "säk",
+        "ki"
+      ]
+    },
+    {
+      "key": "sand",
+      "word": "hiekka",
+      "split": [
+        "hiek",
+        "ka"
+      ]
+    },
+    {
+      "key": "sandals",
+      "word": "sandaalit",
+      "split": [
+        "san",
+        "daa",
+        "lit"
+      ]
+    },
+    {
+      "key": "saucepan",
+      "word": "kattila",
+      "split": [
+        "kat",
+        "ti",
+        "la"
+      ]
+    },
+    {
+      "key": "sausage",
+      "word": "makkara",
+      "split": [
+        "mak",
+        "ka",
+        "ra"
+      ]
+    },
+    {
+      "key": "scarf",
+      "word": "huivi",
+      "split": [
+        "hui",
+        "vi"
+      ]
+    },
+    {
+      "key": "scissors",
+      "word": "sakset",
+      "split": [
+        "sak",
+        "set"
+      ]
+    },
+    {
+      "key": "seagull",
+      "word": "lokki",
+      "split": [
+        "lok",
+        "ki"
+      ]
+    },
+    {
+      "key": "seal",
+      "word": "hylje",
+      "split": [
+        "hyl",
+        "je"
+      ]
+    },
+    {
+      "key": "seashell",
+      "word": "simpukka",
+      "split": [
+        "sim",
+        "puk",
+        "ka"
+      ]
+    },
+    {
+      "key": "sheep",
+      "word": "lammas",
+      "split": [
+        "lam",
+        "mas"
+      ]
+    },
+    {
+      "key": "shelf",
+      "word": "hylly",
+      "split": [
+        "hyl",
+        "ly"
+      ]
+    },
+    {
+      "key": "ship",
+      "word": "laiva",
+      "split": [
+        "lai",
+        "va"
+      ]
+    },
+    {
+      "key": "shirt",
+      "word": "paita",
+      "split": [
+        "pai",
+        "ta"
+      ]
+    },
+    {
+      "key": "shoe",
+      "word": "kenkä",
+      "split": [
+        "ken",
+        "kä"
+      ]
+    },
+    {
+      "key": "skeleton",
+      "word": "luuranko",
+      "split": [
+        "luu",
+        "ran",
+        "ko"
+      ]
+    },
+    {
+      "key": "sled",
+      "word": "kelkka",
+      "split": [
+        "kelk",
+        "ka"
+      ]
+    },
+    {
+      "key": "slippers",
+      "word": "tohvelit",
+      "split": [
+        "toh",
+        "ve",
+        "lit"
+      ]
+    },
+    {
+      "key": "sock",
+      "word": "sukka",
+      "split": [
+        "suk",
+        "ka"
+      ]
+    },
+    {
+      "key": "sofa",
+      "word": "sohva",
+      "split": [
+        "soh",
+        "va"
+      ]
+    },
+    {
+      "key": "sphere",
+      "word": "pallo",
+      "split": [
+        "pal",
+        "lo"
+      ]
+    },
+    {
+      "key": "sponge",
+      "word": "sieni",
+      "split": [
+        "sie",
+        "ni"
+      ]
+    },
+    {
+      "key": "stairs",
+      "word": "portaat",
+      "split": [
+        "por",
+        "taat"
+      ]
+    },
+    {
+      "key": "stapler",
+      "word": "nitoja",
+      "split": [
+        "ni",
+        "to",
+        "ja"
+      ]
+    },
+    {
+      "key": "star",
+      "word": "tähti",
+      "split": [
+        "täh",
+        "ti"
+      ]
+    },
+    {
+      "key": "stool",
+      "word": "jakkara",
+      "split": [
+        "jak",
+        "ka",
+        "ra"
+      ]
+    },
+    {
+      "key": "stork",
+      "word": "haikara",
+      "split": [
+        "hai",
+        "ka",
+        "ra"
+      ]
+    },
+    {
+      "key": "strawberry",
+      "word": "mansikka",
+      "split": [
+        "man",
+        "sik",
+        "ka"
+      ]
+    },
+    {
+      "key": "sun",
+      "word": "aurinko",
+      "split": [
+        "au",
+        "rin",
+        "ko"
+      ]
+    },
+    {
+      "key": "swan",
+      "word": "joutsen",
+      "split": [
+        "jout",
+        "sen"
+      ]
+    },
+    {
+      "key": "swing",
+      "word": "keinu",
+      "split": [
+        "kei",
+        "nu"
+      ]
+    },
+    {
+      "key": "table",
+      "word": "pöytä",
+      "split": [
+        "pöy",
+        "tä"
+      ]
+    },
+    {
+      "key": "tape",
+      "word": "teippi",
+      "split": [
+        "teip",
+        "pi"
+      ]
+    },
+    {
+      "key": "taxi",
+      "word": "taksi",
+      "split": [
+        "tak",
+        "si"
+      ]
+    },
+    {
+      "key": "teapot",
+      "word": "teekannu",
+      "split": [
+        "tee",
+        "kan",
+        "nu"
+      ]
+    },
+    {
+      "key": "telephone",
+      "word": "puhelin",
+      "split": [
+        "pu",
+        "he",
+        "lin"
+      ]
+    },
+    {
+      "key": "tent",
+      "word": "teltta",
+      "split": [
+        "telt",
+        "ta"
+      ]
+    },
+    {
+      "key": "thumb",
+      "word": "peukalo",
+      "split": [
+        "peu",
+        "ka",
+        "lo"
+      ]
+    },
+    {
+      "key": "tiger",
+      "word": "tiikeri",
+      "split": [
+        "tii",
+        "ke",
+        "ri"
+      ]
+    },
+    {
+      "key": "tomato",
+      "word": "tomaatti",
+      "split": [
+        "to",
+        "maat",
+        "ti"
+      ]
+    },
+    {
+      "key": "tooth",
+      "word": "hammas",
+      "split": [
+        "ham",
+        "mas"
+      ]
+    },
+    {
+      "key": "toucan",
+      "word": "tukaani",
+      "split": [
+        "tu",
+        "kaa",
+        "ni"
+      ]
+    },
+    {
+      "key": "tractor",
+      "word": "traktori",
+      "split": [
+        "trak",
+        "to",
+        "ri"
+      ]
+    },
+    {
+      "key": "trumpet",
+      "word": "trumpetti",
+      "split": [
+        "trum",
+        "pet",
+        "ti"
+      ]
+    },
+    {
+      "key": "tulip",
+      "word": "tulppaani",
+      "split": [
+        "tulp",
+        "paa",
+        "ni"
+      ]
+    },
+    {
+      "key": "turkey",
+      "word": "kalkkuna",
+      "split": [
+        "kalk",
+        "ku",
+        "na"
+      ]
+    },
+    {
+      "key": "turnip",
+      "word": "nauris",
+      "split": [
+        "nau",
+        "ris"
+      ]
+    },
+    {
+      "key": "vase",
+      "word": "maljakko",
+      "split": [
+        "mal",
+        "jak",
+        "ko"
+      ]
+    },
+    {
+      "key": "vest",
+      "word": "liivi",
+      "split": [
+        "lii",
+        "vi"
+      ]
+    },
+    {
+      "key": "violin",
+      "word": "viulu",
+      "split": [
+        "viu",
+        "lu"
+      ]
+    },
+    {
+      "key": "waffle",
+      "word": "vohveli",
+      "split": [
+        "voh",
+        "ve",
+        "li"
+      ]
+    },
+    {
+      "key": "wallet",
+      "word": "lompakko",
+      "split": [
+        "lom",
+        "pak",
+        "ko"
+      ]
+    },
+    {
+      "key": "walrus",
+      "word": "mursu",
+      "split": [
+        "mur",
+        "su"
+      ]
+    },
+    {
+      "key": "wave",
+      "word": "aalto",
+      "split": [
+        "aal",
+        "to"
+      ]
+    },
+    {
+      "key": "whale",
+      "word": "valas",
+      "split": [
+        "va",
+        "las"
+      ]
+    },
+    {
+      "key": "whisk",
+      "word": "vispilä",
+      "split": [
+        "vis",
+        "pi",
+        "lä"
+      ]
+    },
+    {
+      "key": "whistle",
+      "word": "pilli",
+      "split": [
+        "pil",
+        "li"
+      ]
+    },
+    {
+      "key": "window",
+      "word": "ikkuna",
+      "split": [
+        "ik",
+        "ku",
+        "na"
+      ]
+    },
+    {
+      "key": "woodpecker",
+      "word": "tikka",
+      "split": [
+        "tik",
+        "ka"
+      ]
+    },
+    {
+      "key": "wreath",
+      "word": "seppele",
+      "split": [
+        "sep",
+        "pe",
+        "le"
+      ]
+    }
+  ],
+  "ban": [
+    "actor",
+    "allosaurus",
+    "angelfish",
+    "angry",
+    "ankylosaurus",
+    "antelope",
+    "apatosaurus",
+    "apricot",
+    "architect",
+    "argentinosaurus",
+    "artist",
+    "asteroid",
+    "astronaut",
+    "athlete",
+    "author",
+    "autumn",
+    "badge",
+    "baker",
+    "baking",
+    "ballerina",
+    "bandage",
+    "barber",
+    "barrette",
+    "baseball",
+    "beige",
+    "black",
+    "blouse",
+    "blue",
+    "bored",
+    "brontosaurus",
+    "brownie",
+    "brush",
+    "bud",
+    "buttercup",
+    "cabana",
+    "camping",
+    "capricious",
+    "carnation",
+    "carnotaurus",
+    "carpenter",
+    "cashier",
+    "chess",
+    "chimney",
+    "chinchilla",
+    "clementine",
+    "cloudy",
+    "clover",
+    "coach",
+    "cold",
+    "columbine",
+    "comet",
+    "confused",
+    "content",
+    "cooler",
+    "coral",
+    "cornflower",
+    "cranberry",
+    "crayon",
+    "crayons",
+    "crimson",
+    "crocus",
+    "croissant",
+    "cupcake",
+    "cylinder",
+    "dancing",
+    "dandelion",
+    "deinonychus",
+    "delivery",
+    "detective",
+    "dimetrodon",
+    "dinosaur",
+    "diplodocus",
+    "disgusted",
+    "driftwood",
+    "dryer",
+    "earmuffs",
+    "earth",
+    "earthworm",
+    "eclair",
+    "elbow",
+    "envelope",
+    "excited",
+    "eyebrow",
+    "eyelashes",
+    "farmer",
+    "ferret",
+    "ferry",
+    "fig",
+    "finch",
+    "firefly",
+    "fishing",
+    "flip-flops",
+    "forehead",
+    "forget-me-not",
+    "forsythia",
+    "frisbee",
+    "galaxy",
+    "garden",
+    "gardener",
+    "garland",
+    "gazelle",
+    "gerbil",
+    "giganotosaurus",
+    "glove",
+    "goggles",
+    "gopher",
+    "grapefruit",
+    "gray",
+    "gymnastics",
+    "halloween",
+    "handbag",
+    "handsaw",
+    "happy",
+    "harvest",
+    "haystack",
+    "heater",
+    "heel",
+    "hibiscus",
+    "hiking",
+    "hockey",
+    "hornbill",
+    "hot",
+    "hummingbird",
+    "ice",
+    "janitor",
+    "jasmine",
+    "jeans",
+    "jeep",
+    "judge",
+    "jumping",
+    "jupiter",
+    "keyboard",
+    "kingfisher",
+    "knee",
+    "knitting",
+    "lamb",
+    "lavender",
+    "leek",
+    "leg",
+    "leggings",
+    "lego",
+    "lemonade",
+    "lemur",
+    "liberty",
+    "librarian",
+    "lid",
+    "lifeguard",
+    "lilac",
+    "lily",
+    "lotus",
+    "lunchbox",
+    "macaron",
+    "macaw",
+    "manatee",
+    "marigold",
+    "mars",
+    "mechanic",
+    "medicine",
+    "meerkat",
+    "mercury",
+    "milkshake",
+    "millipede",
+    "mistletoe",
+    "mitten",
+    "mixer",
+    "mosasaurus",
+    "muscles",
+    "musician",
+    "narwhal",
+    "nativity",
+    "neck",
+    "nectarine",
+    "neptune",
+    "net",
+    "nightstand",
+    "nurse",
+    "nutcracker",
+    "oatmeal",
+    "oil",
+    "orangutan",
+    "orca",
+    "orchard",
+    "ottoman",
+    "oviraptor",
+    "oyster",
+    "pachycephalosaurus",
+    "painting",
+    "papaya",
+    "parallelogram",
+    "paramedic",
+    "parasaurolophus",
+    "pasta",
+    "peeler",
+    "pegasus",
+    "pelican",
+    "pencil",
+    "persimmon",
+    "pharmacist",
+    "phlox",
+    "photographer",
+    "photography",
+    "picnic",
+    "pilot",
+    "pizza",
+    "planet",
+    "pliers",
+    "plum",
+    "plunger",
+    "popcorn",
+    "porcupine",
+    "pottery",
+    "pretzels",
+    "pudding",
+    "pufferfish",
+    "puffin",
+    "purse",
+    "pyramid",
+    "raindrop",
+    "rainy",
+    "ray",
+    "reading",
+    "red",
+    "ribbon",
+    "rice",
+    "robin",
+    "rudolph",
+    "running",
+    "sad",
+    "salamander",
+    "salt",
+    "satellite",
+    "saturn",
+    "sauce",
+    "saxophone",
+    "scale",
+    "scallop",
+    "scarecrow",
+    "scared",
+    "scarlet",
+    "science",
+    "scooter",
+    "seaweed",
+    "sewing",
+    "shampoo",
+    "shorts",
+    "shoulder",
+    "shrimp",
+    "shy",
+    "singer",
+    "singing",
+    "skating",
+    "skiing",
+    "sledding",
+    "smoothie",
+    "snorkel",
+    "snowboarding",
+    "snowdrop",
+    "snowsuit",
+    "soccer",
+    "soda",
+    "sparrow",
+    "spatula",
+    "spinach",
+    "squash",
+    "squid",
+    "stage",
+    "stamp",
+    "statue",
+    "stegosaurus",
+    "stethoscope",
+    "stocking",
+    "stormy",
+    "stove",
+    "stretcher",
+    "student",
+    "styracosaurus",
+    "subway",
+    "sunny",
+    "sunscreen",
+    "surfboard",
+    "surprised",
+    "suspenders",
+    "swallow",
+    "sweater",
+    "sweatpants",
+    "sweatshirt",
+    "swimming",
+    "syringe",
+    "tablet",
+    "tailor",
+    "tart",
+    "teacher",
+    "telescope",
+    "tennis",
+    "therizinosaurus",
+    "thunderstorm",
+    "tights",
+    "timer",
+    "tired",
+    "toad",
+    "toast",
+    "toe",
+    "toilet",
+    "tongs",
+    "tongue",
+    "trail",
+    "tree",
+    "triceratops",
+    "trillium",
+    "trombone",
+    "tuna",
+    "turquoise",
+    "underpants",
+    "uniform",
+    "uranus",
+    "us",
+    "velociraptor",
+    "venus",
+    "veterinarian",
+    "vulture",
+    "waitress",
+    "water",
+    "weasel",
+    "white",
+    "whiteboard",
+    "wisteria",
+    "wrist",
+    "writing",
+    "x-ray",
+    "xylophone",
+    "yacht",
+    "yellow"
+  ],
+  "whitelist": {},
+  "refuse": {
+    "finalMuteE": false
+  },
+  "sepMode": "hyphen",
+  "strings": {
+    "G1-306": {
+      "title": "Tavutaulukko: lue tavut ja kirjoita",
+      "instruction": "Lue taulukon tavut ääneen rivi kerrallaan. Sano kuvan sana, etsi sen ensimmäinen tavu taulukosta ja kirjoita se viivalle."
+    },
+    "G1-330": {
+      "title": "Tavutaulukko: lue ja ympyröi tavu",
+      "instruction": "Lue taulukon tavut ääneen. Sano kuvan sana ja ympyröi kuvan alta se tavu, jolla sana alkaa."
+    },
+    "G1-331": {
+      "title": "Yhdistä tavut sanaksi",
+      "instruction": "Lue kortin kaksi tavua järjestyksessä. Sano ne yhteen ja kirjoita koko sana viivalle."
+    },
+    "G1-332": {
+      "title": "Tavutaulukko: lue ja väritä",
+      "instruction": "Lue kaikki taulukon tavut ääneen. Etsi sitten jokaisen kuvan ensimmäinen tavu taulukosta ja väritä se kuvan värillä."
+    },
+    "G1-333": {
+      "title": "Umpitavut: lue ja kirjoita",
+      "instruction": "Lue umpitavut ääneen: ne päättyvät konsonanttiin. Sano kuvan sana ja kirjoita sen ensimmäinen tavu viivalle."
+    },
+    "G1-334": {
+      "title": "Lue tavutetut sanat, etsi kuva",
+      "instruction": "Lue jokainen sana tavu kerrallaan. Etsi sen kuva ylhäältä ja kirjoita kuvan numero ruutuun."
+    }
+  }
+}

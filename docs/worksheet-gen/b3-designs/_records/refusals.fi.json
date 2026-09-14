@@ -1,0 +1,7 @@
+{
+  "locale": "fi",
+  "refusals": {
+    "K-348": "fi: suomessa ei ole artikkeleita, joten artikkelikortit (a/an, der/die/das) eivät ole suomen kielen opetuspiste — kuvakorttien F3 hylätään (articleStyle.enabled:false)",
+    "G2-329": "fi: yhdyssanan osien väliin ei tule sidosainesta; alkuosan -n on genetiivin sijapääte, joka tuo mukanaan astevaihtelun (aurinko → auringon), joten \"kirjoita väliin tuleva kirjain\" ei ole suomessa mielekäs eikä laatikkoon kirjoitettava päätös — F1 hylätään (links = [''], refuse.F1)"
+  }
+}

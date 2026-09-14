@@ -1,0 +1,72 @@
+{
+  "names": {
+    "winter": "talvi",
+    "spring": "kevät",
+    "summer": "kesä",
+    "autumn": "syksy"
+  },
+  "alt": {},
+  "model": "temperate-north",
+  "cycleStart": "winter",
+  "cycle": [
+    "winter",
+    "spring",
+    "summer",
+    "autumn"
+  ],
+  "monthSeason": [
+    "winter",
+    "winter",
+    "spring",
+    "spring",
+    "spring",
+    "summer",
+    "summer",
+    "summer",
+    "autumn",
+    "autumn",
+    "autumn",
+    "winter"
+  ],
+  "veto": [],
+  "override": {},
+  "legend": {
+    "winter": "codeBlue",
+    "spring": "codeGreen",
+    "summer": "codeYellow",
+    "autumn": "codeOrange"
+  },
+  "faces": {
+    "tree": {
+      "figure": "tree",
+      "captions": null
+    }
+  },
+  "strings": {
+    "K-322": {
+      "title": "Neljä vuodenaikaa: lajittele kuvat",
+      "instruction": "Piirrä viiva jokaisen kuvan pisteestä siihen vuodenajan laatikkoon, johon kuva kuuluu."
+    },
+    "K-338": {
+      "title": "Mikä vuodenaika on?",
+      "instruction": "Katso kortin kolmea kuvaa ja ympyröi vuodenajan merkki, johon ne kuuluvat."
+    },
+    "K-339": {
+      "title": "Vuodenaikakello: vuodenajat järjestyksessä",
+      "instruction": "Yksi vuodenaika on jo kellossa. Piirrä kolme muuta merkkiä tyhjiin ympyröihin oikeassa järjestyksessä."
+    },
+    "K-340": {
+      "title": "Vuodenajat: mikä ei kuulu joukkoon?",
+      "instruction": "Yliviivaa jokaiselta riviltä se yksi kuva, joka kuuluu eri vuodenaikaan."
+    },
+    "G1-323": {
+      "title": "Kuukaudet ja vuodenajat: väritä vuodenaika",
+      "instruction": "Väritä jokaisen kuukauden vieressä oleva ympyrä sen vuodenajan värillä."
+    },
+    "K-341": {
+      "title": "Piirrä puu neljänä vuodenaikana",
+      "instruction": "Piirrä, miltä puu näyttää jokaisena neljänä vuodenaikana."
+    }
+  },
+  "strand": "Ympäristöoppi: sää ja vuodenajat"
+}

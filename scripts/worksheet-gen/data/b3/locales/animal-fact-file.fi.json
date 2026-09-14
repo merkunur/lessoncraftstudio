@@ -1,0 +1,604 @@
+{
+  "labels": {
+    "class": "Eläinryhmä",
+    "habitat": "Missä se elää",
+    "diet": "Mitä se syö",
+    "legs": "Jalat",
+    "covering": "Kehon peite",
+    "fly": "Osaako se lentää?",
+    "swim": "Osaako se uida?",
+    "special": "Erityistä:"
+  },
+  "eyebrow": "Nimi:",
+  "drawLabel": "Piirrä, missä se elää.",
+  "sentence": "Lause eläimestä:",
+  "factStarter": "{nom} osaa",
+  "options": {
+    "class": {
+      "mammal": {
+        "cell": "nisäkäs",
+        "inFrame": "nisäkäs"
+      },
+      "bird": {
+        "cell": "lintu",
+        "inFrame": "lintu"
+      },
+      "reptile": {
+        "cell": "matelija",
+        "inFrame": "matelija"
+      },
+      "fish": {
+        "cell": "kala",
+        "inFrame": "kala"
+      },
+      "insect": {
+        "cell": "hyönteinen",
+        "inFrame": "hyönteinen"
+      }
+    },
+    "covering": {
+      "fur": {
+        "cell": "turkki",
+        "inFrame": "turkki"
+      },
+      "feathers": {
+        "cell": "höyhenet",
+        "inFrame": "höyhenet"
+      },
+      "scales": {
+        "cell": "suomut",
+        "inFrame": "suomut"
+      },
+      "shell": {
+        "cell": "kuori",
+        "inFrame": "kuori"
+      },
+      "spines": {
+        "cell": "piikit",
+        "inFrame": "piikit"
+      },
+      "skin": {
+        "cell": "sileä iho",
+        "inFrame": "sileä iho"
+      }
+    },
+    "diet": {
+      "plants": {
+        "cell": "kasveja",
+        "inFrame": "kasveja"
+      },
+      "meat": {
+        "cell": "lihaa",
+        "inFrame": "lihaa"
+      },
+      "both": {
+        "cell": "molempia",
+        "inFrame": "kasveja ja lihaa"
+      }
+    },
+    "habitat": {
+      "land": {
+        "cell": "maalla",
+        "inFrame": "maalla"
+      },
+      "water": {
+        "cell": "vedessä",
+        "inFrame": "vedessä"
+      },
+      "air": {
+        "cell": "ilmassa",
+        "inFrame": "ilmassa"
+      }
+    }
+  },
+  "yesno": {
+    "yes": "kyllä",
+    "no": "ei"
+  },
+  "legsFrames": {
+    "0": "Minulla ei ole jalkoja.",
+    "2": "Minulla on 2 jalkaa.",
+    "4": "Minulla on 4 jalkaa.",
+    "6": "Minulla on 6 jalkaa.",
+    "8": "Minulla on 8 jalkaa."
+  },
+  "animals": {
+    "cat": {
+      "name": "Kissa",
+      "title": "Kissa",
+      "def": null,
+      "nom": "Kissa",
+      "ade": "Kissalla",
+      "reviewed": true
+    },
+    "dog": {
+      "name": "Koira",
+      "title": "Koira",
+      "def": null,
+      "nom": "Koira",
+      "ade": "Koiralla",
+      "reviewed": true
+    },
+    "horse": {
+      "name": "Hevonen",
+      "title": "Hevonen",
+      "def": null,
+      "nom": "Hevonen",
+      "ade": "Hevosella",
+      "reviewed": true
+    },
+    "rabbit": {
+      "name": "Kani",
+      "title": "Kani",
+      "def": null,
+      "nom": "Kani",
+      "ade": "Kanilla",
+      "reviewed": true
+    },
+    "cow": {
+      "name": "Lehmä",
+      "title": "Lehmä",
+      "def": null,
+      "nom": "Lehmä",
+      "ade": "Lehmällä",
+      "reviewed": true
+    },
+    "pig": {
+      "name": "Sika",
+      "title": "Sika",
+      "def": null,
+      "nom": "Sika",
+      "ade": "Sialla",
+      "reviewed": true
+    },
+    "sheep": {
+      "name": "Lammas",
+      "title": "Lammas",
+      "def": null,
+      "nom": "Lammas",
+      "ade": "Lampaalla",
+      "reviewed": true
+    },
+    "goat": {
+      "name": "Vuohi",
+      "title": "Vuohi",
+      "def": null,
+      "nom": "Vuohi",
+      "ade": "Vuohella",
+      "reviewed": true
+    },
+    "donkey": {
+      "name": "Aasi",
+      "title": "Aasi",
+      "def": null,
+      "nom": "Aasi",
+      "ade": "Aasilla",
+      "reviewed": true
+    },
+    "duck": {
+      "name": "Ankka",
+      "title": "Ankka",
+      "def": null,
+      "nom": "Ankka",
+      "ade": "Ankalla",
+      "reviewed": true
+    },
+    "hen": {
+      "name": "Kana",
+      "title": "Kana",
+      "def": null,
+      "nom": "Kana",
+      "ade": "Kanalla",
+      "reviewed": true
+    },
+    "rooster": {
+      "name": "Kukko",
+      "title": "Kukko",
+      "def": null,
+      "nom": "Kukko",
+      "ade": "Kukolla",
+      "reviewed": true
+    },
+    "goose": {
+      "name": "Hanhi",
+      "title": "Hanhi",
+      "def": null,
+      "nom": "Hanhi",
+      "ade": "Hanhella",
+      "reviewed": true
+    },
+    "fox": {
+      "name": "Kettu",
+      "title": "Kettu",
+      "def": null,
+      "nom": "Kettu",
+      "ade": "Ketulla",
+      "reviewed": true
+    },
+    "hedgehog": {
+      "name": "Siili",
+      "title": "Siili",
+      "def": null,
+      "nom": "Siili",
+      "ade": "Siilillä",
+      "reviewed": true
+    },
+    "owl": {
+      "name": "Pöllö",
+      "title": "Pöllö",
+      "def": null,
+      "nom": "Pöllö",
+      "ade": "Pöllöllä",
+      "reviewed": true
+    },
+    "squirrel": {
+      "name": "Orava",
+      "title": "Orava",
+      "def": null,
+      "nom": "Orava",
+      "ade": "Oravalla",
+      "reviewed": true
+    },
+    "deer": {
+      "name": "Peura",
+      "title": "Peura",
+      "def": null,
+      "nom": "Peura",
+      "ade": "Peuralla",
+      "reviewed": true
+    },
+    "bear": {
+      "name": "Karhu",
+      "title": "Karhu",
+      "def": null,
+      "nom": "Karhu",
+      "ade": "Karhulla",
+      "reviewed": true
+    },
+    "wolf": {
+      "name": "Susi",
+      "title": "Susi",
+      "def": null,
+      "nom": "Susi",
+      "ade": "Sudella",
+      "reviewed": true
+    },
+    "bat": {
+      "name": "Lepakko",
+      "title": "Lepakko",
+      "def": null,
+      "nom": "Lepakko",
+      "ade": "Lepakolla",
+      "reviewed": true
+    },
+    "beaver": {
+      "name": "Majava",
+      "title": "Majava",
+      "def": null,
+      "nom": "Majava",
+      "ade": "Majavalla",
+      "reviewed": true
+    },
+    "moose": {
+      "name": "Hirvi",
+      "title": "Hirvi",
+      "def": null,
+      "nom": "Hirvi",
+      "ade": "Hirvellä",
+      "reviewed": true
+    },
+    "raccoon": {
+      "name": "Pesukarhu",
+      "title": "Pesukarhu",
+      "def": null,
+      "nom": "Pesukarhu",
+      "ade": "Pesukarhulla",
+      "reviewed": true
+    },
+    "butterfly": {
+      "name": "Perhonen",
+      "title": "Perhonen",
+      "def": null,
+      "nom": "Perhonen",
+      "ade": "Perhosella",
+      "reviewed": true
+    },
+    "bee": {
+      "name": "Mehiläinen",
+      "title": "Mehiläinen",
+      "def": null,
+      "nom": "Mehiläinen",
+      "ade": "Mehiläisellä",
+      "reviewed": true
+    },
+    "ladybug": {
+      "name": "Leppäkerttu",
+      "title": "Leppäkerttu",
+      "def": null,
+      "nom": "Leppäkerttu",
+      "ade": "Leppäkertulla",
+      "reviewed": true
+    },
+    "ant": {
+      "name": "Muurahainen",
+      "title": "Muurahainen",
+      "def": null,
+      "nom": "Muurahainen",
+      "ade": "Muurahaisella",
+      "reviewed": true
+    },
+    "lion": {
+      "name": "Leijona",
+      "title": "Leijona",
+      "def": null,
+      "nom": "Leijona",
+      "ade": "Leijonalla",
+      "reviewed": true
+    },
+    "tiger": {
+      "name": "Tiikeri",
+      "title": "Tiikeri",
+      "def": null,
+      "nom": "Tiikeri",
+      "ade": "Tiikerillä",
+      "reviewed": true
+    },
+    "elephant": {
+      "name": "Norsu",
+      "title": "Norsu",
+      "def": null,
+      "nom": "Norsu",
+      "ade": "Norsulla",
+      "reviewed": true
+    },
+    "giraffe": {
+      "name": "Kirahvi",
+      "title": "Kirahvi",
+      "def": null,
+      "nom": "Kirahvi",
+      "ade": "Kirahvilla",
+      "reviewed": true
+    },
+    "zebra": {
+      "name": "Seepra",
+      "title": "Seepra",
+      "def": null,
+      "nom": "Seepra",
+      "ade": "Seepralla",
+      "reviewed": true
+    },
+    "monkey": {
+      "name": "Apina",
+      "title": "Apina",
+      "def": null,
+      "nom": "Apina",
+      "ade": "Apinalla",
+      "reviewed": true
+    },
+    "kangaroo": {
+      "name": "Kenguru",
+      "title": "Kenguru",
+      "def": null,
+      "nom": "Kenguru",
+      "ade": "Kengurulla",
+      "reviewed": true
+    },
+    "camel": {
+      "name": "Kameli",
+      "title": "Kameli",
+      "def": null,
+      "nom": "Kameli",
+      "ade": "Kamelilla",
+      "reviewed": true
+    },
+    "hippopotamus": {
+      "name": "Virtahepo",
+      "title": "Virtahepo",
+      "def": null,
+      "nom": "Virtahepo",
+      "ade": "Virtahevolla",
+      "reviewed": true
+    },
+    "panda": {
+      "name": "Panda",
+      "title": "Panda",
+      "def": null,
+      "nom": "Panda",
+      "ade": "Pandalla",
+      "reviewed": true
+    },
+    "koala": {
+      "name": "Koala",
+      "title": "Koala",
+      "def": null,
+      "nom": "Koala",
+      "ade": "Koalalla",
+      "reviewed": true
+    },
+    "penguin": {
+      "name": "Pingviini",
+      "title": "Pingviini",
+      "def": null,
+      "nom": "Pingviini",
+      "ade": "Pingviinillä",
+      "reviewed": true
+    },
+    "eagle": {
+      "name": "Kotka",
+      "title": "Kotka",
+      "def": null,
+      "nom": "Kotka",
+      "ade": "Kotkalla",
+      "reviewed": true
+    },
+    "parrot": {
+      "name": "Papukaija",
+      "title": "Papukaija",
+      "def": null,
+      "nom": "Papukaija",
+      "ade": "Papukaijalla",
+      "reviewed": true
+    },
+    "flamingo": {
+      "name": "Flamingo",
+      "title": "Flamingo",
+      "def": null,
+      "nom": "Flamingo",
+      "ade": "Flamingolla",
+      "reviewed": true
+    },
+    "ostrich": {
+      "name": "Strutsi",
+      "title": "Strutsi",
+      "def": null,
+      "nom": "Strutsi",
+      "ade": "Strutsilla",
+      "reviewed": true
+    },
+    "swan": {
+      "name": "Joutsen",
+      "title": "Joutsen",
+      "def": null,
+      "nom": "Joutsen",
+      "ade": "Joutsenella",
+      "reviewed": true
+    },
+    "tortoise": {
+      "name": "Kilpikonna",
+      "title": "Kilpikonna",
+      "def": null,
+      "nom": "Kilpikonna",
+      "ade": "Kilpikonnalla",
+      "reviewed": true
+    },
+    "lizard": {
+      "name": "Lisko",
+      "title": "Lisko",
+      "def": null,
+      "nom": "Lisko",
+      "ade": "Liskolla",
+      "reviewed": true
+    },
+    "turtle": {
+      "name": "Kilpikonna",
+      "title": "Kilpikonna",
+      "def": null,
+      "nom": "Kilpikonna",
+      "ade": "Kilpikonnalla",
+      "reviewed": true
+    },
+    "fish": {
+      "name": "Kala",
+      "title": "Kala",
+      "def": null,
+      "nom": "Kala",
+      "ade": "Kalalla",
+      "reviewed": true
+    },
+    "goldfish": {
+      "name": "Kultakala",
+      "title": "Kultakala",
+      "def": null,
+      "nom": "Kultakala",
+      "ade": "Kultakalalla",
+      "reviewed": true
+    },
+    "shark": {
+      "name": "Hai",
+      "title": "Hai",
+      "def": null,
+      "nom": "Hai",
+      "ade": "Hailla",
+      "reviewed": true
+    },
+    "hamster": {
+      "name": "Hamsteri",
+      "title": "Hamsteri",
+      "def": null,
+      "nom": "Hamsteri",
+      "ade": "Hamsterilla",
+      "reviewed": true
+    },
+    "mouse": {
+      "name": "Hiiri",
+      "title": "Hiiri",
+      "def": null,
+      "nom": "Hiiri",
+      "ade": "Hiirellä",
+      "reviewed": true
+    },
+    "frog": {
+      "name": "Sammakko",
+      "title": "Sammakko",
+      "def": null,
+      "nom": "Sammakko",
+      "ade": "Sammakolla",
+      "reviewed": true
+    }
+  },
+  "frames": [
+    {
+      "field": "class",
+      "text": "{nom} on"
+    },
+    {
+      "field": "covering",
+      "text": "{ade} on"
+    },
+    {
+      "field": "diet",
+      "text": "{nom} syö"
+    }
+  ],
+  "frameCaption": "Kirjoita kolme lausetta eläimestä:",
+  "sameDiff": {
+    "same": "samaa",
+    "diff": "erilaista",
+    "laneSame": "Samaa:",
+    "laneDiff": "Erilaista:",
+    "caption": "Kirjoita, mikä on samaa ja mikä erilaista:"
+  },
+  "mystery": {
+    "class": "Olen {inFrame}.",
+    "covering": "Minulla on {inFrame}.",
+    "diet": "Syön {inFrame}.",
+    "habitat": "Elän {inFrame}.",
+    "fly": {
+      "true": "Osaan lentää.",
+      "false": "En osaa lentää."
+    },
+    "swim": {
+      "true": "Osaan uida.",
+      "false": "En osaa uida."
+    },
+    "prompt": "Kuka minä olen?"
+  },
+  "allowCompound": [],
+  "blankTitle": "Tyhjä pohja",
+  "strings": {
+    "G2-318": {
+      "title": "Eläinkortti: {U}",
+      "instruction": "Ota selvää eläimestä. Kirjoita eläinkortin jokaiselle riville yksi tieto ja täytä sitten sivun loppu omalla piirroksella tai omilla sanoilla."
+    },
+    "G2-339": {
+      "title": "{U}: rastita oikeat tiedot",
+      "instruction": "Lue jokaisen rivin vaihtoehdot ja ympyröi se, joka pitää paikkansa tästä eläimestä. Piirrä sitten, missä se elää, ja täydennä lause."
+    },
+    "G2-340": {
+      "title": "{U}: eläinkortti sanapankin avulla",
+      "instruction": "Etsi sanapankista jokainen oikea tieto ja kirjoita se eläinkortin oikealle riville. Täydennä lopuksi lause sivun alalaidassa."
+    },
+    "G2-341": {
+      "title": "{U}: kirjoita kolme lausetta",
+      "instruction": "Lue eläinkortti. Täydennä kolme lausetta kortin tiedoilla ja kirjoita sitten viimeiselle riville yksi oma tieto."
+    },
+    "G2-342": {
+      "title": "Vertaile kahta eläintä: samaa vai erilaista?",
+      "instruction": "Lue molemmat eläinkortit. Ympyröi jokaisen tiedon kohdalla samaa tai erilaista. Kirjoita sitten kaksi samaa ja kaksi erilaista asiaa."
+    },
+    "G2-343": {
+      "title": "Kuka minä olen? Arvaa eläin",
+      "instruction": "Lue kortin viisi vihjettä. Etsi eläin kuvapankista, kirjoita sen nimi viivalle ja piirrä se laatikkoon."
+    }
+  }
+}

@@ -1,0 +1,941 @@
+{
+  "head": "Verbin persoonamuodot",
+  "mode": "persons",
+  "band": "G3",
+  "exemplar": "preesens",
+  "columns": [
+    {
+      "key": "minä",
+      "label": "minä"
+    },
+    {
+      "key": "sinä",
+      "label": "sinä"
+    },
+    {
+      "key": "hän",
+      "label": "hän"
+    },
+    {
+      "key": "me",
+      "label": "me"
+    },
+    {
+      "key": "te",
+      "label": "te"
+    },
+    {
+      "key": "he",
+      "label": "he"
+    }
+  ],
+  "units": [
+    {
+      "key": "preesens",
+      "kind": "tense",
+      "label": "preesens",
+      "band": "G3"
+    }
+  ],
+  "poolMap": {
+    "regular": "noGradation",
+    "all": "all"
+  },
+  "matchPersons": [
+    "minä",
+    "sinä",
+    "hän",
+    "me",
+    "te",
+    "he"
+  ],
+  "verbs": [
+    {
+      "inf": "tanssia",
+      "group": "säännöllinen",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "dancing"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "preesens": {
+          "minä": "tanssin",
+          "sinä": "tanssit",
+          "hän": "tanssii",
+          "me": "tanssimme",
+          "te": "tanssitte",
+          "he": "tanssivat"
+        }
+      }
+    },
+    {
+      "inf": "laulaa",
+      "group": "säännöllinen",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "occupations",
+        "noun": "singer"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "preesens": {
+          "minä": "laulan",
+          "sinä": "laulat",
+          "hän": "laulaa",
+          "me": "laulamme",
+          "te": "laulatte",
+          "he": "laulavat"
+        }
+      }
+    },
+    {
+      "inf": "maalata",
+      "group": "säännöllinen",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": {
+        "theme": "occupations",
+        "noun": "artist"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "preesens": {
+          "minä": "maalaan",
+          "sinä": "maalaat",
+          "hän": "maalaa",
+          "me": "maalaamme",
+          "te": "maalaatte",
+          "he": "maalaavat"
+        }
+      }
+    },
+    {
+      "inf": "kävellä",
+      "group": "säännöllinen",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "hiking"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "preesens": {
+          "minä": "kävelen",
+          "sinä": "kävelet",
+          "hän": "kävelee",
+          "me": "kävelemme",
+          "te": "kävelette",
+          "he": "kävelevät"
+        }
+      }
+    },
+    {
+      "inf": "istua",
+      "group": "säännöllinen",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "preesens": {
+          "minä": "istun",
+          "sinä": "istut",
+          "hän": "istuu",
+          "me": "istumme",
+          "te": "istutte",
+          "he": "istuvat"
+        }
+      }
+    },
+    {
+      "inf": "nauraa",
+      "group": "säännöllinen",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "preesens": {
+          "minä": "nauran",
+          "sinä": "naurat",
+          "hän": "nauraa",
+          "me": "nauramme",
+          "te": "nauratte",
+          "he": "nauravat"
+        }
+      }
+    },
+    {
+      "inf": "syödä",
+      "group": "säännöllinen",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "preesens": {
+          "minä": "syön",
+          "sinä": "syöt",
+          "hän": "syö",
+          "me": "syömme",
+          "te": "syötte",
+          "he": "syövät"
+        }
+      }
+    },
+    {
+      "inf": "juoda",
+      "group": "säännöllinen",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "preesens": {
+          "minä": "juon",
+          "sinä": "juot",
+          "hän": "juo",
+          "me": "juomme",
+          "te": "juotte",
+          "he": "juovat"
+        }
+      }
+    },
+    {
+      "inf": "pestä",
+      "group": "säännöllinen",
+      "irregular": false,
+      "gradation": false,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "preesens": {
+          "minä": "pesen",
+          "sinä": "peset",
+          "hän": "pesee",
+          "me": "pesemme",
+          "te": "pesette",
+          "he": "pesevät"
+        }
+      }
+    },
+    {
+      "inf": "uida",
+      "group": "säännöllinen",
+      "irregular": false,
+      "gradation": false,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "preesens": {
+          "minä": "uin",
+          "sinä": "uit",
+          "hän": "ui",
+          "me": "uimme",
+          "te": "uitte",
+          "he": "uivat"
+        }
+      }
+    },
+    {
+      "inf": "kerätä",
+      "group": "säännöllinen",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "preesens": {
+          "minä": "kerään",
+          "sinä": "keräät",
+          "hän": "kerää",
+          "me": "keräämme",
+          "te": "keräätte",
+          "he": "keräävät"
+        }
+      }
+    },
+    {
+      "inf": "kuiskata",
+      "group": "säännöllinen",
+      "irregular": false,
+      "gradation": false,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "preesens": {
+          "minä": "kuiskaan",
+          "sinä": "kuiskaat",
+          "hän": "kuiskaa",
+          "me": "kuiskaamme",
+          "te": "kuiskaatte",
+          "he": "kuiskaavat"
+        }
+      }
+    },
+    {
+      "inf": "juosta",
+      "group": "epäsäännöllinen",
+      "irregular": true,
+      "gradation": false,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "running"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "preesens": {
+          "minä": "juoksen",
+          "sinä": "juokset",
+          "hän": "juoksee",
+          "me": "juoksemme",
+          "te": "juoksette",
+          "he": "juoksevat"
+        }
+      }
+    },
+    {
+      "inf": "lukea",
+      "group": "astevaihtelu",
+      "irregular": false,
+      "gradation": true,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "reading"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "preesens": {
+          "minä": "luen",
+          "sinä": "luet",
+          "hän": "lukee",
+          "me": "luemme",
+          "te": "luette",
+          "he": "lukevat"
+        }
+      }
+    },
+    {
+      "inf": "hyppiä",
+      "group": "astevaihtelu",
+      "irregular": false,
+      "gradation": true,
+      "tier": 1,
+      "pic": {
+        "theme": "activities",
+        "noun": "jumping"
+      },
+      "picOpened": true,
+      "labelOverride": {},
+      "forms": {
+        "preesens": {
+          "minä": "hypin",
+          "sinä": "hypit",
+          "hän": "hyppii",
+          "me": "hypimme",
+          "te": "hypitte",
+          "he": "hyppivät"
+        }
+      }
+    },
+    {
+      "inf": "leikkiä",
+      "group": "astevaihtelu",
+      "irregular": false,
+      "gradation": true,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "preesens": {
+          "minä": "leikin",
+          "sinä": "leikit",
+          "hän": "leikkii",
+          "me": "leikimme",
+          "te": "leikitte",
+          "he": "leikkivät"
+        }
+      }
+    },
+    {
+      "inf": "nukkua",
+      "group": "astevaihtelu",
+      "irregular": false,
+      "gradation": true,
+      "tier": 1,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "preesens": {
+          "minä": "nukun",
+          "sinä": "nukut",
+          "hän": "nukkuu",
+          "me": "nukumme",
+          "te": "nukutte",
+          "he": "nukkuvat"
+        }
+      }
+    },
+    {
+      "inf": "piirtää",
+      "group": "astevaihtelu",
+      "irregular": false,
+      "gradation": true,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "preesens": {
+          "minä": "piirrän",
+          "sinä": "piirrät",
+          "hän": "piirtää",
+          "me": "piirrämme",
+          "te": "piirrätte",
+          "he": "piirtävät"
+        }
+      }
+    },
+    {
+      "inf": "heittää",
+      "group": "astevaihtelu",
+      "irregular": false,
+      "gradation": true,
+      "tier": 2,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "preesens": {
+          "minä": "heitän",
+          "sinä": "heität",
+          "hän": "heittää",
+          "me": "heitämme",
+          "te": "heitätte",
+          "he": "heittävät"
+        }
+      }
+    },
+    {
+      "inf": "kantaa",
+      "group": "astevaihtelu",
+      "irregular": false,
+      "gradation": true,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "preesens": {
+          "minä": "kannan",
+          "sinä": "kannat",
+          "hän": "kantaa",
+          "me": "kannamme",
+          "te": "kannatte",
+          "he": "kantavat"
+        }
+      }
+    },
+    {
+      "inf": "huutaa",
+      "group": "astevaihtelu",
+      "irregular": false,
+      "gradation": true,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "preesens": {
+          "minä": "huudan",
+          "sinä": "huudat",
+          "hän": "huutaa",
+          "me": "huudamme",
+          "te": "huudatte",
+          "he": "huutavat"
+        }
+      }
+    },
+    {
+      "inf": "rakentaa",
+      "group": "astevaihtelu",
+      "irregular": false,
+      "gradation": true,
+      "tier": 3,
+      "pic": null,
+      "picOpened": false,
+      "labelOverride": {},
+      "forms": {
+        "preesens": {
+          "minä": "rakennan",
+          "sinä": "rakennat",
+          "hän": "rakentaa",
+          "me": "rakennamme",
+          "te": "rakennatte",
+          "he": "rakentavat"
+        }
+      }
+    }
+  ],
+  "irregularCore": [
+    {
+      "inf": "olla",
+      "pic": null,
+      "forms": {
+        "preesens": {
+          "minä": "olen",
+          "sinä": "olet",
+          "hän": "on",
+          "me": "olemme",
+          "te": "olette",
+          "he": "ovat"
+        }
+      }
+    },
+    {
+      "inf": "tulla",
+      "pic": null,
+      "forms": {
+        "preesens": {
+          "minä": "tulen",
+          "sinä": "tulet",
+          "hän": "tulee",
+          "me": "tulemme",
+          "te": "tulette",
+          "he": "tulevat"
+        }
+      }
+    },
+    {
+      "inf": "mennä",
+      "pic": null,
+      "forms": {
+        "preesens": {
+          "minä": "menen",
+          "sinä": "menet",
+          "hän": "menee",
+          "me": "menemme",
+          "te": "menette",
+          "he": "menevät"
+        }
+      }
+    },
+    {
+      "inf": "tehdä",
+      "pic": null,
+      "forms": {
+        "preesens": {
+          "minä": "teen",
+          "sinä": "teet",
+          "hän": "tekee",
+          "me": "teemme",
+          "te": "teette",
+          "he": "tekevät"
+        }
+      }
+    },
+    {
+      "inf": "nähdä",
+      "pic": null,
+      "forms": {
+        "preesens": {
+          "minä": "näen",
+          "sinä": "näet",
+          "hän": "näkee",
+          "me": "näemme",
+          "te": "näette",
+          "he": "näkevät"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "Minä {form} joka päivä koulussa.",
+      "col": "minä",
+      "unit": "preesens",
+      "fits": [
+        "laulaa",
+        "tanssia",
+        "lukea",
+        "maalata",
+        "leikkiä",
+        "piirtää"
+      ],
+      "subjectLiteral": "Minä",
+      "pic": null
+    },
+    {
+      "id": "f02",
+      "text": "Aino {form} puistossa iloisesti.",
+      "col": "hän",
+      "unit": "preesens",
+      "fits": [
+        "tanssia",
+        "laulaa",
+        "kävellä",
+        "juosta",
+        "hyppiä",
+        "leikkiä",
+        "istua",
+        "nauraa"
+      ],
+      "subjectLiteral": "Aino",
+      "pic": null
+    },
+    {
+      "id": "f03",
+      "text": "Me {form} yhdessä pihalla.",
+      "col": "me",
+      "unit": "preesens",
+      "fits": [
+        "leikkiä",
+        "laulaa",
+        "tanssia",
+        "juosta",
+        "hyppiä",
+        "kävellä",
+        "istua",
+        "nauraa"
+      ],
+      "subjectLiteral": "Me",
+      "pic": null
+    },
+    {
+      "id": "f04",
+      "text": "Sinä {form} kirjaa sohvalla.",
+      "col": "sinä",
+      "unit": "preesens",
+      "fits": [
+        "lukea"
+      ],
+      "subjectLiteral": "Sinä",
+      "pic": null
+    },
+    {
+      "id": "f05",
+      "text": "Te {form} puuroa aamulla.",
+      "col": "te",
+      "unit": "preesens",
+      "fits": [
+        "syödä"
+      ],
+      "subjectLiteral": "Te",
+      "pic": null
+    },
+    {
+      "id": "f06",
+      "text": "He {form} mehua kesällä.",
+      "col": "he",
+      "unit": "preesens",
+      "fits": [
+        "juoda"
+      ],
+      "subjectLiteral": "He",
+      "pic": null
+    },
+    {
+      "id": "f07",
+      "text": "Onni {form} kuvaa paperille.",
+      "col": "hän",
+      "unit": "preesens",
+      "fits": [
+        "maalata",
+        "piirtää"
+      ],
+      "subjectLiteral": "Onni",
+      "pic": null
+    },
+    {
+      "id": "f08",
+      "text": "Minä {form} kädet ennen ruokaa.",
+      "col": "minä",
+      "unit": "preesens",
+      "fits": [
+        "pestä"
+      ],
+      "subjectLiteral": "Minä",
+      "pic": null
+    },
+    {
+      "id": "f09",
+      "text": "Helmi {form} hiljaa metsässä.",
+      "col": "hän",
+      "unit": "preesens",
+      "fits": [
+        "kävellä",
+        "istua",
+        "laulaa",
+        "kuiskata"
+      ],
+      "subjectLiteral": "Helmi",
+      "pic": null
+    },
+    {
+      "id": "f10",
+      "text": "Me {form} marjoja metsässä.",
+      "col": "me",
+      "unit": "preesens",
+      "fits": [
+        "kerätä",
+        "syödä"
+      ],
+      "subjectLiteral": "Me",
+      "pic": null
+    },
+    {
+      "id": "f11",
+      "text": "Sinä {form} tuolilla luokassa.",
+      "col": "sinä",
+      "unit": "preesens",
+      "fits": [
+        "istua"
+      ],
+      "subjectLiteral": "Sinä",
+      "pic": null
+    },
+    {
+      "id": "f12",
+      "text": "Leo ja Aada {form} rannalla.",
+      "col": "he",
+      "unit": "preesens",
+      "fits": [
+        "uida",
+        "leikkiä",
+        "juosta",
+        "hyppiä",
+        "nauraa",
+        "kävellä",
+        "istua",
+        "laulaa"
+      ],
+      "subjectLiteral": "Leo ja Aada",
+      "pic": null
+    },
+    {
+      "id": "f13",
+      "text": "He {form} hauskalle vitsille.",
+      "col": "he",
+      "unit": "preesens",
+      "fits": [
+        "nauraa"
+      ],
+      "subjectLiteral": "He",
+      "pic": null
+    },
+    {
+      "id": "f14",
+      "text": "Sinä {form} korkealle trampoliinilla.",
+      "col": "sinä",
+      "unit": "preesens",
+      "fits": [
+        "hyppiä"
+      ],
+      "subjectLiteral": "Sinä",
+      "pic": null
+    },
+    {
+      "id": "f15",
+      "text": "Te {form} salaisuuden hiljaa.",
+      "col": "te",
+      "unit": "preesens",
+      "fits": [
+        "kuiskata"
+      ],
+      "subjectLiteral": "Te",
+      "pic": null
+    },
+    {
+      "id": "f16",
+      "text": "Väinö {form} palloa pihalla.",
+      "col": "hän",
+      "unit": "preesens",
+      "fits": [
+        "heittää"
+      ],
+      "subjectLiteral": "Väinö",
+      "pic": null
+    },
+    {
+      "id": "f17",
+      "text": "Me {form} hiekkalinnaa rannalla.",
+      "col": "me",
+      "unit": "preesens",
+      "fits": [
+        "rakentaa"
+      ],
+      "subjectLiteral": "Me",
+      "pic": null
+    },
+    {
+      "id": "f18",
+      "text": "Eeli {form} yöllä sängyssä.",
+      "col": "hän",
+      "unit": "preesens",
+      "fits": [
+        "nukkua"
+      ],
+      "subjectLiteral": "Eeli",
+      "pic": null
+    },
+    {
+      "id": "f19",
+      "text": "Minä {form} kotona tänään.",
+      "col": "minä",
+      "unit": "preesens",
+      "fits": [
+        "olla"
+      ],
+      "subjectLiteral": "Minä",
+      "pic": null
+    },
+    {
+      "id": "f20",
+      "text": "Sinä {form} kouluun aamulla.",
+      "col": "sinä",
+      "unit": "preesens",
+      "fits": [
+        "mennä",
+        "tulla",
+        "kävellä",
+        "juosta"
+      ],
+      "subjectLiteral": "Sinä",
+      "pic": null
+    },
+    {
+      "id": "f21",
+      "text": "Onni {form} läksyt illalla.",
+      "col": "hän",
+      "unit": "preesens",
+      "fits": [
+        "tehdä"
+      ],
+      "subjectLiteral": "Onni",
+      "pic": null
+    },
+    {
+      "id": "f22",
+      "text": "Me {form} linnun puussa.",
+      "col": "me",
+      "unit": "preesens",
+      "fits": [
+        "nähdä"
+      ],
+      "subjectLiteral": "Me",
+      "pic": null
+    },
+    {
+      "id": "f23",
+      "text": "He {form} juhliin illalla.",
+      "col": "he",
+      "unit": "preesens",
+      "fits": [
+        "tulla",
+        "mennä"
+      ],
+      "subjectLiteral": "He",
+      "pic": null
+    },
+    {
+      "id": "f24",
+      "text": "Te {form} iloisia tänään.",
+      "col": "te",
+      "unit": "preesens",
+      "fits": [
+        "olla"
+      ],
+      "subjectLiteral": "Te",
+      "pic": null
+    },
+    {
+      "id": "f25",
+      "text": "Sofia {form} sateenkaaren taivaalla.",
+      "col": "hän",
+      "unit": "preesens",
+      "fits": [
+        "nähdä"
+      ],
+      "subjectLiteral": "Sofia",
+      "pic": null
+    }
+  ],
+  "hunt": {
+    "nounHomographs": [
+      "tanssi",
+      "laulu",
+      "juoksu",
+      "kävely",
+      "hyppy",
+      "maalaus",
+      "uinti",
+      "nauru",
+      "pesu",
+      "leikki",
+      "heitto",
+      "huuto"
+    ]
+  },
+  "strings": {
+    "G2-317": {
+      "title": "Verbin persoonamuodot: minä, sinä, hän",
+      "instruction": "Katso kuvaa ja lue verbi. Kirjoita sen persoonamuodot katkoviivaruutuihin ja täydennä sitten lauseet."
+    },
+    "F2": {
+      "title": "Yhdistä persoona ja verbimuoto",
+      "instruction": "Lue vasemmalta persoonapronomini. Piirrä viiva siihen verbimuotoon, joka kuuluu sille: yksi viiva jokaista pronominia kohti."
+    },
+    "F3": {
+      "title": "Verbimuodot lauseissa kuvien avulla",
+      "instruction": "Katso kuvaa ja lue verbi laatikosta. Kirjoita lauseeseen sopiva persoonamuoto katkoviivaruutuun."
+    },
+    "F4": {
+      "title": "Olla, tulla, mennä: taivuta verbit",
+      "instruction": "Nämä verbit taipuvat eri tavalla kuin muut. Kirjoita jokaiselle persoonalle oikea muoto katkoviivaruutuun."
+    },
+    "F5": {
+      "title": "Valitse oikea verbimuoto",
+      "instruction": "Lue lause. Sen alla on kolme saman verbin muotoa. Ympyröi se muoto, joka sopii lauseeseen."
+    },
+    "F6": {
+      "title": "Etsi verbi ja kirjoita perusmuoto",
+      "instruction": "Alleviivaa lauseen verbi. Kirjoita sitten sen perusmuoto katkoviivaruutuun."
+    }
+  }
+}

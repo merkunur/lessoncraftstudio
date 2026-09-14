@@ -1,0 +1,47 @@
+{
+  "names": "calendar",
+  "labels": {
+    "yesterday": "eilen",
+    "today": "tänään",
+    "tomorrow": "huomenna",
+    "before": "edellinen",
+    "after": "seuraava"
+  },
+  "alt": {
+    "days": {},
+    "labels": {}
+  },
+  "dayShort": null,
+  "laneGlyphH": {
+    "days": 40,
+    "months": 28,
+    "neighbours": 26
+  },
+  "abbrev": "calendar",
+  "strings": {
+    "K-321": {
+      "title": "Viikonpäivät järjestyksessä",
+      "instruction": "Viikon ensimmäinen päivä on jo merkitty numerolla 1. Numeroi muut päivät 2–7 siinä järjestyksessä, jossa ne tulevat."
+    },
+    "K-337": {
+      "title": "Puuttuvat viikonpäivät: täydennä viikko",
+      "instruction": "Osa päivistä on jo kirjoitettu tikapuille. Kopioi puuttuvat päivät sanapankista oikeille paikoille."
+    },
+    "G1-319": {
+      "title": "Eilen, tänään, huomenna",
+      "instruction": "Keskimmäinen päivä on tänään. Kirjoita päivä, joka oli eilen, ja päivä, joka on huomenna."
+    },
+    "G1-320": {
+      "title": "Vuoden kuukaudet järjestyksessä",
+      "instruction": "Tammikuu on jo merkitty numerolla 1. Numeroi muut kuukaudet 2–12 vuoden järjestyksessä."
+    },
+    "G1-321": {
+      "title": "Edellinen ja seuraava kuukausi",
+      "instruction": "Keskellä on yksi kuukausi. Kirjoita kuukausi, joka tulee ennen sitä, ja kuukausi, joka tulee sen jälkeen."
+    },
+    "G1-322": {
+      "title": "Viikonpäivien lyhenteet",
+      "instruction": "Lue jokainen lyhenne ja piirrä viiva siihen päivään, jota se tarkoittaa."
+    }
+  }
+}

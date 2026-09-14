@@ -138,6 +138,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     pt: 'Leitura de textos informativos', // nt20-C panel (tools/apply-b3-locale.js)
     sv: 'Läsa: faktatexter', // nt20-C panel (tools/apply-b3-locale.js)
     no: 'Lesing av fagtekster', // nt20-C panel (tools/apply-b3-locale.js)
+    fi: 'Tietotekstin lukeminen', // nt20-C panel (tools/apply-b3-locale.js)
   },
   // Reading: Literature (RL — answer key-detail questions about an erzählende Geschichte). de literacy
   // fan-out opener (picture-story RL.K.1); literary COMPREHENSION — the distinct literary Bereich
@@ -167,6 +168,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     da: 'Fremstilling', // nt20-C panel (tools/apply-b3-locale.js)
     sv: 'Skriva', // nt20-C panel (tools/apply-b3-locale.js)
     no: 'Skriving', // nt20-C panel (tools/apply-b3-locale.js)
+    fi: 'Kirjoittaminen ja tekstin tuottaminen', // nt20-C panel (tools/apply-b3-locale.js)
   },
   // Phonological Awareness (pre-reading sound awareness; literacy). No deployed
   // activity uses this strand yet (forward-looking); all 11 locales curriculum-reviewed.
@@ -233,6 +235,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     // sv literacy/vocab fan-out (#22 affix) - the platform's FIRST sv Vocabulary activity.
     sv: 'Ord och begrepp',
     da: 'Ord og begreber', // nt20-C panel (tools/apply-b3-locale.js)
+    fi: 'Sanavaranto ja käsitteet', // nt20-C panel (tools/apply-b3-locale.js)
   },
   'Number & Operations—Fractions': {
     en: 'Number & Operations—Fractions',

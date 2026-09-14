@@ -222,6 +222,12 @@ const RHYMING_WORDS = {
         title: 'Rhyming Words: Rhyme and Write',
         instruction: 'Say the first picture. Circle the picture that rhymes with it, then write its word on the line.',
       },
+      // Phase 2 faces (design §3 / §6; the rows module quotes these verbatim — the gate asserts one source)
+      'K-352': { title: 'Rhyme or Not?', instruction: 'Say both pictures out loud. If the two words rhyme, circle the tick. If they do not rhyme, circle the cross.' },
+      'G1-343': { title: 'Sort the Rhymes', instruction: 'Say each picture in the bank. Find the big picture it rhymes with and write its word on a line under that picture.' },
+      'G1-344': { title: 'Finish the Rhyme', instruction: 'Read the two lines out loud. Look at the picture, hear the rhyme and write the missing rhyming word on the line.' },
+      'G1-345': { title: 'Rhyme Strings', instruction: 'Say each picture. Find the two words in the bank that rhyme with it and write them on its lines. Some words fit nowhere.' },
+      'G1-346': { title: 'Write Your Own Rhymes', instruction: 'Read the word beside each picture. Think of two words that rhyme with it and write one on each line.' },
     },
   },
 };

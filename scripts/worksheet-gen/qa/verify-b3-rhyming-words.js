@@ -78,6 +78,63 @@
  *      PC  a row wider than its card (clipped by overflow:hidden)   → verify()
  *      PI  a 36 px choice picture                                   → the spec guard + verify() + the gate floor
  *      PL  an unauthored locale REFUSES                             → bank()
+ *
+ * 5. FACES (Phase 2, design §3; tools/b3var-rows/rhyming-words.js; record
+ *    _work/G1-309-faces.md). The five face specs are loaded from disk by id
+ *    (K-352 judge · G1-343 sort · G1-344 couplet · G1-345 string · G1-346
+ *    open) and rendered through the real pipeline at d2 en, under the
+ *    three-line chrome (the README 722 floor), under the fi long-compound
+ *    title, the sort + string faces in the K shape (sv/da/no) on the en bank,
+ *    and one unit render each (couplet has no unit axis). Every render:
+ *    verify() empty, lints clean, the face's own floors measured (pictures
+ *    >= 44 G1 / 56 K, glyphH >= 26 / 40, chips >= 56), the mode + band
+ *    stamps === the row, nothing under the footer, and the NODE cross-check
+ *    (crossCheckFace): every stamped (key, class, word, picture) is a bank
+ *    member VERBATIM; judge non-pairs from distinct classes with distinct
+ *    SOUNDS and never each other's near-miss; sort / string / open draw
+ *    writable members for every WRITTEN word (a sort head / string anchor is
+ *    a picture only, any member); string foils from classes off the page whose sound is
+ *    off the page too; open anchors productive; couplets are bank couplets.
+ *    Base renders assert NO data-lcs-mode stamp (byte-identity's page-side
+ *    twin). The 20-seed sweep covers each face (build only). Face poisons
+ *    (each must FAIL for its OWN reason; the correct en bank + the shipped
+ *    rows are the control):
+ *      FJ1 a "non-rhyming" F1 pair drawn from ONE class (design P8)   → verify()
+ *      FJ2 7 of 8 cards rhyme (one verdict nearly constant)          → verify() + the gate (stamp ≠ config)
+ *      FJ3 every rhyming pair in one column                          → verify()
+ *      FJ4 a chip printing "yes"                                     → verify()
+ *      FJ5 a coral cross (a verdict by colour)                       → verify()
+ *      FJ6 a word twice on the page                                  → verify()
+ *      FJ7 a non-pair whose two classes share a SOUND (synthetic bank) → the node cross-check
+ *      FJ8 a 48 px picture on the K face                             → _planFace refuses
+ *      FJ9 a non-pair that is a near-miss pair (cat / cap)           → the node cross-check
+ *      FS1 a bank picture whose class is no bin's                    → verify()
+ *      FS2 two bins of one class                                     → verify()
+ *      FS3 a bin's two members adjacent in the bank                  → verify()
+ *      FS4 a bin head also in the bank                               → verify()
+ *      FS5 a lane with printed text                                  → verify()
+ *      FS6 a unit that cannot head a bin (un: 2 writable)            → _planFace refuses
+ *      FS7 a bank picture stamped with another class (dog as -at)    → the node cross-check
+ *      FC1 line 2 printing the answer                                → verify()
+ *      FC2 line 1 without the rhyme partner                          → verify()
+ *      FC3 the same answer twice                                     → verify()
+ *      FC4 the lane pre-filled                                       → verify()
+ *      FC5 a bank of 7 couplets                                      → _planFace refuses (F3 refused)
+ *      FC6 the line-2 text floating 6 px off the base line           → verify()
+ *      FC7 a 70-char verse line                                      → verify()
+ *      FT1 the bank missing an answer                                → verify()
+ *      FT2 a foil from an anchor's class                             → verify()
+ *      FT3 an anchor's two answers adjacent                          → verify()
+ *      FT4 the anchor's own word in the bank                         → verify()
+ *      FT5 a bank that needs three rows                              → _planFace refuses + verify()
+ *      FT6 a foil whose class shares an anchor's SOUND (synthetic)   → the node cross-check
+ *      FO1 the printed word ≠ the stamped word                       → verify()
+ *      FO2 a class twice                                             → verify()
+ *      FO3 a ruling with text                                        → verify()
+ *      FO4 a productive:false anchor (synthetic bank)                → the node cross-check
+ *      FO5 a sameSpelling:false anchor (key) on the write face       → the node cross-check
+ *      FM  the base page stamped data-lcs-mode="judge"               → verify() (dispatches, fails)
+ *      FL  an unauthored locale refuses on every face                → bank()
  */
 'use strict';
 const path = require('path');
@@ -92,6 +149,11 @@ const { cardGrid } = require('../templates/layouts/card-grid.js');
 const { rhymeRow } = require('../templates/components-b3.js');
 
 const TYPE = require('../types/g1/G1-309-rhyming-words.js');
+const { loadType } = require('../lib/load-types.js');
+const { ROWS } = require('../tools/b3var-rows/rhyming-words.js');
+/** The five faces: id → { mode, band (en), the emitted spec, the row's config }. */
+const FACES = ROWS.map((r) => ({ id: r[1], mode: r[5].mode, band: (r[8] && r[8].gradeBand) || 'G1', title: r[6], instruction: r[7], spec: loadType(r[1]), cfg: r[5] }));
+const FACE_BY_MODE = Object.fromEntries(FACES.map((f) => [f.mode, f]));
 const QUICK = process.argv.includes('--quick');
 const OUT = path.join(__dirname, '..', 'out', 'dev');
 const BW_MARKER = /\b(BW|SW|BN|NB|ZW|SH|PB|MV|SV)$/i;
@@ -318,6 +380,17 @@ function validateBank(bank, loc, opts = {}) {
     if (!s.instruction || glyphs(s.instruction) > 150) push('instruction > 150 chars');
     if (loc === 'en' && (s.title !== TYPE.i18n.en.title || s.instruction !== TYPE.i18n.en.instruction)) push('en strings ≠ the spec i18n.en');
   }
+  // rule 10b — the face strings (Phase 2): every face id authored; the same guards; en === the rows module (one source)
+  for (const f of FACES) {
+    const fs = bank.strings && bank.strings[f.id];
+    if (!fs) { push(`strings ${f.id} (${f.mode}) missing`); continue; }
+    if (!fs.title || glyphs(fs.title) > 70) push(`${f.id} title > 70 chars`);
+    if (WORKSHEET_WORD.test(fs.title || '')) push(`${f.id} title carries the worksheet word`);
+    if (loc === 'da' && !/rimord/i.test(fs.title || '')) push(`da ${f.id} title "${fs.title}" does not contain "rimord"`);
+    if (!fs.instruction || glyphs(fs.instruction) > 150) push(`${f.id} instruction > 150 chars`);
+    if (loc === 'en' && (fs.title !== f.title || fs.instruction !== f.instruction)) push(`en ${f.id} strings ≠ the rows module (two sources)`);
+    if (loc === 'en' && (f.spec.i18n.en.title !== f.title || f.spec.i18n.en.instruction !== f.instruction)) push(`${f.id} emitted spec strings ≠ the rows module (re-run gen-b3var-specs)`);
+  }
   // rule 11 — exemplar
   const ex = Array.isArray(bank.exemplar) ? bank.exemplar : [];
   if (ex.length !== 6) push(`exemplar has ${ex.length} classes, want 6 (the d2 rows)`);
@@ -352,7 +425,7 @@ async function renderWith(page, type, { difficulty, baseName, strings, locale, u
       };
     });
     const icons = [...document.querySelectorAll('.ws-icon')].map((el) => { const r = rect(el); return Math.min(r.w, r.h); });
-    return { rows, icons, stamp: root ? { rows: +root.dataset.lcsRows, choices: +root.dataset.lcsChoices, band: root.dataset.lcsBand, unit: root.dataset.lcsUnit || null, minIcon: +root.dataset.lcsMinIcon } : null,
+    return { rows, icons, stamp: root ? { rows: +root.dataset.lcsRows, choices: +root.dataset.lcsChoices, band: root.dataset.lcsBand, unit: root.dataset.lcsUnit || null, minIcon: +root.dataset.lcsMinIcon, mode: root.dataset.lcsMode || null } : null,
       body: rect(document.querySelector('[data-lcs-body]')), foot: document.querySelector('.ws-foot').getBoundingClientRect().top, titleH: rect(document.querySelector('.ws-head')).h };
   });
   return { lints: out.qa.lints, verify: out.qa.verify, m, png: out.pngPath, meta: out.meta };
@@ -405,6 +478,7 @@ function assertRender(name, r, cfg, bank, opts = {}) {
   ok(r.lints.length === 0, `${name}: lints ${JSON.stringify(r.lints)}`);
   ok(!!r.m.stamp && r.m.rows.length === cfg.rows && r.m.stamp.rows === cfg.rows, `${name}: ${r.m.rows.length} rows / stamp ${r.m.stamp && r.m.stamp.rows} ≠ config ${cfg.rows}`);
   ok(!!r.m.stamp && r.m.stamp.band === band && r.m.stamp.minIcon === FLOOR[band], `${name}: band stamp ${r.m.stamp && r.m.stamp.band}/${r.m.stamp && r.m.stamp.minIcon} ≠ ${band}/${FLOOR[band]}`);
+  ok(!!r.m.stamp && r.m.stamp.mode === null, `${name}: the BASE page carries data-lcs-mode="${r.m.stamp && r.m.stamp.mode}" (a face knob leaked onto the base)`);
   const minIcon = r.m.icons.length ? Math.min(...r.m.icons) : 0;
   ok(minIcon >= FLOOR[band] - 0.6, `${name}: picture ${minIcon} px < the ${band} floor ${FLOOR[band]}`);
   ok(cfg.glyphH >= GLYPH_FLOOR[band], `${name}: config glyphH ${cfg.glyphH} < ${GLYPH_FLOOR[band]}`);
@@ -421,6 +495,160 @@ function assertRender(name, r, cfg, bank, opts = {}) {
   const xc = crossCheck(name, r.m, bank, { nearMiss: cfg.nearMiss, unit: opts.unit || null });
   ok(xc.length === 0, xc.join('\n    '));
   return { minIcon, slack: r.m.rows.length ? Math.round(Math.min(...r.m.rows.map((row) => row.lane.left - Math.max(...row.rings.map((x) => x.right))))) : null };
+}
+
+/* ------------------------------------------------------------------ faces */
+/** Render a face spec through the real pipeline and measure it generically (every face's stamps + geometry). */
+async function renderFace(page, spec, { baseName, strings, locale, unit }) {
+  const out = await renderInstance({ type: spec, theme: null, difficulty: 2, locale: locale || 'en', unit: unit || null, page, outDir: OUT, baseName, strings });
+  const m = await page.evaluate(() => {
+    const rect = (el) => { const r = el.getBoundingClientRect(); return { left: r.left, right: r.right, top: r.top, bottom: r.bottom, w: r.width, h: r.height }; };
+    const src = (img) => (img ? decodeURIComponent(img.src) : null);
+    const root = document.querySelector('[data-lcs-rhyming]');
+    const ds = root ? Object.assign({}, root.dataset) : {};
+    const icons = [...document.querySelectorAll('.ws-icon')].map((el) => { const r = rect(el); return Math.min(r.w, r.h); });
+    const lanes = [...document.querySelectorAll('[data-lcs-prim="writing-row"]')].map((l) => Object.assign({ hAttr: +l.getAttribute('height'), texts: l.querySelectorAll('text').length }, rect(l)));
+    const chips = [...document.querySelectorAll('[data-lcs-chip]')].map((c) => { const r = rect(c); return Math.min(r.w, r.h); });
+    const content = [...document.querySelectorAll('[data-lcs-rhyming] [data-lcs-slot], [data-lcs-rhyming] [data-lcs-chip], [data-lcs-rhyming] .ws-icon, [data-lcs-rhyming] [data-lcs-prim="writing-row"], [data-lcs-rhyming] [data-lcs-bank-word], [data-lcs-rhyming] [data-lcs-bank-index]')].map(rect);
+    const lowest = content.length ? Math.max(...content.map((r) => r.bottom)) : 0;
+    const mode = ds.lcsMode || null;
+    const face = {};
+    if (mode === 'judge') face.cards = [...root.querySelectorAll('[data-lcs-pair]')].map((st) => { const im = st.querySelectorAll('[data-lcs-slot="pair"] img'); return { a: st.dataset.lcsA, b: st.dataset.lcsB, ca: st.dataset.lcsClassA, cb: st.dataset.lcsClassB, wa: st.dataset.lcsWordA, wb: st.dataset.lcsWordB, rhyme: st.dataset.lcsRhyme, srcA: src(im[0]), srcB: src(im[1]) }; });
+    if (mode === 'sort') { face.bins = [...root.querySelectorAll('[data-lcs-bin]')].map((b) => ({ cls: b.dataset.lcsClass, anchor: b.dataset.lcsAnchor, word: b.dataset.lcsAnchorWord, src: src(b.querySelector('[data-lcs-slot="head"] img')) })); face.bank = [...root.querySelectorAll('[data-lcs-bank-index]')].map((it) => ({ key: it.dataset.lcsVocab, cls: it.dataset.lcsClass, word: it.dataset.lcsWord, src: src(it.querySelector('img')) })); }
+    if (mode === 'couplet') face.rows = [...root.querySelectorAll('[data-lcs-couplet]')].map((r) => ({ answer: r.dataset.lcsAnswer, word: r.dataset.lcsAnswerWord, cls: r.dataset.lcsClass, rw: r.dataset.lcsRhymeWith, src: src(r.querySelector('[data-lcs-slot="cue"] img')), line1: r.querySelector('[data-lcs-verse="1"]').textContent.trim(), line2: r.querySelector('[data-lcs-verse="2"]').textContent.trim() }));
+    if (mode === 'string') { face.rows = [...root.querySelectorAll('[data-lcs-string]')].map((r) => ({ anchor: r.dataset.lcsAnchor, cls: r.dataset.lcsClass, word: r.dataset.lcsAnchorWord, answers: r.dataset.lcsAnswers.split('|'), src: src(r.querySelector('[data-lcs-slot="anchor"] img')) })); face.bank = [...root.querySelectorAll('[data-lcs-bank-word]')].map((p) => ({ word: p.dataset.lcsBankWord, key: p.dataset.lcsBank, cls: p.dataset.lcsClass, role: p.dataset.lcsRole, top: Math.round(rect(p).top) })); }
+    if (mode === 'open') face.cards = [...root.querySelectorAll('[data-lcs-open]')].map((st) => ({ anchor: st.dataset.lcsAnchor, cls: st.dataset.lcsClass, word: st.dataset.lcsWord, src: src(st.querySelector('[data-lcs-slot="head"] img')), printed: (st.querySelector('[data-lcs-word-print]') || { textContent: '' }).textContent.trim() }));
+    return { stamp: { mode, band: ds.lcsBand, minIcon: +ds.lcsMinIcon, unit: ds.lcsUnit || null, glyphH: ds.lcsGlyphH ? +ds.lcsGlyphH : null, yes: ds.lcsYes ? +ds.lcsYes : null, chip: ds.lcsChipPx ? +ds.lcsChipPx : null, bins: ds.lcsBins ? +ds.lcsBins : null, rows: ds.lcsRows ? +ds.lcsRows : null, anchors: ds.lcsAnchors ? +ds.lcsAnchors : null, cards: ds.lcsCards ? +ds.lcsCards : null, foils: ds.lcsFoils ? +ds.lcsFoils : null },
+      icons, lanes, chips, lowest, face, body: rect(document.querySelector('[data-lcs-body]')), foot: document.querySelector('.ws-foot').getBoundingClientRect().top, titleH: rect(document.querySelector('.ws-head')).h };
+  });
+  return { lints: out.qa.lints, verify: out.qa.verify, m, png: out.pngPath, meta: out.meta };
+}
+
+/** The node-side cross-check of a face render against the bank (verify() is bank-blind by design). */
+function crossCheckFace(name, mode, m, bank, cfg) {
+  const out = [];
+  const byId = new Map((bank.classes || []).map((c) => [c.id, c]));
+  const members = new Map();
+  for (const c of bank.classes || []) for (const x of c.members || []) members.set(x.vocabKey, { m: x, cls: c.id });
+  const srcOf = (pc) => { try { return decodeURIComponent(fileUri(pc.theme, pc.noun)); } catch (e) { return null; } };
+  const nm = (cls) => new Set(((byId.get(cls) || {}).nearMiss || []).map((x) => x.vocabKey));
+  const writable = (mm) => bank.orthographyTrusted || mm.m.sameSpelling === true;
+  const verbatim = (tag, key, cls, word, src) => {
+    const mm = members.get(key);
+    if (!mm) { out.push(`${name}: ${tag} "${key}" is not a bank member`); return null; }
+    if (mm.cls !== cls) out.push(`${name}: ${tag} "${key}" stamped class "${cls}" ≠ bank "${mm.cls}" — not verbatim`);
+    if (word !== undefined && mm.m.word !== word) out.push(`${name}: ${tag} "${key}" stamped word "${word}" ≠ bank "${mm.m.word}"`);
+    if (src !== undefined && srcOf(mm.m.pic) !== src) out.push(`${name}: ${tag} "${key}" renders ${String(src).split('/').slice(-2).join('/')} ≠ the bank picture ${mm.m.pic.theme}/${mm.m.pic.noun}`);
+    return mm;
+  };
+  if (mode === 'judge') {
+    const pairCls = new Set();
+    for (const c of m.face.cards) {
+      const A = verbatim('picture', c.a, c.ca, c.wa, c.srcA), B = verbatim('picture', c.b, c.cb, c.wb, c.srcB);
+      if (!A || !B) continue;
+      if (c.rhyme === '1') { if (pairCls.has(c.ca)) out.push(`${name}: rhyming class "${c.ca}" on two cards`); pairCls.add(c.ca); }
+      else {
+        if (byId.get(c.ca).sound === byId.get(c.cb).sound) out.push(`${name}: non-pair ${c.a}/${c.b} — classes ${c.ca}/${c.cb} share the sound "${byId.get(c.ca).sound}" (they rhyme)`);
+        if (nm(c.ca).has(c.b) || nm(c.cb).has(c.a)) out.push(`${name}: non-pair ${c.a}/${c.b} is a near-miss pair (nearMiss off at d2)`);
+      }
+    }
+    for (const c of m.face.cards) if (c.rhyme === '0' && (pairCls.has(c.ca) || pairCls.has(c.cb))) out.push(`${name}: non-pair ${c.a}/${c.b} draws from a rhyming class on the page`);
+    if (cfg && m.stamp.yes !== cfg.yes) out.push(`${name}: ${m.stamp.yes} rhyming cards ≠ the config's ${cfg.yes}`);
+  }
+  if (mode === 'sort') {
+    for (const b of m.face.bins) verbatim('head', b.anchor, b.cls, b.word, b.src);   // the head is a picture only — never written
+    for (const it of m.face.bank) { const mm = verbatim('bank picture', it.key, it.cls, it.word, it.src); if (mm && !writable(mm)) out.push(`${name}: bank "${it.key}" is sameSpelling:false on a WRITE face (the child writes it)`); }
+  }
+  if (mode === 'couplet') {
+    const ids = new Set((bank.couplets || []).map((c) => c.answer.vocabKey));
+    for (const r of m.face.rows) {
+      const mm = verbatim('answer', r.answer, r.cls, r.word, r.src);
+      if (!ids.has(r.answer)) out.push(`${name}: "${r.answer}" answers no bank couplet`);
+      const cp = (bank.couplets || []).find((c) => c.answer.vocabKey === r.answer);
+      if (cp && cp.rhymeWith !== r.rw) out.push(`${name}: couplet ${cp.id} rhymeWith "${r.rw}" ≠ bank "${cp.rhymeWith}"`);
+      if (mm) { const pool = new Set([...byId.get(mm.cls).members.map((x) => x.word.toLowerCase()), ...(byId.get(mm.cls).extra || []).map((x) => x.toLowerCase())]); if (!pool.has(String(r.rw).toLowerCase())) out.push(`${name}: partner "${r.rw}" is not a member / extra of ${mm.cls}`); }
+      if (mm && !writable(mm)) out.push(`${name}: answer "${r.answer}" is sameSpelling:false on a WRITE face`);
+    }
+  }
+  if (mode === 'string') {
+    const pageCls = new Set(m.face.rows.map((r) => r.cls));
+    const pageSounds = new Set([...pageCls].map((c) => (byId.get(c) || {}).sound));
+    const pageNm = new Set([...pageCls].flatMap((c) => [...nm(c)]));
+    for (const r of m.face.rows) {
+      verbatim('anchor', r.anchor, r.cls, r.word, r.src);
+      for (const w of r.answers) { const mm = [...members.values()].find((x) => x.m.word === w && x.cls === r.cls); if (!mm) out.push(`${name}: answer "${w}" is not a member word of ${r.cls}`); else if (!writable(mm)) out.push(`${name}: answer "${w}" is sameSpelling:false on a WRITE face`); }
+    }
+    for (const p of m.face.bank) {
+      const mm = verbatim('bank word', p.key, p.cls, p.word);
+      if (!mm) continue;
+      if (p.role === 'foil') {
+        if (pageCls.has(mm.cls)) out.push(`${name}: foil "${p.word}" is from the page class ${mm.cls}`);
+        if (pageSounds.has(byId.get(mm.cls).sound)) out.push(`${name}: foil "${p.word}" (class ${mm.cls}) shares an anchor's SOUND "${byId.get(mm.cls).sound}" — it rhymes`);
+        if (pageNm.has(p.key)) out.push(`${name}: foil "${p.word}" is a near-miss of a page class (nearMiss off at d2)`);
+      }
+    }
+    if (cfg && m.face.bank.length !== cfg.anchors * cfg.per + cfg.foils && m.stamp.band !== 'K') out.push(`${name}: bank ${m.face.bank.length} ≠ ${cfg.anchors} × ${cfg.per} + ${cfg.foils}`);
+  }
+  if (mode === 'open') {
+    for (const c of m.face.cards) {
+      const mm = verbatim('anchor', c.anchor, c.cls, c.word, c.src);
+      if (!mm) continue;
+      if (mm.m.productive !== true) out.push(`${name}: anchor "${c.anchor}" is productive:false`);
+      if (!writable(mm)) out.push(`${name}: anchor "${c.anchor}" is sameSpelling:false on a WRITE face (the child spells by analogy with it)`);
+      if ((byId.get(mm.cls).members || []).length < 2) out.push(`${name}: anchor "${c.anchor}" has no rhyme in the bank`);
+    }
+  }
+  return out;
+}
+
+function assertFaceRender(name, f, r, opts = {}) {
+  const band = opts.band || f.band;
+  const cfg = Object.assign({}, f.cfg, opts.cfg || {});
+  ok(r.verify.length === 0, `${name}: verify() ${JSON.stringify(r.verify)}`);
+  ok(r.lints.length === 0, `${name}: lints ${JSON.stringify(r.lints)}`);
+  ok(r.m.stamp.mode === f.mode, `${name}: mode stamp "${r.m.stamp.mode}" ≠ ${f.mode}`);
+  ok(r.m.stamp.band === band && r.m.stamp.minIcon === FLOOR[band], `${name}: band stamp ${r.m.stamp.band}/${r.m.stamp.minIcon} ≠ ${band}/${FLOOR[band]}`);
+  const minIcon = r.m.icons.length ? Math.min(...r.m.icons) : 0;
+  ok(minIcon >= FLOOR[band] - 0.6, `${name}: picture ${minIcon} px < the ${band} floor ${FLOOR[band]}`);
+  if (f.mode !== 'judge') ok(r.m.stamp.glyphH >= GLYPH_FLOOR[band], `${name}: glyphH ${r.m.stamp.glyphH} < ${GLYPH_FLOOR[band]}`);
+  if (f.mode === 'judge') { ok(r.m.chips.length === 2 * cfg.cards && Math.min(...r.m.chips) >= 56 - 0.6, `${name}: ${r.m.chips.length} chips, smallest ${Math.round(Math.min(...r.m.chips))} px (want ${2 * cfg.cards} ≥ 56)`); ok(r.m.lanes.length === 0, `${name}: ${r.m.lanes.length} writing rows on the judge face (no writing)`); }
+  const wantLanes = { sort: cfg.bins * cfg.perBin, couplet: cfg.rows, string: (opts.band === 'K' ? 3 : cfg.anchors) * cfg.per, open: cfg.cards * cfg.lines, judge: 0 }[f.mode];
+  ok(r.m.lanes.length === wantLanes, `${name}: ${r.m.lanes.length} writing rows ≠ ${wantLanes}`);
+  ok(r.m.lanes.every((l) => l.texts === 0), `${name}: a writing row carries text`);
+  ok(r.m.lowest <= r.m.foot + 0.6, `${name}: content reaches ${Math.round(r.m.lowest)} into the footer band at ${Math.round(r.m.foot)}`);
+  if (opts.unit) ok(r.m.stamp.unit === opts.unit && r.meta.unit === opts.unit, `${name}: unit stamp ${r.m.stamp.unit} / meta ${r.meta.unit} ≠ ${opts.unit}`);
+  else ok(r.m.stamp.unit === null, `${name}: a unit stamp "${r.m.stamp.unit}" on a no-unit render`);
+  const xc = crossCheckFace(name, f.mode, r.m, opts.bank || null, cfg);
+  ok(xc.length === 0, xc.join('\n    '));
+  return { minIcon };
+}
+
+/** A face spec whose build renders an EXPLICIT plan (the poison seam — past _planFace's guards). */
+function faceFrom(f, plan, cfgOver = {}, band) {
+  const d = Object.assign({}, f.spec.difficulty[2], cfgOver, { band: band || f.band });
+  return Object.assign({}, f.spec, { build() { return TYPE._renderFace(f.mode, plan, d, band || f.band); } });
+}
+/** A face spec built over an INJECTED bank (synthetic locale blocks) / an explicit band. */
+function faceWith(f, bank, opts = {}) {
+  return Object.assign({}, f.spec, { build(o, ctx) { return f.spec._buildWith(bank, { difficulty: 2, locale: 'en', unit: opts.unit || o.unit, band: opts.band }, ctx); } });
+}
+function planOf(f, bank, opts = {}) {
+  const B = opts.band || f.band;
+  const d = Object.assign({}, f.spec.difficulty[2], opts.cfg || {}, { band: B });
+  return f.spec._planFace(f.mode, bank, d, { locale: 'en', unit: opts.unit || null }, makeRng(opts.seed || 'plan'));
+}
+function planRefusal(f, bank, opts = {}) { try { planOf(f, bank, opts); return []; } catch (e) { return [e.message]; } }
+async function faceFindings(page, f, spec, baseName, bank, opts = {}) {
+  const r = await renderFace(page, spec, Object.assign({ baseName }, opts.render || {}));
+  const before = fails.length, saved = assertions;
+  assertFaceRender(baseName, f, r, Object.assign({ bank }, opts));
+  const own = fails.splice(before);
+  assertions = saved;
+  return { r, own };
+}
+/** An HTML mutation of a built face (the verify()-side poisons that no plan can express). */
+function mutated(f, plan, fn, cfgOver = {}) {
+  return Object.assign({}, f.spec, { build() { const out = TYPE._renderFace(f.mode, plan, Object.assign({}, f.spec.difficulty[2], cfgOver, { band: f.band }), f.band); out.bodyHtml = fn(out.bodyHtml); return out; } });
 }
 
 /* ----------------------------------------------------------------- poison */
@@ -504,7 +732,7 @@ async function main() {
   const browser = await puppeteer.launch({ headless: 'new' });
   const page = await browser.newPage();
   const pngs = [];
-  const TOTAL = 23;
+  const TOTAL = 23 + 36;
   let killed = 0;
   try {
     // 2. renders through the real pipeline
@@ -588,8 +816,94 @@ async function main() {
       if (judge('PL', msg ? [msg] : [], /has no de block/)) killed++;
     }
 
+    // 5. the faces through the real pipeline (d2 en; the worst legal chrome; the K shapes; a unit each)
+    const fiLong = { title: 'Riimisanaharjoitukset: ympyröimistehtävä riimisanapareille kuvineen', instruction: LONG.fi.instruction };
+    for (const f of FACES) {
+      const r = await renderFace(page, f.spec, { baseName: `${f.id}-gate-d2-en` });
+      const s = assertFaceRender(`${f.id} ${f.mode}`, f, r, { bank: en });
+      pngs.push(r.png);
+      console.log(`render ${f.id} ${f.mode}: verify ${r.verify.length} lints ${r.lints.length} min picture ${s.minIcon} px, lanes ${r.m.lanes.length}, body ${Math.round(r.m.body.h)} px, lowest ${Math.round(r.m.lowest)} vs foot ${Math.round(r.m.foot)}`);
+      for (const [tag, strings] of [['threeline', THREE_LINE], ['filong', fiLong]]) {
+        const rc = await renderFace(page, f.spec, { baseName: `${f.id}-gate-d2-en-${tag}`, strings });
+        assertFaceRender(`${f.id} ${f.mode} ${tag} chrome`, f, rc, { bank: en });
+        pngs.push(rc.png);
+        console.log(`render ${f.id} ${f.mode} ${tag} chrome: body ${Math.round(rc.m.body.h)} px (head ${Math.round(rc.m.titleH)} px), lowest ${Math.round(rc.m.lowest)} vs foot ${Math.round(rc.m.foot)}`);
+      }
+      if (f.mode === 'sort' || f.mode === 'string') {
+        const rk = await renderFace(page, faceWith(f, en, { band: 'K' }), { baseName: `${f.id}-gate-d2-en-Kshape` });
+        assertFaceRender(`${f.id} ${f.mode} K shape`, f, rk, { bank: en, band: 'K' });
+        const rk2 = await renderFace(page, faceWith(f, en, { band: 'K' }), { baseName: `${f.id}-gate-d2-en-Kshape-threeline`, strings: THREE_LINE });
+        assertFaceRender(`${f.id} ${f.mode} K shape three-line chrome`, f, rk2, { bank: en, band: 'K' });
+        pngs.push(rk.png, rk2.png);
+        console.log(`render ${f.id} ${f.mode} K shape: min picture ${Math.round(Math.min(...rk.m.icons))} px (floor 56), glyphH ${rk.m.stamp.glyphH}, lanes ${rk.m.lanes.length}, lowest ${Math.round(rk2.m.lowest)} vs foot ${Math.round(rk2.m.foot)} under the three-line chrome`);
+      }
+      const unit = { judge: 'ock', sort: 'ock', string: 'oon', open: 'ock' }[f.mode];
+      if (unit) {
+        const ru = await renderFace(page, f.spec, { baseName: `${f.id}-gate-d2-en-u${unit}`, unit });
+        assertFaceRender(`${f.id} ${f.mode} unit ${unit}`, f, ru, { bank: en, unit });
+        const onPage = { judge: () => ru.m.face.cards.some((c) => c.rhyme === '1' && c.ca === unit), sort: () => ru.m.face.bins.some((b) => b.cls === unit), string: () => ru.m.face.rows.some((r) => r.cls === unit), open: () => ru.m.face.cards.some((c) => c.cls === unit) }[f.mode]();
+        ok(onPage, `${f.id} unit ${unit}: the unit class is not on the page in the face's sense`);
+        pngs.push(ru.png);
+      } else {
+        ok(f.spec.unitAxis && f.spec.unitAxis.applicable === false, `${f.id}: the couplet face must declare unitAxis.applicable:false`);
+      }
+    }
+    // the face ids + bands are the allocation's (the emitter refuses others, but the K face must live in types/k)
+    ok(FACES.every((f) => f.spec.id === f.id && f.spec.gradeBand === f.band), 'face ids / bands ≠ the rows module');
+    ok(FACES.every((f) => f.spec.themeAxis && f.spec.themeAxis.applicable === false), 'a face lost themeAxis.applicable:false');
+
     // 3. seed sweep (build only)
     if (!QUICK) {
+      // 5b. the faces, 20 seeds each (build only)
+      for (const f of FACES) {
+        const pagesF = new Set();
+        for (let k = 1; k <= 20; k++) {
+          const rng = makeRng(instanceSeed({ typeId: f.id, theme: null, difficulty: 2, seedEpoch: k }));
+          let b;
+          try { b = f.spec.build({ theme: null, difficulty: 2, locale: 'en' }, { rng }); } catch (e) { fails.push(`sweep ${f.id} seed ${k}: ${e.message}`); assertions++; continue; }
+          const mt = b.meta;
+          if (f.mode === 'judge') {
+            const yes = mt.cards.filter((c) => c.rhyme).length;
+            ok(yes === f.cfg.yes && mt.cards.length === f.cfg.cards, `sweep ${f.id} seed ${k}: ${yes}/${mt.cards.length}`);
+            const keys = mt.cards.flatMap((c) => [c.a, c.b]);
+            ok(new Set(keys).size === keys.length, `sweep ${f.id} seed ${k}: a word twice`);
+            const pairCls = new Set(mt.cards.filter((c) => c.rhyme).map((c) => c.clsA));
+            ok(mt.cards.every((c) => c.rhyme ? c.clsA === c.clsB : (c.clsA !== c.clsB && !pairCls.has(c.clsA) && !pairCls.has(c.clsB))), `sweep ${f.id} seed ${k}: a non-pair from a rhyming class / a pair across classes`);
+            let run = 1, bad = false; for (let i = 1; i < mt.cards.length; i++) { run = mt.cards[i].rhyme === mt.cards[i - 1].rhyme ? run + 1 : 1; if (run >= 4) bad = true; }
+            ok(!bad && mt.cards.some((c, i) => c.rhyme && i % 2 === 0) && mt.cards.some((c, i) => c.rhyme && i % 2 === 1), `sweep ${f.id} seed ${k}: layout ${mt.cards.map((c) => (c.rhyme ? 'Y' : 'n')).join('')}`);
+            pagesF.add(keys.slice().sort().join(','));
+          } else if (f.mode === 'sort') {
+            ok(new Set(mt.bins.map((b) => b.cls)).size === f.cfg.bins && mt.bank.length === f.cfg.bins * f.cfg.perBin, `sweep ${f.id} seed ${k}: bins / bank`);
+            const clsOf = new Map(mt.bins.flatMap((b) => b.members.map((m) => [m, b.cls])));
+            ok(!mt.bank.some((k2, i) => i > 0 && clsOf.get(k2) === clsOf.get(mt.bank[i - 1])), `sweep ${f.id} seed ${k}: adjacent pair in the bank`);
+            ok(new Set([...mt.bank, ...mt.bins.map((b) => b.head)]).size === mt.bank.length + mt.bins.length, `sweep ${f.id} seed ${k}: a word twice`);
+            pagesF.add(mt.bank.slice().sort().join(','));
+          } else if (f.mode === 'couplet') {
+            ok(mt.couplets.length === f.cfg.rows && new Set(mt.answers).size === f.cfg.rows, `sweep ${f.id} seed ${k}: couplets / answers`);
+            pagesF.add(mt.couplets.slice().sort().join(','));
+          } else if (f.mode === 'string') {
+            const pageCls = new Set(mt.anchors.map((a) => a.cls));
+            ok(pageCls.size === f.cfg.anchors && mt.foils.length === f.cfg.foils && mt.bank.length === f.cfg.anchors * f.cfg.per + f.cfg.foils, `sweep ${f.id} seed ${k}: shape`);
+            const wordCls = new Map(); for (const c of en.classes) for (const x of c.members) wordCls.set(x.word, c.id);
+            ok(!mt.bank.some((w, i) => i > 0 && pageCls.has(wordCls.get(w)) && wordCls.get(w) === wordCls.get(mt.bank[i - 1])), `sweep ${f.id} seed ${k}: adjacent answers ${mt.bank.join(' ')}`);
+            ok(mt.foils.every((fk) => !pageCls.has(en.classes.find((c) => c.members.some((x) => x.vocabKey === fk)).id)), `sweep ${f.id} seed ${k}: a foil from a page class`);
+            pagesF.add(mt.bank.slice().sort().join(','));
+          } else if (f.mode === 'open') {
+            ok(new Set(mt.cards.map((c) => c.cls)).size === f.cfg.cards && new Set(mt.cards.map((c) => c.anchor)).size === f.cfg.cards, `sweep ${f.id} seed ${k}: classes / anchors`);
+            pagesF.add(mt.cards.map((c) => c.anchor).sort().join(','));
+          }
+        }
+        ok(pagesF.size >= 2, `sweep ${f.id}: ${pagesF.size} distinct pages over 20 seeds`);
+        console.log(`sweep ${f.id} ${f.mode}: ${pagesF.size} distinct pages over 20 seeds`);
+      }
+      // the K shapes of sort + string build over 20 seeds
+      let kF = 0;
+      for (let k = 1; k <= 20; k++) for (const mode of ['sort', 'string']) { const f = FACE_BY_MODE[mode]; try { f.spec._buildWith(en, { difficulty: 2, locale: 'en', band: 'K' }, { rng: makeRng('KF' + k + mode) }); kF++; } catch (e) { fails.push(`sweep ${f.id} K shape seed ${k}: ${e.message}`); } assertions++; }
+      // units buildable per face (a refusal is legal for a unit a face cannot carry)
+      const uF = {};
+      for (const f of FACES) { if (!f.spec.unitAxis.applicable) continue; uF[f.id] = 0; for (const u of units) { try { f.spec._buildWith(en, { difficulty: 2, locale: 'en', unit: u }, { rng: makeRng('uF' + u + f.id) }); uF[f.id]++; } catch (e) { /* legal */ } } }
+      console.log(`sweep faces: K shapes ${kF}/40 builds; units buildable ${Object.entries(uF).map(([id, n]) => id + ' ' + n + '/' + units.length).join(', ')}`);
+
       const pages = { 1: new Set(), 2: new Set(), 3: new Set() };
       const posSeen = { 1: new Set(), 2: new Set(), 3: new Set() };
       for (let k = 1; k <= 20; k++) for (const d of [1, 2, 3]) {
@@ -840,6 +1154,113 @@ async function main() {
       const a = judge('PX bank', gate(b), /exemplar "un" has 1 writable \(sameSpelling\) members < 2/);
       const c = judge('PX build', buildRefusal(b, 2), /exemplar class "un" cannot anchor a row at this difficulty \(refuse\)/);
       if (a && c) killed++;
+    }
+
+    // 5c. face poisons
+    {
+      const J = FACE_BY_MODE.judge, S = FACE_BY_MODE.sort, C = FACE_BY_MODE.couplet, T = FACE_BY_MODE.string, O = FACE_BY_MODE.open;
+      const memberOf = (bank, key) => { for (const c of bank.classes) { const m = c.members.find((x) => x.vocabKey === key); if (m) return { vocabKey: m.vocabKey, word: m.word, cls: c.id, src: fileUri(m.pic.theme, m.pic.noun), pic: m.pic, sameSpelling: m.sameSpelling }; } throw new Error('poison: unknown key ' + key); };
+      const E = (key) => memberOf(en, key);
+      const jcard = (a, b, rhyme) => ({ a: E(a), b: E(b), rhyme, cls: rhyme ? E(a).cls : null });
+      const goodJ = () => ({ face: 'judge', band: 'K', unit: null, cards: [jcard('cat', 'hat', true), jcard('bun', 'star', false), jcard('dog', 'log', true), jcard('nail', 'cake', false), jcard('pen', 'moon', false), jcard('sun', 'bun', true), jcard('map', 'truck', false), jcard('boat', 'goat', true)] });
+      // the control: the hand-built good judge plan passes everything
+      { const g = goodJ(); g.cards[1] = jcard('bread', 'star', false); g.cards[5] = jcard('sun', 'bun', true); const { own, r } = await faceFindings(page, J, faceFrom(J, g), 'K-352-gate-control', en); ok(own.length === 0 && r.verify.length === 0, 'judge control plan: ' + JSON.stringify([...own, ...r.verify].slice(0, 3))); }
+      // FJ1 — a "non-rhyming" pair drawn from ONE class (design P8)
+      { const g = goodJ(); g.cards[1] = jcard('bread', 'star', false); g.cards[5] = jcard('sun', 'bun', true); g.cards[3] = jcard('pear', 'bear', false); const { r } = await faceFindings(page, J, faceFrom(J, g), 'K-352-gate-poison-FJ1', en); if (judge('FJ1', r.verify, /card 4: classes === but rhyme="0" \(pear\/bear\)/)) killed++; }
+      // FJ2 — 7 of 8 rhyme
+      { const g = { face: 'judge', band: 'K', unit: null, cards: [jcard('cat', 'hat', true), jcard('dog', 'log', true), jcard('sun', 'bun', true), jcard('star', 'car', true), jcard('bee', 'tree', true), jcard('boat', 'goat', true), jcard('bed', 'sled', true), jcard('map', 'truck', false)] }; const { r, own } = await faceFindings(page, J, faceFrom(J, g), 'K-352-gate-poison-FJ2', en); const a = judge('FJ2 verify', r.verify, /7 yes \/ 1 no — one verdict is \(nearly\) constant|four equal verdicts/); const b = judge('FJ2 gate', own, /7 rhyming cards ≠ the config's 4/); if (a && b) killed++; }
+      // FJ3 — every rhyming pair in one column (even indices)
+      { const g = { face: 'judge', band: 'K', unit: null, cards: [jcard('cat', 'hat', true), jcard('bread', 'star', false), jcard('dog', 'log', true), jcard('nail', 'cake', false), jcard('sun', 'bun', true), jcard('pen', 'moon', false), jcard('boat', 'goat', true), jcard('map', 'truck', false)] }; const { r } = await faceFindings(page, J, faceFrom(J, g), 'K-352-gate-poison-FJ3', en); if (judge('FJ3', r.verify, /the rhyming pairs sit in one column/)) killed++; }
+      // FJ4 — a chip printing "yes" · FJ5 — a coral cross
+      { const g = goodJ(); g.cards[1] = jcard('bread', 'star', false); const t = mutated(J, g, (h) => h.replace('data-lcs-chip="yes">', 'data-lcs-chip="yes"><span style="font-size:12px">yes</span>')); const r = await renderFace(page, t, { baseName: 'K-352-gate-poison-FJ4' }); if (judge('FJ4', r.verify, /chip "yes" carries text "yes"/)) killed++; }
+      { const g = goodJ(); g.cards[1] = jcard('bread', 'star', false); const t = mutated(J, g, (h) => h.replace(/(data-lcs-chip="no">[\s\S]*?stroke=")#146B5E/, '$1#F2784B')); const r = await renderFace(page, t, { baseName: 'K-352-gate-poison-FJ5' }); if (judge('FJ5', r.verify, /chip "no" mark is #F2784B, not teal/)) killed++; }
+      // FJ6 — a word twice
+      { const g = goodJ(); g.cards[1] = jcard('bread', 'star', false); g.cards[6] = jcard('cat', 'truck', false); const { r } = await faceFindings(page, J, faceFrom(J, g), 'K-352-gate-poison-FJ6', en); if (judge('FJ6', r.verify, /"cat" already on the page \(card 1\)/)) killed++; }
+      // FJ7 — a non-pair whose two classes share a SOUND (synthetic bank: chair moved into its own -air class)
+      { const b = clone(en); const ear = b.classes.find((c) => c.id === 'ear'); const chair = ear.members.splice(2, 1)[0]; b.classes.push({ id: 'air', rime: '-air', sound: 'ɛr', cap: 8, members: [chair, Object.assign(clone(ear.members[0]), { vocabKey: 'pear2' })], extra: [], nearMiss: [] }); b.classes[b.classes.length - 1].members.pop();
+        b.classes[b.classes.length - 1].members.push({ vocabKey: 'bear', word: 'bear', pic: { theme: 'camping', noun: 'bear' }, sameSpelling: false, productive: true, picOpened: true }); ear.members = ear.members.filter((m) => m.vocabKey !== 'bear');
+        const M = (k) => memberOf(b, k); const g = goodJ(); g.cards[1] = jcard('bread', 'star', false); g.cards[3] = { a: M('pear'), b: M('chair'), rhyme: false, cls: null };
+        const { r, own } = await faceFindings(page, J, faceFrom(J, g), 'K-352-gate-poison-FJ7', b); const a = judge('FJ7 node', own, /non-pair pear\/chair — classes ear\/air share the sound "ɛr"/, `verify ${r.verify.length} (bank-blind by design)`); if (a) killed++; }
+      // FJ8 — a 48 px picture on the K face → _planFace refuses
+      { if (judge('FJ8', planRefusal(J, en, { cfg: { picPx: 48 } }), /picture 48 px below the K floor 56/)) killed++; }
+      // FJ9 — a near-miss non-pair (cat / cap)
+      { const g = goodJ(); g.cards[1] = jcard('bread', 'star', false); g.cards[0] = jcard('bat', 'hat', true); g.cards[3] = jcard('cat', 'cap', false); const { own } = await faceFindings(page, J, faceFrom(J, g), 'K-352-gate-poison-FJ9', en); if (judge('FJ9', own, /non-pair cat\/cap is a near-miss pair/)) killed++; }
+
+      const sbin = (cls, head, members) => ({ cls, head: E(head), members: members.map(E) });
+      const goodS = () => { const bins = [sbin('at', 'cat', ['hat', 'bat']), sbin('og', 'frog', ['dog', 'log']), sbin('ar', 'star', ['car', 'jar'])]; return { face: 'sort', band: 'G1', unit: null, bins, bankItems: [E('hat'), E('dog'), E('car'), E('bat'), E('log'), E('jar')] }; };
+      { const { own, r } = await faceFindings(page, S, faceFrom(S, goodS()), 'G1-343-gate-control', en); ok(own.length === 0 && r.verify.length === 0, 'sort control plan: ' + JSON.stringify([...own, ...r.verify].slice(0, 3))); }
+      // FS1 — a bank picture whose class is no bin's
+      { const g = goodS(); g.bankItems[1] = E('sun'); const { r } = await faceFindings(page, S, faceFrom(S, g), 'G1-343-gate-poison-FS1', en); if (judge('FS1', r.verify, /bank 2: class "un" is no bin's class/)) killed++; }
+      // FS2 — two bins of one class
+      { const g = goodS(); g.bins[2] = sbin('at', 'cat', ['hat', 'bat']); g.bins[2].head = E('cap'); g.bins[2].head.cls = 'at'; const { r } = await faceFindings(page, S, faceFrom(S, g), 'G1-343-gate-poison-FS2', en); if (judge('FS2', r.verify, /two bins share a class/)) killed++; }
+      // FS3 — a bin's two members adjacent in the bank
+      { const g = goodS(); g.bankItems = [E('hat'), E('bat'), E('dog'), E('car'), E('log'), E('jar')]; const { r } = await faceFindings(page, S, faceFrom(S, g), 'G1-343-gate-poison-FS3', en); if (judge('FS3', r.verify, /bank 2: adjacent to a picture of the same class "at"/)) killed++; }
+      // FS4 — a bin head also in the bank
+      { const g = goodS(); g.bankItems[0] = E('cat'); const { r } = await faceFindings(page, S, faceFrom(S, g), 'G1-343-gate-poison-FS4', en); if (judge('FS4', r.verify, /"cat" is also a bin head/)) killed++; }
+      // FS5 — a lane with printed text
+      { const t = mutated(S, goodS(), (h) => h.replace('</svg></div><div data-lcs-bin-lane="2"', '<text x="10" y="40" font-size="20">hat</text></svg></div><div data-lcs-bin-lane="2"')); const r = await renderFace(page, t, { baseName: 'G1-343-gate-poison-FS5' }); if (judge('FS5', r.verify, /lane 1: the writing row is not empty/)) killed++; }
+      // FS6 — a unit that cannot head a bin
+      { if (judge('FS6', planRefusal(S, en, { unit: 'un' }), /unit "un" cannot carry this face \(refuse\)/)) killed++; }
+      // FS7 — a bank picture stamped with another class (verify passes: the class matches a bin)
+      { const g = goodS(); g.bankItems = [E('hat'), E('car'), Object.assign({}, E('dog'), { cls: 'at' }), E('log'), E('jar'), Object.assign({}, E('bat'), { cls: 'og' })]; const { r, own } = await faceFindings(page, S, faceFrom(S, g), 'G1-343-gate-poison-FS7', en); if (judge('FS7', own, /bank picture "dog" stamped class "at" ≠ bank "og" — not verbatim/, `verify ${r.verify.length} (bank-blind by design)`)) killed++; }
+
+      const crow = (id) => { const cp = en.couplets.find((c) => c.id === id); const a = E(cp.answer.vocabKey); const [pre, post] = cp.lines[1].split('___'); return { id, line1: cp.lines[0], pre, post: post || '', rhymeWith: cp.rhymeWith, answer: a, cls: a.cls }; };
+      const goodC = () => ({ face: 'couplet', band: 'G1', unit: null, rows: ['cat-hat', 'dog-frog', 'sun-bun', 'star-car', 'boat-goat', 'bed-sled'].map(crow) });
+      { const { own, r } = await faceFindings(page, C, faceFrom(C, goodC()), 'G1-344-gate-control', en); ok(own.length === 0 && r.verify.length === 0, 'couplet control plan: ' + JSON.stringify([...own, ...r.verify].slice(0, 3))); }
+      // FC1 — line 2 prints the answer
+      { const g = goodC(); g.rows[0].pre = 'and put on a big red hat '; const { r } = await faceFindings(page, C, faceFrom(C, g), 'G1-344-gate-poison-FC1', en); if (judge('FC1', r.verify, /couplet 1: the answer "hat" is printed in the verse/)) killed++; }
+      // FC2 — line 1 without the partner
+      { const g = goodC(); g.rows[0].line1 = 'The cat sat down on the rug'; const { r } = await faceFindings(page, C, faceFrom(C, g), 'G1-344-gate-poison-FC2', en); if (judge('FC2', r.verify, /couplet 1: line 1 ".*" does not end in \/ carry the partner "mat"/)) killed++; }
+      // FC3 — the same answer twice
+      { const g = goodC(); g.rows[5] = crow('cat-hat'); const { r } = await faceFindings(page, C, faceFrom(C, g), 'G1-344-gate-poison-FC3', en); if (judge('FC3', r.verify, /couplet 6: answer "hat" repeats/)) killed++; }
+      // FC4 — the lane pre-filled
+      { const t = mutated(C, goodC(), (h) => h.replace('</svg></span>', '<text x="10" y="40" font-size="20">hat</text></svg></span>')); const r = await renderFace(page, t, { baseName: 'G1-344-gate-poison-FC4' }); if (judge('FC4', r.verify, /couplet 1: lane: the writing row is not empty/)) killed++; }
+      // FC5 — 7 couplets → F3 refused
+      { const b = clone(en); b.couplets = b.couplets.slice(0, 7); if (judge('FC5', planRefusal(C, b), /has 7 couplets < 8 — F3 refused/)) killed++; }
+      // FC6 — the text floating off the base line (padding-bottom removed on row 1)
+      { const t = mutated(C, goodC(), (h) => h.replace(/;padding-bottom:[0-9.]+px" data-lcs-verse-text="1">and put/, '" data-lcs-verse-text="1">and put')); const r = await renderFace(page, t, { baseName: 'G1-344-gate-poison-FC6' }); if (judge('FC6', r.verify, /couplet 1: line 2 text baseline \d+ is -?\d+ px off the lane's base line/)) killed++; }
+      // FC7 — a 70-char verse line
+      { const g = goodC(); g.rows[0].line1 = 'The cat sat down on the mat and the mat was very very very flat mat'; const { r } = await faceFindings(page, C, faceFrom(C, g), 'G1-344-gate-poison-FC7', en); if (judge('FC7', r.verify, /couplet 1: line 1 spans \d+ px of ink past the \d+ px column/)) killed++; }
+
+      const tanch = (cls, anchor, answers) => ({ cls, anchor: E(anchor), answers: answers.map(E) });
+      const foil = (k) => Object.assign(E(k), { foil: true });
+      const goodT = () => { const anchors = [tanch('at', 'cat', ['hat', 'bat']), tanch('og', 'frog', ['dog', 'log']), tanch('ar', 'star', ['car', 'jar']), tanch('oat', 'boat', ['coat', 'goat'])]; const foils = [foil('sun'), foil('pen'), foil('moon'), foil('map')]; return { face: 'string', band: 'G1', unit: null, anchors, foils, bankItems: [E('hat'), E('dog'), foil('sun'), E('car'), E('bat'), E('coat'), foil('pen'), E('log'), E('goat'), foil('moon'), E('jar'), foil('map')] }; };
+      { const { own, r } = await faceFindings(page, T, faceFrom(T, goodT()), 'G1-345-gate-control', en); ok(own.length === 0 && r.verify.length === 0, 'string control plan: ' + JSON.stringify([...own, ...r.verify].slice(0, 3))); }
+      // FT1 — the bank missing an answer
+      { const g = goodT(); g.bankItems[0] = foil('bed'); const { r } = await faceFindings(page, T, faceFrom(T, g), 'G1-345-gate-poison-FT1', en); if (judge('FT1', r.verify, /anchor 1: answer "hat" is not in the bank/)) killed++; }
+      // FT2 — a foil from an anchor's class (guitar is -ar; star anchors -ar on the plan)
+      { const g = goodT(); g.bankItems[2] = foil('guitar'); g.foils[0] = foil('guitar'); const { r } = await faceFindings(page, T, faceFrom(T, g), 'G1-345-gate-poison-FT2', en); if (judge('FT2', r.verify, /bank 3: foil "guitar" is from an anchor's class "ar" — it rhymes/)) killed++; }
+      // FT3 — an anchor's two answers adjacent
+      { const g = goodT(); g.bankItems = [E('hat'), E('bat'), E('dog'), foil('sun'), E('car'), E('coat'), foil('pen'), E('log'), E('goat'), foil('moon'), E('jar'), foil('map')]; const { r } = await faceFindings(page, T, faceFrom(T, g), 'G1-345-gate-poison-FT3', en); if (judge('FT3', r.verify, /anchor 1: its answers "hat" and "bat" are adjacent in the bank/)) killed++; }
+      // FT4 — the anchor's own word in the bank
+      { const g = goodT(); g.bankItems[2] = foil('cat'); g.foils[0] = foil('cat'); const { r } = await faceFindings(page, T, faceFrom(T, g), 'G1-345-gate-poison-FT4', en); if (judge('FT4', r.verify, /the anchor word "cat" is printed in the bank|the anchor's own word "cat"|foil "cat" is from an anchor's class/)) killed++; }
+      // FT5 — a bank that needs three rows: the plan guard refuses; a forced render fails verify()
+      { const a = judge('FT5 guard', planRefusal(T, en, { cfg: { wordPx: 60 } }), /bank of 12 words estimates \d+ px > two rows/); const t = faceFrom(T, goodT(), { wordPx: 40 }); const r = await renderFace(page, t, { baseName: 'G1-345-gate-poison-FT5' }); const b = judge('FT5 verify', r.verify, /the bank wraps to \d+ rows \(max 2\)/); if (a && b) killed++; }
+      // FT6 — a foil whose class shares an anchor's SOUND: a synthetic -une class (sound uːn, rime -oon) that carries
+      //       raccoon beside the real -oon (verify() sees a different class id and passes; only the node check hears it)
+      { const b3 = clone(en); const oon3 = b3.classes.find((c) => c.id === 'oon'); const rac = oon3.members.splice(3, 1)[0]; b3.classes.push({ id: 'une', rime: '-oon', sound: 'uːn', cap: 8, members: [rac, { vocabKey: 'muffin', word: 'muffin', pic: { theme: 'bakery', noun: 'muffin' }, sameSpelling: false, productive: true, picOpened: true }], extra: [], nearMiss: [] });
+        const M3 = (k) => memberOf(b3, k);
+        const g4 = goodT(); g4.anchors[3] = { cls: 'oon', anchor: M3('moon'), answers: [M3('spoon'), M3('balloon')] }; g4.foils = [foil('sun'), foil('pen'), Object.assign(M3('raccoon'), { foil: true }), foil('map')];
+        g4.bankItems = [E('hat'), E('dog'), foil('sun'), E('car'), E('bat'), M3('spoon'), foil('pen'), E('log'), M3('balloon'), Object.assign(M3('raccoon'), { foil: true }), E('jar'), foil('map')];
+        const { r, own } = await faceFindings(page, T, faceFrom(T, g4), 'G1-345-gate-poison-FT6', b3); if (judge('FT6', own, /foil "raccoon" \(class une\) shares an anchor's SOUND "uːn" — it rhymes/, `verify ${r.verify.length} (bank-blind by design)`)) killed++; }
+
+      const ocard = (cls, anchor) => { const a = E(anchor); const c = en.classes.find((x) => x.id === cls); return { cls, anchor: a, examples: [...c.members.filter((x) => x.vocabKey !== anchor).map((x) => x.word), ...c.extra] }; };
+      const goodO = () => ({ face: 'open', band: 'G1', unit: null, cards: [ocard('at', 'cat'), ocard('og', 'dog'), ocard('un', 'sun'), ocard('ar', 'star'), ocard('ee', 'bee'), ocard('oat', 'boat')] });
+      { const { own, r } = await faceFindings(page, O, faceFrom(O, goodO()), 'G1-346-gate-control', en); ok(own.length === 0 && r.verify.length === 0, 'open control plan: ' + JSON.stringify([...own, ...r.verify].slice(0, 3))); }
+      // FO1 — the printed word ≠ the stamp
+      { const t = mutated(O, goodO(), (h) => h.replace('data-lcs-word-print="1">cat<', 'data-lcs-word-print="1">hat<')); const r = await renderFace(page, t, { baseName: 'G1-346-gate-poison-FO1' }); if (judge('FO1', r.verify, /card 1: prints "hat" ≠ stamp "cat"/)) killed++; }
+      // FO2 — a class twice
+      { const g = goodO(); g.cards[5] = ocard('at', 'hat'); const { r } = await faceFindings(page, O, faceFrom(O, g), 'G1-346-gate-poison-FO2', en); if (judge('FO2', r.verify, /card 6: class "at" already on the page/)) killed++; }
+      // FO3 — a ruling with text
+      { const t = mutated(O, goodO(), (h) => h.replace('</svg></div><div data-lcs-ruling-row="2"', '<text x="10" y="40" font-size="20">hat</text></svg></div><div data-lcs-ruling-row="2"')); const r = await renderFace(page, t, { baseName: 'G1-346-gate-poison-FO3' }); if (judge('FO3', r.verify, /card 1: ruling 1: the writing row is not empty/)) killed++; }
+      // FO4 — a productive:false anchor (synthetic bank)
+      { const b = clone(en); b.classes.find((c) => c.id === 'at').members[0].productive = false; const { own } = await faceFindings(page, O, faceFrom(O, goodO()), 'G1-346-gate-poison-FO4', b); const a = judge('FO4 node', own, /anchor "cat" is productive:false/); const drew = planOf(O, b, { unit: 'at', seed: 'fo4' }).cards.some((x) => x.anchor.vocabKey === 'cat'); poisonLog.push('  FO4 plan: ' + (drew ? 'DRAWS cat although productive:false (WRONG)' : 'never draws a productive:false anchor (control)')); if (a && !drew) killed++; }
+      // FO5 — a sameSpelling:false anchor (key) on the write face
+      { const g = goodO(); g.cards[4] = ocard('ee', 'key'); const { own } = await faceFindings(page, O, faceFrom(O, g), 'G1-346-gate-poison-FO5', en); if (judge('FO5', own, /anchor "key" is sameSpelling:false on a WRITE face/)) killed++; }
+      // FM — the base page stamped data-lcs-mode="judge": verify dispatches to the face and fails
+      { const good = TYPE._buildWith(en, { difficulty: 2, locale: 'en' }, { rng: makeRng('fm') }); const t = Object.assign({}, TYPE, { build() { const out = clone(good); out.bodyHtml = out.bodyHtml.replace('data-lcs-rhyming ', 'data-lcs-rhyming data-lcs-mode="judge" '); return out; } }); const r = await renderWith(page, t, { difficulty: 2, baseName: 'G1-309-gate-poison-FM' }); const a = judge('FM verify', r.verify, /0 cards ≠ stamp|judge band "G1" is not K|a face root carries the base rows stamp/); const before = fails.length; assertRender('FM', r, TYPE.difficulty[2], en); const own = fails.splice(before); const b = judge('FM gate', own, /the BASE page carries data-lcs-mode="judge"/); if (a && b) killed++; }
+      // FL — an unauthored locale refuses on every face
+      { const msgs = []; for (const f of FACES) { try { f.spec.build({ theme: null, difficulty: 2, locale: 'de' }, { rng: makeRng('fl') }); msgs.push(f.id + ': built'); } catch (e) { msgs.push(f.id + ': ' + e.message); } } if (judge('FL', msgs.every((m) => /has no de block/.test(m)) ? msgs : [], /has no de block/, msgs.filter((m) => !/has no de block/.test(m)).join(' | ') || 'all five refuse')) killed++; }
     }
 
     console.log('poison:\n' + poisonLog.join('\n'));

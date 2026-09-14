@@ -700,7 +700,6 @@
         "disegnare",
         "parlare",
         "ballare",
-        "ascoltare",
         "dipingere",
         "ridere",
         "mangiare"
@@ -716,9 +715,7 @@
       "fits": [
         "leggere",
         "dormire",
-        "disegnare",
-        "ascoltare",
-        "ridere"
+        "disegnare"
       ],
       "subjectLiteral": "io",
       "pic": null
@@ -732,9 +729,7 @@
         "cucinare",
         "mangiare",
         "disegnare",
-        "dipingere",
-        "guardare",
-        "vedere"
+        "dipingere"
       ],
       "subjectLiteral": "Io",
       "pic": null
@@ -769,8 +764,7 @@
         "disegnare",
         "dipingere",
         "guardare",
-        "vedere",
-        "sentire"
+        "vedere"
       ],
       "subjectLiteral": "Io",
       "pic": null
@@ -844,7 +838,6 @@
         "disegnare",
         "dipingere",
         "camminare",
-        "dormire",
         "mangiare"
       ],
       "subjectLiteral": "Tu",
@@ -872,8 +865,7 @@
         "vedere",
         "guardare",
         "disegnare",
-        "dipingere",
-        "sentire"
+        "dipingere"
       ],
       "subjectLiteral": "Tu",
       "pic": null
@@ -902,7 +894,6 @@
         "fare",
         "finire",
         "scrivere",
-        "guardare",
         "leggere"
       ],
       "subjectLiteral": "Tu",
@@ -937,11 +928,9 @@
       "fits": [
         "leggere",
         "scrivere",
-        "disegnare",
         "guardare",
         "aprire",
-        "finire",
-        "vedere"
+        "finire"
       ],
       "subjectLiteral": "Matteo",
       "pic": null
@@ -974,8 +963,7 @@
         "pulire",
         "disegnare",
         "dipingere",
-        "guardare",
-        "vedere"
+        "guardare"
       ],
       "subjectLiteral": "Giulia",
       "pic": null
@@ -1017,8 +1005,7 @@
         "disegnare",
         "dipingere",
         "guardare",
-        "vedere",
-        "sentire"
+        "vedere"
       ],
       "subjectLiteral": "Alice",
       "pic": null
@@ -1032,7 +1019,6 @@
         "fare",
         "finire",
         "scrivere",
-        "guardare",
         "leggere"
       ],
       "subjectLiteral": "Francesco",
@@ -1047,8 +1033,7 @@
         "leggere",
         "aprire",
         "guardare",
-        "finire",
-        "vedere"
+        "finire"
       ],
       "subjectLiteral": "Il nonno",
       "pic": null
@@ -1062,8 +1047,7 @@
         "aprire",
         "guardare",
         "pulire",
-        "dipingere",
-        "vedere"
+        "dipingere"
       ],
       "subjectLiteral": "Matteo",
       "pic": null
@@ -1111,9 +1095,7 @@
       "unit": "presente",
       "fits": [
         "cucinare",
-        "mangiare",
-        "guardare",
-        "vedere"
+        "mangiare"
       ],
       "subjectLiteral": "Noi",
       "pic": null
@@ -1124,13 +1106,7 @@
       "col": "noi",
       "unit": "presente",
       "fits": [
-        "essere",
-        "leggere",
-        "scrivere",
-        "disegnare",
-        "cantare",
-        "parlare",
-        "ascoltare"
+        "essere"
       ],
       "subjectLiteral": "Noi",
       "pic": null
@@ -1142,9 +1118,7 @@
       "unit": "presente",
       "fits": [
         "avere",
-        "vedere",
-        "sentire",
-        "ascoltare"
+        "vedere"
       ],
       "subjectLiteral": "Noi",
       "pic": null
@@ -1188,8 +1162,7 @@
       "unit": "presente",
       "fits": [
         "lavare",
-        "pulire",
-        "guardare"
+        "pulire"
       ],
       "subjectLiteral": "Voi",
       "pic": null
@@ -1251,7 +1224,6 @@
         "fare",
         "finire",
         "scrivere",
-        "guardare",
         "leggere"
       ],
       "subjectLiteral": "Voi",
@@ -1323,9 +1295,7 @@
         "cucinare",
         "mangiare",
         "disegnare",
-        "dipingere",
-        "guardare",
-        "vedere"
+        "dipingere"
       ],
       "subjectLiteral": "Giulia e Alice",
       "pic": null
@@ -1338,11 +1308,9 @@
       "fits": [
         "leggere",
         "scrivere",
-        "disegnare",
         "guardare",
         "aprire",
-        "finire",
-        "vedere"
+        "finire"
       ],
       "subjectLiteral": "Lorenzo e Matteo",
       "pic": null
@@ -1396,7 +1364,6 @@
         "fare",
         "finire",
         "scrivere",
-        "guardare",
         "leggere"
       ],
       "subjectLiteral": "Sofia e Leonardo",
@@ -1415,6 +1382,18 @@
         "correre"
       ],
       "subjectLiteral": "Le bambine",
+      "pic": null
+    },
+    {
+      "id": "f47",
+      "text": "La sera io {form} la musica.",
+      "col": "io",
+      "unit": "presente",
+      "fits": [
+        "ascoltare",
+        "sentire"
+      ],
+      "subjectLiteral": "io",
       "pic": null
     }
   ],

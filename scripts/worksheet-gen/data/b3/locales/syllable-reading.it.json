@@ -288,16 +288,6 @@
           ]
         },
         {
-          "key": "pilot",
-          "word": "pilota",
-          "unit": "pi",
-          "split": [
-            "pi",
-            "lo",
-            "ta"
-          ]
-        },
-        {
           "key": "pinecone",
           "word": "pigna",
           "unit": "pi",
@@ -766,16 +756,6 @@
           ]
         },
         {
-          "key": "pitcher",
-          "word": "caraffa",
-          "unit": "ca",
-          "split": [
-            "ca",
-            "raf",
-            "fa"
-          ]
-        },
-        {
           "key": "rabbit",
           "word": "coniglio",
           "unit": "co",
@@ -835,7 +815,8 @@
           "split": [
             "ca",
             "mion"
-          ]
+          ],
+          "pictureTheme": "vehicles"
         },
         {
           "key": "waitress",
@@ -3958,29 +3939,11 @@
       ]
     },
     {
-      "key": "pilot",
-      "word": "pilota",
-      "split": [
-        "pi",
-        "lo",
-        "ta"
-      ]
-    },
-    {
       "key": "pinecone",
       "word": "pigna",
       "split": [
         "pi",
         "gna"
-      ]
-    },
-    {
-      "key": "pitcher",
-      "word": "caraffa",
-      "split": [
-        "ca",
-        "raf",
-        "fa"
       ]
     },
     {
@@ -4662,7 +4625,8 @@
       "split": [
         "ca",
         "mion"
-      ]
+      ],
+      "pictureTheme": "vehicles"
     },
     {
       "key": "trumpet",
@@ -4821,14 +4785,14 @@
     "barrette",
     "baseball",
     "basketball",
-    "beige",
     "begonia",
+    "beige",
     "biking",
     "biscuit",
     "black",
     "blue",
-    "bookshelf",
     "bookcase",
+    "bookshelf",
     "brown",
     "brownie",
     "bud",
@@ -4845,8 +4809,8 @@
     "chimney",
     "chin",
     "closet",
-    "clover",
     "cloudy",
+    "clover",
     "cold",
     "computer",
     "confused",
@@ -4938,7 +4902,9 @@
     "picnic",
     "pie",
     "pillow",
+    "pilot",
     "pink",
+    "pitcher",
     "plum",
     "popcorn",
     "porridge",
@@ -4964,6 +4930,7 @@
     "scared",
     "scarlet",
     "science",
+    "scooter",
     "sewing",
     "shoulder",
     "shy",
@@ -5016,8 +4983,7 @@
     "x-ray",
     "yacht",
     "yellow",
-    "zinnia",
-    "scooter"
+    "zinnia"
   ],
   "whitelist": {},
   "refuse": {

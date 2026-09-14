@@ -187,17 +187,17 @@
         },
         {
           "a": {
-            "vocabKey": "ice",
-            "word": "ghiaccio"
+            "vocabKey": "bird",
+            "word": "uccello"
           },
-          "aStem": "ghiacci",
+          "aStem": "uccell",
           "link": "",
           "b": {
-            "affix": "-olo"
+            "affix": "-ino"
           },
           "whole": {
-            "word": "ghiacciolo",
-            "vocabKey": "popsicle",
+            "word": "uccellino",
+            "vocabKey": null,
             "scale": 1
           },
           "hubSide": "a",
@@ -1078,9 +1078,7 @@
     "summer/cap": [
       "cap"
     ],
-    "winter/ice": [
-      "ice"
-    ],
+    "winter/ice": [],
     "desserts and sweets/popsicle": [
       "popsicle"
     ],
@@ -1367,6 +1365,12 @@
     ],
     "around the house/vase": [
       "vase"
+    ],
+    "Things That Fly/bird": [
+      "bird"
+    ],
+    "spring/bird": [
+      "bird"
     ]
   },
   "strings": {

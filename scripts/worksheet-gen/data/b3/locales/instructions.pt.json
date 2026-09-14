@@ -2364,11 +2364,6 @@
       }
     ]
   },
-  "numbers": {
-    "3": "três",
-    "4": "quatro",
-    "5": "cinco"
-  },
   "draw": [
     {
       "text": "Desenhe {n} {pl} no quadro."

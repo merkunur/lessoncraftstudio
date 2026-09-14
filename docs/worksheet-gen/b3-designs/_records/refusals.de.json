@@ -1,0 +1,6 @@
+{
+  "locale": "de",
+  "refusals": {
+    "G2-328": "Mehrzahl-Regel: Die deutsche Mehrzahl ändert die Schreibweise im Wortinneren (Umlaut: Baum–Bäume, Maus–Mäuse, Haus–Häuser), nicht am Wortende; das Regelmodell (Stamm minus Endung plus Suffix-Lücke) kann diese Ableitung nicht abbilden — laut Design §4 für de verweigert."
+  }
+}

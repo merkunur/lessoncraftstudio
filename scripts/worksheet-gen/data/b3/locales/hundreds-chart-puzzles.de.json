@@ -1,0 +1,29 @@
+{
+  "exemplar": "1-100",
+  "strings": {
+    "G1-310": {
+      "title": "Hundertertafel-Puzzle: Zahlen ergänzen",
+      "instruction": "Auf jedem Puzzleteil steht eine Zahl. Schreibe alle fehlenden Zahlen: rechts 1 mehr, links 1 weniger, unten 10 mehr, oben 10 weniger."
+    },
+    "F1": {
+      "title": "Wohin gehört das Puzzleteil?",
+      "instruction": "Lies die Zahlen auf jedem Teil, finde seinen Platz auf der leeren Tafel und trage sie dort ein."
+    },
+    "F2": {
+      "title": "Sprungrätsel: Folge den Pfeilen",
+      "instruction": "Beginne bei der Zahl und folge den Pfeilen: nach oben 10 weniger, nach unten 10 mehr, nach rechts 1 mehr. Schreibe auf, wo du landest."
+    },
+    "F3": {
+      "title": "Geheimzahl: Zwei Pfeile, ein Feld",
+      "instruction": "Folge beiden Pfeilen. Sie zeigen auf dasselbe Feld der Tafel. Schreibe die Geheimzahl auf."
+    },
+    "F4": {
+      "title": "Finde die falsche Zahl auf dem Puzzleteil",
+      "instruction": "Auf jedem Teil ist eine Zahl falsch. Kreise sie ein und schreibe die richtige Zahl in das Kästchen."
+    },
+    "F5": {
+      "title": "Wie weit auseinander? Zähle die Sprünge",
+      "instruction": "Zähle, wie viele Sprünge nach unten und wie viele nach rechts dich von der ersten Zahl zur zweiten bringen."
+    }
+  }
+}

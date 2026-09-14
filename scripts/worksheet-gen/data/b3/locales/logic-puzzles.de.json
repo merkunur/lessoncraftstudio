@@ -1,0 +1,100 @@
+{
+  "head": "Logicals",
+  "names": [
+    {
+      "nom": "Mia"
+    },
+    {
+      "nom": "Ben"
+    },
+    {
+      "nom": "Emma"
+    },
+    {
+      "nom": "Leo"
+    },
+    {
+      "nom": "Anna"
+    },
+    {
+      "nom": "Tom"
+    },
+    {
+      "nom": "Lina"
+    },
+    {
+      "nom": "Max"
+    }
+  ],
+  "namePx": 22,
+  "picSep": "",
+  "frames": {
+    "neg": [
+      "{name} hat {pic} nicht.",
+      "{pic} gehört nicht {name}."
+    ],
+    "pos": [
+      "{name} hat {pic}.",
+      "{pic} gehört {name}."
+    ],
+    "either": [
+      "{name} hat {pic} oder {pic}.",
+      "{pic} oder {pic} gehört {name}."
+    ],
+    "holderNot": [
+      "Das Kind mit {pic} ist nicht {name}.",
+      "{name} ist nicht das Kind mit {pic}."
+    ],
+    "cross": [
+      "Das Kind mit {pic} hat {pic2}.",
+      "Wer {pic} hat, hat auch {pic2}."
+    ],
+    "crossNot": [
+      "Das Kind mit {pic} hat {pic2} nicht.",
+      "Wer {pic} hat, hat {pic2} nicht."
+    ]
+  },
+  "truth": {
+    "has": [
+      "{name} hat {pic}."
+    ],
+    "hasNot": [
+      "{name} hat {pic} nicht."
+    ],
+    "holderIs": [
+      "Das Kind mit {pic} ist {name}."
+    ],
+    "either": [
+      "{name} hat {pic} oder {pic}."
+    ],
+    "nobody": [
+      "Niemand hat {pic}."
+    ]
+  },
+  "strings": {
+    "G2-319": {
+      "title": "Logicals: Drei Hinweise, eine Lösung",
+      "instruction": "Lies die Hinweise. Streiche in der Tabelle durch, was nicht stimmen kann, hake ab, was stimmen muss, und kreise dann das Bild jedes Kindes ein."
+    },
+    "F1": {
+      "title": "Logicals mit Entweder-oder-Hinweisen",
+      "instruction": "Ein Ja-Hinweis bekommt einen Haken, ein Nein-Hinweis ein Kreuz, ein Entweder-oder-Hinweis streicht das dritte Bild. Löse die Tabelle und kreise ein."
+    },
+    "F2": {
+      "title": "Logicals 4 mal 4: Sechs Hinweise",
+      "instruction": "Vier Kinder und vier Bilder. Nutze jeden Hinweis: Streiche durch, was nicht sein kann, und hake ab, was sein muss, bis jede Zeile eine Lösung hat."
+    },
+    "F3": {
+      "title": "Logicals mit Bildhinweisen",
+      "instruction": "Ein durchgestrichenes Bild heißt: Das Kind hat es nicht. Ein eingekreistes Bild heißt: Das Kind hat es. Löse die Tabelle und kreise ein."
+    },
+    "F4": {
+      "title": "Logicals mit zwei Merkmalen",
+      "instruction": "Jedes Kind hat aus jeder Gruppe ein Bild. Nutze die Verbindungshinweise, um alle drei Tabellen zu lösen."
+    },
+    "F5": {
+      "title": "Lies die Logical-Tabelle: Richtig oder falsch?",
+      "instruction": "Die Tabelle ist schon gelöst. Lies sie und kreise den Haken ein, wenn der Satz stimmt, oder das Kreuz, wenn er falsch ist."
+    }
+  }
+}

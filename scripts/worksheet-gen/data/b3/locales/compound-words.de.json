@@ -1,0 +1,1318 @@
+{
+  "shape": "compound",
+  "casing": "keep-first",
+  "links": [
+    "",
+    "n",
+    "en",
+    "s",
+    "e",
+    "er",
+    "es"
+  ],
+  "linkBoxW": 36,
+  "exemplar": "A",
+  "units": [
+    {
+      "id": "A",
+      "items": [
+        {
+          "a": {
+            "vocabKey": "water",
+            "word": "Wasser",
+            "pic": {
+              "theme": "beach",
+              "noun": "water"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "melon",
+            "word": "melone",
+            "pic": {
+              "theme": "At the Supermarket",
+              "noun": "melon"
+            }
+          },
+          "whole": {
+            "word": "Wassermelone",
+            "vocabKey": "watermelon",
+            "scale": 1,
+            "pic": {
+              "theme": "fruits",
+              "noun": "watermelon"
+            }
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "rain",
+            "word": "Regen",
+            "pic": {
+              "theme": "spring",
+              "noun": "rain"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "coat",
+            "word": "mantel",
+            "pic": {
+              "theme": "clothing",
+              "noun": "coat"
+            }
+          },
+          "whole": {
+            "word": "Regenmantel",
+            "vocabKey": "raincoat",
+            "scale": 1,
+            "pic": {
+              "theme": "clothing",
+              "noun": "raincoat"
+            }
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "sun",
+            "word": "Sonne",
+            "pic": {
+              "theme": "weather",
+              "noun": "sun"
+            }
+          },
+          "aStem": null,
+          "link": "n",
+          "b": {
+            "vocabKey": "flower",
+            "word": "blume",
+            "pic": {
+              "theme": "spring",
+              "noun": "flower"
+            }
+          },
+          "whole": {
+            "word": "Sonnenblume",
+            "vocabKey": "sunflower",
+            "scale": 1,
+            "pic": {
+              "theme": "flowers",
+              "noun": "sunflower"
+            }
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "cheese",
+            "word": "Käse",
+            "pic": {
+              "theme": "At the Supermarket",
+              "noun": "cheese"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "cake",
+            "word": "kuchen",
+            "pic": {
+              "theme": "bakery",
+              "noun": "cake"
+            }
+          },
+          "whole": {
+            "word": "Käsekuchen",
+            "vocabKey": "cheesecake",
+            "scale": 1,
+            "pic": {
+              "theme": "bakery",
+              "noun": "cheesecake"
+            }
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "bird",
+            "word": "Vogel",
+            "pic": {
+              "theme": "spring",
+              "noun": "bird"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "house",
+            "word": "haus",
+            "pic": {
+              "theme": "miscellaneous",
+              "noun": "house"
+            }
+          },
+          "whole": {
+            "word": "Vogelhaus",
+            "vocabKey": "birdhouse",
+            "scale": 1,
+            "pic": {
+              "theme": "spring",
+              "noun": "birdhouse"
+            }
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "sphere",
+            "word": "Kugel",
+            "pic": {
+              "theme": "shapes",
+              "noun": "sphere"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "fish",
+            "word": "fisch",
+            "pic": {
+              "theme": "ocean life",
+              "noun": "fish"
+            }
+          },
+          "whole": {
+            "word": "Kugelfisch",
+            "vocabKey": "pufferfish",
+            "scale": 1,
+            "pic": {
+              "theme": "ocean life",
+              "noun": "pufferfish"
+            }
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "hand",
+            "word": "Hand",
+            "pic": {
+              "theme": "body parts",
+              "noun": "hand"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "shoe",
+            "word": "schuh",
+            "pic": {
+              "theme": "clothing",
+              "noun": "shoe"
+            }
+          },
+          "whole": {
+            "word": "Handschuh",
+            "vocabKey": "glove",
+            "scale": 1,
+            "pic": {
+              "theme": "clothing",
+              "noun": "glove"
+            }
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "bread",
+            "word": "Brot",
+            "pic": {
+              "theme": "At the Supermarket",
+              "noun": "bread"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "can",
+            "word": "dose",
+            "pic": {
+              "theme": "At the Supermarket",
+              "noun": "can"
+            }
+          },
+          "whole": {
+            "word": "Brotdose",
+            "vocabKey": "lunchbox",
+            "scale": 1,
+            "pic": {
+              "theme": "classroom",
+              "noun": "lunchbox"
+            }
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "lion",
+            "word": "Löwe",
+            "pic": {
+              "theme": "zoo animals",
+              "noun": "lion"
+            }
+          },
+          "aStem": null,
+          "link": "n",
+          "b": {
+            "vocabKey": "tooth",
+            "word": "zahn",
+            "pic": {
+              "theme": "body parts",
+              "noun": "tooth"
+            }
+          },
+          "whole": {
+            "word": "Löwenzahn",
+            "vocabKey": "dandelion",
+            "scale": 1,
+            "pic": {
+              "theme": "flowers",
+              "noun": "dandelion"
+            }
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "dress",
+            "word": "Kleid",
+            "pic": {
+              "theme": "clothing",
+              "noun": "dress"
+            }
+          },
+          "aStem": null,
+          "link": "er",
+          "b": {
+            "vocabKey": "closet",
+            "word": "schrank",
+            "pic": {
+              "theme": "around the house",
+              "noun": "closet"
+            }
+          },
+          "whole": {
+            "word": "Kleiderschrank",
+            "vocabKey": "wardrobe",
+            "scale": 1,
+            "pic": {
+              "theme": "around the house",
+              "noun": "wardrobe"
+            }
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "items": [
+        {
+          "a": {
+            "vocabKey": "pan",
+            "word": "Pfanne",
+            "pic": {
+              "theme": "around the house",
+              "noun": "pan"
+            }
+          },
+          "aStem": "Pfann",
+          "link": "",
+          "b": {
+            "vocabKey": "cake",
+            "word": "kuchen",
+            "pic": {
+              "theme": "bakery",
+              "noun": "cake"
+            }
+          },
+          "whole": {
+            "word": "Pfannkuchen",
+            "vocabKey": "pancake",
+            "scale": 1,
+            "pic": {
+              "theme": "breakfast",
+              "noun": "pancake"
+            }
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "foot",
+            "word": "Fuß",
+            "pic": {
+              "theme": "body parts",
+              "noun": "foot"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "ball",
+            "word": "ball",
+            "pic": {
+              "theme": "toys",
+              "noun": "ball"
+            }
+          },
+          "whole": {
+            "word": "Fußball",
+            "vocabKey": "soccer",
+            "scale": 1,
+            "pic": {
+              "theme": "activities",
+              "noun": "soccer"
+            }
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "bell",
+            "word": "Glocke",
+            "pic": {
+              "theme": "christmas",
+              "noun": "bell"
+            }
+          },
+          "aStem": null,
+          "link": "n",
+          "b": {
+            "vocabKey": "flower",
+            "word": "blume",
+            "pic": {
+              "theme": "spring",
+              "noun": "flower"
+            }
+          },
+          "whole": {
+            "word": "Glockenblume",
+            "vocabKey": "bluebell",
+            "scale": 1,
+            "pic": {
+              "theme": "flowers",
+              "noun": "bluebell"
+            }
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "rain",
+            "word": "Regen",
+            "pic": {
+              "theme": "spring",
+              "noun": "rain"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "worm",
+            "word": "wurm",
+            "pic": {
+              "theme": "spring",
+              "noun": "worm"
+            }
+          },
+          "whole": {
+            "word": "Regenwurm",
+            "vocabKey": "earthworm",
+            "scale": 1,
+            "pic": {
+              "theme": "forest creatures",
+              "noun": "earthworm"
+            }
+          },
+          "hubSide": "a",
+          "opaque": false,
+          "picOpened": true
+        },
+        {
+          "a": {
+            "vocabKey": "water",
+            "word": "Wasser",
+            "pic": {
+              "theme": "beach",
+              "noun": "water"
+            }
+          },
+          "aStem": null,
+          "link": "",
+          "b": {
+            "vocabKey": "rooster",
+            "word": "hahn",
+            "pic": {
+              "theme": "farm animals",
+              "noun": "rooster"
+            }
+          },
+          "whole": {
+            "word": "Wasserhahn",
+            "vocabKey": "faucet",
+            "scale": 1,
+            "pic": {
+              "theme": "around the house",
+              "noun": "faucet"
+            }
+          },
+          "hubSide": "b",
+          "opaque": false,
+          "picOpened": true
+        }
+      ]
+    }
+  ],
+  "opaque": [
+    {
+      "a": {
+        "vocabKey": "butter",
+        "word": "Butter",
+        "pic": {
+          "theme": "breakfast",
+          "noun": "butter"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "flower",
+        "word": "blume",
+        "pic": {
+          "theme": "spring",
+          "noun": "flower"
+        }
+      },
+      "whole": {
+        "word": "Butterblume",
+        "vocabKey": "buttercup",
+        "scale": 1,
+        "pic": {
+          "theme": "flowers",
+          "noun": "buttercup"
+        }
+      },
+      "hubSide": "b",
+      "opaque": true,
+      "picOpened": true
+    }
+  ],
+  "onePart": [
+    {
+      "a": {
+        "vocabKey": "rain",
+        "word": "Regen",
+        "pic": {
+          "theme": "spring",
+          "noun": "rain"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "bogen"
+      },
+      "whole": {
+        "word": "Regenbogen",
+        "vocabKey": "rainbow",
+        "scale": 1,
+        "pic": {
+          "theme": "weather",
+          "noun": "rainbow"
+        }
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "rain",
+        "word": "Regen",
+        "pic": {
+          "theme": "spring",
+          "noun": "rain"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "tropfen"
+      },
+      "whole": {
+        "word": "Regentropfen",
+        "vocabKey": "raindrop",
+        "scale": 1,
+        "pic": {
+          "theme": "weather",
+          "noun": "raindrop"
+        }
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "rain",
+        "word": "Regen",
+        "pic": {
+          "theme": "spring",
+          "noun": "rain"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "schirm"
+      },
+      "whole": {
+        "word": "Regenschirm",
+        "vocabKey": "umbrella",
+        "scale": 1,
+        "pic": {
+          "theme": "weather",
+          "noun": "umbrella"
+        }
+      },
+      "hubSide": "a",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "Gold"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "fish",
+        "word": "fisch",
+        "pic": {
+          "theme": "ocean life",
+          "noun": "fish"
+        }
+      },
+      "whole": {
+        "word": "Goldfisch",
+        "vocabKey": "goldfish",
+        "scale": 1,
+        "pic": {
+          "theme": "pets",
+          "noun": "goldfish"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "Kaiser"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "fish",
+        "word": "fisch",
+        "pic": {
+          "theme": "ocean life",
+          "noun": "fish"
+        }
+      },
+      "whole": {
+        "word": "Kaiserfisch",
+        "vocabKey": "angelfish",
+        "scale": 1,
+        "pic": {
+          "theme": "ocean life",
+          "noun": "angelfish"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "Clown"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "fish",
+        "word": "fisch",
+        "pic": {
+          "theme": "ocean life",
+          "noun": "fish"
+        }
+      },
+      "whole": {
+        "word": "Clownfisch",
+        "vocabKey": "clownfish",
+        "scale": 1,
+        "pic": {
+          "theme": "ocean life",
+          "noun": "clownfish"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "Tinte"
+      },
+      "aStem": null,
+      "link": "n",
+      "b": {
+        "vocabKey": "fish",
+        "word": "fisch",
+        "pic": {
+          "theme": "ocean life",
+          "noun": "fish"
+        }
+      },
+      "whole": {
+        "word": "Tintenfisch",
+        "vocabKey": "squid",
+        "scale": 1,
+        "pic": {
+          "theme": "ocean life",
+          "noun": "squid"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "Korn"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "flower",
+        "word": "blume",
+        "pic": {
+          "theme": "spring",
+          "noun": "flower"
+        }
+      },
+      "whole": {
+        "word": "Kornblume",
+        "vocabKey": "cornflower",
+        "scale": 1,
+        "pic": {
+          "theme": "flowers",
+          "noun": "cornflower"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "sun",
+        "word": "Sonne",
+        "pic": {
+          "theme": "weather",
+          "noun": "sun"
+        }
+      },
+      "aStem": null,
+      "link": "n",
+      "b": {
+        "vocabKey": null,
+        "word": "brille"
+      },
+      "whole": {
+        "word": "Sonnenbrille",
+        "vocabKey": "sunglasses",
+        "scale": 1,
+        "pic": {
+          "theme": "accessories",
+          "noun": "sunglasses"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "sand",
+        "word": "Sand",
+        "pic": {
+          "theme": "summer",
+          "noun": "sand"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "burg"
+      },
+      "whole": {
+        "word": "Sandburg",
+        "vocabKey": "sandcastle",
+        "scale": 1,
+        "pic": {
+          "theme": "beach",
+          "noun": "sandcastle"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "Nacht"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "table",
+        "word": "tisch",
+        "pic": {
+          "theme": "furniture",
+          "noun": "table"
+        }
+      },
+      "whole": {
+        "word": "Nachttisch",
+        "vocabKey": "nightstand",
+        "scale": 1,
+        "pic": {
+          "theme": "furniture",
+          "noun": "nightstand"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": null,
+        "word": "Tee"
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": "pitcher",
+        "word": "kanne",
+        "pic": {
+          "theme": "kitchen tools",
+          "noun": "pitcher"
+        }
+      },
+      "whole": {
+        "word": "Teekanne",
+        "vocabKey": "teapot",
+        "scale": 1,
+        "pic": {
+          "theme": "kitchen tools",
+          "noun": "teapot"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    },
+    {
+      "a": {
+        "vocabKey": "neck",
+        "word": "Hals",
+        "pic": {
+          "theme": "body parts",
+          "noun": "neck"
+        }
+      },
+      "aStem": null,
+      "link": "",
+      "b": {
+        "vocabKey": null,
+        "word": "kette"
+      },
+      "whole": {
+        "word": "Halskette",
+        "vocabKey": "necklace",
+        "scale": 1,
+        "pic": {
+          "theme": "accessories",
+          "noun": "necklace"
+        }
+      },
+      "hubSide": "b",
+      "opaque": false,
+      "picOpened": true
+    }
+  ],
+  "hubs": [
+    {
+      "hub": {
+        "vocabKey": "rain",
+        "word": "Regen"
+      },
+      "side": "a",
+      "satellites": [
+        "Regenmantel",
+        "Regenwurm",
+        "Regenbogen",
+        "Regentropfen",
+        "Regenschirm"
+      ]
+    },
+    {
+      "hub": {
+        "vocabKey": "fish",
+        "word": "Fisch"
+      },
+      "side": "b",
+      "satellites": [
+        "Goldfisch",
+        "Kugelfisch",
+        "Kaiserfisch",
+        "Clownfisch",
+        "Tintenfisch"
+      ]
+    },
+    {
+      "hub": {
+        "vocabKey": "flower",
+        "word": "Blume"
+      },
+      "side": "b",
+      "satellites": [
+        "Sonnenblume",
+        "Glockenblume",
+        "Kornblume",
+        "Butterblume"
+      ]
+    }
+  ],
+  "foils": [
+    {
+      "vocabKey": "carpet",
+      "word": "Teppich",
+      "pic": {
+        "theme": "around the house",
+        "noun": "carpet"
+      },
+      "looksLike": [
+        "Tepp",
+        "ich"
+      ]
+    },
+    {
+      "vocabKey": "hamster",
+      "word": "Hamster",
+      "pic": {
+        "theme": "pets",
+        "noun": "hamster"
+      },
+      "looksLike": [
+        "Ham",
+        "ster"
+      ]
+    },
+    {
+      "vocabKey": "pumpkin",
+      "word": "Kürbis",
+      "pic": {
+        "theme": "vegetables",
+        "noun": "pumpkin"
+      },
+      "looksLike": [
+        "Kür",
+        "bis"
+      ]
+    },
+    {
+      "vocabKey": "pineapple",
+      "word": "Ananas",
+      "pic": {
+        "theme": "fruits",
+        "noun": "pineapple"
+      },
+      "looksLike": [
+        "Ana",
+        "nas"
+      ]
+    },
+    {
+      "vocabKey": "tomato",
+      "word": "Tomate",
+      "pic": {
+        "theme": "vegetables",
+        "noun": "tomato"
+      },
+      "looksLike": [
+        "Tom",
+        "ate"
+      ]
+    },
+    {
+      "vocabKey": "pepper",
+      "word": "Paprika",
+      "pic": {
+        "theme": "At the Supermarket",
+        "noun": "pepper"
+      },
+      "looksLike": [
+        "Pap",
+        "rika"
+      ]
+    },
+    {
+      "vocabKey": "giraffe",
+      "word": "Giraffe",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "giraffe"
+      },
+      "looksLike": [
+        "Gi",
+        "raffe"
+      ]
+    },
+    {
+      "vocabKey": "penguin",
+      "word": "Pinguin",
+      "pic": {
+        "theme": "winter",
+        "noun": "penguin"
+      },
+      "looksLike": [
+        "Pin",
+        "guin"
+      ]
+    },
+    {
+      "vocabKey": "potato",
+      "word": "Kartoffel",
+      "pic": {
+        "theme": "vegetables",
+        "noun": "potato"
+      },
+      "looksLike": [
+        "Kart",
+        "offel"
+      ]
+    },
+    {
+      "vocabKey": "tie",
+      "word": "Krawatte",
+      "pic": {
+        "theme": "accessories",
+        "noun": "tie"
+      },
+      "looksLike": [
+        "Kra",
+        "watte"
+      ]
+    }
+  ],
+  "sizePairs": [],
+  "crossWords": [],
+  "refuse": {
+    "F1": false,
+    "F3": false,
+    "F5": false
+  },
+  "webLanes": 3,
+  "opened": {
+    "beach/water": [
+      "water"
+    ],
+    "At the Supermarket/melon": [
+      "melon"
+    ],
+    "fruits/watermelon": [
+      "watermelon"
+    ],
+    "spring/rain": [
+      "rain"
+    ],
+    "clothing/coat": [
+      "coat"
+    ],
+    "clothing/raincoat": [
+      "raincoat"
+    ],
+    "weather/sun": [
+      "sun"
+    ],
+    "spring/flower": [
+      "flower"
+    ],
+    "flowers/sunflower": [
+      "sunflower"
+    ],
+    "At the Supermarket/cheese": [
+      "cheese"
+    ],
+    "bakery/cake": [
+      "cake"
+    ],
+    "bakery/cheesecake": [
+      "cheesecake"
+    ],
+    "spring/bird": [
+      "bird"
+    ],
+    "miscellaneous/house": [
+      "house"
+    ],
+    "spring/birdhouse": [
+      "birdhouse"
+    ],
+    "shapes/sphere": [
+      "sphere"
+    ],
+    "ocean life/fish": [
+      "fish"
+    ],
+    "ocean life/pufferfish": [
+      "pufferfish"
+    ],
+    "body parts/hand": [
+      "hand"
+    ],
+    "clothing/shoe": [
+      "shoe"
+    ],
+    "clothing/glove": [
+      "glove"
+    ],
+    "At the Supermarket/bread": [
+      "bread"
+    ],
+    "At the Supermarket/can": [
+      "can"
+    ],
+    "classroom/lunchbox": [
+      "lunchbox"
+    ],
+    "zoo animals/lion": [
+      "lion"
+    ],
+    "body parts/tooth": [
+      "tooth"
+    ],
+    "flowers/dandelion": [
+      "dandelion"
+    ],
+    "clothing/dress": [
+      "dress"
+    ],
+    "around the house/closet": [
+      "closet"
+    ],
+    "around the house/wardrobe": [
+      "wardrobe"
+    ],
+    "around the house/pan": [
+      "pan"
+    ],
+    "breakfast/pancake": [
+      "pancake"
+    ],
+    "body parts/foot": [
+      "foot"
+    ],
+    "toys/ball": [
+      "ball"
+    ],
+    "activities/soccer": [
+      "soccer"
+    ],
+    "christmas/bell": [
+      "bell"
+    ],
+    "flowers/bluebell": [
+      "bluebell"
+    ],
+    "spring/worm": [
+      "worm"
+    ],
+    "forest creatures/earthworm": [
+      "earthworm"
+    ],
+    "farm animals/rooster": [
+      "rooster"
+    ],
+    "around the house/faucet": [
+      "faucet"
+    ],
+    "breakfast/butter": [
+      "butter"
+    ],
+    "flowers/buttercup": [
+      "buttercup"
+    ],
+    "weather/rainbow": [
+      "rainbow"
+    ],
+    "weather/raindrop": [
+      "raindrop"
+    ],
+    "weather/umbrella": [
+      "umbrella"
+    ],
+    "pets/goldfish": [
+      "goldfish"
+    ],
+    "ocean life/angelfish": [
+      "angelfish"
+    ],
+    "ocean life/clownfish": [
+      "clownfish"
+    ],
+    "ocean life/squid": [
+      "squid"
+    ],
+    "flowers/cornflower": [
+      "cornflower"
+    ],
+    "accessories/sunglasses": [
+      "sunglasses"
+    ],
+    "summer/sand": [
+      "sand"
+    ],
+    "beach/sandcastle": [
+      "sandcastle"
+    ],
+    "furniture/table": [
+      "table"
+    ],
+    "furniture/nightstand": [
+      "nightstand"
+    ],
+    "kitchen tools/pitcher": [
+      "pitcher"
+    ],
+    "kitchen tools/teapot": [
+      "teapot"
+    ],
+    "body parts/neck": [
+      "neck"
+    ],
+    "accessories/necklace": [
+      "necklace"
+    ],
+    "around the house/carpet": [
+      "carpet"
+    ],
+    "pets/hamster": [
+      "hamster"
+    ],
+    "vegetables/pumpkin": [
+      "pumpkin"
+    ],
+    "fruits/pineapple": [
+      "pineapple"
+    ],
+    "vegetables/tomato": [
+      "tomato"
+    ],
+    "At the Supermarket/pepper": [
+      "pepper"
+    ],
+    "zoo animals/giraffe": [
+      "giraffe"
+    ],
+    "winter/penguin": [
+      "penguin"
+    ],
+    "vegetables/potato": [
+      "potato"
+    ],
+    "accessories/tie": [
+      "tie"
+    ]
+  },
+  "strings": {
+    "G2-316": {
+      "title": "Zusammengesetzte Nomen: Bild + Bild",
+      "instruction": "Benenne die zwei Bilder, setze die zwei Wörter zusammen und schreibe das neue Wort auf die Linie."
+    },
+    "G2-329": {
+      "title": "Fugen-n oder nicht? Zusammengesetzte Nomen",
+      "instruction": "Beide Wörter stehen schon da. Schreibe den Buchstaben, der sie verbindet, in das Kästchen, oder lass es leer. Schreibe dann das ganze Wort."
+    },
+    "G2-330": {
+      "title": "Zusammengesetzte Nomen trennen",
+      "instruction": "Das ganze Wort steht in Buchstabenkästchen neben seinem Bild. Male einen Strich dort, wo das zweite Wort beginnt."
+    },
+    "G2-331": {
+      "title": "Wortteile verbinden: Zwei Bilder, ein Wort",
+      "instruction": "Verbinde jedes erste Bild mit dem Bild, das das Wort vollendet. Schreibe dann das neue Wort auf die Linie neben dem ersten Bild."
+    },
+    "G2-332": {
+      "title": "Wort-Detektiv: zusammengesetzt oder nicht?",
+      "instruction": "Zwölf Wörter, sechs davon bestehen aus zwei Wörtern. Kreise die sechs zusammengesetzten Nomen ein und schreibe ihre zwei Teile auf die Linien."
+    },
+    "G2-333": {
+      "title": "Wortstern: Ein Wort, viele Wörter",
+      "instruction": "Ein Wort steht in der Mitte. Jedes Bild darum herum bildet mit ihm ein neues Wort. Schreibe die vier neuen Wörter auf die Linien."
+    }
+  }
+}

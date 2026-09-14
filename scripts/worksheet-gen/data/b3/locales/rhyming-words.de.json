@@ -1,0 +1,1422 @@
+{
+  "rule": "stressedVowelCoda",
+  "orthographyTrusted": true,
+  "exemplar": [
+    "and",
+    "ose",
+    "amm",
+    "eis",
+    "one",
+    "al"
+  ],
+  "classes": [
+    {
+      "id": "and",
+      "rime": "-and",
+      "sound": "ant",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "hand",
+          "word": "Hand",
+          "pic": {
+            "theme": "body parts",
+            "noun": "hand"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "sand",
+          "word": "Sand",
+          "pic": {
+            "theme": "summer",
+            "noun": "sand"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "beach",
+          "word": "Strand",
+          "pic": {
+            "theme": "summer",
+            "noun": "beach"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "Wand",
+        "Rand"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ose",
+      "rime": "-ose",
+      "sound": "oːzə",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "can",
+          "word": "Dose",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "can"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "rose",
+          "word": "Rose",
+          "pic": {
+            "theme": "flowers",
+            "noun": "rose"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pants",
+          "word": "Hose",
+          "pic": {
+            "theme": "clothing",
+            "noun": "pants"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "lose"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "amm",
+      "rime": "-amm",
+      "sound": "am",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "comb",
+          "word": "Kamm",
+          "pic": {
+            "theme": "around the house",
+            "noun": "comb"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "lamb",
+          "word": "Lamm",
+          "pic": {
+            "theme": "easter",
+            "noun": "lamb"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "sponge",
+          "word": "Schwamm",
+          "pic": {
+            "theme": "kitchen tools",
+            "noun": "sponge"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "Damm"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "eis",
+      "rime": "-eis",
+      "sound": "aɪs",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "ice",
+          "word": "Eis",
+          "pic": {
+            "theme": "winter",
+            "noun": "ice"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "rice",
+          "word": "Reis",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "rice"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "circle",
+          "word": "Kreis",
+          "pic": {
+            "theme": "shapes",
+            "noun": "circle"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "heiß",
+        "weiß"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "one",
+      "rime": "-one",
+      "sound": "oːnə",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "crown",
+          "word": "Krone",
+          "pic": {
+            "theme": "accessories",
+            "noun": "crown"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "lemon",
+          "word": "Zitrone",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "lemon"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "melon",
+          "word": "Melone",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "melon"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "Bohne",
+        "Zone"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "al",
+      "rime": "-al",
+      "sound": "aːl",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "whale",
+          "word": "Wal",
+          "pic": {
+            "theme": "animals",
+            "noun": "whale"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "scarf",
+          "word": "Schal",
+          "pic": {
+            "theme": "accessories",
+            "noun": "scarf"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "shelf",
+          "word": "Regal",
+          "pic": {
+            "theme": "classroom",
+            "noun": "shelf"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "Tal",
+        "Saal"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "elle",
+      "rime": "-elle",
+      "sound": "ɛlə",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "wave",
+          "word": "Welle",
+          "pic": {
+            "theme": "beach",
+            "noun": "wave"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "dragonfly",
+          "word": "Libelle",
+          "pic": {
+            "theme": "Things That Fly",
+            "noun": "dragonfly"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "gazelle",
+          "word": "Gazelle",
+          "pic": {
+            "theme": "zoo animals",
+            "noun": "gazelle"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "Stelle",
+        "Quelle"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "at",
+      "rime": "-at",
+      "sound": "aːt",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "lettuce",
+          "word": "Salat",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "lettuce"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "spinach",
+          "word": "Spinat",
+          "pic": {
+            "theme": "vegetables",
+            "noun": "spinach"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "square",
+          "word": "Quadrat",
+          "pic": {
+            "theme": "shapes",
+            "noun": "square"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "Rat",
+        "Draht"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "in",
+      "rime": "-in",
+      "sound": "iːn",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "dolphin",
+          "word": "Delfin",
+          "pic": {
+            "theme": "animals",
+            "noun": "dolphin"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "fireplace",
+          "word": "Kamin",
+          "pic": {
+            "theme": "around the house",
+            "noun": "fireplace"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "jasmine",
+          "word": "Jasmin",
+          "pic": {
+            "theme": "flowers",
+            "noun": "jasmine"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "medicine",
+          "word": "Medizin",
+          "pic": {
+            "theme": "hospital",
+            "noun": "medicine"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "Benzin"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ier",
+      "rime": "-ier",
+      "sound": "iːɐ̯",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "bull",
+          "word": "Stier",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "bull"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "paper",
+          "word": "Papier",
+          "pic": {
+            "theme": "classroom",
+            "noun": "paper"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "piano",
+          "word": "Klavier",
+          "pic": {
+            "theme": "activities",
+            "noun": "piano"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "Tier",
+        "hier"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "aus",
+      "rime": "-aus",
+      "sound": "aʊs",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "mouse",
+          "word": "Maus",
+          "pic": {
+            "theme": "forest creatures",
+            "noun": "mouse"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "house",
+          "word": "Haus",
+          "pic": {
+            "theme": "miscellaneous",
+            "noun": "house"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "Laus",
+        "raus"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "und",
+      "rime": "-und",
+      "sound": "ʊnt",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "dog",
+          "word": "Hund",
+          "pic": {
+            "theme": "animals",
+            "noun": "dog"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "mouth",
+          "word": "Mund",
+          "pic": {
+            "theme": "body parts",
+            "noun": "mouth"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "rund",
+        "bunt"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ocke",
+      "rime": "-ocke",
+      "sound": "ɔkə",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "sock",
+          "word": "Socke",
+          "pic": {
+            "theme": "accessories",
+            "noun": "sock"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "bell",
+          "word": "Glocke",
+          "pic": {
+            "theme": "christmas",
+            "noun": "bell"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "Locke"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ug",
+      "rime": "-ug",
+      "sound": "uːk",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "train",
+          "word": "Zug",
+          "pic": {
+            "theme": "toys",
+            "noun": "train"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "jug",
+          "word": "Krug",
+          "pic": {
+            "theme": "kitchen tools",
+            "noun": "jug"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "Flug",
+        "klug"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ot",
+      "rime": "-ot",
+      "sound": "oːt",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "bread",
+          "word": "Brot",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "bread"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "boat",
+          "word": "Boot",
+          "pic": {
+            "theme": "vehicles",
+            "noun": "boat"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "rot",
+        "Not"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ein",
+      "rime": "-ein",
+      "sound": "aɪn",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "leg",
+          "word": "Bein",
+          "pic": {
+            "theme": "body parts",
+            "noun": "leg"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pig",
+          "word": "Schwein",
+          "pic": {
+            "theme": "animals",
+            "noun": "pig"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "klein",
+        "Stein",
+        "fein"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ase",
+      "rime": "-ase",
+      "sound": "aːzə",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "nose",
+          "word": "Nase",
+          "pic": {
+            "theme": "body parts",
+            "noun": "nose"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "vase",
+          "word": "Vase",
+          "pic": {
+            "theme": "around the house",
+            "noun": "vase"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "Hase"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "anne",
+      "rime": "-anne",
+      "sound": "anə",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "pan",
+          "word": "Pfanne",
+          "pic": {
+            "theme": "around the house",
+            "noun": "pan"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pitcher",
+          "word": "Kanne",
+          "pic": {
+            "theme": "kitchen tools",
+            "noun": "pitcher"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "Tanne",
+        "Wanne"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ahn",
+      "rime": "-ahn",
+      "sound": "aːn",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "rooster",
+          "word": "Hahn",
+          "pic": {
+            "theme": "birds 2",
+            "noun": "rooster"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "tooth",
+          "word": "Zahn",
+          "pic": {
+            "theme": "body parts",
+            "noun": "tooth"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "Bahn",
+        "Kahn"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "uh",
+      "rime": "-uh",
+      "sound": "uː",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "cow",
+          "word": "Kuh",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "cow"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "shoe",
+          "word": "Schuh",
+          "pic": {
+            "theme": "clothing",
+            "noun": "shoe"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "Ruh"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "opf",
+      "rime": "-opf",
+      "sound": "ɔpf",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "head",
+          "word": "Kopf",
+          "pic": {
+            "theme": "body parts",
+            "noun": "head"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pot",
+          "word": "Topf",
+          "pic": {
+            "theme": "around the house",
+            "noun": "pot"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "Zopf",
+        "Knopf"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "erd",
+      "rime": "-erd",
+      "sound": "eːɐ̯t",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "horse",
+          "word": "Pferd",
+          "pic": {
+            "theme": "animals",
+            "noun": "horse"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "stove",
+          "word": "Herd",
+          "pic": {
+            "theme": "around the house",
+            "noun": "stove"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [],
+      "nearMiss": []
+    },
+    {
+      "id": "appe",
+      "rime": "-appe",
+      "sound": "apə",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "cap",
+          "word": "Kappe",
+          "pic": {
+            "theme": "accessories",
+            "noun": "cap"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "folder",
+          "word": "Mappe",
+          "pic": {
+            "theme": "classroom",
+            "noun": "folder"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "Klappe"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "affe",
+      "rime": "-affe",
+      "sound": "afə",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "giraffe",
+          "word": "Giraffe",
+          "pic": {
+            "theme": "animals",
+            "noun": "giraffe"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "monkey",
+          "word": "Affe",
+          "pic": {
+            "theme": "zoo animals",
+            "noun": "monkey"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [],
+      "nearMiss": []
+    },
+    {
+      "id": "isch",
+      "rime": "-isch",
+      "sound": "ɪʃ",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "fish",
+          "word": "Fisch",
+          "pic": {
+            "theme": "At the Supermarket",
+            "noun": "fish"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "table",
+          "word": "Tisch",
+          "pic": {
+            "theme": "around the house",
+            "noun": "table"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "frisch"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "aube",
+      "rime": "-aube",
+      "sound": "aʊbə",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "dove",
+          "word": "Taube",
+          "pic": {
+            "theme": "birds 2",
+            "noun": "dove"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "bolt",
+          "word": "Schraube",
+          "pic": {
+            "theme": "tools",
+            "noun": "bolt"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "Raube"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "oewe",
+      "rime": "-öwe",
+      "sound": "øːvə",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "lion",
+          "word": "Löwe",
+          "pic": {
+            "theme": "zoo animals",
+            "noun": "lion"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "seagull",
+          "word": "Möwe",
+          "pic": {
+            "theme": "Things That Fly",
+            "noun": "seagull"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [],
+      "nearMiss": []
+    },
+    {
+      "id": "ank",
+      "rime": "-ank",
+      "sound": "aŋk",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "bench",
+          "word": "Bank",
+          "pic": {
+            "theme": "furniture",
+            "noun": "bench"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "cabinet",
+          "word": "Schrank",
+          "pic": {
+            "theme": "around the house",
+            "noun": "cabinet"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "krank",
+        "Dank"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "auch",
+      "rime": "-auch",
+      "sound": "aʊx",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "hose",
+          "word": "Schlauch",
+          "pic": {
+            "theme": "around the house",
+            "noun": "hose"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "leek",
+          "word": "Lauch",
+          "pic": {
+            "theme": "vegetables",
+            "noun": "leek"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [
+        "Bauch",
+        "Rauch"
+      ],
+      "nearMiss": []
+    },
+    {
+      "id": "ete",
+      "rime": "-ete",
+      "sound": "eːtə",
+      "cap": 8,
+      "members": [
+        {
+          "vocabKey": "rocket",
+          "word": "Rakete",
+          "pic": {
+            "theme": "Things That Fly",
+            "noun": "rocket"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "trumpet",
+          "word": "Trompete",
+          "pic": {
+            "theme": "music",
+            "noun": "trumpet"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        }
+      ],
+      "extra": [],
+      "nearMiss": []
+    }
+  ],
+  "couplets": [
+    {
+      "id": "haus-maus",
+      "lines": [
+        "Im Garten steht ein kleines Haus,",
+        "dort wohnt die kleine graue ___."
+      ],
+      "answer": {
+        "vocabKey": "mouse"
+      },
+      "rhymeWith": "haus",
+      "cueFree": false
+    },
+    {
+      "id": "hand-strand",
+      "lines": [
+        "Ich habe Sand auf meiner Hand",
+        "und Sand am ganzen ___."
+      ],
+      "answer": {
+        "vocabKey": "beach"
+      },
+      "rhymeWith": "hand",
+      "cueFree": false
+    },
+    {
+      "id": "dose-hose",
+      "lines": [
+        "Die Rose steht in einer Dose",
+        "gleich neben meiner blauen ___."
+      ],
+      "answer": {
+        "vocabKey": "pants"
+      },
+      "rhymeWith": "dose",
+      "cueFree": false
+    },
+    {
+      "id": "rund-hund",
+      "lines": [
+        "Der Ball rollt weg, er ist so rund,",
+        "und landet vor dem großen ___."
+      ],
+      "answer": {
+        "vocabKey": "dog"
+      },
+      "rhymeWith": "rund",
+      "cueFree": false
+    },
+    {
+      "id": "zahn-hahn",
+      "lines": [
+        "Ich putze mir jeden Zahn,",
+        "dann kräht im Hof der ___."
+      ],
+      "answer": {
+        "vocabKey": "rooster"
+      },
+      "rhymeWith": "zahn",
+      "cueFree": false
+    },
+    {
+      "id": "herd-pferd",
+      "lines": [
+        "Es ist kalt, ich geh zum Herd.",
+        "Draußen wiehert laut das ___."
+      ],
+      "answer": {
+        "vocabKey": "horse"
+      },
+      "rhymeWith": "herd",
+      "cueFree": false
+    },
+    {
+      "id": "tisch-fisch",
+      "lines": [
+        "Das Essen steht schon auf dem Tisch,",
+        "heute gibt es frischen ___."
+      ],
+      "answer": {
+        "vocabKey": "fish"
+      },
+      "rhymeWith": "tisch",
+      "cueFree": false
+    },
+    {
+      "id": "kamm-lamm",
+      "lines": [
+        "Ich kämme mich mit meinem Kamm",
+        "und streichle dann das kleine ___."
+      ],
+      "answer": {
+        "vocabKey": "lamb"
+      },
+      "rhymeWith": "kamm",
+      "cueFree": false
+    },
+    {
+      "id": "brot-boot",
+      "lines": [
+        "Ich packe ein: ein Stück Brot,",
+        "dann rudern wir im ___."
+      ],
+      "answer": {
+        "vocabKey": "boat"
+      },
+      "rhymeWith": "brot",
+      "cueFree": false
+    },
+    {
+      "id": "kuh-schuh",
+      "lines": [
+        "Auf der Wiese steht die Kuh,",
+        "ich trage einen neuen ___."
+      ],
+      "answer": {
+        "vocabKey": "shoe"
+      },
+      "rhymeWith": "kuh",
+      "cueFree": false
+    },
+    {
+      "id": "klein-schwein",
+      "lines": [
+        "Der Stein ist wirklich klein,",
+        "das rosa Tier ist ein ___."
+      ],
+      "answer": {
+        "vocabKey": "pig"
+      },
+      "rhymeWith": "klein",
+      "cueFree": false
+    },
+    {
+      "id": "pfanne-kanne",
+      "lines": [
+        "Das Ei brät in der Pfanne,",
+        "der Tee ist in der ___."
+      ],
+      "answer": {
+        "vocabKey": "pitcher"
+      },
+      "rhymeWith": "pfanne",
+      "cueFree": false
+    },
+    {
+      "id": "zug-krug",
+      "lines": [
+        "Wir fahren mit dem Zug,",
+        "ich trinke aus dem ___."
+      ],
+      "answer": {
+        "vocabKey": "jug"
+      },
+      "rhymeWith": "zug",
+      "cueFree": false
+    }
+  ],
+  "opened": {
+    "body parts/hand": "hand",
+    "summer/sand": "sand",
+    "summer/beach": "beach",
+    "At the Supermarket/can": "can",
+    "flowers/rose": "rose",
+    "clothing/pants": "pants",
+    "around the house/comb": "comb",
+    "easter/lamb": "lamb",
+    "kitchen tools/sponge": "sponge",
+    "winter/ice": "ice",
+    "At the Supermarket/rice": "rice",
+    "shapes/circle": "circle",
+    "accessories/crown": "crown",
+    "At the Supermarket/lemon": "lemon",
+    "At the Supermarket/melon": "melon",
+    "animals/whale": "whale",
+    "accessories/scarf": "scarf",
+    "classroom/shelf": "shelf",
+    "beach/wave": "wave",
+    "Things That Fly/dragonfly": "dragonfly",
+    "zoo animals/gazelle": "gazelle",
+    "At the Supermarket/lettuce": "lettuce",
+    "vegetables/spinach": "spinach",
+    "shapes/square": "square",
+    "animals/dolphin": "dolphin",
+    "around the house/fireplace": "fireplace",
+    "flowers/jasmine": "jasmine",
+    "hospital/medicine": "medicine",
+    "farm animals/bull": "bull",
+    "classroom/paper": "paper",
+    "activities/piano": "piano",
+    "forest creatures/mouse": "mouse",
+    "miscellaneous/house": "house",
+    "animals/dog": "dog",
+    "body parts/mouth": "mouth",
+    "accessories/sock": "sock",
+    "christmas/bell": "bell",
+    "toys/train": "train",
+    "kitchen tools/jug": "jug",
+    "At the Supermarket/bread": "bread",
+    "vehicles/boat": "boat",
+    "body parts/leg": "leg",
+    "animals/pig": "pig",
+    "body parts/nose": "nose",
+    "around the house/vase": "vase",
+    "around the house/pan": "pan",
+    "kitchen tools/pitcher": "pitcher",
+    "birds 2/rooster": "rooster",
+    "body parts/tooth": "tooth",
+    "farm animals/cow": "cow",
+    "clothing/shoe": "shoe",
+    "body parts/head": "head",
+    "around the house/pot": "pot",
+    "animals/horse": "horse",
+    "around the house/stove": "stove",
+    "accessories/cap": "cap",
+    "classroom/folder": "folder",
+    "animals/giraffe": "giraffe",
+    "zoo animals/monkey": "monkey",
+    "At the Supermarket/fish": "fish",
+    "around the house/table": "table",
+    "birds 2/dove": "dove",
+    "tools/bolt": "bolt",
+    "zoo animals/lion": "lion",
+    "Things That Fly/seagull": "seagull",
+    "furniture/bench": "bench",
+    "around the house/cabinet": "cabinet",
+    "around the house/hose": "hose",
+    "vegetables/leek": "leek",
+    "Things That Fly/rocket": "rocket",
+    "music/trumpet": "trumpet"
+  },
+  "strings": {
+    "G1-309": {
+      "title": "Reimwörter: Reimen und schreiben",
+      "instruction": "Sprich das erste Bild. Kreise das Bild ein, das sich darauf reimt, und schreibe sein Wort auf die Linie."
+    },
+    "K-352": {
+      "title": "Reimt sich das?",
+      "instruction": "Sprich beide Bilder laut. Wenn sich die zwei Wörter reimen, kreise den Haken ein. Wenn nicht, kreise das Kreuz ein."
+    },
+    "G1-343": {
+      "title": "Reimwörter sortieren",
+      "instruction": "Sprich jedes Bild in der Wortliste. Finde das große Bild, auf das es sich reimt, und schreibe sein Wort auf eine Linie darunter."
+    },
+    "G1-344": {
+      "title": "Reime vervollständigen",
+      "instruction": "Lies die zwei Zeilen laut. Schau das Bild an, höre den Reim und schreibe das fehlende Reimwort auf die Linie."
+    },
+    "G1-345": {
+      "title": "Reimketten",
+      "instruction": "Sprich jedes Bild. Finde die zwei Wörter in der Wortliste, die sich darauf reimen, und schreibe sie auf seine Linien. Manche passen nirgends."
+    },
+    "G1-346": {
+      "title": "Eigene Reimwörter schreiben",
+      "instruction": "Lies das Wort neben jedem Bild. Überlege dir zwei Wörter, die sich darauf reimen, und schreibe auf jede Linie eines."
+    }
+  }
+}

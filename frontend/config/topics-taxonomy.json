@@ -3366,13 +3366,15 @@
           "en": "letter-of-the-week",
           "nl": "letter-van-de-week",
           "es": "la-letra-de-la-semana",
-          "fr": "lettre-de-la-semaine"
+          "fr": "lettre-de-la-semaine",
+          "de": "buchstabeneinfuehrung"
         },
         "name": {
           "en": "Letter of the Week",
           "nl": "Letter van de week",
           "es": "La letra de la semana",
-          "fr": "La lettre de la semaine"
+          "fr": "La lettre de la semaine",
+          "de": "Buchstabeneinführung"
         }
       },
       "sound-boxes": {
@@ -3380,13 +3382,15 @@
           "en": "sound-boxes",
           "nl": "hakken-en-plakken",
           "es": "cajas-de-sonidos",
-          "fr": "boites-a-sons"
+          "fr": "boites-a-sons",
+          "de": "laute-hoeren-und-schreiben"
         },
         "name": {
           "en": "Sound Boxes",
           "nl": "Hakken en plakken",
           "es": "Cajas de sonidos",
-          "fr": "Boîtes à sons"
+          "fr": "Boîtes à sons",
+          "de": "Laute hören und schreiben"
         }
       },
       "ordinal-numbers": {
@@ -3394,13 +3398,15 @@
           "en": "ordinal-numbers",
           "nl": "rangtelwoorden",
           "es": "numeros-ordinales",
-          "fr": "nombres-ordinaux"
+          "fr": "nombres-ordinaux",
+          "de": "ordnungszahlen"
         },
         "name": {
           "en": "Ordinal Numbers",
           "nl": "Rangtelwoorden",
           "es": "Números ordinales",
-          "fr": "Les nombres ordinaux"
+          "fr": "Les nombres ordinaux",
+          "de": "Ordnungszahlen"
         }
       },
       "days-and-months": {
@@ -3408,13 +3414,15 @@
           "en": "days-and-months",
           "nl": "dagen-en-maanden",
           "es": "dias-y-meses",
-          "fr": "jours-et-mois"
+          "fr": "jours-et-mois",
+          "de": "wochentage-und-monate"
         },
         "name": {
           "en": "Days and Months",
           "nl": "Dagen en maanden",
           "es": "Días y meses",
-          "fr": "Jours et mois"
+          "fr": "Jours et mois",
+          "de": "Wochentage und Monate"
         }
       },
       "seasons": {
@@ -3422,13 +3430,15 @@
           "en": "seasons",
           "nl": "de-vier-seizoenen",
           "es": "estaciones-del-ano",
-          "fr": "les-saisons"
+          "fr": "les-saisons",
+          "de": "die-vier-jahreszeiten"
         },
         "name": {
           "en": "Four Seasons",
           "nl": "De vier seizoenen",
           "es": "Las estaciones del año",
-          "fr": "Les saisons"
+          "fr": "Les saisons",
+          "de": "Die vier Jahreszeiten"
         }
       },
       "all-about-me": {
@@ -3436,13 +3446,15 @@
           "en": "all-about-me",
           "nl": "dit-ben-ik",
           "es": "todo-sobre-mi",
-          "fr": "c-est-moi"
+          "fr": "c-est-moi",
+          "de": "das-bin-ich"
         },
         "name": {
           "en": "All About Me",
           "nl": "Dit ben ik",
           "es": "Todo sobre mí",
-          "fr": "C'est moi"
+          "fr": "C'est moi",
+          "de": "Das bin ich"
         }
       },
       "picture-word-cards": {
@@ -3450,13 +3462,15 @@
           "en": "picture-word-cards",
           "nl": "woordkaartjes",
           "es": "tarjetas-de-dibujo-y-palabra",
-          "fr": "imagier"
+          "fr": "imagier",
+          "de": "bildkarten"
         },
         "name": {
           "en": "Picture Word Cards",
           "nl": "Woordkaartjes",
           "es": "Tarjetas de dibujo y palabra",
-          "fr": "Imagier"
+          "fr": "Imagier",
+          "de": "Bildkarten"
         }
       },
       "syllable-split": {
@@ -3464,13 +3478,15 @@
           "en": "syllable-split",
           "nl": "lettergrepen-verdelen",
           "es": "separar-en-silabas",
-          "fr": "decouper-les-mots-en-syllabes"
+          "fr": "decouper-les-mots-en-syllabes",
+          "de": "silbenboegen"
         },
         "name": {
           "en": "Syllable Division",
           "nl": "Lettergrepen verdelen",
           "es": "Separar en sílabas",
-          "fr": "Découper en syllabes"
+          "fr": "Découper en syllabes",
+          "de": "Silbenbögen"
         }
       },
       "syllable-reading": {
@@ -3478,13 +3494,15 @@
           "en": "syllable-reading",
           "nl": "mkm-woorden-lezen",
           "es": "lectura-de-silabas",
-          "fr": "lecture-de-syllabes"
+          "fr": "lecture-de-syllabes",
+          "de": "silbenteppich"
         },
         "name": {
           "en": "Word Families",
           "nl": "Mkm-woorden lezen",
           "es": "Lectura de sílabas",
-          "fr": "Lecture de syllabes"
+          "fr": "Lecture de syllabes",
+          "de": "Silbenteppich"
         }
       },
       "opposites": {
@@ -3492,13 +3510,15 @@
           "en": "opposites",
           "nl": "tegenstellingen",
           "es": "antonimos",
-          "fr": "les-contraires"
+          "fr": "les-contraires",
+          "de": "gegenteile"
         },
         "name": {
           "en": "Opposites",
           "nl": "Tegenstellingen",
           "es": "Antónimos",
-          "fr": "Les contraires"
+          "fr": "Les contraires",
+          "de": "Gegenteile"
         }
       },
       "read-and-do": {
@@ -3506,13 +3526,15 @@
           "en": "read-and-do",
           "nl": "lees-en-doe",
           "es": "lee-y-haz",
-          "fr": "lecture-de-consignes"
+          "fr": "lecture-de-consignes",
+          "de": "leseauftraege"
         },
         "name": {
           "en": "Read and Do",
           "nl": "Lees en doe",
           "es": "Lee y haz",
-          "fr": "Lecture de consignes"
+          "fr": "Lecture de consignes",
+          "de": "Leseaufträge"
         }
       },
       "rhyming-words": {
@@ -3520,13 +3542,15 @@
           "en": "rhyming-words",
           "nl": "rijmwoorden",
           "es": "palabras-que-riman",
-          "fr": "mots-qui-riment"
+          "fr": "mots-qui-riment",
+          "de": "reimwoerter"
         },
         "name": {
           "en": "Rhyming Words",
           "nl": "Rijmwoorden",
           "es": "Palabras que riman",
-          "fr": "Mots qui riment"
+          "fr": "Mots qui riment",
+          "de": "Reimwörter"
         }
       },
       "hundreds-chart-puzzles": {
@@ -3534,13 +3558,15 @@
           "en": "hundreds-chart-puzzles",
           "nl": "honderdveld-puzzels",
           "es": "rompecabezas-tabla-del-100",
-          "fr": "tableau-des-nombres-morceaux"
+          "fr": "tableau-des-nombres-morceaux",
+          "de": "hundertertafel-puzzle"
         },
         "name": {
           "en": "Hundreds Chart Puzzles",
           "nl": "Honderdveld puzzels",
           "es": "Rompecabezas de la tabla del 100",
-          "fr": "Tableau des nombres : morceaux"
+          "fr": "Tableau des nombres : morceaux",
+          "de": "Hundertertafel-Puzzle"
         }
       },
       "spelling-rules": {
@@ -3548,13 +3574,15 @@
           "en": "spelling-rules",
           "nl": "spellingregels",
           "es": "reglas-de-ortografia",
-          "fr": "regles-d-orthographe"
+          "fr": "regles-d-orthographe",
+          "de": "rechtschreibregeln"
         },
         "name": {
           "en": "Spelling Rules",
           "nl": "Spellingregels",
           "es": "Reglas de ortografía",
-          "fr": "Règles d'orthographe"
+          "fr": "Règles d'orthographe",
+          "de": "Rechtschreibregeln"
         }
       },
       "compound-words": {
@@ -3562,13 +3590,15 @@
           "en": "compound-words",
           "nl": "samenstellingen",
           "es": "familias-de-palabras",
-          "fr": "mots-de-la-meme-famille"
+          "fr": "mots-de-la-meme-famille",
+          "de": "zusammengesetzte-nomen"
         },
         "name": {
           "en": "Compound Words",
           "nl": "Samenstellingen",
           "es": "Familias de palabras",
-          "fr": "Mots de la même famille"
+          "fr": "Mots de la même famille",
+          "de": "Zusammengesetzte Nomen"
         }
       },
       "verb-forms": {
@@ -3576,13 +3606,15 @@
           "en": "verb-forms",
           "nl": "werkwoorden-vervoegen",
           "es": "conjugar-verbos",
-          "fr": "conjugaison-au-present"
+          "fr": "conjugaison-au-present",
+          "de": "verbformen"
         },
         "name": {
           "en": "Verb Forms",
           "nl": "Werkwoorden vervoegen",
           "es": "Conjugar verbos",
-          "fr": "Conjugaison au présent"
+          "fr": "Conjugaison au présent",
+          "de": "Verbformen"
         }
       },
       "animal-fact-file": {
@@ -3590,13 +3622,15 @@
           "en": "animal-fact-file",
           "nl": "dierenpaspoort",
           "es": "datos-de-animales",
-          "fr": "carte-d-identite-animal"
+          "fr": "carte-d-identite-animal",
+          "de": "tiersteckbrief"
         },
         "name": {
           "en": "Animal Fact File",
           "nl": "Dierenpaspoort",
           "es": "Datos de animales",
-          "fr": "Carte d'identité de l'animal"
+          "fr": "Carte d'identité de l'animal",
+          "de": "Tiersteckbrief"
         }
       },
       "logic-puzzles": {
@@ -3604,13 +3638,15 @@
           "en": "logic-puzzles",
           "nl": "logigrammen",
           "es": "acertijos-de-logica",
-          "fr": "logigrammes"
+          "fr": "logigrammes",
+          "de": "logicals"
         },
         "name": {
           "en": "Logic Grid Puzzles",
           "nl": "Logigrammen",
           "es": "Acertijos de lógica",
-          "fr": "Logigrammes"
+          "fr": "Logigrammes",
+          "de": "Logicals"
         }
       },
       "division-with-remainder": {
@@ -3618,13 +3654,15 @@
           "en": "division-with-remainder",
           "nl": "delen-met-rest",
           "es": "divisiones-con-residuo",
-          "fr": "division-avec-reste"
+          "fr": "division-avec-reste",
+          "de": "teilen-mit-rest"
         },
         "name": {
           "en": "Division with Remainders",
           "nl": "Delen met rest",
           "es": "Divisiones con residuo",
-          "fr": "Division avec reste"
+          "fr": "Division avec reste",
+          "de": "Teilen mit Rest"
         }
       },
       "feelings": {
@@ -3632,13 +3670,15 @@
           "en": "feelings",
           "nl": "gevoelens",
           "es": "las-emociones",
-          "fr": "les-emotions"
+          "fr": "les-emotions",
+          "de": "gefuehle-erkennen"
         },
         "name": {
           "en": "Feelings",
           "nl": "Gevoelens",
           "es": "Las emociones",
-          "fr": "Les émotions"
+          "fr": "Les émotions",
+          "de": "Gefühle erkennen"
         }
       }
     },

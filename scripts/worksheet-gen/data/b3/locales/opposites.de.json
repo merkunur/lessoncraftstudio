@@ -1,0 +1,615 @@
+{
+  "nameSlot": true,
+  "pairs": [
+    {
+      "id": "big-small",
+      "a": "groß",
+      "b": "klein",
+      "tier": 1,
+      "pos": "adj",
+      "family": "size",
+      "alt": {
+        "a": [
+          "riesig"
+        ],
+        "b": [
+          "winzig"
+        ]
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "riesig"
+      },
+      "far": "nass",
+      "pic": {
+        "kind": "scale",
+        "theme": "animals",
+        "noun": "dog",
+        "scales": [
+          1,
+          0.42
+        ]
+      },
+      "picOpened": true
+    },
+    {
+      "id": "hot-cold",
+      "a": "heiß",
+      "b": "kalt",
+      "tier": 1,
+      "pos": "adj",
+      "family": "temperature",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "warm"
+      },
+      "far": "groß",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "camping",
+          "noun": "campfire"
+        },
+        "b": {
+          "theme": "weather",
+          "noun": "snowflake"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "happy-sad",
+      "a": "fröhlich",
+      "b": "traurig",
+      "tier": 1,
+      "pos": "adj",
+      "family": "feeling",
+      "alt": {
+        "a": [
+          "froh"
+        ],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "glücklich"
+      },
+      "far": "kalt",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "emotions",
+          "noun": "happy"
+        },
+        "b": {
+          "theme": "emotions",
+          "noun": "sad"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "fast-slow",
+      "a": "schnell",
+      "b": "langsam",
+      "tier": 1,
+      "pos": "adj",
+      "family": "speed",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "flink"
+      },
+      "far": "weich",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "zoo animals",
+          "noun": "cheetah"
+        },
+        "b": {
+          "theme": "forest creatures",
+          "noun": "snail"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "heavy-light",
+      "a": "schwer",
+      "b": "leicht",
+      "tier": 1,
+      "pos": "adj",
+      "family": "weight",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "fröhlich",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "zoo animals",
+          "noun": "elephant"
+        },
+        "b": {
+          "theme": "easter",
+          "noun": "feather"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "soft-hard",
+      "a": "weich",
+      "b": "hart",
+      "tier": 1,
+      "pos": "adj",
+      "family": "texture",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "flauschig"
+      },
+      "far": "schnell",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "around the house",
+          "noun": "pillow"
+        },
+        "b": {
+          "theme": "camping",
+          "noun": "rock"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "sweet-sour",
+      "a": "süß",
+      "b": "sauer",
+      "tier": 1,
+      "pos": "adj",
+      "family": "taste",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "lang",
+      "pic": {
+        "kind": "two",
+        "a": {
+          "theme": "At the Supermarket",
+          "noun": "candy"
+        },
+        "b": {
+          "theme": "fruits",
+          "noun": "lemon"
+        }
+      },
+      "picOpened": true
+    },
+    {
+      "id": "wet-dry",
+      "a": "nass",
+      "b": "trocken",
+      "tier": 1,
+      "pos": "adj",
+      "family": "moisture",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "feucht"
+      },
+      "far": "laut",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "long-short",
+      "a": "lang",
+      "b": "kurz",
+      "tier": 1,
+      "pos": "adj",
+      "family": "length",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "süß",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "loud-quiet",
+      "a": "laut",
+      "b": "leise",
+      "tier": 1,
+      "pos": "adj",
+      "family": "sound",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "neu",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "old-new",
+      "a": "alt",
+      "b": "neu",
+      "tier": 1,
+      "pos": "adj",
+      "family": "age",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "sauber",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "clean-dirty",
+      "a": "sauber",
+      "b": "schmutzig",
+      "tier": 2,
+      "pos": "adj",
+      "family": "cleanliness",
+      "alt": {
+        "a": [
+          "rein"
+        ],
+        "b": [
+          "dreckig"
+        ]
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "rein"
+      },
+      "far": "offen",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "full-empty",
+      "a": "voll",
+      "b": "leer",
+      "tier": 1,
+      "pos": "adj",
+      "family": "fullness",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "trocken",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "open-closed",
+      "a": "offen",
+      "b": "geschlossen",
+      "tier": 2,
+      "pos": "adj",
+      "family": "openness",
+      "alt": {
+        "a": [
+          "auf"
+        ],
+        "b": [
+          "zu"
+        ]
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "dünn",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "high-low",
+      "a": "hoch",
+      "b": "tief",
+      "tier": 1,
+      "pos": "adj",
+      "family": "height",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "sauer",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "thick-thin",
+      "a": "dick",
+      "b": "dünn",
+      "tier": 1,
+      "pos": "adj",
+      "family": "thickness",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "voll",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "strong-weak",
+      "a": "stark",
+      "b": "schwach",
+      "tier": 2,
+      "pos": "adj",
+      "family": "strength",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "kräftig"
+      },
+      "far": "hell",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "bright-dark",
+      "a": "hell",
+      "b": "dunkel",
+      "tier": 1,
+      "pos": "adj",
+      "family": "light",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "leuchtend"
+      },
+      "far": "langsam",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "rough-smooth",
+      "a": "rau",
+      "b": "glatt",
+      "tier": 2,
+      "pos": "adj",
+      "family": "surface",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": {
+        "a": "holprig"
+      },
+      "far": "stark",
+      "pic": null,
+      "picOpened": false
+    },
+    {
+      "id": "wide-narrow",
+      "a": "breit",
+      "b": "schmal",
+      "tier": 2,
+      "pos": "adj",
+      "family": "width",
+      "alt": {
+        "a": [],
+        "b": []
+      },
+      "exclusiveWith": [],
+      "syn": null,
+      "far": "alt",
+      "pic": null,
+      "picOpened": false
+    }
+  ],
+  "frames": [
+    {
+      "pair": "big-small",
+      "text": "Der Elefant ist nicht klein. Er ist ___.",
+      "answer": "groß",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "elephant"
+      }
+    },
+    {
+      "pair": "hot-cold",
+      "text": "Die Schneeflocke ist nicht heiß. Sie ist ___.",
+      "answer": "kalt",
+      "pic": {
+        "theme": "weather",
+        "noun": "snowflake"
+      }
+    },
+    {
+      "pair": "fast-slow",
+      "text": "Die Schnecke ist nicht schnell. Sie ist ___.",
+      "answer": "langsam",
+      "pic": {
+        "theme": "forest creatures",
+        "noun": "snail"
+      }
+    },
+    {
+      "pair": "soft-hard",
+      "text": "Das Kissen ist nicht hart. Es ist ___.",
+      "answer": "weich",
+      "pic": {
+        "theme": "around the house",
+        "noun": "pillow"
+      }
+    },
+    {
+      "pair": "heavy-light",
+      "text": "Die Feder ist nicht schwer. Sie ist ___.",
+      "answer": "leicht",
+      "pic": {
+        "theme": "easter",
+        "noun": "feather"
+      }
+    },
+    {
+      "pair": "happy-sad",
+      "text": "{name} ist heute nicht traurig. {name} ist ___.",
+      "answer": "fröhlich",
+      "pic": {
+        "theme": "emotions",
+        "noun": "happy"
+      }
+    },
+    {
+      "pair": "sweet-sour",
+      "text": "Die Zitrone ist nicht süß. Sie ist ___.",
+      "answer": "sauer",
+      "pic": {
+        "theme": "fruits",
+        "noun": "lemon"
+      }
+    },
+    {
+      "pair": "wet-dry",
+      "text": "Der Regenschirm ist nicht trocken. Er ist ___.",
+      "answer": "nass",
+      "pic": {
+        "theme": "weather",
+        "noun": "umbrella"
+      }
+    }
+  ],
+  "prefix": {
+    "prefixes": [
+      "un"
+    ],
+    "items": [
+      {
+        "base": "glücklich",
+        "prefix": "un",
+        "expected": "unglücklich"
+      },
+      {
+        "base": "freundlich",
+        "prefix": "un",
+        "expected": "unfreundlich"
+      },
+      {
+        "base": "ordentlich",
+        "prefix": "un",
+        "expected": "unordentlich"
+      },
+      {
+        "base": "gesund",
+        "prefix": "un",
+        "expected": "ungesund"
+      },
+      {
+        "base": "ruhig",
+        "prefix": "un",
+        "expected": "unruhig"
+      },
+      {
+        "base": "bekannt",
+        "prefix": "un",
+        "expected": "unbekannt"
+      },
+      {
+        "base": "ehrlich",
+        "prefix": "un",
+        "expected": "unehrlich"
+      },
+      {
+        "base": "sichtbar",
+        "prefix": "un",
+        "expected": "unsichtbar"
+      },
+      {
+        "base": "pünktlich",
+        "prefix": "un",
+        "expected": "unpünktlich"
+      },
+      {
+        "base": "höflich",
+        "prefix": "un",
+        "expected": "unhöflich"
+      },
+      {
+        "base": "geduldig",
+        "prefix": "un",
+        "expected": "ungeduldig"
+      },
+      {
+        "base": "sauber",
+        "prefix": "un",
+        "expected": "unsauber"
+      }
+    ],
+    "ban": []
+  },
+  "strings": {
+    "G1-307": {
+      "title": "Gegenteile: Schreibe das Gegenteil",
+      "instruction": "Lies das Wort auf jeder Karte. Suche sein Gegenteil in der Wortliste und schreibe es auf die Linie."
+    },
+    "K-351": {
+      "title": "Gegensatzpaare mit Bildern verbinden",
+      "instruction": "Verbinde jedes Bild mit dem Bild und dem Wort, die sein Gegenteil zeigen."
+    },
+    "G1-335": {
+      "title": "Gegenteile im Satz",
+      "instruction": "Lies jeden Satz. Schreibe das Gegenteil des Wortes nach „nicht“ auf die Linie. Die Wortliste hilft dir."
+    },
+    "G1-336": {
+      "title": "Gegensatzpaare finden",
+      "instruction": "Suche die zwei Wörter, die Gegenteile sind. Schreibe jedes Paar auf eine Linie, ein Wort auf jede Seite des Pfeils."
+    },
+    "G1-337": {
+      "title": "Gegenteil oder gleiche Bedeutung?",
+      "instruction": "Lies das Wort. Eines der drei Wörter darunter bedeutet das Gegenteil. Kreise es ein, nicht das Wort mit der gleichen Bedeutung."
+    },
+    "G2-320": {
+      "title": "Gegenteile mit der Vorsilbe un-",
+      "instruction": "Setze die Vorsilbe vor jedes Wort und schreibe das neue Gegenteil auf die Linie."
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "labels": {
+    "nameIs": "Ich heiße",
+    "age": {
+      "pre": "Ich bin",
+      "post": "Jahre alt",
+      "glue": false
+    },
+    "thisIsMe": "Das bin ich",
+    "family": "Meine Familie",
+    "familyDraw": "Zeichne deine Familie",
+    "drawFace": "Zeichne jetzt dein eigenes Gesicht",
+    "school": "Meine Schule heißt",
+    "favHeading": {
+      "animal": "Mein Lieblingstier",
+      "food": "Mein Lieblingsessen",
+      "color": "Meine Lieblingsfarbe",
+      "toy": "Mein Lieblingsspielzeug"
+    },
+    "countHeads": {
+      "people": "Personen in meiner Familie:",
+      "brothers": "Brüder:",
+      "sisters": "Schwestern:",
+      "pets": "Haustiere:"
+    },
+    "wantLearn": "Ich möchte noch lernen:",
+    "myName": "Mein Name",
+    "friendName": "Der Name meines Freundes",
+    "oneLetterPerBox": "Schreibe in jedes Kästchen einen Buchstaben",
+    "lettersCount": "Buchstaben in meinem Namen:",
+    "firstLetter": "Der erste Buchstabe meines Namens:",
+    "whoHasMore": {
+      "question": "Wer hat mehr Buchstaben?",
+      "me": "ich",
+      "friend": "mein Freund"
+    }
+  },
+  "faceWords": {
+    "eye": "Auge",
+    "ear": "Ohr",
+    "nose": "Nase",
+    "mouth": "Mund",
+    "hair": "Haare",
+    "eyebrow": "Augenbraue",
+    "chin": "Kinn"
+  },
+  "can": {
+    "swim": "Ich kann schwimmen",
+    "run": "Ich kann schnell laufen",
+    "skip": "Ich kann Seil springen",
+    "bike": "Ich kann Fahrrad fahren",
+    "read": "Ich kann ein Buch lesen",
+    "soccer": "Ich kann einen Ball schießen",
+    "puzzle": "Ich kann ein Puzzle legen",
+    "paint": "Ich kann ein Bild malen",
+    "sing": "Ich kann ein Lied singen",
+    "skate": "Ich kann Schlittschuh laufen",
+    "ski": "Ich kann Ski fahren",
+    "writename": "Ich kann meinen Namen schreiben",
+    "brushteeth": "Ich kann meine Zähne putzen"
+  },
+  "refuse": [],
+  "optionWords": {
+    "cat": "Katze",
+    "dog": "Hund",
+    "fish": "Fisch",
+    "horse": "Pferd",
+    "rabbit": "Kaninchen",
+    "duck": "Ente",
+    "pig": "Schwein",
+    "sheep": "Schaf",
+    "elephant": "Elefant",
+    "giraffe": "Giraffe",
+    "penguin": "Pinguin",
+    "tiger": "Tiger",
+    "apple": "Apfel",
+    "banana": "Banane",
+    "bread": "Brot",
+    "cheese": "Käse",
+    "pizza": "Pizza",
+    "carrot": "Karotte",
+    "strawberry": "Erdbeere",
+    "cookie": "Keks",
+    "pasta": "Nudeln",
+    "milk": "Milch",
+    "grapes": "Trauben",
+    "cake": "Kuchen",
+    "ball": "Ball",
+    "doll": "Puppe",
+    "car": "Auto",
+    "train": "Zug",
+    "kite": "Drachen",
+    "blocks": "Bauklötze",
+    "robot": "Roboter",
+    "balloon": "Ballon",
+    "boat": "Boot"
+  },
+  "strings": {
+    "K-323": {
+      "title": "Das bin ich",
+      "instruction": "Schreibe deinen Namen und dein Alter, zeichne dich und deine Familie und dann deine drei Lieblingsdinge."
+    },
+    "K-342": {
+      "title": "Meine Lieblingsdinge: Einkreisen und abschreiben",
+      "instruction": "Kreise in jeder Reihe dein Lieblingsbild ein und schreibe sein Wort auf die Linie."
+    },
+    "K-343": {
+      "title": "Meine Familie: Zeichnen und zählen",
+      "instruction": "Zeichne deine Familie. Zeige dann auf den Zehnerfeldern, wie viele Personen, Brüder, Schwestern und Haustiere es sind, und schreibe die Zahl."
+    },
+    "K-344": {
+      "title": "Mein Gesicht: Beschrifte die Teile",
+      "instruction": "Schreibe jedes Wort aus der Wortliste auf die Linie, die zu diesem Teil des Gesichts zeigt. Zeichne dann dein eigenes Gesicht."
+    },
+    "K-345": {
+      "title": "Ich kann das schon: Hake ab, was du kannst",
+      "instruction": "Lies jeden Satz und hake ab, was du schon kannst. Schreibe dann eine Sache auf, die du noch lernen möchtest."
+    },
+    "K-346": {
+      "title": "Mein Name: Schreiben, zählen und vergleichen",
+      "instruction": "Schreibe deinen Namen mit einem Buchstaben pro Kästchen und zähle die Buchstaben. Mach dasselbe für einen Freund und kreise ein, wer mehr hat."
+    }
+  }
+}

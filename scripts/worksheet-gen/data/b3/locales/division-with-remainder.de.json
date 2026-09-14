@@ -1,0 +1,49 @@
+{
+  "exemplar": "2-5",
+  "unitLabels": {
+    "2-5": "durch 2 bis 5",
+    "6-9": "durch 6 bis 9",
+    "2-9": "durch 2 bis 9"
+  },
+  "notation": {
+    "op": ":",
+    "template": "{n} : {d} = {q} R {r}",
+    "boxStyle": "inline",
+    "remWord": "R",
+    "exactWord": "geht auf",
+    "restWord": "Rest",
+    "leftoverLabel": "Rest",
+    "rightWord": "richtig",
+    "wrongWord": "falsch",
+    "kinds": {
+      "quotative": "Aufteilen",
+      "partitive": "Verteilen"
+    }
+  },
+  "strings": {
+    "G3-377": {
+      "title": "Teilen mit Rest: Gruppen einkreisen",
+      "instruction": "Kreise in jedem Haufen Gruppen ein, so groß wie die zweite Zahl. Schreibe, wie viele Gruppen es sind und wie viele Bilder übrig bleiben."
+    },
+    "F1": {
+      "title": "Verteilen mit Rest: Was bleibt übrig?",
+      "instruction": "Verteile den Haufen nacheinander auf die Kästen. Schreibe, wie viele jeder Kasten bekommt und wie viele nicht verteilt werden können."
+    },
+    "F2": {
+      "title": "Teilen mit Rest: Übungsreihen",
+      "instruction": "Bei jeder Aufgabe bleibt etwas übrig. Schreibe in jede Reihe das Ergebnis und den Rest."
+    },
+    "F3": {
+      "title": "Geht die Aufgabe auf? Teilen mit und ohne Rest",
+      "instruction": "Entscheide, ob jede Aufgabe aufgeht. Kreise deine Antwort ein und schreibe den Rest auf, 0 wenn es keinen gibt."
+    },
+    "F4": {
+      "title": "Fehler finden: Der Rest ist zu groß",
+      "instruction": "Jede Aufgabe wurde falsch gerechnet. Streiche die falschen Zahlen durch und schreibe das richtige Ergebnis und den Rest in die Kästchen."
+    },
+    "F5": {
+      "title": "Rückwärts hüpfen am Zahlenstrahl: Was bleibt?",
+      "instruction": "Beginne bei der markierten Zahl und hüpfe in gleich großen Sprüngen zurück, bis kein ganzer Sprung mehr passt. Schreibe die Sprünge und wo du landest."
+    }
+  }
+}

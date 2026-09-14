@@ -1,0 +1,91 @@
+/**
+ * b3-common.js — shared helpers for the nt20-C (b3) printable families.
+ * Additive beside lib/b2-common.js (never edited); every b3 spec reads its
+ * OWN generated bank `data/b3/<key>.js` at render, and the helpers here are
+ * the only other data doors:
+ *
+ *   approvedWords(loc)          entries[] of the phonics pipeline's gated output
+ *                               scripts/v2-data/verify-syllable-boundaries/output/
+ *                               approved-words-<loc>.json ({key, word, split[],
+ *                               count, chunks, sources_agreed[], policy_managed?})
+ *   approvedByKey(loc)          Map vocabKey → entry
+ *   texPool(loc)                the entries whose boundary TeX agreed on
+ *                               ('TeX' in sources_agreed) — README ruling: any
+ *                               face that PRINTS or GRADES a syllable boundary
+ *                               draws only from these (EN approved boundaries
+ *                               are often rule-only: ac-orn, cam-el)
+ *   daStrict(entry)             the da K-1 pool = policy_managed ABSENT (measured:
+ *                               policy_managed:false never occurs)
+ *   hasChunkLayer(loc)          de/nl/sv/no carry a verified grapheme `chunks`
+ *                               layer; elsewhere chunks is a flat copy of split
+ *   bank(name, loc)             data/b3/<name>.js <NAME>[loc] — throws a REFUSAL
+ *                               (never a silent en fallback) when the locale
+ *                               block is absent
+ *   ordinalFor(loc, k, gender)  data/b3/ordinals.js notation[k] / notationF[k]
+ *                               (K-320 contract; throws outside 1..10 or on a
+ *                               missing feminine)
+ *   nfdBase(s)                  NFD with combining marks stripped, lowercased —
+ *                               the "foil is free of the base letter" rule
+ */
+'use strict';
+const fs = require('fs');
+const path = require('path');
+
+const OUT = path.resolve(__dirname, '..', '..', 'v2-data', 'verify-syllable-boundaries', 'output');
+const _approved = new Map();
+const CHUNK_LAYER = new Set(['de', 'nl', 'sv', 'no']);
+
+function approvedWords(loc) {
+  if (!_approved.has(loc)) {
+    const f = path.join(OUT, 'approved-words-' + loc + '.json');
+    if (!fs.existsSync(f)) throw new Error('b3-common: no approved-words file for ' + loc + ' (' + f + ')');
+    const j = JSON.parse(fs.readFileSync(f, 'utf8'));
+    if (!Array.isArray(j.entries) || !j.entries.length) throw new Error('b3-common: approved-words-' + loc + '.json has no entries');
+    _approved.set(loc, j.entries);
+  }
+  return _approved.get(loc);
+}
+function approvedByKey(loc) {
+  const m = new Map();
+  for (const e of approvedWords(loc)) if (!m.has(e.key)) m.set(e.key, e);
+  return m;
+}
+function texAgreed(e) { return Array.isArray(e.sources_agreed) && e.sources_agreed.includes('TeX'); }
+function texPool(loc) { return approvedWords(loc).filter(texAgreed); }
+function daStrict(e) { return e.policy_managed === undefined; }
+function hasChunkLayer(loc) { return CHUNK_LAYER.has(String(loc).slice(0, 2)); }
+
+const _banks = new Map();
+function bankModule(name) {
+  if (!_banks.has(name)) {
+    const f = path.join(__dirname, '..', 'data', 'b3', name + '.js');
+    if (!fs.existsSync(f)) throw new Error('b3-common: data/b3/' + name + '.js is absent (author the EN block / run apply-b3-locale.js)');
+    const mod = require(f);
+    const exportName = Object.keys(mod)[0];
+    _banks.set(name, mod[exportName]);
+  }
+  return _banks.get(name);
+}
+/** The locale block of a b3 bank; absence is a REFUSAL, never a fallback to en. */
+function bank(name, loc) {
+  const all = bankModule(name);
+  const l = String(loc).slice(0, 2);
+  if (!all[l]) throw new Error('b3-common: data/b3/' + name + '.js has no ' + l + ' block — the ' + l + ' panel has not authored it (refuse, never fall back to en)');
+  return all[l];
+}
+
+function ordinalFor(loc, k, gender) {
+  const g = gender || 'm';
+  const o = bank('ordinals', loc);
+  if (!(k >= 1 && k <= 10)) throw new Error('ordinalFor: k out of range 1..10: ' + k);
+  if (g === 'f') {
+    if (!o.notationF || !o.notationF[k]) throw new Error('ordinalFor: ' + loc + ' has no feminine notation for ' + k);
+    return o.notationF[k];
+  }
+  if (!o.notation || !o.notation[k]) throw new Error('ordinalFor: ' + loc + ' has no notation for ' + k);
+  return o.notation[k];
+}
+
+function nfdBase(s) { return String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
+
+module.exports = { approvedWords, approvedByKey, texAgreed, texPool, daStrict, hasChunkLayer, bank, bankModule, ordinalFor, nfdBase };

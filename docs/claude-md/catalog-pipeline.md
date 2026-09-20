@@ -117,6 +117,8 @@ Two slug generators intentionally differ on non-ASCII: `catalog-export.js: slugi
 ### 15.8 Cloudflare cache-invalidation
 5-min short-TTL via nginx `add_header Cache-Control "public, max-age=300"`. Cloudflare honors origin. No purge-API calls. Fresh edits propagate within 5 min. Load-bearing post-2026-04-30 (Cloudflare onboarding); pre-2026-04-30 empirically inert.
 
+**⚠ Deck PDFs were the exception (measured 2026-09-21).** The four PDF locations served `max-age=2592000` (30 days) under version-STABLE URLs (`/<loc>/decks/<slug>/<slug>-printable.pdf` resolves through the swapped symlink), so every in-place republish (`--updates-manifest`) left the OLD PDF at the edge for a month: edge `last-modified 20:03 / cf-cache-status HIT / Age 7990` vs origin `22:38`. Fixed by `scripts/publish-cli/patch-nginx-deck-asset-cache.py` (idempotent; applied): `Cache-Control "public, max-age=3600"` + `Cloudflare-CDN-Cache-Control "max-age=300"` — the edge revalidates within 5 min, browsers/Google keep 1 h. Objects already cached under the old header expire only by a dashboard **Purge Everything** (no Cloudflare API token exists on the box). **Standing rule: a republish is not live until the EDGE serves it — verify `cf-cache-status` + `last-modified` THROUGH Cloudflare, never only at origin.**
+
 ### 15.9 `_collisions.txt` archived-vs-published differentiation
 INSERT-route collisions surface different recommendations: published-row → `add to --updates-manifest mapping (<slug> ← <zipfile>) OR rename source ZIP`; archived-row → `pick a different slug — UPDATE-via-manifest NOT valid for archived rows; reactivation out-of-scope per Phase 5 Q2 lock`. Origin: `0ad626cb`.
 

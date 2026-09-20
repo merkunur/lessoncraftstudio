@@ -2169,10 +2169,10 @@
   },
   "G1-329": {
     "title": "La vocal de cada sílaba",
-    "instruction": "Pon un punto sobre la vocal de cada sílaba."
+    "instruction": "Marca con un punto la vocal de cada sílaba."
   },
   "G1-330": {
-    "title": "Encierra la sílaba que oyes: {UNIT}",
+    "title": "Rodea la sílaba que oyes: {UNIT}",
     "instruction": "Rodea la sílaba con la que empieza."
   },
   "G1-331": {
@@ -2233,7 +2233,7 @@
   },
   "K-352": {
     "title": "¿Riman o no riman?",
-    "instruction": "Di los dos nombres: si terminan igual, marca sí; si no, marca no."
+    "instruction": "Di los dos nombres: si riman, marca la palomita; si no, el tache."
   },
   "G1-343": {
     "title": "Familias de rimas: clasifica",
@@ -2289,7 +2289,7 @@
   },
   "G2-328": {
     "title": "Plurales: {UNIT}",
-    "instruction": "Lee el singular y escribe el plural en las casillas."
+    "instruction": "Lee el singular y escribe el plural en la casilla."
   },
   "G2-330": {
     "title": "Divide la palabra: encuentra la raíz",
@@ -2312,7 +2312,7 @@
     "instruction": "Mira el dibujo y lee el verbo de la ficha. Escribe en la caja punteada la forma que completa la oración."
   },
   "G2-336": {
-    "title": "Los verbos irregulares: ser, estar, tener e ir",
+    "title": "Verbos irregulares: ser, estar, tener e ir, dos por hoja",
     "instruction": "Estos verbos cambian mucho. Escribe en las cajas punteadas la forma que va con cada persona."
   },
   "G2-337": {

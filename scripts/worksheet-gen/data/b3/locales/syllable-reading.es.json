@@ -6,7 +6,7 @@
   "units": [
     {
       "id": "m",
-      "label": "sílabas ma me mi mo mu",
+      "label": "ma me mi mo mu",
       "cells": [
         "ma",
         "me",
@@ -118,7 +118,7 @@
     },
     {
       "id": "p",
-      "label": "sílabas pa pe pi po pu",
+      "label": "pa pe pi po pu",
       "cells": [
         "pa",
         "pe",
@@ -327,7 +327,7 @@
     },
     {
       "id": "t",
-      "label": "sílabas ta te ti to tu",
+      "label": "ta te ti to tu",
       "cells": [
         "ta",
         "te",
@@ -495,7 +495,7 @@
     },
     {
       "id": "l",
-      "label": "sílabas la le li lo lu",
+      "label": "la le li lo lu",
       "cells": [
         "la",
         "le",
@@ -585,7 +585,7 @@
     },
     {
       "id": "s",
-      "label": "sílabas sa se si so su",
+      "label": "sa se si so su",
       "cells": [
         "sa",
         "se",
@@ -655,7 +655,7 @@
     },
     {
       "id": "d",
-      "label": "sílabas da de di do du",
+      "label": "da de di do du",
       "cells": [
         "da",
         "de",
@@ -698,7 +698,7 @@
     },
     {
       "id": "n",
-      "label": "sílabas na ne ni no nu",
+      "label": "na ne ni no nu",
       "cells": [
         "na",
         "ne",
@@ -739,7 +739,7 @@
     },
     {
       "id": "b",
-      "label": "sílabas ba be bi bo bu",
+      "label": "ba be bi bo bu",
       "cells": [
         "ba",
         "be",
@@ -908,7 +908,7 @@
     },
     {
       "id": "c",
-      "label": "sílabas ca co cu",
+      "label": "ca co cu",
       "cells": [
         "ca",
         "co",
@@ -1252,7 +1252,7 @@
     },
     {
       "id": "g",
-      "label": "sílabas ga go gu",
+      "label": "ga go gu",
       "cells": [
         "ga",
         "go",
@@ -1360,7 +1360,7 @@
     },
     {
       "id": "f",
-      "label": "sílabas fa fe fi fo fu",
+      "label": "fa fe fi fo fu",
       "cells": [
         "fa",
         "fe",
@@ -1393,7 +1393,7 @@
     },
     {
       "id": "r",
-      "label": "sílabas ra re ri ro ru",
+      "label": "ra re ri ro ru",
       "cells": [
         "ra",
         "re",
@@ -1483,7 +1483,7 @@
     },
     {
       "id": "j",
-      "label": "sílabas ja je ji jo ju",
+      "label": "ja je ji jo ju",
       "cells": [
         "ja",
         "je",
@@ -1544,7 +1544,7 @@
     },
     {
       "id": "ll",
-      "label": "sílabas lla lle lli llo llu",
+      "label": "lla lle lli llo llu",
       "cells": [
         "lla",
         "lle",
@@ -1585,7 +1585,7 @@
     },
     {
       "id": "z",
-      "label": "sílabas za ze zi zo zu",
+      "label": "za ze zi zo zu",
       "cells": [
         "za",
         "ze",
@@ -1621,7 +1621,7 @@
   "complexUnits": [
     {
       "id": "tr-pl",
-      "label": "sílabas trabadas trac trom pla plan plu",
+      "label": "trac trom pla plan plu",
       "cells": [
         "trac",
         "trom",
@@ -1700,7 +1700,7 @@
     },
     {
       "id": "gr-fl-bl",
-      "label": "sílabas trabadas gra gri fla flo flau blo blu",
+      "label": "gra gri fla flo flau blo blu",
       "cells": [
         "gra",
         "gri",
@@ -1782,7 +1782,7 @@
     },
     {
       "id": "br-fr-gl",
-      "label": "sílabas trabadas bra bró brú fre fras fram glo",
+      "label": "bra bró brú fre fras fram glo",
       "cells": [
         "bra",
         "bró",

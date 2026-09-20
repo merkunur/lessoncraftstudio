@@ -307,7 +307,7 @@ node /opt/lessoncraftstudio/scripts/verify-letter-strokes.js || { echo "ERROR: t
 # poison-tested 12/12. Browser-free, DB-free. --warn-missing-keys until the
 # nt20-C landings are committed (then dropped: CLAUDE.md §25).
 echo "🔎 Worksheets hub type-row check..."
-node /opt/lessoncraftstudio/scripts/verify-hub-type-rows.js --warn-missing-keys || { echo "ERROR: a printable family is missing or mis-counted on /worksheets — see docs/worksheet-gen/b3-designs/hub-expectations.json + scripts/verify-hub-type-rows.js"; exit 1; }
+node /opt/lessoncraftstudio/scripts/verify-hub-type-rows.js || { echo "ERROR: a printable family is missing or mis-counted on /worksheets — see docs/worksheet-gen/b3-designs/hub-expectations.json + scripts/verify-hub-type-rows.js"; exit 1; }
 
 # Guard: a `font:` shorthand with an UNQUOTED family whose identifier starts with a
 # digit — `Baloo 2` — is INVALID CSS, and an invalid component invalidates the WHOLE

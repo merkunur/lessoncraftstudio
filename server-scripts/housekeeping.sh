@@ -50,6 +50,17 @@ if [ $DRY = 0 ]; then
   find "$DECKS" -type f -name 'deck.html.bak.*' -mtime +14 -delete
 fi
 
+# 1b. deck.html.precanonical-bak older than 14 days — the rollback copy repoint-deck-canonical.js
+#     writes on first touch (one per landing-bearing deck; 9,409 of them by 2026-09-20, the
+#     nt20-C Phase 7 repoint). A repoint is proven by the audit + the live canonical within the
+#     day, so the copy has served its purpose after two weeks (§A.14.12: every class expires).
+echo ""
+echo "1b. deck.html.precanonical-bak > 14 d in $DECKS"
+find "$DECKS" -type f -name 'deck.html.precanonical-bak' -mtime +14 -printf '%s\0' | sum_files; echo
+if [ $DRY = 0 ]; then
+  find "$DECKS" -type f -name 'deck.html.precanonical-bak' -mtime +14 -delete
+fi
+
 # 2. stale publish-cli staging batches — remove extraction dirs, keep reports
 echo ""
 echo "2. .publish-cli-staging/batch-* > 7 d (extraction dirs only; _* reports kept)"

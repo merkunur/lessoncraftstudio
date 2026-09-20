@@ -1026,7 +1026,17 @@
       "col": "voces",
       "unit": "presente",
       "fits": [
-        "ter",
+        "ter"
+      ],
+      "subjectLiteral": "Vocês",
+      "pic": null
+    },
+    {
+      "id": "f24b",
+      "text": "Vocês {form} com muita fome?",
+      "col": "voces",
+      "unit": "presente",
+      "fits": [
         "estar"
       ],
       "subjectLiteral": "Vocês",

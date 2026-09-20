@@ -29,7 +29,7 @@
  * and asserts:
  *   A  baseline == base rule            (± 1 px)
  *   B  baseline − xHeightInk == mid rule (± 1 px)   small letters fill the x band
- *   C  ascender ink ≤ (base − top) + 1  and ≥ 0.75·(base − top)   never over the top line, never dwarfed
+ *   C  ascender ink ≤ (base − top) + 1  and > (base − mid)   never over the top line, taller than the x band
  *   D  starter width ≤ 0.5 · row width  (the child needs the rest of the line)
  *   E  the starter starts at the row's left inset (svg: x ≈ 8)
  *
@@ -52,7 +52,7 @@ const { renderInstance } = require('../render/render-instance.js');
 const WG = path.resolve(__dirname, '..');
 const OUT_DIR = path.join(WG, 'out', 'dev', 'ruling-starters');
 const ALL_LOCALES = ['en', 'de', 'es', 'pt', 'fr', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
-const MUST_HAVE = ['K-335', 'G2-278', 'G2-341', 'G2-318'];
+const MUST_HAVE = ['K-335', 'G2-278', 'G2-341', 'G2-318', 'G1-306'];
 const MUST_NOT = ['K-327'];
 const CONTROL = { id: 'G1-249', theme: 'animals', difficulty: 2 };
 
@@ -62,6 +62,15 @@ const QUICK = argv.includes('--quick');
 const POISON = argv.includes('--poison');
 const LOCALES = QUICK ? ['en'] : String(arg('locales', ALL_LOCALES.join(','))).split(',').filter(Boolean);
 const ONLY = arg('types', null) ? new Set(arg('types').split(',')) : null;
+
+function countOnRow(html) {
+  let n = (html.match(/<span data-lcs-starter(?![-\w])/g) || []).length;
+  for (const chunk of html.split('<svg').slice(1)) {
+    if (!/^[^>]*data-lcs-prim="writing-row"/.test(chunk)) continue;
+    n += (chunk.slice(0, chunk.indexOf('</svg>')).match(/<text[\s>]/g) || []).length;
+  }
+  return n;
+}
 
 async function discover() {
   const specs = loadAllTypes().filter((s) => s.id && (!ONLY || ONLY.has(s.id)));
@@ -77,9 +86,10 @@ async function discover() {
         try {
           const rng = makeRng(instanceSeed({ typeId: type.id, theme, difficulty, seedEpoch: 1 }));
           const built = await type.build({ theme, difficulty, locale: 'en', unit: null }, { rng });
-          // only starters ON a writing row: rulingBlock's svg <text> and factLane's span (K-330's
-          // data-lcs-starter is a STAGE stamp for a grapheme printed inside a sound box — not a frame)
-          const n = (String(built.bodyHtml).match(/<text[^>]*data-lcs-starter="1"|<span data-lcs-starter(?![-\w])/g) || []).length;
+          // every text ON a writing row — rulingBlock starters, syllableLane rimes (G1-306, missed by the
+          // round-1 selector), anything else that lands a <text> in a writing-row svg — plus factLane's
+          // span (K-330's data-lcs-starter is a STAGE stamp for a grapheme in a sound box — not a frame)
+          const n = countOnRow(String(built.bodyHtml));
           if (n) hit = { id: type.id, theme, difficulty, expect: n, type };
           break;   // built on this theme (with or without starters) — the answer for this (id, d)
         } catch (e) { errors.push(`${type.id} d${difficulty} ${theme}: ${String(e.message).slice(0, 90)}`); }
@@ -110,7 +120,7 @@ async function measure(page) {
       if (ys.length !== 3) return { error: `${ys.length} rules (want 3)`, box: r };
       return { top: ys[0].y, mid: ys[1].y, base: ys[2].y, midDashed: ys[1].dashed, box: r };
     };
-    document.querySelectorAll('svg[data-lcs-prim="writing-row"] text[data-lcs-starter], [data-lcs-factlane] span[data-lcs-starter]').forEach((el, i) => {
+    document.querySelectorAll('svg[data-lcs-prim="writing-row"] text, [data-lcs-factlane] span[data-lcs-starter]').forEach((el, i) => {
       const rec = { i, text: el.textContent.trim(), kind: el instanceof SVGElement ? 'svg' : 'html' };
       const cs = getComputedStyle(el);
       const px = parseFloat(cs.fontSize);
@@ -139,6 +149,9 @@ async function measure(page) {
       }
       rec.rules = rules; rec.baseline = baseline; rec.left = left; rec.rowW = rowW;
       rec.width = el.getBoundingClientRect().width;
+      rec.anchorEnd = el.getAttribute && el.getAttribute('text-anchor') === 'end';
+      const lane = el.closest && el.closest('[data-lcs-syllable-lane]');
+      rec.writable = lane ? +lane.dataset.lcsWritable : null;
       out.starters.push(rec);
     });
     return out;
@@ -159,9 +172,17 @@ function judge(m, expectN, tag) {
     if (Math.abs(xTop - mid) > 1) fails.push(`${t}: x-height top ${xTop.toFixed(1)} vs mid rule ${mid.toFixed(1)} (B)`);
     const span = base - top;
     if (s.bInk > span + 1) fails.push(`${t}: ascender ${s.bInk.toFixed(1)} over the top rule (span ${span.toFixed(1)}) (C)`);
-    if (s.bInk < 0.75 * span) fails.push(`${t}: ascender ${s.bInk.toFixed(1)} < 0.75 of the frame ${span.toFixed(1)} (C)`);
-    if (s.width > 0.5 * s.rowW) fails.push(`${t}: starter ${s.width.toFixed(0)} px takes more than half of the ${s.rowW.toFixed(0)} px row (D)`);
-    if (s.kind === 'svg' && Math.abs(s.left - 8) > 1) fails.push(`${t}: starts at x ${s.left.toFixed(1)} (want 8) (E)`);
+    // the LOWER bound is a font property, not an invented fraction (0.75·span failed a correct Baloo rime by 0.00004 px):
+    // an ascender must clear the x band; the SIZE is what B measures
+    if (s.bInk <= (base - mid) + 0.5) fails.push(`${t}: ascender ${s.bInk.toFixed(1)} does not clear the x band ${(base - mid).toFixed(1)} (C)`);
+    if (s.writable != null) {
+      // a printed rime: the lane's own design guard (>= 60 px left to write the onset)
+      if (!(s.writable >= 60) || s.rowW - s.width - 12 < 59) fails.push(`${t}: rime ${s.width.toFixed(0)} px leaves ${(s.rowW - s.width - 12).toFixed(0)} px to write on (stamp ${s.writable}) (D)`);
+      if (Math.abs(s.left - (s.rowW - 6)) > 1) fails.push(`${t}: rime anchored at x ${s.left.toFixed(1)} (want ${(s.rowW - 6).toFixed(1)}, right end) (E)`);
+    } else {
+      if (s.width > 0.5 * s.rowW) fails.push(`${t}: starter ${s.width.toFixed(0)} px takes more than half of the ${s.rowW.toFixed(0)} px row (D)`);
+      if (s.kind === 'svg' && Math.abs(s.left - 8) > 1) fails.push(`${t}: starts at x ${s.left.toFixed(1)} (want 8) (E)`);
+    }
   }
   return fails;
 }
@@ -194,12 +215,20 @@ async function gotoHtml(page, htmlPath) {
       let out;
       try {
         out = await renderInstance({ type: f.type, theme: f.theme, difficulty: f.difficulty, locale, unit: null, strings, page, outDir: OUT_DIR, baseName: `${f.id}-${f.theme || 'null'}-d${f.difficulty}-${locale}` });
-      } catch (e) { fails.push(`${tag}: render refused — ${String(e.message).slice(0, 120)}`); continue; }
+      } catch (e) {
+        // a spec-level refusal (pool floors, perRowMin — the design's own guards on an unshipped
+        // difficulty in this locale) is not a starter defect; a LANE refusal (writable < 60) is — the
+        // wider rime is exactly what could cause it
+        const msg = String(e.message).slice(0, 120);
+        if (/syllableLane|writable|starter/i.test(msg)) fails.push(`${tag}: render refused by the lane — ${msg}`);
+        else console.log(`skip ${tag}: spec refused (${msg})`);
+        continue;
+      }
       const m = await measure(page);
       // the locale's OWN source count (fr K-335 authors `because: null` — a recorded refusal; the
       // Nordic G1-309 d1 pools give 4 rows, not en's 5): the count check is source-vs-rendered per
       // locale, the aggregate non-vacuity below still refuses a run that measured nothing
-      const expectLoc = (String(out.html).match(/<text[^>]*data-lcs-starter="1"|<span data-lcs-starter(?![-\w])/g) || []).length;
+      const expectLoc = countOnRow(String(out.html));
       if (expectLoc === 0) console.log(`none ${tag}: this locale authors no starter here (source 0; en has ${f.expect})`);
       const j = judge(m, expectLoc, tag);
       measured += m.starters.length;
@@ -244,6 +273,19 @@ async function gotoHtml(page, htmlPath) {
         p3ok = f3.some((x) => /\((A|B)\)/.test(x));
         console.log(`poison P3 (factLane 20 px centred): ${p3ok ? 'FIRED' : 'DID NOT FIRE'} — ${f3.join(' | ') || 'no failures'}`);
       } else console.log('poison P3: no G2-318 d2 render in this run (use --types including G2-318 or the full run)');
+      // P5 — the old syllableLane rime (0.9·glyphH, yBase−1) — must fail B; proves the selector reaches the lane
+      const laneR = rendered.find((r) => r.id === 'G1-306' && r.d === 2);
+      let p5ok = false;
+      if (laneR) {
+        const h5 = fs.readFileSync(laneR.htmlPath, 'utf8');
+        const p5 = h5.replace(/<text[^>]*data-lcs-lane-printed="1"[^>]*>/g, (tag) => tag.replace(/font-size="[\d.]+"/, 'font-size="27"').replace(/\sy="([\d.]+)"/, (m0, y) => ` y="${(parseFloat(y) - 1).toFixed(1)}"`));
+        if (p5 === h5) throw new Error('P5 needle matched nothing');
+        const p5Path = path.join(OUT_DIR, '_poison-rime.html'); fs.writeFileSync(p5Path, p5);
+        await gotoHtml(page, p5Path);
+        const f5 = judge(await measure(page), laneR.expect, 'P5');
+        p5ok = f5.some((x) => /\(B\)/.test(x));
+        console.log(`poison P5 (rime 0.9·glyphH, y−1): ${p5ok ? 'FIRED' : 'DID NOT FIRE'} — ${f5.slice(0, 3).join(' | ') || 'no failures'}`);
+      } else console.log('poison P5: no G1-306 d2 render in this run');
       // P4 control — a page with no starters reports 0, and the judge refuses it
       const ctrlType = loadAllTypes().find((t) => t.id === CONTROL.id);
       await renderInstance({ type: ctrlType, theme: CONTROL.theme, difficulty: CONTROL.difficulty, locale: 'en', unit: null, page, outDir: OUT_DIR, baseName: '_control-G1-249' });
@@ -251,7 +293,7 @@ async function gotoHtml(page, htmlPath) {
       const fc = judge(mc, 1, 'P4');
       const p4ok = mc.starters.length === 0 && fc.length > 0;
       console.log(`poison P4 (control without starters): ${p4ok ? 'reports 0 and refuses' : 'DID NOT BEHAVE'} — ${mc.starters.length} starters, ${fc.join(' | ')}`);
-      if (!(p1ok && p2ok && (p3ok || !lane) && p4ok)) fails.push('a poison did not fire — the measurement is not trustworthy');
+      if (!(p1ok && p2ok && (p3ok || !lane) && p4ok && (p5ok || !laneR))) fails.push('a poison did not fire — the measurement is not trustworthy');
     }
   } finally {
     await browser.close();

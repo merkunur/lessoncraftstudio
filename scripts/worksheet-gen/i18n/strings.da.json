@@ -2113,7 +2113,7 @@
   },
   "K-343": {
     "title": "Min familie: tegn og tæl",
-    "instruction": "Tegn din familie. Vis så på tierammerne, hvor mange personer, brødre, søstre og kæledyr I er, og skriv tallet."
+    "instruction": "Tegn din familie. Vis så på tierammerne, hvor mange personer, brødre, søstre og kæledyr der er i din familie, og skriv tallet."
   },
   "K-344": {
     "title": "Det er mig: sæt ord på ansigtet",
@@ -2329,7 +2329,7 @@
   },
   "G2-339": {
     "title": "Faktakort om {L}: sæt ring om det rigtige",
-    "instruction": "Læs mulighederne i hver række, og sæt ring om den, der passer på dyret. Tegn så, hvor det bor, og gør sætningen færdig."
+    "instruction": "Læs mulighederne i hver række, og sæt ring om den, der passer på dyret. Tegn så, hvor det lever, og gør sætningen færdig."
   },
   "G2-340": {
     "title": "Faktakort med ordbank: {L}",

@@ -2257,7 +2257,7 @@
   },
   "G2-321": {
     "title": "Sprungrätsel: Folge den Pfeilen",
-    "instruction": "Beginne bei der Zahl und folge den Pfeilen: nach oben 10 weniger, nach unten 10 mehr, nach rechts 1 mehr. Schreibe auf, wo du landest."
+    "instruction": "Beginne bei der Zahl und folge den Pfeilen: nach oben 10 weniger, nach unten 10 mehr, nach links 1 weniger, nach rechts 1 mehr. Schreibe auf, wo du landest."
   },
   "G2-322": {
     "title": "Geheimzahl: Zwei Pfeile, ein Feld",
@@ -2328,7 +2328,7 @@
     "instruction": "Unterstreiche das Verb in jedem Satz. Schreibe dann seine Grundform in das gestrichelte Kästchen."
   },
   "G2-339": {
-    "title": "Steckbrief {U}: Kreuze an, was stimmt",
+    "title": "Steckbrief {U}: Kreise ein, was stimmt",
     "instruction": "Lies die Auswahl in jeder Zeile und kreise das ein, was für dieses Tier stimmt. Zeichne dann, wo es lebt, und vervollständige den Satz."
   },
   "G2-340": {

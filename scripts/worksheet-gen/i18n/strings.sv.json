@@ -2021,15 +2021,15 @@
   },
   "G1-312": {
     "title": "Ljudremsa: hur många ljud hör du?",
-    "instruction": "Säg ordet till bilden och lägg ett finger på en ruta för varje ljud. Skriv sedan hur många ljud ordet har."
+    "instruction": "Säg ordet till bilden långsamt. Skriv ett ljud i varje ruta, börja från vänster. Lämna rutorna du inte behöver tomma."
   },
   "G1-313": {
     "title": "Stavelser och ljud: klappa och ljuda",
-    "instruction": "Klappa stavelserna i ordet och läs bågen under varje stavelse. Skriv sedan ett ljud i varje ruta."
+    "instruction": "Klappa stavelserna i ordet. Bågen över rutorna visar varje stavelse. Skriv sedan ett ljud i varje ruta."
   },
   "G1-314": {
     "title": "Ljuda ihop bokstäverna till ett ord",
-    "instruction": "Läs ljuden i rutorna ett i taget. Ljuda ihop dem till ett ord och skriv ordet på raden."
+    "instruction": "Läs ljuden i rutorna ett i taget. Ljuda ihop dem till ett ord och ringa in bilden som passar."
   },
   "K-331": {
     "title": "Hur känner du dig? Ringa in ansiktet",
@@ -2160,7 +2160,7 @@
     "instruction": "Säg ordet till bilden. En stavelse fattas i ordet. Skriv den stavelse som saknas i rutan."
   },
   "G1-327": {
-    "title": "Blanda stavelserna rätt",
+    "title": "Lägg stavelserna i rätt ordning",
     "instruction": "Stavelserna har hamnat i fel ordning. Säg ordet till bilden, lägg stavelserna rätt och skriv hela ordet på raden."
   },
   "G1-328": {
@@ -2224,7 +2224,7 @@
     "instruction": "Börja vid flaggan och räkna längs raden. Hitta bilden på sin plats och gör sedan det som meningen säger med din penna."
   },
   "G1-341": {
-    "title": "Läs och kryssa: sant eller falskt?",
+    "title": "Läs och svara: sant eller falskt?",
     "instruction": "Läs varje mening och titta på raden med bilder. Är meningen sann eller falsk? Ringa in rätt ord."
   },
   "G1-342": {

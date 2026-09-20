@@ -604,18 +604,6 @@
     },
     {
       "base": {
-        "vocabKey": "house",
-        "word": "casa",
-        "pic": {
-          "theme": "miscellaneous",
-          "noun": "house"
-        }
-      },
-      "small": "casinha",
-      "big": "casarão"
-    },
-    {
-      "base": {
         "vocabKey": "ball",
         "word": "bola",
         "pic": {

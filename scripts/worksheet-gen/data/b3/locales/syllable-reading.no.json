@@ -6,7 +6,7 @@
   "units": [
     {
       "id": "å",
-      "label": "ord med å: båt, gås, sol",
+      "label": "ord med å",
       "cells": [
         "båt",
         "gås",
@@ -92,7 +92,7 @@
     },
     {
       "id": "o",
-      "label": "ord med o: bok, sol, tog",
+      "label": "ord med o",
       "cells": [
         "bok",
         "sol",
@@ -156,7 +156,7 @@
     },
     {
       "id": "i",
-      "label": "ord med i: bil, is, ris",
+      "label": "ord med i",
       "cells": [
         "bil",
         "is",
@@ -219,7 +219,7 @@
     },
     {
       "id": "u",
-      "label": "ord med u: hus, mus, ku",
+      "label": "ord med u",
       "cells": [
         "hus",
         "mus",
@@ -271,7 +271,7 @@
     },
     {
       "id": "e",
-      "label": "ord med e: rev, sel",
+      "label": "ord med e",
       "cells": [
         "rev",
         "sel",
@@ -311,7 +311,7 @@
     },
     {
       "id": "ø",
-      "label": "ord med ø: dør, løk",
+      "label": "ord med ø",
       "cells": [
         "dør",
         "løk",
@@ -351,7 +351,7 @@
     },
     {
       "id": "a",
-      "label": "ord med a: kam, lam",
+      "label": "ord med a",
       "cells": [
         "kam",
         "lam",
@@ -393,7 +393,7 @@
   "complexUnits": [
     {
       "id": "r1",
-      "label": "ord med dobbel konsonant: katt, ball, hatt",
+      "label": "ord med dobbel konsonant",
       "cells": [
         "katt",
         "ball",
@@ -486,7 +486,7 @@
     },
     {
       "id": "r2",
-      "label": "ord som begynner med to konsonanter: fly, sko, tre",
+      "label": "ord som begynner med to konsonanter",
       "cells": [
         "fly",
         "sko",
@@ -575,7 +575,7 @@
     },
     {
       "id": "r3",
-      "label": "ord som slutter med to konsonanter: arm, ost, fisk",
+      "label": "ord som slutter med to konsonanter",
       "cells": [
         "arm",
         "ost",
@@ -664,7 +664,7 @@
     },
     {
       "id": "r4",
-      "label": "flere ord med dobbel konsonant: buss, egg, munn",
+      "label": "flere ord med dobbel konsonant",
       "cells": [
         "buss",
         "egg",
@@ -756,7 +756,7 @@
     },
     {
       "id": "r5",
-      "label": "flere ord med to konsonanter: hest, telt, melk",
+      "label": "flere ord med to konsonanter",
       "cells": [
         "hest",
         "telt",

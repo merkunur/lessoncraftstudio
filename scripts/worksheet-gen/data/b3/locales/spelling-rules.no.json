@@ -623,38 +623,6 @@
           "pluralGap": null
         },
         {
-          "theme": "bakery",
-          "noun": "waffle",
-          "vocabKey": "waffle",
-          "word": "vaffel",
-          "gaps": [
-            {
-              "from": 2,
-              "len": 2
-            }
-          ],
-          "g": "ff",
-          "side": "rule",
-          "plural": "vafler",
-          "pluralGap": null
-        },
-        {
-          "theme": "around the house",
-          "noun": "fork",
-          "vocabKey": "fork",
-          "word": "gaffel",
-          "gaps": [
-            {
-              "from": 2,
-              "len": 2
-            }
-          ],
-          "g": "ff",
-          "side": "rule",
-          "plural": "gafler",
-          "pluralGap": null
-        },
-        {
           "theme": "beach",
           "noun": "seashell",
           "vocabKey": "seashell",

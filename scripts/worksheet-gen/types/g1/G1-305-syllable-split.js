@@ -284,10 +284,31 @@ module.exports = {
       if (pool.length < floor) refuse(`has ${pool.length} eligible words (a 2-4 letter syllable, texPool) < ${floor}`);
       const picks = rng.shuffle(sampleEntries(rng, pool, d.cards, ID));
       const [lo, hi] = opts.blankLen;
-      const cards = picks.map((e) => {
+      // the missing syllable is distinct across the page: the de/pt/sv/no draws printed the same
+      // answer twice (no: tann-børste + tann-krem — the second copies the first; found by the
+      // no Q1 landing panel, 2026-09-20). A card whose every eligible syllable is already an
+      // answer on the page REFUSES the draw rather than repeating one.
+      // A card whose every eligible syllable is already an answer is SWAPPED for the first
+      // remaining pool word (alphabetical, no rng consumed — pages without a clash are
+      // byte-identical to before) that has a fresh one; only an exhausted pool refuses.
+      const usedSyl = new Set();
+      const eligibleIdx = (e) => e.split.map((syl, i) => ([...syl].length >= lo && [...syl].length <= hi ? i : -1)).filter((i) => i >= 0);
+      const freshIdx = (e) => eligibleIdx(e).filter((i) => !usedSyl.has(e.split[i].toLocaleLowerCase(loc)));
+      const remaining = pool.filter((e) => !picks.includes(e)).sort((a, b) => a.word.localeCompare(b.word, loc));
+      const chosen = [];
+      const cards = picks.map((e0) => {
+        let e = e0;
+        if (!freshIdx(e).length) {
+          const alt = remaining.find((r) => freshIdx(r).length && !picks.some((p) => p.vocabKey === r.vocabKey));
+          if (!alt) refuse(`cloze: every eligible syllable of "${e.word}" is already the answer on another card and the pool has no substitute`);
+          remaining.splice(remaining.indexOf(alt), 1);
+          e = alt;
+        }
+        chosen.push(e);
         const n = [...e.word].length;
-        const okIdx = e.split.map((syl, i) => ([...syl].length >= lo && [...syl].length <= hi ? i : -1)).filter((i) => i >= 0);
-        const bi = rng.pick(okIdx);   // index 0 allowed (de: the child writes the capital)
+        const fresh = freshIdx(e);
+        const bi = rng.pick(fresh);   // index 0 allowed (de: the child writes the capital)
+        usedSyl.add(e.split[bi].toLocaleLowerCase(loc));
         const from = e.split.slice(0, bi).reduce((a, syl) => a + [...syl].length, 0);
         const len = [...e.split[bi]].length;
         const cell = cellFor(n - len + 4, d.cellMax);
@@ -299,7 +320,7 @@ module.exports = {
       });
       return {
         bodyHtml: rootOpen(` data-lcs-cellmax="${d.cellMax}" data-lcs-blanklo="${lo}" data-lcs-blankhi="${hi}"`) + cardGrid({ cards, cols: d.cols, rows: d.rows }) + '</div>',
-        meta: { face, words: picks.map((e) => e.word), splits: picks.map((e) => e.split.join('-')), pool: pool.length },
+        meta: { face, words: chosen.map((e) => e.word), splits: chosen.map((e) => e.split.join('-')), pool: pool.length },
       };
     }
 
@@ -613,6 +634,8 @@ module.exports = {
           noSeparatedForm(stages.map((s) => s.dataset.lcsWord));
           // the missing syllable itself is never printed on its card
           stages.forEach((st, i) => { const syl = st.dataset.lcsSplit.split('|')[+st.dataset.lcsBlank]; if (visibleText(st).some((t) => t.toLocaleLowerCase(lang) === syl)) fails.push(`card ${i + 1}: the missing syllable "${syl}" is printed`); });
+          // the missing syllable is distinct across the page (a repeated answer can be copied from its sibling card)
+          { const seenSyl = new Map(); stages.forEach((st, i) => { const syl = st.dataset.lcsSplit.split('|')[+st.dataset.lcsBlank].toLocaleLowerCase(lang); if (seenSyl.has(syl)) fails.push(`card ${i + 1}: the missing syllable "${syl}" is also the answer on card ${seenSyl.get(syl)}`); else seenSyl.set(syl, i + 1); }); }
         }
 
         if (face === 'scramble') {

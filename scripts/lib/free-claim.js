@@ -24,7 +24,12 @@ const PRICE = new RegExp(
   'free|' +
   'kostenlos\\p{L}*|kostenfrei\\p{L}*|umsonst|' +
   'gratis|gratuit\\p{L}*|grátis|' +
-  'ilmais\\p{L}*|ilmain\\p{L}*|maksuton\\p{L}*|maksutta|veloitukse\\p{L}*|' +
+  // fi: the PRICE lemma ilmainen only (ilmainen / ilmaisen / ilmaiset / ilmaisia / ilmaiseksi …) — NOT
+  // ilmaisu / ilmaista 'to express' / ilmaiseminen, core esiopetus pedagogy words the wide
+  // `ilmais\\p{L}*` condemned in correct prose (fi Q2/Q4 landing panels, 2026-09-20); the partitive
+  // `ilmaista` is the same string as the verb and stays OUT of the ban (a must-pass below)
+  'ilmainen|ilmaisen|ilmaiset|ilmaisia|ilmaisiin|ilmaisissa|ilmaisista|ilmaisille|ilmaisilla|ilmaisilta|ilmaisiksi|ilmaiseksi|ilmaisina|ilmaisten|' +
+  'maksuton\\p{L}*|maksutta|veloitukse\\p{L}*|' +
   'kostnadsfri\\p{L}*|vederlagsfri\\p{L}*|kosteloos|kosteloze' +
   ')(?!\\p{L})', 'iu');
 
@@ -56,6 +61,8 @@ const MUST_FIRE = [
   'Gratis arbeidsark til utskrift.',
   'Ilmainen tulostettava tehtävä.',
   'Tehtävä on maksuton.',
+  'Lataa ilmaiseksi.',
+  'Ilmaiset monisteet esikouluun.',
   'Tehtävä on vapaasti käytettävissä.',
   'Available at no cost.',
 ];
@@ -71,6 +78,10 @@ const MUST_PASS = [
   'Aktiviteten er tilgjengelig i nettleseren.',
   'Skriv hur många hopp det tar.',
   'Tavuta sanat',
+  'Kokemusten ilmaiseminen kuvin ja sanoin.',
+  'Lapsi siirtyy kuvalliseen ilmaisuun.',
+  'Tekemistä ilmaisevalta sanalta.',
+  'Ilmaista tunteita on vaikeaa.',
   'Freedom Day',   // a proper name containing the letters, not the word
   'Läs kalendern',
 ];

@@ -607,11 +607,6 @@
         "expected": "epäreilu"
       },
       {
-        "base": "terve",
-        "prefix": "epä",
-        "expected": "epäterve"
-      },
-      {
         "base": "ystävällinen",
         "prefix": "epä",
         "expected": "epäystävällinen"

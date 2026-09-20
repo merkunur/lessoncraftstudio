@@ -1,0 +1,5 @@
+G2-320|nothm|d1|fi
+G2-320|nothm|d2|fi
+G2-320|nothm|d3|fi
+G2-336|nothm|d2|fi
+G2-336|nothm|d3|fi

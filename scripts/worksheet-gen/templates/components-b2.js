@@ -14,6 +14,7 @@ const tokens = require('../primitives/_tokens.js');
 const { svgRoot, roundedRect, line, circle, el, esc } = require('../primitives/_svg.js');
 const { writingRow, textLaneGeometry, LM } = require('../primitives/trace-path.js');
 const { fileUri } = require('../image-cache/resolve.js');
+const FONT_METRICS = require('../primitives/font-metrics.json');
 
 const T = tokens.color;
 const F = tokens.font;
@@ -55,16 +56,31 @@ function articleChips({ chips, correctIndex, w = 84, h = 48, fontPx = 24, dots }
 }
 
 /* ---------- ruling block (stacked school-line rows, optional starters) ---------- */
+/**
+ * The starter is a pre-printed model ON the frame, so it is sized by the
+ * frame, not by glyphH: the frame's x band (xTop→base, 40 of 70 units) is
+ * exactly the font's MEASURED x-height (primitives/font-metrics.json,
+ * Nunito 700 x-height 0.500 em), and the ink sits on the baseline rule.
+ * Small letters fill mid→base; ascenders/caps reach 0.72/0.50 · 40/70 ≈ 82%
+ * of the top line — the honest compromise (small letters must never cross
+ * the midline). The 0.78·glyphH / yBase−2 it replaces put every cap ON the
+ * dashed midline (2026-09-20 operator report, 11 locales).
+ */
+function starterFontPx({ h, glyphH }) {
+  const g = textLaneGeometry({ h, glyphH, heightUnits: LM.base - LM.ascender, inkTop: LM.ascender, inkBottom: LM.desc });
+  const xBand = (LM.base - LM.xTop) * g.scale;
+  return { px: Math.round((xBand / FONT_METRICS['nunito-700'].xHeight) * 2) / 2, yBase: g.yBase };
+}
 function rulingBlock({ rows, w, h, glyphH, starters = {}, gap = 6 }) {
   const out = [];
   for (let i = 0; i < rows; i++) {
     let svg = writingRow({ w, h, glyphH, xHeight: true }).svg;
     const st = starters[i];
     if (st) {
-      const g = textLaneGeometry({ h, glyphH, heightUnits: LM.base - LM.ascender, inkTop: LM.ascender, inkBottom: LM.desc });
+      const f = starterFontPx({ h, glyphH });
       const txt = el('text', {
-        x: 8, y: (g.yBase - 2).toFixed(1), 'font-family': F.body, 'font-size': Math.round(glyphH * 0.78), 'font-weight': 700,
-        fill: T.inkSoft, 'data-lcs-starter': '1',
+        x: 8, y: f.yBase.toFixed(1), 'font-family': F.body, 'font-size': f.px, 'font-weight': 700,
+        fill: T.inkSoft, 'data-lcs-starter': '1', 'data-lcs-starter-px': f.px,
       }, esc(st));
       svg = svg.replace('</svg>', txt + '</svg>');
     }
@@ -295,6 +311,6 @@ function mirrorGroups({ src, n, iconPx = 40, gap = 6, perRow = 3 }) {
 }
 
 module.exports = {
-  SWATCH, wordTiles, priceTag, articleChips, rulingBlock, colorLegend, dotPanel, numberStrip, alphabetStrip, classIcons,
+  SWATCH, wordTiles, priceTag, articleChips, rulingBlock, starterFontPx, colorLegend, dotPanel, numberStrip, alphabetStrip, classIcons,
   sceneStage, equalGroups, wordBank, copyArrow, pillChoice, codeList, countBadge, shelf, fixChecklist, letterBoxes, mirrorGroups,
 };

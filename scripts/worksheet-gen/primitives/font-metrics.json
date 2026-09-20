@@ -1,0 +1,27 @@
+{
+  "_measuredBy": "tools/measure-font-metrics.js (Chromium canvas TextMetrics, per-em ratios)",
+  "nunito-700": {
+    "xHeight": 0.5,
+    "cap": 0.7188,
+    "ascender": 0.7188,
+    "descender": 0.1875,
+    "lineAscent": 1.011,
+    "lineDescent": 0.353
+  },
+  "nunito-800": {
+    "xHeight": 0.5,
+    "cap": 0.7188,
+    "ascender": 0.7188,
+    "descender": 0.1875,
+    "lineAscent": 1.011,
+    "lineDescent": 0.353
+  },
+  "baloo2-700": {
+    "xHeight": 0.5,
+    "cap": 0.625,
+    "ascender": 0.6719,
+    "descender": 0.1875,
+    "lineAscent": 1.078,
+    "lineDescent": 0.524
+  }
+}

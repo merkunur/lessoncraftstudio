@@ -106,7 +106,8 @@
 'use strict';
 const tokens = require('../../primitives/_tokens.js');
 const { svgRoot, el, esc } = require('../../primitives/_svg.js');
-const { writingRow } = require('../../primitives/trace-path.js');
+const { writingRow, textLaneGeometry, LM } = require('../../primitives/trace-path.js');
+const { starterFontPx } = require('../components-b2.js');
 
 const T = tokens.color;
 const F = tokens.font;
@@ -174,16 +175,29 @@ function factTable({ rows, w = 675, rowMin = 60, glyphH = 28, labelW = 160, labe
 }
 
 /* --------------------------------------------------------------- fact lane */
-function factLane({ starter = null, caption = null, w = 675, h = 60, glyphH = 28, starterPx = 20, captionPx = 16 }) {
+function factLane({ starter = null, caption = null, w = 675, h = 60, glyphH = 28, captionPx = 16 }) {
   const innerH = h - 16;
+  // The starter is a model ON the frame (the child continues it on the same
+  // rules), so it takes the frame's own size — its x-height IS the row's x
+  // band (components-b2 starterFontPx, measured Nunito) — and its baseline
+  // is registered on the row's baseline rule: the row items align by
+  // BASELINE, and the writing-row svg's box ends at its baseline (its flex
+  // baseline is its bottom edge; nothing is drawn below yBase, overflow
+  // visible keeps the rule's lower half). The fixed 20 px flex-centred span
+  // it replaces put the cap on the dashed midline (2026-09-20 report).
+  const f = starterFontPx({ h: innerH, glyphH });
   const head = starter != null
-    ? `<span data-lcs-starter style="font-family:${F.body},sans-serif;font-weight:700;font-size:${starterPx}px;line-height:${starterPx + 4}px;color:${T.inkSoft};white-space:nowrap;flex:0 0 auto">${esc(starter)}</span>`
+    ? `<span data-lcs-starter data-lcs-starter-px="${f.px}" style="font-family:${F.body},sans-serif;font-weight:700;font-size:${f.px}px;line-height:1;color:${T.inkSoft};white-space:nowrap;flex:0 0 auto">${esc(starter)}</span>`
     : `<span data-lcs-caption style="font-family:${F.body},sans-serif;font-weight:800;font-size:${captionPx}px;line-height:${captionPx + 4}px;color:${T.inkSoft};white-space:nowrap;flex:0 0 auto">${esc(caption || '')}</span>`;
+  const align = starter != null ? 'baseline' : 'center';
+  const row = starter != null
+    ? fullWidthRow({ w: w - 36, h: innerH, glyphH }).replace('<svg ', `<svg style="height:${f.yBase.toFixed(2)}px;overflow:visible;display:block" `)
+    : fullWidthRow({ w: w - 36, h: innerH, glyphH });
   // The lane fills what the starter leaves (a starter's width is a font
   // measurement node cannot make) — fullWidthRow; the gate measures the
   // rendered lane width against the lane inner width.
-  return `<div class="ws-lane" data-lcs-factlane style="padding:6px 16px;width:${w}px;height:${h}px;display:flex;align-items:center;gap:10px;min-width:0">` +
-    head + `<span data-lcs-lane="sentence" style="display:inline-flex;flex:1 1 auto;min-width:0;height:${innerH}px">${fullWidthRow({ w: w - 36, h: innerH, glyphH })}</span></div>`;
+  return `<div class="ws-lane" data-lcs-factlane style="padding:6px 16px;width:${w}px;height:${h}px;display:flex;align-items:${align};gap:10px;min-width:0">` +
+    head + `<span data-lcs-lane="sentence" style="display:inline-flex;flex:1 1 auto;min-width:0;height:${innerH}px">${row}</span></div>`;
 }
 
 /**

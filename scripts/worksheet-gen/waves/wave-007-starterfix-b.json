@@ -1,0 +1,25 @@
+{
+  "id": "wave-007",
+  "seedEpoch": 1,
+  "locales": [
+    "pt"
+  ],
+  "themes": [
+    "animals",
+    "fruits",
+    "vehicles",
+    "toys",
+    "shapes"
+  ],
+  "themesPerType": 1,
+  "difficulties": [
+    2
+  ],
+  "types": [
+    "G2-235"
+  ],
+  "themeOverrides": {
+    "G2-235": "toys"
+  },
+  "_note": "2026-09-21 starter/ruler fix: pinned re-generation of the live G2-235 d2 deck; id kept so deckIdFor reproduces the live basename. Never prune with this file."
+}

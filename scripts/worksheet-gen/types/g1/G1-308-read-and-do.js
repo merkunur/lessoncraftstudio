@@ -507,7 +507,7 @@ function VERIFY_TRUTH(stripSrc, textSrc) {
   if (rows.length < 6 || rows.length > 12) fails.push(`${rows.length} items outside [6,12]`);
   if (!yes || !no || yes === no) fails.push('yes/no chips not stamped or equal');
   let trues = 0;
-  const texts = new Set(), nounUse = {}, cueUse = {};
+  const texts = new Set(), factsSeen = new Set(), nounUse = {}, cueUse = {};
   const c = (x) => (occ[x] || []).length;
   rows.forEach((r, i) => {
     const R = `row ${i + 1}`;
@@ -526,6 +526,9 @@ function VERIFY_TRUTH(stripSrc, textSrc) {
     const cue = r.dataset.lcsCue || '', kind = cue.split(':')[0], noun = r.dataset.lcsNoun || '', noun2 = r.dataset.lcsNoun2 || '';
     const nval = r.dataset.lcsNval === '' ? null : +r.dataset.lcsNval, rel = r.dataset.lcsRel || '';
     if (!cues.includes(kind)) fails.push(`${R}: cue "${cue}" not in the config cues`);
+    const fact = [cue, noun, noun2, r.dataset.lcsNval || '', rel].join('|');
+    if (factsSeen.has(fact)) fails.push(`${R}: states the same fact as an earlier row (${fact}) through a second frame`);
+    factsSeen.add(fact);
     if (!noun || !nouns.includes(noun)) fails.push(`${R}: names "${noun || '(nothing)'}", which is not on the strip`);   // P5
     if (noun2 && !nouns.includes(noun2)) fails.push(`${R}: names "${noun2}", which is not on the strip`);   // P5
     let want = null;
@@ -947,18 +950,24 @@ module.exports = {
 
     const pick = (cands) => {
       for (let t = 0; t < MAX_TRIES; t++) {
-        const rows = [], texts = new Set(), nounUse = {}, cueUse = {}, frameUse = {};
+        const rows = [], texts = new Set(), facts = new Set(), nounUse = {}, cueUse = {}, frameUse = {};
         let trues = 0;
         for (const c of rng.shuffle(cands)) {
           if (rows.length === d.rows) break;
           const kind = cueKind(c.cue);
           if (texts.has(c.text)) continue;
+          // two FRAMES of one cue state the same fact ("La fila finisce con l'elicottero" +
+          // "L'ultimo disegno è l'elicottero", both true) — the it/sv/da/fi G1-341 draws printed
+          // one fact twice (found by the it Q2 landing panel, 2026-09-20); the fact key is
+          // cue + nouns + number + relation, truth follows from it
+          const fact = [c.cue, c.noun, c.noun2, c.nval, c.rel].join('|');
+          if (facts.has(fact)) continue;
           if ((cueUse[kind] || 0) >= d.maxPerCue) continue;
           if ((frameUse[c.frame] || 0) >= 2) continue;
           if ([c.noun, c.noun2].filter(Boolean).some((x) => (nounUse[x] || 0) >= maxPerNoun)) continue;
           if (c.truth && trues >= d.truePerPage) continue;
           if (!c.truth && rows.length - trues >= d.rows - d.truePerPage) continue;
-          rows.push(c); texts.add(c.text); trues += c.truth;
+          rows.push(c); texts.add(c.text); facts.add(fact); trues += c.truth;
           cueUse[kind] = (cueUse[kind] || 0) + 1; frameUse[c.frame] = (frameUse[c.frame] || 0) + 1;
           [c.noun, c.noun2].filter(Boolean).forEach((x) => { nounUse[x] = (nounUse[x] || 0) + 1; });
         }

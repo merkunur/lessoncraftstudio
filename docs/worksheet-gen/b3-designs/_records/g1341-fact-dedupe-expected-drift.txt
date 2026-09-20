@@ -1,0 +1,8 @@
+G1-341|animals|d1|es
+G1-341|animals|d1|fi
+G1-341|animals|d2|fi
+G1-341|animals|d3|da
+G1-341|fruits|d1|fi
+G1-341|fruits|d3|de
+G1-341|fruits|d3|sv
+G1-341|fruits|d3|fi

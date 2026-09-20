@@ -3100,7 +3100,7 @@
     },
     "plural-tilde": {
       "id": "plural-tilde",
-      "head": "de -ón a -ones",
+      "head": "de -ón, -ín, -án a -ones, -ines, -anes",
       "chip": "ones ines anes",
       "band": "G2",
       "gap": {

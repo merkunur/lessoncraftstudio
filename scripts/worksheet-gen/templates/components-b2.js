@@ -66,10 +66,12 @@ function articleChips({ chips, correctIndex, w = 84, h = 48, fontPx = 24, dots }
  * the midline). The 0.78·glyphH / yBase−2 it replaces put every cap ON the
  * dashed midline (2026-09-20 operator report, 11 locales).
  */
-function starterFontPx({ h, glyphH }) {
+function starterFontPx({ h, glyphH, font = 'nunito-700' }) {
+  const m = FONT_METRICS[font];
+  if (!m || !(m.xHeight > 0)) throw new Error('starterFontPx: no measured metrics for font "' + font + '" (run tools/measure-font-metrics.js)');
   const g = textLaneGeometry({ h, glyphH, heightUnits: LM.base - LM.ascender, inkTop: LM.ascender, inkBottom: LM.desc });
   const xBand = (LM.base - LM.xTop) * g.scale;
-  return { px: Math.round((xBand / FONT_METRICS['nunito-700'].xHeight) * 2) / 2, yBase: g.yBase };
+  return { px: Math.round((xBand / m.xHeight) * 2) / 2, yBase: g.yBase };
 }
 function rulingBlock({ rows, w, h, glyphH, starters = {}, gap = 6 }) {
   const out = [];

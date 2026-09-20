@@ -11,7 +11,7 @@
 const tokens = require('../../primitives/_tokens.js');
 const { svgRoot, roundedRect, circle, line, el, esc } = require('../../primitives/_svg.js');
 const { writingRow, textLaneGeometry, LM } = require('../../primitives/trace-path.js');
-const { countBadge } = require('../components-b2.js');
+const { countBadge, starterFontPx } = require('../components-b2.js');
 
 const T = tokens.color;
 const F = tokens.font;
@@ -149,13 +149,17 @@ function syllableLane({ w, h, glyphH, printed = null }) {
   let svg = writingRow({ w: innerW, h: innerH, glyphH, xHeight: true }).svg;
   let writable = innerW - 12;
   if (printed) {
-    const px = Math.round(glyphH * 0.9);
+    // The rime is a model ON the frame: its x-height IS the row's x band
+    // (components-b2 starterFontPx over the MEASURED Baloo 2 700 x-height,
+    // 0.500 em) and its ink sits on the baseline rule. The 0.9·glyphH /
+    // yBase−1 it replaces filled 79 % of the band (operator, 2026-09-21).
+    const f = starterFontPx({ h: innerH, glyphH, font: 'baloo2-700' });
+    const px = f.px;
     const textW = textAdvance(printed, px);
     writable = w - textW - 12;
     if (writable < 60) throw new Error(`syllableLane: printed "${printed}" leaves ${Math.round(writable)} px to write on (< 60) — refuse`);
-    const g = textLaneGeometry({ h: innerH, glyphH, heightUnits: LM.base - LM.ascender, inkTop: LM.ascender, inkBottom: LM.desc });
     svg = svg.replace('</svg>', el('text', {
-      x: innerW - 6, y: (g.yBase - 1).toFixed(1), 'font-family': F.display, 'font-size': px, 'font-weight': 700,
+      x: innerW - 6, y: f.yBase.toFixed(1), 'font-family': F.display, 'font-size': px, 'font-weight': 700,
       fill: T.coral, 'text-anchor': 'end', 'data-lcs-lane-printed': '1',
     }, esc(printed)) + '</svg>');
   }

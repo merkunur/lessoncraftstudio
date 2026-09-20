@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-330',
   slug: 'compound-words-split-the-compound',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Split the Compound: Find the Two Words", instruction: "The whole word is printed in letter boxes next to its picture. Draw one line where the second word starts." } },
+  i18n: { en: { title: "Split the Compound: Find the Two Words", instruction: "The whole word is printed letter by letter next to its picture. Draw one line where the second word starts." } },
 };

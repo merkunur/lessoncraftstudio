@@ -2257,7 +2257,7 @@
   },
   "G2-321": {
     "title": "Saltos no quadro numérico: siga as setas",
-    "instruction": "Comece no número e siga as setas: para cima é 10 a menos, para baixo 10 a mais, para a direita 1 a mais. Escreva onde você chega."
+    "instruction": "Comece no número e siga as setas: para cima é 10 a menos, para baixo 10 a mais, para a esquerda 1 a menos, para a direita 1 a mais. Escreva onde você chega."
   },
   "G2-322": {
     "title": "Número misterioso: duas setas, um quadradinho",

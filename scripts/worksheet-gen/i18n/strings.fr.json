@@ -2289,7 +2289,7 @@
   },
   "G2-330": {
     "title": "Retrouve le radical : coupe le mot en deux",
-    "instruction": "Le mot est écrit dans des cases, à côté de son image. Trace un trait entre le radical et ce qu'on lui a ajouté."
+    "instruction": "Le mot est écrit lettre par lettre, à côté de son image. Trace un trait entre le radical et ce qu'on lui a ajouté."
   },
   "G2-332": {
     "title": "Mot simple ou mot construit ?",

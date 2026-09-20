@@ -2253,7 +2253,7 @@
   },
   "G2-321": {
     "title": "Hop på hundredtavlen: følg pilene",
-    "instruction": "Start ved tallet, og følg pilene: op er 10 mindre, ned er 10 mere, til højre er 1 mere. Skriv, hvor du lander."
+    "instruction": "Start ved tallet, og følg pilene: op er 10 mindre, ned er 10 mere, til venstre er 1 mindre, til højre er 1 mere. Skriv, hvor du lander."
   },
   "G2-322": {
     "title": "Det hemmelige tal: to pile, ét felt",
@@ -2293,7 +2293,7 @@
   },
   "G2-330": {
     "title": "Del det sammensatte ord: find de to ord",
-    "instruction": "Hele ordet står i bogstavkasser ved sit billede. Tegn én streg dér, hvor det andet ord begynder."
+    "instruction": "Hele ordet står bogstav for bogstav ved sit billede. Tegn én streg dér, hvor det andet ord begynder."
   },
   "G2-331": {
     "title": "Find halvdelene: to billeder, ét ord",

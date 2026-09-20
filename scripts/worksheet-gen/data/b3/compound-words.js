@@ -199,7 +199,7 @@ const COMPOUND_WORDS = {
       },
       'G2-330': {
         title: "Split the Compound: Find the Two Words",
-        instruction: "The whole word is printed in letter boxes next to its picture. Draw one line where the second word starts.",
+        instruction: "The whole word is printed letter by letter next to its picture. Draw one line where the second word starts.",
       },
       'G2-331': {
         title: "Match the Halves: Two Pictures, One Word",

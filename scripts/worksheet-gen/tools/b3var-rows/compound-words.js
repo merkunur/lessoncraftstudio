@@ -38,7 +38,7 @@ const ROWS = [
   ['g2', 'G2-330', 'compound-words-split-the-compound', 'G2-316-compound-words.js', 2,
     { mode: 'cut', rows: 8, cell: 32, cellFont: 30, cutPic: 56, maxLetters: 14, padY: 6, gap: 8, badges: true },
     'Split the Compound: Find the Two Words',
-    'The whole word is printed in letter boxes next to its picture. Draw one line where the second word starts.'],
+    'The whole word is printed letter by letter next to its picture. Draw one line where the second word starts.'],
   ['g2', 'G2-331', 'compound-words-match-the-halves', 'G2-316-compound-words.js', 2,
     { mode: 'match', pairs: 6, pic: 72, laneW: 370, laneH: 60, glyphH: 26, laneNeedPerGlyph: 1.1, derange: true, matchGap: 96, maxLetters: 12, gap: 8 },
     'Match the Halves: Two Pictures, One Word',

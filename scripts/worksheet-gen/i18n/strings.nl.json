@@ -1973,7 +1973,7 @@
   },
   "G2-316": {
     "title": "Samenstellingen: plaatje + plaatje",
-    "instruction": "Zeg de twee plaatjes, plak de twee woorden aan elkaar en schrijf het nieuwe woord op de lijn."
+    "instruction": "Zeg de twee plaatjes, maak er samen één nieuw woord van en schrijf dat woord op de lijn."
   },
   "G2-317": {
     "title": "Werkwoorden in de tegenwoordige tijd: ik, jij, hij, wij",
@@ -2169,7 +2169,7 @@
   },
   "G1-329": {
     "title": "Elke lettergreep heeft een klinker",
-    "instruction": "Elke lettergreep heeft één klinker. Kijk naar het voorbeeld en zet dan een stip op de klinker in elk boogje."
+    "instruction": "Elke lettergreep heeft één klinkerklank. Kijk naar het voorbeeld en zet dan een stip op de klinker of tweetekenklank in elk boogje."
   },
   "G1-330": {
     "title": "Mkm-woorden: lees en omcirkel",
@@ -2257,7 +2257,7 @@
   },
   "G2-321": {
     "title": "Sprongen op het honderdveld: volg de pijlen",
-    "instruction": "Begin bij het getal en volg de pijlen: omhoog is 10 minder, omlaag is 10 meer, naar rechts is 1 meer. Schrijf waar je uitkomt."
+    "instruction": "Begin bij het getal en volg de pijlen: omhoog is 10 minder, omlaag is 10 meer, naar links is 1 minder, naar rechts is 1 meer. Schrijf waar je uitkomt."
   },
   "G2-322": {
     "title": "Geheim getal: twee pijlen, één hokje",
@@ -2289,7 +2289,7 @@
   },
   "G2-330": {
     "title": "Verdeel de samenstelling: zoek de twee woorden",
-    "instruction": "Het hele woord staat in letterhokjes naast zijn plaatje. Zet één streep waar het tweede woord begint."
+    "instruction": "Het hele woord staat letter voor letter naast zijn plaatje. Zet één streep waar het tweede woord begint."
   },
   "G2-331": {
     "title": "Verbind de helften: twee plaatjes, één woord",
@@ -2305,7 +2305,7 @@
   },
   "G2-334": {
     "title": "Welke vorm hoort bij ik, jij en wij?",
-    "instruction": "Lees elk werkwoord links. Trek een lijn naar de vorm rechts die erbij hoort, één lijn per werkwoord."
+    "instruction": "Lees het werkwoord boven elk blok. Trek van ik, jij en wij een lijn naar de vorm rechts die erbij hoort."
   },
   "G2-335": {
     "title": "Werkwoordsvormen in zinnen met plaatjes",

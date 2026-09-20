@@ -2020,7 +2020,7 @@
     "instruction": "El primer sonido ya está escrito. Di despacio el nombre del dibujo y escribe un sonido en cada caja vacía."
   },
   "G1-312": {
-    "title": "Tira de sonidos: ¿cuántos sonidos tiene la palabra?",
+    "title": "Tira de sonidos: ¿cuántos sonidos oyes?",
     "instruction": "Di la palabra despacio. Escribe un sonido en cada caja empezando por la izquierda y deja vacías las cajas que sobren."
   },
   "G1-313": {
@@ -2052,7 +2052,7 @@
     "instruction": "Rodea la cara que muestra cómo te sientes hoy y después dibuja tu propia cara."
   },
   "G1-315": {
-    "title": "Escribe los números ordinales que faltan",
+    "title": "Escribe los ordinales que faltan",
     "instruction": "Algunos lugares ya están escritos. Escribe los ordinales que faltan en las casillas vacías, contando desde la bandera."
   },
   "G1-316": {
@@ -2360,7 +2360,7 @@
     "instruction": "Cada niño tiene un dibujo de cada grupo. Usa las pistas que los unen para completar las tres cuadrículas."
   },
   "G2-345": {
-    "title": "Lee la cuadrícula de lógica: ¿verdadero o falso?",
+    "title": "Lee la cuadrícula: ¿verdadero o falso?",
     "instruction": "La cuadrícula ya está resuelta. Léela y rodea la palomita si la oración es verdadera o la tacha si es falsa."
   },
   "G3-380": {

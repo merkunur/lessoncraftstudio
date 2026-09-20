@@ -825,6 +825,12 @@
     "browseAll": "Bekijk alle werkbladen",
     "suggestionsHeader": "Probeer hierna een van deze:"
   },
+  "deckActions": {
+    "downloadPdf": "PDF downloaden",
+    "answerKey": "Antwoorden",
+    "makeYourOwn": "Maak je eigen werkblad",
+    "ariaLabel": "Dit werkblad downloaden of zelf maken"
+  },
   "collections": {
     "meta": {
       "title": "Uw verzamelingen",

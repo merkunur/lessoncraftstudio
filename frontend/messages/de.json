@@ -968,6 +968,12 @@
     "browseAll": "Alle Arbeitsblätter durchsuchen",
     "suggestionsHeader": "Probiere als Nächstes eines davon:"
   },
+  "deckActions": {
+    "downloadPdf": "PDF herunterladen",
+    "answerKey": "Lösungen",
+    "makeYourOwn": "Selbst erstellen",
+    "ariaLabel": "Arbeitsblatt herunterladen oder selbst erstellen"
+  },
   "collections": {
     "meta": {
       "title": "Ihre Sammlungen",

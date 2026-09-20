@@ -39,6 +39,9 @@ const path = require('path');
  * second copy here (that is exactly the duplicated-renderer trap CLAUDE.md
  * §21.8-A records for buildHreflangAlternates). */
 const siteChrome = require('../lib/site-chrome');
+// "Make your own" hero button — label + route from the shared deck-actions SoT
+// (the same module that bakes the strip into every deck.html).
+const deckActions = require('../lib/deck-actions');
 
 /* ============================== paths / data ============================== */
 
@@ -849,6 +852,8 @@ h1{font-family:'Fraunces',serif;font-weight:700;font-size:1.875rem;line-height:1
 .btn-primary:hover{background:var(--teal-deep)}
 .btn-outline{background:#fff;color:var(--teal);border:2px solid var(--teal)}
 .btn-outline:hover{background:var(--teal-soft)}
+.btn-make{border-color:var(--coral);color:#9A4521}
+.btn-make:hover{background:#FBEDE6}
 .body-copy{max-width:48rem;margin-bottom:3rem;font-size:1rem}
 @media(min-width:768px){.body-copy{font-size:17px}}
 .body-copy p{margin-bottom:1rem}
@@ -1193,6 +1198,13 @@ ${relActs.map((a) => `      <li><a href="${esc(localePath(locale, 'activities', 
     name: ui.moreToTry, numberOfItems: _relItems.length, itemListElement: _relItems,
   } : null;
 
+  // 4th hero CTA (2026-09-20): opens the generator's own landing in the page's
+  // language. Gated exactly like the bottom maker card — no maker, no button.
+  const makeBtn = (!xlang && maker)
+    ? `
+          <a href="${esc(localePath(locale, 'tools', maker.slug))}" class="btn btn-outline btn-make">${deckActions.ICONS.make}${deckActions.strings(locale).makeYourOwn}</a>`
+    : '';
+
   const makerHtml = xlang ? '' : (maker ? `
 <section class="maker">
   <a class="maker-card" href="${esc(localePath(locale, 'tools', maker.slug))}">
@@ -1273,7 +1285,7 @@ ${printOnly
         ? `          <a href="${esc(dlHref(locale, l.canonicalDeckSlug, 'pdf'))}" class="btn btn-primary">${esc(ui.downloadPdf)}</a>`
         : `          <a href="${esc(a.deckDir)}" class="btn btn-primary">${playSvg}${esc(ui.playInteractive)}</a>
           <a href="${esc(dlHref(locale, l.canonicalDeckSlug, 'pdf'))}" class="btn btn-outline">${esc(ui.downloadPdf)}</a>
-          <a href="${esc(dlHref(locale, l.canonicalDeckSlug, 'answer'))}" class="btn btn-outline">${esc(ui.answerKey)}</a>`}
+          <a href="${esc(dlHref(locale, l.canonicalDeckSlug, 'answer'))}" class="btn btn-outline">${esc(ui.answerKey)}</a>${makeBtn}`}
         </div>
       </div>
     </section>

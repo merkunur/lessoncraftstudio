@@ -1168,6 +1168,12 @@
     "browseAll": "Ver todas as fichas",
     "suggestionsHeader": "Experimente um destes a seguir:"
   },
+  "deckActions": {
+    "downloadPdf": "Baixar PDF",
+    "answerKey": "Gabarito",
+    "makeYourOwn": "Crie a sua ficha",
+    "ariaLabel": "Baixar esta ficha ou criar a sua"
+  },
   "topicPage": {
     "meta": {
       "title": "Atividades de {topic}",

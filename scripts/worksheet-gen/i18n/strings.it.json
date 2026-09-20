@@ -1984,7 +1984,7 @@
     "instruction": "Scopri com'è questo animale. Scrivi un dato in ogni riga della carta d'identità, poi completa il resto della pagina con un disegno o con parole tue."
   },
   "G2-319": {
-    "title": "Giochi di logica con la griglia: tre indizi, una risposta",
+    "title": "Giochi di logica con la griglia: tre indizi",
     "instruction": "Leggi gli indizi. Sulla griglia barra quello che non può essere, metti una spunta su quello che è sicuro, poi cerchia il disegno di ogni bambino."
   },
   "G3-377": {
@@ -2324,7 +2324,7 @@
     "instruction": "Leggi le scelte di ogni riga e cerchia quella vera per questo animale. Poi disegna dove vive e completa la frase."
   },
   "G2-340": {
-    "title": "Carta d'identità con le parole da usare: {U}",
+    "title": "Carta d'identità con le parole date: {U}",
     "instruction": "Cerca ogni dato vero tra le parole da usare e copialo nella riga giusta della carta. Poi completa la frase in fondo."
   },
   "G2-341": {
@@ -2352,7 +2352,7 @@
     "instruction": "Un disegno barrato vuol dire che il bambino non ce l'ha, un disegno cerchiato che ce l'ha. Barra sulla griglia, poi cerchia ogni risposta."
   },
   "G3-379": {
-    "title": "Giochi di logica a due attributi: due disegni a testa",
+    "title": "Giochi di logica a due attributi",
     "instruction": "Ogni bambino ha un disegno di ogni gruppo. Usa gli indizi che li collegano per completare tutte e tre le griglie."
   },
   "G2-345": {

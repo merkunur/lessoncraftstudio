@@ -1175,6 +1175,12 @@
     "browseAll": "Parcourir toutes les fiches",
     "suggestionsHeader": "Essaie l'un de ceux-ci ensuite :"
   },
+  "deckActions": {
+    "downloadPdf": "Télécharger le PDF",
+    "answerKey": "Corrigé",
+    "makeYourOwn": "Créez votre fiche",
+    "ariaLabel": "Télécharger cette fiche ou créer la vôtre"
+  },
   "topicPage": {
     "meta": {
       "title": "Fiches de {topic}",

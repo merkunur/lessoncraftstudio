@@ -1144,6 +1144,12 @@
     "browseAll": "Selaa kaikkia tehtäviä",
     "suggestionsHeader": "Kokeile yhtä näistä seuraavaksi:"
   },
+  "deckActions": {
+    "downloadPdf": "Lataa PDF",
+    "answerKey": "Vastaukset",
+    "makeYourOwn": "Tee oma tehtävä",
+    "ariaLabel": "Lataa tämä tehtävä tai tee oma"
+  },
   "topicPage": {
     "meta": {
       "title": "{topic}-tehtäviä",

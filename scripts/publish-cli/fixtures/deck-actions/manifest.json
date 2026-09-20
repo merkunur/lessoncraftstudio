@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "deck_id": "addition-find-addend-en-20260504113656",
+  "generated_at": "2026-05-04T11:36:56Z",
+  "generator": {
+    "app": "addition",
+    "app_version": "5.1.0",
+    "bundle_version": 5
+  },
+  "language": "en",
+  "exercise_type": "addition",
+  "exercise_mode": "find-addend",
+  "settings": {
+    "theme_select": "accessories",
+    "border_theme_select": "none",
+    "grayscale": false
+  },
+  "theme": "accessories",
+  "images_used": [
+    "whistle-1769383013137-7bcb3447.webp",
+    "glove-1769383007228-24d1912d.webp",
+    "headband-1769383008294-035ecb57.webp",
+    "wallet-1769383012486-05dd9f65.webp",
+    "barrette-1769383005357-7f0630cf.webp",
+    "hat-1769383008086-70fafd3a.webp"
+  ],
+  "vocabulary": [],
+  "exercises": [
+    {
+      "operandA": 3,
+      "operandB": 4,
+      "image": {
+        "path": "/images/accessories/whistle-1769383013137-7bcb3447.webp",
+        "url": "/images/accessories/whistle-1769383013137-7bcb3447.webp",
+        "name": "Whistle",
+        "word": "Whistle",
+        "theme": "accessories"
+      }
+    },
+    {
+      "operandA": 5,
+      "operandB": 4,
+      "image": {
+        "path": "/images/accessories/glove-1769383007228-24d1912d.webp",
+        "url": "/images/accessories/glove-1769383007228-24d1912d.webp",
+        "name": "Glove",
+        "word": "Glove",
+        "theme": "accessories"
+      }
+    },
+    {
+      "operandA": 5,
+      "operandB": 4,
+      "image": {
+        "path": "/images/accessories/headband-1769383008294-035ecb57.webp",
+        "url": "/images/accessories/headband-1769383008294-035ecb57.webp",
+        "name": "Headband",
+        "word": "Headband",
+        "theme": "accessories"
+      }
+    },
+    {
+      "operandA": 5,
+      "operandB": 5,
+      "image": {
+        "path": "/images/accessories/wallet-1769383012486-05dd9f65.webp",
+        "url": "/images/accessories/wallet-1769383012486-05dd9f65.webp",
+        "name": "Wallet",
+        "word": "Wallet",
+        "theme": "accessories"
+      }
+    },
+    {
+      "operandA": 1,
+      "operandB": 4,
+      "image": {
+        "path": "/images/accessories/barrette-1769383005357-7f0630cf.webp",
+        "url": "/images/accessories/barrette-1769383005357-7f0630cf.webp",
+        "name": "Barrette",
+        "word": "Barrette",
+        "theme": "accessories"
+      }
+    },
+    {
+      "operandA": 4,
+      "operandB": 1,
+      "image": {
+        "path": "/images/accessories/hat-1769383008086-70fafd3a.webp",
+        "url": "/images/accessories/hat-1769383008086-70fafd3a.webp",
+        "name": "Hat",
+        "word": "Hat",
+        "theme": "accessories"
+      }
+    }
+  ],
+  "assets": {
+    "html": "deck.html",
+    "pdf": "printable.pdf",
+    "answer_key_pdf": "answer-key.pdf",
+    "thumbnail": "thumbnail.png"
+  },
+  "content_family_id": null
+}

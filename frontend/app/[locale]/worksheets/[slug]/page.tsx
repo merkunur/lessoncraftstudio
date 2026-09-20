@@ -274,6 +274,11 @@ export default async function WorksheetLandingPage(
   // namespace I authored in 11 locales) instead of the monolingual "Worksheets › Type".
   const xlang = l.coordinate.target;
   const tLearn = xlang ? await getTranslations({ locale, namespace: 'learnPage' }) : null;
+  // 4th hero CTA (2026-09-20): "Make your own" → the generator's landing in the page's
+  // language. Label from the shared `deckActions` namespace (also baked into every
+  // deck.html by scripts/publish-cli/inject-deck-actions.js). Gated like the maker card.
+  const tActions = await getTranslations({ locale, namespace: 'deckActions' });
+  const makeYourOwnHref = !xlang && maker ? localePath(locale, 'tools', maker.slug) : null;
   const targetName = xlang ? targetLangName(xlang, locale) : '';
   const learnCat = tLearn ? tLearn('category') : '';
   const learnCrumb = tLearn ? tLearn('learnH1', { lang: targetName }) : '';
@@ -563,6 +568,12 @@ export default async function WorksheetLandingPage(
                 <a href={a.answerKey} className="inline-flex items-center gap-2 font-bold text-[15px] rounded-full px-6 py-3 bg-white text-[#146B5E] border-2 border-[#146B5E] hover:bg-[#E3EEEB] transition-colors">
                   {ui.answerKey}
                 </a>
+                {makeYourOwnHref && (
+                  <Link href={makeYourOwnHref} className="inline-flex items-center gap-2 font-bold text-[15px] rounded-full px-6 py-3 bg-white text-[#9A4521] border-2 border-[#F2784B] hover:bg-[#FBEDE6] transition-colors">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" className="w-[18px] h-[18px]" aria-hidden="true"><path d="M4 20h4l10.5-10.5a2.1 2.1 0 0 0-3-3L5 17v3z" /><path d="m13.5 8.5 3 3" /></svg>
+                    {tActions('makeYourOwn')}
+                  </Link>
+                )}
               </div>
             </div>
           </section>

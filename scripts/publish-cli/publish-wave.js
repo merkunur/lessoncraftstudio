@@ -393,6 +393,22 @@ function main() {
     console.log('\n(skipping site-chrome injection per --skip-site-chrome)');
   }
 
+  // STEP 6d — DECK-ACTIONS: bake the localized [Download PDF] [Answer key]
+  // [Make your own] strip under every deck's title bar (2026-09-20). The 29 apps
+  // emit no link to the deck's own PDFs or to its generator, so a deck without a
+  // landing had no download affordance on the page at all. Markup + strings live
+  // in scripts/lib/deck-actions.js (shared with the static landing renderer);
+  // per-locale; idempotent (id="lcs-deck-actions" + sentinels); the block lives
+  // in <body> (before .lcs-worksheet-wrap) so <head> order is untouched. Like
+  // 6c this is the FORWARD path — no emitter in catalog-export.js.
+  if (!args.skipSiteChrome) {
+    for (const loc of args.locales) {
+      runStep(`DECK-ACTIONS — inject-deck-actions (${loc})`, 'inject-deck-actions.js', [`--locale=${loc}`, ...scopeArg]);
+    }
+  } else {
+    console.log('\n(skipping deck-actions injection per --skip-site-chrome)');
+  }
+
   // STEP 7 — HREFLANG cross-locale sibling injection. ALWAYS the full 11-locale
   // set (siblings span every locale; passing only the wave locale is a no-op).
   runStep('HREFLANG — populate-and-inject-hreflang (all 11 locales)', 'populate-and-inject-hreflang.js', ['--confirm', `--locales=${HREFLANG_LOCALES.join(',')}`, `--decks-root=${args.decksRoot}`, ...scopeArg]);

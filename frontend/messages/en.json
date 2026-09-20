@@ -875,6 +875,12 @@
     "browseAll": "Browse all worksheets",
     "suggestionsHeader": "Try one of these next:"
   },
+  "deckActions": {
+    "downloadPdf": "Download PDF",
+    "answerKey": "Answer key",
+    "makeYourOwn": "Make your own",
+    "ariaLabel": "Download this worksheet or make your own"
+  },
   "collections": {
     "meta": {
       "title": "Your collections",

@@ -1155,6 +1155,12 @@
     "browseAll": "Bläddra bland alla arbetsblad",
     "suggestionsHeader": "Prova en av dessa härnäst:"
   },
+  "deckActions": {
+    "downloadPdf": "Ladda ner PDF",
+    "answerKey": "Facit",
+    "makeYourOwn": "Skapa ditt eget arbetsblad",
+    "ariaLabel": "Ladda ner arbetsbladet eller skapa ett eget"
+  },
   "topicPage": {
     "meta": {
       "title": "{topic}-arbetsblad",

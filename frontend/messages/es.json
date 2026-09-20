@@ -838,6 +838,12 @@
     "browseAll": "Explorar todas las fichas",
     "suggestionsHeader": "Prueba uno de estos a continuación:"
   },
+  "deckActions": {
+    "downloadPdf": "Descargar PDF",
+    "answerKey": "Solución",
+    "makeYourOwn": "Crea tu propia ficha",
+    "ariaLabel": "Descargar esta ficha o crear la tuya"
+  },
   "collections": {
     "meta": {
       "title": "Sus colecciones",

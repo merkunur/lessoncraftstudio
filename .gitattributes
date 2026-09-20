@@ -1,0 +1,2 @@
+# Real production deck.html fixtures: keep bytes exactly as captured (no CRLF normalisation on Windows checkouts).
+scripts/publish-cli/fixtures/** -text

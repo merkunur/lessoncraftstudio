@@ -1152,6 +1152,12 @@
     "browseAll": "Gennemse alle arbejdsark",
     "suggestionsHeader": "Prøv en af disse næst:"
   },
+  "deckActions": {
+    "downloadPdf": "Hent PDF",
+    "answerKey": "Facitliste",
+    "makeYourOwn": "Lav dit eget arbejdsark",
+    "ariaLabel": "Hent arbejdsarket eller lav dit eget"
+  },
   "topicPage": {
     "meta": {
       "title": "{topic}-arbejdsark",

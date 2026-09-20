@@ -237,6 +237,13 @@ node /opt/lessoncraftstudio/scripts/publish-cli/hreflang-codes.test.js || { echo
 echo "🔎 site-chrome route + locale guard..."
 node /opt/lessoncraftstudio/scripts/publish-cli/site-chrome.test.js || { echo "ERROR: the static site chrome is broken — a renamed route would orphan ~40k baked links, or a locale lost its strings. See scripts/lib/site-chrome.js"; exit 1; }
 
+# Guard: the deck action strip [Download PDF][Answer key][Make your own] baked
+# into every deck.html + the landings' "Make your own" hero button. Strings ×11,
+# maker landing slugs ×11×29, the /tools/ + /api/quota/dl routes, and a
+# byte-exact inject/remove round trip on a real production deck. Browser-free.
+echo "🔎 deck-actions strip guard..."
+node /opt/lessoncraftstudio/scripts/publish-cli/deck-actions.test.js || { echo "ERROR: the deck action strip is broken — a locale lost its deckActions strings, a maker landing slug vanished, or /tools/ or /api/quota/dl moved. See scripts/lib/deck-actions.js"; exit 1; }
+
 # Guard: CLAUDE.md §10 indexable-route rule. Every text/html surface must declare a
 # canonical or a robots directive (nginx X-Robots-Tag counts). Ratcheted against a
 # frozen baseline of pre-existing debt, so this fails only on NEWLY-ungated surfaces.

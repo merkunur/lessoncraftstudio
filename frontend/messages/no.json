@@ -1159,6 +1159,12 @@
     "browseAll": "Bla gjennom alle arbeidsark",
     "suggestionsHeader": "Prøv en av disse neste:"
   },
+  "deckActions": {
+    "downloadPdf": "Last ned PDF",
+    "answerKey": "Fasit",
+    "makeYourOwn": "Lag ditt eget arbeidsark",
+    "ariaLabel": "Last ned arbeidsarket eller lag ditt eget"
+  },
   "topicPage": {
     "meta": {
       "title": "{topic}-arbeidsark",

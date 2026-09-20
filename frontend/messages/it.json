@@ -1168,6 +1168,12 @@
     "browseAll": "Sfoglia tutte le schede",
     "suggestionsHeader": "Prova uno di questi dopo:"
   },
+  "deckActions": {
+    "downloadPdf": "Scarica PDF",
+    "answerKey": "Soluzioni",
+    "makeYourOwn": "Crea la tua scheda",
+    "ariaLabel": "Scarica questa scheda o creane una tua"
+  },
   "topicPage": {
     "meta": {
       "title": "Schede di {topic}",

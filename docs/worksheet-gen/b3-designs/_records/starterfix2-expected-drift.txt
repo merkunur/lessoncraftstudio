@@ -1,0 +1,9 @@
+# starterfix2-expected-drift.txt — checked against the baseline re-captured after round 1 (each record = the delta since the previous capture)
+# ROUND 2 (2026-09-21, syllableLane): the printed rime is Baloo 2 700 sized by the x band (measured x-height
+#   0.500) on the baseline; ONLY en prints a rime (blend ladders) — every other locale's lane is empty, so 6 coordinates:
+G1-306|nothm|d1|en
+G1-306|nothm|d2|en
+G1-306|nothm|d3|en
+G1-333|nothm|d1|en
+G1-333|nothm|d2|en
+G1-333|nothm|d3|en

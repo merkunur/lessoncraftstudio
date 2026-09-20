@@ -34,20 +34,24 @@ const AdmZip = require('adm-zip');
 
 const WG = path.resolve(__dirname, '..');
 const WAVE_OF = { en: '001', de: '002', es: '003', nl: '004', fr: '005', it: '006', pt: '007', sv: '008', da: '009', no: '010', fi: '011' };
-const STARTER_TYPES = ['K-335', 'G2-278', 'G2-299', 'G2-318', 'G2-339', 'G2-340', 'G2-341', 'G2-342'];
-const RE_LIVE = /^wsg-\w+-(g2235|k335|g2278|g2299|g2318|g2339|g2340|g2341|g2342)-/;
+const STARTER_TYPES = ['K-335', 'G2-278', 'G2-299', 'G2-318', 'G2-339', 'G2-340', 'G2-341', 'G2-342', 'G1-306', 'G1-333'];
+// --only=G1-306,G1-333 restricts the live set + jobs to those ids (round 2 republishes only the lane decks;
+// the round-1 set is already live at v2 and must not be bumped to v3 for nothing)
+const RE_LIVE = /^wsg-\w+-(g2235|k335|g2278|g2299|g2318|g2339|g2340|g2341|g2342|g1306|g1333)-/;   // round 2 (2026-09-21): + the syllableLane rime consumers
 
 const argv = process.argv.slice(2);
 const arg = (n, d) => { const h = argv.find((a) => a.startsWith('--' + n + '=')); return h ? h.slice(n.length + 3) : d; };
 const LOCALES = String(arg('locales', Object.keys(WAVE_OF).join(','))).split(',').filter(Boolean);
 const DRY = argv.includes('--dry-run');
 const EVIDENCE = argv.includes('--evidence');
+const ONLY = arg('only', null) ? new Set(arg('only').split(',')) : null;
+const onlyRe = ONLY ? new RegExp('^wsg-[a-z0-9]+-(' + [...ONLY].map((t) => t.toLowerCase().replace('-', '')).join('|') + ')-') : null;
 
 function node(args) { return execFileSync(process.execPath, args, { cwd: WG, encoding: 'utf8', maxBuffer: 64 << 20 }); }
 function dryIds(waveFile, types) {
   return node(['cli.js', 'generate', '--wave', waveFile, '--dry-run'].concat(types ? ['--types=' + types.join(',')] : [])).split(/\r?\n/).map((l) => l.trim()).filter((l) => l.startsWith('wsg-'));
 }
-function zipsIn(dir) { return fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => RE_LIVE.test(f) && f.endsWith('.zip')) : []; }
+function zipsIn(dir) { return fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => RE_LIVE.test(f) && f.endsWith('.zip') && (!onlyRe || onlyRe.test(f))) : []; }
 
 function evidence(oldZip, newZip) {
   const a = new AdmZip(oldZip), b = new AdmZip(newZip);
@@ -81,17 +85,18 @@ function jobs(loc) {
     { wave: `waves/wave-measurement-${loc}.json`, types: ['G2-235'], staging: `wave-measurement-${loc}` },
     { wave: `waves/wave-b2-${loc}.json`, types: ['G2-278'], staging: `wave-b2-${loc}` },
     { wave: `waves/wave-b2var-${loc}.json`, types: ['G2-299'], staging: `wave-b2var-${loc}` },
-    { wave: `waves/wave-b3-${loc}.json`, types: ['G2-318'], staging: `wave-b3-${loc}` },
-    { wave: `waves/wave-b3var-${loc}.json`, types: ['K-335', 'G2-339', 'G2-340', 'G2-341', 'G2-342'], staging: `wave-b3var-${loc}` },
+    { wave: `waves/wave-b3-${loc}.json`, types: ['G2-318', 'G1-306'], staging: `wave-b3-${loc}` },
+    { wave: `waves/wave-b3var-${loc}.json`, types: ['K-335', 'G2-339', 'G2-340', 'G2-341', 'G2-342', 'G1-333'], staging: `wave-b3var-${loc}` },
   ];
 }
 
 const failures = [];
 const summary = [];
 for (const loc of LOCALES) {
-  const origDir = path.join(WG, 'out', 'staging', '_starterfix', 'orig', loc);
-  const freshDir = path.join(WG, 'out', 'staging', '_starterfix', loc);
-  const J = jobs(loc);
+  const round = arg('round', '');
+  const origDir = path.join(WG, 'out', 'staging', '_starterfix' + round, 'orig', loc);
+  const freshDir = path.join(WG, 'out', 'staging', '_starterfix' + round, loc);
+  const J = jobs(loc).map((j) => (ONLY && !j.pin ? { ...j, types: j.types.filter((t) => ONLY.has(t)) } : j)).filter((j) => (j.pin ? !ONLY || ONLY.has('G2-235') : j.types.length));
   // the live set = every affected ZIP in the staging pools this locale shipped from
   const live = new Map();
   for (const j of J) for (const z of zipsIn(path.join(WG, 'out', 'staging', j.staging))) live.set(z, j.staging);

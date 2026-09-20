@@ -154,7 +154,10 @@ const WAVE_BASE = waveFor('b3'), WAVE_VAR = waveFor('b3var');
 const shippedTheme = (id) => {
   const w = TYPES[id].isBase ? WAVE_BASE : WAVE_VAR;
   const ov = w.themeOverrides && w.themeOverrides[id];
-  return ov ? ov.replace(/ /g, '_') : null;
+  // the same key form emit/manifest.js `themeAxisKey` writes into the staged
+  // manifests ('At the Supermarket' → 'at_the_supermarket'); the taxonomy keys
+  // are all lowercase, so a case-preserving replace ABORTed every supermarket face
+  return ov ? ov.trim().toLowerCase().replace(/\s+/g, '_') : null;
 };
 // ids the panel refused for this locale — no deck, so no landing
 const refusalsPath = path.join(ROOT, 'docs', 'worksheet-gen', 'b3-designs', '_records', 'refusals.' + locale + '.json');

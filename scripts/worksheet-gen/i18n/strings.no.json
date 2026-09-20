@@ -2257,7 +2257,7 @@
   },
   "G2-321": {
     "title": "Hopp i hundrerruta: Følg pilene",
-    "instruction": "Start på tallet og følg pilene: opp er 10 mindre, ned er 10 mer, til høyre er 1 mer. Skriv tallet du lander på."
+    "instruction": "Start på tallet og følg pilene: opp er 10 mindre, ned er 10 mer, til venstre er 1 mindre, til høyre er 1 mer. Skriv tallet du lander på."
   },
   "G2-322": {
     "title": "Hemmelig tall: To piler, én rute",
@@ -2293,7 +2293,7 @@
   },
   "G2-330": {
     "title": "Del opp det sammensatte ordet",
-    "instruction": "Hele ordet står i bokstavruter ved siden av bildet sitt. Tegn en strek der det andre ordet begynner."
+    "instruction": "Hele ordet står bokstav for bokstav ved siden av bildet sitt. Tegn en strek der det andre ordet begynner."
   },
   "G2-331": {
     "title": "Koble orddelene: To bilder, ett ord",

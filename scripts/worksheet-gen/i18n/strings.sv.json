@@ -2257,7 +2257,7 @@
   },
   "G2-321": {
     "title": "Hopp i hundrarutan: följ pilarna",
-    "instruction": "Börja på talet och följ pilarna: uppåt är 10 mindre, nedåt är 10 mer, åt höger är 1 mer. Skriv talet du landar på."
+    "instruction": "Börja på talet och följ pilarna: uppåt är 10 mindre, nedåt är 10 mer, åt vänster är 1 mindre, åt höger är 1 mer. Skriv talet du landar på."
   },
   "G2-322": {
     "title": "Hemligt tal: två pilar, en ruta",

@@ -2253,7 +2253,7 @@
   },
   "G2-321": {
     "title": "Hypyt satataulussa: seuraa nuolia",
-    "instruction": "Aloita luvusta ja seuraa nuolia: ylös on 10 vähemmän, alas 10 enemmän, oikealle 1 enemmän. Kirjoita, mihin päädyt."
+    "instruction": "Aloita luvusta ja seuraa nuolia: ylös on 10 vähemmän, alas 10 enemmän, vasemmalle 1 vähemmän, oikealle 1 enemmän. Kirjoita, mihin päädyt."
   },
   "G2-322": {
     "title": "Lukuarvoitus: kaksi nuolta, yksi ruutu",
@@ -2289,7 +2289,7 @@
   },
   "G2-330": {
     "title": "Jaa yhdyssana osiin",
-    "instruction": "Koko sana on kirjoitettu kuvan viereen kirjainruutuihin. Piirrä yksi viiva siihen kohtaan, josta toinen sana alkaa."
+    "instruction": "Koko sana on kirjoitettu kuvan viereen kirjain kirjaimelta. Piirrä yksi viiva siihen kohtaan, josta toinen sana alkaa."
   },
   "G2-331": {
     "title": "Yhdistä sanan osat: kaksi kuvaa, yksi sana",

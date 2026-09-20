@@ -2106,22 +2106,22 @@
     "no": "falskt",
     "frames": [
       {
-        "text": "Antalet {pl} i raden är {n}.",
+        "text": "Det finns {n} {pl} i raden.",
         "cue": "count",
         "rel": "eq"
       },
       {
-        "text": "Antalet {pl} i raden är precis {n}.",
+        "text": "Det finns precis {n} {pl} i raden.",
         "cue": "count",
         "rel": "eq"
       },
       {
-        "text": "Antalet {pl} i raden är större än {n}.",
+        "text": "Det finns fler än {n} {pl} i raden.",
         "cue": "count",
         "rel": "gt"
       },
       {
-        "text": "Antalet {pl} i raden är mindre än {n}.",
+        "text": "Det finns färre än {n} {pl} i raden.",
         "cue": "count",
         "rel": "lt"
       },
@@ -2168,19 +2168,19 @@
   },
   "draw": [
     {
-      "text": "Rita så här många {pl} i rutan: {n}."
+      "text": "Rita {n} {pl} i rutan."
     },
     {
-      "text": "Rita så här många riktigt stora {pl}: {n}."
+      "text": "Rita {n} riktigt stora {pl}."
     },
     {
-      "text": "Rita så här många {pl} på rad: {n}."
+      "text": "Rita {n} {pl} på rad."
     },
     {
-      "text": "Rita så här många {pl} och en sol ovanför: {n}."
+      "text": "Rita {n} {pl} och en sol ovanför."
     },
     {
-      "text": "Rita så här många små {pl}: {n}."
+      "text": "Rita {n} små {pl}."
     }
   ],
   "strings": {

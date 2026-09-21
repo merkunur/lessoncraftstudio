@@ -5,11 +5,11 @@
  *
  * Draft shape (docs/worksheet-gen/b4-panel-brief.md):
  *   { locale,
- *     types:     { <120 ids>: {title, instruction} }      — omitted for a REFUSED face
- *     families:  { <20 keys>: {slug, name} }
- *     skills:    { <20 keys>: {full, short} }
- *     topicMeta: { <20 keys>: string }
- *     banks:     { <20 bank names>: <locale block> }      — the per-family §5 shape
+ *     types:     { <60 ids>: {title, instruction} }      — omitted for a REFUSED face
+ *     families:  { <10 keys>: {slug, name} }
+ *     skills:    { <10 keys>: {full, short} }
+ *     topicMeta: { <10 keys>: string }
+ *     banks:     { <10 bank names>: <locale block> }      — the per-family §5 shape
  *     refusals:  { <id>: reason }                         — faces this locale will NOT ship
  *     strandNames?: { <en strand>: <locale strand> }
  *     enAudit:   [ ... ]                                   — the EN source is a source to AUDIT
@@ -25,7 +25,7 @@
  *   skills     full 60-180, short 15-90   (metadata — free-claim exempt by ruling)
  *   topicMeta  ≥ 50 chars               (metadata — exempt)
  *   banks      every family validator that exports cleanly runs on its block; then the
- *              BUILD PROBE: every one of the 120 specs is built (pure build(), d2, the
+ *              BUILD PROBE: every one of the 60 specs is built (pure build(), d2, the
  *              theme candidates of tools/gen-b4-waves.js) against the draft's blocks in a
  *              temp locales dir (B4_LOCALES_DIR) — a spec that refuses must be DECLARED in
  *              `refusals` (a refusal is legitimate; an undeclared one is an error, so the
@@ -51,8 +51,8 @@ const KEYS = FAMILIES.map(([, k]) => k);
 const BASE_IDS = FAMILIES.map(([id]) => id);
 const ALL_IDS = [...BASE_IDS, ...alloc.faces.map((f) => f.id)];
 const BAND_OF = (id) => id.split('-')[0];
-// bank module name per family key (two families named their bank differently at build)
-const BANK_OF = { 'ordinal-numbers': 'ordinals', 'read-and-do': 'instructions' };
+// bank module name per family key (nt10-D: none renamed; the map stays for parity with validate-b3-draft)
+const BANK_OF = {}; // nt10-D: every bank is named after its family key (data/b4/<key>.js)
 const bankName = (key) => BANK_OF[key] || key;
 const WORKSHEET_WORD = /arbeitsblatt|worksheet|werkblad|arbetsblad|arbejdsark|arbeidsark|feuille|(?<!\p{L})fiches?(?!\p{L})|ficha|scheda|tehtäv/iu;
 

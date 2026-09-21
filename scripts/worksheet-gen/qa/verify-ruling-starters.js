@@ -52,7 +52,7 @@ const { renderInstance } = require('../render/render-instance.js');
 const WG = path.resolve(__dirname, '..');
 const OUT_DIR = path.join(WG, 'out', 'dev', 'ruling-starters');
 const ALL_LOCALES = ['en', 'de', 'es', 'pt', 'fr', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
-const MUST_HAVE = ['K-335', 'G2-278', 'G2-341', 'G2-318', 'G1-306'];
+const MUST_HAVE = ['K-335', 'G2-278', 'G2-341', 'G2-318', 'G1-306', 'G1-361'];
 const MUST_NOT = ['K-327'];
 const CONTROL = { id: 'G1-249', theme: 'animals', difficulty: 2 };
 

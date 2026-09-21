@@ -34,6 +34,8 @@
  *     excludeThings: []   per-locale pool exclusions on top of the mechanical rule
  *     chipWidths: {<qwords literal>: px}   MEASURED chip widths (Baloo 2 700 20 / pad 12) for the
  *               strip guard; absent entries fall back to the estimate 24 + 12.4 x glyphs + 5
+ *     bankWidths: {<qwords literal>: px}   MEASURED bank-word widths (Nunito 800 18) for the F2 gap-box
+ *               formula; absent entries fall back to chipWidths - 29 (the Baloo-20 proxy)
  *     frames:   [{id, kind:'thing'|'place'|'time'|'count', text, q:{who, <kind>}, signed:true[, objCase:'acc'|'dat' (de)]}]   12 = 3 per kind
  *               text = `{name}` FIRST + verb + exactly ONE complement slot of its
  *               kind ({thing}|{part}|{dat} · {place} · {time} · {n} + {pl}|{part});
@@ -89,6 +91,10 @@ const QUESTION_WORDS = {
     // each chip at Baloo 2 700 20 / height 44 / padding 0 12 — the strip guard reads these before the estimate (the
     // gate asserts every entry within 3 px of the render; the panels author theirs from a render the same way)
     chipWidths: { Who: 68.1, What: 75, Where: 86, When: 78.9, 'How many': 121.8 },
+    // MEASURED 2026-09-21 (Phase 2, the same sheet at Nunito 800 18): the rendered width of each bank word — the F2 gap-box
+    // formula gapW = clamp(round(1.6 x widest + 24), 110, 220) reads these (en "How many" 91.2 -> 170, the design's figure);
+    // absent entries fall back to the Baloo-20 chip proxy chipWidths - 29 (within 8 px on every measured locale)
+    bankWidths: { Who: 42.3, What: 49, Where: 58.7, When: 52.3, 'How many': 91.2 },
     frames: [
       // thing (3)
       { id: 'see-thing',   kind: 'thing', text: '{name} sees {thing}.',      q: { who: 'Who sees {thing}?',      what: 'What does {name} see?' },        signed: true },

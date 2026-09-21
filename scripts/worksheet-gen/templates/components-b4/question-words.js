@@ -35,7 +35,7 @@
  *       data-lcs-frame data-lcs-kind data-lcs-ask data-lcs-name data-lcs-slots
  *       (json); the picture `img.ws-icon[data-lcs-pic="<theme>/<noun>"]
  *       [data-lcs-pickind=person|thing|place][data-lcs-depicted=m|f]`.
- *   qaMatch({left:[{frame, ask, text}], right:[{kind, literal, src, clock, pic}], order, leftW=252, rightW=248, itemH=100, picPx=88, padX=20, fontPx=18})   (F1)
+ *   qaMatch({left:[{frame, ask, text, name?, slots?}], right:[{kind, literal, src, pic, picKind?, depicted?, badge?, clock}], order, leftW=252, rightW=248, itemH=100, picPx=88, padX=20, fontPx=18, itemMax=null})   (F1)
  *       `.ws-match[data-ws-content][data-lcs-match]` padding 6 padX (inner 635):
  *       left `.ws-match-item` leftW x >= itemH (text inner 228, <= 2 lines) with
  *       a right dot; right `.ws-match-item--plain` rightW x >= itemH = picture
@@ -44,8 +44,15 @@
  *       derangement, stamped data-lcs-order). Stamps data-lcs-q data-lcs-ask
  *       data-lcs-frame / data-lcs-a data-lcs-kind data-lcs-literal. Throws unless
  *       `order` is a fixed-point-free permutation of the right items, or a clock
- *       size < 74 (the 9 px numeral floor).
- *   questionFrame({n, src, depicted, frame, ask, name, slots, question, qPrefix, rest, text, span, gapW, gapH=40, fontPx=18, padding='5px 16px', answer})   (F2)
+ *       size < 74 (the 9 px numeral floor). Phase 2 additions (additive): left
+ *       items stamp data-lcs-name + data-lcs-slots (the node cross-check); a right
+ *       img stamps data-lcs-pickind (+ data-lcs-depicted for a portrait); `badge`
+ *       = n wears the K-287 countBadge on the thing's picture (a count answer); the
+ *       clock svg sits in a flex:0 0 auto span (it shrank to 81 beside a wrapping
+ *       literal); `itemMax` lets the items GROW from itemH to itemMax (flex:1 1
+ *       auto; max-height) before the column's space-around spreads the rest — the
+ *       G1-368 SPARSE precedent (stamped data-lcs-itemmax).
+ *   questionFrame({n, src, depicted, frame, kind?, ask, name, slots, question, qPrefix, rest, text, span, gapW, gapH=40, fontPx=18, padding='5px 16px', answer, picPx=56})   (F2; `kind` stamps data-lcs-kind)
  *       the F2 lane: grid `30px 10px 56px 12px 1fr` / rows `auto auto` (gap 6);
  *       line 1 `<p data-lcs-question>` = esc(qPrefix) + an EMPTY `.ws-blankbox
  *       [data-lcs-gapbox]` gapW x gapH (inline-block) + the question REST; line 2
@@ -63,7 +70,7 @@
  *       binW defaults to floor(640 / heads.length) - 12 (3 heads → 201). Throws
  *       on a tile text equal to a head label, < 2 heads, or a bin with fewer
  *       lines than its tiles. Root `[data-ws-content][data-lcs-sort]`.
- *   writeRow({n, src, depicted, frame, ask, name, slots, text, span, answer, w=575, h=48, glyphH=24, fontPx=18, picPx=48})   (F4)
+ *   writeRow({n, src, depicted, frame, kind?, ask, name, slots, text, span, answer, w=575, h=48, glyphH=24, fontPx=18, picPx=48})   (F4; `kind` stamps data-lcs-kind)
  *       a LANE-LESS row (measured: the lane version is 86-87 per row → 714 / 725
  *       at 8 rows > 677): grid `30px 10px ${picPx}px 12px 1fr` / rows `auto
  *       ${h}px` gap 6; line 1 `<p data-lcs-sentence>` = renderMarked; line 2 a
@@ -89,7 +96,7 @@
 const tokens = require('../../primitives/_tokens.js');
 const { esc } = require('../../primitives/_svg.js');
 const clock = require('../../primitives/clock.js');
-const { rulingBlock } = require('../components-b2.js');
+const { rulingBlock, countBadge } = require('../components-b2.js');
 
 const T = tokens.color;
 const F = tokens.font;
@@ -172,33 +179,41 @@ function isDerangement(order, n) {
   if (seen.size !== n || order.some((x) => !Number.isInteger(x) || x < 0 || x >= n)) return false;
   return order.every((x, i) => x !== i);
 }
-function qaMatch({ left, right, order, leftW = 252, rightW = 248, itemH = 100, picPx = 88, padX = 20, fontPx = 18 }) {
+function qaMatch({ left, right, order, leftW = 252, rightW = 248, itemH = 100, picPx = 88, padX = 20, fontPx = 18, itemMax = null }) {
   if (!Array.isArray(left) || !Array.isArray(right) || left.length !== right.length || left.length < 2) throw new Error('qaMatch: left / right must be equal lists of >= 2');
   if (!isDerangement(order, right.length)) throw new Error('qaMatch: order is not a fixed-point-free permutation');
   if (picPx && picPx < CLOCK_FLOOR) throw new Error(`qaMatch: picPx ${picPx} < the clock floor ${CLOCK_FLOOR}`);
   const dot = (side) => `<span class="ws-match-dot ws-match-dot--${side}"></span>`;
-  const L = left.map((q, i) => `<div class="ws-match-item" data-lcs-q="${i}" ${attr('data-lcs-ask', q.ask)} ${attr('data-lcs-frame', q.frame)} ` +
-    `style="width:${leftW}px;min-height:${itemH}px;justify-content:flex-start;padding:6px 12px">` +
+  // itemMax (Phase 2, the SPARSE rule; the G1-368 precedent): the items GROW from itemH up to itemMax before the column's
+  // space-around spreads what is left — the band between items stays under the 44 px G1 floor at every chrome
+  if (itemMax != null && !(itemMax >= itemH)) throw new Error(`qaMatch: itemMax ${itemMax} < itemH ${itemH}`);
+  const grow = itemMax != null ? `max-height:${itemMax}px;flex:1 1 auto;` : '';
+  const L = left.map((q, i) => `<div class="ws-match-item" data-lcs-q="${i}" ${attr('data-lcs-ask', q.ask)} ${attr('data-lcs-frame', q.frame)}${q.name ? ' ' + attr('data-lcs-name', q.name) : ''}${q.slots ? ' ' + attr('data-lcs-slots', JSON.stringify(q.slots)) : ''} ` +
+    `style="width:${leftW}px;min-height:${itemH}px;${grow}justify-content:flex-start;padding:6px 12px">` +
     `<span data-lcs-match-text style="font-family:${F.body},sans-serif;font-weight:800;font-size:${fontPx}px;line-height:1.3;color:${T.ink};white-space:normal;min-width:0">${esc(q.text)}</span>${dot('right')}</div>`).join('');
   const R = order.map((j) => {
     const a = right[j];
     let picHtml;
     if (a.clock) {
-      picHtml = clock({ h: a.clock.h, m: 0, size: picPx }).svg;
+      picHtml = `<span style="flex:0 0 auto;display:inline-flex;line-height:0">${clock({ h: a.clock.h, m: 0, size: picPx }).svg}</span>`;   // flex:0 0 auto: an inline svg shrinks beside a wrapping literal (measured 81 of 88)
     } else {
       if (!a.src || !a.pic) throw new Error(`qaMatch: right item ${j} needs src + pic or a clock`);
-      picHtml = `<img class="ws-icon" src="${a.src}" alt="" ${attr('data-lcs-pic', a.pic)} style="width:${picPx}px;height:${picPx}px;flex:0 0 auto">`;
+      if (a.picKind && !['person', 'thing', 'place'].includes(a.picKind)) throw new Error(`qaMatch: right item ${j} picKind "${a.picKind}"`);
+      if (a.picKind === 'person' && !['m', 'f'].includes(a.depicted)) throw new Error(`qaMatch: right item ${j} is a portrait without depicted m|f`);
+      const img = `<img class="ws-icon" src="${a.src}" alt="" ${attr('data-lcs-pic', a.pic)}${a.picKind ? ' ' + attr('data-lcs-pickind', a.picKind) : ''}${a.picKind === 'person' ? ' ' + attr('data-lcs-depicted', a.depicted) : ''} style="width:${picPx}px;height:${picPx}px;flex:0 0 auto">`;
+      // a count answer: the thing's picture wearing the K-287 count badge (the number word is the literal beside it)
+      picHtml = a.badge != null ? `<span style="position:relative;display:inline-flex;flex:0 0 auto">${img}${countBadge(a.badge)}</span>` : img;
     }
     return `<div class="ws-match-item ws-match-item--plain" data-lcs-a="${j}" ${attr('data-lcs-kind', a.kind)} ${attr('data-lcs-literal', a.literal)} ` +
-      `style="width:${rightW}px;min-height:${itemH}px;padding:6px 12px;gap:8px;justify-content:flex-start">${picHtml}` +
+      `style="width:${rightW}px;min-height:${itemH}px;${grow}padding:6px 12px;gap:8px;justify-content:flex-start">${picHtml}` +
       `<span data-lcs-match-text style="font-family:${F.display},cursive;font-weight:700;font-size:20px;line-height:1.15;color:${T.ink};white-space:normal;min-width:0">${esc(a.literal)}</span>${dot('left')}</div>`;
   }).join('');
-  return `<div class="ws-match" data-ws-content data-lcs-match ${attr('data-lcs-order', order.join(','))} style="padding:6px ${padX}px">` +
+  return `<div class="ws-match" data-ws-content data-lcs-match ${attr('data-lcs-order', order.join(','))}${itemMax != null ? ` data-lcs-itemmax="${itemMax}"` : ''} style="padding:6px ${padX}px">` +
     `<div class="ws-match-col">${L}</div><div class="ws-match-col">${R}</div></div>`;
 }
 
 /* ---------- questionFrame (F2) ---------- */
-function questionFrame({ n, src, depicted, frame, ask, name, slots, question, qPrefix = '', rest, text, span, gapW, gapH = 40, fontPx = 18, padding = '5px 16px', answer, picPx = 56 }) {
+function questionFrame({ n, src, depicted, frame, kind, ask, name, slots, question, qPrefix = '', rest, text, span, gapW, gapH = 40, fontPx = 18, padding = '5px 16px', answer, picPx = 56 }) {
   if (!(gapW >= GAP_MIN)) throw new Error(`questionFrame: gapW ${gapW} < ${GAP_MIN}`);
   if (!answer || !rest) throw new Error('questionFrame: answer + rest are required');
   if (hasWord(rest.trim().split(/\s+/)[0] || '', answer) || fold(rest).startsWith(fold(answer))) throw new Error(`questionFrame: the rest "${rest}" still opens with the answer "${answer}"`);
@@ -206,7 +221,7 @@ function questionFrame({ n, src, depicted, frame, ask, name, slots, question, qP
   const box = `<span class="ws-blankbox" data-lcs-gapbox style="width:${gapW}px;height:${gapH}px;display:inline-block;vertical-align:middle;margin:0 4px"></span>`;
   const q = `<p data-lcs-question style="margin:0;min-width:0;font-family:${F.body},sans-serif;font-weight:800;font-size:${fontPx}px;line-height:1.3;color:${T.ink};white-space:nowrap">${esc(qPrefix)}${box}${esc(rest)}</p>`;
   const p = sentenceP(renderMarked(text, span), '', fontPx);
-  return `<div class="ws-lane" data-ws-content data-lcs-row="${n}" ${attr('data-lcs-frame', frame)} ${attr('data-lcs-ask', ask)} ${attr('data-lcs-name', name)} ${attr('data-lcs-slots', JSON.stringify(slots || {}))} ${attr('data-lcs-answer', answer)} data-lcs-gapw="${gapW}" ` +
+  return `<div class="ws-lane" data-ws-content data-lcs-row="${n}" ${attr('data-lcs-frame', frame)}${kind ? ' ' + attr('data-lcs-kind', kind) : ''} ${attr('data-lcs-ask', ask)} ${attr('data-lcs-name', name)} ${attr('data-lcs-slots', JSON.stringify(slots || {}))} ${attr('data-lcs-answer', answer)} data-lcs-gapw="${gapW}" ` +
     `style="padding:${padding};display:grid;grid-template-columns:30px 10px ${picPx}px 12px 1fr;grid-template-rows:auto auto;row-gap:6px;align-items:center;min-width:0">` +
     badge(n) + picImg({ src, pic: slots && slots.pic, picKind: 'person', depicted, px: picPx }) +
     `<div style="min-width:0;grid-column:5;grid-row:1">${q}</div><div style="min-width:0;grid-column:5;grid-row:2">${p}</div></div>`;
@@ -242,7 +257,7 @@ function qwBins({ tiles, heads, lineCount, binW, binH = 350 }) {
 }
 
 /* ---------- writeRow (F4) ---------- */
-function writeRow({ n, src, depicted, frame, ask, name, slots, text, span, answer, w = 575, h = 48, glyphH = 24, fontPx = 18, picPx = 48 }) {
+function writeRow({ n, src, depicted, frame, kind, ask, name, slots, text, span, answer, w = 575, h = 48, glyphH = 24, fontPx = 18, picPx = 48 }) {
   if (!answer) throw new Error('writeRow: answer is required');
   if (!(glyphH >= 24)) throw new Error(`writeRow: glyphH ${glyphH} < 24`);
   if (!(picPx >= 36)) throw new Error(`writeRow: picPx ${picPx} < 36`);
@@ -250,7 +265,7 @@ function writeRow({ n, src, depicted, frame, ask, name, slots, text, span, answe
   if (need(answer) > w) throw new Error(`writeRow: "${answer}" needs ${need(answer)} px > ${w}`);
   const p = sentenceP(renderMarked(text, span), '', fontPx);
   const ruling = rulingBlock({ rows: 1, w, h, glyphH });
-  return `<div data-ws-content data-lcs-row="${n}" ${attr('data-lcs-frame', frame)} ${attr('data-lcs-ask', ask)} ${attr('data-lcs-name', name)} ${attr('data-lcs-slots', JSON.stringify(slots || {}))} ${attr('data-lcs-answer', answer)} ` +
+  return `<div data-ws-content data-lcs-row="${n}" ${attr('data-lcs-frame', frame)}${kind ? ' ' + attr('data-lcs-kind', kind) : ''} ${attr('data-lcs-ask', ask)} ${attr('data-lcs-name', name)} ${attr('data-lcs-slots', JSON.stringify(slots || {}))} ${attr('data-lcs-answer', answer)} ` +
     `style="display:grid;grid-template-columns:30px 10px ${picPx}px 12px 1fr;grid-template-rows:auto ${h}px;row-gap:6px;align-items:center;min-width:0">` +
     badge(n) + picImg({ src, pic: slots && slots.pic, picKind: 'person', depicted, px: picPx }) +
     `<div style="min-width:0;grid-column:5;grid-row:1">${p}</div>` +

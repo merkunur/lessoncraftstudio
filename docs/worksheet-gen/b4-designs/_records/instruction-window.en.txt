@@ -1,0 +1,49 @@
+read 59 staged decks; 45 need a re-fitted instruction
+
+en G1-350  current  98  ->  WINDOW 47-80
+en G1-351  current 138  ->  WINDOW 39-64
+en G1-353  current  93  ->  WINDOW 44-75
+en G1-354  current  93  ->  WINDOW 55-69
+en G1-355  current  89  ->  WINDOW 55-67
+en G1-356  current  80  ->  WINDOW 42-74
+en G1-357  current  88  ->  WINDOW 46-81
+en G1-359  current  82  ->  WINDOW 46-68
+en G1-360  current  83  ->  WINDOW 46-73
+en G1-366  current  80  ->  WINDOW 47-76
+en G1-367  current  92  ->  WINDOW 47-73
+en G1-368  current  94  ->  WINDOW 47-74
+en G1-369  current 145  ->  WINDOW 39-64
+en G1-370  current 101  ->  WINDOW 39-56
+en G1-371  current  93  ->  WINDOW 36-76
+en G1-373  current  83  ->  WINDOW 44-75
+en G1-374  current  96  ->  WINDOW 44-82
+en G1-375  current  90  ->  WINDOW 44-71
+en G2-346  current 102  ->  WINDOW 47-81
+en G2-347  current 113  ->  WINDOW 55-56
+en G2-348  current  88  ->  WINDOW 52-80
+en G2-349  current  89  ->  WINDOW 47-76
+en G2-350  current 105  ->  WINDOW 47-84
+en G2-351  current 113  ->  WINDOW 39-71
+en G2-352  current 104  ->  WINDOW 39-55
+en G2-353  current  81  ->  WINDOW 36-75
+en G2-355  current  85  ->  WINDOW 36-72
+en G2-356  current  97  ->  WINDOW 44-89
+en G2-357  current  82  ->  WINDOW 44-73
+en G3-385  current 105  ->  WINDOW 49-73
+en G3-386  current 116  ->  WINDOW 39-69
+en G3-387  current  79  ->  WINDOW 47-70
+en G3-388  current  88  ->  WINDOW 47-80
+en G3-389  current  95  ->  WINDOW 47-79
+en G3-390  current  98  ->  WINDOW 47-81
+en G3-391  current 101  ->  WINDOW 47-73
+en K-353  current 129  middle unrecoverable (no skill sentence matched) — measure by hand
+en K-358  current 100  middle unrecoverable (no skill sentence matched) — measure by hand
+en K-359   current 116  ->  WINDOW 55-54   *** IMPOSSIBLE: shorten the TITLE to open a window ***
+en K-360   current  84  ->  WINDOW 42-74
+en K-361   current  85  ->  WINDOW 42-68
+en K-362   current  86  ->  WINDOW 42-67
+en K-364   current  85  ->  WINDOW 49-71
+en K-365   current 105  ->  WINDOW 49-69
+en K-366   current  77  ->  WINDOW 52-76
+
+45 to re-fit; 1 impossible without shortening the title

@@ -31,29 +31,31 @@
  *       _work/G1-352-build.md): the design's gap 3 / pad 4 stack (144) is 1 px
  *       over the card inner at the MEASURED 3-line-title + 3-line-instruction
  *       chrome (body 710, not the README's 722 → inner 143); gap 2 / pad 2 = 140.
- *   nameGapRow({pics, line1, line2, gapW=96, gapH=30, picPx=52, pairPx=48, frameId, num, key, answer})   (F1)
+ *   nameGapRow({pics, line1, line2, gapW=96, gapH=30, picPx=52, pairPx=48, frameId, num, key, answer, names=[]})   (F1)
  *       `.ws-lane` (inline padding 6 16) on grid `100px 1fr`: the portrait(s)
  *       and two `<p>` Nunito 800 18 / 1.3; line 2 opens with a `.ws-blankbox`
  *       gapW × gapH. Stamps data-ws-content data-lcs-frame data-lcs-num
- *       data-lcs-key data-lcs-answer. Throws if line2 !== line1 minus its
- *       leading subject phrase.
+ *       data-lcs-key data-lcs-answer data-lcs-names (the node cross-check
+ *       re-derives the key from the portraits + the names). Throws if line2 !==
+ *       line1 minus its leading subject phrase.
  *   initialBank({words, rng, chipOrder})   (F1)
  *       `wordBank({words, wordPx:18})` over a shuffle that differs from
  *       chipOrder when words.length >= 3.
- *   anaphoraBlock({referents:[{pics, name, target}], intro, sentences:[{pronoun, rest, ref}], namesW=163, zone=70, platePx=16})   (F2)
+ *   anaphoraBlock({referents:[{pics, name, target, key?, refs?, names?}], intro, sentences:[{pronoun, rest, ref}], namesW=163, zone=70, platePx=16})   (F2)
+ *       (a referent's key / refs / names are stamped on its row when given)
  *       `.ws-lane` (padding 8 16) on grid `163px 70px 1fr`: two name rows
  *       (portraits 44 + namePlate 16 + a static `.ws-match-dot`
  *       data-lcs-target), the empty line zone, the intro `<p>` + two sentence
  *       rows (dot data-lcs-anchor + the pronoun in a teal `.ws-tile`
  *       data-lcs-pronoun + the rest). Throws if the two pronoun literals are
  *       equal, a name occurs in a sentence, or intro lacks either name.
- *   ownerLane({owners:{pics}, thing:{src, key}, frame, chips, correctIndex, chipW, num, ownerKey, thingKey, chipFont=20})   (F3)
+ *   ownerLane({owners:{pics}, thing:{src, key}, frame, chips, correctIndex, chipW, num, ownerKey, thingKey, chipFont=20, names=[]})   (F3)
  *       `.ws-lane` (padding 4 16) on grid `140px 1fr`: a 92 px owner box
  *       (single 44 centred / pair 2 × 44 + 4) + the thing at 44, then the frame
  *       `<p>` with ONE inline `.ws-blankbox` 64 × 24 over left-aligned chips.
  *       Throws if the frame lacks exactly one `___` or any chip literal occurs
  *       in the frame as a word.
- *   nameCardBins({cards:[{pics, caption, key}], bins:[{head, idx}], binLayout:'row'|'grid', binH, lineCounts})   (F4)
+ *   nameCardBins({cards:[{pics, caption, key, itemKey?, refs?, names?}], bins:[{head, idx}], binLayout:'row'|'grid', binH, lineCounts})   (F4)
  *       the K-288 sortWords idiom on NAME cards: a 660 px shelf of 118 × 92
  *       `.ws-tile--word` cards (portraits + a 110 × 36 caption zone,
  *       data-lcs-sortword / data-lcs-key), then the bins — a flex row
@@ -63,7 +65,7 @@
  *       gapY = min(58, floor((binH − 10) / (lineCount + 0.5))). Root
  *       `[data-lcs-layout="sort"][data-ws-content]`, padding-top 0. Throws if
  *       gapY < 34 or a bin's lineCount is below its load.
- *   rewriteLane({pics, sentence, w=535, h=48, glyphH=24, num, frameId, key, answer, picPx=56, pairPx=44})   (F5)
+ *   rewriteLane({pics, sentence, w=535, h=48, glyphH=24, num, frameId, key, answer, picPx=56, pairPx=44, names=[]})   (F5)
  *       grid `92px 1fr` (no lane chrome): the portrait(s) and the printed
  *       sentence `<p>` over a `writingRow({w, h, glyphH, xHeight:true})` in
  *       `[data-lcs-ruling-row][data-lcs-empty]`. Throws if the sentence
@@ -132,14 +134,14 @@ function portraitCard({ pics, plate, chips, correctIndex, key, refs, names, pic,
 }
 
 /* ---------- nameGapRow (F1) ---------- */
-function nameGapRow({ pics, line1, line2, gapW = 96, gapH = 30, picPx = 52, pairPx = 48, frameId, num, key, answer }) {
+function nameGapRow({ pics, line1, line2, gapW = 96, gapH = 30, picPx = 52, pairPx = 48, frameId, num, key, answer, names = [] }) {
   if (!line1 || !line2) throw new Error('nameGapRow: both lines are required');
   // line 2 = line 1 minus its leading subject phrase (the box takes the subject's place)
   if (!String(line1).endsWith(String(line2)) || String(line1) === String(line2)) throw new Error(`nameGapRow: line2 "${line2}" is not line1 "${line1}" minus its leading subject`);
   const strip = portraitStrip({ pics, px: pics.length > 1 ? pairPx : picPx, gap: 4, w: 100 });
   const p = (inner, attrs) => `<p ${attrs} style="margin:0;font-family:${F.body},sans-serif;font-weight:800;font-size:18px;line-height:1.3;color:${T.ink};white-space:nowrap">${inner}</p>`;
   const box = `<span class="ws-blankbox" data-lcs-gapbox style="width:${gapW}px;height:${gapH}px;vertical-align:middle;margin:0 4px 0 0"></span>`;
-  return `<div class="ws-lane" data-ws-content data-lcs-frame="${esc(frameId)}" data-lcs-num="${esc(num)}" data-lcs-key="${esc(key)}" data-lcs-answer="${esc(answer)}" ` +
+  return `<div class="ws-lane" data-ws-content data-lcs-frame="${esc(frameId)}" data-lcs-num="${esc(num)}" data-lcs-key="${esc(key)}" data-lcs-answer="${esc(answer)}" data-lcs-names="${esc(names.join('|'))}" ` +
     `style="padding:6px 16px;display:grid;grid-template-columns:100px 1fr;column-gap:12px;align-items:center;min-width:0">` +
     strip + `<div style="min-width:0">${p(esc(line1), 'data-lcs-line1')}${p(box + esc(line2), 'data-lcs-line2')}</div></div>`;
 }
@@ -167,7 +169,7 @@ function anaphoraBlock({ referents, intro, sentences, namesW = 163, zone = 70, p
     for (const s of sentences) if (hasWord(s.rest, r.name)) throw new Error(`anaphoraBlock: the name "${r.name}" occurs in a sentence`);
   }
   const dot = (attrs) => `<span class="ws-match-dot" ${attrs} style="position:static;transform:none;flex:0 0 12px"></span>`;
-  const rows = referents.map((r) => `<div data-lcs-referent="${esc(r.target)}" style="display:grid;grid-template-columns:auto 1fr 12px;column-gap:6px;align-items:center;height:44px">` +
+  const rows = referents.map((r) => `<div data-lcs-referent="${esc(r.target)}"${r.key ? ` data-lcs-key="${esc(r.key)}"` : ''}${r.refs ? ` data-lcs-refs="${esc(r.refs.join(','))}"` : ''}${r.names ? ` data-lcs-names="${esc(r.names.join('|'))}"` : ''} style="display:grid;grid-template-columns:auto 1fr 12px;column-gap:6px;align-items:center;height:44px">` +
     portraitStrip({ pics: r.pics, px: 44, gap: 4 }) + namePlate({ text: r.name, px: platePx, h: 26 }) + dot(`data-lcs-target="${esc(r.target)}"`) + `</div>`).join('');
   const pStyle = `margin:0;font-family:${F.body},sans-serif;font-weight:800;font-size:18px;line-height:1.3;color:${T.ink};white-space:nowrap`;
   const sent = sentences.map((s) => `<div data-lcs-anaphor data-lcs-ref="${esc(s.ref)}" style="display:flex;gap:8px;align-items:center;height:30px">` +
@@ -181,7 +183,7 @@ function anaphoraBlock({ referents, intro, sentences, namesW = 163, zone = 70, p
 }
 
 /* ---------- ownerLane (F3) ---------- */
-function ownerLane({ owners, thing, frame, chips, correctIndex, chipW, num, ownerKey, thingKey, chipFont = 20 }) {
+function ownerLane({ owners, thing, frame, chips, correctIndex, chipW, num, ownerKey, thingKey, chipFont = 20, names = [] }) {
   const parts = String(frame).split('___');
   if (parts.length !== 2) throw new Error(`ownerLane: the frame needs exactly one ___ ("${frame}")`);
   for (const c of chips) if (hasWord(frame, c)) throw new Error(`ownerLane: the chip "${c}" occurs in the frame`);
@@ -191,7 +193,7 @@ function ownerLane({ owners, thing, frame, chips, correctIndex, chipW, num, owne
   const p = `<p data-lcs-frametext style="margin:0;font-family:${F.body},sans-serif;font-weight:800;font-size:18px;line-height:1.3;color:${T.ink};white-space:nowrap">${esc(parts[0])}${box}${esc(parts[1])}</p>`;
   const row = pronounChips({ chips, correctIndex, count: chips.length, w: chipW, fontPx: chipFont, padTop: 2 })
     .replace('style="padding-top:0"', 'style="padding-top:0;justify-content:flex-start"');
-  return `<div class="ws-lane" data-ws-content data-lcs-item data-lcs-num="${esc(num)}" data-lcs-owner="${esc(ownerKey)}" data-lcs-thing="${esc(thingKey)}" data-lcs-chip-key="${correctIndex}" ` +
+  return `<div class="ws-lane" data-ws-content data-lcs-item data-lcs-num="${esc(num)}" data-lcs-owner="${esc(ownerKey)}" data-lcs-thing="${esc(thingKey)}" data-lcs-chip-key="${correctIndex}" data-lcs-names="${esc(names.join('|'))}" ` +
     `style="padding:4px 16px;display:grid;grid-template-columns:140px 1fr;column-gap:12px;align-items:center;min-width:0">` +
     `<div style="display:flex;align-items:center;gap:4px">${ownerBox}${thingImg}</div><div style="min-width:0">${p}${row}</div></div>`;
 }
@@ -204,11 +206,11 @@ function nameCardBins({ cards, bins, binLayout = 'row', binH = 330, lineCounts }
   if (binLayout === 'row' && bins.length === 4) throw new Error('nameCardBins: 4 bins in a row are 148 px wide — use the grid');
   const loads = bins.map((b) => cards.filter((c) => c.key === b.idx).reduce((s, c) => s + (c.pics.length > 1 ? 2 : 1), 0));
   const counts = lineCounts || loads.map((l) => Math.max(4, l));
-  const shelfCards = cards.map((c) => `<span class="ws-tile ws-tile--word" data-lcs-sortword="${esc(c.caption)}" data-lcs-key="${c.key}" ` +
+  const shelfCards = cards.map((c) => `<span class="ws-tile ws-tile--word" data-lcs-sortword="${esc(c.caption)}" data-lcs-key="${c.key}"${c.itemKey ? ` data-lcs-item-key="${esc(c.itemKey)}"` : ''}${c.refs ? ` data-lcs-refs="${esc(c.refs.join(','))}"` : ''}${c.names ? ` data-lcs-names="${esc(c.names.join('|'))}"` : ''} ` +
     `style="width:118px;height:92px;flex-direction:column;justify-content:center;padding:4px;gap:2px;white-space:normal">` +
     portraitStrip({ pics: c.pics, px: c.pics.length > 1 ? 44 : 56, gap: 4 }) +
     `<span data-lcs-caption style="width:110px;height:36px;display:flex;align-items:center;justify-content:center;text-align:center;font-family:${F.body},sans-serif;font-weight:800;font-size:16px;line-height:1.15;color:${T.ink}">${esc(c.caption)}</span></span>`).join('');
-  const shelf = `<div class="ws-card" data-lcs-shelf style="width:660px;padding:10px 12px;flex-direction:row;flex-wrap:wrap;justify-content:center;gap:10px">${shelfCards}</div>`;
+  const shelf = `<div class="ws-card" data-lcs-shelf data-ws-content style="width:660px;padding:10px 12px;flex-direction:row;flex-wrap:wrap;justify-content:center;gap:10px">${shelfCards}</div>`;
   const binW = binLayout === 'grid' ? 308 : Math.floor(640 / bins.length) - 12;
   const binHtml = bins.map((b, i) => {
     const lineCount = counts[i];
@@ -228,14 +230,14 @@ function nameCardBins({ cards, bins, binLayout = 'row', binH = 330, lineCounts }
 }
 
 /* ---------- rewriteLane (F5) ---------- */
-function rewriteLane({ pics, sentence, w = 535, h = 48, glyphH = 24, num, frameId, key, answer, picPx = 56, pairPx = 44 }) {
+function rewriteLane({ pics, sentence, w = 535, h = 48, glyphH = 24, num, frameId, key, answer, picPx = 56, pairPx = 44, names = [] }) {
   const pron = String(answer).split(/\s+/)[0];
   if (hasWord(sentence, pron)) throw new Error(`rewriteLane: the sentence prints the answer's pronoun "${pron}"`);
   if (need(answer, glyphH) > w) throw new Error(`rewriteLane: "${answer}" needs ${need(answer, glyphH)} px > ${w}`);
   const strip = portraitStrip({ pics, px: pics.length > 1 ? pairPx : picPx, gap: 4, w: 92 });
   const p = `<p data-lcs-sentence style="margin:0 0 6px;font-family:${F.body},sans-serif;font-weight:800;font-size:18px;line-height:1.3;color:${T.ink};white-space:nowrap">${esc(sentence)}</p>`;
   const row = writingRow({ w, h, glyphH, xHeight: true }).svg;
-  return `<div data-ws-content data-lcs-frame="${esc(frameId)}" data-lcs-num="${esc(num)}" data-lcs-key="${esc(key)}" data-lcs-answer="${esc(answer)}" ` +
+  return `<div data-ws-content data-lcs-frame="${esc(frameId)}" data-lcs-num="${esc(num)}" data-lcs-key="${esc(key)}" data-lcs-answer="${esc(answer)}" data-lcs-names="${esc(names.join('|'))}" ` +
     `style="display:grid;grid-template-columns:92px 1fr;column-gap:12px;align-items:center;min-width:0">` +
     strip + `<div style="min-width:0">${p}<div data-lcs-ruling-row data-lcs-empty style="line-height:0">${row}</div></div></div>`;
 }

@@ -54,10 +54,12 @@
  *               row) each holding bin({w:44, h:66, fill:'lid'}); stamps
  *               data-lcs-chip="<binKey>" data-lcs-mark; width 5 x 64 + 4 x 10
  *               = 330.
- *   whichBinRow({n, item, chips, tile=72, iconPx=60})
+ *   whichBinRow({n, item, chips, tile=72, iconPx=60, chipsW=330})
  *               F1: white card r 12, border 2 creamDeep, grid `30px 72px 1fr
- *               330px` gap 12, padding 0 12 (480 <= 675; the spacer takes the
- *               rest): badge · product tile 72 (icon 60) · spacer · chips.
+ *               <chipsW>px` gap 12, padding 0 12 (the spacer takes the rest):
+ *               badge · product tile 72 (icon 60) · spacer · chips. chipsW =
+ *               N x chipTile + (N - 1) x 10 (Phase 2, additive: the design's
+ *               330 was a miscount — 5 x 64 + 4 x 10 = 360; 510 <= 675 holds).
  *               Stamps data-lcs-row data-lcs-n data-lcs-item data-lcs-material
  *               data-lcs-bin data-lcs-chip-order.
  *   materialRow({n, item, rulingW=400, tile=64, iconPx=52, glyphH=30, rowH=58})
@@ -194,11 +196,12 @@ function binChips({ bins, tile = 64, tileH = 80, binW = 44, gap = 10 }) {
 }
 
 /* ---------------------------------------------------------------- F1: one which-bin row */
-function whichBinRow({ n, item, chips, tile = 72, iconPx = 60 }) {
+function whichBinRow({ n, item, chips, tile = 72, iconPx = 60, chipsW = 330 }) {
   if (!item || !item.id) throw new Error('whichBinRow: no item');
   const order = (/data-lcs-chip-order="([^"]*)"/.exec(chips || '') || [])[1] || '';
+  if (!(chipsW >= 100)) throw new Error(`whichBinRow: chipsW ${chipsW} < 100`);
   return `<div class="rc-which" data-lcs-row data-lcs-n="${n}" data-lcs-item="${esc(item.id)}" data-lcs-material="${esc(item.material)}" data-lcs-bin="${esc(item.bin)}" data-lcs-chip-order="${esc(order)}" ` +
-    `style="display:grid;grid-template-columns:30px ${tile}px 1fr 330px;column-gap:12px;align-items:center;padding:0 12px;background:${T.white};border:2px solid ${T.creamDeep};border-radius:12px;min-height:0;min-width:0">` +
+    `style="display:grid;grid-template-columns:30px ${tile}px 1fr ${chipsW}px;column-gap:12px;align-items:center;padding:0 12px;background:${T.white};border:2px solid ${T.creamDeep};border-radius:12px;min-height:0;min-width:0">` +
     badge(n) +
     `<span class="rc-product" style="display:inline-flex;align-items:center;justify-content:center;width:${tile}px;height:${tile}px;background:${T.cream};border-radius:10px">${icon(item.src, iconPx)}</span>` +
     `<span></span>` + chips + `</div>`;
@@ -217,18 +220,41 @@ function materialRow({ n, item, rulingW = 400, tile = 64, iconPx = 52, glyphH = 
 }
 
 /* ---------------------------------------------------------------- F3: one odd-one-out row */
-function oddRow({ items, oddIdx, box = 120, iconPx = 84 }) {
+/**
+ * `boxMax` (Phase 2, additive; default = box = the fixed design geometry): when
+ * boxMax > box the four boxes GROW with their fractional card row
+ * (`height:min(boxMax,100%)`, square, the picture iconPx/box of the box) — the
+ * K-355 F3 precedent: an 84 px picture in a fixed 120 box inside a 192 px card
+ * (the one-line en chrome) read as a small picture floating in a big card
+ * (nt10-D SPARSE ruling). At the 677 fi pin the boxes ARE box / iconPx.
+ * Every box also stamps `data-lcs-class` (the F3 trio class of its material:
+ * paper+cardboard = paper) when `it.cls` is given.
+ */
+function oddRow({ items, oddIdx, box = 120, iconPx = 84, boxMax = box }) {
   if (!Array.isArray(items) || items.length < 3) throw new Error('oddRow: needs >= 3 items');
   if (!(oddIdx >= 0 && oddIdx < items.length)) throw new Error('oddRow: oddIdx out of range');
+  if (!(boxMax >= box)) throw new Error(`oddRow: boxMax ${boxMax} < box ${box}`);
+  const grow = boxMax > box;
+  const pct = Math.round((iconPx / box) * 1000) / 10;
   const boxes = items.map((it, i) =>
-    `<span data-lcs-item="${esc(it.id)}" data-lcs-material="${esc(it.material)}" data-lcs-vocab="${esc(it.vocabKey)}"${i === oddIdx ? ' data-lcs-odd="1"' : ''} ` +
-    `style="display:inline-flex;align-items:center;justify-content:center;width:${box}px;height:${box}px;background:${T.white};border-radius:10px">${icon(it.src, iconPx)}</span>`).join('');
-  return `<div class="ws-card-stage" style="justify-content:space-evenly;padding:6px" data-lcs-items="${items.length}">${boxes}</div>`;
+    `<span data-lcs-item="${esc(it.id)}" data-lcs-material="${esc(it.material)}" data-lcs-vocab="${esc(it.vocabKey)}"${it.cls ? ` data-lcs-class="${esc(it.cls)}"` : ''}${i === oddIdx ? ' data-lcs-odd="1"' : ''} ` +
+    (grow
+      ? `style="display:inline-flex;align-items:center;justify-content:center;height:min(${boxMax}px,100%);min-height:${box}px;aspect-ratio:1/1;background:${T.white};border-radius:10px"><img class="ws-icon" src="${it.src}" alt="" style="width:${pct}%;height:${pct}%"></span>`
+      : `style="display:inline-flex;align-items:center;justify-content:center;width:${box}px;height:${box}px;background:${T.white};border-radius:10px">${icon(it.src, iconPx)}</span>`)).join('');
+  return `<div class="ws-card-stage" style="justify-content:space-evenly;padding:6px" data-lcs-items="${items.length}"${grow ? ` data-lcs-box-max="${boxMax}"` : ''}>${boxes}</div>`;
 }
 
 /* ---------------------------------------------------------------- F4: the colour legend */
-function legendChips({ entries, wordPx = 17 }) {
+/**
+ * `rows` (Phase 2, additive; default 1 = the design's one flex-wrap row): 2 lays the
+ * entries in TWO balanced rows (a forced break after ceil(n / 2), row-gap 10) — five
+ * German entries at 17 px measure ~745 px, past the 663 px banner, and the browser's
+ * own wrap gave 4 + 1 at a 22 px row gap (banner 92, the colour stack 678 > 677).
+ */
+function legendChips({ entries, wordPx = 17, rows = 1 }) {
   if (!Array.isArray(entries) || !entries.length) throw new Error('legendChips: no entries');
+  if (![1, 2].includes(rows)) throw new Error(`legendChips: rows ${rows} is not 1 | 2`);
+  const breakAt = rows === 2 ? Math.ceil(entries.length / 2) : -1;
   const seen = new Set();
   const items = entries.map((e) => {
     if (!e || !e.key) throw new Error('legendChips: an entry without a bin key');
@@ -243,30 +269,90 @@ function legendChips({ entries, wordPx = 17 }) {
       `<span style="font-family:${F.body},sans-serif;font-weight:800;font-size:${wordPx}px;color:${T.ink}">${esc(e.colorWord)}</span>` +
       `<span style="display:inline-block;width:6px"></span>` +
       `<span style="font-family:${F.display},cursive;font-weight:700;font-size:${wordPx}px;color:${T.teal}">${esc(e.label)}</span></span>`;
-  }).join('');
-  return `<div class="ws-scene-banner" style="gap:22px;flex-wrap:wrap" data-lcs-legend-banner>${items}</div>`;
+  }).map((h, i) => (i === breakAt ? `<span data-lcs-legend-break style="flex-basis:100%;height:0"></span>` + h : h)).join('');
+  return `<div class="ws-scene-banner" style="gap:22px;flex-wrap:wrap${rows === 2 ? ';row-gap:10px' : ''}" data-lcs-legend-banner data-lcs-legend-rows="${rows}">${items}</div>`;
 }
 
 /* ---------------------------------------------------------------- F4: the example shelf under a bin */
-function exampleShelf({ items, pic = 56, w = 117, h = 64 }) {
+/**
+ * `dir:'column'` (Phase 2, additive; default 'row' = the design's 117 x 64 strip of
+ * two 56 px pictures side by side): the pictures STACK under the bin (padding 6,
+ * gap 8; h = 6 + n x pic + (n - 1) x 8 + 6), so the shelf can carry the bigger
+ * examples a K colouring sign wants (84 px = the bin body's own width at 117)
+ * without exceeding the bin's width — the F4 stack lever (nt10-D SPARSE ruling:
+ * the design's 431 px stack floated 246 px of blank paper at the 677 pin).
+ */
+function exampleShelf({ items, pic = 56, w = 117, h = 64, dir = 'row' }) {
   if (!Array.isArray(items) || items.length < 1 || items.length > 2) throw new Error('exampleShelf: 1 or 2 example pictures');
-  if (items.length * pic + (items.length - 1) * 4 > w) throw new Error(`exampleShelf: ${items.length} x ${pic} do not fit ${w}`);
+  if (!['row', 'column'].includes(dir)) throw new Error(`exampleShelf: dir "${dir}" is not row | column`);
+  const column = dir === 'column';
+  if (column) { if (pic + 12 > w) throw new Error(`exampleShelf: a ${pic} px picture does not fit ${w} wide (column)`); h = 12 + items.length * pic + (items.length - 1) * 8; }
+  else if (items.length * pic + (items.length - 1) * 4 > w) throw new Error(`exampleShelf: ${items.length} x ${pic} do not fit ${w}`);
   const pics = items.map((it) => `<span data-lcs-example="${esc(it.id)}" data-lcs-bin="${esc(it.bin)}" style="display:inline-flex">${icon(it.src, pic)}</span>`).join('');
-  return `<div class="rc-shelf" data-lcs-shelf style="display:flex;justify-content:center;align-items:center;gap:4px;width:${w}px;height:${h}px;box-sizing:border-box;background:${T.cream};border-radius:10px">${pics}</div>`;
+  return `<div class="rc-shelf" data-lcs-shelf data-lcs-shelf-dir="${dir}" data-lcs-pic="${pic}" style="display:flex;flex-direction:${column ? 'column' : 'row'};justify-content:center;align-items:center;gap:${column ? 8 : 4}px;width:${w}px;height:${h}px;box-sizing:border-box;background:${T.cream};border-radius:10px">${pics}</div>`;
+}
+/** F4: the N shelves in ONE row under the bin row — the same centred flex with the same gap, so shelf k sits under bin k. */
+function shelfRow({ shelves, binW, gap = 14, marginTop = 8 }) {
+  if (!Array.isArray(shelves) || !shelves.length) throw new Error('shelfRow: no shelves');
+  return `<div class="rc-shelves" data-lcs-shelf-row style="display:flex;justify-content:center;align-items:flex-start;gap:${gap}px;margin-top:${marginTop}px">` +
+    shelves.map((s) => `<div style="flex:0 0 ${binW}px;display:flex;justify-content:center">${s}</div>`).join('') + `</div>`;
 }
 
 /* ---------------------------------------------------------------- F5: one draw-and-write lane */
-function recycleLane({ n, draw = { w: 170, h: 150 }, rows = 2, starter = null, rulingW = 400, h = 56, glyphH = 36 }) {
+/**
+ * `grow:true` (Phase 2, additive; default false = the design's fixed drawBox):
+ * the draw box FLEXES to the lane's inner height (`draw.h` is its floor) — the
+ * read-and-do `drawCards` idiom — so a lane that opens with the chrome (196 at
+ * the 677 pin, ~262 at the one-line en chrome) gives the child a bigger drawing
+ * space instead of a 150 px box floating in a 262 px lane (nt10-D SPARSE ruling).
+ */
+function recycleLane({ n, draw = { w: 170, h: 150 }, rows = 2, starter = null, rulingW = 400, h = 56, glyphH = 36, grow = false }) {
   const starters = {};
   if (starter != null) {
     if (typeof starter !== 'string' || !starter.trim()) throw new Error('recycleLane: a starter must be a non-empty literal');
     starters[0] = starter;
   }
   const block = rulingBlock({ rows, w: rulingW, h, glyphH, starters, gap: 8 });
-  return `<div class="ws-lane rc-lane" data-lcs-lane data-lcs-n="${n}" data-lcs-rows="${rows}" style="padding:10px 12px;display:grid;grid-template-columns:30px ${draw.w}px 1fr;column-gap:12px;align-items:center">` +
+  const box = grow
+    ? `<span data-lcs-drawbox data-lcs-draw-min="${draw.h}" style="display:block;width:${draw.w}px;flex:1 1 ${draw.h}px;min-height:${draw.h}px;background:${T.white};border:2.5px dashed ${T.coral};border-radius:12px"></span>`
+    : drawBox({ w: draw.w, h: draw.h });
+  return `<div class="ws-lane rc-lane" data-lcs-lane data-lcs-n="${n}" data-lcs-rows="${rows}"${grow ? ' data-lcs-grow="1"' : ''} style="padding:10px 12px;display:grid;grid-template-columns:30px ${draw.w}px 1fr;column-gap:12px;align-items:center;min-height:0">` +
     badge(n) +
-    `<span style="display:block">${drawBox({ w: draw.w, h: draw.h })}</span>` +
+    `<span style="display:${grow ? 'flex' : 'block'};${grow ? 'flex-direction:column;align-self:stretch;min-height:0' : ''}">${box}</span>` +
     `<span style="display:block;width:${rulingW}px;justify-self:end">${block}</span></div>`;
 }
 
-module.exports = { RC_CSS, NEUTRAL_LID, lidColourKey, binRow, sortStrip, keyBins, legendBins, binChips, whichBinRow, materialRow, oddRow, legendChips, exampleShelf, recycleLane };
+/* ---------------------------------------------------------------- the face stages (Phase 2) */
+/**
+ * RC_FACE_CSS — the face roots (additive; the base's RC_CSS is byte-untouched).
+ * Every face root is `.rc-face` = a column flex TOP-ANCHORED under the
+ * instruction; the four grid faces (which / write / odd / open) FILL the body
+ * (`flex:1 1 auto`, rows `minmax(min, 1fr)`), the colour face is a FIXED stack
+ * (`flex:0 0 auto`; the slack falls under the shelves, as under the base's bins).
+ */
+const RC_FACE_CSS = `
+.rc-face{display:flex;flex-direction:column;justify-content:flex-start;align-self:stretch;min-height:0}
+.rc-face--fill{flex:1 1 auto}
+.rc-face--fixed{flex:0 0 auto}
+.rc-rows{display:grid;flex:1 1 auto;min-height:0}
+.rc-face .ws-scene-banner{flex:0 0 auto}
+`;
+function stampAttrs(stamps) { return Object.entries(stamps || {}).map(([k, v]) => ` data-lcs-${k}="${esc(String(v))}"`).join(''); }
+/** A face root: `<style>` + the stamped root; `fill` = the body-filling flex (grid faces) or the fixed stack (colour). */
+function faceRoot({ layout, fill = true, stamps, inner }) {
+  return `<style>${RC_CSS}${RC_FACE_CSS}</style>` +
+    `<div class="rc-sort rc-face rc-face--${fill ? 'fill' : 'fixed'}" data-ws-content data-lcs-recycling data-lcs-layout="${esc(layout)}"${stampAttrs(stamps)}>${inner}</div>`;
+}
+/** The rows grid of the which / write faces: `repeat(n, minmax(rowMin, 1fr))` — fills the body, rows open with the chrome. */
+function faceRows({ rows, rowMin, gap = 8, cls = '' }) {
+  if (!Array.isArray(rows) || !rows.length) throw new Error('faceRows: no rows');
+  return `<div class="rc-rows ${cls}" data-lcs-rows-grid data-lcs-row-min="${rowMin}" style="grid-template-rows:repeat(${rows.length}, minmax(${rowMin}px, 1fr));gap:${gap}px">${rows.join('')}</div>`;
+}
+/** F3: the `.ws-cardgrid` of numbered `.ws-card`s (the card-grid layout's markup, written here so the row's trio class can be stamped on the CARD). */
+function oddGrid({ cards, rowMin = 156, gap = 14 }) {
+  if (!Array.isArray(cards) || !cards.length) throw new Error('oddGrid: no cards');
+  const items = cards.map((c, i) => `<section class="ws-card" data-lcs-card="${i + 1}" data-lcs-trio="${esc(c.cls)}"><span class="ws-card-badge">${i + 1}</span>${c.html}</section>`).join('\n');
+  return `<div class="ws-cardgrid rc-odd-grid" data-lcs-rows-grid data-lcs-row-min="${rowMin}" style="grid-template-columns:repeat(1, minmax(0,1fr));grid-template-rows:repeat(${cards.length}, minmax(${rowMin}px, 1fr));gap:${gap}px">\n${items}\n</div>`;
+}
+
+module.exports = { RC_CSS, RC_FACE_CSS, NEUTRAL_LID, lidColourKey, binRow, sortStrip, keyBins, legendBins, binChips, whichBinRow, materialRow, oddRow, legendChips, exampleShelf, shelfRow, recycleLane, faceRoot, faceRows, oddGrid };

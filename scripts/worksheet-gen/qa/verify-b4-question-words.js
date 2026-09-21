@@ -89,7 +89,7 @@
  *    Render poisons (the validator bypassed, the _buildWith seam):
  *      P13 a count row whose mark spans "five lambs"          → verify + node
  *      P14 the chips reordered on one row                     → verify position leak
- *      P18 a base page with 3 who rows (pictureBot 0.43)      → verify
+ *      P18 a base page with 3 who rows (pictureBot 0.43)      → verify   (3/7 on the 3-chip d2 page)
  *      P19 Ben tagged f in the pronouns bank (a girl's portrait under "Ben") → node
  *      P22 the row grid authored with column-gap:10px 12px    → verify geometry
  *      PRa a chip carrying data-lcs-correct · PRb a mark inside a chip strip ·
@@ -871,7 +871,7 @@ async function main() {
     b = clone(en); b.frames[0].q.what = 'What does {name} see {thing}?'; poison('P3x the asked thing slot printed', b, 'en', /rule 3: frame see-thing q\.what .*asked slot printed/);
     b = clone(en); b.frames[6].q.when = 'When does {name} play {time}?'; poison('P3y the asked time slot printed', b, 'en', /rule 3: frame play-time q\.when .*asked slot printed/);
     b = clone(en); b.times[0].h = 3; poison('P7x a clock hour twice', b, 'en', /rule 7: a clock hour twice/);
-    b = clone(en); b.faces.base.kinds = ['who', 'what', 'where']; poison('P12g faces.base.kinds != the d2 chips', b, 'en', /rule 12: faces\.base\.kinds/);
+    b = clone(en); b.faces.base.kinds = ['who', 'what', 'where', 'when']; poison('P12g faces.base.kinds != the d2 chips', b, 'en', /rule 12: faces\.base\.kinds/);   // the d2 page is who/what/where (reviewer ruling 2026-09-21: the title names exactly the chips)
     // the control: the correct EN bank + every synthetic control are clean (asserted above)
 
     // ---- render poisons (the validator bypassed)
@@ -887,7 +887,7 @@ async function main() {
     };
     await renderPoison('P13 a count mark spanning "five lambs"', mutated(TYPE, (h) => h.replace(/(<span data-lcs-mark[^>]*>)([^<]+)(<\/span>)( \p{L}+)\./u, '$1$2$4$3.')), /spans more than the number word|mark ".*" != markOf/, { difficulty: 3 });
     await renderPoison('P14 the chips reordered on one row', mutated(TYPE, (h) => { const i = h.indexOf('<div class="ws-achips"'); const j = h.indexOf('</div>', i); const seg = h.slice(i, j); const chips = seg.match(/<span class="ws-achip"[\s\S]*?<\/span>/g); return h.slice(0, i) + seg.replace(chips.join(''), chips.slice().reverse().join('')) + h.slice(j); }), /position leak/);
-    await renderPoison('P18 a base page with 3 who rows', withDeps(TYPE, { d: { ...TYPE.difficulty[2], kinds: { who: 3, what: 2, where: 1, when: 1 } } }), /pictureBot 0\.43 > 0\.35/);
+    await renderPoison('P18 a base page with 3 who rows', withDeps(TYPE, { d: { ...TYPE.difficulty[2], kinds: { who: 3, what: 2, where: 2 } } }), /pictureBot 0\.43 > 0\.35/);
     { const bad = clone(pronEn); bad.names.forEach((n) => { n.gender = 'f'; }); await renderPoison('P19 the male names tagged f (a girl\'s portrait under "Ben")', withDeps(TYPE, { pron: bad }), /tag mismatch/); }
     await renderPoison('P22 the row grid with column-gap:10px 12px', mutated(TYPE, (h) => h.split('grid-template-columns:30px 10px 56px 12px 1fr').join('grid-template-columns:30px 56px 1fr;column-gap:10px 12px').split('grid-column:3;').join('grid-column:2;').split('grid-column:5;').join('grid-column:3;')), /row geometry|past the lane/);
     await renderPoison('PRa a chip carrying data-lcs-correct', mutated(TYPE, (h) => h.replace('data-lcs-chip="what"', 'data-lcs-chip="what" data-lcs-correct="1"')), /carries a correct marker/);

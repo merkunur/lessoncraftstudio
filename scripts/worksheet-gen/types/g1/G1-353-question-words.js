@@ -282,9 +282,17 @@ function compose(rng, bank, cfg, loc, data) {
     const used = new Set();
     const rows = [];
     let ok = true;
-    for (const ask of askOrder) {
+    // deal the non-who asks FIRST (each needs a frame of ITS kind), then the who asks, which mark the
+    // SUBJECT and may take any frame: an on-chip kind first, else a kind absent from the page (its own
+    // constituent is unmarked, so it never leaks) — reviewer ruling 2026-09-21: a 3-chip d2 page has 6
+    // on-chip frames for 7 rows and the who rows must not starve what/where.
+    const dealOrder = [...askOrder.filter((a) => a !== 'who'), ...askOrder.filter((a) => a === 'who')];
+    for (const ask of dealOrder) {
       const wantKind = ask === 'who' ? null : ASK_KIND[ask];
-      const f = frames.find((x) => !used.has(x.id) && (wantKind ? x.kind === wantKind : cfg.chips.includes(KIND_ASK[x.kind])));
+      const f = wantKind
+        ? frames.find((x) => !used.has(x.id) && x.kind === wantKind)
+        : (frames.find((x) => !used.has(x.id) && cfg.chips.includes(KIND_ASK[x.kind]))
+           || frames.find((x) => !used.has(x.id) && !cfg.chips.includes(KIND_ASK[x.kind])));
       if (!f) { ok = false; break; }
       used.add(f.id);
       rows.push({ frame: f, kind: f.kind, ask });
@@ -476,7 +484,7 @@ module.exports = {
     // d1 = the unpublished scaffold (design §2 ladder): the marked referent's OWN picture at 64 (person / thing / place;
     // no when row, since a clock at 64 is refused); pictureBot is 1.0 by design, so botMax is not the base's 0.35.
     1: { mode: 'base', rows: 6, chips: ['who', 'what', 'where'], kinds: { who: 2, what: 2, where: 2 }, picOf: 'referent', picPx: 64, maxChars: 32, chipPx: 22, chipH: 44, chipPad: 14, rowMin: 96, maxThings: 3, botMax: 1 },
-    2: { mode: 'base', rows: 7, chips: ['who', 'what', 'where', 'when'], kinds: { who: 2, what: 2, where: 2, when: 1 }, picOf: 'subject', picPx: 56, maxChars: 40, chipPx: 20, chipH: 44, chipPad: 12, rowMin: 88, maxThings: 3, botMax: 0.35 },
+    2: { mode: 'base', rows: 7, chips: ['who', 'what', 'where'], kinds: { who: 2, what: 3, where: 2 }, picOf: 'subject', picPx: 56, maxChars: 40, chipPx: 20, chipH: 44, chipPad: 12, rowMin: 88, maxThings: 3, botMax: 0.35 },
     3: { mode: 'base', rows: 7, chips: ['who', 'what', 'where', 'when', 'howmany'], kinds: { who: 2, what: 2, where: 1, when: 1, howmany: 1 }, picOf: 'subject', picPx: 56, maxChars: 48, chipPx: 20, chipH: 44, chipPad: 12, rowMin: 88, maxThings: 4, botMax: 0.35, unpublished: true },
   },
   i18n: {

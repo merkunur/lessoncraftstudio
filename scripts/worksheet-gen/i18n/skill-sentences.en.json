@@ -338,5 +338,45 @@
   "feelings": {
     "full": "Naming the feeling on each face and matching it to a situation gives children the words they need to say how they feel.",
     "short": "Builds feeling words and emotional awareness."
+  },
+  "tangram": {
+    "full": "Cutting out the seven tans and fitting them into a shape trains children to see how big shapes are built from smaller ones and how a piece looks when it turns.",
+    "short": "Builds shape composition with the seven tangram pieces."
+  },
+  "human-body": {
+    "full": "Labelling the parts of a drawn child, counting how many of each we have and finding which come in twos gives children the names for their own body.",
+    "short": "Builds the names of the parts of the body."
+  },
+  "five-senses": {
+    "full": "Matching each object to the eye, ear, nose, tongue or hand that senses it, and sorting objects by sense, shows children how they explore the world.",
+    "short": "Builds the five senses and the organ for each."
+  },
+  "weather-symbols": {
+    "full": "Reading the weather symbols on a chart, matching each to its word and keeping a weekly weather diary builds the words children use every morning.",
+    "short": "Builds weather symbols, words and a weekly chart."
+  },
+  "recycling": {
+    "full": "Sorting empty packaging into the right bin by what it is made of teaches children the materials around them and why each has its own bin.",
+    "short": "Builds sorting waste by material into the right bin."
+  },
+  "cloze": {
+    "full": "Reading a whole sentence beside its picture and writing the one missing word trains children to use the picture and the sentence together to read.",
+    "short": "Builds reading for meaning with a missing word."
+  },
+  "odd-and-even": {
+    "full": "Pairing up the dots under a number and writing it as two equal parts shows children why a number is even or odd before they learn the last-digit rule.",
+    "short": "Builds odd and even numbers from pairs."
+  },
+  "pronouns": {
+    "full": "Replacing a name with he, she or they under a portrait, and finding who a pronoun points back to, builds the small words that hold sentences together.",
+    "short": "Builds personal pronouns for people."
+  },
+  "question-words": {
+    "full": "Reading an answer sentence and circling the question word that asks for the marked part trains children to see what who, what, where and when each ask for.",
+    "short": "Builds question words from answer sentences."
+  },
+  "rounding": {
+    "full": "Looking at the deciding digit and writing the nearest ten or hundred, then rounding first to estimate a sum, builds the rounding rule children use for checking.",
+    "short": "Builds rounding to the nearest ten and hundred."
   }
 }

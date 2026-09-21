@@ -21,7 +21,7 @@ Tooling written in the design session (committed): `scripts/seo-research/harvest
 | 1 | K-353 | tangram | spatial-reasoning | K/G2 | Tangram | none (invariant word) |
 | 2 | K-354 | human-body | science | K/G1 | Parts of the Body | MANDATORY ×11 (`body_parts` theme slug) |
 | 3 | K-355 | five-senses | science | K/G1 | The Five Senses | none |
-| 4 | K-356 | weather | science | K/G3 | Weather Symbols (+ Water Cycle face) | MANDATORY ×11 (`weather` theme slug) |
+| 4 | K-356 | weather-symbols (RULED at build Phase 0, 2026-09-21: the design file says `weather`, which the THEME axis owns — the K-319 `feelings`/`emotions` precedent) | science | K/G3 | Weather Symbols (+ Water Cycle face) | MANDATORY ×11 (`weather` theme slug) |
 | 5 | K-357 | recycling | science | K/G2 | Recycling Sort | fi never "Lajittelu" |
 | 6 | G1-350 | cloze | letters | G1/G2 | Fill in the Missing Word | none |
 | 7 | G1-351 | odd-and-even | math | G1/G3 | Odd and Even Numbers | none |
@@ -69,7 +69,7 @@ The sidebar is built from the landing corpus grouped by taxonomy subject: `build
 - **`coordinate.mode` is ALWAYS the face's mode string (base = `'base'`), never null** (`coordKey()` = type|mode|theme, no level) (nt20-C).
 - **Open numeral boxes use `blankNumeralBox`** (`answerBox` without an answer stamps `data-lcs-answer="undefined"`) (nt20-C).
 - **Text on a writing row is sized from MEASURED font metrics**; `verify-ruling-starters.js` covers any new starter surface (2026-09-21, after the starter fix).
-- **Compound heads where the head is a theme slug** (2026-09-21): human-body ×11, weather ×11; the K-322 validator rule (title ≠ any `axes.theme.*.slug/name.<loc>`) is extended to b4.
+- **Compound heads where the head is a theme slug** (2026-09-21): human-body ×11, weather ×11; the K-322 validator rule (title ≠ any `axes.theme.*.slug/name.<loc>`) is extended to b4. **And the family KEY itself must not be a theme key** (`topicMeta`/`topicProse` are keyed per axis-key across axes): the weather family is registered as **`weather-symbols`** (build Phase 0 ruling; `register-b4-taxonomy.js` guards it), read `weather-symbols` wherever the K-356 design file says `exerciseType: weather` / `coordinate.type:'weather'` / `apps.weather`.
 - **Every named picture is OPENED** (`picOpened:true` per bank member; the sv #35 `fruits/plum` = apple precedent); the library draws PRODUCTS, not actions or waste (2026-09-21).
 - **A face is a change in what the child DOES or LEARNS** — content swaps of one act are not faces (the dominoes drop, 2026-09-21).
 - **Refusals lower the hub-gate expectation per (key × locale) explicitly; fillers never pad a page** (nt20-C).
@@ -84,7 +84,7 @@ Rows = faces with a landing per (key × locale) at design time; "contingent" = l
 | tangram | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | CONFIRMED (final 2026-09-21): wordless, no refusals; "with answers" tail = a known loss (no answer key on printables) |
 | human-body | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | CONFIRMED (final 2026-09-21): no face refused; per-WORD refusals only (fr `eye` on F3, es/pt/it `toe` on F3); contingency fr `œ` glyph check |
 | five-senses | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | CONFIRMED (final 2026-09-21): no face refused; the de/fr/es/pt/it "I can …" starter frame rewritten (bare present) not refused; 45-item bank (38 strong + 7 signed) |
-| weather | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | CONFIRMED (final 2026-09-21): no refusal; contingency = a base word wider than 226 px would drop that locale to 5 (expected 0; the validator measures) |
+| weather-symbols | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | CONFIRMED (final 2026-09-21): no refusal; contingency = a base word wider than 226 px would drop that locale to 5 (expected 0; the validator measures) |
 | recycling | 5 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 65 (floor 60) | CONFIRMED (final 2026-09-21): en F4 colour-the-bins REFUSED (no national colour convention; a classroom key = K-241); it/nl/sv/da/no F4 contingent on national colour tokens [NSR]; de/es/pt/fr/fi confirmed |
 | cloze | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 5 | 6 | 6 | 65 | CONFIRMED (final 2026-09-21): da F3 plural gap REFUSED (the `singular-plural` head "Ental og flertal" owns the only honest da title); nl re-targets the base head ("Zin bij het plaatje" / "zinnen aanvullen"), no row lost |
 | odd-and-even | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | CONFIRMED (final 2026-09-21): no refusal; F5 = count pictures in pairs (11-18) on lanes, PARAM-999 recorded as a spare; the OA strand row renders pt/sv/nl wrongly → per-locale strand literal from the design table |

@@ -53,7 +53,7 @@
    "no": 6,
    "fi": 6
   },
-  "weather": {
+  "weather-symbols": {
    "en": 6,
    "de": 6,
    "es": 6,
@@ -185,7 +185,7 @@
    "no": 6,
    "fi": 6
   },
-  "weather": {
+  "weather-symbols": {
    "en": 6,
    "de": 6,
    "es": 6,
@@ -281,7 +281,7 @@
   "tangram": "CONFIRMED (final 2026-09-21): wordless, no refusals; \"with answers\" tail = a known loss (no answer key on printables)",
   "human-body": "CONFIRMED (final 2026-09-21): no face refused; per-WORD refusals only (fr `eye` on F3, es/pt/it `toe` on F3); contingency fr `œ` glyph check",
   "five-senses": "CONFIRMED (final 2026-09-21): no face refused; the de/fr/es/pt/it \"I can …\" starter frame rewritten (bare present) not refused; 45-item bank (38 strong + 7 signed)",
-  "weather": "CONFIRMED (final 2026-09-21): no refusal; contingency = a base word wider than 226 px would drop that locale to 5 (expected 0; the validator measures)",
+  "weather-symbols": "CONFIRMED (final 2026-09-21): no refusal; contingency = a base word wider than 226 px would drop that locale to 5 (expected 0; the validator measures)",
   "recycling": "CONFIRMED (final 2026-09-21): en F4 colour-the-bins REFUSED (no national colour convention; a classroom key = K-241); it/nl/sv/da/no F4 contingent on national colour tokens [NSR]; de/es/pt/fr/fi confirmed",
   "cloze": "CONFIRMED (final 2026-09-21): da F3 plural gap REFUSED (the `singular-plural` head \"Ental og flertal\" owns the only honest da title); nl re-targets the base head (\"Zin bij het plaatje\" / \"zinnen aanvullen\"), no row lost",
   "odd-and-even": "CONFIRMED (final 2026-09-21): no refusal; F5 = count pictures in pairs (11-18) on lanes, PARAM-999 recorded as a spare; the OA strand row renders pt/sv/nl wrongly → per-locale strand literal from the design table",

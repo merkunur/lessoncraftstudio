@@ -85,7 +85,7 @@ Rows = faces with a landing per (key × locale) at design time; "contingent" = l
 | human-body | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | CONFIRMED (final 2026-09-21): no face refused; per-WORD refusals only (fr `eye` on F3, es/pt/it `toe` on F3); contingency fr `œ` glyph check |
 | five-senses | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | CONFIRMED (final 2026-09-21): no face refused; the de/fr/es/pt/it "I can …" starter frame rewritten (bare present) not refused; 45-item bank (38 strong + 7 signed) |
 | weather | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | CONFIRMED (final 2026-09-21): no refusal; contingency = a base word wider than 226 px would drop that locale to 5 (expected 0; the validator measures) |
-| recycling | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | (to be confirmed) |
+| recycling | 5 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 65 (floor 60) | CONFIRMED (final 2026-09-21): en F4 colour-the-bins REFUSED (no national colour convention; a classroom key = K-241); it/nl/sv/da/no F4 contingent on national colour tokens [NSR]; de/es/pt/fr/fi confirmed |
 | cloze | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | (to be confirmed) |
 | odd-and-even | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | (to be confirmed) |
 | pronouns | 6 | 6 | 5 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 5 | 64 | possessives refused es (`su` invariant) + fi (`hänen`) |

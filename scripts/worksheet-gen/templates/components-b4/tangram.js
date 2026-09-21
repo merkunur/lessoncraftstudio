@@ -18,15 +18,20 @@
  *   composeCard({ mini, S, Sg })          (F1) glyph strip of tanGlyph(cls, Sg) in the fixed
  *                                          class order L M S Q P over the outline (WHITE fill)
  *   shadowCard({ figure, S })             (F2) one `silhouette` (the caller sets the card padding)
- *   missingCard({ figure, missing, S, chips })
- *                                          (F3) the figure in `hole` mode left, an `.ws-achip`
- *                                          column right: chips = [{cls, flip, correct}] drawn TRUE-SIZE
- *                                          by tanChip (box 104 x (glyph h + 12, min 44));
+ *   missingCard({ figure, missing, S, chips, chipW, pad, chipPad })
+ *                                          (F3) the figure in `hole` mode left (root pad `pad`,
+ *                                          1.5 on the face so the 128-scale tree clears the 186 px
+ *                                          zone), an `.ws-achip` column right: chips = [{cls, flip,
+ *                                          correct}] drawn TRUE-SIZE by tanChip; box chipW x
+ *                                          (svg h + chipPad, min 44) — the chip svg carries a 2 px
+ *                                          pad each side, so chipPad 8 = the design's "glyph h + 12"
+ *                                          on the GEOMETRIC height (M/Q 58, S/P 44 at S 128);
  *                                          data-lcs-chip / data-lcs-flip; data-lcs-correct only when
  *                                          the caller stamps it
- *   matchRow({ figure, S, candidates, box })
- *                                          (F4) [cream box 160: the shadow][10][white box 160 x 3:
- *                                          the solutions]; candidates = [{tans, t, correct}]
+ *   matchRow({ figure, S, candidates, box, gap })
+ *                                          (F4) [cream box: the shadow][gap][white box x N: the
+ *                                          solutions] (box 162 / gap 9 on the face: 4 x 162 + 3 x 9
+ *                                          = 675); candidates = [{tans, t, correct}]
  *   countCard({ sub, S, boxW, boxH })     (F5) the sub-figure in `solution` mode over the answer
  *                                          row [tri glyph 22][6][answerBox 64x50][16][sq glyph
  *                                          22][6][answerBox 64x50] = 200; the glyphs are DRAWN
@@ -75,17 +80,17 @@ function shadowCard({ figure, S, transform }) {
   const sil = TG.tangramFigure({ figure: figure.key, tans: figure.tans, S, mode: 'silhouette', transform });
   return `<div class="ws-card-stage" data-lcs-shadow style="padding:0">${sil.html}</div>`;
 }
-function missingCard({ figure, missing, S, chips, chipW = 104, transform }) {
-  const fig = TG.tangramFigure({ figure: figure.key, tans: figure.tans, S, mode: 'hole', missing, transform });
+function missingCard({ figure, missing, S, chips, chipW = 104, transform, pad, chipPad = 12 }) {
+  const fig = TG.tangramFigure({ figure: figure.key, tans: figure.tans, S, mode: 'hole', missing, transform, pad });
   const col = chips.map((c) => {
     const chip = TG.tanChip(c.cls, S, { flip: c.flip });
-    const hgt = Math.max(44, chip.height + 12);
+    const hgt = Math.max(44, chip.height + chipPad);
     return `<span class="ws-achip" data-lcs-chip="${esc(c.cls)}"${c.flip ? ' data-lcs-flip="1"' : ''}${c.correct ? ' data-lcs-correct="1"' : ''} style="width:${chipW}px;height:${hgt}px;border-radius:14px">${chip.html}</span>`;
   });
   return `<div class="ws-card-stage" data-lcs-missing-card style="gap:12px;padding:0;align-items:center">${fig.html}` +
     `<div data-lcs-chip-col style="display:flex;flex-direction:column;gap:8px;width:${chipW}px;flex:0 0 auto">${col.join('')}</div></div>`;
 }
-function matchRow({ figure, S, candidates, box = 160, transform }) {
+function matchRow({ figure, S, candidates, box = 160, gap = 10, transform }) {
   const target = TG.tangramFigure({ figure: figure.key, tans: figure.tans, S, mode: 'silhouette', transform, stroke: 3, pad: 1.5 });
   const cell = (inner, cls, extra) => `<div ${extra} style="width:${box}px;height:${box}px;flex:0 0 auto;display:flex;align-items:center;justify-content:center;border-radius:14px;${cls}">${inner}</div>`;
   const shadow = cell(target.html, `background:${T.cream};border:2px solid ${T.creamDeep}`, 'data-lcs-target');
@@ -93,7 +98,7 @@ function matchRow({ figure, S, candidates, box = 160, transform }) {
     const d = TG.tangramFigure({ figure: figure.key, tans: c.tans, S, mode: 'solution', transform: c.t, stroke: 3, pad: 1.5 });
     return cell(d.html, `background:${T.white};border:2.5px solid ${T.teal}`, `data-lcs-candidate="${i}" data-lcs-t="${esc(c.t)}"${c.correct ? ' data-lcs-correct="1"' : ''}`);
   });
-  return `<div data-lcs-match-row data-lcs-figure="${esc(figure.key)}"${transform ? ` data-lcs-transform="${esc(transform)}"` : ''} style="display:flex;align-items:center;justify-content:center;gap:10px;flex:0 0 auto">${shadow}${opts.join('')}</div>`;
+  return `<div data-lcs-match-row data-lcs-figure="${esc(figure.key)}"${transform ? ` data-lcs-transform="${esc(transform)}"` : ''} style="display:flex;align-items:center;justify-content:center;gap:${gap}px;flex:0 0 auto">${shadow}${opts.join('')}</div>`;
 }
 function countCard({ sub, S, boxW = 64, boxH = 50, transform }) {
   const fig = TG.tangramFigure({ figure: sub.key, tans: sub.tans, S, mode: 'solution', transform, data: { 'data-lcs-sub': sub.key } });

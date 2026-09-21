@@ -123,7 +123,7 @@ if (bases.length !== 10 || faces.length !== 50) throw new Error(`expected 20 bas
 for (const loc of LOCALES) {
   const mb = measure(bases, loc), mf = measure(faces, loc);
   const wb = writeWave('wave-b4-' + loc, loc, mb), wf = writeWave('wave-b4var-' + loc, loc, mf);
-  console.log(`${loc}: base ${wb.n}/20 (${wb.refused} refused, ${wb.themes} themes) · faces ${wf.n}/100 (${wf.refused} refused, ${wf.themes} themes)${DRY ? '  [dry-run]' : ''}`);
+  console.log(`${loc}: base ${wb.n}/10 (${wb.refused} refused, ${wb.themes} themes) · faces ${wf.n}/50 (${wf.refused} refused, ${wf.themes} themes)${DRY ? '  [dry-run]' : ''}`);
   for (const [id, why] of Object.entries({ ...mb.refused, ...mf.refused })) console.log('   refused ' + id + ': ' + why);
 }}
 

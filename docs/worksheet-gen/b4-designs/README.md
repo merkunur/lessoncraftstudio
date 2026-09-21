@@ -88,7 +88,7 @@ Rows = faces with a landing per (key × locale) at design time; "contingent" = l
 | recycling | 5 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 65 (floor 60) | CONFIRMED (final 2026-09-21): en F4 colour-the-bins REFUSED (no national colour convention; a classroom key = K-241); it/nl/sv/da/no F4 contingent on national colour tokens [NSR]; de/es/pt/fr/fi confirmed |
 | cloze | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 5 | 6 | 6 | 65 | CONFIRMED (final 2026-09-21): da F3 plural gap REFUSED (the `singular-plural` head "Ental og flertal" owns the only honest da title); nl re-targets the base head ("Zin bij het plaatje" / "zinnen aanvullen"), no row lost |
 | odd-and-even | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | CONFIRMED (final 2026-09-21): no refusal; F5 = count pictures in pairs (11-18) on lanes, PARAM-999 recorded as a spare; the OA strand row renders pt/sv/nl wrongly → per-locale strand literal from the design table |
-| pronouns | 6 | 6 | 5 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 5 | 64 | possessives refused es (`su` invariant) + fi (`hänen`) |
+| pronouns | 6 | 6 | 5 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 5 | 64 | CONFIRMED (final 2026-09-21): possessives refused es (`su` invariant) + fi (`hänen`/suffix); fr/es/pt base + pt F3 need `singles:4, pairs:4`; fi bank 16 names; validator caps fi base/F1 titles at 3 lines |
 | question-words | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | (to be confirmed) |
 | rounding | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | (to be confirmed) |
 | **design total** | | | | | | | | | | | | **658 (ceiling 660)** | provisional until every final file's §7 is folded in |

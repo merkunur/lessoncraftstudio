@@ -1,0 +1,2750 @@
+{
+ "locale": "de",
+ "market": {
+  "hl": "de",
+  "gl": "de"
+ },
+ "generatedAt": "2026-09-21T00:19:12.309Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds.json",
+ "requestCount": 182,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cloze": {
+   "heads": [
+    "lückentext",
+    "lückentexte"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 84,
+   "suggestions": [
+    "auge lückentext arbeitsblatt",
+    "deutsch arbeitsblatt lückentext",
+    "englische lückentexte zum ausdrucken",
+    "fotosynthese lückentext arbeitsblatt",
+    "lustige lückentexte zum ausdrucken",
+    "lustige lückentexte zum ausdrucken hochzeit",
+    "lückentext",
+    "lückentext 1 klasse volksschule",
+    "lückentext 10 klasse",
+    "lückentext 2 klasse deutsch",
+    "lückentext 2 klasse volksschule",
+    "lückentext 2. klasse pdf",
+    "lückentext 3 klasse arbeitsblätter",
+    "lückentext 3 klasse deutsch",
+    "lückentext 3 klasse deutsch kostenlos",
+    "lückentext 3 klasse deutsch pdf",
+    "lückentext 3 klasse volksschule",
+    "lückentext a2 deutsch pdf",
+    "lückentext adjektive 2 klasse",
+    "lückentext arbeitsblatt",
+    "lückentext arbeitsblatt erstellen",
+    "lückentext deutsch",
+    "lückentext deutsch 1 klasse",
+    "lückentext deutsch 10 klasse",
+    "lückentext deutsch 2 klasse kostenlos",
+    "lückentext deutsch zum ausdrucken",
+    "lückentext diktat 2 klasse",
+    "lückentext englisch",
+    "lückentext englisch 1 klasse gymnasium",
+    "lückentext englisch 10 klasse realschule",
+    "lückentext englisch 5 klasse zum ausdrucken",
+    "lückentext englisch arbeitsblatt",
+    "lückentext englisch klasse 10",
+    "lückentext englisch klasse 10 pdf",
+    "lückentext englisch klasse 3",
+    "lückentext erstellen",
+    "lückentext erstellen zum ausdrucken",
+    "lückentext für senioren zum ausdrucken",
+    "lückentext grundschule",
+    "lückentext grundschule 2 klasse",
+    "lückentext grundschule 3. klasse",
+    "lückentext grundschule 4 klasse",
+    "lückentext grundschule kostenlos",
+    "lückentext grundschule pdf",
+    "lückentext herbst grundschule",
+    "lückentext klasse 1",
+    "lückentext klasse 2",
+    "lückentext klasse 3",
+    "lückentext klasse 3 pdf",
+    "lückentext märchen zum ausdrucken",
+    "lückentext nationalhymne grundschule",
+    "lückentext nomen 2. klasse",
+    "lückentext personenbeschreibung grundschule",
+    "lückentext pronomen 3 klasse",
+    "lückentext rechtschreibung klasse 3",
+    "lückentext rätsel",
+    "lückentext verben 2 klasse",
+    "lückentext wasserkreislauf grundschule",
+    "lückentext zum ausdrucken",
+    "lückentext zum ausdrucken kostenlos",
+    "lückentexte",
+    "lückentexte 2 klasse deutsch",
+    "lückentexte deutsch",
+    "lückentexte deutsch 4 klasse zum ausdrucken",
+    "lückentexte erstellen",
+    "lückentexte für erwachsene",
+    "lückentexte für kinder zum ausdrucken",
+    "lückentexte für senioren",
+    "lückentexte für senioren zum ausdrucken",
+    "lückentexte für senioren zum ausdrucken kostenlos",
+    "lückentexte grundschule",
+    "lückentexte grundschule 3 klasse",
+    "lückentexte grundschule pdf",
+    "lückentexte klasse 1",
+    "lückentexte klasse 2",
+    "lückentexte klasse 3",
+    "lückentexte zum ausdrucken",
+    "lückentexte zum ausdrucken deutsch 2 klasse",
+    "lückentexte zum ausdrucken kostenlos",
+    "lückentexte übungen",
+    "lückentextsuche",
+    "lückentextsuche kreuzworträtsel",
+    "simple present lückentext arbeitsblatt",
+    "wasserkreislauf arbeitsblatt lückentext"
+   ]
+  },
+  "dominoes": {
+   "heads": [
+    "domino vorlage",
+    "domino"
+   ],
+   "requests": 14,
+   "productiveSeeds": 9,
+   "unique": 51,
+   "suggestions": [
+    "1x1 domino zum ausdrucken kostenlos",
+    "anlaut domino klasse 1",
+    "anlaut domino zum ausdrucken",
+    "domino",
+    "domino 1 klasse deutsch",
+    "domino arbeitsblatt",
+    "domino basteln klasse 1",
+    "domino eis",
+    "domino englisch grundschule",
+    "domino geld grundschule",
+    "domino geld klasse 1",
+    "domino gewichte grundschule",
+    "domino grundschule",
+    "domino grundschule deutsch",
+    "domino klasse 1",
+    "domino klasse 2",
+    "domino längen grundschule",
+    "domino pizza",
+    "domino spiel",
+    "domino spielregeln",
+    "domino spielregeln zum ausdrucken",
+    "domino vorlage",
+    "domino vorlage blanko",
+    "domino vorlage canva",
+    "domino vorlage kostenlos",
+    "domino vorlage leer",
+    "domino vorlage pdf",
+    "domino vorlage word",
+    "domino vorlage worksheet crafter",
+    "domino vorlage zum ausdrucken",
+    "domino vorlage zum ausdrucken pdf",
+    "domino zum ausdrucken",
+    "domino zum ausdrucken kinder",
+    "domino's pizza speisekarte",
+    "domino's speisekarte zum ausdrucken",
+    "dominos",
+    "dominos coupon",
+    "dominos gutschein",
+    "dominos pizza",
+    "einmaleins domino zum ausdrucken",
+    "geld domino klasse 2",
+    "herbst domino grundschule",
+    "lesedomino klasse 1",
+    "lesedomino klasse 2",
+    "mathe domino klasse 1",
+    "mathe domino klasse 2",
+    "mathe domino klasse 3",
+    "mathe domino zum ausdrucken",
+    "verben domino grundschule",
+    "wetter domino grundschule",
+    "wörter domino grundschule"
+   ]
+  },
+  "human-body": {
+   "heads": [
+    "körperteile",
+    "der körper"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 88,
+   "suggestions": [
+    "arbeitsblatt körperteile klasse 2",
+    "bildkarten körperteile zum ausdrucken",
+    "bildkarten körperteile zum ausdrucken kostenlos",
+    "bildkarten körperteile zum ausdrucken pdf",
+    "der körper",
+    "der körper arbeitsblatt",
+    "der körper arbeitsblatt daf",
+    "der körper arbeitsblatt grundschule",
+    "der körper des menschen",
+    "der körper des menschen thieme",
+    "der körper einer frau",
+    "der körper grundschule",
+    "der körper grundschule 1 klasse",
+    "der körper grundschule 4 klasse",
+    "der körper grundschule arbeitsblätter",
+    "der körper klasse 1",
+    "der körper klasse 2",
+    "der körper klasse 3",
+    "der körper meines feindes",
+    "der körper ohne kopf und glieder",
+    "der körper ohne kopf und glieder kreuzworträtsel",
+    "der körper organe",
+    "der körper sachunterricht grundschule",
+    "der körperteil",
+    "der körperteil blues",
+    "der menschliche körper arbeitsblatt",
+    "der menschliche körper arbeitsblatt daf",
+    "der menschliche körper bilder zum ausdrucken",
+    "der menschliche körper grundschule",
+    "der menschliche körper grundschule film",
+    "der menschliche körper grundschule klasse 3",
+    "der menschliche körper grundschule material",
+    "der menschliche körper grundschule video",
+    "der menschliche körper klasse 1",
+    "der menschliche körper klasse 2",
+    "der menschliche körper klasse 3",
+    "englisch vokabeln körperteile 3 klasse",
+    "igel körperteile klasse 1",
+    "körperteile",
+    "körperteile 1 klasse grundschule",
+    "körperteile arbeitsblatt",
+    "körperteile arbeitsblatt a1",
+    "körperteile arbeitsblatt daf",
+    "körperteile arbeitsblatt daz",
+    "körperteile arbeitsblatt deutsch als fremdsprache",
+    "körperteile arbeitsblatt grundschule",
+    "körperteile arbeitsblatt kindergarten",
+    "körperteile arbeitsblatt klasse 1",
+    "körperteile arbeitsblatt kostenlos",
+    "körperteile arbeitsblatt pdf",
+    "körperteile arbeitsblatt pdf kostenlos",
+    "körperteile auf englisch",
+    "körperteile auf französisch",
+    "körperteile bilder zum ausdrucken",
+    "körperteile blues",
+    "körperteile deutsch",
+    "körperteile englisch 1 klasse",
+    "körperteile englisch klasse 3",
+    "körperteile grundschule",
+    "körperteile grundschule arbeitsblätter",
+    "körperteile grundschule daz",
+    "körperteile grundschule englisch",
+    "körperteile grundschule film",
+    "körperteile grundschule klasse 1",
+    "körperteile grundschule klasse 2",
+    "körperteile grundschule klasse 3",
+    "körperteile grundschule video",
+    "körperteile hund 2. klasse",
+    "körperteile hund grundschule",
+    "körperteile karten zum ausdrucken",
+    "körperteile klasse 1",
+    "körperteile klasse 2",
+    "körperteile klasse 3",
+    "körperteile mathe 3 klasse",
+    "körperteile memory zum ausdrucken",
+    "körperteile memory zum ausdrucken kostenlos",
+    "körperteile mensch",
+    "körperteile mit c",
+    "körperteile pferd",
+    "körperteile puzzle zum ausdrucken",
+    "körperteile rätsel",
+    "körperteile sachunterricht 1 klasse",
+    "körperteile sachunterricht klasse 2",
+    "körperteile sachunterricht klasse 3",
+    "körperteile spanisch",
+    "körperteile zum ausdrucken",
+    "körperteile zum ausdrucken kostenlos",
+    "wordwall körperteile 1 klasse"
+   ]
+  },
+  "five-senses": {
+   "heads": [
+    "die fünf sinne",
+    "sinnesorgane"
+   ],
+   "requests": 14,
+   "productiveSeeds": 13,
+   "unique": 57,
+   "suggestions": [
+    "5 sinnesorgane grundschule",
+    "arbeit sinnesorgane klasse 3",
+    "arbeitsblatt sinnesorgane grundschule",
+    "arbeitsblatt sinnesorgane klasse 2",
+    "arbeitsblatt sinnesorgane klasse 3",
+    "arbeitsblatt sinnesorgane klasse 5",
+    "bilder sinnesorgane zum ausdrucken",
+    "die fünf sinne",
+    "die fünf sinne 3 klasse",
+    "die fünf sinne arbeitsblatt",
+    "die fünf sinne des menschen",
+    "die fünf sinne des menschen grundschule",
+    "die fünf sinne fingerspiel",
+    "die fünf sinne für kinder erklärt",
+    "die fünf sinne grundschule",
+    "die fünf sinne klasse 1",
+    "die fünf sinne klasse 2",
+    "die fünf sinne lied",
+    "die fünf sinne lied text",
+    "die fünf sinne text pdf",
+    "die fünf sinne unterrichtsmaterial",
+    "die fünf sinne video grundschule",
+    "die fünf sinnesorgane",
+    "klassenarbeit sinnesorgane 2 klasse",
+    "klassenarbeit sinnesorgane klasse 3",
+    "sachkunde sinnesorgane 3 klasse",
+    "sinnesorgane",
+    "sinnesorgane 4 buchstaben",
+    "sinnesorgane arbeitsblatt",
+    "sinnesorgane arbeitsblatt pdf",
+    "sinnesorgane bilder",
+    "sinnesorgane fachbegriffe",
+    "sinnesorgane film grundschule",
+    "sinnesorgane grundschule",
+    "sinnesorgane grundschule arbeitsblätter",
+    "sinnesorgane grundschule klasse 2",
+    "sinnesorgane grundschule klasse 3",
+    "sinnesorgane grundschule video",
+    "sinnesorgane hai",
+    "sinnesorgane hund",
+    "sinnesorgane hund arbeitsblatt",
+    "sinnesorgane insekten",
+    "sinnesorgane insekten arbeitsblatt",
+    "sinnesorgane katze",
+    "sinnesorgane katze arbeitsblatt",
+    "sinnesorgane klasse 1",
+    "sinnesorgane klasse 2",
+    "sinnesorgane klasse 3",
+    "sinnesorgane kreuzworträtsel",
+    "sinnesorgane mensch",
+    "sinnesorgane mensch arbeitsblatt",
+    "sinnesorgane mensch grundschule",
+    "sinnesorgane schützen grundschule",
+    "sinnesorgane zum ausdrucken",
+    "test sinnesorgane klasse 2",
+    "test sinnesorgane klasse 3",
+    "unsere sinnesorgane grundschule"
+   ]
+  },
+  "weather": {
+   "heads": [
+    "wetter",
+    "wettersymbole"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 95,
+   "suggestions": [
+    "arbeitsblatt wetter klasse 2",
+    "arbeitsblatt wettersymbole grundschule",
+    "bildkarten wetter kostenlos zum ausdrucken",
+    "bildkarten wetter zum ausdrucken",
+    "deckblatt wetter zum ausdrucken",
+    "eduki wetter klasse 1",
+    "eduki wetter klasse 2",
+    "einführung wetter klasse 1",
+    "klassenarbeit wetter klasse 2",
+    "sachkunde wetter klasse 2",
+    "sachunterricht wettersymbole grundschule",
+    "thema wetter klasse 1",
+    "wetter",
+    "wetter 1 klasse grundschule",
+    "wetter 2 klasse grundschule",
+    "wetter 3 klasse arbeitsblätter",
+    "wetter arbeitsblatt",
+    "wetter arbeitsblatt 1 klasse",
+    "wetter arbeitsblatt 3 klasse",
+    "wetter arbeitsblatt daf",
+    "wetter arbeitsblatt daf pdf",
+    "wetter arbeitsblatt daz",
+    "wetter arbeitsblatt grundschule",
+    "wetter arbeitsblatt kindergarten",
+    "wetter arbeitsblatt pdf",
+    "wetter arbeitsblatt pdf kostenlos",
+    "wetter beobachten klasse 1",
+    "wetter beobachten klasse 2",
+    "wetter bilder zum ausdrucken",
+    "wetter grundschule",
+    "wetter grundschule einstieg",
+    "wetter grundschule englisch",
+    "wetter grundschule film",
+    "wetter grundschule frau locke",
+    "wetter grundschule ideenreise",
+    "wetter grundschule klasse 1",
+    "wetter grundschule klasse 3",
+    "wetter grundschule materialwiese",
+    "wetter grundschule sachunterricht",
+    "wetter göteborg",
+    "wetter hamburg",
+    "wetter klasse 1",
+    "wetter klasse 1 arbeitsblatt",
+    "wetter klasse 1 und 2",
+    "wetter klasse 1 video",
+    "wetter klasse 2",
+    "wetter klasse 2 einführung",
+    "wetter klasse 2 sachunterricht",
+    "wetter klasse 2 test",
+    "wetter klasse 3",
+    "wetter klasse 3 eduki",
+    "wetter klasse 3 einstieg",
+    "wetter klasse 3 grundschule",
+    "wetter klasse 3 grundschulkönig",
+    "wetter klasse 3 klassenarbeit",
+    "wetter klasse 3 pdf",
+    "wetter klasse 3 sachunterricht",
+    "wetter klasse 3 test",
+    "wetter kopenhagen",
+    "wetter malmö",
+    "wetter mandala zum ausdrucken",
+    "wetter memory zum ausdrucken",
+    "wetter morgen",
+    "wetter quiz zum ausdrucken",
+    "wetter sachunterricht klasse 1",
+    "wetter schweden",
+    "wetter stockholm",
+    "wetter symbole zum ausdrucken",
+    "wetter vimmerby",
+    "wetter zum ausdrucken",
+    "wetteronline",
+    "wettersymbole",
+    "wettersymbole arbeitsblatt",
+    "wettersymbole bedeutung",
+    "wettersymbole clipart",
+    "wettersymbole dwd",
+    "wettersymbole grundschule",
+    "wettersymbole grundschule arbeitsblatt",
+    "wettersymbole grundschule arbeitsblatt arbeitsblätter sachkunde klasse 3 wetter kostenlos",
+    "wettersymbole grundschule klasse 2",
+    "wettersymbole grundschule klasse 3",
+    "wettersymbole grundschule pdf",
+    "wettersymbole grundschule wind",
+    "wettersymbole grundschule zum ausdrucken",
+    "wettersymbole handy",
+    "wettersymbole kinder zum ausdrucken",
+    "wettersymbole klasse 1",
+    "wettersymbole klasse 2",
+    "wettersymbole klasse 3",
+    "wettersymbole nebel",
+    "wettersymbole niederschlag",
+    "wettersymbole wind",
+    "wettersymbole wind grundschule",
+    "wettersymbole zum ausdrucken",
+    "wettersymbole zum ausdrucken kostenlos"
+   ]
+  },
+  "tangram": {
+   "heads": [
+    "tangram",
+    "tangram vorlage"
+   ],
+   "requests": 14,
+   "productiveSeeds": 10,
+   "unique": 49,
+   "suggestions": [
+    "einfache tangram 1 klasse",
+    "tangram",
+    "tangram arbeitsblatt",
+    "tangram arbeitsblatt grundschule",
+    "tangram bilder zum ausdrucken",
+    "tangram bubendorf",
+    "tangram figuren",
+    "tangram figuren grundschule",
+    "tangram figuren zum ausdrucken",
+    "tangram formen 2 klasse",
+    "tangram grundschule",
+    "tangram grundschule 4 klasse",
+    "tangram grundschule arbeitsblätter",
+    "tangram grundschule klasse 1",
+    "tangram grundschule klasse 2",
+    "tangram grundschule klasse 3",
+    "tangram grundschule literatur",
+    "tangram grundschule mathematik",
+    "tangram grundschule unterrichtsentwurf",
+    "tangram karten zum ausdrucken",
+    "tangram klasse 1",
+    "tangram klasse 1 / 2",
+    "tangram klasse 1 ub",
+    "tangram klasse 2",
+    "tangram klasse 3",
+    "tangram lösungen",
+    "tangram mathe klasse 2",
+    "tangram online",
+    "tangram puzzle",
+    "tangram spiel",
+    "tangram spiel zum ausdrucken",
+    "tangram unterrichtsreihe klasse 1",
+    "tangram vorlage",
+    "tangram vorlage einfach",
+    "tangram vorlage grundschule",
+    "tangram vorlage kinder",
+    "tangram vorlage pdf",
+    "tangram vorlage zum ausdrucken",
+    "tangram vorlage zum ausdrucken pdf",
+    "tangram vorlagen kostenlos",
+    "tangram vorlagen mit lösungen kostenlos",
+    "tangram vorlagen originalgröße",
+    "tangram vorlagen tiere",
+    "tangram vorlagen zum ausdrucken",
+    "tangram zum ausdrucken",
+    "tangram zum ausdrucken kostenlos",
+    "tangram-figuren mit lösungen",
+    "unterrichtsentwurf tangram 1 klasse",
+    "unterrichtsentwurf tangram 2 klasse"
+   ]
+  },
+  "recycling": {
+   "heads": [
+    "mülltrennung",
+    "müll trennen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 13,
+   "unique": 67,
+   "suggestions": [
+    "arbeitsblatt mülltrennung 1 klasse kostenlos",
+    "arbeitsblatt mülltrennung 2 klasse",
+    "arbeitsblatt mülltrennung 2 klasse kostenlos",
+    "arbeitsblatt mülltrennung 3 klasse",
+    "arbeitsblatt mülltrennung 6 klasse",
+    "aufkleber mülltrennung zum ausdrucken",
+    "eduki mülltrennung klasse 1",
+    "müll richtig trennen arbeitsblatt",
+    "müll richtig trennen grundschule",
+    "müll richtig trennen mülltrennung übersicht zum ausdrucken",
+    "müll trennen",
+    "müll trennen arbeitsblatt",
+    "müll trennen bilder",
+    "müll trennen englisch",
+    "müll trennen grundschule",
+    "müll trennen grundschule video",
+    "müll trennen in schweden",
+    "müll trennen italien",
+    "müll trennen italienisch",
+    "müll trennen klasse 2",
+    "müll trennen kroatien",
+    "müll trennen richtig",
+    "müll trennen österreich",
+    "mülltrennung",
+    "mülltrennung 1 klasse grundschule",
+    "mülltrennung arbeitsblatt",
+    "mülltrennung arbeitsblatt 1 klasse",
+    "mülltrennung arbeitsblatt grundschule",
+    "mülltrennung arbeitsblatt kinder",
+    "mülltrennung arbeitsblatt kindergarten",
+    "mülltrennung arbeitsblatt klett",
+    "mülltrennung arbeitsblatt kostenlos",
+    "mülltrennung arbeitsblatt pdf",
+    "mülltrennung bilder zum ausdrucken",
+    "mülltrennung bilder zum ausdrucken kostenlos",
+    "mülltrennung dänemark",
+    "mülltrennung englisch",
+    "mülltrennung grundschule",
+    "mülltrennung grundschule 4 klasse",
+    "mülltrennung grundschule arbeitsblatt",
+    "mülltrennung grundschule film",
+    "mülltrennung grundschule klasse 1",
+    "mülltrennung grundschule klasse 2",
+    "mülltrennung grundschule klasse 3",
+    "mülltrennung grundschule material",
+    "mülltrennung grundschule pdf",
+    "mülltrennung grundschule schilder",
+    "mülltrennung grundschule video",
+    "mülltrennung klasse 1",
+    "mülltrennung klasse 1 arbeitsblatt",
+    "mülltrennung klasse 2",
+    "mülltrennung klasse 3",
+    "mülltrennung sachunterricht 1 klasse",
+    "mülltrennung schilder zum ausdrucken kostenlos",
+    "mülltrennung schweden",
+    "mülltrennung schweden farben",
+    "mülltrennung schweden ferienhaus",
+    "mülltrennung schweden grüne tonne",
+    "mülltrennung schweden plastik",
+    "mülltrennung schweden tetrapack",
+    "mülltrennung stockholm",
+    "mülltrennung symbole zum ausdrucken kostenlos",
+    "mülltrennung zum ausdrucken",
+    "mülltrennung zum ausdrucken kostenlos",
+    "mülltrennung zum ausdrucken pdf",
+    "mülltrennung übersicht zum ausdrucken",
+    "schilder mülltrennung zum ausdrucken"
+   ]
+  },
+  "odd-and-even": {
+   "heads": [
+    "gerade und ungerade zahlen",
+    "gerade ungerade"
+   ],
+   "requests": 14,
+   "productiveSeeds": 12,
+   "unique": 50,
+   "suggestions": [
+    "arbeitsblatt gerade ungerade zahlen bis 100",
+    "arbeitsblatt gerade ungerade zahlen klasse 1",
+    "arbeitsblatt gerade ungerade zahlen klasse 2",
+    "erklärung gerade und ungerade zahlen grundschule",
+    "erklärvideo gerade und ungerade zahlen klasse 1",
+    "frau locke gerade und ungerade zahlen klasse 1",
+    "gerade und ungerade zahlen",
+    "gerade und ungerade zahlen 3 klasse",
+    "gerade und ungerade zahlen arbeitsblatt",
+    "gerade und ungerade zahlen arbeitsblatt klasse 1",
+    "gerade und ungerade zahlen autobahn",
+    "gerade und ungerade zahlen bis 20",
+    "gerade und ungerade zahlen bis 20 arbeitsblatt",
+    "gerade und ungerade zahlen englisch",
+    "gerade und ungerade zahlen erklären",
+    "gerade und ungerade zahlen erklären 1 klasse",
+    "gerade und ungerade zahlen frau locke",
+    "gerade und ungerade zahlen grundschule",
+    "gerade und ungerade zahlen grundschule 2 klasse",
+    "gerade und ungerade zahlen grundschule arbeitsblätter",
+    "gerade und ungerade zahlen grundschule einführung",
+    "gerade und ungerade zahlen grundschule klasse 1",
+    "gerade und ungerade zahlen klasse 1",
+    "gerade und ungerade zahlen klasse 1 arbeitsblätter",
+    "gerade und ungerade zahlen klasse 1 einführung",
+    "gerade und ungerade zahlen klasse 1 pikas",
+    "gerade und ungerade zahlen klasse 2",
+    "gerade und ungerade zahlen klasse 2 arbeitsblätter",
+    "gerade und ungerade zahlen pikas",
+    "gerade ungerade",
+    "gerade ungerade arbeitsblatt",
+    "gerade ungerade englisch",
+    "gerade ungerade funktion",
+    "gerade ungerade grundschule",
+    "gerade ungerade kalenderwoche",
+    "gerade ungerade klasse 1",
+    "gerade ungerade klasse 2",
+    "gerade ungerade tipico",
+    "gerade ungerade woche",
+    "gerade ungerade woche 2026",
+    "gerade ungerade woche 2027",
+    "gerade ungerade zahlen",
+    "gerade ungerade zahlen arbeitsblatt",
+    "gerade ungerade zahlen erklären grundschule",
+    "gerade ungerade zahlen grundschule",
+    "gerade ungerade zahlen grundschule arbeitsblatt",
+    "gerade ungerade zahlen grundschule klasse 1",
+    "gerade ungerade zahlen klasse 1",
+    "gerade ungerade zahlen klasse 2",
+    "video gerade und ungerade zahlen grundschule"
+   ]
+  },
+  "rounding": {
+   "heads": [
+    "runden",
+    "zahlen runden"
+   ],
+   "requests": 14,
+   "productiveSeeds": 12,
+   "unique": 67,
+   "suggestions": [
+    "arbeitsblatt runden klasse 5 pdf",
+    "arbeitsblatt runden von dezimalzahlen",
+    "große zahlen runden arbeitsblatt",
+    "grundschule runden auf zehntausender",
+    "grundschule runden von zahlen",
+    "natürliche zahlen runden arbeitsblatt",
+    "runden",
+    "runden 1 klasse mittelschule",
+    "runden 3 klasse arbeitsblätter",
+    "runden 3 klasse arbeitsblätter kostenlos",
+    "runden 3 klasse erklärung",
+    "runden 3 klasse volksschule",
+    "runden 3 klasse übungen",
+    "runden arbeitsblatt",
+    "runden arbeitsblatt 3 klasse",
+    "runden arbeitsblatt grundschule",
+    "runden arbeitsblatt klasse 4",
+    "runden arbeitsblatt klasse 5",
+    "runden arbeitsblatt kostenlos",
+    "runden arbeitsblatt mit lösungen",
+    "runden arbeitsblatt pdf",
+    "runden excel",
+    "runden formel excel",
+    "runden grundschule",
+    "runden grundschule arbeitsblätter",
+    "runden grundschule einführung",
+    "runden grundschule klasse 3",
+    "runden grundschule klasse 4",
+    "runden grundschule mathe",
+    "runden grundschule pdf",
+    "runden grundschule video",
+    "runden klasse 2",
+    "runden klasse 3",
+    "runden klasse 3 einstieg",
+    "runden klasse 3 mathe",
+    "runden klasse 3 pdf",
+    "runden klasse 3 übungen pdf",
+    "runden kuchen in rauten schneiden",
+    "runden mörtelkübel verkleiden",
+    "runden pool verkleiden",
+    "runden von zahlen 1 klasse gymnasium",
+    "rundenbasiertes strategiespiel",
+    "rundenrekord nordschleife",
+    "rundenzeiten nordschleife",
+    "rundenzähler",
+    "zahlen runden",
+    "zahlen runden 2 klasse",
+    "zahlen runden 3 klasse video",
+    "zahlen runden 5 klasse",
+    "zahlen runden arbeitsblatt",
+    "zahlen runden arbeitsblatt 3 klasse",
+    "zahlen runden arbeitsblatt klasse 4",
+    "zahlen runden arbeitsblatt klasse 5",
+    "zahlen runden arbeitsblatt pdf",
+    "zahlen runden aufgaben pdf",
+    "zahlen runden englisch",
+    "zahlen runden excel",
+    "zahlen runden grundschule",
+    "zahlen runden grundschule 3 klasse",
+    "zahlen runden grundschule 4 klasse",
+    "zahlen runden grundschule einführung",
+    "zahlen runden klasse 3",
+    "zahlen runden klasse 3 pdf",
+    "zahlen runden online",
+    "zahlen runden rechner",
+    "zahlen runden übung",
+    "zahlen runden übungen 5 klasse pdf"
+   ]
+  },
+  "pronouns": {
+   "heads": [
+    "pronomen",
+    "personalpronomen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 96,
+   "suggestions": [
+    "arbeitsblatt personalpronomen englisch 5 klasse",
+    "arbeitsblatt pronomen klasse 2",
+    "einführung personalpronomen grundschule",
+    "einführung personalpronomen klasse 2",
+    "personalpronomen",
+    "personalpronomen 1 klasse",
+    "personalpronomen 3 klasse arbeitsblätter kostenlos",
+    "personalpronomen 3 klasse übungen",
+    "personalpronomen 3 klasse übungen kostenlos",
+    "personalpronomen 3 klasse übungsblätter",
+    "personalpronomen 3 klasse übungsblätter pdf",
+    "personalpronomen akkusativ",
+    "personalpronomen arbeitsblatt",
+    "personalpronomen arbeitsblatt 4 klasse",
+    "personalpronomen arbeitsblatt a1",
+    "personalpronomen arbeitsblatt daz",
+    "personalpronomen arbeitsblatt englisch",
+    "personalpronomen arbeitsblatt grundschule",
+    "personalpronomen arbeitsblatt klasse 3",
+    "personalpronomen arbeitsblatt klasse 5",
+    "personalpronomen arbeitsblatt pdf",
+    "personalpronomen dativ",
+    "personalpronomen daz grundschule",
+    "personalpronomen deutsch",
+    "personalpronomen deutsch 2 klasse",
+    "personalpronomen deutsch grundschule",
+    "personalpronomen deutsch klasse 3",
+    "personalpronomen einsetzen 3 klasse",
+    "personalpronomen einsetzen grundschule",
+    "personalpronomen englisch",
+    "personalpronomen englisch grundschule",
+    "personalpronomen englisch übungen zum ausdrucken",
+    "personalpronomen französisch",
+    "personalpronomen grundschule",
+    "personalpronomen grundschule arbeitsblatt",
+    "personalpronomen grundschule erklärt",
+    "personalpronomen grundschule pdf",
+    "personalpronomen grundschule übungen",
+    "personalpronomen italienisch",
+    "personalpronomen klasse 2",
+    "personalpronomen klasse 3",
+    "personalpronomen klasse 3 pdf",
+    "personalpronomen latein",
+    "personalpronomen schwedisch",
+    "personalpronomen spanisch",
+    "personalpronomen test 3 klasse",
+    "personalpronomen zum ausdrucken",
+    "personalpronomen übungen 2 klasse",
+    "pronomen",
+    "pronomen 1 klasse",
+    "pronomen 3 klasse arbeitsblätter kostenlos",
+    "pronomen 3 klasse erklärung",
+    "pronomen 3 klasse test",
+    "pronomen 3 klasse übungsblätter",
+    "pronomen arbeitsblatt",
+    "pronomen arbeitsblatt 5 klasse",
+    "pronomen arbeitsblatt 6 klasse",
+    "pronomen arbeitsblatt 7 klasse",
+    "pronomen arbeitsblatt daz",
+    "pronomen arbeitsblatt grundschule",
+    "pronomen arbeitsblatt klasse 3",
+    "pronomen arbeitsblatt klasse 4",
+    "pronomen arbeitsblatt kostenlos",
+    "pronomen arbeitsblatt pdf",
+    "pronomen bedeutung",
+    "pronomen beispiele",
+    "pronomen deutsch",
+    "pronomen deutsch 2 klasse",
+    "pronomen deutsch übungen zum ausdrucken",
+    "pronomen englisch",
+    "pronomen englisch übungen zum ausdrucken",
+    "pronomen französisch",
+    "pronomen gender",
+    "pronomen grundschule",
+    "pronomen grundschule 3 klasse",
+    "pronomen grundschule arbeitsblätter",
+    "pronomen grundschule einführung",
+    "pronomen grundschule erklärung",
+    "pronomen grundschule klasse 4",
+    "pronomen grundschule material",
+    "pronomen grundschule pdf",
+    "pronomen grundschule übungen",
+    "pronomen grundschule übungen pdf",
+    "pronomen klasse 2",
+    "pronomen klasse 3",
+    "pronomen klasse 3 einführung",
+    "pronomen klasse 3 pdf",
+    "pronomen klasse 3 tafelmaterial",
+    "pronomen klasse 3 übungen",
+    "pronomen klasse 3 übungen pdf",
+    "pronomen liste",
+    "pronomen liste deutsch zum ausdrucken",
+    "pronomen liste zum ausdrucken",
+    "pronomen schwedisch",
+    "pronomen spanisch",
+    "pronomen übungen 2 klasse"
+   ]
+  },
+  "question-words": {
+   "heads": [
+    "fragewörter",
+    "w-fragen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 13,
+   "unique": 64,
+   "suggestions": [
+    "5 w fragen grundschule",
+    "arbeitsblatt fragewörter deutsch",
+    "arbeitsblatt fragewörter englisch",
+    "arbeitsblatt fragewörter englisch 5 klasse",
+    "arbeitsblatt fragewörter französisch",
+    "bericht w fragen arbeitsblatt",
+    "englisch fragewörter übungen zum ausdrucken",
+    "fragewörter",
+    "fragewörter 3 klasse",
+    "fragewörter arbeitsblatt",
+    "fragewörter arbeitsblatt grundschule",
+    "fragewörter arbeitsblatt pdf",
+    "fragewörter deutsch",
+    "fragewörter deutsch grundschule",
+    "fragewörter deutsch klasse 2",
+    "fragewörter einführen grundschultante",
+    "fragewörter englisch",
+    "fragewörter englisch 5 klasse",
+    "fragewörter englisch arbeitsblätter zum ausdrucken",
+    "fragewörter englisch grundschule",
+    "fragewörter englisch übungen 5 klasse pdf",
+    "fragewörter französisch",
+    "fragewörter grundschule",
+    "fragewörter italienisch",
+    "fragewörter klasse 1",
+    "fragewörter klasse 2",
+    "fragewörter mit w",
+    "fragewörter schwedisch",
+    "fragewörter spanisch",
+    "fragewörter spanisch arbeitsblatt",
+    "notruf w fragen grundschule",
+    "w fragen arbeitsblatt a1",
+    "w fragen arbeitsblatt daf",
+    "w fragen arbeitsblatt grundschule",
+    "w fragen arbeitsblatt islcollective",
+    "w fragen arbeitsblatt pdf",
+    "w fragen beantworten grundschule",
+    "w fragen deutsch 2 klasse",
+    "w fragen deutsch 3 klasse",
+    "w fragen einführen grundschule",
+    "w fragen englisch arbeitsblatt",
+    "w fragen feuerwehr grundschule",
+    "w fragen geschichte grundschule",
+    "w fragen klasse 1",
+    "w fragen klasse 2",
+    "w fragen klasse 3",
+    "w fragen notruf arbeitsblatt",
+    "w fragen text grundschule",
+    "w fragen unfallbericht grundschule",
+    "w fragewörter grundschule",
+    "w-fragen",
+    "w-fragen arbeitsblatt",
+    "w-fragen auf englisch",
+    "w-fragen bericht",
+    "w-fragen deutsch",
+    "w-fragen grundschule",
+    "w-fragen grundschule arbeitsblatt",
+    "w-fragen journalismus",
+    "w-fragen notruf",
+    "w-fragen wordwall",
+    "w-fragen übungen",
+    "w-fragen übungen a1 pdf",
+    "w-fragen übungen pdf",
+    "zeitungsbericht w fragen arbeitsblatt"
+   ]
+  },
+  "cube-nets": {
+   "heads": [
+    "würfelnetze",
+    "würfelnetz"
+   ],
+   "requests": 14,
+   "productiveSeeds": 13,
+   "unique": 70,
+   "suggestions": [
+    "11 würfelnetze klasse 3",
+    "11 würfelnetze zum ausdrucken",
+    "alle würfelnetze zum ausdrucken",
+    "arbeitsblatt würfelnetze 4 klasse",
+    "arbeitsblatt würfelnetze 5 klasse",
+    "arbeitsblatt würfelnetze erkennen",
+    "definition würfelnetz grundschule",
+    "verschiedene würfelnetze zum ausdrucken",
+    "würfelnetz",
+    "würfelnetz arbeitsblatt",
+    "würfelnetz arbeitsblatt grundschule",
+    "würfelnetz arbeitsblatt pdf",
+    "würfelnetz aufgaben klasse 3",
+    "würfelnetz basteln",
+    "würfelnetz basteln grundschule",
+    "würfelnetz erklärung grundschule",
+    "würfelnetz grundschule",
+    "würfelnetz grundschule pdf",
+    "würfelnetz grundschule vorlage",
+    "würfelnetz klasse 2",
+    "würfelnetz klasse 3",
+    "würfelnetz klasse 3 erklärung",
+    "würfelnetz klasse 3 pdf",
+    "würfelnetz mathe 3 klasse",
+    "würfelnetz quadernetz arbeitsblatt",
+    "würfelnetz vorlage zum ausdrucken",
+    "würfelnetz zeichnen arbeitsblatt",
+    "würfelnetz zum ausdrucken",
+    "würfelnetz zum ausdrucken kostenlos",
+    "würfelnetz zum ausdrucken pdf",
+    "würfelnetze",
+    "würfelnetze arbeitsblatt",
+    "würfelnetze arbeitsblatt 3 klasse",
+    "würfelnetze arbeitsblatt grundschule",
+    "würfelnetze arbeitsblatt kostenlos",
+    "würfelnetze arbeitsblatt mit lösungen",
+    "würfelnetze arbeitsblatt pdf",
+    "würfelnetze arbeitsblatt pdf klasse 6",
+    "würfelnetze erkennen",
+    "würfelnetze erkennen trick",
+    "würfelnetze grundschule",
+    "würfelnetze grundschule 3 klasse übungen",
+    "würfelnetze grundschule 4 klasse",
+    "würfelnetze grundschule arbeitsblätter",
+    "würfelnetze grundschule erklären",
+    "würfelnetze grundschule ideenreise",
+    "würfelnetze grundschule klasse 3",
+    "würfelnetze grundschule material",
+    "würfelnetze grundschule pdf",
+    "würfelnetze grundschule regeln",
+    "würfelnetze grundschule zum ausdrucken",
+    "würfelnetze klasse 1",
+    "würfelnetze klasse 2",
+    "würfelnetze klasse 3",
+    "würfelnetze klasse 3 11 möglichkeiten",
+    "würfelnetze klasse 3 arbeitsblätter",
+    "würfelnetze klasse 3 erklärung",
+    "würfelnetze klasse 3 gegenüberliegende seiten",
+    "würfelnetze klasse 3 mit lösungen",
+    "würfelnetze klasse 3 pdf",
+    "würfelnetze klasse 3 zum ausdrucken",
+    "würfelnetze klasse 3 zum ausdrucken kostenlos",
+    "würfelnetze klasse 3 zum ausschneiden",
+    "würfelnetze klasse 3 übungen",
+    "würfelnetze klasse 3 übungen pdf",
+    "würfelnetze klasse 4",
+    "würfelnetze pikas",
+    "würfelnetze zum ausdrucken",
+    "würfelnetze zum ausdrucken kostenlos",
+    "würfelnetze zum ausdrucken pdf"
+   ]
+  },
+  "finger-counting": {
+   "heads": [
+    "fingerbilder",
+    "mit den fingern zählen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 5,
+   "unique": 18,
+   "suggestions": [
+    "fingerbilder",
+    "fingerbilder 1-10",
+    "fingerbilder arbeitsblatt",
+    "fingerbilder ausdrucken",
+    "fingerbilder ausdrucken kostenlos",
+    "fingerbilder bis 10",
+    "fingerbilder bis 10 arbeitsblatt",
+    "fingerbilder bis 10 zum ausdrucken",
+    "fingerbilder bis 20",
+    "fingerbilder grundschule",
+    "fingerbilder kinder",
+    "fingerbilder klasse 1",
+    "fingerbilder mathe grundschule",
+    "fingerbilder mathe klasse 1",
+    "fingerbilder mathematik",
+    "fingerbilder zahlen",
+    "fingerbilder zahlen bis 10",
+    "fingerbilder zum ausdrucken"
+   ]
+  }
+ },
+ "suggestions": {
+  "lückentext": {
+   "candidate": "cloze",
+   "s": [
+    "lückentextsuche",
+    "lückentext",
+    "lückentext englisch",
+    "lückentextsuche kreuzworträtsel",
+    "lückentext rätsel",
+    "lückentext deutsch",
+    "lückentext erstellen",
+    "lückentexte",
+    "lückentexte zum ausdrucken",
+    "lückentext a2 deutsch pdf"
+   ]
+  },
+  "lückentext arbeitsblatt": {
+   "candidate": "cloze",
+   "s": [
+    "lückentext arbeitsblatt",
+    "lückentext arbeitsblatt erstellen",
+    "lückentext englisch arbeitsblatt",
+    "fotosynthese lückentext arbeitsblatt",
+    "auge lückentext arbeitsblatt",
+    "wasserkreislauf arbeitsblatt lückentext",
+    "deutsch arbeitsblatt lückentext",
+    "simple present lückentext arbeitsblatt"
+   ]
+  },
+  "lückentext zum ausdrucken": {
+   "candidate": "cloze",
+   "s": [
+    "lückentext zum ausdrucken",
+    "lückentext zum ausdrucken kostenlos",
+    "lückentext erstellen zum ausdrucken",
+    "lückentext märchen zum ausdrucken",
+    "lückentext deutsch zum ausdrucken",
+    "lückentext für senioren zum ausdrucken",
+    "lückentext englisch 5 klasse zum ausdrucken"
+   ]
+  },
+  "lückentext grundschule": {
+   "candidate": "cloze",
+   "s": [
+    "lückentext grundschule",
+    "lückentext grundschule 2 klasse",
+    "lückentext grundschule pdf",
+    "lückentext grundschule 4 klasse",
+    "lückentext grundschule kostenlos",
+    "lückentext grundschule 3. klasse",
+    "lückentext nationalhymne grundschule",
+    "lückentext wasserkreislauf grundschule",
+    "lückentext herbst grundschule",
+    "lückentext personenbeschreibung grundschule"
+   ]
+  },
+  "lückentext klasse 1": {
+   "candidate": "cloze",
+   "s": [
+    "lückentext klasse 1",
+    "lückentext 1 klasse volksschule",
+    "lückentext 10 klasse",
+    "lückentext englisch klasse 10 pdf",
+    "lückentext englisch klasse 10",
+    "lückentext deutsch 1 klasse",
+    "lückentext englisch 1 klasse gymnasium",
+    "lückentext englisch 10 klasse realschule",
+    "lückentext deutsch 10 klasse"
+   ]
+  },
+  "lückentext klasse 2": {
+   "candidate": "cloze",
+   "s": [
+    "lückentext klasse 2",
+    "lückentext 2 klasse deutsch",
+    "lückentext 2 klasse volksschule",
+    "lückentext 2. klasse pdf",
+    "lückentext deutsch 2 klasse kostenlos",
+    "lückentext verben 2 klasse",
+    "lückentext adjektive 2 klasse",
+    "lückentext grundschule 2 klasse",
+    "lückentext diktat 2 klasse",
+    "lückentext nomen 2. klasse"
+   ]
+  },
+  "lückentext klasse 3": {
+   "candidate": "cloze",
+   "s": [
+    "lückentext klasse 3",
+    "lückentext klasse 3 pdf",
+    "lückentext 3 klasse deutsch",
+    "lückentext 3 klasse deutsch pdf",
+    "lückentext 3 klasse volksschule",
+    "lückentext 3 klasse deutsch kostenlos",
+    "lückentext 3 klasse arbeitsblätter",
+    "lückentext rechtschreibung klasse 3",
+    "lückentext englisch klasse 3",
+    "lückentext pronomen 3 klasse"
+   ]
+  },
+  "lückentexte": {
+   "candidate": "cloze",
+   "s": [
+    "lückentexte",
+    "lückentexte für senioren zum ausdrucken kostenlos",
+    "lückentexte für senioren",
+    "lückentexte zum ausdrucken",
+    "lückentexte für erwachsene",
+    "lückentexte deutsch",
+    "lückentexte grundschule",
+    "lückentexte deutsch 4 klasse zum ausdrucken",
+    "lückentexte erstellen",
+    "lückentexte übungen"
+   ]
+  },
+  "lückentexte arbeitsblatt": {
+   "candidate": "cloze",
+   "s": [
+    "lückentext arbeitsblatt",
+    "lückentext arbeitsblatt erstellen"
+   ]
+  },
+  "lückentexte zum ausdrucken": {
+   "candidate": "cloze",
+   "s": [
+    "lückentexte zum ausdrucken",
+    "lückentexte zum ausdrucken deutsch 2 klasse",
+    "lückentexte zum ausdrucken kostenlos",
+    "lustige lückentexte zum ausdrucken",
+    "lustige lückentexte zum ausdrucken hochzeit",
+    "englische lückentexte zum ausdrucken",
+    "lückentexte für senioren zum ausdrucken",
+    "lückentexte für senioren zum ausdrucken kostenlos",
+    "lückentexte für kinder zum ausdrucken",
+    "lückentexte deutsch 4 klasse zum ausdrucken"
+   ]
+  },
+  "lückentexte grundschule": {
+   "candidate": "cloze",
+   "s": [
+    "lückentexte grundschule",
+    "lückentexte grundschule 3 klasse",
+    "lückentexte grundschule pdf",
+    "lückentext grundschule 2 klasse",
+    "lückentext grundschule 4 klasse",
+    "lückentext grundschule kostenlos"
+   ]
+  },
+  "lückentexte klasse 1": {
+   "candidate": "cloze",
+   "s": [
+    "lückentexte klasse 1",
+    "lückentext 1 klasse volksschule",
+    "lückentext 10 klasse",
+    "lückentext englisch klasse 10 pdf",
+    "lückentext englisch klasse 10"
+   ]
+  },
+  "lückentexte klasse 2": {
+   "candidate": "cloze",
+   "s": [
+    "lückentexte klasse 2",
+    "lückentexte 2 klasse deutsch",
+    "lückentext 2 klasse volksschule",
+    "lückentext 2. klasse pdf"
+   ]
+  },
+  "lückentexte klasse 3": {
+   "candidate": "cloze",
+   "s": [
+    "lückentexte klasse 3",
+    "lückentext klasse 3 pdf",
+    "lückentext 3 klasse deutsch",
+    "lückentext 3 klasse deutsch pdf",
+    "lückentext 3 klasse volksschule",
+    "lückentext 3 klasse deutsch kostenlos",
+    "lückentext 3 klasse arbeitsblätter",
+    "lückentext rechtschreibung klasse 3",
+    "lückentext englisch klasse 3",
+    "lückentexte grundschule 3 klasse"
+   ]
+  },
+  "domino vorlage": {
+   "candidate": "dominoes",
+   "s": [
+    "domino vorlage",
+    "domino vorlage word",
+    "domino vorlage worksheet crafter",
+    "domino vorlage zum ausdrucken pdf",
+    "domino vorlage kostenlos",
+    "domino vorlage pdf",
+    "domino vorlage zum ausdrucken",
+    "domino vorlage blanko",
+    "domino vorlage leer",
+    "domino vorlage canva"
+   ]
+  },
+  "domino vorlage zum ausdrucken": {
+   "candidate": "dominoes",
+   "s": [
+    "domino vorlage zum ausdrucken pdf",
+    "domino vorlage zum ausdrucken"
+   ]
+  },
+  "domino": {
+   "candidate": "dominoes",
+   "s": [
+    "dominos",
+    "dominos pizza",
+    "domino",
+    "domino pizza",
+    "domino eis",
+    "domino spielregeln",
+    "domino's pizza speisekarte",
+    "dominos gutschein",
+    "dominos coupon",
+    "domino spiel"
+   ]
+  },
+  "domino arbeitsblatt": {
+   "candidate": "dominoes",
+   "s": [
+    "domino arbeitsblatt"
+   ]
+  },
+  "domino zum ausdrucken": {
+   "candidate": "dominoes",
+   "s": [
+    "domino zum ausdrucken kinder",
+    "domino zum ausdrucken",
+    "domino vorlage zum ausdrucken pdf",
+    "domino's speisekarte zum ausdrucken",
+    "1x1 domino zum ausdrucken kostenlos",
+    "mathe domino zum ausdrucken",
+    "einmaleins domino zum ausdrucken",
+    "domino spielregeln zum ausdrucken",
+    "domino vorlage zum ausdrucken",
+    "anlaut domino zum ausdrucken"
+   ]
+  },
+  "domino grundschule": {
+   "candidate": "dominoes",
+   "s": [
+    "domino grundschule",
+    "domino grundschule deutsch",
+    "wörter domino grundschule",
+    "herbst domino grundschule",
+    "domino englisch grundschule",
+    "domino längen grundschule",
+    "domino gewichte grundschule",
+    "wetter domino grundschule",
+    "verben domino grundschule",
+    "domino geld grundschule"
+   ]
+  },
+  "domino klasse 1": {
+   "candidate": "dominoes",
+   "s": [
+    "domino klasse 1",
+    "domino 1 klasse deutsch",
+    "mathe domino klasse 1",
+    "anlaut domino klasse 1",
+    "domino basteln klasse 1",
+    "domino geld klasse 1",
+    "lesedomino klasse 1"
+   ]
+  },
+  "domino klasse 2": {
+   "candidate": "dominoes",
+   "s": [
+    "domino klasse 2",
+    "mathe domino klasse 2",
+    "lesedomino klasse 2",
+    "geld domino klasse 2"
+   ]
+  },
+  "domino klasse 3": {
+   "candidate": "dominoes",
+   "s": [
+    "mathe domino klasse 3"
+   ]
+  },
+  "körperteile": {
+   "candidate": "human-body",
+   "s": [
+    "körperteile",
+    "körperteile blues",
+    "körperteile auf englisch",
+    "körperteile mensch",
+    "körperteile deutsch",
+    "körperteile spanisch",
+    "körperteile auf französisch",
+    "körperteile pferd",
+    "körperteile mit c",
+    "körperteile rätsel"
+   ]
+  },
+  "körperteile arbeitsblatt": {
+   "candidate": "human-body",
+   "s": [
+    "körperteile arbeitsblatt pdf kostenlos",
+    "körperteile arbeitsblatt",
+    "körperteile arbeitsblatt kindergarten",
+    "körperteile arbeitsblatt pdf",
+    "körperteile arbeitsblatt kostenlos",
+    "körperteile arbeitsblatt a1",
+    "körperteile arbeitsblatt grundschule",
+    "körperteile arbeitsblatt deutsch als fremdsprache",
+    "körperteile arbeitsblatt daz",
+    "körperteile arbeitsblatt daf"
+   ]
+  },
+  "körperteile zum ausdrucken": {
+   "candidate": "human-body",
+   "s": [
+    "körperteile zum ausdrucken",
+    "körperteile zum ausdrucken kostenlos",
+    "bildkarten körperteile zum ausdrucken pdf",
+    "körperteile bilder zum ausdrucken",
+    "körperteile puzzle zum ausdrucken",
+    "bildkarten körperteile zum ausdrucken kostenlos",
+    "körperteile memory zum ausdrucken",
+    "körperteile karten zum ausdrucken",
+    "bildkarten körperteile zum ausdrucken",
+    "körperteile memory zum ausdrucken kostenlos"
+   ]
+  },
+  "körperteile grundschule": {
+   "candidate": "human-body",
+   "s": [
+    "körperteile grundschule",
+    "körperteile grundschule klasse 1",
+    "körperteile grundschule arbeitsblätter",
+    "körperteile grundschule klasse 2",
+    "körperteile grundschule daz",
+    "körperteile grundschule klasse 3",
+    "körperteile grundschule englisch",
+    "körperteile grundschule film",
+    "körperteile grundschule video",
+    "körperteile hund grundschule"
+   ]
+  },
+  "körperteile klasse 1": {
+   "candidate": "human-body",
+   "s": [
+    "körperteile klasse 1",
+    "körperteile 1 klasse grundschule",
+    "igel körperteile klasse 1",
+    "körperteile arbeitsblatt klasse 1",
+    "körperteile sachunterricht 1 klasse",
+    "körperteile englisch 1 klasse",
+    "wordwall körperteile 1 klasse"
+   ]
+  },
+  "körperteile klasse 2": {
+   "candidate": "human-body",
+   "s": [
+    "körperteile klasse 2",
+    "körperteile grundschule klasse 2",
+    "körperteile sachunterricht klasse 2",
+    "arbeitsblatt körperteile klasse 2",
+    "körperteile hund 2. klasse"
+   ]
+  },
+  "körperteile klasse 3": {
+   "candidate": "human-body",
+   "s": [
+    "körperteile klasse 3",
+    "körperteile englisch klasse 3",
+    "körperteile sachunterricht klasse 3",
+    "körperteile grundschule klasse 3",
+    "körperteile mathe 3 klasse",
+    "englisch vokabeln körperteile 3 klasse"
+   ]
+  },
+  "der körper": {
+   "candidate": "human-body",
+   "s": [
+    "der körper",
+    "der körper ohne kopf und glieder",
+    "der körper des menschen",
+    "der körperteil blues",
+    "der körper ohne kopf und glieder kreuzworträtsel",
+    "der körper organe",
+    "der körper meines feindes",
+    "der körper des menschen thieme",
+    "der körper einer frau",
+    "der körperteil"
+   ]
+  },
+  "der körper arbeitsblatt": {
+   "candidate": "human-body",
+   "s": [
+    "der körper arbeitsblatt",
+    "der körper arbeitsblatt grundschule",
+    "der körper arbeitsblatt daf",
+    "der menschliche körper arbeitsblatt",
+    "der menschliche körper arbeitsblatt daf"
+   ]
+  },
+  "der körper zum ausdrucken": {
+   "candidate": "human-body",
+   "s": [
+    "der menschliche körper bilder zum ausdrucken"
+   ]
+  },
+  "der körper grundschule": {
+   "candidate": "human-body",
+   "s": [
+    "der körper grundschule",
+    "der körper grundschule arbeitsblätter",
+    "der körper grundschule 1 klasse",
+    "der körper grundschule 4 klasse",
+    "der menschliche körper grundschule",
+    "der menschliche körper grundschule klasse 3",
+    "der menschliche körper grundschule material",
+    "der körper sachunterricht grundschule",
+    "der menschliche körper grundschule film",
+    "der menschliche körper grundschule video"
+   ]
+  },
+  "der körper klasse 1": {
+   "candidate": "human-body",
+   "s": [
+    "der körper klasse 1",
+    "der menschliche körper klasse 1",
+    "der körper grundschule 1 klasse"
+   ]
+  },
+  "der körper klasse 2": {
+   "candidate": "human-body",
+   "s": [
+    "der körper klasse 2",
+    "der menschliche körper klasse 2"
+   ]
+  },
+  "der körper klasse 3": {
+   "candidate": "human-body",
+   "s": [
+    "der körper klasse 3",
+    "der menschliche körper klasse 3",
+    "der menschliche körper grundschule klasse 3"
+   ]
+  },
+  "die fünf sinne": {
+   "candidate": "five-senses",
+   "s": [
+    "die fünf sinne",
+    "die fünf sinne des menschen",
+    "die fünf sinnesorgane",
+    "die fünf sinne grundschule",
+    "die fünf sinne fingerspiel",
+    "die fünf sinne lied",
+    "die fünf sinne lied text",
+    "die fünf sinne text pdf",
+    "die fünf sinne für kinder erklärt",
+    "die fünf sinne unterrichtsmaterial"
+   ]
+  },
+  "die fünf sinne arbeitsblatt": {
+   "candidate": "five-senses",
+   "s": [
+    "die fünf sinne arbeitsblatt"
+   ]
+  },
+  "die fünf sinne grundschule": {
+   "candidate": "five-senses",
+   "s": [
+    "die fünf sinne grundschule",
+    "die fünf sinne video grundschule",
+    "die fünf sinne des menschen grundschule"
+   ]
+  },
+  "die fünf sinne klasse 1": {
+   "candidate": "five-senses",
+   "s": [
+    "die fünf sinne klasse 1"
+   ]
+  },
+  "die fünf sinne klasse 2": {
+   "candidate": "five-senses",
+   "s": [
+    "die fünf sinne klasse 2"
+   ]
+  },
+  "die fünf sinne klasse 3": {
+   "candidate": "five-senses",
+   "s": [
+    "die fünf sinne 3 klasse"
+   ]
+  },
+  "sinnesorgane": {
+   "candidate": "five-senses",
+   "s": [
+    "sinnesorgane",
+    "sinnesorgane mensch",
+    "sinnesorgane kreuzworträtsel",
+    "sinnesorgane 4 buchstaben",
+    "sinnesorgane hund",
+    "sinnesorgane katze",
+    "sinnesorgane bilder",
+    "sinnesorgane insekten",
+    "sinnesorgane fachbegriffe",
+    "sinnesorgane hai"
+   ]
+  },
+  "sinnesorgane arbeitsblatt": {
+   "candidate": "five-senses",
+   "s": [
+    "sinnesorgane arbeitsblatt",
+    "sinnesorgane arbeitsblatt pdf",
+    "arbeitsblatt sinnesorgane klasse 3",
+    "arbeitsblatt sinnesorgane klasse 5",
+    "arbeitsblatt sinnesorgane klasse 2",
+    "arbeitsblatt sinnesorgane grundschule",
+    "sinnesorgane hund arbeitsblatt",
+    "sinnesorgane mensch arbeitsblatt",
+    "sinnesorgane katze arbeitsblatt",
+    "sinnesorgane insekten arbeitsblatt"
+   ]
+  },
+  "sinnesorgane zum ausdrucken": {
+   "candidate": "five-senses",
+   "s": [
+    "sinnesorgane zum ausdrucken",
+    "bilder sinnesorgane zum ausdrucken"
+   ]
+  },
+  "sinnesorgane grundschule": {
+   "candidate": "five-senses",
+   "s": [
+    "sinnesorgane grundschule",
+    "sinnesorgane grundschule klasse 2",
+    "sinnesorgane grundschule klasse 3",
+    "sinnesorgane grundschule arbeitsblätter",
+    "sinnesorgane grundschule video",
+    "sinnesorgane schützen grundschule",
+    "unsere sinnesorgane grundschule",
+    "sinnesorgane mensch grundschule",
+    "5 sinnesorgane grundschule",
+    "sinnesorgane film grundschule"
+   ]
+  },
+  "sinnesorgane klasse 1": {
+   "candidate": "five-senses",
+   "s": [
+    "sinnesorgane klasse 1"
+   ]
+  },
+  "sinnesorgane klasse 2": {
+   "candidate": "five-senses",
+   "s": [
+    "sinnesorgane klasse 2",
+    "test sinnesorgane klasse 2",
+    "sinnesorgane grundschule klasse 2",
+    "arbeitsblatt sinnesorgane klasse 2",
+    "klassenarbeit sinnesorgane 2 klasse"
+   ]
+  },
+  "sinnesorgane klasse 3": {
+   "candidate": "five-senses",
+   "s": [
+    "sinnesorgane klasse 3",
+    "sinnesorgane grundschule klasse 3",
+    "test sinnesorgane klasse 3",
+    "arbeitsblatt sinnesorgane klasse 3",
+    "klassenarbeit sinnesorgane klasse 3",
+    "arbeit sinnesorgane klasse 3",
+    "sachkunde sinnesorgane 3 klasse"
+   ]
+  },
+  "wetter": {
+   "candidate": "weather",
+   "s": [
+    "wetter stockholm",
+    "wetter",
+    "wetter göteborg",
+    "wetter malmö",
+    "wetter schweden",
+    "wetteronline",
+    "wetter morgen",
+    "wetter kopenhagen",
+    "wetter vimmerby",
+    "wetter hamburg"
+   ]
+  },
+  "wetter arbeitsblatt": {
+   "candidate": "weather",
+   "s": [
+    "wetter arbeitsblatt daf pdf",
+    "wetter arbeitsblatt",
+    "wetter arbeitsblatt daz",
+    "wetter arbeitsblatt pdf",
+    "wetter arbeitsblatt pdf kostenlos",
+    "wetter arbeitsblatt grundschule",
+    "wetter arbeitsblatt kindergarten",
+    "wetter arbeitsblatt daf",
+    "wetter arbeitsblatt 3 klasse",
+    "wetter arbeitsblatt 1 klasse"
+   ]
+  },
+  "wetter zum ausdrucken": {
+   "candidate": "weather",
+   "s": [
+    "wetter zum ausdrucken",
+    "wetter quiz zum ausdrucken",
+    "bildkarten wetter zum ausdrucken",
+    "wetter memory zum ausdrucken",
+    "wetter bilder zum ausdrucken",
+    "deckblatt wetter zum ausdrucken",
+    "wetter symbole zum ausdrucken",
+    "wetter mandala zum ausdrucken",
+    "bildkarten wetter kostenlos zum ausdrucken"
+   ]
+  },
+  "wetter grundschule": {
+   "candidate": "weather",
+   "s": [
+    "wetter grundschule",
+    "wetter grundschule klasse 3",
+    "wetter grundschule einstieg",
+    "wetter grundschule sachunterricht",
+    "wetter grundschule materialwiese",
+    "wetter grundschule klasse 1",
+    "wetter grundschule film",
+    "wetter grundschule englisch",
+    "wetter grundschule frau locke",
+    "wetter grundschule ideenreise"
+   ]
+  },
+  "wetter klasse 1": {
+   "candidate": "weather",
+   "s": [
+    "wetter klasse 1",
+    "wetter klasse 1 video",
+    "wetter klasse 1 arbeitsblatt",
+    "wetter klasse 1 und 2",
+    "wetter 1 klasse grundschule",
+    "wetter sachunterricht klasse 1",
+    "eduki wetter klasse 1",
+    "einführung wetter klasse 1",
+    "wetter beobachten klasse 1",
+    "thema wetter klasse 1"
+   ]
+  },
+  "wetter klasse 2": {
+   "candidate": "weather",
+   "s": [
+    "wetter klasse 2",
+    "wetter klasse 2 einführung",
+    "wetter klasse 2 test",
+    "wetter klasse 2 sachunterricht",
+    "wetter 2 klasse grundschule",
+    "arbeitsblatt wetter klasse 2",
+    "eduki wetter klasse 2",
+    "klassenarbeit wetter klasse 2",
+    "wetter beobachten klasse 2",
+    "sachkunde wetter klasse 2"
+   ]
+  },
+  "wetter klasse 3": {
+   "candidate": "weather",
+   "s": [
+    "wetter klasse 3",
+    "wetter klasse 3 sachunterricht",
+    "wetter klasse 3 grundschule",
+    "wetter klasse 3 einstieg",
+    "wetter klasse 3 pdf",
+    "wetter klasse 3 grundschulkönig",
+    "wetter klasse 3 test",
+    "wetter klasse 3 klassenarbeit",
+    "wetter klasse 3 eduki",
+    "wetter 3 klasse arbeitsblätter"
+   ]
+  },
+  "wettersymbole": {
+   "candidate": "weather",
+   "s": [
+    "wettersymbole",
+    "wettersymbole bedeutung",
+    "wettersymbole wind",
+    "wettersymbole grundschule",
+    "wettersymbole niederschlag",
+    "wettersymbole nebel",
+    "wettersymbole dwd",
+    "wettersymbole wind grundschule",
+    "wettersymbole handy",
+    "wettersymbole clipart"
+   ]
+  },
+  "wettersymbole arbeitsblatt": {
+   "candidate": "weather",
+   "s": [
+    "wettersymbole arbeitsblatt",
+    "arbeitsblatt wettersymbole grundschule",
+    "wettersymbole grundschule arbeitsblatt arbeitsblätter sachkunde klasse 3 wetter kostenlos"
+   ]
+  },
+  "wettersymbole zum ausdrucken": {
+   "candidate": "weather",
+   "s": [
+    "wettersymbole zum ausdrucken kostenlos",
+    "wettersymbole zum ausdrucken",
+    "wettersymbole grundschule zum ausdrucken",
+    "wettersymbole kinder zum ausdrucken"
+   ]
+  },
+  "wettersymbole grundschule": {
+   "candidate": "weather",
+   "s": [
+    "wettersymbole grundschule",
+    "wettersymbole grundschule klasse 3",
+    "wettersymbole grundschule zum ausdrucken",
+    "wettersymbole grundschule klasse 2",
+    "wettersymbole grundschule arbeitsblatt arbeitsblätter sachkunde klasse 3 wetter kostenlos",
+    "wettersymbole grundschule pdf",
+    "wettersymbole grundschule arbeitsblatt",
+    "wettersymbole grundschule wind",
+    "sachunterricht wettersymbole grundschule"
+   ]
+  },
+  "wettersymbole klasse 1": {
+   "candidate": "weather",
+   "s": [
+    "wettersymbole klasse 1"
+   ]
+  },
+  "wettersymbole klasse 2": {
+   "candidate": "weather",
+   "s": [
+    "wettersymbole klasse 2",
+    "wettersymbole grundschule klasse 2"
+   ]
+  },
+  "wettersymbole klasse 3": {
+   "candidate": "weather",
+   "s": [
+    "wettersymbole klasse 3",
+    "wettersymbole grundschule klasse 3"
+   ]
+  },
+  "tangram": {
+   "candidate": "tangram",
+   "s": [
+    "tangram",
+    "tangram spiel",
+    "tangram puzzle",
+    "tangram vorlage",
+    "tangram figuren",
+    "tangram lösungen",
+    "tangram online",
+    "tangram-figuren mit lösungen",
+    "tangram vorlage zum ausdrucken pdf",
+    "tangram bubendorf"
+   ]
+  },
+  "tangram arbeitsblatt": {
+   "candidate": "tangram",
+   "s": [
+    "tangram arbeitsblatt",
+    "tangram arbeitsblatt grundschule"
+   ]
+  },
+  "tangram zum ausdrucken": {
+   "candidate": "tangram",
+   "s": [
+    "tangram zum ausdrucken",
+    "tangram zum ausdrucken kostenlos",
+    "tangram vorlage zum ausdrucken pdf",
+    "tangram vorlagen zum ausdrucken",
+    "tangram figuren zum ausdrucken",
+    "tangram karten zum ausdrucken",
+    "tangram bilder zum ausdrucken",
+    "tangram spiel zum ausdrucken"
+   ]
+  },
+  "tangram grundschule": {
+   "candidate": "tangram",
+   "s": [
+    "tangram grundschule",
+    "tangram grundschule klasse 2",
+    "tangram grundschule arbeitsblätter",
+    "tangram grundschule klasse 1",
+    "tangram grundschule unterrichtsentwurf",
+    "tangram grundschule 4 klasse",
+    "tangram grundschule klasse 3",
+    "tangram grundschule mathematik",
+    "tangram grundschule literatur",
+    "tangram figuren grundschule"
+   ]
+  },
+  "tangram klasse 1": {
+   "candidate": "tangram",
+   "s": [
+    "tangram klasse 1",
+    "tangram klasse 1 / 2",
+    "tangram klasse 1 ub",
+    "tangram grundschule klasse 1",
+    "tangram unterrichtsreihe klasse 1",
+    "unterrichtsentwurf tangram 1 klasse",
+    "einfache tangram 1 klasse"
+   ]
+  },
+  "tangram klasse 2": {
+   "candidate": "tangram",
+   "s": [
+    "tangram klasse 2",
+    "tangram grundschule klasse 2",
+    "tangram mathe klasse 2",
+    "tangram klasse 1 / 2",
+    "tangram formen 2 klasse",
+    "unterrichtsentwurf tangram 2 klasse"
+   ]
+  },
+  "tangram klasse 3": {
+   "candidate": "tangram",
+   "s": [
+    "tangram klasse 3",
+    "tangram grundschule klasse 3"
+   ]
+  },
+  "tangram vorlage": {
+   "candidate": "tangram",
+   "s": [
+    "tangram vorlage",
+    "tangram vorlage zum ausdrucken pdf",
+    "tangram vorlage pdf",
+    "tangram vorlagen kostenlos",
+    "tangram vorlagen zum ausdrucken",
+    "tangram vorlage einfach",
+    "tangram vorlage kinder",
+    "tangram vorlagen tiere",
+    "tangram vorlagen mit lösungen kostenlos",
+    "tangram vorlagen originalgröße"
+   ]
+  },
+  "tangram vorlage zum ausdrucken": {
+   "candidate": "tangram",
+   "s": [
+    "tangram vorlage zum ausdrucken pdf",
+    "tangram vorlage zum ausdrucken"
+   ]
+  },
+  "tangram vorlage grundschule": {
+   "candidate": "tangram",
+   "s": [
+    "tangram vorlage grundschule"
+   ]
+  },
+  "mülltrennung": {
+   "candidate": "recycling",
+   "s": [
+    "mülltrennung schweden",
+    "mülltrennung schweden ferienhaus",
+    "mülltrennung schweden grüne tonne",
+    "mülltrennung schweden farben",
+    "mülltrennung schweden plastik",
+    "mülltrennung schweden tetrapack",
+    "mülltrennung stockholm",
+    "mülltrennung",
+    "mülltrennung englisch",
+    "mülltrennung dänemark"
+   ]
+  },
+  "mülltrennung arbeitsblatt": {
+   "candidate": "recycling",
+   "s": [
+    "mülltrennung arbeitsblatt kostenlos",
+    "mülltrennung arbeitsblatt",
+    "mülltrennung arbeitsblatt klett",
+    "mülltrennung arbeitsblatt pdf",
+    "mülltrennung arbeitsblatt grundschule",
+    "mülltrennung arbeitsblatt 1 klasse",
+    "mülltrennung arbeitsblatt kindergarten",
+    "mülltrennung arbeitsblatt kinder",
+    "arbeitsblatt mülltrennung 1 klasse kostenlos",
+    "arbeitsblatt mülltrennung 6 klasse"
+   ]
+  },
+  "mülltrennung zum ausdrucken": {
+   "candidate": "recycling",
+   "s": [
+    "mülltrennung zum ausdrucken pdf",
+    "mülltrennung zum ausdrucken",
+    "mülltrennung zum ausdrucken kostenlos",
+    "mülltrennung übersicht zum ausdrucken",
+    "mülltrennung schilder zum ausdrucken kostenlos",
+    "mülltrennung bilder zum ausdrucken kostenlos",
+    "aufkleber mülltrennung zum ausdrucken",
+    "mülltrennung bilder zum ausdrucken",
+    "mülltrennung symbole zum ausdrucken kostenlos",
+    "schilder mülltrennung zum ausdrucken"
+   ]
+  },
+  "mülltrennung grundschule": {
+   "candidate": "recycling",
+   "s": [
+    "mülltrennung grundschule",
+    "mülltrennung grundschule klasse 1",
+    "mülltrennung grundschule arbeitsblatt",
+    "mülltrennung grundschule klasse 2",
+    "mülltrennung grundschule schilder",
+    "mülltrennung grundschule material",
+    "mülltrennung grundschule video",
+    "mülltrennung grundschule film",
+    "mülltrennung grundschule 4 klasse",
+    "mülltrennung grundschule pdf"
+   ]
+  },
+  "mülltrennung klasse 1": {
+   "candidate": "recycling",
+   "s": [
+    "mülltrennung klasse 1",
+    "mülltrennung klasse 1 arbeitsblatt",
+    "mülltrennung 1 klasse grundschule",
+    "eduki mülltrennung klasse 1",
+    "arbeitsblatt mülltrennung 1 klasse kostenlos",
+    "mülltrennung sachunterricht 1 klasse"
+   ]
+  },
+  "mülltrennung klasse 2": {
+   "candidate": "recycling",
+   "s": [
+    "mülltrennung klasse 2",
+    "mülltrennung grundschule klasse 2",
+    "arbeitsblatt mülltrennung 2 klasse kostenlos",
+    "arbeitsblatt mülltrennung 2 klasse"
+   ]
+  },
+  "mülltrennung klasse 3": {
+   "candidate": "recycling",
+   "s": [
+    "mülltrennung klasse 3",
+    "mülltrennung grundschule klasse 3",
+    "arbeitsblatt mülltrennung 3 klasse"
+   ]
+  },
+  "müll trennen": {
+   "candidate": "recycling",
+   "s": [
+    "müll trennen in schweden",
+    "müll trennen",
+    "müll trennen englisch",
+    "müll trennen richtig",
+    "müll trennen kroatien",
+    "müll trennen österreich",
+    "müll trennen italienisch",
+    "müll trennen italien",
+    "müll trennen grundschule",
+    "müll trennen bilder"
+   ]
+  },
+  "müll trennen arbeitsblatt": {
+   "candidate": "recycling",
+   "s": [
+    "müll trennen arbeitsblatt",
+    "müll richtig trennen arbeitsblatt"
+   ]
+  },
+  "müll trennen zum ausdrucken": {
+   "candidate": "recycling",
+   "s": [
+    "müll richtig trennen mülltrennung übersicht zum ausdrucken"
+   ]
+  },
+  "müll trennen grundschule": {
+   "candidate": "recycling",
+   "s": [
+    "müll trennen grundschule",
+    "müll trennen grundschule video",
+    "müll richtig trennen grundschule"
+   ]
+  },
+  "müll trennen klasse 1": {
+   "candidate": "recycling",
+   "s": [
+    "mülltrennung klasse 1"
+   ]
+  },
+  "müll trennen klasse 2": {
+   "candidate": "recycling",
+   "s": [
+    "müll trennen klasse 2"
+   ]
+  },
+  "gerade und ungerade zahlen": {
+   "candidate": "odd-and-even",
+   "s": [
+    "gerade und ungerade zahlen",
+    "gerade und ungerade zahlen klasse 1",
+    "gerade und ungerade zahlen klasse 2",
+    "gerade und ungerade zahlen englisch",
+    "gerade und ungerade zahlen klasse 1 arbeitsblätter",
+    "gerade und ungerade zahlen pikas",
+    "gerade und ungerade zahlen erklären",
+    "gerade und ungerade zahlen bis 20",
+    "gerade und ungerade zahlen autobahn",
+    "gerade und ungerade zahlen frau locke"
+   ]
+  },
+  "gerade und ungerade zahlen arbeitsblatt": {
+   "candidate": "odd-and-even",
+   "s": [
+    "gerade und ungerade zahlen arbeitsblatt",
+    "gerade und ungerade zahlen arbeitsblatt klasse 1",
+    "gerade und ungerade zahlen bis 20 arbeitsblatt",
+    "gerade ungerade zahlen grundschule arbeitsblatt"
+   ]
+  },
+  "gerade und ungerade zahlen grundschule": {
+   "candidate": "odd-and-even",
+   "s": [
+    "gerade und ungerade zahlen grundschule",
+    "gerade und ungerade zahlen grundschule 2 klasse",
+    "gerade und ungerade zahlen grundschule arbeitsblätter",
+    "gerade und ungerade zahlen grundschule einführung",
+    "gerade und ungerade zahlen grundschule klasse 1",
+    "erklärung gerade und ungerade zahlen grundschule",
+    "video gerade und ungerade zahlen grundschule"
+   ]
+  },
+  "gerade und ungerade zahlen klasse 1": {
+   "candidate": "odd-and-even",
+   "s": [
+    "gerade und ungerade zahlen klasse 1",
+    "gerade und ungerade zahlen klasse 1 arbeitsblätter",
+    "gerade und ungerade zahlen klasse 1 einführung",
+    "gerade und ungerade zahlen klasse 1 pikas",
+    "erklärvideo gerade und ungerade zahlen klasse 1",
+    "gerade und ungerade zahlen grundschule klasse 1",
+    "gerade und ungerade zahlen erklären 1 klasse",
+    "frau locke gerade und ungerade zahlen klasse 1"
+   ]
+  },
+  "gerade und ungerade zahlen klasse 2": {
+   "candidate": "odd-and-even",
+   "s": [
+    "gerade und ungerade zahlen klasse 2",
+    "gerade und ungerade zahlen klasse 2 arbeitsblätter",
+    "gerade und ungerade zahlen grundschule 2 klasse"
+   ]
+  },
+  "gerade und ungerade zahlen klasse 3": {
+   "candidate": "odd-and-even",
+   "s": [
+    "gerade und ungerade zahlen 3 klasse"
+   ]
+  },
+  "gerade ungerade": {
+   "candidate": "odd-and-even",
+   "s": [
+    "gerade ungerade woche 2026",
+    "gerade ungerade woche",
+    "gerade ungerade woche 2027",
+    "gerade ungerade zahlen",
+    "gerade ungerade funktion",
+    "gerade ungerade englisch",
+    "gerade ungerade",
+    "gerade ungerade zahlen klasse 1",
+    "gerade ungerade kalenderwoche",
+    "gerade ungerade tipico"
+   ]
+  },
+  "gerade ungerade arbeitsblatt": {
+   "candidate": "odd-and-even",
+   "s": [
+    "gerade ungerade arbeitsblatt",
+    "gerade ungerade zahlen arbeitsblatt",
+    "gerade ungerade zahlen grundschule arbeitsblatt",
+    "arbeitsblatt gerade ungerade zahlen klasse 1",
+    "arbeitsblatt gerade ungerade zahlen bis 100",
+    "arbeitsblatt gerade ungerade zahlen klasse 2"
+   ]
+  },
+  "gerade ungerade grundschule": {
+   "candidate": "odd-and-even",
+   "s": [
+    "gerade ungerade grundschule",
+    "gerade ungerade zahlen grundschule",
+    "gerade ungerade zahlen grundschule klasse 1",
+    "gerade ungerade zahlen grundschule arbeitsblatt",
+    "gerade ungerade zahlen erklären grundschule",
+    "gerade und ungerade zahlen grundschule 2 klasse",
+    "gerade und ungerade zahlen grundschule einführung"
+   ]
+  },
+  "gerade ungerade klasse 1": {
+   "candidate": "odd-and-even",
+   "s": [
+    "gerade ungerade klasse 1",
+    "gerade ungerade zahlen klasse 1",
+    "gerade ungerade zahlen grundschule klasse 1",
+    "gerade und ungerade zahlen klasse 1 arbeitsblätter",
+    "gerade und ungerade zahlen klasse 1 einführung",
+    "gerade und ungerade zahlen klasse 1 pikas",
+    "gerade und ungerade zahlen erklären 1 klasse",
+    "erklärvideo gerade und ungerade zahlen klasse 1"
+   ]
+  },
+  "gerade ungerade klasse 2": {
+   "candidate": "odd-and-even",
+   "s": [
+    "gerade ungerade klasse 2",
+    "gerade ungerade zahlen klasse 2",
+    "gerade und ungerade zahlen klasse 2 arbeitsblätter",
+    "gerade und ungerade zahlen grundschule 2 klasse"
+   ]
+  },
+  "gerade ungerade klasse 3": {
+   "candidate": "odd-and-even",
+   "s": [
+    "gerade und ungerade zahlen 3 klasse"
+   ]
+  },
+  "runden": {
+   "candidate": "rounding",
+   "s": [
+    "runden excel",
+    "rundenrekord nordschleife",
+    "runden",
+    "rundenbasiertes strategiespiel",
+    "runden kuchen in rauten schneiden",
+    "rundenzähler",
+    "runden formel excel",
+    "runden mörtelkübel verkleiden",
+    "rundenzeiten nordschleife",
+    "runden pool verkleiden"
+   ]
+  },
+  "runden arbeitsblatt": {
+   "candidate": "rounding",
+   "s": [
+    "runden arbeitsblatt",
+    "runden arbeitsblatt klasse 4",
+    "runden arbeitsblatt pdf",
+    "runden arbeitsblatt klasse 5",
+    "runden arbeitsblatt 3 klasse",
+    "runden arbeitsblatt mit lösungen",
+    "runden arbeitsblatt kostenlos",
+    "runden arbeitsblatt grundschule",
+    "arbeitsblatt runden klasse 5 pdf",
+    "arbeitsblatt runden von dezimalzahlen"
+   ]
+  },
+  "runden grundschule": {
+   "candidate": "rounding",
+   "s": [
+    "runden grundschule",
+    "runden grundschule klasse 3",
+    "runden grundschule klasse 4",
+    "runden grundschule einführung",
+    "runden grundschule arbeitsblätter",
+    "runden grundschule mathe",
+    "runden grundschule pdf",
+    "runden grundschule video",
+    "grundschule runden von zahlen",
+    "grundschule runden auf zehntausender"
+   ]
+  },
+  "runden klasse 1": {
+   "candidate": "rounding",
+   "s": [
+    "runden 1 klasse mittelschule",
+    "runden von zahlen 1 klasse gymnasium"
+   ]
+  },
+  "runden klasse 2": {
+   "candidate": "rounding",
+   "s": [
+    "runden klasse 2",
+    "zahlen runden 2 klasse"
+   ]
+  },
+  "runden klasse 3": {
+   "candidate": "rounding",
+   "s": [
+    "runden klasse 3",
+    "runden klasse 3 pdf",
+    "runden klasse 3 einstieg",
+    "runden klasse 3 mathe",
+    "runden klasse 3 übungen pdf",
+    "runden 3 klasse arbeitsblätter kostenlos",
+    "runden 3 klasse arbeitsblätter",
+    "runden 3 klasse übungen",
+    "runden 3 klasse volksschule",
+    "runden 3 klasse erklärung"
+   ]
+  },
+  "zahlen runden": {
+   "candidate": "rounding",
+   "s": [
+    "zahlen runden",
+    "zahlen runden excel",
+    "zahlen runden englisch",
+    "zahlen runden 5 klasse",
+    "zahlen runden rechner",
+    "zahlen runden klasse 3",
+    "zahlen runden aufgaben pdf",
+    "zahlen runden übung",
+    "zahlen runden online",
+    "zahlen runden übungen 5 klasse pdf"
+   ]
+  },
+  "zahlen runden arbeitsblatt": {
+   "candidate": "rounding",
+   "s": [
+    "zahlen runden arbeitsblatt",
+    "zahlen runden arbeitsblatt klasse 5",
+    "zahlen runden arbeitsblatt 3 klasse",
+    "zahlen runden arbeitsblatt klasse 4",
+    "zahlen runden arbeitsblatt pdf",
+    "große zahlen runden arbeitsblatt",
+    "natürliche zahlen runden arbeitsblatt"
+   ]
+  },
+  "zahlen runden grundschule": {
+   "candidate": "rounding",
+   "s": [
+    "zahlen runden grundschule",
+    "zahlen runden grundschule 4 klasse",
+    "zahlen runden grundschule einführung",
+    "zahlen runden grundschule 3 klasse"
+   ]
+  },
+  "zahlen runden klasse 1": {
+   "candidate": "rounding",
+   "s": [
+    "runden von zahlen 1 klasse gymnasium"
+   ]
+  },
+  "zahlen runden klasse 2": {
+   "candidate": "rounding",
+   "s": [
+    "zahlen runden 2 klasse"
+   ]
+  },
+  "zahlen runden klasse 3": {
+   "candidate": "rounding",
+   "s": [
+    "zahlen runden klasse 3",
+    "zahlen runden klasse 3 pdf",
+    "zahlen runden 3 klasse video",
+    "zahlen runden arbeitsblatt 3 klasse",
+    "zahlen runden grundschule 3 klasse"
+   ]
+  },
+  "pronomen": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomen",
+    "pronomen schwedisch",
+    "pronomen deutsch",
+    "pronomen beispiele",
+    "pronomen gender",
+    "pronomen bedeutung",
+    "pronomen englisch",
+    "pronomen liste",
+    "pronomen spanisch",
+    "pronomen französisch"
+   ]
+  },
+  "pronomen arbeitsblatt": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomen arbeitsblatt",
+    "pronomen arbeitsblatt pdf",
+    "pronomen arbeitsblatt klasse 3",
+    "pronomen arbeitsblatt 5 klasse",
+    "pronomen arbeitsblatt klasse 4",
+    "pronomen arbeitsblatt grundschule",
+    "pronomen arbeitsblatt 6 klasse",
+    "pronomen arbeitsblatt kostenlos",
+    "pronomen arbeitsblatt 7 klasse",
+    "pronomen arbeitsblatt daz"
+   ]
+  },
+  "pronomen zum ausdrucken": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomen liste zum ausdrucken",
+    "pronomen deutsch übungen zum ausdrucken",
+    "pronomen liste deutsch zum ausdrucken",
+    "pronomen englisch übungen zum ausdrucken"
+   ]
+  },
+  "pronomen grundschule": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomen grundschule",
+    "pronomen grundschule 3 klasse",
+    "pronomen grundschule klasse 4",
+    "pronomen grundschule pdf",
+    "pronomen grundschule übungen",
+    "pronomen grundschule arbeitsblätter",
+    "pronomen grundschule erklärung",
+    "pronomen grundschule einführung",
+    "pronomen grundschule material",
+    "pronomen grundschule übungen pdf"
+   ]
+  },
+  "pronomen klasse 1": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomen 1 klasse"
+   ]
+  },
+  "pronomen klasse 2": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomen klasse 2",
+    "arbeitsblatt pronomen klasse 2",
+    "pronomen übungen 2 klasse",
+    "pronomen deutsch 2 klasse"
+   ]
+  },
+  "pronomen klasse 3": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomen klasse 3",
+    "pronomen klasse 3 übungen",
+    "pronomen klasse 3 pdf",
+    "pronomen klasse 3 tafelmaterial",
+    "pronomen klasse 3 einführung",
+    "pronomen klasse 3 übungen pdf",
+    "pronomen 3 klasse arbeitsblätter kostenlos",
+    "pronomen 3 klasse übungsblätter",
+    "pronomen 3 klasse erklärung",
+    "pronomen 3 klasse test"
+   ]
+  },
+  "personalpronomen": {
+   "candidate": "pronouns",
+   "s": [
+    "personalpronomen schwedisch",
+    "personalpronomen",
+    "personalpronomen deutsch",
+    "personalpronomen englisch",
+    "personalpronomen spanisch",
+    "personalpronomen französisch",
+    "personalpronomen italienisch",
+    "personalpronomen akkusativ",
+    "personalpronomen dativ",
+    "personalpronomen latein"
+   ]
+  },
+  "personalpronomen arbeitsblatt": {
+   "candidate": "pronouns",
+   "s": [
+    "personalpronomen arbeitsblatt",
+    "personalpronomen arbeitsblatt grundschule",
+    "personalpronomen arbeitsblatt pdf",
+    "personalpronomen arbeitsblatt klasse 3",
+    "personalpronomen arbeitsblatt 4 klasse",
+    "personalpronomen arbeitsblatt a1",
+    "personalpronomen arbeitsblatt klasse 5",
+    "personalpronomen arbeitsblatt englisch",
+    "personalpronomen arbeitsblatt daz",
+    "arbeitsblatt personalpronomen englisch 5 klasse"
+   ]
+  },
+  "personalpronomen zum ausdrucken": {
+   "candidate": "pronouns",
+   "s": [
+    "personalpronomen zum ausdrucken",
+    "personalpronomen englisch übungen zum ausdrucken"
+   ]
+  },
+  "personalpronomen grundschule": {
+   "candidate": "pronouns",
+   "s": [
+    "personalpronomen grundschule",
+    "personalpronomen grundschule pdf",
+    "personalpronomen grundschule arbeitsblatt",
+    "personalpronomen grundschule übungen",
+    "personalpronomen grundschule erklärt",
+    "personalpronomen deutsch grundschule",
+    "personalpronomen englisch grundschule",
+    "einführung personalpronomen grundschule",
+    "personalpronomen daz grundschule",
+    "personalpronomen einsetzen grundschule"
+   ]
+  },
+  "personalpronomen klasse 1": {
+   "candidate": "pronouns",
+   "s": [
+    "personalpronomen 1 klasse"
+   ]
+  },
+  "personalpronomen klasse 2": {
+   "candidate": "pronouns",
+   "s": [
+    "personalpronomen klasse 2",
+    "einführung personalpronomen klasse 2",
+    "personalpronomen deutsch 2 klasse",
+    "personalpronomen übungen 2 klasse"
+   ]
+  },
+  "personalpronomen klasse 3": {
+   "candidate": "pronouns",
+   "s": [
+    "personalpronomen klasse 3",
+    "personalpronomen klasse 3 pdf",
+    "personalpronomen 3 klasse übungsblätter",
+    "personalpronomen 3 klasse übungen kostenlos",
+    "personalpronomen 3 klasse arbeitsblätter kostenlos",
+    "personalpronomen 3 klasse übungen",
+    "personalpronomen 3 klasse übungsblätter pdf",
+    "personalpronomen deutsch klasse 3",
+    "personalpronomen test 3 klasse",
+    "personalpronomen einsetzen 3 klasse"
+   ]
+  },
+  "fragewörter": {
+   "candidate": "question-words",
+   "s": [
+    "fragewörter schwedisch",
+    "fragewörter englisch",
+    "fragewörter französisch",
+    "fragewörter spanisch",
+    "fragewörter",
+    "fragewörter italienisch",
+    "fragewörter deutsch",
+    "fragewörter englisch übungen 5 klasse pdf",
+    "fragewörter mit w",
+    "fragewörter englisch 5 klasse"
+   ]
+  },
+  "fragewörter arbeitsblatt": {
+   "candidate": "question-words",
+   "s": [
+    "fragewörter arbeitsblatt",
+    "fragewörter arbeitsblatt grundschule",
+    "fragewörter arbeitsblatt pdf",
+    "arbeitsblatt fragewörter englisch",
+    "arbeitsblatt fragewörter englisch 5 klasse",
+    "arbeitsblatt fragewörter deutsch",
+    "arbeitsblatt fragewörter französisch",
+    "fragewörter spanisch arbeitsblatt"
+   ]
+  },
+  "fragewörter zum ausdrucken": {
+   "candidate": "question-words",
+   "s": [
+    "fragewörter englisch arbeitsblätter zum ausdrucken",
+    "englisch fragewörter übungen zum ausdrucken"
+   ]
+  },
+  "fragewörter grundschule": {
+   "candidate": "question-words",
+   "s": [
+    "fragewörter grundschule",
+    "fragewörter arbeitsblatt grundschule",
+    "fragewörter englisch grundschule",
+    "w fragewörter grundschule",
+    "fragewörter deutsch grundschule",
+    "fragewörter einführen grundschultante"
+   ]
+  },
+  "fragewörter klasse 1": {
+   "candidate": "question-words",
+   "s": [
+    "fragewörter klasse 1"
+   ]
+  },
+  "fragewörter klasse 2": {
+   "candidate": "question-words",
+   "s": [
+    "fragewörter klasse 2",
+    "fragewörter deutsch klasse 2"
+   ]
+  },
+  "fragewörter klasse 3": {
+   "candidate": "question-words",
+   "s": [
+    "fragewörter 3 klasse"
+   ]
+  },
+  "w-fragen": {
+   "candidate": "question-words",
+   "s": [
+    "w-fragen",
+    "w-fragen notruf",
+    "w-fragen übungen pdf",
+    "w-fragen auf englisch",
+    "w-fragen übungen a1 pdf",
+    "w-fragen deutsch",
+    "w-fragen bericht",
+    "w-fragen übungen",
+    "w-fragen journalismus",
+    "w-fragen wordwall"
+   ]
+  },
+  "w-fragen arbeitsblatt": {
+   "candidate": "question-words",
+   "s": [
+    "w-fragen arbeitsblatt",
+    "w fragen arbeitsblatt pdf",
+    "w fragen arbeitsblatt a1",
+    "w fragen arbeitsblatt grundschule",
+    "w fragen arbeitsblatt daf",
+    "w fragen arbeitsblatt islcollective",
+    "w fragen notruf arbeitsblatt",
+    "w fragen englisch arbeitsblatt",
+    "zeitungsbericht w fragen arbeitsblatt",
+    "bericht w fragen arbeitsblatt"
+   ]
+  },
+  "w-fragen grundschule": {
+   "candidate": "question-words",
+   "s": [
+    "w-fragen grundschule",
+    "w-fragen grundschule arbeitsblatt",
+    "w fragen geschichte grundschule",
+    "5 w fragen grundschule",
+    "w fragen unfallbericht grundschule",
+    "w fragen feuerwehr grundschule",
+    "notruf w fragen grundschule",
+    "w fragen einführen grundschule",
+    "w fragen text grundschule",
+    "w fragen beantworten grundschule"
+   ]
+  },
+  "w-fragen klasse 1": {
+   "candidate": "question-words",
+   "s": [
+    "w fragen klasse 1"
+   ]
+  },
+  "w-fragen klasse 2": {
+   "candidate": "question-words",
+   "s": [
+    "w fragen klasse 2",
+    "w fragen deutsch 2 klasse"
+   ]
+  },
+  "w-fragen klasse 3": {
+   "candidate": "question-words",
+   "s": [
+    "w fragen klasse 3",
+    "w fragen deutsch 3 klasse"
+   ]
+  },
+  "würfelnetze": {
+   "candidate": "cube-nets",
+   "s": [
+    "würfelnetze",
+    "würfelnetze klasse 3",
+    "würfelnetze grundschule",
+    "würfelnetze zum ausdrucken",
+    "würfelnetze arbeitsblatt pdf",
+    "würfelnetze erkennen",
+    "würfelnetze klasse 4",
+    "würfelnetze erkennen trick",
+    "würfelnetze pikas",
+    "würfelnetze klasse 3 arbeitsblätter"
+   ]
+  },
+  "würfelnetze arbeitsblatt": {
+   "candidate": "cube-nets",
+   "s": [
+    "würfelnetze arbeitsblatt pdf",
+    "würfelnetze arbeitsblatt",
+    "würfelnetze arbeitsblatt pdf klasse 6",
+    "würfelnetze arbeitsblatt mit lösungen",
+    "würfelnetze arbeitsblatt kostenlos",
+    "würfelnetze arbeitsblatt 3 klasse",
+    "würfelnetze arbeitsblatt grundschule",
+    "arbeitsblatt würfelnetze 4 klasse",
+    "arbeitsblatt würfelnetze 5 klasse",
+    "arbeitsblatt würfelnetze erkennen"
+   ]
+  },
+  "würfelnetze zum ausdrucken": {
+   "candidate": "cube-nets",
+   "s": [
+    "würfelnetze zum ausdrucken",
+    "würfelnetze zum ausdrucken pdf",
+    "würfelnetze zum ausdrucken kostenlos",
+    "11 würfelnetze zum ausdrucken",
+    "alle würfelnetze zum ausdrucken",
+    "verschiedene würfelnetze zum ausdrucken",
+    "würfelnetze grundschule zum ausdrucken",
+    "würfelnetze klasse 3 zum ausdrucken",
+    "würfelnetze klasse 3 zum ausdrucken kostenlos"
+   ]
+  },
+  "würfelnetze grundschule": {
+   "candidate": "cube-nets",
+   "s": [
+    "würfelnetze grundschule",
+    "würfelnetze grundschule ideenreise",
+    "würfelnetze grundschule klasse 3",
+    "würfelnetze grundschule material",
+    "würfelnetze grundschule arbeitsblätter",
+    "würfelnetze grundschule regeln",
+    "würfelnetze grundschule 3 klasse übungen",
+    "würfelnetze grundschule 4 klasse",
+    "würfelnetze grundschule pdf",
+    "würfelnetze grundschule erklären"
+   ]
+  },
+  "würfelnetze klasse 1": {
+   "candidate": "cube-nets",
+   "s": [
+    "würfelnetze klasse 1",
+    "würfelnetze klasse 3 11 möglichkeiten",
+    "11 würfelnetze klasse 3"
+   ]
+  },
+  "würfelnetze klasse 2": {
+   "candidate": "cube-nets",
+   "s": [
+    "würfelnetze klasse 2"
+   ]
+  },
+  "würfelnetze klasse 3": {
+   "candidate": "cube-nets",
+   "s": [
+    "würfelnetze klasse 3",
+    "würfelnetze klasse 3 arbeitsblätter",
+    "würfelnetze klasse 3 übungen pdf",
+    "würfelnetze klasse 3 übungen",
+    "würfelnetze klasse 3 erklärung",
+    "würfelnetze klasse 3 gegenüberliegende seiten",
+    "würfelnetze klasse 3 mit lösungen",
+    "würfelnetze klasse 3 pdf",
+    "würfelnetze klasse 3 zum ausdrucken",
+    "würfelnetze klasse 3 zum ausschneiden"
+   ]
+  },
+  "würfelnetz": {
+   "candidate": "cube-nets",
+   "s": [
+    "würfelnetze",
+    "würfelnetz",
+    "würfelnetze klasse 3",
+    "würfelnetze zum ausdrucken",
+    "würfelnetze grundschule",
+    "würfelnetze arbeitsblatt pdf",
+    "würfelnetz basteln",
+    "würfelnetze erkennen",
+    "würfelnetze klasse 4",
+    "würfelnetze erkennen trick"
+   ]
+  },
+  "würfelnetz arbeitsblatt": {
+   "candidate": "cube-nets",
+   "s": [
+    "würfelnetz arbeitsblatt",
+    "würfelnetz arbeitsblatt grundschule",
+    "würfelnetz arbeitsblatt pdf",
+    "würfelnetz quadernetz arbeitsblatt",
+    "würfelnetz zeichnen arbeitsblatt"
+   ]
+  },
+  "würfelnetz zum ausdrucken": {
+   "candidate": "cube-nets",
+   "s": [
+    "würfelnetz zum ausdrucken",
+    "würfelnetz zum ausdrucken kostenlos",
+    "würfelnetz zum ausdrucken pdf",
+    "würfelnetz vorlage zum ausdrucken"
+   ]
+  },
+  "würfelnetz grundschule": {
+   "candidate": "cube-nets",
+   "s": [
+    "würfelnetz grundschule",
+    "würfelnetz grundschule pdf",
+    "würfelnetz grundschule vorlage",
+    "würfelnetz erklärung grundschule",
+    "definition würfelnetz grundschule",
+    "würfelnetz basteln grundschule",
+    "würfelnetz arbeitsblatt grundschule"
+   ]
+  },
+  "würfelnetz klasse 2": {
+   "candidate": "cube-nets",
+   "s": [
+    "würfelnetz klasse 2"
+   ]
+  },
+  "würfelnetz klasse 3": {
+   "candidate": "cube-nets",
+   "s": [
+    "würfelnetz klasse 3",
+    "würfelnetz klasse 3 pdf",
+    "würfelnetz klasse 3 erklärung",
+    "würfelnetz aufgaben klasse 3",
+    "würfelnetz mathe 3 klasse"
+   ]
+  },
+  "fingerbilder": {
+   "candidate": "finger-counting",
+   "s": [
+    "fingerbilder",
+    "fingerbilder bis 10",
+    "fingerbilder kinder",
+    "fingerbilder mathematik",
+    "fingerbilder zahlen",
+    "fingerbilder ausdrucken",
+    "fingerbilder bis 20",
+    "fingerbilder 1-10",
+    "fingerbilder zahlen bis 10",
+    "fingerbilder bis 10 zum ausdrucken"
+   ]
+  },
+  "fingerbilder arbeitsblatt": {
+   "candidate": "finger-counting",
+   "s": [
+    "fingerbilder arbeitsblatt",
+    "fingerbilder bis 10 arbeitsblatt"
+   ]
+  },
+  "fingerbilder zum ausdrucken": {
+   "candidate": "finger-counting",
+   "s": [
+    "fingerbilder zum ausdrucken",
+    "fingerbilder ausdrucken kostenlos",
+    "fingerbilder bis 10 zum ausdrucken"
+   ]
+  },
+  "fingerbilder grundschule": {
+   "candidate": "finger-counting",
+   "s": [
+    "fingerbilder grundschule",
+    "fingerbilder mathe grundschule"
+   ]
+  },
+  "fingerbilder klasse 1": {
+   "candidate": "finger-counting",
+   "s": [
+    "fingerbilder klasse 1",
+    "fingerbilder mathe klasse 1"
+   ]
+  }
+ }
+}

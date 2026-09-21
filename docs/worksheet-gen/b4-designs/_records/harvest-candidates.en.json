@@ -1,0 +1,3389 @@
+{
+ "locale": "en",
+ "market": {
+  "hl": "en",
+  "gl": "us"
+ },
+ "generatedAt": "2026-09-21T00:18:29.280Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds.json",
+ "requestCount": 182,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cloze": {
+   "heads": [
+    "fill in the blank sentences",
+    "cloze"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 78,
+   "suggestions": [
+    "1st grade cloze reading passages",
+    "2nd grade cloze reading passages pdf",
+    "alphabet fill in the blank worksheets for kindergarten",
+    "close or cloze",
+    "close or cloze reading",
+    "cloze",
+    "cloze activities for 2nd grade",
+    "cloze activities for 3rd graders",
+    "cloze activity example",
+    "cloze examples",
+    "cloze md 0.25",
+    "cloze meaning",
+    "cloze passage worksheets",
+    "cloze procedure worksheets",
+    "cloze reading 2nd grade",
+    "cloze reading 3rd grade",
+    "cloze reading passages 1st grade pdf",
+    "cloze reading passages 2nd grade",
+    "cloze reading passages 3rd grade",
+    "cloze reading passages 3rd grade pdf",
+    "cloze sentences worksheets",
+    "cloze test",
+    "cloze test meaning",
+    "cloze test worksheets",
+    "cloze worksheets",
+    "cloze worksheets for grade 1",
+    "cloze worksheets grade 3",
+    "cloze worksheets grade 5",
+    "cloze worksheets pdf",
+    "clozee",
+    "clozemaster",
+    "clozemaster swedish",
+    "clozemaster vs duolingo",
+    "clozer lol",
+    "cvc sentences fill in the blank worksheets",
+    "easy fill in the blank sentences",
+    "fill in the blank example",
+    "fill in the blank examples",
+    "fill in the blank math worksheets for kindergarten",
+    "fill in the blank printable worksheets",
+    "fill in the blank second grade worksheets",
+    "fill in the blank sentences",
+    "fill in the blank sentences 1st grade",
+    "fill in the blank sentences 2nd grade",
+    "fill in the blank sentences 3rd grade",
+    "fill in the blank sentences for 1st grade",
+    "fill in the blank sentences for 2nd grade",
+    "fill in the blank sentences for adults",
+    "fill in the blank sentences for kids",
+    "fill in the blank sentences for kindergarten",
+    "fill in the blank sentences kindergarten",
+    "fill in the blank sentences speech therapy",
+    "fill in the blank sentences with pictures",
+    "fill in the blank sentences with word bank",
+    "fill in the blank sentences worksheets",
+    "fill in the blank sentences worksheets free",
+    "fill in the blank sentences worksheets pdf",
+    "fill in the blank words for kindergarten worksheets",
+    "fill in the blank worksheets 1st grade",
+    "fill in the blank worksheets 2nd grade",
+    "fill in the blank worksheets 3rd grade",
+    "fill in the blank worksheets grade 1",
+    "fill in the blank worksheets grade 3",
+    "fill in the blank worksheets kindergarten",
+    "fill in the blanks in sentences",
+    "fill in the blanks math worksheets 1st grade",
+    "fill in the blanks sentences exercises",
+    "free cloze worksheets pdf",
+    "free printable cloze reading passages",
+    "free printable cloze worksheets",
+    "free printable fill in the blank sentences",
+    "funny fill in the blank sentences",
+    "kindergarten cloze passages",
+    "kindergarten fill in the blank sentence worksheets",
+    "sight word fill in the blank sentences for kindergarten",
+    "simple fill in the blank sentences",
+    "what is a cloze reading activity",
+    "what is cloze test with example"
+   ]
+  },
+  "dominoes": {
+   "heads": [
+    "printable dominoes",
+    "dominoes"
+   ],
+   "requests": 14,
+   "productiveSeeds": 5,
+   "unique": 44,
+   "suggestions": [
+    "adding with dominoes worksheets",
+    "counting dominoes worksheets",
+    "counting dominoes worksheets for kindergarten",
+    "domino kindergarten frielingsdorf",
+    "domino kindergarten göppingen",
+    "domino kindergarten langenhagen",
+    "domino kindergarten lindlar",
+    "domino kindergarten math",
+    "domino kindergarten münchen",
+    "domino kindergarten nordhausen",
+    "domino kindergarten wedemark",
+    "domino worksheets for first grade",
+    "domino worksheets for kindergarten",
+    "dominoes for 5 year old",
+    "dominoes for kindergarten",
+    "dominoes game",
+    "dominoes printable",
+    "dominoes printable free",
+    "dominoes printable pdf",
+    "dominoes rules",
+    "dominos",
+    "dominos 1 hour policy",
+    "dominos kristianstad",
+    "dominos lund",
+    "dominos malmö",
+    "dominos near me",
+    "dominos or dominoes",
+    "dominos pizza",
+    "dominos stockholm",
+    "dominos sweden",
+    "dominos worksheets",
+    "how to play dominoes printable instructions",
+    "math dominoes worksheets",
+    "printable domino's menu",
+    "printable dominoes",
+    "printable dominoes game",
+    "printable dominoes instructions",
+    "printable dominoes pdf",
+    "printable dominoes pdf free download",
+    "printable dominoes rules",
+    "printable dominoes rules pdf",
+    "printable dominoes rules pdf free download",
+    "printable dominoes score sheet",
+    "printable dominoes score sheet pdf"
+   ]
+  },
+  "human-body": {
+   "heads": [
+    "body parts",
+    "parts of the body"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 131,
+   "suggestions": [
+    "animal body parts grade 3",
+    "body organs grade 3",
+    "body parts",
+    "body parts 1 grade",
+    "body parts 1st grade",
+    "body parts 2nd grade",
+    "body parts 2nd grade wordwall",
+    "body parts 2nd grade worksheet",
+    "body parts 3 grade",
+    "body parts 3 grade lesson plan",
+    "body parts 3rd grade",
+    "body parts arm",
+    "body parts diagram",
+    "body parts example",
+    "body parts explained",
+    "body parts grade 1 lesson plan",
+    "body parts grade 1 pdf",
+    "body parts grade 1 ppt",
+    "body parts grade 1 quiz",
+    "body parts grade 1 video",
+    "body parts grade 1 wordwall",
+    "body parts grade 1 worksheet",
+    "body parts grade 1 worksheet pdf",
+    "body parts grade 3 worksheet",
+    "body parts images",
+    "body parts in english",
+    "body parts in spanish",
+    "body parts in swedish",
+    "body parts kindergarten",
+    "body parts kindergarten activities",
+    "body parts kindergarten flashcards",
+    "body parts kindergarten games",
+    "body parts kindergarten lesson plan",
+    "body parts kindergarten pdf",
+    "body parts kindergarten song",
+    "body parts kindergarten wordwall",
+    "body parts kindergarten worksheet",
+    "body parts kindergarten worksheet pdf",
+    "body parts name",
+    "body parts name for class 2",
+    "body parts name in english",
+    "body parts picture",
+    "body parts printable",
+    "body parts printable flashcards",
+    "body parts printable for kids",
+    "body parts printable for kids pdf",
+    "body parts printable for toddlers",
+    "body parts printable free",
+    "body parts printable pdf",
+    "body parts printable pdf free download",
+    "body parts printable puzzle",
+    "body parts printable worksheets",
+    "body parts types",
+    "body parts worksheets",
+    "body parts worksheets for grade 1",
+    "body parts worksheets for kids",
+    "body parts worksheets for kinder",
+    "body parts worksheets for kindergarten",
+    "body parts worksheets for kindergarten pdf",
+    "body parts worksheets for nursery",
+    "body parts worksheets for preschoolers",
+    "body parts worksheets pdf",
+    "external parts of the body grade 3",
+    "human body parts 2nd grade",
+    "human body parts grade 3",
+    "insect body parts grade 3",
+    "internal body parts grade 3",
+    "internal parts of the body grade 3",
+    "my body parts grade 3",
+    "parts of human body for grade 3",
+    "parts of human body for kindergarten",
+    "parts of the body",
+    "parts of the body 1 grade",
+    "parts of the body 1st grade",
+    "parts of the body 2nd grade",
+    "parts of the body 3 grade",
+    "parts of the body 3rd grade",
+    "parts of the body and their uses for kindergarten",
+    "parts of the body chart",
+    "parts of the body flashcards printable",
+    "parts of the body for kids",
+    "parts of the body grade 1 activity",
+    "parts of the body grade 1 lesson plan",
+    "parts of the body grade 1 module",
+    "parts of the body grade 1 pdf",
+    "parts of the body grade 1 ppt",
+    "parts of the body grade 1 wordwall",
+    "parts of the body grade 1 worksheet",
+    "parts of the body grade 1 worksheet with answers",
+    "parts of the body grade 3 lesson plan",
+    "parts of the body grade 3 module",
+    "parts of the body grade 3 worksheet",
+    "parts of the body images",
+    "parts of the body in english",
+    "parts of the body in french",
+    "parts of the body in swedish",
+    "parts of the body internal",
+    "parts of the body kindergarten",
+    "parts of the body kindergarten activities",
+    "parts of the body kindergarten exam",
+    "parts of the body kindergarten lesson",
+    "parts of the body kindergarten lesson plan",
+    "parts of the body kindergarten pdf",
+    "parts of the body kindergarten ppt",
+    "parts of the body kindergarten worksheet",
+    "parts of the body name",
+    "parts of the body printable",
+    "parts of the body printable chart",
+    "parts of the body printable for kids",
+    "parts of the body printable free",
+    "parts of the body printable pdf",
+    "parts of the body printable puzzle",
+    "parts of the body printable worksheets",
+    "parts of the body printable worksheets for kindergarten",
+    "parts of the body science grade 3",
+    "parts of the body stickers printable",
+    "parts of the body worksheet",
+    "parts of the body worksheet 2nd grade",
+    "parts of the body worksheets",
+    "parts of the body worksheets for grade 1",
+    "parts of the body worksheets for grade 2",
+    "parts of the body worksheets for grade 3 pdf",
+    "parts of the body worksheets for kinder",
+    "parts of the body worksheets for kindergarten",
+    "parts of the body worksheets for kindergarten pdf",
+    "parts of the body worksheets for nursery",
+    "parts of the body worksheets for preschoolers",
+    "parts of the body worksheets kids",
+    "parts of the body worksheets pdf",
+    "parts of the human body grade 3",
+    "what are the 12 parts of the body"
+   ]
+  },
+  "five-senses": {
+   "heads": [
+    "five senses",
+    "5 senses"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 113,
+   "suggestions": [
+    "5 sense organs grade 3",
+    "5 senses",
+    "5 senses 1st grade",
+    "5 senses 1st grade worksheet",
+    "5 senses 2nd grade",
+    "5 senses 3rd grade",
+    "5 senses activities",
+    "5 senses activities for 2nd grade",
+    "5 senses activities for grade 3",
+    "5 senses activity grade 3",
+    "5 senses anchor chart 1st grade",
+    "5 senses examples",
+    "5 senses explained",
+    "5 senses for 1st grade",
+    "5 senses games for 1st grade",
+    "5 senses gift",
+    "5 senses gift bags",
+    "5 senses gift ideas",
+    "5 senses gift ideas for him",
+    "5 senses grade 1",
+    "5 senses grade 1 project",
+    "5 senses grade 1 worksheets",
+    "5 senses grade 3",
+    "5 senses grade 3 ppt",
+    "5 senses grade 3 science",
+    "5 senses grade 3 worksheet",
+    "5 senses grounding",
+    "5 senses grounding technique",
+    "5 senses kindergarten",
+    "5 senses kindergarten activities",
+    "5 senses kindergarten activities printable",
+    "5 senses kindergarten book",
+    "5 senses kindergarten craft",
+    "5 senses kindergarten lesson",
+    "5 senses kindergarten lesson plan",
+    "5 senses kindergarten project",
+    "5 senses kindergarten video",
+    "5 senses kindergarten worksheet",
+    "5 senses of the body",
+    "5 senses printable",
+    "5 senses printable activity",
+    "5 senses printable book",
+    "5 senses printable book for preschool",
+    "5 senses printable free",
+    "5 senses printable free pdf",
+    "5 senses printable pdf",
+    "5 senses printable pictures",
+    "5 senses printable tags",
+    "5 senses printable worksheet",
+    "5 senses quiz grade 3",
+    "5 senses video for first grade",
+    "5 senses worksheet",
+    "5 senses worksheet 2nd grade",
+    "5 senses worksheet grade 3 with answers",
+    "5 senses worksheets",
+    "5 senses worksheets for grade 1",
+    "5 senses worksheets for grade 3",
+    "5 senses worksheets for kids",
+    "5 senses worksheets for kindergarten",
+    "5 senses worksheets for kindergarten pdf",
+    "5 senses worksheets for preschool free",
+    "5 senses worksheets for preschoolers",
+    "5 senses worksheets free",
+    "5 senses worksheets pdf",
+    "five sense organs grade 3",
+    "five senses",
+    "five senses 1st grade",
+    "five senses 2nd grade",
+    "five senses activities for first grade",
+    "five senses activity grade 3",
+    "five senses coffee",
+    "five senses education",
+    "five senses for kids",
+    "five senses garden",
+    "five senses grade 1",
+    "five senses grade 1 lesson plan",
+    "five senses grade 1 ppt",
+    "five senses grade 1 wordwall",
+    "five senses grade 1 worksheet",
+    "five senses grade 3 lesson plan",
+    "five senses grade 3 ppt",
+    "five senses grade 3 worksheet",
+    "five senses kindergarten",
+    "five senses kindergarten activities",
+    "five senses kindergarten lesson plan",
+    "five senses kindergarten song",
+    "five senses kindergarten standards",
+    "five senses kindergarten video",
+    "five senses kindergarten worksheet",
+    "five senses of human",
+    "five senses printable",
+    "five senses printable book",
+    "five senses printable free",
+    "five senses printable free pdf",
+    "five senses printable pdf",
+    "five senses printable pictures",
+    "five senses printable worksheet",
+    "five senses restaurant",
+    "five senses santorini",
+    "five senses spa",
+    "five senses video for first grade",
+    "five senses worksheet",
+    "five senses worksheets",
+    "five senses worksheets for 3rd grade pdf",
+    "five senses worksheets for grade 1",
+    "five senses worksheets for grade 3",
+    "five senses worksheets for kids",
+    "five senses worksheets for kindergarten",
+    "five senses worksheets for kindergarten pdf",
+    "five senses worksheets for preschool",
+    "five senses worksheets for preschool pdf",
+    "five senses worksheets pdf",
+    "grade 3 five senses worksheets for 3rd grade"
+   ]
+  },
+  "weather": {
+   "heads": [
+    "weather",
+    "weather chart"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 129,
+   "suggestions": [
+    "climate 3rd grade",
+    "severe weather 2nd grade",
+    "weather",
+    "weather 1 grade",
+    "weather 1st grade",
+    "weather 1st grade wordwall",
+    "weather 1st grade worksheets",
+    "weather 2nd grade",
+    "weather 2nd grade video",
+    "weather 2nd grade worksheets",
+    "weather 3 grade",
+    "weather 3rd grade",
+    "weather 3rd grade worksheets",
+    "weather activities 1st grade",
+    "weather activities 2nd grade",
+    "weather anchor chart 1st grade",
+    "weather anchor chart 2nd grade",
+    "weather anchor chart 3rd grade",
+    "weather anchor chart kindergarten",
+    "weather chart",
+    "weather chart 1st grade",
+    "weather chart 2nd grade",
+    "weather chart construction",
+    "weather chart example",
+    "weather chart for 3rd grade",
+    "weather chart for 7 days",
+    "weather chart for classroom",
+    "weather chart for grade 3 learners",
+    "weather chart for grade 3 pdf",
+    "weather chart for grade 3 south africa",
+    "weather chart for kids",
+    "weather chart for kindergarten classroom",
+    "weather chart for school project",
+    "weather chart grade 1",
+    "weather chart grade 3",
+    "weather chart ideas for classroom",
+    "weather chart kinder",
+    "weather chart kindergarten",
+    "weather chart kindergarten printable",
+    "weather chart preschool",
+    "weather chart preschool free printables",
+    "weather chart preschool pdf",
+    "weather chart preschool printable",
+    "weather chart print",
+    "weather chart printable",
+    "weather chart printable classroom",
+    "weather chart printable for kids",
+    "weather chart printable free",
+    "weather chart printable pdf",
+    "weather chart template",
+    "weather chart template for construction",
+    "weather chart today",
+    "weather chart worksheet for kids",
+    "weather chart worksheet for kindergarten",
+    "weather chart worksheet grade 1",
+    "weather chart worksheet grade 2",
+    "weather chart worksheet grade 3",
+    "weather chart worksheet grade 4",
+    "weather chart worksheets",
+    "weather charters towers",
+    "weather charthawal",
+    "weather chartres",
+    "weather copenhagen",
+    "weather experiments 1st grade",
+    "weather for 1st graders",
+    "weather for grade 1",
+    "weather for grade 2",
+    "weather for grade 3",
+    "weather for second graders",
+    "weather gothenburg",
+    "weather grade 3 lesson",
+    "weather grade 3 lesson plan",
+    "weather grade 3 module",
+    "weather grade 3 ppt",
+    "weather grade 3 science",
+    "weather graph 1st grade",
+    "weather graph 3rd grade",
+    "weather graph kindergarten",
+    "weather graph printable",
+    "weather journal 2nd grade",
+    "weather kahoot 2nd grade",
+    "weather kindergarten",
+    "weather kindergarten activities",
+    "weather kindergarten bamboozle",
+    "weather kindergarten lesson",
+    "weather kindergarten lesson plan",
+    "weather kindergarten ontario",
+    "weather kindergarten pdf",
+    "weather kindergarten video",
+    "weather kindergarten wordwall",
+    "weather kindergarten worksheets",
+    "weather london",
+    "weather lund",
+    "weather malmö",
+    "weather map worksheets",
+    "weather map worksheets for middle school",
+    "weather maps printable",
+    "weather observation chart grade 3",
+    "weather printable coloring pages",
+    "weather printable flashcards",
+    "weather printable for kids",
+    "weather printable preschool",
+    "weather printable worksheets",
+    "weather printables",
+    "weather printables for kindergarten",
+    "weather printables for toddlers",
+    "weather printables free",
+    "weather printables free pdf",
+    "weather stockholm",
+    "weather symbols for grade 2",
+    "weather today",
+    "weather tomorrow",
+    "weather tools 1st grade",
+    "weather uppsala",
+    "weather video 1st grade",
+    "weather video 3rd grade",
+    "weather words 1st grade",
+    "weather worksheets",
+    "weather worksheets for 3rd grade",
+    "weather worksheets for elementary students",
+    "weather worksheets for grade 1",
+    "weather worksheets for grade 2",
+    "weather worksheets for grade r",
+    "weather worksheets for kids",
+    "weather worksheets for kindergarten",
+    "weather worksheets for preschool",
+    "weather worksheets pdf",
+    "wild weather 2nd grade",
+    "wild weather 2nd grade quiz"
+   ]
+  },
+  "tangram": {
+   "heads": [
+    "tangram",
+    "tangram puzzles"
+   ],
+   "requests": 14,
+   "productiveSeeds": 13,
+   "unique": 72,
+   "suggestions": [
+    "benefits of tangram puzzles",
+    "define tangram in math example",
+    "different types of tangram puzzles",
+    "kindergarten tangram activities",
+    "online tangram puzzles for kindergarten",
+    "tangram",
+    "tangram activities for 1st grade",
+    "tangram activities for 2nd grade",
+    "tangram activities for 3rd grade",
+    "tangram animals for kindergarten",
+    "tangram examples",
+    "tangram für kindergartenkinder",
+    "tangram grade 1",
+    "tangram heightmapper",
+    "tangram kindergarten",
+    "tangram mall",
+    "tangram meaning",
+    "tangram patterns for kindergarten",
+    "tangram pictures",
+    "tangram printable",
+    "tangram printable black and white",
+    "tangram printable pdf",
+    "tangram printable pdf free",
+    "tangram printable pdf free download with answers",
+    "tangram printable puzzles",
+    "tangram printable shapes",
+    "tangram printable template",
+    "tangram printable template pdf",
+    "tangram printables free",
+    "tangram pussel",
+    "tangram puzzle",
+    "tangram puzzle examples",
+    "tangram puzzle ideas",
+    "tangram puzzle worksheets",
+    "tangram puzzles",
+    "tangram puzzles for adults",
+    "tangram puzzles for kids",
+    "tangram puzzles grade 3",
+    "tangram puzzles kids",
+    "tangram puzzles kindergarten",
+    "tangram puzzles online",
+    "tangram puzzles pdf",
+    "tangram puzzles printable",
+    "tangram puzzles printable free",
+    "tangram puzzles printable pdf",
+    "tangram puzzles printable pdf for adults",
+    "tangram puzzles printable pdf free",
+    "tangram puzzles printable pdf free download",
+    "tangram puzzles printable pdf free download with answers",
+    "tangram puzzles printable pdf with answers",
+    "tangram puzzles printable pdf with answers for adults",
+    "tangram puzzles printable pdf with answers pdf free",
+    "tangram puzzles printable with answers",
+    "tangram puzzles with answers",
+    "tangram puzzles worksheets pdf",
+    "tangram regal",
+    "tangram rules",
+    "tangram shapes",
+    "tangram shapes grade 1",
+    "tangram shapes grade 3",
+    "tangram shapes with 7 pieces",
+    "tangram shapes worksheets",
+    "tangram worksheets",
+    "tangram worksheets 3rd grade",
+    "tangram worksheets for kindergarten",
+    "tangram worksheets free",
+    "tangram worksheets grade 4",
+    "tangram worksheets pdf",
+    "tangram worksheets printable free",
+    "tangrams 3rd grade",
+    "tangrams for 2nd grade",
+    "what is a tangram"
+   ]
+  },
+  "recycling": {
+   "heads": [
+    "recycling",
+    "recycling sort"
+   ],
+   "requests": 14,
+   "productiveSeeds": 10,
+   "unique": 89,
+   "suggestions": [
+    "1st grade recycling project ideas",
+    "1st grade recycling project ideas for school",
+    "2nd grade recycling project ideas",
+    "2nd grade recycling project ideas for school",
+    "3rd grade recycling project ideas",
+    "can you recycle a 2",
+    "can you recycle plastic with a 1",
+    "can you recycle plastic with a 2",
+    "how to recycle old sheets",
+    "how to sort bottles for recycling",
+    "how to sort recycling",
+    "how to sort recycling at home",
+    "is 2 recyclable",
+    "is number 3 plastic recyclable",
+    "is number 3 recyclable",
+    "is recycle 1 recyclable",
+    "kindergarten recycling lesson",
+    "kindergarten recycling project ideas",
+    "printable recycling coupons",
+    "printable recycling coupons near me",
+    "printable recycling symbol",
+    "recycle 2 meaning",
+    "recycle project 2nd grade",
+    "recycle project 3rd grade",
+    "recycling",
+    "recycling 1st grade",
+    "recycling bins",
+    "recycling center",
+    "recycling center uppsala",
+    "recycling centre near me",
+    "recycling craft kindergarten",
+    "recycling for first grade",
+    "recycling gothenburg",
+    "recycling grade 1",
+    "recycling grade 3",
+    "recycling grade 3 activities",
+    "recycling grade 3 worksheets",
+    "recycling in sweden",
+    "recycling kindergarten",
+    "recycling kindergarten activities",
+    "recycling kindergarten project",
+    "recycling kindergarten video",
+    "recycling kindergarten worksheets",
+    "recycling lesson plan for 2nd grade",
+    "recycling near me",
+    "recycling poster kindergarten",
+    "recycling printable activities",
+    "recycling printable for kids",
+    "recycling printable pictures",
+    "recycling printable signs",
+    "recycling printable worksheets",
+    "recycling printables",
+    "recycling printables for preschool",
+    "recycling project for 1st grade",
+    "recycling project ideas for 2nd graders",
+    "recycling projects for 3rd graders",
+    "recycling sort activity",
+    "recycling sort printable",
+    "recycling sort worksheet",
+    "recycling sorter",
+    "recycling sorter bin",
+    "recycling sorter jobs",
+    "recycling sorter jobs near me",
+    "recycling sorting",
+    "recycling sorting activity",
+    "recycling sorting activity printable",
+    "recycling sorting bins",
+    "recycling sorting bins for home",
+    "recycling sorting free printables",
+    "recycling sorting game",
+    "recycling sorting game printable",
+    "recycling sorting game printable free",
+    "recycling sorting machine",
+    "recycling sorting worksheets for kindergarten",
+    "recycling station kindergarten",
+    "recycling station near me",
+    "recycling stockholm",
+    "recycling worksheet 1st grade",
+    "recycling worksheets",
+    "recycling worksheets for high school pdf",
+    "recycling worksheets for kids",
+    "recycling worksheets for kindergarten",
+    "recycling worksheets for preschool",
+    "recycling worksheets for toddlers",
+    "recycling worksheets free",
+    "recycling worksheets grade 3",
+    "recycling worksheets pdf",
+    "recycling worksheets pdf free download",
+    "what is a 1 in recycling"
+   ]
+  },
+  "odd-and-even": {
+   "heads": [
+    "odd and even numbers",
+    "even and odd"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 123,
+   "suggestions": [
+    "2nd grade math odd and even numbers",
+    "2nd grade odd and even numbers project",
+    "even and odd",
+    "even and odd 1st grade",
+    "even and odd 2nd grade",
+    "even and odd 2nd grade anchor chart",
+    "even and odd 2nd grade worksheets",
+    "even and odd 3rd grade",
+    "even and odd activities 2nd grade",
+    "even and odd anchor chart 3rd grade",
+    "even and odd anchor chart printable",
+    "even and odd brand",
+    "even and odd chart printable",
+    "even and odd examples",
+    "even and odd functions",
+    "even and odd games 2nd grade",
+    "even and odd kindergarten",
+    "even and odd kindergarten worksheets",
+    "even and odd number chart printable",
+    "even and odd numbers",
+    "even and odd numbers 1st grade",
+    "even and odd numbers 2nd grade",
+    "even and odd numbers 2nd grade worksheet",
+    "even and odd numbers 3rd grade",
+    "even and odd numbers activities for 1st grade",
+    "even and odd numbers activities for kindergarten",
+    "even and odd numbers free printable worksheets",
+    "even and odd numbers grade 1",
+    "even and odd numbers grade 1 worksheet",
+    "even and odd numbers grade 3 worksheet",
+    "even and odd numbers kindergarten",
+    "even and odd numbers printable",
+    "even and odd numbers printable worksheets",
+    "even and odd numbers video 2nd grade",
+    "even and odd numbers worksheet",
+    "even and odd numbers worksheet for kindergarten",
+    "even and odd practice 2nd grade",
+    "even and odd print",
+    "even and odd printable",
+    "even and odd riesling",
+    "even and odd rules",
+    "even and odd shoes",
+    "even and odd skor",
+    "even and odd song 2nd grade",
+    "even and odd tshirt print",
+    "even and odd väska",
+    "even and odd worksheet grade 1",
+    "even and odd worksheets",
+    "even and odd worksheets 1st grade",
+    "even and odd worksheets 2nd grade",
+    "even and odd worksheets 3rd grade",
+    "even and odd worksheets for grade 1",
+    "even and odd worksheets for grade 2",
+    "even and odd worksheets for kindergarten",
+    "even and odd worksheets free",
+    "even and odd worksheets grade 3",
+    "even and odd worksheets pdf",
+    "even and odd zalando",
+    "how to explain odd and even numbers to 2nd grade",
+    "identifying odd and even numbers grade 3",
+    "odd and even numbers",
+    "odd and even numbers 1 to 100",
+    "odd and even numbers 1st grade",
+    "odd and even numbers 2nd grade",
+    "odd and even numbers 2nd grade worksheets",
+    "odd and even numbers 3rd grade",
+    "odd and even numbers activities for grade 3",
+    "odd and even numbers activities for kindergarten",
+    "odd and even numbers activities grade 1",
+    "odd and even numbers anchor chart 2nd grade",
+    "odd and even numbers chart",
+    "odd and even numbers chart 3rd grade",
+    "odd and even numbers definition",
+    "odd and even numbers for kids",
+    "odd and even numbers for kids 2nd grade",
+    "odd and even numbers grade 1",
+    "odd and even numbers grade 1 worksheet",
+    "odd and even numbers grade 3",
+    "odd and even numbers grade 3 lesson plan",
+    "odd and even numbers grade 3 ppt",
+    "odd and even numbers grade 3 worksheet",
+    "odd and even numbers in hindi",
+    "odd and even numbers kindergarten",
+    "odd and even numbers kindergarten worksheets",
+    "odd and even numbers lesson plan for kindergarten",
+    "odd and even numbers ppt grade 1",
+    "odd and even numbers preschool",
+    "odd and even numbers print",
+    "odd and even numbers printable",
+    "odd and even numbers printable chart",
+    "odd and even numbers song for kindergarten",
+    "odd and even numbers video for kindergarten",
+    "odd and even numbers worksheet",
+    "odd and even numbers worksheet for class 2",
+    "odd and even numbers worksheet grade 1",
+    "odd and even numbers worksheet grade 1 pdf",
+    "odd and even numbers worksheet grade 1 pdf with answers",
+    "odd and even numbers worksheet grade 2",
+    "odd and even numbers worksheet grade 3 pdf",
+    "odd and even numbers worksheet grade 3 pdf with answers",
+    "odd and even numbers worksheets",
+    "odd and even numbers worksheets 1st grade",
+    "odd and even numbers worksheets for kindergarten pdf",
+    "odd and even numbers worksheets grade 1",
+    "odd and even numbers worksheets grade 1 with answers",
+    "odd and even numbers worksheets grade 2",
+    "odd and even numbers worksheets grade 3",
+    "odd and even numbers worksheets grade 3 with answers",
+    "odd and even numbers worksheets grade 4",
+    "odd and even numbers worksheets grade 5",
+    "odd and even numbers worksheets pdf",
+    "odd and even numbers worksheets with answers",
+    "odd and even numbers worksheets with answers pdf",
+    "odd and even printable worksheets",
+    "odd and even rules",
+    "odd even number program",
+    "odd even numbers activities 2nd grade",
+    "preschool odd and even numbers worksheet for kindergarten",
+    "teaching even and odd numbers 1st grade",
+    "teaching even and odd numbers to kindergarten",
+    "teaching odd and even numbers 2nd grade",
+    "teaching odd and even numbers to kindergarten",
+    "wordwall odd and even numbers grade 1"
+   ]
+  },
+  "rounding": {
+   "heads": [
+    "rounding numbers",
+    "rounding to the nearest 10"
+   ],
+   "requests": 14,
+   "productiveSeeds": 12,
+   "unique": 82,
+   "suggestions": [
+    "2 round off to the nearest 10",
+    "3 rounded to the nearest ten",
+    "how do i round to the nearest 10",
+    "rounding numbers",
+    "rounding numbers 2nd grade",
+    "rounding numbers 3rd grade",
+    "rounding numbers 3rd grade pdf",
+    "rounding numbers 3rd grade video",
+    "rounding numbers 3rd grade worksheets",
+    "rounding numbers 3rd grade worksheets pdf",
+    "rounding numbers 4th grade",
+    "rounding numbers anchor chart",
+    "rounding numbers calculator",
+    "rounding numbers examples",
+    "rounding numbers exercises",
+    "rounding numbers grade 1",
+    "rounding numbers grade 3 math",
+    "rounding numbers grade 3 ppt",
+    "rounding numbers grade 3 worksheets with answers",
+    "rounding numbers grade 3 youtube",
+    "rounding numbers in excel",
+    "rounding numbers rules",
+    "rounding numbers to 10",
+    "rounding numbers to 100",
+    "rounding numbers to the nearest 10",
+    "rounding numbers to the nearest 100",
+    "rounding numbers video for 2nd grade",
+    "rounding numbers worksheet for class 5",
+    "rounding numbers worksheets",
+    "rounding numbers worksheets grade 3",
+    "rounding numbers worksheets grade 4",
+    "rounding numbers worksheets grade 4 with answers",
+    "rounding numbers worksheets grade 5",
+    "rounding numbers worksheets grade 6",
+    "rounding numbers worksheets grade 7",
+    "rounding numbers worksheets pdf",
+    "rounding numbers worksheets with answers",
+    "rounding numbers worksheets with answers pdf",
+    "rounding of the nearest 10",
+    "rounding to the nearest 10",
+    "rounding to the nearest 10 100 and 1000",
+    "rounding to the nearest 10 100 and 1000 worksheets pdf",
+    "rounding to the nearest 10 2nd grade",
+    "rounding to the nearest 10 3rd grade",
+    "rounding to the nearest 10 3rd grade worksheets",
+    "rounding to the nearest 10 and 100 3rd grade",
+    "rounding to the nearest 10 and 100 games",
+    "rounding to the nearest 10 and 100 worksheets with answers",
+    "rounding to the nearest 10 game",
+    "rounding to the nearest 10 game printable",
+    "rounding to the nearest 10 grade 1",
+    "rounding to the nearest 10 grade 3",
+    "rounding to the nearest 10 grade 3 worksheet",
+    "rounding to the nearest 10 video for 3rd grade",
+    "rounding to the nearest 10 worksheet",
+    "rounding to the nearest 10 worksheet grade 1",
+    "rounding to the nearest 10 worksheet pdf",
+    "rounding to the nearest 10 worksheet with answers",
+    "rounding to the nearest 10 worksheet with answers grade 2",
+    "rounding to the nearest 10 worksheet with answers grade 3",
+    "rounding to the nearest 10 worksheet with answers grade 4",
+    "rounding to the nearest 10 worksheet with answers grade 5",
+    "rounding to the nearest 10 worksheet with answers pdf",
+    "rounding to the nearest 10 worksheet with number line",
+    "rounding to the nearest 10 worksheets",
+    "rounding to the nearest 10 worksheets 3rd grade",
+    "rounding to the nearest 10 worksheets for 2nd grade",
+    "rounding to the nearest 10 worksheets free",
+    "rounding to the nearest 10 worksheets pdf",
+    "rounding to the nearest 10 worksheets with answers",
+    "rounding to the nearest 100",
+    "rounding to the nearest 100 worksheet with answers",
+    "rounding to the nearest 1000",
+    "rounding to the nearest ten video for 2nd grade",
+    "rounding to the nearest ten worksheets",
+    "rounding to the nearest tenth 3rd grade worksheet",
+    "rounding to the nearest tenth for 3rd graders",
+    "rounding to the nearest tenth worksheets",
+    "rounding to the nearest tenth worksheets free",
+    "rounding to the nearest tenth worksheets with answers",
+    "rounding whole numbers 3rd grade",
+    "what is the rule for rounding numbers"
+   ]
+  },
+  "pronouns": {
+   "heads": [
+    "pronouns",
+    "personal pronouns"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 123,
+   "suggestions": [
+    "indefinite pronouns 1st grade",
+    "personal pronouns",
+    "personal pronouns 1 grade",
+    "personal pronouns 1st grade",
+    "personal pronouns 2nd grade",
+    "personal pronouns 3rd grade",
+    "personal pronouns activities for grade 2",
+    "personal pronouns activities for grade 4",
+    "personal pronouns examples",
+    "personal pronouns exercises",
+    "personal pronouns for second grade",
+    "personal pronouns german",
+    "personal pronouns grade 1 ppt",
+    "personal pronouns grade 1 worksheets",
+    "personal pronouns grade 3 module",
+    "personal pronouns grade 3 ppt",
+    "personal pronouns grade 3 worksheets",
+    "personal pronouns grade 3 worksheets with answers",
+    "personal pronouns in spanish",
+    "personal pronouns in swedish",
+    "personal pronouns kids esl",
+    "personal pronouns kids exercise",
+    "personal pronouns kids video",
+    "personal pronouns kindergarten",
+    "personal pronouns meaning",
+    "personal pronouns preschool",
+    "personal pronouns printable",
+    "personal pronouns printable worksheet",
+    "personal pronouns wordwall",
+    "personal pronouns worksheet",
+    "personal pronouns worksheet 2nd grade",
+    "personal pronouns worksheet for class 4",
+    "personal pronouns worksheet for class 5",
+    "personal pronouns worksheet grade 2",
+    "personal pronouns worksheet grade 3",
+    "personal pronouns worksheet grade 4",
+    "personal pronouns worksheet pdf",
+    "personal pronouns worksheet with answers",
+    "personal pronouns worksheets",
+    "personal pronouns worksheets for grade 1",
+    "personal pronouns worksheets for grade 2 pdf",
+    "personal pronouns worksheets for grade 5",
+    "personal pronouns worksheets for grade 5 with answers pdf",
+    "personal pronouns worksheets grade 2",
+    "personal pronouns worksheets grade 3",
+    "personal pronouns worksheets grade 4",
+    "personal pronouns worksheets pdf",
+    "possessive pronouns 1st grade",
+    "possessive pronouns 1st grade worksheets",
+    "possessive pronouns 2nd grade",
+    "possessive pronouns 2nd grade worksheets",
+    "possessive pronouns 3rd grade",
+    "possessive pronouns 3rd grade worksheet",
+    "possessive pronouns grade 1",
+    "possessive pronouns grade 1 wordwall",
+    "possessive pronouns grade 1 worksheet",
+    "possessive pronouns grade 3 lesson",
+    "possessive pronouns grade 3 ppt",
+    "possessive pronouns grade 3 worksheets with answers",
+    "possessive pronouns kindergarten",
+    "possessive pronouns printable",
+    "possessive pronouns video 1st grade",
+    "possessive pronouns video 2nd grade",
+    "possessive pronouns worksheet printable",
+    "pronoun printable chart",
+    "pronounce",
+    "pronouns",
+    "pronouns 1st grade",
+    "pronouns 1st grade worksheet",
+    "pronouns 2nd grade",
+    "pronouns 2nd grade video",
+    "pronouns 2nd grade worksheet",
+    "pronouns 3 grade",
+    "pronouns 3rd grade",
+    "pronouns 3rd grade video",
+    "pronouns 3rd grade worksheets",
+    "pronouns cc",
+    "pronouns examples",
+    "pronouns first grade video",
+    "pronouns flashcards printable",
+    "pronouns flashcards printable pdf",
+    "pronouns for 1st graders",
+    "pronouns for kindergarten students",
+    "pronouns for second grade",
+    "pronouns grade 3 liveworksheets",
+    "pronouns grade 3 pdf",
+    "pronouns grade 3 periwinkle",
+    "pronouns grade 3 ppt",
+    "pronouns grade 3 wordwall",
+    "pronouns grade 3 worksheet",
+    "pronouns in english",
+    "pronouns in instagram",
+    "pronouns in swedish",
+    "pronouns kindergarten",
+    "pronouns kindergarten pdf",
+    "pronouns kindergarten worksheet",
+    "pronouns meaning",
+    "pronouns page",
+    "pronouns poster printable",
+    "pronouns printable",
+    "pronouns printable worksheets",
+    "pronouns svenska",
+    "pronouns worksheet kindergarten free",
+    "pronouns worksheets",
+    "pronouns worksheets for grade 1",
+    "pronouns worksheets for grade 3",
+    "pronouns worksheets for grade 5 with answers pdf",
+    "pronouns worksheets for grade 6",
+    "pronouns worksheets for grade 7",
+    "pronouns worksheets grade 2",
+    "pronouns worksheets grade 4",
+    "pronouns worksheets grade 5",
+    "pronouns worksheets pdf",
+    "reflexive pronouns 2nd grade",
+    "reflexive pronouns 2nd grade worksheet",
+    "subject pronouns 1st grade",
+    "subject pronouns 2nd grade",
+    "subject pronouns kindergarten",
+    "subject pronouns kindergarten worksheets",
+    "subject pronouns printable",
+    "wordwall pronouns 1st grade",
+    "wordwall pronouns 2nd grade",
+    "wordwall pronouns kindergarten"
+   ]
+  },
+  "question-words": {
+   "heads": [
+    "question words",
+    "wh questions"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 99,
+   "suggestions": [
+    "3 letter question words",
+    "3rd grade words to know",
+    "answering wh questions kindergarten",
+    "interrogative words worksheets",
+    "question words",
+    "question words 1st grade",
+    "question words 2nd grade",
+    "question words 3rd grade",
+    "question words activities for kindergarten",
+    "question words anchor chart 1st grade",
+    "question words anchor chart 2nd grade",
+    "question words anchor chart kindergarten",
+    "question words exercises",
+    "question words for class 1",
+    "question words for class 2",
+    "question words for grade 1",
+    "question words for grade 3",
+    "question words for kindergarten",
+    "question words grade 1 worksheet",
+    "question words in arabic",
+    "question words in english",
+    "question words in french",
+    "question words in german",
+    "question words in hindi",
+    "question words in spanish",
+    "question words in swedish",
+    "question words kindergarten",
+    "question words kindergarten worksheets",
+    "question words printable",
+    "question words video for kindergarten",
+    "question words worksheet",
+    "question words worksheet for class 1",
+    "question words worksheet for class 2",
+    "question words worksheet for class 2 with answers",
+    "question words worksheet for class 3",
+    "question words worksheet for grade 1",
+    "question words worksheet pdf",
+    "question words worksheet with answers",
+    "question words worksheet with answers pdf",
+    "question words worksheets",
+    "question words worksheets for esl beginners",
+    "question words worksheets for grade 1",
+    "question words worksheets for grade 2",
+    "question words worksheets for grade 3",
+    "question words worksheets for kindergarten",
+    "question words worksheets printable free",
+    "questions words worksheets pdf",
+    "short stories with wh questions 1st grade",
+    "teaching question words to kindergarten",
+    "wh question rules for class 3",
+    "wh question words for kindergarten",
+    "wh questions",
+    "wh questions 1st grade",
+    "wh questions 20 examples",
+    "wh questions 2nd grade",
+    "wh questions 3rd grade",
+    "wh questions 3rd grade worksheet",
+    "wh questions examples",
+    "wh questions examples for grade 1",
+    "wh questions exercises",
+    "wh questions for 3 year olds",
+    "wh questions for beginners",
+    "wh questions for class 3",
+    "wh questions for kids",
+    "wh questions grade 1",
+    "wh questions grade 1 worksheets",
+    "wh questions in english",
+    "wh questions kinder",
+    "wh questions kindergarten",
+    "wh questions kindergarten pdf",
+    "wh questions kindergarten wordwall",
+    "wh questions kindergarten worksheets",
+    "wh questions preschool",
+    "wh questions preschool activity",
+    "wh questions preschool speech therapy",
+    "wh questions printable",
+    "wh questions printable exercises",
+    "wh questions printable flashcards",
+    "wh questions speech therapy",
+    "wh questions with answers",
+    "wh questions wordwall",
+    "wh questions worksheet first grade",
+    "wh questions worksheets",
+    "wh questions worksheets 2nd grade",
+    "wh questions worksheets for grade 2",
+    "wh questions worksheets for grade 6",
+    "wh questions worksheets for kids",
+    "wh questions worksheets for kindergarten pdf",
+    "wh questions worksheets grade 1",
+    "wh questions worksheets grade 3",
+    "wh questions worksheets grade 4",
+    "wh questions worksheets pdf",
+    "wh questions worksheets pdf free",
+    "wh questions worksheets with answers",
+    "wh questions worksheets with answers pdf",
+    "what are the 5 question words",
+    "what are the 7 wh questions",
+    "what are wh questions examples",
+    "wordwall wh questions 2nd grade"
+   ]
+  },
+  "cube-nets": {
+   "heads": [
+    "nets of 3d shapes",
+    "cube net"
+   ],
+   "requests": 14,
+   "productiveSeeds": 6,
+   "unique": 40,
+   "suggestions": [
+    "cube net",
+    "cube net diagram",
+    "cube net examples",
+    "cube net print",
+    "cube net printable",
+    "cube net printable a4",
+    "cube net printable free",
+    "cube net printable pdf",
+    "cube net shape",
+    "cube net template",
+    "cube net template a4",
+    "cube net template editable",
+    "cube net template free download",
+    "cube net template pdf",
+    "cube netflix",
+    "cube netherlands",
+    "cube nets 11 plus",
+    "cube nets worksheet pdf",
+    "cube nets worksheets",
+    "cube networks",
+    "nets of 3d shapes",
+    "nets of 3d shapes and names worksheet",
+    "nets of 3d shapes corbettmaths",
+    "nets of 3d shapes pdf",
+    "nets of 3d shapes printable",
+    "nets of 3d shapes printable pdf",
+    "nets of 3d shapes project",
+    "nets of 3d shapes to cut out and make",
+    "nets of 3d shapes worksheet",
+    "nets of 3d shapes worksheet corbettmaths",
+    "nets of 3d shapes worksheet grade 4",
+    "nets of 3d shapes worksheet grade 5",
+    "nets of 3d shapes worksheet pdf",
+    "nets of 3d shapes worksheet with answers",
+    "nets of 3d shapes worksheet with answers pdf",
+    "nets of 3d shapes worksheet with answers pdf grade",
+    "nets of 3d shapes worksheet year 5",
+    "nets of 3d shapes worksheet year 6",
+    "nets of 3d shapes worksheets",
+    "nets of 3d shapes worksheets with answers"
+   ]
+  },
+  "finger-counting": {
+   "heads": [
+    "finger counting",
+    "counting on fingers"
+   ],
+   "requests": 14,
+   "productiveSeeds": 6,
+   "unique": 36,
+   "suggestions": [
+    "abacus finger counting worksheets",
+    "counting finger digits",
+    "counting fingers kindergarten",
+    "counting fingers meaning",
+    "counting on fingers",
+    "counting on fingers and toes gif",
+    "counting on fingers by country",
+    "counting on fingers clipart",
+    "counting on fingers gif",
+    "counting on fingers in china",
+    "counting on fingers in chinese",
+    "counting on fingers in different countries",
+    "counting on fingers meme",
+    "counting on fingers pose",
+    "counting on fingers worksheet",
+    "finger counting",
+    "finger counting 1 to 10",
+    "finger counting gif",
+    "finger counting images",
+    "finger counting in chinese",
+    "finger counting in different countries",
+    "finger counting machine",
+    "finger counting machine use",
+    "finger counting methods",
+    "finger counting preschool",
+    "finger counting printable",
+    "finger counting watch",
+    "finger counting worksheet",
+    "finger counting worksheet free",
+    "finger counting worksheet pdf",
+    "finger counting worksheets",
+    "finger counting worksheets for kindergarten",
+    "finger math worksheets",
+    "finger math worksheets pdf",
+    "is counting with your fingers bad",
+    "is finger counting bad"
+   ]
+  }
+ },
+ "suggestions": {
+  "fill in the blank sentences": {
+   "candidate": "cloze",
+   "s": [
+    "fill in the blank sentences",
+    "fill in the blank sentences for adults",
+    "fill in the blank sentences for kids",
+    "fill in the blank sentences with word bank",
+    "fill in the blank sentences for 2nd grade",
+    "fill in the blank sentences for 1st grade",
+    "fill in the blank sentences for kindergarten",
+    "fill in the blank sentences with pictures",
+    "fill in the blank sentences 3rd grade",
+    "fill in the blank sentences speech therapy"
+   ]
+  },
+  "fill in the blank sentences worksheets": {
+   "candidate": "cloze",
+   "s": [
+    "fill in the blank sentences worksheets pdf",
+    "fill in the blank sentences worksheets",
+    "fill in the blank sentences worksheets free",
+    "kindergarten fill in the blank sentence worksheets",
+    "fill in the blanks sentences exercises",
+    "cvc sentences fill in the blank worksheets",
+    "fill in the blank example",
+    "simple fill in the blank sentences"
+   ]
+  },
+  "fill in the blank sentences printable": {
+   "candidate": "cloze",
+   "s": [
+    "fill in the blank sentences worksheets pdf",
+    "fill in the blank sentences worksheets",
+    "fill in the blank sentences kindergarten",
+    "fill in the blank sentences worksheets free",
+    "fill in the blank printable worksheets",
+    "free printable fill in the blank sentences",
+    "fill in the blank example",
+    "fill in the blanks in sentences"
+   ]
+  },
+  "fill in the blank sentences kindergarten": {
+   "candidate": "cloze",
+   "s": [
+    "fill in the blank sentences kindergarten",
+    "fill in the blank worksheets kindergarten",
+    "sight word fill in the blank sentences for kindergarten",
+    "kindergarten fill in the blank sentence worksheets",
+    "alphabet fill in the blank worksheets for kindergarten",
+    "fill in the blank words for kindergarten worksheets",
+    "fill in the blank math worksheets for kindergarten",
+    "fill in the blank example",
+    "simple fill in the blank sentences",
+    "easy fill in the blank sentences"
+   ]
+  },
+  "fill in the blank sentences 1st grade": {
+   "candidate": "cloze",
+   "s": [
+    "fill in the blank sentences 1st grade",
+    "fill in the blank worksheets 1st grade",
+    "fill in the blanks math worksheets 1st grade",
+    "fill in the blank worksheets grade 1",
+    "funny fill in the blank sentences",
+    "fill in the blank examples",
+    "simple fill in the blank sentences"
+   ]
+  },
+  "fill in the blank sentences 2nd grade": {
+   "candidate": "cloze",
+   "s": [
+    "fill in the blank sentences 2nd grade",
+    "fill in the blank worksheets 2nd grade",
+    "fill in the blank second grade worksheets",
+    "fill in the blank example",
+    "funny fill in the blank sentences"
+   ]
+  },
+  "fill in the blank sentences 3rd grade": {
+   "candidate": "cloze",
+   "s": [
+    "fill in the blank sentences 3rd grade",
+    "fill in the blank worksheets 3rd grade",
+    "fill in the blank worksheets grade 3",
+    "funny fill in the blank sentences",
+    "fill in the blank example"
+   ]
+  },
+  "cloze": {
+   "candidate": "cloze",
+   "s": [
+    "clozemaster",
+    "clozemaster swedish",
+    "clozer lol",
+    "clozemaster vs duolingo",
+    "cloze test",
+    "cloze",
+    "clozee",
+    "cloze md 0.25",
+    "cloze test meaning",
+    "cloze meaning"
+   ]
+  },
+  "cloze worksheets": {
+   "candidate": "cloze",
+   "s": [
+    "cloze worksheets",
+    "cloze worksheets for grade 1",
+    "cloze worksheets pdf",
+    "cloze worksheets grade 3",
+    "cloze worksheets grade 5",
+    "cloze passage worksheets",
+    "cloze procedure worksheets",
+    "free cloze worksheets pdf",
+    "cloze sentences worksheets",
+    "cloze test worksheets"
+   ]
+  },
+  "cloze printable": {
+   "candidate": "cloze",
+   "s": [
+    "free printable cloze reading passages",
+    "free printable cloze worksheets",
+    "cloze examples",
+    "close or cloze",
+    "what is cloze test with example"
+   ]
+  },
+  "cloze kindergarten": {
+   "candidate": "cloze",
+   "s": [
+    "kindergarten cloze passages",
+    "what is a cloze reading activity",
+    "cloze examples",
+    "close or cloze reading",
+    "cloze activity example"
+   ]
+  },
+  "cloze 1st grade": {
+   "candidate": "cloze",
+   "s": [
+    "cloze reading passages 1st grade pdf",
+    "1st grade cloze reading passages",
+    "cloze examples",
+    "what is cloze test with example"
+   ]
+  },
+  "cloze 2nd grade": {
+   "candidate": "cloze",
+   "s": [
+    "cloze reading 2nd grade",
+    "cloze reading passages 2nd grade",
+    "cloze activities for 2nd grade",
+    "2nd grade cloze reading passages pdf",
+    "cloze examples",
+    "close or cloze reading"
+   ]
+  },
+  "cloze 3rd grade": {
+   "candidate": "cloze",
+   "s": [
+    "cloze reading 3rd grade",
+    "cloze reading passages 3rd grade pdf",
+    "cloze reading passages 3rd grade",
+    "cloze activities for 3rd graders",
+    "cloze examples",
+    "what is cloze test with example"
+   ]
+  },
+  "printable dominoes": {
+   "candidate": "dominoes",
+   "s": [
+    "printable dominoes",
+    "printable dominoes pdf",
+    "printable dominoes pdf free download",
+    "printable dominoes rules",
+    "printable domino's menu",
+    "printable dominoes instructions",
+    "printable dominoes rules pdf",
+    "printable dominoes score sheet",
+    "printable dominoes score sheet pdf",
+    "how to play dominoes printable instructions"
+   ]
+  },
+  "dominoes": {
+   "candidate": "dominoes",
+   "s": [
+    "dominos",
+    "dominos pizza",
+    "dominos sweden",
+    "dominos lund",
+    "dominoes game",
+    "dominoes rules",
+    "dominos stockholm",
+    "dominos near me",
+    "dominos kristianstad",
+    "dominos malmö"
+   ]
+  },
+  "dominoes worksheets": {
+   "candidate": "dominoes",
+   "s": [
+    "dominos worksheets",
+    "domino worksheets for kindergarten",
+    "domino worksheets for first grade",
+    "math dominoes worksheets",
+    "counting dominoes worksheets",
+    "counting dominoes worksheets for kindergarten",
+    "adding with dominoes worksheets",
+    "dominos or dominoes",
+    "dominoes rules",
+    "dominos 1 hour policy"
+   ]
+  },
+  "dominoes printable": {
+   "candidate": "dominoes",
+   "s": [
+    "dominoes printable",
+    "dominoes printable pdf",
+    "dominoes printable free",
+    "printable dominoes rules pdf",
+    "printable dominoes pdf free download",
+    "printable dominoes rules",
+    "printable dominoes rules pdf free download",
+    "printable dominoes score sheet",
+    "printable dominoes game",
+    "printable dominoes score sheet pdf"
+   ]
+  },
+  "dominoes kindergarten": {
+   "candidate": "dominoes",
+   "s": [
+    "domino kindergarten math",
+    "dominoes for kindergarten",
+    "domino kindergarten nordhausen",
+    "domino kindergarten frielingsdorf",
+    "domino kindergarten lindlar",
+    "domino kindergarten münchen",
+    "domino kindergarten göppingen",
+    "domino kindergarten langenhagen",
+    "domino kindergarten wedemark",
+    "dominoes for 5 year old"
+   ]
+  },
+  "body parts": {
+   "candidate": "human-body",
+   "s": [
+    "body parts in swedish",
+    "body parts name",
+    "body parts in english",
+    "body parts in spanish",
+    "body parts arm",
+    "body parts",
+    "body parts name in english",
+    "body parts images",
+    "body parts diagram",
+    "body parts picture"
+   ]
+  },
+  "body parts worksheets": {
+   "candidate": "human-body",
+   "s": [
+    "body parts worksheets for kindergarten",
+    "body parts worksheets",
+    "body parts worksheets for grade 1",
+    "body parts worksheets for kids",
+    "body parts worksheets for kindergarten pdf",
+    "body parts worksheets pdf",
+    "body parts worksheets for nursery",
+    "body parts worksheets for kinder",
+    "body parts worksheets for preschoolers",
+    "body parts explained"
+   ]
+  },
+  "body parts printable": {
+   "candidate": "human-body",
+   "s": [
+    "body parts printable",
+    "body parts printable for kids",
+    "body parts printable pdf",
+    "body parts printable free",
+    "body parts printable puzzle",
+    "body parts printable for toddlers",
+    "body parts printable for kids pdf",
+    "body parts printable pdf free download",
+    "body parts printable worksheets",
+    "body parts printable flashcards"
+   ]
+  },
+  "body parts kindergarten": {
+   "candidate": "human-body",
+   "s": [
+    "body parts kindergarten",
+    "body parts kindergarten worksheet",
+    "body parts kindergarten activities",
+    "body parts kindergarten wordwall",
+    "body parts kindergarten pdf",
+    "body parts kindergarten games",
+    "body parts kindergarten flashcards",
+    "body parts kindergarten song",
+    "body parts kindergarten lesson plan",
+    "body parts kindergarten worksheet pdf"
+   ]
+  },
+  "body parts 1st grade": {
+   "candidate": "human-body",
+   "s": [
+    "body parts 1st grade",
+    "body parts 1 grade",
+    "body parts grade 1 worksheet",
+    "body parts grade 1 wordwall",
+    "body parts grade 1 worksheet pdf",
+    "body parts grade 1 video",
+    "body parts grade 1 ppt",
+    "body parts grade 1 lesson plan",
+    "body parts grade 1 pdf",
+    "body parts grade 1 quiz"
+   ]
+  },
+  "body parts 2nd grade": {
+   "candidate": "human-body",
+   "s": [
+    "body parts 2nd grade",
+    "body parts 2nd grade worksheet",
+    "body parts 2nd grade wordwall",
+    "human body parts 2nd grade",
+    "body parts explained",
+    "body parts example",
+    "body parts name for class 2",
+    "body parts types"
+   ]
+  },
+  "body parts 3rd grade": {
+   "candidate": "human-body",
+   "s": [
+    "body parts 3rd grade",
+    "body parts 3 grade",
+    "body parts 3 grade lesson plan",
+    "body parts grade 3 worksheet",
+    "body organs grade 3",
+    "human body parts grade 3",
+    "insect body parts grade 3",
+    "animal body parts grade 3",
+    "internal body parts grade 3",
+    "my body parts grade 3"
+   ]
+  },
+  "parts of the body": {
+   "candidate": "human-body",
+   "s": [
+    "parts of the body",
+    "parts of the body in swedish",
+    "parts of the body in english",
+    "parts of the body for kids",
+    "parts of the body internal",
+    "parts of the body name",
+    "parts of the body worksheet",
+    "parts of the body images",
+    "parts of the body chart",
+    "parts of the body in french"
+   ]
+  },
+  "parts of the body worksheets": {
+   "candidate": "human-body",
+   "s": [
+    "parts of the body worksheets for kindergarten",
+    "parts of the body worksheets",
+    "parts of the body worksheets for grade 1",
+    "parts of the body worksheets for kinder",
+    "parts of the body worksheets for preschoolers",
+    "parts of the body worksheets for nursery",
+    "parts of the body worksheets kids",
+    "parts of the body worksheets pdf",
+    "parts of the body worksheets for kindergarten pdf",
+    "parts of the body worksheets for grade 2"
+   ]
+  },
+  "parts of the body printable": {
+   "candidate": "human-body",
+   "s": [
+    "parts of the body printable",
+    "parts of the body printable for kids",
+    "parts of the body printable worksheets for kindergarten",
+    "parts of the body printable pdf",
+    "parts of the body printable chart",
+    "parts of the body printable worksheets",
+    "parts of the body printable free",
+    "parts of the body printable puzzle",
+    "parts of the body flashcards printable",
+    "parts of the body stickers printable"
+   ]
+  },
+  "parts of the body kindergarten": {
+   "candidate": "human-body",
+   "s": [
+    "parts of the body kindergarten",
+    "parts of the body kindergarten worksheet",
+    "parts of the body kindergarten activities",
+    "parts of the body kindergarten ppt",
+    "parts of the body kindergarten lesson plan",
+    "parts of the body kindergarten exam",
+    "parts of the body kindergarten lesson",
+    "parts of the body kindergarten pdf",
+    "parts of human body for kindergarten",
+    "parts of the body and their uses for kindergarten"
+   ]
+  },
+  "parts of the body 1st grade": {
+   "candidate": "human-body",
+   "s": [
+    "parts of the body 1st grade",
+    "parts of the body 1 grade",
+    "parts of the body grade 1 worksheet",
+    "parts of the body grade 1 lesson plan",
+    "parts of the body grade 1 wordwall",
+    "parts of the body grade 1 ppt",
+    "parts of the body grade 1 module",
+    "parts of the body grade 1 pdf",
+    "parts of the body grade 1 worksheet with answers",
+    "parts of the body grade 1 activity"
+   ]
+  },
+  "parts of the body 2nd grade": {
+   "candidate": "human-body",
+   "s": [
+    "parts of the body 2nd grade",
+    "parts of the body worksheet 2nd grade",
+    "parts of human body for grade 3",
+    "what are the 12 parts of the body",
+    "body parts explained"
+   ]
+  },
+  "parts of the body 3rd grade": {
+   "candidate": "human-body",
+   "s": [
+    "parts of the body 3rd grade",
+    "parts of the body 3 grade",
+    "parts of the body grade 3 worksheet",
+    "parts of the body grade 3 module",
+    "parts of the body grade 3 lesson plan",
+    "parts of the body science grade 3",
+    "internal parts of the body grade 3",
+    "parts of the human body grade 3",
+    "external parts of the body grade 3",
+    "parts of the body worksheets for grade 3 pdf"
+   ]
+  },
+  "five senses": {
+   "candidate": "five-senses",
+   "s": [
+    "five senses",
+    "five senses santorini",
+    "five senses coffee",
+    "five senses education",
+    "five senses spa",
+    "five senses of human",
+    "five senses for kids",
+    "five senses restaurant",
+    "five senses worksheet",
+    "five senses garden"
+   ]
+  },
+  "five senses worksheets": {
+   "candidate": "five-senses",
+   "s": [
+    "five senses worksheets for kindergarten",
+    "five senses worksheets for preschool pdf",
+    "five senses worksheets",
+    "five senses worksheets for kindergarten pdf",
+    "five senses worksheets for kids",
+    "five senses worksheets for grade 1",
+    "five senses worksheets for preschool",
+    "five senses worksheets for grade 3",
+    "five senses worksheets pdf",
+    "five senses worksheets for 3rd grade pdf"
+   ]
+  },
+  "five senses printable": {
+   "candidate": "five-senses",
+   "s": [
+    "five senses printable",
+    "five senses printable free",
+    "five senses printable pictures",
+    "five senses printable free pdf",
+    "five senses printable worksheet",
+    "five senses printable book",
+    "five senses printable pdf",
+    "5 senses printable tags",
+    "5 senses printable activity",
+    "5 senses printable book for preschool"
+   ]
+  },
+  "five senses kindergarten": {
+   "candidate": "five-senses",
+   "s": [
+    "five senses kindergarten",
+    "five senses kindergarten worksheet",
+    "five senses kindergarten activities",
+    "five senses kindergarten lesson plan",
+    "five senses kindergarten video",
+    "five senses kindergarten song",
+    "five senses kindergarten standards",
+    "5 senses kindergarten project",
+    "5 senses kindergarten lesson",
+    "5 senses kindergarten activities printable"
+   ]
+  },
+  "five senses 1st grade": {
+   "candidate": "five-senses",
+   "s": [
+    "five senses 1st grade",
+    "5 senses 1st grade worksheet",
+    "five senses grade 1",
+    "five senses grade 1 worksheet",
+    "five senses grade 1 lesson plan",
+    "five senses grade 1 ppt",
+    "five senses grade 1 wordwall",
+    "5 senses grade 1 project",
+    "five senses video for first grade",
+    "five senses activities for first grade"
+   ]
+  },
+  "five senses 2nd grade": {
+   "candidate": "five-senses",
+   "s": [
+    "five senses 2nd grade",
+    "5 senses worksheet 2nd grade",
+    "5 senses for 1st grade",
+    "5 senses activities for grade 3",
+    "5 senses activities"
+   ]
+  },
+  "five senses 3rd grade": {
+   "candidate": "five-senses",
+   "s": [
+    "5 senses 3rd grade",
+    "five senses grade 3 worksheet",
+    "five senses grade 3 lesson plan",
+    "five senses grade 3 ppt",
+    "5 senses grade 3",
+    "5 senses grade 3 science",
+    "five senses worksheets for 3rd grade pdf",
+    "five senses activity grade 3",
+    "five sense organs grade 3",
+    "grade 3 five senses worksheets for 3rd grade"
+   ]
+  },
+  "5 senses": {
+   "candidate": "five-senses",
+   "s": [
+    "5 senses",
+    "5 senses of the body",
+    "5 senses gift",
+    "5 senses grounding",
+    "5 senses gift ideas for him",
+    "5 senses grounding technique",
+    "5 senses examples",
+    "5 senses worksheet",
+    "5 senses gift ideas",
+    "5 senses gift bags"
+   ]
+  },
+  "5 senses worksheets": {
+   "candidate": "five-senses",
+   "s": [
+    "5 senses worksheets for kindergarten",
+    "5 senses worksheets",
+    "5 senses worksheets for grade 1",
+    "5 senses worksheets for preschoolers",
+    "5 senses worksheets for grade 3",
+    "5 senses worksheets for kids",
+    "5 senses worksheets for kindergarten pdf",
+    "5 senses worksheets pdf",
+    "5 senses worksheets free",
+    "5 senses worksheets for preschool free"
+   ]
+  },
+  "5 senses printable": {
+   "candidate": "five-senses",
+   "s": [
+    "5 senses printable",
+    "5 senses printable free",
+    "5 senses printable tags",
+    "5 senses printable worksheet",
+    "5 senses printable pictures",
+    "5 senses printable activity",
+    "5 senses printable free pdf",
+    "5 senses printable pdf",
+    "5 senses printable book",
+    "5 senses printable book for preschool"
+   ]
+  },
+  "5 senses kindergarten": {
+   "candidate": "five-senses",
+   "s": [
+    "5 senses kindergarten",
+    "5 senses kindergarten worksheet",
+    "5 senses kindergarten activities",
+    "5 senses kindergarten lesson",
+    "5 senses kindergarten project",
+    "5 senses kindergarten video",
+    "5 senses kindergarten lesson plan",
+    "5 senses kindergarten activities printable",
+    "5 senses kindergarten book",
+    "5 senses kindergarten craft"
+   ]
+  },
+  "5 senses 1st grade": {
+   "candidate": "five-senses",
+   "s": [
+    "5 senses 1st grade",
+    "5 senses 1st grade worksheet",
+    "5 senses grade 1",
+    "5 senses grade 1 worksheets",
+    "5 senses grade 1 project",
+    "5 senses video for first grade",
+    "five senses grade 1 lesson plan",
+    "5 senses anchor chart 1st grade",
+    "5 senses games for 1st grade",
+    "five senses grade 1 ppt"
+   ]
+  },
+  "5 senses 2nd grade": {
+   "candidate": "five-senses",
+   "s": [
+    "5 senses 2nd grade",
+    "5 senses worksheet 2nd grade",
+    "5 senses activities for 2nd grade",
+    "5 senses for 1st grade",
+    "5 senses activities for grade 3",
+    "5 senses explained"
+   ]
+  },
+  "5 senses 3rd grade": {
+   "candidate": "five-senses",
+   "s": [
+    "5 senses 3rd grade",
+    "5 senses grade 3",
+    "5 senses grade 3 worksheet",
+    "5 senses grade 3 ppt",
+    "5 senses grade 3 science",
+    "five senses grade 3 lesson plan",
+    "5 senses activity grade 3",
+    "5 senses worksheet grade 3 with answers",
+    "5 senses quiz grade 3",
+    "5 sense organs grade 3"
+   ]
+  },
+  "weather": {
+   "candidate": "weather",
+   "s": [
+    "weather",
+    "weather stockholm",
+    "weather tomorrow",
+    "weather gothenburg",
+    "weather malmö",
+    "weather today",
+    "weather uppsala",
+    "weather copenhagen",
+    "weather london",
+    "weather lund"
+   ]
+  },
+  "weather worksheets": {
+   "candidate": "weather",
+   "s": [
+    "weather worksheets",
+    "weather worksheets for kindergarten",
+    "weather worksheets for preschool",
+    "weather worksheets for kids",
+    "weather worksheets for grade 1",
+    "weather worksheets for 3rd grade",
+    "weather worksheets pdf",
+    "weather worksheets for grade 2",
+    "weather worksheets for grade r",
+    "weather worksheets for elementary students"
+   ]
+  },
+  "weather printable": {
+   "candidate": "weather",
+   "s": [
+    "weather printables",
+    "weather printable for kids",
+    "weather printables free",
+    "weather printable preschool",
+    "weather printable coloring pages",
+    "weather printables for toddlers",
+    "weather printable worksheets",
+    "weather printable flashcards",
+    "weather printables for kindergarten",
+    "weather printables free pdf"
+   ]
+  },
+  "weather kindergarten": {
+   "candidate": "weather",
+   "s": [
+    "weather kindergarten",
+    "weather kindergarten worksheets",
+    "weather kindergarten wordwall",
+    "weather kindergarten ontario",
+    "weather kindergarten activities",
+    "weather kindergarten video",
+    "weather kindergarten lesson plan",
+    "weather kindergarten lesson",
+    "weather kindergarten bamboozle",
+    "weather kindergarten pdf"
+   ]
+  },
+  "weather 1st grade": {
+   "candidate": "weather",
+   "s": [
+    "weather 1st grade",
+    "weather 1st grade worksheets",
+    "weather 1st grade wordwall",
+    "weather 1 grade",
+    "weather words 1st grade",
+    "weather activities 1st grade",
+    "weather for 1st graders",
+    "weather experiments 1st grade",
+    "weather video 1st grade",
+    "weather tools 1st grade"
+   ]
+  },
+  "weather 2nd grade": {
+   "candidate": "weather",
+   "s": [
+    "weather 2nd grade",
+    "weather 2nd grade worksheets",
+    "weather 2nd grade video",
+    "weather for second graders",
+    "wild weather 2nd grade quiz",
+    "severe weather 2nd grade",
+    "wild weather 2nd grade",
+    "weather kahoot 2nd grade",
+    "weather activities 2nd grade",
+    "weather journal 2nd grade"
+   ]
+  },
+  "weather 3rd grade": {
+   "candidate": "weather",
+   "s": [
+    "weather 3rd grade",
+    "weather 3rd grade worksheets",
+    "weather video 3rd grade",
+    "weather 3 grade",
+    "climate 3rd grade",
+    "weather grade 3 lesson plan",
+    "weather grade 3 science",
+    "weather grade 3 module",
+    "weather grade 3 ppt",
+    "weather grade 3 lesson"
+   ]
+  },
+  "weather chart": {
+   "candidate": "weather",
+   "s": [
+    "weather chart",
+    "weather chart for kids",
+    "weather charthawal",
+    "weather chart for school project",
+    "weather chart for 7 days",
+    "weather chart for classroom",
+    "weather chart today",
+    "weather chart construction",
+    "weather charters towers",
+    "weather chartres"
+   ]
+  },
+  "weather chart worksheets": {
+   "candidate": "weather",
+   "s": [
+    "weather chart worksheets",
+    "weather map worksheets",
+    "weather map worksheets for middle school",
+    "weather chart worksheet grade 4",
+    "weather chart worksheet grade 1",
+    "weather chart worksheet for kindergarten",
+    "weather chart worksheet grade 2",
+    "weather chart worksheet grade 3",
+    "weather chart worksheet for kids",
+    "weather chart printable"
+   ]
+  },
+  "weather chart printable": {
+   "candidate": "weather",
+   "s": [
+    "weather chart printable",
+    "weather chart printable free",
+    "weather chart printable pdf",
+    "weather chart printable classroom",
+    "weather chart printable for kids",
+    "weather graph printable",
+    "weather maps printable",
+    "weather chart print",
+    "weather chart template",
+    "weather chart template for construction"
+   ]
+  },
+  "weather chart kindergarten": {
+   "candidate": "weather",
+   "s": [
+    "weather chart kindergarten",
+    "weather chart kindergarten printable",
+    "weather graph kindergarten",
+    "weather chart kinder",
+    "weather chart preschool",
+    "weather chart preschool printable",
+    "weather chart preschool free printables",
+    "weather chart preschool pdf",
+    "weather anchor chart kindergarten",
+    "weather chart for kindergarten classroom"
+   ]
+  },
+  "weather chart 1st grade": {
+   "candidate": "weather",
+   "s": [
+    "weather chart 1st grade",
+    "weather graph 1st grade",
+    "weather chart grade 1",
+    "weather anchor chart 1st grade",
+    "weather for grade 1"
+   ]
+  },
+  "weather chart 2nd grade": {
+   "candidate": "weather",
+   "s": [
+    "weather chart 2nd grade",
+    "weather anchor chart 2nd grade",
+    "weather for grade 2",
+    "weather symbols for grade 2",
+    "weather chart example",
+    "weather chart ideas for classroom"
+   ]
+  },
+  "weather chart 3rd grade": {
+   "candidate": "weather",
+   "s": [
+    "weather graph 3rd grade",
+    "weather chart grade 3",
+    "weather anchor chart 3rd grade",
+    "weather chart for 3rd grade",
+    "weather chart for grade 3 learners",
+    "weather chart for grade 3 pdf",
+    "weather chart for grade 3 south africa",
+    "weather observation chart grade 3",
+    "weather chart worksheet grade 3",
+    "weather for grade 3"
+   ]
+  },
+  "tangram": {
+   "candidate": "tangram",
+   "s": [
+    "tangram",
+    "tangram heightmapper",
+    "tangram puzzle",
+    "tangram shapes",
+    "tangram pussel",
+    "tangram mall",
+    "tangram regal",
+    "tangram meaning",
+    "tangram pictures",
+    "tangram shapes with 7 pieces"
+   ]
+  },
+  "tangram worksheets": {
+   "candidate": "tangram",
+   "s": [
+    "tangram worksheets",
+    "tangram worksheets grade 4",
+    "tangram worksheets pdf",
+    "tangram worksheets free",
+    "tangram worksheets 3rd grade",
+    "tangram worksheets for kindergarten",
+    "tangram worksheets printable free",
+    "tangram puzzle worksheets",
+    "tangram puzzles worksheets pdf",
+    "tangram shapes worksheets"
+   ]
+  },
+  "tangram printable": {
+   "candidate": "tangram",
+   "s": [
+    "tangram printable",
+    "tangram printable pdf",
+    "tangram printables free",
+    "tangram printable black and white",
+    "tangram printable puzzles",
+    "tangram printable template",
+    "tangram printable pdf free",
+    "tangram printable pdf free download with answers",
+    "tangram printable template pdf",
+    "tangram printable shapes"
+   ]
+  },
+  "tangram kindergarten": {
+   "candidate": "tangram",
+   "s": [
+    "tangram kindergarten",
+    "kindergarten tangram activities",
+    "tangram puzzles kindergarten",
+    "tangram animals for kindergarten",
+    "tangram worksheets for kindergarten",
+    "tangram patterns for kindergarten",
+    "tangram für kindergartenkinder",
+    "tangram rules",
+    "tangram activities for 3rd grade",
+    "tangram examples"
+   ]
+  },
+  "tangram 1st grade": {
+   "candidate": "tangram",
+   "s": [
+    "tangram grade 1",
+    "tangram activities for 1st grade",
+    "tangram rules",
+    "what is a tangram"
+   ]
+  },
+  "tangram 2nd grade": {
+   "candidate": "tangram",
+   "s": [
+    "tangrams for 2nd grade",
+    "tangram activities for 2nd grade",
+    "tangram activities for 3rd grade",
+    "tangram rules",
+    "define tangram in math example"
+   ]
+  },
+  "tangram 3rd grade": {
+   "candidate": "tangram",
+   "s": [
+    "tangrams 3rd grade",
+    "tangram worksheets 3rd grade",
+    "tangram activities for 3rd grade",
+    "tangram rules",
+    "what is a tangram",
+    "tangram examples"
+   ]
+  },
+  "tangram puzzles": {
+   "candidate": "tangram",
+   "s": [
+    "tangram puzzles",
+    "tangram puzzles printable",
+    "tangram puzzles for kids",
+    "tangram puzzles printable pdf with answers",
+    "tangram puzzles printable pdf",
+    "tangram puzzles online",
+    "tangram puzzles for adults",
+    "tangram puzzles pdf",
+    "tangram puzzles printable free",
+    "tangram puzzles with answers"
+   ]
+  },
+  "tangram puzzles worksheets": {
+   "candidate": "tangram",
+   "s": [
+    "tangram puzzles worksheets pdf",
+    "tangram puzzle worksheets",
+    "tangram shapes worksheets",
+    "tangram puzzles printable",
+    "tangram puzzles printable pdf with answers",
+    "tangram puzzles printable pdf",
+    "tangram puzzles printable free",
+    "tangram puzzles printable pdf free download",
+    "tangram puzzles printable pdf with answers pdf free",
+    "tangram puzzles printable with answers"
+   ]
+  },
+  "tangram puzzles printable": {
+   "candidate": "tangram",
+   "s": [
+    "tangram puzzles printable pdf with answers",
+    "tangram puzzles printable pdf",
+    "tangram puzzles printable free",
+    "tangram puzzles printable pdf with answers pdf free",
+    "tangram puzzles printable pdf free download",
+    "tangram puzzles printable with answers",
+    "tangram puzzles printable pdf with answers for adults",
+    "tangram puzzles printable pdf free",
+    "tangram puzzles printable pdf for adults",
+    "tangram puzzles printable pdf free download with answers"
+   ]
+  },
+  "tangram puzzles kindergarten": {
+   "candidate": "tangram",
+   "s": [
+    "tangram puzzles kindergarten",
+    "tangram puzzles kids",
+    "online tangram puzzles for kindergarten",
+    "tangram puzzle ideas",
+    "tangram puzzle examples",
+    "benefits of tangram puzzles",
+    "tangram activities for 3rd grade"
+   ]
+  },
+  "tangram puzzles 1st grade": {
+   "candidate": "tangram",
+   "s": [
+    "tangram shapes grade 1",
+    "benefits of tangram puzzles",
+    "tangram puzzle ideas",
+    "tangram puzzle examples",
+    "different types of tangram puzzles"
+   ]
+  },
+  "tangram puzzles 3rd grade": {
+   "candidate": "tangram",
+   "s": [
+    "tangram worksheets 3rd grade",
+    "tangram puzzles grade 3",
+    "tangram shapes grade 3",
+    "tangram activities for 3rd grade",
+    "tangram puzzle examples",
+    "benefits of tangram puzzles",
+    "tangram puzzle ideas",
+    "different types of tangram puzzles"
+   ]
+  },
+  "recycling": {
+   "candidate": "recycling",
+   "s": [
+    "recycling station near me",
+    "recycling",
+    "recycling centre near me",
+    "recycling center",
+    "recycling near me",
+    "recycling in sweden",
+    "recycling stockholm",
+    "recycling bins",
+    "recycling gothenburg",
+    "recycling center uppsala"
+   ]
+  },
+  "recycling worksheets": {
+   "candidate": "recycling",
+   "s": [
+    "recycling worksheets",
+    "recycling worksheets for kids",
+    "recycling worksheets for preschool",
+    "recycling worksheets pdf",
+    "recycling worksheets grade 3",
+    "recycling worksheets for kindergarten",
+    "recycling worksheets for high school pdf",
+    "recycling worksheets for toddlers",
+    "recycling worksheets pdf free download",
+    "recycling worksheets free"
+   ]
+  },
+  "recycling printable": {
+   "candidate": "recycling",
+   "s": [
+    "recycling printables",
+    "recycling printable signs",
+    "recycling printables for preschool",
+    "recycling printable for kids",
+    "recycling printable activities",
+    "recycling printable pictures",
+    "recycling printable worksheets",
+    "printable recycling coupons",
+    "printable recycling coupons near me",
+    "printable recycling symbol"
+   ]
+  },
+  "recycling kindergarten": {
+   "candidate": "recycling",
+   "s": [
+    "recycling kindergarten activities",
+    "recycling kindergarten",
+    "recycling kindergarten worksheets",
+    "recycling kindergarten project",
+    "recycling kindergarten video",
+    "kindergarten recycling project ideas",
+    "kindergarten recycling lesson",
+    "recycling craft kindergarten",
+    "recycling poster kindergarten",
+    "recycling station kindergarten"
+   ]
+  },
+  "recycling 1st grade": {
+   "candidate": "recycling",
+   "s": [
+    "recycling 1st grade",
+    "recycling for first grade",
+    "recycling worksheet 1st grade",
+    "recycling grade 1",
+    "recycling project for 1st grade",
+    "1st grade recycling project ideas",
+    "1st grade recycling project ideas for school",
+    "is recycle 1 recyclable",
+    "can you recycle plastic with a 1",
+    "what is a 1 in recycling"
+   ]
+  },
+  "recycling 2nd grade": {
+   "candidate": "recycling",
+   "s": [
+    "recycle project 2nd grade",
+    "2nd grade recycling project ideas",
+    "2nd grade recycling project ideas for school",
+    "recycling project ideas for 2nd graders",
+    "recycling lesson plan for 2nd grade",
+    "can you recycle a 2",
+    "can you recycle plastic with a 2",
+    "recycle 2 meaning",
+    "is 2 recyclable"
+   ]
+  },
+  "recycling 3rd grade": {
+   "candidate": "recycling",
+   "s": [
+    "recycling grade 3",
+    "recycling grade 3 worksheets",
+    "recycling grade 3 activities",
+    "recycle project 3rd grade",
+    "recycling projects for 3rd graders",
+    "3rd grade recycling project ideas",
+    "is number 3 plastic recyclable",
+    "is number 3 recyclable"
+   ]
+  },
+  "recycling sort": {
+   "candidate": "recycling",
+   "s": [
+    "recycling sorter",
+    "recycling sorter jobs",
+    "recycling sorting bins",
+    "recycling sorting",
+    "recycling sorter jobs near me",
+    "recycling sorting machine",
+    "recycling sorting bins for home",
+    "recycling sorting game",
+    "recycling sorting activity",
+    "recycling sorter bin"
+   ]
+  },
+  "recycling sort worksheets": {
+   "candidate": "recycling",
+   "s": [
+    "recycling sorting worksheets for kindergarten",
+    "how to sort recycling at home",
+    "how to sort recycling",
+    "how to recycle old sheets"
+   ]
+  },
+  "recycling sort printable": {
+   "candidate": "recycling",
+   "s": [
+    "recycling sort printable",
+    "recycling sort activity",
+    "recycling sort worksheet",
+    "recycling sorting game printable",
+    "recycling sorting activity printable",
+    "recycling sorting game printable free",
+    "recycling sorting free printables",
+    "how to sort recycling at home",
+    "how to sort recycling",
+    "how to sort bottles for recycling"
+   ]
+  },
+  "odd and even numbers": {
+   "candidate": "odd-and-even",
+   "s": [
+    "odd and even numbers",
+    "odd and even numbers worksheet",
+    "odd and even numbers 1 to 100",
+    "odd and even numbers in hindi",
+    "odd and even numbers chart",
+    "odd and even numbers worksheets grade 2",
+    "odd and even numbers worksheets grade 3",
+    "odd and even numbers for kids",
+    "odd and even numbers definition",
+    "odd and even numbers worksheets with answers"
+   ]
+  },
+  "odd and even numbers worksheets": {
+   "candidate": "odd-and-even",
+   "s": [
+    "odd and even numbers worksheets",
+    "odd and even numbers worksheets grade 2",
+    "odd and even numbers worksheets grade 3",
+    "odd and even numbers worksheets with answers",
+    "odd and even numbers worksheets grade 5",
+    "odd and even numbers worksheets grade 3 with answers",
+    "odd and even numbers worksheets grade 4",
+    "odd and even numbers worksheets grade 1",
+    "odd and even numbers worksheets with answers pdf",
+    "odd and even numbers worksheets pdf"
+   ]
+  },
+  "odd and even numbers printable": {
+   "candidate": "odd-and-even",
+   "s": [
+    "odd and even numbers printable",
+    "odd and even numbers printable chart",
+    "odd and even numbers print",
+    "odd and even numbers worksheet",
+    "odd and even numbers worksheets grade 3",
+    "odd and even numbers worksheet grade 2",
+    "odd and even numbers worksheets with answers",
+    "odd and even numbers worksheet for class 2",
+    "odd and even numbers worksheets grade 5",
+    "odd and even numbers worksheet grade 1"
+   ]
+  },
+  "odd and even numbers kindergarten": {
+   "candidate": "odd-and-even",
+   "s": [
+    "odd and even numbers kindergarten",
+    "odd and even numbers kindergarten worksheets",
+    "odd and even numbers preschool",
+    "odd and even numbers activities for kindergarten",
+    "odd and even numbers video for kindergarten",
+    "odd and even numbers worksheets for kindergarten pdf",
+    "odd and even numbers song for kindergarten",
+    "teaching odd and even numbers to kindergarten",
+    "odd and even numbers lesson plan for kindergarten",
+    "preschool odd and even numbers worksheet for kindergarten"
+   ]
+  },
+  "odd and even numbers 1st grade": {
+   "candidate": "odd-and-even",
+   "s": [
+    "odd and even numbers 1st grade",
+    "odd and even numbers worksheets 1st grade",
+    "odd and even numbers grade 1",
+    "odd and even numbers grade 1 worksheet",
+    "odd and even numbers worksheet grade 1 pdf",
+    "odd and even numbers activities grade 1",
+    "odd and even numbers ppt grade 1",
+    "wordwall odd and even numbers grade 1",
+    "odd and even numbers worksheets grade 1 with answers",
+    "odd and even numbers worksheet grade 1 pdf with answers"
+   ]
+  },
+  "odd and even numbers 2nd grade": {
+   "candidate": "odd-and-even",
+   "s": [
+    "odd and even numbers 2nd grade",
+    "odd and even numbers 2nd grade worksheets",
+    "teaching odd and even numbers 2nd grade",
+    "odd and even numbers anchor chart 2nd grade",
+    "odd and even numbers for kids 2nd grade",
+    "odd even numbers activities 2nd grade",
+    "2nd grade odd and even numbers project",
+    "how to explain odd and even numbers to 2nd grade",
+    "even and odd numbers video 2nd grade",
+    "2nd grade math odd and even numbers"
+   ]
+  },
+  "odd and even numbers 3rd grade": {
+   "candidate": "odd-and-even",
+   "s": [
+    "odd and even numbers 3rd grade",
+    "odd and even numbers grade 3",
+    "odd and even numbers grade 3 worksheet",
+    "odd and even numbers grade 3 lesson plan",
+    "odd and even numbers grade 3 ppt",
+    "odd and even numbers chart 3rd grade",
+    "odd and even numbers worksheets grade 3 with answers",
+    "odd and even numbers worksheet grade 3 pdf",
+    "odd and even numbers worksheet grade 3 pdf with answers",
+    "identifying odd and even numbers grade 3"
+   ]
+  },
+  "even and odd": {
+   "candidate": "odd-and-even",
+   "s": [
+    "even and odd",
+    "even and odd skor",
+    "even and odd shoes",
+    "even and odd väska",
+    "even and odd numbers",
+    "even and odd brand",
+    "even and odd zalando",
+    "even and odd functions",
+    "even and odd riesling",
+    "even and odd numbers worksheet"
+   ]
+  },
+  "even and odd worksheets": {
+   "candidate": "odd-and-even",
+   "s": [
+    "even and odd worksheets",
+    "even and odd worksheets 2nd grade",
+    "even and odd worksheets 1st grade",
+    "even and odd worksheets 3rd grade",
+    "even and odd worksheets for grade 2",
+    "even and odd worksheets grade 3",
+    "even and odd worksheets free",
+    "even and odd worksheets for kindergarten",
+    "even and odd worksheets for grade 1",
+    "even and odd worksheets pdf"
+   ]
+  },
+  "even and odd printable": {
+   "candidate": "odd-and-even",
+   "s": [
+    "even and odd printable",
+    "even and odd print",
+    "even and odd chart printable",
+    "even and odd numbers printable worksheets",
+    "even and odd numbers printable",
+    "even and odd anchor chart printable",
+    "even and odd numbers free printable worksheets",
+    "even and odd number chart printable",
+    "even and odd tshirt print",
+    "odd and even printable worksheets"
+   ]
+  },
+  "even and odd kindergarten": {
+   "candidate": "odd-and-even",
+   "s": [
+    "even and odd kindergarten worksheets",
+    "even and odd kindergarten",
+    "even and odd numbers kindergarten",
+    "even and odd numbers worksheet for kindergarten",
+    "even and odd numbers activities for kindergarten",
+    "teaching even and odd numbers to kindergarten",
+    "odd even number program",
+    "odd and even rules"
+   ]
+  },
+  "even and odd 1st grade": {
+   "candidate": "odd-and-even",
+   "s": [
+    "even and odd 1st grade",
+    "even and odd worksheets 1st grade",
+    "even and odd numbers 1st grade",
+    "teaching even and odd numbers 1st grade",
+    "even and odd numbers activities for 1st grade",
+    "even and odd numbers grade 1",
+    "even and odd numbers grade 1 worksheet",
+    "even and odd worksheet grade 1",
+    "even and odd rules",
+    "odd even number program"
+   ]
+  },
+  "even and odd 2nd grade": {
+   "candidate": "odd-and-even",
+   "s": [
+    "even and odd 2nd grade",
+    "even and odd 2nd grade worksheets",
+    "even and odd 2nd grade anchor chart",
+    "even and odd numbers 2nd grade",
+    "even and odd games 2nd grade",
+    "even and odd activities 2nd grade",
+    "even and odd song 2nd grade",
+    "even and odd practice 2nd grade",
+    "even and odd numbers 2nd grade worksheet",
+    "even and odd numbers video 2nd grade"
+   ]
+  },
+  "even and odd 3rd grade": {
+   "candidate": "odd-and-even",
+   "s": [
+    "even and odd 3rd grade",
+    "even and odd worksheets 3rd grade",
+    "even and odd numbers 3rd grade",
+    "even and odd anchor chart 3rd grade",
+    "even and odd numbers grade 3 worksheet",
+    "even and odd worksheets grade 3",
+    "odd and even numbers chart 3rd grade",
+    "even and odd rules",
+    "even and odd examples",
+    "odd and even numbers activities for grade 3"
+   ]
+  },
+  "rounding numbers": {
+   "candidate": "rounding",
+   "s": [
+    "rounding numbers",
+    "rounding numbers to the nearest 10",
+    "rounding numbers worksheets",
+    "rounding numbers rules",
+    "rounding numbers in excel",
+    "rounding numbers calculator",
+    "rounding numbers anchor chart",
+    "rounding numbers to the nearest 100",
+    "rounding numbers worksheets with answers pdf",
+    "rounding numbers 4th grade"
+   ]
+  },
+  "rounding numbers worksheets": {
+   "candidate": "rounding",
+   "s": [
+    "rounding numbers worksheets",
+    "rounding numbers worksheets with answers pdf",
+    "rounding numbers worksheets grade 4",
+    "rounding numbers worksheets grade 3",
+    "rounding numbers worksheets pdf",
+    "rounding numbers worksheets grade 5",
+    "rounding numbers worksheets grade 4 with answers",
+    "rounding numbers worksheets with answers",
+    "rounding numbers examples",
+    "rounding numbers exercises"
+   ]
+  },
+  "rounding numbers printable": {
+   "candidate": "rounding",
+   "s": [
+    "rounding numbers worksheets",
+    "rounding numbers worksheets with answers pdf",
+    "rounding numbers worksheets grade 3",
+    "rounding numbers worksheets grade 4",
+    "rounding numbers worksheets pdf",
+    "rounding numbers worksheets grade 5",
+    "rounding numbers worksheet for class 5",
+    "rounding numbers worksheets with answers",
+    "rounding numbers worksheets grade 6",
+    "rounding numbers worksheets grade 7"
+   ]
+  },
+  "rounding numbers 1st grade": {
+   "candidate": "rounding",
+   "s": [
+    "rounding numbers grade 1",
+    "rounding numbers examples",
+    "what is the rule for rounding numbers",
+    "rounding numbers to 10"
+   ]
+  },
+  "rounding numbers 2nd grade": {
+   "candidate": "rounding",
+   "s": [
+    "rounding numbers 2nd grade",
+    "rounding numbers video for 2nd grade",
+    "rounding numbers examples",
+    "rounding numbers to 100"
+   ]
+  },
+  "rounding numbers 3rd grade": {
+   "candidate": "rounding",
+   "s": [
+    "rounding numbers 3rd grade",
+    "rounding numbers 3rd grade worksheets",
+    "rounding numbers 3rd grade pdf",
+    "rounding numbers 3rd grade video",
+    "rounding numbers 3rd grade worksheets pdf",
+    "rounding numbers grade 3 youtube",
+    "rounding numbers grade 3 ppt",
+    "rounding numbers grade 3 math",
+    "rounding numbers grade 3 worksheets with answers",
+    "rounding whole numbers 3rd grade"
+   ]
+  },
+  "rounding to the nearest 10": {
+   "candidate": "rounding",
+   "s": [
+    "rounding to the nearest 10 worksheet with answers",
+    "rounding to the nearest 10",
+    "rounding to the nearest 10 100 and 1000 worksheets pdf",
+    "rounding to the nearest 100",
+    "rounding to the nearest 1000",
+    "rounding to the nearest 100 worksheet with answers",
+    "rounding to the nearest 10 worksheet",
+    "rounding to the nearest 10 100 and 1000",
+    "rounding to the nearest 10 worksheet with answers pdf",
+    "rounding to the nearest 10 and 100 worksheets with answers"
+   ]
+  },
+  "rounding to the nearest 10 worksheets": {
+   "candidate": "rounding",
+   "s": [
+    "rounding to the nearest 10 worksheets",
+    "rounding to the nearest 10 worksheets pdf",
+    "rounding to the nearest 10 worksheets for 2nd grade",
+    "rounding to the nearest 10 worksheets 3rd grade",
+    "rounding to the nearest 10 worksheets free",
+    "rounding to the nearest 10 worksheets with answers",
+    "rounding to the nearest tenth worksheets",
+    "rounding to the nearest ten worksheets",
+    "rounding to the nearest tenth worksheets free",
+    "rounding to the nearest tenth worksheets with answers"
+   ]
+  },
+  "rounding to the nearest 10 printable": {
+   "candidate": "rounding",
+   "s": [
+    "rounding to the nearest 10 game printable",
+    "rounding to the nearest 10 worksheet with answers",
+    "rounding to the nearest 10 worksheet",
+    "rounding to the nearest 10 worksheet with answers pdf",
+    "rounding to the nearest 10 worksheet with answers grade 3",
+    "rounding to the nearest 10 worksheet with answers grade 5",
+    "rounding to the nearest 10 worksheet pdf",
+    "rounding to the nearest 10 worksheet with answers grade 2",
+    "rounding to the nearest 10 worksheet with number line",
+    "rounding to the nearest 10 worksheet with answers grade 4"
+   ]
+  },
+  "rounding to the nearest 10 1st grade": {
+   "candidate": "rounding",
+   "s": [
+    "rounding to the nearest 10 grade 1",
+    "rounding to the nearest 10 worksheet grade 1",
+    "rounding to the nearest 10 and 100 games",
+    "rounding to the nearest 10 game",
+    "rounding of the nearest 10"
+   ]
+  },
+  "rounding to the nearest 10 2nd grade": {
+   "candidate": "rounding",
+   "s": [
+    "rounding to the nearest 10 2nd grade",
+    "rounding to the nearest 10 worksheets for 2nd grade",
+    "rounding to the nearest ten video for 2nd grade",
+    "2 round off to the nearest 10",
+    "how do i round to the nearest 10"
+   ]
+  },
+  "rounding to the nearest 10 3rd grade": {
+   "candidate": "rounding",
+   "s": [
+    "rounding to the nearest 10 3rd grade",
+    "rounding to the nearest 10 3rd grade worksheets",
+    "rounding to the nearest 10 grade 3",
+    "rounding to the nearest 10 grade 3 worksheet",
+    "rounding to the nearest tenth 3rd grade worksheet",
+    "rounding to the nearest 10 and 100 3rd grade",
+    "rounding to the nearest 10 video for 3rd grade",
+    "rounding to the nearest tenth for 3rd graders",
+    "3 rounded to the nearest ten"
+   ]
+  },
+  "pronouns": {
+   "candidate": "pronouns",
+   "s": [
+    "pronouns",
+    "pronouns page",
+    "pronouns in swedish",
+    "pronouns svenska",
+    "pronouns cc",
+    "pronouns meaning",
+    "pronouns in english",
+    "pronounce",
+    "pronouns in instagram",
+    "pronouns examples"
+   ]
+  },
+  "pronouns worksheets": {
+   "candidate": "pronouns",
+   "s": [
+    "pronouns worksheets",
+    "pronouns worksheets for grade 5 with answers pdf",
+    "pronouns worksheets for grade 3",
+    "pronouns worksheets grade 2",
+    "pronouns worksheets for grade 1",
+    "pronouns worksheets grade 5",
+    "pronouns worksheets pdf",
+    "pronouns worksheets grade 4",
+    "pronouns worksheets for grade 7",
+    "pronouns worksheets for grade 6"
+   ]
+  },
+  "pronouns printable": {
+   "candidate": "pronouns",
+   "s": [
+    "pronouns printable worksheets",
+    "pronouns printable",
+    "pronoun printable chart",
+    "pronouns flashcards printable pdf",
+    "personal pronouns printable",
+    "pronouns flashcards printable",
+    "subject pronouns printable",
+    "possessive pronouns worksheet printable",
+    "pronouns poster printable",
+    "possessive pronouns printable"
+   ]
+  },
+  "pronouns kindergarten": {
+   "candidate": "pronouns",
+   "s": [
+    "pronouns kindergarten",
+    "pronouns kindergarten worksheet",
+    "pronouns kindergarten pdf",
+    "personal pronouns kindergarten",
+    "pronouns worksheet kindergarten free",
+    "possessive pronouns kindergarten",
+    "subject pronouns kindergarten",
+    "wordwall pronouns kindergarten",
+    "subject pronouns kindergarten worksheets",
+    "pronouns for kindergarten students"
+   ]
+  },
+  "pronouns 1st grade": {
+   "candidate": "pronouns",
+   "s": [
+    "pronouns 1st grade",
+    "pronouns 1st grade worksheet",
+    "pronouns first grade video",
+    "possessive pronouns 1st grade",
+    "personal pronouns 1st grade",
+    "subject pronouns 1st grade",
+    "indefinite pronouns 1st grade",
+    "possessive pronouns 1st grade worksheets",
+    "pronouns for 1st graders",
+    "wordwall pronouns 1st grade"
+   ]
+  },
+  "pronouns 2nd grade": {
+   "candidate": "pronouns",
+   "s": [
+    "pronouns 2nd grade",
+    "pronouns 2nd grade worksheet",
+    "pronouns 2nd grade video",
+    "pronouns for second grade",
+    "possessive pronouns 2nd grade",
+    "reflexive pronouns 2nd grade",
+    "reflexive pronouns 2nd grade worksheet",
+    "possessive pronouns 2nd grade worksheets",
+    "subject pronouns 2nd grade",
+    "wordwall pronouns 2nd grade"
+   ]
+  },
+  "pronouns 3rd grade": {
+   "candidate": "pronouns",
+   "s": [
+    "pronouns 3rd grade",
+    "pronouns 3rd grade worksheets",
+    "pronouns 3rd grade video",
+    "pronouns 3 grade",
+    "pronouns grade 3 worksheet",
+    "pronouns grade 3 ppt",
+    "pronouns grade 3 pdf",
+    "pronouns grade 3 liveworksheets",
+    "pronouns grade 3 wordwall",
+    "pronouns grade 3 periwinkle"
+   ]
+  },
+  "personal pronouns": {
+   "candidate": "pronouns",
+   "s": [
+    "personal pronouns",
+    "personal pronouns in swedish",
+    "personal pronouns examples",
+    "personal pronouns german",
+    "personal pronouns worksheet",
+    "personal pronouns meaning",
+    "personal pronouns worksheet grade 2",
+    "personal pronouns exercises",
+    "personal pronouns wordwall",
+    "personal pronouns in spanish"
+   ]
+  },
+  "personal pronouns worksheets": {
+   "candidate": "pronouns",
+   "s": [
+    "personal pronouns worksheets",
+    "personal pronouns worksheets grade 3",
+    "personal pronouns worksheets grade 2",
+    "personal pronouns worksheets grade 4",
+    "personal pronouns worksheets pdf",
+    "personal pronouns worksheets for grade 1",
+    "personal pronouns worksheets for grade 5 with answers pdf",
+    "personal pronouns worksheets for grade 2 pdf",
+    "personal pronouns worksheets for grade 5",
+    "personal pronouns examples"
+   ]
+  },
+  "personal pronouns printable": {
+   "candidate": "pronouns",
+   "s": [
+    "personal pronouns printable",
+    "possessive pronouns printable",
+    "personal pronouns worksheet",
+    "personal pronouns worksheet grade 2",
+    "personal pronouns worksheet pdf",
+    "personal pronouns worksheet grade 4",
+    "personal pronouns worksheet grade 3",
+    "personal pronouns worksheet with answers",
+    "personal pronouns worksheet for class 5",
+    "personal pronouns worksheet for class 4"
+   ]
+  },
+  "personal pronouns kindergarten": {
+   "candidate": "pronouns",
+   "s": [
+    "personal pronouns kindergarten",
+    "possessive pronouns kindergarten",
+    "personal pronouns printable",
+    "personal pronouns activities for grade 2",
+    "personal pronouns kids exercise",
+    "personal pronouns printable worksheet",
+    "personal pronouns kids video",
+    "personal pronouns activities for grade 4",
+    "personal pronouns preschool",
+    "personal pronouns kids esl"
+   ]
+  },
+  "personal pronouns 1st grade": {
+   "candidate": "pronouns",
+   "s": [
+    "personal pronouns 1st grade",
+    "possessive pronouns 1st grade",
+    "possessive pronouns 1st grade worksheets",
+    "personal pronouns 1 grade",
+    "personal pronouns grade 1 worksheets",
+    "personal pronouns grade 1 ppt",
+    "possessive pronouns grade 1",
+    "possessive pronouns grade 1 worksheet",
+    "possessive pronouns video 1st grade",
+    "possessive pronouns grade 1 wordwall"
+   ]
+  },
+  "personal pronouns 2nd grade": {
+   "candidate": "pronouns",
+   "s": [
+    "personal pronouns 2nd grade",
+    "possessive pronouns 2nd grade",
+    "possessive pronouns 2nd grade worksheets",
+    "personal pronouns worksheet 2nd grade",
+    "possessive pronouns video 2nd grade",
+    "personal pronouns for second grade",
+    "personal pronouns examples"
+   ]
+  },
+  "personal pronouns 3rd grade": {
+   "candidate": "pronouns",
+   "s": [
+    "personal pronouns 3rd grade",
+    "possessive pronouns 3rd grade",
+    "possessive pronouns 3rd grade worksheet",
+    "personal pronouns grade 3 worksheets",
+    "personal pronouns grade 3 ppt",
+    "personal pronouns grade 3 module",
+    "personal pronouns grade 3 worksheets with answers",
+    "possessive pronouns grade 3 ppt",
+    "possessive pronouns grade 3 worksheets with answers",
+    "possessive pronouns grade 3 lesson"
+   ]
+  },
+  "question words": {
+   "candidate": "question-words",
+   "s": [
+    "question words in swedish",
+    "question words",
+    "question words in english",
+    "question words in spanish",
+    "question words in french",
+    "question words worksheet",
+    "question words in hindi",
+    "question words exercises",
+    "question words in german",
+    "question words in arabic"
+   ]
+  },
+  "question words worksheets": {
+   "candidate": "question-words",
+   "s": [
+    "question words worksheets",
+    "question words worksheets for grade 1",
+    "question words worksheets for grade 2",
+    "question words worksheets for grade 3",
+    "question words worksheets for esl beginners",
+    "question words worksheets printable free",
+    "question words worksheets for kindergarten",
+    "questions words worksheets pdf",
+    "interrogative words worksheets",
+    "question words worksheet for class 2"
+   ]
+  },
+  "question words printable": {
+   "candidate": "question-words",
+   "s": [
+    "question words printable",
+    "question words worksheet",
+    "question words worksheet for class 2",
+    "question words worksheet pdf",
+    "question words worksheet for class 1",
+    "question words worksheet with answers",
+    "question words worksheet for class 2 with answers",
+    "question words worksheet for grade 1",
+    "question words worksheet for class 3",
+    "question words worksheet with answers pdf"
+   ]
+  },
+  "question words kindergarten": {
+   "candidate": "question-words",
+   "s": [
+    "question words kindergarten",
+    "question words kindergarten worksheets",
+    "question words video for kindergarten",
+    "question words anchor chart kindergarten",
+    "question words activities for kindergarten",
+    "wh question words for kindergarten",
+    "teaching question words to kindergarten"
+   ]
+  },
+  "question words 1st grade": {
+   "candidate": "question-words",
+   "s": [
+    "question words 1st grade",
+    "question words grade 1 worksheet",
+    "question words anchor chart 1st grade",
+    "question words for grade 1",
+    "question words for class 1"
+   ]
+  },
+  "question words 2nd grade": {
+   "candidate": "question-words",
+   "s": [
+    "question words 2nd grade",
+    "question words anchor chart 2nd grade",
+    "question words for class 2",
+    "question words for kindergarten",
+    "question words for grade 3"
+   ]
+  },
+  "question words 3rd grade": {
+   "candidate": "question-words",
+   "s": [
+    "question words 3rd grade",
+    "question words for grade 3",
+    "3 letter question words",
+    "3rd grade words to know",
+    "what are the 5 question words"
+   ]
+  },
+  "wh questions": {
+   "candidate": "question-words",
+   "s": [
+    "wh questions",
+    "wh questions worksheets",
+    "wh questions examples",
+    "wh questions with answers",
+    "wh questions wordwall",
+    "wh questions exercises",
+    "wh questions in english",
+    "wh questions speech therapy",
+    "wh questions for kids",
+    "wh questions 20 examples"
+   ]
+  },
+  "wh questions worksheets": {
+   "candidate": "question-words",
+   "s": [
+    "wh questions worksheets",
+    "wh questions worksheets pdf",
+    "wh questions worksheets grade 3",
+    "wh questions worksheets for grade 2",
+    "wh questions worksheets grade 1",
+    "wh questions worksheets with answers",
+    "wh questions worksheets pdf free",
+    "wh questions worksheets for grade 6",
+    "wh questions worksheets for kids",
+    "wh questions worksheets grade 4"
+   ]
+  },
+  "wh questions printable": {
+   "candidate": "question-words",
+   "s": [
+    "wh questions printable",
+    "wh questions printable exercises",
+    "wh questions printable flashcards",
+    "wh questions worksheets",
+    "wh questions worksheets pdf",
+    "wh questions worksheets with answers pdf",
+    "wh questions worksheets grade 1",
+    "wh questions worksheets for grade 2",
+    "wh questions worksheets for kindergarten pdf",
+    "wh questions worksheets grade 3"
+   ]
+  },
+  "wh questions kindergarten": {
+   "candidate": "question-words",
+   "s": [
+    "wh questions kindergarten",
+    "wh questions kindergarten worksheets",
+    "wh questions kindergarten pdf",
+    "wh questions kindergarten wordwall",
+    "wh questions kinder",
+    "wh questions preschool",
+    "wh questions preschool speech therapy",
+    "wh questions preschool activity",
+    "answering wh questions kindergarten",
+    "wh questions worksheets for kindergarten pdf"
+   ]
+  },
+  "wh questions 1st grade": {
+   "candidate": "question-words",
+   "s": [
+    "wh questions 1st grade",
+    "wh questions grade 1",
+    "wh questions grade 1 worksheets",
+    "wh questions worksheet first grade",
+    "short stories with wh questions 1st grade",
+    "wh questions examples for grade 1",
+    "wh questions for beginners",
+    "what are the 7 wh questions"
+   ]
+  },
+  "wh questions 2nd grade": {
+   "candidate": "question-words",
+   "s": [
+    "wh questions 2nd grade",
+    "wordwall wh questions 2nd grade",
+    "wh questions worksheets 2nd grade",
+    "what are wh questions examples",
+    "wh questions examples for grade 1"
+   ]
+  },
+  "wh questions 3rd grade": {
+   "candidate": "question-words",
+   "s": [
+    "wh questions 3rd grade",
+    "wh questions 3rd grade worksheet",
+    "wh questions for class 3",
+    "wh questions for 3 year olds",
+    "wh question rules for class 3",
+    "what are the 7 wh questions"
+   ]
+  },
+  "nets of 3d shapes": {
+   "candidate": "cube-nets",
+   "s": [
+    "nets of 3d shapes",
+    "nets of 3d shapes worksheet",
+    "nets of 3d shapes worksheet with answers pdf",
+    "nets of 3d shapes printable",
+    "nets of 3d shapes pdf",
+    "nets of 3d shapes worksheet pdf",
+    "nets of 3d shapes project",
+    "nets of 3d shapes corbettmaths",
+    "nets of 3d shapes to cut out and make",
+    "nets of 3d shapes and names worksheet"
+   ]
+  },
+  "nets of 3d shapes worksheets": {
+   "candidate": "cube-nets",
+   "s": [
+    "nets of 3d shapes worksheets",
+    "nets of 3d shapes worksheets with answers",
+    "nets of 3d shapes worksheet with answers pdf",
+    "nets of 3d shapes worksheet pdf",
+    "nets of 3d shapes worksheet year 6",
+    "nets of 3d shapes worksheet corbettmaths",
+    "nets of 3d shapes worksheet grade 5",
+    "nets of 3d shapes worksheet grade 4",
+    "nets of 3d shapes worksheet year 5",
+    "nets of 3d shapes worksheet with answers pdf grade"
+   ]
+  },
+  "nets of 3d shapes printable": {
+   "candidate": "cube-nets",
+   "s": [
+    "nets of 3d shapes printable",
+    "nets of 3d shapes printable pdf",
+    "nets of 3d shapes worksheet",
+    "nets of 3d shapes worksheet with answers pdf",
+    "nets of 3d shapes worksheet pdf",
+    "nets of 3d shapes worksheet with answers",
+    "nets of 3d shapes worksheet year 6",
+    "nets of 3d shapes worksheet corbettmaths",
+    "nets of 3d shapes worksheet grade 5",
+    "nets of 3d shapes worksheet grade 4"
+   ]
+  },
+  "cube net": {
+   "candidate": "cube-nets",
+   "s": [
+    "cube net",
+    "cube networks",
+    "cube net diagram",
+    "cube net printable",
+    "cube net template",
+    "cube net shape",
+    "cube netflix",
+    "cube net printable pdf",
+    "cube nets 11 plus",
+    "cube netherlands"
+   ]
+  },
+  "cube net worksheets": {
+   "candidate": "cube-nets",
+   "s": [
+    "cube nets worksheets",
+    "cube nets worksheet pdf",
+    "cube net examples"
+   ]
+  },
+  "cube net printable": {
+   "candidate": "cube-nets",
+   "s": [
+    "cube net printable",
+    "cube net printable pdf",
+    "cube net printable free",
+    "cube net printable a4",
+    "cube net print",
+    "cube net template",
+    "cube net template pdf",
+    "cube net template free download",
+    "cube net template editable",
+    "cube net template a4"
+   ]
+  },
+  "finger counting": {
+   "candidate": "finger-counting",
+   "s": [
+    "finger counting machine",
+    "finger counting",
+    "finger counting machine use",
+    "finger counting in chinese",
+    "finger counting methods",
+    "finger counting images",
+    "finger counting watch",
+    "finger counting in different countries",
+    "finger counting gif",
+    "finger counting 1 to 10"
+   ]
+  },
+  "finger counting worksheets": {
+   "candidate": "finger-counting",
+   "s": [
+    "finger counting worksheets for kindergarten",
+    "finger counting worksheets",
+    "finger math worksheets",
+    "finger math worksheets pdf",
+    "finger counting worksheet free",
+    "finger counting worksheet pdf",
+    "abacus finger counting worksheets",
+    "finger counting methods",
+    "is finger counting bad"
+   ]
+  },
+  "finger counting printable": {
+   "candidate": "finger-counting",
+   "s": [
+    "finger counting printable",
+    "finger counting worksheet",
+    "finger counting worksheets for kindergarten",
+    "finger counting worksheet free",
+    "finger counting worksheet pdf",
+    "finger counting methods",
+    "is counting with your fingers bad",
+    "counting fingers meaning"
+   ]
+  },
+  "finger counting kindergarten": {
+   "candidate": "finger-counting",
+   "s": [
+    "counting fingers kindergarten",
+    "finger counting preschool",
+    "finger counting worksheets for kindergarten",
+    "finger counting methods",
+    "is finger counting bad",
+    "counting finger digits"
+   ]
+  },
+  "counting on fingers": {
+   "candidate": "finger-counting",
+   "s": [
+    "counting on fingers gif",
+    "counting on fingers",
+    "counting on fingers meme",
+    "counting on fingers in chinese",
+    "counting on fingers in different countries",
+    "counting on fingers and toes gif",
+    "counting on fingers clipart",
+    "counting on fingers by country",
+    "counting on fingers in china",
+    "counting on fingers pose"
+   ]
+  },
+  "counting on fingers worksheets": {
+   "candidate": "finger-counting",
+   "s": [
+    "counting on fingers worksheet",
+    "is counting with your fingers bad"
+   ]
+  }
+ }
+}

@@ -1,0 +1,2553 @@
+{
+ "locale": "es",
+ "market": {
+  "hl": "es",
+  "gl": "mx"
+ },
+ "generatedAt": "2026-09-21T00:20:38.808Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds.json",
+ "requestCount": 182,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cloze": {
+   "heads": [
+    "completar oraciones",
+    "completa las oraciones"
+   ],
+   "requests": 14,
+   "productiveSeeds": 11,
+   "unique": 48,
+   "suggestions": [
+    "actividades completar oraciones para imprimir",
+    "completa las oraciones",
+    "completa las oraciones con acciones relacionadas con las imágenes",
+    "completa las oraciones con el sujeto adecuado",
+    "completa las oraciones con la palabra correcta",
+    "completa las oraciones con las palabras del recuadro",
+    "completa las oraciones con las palabras que describen una mochila",
+    "completa las oraciones con las siguientes palabras",
+    "completa las oraciones con los datos de la leyenda",
+    "completa las oraciones en inglés",
+    "completa las oraciones para niños de segundo grado",
+    "completa las oraciones preescolar",
+    "completa las oraciones primer grado",
+    "completa las oraciones segundo grado",
+    "completa oraciones para primer grado wordwall",
+    "completar oraciones",
+    "completar oraciones 2 primaria",
+    "completar oraciones con palabras",
+    "completar oraciones con palabras primer grado",
+    "completar oraciones ejercicios",
+    "completar oraciones en ingles",
+    "completar oraciones en inglés traductor",
+    "completar oraciones fichas",
+    "completar oraciones para imprimir",
+    "completar oraciones para niños de primaria",
+    "completar oraciones para niños de segundo grado",
+    "completar oraciones para primer grado",
+    "completar oraciones para primero de primaria",
+    "completar oraciones para segundo de primaria",
+    "completar oraciones para segundo grado de primaria",
+    "completar oraciones preescolar",
+    "completar oraciones primaria",
+    "completar oraciones primer grado",
+    "completar oraciones primer grado pdf",
+    "completar oraciones primer grado primaria",
+    "completar oraciones primer grado wordwall",
+    "completar oraciones segundo grado",
+    "completar oraciones tercer grado",
+    "completar oraciones tercero de primaria",
+    "completar oraciones wordwall",
+    "ejercicios para completar oraciones primaria",
+    "ejercicios para completar oraciones primer grado",
+    "ejercicios para completar oraciones segundo grado",
+    "fichas para completar oraciones para segundo grado",
+    "fichas para completar oraciones primer grado",
+    "las oraciones primer grado",
+    "las oraciones segundo grado",
+    "wordwall completar oraciones segundo grado"
+   ]
+  },
+  "dominoes": {
+   "heads": [
+    "dominó para imprimir",
+    "dominó"
+   ],
+   "requests": 14,
+   "productiveSeeds": 10,
+   "unique": 62,
+   "suggestions": [
+    "actividad domino preescolar",
+    "domino de numeros preescolar",
+    "domino de palabras para primer grado",
+    "domino de sumas para primer grado",
+    "domino ecuaciones de primer grado",
+    "domino ecuaciones segundo grado",
+    "domino ficha blanca",
+    "domino ficha sin numero",
+    "domino fichas completas",
+    "domino fichas cuantas",
+    "domino fichas de colores",
+    "domino fichas dobles",
+    "domino fichas grandes",
+    "domino fichas para imprimir",
+    "domino fichas por jugador",
+    "domino matematico primaria",
+    "domino para imprimir de numeros",
+    "domino para imprimir grande",
+    "domino para imprimir niños",
+    "domino para imprimir preescolar",
+    "domino para preescolar",
+    "domino para preescolar imprimir",
+    "domino para primaria",
+    "domino para primer grado",
+    "domino preescolar",
+    "domino preescolar pdf",
+    "domino primaria",
+    "domino primer grado",
+    "domino recortable preescolar",
+    "domino scuola primaria",
+    "domino silabico para preescolar",
+    "domino silabico para primer grado",
+    "domino's",
+    "domino's pizza",
+    "dominó",
+    "dominó clásico",
+    "dominó completos",
+    "dominó de ecuaciones de primer grado resuelto",
+    "dominó fichas",
+    "dominó juego",
+    "dominó matemático 6 primaria",
+    "dominó online - juego clasico",
+    "dominó para imprimir",
+    "dominó para imprimir 28 piezas",
+    "dominó para imprimir de animales",
+    "dominó para imprimir pdf",
+    "dominó para imprimir y recortar pdf",
+    "dominó para imprimir y recortar pdf con palabras de myp",
+    "dominó silábico para imprimir pdf",
+    "dominó silábico para imprimir pdf gratis",
+    "dominó vamos apk",
+    "fichas de domino para imprimir a color",
+    "fichas de domino para imprimir en blanco",
+    "fichas de domino para imprimir para niños",
+    "fichas de dominó para imprimir grandes",
+    "fichas de dominó para imprimir pdf",
+    "fichas de dominó para imprimir y recortar",
+    "fichas de dominó para imprimir y recortar pdf",
+    "fichas domino para imprimir",
+    "fichas domino triangular para imprimir",
+    "juego domino preescolar",
+    "preescolar domino de numeros para imprimir"
+   ]
+  },
+  "human-body": {
+   "heads": [
+    "partes del cuerpo",
+    "el cuerpo humano"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 139,
+   "suggestions": [
+    "actividades partes del cuerpo primaria",
+    "actividades partes del cuerpo segundo grado",
+    "cambios en el cuerpo humano segundo grado",
+    "conociendo el cuerpo humano preescolar",
+    "descubre el cuerpo humano fichas completas",
+    "el cuerpo humano",
+    "el cuerpo humano 1 primaria",
+    "el cuerpo humano 1o primaria pdf",
+    "el cuerpo humano 2 primaria pdf",
+    "el cuerpo humano 3 primaria",
+    "el cuerpo humano 3 primaria pdf",
+    "el cuerpo humano 4 primaria",
+    "el cuerpo humano actividades para primer grado",
+    "el cuerpo humano actividades para segundo grado",
+    "el cuerpo humano animado para imprimir",
+    "el cuerpo humano articulado para imprimir",
+    "el cuerpo humano bill bryson",
+    "el cuerpo humano clase para segundo grado",
+    "el cuerpo humano concepto para primer grado",
+    "el cuerpo humano dibujo",
+    "el cuerpo humano dibujo para imprimir",
+    "el cuerpo humano en inglés",
+    "el cuerpo humano ficha de trabajo",
+    "el cuerpo humano fichas",
+    "el cuerpo humano fichas infantil",
+    "el cuerpo humano fichas para imprimir",
+    "el cuerpo humano fichas pdf",
+    "el cuerpo humano letras para imprimir",
+    "el cuerpo humano niños de primer grado",
+    "el cuerpo humano para colorear preescolar",
+    "el cuerpo humano para imprimir",
+    "el cuerpo humano para imprimir para niños",
+    "el cuerpo humano para imprimir por partes",
+    "el cuerpo humano para imprimir y colorear",
+    "el cuerpo humano para niños fichas para imprimir",
+    "el cuerpo humano para niños preescolar",
+    "el cuerpo humano para niños segundo grado",
+    "el cuerpo humano para preescolar",
+    "el cuerpo humano para primaria",
+    "el cuerpo humano para primer grado",
+    "el cuerpo humano para segundo grado",
+    "el cuerpo humano para segundo grado de primaria",
+    "el cuerpo humano por dentro",
+    "el cuerpo humano preescolar",
+    "el cuerpo humano preescolar actividades",
+    "el cuerpo humano primaria",
+    "el cuerpo humano primaria pdf",
+    "el cuerpo humano primer grado",
+    "el cuerpo humano primer grado de primaria",
+    "el cuerpo humano rompecabezas para imprimir",
+    "el cuerpo humano segundo grado",
+    "el cuerpo humano segundo grado de primaria",
+    "el cuerpo humano segundo primaria",
+    "el cuerpo humano y sus partes",
+    "el cuerpo humano y sus partes en ingles",
+    "el cuerpo humano y sus partes para niños",
+    "el cuerpo humano y sus partes para niños de primaria",
+    "el cuerpo humano y sus partes primer grado",
+    "el cuerpo humano y sus órganos",
+    "examen partes del cuerpo primer grado",
+    "ficha el cuerpo humano primero primaria",
+    "ficha partes del cuerpo primer grado",
+    "fichas el cuerpo humano 2 primaria",
+    "fichas el cuerpo humano 5 años",
+    "juegos sobre el cuerpo humano preescolar",
+    "partes del cuerpo",
+    "partes del cuerpo 1 primaria",
+    "partes del cuerpo 2 primaria",
+    "partes del cuerpo 3 primaria",
+    "partes del cuerpo 4 primaria",
+    "partes del cuerpo de una mujer",
+    "partes del cuerpo en ingles",
+    "partes del cuerpo en ingles para niños",
+    "partes del cuerpo en ingles segundo grado",
+    "partes del cuerpo en ingles y español",
+    "partes del cuerpo en sueco",
+    "partes del cuerpo ficha 3 años",
+    "partes del cuerpo ficha de trabajo",
+    "partes del cuerpo ficha en ingles",
+    "partes del cuerpo ficha infantil",
+    "partes del cuerpo ficha inicial",
+    "partes del cuerpo ficha niños",
+    "partes del cuerpo ficha pdf",
+    "partes del cuerpo fichas",
+    "partes del cuerpo fichas para imprimir",
+    "partes del cuerpo fichas para niños",
+    "partes del cuerpo humano",
+    "partes del cuerpo humano en inglés",
+    "partes del cuerpo humano para niños",
+    "partes del cuerpo humano por dentro",
+    "partes del cuerpo humano preescolar",
+    "partes del cuerpo humano primaria",
+    "partes del cuerpo humano primer grado",
+    "partes del cuerpo humano segundo grado",
+    "partes del cuerpo humano segundo grado de primaria",
+    "partes del cuerpo ingles primaria",
+    "partes del cuerpo para imprimir",
+    "partes del cuerpo para imprimir a color",
+    "partes del cuerpo para imprimir en grande",
+    "partes del cuerpo para imprimir en ingles",
+    "partes del cuerpo para imprimir para niños",
+    "partes del cuerpo para imprimir pdf",
+    "partes del cuerpo para imprimir por separado",
+    "partes del cuerpo para imprimir preescolar",
+    "partes del cuerpo para imprimir y armar",
+    "partes del cuerpo para imprimir y recortar",
+    "partes del cuerpo para niños de segundo grado",
+    "partes del cuerpo para niños de segundo grado en inglés",
+    "partes del cuerpo para preescolar",
+    "partes del cuerpo para primer grado",
+    "partes del cuerpo preescolar",
+    "partes del cuerpo preescolar actividades",
+    "partes del cuerpo preescolar ingles",
+    "partes del cuerpo preescolar niña",
+    "partes del cuerpo preescolar para colorear",
+    "partes del cuerpo preescolar pdf",
+    "partes del cuerpo preescolar pinterest",
+    "partes del cuerpo preescolar wordwall",
+    "partes del cuerpo primaria",
+    "partes del cuerpo primaria pdf",
+    "partes del cuerpo primer grado",
+    "partes del cuerpo primer grado actividades",
+    "partes del cuerpo primer grado primaria",
+    "partes del cuerpo segundo grado",
+    "partes del cuerpo segundo grado de primaria",
+    "partes del cuerpo segundo primaria",
+    "partes internas del cuerpo humano segundo grado",
+    "partes internas del cuerpo primer grado",
+    "pda sobre el cuerpo humano preescolar",
+    "planeación el cuerpo humano preescolar",
+    "practica partes del cuerpo primer grado",
+    "proyecto el cuerpo humano preescolar",
+    "proyecto sobre el cuerpo humano primer grado",
+    "secuencia didáctica el cuerpo humano primer grado",
+    "secuencia didáctica el cuerpo humano segundo grado",
+    "secuencia el cuerpo humano primer grado",
+    "secuencia el cuerpo humano segundo grado",
+    "sesion partes del cuerpo primer grado",
+    "wordwall partes del cuerpo humano segundo grado"
+   ]
+  },
+  "five-senses": {
+   "heads": [
+    "los cinco sentidos",
+    "los 5 sentidos"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 127,
+   "suggestions": [
+    "actividad de los 5 sentidos segundo grado",
+    "actividad de los cinco sentidos primer grado",
+    "actividades de los 5 sentidos para niños de segundo grado",
+    "actividades de los 5 sentidos primer grado",
+    "actividades de los cinco sentidos para niños de segundo grado",
+    "actividades de los cinco sentidos para segundo grado",
+    "actividades para trabajar los cinco sentidos preescolar",
+    "canción de los cinco sentidos para preescolar",
+    "cartel de los 5 sentidos preescolar",
+    "concepto de los 5 sentidos para primer grado",
+    "concepto de los cinco sentidos para niños de segundo grado",
+    "concepto de los cinco sentidos para primer grado",
+    "cuento de los cinco sentidos para imprimir",
+    "dibujo de los cinco sentidos para niños de primer grado",
+    "dibujo de los cinco sentidos para niños de segundo grado",
+    "ejercicio de los 5 sentidos para primer grado",
+    "ejercicio de los cinco sentidos para primer grado",
+    "examen de los 5 sentidos para primer grado",
+    "examen los sentidos 5 primaria",
+    "exposición de los 5 sentidos para primer grado",
+    "exposición de los cinco sentidos para niños de primer grado",
+    "ficha de los 5 sentidos para colorear",
+    "ficha de los cinco sentidos para colorear",
+    "ficha de los cinco sentidos para niños",
+    "ficha de los cinco sentidos para primer grado",
+    "ficha los sentidos 5 primaria",
+    "fichas de los 5 sentidos actividades para imprimir",
+    "fichas de los 5 sentidos en ingles",
+    "fichas de los 5 sentidos para inicial",
+    "fichas de los 5 sentidos para primaria",
+    "fichas de los cinco sentidos para imprimir",
+    "fichas interactivas de los cinco sentidos",
+    "fichas interactivas de los cinco sentidos en inglés",
+    "fichas para trabajar los cinco sentidos",
+    "imágenes de los cinco sentidos para preescolar",
+    "imágenes de los cinco sentidos para primer grado",
+    "lamina de los cinco sentidos para imprimir",
+    "los 5 sentidos",
+    "los 5 sentidos 1 primaria",
+    "los 5 sentidos 2do primaria",
+    "los 5 sentidos 3 primaria",
+    "los 5 sentidos 4 primaria",
+    "los 5 sentidos 6 primaria",
+    "los 5 sentidos actividades para imprimir",
+    "los 5 sentidos actividades para imprimir pdf",
+    "los 5 sentidos del cuerpo",
+    "los 5 sentidos del ser humano",
+    "los 5 sentidos en dibujo",
+    "los 5 sentidos en ingles",
+    "los 5 sentidos ficha de trabajo",
+    "los 5 sentidos fichas",
+    "los 5 sentidos fichas para imprimir",
+    "los 5 sentidos imagenes para imprimir",
+    "los 5 sentidos para colorear",
+    "los 5 sentidos para colorear preescolar",
+    "los 5 sentidos para imprimir",
+    "los 5 sentidos para imprimir a color",
+    "los 5 sentidos para imprimir letras",
+    "los 5 sentidos para imprimir para niños",
+    "los 5 sentidos para imprimir pdf",
+    "los 5 sentidos para niños",
+    "los 5 sentidos para niños actividades",
+    "los 5 sentidos para niños de segundo grado",
+    "los 5 sentidos para niños fichas",
+    "los 5 sentidos para niños preescolar",
+    "los 5 sentidos para preescolares",
+    "los 5 sentidos para primaria",
+    "los 5 sentidos para primer grado",
+    "los 5 sentidos para segundo grado de primaria",
+    "los 5 sentidos planeacion preescolar",
+    "los 5 sentidos preescolar",
+    "los 5 sentidos preescolar actividades",
+    "los 5 sentidos primaria",
+    "los 5 sentidos primer grado",
+    "los 5 sentidos segundo grado",
+    "los 5 sentidos titulo para imprimir",
+    "los 5 sentidos y sus funciones",
+    "los 5 sentidos y sus partes",
+    "los cinco sentidos",
+    "los cinco sentidos actividades preescolar",
+    "los cinco sentidos actividades primaria",
+    "los cinco sentidos animados para imprimir",
+    "los cinco sentidos del cuerpo humano",
+    "los cinco sentidos del ser humano",
+    "los cinco sentidos dibujo",
+    "los cinco sentidos en inglés",
+    "los cinco sentidos en inglés para imprimir",
+    "los cinco sentidos ficha",
+    "los cinco sentidos imagenes para imprimir",
+    "los cinco sentidos letras para imprimir",
+    "los cinco sentidos para colorear preescolar",
+    "los cinco sentidos para imprimir",
+    "los cinco sentidos para imprimir y colorear",
+    "los cinco sentidos para niños",
+    "los cinco sentidos para niños de segundo grado",
+    "los cinco sentidos para niños imprimir",
+    "los cinco sentidos para niños preescolar",
+    "los cinco sentidos para primaria",
+    "los cinco sentidos para primer grado",
+    "los cinco sentidos para primero primaria",
+    "los cinco sentidos para quinto de primaria",
+    "los cinco sentidos para segundo grado de primaria",
+    "los cinco sentidos para segundo primaria",
+    "los cinco sentidos para tercero primaria",
+    "los cinco sentidos preescolar",
+    "los cinco sentidos primaria",
+    "los cinco sentidos primaria pdf",
+    "los cinco sentidos primer grado",
+    "los cinco sentidos primero de primaria",
+    "los cinco sentidos requena",
+    "los cinco sentidos segundo de primaria",
+    "los cinco sentidos segundo grado",
+    "los cinco sentidos y sus funciones",
+    "los cinco sentidos y sus funciones para niños",
+    "los cinco sentidos y sus partes",
+    "los sentidos 5 primaria pdf",
+    "lámina de los cinco sentidos para niños de primer grado",
+    "palabra los 5 sentidos para imprimir",
+    "planeacion de los cinco sentidos preescolar",
+    "proyecto de los 5 sentidos para primer grado",
+    "proyecto de los 5 sentidos segundo grado",
+    "proyecto de los cinco sentidos para preescolar",
+    "proyecto los 5 sentidos preescolar",
+    "proyecto los 5 sentidos preescolar pdf",
+    "proyecto los 5 sentidos primaria",
+    "video de los 5 sentidos preescolar",
+    "video de los cinco sentidos para preescolar"
+   ]
+  },
+  "weather": {
+   "heads": [
+    "el clima",
+    "el estado del tiempo"
+   ],
+   "requests": 14,
+   "productiveSeeds": 11,
+   "unique": 63,
+   "suggestions": [
+    "actividades sobre el clima para primer grado",
+    "cancion para el clima preescolar",
+    "como esta el clima hoy para imprimir",
+    "como esta el clima para imprimir",
+    "como esta el clima preescolar",
+    "el clima",
+    "el clima 3 primaria",
+    "el clima 4 primaria",
+    "el clima 4 primaria santillana",
+    "el clima 5 primaria",
+    "el clima 5 primaria ejercicios",
+    "el clima 5 primaria pdf",
+    "el clima 6 primaria",
+    "el clima actividades para segundo grado",
+    "el clima actividades preescolar",
+    "el clima de hoy",
+    "el clima de mañana",
+    "el clima del día de hoy",
+    "el clima en cdmx",
+    "el clima en mexico",
+    "el clima en mi ubicación",
+    "el clima en monterrey",
+    "el clima ficha",
+    "el clima ficha de trabajo",
+    "el clima ficha interactiva",
+    "el clima fichas para imprimir",
+    "el clima letras para imprimir",
+    "el clima para hoy",
+    "el clima para imprimir",
+    "el clima para mañana",
+    "el clima para niños de segundo grado",
+    "el clima para niños de segundo grado de primaria",
+    "el clima para niños de segundo grado pdf",
+    "el clima para niños preescolar",
+    "el clima para primaria",
+    "el clima para primer grado",
+    "el clima para primer grado de primaria",
+    "el clima para segundo grado",
+    "el clima preescolar",
+    "el clima primaria",
+    "el clima primaria pdf",
+    "el clima primer grado",
+    "el clima segundo grado",
+    "el clima segundo grado de primaria",
+    "el clima y el paisaje grado segundo",
+    "el estado del tiempo",
+    "el estado del tiempo de hoy",
+    "el estado del tiempo de mañana",
+    "el estado del tiempo para el día de hoy",
+    "el estado del tiempo para el día de mañana",
+    "el estado del tiempo para el sábado",
+    "el estado del tiempo para esta semana",
+    "el estado del tiempo para hoy",
+    "el estado del tiempo para mañana",
+    "el estado del tiempo tampico",
+    "estado del tiempo para imprimir",
+    "estado del tiempo preescolar",
+    "fichas el clima 4 primaria",
+    "fichas el clima 5 primaria",
+    "guia el clima grado segundo",
+    "que es el estado del tiempo para niños de primaria",
+    "sopa de letras sobre el clima para imprimir",
+    "taller sobre el clima grado segundo"
+   ]
+  },
+  "tangram": {
+   "heads": [
+    "tangram",
+    "tangram para imprimir"
+   ],
+   "requests": 14,
+   "productiveSeeds": 12,
+   "unique": 64,
+   "suggestions": [
+    "actividad tangram primaria",
+    "actividad tangram.primer grado",
+    "actividades con el tangram segundo grado",
+    "actividades tangram primaria pdf",
+    "actividades tangram primer grado primaria",
+    "conociendo el tangram primer grado",
+    "cuadrado fichas tangram",
+    "fichas de tangram para imprimir pdf",
+    "fichas tangram medidas",
+    "fichas tangram para imprimir",
+    "figuras tangram pdf",
+    "planeacion tangram preescolar",
+    "planeacion tangram primaria",
+    "preescolar tangram figuras casa",
+    "preescolar tangram recortable",
+    "proyecto tangram primaria",
+    "tangram",
+    "tangram 1° primaria",
+    "tangram 2 primaria",
+    "tangram 5 fichas",
+    "tangram 6 primaria",
+    "tangram 7 fichas",
+    "tangram cuantas fichas tiene",
+    "tangram de 4 fichas",
+    "tangram de 6 fichas",
+    "tangram de ecuaciones de primer grado",
+    "tangram de madera",
+    "tangram de plastico",
+    "tangram del libro de primer grado",
+    "tangram fichas",
+    "tangram fichas para imprimir",
+    "tangram figuras para imprimir",
+    "tangram figuras preescolar",
+    "tangram figuras primaria",
+    "tangram libro preescolar 3",
+    "tangram matematicas primer grado",
+    "tangram para imprimir",
+    "tangram para imprimir a color pdf",
+    "tangram para imprimir a4",
+    "tangram para imprimir grande",
+    "tangram para imprimir grande pdf",
+    "tangram para imprimir pdf",
+    "tangram para imprimir preescolar",
+    "tangram para imprimir primaria",
+    "tangram para imprimir primer grado",
+    "tangram para imprimir y 60 figuras para construir pdf",
+    "tangram para imprimir y colorear",
+    "tangram para imprimir y recortar",
+    "tangram para imprimir y recortar pdf",
+    "tangram para niños",
+    "tangram para niños de primer grado",
+    "tangram para preescolar",
+    "tangram para segundo grado",
+    "tangram preescolar",
+    "tangram preescolar 3",
+    "tangram preescolar actividades",
+    "tangram preescolar para imprimir",
+    "tangram primaria",
+    "tangram primaria pdf",
+    "tangram primer grado",
+    "tangram primer grado primaria",
+    "tangram segundo grado",
+    "tangrama",
+    "tangrama figuras"
+   ]
+  },
+  "recycling": {
+   "heads": [
+    "reciclaje",
+    "separación de basura"
+   ],
+   "requests": 14,
+   "productiveSeeds": 9,
+   "unique": 66,
+   "suggestions": [
+    "actividades de reciclaje primer grado",
+    "actividades de separacion de basura para preescolar",
+    "actividades reciclaje primaria",
+    "actividades reciclaje primaria pdf",
+    "botes de reciclaje preescolar",
+    "canciones reciclaje primaria",
+    "carteles reciclaje para imprimir",
+    "carteles reciclaje primaria",
+    "contenedores reciclaje para imprimir",
+    "etiquetas reciclaje para imprimir",
+    "ficha reciclaje para niños",
+    "ficha reciclaje primaria",
+    "fichas reciclaje infantil",
+    "fichas reciclaje pdf",
+    "fichas reciclaje primaria pdf",
+    "lapbook reciclaje primaria",
+    "logo reciclaje para imprimir",
+    "manualidades de reciclaje preescolar",
+    "palabra reciclaje para imprimir",
+    "pegatinas reciclaje para imprimir",
+    "plan reciclaje preescolar",
+    "planeacion reciclaje preescolar",
+    "plantillas reciclaje para imprimir",
+    "preescolar reciclaje con niños",
+    "proyecto reciclaje preescolar",
+    "proyecto reciclaje primaria",
+    "proyecto reciclaje primer grado",
+    "reciclaje",
+    "reciclaje cerca de mi",
+    "reciclaje de basura",
+    "reciclaje de botellas",
+    "reciclaje de botellas de plástico",
+    "reciclaje de papel",
+    "reciclaje de plastico",
+    "reciclaje de vidrio",
+    "reciclaje dibujo",
+    "reciclaje fichas",
+    "reciclaje fichas para imprimir",
+    "reciclaje imagenes para imprimir",
+    "reciclaje para imprimir",
+    "reciclaje para niños",
+    "reciclaje para niños de primer grado",
+    "reciclaje para niños de segundo grado de primaria",
+    "reciclaje para niños preescolar",
+    "reciclaje para preescolar",
+    "reciclaje para primaria",
+    "reciclaje para primer grado",
+    "reciclaje para segundo grado",
+    "reciclaje preescolar",
+    "reciclaje preescolar actividades",
+    "reciclaje primaria",
+    "reciclaje primer grado",
+    "reciclaje segundo grado",
+    "separacion de basura para niños de preescolar",
+    "separacion de basura preescolar",
+    "separación de basura",
+    "separación de basura cdmx",
+    "separación de basura cdmx 2026 pdf",
+    "separación de basura colores",
+    "separación de basura en casa",
+    "separación de basura guatemala",
+    "separación de basura orgánica e inorgánica",
+    "separación de basura para niños",
+    "separación de basura por colores",
+    "separación de basura uruapan",
+    "simbolo reciclaje para imprimir"
+   ]
+  },
+  "odd-and-even": {
+   "heads": [
+    "pares e impares",
+    "números pares e impares"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 68,
+   "suggestions": [
+    "actividades numeros pares e impares primer grado",
+    "cartaz numeros pares e impares para imprimir",
+    "como enseñar numeros pares e impares a niños de primer grado",
+    "concepto de números pares e impares para niños de primer grado",
+    "concepto de números pares e impares para primer grado",
+    "ejercicios de numeros pares e impares para primer grado",
+    "ejercicios de numeros pares e impares para primero de primaria para imprimir",
+    "ejercicios de números pares e impares para segundo grado pdf",
+    "ejercicios de números pares e impares primaria",
+    "ejercicios numeros pares e impares segundo grado",
+    "ejercicios pares e impares 2 primaria",
+    "evaluacion de numeros pares e impares grado segundo",
+    "ficha de numeros pares e impares para segundo grado",
+    "ficha numeros pares e impares 1o primaria",
+    "ficha numeros pares e impares 2 primaria",
+    "ficha pares e impares primero primaria",
+    "fichas de numeros pares e impares para primer grado",
+    "fichas de numeros pares e impares para tercer grado",
+    "fichas de números pares e impares para imprimir",
+    "fichas números pares e impares 1o primaria pdf",
+    "fichas números pares e impares 2o primaria pdf",
+    "numeros pares e impares 2 primaria",
+    "numeros pares e impares 2 primaria liveworksheets",
+    "numeros pares e impares 2 primaria pdf",
+    "numeros pares e impares ejercicios para imprimir",
+    "numeros pares e impares ficha de trabajo",
+    "numeros pares e impares fichas",
+    "numeros pares e impares fichas para imprimir",
+    "numeros pares e impares grado segundo actividades",
+    "numeros pares e impares para imprimir",
+    "numeros pares e impares para niños de segundo grado",
+    "numeros pares e impares preescolar",
+    "numeros pares e impares primaria",
+    "numeros pares e impares primer grado",
+    "numeros pares e impares primer grado de primaria",
+    "numeros pares e impares segundo grado",
+    "numeros pares e impares segundo grado de primaria",
+    "números pares e impares",
+    "números pares e impares 1 primaria",
+    "números pares e impares 1 primaria pdf",
+    "números pares e impares 3 primaria",
+    "números pares e impares del 1 al 100",
+    "números pares e impares del 1 al 1000",
+    "números pares e impares ejemplos",
+    "números pares e impares ejercicios",
+    "números pares e impares para niños",
+    "números pares e impares para niños de primer grado",
+    "números pares e impares para niños de segundo",
+    "números pares e impares para primer grado",
+    "números pares e impares para segundo grado",
+    "números pares e impares primer grado",
+    "pares e impares",
+    "pares e impares 2 primaria",
+    "pares e impares actividades",
+    "pares e impares cnn",
+    "pares e impares en ingles",
+    "pares e impares fichas",
+    "pares e impares juego",
+    "pares e impares numeros",
+    "pares e impares para imprimir",
+    "pares e impares para niños",
+    "pares e impares para primer grado",
+    "pares e impares para segundo grado",
+    "pares e impares primaria",
+    "pares e impares primer grado",
+    "pares e impares segundo grado",
+    "pares e impares wordwall",
+    "sesion de aprendizaje numeros pares e impares primer grado"
+   ]
+  },
+  "rounding": {
+   "heads": [
+    "redondeo",
+    "redondear números"
+   ],
+   "requests": 14,
+   "productiveSeeds": 8,
+   "unique": 51,
+   "suggestions": [
+    "ejercicios de redondeo para imprimir",
+    "ejercicios redondeo primaria",
+    "ficha redondear numeros",
+    "ficha redondeo 3 primaria",
+    "ficha redondeo 4 primaria",
+    "ficha redondeo 5 primaria",
+    "ficha redondeo 6 primaria",
+    "ficha redondeo a la decena",
+    "ficha redondeo de numeros decimales",
+    "ficha redondeo primaria",
+    "ficha redondeo y truncamiento",
+    "primaria redondeo de numeros",
+    "redondear numeros 3 primaria",
+    "redondear numeros 4 primaria",
+    "redondear numeros 5 primaria",
+    "redondear numeros decimales 4 primaria",
+    "redondear numeros decimales 4 primaria pdf",
+    "redondear numeros naturales 6 primaria",
+    "redondear números",
+    "redondear números a la unidad",
+    "redondear números a las décimas",
+    "redondear números decimales",
+    "redondear números decimales 6 primaria",
+    "redondear números en excel",
+    "redondear números enteros",
+    "redondear números enteros 4 primaria",
+    "redondear números enteros en excel",
+    "redondear números hasta la centena de millar",
+    "redondear números naturales",
+    "redondear números naturales 5 primaria",
+    "redondear números primaria",
+    "redondeo",
+    "redondeo 3 primaria",
+    "redondeo 4 primaria",
+    "redondeo 4 primaria pdf",
+    "redondeo 5 primaria",
+    "redondeo 5 primaria pdf",
+    "redondeo 6 primaria",
+    "redondeo de numeros",
+    "redondeo de numeros naturales",
+    "redondeo de números decimales",
+    "redondeo de números ejemplos",
+    "redondeo en excel",
+    "redondeo en ingles",
+    "redondeo fichas",
+    "redondeo para segundo grado",
+    "redondeo primaria",
+    "redondeo revolut",
+    "redondeo segundo grado",
+    "redondeo ucr",
+    "redondeo y truncamiento"
+   ]
+  },
+  "pronouns": {
+   "heads": [
+    "pronombres personales",
+    "los pronombres"
+   ],
+   "requests": 14,
+   "productiveSeeds": 13,
+   "unique": 103,
+   "suggestions": [
+    "ejemplos.de pronombres personales.para primer grado",
+    "ejercicios de pronombres personales en español para imprimir",
+    "ejercicios de pronombres personales primer grado",
+    "ejercicios de pronombres personales segundo grado",
+    "ejercicios pronombres personales 4 primaria para imprimir",
+    "ficha de los pronombres para primer grado",
+    "ficha de los pronombres para segundo grado",
+    "ficha de los pronombres personales para primer grado",
+    "ficha de pronombres personales primer grado",
+    "ficha de pronombres personales segundo grado",
+    "imágenes de los pronombres personales para imprimir",
+    "los pronombres",
+    "los pronombres 2 primaria",
+    "los pronombres 3 primaria",
+    "los pronombres 4 primaria",
+    "los pronombres 5 primaria",
+    "los pronombres 6 primaria",
+    "los pronombres 6 primaria pdf",
+    "los pronombres actividades primaria",
+    "los pronombres demostrativos",
+    "los pronombres en ingles y español",
+    "los pronombres en inglés",
+    "los pronombres ficha de trabajo",
+    "los pronombres fichas",
+    "los pronombres para imprimir",
+    "los pronombres para niños de segundo grado",
+    "los pronombres para primaria",
+    "los pronombres para primer grado",
+    "los pronombres para primer grado de primaria",
+    "los pronombres para segundo grado",
+    "los pronombres para segundo grado de primaria",
+    "los pronombres personales",
+    "los pronombres personales en español",
+    "los pronombres personales en inglés",
+    "los pronombres personales en inglés para imprimir",
+    "los pronombres personales en inglés y español",
+    "los pronombres personales ficha de trabajo",
+    "los pronombres personales fichas",
+    "los pronombres personales fichas interactivas",
+    "los pronombres personales fichas para imprimir",
+    "los pronombres personales para imprimir",
+    "los pronombres personales para primer grado de primaria",
+    "los pronombres personales para segundo grado",
+    "los pronombres personales para segundo grado de primaria",
+    "los pronombres personales primaria",
+    "los pronombres personales primer grado",
+    "los pronombres personales segundo grado",
+    "los pronombres posesivos",
+    "los pronombres posesivos para segundo grado",
+    "los pronombres primaria",
+    "los pronombres primer grado",
+    "los pronombres relativos",
+    "los pronombres segundo grado",
+    "pronombres personales",
+    "pronombres personales 3 primaria",
+    "pronombres personales 4 primaria",
+    "pronombres personales 4 primaria pdf",
+    "pronombres personales 5 primaria",
+    "pronombres personales 5 primaria pdf",
+    "pronombres personales 6 primaria",
+    "pronombres personales actividades para imprimir",
+    "pronombres personales actividades segundo grado",
+    "pronombres personales ejemplos",
+    "pronombres personales en aleman",
+    "pronombres personales en español",
+    "pronombres personales en frances",
+    "pronombres personales en ingles",
+    "pronombres personales en ingles ejercicios para imprimir",
+    "pronombres personales en ingles grado segundo",
+    "pronombres personales en ingles para imprimir",
+    "pronombres personales en ingles para preescolar",
+    "pronombres personales en ingles para primer grado",
+    "pronombres personales en ingles para segundo grado",
+    "pronombres personales en ingles y español",
+    "pronombres personales en ingles y español para imprimir",
+    "pronombres personales en italiano",
+    "pronombres personales en kaqchikel",
+    "pronombres personales ficha 3 primaria",
+    "pronombres personales ficha 4 primaria",
+    "pronombres personales ficha 5 primaria",
+    "pronombres personales ficha de aplicacion",
+    "pronombres personales ficha de trabajo",
+    "pronombres personales ficha pdf",
+    "pronombres personales ficha primaria",
+    "pronombres personales fichas",
+    "pronombres personales fichas para imprimir",
+    "pronombres personales para imprimir",
+    "pronombres personales para niños",
+    "pronombres personales para segundo grado",
+    "pronombres personales preescolar",
+    "pronombres personales primaria",
+    "pronombres personales primaria ejercicios",
+    "pronombres personales primaria ficha",
+    "pronombres personales primaria pdf",
+    "pronombres personales primer grado",
+    "pronombres personales primer grado de primaria",
+    "pronombres personales segundo grado",
+    "pronombres personales segundo grado de primaria",
+    "pronombres personales y posesivos para segundo grado",
+    "pronombres personales.fichas interactivas",
+    "sopa de letras de pronombres personales para imprimir",
+    "taller de los pronombres para segundo grado",
+    "taller pronombres personales grado segundo"
+   ]
+  },
+  "question-words": {
+   "heads": [
+    "palabras interrogativas",
+    "preguntas con qué quién dónde"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 13,
+   "suggestions": [
+    "palabras interrogativas",
+    "palabras interrogativas ejemplos",
+    "palabras interrogativas ejercicios",
+    "palabras interrogativas en aleman",
+    "palabras interrogativas en español",
+    "palabras interrogativas en español ejercicios",
+    "palabras interrogativas en frances",
+    "palabras interrogativas en ingles",
+    "palabras interrogativas en inglés y español",
+    "palabras interrogativas y exclamativas",
+    "preguntas con que quien cual donde cuando y como",
+    "preguntas con qué quién dónde cómo",
+    "preguntas que quien donde wordwall"
+   ]
+  },
+  "cube-nets": {
+   "heads": [
+    "desarrollo del cubo",
+    "desarrollos planos"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 25,
+   "suggestions": [
+    "desarrollo del cubo",
+    "desarrollo del cubo de proyección",
+    "desarrollo del cubo de un binomio",
+    "desarrollo del cubo para armar",
+    "desarrollo del cubo para imprimir",
+    "desarrollo del cubo para recortar",
+    "desarrollo del cubo rubik",
+    "desarrollo del cubo. o hexaedro",
+    "desarrollo plano del cubo",
+    "desarrollo plano del cubo para imprimir",
+    "desarrollos planos",
+    "desarrollos planos de cilindros pirámides iconos",
+    "desarrollos planos de cuerpos geométricos",
+    "desarrollos planos de cuerpos geométricos para imprimir",
+    "desarrollos planos de cuerpos geométricos pdf",
+    "desarrollos planos de figuras geometricas para imprimir",
+    "desarrollos planos de figuras tridimensionales",
+    "desarrollos planos de piramides",
+    "desarrollos planos de prismas",
+    "desarrollos planos de prismas para imprimir",
+    "desarrollos planos de prismas y piramides para imprimir",
+    "desarrollos planos de prismas y pirámides",
+    "desarrollos planos del cubo",
+    "desarrollos planos para imprimir",
+    "desarrollos planos para la construcción de sólidos geométricos"
+   ]
+  },
+  "finger-counting": {
+   "heads": [
+    "contar con los dedos",
+    "los dedos de la mano"
+   ],
+   "requests": 14,
+   "productiveSeeds": 6,
+   "unique": 24,
+   "suggestions": [
+    "contar con los dedos",
+    "contar con los dedos actividades",
+    "contar con los dedos de la mano",
+    "contar con los dedos en aleman",
+    "contar con los dedos en chino",
+    "contar con los dedos gif",
+    "contar con los dedos jorge diaz pdf",
+    "contar con los dedos libro",
+    "contar con los dedos pdf gratis",
+    "contar con los dedos resumen",
+    "dedos de la mano para imprimir",
+    "ficha de los dedos de la mano",
+    "libro contar con los dedos para imprimir",
+    "los dedos de la mano",
+    "los dedos de la mano como se llaman",
+    "los dedos de la mano en ingles",
+    "los dedos de la mano en kaqchikel",
+    "los dedos de la mano engordan",
+    "los dedos de la mano nombres",
+    "los dedos de la mano se me duermen",
+    "los dedos de la mano tiene musculos",
+    "los dedos de la mano y de los pies tienen articulaciones",
+    "los dedos de la mano y sus nombres",
+    "preescolar nombre de los dedos de la mano"
+   ]
+  }
+ },
+ "suggestions": {
+  "completar oraciones": {
+   "candidate": "cloze",
+   "s": [
+    "completar oraciones",
+    "completar oraciones segundo grado",
+    "completar oraciones wordwall",
+    "completar oraciones para primer grado",
+    "completar oraciones en ingles",
+    "completar oraciones primer grado",
+    "completar oraciones en inglés traductor",
+    "completar oraciones tercer grado",
+    "completar oraciones con palabras",
+    "completar oraciones ejercicios"
+   ]
+  },
+  "completar oraciones ficha": {
+   "candidate": "cloze",
+   "s": [
+    "completar oraciones fichas"
+   ]
+  },
+  "completar oraciones para imprimir": {
+   "candidate": "cloze",
+   "s": [
+    "completar oraciones para imprimir",
+    "actividades completar oraciones para imprimir"
+   ]
+  },
+  "completar oraciones preescolar": {
+   "candidate": "cloze",
+   "s": [
+    "completar oraciones preescolar"
+   ]
+  },
+  "completar oraciones primer grado": {
+   "candidate": "cloze",
+   "s": [
+    "completar oraciones primer grado",
+    "completar oraciones primer grado pdf",
+    "completar oraciones primer grado wordwall",
+    "completar oraciones primer grado primaria",
+    "ejercicios para completar oraciones primer grado",
+    "fichas para completar oraciones primer grado",
+    "completar oraciones con palabras primer grado"
+   ]
+  },
+  "completar oraciones segundo grado": {
+   "candidate": "cloze",
+   "s": [
+    "completar oraciones segundo grado",
+    "completar oraciones para segundo grado de primaria",
+    "wordwall completar oraciones segundo grado",
+    "ejercicios para completar oraciones segundo grado",
+    "completar oraciones para niños de segundo grado",
+    "fichas para completar oraciones para segundo grado"
+   ]
+  },
+  "completar oraciones primaria": {
+   "candidate": "cloze",
+   "s": [
+    "completar oraciones primaria",
+    "completar oraciones 2 primaria",
+    "completar oraciones tercero de primaria",
+    "ejercicios para completar oraciones primaria",
+    "completar oraciones primer grado primaria",
+    "completar oraciones para niños de primaria",
+    "completar oraciones para segundo de primaria",
+    "completar oraciones para primero de primaria"
+   ]
+  },
+  "completa las oraciones": {
+   "candidate": "cloze",
+   "s": [
+    "completa las oraciones",
+    "completa las oraciones con las palabras del recuadro",
+    "completa las oraciones con las siguientes palabras",
+    "completa las oraciones con acciones relacionadas con las imágenes",
+    "completa las oraciones con el sujeto adecuado",
+    "completa las oraciones con la palabra correcta",
+    "completa las oraciones con los datos de la leyenda",
+    "completa las oraciones con las palabras que describen una mochila",
+    "completa las oraciones en inglés",
+    "completa las oraciones primer grado"
+   ]
+  },
+  "completa las oraciones preescolar": {
+   "candidate": "cloze",
+   "s": [
+    "completa las oraciones preescolar"
+   ]
+  },
+  "completa las oraciones primer grado": {
+   "candidate": "cloze",
+   "s": [
+    "completa las oraciones primer grado",
+    "las oraciones primer grado",
+    "completa oraciones para primer grado wordwall"
+   ]
+  },
+  "completa las oraciones segundo grado": {
+   "candidate": "cloze",
+   "s": [
+    "completa las oraciones segundo grado",
+    "completa las oraciones para niños de segundo grado",
+    "las oraciones segundo grado"
+   ]
+  },
+  "dominó para imprimir": {
+   "candidate": "dominoes",
+   "s": [
+    "dominó para imprimir",
+    "dominó para imprimir 28 piezas",
+    "dominó para imprimir pdf",
+    "dominó para imprimir de animales",
+    "dominó para imprimir y recortar pdf",
+    "dominó para imprimir y recortar pdf con palabras de myp",
+    "domino para imprimir niños",
+    "domino para imprimir de numeros",
+    "domino para imprimir grande",
+    "domino para imprimir preescolar"
+   ]
+  },
+  "dominó para imprimir ficha": {
+   "candidate": "dominoes",
+   "s": [
+    "fichas domino para imprimir",
+    "fichas de dominó para imprimir y recortar",
+    "fichas de dominó para imprimir grandes",
+    "fichas de dominó para imprimir y recortar pdf",
+    "fichas de dominó para imprimir pdf",
+    "fichas de domino para imprimir en blanco",
+    "fichas de domino para imprimir a color",
+    "fichas de domino para imprimir para niños",
+    "fichas domino triangular para imprimir"
+   ]
+  },
+  "dominó para imprimir preescolar": {
+   "candidate": "dominoes",
+   "s": [
+    "domino para imprimir preescolar"
+   ]
+  },
+  "dominó": {
+   "candidate": "dominoes",
+   "s": [
+    "dominó",
+    "domino's pizza",
+    "dominó juego",
+    "dominó silábico para imprimir pdf",
+    "dominó completos",
+    "dominó silábico para imprimir pdf gratis",
+    "domino's",
+    "dominó clásico",
+    "dominó online - juego clasico",
+    "dominó vamos apk"
+   ]
+  },
+  "dominó ficha": {
+   "candidate": "dominoes",
+   "s": [
+    "dominó fichas",
+    "domino fichas grandes",
+    "domino fichas completas",
+    "domino fichas cuantas",
+    "domino ficha blanca",
+    "domino fichas por jugador",
+    "domino fichas para imprimir",
+    "domino ficha sin numero",
+    "domino fichas dobles",
+    "domino fichas de colores"
+   ]
+  },
+  "dominó preescolar": {
+   "candidate": "dominoes",
+   "s": [
+    "domino preescolar",
+    "domino preescolar pdf",
+    "preescolar domino de numeros para imprimir",
+    "domino para preescolar",
+    "domino para preescolar imprimir",
+    "domino recortable preescolar",
+    "actividad domino preescolar",
+    "juego domino preescolar",
+    "domino de numeros preescolar",
+    "domino silabico para preescolar"
+   ]
+  },
+  "dominó primer grado": {
+   "candidate": "dominoes",
+   "s": [
+    "domino primer grado",
+    "domino para primer grado",
+    "domino ecuaciones de primer grado",
+    "domino silabico para primer grado",
+    "domino de palabras para primer grado",
+    "domino de sumas para primer grado",
+    "dominó de ecuaciones de primer grado resuelto"
+   ]
+  },
+  "dominó segundo grado": {
+   "candidate": "dominoes",
+   "s": [
+    "domino ecuaciones segundo grado"
+   ]
+  },
+  "dominó primaria": {
+   "candidate": "dominoes",
+   "s": [
+    "domino primaria",
+    "domino matematico primaria",
+    "domino para primaria",
+    "dominó matemático 6 primaria",
+    "domino scuola primaria"
+   ]
+  },
+  "partes del cuerpo": {
+   "candidate": "human-body",
+   "s": [
+    "partes del cuerpo en sueco",
+    "partes del cuerpo humano",
+    "partes del cuerpo",
+    "partes del cuerpo en ingles",
+    "partes del cuerpo humano por dentro",
+    "partes del cuerpo humano en inglés",
+    "partes del cuerpo humano para niños",
+    "partes del cuerpo en ingles y español",
+    "partes del cuerpo de una mujer",
+    "partes del cuerpo en ingles para niños"
+   ]
+  },
+  "partes del cuerpo ficha": {
+   "candidate": "human-body",
+   "s": [
+    "partes del cuerpo fichas",
+    "partes del cuerpo fichas para imprimir",
+    "partes del cuerpo fichas para niños",
+    "partes del cuerpo ficha de trabajo",
+    "partes del cuerpo ficha inicial",
+    "partes del cuerpo ficha infantil",
+    "partes del cuerpo ficha en ingles",
+    "partes del cuerpo ficha pdf",
+    "partes del cuerpo ficha 3 años",
+    "partes del cuerpo ficha niños"
+   ]
+  },
+  "partes del cuerpo para imprimir": {
+   "candidate": "human-body",
+   "s": [
+    "partes del cuerpo para imprimir",
+    "partes del cuerpo para imprimir para niños",
+    "partes del cuerpo para imprimir pdf",
+    "partes del cuerpo para imprimir a color",
+    "partes del cuerpo para imprimir y recortar",
+    "partes del cuerpo para imprimir en grande",
+    "partes del cuerpo para imprimir en ingles",
+    "partes del cuerpo para imprimir y armar",
+    "partes del cuerpo para imprimir preescolar",
+    "partes del cuerpo para imprimir por separado"
+   ]
+  },
+  "partes del cuerpo preescolar": {
+   "candidate": "human-body",
+   "s": [
+    "partes del cuerpo preescolar",
+    "partes del cuerpo preescolar pdf",
+    "partes del cuerpo preescolar actividades",
+    "partes del cuerpo preescolar para colorear",
+    "partes del cuerpo preescolar ingles",
+    "partes del cuerpo preescolar pinterest",
+    "partes del cuerpo preescolar wordwall",
+    "partes del cuerpo preescolar niña",
+    "partes del cuerpo para preescolar",
+    "partes del cuerpo humano preescolar"
+   ]
+  },
+  "partes del cuerpo primer grado": {
+   "candidate": "human-body",
+   "s": [
+    "partes del cuerpo primer grado",
+    "partes del cuerpo primer grado primaria",
+    "partes del cuerpo primer grado actividades",
+    "partes del cuerpo para primer grado",
+    "partes del cuerpo humano primer grado",
+    "examen partes del cuerpo primer grado",
+    "practica partes del cuerpo primer grado",
+    "sesion partes del cuerpo primer grado",
+    "ficha partes del cuerpo primer grado",
+    "partes internas del cuerpo primer grado"
+   ]
+  },
+  "partes del cuerpo segundo grado": {
+   "candidate": "human-body",
+   "s": [
+    "partes del cuerpo segundo grado",
+    "partes del cuerpo segundo grado de primaria",
+    "partes del cuerpo humano segundo grado",
+    "partes del cuerpo humano segundo grado de primaria",
+    "actividades partes del cuerpo segundo grado",
+    "partes del cuerpo en ingles segundo grado",
+    "partes del cuerpo para niños de segundo grado",
+    "wordwall partes del cuerpo humano segundo grado",
+    "partes internas del cuerpo humano segundo grado",
+    "partes del cuerpo para niños de segundo grado en inglés"
+   ]
+  },
+  "partes del cuerpo primaria": {
+   "candidate": "human-body",
+   "s": [
+    "partes del cuerpo primaria",
+    "partes del cuerpo primaria pdf",
+    "partes del cuerpo humano primaria",
+    "partes del cuerpo 1 primaria",
+    "partes del cuerpo ingles primaria",
+    "partes del cuerpo 2 primaria",
+    "partes del cuerpo 3 primaria",
+    "partes del cuerpo 4 primaria",
+    "partes del cuerpo segundo primaria",
+    "actividades partes del cuerpo primaria"
+   ]
+  },
+  "el cuerpo humano": {
+   "candidate": "human-body",
+   "s": [
+    "el cuerpo humano",
+    "el cuerpo humano y sus partes",
+    "el cuerpo humano y sus órganos",
+    "el cuerpo humano y sus partes para niños",
+    "el cuerpo humano y sus partes para niños de primaria",
+    "el cuerpo humano y sus partes en ingles",
+    "el cuerpo humano en inglés",
+    "el cuerpo humano dibujo",
+    "el cuerpo humano por dentro",
+    "el cuerpo humano bill bryson"
+   ]
+  },
+  "el cuerpo humano ficha": {
+   "candidate": "human-body",
+   "s": [
+    "el cuerpo humano fichas",
+    "el cuerpo humano fichas pdf",
+    "el cuerpo humano fichas para imprimir",
+    "el cuerpo humano ficha de trabajo",
+    "el cuerpo humano fichas infantil",
+    "descubre el cuerpo humano fichas completas",
+    "el cuerpo humano para niños fichas para imprimir",
+    "ficha el cuerpo humano primero primaria",
+    "fichas el cuerpo humano 2 primaria",
+    "fichas el cuerpo humano 5 años"
+   ]
+  },
+  "el cuerpo humano para imprimir": {
+   "candidate": "human-body",
+   "s": [
+    "el cuerpo humano para imprimir",
+    "el cuerpo humano para imprimir para niños",
+    "el cuerpo humano para imprimir y colorear",
+    "el cuerpo humano para imprimir por partes",
+    "el cuerpo humano letras para imprimir",
+    "el cuerpo humano rompecabezas para imprimir",
+    "el cuerpo humano fichas para imprimir",
+    "el cuerpo humano articulado para imprimir",
+    "el cuerpo humano dibujo para imprimir",
+    "el cuerpo humano animado para imprimir"
+   ]
+  },
+  "el cuerpo humano preescolar": {
+   "candidate": "human-body",
+   "s": [
+    "el cuerpo humano preescolar",
+    "el cuerpo humano preescolar actividades",
+    "el cuerpo humano para preescolar",
+    "planeación el cuerpo humano preescolar",
+    "proyecto el cuerpo humano preescolar",
+    "conociendo el cuerpo humano preescolar",
+    "el cuerpo humano para niños preescolar",
+    "el cuerpo humano para colorear preescolar",
+    "juegos sobre el cuerpo humano preescolar",
+    "pda sobre el cuerpo humano preescolar"
+   ]
+  },
+  "el cuerpo humano primer grado": {
+   "candidate": "human-body",
+   "s": [
+    "el cuerpo humano primer grado",
+    "el cuerpo humano primer grado de primaria",
+    "el cuerpo humano para primer grado",
+    "secuencia el cuerpo humano primer grado",
+    "secuencia didáctica el cuerpo humano primer grado",
+    "el cuerpo humano actividades para primer grado",
+    "el cuerpo humano niños de primer grado",
+    "el cuerpo humano concepto para primer grado",
+    "proyecto sobre el cuerpo humano primer grado",
+    "el cuerpo humano y sus partes primer grado"
+   ]
+  },
+  "el cuerpo humano segundo grado": {
+   "candidate": "human-body",
+   "s": [
+    "el cuerpo humano segundo grado",
+    "el cuerpo humano segundo grado de primaria",
+    "el cuerpo humano para segundo grado",
+    "el cuerpo humano para segundo grado de primaria",
+    "secuencia el cuerpo humano segundo grado",
+    "secuencia didáctica el cuerpo humano segundo grado",
+    "cambios en el cuerpo humano segundo grado",
+    "el cuerpo humano actividades para segundo grado",
+    "el cuerpo humano clase para segundo grado",
+    "el cuerpo humano para niños segundo grado"
+   ]
+  },
+  "el cuerpo humano primaria": {
+   "candidate": "human-body",
+   "s": [
+    "el cuerpo humano primaria",
+    "el cuerpo humano primaria pdf",
+    "el cuerpo humano para primaria",
+    "el cuerpo humano 3 primaria pdf",
+    "el cuerpo humano 1o primaria pdf",
+    "el cuerpo humano segundo primaria",
+    "el cuerpo humano 1 primaria",
+    "el cuerpo humano 2 primaria pdf",
+    "el cuerpo humano 3 primaria",
+    "el cuerpo humano 4 primaria"
+   ]
+  },
+  "los cinco sentidos": {
+   "candidate": "five-senses",
+   "s": [
+    "los cinco sentidos",
+    "los cinco sentidos y sus funciones",
+    "los cinco sentidos en inglés",
+    "los cinco sentidos y sus partes",
+    "los cinco sentidos del cuerpo humano",
+    "los cinco sentidos para niños",
+    "los cinco sentidos del ser humano",
+    "los cinco sentidos dibujo",
+    "los cinco sentidos y sus funciones para niños",
+    "los cinco sentidos requena"
+   ]
+  },
+  "los cinco sentidos ficha": {
+   "candidate": "five-senses",
+   "s": [
+    "los cinco sentidos ficha",
+    "ficha de los cinco sentidos para niños",
+    "fichas de los cinco sentidos para imprimir",
+    "ficha de los cinco sentidos para primer grado",
+    "ficha de los cinco sentidos para colorear",
+    "fichas para trabajar los cinco sentidos",
+    "fichas interactivas de los cinco sentidos",
+    "fichas interactivas de los cinco sentidos en inglés"
+   ]
+  },
+  "los cinco sentidos para imprimir": {
+   "candidate": "five-senses",
+   "s": [
+    "los cinco sentidos para imprimir",
+    "los cinco sentidos para imprimir y colorear",
+    "los cinco sentidos imagenes para imprimir",
+    "los cinco sentidos letras para imprimir",
+    "los cinco sentidos para niños imprimir",
+    "los cinco sentidos animados para imprimir",
+    "cuento de los cinco sentidos para imprimir",
+    "los cinco sentidos en inglés para imprimir",
+    "lamina de los cinco sentidos para imprimir",
+    "fichas de los cinco sentidos para imprimir"
+   ]
+  },
+  "los cinco sentidos preescolar": {
+   "candidate": "five-senses",
+   "s": [
+    "los cinco sentidos preescolar",
+    "los cinco sentidos actividades preescolar",
+    "los cinco sentidos para colorear preescolar",
+    "los cinco sentidos para niños preescolar",
+    "planeacion de los cinco sentidos preescolar",
+    "actividades para trabajar los cinco sentidos preescolar",
+    "proyecto de los cinco sentidos para preescolar",
+    "canción de los cinco sentidos para preescolar",
+    "imágenes de los cinco sentidos para preescolar",
+    "video de los cinco sentidos para preescolar"
+   ]
+  },
+  "los cinco sentidos primer grado": {
+   "candidate": "five-senses",
+   "s": [
+    "los cinco sentidos primer grado",
+    "los cinco sentidos para primer grado",
+    "actividad de los cinco sentidos primer grado",
+    "ficha de los cinco sentidos para primer grado",
+    "concepto de los cinco sentidos para primer grado",
+    "imágenes de los cinco sentidos para primer grado",
+    "ejercicio de los cinco sentidos para primer grado",
+    "exposición de los cinco sentidos para niños de primer grado",
+    "dibujo de los cinco sentidos para niños de primer grado",
+    "lámina de los cinco sentidos para niños de primer grado"
+   ]
+  },
+  "los cinco sentidos segundo grado": {
+   "candidate": "five-senses",
+   "s": [
+    "los cinco sentidos segundo grado",
+    "los cinco sentidos para segundo grado de primaria",
+    "los cinco sentidos para niños de segundo grado",
+    "actividades de los cinco sentidos para segundo grado",
+    "concepto de los cinco sentidos para niños de segundo grado",
+    "dibujo de los cinco sentidos para niños de segundo grado",
+    "actividades de los cinco sentidos para niños de segundo grado"
+   ]
+  },
+  "los cinco sentidos primaria": {
+   "candidate": "five-senses",
+   "s": [
+    "los cinco sentidos primaria",
+    "los cinco sentidos primaria pdf",
+    "los cinco sentidos para primaria",
+    "los cinco sentidos actividades primaria",
+    "los cinco sentidos para segundo primaria",
+    "los cinco sentidos segundo de primaria",
+    "los cinco sentidos primero de primaria",
+    "los cinco sentidos para primero primaria",
+    "los cinco sentidos para tercero primaria",
+    "los cinco sentidos para quinto de primaria"
+   ]
+  },
+  "los 5 sentidos": {
+   "candidate": "five-senses",
+   "s": [
+    "los 5 sentidos",
+    "los 5 sentidos para niños",
+    "los 5 sentidos del ser humano",
+    "los 5 sentidos en ingles",
+    "los 5 sentidos del cuerpo",
+    "los 5 sentidos y sus partes",
+    "los 5 sentidos en dibujo",
+    "los 5 sentidos y sus funciones",
+    "los 5 sentidos para niños actividades",
+    "los 5 sentidos para colorear"
+   ]
+  },
+  "los 5 sentidos ficha": {
+   "candidate": "five-senses",
+   "s": [
+    "los 5 sentidos fichas",
+    "los 5 sentidos fichas para imprimir",
+    "los 5 sentidos ficha de trabajo",
+    "los 5 sentidos para niños fichas",
+    "fichas de los 5 sentidos para primaria",
+    "ficha de los 5 sentidos para colorear",
+    "fichas de los 5 sentidos para inicial",
+    "fichas de los 5 sentidos actividades para imprimir",
+    "ficha los sentidos 5 primaria",
+    "fichas de los 5 sentidos en ingles"
+   ]
+  },
+  "los 5 sentidos para imprimir": {
+   "candidate": "five-senses",
+   "s": [
+    "los 5 sentidos para imprimir",
+    "los 5 sentidos para imprimir pdf",
+    "los 5 sentidos para imprimir a color",
+    "los 5 sentidos para imprimir para niños",
+    "los 5 sentidos para imprimir letras",
+    "los 5 sentidos actividades para imprimir",
+    "los 5 sentidos actividades para imprimir pdf",
+    "los 5 sentidos imagenes para imprimir",
+    "los 5 sentidos titulo para imprimir",
+    "palabra los 5 sentidos para imprimir"
+   ]
+  },
+  "los 5 sentidos preescolar": {
+   "candidate": "five-senses",
+   "s": [
+    "los 5 sentidos preescolar",
+    "los 5 sentidos preescolar actividades",
+    "proyecto los 5 sentidos preescolar pdf",
+    "proyecto los 5 sentidos preescolar",
+    "los 5 sentidos planeacion preescolar",
+    "los 5 sentidos para preescolares",
+    "los 5 sentidos para niños preescolar",
+    "los 5 sentidos para colorear preescolar",
+    "cartel de los 5 sentidos preescolar",
+    "video de los 5 sentidos preescolar"
+   ]
+  },
+  "los 5 sentidos primer grado": {
+   "candidate": "five-senses",
+   "s": [
+    "los 5 sentidos primer grado",
+    "los 5 sentidos para primer grado",
+    "actividades de los 5 sentidos primer grado",
+    "proyecto de los 5 sentidos para primer grado",
+    "examen de los 5 sentidos para primer grado",
+    "ejercicio de los 5 sentidos para primer grado",
+    "exposición de los 5 sentidos para primer grado",
+    "concepto de los 5 sentidos para primer grado"
+   ]
+  },
+  "los 5 sentidos segundo grado": {
+   "candidate": "five-senses",
+   "s": [
+    "los 5 sentidos segundo grado",
+    "los 5 sentidos para segundo grado de primaria",
+    "actividad de los 5 sentidos segundo grado",
+    "proyecto de los 5 sentidos segundo grado",
+    "los 5 sentidos para niños de segundo grado",
+    "actividades de los 5 sentidos para niños de segundo grado"
+   ]
+  },
+  "los 5 sentidos primaria": {
+   "candidate": "five-senses",
+   "s": [
+    "los 5 sentidos primaria",
+    "los sentidos 5 primaria pdf",
+    "los 5 sentidos para primaria",
+    "los 5 sentidos 3 primaria",
+    "proyecto los 5 sentidos primaria",
+    "los 5 sentidos 2do primaria",
+    "los 5 sentidos 1 primaria",
+    "los 5 sentidos 6 primaria",
+    "los 5 sentidos 4 primaria",
+    "examen los sentidos 5 primaria"
+   ]
+  },
+  "el clima": {
+   "candidate": "weather",
+   "s": [
+    "el clima de hoy",
+    "el clima",
+    "el clima de mañana",
+    "el clima para hoy",
+    "el clima para mañana",
+    "el clima en cdmx",
+    "el clima del día de hoy",
+    "el clima en mexico",
+    "el clima en mi ubicación",
+    "el clima en monterrey"
+   ]
+  },
+  "el clima ficha": {
+   "candidate": "weather",
+   "s": [
+    "el clima ficha",
+    "el clima fichas para imprimir",
+    "el clima ficha de trabajo",
+    "el clima ficha interactiva",
+    "fichas el clima 4 primaria",
+    "fichas el clima 5 primaria"
+   ]
+  },
+  "el clima para imprimir": {
+   "candidate": "weather",
+   "s": [
+    "el clima para imprimir",
+    "el clima fichas para imprimir",
+    "el clima letras para imprimir",
+    "como esta el clima para imprimir",
+    "como esta el clima hoy para imprimir",
+    "sopa de letras sobre el clima para imprimir"
+   ]
+  },
+  "el clima preescolar": {
+   "candidate": "weather",
+   "s": [
+    "el clima preescolar",
+    "el clima actividades preescolar",
+    "el clima para niños preescolar",
+    "como esta el clima preescolar",
+    "cancion para el clima preescolar"
+   ]
+  },
+  "el clima primer grado": {
+   "candidate": "weather",
+   "s": [
+    "el clima primer grado",
+    "el clima para primer grado",
+    "el clima para primer grado de primaria",
+    "actividades sobre el clima para primer grado"
+   ]
+  },
+  "el clima segundo grado": {
+   "candidate": "weather",
+   "s": [
+    "el clima segundo grado",
+    "el clima segundo grado de primaria",
+    "el clima para segundo grado",
+    "el clima actividades para segundo grado",
+    "guia el clima grado segundo",
+    "el clima para niños de segundo grado",
+    "el clima para niños de segundo grado de primaria",
+    "taller sobre el clima grado segundo",
+    "el clima para niños de segundo grado pdf",
+    "el clima y el paisaje grado segundo"
+   ]
+  },
+  "el clima primaria": {
+   "candidate": "weather",
+   "s": [
+    "el clima primaria",
+    "el clima primaria pdf",
+    "el clima 4 primaria",
+    "el clima para primaria",
+    "el clima 5 primaria",
+    "el clima 5 primaria pdf",
+    "el clima 6 primaria",
+    "el clima 5 primaria ejercicios",
+    "el clima 4 primaria santillana",
+    "el clima 3 primaria"
+   ]
+  },
+  "el estado del tiempo": {
+   "candidate": "weather",
+   "s": [
+    "el estado del tiempo",
+    "el estado del tiempo para hoy",
+    "el estado del tiempo para mañana",
+    "el estado del tiempo de hoy",
+    "el estado del tiempo tampico",
+    "el estado del tiempo de mañana",
+    "el estado del tiempo para el día de mañana",
+    "el estado del tiempo para esta semana",
+    "el estado del tiempo para el día de hoy",
+    "el estado del tiempo para el sábado"
+   ]
+  },
+  "el estado del tiempo para imprimir": {
+   "candidate": "weather",
+   "s": [
+    "estado del tiempo para imprimir"
+   ]
+  },
+  "el estado del tiempo preescolar": {
+   "candidate": "weather",
+   "s": [
+    "estado del tiempo preescolar"
+   ]
+  },
+  "el estado del tiempo primaria": {
+   "candidate": "weather",
+   "s": [
+    "que es el estado del tiempo para niños de primaria"
+   ]
+  },
+  "tangram": {
+   "candidate": "tangram",
+   "s": [
+    "tangram",
+    "tangram para imprimir",
+    "tangrama",
+    "tangram de madera",
+    "tangram de plastico",
+    "tangram para niños",
+    "tangram para imprimir pdf",
+    "tangrama figuras",
+    "tangram para imprimir y recortar",
+    "tangram figuras para imprimir"
+   ]
+  },
+  "tangram ficha": {
+   "candidate": "tangram",
+   "s": [
+    "tangram fichas",
+    "tangram fichas para imprimir",
+    "figuras tangram pdf",
+    "fichas tangram medidas",
+    "tangram 7 fichas",
+    "tangram cuantas fichas tiene",
+    "tangram 5 fichas",
+    "tangram de 6 fichas",
+    "tangram de 4 fichas",
+    "cuadrado fichas tangram"
+   ]
+  },
+  "tangram para imprimir": {
+   "candidate": "tangram",
+   "s": [
+    "tangram para imprimir",
+    "tangram para imprimir pdf",
+    "tangram para imprimir y recortar",
+    "tangram para imprimir y 60 figuras para construir pdf",
+    "tangram para imprimir a4",
+    "tangram para imprimir grande pdf",
+    "tangram para imprimir y recortar pdf",
+    "tangram para imprimir a color pdf",
+    "tangram para imprimir grande",
+    "tangram para imprimir y colorear"
+   ]
+  },
+  "tangram preescolar": {
+   "candidate": "tangram",
+   "s": [
+    "tangram preescolar",
+    "tangram preescolar actividades",
+    "tangram preescolar 3",
+    "tangram preescolar para imprimir",
+    "preescolar tangram figuras casa",
+    "preescolar tangram recortable",
+    "tangram para preescolar",
+    "tangram libro preescolar 3",
+    "planeacion tangram preescolar",
+    "tangram figuras preescolar"
+   ]
+  },
+  "tangram primer grado": {
+   "candidate": "tangram",
+   "s": [
+    "tangram primer grado",
+    "tangram primer grado primaria",
+    "actividades tangram primer grado primaria",
+    "tangram matematicas primer grado",
+    "actividad tangram.primer grado",
+    "tangram para imprimir primer grado",
+    "conociendo el tangram primer grado",
+    "tangram para niños de primer grado",
+    "tangram de ecuaciones de primer grado",
+    "tangram del libro de primer grado"
+   ]
+  },
+  "tangram segundo grado": {
+   "candidate": "tangram",
+   "s": [
+    "tangram segundo grado",
+    "tangram para segundo grado",
+    "actividades con el tangram segundo grado"
+   ]
+  },
+  "tangram primaria": {
+   "candidate": "tangram",
+   "s": [
+    "tangram primaria",
+    "tangram primaria pdf",
+    "actividades tangram primaria pdf",
+    "tangram figuras primaria",
+    "proyecto tangram primaria",
+    "actividad tangram primaria",
+    "planeacion tangram primaria",
+    "tangram 1° primaria",
+    "tangram 6 primaria",
+    "tangram 2 primaria"
+   ]
+  },
+  "tangram para imprimir ficha": {
+   "candidate": "tangram",
+   "s": [
+    "fichas tangram para imprimir",
+    "fichas de tangram para imprimir pdf"
+   ]
+  },
+  "tangram para imprimir preescolar": {
+   "candidate": "tangram",
+   "s": [
+    "tangram para imprimir preescolar"
+   ]
+  },
+  "tangram para imprimir primer grado": {
+   "candidate": "tangram",
+   "s": [
+    "tangram para imprimir primer grado"
+   ]
+  },
+  "tangram para imprimir primaria": {
+   "candidate": "tangram",
+   "s": [
+    "tangram para imprimir primaria"
+   ]
+  },
+  "reciclaje": {
+   "candidate": "recycling",
+   "s": [
+    "reciclaje",
+    "reciclaje para niños",
+    "reciclaje de basura",
+    "reciclaje cerca de mi",
+    "reciclaje dibujo",
+    "reciclaje de papel",
+    "reciclaje de vidrio",
+    "reciclaje de botellas",
+    "reciclaje de plastico",
+    "reciclaje de botellas de plástico"
+   ]
+  },
+  "reciclaje ficha": {
+   "candidate": "recycling",
+   "s": [
+    "reciclaje fichas",
+    "reciclaje fichas para imprimir",
+    "fichas reciclaje primaria pdf",
+    "fichas reciclaje infantil",
+    "ficha reciclaje para niños",
+    "ficha reciclaje primaria",
+    "fichas reciclaje pdf"
+   ]
+  },
+  "reciclaje para imprimir": {
+   "candidate": "recycling",
+   "s": [
+    "reciclaje para imprimir",
+    "carteles reciclaje para imprimir",
+    "etiquetas reciclaje para imprimir",
+    "palabra reciclaje para imprimir",
+    "pegatinas reciclaje para imprimir",
+    "logo reciclaje para imprimir",
+    "reciclaje imagenes para imprimir",
+    "simbolo reciclaje para imprimir",
+    "plantillas reciclaje para imprimir",
+    "contenedores reciclaje para imprimir"
+   ]
+  },
+  "reciclaje preescolar": {
+   "candidate": "recycling",
+   "s": [
+    "reciclaje preescolar",
+    "reciclaje preescolar actividades",
+    "preescolar reciclaje con niños",
+    "reciclaje para preescolar",
+    "proyecto reciclaje preescolar",
+    "planeacion reciclaje preescolar",
+    "plan reciclaje preescolar",
+    "reciclaje para niños preescolar",
+    "botes de reciclaje preescolar",
+    "manualidades de reciclaje preescolar"
+   ]
+  },
+  "reciclaje primer grado": {
+   "candidate": "recycling",
+   "s": [
+    "reciclaje primer grado",
+    "reciclaje para primer grado",
+    "proyecto reciclaje primer grado",
+    "actividades de reciclaje primer grado",
+    "reciclaje para niños de primer grado"
+   ]
+  },
+  "reciclaje segundo grado": {
+   "candidate": "recycling",
+   "s": [
+    "reciclaje segundo grado",
+    "reciclaje para segundo grado",
+    "reciclaje para niños de segundo grado de primaria"
+   ]
+  },
+  "reciclaje primaria": {
+   "candidate": "recycling",
+   "s": [
+    "reciclaje primaria",
+    "proyecto reciclaje primaria",
+    "actividades reciclaje primaria pdf",
+    "canciones reciclaje primaria",
+    "fichas reciclaje primaria pdf",
+    "reciclaje para primaria",
+    "lapbook reciclaje primaria",
+    "actividades reciclaje primaria",
+    "ficha reciclaje primaria",
+    "carteles reciclaje primaria"
+   ]
+  },
+  "separación de basura": {
+   "candidate": "recycling",
+   "s": [
+    "separación de basura",
+    "separación de basura cdmx",
+    "separación de basura orgánica e inorgánica",
+    "separación de basura por colores",
+    "separación de basura uruapan",
+    "separación de basura cdmx 2026 pdf",
+    "separación de basura colores",
+    "separación de basura en casa",
+    "separación de basura guatemala",
+    "separación de basura para niños"
+   ]
+  },
+  "separación de basura preescolar": {
+   "candidate": "recycling",
+   "s": [
+    "separacion de basura preescolar",
+    "separacion de basura para niños de preescolar",
+    "actividades de separacion de basura para preescolar"
+   ]
+  },
+  "pares e impares": {
+   "candidate": "odd-and-even",
+   "s": [
+    "pares e impares",
+    "pares e impares en ingles",
+    "pares e impares para niños",
+    "pares e impares actividades",
+    "pares e impares numeros",
+    "pares e impares cnn",
+    "pares e impares para primer grado",
+    "pares e impares juego",
+    "pares e impares wordwall",
+    "pares e impares para segundo grado"
+   ]
+  },
+  "pares e impares ficha": {
+   "candidate": "odd-and-even",
+   "s": [
+    "pares e impares fichas",
+    "numeros pares e impares fichas",
+    "numeros pares e impares ficha de trabajo",
+    "numeros pares e impares fichas para imprimir",
+    "ficha pares e impares primero primaria",
+    "fichas números pares e impares 2o primaria pdf",
+    "fichas números pares e impares 1o primaria pdf",
+    "ficha numeros pares e impares 2 primaria",
+    "fichas de numeros pares e impares para primer grado",
+    "ficha de numeros pares e impares para segundo grado"
+   ]
+  },
+  "pares e impares para imprimir": {
+   "candidate": "odd-and-even",
+   "s": [
+    "pares e impares para imprimir",
+    "numeros pares e impares ejercicios para imprimir",
+    "fichas de números pares e impares para imprimir",
+    "cartaz numeros pares e impares para imprimir"
+   ]
+  },
+  "pares e impares preescolar": {
+   "candidate": "odd-and-even",
+   "s": [
+    "numeros pares e impares preescolar"
+   ]
+  },
+  "pares e impares primer grado": {
+   "candidate": "odd-and-even",
+   "s": [
+    "pares e impares primer grado",
+    "numeros pares e impares primer grado",
+    "numeros pares e impares primer grado de primaria",
+    "actividades numeros pares e impares primer grado",
+    "sesion de aprendizaje numeros pares e impares primer grado",
+    "fichas de numeros pares e impares para primer grado",
+    "ejercicios de numeros pares e impares para primer grado",
+    "concepto de números pares e impares para primer grado",
+    "como enseñar numeros pares e impares a niños de primer grado"
+   ]
+  },
+  "pares e impares segundo grado": {
+   "candidate": "odd-and-even",
+   "s": [
+    "pares e impares segundo grado",
+    "numeros pares e impares segundo grado",
+    "numeros pares e impares segundo grado de primaria",
+    "ejercicios numeros pares e impares segundo grado",
+    "evaluacion de numeros pares e impares grado segundo",
+    "ejercicios de números pares e impares para segundo grado pdf",
+    "numeros pares e impares para niños de segundo grado",
+    "ficha de numeros pares e impares para segundo grado"
+   ]
+  },
+  "pares e impares primaria": {
+   "candidate": "odd-and-even",
+   "s": [
+    "pares e impares primaria",
+    "pares e impares 2 primaria",
+    "numeros pares e impares primaria",
+    "ejercicios de números pares e impares primaria",
+    "numeros pares e impares 2 primaria",
+    "ejercicios pares e impares 2 primaria",
+    "números pares e impares 1 primaria",
+    "números pares e impares 3 primaria",
+    "numeros pares e impares 2 primaria pdf",
+    "ficha pares e impares primero primaria"
+   ]
+  },
+  "números pares e impares": {
+   "candidate": "odd-and-even",
+   "s": [
+    "números pares e impares",
+    "números pares e impares para niños",
+    "números pares e impares del 1 al 100",
+    "números pares e impares ejercicios",
+    "números pares e impares para niños de segundo",
+    "números pares e impares del 1 al 1000",
+    "números pares e impares para segundo grado",
+    "números pares e impares para niños de primer grado",
+    "números pares e impares para primer grado",
+    "números pares e impares ejemplos"
+   ]
+  },
+  "números pares e impares ficha": {
+   "candidate": "odd-and-even",
+   "s": [
+    "numeros pares e impares fichas",
+    "numeros pares e impares ficha de trabajo",
+    "numeros pares e impares fichas para imprimir",
+    "fichas números pares e impares 2o primaria pdf",
+    "fichas números pares e impares 1o primaria pdf",
+    "ficha numeros pares e impares 2 primaria",
+    "ficha numeros pares e impares 1o primaria",
+    "fichas de numeros pares e impares para primer grado",
+    "ficha de numeros pares e impares para segundo grado",
+    "fichas de numeros pares e impares para tercer grado"
+   ]
+  },
+  "números pares e impares para imprimir": {
+   "candidate": "odd-and-even",
+   "s": [
+    "numeros pares e impares para imprimir",
+    "numeros pares e impares ejercicios para imprimir",
+    "numeros pares e impares fichas para imprimir",
+    "ejercicios de numeros pares e impares para primero de primaria para imprimir",
+    "cartaz numeros pares e impares para imprimir"
+   ]
+  },
+  "números pares e impares preescolar": {
+   "candidate": "odd-and-even",
+   "s": [
+    "numeros pares e impares preescolar"
+   ]
+  },
+  "números pares e impares primer grado": {
+   "candidate": "odd-and-even",
+   "s": [
+    "números pares e impares primer grado",
+    "numeros pares e impares primer grado de primaria",
+    "actividades numeros pares e impares primer grado",
+    "sesion de aprendizaje numeros pares e impares primer grado",
+    "fichas de numeros pares e impares para primer grado",
+    "ejercicios de numeros pares e impares para primer grado",
+    "concepto de números pares e impares para primer grado",
+    "como enseñar numeros pares e impares a niños de primer grado",
+    "concepto de números pares e impares para niños de primer grado"
+   ]
+  },
+  "números pares e impares segundo grado": {
+   "candidate": "odd-and-even",
+   "s": [
+    "numeros pares e impares segundo grado",
+    "numeros pares e impares segundo grado de primaria",
+    "numeros pares e impares grado segundo actividades",
+    "numeros pares e impares para niños de segundo grado",
+    "evaluacion de numeros pares e impares grado segundo",
+    "ejercicios de números pares e impares para segundo grado pdf",
+    "ficha de numeros pares e impares para segundo grado"
+   ]
+  },
+  "números pares e impares primaria": {
+   "candidate": "odd-and-even",
+   "s": [
+    "numeros pares e impares primaria",
+    "numeros pares e impares 2 primaria",
+    "números pares e impares 1 primaria",
+    "números pares e impares 3 primaria",
+    "numeros pares e impares 2 primaria pdf",
+    "números pares e impares 1 primaria pdf",
+    "numeros pares e impares 2 primaria liveworksheets",
+    "ejercicios de números pares e impares primaria",
+    "fichas números pares e impares 2o primaria pdf",
+    "fichas números pares e impares 1o primaria pdf"
+   ]
+  },
+  "redondeo": {
+   "candidate": "rounding",
+   "s": [
+    "redondeo",
+    "redondeo de números decimales",
+    "redondeo de numeros",
+    "redondeo en excel",
+    "redondeo de números ejemplos",
+    "redondeo y truncamiento",
+    "redondeo en ingles",
+    "redondeo de numeros naturales",
+    "redondeo revolut",
+    "redondeo ucr"
+   ]
+  },
+  "redondeo ficha": {
+   "candidate": "rounding",
+   "s": [
+    "redondeo fichas",
+    "ficha redondeo 4 primaria",
+    "ficha redondeo de numeros decimales",
+    "ficha redondeo 3 primaria",
+    "ficha redondeo a la decena",
+    "ficha redondeo primaria",
+    "ficha redondeo 5 primaria",
+    "ficha redondeo y truncamiento",
+    "ficha redondeo 6 primaria"
+   ]
+  },
+  "redondeo para imprimir": {
+   "candidate": "rounding",
+   "s": [
+    "ejercicios de redondeo para imprimir"
+   ]
+  },
+  "redondeo segundo grado": {
+   "candidate": "rounding",
+   "s": [
+    "redondeo segundo grado",
+    "redondeo para segundo grado"
+   ]
+  },
+  "redondeo primaria": {
+   "candidate": "rounding",
+   "s": [
+    "redondeo primaria",
+    "primaria redondeo de numeros",
+    "redondeo 5 primaria",
+    "redondeo 4 primaria",
+    "redondeo 3 primaria",
+    "redondeo 6 primaria",
+    "redondeo 5 primaria pdf",
+    "redondeo 4 primaria pdf",
+    "ejercicios redondeo primaria",
+    "ficha redondeo primaria"
+   ]
+  },
+  "redondear números": {
+   "candidate": "rounding",
+   "s": [
+    "redondear números",
+    "redondear números decimales",
+    "redondear números en excel",
+    "redondear números a las décimas",
+    "redondear números enteros",
+    "redondear números enteros en excel",
+    "redondear números hasta la centena de millar",
+    "redondear números a la unidad",
+    "redondear números primaria",
+    "redondear números naturales"
+   ]
+  },
+  "redondear números ficha": {
+   "candidate": "rounding",
+   "s": [
+    "ficha redondear numeros"
+   ]
+  },
+  "redondear números primaria": {
+   "candidate": "rounding",
+   "s": [
+    "redondear números primaria",
+    "redondear numeros 4 primaria",
+    "redondear numeros 3 primaria",
+    "redondear numeros 5 primaria",
+    "redondear números decimales 6 primaria",
+    "redondear números naturales 5 primaria",
+    "redondear números enteros 4 primaria",
+    "redondear numeros decimales 4 primaria",
+    "redondear numeros naturales 6 primaria",
+    "redondear numeros decimales 4 primaria pdf"
+   ]
+  },
+  "pronombres personales": {
+   "candidate": "pronouns",
+   "s": [
+    "pronombres personales",
+    "pronombres personales en ingles",
+    "pronombres personales en español",
+    "pronombres personales en ingles y español",
+    "pronombres personales ejemplos",
+    "pronombres personales en frances",
+    "pronombres personales en aleman",
+    "pronombres personales en italiano",
+    "pronombres personales para niños",
+    "pronombres personales en kaqchikel"
+   ]
+  },
+  "pronombres personales ficha": {
+   "candidate": "pronouns",
+   "s": [
+    "pronombres personales fichas",
+    "pronombres personales fichas para imprimir",
+    "pronombres personales ficha de trabajo",
+    "pronombres personales ficha 3 primaria",
+    "pronombres personales.fichas interactivas",
+    "pronombres personales ficha pdf",
+    "pronombres personales ficha 5 primaria",
+    "pronombres personales ficha primaria",
+    "pronombres personales ficha 4 primaria",
+    "pronombres personales ficha de aplicacion"
+   ]
+  },
+  "pronombres personales para imprimir": {
+   "candidate": "pronouns",
+   "s": [
+    "pronombres personales para imprimir",
+    "pronombres personales fichas para imprimir",
+    "pronombres personales actividades para imprimir",
+    "pronombres personales en ingles para imprimir",
+    "pronombres personales en ingles ejercicios para imprimir",
+    "imágenes de los pronombres personales para imprimir",
+    "sopa de letras de pronombres personales para imprimir",
+    "pronombres personales en ingles y español para imprimir",
+    "ejercicios pronombres personales 4 primaria para imprimir",
+    "ejercicios de pronombres personales en español para imprimir"
+   ]
+  },
+  "pronombres personales preescolar": {
+   "candidate": "pronouns",
+   "s": [
+    "pronombres personales preescolar",
+    "pronombres personales en ingles para preescolar"
+   ]
+  },
+  "pronombres personales primer grado": {
+   "candidate": "pronouns",
+   "s": [
+    "pronombres personales primer grado",
+    "pronombres personales primer grado de primaria",
+    "ejercicios de pronombres personales primer grado",
+    "ficha de pronombres personales primer grado",
+    "pronombres personales en ingles para primer grado",
+    "ejemplos.de pronombres personales.para primer grado"
+   ]
+  },
+  "pronombres personales segundo grado": {
+   "candidate": "pronouns",
+   "s": [
+    "pronombres personales segundo grado",
+    "pronombres personales segundo grado de primaria",
+    "pronombres personales para segundo grado",
+    "pronombres personales actividades segundo grado",
+    "ejercicios de pronombres personales segundo grado",
+    "ficha de pronombres personales segundo grado",
+    "taller pronombres personales grado segundo",
+    "pronombres personales en ingles para segundo grado",
+    "pronombres personales y posesivos para segundo grado",
+    "pronombres personales en ingles grado segundo"
+   ]
+  },
+  "pronombres personales primaria": {
+   "candidate": "pronouns",
+   "s": [
+    "pronombres personales primaria",
+    "pronombres personales primaria pdf",
+    "pronombres personales primaria ejercicios",
+    "pronombres personales primaria ficha",
+    "pronombres personales 4 primaria",
+    "pronombres personales 3 primaria",
+    "pronombres personales 5 primaria",
+    "pronombres personales 4 primaria pdf",
+    "pronombres personales 6 primaria",
+    "pronombres personales 5 primaria pdf"
+   ]
+  },
+  "los pronombres": {
+   "candidate": "pronouns",
+   "s": [
+    "los pronombres personales",
+    "los pronombres",
+    "los pronombres en inglés",
+    "los pronombres personales en inglés",
+    "los pronombres personales en inglés y español",
+    "los pronombres en ingles y español",
+    "los pronombres posesivos",
+    "los pronombres demostrativos",
+    "los pronombres personales en español",
+    "los pronombres relativos"
+   ]
+  },
+  "los pronombres ficha": {
+   "candidate": "pronouns",
+   "s": [
+    "los pronombres fichas",
+    "los pronombres ficha de trabajo",
+    "los pronombres personales fichas",
+    "los pronombres personales fichas para imprimir",
+    "los pronombres personales ficha de trabajo",
+    "los pronombres personales fichas interactivas"
+   ]
+  },
+  "los pronombres para imprimir": {
+   "candidate": "pronouns",
+   "s": [
+    "los pronombres para imprimir",
+    "los pronombres personales para imprimir",
+    "los pronombres personales fichas para imprimir",
+    "los pronombres personales en inglés para imprimir",
+    "imágenes de los pronombres personales para imprimir"
+   ]
+  },
+  "los pronombres primer grado": {
+   "candidate": "pronouns",
+   "s": [
+    "los pronombres primer grado",
+    "los pronombres para primer grado",
+    "los pronombres para primer grado de primaria",
+    "los pronombres personales primer grado",
+    "los pronombres personales para primer grado de primaria",
+    "ficha de los pronombres para primer grado",
+    "ficha de los pronombres personales para primer grado"
+   ]
+  },
+  "los pronombres segundo grado": {
+   "candidate": "pronouns",
+   "s": [
+    "los pronombres segundo grado",
+    "los pronombres para segundo grado",
+    "los pronombres para segundo grado de primaria",
+    "los pronombres personales segundo grado",
+    "los pronombres personales para segundo grado",
+    "los pronombres personales para segundo grado de primaria",
+    "los pronombres posesivos para segundo grado",
+    "los pronombres para niños de segundo grado",
+    "taller de los pronombres para segundo grado",
+    "ficha de los pronombres para segundo grado"
+   ]
+  },
+  "los pronombres primaria": {
+   "candidate": "pronouns",
+   "s": [
+    "los pronombres primaria",
+    "los pronombres para primaria",
+    "los pronombres personales primaria",
+    "los pronombres 5 primaria",
+    "los pronombres 6 primaria pdf",
+    "los pronombres 6 primaria",
+    "los pronombres 3 primaria",
+    "los pronombres actividades primaria",
+    "los pronombres 4 primaria",
+    "los pronombres 2 primaria"
+   ]
+  },
+  "palabras interrogativas": {
+   "candidate": "question-words",
+   "s": [
+    "palabras interrogativas",
+    "palabras interrogativas en ingles",
+    "palabras interrogativas en español",
+    "palabras interrogativas en frances",
+    "palabras interrogativas en inglés y español",
+    "palabras interrogativas y exclamativas",
+    "palabras interrogativas en español ejercicios",
+    "palabras interrogativas en aleman",
+    "palabras interrogativas ejemplos",
+    "palabras interrogativas ejercicios"
+   ]
+  },
+  "preguntas con qué quién dónde": {
+   "candidate": "question-words",
+   "s": [
+    "preguntas con qué quién dónde cómo",
+    "preguntas con que quien cual donde cuando y como",
+    "preguntas que quien donde wordwall"
+   ]
+  },
+  "desarrollo del cubo": {
+   "candidate": "cube-nets",
+   "s": [
+    "desarrollo del cubo",
+    "desarrollo del cubo de un binomio",
+    "desarrollo del cubo para imprimir",
+    "desarrollo del cubo rubik",
+    "desarrollo del cubo. o hexaedro",
+    "desarrollo del cubo para armar",
+    "desarrollo del cubo para recortar",
+    "desarrollo del cubo de proyección",
+    "desarrollo plano del cubo",
+    "desarrollo plano del cubo para imprimir"
+   ]
+  },
+  "desarrollo del cubo para imprimir": {
+   "candidate": "cube-nets",
+   "s": [
+    "desarrollo del cubo para imprimir",
+    "desarrollo plano del cubo para imprimir"
+   ]
+  },
+  "desarrollos planos": {
+   "candidate": "cube-nets",
+   "s": [
+    "desarrollos planos",
+    "desarrollos planos de cuerpos geométricos",
+    "desarrollos planos para la construcción de sólidos geométricos",
+    "desarrollos planos del cubo",
+    "desarrollos planos de prismas",
+    "desarrollos planos de cuerpos geométricos pdf",
+    "desarrollos planos de cilindros pirámides iconos",
+    "desarrollos planos de prismas y pirámides",
+    "desarrollos planos de figuras tridimensionales",
+    "desarrollos planos de piramides"
+   ]
+  },
+  "desarrollos planos para imprimir": {
+   "candidate": "cube-nets",
+   "s": [
+    "desarrollos planos para imprimir",
+    "desarrollos planos de prismas para imprimir",
+    "desarrollos planos de cuerpos geométricos para imprimir",
+    "desarrollos planos de figuras geometricas para imprimir",
+    "desarrollos planos de prismas y piramides para imprimir"
+   ]
+  },
+  "contar con los dedos": {
+   "candidate": "finger-counting",
+   "s": [
+    "contar con los dedos",
+    "contar con los dedos jorge diaz pdf",
+    "contar con los dedos en chino",
+    "contar con los dedos libro",
+    "contar con los dedos de la mano",
+    "contar con los dedos resumen",
+    "contar con los dedos en aleman",
+    "contar con los dedos pdf gratis",
+    "contar con los dedos actividades",
+    "contar con los dedos gif"
+   ]
+  },
+  "contar con los dedos para imprimir": {
+   "candidate": "finger-counting",
+   "s": [
+    "libro contar con los dedos para imprimir"
+   ]
+  },
+  "los dedos de la mano": {
+   "candidate": "finger-counting",
+   "s": [
+    "los dedos de la mano",
+    "los dedos de la mano como se llaman",
+    "los dedos de la mano y de los pies tienen articulaciones",
+    "los dedos de la mano en ingles",
+    "los dedos de la mano nombres",
+    "los dedos de la mano y sus nombres",
+    "los dedos de la mano en kaqchikel",
+    "los dedos de la mano se me duermen",
+    "los dedos de la mano engordan",
+    "los dedos de la mano tiene musculos"
+   ]
+  },
+  "los dedos de la mano ficha": {
+   "candidate": "finger-counting",
+   "s": [
+    "ficha de los dedos de la mano"
+   ]
+  },
+  "los dedos de la mano para imprimir": {
+   "candidate": "finger-counting",
+   "s": [
+    "dedos de la mano para imprimir"
+   ]
+  },
+  "los dedos de la mano preescolar": {
+   "candidate": "finger-counting",
+   "s": [
+    "preescolar nombre de los dedos de la mano"
+   ]
+  }
+ }
+}

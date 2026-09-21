@@ -1,0 +1,336 @@
+{
+ "locale": "es",
+ "market": {
+  "hl": "es",
+  "gl": "mx"
+ },
+ "generatedAt": "2026-09-21T00:38:12.519Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds-watercycle.json",
+ "requestCount": 14,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "water-cycle": {
+   "heads": [
+    "ciclo del agua",
+    "ciclo del agua para niños"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 117,
+   "suggestions": [
+    "actividad del ciclo del agua para segundo grado",
+    "actividades ciclo del agua preescolar",
+    "actividades del ciclo del agua para niños de segundo grado",
+    "actividades del ciclo del agua para primer grado",
+    "ciclo del agua",
+    "ciclo del agua 2 primaria",
+    "ciclo del agua 3 primaria",
+    "ciclo del agua 4 primaria",
+    "ciclo del agua dibujo",
+    "ciclo del agua dibujo facil",
+    "ciclo del agua dibujo preescolar",
+    "ciclo del agua en la naturaleza",
+    "ciclo del agua explicacion para niños de preescolar",
+    "ciclo del agua ficha",
+    "ciclo del agua ficha de trabajo",
+    "ciclo del agua ficha interactiva",
+    "ciclo del agua ficha para niños",
+    "ciclo del agua fichas para imprimir",
+    "ciclo del agua fichas primaria",
+    "ciclo del agua imagen",
+    "ciclo del agua imagenes para imprimir",
+    "ciclo del agua letras para imprimir",
+    "ciclo del agua maqueta",
+    "ciclo del agua niños preescolar",
+    "ciclo del agua para colorear",
+    "ciclo del agua para imprimir",
+    "ciclo del agua para imprimir maqueta",
+    "ciclo del agua para imprimir pdf",
+    "ciclo del agua para imprimir y armar",
+    "ciclo del agua para imprimir y colorear",
+    "ciclo del agua para niños",
+    "ciclo del agua para niños actividades",
+    "ciclo del agua para niños de 10 años",
+    "ciclo del agua para niños de 2 primaria",
+    "ciclo del agua para niños de preescolar",
+    "ciclo del agua para niños de preescolar para colorear",
+    "ciclo del agua para niños de primaria",
+    "ciclo del agua para niños de primaria 3 grado",
+    "ciclo del agua para niños de primaria actividades",
+    "ciclo del agua para niños de primaria dibujo",
+    "ciclo del agua para niños de primaria en ingles",
+    "ciclo del agua para niños de primaria maqueta",
+    "ciclo del agua para niños de primaria pdf",
+    "ciclo del agua para niños de primaria video",
+    "ciclo del agua para niños de primer grado",
+    "ciclo del agua para niños de primer grado de primaria",
+    "ciclo del agua para niños de segundo grado",
+    "ciclo del agua para niños de segundo grado de primaria",
+    "ciclo del agua para niños de tercero de primaria",
+    "ciclo del agua para niños ficha",
+    "ciclo del agua para niños maqueta",
+    "ciclo del agua para niños para colorear",
+    "ciclo del agua para niños para imprimir",
+    "ciclo del agua para niños preescolar",
+    "ciclo del agua para niños primaria",
+    "ciclo del agua para niños primer grado",
+    "ciclo del agua para niños quinto de primaria",
+    "ciclo del agua para niños segundo grado",
+    "ciclo del agua para preescolar",
+    "ciclo del agua para primer grado",
+    "ciclo del agua para segundo grado de primaria",
+    "ciclo del agua preescolar",
+    "ciclo del agua preescolar para colorear",
+    "ciclo del agua primaria",
+    "ciclo del agua primaria actividades",
+    "ciclo del agua primaria dibujo",
+    "ciclo del agua primaria pdf",
+    "ciclo del agua primer grado",
+    "ciclo del agua primer grado de primaria",
+    "ciclo del agua segundo grado",
+    "ciclo del agua segundo grado primaria",
+    "ciclo del agua y sus etapas",
+    "concepto del ciclo del agua para niños de primer grado",
+    "concepto del ciclo del agua para niños de segundo grado",
+    "concepto del ciclo del agua para segundo grado",
+    "dibujo ciclo del agua para niños de preescolar",
+    "dibujo del ciclo del agua para niños de primer grado",
+    "dibujo del ciclo del agua para primer grado",
+    "dibujo del ciclo del agua para segundo grado",
+    "el ciclo del agua ficha pdf",
+    "el ciclo del agua para niños de segundo grado para colorear",
+    "experimento ciclo del agua primaria",
+    "experimento del ciclo del agua para niños de preescolar",
+    "experimento del ciclo del agua para niños de primer grado",
+    "explicación del ciclo del agua para niños de primer grado",
+    "explicación del ciclo del agua para niños de segundo grado",
+    "exposición del ciclo del agua para niños de primer grado",
+    "exposición del ciclo del agua para niños de segundo grado",
+    "ficha del ciclo del agua para primer grado",
+    "ficha del ciclo del agua para segundo grado de primaria",
+    "fichas ciclo del agua 2 primaria",
+    "fichas ciclo del agua 3o primaria",
+    "fichas ciclo del agua 4 primaria",
+    "flexagono ciclo del agua para imprimir",
+    "imagen del ciclo del agua para primer grado",
+    "imagenes del ciclo del agua para niños de preescolar",
+    "imágenes del ciclo del agua para niños de primer grado",
+    "imágenes del ciclo del agua para niños de segundo grado",
+    "imágenes del ciclo del agua para segundo grado",
+    "letrero ciclo del agua para imprimir",
+    "manualidades ciclo del agua para niños de preescolar",
+    "maqueta ciclo del agua para niños de preescolar",
+    "maqueta ciclo del agua preescolar",
+    "maqueta ciclo del agua primaria",
+    "maqueta del ciclo del agua para niños de primer grado",
+    "maqueta del ciclo del agua para niños de segundo grado",
+    "maqueta del ciclo del agua primer grado",
+    "palabra ciclo del agua para imprimir",
+    "planeacion ciclo del agua preescolar",
+    "proyecto ciclo del agua preescolar",
+    "proyecto ciclo del agua primaria",
+    "resumen del ciclo del agua para niños de segundo grado",
+    "video ciclo del agua para niños de preescolar",
+    "video ciclo del agua para preescolar",
+    "video del ciclo del agua para niños de primer grado",
+    "video del ciclo del agua para niños de segundo grado",
+    "video del ciclo del agua para segundo grado"
+   ]
+  }
+ },
+ "suggestions": {
+  "ciclo del agua": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo del agua",
+    "ciclo del agua para niños",
+    "ciclo del agua dibujo",
+    "ciclo del agua maqueta",
+    "ciclo del agua imagen",
+    "ciclo del agua para niños de primaria",
+    "ciclo del agua para colorear",
+    "ciclo del agua dibujo facil",
+    "ciclo del agua en la naturaleza",
+    "ciclo del agua y sus etapas"
+   ]
+  },
+  "ciclo del agua ficha": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo del agua ficha",
+    "ciclo del agua ficha de trabajo",
+    "ciclo del agua fichas para imprimir",
+    "ciclo del agua ficha interactiva",
+    "ciclo del agua fichas primaria",
+    "ciclo del agua ficha para niños",
+    "el ciclo del agua ficha pdf",
+    "fichas ciclo del agua 2 primaria",
+    "fichas ciclo del agua 3o primaria",
+    "fichas ciclo del agua 4 primaria"
+   ]
+  },
+  "ciclo del agua para imprimir": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo del agua para imprimir pdf",
+    "ciclo del agua para imprimir",
+    "ciclo del agua para imprimir y colorear",
+    "ciclo del agua para imprimir maqueta",
+    "ciclo del agua para imprimir y armar",
+    "ciclo del agua letras para imprimir",
+    "ciclo del agua imagenes para imprimir",
+    "letrero ciclo del agua para imprimir",
+    "flexagono ciclo del agua para imprimir",
+    "palabra ciclo del agua para imprimir"
+   ]
+  },
+  "ciclo del agua preescolar": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo del agua preescolar",
+    "ciclo del agua preescolar para colorear",
+    "actividades ciclo del agua preescolar",
+    "ciclo del agua niños preescolar",
+    "maqueta ciclo del agua preescolar",
+    "proyecto ciclo del agua preescolar",
+    "planeacion ciclo del agua preescolar",
+    "ciclo del agua dibujo preescolar",
+    "ciclo del agua para niños de preescolar para colorear",
+    "video ciclo del agua para preescolar"
+   ]
+  },
+  "ciclo del agua primer grado": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo del agua primer grado",
+    "ciclo del agua primer grado de primaria",
+    "ciclo del agua para primer grado",
+    "maqueta del ciclo del agua primer grado",
+    "ficha del ciclo del agua para primer grado",
+    "actividades del ciclo del agua para primer grado",
+    "imagen del ciclo del agua para primer grado",
+    "dibujo del ciclo del agua para primer grado",
+    "video del ciclo del agua para niños de primer grado",
+    "exposición del ciclo del agua para niños de primer grado"
+   ]
+  },
+  "ciclo del agua segundo grado": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo del agua segundo grado",
+    "ciclo del agua segundo grado primaria",
+    "ciclo del agua para segundo grado de primaria",
+    "ficha del ciclo del agua para segundo grado de primaria",
+    "dibujo del ciclo del agua para segundo grado",
+    "actividad del ciclo del agua para segundo grado",
+    "concepto del ciclo del agua para segundo grado",
+    "video del ciclo del agua para segundo grado",
+    "imágenes del ciclo del agua para segundo grado",
+    "el ciclo del agua para niños de segundo grado para colorear"
+   ]
+  },
+  "ciclo del agua primaria": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo del agua primaria",
+    "ciclo del agua primaria pdf",
+    "ciclo del agua primaria dibujo",
+    "ciclo del agua primaria actividades",
+    "ciclo del agua 2 primaria",
+    "experimento ciclo del agua primaria",
+    "ciclo del agua 3 primaria",
+    "maqueta ciclo del agua primaria",
+    "proyecto ciclo del agua primaria",
+    "ciclo del agua 4 primaria"
+   ]
+  },
+  "ciclo del agua para niños": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo del agua para niños",
+    "ciclo del agua para niños de primaria",
+    "ciclo del agua para niños de tercero de primaria",
+    "ciclo del agua para niños actividades",
+    "ciclo del agua para niños de 10 años",
+    "ciclo del agua para niños para colorear",
+    "ciclo del agua para niños maqueta",
+    "ciclo del agua para niños de preescolar",
+    "ciclo del agua para niños de segundo grado",
+    "ciclo del agua para niños de primer grado"
+   ]
+  },
+  "ciclo del agua para niños ficha": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo del agua para niños ficha"
+   ]
+  },
+  "ciclo del agua para niños para imprimir": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo del agua para niños para imprimir"
+   ]
+  },
+  "ciclo del agua para niños preescolar": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo del agua para niños preescolar",
+    "ciclo del agua para niños de preescolar para colorear",
+    "dibujo ciclo del agua para niños de preescolar",
+    "video ciclo del agua para niños de preescolar",
+    "maqueta ciclo del agua para niños de preescolar",
+    "ciclo del agua explicacion para niños de preescolar",
+    "manualidades ciclo del agua para niños de preescolar",
+    "ciclo del agua para preescolar",
+    "experimento del ciclo del agua para niños de preescolar",
+    "imagenes del ciclo del agua para niños de preescolar"
+   ]
+  },
+  "ciclo del agua para niños primer grado": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo del agua para niños primer grado",
+    "ciclo del agua para niños de primer grado de primaria",
+    "maqueta del ciclo del agua para niños de primer grado",
+    "dibujo del ciclo del agua para niños de primer grado",
+    "video del ciclo del agua para niños de primer grado",
+    "exposición del ciclo del agua para niños de primer grado",
+    "experimento del ciclo del agua para niños de primer grado",
+    "explicación del ciclo del agua para niños de primer grado",
+    "concepto del ciclo del agua para niños de primer grado",
+    "imágenes del ciclo del agua para niños de primer grado"
+   ]
+  },
+  "ciclo del agua para niños segundo grado": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo del agua para niños segundo grado",
+    "ciclo del agua para niños de segundo grado de primaria",
+    "imágenes del ciclo del agua para niños de segundo grado",
+    "maqueta del ciclo del agua para niños de segundo grado",
+    "explicación del ciclo del agua para niños de segundo grado",
+    "concepto del ciclo del agua para niños de segundo grado",
+    "video del ciclo del agua para niños de segundo grado",
+    "actividades del ciclo del agua para niños de segundo grado",
+    "resumen del ciclo del agua para niños de segundo grado",
+    "exposición del ciclo del agua para niños de segundo grado"
+   ]
+  },
+  "ciclo del agua para niños primaria": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo del agua para niños primaria",
+    "ciclo del agua para niños de primaria pdf",
+    "ciclo del agua para niños de primaria maqueta",
+    "ciclo del agua para niños de primaria 3 grado",
+    "ciclo del agua para niños de primaria actividades",
+    "ciclo del agua para niños de primaria video",
+    "ciclo del agua para niños de primaria dibujo",
+    "ciclo del agua para niños de primaria en ingles",
+    "ciclo del agua para niños quinto de primaria",
+    "ciclo del agua para niños de 2 primaria"
+   ]
+  }
+ }
+}

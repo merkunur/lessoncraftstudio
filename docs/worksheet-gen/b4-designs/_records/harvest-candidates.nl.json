@@ -1,0 +1,1213 @@
+{
+ "locale": "nl",
+ "market": {
+  "hl": "nl",
+  "gl": "nl"
+ },
+ "generatedAt": "2026-09-21T00:22:50.101Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds.json",
+ "requestCount": 182,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cloze": {
+   "heads": [
+    "invulzinnen",
+    "invuloefening"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 10,
+   "suggestions": [
+    "invuloefening",
+    "invuloefening engels",
+    "invuloefening franse werkwoorden",
+    "invuloefening hart",
+    "invuloefening maken",
+    "invuloefening signaalwoorden",
+    "invuloefening voorzetsels",
+    "invuloefening werkwoordspelling",
+    "invuloefeningen nederlandse taal",
+    "invuloefeningen spaans"
+   ]
+  },
+  "dominoes": {
+   "heads": [
+    "domino printen",
+    "domino"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 16,
+   "suggestions": [
+    "domino",
+    "domino kleuters",
+    "domino kleuterschool",
+    "domino pizza",
+    "domino printen",
+    "domino spel kleuters",
+    "domino spel printen",
+    "domino spelregels",
+    "domino stenen printen",
+    "domino's menu",
+    "dominos",
+    "dominos assen",
+    "dominos breda",
+    "dominos hyllie",
+    "dominos kortingscode",
+    "dominos pizza"
+   ]
+  },
+  "human-body": {
+   "heads": [
+    "lichaamsdelen",
+    "het lichaam"
+   ],
+   "requests": 14,
+   "productiveSeeds": 8,
+   "unique": 42,
+   "suggestions": [
+    "bingo lichaamsdelen kleuters",
+    "boek over het lichaam kleuters",
+    "engels lichaamsdelen werkblad",
+    "het lichaam",
+    "het lichaam bill bryson",
+    "het lichaam geneest zichzelf boek barbara o neill",
+    "het lichaam groep 4",
+    "het lichaam houdt de score bij",
+    "het lichaam is onschuldig",
+    "het lichaam is onschuldig recensie",
+    "het lichaam kleuters",
+    "het lichaam liegt nooit",
+    "het lichaam onthoudt wat je zelf vergeten bent",
+    "het lichaam van christus",
+    "het lichaam van coppens",
+    "het lichaam werkblad",
+    "het menselijk lichaam kleuters",
+    "kaartjes lichaamsdelen kleuters",
+    "lichaamsdelen",
+    "lichaamsdelen benoemen",
+    "lichaamsdelen benoemen kleuters",
+    "lichaamsdelen benoemen werkblad",
+    "lichaamsdelen frans",
+    "lichaamsdelen frans oefenen",
+    "lichaamsdelen groep 3",
+    "lichaamsdelen in het engels",
+    "lichaamsdelen in het spaans",
+    "lichaamsdelen kleuters",
+    "lichaamsdelen leren kleuters",
+    "lichaamsdelen namen",
+    "lichaamsdelen nederlands",
+    "lichaamsdelen oefenen kleuters",
+    "lichaamsdelen organen",
+    "lichaamsdelen vrouw",
+    "lichaamsdelen werkblad",
+    "liedje lichaamsdelen kleuters",
+    "plaatjes lichaamsdelen kleuters",
+    "spel lichaamsdelen kleuters",
+    "thema het lichaam kleuters",
+    "werkblad het lichaam nt2",
+    "werkblad lichaamsdelen kleuters",
+    "werkbladen het lichaam"
+   ]
+  },
+  "five-senses": {
+   "heads": [
+    "de vijf zintuigen",
+    "zintuigen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 7,
+   "unique": 41,
+   "suggestions": [
+    "de vijf zintuigen",
+    "de vijf zintuigen anubis",
+    "de vijf zintuigen efteling",
+    "de vijf zintuigen forum",
+    "de vijf zintuigen in het frans",
+    "de vijf zintuigen lied",
+    "de vijf zintuigen pubquiz",
+    "de vijf zintuigen rembrandt",
+    "de vijf zintuigen schilderij",
+    "de vijf zintuigen zijn",
+    "filmpje zintuigen kleuters",
+    "knutselen zintuigen kleuters",
+    "les over zintuigen groep 3",
+    "les over zintuigen groep 5",
+    "les zintuigen kleuters",
+    "liedje zintuigen kleuters",
+    "proefjes kleuters zintuigen",
+    "proefjes zintuigen groep 3",
+    "thema zintuigen groep 4",
+    "thema zintuigen kleuters",
+    "werkblad zintuigen groep 3",
+    "werkblad zintuigen groep 4",
+    "werkblad zintuigen groep 5",
+    "werkblad zintuigen kleuters",
+    "zintuigen",
+    "zintuigen betekenis",
+    "zintuigen engels",
+    "zintuigen frans",
+    "zintuigen groep 3",
+    "zintuigen groep 4",
+    "zintuigen groep 5",
+    "zintuigen kleuters",
+    "zintuigen les groep 4",
+    "zintuigen mens",
+    "zintuigen prikkelen",
+    "zintuigen spel kleuters",
+    "zintuigen werkblad",
+    "zintuigencraft",
+    "zintuigenpark weert",
+    "zintuigentuin",
+    "zintuigenverhalen"
+   ]
+  },
+  "weather": {
+   "heads": [
+    "het weer",
+    "weersymbolen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 7,
+   "unique": 36,
+   "suggestions": [
+    "filmpje over het weer kleuters",
+    "het weer",
+    "het weer gothenburg",
+    "het weer groep 3",
+    "het weer in gotenburg",
+    "het weer in kopenhagen",
+    "het weer in nederland",
+    "het weer in zweden",
+    "het weer in zweden komende 14 dagen",
+    "het weer kleuters",
+    "het weer malmo",
+    "het weer morgen",
+    "het weer stockholm",
+    "het weer voor kleuters",
+    "het weer werkblad",
+    "les over het weer groep 4",
+    "liedje het weer kleuters",
+    "thema het weer groep 3",
+    "thema het weer groep 4",
+    "thema het weer groep 5",
+    "thema het weer kleuters",
+    "weersymbolen",
+    "weersymbolen betekenis",
+    "weersymbolen buienradar",
+    "weersymbolen iphone",
+    "weersymbolen kleuterklas",
+    "weersymbolen kmi",
+    "weersymbolen symbolen weerbericht",
+    "weersymbolen weeronline",
+    "weersymbolen weerplaza",
+    "werkblad het weer groep 3",
+    "werkblad het weer kleuters",
+    "werkblad het weer nt2",
+    "werkbladen het weer",
+    "werkboekje het weer groep 3",
+    "werkboekje het weer groep 4"
+   ]
+  },
+  "tangram": {
+   "heads": [
+    "tangram",
+    "tangram printen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 7,
+   "unique": 24,
+   "suggestions": [
+    "tangram",
+    "tangram eijsden",
+    "tangram figuren",
+    "tangram figuren printen",
+    "tangram groep 3",
+    "tangram groep 4",
+    "tangram kleuters",
+    "tangram kortrijk",
+    "tangram nesselande",
+    "tangram printen",
+    "tangram purmerend",
+    "tangram puzzel",
+    "tangram puzzel groep 3",
+    "tangram puzzel printen",
+    "tangram puzzel werkblad",
+    "tangram stukken printen",
+    "tangram vierkant",
+    "tangram vilvoorde",
+    "tangram voorbeelden kleuters",
+    "tangram voorbeelden printen",
+    "tangram werkblad",
+    "tangram werkblad groep 3",
+    "tangram werkbladen",
+    "tangramkat"
+   ]
+  },
+  "recycling": {
+   "heads": [
+    "afval scheiden",
+    "afval sorteren"
+   ],
+   "requests": 14,
+   "productiveSeeds": 7,
+   "unique": 26,
+   "suggestions": [
+    "afval scheiden",
+    "afval scheiden duitsland",
+    "afval scheiden frankrijk",
+    "afval scheiden frankrijk kleuren",
+    "afval scheiden groep 3",
+    "afval scheiden italie",
+    "afval scheiden kleuters",
+    "afval scheiden oostenrijk",
+    "afval scheiden prullenbak",
+    "afval scheiden prullenbak 2 bakken",
+    "afval scheiden spanje",
+    "afval scheiden werkblad",
+    "afval scheiden zweden",
+    "afval sorteren",
+    "afval sorteren antwerpen",
+    "afval sorteren belgië",
+    "afval sorteren duitsland",
+    "afval sorteren frankrijk",
+    "afval sorteren italie",
+    "afval sorteren kleuters",
+    "afval sorteren kroatie",
+    "afval sorteren spel",
+    "afval sorteren thuis",
+    "afval sorteren werkblad",
+    "afval sorteren zweden",
+    "thema afval sorteren kleuters"
+   ]
+  },
+  "odd-and-even": {
+   "heads": [
+    "even en oneven",
+    "even en oneven getallen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 10,
+   "unique": 21,
+   "suggestions": [
+    "even en oneven",
+    "even en oneven bud spencer terence hill",
+    "even en oneven film",
+    "even en oneven functies",
+    "even en oneven getallen",
+    "even en oneven getallen engels",
+    "even en oneven getallen groep 3",
+    "even en oneven getallen kleuters",
+    "even en oneven getallen oefenen",
+    "even en oneven getallen uitleg",
+    "even en oneven getallen werkblad",
+    "even en oneven kleuters",
+    "even en oneven nummers",
+    "even en oneven weken",
+    "even en oneven weken 2025",
+    "even en oneven weken 2026",
+    "even en oneven weken 2027",
+    "even en oneven werkblad",
+    "verschil even en oneven getallen",
+    "werkblad even en oneven getallen groep 3",
+    "werkblad even en oneven getallen groep 4"
+   ]
+  },
+  "rounding": {
+   "heads": [
+    "afronden",
+    "afronden op tientallen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 5,
+   "unique": 31,
+   "suggestions": [
+    "afronden",
+    "afronden engels",
+    "afronden groep 5",
+    "afronden in excel",
+    "afronden naar beneden excel",
+    "afronden naar boven excel",
+    "afronden op 1 decimaal",
+    "afronden op 2 decimalen",
+    "afronden op 2 decimalen excel",
+    "afronden op tientallen",
+    "afronden op tientallen en honderdtallen",
+    "afronden op tientallen en honderdtallen werkblad",
+    "afronden op tientallen excel",
+    "afronden op tientallen honderdtallen en duizendtallen",
+    "afronden op tientallen honderdtallen en duizendtallen werkblad",
+    "afronden op tientallen werkblad",
+    "afronden sparen rabobank",
+    "afronden synoniem",
+    "afronden tientallen",
+    "afronden tientallen excel",
+    "afronden werkblad",
+    "afronden werkblad groep 6",
+    "wat is afronden op tientallen",
+    "werkblad afronden getallen",
+    "werkblad afronden groep 8",
+    "werkblad afronden kommagetallen",
+    "werkblad afronden op duizendtallen",
+    "werkblad afronden op honderdtallen",
+    "werkblad afronden op tientallen",
+    "werkblad afronden op tientallen en honderdtallen",
+    "werkblad afronden op tientallen honderdtallen en duizendtallen"
+   ]
+  },
+  "pronouns": {
+   "heads": [
+    "persoonlijke voornaamwoorden",
+    "voornaamwoorden"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 27,
+   "suggestions": [
+    "aanwijzende voornaamwoorden werkblad",
+    "bezittelijke voornaamwoorden werkblad",
+    "persoonlijke voornaamwoorden",
+    "persoonlijke voornaamwoorden duits",
+    "persoonlijke voornaamwoorden duits 1e 3e 4e naamval",
+    "persoonlijke voornaamwoorden engels",
+    "persoonlijke voornaamwoorden frans",
+    "persoonlijke voornaamwoorden italiaans",
+    "persoonlijke voornaamwoorden latijn",
+    "persoonlijke voornaamwoorden linkedin",
+    "persoonlijke voornaamwoorden nederlands",
+    "persoonlijke voornaamwoorden spaans",
+    "persoonlijke voornaamwoorden werkblad",
+    "voornaamwoorden",
+    "voornaamwoorden duits",
+    "voornaamwoorden engels",
+    "voornaamwoorden frans",
+    "voornaamwoorden gender",
+    "voornaamwoorden instagram",
+    "voornaamwoorden nederlands",
+    "voornaamwoorden non binair",
+    "voornaamwoorden oefenen",
+    "voornaamwoorden spaans",
+    "voornaamwoorden werkblad",
+    "werkblad persoonlijke voornaamwoorden groep 6",
+    "werkblad persoonlijke voornaamwoorden groep 7",
+    "werkblad voornaamwoorden groep 8"
+   ]
+  },
+  "question-words": {
+   "heads": [
+    "vraagwoorden",
+    "vraagzinnen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 6,
+   "unique": 27,
+   "suggestions": [
+    "vraagwoorden",
+    "vraagwoorden duits",
+    "vraagwoorden duits oefenen",
+    "vraagwoorden engels",
+    "vraagwoorden frans",
+    "vraagwoorden in het duits",
+    "vraagwoorden in het frans",
+    "vraagwoorden kleuters",
+    "vraagwoorden nederlands",
+    "vraagwoorden nt2",
+    "vraagwoorden spaans",
+    "vraagwoorden werkblad",
+    "vraagzinnen",
+    "vraagzinnen engels",
+    "vraagzinnen engels oefenen",
+    "vraagzinnen frans",
+    "vraagzinnen maken",
+    "vraagzinnen maken frans",
+    "vraagzinnen maken groep 4",
+    "vraagzinnen maken nt2",
+    "vraagzinnen nt2",
+    "vraagzinnen oefenen",
+    "vraagzinnen voorbeelden",
+    "werkblad vraagwoorden nt2",
+    "werkblad vraagzinnen",
+    "werkblad vraagzinnen maken",
+    "werkblad vraagzinnen maken groep 4"
+   ]
+  },
+  "cube-nets": {
+   "heads": [
+    "bouwplaat kubus",
+    "uitslag kubus"
+   ],
+   "requests": 14,
+   "productiveSeeds": 6,
+   "unique": 13,
+   "suggestions": [
+    "bouwplaat kubus",
+    "bouwplaat kubus printen",
+    "bouwplaat kubus vouwen",
+    "bouwplaat kubus werkblad",
+    "kubuswoning bouwplaat",
+    "uitslag halve kubus",
+    "uitslag kubus",
+    "uitslag kubus engels",
+    "uitslag kubus geogebra",
+    "uitslag kubus printen",
+    "uitslag kubus tekenen",
+    "uitslag kubus vouwen",
+    "uitslag kubus werkblad"
+   ]
+  },
+  "finger-counting": {
+   "heads": [
+    "tellen op je vingers",
+    "vingers tellen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 11,
+   "suggestions": [
+    "11 vingers tellen",
+    "11 vingers tellen truc",
+    "op vingers tellen",
+    "tellen op je vingers",
+    "tellen vingers",
+    "vingers tellen",
+    "vingers tellen chinees",
+    "vingers tellen in droom",
+    "vingers tellen kleuters",
+    "vingers tellen visus",
+    "werkblad vingers tellen"
+   ]
+  }
+ },
+ "suggestions": {
+  "invuloefening": {
+   "candidate": "cloze",
+   "s": [
+    "invuloefening",
+    "invuloefening werkwoordspelling",
+    "invuloefening engels",
+    "invuloefeningen nederlandse taal",
+    "invuloefeningen spaans",
+    "invuloefening franse werkwoorden",
+    "invuloefening signaalwoorden",
+    "invuloefening voorzetsels",
+    "invuloefening maken",
+    "invuloefening hart"
+   ]
+  },
+  "domino printen": {
+   "candidate": "dominoes",
+   "s": [
+    "domino printen",
+    "domino spel printen",
+    "domino stenen printen"
+   ]
+  },
+  "domino": {
+   "candidate": "dominoes",
+   "s": [
+    "dominos",
+    "dominos pizza",
+    "domino",
+    "domino spelregels",
+    "dominos hyllie",
+    "domino pizza",
+    "dominos kortingscode",
+    "dominos assen",
+    "domino's menu",
+    "dominos breda"
+   ]
+  },
+  "domino kleuters": {
+   "candidate": "dominoes",
+   "s": [
+    "domino kleuters",
+    "domino kleuterschool",
+    "domino spel kleuters"
+   ]
+  },
+  "lichaamsdelen": {
+   "candidate": "human-body",
+   "s": [
+    "lichaamsdelen",
+    "lichaamsdelen frans",
+    "lichaamsdelen organen",
+    "lichaamsdelen in het spaans",
+    "lichaamsdelen nederlands",
+    "lichaamsdelen in het engels",
+    "lichaamsdelen namen",
+    "lichaamsdelen vrouw",
+    "lichaamsdelen benoemen",
+    "lichaamsdelen frans oefenen"
+   ]
+  },
+  "lichaamsdelen werkblad": {
+   "candidate": "human-body",
+   "s": [
+    "lichaamsdelen werkblad",
+    "werkblad lichaamsdelen kleuters",
+    "engels lichaamsdelen werkblad",
+    "lichaamsdelen benoemen werkblad"
+   ]
+  },
+  "lichaamsdelen kleuters": {
+   "candidate": "human-body",
+   "s": [
+    "lichaamsdelen kleuters",
+    "lichaamsdelen benoemen kleuters",
+    "spel lichaamsdelen kleuters",
+    "lichaamsdelen oefenen kleuters",
+    "plaatjes lichaamsdelen kleuters",
+    "liedje lichaamsdelen kleuters",
+    "werkblad lichaamsdelen kleuters",
+    "lichaamsdelen leren kleuters",
+    "bingo lichaamsdelen kleuters",
+    "kaartjes lichaamsdelen kleuters"
+   ]
+  },
+  "lichaamsdelen groep 3": {
+   "candidate": "human-body",
+   "s": [
+    "lichaamsdelen groep 3"
+   ]
+  },
+  "het lichaam": {
+   "candidate": "human-body",
+   "s": [
+    "het lichaam",
+    "het lichaam is onschuldig",
+    "het lichaam van coppens",
+    "het lichaam onthoudt wat je zelf vergeten bent",
+    "het lichaam geneest zichzelf boek barbara o neill",
+    "het lichaam houdt de score bij",
+    "het lichaam liegt nooit",
+    "het lichaam is onschuldig recensie",
+    "het lichaam van christus",
+    "het lichaam bill bryson"
+   ]
+  },
+  "het lichaam werkblad": {
+   "candidate": "human-body",
+   "s": [
+    "het lichaam werkblad",
+    "werkblad het lichaam nt2",
+    "werkbladen het lichaam"
+   ]
+  },
+  "het lichaam kleuters": {
+   "candidate": "human-body",
+   "s": [
+    "het lichaam kleuters",
+    "thema het lichaam kleuters",
+    "het menselijk lichaam kleuters",
+    "boek over het lichaam kleuters"
+   ]
+  },
+  "het lichaam groep 4": {
+   "candidate": "human-body",
+   "s": [
+    "het lichaam groep 4"
+   ]
+  },
+  "de vijf zintuigen": {
+   "candidate": "five-senses",
+   "s": [
+    "de vijf zintuigen",
+    "de vijf zintuigen anubis",
+    "de vijf zintuigen efteling",
+    "de vijf zintuigen pubquiz",
+    "de vijf zintuigen rembrandt",
+    "de vijf zintuigen forum",
+    "de vijf zintuigen schilderij",
+    "de vijf zintuigen zijn",
+    "de vijf zintuigen lied",
+    "de vijf zintuigen in het frans"
+   ]
+  },
+  "zintuigen": {
+   "candidate": "five-senses",
+   "s": [
+    "zintuigen",
+    "zintuigen mens",
+    "zintuigen engels",
+    "zintuigenpark weert",
+    "zintuigen betekenis",
+    "zintuigenverhalen",
+    "zintuigencraft",
+    "zintuigen prikkelen",
+    "zintuigentuin",
+    "zintuigen frans"
+   ]
+  },
+  "zintuigen werkblad": {
+   "candidate": "five-senses",
+   "s": [
+    "zintuigen werkblad",
+    "werkblad zintuigen groep 4",
+    "werkblad zintuigen groep 5",
+    "werkblad zintuigen kleuters",
+    "werkblad zintuigen groep 3"
+   ]
+  },
+  "zintuigen kleuters": {
+   "candidate": "five-senses",
+   "s": [
+    "zintuigen kleuters",
+    "thema zintuigen kleuters",
+    "filmpje zintuigen kleuters",
+    "zintuigen spel kleuters",
+    "knutselen zintuigen kleuters",
+    "les zintuigen kleuters",
+    "liedje zintuigen kleuters",
+    "werkblad zintuigen kleuters",
+    "proefjes kleuters zintuigen"
+   ]
+  },
+  "zintuigen groep 3": {
+   "candidate": "five-senses",
+   "s": [
+    "zintuigen groep 3",
+    "proefjes zintuigen groep 3",
+    "werkblad zintuigen groep 3",
+    "les over zintuigen groep 3"
+   ]
+  },
+  "zintuigen groep 4": {
+   "candidate": "five-senses",
+   "s": [
+    "zintuigen groep 4",
+    "werkblad zintuigen groep 4",
+    "thema zintuigen groep 4",
+    "zintuigen les groep 4"
+   ]
+  },
+  "zintuigen groep 5": {
+   "candidate": "five-senses",
+   "s": [
+    "zintuigen groep 5",
+    "werkblad zintuigen groep 5",
+    "les over zintuigen groep 5"
+   ]
+  },
+  "het weer": {
+   "candidate": "weather",
+   "s": [
+    "het weer",
+    "het weer stockholm",
+    "het weer morgen",
+    "het weer in zweden komende 14 dagen",
+    "het weer in zweden",
+    "het weer in gotenburg",
+    "het weer in nederland",
+    "het weer in kopenhagen",
+    "het weer malmo",
+    "het weer gothenburg"
+   ]
+  },
+  "het weer werkblad": {
+   "candidate": "weather",
+   "s": [
+    "het weer werkblad",
+    "werkblad het weer nt2",
+    "werkbladen het weer",
+    "werkblad het weer groep 3",
+    "werkblad het weer kleuters"
+   ]
+  },
+  "het weer kleuters": {
+   "candidate": "weather",
+   "s": [
+    "het weer kleuters",
+    "thema het weer kleuters",
+    "liedje het weer kleuters",
+    "het weer voor kleuters",
+    "werkblad het weer kleuters",
+    "filmpje over het weer kleuters"
+   ]
+  },
+  "het weer groep 3": {
+   "candidate": "weather",
+   "s": [
+    "het weer groep 3",
+    "werkboekje het weer groep 3",
+    "thema het weer groep 3",
+    "werkblad het weer groep 3"
+   ]
+  },
+  "het weer groep 4": {
+   "candidate": "weather",
+   "s": [
+    "thema het weer groep 4",
+    "werkboekje het weer groep 4",
+    "les over het weer groep 4"
+   ]
+  },
+  "het weer groep 5": {
+   "candidate": "weather",
+   "s": [
+    "thema het weer groep 5"
+   ]
+  },
+  "weersymbolen": {
+   "candidate": "weather",
+   "s": [
+    "weersymbolen weeronline",
+    "weersymbolen",
+    "weersymbolen buienradar",
+    "weersymbolen betekenis",
+    "weersymbolen kleuterklas",
+    "weersymbolen kmi",
+    "weersymbolen symbolen weerbericht",
+    "weersymbolen weerplaza",
+    "weersymbolen iphone"
+   ]
+  },
+  "tangram": {
+   "candidate": "tangram",
+   "s": [
+    "tangram",
+    "tangram puzzel",
+    "tangram kortrijk",
+    "tangram figuren",
+    "tangram vierkant",
+    "tangram nesselande",
+    "tangram vilvoorde",
+    "tangram purmerend",
+    "tangram eijsden",
+    "tangramkat"
+   ]
+  },
+  "tangram werkblad": {
+   "candidate": "tangram",
+   "s": [
+    "tangram werkblad",
+    "tangram werkblad groep 3",
+    "tangram werkbladen",
+    "tangram puzzel werkblad"
+   ]
+  },
+  "tangram printen": {
+   "candidate": "tangram",
+   "s": [
+    "tangram printen",
+    "tangram voorbeelden printen",
+    "tangram puzzel printen",
+    "tangram figuren printen",
+    "tangram stukken printen"
+   ]
+  },
+  "tangram kleuters": {
+   "candidate": "tangram",
+   "s": [
+    "tangram kleuters",
+    "tangram voorbeelden kleuters"
+   ]
+  },
+  "tangram groep 3": {
+   "candidate": "tangram",
+   "s": [
+    "tangram groep 3",
+    "tangram werkblad groep 3",
+    "tangram puzzel groep 3"
+   ]
+  },
+  "tangram groep 4": {
+   "candidate": "tangram",
+   "s": [
+    "tangram groep 4"
+   ]
+  },
+  "afval scheiden": {
+   "candidate": "recycling",
+   "s": [
+    "afval scheiden zweden",
+    "afval scheiden",
+    "afval scheiden prullenbak",
+    "afval scheiden frankrijk",
+    "afval scheiden italie",
+    "afval scheiden duitsland",
+    "afval scheiden oostenrijk",
+    "afval scheiden spanje",
+    "afval scheiden frankrijk kleuren",
+    "afval scheiden prullenbak 2 bakken"
+   ]
+  },
+  "afval scheiden werkblad": {
+   "candidate": "recycling",
+   "s": [
+    "afval scheiden werkblad"
+   ]
+  },
+  "afval scheiden kleuters": {
+   "candidate": "recycling",
+   "s": [
+    "afval scheiden kleuters"
+   ]
+  },
+  "afval scheiden groep 3": {
+   "candidate": "recycling",
+   "s": [
+    "afval scheiden groep 3"
+   ]
+  },
+  "afval sorteren": {
+   "candidate": "recycling",
+   "s": [
+    "afval sorteren zweden",
+    "afval sorteren",
+    "afval sorteren frankrijk",
+    "afval sorteren belgië",
+    "afval sorteren antwerpen",
+    "afval sorteren duitsland",
+    "afval sorteren spel",
+    "afval sorteren thuis",
+    "afval sorteren italie",
+    "afval sorteren kroatie"
+   ]
+  },
+  "afval sorteren werkblad": {
+   "candidate": "recycling",
+   "s": [
+    "afval sorteren werkblad"
+   ]
+  },
+  "afval sorteren kleuters": {
+   "candidate": "recycling",
+   "s": [
+    "afval sorteren kleuters",
+    "thema afval sorteren kleuters"
+   ]
+  },
+  "even en oneven": {
+   "candidate": "odd-and-even",
+   "s": [
+    "even en oneven weken 2026",
+    "even en oneven weken",
+    "even en oneven weken 2027",
+    "even en oneven",
+    "even en oneven functies",
+    "even en oneven getallen",
+    "even en oneven bud spencer terence hill",
+    "even en oneven weken 2025",
+    "even en oneven film",
+    "even en oneven nummers"
+   ]
+  },
+  "even en oneven werkblad": {
+   "candidate": "odd-and-even",
+   "s": [
+    "even en oneven werkblad",
+    "even en oneven getallen werkblad",
+    "werkblad even en oneven getallen groep 4",
+    "werkblad even en oneven getallen groep 3"
+   ]
+  },
+  "even en oneven kleuters": {
+   "candidate": "odd-and-even",
+   "s": [
+    "even en oneven kleuters",
+    "even en oneven getallen kleuters"
+   ]
+  },
+  "even en oneven groep 3": {
+   "candidate": "odd-and-even",
+   "s": [
+    "even en oneven getallen groep 3",
+    "werkblad even en oneven getallen groep 3"
+   ]
+  },
+  "even en oneven groep 4": {
+   "candidate": "odd-and-even",
+   "s": [
+    "werkblad even en oneven getallen groep 4"
+   ]
+  },
+  "even en oneven getallen": {
+   "candidate": "odd-and-even",
+   "s": [
+    "even en oneven getallen",
+    "even en oneven getallen werkblad",
+    "even en oneven getallen oefenen",
+    "even en oneven getallen engels",
+    "even en oneven getallen groep 3",
+    "even en oneven getallen kleuters",
+    "even en oneven getallen uitleg",
+    "werkblad even en oneven getallen groep 4",
+    "werkblad even en oneven getallen groep 3",
+    "verschil even en oneven getallen"
+   ]
+  },
+  "even en oneven getallen werkblad": {
+   "candidate": "odd-and-even",
+   "s": [
+    "even en oneven getallen werkblad",
+    "werkblad even en oneven getallen groep 4",
+    "werkblad even en oneven getallen groep 3"
+   ]
+  },
+  "even en oneven getallen kleuters": {
+   "candidate": "odd-and-even",
+   "s": [
+    "even en oneven getallen kleuters"
+   ]
+  },
+  "even en oneven getallen groep 3": {
+   "candidate": "odd-and-even",
+   "s": [
+    "even en oneven getallen groep 3",
+    "werkblad even en oneven getallen groep 3"
+   ]
+  },
+  "even en oneven getallen groep 4": {
+   "candidate": "odd-and-even",
+   "s": [
+    "werkblad even en oneven getallen groep 4"
+   ]
+  },
+  "afronden": {
+   "candidate": "rounding",
+   "s": [
+    "afronden engels",
+    "afronden in excel",
+    "afronden",
+    "afronden naar boven excel",
+    "afronden op 2 decimalen",
+    "afronden op 1 decimaal",
+    "afronden synoniem",
+    "afronden op 2 decimalen excel",
+    "afronden sparen rabobank",
+    "afronden naar beneden excel"
+   ]
+  },
+  "afronden werkblad": {
+   "candidate": "rounding",
+   "s": [
+    "afronden werkblad",
+    "afronden werkblad groep 6",
+    "werkblad afronden op tientallen",
+    "werkblad afronden op tientallen honderdtallen en duizendtallen",
+    "werkblad afronden op honderdtallen",
+    "werkblad afronden op tientallen en honderdtallen",
+    "werkblad afronden op duizendtallen",
+    "werkblad afronden groep 8",
+    "werkblad afronden getallen",
+    "werkblad afronden kommagetallen"
+   ]
+  },
+  "afronden groep 5": {
+   "candidate": "rounding",
+   "s": [
+    "afronden groep 5"
+   ]
+  },
+  "afronden op tientallen": {
+   "candidate": "rounding",
+   "s": [
+    "afronden op tientallen",
+    "afronden op tientallen excel",
+    "afronden op tientallen honderdtallen en duizendtallen werkblad",
+    "afronden op tientallen honderdtallen en duizendtallen",
+    "afronden op tientallen werkblad",
+    "afronden op tientallen en honderdtallen werkblad",
+    "afronden op tientallen en honderdtallen",
+    "afronden tientallen",
+    "afronden tientallen excel",
+    "wat is afronden op tientallen"
+   ]
+  },
+  "afronden op tientallen werkblad": {
+   "candidate": "rounding",
+   "s": [
+    "afronden op tientallen werkblad",
+    "afronden op tientallen en honderdtallen werkblad",
+    "werkblad afronden op tientallen honderdtallen en duizendtallen"
+   ]
+  },
+  "persoonlijke voornaamwoorden": {
+   "candidate": "pronouns",
+   "s": [
+    "persoonlijke voornaamwoorden",
+    "persoonlijke voornaamwoorden duits",
+    "persoonlijke voornaamwoorden spaans",
+    "persoonlijke voornaamwoorden frans",
+    "persoonlijke voornaamwoorden engels",
+    "persoonlijke voornaamwoorden italiaans",
+    "persoonlijke voornaamwoorden duits 1e 3e 4e naamval",
+    "persoonlijke voornaamwoorden latijn",
+    "persoonlijke voornaamwoorden nederlands",
+    "persoonlijke voornaamwoorden linkedin"
+   ]
+  },
+  "persoonlijke voornaamwoorden werkblad": {
+   "candidate": "pronouns",
+   "s": [
+    "persoonlijke voornaamwoorden werkblad",
+    "werkblad persoonlijke voornaamwoorden groep 6",
+    "werkblad persoonlijke voornaamwoorden groep 7"
+   ]
+  },
+  "voornaamwoorden": {
+   "candidate": "pronouns",
+   "s": [
+    "voornaamwoorden",
+    "voornaamwoorden gender",
+    "voornaamwoorden non binair",
+    "voornaamwoorden frans",
+    "voornaamwoorden duits",
+    "voornaamwoorden engels",
+    "voornaamwoorden spaans",
+    "voornaamwoorden oefenen",
+    "voornaamwoorden nederlands",
+    "voornaamwoorden instagram"
+   ]
+  },
+  "voornaamwoorden werkblad": {
+   "candidate": "pronouns",
+   "s": [
+    "voornaamwoorden werkblad",
+    "werkblad voornaamwoorden groep 8",
+    "persoonlijke voornaamwoorden werkblad",
+    "bezittelijke voornaamwoorden werkblad",
+    "aanwijzende voornaamwoorden werkblad"
+   ]
+  },
+  "vraagwoorden": {
+   "candidate": "question-words",
+   "s": [
+    "vraagwoorden",
+    "vraagwoorden frans",
+    "vraagwoorden duits",
+    "vraagwoorden spaans",
+    "vraagwoorden nederlands",
+    "vraagwoorden engels",
+    "vraagwoorden in het frans",
+    "vraagwoorden in het duits",
+    "vraagwoorden nt2",
+    "vraagwoorden duits oefenen"
+   ]
+  },
+  "vraagwoorden werkblad": {
+   "candidate": "question-words",
+   "s": [
+    "vraagwoorden werkblad",
+    "werkblad vraagwoorden nt2"
+   ]
+  },
+  "vraagwoorden kleuters": {
+   "candidate": "question-words",
+   "s": [
+    "vraagwoorden kleuters"
+   ]
+  },
+  "vraagzinnen": {
+   "candidate": "question-words",
+   "s": [
+    "vraagzinnen frans",
+    "vraagzinnen",
+    "vraagzinnen maken",
+    "vraagzinnen voorbeelden",
+    "vraagzinnen oefenen",
+    "vraagzinnen maken frans",
+    "vraagzinnen maken nt2",
+    "vraagzinnen nt2",
+    "vraagzinnen engels oefenen",
+    "vraagzinnen engels"
+   ]
+  },
+  "vraagzinnen werkblad": {
+   "candidate": "question-words",
+   "s": [
+    "werkblad vraagzinnen maken",
+    "werkblad vraagzinnen maken groep 4",
+    "werkblad vraagzinnen"
+   ]
+  },
+  "vraagzinnen groep 4": {
+   "candidate": "question-words",
+   "s": [
+    "vraagzinnen maken groep 4",
+    "werkblad vraagzinnen maken groep 4"
+   ]
+  },
+  "bouwplaat kubus": {
+   "candidate": "cube-nets",
+   "s": [
+    "bouwplaat kubus",
+    "bouwplaat kubus vouwen",
+    "bouwplaat kubus werkblad",
+    "bouwplaat kubus printen",
+    "kubuswoning bouwplaat"
+   ]
+  },
+  "bouwplaat kubus werkblad": {
+   "candidate": "cube-nets",
+   "s": [
+    "bouwplaat kubus werkblad"
+   ]
+  },
+  "bouwplaat kubus printen": {
+   "candidate": "cube-nets",
+   "s": [
+    "bouwplaat kubus printen"
+   ]
+  },
+  "uitslag kubus": {
+   "candidate": "cube-nets",
+   "s": [
+    "uitslag kubus",
+    "uitslag kubus printen",
+    "uitslag kubus tekenen",
+    "uitslag kubus werkblad",
+    "uitslag kubus vouwen",
+    "uitslag kubus geogebra",
+    "uitslag kubus engels",
+    "uitslag halve kubus"
+   ]
+  },
+  "uitslag kubus werkblad": {
+   "candidate": "cube-nets",
+   "s": [
+    "uitslag kubus werkblad"
+   ]
+  },
+  "uitslag kubus printen": {
+   "candidate": "cube-nets",
+   "s": [
+    "uitslag kubus printen"
+   ]
+  },
+  "tellen op je vingers": {
+   "candidate": "finger-counting",
+   "s": [
+    "tellen op je vingers",
+    "tellen vingers"
+   ]
+  },
+  "vingers tellen": {
+   "candidate": "finger-counting",
+   "s": [
+    "vingers tellen",
+    "vingers tellen visus",
+    "vingers tellen kleuters",
+    "vingers tellen chinees",
+    "vingers tellen in droom",
+    "11 vingers tellen",
+    "11 vingers tellen truc",
+    "op vingers tellen",
+    "werkblad vingers tellen"
+   ]
+  },
+  "vingers tellen werkblad": {
+   "candidate": "finger-counting",
+   "s": [
+    "werkblad vingers tellen"
+   ]
+  },
+  "vingers tellen kleuters": {
+   "candidate": "finger-counting",
+   "s": [
+    "vingers tellen kleuters"
+   ]
+  }
+ }
+}

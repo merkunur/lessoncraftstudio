@@ -1,0 +1,188 @@
+{
+ "locale": "de",
+ "market": {
+  "hl": "de",
+  "gl": "de"
+ },
+ "generatedAt": "2026-09-21T00:38:03.649Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds-watercycle.json",
+ "requestCount": 14,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "water-cycle": {
+   "heads": [
+    "wasserkreislauf",
+    "wasserkreislauf grundschule"
+   ],
+   "requests": 14,
+   "productiveSeeds": 12,
+   "unique": 49,
+   "suggestions": [
+    "der wasserkreislauf grundschule klasse 3 test",
+    "wasserkreislauf",
+    "wasserkreislauf 3 klasse arbeit",
+    "wasserkreislauf 3 klasse lückentext",
+    "wasserkreislauf 3 klasse pdf",
+    "wasserkreislauf 3 klasse sachkunde",
+    "wasserkreislauf arbeitsblatt",
+    "wasserkreislauf arbeitsblatt 2 klasse",
+    "wasserkreislauf arbeitsblatt grundschule",
+    "wasserkreislauf arbeitsblatt klasse 3",
+    "wasserkreislauf arbeitsblatt klasse 3 kostenlos",
+    "wasserkreislauf arbeitsblatt klasse 3 pdf",
+    "wasserkreislauf arbeitsblatt klasse 4",
+    "wasserkreislauf arbeitsblatt klasse 5",
+    "wasserkreislauf arbeitsblatt klasse 6",
+    "wasserkreislauf arbeitsblatt klasse 7",
+    "wasserkreislauf arbeitsblatt pdf",
+    "wasserkreislauf bilder",
+    "wasserkreislauf bilder zum ausdrucken",
+    "wasserkreislauf der erde",
+    "wasserkreislauf einfach erklärt",
+    "wasserkreislauf erklärung",
+    "wasserkreislauf für kinder erklärt",
+    "wasserkreislauf grundschule",
+    "wasserkreislauf grundschule 2 klasse",
+    "wasserkreislauf grundschule 3 klasse arbeitsblätter",
+    "wasserkreislauf grundschule arbeitsblatt",
+    "wasserkreislauf grundschule arbeitsblatt kostenlos",
+    "wasserkreislauf grundschule arbeitsblatt pdf",
+    "wasserkreislauf grundschule basteln",
+    "wasserkreislauf grundschule eduki",
+    "wasserkreislauf grundschule experiment",
+    "wasserkreislauf grundschule film",
+    "wasserkreislauf grundschule klasse 1",
+    "wasserkreislauf grundschule klasse 3",
+    "wasserkreislauf grundschule material",
+    "wasserkreislauf grundschule pdf",
+    "wasserkreislauf grundschule test",
+    "wasserkreislauf grundschule video",
+    "wasserkreislauf im glas",
+    "wasserkreislauf klasse 1",
+    "wasserkreislauf klasse 10",
+    "wasserkreislauf klasse 2",
+    "wasserkreislauf klasse 3",
+    "wasserkreislauf klasse 3 arbeitsblätter",
+    "wasserkreislauf klasse 3 test",
+    "wasserkreislauf klasse 3 video",
+    "wasserkreislauf sachunterricht klasse 1",
+    "wasserkreislauf zum ausdrucken"
+   ]
+  }
+ },
+ "suggestions": {
+  "wasserkreislauf": {
+   "candidate": "water-cycle",
+   "s": [
+    "wasserkreislauf",
+    "wasserkreislauf grundschule",
+    "wasserkreislauf für kinder erklärt",
+    "wasserkreislauf klasse 3",
+    "wasserkreislauf einfach erklärt",
+    "wasserkreislauf im glas",
+    "wasserkreislauf bilder",
+    "wasserkreislauf arbeitsblatt",
+    "wasserkreislauf der erde",
+    "wasserkreislauf erklärung"
+   ]
+  },
+  "wasserkreislauf arbeitsblatt": {
+   "candidate": "water-cycle",
+   "s": [
+    "wasserkreislauf arbeitsblatt",
+    "wasserkreislauf arbeitsblatt pdf",
+    "wasserkreislauf arbeitsblatt klasse 3 kostenlos",
+    "wasserkreislauf arbeitsblatt klasse 3",
+    "wasserkreislauf arbeitsblatt grundschule",
+    "wasserkreislauf arbeitsblatt klasse 5",
+    "wasserkreislauf arbeitsblatt klasse 3 pdf",
+    "wasserkreislauf arbeitsblatt klasse 7",
+    "wasserkreislauf arbeitsblatt klasse 6",
+    "wasserkreislauf arbeitsblatt klasse 4"
+   ]
+  },
+  "wasserkreislauf zum ausdrucken": {
+   "candidate": "water-cycle",
+   "s": [
+    "wasserkreislauf zum ausdrucken",
+    "wasserkreislauf bilder zum ausdrucken"
+   ]
+  },
+  "wasserkreislauf grundschule": {
+   "candidate": "water-cycle",
+   "s": [
+    "wasserkreislauf grundschule",
+    "wasserkreislauf grundschule arbeitsblatt",
+    "wasserkreislauf grundschule pdf",
+    "wasserkreislauf grundschule video",
+    "wasserkreislauf grundschule experiment",
+    "wasserkreislauf grundschule film",
+    "wasserkreislauf grundschule basteln",
+    "wasserkreislauf grundschule eduki",
+    "wasserkreislauf grundschule test",
+    "wasserkreislauf grundschule material"
+   ]
+  },
+  "wasserkreislauf klasse 1": {
+   "candidate": "water-cycle",
+   "s": [
+    "wasserkreislauf klasse 1",
+    "wasserkreislauf klasse 10",
+    "wasserkreislauf sachunterricht klasse 1",
+    "wasserkreislauf grundschule klasse 1"
+   ]
+  },
+  "wasserkreislauf klasse 2": {
+   "candidate": "water-cycle",
+   "s": [
+    "wasserkreislauf klasse 2",
+    "wasserkreislauf grundschule 2 klasse",
+    "wasserkreislauf arbeitsblatt 2 klasse"
+   ]
+  },
+  "wasserkreislauf klasse 3": {
+   "candidate": "water-cycle",
+   "s": [
+    "wasserkreislauf klasse 3",
+    "wasserkreislauf klasse 3 video",
+    "wasserkreislauf klasse 3 arbeitsblätter",
+    "wasserkreislauf klasse 3 test",
+    "wasserkreislauf 3 klasse arbeit",
+    "wasserkreislauf 3 klasse pdf",
+    "wasserkreislauf 3 klasse sachkunde",
+    "wasserkreislauf 3 klasse lückentext",
+    "wasserkreislauf arbeitsblatt klasse 3 kostenlos",
+    "wasserkreislauf grundschule klasse 3"
+   ]
+  },
+  "wasserkreislauf grundschule arbeitsblatt": {
+   "candidate": "water-cycle",
+   "s": [
+    "wasserkreislauf grundschule arbeitsblatt",
+    "wasserkreislauf grundschule arbeitsblatt pdf",
+    "wasserkreislauf grundschule arbeitsblatt kostenlos"
+   ]
+  },
+  "wasserkreislauf grundschule klasse 1": {
+   "candidate": "water-cycle",
+   "s": [
+    "wasserkreislauf grundschule klasse 1"
+   ]
+  },
+  "wasserkreislauf grundschule klasse 2": {
+   "candidate": "water-cycle",
+   "s": [
+    "wasserkreislauf grundschule 2 klasse"
+   ]
+  },
+  "wasserkreislauf grundschule klasse 3": {
+   "candidate": "water-cycle",
+   "s": [
+    "wasserkreislauf grundschule klasse 3",
+    "wasserkreislauf grundschule 3 klasse arbeitsblätter",
+    "der wasserkreislauf grundschule klasse 3 test"
+   ]
+  }
+ }
+}

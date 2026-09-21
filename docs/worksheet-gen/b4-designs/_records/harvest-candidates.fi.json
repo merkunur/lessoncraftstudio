@@ -1,0 +1,665 @@
+{
+ "locale": "fi",
+ "market": {
+  "hl": "fi",
+  "gl": "fi"
+ },
+ "generatedAt": "2026-09-21T00:25:41.500Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds.json",
+ "requestCount": 182,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cloze": {
+   "heads": [
+    "täydennä lause",
+    "aukkotehtävä"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 4,
+   "suggestions": [
+    "aukkotehtävä englanniksi",
+    "exam aukkotehtävä",
+    "täydennä lause",
+    "wordwall täydennä lause"
+   ]
+  },
+  "dominoes": {
+   "heads": [
+    "domino",
+    "dominopeli"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 14,
+   "suggestions": [
+    "domino",
+    "domino juustokakku",
+    "domino jäätelö",
+    "domino keksi",
+    "domino mansikka juustokakku",
+    "domino peli",
+    "domino säännöt",
+    "dominopeli",
+    "dominopelin ohjeet",
+    "dominopelin säännöt",
+    "dominos",
+    "dominos near me",
+    "dominos pizza",
+    "lasten dominopeli"
+   ]
+  },
+  "human-body": {
+   "heads": [
+    "kehon osat",
+    "ihmisen keho"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 20,
+   "suggestions": [
+    "ihmisen keho kuva",
+    "ihmisen keho suomeksi",
+    "ihmisen kehon koostumus",
+    "ihmisen kehon lämpötila",
+    "ihmisen kehon normaali lämpötila",
+    "ihmisen kehon osat",
+    "ihmisen kehon osat pienimmästä suurimpaan",
+    "ihmisen kehon osat suomeksi",
+    "ihmisen kehon vesipitoisuus",
+    "ihmisen kehossa vettä",
+    "kehon osat",
+    "kehon osat englanniksi",
+    "kehon osat lapsille",
+    "kehon osat latinaksi",
+    "kehon osat pikku kakkonen",
+    "kehon osat ruotsiksi",
+    "kehon osat s2",
+    "kehon osat suomeksi",
+    "kehon osat wordwall",
+    "kehonosat laulu"
+   ]
+  },
+  "five-senses": {
+   "heads": [
+    "viisi aistia",
+    "aistit"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 15,
+   "suggestions": [
+    "aistit aivoissa",
+    "aistit ooppera",
+    "aistit tehtäviä",
+    "aistitesti",
+    "aistitiedon käsittelyn haasteet",
+    "aistitieto",
+    "aistitoiminnot",
+    "aistitoiminta",
+    "aistiton",
+    "aistittavissa",
+    "aistituotteet aikuisille",
+    "ihmisen viisi aistia",
+    "mitkä ovat viisi aistia",
+    "viisi aistia",
+    "viisi aistia harjoitus"
+   ]
+  },
+  "weather": {
+   "heads": [
+    "sää",
+    "sääsymbolit"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 14,
+   "suggestions": [
+    "sää",
+    "sää göteborg",
+    "sää haaparanta",
+    "sää helsinki",
+    "sää oulu",
+    "sää tampere",
+    "sää tehtäviä",
+    "sää tehtäviä lapsille",
+    "sää tornio",
+    "sää tukholma",
+    "sää turku",
+    "sää visby",
+    "sääsymbolit",
+    "sääsymbolit ilmatieteenlaitos"
+   ]
+  },
+  "tangram": {
+   "heads": [
+    "tangram",
+    "tangram malli"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 13,
+   "suggestions": [
+    "tangram",
+    "tangram city",
+    "tangram city lautapeli",
+    "tangram kuviot",
+    "tangram malleja",
+    "tangram mallit",
+    "tangram palapeli",
+    "tangram peli",
+    "tangram puzzle",
+    "tangram tehtäviä",
+    "tangram tehtäviä lapsille",
+    "tangram tulostettava",
+    "tangrams kennel"
+   ]
+  },
+  "recycling": {
+   "heads": [
+    "kierrätys",
+    "jätteiden lajittelu"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 23,
+   "suggestions": [
+    "jätteiden lajittelu",
+    "jätteiden lajittelu ja kierrätys",
+    "jätteiden lajittelu kotona",
+    "jätteiden lajittelu laki",
+    "jätteiden lajittelu merkinnät",
+    "jätteiden lajittelu taloyhtiössä",
+    "jätteiden lajitteluastia",
+    "jätteiden lajitteluastiat kotiin",
+    "jätteiden lajittelukaappi",
+    "jätteiden lajitteluohjeet kotitalouksille",
+    "kierrätys",
+    "kierrätys tehtäviä",
+    "kierrätys tehtäviä alakoulu",
+    "kierrätys tehtäviä lapsille",
+    "kierrätyskeskus",
+    "kierrätyskeskus espoo",
+    "kierrätyskeskus haaparanta",
+    "kierrätyskeskus helsinki",
+    "kierrätyskeskus lielahti",
+    "kierrätyskeskus nihtisilta",
+    "kierrätyskeskus tammisto",
+    "kierrätyskeskus vantaa",
+    "kierrätyskeskus verkkokauppa"
+   ]
+  },
+  "odd-and-even": {
+   "heads": [
+    "parilliset ja parittomat",
+    "parillinen pariton"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 17,
+   "suggestions": [
+    "parillinen ja pariton",
+    "parillinen ja pariton funktio",
+    "parillinen ja pariton pysäköinti",
+    "parillinen ja pariton viikko",
+    "parillinen pariton",
+    "parillinen pariton englanniksi",
+    "parillinen pariton pysäköinti",
+    "parillinen pariton viikko",
+    "parillinen vai pariton",
+    "parillinen vai pariton viikko",
+    "parilliset ja parittomat",
+    "parilliset ja parittomat funktiot",
+    "parilliset ja parittomat luvut",
+    "parilliset ja parittomat päivät",
+    "parilliset ja parittomat viikot",
+    "parilliset ja parittomat viikot 2025",
+    "parilliset ja parittomat viikot 2026"
+   ]
+  },
+  "rounding": {
+   "heads": [
+    "pyöristäminen",
+    "pyöristä"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 15,
+   "suggestions": [
+    "pyöristä",
+    "pyöristä excel",
+    "pyöristäminen",
+    "pyöristäminen englanniksi",
+    "pyöristäminen excel",
+    "pyöristäminen kahden desimaalin tarkkuudella",
+    "pyöristäminen laskuri",
+    "pyöristäminen matemaattisten pyöristyssääntöjen mukaan",
+    "pyöristäminen merkitsevät numerot",
+    "pyöristäminen satojen tarkkuuteen",
+    "pyöristäminen sentin tarkkuudella",
+    "pyöristäminen tehtäviä",
+    "pyöristäminen yhden desimaalin tarkkuudella",
+    "pyöristämätön",
+    "pyöristää englanniksi"
+   ]
+  },
+  "pronouns": {
+   "heads": [
+    "persoonapronominit",
+    "pronominit"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 24,
+   "suggestions": [
+    "englanti pronominit tehtäviä",
+    "persoonapronominit",
+    "persoonapronominit englanniksi",
+    "persoonapronominit espanja",
+    "persoonapronominit italia",
+    "persoonapronominit italiaksi",
+    "persoonapronominit ranska",
+    "persoonapronominit ruotsiksi",
+    "persoonapronominit saksa",
+    "persoonapronominit suomi",
+    "persoonapronominit viroksi",
+    "pronominit",
+    "pronominit englanniksi",
+    "pronominit ennen",
+    "pronominit espanjaksi",
+    "pronominit instagram",
+    "pronominit italiaksi",
+    "pronominit kirja",
+    "pronominit ruotsiksi",
+    "pronominit saksa",
+    "pronominit suomi",
+    "pronominit tehtäviä",
+    "ruotsi persoonapronominit tehtäviä",
+    "ruotsi pronominit tehtäviä"
+   ]
+  },
+  "question-words": {
+   "heads": [
+    "kysymyssanat",
+    "kysymyslauseet"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 14,
+   "suggestions": [
+    "kysymyslauseet englanniksi",
+    "kysymyslauseet englanti",
+    "kysymyslauseet ruotsi",
+    "kysymyslauseet ruotsiksi",
+    "kysymyssanat",
+    "kysymyssanat englanniksi",
+    "kysymyssanat englanti",
+    "kysymyssanat espanjaksi",
+    "kysymyssanat ruotsi",
+    "kysymyssanat ruotsiksi",
+    "kysymyssanat s2",
+    "kysymyssanat saksaksi",
+    "kysymyssanat suomeksi",
+    "kysymyssanat wordwall"
+   ]
+  },
+  "cube-nets": {
+   "heads": [
+    "kuution verkko",
+    "kuution levitys"
+   ],
+   "requests": 14,
+   "productiveSeeds": 0,
+   "unique": 0,
+   "suggestions": []
+  },
+  "finger-counting": {
+   "heads": [
+    "sormilaskenta",
+    "sormilla laskeminen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 1,
+   "suggestions": [
+    "sormilla laskeminen"
+   ]
+  }
+ },
+ "suggestions": {
+  "täydennä lause": {
+   "candidate": "cloze",
+   "s": [
+    "täydennä lause",
+    "wordwall täydennä lause"
+   ]
+  },
+  "aukkotehtävä": {
+   "candidate": "cloze",
+   "s": [
+    "aukkotehtävä englanniksi",
+    "exam aukkotehtävä"
+   ]
+  },
+  "domino": {
+   "candidate": "dominoes",
+   "s": [
+    "dominos",
+    "domino",
+    "dominos near me",
+    "domino keksi",
+    "domino säännöt",
+    "dominos pizza",
+    "domino peli",
+    "domino juustokakku",
+    "domino mansikka juustokakku",
+    "domino jäätelö"
+   ]
+  },
+  "dominopeli": {
+   "candidate": "dominoes",
+   "s": [
+    "dominopelin säännöt",
+    "dominopeli",
+    "dominopelin ohjeet",
+    "lasten dominopeli"
+   ]
+  },
+  "kehon osat": {
+   "candidate": "human-body",
+   "s": [
+    "kehon osat",
+    "kehon osat englanniksi",
+    "kehon osat ruotsiksi",
+    "kehon osat suomeksi",
+    "kehon osat lapsille",
+    "kehon osat latinaksi",
+    "kehon osat s2",
+    "kehon osat pikku kakkonen",
+    "kehonosat laulu",
+    "kehon osat wordwall"
+   ]
+  },
+  "ihmisen keho": {
+   "candidate": "human-body",
+   "s": [
+    "ihmisen kehon osat",
+    "ihmisen kehon osat suomeksi",
+    "ihmisen kehon lämpötila",
+    "ihmisen kehon vesipitoisuus",
+    "ihmisen kehon normaali lämpötila",
+    "ihmisen kehossa vettä",
+    "ihmisen keho suomeksi",
+    "ihmisen keho kuva",
+    "ihmisen kehon koostumus",
+    "ihmisen kehon osat pienimmästä suurimpaan"
+   ]
+  },
+  "viisi aistia": {
+   "candidate": "five-senses",
+   "s": [
+    "viisi aistia",
+    "viisi aistia harjoitus",
+    "ihmisen viisi aistia",
+    "mitkä ovat viisi aistia"
+   ]
+  },
+  "aistit": {
+   "candidate": "five-senses",
+   "s": [
+    "aistittavissa",
+    "aistiton",
+    "aistitesti",
+    "aistitieto",
+    "aistit ooppera",
+    "aistitiedon käsittelyn haasteet",
+    "aistitoiminta",
+    "aistituotteet aikuisille",
+    "aistit aivoissa",
+    "aistitoiminnot"
+   ]
+  },
+  "aistit tehtäviä": {
+   "candidate": "five-senses",
+   "s": [
+    "aistit tehtäviä"
+   ]
+  },
+  "sää": {
+   "candidate": "weather",
+   "s": [
+    "sää tukholma",
+    "sää",
+    "sää helsinki",
+    "sää turku",
+    "sää tornio",
+    "sää haaparanta",
+    "sää visby",
+    "sää tampere",
+    "sää oulu",
+    "sää göteborg"
+   ]
+  },
+  "sää tehtäviä": {
+   "candidate": "weather",
+   "s": [
+    "sää tehtäviä lapsille",
+    "sää tehtäviä"
+   ]
+  },
+  "sääsymbolit": {
+   "candidate": "weather",
+   "s": [
+    "sääsymbolit",
+    "sääsymbolit ilmatieteenlaitos"
+   ]
+  },
+  "tangram": {
+   "candidate": "tangram",
+   "s": [
+    "tangram",
+    "tangram city",
+    "tangram peli",
+    "tangram tulostettava",
+    "tangram palapeli",
+    "tangram city lautapeli",
+    "tangram kuviot",
+    "tangrams kennel",
+    "tangram puzzle",
+    "tangram malleja"
+   ]
+  },
+  "tangram tehtäviä": {
+   "candidate": "tangram",
+   "s": [
+    "tangram tehtäviä",
+    "tangram tehtäviä lapsille"
+   ]
+  },
+  "tangram tulostettava": {
+   "candidate": "tangram",
+   "s": [
+    "tangram tulostettava"
+   ]
+  },
+  "tangram malli": {
+   "candidate": "tangram",
+   "s": [
+    "tangram mallit"
+   ]
+  },
+  "kierrätys": {
+   "candidate": "recycling",
+   "s": [
+    "kierrätyskeskus",
+    "kierrätyskeskus verkkokauppa",
+    "kierrätyskeskus haaparanta",
+    "kierrätys",
+    "kierrätyskeskus espoo",
+    "kierrätyskeskus helsinki",
+    "kierrätyskeskus nihtisilta",
+    "kierrätyskeskus tammisto",
+    "kierrätyskeskus vantaa",
+    "kierrätyskeskus lielahti"
+   ]
+  },
+  "kierrätys tehtäviä": {
+   "candidate": "recycling",
+   "s": [
+    "kierrätys tehtäviä",
+    "kierrätys tehtäviä lapsille",
+    "kierrätys tehtäviä alakoulu"
+   ]
+  },
+  "jätteiden lajittelu": {
+   "candidate": "recycling",
+   "s": [
+    "jätteiden lajittelu",
+    "jätteiden lajitteluohjeet kotitalouksille",
+    "jätteiden lajitteluastia",
+    "jätteiden lajittelu ja kierrätys",
+    "jätteiden lajitteluastiat kotiin",
+    "jätteiden lajittelu merkinnät",
+    "jätteiden lajittelu taloyhtiössä",
+    "jätteiden lajittelu kotona",
+    "jätteiden lajittelukaappi",
+    "jätteiden lajittelu laki"
+   ]
+  },
+  "parilliset ja parittomat": {
+   "candidate": "odd-and-even",
+   "s": [
+    "parilliset ja parittomat viikot 2026",
+    "parilliset ja parittomat viikot",
+    "parilliset ja parittomat luvut",
+    "parilliset ja parittomat päivät",
+    "parilliset ja parittomat viikot 2025",
+    "parilliset ja parittomat",
+    "parilliset ja parittomat funktiot"
+   ]
+  },
+  "parillinen pariton": {
+   "candidate": "odd-and-even",
+   "s": [
+    "parillinen pariton pysäköinti",
+    "parillinen pariton englanniksi",
+    "parillinen pariton viikko",
+    "parillinen pariton",
+    "parillinen vai pariton viikko",
+    "parillinen ja pariton pysäköinti",
+    "parillinen ja pariton funktio",
+    "parillinen ja pariton viikko",
+    "parillinen vai pariton",
+    "parillinen ja pariton"
+   ]
+  },
+  "pyöristäminen": {
+   "candidate": "rounding",
+   "s": [
+    "pyöristäminen",
+    "pyöristäminen yhden desimaalin tarkkuudella",
+    "pyöristäminen kahden desimaalin tarkkuudella",
+    "pyöristäminen englanniksi",
+    "pyöristäminen sentin tarkkuudella",
+    "pyöristäminen matemaattisten pyöristyssääntöjen mukaan",
+    "pyöristäminen merkitsevät numerot",
+    "pyöristäminen excel",
+    "pyöristäminen laskuri",
+    "pyöristäminen satojen tarkkuuteen"
+   ]
+  },
+  "pyöristäminen tehtäviä": {
+   "candidate": "rounding",
+   "s": [
+    "pyöristäminen tehtäviä"
+   ]
+  },
+  "pyöristä": {
+   "candidate": "rounding",
+   "s": [
+    "pyöristäminen",
+    "pyöristämätön",
+    "pyöristää englanniksi",
+    "pyöristäminen yhden desimaalin tarkkuudella",
+    "pyöristä",
+    "pyöristä excel",
+    "pyöristäminen kahden desimaalin tarkkuudella"
+   ]
+  },
+  "persoonapronominit": {
+   "candidate": "pronouns",
+   "s": [
+    "persoonapronominit",
+    "persoonapronominit ruotsiksi",
+    "persoonapronominit englanniksi",
+    "persoonapronominit espanja",
+    "persoonapronominit saksa",
+    "persoonapronominit italiaksi",
+    "persoonapronominit ranska",
+    "persoonapronominit viroksi",
+    "persoonapronominit suomi",
+    "persoonapronominit italia"
+   ]
+  },
+  "persoonapronominit tehtäviä": {
+   "candidate": "pronouns",
+   "s": [
+    "ruotsi persoonapronominit tehtäviä"
+   ]
+  },
+  "pronominit": {
+   "candidate": "pronouns",
+   "s": [
+    "pronominit",
+    "pronominit englanniksi",
+    "pronominit ruotsiksi",
+    "pronominit kirja",
+    "pronominit instagram",
+    "pronominit espanjaksi",
+    "pronominit saksa",
+    "pronominit italiaksi",
+    "pronominit ennen",
+    "pronominit suomi"
+   ]
+  },
+  "pronominit tehtäviä": {
+   "candidate": "pronouns",
+   "s": [
+    "pronominit tehtäviä",
+    "englanti pronominit tehtäviä",
+    "ruotsi pronominit tehtäviä"
+   ]
+  },
+  "kysymyssanat": {
+   "candidate": "question-words",
+   "s": [
+    "kysymyssanat ruotsiksi",
+    "kysymyssanat",
+    "kysymyssanat saksaksi",
+    "kysymyssanat espanjaksi",
+    "kysymyssanat ruotsi",
+    "kysymyssanat englanti",
+    "kysymyssanat s2",
+    "kysymyssanat wordwall",
+    "kysymyssanat englanniksi",
+    "kysymyssanat suomeksi"
+   ]
+  },
+  "kysymyslauseet": {
+   "candidate": "question-words",
+   "s": [
+    "kysymyslauseet englanti",
+    "kysymyslauseet ruotsiksi",
+    "kysymyslauseet ruotsi",
+    "kysymyslauseet englanniksi"
+   ]
+  },
+  "sormilla laskeminen": {
+   "candidate": "finger-counting",
+   "s": [
+    "sormilla laskeminen"
+   ]
+  }
+ }
+}

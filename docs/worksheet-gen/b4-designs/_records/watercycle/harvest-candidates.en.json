@@ -1,0 +1,323 @@
+{
+ "locale": "en",
+ "market": {
+  "hl": "en",
+  "gl": "us"
+ },
+ "generatedAt": "2026-09-21T00:37:59.383Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds-watercycle.json",
+ "requestCount": 14,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "water-cycle": {
+   "heads": [
+    "water cycle",
+    "water cycle for kids"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 109,
+   "suggestions": [
+    "2nd grade water cycle for kids project",
+    "how do you explain water cycle to a 5 year old",
+    "how to teach water cycle to preschoolers",
+    "printable water cycle for kids worksheet",
+    "water cycle",
+    "water cycle 1st grade",
+    "water cycle 1st grade worksheet",
+    "water cycle 2nd grade",
+    "water cycle 2nd grade lesson",
+    "water cycle 2nd grade project",
+    "water cycle 2nd grade worksheet",
+    "water cycle 3rd grade",
+    "water cycle 3rd grade activity",
+    "water cycle 3rd grade project",
+    "water cycle 3rd grade video",
+    "water cycle 3rd grade worksheet",
+    "water cycle activities for 1st grade",
+    "water cycle activities for 2nd grade",
+    "water cycle activities for kids printable",
+    "water cycle craft for kids printable",
+    "water cycle definition for kids worksheet",
+    "water cycle diagram",
+    "water cycle diagram 1st grade",
+    "water cycle diagram 2nd grade",
+    "water cycle diagram for class 6",
+    "water cycle diagram for kids printable",
+    "water cycle diagram for kids worksheet",
+    "water cycle drawing",
+    "water cycle drawing easy",
+    "water cycle drawing easy for grade 2",
+    "water cycle drawing for class 6",
+    "water cycle experiment for kids worksheet",
+    "water cycle explanation for kids worksheet",
+    "water cycle for first graders",
+    "water cycle for kids",
+    "water cycle for kids 2nd grade",
+    "water cycle for kids class 4",
+    "water cycle for kids craft",
+    "water cycle for kids diagram",
+    "water cycle for kids drawing",
+    "water cycle for kids explanation",
+    "water cycle for kids grade 1",
+    "water cycle for kids grade 3",
+    "water cycle for kids magic school bus",
+    "water cycle for kids pdf",
+    "water cycle for kids printable",
+    "water cycle for kids project",
+    "water cycle for kids project worksheet",
+    "water cycle for kids video",
+    "water cycle for kids worksheet",
+    "water cycle for kids worksheet pdf",
+    "water cycle for kids worksheets",
+    "water cycle for kids worksheets free",
+    "water cycle for kindergarten kids",
+    "water cycle for kindergarten worksheets",
+    "water cycle for preschool kids",
+    "water cycle grade 1",
+    "water cycle grade 1 worksheet",
+    "water cycle grade 3 diagram",
+    "water cycle grade 3 lesson plan",
+    "water cycle grade 3 pdf",
+    "water cycle grade 3 project",
+    "water cycle grade 3 video",
+    "water cycle in hindi",
+    "water cycle kinder",
+    "water cycle kindergarten",
+    "water cycle kindergarten activities",
+    "water cycle kindergarten lesson",
+    "water cycle kindergarten project",
+    "water cycle kindergarten video",
+    "water cycle kindergarten worksheet",
+    "water cycle model",
+    "water cycle picture",
+    "water cycle picture for kids printable",
+    "water cycle print out",
+    "water cycle printable",
+    "water cycle printable diagram",
+    "water cycle printable for kids",
+    "water cycle printable free",
+    "water cycle printable pdf",
+    "water cycle printable pictures",
+    "water cycle printable preschool",
+    "water cycle printable worksheet",
+    "water cycle project",
+    "water cycle project 1st grade",
+    "water cycle song for 1st grade",
+    "water cycle standards 2nd grade",
+    "water cycle teaching",
+    "water cycle teaching aid",
+    "water cycle teaching ideas",
+    "water cycle video 2nd grade",
+    "water cycle video for 1st grade",
+    "water cycle worksheet",
+    "water cycle worksheet 2nd grade free",
+    "water cycle worksheets",
+    "water cycle worksheets for grade 1",
+    "water cycle worksheets for grade 4",
+    "water cycle worksheets for kids",
+    "water cycle worksheets for kindergarten",
+    "water cycle worksheets free",
+    "water cycle worksheets grade 2",
+    "water cycle worksheets grade 3",
+    "water cycle worksheets grade 5",
+    "water cycle worksheets pdf",
+    "what is water cycle for class 2",
+    "what is water cycle for class 3",
+    "what is water cycle for grade 3",
+    "what is water cycle for kindergarten",
+    "wordwall water cycle 2nd grade"
+   ]
+  }
+ },
+ "suggestions": {
+  "water cycle": {
+   "candidate": "water-cycle",
+   "s": [
+    "water cycle",
+    "water cycle diagram",
+    "water cycle drawing",
+    "water cycle picture",
+    "water cycle project",
+    "water cycle model",
+    "water cycle drawing easy",
+    "water cycle in hindi",
+    "water cycle drawing for class 6",
+    "water cycle diagram for class 6"
+   ]
+  },
+  "water cycle worksheets": {
+   "candidate": "water-cycle",
+   "s": [
+    "water cycle worksheets",
+    "water cycle worksheets for kids",
+    "water cycle worksheets pdf",
+    "water cycle worksheets for grade 4",
+    "water cycle worksheets for kindergarten",
+    "water cycle worksheets free",
+    "water cycle worksheets grade 5",
+    "water cycle worksheets grade 2",
+    "water cycle worksheets grade 3",
+    "water cycle worksheets for grade 1"
+   ]
+  },
+  "water cycle printable": {
+   "candidate": "water-cycle",
+   "s": [
+    "water cycle printable",
+    "water cycle printable for kids",
+    "water cycle printable free",
+    "water cycle printable pictures",
+    "water cycle printable worksheet",
+    "water cycle printable diagram",
+    "water cycle printable pdf",
+    "water cycle printable preschool",
+    "water cycle print out",
+    "water cycle worksheet"
+   ]
+  },
+  "water cycle kindergarten": {
+   "candidate": "water-cycle",
+   "s": [
+    "water cycle kindergarten",
+    "water cycle kindergarten worksheet",
+    "water cycle kindergarten activities",
+    "water cycle kindergarten video",
+    "water cycle kindergarten lesson",
+    "water cycle kindergarten project",
+    "water cycle kinder",
+    "water cycle teaching aid",
+    "water cycle teaching",
+    "water cycle teaching ideas"
+   ]
+  },
+  "water cycle 1st grade": {
+   "candidate": "water-cycle",
+   "s": [
+    "water cycle 1st grade",
+    "water cycle 1st grade worksheet",
+    "water cycle for first graders",
+    "water cycle grade 1",
+    "water cycle grade 1 worksheet",
+    "water cycle project 1st grade",
+    "water cycle diagram 1st grade",
+    "water cycle song for 1st grade",
+    "water cycle video for 1st grade",
+    "water cycle activities for 1st grade"
+   ]
+  },
+  "water cycle 2nd grade": {
+   "candidate": "water-cycle",
+   "s": [
+    "water cycle 2nd grade",
+    "water cycle 2nd grade worksheet",
+    "water cycle 2nd grade project",
+    "water cycle 2nd grade lesson",
+    "water cycle diagram 2nd grade",
+    "water cycle standards 2nd grade",
+    "water cycle video 2nd grade",
+    "water cycle worksheet 2nd grade free",
+    "wordwall water cycle 2nd grade",
+    "water cycle activities for 2nd grade"
+   ]
+  },
+  "water cycle 3rd grade": {
+   "candidate": "water-cycle",
+   "s": [
+    "water cycle 3rd grade",
+    "water cycle 3rd grade worksheet",
+    "water cycle 3rd grade project",
+    "water cycle 3rd grade video",
+    "water cycle 3rd grade activity",
+    "water cycle grade 3 lesson plan",
+    "water cycle grade 3 project",
+    "water cycle grade 3 video",
+    "water cycle grade 3 diagram",
+    "water cycle grade 3 pdf"
+   ]
+  },
+  "water cycle for kids": {
+   "candidate": "water-cycle",
+   "s": [
+    "water cycle for kids",
+    "water cycle for kids class 4",
+    "water cycle for kids project",
+    "water cycle for kids video",
+    "water cycle for kids drawing",
+    "water cycle for kids worksheet",
+    "water cycle for kids diagram",
+    "water cycle for kids explanation",
+    "water cycle for kids pdf",
+    "water cycle for kids craft"
+   ]
+  },
+  "water cycle for kids worksheets": {
+   "candidate": "water-cycle",
+   "s": [
+    "water cycle for kids worksheets free",
+    "water cycle for kids worksheets",
+    "water cycle for kindergarten worksheets",
+    "water cycle for kids worksheet pdf",
+    "water cycle for kids printable",
+    "water cycle diagram for kids worksheet",
+    "water cycle explanation for kids worksheet",
+    "water cycle for kids project worksheet",
+    "water cycle definition for kids worksheet",
+    "water cycle experiment for kids worksheet"
+   ]
+  },
+  "water cycle for kids printable": {
+   "candidate": "water-cycle",
+   "s": [
+    "water cycle for kids printable",
+    "water cycle for kids worksheet",
+    "water cycle for kids worksheet pdf",
+    "water cycle for kids worksheets free",
+    "water cycle activities for kids printable",
+    "water cycle diagram for kids printable",
+    "water cycle craft for kids printable",
+    "water cycle picture for kids printable",
+    "printable water cycle for kids worksheet",
+    "water cycle diagram for kids worksheet"
+   ]
+  },
+  "water cycle for kids kindergarten": {
+   "candidate": "water-cycle",
+   "s": [
+    "water cycle for kindergarten kids",
+    "water cycle for preschool kids",
+    "water cycle for kids magic school bus",
+    "what is water cycle for kindergarten",
+    "how do you explain water cycle to a 5 year old",
+    "how to teach water cycle to preschoolers"
+   ]
+  },
+  "water cycle for kids 1st grade": {
+   "candidate": "water-cycle",
+   "s": [
+    "water cycle for kids grade 1",
+    "how do you explain water cycle to a 5 year old",
+    "what is water cycle for kindergarten"
+   ]
+  },
+  "water cycle for kids 2nd grade": {
+   "candidate": "water-cycle",
+   "s": [
+    "water cycle for kids 2nd grade",
+    "water cycle drawing easy for grade 2",
+    "2nd grade water cycle for kids project",
+    "what is water cycle for class 2",
+    "what is water cycle for grade 3"
+   ]
+  },
+  "water cycle for kids 3rd grade": {
+   "candidate": "water-cycle",
+   "s": [
+    "water cycle for kids grade 3",
+    "what is water cycle for grade 3",
+    "what is water cycle for class 3"
+   ]
+  }
+ }
+}

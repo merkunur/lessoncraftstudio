@@ -1,0 +1,795 @@
+{
+ "locale": "no",
+ "market": {
+  "hl": "no",
+  "gl": "no"
+ },
+ "generatedAt": "2026-09-21T00:24:58.834Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds.json",
+ "requestCount": 182,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cloze": {
+   "heads": [
+    "fyll inn ord",
+    "setninger med hull"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 3,
+   "suggestions": [
+    "fyll inn ord",
+    "fyll inn ord historie",
+    "fyll inn riktig ord"
+   ]
+  },
+  "dominoes": {
+   "heads": [
+    "domino",
+    "domino mal"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 10,
+   "suggestions": [
+    "domino",
+    "domino regler",
+    "dominos",
+    "dominos gøteborg",
+    "dominos halden",
+    "dominos halmstad",
+    "dominos meny",
+    "dominos norge",
+    "dominos pizza",
+    "dominos sverige"
+   ]
+  },
+  "human-body": {
+   "heads": [
+    "kroppsdeler",
+    "kroppen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 8,
+   "unique": 28,
+   "suggestions": [
+    "kroppen",
+    "kroppen 1 trinn",
+    "kroppen 2 trinn",
+    "kroppen 3 trinn",
+    "kroppen 4 trinn",
+    "kroppen holder regnskap",
+    "kroppen kryssord",
+    "kroppen min eier jeg",
+    "kroppen oppgaver",
+    "kroppen oppgaver barn",
+    "kroppens anatomi",
+    "kroppens funksjon og oppbygning",
+    "kroppens minste knokkel",
+    "kroppens organer",
+    "kroppens organer plassering",
+    "kroppens største organ",
+    "kroppsdeler",
+    "kroppsdeler engelsk",
+    "kroppsdeler hest",
+    "kroppsdeler innvendig",
+    "kroppsdeler kryssord",
+    "kroppsdeler navn",
+    "kroppsdeler oppgaver",
+    "kroppsdeler på latin",
+    "kroppsdeler på norsk",
+    "kroppsdeler på spansk",
+    "kroppsdeler sovner ofte",
+    "undervisningsopplegg kroppen 4 trinn"
+   ]
+  },
+  "five-senses": {
+   "heads": [
+    "de fem sansene",
+    "sansene"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 15,
+   "suggestions": [
+    "de fem sansene",
+    "de fem sansene våre",
+    "hva er de fem sansene",
+    "hva heter de fem sansene",
+    "sansene",
+    "sansene 1 trinn",
+    "sansene kryssord",
+    "sansene undervisningsopplegg",
+    "sansene våre",
+    "sansene våre barnehage",
+    "sansenes hage",
+    "sansenes hage lillestrøm",
+    "sansenes rike",
+    "sansenes rike film",
+    "sansenes rike videoer"
+   ]
+  },
+  "weather": {
+   "heads": [
+    "været",
+    "værsymboler"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 16,
+   "suggestions": [
+    "været",
+    "været 2 trinn",
+    "været gøteborg",
+    "været i karlstad",
+    "været i luleå",
+    "været i oslo",
+    "været i piteå",
+    "været i sverige",
+    "været i østersund",
+    "været oppgaver",
+    "været stockholm",
+    "været strømstad",
+    "værsymboler",
+    "værsymboler storm",
+    "værsymboler vind",
+    "værsymboler yr"
+   ]
+  },
+  "tangram": {
+   "heads": [
+    "tangram",
+    "tangram mal"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 20,
+   "suggestions": [
+    "tangram",
+    "tangram design",
+    "tangram figurer",
+    "tangram figurer pdf",
+    "tangram mal",
+    "tangram mall",
+    "tangram mall arcade",
+    "tangram mall flushing",
+    "tangram mall food",
+    "tangram mall food court",
+    "tangram mall movie",
+    "tangram mall nyc",
+    "tangram mall parking",
+    "tangram mall restaurants",
+    "tangram meaning",
+    "tangram oppgaver",
+    "tangram puslespill",
+    "tangram puzzle",
+    "tangram spill",
+    "tangram utskrift"
+   ]
+  },
+  "recycling": {
+   "heads": [
+    "kildesortering",
+    "sortere søppel"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 23,
+   "suggestions": [
+    "hvordan sortere søppel",
+    "hvordan sortere søppel hjemme",
+    "kildesortering",
+    "kildesortering 2 trinn",
+    "kildesortering biltema",
+    "kildesortering clas ohlson",
+    "kildesortering europris",
+    "kildesortering hva skal hvor",
+    "kildesortering ikea",
+    "kildesortering kjøkken",
+    "kildesortering oppgaver",
+    "kildesortering oppgaver for barn",
+    "kildesortering oslo",
+    "kildesortering sverige",
+    "kildesorteringssett",
+    "sortere klær søppel",
+    "sortere søppel",
+    "sortere søppel barn",
+    "sortere søppel oppgave",
+    "sortere søppel oslo",
+    "sortere søppel på engelsk",
+    "sortere søppel spill",
+    "sortere søppel trondheim"
+   ]
+  },
+  "odd-and-even": {
+   "heads": [
+    "partall og oddetall",
+    "partall oddetall"
+   ],
+   "requests": 14,
+   "productiveSeeds": 6,
+   "unique": 21,
+   "suggestions": [
+    "partall oddetall",
+    "partall oddetall engelsk",
+    "partall oddetall fødselsnummer",
+    "partall oddetall og primtall",
+    "partall oddetall oppgaver",
+    "partall oddetall personnummer",
+    "partall oddetall plakat",
+    "partall oddetall spill",
+    "partall oddetall uke",
+    "partall og oddetall",
+    "partall og oddetall 2 trinn",
+    "partall og oddetall engelsk",
+    "partall og oddetall oppgaver",
+    "partall og oddetall oppgaver 2 trinn",
+    "partall og oddetall plakat",
+    "partall og oddetall spill",
+    "partall og oddetall uker",
+    "partall og oddetall uker 2025",
+    "partall og oddetall uker 2026",
+    "partall og oddetall undervisning",
+    "partall og oddetall undervisningsmetoder"
+   ]
+  },
+  "rounding": {
+   "heads": [
+    "avrunding",
+    "avrunde tall"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 17,
+   "suggestions": [
+    "avrunde tall",
+    "avrunde tall i excel",
+    "avrunding 3 trinn",
+    "avrunding desimaltall oppgaver",
+    "avrunding dokumentavgift",
+    "avrunding engelsk",
+    "avrunding excel",
+    "avrunding og overslag oppgaver",
+    "avrunding oppgaver",
+    "avrunding tegn",
+    "avrunding tegn tastatur",
+    "avrundingsfeil",
+    "avrundingsfres",
+    "avrundingsregler",
+    "avrundingsregler dokumentavgift",
+    "hvordan avrunde tall i excel",
+    "matte avrunding oppgaver"
+   ]
+  },
+  "pronouns": {
+   "heads": [
+    "pronomen",
+    "personlige pronomen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 30,
+   "suggestions": [
+    "oppgaver pronomen nynorsk",
+    "personlig pronomen oppgaver",
+    "personlige pronomen",
+    "personlige pronomen bokmål",
+    "personlige pronomen engelsk",
+    "personlige pronomen fransk",
+    "personlige pronomen italiensk",
+    "personlige pronomen norsk",
+    "personlige pronomen nynorsk",
+    "personlige pronomen oppgaver",
+    "personlige pronomen spansk",
+    "personlige pronomen tysk",
+    "possessive pronomen oppgaver",
+    "pronomen",
+    "pronomen 3 bokstaver",
+    "pronomen engelsk",
+    "pronomen engelsk oppgaver",
+    "pronomen kryssord",
+    "pronomen kryssord 2 bokstaver",
+    "pronomen kryssord 3 bokstaver",
+    "pronomen liste",
+    "pronomen norsk",
+    "pronomen norsk oppgaver",
+    "pronomen nynorsk",
+    "pronomen objektsform oppgaver",
+    "pronomen oppgaver",
+    "pronomen oppgaver for barneskole",
+    "pronomen oppgaver pdf",
+    "pronomen spansk",
+    "refleksive pronomen oppgaver"
+   ]
+  },
+  "question-words": {
+   "heads": [
+    "spørreord",
+    "spørreord oppgaver"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 16,
+   "suggestions": [
+    "leddsetninger med spørreord oppgaver",
+    "spørreord",
+    "spørreord 2 trinn",
+    "spørreord engelsk",
+    "spørreord engelsk oppgaver",
+    "spørreord kryssord",
+    "spørreord norsk",
+    "spørreord nynorsk",
+    "spørreord nynorsk oppgaver",
+    "spørreord oppgaver",
+    "spørreord oppgaver norsk",
+    "spørreord oppgaver pdf",
+    "spørreord på fransk",
+    "spørreord på spansk",
+    "spørreord tysk",
+    "spørreordene"
+   ]
+  },
+  "cube-nets": {
+   "heads": [
+    "terningnett",
+    "nett av terning"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 1,
+   "suggestions": [
+    "nett terning"
+   ]
+  },
+  "finger-counting": {
+   "heads": [
+    "fingertall",
+    "telle på fingrene"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 1,
+   "suggestions": [
+    "telle på fingrene"
+   ]
+  }
+ },
+ "suggestions": {
+  "fyll inn ord": {
+   "candidate": "cloze",
+   "s": [
+    "fyll inn ord historie",
+    "fyll inn ord",
+    "fyll inn riktig ord"
+   ]
+  },
+  "domino": {
+   "candidate": "dominoes",
+   "s": [
+    "dominos",
+    "dominos pizza",
+    "dominos gøteborg",
+    "domino",
+    "domino regler",
+    "dominos sverige",
+    "dominos meny",
+    "dominos norge",
+    "dominos halmstad",
+    "dominos halden"
+   ]
+  },
+  "kroppsdeler": {
+   "candidate": "human-body",
+   "s": [
+    "kroppsdeler",
+    "kroppsdeler kryssord",
+    "kroppsdeler navn",
+    "kroppsdeler på spansk",
+    "kroppsdeler engelsk",
+    "kroppsdeler på norsk",
+    "kroppsdeler hest",
+    "kroppsdeler på latin",
+    "kroppsdeler sovner ofte",
+    "kroppsdeler innvendig"
+   ]
+  },
+  "kroppsdeler oppgaver": {
+   "candidate": "human-body",
+   "s": [
+    "kroppsdeler oppgaver"
+   ]
+  },
+  "kroppen": {
+   "candidate": "human-body",
+   "s": [
+    "kroppen",
+    "kroppen kryssord",
+    "kroppens organer plassering",
+    "kroppens organer",
+    "kroppens anatomi",
+    "kroppen holder regnskap",
+    "kroppens største organ",
+    "kroppen min eier jeg",
+    "kroppens funksjon og oppbygning",
+    "kroppens minste knokkel"
+   ]
+  },
+  "kroppen oppgaver": {
+   "candidate": "human-body",
+   "s": [
+    "kroppen oppgaver",
+    "kroppen oppgaver barn"
+   ]
+  },
+  "kroppen 1. trinn": {
+   "candidate": "human-body",
+   "s": [
+    "kroppen 1 trinn"
+   ]
+  },
+  "kroppen 2. trinn": {
+   "candidate": "human-body",
+   "s": [
+    "kroppen 2 trinn"
+   ]
+  },
+  "kroppen 3. trinn": {
+   "candidate": "human-body",
+   "s": [
+    "kroppen 3 trinn"
+   ]
+  },
+  "kroppen 4. trinn": {
+   "candidate": "human-body",
+   "s": [
+    "kroppen 4 trinn",
+    "undervisningsopplegg kroppen 4 trinn"
+   ]
+  },
+  "de fem sansene": {
+   "candidate": "five-senses",
+   "s": [
+    "de fem sansene",
+    "de fem sansene våre",
+    "hva er de fem sansene",
+    "hva heter de fem sansene"
+   ]
+  },
+  "sansene": {
+   "candidate": "five-senses",
+   "s": [
+    "sansene våre",
+    "sansene",
+    "sansenes rike",
+    "sansenes hage",
+    "sansenes hage lillestrøm",
+    "sansene våre barnehage",
+    "sansenes rike film",
+    "sansene kryssord",
+    "sansene undervisningsopplegg",
+    "sansenes rike videoer"
+   ]
+  },
+  "sansene 1. trinn": {
+   "candidate": "five-senses",
+   "s": [
+    "sansene 1 trinn"
+   ]
+  },
+  "været": {
+   "candidate": "weather",
+   "s": [
+    "været",
+    "været gøteborg",
+    "været strømstad",
+    "været i sverige",
+    "været stockholm",
+    "været i oslo",
+    "været i karlstad",
+    "været i østersund",
+    "været i piteå",
+    "været i luleå"
+   ]
+  },
+  "været oppgaver": {
+   "candidate": "weather",
+   "s": [
+    "været oppgaver"
+   ]
+  },
+  "været 2. trinn": {
+   "candidate": "weather",
+   "s": [
+    "været 2 trinn"
+   ]
+  },
+  "værsymboler": {
+   "candidate": "weather",
+   "s": [
+    "værsymboler yr",
+    "værsymboler",
+    "værsymboler vind",
+    "værsymboler storm"
+   ]
+  },
+  "tangram": {
+   "candidate": "tangram",
+   "s": [
+    "tangram",
+    "tangram oppgaver",
+    "tangram spill",
+    "tangram puslespill",
+    "tangram utskrift",
+    "tangram figurer",
+    "tangram puzzle",
+    "tangram figurer pdf",
+    "tangram design",
+    "tangram meaning"
+   ]
+  },
+  "tangram oppgaver": {
+   "candidate": "tangram",
+   "s": [
+    "tangram oppgaver"
+   ]
+  },
+  "tangram til utskrift": {
+   "candidate": "tangram",
+   "s": [
+    "tangram utskrift"
+   ]
+  },
+  "tangram mal": {
+   "candidate": "tangram",
+   "s": [
+    "tangram mal",
+    "tangram mall nyc",
+    "tangram mall",
+    "tangram mall flushing",
+    "tangram mall restaurants",
+    "tangram mall parking",
+    "tangram mall movie",
+    "tangram mall food court",
+    "tangram mall food",
+    "tangram mall arcade"
+   ]
+  },
+  "kildesortering": {
+   "candidate": "recycling",
+   "s": [
+    "kildesortering sverige",
+    "kildesortering",
+    "kildesortering kjøkken",
+    "kildesorteringssett",
+    "kildesortering oslo",
+    "kildesortering ikea",
+    "kildesortering hva skal hvor",
+    "kildesortering clas ohlson",
+    "kildesortering europris",
+    "kildesortering biltema"
+   ]
+  },
+  "kildesortering oppgaver": {
+   "candidate": "recycling",
+   "s": [
+    "kildesortering oppgaver",
+    "kildesortering oppgaver for barn"
+   ]
+  },
+  "kildesortering 2. trinn": {
+   "candidate": "recycling",
+   "s": [
+    "kildesortering 2 trinn"
+   ]
+  },
+  "sortere søppel": {
+   "candidate": "recycling",
+   "s": [
+    "sortere søppel",
+    "sortere søppel spill",
+    "sortere søppel på engelsk",
+    "sortere søppel oslo",
+    "sortere søppel barn",
+    "sortere søppel oppgave",
+    "sortere søppel trondheim",
+    "hvordan sortere søppel",
+    "sortere klær søppel",
+    "hvordan sortere søppel hjemme"
+   ]
+  },
+  "partall og oddetall": {
+   "candidate": "odd-and-even",
+   "s": [
+    "partall og oddetall",
+    "partall og oddetall uker",
+    "partall og oddetall uker 2026",
+    "partall og oddetall oppgaver",
+    "partall og oddetall engelsk",
+    "partall og oddetall uker 2025",
+    "partall og oddetall spill",
+    "partall og oddetall undervisningsmetoder",
+    "partall og oddetall undervisning",
+    "partall og oddetall plakat"
+   ]
+  },
+  "partall og oddetall oppgaver": {
+   "candidate": "odd-and-even",
+   "s": [
+    "partall og oddetall oppgaver",
+    "partall og oddetall oppgaver 2 trinn",
+    "partall oddetall oppgaver"
+   ]
+  },
+  "partall og oddetall 2. trinn": {
+   "candidate": "odd-and-even",
+   "s": [
+    "partall og oddetall 2 trinn",
+    "partall og oddetall oppgaver 2 trinn"
+   ]
+  },
+  "partall oddetall": {
+   "candidate": "odd-and-even",
+   "s": [
+    "partall oddetall",
+    "partall oddetall og primtall",
+    "partall oddetall personnummer",
+    "partall oddetall engelsk",
+    "partall oddetall oppgaver",
+    "partall oddetall fødselsnummer",
+    "partall oddetall uke",
+    "partall oddetall plakat",
+    "partall oddetall spill",
+    "partall og oddetall"
+   ]
+  },
+  "partall oddetall oppgaver": {
+   "candidate": "odd-and-even",
+   "s": [
+    "partall oddetall oppgaver",
+    "partall og oddetall oppgaver",
+    "partall og oddetall oppgaver 2 trinn"
+   ]
+  },
+  "partall oddetall 2. trinn": {
+   "candidate": "odd-and-even",
+   "s": [
+    "partall og oddetall 2 trinn",
+    "partall og oddetall oppgaver 2 trinn"
+   ]
+  },
+  "avrunding": {
+   "candidate": "rounding",
+   "s": [
+    "avrundingsfres",
+    "avrunding tegn",
+    "avrundingsregler",
+    "avrunding engelsk",
+    "avrunding excel",
+    "avrundingsregler dokumentavgift",
+    "avrunding dokumentavgift",
+    "avrundingsfeil",
+    "avrunding oppgaver",
+    "avrunding tegn tastatur"
+   ]
+  },
+  "avrunding oppgaver": {
+   "candidate": "rounding",
+   "s": [
+    "avrunding oppgaver",
+    "matte avrunding oppgaver",
+    "avrunding desimaltall oppgaver",
+    "avrunding og overslag oppgaver"
+   ]
+  },
+  "avrunding 3. trinn": {
+   "candidate": "rounding",
+   "s": [
+    "avrunding 3 trinn"
+   ]
+  },
+  "avrunde tall": {
+   "candidate": "rounding",
+   "s": [
+    "avrunde tall i excel",
+    "avrunde tall",
+    "hvordan avrunde tall i excel"
+   ]
+  },
+  "pronomen": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomen kryssord",
+    "pronomen",
+    "pronomen kryssord 3 bokstaver",
+    "pronomen 3 bokstaver",
+    "pronomen norsk",
+    "pronomen liste",
+    "pronomen kryssord 2 bokstaver",
+    "pronomen engelsk",
+    "pronomen nynorsk",
+    "pronomen spansk"
+   ]
+  },
+  "pronomen oppgaver": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomen oppgaver",
+    "pronomen oppgaver pdf",
+    "pronomen oppgaver for barneskole",
+    "oppgaver pronomen nynorsk",
+    "personlig pronomen oppgaver",
+    "refleksive pronomen oppgaver",
+    "pronomen objektsform oppgaver",
+    "pronomen norsk oppgaver",
+    "possessive pronomen oppgaver",
+    "pronomen engelsk oppgaver"
+   ]
+  },
+  "personlige pronomen": {
+   "candidate": "pronouns",
+   "s": [
+    "personlige pronomen",
+    "personlige pronomen bokmål",
+    "personlige pronomen nynorsk",
+    "personlige pronomen norsk",
+    "personlige pronomen tysk",
+    "personlige pronomen italiensk",
+    "personlige pronomen spansk",
+    "personlige pronomen engelsk",
+    "personlige pronomen fransk",
+    "personlige pronomen oppgaver"
+   ]
+  },
+  "personlige pronomen oppgaver": {
+   "candidate": "pronouns",
+   "s": [
+    "personlige pronomen oppgaver"
+   ]
+  },
+  "spørreord": {
+   "candidate": "question-words",
+   "s": [
+    "spørreord kryssord",
+    "spørreord",
+    "spørreord på spansk",
+    "spørreord tysk",
+    "spørreord nynorsk",
+    "spørreord engelsk",
+    "spørreord på fransk",
+    "spørreord norsk",
+    "spørreord oppgaver",
+    "spørreordene"
+   ]
+  },
+  "spørreord oppgaver": {
+   "candidate": "question-words",
+   "s": [
+    "spørreord oppgaver",
+    "spørreord oppgaver pdf",
+    "spørreord oppgaver norsk",
+    "spørreord engelsk oppgaver",
+    "spørreord nynorsk oppgaver",
+    "leddsetninger med spørreord oppgaver"
+   ]
+  },
+  "spørreord 2. trinn": {
+   "candidate": "question-words",
+   "s": [
+    "spørreord 2 trinn"
+   ]
+  },
+  "nett av terning": {
+   "candidate": "cube-nets",
+   "s": [
+    "nett terning"
+   ]
+  },
+  "telle på fingrene": {
+   "candidate": "finger-counting",
+   "s": [
+    "telle på fingrene"
+   ]
+  }
+ }
+}

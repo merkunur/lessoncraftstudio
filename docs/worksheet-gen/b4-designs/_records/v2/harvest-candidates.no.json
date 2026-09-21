@@ -1,0 +1,608 @@
+{
+ "locale": "no",
+ "market": {
+  "hl": "no",
+  "gl": "no"
+ },
+ "generatedAt": "2026-09-21T00:30:55.332Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds-nordic-v2.json",
+ "requestCount": 182,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cloze": {
+   "heads": [
+    "sett inn riktig ord",
+    "fyll ut setningene"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 1,
+   "suggestions": [
+    "sett inn riktig ord"
+   ]
+  },
+  "dominoes": {
+   "heads": [
+    "talldomino",
+    "domino spill for barn"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 2,
+   "suggestions": [
+    "domino spill barn",
+    "domino spill barn regler"
+   ]
+  },
+  "human-body": {
+   "heads": [
+    "menneskekroppen",
+    "kroppen vår"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 20,
+   "suggestions": [
+    "kroppen vår",
+    "kroppen vår bok",
+    "kroppen vår for barn",
+    "kroppen vår innvendig",
+    "kroppen vår nrk",
+    "kroppen vår organer",
+    "kroppen vår spiller vi med",
+    "kroppen vår tegnefilm",
+    "kroppen vår trond viggo torgersen",
+    "kroppen vår trond-viggo",
+    "menneskekroppen",
+    "menneskekroppen anatomi",
+    "menneskekroppen bilde",
+    "menneskekroppen bok",
+    "menneskekroppen fysiologi og anatomi",
+    "menneskekroppen fysiologi og anatomi pdf",
+    "menneskekroppen innvendig",
+    "menneskekroppen organer",
+    "menneskekroppen skjelett",
+    "menneskekroppen tegning"
+   ]
+  },
+  "five-senses": {
+   "heads": [
+    "sansene våre",
+    "de 5 sansene"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 14,
+   "suggestions": [
+    "alle sansene våre",
+    "de 5 sansene",
+    "de 5 sansene våre",
+    "de fem sansene våre",
+    "hva er de 5 sansene",
+    "hva er de 5 sansene våre",
+    "hva er sansene våre",
+    "hva heter sansene våre",
+    "sansene våre",
+    "sansene våre barn",
+    "sansene våre barnehage",
+    "sansene våre i trafikken",
+    "sansene våre sang",
+    "sansene våre undervisningsopplegg"
+   ]
+  },
+  "weather": {
+   "heads": [
+    "vær",
+    "vær og klima"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 20,
+   "suggestions": [
+    "vær og klima",
+    "vær og klima definisjon",
+    "vær og klima forskjell",
+    "vær og klima geografi",
+    "vær og klima geografi vg1",
+    "vær og klima gran canaria",
+    "vær og klima i bergen",
+    "vær og klima i norge",
+    "vær og klima ndla",
+    "vær og klima undervisningsopplegg",
+    "været",
+    "været oslo",
+    "været trollhattan",
+    "været uddevalla",
+    "værkart",
+    "værmelding",
+    "værnesekspressen",
+    "værradar",
+    "værstasjon",
+    "værøy"
+   ]
+  },
+  "tangram": {
+   "heads": [
+    "tangram figurer",
+    "tangram brikker"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 5,
+   "suggestions": [
+    "tangram brikker",
+    "tangram figurer",
+    "tangram figurer att skriva ut",
+    "tangram figurer pdf",
+    "tangram pussel figurer"
+   ]
+  },
+  "recycling": {
+   "heads": [
+    "søppelsortering",
+    "gjenvinning"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 20,
+   "suggestions": [
+    "gjenvinning",
+    "gjenvinning brumunddal",
+    "gjenvinning strømstad",
+    "gjenvinning torsby",
+    "gjenvinningsstasjon",
+    "gjenvinningsstasjon bergen",
+    "gjenvinningsstasjon drammen",
+    "gjenvinningsstasjon oslo",
+    "gjenvinningsstasjon strømstad",
+    "gjenvinningsstasjon trondheim",
+    "søppelsortering",
+    "søppelsortering ikea",
+    "søppelsortering kjøkken",
+    "søppelsortering kjøkkenskap",
+    "søppelsortering oslo",
+    "søppelsortering spania",
+    "søppelsortering sverige",
+    "søppelsortering system",
+    "søppelsortering tromsø",
+    "søppelsortering under vask"
+   ]
+  },
+  "odd-and-even": {
+   "heads": [
+    "oddetall og partall",
+    "partall"
+   ],
+   "requests": 14,
+   "productiveSeeds": 6,
+   "unique": 24,
+   "suggestions": [
+    "forskjell på oddetall og partall",
+    "hva er oddetall og partall",
+    "oddetall og partall",
+    "oddetall og partall engelsk",
+    "oddetall og partall oppgaver",
+    "oddetall og partall uker",
+    "oddetall og partallsuker",
+    "oddetall partall",
+    "oddetall partall engelsk",
+    "oppgaver partall oddetall",
+    "oppgaver partall og oddetall",
+    "partall",
+    "partall engelsk",
+    "partall kryssord",
+    "partall oddetall",
+    "partall oddetall og primtall",
+    "partall og oddetall",
+    "partall og oddetall 2 trinn",
+    "partall og oddetall oppgaver 2 trinn",
+    "partall og oddetall uker",
+    "partallsuke",
+    "partallsuker",
+    "partallsuker 2026",
+    "partallsuker 2027"
+   ]
+  },
+  "rounding": {
+   "heads": [
+    "avrunding til nærmeste tier",
+    "avrunde til nærmeste"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 3,
+   "suggestions": [
+    "avrunde til nærmeste tusen excel",
+    "avrunding til nærmeste tier",
+    "avrunding til nærmeste tier oppgaver"
+   ]
+  },
+  "pronouns": {
+   "heads": [
+    "pronomen norsk",
+    "personlige pronomen bokmål"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 13,
+   "suggestions": [
+    "norsk pronomen liste",
+    "personlig pronomen norsk",
+    "personlig pronomen norsk oppgaver",
+    "personlige pronomen bokmål",
+    "possessive pronomen norsk",
+    "pronomen norsk",
+    "pronomen norsk - engelsk",
+    "pronomen norsk bokmål",
+    "pronomen norsk grammatikk",
+    "pronomen norsk oppgaver",
+    "pronomen norsk som andrespråk",
+    "refleksive pronomen norsk",
+    "refleksive pronomen norsk oppgaver"
+   ]
+  },
+  "question-words": {
+   "heads": [
+    "spørreord norsk",
+    "hv-ord"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 16,
+   "suggestions": [
+    "alle norske spørreord",
+    "hc order",
+    "hv ord dansk",
+    "hv ord norsk",
+    "hv ord nynorsk",
+    "hv ord opgaver",
+    "hv ord på engelsk",
+    "hv ord på tysk",
+    "hv ord spansk",
+    "hv ord spørgsmål",
+    "hv-ord",
+    "spørreord norsk",
+    "spørreord norsk engelsk",
+    "spørreord norsk oppgaver",
+    "spørreord på norsk",
+    "spørreord tysk til norsk"
+   ]
+  },
+  "cube-nets": {
+   "heads": [
+    "nett av en terning",
+    "brett en terning"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 2,
+   "suggestions": [
+    "nett terning",
+    "terningbrett"
+   ]
+  },
+  "finger-counting": {
+   "heads": [
+    "telle med fingrene",
+    "fingertelling"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 3,
+   "suggestions": [
+    "fingertelling",
+    "fingertelling visus",
+    "telle med fingrene"
+   ]
+  }
+ },
+ "suggestions": {
+  "sett inn riktig ord": {
+   "candidate": "cloze",
+   "s": [
+    "sett inn riktig ord"
+   ]
+  },
+  "domino spill for barn": {
+   "candidate": "dominoes",
+   "s": [
+    "domino spill barn",
+    "domino spill barn regler"
+   ]
+  },
+  "menneskekroppen": {
+   "candidate": "human-body",
+   "s": [
+    "menneskekroppen",
+    "menneskekroppen fysiologi og anatomi",
+    "menneskekroppen bok",
+    "menneskekroppen anatomi",
+    "menneskekroppen organer",
+    "menneskekroppen fysiologi og anatomi pdf",
+    "menneskekroppen innvendig",
+    "menneskekroppen bilde",
+    "menneskekroppen skjelett",
+    "menneskekroppen tegning"
+   ]
+  },
+  "kroppen vår": {
+   "candidate": "human-body",
+   "s": [
+    "kroppen vår",
+    "kroppen vår innvendig",
+    "kroppen vår nrk",
+    "kroppen vår for barn",
+    "kroppen vår trond-viggo",
+    "kroppen vår organer",
+    "kroppen vår tegnefilm",
+    "kroppen vår bok",
+    "kroppen vår spiller vi med",
+    "kroppen vår trond viggo torgersen"
+   ]
+  },
+  "sansene våre": {
+   "candidate": "five-senses",
+   "s": [
+    "sansene våre",
+    "sansene våre barnehage",
+    "sansene våre sang",
+    "sansene våre undervisningsopplegg",
+    "sansene våre barn",
+    "sansene våre i trafikken",
+    "alle sansene våre",
+    "hva er sansene våre",
+    "de fem sansene våre",
+    "hva heter sansene våre"
+   ]
+  },
+  "de 5 sansene": {
+   "candidate": "five-senses",
+   "s": [
+    "de 5 sansene",
+    "de 5 sansene våre",
+    "hva er de 5 sansene",
+    "hva er de 5 sansene våre"
+   ]
+  },
+  "vær": {
+   "candidate": "weather",
+   "s": [
+    "været",
+    "været uddevalla",
+    "været trollhattan",
+    "værmelding",
+    "været oslo",
+    "værradar",
+    "værnesekspressen",
+    "værstasjon",
+    "værøy",
+    "værkart"
+   ]
+  },
+  "vær og klima": {
+   "candidate": "weather",
+   "s": [
+    "vær og klima",
+    "vær og klima geografi vg1",
+    "vær og klima forskjell",
+    "vær og klima i norge",
+    "vær og klima geografi",
+    "vær og klima ndla",
+    "vær og klima i bergen",
+    "vær og klima definisjon",
+    "vær og klima gran canaria",
+    "vær og klima undervisningsopplegg"
+   ]
+  },
+  "tangram figurer": {
+   "candidate": "tangram",
+   "s": [
+    "tangram figurer",
+    "tangram figurer pdf",
+    "tangram figurer att skriva ut",
+    "tangram pussel figurer"
+   ]
+  },
+  "tangram brikker": {
+   "candidate": "tangram",
+   "s": [
+    "tangram brikker"
+   ]
+  },
+  "søppelsortering": {
+   "candidate": "recycling",
+   "s": [
+    "søppelsortering sverige",
+    "søppelsortering",
+    "søppelsortering kjøkken",
+    "søppelsortering ikea",
+    "søppelsortering oslo",
+    "søppelsortering system",
+    "søppelsortering kjøkkenskap",
+    "søppelsortering under vask",
+    "søppelsortering spania",
+    "søppelsortering tromsø"
+   ]
+  },
+  "gjenvinning": {
+   "candidate": "recycling",
+   "s": [
+    "gjenvinningsstasjon",
+    "gjenvinningsstasjon oslo",
+    "gjenvinning torsby",
+    "gjenvinning strømstad",
+    "gjenvinningsstasjon strømstad",
+    "gjenvinning",
+    "gjenvinning brumunddal",
+    "gjenvinningsstasjon bergen",
+    "gjenvinningsstasjon trondheim",
+    "gjenvinningsstasjon drammen"
+   ]
+  },
+  "oddetall og partall": {
+   "candidate": "odd-and-even",
+   "s": [
+    "oddetall og partall",
+    "oddetall og partall uker",
+    "oddetall og partall engelsk",
+    "oddetall og partall oppgaver",
+    "oddetall og partallsuker",
+    "oddetall partall",
+    "oddetall partall engelsk",
+    "hva er oddetall og partall",
+    "forskjell på oddetall og partall",
+    "partall oddetall og primtall"
+   ]
+  },
+  "oddetall og partall oppgaver": {
+   "candidate": "odd-and-even",
+   "s": [
+    "oddetall og partall oppgaver",
+    "partall og oddetall oppgaver 2 trinn"
+   ]
+  },
+  "oddetall og partall 2. trinn": {
+   "candidate": "odd-and-even",
+   "s": [
+    "partall og oddetall 2 trinn",
+    "partall og oddetall oppgaver 2 trinn"
+   ]
+  },
+  "partall": {
+   "candidate": "odd-and-even",
+   "s": [
+    "partall",
+    "partall kryssord",
+    "partallsuker",
+    "partall og oddetall",
+    "partallsuker 2026",
+    "partall engelsk",
+    "partallsuke",
+    "partall og oddetall uker",
+    "partallsuker 2027",
+    "partall oddetall"
+   ]
+  },
+  "partall oppgaver": {
+   "candidate": "odd-and-even",
+   "s": [
+    "oppgaver partall og oddetall",
+    "oppgaver partall oddetall",
+    "partall og oddetall oppgaver 2 trinn"
+   ]
+  },
+  "partall 2. trinn": {
+   "candidate": "odd-and-even",
+   "s": [
+    "partall og oddetall 2 trinn",
+    "partall og oddetall oppgaver 2 trinn"
+   ]
+  },
+  "avrunding til nærmeste tier": {
+   "candidate": "rounding",
+   "s": [
+    "avrunding til nærmeste tier",
+    "avrunding til nærmeste tier oppgaver"
+   ]
+  },
+  "avrunding til nærmeste tier oppgaver": {
+   "candidate": "rounding",
+   "s": [
+    "avrunding til nærmeste tier oppgaver"
+   ]
+  },
+  "avrunde til nærmeste": {
+   "candidate": "rounding",
+   "s": [
+    "avrunde til nærmeste tusen excel"
+   ]
+  },
+  "pronomen norsk": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomen norsk",
+    "pronomen norsk bokmål",
+    "pronomen norsk grammatikk",
+    "pronomen norsk oppgaver",
+    "pronomen norsk - engelsk",
+    "pronomen norsk som andrespråk",
+    "norsk pronomen liste",
+    "refleksive pronomen norsk",
+    "personlig pronomen norsk",
+    "possessive pronomen norsk"
+   ]
+  },
+  "pronomen norsk oppgaver": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomen norsk oppgaver",
+    "refleksive pronomen norsk oppgaver",
+    "personlig pronomen norsk oppgaver"
+   ]
+  },
+  "personlige pronomen bokmål": {
+   "candidate": "pronouns",
+   "s": [
+    "personlige pronomen bokmål"
+   ]
+  },
+  "spørreord norsk": {
+   "candidate": "question-words",
+   "s": [
+    "spørreord norsk",
+    "spørreord norsk oppgaver",
+    "spørreord norsk engelsk",
+    "spørreord på norsk",
+    "spørreord tysk til norsk",
+    "alle norske spørreord"
+   ]
+  },
+  "spørreord norsk oppgaver": {
+   "candidate": "question-words",
+   "s": [
+    "spørreord norsk oppgaver"
+   ]
+  },
+  "hv-ord": {
+   "candidate": "question-words",
+   "s": [
+    "hv-ord",
+    "hv ord dansk",
+    "hv ord nynorsk",
+    "hv ord på tysk",
+    "hc order",
+    "hv ord spørgsmål",
+    "hv ord norsk",
+    "hv ord opgaver",
+    "hv ord på engelsk",
+    "hv ord spansk"
+   ]
+  },
+  "nett av en terning": {
+   "candidate": "cube-nets",
+   "s": [
+    "nett terning"
+   ]
+  },
+  "brett en terning": {
+   "candidate": "cube-nets",
+   "s": [
+    "terningbrett"
+   ]
+  },
+  "telle med fingrene": {
+   "candidate": "finger-counting",
+   "s": [
+    "telle med fingrene"
+   ]
+  },
+  "fingertelling": {
+   "candidate": "finger-counting",
+   "s": [
+    "fingertelling",
+    "fingertelling visus"
+   ]
+  }
+ }
+}

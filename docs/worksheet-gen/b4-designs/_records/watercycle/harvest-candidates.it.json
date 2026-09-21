@@ -1,0 +1,218 @@
+{
+ "locale": "it",
+ "market": {
+  "hl": "it",
+  "gl": "it"
+ },
+ "generatedAt": "2026-09-21T00:38:20.102Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds-watercycle.json",
+ "requestCount": 14,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "water-cycle": {
+   "heads": [
+    "ciclo dell'acqua",
+    "ciclo dell'acqua scuola primaria"
+   ],
+   "requests": 14,
+   "productiveSeeds": 13,
+   "unique": 60,
+   "suggestions": [
+    "ciclo dell acqua classe quarta primaria",
+    "ciclo dell acqua classe seconda primaria",
+    "ciclo dell acqua classe terza primaria",
+    "ciclo dell acqua da stampare",
+    "ciclo dell acqua da stampare e colorare",
+    "ciclo dell acqua scheda didattica",
+    "ciclo dell acqua scuola primaria classe seconda",
+    "ciclo dell acqua scuola primaria classe terza",
+    "ciclo dell acqua scuola primaria esperimenti",
+    "ciclo dell acqua scuola primaria lapbook",
+    "ciclo dell acqua scuola primaria lavoretti",
+    "ciclo dell acqua scuola primaria pdf",
+    "ciclo dell acqua scuola primaria verifica",
+    "ciclo dell acqua scuola primaria video",
+    "ciclo dell acqua scuola primaria wordwall",
+    "ciclo dell'acqua",
+    "ciclo dell'acqua classe prima",
+    "ciclo dell'acqua classe seconda",
+    "ciclo dell'acqua classe seconda primaria",
+    "ciclo dell'acqua classe terza",
+    "ciclo dell'acqua disegno",
+    "ciclo dell'acqua elementari",
+    "ciclo dell'acqua fasi",
+    "ciclo dell'acqua immagine",
+    "ciclo dell'acqua in inglese",
+    "ciclo dell'acqua per bambini",
+    "ciclo dell'acqua scuola primaria",
+    "ciclo dell'acqua spiegato ai bambini",
+    "ciclo dell'acqua spiegazione",
+    "il ciclo dell acqua classe seconda maestra mile",
+    "il ciclo dell acqua classe seconda primaria video",
+    "il ciclo dell acqua classe seconda quaderno",
+    "il ciclo dell acqua classe terza elementare",
+    "il ciclo dell acqua classe terza schede didattiche",
+    "il ciclo dell acqua immagini da stampare",
+    "il ciclo dell acqua immagini da stampare infanzia",
+    "il ciclo dell acqua schede didattiche scuola primaria classe seconda",
+    "il ciclo dell acqua scuola primaria classe prima",
+    "il ciclo dell acqua scuola primaria classe seconda video",
+    "il ciclo dell acqua scuola primaria classe terza video",
+    "il ciclo dell acqua scuola primaria da stampare",
+    "il ciclo dell acqua scuola primaria scheda didattica",
+    "lapbook ciclo dell acqua classe seconda",
+    "lapbook ciclo dell acqua classe terza",
+    "lapbook ciclo dell acqua da stampare",
+    "lapbook ciclo dell acqua in inglese da stampare pdf",
+    "ruota del ciclo dell acqua da stampare",
+    "scheda ciclo dell acqua classe seconda",
+    "scheda ciclo dell acqua classe terza",
+    "scheda sul ciclo dell acqua da stampare",
+    "schede sul ciclo dell acqua classe terza primaria",
+    "verifica ciclo dell acqua classe seconda",
+    "verifica ciclo dell acqua classe seconda primaria",
+    "verifica ciclo dell acqua classe terza",
+    "verifica ciclo dell acqua classe terza primaria",
+    "verifica il ciclo dell acqua scuola primaria da stampare",
+    "video ciclo dell acqua classe seconda",
+    "video ciclo dell acqua classe terza",
+    "wordwall ciclo dell acqua classe seconda",
+    "wordwall ciclo dell acqua classe terza"
+   ]
+  }
+ },
+ "suggestions": {
+  "ciclo dell'acqua": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo dell'acqua",
+    "ciclo dell'acqua per bambini",
+    "ciclo dell'acqua scuola primaria",
+    "ciclo dell'acqua fasi",
+    "ciclo dell'acqua disegno",
+    "ciclo dell'acqua elementari",
+    "ciclo dell'acqua spiegazione",
+    "ciclo dell'acqua immagine",
+    "ciclo dell'acqua spiegato ai bambini",
+    "ciclo dell'acqua in inglese"
+   ]
+  },
+  "ciclo dell'acqua scheda didattica": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo dell acqua scheda didattica",
+    "il ciclo dell acqua scuola primaria scheda didattica"
+   ]
+  },
+  "ciclo dell'acqua da stampare": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo dell acqua da stampare",
+    "ciclo dell acqua da stampare e colorare",
+    "lapbook ciclo dell acqua da stampare",
+    "ruota del ciclo dell acqua da stampare",
+    "scheda sul ciclo dell acqua da stampare",
+    "il ciclo dell acqua immagini da stampare",
+    "il ciclo dell acqua immagini da stampare infanzia",
+    "il ciclo dell acqua scuola primaria da stampare",
+    "lapbook ciclo dell acqua in inglese da stampare pdf",
+    "verifica il ciclo dell acqua scuola primaria da stampare"
+   ]
+  },
+  "ciclo dell'acqua scuola primaria": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo dell'acqua scuola primaria",
+    "ciclo dell acqua scuola primaria classe seconda",
+    "ciclo dell acqua scuola primaria classe terza",
+    "ciclo dell acqua scuola primaria video",
+    "ciclo dell acqua scuola primaria lavoretti",
+    "ciclo dell acqua scuola primaria wordwall",
+    "ciclo dell acqua scuola primaria verifica",
+    "ciclo dell acqua scuola primaria pdf",
+    "ciclo dell acqua scuola primaria lapbook",
+    "ciclo dell acqua scuola primaria esperimenti"
+   ]
+  },
+  "ciclo dell'acqua classe prima": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo dell'acqua classe prima",
+    "ciclo dell acqua classe seconda primaria",
+    "ciclo dell acqua classe terza primaria",
+    "ciclo dell acqua classe quarta primaria",
+    "verifica ciclo dell acqua classe seconda primaria",
+    "verifica ciclo dell acqua classe terza primaria",
+    "il ciclo dell acqua classe seconda primaria video",
+    "il ciclo dell acqua scuola primaria classe terza video",
+    "schede sul ciclo dell acqua classe terza primaria",
+    "il ciclo dell acqua scuola primaria classe prima"
+   ]
+  },
+  "ciclo dell'acqua classe seconda": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo dell'acqua classe seconda",
+    "ciclo dell'acqua classe seconda primaria",
+    "il ciclo dell acqua classe seconda maestra mile",
+    "verifica ciclo dell acqua classe seconda",
+    "il ciclo dell acqua classe seconda quaderno",
+    "wordwall ciclo dell acqua classe seconda",
+    "scheda ciclo dell acqua classe seconda",
+    "lapbook ciclo dell acqua classe seconda",
+    "video ciclo dell acqua classe seconda",
+    "verifica ciclo dell acqua classe seconda primaria"
+   ]
+  },
+  "ciclo dell'acqua classe terza": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo dell'acqua classe terza",
+    "ciclo dell acqua classe terza primaria",
+    "wordwall ciclo dell acqua classe terza",
+    "verifica ciclo dell acqua classe terza",
+    "video ciclo dell acqua classe terza",
+    "scheda ciclo dell acqua classe terza",
+    "il ciclo dell acqua classe terza schede didattiche",
+    "verifica ciclo dell acqua classe terza primaria",
+    "lapbook ciclo dell acqua classe terza",
+    "il ciclo dell acqua classe terza elementare"
+   ]
+  },
+  "ciclo dell'acqua scuola primaria scheda didattica": {
+   "candidate": "water-cycle",
+   "s": [
+    "il ciclo dell acqua scuola primaria scheda didattica"
+   ]
+  },
+  "ciclo dell'acqua scuola primaria da stampare": {
+   "candidate": "water-cycle",
+   "s": [
+    "il ciclo dell acqua scuola primaria da stampare",
+    "verifica il ciclo dell acqua scuola primaria da stampare"
+   ]
+  },
+  "ciclo dell'acqua scuola primaria classe prima": {
+   "candidate": "water-cycle",
+   "s": [
+    "il ciclo dell acqua scuola primaria classe prima"
+   ]
+  },
+  "ciclo dell'acqua scuola primaria classe seconda": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo dell acqua scuola primaria classe seconda",
+    "il ciclo dell acqua scuola primaria classe seconda video",
+    "il ciclo dell acqua schede didattiche scuola primaria classe seconda"
+   ]
+  },
+  "ciclo dell'acqua scuola primaria classe terza": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo dell acqua scuola primaria classe terza",
+    "il ciclo dell acqua scuola primaria classe terza video"
+   ]
+  }
+ }
+}

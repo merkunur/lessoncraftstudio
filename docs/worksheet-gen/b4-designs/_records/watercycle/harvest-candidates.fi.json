@@ -1,0 +1,60 @@
+{
+ "locale": "fi",
+ "market": {
+  "hl": "fi",
+  "gl": "fi"
+ },
+ "generatedAt": "2026-09-21T00:38:41.318Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds-watercycle.json",
+ "requestCount": 14,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "water-cycle": {
+   "heads": [
+    "veden kiertokulku",
+    "veden kiertokulku lapsille"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 11,
+   "suggestions": [
+    "veden kiertokulku",
+    "veden kiertokulku englanniksi",
+    "veden kiertokulku kaavio",
+    "veden kiertokulku kuva",
+    "veden kiertokulku lapsille",
+    "veden kiertokulku luonnossa",
+    "veden kiertokulku maapallolla",
+    "veden kiertokulku opetus",
+    "veden kiertokulku tehtävä",
+    "veden kiertokulku video",
+    "veden kiertokulku video lapsille"
+   ]
+  }
+ },
+ "suggestions": {
+  "veden kiertokulku": {
+   "candidate": "water-cycle",
+   "s": [
+    "veden kiertokulku",
+    "veden kiertokulku lapsille",
+    "veden kiertokulku kuva",
+    "veden kiertokulku maapallolla",
+    "veden kiertokulku video",
+    "veden kiertokulku luonnossa",
+    "veden kiertokulku tehtävä",
+    "veden kiertokulku kaavio",
+    "veden kiertokulku englanniksi",
+    "veden kiertokulku opetus"
+   ]
+  },
+  "veden kiertokulku lapsille": {
+   "candidate": "water-cycle",
+   "s": [
+    "veden kiertokulku lapsille",
+    "veden kiertokulku video lapsille"
+   ]
+  }
+ }
+}

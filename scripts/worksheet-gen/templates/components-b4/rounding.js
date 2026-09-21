@@ -41,14 +41,26 @@
  *       data-lcs-row data-lcs-n data-lcs-step; the numeral is ONE text node
  *       (`onesTint`, d1 only, wraps the deciding digit coral). Throws when the
  *       answer disagrees with round(n, step) or n is a multiple of step.
- * Faces (§3; built to the contracts, consumed by no spec yet — Phase 2):
- *   updownBins({down:{label}, up:{label}, cells=9, cellW=84, cellH=44, w=330, h=232})
- *   estimateRow({idx, a, b, step, rel, exprW=80})
- *   targetPill({target, rel})
- *   numberField({target, step, values, pillW=96, pillH=52, gap=24, stagger=48, perRow=4})
- *   twoTargetRow({idx, n, steps, answers, rel})
+ * Faces (§3; consumed by the five G3 faces of _work/G2-346-faces.md — every
+ * geometry number is a parameter the FACE CONFIG sets, the defaults are the
+ * design's §3 numbers; the shipped sizes are larger, the nt10-D sparse rule):
+ *   roundChipLane({values, step, chip=72, gap=10, rowGap=12, cols=6, px=28})
+ *       F1's strip of `.ws-chip` numerals in a `.ws-lane`; data-lcs-val only.
+ *   updownBins({down:{label}, up:{label}, cells=9, cellW=84, cellH=44, w=330,
+ *       h=232, cellGap=10, pillH=40, pillPx=18})   F1's two `.ws-bin`s, down
+ *       LEFT / up RIGHT, a `.ws-pill` label = the in-font arrow + the bank
+ *       literal, a grid of EMPTY blankNumeralBoxes; throws when the cells do
+ *       not fit the bin height.
+ *   estimateRow({idx, a, b, step, rel, exprW=80, rowH=48})   F3's line
+ *       `a + b [glyph] [ ] + [ ] = [ ]` (433 wide); the `=` follows a BOX.
+ *   targetPill({target, step, rel, h=52, px=28})   F4's `[glyph] 50` pill.
+ *   numberField({target, step, values, pillW=96, pillH=52, gap=24, rowGap=gap,
+ *       stagger=48, perRow=4, px=26})   F4's staggered field of `.ws-nchip`
+ *       numerals, data-lcs-val only (no membership stamp, ever).
+ *   twoTargetRow({idx, n, steps, answers, rel, rowH=44})   F5's line with two
+ *       boxes (data-lcs-step 10 / 100) at row-x 178 / 338.
  *   placeHeader({heads:[h10, h100], cellW=160, centres=[178, 338], w=380})
- *   placePill({step})
+ *   placePill({step})   the language-free `10` / `100` pill of F5's rule box.
  */
 'use strict';
 const tokens = require('../../primitives/_tokens.js');
@@ -170,23 +182,49 @@ function roundRow({ idx, n, step, answer, rel = 'approx', onesTint = false, rowH
     blankBox({ w: boxW, h: boxH, answer: String(want) }) + `</span>`;
 }
 
-/* ------------------------------------------------------------------ F1: the two arrow bins */
-function updownBins({ down, up, cells = 9, cellW = 84, cellH = 44, w = 330, h = 232, gap = 15, cols = 3 }) {
+/* ------------------------------------------------------------------ F1: the numeral chip lane + the two arrow bins */
+/**
+ * The strip of numerals the child sorts: `.ws-chip` discs (overridden to `chip`
+ * px, Baloo 2 700 `px`) in rows of `cols` inside a `.ws-lane`; each chip stamps
+ * ONLY its value (`data-lcs-val`) — direction / membership never. Throws on a
+ * repeated value, a multiple of `step`, a chip under the 52 floor or a row
+ * wider than the lane.
+ */
+function roundChipLane({ values, step = 10, chip = 72, gap = 10, rowGap = 12, cols = 6, px = 28 }) {
+  checkStep(step, 'roundChipLane');
+  if (!Array.isArray(values) || values.length < 4) throw new Error('roundChipLane: values must be >= 4');
+  if (new Set(values).size !== values.length) throw new Error('roundChipLane: a value twice');
+  for (const v of values) if (!posInt(v) || v % step === 0 || v > 999) throw new Error(`roundChipLane: value ${v} is a multiple of ${step} or >= 1000`);
+  if (chip < 52) throw new Error(`roundChipLane: chip ${chip} < 52`);
+  if (px < 22) throw new Error(`roundChipLane: font ${px} < 22`);
+  const rowW = cols * chip + (cols - 1) * gap;
+  if (rowW > LANE_INNER) throw new Error(`roundChipLane: a row of ${cols} x ${chip} = ${rowW} > ${LANE_INNER}`);
+  const rows = Math.ceil(values.length / cols);
+  const minH = 28 + rows * chip + (rows - 1) * rowGap;   // the lane is border-box: padding 12 + border 2 each side
+  const chips = values.map((v) => `<span class="ws-chip" data-lcs-val="${v}" style="width:${chip}px;height:${chip}px;flex:0 0 ${chip}px;font-size:${px}px">${v}</span>`).join('');
+  return `<div class="ws-lane" data-lcs-chips data-ws-content style="display:flex;flex-wrap:wrap;justify-content:center;align-content:center;column-gap:${gap}px;row-gap:${rowGap}px;width:675px;max-width:${rowW + 36}px;margin:0 auto;min-height:${minH}px;height:${minH}px;box-sizing:border-box">${chips}</div>`;
+}
+
+function updownBins({ down, up, cells = 9, cellW = 84, cellH = 44, w = 330, h = 232, gap = 15, cols = 3, cellGap = 10, pillH = 40, pillPx = 18 }) {
   for (const [k, v] of [['down', down], ['up', up]]) if (!v || typeof v.label !== 'string' || !v.label.trim()) throw new Error(`updownBins: ${k}.label is required`);
   if (!Number.isInteger(cells) || cells < 2) throw new Error(`updownBins: cells ${cells}`);
   if (cellH < 44) throw new Error(`updownBins: cellH ${cellH} < 44`);
+  if (cellW < 84) throw new Error(`updownBins: cellW ${cellW} < 84 (a 3-digit numeral's box)`);
   if (2 * w + gap > 675) throw new Error(`updownBins: 2 x ${w} + ${gap} = ${2 * w + gap} > 675`);
-  const gridW = cols * cellW + (cols - 1) * 10;
+  const gridW = cols * cellW + (cols - 1) * cellGap;
   if (gridW > w - 12) throw new Error(`updownBins: ${cols} x ${cellW} grid ${gridW} > bin inner ${w - 12}`);
+  const cellRows = Math.ceil(cells / cols);
+  const need = 12 + pillH + 12 + cellRows * cellH + (cellRows - 1) * cellGap + 16;
+  if (need > h) throw new Error(`updownBins: ${cells} cells of ${cellW} x ${cellH} need ${need} px, the bin is ${h}`);
   const bin = (dir, label) => {
     const arrow = dir === 'down' ? '↓' : '↑';
     const grid = Array.from({ length: cells }, () => blankBox({ w: cellW, h: cellH, answer: '' })).join('');
     return `<div class="ws-bin" data-lcs-bin="${dir}" data-lcs-cells="${cells}" data-ws-content style="max-width:${w}px;flex:0 0 ${w}px;height:${h}px;display:flex;flex-direction:column;align-items:center;padding:12px 0 0;border-top:3px dashed ${T.teal}">` +
-      `<span class="ws-pill" data-lcs-bin-label="${dir}" style="height:40px;padding:6px 16px;${DISPLAY};font-size:18px;color:${T.ink};white-space:nowrap;max-width:300px;gap:8px">` +
-      `<span data-lcs-arrow="${dir}" style="color:${T.teal}">${arrow}</span><span>${esc(label)}</span></span>` +
-      `<div style="display:grid;grid-template-columns:repeat(${cols},${cellW}px);gap:10px;margin-top:12px">${grid}</div></div>`;
+      `<span class="ws-pill" data-lcs-bin-label="${dir}" style="height:${pillH}px;padding:6px 16px;${DISPLAY};font-size:${pillPx}px;color:${T.ink};white-space:nowrap;max-width:300px;gap:8px">` +
+      `<span data-lcs-arrow="${dir}" style="color:${T.teal}">${arrow}</span><span data-lcs-bin-text>${esc(label)}</span></span>` +
+      `<div style="display:grid;grid-template-columns:repeat(${cols},${cellW}px);gap:${cellGap}px;margin-top:12px">${grid}</div></div>`;
   };
-  return `<div data-lcs-bins style="display:flex;gap:${gap}px;justify-content:center">${bin('down', down.label)}${bin('up', up.label)}</div>`;
+  return `<div data-lcs-bins style="display:flex;gap:${gap}px;justify-content:center;flex:0 0 auto">${bin('down', down.label)}${bin('up', up.label)}</div>`;
 }
 
 /* ------------------------------------------------------------------ F3: the estimate row */
@@ -208,28 +246,33 @@ function estimateRow({ idx, a, b, step = 10, rel = 'approx', exprW = 80, rowH = 
 }
 
 /* ------------------------------------------------------------------ F4: the target pill + the field */
-function targetPill({ target, step = 10, rel = 'approx' }) {
+function targetPill({ target, step = 10, rel = 'approx', h = 52, px = 28 }) {
   checkStep(step, 'targetPill');
   if (!posInt(target) || target % step !== 0 || target < step || target > 999) throw new Error(`targetPill: target ${target} is not a multiple of ${step} in range`);
-  return `<span class="ws-nchip" data-lcs-target-pill aria-hidden="true" style="height:52px;padding:0 16px;background:${T.coralSoft};border-color:${T.coral};border-width:2.5px;gap:10px;color:${T.ink};font-size:28px">` +
-    roundGlyph({ kind: rel, size: 24 }) + `<span>${target}</span></span>`;
+  if (h < 44 || px < 22) throw new Error(`targetPill: ${h} x ${px} below the floor`);
+  return `<span class="ws-nchip" data-lcs-target-pill aria-hidden="true" style="height:${h}px;padding:0 18px;background:${T.coralSoft};border-color:${T.coral};border-width:2.5px;gap:10px;color:${T.ink};font-size:${px}px">` +
+    roundGlyph({ kind: rel, size: Math.max(24, Math.round(px * 0.86)) }) + `<span>${target}</span></span>`;
 }
 
-function numberField({ target, step = 10, values, pillW = 96, pillH = 52, gap = 24, stagger = 48, perRow = 4 }) {
+/** F4's field: `values` in `perRow` pills, the even rows shifted `stagger` px right of the odd ones (a field, not a table; the row centred first, so both fit when rowW + 2·stagger <= 639); `gap` = x, `rowGap` = y (the pencil-ring reserve, >= 20 measured by the gate). */
+function numberField({ target, step = 10, values, pillW = 96, pillH = 52, gap = 24, rowGap = gap, stagger = 48, perRow = 4, px = 26 }) {
   checkStep(step, 'numberField');
   if (!Array.isArray(values) || values.length < 4) throw new Error('numberField: values must be >= 4');
   if (new Set(values).size !== values.length) throw new Error('numberField: a value twice');
   for (const v of values) { if (!posInt(v) || v % step === 0 || v === target || v > 999) throw new Error(`numberField: value ${v} is a multiple of ${step}, the target, or >= 1000`); }
   if (pillH < 44 || pillW < 44) throw new Error('numberField: pill below the 44 floor');
+  if (px < 22) throw new Error(`numberField: font ${px} < 22`);
+  if (gap < 20 || rowGap < 20) throw new Error(`numberField: gap ${gap} / ${rowGap} < 20 (the pencil-ring reserve)`);
   const rowW = perRow * pillW + (perRow - 1) * gap;
-  if (rowW + stagger > LANE_INNER) throw new Error(`numberField: row ${rowW} + stagger ${stagger} > ${LANE_INNER}`);
+  if (rowW + 2 * stagger > LANE_INNER) throw new Error(`numberField: row ${rowW} shifted ${stagger} both ways > ${LANE_INNER}`);
   const rows = [];
   for (let i = 0; i < values.length; i += perRow) {
-    const pills = values.slice(i, i + perRow).map((v) => `<span class="ws-nchip" data-lcs-val="${v}" style="width:${pillW}px;height:${pillH}px;font-size:26px;color:${T.ink};border-width:2.5px">${v}</span>`).join('');
+    const pills = values.slice(i, i + perRow).map((v) => `<span class="ws-nchip" data-lcs-val="${v}" style="width:${pillW}px;height:${pillH}px;font-size:${px}px;color:${T.ink};border-width:2.5px">${v}</span>`).join('');
     const odd = (i / perRow) % 2 === 1;
-    rows.push(`<div style="display:flex;gap:${gap}px;justify-content:center${odd ? `;margin-left:${stagger}px` : ''}">${pills}</div>`);
+    // the even rows sit `stagger` px RIGHT of the odd rows (position:relative — a margin on a centred flex item would shift it by half)
+    rows.push(`<div data-lcs-field-row style="display:flex;gap:${gap}px;justify-content:center;position:relative;left:${odd ? stagger : 0}px">${pills}</div>`);
   }
-  return `<div data-lcs-field data-lcs-target="${target}" data-lcs-step="${step}" data-ws-content style="display:flex;flex-direction:column;gap:${gap}px;align-items:center">${rows.join('')}</div>`;
+  return `<div data-lcs-field data-lcs-target="${target}" data-lcs-step="${step}" data-ws-content style="display:flex;flex-direction:column;gap:${rowGap}px;align-items:center">${rows.join('')}</div>`;
 }
 
 /* ------------------------------------------------------------------ F5: two boxes per number */
@@ -259,4 +302,4 @@ function placeHeader({ heads, cellW = 160, centres = [178, 338], w = 380 }) {
   return `<div data-lcs-heads style="position:relative;width:${w}px;height:24px">${cell(heads[0], 10, centres[0])}${cell(heads[1], 100, centres[1])}</div>`;
 }
 
-module.exports = { roundGlyph, numBadge, workedLine, digitStrip, roundRuleBox, roundRow, updownBins, estimateRow, targetPill, numberField, twoTargetRow, placeHeader, placePill };
+module.exports = { roundGlyph, numBadge, workedLine, digitStrip, roundRuleBox, roundRow, roundChipLane, updownBins, estimateRow, targetPill, numberField, twoTargetRow, placeHeader, placePill };

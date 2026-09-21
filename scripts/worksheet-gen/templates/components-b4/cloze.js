@@ -28,7 +28,7 @@
  *       box 1 as an SVG text overlay sized by `starterFontPx` (the MEASURED
  *       metrics, README rule) and stamps data-lcs-starter. Throws below box 26.
  *   gapRow({n, src, key, frameId, form, kase, text, answer, slot, picPx=56,
- *           fontPx=18, lineHeight=1.3, padding='5px 16px', attrs=''})
+ *           fontPx=18, lineHeight=1.3, padding='5px 16px', attrs='', below=''})
  *       THE LANE: `.ws-lane` (page.css:401) with the inline padding override
  *       (the default 12 16 costs 14 px per row — PR9), grid
  *       `30px <picPx>px 1fr` column-gap 10 / 12 (30 + 10 + 56 + 12 + 531 =
@@ -41,21 +41,27 @@
  *       Stamps data-ws-content data-lcs-row=n data-lcs-frame data-lcs-key
  *       data-lcs-form [data-lcs-case] data-lcs-answer (the answer is stamped,
  *       never printed — the row throws if the answer occurs in the text).
- *   choiceGap({chips:[{word, role:'answer'|'foil'}], idx, px=20, h=44, pad=16})
+ *       `below` (F2, Phase 2): a second line rendered under the sentence INSIDE
+ *       the text column — the sentence + the line stack in one
+ *       `[data-lcs-textblock]` wrapper so the grid keeps ONE row; absent = the
+ *       base's markup byte for byte.
+ *   choiceGap({chips:[{word, role:'answer'|'foil'}], idx, px=20, h=44, pad=16, ml=0})
  *       line 2 of a choice row (F2): `<div class="ws-achips" data-lcs-chips=2
  *       data-lcs-idx=idx style="justify-content:flex-start;padding-top:6px">`
  *       with two `.ws-achip` (Baloo 2 700 px, height h, padding 0 pad,
  *       data-lcs-chip=<word> data-lcs-role). Throws on < 2 chips, duplicate
  *       chips, idx outside 0..1, h < 44.
- *   cloneGapRow({n, src, key, clones, clonePx=48, gap=6, colW=156, text, answer, slot, frameId, form, attrs=''})
+ *   cloneGapRow({n, src, key, clones, clonePx=48, gap=6, colW=156, text, answer, slot, frameId, form, kase=null, attrs=''})
  *       the plural lane (F3): grid `30px <colW>px 1fr`; the clone strip
  *       (flex, centred, gap 6: 3 x 48 + 2 x 6 = 156) of `clones` identical
  *       `.ws-icon`s each data-lcs-pic=<key>, strip data-lcs-clones=n; the
  *       sentence width 639 - 30 - 10 - 156 - 12 = 431. No hint chip (§3 F3:
  *       the singular is the noun's OTHER number and is never printed). Throws
  *       outside 2..3 clones.
- *   storyBlock({n, pics:[{src, key}], order, lines:[{text, key, form, answer, frameId}], gapW, picPx=44, storyId})
- *       the story lane (F4): `.ws-lane` padding 8 16, flex column gap 8: the
+ *   storyBlock({n, pics:[{src, key}], order, lines:[{text, key, form, answer, frameId}], gapW, picPx=44, storyId, padding='8px 16px', gapH=36})
+ *       the story lane (F4): `.ws-lane` padding 8 16 (F4 ships 6 16: the
+ *       measured 710 chrome holds 120 + 3 x 188 + 20 = 704, not the design's
+ *       715), flex column CENTRED, gap 8: the
  *       strip row (badge 30 + three `.ws-icon` picPx in the stamped `order`,
  *       each data-lcs-strip-pic=<key>; row stamp data-lcs-strip-order="2,0,1")
  *       then three `<p data-lcs-sentence data-lcs-line=i data-lcs-key
@@ -65,7 +71,10 @@
  *       Throws unless 3 pics + 3 lines, `order` a permutation of 0..2, every
  *       line one {gap}, no answer printed.
  *   sentenceMatch({left:[{frameId, key, text, form, answer}], right:[{key, src}], order,
- *                  itemH=92, leftW=330, rightW=100, picPx=64, blankW=90})
+ *                  itemH=92, leftW=330, rightW=100, picPx=64, blankW=90, itemMax=null})
+ *       (`itemMax` lets the items GROW from itemH to itemMax so the page's
+ *       slack is absorbed by the items, not by space-around bands: F5 ships
+ *       92..108; null = the fixed itemH of the design)
  *       the match face (F5): `<div class="ws-match" data-ws-content data-lcs-match
  *       style="padding:6px 30px">` (inner 615): left `.ws-match-item` leftW x
  *       itemH (justify flex-start, padding 0 12) holding `<span
@@ -164,61 +173,68 @@ function rowStamps({ n, frameId, key, form, kase, answer, attrs }) {
   return a.join(' ');
 }
 
-function gapRow({ n, src, key, frameId, form, kase = null, text, answer, slot, picPx = 56, fontPx = 18, lineHeight = 1.3, padding = '5px 16px', attrs = '' }) {
+function gapRow({ n, src, key, frameId, form, kase = null, text, answer, slot, picPx = 56, fontPx = 18, lineHeight = 1.3, padding = '5px 16px', attrs = '', below = '' }) {
   if (!src || !key || !frameId || !form || !answer) throw new Error('gapRow: src / key / frameId / form / answer are required');
   if (!slot) throw new Error('gapRow: a rendered slot is required');
   if (picPx < 44) throw new Error(`gapRow: picPx ${picPx} below the G1 floor 44`);
   if (fontPx < 16) throw new Error(`gapRow: fontPx ${fontPx} below 16`);
   // columns 30 | picPx | text: gaps 10 / 12 (the 12 = column-gap 10 + the sentence's 2 px margin) -> 30 + 10 + 56 + 12 + 531 = 639
+  const p = sentenceP(fillGap(text, slot, answer), { fontPx, lineHeight, margin: '0 0 0 2px' });
+  // `below` (the choice face, F2): a second line under the sentence INSIDE the text column — the sentence + the line
+  // stack in one wrapper so the grid keeps ONE row (badge + picture centred against the stack); absent = the base's markup byte for byte
+  const text3 = below ? `<div data-lcs-textblock style="min-width:0;display:flex;flex-direction:column;align-items:flex-start">${p}${below}</div>` : p;
   return `<div class="ws-lane" ${rowStamps({ n, frameId, key, form, kase, answer, attrs })} ` +
     `style="padding:${padding};display:grid;grid-template-columns:30px ${picPx}px minmax(0,1fr);column-gap:10px;align-items:center;min-height:0">` +
-    badge(n) + icon(src, key, picPx) + sentenceP(fillGap(text, slot, answer), { fontPx, lineHeight, margin: '0 0 0 2px' }) + `</div>`;
+    badge(n) + icon(src, key, picPx) + text3 + `</div>`;
 }
 
-function choiceGap({ chips, idx, px = 20, h = 44, pad = 16 }) {
+function choiceGap({ chips, idx, px = 20, h = 44, pad = 16, ml = 0 }) {
   if (!Array.isArray(chips) || chips.length !== 2) throw new Error('choiceGap: exactly 2 chips');
   if (new Set(chips.map((c) => String(c.word).toLowerCase())).size !== 2) throw new Error('choiceGap: duplicate chips');
   if (![0, 1].includes(idx)) throw new Error(`choiceGap: idx ${idx} outside 0..1`);
   if (h < 44) throw new Error(`choiceGap: h ${h} below the G1 floor 44`);
   if (chips.filter((c) => c.role === 'answer').length !== 1 || chips.some((c) => !['answer', 'foil'].includes(c.role))) throw new Error('choiceGap: one answer + one foil');
   if (chips[idx].role !== 'answer') throw new Error(`choiceGap: idx ${idx} is not the answer chip`);
-  return `<div class="ws-achips" data-lcs-chips="2" data-lcs-idx="${idx}" style="justify-content:flex-start;padding-top:6px">` +
+  return `<div class="ws-achips" data-lcs-chips="2" data-lcs-idx="${idx}" style="justify-content:flex-start;padding-top:6px${ml ? `;margin-left:${ml}px` : ''}">` +
     chips.map((c) => `<span class="ws-achip" data-lcs-chip="${esc(c.word)}" data-lcs-role="${c.role}" style="height:${h}px;padding:0 ${pad}px;font-family:${F.display},cursive;font-weight:700;font-size:${px}px;line-height:1">${esc(c.word)}</span>`).join('') +
     `</div>`;
 }
 
-function cloneGapRow({ n, src, key, clones, clonePx = 48, gap = 6, colW = 156, text, answer, slot, frameId, form = 'pl', attrs = '' }) {
+function cloneGapRow({ n, src, key, clones, clonePx = 48, gap = 6, colW = 156, text, answer, slot, frameId, form = 'pl', kase = null, attrs = '' }) {
   if (!Number.isInteger(clones) || clones < 2 || clones > 3) throw new Error(`cloneGapRow: clones ${clones} outside 2..3`);
   if (clonePx < 36) throw new Error(`cloneGapRow: clonePx ${clonePx} below the G2 floor 36`);
   if (clones * clonePx + (clones - 1) * gap > colW) throw new Error(`cloneGapRow: ${clones} x ${clonePx} + gaps > colW ${colW}`);
   const strip = `<span data-lcs-clones="${clones}" style="display:flex;justify-content:center;align-items:center;gap:${gap}px;width:${colW}px">` +
     Array.from({ length: clones }, () => icon(src, key, clonePx)).join('') + `</span>`;
-  return `<div class="ws-lane" ${rowStamps({ n, frameId, key, form, kase: null, answer, attrs })} ` +
+  return `<div class="ws-lane" ${rowStamps({ n, frameId, key, form, kase, answer, attrs })} ` +
     `style="padding:5px 16px;display:grid;grid-template-columns:30px ${colW}px minmax(0,1fr);column-gap:10px;align-items:center;min-height:0">` +
     badge(n) + strip + sentenceP(fillGap(text, slot, answer), { margin: '0 0 0 2px' }) + `</div>`;
 }
 
-function storyBlock({ n, pics, order, lines, gapW, picPx = 44, storyId = '' }) {
+function storyBlock({ n, pics, order, lines, gapW, picPx = 44, storyId = '', padding = '8px 16px', gapH = 36 }) {
   if (!Array.isArray(pics) || pics.length !== 3 || !Array.isArray(lines) || lines.length !== 3) throw new Error('storyBlock: 3 pics + 3 lines');
   if (!Array.isArray(order) || order.slice().sort().join(',') !== '0,1,2') throw new Error(`storyBlock: order ${JSON.stringify(order)} is not a permutation of 0..2`);
   if (picPx < 36) throw new Error(`storyBlock: picPx ${picPx} below 36`);
   const strip = `<div data-lcs-strip-order="${order.join(',')}" style="display:flex;align-items:center;gap:12px">` + badge(n) +
     order.map((i) => icon(pics[i].src, pics[i].key, picPx, 'data-lcs-strip-pic="1"')).join('') + `</div>`;
-  const ps = lines.map((l, i) => sentenceP(fillGap(l.text, gapBox({ w: gapW, h: 36 }), l.answer),
+  if (gapH < 36) throw new Error(`storyBlock: gapH ${gapH} below 36`);
+  const ps = lines.map((l, i) => sentenceP(fillGap(l.text, gapBox({ w: gapW, h: gapH }), l.answer),
     { attrs: `data-lcs-line="${i}" data-lcs-key="${esc(l.key)}" data-lcs-form="${esc(l.form)}" data-lcs-answer="${esc(l.answer)}" data-lcs-frame="${esc(l.frameId || '')}"` })).join('');
   return `<div class="ws-lane" data-ws-content data-lcs-story="${n}"${storyId ? ` data-lcs-story-id="${esc(storyId)}"` : ''} data-lcs-keys="${esc(lines.map((l) => l.key).join(','))}" ` +
-    `style="padding:8px 16px;display:flex;flex-direction:column;gap:8px;min-height:0">${strip}<div style="display:flex;flex-direction:column;gap:6px">${ps}</div></div>`;
+    `style="padding:${padding};display:flex;flex-direction:column;justify-content:center;gap:8px;min-height:0">${strip}<div style="display:flex;flex-direction:column;gap:6px">${ps}</div></div>`;
 }
 
-function sentenceMatch({ left, right, order, itemH = 92, leftW = 330, rightW = 100, picPx = 64, blankW = 90 }) {
+function sentenceMatch({ left, right, order, itemH = 92, leftW = 330, rightW = 100, picPx = 64, blankW = 90, itemMax = null }) {
   if (!Array.isArray(left) || !Array.isArray(right) || left.length !== right.length || left.length < 2) throw new Error('sentenceMatch: left / right of equal length >= 2');
   if (!Array.isArray(order) || order.length !== right.length || order.slice().sort((a, b) => a - b).join(',') !== right.map((_, i) => i).join(',')) throw new Error('sentenceMatch: order is not a permutation');
   if (order.some((o, i) => o === i)) throw new Error('sentenceMatch: a right item sits at its left index (not a derangement)');
   if (picPx < 56) throw new Error(`sentenceMatch: picPx ${picPx} below the K-late floor 56`);
+  if (itemMax != null && itemMax < itemH) throw new Error(`sentenceMatch: itemMax ${itemMax} below itemH ${itemH}`);
+  const hCss = itemMax == null ? `height:${itemH}px` : `min-height:${itemH}px;max-height:${itemMax}px;flex:1 1 ${itemH}px`;
   const L = left.map((l, i) => `<div class="ws-match-item" data-lcs-match-left="${esc(l.frameId)}" data-lcs-key="${esc(l.key)}" data-lcs-form="${esc(l.form || 'sg')}" data-lcs-answer="${esc(l.answer)}" ` +
-    `style="width:${leftW}px;height:${itemH}px;justify-content:flex-start;padding:0 12px"><span data-lcs-match-text style="font-family:${F.body},sans-serif;font-weight:800;font-size:18px;line-height:1.3;white-space:normal;color:${T.ink}">` +
+    `style="width:${leftW}px;${hCss};justify-content:flex-start;padding:0 12px"><span data-lcs-match-text style="font-family:${F.body},sans-serif;font-weight:800;font-size:18px;line-height:1.3;white-space:normal;color:${T.ink}">` +
     fillGap(l.text, gapBox({ w: blankW, h: 30, slim: true }), l.answer) + `</span><span class="ws-match-dot ws-match-dot--right"></span></div>`).join('');
-  const R = order.map((o) => { const r = right[o]; return `<div class="ws-match-item ws-match-item--plain" data-lcs-match-right="${esc(r.key)}" style="width:${rightW}px;height:${itemH}px">` +
+  const R = order.map((o) => { const r = right[o]; return `<div class="ws-match-item ws-match-item--plain" data-lcs-match-right="${esc(r.key)}" style="width:${rightW}px;${hCss}">` +
     icon(r.src, r.key, picPx) + `<span class="ws-match-dot ws-match-dot--left"></span></div>`; }).join('');
   return `<div class="ws-match" data-ws-content data-lcs-match data-lcs-pairs="${left.length}" style="padding:6px 30px"><div class="ws-match-col">${L}</div><div class="ws-match-col">${R}</div></div>`;
 }

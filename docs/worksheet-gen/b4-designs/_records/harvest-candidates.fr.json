@@ -1,0 +1,2665 @@
+{
+ "locale": "fr",
+ "market": {
+  "hl": "fr",
+  "gl": "fr"
+ },
+ "generatedAt": "2026-09-21T00:19:55.615Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds.json",
+ "requestCount": 182,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cloze": {
+   "heads": [
+    "texte à trous",
+    "phrases à compléter"
+   ],
+   "requests": 14,
+   "productiveSeeds": 6,
+   "unique": 48,
+   "suggestions": [
+    "dictée à trou ce1 pdf",
+    "dictée à trou ce2 pdf",
+    "dictée à trous ce1",
+    "dictée à trous ce1 bout de gomme",
+    "dictée à trous ce2",
+    "dictée à trous cm1 à imprimer",
+    "dictée à trous cp",
+    "dictée à trous à imprimer",
+    "dictée à trous à imprimer 3ème",
+    "dictée à trous à imprimer cp",
+    "exercice addition à trou cp",
+    "exercice texte à trous cp",
+    "lecture texte à trous ce2",
+    "lecture à trous ce1",
+    "lecture à trous ce2",
+    "mots à compléter",
+    "phrase à compléter drôle",
+    "phrase à compléter jeu",
+    "phrase à compléter jeu couple",
+    "phrases à compléter",
+    "phrases à compléter ce1",
+    "phrases à compléter ce2",
+    "phrases à compléter cp",
+    "phrases à compléter psychologie",
+    "phrases à trous ce1",
+    "phrases à trous ce2",
+    "phrases à trous cp",
+    "texte à compléter",
+    "texte à compléter ce1",
+    "texte à compléter ce2",
+    "texte à trou cp pdf",
+    "texte à trou à compléter cp",
+    "texte à trous",
+    "texte à trous - exercices pdf",
+    "texte à trous ce1",
+    "texte à trous ce1 pdf",
+    "texte à trous ce1 à imprimer",
+    "texte à trous ce2",
+    "texte à trous ce2 pdf",
+    "texte à trous ce2 à imprimer",
+    "texte à trous cm1 pdf",
+    "texte à trous cm1 à imprimer",
+    "texte à trous cm2 à imprimer",
+    "texte à trous cp",
+    "texte à trous cp à imprimer",
+    "texte à trous humoristique",
+    "texte à trous pour adulte",
+    "texte à trous à imprimer"
+   ]
+  },
+  "dominoes": {
+   "heads": [
+    "dominos à imprimer",
+    "dominos"
+   ],
+   "requests": 14,
+   "productiveSeeds": 10,
+   "unique": 63,
+   "suggestions": [
+    "domino animaux à imprimer",
+    "domino ce1",
+    "domino ce2",
+    "domino conjugaison ce1",
+    "domino conjugaison ce2",
+    "domino cp exercices",
+    "domino cp lecture",
+    "domino cp à imprimer",
+    "domino d'écriture cp",
+    "domino des contraires ce2",
+    "domino des nombres ce1",
+    "domino des synonymes ce2",
+    "domino fiche",
+    "domino fiche dcl",
+    "domino fiche de paie",
+    "domino fiche maternelle",
+    "domino fiche plate",
+    "domino fiche technique",
+    "domino formes géométriques maternelle à imprimer",
+    "domino fraction ce1",
+    "domino fraction ce2",
+    "domino fractions à imprimer",
+    "domino futur ce1",
+    "domino futur ce2",
+    "domino géant à imprimer",
+    "domino imparfait ce2",
+    "domino lecture ce1",
+    "domino maternelle objectif",
+    "domino maths ce1",
+    "domino multiplication ce1",
+    "domino multiplication à imprimer",
+    "domino numération ce1",
+    "domino numération ce2",
+    "domino synonymes ce1",
+    "domino vierge à imprimer",
+    "domino à imprimer gratuit",
+    "domino à imprimer maternelle",
+    "domino à imprimer pdf",
+    "dominos",
+    "dominos carte",
+    "dominos coupon",
+    "dominos coupon code",
+    "dominos cp",
+    "dominos cp delhi",
+    "dominos cp67",
+    "dominos electrique",
+    "dominos halal",
+    "dominos jeu",
+    "dominos maternelle",
+    "dominos maternelle à imprimer",
+    "dominos pizza",
+    "dominos pizza autour de moi",
+    "dominos pizza carte",
+    "dominos pizza halal",
+    "dominos pizza recrutement",
+    "dominos vouchers",
+    "dominos à compléter maternelle",
+    "dominos à imprimer",
+    "fiche domino duo",
+    "fiche domino electrique",
+    "fiche domino en anglais",
+    "fiche dominos",
+    "jeu des dominos maternelle"
+   ]
+  },
+  "human-body": {
+   "heads": [
+    "les parties du corps",
+    "le corps humain"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 118,
+   "suggestions": [
+    "anglais les parties du corps ce1 ce2",
+    "apprendre les parties du corps en anglais ce2",
+    "apprendre les parties du corps maternelle",
+    "cartes parties du corps à imprimer",
+    "corps humain à imprimer gratuitement",
+    "exercice les parties du corps maternelle",
+    "exercice sur le corps humain à imprimer",
+    "fiche le corps humain cp",
+    "fiche les parties du corps cp",
+    "fiche les parties du corps humain",
+    "fiche les parties du corps maternelle",
+    "fiche sur le corps humain à imprimer",
+    "fiche sur les parties du corps en anglais",
+    "fle le corps humain imprimer",
+    "jeux sur le corps humain à imprimer",
+    "jeux sur le corps humain à imprimer maternelle",
+    "le corps humain",
+    "le corps humain a combien d'os",
+    "le corps humain ce1",
+    "le corps humain ce1 ce2",
+    "le corps humain ce1 exercices",
+    "le corps humain ce1 lutin bazar",
+    "le corps humain ce1 maitre lucas",
+    "le corps humain ce1 pdf",
+    "le corps humain ce1 vidéo",
+    "le corps humain ce2",
+    "le corps humain ce2 cm1",
+    "le corps humain ce2 evaluation",
+    "le corps humain ce2 exercices",
+    "le corps humain ce2 lutin bazar",
+    "le corps humain ce2 pdf",
+    "le corps humain ce2 video",
+    "le corps humain comprend combien de parties",
+    "le corps humain contient combien de litres de sang",
+    "le corps humain cp",
+    "le corps humain cp ce1",
+    "le corps humain cp exercices",
+    "le corps humain cp lutin bazar",
+    "le corps humain cp maitre lucas",
+    "le corps humain cp pdf",
+    "le corps humain cp qlm",
+    "le corps humain cp séquence",
+    "le corps humain cp vidéo",
+    "le corps humain cp1",
+    "le corps humain en 3d",
+    "le corps humain en anglais",
+    "le corps humain en anglais à imprimer",
+    "le corps humain en détail",
+    "le corps humain femme",
+    "le corps humain fiche",
+    "le corps humain fiche gs",
+    "le corps humain fiche maternelle",
+    "le corps humain fiche pdf",
+    "le corps humain fiche pédagogique",
+    "le corps humain lecon ce2",
+    "le corps humain maternelle",
+    "le corps humain maternelle album",
+    "le corps humain maternelle fiche",
+    "le corps humain maternelle gs",
+    "le corps humain maternelle livre",
+    "le corps humain maternelle ms",
+    "le corps humain maternelle pdf",
+    "le corps humain maternelle petite section",
+    "le corps humain maternelle ps",
+    "le corps humain maternelle à imprimer",
+    "le corps humain organes",
+    "le corps humain organes femme",
+    "le corps humain à imprimer",
+    "les grandes parties du corps humain ce2",
+    "les parties du corps",
+    "les parties du corps anglais ce1 ce2",
+    "les parties du corps ce1",
+    "les parties du corps ce1 anglais",
+    "les parties du corps ce1 ce2",
+    "les parties du corps ce2",
+    "les parties du corps ce2 anglais",
+    "les parties du corps cp",
+    "les parties du corps cp anglais",
+    "les parties du corps cp ce1",
+    "les parties du corps cp evar",
+    "les parties du corps cycle 2",
+    "les parties du corps en allemand",
+    "les parties du corps en anglais",
+    "les parties du corps en anglais cp ce1",
+    "les parties du corps en espagnol",
+    "les parties du corps en français",
+    "les parties du corps fiche",
+    "les parties du corps fiche de travail",
+    "les parties du corps fiche fle",
+    "les parties du corps fiche pedagogique",
+    "les parties du corps gs cp",
+    "les parties du corps humain",
+    "les parties du corps humain ce1",
+    "les parties du corps humain ce1 exercices",
+    "les parties du corps humain ce2",
+    "les parties du corps humain cp",
+    "les parties du corps humain cp ce1",
+    "les parties du corps humain en anglais",
+    "les parties du corps humain en anglais pdf",
+    "les parties du corps humain fiche de travail",
+    "les parties du corps humain maternelle",
+    "les parties du corps humain pdf",
+    "les parties du corps humain à imprimer",
+    "les parties du corps maternelle",
+    "les parties du corps maternelle chanson",
+    "les parties du corps maternelle gs",
+    "les parties du corps maternelle pdf",
+    "les parties du corps maternelle ps",
+    "les parties du corps à imprimer",
+    "leçon le corps humain ce1",
+    "nommer les parties du corps cp",
+    "nommer les parties du corps maternelle",
+    "puzzle jeux sur le corps humain à imprimer",
+    "qlm le corps humain ce1",
+    "séquence le corps humain ce2",
+    "séquence les parties du corps anglais ce2",
+    "séquence les parties du corps cp",
+    "séquence les parties du corps maternelle"
+   ]
+  },
+  "five-senses": {
+   "heads": [
+    "les cinq sens",
+    "les 5 sens"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 79,
+   "suggestions": [
+    "evaluation les cinq sens cp",
+    "fiche les 5 sens cp",
+    "fiche les 5 sens gs",
+    "fiche pédagogique les 5 sens cp",
+    "fiche pédagogique les 5 sens maternelle",
+    "fiche vocabulaire les 5 sens",
+    "les 5 sens",
+    "les 5 sens anduze",
+    "les 5 sens cavaillon",
+    "les 5 sens ce1",
+    "les 5 sens ce1 ce2",
+    "les 5 sens ce1 evaluation",
+    "les 5 sens ce1 exercice",
+    "les 5 sens ce1 leçon",
+    "les 5 sens ce1 lutin bazar",
+    "les 5 sens ce1 pdf",
+    "les 5 sens ce2",
+    "les 5 sens ce2 cm1",
+    "les 5 sens ce2 exercices",
+    "les 5 sens ce2 pdf",
+    "les 5 sens cp",
+    "les 5 sens cp ce1",
+    "les 5 sens cp exercices",
+    "les 5 sens cp leçon",
+    "les 5 sens cp lutin bazar",
+    "les 5 sens cp pdf",
+    "les 5 sens de l'homme",
+    "les 5 sens du corps humain",
+    "les 5 sens en anglais ce1",
+    "les 5 sens fiche",
+    "les 5 sens fiche maternelle",
+    "les 5 sens fiche pédagogique",
+    "les 5 sens gs cp",
+    "les 5 sens humain",
+    "les 5 sens maternelle",
+    "les 5 sens maternelle activités",
+    "les 5 sens maternelle arts visuels",
+    "les 5 sens maternelle chanson",
+    "les 5 sens maternelle fiches",
+    "les 5 sens maternelle fiches pdf",
+    "les 5 sens maternelle gs",
+    "les 5 sens maternelle la vue",
+    "les 5 sens maternelle pdf",
+    "les 5 sens maternelle séquence",
+    "les 5 sens montalivet",
+    "les 5 sens toury",
+    "les 5 sens vaulx",
+    "les 5 sens à imprimer",
+    "les 5 sens évaluation ce2",
+    "les cinq sens",
+    "les cinq sens anduze",
+    "les cinq sens cavaillon",
+    "les cinq sens ce1",
+    "les cinq sens ce1 exercices",
+    "les cinq sens ce2",
+    "les cinq sens cp",
+    "les cinq sens cp ce1",
+    "les cinq sens cp exercices",
+    "les cinq sens cp fiche de préparation",
+    "les cinq sens cp pdf",
+    "les cinq sens de l'homme",
+    "les cinq sens dole",
+    "les cinq sens du corps humain",
+    "les cinq sens exercices cp pdf",
+    "les cinq sens exercices pdf ce1",
+    "les cinq sens exercices pdf ce2",
+    "les cinq sens le lavandou",
+    "les cinq sens marseillan",
+    "les cinq sens maternelle",
+    "les cinq sens maternelle video",
+    "les cinq sens montalivet",
+    "les cinq sens restaurant",
+    "leçon les 5 sens ce2",
+    "poesie les 5 sens ce2",
+    "poésie les cinq sens ce2",
+    "quiz sur les 5 sens à imprimer",
+    "séquence les 5 sens ce1",
+    "séquence les 5 sens cp",
+    "évaluation les 5 sens cp"
+   ]
+  },
+  "weather": {
+   "heads": [
+    "la météo",
+    "le temps qu'il fait"
+   ],
+   "requests": 14,
+   "productiveSeeds": 12,
+   "unique": 65,
+   "suggestions": [
+    "afficher la temperature cpu",
+    "anglais la météo ce1 ce2",
+    "apprendre la meteo maternelle",
+    "connaitre la temperature cpu",
+    "la fiche temperature",
+    "la meteo a imprimer",
+    "la meteo chanson maternelle",
+    "la meteo fiche de travail",
+    "la meteo fiche fle",
+    "la meteo fiche pedagogique",
+    "la meteo fiche pedagogique a1",
+    "la météo",
+    "la météo agricole",
+    "la météo alger",
+    "la météo anglais cp ce1",
+    "la météo aujourd'hui",
+    "la météo ce1",
+    "la météo ce1 anglais",
+    "la météo ce2",
+    "la météo ce2 anglais",
+    "la météo cp",
+    "la météo cp ce1",
+    "la météo d'aujourd'hui",
+    "la météo de demain",
+    "la météo des émotions cartes à imprimer",
+    "la météo des émotions maternelle",
+    "la météo des émotions à imprimer",
+    "la météo du comportement maternelle",
+    "la météo du comportement à imprimer",
+    "la météo en anglais ce1 ce2",
+    "la météo en anglais ce2 cm1",
+    "la météo en anglais maternelle",
+    "la météo en maternelle à imprimer",
+    "la météo exercices ce1",
+    "la météo fiche",
+    "la météo maternelle",
+    "la météo maternelle affichage",
+    "la météo pour demain",
+    "la météo pour la semaine prochaine",
+    "la météo tizi ouzou",
+    "la météo à paris",
+    "la météorologie ce1",
+    "la poutre du temps à imprimer",
+    "la température ce1",
+    "la température ce2",
+    "la température fiche technique",
+    "le temps qu il fait ce1",
+    "le temps qu il fait en anglais ce1",
+    "le temps qu il fait en anglais ce2",
+    "le temps qu il fait maternelle",
+    "le temps qu'il fait",
+    "le temps qu'il fait au canada",
+    "le temps qu'il fait aujourd'hui",
+    "le temps qu'il fait cp",
+    "le temps qu'il fait demain",
+    "le temps qu'il fait edition",
+    "le temps qu'il fait en anglais",
+    "le temps qu'il fait en france",
+    "le temps qu'il fait librairie",
+    "le temps qu'il fait à niamey",
+    "le temps qu'il fait à paris",
+    "rituel de la météo maternelle",
+    "roue de la météo maternelle",
+    "roue de la météo à imprimer",
+    "voir la temperature cpu"
+   ]
+  },
+  "tangram": {
+   "heads": [
+    "tangram",
+    "tangram à imprimer"
+   ],
+   "requests": 14,
+   "productiveSeeds": 13,
+   "unique": 64,
+   "suggestions": [
+    "atelier tangram ce1",
+    "atelier tangram ce2",
+    "atelier tangram cp",
+    "exercice tangram ce1",
+    "fiche tangram ce1",
+    "fiche tangram cp",
+    "fiche tangram mhm cp",
+    "fiche tangram totem",
+    "fiches tangram à imprimer",
+    "modèle tangram ce1",
+    "modèle tangram ce2",
+    "modèle tangram cp",
+    "tangram",
+    "tangram carré",
+    "tangram ce1",
+    "tangram ce1 ce2",
+    "tangram ce1 mhm",
+    "tangram ce1 à imprimer",
+    "tangram ce2",
+    "tangram ce2 mhm",
+    "tangram ce2 à imprimer",
+    "tangram cirque maternelle",
+    "tangram cma cgm",
+    "tangram cp",
+    "tangram cp autonomie",
+    "tangram cp ce1",
+    "tangram cp mhm",
+    "tangram cp pdf",
+    "tangram cp à imprimer",
+    "tangram cpop",
+    "tangram en bois",
+    "tangram evreux",
+    "tangram fiche",
+    "tangram fiche de suivi",
+    "tangram fiche gs",
+    "tangram fiche maternelle",
+    "tangram fiche ms",
+    "tangram jeu",
+    "tangram marseille",
+    "tangram maternelle",
+    "tangram maternelle compétence",
+    "tangram maternelle gs",
+    "tangram maternelle modele",
+    "tangram maternelle ms",
+    "tangram maternelle objectifs",
+    "tangram maternelle pdf",
+    "tangram maternelle ps",
+    "tangram maternelle à imprimer",
+    "tangram montessori",
+    "tangram puzzle",
+    "tangram à imprimer",
+    "tangram à imprimer a4",
+    "tangram à imprimer adulte",
+    "tangram à imprimer ce1",
+    "tangram à imprimer ce2",
+    "tangram à imprimer cm1",
+    "tangram à imprimer cp",
+    "tangram à imprimer enfant",
+    "tangram à imprimer gratuit",
+    "tangram à imprimer maternelle",
+    "tangram à imprimer noir",
+    "tangram à imprimer noir et blanc",
+    "tangram à imprimer pdf",
+    "tangram à imprimer taille réelle"
+   ]
+  },
+  "recycling": {
+   "heads": [
+    "tri des déchets",
+    "recyclage"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 104,
+   "suggestions": [
+    "activité tri des déchets maternelle",
+    "affiche tri des déchets maternelle",
+    "agent de tri des déchets fiche métier",
+    "album recyclage maternelle",
+    "art recyclage maternelle",
+    "atelier tri des déchets maternelle",
+    "bricolage recyclage maternelle",
+    "cartes jeu tri des déchets à imprimer",
+    "chanson recyclage maternelle",
+    "chanson tri des déchets maternelle",
+    "coloriage recyclage maternelle",
+    "cpa recyclage",
+    "cpr recyclage",
+    "evaluation recyclage ce1",
+    "exercice recyclage ce1",
+    "exercice tri des déchets cp",
+    "fiche pédagogique tri des déchets",
+    "fiche recyclage déchets",
+    "fiche recyclage maternelle",
+    "fiche technique tri des déchets",
+    "fiche tri des déchets cp",
+    "fiche tri des déchets cycle 2",
+    "gestion des déchets cpias",
+    "images tri des déchets maternelle",
+    "jeu recyclage maternelle",
+    "jeu recyclage à imprimer",
+    "jeu tri des déchets maternelle",
+    "jeu tri des déchets à imprimer",
+    "jeu tri des déchets à imprimer belgique",
+    "le recyclage des déchets ce1",
+    "leçon tri des déchets ce2",
+    "logo recyclage à imprimer",
+    "poubelle jeu tri des déchets à imprimer",
+    "projet recyclage maternelle",
+    "recyclage",
+    "recyclage bouteille plastique",
+    "recyclage bouteille plastique tarif autour de moi",
+    "recyclage canette",
+    "recyclage ce1",
+    "recyclage ce1 ce2",
+    "recyclage ce2",
+    "recyclage cp",
+    "recyclage cp ce1",
+    "recyclage cp2",
+    "recyclage cp250",
+    "recyclage cp3",
+    "recyclage cpap",
+    "recyclage cpt",
+    "recyclage de métaux liste de prix",
+    "recyclage des déchets ce2",
+    "recyclage des déchets cp",
+    "recyclage fiche",
+    "recyclage imprimer",
+    "recyclage jeu tri des déchets à imprimer",
+    "recyclage laval",
+    "recyclage maternelle",
+    "recyclage maternelle activité",
+    "recyclage metal",
+    "recyclage papier maternelle",
+    "recyclage quebec",
+    "recyclage sst",
+    "recyclage vetement",
+    "récupération cpas auprès des parents",
+    "récupération fiche de paie",
+    "récupération fiche google",
+    "symbole recyclage à imprimer",
+    "séquence recyclage ce1",
+    "séquence recyclage ce2",
+    "séquence tri des déchets ce1",
+    "séquence tri des déchets ce2",
+    "séquence tri des déchets cp",
+    "séquence tri des déchets maternelle",
+    "tri des déchets",
+    "tri des déchets allemagne",
+    "tri des déchets belgique",
+    "tri des déchets bruxelles",
+    "tri des déchets ce1",
+    "tri des déchets ce1 ce2",
+    "tri des déchets ce2",
+    "tri des déchets ce2 exercices",
+    "tri des déchets cp",
+    "tri des déchets cp ce1",
+    "tri des déchets cpias",
+    "tri des déchets en anglais",
+    "tri des déchets en france",
+    "tri des déchets en italie",
+    "tri des déchets exercices ce1",
+    "tri des déchets fiche",
+    "tri des déchets gs cp",
+    "tri des déchets hospitaliers",
+    "tri des déchets hospitaliers pdf",
+    "tri des déchets maternelle",
+    "tri des déchets maternelle fiche",
+    "tri des déchets poubelle jaune",
+    "tri et recyclage des déchets ce2",
+    "tri sélectif ce1",
+    "tri sélectif ce2",
+    "tri sélectif à imprimer",
+    "video tri des dechets cp",
+    "vidéo tri des déchets maternelle",
+    "évaluation recyclage ce2",
+    "évaluation tri des déchets ce1",
+    "évaluation tri des déchets ce2",
+    "évaluation tri des déchets cp"
+   ]
+  },
+  "odd-and-even": {
+   "heads": [
+    "pair impair",
+    "nombres pairs et impairs"
+   ],
+   "requests": 14,
+   "productiveSeeds": 11,
+   "unique": 50,
+   "suggestions": [
+    "affichage nombres pairs et impairs ce1",
+    "affichage pair impair ce1",
+    "affichage pair impair cp",
+    "evaluation pair impair ce1",
+    "evaluation pair impair ce2",
+    "exercice pair impair ce1",
+    "exercice pair impair ce2",
+    "exercice pair impair cp",
+    "exercices nombres pairs et impairs ce2 pdf",
+    "fiche nombres pairs et impairs",
+    "fiche pair impair",
+    "jeu pair impair ce1",
+    "leçon nombres pairs et impairs ce2",
+    "leçon nombres pairs et impairs cp",
+    "leçon pair impair ce1",
+    "leçon pair impair ce2",
+    "leçon pair impair cp",
+    "nombre pair et impair exercices pdf ce1",
+    "nombre pair et impair exercices pdf cp",
+    "nombre pair impair ce1",
+    "nombre pair impair ce2",
+    "nombre pair impair cp",
+    "nombres pairs et impairs",
+    "nombres pairs et impairs ce1",
+    "nombres pairs et impairs ce1 exercices",
+    "nombres pairs et impairs ce1 leçon",
+    "nombres pairs et impairs ce2",
+    "nombres pairs et impairs ce2 exercices",
+    "nombres pairs et impairs cp",
+    "nombres pairs et impairs cp exercices",
+    "nombres pairs et impairs en anglais",
+    "nombres pairs et impairs exercices",
+    "nombres pairs et impairs exercices à imprimer",
+    "pair impair",
+    "pair impair 2026",
+    "pair impair bridge",
+    "pair impair ce1",
+    "pair impair ce2",
+    "pair impair cp",
+    "pair impair en anglais",
+    "pair impair exercices",
+    "pair impair exercices ce1",
+    "pair impair film",
+    "pair impair semaine",
+    "pair impair stationnement",
+    "pair impair traduction",
+    "séquence nombres pairs et impairs ce2",
+    "trace écrite nombres pairs et impairs ce1",
+    "évaluation nombres pairs et impairs ce1",
+    "évaluation nombres pairs et impairs ce2"
+   ]
+  },
+  "rounding": {
+   "heads": [
+    "arrondir",
+    "arrondir à la dizaine"
+   ],
+   "requests": 14,
+   "productiveSeeds": 9,
+   "unique": 37,
+   "suggestions": [
+    "arrondi ce2",
+    "arrondi cp acquis",
+    "arrondi cp code du travail",
+    "arrondi cp en cas de départ",
+    "arrondi cp fin de période",
+    "arrondi cp jours ouvrés",
+    "arrondi cp solde de tout compte",
+    "arrondi fiche de paie",
+    "arrondir",
+    "arrondir au centième",
+    "arrondir au dixième",
+    "arrondir conjugaison",
+    "arrondir cp",
+    "arrondir en anglais",
+    "arrondir les angles",
+    "arrondir les fins de mois",
+    "arrondir ses fins de mois",
+    "arrondir ses fins de mois avec amazon",
+    "arrondir sur excel",
+    "arrondir un nombre ce1",
+    "arrondir un nombre ce2",
+    "arrondir un nombre exercices à imprimer",
+    "arrondir un nombre exercices à imprimer cm1",
+    "arrondir à la dizaine",
+    "arrondir à la dizaine ce1",
+    "arrondir à la dizaine de mille près",
+    "arrondir à la dizaine excel",
+    "arrondir à la dizaine la plus proche",
+    "arrondir à la dizaine la plus proche ce2",
+    "arrondir à la dizaine la plus proche excel",
+    "arrondir à la dizaine près",
+    "arrondir à la dizaine près exercice",
+    "arrondir à la dizaine près exercice pdf",
+    "arrondir à la dizaine supérieure",
+    "arrondir à la dizaine supérieure excel",
+    "exercice ce2 arrondir les nombres",
+    "fiche arrondir un nombre"
+   ]
+  },
+  "pronouns": {
+   "heads": [
+    "pronoms personnels",
+    "les pronoms"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 101,
+   "suggestions": [
+    "affichage pronoms personnels cp",
+    "evaluation pronoms personnels cp",
+    "exercices sur les pronoms 5ème à imprimer",
+    "exercices sur les pronoms cm2 à imprimer",
+    "exercices sur les pronoms personnels cm2 à imprimer",
+    "exercices sur les pronoms à imprimer",
+    "exercices sur les pronoms à imprimer 6eme",
+    "fiche pronoms personnels ce1",
+    "fiche pronoms personnels ce2",
+    "fiche pronoms personnels cp",
+    "les pronoms",
+    "les pronoms ce1",
+    "les pronoms ce1 ce2",
+    "les pronoms ce1 exercices",
+    "les pronoms ce2",
+    "les pronoms ce2 cm1",
+    "les pronoms ce2 exercices",
+    "les pronoms ce2 leçon",
+    "les pronoms cp",
+    "les pronoms cp exercices",
+    "les pronoms demonstratif",
+    "les pronoms en anglais",
+    "les pronoms fiche",
+    "les pronoms fiche crpe",
+    "les pronoms fiche de revision",
+    "les pronoms fiche pédagogique",
+    "les pronoms indéfinis",
+    "les pronoms personnels",
+    "les pronoms personnels ce1",
+    "les pronoms personnels ce1 bout de gomme",
+    "les pronoms personnels ce1 ce2",
+    "les pronoms personnels ce1 exercices",
+    "les pronoms personnels ce1 exercices pdf",
+    "les pronoms personnels ce1 exercices à imprimer",
+    "les pronoms personnels ce1 leçon",
+    "les pronoms personnels ce1 maitre lucas",
+    "les pronoms personnels ce2",
+    "les pronoms personnels ce2 evaluation",
+    "les pronoms personnels ce2 exercices",
+    "les pronoms personnels ce2 exercices pdf",
+    "les pronoms personnels ce2 leçon",
+    "les pronoms personnels ce2 leçon pdf",
+    "les pronoms personnels cod et coi exercices pdf",
+    "les pronoms personnels compléments",
+    "les pronoms personnels cp ce1",
+    "les pronoms personnels cp exercices pdf",
+    "les pronoms personnels en allemand",
+    "les pronoms personnels en anglais",
+    "les pronoms personnels en espagnol",
+    "les pronoms personnels exercices",
+    "les pronoms personnels exercices corrigés pdf",
+    "les pronoms personnels fiche",
+    "les pronoms personnels fiche de préparation",
+    "les pronoms personnels fiche pédagogique",
+    "les pronoms personnels maternelle",
+    "les pronoms personnels sujets",
+    "les pronoms personnels à imprimer",
+    "les pronoms possessifs",
+    "les pronoms possessifs fiche",
+    "les pronoms possessifs fiche pedagogique",
+    "les pronoms relatifs",
+    "les pronoms relatifs fiche de grammaire",
+    "pronom personnel ce2 evaluation",
+    "pronom personnel cp maitre lucas",
+    "pronom personnel cp pdf",
+    "pronom personnel maternelle",
+    "pronoms personnels",
+    "pronoms personnels allemand",
+    "pronoms personnels arabe",
+    "pronoms personnels ce1",
+    "pronoms personnels ce1 bout de gomme",
+    "pronoms personnels ce1 ce2",
+    "pronoms personnels ce1 exercices",
+    "pronoms personnels ce1 exercices pdf",
+    "pronoms personnels ce1 exercices pdf maître lucas",
+    "pronoms personnels ce1 leçon",
+    "pronoms personnels ce1 maitre lucas",
+    "pronoms personnels ce1 pdf",
+    "pronoms personnels ce1 évaluation",
+    "pronoms personnels ce2",
+    "pronoms personnels ce2 exercices",
+    "pronoms personnels ce2 exercices en ligne",
+    "pronoms personnels ce2 exercices pdf",
+    "pronoms personnels ce2 leçon",
+    "pronoms personnels ce2 pdf",
+    "pronoms personnels compléments",
+    "pronoms personnels cp",
+    "pronoms personnels cp exercices",
+    "pronoms personnels cp leçon",
+    "pronoms personnels en anglais",
+    "pronoms personnels espagnol",
+    "pronoms personnels fiche",
+    "pronoms personnels italien",
+    "pronoms personnels néerlandais",
+    "pronoms personnels sujets",
+    "pronoms personnels sujets ce2",
+    "pronoms personnels sujets cp",
+    "pronoms personnels sujets exercices",
+    "travailler les pronoms en maternelle",
+    "vidéo pronoms personnels ce2",
+    "étiquettes pronoms personnels à imprimer"
+   ]
+  },
+  "question-words": {
+   "heads": [
+    "mots interrogatifs",
+    "phrases interrogatives"
+   ],
+   "requests": 14,
+   "productiveSeeds": 9,
+   "unique": 43,
+   "suggestions": [
+    "exercices mots interrogatifs ce1",
+    "exercices mots interrogatifs ce2",
+    "exercices phrases interrogatives ce2 pdf",
+    "exercices phrases interrogatives cp",
+    "fiche mots interrogatifs anglais",
+    "les mots interrogatifs cp",
+    "les mots interrogatifs fiche",
+    "mots interrogatifs",
+    "mots interrogatifs ce1",
+    "mots interrogatifs ce2",
+    "mots interrogatifs en allemand",
+    "mots interrogatifs en anglais",
+    "mots interrogatifs en anglais pdf",
+    "mots interrogatifs en espagnol",
+    "mots interrogatifs en néerlandais",
+    "mots interrogatifs exercices",
+    "mots interrogatifs fle",
+    "mots interrogatifs français",
+    "mots interrogatifs wordwall",
+    "phrase interrogative ce1 bout de gomme",
+    "phrase interrogative ce1 evaluation",
+    "phrase interrogative ce1 exercices",
+    "phrase interrogative ce1 leçon",
+    "phrase interrogative ce1 maitre lucas",
+    "phrase interrogative ce1 pdf",
+    "phrase interrogative ce2 cm1",
+    "phrase interrogative ce2 evaluation",
+    "phrase interrogative ce2 leçon",
+    "phrase interrogative ce2 lutin bazar",
+    "phrases interrogatives",
+    "phrases interrogatives ce1",
+    "phrases interrogatives ce1 ce2",
+    "phrases interrogatives ce2",
+    "phrases interrogatives ce2 exercices",
+    "phrases interrogatives cm1",
+    "phrases interrogatives cm2",
+    "phrases interrogatives cp",
+    "phrases interrogatives en anglais",
+    "phrases interrogatives exercices",
+    "phrases interrogatives exercices pdf",
+    "phrases interrogatives indirectes",
+    "écrire des phrases interrogatives ce1",
+    "écrire des phrases interrogatives ce2"
+   ]
+  },
+  "cube-nets": {
+   "heads": [
+    "patron du cube",
+    "patrons de solides"
+   ],
+   "requests": 14,
+   "productiveSeeds": 12,
+   "unique": 44,
+   "suggestions": [
+    "exercices patrons de solides ce2",
+    "les 11 patrons du cube à imprimer",
+    "leçon patron du cube ce2",
+    "patron boîte cube à imprimer",
+    "patron cube bébé à imprimer",
+    "patron cube ce2 pdf",
+    "patron cube maternelle",
+    "patron cube minecraft à imprimer",
+    "patron cube à imprimer a3",
+    "patron cube à imprimer a4",
+    "patron cube à imprimer gratuit",
+    "patron cube à imprimer pdf",
+    "patron cube à imprimer word",
+    "patron du cube",
+    "patron du cube a imprimer",
+    "patron du cube avec languette",
+    "patron du cube ce1",
+    "patron du cube ce2",
+    "patron du cube cm",
+    "patron du cube cm1",
+    "patron du cube cm2",
+    "patron du cube cp",
+    "patron du cube et du pavé droit",
+    "patron du cube à imprimer",
+    "patron solides maternelle",
+    "patrons de solides",
+    "patrons de solides avec languettes à imprimer pdf",
+    "patrons de solides ce1",
+    "patrons de solides ce2",
+    "patrons de solides ce2 à imprimer",
+    "patrons de solides cm1",
+    "patrons de solides cm2",
+    "patrons de solides cp",
+    "patrons de solides à construire",
+    "patrons de solides à construire cm2",
+    "patrons de solides à découper",
+    "patrons de solides à imprimer",
+    "patrons de solides à imprimer cycle 2",
+    "patrons de solides à imprimer cycle 3",
+    "patrons de solides à imprimer pdf",
+    "patrons solides ce1 ce2",
+    "patrons solides ce2 pdf",
+    "patrons solides cm2 à imprimer",
+    "séance patron du cube ce2"
+   ]
+  },
+  "finger-counting": {
+   "heads": [
+    "compter sur les doigts",
+    "les doigts de la main"
+   ],
+   "requests": 14,
+   "productiveSeeds": 5,
+   "unique": 31,
+   "suggestions": [
+    "chanson les doigts de la main maternelle",
+    "comptage sur les doigts",
+    "compter avec les doigts maternelle",
+    "compter sur les doigts",
+    "compter sur les doigts de la main",
+    "compter sur les doigts de la main en anglais",
+    "compter sur les doigts de la main expression",
+    "compter sur les doigts en anglais",
+    "compter sur les doigts en binaire",
+    "compter sur les doigts en chine",
+    "compter sur les doigts en chinois",
+    "compter sur les doigts en japonais",
+    "constellation doigts de la main maternelle",
+    "les 5 doigts de la main maternelle",
+    "les doigts de la main",
+    "les doigts de la main cp",
+    "les doigts de la main creche",
+    "les doigts de la main en anglais",
+    "les doigts de la main en arabe",
+    "les doigts de la main en espagnol",
+    "les doigts de la main en français",
+    "les doigts de la main et leur nom",
+    "les doigts de la main maternelle",
+    "les doigts de la main nom",
+    "les doigts de la main qui font mal",
+    "les doigts de la main signification",
+    "numération avec les doigts de la main en maternelle",
+    "police doigts de la main maternelle",
+    "poésie doigts de la main cp",
+    "représentation doigts de la main maternelle",
+    "étiquettes doigts de la main maternelle"
+   ]
+  }
+ },
+ "suggestions": {
+  "texte à trous": {
+   "candidate": "cloze",
+   "s": [
+    "texte à trous",
+    "texte à trous - exercices pdf",
+    "texte à trous à imprimer",
+    "texte à trous humoristique",
+    "texte à trous pour adulte",
+    "texte à trous ce1",
+    "texte à trous ce1 à imprimer",
+    "texte à trous ce2",
+    "texte à trous cm1 pdf",
+    "texte à trous cp"
+   ]
+  },
+  "texte à trous à imprimer": {
+   "candidate": "cloze",
+   "s": [
+    "texte à trous à imprimer",
+    "dictée à trous à imprimer",
+    "dictée à trous à imprimer 3ème",
+    "dictée à trous à imprimer cp",
+    "texte à trous ce1 à imprimer",
+    "texte à trous cp à imprimer",
+    "texte à trous ce2 à imprimer",
+    "texte à trous cm2 à imprimer",
+    "texte à trous cm1 à imprimer",
+    "dictée à trous cm1 à imprimer"
+   ]
+  },
+  "texte à trous cp": {
+   "candidate": "cloze",
+   "s": [
+    "texte à trous cp",
+    "texte à trous cp à imprimer",
+    "texte à trou cp pdf",
+    "dictée à trous cp",
+    "phrases à trous cp",
+    "phrases à compléter cp",
+    "exercice texte à trous cp",
+    "exercice addition à trou cp",
+    "dictée à trous à imprimer cp",
+    "texte à trou à compléter cp"
+   ]
+  },
+  "texte à trous ce1": {
+   "candidate": "cloze",
+   "s": [
+    "texte à trous ce1",
+    "texte à trous ce1 à imprimer",
+    "texte à trous ce1 pdf",
+    "dictée à trous ce1",
+    "phrases à trous ce1",
+    "texte à compléter ce1",
+    "dictée à trous ce1 bout de gomme",
+    "lecture à trous ce1",
+    "dictée à trou ce1 pdf",
+    "phrases à compléter ce1"
+   ]
+  },
+  "texte à trous ce2": {
+   "candidate": "cloze",
+   "s": [
+    "texte à trous ce2",
+    "texte à trous ce2 pdf",
+    "texte à trous ce2 à imprimer",
+    "dictée à trous ce2",
+    "texte à compléter ce2",
+    "lecture à trous ce2",
+    "phrases à trous ce2",
+    "phrases à compléter ce2",
+    "dictée à trou ce2 pdf",
+    "lecture texte à trous ce2"
+   ]
+  },
+  "phrases à compléter": {
+   "candidate": "cloze",
+   "s": [
+    "phrases à compléter",
+    "phrases à compléter cp",
+    "phrases à compléter ce2",
+    "phrases à compléter psychologie",
+    "phrases à compléter ce1",
+    "phrase à compléter drôle",
+    "mots à compléter",
+    "phrase à compléter jeu",
+    "texte à compléter",
+    "phrase à compléter jeu couple"
+   ]
+  },
+  "dominos à imprimer": {
+   "candidate": "dominoes",
+   "s": [
+    "dominos à imprimer",
+    "domino à imprimer pdf",
+    "domino à imprimer maternelle",
+    "domino à imprimer gratuit",
+    "domino vierge à imprimer",
+    "domino fractions à imprimer",
+    "domino animaux à imprimer",
+    "domino cp à imprimer",
+    "domino géant à imprimer",
+    "domino multiplication à imprimer"
+   ]
+  },
+  "dominos à imprimer maternelle": {
+   "candidate": "dominoes",
+   "s": [
+    "domino à imprimer maternelle",
+    "domino formes géométriques maternelle à imprimer"
+   ]
+  },
+  "dominos à imprimer cp": {
+   "candidate": "dominoes",
+   "s": [
+    "domino cp à imprimer"
+   ]
+  },
+  "dominos": {
+   "candidate": "dominoes",
+   "s": [
+    "dominos pizza",
+    "dominos",
+    "dominos carte",
+    "dominos jeu",
+    "dominos electrique",
+    "dominos pizza halal",
+    "dominos halal",
+    "dominos pizza carte",
+    "dominos pizza recrutement",
+    "dominos pizza autour de moi"
+   ]
+  },
+  "dominos fiche": {
+   "candidate": "dominoes",
+   "s": [
+    "domino fiche",
+    "domino fiche plate",
+    "domino fiche de paie",
+    "domino fiche technique",
+    "domino fiche dcl",
+    "domino fiche maternelle",
+    "fiche domino electrique",
+    "fiche domino en anglais",
+    "fiche domino duo",
+    "fiche dominos"
+   ]
+  },
+  "dominos maternelle": {
+   "candidate": "dominoes",
+   "s": [
+    "dominos maternelle",
+    "dominos maternelle à imprimer",
+    "domino maternelle objectif",
+    "jeu des dominos maternelle",
+    "dominos à compléter maternelle"
+   ]
+  },
+  "dominos cp": {
+   "candidate": "dominoes",
+   "s": [
+    "dominos cp",
+    "dominos cp delhi",
+    "dominos coupon",
+    "dominos cp67",
+    "dominos coupon code",
+    "dominos vouchers",
+    "domino cp à imprimer",
+    "domino cp lecture",
+    "domino cp exercices",
+    "domino d'écriture cp"
+   ]
+  },
+  "dominos ce1": {
+   "candidate": "dominoes",
+   "s": [
+    "domino ce1",
+    "domino lecture ce1",
+    "domino numération ce1",
+    "domino fraction ce1",
+    "domino maths ce1",
+    "domino synonymes ce1",
+    "domino multiplication ce1",
+    "domino futur ce1",
+    "domino conjugaison ce1",
+    "domino des nombres ce1"
+   ]
+  },
+  "dominos ce2": {
+   "candidate": "dominoes",
+   "s": [
+    "domino ce2",
+    "domino numération ce2",
+    "domino conjugaison ce2",
+    "domino futur ce2",
+    "domino fraction ce2",
+    "domino imparfait ce2",
+    "domino des synonymes ce2",
+    "domino des contraires ce2"
+   ]
+  },
+  "les parties du corps": {
+   "candidate": "human-body",
+   "s": [
+    "les parties du corps humain",
+    "les parties du corps",
+    "les parties du corps humain en anglais",
+    "les parties du corps en anglais",
+    "les parties du corps humain en anglais pdf",
+    "les parties du corps en français",
+    "les parties du corps humain pdf",
+    "les parties du corps en espagnol",
+    "les parties du corps maternelle pdf",
+    "les parties du corps en allemand"
+   ]
+  },
+  "les parties du corps fiche": {
+   "candidate": "human-body",
+   "s": [
+    "les parties du corps fiche",
+    "les parties du corps fiche pedagogique",
+    "les parties du corps fiche fle",
+    "les parties du corps fiche de travail",
+    "fiche les parties du corps maternelle",
+    "fiche les parties du corps humain",
+    "fiche les parties du corps cp",
+    "fiche sur les parties du corps en anglais",
+    "les parties du corps humain fiche de travail"
+   ]
+  },
+  "les parties du corps à imprimer": {
+   "candidate": "human-body",
+   "s": [
+    "les parties du corps à imprimer",
+    "les parties du corps humain à imprimer",
+    "cartes parties du corps à imprimer"
+   ]
+  },
+  "les parties du corps maternelle": {
+   "candidate": "human-body",
+   "s": [
+    "les parties du corps maternelle pdf",
+    "les parties du corps maternelle",
+    "les parties du corps maternelle ps",
+    "les parties du corps maternelle chanson",
+    "les parties du corps maternelle gs",
+    "nommer les parties du corps maternelle",
+    "les parties du corps humain maternelle",
+    "exercice les parties du corps maternelle",
+    "apprendre les parties du corps maternelle",
+    "séquence les parties du corps maternelle"
+   ]
+  },
+  "les parties du corps cp": {
+   "candidate": "human-body",
+   "s": [
+    "les parties du corps cp",
+    "les parties du corps cp evar",
+    "les parties du corps cp ce1",
+    "les parties du corps cp anglais",
+    "les parties du corps cycle 2",
+    "les parties du corps humain cp",
+    "les parties du corps gs cp",
+    "séquence les parties du corps cp",
+    "nommer les parties du corps cp",
+    "les parties du corps humain cp ce1"
+   ]
+  },
+  "les parties du corps ce1": {
+   "candidate": "human-body",
+   "s": [
+    "les parties du corps ce1",
+    "les parties du corps ce1 anglais",
+    "les parties du corps ce1 ce2",
+    "les parties du corps humain ce1 exercices",
+    "les parties du corps cp ce1",
+    "les parties du corps humain ce1",
+    "anglais les parties du corps ce1 ce2",
+    "les parties du corps humain cp ce1",
+    "les parties du corps en anglais cp ce1"
+   ]
+  },
+  "les parties du corps ce2": {
+   "candidate": "human-body",
+   "s": [
+    "les parties du corps ce2",
+    "les parties du corps ce2 anglais",
+    "les parties du corps humain ce2",
+    "les parties du corps ce1 ce2",
+    "les parties du corps anglais ce1 ce2",
+    "les grandes parties du corps humain ce2",
+    "séquence les parties du corps anglais ce2",
+    "apprendre les parties du corps en anglais ce2"
+   ]
+  },
+  "le corps humain": {
+   "candidate": "human-body",
+   "s": [
+    "le corps humain",
+    "le corps humain en détail",
+    "le corps humain organes",
+    "le corps humain en 3d",
+    "le corps humain a combien d'os",
+    "le corps humain comprend combien de parties",
+    "le corps humain contient combien de litres de sang",
+    "le corps humain femme",
+    "le corps humain organes femme",
+    "le corps humain en anglais"
+   ]
+  },
+  "le corps humain fiche": {
+   "candidate": "human-body",
+   "s": [
+    "le corps humain fiche pdf",
+    "le corps humain fiche",
+    "le corps humain fiche pédagogique",
+    "le corps humain fiche maternelle",
+    "le corps humain fiche gs",
+    "fiche le corps humain cp",
+    "fiche sur le corps humain à imprimer"
+   ]
+  },
+  "le corps humain à imprimer": {
+   "candidate": "human-body",
+   "s": [
+    "le corps humain à imprimer",
+    "le corps humain maternelle à imprimer",
+    "jeux sur le corps humain à imprimer",
+    "exercice sur le corps humain à imprimer",
+    "le corps humain en anglais à imprimer",
+    "fiche sur le corps humain à imprimer",
+    "jeux sur le corps humain à imprimer maternelle",
+    "puzzle jeux sur le corps humain à imprimer",
+    "corps humain à imprimer gratuitement",
+    "fle le corps humain imprimer"
+   ]
+  },
+  "le corps humain maternelle": {
+   "candidate": "human-body",
+   "s": [
+    "le corps humain maternelle pdf",
+    "le corps humain maternelle",
+    "le corps humain maternelle petite section",
+    "le corps humain maternelle gs",
+    "le corps humain maternelle ms",
+    "le corps humain maternelle à imprimer",
+    "le corps humain maternelle album",
+    "le corps humain maternelle ps",
+    "le corps humain maternelle fiche",
+    "le corps humain maternelle livre"
+   ]
+  },
+  "le corps humain cp": {
+   "candidate": "human-body",
+   "s": [
+    "le corps humain cp",
+    "le corps humain cp pdf",
+    "le corps humain cp ce1",
+    "le corps humain cp exercices",
+    "le corps humain cp lutin bazar",
+    "le corps humain cp maitre lucas",
+    "le corps humain cp séquence",
+    "le corps humain cp vidéo",
+    "le corps humain cp qlm",
+    "le corps humain cp1"
+   ]
+  },
+  "le corps humain ce1": {
+   "candidate": "human-body",
+   "s": [
+    "le corps humain ce1",
+    "le corps humain ce1 ce2",
+    "le corps humain ce1 pdf",
+    "le corps humain ce1 lutin bazar",
+    "le corps humain ce1 vidéo",
+    "le corps humain ce1 exercices",
+    "le corps humain ce1 maitre lucas",
+    "le corps humain cp ce1",
+    "leçon le corps humain ce1",
+    "qlm le corps humain ce1"
+   ]
+  },
+  "le corps humain ce2": {
+   "candidate": "human-body",
+   "s": [
+    "le corps humain ce2",
+    "le corps humain ce2 evaluation",
+    "le corps humain ce2 pdf",
+    "le corps humain ce2 lutin bazar",
+    "le corps humain ce2 cm1",
+    "le corps humain ce2 exercices",
+    "le corps humain ce2 video",
+    "le corps humain ce1 ce2",
+    "le corps humain lecon ce2",
+    "séquence le corps humain ce2"
+   ]
+  },
+  "les cinq sens": {
+   "candidate": "five-senses",
+   "s": [
+    "les cinq sens",
+    "les cinq sens de l'homme",
+    "les cinq sens montalivet",
+    "les cinq sens le lavandou",
+    "les cinq sens cavaillon",
+    "les cinq sens du corps humain",
+    "les cinq sens anduze",
+    "les cinq sens restaurant",
+    "les cinq sens marseillan",
+    "les cinq sens dole"
+   ]
+  },
+  "les cinq sens fiche": {
+   "candidate": "five-senses",
+   "s": [
+    "les 5 sens fiche maternelle",
+    "les 5 sens fiche",
+    "les 5 sens fiche pédagogique",
+    "les cinq sens cp fiche de préparation",
+    "les 5 sens maternelle fiches pdf"
+   ]
+  },
+  "les cinq sens à imprimer": {
+   "candidate": "five-senses",
+   "s": [
+    "les 5 sens à imprimer",
+    "quiz sur les 5 sens à imprimer"
+   ]
+  },
+  "les cinq sens maternelle": {
+   "candidate": "five-senses",
+   "s": [
+    "les cinq sens maternelle",
+    "les cinq sens maternelle video",
+    "les 5 sens maternelle arts visuels",
+    "les 5 sens maternelle séquence",
+    "les 5 sens maternelle pdf",
+    "les 5 sens maternelle gs",
+    "les 5 sens maternelle fiches pdf",
+    "les 5 sens maternelle la vue",
+    "les 5 sens maternelle activités",
+    "les 5 sens maternelle chanson"
+   ]
+  },
+  "les cinq sens cp": {
+   "candidate": "five-senses",
+   "s": [
+    "les cinq sens cp",
+    "les cinq sens cp exercices",
+    "les cinq sens cp fiche de préparation",
+    "les cinq sens cp ce1",
+    "les cinq sens cp pdf",
+    "les 5 sens cp lutin bazar",
+    "les 5 sens cp leçon",
+    "les cinq sens exercices cp pdf",
+    "evaluation les cinq sens cp",
+    "les 5 sens gs cp"
+   ]
+  },
+  "les cinq sens ce1": {
+   "candidate": "five-senses",
+   "s": [
+    "les cinq sens ce1",
+    "les cinq sens ce1 exercices",
+    "les 5 sens ce1 lutin bazar",
+    "les 5 sens ce1 ce2",
+    "les 5 sens ce1 leçon",
+    "les 5 sens ce1 evaluation",
+    "les 5 sens ce1 pdf",
+    "les cinq sens cp ce1",
+    "les cinq sens exercices pdf ce1",
+    "séquence les 5 sens ce1"
+   ]
+  },
+  "les cinq sens ce2": {
+   "candidate": "five-senses",
+   "s": [
+    "les cinq sens ce2",
+    "les 5 sens ce2 cm1",
+    "les 5 sens ce2 exercices",
+    "les 5 sens ce2 pdf",
+    "poésie les cinq sens ce2",
+    "les cinq sens exercices pdf ce2",
+    "les 5 sens ce1 ce2",
+    "les 5 sens évaluation ce2",
+    "leçon les 5 sens ce2"
+   ]
+  },
+  "les 5 sens": {
+   "candidate": "five-senses",
+   "s": [
+    "les 5 sens",
+    "les 5 sens anduze",
+    "les 5 sens du corps humain",
+    "les 5 sens vaulx",
+    "les 5 sens de l'homme",
+    "les 5 sens montalivet",
+    "les 5 sens toury",
+    "les 5 sens maternelle",
+    "les 5 sens cavaillon",
+    "les 5 sens humain"
+   ]
+  },
+  "les 5 sens fiche": {
+   "candidate": "five-senses",
+   "s": [
+    "les 5 sens fiche maternelle",
+    "les 5 sens fiche",
+    "les 5 sens fiche pédagogique",
+    "les 5 sens maternelle fiches pdf",
+    "les cinq sens cp fiche de préparation",
+    "fiche les 5 sens cp",
+    "fiche les 5 sens gs",
+    "fiche pédagogique les 5 sens maternelle",
+    "fiche pédagogique les 5 sens cp",
+    "fiche vocabulaire les 5 sens"
+   ]
+  },
+  "les 5 sens à imprimer": {
+   "candidate": "five-senses",
+   "s": [
+    "les 5 sens à imprimer",
+    "quiz sur les 5 sens à imprimer"
+   ]
+  },
+  "les 5 sens maternelle": {
+   "candidate": "five-senses",
+   "s": [
+    "les 5 sens maternelle",
+    "les 5 sens maternelle séquence",
+    "les 5 sens maternelle arts visuels",
+    "les 5 sens maternelle pdf",
+    "les 5 sens maternelle gs",
+    "les 5 sens maternelle fiches pdf",
+    "les 5 sens maternelle la vue",
+    "les 5 sens maternelle activités",
+    "les 5 sens maternelle chanson",
+    "les 5 sens maternelle fiches"
+   ]
+  },
+  "les 5 sens cp": {
+   "candidate": "five-senses",
+   "s": [
+    "les 5 sens cp",
+    "les 5 sens cp ce1",
+    "les 5 sens cp lutin bazar",
+    "les 5 sens cp exercices",
+    "les 5 sens cp leçon",
+    "les 5 sens cp pdf",
+    "les cinq sens cp fiche de préparation",
+    "les 5 sens gs cp",
+    "séquence les 5 sens cp",
+    "évaluation les 5 sens cp"
+   ]
+  },
+  "les 5 sens ce1": {
+   "candidate": "five-senses",
+   "s": [
+    "les 5 sens ce1",
+    "les 5 sens ce1 lutin bazar",
+    "les 5 sens ce1 ce2",
+    "les 5 sens ce1 leçon",
+    "les 5 sens ce1 exercice",
+    "les 5 sens ce1 evaluation",
+    "les 5 sens ce1 pdf",
+    "les 5 sens cp ce1",
+    "séquence les 5 sens ce1",
+    "les 5 sens en anglais ce1"
+   ]
+  },
+  "les 5 sens ce2": {
+   "candidate": "five-senses",
+   "s": [
+    "les 5 sens ce2",
+    "les 5 sens ce2 cm1",
+    "les 5 sens ce2 exercices",
+    "les 5 sens ce2 pdf",
+    "les 5 sens ce1 ce2",
+    "poesie les 5 sens ce2",
+    "les 5 sens évaluation ce2",
+    "leçon les 5 sens ce2"
+   ]
+  },
+  "la météo": {
+   "candidate": "weather",
+   "s": [
+    "la météo d'aujourd'hui",
+    "la météo",
+    "la météo de demain",
+    "la météo pour demain",
+    "la météo aujourd'hui",
+    "la météo à paris",
+    "la météo agricole",
+    "la météo pour la semaine prochaine",
+    "la météo alger",
+    "la météo tizi ouzou"
+   ]
+  },
+  "la météo fiche": {
+   "candidate": "weather",
+   "s": [
+    "la meteo fiche pedagogique a1",
+    "la météo fiche",
+    "la meteo fiche fle",
+    "la meteo fiche de travail",
+    "la meteo fiche pedagogique",
+    "la température fiche technique",
+    "la fiche temperature"
+   ]
+  },
+  "la météo à imprimer": {
+   "candidate": "weather",
+   "s": [
+    "la météo des émotions à imprimer",
+    "roue de la météo à imprimer",
+    "la météo en maternelle à imprimer",
+    "la météo du comportement à imprimer",
+    "la meteo a imprimer",
+    "la poutre du temps à imprimer",
+    "la météo des émotions cartes à imprimer"
+   ]
+  },
+  "la météo maternelle": {
+   "candidate": "weather",
+   "s": [
+    "la météo maternelle",
+    "la météo maternelle affichage",
+    "la météo en maternelle à imprimer",
+    "la meteo chanson maternelle",
+    "apprendre la meteo maternelle",
+    "roue de la météo maternelle",
+    "la météo des émotions maternelle",
+    "la météo du comportement maternelle",
+    "la météo en anglais maternelle",
+    "rituel de la météo maternelle"
+   ]
+  },
+  "la météo cp": {
+   "candidate": "weather",
+   "s": [
+    "la météo cp",
+    "voir la temperature cpu",
+    "connaitre la temperature cpu",
+    "afficher la temperature cpu"
+   ]
+  },
+  "la météo ce1": {
+   "candidate": "weather",
+   "s": [
+    "la météo ce1",
+    "la météo ce1 anglais",
+    "la température ce1",
+    "la météorologie ce1",
+    "la météo cp ce1",
+    "la météo exercices ce1",
+    "anglais la météo ce1 ce2",
+    "la météo anglais cp ce1"
+   ]
+  },
+  "la météo ce2": {
+   "candidate": "weather",
+   "s": [
+    "la météo ce2",
+    "la météo ce2 anglais",
+    "la température ce2",
+    "la météo en anglais ce2 cm1",
+    "la météo en anglais ce1 ce2"
+   ]
+  },
+  "le temps qu'il fait": {
+   "candidate": "weather",
+   "s": [
+    "le temps qu'il fait",
+    "le temps qu'il fait aujourd'hui",
+    "le temps qu'il fait à paris",
+    "le temps qu'il fait edition",
+    "le temps qu'il fait en france",
+    "le temps qu'il fait demain",
+    "le temps qu'il fait à niamey",
+    "le temps qu'il fait librairie",
+    "le temps qu'il fait en anglais",
+    "le temps qu'il fait au canada"
+   ]
+  },
+  "le temps qu'il fait maternelle": {
+   "candidate": "weather",
+   "s": [
+    "le temps qu il fait maternelle"
+   ]
+  },
+  "le temps qu'il fait cp": {
+   "candidate": "weather",
+   "s": [
+    "le temps qu'il fait cp"
+   ]
+  },
+  "le temps qu'il fait ce1": {
+   "candidate": "weather",
+   "s": [
+    "le temps qu il fait ce1",
+    "le temps qu il fait en anglais ce1"
+   ]
+  },
+  "le temps qu'il fait ce2": {
+   "candidate": "weather",
+   "s": [
+    "le temps qu il fait en anglais ce2"
+   ]
+  },
+  "tangram": {
+   "candidate": "tangram",
+   "s": [
+    "tangram",
+    "tangram en bois",
+    "tangram jeu",
+    "tangram montessori",
+    "tangram marseille",
+    "tangram evreux",
+    "tangram cma cgm",
+    "tangram puzzle",
+    "tangram carré",
+    "tangram à imprimer pdf"
+   ]
+  },
+  "tangram fiche": {
+   "candidate": "tangram",
+   "s": [
+    "tangram fiche",
+    "tangram fiche maternelle",
+    "tangram fiche gs",
+    "tangram fiche de suivi",
+    "tangram fiche ms",
+    "fiches tangram à imprimer",
+    "fiche tangram cp",
+    "fiche tangram mhm cp",
+    "fiche tangram totem",
+    "fiche tangram ce1"
+   ]
+  },
+  "tangram à imprimer": {
+   "candidate": "tangram",
+   "s": [
+    "tangram à imprimer",
+    "tangram à imprimer pdf",
+    "tangram à imprimer adulte",
+    "tangram à imprimer taille réelle",
+    "tangram à imprimer a4",
+    "tangram à imprimer maternelle",
+    "tangram à imprimer noir et blanc",
+    "tangram à imprimer noir",
+    "tangram à imprimer cm1",
+    "tangram à imprimer gratuit"
+   ]
+  },
+  "tangram maternelle": {
+   "candidate": "tangram",
+   "s": [
+    "tangram maternelle",
+    "tangram maternelle à imprimer",
+    "tangram maternelle gs",
+    "tangram maternelle ms",
+    "tangram maternelle pdf",
+    "tangram maternelle ps",
+    "tangram maternelle modele",
+    "tangram maternelle compétence",
+    "tangram maternelle objectifs",
+    "tangram cirque maternelle"
+   ]
+  },
+  "tangram cp": {
+   "candidate": "tangram",
+   "s": [
+    "tangram cp",
+    "tangram cp ce1",
+    "tangram cp à imprimer",
+    "tangram cp mhm",
+    "tangram cp autonomie",
+    "tangram cp pdf",
+    "tangram cpop",
+    "modèle tangram cp",
+    "atelier tangram cp",
+    "fiche tangram cp"
+   ]
+  },
+  "tangram ce1": {
+   "candidate": "tangram",
+   "s": [
+    "tangram ce1",
+    "tangram ce1 à imprimer",
+    "tangram ce1 ce2",
+    "tangram ce1 mhm",
+    "tangram cp ce1",
+    "atelier tangram ce1",
+    "modèle tangram ce1",
+    "exercice tangram ce1",
+    "fiche tangram ce1"
+   ]
+  },
+  "tangram ce2": {
+   "candidate": "tangram",
+   "s": [
+    "tangram ce2",
+    "tangram ce2 à imprimer",
+    "tangram ce2 mhm",
+    "tangram ce1 ce2",
+    "modèle tangram ce2",
+    "atelier tangram ce2"
+   ]
+  },
+  "tangram à imprimer fiche": {
+   "candidate": "tangram",
+   "s": [
+    "fiches tangram à imprimer"
+   ]
+  },
+  "tangram à imprimer maternelle": {
+   "candidate": "tangram",
+   "s": [
+    "tangram à imprimer maternelle",
+    "tangram à imprimer enfant"
+   ]
+  },
+  "tangram à imprimer cp": {
+   "candidate": "tangram",
+   "s": [
+    "tangram à imprimer cp"
+   ]
+  },
+  "tangram à imprimer ce1": {
+   "candidate": "tangram",
+   "s": [
+    "tangram à imprimer ce1"
+   ]
+  },
+  "tangram à imprimer ce2": {
+   "candidate": "tangram",
+   "s": [
+    "tangram à imprimer ce2"
+   ]
+  },
+  "tri des déchets": {
+   "candidate": "recycling",
+   "s": [
+    "tri des déchets",
+    "tri des déchets poubelle jaune",
+    "tri des déchets hospitaliers pdf",
+    "tri des déchets belgique",
+    "tri des déchets en france",
+    "tri des déchets en anglais",
+    "tri des déchets bruxelles",
+    "tri des déchets hospitaliers",
+    "tri des déchets en italie",
+    "tri des déchets allemagne"
+   ]
+  },
+  "tri des déchets fiche": {
+   "candidate": "recycling",
+   "s": [
+    "tri des déchets fiche",
+    "tri des déchets maternelle fiche",
+    "agent de tri des déchets fiche métier",
+    "fiche tri des déchets cycle 2",
+    "fiche tri des déchets cp",
+    "fiche pédagogique tri des déchets",
+    "fiche technique tri des déchets"
+   ]
+  },
+  "tri des déchets à imprimer": {
+   "candidate": "recycling",
+   "s": [
+    "jeu tri des déchets à imprimer belgique",
+    "jeu tri des déchets à imprimer",
+    "poubelle jeu tri des déchets à imprimer",
+    "cartes jeu tri des déchets à imprimer",
+    "recyclage jeu tri des déchets à imprimer",
+    "tri sélectif à imprimer"
+   ]
+  },
+  "tri des déchets maternelle": {
+   "candidate": "recycling",
+   "s": [
+    "tri des déchets maternelle",
+    "tri des déchets maternelle fiche",
+    "jeu tri des déchets maternelle",
+    "vidéo tri des déchets maternelle",
+    "chanson tri des déchets maternelle",
+    "affiche tri des déchets maternelle",
+    "séquence tri des déchets maternelle",
+    "activité tri des déchets maternelle",
+    "atelier tri des déchets maternelle",
+    "images tri des déchets maternelle"
+   ]
+  },
+  "tri des déchets cp": {
+   "candidate": "recycling",
+   "s": [
+    "tri des déchets cp",
+    "tri des déchets cp ce1",
+    "tri des déchets cpias",
+    "gestion des déchets cpias",
+    "recyclage des déchets cp",
+    "exercice tri des déchets cp",
+    "évaluation tri des déchets cp",
+    "séquence tri des déchets cp",
+    "video tri des dechets cp",
+    "tri des déchets gs cp"
+   ]
+  },
+  "tri des déchets ce1": {
+   "candidate": "recycling",
+   "s": [
+    "tri des déchets ce1",
+    "tri des déchets ce1 ce2",
+    "évaluation tri des déchets ce1",
+    "tri des déchets cp ce1",
+    "tri des déchets exercices ce1",
+    "séquence tri des déchets ce1",
+    "le recyclage des déchets ce1",
+    "tri sélectif ce1"
+   ]
+  },
+  "tri des déchets ce2": {
+   "candidate": "recycling",
+   "s": [
+    "tri des déchets ce2",
+    "tri des déchets ce2 exercices",
+    "recyclage des déchets ce2",
+    "évaluation tri des déchets ce2",
+    "tri des déchets ce1 ce2",
+    "séquence tri des déchets ce2",
+    "leçon tri des déchets ce2",
+    "tri et recyclage des déchets ce2",
+    "tri sélectif ce2"
+   ]
+  },
+  "recyclage": {
+   "candidate": "recycling",
+   "s": [
+    "recyclage",
+    "recyclage vetement",
+    "recyclage bouteille plastique",
+    "recyclage quebec",
+    "recyclage bouteille plastique tarif autour de moi",
+    "recyclage metal",
+    "recyclage de métaux liste de prix",
+    "recyclage canette",
+    "recyclage sst",
+    "recyclage laval"
+   ]
+  },
+  "recyclage fiche": {
+   "candidate": "recycling",
+   "s": [
+    "recyclage fiche",
+    "fiche recyclage déchets",
+    "récupération fiche google",
+    "récupération fiche de paie",
+    "fiche recyclage maternelle"
+   ]
+  },
+  "recyclage à imprimer": {
+   "candidate": "recycling",
+   "s": [
+    "logo recyclage à imprimer",
+    "jeu recyclage à imprimer",
+    "symbole recyclage à imprimer",
+    "recyclage imprimer"
+   ]
+  },
+  "recyclage maternelle": {
+   "candidate": "recycling",
+   "s": [
+    "recyclage maternelle",
+    "recyclage maternelle activité",
+    "projet recyclage maternelle",
+    "chanson recyclage maternelle",
+    "jeu recyclage maternelle",
+    "album recyclage maternelle",
+    "coloriage recyclage maternelle",
+    "bricolage recyclage maternelle",
+    "art recyclage maternelle",
+    "recyclage papier maternelle"
+   ]
+  },
+  "recyclage cp": {
+   "candidate": "recycling",
+   "s": [
+    "recyclage cpt",
+    "recyclage cpap",
+    "recyclage cp",
+    "recyclage cp2",
+    "recyclage cp3",
+    "recyclage cp ce1",
+    "recyclage cp250",
+    "cpr recyclage",
+    "cpa recyclage",
+    "récupération cpas auprès des parents"
+   ]
+  },
+  "recyclage ce1": {
+   "candidate": "recycling",
+   "s": [
+    "recyclage ce1",
+    "recyclage ce1 ce2",
+    "recyclage cp ce1",
+    "evaluation recyclage ce1",
+    "séquence recyclage ce1",
+    "exercice recyclage ce1"
+   ]
+  },
+  "recyclage ce2": {
+   "candidate": "recycling",
+   "s": [
+    "recyclage ce2",
+    "évaluation recyclage ce2",
+    "recyclage ce1 ce2",
+    "séquence recyclage ce2",
+    "recyclage des déchets ce2"
+   ]
+  },
+  "pair impair": {
+   "candidate": "odd-and-even",
+   "s": [
+    "pair impair",
+    "pair impair en anglais",
+    "pair impair bridge",
+    "pair impair semaine",
+    "pair impair film",
+    "pair impair ce1",
+    "pair impair stationnement",
+    "pair impair 2026",
+    "pair impair cp",
+    "pair impair traduction"
+   ]
+  },
+  "pair impair fiche": {
+   "candidate": "odd-and-even",
+   "s": [
+    "pair impair exercices ce1",
+    "pair impair exercices",
+    "fiche pair impair"
+   ]
+  },
+  "pair impair cp": {
+   "candidate": "odd-and-even",
+   "s": [
+    "pair impair cp",
+    "leçon pair impair cp",
+    "affichage pair impair cp",
+    "exercice pair impair cp",
+    "nombre pair impair cp"
+   ]
+  },
+  "pair impair ce1": {
+   "candidate": "odd-and-even",
+   "s": [
+    "pair impair ce1",
+    "leçon pair impair ce1",
+    "exercice pair impair ce1",
+    "nombre pair impair ce1",
+    "affichage pair impair ce1",
+    "evaluation pair impair ce1",
+    "jeu pair impair ce1"
+   ]
+  },
+  "pair impair ce2": {
+   "candidate": "odd-and-even",
+   "s": [
+    "pair impair ce2",
+    "exercice pair impair ce2",
+    "leçon pair impair ce2",
+    "nombre pair impair ce2",
+    "evaluation pair impair ce2"
+   ]
+  },
+  "nombres pairs et impairs": {
+   "candidate": "odd-and-even",
+   "s": [
+    "nombres pairs et impairs",
+    "nombres pairs et impairs ce1",
+    "nombres pairs et impairs cp",
+    "nombres pairs et impairs exercices",
+    "nombres pairs et impairs exercices à imprimer",
+    "nombres pairs et impairs ce1 leçon",
+    "nombres pairs et impairs ce2",
+    "nombres pairs et impairs en anglais",
+    "nombres pairs et impairs cp exercices",
+    "nombres pairs et impairs ce1 exercices"
+   ]
+  },
+  "nombres pairs et impairs fiche": {
+   "candidate": "odd-and-even",
+   "s": [
+    "fiche nombres pairs et impairs"
+   ]
+  },
+  "nombres pairs et impairs à imprimer": {
+   "candidate": "odd-and-even",
+   "s": [
+    "nombres pairs et impairs exercices à imprimer"
+   ]
+  },
+  "nombres pairs et impairs cp": {
+   "candidate": "odd-and-even",
+   "s": [
+    "nombres pairs et impairs cp",
+    "nombres pairs et impairs cp exercices",
+    "leçon nombres pairs et impairs cp",
+    "nombre pair et impair exercices pdf cp"
+   ]
+  },
+  "nombres pairs et impairs ce1": {
+   "candidate": "odd-and-even",
+   "s": [
+    "nombres pairs et impairs ce1",
+    "nombres pairs et impairs ce1 leçon",
+    "nombres pairs et impairs ce1 exercices",
+    "affichage nombres pairs et impairs ce1",
+    "évaluation nombres pairs et impairs ce1",
+    "trace écrite nombres pairs et impairs ce1",
+    "nombre pair et impair exercices pdf ce1"
+   ]
+  },
+  "nombres pairs et impairs ce2": {
+   "candidate": "odd-and-even",
+   "s": [
+    "nombres pairs et impairs ce2",
+    "nombres pairs et impairs ce2 exercices",
+    "évaluation nombres pairs et impairs ce2",
+    "leçon nombres pairs et impairs ce2",
+    "exercices nombres pairs et impairs ce2 pdf",
+    "séquence nombres pairs et impairs ce2"
+   ]
+  },
+  "arrondir": {
+   "candidate": "rounding",
+   "s": [
+    "arrondir",
+    "arrondir ses fins de mois",
+    "arrondir les angles",
+    "arrondir au dixième",
+    "arrondir au centième",
+    "arrondir sur excel",
+    "arrondir les fins de mois",
+    "arrondir en anglais",
+    "arrondir conjugaison",
+    "arrondir ses fins de mois avec amazon"
+   ]
+  },
+  "arrondir fiche": {
+   "candidate": "rounding",
+   "s": [
+    "fiche arrondir un nombre",
+    "arrondi fiche de paie"
+   ]
+  },
+  "arrondir à imprimer": {
+   "candidate": "rounding",
+   "s": [
+    "arrondir un nombre exercices à imprimer",
+    "arrondir un nombre exercices à imprimer cm1"
+   ]
+  },
+  "arrondir cp": {
+   "candidate": "rounding",
+   "s": [
+    "arrondir cp",
+    "arrondi cp code du travail",
+    "arrondi cp solde de tout compte",
+    "arrondi cp fin de période",
+    "arrondi cp jours ouvrés",
+    "arrondi cp en cas de départ",
+    "arrondi cp acquis"
+   ]
+  },
+  "arrondir ce1": {
+   "candidate": "rounding",
+   "s": [
+    "arrondir un nombre ce1"
+   ]
+  },
+  "arrondir ce2": {
+   "candidate": "rounding",
+   "s": [
+    "arrondi ce2",
+    "arrondir un nombre ce2",
+    "exercice ce2 arrondir les nombres"
+   ]
+  },
+  "arrondir à la dizaine": {
+   "candidate": "rounding",
+   "s": [
+    "arrondir à la dizaine",
+    "arrondir à la dizaine près exercice",
+    "arrondir à la dizaine la plus proche",
+    "arrondir à la dizaine de mille près",
+    "arrondir à la dizaine la plus proche excel",
+    "arrondir à la dizaine près",
+    "arrondir à la dizaine près exercice pdf",
+    "arrondir à la dizaine supérieure excel",
+    "arrondir à la dizaine supérieure",
+    "arrondir à la dizaine excel"
+   ]
+  },
+  "arrondir à la dizaine ce1": {
+   "candidate": "rounding",
+   "s": [
+    "arrondir à la dizaine ce1"
+   ]
+  },
+  "arrondir à la dizaine ce2": {
+   "candidate": "rounding",
+   "s": [
+    "arrondir à la dizaine la plus proche ce2"
+   ]
+  },
+  "pronoms personnels": {
+   "candidate": "pronouns",
+   "s": [
+    "pronoms personnels",
+    "pronoms personnels en anglais",
+    "pronoms personnels sujets",
+    "pronoms personnels allemand",
+    "pronoms personnels compléments",
+    "pronoms personnels espagnol",
+    "pronoms personnels italien",
+    "pronoms personnels néerlandais",
+    "pronoms personnels sujets exercices",
+    "pronoms personnels arabe"
+   ]
+  },
+  "pronoms personnels fiche": {
+   "candidate": "pronouns",
+   "s": [
+    "pronoms personnels fiche",
+    "les pronoms personnels fiche de préparation",
+    "les pronoms personnels fiche pédagogique",
+    "fiche pronoms personnels ce1",
+    "fiche pronoms personnels ce2",
+    "fiche pronoms personnels cp"
+   ]
+  },
+  "pronoms personnels à imprimer": {
+   "candidate": "pronouns",
+   "s": [
+    "étiquettes pronoms personnels à imprimer",
+    "les pronoms personnels à imprimer",
+    "les pronoms personnels ce1 exercices à imprimer",
+    "exercices sur les pronoms personnels cm2 à imprimer"
+   ]
+  },
+  "pronoms personnels maternelle": {
+   "candidate": "pronouns",
+   "s": [
+    "pronom personnel maternelle"
+   ]
+  },
+  "pronoms personnels cp": {
+   "candidate": "pronouns",
+   "s": [
+    "pronoms personnels cp",
+    "pronoms personnels cp exercices",
+    "pronoms personnels cp leçon",
+    "pronom personnel cp pdf",
+    "pronom personnel cp maitre lucas",
+    "les pronoms personnels cp exercices pdf",
+    "pronoms personnels sujets cp",
+    "les pronoms personnels cp ce1",
+    "affichage pronoms personnels cp",
+    "evaluation pronoms personnels cp"
+   ]
+  },
+  "pronoms personnels ce1": {
+   "candidate": "pronouns",
+   "s": [
+    "pronoms personnels ce1",
+    "pronoms personnels ce1 exercices pdf",
+    "pronoms personnels ce1 exercices",
+    "pronoms personnels ce1 ce2",
+    "pronoms personnels ce1 leçon",
+    "pronoms personnels ce1 pdf",
+    "pronoms personnels ce1 évaluation",
+    "pronoms personnels ce1 exercices pdf maître lucas",
+    "pronoms personnels ce1 bout de gomme",
+    "pronoms personnels ce1 maitre lucas"
+   ]
+  },
+  "pronoms personnels ce2": {
+   "candidate": "pronouns",
+   "s": [
+    "pronoms personnels ce2",
+    "pronoms personnels ce2 exercices",
+    "pronoms personnels ce2 exercices en ligne",
+    "pronoms personnels ce2 exercices pdf",
+    "pronoms personnels ce2 leçon",
+    "pronoms personnels ce2 pdf",
+    "pronom personnel ce2 evaluation",
+    "vidéo pronoms personnels ce2",
+    "les pronoms personnels ce2 leçon pdf",
+    "pronoms personnels sujets ce2"
+   ]
+  },
+  "les pronoms": {
+   "candidate": "pronouns",
+   "s": [
+    "les pronoms personnels",
+    "les pronoms",
+    "les pronoms relatifs",
+    "les pronoms possessifs",
+    "les pronoms demonstratif",
+    "les pronoms personnels en anglais",
+    "les pronoms personnels sujets",
+    "les pronoms indéfinis",
+    "les pronoms en anglais",
+    "les pronoms personnels en allemand"
+   ]
+  },
+  "les pronoms fiche": {
+   "candidate": "pronouns",
+   "s": [
+    "les pronoms fiche",
+    "les pronoms fiche de revision",
+    "les pronoms fiche pédagogique",
+    "les pronoms fiche crpe",
+    "les pronoms personnels fiche de préparation",
+    "les pronoms personnels fiche",
+    "les pronoms possessifs fiche pedagogique",
+    "les pronoms personnels fiche pédagogique",
+    "les pronoms relatifs fiche de grammaire",
+    "les pronoms possessifs fiche"
+   ]
+  },
+  "les pronoms à imprimer": {
+   "candidate": "pronouns",
+   "s": [
+    "les pronoms personnels à imprimer",
+    "exercices sur les pronoms à imprimer",
+    "exercices sur les pronoms à imprimer 6eme",
+    "les pronoms personnels ce1 exercices à imprimer",
+    "exercices sur les pronoms 5ème à imprimer",
+    "exercices sur les pronoms cm2 à imprimer",
+    "exercices sur les pronoms personnels cm2 à imprimer"
+   ]
+  },
+  "les pronoms maternelle": {
+   "candidate": "pronouns",
+   "s": [
+    "les pronoms personnels maternelle",
+    "travailler les pronoms en maternelle"
+   ]
+  },
+  "les pronoms cp": {
+   "candidate": "pronouns",
+   "s": [
+    "les pronoms cp",
+    "les pronoms cp exercices",
+    "les pronoms personnels",
+    "les pronoms personnels sujets",
+    "les pronoms personnels en anglais",
+    "les pronoms personnels compléments",
+    "les pronoms personnels en espagnol",
+    "les pronoms personnels exercices corrigés pdf",
+    "les pronoms personnels exercices",
+    "les pronoms personnels cod et coi exercices pdf"
+   ]
+  },
+  "les pronoms ce1": {
+   "candidate": "pronouns",
+   "s": [
+    "les pronoms ce1",
+    "les pronoms ce1 exercices",
+    "les pronoms ce1 ce2",
+    "les pronoms personnels ce1",
+    "les pronoms personnels ce1 exercices",
+    "les pronoms personnels ce1 exercices pdf",
+    "les pronoms personnels ce1 leçon",
+    "les pronoms personnels ce1 ce2",
+    "les pronoms personnels ce1 bout de gomme",
+    "les pronoms personnels ce1 maitre lucas"
+   ]
+  },
+  "les pronoms ce2": {
+   "candidate": "pronouns",
+   "s": [
+    "les pronoms ce2",
+    "les pronoms ce2 exercices",
+    "les pronoms ce2 leçon",
+    "les pronoms ce2 cm1",
+    "les pronoms personnels ce2",
+    "les pronoms personnels ce2 exercices pdf",
+    "les pronoms personnels ce2 leçon pdf",
+    "les pronoms personnels ce2 exercices",
+    "les pronoms personnels ce2 leçon",
+    "les pronoms personnels ce2 evaluation"
+   ]
+  },
+  "mots interrogatifs": {
+   "candidate": "question-words",
+   "s": [
+    "mots interrogatifs en anglais",
+    "mots interrogatifs",
+    "mots interrogatifs en néerlandais",
+    "mots interrogatifs en allemand",
+    "mots interrogatifs en espagnol",
+    "mots interrogatifs français",
+    "mots interrogatifs fle",
+    "mots interrogatifs en anglais pdf",
+    "mots interrogatifs wordwall",
+    "mots interrogatifs exercices"
+   ]
+  },
+  "mots interrogatifs fiche": {
+   "candidate": "question-words",
+   "s": [
+    "les mots interrogatifs fiche",
+    "fiche mots interrogatifs anglais"
+   ]
+  },
+  "mots interrogatifs cp": {
+   "candidate": "question-words",
+   "s": [
+    "les mots interrogatifs cp"
+   ]
+  },
+  "mots interrogatifs ce1": {
+   "candidate": "question-words",
+   "s": [
+    "mots interrogatifs ce1",
+    "exercices mots interrogatifs ce1"
+   ]
+  },
+  "mots interrogatifs ce2": {
+   "candidate": "question-words",
+   "s": [
+    "mots interrogatifs ce2",
+    "exercices mots interrogatifs ce2"
+   ]
+  },
+  "phrases interrogatives": {
+   "candidate": "question-words",
+   "s": [
+    "phrases interrogatives",
+    "phrases interrogatives ce2",
+    "phrases interrogatives cm1",
+    "phrases interrogatives en anglais",
+    "phrases interrogatives exercices",
+    "phrases interrogatives indirectes",
+    "phrases interrogatives ce1",
+    "phrases interrogatives cm2",
+    "phrases interrogatives cp",
+    "phrases interrogatives exercices pdf"
+   ]
+  },
+  "phrases interrogatives cp": {
+   "candidate": "question-words",
+   "s": [
+    "phrases interrogatives cp",
+    "exercices phrases interrogatives cp"
+   ]
+  },
+  "phrases interrogatives ce1": {
+   "candidate": "question-words",
+   "s": [
+    "phrases interrogatives ce1",
+    "phrases interrogatives ce1 ce2",
+    "phrase interrogative ce1 exercices",
+    "phrase interrogative ce1 bout de gomme",
+    "phrase interrogative ce1 leçon",
+    "phrase interrogative ce1 evaluation",
+    "phrase interrogative ce1 pdf",
+    "phrase interrogative ce1 maitre lucas",
+    "écrire des phrases interrogatives ce1"
+   ]
+  },
+  "phrases interrogatives ce2": {
+   "candidate": "question-words",
+   "s": [
+    "phrases interrogatives ce2",
+    "phrases interrogatives ce2 exercices",
+    "phrase interrogative ce2 evaluation",
+    "phrase interrogative ce2 leçon",
+    "phrase interrogative ce2 cm1",
+    "phrase interrogative ce2 lutin bazar",
+    "exercices phrases interrogatives ce2 pdf",
+    "phrases interrogatives ce1 ce2",
+    "écrire des phrases interrogatives ce2"
+   ]
+  },
+  "patron du cube": {
+   "candidate": "cube-nets",
+   "s": [
+    "patron du cube",
+    "patron du cube ce2",
+    "patron du cube a imprimer",
+    "patron du cube cm2",
+    "patron du cube ce1",
+    "patron du cube cm1",
+    "patron du cube cp",
+    "patron du cube et du pavé droit",
+    "patron du cube cm",
+    "patron du cube avec languette"
+   ]
+  },
+  "patron du cube à imprimer": {
+   "candidate": "cube-nets",
+   "s": [
+    "patron du cube à imprimer",
+    "patron cube à imprimer gratuit",
+    "patron cube à imprimer a4",
+    "patron cube à imprimer pdf",
+    "patron cube à imprimer a3",
+    "patron cube à imprimer word",
+    "patron boîte cube à imprimer",
+    "les 11 patrons du cube à imprimer",
+    "patron cube minecraft à imprimer",
+    "patron cube bébé à imprimer"
+   ]
+  },
+  "patron du cube maternelle": {
+   "candidate": "cube-nets",
+   "s": [
+    "patron cube maternelle"
+   ]
+  },
+  "patron du cube cp": {
+   "candidate": "cube-nets",
+   "s": [
+    "patron du cube cp"
+   ]
+  },
+  "patron du cube ce1": {
+   "candidate": "cube-nets",
+   "s": [
+    "patron du cube ce1"
+   ]
+  },
+  "patron du cube ce2": {
+   "candidate": "cube-nets",
+   "s": [
+    "patron du cube ce2",
+    "leçon patron du cube ce2",
+    "séance patron du cube ce2",
+    "patron cube ce2 pdf"
+   ]
+  },
+  "patrons de solides": {
+   "candidate": "cube-nets",
+   "s": [
+    "patrons de solides",
+    "patrons de solides à imprimer pdf",
+    "patrons de solides à construire",
+    "patrons de solides à imprimer cycle 3",
+    "patrons de solides à imprimer",
+    "patrons de solides cm2",
+    "patrons de solides avec languettes à imprimer pdf",
+    "patrons de solides cm1",
+    "patrons de solides ce2",
+    "patrons de solides ce1"
+   ]
+  },
+  "patrons de solides à imprimer": {
+   "candidate": "cube-nets",
+   "s": [
+    "patrons de solides à imprimer pdf",
+    "patrons de solides à imprimer cycle 3",
+    "patrons de solides à imprimer",
+    "patrons de solides à imprimer cycle 2",
+    "patrons de solides ce2 à imprimer",
+    "patrons de solides à construire",
+    "patrons de solides à construire cm2",
+    "patrons de solides à découper",
+    "patrons de solides avec languettes à imprimer pdf",
+    "patrons solides cm2 à imprimer"
+   ]
+  },
+  "patrons de solides maternelle": {
+   "candidate": "cube-nets",
+   "s": [
+    "patron solides maternelle"
+   ]
+  },
+  "patrons de solides cp": {
+   "candidate": "cube-nets",
+   "s": [
+    "patrons de solides cp"
+   ]
+  },
+  "patrons de solides ce1": {
+   "candidate": "cube-nets",
+   "s": [
+    "patrons de solides ce1",
+    "patrons solides ce1 ce2"
+   ]
+  },
+  "patrons de solides ce2": {
+   "candidate": "cube-nets",
+   "s": [
+    "patrons de solides ce2",
+    "patrons de solides ce2 à imprimer",
+    "exercices patrons de solides ce2",
+    "patrons solides ce2 pdf"
+   ]
+  },
+  "compter sur les doigts": {
+   "candidate": "finger-counting",
+   "s": [
+    "compter sur les doigts en chinois",
+    "compter sur les doigts",
+    "compter sur les doigts de la main",
+    "compter sur les doigts en chine",
+    "compter sur les doigts de la main expression",
+    "compter sur les doigts de la main en anglais",
+    "compter sur les doigts en japonais",
+    "compter sur les doigts en anglais",
+    "compter sur les doigts en binaire",
+    "comptage sur les doigts"
+   ]
+  },
+  "compter sur les doigts maternelle": {
+   "candidate": "finger-counting",
+   "s": [
+    "compter avec les doigts maternelle"
+   ]
+  },
+  "les doigts de la main": {
+   "candidate": "finger-counting",
+   "s": [
+    "les doigts de la main",
+    "les doigts de la main en anglais",
+    "les doigts de la main en français",
+    "les doigts de la main nom",
+    "les doigts de la main et leur nom",
+    "les doigts de la main signification",
+    "les doigts de la main en arabe",
+    "les doigts de la main en espagnol",
+    "les doigts de la main qui font mal",
+    "les doigts de la main creche"
+   ]
+  },
+  "les doigts de la main maternelle": {
+   "candidate": "finger-counting",
+   "s": [
+    "les doigts de la main maternelle",
+    "chanson les doigts de la main maternelle",
+    "les 5 doigts de la main maternelle",
+    "numération avec les doigts de la main en maternelle",
+    "représentation doigts de la main maternelle",
+    "étiquettes doigts de la main maternelle",
+    "police doigts de la main maternelle",
+    "constellation doigts de la main maternelle"
+   ]
+  },
+  "les doigts de la main cp": {
+   "candidate": "finger-counting",
+   "s": [
+    "les doigts de la main cp",
+    "poésie doigts de la main cp"
+   ]
+  }
+ }
+}

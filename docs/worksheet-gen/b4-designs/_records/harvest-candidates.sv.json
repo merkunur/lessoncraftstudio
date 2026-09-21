@@ -1,0 +1,1129 @@
+{
+ "locale": "sv",
+ "market": {
+  "hl": "sv",
+  "gl": "se"
+ },
+ "generatedAt": "2026-09-21T00:23:33.345Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds.json",
+ "requestCount": 182,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cloze": {
+   "heads": [
+    "lucktext",
+    "fyll i ordet"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 8,
+   "suggestions": [
+    "elevspel lucktext",
+    "fyll i ordet",
+    "lucktext",
+    "lucktext adjektiv",
+    "lucktext engelska",
+    "lucktext engelska läsförståelse",
+    "lucktext svenska",
+    "skapa lucktext"
+   ]
+  },
+  "dominoes": {
+   "heads": [
+    "domino",
+    "domino mall"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 20,
+   "suggestions": [
+    "domino",
+    "domino falköping",
+    "domino mall",
+    "domino mall plaza egaña",
+    "domino mall plaza los dominicos",
+    "domino mall plaza norte",
+    "domino mall plaza vespucio",
+    "domino mall tobalaba",
+    "domino mall trebol",
+    "domino's mall at marathon",
+    "domino's mallorca",
+    "dominos",
+    "dominos eriksberg",
+    "dominos frölunda",
+    "dominos göteborg",
+    "dominos johanneberg",
+    "dominos mall plaza sur",
+    "dominos pizza",
+    "dominos sverige",
+    "dominos uppsala"
+   ]
+  },
+  "human-body": {
+   "heads": [
+    "kroppsdelar",
+    "kroppen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 53,
+   "suggestions": [
+    "arbeta med kroppen åk 2",
+    "arbeta med kroppen åk 3",
+    "bilduppgift kroppen åk 2",
+    "bilduppgift kroppen åk 3",
+    "film om kroppen åk 3",
+    "kropp att skriva ut",
+    "kroppen",
+    "kroppen arbetsblad",
+    "kroppen arbetsblad åk 1",
+    "kroppen engelska åk 2",
+    "kroppen förskoleklass",
+    "kroppen håller räkningen",
+    "kroppen kan själv",
+    "kroppen åk 1",
+    "kroppen åk 2",
+    "kroppen åk 3",
+    "kroppen årskurs 1",
+    "kroppen årskurs 3",
+    "kroppens anatomi",
+    "kroppens muskler",
+    "kroppens organ",
+    "kroppens organ kvinna",
+    "kroppens organ placering",
+    "kroppens organ svenska",
+    "kroppens största organ",
+    "kroppsdelar",
+    "kroppsdelar anatomi",
+    "kroppsdelar arbetsblad",
+    "kroppsdelar engelska arbetsblad",
+    "kroppsdelar magen",
+    "kroppsdelar namn",
+    "kroppsdelar på engelska",
+    "kroppsdelar på franska",
+    "kroppsdelar på latin",
+    "kroppsdelar på spanska",
+    "kroppsdelar på svenska",
+    "kroppsdelar skriva ut",
+    "kroppsdelar synonym",
+    "kroppsdelar åk 1",
+    "kroppsdelar åk 3",
+    "människokroppen arbetsblad",
+    "människokroppen åk 2",
+    "människokroppen åk 3",
+    "no kroppen åk 2",
+    "no kroppen åk 3",
+    "planering kroppen åk 2",
+    "planering kroppen åk 3",
+    "prov kroppen åk 3",
+    "tema kroppen förskoleklass",
+    "tema kroppen åk 1",
+    "tema kroppen åk 2",
+    "tema kroppen åk 3",
+    "wordwall kroppen åk 2"
+   ]
+  },
+  "five-senses": {
+   "heads": [
+    "de fem sinnena",
+    "våra sinnen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 6,
+   "unique": 19,
+   "suggestions": [
+    "de fem sinnena",
+    "de fem sinnena för barn",
+    "de fem sinnena på engelska",
+    "de fem sinnenas sång",
+    "ett av de fem sinnena",
+    "ett av de fem sinnena korsord",
+    "vilka är de fem sinnena",
+    "våra sinnen",
+    "våra sinnen arbetsblad",
+    "våra sinnen barn",
+    "våra sinnen film",
+    "våra sinnen film barn",
+    "våra sinnen förskola",
+    "våra sinnen smak",
+    "våra sinnen ur",
+    "våra sinnen åk 1",
+    "våra sinnen åk 2",
+    "våra sinnen åk 3",
+    "våra sinnen åk 5"
+   ]
+  },
+  "weather": {
+   "heads": [
+    "vädret",
+    "vädersymboler"
+   ],
+   "requests": 14,
+   "productiveSeeds": 5,
+   "unique": 23,
+   "suggestions": [
+    "väder arbetsblad",
+    "väder åkersberga 10 dagar",
+    "väder åkersberga 25 dagar",
+    "vädersymboler",
+    "vädersymboler betydelse",
+    "vädersymboler blåst",
+    "vädersymboler dimma",
+    "vädersymboler iphone",
+    "vädersymboler klart",
+    "vädersymboler på tv4",
+    "vädersymboler smhi",
+    "vädersymboler vind",
+    "vädret",
+    "vädret borås",
+    "vädret göteborg",
+    "vädret idag",
+    "vädret lidköping",
+    "vädret skövde",
+    "vädret stockholm",
+    "vädret trollhättan",
+    "vädret uddevalla",
+    "vädret varberg",
+    "vädret åkersberga 14 dagar"
+   ]
+  },
+  "tangram": {
+   "heads": [
+    "tangram",
+    "tangram mall"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 21,
+   "suggestions": [
+    "tangram",
+    "tangram att skriva ut",
+    "tangram figurer",
+    "tangram figurer att skriva ut",
+    "tangram heightmapper",
+    "tangram kvadrat",
+    "tangram mall",
+    "tangram mall att skriva ut",
+    "tangram mall flushing",
+    "tangram mall food court",
+    "tangram mall movie",
+    "tangram mall parking",
+    "tangram mall queens",
+    "tangram mall regal",
+    "tangram mall restaurants",
+    "tangram mall stores",
+    "tangram pussel",
+    "tangram pussel att skriva ut",
+    "tangram puzzle",
+    "tangram skriva ut",
+    "tangram uppgifter"
+   ]
+  },
+  "recycling": {
+   "heads": [
+    "källsortering",
+    "sopsortering"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 38,
+   "suggestions": [
+    "källsortering",
+    "källsortering arbetsblad",
+    "källsortering bilder att skriva ut",
+    "källsortering bilder att skriva ut gratis",
+    "källsortering biltema",
+    "källsortering hemma",
+    "källsortering ikea",
+    "källsortering jysk",
+    "källsortering rusta",
+    "källsortering skyltar skriv ut",
+    "källsortering symboler skriva ut",
+    "källsortering under diskbänk ikea",
+    "källsortering under diskbänk utdragbar",
+    "källsortering åk 1",
+    "källsortering åk 2",
+    "källsorteringskärl",
+    "källsorteringspåsar",
+    "skriva ut källsortering bilder barn",
+    "sopsortering",
+    "sopsortering arbetsblad",
+    "sopsortering borås",
+    "sopsortering förskoleklass",
+    "sopsortering göteborg",
+    "sopsortering hemma",
+    "sopsortering ikea",
+    "sopsortering lilla edet",
+    "sopsortering marks kommun",
+    "sopsortering skriva ut",
+    "sopsortering under diskbänk",
+    "sopsortering åk 1",
+    "sopsorteringskärl",
+    "sopsorteringskärl ikea",
+    "sortering förskoleklass",
+    "återvinning arbetsblad",
+    "återvinning förskoleklass",
+    "återvinning åk 1",
+    "återvinning åk 2",
+    "återvinning åk 3"
+   ]
+  },
+  "odd-and-even": {
+   "heads": [
+    "udda och jämna tal",
+    "udda jämna"
+   ],
+   "requests": 14,
+   "productiveSeeds": 8,
+   "unique": 21,
+   "suggestions": [
+    "udda jämna",
+    "udda jämna datumparkering",
+    "udda jämna funktioner",
+    "udda jämna husnummer parkering",
+    "udda jämna parkering",
+    "udda jämna tal",
+    "udda jämna tal arbetsblad",
+    "udda jämna tal förskoleklass",
+    "udda jämna veckor",
+    "udda jämna veckor 2025",
+    "udda jämna veckor 2026",
+    "udda och jämna siffror",
+    "udda och jämna tal",
+    "udda och jämna tal arbetsblad",
+    "udda och jämna tal engelska",
+    "udda och jämna tal film",
+    "udda och jämna tal förskoleklass",
+    "udda och jämna tal mattelandet",
+    "udda och jämna tal skolplus",
+    "udda och jämna tal spel",
+    "udda och jämna tal åk 1"
+   ]
+  },
+  "rounding": {
+   "heads": [
+    "avrundning",
+    "avrunda"
+   ],
+   "requests": 14,
+   "productiveSeeds": 6,
+   "unique": 24,
+   "suggestions": [
+    "avrunda",
+    "avrunda arbetsblad",
+    "avrunda engelska",
+    "avrunda i excel",
+    "avrunda korsord",
+    "avrunda synonym",
+    "avrunda tal arbetsblad",
+    "avrunda uppåt excel",
+    "avrundas inte",
+    "avrundas inte korsord",
+    "avrundat",
+    "avrundat tecken",
+    "avrundning",
+    "avrundning arbetsblad",
+    "avrundning engelska",
+    "avrundning korsord",
+    "avrundning synonym",
+    "avrundning åk 3",
+    "avrundningsfräs",
+    "avrundningsfräs 6mm",
+    "avrundningsfräs r2",
+    "avrundningsfräs r20",
+    "avrundningsfräs r3",
+    "avrundningsregler"
+   ]
+  },
+  "pronouns": {
+   "heads": [
+    "pronomen",
+    "personliga pronomen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 21,
+   "suggestions": [
+    "personliga pronomen",
+    "personliga pronomen engelska",
+    "personliga pronomen franska",
+    "personliga pronomen grekiska",
+    "personliga pronomen italienska",
+    "personliga pronomen objektsform",
+    "personliga pronomen ryska",
+    "personliga pronomen spanska",
+    "personliga pronomen svenska",
+    "personliga pronomen tyska",
+    "pronomen",
+    "pronomen 2 bokstäver",
+    "pronomen 3 bokstäver",
+    "pronomen arbetsblad",
+    "pronomen i slöjden",
+    "pronomen korsord",
+    "pronomen korsord 2 bokstäver",
+    "pronomen korsord 3 bokstäver",
+    "pronomen korsord 4 bokstäver",
+    "pronomen som som",
+    "pronomen som som korsord"
+   ]
+  },
+  "question-words": {
+   "heads": [
+    "frågeord",
+    "frågeord övningar"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 16,
+   "suggestions": [
+    "frågeord",
+    "frågeord 4 bokstäver",
+    "frågeord 4 bokstäver korsord",
+    "frågeord engelska",
+    "frågeord engelska arbetsblad",
+    "frågeord engelska övningar",
+    "frågeord franska",
+    "frågeord franska övningar",
+    "frågeord korsord",
+    "frågeord sfi",
+    "frågeord spanska",
+    "frågeord spanska övningar",
+    "frågeord svenska",
+    "frågeord svenska övningar",
+    "frågeord tyska",
+    "frågeord övningar"
+   ]
+  },
+  "cube-nets": {
+   "heads": [
+    "kubens nät",
+    "kub mall"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 8,
+   "suggestions": [
+    "kub mall",
+    "kub nät",
+    "kub rio mall",
+    "kub zity mall",
+    "kuba mallorca",
+    "kuber mall varanasi",
+    "kuber mallu",
+    "vika kub mall"
+   ]
+  },
+  "finger-counting": {
+   "heads": [
+    "fingertal",
+    "räkna på fingrarna"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 11,
+   "suggestions": [
+    "deaf fingertalk",
+    "fingertalk",
+    "fingertalk app",
+    "fingertalk cafe",
+    "fingertalk exhibition",
+    "fingertalk london",
+    "fingertalk wellcome collection",
+    "räkna multiplikation på fingrarna",
+    "räkna på fingrarna",
+    "räkna på fingrarna kina",
+    "triumph fingertalkin"
+   ]
+  }
+ },
+ "suggestions": {
+  "lucktext": {
+   "candidate": "cloze",
+   "s": [
+    "lucktext",
+    "lucktext engelska",
+    "lucktext svenska",
+    "lucktext adjektiv",
+    "lucktext engelska läsförståelse",
+    "elevspel lucktext",
+    "skapa lucktext"
+   ]
+  },
+  "fyll i ordet": {
+   "candidate": "cloze",
+   "s": [
+    "fyll i ordet"
+   ]
+  },
+  "domino": {
+   "candidate": "dominoes",
+   "s": [
+    "dominos pizza",
+    "dominos",
+    "dominos sverige",
+    "domino",
+    "domino falköping",
+    "dominos göteborg",
+    "dominos frölunda",
+    "dominos eriksberg",
+    "dominos uppsala",
+    "dominos johanneberg"
+   ]
+  },
+  "domino mall": {
+   "candidate": "dominoes",
+   "s": [
+    "domino mall",
+    "domino mall plaza egaña",
+    "domino mall plaza los dominicos",
+    "domino's mallorca",
+    "dominos mall plaza sur",
+    "domino's mall at marathon",
+    "domino mall trebol",
+    "domino mall tobalaba",
+    "domino mall plaza vespucio",
+    "domino mall plaza norte"
+   ]
+  },
+  "kroppsdelar": {
+   "candidate": "human-body",
+   "s": [
+    "kroppsdelar",
+    "kroppsdelar namn",
+    "kroppsdelar på spanska",
+    "kroppsdelar på svenska",
+    "kroppsdelar på latin",
+    "kroppsdelar på engelska",
+    "kroppsdelar anatomi",
+    "kroppsdelar synonym",
+    "kroppsdelar magen",
+    "kroppsdelar på franska"
+   ]
+  },
+  "kroppsdelar arbetsblad": {
+   "candidate": "human-body",
+   "s": [
+    "kroppsdelar arbetsblad",
+    "kroppen arbetsblad",
+    "kroppen arbetsblad åk 1",
+    "människokroppen arbetsblad",
+    "kroppsdelar engelska arbetsblad"
+   ]
+  },
+  "kroppsdelar skriva ut": {
+   "candidate": "human-body",
+   "s": [
+    "kroppsdelar skriva ut"
+   ]
+  },
+  "kroppsdelar förskoleklass": {
+   "candidate": "human-body",
+   "s": [
+    "kroppen förskoleklass"
+   ]
+  },
+  "kroppsdelar åk 1": {
+   "candidate": "human-body",
+   "s": [
+    "kroppsdelar åk 1",
+    "kroppen åk 1",
+    "kroppen årskurs 1",
+    "tema kroppen åk 1",
+    "kroppen arbetsblad åk 1"
+   ]
+  },
+  "kroppsdelar åk 2": {
+   "candidate": "human-body",
+   "s": [
+    "kroppen åk 2",
+    "människokroppen åk 2",
+    "planering kroppen åk 2",
+    "tema kroppen åk 2",
+    "bilduppgift kroppen åk 2",
+    "no kroppen åk 2",
+    "kroppen engelska åk 2",
+    "wordwall kroppen åk 2"
+   ]
+  },
+  "kroppsdelar åk 3": {
+   "candidate": "human-body",
+   "s": [
+    "kroppsdelar åk 3",
+    "kroppen åk 3",
+    "människokroppen åk 3",
+    "kroppen årskurs 3",
+    "tema kroppen åk 3",
+    "bilduppgift kroppen åk 3",
+    "no kroppen åk 3",
+    "planering kroppen åk 3",
+    "prov kroppen åk 3"
+   ]
+  },
+  "kroppen": {
+   "candidate": "human-body",
+   "s": [
+    "kroppens organ",
+    "kroppen",
+    "kroppens anatomi",
+    "kroppen håller räkningen",
+    "kroppens organ svenska",
+    "kroppens största organ",
+    "kroppens organ placering",
+    "kroppen kan själv",
+    "kroppens muskler",
+    "kroppens organ kvinna"
+   ]
+  },
+  "kroppen arbetsblad": {
+   "candidate": "human-body",
+   "s": [
+    "kroppen arbetsblad",
+    "kroppen arbetsblad åk 1",
+    "människokroppen arbetsblad"
+   ]
+  },
+  "kroppen skriva ut": {
+   "candidate": "human-body",
+   "s": [
+    "kropp att skriva ut"
+   ]
+  },
+  "kroppen förskoleklass": {
+   "candidate": "human-body",
+   "s": [
+    "kroppen förskoleklass",
+    "tema kroppen förskoleklass"
+   ]
+  },
+  "kroppen åk 1": {
+   "candidate": "human-body",
+   "s": [
+    "kroppen åk 1",
+    "kroppen årskurs 1",
+    "tema kroppen åk 1",
+    "kroppen arbetsblad åk 1"
+   ]
+  },
+  "kroppen åk 2": {
+   "candidate": "human-body",
+   "s": [
+    "kroppen åk 2",
+    "människokroppen åk 2",
+    "planering kroppen åk 2",
+    "tema kroppen åk 2",
+    "bilduppgift kroppen åk 2",
+    "no kroppen åk 2",
+    "kroppen engelska åk 2",
+    "wordwall kroppen åk 2",
+    "arbeta med kroppen åk 2"
+   ]
+  },
+  "kroppen åk 3": {
+   "candidate": "human-body",
+   "s": [
+    "kroppen åk 3",
+    "människokroppen åk 3",
+    "kroppen årskurs 3",
+    "tema kroppen åk 3",
+    "bilduppgift kroppen åk 3",
+    "no kroppen åk 3",
+    "planering kroppen åk 3",
+    "prov kroppen åk 3",
+    "film om kroppen åk 3",
+    "arbeta med kroppen åk 3"
+   ]
+  },
+  "de fem sinnena": {
+   "candidate": "five-senses",
+   "s": [
+    "de fem sinnena",
+    "de fem sinnena för barn",
+    "de fem sinnena på engelska",
+    "de fem sinnenas sång",
+    "vilka är de fem sinnena",
+    "ett av de fem sinnena korsord",
+    "ett av de fem sinnena"
+   ]
+  },
+  "våra sinnen": {
+   "candidate": "five-senses",
+   "s": [
+    "våra sinnen",
+    "våra sinnen ur",
+    "våra sinnen film",
+    "våra sinnen arbetsblad",
+    "våra sinnen åk 5",
+    "våra sinnen förskola",
+    "våra sinnen åk 2",
+    "våra sinnen smak",
+    "våra sinnen barn",
+    "våra sinnen film barn"
+   ]
+  },
+  "våra sinnen arbetsblad": {
+   "candidate": "five-senses",
+   "s": [
+    "våra sinnen arbetsblad"
+   ]
+  },
+  "våra sinnen åk 1": {
+   "candidate": "five-senses",
+   "s": [
+    "våra sinnen åk 1"
+   ]
+  },
+  "våra sinnen åk 2": {
+   "candidate": "five-senses",
+   "s": [
+    "våra sinnen åk 2"
+   ]
+  },
+  "våra sinnen åk 3": {
+   "candidate": "five-senses",
+   "s": [
+    "våra sinnen åk 3"
+   ]
+  },
+  "vädret": {
+   "candidate": "weather",
+   "s": [
+    "vädret uddevalla",
+    "vädret trollhättan",
+    "vädret göteborg",
+    "vädret",
+    "vädret borås",
+    "vädret stockholm",
+    "vädret skövde",
+    "vädret lidköping",
+    "vädret varberg",
+    "vädret idag"
+   ]
+  },
+  "vädret arbetsblad": {
+   "candidate": "weather",
+   "s": [
+    "väder arbetsblad"
+   ]
+  },
+  "vädret åk 1": {
+   "candidate": "weather",
+   "s": [
+    "vädret åkersberga 14 dagar",
+    "väder åkersberga 10 dagar"
+   ]
+  },
+  "vädret åk 2": {
+   "candidate": "weather",
+   "s": [
+    "väder åkersberga 25 dagar"
+   ]
+  },
+  "vädersymboler": {
+   "candidate": "weather",
+   "s": [
+    "vädersymboler",
+    "vädersymboler vind",
+    "vädersymboler dimma",
+    "vädersymboler blåst",
+    "vädersymboler betydelse",
+    "vädersymboler smhi",
+    "vädersymboler klart",
+    "vädersymboler iphone",
+    "vädersymboler på tv4"
+   ]
+  },
+  "tangram": {
+   "candidate": "tangram",
+   "s": [
+    "tangram",
+    "tangram pussel",
+    "tangram figurer",
+    "tangram att skriva ut",
+    "tangram mall",
+    "tangram pussel att skriva ut",
+    "tangram kvadrat",
+    "tangram heightmapper",
+    "tangram puzzle",
+    "tangram uppgifter"
+   ]
+  },
+  "tangram skriva ut": {
+   "candidate": "tangram",
+   "s": [
+    "tangram skriva ut",
+    "tangram pussel att skriva ut",
+    "tangram figurer att skriva ut",
+    "tangram mall att skriva ut"
+   ]
+  },
+  "tangram mall": {
+   "candidate": "tangram",
+   "s": [
+    "tangram mall",
+    "tangram mall att skriva ut",
+    "tangram mall flushing",
+    "tangram mall queens",
+    "tangram mall restaurants",
+    "tangram mall parking",
+    "tangram mall movie",
+    "tangram mall food court",
+    "tangram mall stores",
+    "tangram mall regal"
+   ]
+  },
+  "tangram mall skriva ut": {
+   "candidate": "tangram",
+   "s": [
+    "tangram mall att skriva ut"
+   ]
+  },
+  "källsortering": {
+   "candidate": "recycling",
+   "s": [
+    "källsortering",
+    "källsorteringskärl",
+    "källsortering rusta",
+    "källsortering biltema",
+    "källsortering under diskbänk ikea",
+    "källsortering ikea",
+    "källsortering jysk",
+    "källsorteringspåsar",
+    "källsortering under diskbänk utdragbar",
+    "källsortering hemma"
+   ]
+  },
+  "källsortering arbetsblad": {
+   "candidate": "recycling",
+   "s": [
+    "källsortering arbetsblad",
+    "återvinning arbetsblad"
+   ]
+  },
+  "källsortering skriva ut": {
+   "candidate": "recycling",
+   "s": [
+    "sopsortering skriva ut",
+    "källsortering symboler skriva ut",
+    "källsortering skyltar skriv ut",
+    "källsortering bilder att skriva ut",
+    "källsortering bilder att skriva ut gratis",
+    "skriva ut källsortering bilder barn"
+   ]
+  },
+  "källsortering förskoleklass": {
+   "candidate": "recycling",
+   "s": [
+    "sortering förskoleklass",
+    "återvinning förskoleklass"
+   ]
+  },
+  "källsortering åk 1": {
+   "candidate": "recycling",
+   "s": [
+    "källsortering åk 1",
+    "återvinning åk 1",
+    "sopsortering åk 1"
+   ]
+  },
+  "källsortering åk 2": {
+   "candidate": "recycling",
+   "s": [
+    "källsortering åk 2",
+    "återvinning åk 2"
+   ]
+  },
+  "källsortering åk 3": {
+   "candidate": "recycling",
+   "s": [
+    "återvinning åk 3"
+   ]
+  },
+  "sopsortering": {
+   "candidate": "recycling",
+   "s": [
+    "sopsortering",
+    "sopsorteringskärl",
+    "sopsortering göteborg",
+    "sopsortering ikea",
+    "sopsortering lilla edet",
+    "sopsorteringskärl ikea",
+    "sopsortering borås",
+    "sopsortering marks kommun",
+    "sopsortering hemma",
+    "sopsortering under diskbänk"
+   ]
+  },
+  "sopsortering arbetsblad": {
+   "candidate": "recycling",
+   "s": [
+    "sopsortering arbetsblad"
+   ]
+  },
+  "sopsortering skriva ut": {
+   "candidate": "recycling",
+   "s": [
+    "sopsortering skriva ut"
+   ]
+  },
+  "sopsortering förskoleklass": {
+   "candidate": "recycling",
+   "s": [
+    "sopsortering förskoleklass",
+    "sortering förskoleklass"
+   ]
+  },
+  "sopsortering åk 1": {
+   "candidate": "recycling",
+   "s": [
+    "sopsortering åk 1",
+    "återvinning åk 1",
+    "källsortering åk 1"
+   ]
+  },
+  "sopsortering åk 2": {
+   "candidate": "recycling",
+   "s": [
+    "återvinning åk 2",
+    "källsortering åk 2"
+   ]
+  },
+  "sopsortering åk 3": {
+   "candidate": "recycling",
+   "s": [
+    "återvinning åk 3"
+   ]
+  },
+  "udda och jämna tal": {
+   "candidate": "odd-and-even",
+   "s": [
+    "udda och jämna tal",
+    "udda och jämna tal skolplus",
+    "udda och jämna tal arbetsblad",
+    "udda och jämna tal spel",
+    "udda och jämna tal åk 1",
+    "udda och jämna tal film",
+    "udda och jämna tal förskoleklass",
+    "udda och jämna tal engelska",
+    "udda och jämna tal mattelandet",
+    "udda och jämna siffror"
+   ]
+  },
+  "udda och jämna tal arbetsblad": {
+   "candidate": "odd-and-even",
+   "s": [
+    "udda och jämna tal arbetsblad",
+    "udda jämna tal arbetsblad"
+   ]
+  },
+  "udda och jämna tal förskoleklass": {
+   "candidate": "odd-and-even",
+   "s": [
+    "udda och jämna tal förskoleklass"
+   ]
+  },
+  "udda och jämna tal åk 1": {
+   "candidate": "odd-and-even",
+   "s": [
+    "udda och jämna tal åk 1"
+   ]
+  },
+  "udda jämna": {
+   "candidate": "odd-and-even",
+   "s": [
+    "udda jämna veckor",
+    "udda jämna veckor 2026",
+    "udda jämna tal",
+    "udda jämna datumparkering",
+    "udda jämna husnummer parkering",
+    "udda jämna parkering",
+    "udda jämna veckor 2025",
+    "udda jämna funktioner",
+    "udda jämna",
+    "udda jämna tal förskoleklass"
+   ]
+  },
+  "udda jämna arbetsblad": {
+   "candidate": "odd-and-even",
+   "s": [
+    "udda jämna tal arbetsblad",
+    "udda och jämna tal arbetsblad"
+   ]
+  },
+  "udda jämna förskoleklass": {
+   "candidate": "odd-and-even",
+   "s": [
+    "udda jämna tal förskoleklass"
+   ]
+  },
+  "udda jämna åk 1": {
+   "candidate": "odd-and-even",
+   "s": [
+    "udda och jämna tal åk 1"
+   ]
+  },
+  "avrundning": {
+   "candidate": "rounding",
+   "s": [
+    "avrundningsfräs",
+    "avrundning",
+    "avrundningsregler",
+    "avrundning engelska",
+    "avrundning synonym",
+    "avrundning korsord",
+    "avrundningsfräs r2",
+    "avrundningsfräs r20",
+    "avrundningsfräs r3",
+    "avrundningsfräs 6mm"
+   ]
+  },
+  "avrundning arbetsblad": {
+   "candidate": "rounding",
+   "s": [
+    "avrundning arbetsblad",
+    "avrunda arbetsblad"
+   ]
+  },
+  "avrundning åk 3": {
+   "candidate": "rounding",
+   "s": [
+    "avrundning åk 3"
+   ]
+  },
+  "avrunda": {
+   "candidate": "rounding",
+   "s": [
+    "avrunda",
+    "avrunda engelska",
+    "avrunda korsord",
+    "avrundas inte korsord",
+    "avrunda i excel",
+    "avrunda synonym",
+    "avrundat",
+    "avrundas inte",
+    "avrundat tecken",
+    "avrunda uppåt excel"
+   ]
+  },
+  "avrunda arbetsblad": {
+   "candidate": "rounding",
+   "s": [
+    "avrunda arbetsblad",
+    "avrundning arbetsblad",
+    "avrunda tal arbetsblad"
+   ]
+  },
+  "avrunda åk 3": {
+   "candidate": "rounding",
+   "s": [
+    "avrundning åk 3"
+   ]
+  },
+  "pronomen": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomen",
+    "pronomen korsord 3 bokstäver",
+    "pronomen korsord",
+    "pronomen korsord 2 bokstäver",
+    "pronomen 3 bokstäver",
+    "pronomen som som",
+    "pronomen korsord 4 bokstäver",
+    "pronomen 2 bokstäver",
+    "pronomen som som korsord",
+    "pronomen i slöjden"
+   ]
+  },
+  "pronomen arbetsblad": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomen arbetsblad"
+   ]
+  },
+  "personliga pronomen": {
+   "candidate": "pronouns",
+   "s": [
+    "personliga pronomen",
+    "personliga pronomen tyska",
+    "personliga pronomen engelska",
+    "personliga pronomen spanska",
+    "personliga pronomen italienska",
+    "personliga pronomen franska",
+    "personliga pronomen objektsform",
+    "personliga pronomen ryska",
+    "personliga pronomen grekiska",
+    "personliga pronomen svenska"
+   ]
+  },
+  "frågeord": {
+   "candidate": "question-words",
+   "s": [
+    "frågeord korsord",
+    "frågeord",
+    "frågeord 4 bokstäver",
+    "frågeord spanska",
+    "frågeord 4 bokstäver korsord",
+    "frågeord engelska",
+    "frågeord svenska",
+    "frågeord tyska",
+    "frågeord franska",
+    "frågeord sfi"
+   ]
+  },
+  "frågeord arbetsblad": {
+   "candidate": "question-words",
+   "s": [
+    "frågeord engelska arbetsblad"
+   ]
+  },
+  "frågeord övningar": {
+   "candidate": "question-words",
+   "s": [
+    "frågeord övningar",
+    "frågeord svenska övningar",
+    "frågeord engelska övningar",
+    "frågeord spanska övningar",
+    "frågeord franska övningar"
+   ]
+  },
+  "kubens nät": {
+   "candidate": "cube-nets",
+   "s": [
+    "kub nät"
+   ]
+  },
+  "kub mall": {
+   "candidate": "cube-nets",
+   "s": [
+    "kub mall",
+    "kuba mallorca",
+    "vika kub mall",
+    "kuber mall varanasi",
+    "kuber mallu",
+    "kub zity mall",
+    "kub rio mall"
+   ]
+  },
+  "fingertal": {
+   "candidate": "finger-counting",
+   "s": [
+    "fingertalk",
+    "fingertalk london",
+    "fingertalk cafe",
+    "fingertalk app",
+    "fingertalk wellcome collection",
+    "fingertalk exhibition",
+    "triumph fingertalkin",
+    "deaf fingertalk"
+   ]
+  },
+  "räkna på fingrarna": {
+   "candidate": "finger-counting",
+   "s": [
+    "räkna på fingrarna",
+    "räkna på fingrarna kina",
+    "räkna multiplikation på fingrarna"
+   ]
+  }
+ }
+}

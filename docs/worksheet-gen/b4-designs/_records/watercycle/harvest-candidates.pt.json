@@ -1,0 +1,163 @@
+{
+ "locale": "pt",
+ "market": {
+  "hl": "pt",
+  "gl": "br"
+ },
+ "generatedAt": "2026-09-21T00:38:16.403Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds-watercycle.json",
+ "requestCount": 14,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "water-cycle": {
+   "heads": [
+    "ciclo da água",
+    "ciclo da água para crianças"
+   ],
+   "requests": 14,
+   "productiveSeeds": 7,
+   "unique": 50,
+   "suggestions": [
+    "atividade ciclo da agua para imprimir",
+    "atividade ciclo da água educação infantil pdf",
+    "cartaz ciclo da água educação infantil",
+    "ciclo da agua atividade 1 ano",
+    "ciclo da agua atividade 2 ano",
+    "ciclo da agua atividade adaptada",
+    "ciclo da agua atividade educação infantil",
+    "ciclo da agua educação infantil atividades",
+    "ciclo da agua educação infantil para colorir",
+    "ciclo da agua educação infantil video",
+    "ciclo da agua na natureza para crianças",
+    "ciclo da agua para crianças",
+    "ciclo da agua para imprimir e montar",
+    "ciclo da agua para imprimir educação infantil",
+    "ciclo da água",
+    "ciclo da água 2o ano",
+    "ciclo da água 3o ano",
+    "ciclo da água 5 ano",
+    "ciclo da água atividade 3 ano",
+    "ciclo da água atividade interativa",
+    "ciclo da água atividades",
+    "ciclo da água atividades 4 ano",
+    "ciclo da água atividades 5 ano",
+    "ciclo da água atividades 6 ano",
+    "ciclo da água desenho",
+    "ciclo da água desenho educação infantil",
+    "ciclo da água desenho fácil",
+    "ciclo da água desenho para imprimir",
+    "ciclo da água desenho para imprimir colorido",
+    "ciclo da água educação infantil",
+    "ciclo da água educação infantil para imprimir",
+    "ciclo da água etapas",
+    "ciclo da água explicação para crianças",
+    "ciclo da água imagem",
+    "ciclo da água maquete",
+    "ciclo da água na natureza",
+    "ciclo da água para crianças pequenas",
+    "ciclo da água para imprimir",
+    "ciclo da água para imprimir e colorir",
+    "ciclo da água resumo",
+    "desenho do ciclo da água para crianças",
+    "experiência ciclo da água educação infantil",
+    "experiência ciclo da água para crianças",
+    "historia do ciclo da agua para crianças",
+    "imagem ciclo da agua para imprimir",
+    "maquete ciclo da água educação infantil",
+    "maquete ciclo da água para imprimir",
+    "o ciclo da água para crianças smile and learn",
+    "painel ciclo da água para imprimir",
+    "video ciclo da agua para crianças"
+   ]
+  }
+ },
+ "suggestions": {
+  "ciclo da água": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo da água",
+    "ciclo da água resumo",
+    "ciclo da água desenho",
+    "ciclo da água 5 ano",
+    "ciclo da água desenho fácil",
+    "ciclo da água na natureza",
+    "ciclo da água etapas",
+    "ciclo da água imagem",
+    "ciclo da água maquete",
+    "ciclo da água para imprimir"
+   ]
+  },
+  "ciclo da água atividade": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo da água atividades",
+    "ciclo da água atividades 5 ano",
+    "ciclo da água atividades 6 ano",
+    "ciclo da água atividade interativa",
+    "ciclo da água atividade 3 ano",
+    "ciclo da água atividades 4 ano",
+    "ciclo da agua atividade adaptada",
+    "ciclo da agua atividade educação infantil",
+    "ciclo da agua atividade 1 ano",
+    "ciclo da agua atividade 2 ano"
+   ]
+  },
+  "ciclo da água para imprimir": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo da água para imprimir",
+    "ciclo da água para imprimir e colorir",
+    "ciclo da agua para imprimir educação infantil",
+    "ciclo da agua para imprimir e montar",
+    "maquete ciclo da água para imprimir",
+    "ciclo da água desenho para imprimir",
+    "painel ciclo da água para imprimir",
+    "imagem ciclo da agua para imprimir",
+    "ciclo da água desenho para imprimir colorido",
+    "atividade ciclo da agua para imprimir"
+   ]
+  },
+  "ciclo da água educação infantil": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo da água educação infantil",
+    "ciclo da água educação infantil para imprimir",
+    "ciclo da agua educação infantil video",
+    "ciclo da agua educação infantil atividades",
+    "ciclo da agua educação infantil para colorir",
+    "experiência ciclo da água educação infantil",
+    "cartaz ciclo da água educação infantil",
+    "maquete ciclo da água educação infantil",
+    "ciclo da água desenho educação infantil",
+    "atividade ciclo da água educação infantil pdf"
+   ]
+  },
+  "ciclo da água 2º ano": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo da água 2o ano"
+   ]
+  },
+  "ciclo da água 3º ano": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo da água 3o ano"
+   ]
+  },
+  "ciclo da água para crianças": {
+   "candidate": "water-cycle",
+   "s": [
+    "ciclo da agua para crianças",
+    "ciclo da água para crianças pequenas",
+    "ciclo da água explicação para crianças",
+    "experiência ciclo da água para crianças",
+    "video ciclo da agua para crianças",
+    "o ciclo da água para crianças smile and learn",
+    "historia do ciclo da agua para crianças",
+    "ciclo da agua na natureza para crianças",
+    "desenho do ciclo da água para crianças"
+   ]
+  }
+ }
+}

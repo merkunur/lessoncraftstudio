@@ -1,0 +1,740 @@
+{
+ "locale": "sv",
+ "market": {
+  "hl": "sv",
+  "gl": "se"
+ },
+ "generatedAt": "2026-09-21T00:29:28.962Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds-nordic-v2.json",
+ "requestCount": 182,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cloze": {
+   "heads": [
+    "fyll i rätt ord",
+    "lucktexter"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 5,
+   "suggestions": [
+    "fyll i rätt ord",
+    "fyll i rätt ord i luckorna",
+    "lucktexter",
+    "lucktexter engelska",
+    "lucktexter svenska"
+   ]
+  },
+  "dominoes": {
+   "heads": [
+    "sifferdomino",
+    "bokstavsdomino"
+   ],
+   "requests": 14,
+   "productiveSeeds": 0,
+   "unique": 0,
+   "suggestions": []
+  },
+  "human-body": {
+   "heads": [
+    "människokroppen",
+    "kroppens delar"
+   ],
+   "requests": 14,
+   "productiveSeeds": 7,
+   "unique": 27,
+   "suggestions": [
+    "kropp att skriva ut",
+    "kroppen åk 1",
+    "kroppen åk 2",
+    "kroppen åk 3",
+    "kroppens delar",
+    "kroppens delar på latin",
+    "kroppsdelar",
+    "kroppsdelar anatomi",
+    "kroppsdelar magen",
+    "kroppsdelar namn",
+    "kroppsdelar på engelska",
+    "kroppsdelar på spanska",
+    "kroppsdelar på svenska",
+    "kroppsdelar synonym",
+    "människokroppen",
+    "människokroppen anatomi",
+    "människokroppen arbetsblad",
+    "människokroppen bild",
+    "människokroppen fysiologi och anatomi",
+    "människokroppen fysiologi och anatomi pdf",
+    "människokroppen fysiologi och anatomi upplaga 3",
+    "människokroppen muskler",
+    "människokroppen organ",
+    "människokroppen organ svenska",
+    "människokroppen skelett",
+    "människokroppen åk 2",
+    "människokroppen åk 3"
+   ]
+  },
+  "five-senses": {
+   "heads": [
+    "våra fem sinnen",
+    "sinnena"
+   ],
+   "requests": 14,
+   "productiveSeeds": 6,
+   "unique": 19,
+   "suggestions": [
+    "mina fem sinnen",
+    "sinnen åk 3",
+    "sinnena",
+    "sinnena arbetsblad",
+    "sinnenas hus",
+    "sinnenas hus borås",
+    "sinnenas rike",
+    "sinnenas spa",
+    "sinnenas spa ästad",
+    "sinnenas spa ästad vingård",
+    "sinnenas trädgård",
+    "sinnenas trädgård marstrand",
+    "sinnlig trädgård skövde",
+    "vilka är våra fem sinnen",
+    "våra fem sinnen",
+    "våra fem sinnen förskola",
+    "våra sinnen åk 1",
+    "våra sinnen åk 2",
+    "våra sinnen åk 3"
+   ]
+  },
+  "weather": {
+   "heads": [
+    "väder",
+    "väderdagbok"
+   ],
+   "requests": 14,
+   "productiveSeeds": 5,
+   "unique": 16,
+   "suggestions": [
+    "väder",
+    "väder alingsås",
+    "väder arbetsblad",
+    "väder borås",
+    "väder göteborg",
+    "väder skövde",
+    "väder stockholm",
+    "väder trollhättan",
+    "väder uddevalla",
+    "väder varberg",
+    "väder åkersberga 10 dagar",
+    "väder åkersberga 14 dagar",
+    "väder åkersberga 25 dagar",
+    "väderdagbok",
+    "väderdagbok 2026",
+    "väderöarna"
+   ]
+  },
+  "tangram": {
+   "heads": [
+    "tangram pussel",
+    "tangram figurer"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 10,
+   "suggestions": [
+    "tangram figurer",
+    "tangram figurer att skriva ut",
+    "tangram pussel",
+    "tangram pussel att skriva ut",
+    "tangram pussel barn",
+    "tangram pussel figurer",
+    "tangram pussel kvadrat",
+    "tangram pussel lösning",
+    "tangram pussel online",
+    "tangram pussel vuxna"
+   ]
+  },
+  "recycling": {
+   "heads": [
+    "återvinning",
+    "sortera sopor"
+   ],
+   "requests": 14,
+   "productiveSeeds": 7,
+   "unique": 25,
+   "suggestions": [
+    "sortera sopor",
+    "sortera sopor gotland",
+    "sortera sopor hemma",
+    "sortera sopor kattsand",
+    "sortera sopor kärl",
+    "sortera sopor rätt",
+    "sortera sopor spanien",
+    "sortera sopor sundsvall",
+    "sortera sopor uppsala",
+    "sortera sopor återvinning",
+    "återvinning",
+    "återvinning arbetsblad",
+    "återvinning borås",
+    "återvinning förskoleklass",
+    "återvinning göteborg",
+    "återvinning högsbo",
+    "återvinning kungälv",
+    "återvinning åk 1",
+    "återvinning åk 2",
+    "återvinning åk 3",
+    "återvinningscentral",
+    "återvinningscentral borås",
+    "återvinningscentral göteborg",
+    "återvinningscentral trollhättan",
+    "återvinningscentral uddevalla"
+   ]
+  },
+  "odd-and-even": {
+   "heads": [
+    "jämna och udda tal",
+    "udda och jämna"
+   ],
+   "requests": 14,
+   "productiveSeeds": 8,
+   "unique": 22,
+   "suggestions": [
+    "jämna och ojämna tal",
+    "jämna och udda nummer",
+    "jämna och udda tal",
+    "jämna och udda tal arbetsblad",
+    "jämna och udda tal engelska",
+    "jämna och udda tal film",
+    "jämna och udda tal förskoleklass",
+    "jämna och udda tal livet i mattelandet",
+    "jämna och udda tal spel",
+    "jämna och udda tal åk 1",
+    "udda och jämna datum parkering",
+    "udda och jämna funktioner",
+    "udda och jämna hanna zeime",
+    "udda och jämna parkering",
+    "udda och jämna tal",
+    "udda och jämna tal arbetsblad",
+    "udda och jämna tal förskoleklass",
+    "udda och jämna tal skolplus",
+    "udda och jämna tal spel",
+    "udda och jämna tal åk 1",
+    "udda och jämna veckor",
+    "udda och jämna veckor 2026"
+   ]
+  },
+  "rounding": {
+   "heads": [
+    "avrunda till tiotal",
+    "avrundning till närmaste tiotal"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 11,
+   "suggestions": [
+    "avrunda 465 49 till närmaste tiotal",
+    "avrunda 68 till tiotal",
+    "avrunda 84 till tiotal",
+    "avrunda till närmaste tiotal",
+    "avrunda till närmaste tiotal excel",
+    "avrunda till tiotal",
+    "avrunda till tiotal 1001",
+    "avrunda till tiotal 144 8",
+    "avrunda till tiotal excel",
+    "avrunda till tiotal gram",
+    "avrundning till tiotal"
+   ]
+  },
+  "pronouns": {
+   "heads": [
+    "pronomen svenska",
+    "han hon den det"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 16,
+   "suggestions": [
+    "han hon den det",
+    "han hon den det ordklass",
+    "han hon den det spanska",
+    "han hon den det tyska",
+    "han hon hen den det",
+    "jag du han hon den det vi ni de",
+    "pronomen svenska",
+    "pronomen svenska engelska",
+    "pronomen svenska exempel",
+    "pronomen svenska grammatik",
+    "pronomen svenska man",
+    "pronomen svenska pdf",
+    "pronomen svenska övningar",
+    "pronouns svenska",
+    "svenska pronomen hen",
+    "svenska pronomen lista"
+   ]
+  },
+  "question-words": {
+   "heads": [
+    "frågeord svenska",
+    "vem vad var när"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 10,
+   "suggestions": [
+    "frågeord på svenska",
+    "frågeord svenska",
+    "frågeord svenska pdf",
+    "frågeord svenska sfi",
+    "frågeord svenska övningar",
+    "frågeord tyska till svenska",
+    "vad var när vem hur och varför",
+    "vem vad när",
+    "vem vad när hur varför",
+    "vem vad var när varför hur"
+   ]
+  },
+  "cube-nets": {
+   "heads": [
+    "kubens nät",
+    "kub att vika"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 1,
+   "suggestions": [
+    "kub nät"
+   ]
+  },
+  "finger-counting": {
+   "heads": [
+    "räkna med fingrarna",
+    "fingerräkning"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 4,
+   "suggestions": [
+    "fingerräkning",
+    "fingerräkning syn",
+    "räkna med fingrarna",
+    "visus fingerräkning"
+   ]
+  }
+ },
+ "suggestions": {
+  "fyll i rätt ord": {
+   "candidate": "cloze",
+   "s": [
+    "fyll i rätt ord",
+    "fyll i rätt ord i luckorna"
+   ]
+  },
+  "lucktexter": {
+   "candidate": "cloze",
+   "s": [
+    "lucktexter",
+    "lucktexter svenska",
+    "lucktexter engelska"
+   ]
+  },
+  "människokroppen": {
+   "candidate": "human-body",
+   "s": [
+    "människokroppen",
+    "människokroppen organ",
+    "människokroppen fysiologi och anatomi",
+    "människokroppen bild",
+    "människokroppen anatomi",
+    "människokroppen organ svenska",
+    "människokroppen skelett",
+    "människokroppen fysiologi och anatomi upplaga 3",
+    "människokroppen muskler",
+    "människokroppen fysiologi och anatomi pdf"
+   ]
+  },
+  "människokroppen arbetsblad": {
+   "candidate": "human-body",
+   "s": [
+    "människokroppen arbetsblad"
+   ]
+  },
+  "människokroppen skriva ut": {
+   "candidate": "human-body",
+   "s": [
+    "kropp att skriva ut"
+   ]
+  },
+  "människokroppen åk 1": {
+   "candidate": "human-body",
+   "s": [
+    "kroppen åk 1"
+   ]
+  },
+  "människokroppen åk 2": {
+   "candidate": "human-body",
+   "s": [
+    "människokroppen åk 2",
+    "kroppen åk 2"
+   ]
+  },
+  "människokroppen åk 3": {
+   "candidate": "human-body",
+   "s": [
+    "människokroppen åk 3",
+    "kroppen åk 3"
+   ]
+  },
+  "kroppens delar": {
+   "candidate": "human-body",
+   "s": [
+    "kroppens delar",
+    "kroppens delar på latin",
+    "kroppsdelar",
+    "kroppsdelar namn",
+    "kroppsdelar på spanska",
+    "kroppsdelar på svenska",
+    "kroppsdelar på engelska",
+    "kroppsdelar anatomi",
+    "kroppsdelar synonym",
+    "kroppsdelar magen"
+   ]
+  },
+  "våra fem sinnen": {
+   "candidate": "five-senses",
+   "s": [
+    "våra fem sinnen",
+    "våra fem sinnen förskola",
+    "mina fem sinnen",
+    "vilka är våra fem sinnen"
+   ]
+  },
+  "sinnena": {
+   "candidate": "five-senses",
+   "s": [
+    "sinnenas hus borås",
+    "sinnenas spa",
+    "sinnenas hus",
+    "sinnenas trädgård marstrand",
+    "sinnena",
+    "sinnenas trädgård",
+    "sinnenas rike",
+    "sinnenas spa ästad vingård",
+    "sinnlig trädgård skövde",
+    "sinnenas spa ästad"
+   ]
+  },
+  "sinnena arbetsblad": {
+   "candidate": "five-senses",
+   "s": [
+    "sinnena arbetsblad"
+   ]
+  },
+  "sinnena åk 1": {
+   "candidate": "five-senses",
+   "s": [
+    "våra sinnen åk 1"
+   ]
+  },
+  "sinnena åk 2": {
+   "candidate": "five-senses",
+   "s": [
+    "våra sinnen åk 2"
+   ]
+  },
+  "sinnena åk 3": {
+   "candidate": "five-senses",
+   "s": [
+    "sinnen åk 3",
+    "våra sinnen åk 3"
+   ]
+  },
+  "väder": {
+   "candidate": "weather",
+   "s": [
+    "väder",
+    "väder göteborg",
+    "väder uddevalla",
+    "väder trollhättan",
+    "väder borås",
+    "väder stockholm",
+    "väder skövde",
+    "väder varberg",
+    "väderöarna",
+    "väder alingsås"
+   ]
+  },
+  "väder arbetsblad": {
+   "candidate": "weather",
+   "s": [
+    "väder arbetsblad"
+   ]
+  },
+  "väder åk 1": {
+   "candidate": "weather",
+   "s": [
+    "väder åkersberga 14 dagar",
+    "väder åkersberga 10 dagar"
+   ]
+  },
+  "väder åk 2": {
+   "candidate": "weather",
+   "s": [
+    "väder åkersberga 25 dagar"
+   ]
+  },
+  "väderdagbok": {
+   "candidate": "weather",
+   "s": [
+    "väderdagbok",
+    "väderdagbok 2026"
+   ]
+  },
+  "tangram pussel": {
+   "candidate": "tangram",
+   "s": [
+    "tangram pussel",
+    "tangram pussel att skriva ut",
+    "tangram pussel vuxna",
+    "tangram pussel online",
+    "tangram pussel kvadrat",
+    "tangram pussel barn",
+    "tangram pussel lösning",
+    "tangram pussel figurer"
+   ]
+  },
+  "tangram pussel skriva ut": {
+   "candidate": "tangram",
+   "s": [
+    "tangram pussel att skriva ut",
+    "tangram figurer att skriva ut"
+   ]
+  },
+  "tangram figurer": {
+   "candidate": "tangram",
+   "s": [
+    "tangram figurer",
+    "tangram figurer att skriva ut",
+    "tangram pussel figurer"
+   ]
+  },
+  "tangram figurer skriva ut": {
+   "candidate": "tangram",
+   "s": [
+    "tangram figurer att skriva ut"
+   ]
+  },
+  "återvinning": {
+   "candidate": "recycling",
+   "s": [
+    "återvinningscentral",
+    "återvinningscentral uddevalla",
+    "återvinningscentral trollhättan",
+    "återvinningscentral göteborg",
+    "återvinning borås",
+    "återvinning göteborg",
+    "återvinningscentral borås",
+    "återvinning kungälv",
+    "återvinning",
+    "återvinning högsbo"
+   ]
+  },
+  "återvinning arbetsblad": {
+   "candidate": "recycling",
+   "s": [
+    "återvinning arbetsblad"
+   ]
+  },
+  "återvinning förskoleklass": {
+   "candidate": "recycling",
+   "s": [
+    "återvinning förskoleklass"
+   ]
+  },
+  "återvinning åk 1": {
+   "candidate": "recycling",
+   "s": [
+    "återvinning åk 1"
+   ]
+  },
+  "återvinning åk 2": {
+   "candidate": "recycling",
+   "s": [
+    "återvinning åk 2"
+   ]
+  },
+  "återvinning åk 3": {
+   "candidate": "recycling",
+   "s": [
+    "återvinning åk 3"
+   ]
+  },
+  "sortera sopor": {
+   "candidate": "recycling",
+   "s": [
+    "sortera sopor hemma",
+    "sortera sopor",
+    "sortera sopor rätt",
+    "sortera sopor gotland",
+    "sortera sopor återvinning",
+    "sortera sopor kärl",
+    "sortera sopor kattsand",
+    "sortera sopor sundsvall",
+    "sortera sopor uppsala",
+    "sortera sopor spanien"
+   ]
+  },
+  "jämna och udda tal": {
+   "candidate": "odd-and-even",
+   "s": [
+    "jämna och udda tal",
+    "jämna och udda tal film",
+    "jämna och udda tal arbetsblad",
+    "jämna och udda tal åk 1",
+    "jämna och udda tal livet i mattelandet",
+    "jämna och udda tal engelska",
+    "jämna och udda tal spel",
+    "jämna och udda tal förskoleklass",
+    "jämna och ojämna tal",
+    "jämna och udda nummer"
+   ]
+  },
+  "jämna och udda tal arbetsblad": {
+   "candidate": "odd-and-even",
+   "s": [
+    "jämna och udda tal arbetsblad"
+   ]
+  },
+  "jämna och udda tal förskoleklass": {
+   "candidate": "odd-and-even",
+   "s": [
+    "jämna och udda tal förskoleklass"
+   ]
+  },
+  "jämna och udda tal åk 1": {
+   "candidate": "odd-and-even",
+   "s": [
+    "jämna och udda tal åk 1"
+   ]
+  },
+  "udda och jämna": {
+   "candidate": "odd-and-even",
+   "s": [
+    "udda och jämna tal",
+    "udda och jämna veckor",
+    "udda och jämna funktioner",
+    "udda och jämna veckor 2026",
+    "udda och jämna hanna zeime",
+    "udda och jämna tal skolplus",
+    "udda och jämna parkering",
+    "udda och jämna tal arbetsblad",
+    "udda och jämna datum parkering",
+    "udda och jämna tal spel"
+   ]
+  },
+  "udda och jämna arbetsblad": {
+   "candidate": "odd-and-even",
+   "s": [
+    "udda och jämna tal arbetsblad"
+   ]
+  },
+  "udda och jämna förskoleklass": {
+   "candidate": "odd-and-even",
+   "s": [
+    "udda och jämna tal förskoleklass"
+   ]
+  },
+  "udda och jämna åk 1": {
+   "candidate": "odd-and-even",
+   "s": [
+    "udda och jämna tal åk 1"
+   ]
+  },
+  "avrunda till tiotal": {
+   "candidate": "rounding",
+   "s": [
+    "avrunda till tiotal",
+    "avrunda till tiotal excel",
+    "avrunda till tiotal 1001",
+    "avrunda till tiotal 144 8",
+    "avrunda till tiotal gram",
+    "avrundning till tiotal",
+    "avrunda till närmaste tiotal",
+    "avrunda till närmaste tiotal excel",
+    "avrunda 68 till tiotal",
+    "avrunda 84 till tiotal"
+   ]
+  },
+  "avrundning till närmaste tiotal": {
+   "candidate": "rounding",
+   "s": [
+    "avrunda till närmaste tiotal",
+    "avrunda till närmaste tiotal excel",
+    "avrunda 465 49 till närmaste tiotal"
+   ]
+  },
+  "pronomen svenska": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomen svenska",
+    "pronomen svenska grammatik",
+    "pronomen svenska exempel",
+    "pronomen svenska pdf",
+    "pronomen svenska övningar",
+    "pronomen svenska engelska",
+    "pronomen svenska man",
+    "pronouns svenska",
+    "svenska pronomen lista",
+    "svenska pronomen hen"
+   ]
+  },
+  "han hon den det": {
+   "candidate": "pronouns",
+   "s": [
+    "han hon den det",
+    "han hon den det ordklass",
+    "han hon den det spanska",
+    "han hon den det tyska",
+    "han hon hen den det",
+    "jag du han hon den det vi ni de"
+   ]
+  },
+  "frågeord svenska": {
+   "candidate": "question-words",
+   "s": [
+    "frågeord svenska",
+    "frågeord svenska övningar",
+    "frågeord svenska pdf",
+    "frågeord svenska sfi",
+    "frågeord på svenska",
+    "frågeord tyska till svenska"
+   ]
+  },
+  "vem vad var när": {
+   "candidate": "question-words",
+   "s": [
+    "vem vad var när varför hur",
+    "vem vad när hur varför",
+    "vem vad när",
+    "vad var när vem hur och varför"
+   ]
+  },
+  "kubens nät": {
+   "candidate": "cube-nets",
+   "s": [
+    "kub nät"
+   ]
+  },
+  "räkna med fingrarna": {
+   "candidate": "finger-counting",
+   "s": [
+    "räkna med fingrarna"
+   ]
+  },
+  "fingerräkning": {
+   "candidate": "finger-counting",
+   "s": [
+    "fingerräkning",
+    "fingerräkning syn",
+    "visus fingerräkning"
+   ]
+  }
+ }
+}

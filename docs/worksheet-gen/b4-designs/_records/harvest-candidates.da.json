@@ -1,0 +1,890 @@
+{
+ "locale": "da",
+ "market": {
+  "hl": "da",
+  "gl": "dk"
+ },
+ "generatedAt": "2026-09-21T00:24:16.319Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds.json",
+ "requestCount": 182,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cloze": {
+   "heads": [
+    "indsæt ord",
+    "sætninger med huller"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 3,
+   "suggestions": [
+    "indsæt det rigtige ord",
+    "indsæt ord",
+    "indsæt orddeling. word"
+   ]
+  },
+  "dominoes": {
+   "heads": [
+    "domino",
+    "domino skabelon"
+   ],
+   "requests": 14,
+   "productiveSeeds": 5,
+   "unique": 32,
+   "suggestions": [
+    "anlaut domino klasse 1",
+    "domino",
+    "domino 1 klasse",
+    "domino 1 klasse deutsch",
+    "domino 2 klasse",
+    "domino basteln klasse 1",
+    "domino geld klasse 1",
+    "domino lesen 1 klasse",
+    "domino print and apply",
+    "domino printer",
+    "domino printer ax350i",
+    "domino printer error codes pdf",
+    "domino printer manual pdf",
+    "domino printer price",
+    "domino printing",
+    "domino printing mexico",
+    "domino printing sciences",
+    "domino printing services",
+    "domino regler",
+    "dominos",
+    "dominos helsingborg",
+    "dominos hyllie",
+    "dominos limhamn",
+    "dominos malmø",
+    "dominos mobilia",
+    "dominos pizza",
+    "dominos slagelse",
+    "geld domino klasse 2",
+    "lesedomino klasse 2",
+    "mathe domino 3 klasse",
+    "mathe domino klasse 1",
+    "mathe domino klasse 2"
+   ]
+  },
+  "human-body": {
+   "heads": [
+    "kroppens dele",
+    "kroppen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 7,
+   "unique": 21,
+   "suggestions": [
+    "hvad hedder kroppens dele",
+    "kroppen",
+    "kroppen 1 klasse",
+    "kroppen 2 klasse",
+    "kroppen 3 klasse",
+    "kroppen holder regnskab",
+    "kroppen kan selv",
+    "kroppen opgaver",
+    "kroppen opgaver indskoling",
+    "kroppen print",
+    "kroppen taler",
+    "kroppens anatomi",
+    "kroppens anatomi kvinde",
+    "kroppens dele",
+    "kroppens dele på dansk",
+    "kroppens dele på latin",
+    "kroppens hus",
+    "kroppens hus sorø",
+    "kroppens organer",
+    "kroppens største organ",
+    "undervisning om kroppen 1 klasse"
+   ]
+  },
+  "five-senses": {
+   "heads": [
+    "de fem sanser",
+    "sanserne"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 18,
+   "suggestions": [
+    "de fem menneskelige sanser",
+    "de fem sanser",
+    "de fem sanser pia tafdrup",
+    "de fem sanser tv2",
+    "hva er de fem sanser",
+    "hvad er de fem sanser",
+    "hvad hedder de fem sanser",
+    "sanserne",
+    "sanserne 1 klasse",
+    "sanserne alinea",
+    "sanserne for børn",
+    "sanserne hæfte",
+    "sanserne indskoling",
+    "sanserne og autisme",
+    "sanserne opgaver",
+    "sanserne undervisning",
+    "sanserne video",
+    "sansernes hospital"
+   ]
+  },
+  "weather": {
+   "heads": [
+    "vejret",
+    "vejrsymboler"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 15,
+   "suggestions": [
+    "vejret",
+    "vejret 2 klasse",
+    "vejret bornholm",
+    "vejret gøteborg",
+    "vejret helsingborg",
+    "vejret i morgen",
+    "vejret i sverige",
+    "vejret kalmar",
+    "vejret københavn",
+    "vejret malmø",
+    "vejret opgaver",
+    "vejret stockholm",
+    "vejrsymboler",
+    "vejrsymboler vejr symboler",
+    "vejrsymboler vind"
+   ]
+  },
+  "tangram": {
+   "heads": [
+    "tangram",
+    "tangram skabelon"
+   ],
+   "requests": 14,
+   "productiveSeeds": 7,
+   "unique": 34,
+   "suggestions": [
+    "einfache tangram 1 klasse",
+    "tangram",
+    "tangram 1 klasse",
+    "tangram 2 klasse",
+    "tangram 3 klasse",
+    "tangram brikker",
+    "tangram figurer",
+    "tangram formen 2 klasse",
+    "tangram grundschule klasse 1",
+    "tangram grundschule klasse 2",
+    "tangram grundschule klasse 3",
+    "tangram klasse 1 / 2",
+    "tangram klasse 1 ub",
+    "tangram mathe klasse 2",
+    "tangram meaning",
+    "tangram online",
+    "tangram online games",
+    "tangram opgaver",
+    "tangram opgaver til print",
+    "tangram print",
+    "tangram printable",
+    "tangram printable pdf",
+    "tangram printable puzzles",
+    "tangram printable shapes",
+    "tangram printable template",
+    "tangram printables free",
+    "tangram printemps",
+    "tangram printen",
+    "tangram puslespil",
+    "tangram puzzle",
+    "tangram skabelon",
+    "tangram unterrichtsreihe klasse 1",
+    "unterrichtsentwurf tangram 1 klasse",
+    "unterrichtsentwurf tangram 2 klasse"
+   ]
+  },
+  "recycling": {
+   "heads": [
+    "affaldssortering",
+    "sortering af affald"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 26,
+   "suggestions": [
+    "affaldssortering",
+    "affaldssortering aalborg",
+    "affaldssortering flamingo",
+    "affaldssortering guide",
+    "affaldssortering i hjemmet",
+    "affaldssortering ikea",
+    "affaldssortering københavn",
+    "affaldssortering opgaver",
+    "affaldssortering print",
+    "affaldssortering print selv",
+    "affaldssortering printer toner",
+    "affaldssortering printerpatroner",
+    "affaldssortering spande",
+    "affaldssortering sverige",
+    "affaldssortering til print",
+    "affaldssortering århus",
+    "sortering af affald",
+    "sortering af affald aalborg kommune",
+    "sortering af affald app",
+    "sortering af affald bøger",
+    "sortering af affald genbrugsstation",
+    "sortering af affald hedensted kommune",
+    "sortering af affald holbæk",
+    "sortering af affald københavn",
+    "sortering af affald pizzabakker",
+    "sortering af affald sønderborg"
+   ]
+  },
+  "odd-and-even": {
+   "heads": [
+    "lige og ulige tal",
+    "lige ulige"
+   ],
+   "requests": 14,
+   "productiveSeeds": 6,
+   "unique": 17,
+   "suggestions": [
+    "hvad er lige og ulige tal",
+    "lige eller ulige tal",
+    "lige eller ulige uge",
+    "lige og ulige tal",
+    "lige og ulige tal 1 klasse",
+    "lige og ulige tal engelsk",
+    "lige og ulige tal indskoling",
+    "lige og ulige tal opgaver",
+    "lige og ulige uger",
+    "lige ulige",
+    "lige ulige cpr",
+    "lige ulige engelsk",
+    "lige ulige tal",
+    "lige ulige uge",
+    "lige ulige uger",
+    "lige ulige uger 2025",
+    "lige ulige uger 2026"
+   ]
+  },
+  "rounding": {
+   "heads": [
+    "afrunding",
+    "afrunde tal"
+   ],
+   "requests": 14,
+   "productiveSeeds": 5,
+   "unique": 16,
+   "suggestions": [
+    "afrunde tal",
+    "afrunde tal engelsk",
+    "afrunde tal i excel",
+    "afrunding",
+    "afrunding 2. klasse",
+    "afrunding 3 klasse",
+    "afrunding af decimaltal opgaver",
+    "afrunding af tal",
+    "afrunding engelsk",
+    "afrunding i excel",
+    "afrunding matematik",
+    "afrunding opgaver",
+    "afrunding symbol",
+    "afrunding tegn",
+    "afrundingsfræser",
+    "afrundingsregler"
+   ]
+  },
+  "pronouns": {
+   "heads": [
+    "stedord",
+    "personlige stedord"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 20,
+   "suggestions": [
+    "hvad er personlige stedord",
+    "personlige pronominer (stedord)",
+    "personlige stedord",
+    "personlige stedord dansk",
+    "personlige stedord engelsk",
+    "personlige stedord fransk",
+    "personlige stedord latin",
+    "personlige stedord spansk",
+    "personlige stedord tysk",
+    "stedord",
+    "stedord 2 bogstaver",
+    "stedord eksempler",
+    "stedord engelsk",
+    "stedord kryds",
+    "stedord krydsord",
+    "stedord latin",
+    "stedord opgaver",
+    "stedord på 3 bogstaver",
+    "stedord på 5 bogstaver",
+    "stedord på latin"
+   ]
+  },
+  "question-words": {
+   "heads": [
+    "spørgeord",
+    "hv-ord"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 18,
+   "suggestions": [
+    "hv ord dansk",
+    "hv ord komma",
+    "hv ord ordklasse",
+    "hv ord på engelsk",
+    "hv ord på fransk",
+    "hv ord på spansk",
+    "hv ord tysk",
+    "hv-ord",
+    "hv-ord opgaver",
+    "hv-ord på tysk",
+    "spørgeord",
+    "spørgeord dansk",
+    "spørgeord kryds",
+    "spørgeord på 4 bogstaver",
+    "spørgeord på engelsk",
+    "spørgeord på fransk",
+    "spørgeord på spansk",
+    "spørgeord på tysk"
+   ]
+  },
+  "cube-nets": {
+   "heads": [
+    "terningens net",
+    "terning skabelon"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 1,
+   "suggestions": [
+    "terning skabelon"
+   ]
+  },
+  "finger-counting": {
+   "heads": [
+    "fingertal",
+    "tælle på fingrene"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 9,
+   "suggestions": [
+    "deaf fingertalk",
+    "fingertalk",
+    "fingertalk app",
+    "fingertalk cafe",
+    "fingertalk exhibition",
+    "fingertalk london",
+    "fingertalk wellcome collection",
+    "triumph fingertalkin",
+    "tælle på fingrene"
+   ]
+  }
+ },
+ "suggestions": {
+  "indsæt ord": {
+   "candidate": "cloze",
+   "s": [
+    "indsæt orddeling. word",
+    "indsæt ord",
+    "indsæt det rigtige ord"
+   ]
+  },
+  "domino": {
+   "candidate": "dominoes",
+   "s": [
+    "dominos",
+    "dominos pizza",
+    "dominos hyllie",
+    "domino",
+    "domino regler",
+    "dominos helsingborg",
+    "dominos malmø",
+    "dominos limhamn",
+    "dominos mobilia",
+    "dominos slagelse"
+   ]
+  },
+  "domino til print": {
+   "candidate": "dominoes",
+   "s": [
+    "domino printing",
+    "domino printer",
+    "domino printing sciences",
+    "domino printer price",
+    "domino printing mexico",
+    "domino print and apply",
+    "domino printer ax350i",
+    "domino printing services",
+    "domino printer error codes pdf",
+    "domino printer manual pdf"
+   ]
+  },
+  "domino 1. klasse": {
+   "candidate": "dominoes",
+   "s": [
+    "domino 1 klasse",
+    "domino 1 klasse deutsch",
+    "domino lesen 1 klasse",
+    "mathe domino klasse 1",
+    "anlaut domino klasse 1",
+    "domino basteln klasse 1",
+    "domino geld klasse 1"
+   ]
+  },
+  "domino 2. klasse": {
+   "candidate": "dominoes",
+   "s": [
+    "domino 2 klasse",
+    "mathe domino klasse 2",
+    "lesedomino klasse 2",
+    "geld domino klasse 2"
+   ]
+  },
+  "domino 3. klasse": {
+   "candidate": "dominoes",
+   "s": [
+    "mathe domino 3 klasse"
+   ]
+  },
+  "kroppens dele": {
+   "candidate": "human-body",
+   "s": [
+    "kroppens dele",
+    "kroppens dele på dansk",
+    "kroppens dele på latin",
+    "hvad hedder kroppens dele"
+   ]
+  },
+  "kroppen": {
+   "candidate": "human-body",
+   "s": [
+    "kroppens største organ",
+    "kroppen",
+    "kroppens hus",
+    "kroppens organer",
+    "kroppens anatomi",
+    "kroppens hus sorø",
+    "kroppen holder regnskab",
+    "kroppen kan selv",
+    "kroppens anatomi kvinde",
+    "kroppen taler"
+   ]
+  },
+  "kroppen opgaver": {
+   "candidate": "human-body",
+   "s": [
+    "kroppen opgaver",
+    "kroppen opgaver indskoling"
+   ]
+  },
+  "kroppen til print": {
+   "candidate": "human-body",
+   "s": [
+    "kroppen print"
+   ]
+  },
+  "kroppen 1. klasse": {
+   "candidate": "human-body",
+   "s": [
+    "kroppen 1 klasse",
+    "undervisning om kroppen 1 klasse"
+   ]
+  },
+  "kroppen 2. klasse": {
+   "candidate": "human-body",
+   "s": [
+    "kroppen 2 klasse"
+   ]
+  },
+  "kroppen 3. klasse": {
+   "candidate": "human-body",
+   "s": [
+    "kroppen 3 klasse"
+   ]
+  },
+  "de fem sanser": {
+   "candidate": "five-senses",
+   "s": [
+    "de fem sanser",
+    "de fem sanser pia tafdrup",
+    "de fem sanser tv2",
+    "de fem menneskelige sanser",
+    "hvad er de fem sanser",
+    "hvad hedder de fem sanser",
+    "hva er de fem sanser"
+   ]
+  },
+  "sanserne": {
+   "candidate": "five-senses",
+   "s": [
+    "sanserne",
+    "sanserne for børn",
+    "sanserne undervisning",
+    "sanserne indskoling",
+    "sanserne hæfte",
+    "sansernes hospital",
+    "sanserne og autisme",
+    "sanserne alinea",
+    "sanserne video",
+    "sanserne 1 klasse"
+   ]
+  },
+  "sanserne opgaver": {
+   "candidate": "five-senses",
+   "s": [
+    "sanserne opgaver"
+   ]
+  },
+  "sanserne 1. klasse": {
+   "candidate": "five-senses",
+   "s": [
+    "sanserne 1 klasse"
+   ]
+  },
+  "vejret": {
+   "candidate": "weather",
+   "s": [
+    "vejret",
+    "vejret københavn",
+    "vejret malmø",
+    "vejret stockholm",
+    "vejret i morgen",
+    "vejret gøteborg",
+    "vejret i sverige",
+    "vejret helsingborg",
+    "vejret kalmar",
+    "vejret bornholm"
+   ]
+  },
+  "vejret opgaver": {
+   "candidate": "weather",
+   "s": [
+    "vejret opgaver"
+   ]
+  },
+  "vejret 2. klasse": {
+   "candidate": "weather",
+   "s": [
+    "vejret 2 klasse"
+   ]
+  },
+  "vejrsymboler": {
+   "candidate": "weather",
+   "s": [
+    "vejrsymboler",
+    "vejrsymboler vejr symboler",
+    "vejrsymboler vind"
+   ]
+  },
+  "tangram": {
+   "candidate": "tangram",
+   "s": [
+    "tangram",
+    "tangram puzzle",
+    "tangram figurer",
+    "tangram opgaver",
+    "tangram meaning",
+    "tangram puslespil",
+    "tangram brikker",
+    "tangram online",
+    "tangram print",
+    "tangram online games"
+   ]
+  },
+  "tangram opgaver": {
+   "candidate": "tangram",
+   "s": [
+    "tangram opgaver",
+    "tangram opgaver til print"
+   ]
+  },
+  "tangram til print": {
+   "candidate": "tangram",
+   "s": [
+    "tangram opgaver til print",
+    "tangram printable pdf",
+    "tangram print",
+    "tangram printable puzzles",
+    "tangram printable template",
+    "tangram printable shapes",
+    "tangram printable",
+    "tangram printen",
+    "tangram printables free",
+    "tangram printemps"
+   ]
+  },
+  "tangram 1. klasse": {
+   "candidate": "tangram",
+   "s": [
+    "tangram 1 klasse",
+    "tangram klasse 1 / 2",
+    "tangram klasse 1 ub",
+    "unterrichtsentwurf tangram 1 klasse",
+    "einfache tangram 1 klasse",
+    "tangram grundschule klasse 1",
+    "tangram unterrichtsreihe klasse 1"
+   ]
+  },
+  "tangram 2. klasse": {
+   "candidate": "tangram",
+   "s": [
+    "tangram 2 klasse",
+    "tangram formen 2 klasse",
+    "unterrichtsentwurf tangram 2 klasse",
+    "tangram grundschule klasse 2",
+    "tangram mathe klasse 2"
+   ]
+  },
+  "tangram 3. klasse": {
+   "candidate": "tangram",
+   "s": [
+    "tangram 3 klasse",
+    "tangram grundschule klasse 3"
+   ]
+  },
+  "tangram skabelon": {
+   "candidate": "tangram",
+   "s": [
+    "tangram skabelon"
+   ]
+  },
+  "affaldssortering": {
+   "candidate": "recycling",
+   "s": [
+    "affaldssortering sverige",
+    "affaldssortering",
+    "affaldssortering spande",
+    "affaldssortering ikea",
+    "affaldssortering københavn",
+    "affaldssortering guide",
+    "affaldssortering flamingo",
+    "affaldssortering i hjemmet",
+    "affaldssortering aalborg",
+    "affaldssortering århus"
+   ]
+  },
+  "affaldssortering opgaver": {
+   "candidate": "recycling",
+   "s": [
+    "affaldssortering opgaver"
+   ]
+  },
+  "affaldssortering til print": {
+   "candidate": "recycling",
+   "s": [
+    "affaldssortering til print",
+    "affaldssortering printerpatroner",
+    "affaldssortering print",
+    "affaldssortering printer toner",
+    "affaldssortering print selv"
+   ]
+  },
+  "sortering af affald": {
+   "candidate": "recycling",
+   "s": [
+    "sortering af affald",
+    "sortering af affald genbrugsstation",
+    "sortering af affald københavn",
+    "sortering af affald aalborg kommune",
+    "sortering af affald pizzabakker",
+    "sortering af affald bøger",
+    "sortering af affald holbæk",
+    "sortering af affald app",
+    "sortering af affald sønderborg",
+    "sortering af affald hedensted kommune"
+   ]
+  },
+  "lige og ulige tal": {
+   "candidate": "odd-and-even",
+   "s": [
+    "lige og ulige tal",
+    "lige og ulige tal opgaver",
+    "lige og ulige tal engelsk",
+    "lige og ulige tal 1 klasse",
+    "lige og ulige tal indskoling",
+    "lige ulige tal",
+    "hvad er lige og ulige tal",
+    "lige eller ulige tal"
+   ]
+  },
+  "lige og ulige tal opgaver": {
+   "candidate": "odd-and-even",
+   "s": [
+    "lige og ulige tal opgaver"
+   ]
+  },
+  "lige og ulige tal 1. klasse": {
+   "candidate": "odd-and-even",
+   "s": [
+    "lige og ulige tal 1 klasse"
+   ]
+  },
+  "lige ulige": {
+   "candidate": "odd-and-even",
+   "s": [
+    "lige ulige uger",
+    "lige ulige uger 2026",
+    "lige ulige uger 2025",
+    "lige ulige",
+    "lige ulige engelsk",
+    "lige ulige tal",
+    "lige ulige uge",
+    "lige ulige cpr",
+    "lige eller ulige uge",
+    "lige og ulige uger"
+   ]
+  },
+  "lige ulige opgaver": {
+   "candidate": "odd-and-even",
+   "s": [
+    "lige og ulige tal opgaver"
+   ]
+  },
+  "lige ulige 1. klasse": {
+   "candidate": "odd-and-even",
+   "s": [
+    "lige og ulige tal 1 klasse"
+   ]
+  },
+  "afrunding": {
+   "candidate": "rounding",
+   "s": [
+    "afrunding",
+    "afrunding engelsk",
+    "afrundingsfræser",
+    "afrundingsregler",
+    "afrunding i excel",
+    "afrunding af tal",
+    "afrunding tegn",
+    "afrunding symbol",
+    "afrunding matematik",
+    "afrunding opgaver"
+   ]
+  },
+  "afrunding opgaver": {
+   "candidate": "rounding",
+   "s": [
+    "afrunding opgaver",
+    "afrunding af decimaltal opgaver"
+   ]
+  },
+  "afrunding 2. klasse": {
+   "candidate": "rounding",
+   "s": [
+    "afrunding 2. klasse"
+   ]
+  },
+  "afrunding 3. klasse": {
+   "candidate": "rounding",
+   "s": [
+    "afrunding 3 klasse"
+   ]
+  },
+  "afrunde tal": {
+   "candidate": "rounding",
+   "s": [
+    "afrunde tal",
+    "afrunde tal i excel",
+    "afrunde tal engelsk"
+   ]
+  },
+  "stedord": {
+   "candidate": "pronouns",
+   "s": [
+    "stedord krydsord",
+    "stedord",
+    "stedord 2 bogstaver",
+    "stedord engelsk",
+    "stedord kryds",
+    "stedord på 3 bogstaver",
+    "stedord eksempler",
+    "stedord latin",
+    "stedord på latin",
+    "stedord på 5 bogstaver"
+   ]
+  },
+  "stedord opgaver": {
+   "candidate": "pronouns",
+   "s": [
+    "stedord opgaver"
+   ]
+  },
+  "personlige stedord": {
+   "candidate": "pronouns",
+   "s": [
+    "personlige stedord",
+    "personlige stedord engelsk",
+    "personlige stedord tysk",
+    "personlige stedord dansk",
+    "personlige stedord spansk",
+    "personlige stedord fransk",
+    "personlige stedord latin",
+    "personlige pronominer (stedord)",
+    "hvad er personlige stedord"
+   ]
+  },
+  "spørgeord": {
+   "candidate": "question-words",
+   "s": [
+    "spørgeord kryds",
+    "spørgeord",
+    "spørgeord på spansk",
+    "spørgeord på fransk",
+    "spørgeord på tysk",
+    "spørgeord dansk",
+    "spørgeord på engelsk",
+    "spørgeord på 4 bogstaver"
+   ]
+  },
+  "hv-ord": {
+   "candidate": "question-words",
+   "s": [
+    "hv-ord",
+    "hv-ord opgaver",
+    "hv-ord på tysk",
+    "hv ord dansk",
+    "hv ord på fransk",
+    "hv ord på spansk",
+    "hv ord komma",
+    "hv ord på engelsk",
+    "hv ord ordklasse",
+    "hv ord tysk"
+   ]
+  },
+  "hv-ord opgaver": {
+   "candidate": "question-words",
+   "s": [
+    "hv-ord opgaver"
+   ]
+  },
+  "terning skabelon": {
+   "candidate": "cube-nets",
+   "s": [
+    "terning skabelon"
+   ]
+  },
+  "fingertal": {
+   "candidate": "finger-counting",
+   "s": [
+    "fingertalk",
+    "fingertalk london",
+    "fingertalk cafe",
+    "fingertalk app",
+    "fingertalk wellcome collection",
+    "fingertalk exhibition",
+    "triumph fingertalkin",
+    "deaf fingertalk"
+   ]
+  },
+  "tælle på fingrene": {
+   "candidate": "finger-counting",
+   "s": [
+    "tælle på fingrene"
+   ]
+  }
+ }
+}

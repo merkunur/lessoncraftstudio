@@ -1,0 +1,531 @@
+{
+ "locale": "da",
+ "market": {
+  "hl": "da",
+  "gl": "dk"
+ },
+ "generatedAt": "2026-09-21T00:30:12.134Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds-nordic-v2.json",
+ "requestCount": 182,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cloze": {
+   "heads": [
+    "indsæt det rigtige ord",
+    "udfyld sætningerne"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 1,
+   "suggestions": [
+    "indsæt det rigtige ord"
+   ]
+  },
+  "dominoes": {
+   "heads": [
+    "taldomino",
+    "regnedomino"
+   ],
+   "requests": 14,
+   "productiveSeeds": 0,
+   "unique": 0,
+   "suggestions": []
+  },
+  "human-body": {
+   "heads": [
+    "kropsdele",
+    "menneskekroppen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 20,
+   "suggestions": [
+    "kropsdele",
+    "kropsdele kryds",
+    "kropsdele krydsord",
+    "kropsdele med e",
+    "kropsdele med j",
+    "kropsdele navne",
+    "kropsdele på spansk",
+    "kropsdelen",
+    "kropsdelen 5 bogstaver",
+    "kropsdelen synonym",
+    "menneskekroppen",
+    "menneskekroppen anatomi",
+    "menneskekroppen bog",
+    "menneskekroppen fysiologi og anatomi",
+    "menneskekroppen fysiologi og anatomi pdf",
+    "menneskekroppen indeni",
+    "menneskekroppen krydsord",
+    "menneskekroppen organer",
+    "menneskekroppen skelet",
+    "menneskekroppen tegning"
+   ]
+  },
+  "five-senses": {
+   "heads": [
+    "vores sanser",
+    "de 5 sanser"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 15,
+   "suggestions": [
+    "alle vores sanser",
+    "de 5 sanser",
+    "de 5 sanser for børn",
+    "de 5 sanser tv2",
+    "de 5 sanser undervisning",
+    "hva er de 5 sanser",
+    "hvad er de 5 sanser",
+    "hvad er vores sanser",
+    "hvad hedder de 5 sanser",
+    "hvad hedder vores sanser",
+    "vores 5 sanser",
+    "vores 6 sanser",
+    "vores 7 sanser",
+    "vores 8 sanser",
+    "vores sanser"
+   ]
+  },
+  "weather": {
+   "heads": [
+    "vejr",
+    "vejr og klima"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 21,
+   "suggestions": [
+    "cordoba vejr og klima",
+    "gyldendal vejr og klima 4 6",
+    "vejr",
+    "vejr klima",
+    "vejr og klima",
+    "vejr og klima alinea",
+    "vejr og klima geografi",
+    "vejr og klima gyldendal",
+    "vejr og klima gyldendal geografi",
+    "vejr og klima i danmark",
+    "vejr og klima tv2",
+    "vejr opgaver",
+    "vejret gøteborg",
+    "vejret helsingborg",
+    "vejret i morgen",
+    "vejret i sverige",
+    "vejret københavn",
+    "vejret malmø",
+    "vejret stockholm",
+    "vejret vimmerby",
+    "vejrudsigt"
+   ]
+  },
+  "tangram": {
+   "heads": [
+    "tangram brikker",
+    "tangram figurer"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 4,
+   "suggestions": [
+    "tangram brikker",
+    "tangram figurer",
+    "tangram figurer att skriva ut",
+    "tangram pussel figurer"
+   ]
+  },
+  "recycling": {
+   "heads": [
+    "genbrug",
+    "sorter affald"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 17,
+   "suggestions": [
+    "genbrug",
+    "genbrug gøteborg",
+    "genbrug lund",
+    "genbrug malmø",
+    "genbrug printerpatroner",
+    "genbrug ystad",
+    "genbrugsbutik",
+    "genbrugsbutik i nærheden",
+    "genbrugsbutik malmø",
+    "genbrugsplads",
+    "genbrugsstation",
+    "sorter affald",
+    "sorter affald app",
+    "sorter affald korrekt",
+    "sorter affald københavn",
+    "sorter dit affald",
+    "sorter dit affald før tyvene gør det"
+   ]
+  },
+  "odd-and-even": {
+   "heads": [
+    "lige tal og ulige tal",
+    "ulige og lige tal"
+   ],
+   "requests": 14,
+   "productiveSeeds": 6,
+   "unique": 6,
+   "suggestions": [
+    "lige og ulige tal 1 klasse",
+    "lige og ulige tal engelsk",
+    "lige og ulige tal indskoling",
+    "lige og ulige tal opgaver",
+    "lige tal og ulige tal",
+    "ulige og lige tal"
+   ]
+  },
+  "rounding": {
+   "heads": [
+    "afrunding til nærmeste tier",
+    "afrund til nærmeste"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 10,
+   "suggestions": [
+    "afrund til nærmeste 10",
+    "afrund til nærmeste 10 excel",
+    "afrund til nærmeste 100",
+    "afrund til nærmeste 100 excel",
+    "afrund til nærmeste 1000",
+    "afrund til nærmeste 1000 excel",
+    "afrund til nærmeste 5 er",
+    "afrund til nærmeste hele tal",
+    "afrund til nærmeste hundrede",
+    "afrunding til nærmeste tiendedele"
+   ]
+  },
+  "pronouns": {
+   "heads": [
+    "stedord dansk",
+    "personlige pronominer"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 14,
+   "suggestions": [
+    "henførende stedord dansk",
+    "personlige pronominer",
+    "personlige pronominer dansk",
+    "personlige pronominer engelsk",
+    "personlige pronominer fransk",
+    "personlige pronominer italiensk",
+    "personlige pronominer latin",
+    "personlige pronominer opgaver",
+    "personlige pronominer spansk",
+    "personlige pronominer tysk",
+    "personlige pronominer tysk bøjning",
+    "personlige pronominer tysk skema",
+    "personlige stedord dansk",
+    "stedord dansk"
+   ]
+  },
+  "question-words": {
+   "heads": [
+    "hv-spørgsmål",
+    "spørgeord dansk"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 11,
+   "suggestions": [
+    "hv spørgsmål adhd",
+    "hv spørgsmål autisme",
+    "hv spørgsmål dansk",
+    "hv spørgsmål eksempler",
+    "hv spørgsmål på engelsk",
+    "hv spørgsmål på tysk",
+    "hv spørgsmål salg",
+    "hv spørgsmål taksonomiske niveauer",
+    "hv spørgsmål til problemformulering",
+    "hv-spørgsmål",
+    "spørgeord dansk"
+   ]
+  },
+  "cube-nets": {
+   "heads": [
+    "terningens net",
+    "udfoldning af terning"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 1,
+   "suggestions": [
+    "udfoldning af terning"
+   ]
+  },
+  "finger-counting": {
+   "heads": [
+    "tælle med fingrene",
+    "fingertælling"
+   ],
+   "requests": 14,
+   "productiveSeeds": 0,
+   "unique": 0,
+   "suggestions": []
+  }
+ },
+ "suggestions": {
+  "indsæt det rigtige ord": {
+   "candidate": "cloze",
+   "s": [
+    "indsæt det rigtige ord"
+   ]
+  },
+  "kropsdele": {
+   "candidate": "human-body",
+   "s": [
+    "kropsdele krydsord",
+    "kropsdele",
+    "kropsdele navne",
+    "kropsdelen",
+    "kropsdelen 5 bogstaver",
+    "kropsdelen synonym",
+    "kropsdele kryds",
+    "kropsdele med e",
+    "kropsdele med j",
+    "kropsdele på spansk"
+   ]
+  },
+  "menneskekroppen": {
+   "candidate": "human-body",
+   "s": [
+    "menneskekroppen",
+    "menneskekroppen organer",
+    "menneskekroppen anatomi",
+    "menneskekroppen bog",
+    "menneskekroppen indeni",
+    "menneskekroppen tegning",
+    "menneskekroppen krydsord",
+    "menneskekroppen skelet",
+    "menneskekroppen fysiologi og anatomi",
+    "menneskekroppen fysiologi og anatomi pdf"
+   ]
+  },
+  "vores sanser": {
+   "candidate": "five-senses",
+   "s": [
+    "vores sanser",
+    "vores 5 sanser",
+    "alle vores sanser",
+    "vores 8 sanser",
+    "vores 7 sanser",
+    "vores 6 sanser",
+    "hvad hedder vores sanser",
+    "hvad er vores sanser"
+   ]
+  },
+  "de 5 sanser": {
+   "candidate": "five-senses",
+   "s": [
+    "de 5 sanser",
+    "de 5 sanser for børn",
+    "de 5 sanser undervisning",
+    "de 5 sanser tv2",
+    "hvad er de 5 sanser",
+    "hvad hedder de 5 sanser",
+    "hva er de 5 sanser"
+   ]
+  },
+  "vejr": {
+   "candidate": "weather",
+   "s": [
+    "vejr",
+    "vejret københavn",
+    "vejret malmø",
+    "vejret stockholm",
+    "vejret gøteborg",
+    "vejret i morgen",
+    "vejret i sverige",
+    "vejret helsingborg",
+    "vejrudsigt",
+    "vejret vimmerby"
+   ]
+  },
+  "vejr opgaver": {
+   "candidate": "weather",
+   "s": [
+    "vejr opgaver"
+   ]
+  },
+  "vejr og klima": {
+   "candidate": "weather",
+   "s": [
+    "vejr og klima",
+    "vejr og klima gyldendal",
+    "vejr og klima alinea",
+    "vejr og klima tv2",
+    "vejr og klima i danmark",
+    "vejr og klima geografi",
+    "vejr og klima gyldendal geografi",
+    "gyldendal vejr og klima 4 6",
+    "cordoba vejr og klima",
+    "vejr klima"
+   ]
+  },
+  "tangram brikker": {
+   "candidate": "tangram",
+   "s": [
+    "tangram brikker"
+   ]
+  },
+  "tangram figurer": {
+   "candidate": "tangram",
+   "s": [
+    "tangram figurer",
+    "tangram figurer att skriva ut",
+    "tangram pussel figurer"
+   ]
+  },
+  "genbrug": {
+   "candidate": "recycling",
+   "s": [
+    "genbrugsbutik",
+    "genbrugsbutik i nærheden",
+    "genbrugsstation",
+    "genbrug",
+    "genbrug malmø",
+    "genbrugsplads",
+    "genbrugsbutik malmø",
+    "genbrug ystad",
+    "genbrug gøteborg",
+    "genbrug lund"
+   ]
+  },
+  "genbrug til print": {
+   "candidate": "recycling",
+   "s": [
+    "genbrug printerpatroner"
+   ]
+  },
+  "sorter affald": {
+   "candidate": "recycling",
+   "s": [
+    "sorter affald",
+    "sorter affald københavn",
+    "sorter affald korrekt",
+    "sorter affald app",
+    "sorter dit affald",
+    "sorter dit affald før tyvene gør det"
+   ]
+  },
+  "lige tal og ulige tal": {
+   "candidate": "odd-and-even",
+   "s": [
+    "lige tal og ulige tal"
+   ]
+  },
+  "lige tal og ulige tal opgaver": {
+   "candidate": "odd-and-even",
+   "s": [
+    "lige og ulige tal opgaver"
+   ]
+  },
+  "lige tal og ulige tal 1. klasse": {
+   "candidate": "odd-and-even",
+   "s": [
+    "lige og ulige tal 1 klasse"
+   ]
+  },
+  "ulige og lige tal": {
+   "candidate": "odd-and-even",
+   "s": [
+    "ulige og lige tal",
+    "lige og ulige tal opgaver",
+    "lige og ulige tal engelsk",
+    "lige og ulige tal 1 klasse",
+    "lige og ulige tal indskoling"
+   ]
+  },
+  "ulige og lige tal opgaver": {
+   "candidate": "odd-and-even",
+   "s": [
+    "lige og ulige tal opgaver"
+   ]
+  },
+  "ulige og lige tal 1. klasse": {
+   "candidate": "odd-and-even",
+   "s": [
+    "lige og ulige tal 1 klasse"
+   ]
+  },
+  "afrund til nærmeste": {
+   "candidate": "rounding",
+   "s": [
+    "afrund til nærmeste 100",
+    "afrund til nærmeste 10",
+    "afrund til nærmeste 1000",
+    "afrund til nærmeste 10 excel",
+    "afrund til nærmeste hele tal",
+    "afrund til nærmeste 1000 excel",
+    "afrund til nærmeste 100 excel",
+    "afrunding til nærmeste tiendedele",
+    "afrund til nærmeste 5 er",
+    "afrund til nærmeste hundrede"
+   ]
+  },
+  "stedord dansk": {
+   "candidate": "pronouns",
+   "s": [
+    "stedord dansk",
+    "personlige stedord dansk",
+    "henførende stedord dansk"
+   ]
+  },
+  "personlige pronominer": {
+   "candidate": "pronouns",
+   "s": [
+    "personlige pronominer",
+    "personlige pronominer tysk",
+    "personlige pronominer dansk",
+    "personlige pronominer engelsk",
+    "personlige pronominer spansk",
+    "personlige pronominer fransk",
+    "personlige pronominer tysk skema",
+    "personlige pronominer latin",
+    "personlige pronominer italiensk",
+    "personlige pronominer tysk bøjning"
+   ]
+  },
+  "personlige pronominer opgaver": {
+   "candidate": "pronouns",
+   "s": [
+    "personlige pronominer opgaver"
+   ]
+  },
+  "hv-spørgsmål": {
+   "candidate": "question-words",
+   "s": [
+    "hv-spørgsmål",
+    "hv spørgsmål autisme",
+    "hv spørgsmål til problemformulering",
+    "hv spørgsmål på engelsk",
+    "hv spørgsmål dansk",
+    "hv spørgsmål taksonomiske niveauer",
+    "hv spørgsmål på tysk",
+    "hv spørgsmål salg",
+    "hv spørgsmål eksempler",
+    "hv spørgsmål adhd"
+   ]
+  },
+  "spørgeord dansk": {
+   "candidate": "question-words",
+   "s": [
+    "spørgeord dansk"
+   ]
+  },
+  "udfoldning af terning": {
+   "candidate": "cube-nets",
+   "s": [
+    "udfoldning af terning"
+   ]
+  }
+ }
+}

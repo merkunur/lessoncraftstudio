@@ -1,0 +1,478 @@
+{
+ "locale": "fi",
+ "market": {
+  "hl": "fi",
+  "gl": "fi"
+ },
+ "generatedAt": "2026-09-21T00:31:38.803Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds-nordic-v2.json",
+ "requestCount": 182,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cloze": {
+   "heads": [
+    "täydennä lauseet",
+    "aukkotehtäviä"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 1,
+   "suggestions": [
+    "täydennä lauseet"
+   ]
+  },
+  "dominoes": {
+   "heads": [
+    "domino lapsille",
+    "numerodomino"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 1,
+   "suggestions": [
+    "domino peli lapsille"
+   ]
+  },
+  "human-body": {
+   "heads": [
+    "ihmisen keho lapsille",
+    "kehonosat"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 12,
+   "suggestions": [
+    "ihmiskeho lapsille",
+    "kehonosat",
+    "kehonosat englanniksi",
+    "kehonosat lapsille",
+    "kehonosat laulu",
+    "kehonosat laululeikit",
+    "kehonosat loru",
+    "kehonosat ruotsiksi",
+    "kehonosat s2",
+    "kehonosat suomeksi",
+    "kehonosat tehtäviä",
+    "kehonosat wordwall"
+   ]
+  },
+  "five-senses": {
+   "heads": [
+    "ihmisen aistit",
+    "aistit lapsille"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 11,
+   "suggestions": [
+    "aistit lapsille",
+    "aistit video lapsille",
+    "ihmisen aistien ja niihin liittyvät aistinelimet",
+    "ihmisen aistit",
+    "ihmisen aistit ja niiden toiminta",
+    "ihmisen eri aistit",
+    "ihmisen kaikki aistit",
+    "ihmisen perusaistit",
+    "ihmisen tärkeimmät aistit",
+    "mitkä on ihmisen aistit",
+    "mitkä ovat ihmisen aistit"
+   ]
+  },
+  "weather": {
+   "heads": [
+    "säätilat",
+    "säämerkit"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 18,
+   "suggestions": [
+    "eri säätilat",
+    "erilaiset säätilat",
+    "ilmatieteen säämerkit",
+    "ilmatieteenlaitoksen säämerkit",
+    "kaikki säämerkit",
+    "menneet säätilat",
+    "säämerkit",
+    "säämerkit ilmatieteen laitos helsinki",
+    "säämerkit lapsille",
+    "säämerkit yle",
+    "säätilat",
+    "säätilat englanniksi",
+    "säätilat espanjaksi",
+    "säätilat ranskaksi",
+    "säätilat ruotsiksi",
+    "säätilat saksaksi",
+    "säätilat suomessa",
+    "uudet säämerkit"
+   ]
+  },
+  "tangram": {
+   "heads": [
+    "tangram kuviot",
+    "tangram lapsille"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 3,
+   "suggestions": [
+    "tangram kuviot",
+    "tangram lapsille",
+    "tangram tehtäviä lapsille"
+   ]
+  },
+  "recycling": {
+   "heads": [
+    "kierrätys lapsille",
+    "lajittelu"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 21,
+   "suggestions": [
+    "kierrätys askartelu lapsille",
+    "kierrätys kirja lapsille",
+    "kierrätys kuvat lapsille",
+    "kierrätys lapsille",
+    "kierrätys lapsille pikku kakkonen",
+    "kierrätys laulu lapsille",
+    "kierrätys leikkejä lapsille",
+    "kierrätys ohjeet lapsille",
+    "kierrätys tehtäviä lapsille",
+    "kierrätys video lapsille",
+    "lajittelu 2",
+    "lajittelu 22 pap",
+    "lajittelu 5 pp",
+    "lajitteluasema kotiin",
+    "lajitteluasema paimio",
+    "lajitteluastia pulloille",
+    "lajitteluastia smartstore collect",
+    "lajittelukeskus posti",
+    "lajittelulaatikot",
+    "lajittelutarra",
+    "lajittelutehtäviä lapsille"
+   ]
+  },
+  "odd-and-even": {
+   "heads": [
+    "parilliset ja parittomat luvut",
+    "parillinen vai pariton"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 11,
+   "suggestions": [
+    "0 parillinen vai pariton",
+    "nolla parillinen vai pariton",
+    "onko nyt parillinen vai pariton",
+    "onko tänään parillinen vai pariton viikko",
+    "parillinen pariton",
+    "parillinen pariton englanniksi",
+    "parillinen pariton viikko",
+    "parillinen vai pariton",
+    "parillinen vai pariton viikko",
+    "parillinen vai pariton viikko nyt",
+    "parilliset ja parittomat luvut"
+   ]
+  },
+  "rounding": {
+   "heads": [
+    "pyöristäminen kymmenien tarkkuuteen",
+    "pyöristys"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 10,
+   "suggestions": [
+    "pyöristys",
+    "pyöristys englanniksi",
+    "pyöristys excel",
+    "pyöristys laskuri",
+    "pyöristys merkki",
+    "pyöristys merkki word",
+    "pyöristysjyrsin",
+    "pyöristyssäännöt",
+    "pyöristyssääntö",
+    "pyöristysterä"
+   ]
+  },
+  "pronouns": {
+   "heads": [
+    "pronominit suomi",
+    "persoonapronominit tehtäviä"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 2,
+   "suggestions": [
+    "pronominit suomi",
+    "ruotsi persoonapronominit tehtäviä"
+   ]
+  },
+  "question-words": {
+   "heads": [
+    "kysymyssanat suomi",
+    "kuka mikä missä"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 4,
+   "suggestions": [
+    "kuka mikä missä",
+    "kysymyssanat ruotsi suomi",
+    "kysymyssanat suomi",
+    "wordwall suomi kysymyssanat"
+   ]
+  },
+  "cube-nets": {
+   "heads": [
+    "kuution verkko",
+    "kuutio askartelu"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 1,
+   "suggestions": [
+    "kuutio askartelu"
+   ]
+  },
+  "finger-counting": {
+   "heads": [
+    "sormilla laskeminen",
+    "sormet laskeminen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 1,
+   "suggestions": [
+    "sormilla laskeminen"
+   ]
+  }
+ },
+ "suggestions": {
+  "täydennä lauseet": {
+   "candidate": "cloze",
+   "s": [
+    "täydennä lauseet"
+   ]
+  },
+  "domino lapsille": {
+   "candidate": "dominoes",
+   "s": [
+    "domino peli lapsille"
+   ]
+  },
+  "ihmisen keho lapsille": {
+   "candidate": "human-body",
+   "s": [
+    "ihmiskeho lapsille"
+   ]
+  },
+  "kehonosat": {
+   "candidate": "human-body",
+   "s": [
+    "kehonosat loru",
+    "kehonosat s2",
+    "kehonosat wordwall",
+    "kehonosat suomeksi",
+    "kehonosat laululeikit",
+    "kehonosat lapsille",
+    "kehonosat ruotsiksi",
+    "kehonosat",
+    "kehonosat laulu",
+    "kehonosat englanniksi"
+   ]
+  },
+  "kehonosat tehtäviä": {
+   "candidate": "human-body",
+   "s": [
+    "kehonosat tehtäviä"
+   ]
+  },
+  "ihmisen aistit": {
+   "candidate": "five-senses",
+   "s": [
+    "ihmisen aistit",
+    "ihmisen aistit ja niiden toiminta",
+    "ihmisen aistien ja niihin liittyvät aistinelimet",
+    "ihmisen kaikki aistit",
+    "ihmisen eri aistit",
+    "ihmisen tärkeimmät aistit",
+    "ihmisen perusaistit",
+    "mitkä ovat ihmisen aistit",
+    "mitkä on ihmisen aistit"
+   ]
+  },
+  "aistit lapsille": {
+   "candidate": "five-senses",
+   "s": [
+    "aistit lapsille",
+    "aistit video lapsille"
+   ]
+  },
+  "säätilat": {
+   "candidate": "weather",
+   "s": [
+    "säätilat",
+    "säätilat suomessa",
+    "säätilat ruotsiksi",
+    "säätilat englanniksi",
+    "säätilat espanjaksi",
+    "säätilat saksaksi",
+    "säätilat ranskaksi",
+    "eri säätilat",
+    "menneet säätilat",
+    "erilaiset säätilat"
+   ]
+  },
+  "säämerkit": {
+   "candidate": "weather",
+   "s": [
+    "säämerkit",
+    "säämerkit ilmatieteen laitos helsinki",
+    "säämerkit lapsille",
+    "säämerkit yle",
+    "ilmatieteenlaitoksen säämerkit",
+    "uudet säämerkit",
+    "ilmatieteen säämerkit",
+    "kaikki säämerkit"
+   ]
+  },
+  "tangram kuviot": {
+   "candidate": "tangram",
+   "s": [
+    "tangram kuviot"
+   ]
+  },
+  "tangram lapsille": {
+   "candidate": "tangram",
+   "s": [
+    "tangram lapsille",
+    "tangram tehtäviä lapsille"
+   ]
+  },
+  "tangram lapsille tehtäviä": {
+   "candidate": "tangram",
+   "s": [
+    "tangram tehtäviä lapsille"
+   ]
+  },
+  "kierrätys lapsille": {
+   "candidate": "recycling",
+   "s": [
+    "kierrätys lapsille",
+    "kierrätys lapsille pikku kakkonen",
+    "kierrätys kuvat lapsille",
+    "kierrätys laulu lapsille",
+    "kierrätys askartelu lapsille",
+    "kierrätys video lapsille",
+    "kierrätys tehtäviä lapsille",
+    "kierrätys ohjeet lapsille",
+    "kierrätys leikkejä lapsille",
+    "kierrätys kirja lapsille"
+   ]
+  },
+  "kierrätys lapsille tehtäviä": {
+   "candidate": "recycling",
+   "s": [
+    "kierrätys tehtäviä lapsille"
+   ]
+  },
+  "lajittelu": {
+   "candidate": "recycling",
+   "s": [
+    "lajittelu 5 pp",
+    "lajittelukeskus posti",
+    "lajittelu 22 pap",
+    "lajitteluastia pulloille",
+    "lajitteluasema kotiin",
+    "lajitteluasema paimio",
+    "lajittelulaatikot",
+    "lajittelutarra",
+    "lajittelu 2",
+    "lajitteluastia smartstore collect"
+   ]
+  },
+  "lajittelu tehtäviä": {
+   "candidate": "recycling",
+   "s": [
+    "lajittelutehtäviä lapsille"
+   ]
+  },
+  "parilliset ja parittomat luvut": {
+   "candidate": "odd-and-even",
+   "s": [
+    "parilliset ja parittomat luvut"
+   ]
+  },
+  "parillinen vai pariton": {
+   "candidate": "odd-and-even",
+   "s": [
+    "parillinen vai pariton viikko",
+    "parillinen vai pariton",
+    "parillinen vai pariton viikko nyt",
+    "nolla parillinen vai pariton",
+    "0 parillinen vai pariton",
+    "parillinen pariton englanniksi",
+    "parillinen pariton viikko",
+    "parillinen pariton",
+    "onko tänään parillinen vai pariton viikko",
+    "onko nyt parillinen vai pariton"
+   ]
+  },
+  "pyöristys": {
+   "candidate": "rounding",
+   "s": [
+    "pyöristyssäännöt",
+    "pyöristys merkki",
+    "pyöristys laskuri",
+    "pyöristys englanniksi",
+    "pyöristys",
+    "pyöristysjyrsin",
+    "pyöristyssääntö",
+    "pyöristysterä",
+    "pyöristys excel",
+    "pyöristys merkki word"
+   ]
+  },
+  "pronominit suomi": {
+   "candidate": "pronouns",
+   "s": [
+    "pronominit suomi"
+   ]
+  },
+  "persoonapronominit tehtäviä": {
+   "candidate": "pronouns",
+   "s": [
+    "ruotsi persoonapronominit tehtäviä"
+   ]
+  },
+  "kysymyssanat suomi": {
+   "candidate": "question-words",
+   "s": [
+    "kysymyssanat suomi",
+    "kysymyssanat ruotsi suomi",
+    "wordwall suomi kysymyssanat"
+   ]
+  },
+  "kuka mikä missä": {
+   "candidate": "question-words",
+   "s": [
+    "kuka mikä missä"
+   ]
+  },
+  "kuutio askartelu": {
+   "candidate": "cube-nets",
+   "s": [
+    "kuutio askartelu"
+   ]
+  },
+  "sormilla laskeminen": {
+   "candidate": "finger-counting",
+   "s": [
+    "sormilla laskeminen"
+   ]
+  }
+ }
+}

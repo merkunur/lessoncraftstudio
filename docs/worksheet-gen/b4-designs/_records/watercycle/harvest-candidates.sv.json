@@ -1,0 +1,123 @@
+{
+ "locale": "sv",
+ "market": {
+  "hl": "sv",
+  "gl": "se"
+ },
+ "generatedAt": "2026-09-21T00:38:28.902Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds-watercycle.json",
+ "requestCount": 14,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "water-cycle": {
+   "heads": [
+    "vattnets kretslopp",
+    "vattnets kretslopp för barn"
+   ],
+   "requests": 14,
+   "productiveSeeds": 9,
+   "unique": 24,
+   "suggestions": [
+    "fakta om vattnets kretslopp för barn",
+    "förklara vattnets kretslopp för barn",
+    "vattnets kretslopp",
+    "vattnets kretslopp arbetsblad",
+    "vattnets kretslopp arbetsblad gratis",
+    "vattnets kretslopp barn",
+    "vattnets kretslopp barn arbetsblad",
+    "vattnets kretslopp barn bild",
+    "vattnets kretslopp barn experiment",
+    "vattnets kretslopp barn sång",
+    "vattnets kretslopp bild",
+    "vattnets kretslopp bild att skriva ut",
+    "vattnets kretslopp enkel förklaring",
+    "vattnets kretslopp experiment",
+    "vattnets kretslopp film",
+    "vattnets kretslopp film för barn",
+    "vattnets kretslopp för barn",
+    "vattnets kretslopp förskola",
+    "vattnets kretslopp förskoleklass",
+    "vattnets kretslopp steg för steg",
+    "vattnets kretslopp sång",
+    "vattnets kretslopp åk 1",
+    "vattnets kretslopp åk 2",
+    "vattnets kretslopp åk 3"
+   ]
+  }
+ },
+ "suggestions": {
+  "vattnets kretslopp": {
+   "candidate": "water-cycle",
+   "s": [
+    "vattnets kretslopp",
+    "vattnets kretslopp barn",
+    "vattnets kretslopp sång",
+    "vattnets kretslopp bild",
+    "vattnets kretslopp enkel förklaring",
+    "vattnets kretslopp film",
+    "vattnets kretslopp experiment",
+    "vattnets kretslopp steg för steg",
+    "vattnets kretslopp förskola",
+    "vattnets kretslopp arbetsblad"
+   ]
+  },
+  "vattnets kretslopp arbetsblad": {
+   "candidate": "water-cycle",
+   "s": [
+    "vattnets kretslopp arbetsblad",
+    "vattnets kretslopp arbetsblad gratis",
+    "vattnets kretslopp barn arbetsblad"
+   ]
+  },
+  "vattnets kretslopp skriva ut": {
+   "candidate": "water-cycle",
+   "s": [
+    "vattnets kretslopp bild att skriva ut"
+   ]
+  },
+  "vattnets kretslopp förskoleklass": {
+   "candidate": "water-cycle",
+   "s": [
+    "vattnets kretslopp förskoleklass"
+   ]
+  },
+  "vattnets kretslopp åk 1": {
+   "candidate": "water-cycle",
+   "s": [
+    "vattnets kretslopp åk 1"
+   ]
+  },
+  "vattnets kretslopp åk 2": {
+   "candidate": "water-cycle",
+   "s": [
+    "vattnets kretslopp åk 2"
+   ]
+  },
+  "vattnets kretslopp åk 3": {
+   "candidate": "water-cycle",
+   "s": [
+    "vattnets kretslopp åk 3"
+   ]
+  },
+  "vattnets kretslopp för barn": {
+   "candidate": "water-cycle",
+   "s": [
+    "vattnets kretslopp för barn",
+    "förklara vattnets kretslopp för barn",
+    "vattnets kretslopp film för barn",
+    "vattnets kretslopp barn bild",
+    "vattnets kretslopp barn arbetsblad",
+    "vattnets kretslopp barn sång",
+    "vattnets kretslopp barn experiment",
+    "fakta om vattnets kretslopp för barn"
+   ]
+  },
+  "vattnets kretslopp för barn arbetsblad": {
+   "candidate": "water-cycle",
+   "s": [
+    "vattnets kretslopp barn arbetsblad"
+   ]
+  }
+ }
+}

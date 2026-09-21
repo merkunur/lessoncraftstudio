@@ -1,0 +1,66 @@
+{
+ "_about": "nt10-D Nordic round-2 seeds (sv da no fi only), authored 2026-09-21 by the Nordic native-SEO panel after round 1 (candidate-seeds.json). Every head is the school-register phrase a teacher types; where round 1 used a language-learning or forecast term (lucktext, vädret, terningnett) it is replaced; where round 1 was fine the alternates probe the SECOND native head so the two rounds add up. Same schema as candidate-seeds.json; run with --out=docs/worksheet-gen/b4-designs/_records/v2.",
+ "candidates": ["cloze", "dominoes", "human-body", "five-senses", "weather", "tangram", "recycling", "odd-and-even", "rounding", "pronouns", "question-words", "cube-nets", "finger-counting"],
+ "heads": {
+  "sv": {
+   "cloze": ["fyll i rätt ord", "lucktexter"],
+   "dominoes": ["sifferdomino", "bokstavsdomino"],
+   "human-body": ["människokroppen", "kroppens delar"],
+   "five-senses": ["våra fem sinnen", "sinnena"],
+   "weather": ["väder", "väderdagbok"],
+   "tangram": ["tangram pussel", "tangram figurer"],
+   "recycling": ["återvinning", "sortera sopor"],
+   "odd-and-even": ["jämna och udda tal", "udda och jämna"],
+   "rounding": ["avrunda till tiotal", "avrundning till närmaste tiotal"],
+   "pronouns": ["pronomen svenska", "han hon den det"],
+   "question-words": ["frågeord svenska", "vem vad var när"],
+   "cube-nets": ["kubens nät", "kub att vika"],
+   "finger-counting": ["räkna med fingrarna", "fingerräkning"]
+  },
+  "da": {
+   "cloze": ["indsæt det rigtige ord", "udfyld sætningerne"],
+   "dominoes": ["taldomino", "regnedomino"],
+   "human-body": ["kropsdele", "menneskekroppen"],
+   "five-senses": ["vores sanser", "de 5 sanser"],
+   "weather": ["vejr", "vejr og klima"],
+   "tangram": ["tangram brikker", "tangram figurer"],
+   "recycling": ["genbrug", "sorter affald"],
+   "odd-and-even": ["lige tal og ulige tal", "ulige og lige tal"],
+   "rounding": ["afrunding til nærmeste tier", "afrund til nærmeste"],
+   "pronouns": ["stedord dansk", "personlige pronominer"],
+   "question-words": ["hv-spørgsmål", "spørgeord dansk"],
+   "cube-nets": ["terningens net", "udfoldning af terning"],
+   "finger-counting": ["tælle med fingrene", "fingertælling"]
+  },
+  "no": {
+   "cloze": ["sett inn riktig ord", "fyll ut setningene"],
+   "dominoes": ["talldomino", "domino spill for barn"],
+   "human-body": ["menneskekroppen", "kroppen vår"],
+   "five-senses": ["sansene våre", "de 5 sansene"],
+   "weather": ["vær", "vær og klima"],
+   "tangram": ["tangram figurer", "tangram brikker"],
+   "recycling": ["søppelsortering", "gjenvinning"],
+   "odd-and-even": ["oddetall og partall", "partall"],
+   "rounding": ["avrunding til nærmeste tier", "avrunde til nærmeste"],
+   "pronouns": ["pronomen norsk", "personlige pronomen bokmål"],
+   "question-words": ["spørreord norsk", "hv-ord"],
+   "cube-nets": ["nett av en terning", "brett en terning"],
+   "finger-counting": ["telle med fingrene", "fingertelling"]
+  },
+  "fi": {
+   "cloze": ["täydennä lauseet", "aukkotehtäviä"],
+   "dominoes": ["domino lapsille", "numerodomino"],
+   "human-body": ["ihmisen keho lapsille", "kehonosat"],
+   "five-senses": ["ihmisen aistit", "aistit lapsille"],
+   "weather": ["säätilat", "säämerkit"],
+   "tangram": ["tangram kuviot", "tangram lapsille"],
+   "recycling": ["kierrätys lapsille", "lajittelu"],
+   "odd-and-even": ["parilliset ja parittomat luvut", "parillinen vai pariton"],
+   "rounding": ["pyöristäminen kymmenien tarkkuuteen", "pyöristys"],
+   "pronouns": ["pronominit suomi", "persoonapronominit tehtäviä"],
+   "question-words": ["kysymyssanat suomi", "kuka mikä missä"],
+   "cube-nets": ["kuution verkko", "kuutio askartelu"],
+   "finger-counting": ["sormilla laskeminen", "sormet laskeminen"]
+  }
+ }
+}

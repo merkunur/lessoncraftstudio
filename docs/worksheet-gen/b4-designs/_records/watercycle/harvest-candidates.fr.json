@@ -1,0 +1,304 @@
+{
+ "locale": "fr",
+ "market": {
+  "hl": "fr",
+  "gl": "fr"
+ },
+ "generatedAt": "2026-09-21T00:38:07.870Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds-watercycle.json",
+ "requestCount": 14,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "water-cycle": {
+   "heads": [
+    "cycle de l'eau",
+    "le cycle de l'eau"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 94,
+   "suggestions": [
+    "activité cycle de l'eau maternelle",
+    "activité sur le cycle de l eau en maternelle",
+    "album cycle de l eau maternelle",
+    "album sur le cycle de l eau maternelle",
+    "canopé cycle de l'eau",
+    "coloriage cycle de l'eau maternelle",
+    "cycle de l eau ce1 ce2",
+    "cycle de l eau ce1 lutin bazar",
+    "cycle de l eau ce1 schéma",
+    "cycle de l eau ce2 cm1",
+    "cycle de l eau ce2 evaluation",
+    "cycle de l eau ce2 leçon",
+    "cycle de l eau ce2 lutin bazar",
+    "cycle de l eau ce2 video",
+    "cycle de l eau cp ce1",
+    "cycle de l eau fiche",
+    "cycle de l eau maternelle gs",
+    "cycle de l eau maternelle video",
+    "cycle de l eau à imprimer",
+    "cycle de l'eau",
+    "cycle de l'eau ce1",
+    "cycle de l'eau ce2",
+    "cycle de l'eau ce2 pdf",
+    "cycle de l'eau cherbourg",
+    "cycle de l'eau clermont ferrand",
+    "cycle de l'eau cp",
+    "cycle de l'eau cp schéma",
+    "cycle de l'eau domestique",
+    "cycle de l'eau définition",
+    "cycle de l'eau gs cp",
+    "cycle de l'eau maternelle",
+    "cycle de l'eau schéma",
+    "cycle de l'eau valognes",
+    "evaluation cycle de l eau cp",
+    "evaluation cycle de l'eau ce2 pdf",
+    "expliquer le cycle de l eau en maternelle",
+    "expérience cycle de l'eau maternelle",
+    "fiche cycle de l eau ce1",
+    "fiche cycle de l eau ce2",
+    "fiche cycle de l eau cp",
+    "fiche le cycle de l eau cp",
+    "fiche les états de l eau cycle 2",
+    "le cycle de l eau canopé",
+    "le cycle de l eau ce1 evaluation",
+    "le cycle de l eau ce1 leçon",
+    "le cycle de l eau ce1 maitre lucas",
+    "le cycle de l eau ce2 maitre lucas",
+    "le cycle de l eau cp ce1",
+    "le cycle de l eau cp maitre lucas",
+    "le cycle de l eau cp vidéo",
+    "le cycle de l eau fiche",
+    "le cycle de l eau gs cp",
+    "le cycle de l eau à imprimer",
+    "le cycle de l'eau",
+    "le cycle de l'eau c'est pas sorcier",
+    "le cycle de l'eau ce1",
+    "le cycle de l'eau ce1 ce2",
+    "le cycle de l'eau ce1 exercices",
+    "le cycle de l'eau ce1 lutin bazar",
+    "le cycle de l'eau ce1 pdf",
+    "le cycle de l'eau ce1 video",
+    "le cycle de l'eau ce2",
+    "le cycle de l'eau ce2 cm1",
+    "le cycle de l'eau ce2 evaluation",
+    "le cycle de l'eau ce2 exercice",
+    "le cycle de l'eau ce2 leçon",
+    "le cycle de l'eau ce2 lumni",
+    "le cycle de l'eau ce2 lutin bazar",
+    "le cycle de l'eau ce2 pdf",
+    "le cycle de l'eau ce2 vidéo",
+    "le cycle de l'eau cm1",
+    "le cycle de l'eau cp",
+    "le cycle de l'eau cp ce1",
+    "le cycle de l'eau cp pdf",
+    "le cycle de l'eau cycle 2",
+    "le cycle de l'eau cycle 3",
+    "le cycle de l'eau domestique",
+    "le cycle de l'eau domestique maternelle",
+    "le cycle de l'eau expliqué aux enfants",
+    "le cycle de l'eau fiche pédagogique",
+    "le cycle de l'eau maternelle",
+    "le cycle de l'eau maternelle fiche",
+    "le cycle de l'eau maternelle gs",
+    "leçon cycle de l'eau ce1",
+    "maquette cycle de l'eau maternelle",
+    "schéma cycle de l'eau ce2",
+    "schéma cycle de l'eau maternelle",
+    "séquence cycle de l'eau ce2",
+    "séquence cycle de l'eau cp",
+    "séquence le cycle de l eau cp",
+    "trace écrite le cycle de l eau cp",
+    "video cycle de l eau ce1",
+    "video le cycle de l'eau maternelle",
+    "évaluation cycle de l'eau ce1"
+   ]
+  }
+ },
+ "suggestions": {
+  "cycle de l'eau": {
+   "candidate": "water-cycle",
+   "s": [
+    "cycle de l'eau",
+    "cycle de l'eau schéma",
+    "cycle de l'eau ce2",
+    "cycle de l'eau clermont ferrand",
+    "cycle de l'eau valognes",
+    "cycle de l'eau maternelle",
+    "cycle de l'eau domestique",
+    "cycle de l'eau cherbourg",
+    "cycle de l'eau ce1",
+    "cycle de l'eau définition"
+   ]
+  },
+  "cycle de l'eau fiche": {
+   "candidate": "water-cycle",
+   "s": [
+    "cycle de l eau fiche",
+    "le cycle de l'eau fiche pédagogique",
+    "le cycle de l'eau maternelle fiche",
+    "fiche cycle de l eau ce2",
+    "fiche cycle de l eau ce1",
+    "fiche cycle de l eau cp",
+    "fiche les états de l eau cycle 2"
+   ]
+  },
+  "cycle de l'eau à imprimer": {
+   "candidate": "water-cycle",
+   "s": [
+    "cycle de l eau à imprimer"
+   ]
+  },
+  "cycle de l'eau maternelle": {
+   "candidate": "water-cycle",
+   "s": [
+    "cycle de l'eau maternelle",
+    "cycle de l eau maternelle gs",
+    "cycle de l eau maternelle video",
+    "le cycle de l'eau maternelle fiche",
+    "coloriage cycle de l'eau maternelle",
+    "maquette cycle de l'eau maternelle",
+    "schéma cycle de l'eau maternelle",
+    "expérience cycle de l'eau maternelle",
+    "activité cycle de l'eau maternelle",
+    "album cycle de l eau maternelle"
+   ]
+  },
+  "cycle de l'eau cp": {
+   "candidate": "water-cycle",
+   "s": [
+    "cycle de l'eau cp",
+    "cycle de l eau cp ce1",
+    "cycle de l'eau cp schéma",
+    "le cycle de l'eau cp pdf",
+    "séquence cycle de l'eau cp",
+    "le cycle de l eau cp vidéo",
+    "cycle de l'eau gs cp",
+    "evaluation cycle de l eau cp",
+    "canopé cycle de l'eau",
+    "le cycle de l eau cp maitre lucas"
+   ]
+  },
+  "cycle de l'eau ce1": {
+   "candidate": "water-cycle",
+   "s": [
+    "cycle de l'eau ce1",
+    "cycle de l eau ce1 ce2",
+    "cycle de l eau ce1 lutin bazar",
+    "cycle de l eau ce1 schéma",
+    "le cycle de l'eau ce1 pdf",
+    "cycle de l eau cp ce1",
+    "évaluation cycle de l'eau ce1",
+    "le cycle de l'eau ce1 exercices",
+    "video cycle de l eau ce1",
+    "leçon cycle de l'eau ce1"
+   ]
+  },
+  "cycle de l'eau ce2": {
+   "candidate": "water-cycle",
+   "s": [
+    "cycle de l'eau ce2",
+    "cycle de l eau ce2 evaluation",
+    "cycle de l eau ce2 cm1",
+    "cycle de l'eau ce2 pdf",
+    "cycle de l eau ce2 video",
+    "cycle de l eau ce2 leçon",
+    "schéma cycle de l'eau ce2",
+    "cycle de l eau ce2 lutin bazar",
+    "evaluation cycle de l'eau ce2 pdf",
+    "séquence cycle de l'eau ce2"
+   ]
+  },
+  "le cycle de l'eau": {
+   "candidate": "water-cycle",
+   "s": [
+    "le cycle de l'eau",
+    "le cycle de l'eau ce2",
+    "le cycle de l'eau ce1",
+    "le cycle de l'eau cp",
+    "le cycle de l'eau domestique",
+    "le cycle de l'eau cm1",
+    "le cycle de l'eau cycle 2",
+    "le cycle de l'eau expliqué aux enfants",
+    "le cycle de l'eau c'est pas sorcier",
+    "le cycle de l'eau cycle 3"
+   ]
+  },
+  "le cycle de l'eau fiche": {
+   "candidate": "water-cycle",
+   "s": [
+    "le cycle de l'eau fiche pédagogique",
+    "le cycle de l eau fiche",
+    "le cycle de l'eau maternelle fiche",
+    "fiche le cycle de l eau cp"
+   ]
+  },
+  "le cycle de l'eau à imprimer": {
+   "candidate": "water-cycle",
+   "s": [
+    "le cycle de l eau à imprimer"
+   ]
+  },
+  "le cycle de l'eau maternelle": {
+   "candidate": "water-cycle",
+   "s": [
+    "le cycle de l'eau maternelle",
+    "le cycle de l'eau maternelle fiche",
+    "le cycle de l'eau maternelle gs",
+    "video le cycle de l'eau maternelle",
+    "le cycle de l'eau domestique maternelle",
+    "album sur le cycle de l eau maternelle",
+    "expliquer le cycle de l eau en maternelle",
+    "activité sur le cycle de l eau en maternelle",
+    "coloriage cycle de l'eau maternelle",
+    "maquette cycle de l'eau maternelle"
+   ]
+  },
+  "le cycle de l'eau cp": {
+   "candidate": "water-cycle",
+   "s": [
+    "le cycle de l'eau cp",
+    "le cycle de l'eau cp ce1",
+    "le cycle de l'eau cp pdf",
+    "le cycle de l eau cp vidéo",
+    "le cycle de l eau cp maitre lucas",
+    "le cycle de l eau canopé",
+    "le cycle de l eau gs cp",
+    "fiche le cycle de l eau cp",
+    "séquence le cycle de l eau cp",
+    "trace écrite le cycle de l eau cp"
+   ]
+  },
+  "le cycle de l'eau ce1": {
+   "candidate": "water-cycle",
+   "s": [
+    "le cycle de l'eau ce1",
+    "le cycle de l'eau ce1 ce2",
+    "le cycle de l'eau ce1 pdf",
+    "le cycle de l'eau ce1 exercices",
+    "le cycle de l'eau ce1 lutin bazar",
+    "le cycle de l'eau ce1 video",
+    "le cycle de l eau ce1 maitre lucas",
+    "le cycle de l eau ce1 evaluation",
+    "le cycle de l eau ce1 leçon",
+    "le cycle de l eau cp ce1"
+   ]
+  },
+  "le cycle de l'eau ce2": {
+   "candidate": "water-cycle",
+   "s": [
+    "le cycle de l'eau ce2",
+    "le cycle de l'eau ce2 cm1",
+    "le cycle de l'eau ce2 pdf",
+    "le cycle de l'eau ce2 leçon",
+    "le cycle de l'eau ce2 evaluation",
+    "le cycle de l'eau ce2 lutin bazar",
+    "le cycle de l'eau ce2 exercice",
+    "le cycle de l eau ce2 maitre lucas",
+    "le cycle de l'eau ce2 vidéo",
+    "le cycle de l'eau ce2 lumni"
+   ]
+  }
+ }
+}

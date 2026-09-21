@@ -1,0 +1,118 @@
+{
+ "locale": "nl",
+ "market": {
+  "hl": "nl",
+  "gl": "nl"
+ },
+ "generatedAt": "2026-09-21T00:38:24.364Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds-watercycle.json",
+ "requestCount": 14,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "water-cycle": {
+   "heads": [
+    "waterkringloop",
+    "de waterkringloop"
+   ],
+   "requests": 14,
+   "productiveSeeds": 8,
+   "unique": 24,
+   "suggestions": [
+    "de grote waterkringloop",
+    "de korte waterkringloop",
+    "de lange waterkringloop",
+    "de waterkringloop",
+    "de waterkringloop op aarde",
+    "de waterkringloop schooltv",
+    "de waterkringloop tekening",
+    "de waterkringloop uitgelegd",
+    "de waterkringloop werkblad",
+    "leg de waterkringloop uit",
+    "waterkringloop",
+    "waterkringloop filmpje",
+    "waterkringloop groep 3",
+    "waterkringloop groep 4",
+    "waterkringloop groep 5",
+    "waterkringloop kleuters",
+    "waterkringloop knutselen",
+    "waterkringloop knutselen kleuters",
+    "waterkringloop maken",
+    "waterkringloop plaatje",
+    "waterkringloop schooltv",
+    "waterkringloop tekenen",
+    "waterkringloop uitleg",
+    "waterkringloop werkblad"
+   ]
+  }
+ },
+ "suggestions": {
+  "waterkringloop": {
+   "candidate": "water-cycle",
+   "s": [
+    "waterkringloop",
+    "waterkringloop tekenen",
+    "waterkringloop schooltv",
+    "waterkringloop kleuters",
+    "waterkringloop uitleg",
+    "waterkringloop plaatje",
+    "waterkringloop knutselen",
+    "waterkringloop werkblad",
+    "waterkringloop maken",
+    "waterkringloop filmpje"
+   ]
+  },
+  "waterkringloop werkblad": {
+   "candidate": "water-cycle",
+   "s": [
+    "waterkringloop werkblad"
+   ]
+  },
+  "waterkringloop kleuters": {
+   "candidate": "water-cycle",
+   "s": [
+    "waterkringloop kleuters",
+    "waterkringloop knutselen kleuters"
+   ]
+  },
+  "waterkringloop groep 3": {
+   "candidate": "water-cycle",
+   "s": [
+    "waterkringloop groep 3"
+   ]
+  },
+  "waterkringloop groep 4": {
+   "candidate": "water-cycle",
+   "s": [
+    "waterkringloop groep 4"
+   ]
+  },
+  "waterkringloop groep 5": {
+   "candidate": "water-cycle",
+   "s": [
+    "waterkringloop groep 5"
+   ]
+  },
+  "de waterkringloop": {
+   "candidate": "water-cycle",
+   "s": [
+    "de waterkringloop",
+    "de waterkringloop schooltv",
+    "de waterkringloop uitgelegd",
+    "de waterkringloop op aarde",
+    "de waterkringloop tekening",
+    "de waterkringloop werkblad",
+    "de lange waterkringloop",
+    "leg de waterkringloop uit",
+    "de korte waterkringloop",
+    "de grote waterkringloop"
+   ]
+  },
+  "de waterkringloop werkblad": {
+   "candidate": "water-cycle",
+   "s": [
+    "de waterkringloop werkblad"
+   ]
+  }
+ }
+}

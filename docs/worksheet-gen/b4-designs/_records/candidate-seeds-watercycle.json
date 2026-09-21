@@ -1,0 +1,17 @@
+{
+ "_about": "Round-1b probe (2026-09-21): the water-cycle sub-head of the `weather` candidate was never seeded; the Romance panel asked for numbers before the face is titled. Same schema as candidate-seeds.json.",
+ "candidates": ["water-cycle"],
+ "heads": {
+  "en": { "water-cycle": ["water cycle", "water cycle for kids"] },
+  "de": { "water-cycle": ["wasserkreislauf", "wasserkreislauf grundschule"] },
+  "fr": { "water-cycle": ["cycle de l'eau", "le cycle de l'eau"] },
+  "es": { "water-cycle": ["ciclo del agua", "ciclo del agua para niños"] },
+  "pt": { "water-cycle": ["ciclo da água", "ciclo da água para crianças"] },
+  "it": { "water-cycle": ["ciclo dell'acqua", "ciclo dell'acqua scuola primaria"] },
+  "nl": { "water-cycle": ["waterkringloop", "de waterkringloop"] },
+  "sv": { "water-cycle": ["vattnets kretslopp", "vattnets kretslopp för barn"] },
+  "da": { "water-cycle": ["vandets kredsløb", "vandets kredsløb for børn"] },
+  "no": { "water-cycle": ["vannets kretsløp", "vannets kretsløp for barn"] },
+  "fi": { "water-cycle": ["veden kiertokulku", "veden kiertokulku lapsille"] }
+ }
+}

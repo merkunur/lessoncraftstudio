@@ -1,0 +1,2079 @@
+{
+ "locale": "it",
+ "market": {
+  "hl": "it",
+  "gl": "it"
+ },
+ "generatedAt": "2026-09-21T00:22:07.021Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds.json",
+ "requestCount": 182,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cloze": {
+   "heads": [
+    "completa le frasi",
+    "frasi da completare"
+   ],
+   "requests": 14,
+   "productiveSeeds": 9,
+   "unique": 27,
+   "suggestions": [
+    "completa le frasi",
+    "completa le frasi classe prima",
+    "completa le frasi classe seconda",
+    "completa le frasi con",
+    "completa le frasi con i verbi adatti",
+    "completa le frasi con il verbo essere",
+    "completa le frasi con il verbo giusto",
+    "completa le frasi con un soggetto adatto",
+    "completa le frasi coniugando i verbi al modo indicativo",
+    "completa le frasi in inglese",
+    "completa le frasi scuola primaria",
+    "completa le frasi wordwall",
+    "frasi da completare",
+    "frasi da completare classe prima",
+    "frasi da completare classe seconda",
+    "frasi da completare con congiuntivo e condizionale",
+    "frasi da completare con i verbi",
+    "frasi da completare con il verbo essere",
+    "frasi da completare in inglese",
+    "frasi da completare per bambini",
+    "frasi da completare per bambini challenge",
+    "frasi da completare per bambini tik tok",
+    "frasi da completare scuola primaria",
+    "frasi da completare wordwall",
+    "le frasi classe prima",
+    "le frasi classe seconda",
+    "scheda didattica completa le frasi"
+   ]
+  },
+  "dominoes": {
+   "heads": [
+    "domino da stampare",
+    "domino"
+   ],
+   "requests": 14,
+   "productiveSeeds": 5,
+   "unique": 27,
+   "suggestions": [
+    "domino",
+    "domino animali da stampare",
+    "domino classe prima",
+    "domino da stampare",
+    "domino da stampare e ritagliare",
+    "domino da stampare per bambini",
+    "domino dancing",
+    "domino di parole classe prima",
+    "domino experience",
+    "domino frazioni da stampare",
+    "domino gioco",
+    "domino infissi",
+    "domino kirke",
+    "domino matematico da stampare",
+    "domino parole classe prima",
+    "domino per bambini scuola primaria",
+    "domino regole",
+    "domino rivista",
+    "domino scuola primaria",
+    "domino sillabe classe prima",
+    "domino sillabe da stampare",
+    "domino tabelline da stampare",
+    "dominos",
+    "dominos pizza",
+    "maestra marta domino classe prima",
+    "tessere domino da stampare",
+    "tessere domino da stampare pdf"
+   ]
+  },
+  "human-body": {
+   "heads": [
+    "parti del corpo",
+    "il corpo umano"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 88,
+   "suggestions": [
+    "body parts parti del corpo in inglese per bambini da stampare",
+    "canzone parti del corpo scuola primaria",
+    "canzone sulle parti del corpo classe prima",
+    "corpo umano da stampare e colorare",
+    "disegnare il corpo umano classe prima",
+    "flashcard parti del corpo da stampare",
+    "il corpo umano",
+    "il corpo umano anatomia",
+    "il corpo umano cartone",
+    "il corpo umano classe prima",
+    "il corpo umano classe prima elementare",
+    "il corpo umano classe prima scienze",
+    "il corpo umano classe prima video",
+    "il corpo umano classe prima wordwall",
+    "il corpo umano classe quinta primaria",
+    "il corpo umano classe seconda",
+    "il corpo umano classe seconda primaria",
+    "il corpo umano classe terza",
+    "il corpo umano da stampare",
+    "il corpo umano di quanta acqua è composto",
+    "il corpo umano didattica creativa",
+    "il corpo umano immagini da stampare",
+    "il corpo umano libro",
+    "il corpo umano organi",
+    "il corpo umano ossa",
+    "il corpo umano per bambini da stampare",
+    "il corpo umano scheda classe prima",
+    "il corpo umano scheda didattica",
+    "il corpo umano schema",
+    "il corpo umano scuola primaria",
+    "il corpo umano scuola primaria classe prima",
+    "il corpo umano scuola primaria classe quinta",
+    "il corpo umano scuola primaria classe quinta maestra mile",
+    "il corpo umano scuola primaria classe quinta pdf",
+    "il corpo umano scuola primaria classe quinta video",
+    "il corpo umano scuola primaria pdf",
+    "il corpo umano scuola primaria schede",
+    "il corpo umano scuola primaria semplificato",
+    "il corpo umano scuola primaria sostegno",
+    "il corpo umano video",
+    "il corpo umano è un conduttore di corrente elettrica",
+    "immagini parti del corpo da stampare",
+    "le parti del corpo classe prima elementare",
+    "le parti del corpo classe prima video",
+    "le parti del corpo classe seconda",
+    "le parti del corpo classe seconda primaria",
+    "le parti del corpo da colorare e stampare",
+    "le parti del corpo degli animali classe seconda",
+    "le parti del corpo in inglese classe seconda primaria",
+    "le parti del corpo scienze classe prima",
+    "le parti del corpo scuola primaria classe prima",
+    "maestra lidia parti del corpo in inglese schede da stampare",
+    "memory parti del corpo da stampare",
+    "parti del corpo",
+    "parti del corpo classe prima",
+    "parti del corpo classe prima wordwall",
+    "parti del corpo con la a",
+    "parti del corpo con la e",
+    "parti del corpo con la l",
+    "parti del corpo con la r",
+    "parti del corpo con la z",
+    "parti del corpo da stampare",
+    "parti del corpo del pesce scuola primaria",
+    "parti del corpo in francese",
+    "parti del corpo in inglese",
+    "parti del corpo in inglese classe prima",
+    "parti del corpo in inglese scheda didattica",
+    "parti del corpo in inglese schede da stampare",
+    "parti del corpo in inglese scuola primaria canzone",
+    "parti del corpo in inglese scuola primaria wordwall",
+    "parti del corpo in spagnolo",
+    "parti del corpo inglese classe seconda",
+    "parti del corpo inglese classe terza",
+    "parti del corpo per bambini da stampare",
+    "parti del corpo scheda didattica",
+    "parti del corpo scuola primaria",
+    "parti del corpo scuola primaria inglese",
+    "parti del corpo umano",
+    "scheda parti del corpo classe prima",
+    "scheda parti del corpo scuola primaria",
+    "schede sulle parti del corpo classe prima",
+    "tombola delle parti del corpo da stampare",
+    "verifica parti del corpo classe prima",
+    "video parti del corpo scuola primaria",
+    "wordwall il corpo umano classe seconda",
+    "wordwall inglese parti del corpo classe seconda",
+    "wordwall inglese parti del corpo classe terza",
+    "wordwall parti del corpo scuola primaria"
+   ]
+  },
+  "five-senses": {
+   "heads": [
+    "i cinque sensi",
+    "5 sensi"
+   ],
+   "requests": 14,
+   "productiveSeeds": 12,
+   "unique": 82,
+   "suggestions": [
+    "5 sensi",
+    "5 sensi altamura",
+    "5 sensi classe prima",
+    "5 sensi classe prima wordwall",
+    "5 sensi classe seconda",
+    "5 sensi da stampare",
+    "5 sensi in inglese",
+    "5 sensi martina franca",
+    "5 sensi matera",
+    "5 sensi nissoria",
+    "5 sensi porto ottiolu",
+    "5 sensi quali sono",
+    "5 sensi scuola primaria",
+    "5 sensi scuola primaria classe prima",
+    "5 sensi umani",
+    "5 sensi varcaturo",
+    "attività 5 sensi classe prima",
+    "autunno con i 5 sensi classe seconda",
+    "canzone 5 sensi scuola primaria",
+    "cartellone 5 sensi scuola primaria",
+    "descrivere con i 5 sensi classe seconda",
+    "descrizione dell autunno con i 5 sensi classe seconda",
+    "filastrocca 5 sensi classe prima",
+    "filastrocca 5 sensi scuola primaria",
+    "i 5 sensi classe prima maestra mary",
+    "i 5 sensi scheda didattica",
+    "i 5 sensi scuola primaria classe quinta",
+    "i 5 sensi scuola primaria classe seconda",
+    "i 5 sensi scuola primaria pdf",
+    "i cinque sensi",
+    "i cinque sensi classe prima",
+    "i cinque sensi classe prima canzone",
+    "i cinque sensi classe prima elementare",
+    "i cinque sensi classe prima maestra mile",
+    "i cinque sensi classe prima pianetabambini",
+    "i cinque sensi classe prima quaderno",
+    "i cinque sensi classe prima schede didattiche",
+    "i cinque sensi classe prima verifica",
+    "i cinque sensi classe prima video",
+    "i cinque sensi classe prima wordwall",
+    "i cinque sensi classe seconda",
+    "i cinque sensi classe seconda primaria",
+    "i cinque sensi da stampare",
+    "i cinque sensi da stampare e colorare",
+    "i cinque sensi didattica creativa",
+    "i cinque sensi in inglese",
+    "i cinque sensi matera",
+    "i cinque sensi parma",
+    "i cinque sensi poggio mirteto",
+    "i cinque sensi quali sono",
+    "i cinque sensi scheda didattica",
+    "i cinque sensi schede da stampare",
+    "i cinque sensi scuola infanzia",
+    "i cinque sensi scuola primaria",
+    "i cinque sensi scuola primaria classe prima",
+    "i cinque sensi scuola primaria classe prima video",
+    "i cinque sensi scuola primaria classe quinta",
+    "i cinque sensi scuola primaria classe seconda",
+    "i cinque sensi scuola primaria quaderno",
+    "i cinque sensi scuola primaria schede didattiche",
+    "i cinque sensi scuola primaria sostegno",
+    "i cinque sensi scuola primaria video",
+    "i cinque sensi scuola primaria wordwall",
+    "i cinque sensi sono i soli responsabili del processo cognitivo",
+    "i cinque sensi varcaturo",
+    "immagini 5 sensi da stampare",
+    "laboratorio 5 sensi scuola primaria",
+    "lapbook 5 sensi classe prima",
+    "lapbook 5 sensi classe prima pdf",
+    "lapbook 5 sensi da stampare",
+    "lapbook 5 sensi scuola primaria",
+    "libro 5 sensi scuola primaria",
+    "maestra mary lapbook 5 sensi da stampare",
+    "ripasso 5 sensi classe seconda",
+    "scheda 5 sensi classe prima",
+    "scheda didattica 5 sensi infanzia",
+    "schede didattiche i 5 sensi classe seconda",
+    "schede didattiche sui 5 sensi da stampare",
+    "verifica 5 sensi classe prima",
+    "verifica 5 sensi classe seconda elementare",
+    "video 5 sensi classe prima",
+    "wordwall i cinque sensi classe seconda"
+   ]
+  },
+  "weather": {
+   "heads": [
+    "il tempo atmosferico",
+    "il meteo"
+   ],
+   "requests": 14,
+   "productiveSeeds": 6,
+   "unique": 26,
+   "suggestions": [
+    "che cos è il tempo atmosferico scuola primaria",
+    "il meteo",
+    "il meteo 3b",
+    "il meteo bologna",
+    "il meteo firenze",
+    "il meteo in inglese scuola primaria",
+    "il meteo milano",
+    "il meteo napoli",
+    "il meteo radar",
+    "il meteo roma",
+    "il meteo scuola primaria",
+    "il meteo torino",
+    "il meteo.it roma",
+    "il tempo atmosferico",
+    "il tempo atmosferico classe prima",
+    "il tempo atmosferico cruciverba",
+    "il tempo atmosferico e il clima sono la stessa cosa",
+    "il tempo atmosferico in inglese",
+    "il tempo atmosferico in inglese scuola primaria",
+    "il tempo atmosferico in spagnolo",
+    "il tempo atmosferico italiano",
+    "il tempo atmosferico italiano l2",
+    "il tempo atmosferico per bambini scuola infanzia",
+    "il tempo atmosferico scuola primaria",
+    "tabella per registrare il tempo atmosferico scuola primaria",
+    "tempo atmosferico da stampare"
+   ]
+  },
+  "tangram": {
+   "heads": [
+    "tangram",
+    "tangram da stampare"
+   ],
+   "requests": 14,
+   "productiveSeeds": 9,
+   "unique": 39,
+   "suggestions": [
+    "costruzione tangram scuola primaria",
+    "tangram",
+    "tangram arezzo",
+    "tangram classe prima",
+    "tangram classe prima primaria",
+    "tangram classe seconda",
+    "tangram classe seconda primaria",
+    "tangram classe terza",
+    "tangram classe terza primaria",
+    "tangram cos'è",
+    "tangram da stampare",
+    "tangram da stampare 10x10",
+    "tangram da stampare a4",
+    "tangram da stampare colorato",
+    "tangram da stampare e colorare",
+    "tangram da stampare e ritagliare",
+    "tangram da stampare pdf",
+    "tangram da stampare pianetabambini",
+    "tangram da stampare scuola media",
+    "tangram da stampare scuola primaria",
+    "tangram figure",
+    "tangram follonica",
+    "tangram gioco",
+    "tangram puzzle",
+    "tangram santeramo",
+    "tangram scheda didattica",
+    "tangram scuola primaria",
+    "tangram scuola primaria classe prima",
+    "tangram scuola primaria classe quarta",
+    "tangram scuola primaria classe quinta",
+    "tangram scuola primaria classe seconda",
+    "tangram scuola primaria classe terza",
+    "tangram scuola primaria da stampare",
+    "tangram scuola primaria online",
+    "tangram scuola primaria pdf",
+    "tangram significato",
+    "wordwall tangram classe prima",
+    "wordwall tangram classe seconda",
+    "wordwall tangram classe terza"
+   ]
+  },
+  "recycling": {
+   "heads": [
+    "raccolta differenziata",
+    "riciclo"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 84,
+   "suggestions": [
+    "adesivi raccolta differenziata da stampare",
+    "attività raccolta differenziata classe prima",
+    "attività riciclo scuola primaria",
+    "attività sul riciclo classe prima",
+    "attività sul riciclo classe seconda",
+    "cartelli raccolta differenziata da stampare",
+    "cartelli raccolta differenziata da stampare gratis",
+    "cartelli raccolta differenziata da stampare pdf",
+    "cartelli raccolta differenziata da stampare pdf gratis",
+    "etichette raccolta differenziata da stampare gratis",
+    "immagini raccolta differenziata da stampare",
+    "immagini raccolta differenziata da stampare gratis",
+    "laboratorio riciclo scuola primaria",
+    "lapbook raccolta differenziata classe prima",
+    "lapbook raccolta differenziata scuola primaria",
+    "lapbook riciclo da stampare",
+    "raccolta differenziata",
+    "raccolta differenziata agrigento",
+    "raccolta differenziata anzio",
+    "raccolta differenziata anzio 2026",
+    "raccolta differenziata carini 2026",
+    "raccolta differenziata classe prima",
+    "raccolta differenziata classe prima primaria",
+    "raccolta differenziata classe prima quaderno",
+    "raccolta differenziata classe prima wordwall",
+    "raccolta differenziata classe seconda",
+    "raccolta differenziata classe seconda primaria",
+    "raccolta differenziata classe terza",
+    "raccolta differenziata classe terza primaria",
+    "raccolta differenziata da stampare",
+    "raccolta differenziata in inglese",
+    "raccolta differenziata lavinio 2026",
+    "raccolta differenziata mazara del vallo 2026",
+    "raccolta differenziata palermo",
+    "raccolta differenziata scheda didattica",
+    "raccolta differenziata scuola primaria",
+    "raccolta differenziata scuola primaria classe prima",
+    "raccolta differenziata scuola primaria classe seconda",
+    "raccolta differenziata scuola primaria classe terza",
+    "raccolta differenziata scuola primaria immagini",
+    "raccolta differenziata scuola primaria pdf",
+    "raccolta differenziata scuola primaria schede",
+    "raccolta differenziata scuola primaria video",
+    "raccolta differenziata stoccolma",
+    "riciclo",
+    "riciclo bottiglie di plastica",
+    "riciclo bottiglie di plastica vicino a me",
+    "riciclo bottiglie plastica conad",
+    "riciclo capsule nespresso",
+    "riciclo carta scuola primaria",
+    "riciclo classe prima",
+    "riciclo classe seconda",
+    "riciclo classe seconda primaria",
+    "riciclo classe terza",
+    "riciclo classe terza primaria",
+    "riciclo creativo",
+    "riciclo creativo scuola primaria",
+    "riciclo della carta classe prima",
+    "riciclo della plastica",
+    "riciclo o reciclo",
+    "riciclo plastica scuola primaria",
+    "riciclo scuola primaria",
+    "riciclo scuola primaria classe prima",
+    "riciclo scuola primaria schede didattiche",
+    "riciclo vestiti usati",
+    "riciclo vetro scuola primaria",
+    "riciclone",
+    "scheda didattica raccolta differenziata scuola primaria",
+    "scheda didattica riciclo",
+    "scheda raccolta differenziata classe prima",
+    "scheda riciclo classe prima",
+    "scheda riciclo classe seconda",
+    "schede raccolta differenziata classe seconda",
+    "schede sul riciclo classe prima",
+    "schede sul riciclo da stampare",
+    "simboli raccolta differenziata da stampare",
+    "simbolo riciclo da stampare",
+    "uda raccolta differenziata scuola primaria",
+    "uda riciclo scuola primaria",
+    "video raccolta differenziata classe prima",
+    "wordwall raccolta differenziata classe seconda",
+    "wordwall raccolta differenziata classe terza",
+    "wordwall riciclo classe prima",
+    "wordwall riciclo classe seconda"
+   ]
+  },
+  "odd-and-even": {
+   "heads": [
+    "pari e dispari",
+    "numeri pari e dispari"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 69,
+   "suggestions": [
+    "come spiegare i numeri pari e dispari classe prima",
+    "esercizi numeri pari e dispari classe prima",
+    "esercizi pari e dispari classe prima",
+    "esercizi pari e dispari classe seconda",
+    "esercizi pari e dispari scuola primaria",
+    "esercizi sui numeri pari e dispari classe terza",
+    "numeri pari e dispari",
+    "numeri pari e dispari classe prima",
+    "numeri pari e dispari classe prima elementare",
+    "numeri pari e dispari classe prima maestra anita",
+    "numeri pari e dispari classe seconda",
+    "numeri pari e dispari classe seconda attività",
+    "numeri pari e dispari classe seconda esercizi",
+    "numeri pari e dispari classe seconda maestra anita",
+    "numeri pari e dispari classe seconda primaria",
+    "numeri pari e dispari classe seconda regola",
+    "numeri pari e dispari classe seconda schede didattiche",
+    "numeri pari e dispari classe seconda spiegazione",
+    "numeri pari e dispari classe seconda video",
+    "numeri pari e dispari classe seconda wordwall",
+    "numeri pari e dispari classe terza",
+    "numeri pari e dispari in inglese",
+    "numeri pari e dispari pitagora",
+    "numeri pari e dispari prima elementare",
+    "numeri pari e dispari schede da stampare",
+    "numeri pari e dispari scuola primaria",
+    "numeri pari e dispari scuola primaria classe prima",
+    "numeri pari e dispari scuola primaria classe seconda",
+    "numeri pari e dispari scuola primaria classe terza",
+    "numeri pari e dispari scuola primaria schede didattiche",
+    "numeri pari e dispari scuola primaria spiegazione",
+    "numeri pari e dispari scuola primaria video",
+    "numeri pari e dispari scuola primaria wordwall",
+    "numeri pari e dispari spiegazione per bambini",
+    "numeri pari e dispari tabella",
+    "numeri pari e dispari wordwall",
+    "pari e dispari",
+    "pari e dispari basaluzzo",
+    "pari e dispari cast",
+    "pari e dispari classe prima",
+    "pari e dispari classe prima primaria",
+    "pari e dispari classe seconda",
+    "pari e dispari classe seconda maestra anita",
+    "pari e dispari classe seconda primaria",
+    "pari e dispari classe seconda wordwall",
+    "pari e dispari classe terza",
+    "pari e dispari classe terza primaria",
+    "pari e dispari comici",
+    "pari e dispari film",
+    "pari e dispari funzioni",
+    "pari e dispari in inglese",
+    "pari e dispari scuola primaria",
+    "pari e dispari scuola primaria classe seconda",
+    "pari e dispari streaming",
+    "pari e dispari trana",
+    "pari e dispari zelig",
+    "regola numeri pari e dispari scuola primaria",
+    "scheda didattica numeri pari e dispari",
+    "scheda didattica pari e dispari",
+    "schede numeri pari e dispari classe prima",
+    "schede pari e dispari classe prima",
+    "schede pari e dispari classe seconda",
+    "spiegazione pari e dispari scuola primaria",
+    "uda numeri pari e dispari scuola primaria",
+    "video numeri pari e dispari classe prima",
+    "video pari e dispari scuola primaria",
+    "wordwall matematica classe terza pari e dispari",
+    "wordwall numeri pari e dispari classe prima",
+    "wordwall pari e dispari classe prima"
+   ]
+  },
+  "rounding": {
+   "heads": [
+    "arrotondamento",
+    "arrotondare"
+   ],
+   "requests": 14,
+   "productiveSeeds": 8,
+   "unique": 40,
+   "suggestions": [
+    "arrotondamento",
+    "arrotondamento 730",
+    "arrotondamento centesimi",
+    "arrotondamento centesimi legge",
+    "arrotondamento classe quarta primaria",
+    "arrotondamento classe quinta primaria",
+    "arrotondamento classe terza",
+    "arrotondamento classe terza primaria",
+    "arrotondamento excel",
+    "arrotondamento imu",
+    "arrotondamento in inglese",
+    "arrotondamento matematica scuola primaria",
+    "arrotondamento numeri scuola primaria",
+    "arrotondamento passivo dare o avere",
+    "arrotondamento per difetto",
+    "arrotondamento per eccesso",
+    "arrotondamento scuola primaria",
+    "arrotondamento scuola primaria 3 classe",
+    "arrotondamento scuola primaria classe quarta",
+    "arrotondamento scuola primaria classe quinta",
+    "arrotondamento scuola primaria esercizi",
+    "arrotondare",
+    "arrotondare classe terza",
+    "arrotondare i numeri decimali scuola primaria",
+    "arrotondare i numeri scuola primaria",
+    "arrotondare in inglese",
+    "arrotondare lo stipendio",
+    "arrotondare lo stipendio con amazon",
+    "arrotondare lo stipendio da casa",
+    "arrotondare per difetto",
+    "arrotondare per difetto o per eccesso",
+    "arrotondare per eccesso",
+    "arrotondare per eccesso excel",
+    "arrotondare per eccesso scuola primaria",
+    "arrotondare scuola primaria",
+    "arrotondare su excel",
+    "cartello arrotondamento centesimi da stampare",
+    "l arrotondamento scuola primaria",
+    "spiegazione arrotondamento scuola primaria",
+    "video arrotondamento scuola primaria"
+   ]
+  },
+  "pronouns": {
+   "heads": [
+    "pronomi personali",
+    "i pronomi"
+   ],
+   "requests": 14,
+   "productiveSeeds": 12,
+   "unique": 81,
+   "suggestions": [
+    "esercizi con i pronomi personali classe terza",
+    "esercizi inglese pronomi personali soggetto da stampare",
+    "esercizi pronomi personali classe terza",
+    "esercizi sui pronomi personali classe seconda",
+    "esercizi sui pronomi personali classe terza primaria",
+    "i pronomi",
+    "i pronomi classe quarta primaria",
+    "i pronomi classe quarta primaria maestra mile",
+    "i pronomi classe seconda",
+    "i pronomi classe terza",
+    "i pronomi come che e cui",
+    "i pronomi dimostrativi",
+    "i pronomi dimostrativi classe quarta primaria",
+    "i pronomi in inglese",
+    "i pronomi indefiniti",
+    "i pronomi numerali scuola primaria",
+    "i pronomi personali",
+    "i pronomi personali classe quarta primaria",
+    "i pronomi personali classe seconda",
+    "i pronomi personali classe seconda primaria",
+    "i pronomi personali classe terza",
+    "i pronomi personali classe terza maestra anita",
+    "i pronomi personali classe terza maestra carmelina",
+    "i pronomi personali classe terza maestra mile",
+    "i pronomi personali classe terza primaria",
+    "i pronomi personali in inglese classe terza",
+    "i pronomi personali quali sono",
+    "i pronomi personali scuola primaria",
+    "i pronomi personali scuola primaria classe quarta",
+    "i pronomi personali scuola primaria classe quinta",
+    "i pronomi personali scuola primaria classe seconda",
+    "i pronomi personali scuola primaria classe terza",
+    "i pronomi personali soggetto",
+    "i pronomi personali soggetto classe terza",
+    "i pronomi personali soggetto classe terza primaria",
+    "i pronomi possessivi",
+    "i pronomi possessivi scuola primaria",
+    "i pronomi relativi",
+    "i pronomi relativi classe quarta primaria",
+    "i pronomi relativi classe quinta primaria",
+    "i pronomi relativi scuola primaria",
+    "i pronomi scuola primaria",
+    "i pronomi scuola primaria classe quarta",
+    "pronomi personali",
+    "pronomi personali classe quarta primaria",
+    "pronomi personali classe quinta primaria",
+    "pronomi personali classe seconda",
+    "pronomi personali classe seconda primaria",
+    "pronomi personali classe terza",
+    "pronomi personali classe terza maestra anita",
+    "pronomi personali classe terza primaria",
+    "pronomi personali complemento",
+    "pronomi personali complemento classe quarta primaria",
+    "pronomi personali complemento scuola primaria",
+    "pronomi personali da stampare",
+    "pronomi personali francese",
+    "pronomi personali inglese",
+    "pronomi personali inglese classe seconda",
+    "pronomi personali inglese classe terza",
+    "pronomi personali inglese classe terza primaria",
+    "pronomi personali inglese scuola primaria",
+    "pronomi personali inglese scuola primaria maestra lidia",
+    "pronomi personali latino",
+    "pronomi personali scheda didattica",
+    "pronomi personali scuola primaria",
+    "pronomi personali scuola primaria classe quarta",
+    "pronomi personali scuola primaria classe quinta",
+    "pronomi personali scuola primaria classe terza",
+    "pronomi personali scuola primaria esercizi",
+    "pronomi personali scuola primaria pdf",
+    "pronomi personali scuola primaria video",
+    "pronomi personali soggetto",
+    "pronomi personali soggetto classe seconda",
+    "pronomi personali soggetto classe terza",
+    "pronomi personali soggetto e complemento",
+    "pronomi personali soggetto inglese",
+    "pronomi personali spagnolo",
+    "pronomi personali tedesco",
+    "schede pronomi personali classe terza",
+    "tabella pronomi personali da stampare",
+    "wordwall pronomi personali classe terza"
+   ]
+  },
+  "question-words": {
+   "heads": [
+    "parole interrogative",
+    "frasi interrogative"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 21,
+   "suggestions": [
+    "frasi interrogative",
+    "frasi interrogative in francese",
+    "frasi interrogative in francese esercizi",
+    "frasi interrogative in inglese",
+    "frasi interrogative in inglese con il verbo to be",
+    "frasi interrogative in inglese scuola primaria",
+    "frasi interrogative in tedesco",
+    "frasi interrogative indirette",
+    "frasi interrogative negative in inglese",
+    "frasi interrogative past simple",
+    "frasi interrogative present simple",
+    "parole interrogative",
+    "parole interrogative in francese",
+    "parole interrogative in inglese",
+    "parole interrogative in inglese esercizi",
+    "parole interrogative in inglese tabella",
+    "parole interrogative in inglese traduzione",
+    "parole interrogative in inglese wordwall",
+    "parole interrogative in italiano",
+    "parole interrogative in spagnolo",
+    "parole interrogative in tedesco"
+   ]
+  },
+  "cube-nets": {
+   "heads": [
+    "sviluppo del cubo",
+    "sviluppo dei solidi"
+   ],
+   "requests": 14,
+   "productiveSeeds": 9,
+   "unique": 24,
+   "suggestions": [
+    "lo sviluppo dei solidi classe quinta primaria",
+    "lo sviluppo dei solidi classe terza primaria",
+    "sviluppo dei solidi",
+    "sviluppo dei solidi classe seconda",
+    "sviluppo dei solidi classe seconda primaria",
+    "sviluppo dei solidi classe terza",
+    "sviluppo dei solidi con filo",
+    "sviluppo dei solidi cubo",
+    "sviluppo dei solidi da stampare",
+    "sviluppo dei solidi pdf",
+    "sviluppo dei solidi scuola media",
+    "sviluppo dei solidi scuola primaria",
+    "sviluppo dei solidi scuola primaria da stampare",
+    "sviluppo dei solidi video scuola primaria",
+    "sviluppo del cubo",
+    "sviluppo del cubo con alette",
+    "sviluppo del cubo da costruire",
+    "sviluppo del cubo da stampare",
+    "sviluppo del cubo di binomio",
+    "sviluppo del cubo immagini",
+    "sviluppo del cubo scuola primaria",
+    "sviluppo del cubo tecnologia",
+    "sviluppo del cubo tecnologia 2.0",
+    "sviluppo del cubo video"
+   ]
+  },
+  "finger-counting": {
+   "heads": [
+    "contare con le dita",
+    "le dita della mano"
+   ],
+   "requests": 14,
+   "productiveSeeds": 6,
+   "unique": 22,
+   "suggestions": [
+    "contare con le dita",
+    "contare con le dita bortolato",
+    "contare con le dita classe prima",
+    "contare con le dita in binario",
+    "contare con le dita in cinese",
+    "contare con le dita in giapponese",
+    "contare con le dita schede",
+    "contare con le dita schede didattiche",
+    "contare con le dita scuola primaria",
+    "contare con le dita wordwall",
+    "le dita della mano",
+    "le dita della mano canzone",
+    "le dita della mano classe prima",
+    "le dita della mano come si chiamano",
+    "le dita della mano in francese",
+    "le dita della mano in inglese",
+    "le dita della mano non si chiudono",
+    "le dita della mano non sono tutte uguali significato",
+    "le dita della mano scuola primaria",
+    "le dita della mano si bloccano",
+    "le dita della mano sinistra si addormentano",
+    "le dita della mano testo"
+   ]
+  }
+ },
+ "suggestions": {
+  "completa le frasi": {
+   "candidate": "cloze",
+   "s": [
+    "completa le frasi",
+    "completa le frasi in inglese",
+    "completa le frasi wordwall",
+    "completa le frasi scuola primaria",
+    "completa le frasi con i verbi adatti",
+    "completa le frasi con il verbo essere",
+    "completa le frasi con",
+    "completa le frasi coniugando i verbi al modo indicativo",
+    "completa le frasi con il verbo giusto",
+    "completa le frasi con un soggetto adatto"
+   ]
+  },
+  "completa le frasi scheda didattica": {
+   "candidate": "cloze",
+   "s": [
+    "scheda didattica completa le frasi"
+   ]
+  },
+  "completa le frasi scuola primaria": {
+   "candidate": "cloze",
+   "s": [
+    "completa le frasi scuola primaria"
+   ]
+  },
+  "completa le frasi classe prima": {
+   "candidate": "cloze",
+   "s": [
+    "completa le frasi classe prima",
+    "le frasi classe prima"
+   ]
+  },
+  "completa le frasi classe seconda": {
+   "candidate": "cloze",
+   "s": [
+    "completa le frasi classe seconda",
+    "le frasi classe seconda"
+   ]
+  },
+  "frasi da completare": {
+   "candidate": "cloze",
+   "s": [
+    "frasi da completare",
+    "frasi da completare per bambini",
+    "frasi da completare wordwall",
+    "frasi da completare per bambini challenge",
+    "frasi da completare scuola primaria",
+    "frasi da completare con congiuntivo e condizionale",
+    "frasi da completare con i verbi",
+    "frasi da completare in inglese",
+    "frasi da completare con il verbo essere",
+    "frasi da completare per bambini tik tok"
+   ]
+  },
+  "frasi da completare scuola primaria": {
+   "candidate": "cloze",
+   "s": [
+    "frasi da completare scuola primaria"
+   ]
+  },
+  "frasi da completare classe prima": {
+   "candidate": "cloze",
+   "s": [
+    "frasi da completare classe prima"
+   ]
+  },
+  "frasi da completare classe seconda": {
+   "candidate": "cloze",
+   "s": [
+    "frasi da completare classe seconda"
+   ]
+  },
+  "domino da stampare": {
+   "candidate": "dominoes",
+   "s": [
+    "domino da stampare",
+    "domino da stampare per bambini",
+    "domino da stampare e ritagliare",
+    "tessere domino da stampare pdf",
+    "domino matematico da stampare",
+    "domino sillabe da stampare",
+    "tessere domino da stampare",
+    "domino tabelline da stampare",
+    "domino animali da stampare",
+    "domino frazioni da stampare"
+   ]
+  },
+  "domino": {
+   "candidate": "dominoes",
+   "s": [
+    "dominos",
+    "dominos pizza",
+    "domino",
+    "domino rivista",
+    "domino infissi",
+    "domino kirke",
+    "domino gioco",
+    "domino experience",
+    "domino dancing",
+    "domino regole"
+   ]
+  },
+  "domino scuola primaria": {
+   "candidate": "dominoes",
+   "s": [
+    "domino scuola primaria",
+    "domino per bambini scuola primaria"
+   ]
+  },
+  "domino classe prima": {
+   "candidate": "dominoes",
+   "s": [
+    "domino classe prima",
+    "domino parole classe prima",
+    "domino sillabe classe prima",
+    "domino di parole classe prima",
+    "maestra marta domino classe prima"
+   ]
+  },
+  "parti del corpo": {
+   "candidate": "human-body",
+   "s": [
+    "parti del corpo",
+    "parti del corpo in inglese",
+    "parti del corpo umano",
+    "parti del corpo con la e",
+    "parti del corpo con la a",
+    "parti del corpo con la r",
+    "parti del corpo in spagnolo",
+    "parti del corpo con la l",
+    "parti del corpo con la z",
+    "parti del corpo in francese"
+   ]
+  },
+  "parti del corpo scheda didattica": {
+   "candidate": "human-body",
+   "s": [
+    "parti del corpo scheda didattica",
+    "parti del corpo in inglese scheda didattica"
+   ]
+  },
+  "parti del corpo da stampare": {
+   "candidate": "human-body",
+   "s": [
+    "parti del corpo da stampare",
+    "memory parti del corpo da stampare",
+    "flashcard parti del corpo da stampare",
+    "immagini parti del corpo da stampare",
+    "parti del corpo per bambini da stampare",
+    "tombola delle parti del corpo da stampare",
+    "parti del corpo in inglese schede da stampare",
+    "le parti del corpo da colorare e stampare",
+    "maestra lidia parti del corpo in inglese schede da stampare",
+    "body parts parti del corpo in inglese per bambini da stampare"
+   ]
+  },
+  "parti del corpo scuola primaria": {
+   "candidate": "human-body",
+   "s": [
+    "parti del corpo scuola primaria",
+    "parti del corpo scuola primaria inglese",
+    "le parti del corpo scuola primaria classe prima",
+    "canzone parti del corpo scuola primaria",
+    "scheda parti del corpo scuola primaria",
+    "wordwall parti del corpo scuola primaria",
+    "video parti del corpo scuola primaria",
+    "parti del corpo del pesce scuola primaria",
+    "parti del corpo in inglese scuola primaria wordwall",
+    "parti del corpo in inglese scuola primaria canzone"
+   ]
+  },
+  "parti del corpo classe prima": {
+   "candidate": "human-body",
+   "s": [
+    "parti del corpo classe prima",
+    "parti del corpo classe prima wordwall",
+    "verifica parti del corpo classe prima",
+    "le parti del corpo classe prima elementare",
+    "le parti del corpo classe prima video",
+    "scheda parti del corpo classe prima",
+    "canzone sulle parti del corpo classe prima",
+    "schede sulle parti del corpo classe prima",
+    "parti del corpo in inglese classe prima",
+    "le parti del corpo scienze classe prima"
+   ]
+  },
+  "parti del corpo classe seconda": {
+   "candidate": "human-body",
+   "s": [
+    "parti del corpo inglese classe seconda",
+    "le parti del corpo classe seconda",
+    "le parti del corpo classe seconda primaria",
+    "wordwall inglese parti del corpo classe seconda",
+    "le parti del corpo in inglese classe seconda primaria",
+    "le parti del corpo degli animali classe seconda"
+   ]
+  },
+  "parti del corpo classe terza": {
+   "candidate": "human-body",
+   "s": [
+    "parti del corpo inglese classe terza",
+    "wordwall inglese parti del corpo classe terza"
+   ]
+  },
+  "il corpo umano": {
+   "candidate": "human-body",
+   "s": [
+    "il corpo umano",
+    "il corpo umano organi",
+    "il corpo umano cartone",
+    "il corpo umano anatomia",
+    "il corpo umano schema",
+    "il corpo umano video",
+    "il corpo umano è un conduttore di corrente elettrica",
+    "il corpo umano libro",
+    "il corpo umano ossa",
+    "il corpo umano di quanta acqua è composto"
+   ]
+  },
+  "il corpo umano scheda didattica": {
+   "candidate": "human-body",
+   "s": [
+    "il corpo umano scheda didattica",
+    "il corpo umano didattica creativa"
+   ]
+  },
+  "il corpo umano da stampare": {
+   "candidate": "human-body",
+   "s": [
+    "il corpo umano da stampare",
+    "il corpo umano immagini da stampare",
+    "il corpo umano per bambini da stampare",
+    "corpo umano da stampare e colorare"
+   ]
+  },
+  "il corpo umano scuola primaria": {
+   "candidate": "human-body",
+   "s": [
+    "il corpo umano scuola primaria",
+    "il corpo umano scuola primaria classe quinta",
+    "il corpo umano scuola primaria classe quinta pdf",
+    "il corpo umano scuola primaria classe prima",
+    "il corpo umano scuola primaria semplificato",
+    "il corpo umano scuola primaria pdf",
+    "il corpo umano scuola primaria classe quinta maestra mile",
+    "il corpo umano scuola primaria classe quinta video",
+    "il corpo umano scuola primaria sostegno",
+    "il corpo umano scuola primaria schede"
+   ]
+  },
+  "il corpo umano classe prima": {
+   "candidate": "human-body",
+   "s": [
+    "il corpo umano classe prima",
+    "il corpo umano classe prima elementare",
+    "il corpo umano classe prima scienze",
+    "il corpo umano classe prima video",
+    "il corpo umano classe prima wordwall",
+    "il corpo umano classe quinta primaria",
+    "il corpo umano classe seconda primaria",
+    "il corpo umano scheda classe prima",
+    "disegnare il corpo umano classe prima",
+    "il corpo umano scuola primaria classe quinta maestra mile"
+   ]
+  },
+  "il corpo umano classe seconda": {
+   "candidate": "human-body",
+   "s": [
+    "il corpo umano classe seconda primaria",
+    "il corpo umano classe seconda",
+    "wordwall il corpo umano classe seconda"
+   ]
+  },
+  "il corpo umano classe terza": {
+   "candidate": "human-body",
+   "s": [
+    "il corpo umano classe terza"
+   ]
+  },
+  "i cinque sensi": {
+   "candidate": "five-senses",
+   "s": [
+    "i cinque sensi",
+    "i cinque sensi quali sono",
+    "i cinque sensi scuola primaria",
+    "i cinque sensi matera",
+    "i cinque sensi in inglese",
+    "i cinque sensi parma",
+    "i cinque sensi varcaturo",
+    "i cinque sensi poggio mirteto",
+    "i cinque sensi scuola infanzia",
+    "i cinque sensi sono i soli responsabili del processo cognitivo"
+   ]
+  },
+  "i cinque sensi scheda didattica": {
+   "candidate": "five-senses",
+   "s": [
+    "i cinque sensi scheda didattica",
+    "i cinque sensi didattica creativa"
+   ]
+  },
+  "i cinque sensi da stampare": {
+   "candidate": "five-senses",
+   "s": [
+    "i cinque sensi da stampare",
+    "i cinque sensi da stampare e colorare",
+    "i cinque sensi schede da stampare"
+   ]
+  },
+  "i cinque sensi scuola primaria": {
+   "candidate": "five-senses",
+   "s": [
+    "i cinque sensi scuola primaria",
+    "i cinque sensi scuola primaria classe prima",
+    "i cinque sensi scuola primaria classe quinta",
+    "i cinque sensi scuola primaria classe seconda",
+    "i cinque sensi scuola primaria classe prima video",
+    "i cinque sensi scuola primaria video",
+    "i cinque sensi scuola primaria quaderno",
+    "i cinque sensi scuola primaria schede didattiche",
+    "i cinque sensi scuola primaria wordwall",
+    "i cinque sensi scuola primaria sostegno"
+   ]
+  },
+  "i cinque sensi classe prima": {
+   "candidate": "five-senses",
+   "s": [
+    "i cinque sensi classe prima quaderno",
+    "i cinque sensi classe prima",
+    "i cinque sensi classe prima wordwall",
+    "i cinque sensi classe prima video",
+    "i cinque sensi classe prima canzone",
+    "i cinque sensi classe prima maestra mile",
+    "i cinque sensi classe prima elementare",
+    "i cinque sensi classe prima pianetabambini",
+    "i cinque sensi classe prima verifica",
+    "i cinque sensi classe prima schede didattiche"
+   ]
+  },
+  "i cinque sensi classe seconda": {
+   "candidate": "five-senses",
+   "s": [
+    "i cinque sensi classe seconda",
+    "i cinque sensi classe seconda primaria",
+    "wordwall i cinque sensi classe seconda"
+   ]
+  },
+  "5 sensi": {
+   "candidate": "five-senses",
+   "s": [
+    "5 sensi",
+    "5 sensi varcaturo",
+    "5 sensi altamura",
+    "5 sensi quali sono",
+    "5 sensi nissoria",
+    "5 sensi in inglese",
+    "5 sensi martina franca",
+    "5 sensi porto ottiolu",
+    "5 sensi matera",
+    "5 sensi umani"
+   ]
+  },
+  "5 sensi scheda didattica": {
+   "candidate": "five-senses",
+   "s": [
+    "i 5 sensi scheda didattica",
+    "scheda didattica 5 sensi infanzia"
+   ]
+  },
+  "5 sensi da stampare": {
+   "candidate": "five-senses",
+   "s": [
+    "5 sensi da stampare",
+    "lapbook 5 sensi da stampare",
+    "immagini 5 sensi da stampare",
+    "maestra mary lapbook 5 sensi da stampare",
+    "schede didattiche sui 5 sensi da stampare"
+   ]
+  },
+  "5 sensi scuola primaria": {
+   "candidate": "five-senses",
+   "s": [
+    "5 sensi scuola primaria",
+    "5 sensi scuola primaria classe prima",
+    "i 5 sensi scuola primaria pdf",
+    "laboratorio 5 sensi scuola primaria",
+    "filastrocca 5 sensi scuola primaria",
+    "canzone 5 sensi scuola primaria",
+    "lapbook 5 sensi scuola primaria",
+    "libro 5 sensi scuola primaria",
+    "i 5 sensi scuola primaria classe quinta",
+    "cartellone 5 sensi scuola primaria"
+   ]
+  },
+  "5 sensi classe prima": {
+   "candidate": "five-senses",
+   "s": [
+    "5 sensi classe prima",
+    "5 sensi classe prima wordwall",
+    "lapbook 5 sensi classe prima pdf",
+    "i 5 sensi classe prima maestra mary",
+    "verifica 5 sensi classe prima",
+    "attività 5 sensi classe prima",
+    "video 5 sensi classe prima",
+    "scheda 5 sensi classe prima",
+    "filastrocca 5 sensi classe prima",
+    "lapbook 5 sensi classe prima"
+   ]
+  },
+  "5 sensi classe seconda": {
+   "candidate": "five-senses",
+   "s": [
+    "5 sensi classe seconda",
+    "verifica 5 sensi classe seconda elementare",
+    "ripasso 5 sensi classe seconda",
+    "descrivere con i 5 sensi classe seconda",
+    "schede didattiche i 5 sensi classe seconda",
+    "autunno con i 5 sensi classe seconda",
+    "i 5 sensi scuola primaria classe seconda",
+    "descrizione dell autunno con i 5 sensi classe seconda"
+   ]
+  },
+  "il tempo atmosferico": {
+   "candidate": "weather",
+   "s": [
+    "il tempo atmosferico",
+    "il tempo atmosferico in inglese",
+    "il tempo atmosferico cruciverba",
+    "il tempo atmosferico e il clima sono la stessa cosa",
+    "il tempo atmosferico in inglese scuola primaria",
+    "il tempo atmosferico in spagnolo",
+    "il tempo atmosferico italiano l2",
+    "il tempo atmosferico scuola primaria",
+    "il tempo atmosferico per bambini scuola infanzia",
+    "il tempo atmosferico italiano"
+   ]
+  },
+  "il tempo atmosferico da stampare": {
+   "candidate": "weather",
+   "s": [
+    "tempo atmosferico da stampare"
+   ]
+  },
+  "il tempo atmosferico scuola primaria": {
+   "candidate": "weather",
+   "s": [
+    "il tempo atmosferico scuola primaria",
+    "il tempo atmosferico in inglese scuola primaria",
+    "tabella per registrare il tempo atmosferico scuola primaria",
+    "che cos è il tempo atmosferico scuola primaria"
+   ]
+  },
+  "il tempo atmosferico classe prima": {
+   "candidate": "weather",
+   "s": [
+    "il tempo atmosferico classe prima"
+   ]
+  },
+  "il meteo": {
+   "candidate": "weather",
+   "s": [
+    "il meteo",
+    "il meteo roma",
+    "il meteo milano",
+    "il meteo 3b",
+    "il meteo bologna",
+    "il meteo firenze",
+    "il meteo torino",
+    "il meteo napoli",
+    "il meteo radar",
+    "il meteo.it roma"
+   ]
+  },
+  "il meteo scuola primaria": {
+   "candidate": "weather",
+   "s": [
+    "il meteo scuola primaria",
+    "il meteo in inglese scuola primaria"
+   ]
+  },
+  "tangram": {
+   "candidate": "tangram",
+   "s": [
+    "tangram",
+    "tangram figure",
+    "tangram puzzle",
+    "tangram da stampare",
+    "tangram gioco",
+    "tangram follonica",
+    "tangram arezzo",
+    "tangram santeramo",
+    "tangram cos'è",
+    "tangram significato"
+   ]
+  },
+  "tangram scheda didattica": {
+   "candidate": "tangram",
+   "s": [
+    "tangram scheda didattica"
+   ]
+  },
+  "tangram da stampare": {
+   "candidate": "tangram",
+   "s": [
+    "tangram da stampare",
+    "tangram da stampare e ritagliare",
+    "tangram da stampare a4",
+    "tangram da stampare pdf",
+    "tangram da stampare e colorare",
+    "tangram da stampare scuola primaria",
+    "tangram da stampare 10x10",
+    "tangram da stampare scuola media",
+    "tangram da stampare colorato",
+    "tangram da stampare pianetabambini"
+   ]
+  },
+  "tangram scuola primaria": {
+   "candidate": "tangram",
+   "s": [
+    "tangram scuola primaria",
+    "tangram scuola primaria da stampare",
+    "tangram scuola primaria classe prima",
+    "tangram scuola primaria pdf",
+    "tangram scuola primaria classe quarta",
+    "tangram scuola primaria classe seconda",
+    "tangram scuola primaria classe terza",
+    "tangram scuola primaria classe quinta",
+    "tangram scuola primaria online",
+    "costruzione tangram scuola primaria"
+   ]
+  },
+  "tangram classe prima": {
+   "candidate": "tangram",
+   "s": [
+    "tangram classe prima",
+    "wordwall tangram classe prima",
+    "tangram classe seconda primaria",
+    "tangram classe prima primaria",
+    "tangram classe terza primaria",
+    "tangram scuola primaria classe quarta",
+    "tangram scuola primaria classe terza",
+    "tangram scuola primaria classe quinta"
+   ]
+  },
+  "tangram classe seconda": {
+   "candidate": "tangram",
+   "s": [
+    "tangram classe seconda",
+    "tangram classe seconda primaria",
+    "wordwall tangram classe seconda"
+   ]
+  },
+  "tangram classe terza": {
+   "candidate": "tangram",
+   "s": [
+    "tangram classe terza",
+    "tangram classe terza primaria",
+    "wordwall tangram classe terza",
+    "tangram scuola primaria classe terza"
+   ]
+  },
+  "tangram da stampare scuola primaria": {
+   "candidate": "tangram",
+   "s": [
+    "tangram da stampare scuola primaria"
+   ]
+  },
+  "raccolta differenziata": {
+   "candidate": "recycling",
+   "s": [
+    "raccolta differenziata stoccolma",
+    "raccolta differenziata",
+    "raccolta differenziata in inglese",
+    "raccolta differenziata anzio 2026",
+    "raccolta differenziata palermo",
+    "raccolta differenziata lavinio 2026",
+    "raccolta differenziata carini 2026",
+    "raccolta differenziata anzio",
+    "raccolta differenziata mazara del vallo 2026",
+    "raccolta differenziata agrigento"
+   ]
+  },
+  "raccolta differenziata scheda didattica": {
+   "candidate": "recycling",
+   "s": [
+    "raccolta differenziata scheda didattica",
+    "scheda didattica raccolta differenziata scuola primaria"
+   ]
+  },
+  "raccolta differenziata da stampare": {
+   "candidate": "recycling",
+   "s": [
+    "raccolta differenziata da stampare",
+    "cartelli raccolta differenziata da stampare pdf gratis",
+    "immagini raccolta differenziata da stampare",
+    "cartelli raccolta differenziata da stampare pdf",
+    "simboli raccolta differenziata da stampare",
+    "immagini raccolta differenziata da stampare gratis",
+    "etichette raccolta differenziata da stampare gratis",
+    "cartelli raccolta differenziata da stampare gratis",
+    "adesivi raccolta differenziata da stampare",
+    "cartelli raccolta differenziata da stampare"
+   ]
+  },
+  "raccolta differenziata scuola primaria": {
+   "candidate": "recycling",
+   "s": [
+    "raccolta differenziata scuola primaria",
+    "raccolta differenziata scuola primaria classe prima",
+    "raccolta differenziata scuola primaria classe terza",
+    "raccolta differenziata scuola primaria classe seconda",
+    "raccolta differenziata scuola primaria immagini",
+    "raccolta differenziata scuola primaria schede",
+    "raccolta differenziata scuola primaria pdf",
+    "raccolta differenziata scuola primaria video",
+    "lapbook raccolta differenziata scuola primaria",
+    "uda raccolta differenziata scuola primaria"
+   ]
+  },
+  "raccolta differenziata classe prima": {
+   "candidate": "recycling",
+   "s": [
+    "raccolta differenziata classe prima",
+    "raccolta differenziata classe prima primaria",
+    "raccolta differenziata classe prima wordwall",
+    "raccolta differenziata classe prima quaderno",
+    "lapbook raccolta differenziata classe prima",
+    "scheda raccolta differenziata classe prima",
+    "raccolta differenziata classe seconda primaria",
+    "raccolta differenziata classe terza primaria",
+    "attività raccolta differenziata classe prima",
+    "video raccolta differenziata classe prima"
+   ]
+  },
+  "raccolta differenziata classe seconda": {
+   "candidate": "recycling",
+   "s": [
+    "raccolta differenziata classe seconda",
+    "raccolta differenziata classe seconda primaria",
+    "wordwall raccolta differenziata classe seconda",
+    "schede raccolta differenziata classe seconda"
+   ]
+  },
+  "raccolta differenziata classe terza": {
+   "candidate": "recycling",
+   "s": [
+    "raccolta differenziata classe terza primaria",
+    "raccolta differenziata classe terza",
+    "wordwall raccolta differenziata classe terza"
+   ]
+  },
+  "riciclo": {
+   "candidate": "recycling",
+   "s": [
+    "riciclo",
+    "riciclo bottiglie di plastica",
+    "riciclo creativo",
+    "riciclo della plastica",
+    "riciclo bottiglie plastica conad",
+    "riciclo o reciclo",
+    "riciclone",
+    "riciclo bottiglie di plastica vicino a me",
+    "riciclo capsule nespresso",
+    "riciclo vestiti usati"
+   ]
+  },
+  "riciclo scheda didattica": {
+   "candidate": "recycling",
+   "s": [
+    "scheda didattica riciclo"
+   ]
+  },
+  "riciclo da stampare": {
+   "candidate": "recycling",
+   "s": [
+    "lapbook riciclo da stampare",
+    "simbolo riciclo da stampare",
+    "schede sul riciclo da stampare"
+   ]
+  },
+  "riciclo scuola primaria": {
+   "candidate": "recycling",
+   "s": [
+    "riciclo scuola primaria",
+    "riciclo scuola primaria schede didattiche",
+    "riciclo scuola primaria classe prima",
+    "riciclo carta scuola primaria",
+    "riciclo creativo scuola primaria",
+    "laboratorio riciclo scuola primaria",
+    "attività riciclo scuola primaria",
+    "uda riciclo scuola primaria",
+    "riciclo plastica scuola primaria",
+    "riciclo vetro scuola primaria"
+   ]
+  },
+  "riciclo classe prima": {
+   "candidate": "recycling",
+   "s": [
+    "riciclo classe prima",
+    "riciclo classe seconda primaria",
+    "wordwall riciclo classe prima",
+    "riciclo classe terza primaria",
+    "scheda riciclo classe prima",
+    "attività sul riciclo classe prima",
+    "riciclo della carta classe prima",
+    "riciclo scuola primaria classe prima",
+    "schede sul riciclo classe prima"
+   ]
+  },
+  "riciclo classe seconda": {
+   "candidate": "recycling",
+   "s": [
+    "riciclo classe seconda primaria",
+    "riciclo classe seconda",
+    "scheda riciclo classe seconda",
+    "wordwall riciclo classe seconda",
+    "attività sul riciclo classe seconda"
+   ]
+  },
+  "riciclo classe terza": {
+   "candidate": "recycling",
+   "s": [
+    "riciclo classe terza primaria",
+    "riciclo classe terza"
+   ]
+  },
+  "pari e dispari": {
+   "candidate": "odd-and-even",
+   "s": [
+    "pari e dispari",
+    "pari e dispari trana",
+    "pari e dispari in inglese",
+    "pari e dispari basaluzzo",
+    "pari e dispari zelig",
+    "pari e dispari streaming",
+    "pari e dispari film",
+    "pari e dispari cast",
+    "pari e dispari comici",
+    "pari e dispari funzioni"
+   ]
+  },
+  "pari e dispari scheda didattica": {
+   "candidate": "odd-and-even",
+   "s": [
+    "scheda didattica pari e dispari",
+    "scheda didattica numeri pari e dispari"
+   ]
+  },
+  "pari e dispari da stampare": {
+   "candidate": "odd-and-even",
+   "s": [
+    "numeri pari e dispari schede da stampare"
+   ]
+  },
+  "pari e dispari scuola primaria": {
+   "candidate": "odd-and-even",
+   "s": [
+    "pari e dispari scuola primaria",
+    "pari e dispari scuola primaria classe seconda",
+    "numeri pari e dispari scuola primaria",
+    "esercizi pari e dispari scuola primaria",
+    "numeri pari e dispari scuola primaria classe seconda",
+    "numeri pari e dispari scuola primaria schede didattiche",
+    "spiegazione pari e dispari scuola primaria",
+    "video pari e dispari scuola primaria",
+    "numeri pari e dispari scuola primaria classe prima",
+    "numeri pari e dispari scuola primaria wordwall"
+   ]
+  },
+  "pari e dispari classe prima": {
+   "candidate": "odd-and-even",
+   "s": [
+    "pari e dispari classe prima",
+    "pari e dispari classe prima primaria",
+    "numeri pari e dispari classe prima",
+    "pari e dispari classe seconda primaria",
+    "wordwall pari e dispari classe prima",
+    "schede pari e dispari classe prima",
+    "numeri pari e dispari classe prima maestra anita",
+    "esercizi pari e dispari classe prima",
+    "numeri pari e dispari classe prima elementare",
+    "pari e dispari classe terza primaria"
+   ]
+  },
+  "pari e dispari classe seconda": {
+   "candidate": "odd-and-even",
+   "s": [
+    "pari e dispari classe seconda",
+    "pari e dispari classe seconda primaria",
+    "pari e dispari classe seconda maestra anita",
+    "pari e dispari classe seconda wordwall",
+    "numeri pari e dispari classe seconda",
+    "schede pari e dispari classe seconda",
+    "numeri pari e dispari classe seconda primaria",
+    "esercizi pari e dispari classe seconda",
+    "numeri pari e dispari classe seconda spiegazione",
+    "numeri pari e dispari classe seconda video"
+   ]
+  },
+  "pari e dispari classe terza": {
+   "candidate": "odd-and-even",
+   "s": [
+    "pari e dispari classe terza",
+    "pari e dispari classe terza primaria",
+    "esercizi sui numeri pari e dispari classe terza",
+    "wordwall matematica classe terza pari e dispari"
+   ]
+  },
+  "numeri pari e dispari": {
+   "candidate": "odd-and-even",
+   "s": [
+    "numeri pari e dispari",
+    "numeri pari e dispari in inglese",
+    "numeri pari e dispari classe prima",
+    "numeri pari e dispari scuola primaria",
+    "numeri pari e dispari classe seconda",
+    "numeri pari e dispari tabella",
+    "numeri pari e dispari wordwall",
+    "numeri pari e dispari pitagora",
+    "numeri pari e dispari spiegazione per bambini",
+    "numeri pari e dispari prima elementare"
+   ]
+  },
+  "numeri pari e dispari scheda didattica": {
+   "candidate": "odd-and-even",
+   "s": [
+    "scheda didattica numeri pari e dispari"
+   ]
+  },
+  "numeri pari e dispari da stampare": {
+   "candidate": "odd-and-even",
+   "s": [
+    "numeri pari e dispari schede da stampare"
+   ]
+  },
+  "numeri pari e dispari scuola primaria": {
+   "candidate": "odd-and-even",
+   "s": [
+    "numeri pari e dispari scuola primaria",
+    "numeri pari e dispari scuola primaria classe seconda",
+    "numeri pari e dispari scuola primaria schede didattiche",
+    "numeri pari e dispari scuola primaria classe prima",
+    "numeri pari e dispari scuola primaria spiegazione",
+    "numeri pari e dispari scuola primaria wordwall",
+    "numeri pari e dispari scuola primaria video",
+    "numeri pari e dispari scuola primaria classe terza",
+    "uda numeri pari e dispari scuola primaria",
+    "regola numeri pari e dispari scuola primaria"
+   ]
+  },
+  "numeri pari e dispari classe prima": {
+   "candidate": "odd-and-even",
+   "s": [
+    "numeri pari e dispari classe prima",
+    "numeri pari e dispari classe prima maestra anita",
+    "numeri pari e dispari classe prima elementare",
+    "numeri pari e dispari classe seconda primaria",
+    "wordwall numeri pari e dispari classe prima",
+    "esercizi numeri pari e dispari classe prima",
+    "schede numeri pari e dispari classe prima",
+    "video numeri pari e dispari classe prima",
+    "numeri pari e dispari scuola primaria classe terza",
+    "come spiegare i numeri pari e dispari classe prima"
+   ]
+  },
+  "numeri pari e dispari classe seconda": {
+   "candidate": "odd-and-even",
+   "s": [
+    "numeri pari e dispari classe seconda",
+    "numeri pari e dispari classe seconda primaria",
+    "numeri pari e dispari classe seconda maestra anita",
+    "numeri pari e dispari classe seconda spiegazione",
+    "numeri pari e dispari classe seconda schede didattiche",
+    "numeri pari e dispari classe seconda wordwall",
+    "numeri pari e dispari classe seconda video",
+    "numeri pari e dispari classe seconda regola",
+    "numeri pari e dispari classe seconda esercizi",
+    "numeri pari e dispari classe seconda attività"
+   ]
+  },
+  "numeri pari e dispari classe terza": {
+   "candidate": "odd-and-even",
+   "s": [
+    "numeri pari e dispari classe terza",
+    "esercizi sui numeri pari e dispari classe terza",
+    "numeri pari e dispari scuola primaria classe terza"
+   ]
+  },
+  "arrotondamento": {
+   "candidate": "rounding",
+   "s": [
+    "arrotondamento",
+    "arrotondamento per eccesso",
+    "arrotondamento centesimi",
+    "arrotondamento per difetto",
+    "arrotondamento in inglese",
+    "arrotondamento imu",
+    "arrotondamento excel",
+    "arrotondamento 730",
+    "arrotondamento passivo dare o avere",
+    "arrotondamento centesimi legge"
+   ]
+  },
+  "arrotondamento da stampare": {
+   "candidate": "rounding",
+   "s": [
+    "cartello arrotondamento centesimi da stampare"
+   ]
+  },
+  "arrotondamento scuola primaria": {
+   "candidate": "rounding",
+   "s": [
+    "arrotondamento scuola primaria",
+    "arrotondamento scuola primaria classe quinta",
+    "arrotondamento scuola primaria classe quarta",
+    "arrotondamento scuola primaria 3 classe",
+    "arrotondamento scuola primaria esercizi",
+    "l arrotondamento scuola primaria",
+    "video arrotondamento scuola primaria",
+    "spiegazione arrotondamento scuola primaria",
+    "arrotondamento matematica scuola primaria",
+    "arrotondamento numeri scuola primaria"
+   ]
+  },
+  "arrotondamento classe prima": {
+   "candidate": "rounding",
+   "s": [
+    "arrotondamento classe quarta primaria",
+    "arrotondamento classe quinta primaria",
+    "arrotondamento classe terza primaria"
+   ]
+  },
+  "arrotondamento classe terza": {
+   "candidate": "rounding",
+   "s": [
+    "arrotondamento classe terza",
+    "arrotondamento classe terza primaria"
+   ]
+  },
+  "arrotondare": {
+   "candidate": "rounding",
+   "s": [
+    "arrotondare per eccesso",
+    "arrotondare per difetto",
+    "arrotondare lo stipendio",
+    "arrotondare lo stipendio con amazon",
+    "arrotondare in inglese",
+    "arrotondare",
+    "arrotondare per eccesso excel",
+    "arrotondare su excel",
+    "arrotondare lo stipendio da casa",
+    "arrotondare per difetto o per eccesso"
+   ]
+  },
+  "arrotondare scuola primaria": {
+   "candidate": "rounding",
+   "s": [
+    "arrotondare scuola primaria",
+    "arrotondare i numeri scuola primaria",
+    "arrotondare per eccesso scuola primaria",
+    "arrotondare i numeri decimali scuola primaria"
+   ]
+  },
+  "arrotondare classe terza": {
+   "candidate": "rounding",
+   "s": [
+    "arrotondare classe terza"
+   ]
+  },
+  "pronomi personali": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomi personali",
+    "pronomi personali inglese",
+    "pronomi personali complemento",
+    "pronomi personali soggetto",
+    "pronomi personali tedesco",
+    "pronomi personali latino",
+    "pronomi personali francese",
+    "pronomi personali spagnolo",
+    "pronomi personali soggetto e complemento",
+    "pronomi personali soggetto inglese"
+   ]
+  },
+  "pronomi personali scheda didattica": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomi personali scheda didattica"
+   ]
+  },
+  "pronomi personali da stampare": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomi personali da stampare",
+    "tabella pronomi personali da stampare",
+    "esercizi inglese pronomi personali soggetto da stampare"
+   ]
+  },
+  "pronomi personali scuola primaria": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomi personali scuola primaria",
+    "pronomi personali scuola primaria pdf",
+    "pronomi personali scuola primaria classe quinta",
+    "pronomi personali scuola primaria classe quarta",
+    "pronomi personali scuola primaria classe terza",
+    "pronomi personali scuola primaria esercizi",
+    "pronomi personali scuola primaria video",
+    "pronomi personali inglese scuola primaria",
+    "pronomi personali complemento scuola primaria",
+    "pronomi personali inglese scuola primaria maestra lidia"
+   ]
+  },
+  "pronomi personali classe prima": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomi personali classe terza primaria",
+    "pronomi personali classe quinta primaria",
+    "pronomi personali classe quarta primaria",
+    "pronomi personali classe seconda primaria",
+    "pronomi personali inglese classe terza primaria",
+    "pronomi personali complemento classe quarta primaria",
+    "esercizi sui pronomi personali classe terza primaria",
+    "i pronomi personali soggetto classe terza primaria"
+   ]
+  },
+  "pronomi personali classe seconda": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomi personali classe seconda",
+    "pronomi personali classe seconda primaria",
+    "pronomi personali inglese classe seconda",
+    "pronomi personali soggetto classe seconda",
+    "esercizi sui pronomi personali classe seconda"
+   ]
+  },
+  "pronomi personali classe terza": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomi personali classe terza",
+    "pronomi personali classe terza primaria",
+    "pronomi personali classe terza maestra anita",
+    "i pronomi personali classe terza maestra carmelina",
+    "pronomi personali soggetto classe terza",
+    "pronomi personali inglese classe terza",
+    "wordwall pronomi personali classe terza",
+    "esercizi pronomi personali classe terza",
+    "pronomi personali inglese classe terza primaria",
+    "schede pronomi personali classe terza"
+   ]
+  },
+  "i pronomi": {
+   "candidate": "pronouns",
+   "s": [
+    "i pronomi",
+    "i pronomi personali",
+    "i pronomi relativi",
+    "i pronomi come che e cui",
+    "i pronomi possessivi",
+    "i pronomi dimostrativi",
+    "i pronomi indefiniti",
+    "i pronomi in inglese",
+    "i pronomi personali quali sono",
+    "i pronomi personali soggetto"
+   ]
+  },
+  "i pronomi scuola primaria": {
+   "candidate": "pronouns",
+   "s": [
+    "i pronomi scuola primaria",
+    "i pronomi scuola primaria classe quarta",
+    "i pronomi personali scuola primaria",
+    "i pronomi relativi scuola primaria",
+    "i pronomi personali scuola primaria classe terza",
+    "i pronomi possessivi scuola primaria",
+    "i pronomi personali scuola primaria classe quinta",
+    "i pronomi personali scuola primaria classe seconda",
+    "i pronomi personali scuola primaria classe quarta",
+    "i pronomi numerali scuola primaria"
+   ]
+  },
+  "i pronomi classe prima": {
+   "candidate": "pronouns",
+   "s": [
+    "i pronomi classe quarta primaria maestra mile",
+    "i pronomi classe quarta primaria",
+    "i pronomi personali classe terza primaria",
+    "i pronomi relativi classe quinta primaria",
+    "i pronomi personali scuola primaria classe quinta",
+    "i pronomi personali classe quarta primaria",
+    "i pronomi personali scuola primaria classe seconda",
+    "i pronomi relativi classe quarta primaria",
+    "i pronomi dimostrativi classe quarta primaria",
+    "i pronomi personali soggetto classe terza primaria"
+   ]
+  },
+  "i pronomi classe seconda": {
+   "candidate": "pronouns",
+   "s": [
+    "i pronomi classe seconda",
+    "i pronomi personali classe seconda",
+    "i pronomi personali classe seconda primaria"
+   ]
+  },
+  "i pronomi classe terza": {
+   "candidate": "pronouns",
+   "s": [
+    "i pronomi classe terza",
+    "i pronomi personali classe terza",
+    "i pronomi personali classe terza maestra anita",
+    "i pronomi personali classe terza primaria",
+    "i pronomi personali classe terza maestra carmelina",
+    "i pronomi personali classe terza maestra mile",
+    "i pronomi personali soggetto classe terza primaria",
+    "i pronomi personali soggetto classe terza",
+    "i pronomi personali in inglese classe terza",
+    "esercizi con i pronomi personali classe terza"
+   ]
+  },
+  "parole interrogative": {
+   "candidate": "question-words",
+   "s": [
+    "parole interrogative in inglese",
+    "parole interrogative",
+    "parole interrogative in francese",
+    "parole interrogative in italiano",
+    "parole interrogative in inglese esercizi",
+    "parole interrogative in tedesco",
+    "parole interrogative in inglese tabella",
+    "parole interrogative in inglese traduzione",
+    "parole interrogative in spagnolo",
+    "parole interrogative in inglese wordwall"
+   ]
+  },
+  "frasi interrogative": {
+   "candidate": "question-words",
+   "s": [
+    "frasi interrogative in inglese",
+    "frasi interrogative",
+    "frasi interrogative in francese",
+    "frasi interrogative indirette",
+    "frasi interrogative negative in inglese",
+    "frasi interrogative in inglese con il verbo to be",
+    "frasi interrogative in tedesco",
+    "frasi interrogative present simple",
+    "frasi interrogative past simple",
+    "frasi interrogative in francese esercizi"
+   ]
+  },
+  "frasi interrogative scuola primaria": {
+   "candidate": "question-words",
+   "s": [
+    "frasi interrogative in inglese scuola primaria"
+   ]
+  },
+  "sviluppo del cubo": {
+   "candidate": "cube-nets",
+   "s": [
+    "sviluppo del cubo",
+    "sviluppo del cubo di binomio",
+    "sviluppo del cubo da stampare",
+    "sviluppo del cubo scuola primaria",
+    "sviluppo del cubo tecnologia",
+    "sviluppo del cubo da costruire",
+    "sviluppo del cubo immagini",
+    "sviluppo del cubo video",
+    "sviluppo del cubo tecnologia 2.0",
+    "sviluppo del cubo con alette"
+   ]
+  },
+  "sviluppo del cubo da stampare": {
+   "candidate": "cube-nets",
+   "s": [
+    "sviluppo del cubo da stampare"
+   ]
+  },
+  "sviluppo del cubo scuola primaria": {
+   "candidate": "cube-nets",
+   "s": [
+    "sviluppo del cubo scuola primaria"
+   ]
+  },
+  "sviluppo dei solidi": {
+   "candidate": "cube-nets",
+   "s": [
+    "sviluppo dei solidi",
+    "sviluppo dei solidi da stampare",
+    "sviluppo dei solidi scuola primaria",
+    "sviluppo dei solidi scuola primaria da stampare",
+    "sviluppo dei solidi con filo",
+    "sviluppo dei solidi pdf",
+    "sviluppo dei solidi scuola media",
+    "sviluppo dei solidi classe terza",
+    "sviluppo dei solidi classe seconda",
+    "sviluppo dei solidi cubo"
+   ]
+  },
+  "sviluppo dei solidi da stampare": {
+   "candidate": "cube-nets",
+   "s": [
+    "sviluppo dei solidi da stampare",
+    "sviluppo dei solidi scuola primaria da stampare"
+   ]
+  },
+  "sviluppo dei solidi scuola primaria": {
+   "candidate": "cube-nets",
+   "s": [
+    "sviluppo dei solidi scuola primaria",
+    "sviluppo dei solidi scuola primaria da stampare",
+    "sviluppo dei solidi video scuola primaria"
+   ]
+  },
+  "sviluppo dei solidi classe prima": {
+   "candidate": "cube-nets",
+   "s": [
+    "sviluppo dei solidi classe seconda primaria",
+    "lo sviluppo dei solidi classe quinta primaria",
+    "lo sviluppo dei solidi classe terza primaria"
+   ]
+  },
+  "sviluppo dei solidi classe seconda": {
+   "candidate": "cube-nets",
+   "s": [
+    "sviluppo dei solidi classe seconda",
+    "sviluppo dei solidi classe seconda primaria"
+   ]
+  },
+  "sviluppo dei solidi classe terza": {
+   "candidate": "cube-nets",
+   "s": [
+    "sviluppo dei solidi classe terza",
+    "lo sviluppo dei solidi classe terza primaria"
+   ]
+  },
+  "contare con le dita": {
+   "candidate": "finger-counting",
+   "s": [
+    "contare con le dita",
+    "contare con le dita in cinese",
+    "contare con le dita in binario",
+    "contare con le dita bortolato",
+    "contare con le dita scuola primaria",
+    "contare con le dita in giapponese",
+    "contare con le dita classe prima",
+    "contare con le dita schede didattiche",
+    "contare con le dita schede",
+    "contare con le dita wordwall"
+   ]
+  },
+  "contare con le dita scuola primaria": {
+   "candidate": "finger-counting",
+   "s": [
+    "contare con le dita scuola primaria"
+   ]
+  },
+  "contare con le dita classe prima": {
+   "candidate": "finger-counting",
+   "s": [
+    "contare con le dita classe prima"
+   ]
+  },
+  "le dita della mano": {
+   "candidate": "finger-counting",
+   "s": [
+    "le dita della mano",
+    "le dita della mano come si chiamano",
+    "le dita della mano canzone",
+    "le dita della mano in inglese",
+    "le dita della mano non sono tutte uguali significato",
+    "le dita della mano non si chiudono",
+    "le dita della mano si bloccano",
+    "le dita della mano sinistra si addormentano",
+    "le dita della mano testo",
+    "le dita della mano in francese"
+   ]
+  },
+  "le dita della mano scuola primaria": {
+   "candidate": "finger-counting",
+   "s": [
+    "le dita della mano scuola primaria"
+   ]
+  },
+  "le dita della mano classe prima": {
+   "candidate": "finger-counting",
+   "s": [
+    "le dita della mano classe prima"
+   ]
+  }
+ }
+}

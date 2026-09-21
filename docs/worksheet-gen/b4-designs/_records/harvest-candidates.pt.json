@@ -1,0 +1,1926 @@
+{
+ "locale": "pt",
+ "market": {
+  "hl": "pt",
+  "gl": "br"
+ },
+ "generatedAt": "2026-09-21T00:21:22.250Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds.json",
+ "requestCount": 182,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cloze": {
+   "heads": [
+    "completar frases",
+    "complete as frases"
+   ],
+   "requests": 14,
+   "productiveSeeds": 6,
+   "unique": 42,
+   "suggestions": [
+    "atividade alfabetização complete as frases",
+    "atividade completar frases 1 ano",
+    "atividade completar frases 2 ano",
+    "atividade completar frases 3 ano",
+    "atividade completar frases com palavras",
+    "atividade completar frases com verbos",
+    "atividade completar frases wordwall",
+    "atividade complete as frases 1 ano",
+    "atividade complete as frases 2 ano",
+    "atividade complete as frases com adjetivos",
+    "atividade complete as frases com os verbos",
+    "atividades completar frases alfabetização",
+    "atividades complete as frases 3 ano",
+    "atividades complete as frases com o nome das figuras",
+    "atividades de completar frases para imprimir",
+    "completar frases",
+    "completar frases 1 ano",
+    "completar frases 2 ano",
+    "completar frases 3 ano",
+    "completar frases atividades",
+    "completar frases com palavras",
+    "completar frases com verbos",
+    "completar frases em inglês",
+    "completar frases para imprimir",
+    "completar frases simples wordwall",
+    "completar frases wordwall",
+    "complete as frases",
+    "complete as frases 2 ano",
+    "complete as frases a seguir",
+    "complete as frases abaixo",
+    "complete as frases atividades",
+    "complete as frases com adjetivos",
+    "complete as frases com as palavras",
+    "complete as frases com as palavras abaixo",
+    "complete as frases com as palavras do quadro",
+    "complete as frases com palavras da atividade anterior",
+    "complete as frases em inglês",
+    "complete as frases para imprimir",
+    "complete as frases wordwall",
+    "complete as frases é uma atividade econômica",
+    "ejercicios completar frases para imprimir",
+    "fichas de completar frases para imprimir"
+   ]
+  },
+  "dominoes": {
+   "heads": [
+    "dominó para imprimir",
+    "dominó"
+   ],
+   "requests": 14,
+   "productiveSeeds": 7,
+   "unique": 40,
+   "suggestions": [
+    "atividade domino 1 ano",
+    "atividade domino da adição",
+    "atividade domino das silabas",
+    "atividade domino de palavras",
+    "atividade domino matematico",
+    "atividade dominó alfabetização",
+    "atividade dominó da multiplicação",
+    "atividade dominó educação infantil",
+    "atividade dominó para imprimir",
+    "centro educacional dominó educação infantil e ensino fundamental fotos",
+    "domino de animais educação infantil",
+    "domino de cores educação infantil",
+    "domino dos numeros educação infantil",
+    "domino's",
+    "dominó",
+    "dominó atividade",
+    "dominó banda",
+    "dominó da adição para imprimir educação infantil",
+    "dominó de frações",
+    "dominó de osso",
+    "dominó educação infantil",
+    "dominó educação infantil imprimir",
+    "dominó gigante educação infantil",
+    "dominó jogo",
+    "dominó mexicano",
+    "dominó na educação infantil objetivo",
+    "dominó night club",
+    "dominó para imprimir",
+    "dominó para imprimir colorido",
+    "dominó para imprimir com desenhos",
+    "dominó para imprimir completo",
+    "dominó para imprimir e recortar",
+    "dominó para imprimir educação infantil",
+    "dominó para imprimir grande",
+    "dominó para imprimir gratis",
+    "dominó para imprimir pdf",
+    "dominó para imprimir y recortar pdf",
+    "dominó personalizado",
+    "dominó profissional",
+    "jogo domino educação infantil"
+   ]
+  },
+  "human-body": {
+   "heads": [
+    "partes do corpo",
+    "o corpo humano"
+   ],
+   "requests": 14,
+   "productiveSeeds": 9,
+   "unique": 77,
+   "suggestions": [
+    "atividade o corpo humano educação infantil",
+    "atividades sobre o corpo humano para imprimir",
+    "bingo partes do corpo para imprimir",
+    "boneco partes do corpo para imprimir",
+    "caça palavras sobre o corpo humano para imprimir",
+    "complete o corpo humano educação infantil",
+    "conhecendo o corpo humano educação infantil",
+    "corpo humano para imprimir e montar colorido",
+    "corpo humano para imprimir educação infantil",
+    "corpo humano para imprimir tamanho grande",
+    "corpo humano para imprimir tamanho grande pdf",
+    "cruzadinha sobre o corpo humano para imprimir",
+    "desenhar o corpo humano educação infantil",
+    "história partes do corpo educação infantil",
+    "história sobre o corpo humano educação infantil",
+    "história sobre o corpo humano para imprimir",
+    "imagens partes do corpo para imprimir",
+    "livro partes do corpo educação infantil",
+    "montar o corpo humano educação infantil",
+    "montar o corpo humano para imprimir",
+    "o corpo humano",
+    "o corpo humano após a morte 4 dias após a morte",
+    "o corpo humano atividade 1 ano",
+    "o corpo humano atividade 4 ano",
+    "o corpo humano atividades",
+    "o corpo humano atividades 2 ano",
+    "o corpo humano atividades 3 ano",
+    "o corpo humano atividades 5 ano",
+    "o corpo humano atividades educação infantil",
+    "o corpo humano e dividido em 3 partes",
+    "o corpo humano educação infantil",
+    "o corpo humano para imprimir",
+    "o corpo humano por dentro",
+    "o corpo humano precisa de açúcar",
+    "o corpo humano tem quantos litros de sangue",
+    "o corpo humano tem quantos ossos",
+    "o corpo humano tem quantos por cento de água",
+    "o corpo humano é dividido em",
+    "o corpo humano é dividido em quantas partes",
+    "partes do corpo 1o ano",
+    "partes do corpo atividade",
+    "partes do corpo atividade 1 ano",
+    "partes do corpo atividade educação infantil",
+    "partes do corpo atividade infantil",
+    "partes do corpo atividade ingles",
+    "partes do corpo atividade maternal",
+    "partes do corpo atividades 2 ano",
+    "partes do corpo com a letra i",
+    "partes do corpo com h",
+    "partes do corpo com i",
+    "partes do corpo educação infantil",
+    "partes do corpo educação infantil atividades",
+    "partes do corpo educação infantil bncc",
+    "partes do corpo educação infantil musica",
+    "partes do corpo educação infantil objetivo",
+    "partes do corpo educação infantil para imprimir",
+    "partes do corpo em espanhol",
+    "partes do corpo em ingles",
+    "partes do corpo humano",
+    "partes do corpo humano atividade 1 ano",
+    "partes do corpo humano atividade infantil",
+    "partes do corpo humano atividades",
+    "partes do corpo humano com a letra i",
+    "partes do corpo humano educação infantil",
+    "partes do corpo humano educação infantil para imprimir",
+    "partes do corpo humano em inglês",
+    "partes do corpo humano para imprimir",
+    "partes do corpo humano para imprimir e montar",
+    "partes do corpo humano para imprimir educação infantil",
+    "partes do corpo humano por dentro",
+    "partes do corpo para imprimir",
+    "partes do corpo para imprimir e colorir",
+    "partes do corpo para imprimir e montar",
+    "partes do corpo para imprimir educação infantil",
+    "projeto o corpo humano educação infantil",
+    "sobre o corpo humano educação infantil",
+    "trabalhando o corpo humano educação infantil"
+   ]
+  },
+  "five-senses": {
+   "heads": [
+    "os cinco sentidos",
+    "5 sentidos"
+   ],
+   "requests": 14,
+   "productiveSeeds": 8,
+   "unique": 72,
+   "suggestions": [
+    "5 sentidos",
+    "5 sentidos atividade maternal",
+    "5 sentidos atividade para imprimir",
+    "5 sentidos atividades",
+    "5 sentidos atividades 1 ano",
+    "5 sentidos atividades 2 ano",
+    "5 sentidos atividades educação infantil",
+    "5 sentidos curitiba",
+    "5 sentidos do amor",
+    "5 sentidos do corpo",
+    "5 sentidos do corpo humano",
+    "5 sentidos do ser humano",
+    "5 sentidos educação infantil",
+    "5 sentidos educação infantil atividades",
+    "5 sentidos educação infantil bncc",
+    "5 sentidos educação infantil musica",
+    "5 sentidos em ingles",
+    "5 sentidos em inglês atividades",
+    "5 sentidos humanos",
+    "5 sentidos humanos atividades",
+    "5 sentidos para imprimir",
+    "5 sentidos para imprimir pdf",
+    "5 sentidos restaurante",
+    "atividade 5 sentidos 3 ano",
+    "atividade 5 sentidos 6 ano",
+    "atividade os cinco sentidos 1 ano",
+    "atividade os cinco sentidos 3 ano",
+    "atividade os cinco sentidos 6 ano",
+    "atividade os cinco sentidos maternal",
+    "atividades para imprimir sobre os cinco sentidos",
+    "atividades sobre os cinco sentidos 4 ano",
+    "atividades sobre os cinco sentidos 5 ano",
+    "caixa dos 5 sentidos para imprimir",
+    "cartaz 5 sentidos para imprimir",
+    "desenho dos 5 sentidos para imprimir",
+    "historia 5 sentidos educação infantil",
+    "história dos 5 sentidos para imprimir",
+    "história joão e os cinco sentidos para imprimir",
+    "imagem 5 sentidos para imprimir",
+    "imagens 5 sentidos educação infantil",
+    "livro os cinco sentidos para imprimir",
+    "molde dos 5 sentidos para imprimir",
+    "música os cinco sentidos educação infantil",
+    "o ratinho e os cinco sentidos para imprimir",
+    "o ratinho e os cinco sentidos pdf para imprimir",
+    "os 5 sentidos educação infantil para imprimir",
+    "os cinco sentidos",
+    "os cinco sentidos atividades",
+    "os cinco sentidos atividades 2 ano",
+    "os cinco sentidos do corpo",
+    "os cinco sentidos do corpo humano",
+    "os cinco sentidos do corpo humano atividade",
+    "os cinco sentidos do ser humano",
+    "os cinco sentidos educação infantil",
+    "os cinco sentidos educação infantil atividades",
+    "os cinco sentidos educação infantil para imprimir",
+    "os cinco sentidos educação infantil plano de aula",
+    "os cinco sentidos em inglês",
+    "os cinco sentidos humanos",
+    "os cinco sentidos na educação infantil bncc",
+    "os cinco sentidos para imprimir",
+    "os cinco sentidos para imprimir colorido",
+    "os cinco sentidos para imprimir educação infantil",
+    "os cinco sentidos são",
+    "painel 5 sentidos educação infantil",
+    "painel 5 sentidos para imprimir",
+    "planejamento os cinco sentidos educação infantil",
+    "projeto 5 sentidos educação infantil",
+    "projeto os cinco sentidos educação infantil",
+    "sequência didática os cinco sentidos educação infantil",
+    "video 5 sentidos educação infantil",
+    "video os cinco sentidos educação infantil"
+   ]
+  },
+  "weather": {
+   "heads": [
+    "o tempo e o clima",
+    "clima"
+   ],
+   "requests": 14,
+   "productiveSeeds": 6,
+   "unique": 48,
+   "suggestions": [
+    "atividade clima do brasil",
+    "atividade clima e tempo",
+    "atividade clima e tempo 6 ano",
+    "atividade clima e tempo 8 ano",
+    "atividade clima educação infantil",
+    "atividade sobre o tempo e o clima",
+    "atividades sobre o clima para imprimir",
+    "atividades sobre o tempo e o clima 6 ano",
+    "atividades sobre o tempo e o clima 8 ano",
+    "cartaz clima educação infantil",
+    "clima",
+    "clima amanhã",
+    "clima atividade",
+    "clima atividade 1 ano",
+    "clima atividade adaptada",
+    "clima atividades 3 ano",
+    "clima atividades 4 ano",
+    "clima atividades 6 ano",
+    "clima copenhagen",
+    "clima de rodeio educação infantil",
+    "clima educação infantil",
+    "clima em gotemburgo",
+    "clima em lund",
+    "clima en ingles para imprimir",
+    "clima estocolmo",
+    "clima frio para imprimir",
+    "clima helsinki",
+    "clima nublado para imprimir",
+    "clima para imprimir",
+    "clima para imprimir e colorir",
+    "clima seco educação infantil",
+    "clima stockholm",
+    "clima tempo",
+    "clima tropical para imprimir",
+    "climatempo educação infantil",
+    "climatempo estocolmo",
+    "imagens de clima para imprimir",
+    "o tempo atmosférico e o clima atividades",
+    "o tempo e o clima",
+    "o tempo e o clima 5 ano",
+    "o tempo e o clima 6 ano",
+    "o tempo e o clima 8 ano",
+    "painel clima educação infantil",
+    "palabra clima para imprimir",
+    "projeto clima educação infantil",
+    "relogio do clima educação infantil",
+    "tipos de clima educação infantil",
+    "tipos de clima para imprimir"
+   ]
+  },
+  "tangram": {
+   "heads": [
+    "tangram",
+    "tangram para imprimir"
+   ],
+   "requests": 14,
+   "productiveSeeds": 7,
+   "unique": 38,
+   "suggestions": [
+    "atividade tangram educação infantil",
+    "atividade tangram para imprimir",
+    "historia do tangram educação infantil",
+    "objetivo tangram educação infantil",
+    "plano de aula tangram educação infantil",
+    "projeto tangram educação infantil",
+    "tangram",
+    "tangram atividade 1 ano",
+    "tangram atividades",
+    "tangram atividades 2 ano",
+    "tangram atividades 3 ano",
+    "tangram atividades 4 ano",
+    "tangram atividades 5o ano",
+    "tangram atividades 6 ano",
+    "tangram atividades para imprimir",
+    "tangram atividades pdf",
+    "tangram educação infantil",
+    "tangram educação infantil bncc",
+    "tangram figuras",
+    "tangram gato",
+    "tangram imagens",
+    "tangram jogo",
+    "tangram o que é",
+    "tangram online",
+    "tangram para imprimir",
+    "tangram para imprimir a4",
+    "tangram para imprimir a4 pdf",
+    "tangram para imprimir animais",
+    "tangram para imprimir e colorir",
+    "tangram para imprimir e montar",
+    "tangram para imprimir e recortar",
+    "tangram para imprimir educação infantil",
+    "tangram para imprimir grande pdf",
+    "tangram para imprimir pdf",
+    "tangram para imprimir preto e branco",
+    "tangram quadrado",
+    "trabalhando tangram na educação infantil",
+    "video tangram educação infantil"
+   ]
+  },
+  "recycling": {
+   "heads": [
+    "reciclagem",
+    "coleta seletiva"
+   ],
+   "requests": 14,
+   "productiveSeeds": 9,
+   "unique": 76,
+   "suggestions": [
+    "adesivo coleta seletiva para imprimir",
+    "atividade coleta seletiva para imprimir",
+    "atividades reciclagem educação infantil imprimir",
+    "cartaz coleta seletiva educação infantil",
+    "cartaz coleta seletiva para imprimir",
+    "cartaz reciclagem educação infantil",
+    "coleta seletiva",
+    "coleta seletiva atividade",
+    "coleta seletiva atividade 3 ano",
+    "coleta seletiva atividade educação infantil",
+    "coleta seletiva atividade infantil",
+    "coleta seletiva atividade ludica",
+    "coleta seletiva atividades 1 ano",
+    "coleta seletiva atividades 2 ano",
+    "coleta seletiva atividades 5 ano",
+    "coleta seletiva cores",
+    "coleta seletiva cores das lixeiras",
+    "coleta seletiva de lixo",
+    "coleta seletiva e reciclagem",
+    "coleta seletiva educação infantil",
+    "coleta seletiva educação infantil 5 anos",
+    "coleta seletiva educação infantil atividades",
+    "coleta seletiva educação infantil objetivo",
+    "coleta seletiva educação infantil para imprimir",
+    "coleta seletiva educação infantil pdf",
+    "coleta seletiva educação infantil plano de aula",
+    "coleta seletiva para imprimir",
+    "coleta seletiva para imprimir e colorir",
+    "coleta seletiva para imprimir educação infantil",
+    "coleta seletiva porto alegre",
+    "coleta seletiva são paulo",
+    "coleta seletiva uberlandia",
+    "jogo coleta seletiva para imprimir",
+    "jogo reciclagem para imprimir",
+    "lixeira reciclagem para imprimir",
+    "lixeiras coleta seletiva para imprimir",
+    "nome coleta seletiva para imprimir",
+    "nome reciclagem para imprimir",
+    "painel coleta seletiva para imprimir",
+    "painel reciclagem para imprimir",
+    "palavra reciclagem para imprimir",
+    "placas reciclagem para imprimir",
+    "projeto coleta seletiva educação infantil",
+    "projeto reciclagem educação infantil",
+    "projeto reciclagem educação infantil pdf",
+    "reciclagem",
+    "reciclagem 1o ano",
+    "reciclagem atividade 1 ano",
+    "reciclagem atividade 2 ano",
+    "reciclagem atividade 3 ano",
+    "reciclagem atividade educação infantil",
+    "reciclagem atividade infantil",
+    "reciclagem atividade ludica meio ambiente educação infantil",
+    "reciclagem atividades",
+    "reciclagem atividades 4 ano",
+    "reciclagem atividades 5 ano",
+    "reciclagem cnh",
+    "reciclagem com garrafa pet",
+    "reciclagem de lixo",
+    "reciclagem de papel",
+    "reciclagem de plástico",
+    "reciclagem de vigilante",
+    "reciclagem detran pr",
+    "reciclagem detran sp",
+    "reciclagem educação infantil",
+    "reciclagem educação infantil atividades",
+    "reciclagem educação infantil musica",
+    "reciclagem educação infantil objetivos",
+    "reciclagem educação infantil para imprimir",
+    "reciclagem educação infantil plano de aula",
+    "reciclagem imagens para imprimir",
+    "reciclagem para imprimir",
+    "reciclagem perto de mim",
+    "símbolo reciclagem para imprimir",
+    "símbolo reciclagem para imprimir pdf",
+    "video coleta seletiva educação infantil"
+   ]
+  },
+  "odd-and-even": {
+   "heads": [
+    "pares e ímpares",
+    "números pares e ímpares"
+   ],
+   "requests": 14,
+   "productiveSeeds": 10,
+   "unique": 49,
+   "suggestions": [
+    "atividade numeros pares e impares educação infantil",
+    "atividades de pares e ímpares para imprimir",
+    "atividades números pares e ímpares 1 ano para imprimir",
+    "atividades números pares e ímpares 2 ano para imprimir",
+    "atividades números pares e ímpares 3 ano para imprimir",
+    "atividades para imprimir números pares e ímpares",
+    "atividades pares e impares 2 ano",
+    "cartaz números pares e ímpares para imprimir",
+    "como ensinar números pares e ímpares educação infantil",
+    "como trabalhar números pares e ímpares na educação infantil",
+    "ejercicios de numeros pares e impares para primero de primaria para imprimir",
+    "fichas de números pares e impares para imprimir",
+    "numeros pares e impares atividade",
+    "numeros pares e impares atividade 5 ano",
+    "numeros pares e impares atividades 1 ano",
+    "numeros pares e impares atividades 2 ano",
+    "numeros pares e impares atividades 3 ano",
+    "numeros pares e impares atividades 4 ano",
+    "numeros pares e impares ejercicios para imprimir",
+    "numeros pares e impares fichas para imprimir",
+    "números pares e ímpares",
+    "números pares e ímpares 1 ano",
+    "números pares e ímpares 1o ano",
+    "números pares e ímpares 2 ano",
+    "números pares e ímpares 2o ano",
+    "números pares e ímpares 3 ano",
+    "números pares e ímpares 3 ano explicação",
+    "números pares e ímpares 4 ano",
+    "números pares e ímpares atividades",
+    "números pares e ímpares atividades 2o ano bncc",
+    "números pares e ímpares atividades 6 ano",
+    "números pares e ímpares de 1 a 100",
+    "números pares e ímpares educação infantil",
+    "números pares e ímpares em inglês",
+    "números pares e ímpares exercícios",
+    "números pares e ímpares para imprimir",
+    "pares e impares 1 ano",
+    "pares e impares 2 ano",
+    "pares e impares 3 ano",
+    "pares e impares atividades",
+    "pares e impares em ingles",
+    "pares e impares mega sena",
+    "pares e impares numeros",
+    "pares e impares para imprimir",
+    "pares e ímpares",
+    "pares e ímpares atividades",
+    "pares e ímpares da lotofácil",
+    "pares e ímpares jogo",
+    "plano de aula números pares e ímpares educação infantil"
+   ]
+  },
+  "rounding": {
+   "heads": [
+    "arredondamento",
+    "arredondar"
+   ],
+   "requests": 14,
+   "productiveSeeds": 5,
+   "unique": 32,
+   "suggestions": [
+    "arredondamento",
+    "arredondamento 2o ano",
+    "arredondamento 4 ano",
+    "arredondamento 5 ano",
+    "arredondamento apical",
+    "arredondamento atividade",
+    "arredondamento atividade 3 ano",
+    "arredondamento atividade 5 ano",
+    "arredondamento atividades 4 ano",
+    "arredondamento atividades 6 ano",
+    "arredondamento de casas decimais",
+    "arredondamento de números",
+    "arredondamento de números decimais",
+    "arredondamento em ingles",
+    "arredondamento excel",
+    "arredondamentos",
+    "arredondar",
+    "arredondar borda de imagem",
+    "arredondar cantos corel",
+    "arredondar cantos imagem",
+    "arredondar excel",
+    "arredondar foto",
+    "arredondar imagem",
+    "arredondar numeros",
+    "arredondar para baixo excel",
+    "arredondar para cima excel",
+    "atividade arredondamento 2 ano",
+    "atividade arredondamento 5 ano com gabarito",
+    "atividade arredondamento 5 ano tudo sala de aula",
+    "atividade arredondamento de números",
+    "atividade arredondar numeros",
+    "atividades arredondamento de numeros 5 ano"
+   ]
+  },
+  "pronouns": {
+   "heads": [
+    "pronomes pessoais",
+    "pronomes"
+   ],
+   "requests": 14,
+   "productiveSeeds": 10,
+   "unique": 58,
+   "suggestions": [
+    "atividade pronomes pessoais para imprimir",
+    "atividades de ingles pronomes pessoais para imprimir",
+    "atividades pronomes para imprimir",
+    "bingo dos pronomes para imprimir",
+    "cartaz pronomes para imprimir",
+    "cartaz pronomes pessoais para imprimir",
+    "jogo dos pronomes pessoais para imprimir",
+    "jogos com pronomes para imprimir",
+    "pronomes",
+    "pronomes 3o ano",
+    "pronomes 3o ano fundamental",
+    "pronomes atividade 4 ano",
+    "pronomes atividades",
+    "pronomes atividades 3 ano",
+    "pronomes atividades 5 ano",
+    "pronomes atividades 6 ano",
+    "pronomes atividades 7 ano",
+    "pronomes atividades 9 ano",
+    "pronomes atividades adaptadas",
+    "pronomes atividades ensino médio",
+    "pronomes atividades pdf",
+    "pronomes de tratamento",
+    "pronomes demonstrativos",
+    "pronomes demonstrativos para imprimir",
+    "pronomes educação infantil",
+    "pronomes em ingles",
+    "pronomes indefinidos",
+    "pronomes interrogativos",
+    "pronomes obliquos",
+    "pronomes para imprimir",
+    "pronomes pessoais",
+    "pronomes pessoais 3o ano",
+    "pronomes pessoais 3o ano fundamental",
+    "pronomes pessoais atividades",
+    "pronomes pessoais atividades 3 ano",
+    "pronomes pessoais atividades 4 ano",
+    "pronomes pessoais atividades 5 ano",
+    "pronomes pessoais atividades 6 ano",
+    "pronomes pessoais atividades adaptadas",
+    "pronomes pessoais de tratamento",
+    "pronomes pessoais do caso oblíquo",
+    "pronomes pessoais do caso reto",
+    "pronomes pessoais do caso reto e oblíquo",
+    "pronomes pessoais do caso reto para imprimir",
+    "pronomes pessoais educação infantil",
+    "pronomes pessoais em espanhol",
+    "pronomes pessoais em ingles para imprimir",
+    "pronomes pessoais em inglês",
+    "pronomes pessoais oblíquos",
+    "pronomes pessoais para imprimir",
+    "pronomes pessoais possessivos e demonstrativos",
+    "pronomes pessoais retos",
+    "pronomes possessivos",
+    "pronomes possessivos educação infantil",
+    "pronomes possessivos para imprimir",
+    "pronomes relativos",
+    "pronomes relativos para imprimir",
+    "tabela de pronomes para imprimir"
+   ]
+  },
+  "question-words": {
+   "heads": [
+    "pronomes interrogativos",
+    "frases interrogativas"
+   ],
+   "requests": 14,
+   "productiveSeeds": 5,
+   "unique": 34,
+   "suggestions": [
+    "atividade frases interrogativas diretas e indiretas",
+    "atividades frases interrogativas 2 ano",
+    "atividades frases interrogativas e exclamativas 3 ano",
+    "atividades pronomes interrogativos 3o ano",
+    "atividades pronomes interrogativos 4o ano",
+    "atividades pronomes interrogativos 7 ano",
+    "frases exclamativas e interrogativas atividades",
+    "frases interrogativas",
+    "frases interrogativas atividades",
+    "frases interrogativas diretas e indiretas",
+    "frases interrogativas e exclamativas",
+    "frases interrogativas e negativas em inglês",
+    "frases interrogativas em inglês",
+    "frases interrogativas em inglês verbo to be",
+    "frases interrogativas em libras",
+    "frases interrogativas exemplos",
+    "frases interrogativas indiretas",
+    "frases interrogativas no simple past",
+    "frases interrogativas para imprimir",
+    "pronomes interrogativos",
+    "pronomes interrogativos atividades",
+    "pronomes interrogativos atividades 5 ano",
+    "pronomes interrogativos atividades 6o ano",
+    "pronomes interrogativos em espanhol",
+    "pronomes interrogativos em espanhol atividades",
+    "pronomes interrogativos em ingles",
+    "pronomes interrogativos em inglês exercícios",
+    "pronomes interrogativos em inglês exercícios com gabarito",
+    "pronomes interrogativos em libras",
+    "pronomes interrogativos exemplos",
+    "pronomes interrogativos exercícios",
+    "pronomes interrogativos ingles atividades",
+    "pronomes interrogativos portugues",
+    "pronomes interrogativos variáveis e invariáveis"
+   ]
+  },
+  "cube-nets": {
+   "heads": [
+    "planificação do cubo",
+    "planificação de sólidos"
+   ],
+   "requests": 14,
+   "productiveSeeds": 7,
+   "unique": 39,
+   "suggestions": [
+    "atividade sobre planificação de solidos 4o ano",
+    "atividades de matematica planificação de solidos geometricos",
+    "atividades planificação de sólidos geométricos 3o ano",
+    "atividades planificação de sólidos geométricos 4o ano",
+    "atividades planificação de sólidos geométricos 4o ano com gabarito",
+    "atividades planificação de sólidos geométricos 5o ano",
+    "atividades planificação de sólidos geométricos 6o ano",
+    "atividades sobre planificação de sólidos",
+    "molde planificação de sólidos geométricos para imprimir",
+    "planificação de sólidos",
+    "planificação de sólidos geométricos",
+    "planificação de sólidos geométricos 4 ano",
+    "planificação de sólidos geométricos 5 ano",
+    "planificação de sólidos geométricos atividades",
+    "planificação de sólidos geométricos com barbante para imprimir",
+    "planificação de sólidos geométricos educação infantil",
+    "planificação de sólidos geométricos nomes",
+    "planificação de sólidos geométricos para imprimir",
+    "planificação de sólidos geométricos para imprimir atividades",
+    "planificação de sólidos geométricos para imprimir cilindro",
+    "planificação de sólidos geométricos para imprimir e montar",
+    "planificação de sólidos geométricos para imprimir e montar com barbante",
+    "planificação de sólidos geométricos para imprimir e montar pdf",
+    "planificação de sólidos geométricos para imprimir pdf",
+    "planificação de sólidos geométricos para montar",
+    "planificação de sólidos geométricos pdf",
+    "planificação de sólidos para imprimir",
+    "planificação do cubo",
+    "planificação do cubo atividade",
+    "planificação do cubo com abas",
+    "planificação do cubo com barbante",
+    "planificação do cubo exercícios",
+    "planificação do cubo geogebra",
+    "planificação do cubo imagem",
+    "planificação do cubo para imprimir",
+    "planificação do cubo para imprimir e montar",
+    "planificação do cubo para imprimir pdf",
+    "planificação do cubo para montar",
+    "planificação do cubo pdf"
+   ]
+  },
+  "finger-counting": {
+   "heads": [
+    "contar nos dedos",
+    "dedos da mão"
+   ],
+   "requests": 14,
+   "productiveSeeds": 5,
+   "unique": 24,
+   "suggestions": [
+    "atividade de contar nos dedos",
+    "atividade dedos da mão",
+    "atividades com os dedos da mão educação infantil",
+    "como contar nos dedos os meses que tem 31 dias",
+    "contar dedos acuidade visual",
+    "contar meses nos dedos",
+    "contar nos dedos",
+    "contar nos dedos atrapalha a aprendizagem de matemática",
+    "contar nos dedos em binario",
+    "contar nos dedos em ingles",
+    "contar nos dedos significado",
+    "dedos da mão",
+    "dedos da mão descascando",
+    "dedos da mão dormente",
+    "dedos da mão dormente o que pode ser",
+    "dedos da mão esquerda formigando",
+    "dedos da mão formigando",
+    "dedos da mão formigando o que pode ser",
+    "dedos da mão inchados",
+    "dedos da mão nomes",
+    "dedos da mão travando o que pode ser",
+    "nome dos dedos da mão educação infantil",
+    "posso contar nos dedos",
+    "posso contar nos dedos curta"
+   ]
+  }
+ },
+ "suggestions": {
+  "completar frases": {
+   "candidate": "cloze",
+   "s": [
+    "completar frases",
+    "completar frases wordwall",
+    "completar frases com palavras",
+    "completar frases 3 ano",
+    "completar frases simples wordwall",
+    "completar frases 2 ano",
+    "completar frases com verbos",
+    "completar frases 1 ano",
+    "completar frases atividades",
+    "completar frases em inglês"
+   ]
+  },
+  "completar frases atividade": {
+   "candidate": "cloze",
+   "s": [
+    "completar frases atividades",
+    "atividade completar frases 1 ano",
+    "atividade completar frases 2 ano",
+    "atividade completar frases 3 ano",
+    "atividade completar frases com verbos",
+    "atividades completar frases alfabetização",
+    "atividade completar frases com palavras",
+    "atividade completar frases wordwall"
+   ]
+  },
+  "completar frases para imprimir": {
+   "candidate": "cloze",
+   "s": [
+    "completar frases para imprimir",
+    "atividades de completar frases para imprimir",
+    "ejercicios completar frases para imprimir",
+    "fichas de completar frases para imprimir"
+   ]
+  },
+  "complete as frases": {
+   "candidate": "cloze",
+   "s": [
+    "complete as frases",
+    "complete as frases com as palavras do quadro",
+    "complete as frases com adjetivos",
+    "complete as frases a seguir",
+    "complete as frases abaixo",
+    "complete as frases com as palavras",
+    "complete as frases 2 ano",
+    "complete as frases com as palavras abaixo",
+    "complete as frases wordwall",
+    "complete as frases em inglês"
+   ]
+  },
+  "complete as frases atividade": {
+   "candidate": "cloze",
+   "s": [
+    "complete as frases atividades",
+    "complete as frases é uma atividade econômica",
+    "atividade complete as frases 1 ano",
+    "atividade complete as frases 2 ano",
+    "atividades complete as frases 3 ano",
+    "atividade complete as frases com adjetivos",
+    "atividades complete as frases com o nome das figuras",
+    "atividade complete as frases com os verbos",
+    "complete as frases com palavras da atividade anterior",
+    "atividade alfabetização complete as frases"
+   ]
+  },
+  "complete as frases para imprimir": {
+   "candidate": "cloze",
+   "s": [
+    "complete as frases para imprimir"
+   ]
+  },
+  "dominó para imprimir": {
+   "candidate": "dominoes",
+   "s": [
+    "dominó para imprimir",
+    "dominó para imprimir pdf",
+    "dominó para imprimir e recortar",
+    "dominó para imprimir educação infantil",
+    "dominó para imprimir grande",
+    "dominó para imprimir colorido",
+    "dominó para imprimir gratis",
+    "dominó para imprimir completo",
+    "dominó para imprimir com desenhos",
+    "dominó para imprimir y recortar pdf"
+   ]
+  },
+  "dominó para imprimir atividade": {
+   "candidate": "dominoes",
+   "s": [
+    "atividade dominó para imprimir"
+   ]
+  },
+  "dominó para imprimir educação infantil": {
+   "candidate": "dominoes",
+   "s": [
+    "dominó para imprimir educação infantil",
+    "dominó da adição para imprimir educação infantil"
+   ]
+  },
+  "dominó": {
+   "candidate": "dominoes",
+   "s": [
+    "dominó",
+    "dominó de osso",
+    "dominó jogo",
+    "dominó profissional",
+    "dominó mexicano",
+    "dominó personalizado",
+    "dominó banda",
+    "domino's",
+    "dominó night club",
+    "dominó de frações"
+   ]
+  },
+  "dominó atividade": {
+   "candidate": "dominoes",
+   "s": [
+    "dominó atividade",
+    "atividade dominó educação infantil",
+    "atividade domino da adição",
+    "atividade domino matematico",
+    "atividade dominó da multiplicação",
+    "atividade domino de palavras",
+    "atividade domino 1 ano",
+    "atividade domino das silabas",
+    "atividade dominó para imprimir",
+    "atividade dominó alfabetização"
+   ]
+  },
+  "dominó educação infantil": {
+   "candidate": "dominoes",
+   "s": [
+    "dominó educação infantil",
+    "dominó educação infantil imprimir",
+    "dominó gigante educação infantil",
+    "atividade dominó educação infantil",
+    "jogo domino educação infantil",
+    "dominó na educação infantil objetivo",
+    "domino de cores educação infantil",
+    "domino dos numeros educação infantil",
+    "domino de animais educação infantil",
+    "centro educacional dominó educação infantil e ensino fundamental fotos"
+   ]
+  },
+  "partes do corpo": {
+   "candidate": "human-body",
+   "s": [
+    "partes do corpo humano",
+    "partes do corpo com i",
+    "partes do corpo em ingles",
+    "partes do corpo humano em inglês",
+    "partes do corpo com a letra i",
+    "partes do corpo humano por dentro",
+    "partes do corpo em espanhol",
+    "partes do corpo humano com a letra i",
+    "partes do corpo com h",
+    "partes do corpo humano educação infantil"
+   ]
+  },
+  "partes do corpo atividade": {
+   "candidate": "human-body",
+   "s": [
+    "partes do corpo atividade",
+    "partes do corpo atividade 1 ano",
+    "partes do corpo atividade educação infantil",
+    "partes do corpo atividade infantil",
+    "partes do corpo atividade ingles",
+    "partes do corpo atividade maternal",
+    "partes do corpo atividades 2 ano",
+    "partes do corpo humano atividade 1 ano",
+    "partes do corpo humano atividades",
+    "partes do corpo humano atividade infantil"
+   ]
+  },
+  "partes do corpo para imprimir": {
+   "candidate": "human-body",
+   "s": [
+    "partes do corpo para imprimir e montar",
+    "partes do corpo para imprimir",
+    "partes do corpo para imprimir educação infantil",
+    "partes do corpo para imprimir e colorir",
+    "partes do corpo humano para imprimir educação infantil",
+    "partes do corpo humano para imprimir",
+    "boneco partes do corpo para imprimir",
+    "partes do corpo humano para imprimir e montar",
+    "bingo partes do corpo para imprimir",
+    "imagens partes do corpo para imprimir"
+   ]
+  },
+  "partes do corpo educação infantil": {
+   "candidate": "human-body",
+   "s": [
+    "partes do corpo educação infantil",
+    "partes do corpo educação infantil para imprimir",
+    "partes do corpo educação infantil atividades",
+    "partes do corpo educação infantil bncc",
+    "partes do corpo educação infantil objetivo",
+    "partes do corpo educação infantil musica",
+    "partes do corpo humano educação infantil",
+    "partes do corpo humano educação infantil para imprimir",
+    "livro partes do corpo educação infantil",
+    "história partes do corpo educação infantil"
+   ]
+  },
+  "partes do corpo 1º ano": {
+   "candidate": "human-body",
+   "s": [
+    "partes do corpo 1o ano"
+   ]
+  },
+  "o corpo humano": {
+   "candidate": "human-body",
+   "s": [
+    "o corpo humano",
+    "o corpo humano é dividido em quantas partes",
+    "o corpo humano tem quantos litros de sangue",
+    "o corpo humano é dividido em",
+    "o corpo humano tem quantos por cento de água",
+    "o corpo humano tem quantos ossos",
+    "o corpo humano após a morte 4 dias após a morte",
+    "o corpo humano e dividido em 3 partes",
+    "o corpo humano precisa de açúcar",
+    "o corpo humano por dentro"
+   ]
+  },
+  "o corpo humano atividade": {
+   "candidate": "human-body",
+   "s": [
+    "o corpo humano atividade 1 ano",
+    "o corpo humano atividades",
+    "o corpo humano atividades 5 ano",
+    "o corpo humano atividades educação infantil",
+    "o corpo humano atividade 4 ano",
+    "o corpo humano atividades 2 ano",
+    "o corpo humano atividades 3 ano"
+   ]
+  },
+  "o corpo humano para imprimir": {
+   "candidate": "human-body",
+   "s": [
+    "o corpo humano para imprimir",
+    "montar o corpo humano para imprimir",
+    "atividades sobre o corpo humano para imprimir",
+    "cruzadinha sobre o corpo humano para imprimir",
+    "história sobre o corpo humano para imprimir",
+    "caça palavras sobre o corpo humano para imprimir",
+    "corpo humano para imprimir tamanho grande",
+    "corpo humano para imprimir e montar colorido",
+    "corpo humano para imprimir tamanho grande pdf",
+    "corpo humano para imprimir educação infantil"
+   ]
+  },
+  "o corpo humano educação infantil": {
+   "candidate": "human-body",
+   "s": [
+    "o corpo humano educação infantil",
+    "montar o corpo humano educação infantil",
+    "atividade o corpo humano educação infantil",
+    "conhecendo o corpo humano educação infantil",
+    "desenhar o corpo humano educação infantil",
+    "complete o corpo humano educação infantil",
+    "projeto o corpo humano educação infantil",
+    "trabalhando o corpo humano educação infantil",
+    "sobre o corpo humano educação infantil",
+    "história sobre o corpo humano educação infantil"
+   ]
+  },
+  "os cinco sentidos": {
+   "candidate": "five-senses",
+   "s": [
+    "os cinco sentidos",
+    "os cinco sentidos do corpo humano",
+    "os cinco sentidos educação infantil",
+    "os cinco sentidos em inglês",
+    "os cinco sentidos do ser humano",
+    "os cinco sentidos humanos",
+    "os cinco sentidos do corpo",
+    "os cinco sentidos para imprimir",
+    "os cinco sentidos atividades",
+    "os cinco sentidos são"
+   ]
+  },
+  "os cinco sentidos atividade": {
+   "candidate": "five-senses",
+   "s": [
+    "os cinco sentidos atividades",
+    "os cinco sentidos atividades 2 ano",
+    "os cinco sentidos educação infantil atividades",
+    "atividade os cinco sentidos 1 ano",
+    "atividade os cinco sentidos 3 ano",
+    "os cinco sentidos do corpo humano atividade",
+    "atividade os cinco sentidos 6 ano",
+    "atividade os cinco sentidos maternal",
+    "atividades sobre os cinco sentidos 4 ano",
+    "atividades sobre os cinco sentidos 5 ano"
+   ]
+  },
+  "os cinco sentidos para imprimir": {
+   "candidate": "five-senses",
+   "s": [
+    "os cinco sentidos para imprimir",
+    "os cinco sentidos para imprimir colorido",
+    "os cinco sentidos para imprimir educação infantil",
+    "livro os cinco sentidos para imprimir",
+    "o ratinho e os cinco sentidos para imprimir",
+    "história joão e os cinco sentidos para imprimir",
+    "o ratinho e os cinco sentidos pdf para imprimir",
+    "atividades para imprimir sobre os cinco sentidos"
+   ]
+  },
+  "os cinco sentidos educação infantil": {
+   "candidate": "five-senses",
+   "s": [
+    "os cinco sentidos educação infantil",
+    "os cinco sentidos educação infantil atividades",
+    "os cinco sentidos educação infantil plano de aula",
+    "os cinco sentidos educação infantil para imprimir",
+    "projeto os cinco sentidos educação infantil",
+    "música os cinco sentidos educação infantil",
+    "planejamento os cinco sentidos educação infantil",
+    "video os cinco sentidos educação infantil",
+    "os cinco sentidos na educação infantil bncc",
+    "sequência didática os cinco sentidos educação infantil"
+   ]
+  },
+  "5 sentidos": {
+   "candidate": "five-senses",
+   "s": [
+    "5 sentidos",
+    "5 sentidos humanos",
+    "5 sentidos do corpo humano",
+    "5 sentidos do corpo",
+    "5 sentidos em ingles",
+    "5 sentidos educação infantil",
+    "5 sentidos do amor",
+    "5 sentidos curitiba",
+    "5 sentidos do ser humano",
+    "5 sentidos restaurante"
+   ]
+  },
+  "5 sentidos atividade": {
+   "candidate": "five-senses",
+   "s": [
+    "5 sentidos atividades",
+    "5 sentidos atividades 1 ano",
+    "5 sentidos atividades educação infantil",
+    "5 sentidos atividades 2 ano",
+    "5 sentidos atividade para imprimir",
+    "5 sentidos atividade maternal",
+    "5 sentidos humanos atividades",
+    "5 sentidos em inglês atividades",
+    "atividade 5 sentidos 6 ano",
+    "atividade 5 sentidos 3 ano"
+   ]
+  },
+  "5 sentidos para imprimir": {
+   "candidate": "five-senses",
+   "s": [
+    "5 sentidos para imprimir",
+    "5 sentidos para imprimir pdf",
+    "imagem 5 sentidos para imprimir",
+    "cartaz 5 sentidos para imprimir",
+    "painel 5 sentidos para imprimir",
+    "5 sentidos atividade para imprimir",
+    "história dos 5 sentidos para imprimir",
+    "desenho dos 5 sentidos para imprimir",
+    "caixa dos 5 sentidos para imprimir",
+    "molde dos 5 sentidos para imprimir"
+   ]
+  },
+  "5 sentidos educação infantil": {
+   "candidate": "five-senses",
+   "s": [
+    "5 sentidos educação infantil",
+    "5 sentidos educação infantil bncc",
+    "5 sentidos educação infantil atividades",
+    "5 sentidos educação infantil musica",
+    "os 5 sentidos educação infantil para imprimir",
+    "projeto 5 sentidos educação infantil",
+    "painel 5 sentidos educação infantil",
+    "video 5 sentidos educação infantil",
+    "imagens 5 sentidos educação infantil",
+    "historia 5 sentidos educação infantil"
+   ]
+  },
+  "o tempo e o clima": {
+   "candidate": "weather",
+   "s": [
+    "o tempo e o clima",
+    "o tempo e o clima 5 ano",
+    "o tempo e o clima 6 ano",
+    "o tempo e o clima 8 ano"
+   ]
+  },
+  "o tempo e o clima atividade": {
+   "candidate": "weather",
+   "s": [
+    "o tempo atmosférico e o clima atividades",
+    "atividade sobre o tempo e o clima",
+    "atividades sobre o tempo e o clima 8 ano",
+    "atividades sobre o tempo e o clima 6 ano"
+   ]
+  },
+  "clima": {
+   "candidate": "weather",
+   "s": [
+    "clima",
+    "clima estocolmo",
+    "clima em gotemburgo",
+    "clima em lund",
+    "clima stockholm",
+    "clima tempo",
+    "climatempo estocolmo",
+    "clima copenhagen",
+    "clima helsinki",
+    "clima amanhã"
+   ]
+  },
+  "clima atividade": {
+   "candidate": "weather",
+   "s": [
+    "clima atividade",
+    "clima atividades 4 ano",
+    "clima atividade adaptada",
+    "clima atividades 3 ano",
+    "clima atividade 1 ano",
+    "clima atividades 6 ano",
+    "atividade clima e tempo",
+    "atividade clima do brasil",
+    "atividade clima e tempo 8 ano",
+    "atividade clima e tempo 6 ano"
+   ]
+  },
+  "clima para imprimir": {
+   "candidate": "weather",
+   "s": [
+    "clima para imprimir",
+    "clima para imprimir e colorir",
+    "imagens de clima para imprimir",
+    "atividades sobre o clima para imprimir",
+    "clima tropical para imprimir",
+    "clima frio para imprimir",
+    "clima nublado para imprimir",
+    "tipos de clima para imprimir",
+    "clima en ingles para imprimir",
+    "palabra clima para imprimir"
+   ]
+  },
+  "clima educação infantil": {
+   "candidate": "weather",
+   "s": [
+    "clima educação infantil",
+    "atividade clima educação infantil",
+    "projeto clima educação infantil",
+    "cartaz clima educação infantil",
+    "painel clima educação infantil",
+    "climatempo educação infantil",
+    "clima seco educação infantil",
+    "tipos de clima educação infantil",
+    "clima de rodeio educação infantil",
+    "relogio do clima educação infantil"
+   ]
+  },
+  "tangram": {
+   "candidate": "tangram",
+   "s": [
+    "tangram",
+    "tangram para imprimir",
+    "tangram imagens",
+    "tangram figuras",
+    "tangram o que é",
+    "tangram online",
+    "tangram para imprimir pdf",
+    "tangram gato",
+    "tangram jogo",
+    "tangram quadrado"
+   ]
+  },
+  "tangram atividade": {
+   "candidate": "tangram",
+   "s": [
+    "tangram atividades",
+    "tangram atividades 3 ano",
+    "tangram atividades 2 ano",
+    "tangram atividades para imprimir",
+    "tangram atividade 1 ano",
+    "tangram atividades 5o ano",
+    "tangram atividades 4 ano",
+    "tangram atividades pdf",
+    "tangram atividades 6 ano",
+    "atividade tangram educação infantil"
+   ]
+  },
+  "tangram para imprimir": {
+   "candidate": "tangram",
+   "s": [
+    "tangram para imprimir",
+    "tangram para imprimir pdf",
+    "tangram para imprimir a4 pdf",
+    "tangram para imprimir e colorir",
+    "tangram para imprimir a4",
+    "tangram para imprimir grande pdf",
+    "tangram para imprimir e recortar",
+    "tangram para imprimir e montar",
+    "tangram para imprimir animais",
+    "tangram para imprimir preto e branco"
+   ]
+  },
+  "tangram educação infantil": {
+   "candidate": "tangram",
+   "s": [
+    "tangram educação infantil",
+    "tangram educação infantil bncc",
+    "atividade tangram educação infantil",
+    "objetivo tangram educação infantil",
+    "video tangram educação infantil",
+    "projeto tangram educação infantil",
+    "historia do tangram educação infantil",
+    "tangram para imprimir educação infantil",
+    "plano de aula tangram educação infantil",
+    "trabalhando tangram na educação infantil"
+   ]
+  },
+  "tangram para imprimir atividade": {
+   "candidate": "tangram",
+   "s": [
+    "atividade tangram para imprimir"
+   ]
+  },
+  "tangram para imprimir educação infantil": {
+   "candidate": "tangram",
+   "s": [
+    "tangram para imprimir educação infantil"
+   ]
+  },
+  "reciclagem": {
+   "candidate": "recycling",
+   "s": [
+    "reciclagem",
+    "reciclagem cnh",
+    "reciclagem de vigilante",
+    "reciclagem perto de mim",
+    "reciclagem detran pr",
+    "reciclagem detran sp",
+    "reciclagem de papel",
+    "reciclagem de plástico",
+    "reciclagem de lixo",
+    "reciclagem com garrafa pet"
+   ]
+  },
+  "reciclagem atividade": {
+   "candidate": "recycling",
+   "s": [
+    "reciclagem atividades",
+    "reciclagem atividades 5 ano",
+    "reciclagem atividade ludica meio ambiente educação infantil",
+    "reciclagem atividade 1 ano",
+    "reciclagem atividades 4 ano",
+    "reciclagem atividade educação infantil",
+    "reciclagem atividade 2 ano",
+    "reciclagem atividade 3 ano",
+    "reciclagem atividade infantil"
+   ]
+  },
+  "reciclagem para imprimir": {
+   "candidate": "recycling",
+   "s": [
+    "reciclagem para imprimir",
+    "símbolo reciclagem para imprimir",
+    "painel reciclagem para imprimir",
+    "jogo reciclagem para imprimir",
+    "lixeira reciclagem para imprimir",
+    "reciclagem imagens para imprimir",
+    "placas reciclagem para imprimir",
+    "nome reciclagem para imprimir",
+    "símbolo reciclagem para imprimir pdf",
+    "palavra reciclagem para imprimir"
+   ]
+  },
+  "reciclagem educação infantil": {
+   "candidate": "recycling",
+   "s": [
+    "reciclagem educação infantil",
+    "reciclagem educação infantil atividades",
+    "reciclagem educação infantil para imprimir",
+    "reciclagem educação infantil plano de aula",
+    "reciclagem educação infantil objetivos",
+    "reciclagem educação infantil musica",
+    "projeto reciclagem educação infantil",
+    "projeto reciclagem educação infantil pdf",
+    "cartaz reciclagem educação infantil",
+    "atividades reciclagem educação infantil imprimir"
+   ]
+  },
+  "reciclagem 1º ano": {
+   "candidate": "recycling",
+   "s": [
+    "reciclagem 1o ano"
+   ]
+  },
+  "coleta seletiva": {
+   "candidate": "recycling",
+   "s": [
+    "coleta seletiva",
+    "coleta seletiva cores",
+    "coleta seletiva de lixo",
+    "coleta seletiva e reciclagem",
+    "coleta seletiva são paulo",
+    "coleta seletiva porto alegre",
+    "coleta seletiva educação infantil",
+    "coleta seletiva cores das lixeiras",
+    "coleta seletiva uberlandia",
+    "coleta seletiva para imprimir educação infantil"
+   ]
+  },
+  "coleta seletiva atividade": {
+   "candidate": "recycling",
+   "s": [
+    "coleta seletiva atividade",
+    "coleta seletiva atividade educação infantil",
+    "coleta seletiva atividades 5 ano",
+    "coleta seletiva atividades 1 ano",
+    "coleta seletiva atividades 2 ano",
+    "coleta seletiva atividade 3 ano",
+    "coleta seletiva atividade ludica",
+    "coleta seletiva atividade infantil"
+   ]
+  },
+  "coleta seletiva para imprimir": {
+   "candidate": "recycling",
+   "s": [
+    "coleta seletiva para imprimir educação infantil",
+    "coleta seletiva para imprimir",
+    "coleta seletiva para imprimir e colorir",
+    "cartaz coleta seletiva para imprimir",
+    "lixeiras coleta seletiva para imprimir",
+    "adesivo coleta seletiva para imprimir",
+    "atividade coleta seletiva para imprimir",
+    "painel coleta seletiva para imprimir",
+    "nome coleta seletiva para imprimir",
+    "jogo coleta seletiva para imprimir"
+   ]
+  },
+  "coleta seletiva educação infantil": {
+   "candidate": "recycling",
+   "s": [
+    "coleta seletiva educação infantil",
+    "coleta seletiva educação infantil para imprimir",
+    "coleta seletiva educação infantil 5 anos",
+    "coleta seletiva educação infantil atividades",
+    "coleta seletiva educação infantil pdf",
+    "coleta seletiva educação infantil objetivo",
+    "coleta seletiva educação infantil plano de aula",
+    "cartaz coleta seletiva educação infantil",
+    "video coleta seletiva educação infantil",
+    "projeto coleta seletiva educação infantil"
+   ]
+  },
+  "pares e ímpares": {
+   "candidate": "odd-and-even",
+   "s": [
+    "pares e ímpares",
+    "pares e ímpares da lotofácil",
+    "pares e ímpares jogo",
+    "pares e ímpares atividades",
+    "pares e impares 2 ano",
+    "pares e impares numeros",
+    "pares e impares 3 ano",
+    "pares e impares 1 ano",
+    "pares e impares em ingles",
+    "pares e impares mega sena"
+   ]
+  },
+  "pares e ímpares atividade": {
+   "candidate": "odd-and-even",
+   "s": [
+    "pares e impares atividades",
+    "numeros pares e impares atividade",
+    "números pares e ímpares atividades 2o ano bncc",
+    "numeros pares e impares atividades 3 ano",
+    "numeros pares e impares atividades 1 ano",
+    "numeros pares e impares atividades 2 ano",
+    "numeros pares e impares atividades 4 ano",
+    "números pares e ímpares atividades 6 ano",
+    "numeros pares e impares atividade 5 ano",
+    "atividades pares e impares 2 ano"
+   ]
+  },
+  "pares e ímpares para imprimir": {
+   "candidate": "odd-and-even",
+   "s": [
+    "pares e impares para imprimir",
+    "cartaz números pares e ímpares para imprimir",
+    "atividades de pares e ímpares para imprimir",
+    "atividades números pares e ímpares 2 ano para imprimir",
+    "atividades números pares e ímpares 3 ano para imprimir",
+    "atividades números pares e ímpares 1 ano para imprimir",
+    "numeros pares e impares fichas para imprimir",
+    "numeros pares e impares ejercicios para imprimir",
+    "fichas de números pares e impares para imprimir"
+   ]
+  },
+  "pares e ímpares educação infantil": {
+   "candidate": "odd-and-even",
+   "s": [
+    "números pares e ímpares educação infantil",
+    "atividade numeros pares e impares educação infantil",
+    "como ensinar números pares e ímpares educação infantil",
+    "plano de aula números pares e ímpares educação infantil",
+    "como trabalhar números pares e ímpares na educação infantil"
+   ]
+  },
+  "números pares e ímpares": {
+   "candidate": "odd-and-even",
+   "s": [
+    "números pares e ímpares",
+    "números pares e ímpares de 1 a 100",
+    "números pares e ímpares 1 ano",
+    "números pares e ímpares 2 ano",
+    "números pares e ímpares 3 ano explicação",
+    "números pares e ímpares atividades",
+    "números pares e ímpares 4 ano",
+    "números pares e ímpares 3 ano",
+    "números pares e ímpares exercícios",
+    "números pares e ímpares em inglês"
+   ]
+  },
+  "números pares e ímpares atividade": {
+   "candidate": "odd-and-even",
+   "s": [
+    "números pares e ímpares atividades",
+    "números pares e ímpares atividades 2o ano bncc",
+    "numeros pares e impares atividades 3 ano",
+    "numeros pares e impares atividades 1 ano",
+    "numeros pares e impares atividades 2 ano",
+    "numeros pares e impares atividades 4 ano",
+    "números pares e ímpares atividades 6 ano",
+    "numeros pares e impares atividade 5 ano",
+    "atividades números pares e ímpares 2 ano para imprimir",
+    "atividades números pares e ímpares 3 ano para imprimir"
+   ]
+  },
+  "números pares e ímpares para imprimir": {
+   "candidate": "odd-and-even",
+   "s": [
+    "números pares e ímpares para imprimir",
+    "cartaz números pares e ímpares para imprimir",
+    "atividades números pares e ímpares 2 ano para imprimir",
+    "atividades números pares e ímpares 3 ano para imprimir",
+    "atividades números pares e ímpares 1 ano para imprimir",
+    "atividades para imprimir números pares e ímpares",
+    "numeros pares e impares fichas para imprimir",
+    "numeros pares e impares ejercicios para imprimir",
+    "fichas de números pares e impares para imprimir",
+    "ejercicios de numeros pares e impares para primero de primaria para imprimir"
+   ]
+  },
+  "números pares e ímpares educação infantil": {
+   "candidate": "odd-and-even",
+   "s": [
+    "números pares e ímpares educação infantil",
+    "atividade numeros pares e impares educação infantil",
+    "como ensinar números pares e ímpares educação infantil",
+    "plano de aula números pares e ímpares educação infantil",
+    "como trabalhar números pares e ímpares na educação infantil"
+   ]
+  },
+  "números pares e ímpares 1º ano": {
+   "candidate": "odd-and-even",
+   "s": [
+    "números pares e ímpares 1o ano"
+   ]
+  },
+  "números pares e ímpares 2º ano": {
+   "candidate": "odd-and-even",
+   "s": [
+    "números pares e ímpares 2o ano"
+   ]
+  },
+  "arredondamento": {
+   "candidate": "rounding",
+   "s": [
+    "arredondamento",
+    "arredondamento de números",
+    "arredondamento excel",
+    "arredondamento de números decimais",
+    "arredondamento apical",
+    "arredondamento 5 ano",
+    "arredondamento 4 ano",
+    "arredondamento de casas decimais",
+    "arredondamentos",
+    "arredondamento em ingles"
+   ]
+  },
+  "arredondamento atividade": {
+   "candidate": "rounding",
+   "s": [
+    "arredondamento atividade 5 ano",
+    "arredondamento atividade",
+    "arredondamento atividades 4 ano",
+    "arredondamento atividade 3 ano",
+    "arredondamento atividades 6 ano",
+    "atividade arredondamento 5 ano tudo sala de aula",
+    "atividade arredondamento 2 ano",
+    "atividades arredondamento de numeros 5 ano",
+    "atividade arredondamento 5 ano com gabarito",
+    "atividade arredondamento de números"
+   ]
+  },
+  "arredondamento 2º ano": {
+   "candidate": "rounding",
+   "s": [
+    "arredondamento 2o ano"
+   ]
+  },
+  "arredondar": {
+   "candidate": "rounding",
+   "s": [
+    "arredondar",
+    "arredondar para cima excel",
+    "arredondar imagem",
+    "arredondar borda de imagem",
+    "arredondar excel",
+    "arredondar numeros",
+    "arredondar para baixo excel",
+    "arredondar foto",
+    "arredondar cantos imagem",
+    "arredondar cantos corel"
+   ]
+  },
+  "arredondar atividade": {
+   "candidate": "rounding",
+   "s": [
+    "atividade arredondar numeros"
+   ]
+  },
+  "pronomes pessoais": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomes pessoais",
+    "pronomes pessoais do caso reto",
+    "pronomes pessoais em inglês",
+    "pronomes pessoais do caso oblíquo",
+    "pronomes pessoais do caso reto e oblíquo",
+    "pronomes pessoais oblíquos",
+    "pronomes pessoais em espanhol",
+    "pronomes pessoais retos",
+    "pronomes pessoais de tratamento",
+    "pronomes pessoais possessivos e demonstrativos"
+   ]
+  },
+  "pronomes pessoais atividade": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomes pessoais atividades",
+    "pronomes pessoais atividades 4 ano",
+    "pronomes pessoais atividades 5 ano",
+    "pronomes pessoais atividades 3 ano",
+    "pronomes pessoais atividades 6 ano",
+    "pronomes pessoais atividades adaptadas"
+   ]
+  },
+  "pronomes pessoais para imprimir": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomes pessoais para imprimir",
+    "cartaz pronomes pessoais para imprimir",
+    "atividade pronomes pessoais para imprimir",
+    "jogo dos pronomes pessoais para imprimir",
+    "pronomes pessoais em ingles para imprimir",
+    "pronomes pessoais do caso reto para imprimir",
+    "atividades de ingles pronomes pessoais para imprimir"
+   ]
+  },
+  "pronomes pessoais educação infantil": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomes pessoais educação infantil"
+   ]
+  },
+  "pronomes pessoais 3º ano": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomes pessoais 3o ano",
+    "pronomes pessoais 3o ano fundamental"
+   ]
+  },
+  "pronomes": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomes",
+    "pronomes pessoais",
+    "pronomes possessivos",
+    "pronomes demonstrativos",
+    "pronomes relativos",
+    "pronomes em ingles",
+    "pronomes de tratamento",
+    "pronomes obliquos",
+    "pronomes indefinidos",
+    "pronomes interrogativos"
+   ]
+  },
+  "pronomes atividade": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomes atividades",
+    "pronomes atividades 5 ano",
+    "pronomes atividades 6 ano",
+    "pronomes atividade 4 ano",
+    "pronomes atividades 3 ano",
+    "pronomes atividades 7 ano",
+    "pronomes atividades adaptadas",
+    "pronomes atividades ensino médio",
+    "pronomes atividades pdf",
+    "pronomes atividades 9 ano"
+   ]
+  },
+  "pronomes para imprimir": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomes para imprimir",
+    "pronomes pessoais para imprimir",
+    "pronomes possessivos para imprimir",
+    "pronomes demonstrativos para imprimir",
+    "atividades pronomes para imprimir",
+    "cartaz pronomes para imprimir",
+    "pronomes relativos para imprimir",
+    "jogos com pronomes para imprimir",
+    "tabela de pronomes para imprimir",
+    "bingo dos pronomes para imprimir"
+   ]
+  },
+  "pronomes educação infantil": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomes educação infantil",
+    "pronomes pessoais educação infantil",
+    "pronomes possessivos educação infantil"
+   ]
+  },
+  "pronomes 3º ano": {
+   "candidate": "pronouns",
+   "s": [
+    "pronomes 3o ano",
+    "pronomes 3o ano fundamental"
+   ]
+  },
+  "pronomes interrogativos": {
+   "candidate": "question-words",
+   "s": [
+    "pronomes interrogativos",
+    "pronomes interrogativos em ingles",
+    "pronomes interrogativos em espanhol",
+    "pronomes interrogativos exemplos",
+    "pronomes interrogativos em libras",
+    "pronomes interrogativos portugues",
+    "pronomes interrogativos exercícios",
+    "pronomes interrogativos em inglês exercícios com gabarito",
+    "pronomes interrogativos em inglês exercícios",
+    "pronomes interrogativos variáveis e invariáveis"
+   ]
+  },
+  "pronomes interrogativos atividade": {
+   "candidate": "question-words",
+   "s": [
+    "pronomes interrogativos atividades",
+    "pronomes interrogativos atividades 6o ano",
+    "pronomes interrogativos atividades 5 ano",
+    "pronomes interrogativos ingles atividades",
+    "pronomes interrogativos em espanhol atividades",
+    "atividades pronomes interrogativos 4o ano",
+    "atividades pronomes interrogativos 7 ano",
+    "atividades pronomes interrogativos 3o ano"
+   ]
+  },
+  "frases interrogativas": {
+   "candidate": "question-words",
+   "s": [
+    "frases interrogativas",
+    "frases interrogativas em inglês",
+    "frases interrogativas exemplos",
+    "frases interrogativas e exclamativas",
+    "frases interrogativas indiretas",
+    "frases interrogativas diretas e indiretas",
+    "frases interrogativas em libras",
+    "frases interrogativas no simple past",
+    "frases interrogativas em inglês verbo to be",
+    "frases interrogativas e negativas em inglês"
+   ]
+  },
+  "frases interrogativas atividade": {
+   "candidate": "question-words",
+   "s": [
+    "frases interrogativas atividades",
+    "frases exclamativas e interrogativas atividades",
+    "atividades frases interrogativas e exclamativas 3 ano",
+    "atividades frases interrogativas 2 ano",
+    "atividade frases interrogativas diretas e indiretas"
+   ]
+  },
+  "frases interrogativas para imprimir": {
+   "candidate": "question-words",
+   "s": [
+    "frases interrogativas para imprimir"
+   ]
+  },
+  "planificação do cubo": {
+   "candidate": "cube-nets",
+   "s": [
+    "planificação do cubo",
+    "planificação do cubo para imprimir",
+    "planificação do cubo para imprimir e montar",
+    "planificação do cubo para montar",
+    "planificação do cubo exercícios",
+    "planificação do cubo pdf",
+    "planificação do cubo com barbante",
+    "planificação do cubo com abas",
+    "planificação do cubo imagem",
+    "planificação do cubo geogebra"
+   ]
+  },
+  "planificação do cubo atividade": {
+   "candidate": "cube-nets",
+   "s": [
+    "planificação do cubo atividade"
+   ]
+  },
+  "planificação do cubo para imprimir": {
+   "candidate": "cube-nets",
+   "s": [
+    "planificação do cubo para imprimir",
+    "planificação do cubo para imprimir e montar",
+    "planificação do cubo para imprimir pdf"
+   ]
+  },
+  "planificação de sólidos": {
+   "candidate": "cube-nets",
+   "s": [
+    "planificação de sólidos geométricos",
+    "planificação de sólidos geométricos para imprimir",
+    "planificação de sólidos geométricos para imprimir pdf",
+    "planificação de sólidos geométricos pdf",
+    "planificação de sólidos geométricos nomes",
+    "planificação de sólidos geométricos para imprimir e montar",
+    "planificação de sólidos",
+    "planificação de sólidos geométricos 4 ano",
+    "planificação de sólidos geométricos para montar",
+    "planificação de sólidos geométricos 5 ano"
+   ]
+  },
+  "planificação de sólidos atividade": {
+   "candidate": "cube-nets",
+   "s": [
+    "planificação de sólidos geométricos atividades",
+    "atividades planificação de sólidos geométricos 5o ano",
+    "atividades planificação de sólidos geométricos 3o ano",
+    "atividades planificação de sólidos geométricos 4o ano",
+    "atividades planificação de sólidos geométricos 6o ano",
+    "atividades planificação de sólidos geométricos 4o ano com gabarito",
+    "planificação de sólidos geométricos para imprimir atividades",
+    "atividade sobre planificação de solidos 4o ano",
+    "atividades sobre planificação de sólidos",
+    "atividades de matematica planificação de solidos geometricos"
+   ]
+  },
+  "planificação de sólidos para imprimir": {
+   "candidate": "cube-nets",
+   "s": [
+    "planificação de sólidos para imprimir",
+    "planificação de sólidos geométricos para imprimir",
+    "planificação de sólidos geométricos para imprimir pdf",
+    "planificação de sólidos geométricos para imprimir e montar",
+    "planificação de sólidos geométricos para imprimir e montar pdf",
+    "planificação de sólidos geométricos para imprimir e montar com barbante",
+    "planificação de sólidos geométricos para imprimir atividades",
+    "planificação de sólidos geométricos para imprimir cilindro",
+    "planificação de sólidos geométricos com barbante para imprimir",
+    "molde planificação de sólidos geométricos para imprimir"
+   ]
+  },
+  "planificação de sólidos educação infantil": {
+   "candidate": "cube-nets",
+   "s": [
+    "planificação de sólidos geométricos educação infantil"
+   ]
+  },
+  "contar nos dedos": {
+   "candidate": "finger-counting",
+   "s": [
+    "contar nos dedos em binario",
+    "contar nos dedos",
+    "contar nos dedos atrapalha a aprendizagem de matemática",
+    "contar nos dedos em ingles",
+    "contar nos dedos significado",
+    "posso contar nos dedos",
+    "como contar nos dedos os meses que tem 31 dias",
+    "contar meses nos dedos",
+    "posso contar nos dedos curta",
+    "contar dedos acuidade visual"
+   ]
+  },
+  "contar nos dedos atividade": {
+   "candidate": "finger-counting",
+   "s": [
+    "atividade de contar nos dedos"
+   ]
+  },
+  "dedos da mão": {
+   "candidate": "finger-counting",
+   "s": [
+    "dedos da mão",
+    "dedos da mão dormente",
+    "dedos da mão nomes",
+    "dedos da mão formigando",
+    "dedos da mão descascando",
+    "dedos da mão esquerda formigando",
+    "dedos da mão dormente o que pode ser",
+    "dedos da mão inchados",
+    "dedos da mão formigando o que pode ser",
+    "dedos da mão travando o que pode ser"
+   ]
+  },
+  "dedos da mão atividade": {
+   "candidate": "finger-counting",
+   "s": [
+    "atividade dedos da mão",
+    "atividades com os dedos da mão educação infantil"
+   ]
+  },
+  "dedos da mão educação infantil": {
+   "candidate": "finger-counting",
+   "s": [
+    "nome dos dedos da mão educação infantil",
+    "atividades com os dedos da mão educação infantil"
+   ]
+  }
+ }
+}

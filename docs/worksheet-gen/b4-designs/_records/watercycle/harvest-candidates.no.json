@@ -1,0 +1,80 @@
+{
+ "locale": "no",
+ "market": {
+  "hl": "no",
+  "gl": "no"
+ },
+ "generatedAt": "2026-09-21T00:38:37.145Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds-watercycle.json",
+ "requestCount": 14,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "water-cycle": {
+   "heads": [
+    "vannets kretsløp",
+    "vannets kretsløp for barn"
+   ],
+   "requests": 14,
+   "productiveSeeds": 5,
+   "unique": 13,
+   "suggestions": [
+    "vannets kretsløp",
+    "vannets kretsløp 3 trinn",
+    "vannets kretsløp 4.trinn",
+    "vannets kretsløp bilde",
+    "vannets kretsløp engelsk",
+    "vannets kretsløp enkel tegning",
+    "vannets kretsløp enkelt forklart",
+    "vannets kretsløp film for barn",
+    "vannets kretsløp for barn",
+    "vannets kretsløp oppgaver",
+    "vannets kretsløp tegning",
+    "vannets kretsløp undervisningsopplegg",
+    "vannets kretsløp video"
+   ]
+  }
+ },
+ "suggestions": {
+  "vannets kretsløp": {
+   "candidate": "water-cycle",
+   "s": [
+    "vannets kretsløp",
+    "vannets kretsløp tegning",
+    "vannets kretsløp undervisningsopplegg",
+    "vannets kretsløp for barn",
+    "vannets kretsløp enkelt forklart",
+    "vannets kretsløp video",
+    "vannets kretsløp enkel tegning",
+    "vannets kretsløp engelsk",
+    "vannets kretsløp oppgaver",
+    "vannets kretsløp bilde"
+   ]
+  },
+  "vannets kretsløp oppgaver": {
+   "candidate": "water-cycle",
+   "s": [
+    "vannets kretsløp oppgaver"
+   ]
+  },
+  "vannets kretsløp 3. trinn": {
+   "candidate": "water-cycle",
+   "s": [
+    "vannets kretsløp 3 trinn"
+   ]
+  },
+  "vannets kretsløp 4. trinn": {
+   "candidate": "water-cycle",
+   "s": [
+    "vannets kretsløp 4.trinn"
+   ]
+  },
+  "vannets kretsløp for barn": {
+   "candidate": "water-cycle",
+   "s": [
+    "vannets kretsløp for barn",
+    "vannets kretsløp film for barn"
+   ]
+  }
+ }
+}

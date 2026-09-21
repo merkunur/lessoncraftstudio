@@ -1,0 +1,74 @@
+{
+ "locale": "da",
+ "market": {
+  "hl": "da",
+  "gl": "dk"
+ },
+ "generatedAt": "2026-09-21T00:38:33.071Z",
+ "seedFile": "docs/worksheet-gen/b4-designs/_records/candidate-seeds-watercycle.json",
+ "requestCount": 14,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "water-cycle": {
+   "heads": [
+    "vandets kredsløb",
+    "vandets kredsløb for børn"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 13,
+   "suggestions": [
+    "film om vandets kredsløb for børn",
+    "vandets kredsløb",
+    "vandets kredsløb 3 klasse",
+    "vandets kredsløb alinea",
+    "vandets kredsløb for børn",
+    "vandets kredsløb forklaring",
+    "vandets kredsløb forsøg",
+    "vandets kredsløb gyldendal",
+    "vandets kredsløb model",
+    "vandets kredsløb og vandbalanceligningen",
+    "vandets kredsløb opgaver",
+    "vandets kredsløb tegning",
+    "vandets kredsløb video"
+   ]
+  }
+ },
+ "suggestions": {
+  "vandets kredsløb": {
+   "candidate": "water-cycle",
+   "s": [
+    "vandets kredsløb",
+    "vandets kredsløb model",
+    "vandets kredsløb forklaring",
+    "vandets kredsløb forsøg",
+    "vandets kredsløb alinea",
+    "vandets kredsløb tegning",
+    "vandets kredsløb gyldendal",
+    "vandets kredsløb og vandbalanceligningen",
+    "vandets kredsløb opgaver",
+    "vandets kredsløb video"
+   ]
+  },
+  "vandets kredsløb opgaver": {
+   "candidate": "water-cycle",
+   "s": [
+    "vandets kredsløb opgaver"
+   ]
+  },
+  "vandets kredsløb 3. klasse": {
+   "candidate": "water-cycle",
+   "s": [
+    "vandets kredsløb 3 klasse"
+   ]
+  },
+  "vandets kredsløb for børn": {
+   "candidate": "water-cycle",
+   "s": [
+    "vandets kredsløb for børn",
+    "film om vandets kredsløb for børn"
+   ]
+  }
+ }
+}

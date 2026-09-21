@@ -136,7 +136,7 @@ const QUESTION_WORDS = {
     thingThemes: ['animals', 'fruits', 'vehicles', 'toys', 'zoo animals', 'farm animals'],
     numbers: [2, 3, 4, 5],
     faces: {
-      base:  { kinds: ['who', 'what', 'where', 'when'] },
+      base:  { kinds: ['who', 'what', 'where'] },   // = the d2 chips; the title names exactly these (reviewer ruling 2026-09-21); when joins at d3 and on the faces that own it
       match: { kinds: ['who', 'what', 'where', 'when', 'howmany'] },
       fill:  { kinds: ['who', 'what', 'where', 'when', 'howmany'] },
       sort:  { kinds: ['who', 'what', 'where'] },

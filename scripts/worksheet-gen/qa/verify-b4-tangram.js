@@ -284,6 +284,448 @@ function editFigure(html, n, fn) {
 function scaleNumbers(s, k) { return s.replace(/-?\d+(?:\.\d+)?/g, (v) => (Math.round(+v * k * 100) / 100).toString()); }
 function setAttr(open, name, value) { const re = new RegExp(`${name}="[^"]*"`); if (!re.test(open)) throw new Error(`NEEDLE MATCHED NOTHING (${name})`); return open.replace(re, `${name}="${value}"`); }
 
+/* ================================================================================================
+ * E. THE FIVE FACES (Phase 2, 2026-09-21) — design §3 / §5, _work/K-353-faces.md
+ *
+ * FACES = the five emitted specs (tools/b4var-rows/tangram.js → gen-b4var-specs.js). Each is
+ * rendered through the REAL pipeline at d2 en (default chrome), under the LONG / WORST / FI4 / COMBO
+ * chromes (F4 also under a ONE-LINE chrome: the sparse rule's "slack under the stage <= 180"), and
+ * over a seed sweep. Every render: lints clean · the face's own verify() empty · the gate's OWN audit
+ * (faceRenderCheck): every drawing re-derived from the BANK under the stamped transform (an
+ * independent re-derivation, not the spec's), the band floor MEASURED on the polygon points, every
+ * svg unscaled + inside its card / box + above the footer, the sparse rule (the grid fills the body /
+ * the F4 stage top-anchored, band === gap, stage >= 660), non-vacuity, and per face: F1 outlines
+ * white with no seam polygon + glyph strip === the mini's classes; F2 four pairwise NON-CONGRUENT
+ * shadows (tree ≡ arrow, measured) in the two-height grid; F3 six tans + a coral dashed hole, three
+ * true-size chips of distinct classes, exactly one correct and congruent to the hole by rotation, the
+ * triangle-size rule, the P flip rule, the shape cap; F4 exactly one correct (t id), every distractor
+ * outside the group of the shadow AS DRAWN + a different shadow, the P flip tell on mirrors; F5 box
+ * answers === the bank's class counts, the page rule.
+ * Poisons (each must FAIL for its own reason; the correct face render is the control): P5 (square in
+ * the F4 pool → refuse) · P6 (an F4 distractor redrawn INSIDE the shadow's group: rectangle rot180)
+ * · P7 (data-lcs-correct moved to a turned candidate) · P8 (an S/M hole whose other-size triangle
+ * chip is swapped for a Q) · P9 (a P hole's correct chip in the other flip) · P10 (a chip drawn at
+ * Sg 80) · P11 (an F5 pool whose triangle counts take two values → refuse) · P14 (S 150 on a K
+ * face) · P15 (a data-lcs-tan polygon inside an F1 outline) · P17 (an F4 distractor redrawn as the
+ * OTHER figure in the pose that casts the SAME shadow: arrow for tree) · P18 (F2 cards at padding
+ * 12: the tree overflows) · P19 (an M chip in the upright pose: the column overflows under 677) ·
+ * R1 (a row equal to the base's d2 config → the distinctness check rejects) · R3 (two correct
+ * candidates) · SPARSE: F4 rows 3 (stack 504 → refuse) / the stage centred / a cardGrid face's grid
+ * pinned to 500 px · config: mix 0+4, items 5, S 120 on G1, an L hole, F4 S 100, box 150 (the cat),
+ * F2 rowH 300, F2 pool without boat/cat (three shapes), F5 boxes with a third box · a face's EN
+ * strings ≠ the bank's (two sources).
+ * ================================================================================================ */
+const { cardInner, fitTransforms, drawnSize, FACE_BAND, BAND_FLOOR } = require('../types/k/K-353-tangram.js');
+const C4 = require('../templates/components-b4.js');
+const FACES = [
+  { id: 'K-358', mode: 'compose', band: 'K' },
+  { id: 'G1-354', mode: 'silhouette', band: 'G1' },
+  { id: 'G1-355', mode: 'missing', band: 'G1' },
+  { id: 'G2-347', mode: 'match', band: 'G2' },
+  { id: 'K-359', mode: 'count', band: 'K' },
+];
+const ONE_LINE_CHROME = { title: 'Tangram Shadows', instruction: 'Circle the matching solution.' };
+const STAGE_SLACK_MAX = 180;
+const distinctFromBase = (ft, base) => JSON.stringify(ft.difficulty[2]) !== JSON.stringify(base.difficulty[2]);
+const oneSource = (ft, en, mode) => { const s = en.strings[mode]; return !!s && ft.i18n.en.title === s.title && ft.i18n.en.instruction === s.instruction; };
+const shapeKey5 = (tans) => { const loop = TG.silhouette(tans)[0]; const xs = loop.map((p) => p[0]), ys = loop.map((p) => p[1]); const x0 = Math.min(...xs), y0 = Math.min(...ys); return loop.map((p) => [(p[0] - x0 + 0).toFixed(5), (p[1] - y0 + 0).toFixed(5)].join(',')).sort().join('|'); };
+const congruent = (a, b) => { const ka = shapeKey5(a); return TG.TRANSFORM_NAMES.some((t) => shapeKey5(TG.transformTiling(b, t)) === ka); };
+
+async function faceRenderCheck(page, faceType, inj, job, opts) {
+  let t = faceType;
+  if (inj) t = { ...faceType, build: (o, ctx) => faceType._buildWith(inj.bank || loadStrings()[o.locale.slice(0, 2)], inj.cfg || faceType.difficulty[o.difficulty], { locale: o.locale }, ctx) };
+  if (opts && opts.post) { const inner = t.build; t = { ...t, build: async (o, ctx) => { const b = await inner.call(t, o, ctx); b.bodyHtml = opts.post(b.bodyHtml); return b; } }; }
+  const out = await renderInstance({ type: t, theme: null, difficulty: job.difficulty || 2, locale: job.locale, unit: null, strings: job.strings, pageSize: job.pageSize, seedEpoch: job.seedEpoch || 1, page, outDir: OUT, baseName: job.baseName });
+  const fails = [...out.qa.lints.map((x) => 'lint: ' + x), ...out.qa.verify.map((x) => 'verify: ' + x)];
+  const m = await page.evaluate((ID) => {
+    const R = (el) => { const r = el.getBoundingClientRect(); return { left: r.left, top: r.top, right: r.right, bottom: r.bottom, width: r.width, height: r.height }; };
+    const pts = (el) => (el.getAttribute('points') || '').trim().split(/\s+/).map((p) => p.split(',').map(Number));
+    const pathPts = (el) => { const d = el.getAttribute('d') || ''; const m = d.match(/-?\d+(?:\.\d+)?\s-?\d+(?:\.\d+)?/g) || []; return m.map((s) => s.split(' ').map(Number)); };
+    const res = { fails: [] };
+    const body = document.querySelector('[data-lcs-body]').getBoundingClientRect();
+    res.body = Math.round(body.height); res.bodyRect = R(document.querySelector('[data-lcs-body]'));
+    res.insLines = Math.round(document.querySelector('[data-lcs-instruction]').getBoundingClientRect().height / 23);
+    res.titleLines = Math.round(document.querySelector('[data-lcs-title]').getBoundingClientRect().height / 33);
+    res.foot = document.querySelector('.ws-foot').getBoundingClientRect().top;
+    const root = document.querySelector(`[data-lcs-type="${ID}"]`);
+    if (!root) { res.fails.push('audit: no root'); return res; }
+    res.mode = root.dataset.lcsMode || null;
+    try { res.cfg = JSON.parse(root.dataset.lcsCfg); } catch (e) { res.fails.push('audit: cfg unreadable'); return res; }
+    res.stamps = { ...root.dataset };
+    const cards = [...root.querySelectorAll('.ws-card')];
+    res.cards = cards.map((c) => { const cs = getComputedStyle(c); const r = c.getBoundingClientRect(); const e = (a, b) => parseFloat(cs[a]) + parseFloat(cs[b]); return { rect: R(c), inner: { left: r.left + e('paddingLeft', 'borderLeftWidth'), top: r.top + e('paddingTop', 'borderTopWidth'), right: r.right - e('paddingRight', 'borderRightWidth'), bottom: r.bottom - e('paddingBottom', 'borderBottomWidth') }, badge: (c.querySelector('.ws-card-badge') || {}).textContent }; });
+    const grid = root.querySelector('.ws-cardgrid'); res.grid = grid ? R(grid) : null;
+    const stage = root.querySelector('[data-lcs-match-stage]'); res.stage = stage ? R(stage) : null;
+    const rows = [...root.querySelectorAll('[data-lcs-match-row]')];
+    res.rows = rows.map((row) => ({ key: row.dataset.lcsFigure, t0: row.dataset.lcsTransform, rect: R(row), candidates: [...row.querySelectorAll('[data-lcs-candidate]')].map((c) => ({ i: +c.dataset.lcsCandidate, t: c.dataset.lcsT, correct: c.dataset.lcsCorrect === '1', rect: R(c) })) }));
+    res.figures = [...root.querySelectorAll('svg[data-lcs-prim="tangram"]')].map((svg) => ({
+      card: cards.indexOf(svg.closest('.ws-card')), row: rows.indexOf(svg.closest('[data-lcs-match-row]')), cand: svg.closest('[data-lcs-candidate]') ? +svg.closest('[data-lcs-candidate]').dataset.lcsCandidate : -1, isTarget: !!svg.closest('[data-lcs-target]'),
+      key: svg.dataset.lcsFigure, mode: svg.dataset.lcsMode, transform: svg.dataset.lcsTransform || null, S: +svg.dataset.lcsScale, missing: svg.dataset.lcsMissing || null,
+      attrW: +svg.getAttribute('width'), attrH: +svg.getAttribute('height'), rect: R(svg), foreign: !!svg.querySelector('text, image, foreignObject'),
+      tans: [...svg.querySelectorAll('polygon[data-lcs-tan]')].map((p) => ({ id: p.dataset.lcsTan, pts: pts(p), fill: (p.getAttribute('fill') || '').toUpperCase(), sw: parseFloat(p.getAttribute('stroke-width')) })),
+      paths: [...svg.querySelectorAll('path')].map((p) => ({ kind: p.hasAttribute('data-lcs-outline') ? 'outline' : p.hasAttribute('data-lcs-silhouette') ? 'silhouette' : p.hasAttribute('data-lcs-hole') ? 'hole' : 'other', pts: pathPts(p), fill: (p.getAttribute('fill') || '').toUpperCase(), stroke: (p.getAttribute('stroke') || '').toUpperCase(), dash: p.getAttribute('stroke-dasharray') || null })),
+    }));
+    res.chips = [...root.querySelectorAll('.ws-achip[data-lcs-chip]')].map((c) => { const svg = c.querySelector('svg'); const poly = svg && svg.querySelector('polygon'); return { card: cards.indexOf(c.closest('.ws-card')), cls: c.dataset.lcsChip, flip: c.dataset.lcsFlip === '1', correct: c.dataset.lcsCorrect === '1', rect: R(c), svgRect: svg ? R(svg) : null, svgS: svg ? +svg.dataset.lcsScale : null, pts: poly ? pts(poly) : [] }; });
+    res.strips = [...root.querySelectorAll('[data-lcs-glyph-strip]')].map((s) => ({ card: cards.indexOf(s.closest('.ws-card')), classes: [...s.querySelectorAll('svg[data-lcs-glyph]')].map((g) => g.dataset.lcsGlyph) }));
+    res.answers = [...root.querySelectorAll('[data-lcs-answer-row]')].map((r) => ({ card: cards.indexOf(r.closest('.ws-card')), boxes: [...r.querySelectorAll('.ws-answerbox')].map((b) => ({ answer: b.dataset.lcsAnswer, text: (b.textContent || '').trim(), rect: R(b) })) }));
+    let txt = root.textContent || ''; root.querySelectorAll('.ws-card-badge').forEach((b) => { txt = txt.replace(b.textContent, ''); }); res.text = txt.trim();
+    res.foreign = !!root.querySelector('img, text, input');
+    return res;
+  }, ID);
+  fails.push(...m.fails.map((x) => x));
+  const F = fails;
+  const cfg = m.cfg || {};
+  const mode = m.mode;
+  const S = +cfg.S;
+  const floor = BAND_FLOOR[FACE_BAND[mode]] || 56;
+  const near = (a, b) => Math.abs(a[0] - b[0]) < 0.02 && Math.abs(a[1] - b[1]) < 0.02;
+  const sameSet = (got, want) => got.length === want.length && want.every((w) => got.some((g) => near(g, w)));
+  const minEdge = (p) => Math.min(...p.map((v, i) => Math.hypot(v[0] - p[(i + 1) % p.length][0], v[1] - p[(i + 1) % p.length][1])));
+  const inside = (r, box, what) => { if (r.left < box.left - 0.6 || r.right > box.right + 0.6 || r.top < box.top - 0.6 || r.bottom > box.bottom + 0.6) F.push(`size: ${what} outside its container`); };
+  const B = loadBankModule();
+  let slack = null;
+  if (m.cfg) {
+    if (mode !== job.mode) F.push(`audit: mode stamp ${mode} ≠ ${job.mode}`);
+    if (m.foreign) F.push('audit: a picture / text / input on a face page');
+    if (m.text) F.push(`audit: text on the body "${m.text.slice(0, 20)}"`);
+    if (!(TG.h * S >= floor - 0.5)) F.push(`size: scale ${S} < the ${FACE_BAND[mode]} floor (${(TG.h * S).toFixed(1)} < ${floor})`);
+    // every drawing re-derived from the BANK (independent of verify): tans / outline / silhouette / hole
+    const pad = mode === 'missing' || mode === 'match' ? cfg.pad : 2.5;
+    const stored = (g) => {
+      if (mode === 'compose') return B.MINIS[g.key];
+      if (mode === 'count') return B.SUBS[g.key];
+      return B.FIGURES[g.key];
+    };
+    let measuredTans = 0;
+    for (const g of m.figures) {
+      const what = `${g.mode} ${g.key}`;
+      if (Math.abs(g.rect.width - g.attrW) > 0.6 || Math.abs(g.rect.height - g.attrH) > 0.6) F.push(`size: ${what} is CSS-scaled`);
+      if (g.S !== S) F.push(`size: ${what} scale ${g.S} ≠ ${S}`);
+      if (g.foreign) F.push(`audit: ${what} carries text`);
+      if (g.rect.bottom > m.foot + 0.6 || g.rect.top < m.bodyRect.top - 0.6 || g.rect.left < m.bodyRect.left - 0.6 || g.rect.right > m.bodyRect.right + 0.6) F.push(`size: ${what} outside the body / into the footer`);
+      if (g.card >= 0 && m.cards[g.card]) inside(g.rect, m.cards[g.card].inner, what);
+      const src = stored(g);
+      if (!src) { F.push(`bank: ${what} is not a stored ${mode === 'compose' ? 'mini' : mode === 'count' ? 'set' : 'figure'}`); continue; }
+      if (!g.transform || !TG.TRANSFORMS[g.transform]) { F.push(`bank: ${what} has no transform stamp`); continue; }
+      let tt = TG.transformTiling(src, g.transform);
+      if (mode === 'match' && g.cand >= 0) { const row = m.rows[g.row]; if (!row || !TG.TRANSFORMS[row.t0]) { F.push(`bank: ${what} row without t0`); continue; } tt = TG.transformTiling(TG.transformTiling(src, row.t0), g.transform); }
+      const placed = TG.placeTans(tt, S, { pad });
+      const loop = TG.silhouetteOf(tt.map(TG.placeUnit))[0].map(placed.toPx);
+      if (g.mode === 'solution' || g.mode === 'hole') {
+        const want = g.mode === 'hole' ? placed.tans.filter((t) => g.tans.some((x) => x.id === t.id)) : placed.tans;
+        const ids = g.tans.map((x) => x.id);
+        if (g.mode === 'solution' && ids.length !== src.length) F.push(`bank: ${what} draws ${ids.length} tans, the stored entry has ${src.length}`);
+        if (g.mode === 'hole' && ids.length !== 6) F.push(`bank: ${what} draws ${ids.length} tans (six + the hole)`);
+        for (const t of want) { const got = g.tans.find((x) => x.id === t.id); if (!got) { if (g.mode !== 'hole') F.push(`bank: ${what} lacks ${t.id}`); continue; } if (!sameSet(got.pts, t.pts)) F.push(`bank: ${what} ${t.id} ≠ the stored placement under ${g.transform} at S ${S}`); measuredTans++; const e = minEdge(got.pts); if (e < floor - 0.5) F.push(`size: ${what} ${t.id} edge ${e.toFixed(1)} < ${floor}`); }
+        if (g.mode === 'solution') { const o = g.paths.find((p) => p.kind === 'outline'); if (!o) F.push(`audit: ${what} has no outline path`); else if (!sameSet(o.pts, loop)) F.push(`bank: ${what} outline ≠ the stored silhouette`); }
+        if (g.mode === 'hole') { const h = g.paths.find((p) => p.kind === 'hole'); const missingId = TG.TAN_IDS.find((id) => !ids.includes(id)); const want2 = placed.tans.find((t) => t.id === missingId); if (!h) F.push(`audit: ${what} has no hole path`); else { if (!want2 || !sameSet(h.pts, want2.pts)) F.push(`bank: ${what} hole ≠ the missing tan's placement`); if (h.fill !== 'NONE' || h.stroke !== tokens.color.coral.toUpperCase() || h.dash !== '8 6') F.push(`audit: ${what} hole is not an unfilled dashed coral path`); if (missingId && TG.clsOf(missingId) !== g.missing) F.push(`bank: ${what} missing stamp ${g.missing} ≠ the absent tan ${missingId}`); } }
+      } else if (g.mode === 'outline' || g.mode === 'silhouette') {
+        if (g.tans.length) F.push(`audit: ${what} carries ${g.tans.length} tan polygons (the seams are printed)`);
+        const p = g.paths.find((x) => x.kind === g.mode);
+        if (!p || g.paths.length !== 1) F.push(`audit: ${what} has ${g.paths.length} paths`);
+        else { if (!sameSet(p.pts, loop)) F.push(`bank: ${what} path ≠ the stored silhouette under ${g.transform} at S ${S}`); if (g.mode === 'outline' && p.fill !== tokens.color.white.toUpperCase()) F.push(`audit: ${what} outline fill ${p.fill}`); if (g.mode === 'silhouette' && (p.fill !== p.stroke || p.fill !== tokens.color.teal.toUpperCase())) F.push(`audit: ${what} shadow fill ${p.fill} / stroke ${p.stroke}`); }
+      } else F.push(`audit: ${what} unexpected mode`);
+    }
+    // the sparse rule + containers
+    if (mode === 'match') {
+      if (!m.stage) F.push('audit: no stage');
+      else {
+        if (m.stage.top > m.bodyRect.top + 1) F.push(`sparse: the stage starts ${(m.stage.top - m.bodyRect.top).toFixed(0)} px under the body top (not top-anchored)`);
+        if (m.stage.height < 660) F.push(`sparse: stage ${m.stage.height.toFixed(0)} < 660`);
+        slack = m.foot - m.stage.bottom;
+        if (job.strings === ONE_LINE_CHROME && slack > STAGE_SLACK_MAX) F.push(`sparse: ${slack.toFixed(0)} px of slack under the stage at the one-line chrome > ${STAGE_SLACK_MAX}`);
+      }
+      m.rows.forEach((r, i) => { if (i) { const band = r.rect.top - m.rows[i - 1].rect.bottom; if (Math.abs(band - cfg.gap) > 1) F.push(`sparse: a ${band.toFixed(0)} px band between rows ${i} and ${i + 1} (gap ${cfg.gap})`); } });
+      if (m.rows.length !== cfg.rows) F.push(`count: ${m.rows.length} rows ≠ ${cfg.rows}`);
+      const drawn = [];
+      for (const r of m.rows) {
+        const src = B.FIGURES[r.key];
+        if (!src || !TG.TRANSFORMS[r.t0]) { F.push(`bank: row ${r.key} / ${r.t0}`); continue; }
+        const target = TG.transformTiling(src, r.t0);
+        drawn.push(shapeKey5(target));
+        const group = TG.symmetryGroup(target);
+        const correct = r.candidates.filter((c) => c.correct);
+        if (correct.length !== 1 || correct[0].t !== 'id') F.push(`answer: row ${r.key} has ${correct.length} correct candidate(s) [${correct.map((c) => c.t).join(' ')}]`);
+        for (const c of r.candidates) {
+          const g = m.figures.find((x) => x.row === m.rows.indexOf(r) && x.cand === c.i);
+          if (g) inside(g.rect, c.rect, `row ${r.key} candidate ${c.i + 1}`);
+          if (!c.correct) { if (group.includes(c.t)) F.push(`answer: row ${r.key} distractor ${c.t} is inside the group of the shadow as drawn [${group.join(' ')}]`); if (TG.TRANSFORMS[c.t] && shapeKey5(TG.transformTiling(target, c.t)) === shapeKey5(target)) F.push(`answer: row ${r.key} distractor ${c.t} casts the same shadow`); }
+        }
+        const sh = m.figures.find((x) => x.row === m.rows.indexOf(r) && x.isTarget);
+        if (!sh) F.push(`audit: row ${r.key} has no shadow`);
+      }
+      if (new Set(drawn).size !== drawn.length) F.push('audit: two rows show the same shadow as drawn');
+      if (!m.rows.length) F.push('non-vacuity: 0 match rows');
+    } else {
+      if (!m.grid) F.push('audit: no card grid');
+      else { if (m.grid.top > m.bodyRect.top + 1) F.push('sparse: the grid is not top-anchored'); if (m.grid.height < m.bodyRect.height - 2) F.push(`sparse: ${(m.bodyRect.height - m.grid.height).toFixed(0)} px of blank paper under the grid`); }
+      if (m.cards.length !== cfg.items) F.push(`count: ${m.cards.length} cards ≠ ${cfg.items}`);
+      if (m.figures.length !== cfg.items) F.push(`count: ${m.figures.length} drawings ≠ ${cfg.items}`);
+      const keys = m.figures.map((g) => g.key);
+      if (new Set(keys).size !== keys.length && mode !== 'missing') F.push(`audit: drawings repeat (${keys.join(' ')})`);
+    }
+    if (mode === 'compose') {
+      for (const g of m.figures) { const strip = m.strips.find((s) => s.card === g.card); const src = B.MINIS[g.key]; if (!strip || !src) { F.push(`audit: outline ${g.key} without a glyph strip`); continue; } if (strip.classes.slice().sort().join() !== src.map((t) => TG.clsOf(t.id)).sort().join()) F.push(`answer: glyph strip [${strip.classes.join(' ')}] ≠ mini ${g.key}`); try { B.mini(g.key); } catch (e) { F.push('bank: ' + e.message); } }
+      const n2 = m.figures.map((g) => g.key).filter((k) => (cfg.pool2 || []).includes(k)).length;
+      if (n2 !== cfg.mix[0]) F.push(`audit: ${n2} two-tan minis ≠ mix ${cfg.mix[0]}`);
+    }
+    if (mode === 'silhouette') {
+      const figs = m.figures;
+      for (let i = 0; i < figs.length; i++) for (let j = i + 1; j < figs.length; j++) if (B.FIGURES[figs[i].key] && B.FIGURES[figs[j].key] && congruent(B.FIGURES[figs[i].key], B.FIGURES[figs[j].key])) F.push(`audit: shadows ${figs[i].key} and ${figs[j].key} are one shape turned`);
+      m.cards.forEach((c, i) => { if (i < cfg.cols && Math.abs(c.rect.height - cfg.rowH) > 1) F.push(`size: card ${i + 1} height ${c.rect.height.toFixed(0)} ≠ rowH ${cfg.rowH}`); });
+    }
+    if (mode === 'missing') {
+      const pairs = new Set();
+      for (const g of m.figures) {
+        const chips = m.chips.filter((c) => c.card === g.card);
+        const pk = g.key + '/' + g.missing; if (pairs.has(pk)) F.push(`audit: pair ${pk} twice`); pairs.add(pk);
+        if (chips.length !== cfg.chips) F.push(`count: card ${g.card + 1} has ${chips.length} chips`);
+        const correct = chips.filter((c) => c.correct);
+        if (correct.length !== 1 || correct[0].cls !== g.missing) F.push(`answer: card ${g.card + 1} correct chip [${correct.map((c) => c.cls).join(' ')}] vs hole ${g.missing}`);
+        if (new Set(chips.map((c) => c.cls)).size !== chips.length) F.push(`answer: card ${g.card + 1} chip classes repeat`);
+        if ((g.missing === 'M' || g.missing === 'S') && !chips.some((c) => c.cls === (g.missing === 'M' ? 'S' : 'M'))) F.push(`answer: card ${g.card + 1} ${g.missing} hole without the other triangle size`);
+        const src = B.FIGURES[g.key];
+        const tt = src && TG.TRANSFORMS[g.transform] ? TG.transformTiling(src, g.transform) : null;
+        const holeTan = tt && tt.find((t) => !g.tans.some((x) => x.id === t.id));
+        for (const c of chips) {
+          if (c.svgS !== S) F.push(`size: card ${g.card + 1} chip ${c.cls} drawn at ${c.svgS}, not ${S} (true-size)`);
+          if (c.rect.height < 43.4) F.push(`size: card ${g.card + 1} chip ${c.cls} box ${c.rect.height.toFixed(0)} < 44`);
+          if (m.cards[g.card]) inside(c.rect, m.cards[g.card].inner, `card ${g.card + 1} chip ${c.cls}`);
+          if (c.svgRect) inside(c.svgRect, c.rect, `card ${g.card + 1} chip ${c.cls} glyph`);
+          if (c.pts.length) { const want = TG.canonicalPose(c.cls, S, { flip: c.flip }); const e = (p) => p.map((v, i) => Math.hypot(v[0] - p[(i + 1) % p.length][0], v[1] - p[(i + 1) % p.length][1])).sort((a, b) => a - b); const eg = e(c.pts), ew = e(want); if (eg.length !== ew.length || eg.some((v, i) => Math.abs(v - ew[i]) > 0.5)) F.push(`size: card ${g.card + 1} chip ${c.cls} is not true-size (ratio chip : hole ≠ 1)`); }
+          if (c.correct && holeTan && c.pts.length) {
+            if (c.cls === 'P' && !!holeTan.flip !== c.flip) F.push(`answer: card ${g.card + 1} correct P chip flip ≠ the hole's`);
+            const hp = TG.placeUnit(holeTan); const cu = c.pts.map((p) => [p[0] / S, p[1] / S]);
+            const nk = (P) => { const xs = P.map((p) => p[0]), ys = P.map((p) => p[1]); const x0 = Math.min(...xs), y0 = Math.min(...ys); return P.map((p) => [(p[0] - x0).toFixed(3), (p[1] - y0).toFixed(3)].join(',')).sort().join('|'); };
+            if (![0, 45, 90, 135, 180, 225, 270, 315].some((d) => { const th = d * Math.PI / 180, cs = Math.cos(th), sn = Math.sin(th); return nk(cu.map(([x, y]) => [x * cs - y * sn, x * sn + y * cs])) === nk(hp); })) F.push(`answer: card ${g.card + 1} correct chip not congruent to the hole by rotation`);
+          }
+        }
+      }
+      if (!m.chips.length) F.push('non-vacuity: 0 chips');
+    }
+    if (mode === 'count') {
+      const subs = [];
+      for (const g of m.figures) {
+        const src = B.SUBS[g.key]; if (!src) continue;
+        subs.push(src);
+        const row = m.answers.find((a) => a.card === g.card);
+        if (!row || row.boxes.length !== 2) { F.push(`count: card ${g.card + 1} answer boxes`); continue; }
+        const tri = src.filter((t) => 'LMS'.includes(TG.clsOf(t.id))).length, sq = src.filter((t) => TG.clsOf(t.id) === 'Q').length;
+        if (+row.boxes[0].answer !== tri || +row.boxes[1].answer !== sq) F.push(`answer: card ${g.card + 1} stamps ${row.boxes[0].answer}/${row.boxes[1].answer}, the set holds ${tri}/${sq}`);
+        row.boxes.forEach((b, j) => { if (b.text) F.push(`audit: card ${g.card + 1} box ${j + 1} prints "${b.text}"`); if (b.rect.height < 43.4) F.push(`size: card ${g.card + 1} box ${j + 1} < 44`); if (m.cards[g.card]) inside(b.rect, m.cards[g.card].inner, `card ${g.card + 1} box ${j + 1}`); });
+        const loop = TG.silhouette(src)[0];
+        if (gate.kindOf(loop) !== 'other') F.push(`bank: set ${g.key} outline is a ${gate.kindOf(loop)}`);
+        // the tall-pose rule (sparse): the drawn height is the tallest fitting pose under the 677 zone
+        { const inner = cardInner(cfg.rows, cfg.cols, cfg.bodyMin || 677, 12); const maxH = inner.h - 12 - 50; const hs = TG.TRANSFORM_NAMES.map((t) => drawnSize(TG.transformTiling(src, t), S, 2.5)).filter((d) => d.w <= inner.w && d.h <= maxH).map((d) => d.h); if (hs.length && g.rect.height < Math.max(...hs) - 1) F.push(`sparse: set ${g.key} drawn ${g.rect.height.toFixed(0)} tall in a flat pose (tall pose ${Math.max(...hs)})`); }
+      }
+      if (subs.length === cfg.items) {
+        const triVals = new Set(subs.map((s) => s.filter((t) => 'LMS'.includes(TG.clsOf(t.id))).length));
+        if (triVals.size < 3) F.push(`answer: triangle counts take ${triVals.size} values (< 3)`);
+        const sqVals = new Set(subs.map((s) => s.filter((t) => TG.clsOf(t.id) === 'Q').length));
+        if (!sqVals.has(0) || !sqVals.has(1)) F.push('answer: square counts miss 0 or 1');
+        if (subs.filter((s) => s.some((t) => t.id === 'P')).length < 2) F.push('answer: P on < 2 cards');
+      }
+      if (!m.answers.length) F.push('non-vacuity: 0 answer rows');
+    }
+    if (!m.figures.length) F.push('non-vacuity: 0 drawings');
+    if (mode !== 'compose' && mode !== 'silhouette' && !measuredTans) F.push('non-vacuity: 0 tan polygons measured');
+  }
+  const expect = BODY_EXPECT.get(job.strings);
+  if (expect != null && Math.abs(m.body - expect) > 1) fails.push(`chrome: body measured ${m.body}, the probe expects ${expect} (vacuous or shifted chrome)`);
+  if (job.strings === WORST_CHROME && m.insLines < 3) fails.push('chrome: WORST_CHROME wrapped to < 3 instruction lines (vacuous)');
+  if ((job.strings === LONG_CHROME || job.strings === WORST_CHROME) && m.titleLines < 3) fails.push('chrome: the probe title wrapped to < 3 lines (vacuous)');
+  if ((job.strings === FI4_CHROME || job.strings === COMBO_CHROME) && m.titleLines < 4) fails.push('chrome: the fi probe title wrapped to < 4 lines (vacuous)');
+  if (job.strings === ONE_LINE_CHROME && (m.titleLines !== 1 || m.insLines !== 1)) fails.push(`chrome: the one-line probe wrapped to ${m.titleLines}/${m.insLines} lines (vacuous)`);
+  return { fails, m, body: m.body, titleLines: m.titleLines, insLines: m.insLines, pngPath: out.pngPath, slack };
+}
+
+async function faceSection({ page, base, B, strings, note, failures, seeds, poisons, addAssertions }) {
+  const loc = 'en';
+  const en = strings.en;
+  for (const face of FACES) {
+    let ft;
+    try { ft = loadType(face.id); } catch (e) { note(false, `${face.id}: cannot load (${e.message})`); continue; }
+    const cfg = ft.difficulty[2];
+    note(cfg.mode === face.mode, `${face.id}: mode ${cfg.mode} ≠ ${face.mode}`);
+    note(ft.gradeBand === face.band, `${face.id}: gradeBand ${ft.gradeBand} ≠ ${face.band}`);
+    note(ft.exerciseType === 'tangram' && ft.themeAxis.applicable === false, `${face.id}: exerciseType / themeAxis`);
+    note(JSON.stringify(ft.difficulty[1]) === JSON.stringify(cfg) && JSON.stringify(ft.difficulty[3]) === JSON.stringify(cfg), `${face.id}: the three levels are not one config`);
+    note(distinctFromBase(ft, base), `${face.id}: resolves to the base's d2 config`);
+    note(oneSource(ft, en, face.mode), `${face.id}: i18n.en ≠ data/b4/tangram.js strings.${face.mode} (two sources)`);
+    const jobs = [
+      { locale: loc, baseName: `${face.id}-d2-${loc}`, tag: 'level' },
+      { locale: loc, strings: LONG_CHROME, pageSize: 'a4', baseName: `${face.id}-d2-${loc}-longchrome`, tag: 'long' },
+      { locale: loc, strings: WORST_CHROME, pageSize: 'a4', baseName: `${face.id}-d2-${loc}-worstchrome`, tag: 'worst' },
+      { locale: loc, strings: FI4_CHROME, pageSize: 'a4', baseName: `${face.id}-d2-${loc}-fi4title`, tag: 'fi4' },
+      { locale: loc, strings: COMBO_CHROME, pageSize: 'a4', baseName: `${face.id}-d2-${loc}-combo677`, tag: 'combo' },
+    ];
+    if (face.mode === 'match') jobs.push({ locale: loc, strings: ONE_LINE_CHROME, pageSize: 'a4', baseName: `${face.id}-d2-${loc}-oneline`, tag: 'oneline' });
+    for (let sd = 2; sd <= seeds; sd++) jobs.push({ locale: loc, seedEpoch: sd, baseName: `${face.id}-d2-${loc}-seed${sd}`, tag: 'seed' });
+    const pages = new Map(), seen = new Set(), holeClasses = new Set(), positions = new Set(), triSets = new Set();
+    for (const job of jobs) {
+      job.mode = face.mode; job.difficulty = 2;
+      let r;
+      try { r = await faceRenderCheck(page, ft, null, job); } catch (e) { r = { thrown: e.message }; }
+      note(!r.thrown, `${job.baseName}: threw ${r.thrown}`);
+      if (r.thrown) { console.log(`[E] ${job.baseName}: THREW ${r.thrown}`); continue; }
+      addAssertions(30);
+      note(r.fails.length === 0, `${job.baseName}: ${r.fails.join(' | ')}`);
+      const m = r.m;
+      const key = face.mode === 'match' ? m.rows.map((x) => x.key + ':' + x.t0 + ':' + x.candidates.map((c) => c.t).join('.')).join('+') : m.figures.map((g) => g.key + ':' + g.transform + (g.missing ? ':' + g.missing : '')).join('+');
+      if (job.tag === 'seed' || job.tag === 'level') pages.set(key, (pages.get(key) || 0) + 1);
+      for (const g of m.figures) { seen.add(g.key); if (g.missing) holeClasses.add(g.missing); }
+      for (const row of m.rows || []) { const ci = row.candidates.findIndex((c) => c.correct); if (ci >= 0) positions.add(ci); }
+      if (face.mode === 'count') triSets.add(m.figures.map((g) => { const src = B.SUBS[g.key] || []; return src.filter((t) => 'LMS'.includes(TG.clsOf(t.id))).length; }).sort().join(''));
+      if (job.tag !== 'seed') console.log(`[E] ${job.baseName}: body ${r.body} (${r.titleLines}-line title, ${r.insLines}-line instruction)${r.slack != null ? ', slack under the stage ' + Math.round(r.slack) : ''} ${r.fails.length ? 'FAIL ' + r.fails.join(' | ') : 'ok'}`);
+    }
+    const nSeeds = seeds; // level + seeds 2..N
+    note(pages.size >= Math.ceil(nSeeds / 2), `${face.id} sweep: only ${pages.size} distinct pages over ${nSeeds} seeds`);
+    const poolKeys = face.mode === 'compose' ? [...cfg.pool2, ...cfg.pool3] : cfg.pool;
+    const missed = poolKeys.filter((k) => !seen.has(k));
+    if (face.mode === 'missing') note(missed.join() === 'cat', `${face.id} sweep never drew [${missed.join(' ')}] (exactly \`cat\` is unreachable at 677: 196 > 188)`);
+    else note(missed.length === 0, `${face.id} sweep never drew ${missed.join(' ')}`);
+    if (face.mode === 'missing') note(holeClasses.size === 4, `${face.id} sweep: hole classes seen ${[...holeClasses].join(' ')} (all four expected)`);
+    if (face.mode === 'match') note(positions.size === 3, `${face.id} sweep: the correct candidate took positions ${[...positions].map((p) => p + 1).join(' ')} (all three expected)`);
+    if (face.mode === 'count') note(triSets.size >= 2, `${face.id} sweep: the triangle values were constant (${[...triSets].join(' | ')})`);
+    console.log(`[E] ${face.id} sweep over ${nSeeds} seeds: ${pages.size} distinct pages; drew ${[...seen].join('/')}${face.mode === 'missing' ? '; holes ' + [...holeClasses].join('') : ''}${face.mode === 'match' ? '; correct positions ' + [...positions].map((p) => p + 1).join('') : ''}${face.mode === 'count' ? '; triangle sets ' + [...triSets].join(' ') : ''}`);
+  }
+
+  // ---- the face poisons (en, d2; the correct face render is the control)
+  const facePoison = (name, faceId, post, want, job) => poisons.push({ name, run: async () => {
+    const ft = loadType(faceId);
+    const mode = FACES.find((f) => f.id === faceId).mode;
+    const r = await faceRenderCheck(page, ft, (job && job.inj) || null, { difficulty: 2, locale: loc, mode, strings: job && job.strings, pageSize: job && job.pageSize, seedEpoch: job && job.seedEpoch, baseName: `${faceId}-poison-` + name.replace(/[^a-z0-9]+/gi, '-').slice(0, 30).toLowerCase() }, post ? { post } : null);
+    return r.fails.some((x) => want.test(x)) ? null : 'silent (' + (r.fails[0] || 'no fault') + ')';
+  } });
+  const faceBuildPoison = (name, faceId, cfgEdit, want) => poisons.push({ name, run: async () => {
+    const ft = loadType(faceId);
+    const mode = FACES.find((f) => f.id === faceId).mode;
+    const cfg = clone(ft.difficulty[2]); cfgEdit(cfg);
+    try { await faceRenderCheck(page, ft, { cfg }, { difficulty: 2, locale: loc, mode, baseName: `${faceId}-poison-cfg-` + name.replace(/[^a-z0-9]+/gi, '-').slice(0, 24).toLowerCase() }); return 'silent (rendered)'; } catch (e) { return want.test(e.message) ? null : 'wrong error: ' + e.message; }
+  } });
+  const need = (re, h, what) => { const m = re.exec(h); if (!m) throw new Error('NEEDLE MATCHED NOTHING (' + what + ')'); return m; };
+  const svgOf = (h, openRe, what) => { const m = need(openRe, h, what); const start = m.index; const end = h.indexOf('</svg>', start); if (end < 0) throw new Error('NEEDLE MATCHED NOTHING (' + what + ' close)'); return { start, end: end + 6, open: m[0], text: h.slice(start, end + 6) }; };
+  const S3 = 128, S4 = 102;
+
+  // P5 square in the F4 pool → refuse
+  faceBuildPoison('P5 F4 pool with square', 'G2-347', (c) => { c.pool = ['square', 'tree', 'arrow', 'rectangle']; }, /square.*refused/);
+  // P6 an F4 distractor redrawn INSIDE the shadow's group: the rectangle row, one distractor → rot180 of the target
+  facePoison('P6 F4 rectangle distractor rot180 (inside its group)', 'G2-347', (h) => {
+    const row = need(/<div data-lcs-match-row data-lcs-figure="rectangle" data-lcs-transform="(\w+)"[^>]*>/, h, 'rectangle row');
+    const rowStart = row.index; const rowEnd = h.indexOf('<div data-lcs-match-row', rowStart + 10);
+    const seg = h.slice(rowStart, rowEnd < 0 ? undefined : rowEnd);
+    const cand = need(/<div data-lcs-candidate="(\d)" data-lcs-t="(\w+)" style/, seg, 'a distractor cell');   // the first NON-correct cell (correct carries data-lcs-correct before style)
+    const t0 = row[1];
+    const target = TG.transformTiling(B.FIGURES.rectangle, t0);
+    const drawn = TG.tangramFigure({ figure: 'rectangle', tans: TG.transformTiling(target, 'rot180'), S: S4, mode: 'solution', transform: 'rot180', stroke: 3, pad: 1.5 }).html;
+    const cellStart = cand.index; const svgStart = seg.indexOf('<svg', cellStart); const svgEnd = seg.indexOf('</svg>', svgStart) + 6;
+    const newSeg = seg.slice(0, cellStart) + cand[0].replace(`data-lcs-t="${cand[2]}"`, 'data-lcs-t="rot180"') + seg.slice(cellStart + cand[0].length, svgStart) + drawn + seg.slice(svgEnd);
+    return h.slice(0, rowStart) + newSeg + (rowEnd < 0 ? '' : h.slice(rowEnd));
+  }, /inside the (symmetry )?group|INSIDE the symmetry group/);
+  // P7 data-lcs-correct moved to a turned candidate
+  facePoison('P7 F4 data-lcs-correct on a turned candidate', 'G2-347', (h) => {
+    const c = need(/ data-lcs-t="(\w+)" data-lcs-correct="1"/, h, 'the correct cell');
+    let out = h.replace(c[0], ` data-lcs-t="${c[1]}"`);
+    const d = need(/<div data-lcs-candidate="(\d)" data-lcs-t="(rot90|rot270|rot180|mirX|mirY|mirD|mirA)" style/, out, 'a turned cell');
+    out = out.replace(d[0], d[0].replace(' style', ' data-lcs-correct="1" style'));
+    return out;
+  }, /correct candidate is stamped t|does not cast the shadow|correct candidate\(s\)/);
+  // R3 two correct candidates
+  facePoison('R3 F4 two data-lcs-correct on one row', 'G2-347', (h) => { const d = need(/<div data-lcs-candidate="(\d)" data-lcs-t="(?!id)(\w+)" style/, h, 'a distractor cell'); return h.replace(d[0], d[0].replace(' style', ' data-lcs-correct="1" style')); }, /2 correct candidates|correct candidate\(s\)/);
+  // P17 an F4 distractor redrawn as the OTHER figure (arrow for tree) in the pose that casts the SAME shadow
+  facePoison('P17 F4 decoy: arrow drawn in the pose that casts the tree shadow', 'G2-347', (h) => {
+    const row = need(/<div data-lcs-match-row data-lcs-figure="tree" data-lcs-transform="(\w+)"[^>]*>/, h, 'tree row');
+    const rowStart = row.index; const rowEnd = h.indexOf('<div data-lcs-match-row', rowStart + 10);
+    const seg = h.slice(rowStart, rowEnd < 0 ? undefined : rowEnd);
+    const cand = need(/<div data-lcs-candidate="(\d)" data-lcs-t="(\w+)" style/, seg, 'a distractor cell');
+    const target = TG.transformTiling(B.FIGURES.tree, row[1]);
+    const want = shapeKey5(target);
+    const tArrow = TG.TRANSFORM_NAMES.find((t) => shapeKey5(TG.transformTiling(B.FIGURES.arrow, t)) === want);
+    if (!tArrow) throw new Error('NEEDLE MATCHED NOTHING (arrow pose casting the tree shadow)');
+    const drawn = TG.tangramFigure({ figure: 'arrow', tans: TG.transformTiling(B.FIGURES.arrow, tArrow), S: S4, mode: 'solution', transform: cand[2], stroke: 3, pad: 1.5 }).html;
+    const cellStart = cand.index; const svgStart = seg.indexOf('<svg', cellStart); const svgEnd = seg.indexOf('</svg>', svgStart) + 6;
+    const newSeg = seg.slice(0, svgStart) + drawn + seg.slice(svgEnd);
+    return h.slice(0, rowStart) + newSeg + (rowEnd < 0 ? '' : h.slice(rowEnd));
+  }, /same shadow|casts the shadow|≠ transformTiling/);
+  // P8 an S / M hole whose other-size triangle chip becomes a Q
+  facePoison('P8 F3 a triangle hole without the other triangle size (chip swapped for Q)', 'G1-355', (h) => {
+    const fig = need(/<svg[^>]*data-lcs-mode="hole"[^>]*data-lcs-missing="(M|S)"[^>]*>/, h, 'an M or S hole');
+    const other = fig[1] === 'M' ? 'S' : 'M';
+    const after = h.slice(fig.index);
+    const chip = need(new RegExp(`<span class="ws-achip" data-lcs-chip="${other}"( data-lcs-flip="1")? style="width:104px;height:(\\d+)px;border-radius:14px">`), after, 'the other-size chip');
+    const chipStart = fig.index + chip.index; const svgStart = h.indexOf('<svg', chipStart); const svgEnd = h.indexOf('</svg>', svgStart) + 6;
+    const q = TG.tanChip('Q', S3).html;
+    const openNew = chip[0].replace(`data-lcs-chip="${other}"`, 'data-lcs-chip="Q"');
+    return h.slice(0, chipStart) + openNew + h.slice(chipStart + chip[0].length, svgStart) + q + h.slice(svgEnd);
+  }, /without the other triangle size/);
+  // P9 a P hole's correct chip in the other flip
+  facePoison('P9 F3 a P hole whose correct chip carries the other flip', 'G1-355', (h) => {
+    const fig = need(/<svg[^>]*data-lcs-mode="hole"[^>]*data-lcs-missing="P"[^>]*>/, h, 'a P hole');
+    const after = h.slice(fig.index);
+    const chip = need(/<span class="ws-achip" data-lcs-chip="P"( data-lcs-flip="1")? data-lcs-correct="1" style="width:104px;height:(\d+)px;border-radius:14px">/, after, 'the correct P chip');
+    const flipped = !chip[1];
+    const chipStart = fig.index + chip.index; const svgStart = h.indexOf('<svg', chipStart); const svgEnd = h.indexOf('</svg>', svgStart) + 6;
+    const openNew = flipped ? chip[0].replace('data-lcs-chip="P"', 'data-lcs-chip="P" data-lcs-flip="1"') : chip[0].replace(' data-lcs-flip="1"', '');
+    return h.slice(0, chipStart) + openNew + h.slice(chipStart + chip[0].length, svgStart) + TG.tanChip('P', S3, { flip: flipped }).html + h.slice(svgEnd);
+  }, /flip ≠ the hole|not congruent to the hole/);
+  // P10 the correct chip drawn at Sg 80
+  facePoison('P10 F3 a chip drawn at Sg 80 (not true-size)', 'G1-355', (h) => {
+    const chip = need(/<span class="ws-achip" data-lcs-chip="(M|S|Q)" data-lcs-correct="1" style="width:104px;height:(\d+)px;border-radius:14px">/, h, 'a correct M/S/Q chip');
+    const svgStart = h.indexOf('<svg', chip.index); const svgEnd = h.indexOf('</svg>', svgStart) + 6;
+    return h.slice(0, svgStart) + TG.tanChip(chip[1], 80).html + h.slice(svgEnd);
+  }, /drawn at 80|not true-size|edges .* ≠ true-size/);
+  // P19 an M chip in the UPRIGHT pose (hyp vertical, 91 tall): the column overflows the 677 card inner
+  facePoison('P19 F3 an M chip in the upright pose under the 677 chrome', 'G1-355', (h) => {
+    const chip = need(/<span class="ws-achip" data-lcs-chip="M"( data-lcs-correct="1")? style="width:104px;height:(\d+)px;border-radius:14px">/, h, 'an M chip');
+    const svgStart = h.indexOf('<svg', chip.index); const svgEnd = h.indexOf('</svg>', svgStart) + 6;
+    const pts = TG.canonicalPose('M', S3).map(([x, y]) => [y + 2, x + 2]);
+    const w = Math.ceil(Math.max(...pts.map((p) => p[0])) + 2), ht = Math.ceil(Math.max(...pts.map((p) => p[1])) + 2);
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${ht}" viewBox="0 0 ${w} ${ht}" data-lcs-prim="tangram-chip" data-lcs-chip="M" data-lcs-scale="${S3}" style="display:block;flex:0 0 auto"><polygon points="${pts.map((p) => p.map((v) => Math.round(v * 100) / 100).join(',')).join(' ')}" fill="#FBF3E4" stroke="#146B5E" stroke-width="2" stroke-linejoin="round" data-lcs-pose="M"/></svg>`;
+    const openNew = chip[0].replace(`height:${chip[2]}px`, `height:${ht + 8}px`);
+    return h.slice(0, chip.index) + openNew + h.slice(chip.index + chip[0].length, svgStart) + svg + h.slice(svgEnd);
+  }, /chip column .* > the card inner|outside its container|overflow|footer/, { strings: COMBO_CHROME, pageSize: 'a4' });
+  // P15 a data-lcs-tan polygon inside an F1 outline
+  facePoison('P15 F1 an outline carrying a data-lcs-tan polygon', 'K-358', (h) => { const o = svgOf(h, /<svg[^>]*data-lcs-mode="outline"[^>]*>/, 'an outline'); const inner = o.text.replace('</svg>', '<polygon points="10,10 60,10 35,35" fill="#FBF3E4" stroke="#146B5E" stroke-width="2" data-lcs-tan="S1" data-lcs-class="S"/></svg>'); return h.slice(0, o.start) + inner + h.slice(o.end); }, /data-lcs-tan polygons on an outline|carries 1 tan polygons/);
+  // P18 F2 cards at padding 12 (the tree / the square-bbox shadows overflow a 302 inner)
+  facePoison('P18 F2 cards at padding 12', 'G1-354', (h) => { if (!/style="padding:6px"/.test(h)) throw new Error('NEEDLE MATCHED NOTHING (padding 6)'); return h.replace(/style="padding:6px"/g, 'style="padding:12px"'); }, /outside its container|padding 12 ≠ cfg 6/, { strings: COMBO_CHROME, pageSize: 'a4' });
+  // P14 S 150 on a K face
+  faceBuildPoison('P14 F1 at S 150 (small edge 53 < 56)', 'K-358', (c) => { c.S = 150; }, /K floor/);
+  faceBuildPoison('P14b F5 at S 150', 'K-359', (c) => { c.S = 150; }, /K floor/);
+  faceBuildPoison('F3 at S 120 (43 < the G1 floor 44)', 'G1-355', (c) => { c.S = 120; }, /G1 floor/);
+  faceBuildPoison('F4 at S 100 (35 < the G2 floor 36)', 'G2-347', (c) => { c.S = 100; }, /G2 floor/);
+  // P11 an F5 pool whose triangle counts take two values → the page rule refuses
+  faceBuildPoison('P11 F5 pool with two triangle values only', 'K-359', (c) => { c.pool = ['rabbit-body', 'arrow-head-q', 'cat-head', 'trap-q-2s']; }, /page rule/);
+  faceBuildPoison('F5 boxes with a third box', 'K-359', (c) => { c.boxes = ['triangles', 'squares', 'pieces']; }, /draws exactly/);
+  faceBuildPoison('F1 mix 0+4 (pool3 holds 3)', 'K-358', (c) => { c.mix = [0, 4]; }, /needs 0 two-tan \/ 4 three-tan/);
+  faceBuildPoison('F1 items 5 in a 2 x 2 grid', 'K-358', (c) => { c.items = 5; }, /items 5 !== cols x rows/);
+  faceBuildPoison('F3 with an L hole', 'G1-355', (c) => { c.holes = ['L', 'M', 'S', 'Q']; }, /L chip/);
+  faceBuildPoison('F4 root pad 2.5 (the cat at 158.0 does not clear the 158 box inner — build record open item 1)', 'G2-347', (c) => { c.pad = 2.5; }, /config lies about its pool/);
+  faceBuildPoison('SPARSE F4 rows 3 (stack 504 < 660)', 'G2-347', (c) => { c.rows = 3; }, /sparse/);
+  faceBuildPoison('F2 rowH 300 (boat / cat fit neither row)', 'G1-354', (c) => { c.rowH = 300; }, /config lies about its pool/);
+  faceBuildPoison('F2 pool without boat / cat (tree ≡ arrow: three shapes for four cards)', 'G1-354', (c) => { c.pool = ['tree', 'arrow', 'rectangle', 'square']; }, /distinct shapes < 4/);
+  // SPARSE render poisons
+  facePoison('SPARSE F4 the stage centred (not top-anchored)', 'G2-347', (h) => { if (!/justify-content:flex-start;align-items:center/.test(h)) throw new Error('NEEDLE MATCHED NOTHING (flex-start)'); return h.replace('justify-content:flex-start;align-items:center', 'justify-content:center;align-items:center'); }, /not top-anchored/);
+  facePoison('SPARSE F1 the grid pinned to 500 px (blank paper under the stage)', 'K-358', (h) => { if (!/<div class="ws-cardgrid" style="/.test(h)) throw new Error('NEEDLE MATCHED NOTHING (grid)'); return h.replace('<div class="ws-cardgrid" style="', '<div class="ws-cardgrid" style="flex:0 0 auto;height:500px;'); }, /blank paper under the (stage|grid)/);
+  facePoison('SPARSE F5 the grid pinned to 500 px', 'K-359', (h) => { if (!/<div class="ws-cardgrid" style="/.test(h)) throw new Error('NEEDLE MATCHED NOTHING (grid)'); return h.replace('<div class="ws-cardgrid" style="', '<div class="ws-cardgrid" style="flex:0 0 auto;height:500px;'); }, /blank paper under the (stage|grid)/);
+  // SPARSE F5: a narrow set re-drawn in its FLAT pose (rabbit-head 165 x 86 instead of 86 x 165)
+  facePoison('SPARSE F5 a narrow set drawn in the flat pose', 'K-359', (h) => {
+    const o = svgOf(h, /<svg[^>]*data-lcs-figure="(rabbit-head|kite-l-q-s|arrow-head-q)" data-lcs-mode="solution"[^>]*>/, 'a narrow set');
+    const key = /data-lcs-figure="([a-z0-9-]+)"/.exec(o.open)[1];
+    const t = /data-lcs-transform="(\w+)"/.exec(o.open)[1];
+    const src = B.SUBS[key];
+    const flat = TG.TRANSFORM_NAMES.find((u) => { const d = drawnSize(TG.transformTiling(src, u), 160, 2.5); const cur = drawnSize(TG.transformTiling(src, t), 160, 2.5); return d.h < cur.h - 20; });
+    if (!flat) throw new Error('NEEDLE MATCHED NOTHING (a flatter pose)');
+    const drawn = TG.tangramFigure({ figure: key, tans: TG.transformTiling(src, flat), S: 160, mode: 'solution', transform: flat, data: { 'data-lcs-sub': key } }).html;
+    return h.slice(0, o.start) + drawn + h.slice(o.end);
+  }, /flat pose/, { seedEpoch: 1 });
+  // answers: an F5 box stamped one too many; an F3 hole stamped with the wrong class
+  facePoison('F5 a box stamped one too many', 'K-359', (h) => { const b = need(/data-lcs-answer="(\d)"/, h, 'an answer box'); return h.replace(b[0], `data-lcs-answer="${+b[1] + 1}"`); }, /stamps .* the set holds|box 1 stamps/);
+  facePoison('F3 a hole stamped with the wrong class', 'G1-355', (h) => { const m = need(/data-lcs-missing="(M|S)"/, h, 'a hole stamp'); return h.replace(m[0], `data-lcs-missing="${m[1] === 'M' ? 'S' : 'M'}"`); }, /missing stamp|not of the stamped class|correct chip/);
+  // R1 a face row equal to the base's d2 config → the distinctness check rejects
+  poisons.push({ name: 'R1 a face row equal to the base d2 config (the distinctness check rejects)', run: async () => { const fake = { ...loadType('K-359'), difficulty: { 1: base.difficulty[2], 2: base.difficulty[2], 3: base.difficulty[2] } }; return distinctFromBase(fake, base) ? 'silent (the base config passed as a face)' : null; } });
+  poisons.push({ name: 'a face i18n.en title drifting from data/b4/tangram.js (two sources)', run: async () => { const ft = loadType('K-359'); const drift = { ...ft, i18n: { en: { title: 'Tangram Puzzles: Count the Pieces', instruction: ft.i18n.en.instruction } } }; return oneSource(drift, en, 'count') ? 'silent' : null; } });
+}
+
 async function main() {
   const locales = arg('locales', 'en').split(',');
   const seeds = +arg('seeds', QUICK ? 12 : 20);
@@ -397,7 +839,7 @@ async function main() {
     buildPoison('config pool with an unknown key', () => renderCheck(page, type, { cfg: { ...cfg2, pool: ['tree', 'dragon'] } }, { difficulty: 2, locale: loc, baseName: `${ID}-poison-dragon` }), /unknown figure/);
     buildPoison('config pool with triangle (437 wide: does not fit two-up at 216)', () => renderCheck(page, type, { cfg: { ...cfg2, pool: ['tree', 'triangle'] } }, { difficulty: 2, locale: loc, baseName: `${ID}-poison-triangle` }), /do not fit|only \d of the pool/);
     buildPoison("config mode 'zzz'", () => renderCheck(page, type, { cfg: { ...cfg2, mode: 'zzz' } }, { difficulty: 2, locale: loc, baseName: `${ID}-poison-mode` }), /unknown mode/);
-    buildPoison("config mode 'compose' (a Phase-2 face on the base)", () => renderCheck(page, type, { cfg: { ...cfg2, mode: 'compose' } }, { difficulty: 2, locale: loc, baseName: `${ID}-poison-compose` }), /Phase-2 face/);
+    buildPoison("config mode 'compose' on the base's own config (no face keys: refuse, never a silent base render)", () => renderCheck(page, type, { cfg: { ...cfg2, mode: 'compose' } }, { difficulty: 2, locale: loc, baseName: `${ID}-poison-compose` }), /compose: (cols|rows|items|mix)/);
     buildPoison('locale xx (no strings block)', () => renderCheck(page, type, null, { difficulty: 2, locale: 'xx', baseName: `${ID}-poison-xx` }), /no xx block/);
     buildPoison('a block without strings', () => renderCheck(page, type, { bank: { exclude: [] } }, { difficulty: 2, locale: loc, baseName: `${ID}-poison-nostrings` }), /carries no strings/);
     const en = strings.en;
@@ -415,6 +857,9 @@ async function main() {
     stringsPoison('a visible free claim', (() => { const b = clone(en); b.strings.compose.instruction = 'Free printable tangram: draw the lines inside each shape.'; return b; })(), 'en', /free/);
     stringsPoison('a face mode key missing', (() => { const b = clone(en); delete b.strings.match; return b; })(), 'en', /strings.match missing/);
     stringsPoison('a "printable" title', (() => { const b = clone(en); b.strings.silhouette.title = 'Printable Tangram Puzzles: Four Shadows to Build'; return b; })(), 'en', /printable/);
+
+    // ---- E. the five faces (Phase 2): renders at every chrome + the gate's OWN audit + sweeps + the design's face poisons
+    await faceSection({ page, base: type, B, strings, note, failures, seeds, poisons, htmlFacePoison: null, addAssertions: (n) => { assertions += n; } });
 
     let killed = 0;
     for (const p of poisons) {

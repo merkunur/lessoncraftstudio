@@ -48,7 +48,10 @@ const TAXONOMY_TS = path.join(FRONTEND, 'lib', 'taxonomy.ts');
 const LANDING_DIR = path.join(FRONTEND, 'content', 'seo-landing');
 const TAXONOMY_JSON = path.join(FRONTEND, 'config', 'topics-taxonomy.json');
 const FORMATS_TS = path.join(FRONTEND, 'config', 'interactive-exercise-types.ts');
-const EXPECT = path.join(REPO, 'docs', 'worksheet-gen', 'b3-designs', 'hub-expectations.json');
+// --expect=<file> selects another batch's expectation matrix (nt10-D: docs/worksheet-gen/b4-designs/hub-expectations.json);
+// the default stays the nt20-C file so the existing deploy.sh call is unchanged (a second call gates b4).
+const EXPECT_ARG = process.argv.find((a) => a.startsWith('--expect='));
+const EXPECT = EXPECT_ARG ? path.resolve(REPO, EXPECT_ARG.slice('--expect='.length)) : path.join(REPO, 'docs', 'worksheet-gen', 'b3-designs', 'hub-expectations.json');
 
 const ALL_LOCALES = ['en', 'de', 'es', 'pt', 'fr', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
 // per-locale band keys (the LEVEL_KEYS map of scripts/seo-landing/gen-b2var-landings.js, + the sub-K key the corpus uses)

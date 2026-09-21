@@ -315,6 +315,8 @@ node /opt/lessoncraftstudio/scripts/verify-letter-strokes.js || { echo "ERROR: t
 # nt20-C landings are committed (then dropped: CLAUDE.md §25).
 echo "🔎 Worksheets hub type-row check..."
 node /opt/lessoncraftstudio/scripts/verify-hub-type-rows.js || { echo "ERROR: a printable family is missing or mis-counted on /worksheets — see docs/worksheet-gen/b3-designs/hub-expectations.json + scripts/verify-hub-type-rows.js"; exit 1; }
+# nt10-D (b4): the same gate over the b4 matrix; --warn-missing-keys until the b4 landings are committed (then dropped: CLAUDE.md §26).
+node /opt/lessoncraftstudio/scripts/verify-hub-type-rows.js --expect=docs/worksheet-gen/b4-designs/hub-expectations.json --warn-missing-keys || { echo "ERROR: an nt10-D family is missing or mis-counted on /worksheets — see docs/worksheet-gen/b4-designs/hub-expectations.json"; exit 1; }
 
 # Guard: a `font:` shorthand with an UNQUOTED family whose identifier starts with a
 # digit — `Baloo 2` — is INVALID CSS, and an invalid component invalidates the WHOLE

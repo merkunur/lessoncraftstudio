@@ -823,6 +823,26 @@
     "title": "Rhyme or Not?",
     "instruction": "Say both pictures out loud. If the two words rhyme, circle the tick. If they do not rhyme, circle the cross."
   },
+  "K-353": {
+    "title": "Tangram Puzzles: Cut Out the Pieces and Build Two Figures",
+    "instruction": "Color each piece like the legend, cut out the seven pieces along the lines, then lay them on the two figures below, line for line."
+  },
+  "K-354": {
+    "title": "Parts of the Body",
+    "instruction": "Copy each word from the bank onto the line that points to that part of the body."
+  },
+  "K-355": {
+    "title": "Five Senses",
+    "instruction": "Draw a line from each picture to the body part you use for it."
+  },
+  "K-356": {
+    "title": "Weather Symbols",
+    "instruction": "Draw a line from each weather symbol to its word."
+  },
+  "K-357": {
+    "title": "Recycling Sort",
+    "instruction": "Each thing is empty or finished. Draw a line from it to the bin it goes in."
+  },
   "G1-101": {
     "title": "Add the Pictures",
     "instruction": "Count both groups. Write how many altogether."
@@ -1567,6 +1587,22 @@
     "title": "Picture Clue Logic Puzzles: Cross Out and Find",
     "instruction": "A crossed-out picture means the child does not have it, a ringed one means the child has it. Cross out on the grid, then circle each answer."
   },
+  "G1-350": {
+    "title": "Fill in the Blank Sentences",
+    "instruction": "Look at the picture. Find the word that fits the sentence in the word bank and write it in the box."
+  },
+  "G1-351": {
+    "title": "Odd and Even Numbers: Odd House, Even House",
+    "instruction": "Write each number in the house where it belongs, the odd house or the even house. Three numbers have moved in already and show their pairs."
+  },
+  "G1-352": {
+    "title": "Personal Pronouns",
+    "instruction": "Look at the person and read the name. Circle the word we use instead of the name."
+  },
+  "G1-353": {
+    "title": "Question Words: Who, What, Where",
+    "instruction": "Read the sentence. Look at the highlighted words. Circle the question word that asks for them."
+  },
   "G2-203": {
     "title": "Add the Blocks",
     "instruction": "Add the two block groups. Write the total."
@@ -2098,6 +2134,10 @@
   "G2-345": {
     "title": "Read the Logic Grid: True or False",
     "instruction": "The grid is already solved. Read it, then circle the tick if the sentence is true or the cross if it is false."
+  },
+  "G2-346": {
+    "title": "Rounding to the Nearest 10",
+    "instruction": "Round each number to the nearest ten and write it in the box. If the ones digit is 5 or more, round up."
   },
   "G3-301": {
     "title": "Big Arrays",

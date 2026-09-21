@@ -1,0 +1,43 @@
+{
+  "_comment": "K-356 `weather-symbols` GLOBAL data (design docs/worksheet-gen/b4-designs/K-356-weather.md §5 `WEATHER_SYMBOLS`; every picture OPENED 2026-09-21 on a 160 px colour + 56 px greyscale contact sheet, scratch K-356-sheet.png). Locale-neutral: the six fixed concept pictures, the gear triple (F3 only), the F3 band table, the water-cycle stage keys, the diary / forecast day indices and the adjective ban. Nothing here is a word a child reads; the locale literals live in data/b4/weather-symbols.js (en) + data/b4/locales/weather-symbols.<loc>.json (generated). Read through the spec / gate only; never edited by a panel.",
+  "symbols": [
+    { "key": "sun",     "theme": "weather", "noun": "sunny",        "alt": ["sun"],      "picOpened": true, "opened": "yellow disc, twelve thick orange bar rays, smiling face; the bar rays stay a step darker than the disc at 56 px greyscale (sun's tapered rays fade)" },
+    { "key": "cloud",   "theme": "weather", "noun": "cloudy",       "alt": ["cloud"],    "picOpened": true, "opened": "two overlapping blue-grey + cream clouds, no face; two-tone grey in mono (cloud is one pink smiling cloud, a faint blob in mono)" },
+    { "key": "rain",    "theme": "weather", "noun": "rainy",        "alt": ["raindrop"], "picOpened": true, "opened": "pale-to-navy cloud with ~30 dark drops; the drops are the darkest marks on the sheet (raindrop = one blue drop, reads water)" },
+    { "key": "storm",   "theme": "weather", "noun": "thunderstorm", "alt": ["stormy"],   "picOpened": true, "opened": "navy cloud with a red-and-yellow bolt; the strongest symbol in mono (stormy = a RED cloud with rain + bolt, the red misreads)" },
+    { "key": "snow",    "theme": "weather", "noun": "snowflake",    "alt": [],           "picOpened": true, "opened": "pale blue six-arm flake with a dark outline; the palest symbol, the outline keeps the star; the teal badge ring and white fill save it" },
+    { "key": "rainbow", "theme": "weather", "noun": "rainbow",      "alt": [],           "picOpened": true, "opened": "five bands over two pink clouds; a graded arch in mono" }
+  ],
+  "excluded": ["hot", "cold", "mittens", "umbrella", "raincoat", "puddle", "thermometer", "partly_cloudy", "rain_boots"],
+  "excludedWhy": {
+    "hot": "a third smiling sun with spiky red tips = the K-211 hot register, a duplicate symbol",
+    "cold": "a penguin in a hat",
+    "mittens": "K-211 + K-207 item (both fences)",
+    "umbrella": "rain gear, not warmth (K-207 fence)",
+    "raincoat": "rain gear, not warmth",
+    "puddle": "a pond in grass",
+    "thermometer": "the primitive draws it",
+    "partly_cloudy": "no vocab entry",
+    "rain_boots": "no vocab entry"
+  },
+  "gear": [
+    { "key": "scarf",      "theme": "weather",  "noun": "scarf",      "band": "cold", "picOpened": true, "opened": "a red patterned scarf; mid-dark, unmistakable" },
+    { "key": "t-shirt",    "theme": "clothing", "noun": "t-shirt",    "band": "warm", "picOpened": true, "opened": "a plain green T-shirt with a pocket" },
+    { "key": "sunglasses", "theme": "weather",  "noun": "sunglasses", "band": "hot",  "picOpened": true, "opened": "red sunglasses; thin but legible at 56 px mono" }
+  ],
+  "gearNever": ["mittens", "umbrella", "raincoat", "hot", "cold", "sun", "sunny", "snowflake"],
+  "bands": {
+    "order": ["cold", "warm", "hot"],
+    "min": -10, "max": 40, "step": 5, "edges": [10, 25],
+    "values": { "cold": [-10, -5, 0, 5], "warm": [15, 20], "hot": [30, 35] },
+    "keyValues": { "cold": 0, "warm": 17.5, "hot": 32.5 },
+    "tints": { "cold": "tealSoft", "warm": "white", "hot": "coralSoft" }
+  },
+  "cycle": ["evaporation", "condensation", "precipitation", "collection"],
+  "cycleExtra": ["runoff"],
+  "neverPrint": ["sunny", "rainy", "cloudy", "stormy"],
+  "vocabNounNever": ["raindrop", "snowflake", "thunderstorm"],
+  "vocabNounExempt": ["sun", "cloud", "rainbow"],
+  "diary": { "days": 7, "start": "mon" },
+  "forecast": { "days": [1, 2, 3, 4, 5] }
+}

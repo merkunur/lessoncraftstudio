@@ -83,7 +83,7 @@ Rows = faces with a landing per (key × locale) at design time; "contingent" = l
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | tangram | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | (to be confirmed by the final file) |
 | human-body | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | CONFIRMED (final 2026-09-21): no face refused; per-WORD refusals only (fr `eye` on F3, es/pt/it `toe` on F3); contingency fr `œ` glyph check |
-| five-senses | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | (to be confirmed) |
+| five-senses | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | CONFIRMED (final 2026-09-21): no face refused; the de/fr/es/pt/it "I can …" starter frame rewritten (bare present) not refused; 45-item bank (38 strong + 7 signed) |
 | weather | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | (to be confirmed) |
 | recycling | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | (to be confirmed) |
 | cloze | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | (to be confirmed) |

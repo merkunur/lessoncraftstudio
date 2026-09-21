@@ -40,8 +40,15 @@
  *                data-lcs-pairs / -distractors / -icon-px / -word-px (+
  *                `stamps`) on the root; tiles data-lcs-tile data-lcs-word
  *                data-lcs-concept.
- *   spellRow({concept, src, word, box = 44, gap = 4, badge = 72, iconPx = 56})
- *                F1: [badge][12][letter boxes per hyphen-separated GROUP
+ *   spellBox({words, room, boxMin = 44, boxMax = 60, gap = 4, hyphenW = 30})
+ *                F1: the letter-box size for a LOCALE: the largest box in
+ *                boxMin..boxMax at which every bank word (letters + printed
+ *                hyphens) fits `room` (the lane inner minus badge + gap); null
+ *                when even boxMin does not fit (refuse). en (7 letters) -> 60,
+ *                fi `sateenkaari` (11) -> 46, fr `arc-en-ciel` -> 51.
+ *   spellRow({concept, src, word, box = 44, gap = 4, badge = 72, iconPx = 56, lanePad = 6})
+ *                F1: a `.ws-lane` card (padding lanePad 16; 88 px min at badge
+ *                72) that OWNS its band: [badge][12][letter boxes per hyphen-separated GROUP
  *                joined by a printed hyphen glyph Baloo 2 700 22 ink, 14
  *                wide, 8 px each side]. Boxes = components-b2 letterBoxes
  *                ({n, box, gap}); the word is NEVER printed. Stamps
@@ -145,21 +152,33 @@ function symbolMatch({ left, right, badge = 96, iconPx = 72, tileW = 250, tileH 
 }
 
 /* ---------------------------------------------------------------- F1 write */
-function spellRow({ concept, src, word, box = 44, gap = 4, badge = 72, iconPx = 56 }) {
+/** The letter-box size for a locale: the widest bank word (letters + printed hyphens) must fit `room` at the largest box in boxMin..boxMax; a word that does not fit at boxMin returns null (refuse). */
+function spellBox({ words, room, boxMin = 44, boxMax = 60, gap = 4, hyphenW = 30 }) {
+  let box = boxMax;
+  for (const w of words) {
+    const groups = String(w).split('-');
+    const n = groups.reduce((a, g) => a + [...g].length, 0);
+    const fixed = (groups.length - 1) * hyphenW + (n - 1) * gap + 2;
+    const fit = Math.floor((room - fixed) / n);
+    box = Math.min(box, fit);
+  }
+  return box >= boxMin ? box : null;
+}
+function spellRow({ concept, src, word, box = 44, gap = 4, badge = 72, iconPx = 56, lanePad = 6 }) {
   if (typeof word !== 'string' || !word.trim()) throw new Error('spellRow: no word');
   const groups = word.split('-');
   if (groups.some((g) => ![...g].length)) throw new Error(`spellRow: "${word}" has an empty hyphen group`);
   const len = groups.reduce((n, g) => n + [...g].length, 0);
   const hyphen = `<span style="display:inline-flex;align-items:center;justify-content:center;width:14px;margin:0 8px;font-family:${F.display},cursive;font-weight:700;font-size:22px;color:${T.ink}" data-lcs-hyphen>-</span>`;
   const boxes = groups.map((g) => `<span style="display:inline-block;line-height:0">${letterBoxes({ n: [...g].length, box, gap })}</span>`).join(hyphen);
-  return `<div data-lcs-spell="${esc(concept)}" data-lcs-len="${len}" data-lcs-groups="${groups.map((g) => [...g].length).join('-')}" ` +
-    `style="display:flex;align-items:center;gap:12px;min-height:${badge + 4}px">` +
+  return `<div class="ws-lane" data-lcs-spell="${esc(concept)}" data-lcs-len="${len}" data-lcs-groups="${groups.map((g) => [...g].length).join('-')}" data-lcs-box="${box}" ` +
+    `style="display:flex;align-items:center;gap:12px;padding:${lanePad}px 16px;min-height:0">` +
     symbolBadge({ concept, src, d: badge, iconPx }) +
     `<span style="display:inline-flex;align-items:center">${boxes}</span></div>`;
 }
 
 /* ---------------------------------------------------------------- F2 diary */
-function diaryWeek({ days, key, cellW = 160, minRow = 326, legendPx = 56, box = 'rect', gapX = 11, gapY = 12 }) {
+function diaryWeek({ days, key, cellW = 160, minRow = 326, legendPx = 56, box = 'rect', gapX = 11, gapY = 12, stamps }) {
   if (!Array.isArray(days) || days.length !== 7) throw new Error('diaryWeek: needs 7 days');
   if (!Array.isArray(key) || !key.length) throw new Error('diaryWeek: needs a key');
   const cells = days.map((d) =>
@@ -173,7 +192,7 @@ function diaryWeek({ days, key, cellW = 160, minRow = 326, legendPx = 56, box = 
     `<div style="display:grid;grid-template-columns:repeat(2,${legendPx}px);gap:12px">` +
     key.map((k) => `<span data-lcs-symbol="${esc(k.concept)}" style="display:inline-flex;width:${legendPx}px;height:${legendPx}px;align-items:center;justify-content:center">${icon(k.src, legendPx)}</span>`).join('') +
     `</div></div>`;
-  return `<div class="ws-diary" data-ws-content data-lcs-weather-symbols data-lcs-layout="diary" data-lcs-days="7" data-lcs-box="${esc(box)}" ` +
+  return `<div class="ws-diary" data-ws-content data-lcs-weather-symbols data-lcs-layout="diary" data-lcs-days="7" data-lcs-box="${esc(box)}"${stampAttrs(stamps)} ` +
     `style="flex:1 1 auto;display:grid;grid-template-columns:repeat(4,${cellW}px);grid-template-rows:repeat(2,minmax(${minRow}px,1fr));gap:${gapY}px ${gapX}px;justify-content:center;min-height:0">` +
     cells + legend + `</div>`;
 }
@@ -187,14 +206,14 @@ function bandKey({ bands, thermH = 120, iconPx = 56, therm }) {
     therm(b.value, thermH).svg + icon(b.src, iconPx) + `</span>`).join('');
   return `<div class="ws-lane" data-lcs-key style="display:flex;justify-content:space-evenly;align-items:center;padding:12px 16px">${cells}</div>`;
 }
-function bandThermo({ n, value, chips, thermH = 220, chip = 64, iconPx = 56, therm, chipsBelow = false }) {
+function bandThermo({ n, value, band, chips, thermH = 220, chip = 64, iconPx = 56, therm, chipsBelow = false }) {
   if (typeof therm !== 'function') throw new Error('bandThermo: therm(value, h) is required');
   if (!Array.isArray(chips) || chips.length < 2) throw new Error('bandThermo: needs >= 2 chips');
   if (chips.filter((c) => c.correct).length !== 1) throw new Error('bandThermo: exactly one chip is correct');
   const chipHtml = chips.map((c) =>
     `<span data-lcs-chip="${esc(c.key)}"${c.correct ? ' data-lcs-correct="1"' : ''} style="display:inline-flex;align-items:center;justify-content:center;width:${chip}px;height:${chip}px;background:${T.white};border:2px solid ${T.creamDeep};border-radius:12px">${icon(c.src, iconPx)}</span>`).join('');
   const column = `<span style="display:${chipsBelow ? 'inline-flex' : 'inline-flex'};flex-direction:${chipsBelow ? 'row' : 'column'};gap:8px">${chipHtml}</span>`;
-  return `<div class="ws-card-stage" data-lcs-thermo data-lcs-n="${n}" data-lcs-value="${value}" style="display:flex;flex-direction:${chipsBelow ? 'column' : 'row'};align-items:center;justify-content:center;gap:${chipsBelow ? 8 : 12}px">` +
+  return `<div class="ws-card-stage" data-lcs-thermo data-lcs-n="${n}" data-lcs-value="${value}"${band ? ` data-lcs-band-of="${esc(band)}"` : ''} style="display:flex;flex-direction:${chipsBelow ? 'column' : 'row'};align-items:center;justify-content:center;gap:${chipsBelow ? 8 : 12}px;padding:0 4px">` +
     `<span data-lcs-thermo-box style="display:inline-block;line-height:0">${therm(value, thermH).svg}</span>` + column + `</div>`;
 }
 
@@ -207,16 +226,19 @@ function forecastStrip({ days, iconPx = 88, cellW = 123, gap = 15 }) {
     icon(d.src, iconPx) + `</span>`).join('');
   return `<div data-lcs-strip style="display:flex;justify-content:center;gap:${gap}px;padding:10px 0 8px;background:${T.white};border:3px solid ${T.teal};border-radius:16px">${cells}</div>`;
 }
-function forecastQuestion({ n, text, chips, askBy = 'word', src, concept, iconPx = 64, chipH = 44, chipPx = 16 }) {
+function forecastQuestion({ n, text, chips, askBy = 'word', src, concept, iconPx = 64, chipH = 44, chipMax = 64, chipPx = 16 }) {
+  if (!(chipMax >= chipH)) throw new Error(`forecastQuestion: chipMax ${chipMax} < chipH ${chipH}`);
   if (!Array.isArray(chips) || chips.length !== 5) throw new Error('forecastQuestion: needs 5 day chips');
   if (chips.filter((c) => c.correct).length !== 1) throw new Error('forecastQuestion: exactly one chip is correct');
   const ask = askBy === 'symbol'
     ? symbolBadge({ concept, src, d: iconPx, iconPx: iconPx - 16 })
     : `<span data-lcs-q-text style="font-family:${F.body},sans-serif;font-weight:800;font-size:18px;line-height:26px;color:${T.ink};white-space:nowrap">${esc(text)}</span>`;
   const pills = chips.map((c) =>
-    `<span class="ws-pill" data-lcs-dchip="${c.index}"${c.correct ? ' data-lcs-correct="1"' : ''} style="font-size:${chipPx}px;padding:6px 10px;min-width:44px;min-height:${chipH}px;white-space:nowrap">${esc(c.label)}</span>`).join('');
-  return `<div class="ws-lane" data-lcs-q data-lcs-n="${n}" data-lcs-concept="${esc(concept)}" data-lcs-ask-by="${esc(askBy)}" style="display:flex;flex-direction:column;gap:8px;min-height:0">` +
-    ask + `<span data-lcs-dchips style="display:flex;gap:8px;flex-wrap:nowrap">${pills}</span></div>`;
+    `<span class="ws-pill" data-lcs-dchip="${c.index}"${c.correct ? ' data-lcs-correct="1"' : ''} style="font-size:${chipPx}px;padding:6px 10px;min-width:44px;min-height:${chipH}px;align-self:stretch;white-space:nowrap">${esc(c.label)}</span>`).join('');
+  // a GRID lane: the ask row is auto, the pill track grows from chipH to chipMax with the lane (a short chrome gives
+  // taller pills to ring, never a blank band); align-content centres the two rows in the lane
+  return `<div class="ws-lane" data-lcs-q data-lcs-n="${n}" data-lcs-concept="${esc(concept)}" data-lcs-ask-by="${esc(askBy)}" style="display:grid;grid-template-rows:auto minmax(${chipH}px,${chipMax}px);align-content:center;gap:8px;min-height:0">` +
+    `<span style="display:flex;align-items:center">${ask}</span>` + `<span data-lcs-dchips style="display:flex;gap:8px;flex-wrap:nowrap;align-items:stretch">${pills}</span></div>`;
 }
 
 /* ---------------------------------------------------------------- F4 water cycle */
@@ -235,4 +257,4 @@ function cycleLabels({ lanes, laneW = 270, laneH = 52, glyphH = 26, perRow = 2, 
   return `<div data-lcs-labels style="display:flex;flex-direction:column;gap:8px">${rows.join('')}</div>`;
 }
 
-module.exports = { SYMBOL_KEYS, symbolBadge, symbolMatch, spellRow, diaryWeek, bandKey, bandThermo, forecastStrip, forecastQuestion, cycleLabels };
+module.exports = { SYMBOL_KEYS, symbolBadge, symbolMatch, spellBox, spellRow, diaryWeek, bandKey, bandThermo, forecastStrip, forecastQuestion, cycleLabels };

@@ -68,6 +68,22 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     no: 'Geometri',
     fi: 'Geometria',
   },
+  // nt10-D printable science families (human-body, five-senses, weather-symbols, recycling): the
+  // national primary-science subject name per locale, authored by the design finals' table B
+  // (docs/worksheet-gen/b4-designs/K-354..K-357); en is a readiness class (no CCSS code).
+  'Science': {
+    en: 'Science',
+    de: 'Sachunterricht',
+    es: 'Conocimiento del Medio',
+    fr: 'Questionner le monde',
+    it: 'Scienze',
+    pt: 'Ciências',
+    nl: 'Oriëntatie op jezelf en de wereld',
+    sv: 'Naturorienterande ämnen',
+    da: 'Natur/teknologi',
+    no: 'Naturfag',
+    fi: 'Ympäristöoppi',
+  },
   // Grown incrementally as the K.MD.A.2 "Comparing Length" activity fans out
   // per locale (each ship adds its sub-key). Absent locales fall back to en.
   'Measurement & Data': {

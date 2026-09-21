@@ -574,6 +574,56 @@
       "default_subject": "letters",
       "default_age_range": "5-7",
       "exercise_type_axis_key": "feelings"
+    },
+    "tangram": {
+      "default_subject": "spatial-reasoning",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "tangram"
+    },
+    "human-body": {
+      "default_subject": "science",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "human-body"
+    },
+    "five-senses": {
+      "default_subject": "science",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "five-senses"
+    },
+    "weather-symbols": {
+      "default_subject": "science",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "weather-symbols"
+    },
+    "recycling": {
+      "default_subject": "science",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "recycling"
+    },
+    "cloze": {
+      "default_subject": "letters",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "cloze"
+    },
+    "odd-and-even": {
+      "default_subject": "math",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "odd-and-even"
+    },
+    "pronouns": {
+      "default_subject": "letters",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "pronouns"
+    },
+    "question-words": {
+      "default_subject": "letters",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "question-words"
+    },
+    "rounding": {
+      "default_subject": "math",
+      "default_age_range": "7-9",
+      "exercise_type_axis_key": "rounding"
     }
   },
   "$comment_subjects": "Subject×grade hub registry (2026-07-05). Powers /[locale]/topic/<subject>/<grade> hub pages that match how teachers search (Fach×Klasse, e.g. 'Mathe Klasse 1'). Keys = the apps.*.default_subject buckets (math/logic/letters/spatial-reasoning/science). slug+name per locale; bucket→exercise-type mapping derived from apps.* in code (exerciseTypeKeysForSubject). NOTE: the older $comment_subject_vocabulary claim of '4 values, no science' is stale — the corpus has 5 (science = science-sort/match/sequence). Added de+en at MVP; other locales added per the per-locale SEO rollout with native Fach terms.",
@@ -3919,6 +3969,86 @@
           "sv": "Känslor",
           "no": "Følelser",
           "fi": "Tunnetaidot"
+        }
+      },
+      "tangram": {
+        "slug": {
+          "en": "tangram"
+        },
+        "name": {
+          "en": "Tangram"
+        }
+      },
+      "human-body": {
+        "slug": {
+          "en": "human-body"
+        },
+        "name": {
+          "en": "Parts of the Body"
+        }
+      },
+      "five-senses": {
+        "slug": {
+          "en": "five-senses"
+        },
+        "name": {
+          "en": "The Five Senses"
+        }
+      },
+      "weather-symbols": {
+        "slug": {
+          "en": "weather-symbols"
+        },
+        "name": {
+          "en": "Weather Symbols"
+        }
+      },
+      "recycling": {
+        "slug": {
+          "en": "recycling"
+        },
+        "name": {
+          "en": "Recycling Sort"
+        }
+      },
+      "cloze": {
+        "slug": {
+          "en": "cloze"
+        },
+        "name": {
+          "en": "Fill in the Missing Word"
+        }
+      },
+      "odd-and-even": {
+        "slug": {
+          "en": "odd-and-even"
+        },
+        "name": {
+          "en": "Odd and Even Numbers"
+        }
+      },
+      "pronouns": {
+        "slug": {
+          "en": "pronouns"
+        },
+        "name": {
+          "en": "Personal Pronouns"
+        }
+      },
+      "question-words": {
+        "slug": {
+          "en": "question-words"
+        },
+        "name": {
+          "en": "Question Words"
+        }
+      },
+      "rounding": {
+        "slug": {
+          "en": "rounding"
+        },
+        "name": {
+          "en": "Rounding Numbers"
         }
       }
     },

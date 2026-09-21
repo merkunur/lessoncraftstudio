@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-336',
   slug: 'ordinal-numbers-either-end',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Ordinal Numbers from Either End: Start at the Flag", instruction: "Look for the flag first: it can stand at either end. Start there, count to the number of each chip and make the mark it shows." } },
+  i18n: { en: { title: "Ordinal Numbers from Either End: Find the Flag", instruction: "Look for the flag first: it can stand at either end. Start there, count to the number of each chip and make the mark it shows." } },
 };

@@ -39,18 +39,21 @@
  *   bodyLeaderSweep(segments, targets, obstacles, opts)
  *     the pure sweep above (exported so the gate can poison it on stamps).
  *
- * FACES (Phase 2, not built here): bodyCountCard · bodyColorLegend ·
- * bodySpellRow · bodyMissingCard · bodyPairCard (design §2 list).
+ * FACES (Phase 2, 2026-09-21): bodyCountCard (F1) · bodyColorLegend + bodyArrowGlyph (F2) ·
+ * bodySpellRow (F3) · bodyMissingCard (F4) · bodyPairCard (F5) — see each JSDoc below;
+ * the spec composes + stamps + guards, these only draw.
  */
 'use strict';
 const tokens = require('../../primitives/_tokens.js');
-const { svgRoot, line, circle, esc } = require('../../primitives/_svg.js');
+const { svgRoot, el, line, circle, esc } = require('../../primitives/_svg.js');
 const { writingRow } = require('../../primitives/trace-path.js');
 const { bodyFigure, ANCHORS, OWN_REGIONS, LABEL_MIN_H } = require('../../primitives/body-figure.js');
 const { aboutMePlaceLanes: placeLanes } = require('../components-b3.js');
-const { wordBank } = require('../components-b2.js');
+const { wordBank, letterBoxes } = require('../components-b2.js');
+const { blankNumeralBox } = require('../components-b3/ordinal-numbers.js');
 
 const T = tokens.color;
+const F = tokens.font;
 const RING_R = 7, RING_STROKE = 3, LEADER_W = 2.5, LANE_DOT_R = 3.5;
 const FOREIGN_RING_PX = 16;      // design §2: a leader never passes within 16 px of another target's ring
 const OBSTACLE_MARGIN = 3;       // px around every drawn shape the leader does not belong to
@@ -193,4 +196,125 @@ function bodyLabelBank({ words, wordPx = 18 }) {
   return wordBank({ words: words.map((w) => ({ word: w.word, vocabKey: w.id })), wordPx });
 }
 
-module.exports = { bodyLabelStage, bodyLabelBank, bodyLeaderSweep, BODY_LANE_HINT: LANE_HINT, BODY_RING_R: RING_R, BODY_FOREIGN_RING_PX: FOREIGN_RING_PX };
+/* ================================================================ FACES (Phase 2, 2026-09-21) — design §2 list + §3
+ * Every face component is pure markup on the tokens; the SPEC composes, stamps and
+ * guards (types/k/K-354-human-body.js _buildFace). Sizes are the design's d2 numbers
+ * unless a comment says why they differ (each difference measured in _work/K-354-faces.md).
+ */
+const FACE_LABEL_PX = 18;
+
+/** A 14 px arrow glyph in T.grid (the F2 legend's "colour -> part" joiner; no text). */
+function bodyArrowGlyph(size = 14) {
+  const m = size / 2;
+  return svgRoot({ width: size, height: size, label: '' },
+    line({ x1: 1.5, y1: m, x2: size - 4, y2: m, strokeColor: T.grid, strokeWidth: 2.5, cap: 'round' }) +
+    el('path', { d: `M ${size - 6.5} ${m - 4.5} L ${size - 1.5} ${m} L ${size - 6.5} ${m + 4.5}`, fill: 'none', stroke: T.grid, 'stroke-width': 2.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' }),
+    { 'aria-hidden': 'true', 'data-lcs-arrow': '', style: 'flex:0 0 auto' });
+}
+
+/**
+ * bodyCountCard({ n, id, src, label, count, pic=72, boxW=68, boxH=56, labelPx=18 })
+ *   F1 "How Many?" — ONE `.ws-card` (cream, badge numeral n): `[cue picture pic][6][fact
+ *   label Nunito 800 labelPx, a 2-line reserve][8][blankNumeralBox boxW x boxH]`, the
+ *   column centred in the card so a taller grid row (rows minmax(214px,1fr) fill the
+ *   body) shares its slack above and below the content. Stamps data-lcs-fact="<id>"
+ *   data-lcs-count="<n>" on the card (the count is a FACT of the child's body, never
+ *   printed); the box stamps data-lcs-answer="" (blankNumeralBox, never answerBox).
+ */
+function bodyCountCard({ n, id, src, label, count, pic = 72, boxW = 68, boxH = 56, labelPx = FACE_LABEL_PX }) {
+  const lh = Math.round(labelPx * 1.22);
+  return `<section class="ws-card" data-lcs-fact="${esc(id)}" data-lcs-count="${esc(count)}" style="align-items:center;justify-content:center;gap:0">` +
+    (n != null ? `<span class="ws-card-badge">${n}</span>` : '') +
+    `<img class="ws-icon" src="${esc(src)}" data-lcs-cue="${esc(id)}" style="width:${pic}px;height:${pic}px;flex:0 0 ${pic}px">` +
+    `<span data-lcs-fact-label style="display:flex;align-items:center;justify-content:center;text-align:center;width:100%;min-height:${2 * lh}px;margin-top:6px;` +
+    `font-family:${F.body},sans-serif;font-weight:800;font-size:${labelPx}px;line-height:${lh}px;color:${T.ink}">${esc(label)}</span>` +
+    `<span style="display:block;margin-top:8px;flex:0 0 auto">${blankNumeralBox({ w: boxW, h: boxH })}</span>` +
+    `</section>`;
+}
+
+/**
+ * bodyColorLegend({ entries:[{id, color, colorHex, colorWord, partWord}], rowW=374, rowH=48, swatch=26, wordPx=18, gap=12, h })
+ *   F2 "Colour by Legend" — a column (h high when given: the rows SHARE that height,
+ *   flex 1 1 0 with rowH as the minimum) of white rows (r 12, border 2 creamDeep):
+ *   `[swatch (r 6, ink 1 stroke)][12][colour word Nunito 800][arrow][part word]`, the
+ *   text wrapping to a second line inside a tall row when the locale needs it. Two SEPARATE literals per row
+ *   (COLOR_WORDS[loc][key] and the part word: the locale's PLURAL for a class the body
+ *   has two of, its SINGULAR for head / hair); the code never joins them into one string.
+ *   Row stamps data-lcs-legend="<id>" data-lcs-color="<key>"; the swatch
+ *   data-lcs-swatch, the words data-lcs-colorword / data-lcs-partword.
+ */
+function bodyColorLegend({ entries, rowW = 374, rowH = 48, swatch = 26, wordPx = FACE_LABEL_PX, gap = 12, h }) {
+  // with `h` the rows SHARE the column height (flex 1 1 0, min rowH) — a colouring key a K child reads across the room;
+  // the text block wraps so a long locale ("vaaleanpunainen" / "-> käsivarret") takes two lines inside its tall row
+  const arrowPx = Math.max(14, Math.round(wordPx * 0.7));
+  const rows = entries.map((e) =>
+    `<div data-lcs-legend="${esc(e.id)}" data-lcs-color="${esc(e.color)}" style="display:flex;align-items:center;gap:12px;width:${rowW}px;${h ? `flex:1 1 0;min-height:${rowH}px` : `height:${rowH}px;flex:0 0 ${rowH}px`};padding:0 14px;` +
+    `background:${T.white};border:2px solid ${T.creamDeep};border-radius:12px;min-width:0">` +
+    svgRoot({ width: swatch, height: swatch, label: '' }, el('rect', { x: 0.5, y: 0.5, width: swatch - 1, height: swatch - 1, rx: 6, ry: 6, fill: e.colorHex, stroke: T.ink, 'stroke-width': 1 }), { 'aria-hidden': 'true', 'data-lcs-swatch': e.color, style: 'flex:0 0 auto' }) +
+    `<span data-lcs-legend-text style="display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;min-width:0;line-height:1.2">` +
+    `<span data-lcs-colorword style="font-family:${F.body},sans-serif;font-weight:800;font-size:${wordPx}px;color:${T.ink};white-space:nowrap">${esc(e.colorWord)}</span>` +
+    `<span style="display:inline-flex;align-items:center;gap:10px;white-space:nowrap">` + bodyArrowGlyph(arrowPx) +
+    `<span data-lcs-partword style="font-family:${F.body},sans-serif;font-weight:800;font-size:${wordPx}px;color:${T.ink};white-space:nowrap">${esc(e.partWord)}</span></span>` +
+    `</span></div>`).join('');
+  return `<div data-lcs-legend-column style="display:flex;flex-direction:column;justify-content:center;gap:${gap}px;width:${rowW}px;flex:0 0 ${rowW}px${h ? `;height:${h}px` : ''}">${rows}</div>`;
+}
+
+/**
+ * bodySpellRow({ n, id, len, box=44, gap=4, chip=44, numeralPx=26 })
+ *   F3 "Write the Word" — ONE numbered BLOCK: the `.ws-chip` row numeral (Baloo 2 700
+ *   numeralPx) ABOVE letterBoxes({n:len, box, gap}), left-aligned, 4 px apart; block
+ *   height chip + 4 + box + 2. (The design's inline `[chip][10][boxes]` row bound the
+ *   figure to h 423 beside an 8-letter row and left ~300 px of blank paper under a
+ *   464 px stage; stacking the numeral over the boxes frees 54 px of row width, so
+ *   the figure grows to 520 and six blocks fill 624 px — measured in _work/K-354-faces.md.)
+ *   The WORD is never printed: the block stamps data-lcs-spell="<id>" data-lcs-n="<n>"
+ *   and letterBoxes stamps data-lcs-letterboxes="<len>" (the box count is the only scaffold).
+ */
+function bodySpellRow({ n, id, len, box = 44, gap = 4, chip = 44, numeralPx = 26 }) {
+  const h = chip + 4 + box + 2;
+  return `<div data-lcs-spell="${esc(id)}" data-lcs-n="${n}" style="display:flex;flex-direction:column;align-items:flex-start;gap:4px;height:${h}px;flex:0 0 ${h}px">` +
+    `<span class="ws-chip" data-lcs-row-n="${n}" style="width:${chip}px;height:${chip}px;padding:0;font-size:${numeralPx}px;color:${T.teal};flex:0 0 ${chip}px">${n}</span>` +
+    `<span style="display:inline-flex;align-items:center;flex:0 0 auto">${letterBoxes({ n: len, box, gap })}</span>` +
+    `</div>`;
+}
+
+/**
+ * bodyMissingCard({ hidden, side, figureH=300, chips:[{id, src, correct}], chip=80, pic=64, gapX=16, gapY=16 })
+ *   F4 "What Is Missing?" — the INNER of a `.ws-card` (cardGrid supplies the card +
+ *   badge): `[bodyFigure h figureH, fill white, hide:[<class>-<side>|hair]][gapX]
+ *   [column of chips: white chip x chip r 14 border 2 creamDeep holding a pic px
+ *   .ws-icon, gap gapY]`, the pair centred. No text on the item. Stamps
+ *   data-lcs-missing="<class>" data-lcs-missing-side on the item; each chip
+ *   data-lcs-chip="<id>" data-lcs-correct="1|0" (the ONLY answer stamp, never
+ *   rendered — every chip looks the same). Returns { html, figure }.
+ */
+function bodyMissingCard({ hidden, side, figureH = 300, chips, chip = 80, pic = 64, gapX = 16, gapY = 16 }) {
+  const hide = hidden === 'hair' ? ['hair'] : [hidden + '-' + side];
+  const fig = bodyFigure({ h: figureH, fill: 'white', hide });
+  const col = chips.map((c) =>
+    `<span data-lcs-chip="${esc(c.id)}" data-lcs-correct="${c.correct ? 1 : 0}" style="display:inline-flex;align-items:center;justify-content:center;width:${chip}px;height:${chip}px;` +
+    `background:${T.white};border:2px solid ${T.creamDeep};border-radius:14px;flex:0 0 ${chip}px"><img class="ws-icon" src="${esc(c.src)}" style="width:${pic}px;height:${pic}px"></span>`).join('');
+  const html = `<div data-lcs-missing="${esc(hidden)}" data-lcs-missing-side="${esc(side || '')}" ` +
+    `style="display:flex;align-items:center;justify-content:center;gap:${gapX}px;flex:1 1 auto;min-height:0">` +
+    `<span data-lcs-figure data-lcs-body-h="${figureH}" style="display:block;width:${fig.width.toFixed(2)}px;height:${figureH}px;flex:0 0 auto">${fig.svg}</span>` +
+    `<span data-lcs-chips style="display:flex;flex-direction:column;gap:${gapY}px;flex:0 0 auto">${col}</span>` +
+    `</div>`;
+  return { html, figure: fig };
+}
+
+/**
+ * bodyPairCard({ id, src, word, pair, pic=88, wordPx=18 })
+ *   F5 "Which Come in Twos?" — ONE `.ws-card` (cream, NO badge): the picture ABOVE the
+ *   SINGULAR word (a column; the design's `[pic 64][10][word]` row grew into a column
+ *   so the card fills a body-filling grid row without air — measured in the record).
+ *   Stamps data-lcs-pair-card="<id>" data-lcs-pair="1|0" (the fact; never printed).
+ */
+function bodyPairCard({ id, src, word, pair, pic = 88, wordPx = FACE_LABEL_PX }) {
+  return `<section class="ws-card" data-lcs-pair-card="${esc(id)}" data-lcs-pair="${pair ? 1 : 0}" style="align-items:center;justify-content:center;gap:6px">` +
+    `<img class="ws-icon" src="${esc(src)}" data-lcs-pic="${esc(id)}" style="width:${pic}px;height:${pic}px;flex:0 0 ${pic}px">` +
+    `<span data-lcs-pair-word style="display:block;max-width:100%;text-align:center;font-family:${F.body},sans-serif;font-weight:800;font-size:${wordPx}px;line-height:1.2;color:${T.ink};white-space:nowrap">${esc(word)}</span>` +
+    `</section>`;
+}
+
+module.exports = { bodyLabelStage, bodyLabelBank, bodyLeaderSweep, BODY_LANE_HINT: LANE_HINT, BODY_RING_R: RING_R, BODY_FOREIGN_RING_PX: FOREIGN_RING_PX,
+  bodyCountCard, bodyColorLegend, bodyArrowGlyph, bodySpellRow, bodyMissingCard, bodyPairCard };

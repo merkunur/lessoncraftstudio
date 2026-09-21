@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 /**
  * verify-b4-human-body.js — the K-354 `human-body` gate (design file
- * docs/worksheet-gen/b4-designs/K-354-human-body.md §5, base scope; the
- * nt10-D build brief deliverable 4). The five faces (K-360 K-361 G1-356 K-362
- * K-363) add their branches in Phase 2.
+ * docs/worksheet-gen/b4-designs/K-354-human-body.md §5; the nt10-D build brief
+ * deliverable 4 + the face brief deliverable 3). Phase 2 (2026-09-21) added
+ * sections 6-7 and the face poisons for the five faces K-360 (count) · K-361
+ * (color) · G1-356 (write) · K-362 (missing) · K-363 (pairs).
  *
  *   node scripts/worksheet-gen/qa/verify-b4-human-body.js [--quick]
  *
@@ -75,6 +76,28 @@
  *    word ≠ the literal → the node cross-check; PC a leader run past a foreign
  *    ring → verify() 16 px; PO a leader rewired across the arm → the node
  *    obstacle sweep; PX a lane 40 high → the spec guard + the floor past it.
+ * 6. FACES (Phase 2) — every face (tools/b4var-rows/human-body.js → the emitted
+ *    spec) renders at d2 en + the 722 (de) + 677 (fi) chrome: verify() empty,
+ *    lints clean, the design's floors re-asserted from the render (pictures
+ *    >= 64 / cue 72 / pair 88, numeral boxes 68x56, legend rows 48 with 18 px
+ *    words, letter boxes + chips 44 (G1), chips 80 with 64 px pictures, the
+ *    figure === figureH >= 300 with 3 px teal outlines, F2 regions >= 24 px,
+ *    F4 omitted classes >= 14 px, markers >= 30 px apart), the literal
+ *    cross-check (labels / legend words / pair words === the EN bank), and
+ *    the SPARSE assertions (a card grid fills the body; the color / write
+ *    stages are top-anchored with a stage-height floor and no blank band
+ *    between rows). Then the fi widest legend row and the config guards.
+ * 7. FACE SWEEPS — 20 seeds x d2 per face render distinct pages; no F3 marker
+ *    fallback; `refuseWords.write:['eye']` never marks the eye.
+ *    FACE POISONS (design §5): P14 refuseWords.count shrinking the count-1
+ *    pool → rule 6; PR2 a wordBank on F3; PR3 a same-group distractor on F4;
+ *    PR4 the same cue on two F1 cards; PR5 a F5 pair card printed with the
+ *    plural; PR6 a F2 region pre-filled codeBlue; PR7 F4 hiding the nose at
+ *    h 300 → the omitPool guard; PR11 F3 boxes 40 → the G1 guard + the render
+ *    floor; PR13 a hidden F4 region left in the DOM display:none; PM two F3
+ *    numerals swapped; PSO F5 cards sorted by the answer; PS1-PS5 one SPARSE
+ *    layout per face (a grid that stops filling, a stage floated to the
+ *    middle); PSB a blank band between F3 rows.
  */
 'use strict';
 const path = require('path');
@@ -86,6 +109,8 @@ const { vocab, excluded, fileUri, displayWord } = require('../lib/b2-common.js')
 const tokens = require('../primitives/_tokens.js');
 const { COLOR_WORDS } = require('../data/color-words.js');
 const { answerBox } = require('../templates/components.js');
+const { SWATCH } = require('../templates/components-b2.js');
+const { fileUri: chipUri } = require('../image-cache/resolve.js');
 const freeClaim = require('../../lib/free-claim.js');
 const BF = require('../primitives/body-figure.js');
 const C4 = require('../templates/components-b4.js');
@@ -93,6 +118,10 @@ const bankMod = require('../data/b4/human-body.js');
 const FACTS = require('../data/b4/body-facts.json');
 const alloc = require('../../../docs/worksheet-gen/b4-designs/_records/b4var-id-allocation.json');
 const figureGate = require('./verify-body-figure.js');
+const { loadType } = require('../lib/load-types.js');
+const EXCLUDED_PICS = Object.keys(FACTS.excluded || {});
+const WEBP_THEMES = path.join(__dirname, '..', '..', '..', 'frontend', 'public', 'image-library-webp', 'themes');   // the served library: every picture a face keeps must exist here as <theme>/<noun>@2x.webp
+const FACE_ROWS = require('../tools/b4var-rows/human-body.js').ROWS;
 
 const TYPE = require('../types/k/K-354-human-body.js');
 const QUICK = process.argv.includes('--quick');
@@ -181,7 +210,13 @@ function validateFacts(F) {
   for (const id of pp.pairs || []) if (!parts[id] || parts[id].count !== 2) f.push(`pairsPool.pairs ${id} count ≠ 2`);
   for (const id of pp.singles || []) if (!parts[id] || parts[id].count !== 1) f.push(`pairsPool.singles ${id} count ≠ 1`);
   for (const id of [...(pp.pairs || []), ...(pp.singles || [])]) if (NEVER_PAIRS.includes(id)) f.push(`pairsPool holds ${id} (never)`);
-  if (!pp.singles || pp.singles.length < 4) f.push('pairsPool.singles < 4');
+  if (!pp.singles || pp.singles.length < 3) f.push('pairsPool.singles < 3 (the shipped F5 draws 3 singles)');
+  if (!pp.pairs || pp.pairs.length < 5) f.push('pairsPool.pairs < 5 (the shipped F5 draws 5 pairs)');
+  // the PICTURE exclusion (design §5 + the 2026-09-21 ruling: it applies wherever a picture is shown): never in a picture pool, never a cue
+  const excludedIds = Object.keys(F.excluded || {});
+  for (const id of [...(pp.pairs || []), ...(pp.singles || []), ...Object.values(cp).flat(), ...chipIds]) if (excludedIds.includes(id)) f.push(`${id} sits in a picture pool but its picture is excluded`);
+  for (const id of excludedIds) if (parts[id] && parts[id].cue) f.push(`excluded.${id} still names a cue picture "${parts[id].cue}"`);
+  for (const x of F.facts || []) if (excludedIds.includes(x.cue)) f.push(`facts.${x.id} cues the excluded picture ${x.cue}`);
   const lead = F.leadSet || [], face = F.faceSet || [];
   if ([...lead, ...face].sort().join() !== [...IDS].sort().join() || lead.some((x) => face.includes(x))) f.push('leadSet ∪ faceSet ≠ the 16 (or they overlap)');
   return f;
@@ -250,7 +285,13 @@ function validateBank(bank, loc) {
   if (basePool.length < 8 && !refuse.includes('base')) push(`base pool ${basePool.length} < 8 and base is not refused`);
   const pp = FACTS.pairsPool || { pairs: [], singles: [] };
   const pairs = pp.pairs.filter((id) => !(RW.pairs || []).includes(id)), singles = pp.singles.filter((id) => !(RW.pairs || []).includes(id));
-  if ((pairs.length < 4 || singles.length < 4) && !refuse.includes('pairs')) push(`F5 pools ${pairs.length} pairs / ${singles.length} singles < 4 + 4 and pairs is not refused`);
+  if ((pairs.length < 5 || singles.length < 3) && !refuse.includes('pairs')) push(`F5 pools ${pairs.length} pairs / ${singles.length} singles < 5 + 3 and pairs is not refused`);
+  const cnt = (c) => ((FACTS.countPools || {})[c] || []).filter((id) => !(RW.count || []).includes(id)).length;
+  if ((cnt('1') < 2 || cnt('2') < 3 || cnt('10') < 1) && !refuse.includes('count')) push(`F1 count pools ${cnt('1')}/${cnt('2')}/${cnt('10')} < 2/3/1 and count is not refused`);
+  const colorPool = ['hair', 'head', 'arm', 'hand', 'leg', 'foot'].filter((id) => !(RW.color || []).includes(id)).length;
+  if (colorPool < 5 && !refuse.includes('color')) push(`F2 region pool ${colorPool} < 5 and color is not refused`);
+  const omit = ((FACTS.omitPool || {})['300'] || []).filter((id) => !(RW.missing || []).includes(id)).length;
+  if (omit < 4 && !refuse.includes('missing')) push(`F4 omit pool ${omit} < 4 and missing is not refused`);
   // rule 8 — strings
   const S = bank.strings || {};
   const wantIds = [BASE_ID, ...FACE_IDS];
@@ -554,9 +595,242 @@ async function main() {
         console.log('refuseWords.base [eye]: 0/20 pages draw eye');
       }
     }
+    // 6. THE FIVE FACES (Phase 2, design §3): every face through the real pipeline at d2 en + the 722 (de) and 677 (fi)
+    //    chrome; verify() empty, lints clean, the floors asserted HERE, the SPARSE assertions, then the seed sweeps.
+    const faceMeasureSrc = () => {
+      const rect = (el) => { const r = el.getBoundingClientRect(); return { left: r.left, right: r.right, top: r.top, bottom: r.bottom, w: r.width, h: r.height }; };
+      const root = document.querySelector('[data-lcs-type="human-body"]');
+      const q = (s) => (root ? root.querySelector(s) : null), qa = (s) => (root ? [...root.querySelectorAll(s)] : []);
+      const stem = (im) => { const p = decodeURIComponent(im.src).split('/'); return p[p.length - 1].replace(/@\dx\.webp$/, ''); };
+      const txt = (el) => (el ? (el.textContent || '').replace(/\s+/g, ' ').trim() : '');
+      let lowest = 0; qa('*').forEach((el) => { const r = el.getBoundingClientRect(); if (r.width && r.height && r.bottom > lowest) lowest = r.bottom; });
+      const grid = q('[data-lcs-countgrid], [data-lcs-pairgrid], .ws-cardgrid');
+      return {
+        body: rect(document.querySelector('[data-lcs-body]')), foot: document.querySelector('.ws-foot').getBoundingClientRect().top, headH: rect(document.querySelector('.ws-head')).h,
+        root: root ? rect(root) : null, stamps: root ? { ...root.dataset } : null, lowest,
+        answers: qa('[data-lcs-answer]').map((a) => a.getAttribute('data-lcs-answer')),
+        imgs: qa('img').map((im) => ({ ...rect(im), stem: stem(im), ok: im.complete && im.naturalWidth > 0 })),
+        figures: qa('svg[data-lcs-body]').map((f) => ({ ...rect(f), h: rect(f).h, bodyH: +f.getAttribute('data-lcs-body-h'), hidden: f.getAttribute('data-lcs-hidden'), fill: f.getAttribute('data-lcs-body-fill'), regions: f.querySelectorAll('[data-lcs-region]').length, markers: [...f.querySelectorAll('[data-lcs-marker]')].map((m) => { const c = m.querySelector('circle').getBoundingClientRect(); return { id: m.dataset.lcsMarker, n: +m.dataset.lcsN, x: (c.left + c.right) / 2, y: (c.top + c.bottom) / 2 }; }),
+          strokes: [...f.querySelectorAll('[data-lcs-region] [stroke]')].map((el) => ({ c: (el.getAttribute('stroke') || '').toUpperCase(), px: parseFloat(el.getAttribute('stroke-width')) * (+f.getAttribute('data-lcs-scale')) })) })),
+        grid: grid ? rect(grid) : null,
+        cards: qa('.ws-card').map((c) => ({ ...rect(c), badge: txt(c.querySelector('.ws-card-badge')), fact: c.dataset.lcsFact, count: c.dataset.lcsCount, pair: c.dataset.lcsPair, pairId: c.dataset.lcsPairCard })),
+        labels: qa('[data-lcs-fact-label]').map((l) => ({ text: txt(l), px: parseFloat(getComputedStyle(l).fontSize), lines: Math.round(l.scrollHeight / parseFloat(getComputedStyle(l).lineHeight)), clipped: l.scrollWidth > l.clientWidth + 0.6, font: getComputedStyle(l).fontFamily })),
+        boxes: qa('.ws-blankbox[data-lcs-answer]').map((b) => rect(b)),
+        legend: qa('[data-lcs-legend]').map((r) => ({ ...rect(r), id: r.dataset.lcsLegend, color: r.dataset.lcsColor, cw: txt(r.querySelector('[data-lcs-colorword]')), pw: txt(r.querySelector('[data-lcs-partword]')), px: parseFloat(getComputedStyle(r.querySelector('[data-lcs-partword]')).fontSize), over: r.scrollWidth > r.clientWidth + 0.6, clipped: !!r.querySelector('[data-lcs-legend-text]') && r.querySelector('[data-lcs-legend-text]').getBoundingClientRect().height > r.getBoundingClientRect().height - 4, textH: r.querySelector('[data-lcs-legend-text]') ? r.querySelector('[data-lcs-legend-text]').getBoundingClientRect().height : 0, swatch: r.querySelector('[data-lcs-swatch] rect') && rect(r.querySelector('[data-lcs-swatch] rect')) })),
+        legendCol: q('[data-lcs-legend-column]') ? rect(q('[data-lcs-legend-column]')) : null,
+        spell: qa('[data-lcs-spell]').map((r) => ({ ...rect(r), id: r.dataset.lcsSpell, n: +r.dataset.lcsN, boxes: +r.querySelector('svg[data-lcs-letterboxes]').getAttribute('data-lcs-letterboxes'), boxPx: Math.min(...[...r.querySelectorAll('svg[data-lcs-letterboxes] rect')].map((x) => Math.min(x.getBoundingClientRect().width, x.getBoundingClientRect().height))), chip: txt(r.querySelector('.ws-chip')), chipR: rect(r.querySelector('.ws-chip')), over: r.scrollWidth > r.clientWidth + 0.6 })),
+        stage: q('[data-lcs-writestage]') ? rect(q('[data-lcs-writestage]')) : null,
+        missing: qa('[data-lcs-missing]').map((it) => ({ cls: it.dataset.lcsMissing, side: it.dataset.lcsMissingSide, text: txt(it), chips: [...it.querySelectorAll('[data-lcs-chip]')].map((c) => ({ ...rect(c), id: c.dataset.lcsChip, correct: c.dataset.lcsCorrect, pic: rect(c.querySelector('img')) })) })),
+        pairWords: qa('[data-lcs-pair-word]').map((w) => ({ text: txt(w), px: parseFloat(getComputedStyle(w).fontSize), clipped: w.scrollWidth > w.clientWidth + 0.6 })),
+        bank: !!q('[data-lcs-bank-banner]'),
+        text: root ? (root.textContent || '').replace(/\s+/g, ' ').trim() : '',
+      };
+    };
+    async function renderFace(type, { baseName, strings, seedEpoch, difficulty }) {
+      const out = await renderInstance({ type, theme: null, difficulty: difficulty || 2, locale: 'en', page, outDir: OUT, baseName, strings, seedEpoch });
+      const m = await page.evaluate(faceMeasureSrc);
+      return { lints: out.qa.lints, verify: out.qa.verify, m, png: out.pngPath, html: out.html, meta: out.meta };
+    }
+    /** SPARSE, measured on the CARDS (not the grid box): the first card at the body top, the last card at the body bottom. */
+    const cardsSpan = (m) => ({ top: Math.min(...m.cards.map((c) => c.top)) - m.body.top, slack: m.body.bottom - Math.max(...m.cards.map((c) => c.bottom)) });
+    const cardsFill = (m) => m.cards.length > 0 && Math.abs(cardsSpan(m).top) <= 1 && Math.abs(cardsSpan(m).slack) <= 1.5;
+    /** The gate's OWN floors per face (verify() is the spec's; these are the design's numbers re-asserted from the render). */
+    function assertFace(name, r, face, opts = {}) {
+      const m = r.m, cfg = face.difficulty[2], layout = cfg.layout;
+      ok(r.verify.length === 0, `${name}: verify() ${JSON.stringify(r.verify.slice(0, 4))}`);
+      ok(r.lints.length === 0, `${name}: lints ${JSON.stringify(r.lints)}`);
+      if (!m.stamps) { ok(false, `${name}: no root`); return; }
+      ok(m.stamps.lcsLayout === layout, `${name}: stamped layout ${m.stamps.lcsLayout} ≠ ${layout}`);
+      ok(m.answers.every((a) => a === ''), `${name}: an answer value is stamped ${JSON.stringify(m.answers)}`);
+      ok(m.lowest <= m.foot + 0.6, `${name}: content reaches ${Math.round(m.lowest)} against the footer at ${Math.round(m.foot)}`);
+      ok(m.root.left >= m.body.left - 0.6 && m.root.right <= m.body.right + 0.6, `${name}: the face leaves the body column`);
+      ok(m.figures.length >= 1 && m.figures.every((f) => f.bodyH === cfg.figureH && Math.abs(f.h - cfg.figureH) < 1 && f.h >= 300), `${name}: figures ${JSON.stringify(m.figures.map((f) => [f.bodyH, Math.round(f.h)]))} (want ${cfg.figureH} >= 300)`);
+      ok(m.figures.every((f) => f.strokes.length && f.strokes.every((s) => s.c === '#146B5E' && [3, 2.5, 1.5].some((w) => Math.abs(s.px - w) < 0.2))), `${name}: a figure outline is not 3 / 2.5 / 1.5 px teal`);
+      for (const im of m.imgs) ok(im.ok && Math.min(im.w, im.h) >= 64 - 0.6, `${name}: picture ${im.stem} ${Math.round(im.w)}×${Math.round(im.h)} (K face floor 64${im.ok ? '' : '; BROKEN'})`);
+      for (const im of m.imgs) ok(!EXCLUDED_PICS.includes(im.stem), `${name}: the excluded picture "${im.stem}" is drawn (shoulder / neck / thumb / chin / tongue never appear on a face)`);
+      if (layout === 'count') {
+        ok(m.cards.length === cfg.cards && m.cards.every((c, i) => c.badge === String(i + 1)), `${name}: ${m.cards.length} cards / badges ${m.cards.map((c) => c.badge).join()}`);
+        ok(m.imgs.length === cfg.cards && new Set(m.imgs.map((i) => i.stem)).size === cfg.cards, `${name}: ${m.imgs.length} cue pictures, ${new Set(m.imgs.map((i) => i.stem)).size} distinct`);
+        for (const im of m.imgs) ok(Math.min(im.w, im.h) >= cfg.pic - 0.6, `${name}: cue ${im.stem} ${Math.round(im.w)} < ${cfg.pic}`);
+        ok(m.boxes.length === cfg.cards && m.boxes.every((b) => b.h >= Math.max(56, cfg.box) - 0.6 && b.w >= 68 - 0.6), `${name}: numeral boxes ${JSON.stringify(m.boxes.map((b) => Math.round(b.w) + 'x' + Math.round(b.h)))} (want 68×${Math.max(56, cfg.box)})`);
+        ok(m.labels.length === cfg.cards && m.labels.every((l) => l.px >= 18 - 0.01 && !l.clipped && l.lines <= 2 && /nunito/i.test(l.font)), `${name}: labels ${JSON.stringify(m.labels.map((l) => [l.text, l.px, l.lines, l.clipped]))}`);
+        for (const c of m.cards) ok(c.fact && String(FACTS.parts[c.fact] ? FACTS.parts[c.fact].count : (FACTS.facts.find((x) => x.id === c.fact) || {}).count) === c.count, `${name}: card ${c.fact} stamps count ${c.count} ≠ the fact`);
+        const counts = m.cards.map((c) => c.count).sort().join();
+        const want = Object.entries(cfg.mix).flatMap(([c, n]) => Array(n).fill(c)).sort().join();
+        ok(counts === want, `${name}: counts ${counts} ≠ mix ${want}`);
+        ok((m.text.replace(/\s+/g, '').match(/\d/g) || []).join('') === m.cards.map((_, i) => i + 1).join(''), `${name}: digits outside the badges in "${m.text.slice(0, 40)}"`);
+        ok(!m.bank, `${name}: a word bank on the count face`);
+        ok(cardsFill(m), `${name}: the cards do not fill the body (top ${cardsSpan(m).top.toFixed(1)}, bottom slack ${cardsSpan(m).slack.toFixed(1)}) — sparse`);
+        ok(m.cards.every((c) => c.h >= +m.stamps.lcsCardMin - 0.6), `${name}: a card under the ${m.stamps.lcsCardMin} px minimum`);
+        ok(m.figures.length === 1 && m.figures[0].regions === 12 && !m.figures[0].hidden && !m.figures[0].markers.length, `${name}: the figure is not the plain 12-region cream child`);
+      }
+      if (layout === 'color') {
+        ok(m.legend.length === cfg.legend, `${name}: ${m.legend.length} legend rows ≠ ${cfg.legend}`);
+        ok(new Set(m.legend.map((l) => l.id)).size === cfg.legend && new Set(m.legend.map((l) => l.color)).size === cfg.legend, `${name}: legend ids / colours repeat`);
+        for (const l of m.legend) {
+          ok(l.h >= +m.stamps.lcsRowH - 0.6 && l.px >= cfg.wordPx - 0.01 && cfg.wordPx >= 22 && !l.over && l.swatch && Math.min(l.swatch.w, l.swatch.h) >= Math.max(36, cfg.swatch) - 1.5, `${name}: legend row ${l.id} h ${Math.round(l.h)} (min ${m.stamps.lcsRowH}) px ${l.px} (>= 22) over ${l.over} swatch ${l.swatch && Math.round(l.swatch.w)} (>= 36)`);
+          ok(l.cw === COLOR_WORDS.en[l.color], `${name}: colour word "${l.cw}" ≠ ${COLOR_WORDS.en[l.color]}`);
+          const wantPw = FACTS.parts[l.id].count === 2 ? en.plural[l.id] : en.partWords[l.id];
+          ok(l.pw === wantPw, `${name}: part word "${l.pw}" ≠ "${wantPw}"`);
+          const reg = BF.bodyFigure({ h: cfg.figureH, fill: 'white' }).regions.filter((x) => x.id.replace(/-[LR]$/, '') === l.id);
+          ok(reg.length && reg.every((x) => x.min >= 24), `${name}: legend region ${l.id} narrower than 24 px (${reg.map((x) => x.min.toFixed(1)).join('/')})`);
+        }
+        ok(m.figures.length === 1 && m.figures[0].fill === 'white' && m.figures[0].regions === 12 && !m.figures[0].hidden && !m.figures[0].markers.length, `${name}: the figure is not the plain white child`);
+        ok(m.imgs.length === 0 && !/\d/.test(m.text), `${name}: pictures / digits on the colouring face`);
+        ok(Math.abs(m.root.top - m.body.top) <= 1, `${name}: the stage sits ${(m.root.top - m.body.top).toFixed(1)} px under the body top (not top-anchored) — sparse`);
+        ok(m.root.h >= cfg.figureH - 0.6 && m.root.h >= 630 - 0.6, `${name}: stage ${Math.round(m.root.h)} < the figure ${cfg.figureH} / the 630 floor — sparse`);
+        ok(m.body.bottom - m.root.bottom <= 180, `${name}: ${(m.body.bottom - m.root.bottom).toFixed(1)} px of paper under the colouring stage (> 180) — sparse`);
+        { const hs = m.legend.map((l) => l.h); ok(hs.length && Math.max(...hs) - Math.min(...hs) <= 1.5 && Math.abs(m.legend[0].top - m.legendCol.top) <= 1 && Math.abs(m.legendCol.bottom - m.legend[m.legend.length - 1].bottom) <= 1, `${name}: legend rows ${hs.map((h) => Math.round(h)).join('/')} do not share the column`); }
+        ok(m.legendCol && Math.abs(m.legendCol.h - cfg.figureH) <= 1, `${name}: the legend column ${m.legendCol && Math.round(m.legendCol.h)} ≠ the figure height`);
+      }
+      if (layout === 'write') {
+        const floor = tokens.density[face.gradeBand].minElement;
+        ok(face.gradeBand === 'G1' && floor === 44, `${name}: gradeBand ${face.gradeBand} floor ${floor} (the write face is G1)`);
+        ok(m.spell.length === cfg.labels, `${name}: ${m.spell.length} rows ≠ ${cfg.labels}`);
+        for (const s of m.spell) {
+          const word = en.partWords[s.id].normalize('NFC');
+          ok(s.boxes === [...word.replace(/['’-]/g, '')].length && s.boxPx >= Math.max(floor, cfg.box) - 0.6 && !s.over && s.chip === String(s.n) && Math.min(s.chipR.w, s.chipR.h) >= floor - 0.6, `${name}: row ${s.n} (${s.id}) boxes ${s.boxes} @ ${s.boxPx.toFixed(1)} px chip "${s.chip}" ${Math.round(s.chipR.w)} over ${s.over}`);
+          ok([...word.replace(/['’-]/g, '')].length <= cfg.maxLetters && /^[\p{L}][\p{L}'’-]*$/u.test(word), `${name}: row ${s.n} word "${word}" outside the eligible pool`);
+        }
+        for (let i = 1; i < m.spell.length; i++) ok(m.spell[i].top - m.spell[i - 1].bottom <= (+m.stamps.lcsRowGap) + 1, `${name}: ${(m.spell[i].top - m.spell[i - 1].bottom).toFixed(1)} px of blank band between rows ${i} and ${i + 1} — sparse`);
+        const mk = m.figures[0] ? m.figures[0].markers : [];
+        ok(mk.length === cfg.labels && mk.slice().sort((a, b) => a.y - b.y || a.x - b.x).map((x) => x.n).join() === mk.map((x) => x.n).sort((a, b) => a - b).join(), `${name}: markers ${JSON.stringify(mk.map((x) => x.id + x.n))} (want ${cfg.labels}, top-to-bottom)`);
+        for (let i = 0; i < mk.length; i++) for (let j = i + 1; j < mk.length; j++) ok(Math.hypot(mk[i].x - mk[j].x, mk[i].y - mk[j].y) >= cfg.markerMin - 0.6, `${name}: markers ${mk[i].id} / ${mk[j].id} ${Math.hypot(mk[i].x - mk[j].x, mk[i].y - mk[j].y).toFixed(1)} px apart < ${cfg.markerMin}`);
+        ok(mk.map((x) => x.id).join() === (m.stamps.lcsParts || ''), `${name}: parts stamp ≠ the markers`);
+        ok(!m.bank && m.imgs.length === 0, `${name}: a bank / picture on the write face`);
+        ok(m.text.replace(/\d/g, '').trim() === '', `${name}: text printed on the write face "${m.text.slice(0, 30)}"`);
+        ok(m.stage && Math.abs(m.stage.top - m.body.top) <= 1 && m.stage.h >= cfg.labels * (+m.stamps.lcsRowH) + (cfg.labels - 1) * (+m.stamps.lcsRowGap) - 0.6, `${name}: stage top ${m.stage && (m.stage.top - m.body.top).toFixed(1)} / h ${m.stage && Math.round(m.stage.h)} (top-anchored, >= the rows stack) — sparse`);
+        ok(m.figures.length === 1 && m.figures[0].regions === 12 && !m.figures[0].hidden, `${name}: the figure is not the 12-region child`);
+      }
+      if (layout === 'missing') {
+        ok(m.missing.length === cfg.figures && m.cards.length === cfg.figures && m.cards.every((c, i) => c.badge === String(i + 1)), `${name}: ${m.missing.length} items / ${m.cards.length} cards / badges ${m.cards.map((c) => c.badge).join()}`);
+        ok(new Set(m.missing.map((x) => x.cls)).size === cfg.figures && m.missing.every((x) => cfg.omitPool.includes(x.cls)), `${name}: hidden classes ${m.missing.map((x) => x.cls).join()} (distinct, from the omit pool)`);
+        const sides = m.missing.filter((x) => x.cls !== 'hair').map((x) => x.side);
+        ok(sides.length < 2 || new Set(sides).size === 2, `${name}: bilateral omissions all on side ${sides.join()} (alternate)`);
+        ok(m.figures.length === cfg.figures && m.figures.every((f) => f.fill === 'white' && f.hidden && !f.markers.length), `${name}: the four figures are not white with a hidden class`);
+        for (const it of m.missing) {
+          ok(it.chips.length === cfg.chips && it.chips.filter((c) => c.correct === '1').length === 1 && it.chips.find((c) => c.correct === '1').id === it.cls, `${name}: item ${it.cls} chips ${it.chips.map((c) => c.id + (c.correct === '1' ? '*' : '')).join()}`);
+          for (const c of it.chips) ok(Math.min(c.w, c.h) >= cfg.chip - 0.6 && Math.min(c.pic.w, c.pic.h) >= cfg.pic - 0.6, `${name}: chip ${c.id} ${Math.round(c.w)} / pic ${Math.round(c.pic.w)} (want ${cfg.chip} / ${cfg.pic})`);
+          const g = FACTS.confusable.find((x) => x.includes(it.cls)) || [it.cls];
+          ok(it.chips.every((c) => c.id === it.cls || !g.includes(c.id)), `${name}: item ${it.cls} has a distractor from its confusable group`);
+          ok(it.text === '', `${name}: item ${it.cls} prints "${it.text}"`);
+          const r300 = BF.bodyFigure({ h: cfg.figureH }).regions.filter((x) => x.id.replace(/-[LR]$/, '') === it.cls);
+          ok(r300.length && r300.every((x) => x.bboxMin >= 14), `${name}: omitted ${it.cls} is under 14 px at h ${cfg.figureH}`);
+        }
+        ok(new Set(m.missing.map((it) => it.chips.findIndex((c) => c.correct === '1'))).size >= 2, `${name}: the correct chip at one index on every card`);
+        ok(cardsFill(m), `${name}: the card grid does not fill the body (top ${cardsSpan(m).top.toFixed(1)}, bottom slack ${cardsSpan(m).slack.toFixed(1)}) — sparse`);
+        ok(m.cards.every((c) => c.h >= cfg.figureH + 28 - 0.6), `${name}: a card under ${cfg.figureH + 28}`);
+        ok(m.text.replace(/\s+/g, '') === m.cards.map((_, i) => i + 1).join(''), `${name}: text / digits outside the badges "${m.text}"`);
+      }
+      if (layout === 'pairs') {
+        ok(m.cards.length === cfg.cards && m.cards.every((c) => c.pairId && c.badge === ''), `${name}: ${m.cards.length} cards (no badges)`);
+        const p = m.cards.filter((c) => c.pair === '1').length;
+        ok(p === cfg.pairs && m.cards.length - p === cfg.singles, `${name}: ${p} pairs / ${m.cards.length - p} singles ≠ ${cfg.pairs} + ${cfg.singles}`);
+        for (const c of m.cards) ok(c.pair === (FACTS.parts[c.pairId].count === 2 ? '1' : '0') && !NEVER_PAIRS.includes(c.pairId), `${name}: card ${c.pairId} pair ${c.pair} ≠ the fact`);
+        ok(m.pairWords.length === cfg.cards && m.pairWords.every((w) => w.px >= 18 - 0.01 && !w.clipped), `${name}: pair words ${JSON.stringify(m.pairWords)}`);
+        ok(m.cards.every((c, i) => m.pairWords[i].text === en.partWords[c.pairId]), `${name}: a card word ≠ its singular part word`);
+        ok(m.imgs.length === cfg.cards && m.imgs.every((im, i) => im.stem === FACTS.parts[m.cards[i].pairId].cue && Math.min(im.w, im.h) >= cfg.pic - 0.6), `${name}: card pictures ${JSON.stringify(m.imgs.map((i) => [i.stem, Math.round(i.w)]))}`);
+        const flags = m.cards.map((c) => c.pair).join('');
+        ok(!/^1+0+$/.test(flags) && !/^0+1+$/.test(flags), `${name}: cards sorted by the answer (${flags})`);
+        ok(!/\d/.test(m.text), `${name}: a digit on the pairs face`);
+        ok(cardsFill(m), `${name}: the pair grid does not fill the body (top ${cardsSpan(m).top.toFixed(1)}, bottom slack ${cardsSpan(m).slack.toFixed(1)}) — sparse`);
+        ok(m.cards.every((c) => c.h >= +m.stamps.lcsRowMin - 0.6), `${name}: a card under the ${m.stamps.lcsRowMin} px minimum`);
+        ok(m.figures.length === 1 && m.figures[0].regions === 12 && !m.figures[0].hidden && !m.figures[0].markers.length, `${name}: the figure is not the plain cream child`);
+      }
+      if (opts.body) ok(m.body.h <= opts.body, `${name}: body ${Math.round(m.body.h)} px — the fixture did not squeeze the body to <= ${opts.body} (head ${Math.round(m.headH)})`);
+    }
+    const FACE_SPECS = {};
+    for (const row of FACE_ROWS) {
+      const spec = loadType(row[1]);
+      FACE_SPECS[row[1]] = spec;
+      ok(spec.difficulty[2].layout === row[5].layout && spec.slug === row[2], `${row[1]}: the emitted spec does not carry the row (${spec.difficulty[2].layout} / ${spec.slug})`);
+      ok(spec.i18n.en.title === en.strings[row[1]].title && spec.i18n.en.instruction === en.strings[row[1]].instruction, `${row[1]}: the emitted EN title / instruction ≠ the bank's strings (one source)`);
+      ok((row[1].startsWith('G1') ? spec.gradeBand === 'G1' : spec.gradeBand === 'K'), `${row[1]}: gradeBand ${spec.gradeBand}`);
+      ok(spec.themeAxis && spec.themeAxis.applicable === false, `${row[1]}: the theme axis is not fixed`);
+    }
+    for (const id of FACE_IDS) {
+      const face = FACE_SPECS[id];
+      const r = await renderFace(face, { baseName: `${id}-gate-d2-en` });
+      assertFace(`${id} d2`, r, face);
+      pngs.push(r.png);
+      const stageH = r.m.grid ? r.m.grid.h : (r.m.stage ? r.m.stage.h : r.m.root.h);
+      console.log(`render ${id} (${face.difficulty[2].layout}) d2 en: verify ${r.verify.length} lints ${r.lints.length} body ${Math.round(r.m.body.h)} stage ${Math.round(stageH)} slack-under ${Math.round(r.m.foot - r.m.lowest)} lowest ${Math.round(r.m.lowest)} vs foot ${Math.round(r.m.foot)}${r.meta && r.meta.parts ? ' parts ' + r.meta.parts.join(',') : ''}${r.meta && r.meta.hidden ? ' hidden ' + r.meta.hidden.join(',') : ''}${r.meta && r.meta.legend ? ' legend ' + r.meta.legend.join(',') : ''}${r.meta && r.meta.cards ? ' cards ' + r.meta.cards.join(',') : ''}`);
+      for (const k of Object.keys(LONG)) {
+        const rl = await renderFace(face, { baseName: `${id}-gate-d2-en-longchrome-${k}`, strings: LONG[k] });
+        assertFace(`${id} d2 long chrome ${k}`, rl, face, { body: LONG[k].body });
+        pngs.push(rl.png);
+        console.log(`render ${id} d2 long chrome ${k}: verify ${rl.verify.length} lints ${rl.lints.length} body ${Math.round(rl.m.body.h)} px (head ${Math.round(rl.m.headH)}), lowest ${Math.round(rl.m.lowest)} vs foot ${Math.round(rl.m.foot)}`);
+      }
+    }
+    // every picture a face can draw exists ON DISK — in the render cache the resolver served AND in the served library
+    // (<theme>/<noun>@2x.webp under frontend/public/image-library-webp/themes; the sv #35 fruits/plum lesson)
+    {
+      const refs = new Set([...FACTS.chipPool.map((c) => c.id), ...Object.values(FACTS.parts).map((p) => p.cue).filter(Boolean), ...FACTS.facts.map((x) => x.cue)]);
+      let missing = 0;
+      for (const noun of refs) {
+        let served = null; try { served = require('url').fileURLToPath(fileUri('body parts', noun)); } catch (e) { served = null; }
+        if (!ok(served && fs.existsSync(served), `picture in the render cache: body parts/${noun} does not resolve to a file`)) missing++;
+        const p = path.join(WEBP_THEMES, 'body parts', noun + '@2x.webp');
+        if (!ok(fs.existsSync(p), `picture on disk: ${p} is absent`)) missing++;
+      }
+      console.log(`pictures on disk: ${refs.size} nouns (14 chips + the cues) checked in the render cache and as body parts/<noun>@2x.webp under image-library-webp/themes, ${missing} missing`);
+    }
+    // the widest F2 legend row: a synthetic fi block (vaaleanpunainen -> käsivarret) beside the 540 figure — no overflow
+    {
+      const fi = syntheticBlock('fi');
+      const type = Object.assign(Object.create(FACE_SPECS['K-361']), {
+        build(args, ctx) {
+          const cfg = { ...FACE_SPECS['K-361'].difficulty[2], regionPool: ['arm'], legend: 3 };
+          const out = FACE_SPECS['K-361']._buildWith(fi, { ...cfg, regionPool: ['arm', 'hand', 'leg'] }, { locale: 'fi' }, ctx);
+          // force the widest pairing: pink -> käsivarret on the first row
+          const rowW = +/data-lcs-row-w="(\d+)"/.exec(out.bodyHtml)[1], rowH = +/data-lcs-row-h="(\d+)"/.exec(out.bodyHtml)[1];
+          const one = C4.bodyColorLegend({ entries: [{ id: 'arm', color: 'pink', colorHex: SWATCH.pink, colorWord: COLOR_WORDS.fi.pink, partWord: fi.plural.arm }], rowW, rowH, swatch: cfg.swatch, wordPx: cfg.wordPx, h: cfg.figureH }).replace(/^<div data-lcs-legend-column[^>]*>/, '').replace(/<\/div>$/, '');
+          return { bodyHtml: out.bodyHtml.replace(/<div data-lcs-legend="[^"]+" data-lcs-color="[^"]+"[\s\S]*?<\/span><\/span><\/div>/, one), meta: out.meta };
+        }, verify: async () => [] });
+      const r = await renderFace(type, { baseName: 'K-361-gate-d2-fi-widest-legend' });
+      const row = r.m.legend[0];
+      ok(r.lints.length === 0 && row && !row.over && !row.clipped && row.pw === fi.plural.arm && row.cw === COLOR_WORDS.fi.pink, `fi widest legend row: lints ${JSON.stringify(r.lints)} row ${JSON.stringify(row && [row.cw, row.pw, row.over, row.clipped])}`);
+      console.log(`fi widest legend row (${COLOR_WORDS.fi.pink} -> ${fi.plural.arm}): ${row ? Math.round(row.w) + ' wide x ' + Math.round(row.h) + ' high, text ' + Math.round(row.textH) + ' high (' + (row.textH > 40 ? 'two lines' : 'one line') + '), overflow ' + row.over + ', outgrows ' + row.clipped : 'no row'}`);
+    }
+    // config guards on the resolved face configs (never the level index)
+    const faceRefusal = (id, patch, loc, bank) => { try { FACE_SPECS[id]._buildWith(bank || en, { ...FACE_SPECS[id].difficulty[2], ...patch }, { locale: loc || 'en' }, { rng: makeRng('guard') }); return []; } catch (e) { return [e.message]; } };
+    ok(/refuses the "count" face/.test(faceRefusal('K-360', {}, 'en', { ...en, refuse: ['count'] })[0] || ''), 'a bank refusing `count` must REFUSE the F1 build');
+    ok(/unknown layout "wheel"/.test(faceRefusal('K-360', { layout: 'wheel' })[0] || ''), 'an unknown layout must throw');
+    ok(/legend 7 outside 3\.\.6/.test(faceRefusal('K-361', { legend: 7 })[0] || ''), 'legend 7 must throw');
+    ok(/regionPool "torso" is not a colourable class/.test(faceRefusal('K-361', { regionPool: ['torso', 'arm', 'leg', 'hand', 'foot'] })[0] || ''), 'the shirt in the legend must throw');
+    ok(/no measured omitPool/.test(faceRefusal('K-362', { figureH: 320 })[0] || ''), 'an unmeasured F4 figure height must throw');
+    ok(/pairs 6 \+ singles 3 ≠ cards 8/.test(faceRefusal('K-363', { pairs: 6 })[0] || ''), 'pairs + singles ≠ cards must throw');
+    ok(/figureH 540 < 630 — the colouring stage would float/.test(faceRefusal('K-361', { figureH: 540 })[0] || ''), 'the design\'s 540 colouring figure must be REFUSED as sparse (the seam is the only way past it)');
+    ok(/swatch 26 < 36/.test(faceRefusal('K-361', { swatch: 26 })[0] || ''), 'a 26 px swatch must throw (K colouring key)');
+    ok(/faceMax 3 outside 0\.\.2/.test(faceRefusal('G1-356', { faceMax: 3 })[0] || ''), 'F3 faceMax 3 must throw (the config guard, not the level index)');
+    ok(/eligible pool 5 < 6 labels \(refuse\)/.test(faceRefusal('G1-356', {}, 'en', { ...en, refuseWords: { write: ['head', 'hair', 'eye', 'ear', 'nose', 'mouth', 'neck', 'arm', 'elbow', 'hand', 'finger'] } })[0] || ''), 'a write pool under `labels` must REFUSE');
+    // 7. FACE SWEEPS — 20 seeds x d2 per face: the page varies; a per-word refusal shrinks the pool
+    if (!QUICK) {
+      const sw = { 'K-360': new Set(), 'K-361': new Set(), 'G1-356': new Set(), 'K-362': new Set(), 'K-363': new Set() };
+      let fallbacks = 0;
+      const fr = clone(en); fr.refuseWords = { write: ['eye'] };
+      let withEye = 0;
+      for (let k = 1; k <= 20; k++) {
+        for (const id of FACE_IDS) {
+          const face = FACE_SPECS[id];
+          const rng = makeRng(instanceSeed({ typeId: id, theme: null, difficulty: 2, seedEpoch: k }));
+          const out = face.build({ theme: null, difficulty: 2, locale: 'en' }, { rng });
+          const key = out.meta.cards ? out.meta.cards.join() : out.meta.legend ? out.meta.legend.join() : out.meta.parts ? out.meta.parts.join() + '|' + out.meta.sides.join() : out.meta.hidden.join() + '|' + out.meta.chips.join();
+          sw[id].add(key);
+          if (out.meta.fallback) fallbacks++;
+        }
+        const rng2 = makeRng(instanceSeed({ typeId: 'G1-356', theme: null, difficulty: 2, seedEpoch: k }));
+        const o = FACE_SPECS['G1-356']._buildWith(fr, FACE_SPECS['G1-356'].difficulty[2], { locale: 'en' }, { rng: rng2 });
+        if (o.meta.parts.includes('eye')) withEye++;
+      }
+      for (const id of FACE_IDS) ok(sw[id].size >= 15, `face sweep ${id}: ${sw[id].size} distinct pages over 20 seeds`);
+      ok(fallbacks === 0, `face sweep: ${fallbacks} F3 marker fallbacks over 20 seeds`);
+      ok(withEye === 0, `refuseWords.write ['eye']: ${withEye} F3 pages still mark the eye`);
+      console.log(`face sweeps: ${FACE_IDS.map((id) => id + ' ' + sw[id].size + '/20').join(', ')}; F3 fallbacks ${fallbacks}; refuseWords.write [eye] 0/20`);
+    }
     // 5. poisons
     let killed = 0;
-    const TOTAL = 24;
+    const TOTAL = 44;
     const ctlFacts = validateFacts(FACTS).length === 0, ctlEn = validateBank(en, 'en').length === 0;
     // P1 tooth
     { const F = clone(FACTS); F.parts.tooth = { count: 20, cue: 'tooth' }; if (judge('P1', validateFacts(F), /parts keys .* ≠ the 16|parts\.tooth: a banned part|count 20/) && ctlFacts) killed++; }
@@ -672,6 +946,78 @@ async function main() {
       const c = judge('PO node', own, /runs over the figure's (torso|leg|neck|head|hand)/, `verify ${r.verify.length}`);
       if (c) killed++;
     }
+    // ---- the FACE poisons (design §5 PR2-PR7, PR11, PR13 + the nt10-D SPARSE poisons); the correct face renders above are the controls
+    const rewiredFace = (id, fn, cfgPatch, bank) => Object.assign(Object.create(FACE_SPECS[id]), { build(args, ctx) {
+      const out = FACE_SPECS[id]._buildWith(bank || en, { ...FACE_SPECS[id].difficulty[2], ...(cfgPatch || {}) }, args, ctx);
+      out.bodyHtml = fn(out.bodyHtml);
+      return out;
+    } });
+    async function facePoison(name, id, fn, re, opts = {}) {
+      const r = await renderFace(rewiredFace(id, fn, opts.cfg, opts.bank), { baseName: `${id}-gate-poison-${name.split(' ')[0]}` });
+      const findings = opts.lints ? r.lints : r.verify;
+      const hit = judge(name, findings, re, opts.note);
+      if (opts.node) {   // the gate's own floors must see it too
+        const before = fails.length, saved = assertions;
+        assertFace(name, r, FACE_SPECS[id]);
+        const own = fails.splice(before); assertions = saved;
+        const h2 = judge(name + ' node', own, opts.node);
+        return hit && h2;
+      }
+      return hit;
+    }
+    // P14 — refuseWords.count leaves the count-1 pool at 1 → rule 6 (bank)
+    { const b = clone(en); b.refuseWords = { count: ['head', 'nose'] }; if (judge('P14', validateBank(b, 'en'), /F1 count pools 1\/8\/1 < 2\/3\/1 and count is not refused/) && ctlEn) killed++; }
+    // P15 — the neck picture re-added to the F5 singles pool → the facts rule
+    { const F = clone(FACTS); F.pairsPool.singles.push('neck'); if (judge('P15', validateFacts(F), /neck sits in a picture pool but its picture is excluded/) && ctlFacts) killed++; }
+    // PN — the neck PICTURE drawn on a F5 single card → verify + the gate's own check
+    if (await facePoison('PN neck picture', 'K-363', (h) => h.replace(/(<section class="ws-card" data-lcs-pair-card="(head|nose|mouth)" data-lcs-pair="0"[^>]*><img class="ws-icon" src=")[^"]+/, (_, a) => a + fileUri('body parts', 'neck')), /the excluded picture "neck" is drawn/, { node: /the excluded picture "neck" is drawn/ })) killed++;
+    // PX2 — the design's 540 colouring build (through the seam): the stage floor + the slack rule fire, in verify AND the gate
+    if (await facePoison('PX2 F2 at 540', 'K-361', (h) => h, /stage 540 < 630 — sparse|px of paper under the colouring stage \(> 180\) — sparse/, { cfg: { figureH: 540, sparseSeam: true }, node: /the 630 floor — sparse|\(> 180\) — sparse/ })) killed++;
+    // PR2 — a wordBank injected on F3 → "a word bank on the write face"
+    if (await facePoison('PR2 bank on F3', 'G1-356', (h) => h.replace('<div data-lcs-writestage', C4.bodyLabelBank({ words: [{ id: 'arm', word: 'arm' }, { id: 'leg', word: 'leg' }], wordPx: 18 }) + '<div data-lcs-writestage'), /a word bank on the write face/, { node: /a bank \/ picture on the write face/ })) killed++;
+    // PR3 — F4: a distractor from the target's confusable group (the `hand` chip beside an arm-less figure, or knee beside a leg-less one)
+    if (await facePoison('PR3 fence', 'K-362', (h) => {
+      const m = /<div data-lcs-missing="(arm|hand|leg|foot)"[\s\S]*?<span data-lcs-chips[\s\S]*?<\/span><\/div>/.exec(h);
+      if (!m) throw new Error('PR3: no bilateral omission on the page');
+      const bad = { arm: 'hand', hand: 'elbow', leg: 'knee', foot: 'knee' }[m[1]];
+      const card = m[0].replace(/<span data-lcs-chip="([a-z]+)" data-lcs-correct="0"([^>]*)><img class="ws-icon" src="[^"]+"/, (_, id, rest) => `<span data-lcs-chip="${bad}" data-lcs-correct="0"${rest}><img class="ws-icon" src="${fileUri('body parts', bad)}"`);
+      return h.replace(m[0], card);
+    }, /a distractor from the target's confusable group/, { node: /has a distractor from its confusable group/ })) killed++;
+    // PR4 — F1: the hand cue shown on two cards
+    if (await facePoison('PR4 cue twice', 'K-360', (h) => {
+      const srcs = [...h.matchAll(/<img class="ws-icon" src="([^"]+)" data-lcs-cue="([a-z]+)"/g)];
+      return h.replace(srcs[1][0], `<img class="ws-icon" src="${srcs[0][1]}" data-lcs-cue="${srcs[1][2]}"`);
+    }, /cue "[a-z]+" shown twice/, { node: /cue pictures, \d distinct/ })) killed++;
+    // PR5 — F5: the pair cards printed with the PLURAL (the answer)
+    if (await facePoison('PR5 plural', 'K-363', (h) => h.replace(/(<section class="ws-card" data-lcs-pair-card="([a-z]+)" data-lcs-pair="1"[\s\S]*?<span data-lcs-pair-word[^>]*>)[^<]+(<\/span>)/, (_, a, id, b) => a + en.plural[id] + b), /prints the plural \(the answer\)|≠ the singular/, { node: /a card word ≠ its singular part word/ })) killed++;
+    // PR6 — F2: a region pre-filled codeBlue
+    if (await facePoison('PR6 prefilled', 'K-361', (h) => h.replace(/(<g data-lcs-region="leg-L"><path d="[^"]+" fill=")#FFFFFF/, '$1#2E6DA4'), /region leg-L is pre-filled #2E6DA4 \(not white\)/)) killed++;
+    // PR7 — F4: a figure at h 300 hiding the nose → the omitPool guard fires before render
+    { if (judge('PR7 nose', faceRefusal('K-362', { omitPool: ['arm', 'hand', 'leg', 'foot', 'nose'] }), /omitPool "nose" is not measured >= 14 px at h 300/)) killed++; }
+    // PR11 — F3: letter boxes 40 → the G1 floor guard, and the render floor past it
+    {
+      const a = judge('PR11 guard', faceRefusal('G1-356', { box: 40 }), /letter box 40 < the G1 floor 44/);
+      const c = await facePoison('PR11 floor', 'G1-356', (h) => h.replace(/<rect x="([\d.]+)" y="1" width="44" height="44"/g, '<rect x="$1" y="1" width="40" height="40"'), /a letter box is 40 px < 44/, { node: /boxes \d+ @ 40\.0 px/ });
+      if (a && c) killed++;
+    }
+    // PR13 — F4: a hidden region kept in the DOM with display:none → "hidden region present"
+    if (await facePoison('PR13 display-none', 'K-362', (h) => h.replace(/data-lcs-hidden="([a-z-]+)( [a-z-]+)?"([^>]*>)/, (_, first, rest, tail) => `data-lcs-hidden="${first}${rest || ''}"${tail}<g data-lcs-region="${first}" style="display:none"></g>`), /hidden region [a-z-]+ is present in the DOM/)) killed++;
+    // PM — F3: two marker numerals swapped (the numbering no longer runs top-to-bottom)
+    if (await facePoison('PM swapped numerals', 'G1-356', (h) => h.replace(/data-lcs-n="1"/g, 'data-lcs-n="X"').replace(/data-lcs-n="2"/g, 'data-lcs-n="1"').replace(/data-lcs-n="X"/g, 'data-lcs-n="2"').replace(/>1<\/text>/, '>X</text>').replace(/>2<\/text>/, '>1</text>').replace(/>X<\/text>/, '>2</text>'), /marker numerals do not run top-to-bottom|rows are not in numeral order|≠ stamped part/, { node: /want 6, top-to-bottom|parts stamp ≠ the markers/ })) killed++;
+    // PSO — F5: the cards re-ordered with every pair first
+    if (await facePoison('PSO sorted', 'K-363', (h) => {
+      const cards = [...h.matchAll(/<section class="ws-card" data-lcs-pair-card="[a-z]+" data-lcs-pair="([01])"[\s\S]*?<\/section>/g)];
+      const sorted = cards.slice().sort((a, b) => +b[1] - +a[1]).map((c) => c[0]).join('');
+      return h.replace(cards.map((c) => c[0]).join(''), sorted);
+    }, /the cards are sorted by the answer/, { node: /cards sorted by the answer/ })) killed++;
+    // SPARSE poisons — one per face, each the layout the brief forbids (a small stage floating / not filling)
+    if (await facePoison('PS1 F1 grid not filling', 'K-360', (h) => h.replace(/data-lcs-countgrid style="flex:1 1 auto;min-height:0;grid-template-columns:repeat\(2,minmax\(0,1fr\)\);grid-template-rows:repeat\(3,minmax\((\d+)px,1fr\)\)/, 'data-lcs-countgrid style="flex:1 1 auto;align-self:flex-start;min-height:0;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(3,$1px)'), /does not fill\) — sparse/, { node: /do not fill the body .* — sparse/ })) killed++;
+    if (await facePoison('PS2 F2 stage centred', 'K-361', (h) => h.replace('align-items:flex-start;flex:0 0 auto">', 'align-items:flex-start;flex:0 0 auto;margin-top:auto;margin-bottom:auto">'), /not top-anchored\) — sparse/, { node: /not top-anchored\) — sparse/ })) killed++;
+    if (await facePoison('PS3 F3 stage centred', 'G1-356', (h) => h.replace('style="display:flex;flex-direction:column;flex:0 0 auto">', 'style="display:flex;flex-direction:column;flex:1 1 auto;justify-content:center">'), /not top-anchored\) — sparse/, { node: /top-anchored, >= the rows stack\) — sparse/ })) killed++;
+    if (await facePoison('PS4 F4 grid not filling', 'K-362', (h) => h.replace('<div class="ws-cardgrid" style="', '<div class="ws-cardgrid" style="flex:0 0 auto;grid-template-rows:repeat(2,328px) !important;'), /does not fill\) — sparse/, { node: /card grid does not fill the body .* — sparse/ })) killed++;
+    if (await facePoison('PS5 F5 grid not filling', 'K-363', (h) => h.replace(/data-lcs-pairgrid style="flex:1 1 auto;min-height:0;grid-template-columns:repeat\(2,minmax\(0,1fr\)\);grid-template-rows:repeat\(4,minmax\((\d+)px,1fr\)\)/, 'data-lcs-pairgrid style="flex:1 1 auto;align-self:flex-start;min-height:0;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(4,$1px)'), /does not fill\) — sparse/, { node: /pair grid does not fill the body .* — sparse/ })) killed++;
+    // PSB — F3 rows spread apart (a blank band between rows)
+    if (await facePoison('PSB F3 band', 'G1-356', (h) => h.replace('data-lcs-spellrows style="display:flex;flex-direction:column;gap:12px;', 'data-lcs-spellrows style="display:flex;flex-direction:column;gap:60px;'), /px of blank band above it \(gap 12\) — sparse/, { node: /blank band between rows/ })) killed++;
     console.log('poison:\n' + poisonLog.join('\n'));
     if (fails.length) console.log('FAILS:\n  ' + fails.join('\n  '));
     console.log('PNGs: ' + pngs.map((p) => path.relative(process.cwd(), p)).join(' '));
@@ -684,4 +1030,4 @@ async function main() {
 }
 
 if (require.main === module) main().catch((e) => { console.error(e && e.stack || e); process.exit(1); });
-module.exports = { validateBank, validateFacts, nodeSweep, syntheticBlock, MOVE_WORDS };
+module.exports = { validateBank, validateFacts, nodeSweep, syntheticBlock, MOVE_WORDS, FACE_ROWS };

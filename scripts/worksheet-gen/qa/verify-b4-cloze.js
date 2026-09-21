@@ -112,6 +112,27 @@
  *      PR12 apple + cherry as the only frames             → the composer REFUSES (twin)
  *      PR13 the base under a 4-line title                 → footer lint
  *      PRa  the answer printed in its sentence · PRb the bank in row order · PRc a starter glyph · PRd a hint chip · PRe a picture swapped
+ * 5. FACES (Phase 2; design §3; record _work/G1-350-faces.md) — for each of
+ *    letters G1-366 / choice G1-367 / plural G2-349 / story G2-350 / match
+ *    G1-368: the row (tools/b4var-rows/cloze.js) ≡ the emitted spec ≡ the
+ *    bank's strings.<mode> (one source); rendered through the real pipeline at
+ *    the default en chrome, the 3+3 chrome (710) and the 4-line-title chrome
+ *    (677: letters / choice / match must hold it; plural / story are capped at
+ *    a 3-line fi title by rule 13 and must FAIL it — PR13b / PR13c); verify()
+ *    (the VERIFY_FACE branch: floors, the answer never printed, the stage
+ *    top-anchored + filling the body, the SPARSE band inside every lane /
+ *    block / between match items <= 44) empty, lints clean, the node
+ *    cross-check (faceCross: answerFor on every stamp, pinned pictures, fits
+ *    disjoint, foils by gender + off the page, clone counts, strip orders,
+ *    derangements, twins, themes); every pinned picture on disk as
+ *    <theme>/<noun>@2x.webp; a 20-seed sweep per face; the face poisons:
+ *      PR3 a bank on letters · PF1 a box-count stamp edited · PF1b a starter at d2 · PF1c box 26 (the spec refuses) · PF1d 8 rows at 710 · PS1 fixed rows
+ *      PR11 a wrapped choice sentence · PF2 the answer chip re-labelled · PF2b answer-first on every row · PF2c a chip pre-marked · PF2d a foil on the page · PF2e wrong-gender foils (de, refuses) · PS2
+ *      PR4 a hint chip on plural · PF3 a clone stamp edited · PF3b the singular printed · PF3c a bank on plural · PF3d da refuses · PF3e hint:true refuses · PS3
+ *      PR5 a strip in sentence order · PF4 the bank in line order · PF4b an answer printed · PF4c two names in one story · PF4d sentences:4 refuses · PS4
+ *      PR6 a picture straight across · PR7 the noun printed · PF5 a picture in a sentence item · PS5 fixed 92 items flex-start (slack pools)
+ *      PR15 sv unauthored refuses on every face · PR16 strings.match missing refuses · PF6 overlapping fits on match (the composer refuses)
+ *    Final line: PASS (N assertions, M/M poisons killed) or FAIL.
  */
 'use strict';
 const fs = require('fs');
@@ -149,8 +170,8 @@ const FACES = ['base', 'letters', 'choice', 'plural', 'story', 'match'];
 const FORMS_BY_LOC = (loc) => (loc === 'fi' ? ['sg', 'pl', 'unique', 'part', 'gen'] : loc === 'de' ? ['sg', 'pl', 'def', 'defPl', 'a2'] : ['sv', 'da', 'no'].includes(loc) ? ['sg', 'pl', 'def', 'defPl'] : ['sg', 'pl', 'unique', 'def', 'defPl', 'a2']);
 const D2 = TYPE.difficulty[2];
 
-let fails = 0, asserts = 0;
-function ok(cond, msg) { asserts++; if (!cond) { fails++; console.log('  FAIL ' + msg); } }
+let fails = 0, asserts = 0, killed = 0, poisonTotal = 0;
+function ok(cond, msg) { asserts++; if (!cond) { fails++; console.log('  FAIL ' + msg); } return !!cond; }
 function fold(s) { return String(s || '').trim().toLocaleLowerCase(); }
 function nfd(s) { return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
 function hasWord(text, word) { if (!word) return false; const w = nfd(word).replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); return new RegExp('(?<!\\p{L})' + w + '(?!\\p{L})', 'iu').test(nfd(text)); }
@@ -584,6 +605,8 @@ const I3 = 'Look at each picture carefully and read the whole sentence beside it
 const CHROME = {
   three: { title: 'Fill in the Blank Sentences: Read Each Line, Look at the Picture and Write', instruction: I3 },
   four: { title: 'Kuvalliset täydennyslauseet: kirjoita jokaisen kuvan puuttuva sana laatikkoon', instruction: I3 },
+  // under lang="fi" the en 3-line fixture wraps to FOUR lines (measured: 132 px, body 677); a Finnish 77-char title measures 3 lines (99 px, body 710)
+  threeFi: { title: 'Täydennä lauseet: katso kuvaa, lue lause ja kirjoita puuttuva sana laatikkoon', instruction: I3 },
 };
 
 /**
@@ -664,6 +687,210 @@ function FN(b, noun) { return b.frames.find((f) => f.noun === noun); }
 /** The synthetic blocks lack the taxonomy slug (not registered yet) and their frames are not F2-shaped in every case: filter those known non-defects. */
 const SYNTH_IGNORE = /^rule 16: axes|^WARN:/;
 
+/* ------------------------------------------------------------------ 5. the faces (Phase 2; design §3; record _work/G1-350-faces.md) ------------------------------------------------------------------ */
+const FACE_ROWS = require('../tools/b4var-rows/cloze.js').ROWS;
+const WEBP_THEMES = path.join(__dirname, '..', '..', '..', 'frontend', 'public', 'image-library-webp', 'themes');   // the served library: every picture a face keeps must exist here as <theme>/<noun>@2x.webp
+const FACE_OF = { letters: 'G1-366', choice: 'G1-367', plural: 'G2-349', story: 'G2-350', match: 'G1-368' };
+function faceSpec(mode) {
+  const row = FACE_ROWS.find((r) => r[5].mode === mode);
+  if (!row) throw new Error('no row for mode ' + mode);
+  return { row, spec: require(path.join('..', 'types', row[0], `${row[1]}-${row[2]}.js`)) };
+}
+/** A face over an injected bank (+ config overrides) — the same seam as withBank, keyed on the face's config. */
+function faceWithBank(spec, bank, dOver) { return { ...spec, build: (a, c) => spec._buildWith(bank, { ...spec.difficulty[2], ...(dOver || {}) }, { locale: a.locale }, c) }; }
+
+/** Render a face through the real pipeline and measure it: the root stamps, the stage vs the body, every lane / block / item, the pills, the lowest ink. */
+async function renderFace(page, spec, { baseName, strings, locale = 'en' }) {
+  const out = await renderInstance({ type: spec, theme: null, difficulty: 2, locale, page, outDir: OUT, baseName, strings });
+  const m = await page.evaluate(() => {
+    const r = (el) => { const b = el.getBoundingClientRect(); return { top: b.top, bottom: b.bottom, left: b.left, right: b.right, h: b.height, w: b.width }; };
+    const root = document.querySelector('[data-lcs-cloze]');
+    const body = r(document.querySelector('[data-lcs-body]')), foot = r(document.querySelector('.ws-foot')).top, title = r(document.querySelector('.ws-title'));
+    const stage = root ? r(root.querySelector('[data-lcs-list], [data-lcs-match]') || root) : null;
+    const banner = root && root.querySelector('[data-lcs-bank-banner]');
+    const pad = (el) => { const cs = getComputedStyle(el); return parseFloat(cs.paddingTop) + parseFloat(cs.paddingBottom); };
+    const contentH = (el) => Math.max(0, ...[...el.children].map((c) => r(c).h));
+    let lowest = 0; document.querySelectorAll('.ws-body *').forEach((el) => { const b = el.getBoundingClientRect(); if (b.width && b.height && b.bottom > lowest) lowest = b.bottom; });
+    const lanes = [...document.querySelectorAll('[data-lcs-row]')].map((ln) => {
+      const p = ln.querySelector('[data-lcs-sentence]'), imgs = [...ln.querySelectorAll('img[data-lcs-pic]')], box = ln.querySelector('[data-lcs-gapbox]'), lg = ln.querySelector('[data-lcs-lettergap]'), strip = ln.querySelector('[data-lcs-clones]'), chipsEl = ln.querySelector('[data-lcs-chips]');
+      return { frame: ln.dataset.lcsFrame, key: ln.dataset.lcsKey, form: ln.dataset.lcsForm, kase: ln.dataset.lcsCase || null, answer: ln.dataset.lcsAnswer, foil: ln.dataset.lcsFoil || null, boxesStamp: ln.dataset.lcsBoxes ? +ln.dataset.lcsBoxes : null,
+        text: p ? p.textContent : '', pH: p ? r(p).h : 0, font: p ? parseFloat(getComputedStyle(p).fontSize) : 0,
+        pic: imgs[0] ? imgs[0].dataset.lcsPic : null, src: imgs[0] ? imgs[0].src : null, picW: imgs[0] ? r(imgs[0]).w : 0, nImgs: imgs.length, sameSrc: new Set(imgs.map((i) => i.src)).size <= 1,
+        boxW: box ? r(box).w : 0, boxH: box ? r(box).h : 0, lgBoxes: lg ? +lg.dataset.lcsBoxes : null, lgRects: lg ? lg.querySelectorAll('rect').length : 0, lgW: lg ? r(lg).w : 0, lgBoxPx: lg ? +(lg.querySelector('rect') || { getAttribute: () => 0 }).getAttribute('width') : 0,
+        clones: strip ? +strip.dataset.lcsClones : null, idx: chipsEl ? +chipsEl.dataset.lcsIdx : null,
+        chips: [...ln.querySelectorAll('[data-lcs-chip]')].map((c) => ({ word: c.dataset.lcsChip, role: c.dataset.lcsRole, h: r(c).h, w: r(c).w })),
+        h: r(ln).h, inner: ln.clientHeight, scroll: ln.scrollHeight, blank: ln.clientHeight - pad(ln) - contentH(ln) };
+    });
+    const stories = [...document.querySelectorAll('[data-lcs-story]')].map((bk) => {
+      const strip = bk.querySelector('[data-lcs-strip-order]');
+      return { id: bk.dataset.lcsStoryId, keys: (bk.dataset.lcsKeys || '').split(','), order: strip ? strip.dataset.lcsStripOrder.split(',').map(Number) : [],
+        pics: [...bk.querySelectorAll('img[data-lcs-strip-pic]')].map((i) => ({ key: i.dataset.lcsPic, src: i.src, w: r(i).w })),
+        lines: [...bk.querySelectorAll('[data-lcs-sentence]')].map((p) => ({ line: +p.dataset.lcsLine, key: p.dataset.lcsKey, form: p.dataset.lcsForm, answer: p.dataset.lcsAnswer, frame: p.dataset.lcsFrame, text: p.textContent, pH: r(p).h, boxW: (p.querySelector('[data-lcs-gapbox]') || { getBoundingClientRect: () => ({ width: 0 }) }).getBoundingClientRect().width })),
+        h: r(bk).h, inner: bk.clientHeight, scroll: bk.scrollHeight, blank: bk.clientHeight - pad(bk) - ([...bk.children].reduce((s, c) => s + r(c).h, 0) + 8 * Math.max(0, bk.children.length - 1)) };
+    });
+    const left = [...document.querySelectorAll('[data-lcs-match-left]')].map((it) => ({ frame: it.dataset.lcsMatchLeft, key: it.dataset.lcsKey, form: it.dataset.lcsForm, answer: it.dataset.lcsAnswer, text: (it.querySelector('[data-lcs-match-text]') || { textContent: '' }).textContent, h: r(it).h, top: r(it).top, bottom: r(it).bottom, imgs: it.querySelectorAll('img').length }));
+    const right = [...document.querySelectorAll('[data-lcs-match-right]')].map((it) => { const im = it.querySelector('img'); return { key: it.dataset.lcsMatchRight, src: im ? im.src : null, picW: im ? r(im).w : 0, h: r(it).h, top: r(it).top, bottom: r(it).bottom, text: it.textContent.trim() }; });
+    const pills = [...document.querySelectorAll('[data-lcs-bank-word]')].map((e) => ({ word: e.dataset.lcsBankWord, top: Math.round(r(e).top), font: parseFloat(getComputedStyle(e).fontSize) }));
+    return { stamps: root ? { ...root.dataset } : null, body, foot, titleH: title.h, lines: Math.round(title.h / (30 * 1.1)), bank: banner ? r(banner).h : 0, stage, lowest, lanes, stories, left, right, pills, gapW: root ? +(root.dataset.lcsGapw || 0) : 0 };
+  });
+  return { ...out, verify: out.qa.verify, lints: out.qa.lints, m };
+}
+
+/** The node cross-check for a face: every stamped literal re-derived from the bank + globals (answerFor / pinned pictures / fits / foils / clones / strip orders / derangements / twins / themes). */
+function faceCross(mode, m, bank, loc, globals) {
+  const out = [];
+  const G = globals || bankModule('cloze');
+  const confusable = (bank.confusable || []).map((p) => p.slice().sort().join('|'));
+  const twinsOk = (keys, where) => { const gs = keys.map((k) => TYPE.twinGroupOf(k, G.twins || [])).filter((g) => g >= 0); if (new Set(gs).size !== gs.length) out.push(`${where}: two keys of one twin group`); };
+  const confOk = (keys, where) => { for (let i = 0; i < keys.length; i++) for (let j = i + 1; j < keys.length; j++) if (confusable.includes([keys[i], keys[j]].sort().join('|'))) out.push(`${where}: confusable pair ${keys[i]} / ${keys[j]}`); };
+  const pinOk = (f, src, L) => { try { const want = fileUri(f.pic.theme, f.pic.noun); if (src !== want) out.push(`${L}: picture src is not the pinned ${f.pic.theme}/${f.pic.noun}`); } catch (e) { out.push(`${L}: ${e.message}`); } };
+  if (['letters', 'choice', 'plural'].includes(mode)) {
+    const list = mode === 'plural' ? (bank.plural || []) : (bank.frames || []);
+    const byId = new Map(list.map((f) => [f.id, f]));
+    const keys = m.lanes.map((l) => l.key);
+    const themes = new Map();
+    const taken = m.lanes.map((l) => byId.get(l.frame)).filter(Boolean);
+    m.lanes.forEach((l, i) => {
+      const L = `lane ${i + 1}`;
+      const f = byId.get(l.frame);
+      if (!f) { out.push(`${L}: frame "${l.frame}" is not in the ${mode === 'plural' ? 'plural' : 'frames'} list`); return; }
+      if (f.noun !== l.key) out.push(`${L}: stamped key ${l.key}, the frame's noun is ${f.noun}`);
+      if (f.form !== l.form) out.push(`${L}: stamped form ${l.form}, the frame says ${f.form}`);
+      if ((f.case || null) !== l.kase) out.push(`${L}: stamped case ${l.kase}, the frame says ${f.case || null}`);
+      let a = null; try { a = TYPE.answerFor(loc, f.noun, f.form); } catch (e) { out.push(`${L}: ${e.message}`); }
+      if (a && a !== l.answer) out.push(`${L}: stamped answer "${l.answer}", answerFor says "${a}"`);
+      if (a && hasWord(l.text, a)) out.push(`${L}: the answer "${a}" is printed`);
+      const other = ['pl', 'defPl'].includes(f.form) ? 'sg' : 'pl';
+      let o = null; try { o = TYPE.answerFor(loc, f.noun, other); } catch (e) { o = null; }
+      if (o && hasWord(l.text, o)) out.push(`${L}: the other number "${o}" is printed`);
+      if (l.pic !== f.noun) out.push(`${L}: picture "${l.pic}" != the frame's noun`);
+      pinOk(f, l.src, L);
+      for (const x of f.fits) if (x !== f.noun && keys.includes(x)) out.push(`${L}: fits "${x}" is another lane's key (two answers fit)`);
+      for (const t of taken) if (t !== f && t.fits.includes(f.noun)) out.push(`${L}: key "${f.noun}" fits frame ${t.id}`);
+      const [tok] = tokensBefore(f.text);
+      const e = entryOf(loc, f.noun);
+      if (e && loc === 'en' && ['a', 'an'].includes(tok) && ['a', 'an'][ARTICLES.en.keyFor(e)] !== tok) out.push(`${L}: article "${tok}" before "${e.singular}"`);
+      if (e && !['en', 'fi', 'fr', 'it'].includes(loc) && f.form === 'sg' && articleLiterals(loc, bank.articleTable).has(tok)) { const want = expectedArticle(loc, bank.articleTable, e.gender, f.case); if (want && fold(want) !== tok) out.push(`${L}: article "${tok}" before "${e.singular}" (table says ${want})`); }
+      themes.set(f.pic.theme, (themes.get(f.pic.theme) || 0) + 1);
+      if (l.font < 16) out.push(`${L}: font ${l.font} < 16`);
+      if (l.scroll > l.inner + 0.6) out.push(`${L}: lane content ${l.scroll} > inner ${l.inner} (clipped)`);
+      if (mode === 'letters') {
+        if (l.lgBoxes !== graphemes(l.answer) || l.boxesStamp !== graphemes(l.answer)) out.push(`${L}: ${l.lgBoxes} / ${l.boxesStamp} boxes for "${l.answer}" (${graphemes(l.answer)} graphemes)`);
+        if (l.lgRects !== l.lgBoxes) out.push(`${L}: ${l.lgRects} rects for ${l.lgBoxes} boxes`);
+        if (l.lgBoxPx < 44) out.push(`${L}: letter box ${l.lgBoxPx} px < the G1 floor 44`);
+        if (!/^\p{L}+$/u.test(l.answer)) out.push(`${L}: the answer "${l.answer}" is not one word`);
+        if (l.boxW) out.push(`${L}: a gap box on the letters face`);
+        if (l.picW < 56 - 0.6) out.push(`${L}: picture ${l.picW.toFixed(1)} < 56`);
+      }
+      if (mode === 'choice') {
+        const foil = f.foil;
+        if (l.foil !== foil) out.push(`${L}: stamped foil "${l.foil}", the frame says "${foil}"`);
+        let fa = null; try { fa = TYPE.answerFor(loc, foil, 'sg'); } catch (e) { out.push(`${L}: foil ${e.message}`); }
+        const chipFoil = (l.chips.find((c) => c.role === 'foil') || {}).word, chipAns = (l.chips.find((c) => c.role === 'answer') || {}).word;
+        if (fa && chipFoil !== fa) out.push(`${L}: the foil chip prints "${chipFoil}", answerFor(${foil}, sg) is "${fa}"`);
+        if (chipAns !== l.answer) out.push(`${L}: the answer chip prints "${chipAns}", the stamp says "${l.answer}"`);
+        if (l.chips.length !== 2) out.push(`${L}: ${l.chips.length} chips`);
+        if (l.chips.some((c) => c.h < 44 - 0.6)) out.push(`${L}: a chip under 44`);
+        if (f.fits.includes(foil)) out.push(`${L}: the foil "${foil}" is in fits`);
+        if (keys.includes(foil)) out.push(`${L}: the foil "${foil}" is a picture on the page`);
+        const g1 = TYPE.genderOf(loc, f.noun), g2 = TYPE.genderOf(loc, foil);
+        if (g1 && g2 && g1 !== g2) out.push(`${L}: foil gender ${g2} != ${g1}`);
+        if (confusable.includes([f.noun, foil].sort().join('|'))) out.push(`${L}: the foil is the confusable partner`);
+        if (l.pH > 40.5) out.push(`${L}: sentence ${l.pH.toFixed(1)} > 40 (wrapped)`);
+        if (l.boxW < 150 - 0.6 || l.boxW > 168.6 || Math.abs(l.boxW - m.gapW) > 1) out.push(`${L}: box ${l.boxW.toFixed(1)} vs gapW ${m.gapW} (150..168)`);
+        if (l.picW < 56 - 0.6) out.push(`${L}: picture ${l.picW.toFixed(1)} < 56`);
+      }
+      if (mode === 'plural') {
+        if (f.clones != null && l.clones !== f.clones) out.push(`${L}: ${l.clones} clones, the frame names ${f.clones}`);
+        if (l.clones < 2 || l.clones > 3 || l.nImgs !== l.clones || !l.sameSrc) out.push(`${L}: ${l.nImgs} pictures for ${l.clones} clones`);
+        if (l.picW < 44 - 0.6) out.push(`${L}: clone ${l.picW.toFixed(1)} < 44`);
+        if (l.pH > 64.5) out.push(`${L}: sentence ${l.pH.toFixed(1)} > 64`);
+        if (l.boxW < 150 - 0.6 || Math.abs(l.boxW - m.gapW) > 1) out.push(`${L}: box ${l.boxW.toFixed(1)} vs gapW ${m.gapW}`);
+        const e2 = entryOf(loc, f.noun); if (e2 && !countable(e2)) out.push(`${L}: "${f.noun}" is not countable`);
+      }
+    });
+    for (const [t, n] of themes) if (n > 2) out.push(`${n} lanes from the theme "${t}" (> 2)`);
+    if (new Set(keys).size !== keys.length) out.push('a key twice on the page');
+    twinsOk(keys, 'page'); confOk(keys, 'page');
+    const answers = m.lanes.map((l) => fold(l.answer));
+    if (m.pills.length) { for (const a of answers) if (!m.pills.some((p) => fold(p.word) === a)) out.push(`answer "${a}" missing from the bank`); if (m.pills.some((p, i) => fold(p.word) === answers[i])) out.push('the bank is not deranged'); }
+    if (!m.lanes.length) out.push('non-vacuity: 0 lanes');
+  } else if (mode === 'story') {
+    const byId = new Map((bank.stories || []).map((s) => [s.id, s]));
+    const allKeys = m.stories.flatMap((b) => b.keys);
+    const taken = m.stories.map((b) => byId.get(b.id)).filter(Boolean);
+    m.stories.forEach((b, bi) => {
+      const B = `block ${bi + 1}`;
+      const s = byId.get(b.id);
+      if (!s) { out.push(`${B}: story "${b.id}" is not in the bank`); return; }
+      if (b.keys.join(',') !== s.nouns.join(',')) out.push(`${B}: keys ${b.keys.join(',')} != the story's nouns ${s.nouns.join(',')}`);
+      if (b.order.join(',') === '0,1,2') out.push(`${B}: the strip is in sentence order`);
+      b.pics.forEach((p, j) => { const i = b.order[j]; if (p.key !== s.nouns[i]) out.push(`${B}: strip picture ${j + 1} "${p.key}" != nouns[${i}]`); try { if (p.src !== fileUri(s.pics[i].theme, s.pics[i].noun)) out.push(`${B}: strip picture ${j + 1} is not the pinned ${s.pics[i].theme}/${s.pics[i].noun}`); } catch (e) { out.push(`${B}: ${e.message}`); } if (p.w < 44 - 0.6) out.push(`${B}: strip picture ${p.w.toFixed(1)} < 44`); });
+      let name = null;
+      b.lines.forEach((l, i) => {
+        const L = `${B} line ${i + 1}`;
+        let a = null; try { a = TYPE.answerFor(loc, s.nouns[i], s.forms[i]); } catch (e) { out.push(`${L}: ${e.message}`); }
+        if (a && a !== l.answer) out.push(`${L}: stamped answer "${l.answer}", answerFor says "${a}"`);
+        if (l.key !== s.nouns[i] || l.form !== s.forms[i]) out.push(`${L}: key / form stamp != the story`);
+        // the rendered text = the story line with {gap} removed and ONE name in every {name}
+        const names = (SENTENCES[loc] && SENTENCES[loc].names) || [];
+        const norm = (t) => t.replace(/\s+/g, ' ').trim();
+        const want = s.text[i].replace('{gap}', '');
+        if (/\{name\}/.test(want)) { const hit = names.find((n) => norm(l.text) === norm(want.replace(/\{name\}/g, n))); if (!hit) out.push(`${L}: the rendered text "${norm(l.text)}" is not the story line with one name`); else if (name && hit !== name) out.push(`${B}: two names (${name} / ${hit}) inside one story`); else name = hit; }
+        else if (norm(l.text) !== norm(want)) out.push(`${L}: the rendered text "${norm(l.text)}" != the story line`);
+        for (const k of allKeys) for (const form of ['sg', 'pl']) { let o = null; try { o = TYPE.answerFor(loc, k, form); } catch (e) { o = null; } if (o && hasWord(l.text, o)) out.push(`${L}: prints "${o}" (a page noun)`); }
+        for (const x of s.fits[i]) if (x !== s.nouns[i] && allKeys.includes(x)) out.push(`${L}: fits "${x}" is another gap's key on the page`);
+        if (l.pH > 40.5) out.push(`${L}: line ${l.pH.toFixed(1)} > 40`);
+        if (l.boxW < 150 - 0.6 || l.boxW > 168.6 || Math.abs(l.boxW - m.gapW) > 1) out.push(`${L}: box ${l.boxW.toFixed(1)} vs gapW ${m.gapW}`);
+      });
+      for (const t of taken) if (t !== s) for (const fl of t.fits) for (const x of fl) if (s.nouns.includes(x)) out.push(`${B}: noun "${x}" fits a line of story ${t.id}`);
+      if (b.scroll > b.inner + 0.6) out.push(`${B}: block content clipped`);
+    });
+    if (new Set(allKeys).size !== allKeys.length) out.push('a key twice on the story page');
+    twinsOk(allKeys, 'page'); confOk(allKeys, 'page');
+    const answers = m.stories.flatMap((b) => b.lines.map((l) => fold(l.answer)));
+    if (new Set(answers).size !== answers.length) out.push('an answer twice on the story page');
+    if (m.pills.length !== answers.length) out.push(`${m.pills.length} pills for ${answers.length} gaps`);
+    for (const a of answers) if (!m.pills.some((p) => fold(p.word) === a)) out.push(`answer "${a}" missing from the bank`);
+    if (m.pills.some((p, i) => fold(p.word) === answers[i])) out.push('the bank is not deranged against the line order');
+    if (new Set(m.pills.map((p) => p.top)).size > 2) out.push('bank > 2 rows');
+    if (!m.stories.length) out.push('non-vacuity: 0 blocks');
+  } else if (mode === 'match') {
+    const byId = new Map((bank.frames || []).map((f) => [f.id, f]));
+    const keys = m.left.map((l) => l.key);
+    const taken = m.left.map((l) => byId.get(l.frame)).filter(Boolean);
+    m.left.forEach((l, i) => {
+      const L = `left ${i + 1}`;
+      const f = byId.get(l.frame);
+      if (!f) { out.push(`${L}: frame "${l.frame}" is not in the bank`); return; }
+      if (f.noun !== l.key || f.form !== l.form) out.push(`${L}: key / form stamp != the frame`);
+      let a = null; try { a = TYPE.answerFor(loc, f.noun, f.form); } catch (e) { out.push(`${L}: ${e.message}`); }
+      if (a && a !== l.answer) out.push(`${L}: stamped answer "${l.answer}", answerFor says "${a}"`);
+      for (const k of keys) for (const form of ['sg', 'pl']) { let o = null; try { o = TYPE.answerFor(loc, k, form); } catch (e) { o = null; } if (o && hasWord(l.text, o)) out.push(`${L}: prints "${o}" (a page noun)`); }
+      for (const x of f.fits) if (x !== f.noun && keys.includes(x)) out.push(`${L}: fits "${x}" is another picture on the page (two pictures fit)`);
+      for (const t of taken) if (t !== f && t.fits.includes(f.noun)) out.push(`${L}: key "${f.noun}" fits frame ${t.id}`);
+      if (l.imgs) out.push(`${L}: a picture inside a sentence item`);
+      const r = m.right.find((x) => x.key === l.key);
+      if (!r) out.push(`${L}: no picture for "${l.key}" on the right`); else pinOk(f, r.src, L);
+    });
+    m.right.forEach((rt, i) => { if (rt.key === keys[i]) out.push(`right ${i + 1}: straight across from its sentence`); if (rt.picW < 64 - 0.6) out.push(`right ${i + 1}: picture ${rt.picW.toFixed(1)} < 64`); if (rt.text) out.push(`right ${i + 1}: prints "${rt.text}"`); });
+    if (keys.slice().sort().join() !== m.right.map((r) => r.key).sort().join()) out.push('the right keys != the left keys');
+    twinsOk(keys, 'page'); confOk(keys, 'page');
+    if (m.pills.length) out.push('a bank on the match face');
+    if (!m.left.length) out.push('non-vacuity: 0 pairs');
+  }
+  return out;
+}
+
+/** Sparse + fill measures of a face render, printed by the gate. */
+function faceMeasures(m) {
+  const slackUnder = (items) => (items.length ? Math.round(m.foot - Math.max(...items.map((i) => i.bottom))) : null);
+  if (m.lanes.length) return `body ${Math.round(m.body.h)} bank ${m.bank.toFixed(0)} lanes ${m.lanes.map((l) => l.h.toFixed(0)).join('/')} blank<=44 ${Math.max(...m.lanes.map((l) => Math.round(l.blank)))} stage ${Math.round(m.stage.h)} lowest ${Math.round(m.lowest)} vs foot ${Math.round(m.foot)}`;
+  if (m.stories.length) return `body ${Math.round(m.body.h)} bank ${m.bank.toFixed(0)} blocks ${m.stories.map((b) => b.h.toFixed(0)).join('/')} blank<=44 ${Math.max(...m.stories.map((b) => Math.round(b.blank)))} lowest ${Math.round(m.lowest)} vs foot ${Math.round(m.foot)}`;
+  if (m.left.length) { const bands = []; for (const col of [m.left, m.right]) for (let i = 1; i < col.length; i++) bands.push(col[i].top - col[i - 1].bottom); return `body ${Math.round(m.body.h)} items ${m.left.map((l) => l.h.toFixed(0)).join('/')} band<=44 ${Math.round(Math.max(...bands))} slack-under ${slackUnder(m.left)} lowest ${Math.round(m.lowest)} vs foot ${Math.round(m.foot)}`; }
+  return '';
+}
+
 /* ------------------------------------------------------------------ main ------------------------------------------------------------------ */
 
 async function main() {
@@ -738,7 +965,8 @@ async function main() {
       const r = await renderWith(page, TYPE, { difficulty: 2, baseName: 'G1-350-gate-d2-en-chrome677', strings: CHROME.four });
       const failed = [...r.verify, ...r.lints];
       ok(r.m.body.h <= 690, `677 chrome fixture gives body ${Math.round(r.m.body.h)} (want 677)`);
-      ok(failed.some((f) => /footer overlap|overflow/.test(f)), `PR13 677 chrome: the base must fail (footer / overflow), got ${JSON.stringify(failed)}`);
+      poisonTotal++;
+      if (ok(failed.some((f) => /footer overlap|overflow/.test(f)), `PR13 677 chrome: the base must fail (footer / overflow), got ${JSON.stringify(failed)}`)) killed++;
       console.log(`render d2 en 677 chrome (PR13): body ${Math.round(r.m.body.h)} → ${failed.length} fails (${failed[0]})`);
     }
 
@@ -840,9 +1068,10 @@ async function main() {
     const poison = (name, block, loc, re, opts) => {
       const errs = validateBank(block, loc, opts).filter((e) => !SYNTH_IGNORE.test(e) || re.test(e));
       const hit = errs.filter((e) => re.test(e));
+      poisonTotal++;
       if (!errs.length) { fails++; asserts++; console.log(`  FAIL ${name}: SILENT (the validator passed the poison)`); }
       else if (!hit.length) { fails++; asserts++; console.log(`  FAIL ${name}: WRONG REASON — ${errs.join(' | ')}`); }
-      else { asserts++; console.log(`  poison ${name}: killed (${hit[0]})`); }
+      else { asserts++; killed++; console.log(`  poison ${name}: killed (${hit[0]})`); }
     };
     const F = (b, id) => b.frames.find((f) => f.id === id);
     let b;
@@ -894,13 +1123,14 @@ async function main() {
     // ---- render poisons (the validator bypassed)
     const renderPoison = async (name, type, re, { difficulty = 2, strings } = {}) => {
       let r;
+      poisonTotal++;
       try { r = await renderWith(page, type, { difficulty, baseName: `G1-350-gate-poison-${name.split(' ')[0]}`, strings }); }
-      catch (e) { const hit = re.test(e.message); asserts++; if (!hit) { fails++; console.log(`  FAIL ${name}: WRONG REASON (threw) — ${e.message}`); } else console.log(`  poison ${name}: killed (build refused: ${e.message.slice(0, 100)})`); return; }
+      catch (e) { const hit = re.test(e.message); asserts++; if (!hit) { fails++; console.log(`  FAIL ${name}: WRONG REASON (threw) — ${e.message}`); } else { killed++; console.log(`  poison ${name}: killed (build refused: ${e.message.slice(0, 100)})`); } return; }
       const all2 = [...r.verify, ...r.lints, ...crossCheck(r.m, en, 'en', all)];
       const hit = all2.filter((f) => re.test(f));
       if (!all2.length) { fails++; asserts++; console.log(`  FAIL ${name}: SILENT`); }
       else if (!hit.length) { fails++; asserts++; console.log(`  FAIL ${name}: WRONG REASON — ${all2.join(' | ')}`); }
-      else { asserts++; console.log(`  poison ${name}: killed (${hit[0]})`); }
+      else { asserts++; killed++; console.log(`  poison ${name}: killed (${hit[0]})`); }
     };
     await renderPoison('PR1 a stamped answer edited', mutated(TYPE, (h) => h.replace(/data-lcs-answer="(\w+)"/, (m0, a) => `data-lcs-answer="${a}s"`)), /answerFor says|is not in the bank/);
     { const bad = clone(en); bad.frames = bad.frames.slice(0, 8); bad.frames[0].fits = [bad.frames[0].noun, bad.frames[1].noun]; bad.frames[2].fits = [bad.frames[2].noun, bad.frames[3].noun]; await renderPoison('PR2 overlapping fits through the seam (8 frames, two collisions -> 6 compatible)', withBank(TYPE, bad), /REFUSED/); }
@@ -916,13 +1146,224 @@ async function main() {
     await renderPoison('PRf a key stamp edited', mutated(TYPE, (h) => h.replace(/data-lcs-key="(\w+)"/, 'data-lcs-key="goat"')), /picture "\w+" != key|the frame's noun is/);
     // the control: the untouched page passes every render check
     { const r = await renderWith(page, TYPE, { difficulty: 2, baseName: 'G1-350-gate-control' }); ok(!r.verify.length && !r.lints.length && !crossCheck(r.m, en, 'en', all).length, 'control: the untouched d2 page passes verify + lints + the node cross-check'); }
+
+    // ---- 5. the faces (Phase 2): rows ≡ spec ≡ strings; every face rendered at the default en chrome, the 3+3 chrome (710) and the
+    //      4-line-title chrome (677): letters / choice / match must hold 677, plural / story are capped at a 3-line fi title (rule 13)
+    //      and must FAIL 677 (PR13b / PR13c); floors, the SPARSE measures, the node cross-check; every picture on disk; the sweep; the poisons
+    const faceRenders = {};
+    for (const mode of Object.keys(FACE_OF)) {
+      const { row, spec } = faceSpec(mode);
+      const id = row[1];
+      ok(id === FACE_OF[mode], `${mode}: row id ${id} is ${FACE_OF[mode]} (the allocation)`);
+      ok(spec.id === id && spec.slug === row[2], `${id}: the emitted spec carries id ${spec.id} / slug ${spec.slug}`);
+      const want = { ...TYPE.difficulty[row[4]], ...row[5] };
+      ok(JSON.stringify(spec.difficulty[2]) === JSON.stringify(want) && JSON.stringify(spec.difficulty[1]) === JSON.stringify(want), `${id}: the emitted d2 config === {...base.d${row[4]}, ...overrides}`);
+      ok(spec.i18n.en.title === en.strings[mode].title && spec.i18n.en.instruction === en.strings[mode].instruction && row[6] === en.strings[mode].title && row[7] === en.strings[mode].instruction, `${id}: the row title / instruction === the bank's strings.${mode} (one source)`);
+      ok((row[8] && row[8].gradeBand) === (['plural', 'story'].includes(mode) ? 'G2' : undefined) && spec.gradeBand === (['plural', 'story'].includes(mode) ? 'G2' : 'G1'), `${id}: gradeBand ${spec.gradeBand} (${['plural', 'story'].includes(mode) ? 'G2 via extra' : 'the base G1'})`);
+      ok(spec.exerciseType === 'cloze' && spec.themeAxis && spec.themeAxis.applicable === false, `${id}: themeless, exerciseType cloze`);
+      ok(!/worksheet/i.test(spec.i18n.en.title) && !ANSWERS_WORD.test(spec.i18n.en.title + ' ' + spec.i18n.en.instruction) && !freeClaim.hit(spec.i18n.en.title + ' ' + spec.i18n.en.instruction), `${id}: no worksheet word / answer promise / free claim`);
+      // default chrome
+      const r1 = await renderFace(page, spec, { baseName: `${id}-gate-d2-en` });
+      ok(r1.verify.length === 0, `${id} d2 en: verify ${JSON.stringify(r1.verify)}`);
+      ok(r1.lints.length === 0, `${id} d2 en: lints ${JSON.stringify(r1.lints)}`);
+      const c1 = faceCross(mode, r1.m, en, 'en', all);
+      ok(c1.length === 0, `${id} d2 en node cross-check: ${c1.join(' | ')}`);
+      ok(r1.m.lowest <= r1.m.foot + 0.6, `${id} d2 en: lowest ink ${Math.round(r1.m.lowest)} vs foot ${Math.round(r1.m.foot)}`);
+      { const top = r1.m.stage.top - r1.m.body.top - (r1.m.bank ? r1.m.bank + 10 : 0);   // the list sits under the bank (+ its 10 px margin) when there is one
+        ok(Math.abs(top) <= 2.6 && r1.m.body.bottom - r1.m.stage.bottom <= 2, `${id} d2 en: the stage is top-anchored and fills the body (list top ${Math.round(r1.m.stage.top - r1.m.body.top)} under the body top with a ${Math.round(r1.m.bank)} bank, ends ${Math.round(r1.m.body.bottom - r1.m.stage.bottom)} above the bottom)`); }
+      console.log(`render ${id} ${mode}: verify ${r1.verify.length} lints ${r1.lints.length} ${faceMeasures(r1.m)}`);
+      faceRenders[mode] = { spec, id, r: r1 };
+      // the 3+3 chrome (710)
+      const r2 = await renderFace(page, spec, { baseName: `${id}-gate-d2-en-chrome722`, strings: { title: CHROME.three.title, instruction: CHROME.three.instruction } });
+      ok(r2.m.body.h >= 700 && r2.m.body.h <= 724, `${id} 3+3 chrome: body ${Math.round(r2.m.body.h)}`);
+      ok(r2.verify.length === 0 && r2.lints.length === 0, `${id} 3+3 chrome: verify ${JSON.stringify(r2.verify)} lints ${JSON.stringify(r2.lints)}`);
+      const c2 = faceCross(mode, r2.m, en, 'en', all);
+      ok(c2.length === 0, `${id} 3+3 chrome node cross-check: ${c2.join(' | ')}`);
+      console.log(`render ${id} ${mode} 3+3 chrome: verify ${r2.verify.length} lints ${r2.lints.length} ${faceMeasures(r2.m)}`);
+      // the 4-line title chrome (677)
+      const r3 = await renderFace(page, spec, { baseName: `${id}-gate-d2-en-chrome677`, strings: { title: CHROME.four.title, instruction: CHROME.four.instruction } });
+      ok(r3.m.body.h <= 690 && r3.m.body.h >= 670, `${id} 677 chrome: body ${Math.round(r3.m.body.h)}`);
+      const f3 = [...r3.verify, ...r3.lints];
+      if (['plural', 'story'].includes(mode)) {
+        poisonTotal++;
+        if (f3.some((f) => /footer overlap|attribution band|overflow|clipped|overflows/.test(f))) { killed++; console.log(`  poison PR13${mode === 'plural' ? 'b' : 'c'} ${id} under a 4-line title (677): killed (${f3[0]}) — why rule 13 caps the fi ${mode} title at 3 lines`); }
+        else { fails++; asserts++; console.log(`  FAIL PR13${mode === 'plural' ? 'b' : 'c'} ${id} at 677: ${f3.length ? 'WRONG REASON — ' + f3.join(' | ') : 'SILENT (the ' + mode + ' face fit 677; the design says it cannot)'}`); }
+      } else {
+        ok(f3.length === 0, `${id} 677 chrome: ${f3.join(' | ')}`);
+        const c3 = faceCross(mode, r3.m, en, 'en', all);
+        ok(c3.length === 0, `${id} 677 chrome node cross-check: ${c3.join(' | ')}`);
+      }
+      console.log(`render ${id} ${mode} 677 chrome: ${['plural', 'story'].includes(mode) ? 'expected FAIL' : 'verify ' + r3.verify.length + ' lints ' + r3.lints.length} ${faceMeasures(r3.m)}`);
+    }
+    // the face-specific numbers (design §3, measured)
+    {
+      const L = faceRenders.letters.r.m, C = faceRenders.choice.r.m, P = faceRenders.plural.r.m, S = faceRenders.story.r.m, M = faceRenders.match.r.m;
+      ok(L.lanes.every((l) => l.lgBoxPx >= 44 && l.lgRects === graphemes(l.answer)), `letters: boxes ${L.lanes.map((l) => l.lgRects + '@' + l.lgBoxPx).join(' ')} (44 px, one per grapheme)`);
+      ok(L.lanes.every((l) => l.pH <= 44 + 2 + 23.4 + 0.5), `letters: sentences ${L.lanes.map((l) => l.pH.toFixed(1)).join('/')} (<= two lines 69.4)`);
+      ok(C.lanes.every((l) => l.pH <= 40.5 && l.chips.length === 2 && l.chips.every((c) => c.h >= 43.4)), `choice: one-line sentences ${C.lanes.map((l) => l.pH.toFixed(1)).join('/')} + chips ${C.lanes.map((l) => l.chips.map((c) => Math.round(c.h) + 'x' + Math.round(c.w)).join(',')).join(' ')}`);
+      ok(C.lanes.every((l) => l.h >= 100 - 0.6), `choice: rows ${C.lanes.map((l) => l.h.toFixed(1)).join('/')} (>= 100)`);
+      { const first = C.lanes.filter((l) => l.idx === 0).length; ok(first >= 2 && first <= 3, `choice: the answer first on ${first} rows (2..3)`); }
+      ok(P.lanes.every((l) => l.clones >= 2 && l.clones <= 3 && l.picW >= 48 - 0.6), `plural: clones ${P.lanes.map((l) => l.clones + '@' + Math.round(l.picW)).join(' ')} (2..3 at 48)`);
+      ok(P.lanes.every((l) => l.pH <= 64.5 && l.boxH >= 39.4), `plural: sentences ${P.lanes.map((l) => l.pH.toFixed(1)).join('/')} (<= 64, box 40)`);
+      ok(S.stories.length === 3 && S.stories.every((b) => b.lines.length === 3 && b.pics.length === 3 && b.order.join(',') !== '0,1,2'), `story: 3 blocks x 3 lines, strips ${S.stories.map((b) => b.order.join('')).join(' ')} (never 012)`);
+      ok(S.pills.length === 9 && new Set(S.pills.map((p) => p.top)).size <= 2, `story: a 9-pill bank in ${new Set(S.pills.map((p) => p.top)).size} rows`);
+      ok(S.stories.every((b) => b.lines.every((l) => l.pH <= 40.5)), `story: every line one line (${S.stories.map((b) => b.lines.map((l) => l.pH.toFixed(1)).join('/')).join(' ')})`);
+      ok(M.left.length === 6 && M.right.length === 6 && M.left.every((l) => !l.imgs) && M.right.every((r) => r.picW >= 63.4), `match: 6 + 6, no picture left, 64 px right`);
+      ok(M.right.every((r, i) => r.key !== M.left[i].key), `match: right ${M.right.map((r) => r.key).join(',')} deranged against left ${M.left.map((l) => l.key).join(',')}`);
+      console.log(`faces: letters boxes ${L.lanes.map((l) => l.lgRects).join('/')} @ ${L.lanes[0].lgBoxPx} · choice answer-first ${C.lanes.filter((l) => l.idx === 0).length}/6 foils ${C.lanes.map((l) => l.foil).join(',')} · plural clones ${P.lanes.map((l) => l.clones).join('')} gapW ${P.gapW} · story ${S.stories.map((b) => b.id + ':' + b.order.join('')).join(' ')} gapW ${S.gapW} · match ${M.right.map((r) => r.key).join(',')}`);
+    }
+    // every picture the family pins (frames + plural + stories, all of them face pictures) exists ON DISK in the served library
+    {
+      const refs = new Set();
+      for (const f of en.frames) refs.add(f.pic.theme + '/' + f.pic.noun);
+      for (const f of en.plural) refs.add(f.pic.theme + '/' + f.pic.noun);
+      for (const s of en.stories) for (const p of s.pics) refs.add(p.theme + '/' + p.noun);
+      let missing = 0;
+      for (const ref of refs) { const [theme, noun] = ref.split('/'); const p = path.join(WEBP_THEMES, theme, noun + '@2x.webp'); if (!ok(fs.existsSync(p), `picture on disk: ${p} is absent`)) missing++; }
+      console.log(`pictures on disk: ${refs.size} refs (18 frames + 12 plural + 18 story pins) checked as <theme>/<noun>@2x.webp under image-library-webp/themes, ${missing} missing`);
+    }
+    // the face sweep: 20 seeds per face (build only) — the deals, orders, foils, clone counts, strip orders and derangements vary
+    if (!QUICK) {
+      const seen = { letters: new Set(), choice: new Set(), plural: new Set(), story: new Set(), match: new Set() };
+      const extra = { choice: new Set(), plural: new Set(), story: new Set(), match: new Set() };
+      for (const mode of Object.keys(FACE_OF)) {
+        const { spec } = faceRenders[mode];
+        for (let s = 1; s <= 20; s++) {
+          const rng = makeRng(instanceSeed({ typeId: spec.id, theme: null, difficulty: 2, seedEpoch: 1, variant: s }));
+          const b = spec.build({ theme: null, difficulty: 2, locale: 'en' }, { rng });
+          if (mode === 'story') { seen.story.add(b.meta.stories.map((x) => x[0]).sort().join(',')); extra.story.add(b.meta.stories.map((x) => x[2]).join(' ')); ok(b.meta.stories.every((x) => x[2] !== '012'), `sweep story seed ${s}: a strip in order`); ok(b.meta.stories.every((x) => !x[3] || x[3].split('+').every((n, _, arr) => n === arr[0])), `sweep story seed ${s}: one name per story`); continue; }
+          const keys = b.meta.rows.map((x) => x[1]);
+          ok(new Set(keys).size === keys.length, `sweep ${mode} seed ${s}: a key twice`);
+          const list = mode === 'plural' ? en.plural : en.frames;
+          b.meta.rows.forEach(([id, key, form, answer]) => { const f = list.find((x) => x.id === id); ok(f && f.noun === key && TYPE.answerFor('en', key, form) === answer, `sweep ${mode} seed ${s}: ${id} not re-derived`); });
+          b.meta.rows.forEach(([id, key]) => { const f = list.find((x) => x.id === id); ok(!f.fits.some((x) => x !== key && keys.includes(x)), `sweep ${mode} seed ${s}: ${id} fits another key on the page`); });
+          const groups = keys.map((k) => TYPE.twinGroupOf(k, all.twins)).filter((g) => g >= 0);
+          ok(new Set(groups).size === groups.length, `sweep ${mode} seed ${s}: two keys of one twin group`);
+          seen[mode].add(keys.join(','));
+          if (mode === 'choice') { extra.choice.add(b.meta.idx.join('')); const first = b.meta.idx.filter((x) => x === 0).length; ok(first >= 2 && first <= 3, `sweep choice seed ${s}: answer-first ${first}`); ok(b.meta.rows.every((x) => !keys.includes(x[6])), `sweep choice seed ${s}: a foil is a page key`); }
+          if (mode === 'plural') { extra.plural.add(b.meta.rows.map((x) => x[6]).join('')); ok(b.meta.rows.every((x) => x[6] >= 2 && x[6] <= 3), `sweep plural seed ${s}: clones`); }
+          if (mode === 'match') { extra.match.add(b.meta.order.join('')); ok(b.meta.order.every((v, i) => v !== i), `sweep match seed ${s}: a fixed point`); }
+        }
+      }
+      ok(Object.values(seen).every((st) => st.size >= 2) && Object.values(extra).every((st) => st.size >= 2), `sweep faces: sets letters ${seen.letters.size} choice ${seen.choice.size} plural ${seen.plural.size} story ${seen.story.size} match ${seen.match.size}; chip orders ${extra.choice.size}, clone vectors ${extra.plural.size}, strip orders ${extra.story.size}, derangements ${extra.match.size} (>= 2 each over 20 seeds)`);
+      console.log(`sweep faces: letters ${seen.letters.size} deals · choice ${seen.choice.size} deals / ${extra.choice.size} chip orders · plural ${seen.plural.size} deals / ${extra.plural.size} clone vectors · story ${seen.story.size} sets / ${extra.story.size} strip orders · match ${seen.match.size} deals / ${extra.match.size} derangements`);
+    }
+
+    // ---- 6. face poisons (each must FAIL for its OWN reason; the untouched face renders above are the controls)
+    const facePoison = async (name, mode, type, re, { strings, locale = 'en' } = {}) => {
+      poisonTotal++;
+      let r;
+      try { r = await renderFace(page, type, { baseName: `G1-350-gate-poison-${name.split(' ')[0]}`, strings, locale }); }
+      catch (e) { const hit = re.test(e.message); asserts++; if (!hit) { fails++; console.log(`  FAIL ${name}: WRONG REASON (threw) — ${e.message}`); } else { killed++; console.log(`  poison ${name}: killed (build refused: ${e.message.slice(0, 110)})`); } return; }
+      const all2 = [...r.verify, ...r.lints, ...faceCross(mode, r.m, en, 'en', all)];
+      const hit = all2.filter((f) => re.test(f));
+      if (!all2.length) { fails++; asserts++; console.log(`  FAIL ${name}: SILENT`); }
+      else if (!hit.length) { fails++; asserts++; console.log(`  FAIL ${name}: WRONG REASON — ${all2.join(' | ')}`); }
+      else { asserts++; killed++; console.log(`  poison ${name}: killed (${hit[0]})`); }
+    };
+    const FS = (mode) => faceRenders[mode].spec;
+    const bankHtml = (words) => `<div data-lcs-bank-order="x"><div class="ws-scene-banner ws-bank" data-lcs-bank-banner>${words.map((a) => `<span class="ws-bankword" style="font-size:18px" data-lcs-bank-word="${a}"><span>${a}</span></span>`).join('')}</div></div>`;
+    // PR3 — a bank banner injected on the letters face (config bank 0)
+    await facePoison('PR3 a bank banner on the letters face', 'letters', mutated(FS('letters'), (h) => h.replace('<div data-lcs-list', bankHtml(['owl', 'cow', 'bee']) + '<div data-lcs-list')), /a bank banner on the letters face/);
+    // PF1 — the letters box count stamp edited (7 boxes drawn, the lane says 5)
+    await facePoison('PF1 a letters box-count stamp edited', 'letters', mutated(FS('letters'), (h) => h.replace(/data-lcs-boxes="(\d+)"/, (m0, n) => `data-lcs-boxes="${+n + 1}"`)), /lane stamps \d+ boxes|boxes for/);
+    // PF1b — a starter glyph inside box 1 at d2 (the answer's first letter printed)
+    await facePoison('PF1b a starter glyph at d2', 'letters', mutated(FS('letters'), (h) => h.replace('</svg></span>', '<text x="23" y="30" font-size="28" data-lcs-starter="1">p</text></svg></span>')), /a letter glyph inside a box/);
+    // PF1c — a 26 px letter box (the design's number, under the G1 floor): the spec guard refuses at build
+    await facePoison('PF1c letters box 26 (under the G1 floor)', 'letters', faceWithBank(FS('letters'), en, { box: 26 }), /below the G1 element floor 44/);
+    // PF1d — the letters face with 8 rows of 84 at the 710 chrome overflows (the design's 8-row layout with 44 px boxes)
+    await facePoison('PF1d letters 8 rows x 84 under the 3+3 chrome', 'letters', faceWithBank(FS('letters'), en, { rows: 8 }), /footer overlap|attribution band|overflow|clipped|sparse|above the body/, { strings: CHROME.three });
+    // PS1 — the letters list as a FIXED grid that does not fill the body (the K-357 sparse class)
+    await facePoison('PS1 letters fixed rows, stage not filling', 'letters', mutated(FS('letters'), (h) => h.replace(/style="flex:1 1 auto;display:grid;grid-template-rows:repeat\((\d+),minmax\((\d+)px,1fr\)\)/, 'style="flex:0 0 auto;display:grid;grid-template-rows:repeat($1,$2px)')), /above the body bottom: the stage does not fill the page \(sparse\)/);
+    // PR11 — a choice sentence that wraps (a longer text pasted into lane 1)
+    await facePoison('PR11 a wrapped choice sentence', 'choice', mutated(FS('choice'), (h) => h.replace(/(<p data-lcs-sentence[^>]*>[\s\S]*?)(<\/p>)/, '$1 and then it walks all the way back home to sleep$2')), /sentence [\d.]+ px high > 40/);
+    // PF2 — the answer chip re-labelled (both chips print the foil)
+    await facePoison('PF2 the answer chip prints the foil', 'choice', mutated(FS('choice'), (h) => h.replace(/data-lcs-chip="([^"]+)" data-lcs-role="answer"([^>]*)>[^<]+/, (m0, w, rest) => `data-lcs-chip="${w}x" data-lcs-role="answer"${rest}>${w}x`)), /the answer chip "\w+" != the stamped answer/);
+    // PF2b — the answer chip first on EVERY row (the chip order re-sorted: answer, foil)
+    await facePoison('PF2b the answer chip first on every row', 'choice', mutated(FS('choice'), (h) => h.replace(/data-lcs-idx="1"([^>]*)>(<span class="ws-achip"[^>]*data-lcs-role="foil"[^>]*>[^<]*<\/span>)(<span class="ws-achip"[^>]*data-lcs-role="answer"[^>]*>[^<]*<\/span>)/g, 'data-lcs-idx="0"$1>$3$2')), /the answer chip is first on \d+ rows \(want \[2, 3\]\)/);
+    // PF2c — a chip pre-marked (a ring drawn on the answer chip)
+    await facePoison('PF2c a chip pre-marked', 'choice', mutated(FS('choice'), (h) => h.replace(/(<span class="ws-achip"[^>]*data-lcs-role="answer"[^>]*)style="/, '$1style="border-color:#F2784B;')), /styled differently \(one pre-marked\)/);
+    // PF2d — the foil of lane 1 = another lane's picture (the foil stamp + chip re-pointed at lane 2's key)
+    await facePoison('PF2d a foil that is a picture on the page', 'choice', mutated(FS('choice'), (h) => { const keys = [...h.matchAll(/data-lcs-key="([^"]+)"/g)].map((m0) => m0[1]); const ans = [...h.matchAll(/data-lcs-answer="([^"]+)"/g)].map((m0) => m0[1]); return h.replace(/data-lcs-foil="[^"]+"/, `data-lcs-foil="${keys[1]}"`).replace(/data-lcs-chip="([^"]+)" data-lcs-role="foil"([^>]*)>[^<]+/, (m0, w, rest) => `data-lcs-chip="${ans[1]}" data-lcs-role="foil"${rest}>${ans[1]}`); }), /the foil "\w+" is a key on the page|is an answer on the page/);
+    // PF2e — foils of the WRONG gender (de synthetic block: every foil re-pointed at a noun of another gender) → the pool empties → REFUSED
+    { const de = synthetic('de', en); const byG = {}; de.frames.forEach((f) => { const g = entryOf('de', f.noun).gender; (byG[g] = byG[g] || []).push(f.noun); }); const gs = Object.keys(byG);
+      de.frames.forEach((f) => { const g = entryOf('de', f.noun).gender; const other = gs.find((x) => x !== g && byG[x].length); f.foil = other ? byG[other][0] : f.foil; });
+      await facePoison('PF2e de foils of another gender through the seam', 'choice', faceWithBank(FS('choice'), de), /REFUSED/, { locale: 'de' }); }
+    // PS2 — the choice list as a fixed grid
+    await facePoison('PS2 choice fixed rows, stage not filling', 'choice', mutated(FS('choice'), (h) => h.replace(/style="flex:1 1 auto;display:grid;grid-template-rows:repeat\((\d+),minmax\((\d+)px,1fr\)\)/, 'style="flex:0 0 auto;display:grid;grid-template-rows:repeat($1,$2px)')), /above the body bottom: the stage does not fill the page \(sparse\)/);
+    // PR4 — a singular hint chip on the plural face (the other number printed)
+    await facePoison('PR4 a hint chip on the plural face', 'plural', mutated(FS('plural'), (h) => h.replace(/(data-lcs-answer="[^"]+"[^>]*>[\s\S]*?)<\/p><\/div>/, '$1</p><span class="ws-achip" data-lcs-hint="1">cow</span></div>')), /a hint chip on the plural face/);
+    // PF3 — the clone count stamp edited (3 pictures, the strip says 2)
+    await facePoison('PF3 a clone stamp edited', 'plural', mutated(FS('plural'), (h) => h.replace('data-lcs-clones="3"', 'data-lcs-clones="2"')), /pictures for 2 clones/);
+    // PF3b — the singular printed in a plural sentence (node: the other number)
+    await facePoison('PF3b the singular printed on the plural face', 'plural', mutated(FS('plural'), (h) => h.replace(/(<div class="ws-lane" [^>]*data-lcs-key="(\w+)"[^>]*>[\s\S]*?<p data-lcs-sentence[^>]*>)/, (m0, a, key) => a + TYPE.answerFor('en', key, 'sg') + ' ')), /the other number "\w+" is printed/);
+    // PF3c — a plural bank at d2 (a bank banner injected on the plural face)
+    await facePoison('PF3c a bank on the plural face', 'plural', mutated(FS('plural'), (h) => h.replace('<div data-lcs-list', bankHtml(['cows', 'hens']) + '<div data-lcs-list')), /a bank banner on the plural face/);
+    // PF3d — the da block (refuse.plural) through the seam → REFUSED
+    await facePoison('PF3d da refuses the plural face', 'plural', faceWithBank(FS('plural'), synthetic('da', en)), /da REFUSES the plural face/, { locale: 'da' });
+    // PF3e — a hint config → the spec refuses
+    await facePoison('PF3e hint:true config', 'plural', faceWithBank(FS('plural'), en, { hint: true }), /hint chip prints the singular/);
+    // PS3 — the plural list as a fixed grid
+    await facePoison('PS3 plural fixed rows, stage not filling', 'plural', mutated(FS('plural'), (h) => h.replace(/style="flex:1 1 auto;display:grid;grid-template-rows:repeat\((\d+),minmax\((\d+)px,1fr\)\)/, 'style="flex:0 0 auto;display:grid;grid-template-rows:repeat($1,$2px)')), /above the body bottom: the stage does not fill the page \(sparse\)/);
+    // PR5 — the story strip in sentence order (the stamp + the pictures re-ordered to 0,1,2)
+    await facePoison('PR5 a story strip in sentence order', 'story', mutated(FS('story'), (h) => h.replace(/data-lcs-strip-order="([012]),([012]),([012])"([^>]*>)(<span data-lcs-badge[\s\S]*?<\/span>)(<img [^>]*>)(<img [^>]*>)(<img [^>]*>)/, (m0, a, b, c, rest, badge, i0, i1, i2) => { const imgs = [i0, i1, i2]; const byPos = {}; [a, b, c].forEach((o, j) => { byPos[o] = imgs[j]; }); return `data-lcs-strip-order="0,1,2"${rest}${badge}${byPos[0]}${byPos[1]}${byPos[2]}`; })), /strip not shuffled/);
+    // PF4 — the story bank in the line order
+    await facePoison('PF4 the story bank in line order', 'story', mutated(FS('story'), (h) => { const answers = [...h.matchAll(/<p data-lcs-sentence[^>]*data-lcs-answer="([^"]+)"/g)].map((m0) => m0[1]); const i = h.indexOf('<div data-lcs-bank-order'); const j = h.indexOf('</div></div>', i) + '</div></div>'.length; return h.slice(0, i) + bankHtml(answers) + h.slice(j); }), /not deranged/);
+    // PF4b — an answer printed in a story line
+    await facePoison('PF4b an answer printed in a story line', 'story', mutated(FS('story'), (h) => h.replace(/(<p data-lcs-sentence[^>]*data-lcs-answer="([^"]+)"[^>]*>)/, (m0, a, ans) => a + ans + ' ')), /is printed/);
+    // PF4c — two names in one story: a page forced to carry farm-morning (its lines 2 + 3 both say {name}), then the first name swapped for another
+    { const two = clone(en); two.stories = two.stories.filter((x) => ['farm-morning', 'zoo-visit', 'beach-day'].includes(x.id));
+      await facePoison('PF4c two names inside one story', 'story', mutated(faceWithBank(FS('story'), two), (h) => {
+        const names = SENTENCES.en.names; const i0 = h.indexOf('data-lcs-story-id="farm-morning"'); if (i0 < 0) return h;
+        const head = h.slice(0, i0); let tail = h.slice(i0); let done = false;
+        tail = tail.replace(/(<p data-lcs-sentence[^>]*>)([^<]*)/g, (m0, a, t) => { if (done) return m0; const n = names.find((x) => new RegExp('(?<!\\p{L})' + x + '(?!\\p{L})', 'u').test(t)); if (!n) return m0; done = true; const o = names.find((x) => x !== n); return a + t.replace(n, o); });
+        return head + tail; }), /two names \(\w+ \/ \w+\) inside one story/); }
+    // PS4 — the story list as a fixed grid
+    await facePoison('PS4 story fixed blocks, stage not filling', 'story', mutated(FS('story'), (h) => h.replace(/style="flex:1 1 auto;display:grid;grid-template-rows:repeat\((\d+),minmax\((\d+)px,1fr\)\)/, 'style="flex:0 0 auto;display:grid;grid-template-rows:repeat($1,$2px)')), /above the body bottom: the stage does not fill the page \(sparse\)/);
+    // PF4d — a fourth sentence config (d3's no-gap line) → the spec refuses (not built)
+    await facePoison('PF4d sentences:4 config', 'story', faceWithBank(FS('story'), en, { sentences: 4 }), /a fourth no-gap sentence is not built/);
+    // PR6 — a right item moved straight across (the first two right items swapped so one sits at its left index)
+    await facePoison('PR6 a match picture straight across', 'match', mutated(FS('match'), (h) => { const items = [...h.matchAll(/<div class="ws-match-item ws-match-item--plain" data-lcs-match-right="([^"]+)"[\s\S]*?<\/div>/g)]; const lefts = [...h.matchAll(/data-lcs-match-left="[^"]+" data-lcs-key="([^"]+)"/g)].map((m0) => m0[1]); const at = items.findIndex((it) => it[1] === lefts[0]); const sw = items[0][0], tg = items[at][0]; return h.replace(sw, '\u0002').replace(tg, sw).replace('\u0002', tg); }), /straight across/);
+    // PR7 — the noun printed in a left sentence
+    await facePoison('PR7 the noun printed in a match sentence', 'match', mutated(FS('match'), (h) => h.replace(/(data-lcs-match-left="[^"]+" data-lcs-key="([^"]+)"[^>]*>[\s\S]*?<span data-lcs-match-text[^>]*>)/, (m0, a, key) => a + key + ' ')), /is printed/);
+    // PF5 — a picture inside a left item
+    await facePoison('PF5 a picture inside a sentence item', 'match', mutated(FS('match'), (h) => h.replace(/(<span data-lcs-match-text[^>]*>)/, `$1<img class="ws-icon" src="${fileUri('farm animals', 'cow')}" alt="" style="width:44px;height:44px">`)), /a picture inside a sentence item/);
+    // PS5 — the match columns flex-start with fixed 92 items (the slack pools under the last item)
+    await facePoison('PS5 match items fixed at 92, columns flex-start', 'match', mutated(FS('match'), (h) => h.replace(/min-height:92px;max-height:108px;flex:1 1 92px/g, 'height:92px').replace(/<div class="ws-match-col">/g, '<div class="ws-match-col" style="justify-content:flex-start">')), /slack under the last item|between items/);
+    // PR15 — an unauthored locale (sv) refuses on EVERY face (never an en fallback)
+    { poisonTotal++; const refused = []; for (const mode of Object.keys(FACE_OF)) { try { FS(mode).build({ theme: null, difficulty: 2, locale: 'sv' }, { rng: makeRng('pr15') }); refused.push(mode + ': BUILT'); } catch (e) { refused.push(mode + ': ' + e.message); } }
+      const allR = refused.length === 5 && refused.every((x) => /has no sv block/.test(x)); asserts++; if (allR) { killed++; console.log('  poison PR15 sv unauthored: killed (5/5 faces refuse: has no sv block)'); } else { fails++; console.log('  FAIL PR15: ' + refused.join(' | ')); } }
+    // PR16 — a face string missing (strings.match deleted) → refuse
+    await facePoison('PR16 strings.match missing', 'match', faceWithBank(FS('match'), (() => { const b = clone(en); delete b.strings.match; return b; })()), /has no strings\.match/);
+    // PF6 — overlapping fits through the seam on the match face (two pictures fit one sentence) → the composer REFUSES
+    { const bad = clone(en); bad.frames = bad.frames.slice(0, 8); bad.frames[0].fits = [bad.frames[0].noun, bad.frames[1].noun]; bad.frames[2].fits = [bad.frames[2].noun, bad.frames[3].noun]; bad.frames[4].fits = [bad.frames[4].noun, bad.frames[5].noun]; await facePoison('PF6 overlapping fits on the match face (8 frames, three collisions -> 5 compatible)', 'match', faceWithBank(FS('match'), bad), /cannot compose 6 exclusive match frames[\s\S]*REFUSED/); }
+    // the long-locale renders: the synthetic de (9.2 px/char, capitalised nouns, articles by gender) and fi (no articles, long nouns) blocks through
+    // the seam, every face under the 3+3 chrome (710) — verify + lints clean, the node cross-check against the synthetic block
+    for (const loc of ['de', 'fi']) {
+      const b = synthetic(loc, en);
+      for (const mode of Object.keys(FACE_OF)) {
+        if (mode === 'plural' && b.refuse && b.refuse.plural) continue;
+        // fi: plural / story under the 3-line fi title (710, their worst LEGAL chrome by rule 13); letters / choice / match under the 4-line fi title (677)
+        const chrome = loc === 'fi' ? (['plural', 'story'].includes(mode) ? CHROME.threeFi : CHROME.four) : CHROME.three;
+        const r = await renderFace(page, faceWithBank(FS(mode), b), { baseName: `${FACE_OF[mode]}-gate-d2-${loc}-syn-chrome${chrome === CHROME.four ? 677 : 722}`, strings: chrome, locale: loc });
+        ok(chrome === CHROME.four ? (r.m.body.h <= 690) : (r.m.body.h >= 700 && r.m.body.h <= 724), `${FACE_OF[mode]} ${mode} synthetic ${loc}: body ${Math.round(r.m.body.h)} under the ${chrome === CHROME.four ? '677' : '710'} fixture`);
+        const c = faceCross(mode, r.m, b, loc, all);
+        ok(r.verify.length === 0 && r.lints.length === 0 && c.length === 0, `${FACE_OF[mode]} ${mode} synthetic ${loc} at 710: verify ${JSON.stringify(r.verify)} lints ${JSON.stringify(r.lints)} cross ${c.join(' | ')}`);
+        console.log(`render ${FACE_OF[mode]} ${mode} synthetic ${loc} ${chrome === CHROME.four ? '677' : '3+3'} chrome: verify ${r.verify.length} lints ${r.lints.length} cross ${c.length} ${faceMeasures(r.m)}`);
+      }
+    }
+    // the face controls: the synthetic de / fi blocks BUILD every face (de: plural + choice foils by gender; fi: no articles)
+    for (const loc of ['de', 'fi']) { const b = synthetic(loc, en); const built = []; for (const mode of Object.keys(FACE_OF)) { try { FS(mode)._buildWith(b, FS(mode).difficulty[2], { locale: loc, globals: all }, { rng: makeRng('ctl-' + loc + mode) }); built.push(mode); } catch (e) { built.push(mode + ' FAILED: ' + e.message); } }
+      ok(built.every((x) => !/FAILED/.test(x)), `control: the synthetic ${loc} block builds every face (${built.join(' | ')})`); }
+
   } finally {
     await browser.close();
   }
-  console.log(`\nverify-b4-cloze: ${asserts} assertions, ${fails} failures in ${((Date.now() - t0) / 1000).toFixed(0)}s → ${fails ? 'FAIL' : 'PASS'}`);
+  console.log(`\nverify-b4-cloze: ${asserts} assertions, ${fails} failures, ${killed}/${poisonTotal} poisons killed in ${((Date.now() - t0) / 1000).toFixed(0)}s${QUICK ? ' (--quick: sweeps skipped)' : ''}`);
+  console.log(fails ? `FAIL (${fails} findings)` : `PASS (${asserts} assertions, ${killed}/${poisonTotal} poisons killed)`);
   process.exit(fails ? 1 : 0);
 }
 
 if (require.main === module) main().catch((e) => { console.error(e); process.exit(1); });
 
-module.exports = { validateBank, crossCheck, TABLE_B, HEADS, synthetic };
+module.exports = { validateBank, crossCheck, faceCross, TABLE_B, HEADS, synthetic };

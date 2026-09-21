@@ -84,7 +84,7 @@ Rows = faces with a landing per (key × locale) at design time; "contingent" = l
 | tangram | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | CONFIRMED (final 2026-09-21): wordless, no refusals; "with answers" tail = a known loss (no answer key on printables) |
 | human-body | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | CONFIRMED (final 2026-09-21): no face refused; per-WORD refusals only (fr `eye` on F3, es/pt/it `toe` on F3); contingency fr `œ` glyph check |
 | five-senses | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | CONFIRMED (final 2026-09-21): no face refused; the de/fr/es/pt/it "I can …" starter frame rewritten (bare present) not refused; 45-item bank (38 strong + 7 signed) |
-| weather | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | (to be confirmed) |
+| weather | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | CONFIRMED (final 2026-09-21): no refusal; contingency = a base word wider than 226 px would drop that locale to 5 (expected 0; the validator measures) |
 | recycling | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | (to be confirmed) |
 | cloze | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | (to be confirmed) |
 | odd-and-even | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | (to be confirmed) |

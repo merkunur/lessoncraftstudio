@@ -90,8 +90,25 @@
  *      + the worksheet word, a free claim, `47 = 50` in a string, a 4-digit
  *        number, "number line", a config refused by resolveBase (0 items,
  *        20 items, mix 6 + 7 for 14, fiveMin 1 with the rule, min 0, max 1000,
- *        upMin + downMin > items, digitMax 1 for 14, an F5 steps array on the
- *        base path).
+ *        upMin + downMin > items, digitMax 1 for 14).
+ * 5. FACES (Phase 2, _work/G2-346-faces.md) — the five rows of
+ *    tools/b4var-rows/rounding.js ≡ the emitted types/g3 specs ≡ the bank
+ *    strings; ids from the allocation; every face G3 + themeless; a title that
+ *    names a number names what the d2 page shows (rule 6b, also in the
+ *    validator); each face rendered at the default en chrome, the 722 (3+3)
+ *    chrome, the 677 (4-line) chrome and the ONE-LINE chrome, the body pinned
+ *    to 722 / 677 (fits) and to 400 (the MINIMAL stack, measured: >= 631 = the
+ *    SPARSE floor, <= 180 px of slack under the one-line chrome), the blank
+ *    between consecutive rows <= 48 at every chrome, verify() empty, lints
+ *    clean, the node cross-check re-deriving every answer / quota / literal /
+ *    floor from the stamps (F2 also through the base measure + assertRender);
+ *    a synthetic de (722) and fi (677) render per face; a 20-seed sweep per
+ *    face (quotas, distinct sets + orders, locale-neutral seeds); poisons: the
+ *    design's P8-P12 / P15, the four §3 geometries as SPARSE poisons (500 /
+ *    604 / 484 / 588), six rows floating 58 px apart, 24 answer-hiding /
+ *    floor / order / literal / strip classes, 27 face-config refusals, rule 6b
+ *    ×3, rule 10 over a bank without heads. Final line
+ *    `PASS (N assertions, M/M poisons killed)`.
  */
 'use strict';
 const fs = require('fs');
@@ -139,7 +156,12 @@ const ADJ_ADV = {
   nl: ['dichtstbijzijnde', 'dichtbij', 'boven', 'beneden'], sv: ['närmaste', 'närmsta', 'uppåt', 'nedåt'], da: ['nærmeste', 'ned'], no: ['nærmeste', 'ned', 'opp'], fi: ['lähin', 'lähimpään', 'lähimmän', 'ylöspäin', 'alaspäin'],
 };
 
-let fails = 0, asserts = 0;
+/** The five face rows (id, resolved D, face) when the rows module exists — the validator's rule 6b / rule 10 read them; empty before Phase 2. */
+function FACE_ROWS_SAFE() { try { const m = require('../tools/b4var-rows/rounding.js'); return m.ROWS.map((r) => { const D = { ...TYPE.difficulty[r[4]], ...r[5] }; return { id: r[1], D, face: D.mode || (D.steps && D.steps.length > 1 ? 'both' : D.steps && D.steps[0] === 100 ? 'hundred' : 'base') }; }); } catch (e) { return []; } }
+/** The numbers each face's d2 page SHOWS (rule 6b): from the rows (the inverse target from its config), else the design's §3 constants. */
+const FACE_SHOWN = (() => { const out = { base: [10], sort: [10], estimate: [10], hundred: [100], both: [10, 100], inverse: [50, 10] }; for (const fr of FACE_ROWS_SAFE()) { if (fr.face === 'inverse') out.inverse = [fr.D.target, fr.D.steps[0]]; else out[fr.face] = fr.D.steps.slice(); } return out; })();
+
+let fails = 0, asserts = 0, poisonsTotal = 0, poisonsKilled = 0;
 function ok(cond, msg) { asserts++; if (!cond) { fails++; console.log('  FAIL ' + msg); } }
 function nfd(s) { return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
 function escRe(s) { return String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
@@ -286,12 +308,19 @@ function validateBank(block, loc, opts = {}) {
     if (f === 'estimate' && ESTIMATE_WORD[loc] && !nfd(s.title).includes(nfd(ESTIMATE_WORD[loc]))) push(`rule 6: estimate title "${s.title}" lacks the ${loc} estimate word "${ESTIMATE_WORD[loc]}"`);
     if (f === 'inverse' && !/(?<!\d)50(?!\d)/.test(s.title)) push(`rule 6: inverse title "${s.title}" does not name the target 50`);
     if (loc === 'en' && /tenth/i.test(s.title)) push(`rule 9: en ${f} title "${s.title}" says "tenth" (meta only, never a title)`);
+    // rule 6b — a title that names a place / target names EXACTLY what the d2 page shows (nt10-D)
+    { const nums = (s.title.match(/\d+/g) || []).map(Number); const shown = FACE_SHOWN[f] || []; for (const n of nums) if (!shown.includes(n)) push(`rule 6b: ${f} title "${s.title}" names ${n}, the d2 page shows ${shown.join(' / ')}`); }
   }
   for (let i = 0; i < titles.length; i++) for (let j = i + 1; j < titles.length; j++) if (!tokenDistinct(titles[i][1], titles[j][1], loc)) push(`rule 7: ${titles[i][0]} "${titles[i][1]}" and ${titles[j][0]} "${titles[j][1]}" differ by no noun / verb / numeral token`);
   if (loc === 'fr') for (const [k, v] of allStrings) if (/arrondi\s*cp/i.test(v)) push(`rule 9: fr ${k} "${v}" carries "arrondi CP" (payroll rounding)`);
 
-  // rule 10 — the build probe over THIS block (3 seeds; the base only — the faces are Phase 2)
+  // rule 10 — the build probe over THIS block (3 seeds; the base, then every face the block does not refuse)
   if (opts.probe !== false) {
+    for (const fr of FACE_ROWS_SAFE()) {
+      if (refuse.includes(fr.face)) continue;
+      try { TYPE._buildWith(block, fr.D, { locale: loc }, { rng: makeRng(instanceSeed({ typeId: fr.id, theme: null, difficulty: 2, seedEpoch: 1 })) }); }
+      catch (e) { push(`rule 10: face ${fr.face} does not build at d2 over the ${loc} block: ${e.message}`); }
+    }
     for (let v = 1; v <= 3; v++) {
       try {
         const rng = makeRng(instanceSeed({ typeId: TYPE.id, theme: null, difficulty: 2, seedEpoch: 1, variant: v }));
@@ -480,6 +509,216 @@ function synthetic(loc) {
   return { up: clone(s.up), down: clone(s.down), heads: clone(s.heads), relation: s.relation, strings, refuse: [], strand: 'x' };
 }
 
+/* ------------------------------------------------------------------ 5. the faces (Phase 2; _work/G2-346-faces.md) ------------------------------------------------------------------ */
+
+const { loadType } = require('../lib/load-types.js');
+const ROWS_MOD = require('../tools/b4var-rows/rounding.js');
+const ALLOC = path.join(ROOT, '..', '..', 'docs', 'worksheet-gen', 'b4-designs', '_records', 'b4var-id-allocation.json');
+const FACE_OF_ROW = { sort: 'sort', hundred: 'hundred', estimate: 'estimate', inverse: 'inverse', both: 'both' };
+const STAGE_MIN = 631;      // <= 180 px of slack under the 811 one-line chrome (the base's own rule; the design's §3 stacks 496 / 600 / 480 / 584 all sat under it)
+const ROW_BLANK_MAX = 48;   // the largest blank band between two consecutive rows on a lane face at any chrome
+const ONE_LINE = { title: 'Rounding', instruction: 'Round each number.' };
+
+/** The face id of a row (from its config, never its title). */
+function faceOfConfig(D) { if (D.mode) return D.mode; if (Array.isArray(D.steps) && D.steps.length > 1) return 'both'; if (Array.isArray(D.steps) && D.steps[0] === 100) return 'hundred'; return 'base'; }
+/** The five rows -> { id, face, D (resolved override), spec (the emitted type), title, instruction }. */
+function faceRows() {
+  return ROWS_MOD.ROWS.map((r) => {
+    const D = { ...TYPE.difficulty[r[4]], ...r[5] };
+    return { id: r[1], dir: r[0], slug: r[2], face: faceOfConfig(D), D, title: r[6], instruction: r[7], extra: r[8] };
+  });
+}
+/** The numbers a face's d2 page SHOWS as its place / target (a title naming a number names one of these). */
+function faceNumbers(face, D) {
+  if (face === 'inverse') { const c = TYPE.resolveInverse(D, en0()); return [c.target, c.step]; }
+  if (face === 'both') return [10, 100];
+  if (face === 'hundred') return [100];
+  return [10];
+}
+let _en0 = null;
+function en0() { if (!_en0) _en0 = bankModule('rounding').en; return _en0; }
+/** The resolved face config for a row's D (the spec's own resolver). */
+function resolveFace(face, D, bank) {
+  if (face === 'sort') return TYPE.resolveSort(D, bank);
+  if (face === 'estimate') return TYPE.resolveEstimate(D, bank);
+  if (face === 'inverse') return TYPE.resolveInverse(D, bank);
+  if (face === 'both') return TYPE.resolveBoth(D, bank);
+  return TYPE.resolveBase(D, bank);
+}
+
+/** Render a FACE spec through the real pipeline and measure everything the node gate needs (chrome-independent + pinned 722 / 677). */
+async function renderFace(page, spec, { baseName, strings, locale = 'en', difficulty = 2 }) {
+  const out = await renderInstance({ type: spec, theme: null, difficulty, locale, page, outDir: OUT, baseName, strings });
+  const m = await page.evaluate(() => {
+    const r = (el) => el.getBoundingClientRect();
+    const body = document.querySelector('.ws-body'), foot = document.querySelector('.ws-foot'), title = document.querySelector('.ws-title');
+    const root = document.querySelector('[data-lcs-round]');
+    const D = root ? { ...root.dataset } : {};
+    const kids = root ? [...root.children] : [];
+    const stageOf = () => { const tops = kids.map((k) => r(k).top), bots = kids.map((k) => r(k).bottom); return { top: Math.min(...tops), bottom: Math.max(...bots) }; };
+    const items = [...document.querySelectorAll('.ws-body *')].filter((el) => !root || (el !== root && !kids.includes(el) && !el.matches('[data-lcs-lines], [data-lcs-two-rows], [data-lcs-inverse-lane], [data-lcs-bins], [data-lcs-field], [data-lcs-field-row], [data-lcs-chips]')));
+    const lowestOf = () => items.reduce((y, el) => { const b = r(el); return b.width && b.height ? Math.max(y, b.bottom) : y; }, 0);
+    const rowsOf = () => [...document.querySelectorAll('[data-lcs-row], [data-lcs-field-row]')].map((el) => ({ top: r(el).top, bottom: r(el).bottom }));
+    const blanks = (rows) => { let mx = 0; for (let i = 1; i < rows.length; i++) mx = Math.max(mx, rows[i].top - rows[i - 1].bottom); return mx; };
+    const stacks = [722, 677, 400].map((h) => {
+      const saved = body.style.cssText;
+      body.style.cssText = saved + `;flex:0 0 ${h}px;height:${h}px;max-height:${h}px;overflow:visible`;
+      const bb = r(body); const st = stageOf(); const low = lowestOf();
+      const res = { budget: h, bodyH: bb.height, fits: low <= bb.bottom + 0.6 && st.top >= bb.top - 0.6, stage: st.bottom - st.top, lowest: low, bodyBottom: bb.bottom, rowBlank: blanks(rowsOf()) };
+      body.style.cssText = saved;
+      return res;
+    });
+    const st = stageOf();
+    const face = D.lcsMode || D.lcsFace || 'base';
+    const F = {};
+    const chips = [...document.querySelectorAll('.ws-chip[data-lcs-val]')];
+    F.chips = chips.map((c) => ({ v: +c.dataset.lcsVal, w: r(c).width, h: r(c).height, font: parseFloat(getComputedStyle(c).fontSize), top: r(c).top, scroll: c.scrollWidth - c.clientWidth }));
+    F.bins = [...document.querySelectorAll('[data-lcs-bin]')].map((b) => { const p = b.querySelector('[data-lcs-bin-label]'); const t = b.querySelector('[data-lcs-bin-text]'); return { dir: b.dataset.lcsBin, w: r(b).width, h: r(b).height, left: r(b).left, cells: [...b.querySelectorAll('.ws-blankbox')].map((x) => ({ w: r(x).width, h: r(x).height, ans: x.getAttribute('data-lcs-answer'), text: x.textContent.trim() })), pill: p ? { w: r(p).width, h: r(p).height, text: t ? t.textContent.trim() : '', font: t ? parseFloat(getComputedStyle(t).fontSize) : 0, overflow: p.scrollWidth - p.clientWidth } : null }; });
+    F.est = [...document.querySelectorAll('[data-lcs-a]')].map((row) => { const e = row.querySelector('[data-lcs-expr]'); return { a: +row.dataset.lcsA, b: +row.dataset.lcsB, w: r(row).width, h: r(row).height, expr: e ? e.textContent.replace(/\s+/g, ' ').trim() : '', exprFont: e ? parseFloat(getComputedStyle(e).fontSize) : 0, exprScroll: e ? e.scrollWidth - e.clientWidth : 0, boxes: [...row.querySelectorAll('.ws-blankbox')].map((x) => ({ w: r(x).width, h: r(x).height, ans: x.getAttribute('data-lcs-answer'), role: x.dataset.lcsRole })) }; });
+    const field = document.querySelector('[data-lcs-field]');
+    F.pills = field ? [...field.querySelectorAll('[data-lcs-val]')].map((p) => ({ v: +p.dataset.lcsVal, w: r(p).width, h: r(p).height, font: parseFloat(getComputedStyle(p).fontSize), attrs: p.getAttributeNames().join(','), left: r(p).left, top: r(p).top })) : [];
+    F.fieldRows = field ? [...field.querySelectorAll('[data-lcs-field-row]')].map((row) => ({ w: r(row).width, left: r(row).left, top: r(row).top, bottom: r(row).bottom })) : [];
+    const tp = document.querySelector('[data-lcs-target-pill]');
+    F.target = tp ? { w: r(tp).width, h: r(tp).height, text: tp.textContent.trim(), font: parseFloat(getComputedStyle(tp).fontSize) } : null;
+    F.two = [...document.querySelectorAll('[data-lcs-steps]')].filter((x) => x.hasAttribute('data-lcs-row')).map((row) => ({ n: +row.dataset.lcsN, w: r(row).width, h: r(row).height, numFont: parseFloat(getComputedStyle(row.querySelector('[data-lcs-num]')).fontSize), boxes: [...row.querySelectorAll('.ws-blankbox')].map((x) => ({ cx: r(x).left + r(x).width / 2, w: r(x).width, h: r(x).height, ans: x.getAttribute('data-lcs-answer'), step: x.dataset.lcsStep })) }));
+    F.heads = [...document.querySelectorAll('[data-lcs-head]')].map((c) => { const range = document.createRange(); range.selectNodeContents(c); return { step: c.dataset.lcsHead, text: c.textContent.trim(), cx: r(c).left + r(c).width / 2, textW: range.getBoundingClientRect().width, w: r(c).width, font: parseFloat(getComputedStyle(c).fontSize), bottom: r(c).bottom }; });
+    F.rows = [...document.querySelectorAll('[data-lcs-row]')].map((row) => ({ top: r(row).top, bottom: r(row).bottom, w: r(row).width }));
+    const box = document.querySelector('[data-lcs-rulebox]');
+    const worked = [...document.querySelectorAll('[data-lcs-worked]')].map((w) => ({ n: w.dataset.lcsWorked, to: w.dataset.lcsWorkedTo, w: r(w).width, digit: (w.querySelector('[data-lcs-rule-digit]') || {}).textContent, place: (w.querySelector('[data-lcs-place]') || {}).textContent }));
+    const ring = [...document.querySelectorAll('[data-lcs-strip-digit][data-lcs-rule-digit]')].map((d) => d.dataset.lcsStripDigit);
+    const caps = [...document.querySelectorAll('[data-lcs-caption]')].map((c) => ({ dir: c.dataset.lcsCaption, text: c.textContent.trim(), w: r(c).width }));
+    return {
+      face, stamps: D, body: { h: r(body).height, top: r(body).top, bottom: r(body).bottom }, foot: r(foot).top, lines: Math.round(r(title).height / (30 * 1.1)),
+      stage: { top: st.top, bottom: st.bottom, h: st.bottom - st.top }, lowest: lowestOf(), rowBlank: blanks(rowsOf()), stacks,
+      rulebox: box ? { h: r(box).height, w: r(box).width } : null, worked, ring, caps, F,
+      text: (document.querySelector('.ws-body') || document.body).innerText || '',
+      svgs: document.querySelectorAll('.ws-body svg').length, rels: document.querySelectorAll('.ws-body svg[data-lcs-rel]').length,
+    };
+  });
+  return { verify: out.qa.verify, lints: out.qa.lints, m, meta: out.meta, png: out.pngPath };
+}
+
+/** The node cross-check of a face render: every answer / quota / literal re-derived from the STAMPS + the bank + the spec's helpers. */
+function faceCrossCheck(row, r, bank, cfg) {
+  const out = [];
+  const m = r.m, F = m.F, D = m.stamps;
+  const step = cfg.step || 10;
+  if (m.face !== (row.face === 'hundred' ? 'base' : row.face)) out.push(`root face "${m.face}" != row face "${row.face}"`);
+  if (cfg.stack != null && +D.lcsStack !== cfg.stack) out.push(`stamped stack ${D.lcsStack} != resolved ${cfg.stack}`);
+  if (D.lcsDown !== bank.down[step] || D.lcsUp !== bank.up[step]) out.push('root literals != the bank');
+  if (m.caps.length !== 2 || m.caps.some((c) => c.text !== bank[c.dir][step] || c.w > 118)) out.push(`captions ${JSON.stringify(m.caps)}`);
+  if (m.rulebox && (m.rulebox.h < 95.4 || m.rulebox.h > 100)) out.push(`rule box ${m.rulebox.h.toFixed(1)} (want 96..100)`);
+  if (m.svgs !== m.rels) out.push(`${m.svgs} SVGs, ${m.rels} relation glyphs`);
+  if (/[≈→<>]/.test(m.text)) out.push('U+2248 / U+2192 / < / > in the body text');
+  if (/(?<!\d)\d{4,}/.test(m.text)) out.push('a 4-digit number in the body text');
+  if (row.face === 'sort') {
+    const vs = F.chips.map((c) => c.v);
+    if (vs.length !== cfg.items) out.push(`${vs.length} chips != ${cfg.items}`);
+    if (!vs.every((v) => v >= cfg.min && v <= cfg.max && v % step !== 0 && TYPE.decidingDigit(v, step) !== 0 && v !== cfg.worked)) out.push('a chip outside the pool');
+    const ups = vs.filter((v) => TYPE.isUp(v, step)).length, downs = vs.length - ups;
+    if (ups < cfg.splitMin || ups > cfg.splitMax || downs < cfg.splitMin || downs > cfg.splitMax) out.push(`split ${ups} / ${downs} outside ${cfg.splitMin}..${cfg.splitMax}`);
+    if (!(cfg.cells > Math.max(ups, downs)) || cfg.cells === ups || cfg.cells === downs) out.push(`cells ${cfg.cells} vs split ${ups} / ${downs}`);
+    if (vs.filter((v) => TYPE.decidingDigit(v, step) === 5).length < cfg.fiveMin) out.push('fives under quota');
+    if (vs.filter((v) => TYPE.carries(v, step)).length > cfg.carryMax) out.push('carries over the cap');
+    if (cfg.mix) for (const [k, c] of Object.entries(cfg.mix)) if (vs.filter((v) => String(v).length === +k).length !== c) out.push(`mix ${k}-digit != ${c}`);
+    if (cfg.digitCover) for (let d = 1; d <= 9; d++) if (!vs.some((v) => TYPE.decidingDigit(v, step) === d)) out.push(`deciding digit ${d} absent`);
+    if (F.chips.some((c) => c.w < cfg.chip - 0.6 || c.h < cfg.chip - 0.6 || c.font < cfg.chipPx || c.scroll > 0)) out.push('a chip under its configured size / overflowing');
+    if (new Set(F.chips.map((c) => Math.round(c.top))).size !== Math.ceil(cfg.items / cfg.chipCols)) out.push('chips not in the configured rows');
+    if (F.bins.length !== 2 || F.bins[0].dir !== 'down' || F.bins[1].dir !== 'up' || F.bins[0].left >= F.bins[1].left) out.push('bins not down-left / up-right');
+    for (const b of F.bins) {
+      if (Math.abs(b.w - cfg.binW) > 0.6 || Math.abs(b.h - cfg.binH) > 0.6) out.push(`${b.dir} bin ${b.w.toFixed(1)} x ${b.h.toFixed(1)} != ${cfg.binW} x ${cfg.binH}`);
+      if (b.cells.length !== cfg.cells || b.cells.some((x) => x.ans !== '' || x.text || Math.abs(x.w - cfg.cellW) > 0.6 || Math.abs(x.h - cfg.cellH) > 0.6)) out.push(`${b.dir} bin cells ${JSON.stringify(b.cells[0])} (want ${cfg.cells} empty ${cfg.cellW} x ${cfg.cellH})`);
+      if (!b.pill || b.pill.text !== bank[b.dir][step] || b.pill.w > 300 || b.pill.h < cfg.pillH - 0.6 || b.pill.overflow > 0 || b.pill.font < cfg.pillPx) out.push(`${b.dir} pill ${JSON.stringify(b.pill)}`);
+    }
+    if (m.worked.length !== 1 || +m.worked[0].n !== cfg.worked || +m.worked[0].to !== TYPE.round(cfg.worked, step)) out.push(`worked ${JSON.stringify(m.worked)}`);
+    if (m.ring.join() !== String(TYPE.decidingDigit(cfg.worked, step))) out.push(`ring ${m.ring.join()}`);
+  } else if (row.face === 'estimate') {
+    if (F.est.length !== cfg.items) out.push(`${F.est.length} lines != ${cfg.items}`);
+    const adds = [];
+    const keys = new Set();
+    for (const e of F.est) {
+      adds.push(e.a, e.b);
+      const ra = TYPE.round(e.a, step), rb = TYPE.round(e.b, step);
+      if (e.a < cfg.addMin || e.b < cfg.addMin || e.a > cfg.addMax || e.b > cfg.addMax || e.a % step === 0 || e.b % step === 0 || e.a === e.b) out.push(`${e.a} + ${e.b} outside the pool`);
+      if (e.a + e.b > cfg.sumMax || ra + rb > cfg.roundedSumMax) out.push(`${e.a} + ${e.b} over a cap`);
+      if (e.boxes.map((x) => x.ans).join(',') !== `${ra},${rb},${ra + rb}` || e.boxes.map((x) => x.role).join(',') !== 'a,b,sum') out.push(`${e.a} + ${e.b}: boxes ${JSON.stringify(e.boxes.map((x) => x.ans))}`);
+      if (e.boxes.some((x) => x.h < 43.4) || e.boxes[0].w < 67.4 || e.boxes[1].w < 67.4 || e.boxes[2].w < 75.4) out.push(`${e.a} + ${e.b}: a box under the floor`);
+      if (e.expr !== `${e.a} + ${e.b}` || e.exprFont < 22 || e.exprScroll > 0) out.push(`${e.a} + ${e.b}: expression "${e.expr}" ${e.exprFont}px scroll ${e.exprScroll}`);
+      if (e.w > 639 || Math.abs(e.w - 433) > 2 || Math.abs(e.h - cfg.rowH) > 0.6) out.push(`${e.a} + ${e.b}: row ${e.w.toFixed(1)} x ${e.h.toFixed(1)} (want 433 x ${cfg.rowH})`);
+      const k = [e.a, e.b].sort((x, y) => x - y).join('+'); if (keys.has(k)) out.push(`pair ${k} twice`); keys.add(k);
+      if (k === cfg.worked.slice().sort((x, y) => x - y).join('+')) out.push('the worked pair is a line');
+    }
+    if (adds.filter((n) => TYPE.decidingDigit(n, step) === 5).length < cfg.fiveMin) out.push('fives under quota');
+    const ups = adds.filter((n) => TYPE.isUp(n, step)).length;
+    if (ups < cfg.upMin || adds.length - ups < cfg.downMin) out.push(`addends up ${ups} / down ${adds.length - ups} under quota`);
+    if (cfg.digitCover) for (let d = 1; d <= 9; d++) if (!adds.some((n) => TYPE.decidingDigit(n, step) === d)) out.push(`deciding digit ${d} absent among the addends`);
+    const [w1, w2] = cfg.worked;
+    if (m.worked.length !== 1 || m.worked[0].n !== `${w1}+${w2}` || +m.worked[0].to !== TYPE.round(w1, step) + TYPE.round(w2, step) || m.worked[0].digit !== String(TYPE.decidingDigit(w2, step))) out.push(`worked ${JSON.stringify(m.worked)}`);
+    if (m.ring.join() !== String(TYPE.decidingDigit(w2, step))) out.push(`ring ${m.ring.join()}`);
+    if ((m.text.match(/=/g) || []).length !== cfg.items + 1) out.push(`${(m.text.match(/=/g) || []).length} = signs on the page (want ${cfg.items} rows + the worked line)`);
+  } else if (row.face === 'inverse') {
+    const vs = F.pills.map((p) => p.v);
+    if (vs.length !== cfg.pills) out.push(`${vs.length} pills != ${cfg.pills}`);
+    if (new Set(vs).size !== vs.length) out.push('a pill twice');
+    if (!vs.every((v) => v >= cfg.range[0] && v <= cfg.range[1] && v % step !== 0 && v !== cfg.target && v !== cfg.worked)) out.push('a pill outside the pool');
+    const mem = vs.filter((v) => TYPE.round(v, step) === cfg.target);
+    if (mem.length !== cfg.members) out.push(`${mem.length} members != ${cfg.members}`);
+    if (!cfg.nearMiss.every((v) => vs.includes(v))) out.push('a near miss missing');
+    if (cfg.fiveIn && !vs.includes(cfg.five)) out.push(`the 5 case ${cfg.five} missing`);
+    if (cfg.digitCover) for (let d = 1; d <= 9; d++) if (!vs.some((v) => TYPE.decidingDigit(v, step) === d)) out.push(`deciding digit ${d} absent`);
+    if (F.pills.some((p) => Math.abs(p.w - cfg.pillW) > 0.6 || Math.abs(p.h - cfg.pillH) > 0.6 || p.font < cfg.px || /correct|member/.test(p.attrs))) out.push(`a pill off ${cfg.pillW} x ${cfg.pillH} / ${cfg.px}px or stamped`);
+    if (!F.target || F.target.text !== String(cfg.target) || F.target.h < cfg.targetH - 0.6 || F.target.font < cfg.targetPx) out.push(`target pill ${JSON.stringify(F.target)}`);
+    if (F.fieldRows.length !== cfg.pills / cfg.perRow || F.fieldRows.some((fr) => fr.w > 639)) out.push(`field rows ${JSON.stringify(F.fieldRows.map((x) => x.w))}`);
+    for (let i = 1; i < F.fieldRows.length; i++) if (F.fieldRows[i].top - F.fieldRows[i - 1].bottom < cfg.rowGap - 0.6) out.push(`rows ${i} / ${i + 1} closer than ${cfg.rowGap}`);
+    if (F.fieldRows.length >= 2 && Math.abs((F.fieldRows[1].left - F.fieldRows[0].left) - cfg.stagger) > 0.6) out.push(`stagger ${(F.fieldRows[1].left - F.fieldRows[0].left).toFixed(1)} != ${cfg.stagger}`);
+    if (m.worked.length !== 1 || +m.worked[0].n !== cfg.worked || +m.worked[0].to === cfg.target || +m.worked[0].to !== TYPE.round(cfg.worked, step)) out.push(`worked ${JSON.stringify(m.worked)}`);
+    if (m.ring.join() !== String(TYPE.decidingDigit(cfg.worked, step))) out.push(`ring ${m.ring.join()}`);
+  } else if (row.face === 'both') {
+    const ns = F.two.map((t) => t.n);
+    if (ns.length !== cfg.items) out.push(`${ns.length} lines != ${cfg.items}`);
+    if (new Set(ns).size !== ns.length) out.push('a number twice');
+    if (!ns.every((n) => n >= cfg.min && n <= cfg.max && n % 10 !== 0 && n !== cfg.worked && TYPE.round(n, 100) <= 999)) out.push('a number outside the pool');
+    for (const t of F.two) {
+      if (t.boxes.map((x) => x.ans).join(',') !== `${TYPE.round(t.n, 10)},${TYPE.round(t.n, 100)}` || t.boxes.map((x) => x.step).join(',') !== '10,100') out.push(`${t.n}: boxes ${JSON.stringify(t.boxes.map((x) => [x.step, x.ans]))}`);
+      if (t.boxes.some((x) => x.w < 83.4 || x.h < 43.4) || t.numFont < 22 || Math.abs(t.h - cfg.rowH) > 0.6 || t.w > 639) out.push(`${t.n}: row ${t.w} x ${t.h}, numeral ${t.numFont}px`);
+    }
+    if (ns.filter((n) => n % 10 === 5).length < cfg.fiveMin[10] || ns.filter((n) => Math.floor(n / 10) % 10 === 5).length < cfg.fiveMin[100]) out.push('per-place fives under quota');
+    const ups = ns.filter((n) => n % 10 >= 5).length;
+    if (ups < cfg.upMin || ns.length - ups < cfg.downMin) out.push(`ones up ${ups} / down ${ns.length - ups} under quota`);
+    if (new Set(ns.map((n) => n % 10)).size < cfg.digitDistinct) out.push('ones digits not spread');
+    if (ns.filter((n) => TYPE.carries(n, 10)).length > cfg.carryMax) out.push('carries over the cap');
+    if (F.heads.length !== 2 || F.heads[0].text !== bank.heads[10] || F.heads[1].text !== bank.heads[100]) out.push(`heads ${JSON.stringify(F.heads.map((h) => h.text))} != the bank`);
+    if (F.heads.some((h) => h.textW > 156 || h.font < 13 || Math.abs(h.w - 160) > 0.6)) out.push(`a head cell off ${JSON.stringify(F.heads.map((h) => [h.textW, h.font, h.w]))}`);
+    if (F.two.length && F.heads.length === 2 && F.heads.some((h, j) => Math.abs(h.cx - F.two[0].boxes[j].cx) > 1)) out.push(`head centres ${F.heads.map((h) => h.cx.toFixed(1)).join('/')} vs boxes ${F.two[0].boxes.map((b) => b.cx.toFixed(1)).join('/')}`);
+    if (m.worked.length !== 2 || +m.worked[0].n !== cfg.worked || +m.worked[0].to !== TYPE.round(cfg.worked, 10) || +m.worked[1].to !== TYPE.round(cfg.worked, 100) || m.worked[0].place !== '10' || m.worked[1].place !== '100' || m.worked[0].digit !== String(cfg.worked % 10) || m.worked[1].digit !== String(Math.floor(cfg.worked / 10) % 10)) out.push(`worked ${JSON.stringify(m.worked)}`);
+    if (m.ring.join() !== String(cfg.worked % 10)) out.push(`ring ${m.ring.join()}`);
+  } else if (row.face === 'hundred') {
+    // the base branch at step 100 (crossCheck below covers the lines); here only the place
+    if (step !== 100 || m.worked.length !== 1 || +m.worked[0].n !== 472 || +m.worked[0].to !== 500 || m.worked[0].digit !== '7' || m.ring.join() !== '7') out.push(`hundred worked ${JSON.stringify(m.worked)} ring ${m.ring.join()}`);
+  }
+  return out;
+}
+
+/** Every face render assertion (verify / lints / node cross-check / floors / the pinned budgets / SPARSE). */
+function assertFace(name, row, r, bank, cfg, { chrome } = {}) {
+  ok(r.verify.length === 0, `${name}: verify ${JSON.stringify(r.verify)}`);
+  ok(r.lints.length === 0, `${name}: lints ${JSON.stringify(r.lints)}`);
+  const cc = faceCrossCheck(row, r, bank, cfg);
+  ok(cc.length === 0, `${name}: node cross-check ${cc.join(' | ')}`);
+  ok(r.m.lowest <= r.m.foot + 0.6, `${name}: lowest ink ${Math.round(r.m.lowest)} vs foot ${Math.round(r.m.foot)}`);
+  ok(r.m.stage.bottom <= r.m.body.bottom + 0.6 && r.m.stage.top >= r.m.body.top - 0.6, `${name}: the stage ${Math.round(r.m.stage.top)}..${Math.round(r.m.stage.bottom)} leaves the body ${Math.round(r.m.body.top)}..${Math.round(r.m.body.bottom)}`);
+  for (const s of r.m.stacks.filter((x) => x.budget !== 400)) ok(s.fits, `${name}: under the ${s.budget} budget (body pinned to ${Math.round(s.bodyH)}) the stage overflows (lowest ${Math.round(s.lowest)} vs ${Math.round(s.bodyBottom)})`);
+  // SPARSE: the MINIMAL stack (the stage measured under a 400 px pin, where a 1fr lane cannot grow) is at least the floor (i.e. <= 180 px of slack under the one-line chrome) and the lane faces' rows own their band at every chrome
+  const s677 = r.m.stacks.find((s) => s.budget === 400);
+  ok(s677.stage >= STAGE_MIN - 0.6, `${name}: SPARSE — the minimal stage measures ${Math.round(s677.stage)} px (< ${STAGE_MIN}: the one-line chrome would leave ${811 - Math.round(s677.stage)} px of blank paper)`);
+  ok(s677.stage <= 677 + 0.6, `${name}: the minimal stage ${Math.round(s677.stage)} > 677`);
+  ok(r.m.rowBlank <= ROW_BLANK_MAX + 0.6, `${name}: SPARSE — ${Math.round(r.m.rowBlank)} px of blank between two consecutive rows (> ${ROW_BLANK_MAX})`);
+  if (chrome === 'one') ok(r.m.body.bottom - r.m.stage.bottom <= 180 + 0.6, `${name}: SPARSE — ${Math.round(r.m.body.bottom - r.m.stage.bottom)} px of slack under the stage at the one-line chrome (> 180)`);
+  if (chrome === 'three') ok(r.m.lines === 3, `${name}: the 722 fixture title wraps to ${r.m.lines} lines`);
+  if (chrome === 'four') ok(r.m.lines === 4, `${name}: the 677 fixture title wraps to ${r.m.lines} lines`);
+  return { body: Math.round(r.m.body.h), stage: Math.round(r.m.stage.h), stage677: Math.round(r.m.stacks.find((s) => s.budget === 677).stage), stageMin: Math.round(s677.stage), rowBlank: Math.round(r.m.rowBlank), lowest: Math.round(r.m.lowest), foot: Math.round(r.m.foot), fits: r.m.stacks.filter((s) => s.budget !== 400).map((s) => `${s.budget}:${s.fits ? 'ok' : 'FAIL'}`).join(' ') };
+}
+
 /* ------------------------------------------------------------------ main ------------------------------------------------------------------ */
 
 async function main() {
@@ -509,7 +748,7 @@ async function main() {
 
   // ---- config poisons (resolveBase refuses) + the control
   const d2 = TYPE.difficulty[2];
-  const refuses = (name, cfg, re) => { let m = null; try { TYPE.resolveBase(cfg, en); } catch (e) { m = e.message; } ok(m && re.test(m), `config poison ${name}: ${m || 'resolveBase did NOT refuse'}`); };
+  const refuses = (name, cfg, re) => { poisonsTotal++; let m = null; try { TYPE.resolveBase(cfg, en); } catch (e) { m = e.message; } const k = !!(m && re.test(m)); if (k) poisonsKilled++; ok(k, `config poison ${name}: ${m || 'resolveBase did NOT refuse'}`); };
   ok((() => { try { TYPE.resolveBase(d2, en); return true; } catch (e) { return false; } })(), 'control: the shipped d2 config resolves');
   refuses('20 items', { ...d2, items: 20, mix: { 2: 10, 3: 10 } }, /outside the G2-3 window/);
   refuses('7 items', { ...d2, items: 7, mix: null }, /outside the G2-3 window|do not fill/);
@@ -522,12 +761,12 @@ async function main() {
   refuses('cols 3', { ...d2, cols: 3 }, /cols 3/);
   refuses('steps [5]', { ...d2, steps: [5] }, /steps must be/);
   refuses('rowH 40', { ...d2, rowH: 40 }, /rowH 40 < 44/);
-  { let m = null; try { TYPE.resolveBase(d2, { ...en, relation: 'wave' }); } catch (e) { m = e.message; } ok(m && /relation must be/.test(m), `config poison relation "wave": ${m || 'not refused'}`); }
-  { let m = null; try { TYPE._buildWith(en, { ...d2, steps: [10, 100] }, { locale: 'en' }, { rng: makeRng('x') }); } catch (e) { m = e.message; } ok(m && /Phase 2 face/.test(m), `F5 steps on the base path: ${m || 'built silently'}`); }
-  { let m = null; try { TYPE._buildWith(en, { ...d2, mode: 'sort' }, { locale: 'en' }, { rng: makeRng('x') }); } catch (e) { m = e.message; } ok(m && /Phase 2 face/.test(m), `mode:'sort' on the base path: ${m || 'built silently'}`); }
-  { let m = null; try { TYPE._buildWith({ ...en, down: { 100: 'round down' } }, d2, { locale: 'en' }, { rng: makeRng('x') }); } catch (e) { m = e.message; } ok(m && /has no down\[10\] literal/.test(m), `a bank without down[10] refuses: ${m || 'built silently'}`); }
+  { poisonsTotal++; let m = null; try { TYPE.resolveBase(d2, { ...en, relation: 'wave' }); } catch (e) { m = e.message; } const k = !!(m && /relation must be/.test(m)); if (k) poisonsKilled++; ok(k, `config poison relation "wave": ${m || 'not refused'}`); }
+  { poisonsTotal++; let m = null; try { TYPE._buildWith(en, { ...d2, steps: [10, 100] }, { locale: 'en' }, { rng: makeRng('x') }); } catch (e) { m = e.message; } const k = !!(m && /both: range 11\.\.994|fiveMin must be \{10/.test(m)); if (k) poisonsKilled++; ok(k, `the base d2 config with steps [10,100] (the base range, a number fiveMin) refuses through the both path: ${m || 'built silently'}`); }
+  { poisonsTotal++; let m = null; try { TYPE._buildWith(en, { ...d2, mode: 'sort' }, { locale: 'en' }, { rng: makeRng('x') }); } catch (e) { m = e.message; } const k = !!(m && /sort: splitMin must be/.test(m)); if (k) poisonsKilled++; ok(k, `the base d2 config with mode:'sort' (no split) refuses through the sort path: ${m || 'built silently'}`); }
+  { poisonsTotal++; let m = null; try { TYPE._buildWith({ ...en, down: { 100: 'round down' } }, d2, { locale: 'en' }, { rng: makeRng('x') }); } catch (e) { m = e.message; } const k = !!(m && /has no down\[10\] literal/.test(m)); if (k) poisonsKilled++; ok(k, `a bank without down[10] refuses: ${m || 'built silently'}`); }
   // component throws (contracts)
-  const throws = (fn, re, what) => { let m = null; try { fn(); } catch (e) { m = e.message; } ok(m && re.test(m), `${what}: ${m || 'did NOT throw'}`); };
+  const throws = (fn, re, what) => { poisonsTotal++; let m = null; try { fn(); } catch (e) { m = e.message; } const k = !!(m && re.test(m)); if (k) poisonsKilled++; ok(k, `${what}: ${m || 'did NOT throw'}`); };
   throws(() => C4.roundRow({ idx: 1, n: 47, step: 10, answer: 40 }), /answer 40 != round/, 'roundRow wrong answer');
   throws(() => C4.roundRow({ idx: 1, n: 50, step: 10, answer: 50 }), /multiple of 10/, 'roundRow n 50');
   throws(() => C4.roundRow({ idx: 1, n: 996, step: 10, answer: 1000 }), />= 1000/, 'roundRow 996');
@@ -539,6 +778,11 @@ async function main() {
   throws(() => C4.updownBins({ down: { label: 'a' }, up: { label: 'b' }, cellH: 40 }), /cellH 40 < 44/, 'updownBins cell 40');
   throws(() => C4.estimateRow({ idx: 1, a: 20, b: 48 }), /multiple of 10/, 'estimateRow addend 20');
   throws(() => C4.numberField({ target: 50, values: [45, 46, 50, 51] }), /the target/, 'numberField target among the values');
+  throws(() => C4.numberField({ target: 50, values: [45, 46, 49, 51], gap: 12 }), /gap 12/, 'numberField gap 12 (no ring room)');
+  throws(() => C4.roundChipLane({ values: [45, 46, 50, 51] }), /multiple of 10/, 'roundChipLane a chip 50');
+  throws(() => C4.roundChipLane({ values: [45, 46, 47, 51], chip: 40 }), /chip 40 < 52/, 'roundChipLane chip 40');
+  throws(() => C4.updownBins({ down: { label: 'a' }, up: { label: 'b' }, cellH: 76, h: 232 }), /need \d+ px, the bin is 232/, 'updownBins cells taller than the bin');
+  throws(() => C4.targetPill({ target: 50, h: 40 }), /below the floor/, 'targetPill 40 high');
   throws(() => C4.placeHeader({ heads: ['a', 'b'], centres: [178, 306] }), /cells overlap/, 'placeHeader centres 128 apart (the P12 shape)');
   throws(() => C4.twoTargetRow({ idx: 1, n: 472, answers: [470, 400] }), /answers/, 'twoTargetRow wrong answers');
 
@@ -636,10 +880,61 @@ async function main() {
       ok(h.fieldRows.length === 4 && h.fieldRows.every((w) => w <= 639) && Math.abs(h.fieldRows[0] - 456) <= 1, `numberField rows ${h.fieldRows.map((w) => w.toFixed(0)).join('/')} (design 456 + stagger)`);
       ok(h.pills.length === 16 && h.pills.every((p) => p.w >= 95.4 && p.h >= 51.4 && p.font >= 26 && !/correct|member/.test(p.attrs)), `numberField pills ${h.pills.length}, floors ${JSON.stringify(h.pills[0])}`);
       ok(h.gapX >= 20, `numberField pill gap ${h.gapX.toFixed(1)} >= 20 (the pencil-ring reserve)`);
-      ok(Math.abs(h.tp.w - 98) <= 6 && h.tp.h >= 51.4 && h.tp.text === '50', `targetPill ${JSON.stringify(h.tp)} (design 98 x 52)`);
+      ok(h.tp.w >= 96 && h.tp.w <= 112 && h.tp.h >= 51.4 && h.tp.text === '50', `targetPill ${JSON.stringify(h.tp)} (design 98 x 52; padding 18 measured ~106)`);
       ok(h.boxes5.length === 2 && Math.abs(h.boxes5[0].cx - 178) <= 1 && Math.abs(h.boxes5[1].cx - 338) <= 1 && h.boxes5[0].answer === '470' && h.boxes5[1].answer === '500', `twoTargetRow box centres ${h.boxes5.map((b) => b.cx.toFixed(1)).join(' / ')} answers ${h.boxes5.map((b) => b.answer).join(',')} (design 178 / 338)`);
       ok(h.heads.length === 2 && h.heads.every((c, i) => Math.abs(c.cx - h.boxes5[i].cx) <= 1 && c.textW <= 156 && c.font >= 13 && Math.abs(c.w - 160) <= 0.6), `placeHeader cells ${JSON.stringify(h.heads)} (centres within 1 px of the boxes, text <= 156 at N13)`);
       console.log(`components: bins ${h.bins.map((b) => b.w.toFixed(0) + 'x' + b.h.toFixed(0) + ' pill ' + b.pill.toFixed(1)).join(' / ')} · estimateRow ${h.est.map((e) => e.w.toFixed(1)).join(' / ')} (F3 worked ${h.worked.w.toFixed(1)}, rule box ${h.rulebox}) · field rows ${h.fieldRows.map((w) => w.toFixed(0)).join('/')} gap ${h.gapX.toFixed(1)} · targetPill ${h.tp.w.toFixed(1)}x${h.tp.h.toFixed(1)} · F5 centres ${h.boxes5.map((b) => b.cx.toFixed(1)).join('/')} heads ${h.heads.map((c) => c.cx.toFixed(1) + '@' + c.textW.toFixed(1)).join(' ')}`);
+    }
+
+    // ---- 5. the faces: rows ≡ emitted specs ≡ bank strings; ids fixed; every face rendered at three chromes + the one-line chrome
+    const rows = faceRows();
+    const alloc = JSON.parse(fs.readFileSync(ALLOC, 'utf8')).faces.filter((a) => a.family === 'G2-346');
+    ok(rows.length === 5 && rows.map((x) => x.face).join() === 'sort,hundred,estimate,inverse,both', `faces: rows ${rows.map((x) => x.id + ':' + x.face).join(' ')} (want the five faces in §3 order)`);
+    for (const row of rows) {
+      const a = alloc.find((x) => x.face === ['sort', 'hundred', 'estimate', 'inverse', 'both'].indexOf(row.face) + 1);
+      ok(a && a.id === row.id && a.dir === row.dir, `faces: ${row.id} is not the allocation's id for face ${row.face} (${a && a.id} / ${a && a.dir})`);
+      ok(row.dir === 'g3' && row.extra && row.extra.gradeBand === 'G3', `faces: ${row.id} must live in types/g3 with gradeBand G3 (3.NBT.A.1 is a Grade 3 code)`);
+      const s = en.strings[row.face];
+      ok(s && s.title === row.title && s.instruction === row.instruction, `faces: ${row.id} row strings != bank strings.${row.face}`);
+      let spec = null;
+      try { spec = loadType(row.id); } catch (e) { ok(false, `faces: ${row.id} not emitted (${e.message})`); continue; }
+      row.spec = spec;
+      ok(spec.i18n.en.title === row.title && spec.i18n.en.instruction === row.instruction && spec.gradeBand === 'G3' && spec.exerciseType === 'rounding' && spec.themeAxis && spec.themeAxis.applicable === false, `faces: ${row.id} emitted spec drifts from the row (title / gradeBand / themeless)`);
+      ok(JSON.stringify(spec.difficulty[2]) === JSON.stringify(row.D) && JSON.stringify(spec.difficulty[1]) === JSON.stringify(row.D), `faces: ${row.id} emitted difficulty != the row's resolved override`);
+      // a title that names a number names what the d2 page shows
+      const nums = (row.title.match(/\d+/g) || []).map(Number);
+      const shown = faceNumbers(row.face, row.D);
+      ok(nums.every((n) => shown.includes(n)), `faces: ${row.id} title names ${nums.join(',')}, the page shows ${shown.join(',')}`);
+    }
+    const faceCfg = (row, bank = en) => resolveFace(row.face, row.D, bank);
+    const faceLog = [];
+    for (const row of rows) {
+      if (!row.spec) continue;
+      const cfg = faceCfg(row);
+      const chromes = [['', undefined, null], ['-chrome722', CHROME.three, 'three'], ['-chrome677', CHROME.four, 'four'], ['-chrome1', ONE_LINE, 'one']];
+      for (const [suffix, strings, chrome] of chromes) {
+        const r = await renderFace(page, row.spec, { baseName: `${row.id}-gate-d2-en${suffix}`, strings });
+        const s = assertFace(`${row.id} ${row.face} en${suffix}`, row, r, en, cfg, { chrome });
+        if (row.face === 'hundred') {
+          // F2 is the base path at step 100: the base measure + assertions too
+          const rb = await renderWith(page, row.spec, { difficulty: 2, baseName: `${row.id}-gate-d2-en${suffix}-base`, strings });
+          assertRender(`${row.id} hundred en${suffix} (base branch)`, rb, cfg, en);
+        }
+        if (!suffix) faceLog.push(`render ${row.id} ${row.face} en: verify ${r.verify.length} lints ${r.lints.length} body ${s.body} stage ${s.stage} (677 pin ${s.stage677}) row-blank ${s.rowBlank} lowest ${s.lowest} vs foot ${s.foot} [${s.fits}] ${row.face === 'sort' ? 'chips ' + r.m.F.chips.map((c) => c.v).join(',') + ' split ' + r.meta.split.up + '/' + r.meta.split.down : row.face === 'estimate' ? 'pairs ' + r.m.F.est.map((e) => e.a + '+' + e.b).join(' ') : row.face === 'inverse' ? 'pills ' + r.m.F.pills.map((p) => p.v).join(',') + ' members ' + r.meta.members.join(',') : row.face === 'both' ? 'lines ' + r.m.F.two.map((t) => t.n).join(',') + ' heads ' + r.m.F.heads.map((h) => h.text + '@' + h.textW.toFixed(1)).join(' / ') : 'items ' + r.meta.items.join(',')}`);
+        else faceLog.push(`  ${row.id}${suffix}: body ${s.body} stage ${s.stage} row-blank ${s.rowBlank} lowest ${s.lowest} vs foot ${s.foot} [${s.fits}]`);
+      }
+    }
+    faceLog.forEach((l) => console.log(l));
+    // a synthetic locale renders every face (the literals reach the page; the fi heads fit the 160 cell) — de under the 722 chrome, fi under the 677 chrome
+    for (const [loc, chrome, suffix] of [['de', CHROME.three, 'chrome722'], ['fi', CHROME.four, 'chrome677']]) {
+      const blk = synthetic(loc);
+      for (const row of rows) {
+        if (!row.spec) continue;
+        const spec = withBank(row.spec, blk, row.D);
+        const r = await renderFace(page, spec, { baseName: `${row.id}-gate-d2-${loc}-syn-${suffix}`, strings: { title: blk.strings[row.face].title, instruction: chrome.instruction } });
+        const s = assertFace(`${row.id} ${row.face} ${loc} (synthetic) ${suffix}`, row, r, blk, faceCfg(row, blk));
+        console.log(`render ${row.id} ${row.face} ${loc} syn ${suffix}: verify ${r.verify.length} lints ${r.lints.length} body ${s.body} stage ${s.stage} [${s.fits}]` + (row.face === 'both' ? ' heads ' + r.m.F.heads.map((h) => h.text + '@' + h.textW.toFixed(1)).join(' / ') : row.face === 'sort' ? ' pills ' + r.m.F.bins.map((b) => b.pill.text + '@' + b.pill.w.toFixed(1)).join(' / ') : ''));
+      }
     }
 
     // ---- 3. sweep
@@ -671,15 +966,60 @@ async function main() {
         ok(sets.size >= 2 && orders.size >= 2, `sweep d${d}: ${sets.size} distinct sets / ${orders.size} orders over 20 seeds`);
         console.log(`sweep d${d}: 20 seeds, ${sets.size} distinct sets, ${orders.size} distinct orders`);
       }
+      // the faces: 20 seeds each — every quota re-derived from the meta, distinct sets AND orders, the locale-neutral seed (the same numbers over a synthetic de block)
+      for (const row of rows) {
+        if (!row.spec) continue;
+        const cfg = faceCfg(row);
+        const sets = new Set(), orders = new Set();
+        for (let sd = 1; sd <= 20; sd++) {
+          const seed = () => makeRng(instanceSeed({ typeId: row.id, theme: null, difficulty: 2, seedEpoch: 1, variant: sd }));
+          const b = row.spec.build({ theme: null, difficulty: 2, locale: 'en' }, { rng: seed() });
+          const b2 = TYPE._buildWith(synthetic('de'), row.D, { locale: 'de' }, { rng: seed() });
+          const L = `sweep ${row.id} ${row.face} seed ${sd}`;
+          let list, key;
+          if (row.face === 'sort' || row.face === 'hundred') {
+            list = b.meta.items; key = list.slice().sort((x, y) => x - y).join(',');
+            const step = cfg.step;
+            ok(list.length === cfg.items && new Set(list).size === list.length && list.every((n) => n >= cfg.min && n <= cfg.max && n % step !== 0 && n !== cfg.worked), `${L}: the numbers`);
+            const ups = list.filter((n) => TYPE.isUp(n, step)).length;
+            if (row.face === 'sort') ok(ups >= cfg.splitMin && ups <= cfg.splitMax && list.length - ups >= cfg.splitMin && list.length - ups <= cfg.splitMax && cfg.cells > Math.max(ups, list.length - ups), `${L}: split ${ups} / ${list.length - ups}`);
+            ok(list.filter((n) => TYPE.decidingDigit(n, step) === 5).length >= cfg.fiveMin && list.filter((n) => TYPE.carries(n, step)).length <= cfg.carryMax, `${L}: fives / carries`);
+            ok(!cfg.digitCover || [1, 2, 3, 4, 5, 6, 7, 8, 9].every((dd) => list.some((n) => TYPE.decidingDigit(n, step) === dd)), `${L}: digit cover`);
+            ok(JSON.stringify(b2.meta.items) === JSON.stringify(list), `${L}: the de build draws different numbers (locale-neutral seed broken)`);
+          } else if (row.face === 'estimate') {
+            list = b.meta.pairs.map((p) => p.join('+')); key = b.meta.pairs.map((p) => p.slice().sort((x, y) => x - y).join('+')).sort().join(',');
+            const adds = b.meta.pairs.flat();
+            ok(b.meta.pairs.length === cfg.items && new Set(key.split(',')).size === cfg.items && b.meta.pairs.every(([a, c]) => a !== c && a % 10 !== 0 && c % 10 !== 0 && a + c <= cfg.sumMax && TYPE.round(a, 10) + TYPE.round(c, 10) <= cfg.roundedSumMax), `${L}: the pairs`);
+            ok(adds.filter((n) => n % 10 === 5).length >= cfg.fiveMin && [1, 2, 3, 4, 5, 6, 7, 8, 9].every((dd) => adds.some((n) => n % 10 === dd)), `${L}: fives / digit cover`);
+            ok(b.meta.answers.every((ans, i) => ans[2] === ans[0] + ans[1] && ans[0] === TYPE.round(b.meta.pairs[i][0], 10)), `${L}: answers`);
+            ok(JSON.stringify(b2.meta.pairs) === JSON.stringify(b.meta.pairs), `${L}: the de build draws different pairs`);
+          } else if (row.face === 'inverse') {
+            list = b.meta.values; key = list.slice().sort((x, y) => x - y).join(',');
+            ok(list.length === cfg.pills && new Set(list).size === list.length && b.meta.members.length === cfg.members && cfg.nearMiss.every((v) => list.includes(v)) && list.includes(cfg.five) && !list.includes(cfg.target), `${L}: the field`);
+            ok([1, 2, 3, 4, 5, 6, 7, 8, 9].every((dd) => list.some((n) => n % 10 === dd)), `${L}: digit cover`);
+            ok(JSON.stringify(b2.meta.values) === JSON.stringify(list), `${L}: the de build draws different values`);
+          } else if (row.face === 'both') {
+            list = b.meta.items; key = list.slice().sort((x, y) => x - y).join(',');
+            ok(list.length === cfg.items && new Set(list).size === list.length && list.every((n) => n >= cfg.min && n <= cfg.max && n % 10 !== 0 && n !== cfg.worked), `${L}: the numbers`);
+            ok(list.filter((n) => n % 10 === 5).length >= cfg.fiveMin[10] && list.filter((n) => Math.floor(n / 10) % 10 === 5).length >= cfg.fiveMin[100] && new Set(list.map((n) => n % 10)).size >= cfg.digitDistinct, `${L}: per-place fives / spread`);
+            ok(b.meta.answers.every((ans, i) => ans[0] === TYPE.round(list[i], 10) && ans[1] === TYPE.round(list[i], 100)), `${L}: answers`);
+            ok(JSON.stringify(b2.meta.items) === JSON.stringify(list), `${L}: the de build draws different numbers`);
+          }
+          sets.add(key); orders.add(list.join(','));
+        }
+        ok(sets.size >= 2 && orders.size >= 2, `sweep ${row.id}: ${sets.size} distinct sets / ${orders.size} orders over 20 seeds`);
+        console.log(`sweep ${row.id} ${row.face}: 20 seeds, ${sets.size} distinct sets, ${orders.size} distinct orders`);
+      }
     }
 
     // ---- 4. poisons — bank (validator)
     const poison = (name, block, loc, re, opts) => {
+      poisonsTotal++;
       const errs = validateBank(block, loc, { probe: false, ...opts }).filter((e) => !NOT_YET.test(e));
       const hit = errs.filter((e) => re.test(e));
       if (!errs.length) { fails++; asserts++; console.log(`  FAIL ${name}: SILENT (the validator passed the poison)`); }
       else if (!hit.length) { fails++; asserts++; console.log(`  FAIL ${name}: WRONG REASON — ${errs.join(' | ')}`); }
-      else { asserts++; console.log(`  poison ${name}: killed (${hit[0]})`); }
+      else { asserts++; poisonsKilled++; console.log(`  poison ${name}: killed (${hit[0]})`); }
     };
     let b;
     b = synthetic('de'); b.relation = 'arrow'; poison('P19 de relation arrow', b, 'de', /rule 3: de relation must be 'approx'/);
@@ -719,10 +1059,11 @@ async function main() {
     b = clone(en); b.strings.base.title = 'Round It!'; poison('Pshipped the G2-221 title verbatim', b, 'en', /rule 6: base title "Round It!" differs from G2-221/);
     b = clone(en); b.strings.base.instruction = 'Round each number, then write it in the column.'; poison('Pcol "column"', b, 'en', /rule 5: .* column-arithmetic head/);
     // rule 10 (the probe) fires on a bank whose literal is missing
-    { const bad = clone(en); delete bad.down[10]; const errs = validateBank(bad, 'en'); ok(errs.some((e) => /rule 1: down\[10\] empty/.test(e)) && errs.some((e) => /rule 10: the base does not build/.test(e)), `P10 a bank without down[10]: rule 1 + rule 10 fire (${errs.filter((e) => /rule 1|rule 10/.test(e)).length} messages)`); }
+    { poisonsTotal++; const bad = clone(en); delete bad.down[10]; const errs = validateBank(bad, 'en'); const k = errs.some((e) => /rule 1: down\[10\] empty/.test(e)) && errs.some((e) => /rule 10: the base does not build/.test(e)); if (k) poisonsKilled++; ok(k, `P10 a bank without down[10]: rule 1 + rule 10 fire (${errs.filter((e) => /rule 1|rule 10/.test(e)).length} messages)`); }
 
     // ---- render poisons (the validator bypassed)
     const renderPoison = async (name, type, re, { difficulty = 2, strings } = {}) => {
+      poisonsTotal++;
       let r;
       try { r = await renderWith(page, type, { difficulty, baseName: `G2-346-gate-poison-${name.split(' ')[0]}`, strings }); }
       catch (e) { fails++; asserts++; console.log(`  FAIL ${name}: the poison did not render — ${e.message}`); return; }
@@ -731,7 +1072,7 @@ async function main() {
       const hit = all2.filter((f) => re.test(f));
       if (!all2.length) { fails++; asserts++; console.log(`  FAIL ${name}: SILENT`); }
       else if (!hit.length) { fails++; asserts++; console.log(`  FAIL ${name}: WRONG REASON — ${all2.join(' | ')}`); }
-      else { asserts++; console.log(`  poison ${name}: killed (${hit[0]})`); }
+      else { asserts++; poisonsKilled++; console.log(`  poison ${name}: killed (${hit[0]})`); }
     };
     const rowRe = (n) => new RegExp(`(<span data-lcs-row data-lcs-n=")${n}(" data-lcs-step="10"[\\s\\S]*?data-lcs-num[^>]*>)${n}(<\\/span>[\\s\\S]*?data-lcs-answer=")${TYPE.round(n, 10)}(")`);
     /** Re-write ONE row (n -> n2, its text and its answer consistently) so verify's other checks stay quiet. */
@@ -761,10 +1102,107 @@ async function main() {
     await renderPoison('PRh a thousands separator', mutated(TYPE, (h) => rewriteRow(h, items[3], 47).replace(/data-lcs-num([^>]*)>47</, 'data-lcs-num$1>1,047<')), /thousands separator|prints "1,047"/);
     await renderPoison('PRi an F2-shaped worked line on the base (472 -> 500)', mutated(TYPE, (h) => h.replace('data-lcs-worked="47" data-lcs-worked-to="50"', 'data-lcs-worked="472" data-lcs-worked-to="500"')), /worked line 472 != the stamped worked 47|worked 472 -> 500/);
     // the rule box control: the correct d2 render at the 677 chrome passed above (assertRender) — the P17 poison is the same page with one number changed
+    // ---- face poisons: validator (rule 6b), config (the face resolvers refuse), render (the design's P8-P12 / P15 + the sparse layouts + the answer-hiding / floor classes)
+    b = clone(en); b.strings.inverse.title = 'Which Numbers Round to 60?'; poison('P6b-inv en F4 title names 60 over a 50 page', b, 'en', /rule 6b: inverse title .* names 60/);
+    b = clone(en); b.strings.hundred.title = 'Rounding Numbers to the Nearest 10 or 100'; poison('P6b-hun en F2 title names 10 on a hundred page', b, 'en', /rule 6b: hundred title .* names 10/);
+    b = clone(en); b.strings.both.title = 'Rounding to the Nearest 10, 100 and 1000'; poison('P6b-both en F5 title names 1000', b, 'en', /rule 4: .* >= 1000|rule 6b: both title/);
+    { poisonsTotal++; const bad = clone(en); delete bad.heads; const errs = validateBank(bad, 'en'); const kk = errs.some((e) => /rule 2: heads\[10\] empty/.test(e)) && errs.some((e) => /rule 10: face both does not build/.test(e)); if (kk) poisonsKilled++; ok(kk, `P10-both a bank without heads: rule 2 + rule 10 (the both face refuses) fire (${errs.filter((e) => /rule 2|rule 10/.test(e)).join(' | ')})`); }
+    // config poisons — each face resolver refuses (the shipped rows are the controls: they resolved above)
+    const faceRefuses = (name, face, D, re) => { poisonsTotal++; let msg = null; try { resolveFace(face, D, en); } catch (e) { msg = e.message; } const k = !!(msg && re.test(msg)); if (k) poisonsKilled++; ok(k, `config poison ${name}: ${msg || 'NOT refused'}`); };
+    const R = Object.fromEntries(rows.map((x) => [x.face, x.D]));
+    faceRefuses('P8c sort cells 6 (cells === a possible count)', 'sort', { ...R.sort, cells: 6 }, /cells 6 must EXCEED the largest split 7/);
+    faceRefuses('sort cells 7', 'sort', { ...R.sort, cells: 7 }, /cells 7 must EXCEED/);
+    faceRefuses('sort fiveMin 1', 'sort', { ...R.sort, fiveMin: 1 }, /fiveMin 1 < 2/);
+    faceRefuses('sort chip 40', 'sort', { ...R.sort, chip: 40 }, /chip 40/);
+    faceRefuses('sort cellW 60', 'sort', { ...R.sort, cellW: 60 }, /cell 60 x 76 below/);
+    faceRefuses('sort cellH 100 (stack 712)', 'sort', { ...R.sort, cellH: 100 }, /stack 712 > 677/);
+    faceRefuses('sort split 2..11 (12 chips)', 'sort', { ...R.sort, splitMin: 2, splitMax: 11, cells: 12 }, /split 2\.\.11 impossible/);
+    faceRefuses('estimate steps [100]', 'estimate', { ...R.estimate, steps: [100] }, /rounds to the TEN/);
+    faceRefuses('estimate fiveMin 1', 'estimate', { ...R.estimate, fiveMin: 1 }, /fiveMin 1 < 2/);
+    faceRefuses('estimate three-digit addends at exprW 80', 'estimate', { ...R.estimate, addMin: 101, addMax: 899, sumMax: 999, roundedSumMax: 999 }, /exprW >= 130/);
+    faceRefuses('estimate rowH 40', 'estimate', { ...R.estimate, rowH: 40 }, /rowH 40 < 48/);
+    faceRefuses('estimate 12 lines at 52 (stack 914)', 'estimate', { ...R.estimate, items: 12 }, /stack 914 > 677/);
+    faceRefuses('inverse target 55', 'inverse', { ...R.inverse, target: 55 }, /target 55 is not a multiple/);
+    faceRefuses('inverse near miss 46 (a member)', 'inverse', { ...R.inverse, nearMiss: [46, 55] }, /near miss 46 must be a non-member/);
+    faceRefuses('inverse 15 pills', 'inverse', { ...R.inverse, pills: 15 }, /15 pills must be/);
+    faceRefuses('inverse gap 12', 'inverse', { ...R.inverse, gap: 12 }, /pill gaps 12/);
+    faceRefuses('inverse pillH 40', 'inverse', { ...R.inverse, pillH: 40 }, /below the 52/);
+    faceRefuses('inverse target 80 (the worked 83 rounds to it)', 'inverse', { ...R.inverse, target: 80, range: [70, 99], nearMiss: [74, 85] }, /worked example 83 must round to another/);
+    faceRefuses('both steps [100, 10]', 'both', { ...R.both, steps: [100, 10] }, /steps must be \[10, 100\]/);
+    faceRefuses('both fiveMin 2 (one number for two places)', 'both', { ...R.both, fiveMin: 2 }, /fiveMin must be \{10/);
+    faceRefuses('both min 50', 'both', { ...R.both, min: 50 }, /range 50\.\.949/);
+    faceRefuses('both max 994 (a rounding reaches 1000)', 'both', { ...R.both, max: 994 }, /range 101\.\.994/);
+    faceRefuses('both rowH 40', 'both', { ...R.both, rowH: 40 }, /rowH 40 < 44/);
+    faceRefuses('both 12 lines (stack 922)', 'both', { ...R.both, items: 12 }, /stack 922 > 677/);
+    faceRefuses('both cols 2', 'both', { ...R.both, cols: 2 }, /one column/);
+    { poisonsTotal++; let msg = null; try { TYPE._buildWith(en, { ...R.sort, mode: 'lines' }, { locale: 'en' }, { rng: makeRng('x') }); } catch (e) { msg = e.message; } const k = !!(msg && /mode "lines" is not a face/.test(msg)); if (k) poisonsKilled++; ok(k, `config poison mode "lines": ${msg || 'built'}`); }
+    { poisonsTotal++; let msg = null; try { TYPE._buildWith({ ...en, heads: { 10: 'nearest ten' } }, R.both, { locale: 'en' }, { rng: makeRng('x') }); } catch (e) { msg = e.message; } const k = !!(msg && /no heads\[100\] literal/.test(msg)); if (k) poisonsKilled++; ok(k, `a bank without heads[100] refuses the both face: ${msg || 'built'}`); }
+    // render poisons on the faces (verify() / the node cross-check / the floors / the sparse rule fire; the shipped faces above are the controls)
+    const facePoison = async (name, row, type, re, opts = {}) => {
+      poisonsTotal++;
+      let r;
+      try { r = await renderFace(page, type, { baseName: `${row.id}-gate-poison-${name.split(' ')[0]}`, strings: opts.strings }); }
+      catch (e) { fails++; asserts++; console.log(`  FAIL ${name}: the poison did not render — ${e.message}`); return; }
+      const cfg = opts.cfg || faceCfg(row);
+      const all2 = [...r.verify, ...r.lints, ...faceCrossCheck(row, r, en, cfg)];
+      if (r.m.lowest > r.m.foot + 0.6) all2.push(`lowest ink ${Math.round(r.m.lowest)} vs foot ${Math.round(r.m.foot)}`);
+      const s677 = r.m.stacks.find((s) => s.budget === 677);
+      if (!s677.fits) all2.push('under the 677 budget the stage overflows');
+      const sMin = r.m.stacks.find((s) => s.budget === 400);
+      if (sMin.stage < STAGE_MIN - 0.6) all2.push(`SPARSE stage ${Math.round(sMin.stage)} < ${STAGE_MIN}`);
+      if (r.m.rowBlank > ROW_BLANK_MAX + 0.6) all2.push(`SPARSE row blank ${Math.round(r.m.rowBlank)}`);
+      const hit = all2.filter((f) => re.test(f));
+      asserts++;
+      if (!all2.length) { fails++; console.log(`  FAIL ${name}: SILENT`); }
+      else if (!hit.length) { fails++; console.log(`  FAIL ${name}: WRONG REASON — ${all2.join(' | ')}`); }
+      else { poisonsKilled++; console.log(`  poison ${name}: killed (${hit[0]})`); }
+    };
+    const RW = Object.fromEntries(rows.map((x) => [x.face, x]));
+    const cfgOfFace = (row, D) => resolveFace(row.face, D, en);
+    // the design's layouts = the sparse poisons (each face's §3 numbers)
+    await facePoison('PS1 F1 at the design geometry (chips 56, cells 84 x 44: stack 500)', RW.sort, withBank(RW.sort.spec, en, { ...R.sort, chip: 56, chipRowGap: 8, cellW: 84, cellH: 44, cellGap: 10 }), /SPARSE stage 500/, { cfg: cfgOfFace(RW.sort, { ...R.sort, chip: 56, chipRowGap: 8, cellW: 84, cellH: 44, cellGap: 10 }) });
+    await facePoison('PS3 F3 at the design geometry (48 px rows, gap 12: stack 604)', RW.estimate, withBank(RW.estimate.spec, en, { ...R.estimate, rowH: 48, rowGap: 12 }), /SPARSE stage 604/, { cfg: cfgOfFace(RW.estimate, { ...R.estimate, rowH: 48, rowGap: 12 }) });
+    await facePoison('PS4 F4 at the design geometry (96 x 52 pills, 24 gaps: stack 484)', RW.inverse, withBank(RW.inverse.spec, en, { ...R.inverse, pillW: 96, pillH: 52, gap: 24, rowGap: 24, stagger: 48, px: 26, targetH: 52, targetPx: 28, fieldGap: 16 }), /SPARSE stage 484/, { cfg: cfgOfFace(RW.inverse, { ...R.inverse, pillW: 96, pillH: 52, gap: 24, rowGap: 24, stagger: 48, px: 26, targetH: 52, targetPx: 28, fieldGap: 16 }) });
+    await facePoison('PS5 F5 at the design geometry (44 px rows, gap 10: stack 588)', RW.both, withBank(RW.both.spec, en, { ...R.both, rowH: 44, rowGap: 10 }), /SPARSE stage 588/, { cfg: cfgOfFace(RW.both, { ...R.both, rowH: 44, rowGap: 10 }) });
+    await facePoison('PS3b F3 six rows 44 px apart (stage 668 clears the floor; the rows float)', RW.estimate, withBank(RW.estimate.spec, en, { ...R.estimate, items: 6, rowGap: 44 }), /SPARSE row blank (5|6)\d/, { cfg: cfgOfFace(RW.estimate, { ...R.estimate, items: 6, rowGap: 44 }) });
+    // the design's face poisons
+    await facePoison('P8 F1 bins with 6 cells (cells === a count)', RW.sort, mutated(RW.sort.spec, (h) => h.replace(/data-lcs-cells="9"/g, 'data-lcs-cells="6"').replace(/(<span class="ws-blankbox"[^>]*><\/span>){3}(<\/div><\/div>)/g, '$2')), /cells 6 <= the larger split|cells 6 equals a bin/);
+    await facePoison('P9 F4 a member stamped data-lcs-correct', RW.inverse, mutated(RW.inverse.spec, (h) => h.replace('data-lcs-val="45"', 'data-lcs-val="45" data-lcs-correct="1"')), /membership stamp|answer \/ membership/);
+    await facePoison('P10 F4 the field missing 44', RW.inverse, mutated(RW.inverse.spec, (h) => h.replace(/data-lcs-val="44"([^>]*>)44</, 'data-lcs-val="38"$138<')), /near miss 44 is missing/);
+    await facePoison('P11 F4 the worked line 47 [glyph] 50 (the target)', RW.inverse, mutated(RW.inverse.spec, (h) => h.replace('data-lcs-example="83"', 'data-lcs-example="47"').replace('data-lcs-worked="83" data-lcs-worked-to="80"', 'data-lcs-worked="47" data-lcs-worked-to="50"').replace(/(<span data-lcs-worked-n>)8<span data-lcs-rule-digit style="color:#F2784B">3<\/span>/, '$14<span data-lcs-rule-digit style="color:#F2784B">7</span>').replace('<span data-lcs-worked-val>80</span>', '<span data-lcs-worked-val>50</span>')), /rounds to the target 50/);
+    await facePoison('P12 F5 header cells 128 px apart (overlap)', RW.both, mutated(RW.both.spec, (h) => h.replace('left:258px;top:0;width:160px', 'left:226px;top:0;width:160px')), /head 2 centre .* off its box centre|header cells overlap/);
+    await facePoison('P15 F3 the exact sum printed in a row', RW.estimate, mutated(RW.estimate.spec, (h) => h.replace(/(<span data-lcs-row data-lcs-a="(\d+)" data-lcs-b="(\d+)"[\s\S]*?data-lcs-role="sum"[^>]*><\/span>)/, (m0, whole, a, b) => whole + `<span data-lcs-leak style="font-size:20px">${+a + +b}</span>`)), /the exact sum \d+ is printed/);
+    await facePoison('P3f F3 a text = after the expression', RW.estimate, mutated(RW.estimate.spec, (h) => { const i = h.indexOf('data-lcs-lines'); const seg = h.slice(i); return h.slice(0, i) + seg.replace(/<svg[^>]*data-lcs-rel="approx"[^>]*>[\s\S]*?<\/svg>/, '<span style="font-size:24px">=</span>'); }), /not the SVG relation glyph|a = follows a numeral/);
+    // more classes: answer hiding, floors, order, literals, the strip
+    await facePoison('PF1 F1 a rounded value printed in a bin', RW.sort, mutated(RW.sort.spec, (h) => h.replace(/(data-lcs-bin="up"[\s\S]*?)(<span class="ws-blankbox"[^>]*>)<\/span>/, '$1$2</span><span style="font-size:20px">50</span>')), /rounded value 50 is printed|text/);
+    await facePoison('PF2 F1 the up bin left of the down bin', RW.sort, mutated(RW.sort.spec, (h) => { const m1 = h.match(/<div class="ws-bin" data-lcs-bin="down"[\s\S]*?<\/div><\/div>/)[0]; const m2 = h.match(/<div class="ws-bin" data-lcs-bin="up"[\s\S]*?<\/div><\/div>/)[0]; return h.replace(m1, '@@A@@').replace(m2, m1).replace('@@A@@', m2); }), /want down, up in DOM order|not LEFT/);
+    await facePoison('PF3 F1 a pill literal that is not the bank\'s', RW.sort, mutated(RW.sort.spec, (h) => h.replace('<span data-lcs-bin-text>round up</span>', '<span data-lcs-bin-text>goes up</span>')), /up pill "goes up" != the bank literal/);
+    await facePoison('PF4 F1 chips at 18 px', RW.sort, mutated(RW.sort.spec, (h) => h.replace(/flex:0 0 72px;font-size:28px/g, 'flex:0 0 72px;font-size:18px')), /numeral 18px < 22/);
+    await facePoison('PF5 F1 all chips rounding up (split 12 / 0)', RW.sort, mutated(RW.sort.spec, (h) => h.replace(/data-lcs-val="(\d+)"([^>]*>)\1</g, (m0, v, rest) => { const n = +v; const d = n % 10; const v2 = d < 5 ? n - d + 5 + (d % 5) : n; return `data-lcs-val="${v2}"${rest}${v2}<`; })), /split up \d+ \/ down \d+ outside|twice/);
+    await facePoison('PF6 F1 a chip 50 (a multiple of the step)', RW.sort, mutated(RW.sort.spec, (h) => h.replace(/data-lcs-val="(\d\d)"([^>]*>)\1</, 'data-lcs-val="50"$250<')), /50 is a multiple of 10/);
+    await facePoison('PF7 F3 an addend 20 (a multiple of the step)', RW.estimate, mutated(RW.estimate.spec, (h) => h.replace(/data-lcs-a="(\d+)" data-lcs-b="(\d+)"/, (m0, a, b) => `data-lcs-a="20" data-lcs-b="${b}"`)), /addend 20 is a multiple|prints/);
+    await facePoison('PF8 F3 a rounded sum over the cap (88 + 88)', RW.estimate, mutated(RW.estimate.spec, (h) => h.replace(/data-lcs-a="(\d+)" data-lcs-b="(\d+)"/, 'data-lcs-a="88" data-lcs-b="88"')), /> sumMax|rounded sum 180|prints|the same number/);
+    await facePoison('PF9 F3 boxes in the wrong order (sum first)', RW.estimate, mutated(RW.estimate.spec, (h) => h.replace(/data-lcs-role="a"/, 'data-lcs-role="sum"').replace(/data-lcs-role="sum"([^>]*><\/span>)(?![\s\S]*data-lcs-role="sum")/, 'data-lcs-role="a"$1')), /role|answer/);
+    await facePoison('PF10 F4 a member visually cued (coral border on 45)', RW.inverse, mutated(RW.inverse.spec, (h) => h.replace(/data-lcs-val="45" style="([^"]*)"/, 'data-lcs-val="45" style="$1;border-color:#F2784B"')), /borderTopColor differs|visual member cue/);
+    await facePoison('PF11 F4 the target 50 among the pills', RW.inverse, mutated(RW.inverse.spec, (h) => h.replace(/data-lcs-val="(3[1-9])"([^>]*>)\1</, 'data-lcs-val="50"$250<')), /the target itself is a pill|multiple of 10/);
+    await facePoison('PF12 F4 seven members (a non-member rewritten to 48)', RW.inverse, mutated(RW.inverse.spec, (h) => { const free = ['46', '47', '48', '49', '51', '52', '53', '54'].find((v) => !h.includes(`data-lcs-val="${v}"`)); return h.replace(/data-lcs-val="(6[1-9])"([^>]*>)\1</, `data-lcs-val="${free}"$2${free}<`); }), /7 members re-derived/);
+    await facePoison('PF13 F4 pills 18 px apart (no ring room)', RW.inverse, mutated(RW.inverse.spec, (h) => h.replace(/display:flex;gap:30px;justify-content:center;position:relative/g, 'display:flex;gap:18px;justify-content:center;position:relative')), /px apart < 20|closer than/);
+    await facePoison('PF14 F5 the two boxes swapped (the hundred first)', RW.both, mutated(RW.both.spec, (h) => h.replace(/(<span class="ws-blankbox" data-lcs-step=")10(" data-lcs-answer=")(\d+)(")([\s\S]*?)(<span class="ws-blankbox" data-lcs-step=")100(" data-lcs-answer=")(\d+)(")/, '$1100$2$8$4$5$6' + '10$7$3$9')), /box 1 is for step 100|box 1 answer/);
+    await facePoison('PF15 F5 the header removed', RW.both, mutated(RW.both.spec, (h) => h.replace(/<div data-lcs-heads[\s\S]*?<\/div>/, '')), /header cells  \(want 10, 100\)|heads \[\] != the bank/);
+    await facePoison('PF16 F5 a head that is not the bank literal', RW.both, mutated(RW.both.spec, (h) => h.replace('>nearest hundred</span>', '>hundreds</span>')), /head 2 "hundreds" != the bank literal/);
+    await facePoison('PF17 F5 one worked line only', RW.both, mutated(RW.both.spec, (h) => h.replace(/<span data-lcs-worked="472" data-lcs-worked-to="500"[\s\S]*?<span data-lcs-worked-val>500<\/span><\/span>/, '')), /1 worked lines \(want 2/);
+    await facePoison('PF18 F5 a line 470 (a multiple of 10)', RW.both, mutated(RW.both.spec, (h) => h.replace(/(<span data-lcs-row data-lcs-n=")(\d+)(" data-lcs-steps="10,100"[\s\S]*?data-lcs-num[^>]*>)\2</, '$1470$3470<')), /470 is a multiple of 10|box 1 answer/);
+    await facePoison('PF19 F5 numerals at 18 px', RW.both, mutated(RW.both.spec, (h) => h.replace(/flex:0 0 56px;text-align:right;font-family:'Baloo 2',cursive;font-weight:700;font-size:28px/g, "flex:0 0 56px;text-align:right;font-family:'Baloo 2',cursive;font-weight:700;font-size:18px")), /numeral 18px < 22/);
+    await facePoison('PF20 F1 a number line injected', RW.sort, mutated(RW.sort.spec, (h) => h.replace('<div data-lcs-bins', '<svg data-lcs-prim="number-line" width="20" height="8"><line x1="0" y1="4" x2="20" y2="4" stroke="#146B5E" stroke-width="2"/></svg><div data-lcs-bins')), /a number line is drawn/);
+    await facePoison('PF21 F4 an HTML ≈ text node in the target pill', RW.inverse, mutated(RW.inverse.spec, (h) => h.replace(/(<span class="ws-nchip" data-lcs-target-pill[^>]*>)<svg[^>]*>[\s\S]*?<\/svg>/, '$1<span style="font-size:24px">≈</span>')), /U\+2248|no relation glyph/);
+    await facePoison('PF22 F1 the ring on the wrong strip digit', RW.sort, mutated(RW.sort.spec, (h) => h.replace('data-lcs-strip-digit="7" data-lcs-rule-digit', 'data-lcs-strip-digit="7"').replace('data-lcs-strip-digit="3"', 'data-lcs-strip-digit="3" data-lcs-rule-digit')), /the ring sits on 3/);
+    await facePoison('PF23 F3 a pre-filled box', RW.estimate, mutated(RW.estimate.spec, (h) => h.replace(/(data-lcs-role="a"[^>]*>)(<\/span>)/, '$120$2')), /box 1 is not empty|box prints/);
+    await facePoison('PF24 F1 a 400 px rule box under the 4-line fi title', RW.sort, mutated(RW.sort.spec, (h) => h.replace('min-height:96px', 'min-height:400px')), /footer overlap|lowest ink|overflows|rule box .* \(want 96/, { strings: CHROME.four });
   } finally {
     await browser.close();
   }
-  console.log(`\nverify-b4-rounding: ${asserts} assertions, ${fails} failures in ${((Date.now() - t0) / 1000).toFixed(0)}s → ${fails ? 'FAIL' : 'PASS'}`);
+  console.log(`\nverify-b4-rounding: ${asserts} assertions, ${fails} failures, ${poisonsKilled}/${poisonsTotal} poisons killed in ${((Date.now() - t0) / 1000).toFixed(0)}s`);
+  console.log(fails ? `FAIL (${asserts} assertions, ${fails} failures, ${poisonsKilled}/${poisonsTotal} poisons killed)` : `PASS (${asserts} assertions, ${poisonsKilled}/${poisonsTotal} poisons killed${QUICK ? ', --quick: sweeps skipped' : ''})`);
   process.exit(fails ? 1 : 0);
 }
 

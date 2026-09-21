@@ -48,8 +48,8 @@ let baseWave, varWave;
 if (batch === 'b2') {
   rows = require('./gen-b2var-specs.js').ROWS;
   baseWave = 'wave-b2-en.json'; varWave = 'wave-b2var-en.json';
-} else if (batch === 'b3') {
-  const gen = require('./gen-b3var-specs.js');
+} else if (batch === 'b3' || batch === 'b4') {
+  const gen = require(batch === 'b4' ? './gen-b4var-specs.js' : './gen-b3var-specs.js');
   const loaded = gen.loadRows();
   rows = loaded.rows; hand = loaded.hand;
   if (family) {
@@ -57,7 +57,7 @@ if (batch === 'b2') {
     const ids = new Set([...(mod.ROWS || []).map((r) => r[1]), ...(mod.HANDWRITTEN || []).map((h) => h.id)]);
     rows = rows.filter((r) => ids.has(r[1])); hand = hand.filter((h) => ids.has(h.id));
   }
-  baseWave = 'wave-b3-en.json'; varWave = 'wave-b3var-en.json';
+  baseWave = 'wave-' + batch + '-en.json'; varWave = 'wave-' + batch + 'var-en.json';
 } else { console.error('unknown --batch ' + batch); process.exit(2); }
 
 function readDiffs(file) {
@@ -100,8 +100,8 @@ for (const f of faces) {
   if (!byBase.has(fam)) byBase.set(fam, []);
   byBase.get(fam).push({ id: f.id, cfg: varPublished.map((d) => JSON.stringify(v.difficulty[d])).join('|') });
 }
-// pairwise within a family (b3 only — the b2 batch predates this check and is frozen)
-if (batch === 'b3') {
+// pairwise within a family (b3 and later — the b2 batch predates this check and is frozen)
+if (batch !== 'b2') {
   for (const [fam, list] of byBase) {
     for (let i = 0; i < list.length; i++) for (let j = i + 1; j < list.length; j++) {
       checked++;
@@ -111,10 +111,10 @@ if (batch === 'b3') {
 }
 
 if (!checked) { console.error('VACUOUS: no (face, difficulty) pairs compared'); process.exit(2); }
-console.log(`[${batch}${family ? ':' + family : ''}] compared ${checked} pairs over ${faces.length} faces against their bases` + (batch === 'b3' ? ' + pairwise within family' : ''));
+console.log(`[${batch}${family ? ':' + family : ''}] compared ${checked} pairs over ${faces.length} faces against their bases` + (batch !== 'b2' ? ' + pairwise within family' : ''));
 if (clashes.length) {
   console.error(`\n${clashes.length} variation(s) are not variations:`);
   clashes.forEach((c) => console.error('  ' + c));
   process.exit(1);
 }
-console.log('every variation differs from the deck its base publishes' + (batch === 'b3' ? ' and from its siblings' : ''));
+console.log('every variation differs from the deck its base publishes' + (batch !== 'b2' ? ' and from its siblings' : ''));

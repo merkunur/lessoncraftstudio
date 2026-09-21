@@ -1,0 +1,511 @@
+{
+ "generated": "2026-09-21",
+ "next": {
+  "K": 368,
+  "G1": 376,
+  "G2": 358,
+  "G3": 392
+ },
+ "faces": [
+  {
+   "family": "K-353",
+   "key": "tangram",
+   "face": 1,
+   "band": "K",
+   "dir": "k",
+   "id": "K-358",
+   "title": "Easy Tangram Puzzles: Draw the Lines for 2 and 3 Pieces",
+   "heading": "F1 : Easy Tangram Puzzles: Draw the Lines for 2 and 3 Pieces (K, CODE `mode:'compose'`)"
+  },
+  {
+   "family": "K-353",
+   "key": "tangram",
+   "face": 2,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-354",
+   "title": "Tangram Puzzles: Four Shadows to Build",
+   "heading": "F2 : Tangram Puzzles: Four Shadows to Build (G1, CODE `mode:'silhouette'`; OPEN, no verify)"
+  },
+  {
+   "family": "K-353",
+   "key": "tangram",
+   "face": 3,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-355",
+   "title": "Tangram Puzzles: Which Piece Is Missing?",
+   "heading": "F3 : Tangram Puzzles: Which Piece Is Missing? (G1, CODE `mode:'missing'`)"
+  },
+  {
+   "family": "K-353",
+   "key": "tangram",
+   "face": 4,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-347",
+   "title": "Tangram Puzzles: Which Solution Matches the Shadow?",
+   "heading": "F4 : Tangram Puzzles: Which Solution Matches the Shadow? (G2, CODE `mode:'match'`)"
+  },
+  {
+   "family": "K-353",
+   "key": "tangram",
+   "face": 5,
+   "band": "K",
+   "dir": "k",
+   "id": "K-359",
+   "title": "Tangram Puzzles: Count the Triangles and Squares",
+   "heading": "F5 : Tangram Puzzles: Count the Triangles and Squares (K, CODE `mode:'count'`)"
+  },
+  {
+   "family": "K-354",
+   "key": "human-body",
+   "face": 1,
+   "band": "K",
+   "dir": "k",
+   "id": "K-360",
+   "title": "How Many?",
+   "heading": "F1 : How Many? (K, CODE `layout:'count'`)"
+  },
+  {
+   "family": "K-354",
+   "key": "human-body",
+   "face": 2,
+   "band": "K",
+   "dir": "k",
+   "id": "K-361",
+   "title": "Colour by Legend",
+   "heading": "F2 : Colour by Legend (K, CODE `layout:'color'`)"
+  },
+  {
+   "family": "K-354",
+   "key": "human-body",
+   "face": 3,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-356",
+   "title": "Write the Word",
+   "heading": "F3 : Write the Word (G1, CODE `layout:'write'`)"
+  },
+  {
+   "family": "K-354",
+   "key": "human-body",
+   "face": 4,
+   "band": "K",
+   "dir": "k",
+   "id": "K-362",
+   "title": "What Is Missing?",
+   "heading": "F4 : What Is Missing? (K, CODE `layout:'missing'`)"
+  },
+  {
+   "family": "K-354",
+   "key": "human-body",
+   "face": 5,
+   "band": "K",
+   "dir": "k",
+   "id": "K-363",
+   "title": "Which Come in Twos?",
+   "heading": "F5 : Which Come in Twos? (K, CODE `layout:'pairs'`)"
+  },
+  {
+   "family": "K-355",
+   "key": "five-senses",
+   "face": 1,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-357",
+   "title": "Sort by Sense",
+   "heading": "F1 : Sort by Sense (G1, CODE `layout:'sort'`)"
+  },
+  {
+   "family": "K-355",
+   "key": "five-senses",
+   "face": 2,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-358",
+   "title": "Which Sense?",
+   "heading": "F2 : Which Sense? (G1, CODE `layout:'which'`)"
+  },
+  {
+   "family": "K-355",
+   "key": "five-senses",
+   "face": 3,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-359",
+   "title": "Which One Does Not Belong?",
+   "heading": "F3 : Which One Does Not Belong? (G1, CODE `layout:'odd'`; a locale may publish it at its G2 `level` key, a landing-file decision)"
+  },
+  {
+   "family": "K-355",
+   "key": "five-senses",
+   "face": 4,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-360",
+   "title": "Sense Organs: Write the Sense Word",
+   "heading": "F4 : Sense Organs: Write the Sense Word (G1, CODE `layout:'label'`; de title from the \"Sinnesorgane\" head)"
+  },
+  {
+   "family": "K-355",
+   "key": "five-senses",
+   "face": 5,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-361",
+   "title": "I Can Hear ...",
+   "heading": "F5 : I Can Hear ... (G1, CODE `layout:'write'`, OPEN-ENDED: no verify)"
+  },
+  {
+   "family": "K-356",
+   "key": "weather",
+   "face": 1,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-362",
+   "title": "Write the Weather Word",
+   "heading": "F1 : Write the Weather Word (G1, CODE `layout:'write'`)"
+  },
+  {
+   "family": "K-356",
+   "key": "weather",
+   "face": 2,
+   "band": "K",
+   "dir": "k",
+   "id": "K-364",
+   "title": "Weather Chart, Monday to Sunday",
+   "heading": "F2 : Weather Chart, Monday to Sunday (K, CODE `layout:'diary'`; OPEN-ENDED, no verify)"
+  },
+  {
+   "family": "K-356",
+   "key": "weather",
+   "face": 3,
+   "band": "K",
+   "dir": "k",
+   "id": "K-365",
+   "title": "How Warm Is It? Cold, Warm or Hot",
+   "heading": "F3 : How Warm Is It? Cold, Warm or Hot (K, CODE `layout:'thermometer'`)"
+  },
+  {
+   "family": "K-356",
+   "key": "weather",
+   "face": 4,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-385",
+   "title": "The Water Cycle: Label the Diagram",
+   "heading": "F4 : The Water Cycle: Label the Diagram (G3, CODE `layout:'water-cycle'`; TITLED FROM THE WATER-CYCLE HEAD, the lock)"
+  },
+  {
+   "family": "K-356",
+   "key": "weather",
+   "face": 5,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-363",
+   "title": "Read the Weekly Forecast",
+   "heading": "F5 : Read the Weekly Forecast (G1, CODE `layout:'forecast'`; REPLACES \"circle the true sentence\" per the lock)"
+  },
+  {
+   "family": "K-357",
+   "key": "recycling",
+   "face": 1,
+   "band": "K",
+   "dir": "k",
+   "id": "K-366",
+   "title": "Which Bin?",
+   "heading": "F1 : Which Bin? (K, CODE `layout:'which'`)"
+  },
+  {
+   "family": "K-357",
+   "key": "recycling",
+   "face": 2,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-364",
+   "title": "What Is It Made Of?",
+   "heading": "F2 : What Is It Made Of? (G1, CODE `layout:'write'`)"
+  },
+  {
+   "family": "K-357",
+   "key": "recycling",
+   "face": 3,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-348",
+   "title": "Odd One Out by Material",
+   "heading": "F3 : Odd One Out by Material (G2, CODE `layout:'odd'`)"
+  },
+  {
+   "family": "K-357",
+   "key": "recycling",
+   "face": 4,
+   "band": "K",
+   "dir": "k",
+   "id": "K-367",
+   "title": "Color the Bins",
+   "heading": "F4 : Color the Bins (K, CODE `layout:'color'`; the CONTINGENT face)"
+  },
+  {
+   "family": "K-357",
+   "key": "recycling",
+   "face": 5,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-365",
+   "title": "Three Things I Recycle",
+   "heading": "F5 : Three Things I Recycle (G1, CODE `layout:'open'`)"
+  },
+  {
+   "family": "G1-350",
+   "key": "cloze",
+   "face": 1,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-366",
+   "title": "Fill in the Blank: Letter Boxes",
+   "heading": "F1 : Fill in the Blank: Letter Boxes (G1, CODE `mode:'letters'`)"
+  },
+  {
+   "family": "G1-350",
+   "key": "cloze",
+   "face": 2,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-367",
+   "title": "Fill in the Blank: Choose the Word",
+   "heading": "F2 : Fill in the Blank: Choose the Word (G1, CODE `mode:'choice'`)"
+  },
+  {
+   "family": "G1-350",
+   "key": "cloze",
+   "face": 3,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-349",
+   "title": "Fill in the Blank: Plural Nouns",
+   "heading": "F3 : Fill in the Blank: Plural Nouns (G2, CODE `mode:'plural'`)"
+  },
+  {
+   "family": "G1-350",
+   "key": "cloze",
+   "face": 4,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-350",
+   "title": "Fill in the Blank Story",
+   "heading": "F4 : Fill in the Blank Story (G2, CODE `mode:'story'`)"
+  },
+  {
+   "family": "G1-350",
+   "key": "cloze",
+   "face": 5,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-368",
+   "title": "Match the Sentence to the Picture",
+   "heading": "F5 : Match the Sentence to the Picture (G1, K-late admitted, CODE `mode:'match'`)"
+  },
+  {
+   "family": "G1-351",
+   "key": "odd-and-even",
+   "face": 1,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-351",
+   "title": "Odd or Even? Write Two Equal Addends",
+   "heading": "F1 : Odd or Even? Write Two Equal Addends (G2, CODE `mode:'proof'`)"
+  },
+  {
+   "family": "G1-351",
+   "key": "odd-and-even",
+   "face": 2,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-369",
+   "title": "Can Two Friends Share Fairly?",
+   "heading": "F2 : Can Two Friends Share Fairly? (G1, CODE `mode:'share'`, THEMED)"
+  },
+  {
+   "family": "G1-351",
+   "key": "odd-and-even",
+   "face": 3,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-352",
+   "title": "Odd and Even Numbers 1 to 100: Look at the Ones Box",
+   "heading": "F3 : Odd and Even Numbers 1 to 100: Look at the Ones Box (G2, CODE `mode:'ones'`)"
+  },
+  {
+   "family": "G1-351",
+   "key": "odd-and-even",
+   "face": 4,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-386",
+   "title": "Odd or Even Sum? Decide Without Adding",
+   "heading": "F4 : Odd or Even Sum? Decide Without Adding (G3, CODE `mode:'sums'`)"
+  },
+  {
+   "family": "G1-351",
+   "key": "odd-and-even",
+   "face": 5,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-370",
+   "title": "Odd or Even? Count the Pictures in Pairs",
+   "heading": "F5 : Odd or Even? Count the Pictures in Pairs (G1, CODE `mode:'count'`, THEMED)"
+  },
+  {
+   "family": "G1-352",
+   "key": "pronouns",
+   "face": 1,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-371",
+   "title": "Replace the Name with a Pronoun",
+   "heading": "F1 : Replace the Name with a Pronoun (G1, CODE `layout:'replace'`)"
+  },
+  {
+   "family": "G1-352",
+   "key": "pronouns",
+   "face": 2,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-353",
+   "title": "Who Is He? Pronouns in Sentences",
+   "heading": "F2 : Who Is He? Pronouns in Sentences (G2, CODE `layout:'anaphora'`)"
+  },
+  {
+   "family": "G1-352",
+   "key": "pronouns",
+   "face": 3,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-354",
+   "title": "Possessive Pronouns",
+   "heading": "F3 : Possessive Pronouns (G2; en grade 1, de 3. Klasse, CODE `layout:'possessive'`)"
+  },
+  {
+   "family": "G1-352",
+   "key": "pronouns",
+   "face": 4,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-372",
+   "title": "Sort the Names: He, She or They",
+   "heading": "F4 : Sort the Names: He, She or They (G1, CODE `layout:'sort'`)"
+  },
+  {
+   "family": "G1-352",
+   "key": "pronouns",
+   "face": 5,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-355",
+   "title": "Rewrite the Sentence with a Pronoun",
+   "heading": "F5 : Rewrite the Sentence with a Pronoun (G2, CODE `layout:'rewrite'`)"
+  },
+  {
+   "family": "G1-353",
+   "key": "question-words",
+   "face": 1,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-373",
+   "title": "Match the Question to the Answer",
+   "heading": "F1 : Match the Question to the Answer (G1, CODE `mode:'match'`)"
+  },
+  {
+   "family": "G1-353",
+   "key": "question-words",
+   "face": 2,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-374",
+   "title": "Fill In the Question Word",
+   "heading": "F2 : Fill In the Question Word (G1, CODE `mode:'fill'`)"
+  },
+  {
+   "family": "G1-353",
+   "key": "question-words",
+   "face": 3,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-375",
+   "title": "Sort the Answers: Who, What or Where",
+   "heading": "F3 : Sort the Answers: Who, What or Where (G1, CODE `mode:'sort'`)"
+  },
+  {
+   "family": "G1-353",
+   "key": "question-words",
+   "face": 4,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-356",
+   "title": "Write the Question",
+   "heading": "F4 : Write the Question (G2, CODE `mode:'write'`)"
+  },
+  {
+   "family": "G1-353",
+   "key": "question-words",
+   "face": 5,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-357",
+   "title": "Ask About the Picture: Why and How",
+   "heading": "F5 : Ask About the Picture: Why and How (G2, CODE `mode:'ask'`, open-ended)"
+  },
+  {
+   "family": "G2-346",
+   "key": "rounding",
+   "face": 1,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-387",
+   "title": "Rounding Up or Down? Sort the Numbers",
+   "heading": "F1 : Rounding Up or Down? Sort the Numbers (G3, CODE `mode:'sort'`)"
+  },
+  {
+   "family": "G2-346",
+   "key": "rounding",
+   "face": 2,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-388",
+   "title": "Rounding to the Nearest 100",
+   "heading": "F2 : Rounding to the Nearest 100 (G3, PARAM `steps:[100]`)"
+  },
+  {
+   "family": "G2-346",
+   "key": "rounding",
+   "face": 3,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-389",
+   "title": "Round, then Estimate the Sum",
+   "heading": "F3 : Round, then Estimate the Sum (G3, CODE `mode:'estimate'`; en 3.NBT.A.1 + 3.OA.D.8)"
+  },
+  {
+   "family": "G2-346",
+   "key": "rounding",
+   "face": 4,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-390",
+   "title": "Which Numbers Round to 50?",
+   "heading": "F4 : Which Numbers Round to 50? (G3, CODE `mode:'inverse'`)"
+  },
+  {
+   "family": "G2-346",
+   "key": "rounding",
+   "face": 5,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-391",
+   "title": "Rounding to the Nearest 10 and 100",
+   "heading": "F5 : Rounding to the Nearest 10 and 100 (G3, PARAM `steps:[10, 100]`)"
+  }
+ ]
+}

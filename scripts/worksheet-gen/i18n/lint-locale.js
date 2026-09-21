@@ -51,8 +51,12 @@ function lintLocale(locale) {
   // ABSENT from strings.<loc>.json — it ships nowhere in that locale, so its absence
   // is the honest state, not a gap. Only declared ids are exempt; an undeclared
   // missing id is still an error.
-  const refusalsPath = path.join(__dirname, '..', '..', '..', 'docs', 'worksheet-gen', 'b3-designs', '_records', 'refusals.' + locale + '.json');
-  const refused = fs.existsSync(refusalsPath) ? (readJson(refusalsPath).refusals || {}) : {};
+  // refusal records of every design batch that ships refusals (nt20-C b3 + nt10-D b4); a refused id is exempt from the key-set check
+  const refused = {};
+  for (const batchDir of ['b3-designs', 'b4-designs']) {
+    const refusalsPath = path.join(__dirname, '..', '..', '..', 'docs', 'worksheet-gen', batchDir, '_records', 'refusals.' + locale + '.json');
+    if (fs.existsSync(refusalsPath)) Object.assign(refused, readJson(refusalsPath).refusals || {});
+  }
   for (const id of Object.keys(en)) {
     if (refused[id]) { if (loc[id]) errors.push('strings: ' + id + ' is declared REFUSED for ' + locale + ' but strings.' + locale + '.json carries it'); continue; }
     if (!loc[id]) { errors.push('strings: missing type ' + id); continue; }

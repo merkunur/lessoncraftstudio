@@ -843,6 +843,46 @@
     "title": "Recycling Sort",
     "instruction": "Each thing is empty or finished. Draw a line from it to the bin it goes in."
   },
+  "K-358": {
+    "title": "Easy Tangram Puzzles: Draw the Lines for 2 and 3 Pieces",
+    "instruction": "Look at the pieces above each shape. Draw the lines inside the shape to show where those pieces meet."
+  },
+  "K-359": {
+    "title": "Tangram Puzzles: Count the Triangles and Squares",
+    "instruction": "Count the triangles in each picture and write the number in the first box. Then count the squares for the second box."
+  },
+  "K-360": {
+    "title": "Parts of the Body: How Many?",
+    "instruction": "How many of each do you have? Count on your own body and write the number in the box."
+  },
+  "K-361": {
+    "title": "Parts of the Body: Color by Legend",
+    "instruction": "Read the legend and color each part of the body in the color written next to its name."
+  },
+  "K-362": {
+    "title": "Parts of the Body: What Is Missing?",
+    "instruction": "Each body is missing one part: circle the picture of the missing part, then draw it on."
+  },
+  "K-363": {
+    "title": "Parts of the Body: Which Come in Twos?",
+    "instruction": "Circle every part of the body that you have two of."
+  },
+  "K-364": {
+    "title": "Weather Chart, Monday to Sunday",
+    "instruction": "Every day this week, look outside and draw the weather symbol for that day in its box."
+  },
+  "K-365": {
+    "title": "How Warm Is It? Cold, Warm or Hot",
+    "instruction": "Look at each thermometer, use the key to see if it is cold, warm or hot, and circle the picture that fits."
+  },
+  "K-366": {
+    "title": "Recycling Sort: Which Bin?",
+    "instruction": "Look at each thing and circle the bin it goes in when it is empty or finished."
+  },
+  "K-367": {
+    "title": "Recycling Sort: Color the Bins",
+    "instruction": "Read the name on each bin and color it in the color the legend shows."
+  },
   "G1-101": {
     "title": "Add the Pictures",
     "instruction": "Count both groups. Write how many altogether."
@@ -1603,6 +1643,94 @@
     "title": "Question Words: Who, What, Where",
     "instruction": "Read the sentence. Look at the highlighted words. Circle the question word that asks for them."
   },
+  "G1-354": {
+    "title": "Tangram Puzzles: Four Shadows to Build",
+    "instruction": "Build each dark figure with the seven pieces of your tangram. Use all seven pieces every time."
+  },
+  "G1-355": {
+    "title": "Tangram Puzzles: Which Piece Is Missing?",
+    "instruction": "One piece is missing from each figure. Circle the piece that fits the empty space exactly."
+  },
+  "G1-356": {
+    "title": "Parts of the Body: Write the Word",
+    "instruction": "Find each numbered part on the figure and write its name, one letter in each box."
+  },
+  "G1-357": {
+    "title": "Five Senses: Sort by Sense",
+    "instruction": "Look at each picture and draw a line from its dot to the box of the sense you use for it."
+  },
+  "G1-358": {
+    "title": "Five Senses: Which Sense?",
+    "instruction": "Which sense do you use for each picture? Circle the body part you use."
+  },
+  "G1-359": {
+    "title": "Five Senses: Which One Does Not Belong?",
+    "instruction": "In each row three pictures go with the same sense. Cross out the one that does not."
+  },
+  "G1-360": {
+    "title": "Sense Organs: Write the Sense Word",
+    "instruction": "Copy each sense word from the bank onto the line next to the body part that does it."
+  },
+  "G1-361": {
+    "title": "Five Senses: I Can Hear ...",
+    "instruction": "Finish each sentence. Write what you can hear, see, smell, taste and touch."
+  },
+  "G1-362": {
+    "title": "Write the Weather Word",
+    "instruction": "Find each weather symbol's word in the bank and write it, one letter in each box."
+  },
+  "G1-363": {
+    "title": "Read the Weekly Forecast",
+    "instruction": "Look at the weather for the week, read each question and circle the right day."
+  },
+  "G1-364": {
+    "title": "Recycling Sort: What Is It Made Of?",
+    "instruction": "What is each thing made of? Write the word from the bank on the line."
+  },
+  "G1-365": {
+    "title": "Recycling Sort: Three Things I Recycle",
+    "instruction": "Draw three things you recycle at home and write what each one is."
+  },
+  "G1-366": {
+    "title": "Fill in the Blank: Letter Boxes",
+    "instruction": "Look at the picture. Write the missing word in the boxes. One letter in each box."
+  },
+  "G1-367": {
+    "title": "Fill in the Blank: Choose the Word",
+    "instruction": "Look at the picture and read the sentence. Circle the word that fits and write it in the box."
+  },
+  "G1-368": {
+    "title": "Match the Sentence to the Picture",
+    "instruction": "Read each sentence. Which picture fills the gap? Draw a line from the sentence to that picture."
+  },
+  "G1-369": {
+    "title": "Can Two Friends Share Fairly?",
+    "instruction": "Share the pictures between the two friends, one each in turn. Write how many each friend gets and how many are left over, then circle odd or even."
+  },
+  "G1-370": {
+    "title": "Odd or Even? Count the Pictures in Pairs",
+    "instruction": "Count the pictures and circle them two by two. Write how many pairs you made, then circle odd or even."
+  },
+  "G1-371": {
+    "title": "Replace the Name with a Pronoun",
+    "instruction": "Read the sentence. Write the word from the bank that replaces the name in the second sentence."
+  },
+  "G1-372": {
+    "title": "Sort the Names: He, She or They",
+    "instruction": "Read each name card. Write the name under the word we use for that person."
+  },
+  "G1-373": {
+    "title": "Match the Question to the Answer",
+    "instruction": "Read each question on the left. Draw a line to the answer on the right that fits it."
+  },
+  "G1-374": {
+    "title": "Fill In the Question Word",
+    "instruction": "Read the answer and find the highlighted words. Write the question word from the bank in the box."
+  },
+  "G1-375": {
+    "title": "Sort the Answers: Who, What or Where",
+    "instruction": "Read each word tile. Write it in the bin under the question it answers: Who, What or Where."
+  },
   "G2-203": {
     "title": "Add the Blocks",
     "instruction": "Add the two block groups. Write the total."
@@ -2139,6 +2267,50 @@
     "title": "Rounding to the Nearest 10",
     "instruction": "Round each number to the nearest ten and write it in the box. If the ones digit is 5 or more, round up."
   },
+  "G2-347": {
+    "title": "Tangram Puzzles: Which Solution Matches the Shadow?",
+    "instruction": "Look at each shadow. Circle the solution that stands exactly like the shadow. Turned or flipped ones do not match."
+  },
+  "G2-348": {
+    "title": "Recycling Sort: Odd One Out",
+    "instruction": "In each row three things are made of the same material. Circle the one that is different."
+  },
+  "G2-349": {
+    "title": "Fill in the Blank: Plural Nouns",
+    "instruction": "Look at the pictures. There is more than one. Write the word for more than one in the box."
+  },
+  "G2-350": {
+    "title": "Fill in the Blank Story",
+    "instruction": "Read the whole story. The three pictures show the missing words. Write each word from the bank in its box."
+  },
+  "G2-351": {
+    "title": "Odd or Even? Write Two Equal Addends",
+    "instruction": "Circle the dots two by two. Then write the number as two equal parts and write what is left over in the small box."
+  },
+  "G2-352": {
+    "title": "Odd and Even Numbers Under 100: Look at the Ones Box",
+    "instruction": "Read the rule at the top. Look only at the ones box of each number and tick the circle under even or odd."
+  },
+  "G2-353": {
+    "title": "Who Is He? Pronouns in Sentences",
+    "instruction": "Read the sentences. Draw a line from each word in a box to the name it stands for."
+  },
+  "G2-354": {
+    "title": "Possessive Pronouns",
+    "instruction": "Look at who owns the thing. Circle the word that shows it belongs to that person."
+  },
+  "G2-355": {
+    "title": "Rewrite the Sentence with a Pronoun",
+    "instruction": "Read the sentence. Write it again on the lines, but use a pronoun instead of the name."
+  },
+  "G2-356": {
+    "title": "Write the Question",
+    "instruction": "Read the answer. Look at the highlighted words. Write the question that asks for them on the line."
+  },
+  "G2-357": {
+    "title": "Ask About the Picture: Why and How",
+    "instruction": "Look at the picture. Finish each question. Start with the word already on the line."
+  },
   "G3-301": {
     "title": "Big Arrays",
     "instruction": "Count the rows of pictures. Write how many in all."
@@ -2430,5 +2602,33 @@
   "G3-384": {
     "title": "Hop Back on the Number Line: What Is Left?",
     "instruction": "Start at the marked number and draw hops back of the same size until a whole hop no longer fits. Write the hops and where you land."
+  },
+  "G3-385": {
+    "title": "The Water Cycle: Label the Diagram",
+    "instruction": "Read the four words in the bank and write each one on the line that has the same number as on the diagram."
+  },
+  "G3-386": {
+    "title": "Odd or Even Sum? Decide Without Adding",
+    "instruction": "Do not add. Look at the underlined ones digit of each number, use the table, and tick whether the sum is even or odd."
+  },
+  "G3-387": {
+    "title": "Rounding Up or Down? Sort the Numbers",
+    "instruction": "Does each number round up or down to the nearest ten? Write it in the right bin."
+  },
+  "G3-388": {
+    "title": "Rounding to the Nearest 100",
+    "instruction": "Round each number to the nearest hundred and write it in the box. Look at the tens digit."
+  },
+  "G3-389": {
+    "title": "Round, then Estimate the Sum",
+    "instruction": "Round both numbers to the nearest ten and write them in the boxes. Then add the rounded numbers."
+  },
+  "G3-390": {
+    "title": "Which Numbers Round to 50?",
+    "instruction": "Circle every number that rounds to the ten shown at the top. Look at the ones digit of each number."
+  },
+  "G3-391": {
+    "title": "Rounding to the Nearest 10 and 100",
+    "instruction": "Round each number twice: to the nearest ten in the first box and to the nearest hundred in the second."
   }
 }

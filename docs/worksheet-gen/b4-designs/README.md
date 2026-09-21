@@ -89,6 +89,6 @@ Rows = faces with a landing per (key × locale) at design time; "contingent" = l
 | cloze | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 5 | 6 | 6 | 65 | CONFIRMED (final 2026-09-21): da F3 plural gap REFUSED (the `singular-plural` head "Ental og flertal" owns the only honest da title); nl re-targets the base head ("Zin bij het plaatje" / "zinnen aanvullen"), no row lost |
 | odd-and-even | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | CONFIRMED (final 2026-09-21): no refusal; F5 = count pictures in pairs (11-18) on lanes, PARAM-999 recorded as a spare; the OA strand row renders pt/sv/nl wrongly → per-locale strand literal from the design table |
 | pronouns | 6 | 6 | 5 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 5 | 64 | CONFIRMED (final 2026-09-21): possessives refused es (`su` invariant) + fi (`hänen`/suffix); fr/es/pt base + pt F3 need `singles:4, pairs:4`; fi bank 16 names; validator caps fi base/F1 titles at 3 lines |
-| question-words | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | (to be confirmed) |
+| question-words | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | CONFIRMED (final 2026-09-21): per-item refusals only (de "auf dem Spielplatz" / fi "leikkikentällä" on F3); es/it C-tier traffic expected; portraits + names from the pronouns bank (build G1-352 first) |
 | rounding | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | (to be confirmed) |
 | **design total** | | | | | | | | | | | | **658 (ceiling 660)** | provisional until every final file's §7 is folded in |

@@ -1,0 +1,59 @@
+{
+  "_doc": "K-354 human-body: the ONE locale-neutral facts file (design docs/worksheet-gen/b4-designs/K-354-human-body.md §5). Counts are facts of the child's own body; every cue picture named here was OPENED (cache/themes/body parts/<cue>@3x.webp) on 2026-09-21. Never per locale; the code reads counts here and never inflects a word.",
+  "parts": {
+    "head":     { "count": 1,    "cue": "head" },
+    "hair":     { "count": null, "cue": "hair" },
+    "eye":      { "count": 2,    "cue": "eye" },
+    "ear":      { "count": 2,    "cue": "ear" },
+    "nose":     { "count": 1,    "cue": "nose" },
+    "mouth":    { "count": 1,    "cue": "mouth" },
+    "neck":     { "count": 1,    "cue": "neck" },
+    "shoulder": { "count": 2,    "cue": null },
+    "arm":      { "count": 2,    "cue": "arm" },
+    "elbow":    { "count": 2,    "cue": "elbow" },
+    "hand":     { "count": 2,    "cue": "hand" },
+    "finger":   { "count": 10,   "cue": "finger" },
+    "leg":      { "count": 2,    "cue": "leg" },
+    "knee":     { "count": 2,    "cue": "knee" },
+    "foot":     { "count": 2,    "cue": "foot" },
+    "toe":      { "count": 10,   "cue": "toe", "countFace": false }
+  },
+  "facts": [
+    { "id": "fingersOneHand", "part": "finger", "count": 5, "cue": "hand" },
+    { "id": "toesOneFoot",    "part": "toe",    "count": 5, "cue": "foot" }
+  ],
+  "chipPool": [
+    { "id": "hand",   "picOpened": true, "seen": "an open palm, five fingers" },
+    { "id": "foot",   "picOpened": true, "seen": "a bare foot, five toes" },
+    { "id": "arm",    "picOpened": true, "seen": "an arm in a red sleeve with its hand (confusable with hand)" },
+    { "id": "leg",    "picOpened": true, "seen": "a leg with a red knee dot and a foot (confusable with knee, foot)" },
+    { "id": "eye",    "picOpened": true, "seen": "one eye with lashes" },
+    { "id": "ear",    "picOpened": true, "seen": "one ear" },
+    { "id": "nose",   "picOpened": true, "seen": "one nose" },
+    { "id": "mouth",  "picOpened": true, "seen": "an open mouth with teeth" },
+    { "id": "head",   "picOpened": true, "seen": "a child's head, dark hair, red collar" },
+    { "id": "hair",   "picOpened": true, "seen": "a face with long red hair and a coral arrow at the hair (confusable with head)" },
+    { "id": "knee",   "picOpened": true, "seen": "a bent leg in pink tights, a red knee patch and a shoe" },
+    { "id": "elbow",  "picOpened": true, "seen": "a bent arm with a red elbow dot" },
+    { "id": "finger", "picOpened": true, "seen": "a fist with the index finger raised: ONE finger shown, never a count" },
+    { "id": "toe",    "picOpened": true, "seen": "the foot picture with a coral arrow at the toes: five toes printed (countFace false)" }
+  ],
+  "excluded": {
+    "shoulder": "a bare torso with a red dot and a coral arrow: no K-legible shoulder; never a chip or a cue",
+    "neck":     "a neck with a necklace and a coral arrow: a cue for its count (1) only, never a chip",
+    "thumb":    "a thumbs-up hand; not one of the 16 anchor ids",
+    "chin":     "a whole face with an arrow at the chin: reads head beside the head card",
+    "tongue":   "an open mouth with teeth and a tongue: confusable with mouth, and K-355's sense organ"
+  },
+  "caveats": {
+    "hair": "the picture is a whole face with an arrow (chip fence: never beside head)",
+    "toe":  "the picture prints five toes (never an F1 cue: countFace false)"
+  },
+  "confusable": [["arm", "hand", "elbow", "finger"], ["leg", "foot", "knee", "toe"], ["hair", "head"]],
+  "hideable": ["arm", "hand", "leg", "foot", "hair", "mouth", "nose", "ear"],
+  "omitPool": { "340": ["arm", "leg", "hair"], "300": ["arm", "hand", "leg", "foot", "hair"] },
+  "pairsPool": { "pairs": ["eye", "ear", "arm", "hand", "leg", "foot", "knee", "elbow"], "singles": ["head", "nose", "mouth", "neck"] },
+  "countPools": { "1": ["head", "nose", "mouth"], "2": ["eye", "ear", "arm", "hand", "leg", "foot", "knee", "elbow"], "10": ["finger"] },
+  "leadSet": ["arm", "leg", "hand", "foot", "knee", "elbow", "shoulder", "neck", "head", "finger", "toe"],
+  "faceSet": ["eye", "ear", "nose", "mouth", "hair"]
+}

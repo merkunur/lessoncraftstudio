@@ -1,0 +1,65 @@
+{
+  "symbolWords": {
+    "sun": "Sonne",
+    "cloud": "Wolke",
+    "rain": "Regen",
+    "storm": "Gewitter",
+    "snow": "Schnee",
+    "rainbow": "Regenbogen"
+  },
+  "forecastAsks": {
+    "sun": "An welchem Tag scheint die Sonne?",
+    "cloud": "An welchem Tag ist es bewölkt?",
+    "rain": "An welchem Tag regnet es?",
+    "storm": "An welchem Tag gibt es ein Gewitter?",
+    "snow": "An welchem Tag schneit es?",
+    "rainbow": "An welchem Tag gibt es einen Regenbogen?"
+  },
+  "cycleLabels": {
+    "evaporation": "Verdunstung",
+    "condensation": "Kondensation",
+    "precipitation": "Niederschlag",
+    "collection": "Abfluss"
+  },
+  "bandWords": {
+    "cold": "kalt",
+    "warm": "warm",
+    "hot": "heiß"
+  },
+  "forecastDays": null,
+  "diaryDays": null,
+  "diaryStart": "mon",
+  "bankWords": {},
+  "distractors": [
+    "Wind",
+    "Nebel"
+  ],
+  "refuse": [],
+  "strings": {
+    "K-356": {
+      "title": "Wettersymbole",
+      "instruction": "Verbinde jedes Wettersymbol mit seinem Wort."
+    },
+    "G1-362": {
+      "title": "Wettersymbole: Wetterwörter schreiben",
+      "instruction": "Suche das Wort zu jedem Wettersymbol im Kasten und schreibe es auf, ein Buchstabe in jedes Kästchen."
+    },
+    "K-364": {
+      "title": "Wetter beobachten: meine Woche",
+      "instruction": "Schau jeden Tag dieser Woche nach draußen und zeichne das Wettersymbol für diesen Tag in sein Kästchen."
+    },
+    "K-365": {
+      "title": "Wettersymbole: Ist es kalt, warm oder heiß?",
+      "instruction": "Lies an jedem Thermometer mit der Legende ab, ob es kalt, warm oder heiß ist, und kreise das passende Bild ein."
+    },
+    "G3-385": {
+      "title": "Wasserkreislauf beschriften",
+      "instruction": "Lies die vier Wörter im Kasten und schreibe jedes auf die Linie mit derselben Nummer wie in der Abbildung."
+    },
+    "G1-363": {
+      "title": "Wettersymbole: Wetterbericht lesen",
+      "instruction": "Schau dir das Wetter der Woche an, lies jede Frage und kreise den richtigen Tag ein."
+    }
+  },
+  "strand": "Sachunterricht"
+}

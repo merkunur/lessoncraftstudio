@@ -147,6 +147,14 @@ const QUICK = process.argv.includes('--quick');
 const OUT = path.join(__dirname, '..', 'out', 'dev');
 const ROOT = path.join(__dirname, '..');
 const TAXONOMY = path.join(ROOT, '..', '..', 'frontend', 'config', 'topics-taxonomy.json');
+
+// nt10-D panel chain: validate-b4-draft.js runs this gate BEFORE apply-b4-locale.js registers the
+// locale slug, so it hands the draft's family slugs over as B4_DRAFT_SLUGS (JSON key → slug); a
+// missing taxonomy entry is then judged against the draft, never against nothing (measured by the
+// de panel: five gates failed every correct non-EN draft with the same message).
+function draftSlug(key) {
+  try { const m = JSON.parse(process.env.B4_DRAFT_SLUGS || '{}'); return typeof m[key] === 'string' && m[key] ? m[key] : null; } catch (e) { return null; }
+}
 const LANDINGS = (loc) => path.join(ROOT, '..', '..', 'frontend', 'content', 'seo-landing', loc + '.json');
 const ALLOC = path.join(ROOT, '..', '..', 'docs', 'worksheet-gen', 'b4-designs', '_records', 'b4var-id-allocation.json');
 const LOCALES = ['en', 'de', 'es', 'pt', 'fr', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
@@ -358,7 +366,7 @@ function validateBank(block, loc, opts = {}) {
   }
   try {
     const tax = taxonomy();
-    const mine = tax.axes['exercise-type']['odd-and-even'] && tax.axes['exercise-type']['odd-and-even'].slug && tax.axes['exercise-type']['odd-and-even'].slug[loc];
+    const mine = (tax.axes['exercise-type']['odd-and-even'] && tax.axes['exercise-type']['odd-and-even'].slug && tax.axes['exercise-type']['odd-and-even'].slug[loc]) || draftSlug('odd-and-even');
     if (!mine) push(`rule 12: axes['exercise-type']['odd-and-even'].slug.${loc} is not registered`);
     else {
       if (mine !== TABLE_B[loc]) push(`rule 12: slug.${loc} "${mine}" != table B "${TABLE_B[loc]}"`);

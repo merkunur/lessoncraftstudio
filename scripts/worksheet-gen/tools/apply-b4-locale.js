@@ -103,7 +103,7 @@ for (const loc of WANT) {
   // refusals record
   const recDir = path.join(ROOT, 'docs', 'worksheet-gen', 'b4-designs', '_records'); fs.mkdirSync(recDir, { recursive: true });
   writeJson(path.join(recDir, `refusals.${loc}.json`), { locale: loc, refusals });
-  console.log(`${loc}: ${n} type strings (${Object.keys(refusals).length} refused), 20 skills, 20 topicMeta, 20 taxonomy slug/name, ${nb} bank blocks`);
+  console.log(`${loc}: ${n} type strings (${Object.keys(refusals).length} refused), ${Object.keys(d.skills || {}).length} skills, ${Object.keys(d.topicMeta || {}).length} topicMeta, ${Object.keys(d.families || {}).length} taxonomy slug/name, ${nb} bank blocks`);
 }
 writeJson(taxPath, tax);
 if (strandAdded) fs.writeFileSync(strandPath, strandSrc);

@@ -155,7 +155,7 @@ function buildProbe(loc, draft) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'b4draft-'));
   for (const [b, block] of Object.entries(draft.banks || {})) fs.writeFileSync(path.join(dir, `${b}.${loc}.json`), JSON.stringify(block));
   const out = execFileSync(process.execPath, [path.join(__dirname, 'b4-probe-child.js'), loc], {
-    env: { ...process.env, B4_LOCALES_DIR: dir }, encoding: 'utf8', maxBuffer: 64 * 1024 * 1024, cwd: WG,
+    env: { ...process.env, B4_LOCALES_DIR: dir, B4_DRAFT_SLUGS: JSON.stringify(Object.fromEntries(Object.entries(draft.families || {}).map(([k, f]) => [k, f && f.slug]))) }, encoding: 'utf8', maxBuffer: 64 * 1024 * 1024, cwd: WG,
   });
   fs.rmSync(dir, { recursive: true, force: true });
   return JSON.parse(out.slice(out.lastIndexOf('\n{') + 1));

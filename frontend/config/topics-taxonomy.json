@@ -3973,82 +3973,102 @@
       },
       "tangram": {
         "slug": {
-          "en": "tangram"
+          "en": "tangram",
+          "de": "tangram"
         },
         "name": {
-          "en": "Tangram"
+          "en": "Tangram",
+          "de": "Tangram-Figuren"
         }
       },
       "human-body": {
         "slug": {
-          "en": "human-body"
+          "en": "human-body",
+          "de": "der-koerper"
         },
         "name": {
-          "en": "Parts of the Body"
+          "en": "Parts of the Body",
+          "de": "Der Körper"
         }
       },
       "five-senses": {
         "slug": {
-          "en": "five-senses"
+          "en": "five-senses",
+          "de": "die-fuenf-sinne"
         },
         "name": {
-          "en": "The Five Senses"
+          "en": "The Five Senses",
+          "de": "Die fünf Sinne"
         }
       },
       "weather-symbols": {
         "slug": {
-          "en": "weather-symbols"
+          "en": "weather-symbols",
+          "de": "wettersymbole"
         },
         "name": {
-          "en": "Weather Symbols"
+          "en": "Weather Symbols",
+          "de": "Wettersymbole"
         }
       },
       "recycling": {
         "slug": {
-          "en": "recycling"
+          "en": "recycling",
+          "de": "muelltrennung"
         },
         "name": {
-          "en": "Recycling Sort"
+          "en": "Recycling Sort",
+          "de": "Mülltrennung"
         }
       },
       "cloze": {
         "slug": {
-          "en": "cloze"
+          "en": "cloze",
+          "de": "lueckentext"
         },
         "name": {
-          "en": "Fill in the Missing Word"
+          "en": "Fill in the Missing Word",
+          "de": "Lückentext"
         }
       },
       "odd-and-even": {
         "slug": {
-          "en": "odd-and-even"
+          "en": "odd-and-even",
+          "de": "gerade-und-ungerade-zahlen"
         },
         "name": {
-          "en": "Odd and Even Numbers"
+          "en": "Odd and Even Numbers",
+          "de": "Gerade und ungerade Zahlen"
         }
       },
       "pronouns": {
         "slug": {
-          "en": "pronouns"
+          "en": "pronouns",
+          "de": "personalpronomen"
         },
         "name": {
-          "en": "Personal Pronouns"
+          "en": "Personal Pronouns",
+          "de": "Personalpronomen"
         }
       },
       "question-words": {
         "slug": {
-          "en": "question-words"
+          "en": "question-words",
+          "de": "w-fragen"
         },
         "name": {
-          "en": "Question Words"
+          "en": "Question Words",
+          "de": "W-Fragen"
         }
       },
       "rounding": {
         "slug": {
-          "en": "rounding"
+          "en": "rounding",
+          "de": "zahlen-runden"
         },
         "name": {
-          "en": "Rounding Numbers"
+          "en": "Rounding Numbers",
+          "de": "Zahlen runden"
         }
       }
     },

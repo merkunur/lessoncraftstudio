@@ -1,0 +1,46 @@
+{
+  "chips": {
+    "odd": "ungerade",
+    "even": "gerade"
+  },
+  "houseOrder": [
+    "even",
+    "odd"
+  ],
+  "rule": "Gerade Zahlen enden auf 0, 2, 4, 6 oder 8. Ungerade Zahlen enden auf 1, 3, 5, 7 oder 9.",
+  "leftover": "bleibt übrig",
+  "pairs": "Paare",
+  "placeHeads": [
+    "Z",
+    "E"
+  ],
+  "nameMaxGraphemes": 6,
+  "strings": {
+    "base": {
+      "title": "Gerade und ungerade Zahlen bis 20",
+      "instruction": "Schreibe jede Zahl in das Haus, in das sie gehört: gerade oder ungerade. Drei Zahlen wohnen schon dort und zeigen ihre Paare."
+    },
+    "proof": {
+      "title": "Gerade oder ungerade? Zwei gleiche Summanden",
+      "instruction": "Kreise die Punkte immer zu zweit ein. Schreibe die Zahl als zwei gleiche Teile und in das kleine Kästchen, was übrig bleibt."
+    },
+    "share": {
+      "title": "Gerecht teilen: gerade oder ungerade?",
+      "instruction": "Teile die Bilder abwechselnd auf die zwei Kinder auf. Schreibe, wie viele jedes bekommt und wie viele übrig bleiben. Kreise ein."
+    },
+    "ones": {
+      "title": "Gerade und ungerade Zahlen bis 100",
+      "instruction": "Lies die Regel oben. Schau nur auf das Einer-Kästchen jeder Zahl und hake den Kreis unter gerade oder ungerade ab."
+    },
+    "sums": {
+      "title": "Summe gerade oder ungerade? Ohne zu rechnen",
+      "instruction": "Rechne nicht. Schau auf die unterstrichenen Einer, nutze die Tabelle und hake ab, ob die Summe gerade oder ungerade ist."
+    },
+    "count": {
+      "title": "Gerade oder ungerade? Bilder paarweise zählen",
+      "instruction": "Zähle die Bilder und kreise sie immer zu zweit ein. Schreibe, wie viele Paare es sind, und kreise gerade oder ungerade ein."
+    }
+  },
+  "refuse": {},
+  "strand": "Zahlen und Operationen"
+}

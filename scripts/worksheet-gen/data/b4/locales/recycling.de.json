@@ -1,0 +1,125 @@
+{
+  "bins": [
+    {
+      "key": "papier",
+      "label": "Papier",
+      "longLabel": "Papier und Pappe (blaue Tonne)",
+      "color": "codeBlue",
+      "colorWord": "blau",
+      "materials": [
+        "paper",
+        "cardboard"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "verpackung",
+      "label": "Verpackung",
+      "longLabel": "Verpackungen aus Plastik und Metall (Gelbe Tonne oder Gelber Sack)",
+      "color": "codeYellow",
+      "colorWord": "gelb",
+      "materials": [
+        "plastic",
+        "metal"
+      ],
+      "packagingOnly": true
+    },
+    {
+      "key": "bio",
+      "label": "Biomüll",
+      "longLabel": "Biomüll: Obst, Gemüse und Essensreste (Biotonne)",
+      "color": "codeBrown",
+      "colorWord": "braun",
+      "materials": [
+        "organic"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "glas",
+      "label": "Glas",
+      "longLabel": "Altglas: Flaschen und Gläser (Glascontainer)",
+      "color": "codeGreen",
+      "colorWord": "grün",
+      "materials": [
+        "glass"
+      ],
+      "packagingOnly": true
+    },
+    {
+      "key": "rest",
+      "label": "Restmüll",
+      "longLabel": "Restmüll: alles, was nicht in die anderen Tonnen gehört (graue oder schwarze Tonne)",
+      "color": "inkSoft",
+      "colorWord": "grau",
+      "materials": [
+        "plastic"
+      ],
+      "packagingOnly": false
+    }
+  ],
+  "route": {
+    "toothbrush": {
+      "bin": "rest",
+      "reason": "keine Verpackung: eine Zahnbürste gehört in den Restmüll, nicht in die Gelbe Tonne"
+    },
+    "comb": {
+      "bin": "rest",
+      "reason": "keine Verpackung: ein Kamm gehört in den Restmüll"
+    },
+    "spoon": {
+      "bin": "rest",
+      "reason": "Plastiklöffel ohne Verpackung: Restmüll (Gelbe Tonne nur für Verpackungen)"
+    },
+    "bucket": {
+      "bin": "rest",
+      "reason": "ein kaputter Spielzeugeimer ist keine Verpackung: Restmüll"
+    }
+  },
+  "excludeItems": {
+    "water": "Einwegpfand: die PET-Flasche kommt zurück zum Pfandautomaten, keine Tonne auf dem Blatt",
+    "milk": "Mehrweg-Pfandflasche aus Glas: zurück in den Laden, kein Altglas",
+    "saucepan": "Metallschrott: Wertstoffhof oder Sperrmüll, keine Tonne auf dem Blatt",
+    "bolt": "Metallteil: Wertstoffhof, keine Tonne auf dem Blatt",
+    "nut": "Metallteil: Wertstoffhof, keine Tonne auf dem Blatt"
+  },
+  "materialWords": {
+    "paper": "Papier",
+    "cardboard": "Pappe",
+    "glass": "Glas",
+    "plastic": "Plastik",
+    "metal": "Metall"
+  },
+  "colorConvention": "national",
+  "refuse": [],
+  "starters": [],
+  "scheme": "Fünf Tonnen wie zu Hause: Papier und Pappe in die blaue Tonne, Verpackungen aus Plastik und Metall in die Gelbe Tonne oder den Gelben Sack, Obst- und Essensreste in die braune Biotonne, Flaschen und Gläser in den Glascontainer und der Rest in die graue Restmülltonne. Die Farben können je nach Landkreis abweichen.",
+  "enAudit": "EN base title 'Recycling Sort' and the K-366 instruction say 'when it is empty or finished' but the bank draws a PET water bottle and a glass milk bottle that a German child returns as Pfand, so a de block must exclude both; the EN 'compost' bin takes bread and pepper, which US single-stream guidance often bans from home compost (the landing should say 'food scraps bin'); the EN K-367 refusal is correct but the rows module still carries an EN K-367 title, so build-en emits a string no en wave may list.",
+  "strings": {
+    "K-357": {
+      "title": "Mülltrennung",
+      "instruction": "Jedes Ding ist leer oder aufgebraucht. Ziehe eine Linie von ihm zu der Tonne, in die es gehört."
+    },
+    "K-366": {
+      "title": "Mülltrennung: Welche Tonne?",
+      "instruction": "Schau dir jedes Ding an und kreise die Tonne ein, in die es gehört, wenn es leer oder aufgebraucht ist."
+    },
+    "G1-364": {
+      "title": "Mülltrennung: Woraus ist es gemacht?",
+      "instruction": "Woraus ist jedes Ding gemacht? Schreibe das Wort aus dem Kasten auf die Linie."
+    },
+    "G2-348": {
+      "title": "Mülltrennung: Was passt nicht dazu?",
+      "instruction": "In jeder Reihe sind drei Dinge aus demselben Material. Kreise das Ding ein, das anders ist."
+    },
+    "K-367": {
+      "title": "Mülltrennung: Tonnen ausmalen",
+      "instruction": "Lies den Namen auf jeder Tonne und male sie in der Farbe an, die die Legende zeigt."
+    },
+    "G1-365": {
+      "title": "Mülltrennung: Das trenne ich zu Hause",
+      "instruction": "Zeichne drei Dinge, die du zu Hause richtig trennst, und schreibe auf, was jedes davon ist."
+    }
+  },
+  "strand": "Sachunterricht"
+}

@@ -1,0 +1,43 @@
+{
+  "up": {
+    "10": "aufrunden",
+    "100": "aufrunden"
+  },
+  "down": {
+    "10": "abrunden",
+    "100": "abrunden"
+  },
+  "heads": {
+    "10": "Zehner",
+    "100": "Hunderter"
+  },
+  "relation": "approx",
+  "strings": {
+    "base": {
+      "title": "Zahlen runden auf Zehner",
+      "instruction": "Runde jede Zahl auf den nächsten Zehner und schreibe sie in das Kästchen. Ist die Einerstelle 5 oder mehr, runde auf."
+    },
+    "sort": {
+      "title": "Aufrunden oder abrunden? Zahlen sortieren",
+      "instruction": "Wird jede Zahl zum nächsten Zehner aufgerundet oder abgerundet? Schreibe sie in den richtigen Kasten."
+    },
+    "hundred": {
+      "title": "Zahlen runden auf Hunderter",
+      "instruction": "Runde jede Zahl auf den nächsten Hunderter und schreibe sie in das Kästchen. Schau auf die Zehnerstelle."
+    },
+    "estimate": {
+      "title": "Runden und überschlagen: Summe schätzen",
+      "instruction": "Runde beide Zahlen auf den nächsten Zehner und schreibe sie in die Kästchen. Rechne dann die gerundeten Zahlen zusammen."
+    },
+    "inverse": {
+      "title": "Welche Zahlen runden auf 50?",
+      "instruction": "Kreise jede Zahl ein, die auf den Zehner oben gerundet wird. Schau auf die Einerstelle jeder Zahl."
+    },
+    "both": {
+      "title": "Zahlen runden auf Zehner und Hunderter",
+      "instruction": "Runde jede Zahl zweimal: auf den Zehner im ersten Kästchen und auf den Hunderter im zweiten."
+    }
+  },
+  "refuse": [],
+  "strand": "Zahlen und Operationen"
+}

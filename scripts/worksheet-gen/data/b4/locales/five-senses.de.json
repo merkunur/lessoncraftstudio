@@ -1,0 +1,53 @@
+{
+  "verbs": {
+    "hear": "hören",
+    "see": "sehen",
+    "smell": "riechen",
+    "taste": "schmecken",
+    "touch": "fühlen"
+  },
+  "starters": {
+    "hear": "Ich höre ...",
+    "see": "Ich sehe ...",
+    "smell": "Ich rieche ...",
+    "taste": "Ich schmecke ...",
+    "touch": "Ich fühle ..."
+  },
+  "signedOk": [
+    "pizza",
+    "television",
+    "book",
+    "lamp",
+    "lighthouse",
+    "flute"
+  ],
+  "organOf": {},
+  "refuse": [],
+  "strings": {
+    "K-355": {
+      "title": "Die fünf Sinne",
+      "instruction": "Verbinde jedes Bild mit dem Körperteil, das du dafür brauchst."
+    },
+    "G1-357": {
+      "title": "Die fünf Sinne: nach Sinn sortieren",
+      "instruction": "Schau dir jedes Bild an und ziehe eine Linie von seinem Punkt zu dem Kasten des Sinns, den du dafür brauchst."
+    },
+    "G1-358": {
+      "title": "Die fünf Sinne: Welcher Sinn?",
+      "instruction": "Welchen Sinn brauchst du für jedes Bild? Kreise den passenden Körperteil ein."
+    },
+    "G1-359": {
+      "title": "Die fünf Sinne: Was passt nicht dazu?",
+      "instruction": "In jeder Reihe gehören drei Bilder zum selben Sinn. Streiche das Bild durch, das nicht dazugehört."
+    },
+    "G1-360": {
+      "title": "Sinnesorgane beschriften",
+      "instruction": "Schreibe jedes Wort aus dem Kasten auf die Linie neben dem Sinnesorgan, das das kann."
+    },
+    "G1-361": {
+      "title": "Die fünf Sinne: Ich höre ...",
+      "instruction": "Beende jeden Satz. Schreibe auf, was du hören, sehen, riechen, schmecken und fühlen kannst."
+    }
+  },
+  "strand": "Sachunterricht"
+}

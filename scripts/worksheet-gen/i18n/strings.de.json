@@ -2386,5 +2386,245 @@
   "G3-384": {
     "title": "Rückwärts hüpfen am Zahlenstrahl: Was bleibt?",
     "instruction": "Beginne bei der markierten Zahl und hüpfe in gleich großen Sprüngen zurück, bis kein ganzer Sprung mehr passt. Schreibe die Sprünge und wo du landest."
+  },
+  "K-353": {
+    "title": "Tangram-Figuren: 7 Teile ausschneiden und zwei Figuren legen",
+    "instruction": "Male die Teile wie in der Legende an, schneide sie an den Linien aus und lege sie genau auf die zwei Figuren unten."
+  },
+  "K-354": {
+    "title": "Der Körper",
+    "instruction": "Schreibe jedes Wort aus dem Kasten auf die Linie, die auf diesen Körperteil zeigt."
+  },
+  "K-355": {
+    "title": "Die fünf Sinne",
+    "instruction": "Verbinde jedes Bild mit dem Körperteil, das du dafür brauchst."
+  },
+  "K-356": {
+    "title": "Wettersymbole",
+    "instruction": "Verbinde jedes Wettersymbol mit seinem Wort."
+  },
+  "K-357": {
+    "title": "Mülltrennung",
+    "instruction": "Jedes Ding ist leer oder aufgebraucht. Ziehe eine Linie von ihm zu der Tonne, in die es gehört."
+  },
+  "G1-350": {
+    "title": "Lückentext",
+    "instruction": "Schau dir das Bild an. Suche das passende Wort im Kasten und schreibe es in das Kästchen."
+  },
+  "G1-351": {
+    "title": "Gerade und ungerade Zahlen bis 20",
+    "instruction": "Schreibe jede Zahl in das Haus, in das sie gehört: gerade oder ungerade. Drei Zahlen wohnen schon dort und zeigen ihre Paare."
+  },
+  "G1-352": {
+    "title": "Personalpronomen: er, sie oder es",
+    "instruction": "Schau dir das Bild an und lies das Wort darunter. Kreise das Wort ein, das wir stattdessen sagen können."
+  },
+  "G1-353": {
+    "title": "W-Fragen: wer, was, wo",
+    "instruction": "Lies den Satz. Schau auf die markierten Wörter. Kreise das Fragewort ein, das nach ihnen fragt."
+  },
+  "G2-346": {
+    "title": "Zahlen runden auf Zehner",
+    "instruction": "Runde jede Zahl auf den nächsten Zehner und schreibe sie in das Kästchen. Ist die Einerstelle 5 oder mehr, runde auf."
+  },
+  "K-358": {
+    "title": "Einfache Tangram-Figuren aus 2 und 3 Teilen: Linien zeichnen",
+    "instruction": "Schau dir die Teile über jeder Form an. Zeichne die Linien in die Form, wo diese Teile aneinanderstoßen."
+  },
+  "G1-354": {
+    "title": "Tangram-Figuren: vier Schattenbilder legen",
+    "instruction": "Lege jedes dunkle Schattenbild mit den sieben Teilen deines Tangrams nach. Benutze jedes Mal alle sieben Teile."
+  },
+  "G1-355": {
+    "title": "Tangram-Figuren: Welches Teil fehlt?",
+    "instruction": "In jeder Figur fehlt ein Teil. Kreise das Teil ein, das genau in die Lücke passt."
+  },
+  "G2-347": {
+    "title": "Tangram-Figuren: Welche Lösung passt zum Schattenbild?",
+    "instruction": "Kreise die Lösung ein, die genau so liegt wie das Schattenbild. Gedrehte oder gespiegelte Figuren passen nicht."
+  },
+  "K-359": {
+    "title": "Tangram: Dreiecke und Quadrate zählen",
+    "instruction": "Zähle die Dreiecke in jedem Bild und schreibe die Zahl ins erste Kästchen. Zähle dann die Quadrate fürs zweite."
+  },
+  "K-360": {
+    "title": "Der Körper: Wie viele?",
+    "instruction": "Wie viele davon hast du? Zähle an deinem eigenen Körper und schreibe die Zahl in das Kästchen."
+  },
+  "K-361": {
+    "title": "Der Körper: nach Legende ausmalen",
+    "instruction": "Lies die Legende und male jeden Körperteil in der Farbe an, die neben seinem Namen steht."
+  },
+  "G1-356": {
+    "title": "Der Körper: Wörter schreiben",
+    "instruction": "Suche jeden nummerierten Körperteil an der Figur und schreibe seinen Namen, ein Buchstabe in jedes Kästchen."
+  },
+  "K-362": {
+    "title": "Der Körper: Was fehlt?",
+    "instruction": "Jedem Körper fehlt ein Teil. Kreise das Bild des fehlenden Teils ein und zeichne es dann an."
+  },
+  "K-363": {
+    "title": "Der Körper: Was gibt es zweimal?",
+    "instruction": "Kreise jeden Körperteil ein, den du zweimal hast."
+  },
+  "G1-357": {
+    "title": "Die fünf Sinne: nach Sinn sortieren",
+    "instruction": "Schau dir jedes Bild an und ziehe eine Linie von seinem Punkt zu dem Kasten des Sinns, den du dafür brauchst."
+  },
+  "G1-358": {
+    "title": "Die fünf Sinne: Welcher Sinn?",
+    "instruction": "Welchen Sinn brauchst du für jedes Bild? Kreise den passenden Körperteil ein."
+  },
+  "G1-359": {
+    "title": "Die fünf Sinne: Was passt nicht dazu?",
+    "instruction": "In jeder Reihe gehören drei Bilder zum selben Sinn. Streiche das Bild durch, das nicht dazugehört."
+  },
+  "G1-360": {
+    "title": "Sinnesorgane beschriften",
+    "instruction": "Schreibe jedes Wort aus dem Kasten auf die Linie neben dem Sinnesorgan, das das kann."
+  },
+  "G1-361": {
+    "title": "Die fünf Sinne: Ich höre ...",
+    "instruction": "Beende jeden Satz. Schreibe auf, was du hören, sehen, riechen, schmecken und fühlen kannst."
+  },
+  "G1-362": {
+    "title": "Wettersymbole: Wetterwörter schreiben",
+    "instruction": "Suche das Wort zu jedem Wettersymbol im Kasten und schreibe es auf, ein Buchstabe in jedes Kästchen."
+  },
+  "K-364": {
+    "title": "Wetter beobachten: meine Woche",
+    "instruction": "Schau jeden Tag dieser Woche nach draußen und zeichne das Wettersymbol für diesen Tag in sein Kästchen."
+  },
+  "K-365": {
+    "title": "Wettersymbole: Ist es kalt, warm oder heiß?",
+    "instruction": "Lies an jedem Thermometer mit der Legende ab, ob es kalt, warm oder heiß ist, und kreise das passende Bild ein."
+  },
+  "G3-385": {
+    "title": "Wasserkreislauf beschriften",
+    "instruction": "Lies die vier Wörter im Kasten und schreibe jedes auf die Linie mit derselben Nummer wie in der Abbildung."
+  },
+  "G1-363": {
+    "title": "Wettersymbole: Wetterbericht lesen",
+    "instruction": "Schau dir das Wetter der Woche an, lies jede Frage und kreise den richtigen Tag ein."
+  },
+  "K-366": {
+    "title": "Mülltrennung: Welche Tonne?",
+    "instruction": "Schau dir jedes Ding an und kreise die Tonne ein, in die es gehört, wenn es leer oder aufgebraucht ist."
+  },
+  "G1-364": {
+    "title": "Mülltrennung: Woraus ist es gemacht?",
+    "instruction": "Woraus ist jedes Ding gemacht? Schreibe das Wort aus dem Kasten auf die Linie."
+  },
+  "G2-348": {
+    "title": "Mülltrennung: Was passt nicht dazu?",
+    "instruction": "In jeder Reihe sind drei Dinge aus demselben Material. Kreise das Ding ein, das anders ist."
+  },
+  "K-367": {
+    "title": "Mülltrennung: Tonnen ausmalen",
+    "instruction": "Lies den Namen auf jeder Tonne und male sie in der Farbe an, die die Legende zeigt."
+  },
+  "G1-365": {
+    "title": "Mülltrennung: Das trenne ich zu Hause",
+    "instruction": "Zeichne drei Dinge, die du zu Hause richtig trennst, und schreibe auf, was jedes davon ist."
+  },
+  "G1-366": {
+    "title": "Lückentext mit Buchstabenkästchen",
+    "instruction": "Schau dir das Bild an. Schreibe das fehlende Wort in die Kästchen, ein Buchstabe pro Kästchen."
+  },
+  "G1-367": {
+    "title": "Lückentext: das richtige Wort einsetzen",
+    "instruction": "Schau dir das Bild an und lies den Satz. Kreise das Wort ein, das passt, und schreibe es in das Kästchen."
+  },
+  "G2-349": {
+    "title": "Lückentext in der Mehrzahl",
+    "instruction": "Schau dir die Bilder an. Es sind mehrere. Schreibe das Wort für mehrere in das Kästchen."
+  },
+  "G2-350": {
+    "title": "Lückentexte: kleine Geschichte",
+    "instruction": "Lies die ganze Geschichte. Die drei Bilder zeigen die fehlenden Wörter. Schreibe jedes in sein Kästchen."
+  },
+  "G1-368": {
+    "title": "Satz und Bild verbinden",
+    "instruction": "Lies jeden Satz. Welches Bild füllt die Lücke? Verbinde den Satz mit diesem Bild."
+  },
+  "G2-351": {
+    "title": "Gerade oder ungerade? Zwei gleiche Summanden",
+    "instruction": "Kreise die Punkte immer zu zweit ein. Schreibe die Zahl als zwei gleiche Teile und in das kleine Kästchen, was übrig bleibt."
+  },
+  "G1-369": {
+    "title": "Gerecht teilen: gerade oder ungerade?",
+    "instruction": "Teile die Bilder abwechselnd auf die zwei Kinder auf. Schreibe, wie viele jedes bekommt und wie viele übrig bleiben. Kreise ein."
+  },
+  "G2-352": {
+    "title": "Gerade und ungerade Zahlen bis 100",
+    "instruction": "Lies die Regel oben. Schau nur auf das Einer-Kästchen jeder Zahl und hake den Kreis unter gerade oder ungerade ab."
+  },
+  "G3-386": {
+    "title": "Summe gerade oder ungerade? Ohne zu rechnen",
+    "instruction": "Rechne nicht. Schau auf die unterstrichenen Einer, nutze die Tabelle und hake ab, ob die Summe gerade oder ungerade ist."
+  },
+  "G1-370": {
+    "title": "Gerade oder ungerade? Bilder paarweise zählen",
+    "instruction": "Zähle die Bilder und kreise sie immer zu zweit ein. Schreibe, wie viele Paare es sind, und kreise gerade oder ungerade ein."
+  },
+  "G1-371": {
+    "title": "Personalpronomen einsetzen",
+    "instruction": "Lies den Satz. Schreibe das Wort aus dem Kasten, das im zweiten Satz den Namen ersetzt, in das Kästchen."
+  },
+  "G2-353": {
+    "title": "Wer ist gemeint? Pronomen im Satz",
+    "instruction": "Lies die Sätze. Ziehe eine Linie von jedem Wort im Rahmen zu dem Namen, für den es steht."
+  },
+  "G2-354": {
+    "title": "Possessivpronomen: sein oder ihr?",
+    "instruction": "Schau, wem das Ding gehört. Kreise das Wort ein, das zu dieser Person passt."
+  },
+  "G1-372": {
+    "title": "Namen sortieren: er, sie oder es?",
+    "instruction": "Lies jede Karte. Schreibe das Wort auf der Karte unter das Wort, das wir dafür sagen."
+  },
+  "G2-355": {
+    "title": "Sätze mit Pronomen umschreiben",
+    "instruction": "Lies den Satz. Schreibe ihn noch einmal auf die Linien, aber setze für den Namen ein Pronomen ein."
+  },
+  "G1-373": {
+    "title": "W-Fragen: Frage und Antwort verbinden",
+    "instruction": "Lies jede Frage links. Ziehe eine Linie zu der Antwort rechts, die dazu passt."
+  },
+  "G1-374": {
+    "title": "Fragewörter einsetzen",
+    "instruction": "Lies die Antwort und suche die markierten Wörter. Schreibe das Fragewort aus dem Kasten in das Kästchen."
+  },
+  "G1-375": {
+    "title": "W-Fragen: wer, was oder wo? Antworten sortieren",
+    "instruction": "Lies jede Wortkarte. Schreibe sie unter die Frage, auf die sie antwortet."
+  },
+  "G2-356": {
+    "title": "Fragesätze schreiben",
+    "instruction": "Lies die Antwort. Schau auf die markierten Wörter. Schreibe die Frage, die nach ihnen fragt, auf die Linie."
+  },
+  "G2-357": {
+    "title": "Fragen zum Bild: warum und wie",
+    "instruction": "Schau dir das Bild an. Beende jede Frage. Beginne mit dem Wort, das schon auf der Linie steht."
+  },
+  "G3-387": {
+    "title": "Aufrunden oder abrunden? Zahlen sortieren",
+    "instruction": "Wird jede Zahl zum nächsten Zehner aufgerundet oder abgerundet? Schreibe sie in den richtigen Kasten."
+  },
+  "G3-388": {
+    "title": "Zahlen runden auf Hunderter",
+    "instruction": "Runde jede Zahl auf den nächsten Hunderter und schreibe sie in das Kästchen. Schau auf die Zehnerstelle."
+  },
+  "G3-389": {
+    "title": "Runden und überschlagen: Summe schätzen",
+    "instruction": "Runde beide Zahlen auf den nächsten Zehner und schreibe sie in die Kästchen. Rechne dann die gerundeten Zahlen zusammen."
+  },
+  "G3-390": {
+    "title": "Welche Zahlen runden auf 50?",
+    "instruction": "Kreise jede Zahl ein, die auf den Zehner oben gerundet wird. Schau auf die Einerstelle jeder Zahl."
+  },
+  "G3-391": {
+    "title": "Zahlen runden auf Zehner und Hunderter",
+    "instruction": "Runde jede Zahl zweimal: auf den Zehner im ersten Kästchen und auf den Hunderter im zweiten."
   }
 }

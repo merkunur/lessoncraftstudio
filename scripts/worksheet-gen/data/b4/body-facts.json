@@ -7,7 +7,7 @@
     "ear":      { "count": 2,    "cue": "ear" },
     "nose":     { "count": 1,    "cue": "nose" },
     "mouth":    { "count": 1,    "cue": "mouth" },
-    "neck":     { "count": 1,    "cue": "neck" },
+    "neck":     { "count": 1,    "cue": null },
     "shoulder": { "count": 2,    "cue": null },
     "arm":      { "count": 2,    "cue": "arm" },
     "elbow":    { "count": 2,    "cue": "elbow" },
@@ -40,7 +40,7 @@
   ],
   "excluded": {
     "shoulder": "a bare torso with a red dot and a coral arrow: no K-legible shoulder; never a chip or a cue",
-    "neck":     "a neck with a necklace and a coral arrow: a cue for its count (1) only, never a chip",
+    "neck":     "a neck with a necklace and a coral arrow: never a chip, a cue or a card (the picture is excluded on every face; the WORD stays on the base / F3)",
     "thumb":    "a thumbs-up hand; not one of the 16 anchor ids",
     "chin":     "a whole face with an arrow at the chin: reads head beside the head card",
     "tongue":   "an open mouth with teeth and a tongue: confusable with mouth, and K-355's sense organ"
@@ -52,7 +52,7 @@
   "confusable": [["arm", "hand", "elbow", "finger"], ["leg", "foot", "knee", "toe"], ["hair", "head"]],
   "hideable": ["arm", "hand", "leg", "foot", "hair", "mouth", "nose", "ear"],
   "omitPool": { "340": ["arm", "leg", "hair"], "300": ["arm", "hand", "leg", "foot", "hair"] },
-  "pairsPool": { "pairs": ["eye", "ear", "arm", "hand", "leg", "foot", "knee", "elbow"], "singles": ["head", "nose", "mouth", "neck"] },
+  "pairsPool": { "pairs": ["eye", "ear", "arm", "hand", "leg", "foot", "knee", "elbow"], "singles": ["head", "nose", "mouth"] },
   "countPools": { "1": ["head", "nose", "mouth"], "2": ["eye", "ear", "arm", "hand", "leg", "foot", "knee", "elbow"], "10": ["finger"] },
   "leadSet": ["arm", "leg", "hand", "foot", "knee", "elbow", "shoulder", "neck", "head", "finger", "toe"],
   "faceSet": ["eye", "ear", "nose", "mouth", "hair"]

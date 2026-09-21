@@ -63,7 +63,7 @@
  *
  *   MIN_H 240 (throws below: the eye disc falls under 2 px); LABEL_MIN_H 420
  *   (the label component asserts it: three 64 px lanes a side need the
- *   anchors spread >= 400 px); MAX_H 560.
+ *   anchors spread >= 400 px); MAX_H 680 (was 560; raised for the F2 face).
  */
 'use strict';
 const tokens = require('./_tokens.js');
@@ -74,7 +74,7 @@ const F = tokens.font;
 const S = tokens.stroke;
 
 const VB_W = 300, VB_H = 560, MID = 150;
-const MIN_H = 240, LABEL_MIN_H = 420, MAX_H = 560;
+const MIN_H = 240, LABEL_MIN_H = 420, MAX_H = 680;   // MAX_H raised 560 -> 680 (2026-09-21, the F2 colouring face fills the 677 fi body at h 660)
 const MARKER_R = 13, MARKER_PX = 16, MARKER_MIN_GAP = 30;
 
 /* ---------------------------------------------------------------- geometry (figure units, RIGHT side; L = mirror x -> 300 - x) */

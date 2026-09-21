@@ -19,7 +19,7 @@
  *   - every fill / stroke hex is a token (primitives/_tokens.js); coral appears
  *     only in markers; the outline renders 3 px at every h (stroke-width x scale)
  *   - width === h * 300 / 560; the eye disc >= 2 px (MIN_H's reason)
- *   - MIN_H throws below 240; MAX_H above 560; an unknown hide id throws;
+ *   - MIN_H throws below 240; MAX_H above 680; an unknown hide id throws;
  *     markers closer than 30 px throw (hand + finger R at h 420, the design's
  *     21.8 px case) while hand + knee pass
  * then the POISONS, each against its control: an anchor moved outside its
@@ -35,7 +35,7 @@ const tokens = require('../primitives/_tokens.js');
 const BF = require('../primitives/body-figure.js');
 
 const PALETTE = new Set([...Object.values(tokens.color), ...Object.values(tokens.codeColors)].map((c) => c.toUpperCase()));
-const HS = [240, 300, 340, 420, 440, 504, 540, 560];
+const HS = [240, 300, 340, 420, 440, 504, 540, 560, 660, 680];
 const SHAPE_OF = { head: 'head', eye: 'head', hair: 'hair', ear: 'ear-X', nose: 'nose', mouth: 'mouth', neck: 'neck', shoulder: 'arm-X', arm: 'arm-X', elbow: 'arm-X', hand: 'hand-X', finger: 'hand-X', leg: 'leg-X', knee: 'leg-X', foot: 'foot-X', toe: 'foot-X' };
 
 let assertions = 0;
@@ -149,7 +149,7 @@ function main() {
   // throws
   const throws = (fn, re, what) => { let m = null; try { fn(); } catch (e) { m = e.message; } ok(m && re.test(m), `${what}: ${m ? 'threw "' + m + '"' : 'did not throw'}`); };
   throws(() => BF.bodyFigure({ h: 239 }), /MIN_H 240/, 'h 239');
-  throws(() => BF.bodyFigure({ h: 561 }), /MAX_H 560/, 'h 561');
+  throws(() => BF.bodyFigure({ h: 681 }), /MAX_H 680/, 'h 681');
   throws(() => BF.bodyFigure({ h: 300, hide: ['eye'] }), /not hideable/, 'hide eye');
   throws(() => BF.bodyFigure({ h: 300, hide: ['torso'] }), /not hideable/, 'hide torso');
   throws(() => BF.bodyFigure({ h: 420, markers: [{ id: 'hand', side: 'R', n: 1 }, { id: 'finger', side: 'R', n: 2 }] }), /markers hand and finger are [\d.]+ px apart \(< 30\)/, 'markers hand + finger R at h 420');

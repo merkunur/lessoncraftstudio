@@ -102,6 +102,31 @@
  *    (4 = the open count) · worked.split [1, 2] · chips 5 · an even worked in
  *    the odd house (houseBin) · pairDots n 0 / 11 / no host · chipStrip 10 x 64.
  *    PR2 / PR4 / PR7 / PR8 / PR10 of the design are FACE poisons (Phase 2).
+ * 5. THE FIVE FACES (Phase 2, 2026-09-21; record _work/G1-351-faces.md) —
+ *    the rows (tools/b4var-rows/odd-and-even.js) against the allocation, the
+ *    bank strings (one source), the theme axis / assetClass / gradeBand extras,
+ *    the pairwise-distinct d2 configs; every face rendered through the real
+ *    pipeline at d2 en (share / count on `animals`) at the default chrome, the
+ *    one-line chrome (811: the SPARSE bound at the widest body), the 3+3 chrome
+ *    (710) and the fi 4-line chrome (677), plus the fi synthetic bank (pills
+ *    105.2, the two-line rule, the "vai" titles) under 677 and the de synthetic
+ *    bank (the 253 px table, "bleibt übrig") under 710; verify() + lints empty,
+ *    the floors measured (pictures >= 44, boxes, pills >= 44 high and <= 106
+ *    wide = fi parillinen 73.2 + 28 + the 2.5 px borders, captions <= 84 / 56,
+ *    heads <= 76, the rule <= 2 lines, the table 92 high on one line each),
+ *    the SPARSE measures (the last card / lane ends within 3 px of the body
+ *    bottom; F1 the card content fills the card and the blank above / below
+ *    the dots inside the white panel <= 40; F2 / F5 the blank inside a lane
+ *    <= 40 and lanes <= 6 px apart; F3 / F4 the blank inside a lane <= 44 and
+ *    lanes <= 8 px apart — all measured on the content box, the lane's own
+ *    frame excluded), the node cross-check (faceCross: a = b = floor(n/2), r =
+ *    n % 2, each / pairs, the correct pill / tick parity, the table rows, the
+ *    heads, names in SENTENCES within nameMaxGraphemes, nouns countable +
+ *    distinct, every picture ON DISK, no B&W dir, the ban); a 20-seed sweep per
+ *    face; config poisons (the resolvers refuse), the design's PR2 / PR4 / PR7 /
+ *    PR8 / PR10, five SPARSE poisons (each face's floating layout) and the
+ *    per-face answer-hiding / structure poisons (PRk..PRae), every one counted
+ *    in the final `PASS (N assertions, M/M poisons killed)` line.
  */
 'use strict';
 const fs = require('fs');
@@ -110,7 +135,7 @@ const puppeteer = require('puppeteer');
 const { renderInstance } = require('../render/render-instance.js');
 const { makeRng, instanceSeed } = require('../lib/rng.js');
 const { bankModule } = require('../lib/b4-common.js');
-const { fileUri } = require('../lib/b2-common.js');
+const { fileUri, entriesFor, countable } = require('../lib/b2-common.js');
 const { SENTENCES } = require('../data/b2/sentences.js');
 const freeClaim = require('../../lib/free-claim.js');
 const C4 = require('../templates/components-b4.js');
@@ -130,6 +155,7 @@ const FACES = ['base', ...MODES];
 const WORKSHEET_WORD = /arbeitsblatt|worksheet|werkblad|arbetsblad|arbejdsark|arbeidsark|feuille|(?<!\p{L})fiches?(?!\p{L})|ficha|scheda|tehtäv|atividade/iu;
 const ANSWERS_WORD = /with answers|answer key|mit lösungen|con respuestas|com respostas|avec corrigé|con soluzioni|met antwoorden|med facit|med facitliste|med fasit|vastauksineen|vastaukset/i;
 const FLOOR = 44, CHIP = 64, NUMERAL = 26;
+const BW_MARK = /(?:^|[\s_-])(bw|sw|bn|nb|zw|sh|pb|mv|sv)$/i;   // a B&W theme dir: the cache name ('animals bw') or the library's localized marker
 // design §1 table B (the head = the title verbatim; the ASCII slug)
 const TABLE_B = { en: 'odd-and-even', de: 'gerade-und-ungerade-zahlen', es: 'numeros-pares-e-impares', pt: 'numeros-pares-e-impares', fr: 'nombres-pairs-et-impairs', it: 'numeri-pari-e-dispari', nl: 'even-en-oneven-getallen', sv: 'udda-och-jamna-tal', da: 'lige-og-ulige-tal', no: 'partall-og-oddetall', fi: 'parilliset-ja-parittomat-luvut' };
 const HEAD = { en: 'Odd and Even Numbers', de: 'Gerade und ungerade Zahlen', es: 'Números pares e impares', pt: 'Números pares e ímpares', fr: 'Nombres pairs et impairs', it: 'Numeri pari e dispari', nl: 'Even en oneven getallen', sv: 'Udda och jämna tal', da: 'Lige og ulige tal', no: 'Partall og oddetall', fi: 'Parilliset ja parittomat luvut' };
@@ -145,7 +171,7 @@ const APPARATUS = {
   share: { en: ['pairs', 'pair'], de: ['Paare', 'Paar'], es: ['parejas', 'pareja'], pt: ['pares', 'par'], fr: ['paires', 'paire'], it: ['coppie', 'coppia'], nl: ['paren', 'paar'], sv: ['par'], da: ['par'], no: ['par'], fi: ['parit', 'pari'] },
 };
 
-let fails = 0, asserts = 0;
+let fails = 0, asserts = 0, killed = 0, poisonsTotal = 0;   // poisons: every one counted, every one must be KILLED for its own reason
 function ok(cond, msg) { asserts++; if (!cond) { fails++; console.log('  FAIL ' + msg); } }
 function fold(s) { return String(s || '').trim().toLocaleLowerCase(); }
 function nfd(s) { return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
@@ -642,7 +668,7 @@ async function main() {
 
     // ---- config poisons (resolveBase refuses)
     {
-      const throws = (fn, re, what) => { let m = null; try { fn(); } catch (e) { m = e.message; } ok(m && re.test(m), `${what}: ${m || 'did NOT refuse'}`); if (m) console.log(`  poison ${what}: killed (${m.slice(0, 80)})`); };
+      const throws = (fn, re, what) => { poisonsTotal++; let m = null; try { fn(); } catch (e) { m = e.message; } ok(m && re.test(m), `${what}: ${m || 'did NOT refuse'}`); if (m && re.test(m)) { killed++; console.log(`  poison ${what}: killed (${m.slice(0, 80)})`); } };
       const D2 = TYPE.difficulty[2];
       throws(() => TYPE.resolveBase({ ...D2, range: [0, 30] }, GLOBAL), /0 never/, 'config range [0, 30]');
       throws(() => TYPE.resolveBase({ ...D2, boxes: { cols: 2, rows: 2 } }, GLOBAL), /leak/, 'config boxes 2 x 2 at d2 (4 = the open count)');
@@ -689,13 +715,340 @@ async function main() {
       ok(a.meta.order.join() === b.meta.order.join() && JSON.stringify(a.meta.worked) === JSON.stringify(b.meta.worked), 'the deal is locale-neutral (en === de numerals; only the house order and signs differ)');
     }
 
+    // ---- 5. THE FIVE FACES (Phase 2, 2026-09-21; design §3 / §5; record _work/G1-351-faces.md)
+    {
+      const ROWS_MOD = require('../tools/b4var-rows/odd-and-even.js');
+      const alloc = JSON.parse(fs.readFileSync(ALLOC, 'utf8')).faces.filter((f) => f.family === TYPE.id);
+      const FACE_ROWS = ROWS_MOD.ROWS;
+      ok(FACE_ROWS.length === 5 && ROWS_MOD.HANDWRITTEN.length === 0, `rows: ${FACE_ROWS.length} rows + ${ROWS_MOD.HANDWRITTEN.length} handwritten (want 5 + 0)`);
+      const faces = {};   // mode -> { id, dir, spec, row }
+      for (const row of FACE_ROWS) {
+        const [dir, id, slug, , src, over, title, instr, extra] = row;
+        const a = alloc.find((f) => f.id === id);
+        ok(a && a.dir === dir && a.band === (extra && extra.gradeBand ? extra.gradeBand : 'G1'), `row ${id}: dir ${dir} / band ${extra && extra.gradeBand} vs the allocation ${a && a.dir} / ${a && a.band}`);
+        ok(src === 2 && over && MODES.includes(over.mode), `row ${id}: src ${src}, mode ${over && over.mode}`);
+        const file = path.join(ROOT, 'types', dir, `${id}-${slug}.js`);
+        ok(fs.existsSync(file), `row ${id}: emitted spec missing (${file}) — run tools/gen-b4var-specs.js`);
+        const spec = require(file);
+        ok(spec.id === id && spec.exerciseType === 'odd-and-even' && spec.difficulty[2].mode === over.mode, `row ${id}: the emitted spec id / type / mode`);
+        // EN title + instruction = the bank's strings.<mode> (one source)
+        const s = en.strings[over.mode];
+        ok(s && s.title === title && s.instruction === instr && spec.i18n.en.title === title && spec.i18n.en.instruction === instr, `row ${id}: the row / spec strings differ from bank.strings.${over.mode}`);
+        // the themed faces carry the picture axis + icon-placement; the numeral faces inherit the base's themeless axis
+        const themed = over.mode === 'share' || over.mode === 'count';
+        ok(themed ? (spec.themeAxis && spec.themeAxis.applicable === true && spec.themeAxis.minNouns === 6 && spec.themeAxis.excludeBw === true && spec.assetClass === 'icon-placement')
+          : (spec.themeAxis && spec.themeAxis.applicable === false && spec.assetClass === 'numeral-charts'), `row ${id}: themeAxis / assetClass ${JSON.stringify(spec.themeAxis)} ${spec.assetClass}`);
+        ok(spec.gradeBand === FACE_BAND[over.mode], `row ${id}: gradeBand ${spec.gradeBand} != ${FACE_BAND[over.mode]}`);
+        ok(!/(?<!\d)1 to 100(?!\d)/.test(title) || false, `row ${id}: the title names "1 to 100" while the page draws 10-99 (a title that names a range names what the d2 page shows)`);
+        faces[over.mode] = { id, dir, spec, row, over };
+      }
+      ok(Object.keys(faces).sort().join(',') === MODES.slice().sort().join(','), `faces on disk ${Object.keys(faces)} != ${MODES}`);
+      // the resolved d2 configs are pairwise distinct AND differ from the base's d2 (the distinct gate is the floor)
+      { const cfgs = Object.values(faces).map((f) => JSON.stringify(f.spec.difficulty[2])); ok(new Set(cfgs).size === 5 && !cfgs.includes(JSON.stringify(TYPE.difficulty[2])), 'the five resolved d2 configs are pairwise distinct and differ from the base'); }
+
+      const THEME = 'animals';
+      const chipsOf = (bank) => bank.chips;
+      /** Render a face through the real pipeline + measure (generic + per-mode). */
+      async function renderFace(spec, { theme = null, locale = 'en', baseName, strings, bank = en }) {
+        // the bank is injected FIRST (a poison over a synthetic locale), the html mutation (spec.__mutate) SECOND — a mutated spec's build must not be bypassed
+        const type = { ...spec, build: async (a, c) => { const b = await (bank === en ? spec.build.call(spec, a, c) : spec._buildWith(bank, spec.difficulty[a.difficulty], { theme: a.theme, locale: a.locale }, c)); if (spec.__mutate) { const h = spec.__mutate(b.bodyHtml); if (h === b.bodyHtml) throw new Error('mutation matched nothing'); return { ...b, bodyHtml: h }; } return b; } };
+        const out = await renderInstance({ type, theme, difficulty: 2, locale, page, outDir: OUT, baseName, strings });
+        const m = await page.evaluate(() => {
+          const R = (el) => el.getBoundingClientRect();
+          const root = document.querySelector('[data-lcs-oae]');
+          const body = document.querySelector('.ws-body'), foot = document.querySelector('.ws-foot'), title = document.querySelector('.ws-title');
+          if (!root) return { stamps: null };
+          const mode = root.dataset.lcsMode;
+          const bodyR = R(body);
+          let lowest = 0;
+          root.querySelectorAll('*').forEach((el) => { const b = R(el); if (b.width && b.height && b.bottom > lowest) lowest = b.bottom; });
+          const per = { mode };
+          const blankIn = (lane) => { const cs = getComputedStyle(lane); const inner = lane.clientHeight - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom); let top = Infinity, bottom = -Infinity; [...lane.children].forEach((c) => { const r = R(c); if (!r.height) return; top = Math.min(top, r.top); bottom = Math.max(bottom, r.bottom); }); return inner - (bottom - top); };
+          const lanesAll = [...root.querySelectorAll('.ws-card, .ws-lane:not([data-lcs-rule]):not([data-lcs-table])')];
+          const fillUnit = lanesAll.length ? lanesAll[lanesAll.length - 1] : root;
+          per.fillGap = bodyR.bottom - R(fillUnit).bottom;
+          per.stageTop = R(root).top - bodyR.top;
+          per.text = (body.innerText || '');
+          if (mode === 'proof') {
+            per.cards = [...root.querySelectorAll('[data-lcs-proof]')].map((c) => {
+              const card = c.closest('.ws-card'), panel = c.querySelector('[data-lcs-dots]'), svg = panel.querySelector('svg'), eq = c.querySelector('[data-lcs-eqrow]');
+              const cs = getComputedStyle(card), cr = R(card);
+              const inner = cr.height - parseFloat(cs.borderTopWidth) - parseFloat(cs.borderBottomWidth) - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom);
+              const kids = [...eq.children];
+              return { n: +c.dataset.lcsN, cardH: cr.height, inner, panelH: R(panel).height, svgH: R(svg).height, svgW: R(svg).width, eqH: R(eq).height, eqW: R(kids[kids.length - 1]).right - R(kids[0]).left,
+                blankSide: Math.max(R(svg).top - R(panel).top, R(panel).bottom - R(svg).bottom), contentGap: inner - (R(panel).height + R(eq).height + 10),
+                rs: [...panel.querySelectorAll('circle')].map((k) => +k.getAttribute('r')), boxes: [...c.querySelectorAll('.ws-blankbox')].map((b) => ({ role: b.dataset.lcsRole, w: R(b).width, h: R(b).height })),
+                numPx: parseFloat(getComputedStyle(c.querySelector('[data-lcs-num]')).fontSize), cap: (() => { const k = c.querySelector('[data-lcs-caption]'); return { t: k.textContent.trim(), w: R(k).width, px: parseFloat(getComputedStyle(k).fontSize) }; })() };
+            });
+          } else if (mode === 'share' || mode === 'count') {
+            per.lanes = [...root.querySelectorAll(mode === 'share' ? '[data-lcs-share]' : '[data-lcs-count]')].map((l) => {
+              const imgs = [...l.querySelectorAll('img')], kids = [...l.children];
+              return { n: +l.dataset.lcsN, h: R(l).height, blank: blankIn(l), row: R(kids[kids.length - 1]).right - R(kids[0]).left, imgs: imgs.length, src: imgs[0] ? decodeURIComponent(imgs[0].getAttribute('src')) : '',
+                iconMin: Math.min(...imgs.map((i) => Math.min(R(i).width, R(i).height))), loaded: imgs.every((i) => i.complete && i.naturalWidth > 0),
+                names: [...l.querySelectorAll('[data-lcs-plate]')].map((p) => ({ name: p.dataset.lcsName, w: R(p.firstElementChild).width, over: p.firstElementChild.scrollWidth - p.firstElementChild.clientWidth })),
+                cap: (() => { const k = l.querySelector('[data-lcs-caption]'); return k ? { t: k.textContent.trim(), w: R(k).width } : { t: '', w: 0 }; })(), kidsW: kids.map((k) => R(k).width),
+                pills: [...l.querySelectorAll('[data-lcs-pill]')].map((p) => ({ key: p.dataset.lcsPill, t: p.textContent.trim(), w: R(p).width, h: R(p).height, correct: p.dataset.lcsCorrect === '1', over: p.scrollWidth - p.clientWidth })),
+                boxes: [...l.querySelectorAll('.ws-blankbox')].map((b) => ({ role: b.dataset.lcsRole, w: R(b).width, h: R(b).height, text: b.textContent.trim() })) };
+            });
+            per.gapMax = per.lanes.length ? Math.max(0, ...[...root.querySelectorAll('.ws-lane')].slice(1).map((l, i, arr) => R(l).top - R(root.querySelectorAll('.ws-lane')[i]).bottom)) : 0;
+          } else if (mode === 'ones' || mode === 'sums') {
+            const lanes = [...root.querySelectorAll(mode === 'ones' ? '[data-lcs-pvlane]' : '[data-lcs-sumlane]')];
+            per.lanes = lanes.map((l) => {
+              const o = { h: R(l).height, blank: blankIn(l), ticks: [...l.querySelectorAll('[data-lcs-tick]')].map((t) => ({ key: t.dataset.lcsTick, d: R(t).width, correct: t.dataset.lcsCorrect === '1', text: t.textContent.trim() })) };
+              if (mode === 'ones') { const pv = l.querySelector('[data-lcs-pv]'); const bx = [...pv.querySelectorAll('[data-lcs-digit]')]; o.v = +pv.dataset.lcsVal; o.digits = bx.map((b) => b.textContent.trim()); o.boxW = Math.min(...bx.map((b) => R(b).width)); o.digitPx = parseFloat(getComputedStyle(bx[0]).fontSize); o.hiBg = getComputedStyle(bx[1]).backgroundColor; o.tensBg = getComputedStyle(bx[0]).backgroundColor; o.highlight = bx.findIndex((b) => b.hasAttribute('data-lcs-highlight')); }
+              else { const s = l.querySelector('[data-lcs-sum]'); o.a = +s.dataset.lcsA; o.b = +s.dataset.lcsB; o.text = s.textContent.replace(/\s+/g, ' ').trim(); o.px = parseFloat(getComputedStyle(s).fontSize); const ones = [...s.querySelectorAll('[data-lcs-ones]')]; o.ones = ones.map((x) => x.textContent); o.underline = ones.map((x) => { const probe = document.createElement('span'); probe.style.cssText = 'display:inline-block;height:0;width:0;vertical-align:baseline'; x.appendChild(probe); const d = R(x).bottom - R(probe).top; probe.remove(); return d; }); o.laneText = l.textContent; }
+              return o;
+            });
+            per.heads = [...root.querySelectorAll('[data-lcs-heads]')].map((h) => [...h.querySelectorAll('[data-lcs-head]')].map((c) => ({ key: c.dataset.lcsHead, t: c.textContent.trim(), w: R(c.firstElementChild).width, over: c.firstElementChild.scrollWidth - c.firstElementChild.clientWidth })));
+            const rule = root.querySelector('[data-lcs-rule]'), table = root.querySelector('[data-lcs-table]');
+            per.rule = rule ? { h: R(rule).height, t: rule.textContent.trim(), px: parseFloat(getComputedStyle(rule).fontSize) } : null;
+            per.table = table ? { h: R(table).height, w: R(table).width, rows: [...table.querySelectorAll('[data-lcs-trow]')].map((r) => r.textContent.replace(/\s+/g, ' ').trim()) } : null;
+            per.gapMax = Math.max(0, ...lanes.slice(1).map((l, i) => Math.abs(R(l).top - R(lanes[i]).bottom)).filter((g) => g < 200));
+          }
+          return { stamps: { ...root.dataset }, body: { h: bodyR.height, top: bodyR.top, bottom: bodyR.bottom }, foot: R(foot).top, lines: Math.round(R(title).height / (30 * 1.1)), lowest, per,
+            imgs: document.querySelectorAll('.ws-body img').length, tenFrames: document.querySelectorAll('[data-lcs-prim="ten-frame"]').length };
+        });
+        return { verify: out.qa.verify, lints: out.qa.lints, m, meta: out.meta, png: out.pngPath };
+      }
+      /** The node cross-check: the face's meta + the bank re-derive every answer; pictures on disk; names in SENTENCES. */
+      function faceCross(r, bank, loc, mode) {
+        const out = [];
+        const E = r.meta && r.meta.expected;
+        if (!E) return ['no meta.expected'];
+        const P = r.m.per;
+        if (mode === 'proof') {
+          E.forEach((e, i) => { if (e.a !== Math.floor(e.n / 2) || e.b !== e.a || e.r !== e.n % 2) out.push(`card ${i + 1}: expected ${JSON.stringify(e)} for ${e.n}`); });
+          P.cards.forEach((c, i) => { if (c.n !== E[i].n) out.push(`card ${i + 1}: renders ${c.n}, meta ${E[i].n}`); if (c.cap.t !== bank.leftover) out.push(`card ${i + 1}: caption "${c.cap.t}" != leftover "${bank.leftover}"`); });
+        } else if (mode === 'share' || mode === 'count') {
+          const names = (SENTENCES[loc] && SENTENCES[loc].names) || [], nmax = bank.nameMaxGraphemes;
+          const pool = new Set(entriesFor(THEME, loc).filter(countable).map((e) => e.noun));
+          const nouns = new Set();
+          E.forEach((e, i) => {
+            const L = `lane ${i + 1} (${e.n})`;
+            if (e.each !== Math.floor(e.n / 2) || e.r !== e.n % 2 || e.pairs !== Math.floor(e.n / 2) || e.parity !== TYPE.parity(e.n)) out.push(`${L}: expected ${JSON.stringify(e)}`);
+            if (!pool.has(e.noun)) out.push(`${L}: noun "${e.noun}" is not countable in ${loc} / not in the ${THEME} pool`);
+            if (nouns.has(e.noun)) out.push(`${L}: noun "${e.noun}" twice`); nouns.add(e.noun);
+            const file = decodeURIComponent(e.src.replace(/^file:\/\/\//, ''));
+            if (!fs.existsSync(file)) out.push(`${L}: picture not on disk (${file})`);
+            if (BW_MARK.test(path.basename(path.dirname(file)))) out.push(`${L}: a B&W theme dir (${path.basename(path.dirname(file))})`);
+            if (mode === 'share') { if (!e.names || e.names.length !== 2 || e.names[0] === e.names[1] || e.names.some((n) => !names.includes(n) || graphemes(n) > nmax)) out.push(`${L}: names ${JSON.stringify(e.names)} not two distinct SENTENCES.${loc} names of <= ${nmax} graphemes`); }
+            const l = P.lanes[i];
+            if (!l || l.n !== e.n) out.push(`${L}: renders ${l && l.n}`);
+            if (l && l.src !== decodeURIComponent(e.src)) out.push(`${L}: src differs from meta`);
+            if (l && l.cap.t !== (mode === 'share' ? bank.leftover : bank.pairs)) out.push(`${L}: caption "${l.cap.t}"`);
+            if (l && l.pills.length) { const c = l.pills.find((p) => p.correct); if (!c || c.key !== e.parity || c.t !== bank.chips[e.parity]) out.push(`${L}: the correct pill ${JSON.stringify(c)} != ${e.parity} "${bank.chips[e.parity]}"`); if (l.pills.map((p) => p.key).join() !== bank.houseOrder.join()) out.push(`${L}: pill order ${l.pills.map((p) => p.key)} != houseOrder`); l.pills.forEach((p) => { if (p.t !== bank.chips[p.key]) out.push(`${L}: pill ${p.key} prints "${p.t}"`); }); }
+            if (mode === 'share' && l) { if (l.names.map((n) => n.name).join() !== e.names.join()) out.push(`${L}: plates ${l.names.map((n) => n.name)} != meta ${e.names}`); }
+          });
+        } else if (mode === 'ones') {
+          E.forEach((e, i) => { const l = P.lanes[i]; if (!l || l.v !== e.v || e.tens !== Math.floor(e.v / 10) || e.ones !== e.v % 10 || e.parity !== TYPE.parity(e.v)) out.push(`lane ${i + 1}: ${JSON.stringify(e)} vs render ${l && l.v}`); if (l && (l.digits[0] !== String(e.tens) || l.digits[1] !== String(e.ones))) out.push(`lane ${i + 1}: digits ${l.digits}`); if (l) { const c = l.ticks.find((t) => t.correct); if (!c || c.key !== e.parity) out.push(`lane ${i + 1}: the correct tick ${c && c.key} != ${e.parity}`); } });
+          if (r.m.stamps.lcsHasRule === '1' && (!P.rule || P.rule.t !== bank.rule)) out.push(`the rule strip reads "${P.rule && P.rule.t}" != bank.rule`);
+          P.heads.forEach((h, ci) => { const L = h.filter((c) => c.key === 'tens' || c.key === 'ones').map((c) => c.t); if (L.join() !== bank.placeHeads.join()) out.push(`column ${ci + 1}: letter heads ${L} != placeHeads ${bank.placeHeads}`); const W = h.filter((c) => c.key === 'odd' || c.key === 'even'); if (W.map((c) => c.key).join() !== bank.houseOrder.join() || W.some((c) => c.t !== bank.chips[c.key])) out.push(`column ${ci + 1}: word heads ${JSON.stringify(W)}`); });
+        } else if (mode === 'sums') {
+          E.forEach((e, i) => { const l = P.lanes[i]; if (!l || l.a !== e.a || l.b !== e.b || e.parity !== TYPE.parity(e.a + e.b)) out.push(`lane ${i + 1}: ${JSON.stringify(e)} vs render ${l && l.a} + ${l && l.b}`); if (l) { const c = l.ticks.find((t) => t.correct); if (!c || c.key !== e.parity) out.push(`lane ${i + 1}: the correct tick ${c && c.key} != ${e.parity}`); if (l.laneText.includes(String(e.a + e.b))) out.push(`lane ${i + 1}: the sum ${e.a + e.b} appears`); } });
+          const ch = bank.chips;
+          if (r.m.stamps.lcsHasTable === '1' && (!P.table || P.table.rows.join('|') !== `${ch.even} + ${ch.even} = ${ch.even}|${ch.odd} + ${ch.odd} = ${ch.even}|${ch.even} + ${ch.odd} = ${ch.odd}`)) out.push(`the table reads ${P.table && P.table.rows.join(' | ')}`);
+          P.heads.forEach((h, ci) => { const W = h.filter((c) => c.key === 'odd' || c.key === 'even'); if (W.map((c) => c.key).join() !== bank.houseOrder.join() || W.some((c) => c.t !== bank.chips[c.key])) out.push(`column ${ci + 1}: word heads ${JSON.stringify(W)}`); });
+        }
+        const ban = banRegex(loc);
+        if (ban.test(P.text)) out.push(`the rendered text matches the doubles / halves ban (${P.text.match(ban)[0]})`);
+        if (r.m.tenFrames) out.push('a ten-frame on the page');
+        if ((mode === 'proof' || mode === 'ones' || mode === 'sums') && r.m.imgs) out.push(`${r.m.imgs} <img> on a numeral face`);
+        return out;
+      }
+      /** The floors + the SPARSE measures on a face render (every number measured on the render). */
+      function assertFace(name, r, mode, { oneLine = false } = {}) {
+        ok(r.verify.length === 0, `${name}: verify ${JSON.stringify(r.verify)}`);
+        ok(r.lints.length === 0, `${name}: lints ${JSON.stringify(r.lints)}`);
+        ok(r.m.stamps && r.m.stamps.lcsMode === mode, `${name}: root mode ${r.m.stamps && r.m.stamps.lcsMode} != ${mode}`);
+        ok(r.m.lowest <= r.m.foot + 0.6, `${name}: lowest ink ${Math.round(r.m.lowest)} vs foot ${Math.round(r.m.foot)}`);
+        const P = r.m.per;
+        ok(P.stageTop <= 1, `${name}: the stage sits ${P.stageTop.toFixed(1)} px under the body top (top-anchored)`);
+        ok(Math.abs(P.fillGap) <= 3, `${name}: the stage ends ${P.fillGap.toFixed(1)} px above the body bottom (sparse: it must fill the body)`);
+        if (mode === 'proof') {
+          ok(P.cards.length === 8, `${name}: ${P.cards.length} cards`);
+          for (const c of P.cards) {
+            ok(Math.abs(c.contentGap) <= 2, `${name} card ${c.n}: ${c.contentGap.toFixed(1)} px of blank inside the card outside its content (sparse)`);
+            ok(c.blankSide <= 40, `${name} card ${c.n}: ${c.blankSide.toFixed(1)} px above / below the dots inside the panel (> 40, sparse)`);
+            ok(c.rs.length === c.n && c.rs.every((x) => x >= 8), `${name} card ${c.n}: ${c.rs.length} dots, r ${Math.min(...c.rs)} (>= 8)`);
+            ok(c.boxes.map((b) => b.role).join() === 'a,b,r' && c.boxes.every((b) => b.w >= 36 && b.h >= 36), `${name} card ${c.n}: boxes ${JSON.stringify(c.boxes)}`);
+            ok(c.numPx >= 26 && c.eqW <= 302 && c.cap.px >= 12, `${name} card ${c.n}: numeral ${c.numPx} / eq row ${c.eqW.toFixed(1)} / caption ${c.cap.px}`);
+          }
+        } else if (mode === 'share' || mode === 'count') {
+          ok(P.lanes.length === 6, `${name}: ${P.lanes.length} lanes`);
+          ok(P.gapMax <= 7, `${name}: lanes ${P.gapMax.toFixed(1)} px apart (> 6, sparse)`);
+          for (const l of P.lanes) {
+            ok(l.h >= 105.4 && l.blank <= 40, `${name} lane ${l.n}: ${l.h.toFixed(1)} high with ${l.blank.toFixed(1)} px of blank inside (>= 106, blank <= 40)`);
+            ok(l.imgs === l.n && l.loaded && l.iconMin >= 44 - 0.6, `${name} lane ${l.n}: ${l.imgs} pictures, loaded ${l.loaded}, min ${l.iconMin}`);
+            ok(l.row <= 639, `${name} lane ${l.n}: row ${l.row.toFixed(1)} > 639`);
+            ok(l.pills.length === 2 && l.pills.every((p) => p.h >= 44 - 0.6 && p.w <= 106 && p.over <= 0) && l.pills.filter((p) => p.correct).length === 1, `${name} lane ${l.n}: pills ${JSON.stringify(l.pills.map((p) => [p.t, p.w.toFixed(1), p.h]))}`);
+            ok(l.boxes.every((b) => b.h >= 44 - 0.6 && b.w >= 44 - 0.6 && !b.text), `${name} lane ${l.n}: boxes ${JSON.stringify(l.boxes)}`);
+            ok(l.cap.w <= (mode === 'share' ? 84 : 56), `${name} lane ${l.n}: caption "${l.cap.t}" ${l.cap.w.toFixed(1)} > ${mode === 'share' ? 84 : 56}`);
+            if (mode === 'share') ok(l.names.length === 2 && l.names.every((n) => n.w <= 64 && n.over <= 0), `${name} lane ${l.n}: names ${JSON.stringify(l.names)}`);
+          }
+        } else {
+          ok(P.lanes.length === 12, `${name}: ${P.lanes.length} lanes`);
+          ok(P.gapMax <= 9, `${name}: lanes ${P.gapMax.toFixed(1)} px apart (> 8, sparse)`);
+          ok(P.heads.length === 2, `${name}: ${P.heads.length} header rows`);
+          for (const h of P.heads) for (const c of h) ok(c.w <= 76 && c.over <= 0, `${name}: head "${c.t}" ${c.w.toFixed(1)} wide / overflows`);
+          for (const [i, l] of P.lanes.entries()) {
+            ok(l.blank <= 44, `${name} lane ${i + 1}: ${l.blank.toFixed(1)} px of blank inside the lane (> 44, sparse)`);
+            ok(l.ticks.length === 2 && l.ticks.every((t) => t.d >= 60 - 0.6 && !t.text) && l.ticks.filter((t) => t.correct).length === 1, `${name} lane ${i + 1}: ticks ${JSON.stringify(l.ticks)}`);
+            if (mode === 'ones') ok(l.boxW >= 64 - 0.6 && l.digitPx >= 34 && /251, 227, 216/.test(l.hiBg) && /255, 255, 255/.test(l.tensBg) && l.highlight === 1, `${name} lane ${i + 1}: box ${l.boxW} digit ${l.digitPx} bg ${l.hiBg} / ${l.tensBg} highlight ${l.highlight}`);
+            else ok(l.px >= 30 && l.text === `${l.a} + ${l.b}` && l.underline.every((d) => d >= 1 && d <= 6), `${name} lane ${i + 1}: "${l.text}" at ${l.px} px, underline ${l.underline.map((d) => d.toFixed(1))} px under the baseline (1..6)`);
+          }
+          if (mode === 'ones') ok(P.rule && P.rule.h <= 60.6 && P.rule.px >= 14, `${name}: rule strip ${P.rule && P.rule.h.toFixed(1)} high at ${P.rule && P.rule.px} px (<= 2 lines)`);
+          else ok(P.table && Math.abs(P.table.h - 92) <= 1 && P.table.w <= 675, `${name}: table ${P.table && P.table.h.toFixed(1)} x ${P.table && P.table.w.toFixed(1)}`);
+        }
+        return P;
+      }
+      const FACE_THEME = { proof: null, share: THEME, ones: null, sums: null, count: THEME };
+      const faceMeasure = {};
+      for (const mode of MODES) {
+        const { id, spec } = faces[mode];
+        const theme = FACE_THEME[mode];
+        // the shipped d2 en render (the operator's PNG is out/dev/<id>-<theme>-d2-en.png via render/one.js; the gate re-renders under its own name)
+        const r = await renderFace(spec, { theme, baseName: `${id}-gate-d2-en` });
+        const P = assertFace(`${id} ${mode} d2 en`, r, mode);
+        const cc = faceCross(r, en, 'en', mode);
+        ok(cc.length === 0, `${id} ${mode} node cross-check: ${cc.join(' | ')}`);
+        // the one-line chrome (811): the sparse bound holds at the widest body
+        const r1 = await renderFace(spec, { theme, baseName: `${id}-gate-d2-en-chrome814`, strings: { title: 'Odd and Even', instruction: 'Decide for every number.' } });
+        ok(r1.m.lines === 1 && r1.m.body.h >= 800, `${id}: the one-line chrome fixture gives ${r1.m.lines} lines / body ${Math.round(r1.m.body.h)}`);
+        const P1 = assertFace(`${id} ${mode} one-line chrome`, r1, mode, { oneLine: true });
+        // the 3+3 chrome (README 722; measures ~710) and the fi 4-line title chrome (677)
+        const r3 = await renderFace(spec, { theme, baseName: `${id}-gate-d2-en-chrome722`, strings: CHROME.three });
+        ok(r3.m.lines === 3 && r3.m.body.h >= 700 && r3.m.body.h <= 724, `${id}: the 3+3 chrome fixture gives ${r3.m.lines} lines / body ${Math.round(r3.m.body.h)}`);
+        assertFace(`${id} ${mode} 3+3 chrome`, r3, mode);
+        const r4 = await renderFace(spec, { theme, baseName: `${id}-gate-d2-en-chrome677`, strings: CHROME.four });
+        ok(r4.m.lines === 4 && r4.m.body.h >= 660 && r4.m.body.h <= 690, `${id}: the 677 chrome fixture gives ${r4.m.lines} lines / body ${Math.round(r4.m.body.h)}`);
+        assertFace(`${id} ${mode} 677 chrome`, r4, mode);
+        ok(faceCross(r4, en, 'en', mode).length === 0, `${id} ${mode} 677 node cross-check`);
+        // the widest literals: the fi synthetic bank (pills 101, a two-line rule, the "vai" titles) under the 4-line chrome; de (the 250 px table, "bleibt übrig") under the 3+3 chrome
+        const fi = fiRuleFix(synthetic('fi', en)), de = synthetic('de', en);
+        const rf = await renderFace(spec, { theme, locale: 'fi', bank: fi, baseName: `${id}-gate-d2-fi-syn-chrome677`, strings: CHROME.four });
+        assertFace(`${id} ${mode} fi-syn 677 chrome`, rf, mode);
+        ok(faceCross(rf, fi, 'fi', mode).length === 0, `${id} ${mode} fi-syn node cross-check: ${faceCross(rf, fi, 'fi', mode).join(' | ')}`);
+        const rd = await renderFace(spec, { theme, locale: 'de', bank: de, baseName: `${id}-gate-d2-de-syn-chrome722`, strings: CHROME.three });
+        assertFace(`${id} ${mode} de-syn 3+3 chrome`, rd, mode);
+        ok(faceCross(rd, de, 'de', mode).length === 0, `${id} ${mode} de-syn node cross-check: ${faceCross(rd, de, 'de', mode).join(' | ')}`);
+        faceMeasure[mode] = { P, P1, body: Math.round(r.m.body.h), body1: Math.round(r1.m.body.h), body4: Math.round(r4.m.body.h) };
+        const line = mode === 'proof' ? `cards ${P.cards.map((c) => c.n).join(',')} card ${P.cards[0].cardH.toFixed(0)} (one-line ${P1.cards[0].cardH.toFixed(0)}) panel ${P.cards[0].panelH.toFixed(0)} blank-side max ${Math.max(...P.cards.map((c) => c.blankSide)).toFixed(1)} (one-line ${Math.max(...P1.cards.map((c) => c.blankSide)).toFixed(1)}) eq ${Math.max(...P.cards.map((c) => c.eqW)).toFixed(1)}`
+          : mode === 'ones' || mode === 'sums' ? `lanes ${P.lanes[0].h.toFixed(0)} (one-line ${P1.lanes[0].h.toFixed(0)}, 677 ${r4.m.per.lanes[0].h.toFixed(0)}) blank-in-lane max ${Math.max(...P.lanes.map((l) => l.blank)).toFixed(1)} (one-line ${Math.max(...P1.lanes.map((l) => l.blank)).toFixed(1)}) ${mode === 'ones' ? 'rule ' + P.rule.h.toFixed(0) + ' (fi ' + rf.m.per.rule.h.toFixed(0) + ') values ' + P.lanes.map((l) => l.v).join(',') : 'table ' + P.table.w.toFixed(1) + ' (de ' + rd.m.per.table.w.toFixed(1) + ') rows ' + P.lanes.map((l) => l.a + '+' + l.b).join(',')} heads max ${Math.max(...P.heads.flat().map((c) => c.w)).toFixed(1)} (fi ${Math.max(...rf.m.per.heads.flat().map((c) => c.w)).toFixed(1)})`
+          : `lanes ${P.lanes.map((l) => l.n).join(',')} lane ${P.lanes[0].h.toFixed(0)} (one-line ${P1.lanes[0].h.toFixed(0)}, 677 ${r4.m.per.lanes[0].h.toFixed(0)}) blank-in-lane max ${Math.max(...P.lanes.map((l) => l.blank)).toFixed(1)} (one-line ${Math.max(...P1.lanes.map((l) => l.blank)).toFixed(1)}) row max ${Math.max(...P.lanes.map((l) => l.row)).toFixed(1)} (fi ${Math.max(...rf.m.per.lanes.map((l) => l.row)).toFixed(1)}) pills max ${Math.max(...rf.m.per.lanes.flatMap((l) => l.pills.map((p) => p.w))).toFixed(1)} (fi) captions ${P.lanes[0].cap.w.toFixed(1)} (de ${rd.m.per.lanes[0].cap.w.toFixed(1)}) nouns ${r.meta.nouns.join(',')}`;
+        console.log(`face ${id} ${mode}: verify ${r.verify.length} lints ${r.lints.length} body ${Math.round(r.m.body.h)} (one-line ${Math.round(r1.m.body.h)}, 3+3 ${Math.round(r3.m.body.h)}, 677 ${Math.round(r4.m.body.h)}) fill-gap ${P.fillGap.toFixed(1)} ${line}`);
+      }
+      // every picture the two faces keep at the shipped d2 en seed is ON DISK (asserted inside faceCross above: fs.existsSync of the fileUri path) — plus the theme pool itself
+      { const pool = entriesFor(THEME, 'en').filter(countable); ok(pool.length >= 6, `the ${THEME} pool holds ${pool.length} countable nouns in en (>= 6)`); for (const l of LOCALES) { const p = entriesFor(THEME, l).filter(countable); ok(p.length >= 6, `the ${THEME} pool holds ${p.length} countable nouns in ${l}`); } }
+
+      // ---- face sweep: 20 seeds per face (build only)
+      if (!QUICK) {
+        for (const mode of MODES) {
+          const { id, spec } = faces[mode];
+          const sets = new Set();
+          for (let s = 1; s <= 20; s++) {
+            const rng = makeRng(instanceSeed({ typeId: id, theme: FACE_THEME[mode], difficulty: 2, seedEpoch: 1, variant: s }));
+            let b;
+            try { b = spec.build({ theme: FACE_THEME[mode], difficulty: 2, locale: 'en' }, { rng }); } catch (e) { ok(false, `sweep ${id} seed ${s}: ${e.message}`); continue; }
+            const E = b.meta.expected;
+            if (mode === 'proof') { const ns = E.map((e) => e.n); ok(new Set(ns).size === 8 && ns.filter((n) => n % 2).length === 4 && ns.filter((n) => n > 10).length >= 2 && ns.every((n) => n >= 3 && n <= 20) && !ns.every((v, i) => !i || v > ns[i - 1]), `sweep ${id} seed ${s}: ${ns}`); sets.add(ns.slice().sort((a, c) => a - c).join()); }
+            else if (mode === 'share' || mode === 'count') { const ns = E.map((e) => e.n), [lo, hi] = mode === 'share' ? [5, 12] : [11, 18]; ok(new Set(ns).size === 6 && ns.filter((n) => n % 2).length === 3 && ns.every((n) => n >= lo && n <= hi) && new Set(E.map((e) => e.noun)).size === 6 && (mode !== 'share' || E.every((e) => e.names[0] !== e.names[1])), `sweep ${id} seed ${s}: ${ns} / ${E.map((e) => e.noun)}`); sets.add(ns.slice().sort((a, c) => a - c).join() + '|' + E.map((e) => e.noun).sort().join()); }
+            else if (mode === 'ones') { const vs = E.map((e) => e.v); const ones = {}; vs.forEach((v) => { ones[v % 10] = (ones[v % 10] || 0) + 1; }); ok(new Set(vs).size === 12 && Object.keys(ones).length === 10 && Object.values(ones).every((c) => c <= 2) && vs.filter((v) => v % 2).length >= 4 && vs.filter((v) => !(v % 2)).length >= 4 && vs.filter((v) => v >= 50).length >= 4 && vs.every((v) => v >= 10 && v <= 99), `sweep ${id} seed ${s}: ${vs}`); sets.add(vs.slice().sort((a, c) => a - c).join()); }
+            else { const ks = {}; E.forEach((e) => { ks[e.k] = (ks[e.k] || 0) + 1; }); const all = E.flatMap((e) => [e.a, e.b]); ok(['ee', 'oo', 'eo', 'oe'].every((k) => ks[k] >= 3) && new Set(all).size === 24 && all.every((v) => v >= 100 && v <= 999), `sweep ${id} seed ${s}: cases ${JSON.stringify(ks)} distinct ${new Set(all).size}`); sets.add(all.join()); }
+          }
+          ok(sets.size >= 15, `sweep ${id}: ${sets.size} distinct sets over 20 seeds (>= 15)`);
+          console.log(`sweep ${id} ${mode}: 20 seeds, ${sets.size} distinct sets`);
+        }
+      }
+
+      // ---- face poisons: config (resolve* refuses), render (verify / lints / the node cross-check catch the mutation), sparse (each face's floating layout)
+      const facePoison = async (name, spec, re, { theme = null, strings, bank = en, locale = 'en', mode } = {}) => {
+        poisonsTotal++;
+        let r;
+        try { r = await renderFace(spec, { theme, locale, bank, baseName: `G1-351-gate-face-poison-${name.split(' ')[0]}`, strings }); }
+        catch (e) { if (re.test(e.message)) { killed++; asserts++; console.log(`  poison ${name}: killed (refused: ${e.message.slice(0, 90)})`); } else { fails++; asserts++; console.log(`  FAIL ${name}: threw for the wrong reason ${e.message}`); } return; }
+        const all2 = [...r.verify, ...r.lints, ...faceCross(r, bank, locale, mode)];
+        const hit = all2.filter((f) => re.test(f));
+        if (!all2.length) { fails++; asserts++; console.log(`  FAIL ${name}: SILENT`); }
+        else if (!hit.length) { fails++; asserts++; console.log(`  FAIL ${name}: WRONG REASON — ${all2.slice(0, 4).join(' | ')}`); }
+        else { killed++; asserts++; console.log(`  poison ${name}: killed (${hit[0]})`); }
+      };
+      const mut = (spec, fn) => ({ ...spec, __mutate: fn });
+      const F = (mode) => faces[mode].spec;
+      // config poisons (the resolvers refuse; each control resolves)
+      {
+        const cfgThrows = (fn, re, what) => { poisonsTotal++; let m = null; try { fn(); } catch (e) { m = e.message; } ok(m && re.test(m), `${what}: ${m || 'did NOT refuse'}`); if (m && re.test(m)) { killed++; console.log(`  poison ${what}: killed (${m.slice(0, 90)})`); } };
+        const D = (mode) => F(mode).difficulty[2];
+        cfgThrows(() => TYPE.resolveProof({ ...D('proof'), range: [1, 20] }), /range \[1,20\] outside 2\.\.20/, 'config proof range [1, 20] (a 1 has no pair)');
+        cfgThrows(() => TYPE.resolveProof({ ...D('proof'), cards: 7 }), /cards 7 must be even/, 'config proof cards 7');
+        cfgThrows(() => TYPE.resolveProof({ ...D('proof'), range: [3, 10], minTwoRow: 2 }), /only 0 numerals > 10/, 'config proof minTwoRow 2 in [3, 10]');
+        cfgThrows(() => TYPE.resolveProof({ ...D('proof'), cards: 16, split: [8, 8], dotPx: 24, dotGap: 12 }), /> 677/, 'config proof 16 cards of 24 px dots (stack > 677)');
+        cfgThrows(() => TYPE.resolvePics({ ...D('share'), range: [5, 13] }, 'share'), /range \[5,13\] outside 3\.\.12/, 'config share range [5, 13] (a third picture row)');
+        cfgThrows(() => TYPE.resolvePics({ ...D('share'), iconPx: 40 }, 'share'), /iconPx 40 < the G1 floor 44/, 'config share iconPx 40 (the pedagogy\'s 9..15 at 40)');
+        cfgThrows(() => TYPE.resolvePics({ ...D('count'), range: [11, 20] }, 'count'), /range \[11,20\] outside 8\.\.18/, 'config count range [11, 20]');
+        cfgThrows(() => TYPE.resolvePics({ ...D('count'), perRow: 10 }, 'count'), /> 639/, 'config count perRow 10 (the lane row 683 > 639)');
+        cfgThrows(() => TYPE.resolvePics({ ...D('count'), lanes: 5 }, 'count'), /lanes 5 outside the G1 window/, 'config count lanes 5');
+        cfgThrows(() => TYPE.resolveOnes({ ...D('ones'), range: [1, 99] }), /range \[1,99\] outside 10\.\.99/, 'config ones range [1, 99] (a one-digit number leaves the tens box empty)');
+        cfgThrows(() => TYPE.resolveOnes({ ...D('ones'), maxOnesRepeat: 1 }), /cannot cover every ones digit 0-9 at most 1/, 'config ones 12 items with every ones digit at most once (impossible)');
+        cfgThrows(() => TYPE.resolveOnes({ ...D('ones'), distinctOnes: true }), /distinctOnes with 12 items is impossible/, 'config ones distinctOnes:true with 12 items');
+        cfgThrows(() => TYPE.resolveOnes({ ...D('ones'), items: 16 }), /> 677/, 'config ones 16 lanes of 64 px boxes under a two-line rule (stack 772 > 677)');
+        cfgThrows(() => TYPE.resolveOnes({ ...D('ones'), range: [10, 49], minHigh: 4 }), /minHigh 4 needs numbers in 50/, 'config ones minHigh 4 with hi 49');
+        cfgThrows(() => TYPE.resolveSums({ ...D('sums'), terms: 3 }), /terms 3 is the unpublished d3 shape/, 'config sums terms 3');
+        cfgThrows(() => TYPE.resolveSums({ ...D('sums'), cases: { ee: 4, oo: 4, eo: 4, oe: 4 } }), /cases sum 16 > items 12/, 'config sums cases 16 > 12 items');
+        cfgThrows(() => TYPE.resolveSums({ ...D('sums'), range: [100, 109] }), /holds 5 odd \/ 5 even addends for 12 rows/, 'config sums range [100, 109] (too few distinct addends)');
+        cfgThrows(() => F('proof')._buildWith(en, { ...D('proof'), mode: 'halves' }, { theme: null, locale: 'en' }, { rng: makeRng('x') }), /unknown mode "halves"/, 'config an unknown mode');
+        for (const mode of MODES) ok((() => { try { const rng = makeRng('ctl'); F(mode).build({ theme: FACE_THEME[mode], difficulty: 2, locale: 'en' }, { rng }); return true; } catch (e) { console.log('   control threw: ' + e.message); return false; } })(), `control: the shipped ${mode} d2 config builds`);
+        // the picture faces refuse: no theme / a B&W theme / a short pool
+        cfgThrows(() => F('share').build({ theme: null, difficulty: 2, locale: 'en' }, { rng: makeRng('x') }), /need a theme/, 'config share without a theme');
+        cfgThrows(() => F('count').build({ theme: 'animals bw', difficulty: 2, locale: 'en' }, { rng: makeRng('x') }), /B&W theme/, 'config count on "animals bw"');
+        cfgThrows(() => F('share').build({ theme: 'colors', difficulty: 2, locale: 'en' }, { rng: makeRng('x') }), /countable nouns|not in cache manifest|only \d+ eligible/, 'config share on a theme with < 6 countable nouns');
+        { const b = clone(en); b.nameMaxGraphemes = 2; cfgThrows(() => F('share')._buildWith(b, D('share'), { theme: THEME, locale: 'en' }, { rng: makeRng('x') }), /fewer than 2 names/, 'config share with nameMaxGraphemes 2 (no names survive)'); }
+      }
+      // render poisons — the design's PR2 / PR4 / PR7 / PR8 / PR10 + the per-face answer-hiding / structure rules
+      await facePoison('PR2 ones: the correct stamp on the wrong tick', mut(F('ones'), (h) => h.replace(/(<span class="ws-chip" data-lcs-tick="(odd|even)")( data-lcs-correct="1")?([^>]*><\/span>)(<\/span><span[^>]*><span class="ws-chip" data-lcs-tick="(odd|even)")( data-lcs-correct="1")?/, (m, a, k1, c1, rest, b2, k2, c2) => a + (c1 ? '' : ' data-lcs-correct="1"') + rest + b2 + (c2 ? '' : ' data-lcs-correct="1"'))), /the correct tick is (odd|even)/, { mode: 'ones' });
+      await facePoison('PR2b sums: the correct stamp on the wrong tick', mut(F('sums'), (h) => h.replace(/(<span class="ws-chip" data-lcs-tick="(odd|even)")( data-lcs-correct="1")?([^>]*><\/span>)(<\/span><span[^>]*><span class="ws-chip" data-lcs-tick="(odd|even)")( data-lcs-correct="1")?/, (m, a, k1, c1, rest, b2, k2, c2) => a + (c1 ? '' : ' data-lcs-correct="1"') + rest + b2 + (c2 ? '' : ' data-lcs-correct="1"'))), /the correct tick is (odd|even)/, { mode: 'sums' });
+      await facePoison('PR4 sums: a sum printed in a row', mut(F('sums'), (h) => h.replace(/(<span data-lcs-sum data-lcs-a="(\d+)" data-lcs-b="(\d+)"[^>]*>)/, (m, open, a, b) => open + `<span>${+a + +b}</span>`)), /the sum \d+ is printed|the sum \d+ appears|prints "/, { mode: 'sums' });
+      await facePoison('PR7 count: the default lane padding under the 677 chrome (6 x 118 + 30 = 738)', mut(F('count'), (h) => h.replace(/padding:4px 16px/g, 'padding:12px 16px').replace('minmax(106px,1fr)', 'minmax(122px,1fr)')), /footer overlap|overflow|under the footer|lowest ink/, { theme: THEME, mode: 'count', strings: CHROME.four });
+      { const bw = fileUri('animals bw', 'bat'); await facePoison('PR8 share: a picture from "animals bw"', mut(F('share'), (h) => { const m = /<img class="ws-icon" src="([^"]+)"/.exec(h); return h.split(m[1]).join(bw); }), /B&W theme/, { theme: THEME, mode: 'share' }); }
+      { const fi = fiRuleFix(synthetic('fi', en)); await facePoison('PR10 count fi: pills at padding 0 20px (117 > 106)', mut(F('count'), (h) => h.replace(/padding:0 14px;white-space:nowrap/g, 'padding:0 20px;white-space:nowrap')), /> 106 wide/, { theme: THEME, mode: 'count', locale: 'fi', bank: fi }); }
+      // sparse poisons — each face's floating layout must FAIL as sparse
+      await facePoison('PS1 proof: the dots panel fixed (flex:0 0 auto) — blank under the equation at every chrome', mut(F('proof'), (h) => h.replace(/flex:1 1 auto;background/g, 'flex:0 0 auto;background')), /blank inside the card outside its content \(sparse\)/, { mode: 'proof', strings: { title: 'Odd and Even', instruction: 'Decide for every number.' } });
+      await facePoison('PS2 share: fixed 106 px lanes, the grid top-anchored (a band under the lanes)', mut(F('share'), (h) => h.replace('grid-template-rows:repeat(6,minmax(106px,1fr));row-gap:6px;align-content:stretch', 'grid-template-rows:repeat(6,106px);row-gap:6px;align-content:start')), /above the body bottom \(sparse/, { theme: THEME, mode: 'share', strings: { title: 'Odd and Even', instruction: 'Decide for every number.' } });
+      await facePoison('PS2b share: the lanes centred in a 1fr grid with 30 px gaps (the slack inside the stage)', mut(F('share'), (h) => h.replace('row-gap:6px', 'row-gap:30px')), /px band between lanes \(sparse\)|blank inside the lane/, { theme: THEME, mode: 'share', strings: { title: 'Odd and Even', instruction: 'Decide for every number.' } });
+      // the design's 48 px boxes + 44 px circles (stamps re-set to the same floors so ONLY the sparse rule can fire) floating in the grown lanes
+      await facePoison('PS3 ones: the design\'s 48 px boxes + 44 px circles floating in the grown lanes', mut(F('ones'), (h) => h.replace(/width:64px;height:64px;flex:0 0 64px/g, 'width:48px;height:48px;flex:0 0 48px').replace(/width:60px;height:60px;flex:0 0 60px/g, 'width:44px;height:44px;flex:0 0 44px').replace('data-lcs-box="64" data-lcs-circle="60"', 'data-lcs-box="48" data-lcs-circle="44"').replace(/minmax\(76px,1fr\)/, 'minmax(60px,1fr)').replace('data-lcs-lane-min="76"', 'data-lcs-lane-min="60"')), /blank inside the lane > 44 \(sparse\)/, { mode: 'ones', strings: { title: 'Odd and Even', instruction: 'Decide for every number.' } });
+      await facePoison('PS4 sums: the design\'s 44 px circles floating in the grown lanes', mut(F('sums'), (h) => h.replace(/width:60px;height:60px;flex:0 0 60px/g, 'width:44px;height:44px;flex:0 0 44px').replace('data-lcs-circle="60"', 'data-lcs-circle="44"').replace(/minmax\(72px,1fr\)/, 'minmax(56px,1fr)').replace('data-lcs-lane-min="72"', 'data-lcs-lane-min="56"')), /blank inside the lane > 44 \(sparse\)/, { mode: 'sums', strings: { title: 'Odd and Even', instruction: 'Decide for every number.' } });
+      await facePoison('PS5 count: fixed 106 px lanes top-anchored (a band under the lanes)', mut(F('count'), (h) => h.replace('grid-template-rows:repeat(6,minmax(106px,1fr));row-gap:6px;align-content:stretch', 'grid-template-rows:repeat(6,106px);row-gap:6px;align-content:start')), /above the body bottom \(sparse/, { theme: THEME, mode: 'count' });
+      // answer hiding + structure per face
+      await facePoison('PRk share: one picture too many in a pile', mut(F('share'), (h) => h.replace(/(<img class="ws-icon"[^>]*>)/, '$1$1')), /pictures for n|pictures, loaded/, { theme: THEME, mode: 'share' });
+      await facePoison('PRl proof: a hollow coral dot in a panel (a pre-drawn single)', mut(F('proof'), (h) => h.replace(/<circle cx="([\d.]+)" cy="([\d.]+)" r="(\d+)" fill="#[0-9A-Fa-f]+"/, '<circle cx="$1" cy="$2" r="$3" fill="none" stroke="#F2784B" stroke-width="2.5"')), /pre-paired \/ hollow dot/, { mode: 'proof' });
+      await facePoison('PRm proof: an = printed inside the dots panel', mut(F('proof'), (h) => h.replace('<svg', '<span>=</span><svg')), /= or \+ inside the dots panel|text inside the dots panel/, { mode: 'proof' });
+      await facePoison('PRn ones: the highlight on the tens box', mut(F('ones'), (h) => h.replace(/<span data-lcs-digit="tens" style="([^"]*)background:#FFFFFF;border:2px solid #[0-9A-Fa-f]+;/, '<span data-lcs-highlight data-lcs-digit="tens" style="$1background:#FBE3D8;border:2.5px solid #F2784B;')), /highlight is not on the ones box|tens box background/, { mode: 'ones' });
+      await facePoison('PRo ones: a wrong ones digit printed (the box lies)', mut(F('ones'), (h) => h.replace(/(data-lcs-digit="ones"[^>]*>)(\d)(<\/span>)/, (m, a, d, z) => a + ((+d + 1) % 10) + z)), /the ones box prints|digits/, { mode: 'ones' });
+      await facePoison('PRp count: the pairs box pre-filled', mut(F('count'), (h) => h.replace(/(<span class="ws-blankbox"[^>]*data-lcs-role="pairs"[^>]*>)(<\/span>)/, '$18$2')), /pre-filled|a numeral printed on the lane|text/, { theme: THEME, mode: 'count' });
+      await facePoison('PRq share: the same name on both plates', mut(F('share'), (h) => { const m = /data-lcs-plate data-lcs-name="([^"]+)"[\s\S]*?data-lcs-plate data-lcs-name="([^"]+)"/.exec(h); return h.replace(`data-lcs-plate data-lcs-name="${m[2]}"`, `data-lcs-plate data-lcs-name="${m[1]}"`); }), /plate names|plates .* != meta|prints/, { theme: THEME, mode: 'share' });
+      await facePoison('PRr ones: the rule strip removed', mut(F('ones'), (h) => h.replace(/<div class="ws-lane" data-lcs-rule[\s\S]*?<\/div>/, '')), /rule strip is missing/, { mode: 'ones' });
+      await facePoison('PRt sums: the table rows re-ordered (eo first)', mut(F('sums'), (h) => { const rows = h.match(/<div data-lcs-trow="[a-z]+"[^>]*>[^<]*<\/div>/g); return h.replace(rows.join(''), [rows[2], rows[0], rows[1]].join('')); }), /table rows/, { mode: 'sums' });
+      await facePoison('PRt2 sums: a false table row (odd + odd = odd)', mut(F('sums'), (h) => h.replace(/(<div data-lcs-trow="oo"[^>]*>)([^<]*)(<\/div>)/, (m, a, t, z) => a + t.replace(/= (\S+)$/, (mm, w) => '= ' + (w === en.chips.even ? en.chips.odd : en.chips.even)) + z)), /table row oo reads|the table reads/, { mode: 'sums' });
+      await facePoison('PRv proof: one dot fewer than n', mut(F('proof'), (h) => h.replace(/<circle [^>]*\/>(?=<\/svg>)/, '')), /dots for/, { mode: 'proof' });
+      await facePoison('PRw proof: the numeral printed for a different n', mut(F('proof'), (h) => h.replace(/(<span data-lcs-num="(\d+)"[^>]*>)\2(<)/, (m, a, n, z) => a + (+n + 2) + z)), /numeral is not printed|renders \d+, meta/, { mode: 'proof' });
+      await facePoison('PRx count: a numeral beside the pile (a countBadge)', mut(F('count'), (h) => h.replace('<div data-lcs-pile', '<span style="font-size:20px">17</span><div data-lcs-pile')), /a numeral printed on the lane/, { theme: THEME, mode: 'count' });
+      await facePoison('PRy share: the pills swapped (odd word on the even key)', mut(F('share'), (h) => h.replace(/(data-lcs-pill="odd"[^>]*>)odd(<)/, `$1${en.chips.even}$2`)), /pill odd prints|pill words/, { theme: THEME, mode: 'share' });
+      await facePoison('PRz ones: a 0 printed outside the boxes', mut(F('ones'), (h) => h.replace('<div data-lcs-cols', '<span>0</span><div data-lcs-cols')), /a 0 on the page|a numeral outside the boxes/, { mode: 'ones' });
+      await facePoison('PRaa share: the leftover caption dropped', mut(F('share'), (h) => h.replace(/<span data-lcs-caption[^>]*>[^<]*<\/span>/, '')), /no leftover caption|caption/, { theme: THEME, mode: 'share' });
+      await facePoison('PRab proof: the leftover caption carrying a digit', mut(F('proof'), (h) => h.replace(/(<span data-lcs-caption[^>]*>)([^<]*)(<\/span>)/, '$1$2 1$3')), /caption is missing \/ carries a digit|caption "/, { mode: 'proof' });
+      await facePoison('PRac ones: a ten-frame injected', mut(F('ones'), (h) => h.replace('<div data-lcs-cols', '<svg data-lcs-prim="ten-frame" width="10" height="10"></svg><div data-lcs-cols')), /ten-frame/, { mode: 'ones' });
+      await facePoison('PRad share: a parity stamp on a numeral-bearing element', mut(F('share'), (h) => h.replace(/(<span class="ws-blankbox"[^>]*data-lcs-role="each"[^>]*)>/, '$1 data-lcs-parity="odd">')), /parity stamp|stamped answer|data-lcs-answer/, { theme: THEME, mode: 'share' });
+      await facePoison('PRae sums: an = on a sum lane', mut(F('sums'), (h) => h.replace(/(<span data-lcs-plus[^>]*>)\+(<)/, '$1=$2')), /an = on a sum lane|prints "/, { mode: 'sums' });
+    }
+
     // ---- 4. poisons — bank (validator)
     const poison = (name, block, loc, re) => {
+      poisonsTotal++;
       const errs = validateBank(block, loc, { skipProbe: true }).filter((e) => !notRegistered.test(e));
       const hit = errs.filter((e) => re.test(e));
       if (!errs.length) { fails++; asserts++; console.log(`  FAIL ${name}: SILENT (the validator passed the poison)`); }
       else if (!hit.length) { fails++; asserts++; console.log(`  FAIL ${name}: WRONG REASON — ${errs.join(' | ')}`); }
-      else { asserts++; console.log(`  poison ${name}: killed (${hit[0]})`); }
+      else { asserts++; killed++; console.log(`  poison ${name}: killed (${hit[0]})`); }
     };
     let b;
     b = synthetic('de', en); b.chips.even = 'Gerade'; poison('P1 de chips.even Gerade', b, 'de', /rule 2: de chips\.even "Gerade"/);
@@ -728,6 +1081,7 @@ async function main() {
 
     // ---- render poisons (the validator bypassed)
     const renderPoison = async (name, type, re, { difficulty = 2, strings } = {}) => {
+      poisonsTotal++;
       let r;
       try { r = await renderWith(page, type, { difficulty, baseName: `G1-351-gate-poison-${name.split(' ')[0]}`, strings }); }
       catch (e) { fails++; asserts++; console.log(`  FAIL ${name}: threw ${e.message}`); return; }
@@ -735,7 +1089,7 @@ async function main() {
       const hit = all2.filter((f) => re.test(f));
       if (!all2.length) { fails++; asserts++; console.log(`  FAIL ${name}: SILENT`); }
       else if (!hit.length) { fails++; asserts++; console.log(`  FAIL ${name}: WRONG REASON — ${all2.join(' | ')}`); }
-      else { asserts++; console.log(`  poison ${name}: killed (${hit[0]})`); }
+      else { asserts++; killed++; console.log(`  poison ${name}: killed (${hit[0]})`); }
     };
     await renderPoison('PR1 a pre-filled blankbox', mutated(TYPE, (h) => h.replace(/(<span class="ws-blankbox"[^>]*>)(<\/span>)/, '$17$2')), /pre-filled|a box with answer|text "7"/);
     await renderPoison('PR3 a ten-frame injected', mutated(TYPE, (h) => h.replace('<div data-lcs-houses', '<svg data-lcs-prim="ten-frame" width="10" height="10"></svg><div data-lcs-houses')), /ten-frame/);
@@ -773,7 +1127,7 @@ async function main() {
         .replace(/height="396"/g, 'height="304"').replace(/top:152px/g, 'top:140px').replace(/top:220px/g, 'top:196px').replace(/top:314px/g, 'top:270px')
         .replace(/repeat\(4,64px\);gap:24px 8px/g, 'repeat(4,62px);gap:14px 12px').replace(/width:64px;height:74px;flex:0 0 64px/g, 'width:62px;height:60px;flex:0 0 62px'));
       let m = null; try { TYPE.resolveBase({ ...TYPE.difficulty[2], house: TYPE.difficulty[3].house, gap: 20 }, GLOBAL); } catch (e) { m = e.message; }
-      ok(m && /sparse/.test(m), `PRs the design's 538 config is refused by resolveBase: ${m || 'NOT refused'}`);
+      poisonsTotal++; ok(m && /sparse/.test(m), `PRs the design's 538 config is refused by resolveBase: ${m || 'NOT refused'}`); if (m && /sparse/.test(m)) killed++;
       await renderPoison('PRs the design\'s 538 / centred build (blank band under the strip)', legacyDom, /sparse/);
     }
     await renderPoison('PRt the grid de-anchored (align-content:center)', mutated(TYPE, (h) => h.replace('align-content:start', 'align-content:center')), /not top-anchored/);
@@ -783,8 +1137,10 @@ async function main() {
   } finally {
     await browser.close();
   }
-  console.log(`\nverify-b4-odd-and-even: ${asserts} assertions, ${fails} failures in ${((Date.now() - t0) / 1000).toFixed(0)}s → ${fails ? 'FAIL' : 'PASS'}`);
-  process.exit(fails ? 1 : 0);
+  const pass = !fails && killed === poisonsTotal && poisonsTotal > 0;
+  console.log(`\nverify-b4-odd-and-even: ${asserts} assertions, ${fails} failures, ${killed}/${poisonsTotal} poisons killed in ${((Date.now() - t0) / 1000).toFixed(0)}s`);
+  console.log(pass ? `PASS (${asserts} assertions, ${killed}/${poisonsTotal} poisons killed${QUICK ? ', --quick: sweeps skipped' : ''})` : `FAIL (${fails} findings, ${killed}/${poisonsTotal} poisons killed)`);
+  process.exit(pass ? 0 : 1);
 }
 
 if (require.main === module) main().catch((e) => { console.error(e); process.exit(1); });

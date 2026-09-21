@@ -18,8 +18,15 @@
 const fs = require('fs');
 const path = require('path');
 
-const README = path.resolve(__dirname, '..', '..', '..', 'docs', 'worksheet-gen', 'b3-designs', 'README.md');
-const OUT = path.resolve(__dirname, '..', '..', '..', 'docs', 'worksheet-gen', 'b3-designs', 'hub-expectations.json');
+// --batch=b3 (default) | b4 : which design directory's README matrix to export (nt10-D added 2026-09-21;
+// the verifier still reads the b3 JSON until the b4 batch is built and its keys are wired in).
+const BATCH_ARG = process.argv.find((a) => a.startsWith('--batch='));
+const BATCH = BATCH_ARG ? BATCH_ARG.slice('--batch='.length) : 'b3';
+if (!/^b[34]$/.test(BATCH)) { console.error('export-hub-expectations: --batch must be b3 or b4'); process.exit(1); }
+const DIR = BATCH + '-designs';
+const MIN_KEYS = BATCH === 'b4' ? 10 : 20;
+const README = path.resolve(__dirname, '..', '..', '..', 'docs', 'worksheet-gen', DIR, 'README.md');
+const OUT = path.resolve(__dirname, '..', '..', '..', 'docs', 'worksheet-gen', DIR, 'hub-expectations.json');
 const LOCALES = ['en', 'de', 'es', 'pt', 'fr', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
 // live nt20-B / nt20-B-VAR keys with measured, locale-uniform row counts — the gate's control set
 const CONTROLS = { articles: 4, 'word-tracing': 7, 'letter-tracing': 6 };
@@ -49,8 +56,8 @@ function parse() {
     notes[key] = cells[cells.length - 1] || '';
   }
   const n = Object.keys(keys).length;
-  if (n < 20) throw new Error('export-hub-expectations: parsed only ' + n + ' keys (expected 20)');
-  return { source: 'docs/worksheet-gen/b3-designs/README.md (hub-gate expectation matrix)', locales: LOCALES, keys, ceiling, notes, controls: CONTROLS };
+  if (n < MIN_KEYS) throw new Error('export-hub-expectations: parsed only ' + n + ' keys (expected ' + MIN_KEYS + ')');
+  return { source: 'docs/worksheet-gen/' + DIR + '/README.md (hub-gate expectation matrix)', locales: LOCALES, keys, ceiling, notes, controls: CONTROLS };
 }
 
 const parsed = parse();

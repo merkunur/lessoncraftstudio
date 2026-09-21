@@ -1,6 +1,6 @@
 # nt10-D — the LAST batch of 10 printable worksheet types × (1 base + 5 variations) × 11 locales = 660 worksheets
 
-**Status: DESIGN IN PROGRESS 2026-09-21 (selection LOCKED; design files landing).** Trigger for the build session: **"build the last batch of 10 worksheet types and their expansion"** → read this README, then `_PANEL-FINDINGS.md` (the lock + per-locale heads), then the 10 design files, then run the recipe below. Do not re-research type selection or demand (four expert panels + a seeded 11-locale autocomplete harvest + a Nordic re-probe + a water-cycle probe did it; `_PANEL-FINDINGS.md` is the record). Do not re-design (each `<ID>-<key>.md` is the contract; a native panel may refine a locale's teaching point per the rules in `_STUDIO-BRIEF.md`).
+**Status: DESIGN COMPLETE 2026-09-21 (10 of 10 final design files + `_work` provenance; hub matrix 656 of 660; NOTHING BUILT).** Trigger for the build session: **"build the last batch of 10 worksheet types and their expansion"** → read this README, then `_PANEL-FINDINGS.md` (the lock + per-locale heads), then the 10 design files, then run the recipe below. Do not re-research type selection or demand (four expert panels + a seeded 11-locale autocomplete harvest + a Nordic re-probe + a water-cycle probe did it; `_PANEL-FINDINGS.md` is the record). Do not re-design (each `<ID>-<key>.md` is the contract; a native panel may refine a locale's teaching point per the rules in `_STUDIO-BRIEF.md`).
 
 ## Files in this directory
 - `_STUDIO-BRIEF.md` — the house rules, the 10-rule variation doctrine, band tables, native-rebuild rules, hub contract (every agent read it).
@@ -11,7 +11,7 @@
 - `<ID>-<key>.md` × 10 — the design files (7 sections each: identity · base page · faces 2-6 · native rebuild ×11 · data + gates · SEO · hub contract).
 - `_work/` — `_selection-{pedagogy,seo-germanic,seo-romance,seo-nordic}.md` (the four panel reports) + per type `<ID>-{pedagogy,design,critic}.md`; keep for provenance, never brief a panel from them.
 - `_records/` — `candidate-seeds.json` (+ `-nordic-v2`, `-watercycle`), `harvest-candidates.<loc>.json` ×11 (+ `v2/` sv da no fi, `watercycle/` ×11), `harvest-candidates-summary.md`, the harvest logs; the build session adds `b4var-id-allocation.json`, `refusals.<loc>.json`, `*-expected-drift.txt`.
-- `hub-expectations.json` — exported from the matrix below by `tools/export-hub-expectations.js` (the build session points it at this README; never hand-edit).
+- `hub-expectations.json` — exported from the matrix below by `node scripts/worksheet-gen/tools/export-hub-expectations.js --batch=b4` (`--check` diffs README vs JSON; never hand-edit). The build session wires `scripts/verify-hub-type-rows.js` to read the b4 JSON in addition to b3 (it reads only b3 today) with `--warn-missing-keys` until the batch lands.
 
 Tooling written in the design session (committed): `scripts/seo-research/harvest-candidates.js` (seeded autocomplete harvest for NOVEL genre heads; the inventory-led `harvest-suggest.js` cannot see them) + `summarize-candidate-harvest.js`.
 
@@ -90,5 +90,5 @@ Rows = faces with a landing per (key × locale) at design time; "contingent" = l
 | odd-and-even | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | CONFIRMED (final 2026-09-21): no refusal; F5 = count pictures in pairs (11-18) on lanes, PARAM-999 recorded as a spare; the OA strand row renders pt/sv/nl wrongly → per-locale strand literal from the design table |
 | pronouns | 6 | 6 | 5 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 5 | 64 | CONFIRMED (final 2026-09-21): possessives refused es (`su` invariant) + fi (`hänen`/suffix); fr/es/pt base + pt F3 need `singles:4, pairs:4`; fi bank 16 names; validator caps fi base/F1 titles at 3 lines |
 | question-words | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | CONFIRMED (final 2026-09-21): per-item refusals only (de "auf dem Spielplatz" / fi "leikkikentällä" on F3); es/it C-tier traffic expected; portraits + names from the pronouns bank (build G1-352 first) |
-| rounding | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | (to be confirmed) |
-| **design total** | | | | | | | | | | | | **658 (ceiling 660)** | provisional until every final file's §7 is folded in |
+| rounding | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | CONFIRMED (final 2026-09-21): no refusal; rule box = the flat digit strip (in-font arrows), no hill primitive; F4 single-target field; de base 3-klasse; F5 header cells 160 |
+| **design total** | | | | | | | | | | | | **656 (ceiling 660; floor 651 if recycling's 5 contingent F4s are withheld)** | every gap is a recorded refusal (recycling en F4; cloze da F3; pronouns es + fi F3), never a filler; all ten §7 folded 2026-09-21 |

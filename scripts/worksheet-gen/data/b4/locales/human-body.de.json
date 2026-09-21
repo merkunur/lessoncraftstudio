@@ -1,0 +1,123 @@
+{
+  "partWords": {
+    "head": "Kopf",
+    "hair": "Haare",
+    "eye": "Auge",
+    "ear": "Ohr",
+    "nose": "Nase",
+    "mouth": "Mund",
+    "neck": "Hals",
+    "shoulder": "Schulter",
+    "arm": "Arm",
+    "elbow": "Ellbogen",
+    "hand": "Hand",
+    "finger": "Finger",
+    "leg": "Bein",
+    "knee": "Knie",
+    "foot": "Fuß",
+    "toe": "Zeh"
+  },
+  "overrides": {},
+  "bankWords": {
+    "head": "Kopf",
+    "hair": "Haare",
+    "eye": "Auge",
+    "ear": "Ohr",
+    "nose": "Nase",
+    "mouth": "Mund",
+    "neck": "Hals",
+    "shoulder": "Schulter",
+    "arm": "Arm",
+    "elbow": "Ellbogen",
+    "hand": "Hand",
+    "finger": "Finger",
+    "leg": "Bein",
+    "knee": "Knie",
+    "foot": "Fuß",
+    "toe": "Zeh"
+  },
+  "plural": {
+    "head": "Köpfe",
+    "hair": "Haare",
+    "eye": "Augen",
+    "ear": "Ohren",
+    "nose": "Nasen",
+    "mouth": "Münder",
+    "neck": "Hälse",
+    "shoulder": "Schultern",
+    "arm": "Arme",
+    "elbow": "Ellbogen",
+    "hand": "Hände",
+    "finger": "Finger",
+    "leg": "Beine",
+    "knee": "Knie",
+    "foot": "Füße",
+    "toe": "Zehen"
+  },
+  "factLabels": {
+    "head": "Wie viele Köpfe?",
+    "hair": "Wie viele Haare?",
+    "eye": "Wie viele Augen?",
+    "ear": "Wie viele Ohren?",
+    "nose": "Wie viele Nasen?",
+    "mouth": "Wie viele Münder?",
+    "neck": "Wie viele Hälse?",
+    "shoulder": "Wie viele Schultern?",
+    "arm": "Wie viele Arme?",
+    "elbow": "Wie viele Ellbogen?",
+    "hand": "Wie viele Hände?",
+    "finger": "Wie viele Finger?",
+    "leg": "Wie viele Beine?",
+    "knee": "Wie viele Knie?",
+    "foot": "Wie viele Füße?",
+    "toe": "Wie viele Zehen?",
+    "fingersOneHand": "Wie viele Finger an einer Hand?",
+    "toesOneFoot": "Wie viele Zehen an einem Fuß?"
+  },
+  "use": {
+    "head": "Mit dem Kopf denkst du.",
+    "hair": "Die Haare halten den Kopf warm.",
+    "eye": "Mit den Augen siehst du.",
+    "ear": "Mit den Ohren hörst du.",
+    "nose": "Mit der Nase riechst du.",
+    "mouth": "Mit dem Mund isst und sprichst du.",
+    "neck": "Der Hals dreht den Kopf.",
+    "shoulder": "Die Schultern tragen den Schulranzen.",
+    "arm": "Mit den Armen umarmst du.",
+    "elbow": "Die Ellbogen beugen die Arme.",
+    "hand": "Mit den Händen hältst du Dinge fest.",
+    "finger": "Mit einem Finger zeigst du.",
+    "leg": "Mit den Beinen rennst du.",
+    "knee": "Die Knie beugen sich beim Springen.",
+    "foot": "Auf den Füßen stehst du.",
+    "toe": "Die Zehen helfen dir beim Balancieren."
+  },
+  "refuseWords": {},
+  "refuse": [],
+  "strings": {
+    "K-354": {
+      "title": "Der Körper",
+      "instruction": "Schreibe jedes Wort aus dem Kasten auf die Linie, die auf diesen Körperteil zeigt."
+    },
+    "K-360": {
+      "title": "Der Körper: Wie viele?",
+      "instruction": "Wie viele davon hast du? Zähle an deinem eigenen Körper und schreibe die Zahl in das Kästchen."
+    },
+    "K-361": {
+      "title": "Der Körper: nach Legende ausmalen",
+      "instruction": "Lies die Legende und male jeden Körperteil in der Farbe an, die neben seinem Namen steht."
+    },
+    "G1-356": {
+      "title": "Der Körper: Wörter schreiben",
+      "instruction": "Suche jeden nummerierten Körperteil an der Figur und schreibe seinen Namen, ein Buchstabe in jedes Kästchen."
+    },
+    "K-362": {
+      "title": "Der Körper: Was fehlt?",
+      "instruction": "Jedem Körper fehlt ein Teil. Kreise das Bild des fehlenden Teils ein und zeichne es dann an."
+    },
+    "K-363": {
+      "title": "Der Körper: Was gibt es zweimal?",
+      "instruction": "Kreise jeden Körperteil ein, den du zweimal hast."
+    }
+  }
+}

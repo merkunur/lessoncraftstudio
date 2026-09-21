@@ -165,6 +165,14 @@ for (const [f, rel] of Object.entries(FACE_FILES)) { const abs = path.join(__dir
 const QUICK = process.argv.includes('--quick');
 const OUT = path.join(__dirname, '..', 'out', 'dev');
 const TAXONOMY = path.join(__dirname, '..', '..', '..', 'frontend', 'config', 'topics-taxonomy.json');
+
+// nt10-D panel chain: validate-b4-draft.js runs this gate BEFORE apply-b4-locale.js registers the
+// locale slug, so it hands the draft's family slugs over as B4_DRAFT_SLUGS (JSON key → slug); a
+// missing taxonomy entry is then judged against the draft, never against nothing (measured by the
+// de panel: five gates failed every correct non-EN draft with the same message).
+function draftSlug(key) {
+  try { const m = JSON.parse(process.env.B4_DRAFT_SLUGS || '{}'); return typeof m[key] === 'string' && m[key] ? m[key] : null; } catch (e) { return null; }
+}
 const BW_MARKER = /(^|[\s_])(BW|SW|BN|NB|ZW|SH|PB|MV|SV)$/i;
 const FLOOR = 44;                                   // the G1 element floor
 const WORKSHEET_WORD = /worksheet|arbeitsblatt|ficha|fiche|scheda|werkblad|arbetsblad|arbejdsark|arbeidsark|tehtävä|tehtäväpaperi/i;
@@ -498,7 +506,7 @@ function validateBank(block, loc, opts = {}) {
   // rule 14 — the taxonomy slug
   if (tax) {
     const ax = tax.axes['exercise-type']['question-words'];
-    const slug = ax && ax.slug && ax.slug[loc];
+    const slug = (ax && ax.slug && ax.slug[loc]) || draftSlug('question-words');
     if (!slug) push(`rule 14: axes['exercise-type']['question-words'].slug.${loc} not registered`);
     else {
       if (slug !== TABLE_B[loc]) push(`rule 14: ${loc} slug "${slug}" != table B "${TABLE_B[loc]}"`);

@@ -134,6 +134,14 @@ const TYPE = require('../types/g1/G1-352-pronouns.js');
 const QUICK = process.argv.includes('--quick');
 const OUT = path.join(__dirname, '..', 'out', 'dev');
 const TAXONOMY = path.join(__dirname, '..', '..', '..', 'frontend', 'config', 'topics-taxonomy.json');
+
+// nt10-D panel chain: validate-b4-draft.js runs this gate BEFORE apply-b4-locale.js registers the
+// locale slug, so it hands the draft's family slugs over as B4_DRAFT_SLUGS (JSON key → slug); a
+// missing taxonomy entry is then judged against the draft, never against nothing (measured by the
+// de panel: five gates failed every correct non-EN draft with the same message).
+function draftSlug(key) {
+  try { const m = JSON.parse(process.env.B4_DRAFT_SLUGS || '{}'); return typeof m[key] === 'string' && m[key] ? m[key] : null; } catch (e) { return null; }
+}
 const BW_MARKER = /(^|[\s_])(BW|SW|BN|NB|ZW|SH|PB|MV|SV)$/i;
 const FLOOR = 44;                                   // the G1 element floor
 const WORKSHEET_WORD = /worksheet|arbeitsblatt|ficha|fiche|scheda|werkblad|arbetsblad|arbejdsark|arbeidsark|tehtävä|tehtäväpaperi/i;
@@ -415,7 +423,7 @@ function validateBank(block, loc, opts = {}) {
   // rule 11 — the taxonomy slug
   try {
     const tax = JSON.parse(fs.readFileSync(TAXONOMY, 'utf8'));
-    const mine = tax.axes['exercise-type'].pronouns && tax.axes['exercise-type'].pronouns.slug && tax.axes['exercise-type'].pronouns.slug[loc];
+    const mine = (tax.axes['exercise-type'].pronouns && tax.axes['exercise-type'].pronouns.slug && tax.axes['exercise-type'].pronouns.slug[loc]) || draftSlug('pronouns');
     if (!mine) push(`rule 11: axes['exercise-type'].pronouns.slug.${loc} is not registered`);
     else {
       if (mine !== TABLE_B[loc]) push(`rule 11: slug.${loc} "${mine}" != table B "${TABLE_B[loc]}"`);

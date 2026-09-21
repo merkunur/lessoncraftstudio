@@ -1,0 +1,28 @@
+{
+  "strings": {
+    "K-353": {
+      "title": "Tangram-Figuren: 7 Teile ausschneiden und zwei Figuren legen",
+      "instruction": "Male die Teile wie in der Legende an, schneide sie an den Linien aus und lege sie genau auf die zwei Figuren unten."
+    },
+    "compose": {
+      "title": "Einfache Tangram-Figuren aus 2 und 3 Teilen: Linien zeichnen",
+      "instruction": "Schau dir die Teile über jeder Form an. Zeichne die Linien in die Form, wo diese Teile aneinanderstoßen."
+    },
+    "silhouette": {
+      "title": "Tangram-Figuren: vier Schattenbilder legen",
+      "instruction": "Lege jedes dunkle Schattenbild mit den sieben Teilen deines Tangrams nach. Benutze jedes Mal alle sieben Teile."
+    },
+    "missing": {
+      "title": "Tangram-Figuren: Welches Teil fehlt?",
+      "instruction": "In jeder Figur fehlt ein Teil. Kreise das Teil ein, das genau in die Lücke passt."
+    },
+    "match": {
+      "title": "Tangram-Figuren: Welche Lösung passt zum Schattenbild?",
+      "instruction": "Kreise die Lösung ein, die genau so liegt wie das Schattenbild. Gedrehte oder gespiegelte Figuren passen nicht."
+    },
+    "count": {
+      "title": "Tangram: Dreiecke und Quadrate zählen",
+      "instruction": "Zähle die Dreiecke in jedem Bild und schreibe die Zahl ins erste Kästchen. Zähle dann die Quadrate fürs zweite."
+    }
+  }
+}

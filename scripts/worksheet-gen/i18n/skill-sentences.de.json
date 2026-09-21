@@ -338,5 +338,45 @@
   "division-with-remainder": {
     "full": "Teilen mit Rest: Gruppen einkreisen, verteilen, Divisionsaufgaben mit Rest lösen, prüfen, ob eine Aufgabe aufgeht, und Fehler finden.",
     "short": "Divisionsaufgaben mit Rest lösen"
+  },
+  "tangram": {
+    "full": "Tangram-Vorlagen zum Ausdrucken: die sieben Teile ausschneiden, Figuren und Schattenbilder legen, das fehlende Teil finden und Dreiecke zählen.",
+    "short": "Tangram-Figuren legen, ausschneiden und zählen"
+  },
+  "human-body": {
+    "full": "Der Körper und seine Teile für Vorschule und 1. Klasse: Körperteile beschriften, zählen, nach Legende ausmalen und die fehlenden Teile finden.",
+    "short": "Körperteile beschriften, zählen und ausmalen"
+  },
+  "five-senses": {
+    "full": "Die fünf Sinne für Vorschule und 1. Klasse: Bilder dem passenden Sinn zuordnen, sortieren, Sinnesorgane beschriften und eigene Sätze schreiben.",
+    "short": "Die fünf Sinne und ihre Sinnesorgane zuordnen"
+  },
+  "weather-symbols": {
+    "full": "Wettersymbole für Vorschule bis 3. Klasse: Symbole und Wetterwörter verbinden, das Wetter der Woche beobachten, Thermometer lesen und den Wasserkreislauf beschriften.",
+    "short": "Wettersymbole lesen und Wetterwörter schreiben"
+  },
+  "recycling": {
+    "full": "Mülltrennung für Vorschule bis 2. Klasse: Papier, Glas, Verpackung, Bio und Restmüll richtig in die Tonnen sortieren, Materialien erkennen und Tonnen ausmalen.",
+    "short": "Müll richtig trennen und Materialien erkennen"
+  },
+  "cloze": {
+    "full": "Lückentexte mit Bildern für die 1. und 2. Klasse: das passende Nomen finden, in Buchstabenkästchen schreiben, die Mehrzahl bilden und kleine Geschichten ergänzen.",
+    "short": "Lückentexte mit Bildern ergänzen"
+  },
+  "odd-and-even": {
+    "full": "Gerade und ungerade Zahlen bis 20 und bis 100: Zahlen in zwei Häuser sortieren, Punkte paarweise einkreisen, gerecht teilen und die Regel mit der Einerstelle anwenden.",
+    "short": "Gerade und ungerade Zahlen erkennen"
+  },
+  "pronouns": {
+    "full": "Personalpronomen er, sie und es für die 2. Klasse: das Pronomen zum Namen wählen, Namen ersetzen, Bezüge im Satz finden und Sätze mit Pronomen umschreiben.",
+    "short": "Personalpronomen er, sie, es einsetzen"
+  },
+  "question-words": {
+    "full": "W-Fragen mit wer, was, wo, wann und wie viele: das Fragewort zur markierten Antwort wählen, einsetzen, Antworten sortieren und eigene Fragesätze schreiben.",
+    "short": "W-Fragen und Fragewörter üben"
+  },
+  "rounding": {
+    "full": "Zahlen runden auf Zehner und Hunderter für die 3. Klasse: die Regel mit der 5 anwenden, aufrunden oder abrunden sortieren, überschlagen und gerundete Zahlen finden.",
+    "short": "Zahlen auf Zehner und Hunderter runden"
   }
 }

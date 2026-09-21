@@ -1,0 +1,491 @@
+{
+  "_doc": "K-357 recycling: the GLOBAL item bank (design K-357-recycling.md section 5; every picture OPENED 2026-09-21 by the pedagogy, re-opened by the editor where disputed, and opened again at the base build on a 200 px contact sheet). The MATERIAL of a finished PRODUCT is fixed here once, locale-neutral; the bin is locale data (data/b4/recycling.js + data/b4/locales/). fileUri(theme, noun) reads THIS picture, never pictureFor. Ambiguous material = excluded, never signed.",
+  "materials": [
+    "paper",
+    "cardboard",
+    "glass",
+    "plastic",
+    "metal",
+    "organic"
+  ],
+  "items": [
+    {
+      "id": "paper",
+      "theme": "classroom",
+      "noun": "paper",
+      "vocabKey": "paper",
+      "material": "paper",
+      "packaging": false,
+      "family": "paper",
+      "picOpened": true,
+      "note": "a lined sheet with a clip; pale in mono (never with letter on one page, never next to package)"
+    },
+    {
+      "id": "notebook",
+      "theme": "classroom",
+      "noun": "notebook",
+      "vocabKey": "notebook",
+      "material": "paper",
+      "packaging": false,
+      "family": "notebook",
+      "picOpened": true,
+      "note": "a lined notebook with coloured tabs"
+    },
+    {
+      "id": "envelope",
+      "theme": "post office",
+      "noun": "envelope",
+      "vocabKey": "envelope",
+      "material": "paper",
+      "packaging": true,
+      "family": "env",
+      "picOpened": true,
+      "note": "a closed red envelope"
+    },
+    {
+      "id": "letter",
+      "theme": "post office",
+      "noun": "letter",
+      "vocabKey": "letter",
+      "material": "paper",
+      "packaging": true,
+      "family": "env",
+      "picOpened": true,
+      "note": "an open envelope with the letter showing; pale in mono"
+    },
+    {
+      "id": "package",
+      "theme": "post office",
+      "noun": "package",
+      "vocabKey": "package",
+      "material": "cardboard",
+      "packaging": true,
+      "family": "package",
+      "picOpened": true,
+      "note": "a taped cardboard box"
+    },
+    {
+      "id": "cereal",
+      "theme": "At the Supermarket",
+      "noun": "cereal",
+      "vocabKey": "cereal",
+      "material": "cardboard",
+      "packaging": true,
+      "family": "cereal",
+      "picOpened": true,
+      "note": "a cereal box with a face"
+    },
+    {
+      "id": "jar",
+      "theme": "kitchen tools",
+      "noun": "jar",
+      "vocabKey": "jar",
+      "material": "glass",
+      "packaging": true,
+      "family": "jar",
+      "picOpened": true,
+      "note": "a blue glass jar with a blue lid"
+    },
+    {
+      "id": "jam",
+      "theme": "At the Supermarket",
+      "noun": "jam",
+      "vocabKey": "jam",
+      "material": "glass",
+      "packaging": true,
+      "family": "jam",
+      "picOpened": true,
+      "note": "a jam jar with a cloth cover"
+    },
+    {
+      "id": "honey",
+      "theme": "breakfast",
+      "noun": "honey",
+      "vocabKey": "honey",
+      "material": "glass",
+      "packaging": true,
+      "family": "honey",
+      "picOpened": true,
+      "note": "a honey jar with a wooden lid"
+    },
+    {
+      "id": "milk",
+      "theme": "At the Supermarket",
+      "noun": "milk",
+      "vocabKey": "milk",
+      "material": "glass",
+      "packaging": true,
+      "family": "milk",
+      "picOpened": true,
+      "note": "a glass milk bottle with a red cap"
+    },
+    {
+      "id": "oil",
+      "theme": "At the Supermarket",
+      "noun": "oil",
+      "vocabKey": "oil",
+      "material": "glass",
+      "packaging": true,
+      "family": "oil",
+      "picOpened": true,
+      "note": "a corked glass oil bottle"
+    },
+    {
+      "id": "sauce",
+      "theme": "At the Supermarket",
+      "noun": "sauce",
+      "vocabKey": "sauce",
+      "material": "glass",
+      "packaging": true,
+      "family": "redbottle",
+      "picOpened": true,
+      "note": "a red glass sauce bottle"
+    },
+    {
+      "id": "shampoo",
+      "theme": "At the Supermarket",
+      "noun": "shampoo",
+      "vocabKey": "shampoo",
+      "material": "plastic",
+      "packaging": true,
+      "family": "shampoo",
+      "picOpened": true,
+      "note": "a pink pump bottle"
+    },
+    {
+      "id": "water",
+      "theme": "At the Supermarket",
+      "noun": "water",
+      "vocabKey": "water",
+      "material": "plastic",
+      "packaging": true,
+      "family": "water",
+      "picOpened": true,
+      "note": "a PET water bottle"
+    },
+    {
+      "id": "sunscreen",
+      "theme": "beach",
+      "noun": "sunscreen",
+      "vocabKey": "sunscreen",
+      "material": "plastic",
+      "packaging": true,
+      "family": "sunscreen",
+      "picOpened": true,
+      "note": "a sunscreen tube"
+    },
+    {
+      "id": "glue",
+      "theme": "classroom",
+      "noun": "glue",
+      "vocabKey": "glue",
+      "material": "plastic",
+      "packaging": true,
+      "family": "glue",
+      "picOpened": true,
+      "note": "a squeeze glue bottle"
+    },
+    {
+      "id": "toothbrush",
+      "theme": "At the Supermarket",
+      "noun": "toothbrush",
+      "vocabKey": "toothbrush",
+      "material": "plastic",
+      "packaging": false,
+      "family": "toothbrush",
+      "picOpened": true,
+      "note": "a bare blue toothbrush (non-packaging: residual bins take it via route)"
+    },
+    {
+      "id": "bucket",
+      "theme": "beach",
+      "noun": "bucket",
+      "vocabKey": "bucket",
+      "material": "plastic",
+      "packaging": false,
+      "family": "bucket",
+      "picOpened": true,
+      "note": "a toy beach bucket (OPEN 2: bulky toy; a locale may excludeItems it)"
+    },
+    {
+      "id": "comb",
+      "theme": "around the house",
+      "noun": "comb",
+      "vocabKey": "comb",
+      "material": "plastic",
+      "packaging": false,
+      "family": "comb",
+      "picOpened": true,
+      "note": "an orange plastic comb"
+    },
+    {
+      "id": "spoon",
+      "theme": "kitchen tools",
+      "noun": "spoon",
+      "vocabKey": "spoon",
+      "material": "plastic",
+      "packaging": false,
+      "family": "spoon",
+      "picOpened": true,
+      "note": "a purple plastic spoon"
+    },
+    {
+      "id": "can",
+      "theme": "At the Supermarket",
+      "noun": "can",
+      "vocabKey": "can",
+      "material": "metal",
+      "packaging": true,
+      "family": "can",
+      "picOpened": true,
+      "note": "a tin can (the only packaging metal: sv metall pool = 1)"
+    },
+    {
+      "id": "saucepan",
+      "theme": "kitchen tools",
+      "noun": "saucepan",
+      "vocabKey": "saucepan",
+      "material": "metal",
+      "packaging": false,
+      "family": "saucepan",
+      "picOpened": true,
+      "note": "an all-metal saucepan (re-opened by the critic: metal; the handle reads dark brown at 60 px, ruling kept)"
+    },
+    {
+      "id": "bolt",
+      "theme": "tools",
+      "noun": "bolt",
+      "vocabKey": "bolt",
+      "material": "metal",
+      "packaging": false,
+      "family": "bolt",
+      "picOpened": true,
+      "note": "a brass bolt"
+    },
+    {
+      "id": "nut",
+      "theme": "tools",
+      "noun": "nut",
+      "vocabKey": "nut",
+      "material": "metal",
+      "packaging": false,
+      "family": "nut",
+      "picOpened": true,
+      "note": "a hex nut (vocab Mutter in de = a prose trap only; nothing printed)"
+    },
+    {
+      "id": "apple",
+      "theme": "fruits",
+      "noun": "apple",
+      "vocabKey": "apple",
+      "material": "organic",
+      "packaging": false,
+      "family": "apple",
+      "picOpened": true,
+      "note": "a red apple (fileUri reads THIS picture; the key has 5 candidates)"
+    },
+    {
+      "id": "banana",
+      "theme": "fruits",
+      "noun": "banana",
+      "vocabKey": "banana",
+      "material": "organic",
+      "packaging": false,
+      "family": "banana",
+      "picOpened": true,
+      "note": "a banana"
+    },
+    {
+      "id": "bread",
+      "theme": "At the Supermarket",
+      "noun": "bread",
+      "vocabKey": "bread",
+      "material": "organic",
+      "packaging": false,
+      "family": "bread",
+      "picOpened": true,
+      "note": "a loaf of bread"
+    },
+    {
+      "id": "carrot",
+      "theme": "vegetables",
+      "noun": "carrot",
+      "vocabKey": "carrot",
+      "material": "organic",
+      "packaging": false,
+      "family": "carrot",
+      "picOpened": true,
+      "note": "a carrot with leaves"
+    },
+    {
+      "id": "orange",
+      "theme": "fruits",
+      "noun": "orange",
+      "vocabKey": "orange",
+      "material": "organic",
+      "packaging": false,
+      "family": "orange",
+      "picOpened": true,
+      "note": "an orange with a leaf (5 candidates; fileUri)"
+    },
+    {
+      "id": "leaf",
+      "theme": "spring",
+      "noun": "leaf",
+      "vocabKey": "leaf",
+      "material": "organic",
+      "packaging": false,
+      "family": "leaf",
+      "picOpened": true,
+      "note": "a green leaf"
+    },
+    {
+      "id": "corn",
+      "theme": "vegetables",
+      "noun": "corn",
+      "vocabKey": "corn",
+      "material": "organic",
+      "packaging": false,
+      "family": "corn",
+      "picOpened": true,
+      "note": "a corn cob"
+    },
+    {
+      "id": "pear",
+      "theme": "fruits",
+      "noun": "pear",
+      "vocabKey": "pear",
+      "material": "organic",
+      "packaging": false,
+      "family": "pear",
+      "picOpened": true,
+      "note": "a pear"
+    },
+    {
+      "id": "lettuce",
+      "theme": "vegetables",
+      "noun": "lettuce",
+      "vocabKey": "lettuce",
+      "material": "organic",
+      "packaging": false,
+      "family": "lettuce",
+      "picOpened": true,
+      "note": "a head of lettuce"
+    },
+    {
+      "id": "potato",
+      "theme": "vegetables",
+      "noun": "potato",
+      "vocabKey": "potato",
+      "material": "organic",
+      "packaging": false,
+      "family": "potato",
+      "picOpened": true,
+      "note": "a potato"
+    },
+    {
+      "id": "tomato",
+      "theme": "vegetables",
+      "noun": "tomato",
+      "vocabKey": "tomato",
+      "material": "organic",
+      "packaging": false,
+      "family": "tomato",
+      "picOpened": true,
+      "note": "a tomato"
+    },
+    {
+      "id": "strawberry",
+      "theme": "fruits",
+      "noun": "strawberry",
+      "vocabKey": "strawberry",
+      "material": "organic",
+      "packaging": false,
+      "family": "strawberry",
+      "picOpened": true,
+      "note": "a strawberry"
+    },
+    {
+      "id": "pepper",
+      "theme": "At the Supermarket",
+      "noun": "pepper",
+      "vocabKey": "pepper",
+      "material": "organic",
+      "packaging": false,
+      "family": "pepper",
+      "picOpened": true,
+      "note": "a red BELL pepper (es prose: pimiento, OPEN 10)"
+    }
+  ],
+  "pageRules": {
+    "_doc": "the composer + verify() rules (design section 2 Composer): the two pale-in-mono items never share a page and never sit next to the package tile",
+    "neverBoth": [
+      [
+        "paper",
+        "letter"
+      ]
+    ],
+    "neverAdjacent": [
+      [
+        "paper",
+        "package"
+      ],
+      [
+        "letter",
+        "package"
+      ]
+    ]
+  },
+  "_excluded": {
+    "_doc": "opened, with the reason; the panels read this and never re-add an id",
+    "AMBIGUOUS": {
+      "kitchen tools/bottle": "glass or PET, metal-look cap (OPEN 1 CLOSED: excluded)",
+      "At the Supermarket/juice": "glass or PET",
+      "At the Supermarket/soda": "can or PET",
+      "At the Supermarket/bag": "paper or laminated",
+      "classroom/folder": "card or plastic",
+      "kitchen tools/lid": "metal or plastic",
+      "kitchen tools/colander": "metal or plastic",
+      "kitchen tools/pot": "enamel or ceramic",
+      "At the Supermarket/salt": "baked SALT text",
+      "post office/stamp": "baked text, tiny",
+      "At the Supermarket/egg": "eggs IN a pulp carton"
+    },
+    "COMPOSITE": {
+      "kitchen tools/pan": "pot + glass lid",
+      "around the house/kettle": "metal + plastic handle",
+      "kitchen tools/fork": "steel + green handle",
+      "kitchen tools/knife": "composite",
+      "kitchen tools/whisk": "composite",
+      "kitchen tools/grater": "composite",
+      "kitchen tools/tongs": "composite",
+      "kitchen tools/spatula": "composite",
+      "kitchen tools/ladle": "composite",
+      "kitchen tools/sponge": "composite",
+      "around the house/toothpaste": "tube + cap",
+      "classroom/binder": "card + metal rings",
+      "around the house/scissors": "steel + plastic",
+      "tools/screwdriver": "steel + handle",
+      "tools/hammer": "steel + wood"
+    },
+    "CERAMIC": {
+      "kitchen tools/cup": "ceramic is not a material on any page",
+      "kitchen tools/mug": "ceramic",
+      "kitchen tools/bowl": "ceramic",
+      "kitchen tools/pitcher": "ceramic",
+      "kitchen tools/jug": "ceramic",
+      "kitchen tools/plate": "ceramic",
+      "around the house/vase": "ceramic"
+    },
+    "NOT_WASTE": {
+      "classroom/book": "not waste",
+      "around the house/key": "not waste",
+      "camping/map": "not waste",
+      "kitchen tools/glass": "a DRINKING glass: residual, not container glass",
+      "around the house/glass": "a WINE glass"
+    },
+    "VOCAB_TRAP": {
+      "tools/nail": "the FINGERNAIL in es/pt/fr/it/da/no/fi though the picture is a spike"
+    }
+  }
+}

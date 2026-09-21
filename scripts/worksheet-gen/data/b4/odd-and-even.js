@@ -53,7 +53,7 @@ const ODD_AND_EVEN = {
       base: { title: 'Odd and Even Numbers: Odd House, Even House', instruction: 'Write each number in the house where it belongs, the odd house or the even house. Three numbers have moved in already and show their pairs.' },
       proof: { title: 'Odd or Even? Write Two Equal Addends', instruction: 'Circle the dots two by two. Then write the number as two equal parts and write what is left over in the small box.' },
       share: { title: 'Can Two Friends Share Fairly?', instruction: 'Share the pictures between the two friends, one each in turn. Write how many each friend gets and how many are left over, then circle odd or even.' },
-      ones: { title: 'Odd and Even Numbers 1 to 100: Look at the Ones Box', instruction: 'Read the rule at the top. Look only at the ones box of each number and tick the circle under even or odd.' },
+      ones: { title: 'Odd and Even Numbers Under 100: Look at the Ones Box', instruction: 'Read the rule at the top. Look only at the ones box of each number and tick the circle under even or odd.' },
       sums: { title: 'Odd or Even Sum? Decide Without Adding', instruction: 'Do not add. Look at the underlined ones digit of each number, use the table, and tick whether the sum is even or odd.' },
       count: { title: 'Odd or Even? Count the Pictures in Pairs', instruction: 'Count the pictures and circle them two by two. Write how many pairs you made, then circle odd or even.' },
     },

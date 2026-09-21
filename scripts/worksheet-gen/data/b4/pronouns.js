@@ -38,8 +38,11 @@
  *     frames:  [{id, sg:'{subj} reads a book.', pl:'{subj} read a book.'}]   12; `{subj}`
  *              is the FIRST token; the verb literal carries the number; F1 + F5 read them
  *     anaphora: [{id, intro:'{a} and {b} …', s:[{text:'{P} …', key:'sg'|'pl'} x2], contentNeutral:true}]   8 (F2)
- *     possessive: { chips, byOwner:{key: chipIndex} | null, frame:{sg, pl}, artTable:null|{m,f},
+ *     possessive: { chips, chipW, byOwner:{key: chipIndex} | null, frame:{sg, pl}, artTable:null|{m,f},
  *                   things:[{key, pic, forms:null|{m1,f1,p}, picOpened:true}] } | null   (F3; es/fi null)
+ *              chipW = the F3 chip width for THIS locale's chips (design §3 F3: max(60, widest
+ *              label at Baloo 2 700 20 + 18): en 66, nl 60, pt 66, de 66, fr/it 60, sv/da/no 84;
+ *              the gate measures every rendered label against it)
  *     refuse:  { possessive:false }       es / fi: true (the refusal is the record)
  *     strings: { base, replace, anaphora, possessive, sort, rewrite: {title, instruction[, bankWord]} }
  *   }
@@ -147,6 +150,7 @@ const PRONOUNS = {
     ],
     possessive: {
       chips: ['his', 'her', 'their'],
+      chipW: 66,                                    // F3 chip width: max(60, widest label at Baloo 2 700 20 + 18) — `their` 43.7 (design §3 F3; the gate measures)
       byOwner: { m1: 0, f1: 1, mp: 2, fp: 2, xp: 2 },
       frame: { sg: 'This is {subj}. This is ___ {thing}.', pl: 'These are {subj}. This is ___ {thing}.' },
       artTable: null,

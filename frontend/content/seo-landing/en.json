@@ -187925,6 +187925,2459 @@
    ],
    "title": "Hop Back Number Line Division Worksheet for 3rd Grade | Free Printable PDF",
    "metaDescription": "Hop back on the number line: three lines with a dot at 15, 22 and 10; draw equal hops back until a whole hop no longer fits, write hops and landing. Free 3rd grade PDF."
+  },
+  {
+   "slug": "tangram-cut-out-and-build",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "base",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Tangram Worksheet",
+   "h1": "Tangram Puzzles: Cut Out the Pieces and Build Two Figures",
+   "strand": "Geometry",
+   "standard": "K.G.B.6",
+   "slotTokens": [
+    "tangram",
+    "kindergarten"
+   ],
+   "p1": "The top of this kindergarten tangram page is a square cut into the seven classic pieces, with a small scissors mark at its corner and every cut drawn as a line. Beside it sits a five-row legend: a red, a blue, a yellow, a green and an orange swatch, each next to one piece shape. Below, two figures are drawn at exactly the same size as the cut-out set and with their own seams showing, so every piece can be laid straight on to its place. The sheet shown carries a fox and a plain rectangle.",
+   "p2": "This is the materials page of the family, and the seams are what make it a kindergarten page rather than a puzzle. A child who cannot yet picture how a shape breaks apart can still match an edge to a printed edge, and the colouring step gives the pieces names before any of them is moved. Note that the legend has five rows for seven pieces: the two large triangles share a colour and so do the two small ones, because the legend sorts by shape, not by count.",
+   "p3": "One sheet, seven pieces, two figures. Print it on card if you want the set to survive the week, and colour before cutting so the pieces are easy to sort. This is the page the rest of the tangram family assumes you already have: the shadows, the missing-piece and the matching sheets all expect a cut set on the table.",
+   "canonicalDeckSlug": "tangram-k353",
+   "carousel": [
+    {
+     "label": "Easy Tangram Puzzles: Draw the Lines for 2 and 3 Pieces",
+     "href": "tangram-draw-the-seam-lines"
+    },
+    {
+     "label": "Tangram Puzzles: Four Shadows to Build",
+     "href": "tangram-four-shadows-to-build"
+    },
+    {
+     "label": "Tangram Puzzles: Which Piece Is Missing?",
+     "href": "tangram-which-piece-is-missing"
+    },
+    {
+     "label": "Tangram Puzzles: Which Solution Matches the Shadow?",
+     "href": "tangram-match-the-shadow-orientation"
+    }
+   ],
+   "title": "Tangram Worksheet for Kindergarten | Free Printable PDF",
+   "metaDescription": "Tangram worksheet: a cut-out square of seven pieces under a scissors mark, a five-colour legend, and two figures drawn with their seams. Free kindergarten PDF."
+  },
+  {
+   "slug": "parts-of-the-body-label-the-figure",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "base",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Parts of the Body Worksheet",
+   "h1": "Parts of the Body",
+   "strand": "Science — The Human Body (readiness)",
+   "slotTokens": [
+    "human-body",
+    "kindergarten"
+   ],
+   "p1": "One line-drawn child stands in the middle of this kindergarten page. Six small coral rings sit on the figure and a leader line runs from each one out to a dashed box with handwriting rules inside it. A word bank across the top carries the six words the boxes want: eye, arm, hand, foot, elbow and ear. The child reads a word, follows the line back to the ring it belongs to, and copies the word on to the ruled box at the other end.",
+   "p2": "Copying rather than spelling is the point at this level, so the bank is closed and every word is used exactly once. The ruled boxes are three-line handwriting rules, not blank space, which keeps the letters the right height while the attention is on the matching. Two of the six markers sit on the same arm, one on the upper arm for arm and one lower down for elbow, so the child cannot work by limb alone and has to follow the line to the end.",
+   "p3": "One sheet, one figure, six words. This is the naming page of the body family and the one to print first, because the other faces assume the six words are already familiar. The figure is drawn in plain outline, so it prints cleanly in black and white, and a child who finishes early can colour it. Keep the word bank visible while they write.",
+   "canonicalDeckSlug": "human-body-k354",
+   "carousel": [
+    {
+     "label": "Parts of the Body: How Many?",
+     "href": "parts-of-the-body-how-many"
+    },
+    {
+     "label": "Parts of the Body: Color by Legend",
+     "href": "parts-of-the-body-color-by-legend"
+    },
+    {
+     "label": "Parts of the Body: Write the Word",
+     "href": "parts-of-the-body-write-the-word"
+    },
+    {
+     "label": "Parts of the Body: What Is Missing?",
+     "href": "parts-of-the-body-what-is-missing"
+    }
+   ],
+   "title": "Parts of the Body Worksheet for Kindergarten | Free Printable PDF",
+   "metaDescription": "Body parts worksheet: one line-drawn child with six coral markers and leader lines out to writing boxes, and a word bank of eye, arm, hand, foot, elbow, ear."
+  },
+  {
+   "slug": "five-senses-match-picture-to-body-part",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "base",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Five Senses Worksheet",
+   "h1": "Five Senses",
+   "strand": "Science — The Five Senses (readiness)",
+   "slotTokens": [
+    "five-senses",
+    "kindergarten"
+   ],
+   "p1": "Five pictures run down the left of this kindergarten page and five sense organs run down the right, each with a small coral dot on the inside edge. The sheet shown pairs lavender, the moon, a piano, a sponge and a bar of chocolate against a hand, an ear, a nose, a tongue and an eye. The child draws a line from each picture across to the part of the body they would use for it. The order of the two columns does not match, so every line crosses the middle of the page.",
+   "p2": "One picture per sense is the whole design, and it is what makes this the base page: there is no leftover, no near-miss and no card that could go two ways. The five items are chosen so that each one has a sense it belongs to before any other, a flower for smell and a piano for hearing, so a five-year-old meets the idea of a sense organ without having to weigh one against another.",
+   "p3": "One sheet, five lines. It is short, which suits a first lesson, and the picture column is generous enough to talk about before anyone picks up a pencil. This is the page the rest of the senses family builds on: the sorting, choosing and odd-one-out faces all reuse these same five organs, and by then some of the items really do belong to two senses at once.",
+   "canonicalDeckSlug": "five-senses-k355",
+   "carousel": [
+    {
+     "label": "Five Senses: Sort by Sense",
+     "href": "five-senses-sort-by-sense"
+    },
+    {
+     "label": "Five Senses: Which Sense?",
+     "href": "five-senses-which-sense-circle-the-organ"
+    },
+    {
+     "label": "Five Senses: Which One Does Not Belong?",
+     "href": "five-senses-which-one-does-not-belong"
+    },
+    {
+     "label": "Sense Organs: Write the Sense Word",
+     "href": "sense-organs-write-the-sense-word"
+    }
+   ],
+   "title": "Five Senses Worksheet for Kindergarten | Free Printable PDF",
+   "metaDescription": "Five senses worksheet: lavender, the moon, a piano, a sponge and chocolate down one side, and the hand, ear, nose, tongue and eye down the other."
+  },
+  {
+   "slug": "weather-symbols-match-symbol-to-word",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "base",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Weather Symbols Worksheet",
+   "h1": "Weather Symbols",
+   "strand": "Science — Weather and the Sky (readiness)",
+   "slotTokens": [
+    "weather-symbols",
+    "kindergarten"
+   ],
+   "p1": "Six weather symbols are drawn in teal circles down the left of this kindergarten page and six word cards stand down the right. Each has a small coral dot on its inner edge. The symbols on the sheet shown are a rain cloud, a smiling sun, a rainbow, a grey cloud, a storm cloud with a lightning bolt and a snowflake; the words are storm, snow, cloud, sun, rain and rainbow, in an order that matches none of them. The child draws a line from each picture to its word.",
+   "p2": "The symbols are the ones a five-year-old will meet on a television forecast and in the weather corner of a classroom, so the page teaches a piece of print convention rather than a fact about the sky. The rain cloud and the storm cloud are the pair worth pointing at: they differ only by the bolt, and the storm symbol carries no rain drops at all, which is exactly the shorthand a real forecast icon uses.",
+   "p3": "One sheet, six lines. This is the naming page of the weather family and the one to give first, because the chart, the forecast and the letter-box sheets all use the same six symbols. Rainbow is the odd one in the set — it is not a forecast icon anywhere — but it is the symbol children ask for, and it is the easiest word on the page to read.",
+   "canonicalDeckSlug": "weather-symbols-k356",
+   "carousel": [
+    {
+     "label": "Write the Weather Word",
+     "href": "write-the-weather-word-letter-boxes"
+    },
+    {
+     "label": "Weather Chart, Monday to Sunday",
+     "href": "weather-chart-monday-to-sunday"
+    },
+    {
+     "label": "How Warm Is It? Cold, Warm or Hot",
+     "href": "how-warm-is-it-cold-warm-hot"
+    },
+    {
+     "label": "The Water Cycle: Label the Diagram",
+     "href": "water-cycle-label-the-diagram"
+    }
+   ],
+   "title": "Weather Symbols Worksheet for Kindergarten | Free Printable PDF",
+   "metaDescription": "Weather symbols worksheet: six circled symbols — rain, sun, rainbow, cloud, storm, snow — beside six word cards in a different order. Draw the lines."
+  },
+  {
+   "slug": "recycling-sort-draw-to-the-bin",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "base",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Recycling Sort Worksheet",
+   "h1": "Recycling Sort",
+   "strand": "Science — Materials and Recycling (readiness)",
+   "slotTokens": [
+    "recycling",
+    "kindergarten"
+   ],
+   "p1": "Eight things are printed in a strip across the top of this kindergarten page, each with a small coral dot beneath it, and five tall bins stand along the bottom with their names on tabs: Paper, Plastic, Glass, Metal and Compost. The sheet shown offers a notebook, a sauce bottle, a carrot, a bucket, a corn cob, a bolt, a sheet of paper and a glue bottle. The child draws a line from each thing down to the bin it goes in once it is empty or finished.",
+   "p2": "Five bins and eight things means the bins do not fill evenly, so a child cannot finish by dealing one item to each. They have to decide what a thing is made of, which is a harder question than it looks when a sauce bottle could be glass or plastic and a notebook is paper with a card cover. The two food items go to compost, which is the bin most children have not met and the one worth talking about first.",
+   "p3": "One sheet, eight lines, five bins. The band between the strip and the bins is left open for the lines to cross. This is the base page of the recycling family: the which-bin sheet turns the same job into a choice of five, and the what-is-it-made-of sheet asks for the material by name instead of by bin.",
+   "canonicalDeckSlug": "recycling-k357",
+   "carousel": [
+    {
+     "label": "Recycling Sort: Which Bin?",
+     "href": "recycling-sort-which-bin"
+    },
+    {
+     "label": "Recycling Sort: What Is It Made Of?",
+     "href": "recycling-what-is-it-made-of"
+    },
+    {
+     "label": "Recycling Sort: Odd One Out",
+     "href": "recycling-odd-one-out-by-material"
+    },
+    {
+     "label": "Recycling Sort: Three Things I Recycle",
+     "href": "three-things-i-recycle"
+    }
+   ],
+   "title": "Recycling Sorting Worksheet for Kindergarten | Free Printable PDF",
+   "metaDescription": "Recycling worksheet: eight everyday things across the top and five labelled bins below — paper, plastic, glass, metal, compost. Draw a line to each bin."
+  },
+  {
+   "slug": "fill-in-the-blank-sentences-word-bank",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "base",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Fill in the Blank Worksheet",
+   "h1": "Fill in the Blank Sentences",
+   "strand": "Language",
+   "standard": "L.1.1.b",
+   "slotTokens": [
+    "cloze",
+    "grade-1"
+   ],
+   "p1": "Seven picture-and-sentence rows make up this 1st grade page. Each begins with a small picture, then the word The, then a dashed box, then the rest of the sentence: hoots in the tree at night, sprays water with its trunk, has a very long neck, pecks holes in the tree, rolls along the railway tracks, sails across the lake, has black and white stripes. A word bank across the top holds seven words — sailboat, giraffe, woodpecker, zebra, owl, train, elephant — one for each row.",
+   "p2": "Two supports run at once: the picture names the missing word and the sentence describes it. That is deliberate at six, because a child who cannot yet read woodpecker can still find it in the bank by first letter once the picture has told them what to look for, and a child who can read does not need the picture at all. The bank is closed and used exactly once through, so the last row can be reasoned out even if its sentence defeats them.",
+   "p3": "One sheet, seven sentences, seven words. This is the base page of the fill-in-the-blank family and the most supported: the letter-box face removes the bank, the choose-the-word face replaces it with a pair of options, and the story face spreads one bank across three linked sentences. Start here if cloze is new.",
+   "canonicalDeckSlug": "cloze-g1350",
+   "carousel": [
+    {
+     "label": "Fill in the Blank: Letter Boxes",
+     "href": "fill-in-the-blank-letter-boxes"
+    },
+    {
+     "label": "Fill in the Blank: Choose the Word",
+     "href": "fill-in-the-blank-choose-the-word"
+    },
+    {
+     "label": "Fill in the Blank: Plural Nouns",
+     "href": "fill-in-the-blank-plural-nouns"
+    },
+    {
+     "label": "Fill in the Blank Story",
+     "href": "fill-in-the-blank-story"
+    }
+   ],
+   "title": "Fill in the Blank Worksheet for 1st Grade | Free Printable PDF",
+   "metaDescription": "Fill in the blank worksheet: seven picture sentences with one word missing and a closed bank of sailboat, giraffe, woodpecker, zebra, owl, train and elephant."
+  },
+  {
+   "slug": "odd-house-even-house",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "base",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Odd and Even Numbers Worksheet",
+   "h1": "Odd and Even Numbers: Odd House, Even House",
+   "strand": "Odd and even numbers (readiness)",
+   "slotTokens": [
+    "odd-and-even",
+    "grade-1"
+   ],
+   "p1": "Two paper houses stand side by side on this 1st grade page, one labelled odd and one labelled even, and a strip of nine numbers runs above them. The sheet shown offers 11, 10, 8, 5, 12, 14, 1, 13 and 19. Three numbers have already moved in and each shows its dots: the 3 in the odd house has one filled pair and one hollow circle left over, while the 6 and the 4 in the even house show three pairs and two pairs with nothing over. The child writes each remaining number into a box in the right house.",
+   "p2": "The dots are the argument. Odd and even are usually taught as a rule about the last digit, and that rule is quick but empty; here the worked examples show why a number is odd, with the leftover drawn as an open circle that has no partner. Because the given numbers are small, a child can check any of the nine by drawing their own dots beside it, and the house metaphor gives sorting somewhere to happen.",
+   "p3": "One sheet, nine numbers, two houses. Each house is printed with eight boxes, more than the nine numbers will fill, so expect empty boxes and say so before you start. This is the readiness page of the odd-and-even family: the pair-counting and fair-share faces work the same idea with pictures, and the ones-box page turns it into the digit rule.",
+   "canonicalDeckSlug": "odd-and-even-g1351",
+   "carousel": [
+    {
+     "label": "Odd or Even? Write Two Equal Addends",
+     "href": "odd-or-even-two-equal-addends"
+    },
+    {
+     "label": "Can Two Friends Share Fairly?",
+     "href": "can-two-friends-share-fairly"
+    },
+    {
+     "label": "Odd and Even Numbers Under 100: Look at the Ones Box",
+     "href": "odd-and-even-under-100-ones-box"
+    },
+    {
+     "label": "Odd or Even Sum? Decide Without Adding",
+     "href": "odd-or-even-sum-without-adding"
+    }
+   ],
+   "title": "Odd and Even Numbers Worksheet for 1st Grade | Free Printable PDF",
+   "metaDescription": "Odd and even worksheet: nine numbers on a strip and two houses to sort them into, each with a worked example showing its pairs as dots."
+  },
+  {
+   "slug": "personal-pronouns-he-she-they",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "base",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Personal Pronouns Worksheet",
+   "h1": "Personal Pronouns",
+   "strand": "Language",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronouns",
+    "grade-1"
+   ],
+   "p1": "Eight cards sit two to a row on this 1st grade page. Each shows a picture of one person or two, a name card underneath — Ava and Zoe, Anna, Ben, Tom and Leo, Max and Mia, Lily, Jack, Eli on the sheet shown — and three chips reading he, she and they. The child reads the name and circles the word we would use in its place. Four of the eight cards name one person and four name two, and one of the pairs is a boy and a girl.",
+   "p2": "Substitution is the idea, and naming the people is what makes it teachable: a pronoun is defined here as the word that goes where the name went, not as a part of speech. Putting a mixed pair on the page matters, because they is often learned as the word for two girls or two boys and then fails at the first mixed couple. The pictures support the names but do not decide the answer — the name card does.",
+   "p3": "One sheet, eight cards, eight circles. This is the base page of the pronouns family and the only one that asks nothing but a choice, which makes it the right first meeting. The replace-the-name and sort-the-names faces take the same three words into writing; the possessive face changes them to his, her and their.",
+   "canonicalDeckSlug": "pronouns-g1352",
+   "carousel": [
+    {
+     "label": "Replace the Name with a Pronoun",
+     "href": "replace-the-name-with-a-pronoun"
+    },
+    {
+     "label": "Who Is He? Pronouns in Sentences",
+     "href": "who-is-he-pronouns-in-sentences"
+    },
+    {
+     "label": "Possessive Pronouns",
+     "href": "possessive-pronouns-his-her-their"
+    },
+    {
+     "label": "Sort the Names: He, She or They",
+     "href": "sort-the-names-he-she-or-they"
+    }
+   ],
+   "title": "Personal Pronouns Worksheet for 1st Grade | Free Printable PDF",
+   "metaDescription": "Personal pronouns worksheet: eight cards showing one or two people with their names, and the chips he, she and they beneath each. Circle the right one."
+  },
+  {
+   "slug": "question-words-who-what-where",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "base",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Question Words Worksheet",
+   "h1": "Question Words: Who, What, Where",
+   "strand": "Language",
+   "standard": "L.K.1.d",
+   "slotTokens": [
+    "question-words",
+    "grade-1"
+   ],
+   "p1": "In every one of the seven sentences on this 1st grade page a phrase has been highlighted in pale coral and underlined, and three chips reading Who, What and Where sit beneath. The child circles the question word that would ask for the highlighted part. The sheet shown highlights Zoe, Jack, in the kitchen, the papaya, on the mountain, the horse and the tiger, so two rows answer Who, three answer What and two answer Where.",
+   "p2": "Highlighting rather than blanking is what makes this the base page of the family. The sentence stays whole and readable, and the child's attention is directed to one part of it, so the question word is chosen for a piece of meaning rather than for a hole. Two of the seven mark the subject at the very start of the sentence and the rest mark a phrase at the end, which is enough variation to stop the answer being read off the position.",
+   "p3": "One sheet, seven sentences, seven circles. Read the highlighted part aloud as a fragment when you introduce it — in the kitchen — because saying it alone is what makes the question word obvious. Three question words is the whole scope here; the fill-in and write-the-question faces add When and How many, and the picture face adds Why and How.",
+   "canonicalDeckSlug": "question-words-g1353",
+   "carousel": [
+    {
+     "label": "Match the Question to the Answer",
+     "href": "match-the-question-to-the-answer"
+    },
+    {
+     "label": "Fill In the Question Word",
+     "href": "fill-in-the-question-word"
+    },
+    {
+     "label": "Sort the Answers: Who, What or Where",
+     "href": "sort-the-answers-who-what-where"
+    },
+    {
+     "label": "Write the Question",
+     "href": "write-the-question-from-the-answer"
+    }
+   ],
+   "title": "Question Words Worksheet for 1st Grade | Free Printable PDF",
+   "metaDescription": "Question words worksheet: seven sentences with part of each one highlighted, and the chips Who, What and Where beneath. Circle the word that asks for it."
+  },
+  {
+   "slug": "rounding-to-the-nearest-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "base",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Rounding Worksheet",
+   "h1": "Rounding to the Nearest 10",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "rounding",
+    "grade-2"
+   ],
+   "p1": "Fourteen numbers are set out in two columns on this 2nd grade page, each followed by an approximately-equal sign and one dashed box. A reference band across the top does two things at once: it works 47 into 50 with the ones digit picked out in coral, and it prints the digits 0 to 9 in two groups with a down arrow over the first five and an up arrow over the rest. The sheet shown runs 76, 79, 45, 633, 268, 267, 85, 53, 522, 54, 549, 67, 658 and 111.",
+   "p2": "Everything the page asks for is decided by one digit, and the strip is there so a child can check which half it falls in without being told again. Two of the fourteen end in five, the case where the rule has to be a rule rather than a judgement of which ten is nearer, and half the numbers are three digits long, so the tens place has to be found before it can be rounded rather than simply read off the front.",
+   "p3": "One sheet, fourteen numbers, fourteen boxes. This is the base page of the rounding family and the one with the most practice on it; the five faces built on it change the place, the direction or the shape of the task rather than adding more of the same. Keep the reference band visible, since every sibling page reprints it with a different worked example.",
+   "canonicalDeckSlug": "rounding-g2346",
+   "carousel": [
+    {
+     "label": "Rounding Up or Down? Sort the Numbers",
+     "href": "rounding-up-or-down-sort-the-numbers"
+    },
+    {
+     "label": "Rounding to the Nearest 100",
+     "href": "rounding-to-the-nearest-100"
+    },
+    {
+     "label": "Round, then Estimate the Sum",
+     "href": "round-then-estimate-the-sum"
+    },
+    {
+     "label": "Which Numbers Round to 50?",
+     "href": "which-numbers-round-to-50"
+    }
+   ],
+   "title": "Rounding to the Nearest 10 Worksheet for 2nd Grade | Free PDF",
+   "metaDescription": "Rounding worksheet: fourteen numbers each followed by a box, with a worked example of 47 and a digit strip splitting 0 to 4 from 5 to 9 at the top."
+  },
+  {
+   "slug": "tangram-draw-the-seam-lines",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-draw-the-lines-2-and-3-pieces",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Tangram Worksheet",
+   "h1": "Easy Tangram Puzzles: Draw the Lines for 2 and 3 Pieces",
+   "strand": "Geometry",
+   "standard": "K.G.B.6",
+   "slotTokens": [
+    "tangram",
+    "kindergarten"
+   ],
+   "p1": "Four cards fill this kindergarten page. Each carries a small strip of piece shapes along the top and, beneath it, one empty white outline drawn true to size against the full tangram set. Two of the four outlines are made from two pieces and two from three, so the difficulty changes inside the page rather than between sheets. Nothing is coloured and nothing is cut: the child works with a pencil, drawing the line or the two lines that show where the named pieces meet inside the outline.",
+   "p2": "Drawing the seam is a different act from placing a piece, and it is the one that carries over into reading shapes later. To draw it the child has to decide which way round a triangle sits, and that decision is forced because the outline gives only the perimeter. The strip above names the kinds of pieces at a smaller scale, so it says which shapes to use without saying where. Every outline on this page is one the lattice can tile in a single way, so a drawn line is either right or it is not.",
+   "p3": "One sheet, four outlines, six seams in all. This is the gentlest page in the tangram family and the right one to give before the shadow sheets, because the piece count is small and the strip removes the guessing. Keep a cut set nearby: a child who is stuck can lay two real pieces on the outline and trace along the join.",
+   "canonicalDeckSlug": "tangram-k358",
+   "carousel": [
+    {
+     "label": "Tangram Puzzles: Cut Out the Pieces and Build Two Figures",
+     "href": "tangram-cut-out-and-build"
+    },
+    {
+     "label": "Tangram Puzzles: Four Shadows to Build",
+     "href": "tangram-four-shadows-to-build"
+    },
+    {
+     "label": "Tangram Puzzles: Which Piece Is Missing?",
+     "href": "tangram-which-piece-is-missing"
+    },
+    {
+     "label": "Tangram Puzzles: Which Solution Matches the Shadow?",
+     "href": "tangram-match-the-shadow-orientation"
+    }
+   ],
+   "title": "Easy Tangram Worksheet for Kindergarten | Free Printable PDF",
+   "metaDescription": "Easy tangram worksheet: four white outlines, each under a strip of the two or three pieces that fill it. The child draws the seams. Free kindergarten PDF."
+  },
+  {
+   "slug": "tangram-four-shadows-to-build",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-four-shadows-to-build",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Tangram Worksheet",
+   "h1": "Tangram Puzzles: Four Shadows to Build",
+   "strand": "Geometry",
+   "standard": "1.G.A.2",
+   "slotTokens": [
+    "tangram",
+    "grade-1"
+   ],
+   "p1": "Four solid teal silhouettes sit on this 1st grade page, one to a card, each printed at exactly the size of a real tangram set. No seams are drawn, no piece is named and no outline is broken: the child sees only the shadow a finished build would cast. The sheet shown carries a fox, a broad arrow, a rectangle and a square. Every one of them takes all seven pieces, and the two plain shapes are not the easy ones, because a rectangle gives the eye no corners to start from.",
+   "p2": "Removing the seams turns the task from matching into searching. A child must now decide where the two large triangles go before anything else can be placed, and that single decision is most of the work. Because the shadows are true to size, a wrong placement shows immediately as an overhang, so the page corrects itself without a teacher standing over it. The fox has limbs that fix several pieces at once; the square and the rectangle hide everything and reward trial.",
+   "p3": "One sheet, four builds, seven pieces each. This page has no writing on it at all, so it works as a quiet station or a partner puzzle. Cut a set from the base page of the tangram family first, since the shadows here are printed to match that set exactly. If four shadows are too much at once, fold the sheet and give one row at a time.",
+   "canonicalDeckSlug": "tangram-g1354",
+   "carousel": [
+    {
+     "label": "Tangram Puzzles: Cut Out the Pieces and Build Two Figures",
+     "href": "tangram-cut-out-and-build"
+    },
+    {
+     "label": "Easy Tangram Puzzles: Draw the Lines for 2 and 3 Pieces",
+     "href": "tangram-draw-the-seam-lines"
+    },
+    {
+     "label": "Tangram Puzzles: Which Piece Is Missing?",
+     "href": "tangram-which-piece-is-missing"
+    },
+    {
+     "label": "Tangram Puzzles: Which Solution Matches the Shadow?",
+     "href": "tangram-match-the-shadow-orientation"
+    }
+   ],
+   "title": "Tangram Shadows Worksheet for 1st Grade | Free Printable PDF",
+   "metaDescription": "Tangram shadow worksheet: four solid silhouettes printed true to size, each built from all seven pieces. No seams, no clues. Free 1st grade PDF."
+  },
+  {
+   "slug": "tangram-which-piece-is-missing",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-which-piece-is-missing",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Tangram Worksheet",
+   "h1": "Tangram Puzzles: Which Piece Is Missing?",
+   "strand": "Geometry",
+   "standard": "1.G.A.2",
+   "slotTokens": [
+    "tangram",
+    "grade-1"
+   ],
+   "p1": "Six figures are drawn on this 1st grade page, each built from six of the seven tangram pieces with the seventh left out. The gap is outlined in orange dashes so its exact shape is visible, and three chips stand beside it. The chips are drawn true to size against the figure, which matters: a small triangle and a medium triangle differ only by size, and the page expects that difference to decide the answer. Across the six cards the hole is a medium triangle, a small triangle, the square or the parallelogram.",
+   "p2": "Congruence is the whole lesson here. When a triangle is missing the page always offers the other triangle size as a rival, so a child who reads only the shape name picks wrong half the time and has to look at how long the sides are. The parallelogram is the sharpest card, because it is the one piece that cannot be turned over on the table: the chip that fits carries the same handedness as the hole, and its mirror image does not fit.",
+   "p3": "One sheet, six holes, eighteen chips. Note that the two large triangles never go missing on this face, so five of the seven pieces are in play rather than all seven. Use it after the shadow page, when a child can already build but has not yet had to argue that two shapes are the same. A cut set is useful but not needed: the chips are printed to size.",
+   "canonicalDeckSlug": "tangram-g1355",
+   "carousel": [
+    {
+     "label": "Tangram Puzzles: Cut Out the Pieces and Build Two Figures",
+     "href": "tangram-cut-out-and-build"
+    },
+    {
+     "label": "Easy Tangram Puzzles: Draw the Lines for 2 and 3 Pieces",
+     "href": "tangram-draw-the-seam-lines"
+    },
+    {
+     "label": "Tangram Puzzles: Four Shadows to Build",
+     "href": "tangram-four-shadows-to-build"
+    },
+    {
+     "label": "Tangram Puzzles: Which Solution Matches the Shadow?",
+     "href": "tangram-match-the-shadow-orientation"
+    }
+   ],
+   "title": "Which Tangram Piece Is Missing? 1st Grade | Free Printable PDF",
+   "metaDescription": "Tangram worksheet: six figures each with one piece-shaped hole marked in orange, and three true-size chips beside them. Circle the one that fits. Free 1st grade PDF."
+  },
+  {
+   "slug": "tangram-match-the-shadow-orientation",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-which-solution-matches-the-shadow",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Tangram Worksheet",
+   "h1": "Tangram Puzzles: Which Solution Matches the Shadow?",
+   "strand": "Spatial reasoning (readiness)",
+   "slotTokens": [
+    "tangram",
+    "grade-2"
+   ],
+   "p1": "Each of the four rows on this 2nd grade page opens with a solid shadow and then shows three finished tangram builds of that same figure. One of the three stands exactly as the shadow does. The other two are the identical set of pieces turned a quarter or a half turn, or flipped over, so every candidate has the same area and the same outline and differs only in how it is set on the paper. The sheet shown runs a down arrow, a standing rectangle, a hooked arrow and a left arrow.",
+   "p2": "This is orientation practice with the content held still, which is why it sits a year above the shadow page. The distractors are never the wrong figure; they are chosen from outside the shadow's own symmetries, so no turned copy can accidentally cast the right shadow, and a child cannot succeed by counting pieces or comparing size. The rectangle row is the cleanest demonstration: upright or lying down, it is the same rectangle, and only one of those is what the shadow shows.",
+   "p3": "One sheet, four rows, twelve candidates. The correct build never sits in the same column twice, so guessing a pattern down the page fails. Use it after the missing-piece sheet and beside any rotation work: it is the only face in the tangram family where the child never builds anything and the answer is entirely about position.",
+   "canonicalDeckSlug": "tangram-g2347",
+   "carousel": [
+    {
+     "label": "Tangram Puzzles: Cut Out the Pieces and Build Two Figures",
+     "href": "tangram-cut-out-and-build"
+    },
+    {
+     "label": "Easy Tangram Puzzles: Draw the Lines for 2 and 3 Pieces",
+     "href": "tangram-draw-the-seam-lines"
+    },
+    {
+     "label": "Tangram Puzzles: Four Shadows to Build",
+     "href": "tangram-four-shadows-to-build"
+    },
+    {
+     "label": "Tangram Puzzles: Which Piece Is Missing?",
+     "href": "tangram-which-piece-is-missing"
+    }
+   ],
+   "title": "Tangram Orientation Worksheet for 2nd Grade | Free Printable PDF",
+   "metaDescription": "Tangram worksheet: four rows, each a solid shadow beside three finished builds of the same figure. Only one stands the same way up. Free 2nd grade PDF."
+  },
+  {
+   "slug": "tangram-count-triangles-and-squares",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-count-the-triangles-and-squares",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Tangram Worksheet",
+   "h1": "Tangram Puzzles: Count the Triangles and Squares",
+   "strand": "Geometry",
+   "standard": "K.G.A.2",
+   "slotTokens": [
+    "tangram",
+    "kindergarten"
+   ],
+   "p1": "Four small tangram builds sit on this kindergarten page, each one made from three to six pieces and each standing over two dashed boxes. The first box carries a little triangle mark, the second a little square mark. The child counts how many of the build's pieces are triangles and writes the number, then does the same for squares. At least one build on every sheet is turned so a triangle sits on its slant rather than flat, and at least one contains the parallelogram, which is not a square and does not go in the second box.",
+   "p2": "Naming a shape when it has been rotated is the real content, and it is why the builds are tilted rather than set square to the page. The second box is the harder of the two: a tangram set holds exactly one square, so the answer is always nought or one, and a child who has only met counting as finding something has to write nought when there is nothing. The parallelogram is on the page to make that answer earned rather than obvious.",
+   "p3": "One sheet, four builds, eight numbers. Read the instruction with the class first, because it asks for the pieces the build is made of, not every triangle the eye can find inside it: two small triangles side by side still count as two. This is the counting face of the tangram family, and it pairs well with the cut-out page, where the same seven pieces are named by colour.",
+   "canonicalDeckSlug": "tangram-k359",
+   "carousel": [
+    {
+     "label": "Tangram Puzzles: Cut Out the Pieces and Build Two Figures",
+     "href": "tangram-cut-out-and-build"
+    },
+    {
+     "label": "Easy Tangram Puzzles: Draw the Lines for 2 and 3 Pieces",
+     "href": "tangram-draw-the-seam-lines"
+    },
+    {
+     "label": "Tangram Puzzles: Four Shadows to Build",
+     "href": "tangram-four-shadows-to-build"
+    },
+    {
+     "label": "Tangram Puzzles: Which Piece Is Missing?",
+     "href": "tangram-which-piece-is-missing"
+    }
+   ],
+   "title": "Count Tangram Shapes Worksheet for Kindergarten | Free PDF",
+   "metaDescription": "Tangram counting worksheet: four small builds, each over two boxes marked with a triangle and a square. Count the pieces of each kind. Free kindergarten PDF."
+  },
+  {
+   "slug": "parts-of-the-body-how-many",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-how-many",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Parts of the Body Worksheet",
+   "h1": "Parts of the Body: How Many?",
+   "strand": "Science — The Human Body (readiness)",
+   "slotTokens": [
+    "human-body",
+    "kindergarten"
+   ],
+   "p1": "Six cards run down the right of this kindergarten page, each with a photograph-style picture, a short question and one empty dashed box. The questions on the sheet shown are how many mouths, fingers, noses, eyes, legs and arms. The answers are one, one, two, two, two and ten, so two cards take a single numeral, three take two and one takes a two-digit number. A full-length figure stands on the left of the page for reference, though the instruction asks the child to count on their own body instead.",
+   "p2": "Counting body parts is where number and self-knowledge meet at five, and the mix of ones, twos and a ten is deliberate: a child who has learned that body parts come in pairs meets a card where they do not. The fingers card is the one to talk through, because it needs counting in a way the others do not, and because the small picture beside it shows a single raised finger rather than a whole hand.",
+   "p3": "One sheet, six cards, six numerals. It works well standing up, with the class touching each part as they count, and it is short enough to finish in one sitting. This is the number face of the body family; the twos card is followed up on the which-come-in-twos sheet, where the same idea becomes a sorting task instead of a count.",
+   "canonicalDeckSlug": "human-body-k360",
+   "carousel": [
+    {
+     "label": "Parts of the Body",
+     "href": "parts-of-the-body-label-the-figure"
+    },
+    {
+     "label": "Parts of the Body: Color by Legend",
+     "href": "parts-of-the-body-color-by-legend"
+    },
+    {
+     "label": "Parts of the Body: Write the Word",
+     "href": "parts-of-the-body-write-the-word"
+    },
+    {
+     "label": "Parts of the Body: What Is Missing?",
+     "href": "parts-of-the-body-what-is-missing"
+    }
+   ],
+   "title": "How Many Body Parts Worksheet for Kindergarten | Free PDF",
+   "metaDescription": "Body parts counting worksheet: six cards asking how many mouths, fingers, noses, eyes, legs and arms you have, each with an empty numeral box."
+  },
+  {
+   "slug": "parts-of-the-body-color-by-legend",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-color-by-legend",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Parts of the Body Worksheet",
+   "h1": "Parts of the Body: Color by Legend",
+   "strand": "Science — The Human Body (readiness)",
+   "slotTokens": [
+    "human-body",
+    "kindergarten"
+   ],
+   "p1": "Five legend rows stack down the left of this kindergarten page. Each one shows a coloured swatch, an arrow and a body-part word: yellow for hair, brown for arms, pink for legs, red for feet and green for hands. To the right stands the same line-drawn child used across the family, this time with no fill at all, so every named region is a closed white area waiting for a crayon. The child reads a row, finds the matching region and colours it in that colour.",
+   "p2": "Nothing is written on this page, which makes it the one face of the body family a child can do before they can spell. It still asks for reading: the colour word and the part word both have to be decoded, and the two are joined only by an arrow. Three of the five named regions come in pairs on the figure, so hands, arms and feet each have to be coloured twice, which quietly makes the same point the counting sheet makes out loud.",
+   "p3": "One sheet, five colours, eight regions. Crayons work better than markers here because the outlines are thin. This is the pre-writing face of the body family: pair it with the labelling page for a child who is close to writing, or give it on its own as a first meeting with the six words.",
+   "canonicalDeckSlug": "human-body-k361",
+   "carousel": [
+    {
+     "label": "Parts of the Body",
+     "href": "parts-of-the-body-label-the-figure"
+    },
+    {
+     "label": "Parts of the Body: How Many?",
+     "href": "parts-of-the-body-how-many"
+    },
+    {
+     "label": "Parts of the Body: Write the Word",
+     "href": "parts-of-the-body-write-the-word"
+    },
+    {
+     "label": "Parts of the Body: What Is Missing?",
+     "href": "parts-of-the-body-what-is-missing"
+    }
+   ],
+   "title": "Color the Body Parts Worksheet for Kindergarten | Free PDF",
+   "metaDescription": "Body parts colouring worksheet: a five-row legend pairing a colour swatch with a body-part word, beside an uncoloured figure to fill in. Free kindergarten PDF."
+  },
+  {
+   "slug": "parts-of-the-body-write-the-word",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-write-the-word",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Parts of the Body Worksheet",
+   "h1": "Parts of the Body: Write the Word",
+   "strand": "Science — The Human Body (readiness)",
+   "slotTokens": [
+    "human-body",
+    "grade-1"
+   ],
+   "p1": "Six numbered coral discs sit on the figure that fills the left of this 1st grade page, and six numbered rows of letter boxes run down the right. There is no word bank. The child finds the part that disc four is on, decides what it is called, and writes the name one letter to a box. The sheet shown marks the mouth, the arm, the elbow, the hand, the knee and a toe, so the rows ask for five, three, five, four, four and three letters in that order.",
+   "p2": "Taking the bank away turns a copying page into a spelling page, and the letter boxes are what keep it fair: the count tells a child how long the word is before they start, which is enough support at six without giving the word itself. Two markers sit on the same arm again, one for the limb and one for the joint, and the elbow row asks for five letters while the arm row asks for three, so the boxes settle the pair.",
+   "p3": "One sheet, six markers, twenty-four boxes. Print the labelling page alongside it if the words are still new: that sheet supplies the bank this one withholds. Be ready to point at the mouth and the knee on the figure, since the numbered discs are printed on top of the very features they name and cover the smile and one knee crease.",
+   "canonicalDeckSlug": "human-body-g1356",
+   "carousel": [
+    {
+     "label": "Parts of the Body",
+     "href": "parts-of-the-body-label-the-figure"
+    },
+    {
+     "label": "Parts of the Body: How Many?",
+     "href": "parts-of-the-body-how-many"
+    },
+    {
+     "label": "Parts of the Body: Color by Legend",
+     "href": "parts-of-the-body-color-by-legend"
+    },
+    {
+     "label": "Parts of the Body: What Is Missing?",
+     "href": "parts-of-the-body-what-is-missing"
+    }
+   ],
+   "title": "Write the Body Parts Worksheet for 1st Grade | Free Printable PDF",
+   "metaDescription": "Body parts spelling worksheet: six numbered markers on a figure and six rows of letter boxes, one letter per box, no word bank. Free 1st grade PDF."
+  },
+  {
+   "slug": "parts-of-the-body-what-is-missing",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-what-is-missing",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Parts of the Body Worksheet",
+   "h1": "Parts of the Body: What Is Missing?",
+   "strand": "Science — The Human Body (readiness)",
+   "slotTokens": [
+    "human-body",
+    "kindergarten"
+   ],
+   "p1": "Four small figures share this kindergarten page, two to a row, and each one has been drawn with a single part left off. Three picture chips stand beside every figure and only one of them shows the part that is gone. The sheet shown drops an arm, a leg, the hair and one foot, and offers chips such as a nose, a knee and an arm to choose between. The child circles the right chip and then draws the missing part straight on to the figure.",
+   "p2": "Spotting an absence is harder than naming a presence, and it asks a five-year-old to hold a picture of a whole body in mind while looking at an incomplete one. The chips keep the answer to a choice of three rather than an open search, and the drawing step turns the answer into something the child has to place: an arm has to come out of a shoulder and a foot has to sit under a leg, which is a second, quieter question about where parts belong.",
+   "p3": "One sheet, four figures, four missing parts. Two answers to each card, one circled and one drawn, so it takes longer than its size suggests. Note that the chip for hair is a picture of a whole head with long hair rather than hair alone, so it is worth naming aloud when you hand the sheet out. Pair it with the labelling page once the words are secure.",
+   "canonicalDeckSlug": "human-body-k362",
+   "carousel": [
+    {
+     "label": "Parts of the Body",
+     "href": "parts-of-the-body-label-the-figure"
+    },
+    {
+     "label": "Parts of the Body: How Many?",
+     "href": "parts-of-the-body-how-many"
+    },
+    {
+     "label": "Parts of the Body: Color by Legend",
+     "href": "parts-of-the-body-color-by-legend"
+    },
+    {
+     "label": "Parts of the Body: Write the Word",
+     "href": "parts-of-the-body-write-the-word"
+    }
+   ],
+   "title": "What Is Missing Body Worksheet for Kindergarten | Free PDF",
+   "metaDescription": "Body parts worksheet: four small figures, each drawn with one part left off, beside three picture chips. Circle the missing part, then draw it on."
+  },
+  {
+   "slug": "parts-of-the-body-which-come-in-twos",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-which-come-in-twos",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Parts of the Body Worksheet",
+   "h1": "Parts of the Body: Which Come in Twos?",
+   "strand": "Science — The Human Body (readiness)",
+   "slotTokens": [
+    "human-body",
+    "kindergarten"
+   ],
+   "p1": "Eight picture-and-word cards fill the right two thirds of this kindergarten page, arranged two to a row, with the family's line-drawn figure standing beside them. Each card shows one body part and its name in the singular: foot, nose, eye, mouth, knee, elbow, hand and head. The instruction asks one question of all eight at once. Five of them are parts a child has two of and three are parts they have only one of, and nothing on the card says which.",
+   "p2": "Sorting by a property rather than by name is the step up from the counting sheet, and eight cards with a five-to-three split is enough to stop a child circling everything or every other one. The three singles are all on the face or the head, so the rule a child arrives at is usually about sides, and the elbow and knee cards test it, since a joint is easy to forget when you are thinking about hands and feet.",
+   "p3": "One sheet, eight cards, five to circle. The words are printed in the singular under every picture, so a child who reads foot and circles it is being asked about their own body, not about the card. This is the classifying face of the body family and the natural follow-on from the how-many page, where the same pairs were counted one card at a time.",
+   "canonicalDeckSlug": "human-body-k363",
+   "carousel": [
+    {
+     "label": "Parts of the Body",
+     "href": "parts-of-the-body-label-the-figure"
+    },
+    {
+     "label": "Parts of the Body: How Many?",
+     "href": "parts-of-the-body-how-many"
+    },
+    {
+     "label": "Parts of the Body: Color by Legend",
+     "href": "parts-of-the-body-color-by-legend"
+    },
+    {
+     "label": "Parts of the Body: Write the Word",
+     "href": "parts-of-the-body-write-the-word"
+    }
+   ],
+   "title": "Which Body Parts Come in Twos? Kindergarten | Free Printable PDF",
+   "metaDescription": "Body parts worksheet: eight picture-and-word cards — foot, nose, eye, mouth, knee, elbow, hand, head — and one question. Circle the ones you have two of."
+  },
+  {
+   "slug": "five-senses-sort-by-sense",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-sort-by-sense",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Five Senses Worksheet",
+   "h1": "Five Senses: Sort by Sense",
+   "strand": "Science — The Five Senses (readiness)",
+   "slotTokens": [
+    "five-senses",
+    "grade-1"
+   ],
+   "p1": "Ten pictures sit in two rows at the top of this 1st grade page, each with a coral dot beneath it, and five tall bins stand along the bottom. Every bin carries a verb on a tab — taste, smell, see, hear, touch — and the organ that does it underneath. The child draws a line from each picture down to the bin it belongs in. Exactly two go to each bin: on the sheet shown a lemon and a sweet, jasmine and garlic, binoculars and a star, a violin and a drum, a pillow and sand.",
+   "p2": "Two per bin is what turns matching into sorting. A child cannot finish by pairing off, because the bins fill up and the last few pictures have to be placed by argument rather than elimination. Naming the sense with a verb rather than a noun is deliberate at this level: a child says what they would do with the thing, and the organ printed under the verb is there as a reminder rather than as the answer.",
+   "p3": "One sheet, ten pictures, five bins. The band between the pictures and the bins is left clear on purpose, because ten lines crossing in a small space become impossible to follow; give a child a ruler if their lines wander. This is the first sorting face of the senses family, and it is the right one to use before the odd-one-out sheet, where the categories are no longer printed.",
+   "canonicalDeckSlug": "five-senses-g1357",
+   "carousel": [
+    {
+     "label": "Five Senses",
+     "href": "five-senses-match-picture-to-body-part"
+    },
+    {
+     "label": "Five Senses: Which Sense?",
+     "href": "five-senses-which-sense-circle-the-organ"
+    },
+    {
+     "label": "Five Senses: Which One Does Not Belong?",
+     "href": "five-senses-which-one-does-not-belong"
+    },
+    {
+     "label": "Sense Organs: Write the Sense Word",
+     "href": "sense-organs-write-the-sense-word"
+    }
+   ],
+   "title": "Sort by Sense Worksheet for 1st Grade | Free Printable PDF",
+   "metaDescription": "Five senses sorting worksheet: ten pictures over five labelled bins — taste, smell, see, hear, touch — two pictures to a bin. Free 1st grade PDF."
+  },
+  {
+   "slug": "five-senses-which-sense-circle-the-organ",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-which-sense",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Five Senses Worksheet",
+   "h1": "Five Senses: Which Sense?",
+   "strand": "Science — The Five Senses (readiness)",
+   "slotTokens": [
+    "five-senses",
+    "grade-1"
+   ],
+   "p1": "Eight rows fill this 1st grade page. Each begins with a numbered picture on the left and ends with the same five organ chips on the right, always in the order eye, ear, nose, tongue, hand. The child circles the chip for the sense they would use. The sheet shown runs a pillow, a rock, a lemon, a tub of popcorn, a guitar, a string of lights, a torch and a rose, so touch and sight each come up twice, taste twice, and hearing and smell once each.",
+   "p2": "Holding the five chips in a fixed order across every row is the design decision that matters. It means the answer position is stable for a given sense, so a child who gets the pillow right can check the rock against it, and the page becomes about the item rather than about scanning a new set of pictures each time. Two of the eight are worth discussing before you mark: a lemon and popcorn are keyed to taste here, and both also have a strong smell.",
+   "p3": "One sheet, eight rows, eight circles. It is the quickest of the senses faces to complete and the easiest to check at a glance, since a correct column forms down the page. Use it as a check after the matching or sorting pages rather than as a first meeting, and expect to talk about the food items, which is usually the best part of the lesson.",
+   "canonicalDeckSlug": "five-senses-g1358",
+   "carousel": [
+    {
+     "label": "Five Senses",
+     "href": "five-senses-match-picture-to-body-part"
+    },
+    {
+     "label": "Five Senses: Sort by Sense",
+     "href": "five-senses-sort-by-sense"
+    },
+    {
+     "label": "Five Senses: Which One Does Not Belong?",
+     "href": "five-senses-which-one-does-not-belong"
+    },
+    {
+     "label": "Sense Organs: Write the Sense Word",
+     "href": "sense-organs-write-the-sense-word"
+    }
+   ],
+   "title": "Which Sense Worksheet for 1st Grade | Free Printable PDF",
+   "metaDescription": "Five senses worksheet: eight rows, each one picture beside the same five organ chips — eye, ear, nose, tongue, hand. Circle the one you use. Free 1st grade PDF."
+  },
+  {
+   "slug": "five-senses-which-one-does-not-belong",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-which-one-does-not-belong",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Five Senses Worksheet",
+   "h1": "Five Senses: Which One Does Not Belong?",
+   "strand": "Science — The Five Senses (readiness)",
+   "slotTokens": [
+    "five-senses",
+    "grade-1"
+   ],
+   "p1": "Five rows of four pictures make up this 1st grade page, and in every row three of the pictures belong to one sense while the fourth belongs to another. The child crosses out the one that does not fit. The sheet shown gives a flower among chocolate, cake and a lollipop; a feather among a cupcake, a cookie and honey; a sweet among a xylophone, a saxophone and a guitar; a string of lights among a whistle, a drum and a piano; and a tub of popcorn among a telescope, a star and a rainbow.",
+   "p2": "No labels are printed anywhere on this page, which is what raises it above the sorting sheet. The child has to notice the category before they can find the exception, and that is two steps rather than one. Two rows share taste and two share hearing, so the same majority sense comes up twice in different clothes, and the last row is the one to watch: a telescope is a thing you look through rather than a thing you look at, so some children will argue for it.",
+   "p3": "One sheet, five rows, five crossings. Ask for the reason as well as the mark, because the wrong answer is usually a good one badly timed, and a child who can say why the other three go together has understood the page. This is the last of the categorising faces in the senses family; after it, the write-the-word and sentence sheets move from choosing to producing.",
+   "canonicalDeckSlug": "five-senses-g1359",
+   "carousel": [
+    {
+     "label": "Five Senses",
+     "href": "five-senses-match-picture-to-body-part"
+    },
+    {
+     "label": "Five Senses: Sort by Sense",
+     "href": "five-senses-sort-by-sense"
+    },
+    {
+     "label": "Five Senses: Which Sense?",
+     "href": "five-senses-which-sense-circle-the-organ"
+    },
+    {
+     "label": "Sense Organs: Write the Sense Word",
+     "href": "sense-organs-write-the-sense-word"
+    }
+   ],
+   "title": "Senses Odd One Out Worksheet for 1st Grade | Free Printable PDF",
+   "metaDescription": "Five senses odd-one-out worksheet: five rows of four pictures, three sharing a sense and one that does not. Cross out the intruder. Free 1st grade PDF."
+  },
+  {
+   "slug": "sense-organs-write-the-sense-word",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "sense-organs-write-the-sense-word",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Five Senses Worksheet",
+   "h1": "Sense Organs: Write the Sense Word",
+   "strand": "Science — The Five Senses (readiness)",
+   "slotTokens": [
+    "five-senses",
+    "grade-1"
+   ],
+   "p1": "Five sense organs stand one to a row on this 1st grade page — a tongue, an eye, an ear, a hand and a nose — and beside each one lies a wide band of three-line handwriting rules. A word bank across the top holds the five verbs: hear, touch, see, smell and taste. The child reads the bank, decides which verb the organ does, and copies it on to the lane. The bank order and the organ order are different, so the words cannot simply be taken from left to right.",
+   "p2": "This is the page that names the action rather than the organ, and it is the only face in the senses family that asks for handwriting. Keeping each verb on a full set of school rules means the letters are formed properly at the same time as the pairing is made, which is why the lanes are so much wider than the words need. The bank is closed and each verb is used exactly once, so a child who is sure of four can reason out the fifth.",
+   "p3": "One sheet, five organs, five words. It is a good page to leave with a child who finishes something else early, since it needs no explaining once the bank has been read aloud. Print it after the matching page, where the same five organs appeared without their verbs, and before the sentence-starter sheet, which asks the child to supply the content as well as the word.",
+   "canonicalDeckSlug": "five-senses-g1360",
+   "carousel": [
+    {
+     "label": "Five Senses",
+     "href": "five-senses-match-picture-to-body-part"
+    },
+    {
+     "label": "Five Senses: Sort by Sense",
+     "href": "five-senses-sort-by-sense"
+    },
+    {
+     "label": "Five Senses: Which Sense?",
+     "href": "five-senses-which-sense-circle-the-organ"
+    },
+    {
+     "label": "Five Senses: Which One Does Not Belong?",
+     "href": "five-senses-which-one-does-not-belong"
+    }
+   ],
+   "title": "Sense Organs Worksheet for 1st Grade | Free Printable PDF",
+   "metaDescription": "Sense organs worksheet: a bank of hear, touch, see, smell and taste over five ruled lanes, one beside each organ picture. Copy the verb. Free 1st grade PDF."
+  },
+  {
+   "slug": "five-senses-i-can-hear-sentences",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-i-can-hear",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Five Senses Worksheet",
+   "h1": "Five Senses: I Can Hear ...",
+   "strand": "Science — The Five Senses (readiness)",
+   "slotTokens": [
+    "five-senses",
+    "grade-1"
+   ],
+   "p1": "Five sentence starters are printed on this 1st grade page, one to a card, each in grey on the first of two sets of handwriting rules: I can hear, I can see, I can smell, I can taste and I can touch. A small organ picture sits at the left of every card. The child finishes the sentence on the line the starter sits on and carries on to the second line if they need it. Nothing is supplied beyond the starter, so what the sentences say is entirely the child's.",
+   "p2": "This is the open face of the senses family and the only one with no right answer. The starter carries the grammar, so a six-year-old who could not yet compose a sentence from nothing can still write a true one, and the five senses give five different prompts rather than five goes at the same one. Taste and touch are usually the hardest to fill and the most interesting, because they send a child looking round the room rather than reaching for the obvious.",
+   "p3": "One sheet, five sentences, ten lines. It reads well aloud afterwards and makes a natural display. The title names the first starter, but all five are printed. Use it at the end of a senses unit, after the naming and sorting pages, or take it outside and let the children fill it from what is actually around them.",
+   "canonicalDeckSlug": "five-senses-g1361",
+   "carousel": [
+    {
+     "label": "Five Senses",
+     "href": "five-senses-match-picture-to-body-part"
+    },
+    {
+     "label": "Five Senses: Sort by Sense",
+     "href": "five-senses-sort-by-sense"
+    },
+    {
+     "label": "Five Senses: Which Sense?",
+     "href": "five-senses-which-sense-circle-the-organ"
+    },
+    {
+     "label": "Five Senses: Which One Does Not Belong?",
+     "href": "five-senses-which-one-does-not-belong"
+    }
+   ],
+   "title": "I Can Hear Senses Writing Worksheet for 1st Grade | Free PDF",
+   "metaDescription": "Five senses writing worksheet: five sentence starters — I can hear, see, smell, taste and touch — each on ruled lines with a second line to finish."
+  },
+  {
+   "slug": "write-the-weather-word-letter-boxes",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-write-the-weather-word",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Weather Symbols Worksheet",
+   "h1": "Write the Weather Word",
+   "strand": "Science — Weather and the Sky (readiness)",
+   "slotTokens": [
+    "weather-symbols",
+    "grade-1"
+   ],
+   "p1": "Six weather symbols run down this 1st grade page, one to a row, each followed by a line of dashed letter boxes. A word bank across the top holds storm, cloud, rain, sun, rainbow and snow. The child finds the word that belongs to the symbol and writes it one letter to a box. The rows ask for four, three, five, five, four and seven letters on the sheet shown, so the box count narrows the choice without settling it: two words are four letters long and two are five.",
+   "p2": "Letter boxes make spelling visible in a way a plain line does not. A child who writes rain into a four-box row can see immediately that snow would have fitted too, and has to go back to the symbol rather than to the count. Because the bank is closed and each word is used once, the page can be finished by reasoning even when one symbol is unfamiliar — rainbow, at seven letters, is the one that is always settled first and often opens up the rest.",
+   "p3": "One sheet, six words, twenty-eight letters. Print the matching page beside it for a child who does not yet read the words, since that sheet joins each symbol to its word without asking for any writing. This is the spelling face of the weather family and the natural step before the weekly chart, where the words have to be recalled rather than copied.",
+   "canonicalDeckSlug": "weather-symbols-g1362",
+   "carousel": [
+    {
+     "label": "Weather Symbols",
+     "href": "weather-symbols-match-symbol-to-word"
+    },
+    {
+     "label": "Weather Chart, Monday to Sunday",
+     "href": "weather-chart-monday-to-sunday"
+    },
+    {
+     "label": "How Warm Is It? Cold, Warm or Hot",
+     "href": "how-warm-is-it-cold-warm-hot"
+    },
+    {
+     "label": "The Water Cycle: Label the Diagram",
+     "href": "water-cycle-label-the-diagram"
+    }
+   ],
+   "title": "Write the Weather Word Worksheet for 1st Grade | Free PDF",
+   "metaDescription": "Weather words worksheet: six symbols, each with a row of letter boxes, and a bank of storm, cloud, rain, sun, rainbow and snow. One letter per box."
+  },
+  {
+   "slug": "weather-chart-monday-to-sunday",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-weather-chart-monday-to-sunday",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Weather Symbols Worksheet",
+   "h1": "Weather Chart, Monday to Sunday",
+   "strand": "Science — Weather and the Sky (readiness)",
+   "slotTokens": [
+    "weather-symbols",
+    "kindergarten"
+   ],
+   "p1": "Seven tall day boxes fill this kindergarten page, four along the top row and three below, labelled Monday through to Sunday. Each is empty, dashed and large enough for a crayon drawing. In the eighth cell of the grid sits a panel of the six weather symbols the family uses — sun, cloud, rain, storm, snow and rainbow — printed small for copying. Every day of the week the child looks outside and draws that day's symbol in its box.",
+   "p2": "This is the one page in the batch that is not finished in a sitting. It turns a naming exercise into a week of observation, and the size of the boxes is the invitation: there is room for a whole sky rather than a tick. Because the symbols are printed on the same sheet, a child who cannot yet draw a storm cloud has a model in front of them, and because the days are named, the chart doubles as a week of reading practice.",
+   "p3": "One sheet, seven days, seven drawings. Pin it up on Monday and do it at the same time each morning; a class set makes a good end-of-week comparison, since children rarely agree about cloudy. The symbol panel has no heading of its own, so say out loud that the eighth box is the key and not an extra day.",
+   "canonicalDeckSlug": "weather-symbols-k364",
+   "carousel": [
+    {
+     "label": "Weather Symbols",
+     "href": "weather-symbols-match-symbol-to-word"
+    },
+    {
+     "label": "Write the Weather Word",
+     "href": "write-the-weather-word-letter-boxes"
+    },
+    {
+     "label": "How Warm Is It? Cold, Warm or Hot",
+     "href": "how-warm-is-it-cold-warm-hot"
+    },
+    {
+     "label": "The Water Cycle: Label the Diagram",
+     "href": "water-cycle-label-the-diagram"
+    }
+   ],
+   "title": "Weekly Weather Chart for Kindergarten | Free Printable PDF",
+   "metaDescription": "Weather chart worksheet: seven large day boxes from Monday to Sunday and a panel of six symbols to copy. Draw the weather you see each day."
+  },
+  {
+   "slug": "how-warm-is-it-cold-warm-hot",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-how-warm-is-it",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Weather Symbols Worksheet",
+   "h1": "How Warm Is It? Cold, Warm or Hot",
+   "strand": "Science — Weather and the Sky (readiness)",
+   "slotTokens": [
+    "weather-symbols",
+    "kindergarten"
+   ],
+   "p1": "A key runs across the top of this kindergarten page: three thermometers at different levels, each beside a piece of clothing — a scarf, a T-shirt and sunglasses. Below it, four cards each show one more thermometer and the same three pictures in a shuffled order. The scales carry tick marks and three tinted bands but no numerals, so the child reads the height of the orange column against the bands rather than a figure, then circles the clothing that fits.",
+   "p2": "Reading a scale by position is the skill, and taking the numbers off is what makes it a kindergarten page rather than a measurement one. The key does the defining: whatever the bands mean, the three examples show what each height looks like, and every card is answered by comparison. Two of the four cards on the sheet shown sit in the cold band at different heights, which is the useful pair — the answer is the band, not the exact level.",
+   "p3": "One sheet, one key, four readings. The instruction names cold, warm and hot, but those three words are not printed in the key, so say them as you point at the three examples before the children start. This is the measurement face of the weather family and a good bridge into a real classroom thermometer, which has the numbers this one leaves out.",
+   "canonicalDeckSlug": "weather-symbols-k365",
+   "carousel": [
+    {
+     "label": "Weather Symbols",
+     "href": "weather-symbols-match-symbol-to-word"
+    },
+    {
+     "label": "Write the Weather Word",
+     "href": "write-the-weather-word-letter-boxes"
+    },
+    {
+     "label": "Weather Chart, Monday to Sunday",
+     "href": "weather-chart-monday-to-sunday"
+    },
+    {
+     "label": "The Water Cycle: Label the Diagram",
+     "href": "water-cycle-label-the-diagram"
+    }
+   ],
+   "title": "Cold Warm or Hot Worksheet for Kindergarten | Free Printable PDF",
+   "metaDescription": "Thermometer worksheet: a key of three thermometers with a scarf, a T-shirt and sunglasses, then four more to read. Circle what you would wear."
+  },
+  {
+   "slug": "water-cycle-label-the-diagram",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-water-cycle-label-the-diagram",
+    "theme": "",
+    "level": "grade-3"
+   },
+   "eyebrow": "Weather Symbols Worksheet",
+   "h1": "The Water Cycle: Label the Diagram",
+   "strand": "Science — The Water Cycle (readiness)",
+   "slotTokens": [
+    "weather-symbols",
+    "grade-3"
+   ],
+   "p1": "A single water-cycle diagram occupies the middle of this 3rd grade page: a sun at the left, a wide sea, a hillside at the right and a large cloud above, with vapour rising on a curved arrow, dashes falling from the cloud and run-off returning to the sea. Four numbered markers sit on the four stages. A word bank across the top carries condensation, evaporation, collection and precipitation, and four numbered ruled lanes wait below the picture.",
+   "p2": "Numbering the diagram and the lanes separates two jobs that are usually tangled: finding the stage on the picture, and spelling a four-syllable word. The child does the first by following the arrows and the second by copying from the bank, so a wrong answer is a reading of the diagram rather than a slip of the pen. Marker one sits on the rising arrow and marker three among the falling dashes, which is the pair most often swapped when the words are learned before the picture.",
+   "p3": "One sheet, four stages, four words. This is the only 3rd grade face in the weather family and the only one with subject vocabulary on it, so it belongs at the end of a unit rather than the start. The bank order is deliberately not the cycle order. Read the diagram round once as a class before anyone writes.",
+   "canonicalDeckSlug": "weather-symbols-g3385",
+   "carousel": [
+    {
+     "label": "Weather Symbols",
+     "href": "weather-symbols-match-symbol-to-word"
+    },
+    {
+     "label": "Write the Weather Word",
+     "href": "write-the-weather-word-letter-boxes"
+    },
+    {
+     "label": "Weather Chart, Monday to Sunday",
+     "href": "weather-chart-monday-to-sunday"
+    },
+    {
+     "label": "How Warm Is It? Cold, Warm or Hot",
+     "href": "how-warm-is-it-cold-warm-hot"
+    }
+   ],
+   "title": "Water Cycle Worksheet for 3rd Grade | Free Printable PDF",
+   "metaDescription": "Water cycle worksheet: a labelled diagram with sun, sea, cloud and hillside, four numbered markers and a bank of evaporation, condensation, precipitation, collection."
+  },
+  {
+   "slug": "read-the-weekly-forecast",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-read-the-weekly-forecast",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Weather Symbols Worksheet",
+   "h1": "Read the Weekly Forecast",
+   "strand": "Science — Weather and the Sky (readiness)",
+   "slotTokens": [
+    "weather-symbols",
+    "grade-1"
+   ],
+   "p1": "A five-day forecast strip runs across the top of this 1st grade page, Monday to Friday, each day named and each carrying one weather symbol. On the sheet shown it is snow, a thunderstorm, sun, rain and cloud, all five different. Beneath the strip sit three question cards, and each one repeats the five day names as chips to circle. The questions ask which day is snowy, which is rainy and which is sunny, so the child reads the strip three times over.",
+   "p2": "This is the family's first reading-for-information page, and the fact that no two days share a symbol is what makes each question have exactly one answer. The child is not naming a symbol, which they did on the matching sheet, but searching a table for one — a different act, and the one a real forecast asks for. Reading the day names is half the work: the chips are in calendar order, so a child who finds the symbol still has to count across to name the day.",
+   "p3": "One sheet, five days, three questions. It is quick, so it suits the end of a weather lesson or a warm-up before the weekly chart. If your class has already kept that chart, ask the same three questions of their own week afterwards — the answers are rarely as tidy, which is a useful thing for a six-year-old to find out.",
+   "canonicalDeckSlug": "weather-symbols-g1363",
+   "carousel": [
+    {
+     "label": "Weather Symbols",
+     "href": "weather-symbols-match-symbol-to-word"
+    },
+    {
+     "label": "Write the Weather Word",
+     "href": "write-the-weather-word-letter-boxes"
+    },
+    {
+     "label": "Weather Chart, Monday to Sunday",
+     "href": "weather-chart-monday-to-sunday"
+    },
+    {
+     "label": "How Warm Is It? Cold, Warm or Hot",
+     "href": "how-warm-is-it-cold-warm-hot"
+    }
+   ],
+   "title": "Read the Weekly Forecast Worksheet for 1st Grade | Free PDF",
+   "metaDescription": "Weather forecast worksheet: a Monday-to-Friday strip of five symbols and three questions — which day is snowy, rainy, sunny — with day chips to circle."
+  },
+  {
+   "slug": "recycling-sort-which-bin",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-which-bin",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Recycling Sort Worksheet",
+   "h1": "Recycling Sort: Which Bin?",
+   "strand": "Science — Materials and Recycling (readiness)",
+   "slotTokens": [
+    "recycling",
+    "kindergarten"
+   ],
+   "p1": "Five labelled bins are printed once across the top of this kindergarten page as a key — Paper, Plastic, Glass, Metal, Compost — and below it six rows each show one object beside the same five bins repeated without their names. The sheet shown gives a honey jar, an envelope, an orange, a shampoo bottle, a tin can and a cardboard parcel. The child circles the bin each thing belongs in when it is empty or finished, using the key at the top to tell the bins apart.",
+   "p2": "Turning the base page's open drawing into a five-way choice removes the crossing lines and leaves only the decision. It also adds a small reading task that the base page does not have: in the rows the bins carry no words, only the marks on their lids — three dots, three bars, one bar, a zig-zag — so the key has to be carried down the page in the head or checked against each time.",
+   "p3": "One sheet, six rows, six circles. Fold it so the key stays visible if your children lose it, or colour the five key bins together before you start so the lids become easier to tell apart. This is the quickest of the recycling faces and the one to use as a check after the sorting page rather than as a first introduction.",
+   "canonicalDeckSlug": "recycling-k366",
+   "carousel": [
+    {
+     "label": "Recycling Sort",
+     "href": "recycling-sort-draw-to-the-bin"
+    },
+    {
+     "label": "Recycling Sort: What Is It Made Of?",
+     "href": "recycling-what-is-it-made-of"
+    },
+    {
+     "label": "Recycling Sort: Odd One Out",
+     "href": "recycling-odd-one-out-by-material"
+    },
+    {
+     "label": "Recycling Sort: Three Things I Recycle",
+     "href": "three-things-i-recycle"
+    }
+   ],
+   "title": "Which Bin Recycling Worksheet for Kindergarten | Free Printable PDF",
+   "metaDescription": "Recycling worksheet: six rows, each an everyday object beside the same five bins — paper, plastic, glass, metal, compost. Circle the right bin."
+  },
+  {
+   "slug": "recycling-what-is-it-made-of",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-what-is-it-made-of",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Recycling Sort Worksheet",
+   "h1": "Recycling Sort: What Is It Made Of?",
+   "strand": "Science — Materials and Recycling (readiness)",
+   "slotTokens": [
+    "recycling",
+    "grade-1"
+   ],
+   "p1": "Eight objects run down this 1st grade page, one to a row, each beside a wide band of three-line handwriting rules. A word bank across the top holds five materials: plastic, paper, cardboard, glass and metal. The child names what each object is made of and writes the word on the lane. The sheet shown runs a bolt, a purple spoon, a notebook, a sauce bottle, a nut, a sheet of paper, a parcel and a cereal box — two metals, two papers, two cardboards, one plastic and one glass.",
+   "p2": "Naming the material rather than the bin is the step this page adds, and cardboard is why it matters: a parcel and a cereal box go into the same bin as paper but are not paper, so the bin and the material come apart here for the first time in the family. Eight rows against a bank of five means three words are used twice, which is worth saying out loud, because a closed bank normally implies one use each.",
+   "p3": "One sheet, eight objects, eight words. The lanes are ruled rather than blank, so the writing stays the right size while the thinking is elsewhere. Print it after the two sorting faces, when the bins are familiar, and use the spoon to open the conversation: it is plastic, not metal, and the colour is the only clue on the page.",
+   "canonicalDeckSlug": "recycling-g1364",
+   "carousel": [
+    {
+     "label": "Recycling Sort",
+     "href": "recycling-sort-draw-to-the-bin"
+    },
+    {
+     "label": "Recycling Sort: Which Bin?",
+     "href": "recycling-sort-which-bin"
+    },
+    {
+     "label": "Recycling Sort: Odd One Out",
+     "href": "recycling-odd-one-out-by-material"
+    },
+    {
+     "label": "Recycling Sort: Three Things I Recycle",
+     "href": "three-things-i-recycle"
+    }
+   ],
+   "title": "What Is It Made Of Worksheet for 1st Grade | Free Printable PDF",
+   "metaDescription": "Materials worksheet: eight objects, each with a ruled lane, and a bank of plastic, paper, cardboard, glass and metal. Write what each one is made of."
+  },
+  {
+   "slug": "recycling-odd-one-out-by-material",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-odd-one-out-by-material",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Recycling Sort Worksheet",
+   "h1": "Recycling Sort: Odd One Out",
+   "strand": "Science — Materials and Recycling (readiness)",
+   "slotTokens": [
+    "recycling",
+    "grade-2"
+   ],
+   "p1": "Four rows of four objects make up this 2nd grade page. In each row three things share a material and the fourth does not. On the sheet shown a purple plastic spoon closes a row of glass — a jam jar, a honey jar and a milk bottle; a green leaf sits third among a glue bottle, a toothbrush and a comb; a saucepan closes a row of pepper, carrot and banana; and a glass oil bottle stands second among a bolt, a nut and a tin can. The child circles the one that is different.",
+   "p2": "No material is named anywhere on the page, which is what lifts it above the writing face. The child must find the shared property first and the exception only after, and because the things in a row are otherwise unrelated — three glass containers and a spoon, three plastic tools and a leaf — the grouping cannot be made from what they are for. Colour is no guide either: the bolt is gold, the comb orange, the spoon purple.",
+   "p3": "One sheet, four rows, four circles. The odd one moves — fourth, third, fourth, second down the page — so there is no column to follow and a child who has stopped looking will show it. In two rows it can still be reached for the wrong reason, the odd one also being the only thing you could not eat, so ask for the material every time. It is the last recycling face and the hardest; use it when the five materials are secure.",
+   "canonicalDeckSlug": "recycling-g2348",
+   "carousel": [
+    {
+     "label": "Recycling Sort",
+     "href": "recycling-sort-draw-to-the-bin"
+    },
+    {
+     "label": "Recycling Sort: Which Bin?",
+     "href": "recycling-sort-which-bin"
+    },
+    {
+     "label": "Recycling Sort: What Is It Made Of?",
+     "href": "recycling-what-is-it-made-of"
+    },
+    {
+     "label": "Recycling Sort: Three Things I Recycle",
+     "href": "three-things-i-recycle"
+    }
+   ],
+   "title": "Materials Odd One Out Worksheet for 2nd Grade | Free Printable PDF",
+   "metaDescription": "Materials odd-one-out worksheet: four rows of four everyday things, three of the same material and one different. Circle the one that does not match."
+  },
+  {
+   "slug": "three-things-i-recycle",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-three-things-i-recycle",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Recycling Sort Worksheet",
+   "h1": "Recycling Sort: Three Things I Recycle",
+   "strand": "Science — Materials and Recycling (readiness)",
+   "slotTokens": [
+    "recycling",
+    "grade-1"
+   ],
+   "p1": "Three numbered lanes fill this 1st grade page. Each carries a tall dashed drawing frame on the left and two sets of three-line handwriting rules on the right. Nothing else is printed: no pictures, no word bank and no starter. The child draws something they recycle at home in the frame and writes what it is on the lines beside it, three times over. The frames are portrait-shaped and large, so a bottle or a cereal box can be drawn at a reasonable size rather than squeezed in.",
+   "p2": "This is the open face of the recycling family and the only one where the content comes from the child's own kitchen. That matters more here than in most subjects, because what a household actually recycles varies, and a page that supplies its own objects can quietly teach a scheme the family does not use. Drawing before writing also lets a child commit to a real thing first and find the word for it second.",
+   "p3": "One sheet, three drawings, three names. It makes a good homework page precisely because the answers are at home, and the three finished lanes read back well in a circle the next morning. Use it at the end of a recycling unit, after the sorting and material pages have supplied the vocabulary the writing lines will need.",
+   "canonicalDeckSlug": "recycling-g1365",
+   "carousel": [
+    {
+     "label": "Recycling Sort",
+     "href": "recycling-sort-draw-to-the-bin"
+    },
+    {
+     "label": "Recycling Sort: Which Bin?",
+     "href": "recycling-sort-which-bin"
+    },
+    {
+     "label": "Recycling Sort: What Is It Made Of?",
+     "href": "recycling-what-is-it-made-of"
+    },
+    {
+     "label": "Recycling Sort: Odd One Out",
+     "href": "recycling-odd-one-out-by-material"
+    }
+   ],
+   "title": "Three Things I Recycle Worksheet for 1st Grade | Free PDF",
+   "metaDescription": "Recycling writing worksheet: three numbered lanes, each with a tall empty drawing frame and two sets of ruled lines. Draw and name what you recycle at home."
+  },
+  {
+   "slug": "fill-in-the-blank-letter-boxes",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-letter-boxes",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Fill in the Blank Worksheet",
+   "h1": "Fill in the Blank: Letter Boxes",
+   "strand": "Language",
+   "standard": "L.1.1.b",
+   "slotTokens": [
+    "cloze",
+    "grade-1"
+   ],
+   "p1": "Seven sentences run down this 1st grade page, each opening with a picture and the word The, then a row of dashed letter boxes, then the rest of the sentence. There is no word bank. The sheet shown asks for penguin, zebra, turtle, rooster, rabbit, owl and bee, so the rows offer seven, five, six, seven, six, three and three boxes. The child reads the sentence, looks at the picture and writes the animal one letter to a box.",
+   "p2": "Taking the bank away turns the base page into a spelling page, and the boxes are the replacement scaffold: they fix the length before the first letter is written, which stops a child inventing pengwin and running out of room. Two pairs of rows share a box count, so the number alone never settles the answer and the picture still has to be read. Rooster and penguin are the long ones and usually the ones that need a second look.",
+   "p3": "One sheet, seven words, thirty-seven letters. Sentences that run past the boxes wrap underneath the picture, so read each one through before writing. This is the spelling face of the cloze family and the right step after the word-bank page, when a child can find the word but is not yet producing it unaided.",
+   "canonicalDeckSlug": "cloze-g1366",
+   "carousel": [
+    {
+     "label": "Fill in the Blank Sentences",
+     "href": "fill-in-the-blank-sentences-word-bank"
+    },
+    {
+     "label": "Fill in the Blank: Choose the Word",
+     "href": "fill-in-the-blank-choose-the-word"
+    },
+    {
+     "label": "Fill in the Blank: Plural Nouns",
+     "href": "fill-in-the-blank-plural-nouns"
+    },
+    {
+     "label": "Fill in the Blank Story",
+     "href": "fill-in-the-blank-story"
+    }
+   ],
+   "title": "Fill in the Blank Letter Boxes for 1st Grade | Free Printable PDF",
+   "metaDescription": "Cloze spelling worksheet: seven picture sentences with the missing word written into letter boxes, one letter per box, and no word bank. Free 1st grade PDF."
+  },
+  {
+   "slug": "fill-in-the-blank-choose-the-word",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-choose-the-word",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Fill in the Blank Worksheet",
+   "h1": "Fill in the Blank: Choose the Word",
+   "strand": "Language",
+   "standard": "L.1.1.b",
+   "slotTokens": [
+    "cloze",
+    "grade-1"
+   ],
+   "p1": "Six rows fill this 1st grade page. Each has a picture, a sentence with a dashed box in it, and two word chips printed underneath. The sheet shown offers duck or penguin, fox or rabbit, ball or kite, giraffe or zebra, elephant or rhinoceros, and bat or bee. The child circles the chip that fits and then copies that word into the box, so every row is answered twice — once by choosing and once by writing.",
+   "p2": "A pair of options is a narrower scaffold than a seven-word bank and a wider one than empty boxes, which is why this face sits between them. The wrong chip is never random: it is always a word that would make a grammatical sentence, so the picture and the meaning of the sentence are the only things that separate the two. Bat and bee is the sharpest pair, three letters against three, differing by one sound.",
+   "p3": "One sheet, six sentences, twelve chips. Copying after circling is worth insisting on, because it is where the spelling is learned; a child who only circles has read but not written. Use it with a child who finds the open bank page too crowded, or as a bridge into the letter-box face, where neither the word nor a rival is offered.",
+   "canonicalDeckSlug": "cloze-g1367",
+   "carousel": [
+    {
+     "label": "Fill in the Blank Sentences",
+     "href": "fill-in-the-blank-sentences-word-bank"
+    },
+    {
+     "label": "Fill in the Blank: Letter Boxes",
+     "href": "fill-in-the-blank-letter-boxes"
+    },
+    {
+     "label": "Fill in the Blank: Plural Nouns",
+     "href": "fill-in-the-blank-plural-nouns"
+    },
+    {
+     "label": "Fill in the Blank Story",
+     "href": "fill-in-the-blank-story"
+    }
+   ],
+   "title": "Choose the Word Cloze Worksheet for 1st Grade | Free Printable PDF",
+   "metaDescription": "Cloze worksheet: six picture sentences, each with two word chips beneath — duck or penguin, fox or rabbit, bat or bee. Circle one, then copy it in."
+  },
+  {
+   "slug": "fill-in-the-blank-plural-nouns",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-plural-nouns",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Fill in the Blank Worksheet",
+   "h1": "Fill in the Blank: Plural Nouns",
+   "strand": "Language",
+   "standard": "L.1.1.c",
+   "slotTokens": [
+    "cloze",
+    "grade-2"
+   ],
+   "p1": "Each of the eight rows on this 2nd grade page begins with the same picture repeated two or three times, then a short sentence with a dashed box in it. There is no word bank and no singular is printed anywhere. The sheet shown gives three cows sleeping in the barn, three lions roaring, two hens pecking, two aeroplanes landing, two penguins waddling, three monkeys swinging, three balls rolling and three bats hanging upside down. The child writes the plural in the box.",
+   "p2": "Supplying the plural from a repeated picture rather than from a printed singular is what makes this a grammar page rather than a copying one: the child has to name the thing and inflect it in the same move. The verbs agree in the plural too — sleep, roar, peck — so a child who writes cow can hear that the sentence has stopped working. Three of the rows open with a number word, which gives the count without giving the noun.",
+   "p3": "One sheet, eight plurals. All eight take a plain s on this sheet, so it is a page about the habit rather than about irregulars; it is also the only face in the cloze family that withholds both the word and any clue to its length. Two of the sentences wrap under the picture column, so read each one through before writing.",
+   "canonicalDeckSlug": "cloze-g2349",
+   "carousel": [
+    {
+     "label": "Fill in the Blank Sentences",
+     "href": "fill-in-the-blank-sentences-word-bank"
+    },
+    {
+     "label": "Fill in the Blank: Letter Boxes",
+     "href": "fill-in-the-blank-letter-boxes"
+    },
+    {
+     "label": "Fill in the Blank: Choose the Word",
+     "href": "fill-in-the-blank-choose-the-word"
+    },
+    {
+     "label": "Fill in the Blank Story",
+     "href": "fill-in-the-blank-story"
+    }
+   ],
+   "title": "Plural Nouns Cloze Worksheet for 2nd Grade | Free Printable PDF",
+   "metaDescription": "Plural nouns worksheet: eight sentences, each with the same picture repeated two or three times, and a box for the plural. No bank, no hint."
+  },
+  {
+   "slug": "fill-in-the-blank-story",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-story",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Fill in the Blank Worksheet",
+   "h1": "Fill in the Blank Story",
+   "strand": "Reading: Foundational Skills",
+   "standard": "RF.2.4.c",
+   "slotTokens": [
+    "cloze",
+    "grade-2"
+   ],
+   "p1": "Three short stories sit on this 2nd grade page, each of three sentences and each with a strip of three pictures above it. A bank of nine words runs across the top: dog, owl, turtle, rabbit, kite, airplane, rocket, duck and fox. There are nine blanks in all and nine words, so every word is used exactly once across the whole page. The picture strips are shuffled: the three pictures above a story are its three answers, but not in the order the sentences ask for them.",
+   "p2": "Shuffling the strip is the design decision that makes this a reading page rather than a copying one. A child cannot take the first picture for the first blank; they have to read each sentence and decide which of the three it is describing — which one blasts off into space, which one is flown on a hill. Because the bank is shared across all three stories, a word spent on the wrong story goes missing later, so the page checks itself.",
+   "p3": "One sheet, three stories, nine blanks. It is the longest read in the cloze family and the only one where the sentences of a card belong together, so a child who fills them in order gets a small narrative back. Use it after the single-sentence faces, and read the whole story aloud before any word is written — the instruction asks for exactly that.",
+   "canonicalDeckSlug": "cloze-g2350",
+   "carousel": [
+    {
+     "label": "Fill in the Blank Sentences",
+     "href": "fill-in-the-blank-sentences-word-bank"
+    },
+    {
+     "label": "Fill in the Blank: Letter Boxes",
+     "href": "fill-in-the-blank-letter-boxes"
+    },
+    {
+     "label": "Fill in the Blank: Choose the Word",
+     "href": "fill-in-the-blank-choose-the-word"
+    },
+    {
+     "label": "Fill in the Blank: Plural Nouns",
+     "href": "fill-in-the-blank-plural-nouns"
+    }
+   ],
+   "title": "Fill in the Blank Story Worksheet for 2nd Grade | Free Printable PDF",
+   "metaDescription": "Cloze story worksheet: three short stories of three sentences each, a shuffled picture strip above every one, and a nine-word bank for nine blanks."
+  },
+  {
+   "slug": "match-the-sentence-to-the-picture",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "match-the-sentence-to-the-picture",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Fill in the Blank Worksheet",
+   "h1": "Match the Sentence to the Picture",
+   "strand": "Reading: Foundational Skills",
+   "standard": "RF.1.4.c",
+   "slotTokens": [
+    "cloze",
+    "grade-1"
+   ],
+   "p1": "Six gapped sentences stand on the left of this 1st grade page and six pictures on the right, each with a coral dot on its inner edge. Nothing is written and no word bank is offered. The sentences on the sheet shown are has black and white stripes, pecks holes in the tree, hops and nibbles a carrot, carries its baby in a pouch, has a very long neck, and rolls in the mud and says oink; the pictures are a pig, a giraffe, a kangaroo, a woodpecker, a rabbit and a zebra.",
+   "p2": "This is the only face of the cloze family with no writing on it at all, which makes it the one to reach for when reading and handwriting need separating. The pictures are deranged — no sentence sits opposite its own animal — so every line crosses the page and a child who works by position gets nothing right. The clue in each sentence is a single distinguishing fact, so the page rewards reading to the end rather than guessing from the first word.",
+   "p3": "One sheet, six sentences, six lines. It is the quickest page in the family and a fair check of whether a child is reading the sentence or the picture, since here the picture is the answer rather than the support. Give it before the letter-box face if spelling is getting in the way of comprehension.",
+   "canonicalDeckSlug": "cloze-g1368",
+   "carousel": [
+    {
+     "label": "Fill in the Blank Sentences",
+     "href": "fill-in-the-blank-sentences-word-bank"
+    },
+    {
+     "label": "Fill in the Blank: Letter Boxes",
+     "href": "fill-in-the-blank-letter-boxes"
+    },
+    {
+     "label": "Fill in the Blank: Choose the Word",
+     "href": "fill-in-the-blank-choose-the-word"
+    },
+    {
+     "label": "Fill in the Blank: Plural Nouns",
+     "href": "fill-in-the-blank-plural-nouns"
+    }
+   ],
+   "title": "Match Sentence to Picture Worksheet for 1st Grade | Free PDF",
+   "metaDescription": "Reading worksheet: six gapped sentences on the left, six animal pictures on the right in a different order. Draw a line from each sentence to its picture."
+  },
+  {
+   "slug": "odd-or-even-two-equal-addends",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-write-two-equal-addends",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Odd and Even Numbers Worksheet",
+   "h1": "Odd or Even? Write Two Equal Addends",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "2.OA.C.3",
+   "slotTokens": [
+    "odd-and-even",
+    "grade-2"
+   ],
+   "p1": "Eight cards fill this 2nd grade page. Each prints a number, an equals sign and three boxes — two of the same size joined by a plus, and a smaller one labelled left over — with an array of dots beneath. The sheet shown works on 17, 3, 18, 12, 8, 13, 14 and 19, and the dots are laid out in rows of ten so they can be ringed two at a time. The child circles the dots in pairs, writes the number as two equal parts, and puts what is left in the small box.",
+   "p2": "This is the standard's own definition rather than a rule of thumb: an even number is one that can be written as a sum of two equal addends, and the small box is where an odd number admits that it cannot. Writing 17 as 8 plus 8 plus 1 keeps the structure visible instead of hiding it in the word odd, and four of the eight numbers are even so the left-over box is filled with nothing half the time.",
+   "p3": "One sheet, eight numbers, twenty-four boxes. The dot arrays do the work for a child who is not yet fluent, so a pencil and a lot of small circles is the intended method, not mental arithmetic. Print it after the odd-house page, where the same pairing was shown rather than done, and before the ones-box page, which drops the dots entirely.",
+   "canonicalDeckSlug": "odd-and-even-g2351",
+   "carousel": [
+    {
+     "label": "Odd and Even Numbers: Odd House, Even House",
+     "href": "odd-house-even-house"
+    },
+    {
+     "label": "Can Two Friends Share Fairly?",
+     "href": "can-two-friends-share-fairly"
+    },
+    {
+     "label": "Odd and Even Numbers Under 100: Look at the Ones Box",
+     "href": "odd-and-even-under-100-ones-box"
+    },
+    {
+     "label": "Odd or Even Sum? Decide Without Adding",
+     "href": "odd-or-even-sum-without-adding"
+    }
+   ],
+   "title": "Two Equal Addends Worksheet for 2nd Grade | Free Printable PDF",
+   "metaDescription": "Odd and even worksheet: eight numbers from 3 to 19, each with a row of dots and boxes for two equal parts plus a small box for what is left over."
+  },
+  {
+   "slug": "can-two-friends-share-fairly",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-can-two-friends-share-fairly",
+    "theme": "zoo_animals",
+    "level": "grade-1"
+   },
+   "eyebrow": "Odd and Even Numbers Worksheet",
+   "h1": "Can Two Friends Share Fairly?",
+   "strand": "Odd and even numbers (readiness)",
+   "slotTokens": [
+    "odd-and-even",
+    "zoo-animals",
+    "grade-1"
+   ],
+   "p1": "Six rows of zoo animals run down this 1st grade page — lemurs, giraffes, cheetahs, lions, wolves and monkeys on the sheet shown. Each row holds between three and eight animals, laid out five to a line, so the smallest piles fit on one line and the bigger ones spill onto a short second line beneath. Beside each pile sit two dashed boxes with a child's name over each, a smaller box marked left over, and the words odd and even to circle. The child deals them out one at a time to each friend, writes what each ends with, records the remainder, then circles the word that fits.",
+   "p2": "Fair sharing is where odd and even first mean something to a six-year-old, and the names over the boxes make a leftover awkward in the right way: one animal that cannot go to either child is a problem, not an abstraction. Every pile size from three to eight appears exactly once, three even and three not, so circling one word down the page wins half the rows.",
+   "p3": "One sheet, six shares, eighteen boxes. Where each pile breaks is worth a question of its own: three, four and five fit on a single line, so that line is the whole pile, while six, seven and eight strand one, two or three animals below. Reading only the short bottom line is right half the time and wrong half the time — ask a child what they actually looked at. Counters help if the pictures are still being worked out in the head.",
+   "canonicalDeckSlug": "odd-and-even-zoo-animals-g1369",
+   "carousel": [
+    {
+     "label": "Odd and Even Numbers: Odd House, Even House",
+     "href": "odd-house-even-house"
+    },
+    {
+     "label": "Odd or Even? Write Two Equal Addends",
+     "href": "odd-or-even-two-equal-addends"
+    },
+    {
+     "label": "Odd and Even Numbers Under 100: Look at the Ones Box",
+     "href": "odd-and-even-under-100-ones-box"
+    },
+    {
+     "label": "Odd or Even Sum? Decide Without Adding",
+     "href": "odd-or-even-sum-without-adding"
+    }
+   ],
+   "title": "Fair Share Odd and Even Worksheet for 1st Grade | Free PDF",
+   "metaDescription": "Odd and even worksheet: six piles of zoo animals, three to eight in each, shared between two named friends. Write each share and the left over, circle odd or even."
+  },
+  {
+   "slug": "odd-and-even-under-100-ones-box",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-under-100-look-at-the-ones-box",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Odd and Even Numbers Worksheet",
+   "h1": "Odd and Even Numbers Under 100: Look at the Ones Box",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "2.OA.C.3",
+   "slotTokens": [
+    "odd-and-even",
+    "grade-2"
+   ],
+   "p1": "Twelve two-digit numbers are laid out on this 2nd grade page in two columns of six. Each is written as two separate boxes under the headings T and O, with the ones box tinted coral, and beside it sit two circles under the words odd and even. A rule is printed in a band across the top: even numbers end in 0, 2, 4, 6 or 8, and odd numbers end in 1, 3, 5, 7 or 9. The sheet shown runs 86, 37, 21, 32, 58, 99, 65, 55, 42, 14, 53 and 70.",
+   "p2": "Splitting the number into two boxes is what teaches the rule rather than merely stating it. A child who has only met odd and even below twenty has to be shown that the tens digit is irrelevant, and printing 86 as an 8 and a tinted 6 makes the irrelevance visible before the rule is applied. Six of the twelve are even and six odd, and the pairs 55 and 65, 42 and 14 keep the same digits in different places.",
+   "p3": "One sheet, twelve numbers, twelve ticks. It is the fastest page in the family once the rule lands, which makes it a good check rather than a lesson. The headings T and O are not explained on the sheet, so say tens and ones as you hand it out. Use it after the dot and sharing faces, so the rule arrives as a shortcut for something already understood.",
+   "canonicalDeckSlug": "odd-and-even-g2352",
+   "carousel": [
+    {
+     "label": "Odd and Even Numbers: Odd House, Even House",
+     "href": "odd-house-even-house"
+    },
+    {
+     "label": "Odd or Even? Write Two Equal Addends",
+     "href": "odd-or-even-two-equal-addends"
+    },
+    {
+     "label": "Can Two Friends Share Fairly?",
+     "href": "can-two-friends-share-fairly"
+    },
+    {
+     "label": "Odd or Even Sum? Decide Without Adding",
+     "href": "odd-or-even-sum-without-adding"
+    }
+   ],
+   "title": "Odd and Even Under 100 Worksheet for 2nd Grade | Free PDF",
+   "metaDescription": "Odd and even worksheet: twelve two-digit numbers split into a tens box and a tinted ones box, with the rule printed at the top and circles to tick."
+  },
+  {
+   "slug": "odd-or-even-sum-without-adding",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-sum-decide-without-adding",
+    "theme": "",
+    "level": "grade-3"
+   },
+   "eyebrow": "Odd and Even Numbers Worksheet",
+   "h1": "Odd or Even Sum? Decide Without Adding",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "3.OA.D.9",
+   "slotTokens": [
+    "odd-and-even",
+    "grade-3"
+   ],
+   "p1": "Twelve additions are printed on this 3rd grade page in two columns, each one a pair of three-digit numbers with the final digit of both underlined in coral. Two circles beside every card wait under the words odd and even. A small table at the top gives three rules: even plus even is even, odd plus odd is even, even plus odd is odd. The sheet shown runs 963 plus 573, 549 plus 858, 861 plus 316 and nine more of the same shape.",
+   "p2": "The instruction says not to add, and the numbers are large enough to mean it: a child who tries to work out 963 plus 573 has missed the page. What is being taught is that parity is a property of numbers that survives addition, so the last digit of each addend is the only thing that matters and the other four digits are noise. Six of the twelve sums are even and six odd, so the table has to be used every time.",
+   "p3": "One sheet, twelve additions, twelve ticks. Note that the table lists even plus odd but not odd plus even, and three of the twelve cards present the odd number first — the point that order does not change the answer is worth making out loud. This is the top of the odd-and-even family and the only face that works above one hundred.",
+   "canonicalDeckSlug": "odd-and-even-g3386",
+   "carousel": [
+    {
+     "label": "Odd and Even Numbers: Odd House, Even House",
+     "href": "odd-house-even-house"
+    },
+    {
+     "label": "Odd or Even? Write Two Equal Addends",
+     "href": "odd-or-even-two-equal-addends"
+    },
+    {
+     "label": "Can Two Friends Share Fairly?",
+     "href": "can-two-friends-share-fairly"
+    },
+    {
+     "label": "Odd and Even Numbers Under 100: Look at the Ones Box",
+     "href": "odd-and-even-under-100-ones-box"
+    }
+   ],
+   "title": "Odd or Even Sum Worksheet for 3rd Grade | Free Printable PDF",
+   "metaDescription": "Odd and even worksheet: twelve three-digit additions with the ones digit underlined and a rule table above. Decide whether each sum is odd or even."
+  },
+  {
+   "slug": "odd-or-even-count-pictures-in-pairs",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-count-the-pictures-in-pairs",
+    "theme": "vehicles",
+    "level": "grade-1"
+   },
+   "eyebrow": "Odd and Even Numbers Worksheet",
+   "h1": "Odd or Even? Count the Pictures in Pairs",
+   "strand": "Odd and even numbers (readiness)",
+   "slotTokens": [
+    "odd-and-even",
+    "vehicles",
+    "grade-1"
+   ],
+   "p1": "Six long rows of vehicles fill this 1st grade page — trams, rockets, helicopters, submarines, ferries and jeeps on the sheet shown — with between eleven and eighteen pictures in each. Every row ends with one dashed box labelled pairs and the two words odd and even to circle. The child rings the pictures two at a time, writes how many rings they made, and then circles the word that fits what happened at the end of the row.",
+   "p2": "Ringing in twos is the physical version of the same argument the dot page makes with printed arrays, and the picture counts here are deliberately large: at eleven and above a child cannot see the parity, so the rings have to be drawn and the last one either closes or it does not. Three rows come out even and three odd. The box asks for the number of pairs rather than the total, which keeps the answer small and the counting honest.",
+   "p3": "One sheet, six rows, eighty-five pictures. It takes longer than the other 1st grade faces because every picture has to be ringed, so give it the time rather than the last ten minutes. This is the pairing face of the odd-and-even family and the one to use before the fair-share page, where the same idea gets two people to argue over.",
+   "canonicalDeckSlug": "odd-and-even-vehicles-g1370",
+   "carousel": [
+    {
+     "label": "Odd and Even Numbers: Odd House, Even House",
+     "href": "odd-house-even-house"
+    },
+    {
+     "label": "Odd or Even? Write Two Equal Addends",
+     "href": "odd-or-even-two-equal-addends"
+    },
+    {
+     "label": "Can Two Friends Share Fairly?",
+     "href": "can-two-friends-share-fairly"
+    },
+    {
+     "label": "Odd and Even Numbers Under 100: Look at the Ones Box",
+     "href": "odd-and-even-under-100-ones-box"
+    }
+   ],
+   "title": "Count in Pairs Odd or Even Worksheet for 1st Grade | Free PDF",
+   "metaDescription": "Odd and even worksheet: six long rows of vehicles, from eleven to eighteen pictures, with a box for the number of pairs and odd or even to circle."
+  },
+  {
+   "slug": "replace-the-name-with-a-pronoun",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-replace-the-name-with-a-pronoun",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Personal Pronouns Worksheet",
+   "h1": "Replace the Name with a Pronoun",
+   "strand": "Language",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronouns",
+    "grade-1"
+   ],
+   "p1": "Eight sentence pairs run down this 1st grade page. The first sentence of each pair names someone and says what they do — Ben and Leo ride a bike, Tom draws a cat, Lily plays with a ball — and the second repeats it with a dashed box where the name stood. A small bank at the top holds three words: She, They and He. The child writes the one that replaces the name. Five of the eight sentences name one person and three name two.",
+   "p2": "Printing the two sentences one above the other is what shows the substitution rather than describing it: the second line is the first line with a single change, and the child can see exactly which word has gone. Every pronoun in the bank is capitalised because each one starts its sentence, which is a small piece of convention picked up along the way. With three words and eight rows each pronoun is used more than once, so the bank is a reminder and not a checklist.",
+   "p3": "One sheet, eight pairs, eight words. It is the first writing face of the pronouns family and the natural step after the circle-the-word page, since the same three words move from a chip to a pen. The rewrite face at 2nd grade asks for the whole sentence instead of the one word.",
+   "canonicalDeckSlug": "pronouns-g1371",
+   "carousel": [
+    {
+     "label": "Personal Pronouns",
+     "href": "personal-pronouns-he-she-they"
+    },
+    {
+     "label": "Who Is He? Pronouns in Sentences",
+     "href": "who-is-he-pronouns-in-sentences"
+    },
+    {
+     "label": "Possessive Pronouns",
+     "href": "possessive-pronouns-his-her-their"
+    },
+    {
+     "label": "Sort the Names: He, She or They",
+     "href": "sort-the-names-he-she-or-they"
+    }
+   ],
+   "title": "Replace the Name with a Pronoun Worksheet 1st Grade | Free PDF",
+   "metaDescription": "Pronouns worksheet: eight sentence pairs, the first naming a person, the second with a box where the name was, and a bank of She, They and He."
+  },
+  {
+   "slug": "who-is-he-pronouns-in-sentences",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-who-is-he-pronouns-in-sentences",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Personal Pronouns Worksheet",
+   "h1": "Who Is He? Pronouns in Sentences",
+   "strand": "Language",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronouns",
+    "grade-2"
+   ],
+   "p1": "Five short scenes fill this 2nd grade page. Each names two people at the top — Lily and Tom are in the kitchen, Ben and Anna are in the park — with their pictures and name cards on the left, and then two more sentences beneath in which the name has been replaced by a boxed He or She. The child draws a line from each boxed pronoun back to the name it stands for, so every scene takes two lines and the page takes ten.",
+   "p2": "Reference is the content here, not substitution: the pronoun is already in place and the question is who it points to. That is the step from 1st grade to 2nd, and it is the one that starts to matter in real reading, where a he three sentences later has to be tracked. Each scene pairs one male and one female name, so the pronoun itself resolves the reference and a child can check their answer against the name without rereading.",
+   "p3": "One sheet, five scenes, ten lines. Because the gender of the two names settles every pair, the sentences beneath can be read for pleasure rather than for clues — which is a fair place for a 2nd grader to start. Follow it with the rewrite face, where the child has to produce the pronoun rather than trace it back.",
+   "canonicalDeckSlug": "pronouns-g2353",
+   "carousel": [
+    {
+     "label": "Personal Pronouns",
+     "href": "personal-pronouns-he-she-they"
+    },
+    {
+     "label": "Replace the Name with a Pronoun",
+     "href": "replace-the-name-with-a-pronoun"
+    },
+    {
+     "label": "Possessive Pronouns",
+     "href": "possessive-pronouns-his-her-their"
+    },
+    {
+     "label": "Sort the Names: He, She or They",
+     "href": "sort-the-names-he-she-or-they"
+    }
+   ],
+   "title": "Pronouns in Sentences Worksheet for 2nd Grade | Free Printable PDF",
+   "metaDescription": "Pronouns worksheet: five short scenes, each naming two people and then using He and She in boxes. Draw a line from each pronoun to the name it stands for."
+  },
+  {
+   "slug": "possessive-pronouns-his-her-their",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-possessive-pronouns",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Personal Pronouns Worksheet",
+   "h1": "Possessive Pronouns",
+   "strand": "Language",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronouns",
+    "grade-2"
+   ],
+   "p1": "Eight rows make up this 2nd grade page. Each shows one or two people, then the thing that belongs to them, then a sentence with a dashed gap: This is Jack. This is ... drum. Three chips reading his, her and their sit beneath. The sheet shown runs Jack with a drum, Eli with a train, Ava with a book, Lily and Emma with a dog, Zoe with a ball, Ben and Max with a hat, Mia and Leo with a kite, and Anna with a robot.",
+   "p2": "Possessives are the other half of the pronoun lesson and the half that is usually rushed, so this face keeps the frame identical across all eight rows and changes only the owner. Three rows have two owners, and those open with These are rather than This is, which is a second grammatical signal pointing at their. The mixed pair, a girl and a boy sharing a kite, is the row that stops a child sorting by the picture alone.",
+   "p3": "One sheet, eight rows, eight circles. The possessive frame is fixed so the page reads quickly, but the shared things are worth a sentence of talk — one hat between two people is their hat, and children often want to give it to whichever of them is nearer. This is the only possessive face in the pronouns family; the other five work on he, she and they.",
+   "canonicalDeckSlug": "pronouns-g2354",
+   "carousel": [
+    {
+     "label": "Personal Pronouns",
+     "href": "personal-pronouns-he-she-they"
+    },
+    {
+     "label": "Replace the Name with a Pronoun",
+     "href": "replace-the-name-with-a-pronoun"
+    },
+    {
+     "label": "Who Is He? Pronouns in Sentences",
+     "href": "who-is-he-pronouns-in-sentences"
+    },
+    {
+     "label": "Sort the Names: He, She or They",
+     "href": "sort-the-names-he-she-or-they"
+    }
+   ],
+   "title": "Possessive Pronouns Worksheet for 2nd Grade | Free Printable PDF",
+   "metaDescription": "Possessive pronouns worksheet: eight rows naming an owner and a belonging, with the chips his, her and their to circle. This is Jack. This is ... drum."
+  },
+  {
+   "slug": "sort-the-names-he-she-or-they",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-sort-the-names-he-she-or-they",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Personal Pronouns Worksheet",
+   "h1": "Sort the Names: He, She or They",
+   "strand": "Language",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronouns",
+    "grade-1"
+   ],
+   "p1": "Ten name cards sit on a shelf across the top of this 1st grade page, each with a picture and a name: Jack, Anna, Lily and Zoe, Max, Tom, Ava and Ben, Emma, Leo, Mia, Eli. Below them stand three tall ruled columns headed he, she and they. The child reads each card and writes the name into the column for the word we would use for that person. Eight cards name one person and two name a pair, one of which is a girl and a boy.",
+   "p2": "Sorting rather than choosing is what this face adds: a child sees all ten at once and has to build three groups, which surfaces the rule instead of testing it card by card. The two pair cards are the ones that make the third column exist at all, and because one of them is mixed, they cannot be described as the word for girls or the word for boys. Writing the names rather than ticking them adds a little handwriting to the reasoning.",
+   "p3": "One sheet, ten names, three columns. The columns are printed the same height with more lines than any of them will need, so five names under he and two under they is the expected, uneven finish. Use it after the circle-the-word page and alongside the replace-the-name face, which takes the same three words into sentences.",
+   "canonicalDeckSlug": "pronouns-g1372",
+   "carousel": [
+    {
+     "label": "Personal Pronouns",
+     "href": "personal-pronouns-he-she-they"
+    },
+    {
+     "label": "Replace the Name with a Pronoun",
+     "href": "replace-the-name-with-a-pronoun"
+    },
+    {
+     "label": "Who Is He? Pronouns in Sentences",
+     "href": "who-is-he-pronouns-in-sentences"
+    },
+    {
+     "label": "Possessive Pronouns",
+     "href": "possessive-pronouns-his-her-their"
+    }
+   ],
+   "title": "Sort the Names He She or They Worksheet 1st Grade | Free PDF",
+   "metaDescription": "Pronouns sorting worksheet: ten name cards on a shelf and three ruled columns headed he, she and they. Write each name under the word we use."
+  },
+  {
+   "slug": "rewrite-the-sentence-with-a-pronoun",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-rewrite-the-sentence-with-a-pronoun",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Personal Pronouns Worksheet",
+   "h1": "Rewrite the Sentence with a Pronoun",
+   "strand": "Language",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronouns",
+    "grade-2"
+   ],
+   "p1": "Eight sentences are printed one to a row on this 2nd grade page, each with a picture of the people it names and a set of three-line handwriting rules beneath it. The sheet shown runs Ben rides a bike, Jack and Anna jump rope, Ava and Zoe eat an apple, Tom and Leo play with a ball, Max goes to the park, Lily feeds the dog, Eli paints a picture and Emma builds a tower. The child writes each sentence out again with a pronoun in place of the name.",
+   "p2": "This is the only face in the pronouns family that asks for a whole sentence, and copying the rest of it is not busywork: the capital letter moves on to the pronoun, the full stop has to be kept, and a child who writes he rides a bike with a small h discovers what the frame was doing for them on the earlier pages. No pronoun is offered anywhere on the sheet, so the word has to come from the child.",
+   "p3": "One sheet, eight sentences, twenty-four lines. It is the longest page in the family to complete and the one that shows most clearly whether the idea has landed. Print it last, after the circling, the single-word and the reference faces; four of the eight sentences name two people, so they comes up as often as he and she together.",
+   "canonicalDeckSlug": "pronouns-g2355",
+   "carousel": [
+    {
+     "label": "Personal Pronouns",
+     "href": "personal-pronouns-he-she-they"
+    },
+    {
+     "label": "Replace the Name with a Pronoun",
+     "href": "replace-the-name-with-a-pronoun"
+    },
+    {
+     "label": "Who Is He? Pronouns in Sentences",
+     "href": "who-is-he-pronouns-in-sentences"
+    },
+    {
+     "label": "Possessive Pronouns",
+     "href": "possessive-pronouns-his-her-their"
+    }
+   ],
+   "title": "Rewrite with a Pronoun Worksheet for 2nd Grade | Free Printable PDF",
+   "metaDescription": "Pronouns writing worksheet: eight sentences naming people, each over three ruled lines. Write the whole sentence again using a pronoun instead."
+  },
+  {
+   "slug": "match-the-question-to-the-answer",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-match-the-question-to-the-answer",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Question Words Worksheet",
+   "h1": "Match the Question to the Answer",
+   "strand": "Language",
+   "standard": "L.K.1.d",
+   "slotTokens": [
+    "question-words",
+    "grade-1"
+   ],
+   "p1": "Five questions stand on the left of this 1st grade page and five answers on the right, each answer carrying a picture beside its words. The questions on the sheet shown are how many meerkats Anna finds, what Ava draws, where Jack reads, who likes the coconut and when Eli sleeps; the answers are Zoe, at the river, the raspberry, at seven o'clock on a clock face, and three meerkats. The child draws a line from each question to the answer that fits it.",
+   "p2": "Five different question words appear once each, which makes the page a test of the words themselves rather than of the sentences around them: a child who knows that where wants a place can find at the river without reading past the first word. The answers are deliberately short and each is a different kind of thing — a name, a place, an object, a time, a number — so the question word alone is enough to sort them.",
+   "p3": "One sheet, five questions, five lines. No writing at all, which makes it a quick check after the highlighting page and a fair one for a child whose handwriting is slower than their reading. It is also the only face in the family where the question is given whole; on every other page the child supplies either the question word or the question itself.",
+   "canonicalDeckSlug": "question-words-g1373",
+   "carousel": [
+    {
+     "label": "Question Words: Who, What, Where",
+     "href": "question-words-who-what-where"
+    },
+    {
+     "label": "Fill In the Question Word",
+     "href": "fill-in-the-question-word"
+    },
+    {
+     "label": "Sort the Answers: Who, What or Where",
+     "href": "sort-the-answers-who-what-where"
+    },
+    {
+     "label": "Write the Question",
+     "href": "write-the-question-from-the-answer"
+    }
+   ],
+   "title": "Match Question to Answer Worksheet for 1st Grade | Free PDF",
+   "metaDescription": "Question words worksheet: five written questions on the left and five short answers with pictures on the right, in a different order. Draw the lines."
+  },
+  {
+   "slug": "fill-in-the-question-word",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-fill-in-the-question-word",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Question Words Worksheet",
+   "h1": "Fill In the Question Word",
+   "strand": "Language",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "question-words",
+    "grade-1"
+   ],
+   "p1": "Six question-and-answer pairs fill this 1st grade page. Each begins with a dashed box where the question word should be, followed by the rest of the question, and underneath it the answer sentence with the relevant part highlighted. A bank of five words runs across the top: How many, What, Who, Where and When. The sheet shown pairs four tigers with a how-many question, on the mountain with a where question, the ship with a what question, and at eight o'clock with a when question.",
+   "p2": "Working backwards from the answer is the move this face adds, and the highlight is the hinge: the child reads what is marked in the answer and then chooses the word that would have asked for it. Because the bank holds five words and the page holds six questions, one of them is used twice, which is worth pointing out — a closed bank usually means one use each, and here it does not.",
+   "p3": "One sheet, six questions, six words. How many is the long one and the one children most often forget is a question word at all, so it is printed as a single chip rather than two. Use this after the matching page, when the five words are recognised, and before the 2nd grade face that asks for the whole question rather than its first word.",
+   "canonicalDeckSlug": "question-words-g1374",
+   "carousel": [
+    {
+     "label": "Question Words: Who, What, Where",
+     "href": "question-words-who-what-where"
+    },
+    {
+     "label": "Match the Question to the Answer",
+     "href": "match-the-question-to-the-answer"
+    },
+    {
+     "label": "Sort the Answers: Who, What or Where",
+     "href": "sort-the-answers-who-what-where"
+    },
+    {
+     "label": "Write the Question",
+     "href": "write-the-question-from-the-answer"
+    }
+   ],
+   "title": "Fill In the Question Word Worksheet for 1st Grade | Free PDF",
+   "metaDescription": "Question words worksheet: six question-and-answer pairs with the first word missing, and a bank of How many, What, Who, Where and When to write in."
+  },
+  {
+   "slug": "sort-the-answers-who-what-where",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-sort-the-answers-who-what-or-where",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Question Words Worksheet",
+   "h1": "Sort the Answers: Who, What or Where",
+   "strand": "Language",
+   "standard": "L.K.1.d",
+   "slotTokens": [
+    "question-words",
+    "grade-1"
+   ],
+   "p1": "Nine word tiles sit on a shelf at the top of this 1st grade page and three tall ruled bins stand beneath, headed Who?, What? and Where?. The tiles on the sheet shown are avocado, at the pool, Ben, Anna, Lily, foal, zebra, in the tent and in bed. The child reads each tile and writes it into the bin for the question it would answer. Three tiles are names, three are bare things and three are phrases beginning with a preposition, so each bin takes exactly three.",
+   "p2": "This page reverses the base sheet. There the question word was chosen for a piece of a sentence; here the pieces come first and the child has to see the category in them. The three-three-three split is what stops it being a guess, and the shape of the tiles helps: a capital letter marks the names and a small word like at or in marks the places, which is a piece of grammar noticed rather than taught.",
+   "p3": "One sheet, nine tiles, three bins. The bins are printed the same height with more lines than three names will need, so expect the columns to end well short of the bottom. Give it after the highlighting page and before the fill-in face; it is the only one in the family where nothing is a sentence and the words stand entirely on their own.",
+   "canonicalDeckSlug": "question-words-g1375",
+   "carousel": [
+    {
+     "label": "Question Words: Who, What, Where",
+     "href": "question-words-who-what-where"
+    },
+    {
+     "label": "Match the Question to the Answer",
+     "href": "match-the-question-to-the-answer"
+    },
+    {
+     "label": "Fill In the Question Word",
+     "href": "fill-in-the-question-word"
+    },
+    {
+     "label": "Write the Question",
+     "href": "write-the-question-from-the-answer"
+    }
+   ],
+   "title": "Sort the Answers Who What Where Worksheet 1st Grade | Free PDF",
+   "metaDescription": "Question words worksheet: nine word tiles — names, things and place phrases — and three ruled bins headed Who, What and Where. Write each tile in its bin."
+  },
+  {
+   "slug": "write-the-question-from-the-answer",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-write-the-question",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Question Words Worksheet",
+   "h1": "Write the Question",
+   "strand": "Language",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "question-words",
+    "grade-2"
+   ],
+   "p1": "Eight answers are printed on this 2nd grade page, one to a row, each with a picture of the person it names and a phrase highlighted in coral. A single wide set of handwriting rules sits under every one. The sheet shown highlights Mia, Eli, in the kitchen, at three o'clock, the number two, the calf, the nectarine and at home. The child writes out the whole question that would have asked for the highlighted part, and supplies the question mark themselves.",
+   "p2": "There is no bank and no first word given, which is what makes this the productive face of the family. Writing the question means more than choosing its opening word: Anna sleeps at three o'clock has to become When does Anna sleep, so the verb changes shape and an auxiliary appears from nowhere. That inversion is the real 2nd grade content, and it is the reason this page needs a demonstration before it needs a pen.",
+   "p3": "One sheet, eight answers, eight questions. Work the first one through on the board — the highlighted part, the question word, then the rest of the sentence rearranged — and leave it up while they write. Two of the eight highlight a name and so open with Who, which needs no inversion at all; those are the ones to start a hesitant child on.",
+   "canonicalDeckSlug": "question-words-g2356",
+   "carousel": [
+    {
+     "label": "Question Words: Who, What, Where",
+     "href": "question-words-who-what-where"
+    },
+    {
+     "label": "Match the Question to the Answer",
+     "href": "match-the-question-to-the-answer"
+    },
+    {
+     "label": "Fill In the Question Word",
+     "href": "fill-in-the-question-word"
+    },
+    {
+     "label": "Sort the Answers: Who, What or Where",
+     "href": "sort-the-answers-who-what-where"
+    }
+   ],
+   "title": "Write the Question Worksheet for 2nd Grade | Free Printable PDF",
+   "metaDescription": "Question words worksheet: eight answer sentences with part of each highlighted, and a ruled line under every one. Write the question that asks for it."
+  },
+  {
+   "slug": "ask-about-the-picture-why-and-how",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-ask-about-the-picture-why-and-how",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Question Words Worksheet",
+   "h1": "Ask About the Picture: Why and How",
+   "strand": "Language",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "question-words",
+    "grade-2"
+   ],
+   "p1": "Four picture tiles run across the top of this 2nd grade page — on the sheet shown a person, a pear, a house and a clock face set to nine o'clock. Beneath them sit six wide sets of handwriting rules, and each one already carries its first word in grey: Who, What, Where, When, Why and How. The child finishes every line so that it becomes a question about the pictures. Nothing else is printed, and no answer is expected anywhere on the sheet.",
+   "p2": "The title names the two starters that are new here. Who, what, where and when have all appeared on earlier faces of the family; why and how have not, because neither can be answered by pointing at a thing, and both need the child to invent a situation rather than read one. That is the open end of the question-word ladder and the reason this page has no right answers — a good why is the one nobody else at the table thought of.",
+   "p3": "One sheet, six questions. The four tiles are separate pictures rather than one scene, so decide as a class what is happening between them before anyone writes; the why and how lines have very little to work with otherwise. Use it to close a question-words unit, and read the six finished questions aloud — they are usually better than the pictures deserve.",
+   "canonicalDeckSlug": "question-words-g2357",
+   "carousel": [
+    {
+     "label": "Question Words: Who, What, Where",
+     "href": "question-words-who-what-where"
+    },
+    {
+     "label": "Match the Question to the Answer",
+     "href": "match-the-question-to-the-answer"
+    },
+    {
+     "label": "Fill In the Question Word",
+     "href": "fill-in-the-question-word"
+    },
+    {
+     "label": "Sort the Answers: Who, What or Where",
+     "href": "sort-the-answers-who-what-where"
+    }
+   ],
+   "title": "Ask Why and How Worksheet for 2nd Grade | Free Printable PDF",
+   "metaDescription": "Question words worksheet: four picture tiles and six ruled lines, each already begun with Who, What, Where, When, Why or How. Finish each question."
+  },
+  {
+   "slug": "rounding-up-or-down-sort-the-numbers",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "rounding-up-or-down-sort-the-numbers",
+    "theme": "",
+    "level": "grade-3"
+   },
+   "eyebrow": "Rounding Worksheet",
+   "h1": "Rounding Up or Down? Sort the Numbers",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "rounding",
+    "grade-3"
+   ],
+   "p1": "Twelve numeral chips sit in a panel on this 3rd grade page — 481, 52, 329, 418, 85, 65, 549, 647, 426, 24, 72 and 13 on the sheet shown — and two large bins stand below, one headed round down with a falling arrow and one headed round up with a rising one. Each bin is divided into nine empty cells. The child decides which way each number goes to the nearest ten and writes it into a cell in the right bin.",
+   "p2": "The rounded answer is never written on this page, which is the whole idea: the task is the decision and nothing else, so a child who can round but cannot say why gets no cover from the arithmetic. Six of the chips are two digits and six are three, and two of them end in five, so the rule has to be applied rather than felt. Seven go up and five go down, an uneven split that stops the bins being filled alternately.",
+   "p3": "One sheet, twelve chips, two bins. Each bin is printed with nine cells, more than either will need, so several will be left empty and that is expected rather than a sign of a missed number. This is the decision face of the rounding family; use it between the nearest-ten base page and the nearest-hundred sheet, where the same decision moves one place to the left.",
+   "canonicalDeckSlug": "rounding-g3387",
+   "carousel": [
+    {
+     "label": "Rounding to the Nearest 10",
+     "href": "rounding-to-the-nearest-10"
+    },
+    {
+     "label": "Rounding to the Nearest 100",
+     "href": "rounding-to-the-nearest-100"
+    },
+    {
+     "label": "Round, then Estimate the Sum",
+     "href": "round-then-estimate-the-sum"
+    },
+    {
+     "label": "Which Numbers Round to 50?",
+     "href": "which-numbers-round-to-50"
+    }
+   ],
+   "title": "Rounding Up or Down Worksheet for 3rd Grade | Free Printable PDF",
+   "metaDescription": "Rounding worksheet: twelve numbers in circles and two bins headed round down and round up. Write each number into the bin its ones digit sends it to."
+  },
+  {
+   "slug": "rounding-to-the-nearest-100",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "rounding-to-the-nearest-100",
+    "theme": "",
+    "level": "grade-3"
+   },
+   "eyebrow": "Rounding Worksheet",
+   "h1": "Rounding to the Nearest 100",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "rounding",
+    "grade-3"
+   ],
+   "p1": "Fourteen three-digit numbers fill this 3rd grade page in two columns, each with a single dashed box beside it. The reference band at the top works 472 into 500 with the tens digit marked in coral, and reprints the digit strip with 0 to 4 under a falling arrow and 5 to 9 under a rising one. The sheet shown runs 462, 350, 572, 467, 236, 397, 489, 328, 317, 874, 540, 851, 848 and 532. Every answer is a whole hundred.",
+   "p2": "One place to the left is the only change from the base page, and it is the change children get wrong, because the digit that decides is no longer the last one. That is why the instruction names the tens digit outright and why the worked example marks the 7 of 472 rather than the 2. Two of the fourteen sit exactly halfway — 350 and 540 — and 397 is the one that rounds up across a hundred boundary, from three hundred and something to 400.",
+   "p3": "One sheet, fourteen numbers, fourteen boxes. It is deliberately the same shape as the nearest-ten base page so the two can be set side by side and compared; the numbers are all between 101 and 949, so no answer is 0 or 1000. Print the round-to-both face afterwards, which asks for the ten and the hundred of one number at the same time.",
+   "canonicalDeckSlug": "rounding-g3388",
+   "carousel": [
+    {
+     "label": "Rounding to the Nearest 10",
+     "href": "rounding-to-the-nearest-10"
+    },
+    {
+     "label": "Rounding Up or Down? Sort the Numbers",
+     "href": "rounding-up-or-down-sort-the-numbers"
+    },
+    {
+     "label": "Round, then Estimate the Sum",
+     "href": "round-then-estimate-the-sum"
+    },
+    {
+     "label": "Which Numbers Round to 50?",
+     "href": "which-numbers-round-to-50"
+    }
+   ],
+   "title": "Rounding to the Nearest 100 Worksheet for 3rd Grade | Free PDF",
+   "metaDescription": "Rounding worksheet: fourteen three-digit numbers each with one box, rounded to the nearest hundred by reading the tens digit. Worked example 472 to 500."
+  },
+  {
+   "slug": "round-then-estimate-the-sum",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "round-then-estimate-the-sum",
+    "theme": "",
+    "level": "grade-3"
+   },
+   "eyebrow": "Rounding Worksheet",
+   "h1": "Round, then Estimate the Sum",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "rounding",
+    "grade-3"
+   ],
+   "p1": "Eight additions are printed one to a row on this 3rd grade page, each followed by three dashed boxes: one for the first number rounded, one for the second, and one for the two rounded numbers added. The reference band works 23 plus 48 into 20 plus 50 equals 70. The sheet shown runs 12 plus 51, 29 plus 14, 59 plus 19, 31 plus 32, 35 plus 28, 15 plus 36, 38 plus 52 and 63 plus 27, so every estimate stays at or under one hundred.",
+   "p2": "This is the only face in the family that puts rounding to work, and the three boxes keep the two steps apart so a child cannot add first and round afterwards. Both numbers have to be handled before the addition can start, which is twice the decision of the base page for the same number of rows. Two of the eight estimates happen to land on the exact sum, which is a useful thing to notice and a good question to ask at the end.",
+   "p3": "One sheet, eight additions, twenty-four boxes. The addends are all two digits and the totals stay inside a hundred, so the final column can be done in the head once the rounding is on the page. Give it after the base and the sort faces, when rounding is quick enough that it does not swamp the estimating it is supposed to serve.",
+   "canonicalDeckSlug": "rounding-g3389",
+   "carousel": [
+    {
+     "label": "Rounding to the Nearest 10",
+     "href": "rounding-to-the-nearest-10"
+    },
+    {
+     "label": "Rounding Up or Down? Sort the Numbers",
+     "href": "rounding-up-or-down-sort-the-numbers"
+    },
+    {
+     "label": "Rounding to the Nearest 100",
+     "href": "rounding-to-the-nearest-100"
+    },
+    {
+     "label": "Which Numbers Round to 50?",
+     "href": "which-numbers-round-to-50"
+    }
+   ],
+   "title": "Round and Estimate the Sum Worksheet for 3rd Grade | Free PDF",
+   "metaDescription": "Estimation worksheet: eight two-digit additions, each with a box for the first rounded number, a box for the second, and a box for their total."
+  },
+  {
+   "slug": "which-numbers-round-to-50",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "which-numbers-round-to-50",
+    "theme": "",
+    "level": "grade-3"
+   },
+   "eyebrow": "Rounding Worksheet",
+   "h1": "Which Numbers Round to 50?",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "rounding",
+    "grade-3"
+   ],
+   "p1": "Sixteen numbers sit in a loose staggered field on this 3rd grade page, with a single coral target pill above them reading approximately 50. The numbers on the sheet shown are 31, 46, 36, 55, 49, 44, 63, 51, 47, 45, 35, 58, 52, 64, 57 and 32. The child circles every one that rounds to fifty and leaves the rest. Six of the sixteen qualify. The reference band at the top works a different example, 83 into 80, so the target is not given away twice.",
+   "p2": "Running the rule backwards is what this face is for. Instead of one number with one answer, the child is given the answer and asked which numbers could have produced it, which is the question that reveals whether rounding is understood as a range or only as a procedure. Both edges of that range are on the page: 45 is in and 44 is out, 54 would be in and 55 is out, so the halfway rule decides two of the sixteen on its own.",
+   "p3": "One sheet, sixteen numbers, six to circle. Ask afterwards for the smallest and the largest number that would have worked — 45 and 54 — because naming the two ends is the understanding this page is testing. It is the only inverse face in the rounding family and the one to use when the forward pages have become easy.",
+   "canonicalDeckSlug": "rounding-g3390",
+   "carousel": [
+    {
+     "label": "Rounding to the Nearest 10",
+     "href": "rounding-to-the-nearest-10"
+    },
+    {
+     "label": "Rounding Up or Down? Sort the Numbers",
+     "href": "rounding-up-or-down-sort-the-numbers"
+    },
+    {
+     "label": "Rounding to the Nearest 100",
+     "href": "rounding-to-the-nearest-100"
+    },
+    {
+     "label": "Round, then Estimate the Sum",
+     "href": "round-then-estimate-the-sum"
+    }
+   ],
+   "title": "Which Numbers Round to 50 Worksheet for 3rd Grade | Free PDF",
+   "metaDescription": "Rounding worksheet: a target of 50 above a staggered field of sixteen numbers from 31 to 64. Circle every one that rounds to the ten at the top."
+  },
+  {
+   "slug": "rounding-to-the-nearest-10-and-100",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "rounding-to-the-nearest-10-and-100",
+    "theme": "",
+    "level": "grade-3"
+   },
+   "eyebrow": "Rounding Worksheet",
+   "h1": "Rounding to the Nearest 10 and 100",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "rounding",
+    "grade-3"
+   ],
+   "p1": "Eight three-digit numbers run down this 3rd grade page, each with two dashed boxes beside it under a pair of headings: nearest ten and nearest hundred. The sheet shown asks for 159, 494, 791, 305, 353, 535, 567 and 556. The reference band works the same number, 472, twice over — once to 470 with the ones digit marked and once to 500 with the tens digit marked — so the two answers of one number are shown side by side before any are asked for.",
+   "p2": "Every other rounding face names one place and keeps it. This one puts both on the same line, which is the only way to show that rounding has no single answer until the place is fixed: 494 is 490 and it is also 500, and neither is wrong. The digit that decides moves for each box, so a child must relocate it eight times over rather than settle into one habit — the ones digit for the first box, the tens digit for the second.",
+   "p3": "One sheet, eight numbers, sixteen boxes. Go back to the original number for the second box rather than rounding the first answer again; on this sheet the two routes agree, but they do not always, and the habit is worth forming here. Print it last in the rounding family, after the separate nearest-ten and nearest-hundred pages it puts together.",
+   "canonicalDeckSlug": "rounding-g3391",
+   "carousel": [
+    {
+     "label": "Rounding to the Nearest 10",
+     "href": "rounding-to-the-nearest-10"
+    },
+    {
+     "label": "Rounding Up or Down? Sort the Numbers",
+     "href": "rounding-up-or-down-sort-the-numbers"
+    },
+    {
+     "label": "Rounding to the Nearest 100",
+     "href": "rounding-to-the-nearest-100"
+    },
+    {
+     "label": "Round, then Estimate the Sum",
+     "href": "round-then-estimate-the-sum"
+    }
+   ],
+   "title": "Rounding to 10 and 100 Worksheet for 3rd Grade | Free Printable PDF",
+   "metaDescription": "Rounding worksheet: eight three-digit numbers with two boxes each, one headed nearest ten and one nearest hundred, so one number gets two answers."
   }
  ]
 }

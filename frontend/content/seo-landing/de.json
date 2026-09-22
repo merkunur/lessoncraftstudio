@@ -115684,6 +115684,2500 @@
    ],
    "title": "Teilen mit Rest am Zahlenstrahl 3. Klasse | zum Ausdrucken PDF kostenlos",
    "metaDescription": "Teilen mit Rest am Zahlenstrahl: drei Strahlen mit einem Punkt auf der Zahl, keine Sprünge vorgezeichnet – zurückhüpfen und schreiben, wo man landet. Kostenlos als PDF."
+  },
+  {
+   "slug": "tangram-figuren-legen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "base",
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Tangram-Arbeitsblatt · Vorschule",
+   "h1": "Tangram: sieben Teile ausschneiden und zwei Figuren legen",
+   "strand": "Raum und Form",
+   "standard": "K.G.B.6",
+   "slotTokens": [
+    "tangram",
+    "vorschule"
+   ],
+   "p1": "Oben links liegt ein einziges Quadrat, mit einer kleinen Schere am Rand: Es ist bereits in die sieben Tangram-Teile zerlegt – zwei große Dreiecke, ein mittleres, zwei kleine, ein Quadrat und ein Parallelogramm. Daneben steht eine Legende aus fünf Farbfeldern, jedes neben der Form, die es meint; zwei Farben gelten für je zwei gleich große Dreiecke. Unten auf dem Blatt warten zwei Umrisse in Originalgröße: eine sitzende Katze und ein liegendes Rechteck. In beiden sind die Nahtlinien schon gedruckt, jedes Teil hat also einen sichtbaren Platz. Das Kind malt an, schneidet an den Linien aus und legt die Teile genau auf.",
+   "p2": "Dass die Nahtlinien mitgedruckt sind, ist die eigentliche Entscheidung dieser Seite. Ein Kind im letzten Kindergartenjahr kann eine Katze noch nicht aus einem schwarzen Schattenbild erschließen; es soll zuerst erfahren, dass sieben flache Formen zusammen etwas ganz anderes ergeben als jede Form für sich. Genau das nennt der Lehrplan Mathematik unter Raum und Form: Figuren zerlegen, zusammensetzen und ihre Lage verändern. Das Ausmalen nach Legende bringt einen zweiten Gewinn – das Kind muss die drei Dreiecksgrößen unterscheiden, bevor es überhaupt zur Schere greift, und merkt dabei, dass zwei Teile dieselbe Farbe tragen, weil sie deckungsgleich sind.",
+   "p3": "Eine Seite in Farbe, am besten auf festeres Papier oder auf Karton geklebt; die ausgeschnittenen Teile halten dann das ganze Schuljahr. Wer keine Zeit zum Schneiden hat, druckt das Blatt zweimal und lässt die zweite Seite als Vorlage liegen. Danach passt das Blatt mit den zwei- und dreiteiligen Formen, auf dem die Linien fehlen und selbst eingezeichnet werden.",
+   "canonicalDeckSlug": "tangram-k353",
+   "carousel": [
+    {
+     "label": "Einfache Tangram-Formen aus zwei und drei Teilen: die Linien einzeichnen",
+     "href": "tangram-linien-zeichnen-2-und-3-teile"
+    },
+    {
+     "label": "Vier Tangram-Schattenbilder mit allen sieben Teilen nachlegen",
+     "href": "tangram-vier-schattenbilder"
+    },
+    {
+     "label": "Welches Tangram-Teil passt genau in die Lücke?",
+     "href": "tangram-welches-teil-fehlt"
+    },
+    {
+     "label": "Welche Tangram-Lösung liegt genauso wie das Schattenbild?",
+     "href": "tangram-loesung-zum-schattenbild"
+    }
+   ],
+   "title": "Tangram-Figuren: 7 Teile ausschneiden und legen | PDF zum Ausdrucken",
+   "metaDescription": "Ein Tangram zum Ausschneiden, eine Legende mit fünf Farben und zwei Umrissfiguren mit eingezeichneten Nahtlinien. Kostenlos als PDF drucken."
+  },
+  {
+   "slug": "der-koerper-koerperteile-beschriften",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "base",
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Körper-Arbeitsblatt · Vorschule",
+   "h1": "Der Körper: sechs Körperteile beschriften",
+   "strand": "Sachunterricht – Körper und Gesundheit",
+   "slotTokens": [
+    "der-koerper",
+    "vorschule"
+   ],
+   "p1": "Oben steht ein Wortkasten mit sechs Wörtern: Auge, Arm, Hand, Fuß, Ellbogen und Ohr. Darunter steht eine große, freundlich gezeichnete Figur, an sechs Stellen mit einem orangen Ring markiert – am Ohr, am Auge, oben am Oberarm, am Ellbogen, an der Hand und am Fuß. Von jeder Markierung führt eine Linie nach außen zu einem Schreibkästchen mit Lineatur, drei links und drei rechts. Das Kind schreibt jedes Wort auf die Linie, die auf diesen Körperteil zeigt. Der Ring am Ohr sitzt direkt auf dem Ohr und verdeckt es fast; der Ring am Auge umschließt die Pupille.",
+   "p2": "Sechs Wörter für sechs Linien – es bleibt nichts übrig, und genau das trägt die Seite: Wer fünf sicher zuordnet, findet das sechste durch Ausschluss. Die eigentliche Arbeit ist nicht das Erkennen, sondern das Schreiben; die Lineatur mit Mittellinie zeigt, wo die kleinen Buchstaben hingehören, und Fuß bringt gleich das ß mit. Der Lehrplan für den Sachunterricht beginnt beim eigenen Körper, und das Beschriften verbindet ihn mit dem Schriftspracherwerb. Ein Hinweis für die Vorbereitung: Arm und Ellbogen sind auf derselben Seite markiert und liegen nur wenige Zentimeter auseinander – der Ellbogen sitzt genau auf der Beuge.",
+   "p3": "Ein Blatt in Farbe; die orangen Ringe sind das einzige Farbsignal und im Graudruck noch erkennbar. Vor dem Schreiben lohnt sich eine Runde am eigenen Körper: zeigen, benennen, dann erst schreiben. Wer noch nicht schreibt, nutzt stattdessen die Zählfassung oder das Blatt zum Ausmalen nach Legende; wer schon sicher schreibt, nimmt die Fassung mit Buchstabenkästchen.",
+   "canonicalDeckSlug": "der-koerper-k354",
+   "carousel": [
+    {
+     "label": "Der Körper: Wie viele hast du davon?",
+     "href": "der-koerper-wie-viele-hast-du"
+    },
+    {
+     "label": "Der Körper: nach Legende ausmalen",
+     "href": "der-koerper-nach-legende-ausmalen"
+    },
+    {
+     "label": "Der Körper: Wörter mit Buchstabenkästchen schreiben",
+     "href": "der-koerper-woerter-in-kaestchen-schreiben"
+    },
+    {
+     "label": "Der Körper: Was fehlt dieser Figur?",
+     "href": "der-koerper-was-fehlt-der-figur"
+    }
+   ],
+   "title": "Der Körper: Körperteile beschriften, Vorschule | PDF zum Ausdrucken",
+   "metaDescription": "Eine große Figur mit sechs orangen Markierungen und sechs Schreiblinien: Auge, Arm, Hand, Fuß, Ellbogen und Ohr aus dem Wortkasten eintragen."
+  },
+  {
+   "slug": "die-fuenf-sinne-bild-und-sinnesorgan-verbinden",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "base",
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Sinne-Arbeitsblatt · Vorschule",
+   "h1": "Die fünf Sinne: Bild und Körperteil verbinden",
+   "strand": "Sachunterricht – Körper und Sinne",
+   "slotTokens": [
+    "die-fuenf-sinne",
+    "vorschule"
+   ],
+   "p1": "Zwei Spalten mit je fünf Karten. Links stehen fünf Dinge – ein Lavendelzweig, der Mond, ein Klavier, ein Schwamm und eine Tafel Schokolade; rechts fünf Körperteile – eine Hand, ein Ohr, eine Nase, eine Zunge und ein Auge. Zwischen beiden Spalten sitzt je ein oranger Punkt. Das Kind zieht eine Linie von jedem Ding zu dem Körperteil, den es dafür braucht. Die Zuordnung geht genau auf: fünf zu fünf, keine Karte bleibt übrig, und keine wird zweimal gebraucht.",
+   "p2": "Fünf Sinne, fünf Dinge – die Seite bleibt so einfach wie möglich, damit die Zuordnung selbst das Thema ist. Der Mond ist die sorgfältigste Wahl darunter: Er ist das einzige Ding auf dem Blatt, das man wirklich nur sehen kann. Alle anderen lassen sich auch anfassen oder ansehen, und genau darüber lohnt sich das Gespräch – welchen Sinn brauche ich zuerst, welchen könnte ich zusätzlich benutzen? Der Sachunterricht führt die Sinne über solche Alltagsdinge ein, nicht über Fachwörter; auf dem Blatt steht deshalb kein einziges Wort außer der Anweisung.",
+   "p3": "Ein Farbdruck auf einer Seite, ein Stift und ein Lineal, wenn die Linien gerade werden sollen. Als Einstieg eignen sich echte Gegenstände auf dem Tisch, die reihum erraten werden. Danach führen zwei Wege weiter: das Sortierblatt mit fünf Kästen für zehn Bilder oder die Fassung, auf der zu jedem Bild der passende Körperteil eingekreist wird.",
+   "canonicalDeckSlug": "die-fuenf-sinne-k355",
+   "carousel": [
+    {
+     "label": "Zehn Bilder in fünf Sinneskästen sortieren",
+     "href": "die-fuenf-sinne-bilder-nach-sinn-sortieren"
+    },
+    {
+     "label": "Welchen Sinn brauchst du dafür? Acht Bilder, fünf Organe",
+     "href": "die-fuenf-sinne-welchen-sinn-brauchst-du"
+    },
+    {
+     "label": "Die fünf Sinne: In jeder Reihe passt ein Bild nicht dazu",
+     "href": "die-fuenf-sinne-was-passt-nicht-dazu"
+    },
+    {
+     "label": "Sinnesorgane beschriften: hören, fühlen, sehen, riechen, schmecken",
+     "href": "sinnesorgane-mit-dem-sinneswort-beschriften"
+    }
+   ],
+   "title": "Die fünf Sinne verbinden, Vorschule | PDF zum Ausdrucken",
+   "metaDescription": "Links Lavendel, Mond, Klavier, Schwamm und Schokolade, rechts Hand, Ohr, Nase, Zunge und Auge: jedes Bild mit dem passenden Sinnesorgan verbinden."
+  },
+  {
+   "slug": "wettersymbole-symbol-und-wort-verbinden",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "base",
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Wetter-Arbeitsblatt · Vorschule",
+   "h1": "Wettersymbole: Symbol und Wort verbinden",
+   "strand": "Sachunterricht – Natur und Leben",
+   "slotTokens": [
+    "wettersymbole",
+    "vorschule"
+   ],
+   "p1": "Links stehen sechs Wettersymbole in runden Rahmen untereinander: eine Wolke mit Regentropfen, eine Sonne, ein Regenbogen, eine graue Wolke ohne Niederschlag, eine dunkle Wolke mit Blitz und eine Schneeflocke. Rechts stehen sechs Wortkarten – Gewitter, Schnee, Wolke, Sonne, Regen, Regenbogen – in einer anderen Reihenfolge, sodass keine Zeile auf sich selbst zeigt. Das Kind zieht sechs Linien. Die drei Wolkenbilder sind das eigentliche Unterscheidungsproblem: nur Tropfen, nur Wolke, Wolke mit Blitz.",
+   "p2": "Wettersymbole sind eine Zeichensprache, und diese Seite führt sie als solche ein: Ein Bild steht für ein Wort, nicht für eine Geschichte. Die drei Wolkenvarianten bringen die entscheidende Unterscheidung – ohne Tropfen ist es bewölkt, mit Tropfen regnet es, mit Blitz gewittert es. Wer das einmal sortiert hat, kann jede Wetterkarte in der Zeitung und jedes Symbol in der App lesen. Der Sachunterricht verankert Wetterbeobachtung im Bereich Natur und Leben; die sechs Symbole dieses Blattes sind dieselben, die auf allen weiteren Seiten der Reihe wiederkehren, auch im Wochenkalender.",
+   "p3": "Ein Farbdruck auf einer Seite. Die Schneeflocke ist in hellem Blau gezeichnet und im Graudruck blass – bei Schwarz-Weiß-Kopien lohnt sich ein kurzer Hinweis. Die Sonne trägt als einziges Symbol ein Gesicht; alle anderen sind schlichte Zeichen. Danach passt das Schreibblatt, auf dem dieselben sechs Wörter in Buchstabenkästchen geschrieben werden.",
+   "canonicalDeckSlug": "wettersymbole-k356",
+   "carousel": [
+    {
+     "label": "Wetterwörter schreiben: ein Buchstabe pro Kästchen",
+     "href": "wettersymbole-wetterwoerter-schreiben"
+    },
+    {
+     "label": "Wetter beobachten: meine Woche von Montag bis Sonntag",
+     "href": "wetter-beobachten-wochenkalender"
+    },
+    {
+     "label": "Thermometer ablesen: kalt, warm oder heiß?",
+     "href": "wettersymbole-kalt-warm-oder-heiss"
+    },
+    {
+     "label": "Den Wasserkreislauf beschriften: vier Stationen",
+     "href": "wasserkreislauf-beschriften"
+    }
+   ],
+   "title": "Wettersymbole verbinden: Sonne, Regen, Schnee | PDF zum Ausdrucken",
+   "metaDescription": "Sechs Wettersymbole und sechs Wörter in anderer Reihenfolge: Regen, Sonne, Regenbogen, Wolke, Gewitter und Schnee richtig verbinden."
+  },
+  {
+   "slug": "muelltrennung-dinge-den-tonnen-zuordnen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "base",
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Mülltrennung-Arbeitsblatt · Vorschule",
+   "h1": "Mülltrennung: acht Dinge den fünf Tonnen zuordnen",
+   "strand": "Sachunterricht – Umwelt und Nachhaltigkeit",
+   "slotTokens": [
+    "muelltrennung",
+    "vorschule"
+   ],
+   "p1": "Oben liegen acht kleine Bildkarten nebeneinander, jede mit einem orangen Punkt darunter: ein Heft, eine Karotte, ein Eimer, eine Klebstoffflasche, ein Plastiklöffel, eine Saucenflasche, ein Notizzettel und eine Pumpflasche. Unten stehen fünf Tonnen in den deutschen Farben, jede mit ihrem Namen auf einem Chip darüber: Papier in Blau, Verpackung in Gelb, Biomüll in Braun, Glas in Grün und Restmüll in Grau. Jede Tonne trägt zusätzlich ein Zeichen auf dem Deckel. Dazwischen bleibt eine breite freie Fläche für die Linien, die das Kind zieht.",
+   "p2": "Die Aufteilung geht nicht gleichmäßig auf, und das ist richtig so: zweimal Papier, zweimal Verpackung, zweimal Restmüll, je einmal Bio und Glas. Zwei Karten sind die eigentliche Lernstelle – Eimer und Löffel sind aus Kunststoff, aber keine Verpackung, sie gehören deshalb in den Restmüll und nicht in den Gelben Sack. Genau diese Unterscheidung macht das deutsche System aus, und sie lässt sich an diesen beiden Dingen zum ersten Mal begründen. Die Saucenflasche ist der Fall, über den gesprochen werden muss: Auf dem Bild ist nicht zu erkennen, ob sie aus Glas oder aus Kunststoff besteht, und beide Antworten kommen aus dem Alltag der Kinder.",
+   "p3": "Ein Farbdruck auf einer Seite; die Tonnenfarben tragen die Information. Am besten mit echten, ausgespülten Verpackungen aus der Brotdose beginnen, dann das Blatt. Wer eine kürzere Fassung braucht, nimmt das Blatt, auf dem zu jedem Ding die richtige Tonne eingekreist wird; wer bei den Farben ansetzen will, das Ausmalblatt.",
+   "canonicalDeckSlug": "muelltrennung-k357",
+   "carousel": [
+    {
+     "label": "Mülltrennung: Welche Tonne ist die richtige?",
+     "href": "muelltrennung-welche-tonne-einkreisen"
+    },
+    {
+     "label": "Woraus ist es gemacht? Material zu acht Dingen schreiben",
+     "href": "muelltrennung-woraus-ist-es-gemacht"
+    },
+    {
+     "label": "In jeder Reihe ist ein Ding aus einem anderen Stoff",
+     "href": "muelltrennung-anderes-material-einkreisen"
+    },
+    {
+     "label": "Die Tonnen in den richtigen Farben ausmalen",
+     "href": "muelltrennung-tonnen-ausmalen"
+    }
+   ],
+   "title": "Mülltrennung: Was kommt in welche Tonne? | PDF zum Ausdrucken",
+   "metaDescription": "Acht leere Verpackungen oben, fünf Tonnen unten: Papier, Verpackung, Biomüll, Glas und Restmüll. Jedes Ding mit einer Linie verbinden."
+  },
+  {
+   "slug": "lueckentext-mit-bild-und-wortkasten",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "base",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Lückentext-Arbeitsblatt · Klasse 1",
+   "h1": "Lückentext: das passende Wort aus dem Kasten einsetzen",
+   "strand": "Lesen und Schreiben",
+   "standard": "L.1.1.b",
+   "slotTokens": [
+    "lueckentext",
+    "1-klasse"
+   ],
+   "p1": "Oben steht ein Wortkasten mit sieben Nomen: Segelboot, Giraffe, Specht, Zebra, Eule, Zug und Elefant. Darunter folgen sieben Zeilen, jede mit einem Bild links und einem Satz rechts, in dem ein gestricheltes Kästchen die Lücke markiert. Vor der Lücke steht der Artikel bereits gedruckt – Die Eule ruft nachts im Wald, Der Elefant spritzt Wasser mit seinem Rüssel, Das Segelboot segelt mit dem Wind über den See. Sieben Wörter, sieben Lücken: Jedes wird genau einmal gebraucht.",
+   "p2": "Der vorgedruckte Artikel ist die stärkste Hilfe dieser Seite und zugleich ihr heimlicher Lerngegenstand. Wer Die liest, kann Elefant und Specht sofort ausschließen, und wer Das liest, bleibt bei Segelboot und Zebra. So übt das Blatt das Geschlecht der Nomen nebenbei, ohne es je zu benennen. Zugleich trägt jeder Satz eine echte Sachaussage: Der Specht hämmert Löcher in den Baum, die Giraffe hat einen langen Hals. Die Lehrkraft kann also zweimal nachfragen – einmal nach dem Artikel, einmal nach dem Grund. Fünf Tiere und zwei Fahrzeuge halten den Wortschatz für die erste Klasse überschaubar.",
+   "p3": "Eine Seite in Farbe, Bleistift zum Schreiben. Das Blatt ist die Grundseite der Reihe: Bild, Artikel und Wortkasten stützen gleichzeitig. Wer weniger Hilfe geben möchte, nimmt die Fassung mit Buchstabenkästchen und ohne Wortkasten; wer nur zwischen zwei Wörtern entscheiden lassen will, die Auswahlfassung.",
+   "canonicalDeckSlug": "lueckentext-g1350",
+   "carousel": [
+    {
+     "label": "Lückentext mit Buchstabenkästchen – ohne Wortkasten",
+     "href": "lueckentext-mit-buchstabenkaestchen"
+    },
+    {
+     "label": "Lückentext: zwischen zwei Wörtern entscheiden",
+     "href": "lueckentext-das-richtige-wort-einkreisen"
+    },
+    {
+     "label": "Lückentext in der Mehrzahl: acht Pluralformen schreiben",
+     "href": "lueckentext-in-der-mehrzahl"
+    },
+    {
+     "label": "Drei Bilder, drei Sätze: Lückentexte mit neun Lücken",
+     "href": "lueckentext-kleine-geschichte-drei-bilder"
+    }
+   ],
+   "title": "Lückentext Klasse 1 mit Bildern und Wortkasten | PDF ausdrucken",
+   "metaDescription": "Sieben Sätze mit Bild und Lücke, dazu ein Wortkasten mit sieben Nomen: Der Artikel steht schon da, das Nomen kommt ins Kästchen."
+  },
+  {
+   "slug": "gerade-und-ungerade-zahlen-bis-20-haeuser",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "base",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Zahlen-Arbeitsblatt · Klasse 1",
+   "h1": "Gerade und ungerade Zahlen bis 20 in zwei Häuser sortieren",
+   "strand": "Zahlen und Operationen",
+   "slotTokens": [
+    "gerade-und-ungerade-zahlen",
+    "1-klasse"
+   ],
+   "p1": "Oben liegt ein Streifen mit neun Zahlenkreisen; auf dem abgebildeten Druck sind es 11, 10, 8, 5, 12, 14, 1, 13 und 19. Darunter stehen zwei Häuser: links eines mit grünem Dach und dem Schild gerade, rechts eines mit rotem Dach und dem Schild ungerade. In jedem Haus wohnen schon Zahlen, jede mit ihrem Punktbild daneben – die 6 zeigt drei Paare, die 4 zwei Paare, die 3 ein Paar und einen einzelnen, hohl gezeichneten Punkt. Darunter warten in beiden Häusern acht leere Kästchen. Das Kind trägt die neun Zahlen ein.",
+   "p2": "Die Punktbilder sind die Begründung, die das Blatt mitliefert: Gerade heißt, dass alle Punkte ein Paar finden; ungerade heißt, dass einer übrig bleibt, und genau dieser eine ist hohl gezeichnet. Damit ist die Einteilung nicht auswendig gelernt, sondern sichtbar. Für die Vorbereitung ist eine Zahl wichtig: Von den neun Zahlen sind vier gerade und fünf ungerade, obwohl beide Häuser gleich viele – nämlich acht – Kästchen anbieten. Kinder lesen acht Kästchen leicht als acht erwartete Zahlen; ein Satz vorab, dass Kästchen frei bleiben dürfen, verhindert das Suchen nach weiteren Zahlen.",
+   "p3": "Ein Farbdruck auf einer Seite; die beiden Dachfarben unterscheiden die Häuser, die Schilder tragen die Wörter. Die 1 ist die Zahl, über die am meisten gesprochen wird – sie besteht aus einem einzigen Punkt, der kein Paar findet. Als Fortsetzung stehen die Fassung mit den zwei gleichen Summanden und die Seite bis 100 bereit, auf der nur noch die Einerstelle zählt.",
+   "canonicalDeckSlug": "gerade-und-ungerade-zahlen-g1351",
+   "carousel": [
+    {
+     "label": "Zahlen in zwei gleiche Teile zerlegen – und den Rest notieren",
+     "href": "gerade-oder-ungerade-zwei-gleiche-summanden"
+    },
+    {
+     "label": "Gerecht teilen: Geht die Menge für zwei Kinder auf?",
+     "href": "gerecht-teilen-gerade-oder-ungerade-zootiere"
+    },
+    {
+     "label": "Gerade und ungerade bis 100: nur die Einerstelle entscheidet",
+     "href": "gerade-und-ungerade-zahlen-bis-100-einerstelle"
+    },
+    {
+     "label": "Ist die Summe gerade oder ungerade – ohne zu rechnen?",
+     "href": "summe-gerade-oder-ungerade-ohne-zu-rechnen"
+    }
+   ],
+   "title": "Gerade und ungerade Zahlen bis 20 sortieren | PDF zum Ausdrucken",
+   "metaDescription": "Neun Zahlen in einem Streifen und zwei Häuser mit Punktbildern: Jede Zahl kommt in das Haus, in das sie gehört – gerade oder ungerade."
+  },
+  {
+   "slug": "personalpronomen-er-sie-oder-es-einkreisen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "base",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Personalpronomen-Arbeitsblatt · Klasse 1–2",
+   "h1": "Personalpronomen: er, sie oder es zum Bild einkreisen",
+   "strand": "Sprache und Sprachgebrauch untersuchen",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "personalpronomen",
+    "1-klasse"
+   ],
+   "p1": "Acht Karten in zwei Spalten. Jede zeigt ein Bild, darunter das dazugehörige Wort auf einem Chip und darunter drei Wortchips zur Wahl: er, sie, es. Das Kind kreist eines ein. Auf dem abgebildeten Druck sind die acht Wörter Orange, Paul, Leon, Lina, Auto, Schiff, Finn und Anna – fünf Personennamen und drei Dinge. Die Verteilung der Antworten ist ausgewogen: dreimal er, dreimal sie, zweimal es, und die Lösung steht einmal an erster, einmal an zweiter, einmal an dritter Stelle.",
+   "p2": "Fünf der acht Karten lassen sich am Bild entscheiden – ein Mann ist er, eine Frau ist sie. Die drei übrigen sind der Kern der Seite: Bei Orange, Auto und Schiff hilft kein Bild, sondern nur das Geschlecht des Nomens, und genau daran merken Kinder zum ersten Mal, dass das deutsche Pronomen nicht vom Aussehen abhängt, sondern vom Artikel. Wer die Karten in dieser Reihenfolge bespricht – erst die Menschen, dann die Dinge –, macht den Unterschied hörbar. Die drei Dinge sind dabei gut gewählt: Sie decken alle drei Geschlechter ab und stehen jeweils nur einmal.",
+   "p3": "Ein Farbdruck auf einer Seite, ein Stift genügt. Die abgebildeten Personen sind Erwachsene in Berufskleidung, obwohl die Namen Kindernamen sind – eine Frage, die Kinder stellen und die sich in einem Satz beantworten lässt. Danach passt das Blatt, auf dem das Pronomen in einen zweiten Satz geschrieben wird, oder die Sortierfassung mit drei Spalten.",
+   "canonicalDeckSlug": "personalpronomen-g1352",
+   "carousel": [
+    {
+     "label": "Den Namen durch ein Pronomen ersetzen",
+     "href": "personalpronomen-in-den-zweiten-satz-einsetzen"
+    },
+    {
+     "label": "Wer ist gemeint? Pronomen mit dem Namen verbinden",
+     "href": "pronomen-im-satz-wer-ist-gemeint"
+    },
+    {
+     "label": "Possessivpronomen: sein, seine, ihr oder ihre?",
+     "href": "possessivpronomen-sein-oder-ihr"
+    },
+    {
+     "label": "Zehn Karten in drei Spalten sortieren: er, sie oder es",
+     "href": "karten-sortieren-er-sie-oder-es"
+    }
+   ],
+   "title": "Personalpronomen er sie es: das passende Wort einkreisen | PDF",
+   "metaDescription": "Acht Karten mit Bild und Wort darunter – Orange, Paul, Leon, Lina, Auto, Schiff, Finn, Anna: das Pronomen einkreisen, das dafür steht."
+  },
+  {
+   "slug": "w-fragen-wer-was-wo-fragewort-einkreisen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "base",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "W-Fragen-Arbeitsblatt · Klasse 1–2",
+   "h1": "W-Fragen: Wer, Was oder Wo fragt nach dem markierten Teil?",
+   "strand": "Sprache und Sprachgebrauch untersuchen",
+   "standard": "L.K.1.d",
+   "slotTokens": [
+    "w-fragen",
+    "1-klasse"
+   ],
+   "p1": "Sieben Karten untereinander. Jede zeigt links ein kleines Personenbild, daneben einen kurzen Satz, in dem ein Teil orange unterlegt und unterstrichen ist, und darunter drei Chips: Wer, Was, Wo. Auf dem abgebildeten Druck lauten die Sätze Emma sieht das Fahrrad, Max ist auf dem Berg, Anna spielt um neun Uhr, Finn spielt auf dem Sofa, Paul malt die Schildkröte, Nele liest am See und Lina mag das Pferd. Das Kind kreist das Fragewort ein, das nach dem markierten Teil fragt.",
+   "p2": "Der markierte Teil ist die ganze Steuerung dieser Seite: Er sagt, wonach gefragt wird, und ohne ihn hätten mehrere Sätze zwei richtige Antworten. Besonders schön ist das in zwei Karten gelöst – bei Anna spielt um neun Uhr ist der Name markiert, obwohl die Zeitangabe im Satz steht, und bei Nele liest am See ebenso. Das Kind muss also lesen, was markiert ist, statt nach dem auffälligsten Satzteil zu greifen. Dass Wer dabei immer nur für die handelnde Person steht, hält die Seite sauber im Rahmen dessen, was der Lehrplan Deutsch für den Anfangsunterricht vorsieht.",
+   "p3": "Ein Farbdruck auf einer Seite; die Markierung ist orange und im Graudruck als Unterstreichung erhalten. Die Bilder zeigen Berufe und passen nicht zu den Sätzen – sie sind reine Zierde. Wer die drei Fragewörter zuerst an Antworten üben will, nimmt die Sortierfassung; wer sie schreiben lassen möchte, das Einsetzblatt mit dem Wortkasten.",
+   "canonicalDeckSlug": "w-fragen-g1353",
+   "carousel": [
+    {
+     "label": "Frage und Antwort verbinden: fünf W-Fragen, fünf Bilder",
+     "href": "w-fragen-frage-und-antwort-verbinden"
+    },
+    {
+     "label": "Fragewörter einsetzen: die Antwort verrät die Frage",
+     "href": "fragewoerter-in-die-luecke-schreiben"
+    },
+    {
+     "label": "Antworten sortieren: Wer? Was? Wo?",
+     "href": "w-fragen-antworten-in-drei-spalten-sortieren"
+    },
+    {
+     "label": "Zu jeder Antwort den ganzen Fragesatz schreiben",
+     "href": "fragesaetze-zur-antwort-schreiben"
+    }
+   ],
+   "title": "W-Fragen wer was wo: Fragewort einkreisen | PDF zum Ausdrucken",
+   "metaDescription": "Sieben Sätze mit orange markiertem Satzteil und je drei Fragewörtern: Wer, Was oder Wo einkreisen – passend zum markierten Teil."
+  },
+  {
+   "slug": "zahlen-runden-auf-zehner",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "base",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Runden-Arbeitsblatt · Klasse 2–3",
+   "h1": "Zahlen auf den nächsten Zehner runden",
+   "strand": "Zahlen und Operationen",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "zahlen-runden",
+    "2-klasse"
+   ],
+   "p1": "Oben steht das Beispiel in einem gestrichelten Rahmen: 47 wird zu 50, daneben der Ziffernstreifen von 0 bis 9, geteilt in zwei Gruppen mit einem Pfeil nach unten über abrunden und einem Pfeil nach oben über aufrunden; die 7 ist eingekreist. Darunter folgen vierzehn Aufgaben in zwei Spalten, jede mit der Zahl, dem Rundungszeichen und einem gestrichelten Kästchen. Auf dem abgebildeten Druck reichen die Zahlen von 45 bis 658, und die Hälfte davon ist dreistellig.",
+   "p2": "Der Ziffernstreifen ist das Herz der Seite: Er macht die Rundungsregel zu einer Sehaufgabe. Das Kind sucht die letzte Ziffer, findet sie links oder rechts der Lücke und weiß damit, in welche Richtung es geht. Weil auf den Zehner gerundet wird, bleibt die Arbeit auch bei dreistelligen Zahlen gleich einfach – nur die Einerstelle zählt, alles davor wird abgeschrieben. Die Zahlen reichen allerdings bis in den Tausenderraum, den der Lehrplan Mathematik in Klasse 3 behandelt; auf den Zehner zu runden beginnt in einigen Ländern schon am Ende der zweiten Klasse. Die 45 ist die Aufgabe, über die zu sprechen ist: Sie liegt genau in der Mitte und wird nach der Regel aufgerundet.",
+   "p3": "Ein Blatt, schwarz-weiß druckbar, das Beispiel oben bleibt als Merkhilfe während der ganzen Arbeit sichtbar. Vierzehn Aufgaben in zwei Spalten sind eine gute Übungsmenge. Danach stehen zwei Wege offen: die Sortierfassung, auf der nur zwischen aufrunden und abrunden entschieden wird, oder das Blatt zum Runden auf Hunderter.",
+   "canonicalDeckSlug": "zahlen-runden-g2346",
+   "carousel": [
+    {
+     "label": "Aufrunden oder abrunden? Zwölf Zahlen in zwei Kästen",
+     "href": "aufrunden-oder-abrunden-zahlen-sortieren"
+    },
+    {
+     "label": "Zahlen auf den nächsten Hunderter runden",
+     "href": "zahlen-runden-auf-hunderter"
+    },
+    {
+     "label": "Runden und überschlagen: die Summe schätzen",
+     "href": "runden-und-ueberschlagen-summe-schaetzen"
+    },
+    {
+     "label": "Welche Zahlen werden zu 50 gerundet?",
+     "href": "welche-zahlen-runden-auf-50"
+    }
+   ],
+   "title": "Zahlen runden auf Zehner: 14 Aufgaben | PDF zum Ausdrucken",
+   "metaDescription": "Ein Beispiel mit Ziffernstreifen und 14 Aufgaben: jede Zahl auf den nächsten Zehner runden und das Ergebnis ins Kästchen schreiben."
+  },
+  {
+   "slug": "tangram-linien-zeichnen-2-und-3-teile",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-draw-the-lines-2-and-3-pieces",
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Tangram-Arbeitsblatt · Vorschule",
+   "h1": "Einfache Tangram-Formen aus zwei und drei Teilen: die Linien einzeichnen",
+   "strand": "Raum und Form",
+   "standard": "K.G.B.6",
+   "slotTokens": [
+    "tangram",
+    "vorschule"
+   ],
+   "p1": "Vier Karten, zwei nebeneinander und zwei darunter. In jeder Karte steht oben ein kurzer Streifen mit den Teilen, aus denen die Form gebaut ist, darunter die Form selbst – weiß, groß und völlig leer. Zwei Karten zeigen drei Teile, zwei zeigen zwei Teile; auf dem abgebildeten Druck sind es ein mittleres Dreieck mit kleinem Dreieck und Quadrat, dieselben zwei Dreiecke mit einem Parallelogramm und zweimal ein Paar Dreiecke. Das Kind sucht in der leeren Form die Stelle, an der die Teile aneinanderstoßen, und zieht dort den Strich. Nichts wird ausgeschnitten, nichts angemalt.",
+   "p2": "Die Zerlegung mit dem Stift ist der Schritt, den das Legen allein nicht leistet: Das Kind muss die Naht vorher sehen, nicht erst tasten. Zwei Teile sind dafür das ehrliche Minimum – ein Quadrat aus zwei Dreiecken hat genau eine mögliche Linie, und wer sie findet, hat begriffen, dass die Diagonale die Form halbiert. Bei drei Teilen kommen zwei Linien dazu, und die Reihenfolge, in der man sie zieht, spielt plötzlich eine Rolle. Die Teilestreifen sind kleiner gedruckt als die Form darunter; das Kind vergleicht also Gestalt und Anzahl, nicht Länge.",
+   "p3": "Ein Blatt, schwarz-weiß druckbar, Bleistift und Radiergummi genügen. Es steht vor der Grundseite, wenn ein Kind mit sieben Teilen überfordert ist, und danach als Kontrolle, ob die Zerlegung auch ohne Material im Kopf entsteht. Für den nächsten Schritt liegen die vier Schattenbilder bereit, bei denen keine einzige Linie mehr gedruckt ist.",
+   "canonicalDeckSlug": "tangram-k358",
+   "carousel": [
+    {
+     "label": "Tangram: sieben Teile ausschneiden und zwei Figuren legen",
+     "href": "tangram-figuren-legen"
+    },
+    {
+     "label": "Vier Tangram-Schattenbilder mit allen sieben Teilen nachlegen",
+     "href": "tangram-vier-schattenbilder"
+    },
+    {
+     "label": "Welches Tangram-Teil passt genau in die Lücke?",
+     "href": "tangram-welches-teil-fehlt"
+    },
+    {
+     "label": "Welche Tangram-Lösung liegt genauso wie das Schattenbild?",
+     "href": "tangram-loesung-zum-schattenbild"
+    }
+   ],
+   "title": "Tangram für den Anfang: Linien zeichnen, 2 und 3 Teile | PDF drucken",
+   "metaDescription": "Vier Karten mit je einer weißen Form in Originalgröße und den Teilen darüber: Das Kind zeichnet die Linien ein, wo die Teile aneinanderstoßen."
+  },
+  {
+   "slug": "tangram-vier-schattenbilder",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-four-shadows-to-build",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Tangram-Arbeitsblatt · Klasse 1",
+   "h1": "Vier Tangram-Schattenbilder mit allen sieben Teilen nachlegen",
+   "strand": "Raum und Form",
+   "standard": "1.G.A.2",
+   "slotTokens": [
+    "tangram",
+    "1-klasse"
+   ],
+   "p1": "Vier dunkle Flächen, sonst nichts. Auf dem abgebildeten Druck sind es eine sitzende Katze, ein Pfeil, ein liegendes Rechteck und ein Quadrat – und die letzten beiden sind genau das, wonach sie aussehen: reine Grundformen ohne jeden Anhaltspunkt. Keine Naht, kein Punkt, kein Umriss eines einzelnen Teils. Das Kind legt mit dem eigenen Tangram nach, jedes Mal mit allen sieben Teilen. Die Schattenbilder sind in Originalgröße gedruckt, ein gelegtes Teil lässt sich also direkt darauflegen und vergleichen. Wer möchte, fährt die gefundenen Nahtlinien am Ende mit dem Bleistift nach.",
+   "p2": "Hier kippt die Aufgabe von Nachbauen zu Probieren. Weil die Fläche geschlossen ist, arbeitet das Kind rückwärts: Es sucht zuerst die Stellen, an die nur ein großes Dreieck passt, und füllt den Rest von außen nach innen. Das Rechteck und das Quadrat sind dabei nicht die leichtesten Karten, sondern die schwersten – eine Katze hat Ohren und einen Schwanz, die die Teile verraten, eine glatte Kante verrät gar nichts. Der Lehrplan Mathematik nennt genau dieses Zerlegen und Zusammensetzen ebener Figuren; hier kommt die Ausdauer dazu, eine Lösung mehrfach zu verwerfen.",
+   "p3": "Eine Seite, ein Satz Tangram-Teile pro Kind. Es ist die offene Seite der Reihe: Es gibt keine Kästchen, nichts wird eingetragen, und zwei Kinder können am selben Blatt arbeiten. Gut als Partnerarbeit – eines legt, eines prüft die Kanten. Wer eine Kontrollfassung braucht, nimmt stattdessen das Blatt, auf dem drei gezeichnete Lösungen zur Auswahl stehen.",
+   "canonicalDeckSlug": "tangram-g1354",
+   "carousel": [
+    {
+     "label": "Tangram: sieben Teile ausschneiden und zwei Figuren legen",
+     "href": "tangram-figuren-legen"
+    },
+    {
+     "label": "Einfache Tangram-Formen aus zwei und drei Teilen: die Linien einzeichnen",
+     "href": "tangram-linien-zeichnen-2-und-3-teile"
+    },
+    {
+     "label": "Welches Tangram-Teil passt genau in die Lücke?",
+     "href": "tangram-welches-teil-fehlt"
+    },
+    {
+     "label": "Welche Tangram-Lösung liegt genauso wie das Schattenbild?",
+     "href": "tangram-loesung-zum-schattenbild"
+    }
+   ],
+   "title": "Tangram: vier Schattenbilder nachlegen | kostenlos als PDF",
+   "metaDescription": "Vier vollflächig dunkle Schattenbilder ohne eine einzige Linie: Katze, Pfeil, Rechteck und Quadrat, jedes aus allen sieben Teilen zu legen."
+  },
+  {
+   "slug": "tangram-welches-teil-fehlt",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-which-piece-is-missing",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Tangram-Arbeitsblatt · Klasse 1",
+   "h1": "Welches Tangram-Teil passt genau in die Lücke?",
+   "strand": "Raum und Form",
+   "standard": "1.G.A.2",
+   "slotTokens": [
+    "tangram",
+    "1-klasse"
+   ],
+   "p1": "Sechs Karten, in jeder eine hellgrün gefüllte Figur mit sichtbaren Nahtlinien – und an einer Stelle ein Loch, orange gestrichelt umrandet. Rechts daneben stehen drei Teile untereinander, jedes in der Größe, in der es wirklich ist. Das Kind kreist das eine ein, das die Lücke exakt füllt. Auf dem abgebildeten Druck tauchen drei Figuren je zweimal auf: zweimal ein Rechteck, zweimal ein Quadrat, zweimal ein Pfeil, beim zweiten Mal gedreht oder gespiegelt. Die Lücken sind unterschiedlich: mal ein Parallelogramm, mal ein kleines Dreieck, mal das Quadrat.",
+   "p2": "Die Teile sind absichtlich in Originalgröße gedruckt und nicht als Symbole – nur so lässt sich die Frage überhaupt durch Hinsehen entscheiden, ohne zu messen. Schwierig wird es, wo zwei Dreiecke zur Wahl stehen, die sich nur in der Größe unterscheiden; dann hilft, den Blick an der längsten Kante der Lücke entlangzuführen. Zusätzlich liegt jedes Teil in der Auswahl aufrecht, die Lücke in der Figur dagegen schräg: Das Kind muss die Form im Kopf drehen, bevor es sie vergleicht. Diese gedankliche Drehung ist der Kern der Aufgabe und eine der Vorläuferfähigkeiten für das spätere Arbeiten mit Flächen.",
+   "p3": "Ein Farbdruck auf einer Seite, nur ein Stift nötig. Wer mag, legt zur Kontrolle das echte Teil auf die Lücke. Weil jede Figur zweimal vorkommt, lohnt sich die Frage, ob das zweite Mal wirklich dieselbe Figur ist – eine gute Gelegenheit, über Drehen und Spiegeln zu sprechen, bevor das Blatt mit den drei Lösungsvorschlägen an die Reihe kommt.",
+   "canonicalDeckSlug": "tangram-g1355",
+   "carousel": [
+    {
+     "label": "Tangram: sieben Teile ausschneiden und zwei Figuren legen",
+     "href": "tangram-figuren-legen"
+    },
+    {
+     "label": "Einfache Tangram-Formen aus zwei und drei Teilen: die Linien einzeichnen",
+     "href": "tangram-linien-zeichnen-2-und-3-teile"
+    },
+    {
+     "label": "Vier Tangram-Schattenbilder mit allen sieben Teilen nachlegen",
+     "href": "tangram-vier-schattenbilder"
+    },
+    {
+     "label": "Welche Tangram-Lösung liegt genauso wie das Schattenbild?",
+     "href": "tangram-loesung-zum-schattenbild"
+    }
+   ],
+   "title": "Tangram: Welches Teil fehlt? Klasse 1 | PDF zum Ausdrucken",
+   "metaDescription": "Sechs Figuren mit je einer orange gestrichelten Lücke und drei Teilen daneben in Originalgröße: einkreisen, was genau hineinpasst."
+  },
+  {
+   "slug": "tangram-loesung-zum-schattenbild",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-which-solution-matches-the-shadow",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Tangram-Arbeitsblatt · Klasse 2",
+   "h1": "Welche Tangram-Lösung liegt genauso wie das Schattenbild?",
+   "strand": "Raum und Form",
+   "slotTokens": [
+    "tangram",
+    "2-klasse"
+   ],
+   "p1": "Vier Zeilen, jede beginnt links mit einem dunklen Schattenbild. Rechts folgen drei weiße Kästchen mit gezeichneten Lösungen derselben Figur, alle mit ihren Nahtlinien. Genau eine steht so da wie der Schatten; die beiden anderen sind gedreht oder gespiegelt. Auf dem abgebildeten Druck sind die vier Schatten ein Pfeil nach unten, ein hochkant stehendes Rechteck, eine Katze und ein Pfeil nach links. Das Kind kreist die passende Lösung ein. In der Rechteck-Zeile liegen beide falschen Lösungen quer – dort genügt hochkant oder quer, um zu entscheiden.",
+   "p2": "Diese Seite prüft etwas anderes als das Legen: Lageerhaltung. Ein Kind, das eine Figur gebaut hat, hält jede gedrehte Fassung für dieselbe – und das ist geometrisch auch richtig, nur eben nicht die Frage. Hier zählt, ob die Figur genauso liegt, und dafür muss das Kind zwei Bilder Kante für Kante vergleichen, statt sich auf den Gesamteindruck zu verlassen. Der Lehrplan Mathematik führt Drehen und Spiegeln in Klasse 2 ein; die gezeichneten Lösungen machen daraus eine Sehaufgabe ohne Material. Eine Hilfe: Erst die auffälligste Spitze suchen, dann prüfen, wohin sie zeigt.",
+   "p3": "Ein Blatt, Farbdruck empfohlen, weil der Schatten vom weißen Kästchen abgehoben ist. Auf dem abgebildeten Druck steht die richtige Lösung dreimal ganz links – gut zu wissen, wenn das Blatt in Partnerarbeit gelöst wird, und ein Anlass, die Begründung einzufordern statt nur das Kreuz. Die offene Fassung ohne Auswahl sind die vier Schattenbilder zum Nachlegen.",
+   "canonicalDeckSlug": "tangram-g2347",
+   "carousel": [
+    {
+     "label": "Tangram: sieben Teile ausschneiden und zwei Figuren legen",
+     "href": "tangram-figuren-legen"
+    },
+    {
+     "label": "Einfache Tangram-Formen aus zwei und drei Teilen: die Linien einzeichnen",
+     "href": "tangram-linien-zeichnen-2-und-3-teile"
+    },
+    {
+     "label": "Vier Tangram-Schattenbilder mit allen sieben Teilen nachlegen",
+     "href": "tangram-vier-schattenbilder"
+    },
+    {
+     "label": "Welches Tangram-Teil passt genau in die Lücke?",
+     "href": "tangram-welches-teil-fehlt"
+    }
+   ],
+   "title": "Tangram: Welche Lösung passt zum Schattenbild? | PDF ausdrucken",
+   "metaDescription": "Vier Zeilen mit je einem dunklen Schattenbild und drei gezeichneten Lösungen: nur eine steht genauso, die anderen sind gedreht oder gespiegelt."
+  },
+  {
+   "slug": "tangram-dreiecke-und-quadrate-zaehlen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-count-the-triangles-and-squares",
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Tangram-Arbeitsblatt · Vorschule",
+   "h1": "Tangram-Bilder: Dreiecke zählen, Quadrate zählen",
+   "strand": "Raum und Form",
+   "standard": "K.G.A.2",
+   "slotTokens": [
+    "tangram",
+    "vorschule"
+   ],
+   "p1": "Vier Karten mit je einem kleinen Tangram-Bild aus drei bis fünf Teilen; kein Bild ist selbst ein Dreieck oder ein Quadrat. Darunter stehen zwei gestrichelte Kästchen nebeneinander, das erste mit einem winzigen Dreieck davor, das zweite mit einem Quadrat. Das Kind zählt und trägt zwei Zahlen ein. Auf dem abgebildeten Druck enthält nur eine der vier Karten überhaupt ein Quadrat – in den anderen drei lautet die ehrliche Antwort im zweiten Kästchen null. Ein Parallelogramm ist auf mehreren Karten dabei; es zählt weder als Dreieck noch als Quadrat.",
+   "p2": "Nach Art zu zählen ist etwas anderes, als Dinge zu zählen: Das Kind muss erst entscheiden, was dazugehört, und darf dann erst zählen. Das schräg liegende Quadrat und das Parallelogramm sind die beiden Fallen, die diese Seite absichtlich stellt – ein gekipptes Quadrat bleibt ein Quadrat, ein Parallelogramm wird durch Kippen keines. Dass drei der vier Karten auf die Null hinauslaufen, ist die zweite Hürde: Ein Kästchen leer zu lassen ist falsch, eine Null hineinzuschreiben ist richtig. Darüber lohnt sich ein Satz im Voraus, sonst rät das Kind.",
+   "p3": "Ein Blatt, schwarz-weiß druckbar, Stift genügt. Am besten zu zweit lösen und die Teile mit dem Finger einzeln antippen, damit nichts doppelt gezählt wird. Als Gegenstück eignet sich das Blatt mit der Frage nach dem fehlenden Teil: Dort geht es um die Form einer Lücke, hier um die Anzahl gleicher Formen in einem fertigen Bild.",
+   "canonicalDeckSlug": "tangram-k359",
+   "carousel": [
+    {
+     "label": "Tangram: sieben Teile ausschneiden und zwei Figuren legen",
+     "href": "tangram-figuren-legen"
+    },
+    {
+     "label": "Einfache Tangram-Formen aus zwei und drei Teilen: die Linien einzeichnen",
+     "href": "tangram-linien-zeichnen-2-und-3-teile"
+    },
+    {
+     "label": "Vier Tangram-Schattenbilder mit allen sieben Teilen nachlegen",
+     "href": "tangram-vier-schattenbilder"
+    },
+    {
+     "label": "Welches Tangram-Teil passt genau in die Lücke?",
+     "href": "tangram-welches-teil-fehlt"
+    }
+   ],
+   "title": "Tangram: Dreiecke und Quadrate zählen | kostenlos als PDF drucken",
+   "metaDescription": "Vier kleine Tangram-Bilder aus drei bis fünf Teilen, darunter zwei Kästchen mit Dreieck und Quadrat als Symbol: zählen und die Zahl eintragen."
+  },
+  {
+   "slug": "der-koerper-wie-viele-hast-du",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-how-many",
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Körper-Arbeitsblatt · Vorschule",
+   "h1": "Der Körper: Wie viele hast du davon?",
+   "strand": "Sachunterricht – Körper und Gesundheit",
+   "slotTokens": [
+    "der-koerper",
+    "vorschule"
+   ],
+   "p1": "Links steht die Körperfigur zum Nachschauen, rechts liegen sechs Karten in zwei Spalten. Jede Karte zeigt ein Foto eines Körperteils, darunter die Frage – Wie viele Münder? Wie viele Finger? Wie viele Nasen? Wie viele Augen? Wie viele Beine? Wie viele Arme? – und ein gestricheltes Kästchen für die Zahl. Gezählt wird nicht auf dem Blatt, sondern am eigenen Körper. Das Foto auf der Finger-Karte zeigt eine Hand mit einem einzigen ausgestreckten Zeigefinger; die Bein-Karte zeigt einen Unterschenkel mit Fuß und einem roten Punkt am Knie.",
+   "p2": "Die Seite verbindet zwei Dinge, die in diesem Alter zusammengehören: den eigenen Körper kennen und kleine Anzahlen sicher bestimmen. Vier der sechs Antworten sind eins oder zwei und lassen sich auf einen Blick erfassen; die Finger sind die Ausnahme und verlangen echtes Zählen. Zwei ist dabei die interessanteste Zahl – das Kind entdeckt, dass Augen, Arme und Beine paarweise da sind, Mund und Nase aber nicht. Darauf baut das Blatt auf, das nach allem fragt, was es zweimal gibt. Wichtig bei der Vorbereitung: Das Bild mit dem einen ausgestreckten Finger lädt zur Antwort eins ein; hier hilft die Ansage, beide Hände zu nehmen.",
+   "p3": "Ein Farbdruck auf einer Seite. Am schönsten im Sitzkreis: Jedes Kind zählt laut an sich selbst, erst danach wird geschrieben. Wer die Zahlen noch nicht schreibt, malt Striche ins Kästchen. Als Fortsetzung passt das Beschriftungsblatt, auf dem dieselben Körperteile benannt statt gezählt werden.",
+   "canonicalDeckSlug": "der-koerper-k360",
+   "carousel": [
+    {
+     "label": "Der Körper: sechs Körperteile beschriften",
+     "href": "der-koerper-koerperteile-beschriften"
+    },
+    {
+     "label": "Der Körper: nach Legende ausmalen",
+     "href": "der-koerper-nach-legende-ausmalen"
+    },
+    {
+     "label": "Der Körper: Wörter mit Buchstabenkästchen schreiben",
+     "href": "der-koerper-woerter-in-kaestchen-schreiben"
+    },
+    {
+     "label": "Der Körper: Was fehlt dieser Figur?",
+     "href": "der-koerper-was-fehlt-der-figur"
+    }
+   ],
+   "title": "Der Körper: Wie viele hast du? Zählen am eigenen Körper | PDF",
+   "metaDescription": "Sechs Karten mit Mund, Finger, Nase, Auge, Bein und Arm: Das Kind zählt am eigenen Körper nach und schreibt die Zahl ins Kästchen."
+  },
+  {
+   "slug": "der-koerper-nach-legende-ausmalen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-color-by-legend",
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Körper-Arbeitsblatt · Vorschule",
+   "h1": "Der Körper: nach Legende ausmalen",
+   "strand": "Sachunterricht – Körper und Gesundheit",
+   "slotTokens": [
+    "der-koerper",
+    "vorschule"
+   ],
+   "p1": "Links stehen fünf große Karten untereinander, jede mit einem Farbfeld und einem Wortpaar: gelb für Haare, braun für Arme, rosa für Beine, rot für Füße, grün für Hände. Rechts steht die Figur als reiner Umriss – kein Teil ist vorgefärbt. Das Kind liest die Legende und malt jeden Bereich in seiner Farbe an. Die fünf Bereiche sind sauber voneinander getrennt: Hände enden am Handgelenk, Füße setzen unter dem Bein an, und die Haare sind die Fläche oberhalb der Zackenlinie auf dem Kopf.",
+   "p2": "Ausmalen nach Legende ist hier keine Beschäftigung, sondern eine Leseaufgabe mit Kontrolle: Wer Hände und Arme in dieselbe Farbe malt, hat die Grenze zwischen beiden nicht gelesen. Genau diese Grenzen – Arm gegen Hand, Bein gegen Fuß – sind die Unterscheidung, die Kinder in diesem Alter noch häufig verwischen, und die Farbe macht den Fehler sofort sichtbar. Nebenbei übt das Blatt das Einhalten der Linie und das Wiederfinden eines Wortes in einer Liste. Der Sachunterricht verankert die Körperteile, das Farbwort bringt den Wortschatz gleich mit.",
+   "p3": "Eine Seite, schwarz-weiß gedruckt, Buntstifte in fünf Farben bereitlegen – die Legende ist selbst farbig, im Graudruck also unbrauchbar. Wer schneller fertig ist, malt den Rest der Figur frei aus und benennt, was dabei noch übrig geblieben ist: Kopf, Bauch, Ohren. Danach führt das Blatt mit den sechs Schreiblinien dieselben Körperteile in die Schrift.",
+   "canonicalDeckSlug": "der-koerper-k361",
+   "carousel": [
+    {
+     "label": "Der Körper: sechs Körperteile beschriften",
+     "href": "der-koerper-koerperteile-beschriften"
+    },
+    {
+     "label": "Der Körper: Wie viele hast du davon?",
+     "href": "der-koerper-wie-viele-hast-du"
+    },
+    {
+     "label": "Der Körper: Wörter mit Buchstabenkästchen schreiben",
+     "href": "der-koerper-woerter-in-kaestchen-schreiben"
+    },
+    {
+     "label": "Der Körper: Was fehlt dieser Figur?",
+     "href": "der-koerper-was-fehlt-der-figur"
+    }
+   ],
+   "title": "Der Körper nach Farben ausmalen, Vorschule | kostenlos als PDF",
+   "metaDescription": "Fünf Farbkarten und eine Umrissfigur: Haare gelb, Arme braun, Beine rosa, Füße rot, Hände grün – jeder Bereich ist sauber abgegrenzt."
+  },
+  {
+   "slug": "der-koerper-woerter-in-kaestchen-schreiben",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-write-the-word",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Körper-Arbeitsblatt · Klasse 1",
+   "h1": "Der Körper: Wörter mit Buchstabenkästchen schreiben",
+   "strand": "Sachunterricht – Körper und Gesundheit",
+   "slotTokens": [
+    "der-koerper",
+    "1-klasse"
+   ],
+   "p1": "Links steht die Figur mit sechs orangen Nummernpunkten, rechts liegen sechs Reihen aus gestrichelten Buchstabenkästchen, jede mit der passenden Nummer im Kreis davor. Die Reihen sind unterschiedlich lang: vier, drei, acht, vier, vier und drei Kästchen. Das Kind sucht den nummerierten Körperteil an der Figur und schreibt seinen Namen hinein, einen Buchstaben je Kästchen. Ohne Wortkasten – die Wörter kommen aus dem Kopf. Punkt 1 liegt am Mund, und der orange Punkt bedeckt das gezeichnete Lächeln fast vollständig; nur die beiden äußeren Spitzen schauen heraus.",
+   "p2": "Die Kästchenzahl ist die eingebaute Kontrolle: acht Kästchen können nur Ellbogen sein, drei nur Arm oder Fuß. Diese Rückmeldung ist der ganze Sinn der Fassung – das Kind prüft seine Schreibung selbst, bevor die Lehrkraft es tut, und merkt an einem übrig gebliebenen Kästchen sofort, dass ein Buchstabe fehlt. Fuß bringt das ß mit, das ein einziges Kästchen füllt. Ein Hinweis: Punkt 5 sitzt auf Kniehöhe am Bein, und Bein wie Knie haben vier Buchstaben – hier entscheidet die Absprache im Unterricht, welches Wort gemeint ist.",
+   "p3": "Ein Blatt, Farbdruck für die Nummernpunkte, sonst nur ein Bleistift. Es ist die anspruchsvollste der sechs Körperseiten und gehört ans Ende der Reihe, wenn die Wörter schon mehrfach gelesen wurden. Wer noch Unterstützung braucht, nimmt vorher das Beschriftungsblatt mit Wortkasten; dort stehen dieselben Wörter zum Abschreiben bereit.",
+   "canonicalDeckSlug": "der-koerper-g1356",
+   "carousel": [
+    {
+     "label": "Der Körper: sechs Körperteile beschriften",
+     "href": "der-koerper-koerperteile-beschriften"
+    },
+    {
+     "label": "Der Körper: Wie viele hast du davon?",
+     "href": "der-koerper-wie-viele-hast-du"
+    },
+    {
+     "label": "Der Körper: nach Legende ausmalen",
+     "href": "der-koerper-nach-legende-ausmalen"
+    },
+    {
+     "label": "Der Körper: Was fehlt dieser Figur?",
+     "href": "der-koerper-was-fehlt-der-figur"
+    }
+   ],
+   "title": "Körperteile schreiben: ein Buchstabe pro Kästchen | PDF drucken",
+   "metaDescription": "Eine Figur mit sechs nummerierten Punkten und sechs Reihen aus Buchstabenkästchen: Mund, Arm, Ellbogen, Hand, Bein und Fuß aufschreiben."
+  },
+  {
+   "slug": "der-koerper-was-fehlt-der-figur",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-what-is-missing",
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Körper-Arbeitsblatt · Vorschule",
+   "h1": "Der Körper: Was fehlt dieser Figur?",
+   "strand": "Sachunterricht – Körper und Gesundheit",
+   "slotTokens": [
+    "der-koerper",
+    "vorschule"
+   ],
+   "p1": "Vier Karten, in jeder eine Umrissfigur, der genau ein Teil fehlt, und rechts daneben drei Fotos übereinander. Auf dem abgebildeten Druck fehlt der ersten Figur ein Arm, der zweiten ein Bein, der dritten die Haare und der vierten ein Fuß – bei der letzten endet ein Bein stumpf, während das andere seinen Fuß hat. Das Kind kreist das Foto des fehlenden Teils ein und zeichnet es anschließend an die Figur. Die beiden falschen Fotos zeigen jeweils Teile, die die Figur bereits besitzt, etwa Ohr, Nase oder Ellbogen.",
+   "p2": "Etwas zu bemerken, das nicht da ist, ist schwerer als etwas zu benennen, das da ist – deshalb steht diese Seite im Kindergarten und nicht später. Sie verlangt, die vollständige Figur im Kopf zu haben und die gezeichnete damit abzugleichen; erst dann zeigt sich die Lücke. Das anschließende Einzeichnen ist wichtiger als das Einkreisen, denn dabei muss das Kind Größe und Stelle selbst festlegen. Ein Hinweis zur dritten Karte: Das Foto für die Haare zeigt einen ganzen Kopf mit langen Haaren, nicht die Haare allein – ein Satz dazu im Voraus erspart Rückfragen.",
+   "p3": "Ein Farbdruck auf einer Seite, Bleistift zum Ergänzen. Schön als Partneraufgabe: Ein Kind deckt die Fotos ab, das andere soll die Lücke ohne Auswahl finden. Danach passt das Blatt, auf dem gezählt wird, was es zweimal gibt – denn die beiden fehlenden Gliedmaßen auf dieser Seite gehören genau zu diesen Paaren.",
+   "canonicalDeckSlug": "der-koerper-k362",
+   "carousel": [
+    {
+     "label": "Der Körper: sechs Körperteile beschriften",
+     "href": "der-koerper-koerperteile-beschriften"
+    },
+    {
+     "label": "Der Körper: Wie viele hast du davon?",
+     "href": "der-koerper-wie-viele-hast-du"
+    },
+    {
+     "label": "Der Körper: nach Legende ausmalen",
+     "href": "der-koerper-nach-legende-ausmalen"
+    },
+    {
+     "label": "Der Körper: Wörter mit Buchstabenkästchen schreiben",
+     "href": "der-koerper-woerter-in-kaestchen-schreiben"
+    }
+   ],
+   "title": "Der Körper: Was fehlt? Körperteil einkreisen | kostenlos als PDF",
+   "metaDescription": "Vier Figuren, jeder fehlt genau ein Teil: Arm, Bein, Haare oder Fuß. Aus drei Fotos das fehlende Teil einkreisen und danach einzeichnen."
+  },
+  {
+   "slug": "der-koerper-was-gibt-es-zweimal",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-which-come-in-twos",
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Körper-Arbeitsblatt · Vorschule",
+   "h1": "Der Körper: Was hast du zweimal?",
+   "strand": "Sachunterricht – Körper und Gesundheit",
+   "slotTokens": [
+    "der-koerper",
+    "vorschule"
+   ],
+   "p1": "Links steht die Körperfigur zum Nachschauen, rechts liegen acht Karten mit je einem Foto und dem Wort darunter: Fuß, Nase, Auge, Mund, Knie, Ellbogen, Hand und Kopf. Das Kind kreist alles ein, was es zweimal hat. Fünf gehören zu einem Paar – Fuß, Auge, Knie, Ellbogen, Hand –, drei gibt es nur einmal. Auf der Knie-Karte ist ein ganzes angewinkeltes Bein mit Schuh abgebildet, mit einem kleinen roten Punkt an der Beuge; ebenso trägt der Ellbogen seinen roten Punkt an der Beuge des Arms.",
+   "p2": "Paarigkeit ist ein erster Ordnungsgedanke, und er kommt hier ohne eine einzige Zahl aus: Das Kind fasst sich an, stellt fest, dass es zwei davon hat, und markiert. Weil drei Einzelstücke dabei sind, lässt sich die Seite nicht durch Ankreuzen aller Karten lösen. Spannend sind die Gelenke – Knie und Ellbogen sind Kindern als Wörter oft vertraut, als Körperstelle aber unscharf, und der rote Punkt auf dem Foto ist der einzige Hinweis, welche Stelle des abgebildeten Beins oder Arms gemeint ist. Die Zuordnung zum eigenen Körper klärt das schneller als jedes Bild.",
+   "p3": "Ein Farbdruck auf einer Seite. Vor dem Einkreisen laut durchgehen und jedes Wort am eigenen Körper anfassen lassen; das kostet fünf Minuten und macht die Seite zu einer Bewegungsübung. Die Zahlfassung derselben Idee ist das Blatt mit der Frage Wie viele hast du davon? – dort wird die Anzahl geschrieben statt markiert.",
+   "canonicalDeckSlug": "der-koerper-k363",
+   "carousel": [
+    {
+     "label": "Der Körper: sechs Körperteile beschriften",
+     "href": "der-koerper-koerperteile-beschriften"
+    },
+    {
+     "label": "Der Körper: Wie viele hast du davon?",
+     "href": "der-koerper-wie-viele-hast-du"
+    },
+    {
+     "label": "Der Körper: nach Legende ausmalen",
+     "href": "der-koerper-nach-legende-ausmalen"
+    },
+    {
+     "label": "Der Körper: Wörter mit Buchstabenkästchen schreiben",
+     "href": "der-koerper-woerter-in-kaestchen-schreiben"
+    }
+   ],
+   "title": "Der Körper: Was gibt es zweimal? Paare finden | PDF zum Ausdrucken",
+   "metaDescription": "Acht beschriftete Fotos von Fuß bis Kopf: einkreisen, was der Mensch zweimal hat. Fünf gehören zu einem Paar, drei gibt es nur einmal."
+  },
+  {
+   "slug": "die-fuenf-sinne-bilder-nach-sinn-sortieren",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-sort-by-sense",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Sinne-Arbeitsblatt · Klasse 1",
+   "h1": "Zehn Bilder in fünf Sinneskästen sortieren",
+   "strand": "Sachunterricht – Körper und Sinne",
+   "slotTokens": [
+    "die-fuenf-sinne",
+    "1-klasse"
+   ],
+   "p1": "Oben liegen zehn kleine Bildkarten in zwei Reihen, jede mit einem orangen Punkt an der Unterkante: Zitrone, Fernglas, Bonbon, Blume, Kissen, Sandhaufen, Knoblauch, Geige, Stern und Trommel. Unten stehen fünf hohe Kästen, beschriftet mit schmecken, riechen, sehen, hören und fühlen, jeder mit dem passenden Sinnesorgan als kleinem Bild. Dazwischen bleibt die halbe Seite frei – dort verlaufen die Linien, die das Kind zieht. Zu jedem Kasten gehören genau zwei Bilder; die Verteilung geht ohne Rest auf.",
+   "p2": "Dass jeder Kasten zwei Bilder bekommt, ist die stille Kontrolle dieser Seite: Wer am Ende drei Linien am Riechen hat, muss zurückgehen. Genau dort wird es interessant, denn Zitrone und Knoblauch lassen sich mit gutem Grund beiden Kästen zuordnen – man riecht sie, bevor man sie schmeckt. Das ist kein Fehler des Blattes, sondern sein bester Gesprächsanlass: Welchen Sinn brauche ich zuerst? Die Klasse kann eine Regel verabreden und sie auf dem Blatt anwenden. Der Sachunterricht verlangt genau diese Begründung, nicht nur die richtige Linie.",
+   "p3": "Eine Seite in Farbe, weil mehrere Bilder über die Farbe erkannt werden. Der leere Raum in der Mitte ist Absicht – die Linien brauchen Platz und sollen einander kreuzen dürfen. Wer lieber ohne Linien arbeitet, schneidet die zehn Karten aus und legt sie in die Kästen; dann lässt sich die Zuordnung mehrfach ändern und besprechen.",
+   "canonicalDeckSlug": "die-fuenf-sinne-g1357",
+   "carousel": [
+    {
+     "label": "Die fünf Sinne: Bild und Körperteil verbinden",
+     "href": "die-fuenf-sinne-bild-und-sinnesorgan-verbinden"
+    },
+    {
+     "label": "Welchen Sinn brauchst du dafür? Acht Bilder, fünf Organe",
+     "href": "die-fuenf-sinne-welchen-sinn-brauchst-du"
+    },
+    {
+     "label": "Die fünf Sinne: In jeder Reihe passt ein Bild nicht dazu",
+     "href": "die-fuenf-sinne-was-passt-nicht-dazu"
+    },
+    {
+     "label": "Sinnesorgane beschriften: hören, fühlen, sehen, riechen, schmecken",
+     "href": "sinnesorgane-mit-dem-sinneswort-beschriften"
+    }
+   ],
+   "title": "Die fünf Sinne: Bilder sortieren, Klasse 1 | kostenlos als PDF",
+   "metaDescription": "Zehn Bilder oben, fünf beschriftete Kästen unten – schmecken, riechen, sehen, hören, fühlen: zu jedem Kasten gehören genau zwei Bilder."
+  },
+  {
+   "slug": "die-fuenf-sinne-welchen-sinn-brauchst-du",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-which-sense",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Sinne-Arbeitsblatt · Klasse 1",
+   "h1": "Welchen Sinn brauchst du dafür? Acht Bilder, fünf Organe",
+   "strand": "Sachunterricht – Körper und Sinne",
+   "slotTokens": [
+    "die-fuenf-sinne",
+    "1-klasse"
+   ],
+   "p1": "Acht breite Zeilen, jede beginnt links mit einem Bild und endet rechts mit denselben fünf Sinnesorganen in immer gleicher Reihenfolge: Auge, Ohr, Nase, Zunge, Hand. Das Kind kreist in jeder Zeile eines ein. Auf dem abgebildeten Druck sind die acht Bilder ein Kissen, ein Stein, eine Zitrone, eine Tüte Popcorn, eine Gitarre, eine Lichterkette, eine Taschenlampe und eine Rose. Die Verteilung ist nicht gleichmäßig: zweimal Sehen, zweimal Fühlen, zweimal Schmecken, je einmal Hören und Riechen.",
+   "p2": "Die feste Reihenfolge der fünf Organe ist der Unterschied zum Sortierblatt: Das Kind trifft acht einzelne Entscheidungen, statt eine Gesamtverteilung auszubalancieren, und jede steht für sich. Das macht die Seite leichter zu beginnen und schwerer abzukürzen. Zwei Bilder hintereinander sind Lichtquellen – Lichterkette und Taschenlampe –, die beide auf das Auge zeigen; dort lässt sich gut fragen, was man an einer brennenden Lampe außer dem Licht noch wahrnimmt. Die Rose ist der einzige Riech-Anlass auf dem Blatt und der Anlass, das Wort riechen laut zu sagen.",
+   "p3": "Ein Blatt in Farbe, ein Stift, keine Vorbereitung. Weil in jeder Zeile alle fünf Organe stehen, eignet es sich auch als kurzer Test am Ende der Einheit. Wer stattdessen eine Gesamtübersicht möchte, nimmt das Sortierblatt mit den fünf Kästen; wer nur ausschließen üben will, das Blatt, auf dem in jeder Reihe ein Bild durchgestrichen wird.",
+   "canonicalDeckSlug": "die-fuenf-sinne-g1358",
+   "carousel": [
+    {
+     "label": "Die fünf Sinne: Bild und Körperteil verbinden",
+     "href": "die-fuenf-sinne-bild-und-sinnesorgan-verbinden"
+    },
+    {
+     "label": "Zehn Bilder in fünf Sinneskästen sortieren",
+     "href": "die-fuenf-sinne-bilder-nach-sinn-sortieren"
+    },
+    {
+     "label": "Die fünf Sinne: In jeder Reihe passt ein Bild nicht dazu",
+     "href": "die-fuenf-sinne-was-passt-nicht-dazu"
+    },
+    {
+     "label": "Sinnesorgane beschriften: hören, fühlen, sehen, riechen, schmecken",
+     "href": "sinnesorgane-mit-dem-sinneswort-beschriften"
+    }
+   ],
+   "title": "Die fünf Sinne: Welcher Sinn passt? Einkreisen | PDF ausdrucken",
+   "metaDescription": "Acht Zeilen mit je einem Bild und denselben fünf Sinnesorganen zur Auswahl: Kissen, Stein, Zitrone, Popcorn, Gitarre, Lichterkette, Taschenlampe, Rose."
+  },
+  {
+   "slug": "die-fuenf-sinne-was-passt-nicht-dazu",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-which-one-does-not-belong",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Sinne-Arbeitsblatt · Klasse 1",
+   "h1": "Die fünf Sinne: In jeder Reihe passt ein Bild nicht dazu",
+   "strand": "Sachunterricht – Körper und Sinne",
+   "slotTokens": [
+    "die-fuenf-sinne",
+    "1-klasse"
+   ],
+   "p1": "Fünf breite Reihen mit je vier Bildern. In jeder Reihe gehören drei zum selben Sinn, eines fällt heraus und wird durchgestrichen. Auf dem abgebildeten Druck stehen in Reihe eins Blume, Schokolade, Kuchen und Lutscher; in Reihe zwei Cupcake, Feder, Keks und Honigglas; in Reihe drei Bonbon, Xylofon, Saxofon und Gitarre; in Reihe vier Lichterkette, Trillerpfeife, Trommel und Klavier; in Reihe fünf Teleskop, Stern, Regenbogen und Popcorn. Durchgestrichen wird also einmal die Blume, einmal die Feder, einmal das Bonbon, einmal die Lichterkette und einmal das Popcorn.",
+   "p2": "Ausschließen ist die schwierigste der Sinnesaufgaben, weil das Kind erst die gemeinsame Eigenschaft der drei finden muss, bevor es die vierte benennen kann. Auf diesem Blatt gibt es dafür allerdings eine Abkürzung: Jede Reihe lässt sich auch über die Alltagskategorie lösen – drei Süßigkeiten und eine Blume, drei Instrumente und ein Bonbon. Wer nur streicht, ist schnell fertig und hat über Sinne nicht nachgedacht. Die Frage danach ist deshalb die eigentliche Aufgabe und gehört laut gestellt: Welchen Sinn haben die drei gemeinsam? Zwei Reihen bauen auf dem Schmecken auf, zwei auf dem Hören, eine auf dem Sehen.",
+   "p3": "Ein Farbdruck auf einer Seite, ein Stift zum Durchstreichen. Gut geeignet für die Partnerarbeit, weil die Begründung gesprochen werden muss. Als Vorübung passt das Blatt mit den fünf Sortierkästen, als Fortsetzung das Schreibblatt, auf dem die Sinnesorgane mit dem passenden Wort beschriftet werden.",
+   "canonicalDeckSlug": "die-fuenf-sinne-g1359",
+   "carousel": [
+    {
+     "label": "Die fünf Sinne: Bild und Körperteil verbinden",
+     "href": "die-fuenf-sinne-bild-und-sinnesorgan-verbinden"
+    },
+    {
+     "label": "Zehn Bilder in fünf Sinneskästen sortieren",
+     "href": "die-fuenf-sinne-bilder-nach-sinn-sortieren"
+    },
+    {
+     "label": "Welchen Sinn brauchst du dafür? Acht Bilder, fünf Organe",
+     "href": "die-fuenf-sinne-welchen-sinn-brauchst-du"
+    },
+    {
+     "label": "Sinnesorgane beschriften: hören, fühlen, sehen, riechen, schmecken",
+     "href": "sinnesorgane-mit-dem-sinneswort-beschriften"
+    }
+   ],
+   "title": "Die fünf Sinne: Was passt nicht dazu? | PDF zum Ausdrucken",
+   "metaDescription": "Fünf Reihen mit je vier Bildern: Drei gehören zum selben Sinn, eines nicht. Das Kind streicht das Bild durch, das herausfällt."
+  },
+  {
+   "slug": "sinnesorgane-mit-dem-sinneswort-beschriften",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "sense-organs-write-the-sense-word",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Sinne-Arbeitsblatt · Klasse 1",
+   "h1": "Sinnesorgane beschriften: hören, fühlen, sehen, riechen, schmecken",
+   "strand": "Sachunterricht – Körper und Sinne",
+   "slotTokens": [
+    "die-fuenf-sinne",
+    "1-klasse"
+   ],
+   "p1": "Oben steht ein Wortkasten mit fünf Wörtern: hören, fühlen, sehen, riechen und schmecken. Darunter liegen fünf breite Zeilen, jede mit dem Bild eines Sinnesorgans links – Zunge, Auge, Ohr, Hand, Nase – und einer dreizeiligen Lineatur mit gestrichelter Mittellinie daneben. Das Kind schreibt zu jedem Organ das Wort, das sagt, was es kann. Geschrieben wird also nicht der Name des Organs, sondern das Tunwort; der Wortkasten enthält ausschließlich diese fünf Verben. Die Reihenfolge im Kasten ist gegen die Reihenfolge der Bilder verschoben.",
+   "p2": "Das Blatt trennt zwei Dinge, die Kinder gern zusammenwerfen: das Organ und seine Leistung. Wer über der Nase riechen schreibt, hat den Unterschied gemacht; wer Nase schreibt, hat die Aufgabe gelesen, aber nicht verstanden – und genau deshalb steht das Verb im Kasten und der Organname nicht. Die dreizeilige Lineatur macht daraus zugleich eine saubere Schreibübung: Die kleinen Buchstaben stehen im Mittelband, und bei fühlen und hören kommt der Umlautpunkt dazu. Der Sachunterricht verbindet sich hier mit dem Rechtschreibunterricht, ohne dass dafür ein zweites Blatt nötig wäre.",
+   "p3": "Eine Seite, Farbdruck für die Organbilder, Bleistift zum Schreiben. Der Titel nennt die Sinnesorgane; geschrieben wird das Verb – ein Satz zu Beginn klärt das. Wer die Zuordnung ohne Schreiben üben möchte, nimmt die Verbindungsfassung; wer schon frei formulieren kann, das Satzblatt mit Ich höre, Ich sehe, Ich rieche.",
+   "canonicalDeckSlug": "die-fuenf-sinne-g1360",
+   "carousel": [
+    {
+     "label": "Die fünf Sinne: Bild und Körperteil verbinden",
+     "href": "die-fuenf-sinne-bild-und-sinnesorgan-verbinden"
+    },
+    {
+     "label": "Zehn Bilder in fünf Sinneskästen sortieren",
+     "href": "die-fuenf-sinne-bilder-nach-sinn-sortieren"
+    },
+    {
+     "label": "Welchen Sinn brauchst du dafür? Acht Bilder, fünf Organe",
+     "href": "die-fuenf-sinne-welchen-sinn-brauchst-du"
+    },
+    {
+     "label": "Die fünf Sinne: In jeder Reihe passt ein Bild nicht dazu",
+     "href": "die-fuenf-sinne-was-passt-nicht-dazu"
+    }
+   ],
+   "title": "Sinnesorgane beschriften: das passende Wort schreiben | PDF",
+   "metaDescription": "Fünf Organbilder mit Lineatur und ein Wortkasten mit hören, fühlen, sehen, riechen, schmecken: zu jedem Organ das passende Tunwort schreiben."
+  },
+  {
+   "slug": "die-fuenf-sinne-ich-hoere-saetze-beenden",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-i-can-hear",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Sinne-Arbeitsblatt · Klasse 1",
+   "h1": "Ich höre, ich sehe, ich rieche: fünf Sätze selbst beenden",
+   "strand": "Sachunterricht – Körper und Sinne",
+   "slotTokens": [
+    "die-fuenf-sinne",
+    "1-klasse"
+   ],
+   "p1": "Fünf Zeilen, jede mit dem Bild eines Sinnesorgans links und einem Satzanfang, der schon in blassem Grau auf der Linie steht: Ich höre …, Ich sehe …, Ich rieche …, Ich schmecke …, Ich fühle … Darunter liegt jeweils eine zweite, leere Lineaturzeile. Das Kind schreibt weiter, mit eigenen Wörtern, so viel wie es mag. Es gibt keinen Wortkasten, keine Auswahl und keine richtige Antwort – das Blatt ist offen angelegt und nimmt alles auf, was das Kind gerade wahrnimmt.",
+   "p2": "Nach vier Blättern, auf denen zugeordnet, eingekreist und sortiert wurde, wechselt diese Seite die Richtung: Jetzt liefert das Kind den Inhalt. Am besten entsteht er draußen oder mit geschlossenen Augen im Klassenzimmer – zwei Minuten still sein, dann schreiben. Der Satzanfang nimmt die Last der Formulierung ab und lässt trotzdem jede Antwort zu. Sprachlich ist die letzte Zeile die interessanteste: Ich fühle … meint hier den Tastsinn, und Kinder verstehen es zunächst als Gefühl. Beide Lesarten sind gute Antworten, solange darüber gesprochen wird.",
+   "p3": "Ein Blatt, Farbdruck für die Organbilder, sonst reicht ein Bleistift. Es eignet sich als Abschluss der Sinneseinheit und als Vorlage für ein kleines Klassenbuch: fünf Seiten, ein Sinn pro Seite, die Sätze aller Kinder gesammelt. Wer vorher noch Wortmaterial braucht, nimmt das Beschriftungsblatt mit den fünf Verben im Kasten.",
+   "canonicalDeckSlug": "die-fuenf-sinne-g1361",
+   "carousel": [
+    {
+     "label": "Die fünf Sinne: Bild und Körperteil verbinden",
+     "href": "die-fuenf-sinne-bild-und-sinnesorgan-verbinden"
+    },
+    {
+     "label": "Zehn Bilder in fünf Sinneskästen sortieren",
+     "href": "die-fuenf-sinne-bilder-nach-sinn-sortieren"
+    },
+    {
+     "label": "Welchen Sinn brauchst du dafür? Acht Bilder, fünf Organe",
+     "href": "die-fuenf-sinne-welchen-sinn-brauchst-du"
+    },
+    {
+     "label": "Die fünf Sinne: In jeder Reihe passt ein Bild nicht dazu",
+     "href": "die-fuenf-sinne-was-passt-nicht-dazu"
+    }
+   ],
+   "title": "Die fünf Sinne: Ich höre … Sätze schreiben | kostenlos als PDF",
+   "metaDescription": "Fünf angefangene Sätze mit Organbild und Lineatur: Ich höre, Ich sehe, Ich rieche, Ich schmecke, Ich fühle – das Kind schreibt selbst weiter."
+  },
+  {
+   "slug": "wettersymbole-wetterwoerter-schreiben",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-write-the-weather-word",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Wetter-Arbeitsblatt · Klasse 1",
+   "h1": "Wetterwörter schreiben: ein Buchstabe pro Kästchen",
+   "strand": "Sachunterricht – Natur und Leben",
+   "slotTokens": [
+    "wettersymbole",
+    "1-klasse"
+   ],
+   "p1": "Oben steht ein Wortkasten mit sechs Wörtern: Gewitter, Wolke, Regen, Sonne, Regenbogen und Schnee. Darunter liegen sechs Zeilen, jede mit einem Wettersymbol links und einer Reihe gestrichelter Buchstabenkästchen rechts. Die Reihen sind verschieden lang – sechs, fünf, acht, fünf, fünf und zehn Kästchen –, und das Kind schreibt einen Buchstaben je Kästchen. Auf dem abgebildeten Druck stehen die Symbole in der Reihenfolge Schneeflocke, Sonne, Gewitterwolke, Wolke, Regenwolke und Regenbogen.",
+   "p2": "Die Kästchenzahl arbeitet als Hilfe mit: Zehn Kästchen kann nur Regenbogen sein, acht nur Gewitter, sechs nur Schnee. Damit sind drei der sechs Zeilen schon ohne Blick auf das Symbol entschieden – und die übrigen drei sind gerade deshalb die eigentliche Aufgabe, denn Sonne, Wolke und Regen haben alle fünf Buchstaben. Dort muss das Kind das Bild lesen. Das lange Wort Regenbogen bringt nebenbei die erste Silbentrennung ins Spiel und zeigt, wie ein zusammengesetztes Nomen aus zwei bekannten Wörtern entsteht: Regen und Bogen.",
+   "p3": "Ein Blatt, Farbdruck für die Symbole, Bleistift zum Schreiben. Es folgt auf das Verbindungsblatt, auf dem dieselben sechs Wörter noch gedruckt zur Verfügung stehen, und eignet sich danach als Übung zum sicheren Aufschreiben. Wer die Wörter anschließend anwenden möchte, nimmt den Wochenkalender: Dort wird kein Wort geschrieben, sondern jeden Tag ein Symbol gezeichnet. Für die Klasse lohnt sich außerdem, die sechs Wörter einmal nach ihrer Länge zu ordnen – das macht die Kästchenreihen als Hilfe sichtbar.",
+   "canonicalDeckSlug": "wettersymbole-g1362",
+   "carousel": [
+    {
+     "label": "Wettersymbole: Symbol und Wort verbinden",
+     "href": "wettersymbole-symbol-und-wort-verbinden"
+    },
+    {
+     "label": "Wetter beobachten: meine Woche von Montag bis Sonntag",
+     "href": "wetter-beobachten-wochenkalender"
+    },
+    {
+     "label": "Thermometer ablesen: kalt, warm oder heiß?",
+     "href": "wettersymbole-kalt-warm-oder-heiss"
+    },
+    {
+     "label": "Den Wasserkreislauf beschriften: vier Stationen",
+     "href": "wasserkreislauf-beschriften"
+    }
+   ],
+   "title": "Wettersymbole: Wetterwörter schreiben, Klasse 1 | PDF drucken",
+   "metaDescription": "Sechs Wettersymbole mit Buchstabenkästchen und ein Wortkasten: Schnee, Sonne, Gewitter, Wolke, Regen und Regenbogen buchstabengenau eintragen."
+  },
+  {
+   "slug": "wetter-beobachten-wochenkalender",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-weather-chart-monday-to-sunday",
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Wetter-Arbeitsblatt · Vorschule",
+   "h1": "Wetter beobachten: meine Woche von Montag bis Sonntag",
+   "strand": "Sachunterricht – Natur und Leben",
+   "slotTokens": [
+    "wettersymbole",
+    "vorschule"
+   ],
+   "p1": "Acht Felder in zwei Reihen. Sieben davon tragen oben einen Namenschip – Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag – und sind darunter vollständig leer, mit einem hohen, orange gestrichelten Zeichenfeld. Das achte Feld unten rechts hat keinen Chip: Es enthält die sechs Wettersymbole zum Abmalen – Sonne, Wolke, Regen, Gewitter, Schnee und Regenbogen. Das Kind schaut jeden Tag nach draußen und zeichnet das passende Symbol in das Feld des Tages. Geschrieben wird nichts.",
+   "p2": "Dieses Blatt ist kein Arbeitsblatt für eine Stunde, sondern für eine Woche – und das macht seinen Wert aus. Wetterbeobachtung ist im Sachunterricht die erste echte Messreihe: immer zur selben Zeit hinsehen, immer gleich aufschreiben, danach vergleichen. Am Sonntag steht eine Woche als Bild da, und die Fragen ergeben sich von selbst: An wie vielen Tagen hat es geregnet? Welches Symbol kam gar nicht vor? Weil das Kind zeichnet statt anzukreuzen, prägen sich die sechs Zeichen dabei ein, ohne dass man sie üben müsste.",
+   "p3": "Ein Farbdruck auf einer Seite, am besten laminiert oder in eine Klarsichthülle, dann ist er mit einem abwischbaren Stift mehrfach verwendbar. Zu wissen ist: Das Feld unten rechts sieht aus wie ein achter Tag, ist aber die Symbolübersicht – ein Satz dazu vor dem Austeilen erspart Rückfragen. Fertige Wochen lassen sich mit dem Blatt zum Wetterbericht auswerten.",
+   "canonicalDeckSlug": "wettersymbole-k364",
+   "carousel": [
+    {
+     "label": "Wettersymbole: Symbol und Wort verbinden",
+     "href": "wettersymbole-symbol-und-wort-verbinden"
+    },
+    {
+     "label": "Wetterwörter schreiben: ein Buchstabe pro Kästchen",
+     "href": "wettersymbole-wetterwoerter-schreiben"
+    },
+    {
+     "label": "Thermometer ablesen: kalt, warm oder heiß?",
+     "href": "wettersymbole-kalt-warm-oder-heiss"
+    },
+    {
+     "label": "Den Wasserkreislauf beschriften: vier Stationen",
+     "href": "wasserkreislauf-beschriften"
+    }
+   ],
+   "title": "Wetterkalender für eine Woche zum Selbstzeichnen | PDF drucken",
+   "metaDescription": "Sieben große Felder von Montag bis Sonntag und eine Symbolübersicht: Jeden Tag nach draußen schauen und das Wettersymbol eintragen."
+  },
+  {
+   "slug": "wettersymbole-kalt-warm-oder-heiss",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-how-warm-is-it",
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Wetter-Arbeitsblatt · Vorschule",
+   "h1": "Thermometer ablesen: kalt, warm oder heiß?",
+   "strand": "Sachunterricht – Natur und Leben",
+   "slotTokens": [
+    "wettersymbole",
+    "vorschule"
+   ],
+   "p1": "Oben läuft ein Legendenstreifen mit drei Thermometern, jedes neben dem passenden Bild: ein fast leeres Thermometer neben einem Schal, ein halb gefülltes neben einem T-Shirt, ein fast volles neben einer Sonnenbrille. Darunter stehen vier Karten mit je einem Thermometer und drei Bildern zur Auswahl. Das Kind vergleicht die Füllhöhe mit der Legende und kreist ein. Die Thermometer tragen keine einzige Zahl; sie haben drei farbige Zonen und zwei schwarze Trennstriche. Auf dem abgebildeten Druck stehen zwei Karten in der kalten Zone, je eine in der warmen und der heißen.",
+   "p2": "Ohne Zahlen zu messen ist für Kinder vor der Schule der richtige Einstieg: Sie lesen eine Höhe ab und ordnen sie einem Bereich zu, statt eine Skala zu entziffern. Die Bildantwort – Schal, T-Shirt, Sonnenbrille – macht das Ergebnis sofort anwendbar: Temperatur heißt hier, was man anzieht. Der Sachunterricht verbindet Wetter und Kleidung genau so. Ein Hinweis für die Vorbereitung: Titel und Anweisung nennen die Wörter kalt, warm und heiß, auf dem Blatt selbst steht keines davon. Sie gehören in das Gespräch, während gearbeitet wird, sonst bleibt die Seite eine reine Bildaufgabe.",
+   "p3": "Eine Seite in Farbe – die drei Zonen des Thermometers sind farbig hinterlegt und tragen die Information. Auf dem abgebildeten Druck ist die oberste der drei Auswahlmöglichkeiten nie die richtige; wer das Blatt als kurzen Test nutzt, sollte das wissen. Als Ergänzung passt der Wochenkalender, in dem dieselbe Woche zusätzlich mit Symbolen festgehalten wird.",
+   "canonicalDeckSlug": "wettersymbole-k365",
+   "carousel": [
+    {
+     "label": "Wettersymbole: Symbol und Wort verbinden",
+     "href": "wettersymbole-symbol-und-wort-verbinden"
+    },
+    {
+     "label": "Wetterwörter schreiben: ein Buchstabe pro Kästchen",
+     "href": "wettersymbole-wetterwoerter-schreiben"
+    },
+    {
+     "label": "Wetter beobachten: meine Woche von Montag bis Sonntag",
+     "href": "wetter-beobachten-wochenkalender"
+    },
+    {
+     "label": "Den Wasserkreislauf beschriften: vier Stationen",
+     "href": "wasserkreislauf-beschriften"
+    }
+   ],
+   "title": "Ist es kalt, warm oder heiß? Thermometer und Kleidung | PDF",
+   "metaDescription": "Vier Thermometer ohne Zahlen mit drei Farbzonen und je drei Bildern zur Auswahl: Schal, T-Shirt oder Sonnenbrille einkreisen."
+  },
+  {
+   "slug": "wasserkreislauf-beschriften",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-water-cycle-label-the-diagram",
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Wetter-Arbeitsblatt · Klasse 3",
+   "h1": "Den Wasserkreislauf beschriften: vier Stationen",
+   "strand": "Sachunterricht – Natur und Leben",
+   "slotTokens": [
+    "wettersymbole",
+    "3-klasse"
+   ],
+   "p1": "Oben steht ein Wortkasten mit vier Begriffen, und zwar in dieser Reihenfolge: Kondensation, Verdunstung, Sammlung, Niederschlag. Darunter läuft eine große Abbildung: links eine Sonne über einem blaugrünen Gewässer, davor aufsteigende Dampflinien mit einem orangen Bogenpfeil, rechts eine Wolke mit gestrichelten Regenlinien und ein Hügel, an dem ein zweiter Pfeil zurück zum Wasser führt. Vier orange Nummernpunkte markieren die Stationen: 1 am aufsteigenden Dampf, 2 in der Wolke, 3 an den fallenden Linien, 4 mitten im Wasser. Unten warten vier nummerierte Schreibfelder mit Lineatur.",
+   "p2": "Der Wasserkreislauf ist der erste Kreislauf, den Kinder vollständig überblicken können, und die Abbildung macht das Ringförmige sichtbar: vom Wasser nach oben, über die Wolke nach rechts und wieder hinunter. Jede Station steht an ihrem Ort – Verdunstung über dem Wasser, Kondensation in der Wolke, Niederschlag zwischen Wolke und Boden. Der vierte Punkt liegt im Gewässer selbst, also dort, wo sich das Wasser wieder sammelt; genau deshalb heißt das vierte Wort Sammlung. Der Pfeil, der über dem Hügel zurück zum Wasser führt, trägt bewusst keine Nummer – er zeigt den Weg dorthin und ist keine der vier gesuchten Stationen. Dass der Kasten die Wörter nicht in der Reihenfolge der Ziffern anbietet, gehört ebenfalls zur Aufgabe.",
+   "p3": "Ein Farbdruck auf einer Seite; die Schreibfelder tragen eine Lineatur mit gestrichelter Mittellinie, die langen Fachwörter passen hinein. Das Blatt gehört an den Übergang von der Wetterbeobachtung zur Erklärung, wie ihn der Lehrplan Sachunterricht vorsieht, und lässt sich als Merkblatt ins Heft kleben. Wer zuerst die Symbole sichern will, nimmt die Verbindungs- oder die Schreibfassung aus derselben Reihe.",
+   "canonicalDeckSlug": "wettersymbole-g3385",
+   "carousel": [
+    {
+     "label": "Wettersymbole: Symbol und Wort verbinden",
+     "href": "wettersymbole-symbol-und-wort-verbinden"
+    },
+    {
+     "label": "Wetterwörter schreiben: ein Buchstabe pro Kästchen",
+     "href": "wettersymbole-wetterwoerter-schreiben"
+    },
+    {
+     "label": "Wetter beobachten: meine Woche von Montag bis Sonntag",
+     "href": "wetter-beobachten-wochenkalender"
+    },
+    {
+     "label": "Thermometer ablesen: kalt, warm oder heiß?",
+     "href": "wettersymbole-kalt-warm-oder-heiss"
+    }
+   ],
+   "title": "Wasserkreislauf beschriften, Klasse 3 | PDF zum Ausdrucken",
+   "metaDescription": "Eine Kreislaufabbildung mit Sonne, Meer, Wolke und Hügel: Verdunstung, Kondensation, Niederschlag und Sammlung an die vier nummerierten Stellen schreiben."
+  },
+  {
+   "slug": "wettersymbole-wetterbericht-lesen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-read-the-weekly-forecast",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Wetter-Arbeitsblatt · Klasse 1",
+   "h1": "Den Wetterbericht der Woche lesen und Fragen beantworten",
+   "strand": "Sachunterricht – Natur und Leben",
+   "slotTokens": [
+    "wettersymbole",
+    "1-klasse"
+   ],
+   "p1": "Oben steht ein gerahmter Wochenstreifen: Montag bis Freitag, unter jedem Tagesnamen ein Wettersymbol. Auf dem abgebildeten Druck schneit es am Montag, am Dienstag gewittert es, am Mittwoch scheint die Sonne, am Donnerstag regnet es, am Freitag ist es bewölkt. Darunter folgen drei Karten mit je einer Frage und denselben fünf Tagesnamen als Auswahl: An welchem Tag schneit es? An welchem Tag regnet es? An welchem Tag scheint die Sonne? Das Kind kreist den Tag ein.",
+   "p2": "Eine Tabelle zu lesen heißt, von der Frage zurück zur Zeile zu finden – und das ist eine andere Fähigkeit als das Benennen eines Symbols. Das Kind sucht hier zuerst das Zeichen, dann den Tag darüber, und beantwortet die Frage mit einem Namen, den es nirgends abschreiben muss. Zwei Symbole der Woche kommen in keiner Frage vor, das Gewitter und die Wolke; sie sind Ablenkung und zugleich Gesprächsstoff. Bei der Regenfrage lohnt ein zweiter Blick, denn ein Gewitter bringt gewöhnlich auch Regen – auf dem Blatt zeigt das Gewittersymbol jedoch nur einen Blitz und keine Tropfen.",
+   "p3": "Ein Blatt in Farbe, ein Stift genügt. Mit drei Fragen bleibt Platz auf der Seite; eigene Fragen lassen sich darunter ergänzen – etwa nach zwei Tagen mit Niederschlag. Besonders gut passt es nach einer selbst beobachteten Woche: Dann liest die Klasse erst den gedruckten Bericht und danach den eigenen Kalender.",
+   "canonicalDeckSlug": "wettersymbole-g1363",
+   "carousel": [
+    {
+     "label": "Wettersymbole: Symbol und Wort verbinden",
+     "href": "wettersymbole-symbol-und-wort-verbinden"
+    },
+    {
+     "label": "Wetterwörter schreiben: ein Buchstabe pro Kästchen",
+     "href": "wettersymbole-wetterwoerter-schreiben"
+    },
+    {
+     "label": "Wetter beobachten: meine Woche von Montag bis Sonntag",
+     "href": "wetter-beobachten-wochenkalender"
+    },
+    {
+     "label": "Thermometer ablesen: kalt, warm oder heiß?",
+     "href": "wettersymbole-kalt-warm-oder-heiss"
+    }
+   ],
+   "title": "Wettersymbole: Wetterbericht lesen, Klasse 1 | kostenlos als PDF",
+   "metaDescription": "Ein Wochenstreifen von Montag bis Freitag mit fünf Wettersymbolen und drei Fragen darunter: den richtigen Tag einkreisen."
+  },
+  {
+   "slug": "muelltrennung-welche-tonne-einkreisen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-which-bin",
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Mülltrennung-Arbeitsblatt · Vorschule",
+   "h1": "Mülltrennung: Welche Tonne ist die richtige?",
+   "strand": "Sachunterricht – Umwelt und Nachhaltigkeit",
+   "slotTokens": [
+    "muelltrennung",
+    "vorschule"
+   ],
+   "p1": "Über dem Blatt steht die Übersicht: fünf Tonnen mit Namenschip – Papier, Verpackung, Biomüll, Glas, Restmüll – in Blau, Gelb, Braun, Grün und Grau. Darunter folgen sechs Zeilen. Jede zeigt links ein Ding und rechts dieselben fünf Tonnen noch einmal, diesmal kleiner und ohne Namen. Das Kind kreist die richtige ein. Auf dem abgebildeten Druck sind die sechs Dinge eine Orange, ein Briefumschlag, ein Eimer, eine Konservendose, ein Honigglas und ein Umzugskarton.",
+   "p2": "Dass die Tonnen in den Zeilen keinen Namen mehr tragen, ist der Schritt gegenüber der Grundseite: Das Kind muss die Übersicht oben tatsächlich benutzen und Farbe und Deckelzeichen zurückübersetzen. Die Zeichen sind dabei mehr als Dekoration – drei Punkte auf Gelb, drei Balken auf Braun, ein Strich auf Grün, eine Zickzacklinie auf Grau und ein glatter Deckel auf Blau. Dadurch bleibt das Blatt auch im Schwarz-Weiß-Druck lösbar. Inhaltlich ist die Konservendose die interessanteste Karte: Metall gehört in Deutschland in die Verpackungstonne, obwohl es weder Papier noch Plastik ist.",
+   "p3": "Eine Seite, Farbdruck empfohlen, im Graudruck über die Deckelzeichen lösbar. Es ist die schnellere Fassung der Grundseite und eignet sich gut als Wiederholung nach ein paar Wochen. Wer danach vom Ding zum Stoff weitergehen will, nimmt das Blatt, auf dem das Material aufgeschrieben wird: Papier, Pappe, Glas, Plastik oder Metall.",
+   "canonicalDeckSlug": "muelltrennung-k366",
+   "carousel": [
+    {
+     "label": "Mülltrennung: acht Dinge den fünf Tonnen zuordnen",
+     "href": "muelltrennung-dinge-den-tonnen-zuordnen"
+    },
+    {
+     "label": "Woraus ist es gemacht? Material zu acht Dingen schreiben",
+     "href": "muelltrennung-woraus-ist-es-gemacht"
+    },
+    {
+     "label": "In jeder Reihe ist ein Ding aus einem anderen Stoff",
+     "href": "muelltrennung-anderes-material-einkreisen"
+    },
+    {
+     "label": "Die Tonnen in den richtigen Farben ausmalen",
+     "href": "muelltrennung-tonnen-ausmalen"
+    }
+   ],
+   "title": "Mülltrennung: Welche Tonne? Tonne einkreisen | PDF ausdrucken",
+   "metaDescription": "Eine beschriftete Tonnenübersicht oben, darunter sechs Dinge mit je fünf unbeschrifteten Tonnen zur Auswahl: die richtige einkreisen."
+  },
+  {
+   "slug": "muelltrennung-woraus-ist-es-gemacht",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-what-is-it-made-of",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Mülltrennung-Arbeitsblatt · Klasse 1",
+   "h1": "Woraus ist es gemacht? Material zu acht Dingen schreiben",
+   "strand": "Sachunterricht – Umwelt und Nachhaltigkeit",
+   "slotTokens": [
+    "muelltrennung",
+    "1-klasse"
+   ],
+   "p1": "Oben steht ein Wortkasten mit fünf Materialien: Plastik, Papier, Pappe, Glas und Metall. Darunter folgen acht Zeilen mit je einem Bild links und einer dreizeiligen Lineatur rechts. Auf dem abgebildeten Druck sind es eine Schraube, ein Plastiklöffel, ein Heft, eine Saucenflasche, eine Schraubenmutter, ein Notizzettel, ein Umzugskarton und eine Popcorntüte. Das Kind schreibt zu jedem Bild das Material auf die Linie. Die fünf Wörter reichen für acht Zeilen – manche Wörter werden also mehrfach gebraucht.",
+   "p2": "Der Schritt vom Ding zum Stoff ist der eigentliche Kern der Mülltrennung: Nicht die Form entscheidet über die Tonne, sondern das Material. Deshalb stehen Schraube und Schraubenmutter beide auf dem Blatt – zwei verschiedene Dinge, ein Material, und dasselbe gilt für Heft und Notizzettel. Anspruchsvoll ist die Unterscheidung von Papier und Pappe, denn im deutschen System landen beide in derselben blauen Tonne; unterscheiden lassen sie sich nur über Dicke und Steifigkeit. Genau darüber lohnt sich ein kurzes Gespräch mit echten Dingen in der Hand, bevor geschrieben wird.",
+   "p3": "Ein Blatt in Farbe, Bleistift zum Schreiben. Die Popcorntüte trägt als einzige ein gezeichnetes Gesicht, was Kinder gern kommentieren – ein Satz dazu, und die Aufmerksamkeit geht zurück auf das Material. Danach lässt sich das Aussortierblatt anschließen, auf dem in jeder Reihe das Ding aus einem anderen Stoff eingekreist wird.",
+   "canonicalDeckSlug": "muelltrennung-g1364",
+   "carousel": [
+    {
+     "label": "Mülltrennung: acht Dinge den fünf Tonnen zuordnen",
+     "href": "muelltrennung-dinge-den-tonnen-zuordnen"
+    },
+    {
+     "label": "Mülltrennung: Welche Tonne ist die richtige?",
+     "href": "muelltrennung-welche-tonne-einkreisen"
+    },
+    {
+     "label": "In jeder Reihe ist ein Ding aus einem anderen Stoff",
+     "href": "muelltrennung-anderes-material-einkreisen"
+    },
+    {
+     "label": "Die Tonnen in den richtigen Farben ausmalen",
+     "href": "muelltrennung-tonnen-ausmalen"
+    }
+   ],
+   "title": "Material bestimmen: Papier, Pappe, Glas, Plastik, Metall | PDF",
+   "metaDescription": "Acht Dinge mit Lineatur und ein Wortkasten mit fünf Materialien: zu jedem Bild aufschreiben, woraus es besteht – Papier, Pappe, Glas, Plastik oder Metall."
+  },
+  {
+   "slug": "muelltrennung-anderes-material-einkreisen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-odd-one-out-by-material",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Mülltrennung-Arbeitsblatt · Klasse 2",
+   "h1": "In jeder Reihe ist ein Ding aus einem anderen Stoff",
+   "strand": "Sachunterricht – Umwelt und Nachhaltigkeit",
+   "slotTokens": [
+    "muelltrennung",
+    "2-klasse"
+   ],
+   "p1": "Vier Reihen mit je vier weißen Bildkarten, jede Reihe links mit einer dunkelgrünen Ziffer. Drei Dinge einer Reihe bestehen aus demselben Stoff, eines nicht; das kreist das Kind ein. Auf dem abgebildeten Druck stehen in Reihe eins Marmeladenglas, Honigglas, Milchflasche und Plastiklöffel; in Reihe zwei Klebstoffflasche, Zahnbürste, Blatt und Kamm; in Reihe drei Paprika, Karotte, Banane und Kochtopf; in Reihe vier Schraube, Ölflasche, Schraubenmutter und Konservendose. Gesucht ist der Reihe nach das vierte, das dritte, das vierte und das zweite Bild.",
+   "p2": "Die Lösungen liegen in Spalte vier, drei, vier und zwei – nach dem ersten Schritt nach links geht es wieder nach rechts und zuletzt zwei Spalten nach links. Wer eine Treppe vermutet und einfach weiterzählt, liegt schon in der dritten Reihe daneben; das Blatt lässt sich also nicht mustern, sondern nur lösen. Inhaltlich ist die Seite die Fortsetzung der Materialfrage, nun ohne Wortkasten und mit Begründungszwang: Warum gehört der Löffel nicht zu den drei Gläsern? Zwei Reihen brauchen dabei eine Präzisierung durch die Lehrkraft, denn Paprika, Karotte und Banane sind kein Werkstoff, sondern Bioabfall, und auch das Blatt in Reihe zwei ist pflanzlich, nicht stofflich zu beschreiben. Die Frage lautet dort genauer: Was davon war einmal lebendig? Mit dieser Umformulierung sind alle vier Reihen sauber lösbar.",
+   "p3": "Ein Farbdruck auf einer Seite, ein Stift. Gut als Einstieg in eine Stunde, weil jede Reihe in einem Satz begründet werden kann und die Klasse schnell ins Sprechen kommt. Wer die Stoffnamen vorher sichern möchte, nimmt das Schreibblatt mit dem Wortkasten; wer zurück zur Tonne will, die Zuordnungsseite mit den fünf Tonnen.",
+   "canonicalDeckSlug": "muelltrennung-g2348",
+   "carousel": [
+    {
+     "label": "Mülltrennung: acht Dinge den fünf Tonnen zuordnen",
+     "href": "muelltrennung-dinge-den-tonnen-zuordnen"
+    },
+    {
+     "label": "Mülltrennung: Welche Tonne ist die richtige?",
+     "href": "muelltrennung-welche-tonne-einkreisen"
+    },
+    {
+     "label": "Woraus ist es gemacht? Material zu acht Dingen schreiben",
+     "href": "muelltrennung-woraus-ist-es-gemacht"
+    },
+    {
+     "label": "Die Tonnen in den richtigen Farben ausmalen",
+     "href": "muelltrennung-tonnen-ausmalen"
+    }
+   ],
+   "title": "Mülltrennung: Was passt nicht dazu? Material finden | PDF drucken",
+   "metaDescription": "Vier Reihen mit je vier Dingen: Drei bestehen aus demselben Stoff, eines nicht. Das Kind kreist das Ding ein, das herausfällt, und begründet die Wahl."
+  },
+  {
+   "slug": "muelltrennung-tonnen-ausmalen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-color-the-bins",
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Mülltrennung-Arbeitsblatt · Vorschule",
+   "h1": "Die Tonnen in den richtigen Farben ausmalen",
+   "strand": "Sachunterricht – Umwelt und Nachhaltigkeit",
+   "slotTokens": [
+    "muelltrennung",
+    "vorschule"
+   ],
+   "p1": "Oben steht die Legende: blau für Papier, gelb für Verpackung, grün für Glas, grau für Restmüll, braun für Biomüll. Darunter stehen fünf Tonnen nebeneinander, jede nur als Umriss gezeichnet und mit ihrem Namen auf einem Chip darüber. Das Kind liest den Namen und malt die Tonne in ihrer Farbe an. Unter jeder Tonne liegen zusätzlich zwei Bildkarten mit passenden Dingen – unter Papier ein Karton und eine Popcorntüte, unter Glas ein Marmeladenglas und ein leeres Schraubglas, unter Restmüll ein Kamm und ein Eimer.",
+   "p2": "Die Farbe ist beim Trennen die schnellste Information: Kinder erkennen die Tonne im Hof, lange bevor sie das Schild lesen. Dieses Blatt verankert die Zuordnung Farbe – Name, bevor irgendetwas sortiert wird, und es tut das über das Lesen, nicht über das Nachahmen. Zu wissen ist dabei zweierlei. Erstens sind die zwei Bilder unter jeder Tonne ein stilles Angebot; die Anweisung erwähnt sie nicht, sie lassen sich aber hervorragend zum Benennen nutzen. Zweitens ist Grün für Glas die bundesweit verbreitete, aber nicht die überall gültige Farbe – in mehreren Bundesländern ist die grüne Tonne die Papiertonne, und Altglas wird ohnehin meist zum Container gebracht.",
+   "p3": "Ein Blatt, schwarz-weiß gedruckt, fünf Buntstifte bereitlegen – die Legende selbst ist farbig und muss deshalb in Farbe vorliegen oder vorgelesen werden. Der Vergleich mit den echten Tonnen vor der Schule ist die beste Nacharbeit. Danach passt die Zuordnungsseite, auf der dieselben fünf Tonnen die Ziele von acht Dingen sind.",
+   "canonicalDeckSlug": "muelltrennung-k367",
+   "carousel": [
+    {
+     "label": "Mülltrennung: acht Dinge den fünf Tonnen zuordnen",
+     "href": "muelltrennung-dinge-den-tonnen-zuordnen"
+    },
+    {
+     "label": "Mülltrennung: Welche Tonne ist die richtige?",
+     "href": "muelltrennung-welche-tonne-einkreisen"
+    },
+    {
+     "label": "Woraus ist es gemacht? Material zu acht Dingen schreiben",
+     "href": "muelltrennung-woraus-ist-es-gemacht"
+    },
+    {
+     "label": "In jeder Reihe ist ein Ding aus einem anderen Stoff",
+     "href": "muelltrennung-anderes-material-einkreisen"
+    }
+   ],
+   "title": "Mülltrennung: Tonnen ausmalen nach Legende | kostenlos als PDF",
+   "metaDescription": "Fünf Tonnen als Umriss mit ihren Namen und eine Farblegende: blau Papier, gelb Verpackung, grün Glas, grau Restmüll, braun Biomüll."
+  },
+  {
+   "slug": "muelltrennung-das-trenne-ich-zu-hause",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-three-things-i-recycle",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Mülltrennung-Arbeitsblatt · Klasse 1",
+   "h1": "Das trenne ich zu Hause: drei Dinge zeichnen und benennen",
+   "strand": "Sachunterricht – Umwelt und Nachhaltigkeit",
+   "slotTokens": [
+    "muelltrennung",
+    "1-klasse"
+   ],
+   "p1": "Drei breite Zeilen, jede mit einem hohen, orange gestrichelten Zeichenfeld links und zwei Lineaturzeilen rechts. Sonst steht nichts auf dem Blatt: kein Wortkasten, keine Tonne, kein Bild. Das Kind zeichnet drei Dinge, die es zu Hause richtig trennt, und schreibt daneben, was jedes davon ist. Die Schreibzeilen haben Mittellinie und reichen über die ganze Blattbreite, es ist also Platz für einen kurzen Satz und nicht nur für ein Wort.",
+   "p2": "Nach fünf angeleiteten Seiten ist dies die Übertragung: Was in der Schule sortiert wurde, muss zu Hause wiedergefunden werden. Genau darin liegt der Wert – die Kinder bringen am nächsten Tag Gelber Sack, Altpapier und Biotonne aus ihren eigenen Küchen mit, und die Unterschiede zwischen den Haushalten werden zum Unterrichtsstoff. Zu beachten ist, dass die Schreibzeile nur nach dem Ding fragt, nicht nach der Tonne; wer den Bezug zur Mülltrennung sichern will, ergänzt die Aufgabe mündlich um einen zweiten Satz: In welche Tonne kommt es? Dann trägt die Seite so viel wie jede der vorangegangenen.",
+   "p3": "Ein Blatt, schwarz-weiß druckbar, Bunt- und Bleistift. Es eignet sich als Hausaufgabe über das Wochenende und als Grundlage für eine Klassenwandzeitung, wenn alle Blätter nach Tonnen sortiert aufgehängt werden. Wer vorher noch üben möchte, nimmt die Zuordnungsseite mit den fünf Tonnen oder die Fassung zum Einkreisen.",
+   "canonicalDeckSlug": "muelltrennung-g1365",
+   "carousel": [
+    {
+     "label": "Mülltrennung: acht Dinge den fünf Tonnen zuordnen",
+     "href": "muelltrennung-dinge-den-tonnen-zuordnen"
+    },
+    {
+     "label": "Mülltrennung: Welche Tonne ist die richtige?",
+     "href": "muelltrennung-welche-tonne-einkreisen"
+    },
+    {
+     "label": "Woraus ist es gemacht? Material zu acht Dingen schreiben",
+     "href": "muelltrennung-woraus-ist-es-gemacht"
+    },
+    {
+     "label": "In jeder Reihe ist ein Ding aus einem anderen Stoff",
+     "href": "muelltrennung-anderes-material-einkreisen"
+    }
+   ],
+   "title": "Mülltrennung zu Hause: zeichnen und aufschreiben | PDF drucken",
+   "metaDescription": "Drei große Zeichenfelder mit je zwei Schreibzeilen daneben: Das Kind zeichnet drei Dinge, die es zu Hause trennt, und schreibt auf, was sie sind."
+  },
+  {
+   "slug": "lueckentext-mit-buchstabenkaestchen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-letter-boxes",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Lückentext-Arbeitsblatt · Klasse 1",
+   "h1": "Lückentext mit Buchstabenkästchen – ohne Wortkasten",
+   "strand": "Lesen und Schreiben",
+   "standard": "L.1.1.b",
+   "slotTokens": [
+    "lueckentext",
+    "1-klasse"
+   ],
+   "p1": "Sieben Zeilen, jede mit einem Bild links und einem Satz rechts, in dem statt eines Kästchens eine ganze Reihe gestrichelter Buchstabenkästchen steht. Einen Wortkasten gibt es nicht. Auf dem abgebildeten Druck sind die Reihen drei, fünf, sieben, vier, drei, neun und fünf Kästchen lang – Zug, Zebra, Traktor, Eule, Kuh, Kaninchen und Biene. Der Artikel steht wie auf der Grundseite schon vor der Lücke, und die längeren Sätze laufen in eine zweite Zeile unter das Bild.",
+   "p2": "Ohne Wortkasten muss das Wort aus dem Kopf kommen, und die Kästchenzahl ist die einzige Rückmeldung – deshalb liegt zwischen dieser Fassung und der Grundseite ein deutlicher Schritt. Er lohnt sich, weil das Kind nun buchstabenweise schreibt und jede Auslassung selbst bemerkt. Die sechste Zeile ist die schwierigste und verdient einen Hinweis vorab: Das Bild zeigt ein Kaninchen, neun Kästchen lang, während viele Kinder spontan Hase sagen würden – erst das gedruckte Das schließt den Hasen aus. Solche Stellen sind kein Fehler, sondern genau der Moment, an dem Artikel und Wortlänge zusammen arbeiten.",
+   "p3": "Ein Blatt in Farbe, Bleistift und Radiergummi. Es steht in der Reihe nach der Grundseite mit Wortkasten und vor den beiden Fassungen für Klasse 2. Wer die Wörter vorher sammeln will, lässt die sieben Bilder zuerst mündlich benennen und an die Tafel schreiben; danach ist das Blatt eine reine Schreibübung.",
+   "canonicalDeckSlug": "lueckentext-g1366",
+   "carousel": [
+    {
+     "label": "Lückentext: das passende Wort aus dem Kasten einsetzen",
+     "href": "lueckentext-mit-bild-und-wortkasten"
+    },
+    {
+     "label": "Lückentext: zwischen zwei Wörtern entscheiden",
+     "href": "lueckentext-das-richtige-wort-einkreisen"
+    },
+    {
+     "label": "Lückentext in der Mehrzahl: acht Pluralformen schreiben",
+     "href": "lueckentext-in-der-mehrzahl"
+    },
+    {
+     "label": "Drei Bilder, drei Sätze: Lückentexte mit neun Lücken",
+     "href": "lueckentext-kleine-geschichte-drei-bilder"
+    }
+   ],
+   "title": "Lückentext mit Buchstabenkästchen, Klasse 1 | PDF zum Ausdrucken",
+   "metaDescription": "Sieben Sätze mit Bild und einer Reihe Buchstabenkästchen statt Wortkasten: Die Anzahl der Kästchen verrät die Länge des Wortes."
+  },
+  {
+   "slug": "lueckentext-das-richtige-wort-einkreisen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-choose-the-word",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Lückentext-Arbeitsblatt · Klasse 1",
+   "h1": "Lückentext: zwischen zwei Wörtern entscheiden",
+   "strand": "Lesen und Schreiben",
+   "standard": "L.1.1.b",
+   "slotTokens": [
+    "lueckentext",
+    "1-klasse"
+   ],
+   "p1": "Sechs Karten, jede mit einem Bild links, einem Satz mit Lücke rechts und zwei Wortchips darunter. Das Kind kreist das passende Wort ein und schreibt es dann in das Kästchen. Auf dem abgebildeten Druck stehen zur Wahl Kuh oder Katze, Pferd oder Schwein, Drachen oder Ball, Hund oder Hahn, Gans oder Eule, Bus oder Zug. Dazu gehören Sätze wie Lina reitet auf dem Pferd, Emma lässt den Drachen im Wind steigen und Der Hahn kräht früh am Morgen.",
+   "p2": "Bemerkenswert an dieser Seite ist, was sie nicht verrät: In jedem Paar haben beide Wörter dasselbe Geschlecht. Kuh und Katze sind feminin, Pferd und Schwein neutral, Drachen und Ball maskulin – der vorgedruckte Artikel hilft also kein einziges Mal weiter, und das Kind muss tatsächlich Bild und Satz lesen. Das ist sorgfältig gemacht und der Grund, warum diese Fassung trotz nur zwei Möglichkeiten nicht leichter ist als die anderen. Zu beachten ist die Reihenfolge der Chips auf dem abgebildeten Druck: In den ersten drei Karten steht das richtige Wort links, in den letzten drei rechts.",
+   "p3": "Ein Farbdruck auf einer Seite; Einkreisen und Schreiben brauchen nur einen Bleistift. Die Karten sind größer als auf den anderen Blättern der Reihe, was Kindern mit Leseschwierigkeiten entgegenkommt. Als Steigerung folgt die Fassung ohne Auswahl mit Buchstabenkästchen, als inhaltliche Erweiterung das Blatt mit den kleinen Geschichten.",
+   "canonicalDeckSlug": "lueckentext-g1367",
+   "carousel": [
+    {
+     "label": "Lückentext: das passende Wort aus dem Kasten einsetzen",
+     "href": "lueckentext-mit-bild-und-wortkasten"
+    },
+    {
+     "label": "Lückentext mit Buchstabenkästchen – ohne Wortkasten",
+     "href": "lueckentext-mit-buchstabenkaestchen"
+    },
+    {
+     "label": "Lückentext in der Mehrzahl: acht Pluralformen schreiben",
+     "href": "lueckentext-in-der-mehrzahl"
+    },
+    {
+     "label": "Drei Bilder, drei Sätze: Lückentexte mit neun Lücken",
+     "href": "lueckentext-kleine-geschichte-drei-bilder"
+    }
+   ],
+   "title": "Lückentext: das richtige Wort einsetzen, Klasse 1 | PDF drucken",
+   "metaDescription": "Sechs Sätze mit Bild und je zwei Wörtern zur Auswahl: einkreisen, was passt, und in das Kästchen schreiben. Beide Wörter haben denselben Artikel."
+  },
+  {
+   "slug": "lueckentext-in-der-mehrzahl",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-plural-nouns",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Lückentext-Arbeitsblatt · Klasse 2",
+   "h1": "Lückentext in der Mehrzahl: acht Pluralformen schreiben",
+   "strand": "Lesen und Schreiben",
+   "standard": "L.1.1.c",
+   "slotTokens": [
+    "lueckentext",
+    "2-klasse"
+   ],
+   "p1": "Acht Zeilen, jede beginnt mit zwei oder drei gleichen Bildern und trägt daneben einen Satz mit einer Lücke. Drei Kühe schlafen im Stall. Die Löwen brüllen laut im hohen Gras. Zwei Flugzeuge landen auf der Landebahn. Die Fledermäuse hängen kopfüber in der Höhle. Das Kind schreibt die Mehrzahlform in das Kästchen. Einen Wortkasten gibt es nicht; die Einzahl steht nirgends, das Kind muss sie am Bild erkennen und selbst umformen. Wo eine Zahl im Satz steht, stimmt sie mit der Anzahl der Bilder überein.",
+   "p2": "Die acht Wörter sind bewusst über die deutschen Pluralklassen verteilt, und darin liegt der Wert der Seite: Kuh wird zu Kühe mit Umlaut und -e, Löwe zu Löwen mit -n, Huhn zu Hühner mit Umlaut und -er, Flugzeug zu Flugzeuge, Ball zu Bälle, Fledermaus zu Fledermäuse. Vier der acht Formen verlangen einen Umlaut – kein anderes Blatt der Reihe stellt so viele Rechtschreibentscheidungen auf einmal. Weil der Plural im Deutschen keiner einzigen Regel folgt, ist das Sammeln und Vergleichen der richtige Weg, und dieses Blatt liefert dafür in acht Zeilen das Material.",
+   "p3": "Ein Blatt in Farbe, Bleistift zum Schreiben. Die deutschen Sätze sind länger als auf den anderen Blättern und laufen in eine zweite Zeile; das Satzende steht dann unter den Bildern. Nach dem Ausfüllen lohnt sich, die acht Pluralformen an der Tafel nach ihrer Endung zu ordnen – aus dem Arbeitsblatt wird so eine kleine Übersicht.",
+   "canonicalDeckSlug": "lueckentext-g2349",
+   "carousel": [
+    {
+     "label": "Lückentext: das passende Wort aus dem Kasten einsetzen",
+     "href": "lueckentext-mit-bild-und-wortkasten"
+    },
+    {
+     "label": "Lückentext mit Buchstabenkästchen – ohne Wortkasten",
+     "href": "lueckentext-mit-buchstabenkaestchen"
+    },
+    {
+     "label": "Lückentext: zwischen zwei Wörtern entscheiden",
+     "href": "lueckentext-das-richtige-wort-einkreisen"
+    },
+    {
+     "label": "Drei Bilder, drei Sätze: Lückentexte mit neun Lücken",
+     "href": "lueckentext-kleine-geschichte-drei-bilder"
+    }
+   ],
+   "title": "Lückentext Mehrzahl Klasse 2: Pluralformen schreiben | PDF",
+   "metaDescription": "Acht Sätze mit mehreren gleichen Bildern: Kühe, Löwen, Hühner, Flugzeuge, Pinguine, Affen, Bälle und Fledermäuse in die Lücke schreiben."
+  },
+  {
+   "slug": "lueckentext-kleine-geschichte-drei-bilder",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-story",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Lückentext-Arbeitsblatt · Klasse 2",
+   "h1": "Drei Bilder, drei Sätze: Lückentexte mit neun Lücken",
+   "strand": "Lesen und Schreiben",
+   "standard": "RF.2.4.c",
+   "slotTokens": [
+    "lueckentext",
+    "2-klasse"
+   ],
+   "p1": "Oben steht ein Wortkasten mit neun Wörtern: Hund, Eule, Schwan, Kaninchen, Drachen, Flugzeug, Rakete, Ente und Fuchs. Darunter folgen drei große Karten. Jede zeigt oben drei Bilder nebeneinander und darunter drei Sätze mit je einer Lücke. Die erste Karte gehört zum Himmel – Rakete, Drachen, Flugzeug; die zweite zum Wasser und Hof – Schwan, Ente, Hund; die dritte zur Nacht im Wald – Fuchs, Kaninchen, Eule. Neun Wörter für neun Lücken.",
+   "p2": "Die drei Bilder über jeder Karte sagen, welche drei Wörter hier in Frage kommen; der vorgedruckte Artikel entscheidet dann zwischen ihnen, und der Wortkasten liefert die Schreibung. Drei Stützen übereinander machen die Seite zugänglich, auch wenn neun Lücken zunächst viel aussehen. Ein Hinweis für die Vorbereitung: Titel und Anweisung sprechen von einer Geschichte, tatsächlich stehen auf jeder Karte drei eigenständige Sätze, die zwar ein gemeinsames Thema, aber keine Handlung teilen. Wer daraus wirklich eine Geschichte machen will, lässt die Kinder nach dem Ausfüllen einen vierten Satz dazuschreiben.",
+   "p3": "Ein Farbdruck auf einer Seite, Bleistift zum Schreiben. Mit neun Lücken ist es das umfangreichste Blatt der Reihe und eignet sich für eine ganze Stunde oder als Freiarbeitsmaterial. Wer kürzere Einheiten braucht, schneidet die drei Karten auseinander; jede funktioniert für sich. Davor passt die Auswahlfassung mit je zwei Wörtern.",
+   "canonicalDeckSlug": "lueckentext-g2350",
+   "carousel": [
+    {
+     "label": "Lückentext: das passende Wort aus dem Kasten einsetzen",
+     "href": "lueckentext-mit-bild-und-wortkasten"
+    },
+    {
+     "label": "Lückentext mit Buchstabenkästchen – ohne Wortkasten",
+     "href": "lueckentext-mit-buchstabenkaestchen"
+    },
+    {
+     "label": "Lückentext: zwischen zwei Wörtern entscheiden",
+     "href": "lueckentext-das-richtige-wort-einkreisen"
+    },
+    {
+     "label": "Lückentext in der Mehrzahl: acht Pluralformen schreiben",
+     "href": "lueckentext-in-der-mehrzahl"
+    }
+   ],
+   "title": "Lückentexte Klasse 2: drei Sätze zu drei Bildern | PDF drucken",
+   "metaDescription": "Drei Karten mit je drei Bildern und drei Sätzen, dazu ein Wortkasten mit neun Wörtern: jedes Wort in den Satz, in den es gehört."
+  },
+  {
+   "slug": "satz-und-bild-verbinden-lueckensaetze",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "match-the-sentence-to-the-picture",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Lückentext-Arbeitsblatt · Klasse 1",
+   "h1": "Satz und Bild verbinden: Welches Tier füllt die Lücke?",
+   "strand": "Lesen und Schreiben",
+   "standard": "RF.1.4.c",
+   "slotTokens": [
+    "lueckentext",
+    "1-klasse"
+   ],
+   "p1": "Links stehen sechs Sätze untereinander, jeder mit einer leeren, orange gestrichelten Lücke, die nicht ausgefüllt wird. Rechts stehen sechs Tierbilder. Das Kind liest, überlegt, welches Bild in die Lücke passt, und zieht eine Linie. Auf dem abgebildeten Druck lauten die Sätze: Das hat schwarze und weiße Streifen. Der hämmert Löcher in den Baum. Das hoppelt über die Wiese. Das trägt sein Junges im Beutel. Die hat einen sehr langen Hals. Das grunzt und liegt im Schlamm. Die Bilder daneben sind Schwein, Giraffe, Känguru, Specht, Kaninchen und Zebra.",
+   "p2": "Hier wird nicht geschrieben, sondern nur gelesen und zugeordnet – das macht die Seite zur zugänglichsten der ganzen Reihe und zur richtigen für Kinder, die beim Schreiben noch viel Zeit brauchen. Jeder Satz enthält ein Merkmal, das nur zu einem Tier passt: Streifen, Beutel, langer Hals. Vier der sechs Sätze beginnen mit Das, der Artikel hilft also kaum und die Sachaussage trägt allein. Zwei Dinge sind gut zu wissen: Die gedruckte Lücke bleibt absichtlich leer, und die Reihenfolge der Bilder ist beinahe die umgekehrte der Sätze.",
+   "p3": "Ein Blatt in Farbe, ein Stift. Als Erweiterung lässt sich der Satz nach dem Verbinden mündlich vervollständigt sprechen – oder auf der Rückseite aufschreiben, dann wird aus der Lese- eine Schreibaufgabe. Wer direkt schreiben lassen möchte, nimmt stattdessen die Grundseite mit Wortkasten oder die Fassung mit Buchstabenkästchen.",
+   "canonicalDeckSlug": "lueckentext-g1368",
+   "carousel": [
+    {
+     "label": "Lückentext: das passende Wort aus dem Kasten einsetzen",
+     "href": "lueckentext-mit-bild-und-wortkasten"
+    },
+    {
+     "label": "Lückentext mit Buchstabenkästchen – ohne Wortkasten",
+     "href": "lueckentext-mit-buchstabenkaestchen"
+    },
+    {
+     "label": "Lückentext: zwischen zwei Wörtern entscheiden",
+     "href": "lueckentext-das-richtige-wort-einkreisen"
+    },
+    {
+     "label": "Lückentext in der Mehrzahl: acht Pluralformen schreiben",
+     "href": "lueckentext-in-der-mehrzahl"
+    }
+   ],
+   "title": "Satz und Bild verbinden: Lückensätze lesen | kostenlos als PDF",
+   "metaDescription": "Sechs Sätze mit leerer Lücke links, sechs Tierbilder rechts: lesen, das passende Bild finden und beide mit einer Linie verbinden."
+  },
+  {
+   "slug": "gerade-oder-ungerade-zwei-gleiche-summanden",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-write-two-equal-addends",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Zahlen-Arbeitsblatt · Klasse 2",
+   "h1": "Zahlen in zwei gleiche Teile zerlegen – und den Rest notieren",
+   "strand": "Zahlen und Operationen",
+   "standard": "2.OA.C.3",
+   "slotTokens": [
+    "gerade-und-ungerade-zahlen",
+    "2-klasse"
+   ],
+   "p1": "Acht Karten, jede mit einer Zahl und der angefangenen Gleichung darunter: 17 gleich Kästchen plus Kästchen plus ein kleineres Kästchen mit der Beschriftung bleibt übrig. Unter der Gleichung liegt ein weißes Feld mit genau so vielen Punkten, wie die Zahl sagt, in Reihen zu zehn. Auf dem abgebildeten Druck stehen 17, 3, 18, 12, 8, 13, 14 und 19 – vier gerade, vier ungerade. Das Kind kreist die Punkte paarweise ein, schreibt die beiden gleichen Teile in die großen Kästchen und den Rest in das kleine.",
+   "p2": "Hier wird aus der Einteilung eine Zerlegung: Gerade Zahlen sind genau die, die sich als zwei gleiche Summanden schreiben lassen, und die Punkte beweisen es vor dem Schreiben. Das entspricht dem, was der Lehrplan Mathematik in Klasse 2 an Zahlbeziehungen verlangt, und es bereitet zugleich das Verdoppeln vor. Wichtig ist der Umgang mit den vier geraden Karten: Dort steht im kleinen Kästchen eine Null, denn es bleibt nichts übrig. Kinder lassen das Feld gern leer oder zögern – die Vereinbarung, dass eine Null hineingehört, sollte vor der Arbeit getroffen werden.",
+   "p3": "Ein Blatt, schwarz-weiß druckbar, Bleistift und ein farbiger Stift zum Einkreisen. Die weißen Punktfelder sind alle gleich groß, bei der 3 und der 8 bleibt deshalb viel Fläche frei. Vor dieser Seite passt die Häuserseite bis 20, danach die Fassung bis 100, auf der kein Punkt mehr gezählt, sondern nur die Einerstelle gelesen wird.",
+   "canonicalDeckSlug": "gerade-und-ungerade-zahlen-g2351",
+   "carousel": [
+    {
+     "label": "Gerade und ungerade Zahlen bis 20 in zwei Häuser sortieren",
+     "href": "gerade-und-ungerade-zahlen-bis-20-haeuser"
+    },
+    {
+     "label": "Gerecht teilen: Geht die Menge für zwei Kinder auf?",
+     "href": "gerecht-teilen-gerade-oder-ungerade-zootiere"
+    },
+    {
+     "label": "Gerade und ungerade bis 100: nur die Einerstelle entscheidet",
+     "href": "gerade-und-ungerade-zahlen-bis-100-einerstelle"
+    },
+    {
+     "label": "Ist die Summe gerade oder ungerade – ohne zu rechnen?",
+     "href": "summe-gerade-oder-ungerade-ohne-zu-rechnen"
+    }
+   ],
+   "title": "Gerade oder ungerade? Zwei gleiche Summanden | PDF ausdrucken",
+   "metaDescription": "Acht Punktfelder von 3 bis 19: Punkte zu zweit einkreisen, die Zahl als zwei gleiche Teile schreiben und eintragen, was übrig bleibt."
+  },
+  {
+   "slug": "gerecht-teilen-gerade-oder-ungerade-zootiere",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-can-two-friends-share-fairly",
+    "theme": "zoo_animals",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Zahlen-Arbeitsblatt · Klasse 1",
+   "h1": "Gerecht teilen: Geht die Menge für zwei Kinder auf?",
+   "strand": "Zahlen und Operationen",
+   "slotTokens": [
+    "gerade-und-ungerade-zahlen",
+    "zootiere",
+    "1-klasse"
+   ],
+   "p1": "Sechs breite Reihen, jede beginnt links mit einer Gruppe gleicher Zootiere und trägt rechts zwei Namenskästchen, ein kleineres Feld mit der Beschriftung bleibt übrig und die beiden Chips gerade und ungerade. Auf dem abgebildeten Druck sind es drei Kängurus, fünf Elefanten, sechs Büffel, vier Koalas, acht Wölfe und sieben Affen – jede Anzahl von drei bis acht genau einmal, drei gerade und drei ungerade. Das Kind verteilt die Bilder abwechselnd auf die zwei Kinder, schreibt auf, wie viele jedes bekommt, trägt den Rest ein und kreist ein.",
+   "p2": "Das Austeilen ist in dieser Altersstufe die anschaulichste Begründung für gerade und ungerade: Zwei Kinder bekommen abwechselnd eines, und am Ende bleibt entweder nichts übrig oder genau eines. Mehr als eines kann nie übrig bleiben. Ein Detail lohnt den Hinweis: Gedruckt werden fünf Bilder pro Zeile, deshalb stehen drei, vier und fünf Tiere in einer einzigen Zeile – die Zeile ist dort die ganze Gruppe –, während sechs, sieben und acht umbrechen und darunter eine kurze zweite Zeile beginnen. Wer nur auf diese untere Zeile schaut, weiß hier nichts. Die Tiere sind reine Zählzeichen, kein Tiername steht auf dem Blatt.",
+   "p3": "Ein Farbdruck auf einer Seite. Am besten erst mit echten Plättchen austeilen, dann das Blatt. Die größte Gruppe hat acht Tiere und bleibt damit im sicheren Zählbereich der ersten Klasse. Die Namenspaare wechseln von Reihe zu Reihe: Finn und Noah, Mia und Finn, Emma und Mia; wer langsam liest, geht sie vorher einmal durch. Die Fassung mit größeren Mengen und Paaren statt Kindern ist das Blatt mit den Fahrzeugen.",
+   "canonicalDeckSlug": "gerade-und-ungerade-zahlen-zootiere-g1369",
+   "carousel": [
+    {
+     "label": "Gerade und ungerade Zahlen bis 20 in zwei Häuser sortieren",
+     "href": "gerade-und-ungerade-zahlen-bis-20-haeuser"
+    },
+    {
+     "label": "Zahlen in zwei gleiche Teile zerlegen – und den Rest notieren",
+     "href": "gerade-oder-ungerade-zwei-gleiche-summanden"
+    },
+    {
+     "label": "Gerade und ungerade bis 100: nur die Einerstelle entscheidet",
+     "href": "gerade-und-ungerade-zahlen-bis-100-einerstelle"
+    },
+    {
+     "label": "Ist die Summe gerade oder ungerade – ohne zu rechnen?",
+     "href": "summe-gerade-oder-ungerade-ohne-zu-rechnen"
+    }
+   ],
+   "title": "Gerecht teilen: gerade oder ungerade? Zootiere | PDF drucken",
+   "metaDescription": "Sechs Reihen mit Zootieren von drei bis acht Stück: abwechselnd auf zwei Kinder verteilen, Anzahl und Rest eintragen, gerade oder ungerade einkreisen."
+  },
+  {
+   "slug": "gerade-und-ungerade-zahlen-bis-100-einerstelle",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-under-100-look-at-the-ones-box",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Zahlen-Arbeitsblatt · Klasse 2",
+   "h1": "Gerade und ungerade bis 100: nur die Einerstelle entscheidet",
+   "strand": "Zahlen und Operationen",
+   "standard": "2.OA.C.3",
+   "slotTokens": [
+    "gerade-und-ungerade-zahlen",
+    "2-klasse"
+   ],
+   "p1": "Über dem Blatt steht die Regel in einem Satz: Gerade Zahlen enden auf 0, 2, 4, 6 oder 8, ungerade auf 1, 3, 5, 7 oder 9. Darunter stehen zwölf Karten in zwei Spalten. Jede zeigt die Zahl in zwei Kästchen – links das Zehnerkästchen unter einem Z, rechts das rosa hinterlegte Einerkästchen unter einem E – und daneben zwei Kreise zum Ankreuzen, überschrieben mit gerade und ungerade. Auf dem abgebildeten Druck sind es 86, 37, 21, 32, 58, 99, 65, 55, 42, 14, 53 und 70: sechs gerade, sechs ungerade.",
+   "p2": "Die Seite macht aus der Anschauung eine Regel. Das Punktzählen der ersten Klasse trägt bis 20, bei 86 nicht mehr – ab hier entscheidet die Stellenschreibweise, und die farbige Hervorhebung der Einerstelle zeigt, wo geschaut wird. Dass die Zehnerstelle keine Rolle spielt, ist dabei die eigentliche Einsicht und lohnt eine Nachfrage: Warum ist es egal, ob dort eine 8 oder eine 3 steht? Die 70 am Ende ist die anspruchsvollste Karte, denn die Null als gerade Ziffer erkennen viele Kinder zuletzt. Der Lehrplan Mathematik siedelt diese Arbeit im Zahlenraum bis 100 in Klasse 2 an.",
+   "p3": "Ein Blatt in Farbe, weil die Einerkästchen farbig hinterlegt sind; im Graudruck bleiben sie als hellere Fläche erkennbar. Zwölf Karten passen in eine kurze Übungsphase. Wer die Begründung noch einmal anschaulich braucht, nimmt davor die Seite mit den zwei gleichen Summanden; wer weitergehen will, das Blatt zur Summe zweier Zahlen.",
+   "canonicalDeckSlug": "gerade-und-ungerade-zahlen-g2352",
+   "carousel": [
+    {
+     "label": "Gerade und ungerade Zahlen bis 20 in zwei Häuser sortieren",
+     "href": "gerade-und-ungerade-zahlen-bis-20-haeuser"
+    },
+    {
+     "label": "Zahlen in zwei gleiche Teile zerlegen – und den Rest notieren",
+     "href": "gerade-oder-ungerade-zwei-gleiche-summanden"
+    },
+    {
+     "label": "Gerecht teilen: Geht die Menge für zwei Kinder auf?",
+     "href": "gerecht-teilen-gerade-oder-ungerade-zootiere"
+    },
+    {
+     "label": "Ist die Summe gerade oder ungerade – ohne zu rechnen?",
+     "href": "summe-gerade-oder-ungerade-ohne-zu-rechnen"
+    }
+   ],
+   "title": "Gerade und ungerade Zahlen bis 100, Klasse 2 | kostenlos als PDF",
+   "metaDescription": "Zwölf zweistellige Zahlen in Zehner- und Einerkästchen, die Einerstelle hervorgehoben: ankreuzen, ob die Zahl gerade oder ungerade ist."
+  },
+  {
+   "slug": "summe-gerade-oder-ungerade-ohne-zu-rechnen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-sum-decide-without-adding",
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Zahlen-Arbeitsblatt · Klasse 3",
+   "h1": "Ist die Summe gerade oder ungerade – ohne zu rechnen?",
+   "strand": "Zahlen und Operationen",
+   "standard": "3.OA.D.9",
+   "slotTokens": [
+    "gerade-und-ungerade-zahlen",
+    "3-klasse"
+   ],
+   "p1": "Oben steht eine kleine Tabelle mit drei Regeln: gerade plus gerade ergibt gerade, ungerade plus ungerade ergibt gerade, gerade plus ungerade ergibt ungerade. Darunter stehen zwölf Additionen in zwei Spalten, bei jeder ist die Einerstelle beider Zahlen orange unterstrichen. Daneben liegen zwei Kreise zum Ankreuzen. Auf dem abgebildeten Druck sind es Aufgaben wie 963 plus 573, 549 plus 858, 510 plus 766 und 879 plus 121 – sechs Summen sind gerade, sechs ungerade, und alle drei Regelfälle kommen mehrfach vor.",
+   "p2": "Nicht zu rechnen ist hier die Leistung, nicht die Abkürzung. Die Zahlen sind dreistellig und ihre Summen liegen zum Teil über tausend; wer zu addieren beginnt, verliert Zeit und macht Fehler, und genau das macht die Seite überzeugend. Was hier geübt wird, ist das Schließen über Eigenschaften statt über Ergebnisse – ein Denkschritt, den der Lehrplan Mathematik in Klasse 3 unter den prozessbezogenen Kompetenzen führt. Die Tabelle oben steht dabei zum Nachschlagen bereit, sollte aber nach fünf oder sechs Aufgaben nicht mehr nötig sein; das ist der beste Zeitpunkt, sie abzudecken.",
+   "p3": "Ein Blatt, Farbdruck für die Unterstreichungen, im Graudruck bleiben sie als Linie erkennbar. Zwölf Aufgaben sind in zehn Minuten machbar. Wer die drei Regeln zuerst erarbeiten möchte, lässt sie mit kleinen Zahlen selbst finden – mit der Seite bis 100 als Materialgrundlage – und nutzt dieses Blatt danach als Anwendung.",
+   "canonicalDeckSlug": "gerade-und-ungerade-zahlen-g3386",
+   "carousel": [
+    {
+     "label": "Gerade und ungerade Zahlen bis 20 in zwei Häuser sortieren",
+     "href": "gerade-und-ungerade-zahlen-bis-20-haeuser"
+    },
+    {
+     "label": "Zahlen in zwei gleiche Teile zerlegen – und den Rest notieren",
+     "href": "gerade-oder-ungerade-zwei-gleiche-summanden"
+    },
+    {
+     "label": "Gerecht teilen: Geht die Menge für zwei Kinder auf?",
+     "href": "gerecht-teilen-gerade-oder-ungerade-zootiere"
+    },
+    {
+     "label": "Gerade und ungerade bis 100: nur die Einerstelle entscheidet",
+     "href": "gerade-und-ungerade-zahlen-bis-100-einerstelle"
+    }
+   ],
+   "title": "Summe gerade oder ungerade? Ohne zu rechnen | PDF zum Ausdrucken",
+   "metaDescription": "Zwölf Additionen mit unterstrichenen Einern und eine Regeltabelle: entscheiden, ob die Summe gerade oder ungerade ist, ohne zu rechnen."
+  },
+  {
+   "slug": "gerade-oder-ungerade-bilder-paarweise-zaehlen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-count-the-pictures-in-pairs",
+    "theme": "vehicles",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Zahlen-Arbeitsblatt · Klasse 1",
+   "h1": "Bilder paarweise einkreisen: gerade oder ungerade?",
+   "strand": "Zahlen und Operationen",
+   "slotTokens": [
+    "gerade-und-ungerade-zahlen",
+    "fahrzeuge",
+    "1-klasse"
+   ],
+   "p1": "Sechs Reihen, jede mit einer Menge gleicher Fahrzeuge in Neunerreihen: auf dem abgebildeten Druck dreizehn Schiffe, sechzehn Flugzeuge, siebzehn Geländewagen, elf Lokomotiven, achtzehn Raketen und vierzehn Skateboards. Rechts steht ein Kästchen mit der Überschrift Paare und darunter die beiden Chips gerade und ungerade. Das Kind kreist die Bilder immer zu zweit ein, trägt ein, wie viele Paare es geworden sind, und kreist dann gerade oder ungerade ein. Drei Mengen sind gerade, drei ungerade.",
+   "p2": "Mengen über zehn zu bündeln ist der Schritt, den dieses Blatt gegenüber dem Austeilen macht: Das Kind zählt nicht mehr einzeln durch, sondern in Zweierschritten, und sieht am Ende, ob ein Bild allein bleibt. Zwei Hinweise sind für die Vorbereitung wichtig. Erstens stehen neun Bilder in einer Reihe; die Paare müssen also über das Reihenende hinweg gebildet werden, sonst bleibt in jeder Reihe künstlich eines übrig. Zweitens fragt das Kästchen nach der Anzahl der Paare, die Chips danach aber nach der Anzahl der Bilder – bei dreizehn Schiffen sind es sechs Paare, die Menge ist trotzdem ungerade. Dieser Bezug muss einmal laut gesagt werden.",
+   "p3": "Ein Farbdruck auf einer Seite, ein farbiger Stift zum Einkreisen. Die Fahrzeuge sind reine Zählzeichen; kein Fahrzeugname steht auf dem Blatt. Für kleinere Mengen und eine Verteilsituation eignet sich die Seite mit den Zootieren, für den Übergang zur Regel das Blatt bis 100 mit der Einerstelle.",
+   "canonicalDeckSlug": "gerade-und-ungerade-zahlen-fahrzeuge-g1370",
+   "carousel": [
+    {
+     "label": "Gerade und ungerade Zahlen bis 20 in zwei Häuser sortieren",
+     "href": "gerade-und-ungerade-zahlen-bis-20-haeuser"
+    },
+    {
+     "label": "Zahlen in zwei gleiche Teile zerlegen – und den Rest notieren",
+     "href": "gerade-oder-ungerade-zwei-gleiche-summanden"
+    },
+    {
+     "label": "Gerecht teilen: Geht die Menge für zwei Kinder auf?",
+     "href": "gerecht-teilen-gerade-oder-ungerade-zootiere"
+    },
+    {
+     "label": "Gerade und ungerade bis 100: nur die Einerstelle entscheidet",
+     "href": "gerade-und-ungerade-zahlen-bis-100-einerstelle"
+    }
+   ],
+   "title": "Gerade oder ungerade? Bilder paarweise zählen, Fahrzeuge | PDF",
+   "metaDescription": "Sechs Reihen mit Fahrzeugen von elf bis achtzehn Stück: paarweise einkreisen, die Anzahl der Paare eintragen und gerade oder ungerade einkreisen."
+  },
+  {
+   "slug": "personalpronomen-in-den-zweiten-satz-einsetzen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-replace-the-name-with-a-pronoun",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Personalpronomen-Arbeitsblatt · Klasse 1–2",
+   "h1": "Den Namen durch ein Pronomen ersetzen",
+   "strand": "Sprache und Sprachgebrauch untersuchen",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "personalpronomen",
+    "1-klasse"
+   ],
+   "p1": "Oben steht ein kleiner Wortkasten mit drei Wörtern: Sie, Es, Er. Darunter folgen acht Zeilen. Jede zeigt links ein oder zwei Personenbilder, daneben oben den vollständigen Satz mit Namen und darunter denselben Satz noch einmal, diesmal mit einer Lücke am Anfang. Auf dem abgebildeten Druck heißt es etwa Ben und Finn fahren Fahrrad, Paul malt eine Katze, Lea spielt mit dem Ball, Emma und Anna lesen ein Buch. Das Kind schreibt das ersetzende Wort in das Kästchen.",
+   "p2": "Das Satzpaar zeigt die Ersetzung unmittelbar: Derselbe Satz, einmal mit Namen, einmal mit Pronomen, und das Verb bleibt unverändert stehen. Daran lässt sich gut zeigen, wozu Pronomen da sind – man muss den Namen nicht zweimal sagen. Drei Dinge sind für die Vorbereitung wichtig. Erstens wird Es auf diesem Blatt kein einziges Mal gebraucht, obwohl es im Kasten steht: Alle acht Sätze handeln von Personen. Zweitens ist Sie in fünf Zeilen die Antwort und steht dabei einmal für eine Frau und viermal für mehrere – zwei verschiedene Wörter mit derselben Schreibung, die das Verb unterscheidet. Drittens zeigen die Bilder Berufe, nicht die beschriebenen Handlungen.",
+   "p3": "Ein Blatt in Farbe, Bleistift zum Schreiben. Der Unterschied zwischen dem Sie für eine Person und dem Sie für mehrere gehört laut besprochen, sonst bleibt er unbemerkt: fahren gegen fährt, lesen gegen liest. Wer zuerst nur einzelne Personen behandeln will, nimmt die Einkreisfassung; wer ganze Sätze schreiben lassen möchte, das Umschreibblatt.",
+   "canonicalDeckSlug": "personalpronomen-g1371",
+   "carousel": [
+    {
+     "label": "Personalpronomen: er, sie oder es zum Bild einkreisen",
+     "href": "personalpronomen-er-sie-oder-es-einkreisen"
+    },
+    {
+     "label": "Wer ist gemeint? Pronomen mit dem Namen verbinden",
+     "href": "pronomen-im-satz-wer-ist-gemeint"
+    },
+    {
+     "label": "Possessivpronomen: sein, seine, ihr oder ihre?",
+     "href": "possessivpronomen-sein-oder-ihr"
+    },
+    {
+     "label": "Zehn Karten in drei Spalten sortieren: er, sie oder es",
+     "href": "karten-sortieren-er-sie-oder-es"
+    }
+   ],
+   "title": "Personalpronomen einsetzen: Er, Sie, Es | PDF zum Ausdrucken",
+   "metaDescription": "Acht Satzpaare: Oben steht der Satz mit Namen, darunter derselbe Satz mit einer Lücke. Das Pronomen aus dem Kasten ersetzt den Namen."
+  },
+  {
+   "slug": "pronomen-im-satz-wer-ist-gemeint",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-who-is-he-pronouns-in-sentences",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Personalpronomen-Arbeitsblatt · Klasse 2",
+   "h1": "Wer ist gemeint? Pronomen mit dem Namen verbinden",
+   "strand": "Sprache und Sprachgebrauch untersuchen",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "personalpronomen",
+    "2-klasse"
+   ],
+   "p1": "Fünf Karten, jede nach demselben Muster. Links stehen zwei Namensschilder mit Bild – Lea und Paul, Ben und Lina, Leon und Mia, Nele und Finn, Anna und Noah. Rechts steht ein Einleitungssatz, etwa Lea und Paul sind in der Küche, und darunter zwei Folgesätze, deren erstes Wort gerahmt ist: Sie backt einen Kuchen. Er macht ein Brot. Das Kind zieht von jedem gerahmten Wort eine Linie zu dem Namen, für den es steht. Jede Karte enthält genau einen weiblichen und einen männlichen Namen.",
+   "p2": "Das Blatt zeigt, wozu Pronomen im Text dienen: Der Einleitungssatz führt zwei Personen ein, und die folgenden Sätze kommen ohne Namen aus. Das Kind muss zurückverweisen, und genau das nennt der Lehrplan Deutsch beim Untersuchen sprachlicher Strukturen. Ein Hinweis für die Vorbereitung: Weil auf jeder Karte ein weiblicher und ein männlicher Name steht, ist die Zuordnung schon durch Sie und Er entschieden – die beiden Folgesätze selbst müssen dafür nicht gelesen werden. Wer die Textarbeit wirklich will, deckt die Bilder ab und lässt begründen, woran man es erkennt.",
+   "p3": "Ein Farbdruck auf einer Seite, ein Stift. Die Bilder neben den Namen zeigen Berufe und passen nicht zu den Handlungen in den Sätzen – auf einer Karte hält ausgerechnet die Person mit dem Brot in der Hand einen anderen Namen als der Satz über das Brot. Ein Hinweis darauf lenkt die Aufmerksamkeit zurück auf den Text. Als Steigerung folgt die Fassung mit sein und ihr.",
+   "canonicalDeckSlug": "personalpronomen-g2353",
+   "carousel": [
+    {
+     "label": "Personalpronomen: er, sie oder es zum Bild einkreisen",
+     "href": "personalpronomen-er-sie-oder-es-einkreisen"
+    },
+    {
+     "label": "Den Namen durch ein Pronomen ersetzen",
+     "href": "personalpronomen-in-den-zweiten-satz-einsetzen"
+    },
+    {
+     "label": "Possessivpronomen: sein, seine, ihr oder ihre?",
+     "href": "possessivpronomen-sein-oder-ihr"
+    },
+    {
+     "label": "Zehn Karten in drei Spalten sortieren: er, sie oder es",
+     "href": "karten-sortieren-er-sie-oder-es"
+    }
+   ],
+   "title": "Wer ist gemeint? Pronomen im Satz zuordnen | kostenlos als PDF",
+   "metaDescription": "Fünf kleine Szenen mit je zwei Namen und zwei Folgesätzen mit Sie und Er: jedes Pronomen mit dem Namen verbinden, für den es steht."
+  },
+  {
+   "slug": "possessivpronomen-sein-oder-ihr",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-possessive-pronouns",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Possessivpronomen-Arbeitsblatt · Klasse 2–3",
+   "h1": "Possessivpronomen: sein, seine, ihr oder ihre?",
+   "strand": "Sprache und Sprachgebrauch untersuchen",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "personalpronomen",
+    "2-klasse"
+   ],
+   "p1": "Acht Zeilen, jede mit zwei Bildern links – einer Person und einem Ding – und einem Satzpaar rechts: Das ist Emma. Das ist Kästchen Auto. Darunter stehen vier Wortchips zur Wahl: sein, seine, ihr, ihre. Auf dem abgebildeten Druck gehören zusammen Emma und Auto, Max und Puppe, Noah und Zug, Lea und Trommel, Lina und Ball, Finn und Hund, Anna und Banane, Leon und Katze. Vier Besitzer sind männlich, vier weiblich, und vier der acht Dinge verlangen die Form mit Endung.",
+   "p2": "Zwei Entscheidungen auf einmal – das ist das Anspruchsvolle dieser Seite und der Grund, warum sie ans Ende der Reihe gehört. Die Person entscheidet zwischen sein und ihr, das Ding entscheidet über die Endung: Bei der Puppe und der Banane heißt es seine und ihre, beim Zug, beim Ball und beim Auto bleibt es bei sein und ihr. Kinder übertragen gern das Geschlecht der Person auf das Ding; dagegen hilft, laut zu trennen – erst wem gehört es, dann welches Wort folgt. Die vier Chips sind auf dem Blatt gut verteilt, die Lösung steht an allen vier Positionen.",
+   "p3": "Ein Blatt in Farbe, ein Stift. Der Satzanfang Das ist bleibt immer gleich, sodass nur die eine Stelle im Satz wechselt – eine Hilfe für Kinder, die noch langsam lesen. Wer die Personalpronomen zuvor sichern will, nimmt die Einkreisfassung mit er, sie und es; wer nach dieser Seite weiterarbeiten möchte, das Blatt zum Umschreiben ganzer Sätze.",
+   "canonicalDeckSlug": "personalpronomen-g2354",
+   "carousel": [
+    {
+     "label": "Personalpronomen: er, sie oder es zum Bild einkreisen",
+     "href": "personalpronomen-er-sie-oder-es-einkreisen"
+    },
+    {
+     "label": "Den Namen durch ein Pronomen ersetzen",
+     "href": "personalpronomen-in-den-zweiten-satz-einsetzen"
+    },
+    {
+     "label": "Wer ist gemeint? Pronomen mit dem Namen verbinden",
+     "href": "pronomen-im-satz-wer-ist-gemeint"
+    },
+    {
+     "label": "Zehn Karten in drei Spalten sortieren: er, sie oder es",
+     "href": "karten-sortieren-er-sie-oder-es"
+    }
+   ],
+   "title": "Possessivpronomen sein oder ihr, Klasse 2 | PDF zum Ausdrucken",
+   "metaDescription": "Acht Sätze nach dem Muster Das ist Emma. Das ist ihr Auto: aus sein, seine, ihr und ihre das Wort einkreisen, das zu Person und Ding passt."
+  },
+  {
+   "slug": "karten-sortieren-er-sie-oder-es",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-sort-the-names-he-she-or-they",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Personalpronomen-Arbeitsblatt · Klasse 1–2",
+   "h1": "Zehn Karten in drei Spalten sortieren: er, sie oder es",
+   "strand": "Sprache und Sprachgebrauch untersuchen",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "personalpronomen",
+    "1-klasse"
+   ],
+   "p1": "Oben liegen zehn Karten mit Bild und Wort: Lina, Nele, Flugzeug, Schiff, Anna, Paul, Apfel, Orange, Finn und Emma – sechs Personennamen und vier Dinge. Darunter stehen drei hohe Spalten mit den Überschriften er, sie und es, jede mit acht Schreiblinien. Das Kind schreibt jedes Wort in die Spalte, in die es gehört. Die Verteilung ist ungleich: drei Wörter kommen in die er-Spalte, fünf in die sie-Spalte und nur zwei in die es-Spalte, obwohl alle drei gleich viele Linien anbieten.",
+   "p2": "Die Sortierform macht sichtbar, was die Einzelkarten nicht zeigen: Die drei Pronomen sind keine gleich großen Gruppen, und das Ergebnis lässt sich am Ende als Bild lesen. Inhaltlich sind die vier Dinge die tragende Arbeit – Apfel gehört zu er, Orange zu sie, Flugzeug und Schiff zu es –, während die sechs Namen über das Bild entschieden werden. Genau deshalb lohnt es sich, die Karten beim Besprechen zu trennen: erst die Namen, dann die Dinge mit ihrem Artikel. Die leeren Linien in der es-Spalte sind kein Fehler, sondern das Ergebnis.",
+   "p3": "Ein Blatt in Farbe, Bleistift zum Schreiben. Die Überschrift spricht von Namen; vier der zehn Karten sind Dinge, und die tragen den Lernwert – ein Satz vorab ordnet das. Wer lieber legt als schreibt, schneidet die zehn Karten aus. Als schnellere Fassung eignet sich das Blatt mit den drei Chips pro Karte.",
+   "canonicalDeckSlug": "personalpronomen-g1372",
+   "carousel": [
+    {
+     "label": "Personalpronomen: er, sie oder es zum Bild einkreisen",
+     "href": "personalpronomen-er-sie-oder-es-einkreisen"
+    },
+    {
+     "label": "Den Namen durch ein Pronomen ersetzen",
+     "href": "personalpronomen-in-den-zweiten-satz-einsetzen"
+    },
+    {
+     "label": "Wer ist gemeint? Pronomen mit dem Namen verbinden",
+     "href": "pronomen-im-satz-wer-ist-gemeint"
+    },
+    {
+     "label": "Possessivpronomen: sein, seine, ihr oder ihre?",
+     "href": "possessivpronomen-sein-oder-ihr"
+    }
+   ],
+   "title": "Er, sie oder es? Wörter in drei Spalten sortieren | PDF drucken",
+   "metaDescription": "Zehn Wortkarten mit Bild – sechs Namen und vier Dinge – und drei Spalten mit er, sie und es: jede Karte in die richtige Spalte schreiben."
+  },
+  {
+   "slug": "saetze-mit-pronomen-umschreiben",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-rewrite-the-sentence-with-a-pronoun",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Personalpronomen-Arbeitsblatt · Klasse 2",
+   "h1": "Sätze mit einem Pronomen noch einmal schreiben",
+   "strand": "Sprache und Sprachgebrauch untersuchen",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "personalpronomen",
+    "2-klasse"
+   ],
+   "p1": "Acht Sätze untereinander, jeder mit einem kleinen Personenbild links und zwei Lineaturzeilen darunter. Auf dem abgebildeten Druck stehen Ben fährt Fahrrad, Max und Lina springen Seil, Nele und Anna essen einen Apfel, Paul und Finn spielen mit dem Ball, Noah geht in den Park, Lea füttert den Hund, Leon pflückt eine Blume und Mia baut einen Turm. Das Kind schreibt jeden Satz vollständig neu und setzt an die Stelle des Namens ein Pronomen. Drei Sätze haben ein Personenpaar als Subjekt.",
+   "p2": "Den ganzen Satz zu schreiben ist mehr Arbeit als ein Wort einzusetzen – und genau darin liegt der Gewinn: Groß- und Kleinschreibung, Satzzeichen und Wortstellung werden mitgeübt, und das neue erste Wort muss großgeschrieben werden. Die drei Paare führen zum Sie für mehrere, bei dem das Verb unverändert in der Mehrzahl bleibt: Max und Lina springen wird zu Sie springen. Es kommt auf diesem Blatt nicht vor, weil alle Sätze von Personen handeln. Die Bilder neben den Sätzen zeigen Berufe und nicht die genannten Handlungen; sie helfen nur beim Geschlecht.",
+   "p3": "Ein Blatt in Farbe, Bleistift und Radiergummi, zwei Schreibzeilen pro Satz. Es ist die offenste Fassung der Reihe und eignet sich als Leistungsnachweis am Ende der Einheit. Wer vorher noch mit Vorgaben arbeiten möchte, nimmt das Einsetzblatt mit dem Wortkasten oder die Sortierseite mit den drei Spalten.",
+   "canonicalDeckSlug": "personalpronomen-g2355",
+   "carousel": [
+    {
+     "label": "Personalpronomen: er, sie oder es zum Bild einkreisen",
+     "href": "personalpronomen-er-sie-oder-es-einkreisen"
+    },
+    {
+     "label": "Den Namen durch ein Pronomen ersetzen",
+     "href": "personalpronomen-in-den-zweiten-satz-einsetzen"
+    },
+    {
+     "label": "Wer ist gemeint? Pronomen mit dem Namen verbinden",
+     "href": "pronomen-im-satz-wer-ist-gemeint"
+    },
+    {
+     "label": "Possessivpronomen: sein, seine, ihr oder ihre?",
+     "href": "possessivpronomen-sein-oder-ihr"
+    }
+   ],
+   "title": "Sätze mit Pronomen umschreiben, Klasse 2 | kostenlos als PDF",
+   "metaDescription": "Acht Sätze mit Namen und je zwei Schreibzeilen darunter: den Satz noch einmal schreiben und für den Namen ein Pronomen einsetzen."
+  },
+  {
+   "slug": "w-fragen-frage-und-antwort-verbinden",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-match-the-question-to-the-answer",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "W-Fragen-Arbeitsblatt · Klasse 1–2",
+   "h1": "Frage und Antwort verbinden: fünf W-Fragen, fünf Bilder",
+   "strand": "Sprache und Sprachgebrauch untersuchen",
+   "standard": "L.K.1.d",
+   "slotTokens": [
+    "w-fragen",
+    "1-klasse"
+   ],
+   "p1": "Links stehen fünf Fragen untereinander: Wo liest Nele? Wie viele Pferde findet Lina? Was malt Max? Wer mag den Zug? Wann schläft Leon? Rechts stehen fünf Antwortkarten, jede mit Bild und Wort – eine Uhr mit um drei Uhr, eine laufende Person mit Anna, ein Haus mit zu Hause, ein Pferd mit drei und eine Zitrone mit die Zitrone. Das Kind zieht fünf Linien. Die Reihenfolge der Antworten ist gegenüber den Fragen vollständig verschoben.",
+   "p2": "Diese Seite erweitert den Bestand der Grundseite: Neben Wer, Was und Wo stehen hier auch Wann und Wie viele, und jede Frage bekommt eine Antwort in genau der Form, die sie verlangt – eine Uhrzeit auf Wann, ein Name auf Wer, ein Ort auf Wo, eine Anzahl auf Wie viele. Damit wird die Zuordnung zu einem Formentraining, das sich später auf jede Frage übertragen lässt. Ein Hinweis zur Anzahlkarte: Sie zeigt ein einzelnes Pferd mit einer kleinen grünen 3 in der Ecke, nicht drei Pferde – die Zahl steht daneben ausgeschrieben.",
+   "p3": "Ein Blatt in Farbe, ein Stift. Weil jede Antwort auch als Bild vorliegt, ist die Seite für Kinder geeignet, die noch nicht flüssig lesen. Als Erweiterung lassen sich die fünf Antworten mündlich zu vollständigen Sätzen ausbauen. Vorher passt die Grundseite mit den drei Fragewörtern, danach das Blatt, auf dem ganze Fragesätze geschrieben werden.",
+   "canonicalDeckSlug": "w-fragen-g1373",
+   "carousel": [
+    {
+     "label": "W-Fragen: Wer, Was oder Wo fragt nach dem markierten Teil?",
+     "href": "w-fragen-wer-was-wo-fragewort-einkreisen"
+    },
+    {
+     "label": "Fragewörter einsetzen: die Antwort verrät die Frage",
+     "href": "fragewoerter-in-die-luecke-schreiben"
+    },
+    {
+     "label": "Antworten sortieren: Wer? Was? Wo?",
+     "href": "w-fragen-antworten-in-drei-spalten-sortieren"
+    },
+    {
+     "label": "Zu jeder Antwort den ganzen Fragesatz schreiben",
+     "href": "fragesaetze-zur-antwort-schreiben"
+    }
+   ],
+   "title": "W-Fragen: Frage und Antwort verbinden | kostenlos als PDF",
+   "metaDescription": "Fünf Fragen links und fünf Bildantworten rechts: Uhrzeit, Name, Ort, Anzahl und Ding – jede Frage mit ihrer Antwort verbinden."
+  },
+  {
+   "slug": "fragewoerter-in-die-luecke-schreiben",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-fill-in-the-question-word",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "W-Fragen-Arbeitsblatt · Klasse 1–2",
+   "h1": "Fragewörter einsetzen: die Antwort verrät die Frage",
+   "strand": "Sprache und Sprachgebrauch untersuchen",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "w-fragen",
+    "1-klasse"
+   ],
+   "p1": "Oben steht ein Wortkasten mit fünf Fragewörtern: Wann, Wie viele, Wo, Wer, Was. Darunter folgen sechs Karten, jede mit einer Frage, deren erstes Wort fehlt, und darunter der vollständigen Antwort, in der ein Teil orange markiert ist. Auf dem abgebildeten Druck heißt es etwa Kästchen mag Noah? – Noah mag das Segelboot; Kästchen isst Nele? – Nele isst um sieben Uhr; Kästchen Birnen sieht Mia? – Mia sieht fünf Birnen. Das Kind schreibt das Fragewort in das Kästchen.",
+   "p2": "Der Weg geht hier rückwärts: von der Antwort zur Frage. Das ist anspruchsvoller als das Einkreisen auf der Grundseite, weil das Kind die Form der markierten Stelle erkennen und in ein Fragewort übersetzen muss – eine Uhrzeit wird zu Wann, eine Anzahl zu Wie viele, ein Ort zu Wo. Zu beachten ist die Rechnung: Der Kasten enthält fünf Wörter, die Seite hat sechs Lücken, und Was wird zweimal gebraucht. Kinder, die jedes benutzte Wort durchstreichen, kommen dadurch ins Stocken; ein Satz vorab klärt, dass ein Wort mehrfach passen darf.",
+   "p3": "Ein Farbdruck auf einer Seite, Bleistift zum Schreiben. Fünf Fragewörter sind mehr als auf der Grundseite, das Blatt gehört also nach hinten in die Reihe. Wer die Zuordnung vorher ohne Schreiben üben möchte, nimmt das Verbindungsblatt; wer danach frei formulieren lassen will, das Blatt mit den acht selbst geschriebenen Fragesätzen.",
+   "canonicalDeckSlug": "w-fragen-g1374",
+   "carousel": [
+    {
+     "label": "W-Fragen: Wer, Was oder Wo fragt nach dem markierten Teil?",
+     "href": "w-fragen-wer-was-wo-fragewort-einkreisen"
+    },
+    {
+     "label": "Frage und Antwort verbinden: fünf W-Fragen, fünf Bilder",
+     "href": "w-fragen-frage-und-antwort-verbinden"
+    },
+    {
+     "label": "Antworten sortieren: Wer? Was? Wo?",
+     "href": "w-fragen-antworten-in-drei-spalten-sortieren"
+    },
+    {
+     "label": "Zu jeder Antwort den ganzen Fragesatz schreiben",
+     "href": "fragesaetze-zur-antwort-schreiben"
+    }
+   ],
+   "title": "Fragewörter einsetzen: Wann, Wie viele, Wo, Wer, Was | PDF",
+   "metaDescription": "Sechs Frage-Antwort-Paare mit Wortkasten: Die markierten Wörter in der Antwort zeigen, welches Fragewort in die Lücke gehört."
+  },
+  {
+   "slug": "w-fragen-antworten-in-drei-spalten-sortieren",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-sort-the-answers-who-what-or-where",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "W-Fragen-Arbeitsblatt · Klasse 1–2",
+   "h1": "Antworten sortieren: Wer? Was? Wo?",
+   "strand": "Sprache und Sprachgebrauch untersuchen",
+   "standard": "L.K.1.d",
+   "slotTokens": [
+    "w-fragen",
+    "1-klasse"
+   ],
+   "p1": "Oben liegen neun Wortkarten in einem Kasten: Roller, im Zelt, Ben, Lina, Lea, Boot, Avocado, am Fluss und im Wald. Darunter stehen drei Spalten mit den Überschriften Wer?, Was? und Wo?, jede mit acht Schreiblinien. Das Kind schreibt jede Karte unter die Frage, auf die sie antwortet. Die Aufteilung geht genau auf: drei Namen, drei Dinge und drei Ortsangaben – je drei Karten pro Spalte, bei acht angebotenen Linien.",
+   "p2": "Das Sortieren dreht die Blickrichtung um: Statt zu einem Satz das Fragewort zu suchen, ordnet das Kind lose Antworten ihren Fragen zu und merkt dabei, dass jede Frage eine bestimmte Art von Antwort verlangt. Die drei Ortsangaben verraten sich schon an ihrem ersten Wort – im, am, im –, und das ist die nützlichste Beobachtung des Blattes: Wo-Antworten beginnen fast immer mit einer Präposition. Die eigentliche Unterscheidung liegt zwischen Wer und Was, denn im Deutschen werden Namen und Dinge beide großgeschrieben; dort hilft nur das Wissen, ob es ein Mensch ist.",
+   "p3": "Ein Blatt, schwarz-weiß druckbar, Bleistift zum Schreiben. Die Spalten sind für acht Einträge angelegt und bleiben zu zwei Dritteln leer – das ist kein Fehler, sondern Platz für eigene Wörter, die die Klasse ergänzen kann. Wer die Karten mehrfach sortieren möchte, schneidet sie aus. Als nächster Schritt eignet sich die Fassung, auf der das Fragewort geschrieben wird.",
+   "canonicalDeckSlug": "w-fragen-g1375",
+   "carousel": [
+    {
+     "label": "W-Fragen: Wer, Was oder Wo fragt nach dem markierten Teil?",
+     "href": "w-fragen-wer-was-wo-fragewort-einkreisen"
+    },
+    {
+     "label": "Frage und Antwort verbinden: fünf W-Fragen, fünf Bilder",
+     "href": "w-fragen-frage-und-antwort-verbinden"
+    },
+    {
+     "label": "Fragewörter einsetzen: die Antwort verrät die Frage",
+     "href": "fragewoerter-in-die-luecke-schreiben"
+    },
+    {
+     "label": "Zu jeder Antwort den ganzen Fragesatz schreiben",
+     "href": "fragesaetze-zur-antwort-schreiben"
+    }
+   ],
+   "title": "W-Fragen: Antworten nach wer, was und wo sortieren | PDF drucken",
+   "metaDescription": "Neun Wortkarten – Namen, Dinge und Ortsangaben – und drei Spalten mit Wer, Was und Wo: jede Karte unter die passende Frage schreiben."
+  },
+  {
+   "slug": "fragesaetze-zur-antwort-schreiben",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-write-the-question",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "W-Fragen-Arbeitsblatt · Klasse 2",
+   "h1": "Zu jeder Antwort den ganzen Fragesatz schreiben",
+   "strand": "Sprache und Sprachgebrauch untersuchen",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "w-fragen",
+    "2-klasse"
+   ],
+   "p1": "Acht Antwortsätze untereinander, in jedem ist ein Teil orange markiert, und darunter liegt eine dreizeilige Lineatur. Auf dem abgebildeten Druck heißt es Emma findet fünf Brombeeren, Anna ist in der Hütte, Finn sieht fünf Geier, Mia mag den Orang-Utan, Leon isst um acht Uhr, Max malt die Schildkröte, Lina schläft um neun Uhr und Ben spielt am Fluss. Das Kind schreibt den vollständigen Fragesatz auf die Linie. Vorgegeben ist nichts – kein Fragewort, kein Wortkasten, kein Beispiel.",
+   "p2": "Das ist die anspruchsvollste Seite der Reihe, weil zwei Dinge gleichzeitig verlangt werden: das richtige Fragewort und die Umstellung des Satzes. Aus Ben spielt am Fluss wird Wo spielt Ben – das Verb rückt nach vorn, der Name dahinter, und am Ende steht ein Fragezeichen. Diese Umstellung ist der eigentliche Grammatikinhalt und lohnt eine gemeinsame erste Aufgabe an der Tafel, bevor die Kinder allein weiterarbeiten. Zwei Zeilen sind besonders anspruchsvoll: Bei fünf Geier gehört das Nomen zum Fragewort, es heißt also Wie viele Geier sieht Finn.",
+   "p3": "Ein Blatt in Farbe, Bleistift und Radiergummi. Acht Sätze füllen eine Unterrichtsstunde. Weil kein Muster gedruckt ist, empfiehlt sich der erste Satz im Klassengespräch oder ein an die Tafel geschriebenes Beispiel. Wer noch Vorgaben braucht, arbeitet vorher mit dem Einsetzblatt, auf dem die Fragewörter im Kasten stehen.",
+   "canonicalDeckSlug": "w-fragen-g2356",
+   "carousel": [
+    {
+     "label": "W-Fragen: Wer, Was oder Wo fragt nach dem markierten Teil?",
+     "href": "w-fragen-wer-was-wo-fragewort-einkreisen"
+    },
+    {
+     "label": "Frage und Antwort verbinden: fünf W-Fragen, fünf Bilder",
+     "href": "w-fragen-frage-und-antwort-verbinden"
+    },
+    {
+     "label": "Fragewörter einsetzen: die Antwort verrät die Frage",
+     "href": "fragewoerter-in-die-luecke-schreiben"
+    },
+    {
+     "label": "Antworten sortieren: Wer? Was? Wo?",
+     "href": "w-fragen-antworten-in-drei-spalten-sortieren"
+    }
+   ],
+   "title": "Fragesätze schreiben: acht Antworten, acht Fragen | PDF drucken",
+   "metaDescription": "Acht Antwortsätze mit markiertem Satzteil und je einer Lineatur: den vollständigen Fragesatz schreiben, der nach dem markierten Teil fragt."
+  },
+  {
+   "slug": "fragen-zum-bild-warum-und-wie",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-ask-about-the-picture-why-and-how",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "W-Fragen-Arbeitsblatt · Klasse 2",
+   "h1": "Sechs Fragen selbst zu Ende schreiben: von Wer bis Wie",
+   "strand": "Sprache und Sprachgebrauch untersuchen",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "w-fragen",
+    "2-klasse"
+   ],
+   "p1": "Oben steht ein Streifen mit vier Bildkarten: ein Bauarbeiter, eine Birne, ein Haus und eine Uhr, die auf neun steht. Darunter folgen sechs Zeilen mit Lineatur; auf jeder steht das erste Wort bereits blass vorgedruckt: Wer, Was, Wo, Wann, Warum und Wie. Das Kind schreibt jede Frage selbst zu Ende. Es gibt keine Antwort, keine Auswahl und keine Vorgabe, worauf sich die Frage beziehen soll – die sechs Zeilen sind völlig offen.",
+   "p2": "Nach fünf gelenkten Seiten formuliert das Kind hier selbst, und das ist der richtige Abschluss der Reihe. Vier der sechs Anfänge finden im Bildstreifen einen Anknüpfungspunkt: Wer zum Bauarbeiter, Was zur Birne, Wo zum Haus, Wann zur Uhr. Für Warum und Wie – die beiden Wörter, die der Titel nennt – gibt es dort nichts: Vier einzelne Gegenstände zeigen keine Handlung, und nach dem Grund oder der Art lässt sich nur fragen, wo etwas geschieht. Diese beiden Zeilen brauchen deshalb einen gemeinsam erfundenen Anlass, etwa eine kurze Szene an der Tafel oder ein Bilderbuch auf dem Tisch.",
+   "p3": "Ein Blatt in Farbe, Bleistift und Radiergummi, sechs breite Schreibzeilen. Es eignet sich hervorragend für die Partnerarbeit: Ein Kind schreibt die Frage, das andere beantwortet sie schriftlich auf der Rückseite. Wer mehr Halt braucht, nimmt vorher die Seite, auf der zu acht fertigen Antworten die passenden Fragen entstehen.",
+   "canonicalDeckSlug": "w-fragen-g2357",
+   "carousel": [
+    {
+     "label": "W-Fragen: Wer, Was oder Wo fragt nach dem markierten Teil?",
+     "href": "w-fragen-wer-was-wo-fragewort-einkreisen"
+    },
+    {
+     "label": "Frage und Antwort verbinden: fünf W-Fragen, fünf Bilder",
+     "href": "w-fragen-frage-und-antwort-verbinden"
+    },
+    {
+     "label": "Fragewörter einsetzen: die Antwort verrät die Frage",
+     "href": "fragewoerter-in-die-luecke-schreiben"
+    },
+    {
+     "label": "Antworten sortieren: Wer? Was? Wo?",
+     "href": "w-fragen-antworten-in-drei-spalten-sortieren"
+    }
+   ],
+   "title": "Fragen schreiben mit warum und wie, Klasse 2 | PDF zum Ausdrucken",
+   "metaDescription": "Vier Bildkarten und sechs angefangene Zeilen mit Wer, Was, Wo, Wann, Warum und Wie: jede Frage selbst zu Ende schreiben."
+  },
+  {
+   "slug": "aufrunden-oder-abrunden-zahlen-sortieren",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "rounding-up-or-down-sort-the-numbers",
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Runden-Arbeitsblatt · Klasse 3",
+   "h1": "Aufrunden oder abrunden? Zwölf Zahlen in zwei Kästen",
+   "strand": "Zahlen und Operationen",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "zahlen-runden",
+    "3-klasse"
+   ],
+   "p1": "Unter dem Beispiel mit dem Ziffernstreifen liegt ein Feld mit zwölf Zahlen in weißen Kreisen; auf dem abgebildeten Druck sind es 481, 52, 329, 418, 85, 65, 549, 647, 426, 24, 72 und 13. Darunter stehen zwei große Kästen: links abrunden mit einem Pfeil nach unten, rechts aufrunden mit einem Pfeil nach oben, jeder mit neun gestrichelten Feldern. Das Kind schreibt jede Zahl in den Kasten, in den sie gehört. Nach unten gehen fünf Zahlen, nach oben sieben.",
+   "p2": "Diese Fassung trennt die Entscheidung vom Rechnen: Es wird nicht gerundet, sondern nur die Richtung bestimmt, und damit lässt sich prüfen, ob die Regel verstanden ist, bevor Ergebnisse geschrieben werden. Das Sortieren zwingt zugleich zur Wiederholung – zwölfmal dieselbe Frage an zwölf verschiedene Einerstellen. Für die Vorbereitung ist eine Zahl wichtig: Die beiden Kästen bieten neun Felder an, gefüllt werden aber fünf und sieben. Kinder lesen gleich große Kästen leicht als gleich große Gruppen und suchen dann nach fehlenden Zahlen; der Hinweis, dass Felder frei bleiben, nimmt diese Unsicherheit.",
+   "p3": "Ein Blatt, schwarz-weiß druckbar, Bleistift genügt. Es ist die schnellste Seite der Reihe und passt als Einstieg in eine Übungsstunde oder als kurze Wiederholung. Wer danach Ergebnisse schreiben lassen möchte, nimmt die Grundseite mit den vierzehn Aufgaben; wer den Blick auf eine einzige Zielzahl richten will, das Blatt zur 50.",
+   "canonicalDeckSlug": "zahlen-runden-g3387",
+   "carousel": [
+    {
+     "label": "Zahlen auf den nächsten Zehner runden",
+     "href": "zahlen-runden-auf-zehner"
+    },
+    {
+     "label": "Zahlen auf den nächsten Hunderter runden",
+     "href": "zahlen-runden-auf-hunderter"
+    },
+    {
+     "label": "Runden und überschlagen: die Summe schätzen",
+     "href": "runden-und-ueberschlagen-summe-schaetzen"
+    },
+    {
+     "label": "Welche Zahlen werden zu 50 gerundet?",
+     "href": "welche-zahlen-runden-auf-50"
+    }
+   ],
+   "title": "Aufrunden oder abrunden? Zahlen sortieren | kostenlos als PDF",
+   "metaDescription": "Zwölf Zahlenkreise und zwei Kästen mit Pfeil: entscheiden, ob jede Zahl zum nächsten Zehner aufgerundet oder abgerundet wird."
+  },
+  {
+   "slug": "zahlen-runden-auf-hunderter",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "rounding-to-the-nearest-100",
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Runden-Arbeitsblatt · Klasse 3",
+   "h1": "Zahlen auf den nächsten Hunderter runden",
+   "strand": "Zahlen und Operationen",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "zahlen-runden",
+    "3-klasse"
+   ],
+   "p1": "Das Beispiel oben zeigt 472 und 500, wobei die Zehnerziffer 7 farbig hervorgehoben und im Ziffernstreifen eingekreist ist. Darunter stehen vierzehn Aufgaben in zwei Spalten, alle dreistellig: auf dem abgebildeten Druck 462, 350, 572, 467, 236, 397, 489, 328, 317, 874, 540, 851, 848 und 532. Das Kind schreibt zu jeder Zahl den nächsten Hunderter in das Kästchen. Es gibt nur eine Entscheidung pro Zahl, und sie fällt ausschließlich an der Zehnerstelle.",
+   "p2": "Der Sprung vom Zehner zum Hunderter ist der eigentliche Lernschritt: Die Regel bleibt dieselbe, aber die entscheidende Ziffer wandert eine Stelle nach links, und die Einerstelle wird bedeutungslos. Gerade das fällt Kindern schwer, die sich das Runden als Blick auf die letzte Ziffer gemerkt haben. Deshalb ist die farbige Hervorhebung im Beispiel wichtiger, als sie aussieht. Die 350 ist die Aufgabe, an der sich zeigt, ob die Regel sitzt: Die Zehnerziffer ist eine 5, es wird also aufgerundet – auf 400, obwohl 350 genau zwischen 300 und 400 liegt. Acht Aufgaben führen nach oben, sechs nach unten.",
+   "p3": "Ein Blatt, schwarz-weiß druckbar, das Beispiel bleibt als Merkhilfe stehen. Vierzehn Aufgaben in zwei Spalten, keine weitere Vorbereitung. Es gehört nach der Zehnerseite und vor das Blatt, auf dem beide Rundungsstellen in derselben Zeile verlangt werden; dort steht jede Zahl mit zwei Kästchen und muss zweimal betrachtet werden.",
+   "canonicalDeckSlug": "zahlen-runden-g3388",
+   "carousel": [
+    {
+     "label": "Zahlen auf den nächsten Zehner runden",
+     "href": "zahlen-runden-auf-zehner"
+    },
+    {
+     "label": "Aufrunden oder abrunden? Zwölf Zahlen in zwei Kästen",
+     "href": "aufrunden-oder-abrunden-zahlen-sortieren"
+    },
+    {
+     "label": "Runden und überschlagen: die Summe schätzen",
+     "href": "runden-und-ueberschlagen-summe-schaetzen"
+    },
+    {
+     "label": "Welche Zahlen werden zu 50 gerundet?",
+     "href": "welche-zahlen-runden-auf-50"
+    }
+   ],
+   "title": "Zahlen runden auf Hunderter, Klasse 3 | PDF zum Ausdrucken",
+   "metaDescription": "Vierzehn dreistellige Zahlen von 236 bis 874: auf den nächsten Hunderter runden. Entschieden wird allein an der Zehnerstelle."
+  },
+  {
+   "slug": "runden-und-ueberschlagen-summe-schaetzen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "round-then-estimate-the-sum",
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Runden-Arbeitsblatt · Klasse 3",
+   "h1": "Runden und überschlagen: die Summe schätzen",
+   "strand": "Zahlen und Operationen",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "zahlen-runden",
+    "3-klasse"
+   ],
+   "p1": "Das Beispiel oben zeigt den ganzen Weg: 23 plus 48 wird zu 20 plus 50 gleich 70. Darunter stehen acht Aufgaben untereinander, jede mit drei gestrichelten Kästchen – zwei für die gerundeten Zahlen, eines für deren Summe. Auf dem abgebildeten Druck sind es 12 plus 51, 29 plus 14, 59 plus 19, 31 plus 32, 35 plus 28, 15 plus 36, 38 plus 52 und 63 plus 27. Alle Zahlen sind zweistellig, alle Überschläge bleiben unter hundert.",
+   "p2": "Hier bekommt das Runden zum ersten Mal einen Zweck: Man rundet nicht, weil es die Aufgabe verlangt, sondern um schnell ungefähr zu wissen, wie viel es wird. Der Überschlag ist im Alltag die häufigste Rechenform überhaupt, und der Lehrplan Mathematik verlangt ihn in Klasse 3 ausdrücklich als Kontrolle vor dem genauen Rechnen. Zwei der acht Zeilen sind dabei besonders interessant: Bei 38 plus 52 und bei 63 plus 27 trifft der Überschlag die genaue Summe. Das ist kein Zufall, sondern eine schöne Gelegenheit zu fragen, wann sich die Rundungsfehler gegenseitig ausgleichen.",
+   "p3": "Ein Blatt, schwarz-weiß druckbar, Bleistift genügt. Acht Aufgaben mit je drei Eintragungen sind eine kompakte halbe Stunde. Im Anschluss lohnt es sich, die genauen Summen daneben rechnen zu lassen und mit dem Überschlag zu vergleichen – die Differenz ist bei jeder Aufgabe ein Gesprächsanlass. Davor passt die Grundseite zum Runden auf Zehner.",
+   "canonicalDeckSlug": "zahlen-runden-g3389",
+   "carousel": [
+    {
+     "label": "Zahlen auf den nächsten Zehner runden",
+     "href": "zahlen-runden-auf-zehner"
+    },
+    {
+     "label": "Aufrunden oder abrunden? Zwölf Zahlen in zwei Kästen",
+     "href": "aufrunden-oder-abrunden-zahlen-sortieren"
+    },
+    {
+     "label": "Zahlen auf den nächsten Hunderter runden",
+     "href": "zahlen-runden-auf-hunderter"
+    },
+    {
+     "label": "Welche Zahlen werden zu 50 gerundet?",
+     "href": "welche-zahlen-runden-auf-50"
+    }
+   ],
+   "title": "Runden und überschlagen: Summe schätzen | kostenlos als PDF",
+   "metaDescription": "Acht Additionen mit je drei Kästchen: beide Zahlen auf den Zehner runden, eintragen und die gerundeten Zahlen zusammenrechnen."
+  },
+  {
+   "slug": "welche-zahlen-runden-auf-50",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "which-numbers-round-to-50",
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Runden-Arbeitsblatt · Klasse 3",
+   "h1": "Welche Zahlen werden zu 50 gerundet?",
+   "strand": "Zahlen und Operationen",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "zahlen-runden",
+    "3-klasse"
+   ],
+   "p1": "Ganz oben steht das Beispiel mit dem Ziffernstreifen, darunter ein orange hinterlegter Chip mit der Zielzahl 50. Auf der Fläche darunter liegen sechzehn Zahlen in weißen Ovalen: 31, 46, 36, 55, 49, 44, 63, 51, 47, 45, 35, 58, 52, 64, 57 und 32. Das Kind kreist jede Zahl ein, die auf diesen Zehner gerundet wird. Sechs Zahlen gehören dazu – 45, 46, 47, 49, 51 und 52 –, die anderen zehn führen zu 30, 40 oder 60.",
+   "p2": "Diese Seite dreht die Frage um: Statt zu einer Zahl das Ergebnis zu suchen, wird zu einem Ergebnis die Menge der Zahlen gesucht. Damit entsteht der Gedanke eines Bereichs – alles von 45 bis 54 wird zu 50 –, und das ist die Vorstellung, die das Runden wirklich trägt. Hervorragend gewählt sind die beiden Grenzfälle: 45 gehört dazu, 55 nicht, obwohl beide genau in der Mitte liegen. Ein Hinweis zur Formulierung: Die Anweisung spricht davon, dass die Zahl auf den Zehner oben gerundet wird, und meint damit die Zielzahl im Chip – nicht das Aufrunden. Dieser Satz sollte vorgelesen und erklärt werden, sonst bleiben 51 und 52 uneingekreist.",
+   "p3": "Ein Farbdruck auf einer Seite; der Zielchip ist orange hinterlegt, alles andere kommt ohne Farbe aus. Nach dem Einkreisen lässt sich die kleinste und die größte passende Zahl bestimmen – damit ist der Bereich benannt, und die Klasse kann dieselbe Frage für 80 oder 100 selbst stellen. Als Vorübung passt das Sortierblatt mit den zwei Kästen.",
+   "canonicalDeckSlug": "zahlen-runden-g3390",
+   "carousel": [
+    {
+     "label": "Zahlen auf den nächsten Zehner runden",
+     "href": "zahlen-runden-auf-zehner"
+    },
+    {
+     "label": "Aufrunden oder abrunden? Zwölf Zahlen in zwei Kästen",
+     "href": "aufrunden-oder-abrunden-zahlen-sortieren"
+    },
+    {
+     "label": "Zahlen auf den nächsten Hunderter runden",
+     "href": "zahlen-runden-auf-hunderter"
+    },
+    {
+     "label": "Runden und überschlagen: die Summe schätzen",
+     "href": "runden-und-ueberschlagen-summe-schaetzen"
+    }
+   ],
+   "title": "Welche Zahlen runden auf 50? Zahlen einkreisen | PDF drucken",
+   "metaDescription": "Sechzehn Zahlen zwischen 31 und 64 und eine Zielzahl: einkreisen, welche davon auf den angegebenen Zehner gerundet werden."
+  },
+  {
+   "slug": "zahlen-runden-auf-zehner-und-hunderter",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "rounding-to-the-nearest-10-and-100",
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Runden-Arbeitsblatt · Klasse 3",
+   "h1": "Dieselbe Zahl zweimal runden: auf Zehner und auf Hunderter",
+   "strand": "Zahlen und Operationen",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "zahlen-runden",
+    "3-klasse"
+   ],
+   "p1": "Das Beispiel oben steht zweizeilig: einmal mit dem Merkchip 10 – 472 wird zu 470, die Einerziffer farbig – und einmal mit dem Merkchip 100 – 472 wird zu 500, die Zehnerziffer farbig. Darunter folgen acht Zahlen untereinander, jede mit zwei gestrichelten Kästchen unter den Spaltenüberschriften Zehner und Hunderter. Auf dem abgebildeten Druck sind es 159, 494, 791, 305, 353, 535, 567 und 556. Das Kind rundet jede Zahl zweimal, jedes Mal von der ursprünglichen Zahl aus.",
+   "p2": "Beide Rundungsstellen in einer Zeile nebeneinander zu sehen ist der Gewinn dieser Seite: Erst hier wird deutlich, dass Runden keine Eigenschaft der Zahl ist, sondern von der gewählten Stelle abhängt – 159 ist einmal 160 und einmal 200. Die beiden Merkchips 10 und 100 im Beispiel zeigen, wo jeweils hingeschaut wird. Ein wichtiger Hinweis für den Unterricht: Auf dem abgebildeten Druck kommt bei allen acht Zahlen dasselbe heraus, ob man vom Original oder vom bereits gerundeten Zehner ausgeht. Der klassische Fehler des zweifachen Rundens – etwa 449 über 450 zu 500 statt zu 400 – lässt sich an diesem Blatt also nicht zeigen und muss an der Tafel ergänzt werden.",
+   "p3": "Ein Blatt, schwarz-weiß druckbar, das zweizeilige Beispiel bleibt oben stehen. Acht Zahlen mit sechzehn Eintragungen sind eine kurze, dichte Übung. Es ist die letzte Seite der Reihe und setzt voraus, dass beide Rundungsstellen einzeln geübt wurden – auf der Grundseite für den Zehner und auf dem Hunderterblatt, auf dem vierzehn Zahlen nur an der Zehnerstelle entschieden werden.",
+   "canonicalDeckSlug": "zahlen-runden-g3391",
+   "carousel": [
+    {
+     "label": "Zahlen auf den nächsten Zehner runden",
+     "href": "zahlen-runden-auf-zehner"
+    },
+    {
+     "label": "Aufrunden oder abrunden? Zwölf Zahlen in zwei Kästen",
+     "href": "aufrunden-oder-abrunden-zahlen-sortieren"
+    },
+    {
+     "label": "Zahlen auf den nächsten Hunderter runden",
+     "href": "zahlen-runden-auf-hunderter"
+    },
+    {
+     "label": "Runden und überschlagen: die Summe schätzen",
+     "href": "runden-und-ueberschlagen-summe-schaetzen"
+    }
+   ],
+   "title": "Zahlen runden auf Zehner und Hunderter | PDF zum Ausdrucken",
+   "metaDescription": "Acht dreistellige Zahlen mit je zwei Kästchen unter den Überschriften Zehner und Hunderter: jede Zahl an beiden Stellen runden."
   }
  ]
 }

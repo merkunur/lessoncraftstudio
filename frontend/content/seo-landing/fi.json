@@ -146154,6 +146154,2417 @@
    ],
    "title": "Jakojäännös lukusuoralla 3. luokka | tulostettava PDF ilmainen",
    "metaDescription": "Hyppää taaksepäin lukusuoralla: kolme lukusuoraa, piste luvuilla 15, 22 ja 10; piirrä yhtä pitkiä hyppyjä taaksepäin ja kirjoita hypyt ja luku. Ilmainen 3. luokan PDF."
+  },
+  {
+   "slug": "tangram",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "base",
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Tangram-moniste",
+   "h1": "Tangram: seitsemän palaa ja kaksi kuviota",
+   "strand": "Avaruudellinen hahmottaminen",
+   "standard": "K.G.B.6",
+   "slotTokens": [
+    "tangram",
+    "esikoulu"
+   ],
+   "p1": "Sivun yläreunassa on yksi tangram-neliö, jonka sisään on piirretty kaikki seitsemän leikkausviivaa, ja sen vieressä väriavain: punainen, sininen, keltainen, vihreä ja oranssi ruutu, kukin oman palan muodon vieressä. Muotoja on avaimessa viisi – iso kolmio, keskikokoinen kolmio, pieni kolmio, neliö ja suunnikas – koska molemmat isot kolmiot saavat saman värin ja molemmat pienet toisen. Arkin alapuoliskolla odottaa kaksi kuviota: kissa ja suorakulmio. Kummankin sisään on piirretty valmiiksi viivat, jotka näyttävät mihin palat osuvat, joten lapsi ei etsi ratkaisua umpimähkään vaan asettaa palan kerrallaan valmiiseen kohtaan.",
+   "p2": "Värittäminen tehdään ennen leikkaamista, ja juuri se tekee sivusta enemmän kuin askartelutehtävän. Kun lapsi värittää kaksi isoa kolmiota samalla värillä, hän huomaa että ne ovat samankokoisia, ja kun pieni kolmio saa oman värinsä, kokoero tulee näkyviin ennen kuin siitä puhutaan sanoilla. Muotojen tunnistaminen ja niiden yhdistäminen suuremmiksi kokonaisuuksiksi kuuluu OPS 2014:n esiopetuksen matemaattisen ajattelun ytimeen, ja tangram tekee sen käsillä: kaksi pientä kolmiota peittää neliön, ja sama pari peittää myös suunnikkaan.",
+   "p3": "Yksi arkki, seitsemän palaa ja kaksi kuviota. Tulosta paksummalle paperille, niin palat kestävät käsittelyä, ja säilytä ne pussissa – samoja paloja tarvitaan perheen muillakin sivuilla. Tämä on tangram-perheen aloitussivu: se antaa palat, joita Neljä varjokuviota -sivu käyttää ilman apuviivoja. Helpot kuviot 2 ja 3 palasta on kevyempi jatko, jos kokonainen seitsemän palan kuvio tuntuu vielä liian isolta.",
+   "canonicalDeckSlug": "tangram-k353",
+   "carousel": [
+    {
+     "label": "Helpot tangram-kuviot: piirrä viivat kahdelle ja kolmelle palalle",
+     "href": "tangram-piirra-viivat"
+    },
+    {
+     "label": "Tangram: neljä varjokuviota rakennettavaksi",
+     "href": "tangram-varjokuviot"
+    },
+    {
+     "label": "Tangram: mikä pala puuttuu?",
+     "href": "tangram-mika-pala-puuttuu"
+    },
+    {
+     "label": "Tangram: mikä ratkaisu on samassa asennossa kuin varjo?",
+     "href": "tangram-mika-ratkaisu-sopii-varjoon"
+    }
+   ],
+   "title": "Tangram esikoulu | tulostettava PDF ilmainen",
+   "metaDescription": "Tangram esikouluun: väritä seitsemän palaa väriavaimen mukaan, leikkaa ne irti ja asettele kissan ja suorakulmion päälle. Ilmainen esikoulun PDF."
+  },
+  {
+   "slug": "kehon-osat",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "base",
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Kehon osien moniste",
+   "h1": "Kehon osat: kopioi sana oikealle viivalle",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "kehon-osat",
+    "esikoulu"
+   ],
+   "p1": "Keskellä arkkia seisoo yksi piirretty hahmo, ja siihen on merkitty kuusi kohtaa oranssilla renkaalla: korva, silmä, käsivarsi, kyynärpää, käsi ja jalka. Jokaisesta merkistä lähtee viiva omaan katkoviivaiseen laatikkoonsa – kolme vasemmalle, kolme oikealle – ja laatikon sisällä on kirjoitusrivi apuviivoineen. Sivun yläreunassa on sanapankki, jossa on kuusi sanaa: silmä, käsivarsi, käsi, jalka, kyynärpää ja korva. Lapsi kopioi jokaisen sanan siihen laatikkoon, jonka viiva osoittaa oikeaa kohtaa.",
+   "p2": "Sana on annettu valmiina, joten tehtävä ei mittaa oikeinkirjoitusta vaan sitä, osaako lapsi paikantaa. Kyynärpää ja käsi ovat samassa raajassa muutaman sentin päässä toisistaan, ja juuri se pari erottaa arvaajan katsojasta: on seurattava viivaa merkkiin asti eikä valittava lähintä sanaa. Oman kehon osien tunteminen ja nimeäminen on OPS 2014:n esiopetuksen ympäristökasvatuksen perusasioita, ja kirjoitusrivit tekevät samalla kynätyötä, jossa jokainen kirjain asettuu valmiiseen riviin.",
+   "p3": "Yksi arkki, kuusi sanaa, kuusi riviä. Tulosta ja tee ensin ilman kynää: pyydä lasta koskettamaan omaa korvaansa ja kyynärpäätään ennen kuin hän kirjoittaa sanan, niin merkintä kiinnittyy omaan kehoon. Tämä on kehon osat -perheen aloitussivu, ja se antaa sanaston, jota muut sivut käyttävät. Kun sanat ovat tuttuja, Kirjoita sana -sivu poistaa sanapankin ja pyytää nimen muistista, ja Mikä puuttuu -sivu vaihtaa työn kirjoittamisesta katsomiseen. Arkilla on tilaa myös isolle kynäotteelle: kirjoituslaatikot ovat leveitä ja rivi on merkitty apuviivalla, joten sana mahtuu, vaikka kirjaimet olisivat vielä suuria ja epätasaisia. Sivu tulostuu myös mustavalkoisena, sillä merkkirenkaat erottuvat muodon eivätkä värin perusteella.",
+   "canonicalDeckSlug": "kehon-osat-k354",
+   "carousel": [
+    {
+     "label": "Kehon osat: kuinka monta minulla on?",
+     "href": "kehon-osat-kuinka-monta"
+    },
+    {
+     "label": "Kehon osat: väritä selitteen mukaan",
+     "href": "kehon-osat-varita-selitteen-mukaan"
+    },
+    {
+     "label": "Kehon osat: kirjoita sana kirjainruutuihin",
+     "href": "kehon-osat-kirjoita-sana"
+    },
+    {
+     "label": "Kehon osat: mikä osa puuttuu?",
+     "href": "kehon-osat-mika-puuttuu"
+    }
+   ],
+   "title": "Kehon osat esikoulu | tulostettava PDF ilmainen",
+   "metaDescription": "Kehon osat esikouluun: kokovartalokuva, kuusi oranssia merkkiä ja kuusi kirjoitusruutua. Sanapankissa silmä, korva, käsivarsi, kyynärpää, käsi ja jalka. Ilmainen PDF."
+  },
+  {
+   "slug": "viisi-aistia",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "base",
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Aistien moniste",
+   "h1": "Viisi aistia: yhdistä kuva aistielimeen",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "viisi-aistia",
+    "esikoulu"
+   ],
+   "p1": "Sivulla on kaksi saraketta ja viisi riviä. Vasemmalla on viisi kuvaa: laventelin kukka, kuu, piano, keltainen pesusieni ja suklaalevy. Oikealla on viisi aistielintä omilla korteillaan: kämmen, korva, nenä, ulos työnnetty kieli ja silmä. Jokaisen kortin vieressä on oranssi piste, ja lapsi piirtää viivan kuvasta siihen kehon osaan, jolla asian huomaa. Elimet eivät ole samassa järjestyksessä kuin kuvat, joten viivat menevät ristiin eikä pari löydy suoraan vierestä.",
+   "p2": "Viisi rinnakkaista paria riittää kertomaan koko asian: jokaiselle aistille on täsmälleen yksi kuva ja jokaiselle kuvalle täsmälleen yksi elin. Valinnat ovat tarkoituksella yksiselitteisiä – suklaan maistaa, pianon kuulee, pesusienen tuntee – jottei esiopetusikäinen joudu punnitsemaan, näkeekö hän myös suklaan. Aistien tunnistaminen ja niiden yhdistäminen omaan kehoon kuuluu OPS 2014:n esiopetuksen ympäristökasvatukseen, ja viivan piirtäminen tekee vastauksesta näkyvän ilman kirjoittamista.",
+   "p3": "Yksi arkki, viisi viivaa, ei kirjoittamista. Tee tehtävä mieluiten aistimalla: haista jotain, koske johonkin ja kuuntele hetki hiljaa ennen kuin kynä lähtee liikkeelle. Aistielinkortit ovat valkealla taustalla ja kuvakortit kermanvärisellä, joten sarakkeet erottuvat myös pienelle lukijalle. Tämä on viiden aistin perheen aloitussivu, ja siitä jatketaan joko Lajittele aistin mukaan -sivuun, jossa kuvia on kymmenen, tai Millä aistilla -sivuun, jossa vastaus ympyröidään. Kuvat on valittu niin, että kukin niistä liittyy vain yhteen aistiin, joten väärää parillista tulkintaa ei synny ja lapsi voi luottaa ensimmäiseen ajatukseensa. Jos viivoista tulee sotkuisia, taita arkki pystysuunnassa keskeltä ja avaa se vasta, kun kaikki parit on löydetty. Sivu käy myös yhteiseksi keskustelupohjaksi ilman kynää.",
+   "canonicalDeckSlug": "viisi-aistia-k355",
+   "carousel": [
+    {
+     "label": "Viisi aistia: lajittele kuvat aistin mukaan",
+     "href": "viisi-aistia-lajittele-aistin-mukaan"
+    },
+    {
+     "label": "Viisi aistia: millä aistilla huomaat sen?",
+     "href": "viisi-aistia-milla-aistilla"
+    },
+    {
+     "label": "Viisi aistia: mikä ei kuulu joukkoon?",
+     "href": "viisi-aistia-mika-ei-kuulu-joukkoon"
+    },
+    {
+     "label": "Aistielimet: kirjoita aistin sana viivalle",
+     "href": "aistielimet-kirjoita-aistin-sana"
+    }
+   ],
+   "title": "Viisi aistia esikoulu | tulostettava PDF ilmainen",
+   "metaDescription": "Viisi aistia esikouluun: laventeli, kuu, piano, pesusieni ja suklaa vasemmalla, käsi, korva, nenä, kieli ja silmä oikealla. Piirrä viiva parin välille. Ilmainen PDF."
+  },
+  {
+   "slug": "saatilat",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "base",
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Säätilojen moniste",
+   "h1": "Säätilat: yhdistä säämerkki sanaan",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "saatilat",
+    "esikoulu"
+   ],
+   "p1": "Vasemmassa sarakkeessa on kuusi säämerkkiä, kukin omassa vihreässä ympyrässään: sadepilvi vesipisaroineen, hymyilevä aurinko, sateenkaari, tumma pilvimassa, salamapilvi ja lumihiutale. Oikealla on kuusi sanalaatikkoa – ukkonen, lumi, pilvi, aurinko, sade ja sateenkaari – eri järjestyksessä kuin merkit. Molemmilla puolilla on oranssi piste, ja lapsi piirtää viivan merkistä sanaan. Sarakkeiden väliin on jätetty leveä tyhjä kaista, jotta viivat mahtuvat kulkemaan ristiin sotkeutumatta.",
+   "p2": "Kaksi merkkiä tekee sivusta enemmän kuin nimeämistä: pilvi ja sade näyttävät lähes samalta, ja ne erottaa vain pisarat pilven alla. Samoin salamapilvessä ei ole lainkaan sadetta, joten ukkonen on tunnistettava salamasta eikä vedestä – se on tarkka valinta, ja se tekee myöhemmän sääennustesivun kysymyksistä yksiselitteisiä. Sään havainnointi ja sen kuvaaminen omin sanoin kuuluu OPS 2014:n esiopetuksen ympäristökasvatukseen, ja merkkien lukeminen on ensimmäinen askel kohti ennusteen lukemista.",
+   "p3": "Yksi arkki, kuusi viivaa, ei kirjoittamista. Käy merkit läpi ääneen ennen kuin kynä lähtee liikkeelle, ja katso samalla ikkunasta: se merkki, joka juuri nyt sopisi, löytyy yleensä heti. Huomaa, että sateenkaari on joukossa kuvana eikä varsinaisena säätilana, ja siitä kannattaa puhua erikseen. Tämä on säätilojen aloitussivu; siitä jatketaan Kirjoita sana -sivulle, jossa samat kuusi sanaa kirjoitetaan kirjainruutuihin, tai Minun viikkoni -sivulle, jossa merkit piirretään itse. Merkit ovat isoja ja niiden ympärillä on väljästi tilaa, joten sivu erottuu myös luettuna kauempaa, ja sen voi käydä läpi ensin yhdessä koko ryhmän kanssa. Sanalaatikot ovat kaikki samankokoisia, joten sanan pituus ei paljasta vastausta, vaikka sateenkaari onkin selvästi pisin sana. Tehtävä toistuu hyvin: tulosta uusi arkki myöhemmin ja vertaa, kuinka nopeasti merkit tunnistuvat toisella kerralla.",
+   "canonicalDeckSlug": "saatilat-k356",
+   "carousel": [
+    {
+     "label": "Säätilat: kirjoita sana kirjainruutuihin",
+     "href": "saatilat-kirjoita-sana"
+    },
+    {
+     "label": "Säätilat: minun viikkoni – piirrä joka päivän sää",
+     "href": "saatilat-saapaivakirja"
+    },
+    {
+     "label": "Säätilat: kylmä, lämmin vai kuuma?",
+     "href": "saatilat-kylma-lammin-vai-kuuma"
+    },
+    {
+     "label": "Veden kiertokulku: nimeä neljä vaihetta",
+     "href": "veden-kiertokulku-nimea-vaiheet"
+    }
+   ],
+   "title": "Säätilat esikoulu | tulostettava PDF ilmainen",
+   "metaDescription": "Säätilat esikouluun: kuusi säämerkkiä ympyröissä ja kuusi sanaa – ukkonen, lumi, pilvi, aurinko, sade ja sateenkaari. Piirrä viiva parin välille. Ilmainen PDF."
+  },
+  {
+   "slug": "kierratys",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "base",
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Kierrätyksen moniste",
+   "h1": "Kierrätys: mihin astiaan esine kuuluu?",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "kierratys",
+    "esikoulu"
+   ],
+   "p1": "Arkin yläreunassa on yhdessä rivissä kahdeksan pientä esinekuvaa: porkkana, punainen pullo, liimapullo, vihko, vesipullo, ruuvi, maissintähkä ja paperiarkki. Kunkin alla on oranssi piste. Sivun alaosassa seisoo viisi isoa astiaa nimineen – Biojäte, Paperi, Lasi, Metalli ja Muovi – ja jokaisen kansi on merkitty omalla valkoisella tunnuksellaan, pisteillä, viivoilla tai siksakilla. Lapsi piirtää viivan esineestä siihen astiaan, johon se tyhjänä tai käytettynä kuuluu.",
+   "p2": "Ohje sanoo esineiden olevan tyhjiä tai käytettyjä, ja se on tärkein lause koko sivulla: kierrätykseen ei mene ruoka vaan pakkaus, ja siksi porkkana ja maissi menevät biojätteeseen mutta pullo muoviin. Paperi-astia ottaa vastaan sekä paperin että kartongin, mikä vastaa suomalaista keräystapaa, jossa ne noudetaan samasta paikasta. Omasta arjesta tuttujen materiaalien tunnistaminen ja jätteiden lajittelu kuuluvat OPS 2014:n esiopetuksen kestävän elämäntavan sisältöihin.",
+   "p3": "Yksi arkki, kahdeksan viivaa, viisi astiaa. Esinekuvat ovat pieniä, joten käy ne läpi ääneen ennen aloitusta – punainen kastikepullo ja punainen liimapullo muistuttavat toisiaan, ja niiden materiaali on eri. Astioiden kansitunnukset ovat sivun oma merkintätapa eivätkä vastaa minkään jätehuoltoyhtiön värejä, joten vertaa mieluummin oman talon astioihin. Tämä on kierrätyksen aloitussivu, ja siitä jatketaan Mihin astiaan -sivulle, jolla sama valinta tehdään ympyröimällä. Astiat on piirretty koko sivun levyisiksi ja niiden yläpuolelle on jätetty avointa paperia, jotta kahdeksan viivaa mahtuu risteämään ilman että kuva menee tukkoon. Tehtävän voi tehdä myös vaiheittain: piirrä ensin ne kaksi viivaa, jotka ovat varmimpia, ja palaa epävarmoihin vasta lopuksi, kun jäljellä olevia astioita on vähemmän. Yhdessä käytynä sivu synnyttää helposti keskustelun siitä, mitä omassa kodissa lajitellaan.",
+   "canonicalDeckSlug": "kierratys-k357",
+   "carousel": [
+    {
+     "label": "Kierrätys: mihin astiaan? Ympyröi oikea",
+     "href": "kierratys-mihin-astiaan"
+    },
+    {
+     "label": "Kierrätys: mitä materiaalia esine on?",
+     "href": "kierratys-mita-materiaalia"
+    },
+    {
+     "label": "Kierrätys: mikä esine on eri materiaalia?",
+     "href": "kierratys-mika-ei-kuulu-joukkoon"
+    },
+    {
+     "label": "Kierrätys: kolme asiaa, jotka kierrätän kotona",
+     "href": "kierratys-kolme-asiaa-jotka-kierratan"
+    }
+   ],
+   "title": "Kierrätys esikoulu | tulostettava PDF ilmainen",
+   "metaDescription": "Kierrätys esikouluun: kahdeksan tyhjää tai käytettyä esinettä ja viisi astiaa – biojäte, paperi, lasi, metalli ja muovi. Piirrä viiva astiaan. Ilmainen PDF."
+  },
+  {
+   "slug": "taydenna-lauseet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "base",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Aukkolauseiden moniste",
+   "h1": "Täydennä lauseet: etsi sana sanapankista",
+   "strand": "Lukemisen perustaidot",
+   "standard": "L.1.1.b",
+   "slotTokens": [
+    "taydenna-lauseet",
+    "1-luokka"
+   ],
+   "p1": "Yläreunassa on sanapankki seitsemällä sanalla: traktori, kirahvi, pöllö, pingviini, kukko, norsu ja seepra. Alla on seitsemän numeroitua riviä, ja kussakin on pieni kuva, lause ja lauseen sisällä yksi katkoviivainen laatikko. Lauseet kertovat, mitä kuvan olento tekee – kärsällään suihkuttaa vettä, jäällä liukuu vatsallaan, aamulla kiekuu kovaa, pellolla kyntää maata, yöllä huhuilee puussa, pitkällä kaulallaan syö lehtiä. Jokaista sanaa käytetään täsmälleen kerran.",
+   "p2": "Kuva ja lause kertovat saman asian kahdella tavalla, ja juuri se tekee sivusta luettavan aloittelijallekin: jos sana ei aukea tekstistä, se aukeaa kuvasta, ja päinvastoin. Lauseet on rakennettu niin, että aukko on melkein aina verbin edellä – kärsällään norsu suihkuttaa vettä – joten lapsi kirjoittaa tekijän paikalleen ja lukee lauseen ääneen loppuun asti. Lukeminen ymmärtäen ja sanan valinta merkityksen perusteella ovat OPS 2014:n vuosiluokkien 1–2 lukemisen tavoitteita.",
+   "p3": "Yksi arkki, seitsemän lausetta, seitsemän sanaa. Ensimmäinen lause on perheen vaikein, sillä siinä esiintyy pitkä yhdyssana mustavalkoraidallinen ja aukko istuu keskellä – lue se yhdessä ääneen ennen kuin lapsi jatkaa itsenäisesti. Kun kaikki seitsemän sanaa on käytetty, pankki tyhjenee, mikä toimii omana tarkistuksenaan. Tämä on aukkolauseiden aloitussivu; helpompi jatko on Yhdistä lause kuvaan, vaativampi Täydennä lause kirjainruutuihin, jolla pankkia ei enää ole. Kuvat ovat pieniä mutta selkeitä, ja kirjoituslaatikot on mitoitettu pisimmän sanan mukaan, joten sanan ei tarvitse mahtua ahtaasti. Neljä tämän sivun lauseista toistuu perheen muilla sivuilla toisessa tehtävätyypissä, mikä tekee niistä nopeasti tuttuja mutta kannattaa ottaa huomioon, jos sivuja käytetään peräkkäin.",
+   "canonicalDeckSlug": "taydenna-lauseet-g1350",
+   "carousel": [
+    {
+     "label": "Täydennä lause kirjainruutuihin ilman sanapankkia",
+     "href": "taydenna-lause-kirjainruutuihin"
+    },
+    {
+     "label": "Valitse oikea sana lauseeseen kahdesta",
+     "href": "valitse-oikea-sana-lauseeseen"
+    },
+    {
+     "label": "Täydennä lause monikossa: kirjoita monikkomuoto",
+     "href": "taydenna-lause-monikossa"
+    },
+    {
+     "label": "Täydennä kolme kuvasarjaa yhdeksällä sanalla",
+     "href": "taydenna-tarina"
+    }
+   ],
+   "title": "Täydennä lauseet 1. luokka | tulostettava PDF ilmainen",
+   "metaDescription": "Seitsemän aukkolausetta 1. luokalle ja sanapankki: traktori, kirahvi, pöllö, pingviini, kukko, norsu ja seepra. Katso kuvaa ja kirjoita sana laatikkoon. Ilmainen PDF."
+  },
+  {
+   "slug": "parilliset-ja-parittomat-luvut",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "base",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Parillisten ja parittomien moniste",
+   "h1": "Parilliset ja parittomat luvut 20:een asti",
+   "strand": "Luvut ja laskutoimitukset",
+   "slotTokens": [
+    "parilliset-ja-parittomat-luvut",
+    "1-luokka"
+   ],
+   "p1": "Arkin yläreunassa on yhdeksän lukua rivissä: 11, 10, 8, 5, 12, 14, 1, 13 ja 19. Alla on kaksi taloa, toisen otsikkona parillinen ja toisen pariton. Parillisten taloon on kirjoitettu valmiiksi luvut 6 ja 4, parittomien taloon luku 3 – nämä kolme ovat jo muuttaneet sisään ja näyttävät, mihin muut kuuluvat. Lapsi kirjoittaa jokaisen yhdeksästä luvusta oikeaan taloon, ja lopuksi kummassakin talossa on kuusi lukua.",
+   "p2": "Talometafora tekee lajittelusta konkreettisen: luvut eivät ole listalla vaan asuvat jossakin, ja valmiiksi muuttaneet kolme antavat mallin ilman että sääntöä tarvitsee vielä sanoa ääneen. Ensimmäisellä luokalla parillisuus opitaan juuri näin, kokemuksena ennen sääntöä – lapsi huomaa, että 10, 8, 12 ja 14 kuuluvat yhteen, ja vasta sitten keksii miksi. Lukujen ominaisuuksien tutkiminen ja luokittelu ovat OPS 2014:n vuosiluokkien 1–2 lukukäsitteen sisältöä.",
+   "p3": "Yksi arkki, yhdeksän lukua, kaksi taloa. Lukualue päättyy 19:ään, joten sivu pysyy siinä lukualueessa, jonka ensiluokkalainen hallitsee. Jos sääntö ei vielä ole tuttu, laske luvut pareittain sormin tai helmin ennen kirjoittamista – juuri sitä perheen kuvasivut tekevät konkreettisesti. Tämä on parillisten ja parittomien aloitussivu; siitä jatketaan joko Laske kuvat pareittain -sivulle tai suoraan Luvut sataan asti -sivulle, jolla sääntö luetaan ylhäältä. Talot ovat riittävän isoja kuudelle luvulle kumpikin, joten kirjoittamiseen on tilaa myös isolla käsialalla. Luvut yläreunassa kannattaa yliviivata sitä mukaa kun ne muuttavat, niin yksikään ei jää kahteen kertaan eikä unohdu kokonaan. Valmiin sivun voi lukea ääneen kummankin talon osalta: parillisten talo päättyy aina nollaan, kahteen, neljään, kuuteen tai kahdeksaan.",
+   "canonicalDeckSlug": "parilliset-ja-parittomat-luvut-g1351",
+   "carousel": [
+    {
+     "label": "Kaksi yhtä suurta lukua ja ylijäävä",
+     "href": "parillinen-vai-pariton-kaksi-yhta-suurta-lukua"
+    },
+    {
+     "label": "Voiko kuvat jakaa tasan kahdelle kaverille?",
+     "href": "voiko-jakaa-tasan-kahdelle"
+    },
+    {
+     "label": "Parilliset ja parittomat luvut sataan asti",
+     "href": "parilliset-ja-parittomat-luvut-sataan-asti"
+    },
+    {
+     "label": "Parillinen vai pariton summa? Päättele ilman laskemista",
+     "href": "parillinen-vai-pariton-summa"
+    }
+   ],
+   "title": "Parilliset ja parittomat luvut 1. luokka | PDF",
+   "metaDescription": "Yhdeksän lukua 1. luokalle kahteen taloon: 11, 10, 8, 5, 12, 14, 1, 13 ja 19. Kolme lukua on jo muuttanut sisään ja näyttää mallia. Ilmainen 1. luokan PDF."
+  },
+  {
+   "slug": "han-vai-he",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "base",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Pronominien moniste",
+   "h1": "Hän vai he? Ympyröi sana, joka korvaa nimen",
+   "strand": "Kielen rakenteet",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "han-vai-he",
+    "1-luokka"
+   ],
+   "p1": "Kahdeksan korttia kahdessa sarakkeessa. Jokaisessa on ylhäällä yksi tai kaksi ihmistä kuvattuna, sen alla nimilappu ja lapun alla kaksi soikeaa sanaa: hän ja he. Viidellä kortilla on yksi nimi – Ella, Eeli, Anni, Niko ja Eino – ja kolmella kaksi, Aino ja Iida, Otto ja Aaro sekä Onni ja Emma. Lapsi ympyröi sen sanan, joka korvaisi kortin nimen. Mitään ei kirjoiteta, joten kahdeksan ympyrää riittää.",
+   "p2": "Suomessa valinta hän ja he välillä on yksinomaan lukumäärästä kiinni: hän ei kerro, onko kyseessä tyttö vai poika, eikä kuva siis kavenna vaihtoehtoja muuten kuin näyttämällä, montako henkilöä on. Juuri se tekee sivusta selkeän ensiluokkalaiselle – yksi nimi, yksi ihminen, hän; kaksi nimeä, kaksi ihmistä, he – ja samalla se on hyvä hetki sanoa ääneen, että suomen pronomini ei erottele sukupuolta lainkaan. Pronominien käyttö nimen korvaajana kuuluu OPS 2014:n vuosiluokkien 1–2 kielitiedon sisältöihin.",
+   "p3": "Yksi arkki, kahdeksan korttia, kahdeksan ympyrää. Kuvat esittävät aikuisia eri ammateissa, vaikka nimet ovat lasten nimiä, joten kuvaa kannattaa käsitellä vain lukumäärän osoittajana eikä henkilökuvana. Sanasoikiot ovat isoja ja helposti ympyröitäviä, ja kortit ovat toisistaan riippumattomia. Tämä on pronominiperheen aloitussivu; siitä jatketaan Lajittele nimet -sivulle, jolla nimet kirjoitetaan kahteen laatikkoon, tai Korvaa nimi pronominilla -sivulle, jolla sana kirjoitetaan lauseeseen. Korttien järjestys vaihtelee niin, ettei oikea vastaus ole koskaan samassa kohdassa kahdella peräkkäisellä kortilla, joten sivua ei voi ratkaista rytmillä. Kaksi ensimmäistä korttia kannattaa tehdä yhdessä ääneen, sen jälkeen loput sujuvat itsenäisesti.",
+   "canonicalDeckSlug": "han-vai-he-g1352",
+   "carousel": [
+    {
+     "label": "Korvaa nimi pronominilla toisessa lauseessa",
+     "href": "korvaa-nimi-pronominilla"
+    },
+    {
+     "label": "Kuka on hän? Yhdistä pronomini oikeaan nimeen",
+     "href": "kuka-on-han-pronomini-lauseessa"
+    },
+    {
+     "label": "Lajittele nimikortit: hän vai he?",
+     "href": "lajittele-nimet-han-vai-he"
+    },
+    {
+     "label": "Kirjoita lause uudelleen pronominilla",
+     "href": "kirjoita-lause-uudelleen-pronominilla"
+    }
+   ],
+   "title": "Hän vai he? 1. luokka | tulostettava PDF ilmainen",
+   "metaDescription": "Kahdeksan korttia 1. luokalle: kortissa yksi tai kaksi ihmistä, nimi tai kaksi nimeä sekä sanat hän ja he. Ympyröi se, joka korvaa nimen. Ilmainen PDF."
+  },
+  {
+   "slug": "kysymyssanat",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "base",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Kysymyssanojen moniste",
+   "h1": "Kysymyssanat: kuka, mitä vai missä?",
+   "strand": "Kielen rakenteet",
+   "standard": "L.K.1.d",
+   "slotTokens": [
+    "kysymyssanat",
+    "1-luokka"
+   ],
+   "p1": "Seitsemän numeroitua korttia allekkain, ja kussakin yksi ihminen kuvattuna, yksi lause ja kolme soikeaa kysymyssanaa: Kuka, Mitä ja Missä. Lauseessa on aina yksi kohta korostettu persikanvärisellä pohjalla ja oranssilla alleviivauksella – keittiössä, kalkkunaa, robottia, autotallissa, Leo, hevosta, Aino – ja lapsi ympyröi sen kysymyssanan, jolla korostettua kohtaa kysyttäisiin. Vastauksista kaksi on Kuka, kolme Mitä ja kaksi Missä, ja oikean sanan paikka vaihtuu kortilta toiselle.",
+   "p2": "Korostus tekee kysymyssanan opettelusta täsmällistä: lapsi ei kysy lauseesta yleisesti vaan yhdestä nimetystä kohdasta, ja sama lause tuottaisi eri kysymyssanan, jos korostus siirtyisi. Sen huomaaminen on koko jakson tärkein oivallus, ja sen voi tehdä näkyväksi peittämällä korostuksen sormella ja siirtämällä sen toiseen sanaan. Kysymyslauseiden muodostaminen ja kysymyssanojen tunnistaminen kuuluvat OPS 2014:n vuosiluokkien 1–2 kielitiedon sisältöihin.",
+   "p3": "Yksi arkki, seitsemän lausetta, seitsemän ympyrää. Huomaa, että soikioissa lukee Mitä eikä Mikä: sivun lauseissa kysytty kohta on objektina ja vaatii siksi partitiivin, kun taas perheen lajittelusivulla laatikon otsikko on Mikä. Ero kannattaa sanoa ääneen, sillä se on kysymyssanan taivutusta eikä kahta eri sanaa. Tämä on kysymyssanojen aloitussivu; siitä jatketaan Täydennä kysymyssana -sivulle tai Kuka, mikä vai missä -lajittelusivulle. Kortit ovat isoja ja lause on ladottu yhdelle riville, joten korostettu kohta erottuu heti eikä lukeminen katkea rivinvaihtoon. Kahdella kortilla korostus on lauseen ensimmäinen sana ja viidellä lauseen lopussa, joten katse joutuu liikkumaan molempiin suuntiin. Sivun voi tehdä myös suullisesti ilman kynää, jolloin lapsi sanoo kysymyksen kokonaisena ääneen.",
+   "canonicalDeckSlug": "kysymyssanat-g1353",
+   "carousel": [
+    {
+     "label": "Kysymys ja vastaus: yhdistä oikea pari",
+     "href": "kysymys-ja-vastaus"
+    },
+    {
+     "label": "Täydennä kysymyssana vastauksen perusteella",
+     "href": "taydenna-kysymyssana"
+    },
+    {
+     "label": "Kuka, mikä vai missä? Lajittele vastaukset",
+     "href": "kysymyssanat-lajittele-vastaukset"
+    },
+    {
+     "label": "Tee kysymys: kirjoita kysymys vastauksen perusteella",
+     "href": "tee-kysymys"
+    }
+   ],
+   "title": "Kysymyssanat 1. luokka | tulostettava PDF ilmainen",
+   "metaDescription": "Seitsemän lausetta 1. luokalle, joissa yksi kohta on korostettu: Anni on keittiössä, Alma katsoo kalkkunaa. Ympyröi Kuka, Mitä tai Missä. Ilmainen PDF."
+  },
+  {
+   "slug": "pyoristaminen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "base",
+    "theme": "",
+    "level": "2-luokka"
+   },
+   "eyebrow": "Pyöristämisen moniste",
+   "h1": "Pyöristäminen kymmenien tarkkuuteen",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "pyoristaminen",
+    "2-luokka"
+   ],
+   "p1": "Sivun yläreunassa on avainlaatikko, jossa on malli 47 on noin 50 sekä numerorivi nollasta yhdeksään: numerot 0–4 osoittavat nuolella alaspäin ja 5–9 ylöspäin. Mallissa ykkösnumero on värjätty oranssiksi. Alla on neljätoista numeroitua lukua kahdessa sarakkeessa, ja kunkin perässä katkoviivainen vastausruutu. Luvut ovat 76, 79, 45, 633, 268, 267, 85, 53, 522, 54, 549, 67, 658 ja 111 – seitsemän kaksinumeroista ja seitsemän kolminumeroista.",
+   "p2": "Sääntö luetaan ylhäältä joka kerta, eikä sitä tarvitse muistaa ulkoa: numerorivi näyttää suunnan, ja ykkösnumeron värjäys kertoo, mihin katsotaan. Kolminumeroiset luvut ovat mukana siksi, että sääntö toimii yhtä lailla isoilla luvuilla – 633 pyöristyy kymmeniin täsmälleen samalla tavalla kuin 53 – mutta ne vaativat myös paikka-arvon hahmottamista, koska pyöristys ei koske satoja eikä kymmeniä vaan ainoastaan viimeistä numeroa. Luvun pyöristäminen ja likiarvon käyttö kuuluvat OPS 2014:n vuosiluokkien 3–6 laskutaidon sisältöihin.",
+   "p3": "Yksi arkki, neljätoista lukua, neljätoista ruutua. Huomaa, että puolet luvuista on satoja, joten sivu ylittää selvästi toisen luokan tavallisen lukualueen – ota se huomioon, jos käytät sivua toisluokkalaisen kanssa, tai teetä ensin vain kaksinumeroiset luvut. Luvut 45, 85 ja 54 osuvat lähelle rajaa ja ovat siksi sivun opettavimmat. Tämä on pyöristämisen aloitussivu; siitä jatketaan joko Ylöspäin vai alaspäin -lajittelusivulle tai Pyöristäminen satojen tarkkuuteen -sivulle. Ruudut ovat isoja ja luvut ladottu kahteen sarakkeeseen, joten sivu on nopea tehdä eikä se näytä tiheältä. Avain pysyy näkyvissä koko ajan sivun yläreunassa, joten sääntöä ei tarvitse muistaa ulkoa. Peitä se vasta toisella kerralla, kun haluat tarkistaa, onko sääntö jäänyt mieleen.",
+   "canonicalDeckSlug": "pyoristaminen-g2346",
+   "carousel": [
+    {
+     "label": "Ylöspäin vai alaspäin? Lajittele luvut kahteen laatikkoon",
+     "href": "pyoristyyko-ylospain-vai-alaspain"
+    },
+    {
+     "label": "Pyöristäminen satojen tarkkuuteen",
+     "href": "pyoristaminen-satojen-tarkkuuteen"
+    },
+    {
+     "label": "Pyöristä molemmat luvut ja arvioi summa",
+     "href": "pyorista-ja-arvioi-summa"
+    },
+    {
+     "label": "Mitkä luvut pyöristyvät lukuun 50?",
+     "href": "mitka-luvut-pyoristyvat-lukuun-50"
+    }
+   ],
+   "title": "Pyöristäminen 2. luokka | tulostettava PDF ilmainen",
+   "metaDescription": "Neljätoista lukua 2. luokalle pyöristettäväksi kymmeniin: 76, 79, 45, 633, 268, 85, 53, 522, 67 ja 111. Malli 47 on noin 50 ja numeroavain. Ilmainen PDF."
+  },
+  {
+   "slug": "tangram-piirra-viivat",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-draw-the-lines-2-and-3-pieces",
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Tangram-moniste",
+   "h1": "Helpot tangram-kuviot: piirrä viivat kahdelle ja kolmelle palalle",
+   "strand": "Avaruudellinen hahmottaminen",
+   "standard": "K.G.B.6",
+   "slotTokens": [
+    "tangram",
+    "esikoulu"
+   ],
+   "p1": "Neljä korttia, kaksi vierekkäin ja kaksi allekkain. Jokaisen kortin yläreunassa on pieni rivi paloja – kortissa 1 iso kolmio, pieni kolmio ja neliö, kortissa 2 iso kolmio, pieni kolmio ja suunnikas, korteissa 3 ja 4 kaksi kolmiota – ja niiden alla sama kuvio yhtenä valkoisena ääriviivana, ilman yhtään sisäviivaa. Kaksi korttia rakentuu kahdesta palasta ja kaksi kolmesta, niin kuin otsikko lupaa. Lapsi ei leikkaa eikä väritä: hän piirtää kynällä ääriviivan sisään ne saumat, joita pitkin palat kohtaavat.",
+   "p2": "Tässä käännetään tangram toisin päin. Tavallisesti lapsi saa palat ja etsii kuvion; tällä sivulla hän saa kuvion ja etsii palat, eikä voi kokeilla siirtämällä – viiva on piirrettävä siihen, mihin hän uskoo sauman menevän. Se pakottaa katsomaan kulmia ja sivujen pituuksia eikä vain kokonaishahmoa. Kahden ja kolmen palan kuviot ovat riittävän pieniä, että ratkaisu näkyy hetken katsomisen jälkeen, ja siksi tämä sivu käy ennen mitään seitsemän palan tehtävää. Tasokuvioiden tutkiminen ja osiin jakaminen on OPS 2014:n vuosiluokkien 1–2 geometrian sisältöä, ja esiopetuksessa se tehdään juuri näin, katsomalla.",
+   "p3": "Tulostuu yhdelle arkille, ja viivat piirretään suoraan sivulle – tangramia ei tarvita käteen. Jos haluat tarkistaa vastauksen, aseta oikeat palat kuvion päälle: sauma on siellä, missä kaksi palaa koskettavat. Tämä on tangram-perheen kevyin sivu, ja luonteva askel siitä eteenpäin on Mikä pala puuttuu, jossa kuvio on jo lähes valmis ja yksi aukko jää täytettäväksi.",
+   "canonicalDeckSlug": "tangram-k358",
+   "carousel": [
+    {
+     "label": "Tangram: seitsemän palaa ja kaksi kuviota",
+     "href": "tangram"
+    },
+    {
+     "label": "Tangram: neljä varjokuviota rakennettavaksi",
+     "href": "tangram-varjokuviot"
+    },
+    {
+     "label": "Tangram: mikä pala puuttuu?",
+     "href": "tangram-mika-pala-puuttuu"
+    },
+    {
+     "label": "Tangram: mikä ratkaisu on samassa asennossa kuin varjo?",
+     "href": "tangram-mika-ratkaisu-sopii-varjoon"
+    }
+   ],
+   "title": "Helpot tangram-kuviot esikoulu | tulostettava PDF",
+   "metaDescription": "Neljä helppoa tangram-kuviota esikouluun: kahden tai kolmen palan kuva kortin yläosassa, valkoinen ääriviiva alla, lapsi piirtää sisään sauma. Ilmainen PDF."
+  },
+  {
+   "slug": "tangram-varjokuviot",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-four-shadows-to-build",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Tangram-moniste",
+   "h1": "Tangram: neljä varjokuviota rakennettavaksi",
+   "strand": "Avaruudellinen hahmottaminen",
+   "standard": "1.G.A.2",
+   "slotTokens": [
+    "tangram",
+    "1-luokka"
+   ],
+   "p1": "Arkilla on neljä ruutua ja jokaisessa yksi täysin tumma kuvio: kissa, alaviistoon osoittava nuoli, leveä suorakulmio ja neliö. Sisäviivoja ei ole yhtään – varjo näyttää vain sen, mistä kuvio alkaa ja mihin se loppuu. Mitään ei kirjoiteta eikä väritetä. Lapsi ottaa oman tangraminsa ja rakentaa kuvion pöydälle tai suoraan arkin päälle, ja jokaisella kerralla käytetään kaikki seitsemän palaa, ei kuutta eikä viittä.",
+   "p2": "Varjo on tangramin oikea vaikeustaso: kun sisäviivat puuttuvat, lapsi ei voi kopioida ratkaisua vaan hänen on kokeiltava, käännettävä palaa ja peruttava. Neliö ja suorakulmio ovat helpoimmat, koska ne ovat symmetrisiä ja reunat ohjaavat; kissa ja nuoli vaativat suunnikkaan kääntämistä, ja moni lapsi jumittuu juuri siihen palaan. Kokeilemalla eteneminen, virheen huomaaminen ja uusi yritys ovat OPS 2014:n vuosiluokkien 1–2 ongelmanratkaisutaitoja yhtä lailla kuin geometriaa, ja tämä sivu harjoittaa niitä ilman ainoatakaan kirjoitettua sanaa.",
+   "p3": "Yksi arkki, neljä kuviota, ei kynää. Ruudut on mitoitettu oikeaan kokoon, joten palat asettuvat suoraan varjon päälle, kun tangram on tulostettu perheen aloitussivulta samassa koossa. Tämä on perheen avoimin sivu ja sopii tehtäväksi parina: toinen rakentaa, toinen tarkistaa reunat ja sanoo ääneen, mikä pala vielä ulottuu varjon ulkopuolelle. Aikaa saa mennä, eikä kuviota tarvitse saada valmiiksi yhdellä istumalla. Jos kokonainen kuvio on vielä liian iso pala kerrallaan ratkaistavaksi, palaa Helpot kuviot 2 ja 3 palasta -sivuun, ja jos varjo ratkeaa liian nopeasti, seuraava askel on Mikä ratkaisu on samassa asennossa kuin varjo.",
+   "canonicalDeckSlug": "tangram-g1354",
+   "carousel": [
+    {
+     "label": "Tangram: seitsemän palaa ja kaksi kuviota",
+     "href": "tangram"
+    },
+    {
+     "label": "Helpot tangram-kuviot: piirrä viivat kahdelle ja kolmelle palalle",
+     "href": "tangram-piirra-viivat"
+    },
+    {
+     "label": "Tangram: mikä pala puuttuu?",
+     "href": "tangram-mika-pala-puuttuu"
+    },
+    {
+     "label": "Tangram: mikä ratkaisu on samassa asennossa kuin varjo?",
+     "href": "tangram-mika-ratkaisu-sopii-varjoon"
+    }
+   ],
+   "title": "Tangram-varjokuviot 1. luokka | tulostettava PDF ilmainen",
+   "metaDescription": "Neljä tummaa tangram-varjoa 1. luokalle: kissa, nuoli, suorakulmio ja neliö. Rakenna jokainen omalla tangramilla, kaikki seitsemän palaa käyttöön. Ilmainen PDF."
+  },
+  {
+   "slug": "tangram-mika-pala-puuttuu",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-which-piece-is-missing",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Tangram-moniste",
+   "h1": "Tangram: mikä pala puuttuu?",
+   "strand": "Avaruudellinen hahmottaminen",
+   "standard": "1.G.A.2",
+   "slotTokens": [
+    "tangram",
+    "1-luokka"
+   ],
+   "p1": "Kuusi korttia kahdessa sarakkeessa. Jokaisessa on kuvio, johon on jo aseteltu kuusi palaa, ja yksi aukko, jonka reunat on piirretty oranssilla katkoviivalla – aukko siis näyttää tarkalleen puuttuvan palan muodon. Kortin oikeassa reunassa on kolme palaa oikeassa koossa, ja lapsi ympyröi sen, joka täyttää aukon täsmälleen. Kolmikot vaihtelevat: joissakin korteissa vaihtoehtoina on kaksi eri kokoista kolmiota, jolloin on verrattava kokoa, joissakin taas kolmio, neliö ja suunnikas, jolloin muoto riittää.",
+   "p2": "Aukon piirtäminen näkyviin on tarkoituksellinen tuki: tehtävä ei ole muistaa, miltä pala näyttää, vaan verrata kahta muotoa vierekkäin. Juuri siinä paljastuu, onko lapsi oivaltanut tangramin koot. Kaksi kolmiota voi näyttää samalta, kunnes ne asettaa päällekkäin, ja tällä sivulla vertailu tehdään silmällä. Geometristen muotojen vertailu koon ja muodon perusteella kuuluu OPS 2014:n vuosiluokkien 1–2 geometriaan, ja se on myös se taito, jota ilman seitsemän palan varjokuvio jää arvailuksi.",
+   "p3": "Yksi arkki, kuusi ympyröintiä, ei leikkaamista. Tarkista vastaus asettamalla oikea pala aukon päälle – jos reunat menevät päällekkäin, valinta oli oikea. Tämä sivu on tangram-perheen välivaihe: se tulee Helpot kuviot -sivun jälkeen ja valmistaa Neljä varjokuviota -sivua, jossa apuviivoja ei enää ole. Kortit, joissa vaihtoehtoina on kaksi eri kokoista kolmiota, ovat selvästi vaikeimmat, joten aloita niistä yhdessä ja jätä loput itsenäiseksi työksi. Sivu toimii myös keskustelun pohjana: kysy, miksi pieni kolmio ei riitä isoon aukkoon vaikka muoto on sama.",
+   "canonicalDeckSlug": "tangram-g1355",
+   "carousel": [
+    {
+     "label": "Tangram: seitsemän palaa ja kaksi kuviota",
+     "href": "tangram"
+    },
+    {
+     "label": "Helpot tangram-kuviot: piirrä viivat kahdelle ja kolmelle palalle",
+     "href": "tangram-piirra-viivat"
+    },
+    {
+     "label": "Tangram: neljä varjokuviota rakennettavaksi",
+     "href": "tangram-varjokuviot"
+    },
+    {
+     "label": "Tangram: mikä ratkaisu on samassa asennossa kuin varjo?",
+     "href": "tangram-mika-ratkaisu-sopii-varjoon"
+    }
+   ],
+   "title": "Tangram: mikä pala puuttuu? 1. luokka | tulostettava PDF",
+   "metaDescription": "Kuusi tangram-kuviota 1. luokalle, joista jokaisesta puuttuu yksi pala. Aukko on merkitty katkoviivalla, ja lapsi ympyröi kolmesta palasta sopivan. Ilmainen PDF."
+  },
+  {
+   "slug": "tangram-mika-ratkaisu-sopii-varjoon",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-which-solution-matches-the-shadow",
+    "theme": "",
+    "level": "2-luokka"
+   },
+   "eyebrow": "Tangram-moniste",
+   "h1": "Tangram: mikä ratkaisu on samassa asennossa kuin varjo?",
+   "strand": "Avaruudellinen hahmottaminen",
+   "slotTokens": [
+    "tangram",
+    "2-luokka"
+   ],
+   "p1": "Neljä riviä, ja jokaisen vasemmassa reunassa yksi tumma varjo: alaspäin osoittava nuoli, pystysuora suorakulmio, taittuva nuolikuvio ja vasemmalle osoittava nuoli. Oikealla on kolme piirrettyä ratkaisua, joissa kaikki seitsemän palaa näkyvät saumoineen. Kolme vaihtoehtoa on sama kuvio – kaksi niistä on käännetty tai peilattu, ja yksi seisoo täsmälleen varjon asennossa. Lapsi ympyröi sen. Rivillä kaksi kaksi vaihtoehtoa makaa vaakasuorassa, joten pystysuora varjo ratkeaa nopeasti; riveillä kolme ja neljä erot ovat pienempiä ja vaativat tarkkaa katsomista.",
+   "p2": "Tämä on perheen ainoa sivu, joka kysyy asentoa eikä muotoa. Kaksi kuviota voi olla täsmälleen samaa palaajoukkoa ja silti eri asennossa, ja lapsen on opittava, että kääntäminen muuttaa kuvan vaikka ei kokoa. Kun ratkaisut on piirretty saumoineen, katse voi seurata yksittäistä palaa – missä iso kolmio on, osoittaako suunnikas oikealle – eikä vertailu jää kokonaisvaikutelman varaan. Kuvion kääntäminen ja peilaaminen sekä niiden vaikutus kuvaan kuuluvat OPS 2014:n vuosiluokkien 1–2 geometrian sisältöihin, ja toisella luokalla se tehdään jo katsomalla eikä käsin kääntämällä.",
+   "p3": "Yksi arkki, neljä ympyröintiä, ei paloja käteen. Jos jokin rivi jää auki, käännä arkkia – oikea vaihtoehto on se, joka näyttää varjolta ilman että paperia tarvitsee kiertää. Tämä on tangram-perheen vaativin sivu, ja se kannattaa pitää viimeisenä: Neljä varjokuviota -sivu opettaa rakentamaan, tämä opettaa erottamaan, milloin rakennelma on oikeassa asennossa.",
+   "canonicalDeckSlug": "tangram-g2347",
+   "carousel": [
+    {
+     "label": "Tangram: seitsemän palaa ja kaksi kuviota",
+     "href": "tangram"
+    },
+    {
+     "label": "Helpot tangram-kuviot: piirrä viivat kahdelle ja kolmelle palalle",
+     "href": "tangram-piirra-viivat"
+    },
+    {
+     "label": "Tangram: neljä varjokuviota rakennettavaksi",
+     "href": "tangram-varjokuviot"
+    },
+    {
+     "label": "Tangram: mikä pala puuttuu?",
+     "href": "tangram-mika-pala-puuttuu"
+    }
+   ],
+   "title": "Tangram ja varjo 2. luokka | tulostettava PDF ilmainen",
+   "metaDescription": "Neljä riviä 2. luokalle: vasemmalla tumma tangram-varjo, oikealla kolme piirrettyä ratkaisua. Vain yksi on samassa asennossa, käännetyt eivät kelpaa. Ilmainen PDF."
+  },
+  {
+   "slug": "tangram-laske-kolmiot-ja-neliot",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-count-the-triangles-and-squares",
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Tangram-moniste",
+   "h1": "Tangram: laske kolmiot ja neliöt",
+   "strand": "Geometria",
+   "standard": "K.G.A.2",
+   "slotTokens": [
+    "tangram",
+    "esikoulu"
+   ],
+   "p1": "Neljä korttia, kahdessa rivissä. Jokaisessa on pieni tangram-kuvio, joka on koottu kolmesta viiteen palasta, ja kuvion alla kaksi katkoviivaista ruutua: ensimmäisen vieressä on pieni kolmion kuva, toisen vieressä neliön kuva. Lapsi laskee kuvasta kolmiot ja kirjoittaa luvun ensimmäiseen ruutuun, sitten neliöt toiseen. Tällä arkilla kolmioita on neljä, kaksi, kolme ja kaksi – ja neliöitä vain yhdessä kuvassa yksi, muissa ei yhtään, joten kolmeen ruutuun kirjoitetaan nolla.",
+   "p2": "Nolla on tässä opetettava asia eikä vahinko. Lapsi, joka on laskenut neljä kolmiota, olettaa löytävänsä myös neliöitä, ja kun niitä ei ole, hänen on uskallettava kirjoittaa 0 – se on tyhjän joukon ensimmäinen merkintä ja tekee laskemisesta väitteen eikä arvausta. Kolmesta kuvasta löytyy myös suunnikas, jota ei lasketa kumpaankaan ruutuun, joten silmä joutuu erottelemaan eikä vain lukemaan palojen kokonaismäärää. Lukumäärän ja muodon yhdistäminen samaan katseeseen on OPS 2014:n esiopetuksen matemaattisen ajattelun sisältöä.",
+   "p3": "Yksi arkki, neljä kuvaa, kahdeksan ruutua. Tämä on tangram-perheen ainoa laskusivu ja sopii käytettäväksi silloin, kun palat ovat jo tuttuja rakentamisesta – nimet tulevat helpommin, kun kättä on käytetty ensin. Jos lapsi jättää neliöruudun tyhjäksi, kysy ääneen montako neliötä kuvassa on: vastaus on nolla, ja se kuuluu kirjoittaa ruutuun näkyviin. Ruudut ovat riittävän isoja aloittelevan kirjoittajan numerolle, ja sivu tulostuu yhtä hyvin mustavalkoisena. Jatka tästä Mikä pala puuttuu -sivuun, jossa samat muodot pitää tunnistaa koon eikä pelkän nimen perusteella.",
+   "canonicalDeckSlug": "tangram-k359",
+   "carousel": [
+    {
+     "label": "Tangram: seitsemän palaa ja kaksi kuviota",
+     "href": "tangram"
+    },
+    {
+     "label": "Helpot tangram-kuviot: piirrä viivat kahdelle ja kolmelle palalle",
+     "href": "tangram-piirra-viivat"
+    },
+    {
+     "label": "Tangram: neljä varjokuviota rakennettavaksi",
+     "href": "tangram-varjokuviot"
+    },
+    {
+     "label": "Tangram: mikä pala puuttuu?",
+     "href": "tangram-mika-pala-puuttuu"
+    }
+   ],
+   "title": "Laske kolmiot ja neliöt esikoulu | tulostettava PDF",
+   "metaDescription": "Neljä tangram-kuvaa esikouluun: laske kuvan kolmiot ensimmäiseen ruutuun ja neliöt toiseen. Kuvissa on kolmesta viiteen palaa. Ilmainen esikoulun PDF."
+  },
+  {
+   "slug": "kehon-osat-kuinka-monta",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-how-many",
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Kehon osien moniste",
+   "h1": "Kehon osat: kuinka monta minulla on?",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "kehon-osat",
+    "esikoulu"
+   ],
+   "p1": "Arkin vasemmalla puolella on kokovartalohahmo, jolla on viisi sormea kummassakin kädessä ja viisi varvasta kummassakin jalassa. Oikealla on kuusi korttia kahdessa sarakkeessa, ja kussakin yksi iso kuva sekä kysymys: Montako suuta? Montako sormea? Montako nenää? Montako silmää? Montako säärtä? Montako käsivartta? Kysymyksen alla on katkoviivainen ruutu yhdelle numerolle. Vastaukset ovat yksi, kaksi ja kymmenen, ja lapsi laskee ne omasta kehostaan – hahmo vasemmalla kelpaa tarkistukseen, koska siitäkin löytyvät kaikki kysytyt osat.",
+   "p2": "Tämä on perheen ainoa laskusivu, ja sen idea on se, että vastaus löytyy omasta kehosta eikä kirjasta. Luvut yksi, kaksi ja kymmenen kattavat juuri sen lukualueen, jonka esiopetusikäinen laskee luotettavasti sormin, ja kymmenen sormea on ensimmäinen kokonaisuus, jonka moni lapsi osaa ilman laskemista. Kehon tutkiminen havainnoimalla ja lukumäärän liittäminen havaintoon kuuluvat molemmat OPS 2014:n esiopetuksen sisältöihin, ja tässä ne tapahtuvat samalla kortilla.",
+   "p3": "Yksi arkki, kuusi ruutua, kuusi numeroa. Tee mieluiten seisten: lapsi koskettaa, laskee ääneen ja kirjoittaa vasta sitten. Sormikortti on sivun ainoa, jossa vastaus ei ole pieni luku, ja sen kohdalla kannattaa kysyä erikseen, lasketaanko yhden vai kummankin käden sormet. Tämä sivu sopii Kehon osat -aloitussivun jälkeen, kun nimet ovat jo tuttuja, ja se johtaa luontevasti Mitkä ovat pareittain -sivuun, joka kysyy saman asian toisin päin. Kortit on numeroitu yhdestä kuuteen, joten tehtävän voi katkaista kesken ja jatkaa myöhemmin oikeasta kohdasta. Yhden numeron ruutu riittää jokaiseen vastaukseen paitsi sormiin, jolloin luku kirjoitetaan kahdella merkillä, ja se kannattaa sanoa lapselle etukäteen ääneen.",
+   "canonicalDeckSlug": "kehon-osat-k360",
+   "carousel": [
+    {
+     "label": "Kehon osat: kopioi sana oikealle viivalle",
+     "href": "kehon-osat"
+    },
+    {
+     "label": "Kehon osat: väritä selitteen mukaan",
+     "href": "kehon-osat-varita-selitteen-mukaan"
+    },
+    {
+     "label": "Kehon osat: kirjoita sana kirjainruutuihin",
+     "href": "kehon-osat-kirjoita-sana"
+    },
+    {
+     "label": "Kehon osat: mikä osa puuttuu?",
+     "href": "kehon-osat-mika-puuttuu"
+    }
+   ],
+   "title": "Kehon osat: kuinka monta? esikoulu | tulostettava PDF",
+   "metaDescription": "Kuusi korttia esikouluun: montako suuta, sormea, nenää, silmää, säärtä ja käsivartta sinulla on? Laske omasta kehosta ja kirjoita luku ruutuun. Ilmainen PDF."
+  },
+  {
+   "slug": "kehon-osat-varita-selitteen-mukaan",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-color-by-legend",
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Kehon osien moniste",
+   "h1": "Kehon osat: väritä selitteen mukaan",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "kehon-osat",
+    "esikoulu"
+   ],
+   "p1": "Vasemmassa reunassa on viisi selitekorttia allekkain, ja kussakin väriruutu, värin nimi, nuoli ja kehon osan nimi monikossa: keltainen – hiukset, ruskea – käsivarret, vaaleanpunainen – sääret, punainen – jalat, vihreä – kädet. Oikealla seisoo saman perheen hahmo pelkkänä ääriviivapiirroksena: kasvot, korvat, sormet ja varpaat näkyvät, mutta mitään ei ole väritetty eikä yhtään numeroa ole merkitty. Lapsi lukee kortin, etsii osan hahmosta ja värittää sen. Rajat on päätettävä itse.",
+   "p2": "Värittäminen pakottaa päättämään, mihin osa loppuu. Selitteessä on kaksi paria, jotka ovat tuttu sekaannuksen paikka: käsivarsi ja käsi saavat eri värin, samoin sääri ja jalka. Arkipuheessa jälkimmäisiä kutsutaan usein vain jalaksi tai kädeksi, ja täällä ero on pakko vetää kynällä näkyviin. Värejä on viisi ja nimettyjä osia yhtä monta, joten vartalo ja kasvot jäävät valkoisiksi – sekin on vastaus eikä unohdus. Värikoodin lukeminen ja soveltaminen kuvaan on OPS 2014:n esiopetuksen monilukutaitoa, ja kehon osien rajat ovat sen konkreettisin harjoituskenttä.",
+   "p3": "Yksi arkki, viisi väriä, yksi hahmo. Varaa puuvärit valmiiksi ja käy selite läpi ääneen ennen kuin kynä koskee paperia; osoita erityisesti sääri ja jalka omasta kehostasi. Kortit eivät ole kehon järjestyksessä ylhäältä alas – kädet ovat viimeisenä, vaikka ne ovat kuvassa ylempänä kuin sääret ja jalat – joten selite on luettava loppuun asti. Sana vaaleanpunainen on niin pitkä, että se taittuu kortissaan kahdelle riville; lue se lapselle, jos pitkät yhdyssanat eivät vielä tavaudu. Tämä on kehon osat -perheen ainoa sivu, jonka työvälineenä ovat puuvärit, ja se käy sekä jakson aloitukseksi että rauhalliseksi lopetukseksi. Valmis työ toimii seinällä sanastokuvana.",
+   "canonicalDeckSlug": "kehon-osat-k361",
+   "carousel": [
+    {
+     "label": "Kehon osat: kopioi sana oikealle viivalle",
+     "href": "kehon-osat"
+    },
+    {
+     "label": "Kehon osat: kuinka monta minulla on?",
+     "href": "kehon-osat-kuinka-monta"
+    },
+    {
+     "label": "Kehon osat: kirjoita sana kirjainruutuihin",
+     "href": "kehon-osat-kirjoita-sana"
+    },
+    {
+     "label": "Kehon osat: mikä osa puuttuu?",
+     "href": "kehon-osat-mika-puuttuu"
+    }
+   ],
+   "title": "Kehon osat: väritä selitteen mukaan esikoulu | PDF",
+   "metaDescription": "Viisi väriselitettä ja valkoinen hahmo esikouluun: keltainen hiuksiin, ruskea käsivarsiin, vaaleanpunainen sääriin, punainen jalkoihin, vihreä käsiin. Ilmainen PDF."
+  },
+  {
+   "slug": "kehon-osat-kirjoita-sana",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-write-the-word",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Kehon osien moniste",
+   "h1": "Kehon osat: kirjoita sana kirjainruutuihin",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "kehon-osat",
+    "1-luokka"
+   ],
+   "p1": "Vasemmalla seisoo hahmo, johon on merkitty kuusi oranssia numeropalloa, ja oikealla on kuusi riviä: kunkin yläpuolella saman numeron rengas ja sen alla jono katkoviivaisia kirjainruutuja. Ruutuja on täsmälleen sanan kirjainten verran: viisi, kolme, neljä, viisi, viisi ja kuusi. Sanapankkia ei ole, joten lapsi tunnistaa kohdan, palauttaa nimen mieleen ja kirjoittaa sen itse, yksi kirjain kuhunkin ruutuun. Kysytyt kohdat ovat silmä, suu, käsi, sormi, jalka ja varvas.",
+   "p2": "Ruutujen lukumäärä on sivun oma tarkistin: jos kolmanteen kohtaan aikoo kirjoittaa sanan sormi, ruutuja on vain neljä eikä sana mahdu, ja merkkiä on katsottava uudelleen. Juuri sitä sivu harjoittaa, sillä kuudesta kohdasta neljä muodostaa kaksi sisäkkäistä paria. Pari on vieläpä jaettu hahmon eri puolille: kämmen on toisessa kädessä ja sormi toisessa, jalkaterä toisessa jalassa ja varvas toisessa, joten lähekkäisyydestä ei ole apua. Lapsen on siis erotettava kokonaisuus sen osasta – juuri se askel täsmentää arkisen puhekielen opituksi sanastoksi. Kirjoittaminen ilman mallia harjoittaa samalla äänteiden erottamista sanasta, mikä on OPS 2014:n vuosiluokkien 1–2 kirjoitustaidon perusta.",
+   "p3": "Yksi arkki, kuusi sanaa, kaksikymmentäkahdeksan ruutua. Lyhin sana on suu ja pisin varvas, joten rivit ovat eri mittaisia; halutessasi peitä alemmat rivit ja etene ylhäältä alas. Huomaa, että merkki yksi peittää hahmon toisen silmän ja merkki kaksi lähes koko suun – näytä molemmat omista kasvoistasi ennen aloitusta, niin kohta ei jää arvailun varaan. Tämä on kehon osat -perheen kirjoittavin sivu ja tulee luontevasti aloitussivun jälkeen, jolla nimet saatiin vielä valmiina sanapankista. Sivun voi tehdä myös toisin päin: sano sana ääneen ja anna lapsen etsiä sitä vastaava numero hahmosta.",
+   "canonicalDeckSlug": "kehon-osat-g1356",
+   "carousel": [
+    {
+     "label": "Kehon osat: kopioi sana oikealle viivalle",
+     "href": "kehon-osat"
+    },
+    {
+     "label": "Kehon osat: kuinka monta minulla on?",
+     "href": "kehon-osat-kuinka-monta"
+    },
+    {
+     "label": "Kehon osat: väritä selitteen mukaan",
+     "href": "kehon-osat-varita-selitteen-mukaan"
+    },
+    {
+     "label": "Kehon osat: mikä osa puuttuu?",
+     "href": "kehon-osat-mika-puuttuu"
+    }
+   ],
+   "title": "Kehon osat: kirjoita sana 1. luokka | tulostettava PDF",
+   "metaDescription": "Kuusi numeroitua kohtaa hahmossa ja kuusi kirjainruuturiviä 1. luokalle: silmä, suu, käsi, sormi, jalka ja varvas kirjoitetaan ilman sanapankkia. Ilmainen PDF."
+  },
+  {
+   "slug": "kehon-osat-mika-puuttuu",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-what-is-missing",
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Kehon osien moniste",
+   "h1": "Kehon osat: mikä osa puuttuu?",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "kehon-osat",
+    "esikoulu"
+   ],
+   "p1": "Neljä ruutua, ja kussakin yksi hahmo, jolta puuttuu tasan yksi osa. Ensimmäiseltä puuttuu koko käsivarsi kätineen, toiselta toinen sääri jalkaterineen, kolmannelta hiukset ja neljänneltä toinen jalkaterä. Hahmon vieressä on kolme valokuvamaista kuvaa pystyrivissä, ja lapsi ympyröi niistä sen, joka esittää puuttuvaa osaa – ensimmäisessä ruudussa vaihtoehtoina ovat nenä, polvi ja käsivarsi. Sen jälkeen puuttuva osa piirretään hahmoon paikalleen, joten jokaiselta kortilta jää kaksi jälkeä: ympyrä ja piirros.",
+   "p2": "Puuttuvan huomaaminen on eri taito kuin nimeäminen. Lapsen on verrattava kuvaa siihen, minkä hän tietää kehossa olevan, ja havaittava tyhjä kohta – vasta sitten hän voi valita kuvan. Kolme vaihtoehtoa pitää valinnan hallittavana, ja piirtäminen varmistaa, ettei ympyrä ollut arvaus: väärin valittu osa ei istu tyhjään kohtaan. Havainnoiminen ja vertaaminen ovat OPS 2014:n esiopetuksen tutkivan työskentelyn taitoja, ja tässä ne tehdään tutuimmalla mahdollisella kohteella.",
+   "p3": "Yksi arkki, neljä ympyröintiä ja neljä piirrosta. Hahmot on piirretty ohuella viivalla, joten lapsen oma lisäys näkyy selvästi, eikä sen tarvitse olla tarkka. Hiuskortti on helpoin ja jalkateräkortti vaikein, koska puuttuva kohta on pieni ja sivun alareunassa. Tämä sivu sopii kehon osat -jakson keskivaiheille, kun nimet ovat jo tuttuja aloitussivulta, ja se on luonteva pari Mitkä ovat pareittain -sivulle, joka katsoo samoja osia lukumäärän kannalta. Kuvavaihtoehdot ovat valokuvamaisia ja hahmo on viivapiirros, joten ympyröitävä kuva erottuu selvästi piirrettävästä kohdasta. Kortit voi leikata irti ja jakaa neljälle lapselle, jolloin kukin kertoo omasta kortistaan, mikä puuttuu ja mistä sen huomaa.",
+   "canonicalDeckSlug": "kehon-osat-k362",
+   "carousel": [
+    {
+     "label": "Kehon osat: kopioi sana oikealle viivalle",
+     "href": "kehon-osat"
+    },
+    {
+     "label": "Kehon osat: kuinka monta minulla on?",
+     "href": "kehon-osat-kuinka-monta"
+    },
+    {
+     "label": "Kehon osat: väritä selitteen mukaan",
+     "href": "kehon-osat-varita-selitteen-mukaan"
+    },
+    {
+     "label": "Kehon osat: kirjoita sana kirjainruutuihin",
+     "href": "kehon-osat-kirjoita-sana"
+    }
+   ],
+   "title": "Kehon osat: mikä puuttuu? esikoulu | tulostettava PDF",
+   "metaDescription": "Neljä hahmoa esikouluun, ja jokaiselta puuttuu yksi osa: käsivarsi, sääri, hiukset tai jalkaterä. Ympyröi oikea kuva kolmesta ja piirrä osa paikalleen. Ilmainen PDF."
+  },
+  {
+   "slug": "kehon-osat-mitka-ovat-pareittain",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-which-come-in-twos",
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Kehon osien moniste",
+   "h1": "Kehon osat: mitkä ovat pareittain?",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "kehon-osat",
+    "esikoulu"
+   ],
+   "p1": "Vasemmalla seisoo hahmo, ja oikealla on kahdeksan korttia kahdessa sarakkeessa. Jokaisessa kortissa on yksi kuva ja sen alla sana yksikössä: jalka, nenä, silmä, suu, polvi, kyynärpää, käsi ja pää. Lapsi ympyröi ne kortit, joita hänellä itsellään on kaksi. Vastauksia on viisi – jalka, silmä, polvi, kyynärpää ja käsi – ja kolme korttia jää ympyröimättä. Mitään ei kirjoiteta, joten koko työ tehdään yhdellä kynällä ja katseella.",
+   "p2": "Parillisuus on tässä kehon ominaisuus eikä vielä matematiikkaa, mutta se on sama havainto, josta parilliset luvut myöhemmin alkavat. Lapsi ei laske kuvia vaan omaa kehoaan, ja huomaa että kaksi on kehossa tavallisempi määrä kuin yksi: viisi korttia kahdeksasta on pari. Kolme yksinäistä osaa – nenä, suu ja pää – ovat kaikki päässä, mikä antaa keskustelulle luontevan aiheen. Oman kehon rakenteen havainnointi kuuluu OPS 2014:n esiopetuksen ympäristökasvatukseen.",
+   "p3": "Yksi arkki, kahdeksan korttia, viisi ympyrää. Tee tehtävä seisten ja kosketa jokaista osaa ennen ympyröintiä, niin vastaus tulee kehosta eikä muistista. Huomaa, että polvikortin kuvassa näkyy koko sääri kenkineen, joten osoita polvi omasta jalastasi ennen kuin lapsi arvioi korttia. Tämä on kehon osat -perheen kevyin sivu ja sopii aloitukseksi lapselle, joka ei vielä kirjoita; Kuinka monta -sivu jatkaa samaa ajatusta numeroilla. Kahdeksan korttia mahtuu yhdelle arkille riittävän isoina, että kuva erottuu myös etäämpää, joten sivun voi näyttää koko ryhmälle ennen omaa työskentelyä. Kysy lopuksi, mitä yhteistä on niillä kolmella osalla, joita ei ympyröity – ne ovat kaikki päässä.",
+   "canonicalDeckSlug": "kehon-osat-k363",
+   "carousel": [
+    {
+     "label": "Kehon osat: kopioi sana oikealle viivalle",
+     "href": "kehon-osat"
+    },
+    {
+     "label": "Kehon osat: kuinka monta minulla on?",
+     "href": "kehon-osat-kuinka-monta"
+    },
+    {
+     "label": "Kehon osat: väritä selitteen mukaan",
+     "href": "kehon-osat-varita-selitteen-mukaan"
+    },
+    {
+     "label": "Kehon osat: kirjoita sana kirjainruutuihin",
+     "href": "kehon-osat-kirjoita-sana"
+    }
+   ],
+   "title": "Mitkä kehon osat ovat pareittain? esikoulu | PDF",
+   "metaDescription": "Kahdeksan kuvakorttia esikouluun: jalka, nenä, silmä, suu, polvi, kyynärpää, käsi ja pää. Ympyröi ne osat, joita sinulla on kaksi. Ilmainen esikoulun PDF."
+  },
+  {
+   "slug": "viisi-aistia-lajittele-aistin-mukaan",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-sort-by-sense",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Aistien moniste",
+   "h1": "Viisi aistia: lajittele kuvat aistin mukaan",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "viisi-aistia",
+    "1-luokka"
+   ],
+   "p1": "Arkin yläreunassa on kymmenen pientä kuvakorttia kahdessa rivissä: sitruuna, kiikarit, karkki, jasmiini, tyyny, hiekka, valkosipuli, viulu, tähti ja rumpu. Jokaisen kortin alareunassa on oranssi piste. Sivun alaosassa on viisi laatikkoa, joiden otsikot ovat maistaa, haistaa, nähdä, kuulla ja tuntea, ja kunkin otsikon alla pieni kuva siitä elimestä, joka työn tekee. Lapsi piirtää viivan jokaisesta pisteestä oikeaan laatikkoon, ja kutakin aistia kohti tulee kaksi kuvaa.",
+   "p2": "Kaksi kuvaa aistia kohti on juuri se määrä, joka tekee lajittelusta päättelyä eikä yhdistämistä: lapsi ei voi jakaa kuvia sattumalta vaan joutuu pitämään kirjaa siitä, montako viivaa kuhunkin laatikkoon on jo mennyt. Vaikeimmat kortit ovat kiikarit ja tähti, sillä molemmat liittyvät näköön eri tavoin – toinen on väline, toinen kohde – ja niistä kannattaa puhua ääneen. Havaintojen luokittelu ja perustelu kuuluvat OPS 2014:n vuosiluokkien 1–2 ympäristöopin työtapoihin.",
+   "p3": "Yksi arkki, kymmenen viivaa, viisi laatikkoa. Kuvarivin ja laatikoiden väliin on jätetty avoin kaista, jotta viivat mahtuvat kulkemaan ristiin – käytä viivainta, jos viivoista tulee sekavia, tai numeroi kuvat ensin ja piirrä vasta sitten. Tämä sivu on viiden aistin perheen laajin lajittelutehtävä, ja se sopii aloitussivun jälkeen, kun jokainen aisti on jo yhdistetty yhteen kuvaan. Mikä ei kuulu joukkoon -sivu kääntää saman ajattelun toisin päin. Laatikot ulottuvat arkin reunasta reunaan, joten niihin on helppo osoittaa sormella myös yhdessä katsottaessa. Kun kaikki kymmenen viivaa on piirretty, laske laatikoittain: jokaisessa pitää olla kaksi. Se on nopea tapa löytää virhe ilman että tarkistaa kortin kerrallaan.",
+   "canonicalDeckSlug": "viisi-aistia-g1357",
+   "carousel": [
+    {
+     "label": "Viisi aistia: yhdistä kuva aistielimeen",
+     "href": "viisi-aistia"
+    },
+    {
+     "label": "Viisi aistia: millä aistilla huomaat sen?",
+     "href": "viisi-aistia-milla-aistilla"
+    },
+    {
+     "label": "Viisi aistia: mikä ei kuulu joukkoon?",
+     "href": "viisi-aistia-mika-ei-kuulu-joukkoon"
+    },
+    {
+     "label": "Aistielimet: kirjoita aistin sana viivalle",
+     "href": "aistielimet-kirjoita-aistin-sana"
+    }
+   ],
+   "title": "Lajittele aistin mukaan 1. luokka | tulostettava PDF",
+   "metaDescription": "Kymmenen kuvaa ja viisi aistilaatikkoa 1. luokalle: sitruuna, kiikarit, karkki, jasmiini, tyyny, hiekka, valkosipuli, viulu, tähti ja rumpu. Ilmainen PDF."
+  },
+  {
+   "slug": "viisi-aistia-milla-aistilla",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-which-sense",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Aistien moniste",
+   "h1": "Viisi aistia: millä aistilla huomaat sen?",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "viisi-aistia",
+    "1-luokka"
+   ],
+   "p1": "Kahdeksan riviä allekkain, ja jokaisen vasemmassa reunassa yksi kuva: tyyny, kivi, sitruuna, popcorn, kitara, jouluvalot, taskulamppu ja ruusu. Oikealla toistuvat joka rivillä samat viisi aistielintä samassa järjestyksessä – silmä, korva, nenä, kieli ja käsi – ja lapsi ympyröi niistä yhden. Koska vaihtoehdot eivät vaihda paikkaa, sivu etenee nopeasti: katse siirtyy kuvasta aina samaan riviin, ja vastaus merkitään yhdellä ympyrällä ilman kirjoittamista.",
+   "p2": "Toistuva vaihtoehtorivi on tämän sivun idea. Kun valikko pysyy samana, lapsen työmuisti vapautuu itse kysymykseen, ja hän ehtii kahdeksan kertaa miettiä, mitä aistia mikin asia ensisijaisesti koskee. Osa kuvista koskettaa kahta aistia – popcornin haistaa ja maistaa, kiven näkee ja tuntee – joten vastausta kannattaa perustella ääneen eikä pelkästään merkitä. Havainnon liittäminen aistiin ja valinnan perusteleminen ovat OPS 2014:n vuosiluokkien 1–2 ympäristöopin tavoitteita.",
+   "p3": "Yksi arkki, kahdeksan ympyrää, ei kirjoittamista. Kuvat ovat riittävän isoja tunnistettavaksi etäämpääkin, joten sivun voi käydä ensin yhdessä koko ryhmän kanssa ja antaa sitten itsenäiseksi työksi. Popcorn- ja taskulamppurivit kannattaa keskustella erikseen, koska molempiin voi perustella useamman kuin yhden vastauksen. Tämä sivu on perheen nopein, ja se sopii sekä aloitukseen että kertaukseen Lajittele aistin mukaan -sivun jälkeen. Rivit ovat korkeita ja aistielimet toistuvat samoilla paikoilla, joten sivun voi tulostaa myös sellaiselle lapselle, joka tarvitsee selkeän ja ennakoitavan rakenteen. Työ etenee ylhäältä alas ilman kääntämistä, ja keskeneräiseen voi palata milloin tahansa, koska jokainen rivi on itsenäinen. Kuvat sopivat myös keskustelun aiheiksi omasta arjesta.",
+   "canonicalDeckSlug": "viisi-aistia-g1358",
+   "carousel": [
+    {
+     "label": "Viisi aistia: yhdistä kuva aistielimeen",
+     "href": "viisi-aistia"
+    },
+    {
+     "label": "Viisi aistia: lajittele kuvat aistin mukaan",
+     "href": "viisi-aistia-lajittele-aistin-mukaan"
+    },
+    {
+     "label": "Viisi aistia: mikä ei kuulu joukkoon?",
+     "href": "viisi-aistia-mika-ei-kuulu-joukkoon"
+    },
+    {
+     "label": "Aistielimet: kirjoita aistin sana viivalle",
+     "href": "aistielimet-kirjoita-aistin-sana"
+    }
+   ],
+   "title": "Millä aistilla? 1. luokka | tulostettava PDF ilmainen",
+   "metaDescription": "Kahdeksan riviä 1. luokalle: tyyny, kivi, sitruuna, popcorn, kitara, jouluvalot, taskulamppu ja ruusu. Ympyröi rivin viidestä elimestä se, jota käytät. Ilmainen PDF."
+  },
+  {
+   "slug": "viisi-aistia-mika-ei-kuulu-joukkoon",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-which-one-does-not-belong",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Aistien moniste",
+   "h1": "Viisi aistia: mikä ei kuulu joukkoon?",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "viisi-aistia",
+    "1-luokka"
+   ],
+   "p1": "Viisi riviä, ja jokaisella neljä kuvaa. Riveillä yksi ja kaksi on makuun liittyviä kuvia – suklaa, kakku, tikkari, muffinssi, keksi ja hunaja – ja joukossa yksi vieras, kukka tai höyhen. Riveillä kolme ja neljä soittimia: ksylofoni, saksofoni, kitara, pilli, rumpu ja piano, ja niiden seassa karkki tai jouluvalot. Rivillä viisi on kaukoputki, tähti ja sateenkaari sekä popcorn. Lapsi vetää yli sen kuvan, joka ei kuulu muiden kanssa samaan aistiin.",
+   "p2": "Poikkeuksen löytäminen vaatii, että lapsi tunnistaa ensin kolmen yhteisen aistin ja vasta sitten osoittaa neljännen. Se on vaativampi ajatuskulku kuin yksittäisen kuvan luokittelu, koska sääntö pitää itse keksiä eikä se lue rivillä missään. Riviltä kolme ja neljä sääntö on helpoin – soittimet erottuvat heti – ja rivi viisi on vaikein, koska siellä näkemisen kuvat ovat keskenään hyvin erilaisia. Sääntöjen keksiminen ja luokitteluperusteen sanoittaminen kuuluvat OPS 2014:n vuosiluokkien 1–2 ajattelun taitoihin.",
+   "p3": "Yksi arkki, viisi yliviivausta, ei kirjoittamista. Pyydä lapsi sanomaan ääneen, mikä aisti rivillä on kyseessä, ennen kuin hän vetää viivan – ilman sitä oikea vastaus voi osua kohdalleen myös arvaamalla. Neljä ensimmäistä riviä ratkeaa nopeasti, joten varaa keskusteluun aikaa vasta viimeisellä rivillä. Tämä on perheen tiivein sivu ja sopii Lajittele aistin mukaan -sivun jatkoksi, kun kuvien liittäminen aisteihin on jo sujuvaa.",
+   "canonicalDeckSlug": "viisi-aistia-g1359",
+   "carousel": [
+    {
+     "label": "Viisi aistia: yhdistä kuva aistielimeen",
+     "href": "viisi-aistia"
+    },
+    {
+     "label": "Viisi aistia: lajittele kuvat aistin mukaan",
+     "href": "viisi-aistia-lajittele-aistin-mukaan"
+    },
+    {
+     "label": "Viisi aistia: millä aistilla huomaat sen?",
+     "href": "viisi-aistia-milla-aistilla"
+    },
+    {
+     "label": "Aistielimet: kirjoita aistin sana viivalle",
+     "href": "aistielimet-kirjoita-aistin-sana"
+    }
+   ],
+   "title": "Aistit: mikä ei kuulu joukkoon? 1. luokka | PDF",
+   "metaDescription": "Viisi riviä 1. luokalle, joissa kolme kuvaa kuuluu samaan aistiin ja yksi ei. Riveillä makuja, soittimia ja näkemisen kuvia. Vedä yli se, joka ei kuulu. Ilmainen PDF."
+  },
+  {
+   "slug": "aistielimet-kirjoita-aistin-sana",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "sense-organs-write-the-sense-word",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Aistien moniste",
+   "h1": "Aistielimet: kirjoita aistin sana viivalle",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "viisi-aistia",
+    "1-luokka"
+   ],
+   "p1": "Sivun yläreunassa on sanapankki, jossa on viisi verbiä perusmuodossa: kuulla, tuntea, nähdä, haistaa ja maistaa. Alla on viisi leveää riviä, ja kunkin vasemmassa reunassa yksi aistielin omassa valkoisessa ruudussaan – järjestyksessä kieli, silmä, korva, käsi ja nenä. Rivin loppuosan täyttää kolmiviivainen kirjoitusrivi apuviivoineen. Lapsi kopioi jokaisen sanan sille riville, jonka elin tekee kyseisen työn. Pankin järjestys ei vastaa rivien järjestystä, joten jokainen sana on etsittävä erikseen.",
+   "p2": "Tämä on perheen ainoa sivu, joka nimeää aistin teon eikä sen kohteen. Lapsi ei etsi asiaa, jonka näkee, vaan sanan, joka tarkoittaa näkemistä – ja verbi kirjoitetaan perusmuodossa, joten sivu tuo samalla esiin, että aisteista puhutaan tekemisenä. Kirjoitusrivit ovat pitkiä, mikä antaa tilaa isolle käsialalle ja tekee työstä myös kynätehtävän. Sanaston laajentaminen ja käsitteiden nimeäminen kuuluvat OPS 2014:n vuosiluokkien 1–2 ympäristöopin ja äidinkielen yhteiseen alueeseen.",
+   "p3": "Yksi arkki, viisi sanaa, viisi riviä. Otsikko puhuu aistielimistä eikä aisteista, ja sama ero kannattaa tehdä ääneen: nenä on elin, haistaminen on se, mitä se tekee. Sivu sopii viiden aistin jakson loppupuolelle, kun kuvien ja elinten yhdistäminen on jo tuttua aloitussivulta. Jatka tästä Kuulen, näen, haistan -sivuun, jossa samat verbit taipuvat lauseiksi ja lapsi kirjoittaa itse, mitä hän aistii. Rivit ovat riittävän leveitä kokonaiselle sanalle ilman tavutusta, ja pisin sana maistaa mahtuu riville mukavasti. Jos verbi on lapselle vieras, näytä teko: kuuntele, kosketa ja haista vuorotellen, ja kirjoita sana vasta sen jälkeen. Sivun voi tulostaa myös kahdesti, jolloin toisella kerralla sanat kirjoitetaan ilman pankkia.",
+   "canonicalDeckSlug": "viisi-aistia-g1360",
+   "carousel": [
+    {
+     "label": "Viisi aistia: yhdistä kuva aistielimeen",
+     "href": "viisi-aistia"
+    },
+    {
+     "label": "Viisi aistia: lajittele kuvat aistin mukaan",
+     "href": "viisi-aistia-lajittele-aistin-mukaan"
+    },
+    {
+     "label": "Viisi aistia: millä aistilla huomaat sen?",
+     "href": "viisi-aistia-milla-aistilla"
+    },
+    {
+     "label": "Viisi aistia: mikä ei kuulu joukkoon?",
+     "href": "viisi-aistia-mika-ei-kuulu-joukkoon"
+    }
+   ],
+   "title": "Aistielimet: kirjoita aistin sana 1. luokka | PDF",
+   "metaDescription": "Viisi aistielintä ja sanapankki 1. luokalle: kuulla, tuntea, nähdä, haistaa ja maistaa kopioidaan viivalle oikean elimen viereen. Ilmainen 1. luokan PDF."
+  },
+  {
+   "slug": "viisi-aistia-kuulen-naen-haistan",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-i-can-hear",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Aistien moniste",
+   "h1": "Viisi aistia: kuulen, näen, haistan, maistan, tunnen",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "viisi-aistia",
+    "1-luokka"
+   ],
+   "p1": "Viisi leveää korttia allekkain. Jokaisen vasemmassa reunassa on yksi aistielin – korva, silmä, nenä, kieli ja käsi – ja sen vieressä harmaalla painettu lauseen alku: Kuulen ..., Näen ..., Haistan ..., Maistan ..., Tunnen ... Aloituksen jälkeen jatkuu kirjoitusrivi, ja sen alla on vielä toinen tyhjä rivi apuviivoineen. Sanapankkia ei ole eikä valmiita vaihtoehtoja: lapsi kirjoittaa itse, mitä hän juuri nyt kuulee, näkee, haistaa, maistaa ja tuntee.",
+   "p2": "Tämä on perheen ainoa avoin kirjoitustehtävä, ja siksi se on myös ainoa, jolla ei ole oikeaa vastausta. Verbi on annettu taivutettuna yksikön ensimmäisessä persoonassa, joten lapsi jatkaa lausetta eikä aloita tyhjästä, ja kirjoittaminen alkaa siitä kohdasta, jossa oma havainto tulee mukaan. Parhaiten sivu toimii siellä, missä on jotain aistittavaa: luokan ikkunan ääressä, metsäretkellä tai keittiössä. Omien havaintojen sanoittaminen ja kuvaaminen kirjoittamalla ovat OPS 2014:n vuosiluokkien 1–2 tavoitteita sekä ympäristöopissa että äidinkielessä.",
+   "p3": "Yksi arkki, viisi lausetta, kaksi riviä kuhunkin. Tee tehtävä siellä, missä aistittavaa riittää, ja anna hetki hiljaisuutta ennen jokaista riviä. Tulokset kannattaa lukea ääneen: sama paikka tuottaa viideltä lapselta viisi eri vastausta, ja se on koko sivun opetus. Tämä sivu päättää viiden aistin jakson, ja se sopii tehtäväksi Aistielimet-sivun jälkeen, jolloin verbit ovat jo tuttuja perusmuodossaan. Kirjoitusrivit ovat kolmiviivaisia, joten sivu käy myös käsialaharjoitukseksi, ja jokaiselle aistille on varattu kaksi riviä, jos lause venyy. Tulosta useampi kappale, jos sivua käytetään retkellä: sama arkki toimii eri paikassa aivan eri tavalla, ja vertailu on kiinnostavampaa kuin yksittäinen vastaus.",
+   "canonicalDeckSlug": "viisi-aistia-g1361",
+   "carousel": [
+    {
+     "label": "Viisi aistia: yhdistä kuva aistielimeen",
+     "href": "viisi-aistia"
+    },
+    {
+     "label": "Viisi aistia: lajittele kuvat aistin mukaan",
+     "href": "viisi-aistia-lajittele-aistin-mukaan"
+    },
+    {
+     "label": "Viisi aistia: millä aistilla huomaat sen?",
+     "href": "viisi-aistia-milla-aistilla"
+    },
+    {
+     "label": "Viisi aistia: mikä ei kuulu joukkoon?",
+     "href": "viisi-aistia-mika-ei-kuulu-joukkoon"
+    }
+   ],
+   "title": "Kuulen, näen, haistan 1. luokka | tulostettava PDF",
+   "metaDescription": "Viisi aloitettua lausetta 1. luokalle: Kuulen, Näen, Haistan, Maistan ja Tunnen. Jokaisen vieressä aistielin ja kaksi kirjoitusriviä omalle havainnolle. Ilmainen PDF."
+  },
+  {
+   "slug": "saatilat-kirjoita-sana",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-write-the-weather-word",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Säätilojen moniste",
+   "h1": "Säätilat: kirjoita sana kirjainruutuihin",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "saatilat",
+    "1-luokka"
+   ],
+   "p1": "Yläreunassa on sanapankki kuudella sanalla: ukkonen, pilvi, sade, aurinko, sateenkaari ja lumi. Alla on kuusi leveää riviä, ja kunkin vasemmassa reunassa säämerkki vihreässä ympyrässä – lumihiutale, aurinko, salamapilvi, pilvi, sadepilvi ja sateenkaari. Merkin vieressä on rivi katkoviivaisia kirjainruutuja, ja ruutuja on tasan niin monta kuin sanassa kirjaimia: neljä, seitsemän, seitsemän, viisi, neljä ja yksitoista. Lapsi etsii sanan pankista ja kirjoittaa sen ruutuihin kirjain kerrallaan.",
+   "p2": "Ruutujen määrä toimii tarkistuksena, mutta se ei ratkaise tehtävää: lumi ja sade ovat molemmat nelikirjaimisia ja aurinko ja ukkonen molemmat seitsemän merkin mittaisia, joten neljällä rivillä kuudesta merkki on tunnistettava eikä ruutuja laskettava. Sateenkaaren yksitoista ruutua on arkin pisin sana ja samalla hyvä muistutus siitä, että yhdyssana kirjoitetaan yhteen. Sanojen kirjoittaminen kirjain kerrallaan ja äänteen sekä kirjaimen vastaavuus kuuluvat OPS 2014:n vuosiluokkien 1–2 kirjoittamisen tavoitteisiin.",
+   "p3": "Yksi arkki, kuusi sanaa, kolmekymmentäkahdeksan ruutua. Sanapankki on sivun yläreunassa, joten sen voi taittaa näkymättömiin, jos haluat lapsen kirjoittavan sanat muistista. Rivit ovat korkeita ja ruudut isoja, joten sivu sopii myös aloittelevalle kirjoittajalle. Tämä sivu jatkaa säätilojen aloitussivua, jossa samat merkit vain yhdistettiin viivalla sanaan, ja se kannattaa tehdä ennen Lue sääennuste -sivua, jolla sanat tulevat vastaan lauseissa. Jos lapsi kirjoittaa vielä isoilla kirjaimilla, ruudut riittävät myös niille, ja sanan voi harjoitella ensin sormella ruutuun ennen kynää. Merkit ovat samat kuin perheen muilla sivuilla, joten sanasto pysyy yhtenäisenä koko jakson ajan.",
+   "canonicalDeckSlug": "saatilat-g1362",
+   "carousel": [
+    {
+     "label": "Säätilat: yhdistä säämerkki sanaan",
+     "href": "saatilat"
+    },
+    {
+     "label": "Säätilat: minun viikkoni – piirrä joka päivän sää",
+     "href": "saatilat-saapaivakirja"
+    },
+    {
+     "label": "Säätilat: kylmä, lämmin vai kuuma?",
+     "href": "saatilat-kylma-lammin-vai-kuuma"
+    },
+    {
+     "label": "Veden kiertokulku: nimeä neljä vaihetta",
+     "href": "veden-kiertokulku-nimea-vaiheet"
+    }
+   ],
+   "title": "Säätilat: kirjoita sana 1. luokka | tulostettava PDF",
+   "metaDescription": "Kuusi säämerkkiä ja sanapankki 1. luokalle: lumi, aurinko, ukkonen, pilvi, sade ja sateenkaari kirjoitetaan kirjainruutuihin, yksi kirjain ruutuun. Ilmainen PDF."
+  },
+  {
+   "slug": "saatilat-saapaivakirja",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-weather-chart-monday-to-sunday",
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Säätilojen moniste",
+   "h1": "Säätilat: minun viikkoni – piirrä joka päivän sää",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "saatilat",
+    "esikoulu"
+   ],
+   "p1": "Arkilla on kahdeksan ruutua neljän ruudun rivissä. Seitsemässä niistä lukee päivän lyhenne – ma, ti, ke, to, pe, la ja su – ja kunkin alla on iso tyhjä katkoviivainen kenttä piirtämistä varten. Kahdeksas ruutu, oikeassa alakulmassa, ei ole päivä vaan avain: siinä on kuusi valmista säämerkkiä kahdessa sarakkeessa, aurinko, pilvi, sade, ukkonen, lumi ja sateenkaari. Avainruudun erottaa päiväruuduista yhtenäinen vihreä reuna, kun päivillä on oranssi katkoviiva.",
+   "p2": "Tämä on perheen ainoa sivu, joka kestää koko viikon. Lapsi ei täytä sitä kerralla vaan katsoo joka aamu ulos, valitsee merkin ja piirtää sen – ja viikon lopussa arkki kertoo, millainen sää oikeasti oli. Juuri toistuva havainnointi tekee siitä säähavainnon eikä sääkuvituksen, ja se on myös ensimmäinen kerta, kun lapsi kerää omaa aineistoa. Säännöllinen havainnointi ja havaintojen kirjaaminen ovat OPS 2014:n esiopetuksen tutkivan työskentelyn perustaitoja.",
+   "p3": "Yksi arkki, seitsemän päivää, kuusi merkkiä mallina. Ripusta arkki seinälle tai ikkunan viereen, niin se on paikalla joka aamu; tulosta useampi kappale, jos haluat vertailla kahta viikkoa keskenään. Näytä avainruutu lapselle ennen aloitusta – se on ainoa ruutu, johon ei piirretä. Sivu sopii säätilojen aloitussivun jälkeen, kun merkit ovat jo tuttuja, ja se johtaa luontevasti Lue sääennuste -sivuun, jolla valmista viikkoa luetaan. Piirtokentät ovat tarkoituksella isoja, joten merkin ei tarvitse olla tarkka – riittää, että sen tunnistaa. Jos viikko alkaa kesken, aloita siitä päivästä, joka on menossa, ja jätä edelliset tyhjiksi; arkki toimii yhtä hyvin vajaana. Valmis viikko kannattaa lukea yhdessä ääneen: montako aurinkoista päivää, montako sateista.",
+   "canonicalDeckSlug": "saatilat-k364",
+   "carousel": [
+    {
+     "label": "Säätilat: yhdistä säämerkki sanaan",
+     "href": "saatilat"
+    },
+    {
+     "label": "Säätilat: kirjoita sana kirjainruutuihin",
+     "href": "saatilat-kirjoita-sana"
+    },
+    {
+     "label": "Säätilat: kylmä, lämmin vai kuuma?",
+     "href": "saatilat-kylma-lammin-vai-kuuma"
+    },
+    {
+     "label": "Veden kiertokulku: nimeä neljä vaihetta",
+     "href": "veden-kiertokulku-nimea-vaiheet"
+    }
+   ],
+   "title": "Sääpäiväkirja: minun viikkoni esikoulu | PDF",
+   "metaDescription": "Sääpäiväkirja esikouluun: seitsemän ruutua maanantaista sunnuntaihin ja kuuden säämerkin avain. Katso ulos joka päivä ja piirrä päivän merkki. Ilmainen PDF."
+  },
+  {
+   "slug": "saatilat-kylma-lammin-vai-kuuma",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-how-warm-is-it",
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Säätilojen moniste",
+   "h1": "Säätilat: kylmä, lämmin vai kuuma?",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "saatilat",
+    "esikoulu"
+   ],
+   "p1": "Yläreunassa on avainrivi, jossa on kolme lämpömittaria ja kunkin vieressä yksi kuva: matalalla pylväällä kaulaliina, keskikorkealla t-paita ja korkealla aurinkolasit. Alla on neljä korttia, ja kussakin yksi lämpömittari sekä kolme kuvavaihtoehtoa pystyrivissä. Mittareissa ei ole yhtään numeroa – vain viivat ja värikaistat, sinertävä alhaalla, valkoinen keskellä ja vaaleanpunainen ylhäällä – joten lapsi lukee pylvään korkeuden eikä lukemaa, ja ympyröi kortin vaihtoehdoista sen, joka vastaa avainta.",
+   "p2": "Numeroton mittari on tarkoituksellinen valinta: esiopetusikäinen ei vielä lue asteita, mutta näkee korkeuden ja osaa verrata sitä malliin. Kortit on aseteltu niin, ettei oikea vaihtoehto ole koskaan samassa kohdassa, joten sivua ei voi ratkaista merkitsemällä aina ylintä. Kaksi neljästä kortista kuuluu samaan, kylmimpään kaistaan, joten lapsi joutuu ympyröimään saman kuvan kahdesti – ja juuri se kertoo, lukeeko hän mittaria vai jakaako vastauksia tasan. Mittavälineen lukeminen ja vertaaminen on OPS 2014:n esiopetuksen matemaattista ajattelua.",
+   "p3": "Yksi arkki, neljä ympyrää, ei kirjoittamista. Huomaa, että otsikon ja ohjeen sanat kylmä, lämmin ja kuuma eivät lue avaimessa – avain on kuvallinen, ja sanat tulevat aikuiselta. Sano ne siis ääneen kortti kerrallaan, niin sanasto tarttuu havaintoon. Tämä on säätilojen perheen ainoa lämpötilasivu ja sopii pariksi Minun viikkoni -sivulle: toinen kirjaa millainen sää oli, toinen kuinka lämmintä. Mittarit on piirretty pystysuoraan ja riittävän korkeiksi, että pylvään ero erottuu myös nopealla silmäyksellä, ja kuvavaihtoehdot ovat isoja ympyröitäviksi. Sivun voi tehdä myös oikean ulkolämpömittarin äärellä, jolloin lapsi vertaa paperin pylvästä seinällä näkyvään. Vaatteet ovat tuttu ja konkreettinen tapa puhua lämpötilasta ennen kuin asteista puhutaan lainkaan.",
+   "canonicalDeckSlug": "saatilat-k365",
+   "carousel": [
+    {
+     "label": "Säätilat: yhdistä säämerkki sanaan",
+     "href": "saatilat"
+    },
+    {
+     "label": "Säätilat: kirjoita sana kirjainruutuihin",
+     "href": "saatilat-kirjoita-sana"
+    },
+    {
+     "label": "Säätilat: minun viikkoni – piirrä joka päivän sää",
+     "href": "saatilat-saapaivakirja"
+    },
+    {
+     "label": "Veden kiertokulku: nimeä neljä vaihetta",
+     "href": "veden-kiertokulku-nimea-vaiheet"
+    }
+   ],
+   "title": "Lämpömittari: kylmä, lämmin vai kuuma? esikoulu",
+   "metaDescription": "Neljä lämpömittaria esikouluun ja kolmen kuvan avain: kaulaliina, t-paita ja aurinkolasit. Katso pylvään korkeus ja ympyröi sopiva kuva. Ilmainen esikoulun PDF."
+  },
+  {
+   "slug": "veden-kiertokulku-nimea-vaiheet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-water-cycle-label-the-diagram",
+    "theme": "",
+    "level": "3-luokka"
+   },
+   "eyebrow": "Säätilojen moniste",
+   "h1": "Veden kiertokulku: nimeä neljä vaihetta",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "saatilat",
+    "3-luokka"
+   ],
+   "p1": "Sivun keskellä on yksi kaavio: vasemmalla aurinko, alhaalla sinertävä vesialue, oikealla maa-alue ja ylhäällä iso pilvi. Aaltoviivat ja oranssi nuoli nousevat vedestä pilveen, pilvestä laskeutuu katkoviivainen sade, ja maalta palaa nuoli takaisin veteen. Neljä numeroitua palloa merkitsee kohdat: 1 nousevan höyryn kohdalla, 2 pilvessä, 3 sateessa ja 4 vedessä. Yläreunassa on sanapankki – tiivistyminen, haihtuminen, kerääntyminen, sadanta – ja alareunassa neljä numeroitua kirjoitusriviä.",
+   "p2": "Pankin sanat on painettu eri järjestyksessä kuin kaavion numerot, joten lapsi ei voi kopioida ylhäältä alas vaan joutuu lukemaan kuvaa. Kaksi kohtaa neljästä on tapahtuma – vesi nousee, vesi putoaa – ja kaksi on paikka, pilvi ja vesialue, joten sanan valinta edellyttää sen ymmärtämistä, että myös pilvessä ja järvessä tapahtuu jotain. Veden olomuodot ja kiertokulku luonnossa ovat OPS 2014:n vuosiluokkien 3–6 ympäristöopin sisältöä, ja tämä sivu kokoaa ne yhteen kuvaan.",
+   "p3": "Yksi arkki, neljä sanaa, neljä riviä. Kaavio on iso ja kirjoitusrivit sen alla, joten sivu toimii myös yhteisenä taulukuvana: näytä ensin nuolet ja anna lapsen kertoa omin sanoin, mitä kussakin kohdassa tapahtuu, ja vasta sitten sanat. Maalta veteen palaava nuoli on kaavion ainoa kohta, jota ei ole numeroitu – siitä kannattaa kysyä erikseen. Tämä on säätilojen perheen ainoa 3. luokan sivu ja selvästi vaativin; muut sivut katsovat säätä, tämä sen syytä.",
+   "canonicalDeckSlug": "saatilat-g3385",
+   "carousel": [
+    {
+     "label": "Säätilat: yhdistä säämerkki sanaan",
+     "href": "saatilat"
+    },
+    {
+     "label": "Säätilat: kirjoita sana kirjainruutuihin",
+     "href": "saatilat-kirjoita-sana"
+    },
+    {
+     "label": "Säätilat: minun viikkoni – piirrä joka päivän sää",
+     "href": "saatilat-saapaivakirja"
+    },
+    {
+     "label": "Säätilat: kylmä, lämmin vai kuuma?",
+     "href": "saatilat-kylma-lammin-vai-kuuma"
+    }
+   ],
+   "title": "Veden kiertokulku 3. luokka | tulostettava PDF ilmainen",
+   "metaDescription": "Veden kiertokulun kaavio 3. luokalle: aurinko, meri, pilvi ja sade numeroituna 1–4. Kirjoita haihtuminen, tiivistyminen, sadanta ja kerääntyminen viivoille. Ilmainen PDF."
+  },
+  {
+   "slug": "saatilat-lue-saaennuste",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-read-the-weekly-forecast",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Säätilojen moniste",
+   "h1": "Säätilat: lue viikon sääennuste",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "saatilat",
+    "1-luokka"
+   ],
+   "p1": "Yläreunassa on yksi ennustepalkki vihreällä reunuksella: viisi päivää lyhenteineen – ma, ti, ke, to ja pe – ja kunkin alla säämerkki. Maanantaina on lumihiutale, tiistaina salamapilvi, keskiviikkona aurinko, torstaina sadepilvi ja perjantaina pilvi. Alla on kolme korttia, ja kussakin yksi kysymys sekä viisi päivälyhennettä ympyröitäviksi. Kysymykset ovat: minä päivänä sataa lunta, minä päivänä sataa vettä ja minä päivänä paistaa aurinko.",
+   "p2": "Vastaaminen edellyttää kahden asian yhdistämistä: kysymyksen lukemista ja merkin tunnistamista palkista. Se on ensimmäinen kerta, kun säämerkki toimii tietolähteenä eikä opeteltavana kuvana. Salamapilvessä ei ole pisaroita, joten kysymys vedestä osuu vain torstaihin – ilman sitä valintaa tiistai kelpaisi yhtä hyvin, ja tehtävä menettäisi ainoan oikean vastauksensa. Yksinkertaisen taulukon lukeminen ja tiedon hakeminen kuvasta ovat OPS 2014:n vuosiluokkien 1–2 monilukutaidon tavoitteita.",
+   "p3": "Yksi arkki, kolme kysymystä, viisitoista päivävaihtoehtoa. Kysymyksiä on kolme, joten ennusteen viidestä päivästä kahdesta ei kysytä mitään – ukkospäivä ja pilvinen perjantai jäävät vapaiksi, ja niistä voi keksiä yhdessä lisäkysymyksiä. Kortit ovat väljiä ja päivävaihtoehdot isoja, joten ympyröinti onnistuu myös harjoittelevalta kädeltä. Tämä sivu tulee luontevasti Kirjoita sana -sivun jälkeen, kun säämerkit ja niiden nimet ovat jo tuttuja. Ennustepalkki on erotettu omalla vihreällä kehyksellään, joten se erottuu kysymyskorteista ja siihen on helppo palata jokaisen kysymyksen kohdalla. Lue ensin koko viikko ääneen päivä kerrallaan, ja vasta sitten kysymykset, niin lapsi tietää mistä tietoa haetaan. Sivu sopii myös pariksi, jolloin toinen kysyy ja toinen etsii päivän palkista.",
+   "canonicalDeckSlug": "saatilat-g1363",
+   "carousel": [
+    {
+     "label": "Säätilat: yhdistä säämerkki sanaan",
+     "href": "saatilat"
+    },
+    {
+     "label": "Säätilat: kirjoita sana kirjainruutuihin",
+     "href": "saatilat-kirjoita-sana"
+    },
+    {
+     "label": "Säätilat: minun viikkoni – piirrä joka päivän sää",
+     "href": "saatilat-saapaivakirja"
+    },
+    {
+     "label": "Säätilat: kylmä, lämmin vai kuuma?",
+     "href": "saatilat-kylma-lammin-vai-kuuma"
+    }
+   ],
+   "title": "Lue sääennuste 1. luokka | tulostettava PDF ilmainen",
+   "metaDescription": "Viiden päivän sääennuste 1. luokalle: ma lunta, ti ukkonen, ke aurinko, to sadetta, pe pilvistä. Lue kysymys ja ympyröi oikea päivä viidestä. Ilmainen PDF."
+  },
+  {
+   "slug": "kierratys-mihin-astiaan",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-which-bin",
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Kierrätyksen moniste",
+   "h1": "Kierrätys: mihin astiaan? Ympyröi oikea",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "kierratys",
+    "esikoulu"
+   ],
+   "p1": "Sivun yläreunassa on avainrivi, jossa viisi astiaa seisoo nimineen: Biojäte, Paperi, Lasi, Metalli ja Muovi. Alla on kuusi riviä, ja kunkin vasemmassa reunassa yksi esine – hunajapurkki, päärynä, shampoopullo, pahvilaatikko, säilyketölkki ja appelsiini. Rivin oikeassa osassa toistuvat samat viisi astiaa pienempinä ja ilman nimiä, ja lapsi ympyröi niistä yhden. Astiat erottaa toisistaan vain kannen tunnus, joten avainrivi on luettava ensin.",
+   "p2": "Nimettömät astiat ovat tämän sivun varsinainen tehtävä. Lapsi ei valitse sanan vaan merkin perusteella, ja hänen on palattava avaimeen joka rivillä kunnes tunnukset painuvat mieleen – sama työ, jonka aikuinen tekee jäteaseman opasteiden edessä. Oikea astia on eri paikassa lähes joka rivillä, joten sarakkeen merkitseminen ei auta. Merkkien ja symbolien tulkitseminen on OPS 2014:n esiopetuksen monilukutaitoa, ja lajittelu antaa sille arkisen kohteen.",
+   "p3": "Yksi arkki, kuusi ympyrää, ei kirjoittamista. Peitä avainrivi vasta sitten, kun tunnukset ovat tuttuja – ensimmäisellä kerralla sen kuuluu olla näkyvissä koko ajan. Kannen tunnukset ovat pieniä, joten sivu kannattaa tulostaa täyteen kokoon eikä kahtena arkkina yhdelle. Tämä sivu seuraa kierrätyksen aloitussivua ja vaihtaa viivan ympyräksi; seuraava askel on Mitä materiaalia -sivu, jolla astian sijasta nimetään aine, josta esine on tehty. Rivit ovat korkeita ja esinekuva erottuu selvästi astiariveistä, joten työ etenee ylhäältä alas ilman että paikkaa tarvitsee etsiä. Kaksi kuudesta esineestä on hedelmiä, joten biojäte tulee valittua kahdesti – se on hyvä hetki puhua siitä, miksi kuoret ja tähteet menevät eri astiaan kuin pakkaukset. Sivun voi tulostaa kahdesti ja käyttää toisella kerralla ilman avainriviä.",
+   "canonicalDeckSlug": "kierratys-k366",
+   "carousel": [
+    {
+     "label": "Kierrätys: mihin astiaan esine kuuluu?",
+     "href": "kierratys"
+    },
+    {
+     "label": "Kierrätys: mitä materiaalia esine on?",
+     "href": "kierratys-mita-materiaalia"
+    },
+    {
+     "label": "Kierrätys: mikä esine on eri materiaalia?",
+     "href": "kierratys-mika-ei-kuulu-joukkoon"
+    },
+    {
+     "label": "Kierrätys: kolme asiaa, jotka kierrätän kotona",
+     "href": "kierratys-kolme-asiaa-jotka-kierratan"
+    }
+   ],
+   "title": "Kierrätys: mihin astiaan? esikoulu | tulostettava PDF",
+   "metaDescription": "Kuusi esinettä esikouluun: hunajapurkki, päärynä, shampoopullo, pahvilaatikko, säilyketölkki ja appelsiini. Ympyröi rivin viidestä astiasta oikea. Ilmainen PDF."
+  },
+  {
+   "slug": "kierratys-mita-materiaalia",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-what-is-it-made-of",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Kierrätyksen moniste",
+   "h1": "Kierrätys: mitä materiaalia esine on?",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "kierratys",
+    "1-luokka"
+   ],
+   "p1": "Yläreunassa on sanapankki kuudella sanalla: pahvi, muovi, biojäte, paperi, lasi ja metalli. Alla on kahdeksan riviä, ja kunkin vasemmassa reunassa yksi esine numeroituna – vihko, punainen pullo, ämpäri, mutteri, leipä, pahvilaatikko, popcornrasia ja lasipurkki. Rivin loppua täyttää pitkä kirjoitusrivi apuviivoineen. Lapsi kirjoittaa jokaiselle riville sen sanan, joka kertoo, mitä materiaalia esine on, ja osa sanoista toistuu useammalla rivillä.",
+   "p2": "Tämä on perheen ainoa sivu, joka kysyy materiaalia eikä astiaa, ja se on selvästi vaativampi: astian voi arvata esineen käyttötarkoituksesta, mutta materiaali on pääteltävä siitä, miltä esine näyttää ja tuntuu. Pankissa on myös sana pahvi, vaikka perheen astiasivuilla pahvi ja paperi menevät samaan astiaan – ero on siis materiaalissa, ei keräyksessä, ja se kannattaa sanoa ääneen. Aineiden ja materiaalien tunnistaminen ja vertailu on OPS 2014:n vuosiluokkien 1–2 ympäristöopin sisältöä.",
+   "p3": "Yksi arkki, kahdeksan riviä, kuusi sanaa. Ämpärin kuva näyttää metalliselta sangan ja tummien reunojen takia, joten se kannattaa käydä läpi yhdessä – leikkiämpäri on käytännössä aina muovia. Kirjoitusrivit ovat pitkiä, joten pisinkin sana mahtuu väljästi. Tämä sivu on kierrätysperheen kirjoittavin ja sopii Mihin astiaan -sivun jälkeen; siitä jatketaan Mikä ei kuulu joukkoon -sivulle, jolla samaa materiaalitietoa käytetään vertailuun. Sana biojäte on pankin ainoa, joka ei nimeä materiaalia vaan jätelajia, ja leipärivillä juuri se on oikea vastaus – ero kannattaa selittää ennen aloitusta. Rivit on numeroitu, joten tehtävän voi jakaa kahteen osaan ja jatkaa myöhemmin. Valmis sivu toimii myös sanastolistana, kun seuraavalla kerralla lajitellaan oikeita esineitä.",
+   "canonicalDeckSlug": "kierratys-g1364",
+   "carousel": [
+    {
+     "label": "Kierrätys: mihin astiaan esine kuuluu?",
+     "href": "kierratys"
+    },
+    {
+     "label": "Kierrätys: mihin astiaan? Ympyröi oikea",
+     "href": "kierratys-mihin-astiaan"
+    },
+    {
+     "label": "Kierrätys: mikä esine on eri materiaalia?",
+     "href": "kierratys-mika-ei-kuulu-joukkoon"
+    },
+    {
+     "label": "Kierrätys: kolme asiaa, jotka kierrätän kotona",
+     "href": "kierratys-kolme-asiaa-jotka-kierratan"
+    }
+   ],
+   "title": "Mitä materiaalia? 1. luokka | tulostettava PDF ilmainen",
+   "metaDescription": "Kahdeksan esinettä ja kuuden sanan pankki 1. luokalle: pahvi, muovi, biojäte, paperi, lasi ja metalli kirjoitetaan viivalle esineen viereen. Ilmainen PDF."
+  },
+  {
+   "slug": "kierratys-mika-ei-kuulu-joukkoon",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-odd-one-out-by-material",
+    "theme": "",
+    "level": "2-luokka"
+   },
+   "eyebrow": "Kierrätyksen moniste",
+   "h1": "Kierrätys: mikä esine on eri materiaalia?",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "kierratys",
+    "2-luokka"
+   ],
+   "p1": "Neljä riviä, ja jokaisella neljä esinettä valkoisilla korteilla. Rivillä yksi on hillopurkki, hunajapurkki, maitopullo ja muovilusikka; rivillä kaksi liimapullo, hammasharja, lehti ja kampa; rivillä kolme paprika, porkkana, banaani ja kattila; rivillä neljä pultti, korkillinen lasinen öljypullo, mutteri ja säilyketölkki. Kolme esinettä on samaa materiaalia ja yksi eri, ja lapsi ympyröi sen. Rivien materiaalit ovat lasi, muovi, biojäte ja metalli.",
+   "p2": "Vertailu on tässä vaikeampaa kuin lajittelu, koska sääntöä ei kerrota: lapsen on ensin päätettävä, mikä kolmea esinettä yhdistää, ja vasta sitten osoitettava neljäs. Kolmannella rivillä kolme ruokaa ja yksi kattila eroavat toisistaan sekä käytöltään että aineeltaan. Neljännellä rivillä ero on hienovaraisin: metalliset pultti, mutteri ja säilyketölkki saavat seurakseen lasisen öljypullon, joka on keittiöstä aivan kuten tölkkikin – yhteistä ei siis ole paikka vaan aine. Rivin yksi maitopullo taas on lasia, mikä poikkeaa suomalaisesta kaupasta, jossa maito myydään kartonkitölkissä. Luokitteluperusteen tunnistaminen ja perusteleminen ovat OPS 2014:n vuosiluokkien 1–2 ajattelun taitoja.",
+   "p3": "Yksi arkki, neljä ympyrää, ei kirjoittamista. Pyydä lasta sanomaan materiaali ääneen ennen ympyröintiä, niin vastaus on perusteltu eikä arvattu. Poikkeavan esineen paikka vaihtelee riveittäin eikä etene mihinkään suuntaan, joten sarakkeesta ei ole apua ja jokainen rivi on ratkaistava erikseen. Ensimmäisellä ja kolmannella rivillä kaikki neljä esinettä ovat keittiöstä, joten sekään ei auta, mistä esine on peräisin – vain aine erottaa ne. Tämä on kierrätysperheen ainoa 2. luokan sivu ja tulee luontevasti Mitä materiaalia -sivun jälkeen. Kortit ovat isoja ja valkoisella pohjalla, joten rivin voi näyttää myös koko ryhmälle kerralla ja perustella yhdessä ääneen.",
+   "canonicalDeckSlug": "kierratys-g2348",
+   "carousel": [
+    {
+     "label": "Kierrätys: mihin astiaan esine kuuluu?",
+     "href": "kierratys"
+    },
+    {
+     "label": "Kierrätys: mihin astiaan? Ympyröi oikea",
+     "href": "kierratys-mihin-astiaan"
+    },
+    {
+     "label": "Kierrätys: mitä materiaalia esine on?",
+     "href": "kierratys-mita-materiaalia"
+    },
+    {
+     "label": "Kierrätys: kolme asiaa, jotka kierrätän kotona",
+     "href": "kierratys-kolme-asiaa-jotka-kierratan"
+    }
+   ],
+   "title": "Kierrätys: mikä ei kuulu joukkoon? 2. luokka | PDF",
+   "metaDescription": "Neljä riviä 2. luokalle: kolme esinettä samaa materiaalia ja yksi eri. Riveillä lasi, muovi, biojäte ja metalli. Ympyröi se, joka ei kuulu joukkoon. Ilmainen PDF."
+  },
+  {
+   "slug": "kierratys-kolme-asiaa-jotka-kierratan",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-three-things-i-recycle",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Kierrätyksen moniste",
+   "h1": "Kierrätys: kolme asiaa, jotka kierrätän kotona",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "kierratys",
+    "1-luokka"
+   ],
+   "p1": "Arkilla on kolme leveää korttia allekkain, ja kussakin on numero, iso valkoinen katkoviivainen kehys piirtämistä varten sekä kehyksen oikealla puolella kaksi kolmiviivaista kirjoitusriviä. Valmiita kuvia, sanapankkia tai vaihtoehtoja ei ole missään – sivu on kokonaan tyhjä. Lapsi piirtää kolme asiaa, jotka hänen kotonaan kierrätetään, ja kirjoittaa viivoille, mitä kukin niistä on. Kehykset ovat pystysuoria ja riittävän isoja, että esineen voi piirtää tunnistettavasti.",
+   "p2": "Tässä kierrätys siirtyy paperilta kotiin. Perheen muilla sivuilla esineet on valittu valmiiksi, mutta tässä lapsi katsoo omaa keittiötään, muistaa mitä sinne kertyy ja valitsee itse – ja samalla paljastuu, mitä hän on lajittelusta oivaltanut. Kolme kohtaa on sopiva määrä: se vaatii muistelua muttei väsytä, ja vastaukset eroavat kodeittain, mikä tekee töiden vertailusta kiinnostavaa. Oman arjen ympäristövaikutusten pohtiminen kuuluu OPS 2014:n vuosiluokkien 1–2 kestävän elämäntavan tavoitteisiin.",
+   "p3": "Yksi arkki, kolme piirrosta, kuusi riviä. Tämä on kierrätysperheen ainoa avoin tehtävä, eikä sillä ole yhtä oikeaa vastausta, joten se sopii kotitehtäväksi tai jakson lopetukseksi. Sivu ei muistuta astioista mitenkään, joten pidä aloitussivu esillä, jos lapsi tarvitsee tukea. Valmiit työt kannattaa lukea ääneen ja koota yhteen: kun kymmenen lapsen kolme esinettä kerätään taululle, syntyy luokan oma lajittelukuva. Kehykset ovat valkoisia ja muu kortti kermanväristä, joten piirroksen rajat näkyvät selvästi myös silloin, kun kuva jää keskeneräiseksi. Kirjoitusrivejä on kaksi kutakin piirrosta kohti, joten lapsi voi kirjoittaa joko yhden sanan tai kokonaisen lauseen sen mukaan, miten kirjoittaminen sujuu. Tulosta arkki kahtena kappaleena, jos haluat vertailla kotia ja koulua.",
+   "canonicalDeckSlug": "kierratys-g1365",
+   "carousel": [
+    {
+     "label": "Kierrätys: mihin astiaan esine kuuluu?",
+     "href": "kierratys"
+    },
+    {
+     "label": "Kierrätys: mihin astiaan? Ympyröi oikea",
+     "href": "kierratys-mihin-astiaan"
+    },
+    {
+     "label": "Kierrätys: mitä materiaalia esine on?",
+     "href": "kierratys-mita-materiaalia"
+    },
+    {
+     "label": "Kierrätys: mikä esine on eri materiaalia?",
+     "href": "kierratys-mika-ei-kuulu-joukkoon"
+    }
+   ],
+   "title": "Kolme asiaa, jotka kierrätän 1. luokka | PDF",
+   "metaDescription": "Kolme piirustuskehystä ja kaksi kirjoitusriviä kummallekin 1. luokalle. Lapsi piirtää kolme kotona kierrätettävää esinettä ja kirjoittaa, mitä ne ovat. Ilmainen PDF."
+  },
+  {
+   "slug": "taydenna-lause-kirjainruutuihin",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-letter-boxes",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Aukkolauseiden moniste",
+   "h1": "Täydennä lause kirjainruutuihin ilman sanapankkia",
+   "strand": "Lukemisen perustaidot",
+   "standard": "L.1.1.b",
+   "slotTokens": [
+    "taydenna-lauseet",
+    "1-luokka"
+   ],
+   "p1": "Seitsemän numeroitua riviä, joissa kussakin on kuva, lause ja lauseen keskellä rivi katkoviivaisia kirjainruutuja. Ruutuja on tasan niin monta kuin puuttuvassa sanassa kirjaimia: viisi, neljä, viisi, viisi, yhdeksän, kuusi ja neljä. Sanapankkia ei ole lainkaan, joten sana on tuotettava kuvasta ja lauseesta itse. Puuttuvat sanat ovat kukko, kani, lehmä, pöllö, pingviini, seepra ja juna, eikä yksikään niistä lue sivulla missään valmiina.",
+   "p2": "Pankin poistaminen muuttaa tehtävän luonteen: aloitussivulla lapsi valitsi seitsemästä sanasta, tässä hän kirjoittaa sanan ilman mallia ja joutuu miettimään myös sen kirjoitusasun. Ruutujen määrä on ainoa tuki – se kertoo, onko kani vai jänis oikea sana – ja se on tarkoituksellisesti heikko vihje, jonka avulla lapsi tarkistaa itsensä eikä arvaa. Sanan tuottaminen kuvan perusteella ja äänteiden kirjaaminen järjestyksessä kuuluvat OPS 2014:n vuosiluokkien 1–2 kirjoittamisen tavoitteisiin.",
+   "p3": "Yksi arkki, seitsemän sanaa, kolmekymmentäkahdeksan ruutua. Rivit viisi ja kuusi ovat leveimmät, ja niissä lause jatkuu ruutujen jälkeen seuraavalle riville, joten lue ne yhdessä ääneen kokonaisina, ettei loppu jää huomaamatta. Pisin sana on pingviini ja lyhimmät kani ja juna. Tämä sivu seuraa Täydennä lauseet -aloitussivua, jolla samat lauseet tulivat pankin kanssa; jos kirjoittaminen ilman mallia on vielä raskasta, Valitse oikea sana antaa kaksi vaihtoehtoa. Ruudut ovat isoja ja kirjain mahtuu väljästi, joten sivu käy myös käsialan harjoitteluun. Kaksi lyhintä sanaa on nelikirjaimisia, joten ruutumäärä ei erota niitä toisistaan ja kuva on pakko katsoa. Jos jokin sana ei tule mieleen, sano se ääneen ja anna lapsen laskea äänteet sormin ennen kirjoittamista.",
+   "canonicalDeckSlug": "taydenna-lauseet-g1366",
+   "carousel": [
+    {
+     "label": "Täydennä lauseet: etsi sana sanapankista",
+     "href": "taydenna-lauseet"
+    },
+    {
+     "label": "Valitse oikea sana lauseeseen kahdesta",
+     "href": "valitse-oikea-sana-lauseeseen"
+    },
+    {
+     "label": "Täydennä lause monikossa: kirjoita monikkomuoto",
+     "href": "taydenna-lause-monikossa"
+    },
+    {
+     "label": "Täydennä kolme kuvasarjaa yhdeksällä sanalla",
+     "href": "taydenna-tarina"
+    }
+   ],
+   "title": "Täydennä lause kirjainruutuihin 1. luokka | PDF",
+   "metaDescription": "Seitsemän aukkolausetta 1. luokalle ilman sanapankkia: kukko, kani, lehmä, pöllö, pingviini, seepra ja juna. Kirjoita puuttuva sana ruutuihin. Ilmainen PDF."
+  },
+  {
+   "slug": "valitse-oikea-sana-lauseeseen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-choose-the-word",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Aukkolauseiden moniste",
+   "h1": "Valitse oikea sana lauseeseen kahdesta",
+   "strand": "Lukemisen perustaidot",
+   "standard": "L.1.1.b",
+   "slotTokens": [
+    "taydenna-lauseet",
+    "1-luokka"
+   ],
+   "p1": "Kuusi numeroitua korttia allekkain. Jokaisessa on kuva, lause ja lauseen sisällä katkoviivainen laatikko, ja lauseen alla kaksi sanavaihtoehtoa omissa soikeissaan: seepra vai kirahvi, lehmä vai sika, apina vai kenguru, kani vai kettu, traktori vai bussi, sarvikuono vai norsu. Lapsi ympyröi sopivan sanan ja kirjoittaa sen sitten laatikkoon, joten jokaiselta kortilta jää kaksi merkintää – valinta ja kirjoitettu sana.",
+   "p2": "Kaksi vaihtoehtoa on tämän sivun koko idea. Vaihtoehdot ovat aina samasta joukosta – kaksi eläintä tai kaksi ajoneuvoa – joten valinta ei ratkea siitä, kumpi sana on tutumpi, vaan lapsen on luettava lause loppuun ja verrattava sitä kuvaan. Pussissaan kantaa poikastaan sopii kengurulle muttei apinalle, ja juuri se yksityiskohta on luettava. Valinnan tekeminen ja kirjoittaminen peräkkäin tukevat toisiaan: ympyröinti on nopea, kirjoittaminen kiinnittää sanan. Molemmat kuuluvat OPS 2014:n vuosiluokkien 1–2 lukemisen ja kirjoittamisen tavoitteisiin.",
+   "p3": "Yksi arkki, kuusi ympyrää, kuusi kirjoitettua sanaa. Tämä on aukkolauseiden perheen tuetuin sivu ja sopii lapselle, jolle koko sanapankin selaaminen on vielä raskasta – vaihtoehtoja on kaksi eikä seitsemää. Kirjoituslaatikot ovat leveitä, joten pisin sana sarvikuono mahtuu väljästi. Sivua kannattaa käyttää ennen Täydennä lause kirjainruutuihin -sivua, jolla mitään vaihtoehtoja ei enää anneta. Vaihtoehdot on sijoitettu lauseen alle omalle rivilleen, joten ne eivät riko lauseen luettavuutta, ja soikiot ovat riittävän isoja ympyröitäviksi. Kaksi ensimmäistä korttia ratkeaa eläimen koosta, loput neljä lauseen yksityiskohdasta, joten vaikeus kasvaa sivun edetessä. Sivun voi tehdä myös ilman kirjoittamista pelkästään ympyröimällä, jos aikaa on vähän.",
+   "canonicalDeckSlug": "taydenna-lauseet-g1367",
+   "carousel": [
+    {
+     "label": "Täydennä lauseet: etsi sana sanapankista",
+     "href": "taydenna-lauseet"
+    },
+    {
+     "label": "Täydennä lause kirjainruutuihin ilman sanapankkia",
+     "href": "taydenna-lause-kirjainruutuihin"
+    },
+    {
+     "label": "Täydennä lause monikossa: kirjoita monikkomuoto",
+     "href": "taydenna-lause-monikossa"
+    },
+    {
+     "label": "Täydennä kolme kuvasarjaa yhdeksällä sanalla",
+     "href": "taydenna-tarina"
+    }
+   ],
+   "title": "Valitse oikea sana lauseeseen 1. luokka | PDF",
+   "metaDescription": "Kuusi aukkolausetta 1. luokalle, joissa kaksi vaihtoehtoa: seepra vai kirahvi, lehmä vai sika, apina vai kenguru. Ympyröi ja kirjoita laatikkoon. Ilmainen PDF."
+  },
+  {
+   "slug": "taydenna-lause-monikossa",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-plural-nouns",
+    "theme": "",
+    "level": "2-luokka"
+   },
+   "eyebrow": "Aukkolauseiden moniste",
+   "h1": "Täydennä lause monikossa: kirjoita monikkomuoto",
+   "strand": "Kielen rakenteet",
+   "standard": "L.1.1.c",
+   "slotTokens": [
+    "taydenna-lauseet",
+    "2-luokka"
+   ],
+   "p1": "Kahdeksan numeroitua riviä, ja kunkin vasemmassa reunassa kaksi tai kolme samaa kuvaa vierekkäin: kolme lehmää, kaksi apinaa, kaksi leijonaa, kolme lentokonetta, kolme joutsenta, kaksi pingviiniä, kolme palloa ja kaksi kanaa. Rivin lause on kirjoitettu valmiiksi monikkoon – navetassa nukkuvat, puussa kiipeilevät oksilla, ruohikossa karjuvat kovaa – ja sen sisällä on yksi katkoviivainen laatikko. Lapsi kirjoittaa laatikkoon tekijän monikkomuodossa.",
+   "p2": "Verbi on painettu valmiiksi monikkoon, ja se on sivun tärkein tuki: lapsi kuulee lauseesta, että tekijöitä on monta, ja kirjoittaa siksi lehmät eikä lehmä. Näin sanan taivutus kytkeytyy lauseeseen eikä jää irralliseksi muototehtäväksi, ja kuvien lukumäärä vahvistaa saman asian kolmannella tavalla. Monikon tunnus on suomessa säännöllinen mutta vartalo vaihtelee, joten sanat on valittu niin, että muoto syntyy suoraan yksiköstä. Sanojen taivuttaminen ja kielen säännönmukaisuuksien havaitseminen ovat OPS 2014:n vuosiluokkien 1–2 kielitiedon sisältöjä.",
+   "p3": "Yksi arkki, kahdeksan lausetta, kahdeksan monikkomuotoa. Osa lauseista jatkuu laatikon jälkeen seuraavalle riville, joten lue jokainen lause ääneen kokonaisena ennen kirjoittamista – erityisesti rivi neljä, jossa verbi laskeutuvat jää omalle rivilleen. Sivu on perheen ainoa, joka käsittelee muotoa eikä sanan valintaa, ja se on siksi myös perheen ainoa 2. luokan kielioppitehtävä. Kirjoita sana yksikössä ensin ja vasta sitten monikossa, jos muoto tuottaa vaikeuksia. Kuvat ovat vasemmassa reunassa samassa kohdassa joka rivillä, joten lukumäärä on helppo tarkistaa silmäyksellä, ja rivit ovat riittävän korkeita, että lause pysyy luettavana myös kahdella rivillä. Sivu sopii myös suulliseksi harjoitukseksi: sano yksikkö, ja lapsi vastaa monikolla ennen kuin mitään kirjoitetaan.",
+   "canonicalDeckSlug": "taydenna-lauseet-g2349",
+   "carousel": [
+    {
+     "label": "Täydennä lauseet: etsi sana sanapankista",
+     "href": "taydenna-lauseet"
+    },
+    {
+     "label": "Täydennä lause kirjainruutuihin ilman sanapankkia",
+     "href": "taydenna-lause-kirjainruutuihin"
+    },
+    {
+     "label": "Valitse oikea sana lauseeseen kahdesta",
+     "href": "valitse-oikea-sana-lauseeseen"
+    },
+    {
+     "label": "Täydennä kolme kuvasarjaa yhdeksällä sanalla",
+     "href": "taydenna-tarina"
+    }
+   ],
+   "title": "Täydennä lause monikossa 2. luokka | PDF ilmainen",
+   "metaDescription": "Kahdeksan lausetta 2. luokalle, joissa kuvia on kaksi tai kolme: lehmät, apinat, leijonat, lentokoneet, joutsenet, pingviinit, pallot ja kanat. Ilmainen PDF."
+  },
+  {
+   "slug": "taydenna-tarina",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-story",
+    "theme": "",
+    "level": "2-luokka"
+   },
+   "eyebrow": "Aukkolauseiden moniste",
+   "h1": "Täydennä kolme kuvasarjaa yhdeksällä sanalla",
+   "strand": "Lukemisen perustaidot",
+   "standard": "RF.2.4.c",
+   "slotTokens": [
+    "taydenna-lauseet",
+    "2-luokka"
+   ],
+   "p1": "Yläreunassa on pankki, jossa on yhdeksän sanaa: koira, kettu, joutsen, kala, raketti, kani, lentokone, pöllö ja leija. Alla on kolme isoa korttia, ja kussakin kolme kuvaa rivissä sekä kolme lausetta, joissa kaikissa on aukko. Kortin kolme kuvaa näyttävät juuri ne kolme sanaa, jotka siihen kuuluvat, mutta eri järjestyksessä kuin lauseet. Kortti yksi kokoaa lentävät, kortti kaksi veden äärellä olevat ja kortti kolme yön eläimet.",
+   "p2": "Kolmen lauseen ryhmä on enemmän kuin yksi lause muttei vielä kertomus: lauseita yhdistää aihe – lentäminen, vesi, yö – eikä juoni, ja toisen kortin sana sitten on ainoa aikaa osoittava sana koko sivulla. Lapsen kannattaa siis lukea kortti kokonaan ennen ensimmäistäkään kirjoitusta, koska kolme kuvaa ja kolme lausetta ratkeavat yhdessä: kun kaksi on varma, kolmas jää jäljelle. Pidemmän tekstin lukeminen kokonaisuutena kuuluu OPS 2014:n vuosiluokkien 1–2 lukemisen tavoitteisiin.",
+   "p3": "Yksi arkki, kolme korttia, yhdeksän aukkoa. Jokaista pankin sanaa käytetään täsmälleen kerran, joten valmiissa työssä pankin pitää olla tyhjä – se on nopein tapa tarkistaa. Kortit ovat riippumattomia, joten ne voi tehdä missä järjestyksessä tahansa tai jakaa kolmelle lapselle. Tämä on aukkolauseiden perheen pisin sivu ja tulee luontevasti Täydennä lauseet -aloitussivun jälkeen, kun yksittäisen lauseen täydentäminen sujuu. Kortit ovat isoja ja lauseet väljästi aseteltuja, joten kolme peräkkäistä lausetta ei näytä tekstimassalta vaan kolmelta erilliseltä riviltä. Pankki on sivun yläreunassa yhtenä ryhmänä, joten käytetyt sanat kannattaa yliviivata sitä mukaa kun ne kirjoitetaan. Valmiin kortin voi lukea ääneen kolmena lauseena, jolloin kuulee heti, sopiiko jokin sana väärään kohtaan.",
+   "canonicalDeckSlug": "taydenna-lauseet-g2350",
+   "carousel": [
+    {
+     "label": "Täydennä lauseet: etsi sana sanapankista",
+     "href": "taydenna-lauseet"
+    },
+    {
+     "label": "Täydennä lause kirjainruutuihin ilman sanapankkia",
+     "href": "taydenna-lause-kirjainruutuihin"
+    },
+    {
+     "label": "Valitse oikea sana lauseeseen kahdesta",
+     "href": "valitse-oikea-sana-lauseeseen"
+    },
+    {
+     "label": "Täydennä lause monikossa: kirjoita monikkomuoto",
+     "href": "taydenna-lause-monikossa"
+    }
+   ],
+   "title": "Täydennä tarina 2. luokka | tulostettava PDF ilmainen",
+   "metaDescription": "Kolme kolmen lauseen ryhmää 2. luokalle ja yhdeksän sanan pankki: lentokone, raketti, leija, joutsen, kala, koira, pöllö, kettu ja kani. Ilmainen PDF."
+  },
+  {
+   "slug": "yhdista-lause-kuvaan",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "match-the-sentence-to-the-picture",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Aukkolauseiden moniste",
+   "h1": "Yhdistä lause kuvaan: kumpi täydentää aukon?",
+   "strand": "Lukemisen perustaidot",
+   "standard": "RF.1.4.c",
+   "slotTokens": [
+    "taydenna-lauseet",
+    "1-luokka"
+   ],
+   "p1": "Vasemmassa sarakkeessa on kuusi lausekorttia, ja kussakin lause, jonka sisällä on tyhjä katkoviivainen laatikko: aitauksessa rypee mudassa, maatilalla antaa meille maitoa, kärsällään suihkuttaa vettä, ilmassa pysyy pyörivien siipien avulla, puunrungossa nakuttaa reikiä. Oikeassa sarakkeessa on kuusi kuvaa eri järjestyksessä – lehmä, tikka, seepra, helikopteri, sika ja norsu. Molemmilla puolilla on oranssi piste, ja lapsi piirtää viivan lauseesta siihen kuvaan, joka täyttää aukon.",
+   "p2": "Aukko jää tällä sivulla tyhjäksi, ja se on tarkoitus: lapsi ei kirjoita sanaa vaan osoittaa sen, joten koko työ on lukemista. Lause on luettava loppuun asti, sillä tunnistettava vihje on aina lauseen jälkimmäisessä osassa – pyörivät siivet, nakuttaminen puunrunkoon – eikä alussa. Kuusi lausetta ja kuusi kuvaa muodostavat suljetun parijoukon, joten viimeinen pari löytyy poissulkemalla, jos edelliset viisi ovat oikein. Lukeminen ymmärtäen ja merkityksen päättely tekstistä ovat OPS 2014:n vuosiluokkien 1–2 lukemisen tavoitteita.",
+   "p3": "Yksi arkki, kuusi viivaa, ei kirjoittamista. Tämä on aukkolauseiden perheen ainoa sivu, jolla kynä ei kirjoita sanaakaan, ja siksi se sopii lapselle, joka lukee jo sujuvasti mutta kirjoittaa vielä hitaasti. Lausekortit ovat kapeita ja lause jatkuu useimmilla korteilla toiselle riville, joten sivu kannattaa lukea rauhassa. Käytä sitä aloitussivun rinnalla tai sen sijasta, jos haluat mitata pelkkää lukemista. Sarakkeiden väliin on jätetty avoin kaista pisteille, joten kuusi viivaa mahtuu risteämään selkeästi. Kaksi lausetta kuudesta kertoo koneesta eikä eläimestä, mikä pitää lukijan hereillä, koska oletus eläimestä ei päde joka rivillä. Jos viivoista tulee sekavia, merkitse parit ensin numeroin ja piirrä viivat vasta lopuksi.",
+   "canonicalDeckSlug": "taydenna-lauseet-g1368",
+   "carousel": [
+    {
+     "label": "Täydennä lauseet: etsi sana sanapankista",
+     "href": "taydenna-lauseet"
+    },
+    {
+     "label": "Täydennä lause kirjainruutuihin ilman sanapankkia",
+     "href": "taydenna-lause-kirjainruutuihin"
+    },
+    {
+     "label": "Valitse oikea sana lauseeseen kahdesta",
+     "href": "valitse-oikea-sana-lauseeseen"
+    },
+    {
+     "label": "Täydennä lause monikossa: kirjoita monikkomuoto",
+     "href": "taydenna-lause-monikossa"
+    }
+   ],
+   "title": "Yhdistä lause kuvaan 1. luokka | tulostettava PDF",
+   "metaDescription": "Kuusi aukkolausetta ja kuusi kuvaa 1. luokalle: lehmä, tikka, seepra, helikopteri, sika ja norsu. Piirrä viiva lauseesta siihen kuvaan, joka sopii. Ilmainen PDF."
+  },
+  {
+   "slug": "parillinen-vai-pariton-kaksi-yhta-suurta-lukua",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-write-two-equal-addends",
+    "theme": "",
+    "level": "2-luokka"
+   },
+   "eyebrow": "Parillisten ja parittomien moniste",
+   "h1": "Kaksi yhtä suurta lukua ja ylijäävä",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "2.OA.C.3",
+   "slotTokens": [
+    "parilliset-ja-parittomat-luvut",
+    "2-luokka"
+   ],
+   "p1": "Kahdeksan korttia kahdessa sarakkeessa. Jokaisen yläreunassa lukee yhtälö, jossa luku on purettu kolmeen tyhjään ruutuun: luku, yhtäsuuruusmerkki, ruutu, plus, ruutu, plus ja pieni ruutu, jonka alla lukee jää yli. Kortin alaosassa on sama määrä täytettyjä pisteitä. Luvut ovat 17, 3, 18, 12, 8, 13, 14 ja 19 – neljä parillista ja neljä paritonta. Lapsi ympyröi pisteet kaksi kerrallaan ja kirjoittaa sitten luvun kahtena yhtä suurena osana sekä ylijäävän.",
+   "p2": "Merkintätapa on tämän sivun anti: 18 = 9 + 9 + 0 ja 17 = 8 + 8 + 1. Kun myös parilliselle luvulle kirjoitetaan ylijäävään ruutuun nolla, merkintä pysyy samana koko sivulla eikä lapselle jää käsitystä, että ylijäävä olisi jotain vain joillakin luvuilla. Kahtia jakaminen yhtä suuriin osiin on parillisuuden varsinainen määritelmä, ja tällä sivulla se kirjoitetaan näkyviin. Luvun esittäminen summana ja parillisuuden perusteleminen kuuluvat OPS 2014:n vuosiluokkien 1–2 laskutaidon sisältöihin.",
+   "p3": "Yksi arkki, kahdeksan lukua, kaksikymmentäneljä ruutua. Huomaa, että pisteet on aseteltu kymmenen pisteen riveihin, joten ne eivät ole valmiiksi pareittain – lapsen on itse piirrettävä ympyrät kahden pisteen ympäri, ja juuri se on tehtävän työläin ja hyödyllisin osa. Jos kymmenen rivi houkuttelee laskemaan kymmenittäin, peitä toinen rivi hetkeksi. Tämä sivu syventää aloitussivun lajittelua ja on perheen ainoa, jolla parillisuus kirjoitetaan yhtälönä.",
+   "canonicalDeckSlug": "parilliset-ja-parittomat-luvut-g2351",
+   "carousel": [
+    {
+     "label": "Parilliset ja parittomat luvut 20:een asti",
+     "href": "parilliset-ja-parittomat-luvut"
+    },
+    {
+     "label": "Voiko kuvat jakaa tasan kahdelle kaverille?",
+     "href": "voiko-jakaa-tasan-kahdelle"
+    },
+    {
+     "label": "Parilliset ja parittomat luvut sataan asti",
+     "href": "parilliset-ja-parittomat-luvut-sataan-asti"
+    },
+    {
+     "label": "Parillinen vai pariton summa? Päättele ilman laskemista",
+     "href": "parillinen-vai-pariton-summa"
+    }
+   ],
+   "title": "Kaksi yhtä suurta lukua 2. luokka | tulostettava PDF",
+   "metaDescription": "Kahdeksan lukua 2. luokalle: 17, 3, 18, 12, 8, 13, 14 ja 19. Ympyröi pisteet pareittain ja kirjoita luku kahtena yhtä suurena osana sekä ylijäävä. Ilmainen PDF."
+  },
+  {
+   "slug": "voiko-jakaa-tasan-kahdelle",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-can-two-friends-share-fairly",
+    "theme": "zoo_animals",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Parillisten ja parittomien moniste",
+   "h1": "Voiko kuvat jakaa tasan kahdelle kaverille?",
+   "strand": "Luvut ja laskutoimitukset",
+   "slotTokens": [
+    "parilliset-ja-parittomat-luvut",
+    "elaintarhan-elaimet",
+    "1-luokka"
+   ],
+   "p1": "Sivulla on kuusi vaaleaa palkkia allekkain, ja jokaisen alussa yksi kasa eläintarhan eläimiä: neljä laiskiaista, seitsemän sutta, viisi hirveä, kahdeksan saukkoa, kuusi kirahvia ja kolme norsua. Yhteen riviin mahtuu enintään viisi kuvaa, joten kolme pienintä kasaa on yhdellä rivillä ja kolme suurinta taittuu kahdelle. Palkin oikeassa osassa on kaksi nimikoitua katkoviivaruutua – vaikkapa Sofia ja Eeli – niiden perässä pienempi ruutu otsikolla jää yli ja lopuksi kaksi soikiota, parillinen ja pariton. Lapsi jakaa kuvat vuorotellen kahdelle, kirjaa kummankin osuuden ja ympyröi oikean soikion.",
+   "p2": "Kahdelle jakaminen on parillisuuden alkuperäinen merkitys, ja tällä sivulla se tehdään käsin ennen kuin asiasta puhutaan sääntönä. Kasoissa on kolme, neljä, viisi, kuusi, seitsemän ja kahdeksan eläintä – jokainen luku tältä väliltä täsmälleen kerran – ja kolmessa kasassa jako menee tasan, kolmesta jää yksi yli. Järjestys ei noudata kaavaa: edellisestä palkista ei voi päätellä seuraavaa. Nimet tekevät jaosta oikean: kuvat annetaan jollekulle eikä vain ryhmitellä, ja ylijäävä eläin on se hetki, jolloin pariton tuntuu epäreilulta. Tasan jakaminen ja ylijäävän huomaaminen kuuluvat OPS 2014:n vuosiluokkien 1–2 lukukäsitteen sisältöihin.",
+   "p3": "Yksi arkki, kuusi kasaa, kahdeksantoista kirjoitusruutua. Suurin kasa on kahdeksan saukkoa, joten laskeminen pysyy pienissä luvuissa ja huomio jää itse jakamiseen. Jakajia on kahdeksan eri nimellä – Aino, Aada, Onni, Sofia, Eeli, Helmi, Leo ja Väinö – ja osa palaa uudestaan: Helmi jakaa kolmessa palkissa. Tee jako ensin oikeasti: kaksi pinoa pöydälle, yksi kuva kerrallaan vuorotellen, ja vasta sitten kynä paperille. Sivu vie parillisuuden lähimmäs lapsen arkea, ja se kannattaa tehdä ennen aloitussivun lukujen lajittelua.",
+   "canonicalDeckSlug": "parilliset-ja-parittomat-luvut-elaintarhan-elaimet-g1369",
+   "carousel": [
+    {
+     "label": "Parilliset ja parittomat luvut 20:een asti",
+     "href": "parilliset-ja-parittomat-luvut"
+    },
+    {
+     "label": "Kaksi yhtä suurta lukua ja ylijäävä",
+     "href": "parillinen-vai-pariton-kaksi-yhta-suurta-lukua"
+    },
+    {
+     "label": "Parilliset ja parittomat luvut sataan asti",
+     "href": "parilliset-ja-parittomat-luvut-sataan-asti"
+    },
+    {
+     "label": "Parillinen vai pariton summa? Päättele ilman laskemista",
+     "href": "parillinen-vai-pariton-summa"
+    }
+   ],
+   "title": "Voiko jakaa tasan kahdelle? 1. luokka | PDF ilmainen",
+   "metaDescription": "Kuusi kasaa eläintarhan eläimiä 1. luokalle, kolmesta kahdeksaan: jaa kuvat kahdelle kaverille ja kirjoita kummankin osuus sekä ylijäävä. Ilmainen 1. luokan PDF."
+  },
+  {
+   "slug": "parilliset-ja-parittomat-luvut-sataan-asti",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-under-100-look-at-the-ones-box",
+    "theme": "",
+    "level": "2-luokka"
+   },
+   "eyebrow": "Parillisten ja parittomien moniste",
+   "h1": "Parilliset ja parittomat luvut sataan asti",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "2.OA.C.3",
+   "slotTokens": [
+    "parilliset-ja-parittomat-luvut",
+    "2-luokka"
+   ],
+   "p1": "Sivun yläreunassa on sääntölaatikko: luku on parillinen, jos se päättyy numeroon 0, 2, 4, 6 tai 8, ja pariton, jos se päättyy numeroon 1, 3, 5, 7 tai 9. Alla on kaksitoista riviä kahdessa sarakkeessa. Kullakin rivillä luku on esitetty kahtena erillisenä ruutuna, joiden yläpuolella lukevat kirjaimet K ja Y: kymmenten numero valkoisessa ruudussa ja ykkösten numero korostettuna oranssissa. Oikealla on kaksi ympyrää otsikoiden parillinen ja pariton alla.",
+   "p2": "Luku ei ole sivulla missään kokonaisena – se on aina jaettu kymmeniin ja ykkösiin – ja juuri se tekee säännöstä näkyvän. Kun ykkösten ruutu on korostettu ja kymmenten ruutu vaalea, lapsi näkee mihin katsoa ilman että sitä tarvitsee joka rivillä muistuttaa. Kaksitoista riviä jakautuu tasan kuuteen parilliseen ja kuuteen parittomaan, joten rastittaminen samaan sarakkeeseen ei toimi. Paikka-arvon ymmärtäminen ja lukujen ominaisuuksien päättely ovat OPS 2014:n vuosiluokkien 1–2 lukukäsitteen sisältöjä.",
+   "p3": "Yksi arkki, kaksitoista lukua, kaksikymmentäneljä ympyrää. Sivu on nopea tehdä ja vaikea unohtaa, koska sääntö luetaan ylhäältä joka kerta – peitä sääntölaatikko, kun haluat tarkistaa, onko se jäänyt mieleen. Huomaa, että lukua ei tällä sivulla lueta ääneen missään vaiheessa, joten kysy se erikseen: mikä luku 8 ja 6 yhdessä ovat. Tämä sivu laajentaa aloitussivun lukualueen kahteenkymmeneen sadaan asti. Ruudut ovat isoja ja ympyrät selkeästi eroteltuja, joten merkintä pysyy siistinä myös nopeasti tehtynä. Sivun kaksi saraketta ovat toisistaan riippumattomat, joten tehtävän voi puolittaa ja jättää toisen sarakkeen myöhemmäksi. Jos sääntö on jo tuttu, mittaa aikaa: kaksitoista riviä on tarkoitettu ratkaistavaksi silmäyksellä eikä laskemalla.",
+   "canonicalDeckSlug": "parilliset-ja-parittomat-luvut-g2352",
+   "carousel": [
+    {
+     "label": "Parilliset ja parittomat luvut 20:een asti",
+     "href": "parilliset-ja-parittomat-luvut"
+    },
+    {
+     "label": "Kaksi yhtä suurta lukua ja ylijäävä",
+     "href": "parillinen-vai-pariton-kaksi-yhta-suurta-lukua"
+    },
+    {
+     "label": "Voiko kuvat jakaa tasan kahdelle kaverille?",
+     "href": "voiko-jakaa-tasan-kahdelle"
+    },
+    {
+     "label": "Parillinen vai pariton summa? Päättele ilman laskemista",
+     "href": "parillinen-vai-pariton-summa"
+    }
+   ],
+   "title": "Parilliset ja parittomat sataan asti 2. luokka | PDF",
+   "metaDescription": "Kaksitoista kaksinumeroista lukua 2. luokalle paikka-arvoruuduissa: katso vain ykkösten ruutua ja rastita, onko luku parillinen vai pariton. Ilmainen PDF."
+  },
+  {
+   "slug": "parillinen-vai-pariton-summa",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-sum-decide-without-adding",
+    "theme": "",
+    "level": "3-luokka"
+   },
+   "eyebrow": "Parillisten ja parittomien moniste",
+   "h1": "Parillinen vai pariton summa? Päättele ilman laskemista",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "3.OA.D.9",
+   "slotTokens": [
+    "parilliset-ja-parittomat-luvut",
+    "3-luokka"
+   ],
+   "p1": "Sivun yläreunassa on kolmirivinen sääntötaulukko: parillinen ja parillinen tekevät parillisen, pariton ja pariton tekevät parillisen, parillinen ja pariton tekevät parittoman. Alla on kaksitoista laskua kahdessa sarakkeessa, ja kussakin kaksi kolminumeroista lukua yhteenlaskumerkin molemmin puolin – 963 + 573, 549 + 858, 861 + 316 ja niin edelleen. Kummankin luvun ykkösnumero on alleviivattu oranssilla. Oikealla on kaksi isoa ympyrää sarakkeiden parillinen ja pariton alla.",
+   "p2": "Summaa ei lasketa kertaakaan, ja siinä on koko sivun idea: parillisuus ratkeaa pelkistä ykkösnumeroista, vaikka luvut olisivat kuinka isoja. Kolminumeroiset luvut on valittu juuri siksi – ne ovat liian suuria laskettaviksi päässä, joten oikotie on käytettävä. Kuusi laskua kahdestatoista antaa parillisen summan ja kuusi parittoman, ja kaikki neljä yhdistelmää esiintyvät. Lukujen ominaisuuksien käyttäminen päättelyn välineenä ja säännön soveltaminen ovat OPS 2014:n vuosiluokkien 3–6 matemaattisen ajattelun sisältöjä.",
+   "p3": "Yksi arkki, kaksitoista päättelyä, ei yhtään laskutoimitusta. Taulukossa on kolme riviä, mutta yhdistelmiä on neljä: pariton ja parillinen tässä järjestyksessä ei lue taulukossa erikseen, vaikka kolme laskua kahdestatoista on juuri sitä muotoa. Sano siis ääneen, että järjestys ei vaikuta summaan, tai lisää rivi itse taulukon alle ennen aloitusta. Tämä on perheen vaativin sivu ja tulee luontevasti Luvut sataan asti -sivun jälkeen. Laskut ovat kahdessa sarakkeessa ja ympyrät riittävän isoja rastitettaviksi, joten sivu etenee nopeasti, kun sääntö on hallussa. Tarkista lopuksi yksi lasku laskemalla se oikeasti – jos päättely ja laskutoimitus antavat saman vastauksen, sääntöön voi luottaa lopuissakin. Sivu sopii myös pariharjoitukseksi, jossa toinen päättelee ja toinen tarkistaa laskemalla.",
+   "canonicalDeckSlug": "parilliset-ja-parittomat-luvut-g3386",
+   "carousel": [
+    {
+     "label": "Parilliset ja parittomat luvut 20:een asti",
+     "href": "parilliset-ja-parittomat-luvut"
+    },
+    {
+     "label": "Kaksi yhtä suurta lukua ja ylijäävä",
+     "href": "parillinen-vai-pariton-kaksi-yhta-suurta-lukua"
+    },
+    {
+     "label": "Voiko kuvat jakaa tasan kahdelle kaverille?",
+     "href": "voiko-jakaa-tasan-kahdelle"
+    },
+    {
+     "label": "Parilliset ja parittomat luvut sataan asti",
+     "href": "parilliset-ja-parittomat-luvut-sataan-asti"
+    }
+   ],
+   "title": "Parillinen vai pariton summa 3. luokka | PDF",
+   "metaDescription": "Kaksitoista yhteenlaskua 3. luokalle, joissa ykkösnumero on alleviivattu: käytä sääntötaulukkoa ja rastita, onko summa parillinen vai pariton. Ilmainen PDF."
+  },
+  {
+   "slug": "parillinen-vai-pariton-laske-kuvat-pareittain",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-count-the-pictures-in-pairs",
+    "theme": "vehicles",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Parillisten ja parittomien moniste",
+   "h1": "Laske ajoneuvot pareittain: parillinen vai pariton?",
+   "strand": "Luvut ja laskutoimitukset",
+   "slotTokens": [
+    "parilliset-ja-parittomat-luvut",
+    "ajoneuvot",
+    "1-luokka"
+   ],
+   "p1": "Kuusi leveää riviä, ja kunkin vasemmassa osassa joukko samanlaisia ajoneuvoja: kuusitoista maasturia, neljätoista helikopteria, seitsemäntoista moottoripyörää, kahdeksantoista polkupyörää, yksitoista autoa ja kolmetoista kuorma-autoa. Kuvat on ladottu yhdeksän kappaleen riveihin, joten isommat joukot jatkuvat toiselle riville. Oikeassa reunassa on yksi katkoviivainen ruutu otsikolla parit sekä kaksi soikeaa merkkiä, parillinen ja pariton. Lapsi laskee kuvat, ympyröi ne kaksi kerrallaan ja kirjoittaa parien määrän.",
+   "p2": "Parin ympyröiminen on tässä vastaus eikä apukeino: kun kaikki kuvat on saatu pareiksi, joukko on parillinen, ja jos yksi jää ilman paria, se on pariton. Luvut 11–18 ovat suurimmat koko perheessä, joten sivu harjoittaa samalla huolellista laskemista – kahdeksantoista polkupyörää ei lasketa vahingossa oikein. Kolme riviä on parillisia ja kolme parittomia. Lukumäärän selvittäminen ryhmittelemällä ja parillisuuden havaitseminen ovat OPS 2014:n vuosiluokkien 1–2 lukukäsitteen sisältöä.",
+   "p3": "Yksi arkki, kuusi riviä, kuusi lukua ja kuusi ympyröintiä. Huomaa, että rivillä on ainoastaan parien ruutu eikä erillistä ruutua ylijäävälle – parittomilla riveillä yksin jäävä kuva kannattaa siis merkitä rastilla tai renkaalla, jotta perustelu näkyy. Koska kuvia on yhdeksän rivissä, moni pari osuu rivin vaihteeseen; käytä sormea apuna. Tämä sivu on aloitussivun konkreettinen pari, ja se tehdään mieluiten ennen sitä. Sivu on perheen kuvarikkain, ja siinä on yhteensä lähes yhdeksänkymmentä kuvaa, joten varaa sille reilusti aikaa eikä sitä kannata teettää kiireessä. Rivit voi myös jakaa kahdelle päivälle. Ajoneuvot ovat isoja ja värikkäitä, joten kuvan tunnistaminen ei vie huomiota itse laskemiselta.",
+   "canonicalDeckSlug": "parilliset-ja-parittomat-luvut-ajoneuvot-g1370",
+   "carousel": [
+    {
+     "label": "Parilliset ja parittomat luvut 20:een asti",
+     "href": "parilliset-ja-parittomat-luvut"
+    },
+    {
+     "label": "Kaksi yhtä suurta lukua ja ylijäävä",
+     "href": "parillinen-vai-pariton-kaksi-yhta-suurta-lukua"
+    },
+    {
+     "label": "Voiko kuvat jakaa tasan kahdelle kaverille?",
+     "href": "voiko-jakaa-tasan-kahdelle"
+    },
+    {
+     "label": "Parilliset ja parittomat luvut sataan asti",
+     "href": "parilliset-ja-parittomat-luvut-sataan-asti"
+    }
+   ],
+   "title": "Laske kuvat pareittain 1. luokka | tulostettava PDF",
+   "metaDescription": "Kuusi riviä ajoneuvoja 1. luokalle: 16 maasturia, 14 helikopteria, 17 moottoripyörää, 18 polkupyörää, 11 autoa ja 13 kuorma-autoa. Laske parit. Ilmainen PDF."
+  },
+  {
+   "slug": "korvaa-nimi-pronominilla",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-replace-the-name-with-a-pronoun",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Pronominien moniste",
+   "h1": "Korvaa nimi pronominilla toisessa lauseessa",
+   "strand": "Kielen rakenteet",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "han-vai-he",
+    "1-luokka"
+   ],
+   "p1": "Yläreunassa on pieni sanapankki kahdella sanalla: Hän ja He. Alla on kahdeksan korttia, ja kussakin kaksi peräkkäistä riviä. Ensimmäisellä rivillä on kokonainen lause nimineen, esimerkiksi Eeli ja Leo hyppivät narua, ja toisella rivillä sama lause ilman nimeä: alussa katkoviivainen laatikko ja sen jälkeen hyppivät narua. Kortin vasemmassa reunassa on yksi tai kaksi ihmistä kuvattuna. Viisi lausetta on yksikössä ja kolme monikossa.",
+   "p2": "Lausepari näyttää korvaamisen liikkeenä: ensin sanotaan nimi, sitten sama asia lyhemmin, ja lapsi näkee oman silmänsä edessä, mitä pronomini tekee tekstissä. Suomessa myös verbi paljastaa luvun – hyppivät on monikko, ruokkii yksikkö – joten toinen rivi on itsessään johdonmukainen ja lapsi voi tarkistaa valintansa lukemalla lauseen ääneen. Se tekee tehtävästä armollisen: virhe kuuluu heti. Pronominien käyttö ja lauseen tarkistaminen ääneen lukemalla kuuluvat OPS 2014:n vuosiluokkien 1–2 kielitiedon tavoitteisiin.",
+   "p3": "Yksi arkki, kahdeksan lauseparia, kahdeksan kirjoitettua sanaa. Sanat on painettu pankkiin isolla alkukirjaimella, koska ne aloittavat lauseen – sama asia kannattaa sanoa ääneen, sillä se on tälle sivulle tärkeä oikeinkirjoituksen yksityiskohta. Laatikot ovat leveitä ja lause jatkuu heti niiden jälkeen. Tämä sivu seuraa Hän vai he -aloitussivua ja johtaa Kirjoita lause uudelleen -sivuun, jolla koko lause kirjoitetaan itse. Kuva kortin reunassa kertoo henkilöiden määrän, joten lapsi voi tarkistaa valintansa kolmella tavalla: kuvasta, nimestä ja verbistä. Kortit ovat itsenäisiä, joten sivun voi katkaista puoliväliin ja jatkaa toisella kerralla. Lue valmis sivu lopuksi ääneen kahdeksan lausetta peräkkäin, niin toistuva rakenne jää korvaan.",
+   "canonicalDeckSlug": "han-vai-he-g1371",
+   "carousel": [
+    {
+     "label": "Hän vai he? Ympyröi sana, joka korvaa nimen",
+     "href": "han-vai-he"
+    },
+    {
+     "label": "Kuka on hän? Yhdistä pronomini oikeaan nimeen",
+     "href": "kuka-on-han-pronomini-lauseessa"
+    },
+    {
+     "label": "Lajittele nimikortit: hän vai he?",
+     "href": "lajittele-nimet-han-vai-he"
+    },
+    {
+     "label": "Kirjoita lause uudelleen pronominilla",
+     "href": "kirjoita-lause-uudelleen-pronominilla"
+    }
+   ],
+   "title": "Korvaa nimi pronominilla 1. luokka | PDF ilmainen",
+   "metaDescription": "Kahdeksan lauseparia 1. luokalle: ensin lause nimellä, sitten sama lause aukolla. Kirjoita pankista Hän tai He lauseen alkuun. Ilmainen 1. luokan PDF."
+  },
+  {
+   "slug": "kuka-on-han-pronomini-lauseessa",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-who-is-he-pronouns-in-sentences",
+    "theme": "",
+    "level": "2-luokka"
+   },
+   "eyebrow": "Pronominien moniste",
+   "h1": "Kuka on hän? Yhdistä pronomini oikeaan nimeen",
+   "strand": "Kielen rakenteet",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "han-vai-he",
+    "2-luokka"
+   ],
+   "p1": "Viisi isoa korttia allekkain. Kortin oikeassa osassa on kolme riviä: ensin lause, jossa on kolme nimeä – Emma, Aaro ja Eino leipovat – ja sen alla kaksi jatkolausetta, joista toinen alkaa sanalla Hän ja toinen sanalla He. Kortin vasemmassa reunassa on kaksi nimilappua kuvineen: yksittäinen nimi ja nimipari. Oranssit pisteet yhdistävät puolet toisiinsa, ja lapsi piirtää viivan kummastakin pronominista sille kuuluvaan nimilappuun.",
+   "p2": "Suomen hän ei kerro sukupuolta eikä muuta henkilöstä mitään, joten viittauskohde ratkeaa tällä sivulla luvun perusteella: yksikkö osoittaa yksittäiseen nimilappuun ja monikko nimipariin. Tehtävä on siis luvun tunnistamista lauseessa eikä henkilön päättelyä tekstistä – sitä suomen kielellä ei voi tässä muodossa tehdä, ja se on hyvä sanoa oppilaalle suoraan. Huomaa myös, että yksittäiseksi nimetty henkilö on joka kortilla aloituslauseen ensimmäinen nimi. Pronominien viittaussuhteet ja lauseiden yhdistäminen kuuluvat OPS 2014:n vuosiluokkien 1–2 kielitiedon sisältöihin.",
+   "p3": "Yksi arkki, viisi korttia, kymmenen viivaa. Kortit ovat isoja ja lauseet väljästi aseteltuja, joten kolme riviä pysyy luettavana myös hitaalle lukijalle. Käytä sivua keskusteluun: kysy ääneen, voisiko Hän tarkoittaa jotakuta muuta kortin kolmesta nimestä, ja miten suomessa sen kertoisi – vastaus on, että nimi olisi toistettava. Tämä on pronominiperheen ainoa viivatehtävä ja sopii Korvaa nimi pronominilla -sivun jälkeen. Nimilaput ja pronominit on yhdistetty pisteillä, joten viivat kulkevat lyhyen matkan eivätkä sotkeudu, vaikka kortilla on kaksi paria. Sivu sopii myös pariharjoitukseksi, jossa toinen lukee kortin ääneen ja toinen sanoo, kumpaan lappuun viiva vedetään. Valmiin kortin voi lukea kolmena lauseena kokonaisuutena, jolloin kuulee, miten pronomini sitoo lauseet yhteen.",
+   "canonicalDeckSlug": "han-vai-he-g2353",
+   "carousel": [
+    {
+     "label": "Hän vai he? Ympyröi sana, joka korvaa nimen",
+     "href": "han-vai-he"
+    },
+    {
+     "label": "Korvaa nimi pronominilla toisessa lauseessa",
+     "href": "korvaa-nimi-pronominilla"
+    },
+    {
+     "label": "Lajittele nimikortit: hän vai he?",
+     "href": "lajittele-nimet-han-vai-he"
+    },
+    {
+     "label": "Kirjoita lause uudelleen pronominilla",
+     "href": "kirjoita-lause-uudelleen-pronominilla"
+    }
+   ],
+   "title": "Pronomini lauseessa 2. luokka | tulostettava PDF",
+   "metaDescription": "Viisi lauseryhmää 2. luokalle: kolme nimeä aloittaa, sitten Hän ja He jatkavat. Piirrä viiva pronominista siihen nimeen tai nimipariin, jota se tarkoittaa. Ilmainen PDF."
+  },
+  {
+   "slug": "lajittele-nimet-han-vai-he",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-sort-the-names-he-she-or-they",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Pronominien moniste",
+   "h1": "Lajittele nimikortit: hän vai he?",
+   "strand": "Kielen rakenteet",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "han-vai-he",
+    "1-luokka"
+   ],
+   "p1": "Sivun yläosassa on kymmenen nimikorttia kahdessa rivissä, ja jokaisessa yksi tai kaksi ihmistä kuvattuna sekä nimi tai nimipari: Ella, Alma, Niko, Aino ja Onni, Emma, Elsa ja Anni, Aada, Leo ja Juho, Iida sekä Otto. Alla on kaksi isoa laatikkoa otsikoilla hän ja he, ja kummassakin seitsemän kirjoitusriviä. Lapsi lukee kortit ja kirjoittaa jokaisen nimen siihen laatikkoon, jonka sanaa kyseisestä henkilöstä käytetään.",
+   "p2": "Lajittelu on tässä kirjoittamista eikä merkitsemistä, ja siinä on ero perheen muihin sivuihin: nimi on kopioitava kokonaan, joten iso alkukirjain tulee harjoiteltua kymmenen kertaa saman tehtävän sisällä. Seitsemän korttia menee hän-laatikkoon ja kolme he-laatikkoon, joten jako ei ole tasan – ja juuri se pakottaa lukemaan jokaisen kortin sen sijaan että vastauksia jaettaisiin vuorotellen. Nimien kirjoittaminen isolla alkukirjaimella ja pronominin valinta kuuluvat OPS 2014:n vuosiluokkien 1–2 kielitiedon sisältöihin.",
+   "p3": "Yksi arkki, kymmenen nimeä, kaksi laatikkoa. Molemmissa laatikoissa on seitsemän riviä, joten he-laatikkoon jää neljä tyhjää riviä – se ei ole virhe vaan kertoo, että jako on epätasainen. Nimikortit näyttävät myös henkilöiden lukumäärän, joten kortin voi ratkaista katsomalla, jos lukeminen on vielä työlästä. Tämä sivu sopii Hän vai he -aloitussivun jälkeen, kun valinta on tuttu ja työ siirtyy ympyröinnistä kirjoittamiseen. Kortit on ladottu kahteen riviin ja laatikot niiden alle, joten koko tehtävä näkyy kerralla eikä sivua tarvitse selata. Kirjoitusrivit ovat pitkiä, joten myös nimipari mahtuu yhdelle riville kokonaisena. Kun kaikki kymmenen nimeä on kirjoitettu, laske laatikoiden rivit: seitsemän ja kolme, yhteensä kymmenen.",
+   "canonicalDeckSlug": "han-vai-he-g1372",
+   "carousel": [
+    {
+     "label": "Hän vai he? Ympyröi sana, joka korvaa nimen",
+     "href": "han-vai-he"
+    },
+    {
+     "label": "Korvaa nimi pronominilla toisessa lauseessa",
+     "href": "korvaa-nimi-pronominilla"
+    },
+    {
+     "label": "Kuka on hän? Yhdistä pronomini oikeaan nimeen",
+     "href": "kuka-on-han-pronomini-lauseessa"
+    },
+    {
+     "label": "Kirjoita lause uudelleen pronominilla",
+     "href": "kirjoita-lause-uudelleen-pronominilla"
+    }
+   ],
+   "title": "Lajittele nimet: hän vai he 1. luokka | PDF",
+   "metaDescription": "Kymmenen nimikorttia 1. luokalle ja kaksi laatikkoa: kirjoita jokainen nimi sen sanan alle, jota kyseisestä henkilöstä käytetään. Ilmainen 1. luokan PDF."
+  },
+  {
+   "slug": "kirjoita-lause-uudelleen-pronominilla",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-rewrite-the-sentence-with-a-pronoun",
+    "theme": "",
+    "level": "2-luokka"
+   },
+   "eyebrow": "Pronominien moniste",
+   "h1": "Kirjoita lause uudelleen pronominilla",
+   "strand": "Kielen rakenteet",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "han-vai-he",
+    "2-luokka"
+   ],
+   "p1": "Kahdeksan lausetta allekkain, ja kunkin vasemmassa reunassa yksi tai kaksi ihmistä kuvattuna. Lauseet ovat lyhyitä ja kokonaisia: Eeli piirtää kissan, Onni ja Iida hyppivät narua, Emma ja Aada ajavat pyörällä, Aaro ja Leo maalaavat taulun, Juho rakentaa tornin, Alma menee puistoon, Eino laulaa laulun ja Elsa syö omenaa. Jokaisen lauseen alla on kolmiviivainen kirjoitusrivi, jolle lapsi kirjoittaa koko lauseen uudelleen pronominia käyttäen.",
+   "p2": "Tämä on perheen ainoa sivu, jolla lause kirjoitetaan kokonaan. Suomessa verbi on jo valmiiksi oikeassa persoonassa, joten muutos koskee vain ensimmäistä sanaa – Eeli piirtää kissan muuttuu muotoon Hän piirtää kissan – ja tehtävän työ onkin kopioimisessa, oikeinkirjoituksessa ja lopetusmerkissä. Kahdeksan lausetta riittää siihen, että iso alkukirjain ja piste tulevat toistettua ilman että sivu muuttuu puuduttavaksi. Lauseen kirjoittaminen kokonaisena ja välimerkkien käyttö ovat OPS 2014:n vuosiluokkien 1–2 kirjoittamisen tavoitteita.",
+   "p3": "Yksi arkki, kahdeksan lausetta, kahdeksan riviä. Rivit ovat kolmiviivaisia ja leveitä, joten pisinkin lause mahtuu yhdelle riville ilman ahtautta. Viisi lausetta on yksikössä ja kolme monikossa, joten molemmat pronominit tulevat käyttöön useammin kuin kerran. Tämä on pronominiperheen vaativin sivu ja luonteva päätös jaksolle: aloitussivulla ympyröidään, Lajittele nimet -sivulla kirjoitetaan nimi ja tässä koko lause. Lauseet on ladottu väljästi ja kuva on omassa reunassaan, joten kirjoitusrivi on koko sivun levyinen eikä käsiala jää ahtaalle. Sivun voi tehdä myös kahdessa osassa, neljä lausetta kerrallaan, jos kirjoittaminen on vielä hidasta. Valmiit lauseet kannattaa lukea ääneen: kun nimi on poissa, kuulija joutuu päättelemään tekijän, ja se on hyvä keskustelun aihe.",
+   "canonicalDeckSlug": "han-vai-he-g2355",
+   "carousel": [
+    {
+     "label": "Hän vai he? Ympyröi sana, joka korvaa nimen",
+     "href": "han-vai-he"
+    },
+    {
+     "label": "Korvaa nimi pronominilla toisessa lauseessa",
+     "href": "korvaa-nimi-pronominilla"
+    },
+    {
+     "label": "Kuka on hän? Yhdistä pronomini oikeaan nimeen",
+     "href": "kuka-on-han-pronomini-lauseessa"
+    },
+    {
+     "label": "Lajittele nimikortit: hän vai he?",
+     "href": "lajittele-nimet-han-vai-he"
+    }
+   ],
+   "title": "Kirjoita lause uudelleen 2. luokka | PDF ilmainen",
+   "metaDescription": "Kahdeksan lausetta 2. luokalle: Eeli piirtää kissan, Onni ja Iida hyppivät narua. Kirjoita jokainen lause uudelleen niin, että nimen tilalla on pronomini. Ilmainen PDF."
+  },
+  {
+   "slug": "kysymys-ja-vastaus",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-match-the-question-to-the-answer",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Kysymyssanojen moniste",
+   "h1": "Kysymys ja vastaus: yhdistä oikea pari",
+   "strand": "Luetun ymmärtäminen",
+   "standard": "L.K.1.d",
+   "slotTokens": [
+    "kysymyssanat",
+    "1-luokka"
+   ],
+   "p1": "Vasemmassa sarakkeessa on viisi kysymystä omilla korteillaan: Milloin Emma nukkuu? Kuinka monta tipua Iida löytää? Missä Niko lukee? Kuka ihailee robottia? Mitä Ella tutkii? Oikeassa sarakkeessa on viisi vastauskorttia eri järjestyksessä, ja kussakin kuva sekä vastaus sanoina – vuorella, kello kuudelta, Anni, mehiläistä ja kaksi. Molemmilla puolilla on oranssi piste, ja lapsi piirtää viivan kysymyksestä siihen vastaukseen, joka siihen sopii.",
+   "p2": "Vastauksen muoto paljastaa kysymyssanan, ja juuri sitä sivu harjoittaa: paikka vastaa kysymykseen missä, kellonaika kysymykseen milloin, nimi kysymykseen kuka ja lukumäärä kysymykseen kuinka monta. Lapsen ei siis tarvitse tietää tarinaa vaan tunnistaa vastauksen laji, ja se on kysymyssanojen käytön ydin. Viisi kysymystä ja viisi vastausta muodostavat suljetun parijoukon, joten viimeinen pari löytyy poissulkemalla. Kysymysten ja vastausten yhdistäminen kuuluu OPS 2014:n vuosiluokkien 1–2 luetun ymmärtämisen tavoitteisiin.",
+   "p3": "Yksi arkki, viisi viivaa, ei kirjoittamista. Huomaa, että lukumäärävastauksen kortissa näkyy yksi tipu ja sen kulmassa pieni numero kaksi – kortin vastaus on siis kaksi, vaikka kuvassa on yksi lintu, ja se kannattaa sanoa ääneen ennen aloitusta. Kellotaulu näyttää kuutta, ja vastaus lukee myös sanoina kortin vieressä. Tämä sivu on perheen nopein ja sopii aloitussivun jälkeen ensimmäiseksi kokonaisia kysymyksiä käsitteleväksi tehtäväksi. Kysymyskortit ovat vasemmalla ja vastauskortit oikealla, ja sarakkeiden väliin on jätetty avoin kaista pisteille, joten viisi viivaa mahtuu risteämään selkeästi. Vastauskortit sisältävät sekä kuvan että sanan, joten kortti aukeaa myös lapselle, joka lukee vielä hitaasti. Lue lopuksi jokainen pari ääneen kysymyksenä ja vastauksena peräkkäin.",
+   "canonicalDeckSlug": "kysymyssanat-g1373",
+   "carousel": [
+    {
+     "label": "Kysymyssanat: kuka, mitä vai missä?",
+     "href": "kysymyssanat"
+    },
+    {
+     "label": "Täydennä kysymyssana vastauksen perusteella",
+     "href": "taydenna-kysymyssana"
+    },
+    {
+     "label": "Kuka, mikä vai missä? Lajittele vastaukset",
+     "href": "kysymyssanat-lajittele-vastaukset"
+    },
+    {
+     "label": "Tee kysymys: kirjoita kysymys vastauksen perusteella",
+     "href": "tee-kysymys"
+    }
+   ],
+   "title": "Kysymys ja vastaus 1. luokka | tulostettava PDF",
+   "metaDescription": "Viisi kysymystä ja viisi vastausta 1. luokalle: milloin, kuinka monta, missä, kuka ja mitä. Piirrä viiva kysymyksestä siihen vastaukseen, joka sopii. Ilmainen PDF."
+  },
+  {
+   "slug": "taydenna-kysymyssana",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-fill-in-the-question-word",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Kysymyssanojen moniste",
+   "h1": "Täydennä kysymyssana vastauksen perusteella",
+   "strand": "Kielen rakenteet",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "kysymyssanat",
+    "1-luokka"
+   ],
+   "p1": "Yläreunassa on sanapankki viidellä kysymyssanalla: Kuinka monta, Missä, Milloin, Mitä ja Kuka. Alla on kuusi korttia, ja kussakin kaksi riviä. Ylemmällä rivillä on kysymys, jonka alusta puuttuu sana, ja alemmalla rivillä vastaus, jossa yksi kohta on korostettu – Eino lukee teltassa, Onni ihailee avokadoa, Iida näkee kolme päärynää, Anni syö kello kahdelta, Aada on leikkikentällä, Leo katsoo traktoria. Lapsi kirjoittaa puuttuvan kysymyssanan ruutuun.",
+   "p2": "Suunta on tässä käännetty: aloitussivulla lapsi valmiista kysymyssanoista ympyröi yhden, tässä hän tuottaa sanan itse ja kirjoittaa sen. Vastaus on annettu valmiina ja korostus osoittaa kohdan, joten päättely kulkee vastauksesta kysymykseen – sama liike, jonka lukija tekee tarkistaessaan, ymmärsikö tekstin. Yksi pankin sana on kaksisanainen ja sijoittuu yhteen ruutuun, ja yhtä sanaa käytetään kahdella kortilla. Kysymysten muodostaminen ja kielen rakenteiden havainnointi ovat OPS 2014:n vuosiluokkien 1–2 kielitiedon sisältöä.",
+   "p3": "Yksi arkki, kuusi kysymystä, kuusi ruutua. Kolmannella kortilla ruudun jälkeen jatkuu sanapari päärynää Iida näkee – ruutuun tulee siis Kuinka monta kokonaisena, ei vain toinen sana. Ruudut ovat leveitä, joten kaksisanainen kysymyssana mahtuu. Lue jokainen valmis kysymys ääneen ja vastaa siihen alarivin lauseella, niin pari kuulostaa oikealta tai väärältä heti. Tämä sivu seuraa aloitussivua ja valmistaa Tee kysymys -sivua, jolla koko kysymys kirjoitetaan itse. Kortit ovat väljiä ja kysymysrivi on ylempänä kuin vastausrivi, joten järjestys on luettavissa suoraan asettelusta. Sanapankki on sivun yläreunassa, joten sen voi peittää, kun haluat lapsen tuottavan kysymyssanan muistista.",
+   "canonicalDeckSlug": "kysymyssanat-g1374",
+   "carousel": [
+    {
+     "label": "Kysymyssanat: kuka, mitä vai missä?",
+     "href": "kysymyssanat"
+    },
+    {
+     "label": "Kysymys ja vastaus: yhdistä oikea pari",
+     "href": "kysymys-ja-vastaus"
+    },
+    {
+     "label": "Kuka, mikä vai missä? Lajittele vastaukset",
+     "href": "kysymyssanat-lajittele-vastaukset"
+    },
+    {
+     "label": "Tee kysymys: kirjoita kysymys vastauksen perusteella",
+     "href": "tee-kysymys"
+    }
+   ],
+   "title": "Täydennä kysymyssana 1. luokka | tulostettava PDF",
+   "metaDescription": "Kuusi kysymystä 1. luokalle ja sanapankki: Kuinka monta, Missä, Milloin, Mitä ja Kuka. Lue vastaus, katso korostus ja kirjoita kysymyssana ruutuun. Ilmainen PDF."
+  },
+  {
+   "slug": "kysymyssanat-lajittele-vastaukset",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-sort-the-answers-who-what-or-where",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Kysymyssanojen moniste",
+   "h1": "Kuka, mikä vai missä? Lajittele vastaukset",
+   "strand": "Kielen rakenteet",
+   "standard": "L.K.1.d",
+   "slotTokens": [
+    "kysymyssanat",
+    "1-luokka"
+   ],
+   "p1": "Sivun yläosassa on yhdeksän sanalappua kahdessa rivissä: Onni, kirsikka, Emma, mökillä, sohvalla, puutarhassa, Aaro, kameli ja koala. Alla on kolme isoa laatikkoa otsikoilla Kuka?, Mikä? ja Missä?, ja jokaisessa kahdeksan katkoviivaista kirjoitusriviä. Lapsi lukee lapun ja kirjoittaa sanan siihen laatikkoon, jonka kysymykseen se vastaa. Vastaukset jakautuvat tasan: kolme nimeä, kolme esinettä tai eläintä ja kolme paikkaa.",
+   "p2": "Lajittelu paljastaa kysymyssanojen todellisen työnjaon suomessa: Kuka kysyy ihmisestä, Mikä kaikesta muusta – myös eläimestä, joten kameli ja koala menevät samaan laatikkoon kirsikan kanssa. Se on sääntö, jonka moni oppii vasta tämän tehtävän kautta, ja se kannattaa sanoa ääneen. Paikkaa osoittavat laput tunnistaa päätteestä: mökillä, sohvalla ja puutarhassa päättyvät kaikki paikan sijamuotoon. Sanaluokkien ja sijamuotojen havainnointi kuuluu OPS 2014:n vuosiluokkien 1–2 kielitiedon sisältöihin.",
+   "p3": "Yksi arkki, yhdeksän lappua, kolme laatikkoa. Laatikoissa on kahdeksan riviä kussakin mutta vastauksia vain kolme, joten suurin osa riveistä jää tyhjäksi – se ei ole virhe, ja tilan voi käyttää omiin lisäyksiin: keksikää yhdessä vielä kolme sanaa jokaiseen laatikkoon. Tämä on kysymyssanojen perheen ainoa lajittelutehtävä ja sopii aloitussivun jälkeen, kun kolme kysymyssanaa ovat tuttuja. Sanalaput ovat isoja ja hyvin luettavia, ja laatikot on aseteltu vierekkäin, joten koko tehtävä näkyy kerralla ilman selaamista. Kirjoitusrivit ovat katkoviivaisia ja riittävän pitkiä pisimmälle lapulle. Sivun voi myös leikata lapuiksi, jolloin lajittelun voi tehdä ensin pöydällä siirtelemällä ja kirjoittaa vasta sitten. Kolmen ja kolmen ja kolmen jako tekee lopputuloksesta helposti tarkistettavan.",
+   "canonicalDeckSlug": "kysymyssanat-g1375",
+   "carousel": [
+    {
+     "label": "Kysymyssanat: kuka, mitä vai missä?",
+     "href": "kysymyssanat"
+    },
+    {
+     "label": "Kysymys ja vastaus: yhdistä oikea pari",
+     "href": "kysymys-ja-vastaus"
+    },
+    {
+     "label": "Täydennä kysymyssana vastauksen perusteella",
+     "href": "taydenna-kysymyssana"
+    },
+    {
+     "label": "Tee kysymys: kirjoita kysymys vastauksen perusteella",
+     "href": "tee-kysymys"
+    }
+   ],
+   "title": "Kuka, mikä vai missä? 1. luokka | tulostettava PDF",
+   "metaDescription": "Yhdeksän sanalappua 1. luokalle kolmeen laatikkoon: Onni, kirsikka, Emma, mökillä, sohvalla, puutarhassa, Aaro, kameli ja koala. Ilmainen 1. luokan PDF."
+  },
+  {
+   "slug": "tee-kysymys",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-write-the-question",
+    "theme": "",
+    "level": "2-luokka"
+   },
+   "eyebrow": "Kysymyssanojen moniste",
+   "h1": "Tee kysymys: kirjoita kysymys vastauksen perusteella",
+   "strand": "Kirjoittaminen",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "kysymyssanat",
+    "2-luokka"
+   ],
+   "p1": "Kahdeksan numeroitua riviä, ja kunkin vasemmassa reunassa yksi ihminen kuvattuna. Rivin yläosassa on valmis vastauslause, jossa yksi kohta on korostettu persikanvärisellä pohjalla – viisi, traktoria, pesukarhua, altaalla, Alma, rannalla, Juho ja kello kuudelta – ja sen alla kolmiviivainen kirjoitusrivi. Sanapankkia eikä vaihtoehtoja ei ole: lapsi kirjoittaa itse kokonaisen kysymyksen, joka kysyy juuri korostettua kohtaa. Korostetut kohdat kattavat kaikki viisi kysymyssanaa.",
+   "p2": "Tämä on perheen vaativin sivu, koska kysymys kirjoitetaan kokonaisena eikä pelkkää kysymyssanaa valita. Lapsen on päätettävä kysymyssana, taivutettava se ja rakennettava sen ympärille lause, jossa sanajärjestys ja kysymysmerkki ovat kohdallaan – kolme asiaa samalla rivillä. Korostus pitää tehtävän ratkaistavana: ilman sitä samasta vastauksesta voisi kysyä monella tavalla, ja vastauksia olisi mahdoton verrata. Kysymyslauseen kirjoittaminen ja välimerkkien käyttö kuuluvat OPS 2014:n vuosiluokkien 1–2 kirjoittamisen tavoitteisiin.",
+   "p3": "Yksi arkki, kahdeksan kysymystä, kahdeksan riviä. Kirjoitusrivit ovat koko sivun levyisiä ja kolmiviivaisia, joten pitkäkin kysymys mahtuu yhdelle riville. Muistuta kysymysmerkistä ennen aloitusta – se on tämän sivun ainoa asia, jota ei ole millään tavalla merkitty valmiiksi. Kysymykset kannattaa lukea lopuksi ääneen ja vastata niihin ylärivin lauseella. Tämä sivu tulee Täydennä kysymyssana -sivun jälkeen ja on kysymyssanojen jakson luonteva päätös. Korostukset kattavat kaikki viisi kysymyssanaa, ja kaksi niistä on nimiä, joten Kuka tulee käytettyä kahdesti. Rivien välissä on riittävästi tilaa myös korjauksille, ja keskeneräiseen sivuun voi palata myöhemmin. Sivu sopii pariharjoitukseksi, jossa toinen kirjoittaa kysymyksen ja toinen vastaa siihen omin sanoin ilman että katsoo ylärivin lausetta.",
+   "canonicalDeckSlug": "kysymyssanat-g2356",
+   "carousel": [
+    {
+     "label": "Kysymyssanat: kuka, mitä vai missä?",
+     "href": "kysymyssanat"
+    },
+    {
+     "label": "Kysymys ja vastaus: yhdistä oikea pari",
+     "href": "kysymys-ja-vastaus"
+    },
+    {
+     "label": "Täydennä kysymyssana vastauksen perusteella",
+     "href": "taydenna-kysymyssana"
+    },
+    {
+     "label": "Kuka, mikä vai missä? Lajittele vastaukset",
+     "href": "kysymyssanat-lajittele-vastaukset"
+    }
+   ],
+   "title": "Tee kysymys 2. luokka | tulostettava PDF ilmainen",
+   "metaDescription": "Kahdeksan valmista vastausta 2. luokalle, joissa yksi kohta on korostettu. Kirjoita viivalle kysymys, joka kysyy juuri sitä kohtaa. Ilmainen 2. luokan PDF."
+  },
+  {
+   "slug": "kysymyksia-kuvasta-miksi-ja-miten",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-ask-about-the-picture-why-and-how",
+    "theme": "",
+    "level": "2-luokka"
+   },
+   "eyebrow": "Kysymyssanojen moniste",
+   "h1": "Kysymyksiä kuvasta: kuudella kysymyssanalla",
+   "strand": "Kirjoittaminen",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "kysymyssanat",
+    "2-luokka"
+   ],
+   "p1": "Sivun yläreunassa on kuvarivi neljällä kortilla: rakennusmies, pingviini, punakattoinen talo ja kellotaulu, joka näyttää yhdeksää. Alla on yksi iso laatikko, jossa on kuusi kirjoitusriviä, ja kunkin rivin alussa lukee harmaalla yksi kysymyssana: Kuka, Mitä, Missä, Milloin, Miksi ja Miten. Lapsi jatkaa jokaista aloitusta ja kirjoittaa kuudesta sanasta kuusi kokonaista kysymystä. Valmiita vastauksia ei ole, joten kysymykset saavat olla erilaisia joka kerta.",
+   "p2": "Kuusi kysymyssanaa kuudella rivillä on tämän sivun laajin valikoima koko perheessä: mukana ovat myös Miksi ja Miten, joita mikään muu sivu ei käsittele. Neljä ensimmäistä sanaa saa tukea kuvista – rakennusmies vastaa kysymykseen kuka, talo kysymykseen missä ja kello kysymykseen milloin – mutta Miksi ja Miten eivät osoita mihinkään yksittäiseen kuvaan, joten ne on keksittävä kuvien ympärille. Kysymysten esittäminen ja oman ajattelun sanoittaminen kuuluvat OPS 2014:n vuosiluokkien 1–2 vuorovaikutustaitoihin.",
+   "p3": "Yksi arkki, kuusi kysymystä, ei oikeita vastauksia. Kuvat ovat neljä erillistä korttia eivätkä yksi tilanne, joten keksikää niistä ensin yhdessä pieni tarina – kuka, missä ja mitä tekee – ennen kuin Miksi- ja Miten-rivit kirjoitetaan. Ilman sitä kaksi viimeistä riviä jäävät helposti tyhjiksi. Rivit ovat kolmiviivaisia ja leveitä. Tämä on perheen avoimin sivu ja sopii jakson päätteeksi tai suulliseksi harjoitukseksi kokonaan ilman kynää. Kellotaulu näyttää tasan yhdeksää, joten Milloin-rivin kysymys voi käyttää sitä suoraan. Kuvat ovat isoja ja selkeitä, joten sivun voi näyttää koko ryhmälle ja koota kysymykset ensin yhdessä taululle.",
+   "canonicalDeckSlug": "kysymyssanat-g2357",
+   "carousel": [
+    {
+     "label": "Kysymyssanat: kuka, mitä vai missä?",
+     "href": "kysymyssanat"
+    },
+    {
+     "label": "Kysymys ja vastaus: yhdistä oikea pari",
+     "href": "kysymys-ja-vastaus"
+    },
+    {
+     "label": "Täydennä kysymyssana vastauksen perusteella",
+     "href": "taydenna-kysymyssana"
+    },
+    {
+     "label": "Kuka, mikä vai missä? Lajittele vastaukset",
+     "href": "kysymyssanat-lajittele-vastaukset"
+    }
+   ],
+   "title": "Kysymyksiä kuvasta 2. luokka | tulostettava PDF",
+   "metaDescription": "Neljä kuvaa ja kuusi aloitettua kysymystä 2. luokalle: Kuka, Mitä, Missä, Milloin, Miksi ja Miten. Täydennä jokainen kysymys omalle riville. Ilmainen PDF."
+  },
+  {
+   "slug": "pyoristyyko-ylospain-vai-alaspain",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "rounding-up-or-down-sort-the-numbers",
+    "theme": "",
+    "level": "3-luokka"
+   },
+   "eyebrow": "Pyöristämisen moniste",
+   "h1": "Ylöspäin vai alaspäin? Lajittele luvut kahteen laatikkoon",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "pyoristaminen",
+    "3-luokka"
+   ],
+   "p1": "Yläreunassa on avain: malli 47 on noin 50 ja numerorivi, jossa numerot 0–4 osoittavat alaspäin ja 5–9 ylöspäin. Keskellä on kaksitoista lukua ympyröissä kahdessa rivissä: 481, 52, 329, 418, 85, 65, 549, 647, 426, 24, 72 ja 13. Alla on kaksi laatikkoa, toisessa alaspäin-nuoli ja toisessa ylöspäin-nuoli, ja kummassakin yhdeksän katkoviivaista ruutua. Lapsi kirjoittaa jokaisen luvun siihen laatikkoon, johon se pyöristyy lähimpään kymmeneen.",
+   "p2": "Tässä ei kirjoiteta yhtään pyöristettyä lukua – vain suunta – ja se erottaa sivun perheen muista. Kun vastauksena on ylös tai alas, lapsen huomio pysyy siinä yhdessä numerossa, joka suunnan ratkaisee, eikä hajoa laskemiseen. Luvut on valittu niin, että kaksi- ja kolminumeroiset vuorottelevat, joten sääntö on sovellettava jokaiseen erikseen. Pyöristäminen ja likiarvon suunnan päätteleminen kuuluvat OPS 2014:n vuosiluokkien 3–6 laskutoimitusten sisältöihin.",
+   "p3": "Yksi arkki, kaksitoista lukua, kaksi laatikkoa. Huomaa, että molemmissa laatikoissa on yhdeksän ruutua mutta jako ei mene tasan: viisi lukua pyöristyy alaspäin ja seitsemän ylöspäin, joten kumpaankin jää tyhjiä ruutuja. Sano se ääneen ennen aloitusta, ettei lapsi yritä täyttää kaikkia ruutuja. Tämä sivu seuraa pyöristämisen aloitussivua ja on hyvä välitarkistus ennen kuin siirrytään satoihin tai summan arviointiin. Luvut on painettu ympyröihin ja laatikot ruudukoiksi, joten lukujen siirtäminen näyttää oikealta lajittelulta eikä listan kopioimiselta. Ruudut ovat riittävän isoja kolminumeroiselle luvulle. Tarkista lopuksi lukumäärä: kahdentoista luvun pitää löytyä laatikoista yhteensä, ja jos jokin puuttuu, se on jäänyt ympyröiden riviin.",
+   "canonicalDeckSlug": "pyoristaminen-g3387",
+   "carousel": [
+    {
+     "label": "Pyöristäminen kymmenien tarkkuuteen",
+     "href": "pyoristaminen"
+    },
+    {
+     "label": "Pyöristäminen satojen tarkkuuteen",
+     "href": "pyoristaminen-satojen-tarkkuuteen"
+    },
+    {
+     "label": "Pyöristä molemmat luvut ja arvioi summa",
+     "href": "pyorista-ja-arvioi-summa"
+    },
+    {
+     "label": "Mitkä luvut pyöristyvät lukuun 50?",
+     "href": "mitka-luvut-pyoristyvat-lukuun-50"
+    }
+   ],
+   "title": "Ylöspäin vai alaspäin? 3. luokka | tulostettava PDF",
+   "metaDescription": "Kaksitoista lukua 3. luokalle kahteen laatikkoon: 481, 52, 329, 418, 85, 65, 549, 647, 426, 24, 72 ja 13. Pyöristyykö luku ylös vai alas? Ilmainen PDF."
+  },
+  {
+   "slug": "pyoristaminen-satojen-tarkkuuteen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "rounding-to-the-nearest-100",
+    "theme": "",
+    "level": "3-luokka"
+   },
+   "eyebrow": "Pyöristämisen moniste",
+   "h1": "Pyöristäminen satojen tarkkuuteen",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "pyoristaminen",
+    "3-luokka"
+   ],
+   "p1": "Yläreunassa on avain, jossa malli 472 on noin 500 ja numerorivi nollasta yhdeksään alas- ja ylöspäin-nuolineen. Mallissa on värjätty kymmenten numero, ei ykkösten, ja juuri siihen ohjekin viittaa. Alla on neljätoista kolminumeroista lukua kahdessa sarakkeessa vastausruutuineen: 462, 350, 572, 467, 236, 397, 489, 328, 317, 874, 540, 851, 848 ja 532. Kaikki luvut ovat kolminumeroisia, joten sadat ovat aina näkyvissä.",
+   "p2": "Vaikeus ei ole säännössä vaan siinä, mihin numeroon katsotaan. Kymmeniin pyöristettäessä ratkaisee ykkösnumero, satoihin pyöristettäessä kymmenten numero, ja sama luku voi pyöristyä eri suuntiin riippuen siitä, kumpaa kysytään: 462 on kymmenin 460 mutta sadoin 500. Sivulla on myös kaksi rajatapausta, 350 ja 540, joissa kymmenten numero on tasan viisi tai nolla – ne kannattaa käydä erikseen läpi. Paikka-arvon soveltaminen pyöristämiseen on OPS 2014:n vuosiluokkien 3–6 laskutaidon sisältöä.",
+   "p3": "Yksi arkki, neljätoista lukua, neljätoista ruutua. Sivu näyttää samalta kuin pyöristämisen aloitussivu, mutta avain on eri ja värjätty numero toinen – näytä ero ennen aloitusta, ettei vanha sääntö jatku vahingossa. Tee mieluiten ensin kolme lukua yhdessä ääneen. Tämä sivu seuraa aloitussivua ja johtaa Pyöristäminen kymmenien ja satojen tarkkuuteen -sivuun, jolla molemmat tarkkuudet ovat samalla rivillä. Luvut on ladottu kahteen sarakkeeseen ja numeroitu, joten tehtävän voi puolittaa ja jatkaa myöhemmin oikeasta kohdasta. Sadat pysyvät kaikilla riveillä näkyvissä, joten lapsi voi tarkistaa vastauksensa katsomalla, onko tulos kahdesta lähimmästä sadasta oikea. Vastausruudut ovat leveitä, joten kolminumeroinen tulos mahtuu väljästi.",
+   "canonicalDeckSlug": "pyoristaminen-g3388",
+   "carousel": [
+    {
+     "label": "Pyöristäminen kymmenien tarkkuuteen",
+     "href": "pyoristaminen"
+    },
+    {
+     "label": "Ylöspäin vai alaspäin? Lajittele luvut kahteen laatikkoon",
+     "href": "pyoristyyko-ylospain-vai-alaspain"
+    },
+    {
+     "label": "Pyöristä molemmat luvut ja arvioi summa",
+     "href": "pyorista-ja-arvioi-summa"
+    },
+    {
+     "label": "Mitkä luvut pyöristyvät lukuun 50?",
+     "href": "mitka-luvut-pyoristyvat-lukuun-50"
+    }
+   ],
+   "title": "Pyöristäminen satoihin 3. luokka | tulostettava PDF",
+   "metaDescription": "Neljätoista kolminumeroista lukua 3. luokalle satojen tarkkuuteen: 462, 350, 572, 467, 236, 397, 489, 874, 540 ja 851. Katso kymmenten numeroa. Ilmainen PDF."
+  },
+  {
+   "slug": "pyorista-ja-arvioi-summa",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "round-then-estimate-the-sum",
+    "theme": "",
+    "level": "3-luokka"
+   },
+   "eyebrow": "Pyöristämisen moniste",
+   "h1": "Pyöristä molemmat luvut ja arvioi summa",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "pyoristaminen",
+    "3-luokka"
+   ],
+   "p1": "Yläreunassa on avain, jossa malli 23 + 48 on noin 20 + 50 = 70 sekä numerorivi alas- ja ylöspäin-nuolineen. Alla on kahdeksan numeroitua riviä, ja kussakin kaksi kaksinumeroista lukua yhteenlaskumerkin molemmin puolin sekä kolme katkoviivaista ruutua: kaksi pyöristetyille luvuille ja yksi niiden summalle. Laskut ovat 12 + 51, 29 + 14, 59 + 19, 31 + 32, 35 + 28, 15 + 36, 38 + 52 ja 63 + 27, ja kaikki luvut ovat alle sadan.",
+   "p2": "Tämä on perheen ainoa sivu, jolla pyöristämisellä on käyttötarkoitus: arvioitu summa on tasakymmeniä, ja se on siksi laskettavissa päässä, vaikka alkuperäinen lasku ei olisi. Juuri niin arviointia käytetään arjessa – kaupassa ei lasketa senttejä vaan pyöristetään ja lasketaan yhteen. Tulos on likiarvo eikä tarkka summa, ja sen ero oikeaan vastaukseen kannattaa laskea yhdellä rivillä esimerkiksi. Likiarvon käyttäminen laskun tuloksen arviointiin on OPS 2014:n vuosiluokkien 3–6 laskutaidon sisältöä.",
+   "p3": "Yksi arkki, kahdeksan laskua, kaksikymmentäneljä ruutua. Huomaa, että avaimessa on värjätty vain jälkimmäisen luvun ykkösnumero, vaikka ohje pyytää pyöristämään molemmat – kerro se ääneen, ettei ensimmäinen luku jää pyöristämättä. Rivit ovat väljiä ja ruudut isoja, joten kolme merkintää mahtuu selkeästi. Tämä sivu tulee kymmenten pyöristämisen jälkeen ja on perheen ainoa, jolla pyöristettyjä lukuja myös lasketaan yhteen.",
+   "canonicalDeckSlug": "pyoristaminen-g3389",
+   "carousel": [
+    {
+     "label": "Pyöristäminen kymmenien tarkkuuteen",
+     "href": "pyoristaminen"
+    },
+    {
+     "label": "Ylöspäin vai alaspäin? Lajittele luvut kahteen laatikkoon",
+     "href": "pyoristyyko-ylospain-vai-alaspain"
+    },
+    {
+     "label": "Pyöristäminen satojen tarkkuuteen",
+     "href": "pyoristaminen-satojen-tarkkuuteen"
+    },
+    {
+     "label": "Mitkä luvut pyöristyvät lukuun 50?",
+     "href": "mitka-luvut-pyoristyvat-lukuun-50"
+    }
+   ],
+   "title": "Pyöristä ja arvioi summa 3. luokka | tulostettava PDF",
+   "metaDescription": "Kahdeksan yhteenlaskua 3. luokalle: 12 + 51, 29 + 14, 59 + 19, 31 + 32, 35 + 28, 15 + 36, 38 + 52 ja 63 + 27. Pyöristä kymmeniin ja laske yhteen. Ilmainen PDF."
+  },
+  {
+   "slug": "mitka-luvut-pyoristyvat-lukuun-50",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "which-numbers-round-to-50",
+    "theme": "",
+    "level": "3-luokka"
+   },
+   "eyebrow": "Pyöristämisen moniste",
+   "h1": "Mitkä luvut pyöristyvät lukuun 50?",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "pyoristaminen",
+    "3-luokka"
+   ],
+   "p1": "Yläreunassa on avain: malli 83 on noin 80 ja numerorivi nollasta yhdeksään alas- ja ylöspäin-nuolineen. Keskellä on korallinvärinen tunnus, jossa lukee noin 50, ja sen alla kuusitoista lukua soikeissa neljässä rivissä: 31, 46, 36, 55, 49, 44, 63, 51, 47, 45, 35, 58, 52, 64, 57 ja 32. Lapsi ympyröi ne luvut, jotka pyöristyvät lähimpään kymmeneen eli lukuun 50. Vastauksia on kuusi: 46, 49, 51, 47, 45 ja 52.",
+   "p2": "Käänteinen kysymys on tämän sivun anti: aiemmilla sivuilla luku on annettu ja vastaus etsitty, tässä vastaus on annettu ja luvut etsitään. Se pakottaa hahmottamaan välin eikä pelkkää sääntöä – 50:ksi pyöristyvät luvut 45:stä 54:ään, ja juuri rajat ovat opettavimmat. Ruudukossa on tarkoituksella luvut 44, 55 ja 35, jotka ovat yhden askeleen päässä rajasta mutta eivät kuulu joukkoon. Lukujen sijainnin hahmottaminen lukusuoralla ja likiarvon välin ymmärtäminen ovat OPS 2014:n vuosiluokkien 3–6 sisältöjä.",
+   "p3": "Yksi arkki, kuusitoista lukua, kuusi ympyrää. Kymmenestä luvusta, jotka eivät kuulu joukkoon, kolme on hyvin lähellä rajaa, joten sivu ei ratkea silmäyksellä vaan jokainen soikio on luettava. Huomaa, että avaimen malli käyttää lukua 80, mutta etsittävä kymmen on sivun oma tunnus 50 – näytä se ennen aloitusta. Tämä sivu on pyöristämisen perheen käänteinen tehtävä ja sopii sen jälkeen, kun suunnan päättely sujuu.",
+   "canonicalDeckSlug": "pyoristaminen-g3390",
+   "carousel": [
+    {
+     "label": "Pyöristäminen kymmenien tarkkuuteen",
+     "href": "pyoristaminen"
+    },
+    {
+     "label": "Ylöspäin vai alaspäin? Lajittele luvut kahteen laatikkoon",
+     "href": "pyoristyyko-ylospain-vai-alaspain"
+    },
+    {
+     "label": "Pyöristäminen satojen tarkkuuteen",
+     "href": "pyoristaminen-satojen-tarkkuuteen"
+    },
+    {
+     "label": "Pyöristä molemmat luvut ja arvioi summa",
+     "href": "pyorista-ja-arvioi-summa"
+    }
+   ],
+   "title": "Mitkä luvut pyöristyvät lukuun 50? 3. luokka | PDF",
+   "metaDescription": "Kuusitoista lukua 3. luokalle ruudukossa: 31, 46, 36, 55, 49, 44, 63, 51, 47, 45, 35, 58, 52, 64, 57 ja 32. Ympyröi ne, jotka pyöristyvät lukuun 50. Ilmainen PDF."
+  },
+  {
+   "slug": "pyoristaminen-kymmenien-ja-satojen-tarkkuuteen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "rounding-to-the-nearest-10-and-100",
+    "theme": "",
+    "level": "3-luokka"
+   },
+   "eyebrow": "Pyöristämisen moniste",
+   "h1": "Pyöristä jokainen luku kahdesti: kymmeniin ja satoihin",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "pyoristaminen",
+    "3-luokka"
+   ],
+   "p1": "Yläreunassa on kaksirivinen avain: ensin merkki 10 ja malli 472 on noin 470, sitten merkki 100 ja malli 472 on noin 500. Molemmissa on värjätty juuri se numero, jota kyseisessä pyöristyksessä katsotaan. Alla on kahdeksan kolminumeroista lukua – 159, 494, 791, 305, 353, 535, 567 ja 556 – ja kunkin perässä kaksi vastausruutua otsikoiden kymmenen tarkkuudella ja sadan tarkkuudella alla. Sama luku pyöristetään siis kahdesti.",
+   "p2": "Kaksi vastausta samalle luvulle on koko sivun opetus: pyöristys ei ole yksi tulos vaan riippuu siitä, mihin tarkkuuteen pyöristetään. Rinnakkaiset sarakkeet tekevät eron näkyväksi ilman selitystä – 494 on kymmenin 490 mutta sadoin 500, ja 305 on kymmenin 310 mutta sadoin 300, jolloin suunta vaihtuu vastakkaiseksi samalla luvulla. Se on sivun kiinnostavin rivi ja kannattaa käydä erikseen läpi. Pyöristäminen eri tarkkuuksiin kuuluu OPS 2014:n vuosiluokkien 3–6 laskutaidon sisältöihin.",
+   "p3": "Yksi arkki, kahdeksan lukua, kuusitoista ruutua. Tee sarakkeet mieluiten erikseen: ensin kaikki kymmenet ylhäältä alas ja vasta sitten sadat, niin katse ei vaihda numeroa joka rivillä. Valmis sivu kannattaa lukea rivi kerrallaan ääneen, jolloin kuulee, miten sama luku saa kaksi eri likiarvoa. Tämä on pyöristämisen perheen kokoava sivu ja luonteva päätös jaksolle, kun sekä kymmenet että sadat ovat erikseen tuttuja. Kaksi vastaussaraketta on otsikoitu erikseen, joten kumpaan ruutuun kirjoitetaan mitäkin selviää ilman ohjetta. Rivit ovat väljiä ja ruudut isoja, joten kuusitoista vastausta mahtuu yhdelle arkille ahtautumatta. Sivun voi tehdä myös pareittain niin, että toinen täyttää kymmenet ja toinen sadat, jonka jälkeen rivit verrataan yhdessä.",
+   "canonicalDeckSlug": "pyoristaminen-g3391",
+   "carousel": [
+    {
+     "label": "Pyöristäminen kymmenien tarkkuuteen",
+     "href": "pyoristaminen"
+    },
+    {
+     "label": "Ylöspäin vai alaspäin? Lajittele luvut kahteen laatikkoon",
+     "href": "pyoristyyko-ylospain-vai-alaspain"
+    },
+    {
+     "label": "Pyöristäminen satojen tarkkuuteen",
+     "href": "pyoristaminen-satojen-tarkkuuteen"
+    },
+    {
+     "label": "Pyöristä molemmat luvut ja arvioi summa",
+     "href": "pyorista-ja-arvioi-summa"
+    }
+   ],
+   "title": "Pyöristäminen kymmeniin ja satoihin 3. luokka | PDF",
+   "metaDescription": "Kahdeksan kolminumeroista lukua 3. luokalle kahteen sarakkeeseen: 159, 494, 791, 305, 353, 535, 567 ja 556 pyöristetään kymmeniin ja satoihin. Ilmainen PDF."
   }
  ]
 }

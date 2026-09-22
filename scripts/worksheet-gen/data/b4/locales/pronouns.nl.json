@@ -697,9 +697,138 @@
       "contentNeutral": true
     }
   ],
-  "possessive": null,
+  "possessive": {
+    "chips": [
+      "zijn",
+      "haar",
+      "hun"
+    ],
+    "chipW": 60,
+    "byOwner": {
+      "m1": 0,
+      "f1": 1,
+      "mp": 2,
+      "fp": 2,
+      "xp": 2
+    },
+    "frame": {
+      "sg": "Dit is {subj}. Dit is ___ {thing}.",
+      "pl": "Kijk naar {subj}. Dit is ___ {thing}."
+    },
+    "artTable": null,
+    "things": [
+      {
+        "key": "ball",
+        "pic": {
+          "theme": "toys",
+          "noun": "ball"
+        },
+        "forms": null,
+        "picOpened": true
+      },
+      {
+        "key": "kite",
+        "pic": {
+          "theme": "toys",
+          "noun": "kite"
+        },
+        "forms": null,
+        "picOpened": true
+      },
+      {
+        "key": "cap",
+        "pic": {
+          "theme": "accessories",
+          "noun": "cap"
+        },
+        "forms": null,
+        "picOpened": true
+      },
+      {
+        "key": "drum",
+        "pic": {
+          "theme": "music",
+          "noun": "drum"
+        },
+        "forms": null,
+        "picOpened": true
+      },
+      {
+        "key": "book",
+        "pic": {
+          "theme": "classroom",
+          "noun": "book"
+        },
+        "forms": null,
+        "picOpened": true
+      },
+      {
+        "key": "cake",
+        "pic": {
+          "theme": "desserts and sweets",
+          "noun": "cake"
+        },
+        "forms": null,
+        "picOpened": true
+      },
+      {
+        "key": "hat",
+        "pic": {
+          "theme": "accessories",
+          "noun": "hat"
+        },
+        "forms": null,
+        "picOpened": true
+      },
+      {
+        "key": "dog",
+        "pic": {
+          "theme": "pets",
+          "noun": "dog"
+        },
+        "forms": null,
+        "picOpened": true
+      },
+      {
+        "key": "cat",
+        "pic": {
+          "theme": "pets",
+          "noun": "cat"
+        },
+        "forms": null,
+        "picOpened": true
+      },
+      {
+        "key": "car",
+        "pic": {
+          "theme": "toys",
+          "noun": "car"
+        },
+        "forms": null,
+        "picOpened": true
+      },
+      {
+        "key": "boat",
+        "pic": {
+          "theme": "toys",
+          "noun": "boat"
+        },
+        "forms": null,
+        "picOpened": true
+      },
+      {
+        "key": "fish",
+        "pic": {
+          "theme": "pets",
+          "noun": "fish"
+        },
+        "forms": null,
+        "picOpened": true
+      }
+    ]
+  },
   "refuse": {
-    "possessive": true
+    "possessive": false
   },
   "strings": {
     "base": {
@@ -710,6 +839,10 @@
       "title": "Vervang de naam door een voornaamwoord",
       "instruction": "Lees de zin. Schrijf het woord uit het kader dat in de tweede zin de naam vervangt in het vakje.",
       "bankWord": "kader"
+    },
+    "possessive": {
+      "title": "Bezittelijke voornaamwoorden: zijn, haar of hun",
+      "instruction": "Kijk van wie het ding is. Omcirkel het woord dat bij die persoon hoort."
     },
     "anaphora": {
       "title": "Wie wordt bedoeld? Voornaamwoorden in de zin",

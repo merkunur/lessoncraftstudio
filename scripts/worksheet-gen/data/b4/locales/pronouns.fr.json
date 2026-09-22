@@ -802,7 +802,7 @@
     },
     "possessive": {
       "title": "Son, sa ou leur ?",
-      "instruction": "Regarde à qui appartient l'objet. Entoure le mot qui montre que l'objet est à cette personne."
+      "instruction": "Entoure le bon mot. Son ou sa s'accorde avec l'objet, pas avec la personne. Leur s'emploie pour plusieurs personnes."
     },
     "sort": {
       "title": "Classe les prénoms : il, elle, ils ou elles",

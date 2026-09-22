@@ -49,19 +49,24 @@ const ROWS = [
     'Odd or Even? Write Two Equal Addends', 'Circle the dots two by two. Then write the number as two equal parts and write what is left over in the small box.',
     { gradeBand: 'G2' }],
   ['g1', 'G1-369', 'odd-and-even-can-two-friends-share-fairly', 'G1-351-odd-and-even.js', 2,
-    // ⚠ perRow and range are LOCKED TOGETHER here — changing either alone re-opens an answer leak.
-    // At an EVEN row width the last row's count always has the same parity as the pile (N = pk + r
-    // with p even makes pk even, so N ≡ r), and a child who counts only the final row scores 100%
-    // on a page whose whole question is "is this pile even?". MEASURED at the shipped perRow 6 over
-    // [5,12]: the tell held on 8 of 8 pile sizes — a fully reliable rule, not a coincidence — and the
-    // da render bears it out (piles 7/5/8/6/12/9, last rows 1/5/2/6/6/3, parities identical).
-    // The picture band is 284 px (measured on the render), so perRow 7 (344) and a single row of 12
-    // (594) do not fit; and the type caps this face at 2 rows, so perRow 5 needs the range to end at
-    // 10. That combination leaks on 1 of 6 — no rule left to learn. The range cost is nil at family
-    // level: the sibling G1-370 covers 11-18, so the two faces now partition [5,10] and [11,18]
-    // instead of overlapping. ⭐ G1-370 keeps perRow 9, which MEASURES 0 of 8 — widening it to 10 for
-    // cleaner pairing (three panels asked) would take it straight to 8 of 8.
-    { mode: 'share', range: [5, 10], lanes: 6, iconPx: 44, perRow: 5, split: [3, 3], pills: true },
+    // ⚠⚠ perRow and range are LOCKED TOGETHER — changing either alone re-opens an answer leak, and
+    // the leak must be measured in BOTH DIRECTIONS. A deterministic INVERSION is a rule too.
+    // At an EVEN row width the last row's count always has the SAME parity as the pile (N = pk + r
+    // with p even makes pk even, so N ≡ r): the original perRow 6 over [5,12] measured 100.0%.
+    // Switching to the ODD perRow 5 over [5,10] did NOT close it — it flipped it: 16.7% same,
+    // 83.3% OPPOSITE, because every pile in [6,10] fills exactly one row and leaves N-5 below. My
+    // first instrument counted only the same-parity direction, read "1 of 6", and called it closed;
+    // the Danish landing panel, reading the render, named the inversion out loud.
+    // MEASURED over 792 lanes from real builds (11 locales x 12 seeds), worst-direction tell:
+    //     perRow 6 [5,12] 100.0%  ·  perRow 5 [5,10] 83.3%  ·  perRow 5 [4,10] 70.6%
+    //     perRow 5 [3,10]  64.3%  ·  perRow 5 [3,9]  60.2%  ·  perRow 5 [3,8]  50.0%  <= SHIPPED
+    // [3,8] is exactly 50.0% — the coin flip, not a threshold anyone chose. It works because the
+    // range STRADDLES the one-row/two-row boundary: 3,4,5 sit on a single row (last row IS the pile,
+    // same parity) while 6,7,8 wrap (last = N-5, opposite), and split [3,3] over six values puts
+    // three of each on every page. The picture band is 284 px, so perRow 7 (344) does not fit and
+    // the type caps this face at 2 rows; 132 of 132 builds succeed at [3,8], 0 refusals.
+    // ⚠ The sibling G1-370 CANNOT be fixed this way — see its own note below.
+    { mode: 'share', range: [3, 8], lanes: 6, iconPx: 44, perRow: 5, split: [3, 3], pills: true },
     'Can Two Friends Share Fairly?', 'Share the pictures between the two friends, one each in turn. Write how many each friend gets and how many are left over, then circle odd or even.',
     THEMED],
   ['g2', 'G2-352', 'odd-and-even-under-100-look-at-the-ones-box', 'G1-351-odd-and-even.js', 2,
@@ -73,6 +78,19 @@ const ROWS = [
     'Odd or Even Sum? Decide Without Adding', 'Do not add. Look at the underlined ones digit of each number, use the table, and tick whether the sum is even or odd.',
     { gradeBand: 'G3' }],
   ['g1', 'G1-370', 'odd-and-even-count-the-pictures-in-pairs', 'G1-351-odd-and-even.js', 2,
+    // ⚠ KNOWN FULL PARITY TELL, and unlike G1-369 there is NO legal configuration that closes it.
+    // MEASURED over 792 lanes: perRow 9 over [11,18] is 0.0% same / 100.0% OPPOSITE — every pile in
+    // [11,18] fills exactly one row of 9 and leaves N-9 below, so the short line always inverts.
+    // (An earlier note here read "MEASURES 0 of 8" and treated that as clean; 0% in one direction
+    // IS 100% in the other. Same error as G1-369's.) Every narrower width was measured and REFUSED
+    // by the builder — perRow 4/5/6/7 over [11,18] and over [11,16] / [12,17] / [13,18] all failed
+    // 132 of 132 builds, because this face caps at 2 rows and the picture band is 284 px, so
+    // 2 x perRow must reach 18 and perRow >= 9 is forced. A width of 10 would merely swap the
+    // inversion for the identity at the same 100%. Closing this needs a DESIGN ruling — raise the
+    // two-row cap so the pile count straddles a row boundary (the mechanism that gives G1-369 its
+    // 50.0%), or let perRow vary per lane — not a unilateral change here.
+    // It is PARTIAL in the same sense as G2-351: the page asks for the number of PAIRS as well, and
+    // that still needs the full count; the tell hands over only the odd/even chip.
     { mode: 'count', range: [11, 18], lanes: 6, iconPx: 44, perRow: 9, split: [3, 3], pills: true },
     'Odd or Even? Count the Pictures in Pairs', 'Count the pictures and circle them two by two. Write how many pairs you made, then circle odd or even.',
     THEMED],

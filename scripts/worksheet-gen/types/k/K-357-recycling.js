@@ -486,6 +486,7 @@ module.exports = {
         const order = rng.shuffle(global.items);
         const out = [];
         let prevOdd = -1;
+        const prevOdds = [];
         const spare = (x) => classes[x].filter((it) => this._admits(st, it)).length;
         for (let r = 0; r < d.rows; r++) {
           const c = trio[r];
@@ -500,10 +501,24 @@ module.exports = {
           let odd = null;
           for (const x of oddClasses) { const it = this._take(st, order, classes[x]); if (it) { odd = this._tile(it, { cls: x }); break; } }
           if (!odd) throw new Error(`K-357 odd: no odd item left for a ${c} row under the page fences (refuse)`);
+          // ⚠ ANSWER-POSITION GUARD. "Different from the previous row" is satisfied perfectly by a
+          // STAIRCASE, and the shipped instance was exactly that: oddIdx [3,2,1,0] in ALL ELEVEN
+          // locales (the instance seed carries no locale), so a child could circle the 4th, 3rd,
+          // 2nd and 1st tile without looking at a picture and score 4 of 4. Three native landing
+          // panels found it independently by reading the render; a distribution over random seeds
+          // did NOT — measure the SHIPPED instance, not the population.
+          // The rule is therefore: no THREE consecutive rows walking in the same direction.
           let oddIdx = -1;
-          for (let t = 0; t < TRIES; t++) { const k = rng.int(0, 3); if (k !== prevOdd) { oddIdx = k; break; } }
+          const lastStep = prevOdds.length >= 2 ? Math.sign(prevOdds[prevOdds.length - 1] - prevOdds[prevOdds.length - 2]) : 0;
+          for (let t = 0; t < TRIES; t++) {
+            const k = rng.int(0, 3);
+            if (k === prevOdd) continue;
+            if (lastStep && Math.sign(k - prevOdd) === lastStep) continue;   // would make a third step the same way
+            oddIdx = k; break;
+          }
           if (oddIdx < 0) throw new Error('K-357 odd: no odd index off the previous row (refuse)');
           prevOdd = oddIdx;
+          prevOdds.push(oddIdx);
           let items = null;
           for (let t = 0; t < TRIES; t++) {
             const s = rng.shuffle(three); s.splice(oddIdx, 0, odd);
@@ -793,6 +808,7 @@ module.exports = {
         if (cards.length !== rows) fails.push(`${cards.length} cards ≠ ${rows}`);
         badges(cards);
         let prevOdd = -1;
+        const oddCols = [];
         cards.forEach((card, i) => {
           const what = `card ${i + 1} (${card.dataset.lcsTrio})`;
           if (card.dataset.lcsTrio !== trio[i]) fails.push(`${what}: trio stamp ≠ ${trio[i]}`);
@@ -808,7 +824,14 @@ module.exports = {
           if (!organicOdd && diff.length === 1 && diff[0].dataset.lcsClass === 'organic') fails.push(`${what}: the odd one is organic on an organicOdd:false config`);
           const oi = boxes.indexOf(odd[0]);
           if (oi === prevOdd) fails.push(`${what}: the odd one sits in column ${oi + 1} like the row above`);
+          // ⚠ "different from the row above" is satisfied by a STAIRCASE — the shipped instance was
+          // [3,2,1,0] in every locale. Three rows walking the same way is a rule a child can ride.
+          if (oddCols.length >= 2) {
+            const step = Math.sign(oddCols[oddCols.length - 1] - oddCols[oddCols.length - 2]);
+            if (step && Math.sign(oi - prevOdd) === step) fails.push(`${what}: the odd one steps ${step < 0 ? 'left' : 'right'} for the third row running (columns ${oddCols.map((c) => c + 1).join(',')},${oi + 1}) — the child can ride the staircase`);
+          }
           prevOdd = oi;
+          oddCols.push(oi);
           if (new Set(boxes.map((b) => b.dataset.lcsVocab)).size !== items) fails.push(`${what}: a vocab key twice in the row`);
           const sizes = boxes.map((b) => { const im = b.querySelector('img'); return im ? px(im) : 0; });
           if (Math.max(...sizes) - Math.min(...sizes) > 0.6) fails.push(`${what}: pictures ${sizes.map(Math.round).join('/')} are not one size (the odd one must never be the odd SIZE)`);

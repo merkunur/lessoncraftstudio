@@ -86,6 +86,14 @@ const C4 = require('../../templates/components-b4.js');
 const { bodyFigure, ANCHORS, ANCHOR_IDS, LABEL_MIN_H, MAX_H, MARKER_MIN_GAP, REGIONS, FEATURES, anchorUnit } = require('../../primitives/body-figure.js');
 const tokens = require('../../primitives/_tokens.js');
 const FACTS = require('../../data/b4/body-facts.json');
+/** Regions that CONTAIN another region on the drawn figure. Two legend rows may never claim the
+ *  same pixels: `hair` is a closed shape inside the `head` outline, so "colour the head red and
+ *  the hair pink" is unobeyable. This is figure geometry, not language, so it lives here rather
+ *  than in body-facts.json. NOT the same predicate as `confusable`: arm/hand and leg/foot are
+ *  ADJACENT and colouring them separately is a legitimate task — and a blanket confusable fence
+ *  would cap the legend at 3 against legend:5 (measured before this was written). */
+const NESTED_REGIONS = [['head', 'hair']];
+const nestedWith = (id) => NESTED_REGIONS.filter((p) => p.includes(id)).flat().filter((x) => x !== id);
 const { fileUri } = require('../../image-cache/resolve.js');
 const { COLOR_WORDS } = require('../../data/color-words.js');
 const { SWATCH } = require('../../templates/components-b2.js');
@@ -672,7 +680,11 @@ const TYPE = {
   /** F2 — Colour by Legend (K-361): a legend (swatch + colour word + part word) beside a WHITE figure; the child colours the named regions. */
   _buildColor(bankLoc, d, loc, rng, refused) {
     if (!(d.legend >= 3 && d.legend <= 6)) throw new Error(`${ID}: legend ${d.legend} outside 3..6`);
-    const pool = (d.regionPool || []).filter((id) => !refused.has(id));
+    // Two legend rows may never claim the same pixels (see NESTED_REGIONS): keep the first of a
+    // nested pair the pool offers and drop its partner, so hair and head never share one figure.
+    const nestSeen = new Set();
+    const pool = (d.regionPool || []).filter((id) => !refused.has(id))
+      .filter((id) => { if (nestedWith(id).some((o) => nestSeen.has(o))) return false; nestSeen.add(id); return true; });
     for (const id of d.regionPool || []) if (!COLOR_CLASSES.includes(id)) throw new Error(`${ID}: regionPool "${id}" is not a colourable class (${COLOR_CLASSES.join(' ')}; the shirt is never in the legend)`);
     if (pool.length < d.legend) throw new Error(`${ID}: ${loc} region pool ${pool.length} < legend ${d.legend} (refuse)`);
     if (!(d.swatch >= COLOR_SWATCH_MIN)) throw new Error(`${ID}: swatch ${d.swatch} < ${COLOR_SWATCH_MIN}`);
@@ -752,6 +764,16 @@ const TYPE = {
       const seen = new Set(); let dup = false;
       for (const id of ids) { const k = PW[id].toLocaleLowerCase(loc); if (seen.has(k)) dup = true; seen.add(k); }
       if (dup) continue;
+      // ...and never both halves of a NESTED pair. The check above compares WORDS, so hair+head
+      // (different words, one region inside the other) walked straight past it - the marker then
+      // lands on the cheek and reads as head / nose / face alike. Scoped to NESTED_REGIONS, not
+      // to all of FACTS.confusable: the full fence was MEASURED to refuse 13 of 132 builds, while
+      // arm+hand and leg+foot sit at distinct anchors with distinct box counts and are fine.
+      // hair+head (different words, one group) walked straight past it. Same fence _buildMissing
+      // already uses for its distractors.
+      const nSeen = new Set(); let nested = false;
+      for (const id of ids) { if (nestedWith(id).some((o) => nSeen.has(o))) nested = true; nSeen.add(id); }
+      if (nested) continue;
       const sides = {}; for (const id of ids) sides[id] = ANCHORS[id].L ? rng.pick(['L', 'R']) : '';
       const markers = markersOf(ids, sides);
       try { picked = { markers, fig: bodyFigure({ h: d.figureH, fill: 'cream', markers }) }; } catch (e) { if (!/markers .* apart/.test(e.message)) throw e; }

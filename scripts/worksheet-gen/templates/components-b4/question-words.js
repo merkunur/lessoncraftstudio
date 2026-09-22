@@ -130,7 +130,12 @@ function picImg({ src, pic, picKind, depicted, px }) {
 /* ---------- markedSpan ---------- */
 function markedSpan(text) {
   if (!text || !String(text).trim()) throw new Error('markedSpan: empty text');
-  return `<span data-lcs-mark style="background:${T.coralSoft};border-bottom:3px solid ${T.coral};border-radius:4px;padding:0 4px">${esc(text)}</span>`;
+// The highlight bleeds 4px either side of the glyphs but takes ZERO layout width, so a
+// sentence-final mark does not push its full stop away. Measured 2026-09-22: the padding
+// alone put exactly 4.00 px between the last glyph and the period on G1-353 / G1-374 /
+// G2-356 in every locale. The source has no whitespace there (`</span>.`), so no
+// source-level check can see it - three native landing panels found it by reading renders.
+  return `<span data-lcs-mark style="background:${T.coralSoft};border-bottom:3px solid ${T.coral};border-radius:4px;padding:0 4px;margin:0 -4px">${esc(text)}</span>`;
 }
 
 /* ---------- renderMarked ---------- */

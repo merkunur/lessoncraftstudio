@@ -52,6 +52,7 @@
     "G1-352": { "title": "Hij, zij of het: persoonlijke voornaamwoorden", "instruction": "Kijk naar het plaatje en lees het woord eronder. Omcirkel het woord dat we in plaats daarvan zeggen." },
     "G1-371": { "title": "Vervang de naam door een voornaamwoord", "instruction": "Lees de zin. Schrijf het woord uit het kader dat in de tweede zin de naam vervangt in het vakje." },
     "G2-353": { "title": "Wie wordt bedoeld? Voornaamwoorden in de zin", "instruction": "Lees de zinnen. Trek een lijn van elk woord in het vak naar de naam waarvoor het staat." },
+    "G2-354": { "title": "Bezittelijke voornaamwoorden: zijn, haar of hun", "instruction": "Kijk van wie het ding is. Omcirkel het woord dat bij die persoon hoort." },
     "G1-372": { "title": "Namen sorteren: hij, zij of het", "instruction": "Lees elke kaart. Schrijf het woord van de kaart onder het woord dat we ervoor zeggen." },
     "G2-355": { "title": "Schrijf de zin opnieuw met een voornaamwoord", "instruction": "Lees de zin. Schrijf hem opnieuw op de lijnen, maar zet een voornaamwoord in plaats van de naam." },
 
@@ -110,8 +111,7 @@
   },
 
   "refusals": {
-    "K-367": "Nederland heeft wel nationale containerkleuren (papier blauw, gft groen, pmd oranje, restafval grijs) maar GEEN eigen kleur voor glas: de glasbak is een brengvoorziening, meestal groen, en botst dus met de gft-bak. Een vijfde, onderscheidende kleur zou verzonnen zijn, en glas uit de bakkenset halen zou de vijf andere faces verzwakken. F4 wordt daarom geweigerd, niet gekleurd geraden.",
-    "G2-354": "GATE-DEFECT, geen taalfeit: qa/verify-b4-pronouns.js regel 6 telt voor nl elke bezitsdrager als 'm-n' (['f','d'].includes(code) && loc !== 'nl'), zodat genders.f altijd 0 is en de eis 'f >= 4' voor het Nederlands onbereikbaar is; nl kent alleen de codes d en h. Nederlandse bezittelijke voornaamwoorden (zijn/haar/hun) congrueren juist NIET met het ding, dus de balans-eis geldt hier niet. Zie het rapport: een regel fixen zet deze face terug op 6."
+    "K-367": "Nederland heeft wel nationale containerkleuren (papier blauw, gft groen, pmd oranje, restafval grijs) maar GEEN eigen kleur voor glas: de glasbak is een brengvoorziening, meestal groen, en botst dus met de gft-bak. Een vijfde, onderscheidende kleur zou verzonnen zijn, en glas uit de bakkenset halen zou de vijf andere faces verzwakken. F4 wordt daarom geweigerd, niet gekleurd geraden."
   },
 
   "banks": {
@@ -433,11 +433,32 @@
         { "id": "bus", "intro": "{a} en {b} zitten in de bus.", "s": [{ "text": "{P} heeft een rode tas.", "key": "sg" }, { "text": "{P} heeft een blauwe tas.", "key": "sg" }], "contentNeutral": true },
         { "id": "dierentuin", "intro": "{a} en {b} zijn in de dierentuin.", "s": [{ "text": "{P} ziet een leeuw.", "key": "sg" }, { "text": "{P} ziet een aap.", "key": "sg" }], "contentNeutral": true }
       ],
-      "possessive": null,
-      "refuse": { "possessive": true },
+      "possessive": {
+        "chips": ["zijn", "haar", "hun"],
+        "chipW": 60,
+        "byOwner": { "m1": 0, "f1": 1, "mp": 2, "fp": 2, "xp": 2 },
+        "frame": { "sg": "Dit is {subj}. Dit is ___ {thing}.", "pl": "Kijk naar {subj}. Dit is ___ {thing}." },
+        "artTable": null,
+        "things": [
+          { "key": "ball", "pic": { "theme": "toys", "noun": "ball" }, "forms": null, "picOpened": true },
+          { "key": "kite", "pic": { "theme": "toys", "noun": "kite" }, "forms": null, "picOpened": true },
+          { "key": "cap", "pic": { "theme": "accessories", "noun": "cap" }, "forms": null, "picOpened": true },
+          { "key": "drum", "pic": { "theme": "music", "noun": "drum" }, "forms": null, "picOpened": true },
+          { "key": "book", "pic": { "theme": "classroom", "noun": "book" }, "forms": null, "picOpened": true },
+          { "key": "cake", "pic": { "theme": "desserts and sweets", "noun": "cake" }, "forms": null, "picOpened": true },
+          { "key": "hat", "pic": { "theme": "accessories", "noun": "hat" }, "forms": null, "picOpened": true },
+          { "key": "dog", "pic": { "theme": "pets", "noun": "dog" }, "forms": null, "picOpened": true },
+          { "key": "cat", "pic": { "theme": "pets", "noun": "cat" }, "forms": null, "picOpened": true },
+          { "key": "car", "pic": { "theme": "toys", "noun": "car" }, "forms": null, "picOpened": true },
+          { "key": "boat", "pic": { "theme": "toys", "noun": "boat" }, "forms": null, "picOpened": true },
+          { "key": "fish", "pic": { "theme": "pets", "noun": "fish" }, "forms": null, "picOpened": true }
+        ]
+      },
+      "refuse": { "possessive": false },
       "strings": {
         "base": { "title": "Hij, zij of het: persoonlijke voornaamwoorden", "instruction": "Kijk naar het plaatje en lees het woord eronder. Omcirkel het woord dat we in plaats daarvan zeggen." },
         "replace": { "title": "Vervang de naam door een voornaamwoord", "instruction": "Lees de zin. Schrijf het woord uit het kader dat in de tweede zin de naam vervangt in het vakje.", "bankWord": "kader" },
+        "possessive": { "title": "Bezittelijke voornaamwoorden: zijn, haar of hun", "instruction": "Kijk van wie het ding is. Omcirkel het woord dat bij die persoon hoort." },
         "anaphora": { "title": "Wie wordt bedoeld? Voornaamwoorden in de zin", "instruction": "Lees de zinnen. Trek een lijn van elk woord in het vak naar de naam waarvoor het staat." },
         "sort": { "title": "Namen sorteren: hij, zij of het", "instruction": "Lees elke kaart. Schrijf het woord van de kaart onder het woord dat we ervoor zeggen." },
         "rewrite": { "title": "Schrijf de zin opnieuw met een voornaamwoord", "instruction": "Lees de zin. Schrijf hem opnieuw op de lijnen, maar zet een voornaamwoord in plaats van de naam." }

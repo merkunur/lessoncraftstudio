@@ -1,7 +1,6 @@
 {
   "locale": "nl",
   "refusals": {
-    "K-367": "Nederland heeft wel nationale containerkleuren (papier blauw, gft groen, pmd oranje, restafval grijs) maar GEEN eigen kleur voor glas: de glasbak is een brengvoorziening, meestal groen, en botst dus met de gft-bak. Een vijfde, onderscheidende kleur zou verzonnen zijn, en glas uit de bakkenset halen zou de vijf andere faces verzwakken. F4 wordt daarom geweigerd, niet gekleurd geraden.",
-    "G2-354": "GATE-DEFECT, geen taalfeit: qa/verify-b4-pronouns.js regel 6 telt voor nl elke bezitsdrager als 'm-n' (['f','d'].includes(code) && loc !== 'nl'), zodat genders.f altijd 0 is en de eis 'f >= 4' voor het Nederlands onbereikbaar is; nl kent alleen de codes d en h. Nederlandse bezittelijke voornaamwoorden (zijn/haar/hun) congrueren juist NIET met het ding, dus de balans-eis geldt hier niet. Zie het rapport: een regel fixen zet deze face terug op 6."
+    "K-367": "Nederland heeft wel nationale containerkleuren (papier blauw, gft groen, pmd oranje, restafval grijs) maar GEEN eigen kleur voor glas: de glasbak is een brengvoorziening, meestal groen, en botst dus met de gft-bak. Een vijfde, onderscheidende kleur zou verzonnen zijn, en glas uit de bakkenset halen zou de vijf andere faces verzwakken. F4 wordt daarom geweigerd, niet gekleurd geraden."
   }
 }

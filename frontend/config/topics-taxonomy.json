@@ -3979,7 +3979,11 @@
           "it": "tangram",
           "fr": "tangram",
           "pt": "tangram",
-          "nl": "tangram"
+          "nl": "tangram",
+          "sv": "tangram",
+          "no": "tangram",
+          "da": "tangram",
+          "fi": "tangram"
         },
         "name": {
           "en": "Tangram",
@@ -3988,7 +3992,11 @@
           "it": "Tangram",
           "fr": "Tangram",
           "pt": "Tangram",
-          "nl": "Tangram"
+          "nl": "Tangram",
+          "sv": "Tangram",
+          "no": "Tangram",
+          "da": "Tangram",
+          "fi": "Tangram"
         }
       },
       "human-body": {
@@ -3999,7 +4007,11 @@
           "it": "il-corpo-umano",
           "fr": "le-corps-humain",
           "pt": "o-corpo-humano-e-suas-partes",
-          "nl": "het-lichaam"
+          "nl": "het-lichaam",
+          "sv": "kroppens-delar",
+          "no": "kroppen-var",
+          "da": "kroppens-dele",
+          "fi": "kehon-osat"
         },
         "name": {
           "en": "Parts of the Body",
@@ -4008,7 +4020,11 @@
           "it": "Il corpo umano",
           "fr": "Le corps humain",
           "pt": "O corpo humano e suas partes",
-          "nl": "Het lichaam"
+          "nl": "Het lichaam",
+          "sv": "Kroppens delar",
+          "no": "Kroppen vår",
+          "da": "Kroppens dele",
+          "fi": "Kehon osat"
         }
       },
       "five-senses": {
@@ -4019,7 +4035,11 @@
           "it": "i-cinque-sensi",
           "fr": "les-5-sens",
           "pt": "os-cinco-sentidos",
-          "nl": "de-vijf-zintuigen"
+          "nl": "de-vijf-zintuigen",
+          "sv": "vara-sinnen",
+          "no": "sansene-vare",
+          "da": "sanserne",
+          "fi": "viisi-aistia"
         },
         "name": {
           "en": "The Five Senses",
@@ -4028,7 +4048,11 @@
           "it": "I cinque sensi",
           "fr": "Les 5 sens",
           "pt": "Os cinco sentidos",
-          "nl": "De vijf zintuigen"
+          "nl": "De vijf zintuigen",
+          "sv": "Våra sinnen",
+          "no": "Sansene våre",
+          "da": "Sanserne",
+          "fi": "Viisi aistia"
         }
       },
       "weather-symbols": {
@@ -4039,7 +4063,11 @@
           "it": "il-tempo-atmosferico",
           "fr": "le-temps-qu-il-fait",
           "pt": "como-esta-o-tempo-hoje",
-          "nl": "weersymbolen"
+          "nl": "weersymbolen",
+          "sv": "vadersymboler",
+          "no": "vaersymboler",
+          "da": "vejrsymboler",
+          "fi": "saatilat"
         },
         "name": {
           "en": "Weather Symbols",
@@ -4048,7 +4076,11 @@
           "it": "Il tempo atmosferico",
           "fr": "Le temps qu'il fait",
           "pt": "Como está o tempo hoje",
-          "nl": "Weersymbolen"
+          "nl": "Weersymbolen",
+          "sv": "Vädersymboler",
+          "no": "Værsymboler",
+          "da": "Vejrsymboler",
+          "fi": "Säätilat"
         }
       },
       "recycling": {
@@ -4059,7 +4091,11 @@
           "it": "raccolta-differenziata",
           "fr": "le-tri-des-dechets",
           "pt": "coleta-seletiva",
-          "nl": "afval-scheiden"
+          "nl": "afval-scheiden",
+          "sv": "kallsortering",
+          "no": "kildesortering",
+          "da": "affaldssortering",
+          "fi": "kierratys"
         },
         "name": {
           "en": "Recycling Sort",
@@ -4068,7 +4104,11 @@
           "it": "Raccolta differenziata",
           "fr": "Le tri des déchets",
           "pt": "Coleta seletiva",
-          "nl": "Afval scheiden"
+          "nl": "Afval scheiden",
+          "sv": "Källsortering",
+          "no": "Kildesortering",
+          "da": "Affaldssortering",
+          "fi": "Kierrätys"
         }
       },
       "cloze": {
@@ -4079,7 +4119,11 @@
           "it": "completa-le-frasi",
           "fr": "phrases-a-trous",
           "pt": "complete-as-frases",
-          "nl": "zinnen-aanvullen"
+          "nl": "zinnen-aanvullen",
+          "sv": "fyll-i-ratt-ord",
+          "no": "sett-inn-riktig-ord",
+          "da": "indsaet-det-rigtige-ord",
+          "fi": "taydenna-lauseet"
         },
         "name": {
           "en": "Fill in the Missing Word",
@@ -4088,7 +4132,11 @@
           "it": "Completa le frasi",
           "fr": "Phrases à trous",
           "pt": "Complete as frases",
-          "nl": "Zinnen aanvullen"
+          "nl": "Zinnen aanvullen",
+          "sv": "Fyll i rätt ord",
+          "no": "Sett inn riktig ord",
+          "da": "Indsæt det rigtige ord",
+          "fi": "Täydennä lauseet"
         }
       },
       "odd-and-even": {
@@ -4099,7 +4147,11 @@
           "it": "numeri-pari-e-dispari",
           "fr": "nombres-pairs-et-impairs",
           "pt": "numeros-pares-e-impares",
-          "nl": "even-en-oneven-getallen"
+          "nl": "even-en-oneven-getallen",
+          "sv": "udda-och-jamna-tal",
+          "no": "partall-og-oddetall",
+          "da": "lige-og-ulige-tal",
+          "fi": "parilliset-ja-parittomat-luvut"
         },
         "name": {
           "en": "Odd and Even Numbers",
@@ -4108,7 +4160,11 @@
           "it": "Numeri pari e dispari",
           "fr": "Nombres pairs et impairs",
           "pt": "Números pares e ímpares",
-          "nl": "Even en oneven getallen"
+          "nl": "Even en oneven getallen",
+          "sv": "Udda och jämna tal",
+          "no": "Partall og oddetall",
+          "da": "Lige og ulige tal",
+          "fi": "Parilliset ja parittomat luvut"
         }
       },
       "pronouns": {
@@ -4119,7 +4175,11 @@
           "it": "pronomi-personali-soggetto",
           "fr": "pronoms-personnels-sujets",
           "pt": "pronomes-pessoais-do-caso-reto",
-          "nl": "hij-zij-of-het"
+          "nl": "hij-zij-of-het",
+          "sv": "pronomen-han-hon-eller-de",
+          "no": "personlige-pronomen",
+          "da": "personlige-stedord",
+          "fi": "han-vai-he"
         },
         "name": {
           "en": "Personal Pronouns",
@@ -4128,7 +4188,11 @@
           "it": "Pronomi personali soggetto",
           "fr": "Les pronoms personnels sujets",
           "pt": "Pronomes pessoais do caso reto",
-          "nl": "Hij, zij of het"
+          "nl": "Hij, zij of het",
+          "sv": "Pronomen: han, hon eller de",
+          "no": "Personlige pronomen",
+          "da": "Personlige stedord",
+          "fi": "Hän vai he"
         }
       },
       "question-words": {
@@ -4139,7 +4203,11 @@
           "it": "le-domande-della-frase",
           "fr": "mots-interrogatifs",
           "pt": "palavras-para-perguntar",
-          "nl": "vraagwoorden"
+          "nl": "vraagwoorden",
+          "sv": "frageord",
+          "no": "sporreord",
+          "da": "hv-ord",
+          "fi": "kysymyssanat"
         },
         "name": {
           "en": "Question Words",
@@ -4148,7 +4216,11 @@
           "it": "Le domande della frase",
           "fr": "Les mots interrogatifs",
           "pt": "Palavras para perguntar",
-          "nl": "Vraagwoorden"
+          "nl": "Vraagwoorden",
+          "sv": "Frågeord",
+          "no": "Spørreord",
+          "da": "Hv-ord",
+          "fi": "Kysymyssanat"
         }
       },
       "rounding": {
@@ -4159,7 +4231,11 @@
           "it": "arrotondare-i-numeri",
           "fr": "arrondir-a-la-dizaine",
           "pt": "arredondamento-de-numeros",
-          "nl": "afronden-op-tientallen"
+          "nl": "afronden-op-tientallen",
+          "sv": "avrundning",
+          "no": "avrunding",
+          "da": "afrunding",
+          "fi": "pyoristaminen"
         },
         "name": {
           "en": "Rounding Numbers",
@@ -4168,7 +4244,11 @@
           "it": "Arrotondare i numeri",
           "fr": "Arrondir à la dizaine",
           "pt": "Arredondamento de números",
-          "nl": "Afronden op tientallen"
+          "nl": "Afronden op tientallen",
+          "sv": "Avrundning",
+          "no": "Avrunding",
+          "da": "Afrunding",
+          "fi": "Pyöristäminen"
         }
       }
     },

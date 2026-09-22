@@ -30,7 +30,31 @@ interface MakerSampleTileProps {
    * dead-ends. Same pattern as FeaturedDeckTileV3's `deckHref`. Omit → nothing renders. */
   landingHref?: string;
   landingLabel?: string;    // visible text for landingHref
+  /* Modal action buttons. The deck's own baked strip (#lcs-deck-actions) is hidden
+   * inside any iframe (body.lcs-embedded), so the modal renders them host-side — the
+   * same pattern as the deck landing hero. Any absent href → that button is omitted;
+   * no labels → no strip. */
+  pdfHref?: string;         // metered /api/quota/dl?…&kind=pdf
+  answerKeyHref?: string;   // only when the deck has an answer key
+  makeHref?: string;        // the generator itself
+  actionLabels?: SampleActionLabels;
 }
+
+/** Localized deckActions.* strings (frontend/messages/<locale>.json). */
+export interface SampleActionLabels {
+  downloadPdf: string;
+  answerKey: string;
+  makeYourOwn: string;
+  ariaLabel: string;
+}
+
+// Pill classes mirror the strip baked into every deck.html (scripts/lib/deck-actions.js):
+// teal outline for the downloads, coral outline for "make" so creating reads differently.
+const PILL = 'inline-flex items-center gap-1.5 min-h-[40px] px-3 sm:px-4 rounded-full border-2 bg-white font-sans font-bold text-[13px] sm:text-sm leading-tight whitespace-nowrap no-underline transition-colors focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2';
+const PILL_TEAL = `${PILL} border-[#146B5E] text-[#146B5E] hover:bg-[#E3EEEB] focus-visible:outline-[#146B5E]`;
+const PILL_MAKE = `${PILL} border-[#F2784B] text-[#9A4521] hover:bg-[#FBEDE6] focus-visible:outline-[#F2784B]`;
+const ICON = 'w-4 h-4 flex-shrink-0';
+const iconProps = { viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: 2.2, strokeLinecap: 'round' as const, strokeLinejoin: 'round' as const, 'aria-hidden': true };
 
 const THUMB_SIZES = '(max-width:639px) 90vw, (max-width:1023px) 45vw, 300px';
 
@@ -45,6 +69,10 @@ export default function MakerSampleTile({
   closeLabel,
   landingHref,
   landingLabel,
+  pdfHref,
+  answerKeyHref,
+  makeHref,
+  actionLabels,
 }: MakerSampleTileProps) {
   const [open, setOpen] = useState(false);
 
@@ -121,6 +149,29 @@ export default function MakerSampleTile({
     </div>
   ) : null;
 
+  const actions = actionLabels && (pdfHref || answerKeyHref || makeHref) ? (
+    <nav aria-label={actionLabels.ariaLabel} className="flex flex-wrap items-center gap-2 min-w-0">
+      {pdfHref && (
+        <a href={pdfHref} target="_blank" rel="nofollow" className={PILL_TEAL}>
+          <svg className={ICON} {...iconProps}><path d="M12 4v11" /><path d="m7 11 5 5 5-5" /><path d="M5 20h14" /></svg>
+          {actionLabels.downloadPdf}
+        </a>
+      )}
+      {answerKeyHref && (
+        <a href={answerKeyHref} target="_blank" rel="nofollow" className={PILL_TEAL}>
+          <svg className={ICON} {...iconProps}><path d="M4 12.5 9 17.5 20 6.5" /></svg>
+          {actionLabels.answerKey}
+        </a>
+      )}
+      {makeHref && (
+        <a href={makeHref} className={PILL_MAKE}>
+          <svg className={ICON} {...iconProps}><path d="M4 20h4l10.5-10.5a2.1 2.1 0 0 0-3-3L5 17v3z" /><path d="m13.5 8.5 3 3" /></svg>
+          {actionLabels.makeYourOwn}
+        </a>
+      )}
+    </nav>
+  ) : null;
+
   if (variant === 'pdf') {
     return (
       <div>
@@ -166,11 +217,12 @@ export default function MakerSampleTile({
           >
             {/* No title here: the sticky CategoryNav shows through at this row and the
                 text collided with its first item (operator, 2026-09-11). Only the close. */}
-            <div className="flex items-center justify-end px-5 py-4 border-b border-[#146B5E]/15 flex-shrink-0">
+            <div className="flex items-center justify-between gap-3 px-3 sm:px-5 py-3 border-b border-[#146B5E]/15 flex-shrink-0">
+              {actions ?? <span />}
               <button
                 type="button"
                 onClick={() => setOpen(false)}
-                className="p-2 -mr-2 text-[#146B5E]/70 hover:text-[#146B5E] rounded-full hover:bg-[#146B5E]/10 transition-colors"
+                className="self-start flex-shrink-0 p-2 -mr-1 text-[#146B5E]/70 hover:text-[#146B5E] rounded-full hover:bg-[#146B5E]/10 transition-colors"
                 aria-label={closeLabel}
               >
                 <svg className="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">

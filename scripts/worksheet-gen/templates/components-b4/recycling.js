@@ -54,7 +54,7 @@
  *               row) each holding bin({w:44, h:66, fill:'lid'}); stamps
  *               data-lcs-chip="<binKey>" data-lcs-mark; width 5 x 64 + 4 x 10
  *               = 330.
- *   whichBinRow({n, item, chips, tile=72, iconPx=60, chipsW=330})
+ *   whichBinRow({n, item, chips, tile=72, iconPx=60, chipsW=330, chipsAlign='end'|'center'})
  *               F1: white card r 12, border 2 creamDeep, grid `30px 72px 1fr
  *               <chipsW>px` gap 12, padding 0 12 (the spacer takes the rest):
  *               badge · product tile 72 (icon 60) · spacer · chips. chipsW =
@@ -196,12 +196,12 @@ function binChips({ bins, tile = 64, tileH = 80, binW = 44, gap = 10 }) {
 }
 
 /* ---------------------------------------------------------------- F1: one which-bin row */
-function whichBinRow({ n, item, chips, tile = 72, iconPx = 60, chipsW = 330 }) {
+function whichBinRow({ n, item, chips, tile = 72, iconPx = 60, chipsW = 330, chipsAlign = 'end' }) {
   if (!item || !item.id) throw new Error('whichBinRow: no item');
   const order = (/data-lcs-chip-order="([^"]*)"/.exec(chips || '') || [])[1] || '';
   if (!(chipsW >= 100)) throw new Error(`whichBinRow: chipsW ${chipsW} < 100`);
   return `<div class="rc-which" data-lcs-row data-lcs-n="${n}" data-lcs-item="${esc(item.id)}" data-lcs-material="${esc(item.material)}" data-lcs-bin="${esc(item.bin)}" data-lcs-chip-order="${esc(order)}" ` +
-    `style="display:grid;grid-template-columns:30px ${tile}px 1fr ${chipsW}px;column-gap:12px;align-items:center;padding:0 12px;background:${T.white};border:2px solid ${T.creamDeep};border-radius:12px;min-height:0;min-width:0">` +
+    `style="display:grid;grid-template-columns:30px ${tile}px 1fr ${chipsW}px${chipsAlign === 'center' ? ' 1fr' : ''};column-gap:12px;align-items:center;padding:0 12px;background:${T.white};border:2px solid ${T.creamDeep};border-radius:12px;min-height:0;min-width:0">` +
     badge(n) +
     `<span class="rc-product" style="display:inline-flex;align-items:center;justify-content:center;width:${tile}px;height:${tile}px;background:${T.cream};border-radius:10px">${icon(item.src, iconPx)}</span>` +
     `<span></span>` + chips + `</div>`;

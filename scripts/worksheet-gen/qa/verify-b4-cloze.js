@@ -243,6 +243,14 @@ function tokensBefore(text) {
  * opts.en = the EN block; opts.globals = {twins, excludeKeys, strongThemes}; opts.objForms = an objForms override (poisons).
  * Warnings are returned prefixed "WARN:" and do not fail (the caller filters).
  */
+/** A plural frame OPENING with a quantity word must pin `clones`: otherwise the generator draws
+ *  freely from its [2,3] range, and sv shipped "Manga" over exactly TWO pictures on three rows.
+ *  MEASURED before this was written: sv is the ONLY locale whose unpinned frames claim a quantity
+ *  at all - de writes "Die {gap} ...", fi uses bare plural agreement, and 2 pictures are true there,
+ *  so a generator change would have altered ten correct locales to fix one.
+ *  Scoped to the OPENER, so a frame merely containing the word elsewhere is not condemned. */
+const QUANTITY_OPENER = /^(många|monta|muchos|muchas|muitos|muitas|beaucoup|molti|molte|veel|mange|monet|many|viele)(?!\p{L})/iu;
+
 function validateBank(block, loc, opts = {}) {
   const out = [];
   const push = (m) => out.push(m);
@@ -408,6 +416,8 @@ function validateBank(block, loc, opts = {}) {
     if (pNouns.has(f.noun)) push(`rule 8: noun "${f.noun}" twice in plural`); pNouns.add(f.noun);
     if (!['pl', 'defPl'].includes(f.form)) push(`rule 9: ${L} form "${f.form}" (pl | defPl)`);
     if (isFi && f.form !== 'pl') push(`rule 9: ${L} fi plural frames use pl only`);
+    if (f.clones == null && QUANTITY_OPENER.test(String(f.text || '').trim()))
+      push(`rule 9: ${L} opens with a quantity word but pins no clones - the generator may draw 2 pictures under it`);
     const a = checkCommon(f, L, D2.maxChars);
     if (a) { if (pAnswers.has(fold(a))) push(`rule 8: answer "${a}" twice in plural`); pAnswers.add(fold(a)); }
     if (f.pic) pThemes.add(f.pic.theme);
@@ -681,7 +691,14 @@ function synthetic(loc, en) {
   for (const f of b.frames) { if (loc === 'de') f.case = 'nom'; const g = entryOf(loc, f.noun).gender; const foil = pool.find((p) => p.key !== f.noun && entryOf(loc, p.key).gender === g && !singles.some((x) => x.key === p.key)); if (foil) f.foil = foil.key; }
   const usedS = new Set(singles.map((p) => p.key));
   const plurals = loc === 'da' ? [] : pick(12, (p) => !usedS.has(p.key) && forms[p.key] && forms[p.key].pl && fold(forms[p.key].pl) !== fold(p.e.singular));
-  b.plural = plurals.map((p) => ({ id: p.key + '-synpl', noun: p.key, form: 'pl', text: (artOf(p, true) ? artOf(p, true) + ' ' : '') + '{gap} ' + L.predPl, clones: null, fits: [p.key], predicateKind: 'verb', pic: { theme: p.theme, noun: p.key }, picOpened: true, signedExclusive: true }));
+  b.plural = plurals.map((p) => {
+    const text = (artOf(p, true) ? artOf(p, true) + ' ' : '') + '{gap} ' + L.predPl;
+    // A synthetic block is a VALID control, so it obeys the same rule a real bank does: a frame whose
+    // determiner is a quantity word (sv's "Många") must pin clones, or the generator may draw 2
+    // pictures under it. Without this the fixture failed its own new rule 12 times.
+    const clones = QUANTITY_OPENER.test(text.trim()) ? 3 : null;
+    return { id: p.key + '-synpl', noun: p.key, form: 'pl', text, clones, fits: [p.key], predicateKind: 'verb', pic: { theme: p.theme, noun: p.key }, picOpened: true, signedExclusive: true };
+  });
   if (loc === 'de') b.plural.forEach((f) => { f.case = 'nom'; });
   const usedP = new Set(plurals.map((p) => p.key));
   const storyNouns = pick(18, (p) => !usedS.has(p.key) && !usedP.has(p.key) && graphemes(p.e.singular) <= 9);

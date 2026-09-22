@@ -334,7 +334,7 @@
       "noun": "bee",
       "form": "pl",
       "text": "Många {gap} surrar runt blommorna.",
-      "clones": null,
+      "clones": 3,
       "fits": [
         "bee"
       ],
@@ -351,7 +351,7 @@
       "noun": "goose",
       "form": "pl",
       "text": "Många {gap} simmar i dammen.",
-      "clones": null,
+      "clones": 3,
       "fits": [
         "goose",
         "duck",
@@ -390,7 +390,7 @@
       "noun": "penguin",
       "form": "pl",
       "text": "Många {gap} vaggar fram över isen.",
-      "clones": null,
+      "clones": 3,
       "fits": [
         "penguin"
       ],
@@ -407,7 +407,7 @@
       "noun": "bat",
       "form": "pl",
       "text": "Många {gap} hänger upp och ner i grottan.",
-      "clones": null,
+      "clones": 3,
       "fits": [
         "bat"
       ],
@@ -424,7 +424,7 @@
       "noun": "monkey",
       "form": "pl",
       "text": "Många {gap} svingar sig från träd till träd.",
-      "clones": null,
+      "clones": 3,
       "fits": [
         "monkey",
         "chimpanzee",
@@ -445,7 +445,7 @@
       "noun": "strawberry",
       "form": "pl",
       "text": "Många {gap} är små, röda och söta.",
-      "clones": null,
+      "clones": 3,
       "fits": [
         "strawberry"
       ],
@@ -480,7 +480,7 @@
       "noun": "tiger",
       "form": "pl",
       "text": "Många {gap} har randig päls.",
-      "clones": null,
+      "clones": 3,
       "fits": [
         "tiger",
         "zebra"
@@ -498,7 +498,7 @@
       "noun": "hen",
       "form": "pl",
       "text": "Många {gap} pickar korn på gården.",
-      "clones": null,
+      "clones": 3,
       "fits": [
         "hen",
         "chicken",

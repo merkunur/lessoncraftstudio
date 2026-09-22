@@ -4,7 +4,7 @@ const base = require('./G1-351-odd-and-even.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"mode":"share","range":[5,12],"lanes":6,"iconPx":44,"perRow":6,"split":[3,3],"pills":true} };
+const D = { ...base.difficulty[2], ...{"mode":"share","range":[5,10],"lanes":6,"iconPx":44,"perRow":5,"split":[3,3],"pills":true} };
 module.exports = {
   ...base,
   id: 'G1-369',

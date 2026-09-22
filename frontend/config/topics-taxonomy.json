@@ -3974,101 +3974,121 @@
       "tangram": {
         "slug": {
           "en": "tangram",
-          "de": "tangram"
+          "de": "tangram",
+          "es": "tangram"
         },
         "name": {
           "en": "Tangram",
-          "de": "Tangram-Figuren"
+          "de": "Tangram-Figuren",
+          "es": "Tangram"
         }
       },
       "human-body": {
         "slug": {
           "en": "human-body",
-          "de": "der-koerper"
+          "de": "der-koerper",
+          "es": "el-cuerpo-humano"
         },
         "name": {
           "en": "Parts of the Body",
-          "de": "Der Körper"
+          "de": "Der Körper",
+          "es": "El cuerpo humano"
         }
       },
       "five-senses": {
         "slug": {
           "en": "five-senses",
-          "de": "die-fuenf-sinne"
+          "de": "die-fuenf-sinne",
+          "es": "los-cinco-sentidos"
         },
         "name": {
           "en": "The Five Senses",
-          "de": "Die fünf Sinne"
+          "de": "Die fünf Sinne",
+          "es": "Los cinco sentidos"
         }
       },
       "weather-symbols": {
         "slug": {
           "en": "weather-symbols",
-          "de": "wettersymbole"
+          "de": "wettersymbole",
+          "es": "el-estado-del-tiempo"
         },
         "name": {
           "en": "Weather Symbols",
-          "de": "Wettersymbole"
+          "de": "Wettersymbole",
+          "es": "El estado del tiempo"
         }
       },
       "recycling": {
         "slug": {
           "en": "recycling",
-          "de": "muelltrennung"
+          "de": "muelltrennung",
+          "es": "separacion-de-basura"
         },
         "name": {
           "en": "Recycling Sort",
-          "de": "Mülltrennung"
+          "de": "Mülltrennung",
+          "es": "Separación de basura"
         }
       },
       "cloze": {
         "slug": {
           "en": "cloze",
-          "de": "lueckentext"
+          "de": "lueckentext",
+          "es": "completa-las-oraciones"
         },
         "name": {
           "en": "Fill in the Missing Word",
-          "de": "Lückentext"
+          "de": "Lückentext",
+          "es": "Completa las oraciones"
         }
       },
       "odd-and-even": {
         "slug": {
           "en": "odd-and-even",
-          "de": "gerade-und-ungerade-zahlen"
+          "de": "gerade-und-ungerade-zahlen",
+          "es": "numeros-pares-e-impares"
         },
         "name": {
           "en": "Odd and Even Numbers",
-          "de": "Gerade und ungerade Zahlen"
+          "de": "Gerade und ungerade Zahlen",
+          "es": "Números pares e impares"
         }
       },
       "pronouns": {
         "slug": {
           "en": "pronouns",
-          "de": "personalpronomen"
+          "de": "personalpronomen",
+          "es": "pronombres-personales"
         },
         "name": {
           "en": "Personal Pronouns",
-          "de": "Personalpronomen"
+          "de": "Personalpronomen",
+          "es": "Pronombres personales"
         }
       },
       "question-words": {
         "slug": {
           "en": "question-words",
-          "de": "w-fragen"
+          "de": "w-fragen",
+          "es": "preguntas-con-quien-que-y-donde"
         },
         "name": {
           "en": "Question Words",
-          "de": "W-Fragen"
+          "de": "W-Fragen",
+          "es": "Preguntas con quién, qué y dónde"
         }
       },
       "rounding": {
         "slug": {
           "en": "rounding",
-          "de": "zahlen-runden"
+          "de": "zahlen-runden",
+          "es": "redondeo"
         },
         "name": {
           "en": "Rounding Numbers",
-          "de": "Zahlen runden"
+          "de": "Zahlen runden",
+          "es": "Redondeo"
         }
       }
     },

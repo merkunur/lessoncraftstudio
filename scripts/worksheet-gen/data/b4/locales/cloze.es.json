@@ -1,0 +1,853 @@
+{
+  "nameSlot": false,
+  "articleTable": {
+    "m": "el",
+    "f": "la"
+  },
+  "boxWord": "una letra en cada casilla",
+  "confusable": [
+    [
+      "bus",
+      "van"
+    ],
+    [
+      "boat",
+      "sailboat"
+    ],
+    [
+      "hen",
+      "rooster"
+    ]
+  ],
+  "agreeingAdjectives": [
+    "grande",
+    "pequeño",
+    "pequeña",
+    "viejo",
+    "vieja",
+    "nuevo",
+    "nueva",
+    "bonito",
+    "bonita",
+    "gordo",
+    "gorda",
+    "largo",
+    "larga"
+  ],
+  "frames": [
+    {
+      "id": "cow-milk",
+      "noun": "cow",
+      "form": "sg",
+      "text": "La {gap} nos da leche.",
+      "fits": [
+        "cow",
+        "goat"
+      ],
+      "foil": "giraffe",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "cow"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "pig-mud",
+      "noun": "pig",
+      "form": "sg",
+      "text": "El {gap} se revuelca en el lodo.",
+      "fits": [
+        "pig"
+      ],
+      "foil": "dog",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "pig"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "rooster-crow",
+      "noun": "rooster",
+      "form": "sg",
+      "text": "El {gap} canta al amanecer.",
+      "fits": [
+        "rooster"
+      ],
+      "foil": "duck",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "birds 2",
+        "noun": "rooster"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "owl-night",
+      "noun": "owl",
+      "form": "sg",
+      "text": "El {gap} ulula en el árbol de noche.",
+      "fits": [
+        "owl"
+      ],
+      "foil": "bat",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "forest creatures",
+        "noun": "owl"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "bee-honey",
+      "noun": "bee",
+      "form": "sg",
+      "text": "La {gap} hace miel en la colmena.",
+      "fits": [
+        "bee"
+      ],
+      "foil": "turtle",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "Things That Fly",
+        "noun": "bee"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "giraffe-neck",
+      "noun": "giraffe",
+      "form": "sg",
+      "text": "La {gap} tiene el cuello muy largo.",
+      "fits": [
+        "giraffe",
+        "swan"
+      ],
+      "foil": "zebra",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "giraffe"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "elephant-trunk",
+      "noun": "elephant",
+      "form": "sg",
+      "text": "El {gap} lanza agua con la trompa.",
+      "fits": [
+        "elephant"
+      ],
+      "foil": "rhinoceros",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "elephant"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "kangaroo-pouch",
+      "noun": "kangaroo",
+      "form": "sg",
+      "text": "El {gap} lleva a su cría en la bolsa.",
+      "fits": [
+        "kangaroo",
+        "koala"
+      ],
+      "foil": "monkey",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "kangaroo"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "penguin-ice",
+      "noun": "penguin",
+      "form": "sg",
+      "text": "El {gap} se desliza sobre el hielo.",
+      "fits": [
+        "penguin",
+        "seal"
+      ],
+      "foil": "swan",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "birds 2",
+        "noun": "penguin"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "zebra-stripes",
+      "noun": "zebra",
+      "form": "sg",
+      "text": "La {gap} tiene rayas blancas y negras.",
+      "fits": [
+        "zebra"
+      ],
+      "foil": "giraffe",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "zebra"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "turtle-shell",
+      "noun": "turtle",
+      "form": "sg",
+      "text": "La {gap} se esconde en su caparazón.",
+      "fits": [
+        "turtle"
+      ],
+      "foil": "sheep",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "beach",
+        "noun": "turtle"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "rabbit-carrot",
+      "noun": "rabbit",
+      "form": "sg",
+      "text": "El {gap} salta y come una zanahoria.",
+      "fits": [
+        "rabbit"
+      ],
+      "foil": "fox",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "rabbit"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "tractor-field",
+      "noun": "tractor",
+      "form": "sg",
+      "text": "El {gap} ara el campo en la granja.",
+      "fits": [
+        "tractor"
+      ],
+      "foil": "truck",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "vehicles",
+        "noun": "tractor"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "helicopter-blades",
+      "noun": "helicopter",
+      "form": "sg",
+      "text": "El {gap} tiene hélices que giran arriba.",
+      "fits": [
+        "helicopter"
+      ],
+      "foil": "airplane",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "Things That Fly",
+        "noun": "helicopter"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "sailboat-lake",
+      "noun": "sailboat",
+      "form": "sg",
+      "text": "El {gap} navega por el lago con el viento.",
+      "fits": [
+        "sailboat",
+        "boat",
+        "ship"
+      ],
+      "foil": "bus",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "beach",
+        "noun": "sailboat"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "train-tracks",
+      "noun": "train",
+      "form": "sg",
+      "text": "El {gap} corre por las vías.",
+      "fits": [
+        "train"
+      ],
+      "foil": "truck",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "vehicles",
+        "noun": "train"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    }
+  ],
+  "plural": [
+    {
+      "id": "cows-barn",
+      "noun": "cow",
+      "form": "pl",
+      "text": "Tres {gap} duermen en el establo.",
+      "clones": 3,
+      "fits": [
+        "cow",
+        "horse",
+        "pig",
+        "goat",
+        "donkey",
+        "sheep",
+        "llama"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "cow"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "bees-flowers",
+      "noun": "bee",
+      "form": "pl",
+      "text": "Las {gap} zumban entre las flores.",
+      "clones": null,
+      "fits": [
+        "bee"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "forest creatures",
+        "noun": "bee"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "ducks-pond",
+      "noun": "duck",
+      "form": "pl",
+      "text": "Los {gap} hacen cuac en el estanque.",
+      "clones": null,
+      "fits": [
+        "duck"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "duck"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "horses-gallop",
+      "noun": "horse",
+      "form": "pl",
+      "text": "Dos {gap} galopan por el campo.",
+      "clones": 2,
+      "fits": [
+        "horse",
+        "donkey",
+        "zebra"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "horse"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "penguins-ice",
+      "noun": "penguin",
+      "form": "pl",
+      "text": "Los {gap} caminan sobre el hielo.",
+      "clones": null,
+      "fits": [
+        "penguin",
+        "bear"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "penguin"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "bats-cave",
+      "noun": "bat",
+      "form": "pl",
+      "text": "Los {gap} cuelgan boca abajo en la cueva.",
+      "clones": null,
+      "fits": [
+        "bat"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "Things That Fly",
+        "noun": "bat"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "monkeys-swing",
+      "noun": "monkey",
+      "form": "pl",
+      "text": "Los {gap} se columpian de rama en rama.",
+      "clones": null,
+      "fits": [
+        "monkey",
+        "chimpanzee",
+        "orangutan"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "monkey"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "lions-roar",
+      "noun": "lion",
+      "form": "pl",
+      "text": "Los {gap} rugen fuerte en la sabana.",
+      "clones": null,
+      "fits": [
+        "lion",
+        "tiger",
+        "jaguar"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "lion"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "hens-seeds",
+      "noun": "hen",
+      "form": "pl",
+      "text": "Las {gap} picotean semillas en el patio.",
+      "clones": null,
+      "fits": [
+        "hen",
+        "rooster",
+        "duck"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "hen"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "balls-hill",
+      "noun": "ball",
+      "form": "pl",
+      "text": "Tres {gap} ruedan cuesta abajo.",
+      "clones": 3,
+      "fits": [
+        "ball"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "toys",
+        "noun": "ball"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "airplanes-runway",
+      "noun": "airplane",
+      "form": "pl",
+      "text": "Dos {gap} aterrizan en la pista.",
+      "clones": 2,
+      "fits": [
+        "airplane",
+        "helicopter"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "vehicles",
+        "noun": "airplane"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "lemons-sour",
+      "noun": "lemon",
+      "form": "pl",
+      "text": "Los {gap} son amarillos y muy ácidos.",
+      "clones": null,
+      "fits": [
+        "lemon"
+      ],
+      "predicateKind": "copula",
+      "pic": {
+        "theme": "fruits",
+        "noun": "lemon"
+      },
+      "picOpened": true,
+      "signedExclusive": true,
+      "exclusiveWhy": "the only sour yellow fruit in the es pool: the banana is yellow but sweet, and lime is not an es pool noun"
+    }
+  ],
+  "stories": [
+    {
+      "id": "farm-morning",
+      "nouns": [
+        "rooster",
+        "cow",
+        "tractor"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "Al amanecer canta el {gap}.",
+        "La granjera ordeña la {gap}.",
+        "Después el {gap} ara el campo."
+      ],
+      "fits": [
+        [
+          "rooster"
+        ],
+        [
+          "cow",
+          "goat"
+        ],
+        [
+          "tractor"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "farm animals",
+          "noun": "rooster"
+        },
+        {
+          "theme": "farm animals",
+          "noun": "cow"
+        },
+        {
+          "theme": "vehicles",
+          "noun": "tractor"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "pond-day",
+      "nouns": [
+        "duck",
+        "turtle",
+        "dog"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "El {gap} hace cuac en el estanque.",
+        "La {gap} duerme sobre una piedra al sol.",
+        "Luego un {gap} ladra y mueve la cola."
+      ],
+      "fits": [
+        [
+          "duck"
+        ],
+        [
+          "turtle",
+          "seal"
+        ],
+        [
+          "dog"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "farm animals",
+          "noun": "duck"
+        },
+        {
+          "theme": "animals",
+          "noun": "turtle"
+        },
+        {
+          "theme": "animals",
+          "noun": "dog"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "zoo-visit",
+      "nouns": [
+        "elephant",
+        "giraffe",
+        "monkey"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "En el zoológico el {gap} lanza agua.",
+        "La {gap} come hojas de un árbol alto.",
+        "El {gap} salta de rama en rama."
+      ],
+      "fits": [
+        [
+          "elephant"
+        ],
+        [
+          "giraffe"
+        ],
+        [
+          "monkey",
+          "chimpanzee",
+          "orangutan"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "zoo animals",
+          "noun": "elephant"
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "giraffe"
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "monkey"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "sky-day",
+      "nouns": [
+        "airplane",
+        "rocket",
+        "kite"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "El {gap} aterriza en la pista.",
+        "El {gap} despega hacia el espacio.",
+        "El {gap} vuela alto con el viento."
+      ],
+      "fits": [
+        [
+          "airplane",
+          "helicopter"
+        ],
+        [
+          "rocket"
+        ],
+        [
+          "kite",
+          "balloon"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "vehicles",
+          "noun": "airplane"
+        },
+        {
+          "theme": "vehicles",
+          "noun": "rocket"
+        },
+        {
+          "theme": "toys",
+          "noun": "kite"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "beach-day",
+      "nouns": [
+        "dolphin",
+        "sailboat",
+        "bucket"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "El {gap} salta entre las olas.",
+        "El {gap} navega con el viento.",
+        "Con la {gap} hacemos un castillo de arena."
+      ],
+      "fits": [
+        [
+          "dolphin",
+          "whale",
+          "fish"
+        ],
+        [
+          "sailboat",
+          "boat",
+          "ship"
+        ],
+        [
+          "bucket",
+          "shovel"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "beach",
+          "noun": "dolphin"
+        },
+        {
+          "theme": "beach",
+          "noun": "sailboat"
+        },
+        {
+          "theme": "beach",
+          "noun": "bucket"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "forest-night",
+      "nouns": [
+        "owl",
+        "fox",
+        "rabbit"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "De noche el {gap} ulula en el roble.",
+        "El {gap} se acerca al gallinero.",
+        "El {gap} mordisquea una zanahoria."
+      ],
+      "fits": [
+        [
+          "owl"
+        ],
+        [
+          "fox",
+          "wolf"
+        ],
+        [
+          "rabbit"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "forest creatures",
+          "noun": "owl"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "fox"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "rabbit"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    }
+  ],
+  "strings": {
+    "base": {
+      "title": "Completa las oraciones",
+      "instruction": "Mira el dibujo. Busca en el recuadro la palabra que completa la oración y escríbela en la casilla."
+    },
+    "letters": {
+      "title": "Completa la oración con una letra en cada casilla",
+      "instruction": "Mira el dibujo. Escribe la palabra que falta, una letra en cada casilla."
+    },
+    "choice": {
+      "title": "Completa la oración: rodea la palabra correcta",
+      "instruction": "Mira el dibujo y lee la oración. Rodea la palabra que va bien y escríbela en la casilla."
+    },
+    "plural": {
+      "title": "Completa las oraciones en plural",
+      "instruction": "Mira los dibujos. Hay más de uno. Escribe en la casilla la palabra para más de uno."
+    },
+    "story": {
+      "title": "Completa el cuento con las palabras que faltan",
+      "instruction": "Lee todo el cuento. Los tres dibujos muestran las palabras que faltan. Escribe cada una en su casilla."
+    },
+    "match": {
+      "title": "Une cada oración con su dibujo",
+      "instruction": "Lee cada oración. ¿Qué dibujo completa el hueco? Traza una línea desde la oración hasta ese dibujo."
+    }
+  },
+  "refuse": {
+    "plural": false
+  }
+}

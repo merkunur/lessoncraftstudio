@@ -1,0 +1,28 @@
+{
+  "strings": {
+    "K-353": {
+      "title": "Tangram para recortar: 7 piezas y dos figuras",
+      "instruction": "Colorea cada pieza como en la leyenda, recorta las siete piezas por las líneas y ponlas sobre las dos figuras de abajo."
+    },
+    "compose": {
+      "title": "Tangram fácil de 2 y 3 piezas: dibuja las líneas",
+      "instruction": "Mira las piezas de arriba de cada forma. Dibuja dentro de la forma las líneas donde se juntan esas piezas."
+    },
+    "silhouette": {
+      "title": "Tangram: cuatro sombras para armar",
+      "instruction": "Arma cada figura oscura con las siete piezas de tu tangram. Usa siempre las siete piezas."
+    },
+    "missing": {
+      "title": "Tangram: ¿qué pieza falta?",
+      "instruction": "A cada figura le falta una pieza. Rodea la pieza que cabe exactamente en el hueco."
+    },
+    "match": {
+      "title": "Tangram: ¿qué solución es igual a la sombra?",
+      "instruction": "Mira cada sombra. Rodea la solución que está colocada igual que la sombra. Las giradas o volteadas no valen."
+    },
+    "count": {
+      "title": "Tangram: cuenta triángulos y cuadrados",
+      "instruction": "Cuenta los triángulos de cada figura y escribe el número en la primera casilla. Luego cuenta los cuadrados para la segunda."
+    }
+  }
+}

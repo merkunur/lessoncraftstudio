@@ -1,0 +1,72 @@
+{
+  "bins": [
+    {
+      "key": "organico",
+      "label": "Orgánico",
+      "longLabel": "Basura orgánica: restos de comida y plantas (bote verde)",
+      "color": "codeGreen",
+      "colorWord": "verde",
+      "materials": [
+        "organic"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "inorganico",
+      "label": "Inorgánico",
+      "longLabel": "Basura inorgánica: papel, cartón, vidrio, plástico y metal (bote gris)",
+      "color": "inkSoft",
+      "colorWord": "gris",
+      "materials": [
+        "paper",
+        "cardboard",
+        "glass",
+        "plastic",
+        "metal"
+      ],
+      "packagingOnly": false
+    }
+  ],
+  "route": {},
+  "excludeItems": {},
+  "materialWords": {
+    "organic": "orgánico",
+    "paper": "reciclable",
+    "cardboard": "reciclable",
+    "glass": "reciclable",
+    "plastic": "reciclable",
+    "metal": "reciclable"
+  },
+  "colorConvention": "national",
+  "refuse": [],
+  "starters": [],
+  "scheme": "Dos botes, como enseña la escuela primaria en México (SEP): la basura orgánica, restos de comida y plantas, va al bote verde; la inorgánica, papel, cartón, vidrio, plástico y metal, va al bote gris. Algunas ciudades, como la Ciudad de México, separan la inorgánica en más botes, y en España se usan cinco contenedores de colores; la página enseña la primera separación, que sirve en todos los casos.",
+  "enAudit": "EN K-357 base title \"Recycling Sort\" has no bin word while every instruction says \"bin\"; EN K-366 instruction repeats the base condition \"when it is empty or finished\" verbatim (two faces, one sentence); the EN \"compost\" bin holds bread and a bell pepper, which many US home-compost guides exclude; the EN G2-348 title \"Odd One Out\" is the name of the el-intruso family in es, so the es face must say material.",
+  "strings": {
+    "K-357": {
+      "title": "Separación de basura: orgánica e inorgánica",
+      "instruction": "Cada cosa ya está vacía o gastada. Traza una línea desde ella hasta el bote donde se tira."
+    },
+    "K-366": {
+      "title": "Separación de basura: ¿en qué bote va?",
+      "instruction": "Mira cada cosa y rodea el bote donde se tira cuando ya está vacía o gastada."
+    },
+    "G1-364": {
+      "title": "Separación de basura: ¿reciclable u orgánico?",
+      "instruction": "¿Qué es cada cosa? Escribe en la línea la palabra del recuadro que le corresponde."
+    },
+    "G2-348": {
+      "title": "Separación de basura: ¿cuál es de otro material?",
+      "instruction": "En cada fila hay tres cosas del mismo material. Rodea la que es de otro material."
+    },
+    "K-367": {
+      "title": "Separación de basura: colorea los botes",
+      "instruction": "Lee el nombre de cada bote y coloréalo del color que indica la leyenda."
+    },
+    "G1-365": {
+      "title": "Separación de basura: tres cosas que separo en casa",
+      "instruction": "Dibuja tres cosas que separas en casa y escribe qué es cada una."
+    }
+  },
+  "strand": "Conocimiento del Medio"
+}
